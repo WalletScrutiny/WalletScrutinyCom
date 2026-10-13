@@ -21,8 +21,8 @@ android:
   appId: au.com.bitaroo.express
   users: 1000
   appCountry: us
-  updated: 2026-09-30
-  version: 5.3.0
+  updated: 2026-10-07
+  version: 5.3.1
   icon: au.com.bitaroo.express.webp
   meta: ok
   verdict: custodial
@@ -32,8 +32,8 @@ iphone:
   idd: '6444825898'
   appCountry: au
   released: 2022-12-20
-  updated: 2026-09-30
-  version: 5.3.0
+  updated: 2026-10-10
+  version: 5.3.1
   reviews: 26
   icon: au.com.bitaroo.express.webp
   meta: ok

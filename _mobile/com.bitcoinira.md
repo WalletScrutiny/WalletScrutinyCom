@@ -21,9 +21,9 @@ android:
   users: 100000
   appCountry: us
   released: 2021-06-15
-  updated: 2026-09-15
-  version: 2.0.27
-  reviews: 561
+  updated: 2026-10-08
+  version: 2.261008.1
+  reviews: 562
   icon: com.bitcoinira.webp
   meta: ok
   verdict: custodial
@@ -33,8 +33,8 @@ iphone:
   idd: '1534638949'
   appCountry: us
   released: 2021-06-20
-  updated: 2026-09-15
-  version: 2.0.27
+  updated: 2026-10-06
+  version: 2.261005.1
   reviews: 1218
   icon: com.bitcoinira.webp
   meta: ok

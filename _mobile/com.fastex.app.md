@@ -33,7 +33,7 @@ iphone:
   released: 2023-04-13
   updated: 2025-09-08
   version: 1.41.0
-  reviews: 247
+  reviews: 248
   icon: com.fastex.fastexapp.webp
   meta: stale
   verdict: custodial

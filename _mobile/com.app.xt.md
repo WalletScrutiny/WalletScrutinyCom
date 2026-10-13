@@ -20,8 +20,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2021-04-14
-  updated: 2026-09-16
-  version: 5.33.0
+  updated: 2026-10-10
+  version: 5.34.0
   reviews: 262
   icon: com.app.xt.webp
   meta: ok
@@ -32,8 +32,8 @@ iphone:
   idd: '1556596708'
   appCountry: us
   released: 2021-03-08
-  updated: 2026-09-18
-  version: 5.33.0
+  updated: 2026-10-12
+  version: 5.34.0
   reviews: 1371
   icon: com.xt.app.webp
   meta: ok

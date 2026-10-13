@@ -1,7 +1,6 @@
 ---
 wsId: phoenix
 title: Phoenix - LN Bitcoin wallet
-bitcoinOrgId: phoenix
 date: 2024-07-05
 authors:
 - leo
@@ -40,8 +39,8 @@ iphone:
   idd: '1544097028'
   appCountry: gb
   released: 2021-07-13
-  updated: 2026-09-08
-  version: 2.8.2
+  updated: 2026-10-06
+  version: 2.8.4
   reviews: 21
   icon: co.acinq.phoenix.webp
   meta: ok

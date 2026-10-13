@@ -20,8 +20,8 @@ android:
   appId: com.coinpassmobile
   users: 1000
   appCountry: us
-  updated: 2026-09-08
-  version: 3.18.0-coinpass
+  updated: 2026-10-01
+  version: 3.19.0-coinpass
   icon: com.coinpassmobile.webp
   meta: ok
   verdict: custodial
@@ -31,8 +31,8 @@ iphone:
   idd: '1530358553'
   appCountry: gb
   released: 2020-11-20
-  updated: 2026-08-26
-  version: 3.17.0
+  updated: 2026-10-13
+  version: 3.18.0
   reviews: 18
   icon: com.coinpasslimited.coinpassinstant.webp
   meta: ok

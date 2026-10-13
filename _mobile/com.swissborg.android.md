@@ -18,8 +18,8 @@ android:
   users: 500000
   appCountry: gb
   released: 2020-06-16
-  updated: 2026-09-25
-  version: 1.146.0
+  updated: 2026-10-12
+  version: 1.147.0
   reviews: 988
   icon: com.swissborg.android.webp
   meta: ok
@@ -30,9 +30,9 @@ iphone:
   idd: 1442483481
   appCountry: gb
   released: 2020-03-31
-  updated: 2026-10-02
-  version: 1.146.1
-  reviews: 2737
+  updated: 2026-10-13
+  version: 1.147.0
+  reviews: 2744
   icon: com.swissborg.ios.webp
   meta: ok
   verdict: custodial

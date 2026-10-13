@@ -20,8 +20,8 @@ android:
   users: 10000000
   appCountry: us
   released: 2017-10-18
-  updated: 2026-10-02
-  version: 3.52.0
+  updated: 2026-10-12
+  version: 3.53.0
   reviews: 38
   icon: com.capital.trading.webp
   meta: ok

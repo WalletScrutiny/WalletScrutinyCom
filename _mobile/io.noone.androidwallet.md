@@ -20,7 +20,7 @@ android:
   released: 2023-03-17
   updated: 2026-02-12
   version: 1.32.0
-  reviews: 312
+  reviews: 311
   icon: io.noone.androidwallet.webp
   meta: ok
   verdict: nosource
@@ -32,7 +32,7 @@ iphone:
   released: 2023-03-29
   updated: 2026-08-18
   version: 1.33.0
-  reviews: 175
+  reviews: 176
   icon: io.noone.ioswallet.webp
   meta: ok
   verdict: nosource

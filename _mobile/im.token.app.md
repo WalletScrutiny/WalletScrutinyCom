@@ -19,7 +19,7 @@ android:
   appCountry: us
   released: 2018-05-31
   updated: 2026-09-26
-  version: 2.22.0
+  version: 2.23.0
   reviews: 246
   icon: im.token.app.webp
   meta: ok
@@ -32,7 +32,7 @@ iphone:
   released: 2018-06-07
   updated: 2026-09-30
   version: 2.23.0
-  reviews: 1129
+  reviews: 1134
   icon: im.token.app.webp
   meta: ok
   verdict: nosource

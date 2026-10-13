@@ -31,9 +31,9 @@ android:
   users: 100000
   appCountry: us
   released: 2020-01-01
-  updated: 2026-09-20
-  version: 6.4.5
-  reviews: 675
+  updated: 2026-10-12
+  version: 6.4.6
+  reviews: 676
   icon: com.cakewallet.cake_wallet.webp
   alternativeStores:
   - zapstore
@@ -46,9 +46,9 @@ iphone:
   idd: 1334702542
   appCountry: us
   released: 2018-01-19
-  updated: 2026-09-20
-  version: 6.4.5
-  reviews: 4216
+  updated: 2026-10-07
+  version: 6.4.6
+  reviews: 4213
   icon: com.fotolockr.cakewallet.webp
   meta: ok
   verdict: sourceavailable

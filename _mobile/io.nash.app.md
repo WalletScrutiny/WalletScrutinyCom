@@ -17,8 +17,8 @@ android:
   users: 10000
   appCountry: us
   released: 2019-08-31
-  updated: 2026-09-28
-  version: 18.0.0
+  updated: 2026-10-01
+  version: 18.0.1
   reviews: 25
   icon: io.nash.app.webp
   meta: ok
@@ -29,8 +29,8 @@ iphone:
   idd: 1475759236
   appCountry: de
   released: 2019-09-06
-  updated: 2026-10-01
-  version: 18.0.0
+  updated: 2026-10-06
+  version: 18.0.1
   reviews: 106
   icon: io.nash.app.webp
   meta: ok

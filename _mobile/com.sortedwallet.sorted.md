@@ -12,8 +12,8 @@ android:
   users: 10000
   appCountry: us
   released: 2025-12-11
-  updated: 2026-07-24
-  version: 1.0.25
+  updated: 2026-10-06
+  version: 1.0.26
   reviews: 3
   icon: com.sortedwallet.sorted.webp
   meta: ok

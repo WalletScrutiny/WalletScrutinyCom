@@ -17,7 +17,7 @@ android:
   users: 100000
   appCountry: us
   released: 2018-12-19
-  updated: 2026-04-13
+  updated: 2026-09-11
   version: 15.0.0
   reviews: 10
   icon: com.maicoin.maicoin.webp

@@ -13,8 +13,8 @@ android:
   users: 1000
   appCountry: us
   released: 2018-10-01
-  updated: 2026-08-28
-  version: 8.0.1
+  updated: 2026-10-08
+  version: 8.0.2
   icon: com.rehivewallet.webp
   meta: ok
   verdict: custodial
@@ -24,8 +24,8 @@ iphone:
   idd: '1371128319'
   appCountry: us
   released: 2018-10-10
-  updated: 2026-08-28
-  version: 8.0.1
+  updated: 2026-10-08
+  version: 8.0.2
   reviews: 4
   icon: com.rehive.wallet.webp
   meta: ok

@@ -26,7 +26,7 @@ android:
   released: 2024-05-13
   updated: 2026-09-17
   version: 2.7.3
-  reviews: 15
+  reviews: 16
   icon: com.cypherstack.stackwallet.webp
   alternativeStores:
   - zapstore

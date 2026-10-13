@@ -1,6 +1,6 @@
 ---
 wsId: etoro
-title: 'eToro: Trade. Invest. Connect.'
+title: 'etoro: Trade. Invest. Connect.'
 date: 2021-04-02
 authors:
 - leo
@@ -17,9 +17,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2013-11-05
-  updated: 2026-10-01
-  version: 651.1334.1
-  reviews: 3820
+  updated: 2026-10-11
+  version: 700.439.0
+  reviews: 3822
   icon: com.etoro.openbook.webp
   meta: ok
   verdict: custodial
@@ -29,9 +29,9 @@ iphone:
   idd: 674984916
   appCountry: us
   released: 2017-06-26
-  updated: 2026-09-27
-  version: v651.1334.1
-  reviews: 9933
+  updated: 2026-10-12
+  version: v700.465.1
+  reviews: 9944
   icon: com.etoro.openbook.webp
   meta: ok
   verdict: custodial

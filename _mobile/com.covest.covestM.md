@@ -19,7 +19,7 @@ android:
   updated: 2025-10-16
   version: 2.1.0
   icon: com.covest.covestM.webp
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: COVEST PRO
 iphone:

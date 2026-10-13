@@ -16,8 +16,8 @@ android:
   users: 100000
   appCountry: us
   released: 2020-10-26
-  updated: 2026-08-25
-  version: '2.46'
+  updated: 2026-10-05
+  version: '2.47'
   reviews: 2
   icon: com.silenca.amlsafe.webp
   meta: ok
@@ -28,8 +28,8 @@ iphone:
   idd: '1519145333'
   appCountry: us
   released: 2020-07-28
-  updated: 2026-08-25
-  version: 2.46.835
+  updated: 2026-10-05
+  version: 2.47.843
   reviews: 51
   icon: com.avelot.amlsafe.webp
   meta: ok

@@ -28,7 +28,7 @@ iphone:
   released: 2018-12-15
   updated: 2026-10-01
   version: 1.98.1
-  reviews: 84
+  reviews: 85
   icon: com.quantfury.webp
   meta: ok
   verdict: custodial

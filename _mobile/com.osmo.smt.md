@@ -36,9 +36,9 @@ iphone:
   idd: '1610776134'
   appCountry: us
   released: 2022-06-14
-  updated: 2026-09-25
-  version: 4.9.21
-  reviews: 184
+  updated: 2026-10-12
+  version: 4.9.22
+  reviews: 185
   icon: com.osmowallet.app.webp
   meta: ok
   verdict: custodial

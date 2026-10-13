@@ -20,8 +20,8 @@ android:
   users: 1000000
   appCountry: nz
   released: 2021-05-26
-  updated: 2026-09-07
-  version: 3.10.4
+  updated: 2026-10-05
+  version: 3.11.0
   reviews: 16
   icon: com.crypto.exchange.webp
   meta: ok
@@ -32,8 +32,8 @@ iphone:
   idd: 1569309855
   appCountry: nz
   released: 2021-06-15
-  updated: 2026-09-09
-  version: 3.10.4
+  updated: 2026-10-07
+  version: 3.11.0
   reviews: 110
   icon: crypto.com.exchange.webp
   meta: ok

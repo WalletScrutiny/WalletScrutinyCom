@@ -16,7 +16,7 @@ android:
   released: 2019-06-03
   updated: 2026-03-02
   version: 1.3.14
-  reviews: 2285
+  reviews: 2288
   icon: com.papaya.blackcatcard.webp
   meta: ok
   verdict: custodial

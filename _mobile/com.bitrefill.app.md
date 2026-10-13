@@ -19,9 +19,9 @@ android:
   users: 500000
   appCountry: us
   released: 2018-04-10
-  updated: 2026-09-25
-  version: 8.0.0
-  reviews: 291
+  updated: 2026-10-03
+  version: 8.1.0
+  reviews: 292
   icon: com.bitrefill.app.webp
   meta: ok
   verdict: custodial
@@ -31,9 +31,9 @@ iphone:
   idd: 1378102623
   appCountry: us
   released: 2018-06-05
-  updated: 2026-09-30
-  version: 8.0.0
-  reviews: 486
+  updated: 2026-10-09
+  version: 8.1.0
+  reviews: 492
   icon: com.bitrefill.bitrefill.webp
   meta: ok
   verdict: custodial

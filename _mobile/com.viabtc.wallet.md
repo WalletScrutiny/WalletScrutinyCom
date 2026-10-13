@@ -25,7 +25,7 @@ android:
   released: 2019-05-15
   updated: 2026-09-18
   version: 4.24.2
-  reviews: 62
+  reviews: 63
   icon: com.viabtc.wallet.webp
   meta: ok
   verdict: nosource

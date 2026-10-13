@@ -26,7 +26,7 @@ android:
   released: 2017-04-25
   updated: 2026-08-28
   version: '55.11'
-  reviews: 237
+  reviews: 239
   icon: io.muun.apollo.webp
   signer: 026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1
   builds:

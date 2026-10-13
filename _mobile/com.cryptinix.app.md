@@ -16,7 +16,7 @@ android:
   updated: 2025-10-14
   version: 1.2.9
   icon: com.cryptinix.app.webp
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: Cryptinix
 iphone:

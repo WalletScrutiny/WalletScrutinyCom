@@ -11,8 +11,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-02-04
-  updated: 2026-08-31
-  version: 1.9.1
+  updated: 2026-10-05
+  version: 1.9.2
   icon: com.most.wallet.webp
   meta: ok
   verdict: nosource

@@ -19,7 +19,7 @@ android:
   released: 2020-09-22
   updated: 2026-10-02
   version: 3.4.4
-  reviews: 331
+  reviews: 335
   icon: am.ecos.android.webp
   meta: ok
   verdict: custodial

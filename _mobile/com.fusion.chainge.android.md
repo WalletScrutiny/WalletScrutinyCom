@@ -33,7 +33,7 @@ iphone:
   version: 0.8.3
   reviews: 88
   icon: com.chainge.finance.app.webp
-  meta: stale
+  meta: removed
   verdict: nosource
   developerName: Chainge Tech Limited
 

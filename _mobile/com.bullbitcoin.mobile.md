@@ -1,6 +1,5 @@
 ---
 title: BULL
-bitcoinOrgId: bull
 date: 2025-01-13
 authors:
 - danny
@@ -44,8 +43,8 @@ iphone:
   idd: '6743380972'
   appCountry: us
   released: 2025-09-29
-  updated: 2026-09-02
-  version: 6.13.1
+  updated: 2026-10-12
+  version: 6.14.0
   reviews: 21
   icon: com.bullbitcoin.app.webp
   meta: ok

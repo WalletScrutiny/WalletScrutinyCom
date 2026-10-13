@@ -8,7 +8,7 @@ iphone:
   released: 2025-08-18
   updated: 2026-09-29
   version: 28.28.40
-  reviews: 87
+  reviews: 85
   icon: com.production.BitcoinWallet.webp
   meta: ok
   verdict: wip

@@ -33,7 +33,7 @@ iphone:
   released: 2017-05-25
   updated: 2026-10-03
   version: 4.1.7
-  reviews: 84
+  reviews: 85
   icon: net.iconomi.iconomi.webp
   meta: ok
   verdict: custodial

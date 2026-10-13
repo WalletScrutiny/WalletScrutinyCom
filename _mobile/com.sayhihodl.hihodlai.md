@@ -1,5 +1,5 @@
 ---
-title: 'HOLD: Stablecoin Wallet'
+title: 'HOLD: Pay & Split with Friends'
 date: 2026-09-16
 authors:
 - danny
@@ -13,8 +13,8 @@ android:
   users: 10
   appCountry: us
   released: 2026-05-28
-  updated: 2026-09-11
-  version: 1.7.9
+  updated: 2026-10-08
+  version: 1.8.1
   icon: com.sayhihodl.hihodlai.webp
   meta: fewusers
   verdict: custodial
@@ -24,8 +24,8 @@ iphone:
   idd: '6755203065'
   appCountry: us
   released: 2026-04-02
-  updated: 2026-05-13
-  version: 1.5.3
+  updated: 2026-10-10
+  version: 1.8.1
   reviews: 1
   icon: com.sayhihodl.hihodlyes.webp
   meta: ok

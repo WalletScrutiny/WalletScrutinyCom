@@ -37,7 +37,7 @@ android:
   icon: com.breez.client.webp
   alternativeStores:
   - zapstore
-  meta: stale
+  meta: removed
   verdict: sourceavailable
   developerName: Breez Development LTD
   repository: https://github.com/breez/breezmobile

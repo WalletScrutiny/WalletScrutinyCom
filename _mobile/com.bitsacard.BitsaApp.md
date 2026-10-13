@@ -1,6 +1,6 @@
 ---
 wsId: bitsa
-title: 'Bitsa: Prepaid Card'
+title: 'Bitsa: Reloadable Prepaid Card'
 date: 2021-11-02
 authors:
 - danny

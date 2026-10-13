@@ -31,7 +31,7 @@ iphone:
   version: 1.8.8
   reviews: 8
   icon: com.bitex.otc.webp
-  meta: stale
+  meta: obsolete
   verdict: custodial
   developerName: BITDATA DIGITAL TECH PTE. LTD.
 

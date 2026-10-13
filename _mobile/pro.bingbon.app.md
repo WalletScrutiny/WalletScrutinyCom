@@ -33,7 +33,7 @@ iphone:
   released: 2020-02-25
   updated: 2026-10-01
   version: 5.3.0
-  reviews: 3117
+  reviews: 3129
   icon: pro.bingbon.finance.webp
   meta: ok
   verdict: custodial

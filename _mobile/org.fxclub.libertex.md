@@ -17,7 +17,7 @@ android:
   released: 2015-05-22
   updated: 2026-08-31
   version: 2.61.0
-  reviews: 1271
+  reviews: 1270
   icon: org.fxclub.libertex.webp
   meta: ok
   verdict: nosendreceive

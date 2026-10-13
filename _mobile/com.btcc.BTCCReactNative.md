@@ -21,7 +21,7 @@ android:
   released: 2022-11-17
   updated: 2026-08-24
   version: 3.5.45
-  reviews: 87
+  reviews: 88
   icon: com.btcc.BTCCReactNative.webp
   meta: ok
   verdict: custodial
@@ -33,7 +33,7 @@ iphone:
   released: 2017-01-20
   updated: 2026-08-27
   version: 3.5.45
-  reviews: 192
+  reviews: 193
   icon: com.btcc.BTCCReactNative.webp
   meta: ok
   verdict: custodial

@@ -1,7 +1,6 @@
 ---
 wsId: Unstoppable
 title: 'Unstoppable: Crypto Wallet'
-bitcoinOrgId: unstoppable
 date: 2020-12-19
 authors:
 - leo
@@ -29,9 +28,9 @@ android:
   users: 100000
   appCountry: us
   released: 2018-12-18
-  updated: 2026-09-30
-  version: 0.51.2
-  reviews: 144
+  updated: 2026-10-12
+  version: 0.52.0
+  reviews: 145
   icon: io.horizontalsystems.bankwallet.webp
   signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
   alternativeStores:
@@ -48,7 +47,7 @@ iphone:
   released: 2019-01-10
   updated: 2026-09-16
   version: '0.51'
-  reviews: 1366
+  reviews: 1368
   icon: io.horizontalsystems.bank-wallet.webp
   meta: ok
   verdict: sourceavailable

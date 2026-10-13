@@ -29,7 +29,7 @@ android:
   released: 2018-07-02
   updated: 2026-09-24
   version: 5.0.0
-  reviews: 566
+  reviews: 568
   icon: com.ellipal.wallet.webp
   meta: ok
   verdict: nosource

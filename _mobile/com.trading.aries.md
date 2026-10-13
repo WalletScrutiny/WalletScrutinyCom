@@ -18,8 +18,8 @@ android:
   users: 5000
   appCountry: ng
   released: 2021-06-23
-  updated: 2026-09-25
-  version: 4.3.4
+  updated: 2026-10-06
+  version: 4.3.5
   icon: com.trading.aries.webp
   meta: ok
   verdict: nosendreceive

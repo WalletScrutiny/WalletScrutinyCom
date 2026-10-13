@@ -17,8 +17,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2022-06-21
-  updated: 2026-10-01
-  version: 1.117.0
+  updated: 2026-10-06
+  version: 1.117.1
   reviews: 5
   icon: br.com.mynt.webp
   meta: ok
@@ -29,8 +29,8 @@ iphone:
   idd: '1592181444'
   appCountry: br
   released: 2022-06-19
-  updated: 2026-10-02
-  version: 1.117.0
+  updated: 2026-10-07
+  version: 1.117.1
   reviews: 1916
   icon: br.com.mynt.webp
   meta: ok

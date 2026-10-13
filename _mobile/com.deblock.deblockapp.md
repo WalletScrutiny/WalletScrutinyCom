@@ -15,8 +15,8 @@ android:
   appId: com.deblock.deblockapp
   users: 500000
   appCountry: us
-  updated: 2026-09-30
-  version: 6.9.0
+  updated: 2026-10-07
+  version: 6.9.1
   reviews: 11
   icon: com.deblock.deblockapp.webp
   meta: ok
@@ -29,7 +29,7 @@ iphone:
   released: 2024-04-02
   updated: 2026-10-01
   version: 6.9.0
-  reviews: 28866
+  reviews: 29501
   icon: com.deblock.deblockapp.production.webp
   meta: ok
   verdict: custodial

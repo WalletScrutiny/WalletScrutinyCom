@@ -17,8 +17,8 @@ android:
   users: 10000
   appCountry: us
   released: 2018-06-23
-  updated: 2026-09-28
-  version: '3.61'
+  updated: 2026-10-01
+  version: '3.62'
   reviews: 2
   icon: w3axis.com.epocket.webp
   meta: ok
@@ -29,8 +29,8 @@ iphone:
   idd: '1445852225'
   appCountry: au
   released: 2018-12-19
-  updated: 2026-10-01
-  version: 3.4.11
+  updated: 2026-10-13
+  version: 3.4.12
   reviews: 38
   icon: com.live.epocket.webp
   meta: ok

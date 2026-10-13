@@ -17,7 +17,7 @@ android:
   released: 2017-05-23
   updated: 2026-09-27
   version: 168.15.1
-  reviews: 11
+  reviews: 10
   icon: com.avatrade.mobile.webp
   meta: ok
   verdict: nosendreceive

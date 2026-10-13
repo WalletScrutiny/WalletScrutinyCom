@@ -34,9 +34,9 @@ iphone:
   idd: '1546957530'
   appCountry: au
   released: 2022-03-19
-  updated: 2026-10-01
-  version: 1.16.0
-  reviews: 302
+  updated: 2026-10-08
+  version: 1.16.1
+  reviews: 306
   icon: com.btcmarkets.btcm.webp
   meta: ok
   verdict: custodial

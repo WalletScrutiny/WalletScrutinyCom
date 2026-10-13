@@ -6,8 +6,8 @@ authors:
 - keraliss
 released: 2024-04-02
 discontinued: 
-updated: 2026-09-17
-version: 3.1.0
+updated: 2026-10-10
+version: 3.1.2
 binaries: https://keyst.one/firmware
 dimensions:
 - 62

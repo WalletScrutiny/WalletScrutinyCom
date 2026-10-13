@@ -19,11 +19,11 @@ redirect_from:
 - /iphone/com.robinhood.release.Gateway/
 android:
   appId: com.robinhood.gateway
-  users: 100000
+  users: 500000
   appCountry: us
   released: 2024-03-12
-  updated: 2026-09-30
-  version: 2026.40.1
+  updated: 2026-10-06
+  version: 2026.41.2
   reviews: 262
   icon: com.robinhood.gateway.webp
   meta: ok
@@ -34,9 +34,9 @@ iphone:
   idd: '1634080733'
   appCountry: us
   released: 2023-01-18
-  updated: 2026-09-28
-  version: 2026.40.0
-  reviews: 6908
+  updated: 2026-10-05
+  version: 2026.41.0
+  reviews: 6948
   icon: com.robinhood.release.Gateway.webp
   meta: ok
   verdict: nosource

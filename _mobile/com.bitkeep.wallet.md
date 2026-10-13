@@ -33,7 +33,7 @@ iphone:
   released: 2018-09-26
   updated: 2026-09-26
   version: 9.65.1
-  reviews: 5626
+  reviews: 5629
   icon: com.bitkeep.os.webp
   meta: ok
   verdict: nosource

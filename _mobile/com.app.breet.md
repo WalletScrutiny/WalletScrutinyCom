@@ -31,9 +31,9 @@ iphone:
   idd: '1609711640'
   appCountry: us
   released: 2022-03-04
-  updated: 2026-06-17
-  version: 7.2.7
-  reviews: 1246
+  updated: 2026-10-06
+  version: 7.3.0
+  reviews: 1251
   icon: com.app.breet.webp
   meta: ok
   verdict: nosendreceive

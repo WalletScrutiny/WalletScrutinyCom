@@ -16,7 +16,7 @@ android:
   appCountry: us
   released: 2017-10-23
   updated: 2026-09-18
-  version: 1.36.1
+  version: 1.36.2
   reviews: 21
   icon: com.dunamu.exchange.webp
   meta: ok

@@ -1,7 +1,6 @@
 ---
 wsId: mycelium
 title: Mycelium Bitcoin Wallet
-bitcoinOrgId: mycelium
 date: 2025-03-07
 authors:
 - leo
@@ -50,7 +49,7 @@ iphone:
   released: 2014-12-17
   updated: 2026-09-25
   version: '2.12'
-  reviews: 22
+  reviews: 25
   icon: com.mycelium.wallet-ios.webp
   meta: ok
   verdict: sourceavailable

@@ -35,7 +35,7 @@ iphone:
   released: 2019-09-18
   updated: 2026-09-30
   version: 3.7.19
-  reviews: 159
+  reviews: 158
   icon: rockitcoinexchange.webp
   meta: ok
   verdict: nosource

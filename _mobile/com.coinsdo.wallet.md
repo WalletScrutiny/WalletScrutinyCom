@@ -21,7 +21,7 @@ android:
   released: 2022-06-26
   updated: 2026-07-29
   version: 2.0.30
-  reviews: 119
+  reviews: 120
   icon: com.coinsdo.wallet.webp
   meta: ok
   verdict: nosource

@@ -17,8 +17,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-01-26
-  updated: 2026-08-26
-  version: 2.0.15
+  updated: 2026-10-07
+  version: 2.0.16
   reviews: 10
   icon: com.vent.app.webp
   meta: ok

@@ -19,8 +19,8 @@ android:
   appCountry: us
   released: 2020-05-08
   updated: 2026-09-29
-  version: 8.2.0
-  reviews: 711
+  version: 8.2.1
+  reviews: 715
   icon: com.superchain.lbankgoogle.webp
   meta: ok
   verdict: custodial
@@ -32,7 +32,7 @@ iphone:
   released: 2019-02-22
   updated: 2026-10-02
   version: 6.1.9
-  reviews: 784
+  reviews: 798
   icon: com.LBank.LBankNavApp.webp
   meta: ok
   verdict: custodial

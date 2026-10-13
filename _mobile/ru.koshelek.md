@@ -17,8 +17,8 @@ android:
   users: 10000
   appCountry: ru
   released: 2020-07-28
-  updated: 2026-06-22
-  version: 2.3.8
+  updated: 2026-10-05
+  version: 2.4.2
   reviews: 152
   icon: ru.koshelek.webp
   meta: ok
@@ -33,7 +33,7 @@ iphone:
   version: 2.3.8
   reviews: 122
   icon: dev.spedn.ru.webp
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Кошелёк.ру
 

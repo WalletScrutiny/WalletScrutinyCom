@@ -23,7 +23,7 @@ android:
   users: 100000
   appCountry: us
   updated: 2026-09-28
-  version: 2.11.1
+  version: 2.11.2
   icon: au.com.swyftx.webp
   meta: ok
   verdict: custodial

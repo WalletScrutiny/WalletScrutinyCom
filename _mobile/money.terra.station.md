@@ -16,7 +16,7 @@ android:
   appId: money.terra.station
   users: 500000
   appCountry: us
-  released: Feb 15, 2021
+  released: 2021-02-15
   updated: 2026-07-17
   version: 6.1.0
   reviews: 195
@@ -28,7 +28,7 @@ iphone:
   appId: money.terra.station
   idd: '1548434735'
   appCountry: us
-  released: '2021-02-17T08:00:00Z'
+  released: 2021-02-17
   updated: 2026-07-16
   version: 6.1.0
   reviews: 267

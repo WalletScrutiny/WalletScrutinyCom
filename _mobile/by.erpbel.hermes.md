@@ -20,8 +20,8 @@ android:
   users: 50000
   appCountry: us
   released: 2022-10-06
-  updated: 2026-09-03
-  version: 2.15.8
+  updated: 2026-10-09
+  version: 2.15.17
   icon: by.erpbel.hermes.webp
   meta: ok
   verdict: custodial

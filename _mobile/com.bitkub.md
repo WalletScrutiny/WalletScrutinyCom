@@ -17,21 +17,21 @@ android:
   users: 5000000
   appCountry: us
   released: 2019-04-20
-  updated: 2026-09-14
-  version: 4.21.1
+  updated: 2026-10-02
+  version: 4.22.0
   reviews: 46
   icon: com.bitkub.webp
   meta: ok
   verdict: custodial
-  developerName: Bitkub Online Co., Ltd. (Head Office)
+  developerName: Bitkub Online Co., Ltd.
 iphone:
   appId: com.bitkub.app
   idd: 1437814700
   appCountry: th
   released: 2019-04-24
-  updated: 2026-09-16
-  version: 4.21.1
-  reviews: 19909
+  updated: 2026-10-07
+  version: 4.22.0
+  reviews: 20049
   icon: com.bitkub.app.webp
   meta: ok
   verdict: custodial

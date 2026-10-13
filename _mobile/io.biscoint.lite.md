@@ -16,8 +16,8 @@ android:
   users: 100000
   appCountry: us
   released: 2022-04-05
-  updated: 2026-09-30
-  version: 2.11.0
+  updated: 2026-10-06
+  version: 2.11.1
   reviews: 6
   icon: io.biscoint.lite.webp
   meta: ok
@@ -28,8 +28,8 @@ iphone:
   idd: '1588152503'
   appCountry: br
   released: 2022-02-09
-  updated: 2026-10-01
-  version: 2.11.0
+  updated: 2026-10-07
+  version: 2.11.1
   reviews: 8975
   icon: io.biscoint.lite.webp
   meta: ok

@@ -8,8 +8,8 @@ android:
   users: 50
   appCountry: us
   released: 2025-09-26
-  updated: 2026-09-25
-  version: 1.9.3
+  updated: 2026-10-07
+  version: 1.10.0
   icon: mybuho.buhogo.webp
   alternativeStores:
   - zapstore

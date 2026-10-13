@@ -32,7 +32,7 @@ iphone:
   released: 2019-03-24
   updated: 2026-08-22
   version: 3.48.0
-  reviews: 5549
+  reviews: 5551
   icon: br.com.foxbit.webp
   meta: ok
   verdict: custodial

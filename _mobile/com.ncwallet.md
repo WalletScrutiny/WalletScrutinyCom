@@ -16,9 +16,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2022-10-18
-  updated: 2026-09-25
-  version: 4.467.0
-  reviews: 995
+  updated: 2026-10-10
+  version: 4.554.0
+  reviews: 1009
   icon: com.ncwallet.webp
   meta: ok
   verdict: custodial
@@ -30,7 +30,7 @@ iphone:
   released: 2022-09-27
   updated: 2026-09-29
   version: 4.468.0
-  reviews: 369
+  reviews: 382
   icon: com.ncwallet.webp
   meta: ok
   verdict: custodial

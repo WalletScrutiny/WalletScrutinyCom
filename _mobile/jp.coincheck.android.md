@@ -17,8 +17,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2015-04-23
-  updated: 2026-08-21
-  version: 4.21.1
+  updated: 2026-10-05
+  version: 4.21.2
   reviews: 13
   icon: jp.coincheck.android.webp
   meta: ok
@@ -31,7 +31,7 @@ iphone:
   released: 2015-01-21
   updated: 2026-10-05
   version: 5.0.1
-  reviews: 109827
+  reviews: 109850
   icon: jp.coincheck.ios.webp
   meta: ok
   verdict: custodial

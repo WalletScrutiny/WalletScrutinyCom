@@ -29,9 +29,9 @@ iphone:
   idd: '1556711130'
   appCountry: de
   released: 2021-06-07
-  updated: 2026-09-21
-  version: 5.21.0
-  reviews: 27061
+  updated: 2026-10-06
+  version: 5.21.1
+  reviews: 27186
   icon: de.gratisbroker.ios.mobileapp.webp
   meta: ok
   verdict: nosendreceive
