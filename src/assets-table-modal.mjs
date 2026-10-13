@@ -59,6 +59,60 @@ export function buildDiffoscopeOpenButtonHtml(fileName, fileUrl) {
   }, fileName ?? ''));
 }
 
+/**
+ * The button that opens the build log viewer on a verification's recording: a compact
+ * dark pill with a terminal icon. The recording is only downloaded once it is clicked.
+ */
+export function buildBuildLogButtonHtml(castHash, fileName, subject) {
+  if (!isSha256Hex(castHash)) {
+    return '';
+  }
+  return htmlOf(el('button', {
+    type: 'button',
+    className: 'build-log-button js-open-build-log',
+    title: 'Open the build log',
+    dataset: {
+      castHash,
+      logSubject: subject ?? '',
+      logFile: fileName ?? '',
+    },
+  },
+    el('span', { className: 'build-log-button-icon', 'aria-hidden': 'true', html: wsIcon('terminal') }),
+    'View build log',
+  ));
+}
+
+let buildLogViewerPromise;
+
+/** The viewer is its own chunk, fetched the first time a build log is wanted. */
+function getBuildLogViewer() {
+  buildLogViewerPromise ??= import(/* webpackChunkName: "build-log-viewer" */ './build-log-viewer.mjs')
+    .catch((error) => {
+      buildLogViewerPromise = undefined;
+      throw error;
+    });
+  return buildLogViewerPromise;
+}
+
+export function prefetchBuildLogViewer() {
+  getBuildLogViewer().catch(() => {});
+}
+
+function openBuildLogFromButton(button) {
+  getBuildLogViewer()
+    .then(module => module.openBuildLogViewer({
+      hash: button.dataset.castHash || '',
+      subject: button.dataset.logSubject || '',
+      fileName: button.dataset.logFile || '',
+    }, button))
+    .catch((error) => {
+      console.error('build log viewer failed to load:', error);
+      if (typeof window.showToast === 'function') {
+        window.showToast('The build log viewer could not be loaded');
+      }
+    });
+}
+
 export function buildIssueTrackerLinkHtml(issueTrackerUrl) {
   const safeUrl = sanitizeHttpUrl(issueTrackerUrl);
   if (!safeUrl) {
@@ -716,11 +770,13 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   const numberVerificationAttachments = verificationAttachments.length;
 
   let firstAsciicastFileSHA256 = null;
+  let firstAsciicastFileName = '';
   let diffoscopeFiles = [];
   let outputFilesHTML = '';
   for (const outputFile of verificationOutputFiles) {
-    if (!firstAsciicastFileSHA256 && outputFile[1].includes('.cast')) {
+    if (!firstAsciicastFileSHA256 && outputFile[1].includes('.cast') && isSha256Hex(outputFile[2])) {
       firstAsciicastFileSHA256 = outputFile[2];
+      firstAsciicastFileName = outputFile[1];
     }
     if (outputFile[1].includes('diffo') && outputFile[1].includes('html') && isSha256Hex(outputFile[2])) {
       diffoscopeFiles.push(outputFile);
@@ -756,8 +812,8 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     diffoscopeHTML += '</div>';
   }
 
-  const asciicastHTML = firstAsciicastFileSHA256
-    ? '<br><div id="ascii_cast_player" class="asciicast-player" style="margin-bottom: 20px;"></div>'
+  const buildLogHTML = firstAsciicastFileSHA256
+    ? buildBuildLogButtonHtml(firstAsciicastFileSHA256, firstAsciicastFileName, `${walletTitle} ${version ?? ''}`.trim())
     : '';
 
   const issueTrackerUrl = getFirstTagValue(verification, 'issue-tracker-url') || '';
@@ -798,54 +854,12 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   <p><strong>Information:</strong></p>
   <div class="markdown-content">
       ${diffoscopeHTML}
-      ${asciicastHTML}
+      ${buildLogHTML}
       <div>${parsedMarkdown}</div>
   </div>`;
 
   content.innerHTML = contentHTML;
   void fillReportAuthors(content, async pubkey => getProfileDisplayName(await getNostrProfile(pubkey), pubkey));
-
-  if (firstAsciicastFileSHA256) {
-    const castURL = getBlossomFileURL(firstAsciicastFileSHA256);
-
-    // Check if asciinema player assets are already loaded
-    const asciinemaJSExists = document.querySelector('script[src="/assets/js/asciinema-player.min.js"]');
-    const ascinemaCSSExists = document.querySelector('link[href="/assets/css/asciinema-player.min.css"]');
-
-    // Only add JS if not already present
-    let asciinemaPlayerJS;
-    if (!asciinemaJSExists) {
-      asciinemaPlayerJS = document.createElement('script');
-      asciinemaPlayerJS.src = '/assets/js/asciinema-player.min.js';
-      document.head.appendChild(asciinemaPlayerJS);
-    }
-
-    // Only add CSS if not already present
-    if (!ascinemaCSSExists) {
-      const asciinemaPlayerCSS = document.createElement('link');
-      asciinemaPlayerCSS.rel = 'stylesheet';
-      asciinemaPlayerCSS.href = '/assets/css/asciinema-player.min.css';
-      document.head.appendChild(asciinemaPlayerCSS);
-    }
-
-    const initPlayer = () => {
-      AsciinemaPlayer.create(
-        castURL,
-        document.getElementById('ascii_cast_player'),
-        {
-          idleTimeLimit: 1,
-          autoPlay: true,
-          rows: 25
-        }
-      );
-    };
-
-    if (!asciinemaJSExists && asciinemaPlayerJS) {
-      asciinemaPlayerJS.onload = initPlayer;  // If we just added the script, wait for it to load
-    } else {
-      initPlayer();   // Script was already loaded, initialize player directly
-    }
-  }
 
   const appIdForTheKey = getFirstTagValue(verification, 'i');
   const versionForTheKey = getFirstTagValue(verification, 'version');
@@ -1136,6 +1150,13 @@ export function registerShowVerificationModal() {
       return;
     }
 
+    const buildLogBtn = event.target.closest('.js-open-build-log');
+    if (buildLogBtn) {
+      event.preventDefault();
+      openBuildLogFromButton(buildLogBtn);
+      return;
+    }
+
     const diffoscopeBtn = event.target.closest('.js-open-diffoscope');
     if (diffoscopeBtn) {
       event.preventDefault();
@@ -1170,6 +1191,9 @@ export function registerShowVerificationModal() {
   document.addEventListener('pointerover', (event) => {
     if (event.target.closest?.('.verification-card')) {
       prefetchMarked();
+    }
+    if (event.target.closest?.('.js-open-build-log')) {
+      prefetchBuildLogViewer();
     }
   });
 
