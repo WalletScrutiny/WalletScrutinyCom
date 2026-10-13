@@ -5,7 +5,7 @@ import {
   waitForVerificationsUi,
   waitForLoadingSpinnerHidden,
   waitForVerificationModalReady,
-  waitForAsciinemaPlayerContent,
+  waitForBuildLogLines,
   waitForNostrDisplayName,
 } from './helpers.mjs';
 
@@ -153,14 +153,31 @@ test.describe('ZEUS verification detail page', () => {
       await expect.soft(commentsSection.locator('.comment-body')).toContainText('Test comment! 1234');
     });
 
-    await test.step('Information asciinema player', async () => {
-      const player = content.locator('#ascii_cast_player');
+    await test.step('Information build log viewer', async () => {
+      const button = content.locator('.js-open-build-log');
+      const viewer = page.locator('#buildLogViewer');
 
       await expect.soft(content).toContainText('Information:');
-      await expect.soft(player).toBeVisible();
+      await expect(button).toBeVisible();
+      await expect.soft(button).toContainText('View build log');
 
-      await waitForAsciinemaPlayerContent(page, 120_000);
-      await expect.soft(player).not.toBeEmpty();
+      await button.click();
+      await expect(viewer).toBeVisible();
+      await expect.soft(viewer.locator('.build-log-subtitle')).toContainText('ZEUS Wallet 13.0.1');
+
+      await waitForBuildLogLines(page, 120_000);
+      await expect.soft(viewer.locator('.build-log-state')).toBeHidden();
+      await expect.soft(viewer.locator('.build-log-line').first()).not.toBeEmpty();
+      await expect.soft(viewer.locator('.build-log-meta')).toContainText(/\d+ lines/);
+
+      const jump = viewer.locator('.build-log-jump');
+      await expect.soft(jump).toBeVisible();
+      await jump.click();
+      await expect.soft(jump).toBeHidden();
+
+      await viewer.locator('.build-log-close').click();
+      await expect(viewer).toBeHidden();
+      await expect(modal).toBeVisible();
     });
 
     await test.step('Test endorsement modal', async () => {
