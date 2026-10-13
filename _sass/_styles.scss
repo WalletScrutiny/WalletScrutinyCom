@@ -983,9 +983,18 @@ table tr td label {
     align-self: center;
   }
 
+  .app-summary-grid .app-sum-head {
+    padding-top: 9px;
+  }
+
   .app-summary-grid .app-sum-head .page__title {
     justify-content: center;
     text-align: center;
+    margin-bottom: 0;
+  }
+
+  .app-summary-grid .app-sum-head .distribution-store-links {
+    margin-top: 4px;
   }
 
   .app-summary-grid>.app-payload-flex {

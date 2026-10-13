@@ -423,6 +423,27 @@
   .step {
     margin-top: 20px;
   }
+
+  // the first section sits right under the Android/iPhone tabs
+  &__panel > .step:first-child {
+    margin-top: 6px;
+  }
+
+  // pull the section content 5px closer to its icon and title; the title
+  // shrinks with the icon so it stays centred on it (.steps outranks the
+  // margin: 0 that .steps .step .title > h3 sets)
+  .step > .circle,
+  .steps & .step > .title > h3 {
+    margin-bottom: -5px;
+  }
+
+  .step > .title > .distribution-store-links {
+    margin-top: 4.7px;
+  }
+
+  .step > .title > .textbox {
+    margin-top: 6.5px;
+  }
 }
 
 .app-review--dual-platform .page__content {
