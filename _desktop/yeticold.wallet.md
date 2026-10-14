@@ -14,7 +14,7 @@ website: https://yeticold.com
 repository: https://github.com/JWWeatherman/yeticold
 icon: yeticold.wallet.webp
 bugbounty: 
-meta: ok
+meta: stale
 verdict: sourceavailable
 date: 2026-10-14
 twitter: YetiWallet
