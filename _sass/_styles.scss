@@ -695,7 +695,7 @@ table tr td label {
   }
 
   .app-review .page {
-    margin-top: 40px;
+    margin-top: 27px;
   }
 
   .hero-banner {
@@ -970,7 +970,7 @@ table tr td label {
 
 @media (max-width: 500px) {
   .app-review .page {
-    margin-top: 24px;
+    margin-top: 16px;
   }
 
   .app-summary-grid {
@@ -1136,6 +1136,12 @@ table tr td label {
 
   #main.app-review {
     margin-top: 0;
+  }
+}
+
+@media (min-width: 921px) {
+  #main.app-review {
+    margin-top: 2.2em;
   }
 }
 
