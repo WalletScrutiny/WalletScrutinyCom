@@ -61,6 +61,15 @@ document.addEventListener('DOMContentLoaded', function () {
       node = next;
     }
 
+    // Reviews separate the Android and iPhone text with a "---" rule. In tabs
+    // nothing follows it, so it would only leave a line and a gap under the
+    // features.
+    [commonPart, androidPanel, iphonePanel].forEach(function (part) {
+      while (part.lastElementChild && part.lastElementChild.tagName === 'HR') {
+        part.lastElementChild.remove();
+      }
+    });
+
     wrapper.appendChild(androidPanel);
     wrapper.appendChild(iphonePanel);
     androidHeading.replaceWith(wrapper);
