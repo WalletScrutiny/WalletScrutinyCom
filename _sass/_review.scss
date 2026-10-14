@@ -233,7 +233,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-top: 0.6rem;
+  // Offsets the header grid's 18px row gap so the badge sits ~14px below the facts.
+  margin-top: -0.25rem;
 }
 
 .app-facts-badge {
