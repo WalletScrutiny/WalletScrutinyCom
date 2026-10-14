@@ -4,8 +4,16 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <a class="masthead-logo-link" href="{{ site.baseurl }}/" alt="{{ site.title }}"><div class="masthead-logo" alt="{{ site.title }}" title="{{ site.title }}" ></div></a>
-      {% if include.is_home == false %}
-      <div class="wallet-search">
+      {% if include.is_home %}
+      <div class="desktop-only"></div>
+      {% endif %}
+      {%- comment -%}
+        On phones the search box stays hidden until the magnifier next to the
+        menu button opens it (searchWallets.js toggles .mobile-active). The
+        homepage has its own search in the hero, so there the box exists for
+        phones only.
+      {%- endcomment -%}
+      <div class="wallet-search{% if include.is_home %} wallet-search--mobile-only{% endif %}">
         <input class="searchbar" type="text" placeholder="Search wallet reviews..." />
         <div class="search-controls">
           {% include icon.html name="circle-notch" %}
@@ -13,11 +21,7 @@
         </div>
         <ul class="search-results results-target exit-search-target"></ul>
       </div>
-      {% else %}
-      <div class="desktop-only"></div>
-      {% endif %}
       <nav id="site-nav" class="greedy-nav">
-        <div class="mobile-search-shortcut">{% include icon.html name="magnifying-glass" %}</div>
         <ul class="visible-links">
           <!-- <li class="masthead__menu-item masthead__menu-item--lg"></li> -->
           {% for link in site.data.navigation.main %}
@@ -31,7 +35,8 @@
           <li><a class="theme-parent no-hover notifications-indicator" style="display: none; color: red;" onclick="showNotifications()" title="Notifications">{% include icon.html name="bell" %}</a></li>
           <li><a class="theme-parent no-hover" onclick="toggleTheme()" title="Toggle light/dark website theme">{% include icon.html name="moon" %}{% include icon.html name="sun" %}</a></li>
         </ul>
-        <button><div class="navicon"></div></button>
+        <button type="button" class="mobile-search-shortcut" aria-label="Search wallet reviews" title="Search">{% include icon.html name="magnifying-glass" %}</button>
+        <button type="button" class="greedy-nav__toggle" aria-label="Menu" title="Menu"><div class="navicon"></div></button>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
