@@ -36,7 +36,7 @@ iphone:
   released: 2016-04-19
   updated: 2026-10-09
   version: 6.110.1
-  reviews: 90820
+  reviews: 90832
   icon: com.uphold.wallet.ios.webp
   meta: ok
   verdict: custodial

@@ -31,7 +31,7 @@ iphone:
   released: 2018-02-19
   updated: 2026-10-09
   version: 4.26.2
-  reviews: 1038
+  reviews: 1039
   icon: com.bitso.wallet.webp
   meta: ok
   verdict: custodial

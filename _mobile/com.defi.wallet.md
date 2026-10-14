@@ -41,7 +41,7 @@ iphone:
   released: 2020-05-20
   updated: 2026-10-12
   version: 3.0.2
-  reviews: 22484
+  reviews: 22496
   icon: com.defi.wallet.webp
   meta: ok
   verdict: nosource

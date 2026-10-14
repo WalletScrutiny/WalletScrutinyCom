@@ -18,7 +18,7 @@ android:
   users: 500000
   appCountry: us
   released: 2018-11-06
-  updated: 2026-09-18
+  updated: 2026-10-13
   version: 1.23.1
   reviews: 34
   icon: com.dunamu.exchange.global.webp

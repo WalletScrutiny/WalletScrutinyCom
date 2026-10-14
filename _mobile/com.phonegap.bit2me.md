@@ -33,7 +33,7 @@ iphone:
   released: 2019-06-04
   updated: 2026-10-05
   version: 3.76.0
-  reviews: 3819
+  reviews: 3818
   icon: com.bit2me.flutter-ios.webp
   meta: ok
   verdict: custodial

@@ -23,8 +23,8 @@ android:
   users: 100000
   appCountry: us
   released: 2019-05-15
-  updated: 2026-09-18
-  version: 4.24.2
+  updated: 2026-10-13
+  version: 4.25.0
   reviews: 63
   icon: com.viabtc.wallet.webp
   meta: ok
@@ -35,8 +35,8 @@ iphone:
   idd: 1462031389
   appCountry: us
   released: 2019-05-21
-  updated: 2026-09-17
-  version: 4.24.0
+  updated: 2026-10-14
+  version: 4.25.0
   reviews: 54
   icon: com.viabtc.ViaWallet.webp
   meta: ok

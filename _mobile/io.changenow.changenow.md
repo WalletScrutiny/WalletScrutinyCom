@@ -24,7 +24,7 @@ android:
   appCountry: us
   released: 2018-09-07
   updated: 2026-10-06
-  version: 2.1.3
+  version: 2.1.4
   reviews: 817
   icon: io.changenow.changenow.webp
   meta: ok

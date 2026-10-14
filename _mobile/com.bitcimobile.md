@@ -33,7 +33,7 @@ iphone:
   released: 2019-04-17
   updated: 2026-10-06
   version: 23.0.13
-  reviews: 1384
+  reviews: 1385
   icon: com.bitcimobil.com.webp
   meta: ok
   verdict: custodial

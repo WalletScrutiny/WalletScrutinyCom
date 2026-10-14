@@ -24,8 +24,8 @@ android:
   appCountry: us
   released: 2019-10-24
   updated: 2026-10-09
-  version: 6.0.0
-  reviews: 4817
+  version: 6.1.1
+  reviews: 4818
   icon: com.kraken.trade.webp
   meta: ok
   verdict: custodial
@@ -37,7 +37,7 @@ iphone:
   released: 2019-11-12
   updated: 2026-10-12
   version: 6.1.1
-  reviews: 25674
+  reviews: 25678
   icon: com.kraken.trade.app.webp
   meta: ok
   verdict: custodial

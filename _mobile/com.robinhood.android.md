@@ -20,7 +20,7 @@ android:
   released: 2015-08-12
   updated: 2026-10-12
   version: 2026.40.1
-  reviews: 270190
+  reviews: 270214
   icon: com.robinhood.android.webp
   meta: ok
   verdict: nosendreceive
@@ -32,7 +32,7 @@ iphone:
   released: 2014-12-11
   updated: 2026-10-12
   version: 2026.41.0
-  reviews: 4878684
+  reviews: 4880284
   icon: com.robinhood.release.Robinhood.webp
   meta: ok
   verdict: nosendreceive

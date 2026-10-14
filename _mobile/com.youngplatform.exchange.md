@@ -17,7 +17,7 @@ android:
   appId: com.youngplatform.exchange
   users: 500000
   appCountry: us
-  updated: 2026-10-05
+  updated: 2026-10-12
   version: 5.13.0
   icon: com.youngplatform.exchange.webp
   meta: ok

@@ -19,7 +19,7 @@ android:
   released: 2010-05-17
   updated: 2026-10-10
   version: 26.22.1
-  reviews: 363521
+  reviews: 363589
   icon: com.venmo.webp
   meta: ok
   verdict: nosendreceive
@@ -31,7 +31,7 @@ iphone:
   released: 2010-04-03
   updated: 2026-10-13
   version: 26.23.0
-  reviews: 15472502
+  reviews: 15472710
   icon: net.kortina.labs.Venmo.webp
   meta: ok
   verdict: nosendreceive

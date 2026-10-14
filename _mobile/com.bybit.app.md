@@ -22,7 +22,7 @@ android:
   appCountry: us
   released: 2019-10-31
   updated: 2026-10-08
-  version: 5.26.1
+  version: 5.26.5
   reviews: 7262
   icon: com.bybit.app.webp
   meta: ok
@@ -35,7 +35,7 @@ iphone:
   released: 2020-01-06
   updated: 2026-10-09
   version: 5.26.5
-  reviews: 46936
+  reviews: 46911
   icon: com.bybit.app.webp
   meta: ok
   verdict: custodial

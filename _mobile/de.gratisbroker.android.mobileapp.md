@@ -17,8 +17,8 @@ android:
   users: 500000
   appCountry: us
   released: 2021-06-02
-  updated: 2026-10-02
-  version: 5.21.1
+  updated: 2026-10-09
+  version: 5.21.2
   reviews: 8
   icon: de.gratisbroker.android.mobileapp.webp
   meta: ok
@@ -29,9 +29,9 @@ iphone:
   idd: '1556711130'
   appCountry: de
   released: 2021-06-07
-  updated: 2026-10-06
-  version: 5.21.1
-  reviews: 27186
+  updated: 2026-10-13
+  version: 5.21.2
+  reviews: 27208
   icon: de.gratisbroker.ios.mobileapp.webp
   meta: ok
   verdict: nosendreceive

@@ -17,9 +17,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2013-10-29
-  updated: 2026-10-05
+  updated: 2026-10-13
   version: 3.195.0-2026100515
-  reviews: 4008
+  reviews: 4009
   icon: com.moneybookers.skrillpayments.webp
   meta: ok
   verdict: nosendreceive

@@ -28,7 +28,7 @@ iphone:
   released: 2023-06-28
   updated: 2026-10-06
   version: 3.4.0
-  reviews: 303
+  reviews: 304
   icon: com.jiggle.cryptowallet.webp
   meta: ok
   verdict: custodial

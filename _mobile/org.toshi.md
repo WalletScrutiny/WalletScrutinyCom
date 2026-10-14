@@ -20,7 +20,7 @@ android:
   appCountry: us
   released: 2017-09-20
   updated: 2026-10-09
-  version: 30.15.1
+  version: 30.16.0
   reviews: 14174
   icon: org.toshi.webp
   meta: ok
@@ -33,7 +33,7 @@ iphone:
   released: 2017-09-27
   updated: 2026-10-12
   version: '30.16'
-  reviews: 161384
+  reviews: 161387
   icon: org.toshi.distribution.webp
   meta: ok
   verdict: nosource

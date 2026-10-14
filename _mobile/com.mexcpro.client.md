@@ -22,7 +22,7 @@ android:
   released: 2020-07-23
   updated: 2026-10-12
   version: 6.78.0
-  reviews: 3243
+  reviews: 3252
   icon: com.mexcpro.client.webp
   meta: ok
   verdict: custodial
@@ -33,8 +33,8 @@ iphone:
   appCountry: us
   released: 2022-02-09
   updated: 2026-10-13
-  version: 6.78.0
-  reviews: 8464
+  version: 6.78.1
+  reviews: 8468
   icon: mobile.mexcglobal.www.webp
   meta: ok
   verdict: custodial

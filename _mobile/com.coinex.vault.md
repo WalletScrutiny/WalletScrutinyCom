@@ -11,8 +11,8 @@ android:
   users: 5000
   appCountry: us
   released: 2023-10-14
-  updated: 2026-06-23
-  version: 2.21.2
+  updated: 2026-10-13
+  version: 2.22.0
   icon: com.viabtc.coldwallet.webp
   meta: ok
   verdict: nosource
@@ -22,8 +22,8 @@ iphone:
   idd: '6529535723'
   appCountry: us
   released: 2024-07-23
-  updated: 2026-07-04
-  version: 2.21.3
+  updated: 2026-10-14
+  version: 2.22.0
   reviews: 3
   icon: com.coinex.vault.webp
   meta: ok

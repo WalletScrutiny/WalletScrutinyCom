@@ -33,7 +33,7 @@ iphone:
   released: 2019-05-21
   updated: 2026-10-09
   version: 3.85.0
-  reviews: 4263
+  reviews: 4267
   icon: com.whitebit.whitebitapp.webp
   meta: ok
   verdict: custodial

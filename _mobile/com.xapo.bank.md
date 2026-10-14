@@ -23,7 +23,7 @@ android:
   appCountry: us
   released: 2021-05-27
   updated: 2026-10-07
-  version: 11.31.0
+  version: 11.33.0
   reviews: 43
   icon: com.xapo.bank.webp
   meta: ok

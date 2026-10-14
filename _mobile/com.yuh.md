@@ -30,7 +30,7 @@ iphone:
   released: 2021-05-10
   updated: 2026-10-12
   version: 1.45.1
-  reviews: 22800
+  reviews: 22819
   icon: com.swissquote.Yuh.webp
   meta: ok
   verdict: nosendreceive

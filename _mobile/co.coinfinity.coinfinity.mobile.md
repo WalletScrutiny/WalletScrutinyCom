@@ -21,8 +21,8 @@ android:
   appId: co.coinfinity.coinfinity.mobile
   users: 10000
   appCountry: us
-  updated: 2026-10-02
-  version: 3.2.0
+  updated: 2026-10-12
+  version: 3.2.1
   icon: co.coinfinity.coinfinity.mobile.webp
   meta: ok
   verdict: nosource
@@ -32,8 +32,8 @@ iphone:
   idd: '1642711272'
   appCountry: mt
   released: 2023-06-06
-  updated: 2026-10-06
-  version: 3.2.0
+  updated: 2026-10-13
+  version: 3.2.1
   reviews: 0
   icon: co.coinfinity.coinfinity.mobile.webp
   meta: ok

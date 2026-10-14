@@ -41,7 +41,7 @@ iphone:
   released: 2022-04-27
   updated: 2026-10-10
   version: 6.6.1
-  reviews: 681
+  reviews: 680
   icon: so.onekey.wallet.webp
   meta: ok
   verdict: sourceavailable

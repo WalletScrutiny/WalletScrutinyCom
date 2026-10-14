@@ -34,7 +34,7 @@ iphone:
   released: 2020-12-13
   updated: 2026-10-04
   version: 3.11.14
-  reviews: 45607
+  reviews: 45617
   icon: com.coinspot.app.webp
   meta: ok
   verdict: custodial

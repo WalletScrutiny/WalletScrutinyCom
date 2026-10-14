@@ -20,8 +20,8 @@ android:
   appCountry: us
   released: 2020-02-13
   updated: 2026-10-09
-  version: 17.5.0
-  reviews: 4
+  version: 17.6.0
+  reviews: 5
   icon: com.syfe.webp
   meta: ok
   verdict: nosendreceive
@@ -33,7 +33,7 @@ iphone:
   released: 2020-02-24
   updated: 2026-10-12
   version: 17.6.0
-  reviews: 652
+  reviews: 671
   icon: com.syfe.webp
   meta: ok
   verdict: nosendreceive

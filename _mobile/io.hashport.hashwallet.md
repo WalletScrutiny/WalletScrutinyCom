@@ -12,7 +12,7 @@ android:
   released: 2023-10-13
   updated: 2026-10-07
   version: 3.23.1
-  reviews: 228
+  reviews: 227
   icon: io.hashport.hashwallet.webp
   meta: ok
   verdict: nosource

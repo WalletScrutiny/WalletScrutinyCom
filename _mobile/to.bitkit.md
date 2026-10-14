@@ -26,8 +26,8 @@ android:
   users: 5000
   appCountry: us
   released: 2024-06-07
-  updated: 2026-09-16
-  version: 2.5.0
+  updated: 2026-10-13
+  version: 2.5.1
   reviews: 3
   icon: to.bitkit.webp
   signer: 422ae8e4c9b4f1288efb27df173e31cadfd7134d61fa5357eb5ed9eae83c75a7

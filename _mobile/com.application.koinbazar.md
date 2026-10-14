@@ -20,8 +20,8 @@ android:
   users: 500000
   appCountry: in
   released: 2021-05-17
-  updated: 2026-10-05
-  version: 3.1.23
+  updated: 2026-10-09
+  version: 3.1.25
   reviews: 3651
   icon: com.application.koinbazar.webp
   meta: ok
@@ -32,8 +32,8 @@ iphone:
   idd: '1567360326'
   appCountry: in
   released: 2021-06-02
-  updated: 2026-10-08
-  version: 4.2.8
+  updated: 2026-10-13
+  version: 4.2.9
   reviews: 169
   icon: com.app.koinbazar.webp
   meta: ok

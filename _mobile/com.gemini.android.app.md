@@ -33,7 +33,7 @@ iphone:
   released: 2018-12-11
   updated: 2026-10-12
   version: 26.1009.0
-  reviews: 109903
+  reviews: 109908
   icon: com.gemini.ios.webp
   meta: ok
   verdict: custodial

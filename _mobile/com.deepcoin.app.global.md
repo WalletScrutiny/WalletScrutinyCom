@@ -15,8 +15,8 @@ android:
   users: 100000
   appCountry: us
   released: 2020-12-08
-  updated: 2026-10-10
-  version: 7.7.09
+  updated: 2026-10-13
+  version: 7.7.11
   reviews: 30
   icon: com.deepcoin.app.global.webp
   meta: ok

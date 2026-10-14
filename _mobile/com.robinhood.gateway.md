@@ -36,7 +36,7 @@ iphone:
   released: 2023-01-18
   updated: 2026-10-05
   version: 2026.41.0
-  reviews: 6948
+  reviews: 6960
   icon: com.robinhood.release.Gateway.webp
   meta: ok
   verdict: nosource

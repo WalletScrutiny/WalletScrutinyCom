@@ -21,8 +21,8 @@ android:
   users: 100000
   appCountry: us
   released: 2023-04-04
-  updated: 2026-09-08
-  version: 26.0.35
+  updated: 2026-10-13
+  version: 26.0.36
   reviews: 7
   icon: com.multibank.app.webp
   meta: ok

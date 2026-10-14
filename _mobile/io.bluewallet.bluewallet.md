@@ -54,7 +54,7 @@ iphone:
   released: 2018-05-27
   updated: 2026-10-05
   version: 8.0.2
-  reviews: 856
+  reviews: 857
   icon: io.bluewallet.bluewallet.webp
   meta: ok
   verdict: sourceavailable

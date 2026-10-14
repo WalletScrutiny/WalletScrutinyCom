@@ -26,8 +26,8 @@ iphone:
   idd: 1530580389
   appCountry: in
   released: 2020-09-29
-  updated: 2026-10-07
-  version: 5.1.45
+  updated: 2026-10-13
+  version: 5.1.51
   reviews: 104
   icon: ios.m3.Trendo.webp
   meta: ok

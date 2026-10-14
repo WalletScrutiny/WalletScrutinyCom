@@ -21,8 +21,8 @@ android:
   users: 10000000
   appCountry: us
   released: 2014-11-01
-  updated: 2026-10-12
-  version: 8.118.2
+  updated: 2026-10-14
+  version: 8.118.3
   reviews: 1413
   icon: co.bitx.android.wallet.webp
   meta: ok

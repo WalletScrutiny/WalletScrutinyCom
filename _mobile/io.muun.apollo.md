@@ -43,7 +43,7 @@ iphone:
   released: 2019-10-11
   updated: 2026-09-07
   version: 2.16.0
-  reviews: 339
+  reviews: 337
   icon: com.muun.falcon.webp
   meta: ok
   verdict: sourceavailable

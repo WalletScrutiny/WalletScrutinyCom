@@ -21,8 +21,8 @@ android:
   appId: au.com.bitaroo.express
   users: 1000
   appCountry: us
-  updated: 2026-10-07
-  version: 5.3.1
+  updated: 2026-10-13
+  version: 5.3.2
   icon: au.com.bitaroo.express.webp
   meta: ok
   verdict: custodial

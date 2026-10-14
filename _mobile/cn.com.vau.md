@@ -19,7 +19,7 @@ android:
   released: 2019-07-06
   updated: 2026-09-17
   version: 4.11.0
-  reviews: 10856
+  reviews: 11058
   icon: cn.com.vau.webp
   meta: ok
   verdict: nosendreceive

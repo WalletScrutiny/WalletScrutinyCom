@@ -19,7 +19,7 @@ android:
   released: 2020-04-03
   updated: 2026-10-05
   version: 2.94.4
-  reviews: 1748
+  reviews: 1749
   icon: com.bitget.exchange.webp
   meta: ok
   verdict: custodial
@@ -31,7 +31,7 @@ iphone:
   released: 2018-11-29
   updated: 2026-10-09
   version: 2.94.4
-  reviews: 2315
+  reviews: 2316
   icon: com.bitget.exchange.global.webp
   meta: ok
   verdict: custodial

@@ -17,7 +17,7 @@ android:
   released: 2021-09-08
   updated: 2026-08-06
   version: 1.4.22
-  reviews: 4
+  reviews: 5
   icon: pouch.ph.webp
   meta: ok
   verdict: custodial

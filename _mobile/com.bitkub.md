@@ -31,11 +31,11 @@ iphone:
   released: 2019-04-24
   updated: 2026-10-07
   version: 4.22.0
-  reviews: 20049
+  reviews: 20068
   icon: com.bitkub.app.webp
   meta: ok
   verdict: custodial
-  developerName: Bitkub Online Co., Ltd
+  developerName: Bitkub Online Co., Ltd.
 
 ---
 

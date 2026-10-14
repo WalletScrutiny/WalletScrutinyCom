@@ -31,7 +31,7 @@ iphone:
   released: 2021-08-20
   updated: 2026-10-01
   version: 7.2.498
-  reviews: 7405
+  reviews: 7409
   icon: com.prestmit.app.webp
   meta: ok
   verdict: nosendreceive

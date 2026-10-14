@@ -29,7 +29,7 @@ android:
   released: 2016-10-01
   updated: 2026-09-22
   version: 14.47.3
-  reviews: 2320
+  reviews: 2319
   icon: com.bitpay.wallet.webp
   meta: ok
   verdict: sourceavailable

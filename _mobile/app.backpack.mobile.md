@@ -12,9 +12,9 @@ android:
   users: 500000
   appCountry: us
   released: 2023-11-02
-  updated: 2026-10-09
-  version: 2.89.1
-  reviews: 73
+  updated: 2026-10-12
+  version: 2.89.2
+  reviews: 74
   icon: app.backpack.mobile.webp
   meta: ok
   verdict: custodial

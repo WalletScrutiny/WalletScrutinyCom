@@ -10,8 +10,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-08-13
-  updated: 2026-10-12
-  version: 2.4.61
+  updated: 2026-10-13
+  version: 2.4.64
   reviews: 4
   icon: com.tajir.wallet.app.webp
   meta: ok

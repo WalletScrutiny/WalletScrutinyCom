@@ -35,9 +35,9 @@ iphone:
   idd: '1591216386'
   appCountry: us
   released: 2021-10-23
-  updated: 2026-09-30
-  version: 3.19.2
-  reviews: 855
+  updated: 2026-10-14
+  version: 3.19.3
+  reviews: 856
   icon: io.changenow.wallet-now.webp
   meta: ok
   verdict: nosource

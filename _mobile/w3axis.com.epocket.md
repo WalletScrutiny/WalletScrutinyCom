@@ -31,7 +31,7 @@ iphone:
   released: 2018-12-19
   updated: 2026-10-13
   version: 3.4.12
-  reviews: 38
+  reviews: 40
   icon: com.live.epocket.webp
   meta: ok
   verdict: custodial

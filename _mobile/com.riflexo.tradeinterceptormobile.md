@@ -20,7 +20,7 @@ android:
   released: 2010-08-02
   updated: 2026-10-12
   version: VARY
-  reviews: 349
+  reviews: 350
   icon: com.riflexo.tradeinterceptormobile.webp
   meta: ok
   verdict: nosendreceive

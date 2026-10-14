@@ -18,7 +18,7 @@ android:
   appCountry: us
   released: 2013-09-09
   updated: 2026-10-05
-  version: 9.9.2
+  version: 9.10.0
   reviews: 2069
   icon: com.tradestation.MobileTrading.webp
   meta: ok

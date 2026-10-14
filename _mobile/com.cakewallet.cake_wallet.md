@@ -46,9 +46,9 @@ iphone:
   idd: 1334702542
   appCountry: us
   released: 2018-01-19
-  updated: 2026-10-07
-  version: 6.4.6
-  reviews: 4213
+  updated: 2026-10-13
+  version: 6.5.0
+  reviews: 4214
   icon: com.fotolockr.cakewallet.webp
   meta: ok
   verdict: sourceavailable

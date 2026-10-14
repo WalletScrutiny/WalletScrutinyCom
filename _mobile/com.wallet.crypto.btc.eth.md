@@ -34,7 +34,7 @@ iphone:
   released: 2023-10-02
   updated: 2026-10-08
   version: 1.14.0
-  reviews: 61
+  reviews: 60
   icon: com.wallet.crypto.btc.eth.webp
   meta: ok
   verdict: nosource

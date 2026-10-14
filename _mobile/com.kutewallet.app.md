@@ -3,7 +3,7 @@ title: Kute Wallet
 date: 2026-10-13
 authors:
 - danny
-website: https://kutewallet.com
+website: http://kutewallet.com
 android:
   appId: com.kutewallet.app
   users: 100

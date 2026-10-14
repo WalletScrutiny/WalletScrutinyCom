@@ -21,7 +21,7 @@ android:
   appCountry: us
   released: 2021-06-21
   updated: 2026-10-13
-  version: 8.5.0
+  version: 8.5.1
   reviews: 26
   icon: io.getamber.app.webp
   meta: ok

@@ -34,7 +34,7 @@ iphone:
   released: 2025-12-15
   updated: 2026-09-15
   version: 2.7.0
-  reviews: 222
+  reviews: 225
   icon: com.rumble.wallet.webp
   meta: ok
   verdict: nosource

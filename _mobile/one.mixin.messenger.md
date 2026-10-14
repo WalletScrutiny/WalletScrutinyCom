@@ -20,8 +20,8 @@ android:
   users: 100000
   appCountry: us
   released: 2018-05-24
-  updated: 2026-10-09
-  version: 6.3.2
+  updated: 2026-10-13
+  version: 6.3.3
   reviews: 153
   icon: one.mixin.messenger.webp
   meta: ok

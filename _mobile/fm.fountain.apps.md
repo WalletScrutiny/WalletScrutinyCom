@@ -19,7 +19,7 @@ android:
   released: 2021-08-02
   updated: 2026-09-09
   version: 1.5.8
-  reviews: 262
+  reviews: 261
   icon: fm.fountain.apps.webp
   alternativeStores:
   - zapstore

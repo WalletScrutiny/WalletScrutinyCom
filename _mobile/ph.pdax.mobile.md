@@ -32,7 +32,7 @@ iphone:
   released: 2020-12-18
   updated: 2026-09-27
   version: 14.15.1
-  reviews: 1057
+  reviews: 1058
   icon: ph.pdax.mobile.webp
   meta: ok
   verdict: custodial

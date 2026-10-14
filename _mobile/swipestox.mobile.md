@@ -19,7 +19,7 @@ android:
   released: 2015-10-20
   updated: 2026-10-05
   version: 8.0.481
-  reviews: 202
+  reviews: 201
   icon: swipestox.mobile.webp
   meta: ok
   verdict: nosendreceive
@@ -31,7 +31,7 @@ iphone:
   released: 2017-01-15
   updated: 2026-10-09
   version: 9.8.10
-  reviews: 86
+  reviews: 87
   icon: com.swipestox.app.webp
   meta: ok
   verdict: nosendreceive

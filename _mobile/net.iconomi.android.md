@@ -19,8 +19,8 @@ android:
   users: 10000
   appCountry: si
   released: 2017-10-17
-  updated: 2026-02-25
-  version: 4.1.3
+  updated: 2026-10-05
+  version: 4.1.7
   reviews: 172
   icon: net.iconomi.android.webp
   meta: ok

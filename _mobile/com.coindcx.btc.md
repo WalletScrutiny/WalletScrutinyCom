@@ -19,7 +19,7 @@ android:
   released: 2020-12-09
   updated: 2026-09-30
   version: 7.63.0004
-  reviews: 599
+  reviews: 598
   icon: com.coindcx.btc.webp
   meta: ok
   verdict: custodial
@@ -31,7 +31,7 @@ iphone:
   released: 2020-12-09
   updated: 2026-10-02
   version: 7.63.0004
-  reviews: 44772
+  reviews: 44778
   icon: com.coindcx.btc.webp
   meta: ok
   verdict: custodial

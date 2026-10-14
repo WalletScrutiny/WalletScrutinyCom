@@ -25,7 +25,7 @@ android:
   released: 2022-04-12
   updated: 2026-10-08
   version: 26.32.0
-  reviews: 2387
+  reviews: 2388
   icon: app.phantom.webp
   meta: ok
   verdict: nosource
@@ -37,7 +37,7 @@ iphone:
   released: 2022-01-30
   updated: 2026-10-07
   version: 26.32.0
-  reviews: 64244
+  reviews: 64247
   icon: app.phantom.webp
   meta: ok
   verdict: nosource

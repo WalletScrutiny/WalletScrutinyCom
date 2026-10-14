@@ -14,7 +14,7 @@ android:
   users: 500000
   appCountry: us
   released: 2024-12-01
-  updated: 2026-10-08
+  updated: 2026-10-13
   version: 3.18.1
   reviews: 3
   icon: com.getmidas.crypto.webp

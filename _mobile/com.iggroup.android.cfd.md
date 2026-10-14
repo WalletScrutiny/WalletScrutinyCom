@@ -19,7 +19,7 @@ android:
   appCountry: br
   released: 2015-05-11
   updated: 2026-10-07
-  version: 26.9.18
+  version: 26.10.5
   reviews: 12
   icon: com.iggroup.android.cfd.webp
   meta: ok

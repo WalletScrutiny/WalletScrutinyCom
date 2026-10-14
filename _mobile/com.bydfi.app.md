@@ -24,7 +24,7 @@ android:
   released: 2023-01-20
   updated: 2026-09-28
   version: 4.0.2
-  reviews: 441
+  reviews: 440
   icon: com.bydfi.app.webp
   meta: ok
   verdict: custodial

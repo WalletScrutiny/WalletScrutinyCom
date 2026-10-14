@@ -18,7 +18,7 @@ android:
   appCountry: us
   released: 2018-07-18
   updated: 2026-09-25
-  version: 6.1.37
+  version: 6.1.38
   reviews: 720
   icon: com.bitrue.currency.exchange.webp
   meta: ok

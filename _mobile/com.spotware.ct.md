@@ -18,8 +18,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2014-02-10
-  updated: 2026-10-05
-  version: 5.10.220
+  updated: 2026-10-13
+  version: 5.11.110
   reviews: 398
   icon: com.spotware.ct.webp
   meta: ok

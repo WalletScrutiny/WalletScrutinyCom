@@ -30,7 +30,7 @@ android:
   released: 2013-02-01
   updated: 2026-10-08
   version: 202609.4.6
-  reviews: 6378
+  reviews: 6377
   icon: piuk.blockchain.android.webp
   signer: 87a6e89e2e45848c1ddc43021e95812aae70b0b54c6c320c71db4dff83f7b6a0
   meta: ok
@@ -45,7 +45,7 @@ iphone:
   released: 2012-04-13
   updated: 2026-10-12
   version: 202610.2.0
-  reviews: 184151
+  reviews: 184162
   icon: com.rainydayapps.Blockchain.webp
   meta: ok
   verdict: nosource

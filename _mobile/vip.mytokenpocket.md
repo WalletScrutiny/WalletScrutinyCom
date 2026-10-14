@@ -21,7 +21,7 @@ android:
   released: 2018-06-29
   updated: 2026-09-24
   version: 2.29.0
-  reviews: 633
+  reviews: 634
   icon: vip.mytokenpocket.webp
   meta: ok
   verdict: obfuscated

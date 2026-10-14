@@ -21,7 +21,7 @@ iphone:
   appId: com.starwallet
   idd: '1513374252'
   appCountry: us
-  released: '2026-05-08T07:00:00Z'
+  released: 2026-05-08
   updated: 2026-09-17
   version: 2.1.0
   reviews: 2

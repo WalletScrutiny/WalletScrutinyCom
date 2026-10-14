@@ -35,7 +35,7 @@ iphone:
   released: 2022-11-28
   updated: 2026-10-07
   version: 1.0.40
-  reviews: 174
+  reviews: 175
   icon: org.avalabs.corewallet.webp
   meta: ok
   verdict: nosource

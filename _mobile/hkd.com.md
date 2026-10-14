@@ -32,7 +32,7 @@ iphone:
   released: 2020-07-13
   updated: 2026-10-12
   version: 3.4.3
-  reviews: 52
+  reviews: 53
   icon: com.hkd.hkdex.webp
   meta: ok
   verdict: custodial
