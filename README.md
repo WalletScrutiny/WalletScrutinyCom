@@ -58,9 +58,11 @@ compiles the project and you should see the changes when refreshing the browser.
 npm run build
 ```
 
-This will also minify and brotlify css, js, and other file extensions. The
-result can be found in the `_site/` folder, and you can upload the content
-of this folder to your web server.
+This runs the pre-Jekyll steps (wallet data, webpack, redirect map) in
+parallel, then Jekyll, then `scripts/postprocess-site.mjs`, which minifies
+html, js and css and writes a `.br` next to every compressible file in one
+pass over `_site/`. The result can be found in the `_site/` folder, and you
+can upload the content of this folder to your web server.
 
 Old URLs (`redirect_from` in a page's front matter) are not stub pages but
 one generated file, `redirects.map` (`scripts/generate-redirect-map.mjs`, run by
