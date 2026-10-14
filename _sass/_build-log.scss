@@ -137,10 +137,27 @@
   flex: 1 1 auto;
   min-height: 0;
   overflow: auto;
+  // The end of the log is the end: a wheel or swipe past it must not move what is behind.
+  overscroll-behavior: contain;
   padding: 8px 0 96px;
   outline: none;
-  scrollbar-width: thin;
-  scrollbar-color: #3a4152 #0f1117;
+  // A light thumb on the dark ground: the default dark grey was hard to find on a desktop
+  // browser with classic scrollbars, and a thin one even more so. Full width here.
+  scrollbar-color: #aab1c7 #1b2030;
+}
+.build-log-body::-webkit-scrollbar {
+  width: 14px;
+}
+.build-log-body::-webkit-scrollbar-track {
+  background: #1b2030;
+}
+.build-log-body::-webkit-scrollbar-thumb {
+  background: #aab1c7;
+  border: 3px solid #1b2030;
+  border-radius: 8px;
+}
+.build-log-body::-webkit-scrollbar-thumb:hover {
+  background: #d6dbe8;
 }
 .build-log-body[hidden] {
   display: none;
