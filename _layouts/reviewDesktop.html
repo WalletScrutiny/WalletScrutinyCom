@@ -12,7 +12,6 @@ layout: default
 <div id="main" class="app-review" role="main">
   <script>
     {%- if page.wsId -%}window.wsId="{{ page.wsId }}";{%- endif -%}
-    {%- if page.version -%}window.wsVersion="{{ page.version }}";{%- endif -%}
   </script>
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
@@ -45,8 +44,6 @@ layout: default
             {% include /review/websiteDistributionLink.html %}
           </div>
           {% endif %}
-
-          <div class="secondary-text" id="version-number"></div>
 
           {% include /review/appFacts.html skipWebsite=true platform='desktop' %}
         </div>

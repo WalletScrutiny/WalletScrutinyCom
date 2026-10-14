@@ -56,10 +56,6 @@
         <script>
           window.addEventListener('verificationsUILoaded', async () => {
             const pageVerdict = '{{ build_verdict }}';
-            const versionNumberElement = document.getElementById('{{ include.versionElementId | default: 'version-number' }}');
-            const mergeInto = '{{ include.mergeVerificationInto | default: '' }}';
-            const skipWsVersion = {{ include.skipWsVersion | default: false | jsonify }};
-            const skipVersionInfo = {{ include.skipVersionInfo | default: false | jsonify }};
             const walletTitle = {{ page.title | jsonify }};
 
             const paintBuildVerifications = (assetInfo, rows) => {
@@ -76,47 +72,6 @@
               });
             };
 
-            const updateVersionInfo = (assetInfo) => {
-              const versionInfo = getMaxAssetVersion(assetInfo, '{{ build_app_id }}', '{{ include.platform }}');
-
-              if (mergeInto && typeof window.updateDualMobileVerification === 'function') {
-                window.updateDualMobileVerification('{{ include.platform }}', versionInfo, mergeInto);
-                return;
-              }
-
-              if (!versionNumberElement || skipVersionInfo) {
-                return;
-              }
-
-              let versionInfoText = '<p style="margin-top: 0;">';
-
-              if (!skipWsVersion) {
-                var wsVer = (typeof wsVersionAndroid !== 'undefined' && '{{ include.platform }}' === 'android' && wsVersionAndroid)
-                  ? wsVersionAndroid
-                  : ((typeof wsVersionIphone !== 'undefined' && '{{ include.platform }}' === 'iphone' && wsVersionIphone)
-                    ? wsVersionIphone
-                    : (typeof wsVersion !== 'undefined' ? wsVersion : ''));
-                if (wsVer) {
-                  versionInfoText += 'Latest release found by <b>WalletScrutiny</b>: <b>' + wsVer + '</b><br>';
-                }
-              }
-
-              if (versionInfo.lastVersion) {
-                versionInfoText += 'Latest release found in a <b>Verification</b>: <b>' + versionInfo.lastVersion + '</b> <small>(' + versionInfo.lastVersionDate + ')</small><br>';
-              }
-
-              if (versionInfo.lastVerifiedVersion && (versionInfo.lastVerifiedVersion !== versionInfo.lastVersion)) {
-                versionInfoText += 'Last <span style="color: #008000;"><b>Reproducible Verification</b></span>: <b>' + versionInfo.lastVerifiedVersion + '</b> <small>(' + versionInfo.lastVerifiedVersionDate + ')</small>';
-              }
-
-              versionInfoText += '</p>';
-              const hasVerificationInfo = versionInfo.lastVersion
-                || (versionInfo.lastVerifiedVersion && versionInfo.lastVerifiedVersion !== versionInfo.lastVersion);
-              if (!skipWsVersion || hasVerificationInfo) {
-                versionNumberElement.innerHTML = versionInfoText;
-              }
-            };
-
             const attestationsInfo = await renderAssetsTable({
               htmlElementId: '{{ apps_table_id }}',
               appId: '{{ build_app_id }}',
@@ -128,13 +83,9 @@
               enableAppPageSearch: true,
               showIssueTracker: true,
               tableLoadedCallback: ({ info, rows }) => {
-                updateVersionInfo(info);
                 paintBuildVerifications(info, rows);
               }
             });
-
-            // Ensure final network data is reflected if the last paint was skipped as unchanged.
-            updateVersionInfo(attestationsInfo.info);
 
             if (!attestationsInfo.hasVerifications && !attestationsInfo.info.draftVerifications.size) {
               const verificationMessageEl = document.getElementById('{{ verification_message_id }}');

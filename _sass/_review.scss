@@ -171,8 +171,8 @@
   }
 }
 
-// Developer / Released / Source code facts in the page header, below the
-// "Latest release found by" line (replaces the former review steps).
+// Developer / Released / Source code facts in the page header (replaces the
+// former review steps).
 .app-facts {
   display: grid;
   grid-template-columns: max-content 1fr;
@@ -295,24 +295,6 @@
     color: inherit;
     line-height: 1;
     cursor: pointer;
-  }
-}
-
-.version-number-ws {
-  line-height: 1.35;
-
-  p {
-    margin: 0;
-  }
-
-  & + & {
-    margin-top: 0.1em;
-  }
-
-  i.fab,
-  i.i-app-store {
-    margin: 0 0.2em 0 0.45em;
-    font-size: 0.95em;
   }
 }
 

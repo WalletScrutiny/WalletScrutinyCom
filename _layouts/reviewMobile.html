@@ -24,9 +24,6 @@ layout: default
 <script>
   window.pageAppId = "{{ page.android.appId | default: page.iphone.appId }}";
   {% if page.wsId %}window.wsId = "{{ page.wsId }}";{% endif %}
-  {% if page.android.version %}window.wsVersionAndroid = "{{ page.android.version }}";{% endif %}
-  {% if page.iphone.version %}window.wsVersionIphone = "{{ page.iphone.version }}";{% endif %}
-  {% if page.android.version %}window.wsVersion = "{{ page.android.version }}";{% elsif page.iphone.version %}window.wsVersion = "{{ page.iphone.version }}";{% endif %}
 </script>
 
 <div id="main" class="app-review{% if page.android.appId and page.iphone.appId %} app-review--dual-platform{% endif %}" role="main">
@@ -66,27 +63,6 @@ layout: default
             appCountry=page.appCountry
             alternativeStores=page.android.alternativeStores
           %}
-
-          {% if page.android.appId and page.iphone.appId %}
-            <div class="secondary-text version-number-ws">
-              {% if page.android.version or page.iphone.version %}
-                {% include /review/mobileWalletScrutinyVersion.html %}
-              {% endif %}
-              <div id="version-number-verification"></div>
-            </div>
-          {% else %}
-            {% if page.android.version or page.iphone.version %}
-            <div class="secondary-text version-number-ws" id="version-number-ws">
-              {% include /review/mobileWalletScrutinyVersion.html %}
-            </div>
-            {% endif %}
-            {% if page.android.appId %}
-            <div class="secondary-text" id="version-number-android"></div>
-            {% endif %}
-            {% if page.iphone.appId %}
-            <div class="secondary-text" id="version-number-iphone"></div>
-            {% endif %}
-          {% endif %}
 
           {% include /review/appFacts.html skipWebsite=true %}
         </div>
