@@ -396,7 +396,10 @@
     .desktop-only {
       display: none;
     }
-    grid-template: 1fr auto / 1fr auto;
+    // Columns only: logo | nav. The search row is implicit, so it (and the
+    // row gap before it) exists only while the box is open; a declared
+    // second row left a 15px empty band under the logo when hidden.
+    grid-template-columns: 1fr auto;
     .search-results {
       &.visible {
         max-height: calc(100vh - 6rem) !important;
