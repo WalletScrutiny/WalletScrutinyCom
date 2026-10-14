@@ -454,6 +454,19 @@
   }
 }
 
+// On phones and tablets the gap above "Our wallet review process" is 35%
+// smaller than on desktop. The heading's top margin collapses with the
+// header's bottom margin, so both shrink.
+@media screen and (max-width: 1023.98px) {
+  .app-summary-grid:has(+ .security-overview) {
+    margin-bottom: 0;
+  }
+
+  .security-overview > h2:first-child {
+    margin-top: 1.3em;
+  }
+}
+
 // review content moved into the platform tabs by mobilePlatformTabs.js sits
 // inside .steps (17px); keep it at the review body size
 .mobile-content-panel {
