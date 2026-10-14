@@ -607,13 +607,6 @@
       .important {
         color: var(--accent-text);
       }
-      &.score-data {
-        .score {
-          div {
-            max-width: 40vw;
-          }
-        }
-      }
     }
   }
 }
@@ -873,25 +866,6 @@
       &.pass {
         display: none;
       }
-    }
-  }
-  &.highlight {
-    .accordion-head {
-      span:nth-of-type(2) {
-        box-shadow: 0 2px 0 0;
-      }
-    }
-  }
-}
-
-.score div i {
-  &.highlight {
-    &.pass {
-      background-color: var(--good);
-    }
-    &.fail {
-      background-color: var(--bad);
-      opacity: 1;
     }
   }
 }

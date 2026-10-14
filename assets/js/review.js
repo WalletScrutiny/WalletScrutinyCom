@@ -68,36 +68,6 @@ window.addEventListener("hashchange", () => {
     }
   } catch (error) {}
 });
-let scoreIndex=0
-document.querySelectorAll(".score div i").forEach((ele)=>{
-  ele.setAttribute("data-index", scoreIndex)
-  ele.addEventListener('click', (event)=>{
-    window.location.hash = `#${document.querySelectorAll(".methodology-accordion")[event.target.getAttribute("data-index")].getAttribute('id')}`
-  })
-  ele.addEventListener('mouseenter', (event)=>{
-    const i = event.target.getAttribute("data-index")
-    document.querySelectorAll(".methodology-accordion").forEach((element)=>{element.classList.remove('highlight')})
-    document.querySelectorAll(".methodology-accordion")[i].classList.add('highlight')
-  })
-  ele.addEventListener('mouseleave', ()=>{
-    document.querySelectorAll(".methodology-accordion").forEach((element)=>{element.classList.remove('highlight')})
-  })
-  scoreIndex++
-})
-
-let accordionIndex=0
-document.querySelectorAll(".methodology-accordion").forEach((ele)=>{
-  ele.setAttribute("data-index", accordionIndex)
-  ele.addEventListener('mouseenter', (event)=>{
-    const i = event.target.getAttribute("data-index")
-    document.querySelectorAll(".score div i").forEach((element)=>{element.classList.remove('highlight')})
-    document.querySelectorAll(".score div i")[i].classList.add('highlight')
-  })
-  ele.addEventListener('mouseleave', ()=>{
-    document.querySelectorAll(".score div i").forEach((element)=>{element.classList.remove('highlight')})
-  })
-  accordionIndex++
-})
 
 for (const frame of document.querySelectorAll('iframe')) {
   let src = frame.getAttribute("src");

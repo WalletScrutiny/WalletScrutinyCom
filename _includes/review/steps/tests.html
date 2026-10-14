@@ -20,19 +20,6 @@
       {% endif %}
     </p>
   </div>
-  <div class="data score-data">
-    <div class="score">
-      <div>
-      {% for instance in (1..count) %}
-        <i class="pass"></i>
-      {% endfor %}
-      {% assign remainder = criteria.size | minus:count %}
-      {% for instance in (1..remainder) %}
-        <i class="fail"></i>
-      {% endfor %}
-      </div>
-    </div>
-  </div>
   <div class="methodology-tests-list">
   {% if include.verdict == 'wip' %}
     {% assign failPoint = failPoint | plus: 1 %}
