@@ -95,13 +95,18 @@ function river(timeline, selectedKey) {
   );
 }
 
-function centerStone(riverEl, stoneEl) {
+/**
+ * Scrolls the river so [stoneEl] sits in the middle. Smooth when the user picks a
+ * stone; instant (`smooth: false`) when the section is painted, so the page never
+ * shows the river sliding to the selected version.
+ */
+function centerStone(riverEl, stoneEl, { smooth = true } = {}) {
   if (!riverEl || !stoneEl) {
     return;
   }
   const target = stoneEl.offsetLeft - (riverEl.clientWidth - stoneEl.offsetWidth) / 2;
   const left = Math.max(0, target);
-  if (typeof riverEl.scrollTo === 'function') {
+  if (smooth && typeof riverEl.scrollTo === 'function') {
     riverEl.scrollTo({ left, behavior: 'smooth' });
   } else {
     riverEl.scrollLeft = left;
@@ -334,9 +339,16 @@ export function renderBuildVerifications({
   });
 
   paintSelected();
+  // Position the river before this task yields, so the first frame already shows the
+  // selected stone in place. Only when the host has no layout yet (hidden ancestor)
+  // wait for the next frame; still without animation.
   const selectedStone = [...scroller.querySelectorAll('.bv-stone')].find(s => s.dataset.versionKey === selectedKey);
-  if (selectedStone && typeof requestAnimationFrame === 'function') {
-    requestAnimationFrame(() => centerStone(scroller, selectedStone));
+  if (selectedStone) {
+    if (scroller.clientWidth > 0 || typeof requestAnimationFrame !== 'function') {
+      centerStone(scroller, selectedStone, { smooth: false });
+    } else {
+      requestAnimationFrame(() => centerStone(scroller, selectedStone, { smooth: false }));
+    }
   }
   return selectedKey;
 }
