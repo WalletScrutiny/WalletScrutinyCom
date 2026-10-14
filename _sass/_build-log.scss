@@ -137,6 +137,8 @@
   flex: 1 1 auto;
   min-height: 0;
   overflow: auto;
+  // The end of the log is the end: a wheel or swipe past it must not move what is behind.
+  overscroll-behavior: contain;
   padding: 8px 0 96px;
   outline: none;
   scrollbar-width: thin;
