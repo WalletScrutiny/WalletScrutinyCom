@@ -43,6 +43,13 @@ body.dark .bv-panel {
   padding-right: 10px;
 }
 
+/* Full width on phones and tablets, half the section on desktop. */
+@media screen and (min-width: 1024px) {
+  .bv-panel.bv-versions {
+    width: 50%;
+  }
+}
+
 .bv-river {
   display: flex;
   align-items: flex-end;
