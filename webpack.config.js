@@ -147,6 +147,11 @@ module.exports = (env, argv) => {
             if (argv.mode === 'development') {
               console.log("Launching Jekyll server...");
 
+              // JEKYLL_EXTRA_CONFIG=_config.fast.yml (npm run dev:fast) renders a sample of the wallets.
+              const jekyllConfigs = ["_config.yml", "_config.dev.yml", process.env.JEKYLL_EXTRA_CONFIG]
+                .filter(Boolean)
+                .join(",");
+
               spawn("bundle", [
                 "exec",
                 "jekyll",
@@ -155,7 +160,7 @@ module.exports = (env, argv) => {
                 "--trace",
                 "--host=localhost",
                 "--config",
-                "_config.yml,_config.dev.yml",
+                jekyllConfigs,
                 "--incremental",
               ], {
                 stdio: "inherit",

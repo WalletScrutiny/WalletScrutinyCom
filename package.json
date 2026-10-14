@@ -45,6 +45,7 @@
     "test:e2e:ui": "playwright test --ui",
     "playwright:install": "playwright install chromium",
     "dev": "npm run clean_dist && npm run precompute && webpack --mode development --watch",
+    "dev:fast": "JEKYLL_EXTRA_CONFIG=_config.fast.yml npm run dev",
     "build": "node scripts/build.mjs",
     "analyze": "webpack --mode production --no-watch --env analyze --output-path dist",
     "precompute": "node scripts/precompute-wallet-data.mjs",
