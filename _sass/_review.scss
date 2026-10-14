@@ -243,9 +243,9 @@
   gap: 0.4em;
   padding: 0.25em 0.7em;
   border-radius: 999px;
-  border: 1px solid var(--accent);
-  background: var(--accent-50);
-  color: var(--accent-text);
+  border: 1px solid var(--orange);
+  background: color-mix(in srgb, var(--orange) 8%, transparent);
+  color: var(--orange);
   font: inherit;
   font-size: $font-xs;
   font-weight: $title-font-weight;
@@ -254,7 +254,7 @@
 
   &:hover,
   &:focus-visible {
-    background: var(--accent);
+    background: var(--orange);
     color: var(--permanent-white);
   }
 }
