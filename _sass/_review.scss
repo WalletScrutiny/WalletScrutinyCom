@@ -464,7 +464,7 @@
     margin-top: 20px;
   }
   .step.operating-system {
-    margin-top: 8px;
+    margin-top: 4px;
   }
 
   // the first section sits right under the Android/iPhone tabs
@@ -505,9 +505,9 @@
 }
 
 .security-overview {
-  // no line above Application information, and half the old 81px gap
+  // no line above Application information, and 35% of the old 81px gap
   > #results {
-    margin-top: 40px;
+    margin-top: 28px;
   }
   font-weight: $paragraph-font-weight;
   // 15px on the container, not on p, so lists, quotes and tables in the
@@ -592,7 +592,7 @@
     // no line before Platform notes, and half the gap
     &:has(+ .operating-system) {
       margin-bottom: 4px;
-      padding-bottom: 12px;
+      padding-bottom: 5px;
       &::after {
         content: none;
       }
