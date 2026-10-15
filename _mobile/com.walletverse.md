@@ -27,7 +27,7 @@ android:
   released: 2023-06-29
   updated: 2026-09-24
   version: 1.18.4
-  reviews: 20
+  reviews: 21
   icon: com.walletverse.webp
   meta: ok
   verdict: nosource

@@ -36,7 +36,7 @@ iphone:
   released: 2023-02-09
   updated: 2026-09-29
   version: 4.0.2
-  reviews: 1217
+  reviews: 1220
   icon: com.bydfi.app.webp
   meta: ok
   verdict: custodial

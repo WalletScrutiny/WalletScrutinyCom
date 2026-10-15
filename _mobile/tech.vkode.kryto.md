@@ -9,10 +9,10 @@ android:
   users: 50
   appCountry: us
   released: 2024-07-27
-  updated: 2025-07-30
-  version: 1.0.0
+  updated: 2026-10-07
+  version: 2.0.0
   icon: tech.vkode.kryto.webp
-  meta: stale
+  meta: fewusers
   verdict: wip
   developerName: VKode
 

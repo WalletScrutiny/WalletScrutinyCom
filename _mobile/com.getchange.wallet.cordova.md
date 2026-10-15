@@ -21,8 +21,8 @@ android:
   users: 100000
   appCountry: nl
   released: 2018-06-07
-  updated: 2026-10-01
-  version: 30.68.1
+  updated: 2026-10-05
+  version: 30.68.2
   reviews: 23
   icon: com.getchange.wallet.cordova.webp
   meta: ok

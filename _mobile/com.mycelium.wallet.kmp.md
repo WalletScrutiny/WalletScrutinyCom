@@ -28,8 +28,8 @@ android:
   users: 500
   appCountry: us
   released: 2026-02-06
-  updated: 2026-09-22
-  version: 1.1.36
+  updated: 2026-10-09
+  version: 1.1.40
   icon: com.mycelium.wallet.kmp.webp
   signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
   meta: fewusers
@@ -44,7 +44,7 @@ iphone:
   released: 2014-12-17
   updated: 2026-09-25
   version: '2.12'
-  reviews: 22
+  reviews: 25
   icon: com.mycelium.wallet-ios.webp
   meta: ok
   verdict: sourceavailable

@@ -20,8 +20,8 @@ android:
   users: 10000
   appCountry: us
   released: 2021-12-28
-  updated: 2026-09-24
-  version: 3.101.0
+  updated: 2026-10-14
+  version: 3.103.0
   reviews: 3
   icon: com.kryptogo.walletapp.webp
   meta: ok

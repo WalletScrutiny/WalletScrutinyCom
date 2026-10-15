@@ -8,8 +8,8 @@ android:
   appId: com.gimbutis.x
   users: 500
   appCountry: us
-  updated: 2026-07-28
-  version: 1.6.6
+  updated: 2026-10-12
+  version: 1.7.0
   icon: com.gimbutis.x.webp
   meta: fewusers
   verdict: wip

@@ -32,7 +32,7 @@ iphone:
   released: 2023-04-17
   updated: 2026-09-17
   version: '4.1'
-  reviews: 194
+  reviews: 193
   icon: com.internetmoneywallet.app.webp
   meta: ok
   verdict: nosource

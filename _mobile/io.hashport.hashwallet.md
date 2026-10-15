@@ -10,9 +10,9 @@ android:
   users: 100000
   appCountry: jp
   released: 2023-10-13
-  updated: 2026-09-24
-  version: 3.21.1
-  reviews: 228
+  updated: 2026-10-07
+  version: 3.23.1
+  reviews: 227
   icon: io.hashport.hashwallet.webp
   meta: ok
   verdict: nosource
@@ -22,9 +22,9 @@ iphone:
   idd: '6450660947'
   appCountry: jp
   released: 2023-10-22
-  updated: 2026-10-05
-  version: 3.21.1
-  reviews: 1389
+  updated: 2026-10-13
+  version: 3.23.1
+  reviews: 1397
   icon: io.hashport.hashwallet.webp
   meta: ok
   verdict: nosource

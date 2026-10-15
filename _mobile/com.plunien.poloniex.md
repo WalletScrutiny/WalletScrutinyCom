@@ -21,7 +21,7 @@ android:
   released: 2017-06-19
   updated: 2026-09-28
   version: 2.44.3
-  reviews: 242
+  reviews: 243
   icon: com.plunien.poloniex.webp
   meta: ok
   verdict: custodial

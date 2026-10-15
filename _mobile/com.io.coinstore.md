@@ -34,7 +34,7 @@ iphone:
   version: 5.2.0
   reviews: 101
   icon: com.coinstore.sg.webp
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: COINSTORE PTE. LTD.
 

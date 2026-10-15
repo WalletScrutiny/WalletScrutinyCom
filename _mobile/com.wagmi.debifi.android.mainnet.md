@@ -7,8 +7,8 @@ android:
   users: 1000
   appCountry: us
   released: 2024-03-21
-  updated: 2026-09-28
-  version: 0.20.3-prod-mainnet
+  updated: 2026-10-12
+  version: 0.20.4-prod-mainnet
   icon: com.wagmi.debifi.android.mainnet.webp
   meta: ok
   verdict: custodial

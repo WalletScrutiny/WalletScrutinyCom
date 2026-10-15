@@ -6,7 +6,7 @@ redirect_from:
 - /android/com.zenapay.merchant/
 android:
   appId: com.zenapay.merchant
-  users: 50
+  users: 100
   appCountry: us
   released: 2018-01-02
   updated: 2024-06-12

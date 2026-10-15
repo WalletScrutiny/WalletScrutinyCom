@@ -12,8 +12,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-07-21
-  updated: 2026-09-15
-  version: 1.3.0
+  updated: 2026-10-09
+  version: 1.4.0
   icon: com.coinrabbit.webp
   meta: ok
   verdict: custodial

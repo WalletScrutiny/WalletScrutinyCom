@@ -20,8 +20,8 @@ android:
   users: 100000
   appCountry: us
   released: 2021-06-09
-  updated: 2026-09-05
-  version: 4.1.22
+  updated: 2026-10-11
+  version: 4.1.23
   reviews: 31
   icon: africa.obiex.app.webp
   meta: ok
@@ -32,9 +32,9 @@ iphone:
   idd: '1567887163'
   appCountry: ng
   released: 2021-06-18
-  updated: 2026-09-05
-  version: 4.1.20
-  reviews: 717
+  updated: 2026-10-13
+  version: 4.1.23
+  reviews: 722
   icon: africa.obiex.app.webp
   meta: ok
   verdict: custodial

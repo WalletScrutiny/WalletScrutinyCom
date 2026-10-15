@@ -13,9 +13,9 @@ android:
   users: 500000
   appCountry: cn
   released: 2018-11-05
-  updated: 2026-09-29
-  version: 1.9.80.1a4d
-  reviews: 1543
+  updated: 2026-10-13
+  version: 1.9.85.37ce
+  reviews: 1544
   icon: kr.co.gopax.webp
   meta: ok
   verdict: custodial
@@ -25,8 +25,8 @@ iphone:
   idd: 1369896843
   appCountry: kr
   released: 2018-06-21
-  updated: 2026-09-29
-  version: 3.3.1
+  updated: 2026-10-13
+  version: 3.3.2
   reviews: 534
   icon: kr.co.gopax.webp
   meta: ok

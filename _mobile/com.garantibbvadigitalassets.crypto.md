@@ -16,7 +16,7 @@ android:
   appCountry: us
   released: 2023-12-11
   updated: 2026-10-01
-  version: 1.18.0
+  version: 1.19.0
   reviews: 3
   icon: com.garantibbvadigitalassets.crypto.webp
   meta: ok
@@ -29,7 +29,7 @@ iphone:
   released: 2012-04-28
   updated: 2026-10-01
   version: '19.5'
-  reviews: 15510
+  reviews: 15615
   icon: com.garanti.cepsube.webp
   meta: ok
   verdict: custodial

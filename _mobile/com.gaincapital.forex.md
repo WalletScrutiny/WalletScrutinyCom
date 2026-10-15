@@ -17,8 +17,8 @@ android:
   users: 500000
   appCountry: gb
   released: 2021-01-11
-  updated: 2026-09-08
-  version: '1.268'
+  updated: 2026-09-29
+  version: '1.270'
   reviews: 39
   icon: com.gaincapital.forex.webp
   meta: ok
@@ -29,8 +29,8 @@ iphone:
   idd: 1506581586
   appCountry: gb
   released: 2020-10-14
-  updated: 2026-09-21
-  version: 1.269.8156
+  updated: 2026-10-05
+  version: 1.270.8196
   reviews: 265
   icon: com.gaincapital.forex.webp
   meta: ok

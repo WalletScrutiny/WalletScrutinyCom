@@ -28,7 +28,7 @@ iphone:
   released: 2019-08-03
   updated: 2026-09-19
   version: '16.3'
-  reviews: 267
+  reviews: 268
   icon: com.unifiedsignal.ogpaywallet.webp
   meta: ok
   verdict: custodial

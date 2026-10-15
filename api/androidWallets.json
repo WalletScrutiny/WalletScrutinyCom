@@ -1,0 +1,48 @@
+---
+layout: null
+---
+{%- comment -%}
+Consumer: the WalletScrutiny Android app
+(https://gitlab.com/walletscrutiny/walletscrutinyandroid). Today the app bakes
+the same list into its release from a checkout of this repository
+(scripts/updateAndroidWallets.mjs over there); this file is what it fetches at
+runtime instead, so badges, titles and verdict changes follow the site without
+an app release. Everything in api/ is read by software outside the site; bump
+schemaVersion and tell the consumer's owner before changing a field.
+
+One entry per wallet the app tracks: the Android store entry has verdict
+sourceavailable and meta ok, deprecated or absent (the same filter the app's
+script applies). Fields per wallet:
+  appId             Android package name
+  title             altTitle (android block, then page) or title
+  icon              filename under /images/wIcons/android/, or null
+  users             Play Store install count as a number, or null
+  verdict, meta     the Android entry's values; meta is null when absent
+  alternativeStores list from the Android entry, [] when absent (fdroid, zapstore, ...)
+  bitcoinOrgId      the page's top-level field, or null; non-null means
+                    "Featured on Bitcoin.org", the same key the site badge uses
+  repository        the Android entry's source repository, or null
+{%- endcomment -%}
+{%- assign okMetas = "ok,deprecated" | split: "," -%}
+{%- assign out = "" -%}
+{%- for post in site.mobile -%}
+{%- assign store = post.android -%}
+{%- if store.appId and store.verdict == "sourceavailable" -%}
+{%- if store.meta == nil or okMetas contains store.meta -%}
+{%- assign title = store.altTitle | default: post.altTitle | default: post.title | default: store.appId -%}
+{%- capture entry -%}
+{"appId":{{ store.appId | jsonify }}
+,"title":{{ title | jsonify }}
+,"icon":{{ store.icon | jsonify }}
+,"users":{% if store.users %}{{ store.users | plus: 0 }}{% else %}null{% endif %}
+,"verdict":{{ store.verdict | jsonify }}
+,"meta":{{ store.meta | jsonify }}
+,"alternativeStores":{% if store.alternativeStores %}{{ store.alternativeStores | jsonify }}{% else %}[]{% endif %}
+,"bitcoinOrgId":{{ post.bitcoinOrgId | jsonify }}
+,"repository":{{ store.repository | jsonify }}}
+{%- endcapture -%}
+{%- assign out = out | append: "," | append: entry -%}
+{%- endif -%}
+{%- endif -%}
+{%- endfor -%}
+{"schemaVersion":1,"wallets":[{{ out | remove_first: "," }}]}

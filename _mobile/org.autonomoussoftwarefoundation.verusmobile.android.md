@@ -21,11 +21,11 @@ android:
   users: 100000
   appCountry: us
   released: 2023-04-23
-  updated: 2025-10-06
-  version: 1.0.34
+  updated: 2026-10-12
+  version: 1.1.0-21
   reviews: 35
   icon: org.autonomoussoftwarefoundation.verusmobile.android.webp
-  meta: stale
+  meta: ok
   verdict: sourceavailable
   developerName: Autonomous Software Foundation
   repository: https://github.com/VerusCoin/Verus-Mobile
@@ -34,11 +34,11 @@ iphone:
   idd: '6447361908'
   appCountry: us
   released: 2025-04-25
-  updated: 2025-10-07
-  version: 1.0.34
+  updated: 2026-10-12
+  version: 1.1.0
   reviews: 19
   icon: org.autonomoussoftwarefoundation.verusmobile.ios.webp
-  meta: stale
+  meta: ok
   verdict: sourceavailable
   developerName: Autonomous Software Foundation
   repository: https://github.com/VerusCoin/Verus-Mobile

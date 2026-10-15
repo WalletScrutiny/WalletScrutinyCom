@@ -23,7 +23,7 @@ android:
   updated: 2025-10-13
   version: 1.9.11
   icon: com.astrox.wizz.webp
-  meta: ok
+  meta: stale
   verdict: nosource
   developerName: AstroX Network
 iphone:
@@ -35,7 +35,7 @@ iphone:
   version: 1.9.11
   reviews: 16
   icon: com.astrox.wizz.webp
-  meta: ok
+  meta: stale
   verdict: nosource
   developerName: AstroX Network
 

@@ -28,8 +28,8 @@ iphone:
   idd: '1551746664'
   appCountry: us
   released: 2021-03-31
-  updated: 2026-09-24
-  version: 4.3.54
+  updated: 2026-10-09
+  version: 4.3.55
   reviews: 13
   icon: vip.sing.exchange.webp
   meta: ok

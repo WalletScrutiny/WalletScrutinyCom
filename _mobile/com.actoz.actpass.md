@@ -19,7 +19,7 @@ android:
   version: 2.2.2
   reviews: 1
   icon: com.actoz.actpass.webp
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: ArtalGamesCasual
 iphone:

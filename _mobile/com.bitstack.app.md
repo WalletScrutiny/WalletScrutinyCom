@@ -25,7 +25,7 @@ iphone:
   released: 2022-07-05
   updated: 2026-10-01
   version: 4.3.0
-  reviews: 185
+  reviews: 189
   icon: com.bitstack.app.webp
   meta: ok
   verdict: custodial

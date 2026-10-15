@@ -25,9 +25,9 @@ iphone:
   idd: '1641059360'
   appCountry: id
   released: 2022-11-15
-  updated: 2026-09-25
-  version: 2.0.23
-  reviews: 445
+  updated: 2026-10-06
+  version: 2.0.24
+  reviews: 446
   icon: com.bittime.currency.exchange.webp
   meta: ok
   verdict: custodial

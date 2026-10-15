@@ -14,7 +14,7 @@ android:
   released: 2019-09-11
   updated: 2026-09-27
   version: 7.5.3
-  reviews: 270
+  reviews: 271
   icon: co.okex.app.webp
   meta: ok
   verdict: custodial

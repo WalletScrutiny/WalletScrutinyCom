@@ -29,7 +29,7 @@ iphone:
   released: 2014-07-25
   updated: 2026-09-04
   version: 2.1.5
-  reviews: 61
+  reviews: 62
   icon: net.bither.webp
   meta: ok
   verdict: obfuscated

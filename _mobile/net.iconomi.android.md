@@ -19,8 +19,8 @@ android:
   users: 10000
   appCountry: si
   released: 2017-10-17
-  updated: 2026-02-25
-  version: 4.1.3
+  updated: 2026-10-05
+  version: 4.1.7
   reviews: 172
   icon: net.iconomi.android.webp
   meta: ok
@@ -33,7 +33,7 @@ iphone:
   released: 2017-05-25
   updated: 2026-10-03
   version: 4.1.7
-  reviews: 84
+  reviews: 85
   icon: net.iconomi.iconomi.webp
   meta: ok
   verdict: custodial

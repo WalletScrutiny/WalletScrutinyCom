@@ -18,8 +18,8 @@ android:
   appCountry: us
   released: 2023-05-26
   updated: 2026-09-10
-  version: 2.2.6.008
-  reviews: 1182
+  version: 2.2.8.10
+  reviews: 1184
   icon: com.webull.pay.us.webp
   meta: ok
   verdict: custodial
@@ -31,7 +31,7 @@ iphone:
   released: 2023-06-27
   updated: 2026-09-13
   version: 2.2.8
-  reviews: 26307
+  reviews: 26335
   icon: com.webull.pay.us.webp
   meta: ok
   verdict: custodial

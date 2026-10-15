@@ -31,7 +31,7 @@ android:
   appCountry: us
   released: 2014-01-31
   updated: 2026-10-01
-  version: 1.68.0
+  version: 1.68.2
   reviews: 2320
   icon: com.coinomi.wallet.webp
   meta: ok
@@ -44,7 +44,7 @@ iphone:
   released: 2018-03-22
   updated: 2026-10-01
   version: 1.68.2
-  reviews: 2142
+  reviews: 2143
   icon: com.coinomi.wallet.webp
   meta: ok
   verdict: nosource

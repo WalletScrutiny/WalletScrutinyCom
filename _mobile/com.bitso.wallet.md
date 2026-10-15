@@ -17,7 +17,7 @@ android:
   users: 10000000
   appCountry: us
   released: 2018-02-19
-  updated: 2026-10-02
+  updated: 2026-10-09
   version: 4.25.4
   reviews: 310
   icon: com.bitso.wallet.webp
@@ -29,9 +29,9 @@ iphone:
   idd: 1292836438
   appCountry: us
   released: 2018-02-19
-  updated: 2026-10-01
-  version: 4.26.0
-  reviews: 1037
+  updated: 2026-10-09
+  version: 4.26.2
+  reviews: 1039
   icon: com.bitso.wallet.webp
   meta: ok
   verdict: custodial

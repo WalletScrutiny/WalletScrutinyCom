@@ -20,7 +20,7 @@ android:
   released: 2019-10-23
   updated: 2026-10-01
   version: 3.9.15
-  reviews: 873
+  reviews: 888
   icon: com.matrixport.mark.webp
   meta: ok
   verdict: custodial
@@ -32,7 +32,7 @@ iphone:
   released: 2019-11-25
   updated: 2026-10-01
   version: 4.8.00
-  reviews: 60
+  reviews: 61
   icon: com.matrixport.mark.webp
   meta: ok
   verdict: custodial

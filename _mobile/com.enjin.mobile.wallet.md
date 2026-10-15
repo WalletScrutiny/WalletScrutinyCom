@@ -28,7 +28,7 @@ android:
   released: 2018-01-01
   updated: 2026-08-06
   version: 3.6.7
-  reviews: 1086
+  reviews: 1087
   icon: com.enjin.mobile.wallet.webp
   meta: ok
   verdict: nosource
@@ -40,7 +40,7 @@ iphone:
   released: 2018-03-12
   updated: 2026-09-21
   version: 3.6.2
-  reviews: 1359
+  reviews: 1358
   icon: com.enjin.mobile.wallet.webp
   meta: ok
   verdict: nosource

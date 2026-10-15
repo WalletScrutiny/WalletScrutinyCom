@@ -17,8 +17,8 @@ android:
   users: 100000000
   appCountry: us
   updated: 2026-10-01
-  version: 8.67.4
-  reviews: 556
+  version: 8.68.3
+  reviews: 557
   icon: com.iqoption.webp
   meta: ok
   verdict: nosendreceive
@@ -28,9 +28,9 @@ iphone:
   idd: '871125783'
   appCountry: gb
   released: 2014-05-15
-  updated: 2026-09-29
-  version: '4.107'
-  reviews: 1282
+  updated: 2026-10-07
+  version: '4.108'
+  reviews: 1283
   icon: com.trading.iqoption.webp
   meta: ok
   verdict: nosendreceive

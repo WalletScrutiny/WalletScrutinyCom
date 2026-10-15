@@ -19,7 +19,7 @@ android:
   released: 2021-08-02
   updated: 2026-09-09
   version: 1.5.8
-  reviews: 262
+  reviews: 261
   icon: fm.fountain.apps.webp
   alternativeStores:
   - zapstore
@@ -31,8 +31,8 @@ iphone:
   idd: '1576394424'
   appCountry: ph
   released: 2021-07-28
-  updated: 2026-09-27
-  version: 1.5.8
+  updated: 2026-10-07
+  version: 1.5.9
   reviews: 2
   icon: fm.fountain.apps.webp
   meta: ok

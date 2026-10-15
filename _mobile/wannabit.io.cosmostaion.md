@@ -22,8 +22,8 @@ android:
   users: 100000
   appCountry: us
   released: 2019-03-17
-  updated: 2026-06-17
-  version: 1.10.51
+  updated: 2026-10-06
+  version: 1.10.52
   reviews: 135
   icon: wannabit.io.cosmostaion.webp
   meta: ok

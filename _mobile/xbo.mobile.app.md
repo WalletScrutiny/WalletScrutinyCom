@@ -20,8 +20,8 @@ android:
   users: 50000
   appCountry: us
   released: 2022-09-24
-  updated: 2026-09-30
-  version: 3.18.0
+  updated: 2026-10-08
+  version: 3.19.0
   reviews: 16
   icon: xbo.mobile.app.webp
   meta: ok
@@ -32,8 +32,8 @@ iphone:
   idd: '1638748643'
   appCountry: cy
   released: 2022-09-24
-  updated: 2026-10-02
-  version: 3.18.0
+  updated: 2026-10-12
+  version: 3.19.0
   reviews: 9
   icon: xbo.mobile.app.webp
   meta: ok

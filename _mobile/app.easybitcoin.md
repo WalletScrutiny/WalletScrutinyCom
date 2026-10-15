@@ -30,8 +30,8 @@ iphone:
   idd: '6746941684'
   appCountry: us
   released: 2025-09-09
-  updated: 2026-04-11
-  version: 1.2.2
+  updated: 2026-10-07
+  version: 1.2.4
   reviews: 10
   icon: app.easybitcoin.webp
   meta: ok

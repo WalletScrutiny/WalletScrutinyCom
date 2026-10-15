@@ -12,8 +12,8 @@ android:
   users: 10000
   appCountry: us
   released: 2021-01-27
-  updated: 2026-03-26
-  version: 1.2.9
+  updated: 2026-10-08
+  version: 1.2.10
   reviews: 27
   icon: com.mufin.iconfi.webp
   meta: ok

@@ -1,7 +1,7 @@
 ---
 wsId: mannaBitcoin
 title: Manna Bitcoin Wallet
-date: 2026-05-09
+date: 2026-10-15
 authors:
 - danny
 website: http://mannabitcoin.com/
@@ -16,8 +16,8 @@ android:
   users: 500
   appCountry: us
   released: 2025-05-14
-  updated: 2026-10-03
-  version: 1.2.30
+  updated: 2026-10-07
+  version: 1.2.33
   reviews: 8
   icon: com.lightning.manna.webp
   meta: fewusers
@@ -28,8 +28,8 @@ iphone:
   idd: '6745337602'
   appCountry: us
   released: 2025-05-16
-  updated: 2026-10-03
-  version: 1.2.30
+  updated: 2026-10-09
+  version: 1.2.33
   reviews: 12
   icon: com.lightning.manna.webp
   meta: ok
@@ -42,29 +42,27 @@ iphone:
 
 ## App Description
 
-Manna is a Liquid-based wallet that advertises support for on-chain Bitcoin, Lightning, and Liquid. The app generates a 12-word BIP39 seed phrase on-device. The seed controls L-BTC (Liquid Bitcoin) keys. On-chain Bitcoin and Lightning are accessed through swap and payment services rather than natively.
+Manna calls itself a self-custodial Bitcoin wallet for Lightning and on-chain payments. It also has a point-of-sale mode, a BTC Map, a price chart and an encrypted chat.
 
-The [Play Store listing](https://play.google.com/store/apps/details?id=com.lightning.manna) says Manna is open source. We could not find a public source repository, including when searching GitHub for the app ID.
+The source code is now public under the MIT license at [MannaBitcoin/manna_app](https://github.com/MannaBitcoin/manna_app). The repository appeared on 2026-09-22, after our first review. This update reviews commit [`bdfbd186`](https://github.com/MannaBitcoin/manna_app/tree/bdfbd186d640aad38ea3060a68b1371368a81ac7), the only public state so far. That code is version 1.2.25, while the stores ship 1.2.33, so the public source is behind the apps people install.
 
-## Testing and Analysis
+## Analysis
 
-Testing screenshots: [https://x.com/BitcoinWalletz/status/2052938467437588936](https://x.com/BitcoinWalletz/status/2052938467437588936)
+**Manna is no longer a Liquid wallet.** Our first review (May 2026) found a Liquid wallet that relied on Boltz swaps for on-chain Bitcoin. The current app tells users ["Manna is now Spark Wallet"](https://github.com/MannaBitcoin/manna_app/blob/bdfbd186d640aad38ea3060a68b1371368a81ac7/lib/screens/wallet_screen.dart#L117). Old Liquid balances stay reachable on a legacy screen, and the app suggests importing the seed into a Liquid wallet such as Blockstream Green to spend them.
 
-The verdict of `nosource` rather than `custodial` warrants explanation. The app does generate a 12-word seed on-device, and that seed controls the user's L-BTC keys directly. That is enough to clear the custodial gate in WalletScrutiny's methodology. However, this self-custody only holds at the Liquid layer. Manna's own [Terms of Service](https://mannabitcoin.com/terms/) say the app receives L-BTC through swaps facilitated by third-party services such as Boltz, and stores an address pool for receiving L-BTC in Supabase.
+**The seed is made on your phone.** The app generates a 12-word seed on the device ([`wallet_service.dart#L450`](https://github.com/MannaBitcoin/manna_app/blob/bdfbd186d640aad38ea3060a68b1371368a81ac7/lib/services/wallet_service.dart#L450)) and gives it to the Breez SDK, which runs the Spark wallet ([`#L160-L168`](https://github.com/MannaBitcoin/manna_app/blob/bdfbd186d640aad38ea3060a68b1371368a81ac7/lib/services/wallet_service.dart#L160-L168)). The SDK runs with its default settings apart from the API key, so Lightspark acts as the Spark service provider.
 
-Our testing found that the Lightning receive flow defaults to a Lightning Address hosted on Manna's servers (`@mannabitcoin.com`), and the on-chain BTC receive flow routes through Boltz. The generated on-chain deposit address was not derived from the user's seed phrase when checked in Electrum.
+**On-chain Bitcoin goes into Spark.** The "receive Bitcoin" address now comes from the Spark SDK ([`transaction_service.dart#L53`](https://github.com/MannaBitcoin/manna_app/blob/bdfbd186d640aad38ea3060a68b1371368a81ac7/lib/services/transaction_service.dart#L53)), not from Boltz. Coins sent there are claimed into your Spark balance. Sending to a Bitcoin address uses the SDK's normal withdrawal ([`confirm_payment_bottom_sheet.dart#L168`](https://github.com/MannaBitcoin/manna_app/blob/bdfbd186d640aad38ea3060a68b1371368a81ac7/lib/widgets/bottom%20sheets/confirm_payment_bottom_sheet.dart#L168)). That withdrawal is a cooperative exit: the Spark service provider must help build it.
 
-The verdict is `custodial`. While the seed is generated on-device and technically controls L-BTC keys, this does not constitute practical self-custody for Bitcoin. For every payment rail the app presents as "Bitcoin," the user is dependent on third-party infrastructure that the seed cannot recover.
+**Lightning addresses run through Manna's servers.** Usernames like `name@mannabitcoin.com` are mapped to a Spark key in Manna's database ([`db_service.dart#L613-L629`](https://github.com/MannaBitcoin/manna_app/blob/bdfbd186d640aad38ea3060a68b1371368a81ac7/lib/services/db_service.dart#L613-L629)). The server that answers these Lightning addresses is not in the repository, so we could not check it.
 
-### Can You Recover Your Bitcoin With the Seed Phrase?
+**Can you get your bitcoin out without anyone's help?** No, not from the app. Spark lets a user leave on their own (a "unilateral exit") if the operators go offline or refuse. The Breez SDK that Manna bundles offers this. But Manna's only use of it is commented out ([`wallet_service.dart#L138-L143`](https://github.com/MannaBitcoin/manna_app/blob/bdfbd186d640aad38ea3060a68b1371368a81ac7/lib/services/wallet_service.dart#L138-L143)), and nothing in the app builds such an exit. If the Spark operators stopped cooperating, a Manna user would have no way to move their balance on-chain from the app.
 
-**Bitcoin sent to the "BTC" address Manna shows you:** That address belongs to [Boltz](https://boltz.exchange/), not you. Bitcoin sent there goes to Boltz first, which converts it to L-BTC and sends it to your Liquid address. If you import your seed into Electrum, those funds are invisible — the receiving address was never yours. If Boltz fails mid-swap, you would need to use Boltz's own refund mechanism within 24 hours. Your seed is useless for recovering that Bitcoin.
+## Verdict
 
-**Lightning payments sent to your `@mannabitcoin.com` address:** Those go to Manna's Lightning node. Manna credits your in-app L-BTC balance. Your seed has no Lightning channel state to recover. If Manna goes offline, incoming Lightning payments are lost.
+We consider Manna **custodial**. The seed is yours, but every balance the app shows as Bitcoin or Lightning sits in Spark. Moving it on-chain needs the cooperation of the Spark service provider and operators. We apply the same test to all Spark wallets ([issue #947](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/work_items/947)).
 
-**L-BTC (Liquid Bitcoin):** This is the only layer the seed actually controls. You could import the seed into a Liquid-compatible wallet such as Green Wallet and recover your L-BTC. But L-BTC is not Bitcoin — to exit to actual Bitcoin you still need either the Liquid Federation's peg-out process or a swap service like Boltz.
-
-In short: the seed gives you custody of L-BTC only. For anything labeled "Bitcoin" or "Lightning" in Manna, you are depending on Boltz and Manna's servers respectively. Neither is recoverable with just your seed phrase.
+This would change if the app let users exit on their own, for example by exporting the exit data or building the exit transaction itself.
 
 ---
 

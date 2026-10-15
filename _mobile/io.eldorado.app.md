@@ -18,8 +18,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2022-04-19
-  updated: 2026-09-17
-  version: 1.3.2230
+  updated: 2026-10-06
+  version: 1.3.2253
   reviews: 492
   icon: io.eldorado.app.webp
   meta: ok

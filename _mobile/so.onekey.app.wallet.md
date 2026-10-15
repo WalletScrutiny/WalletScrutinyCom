@@ -26,8 +26,8 @@ android:
   users: 100000
   appCountry: us
   released: 2022-04-27
-  updated: 2026-09-23
-  version: 6.6.0
+  updated: 2026-10-10
+  version: 6.6.1
   reviews: 100
   icon: so.onekey.app.wallet.webp
   meta: ok
@@ -39,9 +39,9 @@ iphone:
   idd: '1609559473'
   appCountry: us
   released: 2022-04-27
-  updated: 2026-09-25
-  version: 6.6.0
-  reviews: 682
+  updated: 2026-10-10
+  version: 6.6.1
+  reviews: 680
   icon: so.onekey.wallet.webp
   meta: ok
   verdict: sourceavailable

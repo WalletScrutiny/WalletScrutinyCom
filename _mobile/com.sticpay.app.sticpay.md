@@ -32,7 +32,7 @@ iphone:
   released: 2017-09-05
   updated: 2026-03-31
   version: '4.02'
-  reviews: 28
+  reviews: 29
   icon: com.sticpay.app.webp
   meta: ok
   verdict: custodial

@@ -5,7 +5,7 @@ date: 2025-12-16
 authors:
 - leo
 - danny
-website: https://support.metamask.com
+website: https://support.metamask.io
 twitter: MetaMask
 social:
 - https://discord.com/invite/consensys
@@ -26,7 +26,7 @@ android:
   released: 2020-09-01
   updated: 2026-09-29
   version: 8.12.0
-  reviews: 6753
+  reviews: 6755
   icon: io.metamask.webp
   alternativeStores:
   - zapstore
@@ -41,7 +41,7 @@ iphone:
   released: 2020-09-03
   updated: 2026-09-29
   version: 8.13.0
-  reviews: 76382
+  reviews: 76477
   icon: io.metamask.MetaMask.webp
   meta: ok
   verdict: sourceavailable

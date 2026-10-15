@@ -29,7 +29,7 @@ iphone:
   released: 2018-08-15
   updated: 2025-07-21
   version: '8.4'
-  reviews: 0
+  reviews: 1
   icon: com.cashin.store.webp
   meta: stale
   verdict: custodial

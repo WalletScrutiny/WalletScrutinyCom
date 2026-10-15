@@ -22,9 +22,9 @@ android:
   users: 10000
   appCountry: us
   released: 2024-07-01
-  updated: 2026-09-26
-  version: 1.0.121
-  reviews: 13
+  updated: 2026-10-08
+  version: 1.0.122
+  reviews: 14
   icon: com.vultisig.wallet.webp
   meta: ok
   verdict: sourceavailable
@@ -35,8 +35,8 @@ iphone:
   idd: '6503023896'
   appCountry: us
   released: 2024-09-16
-  updated: 2026-09-23
-  version: '1.47'
+  updated: 2026-10-10
+  version: '1.48'
   reviews: 64
   icon: com.vultisig.wallet.webp
   meta: ok

@@ -15,7 +15,7 @@ import {
   getAssetBundleDedupKey,
 } from './asset-utils.mjs';
 
-const appInfoURL = 'https://walletscrutiny.com/assets/js/json/buildServerInfo.json';
+const appInfoURL = 'https://walletscrutiny.com/api/buildServerInfo.json';
 const MAX_SCRIPTS_TO_TRY = 3;
 
 export { args, DEBUG, isDebugEnv };

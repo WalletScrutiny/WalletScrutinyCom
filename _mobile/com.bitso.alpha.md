@@ -17,7 +17,7 @@ android:
   released: 2021-09-28
   updated: 2026-09-25
   version: 1.55.0
-  reviews: 607
+  reviews: 609
   icon: com.bitso.alpha.webp
   meta: ok
   verdict: custodial

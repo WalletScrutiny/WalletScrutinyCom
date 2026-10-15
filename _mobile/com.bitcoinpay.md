@@ -9,10 +9,10 @@ android:
   users: 500
   appCountry: us
   released: 2021-01-24
-  updated: 2025-09-12
-  version: 2.1.5
+  updated: 2026-10-06
+  version: 2.2.1
   icon: com.bitcoinpay.webp
-  meta: stale
+  meta: fewusers
   verdict: wip
   developerName: BitCoinPay Trade
 

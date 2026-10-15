@@ -14,7 +14,7 @@ android:
   appCountry: us
   released: 2023-10-31
   updated: 2026-09-28
-  version: 1.65.0
+  version: 1.66.0
   reviews: 5
   icon: com.cloud.thailand.webp
   meta: ok
@@ -25,9 +25,9 @@ iphone:
   idd: '6450774618'
   appCountry: th
   released: 2023-11-21
-  updated: 2026-09-30
-  version: 1.66.0
-  reviews: 17998
+  updated: 2026-10-14
+  version: 1.67.0
+  reviews: 18141
   icon: com.tiger.cloudbase.thailand.webp
   meta: ok
   verdict: custodial

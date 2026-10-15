@@ -24,7 +24,7 @@ android:
   released: 2023-02-04
   updated: 2026-05-14
   version: '1.75'
-  reviews: 13
+  reviews: 12
   icon: com.application.koinpark.webp
   meta: ok
   verdict: custodial

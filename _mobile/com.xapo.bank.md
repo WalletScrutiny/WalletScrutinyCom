@@ -22,8 +22,8 @@ android:
   users: 100000
   appCountry: us
   released: 2021-05-27
-  updated: 2026-09-30
-  version: 11.31.0
+  updated: 2026-10-07
+  version: 11.33.0
   reviews: 43
   icon: com.xapo.bank.webp
   meta: ok
@@ -34,8 +34,8 @@ iphone:
   idd: '1560681080'
   appCountry: fi
   released: 2021-06-03
-  updated: 2026-09-26
-  version: 11.31.0
+  updated: 2026-10-08
+  version: 11.33.0
   reviews: 4
   icon: com.xapo.bank.webp
   meta: ok

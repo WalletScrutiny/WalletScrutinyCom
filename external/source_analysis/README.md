@@ -127,7 +127,7 @@ sudo -u build-server env SOURCE_ANALYSIS_DB_PATH=/var/lib/walletscrutiny-source-
 ## Which apps are analysed
 
 The list of wallets and their repositories comes from the site, not from this
-folder: `assets/js/json/appRepositories.json` is rendered at site build time
+folder: `api/appRepositories.json` is rendered at site build time
 from every wallet record that has a `repository:` line and is not gone
 (`meta` removed, defunct, discontinued or deprecated). Each entry is
 `{ "appId", "platform", "repository" }` and nothing else on purpose: the

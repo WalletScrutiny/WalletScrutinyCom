@@ -25,7 +25,7 @@ android:
   version: 1.8.4
   reviews: 3
   icon: com.softnotewallet.webp
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: Crispmind Ltd.
 iphone:

@@ -21,8 +21,8 @@ android:
   users: 5000
   appCountry: pl
   released: 2021-09-21
-  updated: 2026-08-20
-  version: 3.3.4
+  updated: 2026-10-08
+  version: 3.4.1
   icon: com.bitcoinsuisse.online.webp
   meta: ok
   verdict: custodial
@@ -32,8 +32,8 @@ iphone:
   idd: '1555493299'
   appCountry: pl
   released: 2021-09-21
-  updated: 2026-08-31
-  version: 3.3.4
+  updated: 2026-10-09
+  version: 3.4.1
   reviews: 0
   icon: com.bitcoinsuisse.online.webp
   meta: ok

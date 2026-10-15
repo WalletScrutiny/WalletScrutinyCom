@@ -15,9 +15,9 @@ android:
   users: 5000000
   appCountry: us
   released: 2019-05-26
-  updated: 2026-09-16
+  updated: 2026-10-11
   version: 4.11.11
-  reviews: 1170
+  reviews: 1171
   icon: io.safepal.wallet.webp
   meta: ok
   verdict: nosource
@@ -27,9 +27,9 @@ iphone:
   idd: 1548297139
   appCountry: us
   released: 2021-01-11
-  updated: 2026-09-20
-  version: 4.11.11
-  reviews: 17208
+  updated: 2026-10-12
+  version: 4.11.12
+  reviews: 17292
   icon: walletapp.safepal.io.webp
   meta: ok
   verdict: nosource

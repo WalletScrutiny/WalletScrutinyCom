@@ -21,7 +21,7 @@ android:
   released: 2018-06-29
   updated: 2026-09-24
   version: 2.29.0
-  reviews: 633
+  reviews: 634
   icon: vip.mytokenpocket.webp
   meta: ok
   verdict: obfuscated
@@ -34,7 +34,7 @@ iphone:
   released: 2023-01-04
   updated: 2026-09-25
   version: 2.30.0
-  reviews: 737
+  reviews: 740
   icon: com.global.wallet.ios.webp
   meta: ok
   verdict: obfuscated

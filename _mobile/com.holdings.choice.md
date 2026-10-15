@@ -32,7 +32,7 @@ iphone:
   released: 2021-08-05
   updated: 2026-09-12
   version: 2.28.0
-  reviews: 1497
+  reviews: 1496
   icon: com.holdings.choice.webp
   meta: ok
   verdict: custodial

@@ -28,7 +28,7 @@ iphone:
   version: 1.0.12
   reviews: 1
   icon: com.paywithflash.flashWallet.webp
-  meta: ok
+  meta: stale
   verdict: nosource
   developerName: Flash Lightning Solutions Inc.
 

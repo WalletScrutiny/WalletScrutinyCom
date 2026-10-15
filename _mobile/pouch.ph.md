@@ -15,9 +15,9 @@ android:
   users: 10000
   appCountry: us
   released: 2021-09-08
-  updated: 2026-07-28
-  version: 1.4.20
-  reviews: 4
+  updated: 2026-08-06
+  version: 1.4.22
+  reviews: 5
   icon: pouch.ph.webp
   meta: ok
   verdict: custodial

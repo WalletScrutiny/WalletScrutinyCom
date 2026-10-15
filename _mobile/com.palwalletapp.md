@@ -14,8 +14,8 @@ android:
   users: 10000
   appCountry: us
   released: 2023-03-20
-  updated: 2026-09-23
-  version: 1.0.52
+  updated: 2026-10-05
+  version: 1.0.54
   icon: com.palwalletapp.webp
   meta: ok
   verdict: custodial
@@ -25,8 +25,8 @@ iphone:
   idd: '6470434294'
   appCountry: il
   released: 2024-01-14
-  updated: 2026-09-20
-  version: 1.0.51
+  updated: 2026-10-08
+  version: 1.0.54
   reviews: 4
   icon: com.app.palwalletprod.webp
   meta: ok

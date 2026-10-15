@@ -23,7 +23,7 @@ android:
   users: 1000000
   appCountry: us
   released: 2016-11-30
-  updated: 2026-10-01
+  updated: 2026-10-10
   version: 5.3.45
   reviews: 55
   icon: com.unocoin.unocoinwallet.webp
@@ -35,9 +35,9 @@ iphone:
   idd: 1030422972
   appCountry: in
   released: 2016-05-12
-  updated: 2026-09-29
-  version: 6.2.79
-  reviews: 1719
+  updated: 2026-10-09
+  version: 6.2.83
+  reviews: 1720
   icon: com.unocoin.mainapp.production.webp
   meta: ok
   verdict: custodial

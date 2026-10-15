@@ -19,8 +19,8 @@ android:
   appId: com.weareblox.app
   users: 100000
   appCountry: us
-  updated: 2026-05-22
-  version: 6.8.3
+  updated: 2026-09-24
+  version: 6.9.0
   icon: com.weareblox.app.webp
   meta: ok
   verdict: nosendreceive
@@ -30,9 +30,9 @@ iphone:
   idd: '1444159776'
   appCountry: nl
   released: 2019-01-16
-  updated: 2026-06-19
-  version: 6.8.3
-  reviews: 5675
+  updated: 2026-10-06
+  version: 6.9.0
+  reviews: 5680
   icon: com.weareblox.app.webp
   meta: ok
   verdict: nosendreceive

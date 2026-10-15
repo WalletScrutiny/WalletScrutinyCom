@@ -26,8 +26,8 @@ android:
   users: 100000
   appCountry: us
   released: 2020-04-07
-  updated: 2026-09-29
-  version: '1.73'
+  updated: 2026-10-13
+  version: '1.74'
   reviews: 37
   icon: com.mtpelerin.bridge.webp
   meta: ok

@@ -33,9 +33,9 @@ iphone:
   idd: '6462426281'
   appCountry: us
   released: 2023-08-24
-  updated: 2026-09-18
-  version: 1.13.21
-  reviews: 1237
+  updated: 2026-10-13
+  version: 1.13.24
+  reviews: 1248
   icon: com.app.speed1.webp
   meta: ok
   verdict: custodial

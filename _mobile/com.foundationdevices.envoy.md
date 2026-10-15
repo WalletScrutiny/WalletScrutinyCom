@@ -24,11 +24,11 @@ redirect_from:
 - /iphone/com.foundationdevices.envoy/
 android:
   appId: com.foundationdevices.envoy
-  users: 1000
+  users: 5000
   appCountry: US
   released: 2022-04-01
   updated: 2026-09-30
-  version: 2.3.4
+  version: 2.3.5
   reviews: 6
   icon: com.foundationdevices.envoy.webp
   alternativeStores:

@@ -21,7 +21,7 @@ android:
   version: 2.4.3
   reviews: 25
   icon: com.trustkeysnetwork.webp
-  meta: stale
+  meta: obsolete
   verdict: nosource
   developerName: TrustKeys Finance
 iphone:

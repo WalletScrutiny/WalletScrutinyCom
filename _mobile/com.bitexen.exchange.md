@@ -17,7 +17,7 @@ android:
   users: 1000000
   appCountry: us
   released: 2018-05-27
-  updated: 2026-08-07
+  updated: 2026-10-08
   version: '1.42'
   reviews: 45
   icon: com.bitexen.exchange.webp

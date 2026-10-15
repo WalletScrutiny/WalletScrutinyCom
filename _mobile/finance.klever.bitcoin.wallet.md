@@ -26,8 +26,8 @@ android:
   users: 100000
   appCountry: us
   released: 2023-01-16
-  updated: 2026-09-29
-  version: 5.50.34
+  updated: 2026-10-05
+  version: 5.50.37
   reviews: 205
   icon: finance.klever.bitcoin.wallet.webp
   meta: ok
@@ -40,7 +40,7 @@ iphone:
   released: 2023-01-25
   updated: 2026-09-09
   version: 5.9.12
-  reviews: 1129
+  reviews: 1133
   icon: finance.klever.bitcoin.wallet.webp
   meta: ok
   verdict: nosource

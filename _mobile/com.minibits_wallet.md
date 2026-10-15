@@ -16,7 +16,7 @@ android:
   appId: com.minibits_wallet
   users: 1000
   appCountry: us
-  updated: 2026-06-02
+  updated: 2026-10-09
   version: VARY
   icon: com.minibits_wallet.webp
   alternativeStores:

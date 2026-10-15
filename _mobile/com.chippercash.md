@@ -16,8 +16,8 @@ android:
   appCountry: us
   released: 2018-07-07
   updated: 2026-10-01
-  version: 1.159.0
-  reviews: 3312
+  version: 1.160.0
+  reviews: 3310
   icon: com.chippercash.webp
   meta: ok
   verdict: custodial

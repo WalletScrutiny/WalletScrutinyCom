@@ -16,7 +16,7 @@ android:
   updated: 2025-10-14
   version: 1.2.9
   icon: com.cryptinix.app.webp
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: Cryptinix
 iphone:
@@ -24,11 +24,11 @@ iphone:
   idd: 1539414769
   appCountry: gb
   released: 2020-11-11
-  updated: 2023-08-30
-  version: 1.2.7
+  updated: 2026-10-13
+  version: 1.2.9
   reviews: 0
   icon: com.cryptinix.app.webp
-  meta: obsolete
+  meta: ok
   verdict: custodial
   developerName: CRYPTINIX TRADER LTD
 
