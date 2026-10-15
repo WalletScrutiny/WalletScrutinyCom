@@ -38,6 +38,8 @@ layout: default
             {%- endif -%}
           </h1>
 
+          {% include /review/bitcoinOrgBadge.html %}
+
           {% if page.repository contains 'github.com' or page.website and page.website != '' %}
           <div class="distribution-store-links">
             {% include /review/githubDistributionLink.html %}

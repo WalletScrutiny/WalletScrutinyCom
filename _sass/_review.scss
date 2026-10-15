@@ -227,14 +227,18 @@
   }
 }
 
-// "Featured on Bitcoin.org" badge at the end of the facts block; the
+// "Featured on Bitcoin.org" badge right below the wallet title; the
 // details open in a native <dialog>.
 .app-facts-badges {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  // Offsets the header grid's 18px row gap so the badge sits ~14px below the facts.
-  margin-top: -0.25rem;
+  // Pulls the badge closer to the title than the header grid's 18px row gap.
+  margin-top: -0.5rem;
+
+  @media (max-width: 500px) {
+    justify-content: center;
+  }
 }
 
 .app-facts-badge {
