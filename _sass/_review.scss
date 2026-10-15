@@ -238,9 +238,15 @@
   background: none;
   color: var(--neutral-2);
   font: inherit;
+  font-size: 0.8em;
   line-height: 1;
   vertical-align: middle;
   cursor: pointer;
+
+  .ws-icon {
+    // Sits the glyph on the name's baseline rather than hanging below it.
+    transform: translateY(-0.1em);
+  }
 
   &:hover,
   &:focus-visible {
