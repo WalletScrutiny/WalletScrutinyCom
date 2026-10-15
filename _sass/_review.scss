@@ -616,13 +616,9 @@
       > *:not(h2):not(h3) {
         grid-column: 1 / -1;
       }
-      > h2 {
-        font-size: $font-xl;
-        margin: 0;
-        font-weight: $title-font-weight;
-      }
+      > h2,
       > h3 {
-        font-size: $font-xs;
+        font-size: $font-md;
         margin: 0;
         font-weight: $title-font-weight;
       }
