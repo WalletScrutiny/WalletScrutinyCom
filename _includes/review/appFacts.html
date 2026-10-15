@@ -9,7 +9,12 @@
 {%- endcomment -%}
 {%- assign dev_android = page.android.developerName | default: '' | strip -%}
 {%- assign dev_iphone = page.iphone.developerName | default: '' | strip -%}
-{%- assign dev_root = page.developerName | default: '' | strip -%}
+{%- comment -%} Only the mobile stores tell us the developer; other platforms use the frontmatter provider. {%- endcomment -%}
+{%- if include.platform -%}
+  {%- assign dev_root = page.provider | default: '' | strip -%}
+{%- else -%}
+  {%- assign dev_root = page.developerName | default: '' | strip -%}
+{%- endif -%}
 {%- assign dev_android_key = dev_android | downcase -%}
 {%- assign dev_iphone_key = dev_iphone | downcase -%}
 {%- assign has_developer = false -%}
