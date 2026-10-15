@@ -995,6 +995,9 @@ table tr td label {
 
   .app-summary-grid .app-sum-head .distribution-store-links {
     margin-top: 4px;
+  }
+
+  .app-summary-grid .app-sum-head > .distribution-store-links {
     justify-content: center;
   }
 
