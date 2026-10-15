@@ -89,6 +89,42 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 
+  // The review text follows the review steps, so its headings ("App
+  // Description", "Analysis", ...) get the same icon tile and title size as a step.
+  function sectionIconName(title) {
+    const t = title.toLowerCase();
+    if (t.includes('description')) return 'book-open';
+    if (t.includes('verdict') || t.includes('conclusion')) return 'clipboard-check';
+    if (t.includes('analysis') || t.includes('testing')) return 'magnifying-glass';
+    if (t.includes('update')) return 'clock-rotate-left';
+    return 'circle-info';
+  }
+
+  function addSectionIcons() {
+    const content = document.querySelector('.app-review .page__content[data-icon-sprite]');
+    if (!content) return;
+    const sprite = content.getAttribute('data-icon-sprite');
+    const headings = Array.from(content.querySelectorAll(':scope > h2')).concat(
+      Array.from(document.querySelectorAll('.mobile-content-common > h2, .mobile-content-panel > h2')));
+    headings.forEach(function (heading) {
+      const row = document.createElement('div');
+      row.className = 'review-section-title';
+      const tile = document.createElement('i');
+      tile.className = 'circle';
+      const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+      const name = sectionIconName(heading.textContent);
+      svg.setAttribute('class', 'ws-icon ws-icon-' + name);
+      svg.setAttribute('aria-hidden', 'true');
+      const use = document.createElementNS('http://www.w3.org/2000/svg', 'use');
+      use.setAttribute('href', sprite + '#' + name);
+      svg.appendChild(use);
+      tile.appendChild(svg);
+      heading.replaceWith(row);
+      row.appendChild(tile);
+      row.appendChild(heading);
+    });
+  }
+
   function showMobilePlatform(platform) {
     document.querySelectorAll('[data-mobile-panel]').forEach(function (panel) {
       const show = panel.getAttribute('data-mobile-panel') === platform;
@@ -118,6 +154,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const hasMobileContentPanels = initMobilePlatformContentPanels();
   wrapMobilePlatformScopeBody();
+  addSectionIcons();
 
   document.querySelectorAll('[data-mobile-platform-scope]').forEach(function (scope) {
     const tabs = scope.querySelectorAll('[data-mobile-tab]');
