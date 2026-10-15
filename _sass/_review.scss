@@ -589,6 +589,10 @@
         opacity: 0.2;
       }
     }
+    // no line before Build Verifications
+    &:has(+ .build-verifications-step)::after {
+      content: none;
+    }
     // no line before Platform notes, and half the gap
     &:has(+ .operating-system) {
       margin-bottom: 4px;
