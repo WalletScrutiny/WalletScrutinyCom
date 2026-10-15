@@ -8,8 +8,10 @@ const {
   verificationsDataSrc,
   verificationsUiSrc,
   shareUiSrc,
+  opinionsUiSrc,
   loadVerificationsUi,
   loadShareUi,
+  loadOpinionsUi,
   deferSiteWideLoad,
 } = window.wsLoader;
 
@@ -81,6 +83,16 @@ const startVerificationsData = () => {
 
   const onUiLoaded = () => {
     window.dispatchEvent(new CustomEvent("verificationsUILoaded"));
+    if (loadOpinionsUi) {
+      // The opinions widget sits at the bottom of review pages: wait until
+      // every page asset has loaded so it does not compete with the initial
+      // render, then fetch its bundle (which depends on verifications_ui).
+      if (document.readyState === 'complete') {
+        appendScript(opinionsUiSrc);
+      } else {
+        window.addEventListener('load', () => appendScript(opinionsUiSrc), { once: true });
+      }
+    }
   };
 
   if (loadVerificationsUi) {
