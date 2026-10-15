@@ -13,6 +13,11 @@
   &[hidden] {
     display: none;
   }
+
+  /* Pulls the widget up to the section title, cancelling the step grid's row gap. */
+  @media (max-width: 500px) {
+    margin-top: -6px;
+  }
 }
 
 .bv-panel {
