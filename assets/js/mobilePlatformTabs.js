@@ -1,28 +1,3 @@
-window.updateDualMobileVerification = function (platform, info, elementId) {
-  window._mobileVerParts = window._mobileVerParts || {};
-  window._mobileVerParts[platform] = info;
-  const el = document.getElementById(elementId);
-  if (!el) return;
-  const fmt = (ver, date) => ver ? '<b>' + ver + '</b> <small>(' + date + ')</small>' : '';
-  // Always label the number with its platform icon. This element only exists on
-  // pages that have both an Android and an iPhone app, so an unlabelled number
-  // would read as "both platforms" even when only one of them has the data.
-  const fmtDual = (aV, aD, iV, iD) => [
-    aV ? wsIcon('google-play') + ' ' + fmt(aV, aD) : '',
-    iV ? '<i class="i-app-store" aria-hidden="true"></i> ' + fmt(iV, iD) : '',
-  ].filter(Boolean).join(' / ');
-  const a = window._mobileVerParts.android || {};
-  const i = window._mobileVerParts.iphone || {};
-  let html = '';
-  const last = fmtDual(a.lastVersion, a.lastVersionDate, i.lastVersion, i.lastVersionDate);
-  if (last) html += 'Latest release found in a <b>Verification</b>: ' + last + '<br>';
-  const aR = a.lastVerifiedVersion && a.lastVerifiedVersion !== a.lastVersion ? a.lastVerifiedVersion : null;
-  const iR = i.lastVerifiedVersion && i.lastVerifiedVersion !== i.lastVersion ? i.lastVerifiedVersion : null;
-  const repro = fmtDual(aR, aR ? a.lastVerifiedVersionDate : null, iR, iR ? i.lastVerifiedVersionDate : null);
-  if (repro) html += 'Last <span style="color: #008000;"><b>Reproducible Verification</b></span>: ' + repro;
-  if (html) el.innerHTML = '<p>' + html + '</p>';
-};
-
 document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('a[href*="#deadLink"], a[href*="&deadLink"]').forEach(function (a) {
     a.classList.add('dead-link');
@@ -52,6 +27,15 @@ document.addEventListener('DOMContentLoaded', function () {
     const wrapper = document.createElement('div');
     wrapper.className = 'mobile-content-panels';
 
+    // Whatever the review says before "## Android" applies to both apps, so it
+    // goes above the platform text and stays visible on either tab.
+    const commonPart = document.createElement('div');
+    commonPart.className = 'mobile-content-common';
+    while (content.firstElementChild && content.firstElementChild !== androidHeading) {
+      commonPart.appendChild(content.firstElementChild);
+    }
+    if (commonPart.firstElementChild) wrapper.appendChild(commonPart);
+
     const androidPanel = document.createElement('div');
     androidPanel.className = 'mobile-content-panel is-active';
     androidPanel.id = 'mobile-content-android';
@@ -76,6 +60,15 @@ document.addEventListener('DOMContentLoaded', function () {
       iphonePanel.appendChild(node);
       node = next;
     }
+
+    // Reviews separate the Android and iPhone text with a "---" rule. In tabs
+    // nothing follows it, so it would only leave a line and a gap under the
+    // features.
+    [commonPart, androidPanel, iphonePanel].forEach(function (part) {
+      while (part.lastElementChild && part.lastElementChild.tagName === 'HR') {
+        part.lastElementChild.remove();
+      }
+    });
 
     wrapper.appendChild(androidPanel);
     wrapper.appendChild(iphonePanel);

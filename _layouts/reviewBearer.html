@@ -5,7 +5,6 @@ layout: default
 <div id="main" class="app-review" role="main">
   <script>
     {% if page.wsId %}window.wsId="{{ page.wsId }}";{% endif %}
-    {% if page.version %}window.wsVersion="{{ page.version }}";{% endif %}
   </script>
 
   <article class="page" style="float:{{ float }};" itemscope itemtype="http://schema.org/CreativeWork">
@@ -34,7 +33,7 @@ layout: default
             {{ page.title }}
           </h1>
 
-          <div class="secondary-text" id="version-number"></div>
+          {% include /review/bitcoinOrgBadge.html %}
 
           {% include /review/appFacts.html platform='bearer' %}
         </div>

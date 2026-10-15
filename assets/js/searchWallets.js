@@ -787,6 +787,9 @@ if (document.querySelector('.searchbar')) {
   });
   document.querySelector('.mobile-search-shortcut').addEventListener('click', () => {
     if (!document.querySelector('.wallet-search').classList.contains('mobile-active')) {
+      // the open menu dropdown would cover the search box
+      const menuToggle = document.querySelector('.greedy-nav__toggle.close');
+      if (menuToggle) menuToggle.click();
       document.querySelector('.wallet-search').classList.add('mobile-active');
       document.querySelector('.mobile-search-shortcut').classList.add('active');
       document.querySelector('.searchbar').focus();

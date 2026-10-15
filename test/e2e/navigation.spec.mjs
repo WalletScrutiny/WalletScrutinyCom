@@ -8,20 +8,24 @@ import {
 } from './helpers.mjs';
 
 test.describe('Navigation and read-only pages', () => {
-  test('wallet review page shows analysis content and verification table', async ({ page }, testInfo) => {
+  test('wallet review page shows analysis content and build verifications', async ({ page }, testInfo) => {
     const assertNoConsoleErrors = attachConsoleGuards(testInfo, page);
 
-    await page.goto('/mobile/com.mycelium.wallet/');
+    await page.goto('/mobile/app.zeusln.zeus/');
 
-    await expect(page.locator('h1.page__title')).toContainText(/mycelium/i);
+    await expect(page.locator('h1.page__title')).toContainText(/zeus/i);
     await expect(page.locator('.app-review, .page__content').first()).toBeVisible();
 
     await waitForVerificationsUi(page);
     await waitForNostrAssetInformation(page);
 
-    const verificationTable = page.locator('#appsTable-android table, #appsTable-iphone table, #appsTable table').first();
-    await expect(verificationTable).toBeVisible({ timeout: 60_000 });
-    await expect(verificationTable.locator('tr').nth(1)).toBeVisible();
+    const buildVerifications = page.locator('#buildVerifications-android');
+    await expect(buildVerifications.locator('.bv-versions .bv-stone').first()).toBeVisible({ timeout: 60_000 });
+    await expect(buildVerifications.locator('.bv-stone[aria-pressed="true"]')).toHaveCount(1);
+
+    const selectedVersion = buildVerifications.locator('.bv-who');
+    await expect(selectedVersion.locator('.bv-caption')).toContainText(/verifications for zeus/i);
+    await expect(selectedVersion.locator('.bv-row').first()).toBeVisible();
 
     await assertNoLoadingSpinnerVisible(page);
     assertNoConsoleErrors();

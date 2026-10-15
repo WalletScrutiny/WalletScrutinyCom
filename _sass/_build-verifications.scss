@@ -1,0 +1,478 @@
+@use "type-scale" as *;
+
+/* Wallet page "Build Verifications": every version as a stone, then who tested the picked
+   one and its files. Mirrors the Android app's wallet page; the site has no installed
+   version, so no stone is "yours". */
+
+.build-verifications {
+  display: grid;
+  gap: 14px;
+  margin-top: 8px;
+  min-width: 0;
+
+  &[hidden] {
+    display: none;
+  }
+
+  /* Pulls the widget up to the section title, cancelling the step grid's row gap. */
+  @media (max-width: 500px) {
+    margin-top: -6px;
+  }
+}
+
+.bv-panel {
+  border: 1px solid var(--neutral-5);
+  border-radius: 14px;
+  background: var(--neutral-6);
+  padding: 14px 16px 12px;
+  min-width: 0;
+}
+
+body.dark .bv-panel {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.bv-caption {
+  margin: 0 0 8px;
+  font-size: $font-xxs;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--neutral-3);
+}
+
+/* Every version */
+
+.bv-panel.bv-versions {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Full width on phones and tablets, half the section on desktop. */
+@media screen and (min-width: 1024px) {
+  .bv-panel.bv-versions {
+    width: 50%;
+  }
+}
+
+.bv-river {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 4px 4px 8px;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+
+.bv-stone {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.bv-stone__pill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  min-width: 64px;
+  padding: 9px 12px;
+  border: 1px solid var(--neutral-5);
+  border-radius: 14px;
+  background: var(--body);
+  box-shadow: 0 1px 2px var(--shadow-1);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bv-stone:hover .bv-stone__pill,
+.bv-stone:focus-visible .bv-stone__pill {
+  border-color: var(--accent);
+}
+
+.bv-stone:focus-visible {
+  outline: none;
+}
+
+.bv-stone[aria-pressed="true"] .bv-stone__pill {
+  border: 2px solid var(--text);
+  padding: 8px 11px;
+  transform: scale(1.06);
+  box-shadow: 0 2px 8px var(--shadow-2);
+}
+
+.bv-stone__name {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: $font-xs;
+  font-weight: 600;
+  white-space: nowrap;
+
+  &--prerelease {
+    font-weight: 400;
+  }
+}
+
+.bv-stone--frosted .bv-stone__name {
+  color: var(--neutral-3);
+}
+
+.bv-stone__warning {
+  font-size: $font-xxs;
+}
+
+.bv-pips {
+  display: flex;
+  gap: 3px;
+  min-height: 7px;
+}
+
+.bv-pip {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--neutral-4);
+
+  &--reproducible {
+    background: var(--good);
+  }
+
+  &--not-reproducible {
+    background: var(--bad);
+  }
+
+  &--ftbfs {
+    background: #f0ad4e;
+  }
+}
+
+/* The picked version */
+
+.bv-selected {
+  display: grid;
+  gap: 14px;
+}
+
+.bv-headline {
+  margin: 0;
+  font-size: $font-lg;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.bv-lede {
+  margin: -8px 0 0;
+  font-size: $font-sm;
+  color: var(--neutral-2);
+}
+
+.bv-rows {
+  display: flex;
+  flex-direction: column;
+}
+
+.build-verifications .verification-card.bv-row {
+  display: block;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  transition: background-color 0.15s ease;
+
+  &:hover,
+  &:focus-visible {
+    background: color-mix(in srgb, var(--accent) 12%, transparent);
+    box-shadow: none;
+    outline: none;
+  }
+
+  &:focus-visible {
+    box-shadow: inset 0 0 0 2px var(--accent);
+  }
+}
+
+.bv-row + .bv-row {
+  border-top: 1px solid var(--neutral-5);
+  border-radius: 0 0 10px 10px;
+}
+
+.bv-row__layout {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 56px;
+  padding: 10px 6px;
+}
+
+.bv-row__text {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.bv-row__name {
+  font-size: $font-sm;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bv-row__when {
+  font-size: $font-xs;
+  color: var(--neutral-3);
+}
+
+.bv-row__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.bv-row__chevron {
+  flex: 0 0 auto;
+  width: 20px;
+  height: 20px;
+  color: var(--neutral-4);
+  transition: color 0.15s ease, transform 0.15s ease;
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.bv-row:hover .bv-row__chevron,
+.bv-row:focus-visible .bv-row__chevron {
+  color: var(--accent-text);
+  transform: translateX(2px);
+}
+
+.bv-row__avatar-empty {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--neutral-5);
+  color: var(--neutral-3);
+  font-size: $font-lg;
+  font-weight: 700;
+}
+
+.bv-row--empty .bv-row__name {
+  color: var(--neutral-2);
+}
+
+.bv-build + .bv-build {
+  margin-top: 12px;
+  padding-top: 8px;
+  border-top: 1px solid var(--neutral-5);
+}
+
+/* Inside a build the files come first; the description and the verifier rows are indented
+   under them by plain space, so they read as belonging to that set of files. */
+.bv-build > .bv-files ~ .bv-build__description,
+.bv-build > .bv-files ~ .bv-rows {
+  margin-left: 26px;
+}
+
+.bv-build > .bv-files ~ .bv-rows {
+  margin-top: 4px;
+}
+
+/* Files: one text-height line per file, so a six-file split bundle stays a short list. */
+
+.bv-files {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bv-file {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  padding: 0 6px;
+  font-size: $font-xs;
+  line-height: 1.5;
+}
+
+.bv-file__mark {
+  flex: 0 0 auto;
+  width: 18px;
+  font-weight: 700;
+  text-align: center;
+
+  &--reproducible {
+    color: var(--good);
+  }
+
+  &--not-reproducible {
+    color: var(--bad);
+  }
+
+  &--unverified {
+    color: var(--neutral-4);
+  }
+}
+
+/* "name - 8 hash characters", with the copy (and download) icons right beside it. */
+.bv-file__text {
+  flex: 0 1 auto;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.bv-file__name {
+  font-weight: 600;
+}
+
+.bv-file__hash-text {
+  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
+  font-size: $font-xs;
+  color: var(--neutral-2);
+  background: none;
+  padding: 0;
+}
+
+.bv-file__hash {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+
+  .hash-copy-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    padding: 0;
+    border: 0;
+    border-radius: 6px;
+    background: transparent;
+    color: var(--accent-text);
+    cursor: pointer;
+
+    &:hover,
+    &:focus-visible {
+      background: var(--accent-50);
+      outline: none;
+    }
+  }
+
+  .hash-copy-btn__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14px;
+    height: 14px;
+
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.bv-file__download {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  margin-left: -4px;
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--accent-text);
+  cursor: pointer;
+
+  &[hidden] {
+    display: none;
+  }
+
+  svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  &:hover,
+  &:focus-visible {
+    background: var(--accent-50);
+    outline: none;
+  }
+}
+
+.bv-build__description {
+  margin: 4px 0 0;
+  padding-left: 6px;
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bv-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  .verification-action-link {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bv-panel {
+    padding: 12px 12px 10px;
+  }
+
+  .bv-panel.bv-versions {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .bv-stone__pill {
+    padding: 6px 8px;
+  }
+
+  .bv-stone[aria-pressed="true"] .bv-stone__pill {
+    padding: 5px 7px;
+  }
+
+  .bv-file {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .bv-build > .bv-files ~ .bv-build__description,
+  .bv-build > .bv-files ~ .bv-rows {
+    margin-left: 14px;
+  }
+}

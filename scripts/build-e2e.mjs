@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 /**
- * Site build for Playwright E2E: precompute -> webpack -> redirect map -> jekyll -> minify html (no compress).
+ * Site build for Playwright E2E: same as build.mjs minus the .br files
+ * (precompute | webpack | redirect map) -> jekyll -> minify.
  */
 
 import { spawn } from 'child_process';
@@ -26,11 +27,13 @@ function run(command, args, env = {}) {
 async function main() {
   rmSync('dist', { recursive: true, force: true });
 
-  await run('node', ['scripts/precompute-wallet-data.mjs']);
-  await run('npx', ['webpack', '--mode', 'production', '--no-watch']);
-  await run('node', ['scripts/generate-redirect-map.mjs']);
+  await Promise.all([
+    run('node', ['scripts/precompute-wallet-data.mjs']),
+    run('npx', ['webpack', '--mode', 'production', '--no-watch']),
+    run('node', ['scripts/generate-redirect-map.mjs']),
+  ]);
   await run('bundle', ['exec', 'jekyll', 'build'], { JEKYLL_ENV: 'production' });
-  await run('node', ['scripts/minify-html.mjs']);
+  await run('node', ['scripts/postprocess-site.mjs', '--no-brotli']);
 }
 
 main().catch((err) => {

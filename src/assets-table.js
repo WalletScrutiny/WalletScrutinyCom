@@ -375,6 +375,7 @@ window.renderAssetsTable = async function({
       info: assetInfo,
       hasAssets: paintResult.hasAssets,
       hasVerifications: paintResult.hasVerifications,
+      rows: paintResult.sortedItems,
     });
   }
 

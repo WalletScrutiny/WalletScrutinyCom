@@ -171,8 +171,8 @@
   }
 }
 
-// Developer / Released / Source code facts in the page header, below the
-// "Latest release found by" line (replaces the former review steps).
+// Developer / Released / Source code facts in the page header (replaces the
+// former review steps).
 .app-facts {
   display: grid;
   grid-template-columns: max-content 1fr;
@@ -227,13 +227,71 @@
   }
 }
 
-// "Featured on Bitcoin.org" badge at the end of the facts block; the
+// Phones show only the developer's name with an external-link icon; tapping the icon
+// swaps it for the developer's links.
+.app-facts__info {
+  display: none;
+  align-items: center;
+  margin: -0.35rem 0 -0.35rem 0.15rem;
+  padding: 0.35rem;
+  border: 0;
+  background: none;
+  color: var(--neutral-2);
+  font: inherit;
+  font-size: 0.8em;
+  line-height: 1;
+  vertical-align: middle;
+  cursor: pointer;
+
+  .ws-icon {
+    // Sits the glyph on the name's baseline rather than hanging below it.
+    transform: translateY(-0.1em);
+  }
+
+  &:hover,
+  &:focus-visible {
+    color: var(--accent-text);
+  }
+}
+
+@media (max-width: 500px) {
+  .app-facts__dev--collapsible {
+    .app-facts__info {
+      display: inline-flex;
+    }
+
+    &:not(.is-open) .distribution-store-links {
+      display: none;
+    }
+
+    &.is-open .app-facts__info {
+      display: none;
+    }
+  }
+}
+
+// "Featured on Bitcoin.org" badge right below the wallet title; the
 // details open in a native <dialog>.
 .app-facts-badges {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-top: 0.6rem;
+  // Pulls the badge closer to the title than the header grid's 18px row gap.
+  margin-top: -0.5rem;
+
+  @media (max-width: 500px) {
+    justify-content: center;
+  }
+}
+
+// Same distance below the badge as between the title and the badge. The
+// title's 8px bottom margin makes that gap the plain row gap above 500px.
+.app-summary-grid .app-sum-head .app-facts-badges + .distribution-store-links {
+  margin-top: 0;
+
+  @media (max-width: 500px) {
+    margin-top: -0.5rem;
+  }
 }
 
 .app-facts-badge {
@@ -242,9 +300,9 @@
   gap: 0.4em;
   padding: 0.25em 0.7em;
   border-radius: 999px;
-  border: 1px solid var(--accent);
-  background: var(--accent-50);
-  color: var(--accent-text);
+  border: 1px solid var(--orange);
+  background: color-mix(in srgb, var(--orange) 8%, transparent);
+  color: var(--orange);
   font: inherit;
   font-size: $font-xs;
   font-weight: $title-font-weight;
@@ -253,7 +311,7 @@
 
   &:hover,
   &:focus-visible {
-    background: var(--accent);
+    background: var(--orange);
     color: var(--permanent-white);
   }
 }
@@ -298,24 +356,6 @@
   }
 }
 
-.version-number-ws {
-  line-height: 1.35;
-
-  p {
-    margin: 0;
-  }
-
-  & + & {
-    margin-top: 0.1em;
-  }
-
-  i.fab,
-  i.i-app-store {
-    margin: 0 0.2em 0 0.45em;
-    font-size: 0.95em;
-  }
-}
-
 .mobile-platform-scope {
   grid-column: 1 / -1;
   margin: 24px 0;
@@ -325,13 +365,13 @@
   overflow: hidden;
 
   &__header {
-    padding: 14px 18px;
+    padding: 14px 11px;
     background: var(--neutral-5);
     border-bottom: 1px solid var(--shadow-3);
   }
 
   &__body {
-    padding: 8px 18px 20px;
+    padding: 8px 11px 20px;
     border-top: 3px solid var(--accent);
   }
 
@@ -423,6 +463,30 @@
   .step {
     margin-top: 20px;
   }
+  .step.operating-system {
+    margin-top: 4px;
+  }
+
+  // the first section sits right under the Android/iPhone tabs
+  &__panel > .step:first-child {
+    margin-top: 6px;
+  }
+
+  // pull the section content 5px closer to its icon and title; the title
+  // shrinks with the icon so it stays centred on it (.steps outranks the
+  // margin: 0 that .steps .step .title > h3 sets)
+  .step > .circle,
+  .steps & .step > .title > h3 {
+    margin-bottom: -5px;
+  }
+
+  .step > .title > .distribution-store-links {
+    margin-top: 4.7px;
+  }
+
+  .step > .title > .textbox {
+    margin-top: 6.5px;
+  }
 }
 
 .app-review--dual-platform .page__content {
@@ -441,6 +505,10 @@
 }
 
 .security-overview {
+  // no line above Application information, and 35% of the old 81px gap
+  > #results {
+    margin-top: 28px;
+  }
   font-weight: $paragraph-font-weight;
   // 15px on the container, not on p, so lists, quotes and tables in the
   // review body share the paragraph size instead of inheriting a bigger one
@@ -448,6 +516,20 @@
   h2 {
     font-size: $font-lg;
     font-weight: $title-font-weight;
+  }
+}
+
+// On phones and tablets the gap above the first review section ("Passed N
+// tests", or "Our review process" on "others" pages) is smaller than on
+// desktop. A heading's top margin collapses with the header's bottom margin,
+// so both shrink.
+@media screen and (max-width: 1023.98px) {
+  .app-summary-grid:has(+ .security-overview) {
+    margin-bottom: 0;
+  }
+
+  .security-overview > h2:first-child {
+    margin-top: 1.3em;
   }
 }
 
@@ -485,7 +567,7 @@
     position: relative;
     padding: 8px 0 4px;
 
-    > *:not(.circle):not(.title):not(.data),
+    > *:not(.circle):not(.title):not(.data):not(.methodology-chevron),
     .wide,
     .methodology-tests-list,
     .mobile-platform-scope,
@@ -507,36 +589,38 @@
         opacity: 0.2;
       }
     }
+    // no line before Build Verifications
+    &:has(+ .build-verifications-step)::after {
+      content: none;
+    }
+    // no line before Platform notes, and half the gap
+    &:has(+ .operating-system) {
+      margin-bottom: 4px;
+      padding-bottom: 5px;
+      &::after {
+        content: none;
+      }
+    }
+    // section icon: an accent-tinted rounded tile around an SVG from
+    // assets/icons.svg; a section that does not apply goes grey
     .circle {
       grid-column: 1;
       grid-row: 1;
       align-self: center;
-      color: var(--body);
-      font-size: $font-md;
-      text-align: center;
-      display: grid;
-      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       height: 40px;
       width: 40px;
-      line-height: 40px;
-      &::after {
-        content: "";
-        height: 100%;
-        width: 100%;
-        border-radius: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background: var(--text);
-        z-index: 1;
-      }
-      &::before {
-        z-index: 2;
-      }
+      border-radius: 12px;
+      font-size: 19px; // type-scale-exempt: icon
+      color: var(--accent-text);
+      background: color-mix(in srgb, var(--accent-text) 12%, transparent);
+      box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent-text) 24%, transparent);
       &.disabled {
-        &::after {
-          background: var(--neutral-4);
-        }
+        color: var(--neutral-3);
+        background: color-mix(in srgb, var(--text) 6%, transparent);
+        box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--text) 12%, transparent);
       }
     }
     .title {
@@ -551,13 +635,9 @@
       > *:not(h2):not(h3) {
         grid-column: 1 / -1;
       }
-      > h2 {
-        font-size: $font-xl;
-        margin: 0;
-        font-weight: $title-font-weight;
-      }
+      > h2,
       > h3 {
-        font-size: $font-xs;
+        font-size: $font-md;
         margin: 0;
         font-weight: $title-font-weight;
       }
@@ -590,13 +670,6 @@
       }
       .important {
         color: var(--accent-text);
-      }
-      &.score-data {
-        .score {
-          div {
-            max-width: 40vw;
-          }
-        }
       }
     }
   }
@@ -859,25 +932,6 @@
       }
     }
   }
-  &.highlight {
-    .accordion-head {
-      span:nth-of-type(2) {
-        box-shadow: 0 2px 0 0;
-      }
-    }
-  }
-}
-
-.score div i {
-  &.highlight {
-    &.pass {
-      background-color: var(--good);
-    }
-    &.fail {
-      background-color: var(--bad);
-      opacity: 1;
-    }
-  }
 }
 
 // Dead and archived link indicators
@@ -894,5 +948,147 @@
   opacity: 0.7;
   &:hover {
     opacity: 1;
+  }
+}
+
+// "Passed N tests" step: on phones it starts collapsed to the title, one check
+// per passed test and a chevron; a failed question stays visible. The
+// chevron and the checks only exist for this collapse, so wider screens hide
+// them and show everything.
+.steps .step.methodology {
+  .methodology-summary,
+  .methodology-chevron {
+    display: none;
+  }
+
+  @media (max-width: 500px) {
+    > .title > h3 {
+      cursor: pointer;
+    }
+
+    .methodology-summary {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      grid-column: 2 / -1;
+      grid-row: 2;
+      cursor: pointer;
+      color: var(--good);
+      margin-top: -11.6px;
+
+      svg {
+        width: 18.75px;
+        height: 18.75px;
+      }
+    }
+
+    .methodology-chevron {
+      display: block;
+      grid-column: 3;
+      grid-row: 1;
+      align-self: center;
+      padding: 8px;
+      margin: -8px -8px -8px 0;
+      background: none;
+      border: 0;
+      color: var(--accent-text);
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    &[data-collapsed="false"] .methodology-chevron {
+      transform: rotate(180deg);
+    }
+
+    // collapsed, the space under the last visible row is half of the usual
+    // 28px; with nothing failed the list is empty, so drop its row gap too
+    &[data-collapsed="true"] {
+      padding-bottom: 14px;
+
+      &:not(:has(.methodology-tests-list > .fail)) {
+        padding-bottom: 21px;
+
+        .methodology-tests-list {
+          display: none;
+        }
+      }
+
+      > .title > p,
+      .methodology-tests-list > .pass,
+      .methodology-tests-list > .untested {
+        display: none;
+      }
+    }
+
+    &[data-collapsed="false"] .methodology-summary {
+      display: none;
+    }
+  }
+}
+
+.platform-notes-more {
+  display: none;
+}
+
+// On phones every section except "Passed N tests" and "Build Verifications"
+// (which have their own spacing above) pulls its content up under the title.
+@media (max-width: 500px) {
+  .steps .step:not(.methodology):not(.build-verifications-step) > .title > :is(h2, h3) + * {
+    margin-top: -6px;
+  }
+
+  // its text box starts 4.5px lower than the other sections' content
+  .steps .step.platform-notes-collapsible > .title > h3 + .textbox {
+    margin-top: -11px;
+  }
+
+  // the review text under "Application information" starts right under the
+  // title instead of after its own heading margin
+  #results + .section > :first-child {
+    margin-top: 0;
+  }
+
+  // hardware wallet notes: tighter box, and only the first two lines until
+  // "more" is tapped
+  .steps .step.platform-notes-collapsible .textbox {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .platform-notes-body > :first-child {
+      margin-top: 0;
+    }
+
+    .platform-notes-body > :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .steps .step.platform-notes-collapsible[data-collapsed="true"] .textbox {
+    .platform-notes-body > :not(:first-child) {
+      display: none;
+    }
+
+    .platform-notes-body > :first-child {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      margin-bottom: 0;
+    }
+  }
+
+  .platform-notes-more {
+    display: block;
+    margin: 6px 0 0;
+    padding: 0;
+    background: none;
+    border: 0;
+    color: var(--accent-text);
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .steps .step.platform-notes-collapsible[data-collapsed="false"] .platform-notes-more {
+    display: none;
   }
 }

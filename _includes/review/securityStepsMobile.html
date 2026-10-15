@@ -41,13 +41,13 @@
           <div class="mobile-platform-tabs__panel is-active" role="tabpanel" id="mobile-tab-android" aria-labelledby="mobile-tab-btn-android" data-mobile-panel="android">
             {% include_cached /review/steps/platformMeta.html meta=meta_android %}
             {% include /review/steps/distribution.html platform='android' appId=page.android.appId idd=page.iphone.idd appCountry=page.appCountry alternativeStores=page.android.alternativeStores %}
-            {% include /review/steps/applicationBuild.html platform='android' appId=page.android.appId verdict=verdict_android appsTableId='appsTable-android' versionElementId='version-number-android' skipWsVersion=true skipVersionInfo=true mergeVerificationInto='version-number-verification' verificationMessageId='verificationMessage-android' %}
+            {% include /review/steps/applicationBuild.html platform='android' appId=page.android.appId verdict=verdict_android appsTableId='appsTable-android' verificationMessageId='verificationMessage-android' %}
             {% include /review/steps/platformNotes.html platform='android' %}
           </div>
           <div class="mobile-platform-tabs__panel" role="tabpanel" id="mobile-tab-iphone" aria-labelledby="mobile-tab-btn-iphone" data-mobile-panel="iphone" hidden>
             {% include_cached /review/steps/platformMeta.html meta=meta_iphone %}
             {% include /review/steps/distribution.html platform='iphone' appId=page.iphone.appId idd=page.iphone.idd appCountry=page.appCountry %}
-            {% include /review/steps/applicationBuild.html platform='iphone' appId=page.iphone.appId verdict=verdict_iphone appsTableId='appsTable-iphone' versionElementId='version-number-iphone' skipWsVersion=true skipVersionInfo=true mergeVerificationInto='version-number-verification' verificationMessageId='verificationMessage-iphone' %}
+            {% include /review/steps/applicationBuild.html platform='iphone' appId=page.iphone.appId verdict=verdict_iphone appsTableId='appsTable-iphone' verificationMessageId='verificationMessage-iphone' %}
             {% include /review/steps/platformNotes.html platform='iphone' %}
           </div>
         </div>
@@ -57,12 +57,12 @@
   {% elsif has_android %}
     {% include_cached /review/steps/platformMeta.html meta=meta_android %}
     {% include /review/steps/distribution.html platform='android' appId=page.android.appId idd=page.iphone.idd appCountry=page.appCountry alternativeStores=page.android.alternativeStores %}
-    {% include /review/steps/applicationBuild.html platform='android' appId=page.android.appId verdict=verdict_android appsTableId='appsTable-android' versionElementId='version-number-android' skipWsVersion=true verificationMessageId='verificationMessage-android' %}
+    {% include /review/steps/applicationBuild.html platform='android' appId=page.android.appId verdict=verdict_android appsTableId='appsTable-android' verificationMessageId='verificationMessage-android' %}
     {% include /review/steps/platformNotes.html platform='android' %}
   {% elsif has_iphone %}
     {% include_cached /review/steps/platformMeta.html meta=meta_iphone %}
     {% include /review/steps/distribution.html platform='iphone' appId=page.iphone.appId idd=page.iphone.idd appCountry=page.appCountry %}
-    {% include /review/steps/applicationBuild.html platform='iphone' appId=page.iphone.appId verdict=verdict_iphone appsTableId='appsTable-iphone' versionElementId='version-number-iphone' skipWsVersion=true verificationMessageId='verificationMessage-iphone' %}
+    {% include /review/steps/applicationBuild.html platform='iphone' appId=page.iphone.appId verdict=verdict_iphone appsTableId='appsTable-iphone' verificationMessageId='verificationMessage-iphone' %}
     {% include /review/steps/platformNotes.html platform='iphone' %}
   {% endif %}
 </div>

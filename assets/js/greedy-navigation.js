@@ -16,7 +16,7 @@ export function initGreedyNavigation() {
     return;
   }
 
-  const btn = nav.querySelector('button');
+  const btn = nav.querySelector('.greedy-nav__toggle');
   const vlinks = nav.querySelector('.visible-links');
   const hlinks = nav.querySelector('.hidden-links');
   if (!btn || !vlinks || !hlinks) {

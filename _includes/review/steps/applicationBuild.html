@@ -1,12 +1,20 @@
-<div class="step application-build">
+<div class="step application-build build-verifications-step">
     {% assign build_verdict = include.verdict | default: page.verdict %}
-    {% if build_verdict == 'sourceavailable' %}
-    <i class="i-sourceavailable circle"></i>
-    {% else %}
-    <i class="i-sourceavailable circle disabled"></i>
-    {% endif %}
+    <i class="circle{% if build_verdict != 'sourceavailable' %} disabled{% endif %}">{% include icon.html name="code-compare" %}</i>
     <div class="title">
         <h3>Build Verifications</h3>
+
+        {%- comment -%}
+          Nobody has reproduced an iPhone app so far (see the methodology FAQ),
+          so iPhone builds get a notice instead of the version list, the drop
+          area and the "Create verification" button.
+        {%- endcomment -%}
+        {% if include.platform == 'iphone' %}
+        <div class="infoBox">
+          <p>As far as we know, <b>iPhone apps cannot be reproduced</b>. Nobody has managed to build an iPhone app from its source code and get the same binary that the App Store delivers, so there is nothing to verify here.</p>
+          <p><a href="/methodology/?faq">Why are there no reproducible iPhone apps?</a></p>
+        </div>
+        {% else %}
 
         {% assign review_repository = '' %}
         {% if include.platform == 'android' and page.android.repository and page.android.repository != '' %}
@@ -20,11 +28,20 @@
         {% assign build_app_id = include.appId | default: page.appId %}
         {% assign apps_table_id = include.appsTableId | default: 'appsTable' %}
         {% assign verification_message_id = include.verificationMessageId | default: 'verificationMessage' %}
+        {% assign build_verifications_id = 'buildVerifications-' | append: include.platform | default: 'app' %}
 
-        <div id="{{ apps_table_id }}" style="margin-top: 0.25em;"></div>
+        {%- comment -%}
+          Like the Android app's wallet page: every version as a stone, then who tested the
+          picked one and its files. renderBuildVerifications (src/build-verifications.mjs)
+          paints it from the rows renderAssetsTable loads. That loader also sets up the
+          verification modal, so it still needs a host to paint its table into; the host
+          stays hidden.
+        {%- endcomment -%}
+        <div id="{{ build_verifications_id }}" class="build-verifications" hidden></div>
+        <div id="{{ apps_table_id }}" hidden></div>
 
         <p>If you have a binary for <b>a version that doesn't appear on the list</b>, you can <span class="bigScreenOnly">drop</span><span class="smallScreenOnly">select</span> the file here to register it so somebody can verify its reproducibility:</p>
-        <div style="margin-top: 1em; margin-bottom: 1em; margin-left: 0;">
+        <div style="margin-top: 1em; margin-bottom: 0; margin-left: 0;">
             {% include /verifications/dragAndDropArea.html buttonMessage="Drop binary file to verify" %}
         </div>
 
@@ -35,50 +52,20 @@
         <script>
           window.addEventListener('verificationsUILoaded', async () => {
             const pageVerdict = '{{ build_verdict }}';
-            const versionNumberElement = document.getElementById('{{ include.versionElementId | default: 'version-number' }}');
-            const mergeInto = '{{ include.mergeVerificationInto | default: '' }}';
-            const skipWsVersion = {{ include.skipWsVersion | default: false | jsonify }};
-            const skipVersionInfo = {{ include.skipVersionInfo | default: false | jsonify }};
+            const walletTitle = {{ page.title | jsonify }};
 
-            const updateVersionInfo = (assetInfo) => {
-              const versionInfo = getMaxAssetVersion(assetInfo, '{{ build_app_id }}', '{{ include.platform }}');
-
-              if (mergeInto && typeof window.updateDualMobileVerification === 'function') {
-                window.updateDualMobileVerification('{{ include.platform }}', versionInfo, mergeInto);
+            const paintBuildVerifications = (assetInfo, rows) => {
+              if (typeof window.renderBuildVerifications !== 'function' || !Array.isArray(rows)) {
                 return;
               }
-
-              if (!versionNumberElement || skipVersionInfo) {
-                return;
-              }
-
-              let versionInfoText = '<p style="margin-top: 0;">';
-
-              if (!skipWsVersion) {
-                var wsVer = (typeof wsVersionAndroid !== 'undefined' && '{{ include.platform }}' === 'android' && wsVersionAndroid)
-                  ? wsVersionAndroid
-                  : ((typeof wsVersionIphone !== 'undefined' && '{{ include.platform }}' === 'iphone' && wsVersionIphone)
-                    ? wsVersionIphone
-                    : (typeof wsVersion !== 'undefined' ? wsVersion : ''));
-                if (wsVer) {
-                  versionInfoText += 'Latest release found by <b>WalletScrutiny</b>: <b>' + wsVer + '</b><br>';
-                }
-              }
-
-              if (versionInfo.lastVersion) {
-                versionInfoText += 'Latest release found in a <b>Verification</b>: <b>' + versionInfo.lastVersion + '</b> <small>(' + versionInfo.lastVersionDate + ')</small><br>';
-              }
-
-              if (versionInfo.lastVerifiedVersion && (versionInfo.lastVerifiedVersion !== versionInfo.lastVersion)) {
-                versionInfoText += 'Last <span style="color: #008000;"><b>Reproducible Verification</b></span>: <b>' + versionInfo.lastVerifiedVersion + '</b> <small>(' + versionInfo.lastVerifiedVersionDate + ')</small>';
-              }
-
-              versionInfoText += '</p>';
-              const hasVerificationInfo = versionInfo.lastVersion
-                || (versionInfo.lastVerifiedVersion && versionInfo.lastVerifiedVersion !== versionInfo.lastVersion);
-              if (!skipWsVersion || hasVerificationInfo) {
-                versionNumberElement.innerHTML = versionInfoText;
-              }
+              window.renderBuildVerifications({
+                host: document.getElementById('{{ build_verifications_id }}'),
+                rows,
+                assetInfo,
+                appId: '{{ build_app_id }}',
+                platform: '{{ include.platform }}',
+                walletTitle,
+              });
             };
 
             const attestationsInfo = await renderAssetsTable({
@@ -91,19 +78,12 @@
               enableDraftsFilter: true,
               enableAppPageSearch: true,
               showIssueTracker: true,
-              tableLoadedCallback: ({ info }) => {
-                updateVersionInfo(info);
+              tableLoadedCallback: ({ info, rows }) => {
+                paintBuildVerifications(info, rows);
               }
             });
 
-            // Ensure final network data is reflected if the last paint was skipped as unchanged.
-            updateVersionInfo(attestationsInfo.info);
-
             if (!attestationsInfo.hasVerifications && !attestationsInfo.info.draftVerifications.size) {
-              if (!attestationsInfo.hasAssets) {
-                document.getElementById('{{ apps_table_id }}').style.display = 'none';
-              }
-
               const verificationMessageEl = document.getElementById('{{ verification_message_id }}');
               if (verificationMessageEl) {
                 if (pageVerdict === 'sourceavailable') {
@@ -123,6 +103,7 @@
         <small>Build cannot be done because the source code is not publicly available.</small>
         {% else %}
         <small>We did not evaluate source code availability for this wallet — our review stopped at an earlier step in the assessment.</small>
+        {% endif %}
         {% endif %}
         {% endif %}
     </div>

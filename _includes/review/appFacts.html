@@ -1,8 +1,6 @@
 {%- comment -%}
-  Compact wallet facts shown in the page header, below the "Latest release
-  found by" line: Developer (with social links), Released, Source code and
-  Custody, plus a "Featured on Bitcoin.org" badge that opens a modal with the
-  details. Replaces the former review steps of the same names.
+  Compact wallet facts shown in the page header: Developer (with social
+  links), Released, Source code and Custody. Replaces the former review steps of the same names.
   Parameters:
     skipWebsite  set when the header already shows the Website chip, so the
                  developer links do not repeat it
@@ -11,7 +9,12 @@
 {%- endcomment -%}
 {%- assign dev_android = page.android.developerName | default: '' | strip -%}
 {%- assign dev_iphone = page.iphone.developerName | default: '' | strip -%}
-{%- assign dev_root = page.developerName | default: '' | strip -%}
+{%- comment -%} Only the mobile stores tell us the developer; other platforms use the frontmatter provider. {%- endcomment -%}
+{%- if include.platform -%}
+  {%- assign dev_root = page.provider | default: '' | strip -%}
+{%- else -%}
+  {%- assign dev_root = page.developerName | default: '' | strip -%}
+{%- endif -%}
 {%- assign dev_android_key = dev_android | downcase -%}
 {%- assign dev_iphone_key = dev_iphone | downcase -%}
 {%- assign has_developer = false -%}
@@ -64,7 +67,11 @@
   {%- if has_developer %}
   <div class="app-facts__item">
     <dt>Developer</dt>
-    <dd>
+    {%- capture dev_links -%}{% include /review/developerSocialLinks.html skipWebsite=include.skipWebsite %}{%- endcapture -%}
+    {%- assign dev_name = dev_android | append: dev_iphone | append: dev_root -%}
+    {%- assign dev_collapsible = false -%}
+    {%- if dev_name != '' and dev_links contains '<a ' -%}{%- assign dev_collapsible = true -%}{%- endif -%}
+    <dd{% if dev_collapsible %} class="app-facts__dev--collapsible"{% endif %}>
       {%- if dev_android != '' and dev_iphone != '' -%}
         {%- if dev_android_key == dev_iphone_key -%}
           <span class="capitalise">{{ dev_android }}</span>
@@ -79,7 +86,10 @@
       {%- elsif dev_root != '' -%}
         <span class="capitalise">{{ dev_root }}</span>
       {%- endif -%}
-      {% include /review/developerSocialLinks.html skipWebsite=include.skipWebsite %}
+      {%- if dev_collapsible -%}
+        <button type="button" class="app-facts__info" aria-label="Show developer links" onclick="this.closest('dd').classList.add('is-open')">{% include icon.html name="up-right-from-square" %}</button>
+      {%- endif %}
+      {{ dev_links }}
     </dd>
   </div>
   {%- endif %}
@@ -141,24 +151,3 @@
     </dd>
   </div>
 </dl>
-{%- if page.bitcoinOrgId %}
-<div class="app-facts-badges">
-  <button type="button" class="app-facts-badge" aria-haspopup="dialog" onclick="this.nextElementSibling.showModal()">
-    {% include icon.html name="bitcoin" %} Featured on Bitcoin.org
-  </button>
-  <dialog class="app-facts-dialog" aria-labelledby="bitcoinOrgFeaturedTitle" onclick="if (event.target === this) this.close()">
-    <div class="app-facts-dialog__content">
-      <form method="dialog">
-        <button type="submit" class="app-facts-dialog__close" aria-label="Close" autofocus>{% include icon.html name="xmark" %}</button>
-      </form>
-      <h3 id="bitcoinOrgFeaturedTitle">Featured on Bitcoin.org</h3>
-      <p>
-        This wallet is listed in the
-        <a href="https://raw.githubusercontent.com/bitcoin-dot-org/Bitcoin.org/master/_wallets/{{ page.bitcoinOrgId }}.md" target="_blank" rel="noopener noreferrer">Bitcoin.org wallet directory</a>. It had to pass
-        <a href="https://github.com/bitcoin-dot-org/bitcoin.org/blob/master/docs/managing-wallets.md" target="_blank" rel="noopener noreferrer">these tests</a>
-        to be included.
-      </p>
-    </div>
-  </dialog>
-</div>
-{%- endif %}

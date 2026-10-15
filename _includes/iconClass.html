@@ -23,15 +23,15 @@
 {% else %}
 {% case platform %}
 {% when "android" %}
-{% assign iconClass = "i-android" %}{% assign iconName = nil %}
+{% assign iconName = "android" %}{% assign iconClass = nil %}
 {% when "fdroid" %}
-{% assign iconClass = "i-android" %}{% assign iconName = nil %}
+{% assign iconName = "android" %}{% assign iconClass = nil %}
 {% when "iphone" %}
-{% assign iconClass = "i-ios" %}{% assign iconName = nil %}
+{% assign iconName = "apple" %}{% assign iconClass = nil %}
 {% when "hardware" %}
-{% assign iconClass = "i-device" %}{% assign iconName = nil %}
+{% assign iconName = "microchip" %}{% assign iconClass = nil %}
 {% when "bearer" %}
-{% assign iconClass = "i-device" %}{% assign iconName = nil %}
+{% assign iconName = "microchip" %}{% assign iconClass = nil %}
 {% when "windows" %}
 {% assign iconName = "windows" %}{% assign iconClass = nil %}
 {% when "desktop" %}

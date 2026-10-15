@@ -2,6 +2,8 @@
 /**
  * Build the site and serve _site/ for Playwright E2E tests.
  * Playwright's webServer keeps this process running for the test session.
+ * PLAYWRIGHT_SKIP_BUILD=1 serves the existing _site/ (the deploy scripts
+ * test the production build they are about to upload instead of building twice).
  */
 
 import { spawn } from 'node:child_process';
@@ -88,7 +90,9 @@ function runAndWait(command, args, env = {}) {
   });
 }
 
-await runAndWait('node', ['scripts/build-e2e.mjs']);
+if (process.env.PLAYWRIGHT_SKIP_BUILD !== '1') {
+  await runAndWait('node', ['scripts/build-e2e.mjs']);
+}
 
 await new Promise((resolveListen) => server.listen(port, resolveListen));
 console.log(`Serving _site/ on http://localhost:${port}`);

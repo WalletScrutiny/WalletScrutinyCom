@@ -2,37 +2,34 @@
 
 {% assign failPoint = 0 %}
 
-<div class="step methodology">
-  <i class="circle" style="display: flex; align-items: center; justify-content: center;">
-    {% include icon.html name="vial" style="z-index: 2; font-size: 20px;" %}
-  </i>
+{%- comment -%}
+On phones (up to 500px) the step starts collapsed: the title, one check per
+passed test and a chevron. A failed question stays visible, closed. Tapping
+the title, the checks or the chevron shows the rest. Wider screens ignore
+data-collapsed.
+{%- endcomment -%}
+<div class="step methodology" data-collapsed="true">
+  <i class="circle">{% include icon.html name="vial" %}</i>
   <div class="title">
     {% if count == criteria.size %}
       {% assign numerator = 'all' %}
     {% else %}
       {% assign numerator = count | append: ' of' %}
     {% endif %}
-    <h3>Passed {{numerator}} {{criteria.size}} tests</h3>
-    <p class="applied-methodology steps">We answered the following questions in this order:
+    <h3 onclick="this.closest('.methodology').querySelector('.methodology-chevron').click()">Passed {{numerator}} {{criteria.size}} tests</h3>
+    {%- if count > 0 %}
+    <div class="methodology-summary" aria-hidden="true" onclick="this.closest('.methodology').querySelector('.methodology-chevron').click()">
+      {%- for i in (1..count) -%}{% include icon.html name="circle-check" %}{%- endfor -%}
+    </div>
+    {%- endif %}
+    <p class="applied-methodology steps">We check each wallet from its code to the app on your device, asking these questions in order:
       {{ failText }}
       {% if meta != "ok" %}
         <!-- TEXT FOR DEALING WITH NOT-OK METAS -->
       {% endif %}
     </p>
   </div>
-  <div class="data score-data">
-    <div class="score">
-      <div>
-      {% for instance in (1..count) %}
-        <i class="pass"></i>
-      {% endfor %}
-      {% assign remainder = criteria.size | minus:count %}
-      {% for instance in (1..remainder) %}
-        <i class="fail"></i>
-      {% endfor %}
-      </div>
-    </div>
-  </div>
+  <button type="button" class="methodology-chevron" aria-expanded="false" aria-label="Show all tests" onclick="var s = this.closest('.methodology'), open = s.getAttribute('data-collapsed') === 'true'; s.setAttribute('data-collapsed', open ? 'false' : 'true'); this.setAttribute('aria-expanded', open)">{% include icon.html name="chevron-down" %}</button>
   <div class="methodology-tests-list">
   {% if include.verdict == 'wip' %}
     {% assign failPoint = failPoint | plus: 1 %}
@@ -71,4 +68,5 @@
       </div>
   {% endfor %}
   </div>
+  <script>if (matchMedia('(max-width: 500px)').matches) document.currentScript.parentNode.querySelectorAll('.methodology-accordion.fail').forEach(function (e) { e.setAttribute('data-open', 'false') })</script>
 </div>

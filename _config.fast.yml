@@ -1,0 +1,52 @@
+# Optional override for a faster local Jekyll loop: `npm run dev:fast`
+# (or add it to --config after _config.dev.yml). It renders only the wallets
+# whose file name starts with "a" or "z" (about 120 of the 4,400 mobile pages),
+# which cuts a full Jekyll regeneration from ~18 s to ~6 s. Everything else
+# (hardware, desktop, bearer, others, pages) renders as usual.
+#
+# Jekyll replaces list settings when merging config files instead of
+# appending to them, so `exclude` has to repeat the list from _config.yml.
+# test/unit/configFast.test.mjs fails when the two drift apart.
+exclude:
+- "*.sublime-project"
+- "*.sublime-workspace"
+- ".asset-cache"
+- ".bundle"
+- ".git"
+- ".idea"
+- ".jekyll-cache"
+- ".sass-cache"
+- CHANGELOG
+- Capfile
+- Gemfile
+- Gemfile.lock
+- Gruntfile.js
+- LICENSE
+- README
+- CONTRIBUTING.md
+- Rakefile
+- assets/js/_main.js
+- assets/js/ui-components.js
+- assets/js/fit-vids.js
+- assets/js/greedy-navigation.js
+- assets/js/plugins
+- assets/js/vendor
+- backup
+- config
+- docs
+- webpack.config.js
+- log
+- node_modules
+- package.json
+- package-lock.json
+- tmp
+- vendor
+- resSources
+- scripts
+- src
+- external
+- external_configs
+- test
+- "/*.sh"
+- "/*.mjs"
+- _mobile/[b-y]*
