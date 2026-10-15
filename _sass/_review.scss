@@ -964,12 +964,17 @@
     .methodology-summary {
       display: flex;
       flex-wrap: wrap;
-      gap: 3px;
+      gap: 8px;
       grid-column: 2 / -1;
       grid-row: 2;
       cursor: pointer;
       color: var(--good);
       margin-top: -8px;
+
+      svg {
+        width: 22.5px;
+        height: 22.5px;
+      }
     }
 
     .methodology-chevron {
@@ -990,7 +995,19 @@
       transform: rotate(180deg);
     }
 
+    // collapsed, the space under the last visible row is half of the usual
+    // 28px; with nothing failed the list is empty, so drop its row gap too
     &[data-collapsed="true"] {
+      padding-bottom: 14px;
+
+      &:not(:has(.methodology-tests-list > .fail)) {
+        padding-bottom: 21px;
+
+        .methodology-tests-list {
+          display: none;
+        }
+      }
+
       > .title > p,
       .methodology-tests-list > .pass,
       .methodology-tests-list > .untested {
