@@ -512,9 +512,10 @@
   }
 }
 
-// On phones and tablets the gap above "Our wallet review process" is 35%
-// smaller than on desktop. The heading's top margin collapses with the
-// header's bottom margin, so both shrink.
+// On phones and tablets the gap above the first review section ("Passed N
+// tests", or "Our review process" on "others" pages) is smaller than on
+// desktop. A heading's top margin collapses with the header's bottom margin,
+// so both shrink.
 @media screen and (max-width: 1023.98px) {
   .app-summary-grid:has(+ .security-overview) {
     margin-bottom: 0;
@@ -559,7 +560,7 @@
     position: relative;
     padding: 8px 0 4px;
 
-    > *:not(.circle):not(.title):not(.data),
+    > *:not(.circle):not(.title):not(.data):not(.methodology-chevron),
     .wide,
     .methodology-tests-list,
     .mobile-platform-scope,
@@ -942,5 +943,63 @@
   opacity: 0.7;
   &:hover {
     opacity: 1;
+  }
+}
+
+// "Passed N tests" step: on phones it starts collapsed to the title, one check
+// per passed test and a chevron; a failed question stays visible. The
+// chevron and the checks only exist for this collapse, so wider screens hide
+// them and show everything.
+.steps .step.methodology {
+  .methodology-summary,
+  .methodology-chevron {
+    display: none;
+  }
+
+  @media (max-width: 500px) {
+    > .title > h3 {
+      cursor: pointer;
+    }
+
+    .methodology-summary {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 3px;
+      grid-column: 2 / -1;
+      grid-row: 2;
+      cursor: pointer;
+      color: var(--good);
+      margin-top: -8px;
+    }
+
+    .methodology-chevron {
+      display: block;
+      grid-column: 3;
+      grid-row: 1;
+      align-self: center;
+      padding: 8px;
+      margin: -8px -8px -8px 0;
+      background: none;
+      border: 0;
+      color: var(--accent-text);
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    &[data-collapsed="false"] .methodology-chevron {
+      transform: rotate(180deg);
+    }
+
+    &[data-collapsed="true"] {
+      > .title > p,
+      .methodology-tests-list > .pass,
+      .methodology-tests-list > .untested {
+        display: none;
+      }
+    }
+
+    &[data-collapsed="false"] .methodology-summary {
+      display: none;
+    }
   }
 }

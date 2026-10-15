@@ -4,7 +4,6 @@
 {% assign wsId = include.wsId %}
 {% assign filterPlatform = include.filterPlatform %}
 <div class="security-overview">
-    {% include_cached /review/securityOverviewIntro.html %}
     {% include /review/securitySteps.html platform=platform filterPlatform=filterPlatform meta=meta verdict=verdict appId=include.appId idd=include.idd appCountry=include.appCountry alternativeStores=include.alternativeStores appsTableId=include.appsTableId %}
     {% include /review/seeAlso.html wsId=wsId platform=platform appId=include.appId %}
     <div class="spacer x2"></div>
