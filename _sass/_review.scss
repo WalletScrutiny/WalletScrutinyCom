@@ -1020,3 +1020,70 @@
     }
   }
 }
+
+.platform-notes-more {
+  display: none;
+}
+
+// On phones every section except "Passed N tests" and "Build Verifications"
+// (which have their own spacing above) pulls its content up under the title.
+@media (max-width: 500px) {
+  .steps .step:not(.methodology):not(.build-verifications-step) > .title > :is(h2, h3) + * {
+    margin-top: -6px;
+  }
+
+  // its text box starts 4.5px lower than the other sections' content
+  .steps .step.platform-notes-collapsible > .title > h3 + .textbox {
+    margin-top: -11px;
+  }
+
+  // the review text under "Application information" starts right under the
+  // title instead of after its own heading margin
+  #results + .section > :first-child {
+    margin-top: 0;
+  }
+
+  // hardware wallet notes: tighter box, and only the first two lines until
+  // "more" is tapped
+  .steps .step.platform-notes-collapsible .textbox {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .platform-notes-body > :first-child {
+      margin-top: 0;
+    }
+
+    .platform-notes-body > :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .steps .step.platform-notes-collapsible[data-collapsed="true"] .textbox {
+    .platform-notes-body > :not(:first-child) {
+      display: none;
+    }
+
+    .platform-notes-body > :first-child {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      margin-bottom: 0;
+    }
+  }
+
+  .platform-notes-more {
+    display: block;
+    margin: 6px 0 0;
+    padding: 0;
+    background: none;
+    border: 0;
+    color: var(--accent-text);
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .steps .step.platform-notes-collapsible[data-collapsed="false"] .platform-notes-more {
+    display: none;
+  }
+}

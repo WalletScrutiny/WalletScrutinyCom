@@ -1,12 +1,21 @@
 {% assign platform = include.platform %}
 
-<div class="step operating-system">
+{%- comment -%}
+On phones (up to 500px) the hardware wallet notes show their first two lines
+and a "more" link that reveals the rest. Wider screens ignore data-collapsed.
+{%- endcomment -%}
+<div class="step operating-system{% if platform == 'hardware' %} platform-notes-collapsible{% endif %}"{% if platform == 'hardware' %} data-collapsed="true"{% endif %}>
   {% include iconClass.html platform=platform %}
   {% if iconName %}{% include icon.html name=iconName class="circle" %}{% else %}<i class="{{iconClass}} circle"></i>{% endif %}
   <div class="title">
     <h3>Platform notes</h3>
     <div class="textbox">
-      {{site.data.platformMeta[platform].description | markdownify}}
+      <div class="platform-notes-body">
+        {{site.data.platformMeta[platform].description | markdownify}}
+      </div>
+      {%- if platform == 'hardware' %}
+      <button type="button" class="platform-notes-more" onclick="this.closest('.operating-system').setAttribute('data-collapsed', 'false')">more</button>
+      {%- endif %}
     </div>
   </div>
   <div class="data">
