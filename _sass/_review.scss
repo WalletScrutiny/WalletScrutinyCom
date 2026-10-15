@@ -1,3 +1,7 @@
+// space between one section's content and the next section's icon tile
+// (Distribution, Build Verifications, Platform notes, the review headings)
+$review-section-gap: 28px;
+
 // section icon: an accent-tinted rounded tile around an SVG from
 // assets/icons.svg, shared by the review steps and the review text headings
 @mixin section-icon-tile {
@@ -401,7 +405,7 @@
 }
 
 .mobile-content-panels {
-  margin-top: 12px;
+  margin-top: 0;
 }
 
 // the review's own headings ("App Description", "Analysis", ...) look like
@@ -410,11 +414,11 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  margin: 28px 0 14px;
+  margin: $review-section-gap 0 14px;
 
-  // right under Platform notes, as close as one step is to the next
+  // right under Platform notes, whose 4px bottom padding completes the gap
   &:first-child {
-    margin-top: 10px;
+    margin-top: $review-section-gap - 4px;
   }
 
   .circle {
@@ -428,8 +432,10 @@
     padding: 0;
   }
 }
-.app-review .mobile-content-panels .review-section-title:first-child {
-  margin-top: 0;
+// the gap above a heading is the heading's own, not the larger margin of
+// a quote or list right before it
+.app-review :has(+ .review-section-title) {
+  margin-bottom: 0;
 }
 
 .mobile-content-panel {
@@ -503,10 +509,7 @@
   }
 
   .step {
-    margin-top: 20px;
-  }
-  .step.operating-system {
-    margin-top: 4px;
+    margin-top: $review-section-gap - 8px;
   }
 
   // the first section sits right under the Android/iPhone tabs
@@ -547,9 +550,11 @@
 }
 
 .security-overview {
-  // no line above Application information, and 35% of the old 81px gap
+  // no line above Application information, and the same gap as between the
+  // other sections (Platform notes' 4px bottom and its own 8px top padding
+  // complete it)
   > #results {
-    margin-top: 28px;
+    margin-top: $review-section-gap - 12px;
   }
   font-weight: $paragraph-font-weight;
   // 15px on the container, not on p, so lists, quotes and tables in the
@@ -631,17 +636,25 @@
         opacity: 0.2;
       }
     }
-    // no line before Build Verifications
-    &:has(+ .build-verifications-step)::after {
-      content: none;
-    }
-    // no line before Platform notes, and half the gap
+    // no line before Build Verifications and Platform notes, and the same
+    // gap as between the review's headings (the next step's 8px top padding
+    // completes it)
+    &:has(+ .build-verifications-step),
     &:has(+ .operating-system) {
-      margin-bottom: 4px;
-      padding-bottom: 5px;
+      margin-bottom: $review-section-gap - 8px;
+      padding-bottom: 0;
       &::after {
         content: none;
       }
+    }
+    // an empty status line (Build Verifications' message under the drop
+    // area) would still add a grid row gap at the bottom of the section
+    > .title > p:empty {
+      display: none;
+    }
+    // same for the iPhone notice's own bottom margin
+    > .title > .infoBox:last-of-type {
+      margin-bottom: 0;
     }
     // section icon; a section that does not apply goes grey
     .circle {
@@ -1045,6 +1058,13 @@
         }
       }
 
+      // right before Build Verifications (desktop and hardware pages) the
+      // usual section gap applies instead
+      &:has(+ .build-verifications-step),
+      &:has(+ .build-verifications-step):not(:has(.methodology-tests-list > .fail)) {
+        padding-bottom: 0;
+      }
+
       > .title > p,
       .methodology-tests-list > .pass,
       .methodology-tests-list > .untested {
@@ -1066,7 +1086,8 @@
     margin-top: 0;
   }
 
-  .platform-notes-body > :last-child {
+  .platform-notes-body > :last-child,
+  .platform-notes-body > :last-child > li:last-child {
     margin-bottom: 0;
   }
 }
