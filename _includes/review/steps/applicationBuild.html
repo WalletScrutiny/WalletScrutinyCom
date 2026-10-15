@@ -1,10 +1,6 @@
 <div class="step application-build build-verifications-step">
     {% assign build_verdict = include.verdict | default: page.verdict %}
-    {% if build_verdict == 'sourceavailable' %}
-    <i class="i-sourceavailable circle"></i>
-    {% else %}
-    <i class="i-sourceavailable circle disabled"></i>
-    {% endif %}
+    <i class="circle{% if build_verdict != 'sourceavailable' %} disabled{% endif %}">{% include icon.html name="code-compare" %}</i>
     <div class="title">
         <h3>Build Verifications</h3>
 

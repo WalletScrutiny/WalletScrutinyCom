@@ -9,9 +9,7 @@ the title, the checks or the chevron shows the rest. Wider screens ignore
 data-collapsed.
 {%- endcomment -%}
 <div class="step methodology" data-collapsed="true">
-  <i class="circle" style="display: flex; align-items: center; justify-content: center;">
-    {% include icon.html name="vial" style="z-index: 2; font-size: 20px;" %}
-  </i>
+  <i class="circle">{% include icon.html name="vial" %}</i>
   <div class="title">
     {% if count == criteria.size %}
       {% assign numerator = 'all' %}

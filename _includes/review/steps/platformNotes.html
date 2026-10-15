@@ -6,7 +6,7 @@ and a "more" link that reveals the rest. Wider screens ignore data-collapsed.
 {%- endcomment -%}
 <div class="step operating-system{% if platform == 'hardware' %} platform-notes-collapsible{% endif %}"{% if platform == 'hardware' %} data-collapsed="true"{% endif %}>
   {% include iconClass.html platform=platform %}
-  {% if iconName %}{% include icon.html name=iconName class="circle" %}{% else %}<i class="{{iconClass}} circle"></i>{% endif %}
+  <i class="circle">{% include icon.html name=iconName %}</i>
   <div class="title">
     <h3>Platform notes</h3>
     <div class="textbox">

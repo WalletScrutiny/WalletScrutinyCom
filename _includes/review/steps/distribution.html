@@ -6,9 +6,7 @@
 
 {% if plat == 'iphone' or plat == 'android' %}
 <div class="step distribution">
-  <i class="circle" style="display: flex; align-items: center; justify-content: center;">
-    {% include icon.html name="download" style="z-index: 2; font-size: 23px;" %}
-  </i>
+  <i class="circle">{% include icon.html name="download" %}</i>
   <div class="title">
     <h3>Distribution</h3>
     {% case plat %}

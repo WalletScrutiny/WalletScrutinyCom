@@ -10,9 +10,9 @@
 
 <div class="step privacy">
   {% if privacyVerdict || privacyVerdict == 'flagPlaceholder' %}
-  <i class="i-visible circle"></i>
+  <i class="circle">{% include icon.html name="eye" %}</i>
   {% else %}
-  <i class="i-visible circle disabled"></i>
+  <i class="circle disabled">{% include icon.html name="eye" %}</i>
   {% endif %}
   <div class="title">
     <h3>Privacy</h3>

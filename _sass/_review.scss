@@ -582,36 +582,26 @@
         opacity: 0.2;
       }
     }
+    // section icon: an accent-tinted rounded tile around an SVG from
+    // assets/icons.svg; a section that does not apply goes grey
     .circle {
       grid-column: 1;
       grid-row: 1;
       align-self: center;
-      color: var(--body);
-      font-size: $font-md;
-      text-align: center;
-      display: grid;
-      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       height: 40px;
       width: 40px;
-      line-height: 40px;
-      &::after {
-        content: "";
-        height: 100%;
-        width: 100%;
-        border-radius: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background: var(--text);
-        z-index: 1;
-      }
-      &::before {
-        z-index: 2;
-      }
+      border-radius: 12px;
+      font-size: 19px; // type-scale-exempt: icon
+      color: var(--accent-text);
+      background: color-mix(in srgb, var(--accent-text) 12%, transparent);
+      box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent-text) 24%, transparent);
       &.disabled {
-        &::after {
-          background: var(--neutral-4);
-        }
+        color: var(--neutral-3);
+        background: color-mix(in srgb, var(--text) 6%, transparent);
+        box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--text) 12%, transparent);
       }
     }
     .title {
