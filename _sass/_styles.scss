@@ -991,6 +991,7 @@ table tr td label {
     justify-content: center;
     text-align: center;
     margin-bottom: 0;
+    font-size: calc(#{$font-hero} * 0.85);
   }
 
   .app-summary-grid .app-sum-head .distribution-store-links {
