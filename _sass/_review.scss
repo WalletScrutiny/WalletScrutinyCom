@@ -241,6 +241,16 @@
   }
 }
 
+// Same distance below the badge as between the title and the badge. The
+// title's 8px bottom margin makes that gap the plain row gap above 500px.
+.app-summary-grid .app-sum-head .app-facts-badges + .distribution-store-links {
+  margin-top: 0;
+
+  @media (max-width: 500px) {
+    margin-top: -0.5rem;
+  }
+}
+
 .app-facts-badge {
   display: inline-flex;
   align-items: center;
