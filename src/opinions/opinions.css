@@ -1,8 +1,10 @@
 /* Community opinions widget (src/opinions/). Colours come from the site's
    CSS variables (_sass/_colours.scss), so light and dark themes just work. */
 
+/* with the heading step's 8px top padding, the same gap as between the
+   review sections above */
 .opinions {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 /* Heading: .steps/.step/.circle/.title come from _sass/_review.scss, the
