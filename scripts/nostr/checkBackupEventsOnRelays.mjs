@@ -16,8 +16,6 @@ import {
   getPool,
   disconnectNostr,
 } from "../../src/nostr-client.mjs";
-import fs from "fs";
-import path from "path";
 import {
   eventRelayUrls,
   assetRegistrationKind,
@@ -31,19 +29,9 @@ import {
 } from "../../src/nostr-constants.mjs";
 import { getFirstTagValue } from "../../src/verifications_common.mjs";
 import { printRefreshSubsection } from "../refresh-ui.mjs";
+import { BACKUP_BASE_DIR, loadAllBackupEvents } from "./backupEvents.mjs";
 
 global.WebSocket = WebSocket;
-
-const BASE_DIR = path.join(process.cwd(), "backup");
-const VERIFICATION_KINDS = [
-  assetRegistrationKind,
-  assetBundleRegistrationKind,
-  verificationKind,
-  verificationDraftKind,
-  verificationCommentKind,
-  codeSnippetKind,
-  endorsementKind,
-];
 
 const KIND_LABELS = {
   [assetRegistrationKind]: "Asset Registration",
@@ -84,40 +72,6 @@ function isWithinCreatedAtWindow(event) {
 
 function filterByCreatedAt(events) {
   return events.filter(isWithinCreatedAtWindow);
-}
-
-function loadEventsFromDir(kindDir) {
-  if (!fs.existsSync(kindDir)) {
-    return [];
-  }
-
-  const events = [];
-  for (const file of fs.readdirSync(kindDir)) {
-    if (!file.endsWith(".json")) {
-      continue;
-    }
-    const filePath = path.join(kindDir, file);
-    const fileBytes = fs.statSync(filePath).size;
-    const event = JSON.parse(fs.readFileSync(filePath, "utf8"));
-    if (event?.id) {
-      events.push({ ...event, backupFileSizeBytes: fileBytes });
-    }
-  }
-  return events;
-}
-
-function loadAllBackupEvents() {
-  const events = [];
-
-  for (const kind of VERIFICATION_KINDS) {
-    const kindDir = path.join(BASE_DIR, "nostr-verification-events", kind.toString());
-    events.push(...loadEventsFromDir(kindDir));
-  }
-
-  const opinionDir = path.join(BASE_DIR, "nostr-opinion-events", opinionKind.toString());
-  events.push(...loadEventsFromDir(opinionDir));
-
-  return events;
 }
 
 async function fetchIdsOnRelays(eventIds, { relayUrls, maxWait }) {
@@ -315,7 +269,7 @@ async function main() {
   const skippedByCreatedAt = allLoadedEvents.length - backupEvents.length;
 
   if (backupEvents.length === 0) {
-    console.warn(`No backup events found under ${BASE_DIR} with created_at > ${MIN_CREATED_AT_EXCLUSIVE}.`);
+    console.warn(`No backup events found under ${BACKUP_BASE_DIR} with created_at > ${MIN_CREATED_AT_EXCLUSIVE}.`);
     process.exit(0);
   }
 

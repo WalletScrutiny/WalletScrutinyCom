@@ -36,7 +36,9 @@ const bundlePath = (prefix) => {
     verificationsDataSrc: '{{ site.baseurl }}/dist/<%= bundlePath('verifications_data') %>',
     verificationsUiSrc: '{{ site.baseurl }}/dist/<%= bundlePath('verifications_ui') %>',
     shareUiSrc: '{{ site.baseurl }}/dist/<%= bundlePath('share_ui') %>',
+    opinionsUiSrc: '{{ site.baseurl }}/dist/<%= bundlePath('opinions_ui') %>',
     loadVerificationsUi: {% if load_verifications_ui %}true{% else %}false{% endif %},
+    loadOpinionsUi: {% if page.layout contains "review" %}true{% else %}false{% endif %},
     loadShareUi: {% if load_share_ui %}true{% else %}false{% endif %},
     deferSiteWideLoad: {% if page.layout contains "review" %}true{% else %}false{% endif %},
   };

@@ -1,34 +1,42 @@
-<script type="module">
-  // Defer until all page assets (images, CSS, other scripts) have finished loading
-  // so nostr-opinion.js does not compete for bandwidth during initial render.
-  // nostr-opinion.js fetches its sibling nostr-opinion-editor.js on demand (first
-  // time an opinion editor is opened), so both files must stay in assets/js/.
-  if (document.readyState !== 'complete') {
-    await new Promise((resolve) => window.addEventListener('load', resolve, { once: true }));
-  }
-  await import('/assets/js/nostr-opinion.js');
-</script>
-
+{%- comment -%}
+  Community opinions (Nostr kind 30023) for this product. The widget code lives
+  in src/opinions/ and is loaded by src/loader.js on review pages; this include
+  only carries the per-page parameters as data attributes.
+  The optional `opinionSubjects` are legacy d-tags (android/..., iphone/...)
+  that are read but never published to.
+{%- endcomment -%}
 {% assign nostr_collection = include.opinionSubject | default: page.collection %}
 {% assign nostr_app_id = include.opinionAppId | default: page.appId %}
 {% assign nostr_subjects = include.opinionSubjects | default: '' %}
-<nostr-opinion
-  subject="{{ nostr_collection }}/{{ nostr_app_id }}"
-  {% if nostr_subjects != '' %}subjects="{{ nostr_subjects }}"{% endif %}
-  opinionHeader="******** Opinion about {{ page.title }} ({{ nostr_collection }})"
-  opinionFooter="[Join the conversation!](https://walletscrutiny.com/{{ nostr_collection }}/{{ nostr_app_id }}/)"
-  opinionTitle="Opinion about {{ page.title }}"
-  opinionImage="https://walletscrutiny.com/images/social/{{ nostr_collection }}/{{ nostr_app_id }}.png"
-  opinionTags="WalletScrutiny,nostrOpinion"
-  expertOpinionsConfig='{
-        "headline": "Community Opinions ($$nTrusted$$/$$nAll$$)",
-        "description": "These comments are contributed by nostr users using the nostr-opinions-plugin.",
-        "trustedAuthors": [
-          "npub1gm7tuvr9atc6u7q3gevjfeyfyvmrlul4y67k7u7hcxztz67ceexs078rf6",
-          "npub1r709glp0xx2zvgac45wswufjst5xgr7cear5a8me7x9vazhjzmksp2sf7d",
-          "npub1mtd7s63xd85ykv09p7y8wvg754jpsfpplxknh5xr0pu938zf86fqygqxas"
-        ],
-        "blockedEventIds": {{ site.data.nostrOpinionBlocklist.eventIds | jsonify }},
-        "blockedAuthors": {{ site.data.nostrOpinionBlocklist.authors | jsonify }}
-    }'>
-></nostr-opinion>
+<section
+  id="communityOpinions"
+  class="opinions"
+  data-opinions
+  data-subject="{{ nostr_collection }}/{{ nostr_app_id }}"
+  data-subjects="{{ nostr_subjects }}"
+  data-header="******** Opinion about {{ page.title | escape }} ({{ nostr_collection }})"
+  data-footer="[Join the conversation!](https://walletscrutiny.com/{{ nostr_collection }}/{{ nostr_app_id }}/)"
+  data-title="Opinion about {{ page.title | escape }}"
+  data-image="https://walletscrutiny.com/images/social/{{ nostr_collection }}/{{ nostr_app_id }}.png"
+  data-tags="WalletScrutiny,nostrOpinion"
+  data-trusted-authors='{{ site.data.nostrOpinions.trustedAuthors | jsonify }}'
+  data-blocked-event-ids='{{ site.data.nostrOpinionBlocklist.eventIds | jsonify }}'
+  data-blocked-authors='{{ site.data.nostrOpinionBlocklist.authors | jsonify }}'
+>
+  {%- comment -%}
+    Same heading markup as the other review sections (.steps > .step with a
+    .circle icon and .title), so the icon, font and size match.
+  {%- endcomment -%}
+  <div class="steps opinions__heading">
+    <div class="step">
+      <i class="circle">{% include icon.html name="user-group" %}</i>
+      <div class="title">
+        <h2 class="opinions__headline">Community Opinions</h2>
+        <p class="opinions__description">These comments are contributed by nostr users and stored on Nostr relays.</p>
+      </div>
+    </div>
+  </div>
+  <div class="opinions__body" aria-busy="true">
+    <p class="opinions__status">Loading opinions…</p>
+  </div>
+</section>

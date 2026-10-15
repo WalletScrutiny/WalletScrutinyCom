@@ -61,6 +61,13 @@ module.exports = (env, argv) => {
         ],
         dependOn: ['dom_sanitization', 'verifications_data'],
       },
+      // Community opinions widget on review pages (src/opinions/). Shares the
+      // Nostr pool, DOMPurify, marked and the profile cache with the entries
+      // above instead of bundling its own copies.
+      opinions_ui: {
+        import: ['./src/opinions/index.mjs'],
+        dependOn: ['dom_sanitization', 'verifications_data', 'verifications_ui'],
+      },
     },
     output: {
       filename: argv.mode === 'production' ? '[name].[contenthash].bundle.min.js' : '[name].bundle.min.js',
@@ -80,6 +87,12 @@ module.exports = (env, argv) => {
     },
     module: {
       rules: [
+        {
+          // Widget stylesheets are imported as strings and injected by the
+          // module that owns them (see src/opinions/index.mjs).
+          test: /\.css$/,
+          type: 'asset/source',
+        },
         {
           test: /\.m?js$/,
           exclude: /node_modules/,
