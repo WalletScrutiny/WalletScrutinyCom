@@ -463,6 +463,9 @@
   .step {
     margin-top: 20px;
   }
+  .step.operating-system {
+    margin-top: 8px;
+  }
 
   // the first section sits right under the Android/iPhone tabs
   &__panel > .step:first-child {
@@ -502,6 +505,10 @@
 }
 
 .security-overview {
+  // no line above Application information, and half the old 81px gap
+  > #results {
+    margin-top: 40px;
+  }
   font-weight: $paragraph-font-weight;
   // 15px on the container, not on p, so lists, quotes and tables in the
   // review body share the paragraph size instead of inheriting a bigger one
@@ -580,6 +587,14 @@
         left: 0;
         bottom: 0;
         opacity: 0.2;
+      }
+    }
+    // no line before Platform notes, and half the gap
+    &:has(+ .operating-system) {
+      margin-bottom: 4px;
+      padding-bottom: 12px;
+      &::after {
+        content: none;
       }
     }
     // section icon: an accent-tinted rounded tile around an SVG from
