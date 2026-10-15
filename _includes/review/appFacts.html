@@ -67,7 +67,11 @@
   {%- if has_developer %}
   <div class="app-facts__item">
     <dt>Developer</dt>
-    <dd>
+    {%- capture dev_links -%}{% include /review/developerSocialLinks.html skipWebsite=include.skipWebsite %}{%- endcapture -%}
+    {%- assign dev_name = dev_android | append: dev_iphone | append: dev_root -%}
+    {%- assign dev_collapsible = false -%}
+    {%- if dev_name != '' and dev_links contains '<a ' -%}{%- assign dev_collapsible = true -%}{%- endif -%}
+    <dd{% if dev_collapsible %} class="app-facts__dev--collapsible"{% endif %}>
       {%- if dev_android != '' and dev_iphone != '' -%}
         {%- if dev_android_key == dev_iphone_key -%}
           <span class="capitalise">{{ dev_android }}</span>
@@ -82,7 +86,10 @@
       {%- elsif dev_root != '' -%}
         <span class="capitalise">{{ dev_root }}</span>
       {%- endif -%}
-      {% include /review/developerSocialLinks.html skipWebsite=include.skipWebsite %}
+      {%- if dev_collapsible -%}
+        <button type="button" class="app-facts__info" aria-label="Show developer links" onclick="var dd = this.closest('dd'); dd.classList.add('is-open'); dd.querySelector('.distribution-store-link').focus()">{% include icon.html name="circle-info" %}</button>
+      {%- endif %}
+      {{ dev_links }}
     </dd>
   </div>
   {%- endif %}

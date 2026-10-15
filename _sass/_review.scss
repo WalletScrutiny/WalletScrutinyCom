@@ -227,6 +227,43 @@
   }
 }
 
+// Phones show only the developer's name with an info icon; tapping the icon
+// swaps it for the developer's links.
+.app-facts__info {
+  display: none;
+  align-items: center;
+  margin: -0.35rem 0 -0.35rem 0.15rem;
+  padding: 0.35rem;
+  border: 0;
+  background: none;
+  color: var(--neutral-2);
+  font: inherit;
+  line-height: 1;
+  vertical-align: middle;
+  cursor: pointer;
+
+  &:hover,
+  &:focus-visible {
+    color: var(--accent-text);
+  }
+}
+
+@media (max-width: 500px) {
+  .app-facts__dev--collapsible {
+    .app-facts__info {
+      display: inline-flex;
+    }
+
+    &:not(.is-open) .distribution-store-links {
+      display: none;
+    }
+
+    &.is-open .app-facts__info {
+      display: none;
+    }
+  }
+}
+
 // "Featured on Bitcoin.org" badge right below the wallet title; the
 // details open in a native <dialog>.
 .app-facts-badges {
