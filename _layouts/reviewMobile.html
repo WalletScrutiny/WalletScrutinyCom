@@ -73,7 +73,7 @@ layout: default
       {% include /review/securityOverviewMobile.html wsId=page.wsId externalResearchAlert=external_research_alert %}
 
       <div class="security-overview">
-        <div class="section page__content" itemprop="text">
+        <div class="section page__content" itemprop="text" data-icon-sprite="{{ site.baseurl }}{{ site.icons_sprite }}">
           {{ review_body }}
           {% include_cached /review/byAuthor.html authors=page.authors %}
         </div>

@@ -1,3 +1,19 @@
+// section icon: an accent-tinted rounded tile around an SVG from
+// assets/icons.svg, shared by the review steps and the review text headings
+@mixin section-icon-tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 12px;
+  font-size: 19px; // type-scale-exempt: icon
+  color: var(--accent-text);
+  background: color-mix(in srgb, var(--accent-text) 12%, transparent);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent-text) 24%, transparent);
+}
+
 .textbox {
   border-radius: 10px;
   background-image: linear-gradient(var(--wallet-low-contrast), var(--wallet-low-contrast));
@@ -385,9 +401,35 @@
 }
 
 .mobile-content-panels {
-  margin-top: 1.25rem;
-  padding-top: 1.25rem;
-  border-top: 1px dashed var(--shadow-3);
+  margin-top: 12px;
+}
+
+// the review's own headings ("App Description", "Analysis", ...) look like
+// the review steps above them: icon tile, same title size
+.app-review .review-section-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 28px 0 14px;
+
+  // right under Platform notes, as close as one step is to the next
+  &:first-child {
+    margin-top: 10px;
+  }
+
+  .circle {
+    @include section-icon-tile;
+  }
+
+  h2 {
+    font-size: $font-md;
+    font-weight: $title-font-weight;
+    margin: 0;
+    padding: 0;
+  }
+}
+.app-review .mobile-content-panels .review-section-title:first-child {
+  margin-top: 0;
 }
 
 .mobile-content-panel {
@@ -601,22 +643,12 @@
         content: none;
       }
     }
-    // section icon: an accent-tinted rounded tile around an SVG from
-    // assets/icons.svg; a section that does not apply goes grey
+    // section icon; a section that does not apply goes grey
     .circle {
       grid-column: 1;
       grid-row: 1;
       align-self: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 40px;
-      width: 40px;
-      border-radius: 12px;
-      font-size: 19px; // type-scale-exempt: icon
-      color: var(--accent-text);
-      background: color-mix(in srgb, var(--accent-text) 12%, transparent);
-      box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent-text) 24%, transparent);
+      @include section-icon-tile;
       &.disabled {
         color: var(--neutral-3);
         background: color-mix(in srgb, var(--text) 6%, transparent);
