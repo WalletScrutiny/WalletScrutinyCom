@@ -5,13 +5,14 @@
   margin-top: 40px;
 }
 
-.opinions__headline {
-  margin-bottom: 0.25em;
+/* Heading: .steps/.step/.circle/.title come from _sass/_review.scss, the
+   same markup the other review sections use. */
+.opinions__heading {
+  margin-bottom: 0.75em;
 }
 
 .opinions__description {
   color: var(--neutral-3);
-  margin: 0 0 1em;
 }
 
 .opinions__status {

@@ -23,8 +23,19 @@
   data-blocked-event-ids='{{ site.data.nostrOpinionBlocklist.eventIds | jsonify }}'
   data-blocked-authors='{{ site.data.nostrOpinionBlocklist.authors | jsonify }}'
 >
-  <h2 class="opinions__headline">Community Opinions</h2>
-  <p class="opinions__description">These comments are contributed by nostr users and stored on Nostr relays.</p>
+  {%- comment -%}
+    Same heading markup as the other review sections (.steps > .step with a
+    .circle icon and .title), so the icon, font and size match.
+  {%- endcomment -%}
+  <div class="steps opinions__heading">
+    <div class="step">
+      <i class="circle">{% include icon.html name="user-group" %}</i>
+      <div class="title">
+        <h2 class="opinions__headline">Community Opinions</h2>
+        <p class="opinions__description">These comments are contributed by nostr users and stored on Nostr relays.</p>
+      </div>
+    </div>
+  </div>
   <div class="opinions__body" aria-busy="true">
     <p class="opinions__status">Loading opinions…</p>
   </div>
