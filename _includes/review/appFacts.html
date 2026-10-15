@@ -87,7 +87,7 @@
         <span class="capitalise">{{ dev_root }}</span>
       {%- endif -%}
       {%- if dev_collapsible -%}
-        <button type="button" class="app-facts__info" aria-label="Show developer links" onclick="var dd = this.closest('dd'); dd.classList.add('is-open'); dd.querySelector('.distribution-store-link').focus()">{% include icon.html name="circle-info" %}</button>
+        <button type="button" class="app-facts__info" aria-label="Show developer links" onclick="this.closest('dd').classList.add('is-open')">{% include icon.html name="up-right-from-square" %}</button>
       {%- endif %}
       {{ dev_links }}
     </dd>
