@@ -124,9 +124,52 @@ export function buildVersionTimeline(rows) {
     version.glass = version.tally.glass;
     version.hasWarning = version.verifications.some(v => getFirstTagValue(v, 'status') === 'warning');
     version.prerelease = /alpha|beta|-rc/i.test(version.name);
+    Object.assign(version, splitVersionName(version.name));
   }
   timeline.sort((a, b) => compareVersionNames(a.name, b.name));
   return timeline;
+}
+
+/**
+ * "13.2.0-rc1" -> { base: "13.2.0", suffix: "rc1" }; a release has an empty suffix. The
+ * suffix starts at the first "-" or "+", or at the alpha/beta/rc word when there is no
+ * separator ("2.0.0beta").
+ */
+export function splitVersionName(name) {
+  const match = /^(.*?)(?:[-+]|(?=alpha|beta|rc\d))(.*)$/i.exec(name);
+  if (!match || !/alpha|beta|rc/i.test(match[2])) {
+    return { base: name, suffix: '' };
+  }
+  return { base: match[1], suffix: match[2] };
+}
+
+/**
+ * The timeline with every pre-release folded under the release it leads up to: the release
+ * gains `prereleases` (oldest first) and the pre-release leaves the top level. A pre-release
+ * whose release does not exist (yet) stays a version of its own.
+ */
+export function foldPrereleases(timeline) {
+  for (const version of timeline) {
+    version.prereleases = [];
+    version.parentKey = null;
+  }
+  const releases = new Map(timeline.filter(v => !v.prerelease).map(v => [v.base, v]));
+  const folded = [];
+  for (const version of timeline) {
+    const release = version.prerelease ? releases.get(version.base) : null;
+    if (release) {
+      version.parentKey = release.key;
+      release.prereleases.push(version);
+    } else {
+      folded.push(version);
+    }
+  }
+  return folded;
+}
+
+/** Every version of [timeline] including the folded ones, for lookups by key. */
+export function everyVersion(timeline) {
+  return timeline.flatMap(v => [v, ...(v.prereleases || [])]);
 }
 
 /** The version the section opens on: the newest. */

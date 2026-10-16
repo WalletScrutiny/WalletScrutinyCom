@@ -16,6 +16,8 @@ import { getVerificationIdFromHash } from './assets-table-hash.mjs';
 import { el, HASH_PREFIX_LENGTH, isSha256Hex } from './html-utils.mjs';
 import {
   buildVersionTimeline,
+  foldPrereleases,
+  everyVersion,
   defaultVersionKey,
   versionKeyOfVerification,
   headlineFor,
@@ -64,34 +66,67 @@ function statusPill(status) {
 
 // ---------------------------------------------------------------- every version
 
-function stone(version, selected) {
+/**
+ * Prototype switch (`?bv=fold` | `?bv=small`): how alpha/beta/rc versions are shown.
+ * `fold` tucks them under their release and lists them as chips in the panel; `small`
+ * keeps a stone each, drawn smaller with the suffix on a second line. Unset = as before.
+ */
+function prereleaseMode() {
+  if (typeof window === 'undefined') {
+    return '';
+  }
+  const mode = new URLSearchParams(window.location.search).get('bv') || '';
+  return mode === 'fold' || mode === 'small' ? mode : '';
+}
+
+function pipsFor(version) {
   const current = version.verifications.slice(0, MAX_PIPS);
-  const pips = el('span', { className: 'bv-pips', 'aria-hidden': 'true' },
+  return el('span', { className: 'bv-pips', 'aria-hidden': 'true' },
     current.map(v => el('span', { className: `bv-pip ${pipModifier(getFirstTagValue(v, 'status'))}`.trim() })),
   );
+}
+
+function stoneName(version, mode) {
+  const warning = version.hasWarning
+    ? el('span', { className: 'bv-stone__warning', title: 'A verifier flagged a serious problem with this version' }, '⚠')
+    : null;
+  if (mode && version.prerelease && version.suffix) {
+    return el('span', { className: 'bv-stone__name bv-stone__name--prerelease bv-stone__name--split' },
+      el('span', { className: 'bv-stone__base' }, version.base),
+      el('span', { className: 'bv-stone__suffix' }, version.suffix, warning),
+    );
+  }
+  const preCount = version.prereleases?.length || 0;
+  return el('span', { className: `bv-stone__name${version.prerelease ? ' bv-stone__name--prerelease' : ''}` },
+    version.name,
+    preCount ? el('span', { className: 'bv-stone__pre', title: `${preCount} pre-release${preCount === 1 ? '' : 's'}` }, `+${preCount}`) : null,
+    warning,
+  );
+}
+
+function stone(version, selected, mode) {
   const label = `Version ${version.name}, ${headlineFor(version)}`;
+  const small = Boolean(mode) && version.prerelease;
+  const preCount = version.prereleases?.length || 0;
   return el('button', {
     type: 'button',
-    className: `bv-stone bv-stone--${version.glass}`,
+    className: `bv-stone bv-stone--${version.glass}${small ? ' bv-stone--small' : ''}`,
     'aria-pressed': selected ? 'true' : 'false',
-    'aria-label': label,
+    'aria-label': preCount ? `${label}, ${preCount} pre-releases` : label,
     title: headlineFor(version),
     dataset: { versionKey: version.key },
   },
     el('span', { className: 'bv-stone__pill' },
-      el('span', { className: `bv-stone__name${version.prerelease ? ' bv-stone__name--prerelease' : ''}` },
-        version.name,
-        version.hasWarning ? el('span', { className: 'bv-stone__warning', title: 'A verifier flagged a serious problem with this version' }, '⚠') : null,
-      ),
-      pips,
+      stoneName(version, mode),
+      small && version.verifications.length === 0 ? null : pipsFor(version),
     ),
   );
 }
 
-function river(timeline, selectedKey) {
+function river(timeline, selectedStoneKey, mode) {
   return el('section', { className: 'bv-panel bv-versions', 'aria-label': 'Every version' },
     el('h4', { className: 'bv-caption' }, 'Every version'),
-    el('div', { className: 'bv-river', role: 'group' }, timeline.map(v => stone(v, v.key === selectedKey))),
+    el('div', { className: 'bv-river', role: 'group' }, timeline.map(v => stone(v, v.key === selectedStoneKey, mode))),
   );
 }
 
@@ -261,10 +296,35 @@ function actions(version, { appId, platform }) {
   );
 }
 
+/**
+ * The release and its pre-releases as one row of chips, the shown one pressed. Only when
+ * the version is part of such a family.
+ */
+function prereleaseChips(version, versions) {
+  const release = version.parentKey ? versions.find(v => v.key === version.parentKey) : version;
+  if (!release || !release.prereleases?.length) {
+    return null;
+  }
+  const family = [...release.prereleases, release];
+  return el('div', { className: 'bv-chips', role: 'group', 'aria-label': `Pre-releases of ${release.name}` },
+    family.map(v => el('button', {
+      type: 'button',
+      className: `bv-chip bv-chip--${v.glass}${v.prerelease ? '' : ' bv-chip--release'}`,
+      'aria-pressed': v.key === version.key ? 'true' : 'false',
+      title: headlineFor(v),
+      dataset: { versionKey: v.key },
+    },
+      el('span', { className: 'bv-chip__name' }, v.prerelease ? v.suffix : 'release'),
+      v.verifications.length ? pipsFor(v) : null,
+    )),
+  );
+}
+
 function panel(version, context) {
   return el('div', { className: 'bv-selected', dataset: { versionKey: version.key } },
     el('h4', { className: 'bv-headline', 'aria-live': 'polite' }, headlineFor(version)),
     el('p', { className: 'bv-lede' }, ledeFor(version, context.walletTitle)),
+    prereleaseChips(version, context.versions),
     whoTested(version, context),
     actions(version, context),
   );
@@ -285,7 +345,9 @@ export function renderBuildVerifications({
   if (!host) {
     return null;
   }
-  const timeline = buildVersionTimeline(rows);
+  const mode = prereleaseMode();
+  const fullTimeline = buildVersionTimeline(rows);
+  const timeline = mode === 'fold' ? foldPrereleases(fullTimeline) : fullTimeline;
   if (timeline.length === 0) {
     host.hidden = true;
     host.replaceChildren();
@@ -293,10 +355,14 @@ export function renderBuildVerifications({
   }
   host.hidden = false;
 
-  const keys = new Set(timeline.map(v => v.key));
+  // Every version that can be shown, folded pre-releases included; the river only holds
+  // the top level. `stoneKeyOf` maps a shown version to the stone that stands for it.
+  const versions = everyVersion(timeline);
+  const keys = new Set(versions.map(v => v.key));
+  const stoneKeyOf = key => versions.find(v => v.key === key)?.parentKey || key;
   let selectedKey = host.dataset.selectedVersion;
   if (!keys.has(selectedKey)) {
-    selectedKey = versionKeyOfVerification(timeline, getVerificationIdFromHash()) || defaultVersionKey(timeline);
+    selectedKey = versionKeyOfVerification(versions, getVerificationIdFromHash()) || defaultVersionKey(timeline);
   }
   host.dataset.selectedVersion = selectedKey;
 
@@ -304,16 +370,17 @@ export function renderBuildVerifications({
     appId,
     platform,
     walletTitle,
+    versions,
     userPubkey: typeof window !== 'undefined' ? window.userPubkey : null,
     hashVerdictIndex: buildHashVerdictIndex(assetInfo?.verifications),
   };
 
-  const riverEl = river(timeline, selectedKey);
+  const riverEl = river(timeline, stoneKeyOf(selectedKey), mode);
   const panelHost = el('div', { className: 'bv-panel-host' });
   host.replaceChildren(riverEl, panelHost);
 
   const paintSelected = () => {
-    const version = timeline.find(v => v.key === host.dataset.selectedVersion) || timeline[timeline.length - 1];
+    const version = versions.find(v => v.key === host.dataset.selectedVersion) || timeline[timeline.length - 1];
     panelHost.replaceChildren(panel(version, context));
     renderProfilePictures([...new Set(
       version.verifications.concat(version.drafts).map(v => v.pubkey).filter(isSha256Hex),
@@ -321,28 +388,46 @@ export function renderBuildVerifications({
   };
 
   const scroller = riverEl.querySelector('.bv-river');
-  riverEl.addEventListener('click', (event) => {
-    const button = event.target.closest('.bv-stone[data-version-key]');
-    if (!button || !riverEl.contains(button)) {
-      return;
-    }
-    const key = button.dataset.versionKey;
+  const pressStone = (key) => {
+    let pressed = null;
+    scroller.querySelectorAll('.bv-stone').forEach(stoneEl => {
+      const isIt = stoneEl.dataset.versionKey === key;
+      stoneEl.setAttribute('aria-pressed', isIt ? 'true' : 'false');
+      if (isIt) {
+        pressed = stoneEl;
+      }
+    });
+    return pressed;
+  };
+  const select = (key, { scroll = true } = {}) => {
     if (!keys.has(key)) {
       return;
     }
     host.dataset.selectedVersion = key;
-    scroller.querySelectorAll('.bv-stone').forEach(stoneEl => {
-      stoneEl.setAttribute('aria-pressed', stoneEl.dataset.versionKey === key ? 'true' : 'false');
-    });
-    centerStone(scroller, button);
+    const stoneEl = pressStone(stoneKeyOf(key));
+    if (scroll && stoneEl) {
+      centerStone(scroller, stoneEl);
+    }
     paintSelected();
+  };
+  riverEl.addEventListener('click', (event) => {
+    const button = event.target.closest('.bv-stone[data-version-key]');
+    if (button && riverEl.contains(button)) {
+      select(button.dataset.versionKey);
+    }
+  });
+  panelHost.addEventListener('click', (event) => {
+    const button = event.target.closest('.bv-chip[data-version-key]');
+    if (button && panelHost.contains(button)) {
+      select(button.dataset.versionKey, { scroll: false });
+    }
   });
 
   paintSelected();
   // Position the river before this task yields, so the first frame already shows the
   // selected stone in place. Only when the host has no layout yet (hidden ancestor)
   // wait for the next frame; still without animation.
-  const selectedStone = [...scroller.querySelectorAll('.bv-stone')].find(s => s.dataset.versionKey === selectedKey);
+  const selectedStone = [...scroller.querySelectorAll('.bv-stone')].find(s => s.dataset.versionKey === stoneKeyOf(selectedKey));
   if (selectedStone) {
     if (scroller.clientWidth > 0 || typeof requestAnimationFrame !== 'function') {
       centerStone(scroller, selectedStone, { smooth: false });

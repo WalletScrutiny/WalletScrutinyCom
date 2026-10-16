@@ -6,6 +6,8 @@ import {
   tally,
   compareVersionNames,
   buildVersionTimeline,
+  foldPrereleases,
+  everyVersion,
   defaultVersionKey,
   versionKeyOfVerification,
   headlineFor,
@@ -102,6 +104,31 @@ describe('buildVersionTimeline', () => {
       row({ version: '13.2.3', sha256: 'd'.repeat(64) }),
     ]);
     assert.deepEqual(timeline.map(v => [v.name, v.prerelease]), [['2.0.0-BETA', true], ['13.2.3-alpha1', true], ['13.2.3-rc1', true], ['13.2.3', false]]);
+  });
+
+  test('splits a pre-release name into base and suffix', () => {
+    const timeline = buildVersionTimeline([
+      row({ version: '13.2.3-rc1' }),
+      row({ version: '2.0.0beta2', sha256: HASH_B }),
+      row({ version: '13.2.3', sha256: HASH_C }),
+    ]);
+    assert.deepEqual(timeline.map(v => [v.base, v.suffix]), [['2.0.0', 'beta2'], ['13.2.3', 'rc1'], ['13.2.3', '']]);
+  });
+
+  test('folds pre-releases under their release, keeping orphans on top', () => {
+    const timeline = buildVersionTimeline([
+      row({ version: '13.2.3-alpha1' }),
+      row({ version: '13.2.3-rc1', sha256: HASH_B }),
+      row({ version: '13.2.3', sha256: HASH_C }),
+      row({ version: '13.3.0-rc1', sha256: 'd'.repeat(64) }),
+    ]);
+    const folded = foldPrereleases(timeline);
+    assert.deepEqual(folded.map(v => v.name), ['13.2.3', '13.3.0-rc1']);
+    assert.deepEqual(folded[0].prereleases.map(v => v.name), ['13.2.3-alpha1', '13.2.3-rc1']);
+    assert.equal(folded[0].prereleases[0].parentKey, '13.2.3');
+    assert.equal(folded[1].parentKey, null);
+    assert.deepEqual(everyVersion(folded).map(v => v.name), ['13.2.3', '13.2.3-alpha1', '13.2.3-rc1', '13.3.0-rc1']);
+    assert.equal(defaultVersionKey(folded), '13.3.0-rc1');
   });
 
   test('flags a published warning', () => {
