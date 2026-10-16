@@ -37,6 +37,14 @@ const countBy = (rows, key, keys) => {
   return out;
 };
 
+// A stored row's scope; rows written before the column existed fall back to the dev flag.
+function scopeOfRow(row) {
+  if (row.scope) return row.scope;
+  if (row.dev === 1) return 'build';
+  if (row.dev === 0) return 'app';
+  return 'unknown';
+}
+
 // Summary of one release's stored rows: counts only, what the index and the
 // wallet page list show before anything is expanded.
 export function summarizeRelease(db, appId, ref) {
@@ -48,6 +56,8 @@ export function summarizeRelease(db, appId, ref) {
       direct: deps.filter(d => d.direct === 1).length,
       dev: deps.filter(d => d.dev === 1).length,
       devUnknown: deps.filter(d => d.dev === null).length,
+      // where the packages end up, from the lockfile graph: app / build / tests / unknown
+      byScope: Object.fromEntries(['app', 'build', 'tests', 'unknown'].map(s => [s, deps.filter(d => scopeOfRow(d) === s).length])),
       byEcosystem: Object.fromEntries([...new Set(deps.map(d => d.ecosystem))].sort().map(e => [e, deps.filter(d => d.ecosystem === e).length])),
       tiers: countBy(deps, 'tier', TIERS),
       lockfiles: [...new Set(deps.map(d => d.lockfile))].sort(),
@@ -58,6 +68,7 @@ export function summarizeRelease(db, appId, ref) {
       packages: new Set(vulns.map(v => `${v.ecosystem}:${v.name}@${v.dep_version}`)).size,
       direct: vulns.filter(v => v.direct === 1).length,
       shipped: vulns.filter(v => v.dev === 0).length,
+      byScope: Object.fromEntries(['app', 'build', 'tests', 'unknown'].map(s => [s, vulns.filter(v => scopeOfRow(v) === s).length])),
     },
   };
 }
@@ -100,6 +111,7 @@ export function buildApp(db, appId, aliases = []) {
       id: v.vuln_id, severity: v.severity, aliases: v.aliases ? v.aliases.split(' ') : [], fixed: v.fixed ? v.fixed.split(' ') : [],
       summary: v.summary, ecosystem: v.ecosystem, package: v.name, version: v.dep_version,
       direct: v.direct === null ? null : v.direct === 1, dev: v.dev === null ? null : v.dev === 1,
+      scope: scopeOfRow(v) === 'unknown' ? null : scopeOfRow(v),
     }));
     if (previous) {
       const d = diffDependencies(db, appId, previous.ref, r.ref);
@@ -207,6 +219,7 @@ export function exportAll(db, outDir, { generatedAt = new Date().toISOString(), 
         schema: SCHEMA, appId, ref: r.ref, dependencies: getDependencies(db, appId, r.ref).map(d => ({
           ecosystem: d.ecosystem, name: d.name, version: d.dep_version, lockfile: d.lockfile, tier: d.tier,
           direct: d.direct === null ? null : d.direct === 1, dev: d.dev === null ? null : d.dev === 1,
+          scope: scopeOfRow(d) === 'unknown' ? null : scopeOfRow(d),
           resolved: d.resolved || undefined, integrity: d.integrity || undefined,
           products: counts.byName.get(`${d.ecosystem}:${d.name}`) || 1,
           productsSameVersion: counts.byVersion.get(`${d.ecosystem}:${d.name}@${d.dep_version}`) || 1,

@@ -6,7 +6,7 @@
 
 import { el } from './html-utils.mjs';
 import {
-  panelModel, shippedLabel, safeName, csvOf, SEVERITY_ORDER, SEVERITY_LABEL,
+  panelModel, whereOf, whereLabel, safeName, csvOf, SEVERITY_ORDER, SEVERITY_LABEL,
 } from './dependencies-panel-model.mjs';
 
 // Where the export is served from. The transport (proxy on walletscrutiny.com,
@@ -53,24 +53,27 @@ function severityLine(bySeverity) {
   return parts.length ? parts.join(' · ') : null;
 }
 
-function advisoryRow(a) {
+// The ecosystem only appears when the release mixes several (npm next to
+// gradle next to pip); a wallet with one ecosystem would repeat it on every row.
+function advisoryRow(a, { mixedEcosystems = false } = {}) {
+  const where = whereOf(a);
   return el('tr', {},
-    el('td', { className: 'dp-td-package' }, a.package),
+    el('td', { className: 'dp-td-package' }, a.package, mixedEcosystems && a.ecosystem ? el('span', { className: 'dp-eco' }, a.ecosystem) : null),
     el('td', {}, a.version),
-    el('td', {}, a.ecosystem),
     el('td', {}, el('a', { href: `${OSV_URL}${encodeURIComponent(a.id)}`, target: '_blank', rel: 'noopener noreferrer', title: a.summary || '' }, a.id)),
     el('td', {}, severityPill(a.severity)),
-    el('td', {}, el('span', { className: `dp-ship dp-ship--${shippedLabel(a.dev).toLowerCase().replace(' ', '-')}` }, shippedLabel(a.dev))),
+    el('td', {}, el('span', { className: `dp-where dp-where--${where}` }, whereLabel(a))),
   );
 }
 
 function advisoryTable(model) {
   if (!model.advisories.length) return null;
   const rest = model.advisories.slice(model.worst.length);
-  const body = el('tbody', {}, model.worst.map(advisoryRow));
+  const rowOptions = { mixedEcosystems: model.ecosystems.length > 1 };
+  const body = el('tbody', {}, model.worst.map(a => advisoryRow(a, rowOptions)));
   const table = el('table', { className: 'dp-table' },
     el('thead', {}, el('tr', {},
-      ['Package', 'Version', 'Ecosystem', 'Advisory', 'Severity', 'In the app?'].map(h => el('th', {}, h)),
+      ['Package', 'Version', 'Advisory', 'Severity', 'Where?'].map(h => el('th', {}, h)),
     )),
     body,
   );
@@ -78,7 +81,7 @@ function advisoryTable(model) {
   if (rest.length) {
     const more = el('button', { type: 'button', className: 'btn-small dp-more' }, `Show all ${model.advisories.length} advisories`);
     more.addEventListener('click', () => {
-      for (const a of rest) body.appendChild(advisoryRow(a));
+      for (const a of rest) body.appendChild(advisoryRow(a, rowOptions));
       more.remove();
     });
     wrap.appendChild(more);
@@ -119,7 +122,14 @@ function howToRead(model) {
   parts.push('"Could not be checked" means the package has no exact registry version to look up');
   if (model.uncheckedBreakdown.length) parts.push(` (${model.uncheckedBreakdown.map(u => `${u.count} ${u.label}`).join(', ')})`);
   parts.push(', so it is not the same as "no problems". Results are a snapshot from the check date; new advisories may appear later. ');
-  if (model.devUnknown) parts.push(`"Unknown" in the last column means the lockfile does not say whether the package ships in the app or is only used to build it (${model.devUnknown} packages). `);
+  if (model.byScope) {
+    const b = model.byScope;
+    parts.push(`"Where?" says where a package ends up: ${b.app} in the app, ${b.build} in the build tooling, ${b.tests} only in tests`);
+    parts.push(b.unknown ? `, and ${b.unknown} the files do not say ("?"). ` : '. ');
+    parts.push('A build or test dependency can still hurt the product (an install script runs on the developer\'s machine), so every advisory needs its own look. ');
+  } else if (model.whereUnknown) {
+    parts.push(`"?" in the last column means the files do not say whether the package ends up in the app, the build tooling or the tests (${model.whereUnknown} packages). `);
+  }
   if (model.lockfiles.length) {
     parts.push('Files read: ');
     model.lockfiles.forEach((l, i) => { if (i) parts.push(', '); parts.push(el('code', {}, l)); });

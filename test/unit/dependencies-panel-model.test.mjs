@@ -2,7 +2,7 @@ import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
 import {
-  panelModel, tagMatchesVersion, versionCore, shippedLabel, sortAdvisories, uncheckedCount, csvOf, WORST_ROWS,
+  panelModel, tagMatchesVersion, versionCore, whereLabel, whereOf, sortAdvisories, uncheckedCount, csvOf, WORST_ROWS,
 } from '../../src/dependencies-panel-model.mjs';
 
 const advisory = (id, severity, extra = {}) => ({ id, severity, aliases: [], fixed: [], summary: '', ecosystem: 'npm', package: 'pkg', version: '1.0.0', direct: true, dev: false, ...extra });
@@ -16,7 +16,7 @@ const app = {
       kind: 'release', ref: 'v1.4.0', commit: 'a1b2c3d4e5f6', analysedAt: '2026-10-01 00:00:00', status: 'ok',
       lockfiles: ['package-lock.json', 'android/gradle.lockfile'],
       osv: { checked: 398, skipped: { floating: 12, 'git-or-path': 2 } },
-      dependencies: { total: 412, direct: 40, dev: 100, devUnknown: 0, tiers: { 'hash-pinned': 400, floating: 12 }, lockfiles: ['package-lock.json'] },
+      dependencies: { total: 412, direct: 40, dev: 100, devUnknown: 0, byScope: { app: 300, build: 90, tests: 10, unknown: 12 }, byEcosystem: { npm: 400, Maven: 12 }, tiers: { 'hash-pinned': 400, floating: 12 }, lockfiles: ['package-lock.json'] },
       vulnerabilities: { total: 3, bySeverity: { malicious: 1, critical: 0, high: 1, moderate: 1, low: 0, unknown: 0 }, packages: 3 },
       advisories: [
         advisory('GHSA-mod', 'moderate', { package: 'glob-matcher', dev: true }),
@@ -41,10 +41,13 @@ describe('dependencies panel model', () => {
     assert.equal(tagMatchesVersion('v1.4.0', ''), false);
   });
 
-  test('shippedLabel has three answers', () => {
-    assert.equal(shippedLabel(false), 'Shipped');
-    assert.equal(shippedLabel(true), 'Build only');
-    assert.equal(shippedLabel(null), 'Unknown');
+  test('whereLabel: scope first, then the dev flag of older exports, then "?"', () => {
+    assert.equal(whereLabel({ scope: 'tests', dev: true }), 'tests');
+    assert.equal(whereLabel({ scope: 'app' }), 'app');
+    assert.equal(whereLabel({ dev: false }), 'app');
+    assert.equal(whereLabel({ dev: true }), 'build');
+    assert.equal(whereLabel({ dev: null }), '?');
+    assert.equal(whereOf({ scope: 'bogus', dev: null }), 'unknown');
   });
 
   test('panelModel: tiles, worst-first rows, unchecked total, version note, diff, aliases', () => {
@@ -58,6 +61,9 @@ describe('dependencies panel model', () => {
     assert.equal(m.vulnerabilities, 2);
     assert.equal(m.malware, 1);
     assert.deepEqual(m.worst.map(a => a.id), ['MAL-2026-1', 'GHSA-high', 'GHSA-mod']);
+    assert.deepEqual(m.ecosystems, ['npm', 'Maven']);
+    assert.equal(m.whereUnknown, 12);
+    assert.equal(m.byScope.tests, 10);
     assert.deepEqual(m.lockfiles, ['package-lock.json', 'android/gradle.lockfile']);
     assert.equal(m.diff.ref, 'v1.3.0');
     assert.deepEqual(m.sameRepositoryAs, ['app.ios']);
@@ -98,11 +104,13 @@ describe('dependencies panel model', () => {
     const deps = [
       { ecosystem: 'npm', name: 'pkg', version: '1.0.0', lockfile: 'package-lock.json', tier: 'hash-pinned', direct: true, dev: false },
       { ecosystem: 'npm', name: 'quiet, inc', version: '2.0.0', lockfile: 'package-lock.json', tier: 'floating', direct: null, dev: null },
+      { ecosystem: 'npm', name: 'jest', version: '29.0.0', lockfile: 'yarn.lock', tier: 'hash-pinned', direct: true, dev: true, scope: 'tests' },
     ];
     const csv = csvOf(deps, [advisory('GHSA-1', 'high'), advisory('GHSA-2', 'low')]);
     const lines = csv.trim().split('\n');
-    assert.equal(lines[0], 'ecosystem,package,version,lockfile,direct,in_the_app,pinning,advisories,worst_severity');
-    assert.equal(lines[1], 'npm,pkg,1.0.0,package-lock.json,yes,shipped,hash-pinned,GHSA-1 GHSA-2,high');
+    assert.equal(lines[0], 'ecosystem,package,version,lockfile,direct,where,pinning,advisories,worst_severity');
+    assert.equal(lines[1], 'npm,pkg,1.0.0,package-lock.json,yes,app,hash-pinned,GHSA-1 GHSA-2,high');
     assert.equal(lines[2], 'npm,"quiet, inc",2.0.0,package-lock.json,,unknown,floating,,');
+    assert.equal(lines[3], 'npm,jest,29.0.0,yarn.lock,yes,tests,hash-pinned,,');
   });
 });

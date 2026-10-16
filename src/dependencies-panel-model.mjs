@@ -25,12 +25,19 @@ export const SKIP_REASON_LABEL = {
 
 export const WORST_ROWS = 10;
 
-// "Shipped", "Build only" or "Unknown": lockfiles only sometimes record what
-// is reachable from the app's own dependencies rather than its tooling.
-export function shippedLabel(dev) {
-  if (dev === true) return 'Build only';
-  if (dev === false) return 'Shipped';
-  return 'Unknown';
+// Where a package ends up: "app" (reachable from the project's own
+// dependencies, so bundled), "build" (its development tooling), "tests" (test
+// frameworks and what only they pull in), or "?" when the files do not say.
+// Rows exported before `scope` existed only carry the dev flag.
+export const WHERE_LABELS = { app: 'app', build: 'build', tests: 'tests' };
+export function whereOf(row) {
+  if (row?.scope && WHERE_LABELS[row.scope]) return row.scope;
+  if (row?.dev === true) return 'build';
+  if (row?.dev === false) return 'app';
+  return 'unknown';
+}
+export function whereLabel(row) {
+  return WHERE_LABELS[whereOf(row)] || '?';
 }
 
 // The digits of a version: "android-v2.8.4" -> "2.8.4", "v1.4.0-beta1" -> "1.4.0-beta1".
@@ -99,6 +106,9 @@ export function panelModel(app, { storeVersion = '', release = null } = {}) {
     packages: current.dependencies?.total ?? 0,
     direct: current.dependencies?.direct ?? 0,
     devUnknown: current.dependencies?.devUnknown ?? 0,
+    byScope: current.dependencies?.byScope || null,
+    whereUnknown: current.dependencies?.byScope?.unknown ?? current.dependencies?.devUnknown ?? 0,
+    ecosystems: Object.keys(current.dependencies?.byEcosystem || {}),
     tiers: current.dependencies?.tiers || {},
     lockfiles: current.lockfiles?.length ? current.lockfiles : (current.dependencies?.lockfiles || []),
     unchecked,
@@ -134,7 +144,7 @@ export function csvOf(dependencies = [], advisories = []) {
     if (!byPackage.has(key)) byPackage.set(key, []);
     byPackage.get(key).push(a);
   }
-  const header = ['ecosystem', 'package', 'version', 'lockfile', 'direct', 'in_the_app', 'pinning', 'advisories', 'worst_severity'];
+  const header = ['ecosystem', 'package', 'version', 'lockfile', 'direct', 'where', 'pinning', 'advisories', 'worst_severity'];
   const lines = [header.join(',')];
   for (const d of dependencies) {
     const hits = byPackage.get(`${d.ecosystem}:${d.name}@${d.version}`) || [];
@@ -142,7 +152,7 @@ export function csvOf(dependencies = [], advisories = []) {
     lines.push([
       d.ecosystem, d.name, d.version, d.lockfile,
       d.direct === null ? '' : (d.direct ? 'yes' : 'no'),
-      shippedLabel(d.dev).toLowerCase(),
+      whereOf(d),
       d.tier,
       hits.map(h => h.id).join(' '),
       worst ? worst.severity : '',

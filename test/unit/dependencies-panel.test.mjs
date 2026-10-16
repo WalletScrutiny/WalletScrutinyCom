@@ -14,9 +14,9 @@ const APP = {
     kind: 'release', ref: 'v1.4.0', commit: 'a1b2c3d4', analysedAt: '2026-10-01 00:00:00', status: 'ok',
     lockfiles: ['package-lock.json'],
     osv: { checked: 398, skipped: { floating: 14 } },
-    dependencies: { total: 412, direct: 40, dev: 100, devUnknown: 0, tiers: {}, lockfiles: ['package-lock.json'] },
-    vulnerabilities: { total: 12, bySeverity: { malicious: 0, critical: 1, high: 1, moderate: 10, low: 0, unknown: 0 }, packages: 12 },
-    advisories: [advisory('GHSA-crit', 'critical'), advisory('GHSA-high', 'high', { dev: true }), ...Array.from({ length: 10 }, (_, i) => advisory(`GHSA-mod-${i}`, 'moderate', { dev: null }))],
+    dependencies: { total: 412, direct: 40, dev: 100, devUnknown: 0, byScope: { app: 300, build: 90, tests: 10, unknown: 12 }, byEcosystem: { npm: 412 }, tiers: {}, lockfiles: ['package-lock.json'] },
+    vulnerabilities: { total: 13, bySeverity: { malicious: 0, critical: 1, high: 2, moderate: 10, low: 0, unknown: 0 }, packages: 13 },
+    advisories: [advisory('GHSA-crit', 'critical'), advisory('GHSA-high', 'high', { dev: true }), advisory('GHSA-test', 'high', { dev: true, scope: 'tests' }), ...Array.from({ length: 10 }, (_, i) => advisory(`GHSA-mod-${i}`, 'moderate', { dev: null }))],
     diffFrom: { ref: 'v1.3.0', added: 12, removed: 3, changed: 40, integrityChangedAtSameVersion: ['npm:left-pad'] },
   }],
   defaultBranch: null,
@@ -60,18 +60,21 @@ describe('dependencies panel', () => {
     assert.equal(host.hidden, false);
     assert.equal(step.hidden, false);
     const values = [...host.querySelectorAll('.dp-tile__value')].map(e => e.textContent);
-    assert.deepEqual(values, ['412', '14', '12', '0']);
-    assert.equal(host.querySelector('.dp-tile__sub').textContent, '1 critical · 1 high · 10 medium');
+    assert.deepEqual(values, ['412', '14', '13', '0']);
+    assert.equal(host.querySelector('.dp-tile__sub').textContent, '1 critical · 2 high · 10 medium');
     assert.equal(host.querySelectorAll('tbody tr').length, 10);
     assert.equal(host.querySelector('tbody tr td a').textContent, 'GHSA-crit');
     assert.equal(host.querySelector('tbody tr td a').getAttribute('href'), 'https://osv.dev/vulnerability/GHSA-crit');
-    assert.equal(host.querySelector('.dp-more').textContent, 'Show all 12 advisories');
+    assert.equal(host.querySelector('.dp-more').textContent, 'Show all 13 advisories');
+    assert.deepEqual([...host.querySelectorAll('thead th')].map(e => e.textContent), ['Package', 'Version', 'Advisory', 'Severity', 'Where?']);
+    assert.equal(host.querySelector('.dp-eco'), null, 'one ecosystem: no tag on the package');
+    assert.match(host.querySelector('.dp-note').textContent, /300 in the app, 90 in the build tooling, 10 only in tests, and 12 the files do not say/);
     const notices = [...host.querySelectorAll('.dp-notices li')].map(e => e.textContent);
     assert.match(notices[0], /store version 1\.4\.2 has not been checked yet/);
     assert.match(notices[1], /Same source repository as app\.ios/);
     assert.match(host.querySelector('.dp-note').textContent, /Since v1\.3\.0: 12 packages added, 3 removed, 40 updated, and 1 changed content at the same version \(npm:left-pad\)/);
     assert.match(host.querySelector('.dp-headline').textContent, /Checked release v1\.4\.0 \(source tag, commit a1b2c3d\) · Store version 1\.4\.2 · Checked on 2026-10-01/);
-    assert.deepEqual([...host.querySelectorAll('.dp-ship')].slice(0, 3).map(e => e.textContent), ['Shipped', 'Build only', 'Unknown']);
+    assert.deepEqual([...host.querySelectorAll('.dp-where')].slice(0, 4).map(e => e.textContent), ['app', 'build', 'tests', '?']);
 
     const empty = document.createElement('div');
     empty.hidden = true;
@@ -92,6 +95,12 @@ describe('dependencies panel', () => {
     }
     assert.equal(host.hidden, true);
     assert.equal(host.childElementCount, 0);
+  });
+
+  test('a release mixing ecosystems tags each package with its ecosystem', () => {
+    const mixed = { ...APP, releases: [{ ...APP.releases[0], dependencies: { ...APP.releases[0].dependencies, byEcosystem: { npm: 400, gradle: 12 } } }] };
+    const node = panelElement(panelModel(mixed), { appId: 'app.android', base: '/x', fetchImpl: async () => null });
+    assert.equal(node.querySelector('tbody tr .dp-eco').textContent, 'npm');
   });
 
   test('panelElement without advisories has no table and green tiles', () => {

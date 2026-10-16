@@ -16,7 +16,7 @@ function seeded() {
     { appId: 'app.android', platform: 'android', repository: 'https://github.com/org/app' },
     { appId: 'app.ios', platform: 'iphone', repository: 'https://github.com/org/app' },
   ]);
-  saveDependencies(db, 'app.android', 'v1.0.0', [{ ecosystem: 'npm', entries: [entry('a', '1.0.0'), entry('b', '2.0.0', { direct: false, dev: true })] }]);
+  saveDependencies(db, 'app.android', 'v1.0.0', [{ ecosystem: 'npm', entries: [entry('a', '1.0.0'), entry('b', '2.0.0', { direct: false, dev: true, scope: 'tests' })] }]);
   saveDependencies(db, 'app.android', 'v1.1.0', [{ ecosystem: 'npm', entries: [entry('a', '1.0.1'), entry('c', '3.0.0', { tier: 'floating', dev: null })] }]);
   saveDependencies(db, 'app.other', 'v9', [{ ecosystem: 'npm', entries: [entry('a', '1.0.1'), entry('z', '1.0.0')] }]);
   saveVulnerabilities(db, 'app.android', 'v1.1.0', { findings: [
@@ -40,6 +40,10 @@ test('buildApp: releases newest first with summary, advisories, diff and provena
   assert.equal(latest.dependencies.total, 2);
   assert.equal(latest.dependencies.tiers.floating, 1);
   assert.equal(latest.dependencies.devUnknown, 1);
+  assert.deepEqual(latest.dependencies.byScope, { app: 1, build: 0, tests: 0, unknown: 1 });
+  assert.deepEqual(previous.dependencies.byScope, { app: 1, build: 0, tests: 1, unknown: 0 }, 'scope column first, dev flag for rows without one');
+  assert.equal(latest.advisories[0].scope, 'app');
+  assert.deepEqual(latest.vulnerabilities.byScope, { app: 1, build: 0, tests: 0, unknown: 0 });
   assert.deepEqual(latest.vulnerabilities.bySeverity, { malicious: 0, critical: 0, high: 1, moderate: 0, low: 0, unknown: 0 });
   assert.equal(latest.advisories[0].id, 'GHSA-aaaa');
   assert.deepEqual(latest.advisories[0].fixed, ['1.0.2']);
@@ -88,6 +92,8 @@ test('exportAll writes index, app files and dependency lists, atomically replaci
   const deps = JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.android', 'v1.1.0', 'dependencies.json'), 'utf8'));
   assert.deepEqual(deps.dependencies.map(d => `${d.name}@${d.version}:${d.tier}`), ['a@1.0.1:hash-pinned', 'c@3.0.0:floating']);
   assert.equal(deps.dependencies[1].dev, null);
+  assert.equal(deps.dependencies[1].scope, null);
+  assert.equal(deps.dependencies[0].scope, 'app');
   assert.deepEqual(deps.dependencies.map(d => [d.products, d.productsSameVersion]), [[2, 2], [1, 1]]);
   const packages = JSON.parse(fs.readFileSync(path.join(dir, 'packages', 'index.json'), 'utf8'));
   assert.deepEqual(packages.packages, [{ ecosystem: 'npm', name: 'a', products: 2, versions: { '1.0.0': 1, '1.0.1': 2 } }]);

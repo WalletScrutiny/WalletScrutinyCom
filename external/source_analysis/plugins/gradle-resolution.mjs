@@ -110,6 +110,16 @@ export function isShippedConfiguration(name) {
   return /runtimeclasspath$/i.test(name) && !/test|debug|benchmark|^buildscript:/i.test(name);
 }
 
+// 'app' when any configuration ships, 'tests' when every configuration the
+// module came from is a test one, 'build' otherwise (plugins, annotation
+// processors, compile-only, debug variants).
+export function scopeOfConfigurations(configurations) {
+  const names = [...configurations];
+  if (names.some(isShippedConfiguration)) return 'app';
+  if (names.length && names.every(n => /test/i.test(n))) return 'tests';
+  return 'build';
+}
+
 /**
  * The checkout is shallow and without submodules, but a build that includes a
  * submodule's projects (Mycelium's fiosdk_kotlin) fails to configure without
@@ -180,6 +190,7 @@ export function mergeResolved(analysis, modules, lockfile) {
     if (hashed) {
       hashed.direct = hashed.direct || m.direct;
       hashed.dev = hashed.dev === false || m.shipped ? false : true;
+      hashed.scope = hashed.dev === false ? 'app' : scopeOfConfigurations(m.configurations);
       continue;
     }
     const decl = declared.get(m.name) || [];
@@ -192,6 +203,7 @@ export function mergeResolved(analysis, modules, lockfile) {
       integrity: '',
       direct: m.direct || decl.length > 0,
       dev: !m.shipped,
+      scope: scopeOfConfigurations(m.configurations),
       // what the build files ask for is still the pinning story: a floating
       // declaration stays floating even though gradle picked a version today
       tier: decl.some(d => d.tier === 'floating') ? 'floating' : 'version-pinned',
