@@ -39,8 +39,8 @@ describe('dependency triage statements', () => {
   });
 
   test('statementFromEvent reads a signed event back and drops malformed ones', () => {
-    const s = stmt({ vulns: ['GHSA-1', 'CVE-2020-1'], pkg: 'npm:blib', via: 'npm:alib', status: 'affected', versions: '< 2', content: 'why' });
-    assert.deepEqual({ ...s, id: undefined }, { id: undefined, pubkey: pk, created_at: 1_700_000_000, d: 'GHSA-1|via:npm:alib', vulns: ['GHSA-1', 'CVE-2020-1'], package: 'npm:blib', via: 'npm:alib', app: null, status: 'affected', justification: null, versions: '< 2', content: 'why' });
+    const s = stmt({ vulns: ['GHSA-1', 'CVE-2020-1'], pkg: 'npm:blib', via: 'npm:alib', status: 'affected', versions: '< 2', evidence: null, content: 'why' });
+    assert.deepEqual({ ...s, id: undefined }, { id: undefined, pubkey: pk, created_at: 1_700_000_000, d: 'GHSA-1|via:npm:alib', vulns: ['GHSA-1', 'CVE-2020-1'], package: 'npm:blib', via: 'npm:alib', app: null, status: 'affected', justification: null, versions: '< 2', evidence: null, content: 'why' });
     const e = signed({ vulns: ['GHSA-1'], pkg: 'npm:blib', status: 'fixed' });
     assert.equal(statementFromEvent({ ...e, kind: 1 }), null, 'wrong kind');
     assert.equal(statementFromEvent({ ...e, tags: e.tags.filter(t => t[0] !== 'vuln') }), null, 'no advisory');
