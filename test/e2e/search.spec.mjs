@@ -79,6 +79,30 @@ test.describe('Navbar search', () => {
     });
   }
 
+  test('a broad term renders a first batch and more rows as the list scrolls', async ({ page }, testInfo) => {
+    const assertNoConsoleErrors = attachConsoleGuards(testInfo, page);
+
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto('/methodology/');
+    await page.waitForFunction(() => window.wallets && window.wallets.length > 1000);
+
+    await page.locator('.mobile-search-shortcut').click();
+    const searchbar = page.locator('.searchbar');
+    await searchbar.fill('bitco');
+    await waitForSearchControlsIdle(page);
+
+    const rows = page.locator('.results-target li.actionable');
+    const firstBatch = await rows.count();
+    expect(firstBatch).toBeGreaterThan(0);
+    expect(firstBatch).toBeLessThan(100);
+    await expect(page.locator('.results-target .search-results-more')).toHaveCount(1);
+
+    await page.locator('.results-target').evaluate((list) => { list.scrollTop = list.scrollHeight; });
+    await expect.poll(() => rows.count()).toBeGreaterThan(firstBatch);
+
+    assertNoConsoleErrors();
+  });
+
   test('on desktop the homepage masthead has no search box', async ({ page }, testInfo) => {
     const assertNoConsoleErrors = attachConsoleGuards(testInfo, page);
 

@@ -3,15 +3,49 @@ const platformOrder = ['hardware', 'desktop', 'android', 'iphone', 'mobile', 'be
 const metaOrder = ['ok', 'discontinued', 'deprecated', 'stale', 'obsolete', 'removed', 'defunct', 'fewusers'];
 
 // Core search functions
+
+// A wallet is searched as the upper-cased JSON of all its fields. Building
+// that string for every wallet on every keystroke was most of the search
+// cost, so it is built once per wallet object and kept here. matchRank and
+// matchData are search bookkeeping written onto the wallet, not wallet data.
+let walletSearchTextCache = new WeakMap();
+
+function isSearchBookkeepingKey (key) {
+  return key === 'matchRank' || key === 'matchData';
+}
+
+function getWalletSearchText (wallet) {
+  let text = walletSearchTextCache.get(wallet);
+  if (text === undefined) {
+    text = `${wallet.title}`;
+    for (const [key, value] of Object.entries(wallet)) {
+      if (isSearchBookkeepingKey(key)) continue;
+      text += `${wallet.altTitle}${JSON.stringify(value, (k, v) => (isSearchBookkeepingKey(k) ? undefined : v))}${key}`;
+    }
+    text = String(text).toUpperCase();
+    walletSearchTextCache.set(wallet, text);
+  }
+  return text;
+}
+
+// Fill the cache in idle time so the first keystroke does not pay for all
+// wallets at once.
+function warmWalletSearchTextCache (wallets) {
+  const schedule = window.requestIdleCallback ? (fn) => window.requestIdleCallback(fn) : (fn) => setTimeout(fn, 50);
+  const chunk = 300;
+  let i = 0;
+  const step = () => {
+    const end = Math.min(i + chunk, wallets.length);
+    for (; i < end; i++) getWalletSearchText(wallets[i]);
+    if (i < wallets.length) schedule(step);
+  };
+  schedule(step);
+}
+
 function searchByWords(query, wallet) {
   const searchTermWords = query.length > 0 ? query.split(" ") : false;
   const walletTitleUpper = String(wallet.title || '').toUpperCase();
-  let walletAsStr = '';
-  for (const [key, value] of Object.entries(wallet)) {
-    walletAsStr += `${wallet.altTitle}${JSON.stringify(value)}${key}`;
-  }
-  walletAsStr = `${wallet.title}${walletAsStr}`;
-  walletAsStr = String(walletAsStr).toUpperCase();
+  const walletAsStr = getWalletSearchText(wallet);
 
   let result = false;
   for (let i = 0; i < searchTermWords.length; i++) {
@@ -31,13 +65,13 @@ function searchByWords(query, wallet) {
       wallet.matchData = "word4 " + word4;
       break;
     }
-    if (walletAsStr.indexOf(word3) >= 0) {
+    if (word3 && walletAsStr.indexOf(word3) >= 0) {
       result = wallet;
       wallet.matchRank = walletAsStr.indexOf(word3);
       wallet.matchData = "word3 " + word3;
       break;
     }
-    if (walletAsStr.indexOf(word2) >= 0) {
+    if (word2 && walletAsStr.indexOf(word2) >= 0) {
       result = wallet;
       wallet.matchRank = walletAsStr.indexOf(word2);
       wallet.matchData = "word2 " + word2;
@@ -208,13 +242,21 @@ function performSearch (wallets, query = false, platform = false) {
 // UI related functions
 function exitSearchUI () {
   const ui = document.querySelector('.results-target');
+  stopSearchResultsBatches();
   ui.innerHTML = '';
   ui.classList.remove('visible');
   document.body.classList.remove('search-ui-active');
   document.querySelector('.wallet-search').classList.remove('active');
 }
 
-function searchTrigger () {
+// Searching on every keystroke made phones stutter: wait for a short pause
+// in typing, and only ever render the newest term. Enter searches at once.
+const NAVBAR_SEARCH_DEBOUNCE_MS = 150;
+let navBarSearchTimer = null;
+
+function searchTrigger (immediate = false) {
+  clearTimeout(navBarSearchTimer);
+  navBarSearchTimer = null;
   if (window.searchTerm && window.searchTerm.length > 1) {
     document.querySelector('.wallet-search').classList.add('active');
     document.querySelector('.search-controls').classList.add('working');
@@ -227,12 +269,86 @@ function searchTrigger () {
     exitSearchUI();
   }
 
-  if (window.searchTerm) {
+  if (!window.searchTerm) return;
+  if (immediate) {
     doNavBarSearch(window.searchTerm);
+  } else {
+    navBarSearchTimer = setTimeout(() => doNavBarSearch(window.searchTerm), NAVBAR_SEARCH_DEBOUNCE_MS);
   }
 }
 
-async function doNavBarSearch (input) {
+// Result rows are appended in batches as the list is scrolled: a common term
+// like "bitco" matches a thousand wallets, and rendering them all at once
+// froze phones for seconds. The sentinel row at the end of the list requests
+// the next batch when it scrolls into view.
+const SEARCH_RESULTS_FIRST_BATCH = 12;
+const SEARCH_RESULTS_BATCH = 20;
+const SEARCH_RESULTS_EAGER_IMAGES = 6;
+let searchResultsObserver = null;
+
+function stopSearchResultsBatches () {
+  if (searchResultsObserver) {
+    searchResultsObserver.disconnect();
+    searchResultsObserver = null;
+  }
+}
+
+function makeSearchResultRowsHTML (wallets, from, to) {
+  let html = '';
+  for (let i = from; i < to; i++) {
+    const wallet = wallets[i];
+    const lazyLoad = i >= SEARCH_RESULTS_EAGER_IMAGES;
+    let compactedResults = makeCompactResultsHTML(wallet, lazyLoad);
+    let walletGroupClass = '';
+    if (wallet.versions?.length > 0) {
+      for (const version of wallet.versions) {
+        compactedResults += makeCompactResultsHTML(version, lazyLoad);
+      }
+      walletGroupClass = 'grouped';
+    }
+    html += `<li class="actionable"><div class="${walletGroupClass}">${compactedResults}</div></li>`;
+  }
+  return html;
+}
+
+function renderSearchResults (result, wallets) {
+  stopSearchResultsBatches();
+  let rendered = Math.min(SEARCH_RESULTS_FIRST_BATCH, wallets.length);
+  result.innerHTML = makeSearchResultRowsHTML(wallets, 0, rendered);
+  if (rendered >= wallets.length) return;
+
+  const sentinel = document.createElement('li');
+  sentinel.className = 'search-results-more';
+  sentinel.setAttribute('aria-hidden', 'true');
+  sentinel.style.height = '1px';
+  result.append(sentinel);
+
+  const appendBatch = () => {
+    const to = Math.min(rendered + SEARCH_RESULTS_BATCH, wallets.length);
+    sentinel.insertAdjacentHTML('beforebegin', makeSearchResultRowsHTML(wallets, rendered, to));
+    rendered = to;
+    if (rendered >= wallets.length) {
+      stopSearchResultsBatches();
+      sentinel.remove();
+    } else if (searchResultsObserver) {
+      // re-observing reports the current state, so a sentinel still in view
+      // (short rows on a tall screen) requests the next batch without a scroll
+      searchResultsObserver.unobserve(sentinel);
+      searchResultsObserver.observe(sentinel);
+    }
+  };
+
+  if (!('IntersectionObserver' in window)) {
+    while (rendered < wallets.length) appendBatch();
+    return;
+  }
+  searchResultsObserver = new IntersectionObserver((entries) => {
+    if (entries.some((entry) => entry.isIntersecting)) appendBatch();
+  }, { root: result, rootMargin: '200px 0px' });
+  searchResultsObserver.observe(sentinel);
+}
+
+function doNavBarSearch (input) {
   document.body.classList.add('search-ui-active');
   const result = document.querySelector('.results-target');
   result.classList.add('visible');
@@ -240,44 +356,15 @@ async function doNavBarSearch (input) {
 
   const minTermLength = 1;
   if (term.length > minTermLength) {
-    result.innerHTML = '';
+    const wallets = performSearch(versionTaggedWallets, term).filter((wallet) => wallet.title);
 
-    const wallets = performSearch(versionTaggedWallets, term);
-
-    if (!wallets || wallets.length === 0) {
+    if (wallets.length === 0) {
+      stopSearchResultsBatches();
       result.innerHTML = '<li onclick="event.stopPropagation();"><a style="font-size:.7rem;opacity:.7;text-style:italics;">No matches</a></li>';
-      document.querySelector('.search-controls').classList.remove('working');
+    } else {
+      renderSearchResults(result, wallets);
     }
-
-    const walletRows = [];
-    let walletIndex = 0;
-    const notLazyLoadFirstRows = 6;
-    for (const wallet of wallets) {
-      if (!wallet.title) continue;
-
-      const walletRow = document.createElement('li');
-      walletRow.classList.add('actionable');
-      let compactedResults = makeCompactResultsHTML(wallet, walletIndex > notLazyLoadFirstRows);
-      let walletGroupClass = '';
-      if (wallet.versions?.length > 0) {
-        for (let i = 0; i < wallet.versions.length; i++) {
-          compactedResults += makeCompactResultsHTML(wallet.versions[i], walletIndex > notLazyLoadFirstRows);
-        }
-        walletGroupClass = 'grouped';
-      }
-      walletRow.innerHTML = `<div class="${walletGroupClass}">${compactedResults}</div>`;
-      walletRows.push(walletRow);
-
-      walletIndex++;
-    }
-
-    if (walletRows.length > 0) {
-      result.append(...walletRows.slice(0, notLazyLoadFirstRows));
-      await new Promise(resolve => setTimeout(resolve, 50));
-      document.querySelector('.search-controls').classList.remove('working');
-      await new Promise(resolve => setTimeout(resolve, 50));
-      result.append(...walletRows.slice(notLazyLoadFirstRows));
-    }
+    document.querySelector('.search-controls').classList.remove('working');
 
   } else if (term.length !== 0) {
     var l = document.createElement('li');
@@ -722,6 +809,7 @@ const versionTaggedWallets = [];
 
 window.versionTag = () => {
   versionTaggedWallets.length = 0;
+  walletSearchTextCache = new WeakMap();
   const wsIdIndex = new Map();
   const seenAppIds = new Set();
   window.wallets.forEach(e => {
@@ -748,6 +836,7 @@ window.versionTag = () => {
       }
     }
   });
+  warmWalletSearchTextCache(versionTaggedWallets);
 };
 
 if (document.querySelector('.searchbar')) {
@@ -782,7 +871,7 @@ if (document.querySelector('.searchbar')) {
   document.querySelector('.searchbar').addEventListener('keyup', (e) => {
     if (e.key === 'Enter' || e.keyCode === 13) {
       window.searchTerm = document.querySelector('.searchbar').value;
-      searchTrigger();
+      searchTrigger(true);
     }
   });
   document.querySelector('.mobile-search-shortcut').addEventListener('click', () => {
