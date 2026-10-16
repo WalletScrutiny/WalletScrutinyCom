@@ -824,16 +824,6 @@ body.dark .verification-draft-badge {
   box-shadow: 0 1px 4px var(--shadow-1);
 }
 
-.assets-table-widget .btn-tiny.btn-success.btn_outline {
-  border-radius: 6px;
-  transition: background-color 0.15s ease, border-color 0.15s ease;
-}
-
-.assets-table-widget .btn-tiny.btn-success.btn_outline:hover {
-  background: var(--accent-50);
-  border-color: var(--accent);
-}
-
 @media screen and (min-width: 1200px) {
   .assets-table-widget .assets-table {
     font-size: 0.88em;
@@ -1218,44 +1208,6 @@ input, textarea, select {
   margin-top: 5px;
 }
 
-.static-info {
-  background: #f8f9fa;
-  padding: 15px;
-  border-radius: 4px;
-  margin-bottom: 20px;
-}
-.static-info .info-item {
-  margin-bottom: 10px;
-}
-.static-info .info-item:last-child {
-  margin-bottom: 0;
-}
-.static-info .info-item label {
-  font-weight: bold;
-  margin-right: 10px;
-}
-
-.static-info {
-  margin-bottom: 20px;
-}
-
-.info-row {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.info-label {
-  font-weight: bold;
-  margin-right: 10px;
-  min-width: 100px;
-}
-
-.info-value {
-  font-family: monospace;
-  word-break: break-all;
-}
-
 .error-message p {
   margin-bottom: 1rem;
 }
@@ -1293,11 +1245,6 @@ input, textarea, select {
   padding: 4px 8px;
 }
 
-.btn-tiny {
-  padding: 2px 4px;
-  font-size: $font-xxs;
-}
-
 .btn-info {
   background-color: #007bff;
 }
@@ -1324,11 +1271,6 @@ input, textarea, select {
   background-color: #337136;
   color: var(--text-color);
   text-decoration: none;
-}
-
-.btn_outline {
-  border-width: 1px;
-  background-color: transparent;
 }
 
 #attestationForm p {
@@ -1385,10 +1327,6 @@ input, textarea, select {
   margin-right: 15px;
   vertical-align: middle;
   cursor: pointer;
-}
-
-.button-closed-by-default {
-  display: none;
 }
 
 /* Issue Tracker Div */
