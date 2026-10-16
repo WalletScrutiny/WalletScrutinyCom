@@ -2180,6 +2180,53 @@ function compareVersions(a, b) {
   return 0;
 }
 
+// Events grouped by their `i` (appId) tag, in the same order as a walk over
+// `verifications.values()` then `assets.values()`. The search dropdown looks
+// up one app per rendered row and two per sort comparison; without the index
+// each lookup walked every event (thousands), which froze phones while
+// typing. Cached per allAssetInformation object: loader.js swaps in a new
+// object when fresh relay data replaces the cached copy. The map sizes are
+// part of the key in case entries are ever added in place.
+const assetInformationIndexCache = new WeakMap();
+
+function getAssetInformationIndex(info) {
+  const signature = `${info.verifications.size}/${info.assets ? info.assets.size : 0}`;
+  const cached = assetInformationIndexCache.get(info);
+  if (cached && cached.signature === signature) {
+    return cached;
+  }
+  const verificationsByAppId = new Map();
+  const assetsByAppId = new Map();
+  const add = (map, event) => {
+    const appId = getFirstTagValue(event, 'i');
+    let list = map.get(appId);
+    if (!list) {
+      list = [];
+      map.set(appId, list);
+    }
+    list.push(event);
+  };
+  for (const events of info.verifications.values()) {
+    for (const event of events) add(verificationsByAppId, event);
+  }
+  if (info.assets) {
+    for (const events of info.assets.values()) {
+      for (const event of events) add(assetsByAppId, event);
+    }
+  }
+  const index = {
+    signature,
+    verificationsByAppId,
+    assetsByAppId,
+    // memoised answers of the two lookups below; the sort comparator asks
+    // for the same apps thousands of times per search
+    lastStatusByAppIdPlatform: new Map(),
+    weightByAppId: new Map(),
+  };
+  assetInformationIndexCache.set(info, index);
+  return index;
+}
+
 function getMaxAssetVersion(getAllAssetInformationResult, appId = null, platform = null) {
   // Check if getAllAssetInformationResult.verifications is defined
   if (!getAllAssetInformationResult.verifications) {
@@ -2191,14 +2238,19 @@ function getMaxAssetVersion(getAllAssetInformationResult, appId = null, platform
   let verifiedVersion = null;
   let verifiedDate = null;
 
-  const allAssetArrays = [...getAllAssetInformationResult.verifications.values(), ...getAllAssetInformationResult.assets.values()];
+  let allAssetArrays;
+  if (appId) {
+    const index = getAssetInformationIndex(getAllAssetInformationResult);
+    allAssetArrays = [index.verificationsByAppId.get(appId) || [], index.assetsByAppId.get(appId) || []];
+  } else {
+    allAssetArrays = [...getAllAssetInformationResult.verifications.values(), ...getAllAssetInformationResult.assets.values()];
+  }
   for (const assetArray of allAssetArrays) {
     for (const asset of assetArray) {
       const version = getFirstTagValue(asset, 'version');
-      const appIdFromTag = getFirstTagValue(asset, 'i');
       const platformFromTag = getFirstTagValue(asset, 'platform');
       const platformMatches = !platform || isSamePlatform(platform, platformFromTag);
-      if (version && (!appId || appIdFromTag === appId) && platformMatches) {
+      if (version && platformMatches) {
         if (!maxVersion || compareVersions(version, maxVersion) > 0) {
           maxVersion = version;
           maxDate = formatDate(asset.created_at, true);
@@ -2235,20 +2287,28 @@ function isSamePlatform(platform1, platform2) {
   return false;
 }
 
-function getLastVerificationStatusForAppId(appId, platform) {
+function getLastVerificationStatusForAppId(appId, platform, info = window.allAssetInformation) {
+  const index = getAssetInformationIndex(info);
+  const memoKey = `${appId}\0${platform}`;
+  if (index.lastStatusByAppIdPlatform.has(memoKey)) {
+    return index.lastStatusByAppIdPlatform.get(memoKey);
+  }
+  const status = findLastVerificationStatus(index.verificationsByAppId.get(appId) || [], platform);
+  index.lastStatusByAppIdPlatform.set(memoKey, status);
+  return status;
+}
+
+function findLastVerificationStatus(verifications, platform) {
   let verification = null;
   let maxVersion = null;
 
-  for (const assetArray of window.allAssetInformation.verifications.values()) {
-    for (const asset of assetArray) {
-      const version = getFirstTagValue(asset, 'version', null);
-      const appIdFromTag = getFirstTagValue(asset, 'i');
-      const platformFromTag = getFirstTagValue(asset, 'platform');
-      if (version && (appIdFromTag === appId) && isSamePlatform(platform, platformFromTag)) {
-        if (!maxVersion || compareVersions(version, maxVersion) > 0) {
-          verification = asset;
-          maxVersion = version;
-        }
+  for (const asset of verifications) {
+    const version = getFirstTagValue(asset, 'version', null);
+    const platformFromTag = getFirstTagValue(asset, 'platform');
+    if (version && isSamePlatform(platform, platformFromTag)) {
+      if (!maxVersion || compareVersions(version, maxVersion) > 0) {
+        verification = asset;
+        maxVersion = version;
       }
     }
   }
@@ -2260,28 +2320,27 @@ function getLastVerificationStatusForAppId(appId, platform) {
   return null;
 }
 
-function getWeightForAppFromAssetInformation(appId) {
-  if (!window.allAssetInformation) {
+function getWeightForAppFromAssetInformation(appId, info = window.allAssetInformation) {
+  if (!info) {
     throw new Error('window.allAssetInformation is not defined yet');
   }
 
-  const { lastVersion, lastVersionDate, lastVerifiedVersion, lastVerifiedVersionDate } = getMaxAssetVersion(window.allAssetInformation, appId);
+  const index = getAssetInformationIndex(info);
+  if (index.weightByAppId.has(appId)) {
+    return index.weightByAppId.get(appId);
+  }
+
+  const { lastVersion, lastVerifiedVersion } = getMaxAssetVersion(info, appId);
 
   let numberOfVerifications = 0;
   let numberOfReproducibleVerifications = 0;
 
-  for (const verifications of window.allAssetInformation.verifications.values()) {
-    for (const verification of verifications) {
-      const appIdCurrentVerification = getFirstTagValue(verification, 'i');
-      const status = getFirstTagValue(verification, 'status');
+  const verifications = index.verificationsByAppId.get(appId) || [];
+  for (const verification of verifications) {
+    numberOfVerifications += 1;
 
-      if (appIdCurrentVerification === appId) {
-        numberOfVerifications += 1;
-
-        if (status === 'reproducible') {
-          numberOfReproducibleVerifications += 1;
-        }
-      }
+    if (getFirstTagValue(verification, 'status') === 'reproducible') {
+      numberOfReproducibleVerifications += 1;
     }
   }
 
@@ -2290,10 +2349,12 @@ function getWeightForAppFromAssetInformation(appId) {
     weight = 0;
   }
 
-  return {
+  const result = {
     weight,
     lastVersionVerified: (lastVerifiedVersion && (lastVerifiedVersion === lastVersion)) ? 1 : -1
   };
+  index.weightByAppId.set(appId, result);
+  return result;
 }
 
 const cleanupNostrConnections = function() {
@@ -2555,6 +2616,8 @@ export {
   getEventsFromEventIds,
   getAllAttachmentsForAppId,
   getMaxAssetVersion,
+  getLastVerificationStatusForAppId,
+  getWeightForAppFromAssetInformation,
   isSamePlatform,
   createNostrCommentToVerification,
   getCommentsForVerification,

@@ -6,6 +6,8 @@ import {
   shortenNpub,
   getAppInfoFromEventInfo,
   getMaxAssetVersion,
+  getLastVerificationStatusForAppId,
+  getWeightForAppFromAssetInformation,
   isSamePlatform,
   getFileAttachmentIDsForVerificationEvent,
 } from '../../src/verifications_utils.mjs';
@@ -13,7 +15,7 @@ import {
   assetRegistrationKind,
   verificationKind,
 } from '../../src/nostr-constants.mjs';
-import { HASH_A, HASH_B, HASH_C, makeEvent, makeVerification } from './fixtures.mjs';
+import { HASH_A, HASH_B, HASH_C, makeAsset, makeEvent, makeVerification } from './fixtures.mjs';
 
 const ATTACHMENT_ID_A = 'a'.repeat(64);
 const ATTACHMENT_ID_B = 'b'.repeat(64);
@@ -111,30 +113,30 @@ describe('getAppInfoFromEventInfo', () => {
   });
 });
 
-describe('getMaxAssetVersion', () => {
-  function makeAssetInfo({ verifications = [], assets = [] } = {}) {
-    const verificationsMap = new Map();
-    const assetsMap = new Map();
+function makeAssetInfo({ verifications = [], assets = [] } = {}) {
+  const verificationsMap = new Map();
+  const assetsMap = new Map();
 
-    for (const entry of verifications) {
-      const hash = entry.tags.find(t => t[0] === 'x')?.[1] || HASH_A;
-      if (!verificationsMap.has(hash)) {
-        verificationsMap.set(hash, []);
-      }
-      verificationsMap.get(hash).push(entry);
+  for (const entry of verifications) {
+    const hash = entry.tags.find(t => t[0] === 'x')?.[1] || HASH_A;
+    if (!verificationsMap.has(hash)) {
+      verificationsMap.set(hash, []);
     }
-
-    for (const entry of assets) {
-      const hash = entry.tags.find(t => t[0] === 'x')?.[1] || HASH_B;
-      if (!assetsMap.has(hash)) {
-        assetsMap.set(hash, []);
-      }
-      assetsMap.get(hash).push(entry);
-    }
-
-    return { verifications: verificationsMap, assets: assetsMap };
+    verificationsMap.get(hash).push(entry);
   }
 
+  for (const entry of assets) {
+    const hash = entry.tags.find(t => t[0] === 'x')?.[1] || HASH_B;
+    if (!assetsMap.has(hash)) {
+      assetsMap.set(hash, []);
+    }
+    assetsMap.get(hash).push(entry);
+  }
+
+  return { verifications: verificationsMap, assets: assetsMap };
+}
+
+describe('getMaxAssetVersion', () => {
   test('throws when verifications map is missing', () => {
     assert.throws(
       () => getMaxAssetVersion({ assets: new Map() }),
@@ -301,6 +303,86 @@ describe('getMaxAssetVersion', () => {
     const result = getMaxAssetVersion(info, 'com.app', 'desktop');
     assert.equal(result.lastVersion, '1.4.0');
     assert.equal(result.lastVerifiedVersion, '1.4.0');
+  });
+});
+
+describe('getLastVerificationStatusForAppId', () => {
+  const info = makeAssetInfo({
+    verifications: [
+      makeVerification({
+        appId: 'com.app',
+        platform: 'android',
+        version: '1.2.0',
+        extraTags: [['status', 'reproducible'], ['x', HASH_A]],
+      }),
+      makeVerification({
+        appId: 'com.app',
+        platform: 'android',
+        version: '1.10.0',
+        extraTags: [['status', 'not_reproducible'], ['x', HASH_B]],
+      }),
+      makeVerification({
+        appId: 'com.app',
+        platform: 'iphone',
+        version: '3.0.0',
+        extraTags: [['status', 'reproducible'], ['x', HASH_C]],
+      }),
+      makeVerification({
+        appId: 'com.other',
+        platform: 'android',
+        version: '9.0.0',
+        extraTags: [['status', 'reproducible'], ['x', HASH_C]],
+      }),
+    ],
+  });
+
+  test('returns the status of the highest version for the app and platform', () => {
+    assert.equal(getLastVerificationStatusForAppId('com.app', 'android', info), 'not_reproducible');
+    assert.equal(getLastVerificationStatusForAppId('com.app', 'iphone', info), 'reproducible');
+  });
+
+  test('returns null without a matching verification', () => {
+    assert.equal(getLastVerificationStatusForAppId('com.app', 'desktop', info), null);
+    assert.equal(getLastVerificationStatusForAppId('com.missing', 'android', info), null);
+  });
+
+  test('sees verifications added to the same object', () => {
+    const growing = makeAssetInfo();
+    assert.equal(getLastVerificationStatusForAppId('com.app', 'android', growing), null);
+    growing.verifications.set(HASH_A, [
+      makeVerification({ appId: 'com.app', platform: 'android', version: '1.0.0', extraTags: [['status', 'reproducible']] }),
+    ]);
+    assert.equal(getLastVerificationStatusForAppId('com.app', 'android', growing), 'reproducible');
+  });
+});
+
+describe('getWeightForAppFromAssetInformation', () => {
+  test('weights reproducible verifications and whether the latest version is verified', () => {
+    const info = makeAssetInfo({
+      verifications: [
+        makeVerification({ appId: 'com.app', platform: 'android', version: '1.0.0', extraTags: [['status', 'reproducible'], ['x', HASH_A]] }),
+        makeVerification({ appId: 'com.app', platform: 'android', version: '2.0.0', extraTags: [['status', 'reproducible'], ['x', HASH_B]] }),
+        makeVerification({ appId: 'com.app', platform: 'android', version: '2.0.0', extraTags: [['status', 'not_reproducible'], ['x', HASH_B]] }),
+        makeVerification({ appId: 'com.other', platform: 'android', version: '5.0.0', extraTags: [['status', 'not_reproducible'], ['x', HASH_C]] }),
+      ],
+    });
+
+    assert.deepEqual(getWeightForAppFromAssetInformation('com.app', info), { weight: 2 / 3, lastVersionVerified: 1 });
+    assert.deepEqual(getWeightForAppFromAssetInformation('com.other', info), { weight: 0, lastVersionVerified: -1 });
+    assert.deepEqual(getWeightForAppFromAssetInformation('com.missing', info), { weight: 0, lastVersionVerified: -1 });
+  });
+
+  test('a newer unverified asset release makes the latest version unverified', () => {
+    const info = makeAssetInfo({
+      verifications: [
+        makeVerification({ appId: 'com.app', platform: 'android', version: '1.0.0', extraTags: [['status', 'reproducible'], ['x', HASH_A]] }),
+      ],
+      assets: [
+        makeAsset({ appId: 'com.app', platform: 'android', version: '1.1.0', hashes: [HASH_B], kind: assetRegistrationKind }),
+      ],
+    });
+
+    assert.deepEqual(getWeightForAppFromAssetInformation('com.app', info), { weight: 1, lastVersionVerified: -1 });
   });
 });
 
