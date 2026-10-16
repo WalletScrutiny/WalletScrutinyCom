@@ -1,6 +1,15 @@
 // space between one section's content and the next section's icon tile
-// (Distribution, Build Verifications, Platform notes, the review headings)
-$review-section-gap: 28px;
+// (Distribution, Build Verifications, Platform notes, the review headings);
+// roomier above phone widths
+$review-section-gap: var(--review-section-gap);
+
+:root {
+  --review-section-gap: 28px;
+
+  @media (min-width: 501px) {
+    --review-section-gap: 40px;
+  }
+}
 
 // section icon: an accent-tinted rounded tile around an SVG from
 // assets/icons.svg, shared by the review steps and the review text headings
@@ -16,6 +25,13 @@ $review-section-gap: 28px;
   color: var(--accent-text);
   background: color-mix(in srgb, var(--accent-text) 12%, transparent);
   box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent-text) 24%, transparent);
+
+  @media (min-width: 501px) {
+    height: 48px;
+    width: 48px;
+    border-radius: 14px;
+    font-size: 23px; // type-scale-exempt: icon
+  }
 }
 
 .textbox {
@@ -418,7 +434,7 @@ $review-section-gap: 28px;
 
   // right under Platform notes, whose 4px bottom padding completes the gap
   &:first-child {
-    margin-top: $review-section-gap - 4px;
+    margin-top: calc(#{$review-section-gap} - 4px);
   }
 
   .circle {
@@ -509,7 +525,7 @@ $review-section-gap: 28px;
   }
 
   .step {
-    margin-top: $review-section-gap - 8px;
+    margin-top: calc(#{$review-section-gap} - 8px);
   }
 
   // the first section sits right under the Android/iPhone tabs
@@ -554,7 +570,7 @@ $review-section-gap: 28px;
   // other sections (Platform notes' 4px bottom and its own 8px top padding
   // complete it)
   > #results {
-    margin-top: $review-section-gap - 12px;
+    margin-top: calc(#{$review-section-gap} - 12px);
   }
   font-weight: $paragraph-font-weight;
   // 15px on the container, not on p, so lists, quotes and tables in the
@@ -624,7 +640,7 @@ $review-section-gap: 28px;
 
     &:not(:last-of-type) {
       margin-bottom: 12px;
-      padding-bottom: 28px;
+      padding-bottom: $review-section-gap;
       &::after {
         content: "";
         position: absolute;
@@ -641,7 +657,7 @@ $review-section-gap: 28px;
     // completes it)
     &:has(+ .build-verifications-step),
     &:has(+ .operating-system) {
-      margin-bottom: $review-section-gap - 8px;
+      margin-bottom: calc(#{$review-section-gap} - 8px);
       padding-bottom: 0;
       &::after {
         content: none;
@@ -1107,6 +1123,40 @@ $review-section-gap: 28px;
   // title instead of after its own heading margin
   #results + .section > :first-child {
     margin-top: 0;
+  }
+
+  // the review's own headings ("App Description", ...) keep their text as
+  // close under the icon tile as Platform notes does (5px closer on
+  // Android/iPhone pages, which pull Platform notes up under its icon)
+  .app-review .review-section-title {
+    margin-bottom: 8px;
+
+    + * {
+      margin-top: 0;
+    }
+  }
+
+  .app-review--dual-platform .review-section-title {
+    margin-bottom: 3px;
+  }
+
+  // Distribution and Build Verifications get 6px more room under the icon
+  // than the text sections, where store buttons and the version list read as
+  // crowded. Growing both items of the icon row keeps the title centred on
+  // its icon.
+  .steps .step:is(.distribution, .build-verifications-step) {
+    > .circle {
+      margin-bottom: 6px;
+    }
+
+    > .title > h3 {
+      padding-bottom: 6px;
+    }
+  }
+
+  // the Android/iPhone tabs pull the icon up by 5px; keep that, plus the 6px
+  .steps .mobile-platform-tabs .step:is(.distribution, .build-verifications-step) > .circle {
+    margin-bottom: 1px;
   }
 
   // hardware wallet notes: only the first two lines until "more" is tapped
