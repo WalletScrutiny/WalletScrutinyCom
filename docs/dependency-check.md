@@ -45,51 +45,92 @@ source repository at that release's tag:
   dependency list, and the lockfiles that were read.
 
 Every row also carries how many WalletScrutiny products ship the same package
-and the same exact version. `packages/index.json` in the export lists every
+and the same exact version, and who requires the package one hop up
+(`dependants`, the key a triage statement is made under, see "Triage"). `packages/index.json` in the export lists every
 package shipped by two or more products, most shared first.
 
 ## Triage: does an advisory affect the product?
 
 Decision of 2026-10-16 (Leo): "only in testing" is not a reason to mute an
 advisory; every claimed vulnerability needs a decision whether it affects the
-product. The industry format for exactly this is VEX (Vulnerability
-Exploitability eXchange): per (product, advisory) one of `affected`,
-`not_affected`, `fixed` or `under_investigation`, with a justification.
+product, the decisions are keyed by the package's **direct user** and the
+advisory, and they live on **Nostr**, signed by whoever makes them.
 
-How it works:
+Why the direct user: whether a flaw in `blib` matters is a property of how
+`alib` calls it, and that is the same in every wallet that ships `alib`. One
+statement about (`alib`, advisory) therefore settles the row in every wallet
+where `blib` is only reached via `alib`; the wallet itself is the direct user
+when it imports `blib`. Across the 59 checked wallets the 5,900 advisory rows
+repeat about 1,100 distinct advisories, and most of them sit under a handful
+of direct users, so this is also the only key under which the queue is
+finite. The analyser records each package's direct users (`dependants`, one
+hop up, from the lockfile graph: package-lock, yarn.lock, Cargo.lock, and
+gradle's resolved graph) and whether the wallet imports it (`direct`).
 
-- Our decisions live in `_data/dependencyTriage/<appId>.yml`, one file per
-  wallet, reviewed like a verdict change. One entry per advisory id (GHSA, CVE
-  or MAL; an alias matches too), with `status` and one sentence of
-  `justification`; `package`, `date` and `by` are optional. A wallet
-  developer's own statement (from their OpenVEX document or a reply) goes
-  under `developer:` with its own status, justification and link; the panel
-  shows it next to our call, never instead of it.
-- `scripts/build-dependency-triage.mjs` validates every file during the site
-  build and publishes it as `api/source-analysis/triage/<appId>.json`. A
-  misspelt status, a missing justification or an advisory decided twice fails
-  the build.
-- The panel's "Decision" column shows the call and its reason, and the line
-  above the table counts: "412 advisories · 0 decided · 412 still to look
-  at". The undecided count is the work queue. Within one severity, rows
-  still needing a look (affected, undecided) sort before dismissed ones
-  (not affected, fixed). The CSV carries the decision and justification per
-  row.
-- "Where?" informs the decision and is shown with it, but does not make it.
+The statement (`src/dependency-triage.mjs`): an addressable Nostr event
+(`dependencyTriageKind`), one per author and subject, replaced by a newer
+version from the same author:
+
+| tag | meaning |
+|---|---|
+| `d` | `<advisory>\|via:<ecosystem:name>`, `<advisory>\|app:<appId>`, or `<advisory>\|package` |
+| `vuln` | the advisory id and its aliases (GHSA and CVE), one tag each |
+| `package` | the vulnerable package, `npm:@babel/traverse` |
+| `via` / `app` | the direct user: a package, or a wallet; neither means the package itself, whoever uses it |
+| `status` | `affected`, `not_affected`, `fixed`, `under_investigation` (the VEX states) |
+| `justification` | optional, an OpenVEX label such as `vulnerable_code_not_in_execute_path` |
+| `versions` | optional, the versions of the direct user the statement holds for |
+| content | the reasoning in prose |
+
+Resolution per (wallet, advisory): the wallet's own `app` statement settles
+the row outright. Otherwise every direct user needs a statement (`via`, or a
+package-wide one as fallback; when the wallet imports the package itself,
+the wallet is one of the direct users and only an `app` or package-wide
+statement answers for it); all present means settled with the gravest status
+among them, one missing means still open, shown as "1 of 2 direct users
+judged". Rows whose files record no graph need a package-wide or `app`
+statement.
+
+Who signed decides the weight, not whether a statement is kept:
+`_data/dependencyTriage.yml` lists the authors whose statements settle rows
+on the site; everyone else's are counted as community statements next to the
+row. The direct user's maintainer and the wallet's developer are the authors
+whose word should eventually carry: proving a key belongs to a package (a
+nostr pubkey in its manifest or repository, as Zapstore links releases to
+developers) is the open piece.
+
+Plumbing:
+
+- `scripts/build-dependency-triage.mjs` pulls every statement from the
+  project relay and the site's public relays during the build, merges it
+  with `_data/dependencyTriageEvents.json` (the committed snapshot of every
+  signed statement seen so far, verified on read, so a build without relay
+  access and a relay that drops events lose nothing), keeps the newest per
+  (author, subject), and publishes the statements that concern a wallet as
+  `api/source-analysis/triage/<appId>.json` with the trusted list. The panel
+  resolves each row from them.
+- `scripts/publish-dependency-triage.mjs` publishes one statement from the
+  command line with a key in `DEPENDENCY_TRIAGE_NSEC`; the site's NIP-07
+  login (the opinions' path) is the next way in.
+- The project relay stores the kind once `external/configs/strfry/kind-policy.py`
+  is deployed; until then the public relays carry the statements.
+- The panel's "Decision" column shows the status with one line per direct
+  user (its reason and signer), the line under the package name says who the
+  direct users are, and the line above the table counts the queue:
+  "412 advisories · 2 decided · 410 still to look at (3 partly)". Within one
+  severity, rows still needing a look (affected, undecided) sort before
+  dismissed ones (not affected, fixed). The CSV carries decision, reasons,
+  EPSS and the exploited flag per row.
+- "Where?" informs a statement and is shown with it, but does not make it.
   Who made the package is not a reason either, see "No verdict change".
 
-```yaml
-decisions:
-  - advisory: GHSA-67hx-6x53-jw92
-    package: "@babel/traverse"
-    status: not_affected        # affected | not_affected | fixed | under_investigation
-    justification: Build-time compiler; the flaw needs attacker-written source as input.
-    date: 2026-10-16
-    by: Leo
-    developer:                  # optional, what the wallet's developer says
-      status: not_affected
-      url: https://example.com/openvex.json
-```
+Two public signals ride along, per advisory, pulled at build time by
+`scripts/build-advisory-signals.mjs` into `api/source-analysis/signals.json`:
+EPSS (FIRST's published probability that a CVE is exploited in the wild
+within 30 days) and CISA's Known Exploited Vulnerabilities list. They sort
+the queue and put a "critical" label in perspective (944 of the 1,053
+advisories have a CVE; 4 are on CISA's list), they decide nothing, and a
+failing feed never fails the build.
 
 ## What it does not claim
 
@@ -219,8 +260,11 @@ verdict change.
    the path is good enough; the wallet has to get the vulnerability out, not
    be told how). The lockfile graph walk that answers "Where?" is a different
    thing and is in.
-5. The `Cargo.lock` walk is in; the VEX (triage) file is the next step, then
-   a re-run of the analyser over the database so every row gets its "Where?".
+5. The `Cargo.lock` walk is in; triage statements live on Nostr (above).
+   Next: a re-run of the analyser over the database so every row gets its
+   "Where?" and its direct users (today only AirGap is re-scored), the relay
+   policy deployment for the statement kind, and the NIP-07 publish path in
+   the panel.
 6. Beta: `npm run deploy:beta` on this branch ships the panel. The build
    copies the export from `SOURCE_ANALYSIS_EXPORT_DIR` (default
    `external/source_analysis/export`) or unpacks `SOURCE_ANALYSIS_EXPORT_URL`

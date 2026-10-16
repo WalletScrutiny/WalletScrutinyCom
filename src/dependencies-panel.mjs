@@ -6,9 +6,9 @@
 
 import { el } from './html-utils.mjs';
 import {
-  panelModel, whereOf, whereLabel, safeName, csvOf, SEVERITY_ORDER, SEVERITY_LABEL,
+  panelModel, whereOf, whereLabel, safeName, csvOf, epssLabel, SEVERITY_ORDER, SEVERITY_LABEL,
 } from './dependencies-panel-model.mjs';
-import { TRIAGE_LABEL, triageStateOf } from './dependency-triage.mjs';
+import { TRIAGE_LABEL, JUSTIFICATION_LABEL, triageStateOf } from './dependency-triage.mjs';
 
 // Where the export is served from. The transport (proxy on walletscrutiny.com,
 // Blossom blobs, rsync) is decided outside this module; only this constant moves.
@@ -37,9 +37,10 @@ export async function loadApp(appId, { base = EXPORT_BASE, fetchImpl = globalThi
   return first;
 }
 
-// The wallet's triage file (scripts/build-dependency-triage.mjs output), or
-// null when nobody has decided anything for it. Tried for the page's own app
-// id first, then the id the analysis is stored under (the alias hop in loadApp).
+// The wallet's triage file (scripts/build-dependency-triage.mjs output: the
+// statements that concern it, and the trusted authors), or null when nobody
+// has said anything about its advisories. Tried for the page's own app id
+// first, then the id the analysis is stored under (the alias hop in loadApp).
 export async function loadTriage(appIds, { base = EXPORT_BASE, fetchImpl = globalThis.fetch } = {}) {
   for (const id of [...new Set(appIds.filter(Boolean))]) {
     const triage = await fetchJson(`${base}/triage/${safeName(id)}.json`, fetchImpl);
@@ -48,8 +49,39 @@ export async function loadTriage(appIds, { base = EXPORT_BASE, fetchImpl = globa
   return null;
 }
 
+// Public per-CVE signals (scripts/build-advisory-signals.mjs), or null when the build had none.
+export async function loadSignals({ base = EXPORT_BASE, fetchImpl = globalThis.fetch } = {}) {
+  try {
+    return await fetchJson(`${base}/signals.json`, fetchImpl);
+  } catch (error) {
+    console.warn('Dependencies panel: signals not reachable', error);
+    return null;
+  }
+}
+
 function severityPill(severity) {
   return el('span', { className: `dp-sev dp-sev--${SEVERITY_ORDER.includes(severity) ? severity : 'unknown'}` }, SEVERITY_LABEL[severity] || severity);
+}
+
+// The severity pill, with what the world knows about the advisory itself
+// under it: "exploited in the wild" when CISA lists it, and the EPSS
+// probability of exploitation. Says nothing about this wallet.
+export function severityCell(a) {
+  const bits = [severityPill(a.severity)];
+  if (a.exploited) bits.push(el('span', { className: 'dp-kev', title: `On CISA's Known Exploited Vulnerabilities list${a.exploited.added ? ` since ${a.exploited.added}` : ''}` }, 'exploited in the wild'));
+  if (a.epss != null) bits.push(el('span', { className: 'dp-epss', title: `EPSS: probability of exploitation in the wild within 30 days${a.epssPercentile != null ? `, higher than ${Math.round(a.epssPercentile * 100)} % of all CVEs` : ''}` }, `EPSS ${epssLabel(a.epss)}`));
+  return el('div', { className: 'dp-sev-cell' }, bits);
+}
+
+// "via @babel/core, @babel/helpers" or "imported by the wallet" under the
+// package name: the direct users, which is what a triage statement is keyed
+// by. Nothing when the files do not record the graph.
+export function viaLine(a) {
+  const parts = [];
+  if (a.direct) parts.push('imported by the wallet');
+  if (Array.isArray(a.dependants) && a.dependants.length) parts.push(`via ${a.dependants.join(', ')}`);
+  if (!parts.length) return null;
+  return el('div', { className: 'dp-via' }, parts.join(' · '));
 }
 
 function tile(value, label, { tone = '', sub = null, sub2 = null } = {}) {
@@ -82,30 +114,52 @@ function severityLine(bySeverity) {
 function advisoryRow(a, { mixedEcosystems = false } = {}) {
   const where = whereOf(a);
   return el('tr', {},
-    el('td', { className: 'dp-td-package' }, a.package, mixedEcosystems && a.ecosystem ? el('span', { className: 'dp-eco' }, a.ecosystem) : null),
+    el('td', { className: 'dp-td-package' }, a.package, mixedEcosystems && a.ecosystem ? el('span', { className: 'dp-eco' }, a.ecosystem) : null, viaLine(a)),
     el('td', {}, a.version),
     el('td', {}, el('a', { href: `${OSV_URL}${encodeURIComponent(a.id)}`, target: '_blank', rel: 'noopener noreferrer', title: a.summary || '' }, a.id)),
-    el('td', {}, severityPill(a.severity)),
+    el('td', {}, severityCell(a)),
     el('td', {}, el('span', { className: `dp-where dp-where--${where}` }, whereLabel(a))),
     el('td', { className: 'dp-td-products' }, usedBy(a)),
     el('td', { className: 'dp-td-decision' }, decisionCell(a)),
   );
 }
 
-// Our call on the advisory, with the one-line reason under it; "–" while
-// nobody has looked. A developer's own statement is shown beside ours.
+// "via npm:@babel/core" / "this wallet" / "the package": what a statement's need reads as.
+function needLabel(need) {
+  if (need.startsWith('via:')) return `via ${need.slice(4).replace(/^[a-z]+:/, '')}`;
+  if (need.startsWith('app:')) return 'this wallet';
+  return 'the package';
+}
+
+const shortKey = (pubkey) => `${pubkey.slice(0, 8)}…`;
+
+// One statement as a line: who it is about, what it says, who signed.
+function statementLine({ need, statement: s }) {
+  const why = JUSTIFICATION_LABEL[s.justification] || s.content || TRIAGE_LABEL[s.status];
+  return el('div', { className: 'dp-decision__why', title: s.content || '' },
+    el('span', { className: 'dp-decision__need' }, `${needLabel(need)}: `),
+    why,
+    el('span', { className: 'dp-decision__who' }, ` (${TRIAGE_LABEL[s.status]}, ${shortKey(s.pubkey)})`),
+  );
+}
+
+// The row's state from the statements of its direct users, each with its
+// reason; "–" while one is still missing, saying how many are in. Community
+// statements (authors outside the trusted list) are counted, not applied.
 export function decisionCell(a) {
   const state = triageStateOf(a);
   const d = a.decision;
-  if (!d) return el('span', { className: 'dp-decision dp-decision--undecided', title: 'Nobody has looked at this advisory for this wallet yet' }, '–');
-  const bits = [el('span', { className: `dp-decision dp-decision--${state}` }, TRIAGE_LABEL[state])];
-  if (d.developer?.status) {
-    bits.push(el('span', { className: 'dp-decision__dev', title: d.developer.justification || '' },
-      ' developer: ',
-      d.developer.url ? el('a', { href: d.developer.url, target: '_blank', rel: 'noopener noreferrer' }, TRIAGE_LABEL[d.developer.status]) : TRIAGE_LABEL[d.developer.status],
-    ));
+  const t = a.triage || { needs: [], covered: [], community: 0, partial: [] };
+  const bits = [];
+  if (!d) {
+    bits.push(el('span', { className: 'dp-decision dp-decision--undecided', title: 'Nobody has judged this advisory for this wallet yet' }, '–'));
+    if (t.covered.length) bits.push(el('div', { className: 'dp-decision__why' }, `${t.covered.length} of ${t.needs.length} direct users judged`));
+    for (const b of t.partial || []) bits.push(statementLine(b));
+  } else {
+    bits.push(el('span', { className: `dp-decision dp-decision--${state}` }, TRIAGE_LABEL[state]));
+    for (const b of d.basis) bits.push(statementLine(b));
   }
-  bits.push(el('div', { className: 'dp-decision__why' }, d.justification, d.by || d.date ? el('span', { className: 'dp-decision__who' }, ` (${[d.by, d.date].filter(Boolean).join(', ')})`) : null));
+  if (t.community) bits.push(el('div', { className: 'dp-decision__community' }, `${t.community} community ${t.community === 1 ? 'statement' : 'statements'}`));
   return el('div', {}, bits);
 }
 
@@ -119,7 +173,7 @@ function triageLine(model) {
   if (t.not_affected) parts.push(`${t.not_affected} not affected`);
   if (t.fixed) parts.push(`${t.fixed} fixed`);
   if (t.under_investigation) parts.push(`${t.under_investigation} under investigation`);
-  parts.push(t.undecided ? `${t.undecided} still to look at` : 'nothing left to look at');
+  parts.push(t.undecided ? `${t.undecided} still to look at${t.partial ? ` (${t.partial} partly)` : ''}` : 'nothing left to look at');
   return el('p', { className: 'dp-triage-line' }, parts.join(' · '));
 }
 
@@ -192,9 +246,13 @@ function howToRead(model) {
   parts.push('A listed advisory is not a defect in the wallet: it says that a version with a published advisory is present, nothing more. Leaving such a version in place can be the right call, when the vulnerable code is never reached or the flaw needs a position an attacker does not have here; that is a decision per advisory. ');
   const t = model.triage;
   if (t && t.total) {
+    parts.push('A decision is keyed by the advisory and the package\'s direct user (the line under the package name): what alib does with blib is the same in every wallet that ships alib, so one signed statement about that pair settles the row here and everywhere else blib is only reached via alib; a row is settled once every direct user has one, the wallet itself counting as one when it imports the package. ');
     parts.push(t.decided
-      ? `The "Decision" column is our call so far, ${t.decided} of ${t.total} advisories, each with its reason; the rest nobody has looked at yet. `
-      : 'Nobody has made those decisions for this wallet yet, which is what the empty "Decision" column says. ');
+      ? `The "Decision" column shows ${t.decided} of ${t.total} advisories settled that way, each with its reasons and signers; the rest nobody has judged yet. `
+      : 'Nobody has made those statements for this wallet\'s advisories yet, which is what the empty "Decision" column says. ');
+  }
+  if (model.signals) {
+    parts.push('Under the severity, "exploited in the wild" means CISA lists the advisory as exploited somewhere, and EPSS is the published probability that it gets exploited anywhere within 30 days; both are about the advisory, not this wallet. ');
   }
   parts.push('We do not rank wallets by this number. ');
   if (model.byScope) {
@@ -274,14 +332,18 @@ export async function renderDependenciesPanel({ host, appId, storeVersion = '', 
   if (!host || !appId) return null;
   let app = null;
   let triage = null;
+  let signals = null;
   try {
     app = await loadApp(appId, { base, fetchImpl });
-    if (app) triage = await loadTriage([appId, app.appId], { base, fetchImpl });
+    if (app) {
+      triage = await loadTriage([appId, app.appId], { base, fetchImpl });
+      signals = await loadSignals({ base, fetchImpl });
+    }
   } catch (error) {
     console.warn('Dependencies panel: export not reachable', error);
     return null;
   }
-  const model = panelModel(app, { storeVersion, triage });
+  const model = panelModel(app, { storeVersion, triage, signals });
   if (!model) {
     host.hidden = true;
     return null;

@@ -3,7 +3,9 @@
 // apps/<appId>.json). Pure functions, no DOM: the renderer in
 // dependencies-panel.mjs only lays these out.
 
-import { applyTriage, TRIAGE_ORDER, triageStateOf, TRIAGE_LABEL } from './dependency-triage.mjs';
+import { applyTriage, TRIAGE_ORDER, triageStateOf, TRIAGE_LABEL, JUSTIFICATION_LABEL, whereOf, WHERE_LABELS } from './dependency-triage.mjs';
+
+export { whereOf, WHERE_LABELS };
 
 export const SEVERITY_ORDER = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown'];
 
@@ -27,17 +29,8 @@ export const SKIP_REASON_LABEL = {
 
 export const WORST_ROWS = 10;
 
-// Where a package ends up: "app" (reachable from the project's own
-// dependencies, so bundled), "build" (its development tooling), "tests" (test
-// frameworks and what only they pull in), or "?" when the files do not say.
-// Rows exported before `scope` existed only carry the dev flag.
-export const WHERE_LABELS = { app: 'app', build: 'build', tests: 'tests' };
-export function whereOf(row) {
-  if (row?.scope && WHERE_LABELS[row.scope]) return row.scope;
-  if (row?.dev === true) return 'build';
-  if (row?.dev === false) return 'app';
-  return 'unknown';
-}
+// Where a package ends up (`whereOf`, dependency-triage.mjs): "app", "build",
+// "tests", or "?" when the files do not say.
 export function whereLabel(row) {
   return WHERE_LABELS[whereOf(row)] || '?';
 }
@@ -57,13 +50,42 @@ export function tagMatchesVersion(ref, storeVersion) {
   return tag === store || tag.split(/[-+]/)[0] === store.split(/[-+]/)[0];
 }
 
+// Public per-CVE signals (scripts/build-advisory-signals.mjs, signals.json):
+// the advisory's EPSS probability and percentile, and whether CISA lists it
+// as exploited. Looked up by id or alias; null when the file has nothing.
+export function signalsFor(advisory, signals) {
+  if (!signals || !advisory) return { epss: null, epssPercentile: null, exploited: null };
+  const out = { epss: null, epssPercentile: null, exploited: null };
+  for (const id of [advisory.id, ...(advisory.aliases || [])]) {
+    if (out.epss == null && signals.epss?.[id]) [out.epss, out.epssPercentile] = signals.epss[id];
+    if (out.exploited == null && signals.kev?.[id]) out.exploited = signals.kev[id];
+  }
+  return out;
+}
+
+export function applySignals(advisories = [], signals = null) {
+  if (!signals) return advisories;
+  return advisories.map(a => ({ ...a, ...signalsFor(a, signals) }));
+}
+
+// "0.5 %", "12 %", "<0.1 %": EPSS as the panel prints it.
+export function epssLabel(p) {
+  if (p == null) return null;
+  const pct = p * 100;
+  if (pct < 0.1) return '<0.1 %';
+  return `${pct < 10 ? pct.toFixed(1) : Math.round(pct)} %`;
+}
+
 // Advisories as the table shows them: worst first; within one severity what
 // still needs a look (affected, undecided) before what was dismissed (not
-// affected, fixed); then by package name.
+// affected, fixed); among those, what is exploited in the wild, then the more
+// likely to be exploited (EPSS); then by package name.
 export function sortAdvisories(advisories = []) {
   return [...advisories].sort((a, b) =>
     SEVERITY_ORDER.indexOf(a.severity) - SEVERITY_ORDER.indexOf(b.severity)
     || TRIAGE_ORDER[triageStateOf(a)] - TRIAGE_ORDER[triageStateOf(b)]
+    || (b.exploited ? 1 : 0) - (a.exploited ? 1 : 0)
+    || (b.epss ?? -1) - (a.epss ?? -1)
     || (a.package || '').localeCompare(b.package || '')
     || (a.id || '').localeCompare(b.id || ''));
 }
@@ -86,10 +108,10 @@ export function uncheckedBreakdown(osv) {
  * The panel's content for one app file. `storeVersion` is the version the
  * wallet page lists; `release` picks a specific analysed release, else the
  * latest; `triage` is the wallet's decisions file (triage/<appId>.json), or
- * null when nobody has decided anything yet. Returns null when the app has no
- * analysed release.
+ * null when nobody has said anything yet; `signals` is signals.json (EPSS,
+ * exploited list) or null. Returns null when the app has no analysed release.
  */
-export function panelModel(app, { storeVersion = '', release = null, triage = null } = {}) {
+export function panelModel(app, { storeVersion = '', release = null, triage = null, signals = null } = {}) {
   const releases = Array.isArray(app?.releases) ? app.releases : [];
   // The newest release whose analysis worked; a newer one that failed is reported, not shown.
   const current = (release && releases.find(r => r.ref === release)) || releases.find(r => (r.status || 'ok') === 'ok') || releases[0];
@@ -99,8 +121,10 @@ export function panelModel(app, { storeVersion = '', release = null, triage = nu
   const bySeverity = { ...Object.fromEntries(SEVERITY_ORDER.map(s => [s, 0])), ...(current.vulnerabilities?.bySeverity || {}) };
   const malware = bySeverity.malicious;
   const vulnerabilities = SEVERITY_ORDER.filter(s => s !== 'malicious').reduce((n, s) => n + bySeverity[s], 0);
-  const triaged = applyTriage(current.advisories || [], triage);
+  const appIds = [app.appId, ...(app.aliases || []).map(a => a.appId)].filter(Boolean);
+  const triaged = applyTriage(applySignals(current.advisories || [], signals), triage, { appIds });
   const advisories = sortAdvisories(triaged.advisories);
+  const exploited = advisories.filter(a => a.exploited).length;
   const unchecked = uncheckedCount(current.osv);
 
   return {
@@ -129,6 +153,7 @@ export function panelModel(app, { storeVersion = '', release = null, triage = nu
     advisories,
     worst: advisories.slice(0, WORST_ROWS),
     triage: triaged.summary,
+    signals: signals ? { date: signals.date || null, exploited, withEpss: advisories.filter(a => a.epss != null).length } : null,
     diff: current.diffFrom || null,
     newerFailed: newerFailed.map(r => ({ ref: r.ref, status: r.status, error: r.error || null })),
     releases: releases.map(r => ({ ref: r.ref, analysedAt: r.analysedAt || null, status: r.status || 'ok' })),
@@ -139,6 +164,12 @@ export function panelModel(app, { storeVersion = '', release = null, triage = nu
 // File name the export uses for an app id or release tag (export.mjs safeName).
 export function safeName(s) {
   return String(s).replace(/[^A-Za-z0-9._+-]/g, '_').replace(/^\.+/, '_') || '_';
+}
+
+// "via npm:@babel/core: vulnerable code never executed" per basis of a decision, for the CSV.
+export function decisionReason(decision) {
+  if (!decision) return '';
+  return (decision.basis || []).map(b => `${b.need}: ${JUSTIFICATION_LABEL[b.statement.justification] || b.statement.content || TRIAGE_LABEL[b.statement.status]}`).join('; ');
 }
 
 const csvCell = (v) => {
@@ -154,7 +185,7 @@ export function csvOf(dependencies = [], advisories = []) {
     if (!byPackage.has(key)) byPackage.set(key, []);
     byPackage.get(key).push(a);
   }
-  const header = ['ecosystem', 'package', 'version', 'lockfile', 'direct', 'where', 'pinning', 'advisories', 'worst_severity', 'products', 'products_same_version', 'decision', 'justification'];
+  const header = ['ecosystem', 'package', 'version', 'lockfile', 'direct', 'where', 'pinning', 'advisories', 'worst_severity', 'products', 'products_same_version', 'decision', 'justification', 'epss', 'exploited'];
   const lines = [header.join(',')];
   for (const d of dependencies) {
     const hits = byPackage.get(`${d.ecosystem}:${d.name}@${d.version}`) || [];
@@ -170,7 +201,10 @@ export function csvOf(dependencies = [], advisories = []) {
       d.productsSameVersion ?? '',
       // The worst advisory's decision; a row with several advisories lists each decision in the advisories' order.
       hits.map(h => TRIAGE_LABEL[h.decision?.status] || 'undecided').join(' '),
-      hits.map(h => h.decision?.justification || '').filter(Boolean).join(' | '),
+      hits.map(h => decisionReason(h.decision)).filter(Boolean).join(' | '),
+      // The worst advisory's EPSS probability (0..1) and whether CISA lists it as exploited.
+      worst?.epss ?? '',
+      worst ? (worst.exploited ? 'yes' : 'no') : '',
     ].map(csvCell).join(','));
   }
   return lines.join('\n') + '\n';
