@@ -244,6 +244,7 @@ function findingsFor(q, ids, details) {
       fixed: fixedVersions(advisory, q),
       direct: q.rows.some(r => r.direct === true) ? true : (q.rows.some(r => r.direct === false) ? false : null),
       dev: q.rows.every(r => r.dev === true) ? true : (q.rows.some(r => r.dev === false) ? false : null),
+      scope: scopeOfRows(q.rows),
       lockfiles: [...new Set(q.rows.map(r => r.lockfile))],
     });
   }
@@ -256,6 +257,14 @@ function findingsFor(q, ids, details) {
  * first), or null when OSV.dev could not be reached: a failed lookup is not a
  * clean result.
  */
+// The widest scope among the rows of one package version: 'app' if any row
+// ships, else 'build' if any row is build tooling, else 'tests', else null.
+export function scopeOfRows(rows) {
+  const scopes = new Set(rows.map(r => r.scope ?? (r.dev === true ? 'build' : r.dev === false ? 'app' : null)));
+  for (const s of ['app', 'build', 'tests']) if (scopes.has(s)) return s;
+  return null;
+}
+
 export async function checkVulnerabilities(analyses, { fetchImpl = globalThis.fetch } = {}) {
   console.log('\n--- Test 10: Known vulnerabilities (OSV.dev, from the resolved dependencies) ---');
   const { queries, skipped } = buildQueries(analyses);

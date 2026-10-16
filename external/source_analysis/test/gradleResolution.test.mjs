@@ -6,7 +6,7 @@ import fs from 'fs';
 import os from 'os';
 import path from 'path';
 import {
-  findGradleBuilds, wrapperGradleVersion, jdkForGradle, parseResolution, isShippedConfiguration, mergeResolved,
+  findGradleBuilds, wrapperGradleVersion, jdkForGradle, parseResolution, isShippedConfiguration, scopeOfConfigurations, mergeResolved,
   RESOLVED_LOCKFILE_SUFFIX, resolveGradleDependencies,
 } from '../plugins/gradle-resolution.mjs';
 import { uncheckableReason } from '../plugins/osv.mjs';
@@ -50,6 +50,12 @@ test('shipped configurations are release runtime classpaths', () => {
   }
   for (const n of ['debugRuntimeClasspath', 'releaseUnitTestRuntimeClasspath', 'releaseCompileClasspath', 'kapt', 'buildscript:classpath', 'testRuntimeClasspath']) {
     assert.equal(isShippedConfiguration(n), false, n);
+  }
+  assert.equal(scopeOfConfigurations(['testRuntimeClasspath', 'releaseRuntimeClasspath']), 'app');
+  assert.equal(scopeOfConfigurations(['testRuntimeClasspath', 'debugAndroidTestCompileClasspath']), 'tests');
+  assert.equal(scopeOfConfigurations(['kapt', 'testRuntimeClasspath']), 'build');
+  assert.equal(scopeOfConfigurations([]), 'build');
+  {
   }
 });
 

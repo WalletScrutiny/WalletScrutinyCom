@@ -135,9 +135,21 @@ renamed into place so a reader never sees a half-written tree:
 |---|---|
 | `index.json` | every analysed app: aliases (the site's app ids for the repository), latest release summary (ref, commit, date, status, dependency and advisory counts), default-branch status |
 | `apps/<aliasId>.json` | `{appId, alias: true}` for the repository's other app ids (the iPhone record of an Android app), one hop to the file above |
-| `apps/<appId>.json` | all analyses of one app: per release the counts, the advisories (id, severity, aliases, fixed-in, shipped/build-only where the lockfile says), the diff to the previous release, OSV checked/skipped counts |
-| `apps/<appId>/<ref>/dependencies.json` | the full resolved dependency list of one release (ecosystem, name, version, lockfile, pinning tier, direct, dev, integrity), each row with how many products ship the package and that exact version |
+| `apps/<appId>.json` | all analyses of one app: per release the counts (including `byScope`: app / build / tests / unknown), the advisories (id, severity, aliases, fixed-in, scope), the diff to the previous release, OSV checked/skipped counts |
+| `apps/<appId>/<ref>/dependencies.json` | the full resolved dependency list of one release (ecosystem, name, version, lockfile, pinning tier, direct, dev, scope, integrity), each row with how many products ship the package and that exact version |
 | `packages/index.json` | every package shipped by two or more products, most shared first, with the product count per version ("12 products use libX, 3 use libX 0.2.3") |
+
+`scope` says where a package ends up, as far as the files say: `app` when it
+is reachable from the project's own dependencies, `build` when only from its
+development dependencies, `tests` when only from test frameworks and test
+tooling among those (jest, vitest, mocha, junit-style configurations, …), and
+null when nothing says. `package-lock.json` records the dev flag; `yarn.lock`
+records the graph but no flag, so `plugins/pinning.mjs` walks it from the
+manifest's roots (`yarnScopes`); gradle resolution derives it from the
+configuration names. The scope is a placement fact, not a verdict: a build
+dependency can still hurt the product (a `postinstall` script runs on the
+developer's machine), which is why every advisory still needs its own
+decision.
 
 Sizes on the 2026-10-16 database: 59 apps, 81 releases, 31 MB in total,
 `index.json` 27 KB, the largest dependency list 1.5 MB (OneKey). How the files
@@ -458,6 +470,7 @@ CREATE TABLE app_dependencies (
   lockfile TEXT NOT NULL,           -- file the row came from, relative to the repo root
   direct INTEGER,                   -- 1 declared by the project, 0 pulled in by a dependency, NULL unknown
   dev INTEGER,                      -- 1 build-time only (devDependencies), 0 shipped, NULL unknown
+  scope TEXT,                       -- where it ends up: 'app', 'build', 'tests', NULL when the files do not say
   tier TEXT NOT NULL,               -- hash-pinned | version-pinned | source-ref-pinned | build-service-tag | unversioned | floating
   created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (app_id, version, package_id, lockfile)
@@ -482,6 +495,7 @@ CREATE TABLE app_vulnerabilities (
   summary TEXT NOT NULL DEFAULT '',
   direct INTEGER,
   dev INTEGER,
+  scope TEXT,                       -- widest scope among the package's rows: app > build > tests
   checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (app_id, version, ecosystem, name, dep_version, vuln_id)
 );

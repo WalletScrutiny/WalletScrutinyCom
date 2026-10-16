@@ -6,7 +6,7 @@ import fs from 'fs';
 import os from 'os';
 import path from 'path';
 import {
-  buildQueries, checkVulnerabilities, clearAdvisoryCache, cvss3BaseScore, severityOf, uncheckableReason,
+  buildQueries, checkVulnerabilities, clearAdvisoryCache, cvss3BaseScore, severityOf, uncheckableReason, scopeOfRows,
 } from '../plugins/osv.mjs';
 import { initDatabase, saveVulnerabilities, getVulnerabilities } from '../ddbbUtils.mjs';
 
@@ -51,6 +51,15 @@ function stubFetch({ vulnsByQuery = {}, advisories = {}, pageSize = Infinity, fa
 }
 
 beforeEach(() => clearAdvisoryCache());
+
+test('scopeOfRows takes the widest placement among a package version\'s rows', () => {
+  assert.equal(scopeOfRows([{ scope: 'tests' }, { scope: 'app' }]), 'app');
+  assert.equal(scopeOfRows([{ scope: 'tests' }, { scope: 'build' }]), 'build');
+  assert.equal(scopeOfRows([{ scope: 'tests' }]), 'tests');
+  assert.equal(scopeOfRows([{ dev: false }]), 'app', 'rows without scope fall back to the dev flag');
+  assert.equal(scopeOfRows([{ dev: true }, { scope: null }]), 'build');
+  assert.equal(scopeOfRows([{ dev: null }]), null);
+});
 
 test('only exact registry versions are looked up', () => {
   assert.equal(uncheckableReason(entry('npm', 'a', '1.2.3', { resolved: 'https://registry.npmjs.org/a/-/a-1.2.3.tgz' })), null);

@@ -171,7 +171,7 @@ body.dark .dp-panel {
   }
 }
 
-.dp-ship {
+.dp-where {
   display: inline-block;
   font-size: $font-xxs;
   border: 1px solid var(--neutral-5);
@@ -179,10 +179,25 @@ body.dark .dp-panel {
   padding: 1px 8px;
   color: var(--neutral-2);
 
+  &--app {
+    border-color: var(--neutral-3);
+    color: var(--neutral-1);
+  }
+
   &--unknown {
     color: var(--neutral-3);
     border-style: dashed;
   }
+}
+
+// ecosystem tag next to the package name, only when the release mixes ecosystems
+.dp-eco {
+  display: inline-block;
+  margin-left: 6px;
+  font-family: $global-font-family;
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+  text-transform: lowercase;
 }
 
 .dp-note {

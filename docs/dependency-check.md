@@ -28,11 +28,16 @@ source repository at that release's tag:
   low > 0.
 - **known malware**: packages OSV lists as malicious (`MAL-` identifiers),
   whatever the score.
-- **In the app?**: Shipped when the lockfile marks the package as a runtime
-  dependency, Build only when it marks it as development-only, Unknown when
-  the lockfile does not say. `package-lock.json` says; `yarn.lock` and
-  gradle lockfiles do not, so most rows are Unknown today. Unknown is the
-  honest answer, not a bug.
+- **Where?**: where the package ends up, as far as the files say. `app`
+  when it is reachable from the project's own dependencies, so it is bundled;
+  `build` when only from its development dependencies; `tests` when only from
+  test frameworks and test tooling among those; `?` when nothing says.
+  `package-lock.json` records the dev flag; `yarn.lock` and `Cargo.lock`
+  record the graph but no flag, so the analyser walks the graph from the
+  manifest's roots; gradle resolution derives it from the configuration names.
+  This is a placement fact, not a judgement: a build dependency can still hurt
+  the product (an install script runs on the developer's machine), which is
+  why every advisory gets its own decision, see "Triage" below.
 - **checked release vs store version**: the analysed tag and the version the
   store lists. When they differ, the panel says so instead of presenting old
   data as current.
@@ -42,6 +47,24 @@ source repository at that release's tag:
 Every row also carries how many WalletScrutiny products ship the same package
 and the same exact version. `packages/index.json` in the export lists every
 package shipped by two or more products, most shared first.
+
+## Triage: does an advisory affect the product?
+
+Decision of 2026-10-16 (Leo): "only in testing" is not a reason to mute an
+advisory; every claimed vulnerability needs a decision whether it affects the
+product. The industry format for exactly this is VEX (Vulnerability
+Exploitability eXchange): per (product, advisory) one of `affected`,
+`not_affected`, `fixed` or `under_investigation`, with a justification.
+
+Planned shape:
+
+- every advisory starts as undecided; the panel headline counts decided
+  against total, and the undecided count is the work queue;
+- our decisions live as a small YAML file per wallet in the site repository,
+  reviewed like a verdict change, one line of justification each;
+- a wallet developer can hand us their own OpenVEX document; it is shown as
+  "developer says: not affected" next to our call, never instead of it;
+- "Where?" informs the decision and is shown with it, but does not make it.
 
 ## What it does not claim
 
@@ -133,7 +156,8 @@ verdict change.
 2. Whether the panel shape above is final, so the branch can be split into
    reviewable merge requests (build-script step, analyser, panel).
 3. The platform-SDK question under the closed-source rule.
-4. The dependency-tree plugin stays off; the flat list with the direct flag
-   covers the panel. The tree is forensics ("which direct dependency's bump
-   dragged the vulnerable version in") and is the follow-up for a per-release
-   diff line.
+4. The dependency-tree plugin stays off (Leo, 2026-10-16: "update X" without
+   the path is good enough; the wallet has to get the vulnerability out, not
+   be told how). The lockfile graph walk that answers "Where?" is a different
+   thing and is in.
+5. The `Cargo.lock` walk and the VEX file are the next two steps.

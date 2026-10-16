@@ -45,10 +45,11 @@ test('npm package-lock v3: direct/transitive/dev flags and integrity', () => {
   assert.deepEqual(byName(npm.entries, 'a'), {
     ecosystem: 'npm', lockfile: 'package-lock.json', name: 'a', version: '1.2.3',
     resolved: 'https://registry.npmjs.org/a/-/a-1.2.3.tgz', integrity: 'sha512-AAA',
-    direct: true, dev: false, tier: 'hash-pinned',
+    direct: true, dev: false, scope: 'app', tier: 'hash-pinned',
   });
   assert.equal(byName(npm.entries, 'b').direct, false);
   assert.equal(byName(npm.entries, 't').dev, true);
+  assert.equal(byName(npm.entries, 't').scope, 'build');
   assert.equal(byName(npm.entries, 't').tier, 'version-pinned');
   assert.equal(npm.deps.hashPinned, 3);
 });
@@ -89,6 +90,77 @@ test('yarn.lock classic and berry', () => {
   assert.equal(z.lockfile, 'sub/yarn.lock');
   assert.equal(z.integrity, '10c0/deadbeef');
   assert.equal(z.version, '2.5.0');
+});
+
+test('yarn.lock graph walk: app, build, tests, and entries no root reaches', () => {
+  const dir = fixture({
+    'package.json': JSON.stringify({
+      dependencies: { app: '^1.0.0' },
+      devDependencies: { bundler: '^2.0.0', jest: '^29.0.0' },
+    }),
+    'yarn.lock': [
+      '# yarn lockfile v1', '',
+      'app@^1.0.0:', '  version "1.0.0"', '  resolved "https://registry.yarnpkg.com/app/-/app-1.0.0.tgz#a"', '  integrity sha512-APP', '  dependencies:', '    shared "^3.0.0"', '  optionalDependencies:', '    "@scope/deep" "~4.1.0"', '',
+      '"@scope/deep@~4.1.0":', '  version "4.1.3"', '  resolved "https://registry.yarnpkg.com/@scope/deep/-/deep-4.1.3.tgz#d"', '',
+      'shared@^3.0.0:', '  version "3.2.0"', '  resolved "https://registry.yarnpkg.com/shared/-/shared-3.2.0.tgz#s"', '',
+      'bundler@^2.0.0:', '  version "2.0.0"', '  resolved "https://registry.yarnpkg.com/bundler/-/bundler-2.0.0.tgz#b"', '  dependencies:', '    shared "^3.0.0"', '    tool "^1.0.0"', '',
+      'tool@^1.0.0:', '  version "1.0.0"', '  resolved "https://registry.yarnpkg.com/tool/-/tool-1.0.0.tgz#t"', '  bin:', '    tool "bin.js"', '',
+      'jest@^29.0.0:', '  version "29.0.0"', '  resolved "https://registry.yarnpkg.com/jest/-/jest-29.0.0.tgz#j"', '  dependencies:', '    tool "^1.0.0"', '    jest-only "^1.0.0"', '',
+      'jest-only@^1.0.0:', '  version "1.0.0"', '  resolved "https://registry.yarnpkg.com/jest-only/-/jest-only-1.0.0.tgz#jo"', '',
+      'stale@^0.1.0:', '  version "0.1.0"', '  resolved "https://registry.yarnpkg.com/stale/-/stale-0.1.0.tgz#st"', '',
+    ].join('\n'),
+  });
+  const [npm] = quiet(() => analyzePinning(dir));
+  const scopes = Object.fromEntries(npm.entries.map(e => [e.name, e.scope]));
+  assert.deepEqual(scopes, {
+    app: 'app', '@scope/deep': 'app', shared: 'app', // reachable from dependencies, even when a dev root also needs it
+    bundler: 'build', tool: 'build', // a dev root and what only dev roots pull in
+    jest: 'tests', 'jest-only': 'tests', // a test framework and what only it pulls in
+    stale: null, // in the lockfile, reached by nothing
+  });
+  assert.equal(byName(npm.entries, 'shared').dev, false);
+  assert.equal(byName(npm.entries, 'tool').dev, true);
+  assert.equal(byName(npm.entries, 'stale').dev, null);
+  assert.equal(byName(npm.entries, 'shared').direct, false);
+  assert.equal(byName(npm.entries, 'app').integrity, 'sha512-APP');
+});
+
+test('yarn berry dependencies blocks and workspaces are walked too', () => {
+  const dir = fixture({
+    'package.json': JSON.stringify({ name: 'root', workspaces: ['packages/*'], devDependencies: { vitest: '^1.0.0' } }),
+    'packages/app/package.json': JSON.stringify({ name: 'app', dependencies: { '@scope/lib': '^7.0.0' } }),
+    'yarn.lock': [
+      '__metadata:', '  version: 8', '',
+      '"@scope/lib@npm:^7.0.0":', '  version: 7.2.0', '  resolution: "@scope/lib@npm:7.2.0"', '  dependencies:', '    "@scope/inner": "npm:^1.0.0"', '    plain: ^2.0.0', '  peerDependenciesMeta:', '    react:', '      optional: true', '  checksum: 10c0/aa', '  languageName: node', '',
+      '"@scope/inner@npm:^1.0.0":', '  version: 1.0.0', '  resolution: "@scope/inner@npm:1.0.0"', '  checksum: 10c0/bb', '  languageName: node', '',
+      '"plain@npm:^2.0.0":', '  version: 2.0.0', '  resolution: "plain@npm:2.0.0"', '  checksum: 10c0/cc', '  languageName: node', '',
+      '"vitest@npm:^1.0.0":', '  version: 1.0.0', '  resolution: "vitest@npm:1.0.0"', '  dependencies:', '    tinypool: "npm:^0.8.0"', '  checksum: 10c0/dd', '  languageName: node', '',
+      '"tinypool@npm:^0.8.0":', '  version: 0.8.1', '  resolution: "tinypool@npm:0.8.1"', '  checksum: 10c0/ee', '  languageName: node', '',
+    ].join('\n'),
+  });
+  const [npm] = quiet(() => analyzePinning(dir));
+  const scopes = Object.fromEntries(npm.entries.map(e => [e.name, e.scope]));
+  assert.deepEqual(scopes, { '@scope/lib': 'app', '@scope/inner': 'app', plain: 'app', vitest: 'tests', tinypool: 'tests' });
+  assert.equal(byName(npm.entries, '@scope/lib').integrity, '10c0/aa', 'the checksum after the dependencies block is still read');
+  assert.equal(byName(npm.entries, '@scope/lib').tier, 'hash-pinned');
+  assert.equal(byName(npm.entries, '@scope/lib').version, '7.2.0');
+});
+
+test('scope is stored, read back, and the column is added to a database that predates it', () => {
+  const file = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'pinning-db-')), 'assets.db');
+  const legacy = initDatabase(file);
+  legacy.exec('ALTER TABLE app_dependencies DROP COLUMN scope; ALTER TABLE app_vulnerabilities DROP COLUMN scope');
+  legacy.close();
+  const db = initDatabase(file);
+  assert.ok(db.prepare('PRAGMA table_info(app_dependencies)').all().some(c => c.name === 'scope'));
+  assert.ok(db.prepare('PRAGMA table_info(app_vulnerabilities)').all().some(c => c.name === 'scope'));
+  saveDependencies(db, 'app', 'v1', [{ ecosystem: 'npm', entries: [
+    { ecosystem: 'npm', lockfile: 'yarn.lock', name: 'a', version: '1', resolved: '', integrity: '', direct: true, dev: true, scope: 'tests', tier: 'version-pinned' },
+    { ecosystem: 'npm', lockfile: 'yarn.lock', name: 'b', version: '1', resolved: '', integrity: '', direct: null, dev: null, scope: 'nonsense', tier: 'version-pinned' },
+  ] }]);
+  const rows = getDependencies(db, 'app', 'v1');
+  assert.deepEqual(rows.map(r => [r.name, r.scope]), [['a', 'tests'], ['b', null]]);
+  db.close();
 });
 
 test('pip requirements: exact, hashed, floating and git lines', () => {

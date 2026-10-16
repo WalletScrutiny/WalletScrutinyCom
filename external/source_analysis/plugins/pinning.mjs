@@ -65,8 +65,29 @@ function makeEntry(ecosystem, lockfile, fields) {
     integrity: fields.integrity || '',
     direct: fields.direct ?? null,
     dev: fields.dev ?? null,
+    scope: fields.scope ?? scopeOf(fields),
     tier: fields.tier,
   };
+}
+
+/**
+ * Where a package ends up, as far as the files say: 'app' (reachable from the
+ * project's own dependencies, so bundled), 'build' (only reachable from its
+ * development dependencies), 'tests' (only reachable from test frameworks and
+ * test tooling), or null when the lockfile does not say. `dev` is the same
+ * fact as a boolean and stays for readers that predate `scope`.
+ */
+function scopeOf(fields) {
+  if (fields.dev === true) return 'build';
+  if (fields.dev === false) return 'app';
+  return null;
+}
+
+// Development dependencies that exist for tests: a package reachable only
+// through these is 'tests', every other development-only package is 'build'.
+const TEST_ROOT = /^(jest|jest-.*|@jest\/.*|babel-jest|ts-jest|vitest|@vitest\/.*|mocha|jasmine|jasmine-.*|karma|karma-.*|ava|tap|tape|chai|chai-.*|sinon|enzyme|enzyme-.*|react-test-renderer|@testing-library\/.*|cypress|@cypress\/.*|playwright|@playwright\/.*|puppeteer|detox|supertest|nock|msw|nyc|c8|istanbul|istanbul-.*|@istanbuljs\/.*|@types\/(jest|mocha|jasmine|chai|sinon|supertest)|protractor|@wdio\/.*|webdriverio|appium|@appium\/.*)$/;
+export function isTestRoot(name) {
+  return TEST_ROOT.test(name);
 }
 
 /* ---------------------------------- npm ---------------------------------- */
@@ -110,8 +131,10 @@ function declaredBeside(lockFile, allManifests) {
 function parseYarnLock(text) {
   const entries = [];
   let current = null;
+  let block = null; // the indented sub-block we are in: dependencies, optionalDependencies, or something else
   for (const line of text.split('\n')) {
     if (/^[^#\s].*:\s*$/.test(line)) {
+      block = null;
       const spec = line.trim().replace(/:$/, '').split(',')[0].trim().replace(/^"|"$/g, '');
       const at = spec.indexOf('@', 1); // scoped names start with '@'
       const ranges = line.trim().replace(/:$/, '').split(',').map(part => {
@@ -119,17 +142,69 @@ function parseYarnLock(text) {
         const i = one.indexOf('@', 1);
         return i === -1 ? '' : one.slice(i + 1).replace(/^npm:/, '');
       });
-      current = { name: at === -1 ? spec : spec.slice(0, at), ranges, version: '', resolved: '', integrity: '' };
+      current = { name: at === -1 ? spec : spec.slice(0, at), ranges, version: '', resolved: '', integrity: '', dependencies: {} };
       if (current.name !== '__metadata') entries.push(current);
       continue;
     }
     if (!current) continue;
     let m;
+    if ((m = line.match(/^  (\w+):\s*$/))) { block = m[1]; continue; }
+    if (/^  \S/.test(line)) block = null; // a two-space key ends the block (berry's checksum follows dependencies)
+    if (block === 'dependencies' || block === 'optionalDependencies') {
+      // v1: `    "@scope/name" "^1.0.0"` or `    name "^1.0.0"`; berry: `    "@scope/name": ^1.0.0` or `    name: "npm:^1.0.0"`
+      if ((m = line.match(/^    "?((?:@[^/"\s]+\/)?[^"\s:]+)"?:?\s+"?([^"]*?)"?\s*$/))) {
+        current.dependencies[m[1]] = m[2].replace(/^npm:/, '');
+      }
+      continue;
+    }
+    if (/^    /.test(line)) continue; // inside bin:, peerDependenciesMeta:, …
     if ((m = line.match(/^\s+version:?\s+"?([^"\s]+)"?/))) current.version = m[1];
     else if ((m = line.match(/^\s+(?:resolved|resolution):?\s+"?([^"\s]+)"?/))) current.resolved = m[1];
     else if ((m = line.match(/^\s+(?:integrity|checksum):?\s+"?([^"\s]+)"?/))) current.integrity = m[1];
   }
   return entries;
+}
+
+/**
+ * Walk a parsed yarn.lock from the manifests' roots and say, per resolved
+ * `name@version`, whether it is reachable from the production dependencies
+ * ('app'), only from development dependencies ('build'), or only from test
+ * frameworks among those ('tests'). yarn.lock records the graph (each entry's
+ * `dependencies:`) but no dev flag, so the flag is computed here. Entries no
+ * root reaches (stale entries, workspaces the manifests do not cover) get no
+ * answer.
+ */
+export function yarnScopes(entries, manifests) {
+  const byRequest = new Map(); // "name@range" -> entry
+  for (const e of entries) for (const r of e.ranges) byRequest.set(`${e.name}@${r}`, e);
+  const reach = (requests, stop) => {
+    const seen = new Set();
+    const queue = requests.map(([name, range]) => byRequest.get(`${name}@${String(range).replace(/^npm:/, '')}`)).filter(Boolean);
+    while (queue.length) {
+      const e = queue.pop();
+      if (seen.has(e) || stop.has(e)) continue;
+      seen.add(e);
+      for (const [name, range] of Object.entries(e.dependencies || {})) {
+        const next = byRequest.get(`${name}@${range}`);
+        if (next) queue.push(next);
+      }
+    }
+    return seen;
+  };
+  const prodRoots = [];
+  const devRoots = [];
+  for (const pkg of manifests) {
+    prodRoots.push(...Object.entries(pkg.dependencies || {}), ...Object.entries(pkg.optionalDependencies || {}));
+    devRoots.push(...Object.entries(pkg.devDependencies || {}));
+  }
+  const app = reach(prodRoots, new Set());
+  const build = reach(devRoots.filter(([name]) => !isTestRoot(name)), app);
+  const tests = reach(devRoots.filter(([name]) => isTestRoot(name)), app);
+  const scopes = new Map();
+  for (const e of app) scopes.set(`${e.name}@${e.version}`, 'app');
+  for (const e of build) scopes.set(`${e.name}@${e.version}`, 'build');
+  for (const e of tests) if (!build.has(e)) scopes.set(`${e.name}@${e.version}`, 'tests');
+  return scopes;
 }
 
 function analyzeNpm(repoPath) {
@@ -208,15 +283,22 @@ function analyzeNpm(repoPath) {
 
   for (const yarnLock of yarnLocks) {
     const text = fs.readFileSync(yarnLock, 'utf8');
-    const declared = declaredBeside(yarnLock, allManifests);
-    for (const { ranges, ...e } of parseYarnLock(text)) {
+    const own = readJson(path.join(path.dirname(yarnLock), 'package.json'));
+    // a workspace root locks every workspace's dependencies: their manifests are roots too
+    const roots = own ? (own.workspaces ? [own, ...allManifests.filter(m => m !== own)] : [own]) : allManifests;
+    const declared = declaredNpmDeps(roots);
+    const parsed = parseYarnLock(text);
+    const scopes = yarnScopes(parsed, roots);
+    for (const { ranges, dependencies, ...e } of parsed) {
       // yarn.lock keeps every requested range per resolution, so the direct
       // one is the resolution whose ranges include what the manifest asked for
       const direct = declared.has(e.name) && ranges.includes(declared.get(e.name).range);
+      const scope = scopes.get(`${e.name}@${e.version}`) ?? (direct ? (declared.get(e.name).dev ? 'build' : 'app') : null);
       result.entries.push(makeEntry('npm', relative(repoPath, yarnLock), {
         ...e,
         direct,
-        dev: direct ? declared.get(e.name).dev : null, // yarn.lock does not flag dev reachability
+        dev: scope === null ? null : scope === 'app' ? false : true,
+        scope,
         tier: e.integrity ? 'hash-pinned' : 'version-pinned',
       }));
     }
