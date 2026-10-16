@@ -106,11 +106,11 @@ describe('dependencies panel model', () => {
       { ecosystem: 'npm', name: 'quiet, inc', version: '2.0.0', lockfile: 'package-lock.json', tier: 'floating', direct: null, dev: null },
       { ecosystem: 'npm', name: 'jest', version: '29.0.0', lockfile: 'yarn.lock', tier: 'hash-pinned', direct: true, dev: true, scope: 'tests' },
     ];
-    const csv = csvOf(deps, [advisory('GHSA-1', 'high'), advisory('GHSA-2', 'low')]);
+    const csv = csvOf(deps, [advisory('GHSA-1', 'high', { decision: { status: 'not_affected', justification: 'never reached, "really"' } }), advisory('GHSA-2', 'low')]);
     const lines = csv.trim().split('\n');
-    assert.equal(lines[0], 'ecosystem,package,version,lockfile,direct,where,pinning,advisories,worst_severity,products,products_same_version');
-    assert.equal(lines[1], 'npm,pkg,1.0.0,package-lock.json,yes,app,hash-pinned,GHSA-1 GHSA-2,high,25,3');
-    assert.equal(lines[2], 'npm,"quiet, inc",2.0.0,package-lock.json,,unknown,floating,,,,', 'rows from an older export: empty product counts');
-    assert.equal(lines[3], 'npm,jest,29.0.0,yarn.lock,yes,tests,hash-pinned,,,,');
+    assert.equal(lines[0], 'ecosystem,package,version,lockfile,direct,where,pinning,advisories,worst_severity,products,products_same_version,decision,justification');
+    assert.equal(lines[1], 'npm,pkg,1.0.0,package-lock.json,yes,app,hash-pinned,GHSA-1 GHSA-2,high,25,3,not affected undecided,"never reached, ""really"""');
+    assert.equal(lines[2], 'npm,"quiet, inc",2.0.0,package-lock.json,,unknown,floating,,,,,,', 'rows from an older export: empty product counts');
+    assert.equal(lines[3], 'npm,jest,29.0.0,yarn.lock,yes,tests,hash-pinned,,,,,,');
   });
 });
