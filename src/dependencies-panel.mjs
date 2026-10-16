@@ -76,12 +76,27 @@ export function severityCell(a) {
 // "via @babel/core, @babel/helpers" or "imported by the wallet" under the
 // package name: the direct users, which is what a triage statement is keyed
 // by. Nothing when the files do not record the graph.
+const VIA_SHOWN = 3;
 export function viaLine(a) {
   const parts = [];
+  let title = null;
   if (a.direct) parts.push('imported by the wallet');
-  if (Array.isArray(a.dependants) && a.dependants.length) parts.push(`via ${a.dependants.join(', ')}`);
+  if (Array.isArray(a.dependants) && a.dependants.length) {
+    const d = a.dependants;
+    const shown = d.slice(0, VIA_SHOWN).join(', ');
+    parts.push(d.length > VIA_SHOWN ? `via ${shown} and ${d.length - VIA_SHOWN} more` : `via ${shown}`);
+    if (d.length > VIA_SHOWN) title = `via ${d.join(', ')}`;
+  }
   if (!parts.length) return null;
-  return el('div', { className: 'dp-via' }, parts.join(' · '));
+  return el('div', { className: 'dp-via', ...(title ? { title } : {}) }, parts.join(' · '));
+}
+
+// A package name with break opportunities after ':' and '/' (gradle
+// group:artifact, npm @scope/name), so a long coordinate wraps at its joints.
+function breakableName(name) {
+  const out = [];
+  String(name || '').split(/(?<=[:/])/).forEach((piece, i) => { if (i) out.push(el('wbr')); out.push(piece); });
+  return out;
 }
 
 function tile(value, label, { tone = '', sub = null, sub2 = null } = {}) {
@@ -114,7 +129,7 @@ function severityLine(bySeverity) {
 function advisoryRow(a, { mixedEcosystems = false } = {}) {
   const where = whereOf(a);
   return el('tr', {},
-    el('td', { className: 'dp-td-package' }, a.package, mixedEcosystems && a.ecosystem ? el('span', { className: 'dp-eco' }, a.ecosystem) : null, viaLine(a)),
+    el('td', { className: 'dp-td-package' }, ...breakableName(a.package), mixedEcosystems && a.ecosystem ? el('span', { className: 'dp-eco' }, a.ecosystem) : null, viaLine(a)),
     el('td', {}, a.version),
     el('td', {}, el('a', { href: `${OSV_URL}${encodeURIComponent(a.id)}`, target: '_blank', rel: 'noopener noreferrer', title: a.summary || '' }, a.id)),
     el('td', {}, severityCell(a)),
