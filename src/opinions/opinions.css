@@ -325,6 +325,11 @@ body.dark .opinion-card--reply {
   margin-top: 0.6em;
 }
 
+/* The thread toggle is hidden on cards without replies; inline-flex below would override [hidden]. */
+.opinion-card__thread[hidden] {
+  display: none;
+}
+
 .opinion-card__action {
   display: inline-flex;
   align-items: center;
