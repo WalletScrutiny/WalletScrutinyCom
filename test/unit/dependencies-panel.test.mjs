@@ -70,6 +70,9 @@ describe('dependencies panel', () => {
     assert.deepEqual([...host.querySelectorAll('thead th')].map(e => e.textContent), ['Package', 'Version', 'Advisory', 'Severity', 'Where?']);
     assert.equal(host.querySelector('.dp-eco'), null, 'one ecosystem: no tag on the package');
     assert.match(host.querySelector('.dp-note').textContent, /300 in the app, 90 in the build tooling, 10 only in tests, and 12 the files do not say/);
+    assert.equal(host.querySelector('.dp-badge').textContent, 'Measurement only · not part of the verdict');
+    assert.match(host.querySelector('.dp-note').textContent, /A listed advisory is not a defect in the wallet/);
+    assert.match(host.querySelector('.dp-note').textContent, /we do not rank wallets by this number/);
     const notices = [...host.querySelectorAll('.dp-notices li')].map(e => e.textContent);
     assert.match(notices[0], /store version 1\.4\.2 has not been checked yet/);
     assert.match(notices[1], /Same source repository as app\.ios/);

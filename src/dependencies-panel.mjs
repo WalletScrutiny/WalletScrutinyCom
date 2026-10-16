@@ -2,7 +2,7 @@
 // (external/source_analysis) found in the release's lockfiles, drawn from the
 // per-app file of its static export. Loaded on demand, one small file per
 // wallet; the full dependency list is only fetched for the CSV download.
-// Separate from the verdict and the score, and labelled so.
+// Measurement only, not part of the verdict, and labelled so.
 
 import { el } from './html-utils.mjs';
 import {
@@ -134,6 +134,7 @@ function howToRead(model) {
   parts.push('"Could not be checked" means the package has no exact registry version to look up');
   if (model.uncheckedBreakdown.length) parts.push(` (${model.uncheckedBreakdown.map(u => `${u.count} ${u.label}`).join(', ')})`);
   parts.push(', so it is not the same as "no problems". Results are a snapshot from the check date; new advisories may appear later. ');
+  parts.push('A listed advisory is not a defect in the wallet: it says that a version with a published advisory is present, nothing more. Leaving such a version in place is often the right call, when the vulnerable code is never reached or the package comes from a vendor the platform already trusts. Nobody has gone through these rows yet, and we do not rank wallets by this number. ');
   if (model.byScope) {
     const b = model.byScope;
     parts.push(`"Where?" says where a package ends up: ${b.app} in the app, ${b.build} in the build tooling, ${b.tests} only in tests`);
@@ -186,7 +187,7 @@ export function panelElement(model, { appId, base = EXPORT_BASE, fetchImpl = glo
   return el('div', { className: 'dp-panel' },
     el('div', { className: 'dp-top' },
       headline(model),
-      el('span', { className: 'dp-badge' }, 'Separate from our verdict and score'),
+      el('span', { className: 'dp-badge' }, 'Measurement only · not part of the verdict'),
     ),
     notices(model),
     el('div', { className: 'dp-tiles' },

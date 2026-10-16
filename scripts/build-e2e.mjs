@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Site build for Playwright E2E: same as build.mjs minus the .br files
- * (precompute | webpack | redirect map) -> jekyll -> minify.
+ * (precompute | webpack | redirect map) -> jekyll -> source-analysis export -> minify.
  */
 
 import { spawn } from 'child_process';
@@ -33,6 +33,7 @@ async function main() {
     run('node', ['scripts/generate-redirect-map.mjs']),
   ]);
   await run('bundle', ['exec', 'jekyll', 'build'], { JEKYLL_ENV: 'production' });
+  await run('node', ['scripts/copy-source-analysis-export.mjs']);
   await run('node', ['scripts/postprocess-site.mjs', '--no-brotli']);
 }
 
