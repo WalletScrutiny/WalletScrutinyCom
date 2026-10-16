@@ -19,23 +19,132 @@ import { wsIcon } from './icon.mjs';
       const style = document.createElement("style");
       style.id = 'shareButtonComponentStyles';
       style.textContent = `
+      /* "Share on Nostr" composer: same dialog language as the opinions
+         widget (src/opinions/opinions.css) so both feel like one site. */
       .share-nostr-modal {
         display: none;
         position: fixed;
+        inset: 0;
         z-index: 10050;
-        left: 0; top: 0; width: 100%; height: 100%;
-        background-color: rgba(0,0,0,0.4);
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+        background: rgba(0, 0, 0, 0.5);
       }
+      .share-nostr-modal.is-open { display: flex; }
       .share-nostr-modal-content {
-        margin: 15% auto; padding: 20px; border: 1px solid #888;
-        width: 80%; max-width: 600px; border-radius: 5px;
-        background: #e1e1e1;
-        color: black;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75em;
+        width: 100%;
+        max-width: 560px;
+        max-height: 90vh;
+        overflow: auto;
+        padding: 1.5em;
+        border-radius: 8px;
+        background: var(--body);
+        color: var(--text);
+        box-shadow: 0 10px 30px var(--shadow-3);
+        text-align: left;
       }
-      body.dark .share-nostr-modal-content {
-        background-color: #2d2d2d;
-        color: white;
+      .share-nostr-title {
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
+        margin: 0 1.5em 0 0;
+        font-size: 1.25em;
+        line-height: 1.3;
       }
+      /* The Nostr mark is white; give it an accent tile so it reads on both themes. */
+      .share-nostr-title__logo {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex: 0 0 auto;
+        width: 1.6em;
+        height: 1.6em;
+        border-radius: 6px;
+        background: var(--accent);
+      }
+      .share-nostr-title__logo img { width: 1.1em; height: 1.1em; margin: 0; }
+      .share-nostr-hint {
+        margin: 0;
+        color: var(--neutral-3);
+        font-size: 0.9em;
+      }
+      .share-nostr-textarea {
+        box-sizing: border-box;
+        width: 100%;
+        min-height: 9em;
+        margin: 0;
+        padding: 0.6em;
+        border: 1px solid var(--neutral-5);
+        border-radius: 6px;
+        background: var(--body);
+        color: var(--text);
+        font: inherit;
+        line-height: 1.5;
+        resize: vertical;
+      }
+      .share-nostr-textarea:focus {
+        outline: none;
+        border-color: var(--accent);
+        box-shadow: 0 0 0 2px var(--accent-50);
+      }
+      .share-nostr-actions {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 0.5em;
+      }
+      .share-nostr-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.4em;
+        padding: 0.55em 1.2em;
+        border: 1px solid var(--neutral-5);
+        border-radius: 6px;
+        background: var(--body);
+        color: var(--text);
+        font: inherit;
+        font-weight: 500;
+        cursor: pointer;
+      }
+      .share-nostr-btn:hover:not(:disabled) { border-color: var(--neutral-4); }
+      .share-nostr-btn--primary {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: var(--permanent-white);
+      }
+      .share-nostr-btn--primary:hover:not(:disabled) { filter: brightness(1.08); }
+      .share-nostr-btn:disabled { opacity: 0.6; cursor: default; }
+      .share-nostr-btn.is-busy { position: relative; color: transparent; }
+      .share-nostr-btn.is-busy::after {
+        content: '';
+        position: absolute;
+        width: 1em;
+        height: 1em;
+        border: 2px solid var(--permanent-white);
+        border-right-color: transparent;
+        border-radius: 50%;
+        animation: share-nostr-spin 0.8s linear infinite;
+      }
+      @keyframes share-nostr-spin { to { transform: rotate(360deg); } }
+      .share-nostr-close {
+        position: absolute;
+        top: 0.75em;
+        right: 0.75em;
+        padding: 0.25em;
+        border: none;
+        background: none;
+        color: var(--neutral-3);
+        font-size: 1.25em;
+        line-height: 1;
+        cursor: pointer;
+      }
+      .share-nostr-close:hover { color: var(--text); }
 
       .shareButtonContainer .dropdown span {
         transform: rotate(0deg);
@@ -45,11 +154,6 @@ import { wsIcon } from './icon.mjs';
         -o-transform: rotate(0deg);
       }
 
-      .share-nostr-textarea { width: 100%; height: 8em; margin: 0 0 10px 0; padding: 10px; border: 1px solid #ddd; border-radius: 4px; }
-      .share-button { color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; }
-      .share-nostr-close { color: #535353; float: right; font-size: 44px; font-weight: bold; cursor: pointer; margin-top: -23px; }
-      .share-nostr-close:hover { color: black; }
-      .share-nostr-modal-content h2 { margin-top: 0; margin-bottom: 0; }
       .shareButtonContainer:has(#rawShareButtons) {
         display: block !important;
         width: 100%;
@@ -173,12 +277,16 @@ import { wsIcon } from './icon.mjs';
     const copyUrlButton = `<a href="#" class="btn btn-info shareButtonNetwork js-share-copy-url">${wsIcon('copy')}<span class="network-text">Copy current URL</span></a>`;
 
     const modalHTML = `
-      <div class="share-nostr-modal">
+      <div class="share-nostr-modal" role="dialog" aria-modal="true" aria-label="Share on Nostr">
         <div class="share-nostr-modal-content">
-          <span class="share-nostr-close">&times;</span>
-          <h2>Share on Nostr</h2>
-          <textarea class="share-nostr-textarea" placeholder="Write your message here..."></textarea>
-          <button class="btn btn-success share-button js-share-nostr-submit">Share</button>
+          <button type="button" class="share-nostr-close" aria-label="Close">${wsIcon('xmark')}</button>
+          <h3 class="share-nostr-title"><span class="share-nostr-title__logo"><img src="/images/nostr_logo.svg" alt=""/></span>Share on Nostr</h3>
+          <p class="share-nostr-hint">Posted as a public note from your Nostr account.</p>
+          <textarea class="share-nostr-textarea" rows="6" placeholder="Write your message here..." aria-label="Note text"></textarea>
+          <div class="share-nostr-actions">
+            <button type="button" class="share-nostr-btn js-share-nostr-cancel">Cancel</button>
+            <button type="button" class="share-nostr-btn share-nostr-btn--primary js-share-nostr-submit">${wsIcon('share-nodes')}Share</button>
+          </div>
         </div>
       </div>
     `;
@@ -207,6 +315,7 @@ import { wsIcon } from './icon.mjs';
     const shareModal = el.querySelector(".share-nostr-modal");
     const closeShareModal = el.querySelector(".share-nostr-close");
     const shareSubmitButton = el.querySelector(".js-share-nostr-submit");
+    const shareCancelButton = el.querySelector(".js-share-nostr-cancel");
     const shareTextarea = el.querySelector(".share-nostr-textarea");
     const shareBtn = el.querySelector(".share-dropdown-trigger");
     const shareDropdown = el.querySelector(".share-dropdown-menu");
@@ -228,14 +337,25 @@ import { wsIcon } from './icon.mjs';
       }
       shareTextarea.value = `${defaultMessage}\n\n${window.location.href}`;
       document.body.appendChild(shareModal);
-      shareModal.style.display = "block";
+      shareModal.classList.add("is-open");
       closeShareDropdown();
+      shareTextarea.focus();
+      shareTextarea.setSelectionRange(0, 0);
+      shareTextarea.scrollTop = 0;
     };
 
     const closeShareNostrModal = () => {
       if (shareModal) {
-        shareModal.style.display = "none";
+        shareModal.classList.remove("is-open");
       }
+    };
+
+    const setShareBusy = (busy) => {
+      if (!shareSubmitButton) {
+        return;
+      }
+      shareSubmitButton.disabled = busy;
+      shareSubmitButton.classList.toggle("is-busy", busy);
     };
 
     const stopPulseAttention = () => {
@@ -302,6 +422,20 @@ import { wsIcon } from './icon.mjs';
         closeShareNostrModal();
       };
     }
+    if (shareCancelButton) {
+      shareCancelButton.onclick = function () {
+        closeShareNostrModal();
+      };
+    }
+    if (shareTextarea) {
+      // Ctrl/Cmd+Enter submits, like most composers.
+      shareTextarea.onkeydown = function (event) {
+        if (event.key === "Enter" && (event.ctrlKey || event.metaKey) && shareSubmitButton && !shareSubmitButton.disabled) {
+          event.preventDefault();
+          shareSubmitButton.click();
+        }
+      };
+    }
     if (shareModal) {
       shareModal.onclick = function (event) {
         if (event.target === shareModal) {
@@ -315,7 +449,7 @@ import { wsIcon } from './icon.mjs';
     // Capture phase + stopPropagation: an open overlay consumes Escape so the
     // verification modal underneath stays open.
     el._shareKeydownHandler = function (event) {
-      if (event.key === "Escape" && shareModal && shareModal.style.display === "block") {
+      if (event.key === "Escape" && shareModal && shareModal.classList.contains("is-open")) {
         event.stopPropagation();
         closeShareNostrModal();
       }
@@ -338,6 +472,7 @@ import { wsIcon } from './icon.mjs';
     if (shareSubmitButton) {
       shareSubmitButton.onclick = async function () {
         const message = shareTextarea.value;
+        setShareBusy(true);
         try {
           const noteId = await createNostrNote(message);
           showToast(
@@ -347,10 +482,13 @@ import { wsIcon } from './icon.mjs';
             "success",
             7000
           );
+          closeShareNostrModal();
         } catch (error) {
+          // Keep the dialog (and the user's text) open so they can retry.
           showToast("Error sharing note: " + error.message, "error");
+        } finally {
+          setShareBusy(false);
         }
-        closeShareNostrModal();
       };
     }
   }
