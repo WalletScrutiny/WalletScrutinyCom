@@ -20,7 +20,6 @@ import {
 import {
   applyDeletions,
   buildReplyTree,
-  headline,
   latestOpinionPerAuthor,
   sortOpinions,
   stripOpinionWrapper,
@@ -66,7 +65,6 @@ export class OpinionsWidget {
   constructor(root) {
     this.root = root;
     this.config = readWidgetConfig(root.dataset);
-    this.headlineElement = root.querySelector('.opinions__headline');
     this.body = root.querySelector('.opinions__body') ?? root.appendChild(el('div', { className: 'opinions__body' }));
 
     this.opinions = [];
@@ -267,11 +265,6 @@ export class OpinionsWidget {
   // --- rendering -------------------------------------------------------
 
   render() {
-    if (this.headlineElement) {
-      this.headlineElement.textContent = this.loaded && !this.loadError
-        ? headline(this.trustedOpinions.length, this.opinions.length)
-        : 'Community Opinions';
-    }
     this.composeEditor?.destroy();
     this.composeEditor = null;
     this.body.replaceChildren();

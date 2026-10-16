@@ -9,7 +9,6 @@ import {
   countThread,
   getReplyParentId,
   getSentiment,
-  headline,
   isEdited,
   latestOpinionPerAuthor,
   opinionAddress,
@@ -136,10 +135,6 @@ describe('sorting and tallies', () => {
     ]);
     assert.deepEqual(counts, { '1': 1, '0': 1, '-1': 1 });
     assert.equal(getSentiment(opinion({ id: '4', sentiment: 'x' })), null);
-  });
-
-  test('headline', () => {
-    assert.equal(headline(2, 5), 'Community Opinions (2/5)');
   });
 
   test('isEdited compares published_at with created_at', () => {

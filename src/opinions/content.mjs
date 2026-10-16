@@ -240,10 +240,6 @@ export function isEdited(event) {
   return Number.isFinite(publishedAt) && publishedAt < (event.created_at ?? 0);
 }
 
-export function headline(trustedCount, allCount) {
-  return `Community Opinions (${trustedCount}/${allCount})`;
-}
-
 /** Zapstore app address (NIP-82 kind 32267) a comment must name in its `A` tag. */
 export function zapstoreAppAddress(publisherPubkey, appId) {
   return `${zapstoreAppKind}:${publisherPubkey}:${appId}`;

@@ -13,6 +13,14 @@ const ZAPSTORE_ONLY_PAGE_PATH = '/mobile/com.blitzwallet/';
 /** Android wallet with comments on Zapstore and only unknown-author opinions here. */
 const UNAPPROVED_AND_ZAPSTORE_PAGE_PATH = '/mobile/com.cakewallet.cake_wallet/';
 
+/** The widget has fetched the opinions (or failed); the body drops aria-busy either way. */
+async function expectLoaded(section) {
+  await expect(section.locator('.opinions__body')).not.toHaveAttribute('aria-busy', 'true', {
+    timeout: NOSTR_DATA_TIMEOUT_MS,
+  });
+  await expect(section.locator('.opinions__status--error')).toHaveCount(0);
+}
+
 /** Every card names its author: a profile picture or a profile name, never only a shortened npub. */
 async function expectIdentifiedAuthors(section) {
   const cards = await section.locator('.opinion-card').all();
@@ -32,9 +40,7 @@ test.describe('Community opinions', () => {
 
     const section = page.locator('#communityOpinions');
     await expect(section).toBeVisible();
-    await expect(section.locator('.opinions__headline')).toHaveText(/Community Opinions \(\d+\/\d+\)/, {
-      timeout: NOSTR_DATA_TIMEOUT_MS,
-    });
+    await expectLoaded(section);
 
     await expect(section.locator('.opinions__counts li')).toHaveCount(3);
     await expect(section.locator('.opinions__filter[aria-pressed="true"]')).toHaveText('Approved');
@@ -57,9 +63,7 @@ test.describe('Community opinions', () => {
     await page.goto(UNIDENTIFIED_ZAPSTORE_PAGE_PATH);
 
     const section = page.locator('#communityOpinions');
-    await expect(section.locator('.opinions__headline')).toHaveText(/Community Opinions \([1-9]\d*\/\d+\)/, {
-      timeout: NOSTR_DATA_TIMEOUT_MS,
-    });
+    await expectLoaded(section);
     await expect(section.locator('.opinion-card').first()).toBeVisible({ timeout: NOSTR_DATA_TIMEOUT_MS });
     // Zapstore has comments for this app, all by a pubkey without a kind 0: no tab, no trace.
     await expect(section.locator('.opinions__tab')).toHaveCount(0);
@@ -80,9 +84,7 @@ test.describe('Community opinions', () => {
     await page.goto(WALLET_PAGE_PATH);
 
     const section = page.locator('#communityOpinions');
-    await expect(section.locator('.opinions__headline')).toHaveText(/Community Opinions \(\d+\/\d+\)/, {
-      timeout: NOSTR_DATA_TIMEOUT_MS,
-    });
+    await expectLoaded(section);
 
     await section.getByRole('button', { name: 'Add your opinion' }).click();
 
@@ -105,9 +107,7 @@ test.describe('Community opinions', () => {
     await page.goto(WALLET_PAGE_PATH);
 
     const section = page.locator('#communityOpinions');
-    await expect(section.locator('.opinions__headline')).toHaveText(/Community Opinions \(\d+\/\d+\)/, {
-      timeout: NOSTR_DATA_TIMEOUT_MS,
-    });
+    await expectLoaded(section);
 
     await expect(section.locator('.opinions__no-extension')).toContainText('Nostr extension', { timeout: 15_000 });
     await expect(section.getByRole('button', { name: 'Add your opinion' })).toHaveCount(0);
@@ -185,7 +185,6 @@ test.describe('Community opinions', () => {
     const section = page.locator('#communityOpinions');
     const tabs = section.locator('.opinions__tab');
     await expect(tabs).toHaveCount(2, { timeout: NOSTR_DATA_TIMEOUT_MS });
-    await expect(section.locator('.opinions__headline')).toHaveText(/Community Opinions \(0\/[1-9]\d*\)/);
     await expect(tabs.nth(1)).toHaveAttribute('aria-selected', 'true');
     await expect(section.locator('.opinions__source-note')).not.toContainText('No opinions on WalletScrutiny yet');
     await expect(section.locator('.opinion-card__version').first()).toBeVisible();
