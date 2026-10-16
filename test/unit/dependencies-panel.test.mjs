@@ -60,7 +60,8 @@ describe('dependencies panel', () => {
     assert.equal(host.hidden, false);
     assert.equal(step.hidden, false);
     const values = [...host.querySelectorAll('.dp-tile__value')].map(e => e.textContent);
-    assert.deepEqual(values, ['412', '14', '13', '0']);
+    assert.deepEqual(values, ['40', '372', '13', '0']);
+    assert.match(host.querySelector('.dp-notices').textContent, /14 of the 412 packages could not be checked for advisories \(14 version range, not an exact version\); that is not the same as "no problems"\./);
     assert.equal(host.querySelector('.dp-tile__sub').textContent, '1 critical · 2 high · 10 medium');
     assert.equal(host.querySelector('.dp-tile__sub--where').textContent, '1 in the app · 2 in build tooling · 10 unplaced');
     assert.equal(host.querySelectorAll('tbody tr').length, 10);

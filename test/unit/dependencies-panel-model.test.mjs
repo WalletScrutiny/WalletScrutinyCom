@@ -56,6 +56,8 @@ describe('dependencies panel model', () => {
     assert.equal(m.commit, 'a1b2c3d');
     assert.equal(m.versionMatches, false);
     assert.equal(m.packages, 412);
+    assert.equal(m.direct, 40);
+    assert.equal(m.transitive, 372);
     assert.equal(m.unchecked, 14);
     assert.deepEqual(m.uncheckedBreakdown.map(u => [u.reason, u.count]), [['floating', 12], ['git-or-path', 2]]);
     assert.equal(m.vulnerabilities, 2);
