@@ -96,7 +96,7 @@ test.describe('Community opinions', () => {
     await expect(tabs.nth(1)).toContainText('Zapstore');
     await expect(tabs.nth(1).locator('.opinions__tab-count')).toHaveText(/^[1-9]\d*$/);
     await expect(section.locator('.opinions__filter')).toHaveCount(2);
-    await expect(section.locator('.opinion-card__source')).toHaveCount(0);
+    await expect(section.locator('.opinion-card__version')).toHaveCount(0);
 
     await tabs.nth(1).click();
     await expect(tabs.nth(1)).toHaveAttribute('aria-selected', 'true');
@@ -104,8 +104,8 @@ test.describe('Community opinions', () => {
     await expect(section.locator('.opinions__filter')).toHaveCount(0);
     const card = section.locator('.opinion-card').first();
     await expect(card).toBeVisible();
-    await expect(card.locator('.opinion-card__source')).toContainText('Zapstore');
-    await expect(card.locator('.opinion-card__source')).toHaveAttribute('href', /zapstore\.dev\/apps\/de\.schildbach\.wallet/);
+    await expect(card).not.toHaveClass(/opinion-card--reply/);
+    await expect(card.locator('.opinion-card__version')).toHaveText(/^v\d/);
     await expect(card.locator('.opinion-card__content')).not.toBeEmpty();
     await expect(card.getByRole('button', { name: 'Like', exact: true })).toHaveCount(0);
     await expect(card.getByRole('button', { name: 'Reply', exact: true })).toHaveCount(0);
@@ -113,7 +113,7 @@ test.describe('Community opinions', () => {
 
     await tabs.nth(0).click();
     await expect(section.locator('.opinions__filter[aria-pressed="true"]')).toHaveText('Approved');
-    await expect(section.locator('.opinion-card__source')).toHaveCount(0);
+    await expect(section.locator('.opinion-card__version')).toHaveCount(0);
 
     assertNoConsoleErrors();
   });
@@ -130,7 +130,8 @@ test.describe('Community opinions', () => {
     await expect(section.locator('.opinions__toolbar')).toHaveCount(0);
     const card = section.locator('.opinion-card').first();
     await expect(card).toBeVisible();
-    await expect(card.locator('.opinion-card__source')).toContainText('Zapstore');
+    await expect(card).not.toHaveClass(/opinion-card--reply/);
+    await expect(card.locator('.opinion-card__version')).toHaveText(/^v\d/);
     await expect(card.getByRole('button', { name: 'Like', exact: true })).toHaveCount(0);
 
     assertNoConsoleErrors();
@@ -147,7 +148,7 @@ test.describe('Community opinions', () => {
     await expect(section.locator('.opinions__headline')).toHaveText(/Community Opinions \(0\/[1-9]\d*\)/);
     await expect(tabs.nth(1)).toHaveAttribute('aria-selected', 'true');
     await expect(section.locator('.opinions__source-note')).not.toContainText('No opinions on WalletScrutiny yet');
-    await expect(section.locator('.opinion-card__source').first()).toBeVisible();
+    await expect(section.locator('.opinion-card__version').first()).toBeVisible();
 
     await tabs.nth(0).click();
     await expect(section.getByRole('button', { name: /Show \d+ opinions? of unknown authors?\./ })).toBeVisible();

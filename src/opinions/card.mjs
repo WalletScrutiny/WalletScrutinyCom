@@ -7,7 +7,7 @@ import { parseMarkdownToSafeHtml } from '../marked-loader.mjs';
 import { formatCommentDate } from '../assets-table-utils.mjs';
 import { getProfileDisplayName, getProfileImageUrl, PROFILE_PLACEHOLDER_IMAGE, profileImageFallback } from '../nostr-profile.mjs';
 import { wsIcon } from '../icon.mjs';
-import { opinionKind, njumpUrl, zapstoreAppUrl } from './constants.mjs';
+import { opinionKind, njumpUrl } from './constants.mjs';
 import { countThread, emptyReactionTally, getSentiment, isEdited, stripOpinionWrapper, zapstoreCommentVersion } from './content.mjs';
 import { approvedIcon, replyIcon, sentimentIcon, thumbsDownIcon, thumbsUpIcon } from './icons.mjs';
 import { createReplyEditor } from './editor.mjs';
@@ -70,22 +70,13 @@ function reactionButton(icon, label) {
   return { button, count };
 }
 
-/** "Zapstore · v1.2.3" pill linking to the app's Zapstore page. */
-function renderZapstoreBadge(ctx, event) {
-  const badge = el('a', {
-    className: 'opinion-card__source',
-    href: `${zapstoreAppUrl}${encodeURIComponent(ctx.config.zapstoreAppId)}`,
-    target: '_blank',
-    rel: 'noopener noreferrer',
-    title: 'Posted on Zapstore',
-    html: wsIcon('zapstore'),
-  });
-  badge.appendChild(el('span', {}, 'Zapstore'));
+/** Wallet version a Zapstore comment was written for, as a "v1.2.3" pill. */
+function renderVersion(event) {
   const version = zapstoreCommentVersion(event);
-  if (version) {
-    badge.appendChild(el('span', { className: 'opinion-card__version' }, `v${version}`));
+  if (!version) {
+    return null;
   }
-  return badge;
+  return el('span', { className: 'opinion-card__version', title: 'Wallet version this comment was written for' }, `v${version}`);
 }
 
 /**
@@ -95,10 +86,12 @@ function renderZapstoreBadge(ctx, event) {
  */
 export function renderCard(ctx, event, { opinion = event, depth = 0 } = {}) {
   const isOpinion = event.kind === opinionKind;
+  // Top-level Zapstore comments are kind 1111 too, so the reply look keys on the depth, not the kind.
+  const isReply = depth > 0;
   const readOnly = ctx.readOnly === true;
   const mine = !readOnly && ctx.me && ctx.me === event.pubkey;
   const card = el('article', {
-    className: `opinion-card${isOpinion ? '' : ' opinion-card--reply'}${readOnly ? ' opinion-card--read-only' : ''}`,
+    className: `opinion-card${isReply ? ' opinion-card--reply' : ''}${readOnly ? ' opinion-card--read-only' : ''}`,
     dataset: { eventId: event.id, source: ctx.source ?? 'walletscrutiny' },
   });
 
@@ -111,8 +104,9 @@ export function renderCard(ctx, event, { opinion = event, depth = 0 } = {}) {
   }
   left.appendChild(renderAuthor(ctx, event.pubkey));
   const meta = el('span', { className: 'opinion-card__meta' });
-  if (ctx.source === 'zapstore') {
-    meta.appendChild(renderZapstoreBadge(ctx, event));
+  const version = ctx.source === 'zapstore' ? renderVersion(event) : null;
+  if (version) {
+    meta.appendChild(version);
     meta.appendChild(el('span', {}, ' · '));
   }
   if (isOpinion && isEdited(event)) {

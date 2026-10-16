@@ -229,8 +229,8 @@ body.dark .opinion-card--reply {
 }
 
 .opinion-card__avatar {
-  width: 36px;
-  height: 36px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   object-fit: cover;
   background: var(--neutral-5);
@@ -238,8 +238,8 @@ body.dark .opinion-card--reply {
 }
 
 .opinion-card--reply .opinion-card__avatar {
-  width: 28px;
-  height: 28px;
+  width: 35px;
+  height: 35px;
 }
 
 .opinion-card__name {
@@ -262,29 +262,11 @@ body.dark .opinion-card--reply {
   white-space: nowrap;
 }
 
-.opinion-card__source {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3em;
+.opinion-card__version {
   padding: 0.1em 0.6em;
   border-radius: 999px;
   background: var(--neutral-6);
   color: var(--neutral-2);
-  text-decoration: none;
-}
-
-.opinion-card__source:hover {
-  color: var(--text);
-}
-
-.opinion-card__source .ws-icon {
-  width: 0.8em;
-  height: 0.8em;
-  fill: currentColor;
-}
-
-.opinion-card__version {
-  color: var(--neutral-3);
 }
 
 .opinion-card__meta a {
@@ -417,8 +399,8 @@ body.dark .opinion-card--reply {
 }
 
 .opinions__signed-in .opinion-card__avatar {
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
 }
 
 .opinions-editor,
