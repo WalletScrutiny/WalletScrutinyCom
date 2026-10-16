@@ -145,8 +145,16 @@ development dependencies, `tests` when only from test frameworks and test
 tooling among those (jest, vitest, mocha, junit-style configurations, …), and
 null when nothing says. `package-lock.json` records the dev flag; `yarn.lock`
 records the graph but no flag, so `plugins/pinning.mjs` walks it from the
-manifest's roots (`yarnScopes`); gradle resolution derives it from the
-configuration names. The scope is a placement fact, not a verdict: a build
+manifest's roots (`yarnScopes`); `Cargo.lock` likewise, with the workspace
+crates' `Cargo.toml` sections as roots (`cargoScopes`: `[dependencies]` is
+app, `[build-dependencies]` build, `[dev-dependencies]` tests, since cargo
+compiles those for tests, examples and benches only; a registry crate's own
+build helpers are listed with its normal dependencies in the lock and count as
+app, the safe direction); gradle resolution derives it from the configuration
+names. Measured 2026-10-16: AirGap Vault yarn.lock 1,338 rows → 330 app /
+1,008 build; Liana Cargo.lock 839 → 829 app / 6 build / 4 unplaced; Gem
+Wallet core 703 → all app; Passport Prime KeyOS (17 lockfiles) 3,937 → 3,595
+app / 135 tests / 24 build / 183 unplaced. The scope is a placement fact, not a verdict: a build
 dependency can still hurt the product (a `postinstall` script runs on the
 developer's machine), which is why every advisory still needs its own
 decision.

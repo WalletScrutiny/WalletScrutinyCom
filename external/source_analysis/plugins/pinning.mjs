@@ -637,12 +637,14 @@ function analyzeCargo(repoPath) {
       version: (block.match(/^version = "([^"]+)"/m) || [])[1] || '',
       source: (block.match(/^source = "([^"]+)"/m) || [])[1] || '',
       checksum: (block.match(/^checksum = "([^"]+)"/m) || [])[1] || '',
-      // `dependencies = [ "name", "name 1.2.3", "name 1.2.3 (source)" ]`
-      dependencies: [...((block.match(/^dependencies = \[([\s\S]*?)^\]/m) || [])[1] || '').matchAll(/"([^"\s]+)/g)].map(m => m[1]),
+      // `dependencies = [ "name", "name 1.2.3", "name 1.2.3 (source)" ]`: the
+      // whole spec is kept, the version tells two resolutions of a name apart
+      dependencies: [...((block.match(/^dependencies = \[([\s\S]*?)^\]/m) || [])[1] || '').matchAll(/"([^"]+)"/g)].map(m => m[1]),
     }));
     // Packages without a source are the workspace's own crates; what they
     // list is the declared (direct) set, everything else is transitive.
-    const direct = new Set(blocks.filter(b => !b.source).flatMap(b => b.dependencies));
+    const direct = new Set(blocks.filter(b => !b.source).flatMap(b => b.dependencies.map(d => d.split(' ')[0])));
+    const scopes = cargoScopes(blocks, cargoManifests(path.dirname(lockFile)));
     for (const block of blocks) {
       result.deps.total++;
       if (block.checksum) result.deps.hashPinned++;
@@ -657,11 +659,125 @@ function analyzeCargo(repoPath) {
         resolved: block.source,
         integrity: block.checksum ? `sha256:${block.checksum}` : '',
         direct: direct.has(block.name),
+        dev: scopes.has(block) ? scopes.get(block) !== 'app' : null,
+        scope: scopes.get(block) ?? null,
         tier: block.checksum ? 'hash-pinned' : (block.source.startsWith('git+') ? 'source-ref-pinned' : 'version-pinned'),
       }));
     }
   }
   return result;
+}
+
+/**
+ * The dependency sections of every Cargo.toml below a directory, keyed by
+ * crate name: { app, build, tests } as sets of dependency names (the crate
+ * name after a `package = "…"` rename). Sections read: [dependencies],
+ * [build-dependencies], [dev-dependencies], the same under [target.'…'.…],
+ * and their [dependencies.<name>] sub-tables. Not a TOML parser: enough for
+ * the shapes manifests in the wild use.
+ */
+export function cargoManifests(dir) {
+  const manifests = new Map();
+  for (const file of findFiles(dir, (name) => name === 'Cargo.toml')) {
+    const text = fs.readFileSync(file, 'utf8');
+    const name = (text.match(/^\[package\][^[]*?^name\s*=\s*"([^"]+)"/ms) || [])[1];
+    if (!name) continue; // a virtual workspace manifest declares no crate
+    const sets = { app: new Set(), build: new Set(), tests: new Set() };
+    const kindOf = (section) => /(^|\.)dev-dependencies$/.test(section) ? 'tests' : /(^|\.)build-dependencies$/.test(section) ? 'build' : /(^|\.)dependencies$/.test(section) ? 'app' : null;
+    let section = null;
+    let subTable = null; // [dependencies.<name>]
+    for (const raw of text.split('\n')) {
+      const line = raw.replace(/#.*$/, '').trim();
+      if (!line) continue;
+      let m;
+      if ((m = line.match(/^\[\[?([^\]]+)\]?\]$/))) {
+        const header = m[1].trim();
+        // [dependencies.foo] / [target.'cfg(unix)'.dependencies.foo]
+        const sub = header.match(/^((?:target\.[^.]+(?:\.[^.]+)*?\.)?(?:dev-|build-)?dependencies)\.(.+)$/);
+        if (sub && kindOf(sub[1])) {
+          section = sub[1]; subTable = sub[2].replace(/^"|"$/g, '');
+          sets[kindOf(section)].add(subTable);
+        } else {
+          section = header; subTable = null;
+        }
+        continue;
+      }
+      const kind = section && kindOf(section);
+      if (!kind) continue;
+      if (subTable) {
+        if ((m = line.match(/^package\s*=\s*"([^"]+)"/))) { sets[kind].delete(subTable); sets[kind].add(m[1]); }
+        continue;
+      }
+      if ((m = line.match(/^"?([A-Za-z0-9_.-]+)"?\s*=\s*(.*)$/))) {
+        const renamed = m[2].match(/package\s*=\s*"([^"]+)"/);
+        sets[kind].add(renamed ? renamed[1] : m[1]);
+      }
+    }
+    manifests.set(name, sets);
+  }
+  return manifests;
+}
+
+/**
+ * Where each Cargo.lock package ends up, from the workspace crates' manifests:
+ * 'app' when reachable through [dependencies], 'build' when only through
+ * [build-dependencies], 'tests' when only through [dev-dependencies] (which
+ * cargo compiles for tests, examples and benches only). Cargo.lock lists a
+ * registry crate's normal and build dependencies together, so a registry
+ * crate's build script helpers count as app: an over-approximation in the
+ * safe direction. Workspace crates without a manifest give no answer.
+ */
+export function cargoScopes(blocks, manifests) {
+  const byName = new Map();
+  for (const b of blocks) {
+    if (!byName.has(b.name)) byName.set(b.name, []);
+    byName.get(b.name).push(b);
+  }
+  // "name", "name 1.2.3" or "name 1.2.3 (source)": cargo adds the version
+  // when two resolutions share a name, and the source when they share both
+  const resolve = (spec) => {
+    const [name, version, source] = spec.split(' ');
+    const candidates = byName.get(name) || [];
+    if (!version) return candidates[0];
+    const sameVersion = candidates.filter(b => b.version === version);
+    return (source && sameVersion.find(b => `(${b.source})` === source)) || sameVersion[0];
+  };
+  const workspace = new Set(blocks.filter(b => !b.source));
+  // What a package pulls into whoever depends on it: through a workspace
+  // crate only its [dependencies] (its dev and build sections stay with it),
+  // through a registry crate everything the lock lists.
+  const deps = (b) => {
+    const m = workspace.has(b) ? manifests.get(b.name) : null;
+    return b.dependencies.map(resolve).filter(Boolean).filter(d => !m || m.app.has(d.name));
+  };
+  const reach = (roots, stop) => {
+    const seen = new Set();
+    const queue = [...roots];
+    while (queue.length) {
+      const b = queue.pop();
+      if (seen.has(b) || stop.has(b)) continue;
+      seen.add(b);
+      for (const d of deps(b)) queue.push(d);
+    }
+    return seen;
+  };
+  const rootsOf = (kind) => {
+    const roots = [];
+    for (const w of workspace) {
+      const m = manifests.get(w.name);
+      if (!m) continue;
+      for (const d of w.dependencies.map(resolve).filter(Boolean)) if (m[kind].has(d.name)) roots.push(d);
+    }
+    return roots;
+  };
+  const app = reach(rootsOf('app'), new Set());
+  const build = reach(rootsOf('build'), app);
+  const tests = reach(rootsOf('tests'), app);
+  const scopes = new Map();
+  for (const b of app) scopes.set(b, 'app');
+  for (const b of build) scopes.set(b, 'build');
+  for (const b of tests) if (!build.has(b)) scopes.set(b, 'tests');
+  return scopes;
 }
 
 /* --------------------------------- report -------------------------------- */
