@@ -51,8 +51,6 @@ export const maxReplyLength = 10000;
 /** Per-relay wait for EOSE on the initial loads. */
 export const fetchMaxWaitMs = 5000;
 
-export const njumpUrl = 'https://njump.me/';
-
 /**
  * Zapstore (zapstore.dev) comments on an Android app: NIP-22 comments (kind
  * 1111) whose `A` tag names the NIP-82 app event (kind 32267, `d` = package

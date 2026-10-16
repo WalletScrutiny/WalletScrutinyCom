@@ -282,10 +282,6 @@ body.dark .opinion-card--reply {
   color: var(--neutral-2);
 }
 
-.opinion-card__meta a {
-  color: inherit;
-}
-
 /* Long content is cut after --clamp-lines lines with a "Read more" toggle (card.mjs). */
 .opinion-card__content {
   --clamp-lines: 6;

@@ -7,7 +7,7 @@ import { parseMarkdownToSafeHtml } from '../marked-loader.mjs';
 import { formatCommentDate } from '../assets-table-utils.mjs';
 import { getProfileDisplayName, getProfileImageUrl, PROFILE_PLACEHOLDER_IMAGE, profileImageFallback } from '../nostr-profile.mjs';
 import { wsIcon } from '../icon.mjs';
-import { opinionKind, njumpUrl, SENTIMENT_LABELS } from './constants.mjs';
+import { opinionKind, SENTIMENT_LABELS } from './constants.mjs';
 import { countThread, emptyReactionTally, getSentiment, isEdited, stripOpinionWrapper, zapstoreCommentVersion } from './content.mjs';
 import { approvedIcon, replyIcon, sentimentIcon, thumbsDownIcon, thumbsUpIcon } from './icons.mjs';
 import { createReplyEditor } from './editor.mjs';
@@ -117,11 +117,9 @@ export function renderCard(ctx, event, { opinion = event, depth = 0 } = {}) {
   if (isOpinion && isEdited(event)) {
     meta.appendChild(el('span', {}, 'Edited · '));
   }
-  meta.appendChild(el('a', {
-    href: `${njumpUrl}${event.id}`,
-    target: '_blank',
-    rel: 'noopener noreferrer',
-    title: 'Open on njump',
+  meta.appendChild(el('span', {
+    className: 'opinion-card__date',
+    title: new Date(event.created_at * 1000).toLocaleString(),
   }, formatCommentDate(event.created_at)));
   top.append(left, meta);
   card.appendChild(top);

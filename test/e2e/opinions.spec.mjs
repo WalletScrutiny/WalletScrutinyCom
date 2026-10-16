@@ -44,7 +44,8 @@ test.describe('Community opinions', () => {
     await expect(cards.first().locator('.opinion-card__content')).not.toBeEmpty();
     await expect(cards.first().locator('.opinion-card__approved')).toBeVisible();
     await expect(cards.first().locator('.opinion-card__sentiment')).toHaveText(/^(Positive|Neutral|Negative) opinion$/);
-    await expect(cards.first().locator('.opinion-card__meta a')).toHaveAttribute('href', /njump\.me/);
+    await expect(cards.first().locator('.opinion-card__meta a')).toHaveCount(0);
+    await expect(cards.first().locator('.opinion-card__date')).toHaveText(/ago$|^\d/);
     await expectIdentifiedAuthors(section);
 
     assertNoConsoleErrors();
