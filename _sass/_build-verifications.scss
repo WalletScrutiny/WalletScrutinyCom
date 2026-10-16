@@ -131,6 +131,32 @@ body.dark .bv-panel {
   font-size: $font-xxs;
 }
 
+/* Pre-release stones (alpha, beta, rc): smaller, with the suffix on its own line. */
+.bv-stone--small .bv-stone__pill {
+  min-width: 0;
+  gap: 3px;
+  padding: 5px 7px;
+  border-radius: 10px;
+}
+
+.bv-stone--small[aria-pressed="true"] .bv-stone__pill {
+  padding: 4px 6px;
+}
+
+.bv-stone__name--split {
+  flex-direction: column;
+  gap: 0;
+  line-height: 1.05;
+}
+
+.bv-stone__suffix {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+}
+
 .bv-pips {
   display: flex;
   gap: 3px;

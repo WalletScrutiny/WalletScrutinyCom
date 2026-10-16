@@ -64,26 +64,47 @@ function statusPill(status) {
 
 // ---------------------------------------------------------------- every version
 
-function stone(version, selected) {
+function pips(version) {
   const current = version.verifications.slice(0, MAX_PIPS);
-  const pips = el('span', { className: 'bv-pips', 'aria-hidden': 'true' },
+  return el('span', { className: 'bv-pips', 'aria-hidden': 'true' },
     current.map(v => el('span', { className: `bv-pip ${pipModifier(getFirstTagValue(v, 'status'))}`.trim() })),
   );
+}
+
+/**
+ * The version's name. An alpha, beta or rc is split in two lines, "13.2.3" over "rc1", so
+ * its stone stays narrow.
+ */
+function stoneName(version) {
+  const warning = version.hasWarning
+    ? el('span', { className: 'bv-stone__warning', title: 'A verifier flagged a serious problem with this version' }, '⚠')
+    : null;
+  if (version.prerelease && version.suffix) {
+    return el('span', { className: 'bv-stone__name bv-stone__name--prerelease bv-stone__name--split' },
+      el('span', { className: 'bv-stone__base' }, version.base),
+      el('span', { className: 'bv-stone__suffix' }, version.suffix, warning),
+    );
+  }
+  return el('span', { className: `bv-stone__name${version.prerelease ? ' bv-stone__name--prerelease' : ''}` },
+    version.name,
+    warning,
+  );
+}
+
+function stone(version, selected) {
   const label = `Version ${version.name}, ${headlineFor(version)}`;
+  // Pre-releases get a smaller stone, and no pip row at all when nobody tested them.
   return el('button', {
     type: 'button',
-    className: `bv-stone bv-stone--${version.glass}`,
+    className: `bv-stone bv-stone--${version.glass}${version.prerelease ? ' bv-stone--small' : ''}`,
     'aria-pressed': selected ? 'true' : 'false',
     'aria-label': label,
     title: headlineFor(version),
     dataset: { versionKey: version.key },
   },
     el('span', { className: 'bv-stone__pill' },
-      el('span', { className: `bv-stone__name${version.prerelease ? ' bv-stone__name--prerelease' : ''}` },
-        version.name,
-        version.hasWarning ? el('span', { className: 'bv-stone__warning', title: 'A verifier flagged a serious problem with this version' }, '⚠') : null,
-      ),
-      pips,
+      stoneName(version),
+      version.prerelease && version.verifications.length === 0 ? null : pips(version),
     ),
   );
 }

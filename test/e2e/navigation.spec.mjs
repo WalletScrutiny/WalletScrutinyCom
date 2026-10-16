@@ -27,6 +27,16 @@ test.describe('Navigation and read-only pages', () => {
     await expect(selectedVersion.locator('.bv-caption')).toContainText(/verifications for zeus/i);
     await expect(selectedVersion.locator('.bv-row').first()).toBeVisible();
 
+    // Zeus ships alphas, betas and rcs: they get a smaller stone with the suffix on its
+    // own line, and picking one shows that version.
+    const prerelease = buildVerifications.locator('.bv-stone--small').last();
+    await expect(prerelease).toHaveCount(1);
+    await expect(prerelease.locator('.bv-stone__suffix')).toContainText(/alpha|beta|rc/i);
+    await prerelease.click();
+    await expect(prerelease).toHaveAttribute('aria-pressed', 'true');
+    await expect(buildVerifications.locator('.bv-stone[aria-pressed="true"]')).toHaveCount(1);
+    await expect(buildVerifications.locator('.bv-selected')).toHaveAttribute('data-version-key', await prerelease.getAttribute('data-version-key'));
+
     await assertNoLoadingSpinnerVisible(page);
     assertNoConsoleErrors();
   });
