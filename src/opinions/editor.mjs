@@ -22,10 +22,12 @@ function isDarkTheme() {
 }
 
 function loadToastUi() {
+  // The chunk names are matched by performance.assetFilter in
+  // webpack.config.js: this editor is the one asset allowed over the size hint.
   toastUiPromise ??= Promise.all([
-    import('@drenso-toast-ui/editor'),
-    import('@drenso-toast-ui/editor/dist/toastui-editor.css'),
-    import('@drenso-toast-ui/editor/dist/theme/toastui-editor-dark.css'),
+    import(/* webpackChunkName: "opinions-editor" */ '@drenso-toast-ui/editor'),
+    import(/* webpackChunkName: "opinions-editor-css" */ '@drenso-toast-ui/editor/dist/toastui-editor.css'),
+    import(/* webpackChunkName: "opinions-editor-dark-css" */ '@drenso-toast-ui/editor/dist/theme/toastui-editor-dark.css'),
   ]).then(([editorModule, lightCss, darkCss]) => {
     if (!document.getElementById(TOASTUI_STYLE_ID)) {
       const style = document.createElement('style');

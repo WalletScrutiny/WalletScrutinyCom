@@ -105,6 +105,12 @@ module.exports = (env, argv) => {
         }
       ]
     },
+    performance: {
+      // The opinions editor (ToastUI + ProseMirror, ~550 KiB minified) is a
+      // lazy chunk fetched only when someone opens "Add your opinion", so it
+      // is allowed over the 244 KiB hint. Everything else still warns.
+      assetFilter: (assetFilename) => !assetFilename.startsWith('opinions-editor'),
+    },
     optimization: {
       minimize: true,
       minimizer: [new TerserPlugin({
