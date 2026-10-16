@@ -120,6 +120,32 @@ question, data in hand either way: whether platform SDKs from the OS vendor
 proposal on the table lists platform SDKs as "closed source, platform" without
 flipping the verdict, and flips it for everything else.
 
+## Measurement first, no verdict change
+
+For now the panel only measures (Leo, 2026-10-16). No verdict and no score
+moves because of an advisory, and the panel says so in its badge,
+"Measurement only · not part of the verdict". The concern is FUD: a wallet
+with 412 advisories next to one with 0 reads as a ranking, and the moment
+readers rank by it, developers get pressured to justify every package they
+decided not to update. Many of those decisions are correct. A critical
+advisory can be "not worth updating" when the vulnerable code is never
+reached, or when the package comes from a vendor the platform already trusts:
+`com.google.gms:google-services` on an Android phone adds nothing to what
+Google can already do through the operating system, unless the phone runs
+GrapheneOS. The triage file records that as a "not affected" decision with
+the reason, it is not special-cased in the scanner.
+
+Rules that follow:
+
+- The headline and the note say "advisories present", never "vulnerabilities
+  in the wallet". The note states that a listed advisory is not a defect and
+  that leaving a version in place is often the right call.
+- No list, filter, badge or sort order anywhere on the site uses the
+  advisory count, until the triage exists and the count shown is the
+  "affected" count rather than the raw one.
+- The developer's own call is shown next to ours once they hand us a VEX
+  document, so the page carries their reasoning, not only our count.
+
 ## Publishing and disclosure
 
 Two kinds of findings, two rules.
@@ -160,4 +186,12 @@ verdict change.
    the path is good enough; the wallet has to get the vulnerability out, not
    be told how). The lockfile graph walk that answers "Where?" is a different
    thing and is in.
-5. The `Cargo.lock` walk and the VEX file are the next two steps.
+5. The `Cargo.lock` walk is in; the VEX (triage) file is the next step, then
+   a re-run of the analyser over the database so every row gets its "Where?".
+6. Beta: `npm run deploy:beta` on this branch ships the panel. The build
+   copies the export from `SOURCE_ANALYSIS_EXPORT_DIR` (default
+   `external/source_analysis/export`) or unpacks `SOURCE_ANALYSIS_EXPORT_URL`
+   (`scripts/copy-source-analysis-export.mjs`); without either the panel
+   stays hidden. The interim export is a snapshot of the production database
+   re-scored for "Where?" on AirGap only; the live analyser fills the rest
+   once it is redeployed.

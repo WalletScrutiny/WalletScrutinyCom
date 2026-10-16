@@ -5,3 +5,4 @@ temp_repos/
 backup/*.db
 cache/
 REVISION
+export/
