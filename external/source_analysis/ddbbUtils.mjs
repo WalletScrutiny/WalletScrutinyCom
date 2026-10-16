@@ -137,6 +137,9 @@ export function initDatabase(dbPath = DB_PATH) {
   // EXISTS leaves an existing table alone, so add them one by one when missing.
   // `scope` is where a package ends up: app, build, tests, or NULL (not said).
   for (const table of ['app_dependencies', 'app_vulnerabilities']) ensureColumn(db, table, 'scope', 'TEXT');
+  // `dependants` is the JSON list of package names that require this one, one
+  // hop up (plugins/pinning.mjs makeEntry); NULL when the lockfile has no graph.
+  for (const table of ['app_dependencies', 'app_vulnerabilities']) ensureColumn(db, table, 'dependants', 'TEXT');
 
   // Last good copy of the site's app list (see appList.mjs), one row per
   // wallet record with a repository.
@@ -266,6 +269,18 @@ const scopeOrNull = (v) => (SCOPES.includes(v) ? v : null);
 
 const boolOrNull = (v) => (v === null || v === undefined ? null : (v ? 1 : 0));
 
+const dependantsOrNull = (v) => (Array.isArray(v) ? JSON.stringify([...new Set(v)].sort()) : null);
+// The stored JSON list back as an array; null when the row predates the column or the files had no graph.
+export const dependantsOfRow = (v) => {
+  if (v == null) return null;
+  try {
+    const list = JSON.parse(v);
+    return Array.isArray(list) ? list : null;
+  } catch {
+    return null;
+  }
+};
+
 // Replace the stored dependency set of (appId, version) with the entries of
 // the given pinning analyses (see plugins/pinning.mjs makeEntry).
 // Returns the number of rows stored.
@@ -277,8 +292,8 @@ export function saveDependencies(db, appId, version, analyses) {
     SELECT id FROM packages WHERE ecosystem = ? AND name = ? AND version = ? AND resolved = ? AND integrity = ?
   `);
   const insertDependency = db.prepare(`
-    INSERT OR REPLACE INTO app_dependencies (app_id, version, package_id, lockfile, direct, dev, scope, tier)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    INSERT OR REPLACE INTO app_dependencies (app_id, version, package_id, lockfile, direct, dev, scope, dependants, tier)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
   `);
   const clear = db.prepare('DELETE FROM app_dependencies WHERE app_id = ? AND version = ?');
 
@@ -289,7 +304,7 @@ export function saveDependencies(db, appId, version, analyses) {
       for (const e of analysis.entries || []) {
         insertPackage.run(e.ecosystem, e.name, e.version, e.resolved, e.integrity);
         const { id } = selectPackage.get(e.ecosystem, e.name, e.version, e.resolved, e.integrity);
-        insertDependency.run(appId, version, id, e.lockfile, boolOrNull(e.direct), boolOrNull(e.dev), scopeOrNull(e.scope), e.tier);
+        insertDependency.run(appId, version, id, e.lockfile, boolOrNull(e.direct), boolOrNull(e.dev), scopeOrNull(e.scope), dependantsOrNull(e.dependants), e.tier);
         count++;
       }
     }
@@ -303,14 +318,14 @@ export function saveDependencies(db, appId, version, analyses) {
 export function saveVulnerabilities(db, appId, version, { findings }) {
   const insert = db.prepare(`
     INSERT OR REPLACE INTO app_vulnerabilities
-      (app_id, version, ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+      (app_id, version, ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `);
   return db.transaction(() => {
     db.prepare('DELETE FROM app_vulnerabilities WHERE app_id = ? AND version = ?').run(appId, version);
     for (const f of findings) {
       insert.run(appId, version, f.ecosystem, f.name, f.version, f.id, f.severity,
-        f.aliases.join(' '), f.fixed.join(' '), f.summary, boolOrNull(f.direct), boolOrNull(f.dev), scopeOrNull(f.scope));
+        f.aliases.join(' '), f.fixed.join(' '), f.summary, boolOrNull(f.direct), boolOrNull(f.dev), scopeOrNull(f.scope), dependantsOrNull(f.dependants));
     }
     return findings.length;
   })();
@@ -318,7 +333,7 @@ export function saveVulnerabilities(db, appId, version, { findings }) {
 
 export function getVulnerabilities(db, appId, version) {
   return db.prepare(`
-    SELECT ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope
+    SELECT ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants
     FROM app_vulnerabilities WHERE app_id = ? AND version = ?
     ORDER BY CASE severity WHEN 'malicious' THEN 0 WHEN 'critical' THEN 1 WHEN 'high' THEN 2
       WHEN 'moderate' THEN 3 WHEN 'low' THEN 4 ELSE 5 END, ecosystem, name, vuln_id
@@ -329,7 +344,7 @@ export function getVulnerabilities(db, appId, version) {
 export function getDependencies(db, appId, version) {
   return db.prepare(`
     SELECT p.ecosystem, p.name, p.version AS dep_version, p.resolved, p.integrity,
-           d.lockfile, d.direct, d.dev, d.scope, d.tier
+           d.lockfile, d.direct, d.dev, d.scope, d.dependants, d.tier
     FROM app_dependencies d JOIN packages p ON p.id = d.package_id
     WHERE d.app_id = ? AND d.version = ?
     ORDER BY p.ecosystem, d.lockfile, p.name, p.version
