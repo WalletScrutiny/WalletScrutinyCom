@@ -7,7 +7,8 @@
 //   index.json                          every analysed app with its latest analysis summary
 //   apps/<appId>.json                   all analyses of one app, with advisories and the diff to the previous release
 //   apps/<aliasId>.json                 stub {appId, alias: true} for the repository's other app ids (the iPhone record)
-//   apps/<appId>/<ref>/dependencies.json  the full resolved dependency list of one release
+//   apps/<appId>/<ref>/dependencies.json  the full resolved dependency list of one release, each row with how many products ship the package
+//   packages/index.json                 every package shipped by two or more products, with the products per version
 //
 // How the files travel to the site (Blossom blob + pointer event, rsync, or a
 // web server) is decided outside this module: it only writes a directory.
@@ -134,6 +135,51 @@ function aliasMap(db) {
   return map;
 }
 
+// How many products ship each package (any version) and each exact version:
+// "12 products use libX, 3 use libX 0.2.3". Keyed by ecosystem:name and
+// ecosystem:name@version.
+export function productCounts(db) {
+  const byName = new Map();
+  const byVersion = new Map();
+  const rows = db.prepare(`
+    SELECT p.ecosystem, p.name, p.version, COUNT(DISTINCT d.app_id) AS products
+    FROM app_dependencies d JOIN packages p ON p.id = d.package_id
+    GROUP BY p.ecosystem, p.name, p.version
+  `).all();
+  const apps = db.prepare(`
+    SELECT p.ecosystem, p.name, COUNT(DISTINCT d.app_id) AS products
+    FROM app_dependencies d JOIN packages p ON p.id = d.package_id
+    GROUP BY p.ecosystem, p.name
+  `).all();
+  for (const r of apps) byName.set(`${r.ecosystem}:${r.name}`, r.products);
+  for (const r of rows) byVersion.set(`${r.ecosystem}:${r.name}@${r.version}`, r.products);
+  return { byName, byVersion };
+}
+
+// The packages shipped by two or more products, most shared first, with the
+// product count per version: the cross-wallet "who ships X" list.
+export function sharedPackages(db, { minProducts = 2 } = {}) {
+  const rows = db.prepare(`
+    SELECT p.ecosystem, p.name, p.version, COUNT(DISTINCT d.app_id) AS products
+    FROM app_dependencies d JOIN packages p ON p.id = d.package_id
+    GROUP BY p.ecosystem, p.name, p.version
+  `).all();
+  const byName = new Map();
+  for (const r of rows) {
+    const key = `${r.ecosystem}:${r.name}`;
+    if (!byName.has(key)) byName.set(key, { ecosystem: r.ecosystem, name: r.name, versions: {}, apps: new Set() });
+    byName.get(key).versions[r.version] = r.products;
+  }
+  const totals = db.prepare(`
+    SELECT p.ecosystem, p.name, COUNT(DISTINCT d.app_id) AS products
+    FROM app_dependencies d JOIN packages p ON p.id = d.package_id
+    GROUP BY p.ecosystem, p.name HAVING products >= ?
+  `).all(minProducts);
+  return totals
+    .map(t => ({ ecosystem: t.ecosystem, name: t.name, products: t.products, versions: byName.get(`${t.ecosystem}:${t.name}`).versions }))
+    .sort((a, b) => b.products - a.products || a.ecosystem.localeCompare(b.ecosystem) || a.name.localeCompare(b.name));
+}
+
 /**
  * Write the whole export into `outDir`: built in a sibling temporary
  * directory and swapped in with a rename, so a reader never sees a half-written
@@ -147,6 +193,7 @@ export function exportAll(db, outDir, { generatedAt = new Date().toISOString(), 
   const aliases = aliasMap(db);
   const appIds = new Set([...listAnalysedApps(db), ...db.prepare('SELECT DISTINCT app_id FROM app_dependencies').all().map(r => r.app_id)]);
   const index = { schema: SCHEMA, generatedAt, analyser, apps: [] };
+  const counts = productCounts(db);
   let releases = 0;
   for (const appId of [...appIds].sort()) {
     const app = buildApp(db, appId, aliases.get(appId) || []);
@@ -161,6 +208,8 @@ export function exportAll(db, outDir, { generatedAt = new Date().toISOString(), 
           ecosystem: d.ecosystem, name: d.name, version: d.dep_version, lockfile: d.lockfile, tier: d.tier,
           direct: d.direct === null ? null : d.direct === 1, dev: d.dev === null ? null : d.dev === 1,
           resolved: d.resolved || undefined, integrity: d.integrity || undefined,
+          products: counts.byName.get(`${d.ecosystem}:${d.name}`) || 1,
+          productsSameVersion: counts.byVersion.get(`${d.ecosystem}:${d.name}@${d.dep_version}`) || 1,
         })),
       }));
       releases++;
@@ -173,6 +222,10 @@ export function exportAll(db, outDir, { generatedAt = new Date().toISOString(), 
     }
     index.apps.push(indexEntry(app));
   }
+  fs.mkdirSync(path.join(tmp, 'packages'), { recursive: true });
+  const shared = sharedPackages(db);
+  fs.writeFileSync(path.join(tmp, 'packages', 'index.json'), JSON.stringify({ schema: SCHEMA, generatedAt, minProducts: 2, packages: shared }));
+  index.sharedPackages = shared.length;
   fs.writeFileSync(path.join(tmp, 'index.json'), JSON.stringify(index));
   const previous = `${path.resolve(outDir)}.previous`;
   fs.rmSync(previous, { recursive: true, force: true });

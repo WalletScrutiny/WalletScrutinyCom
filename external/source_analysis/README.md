@@ -136,7 +136,8 @@ renamed into place so a reader never sees a half-written tree:
 | `index.json` | every analysed app: aliases (the site's app ids for the repository), latest release summary (ref, commit, date, status, dependency and advisory counts), default-branch status |
 | `apps/<aliasId>.json` | `{appId, alias: true}` for the repository's other app ids (the iPhone record of an Android app), one hop to the file above |
 | `apps/<appId>.json` | all analyses of one app: per release the counts, the advisories (id, severity, aliases, fixed-in, shipped/build-only where the lockfile says), the diff to the previous release, OSV checked/skipped counts |
-| `apps/<appId>/<ref>/dependencies.json` | the full resolved dependency list of one release (ecosystem, name, version, lockfile, pinning tier, direct, dev, integrity) |
+| `apps/<appId>/<ref>/dependencies.json` | the full resolved dependency list of one release (ecosystem, name, version, lockfile, pinning tier, direct, dev, integrity), each row with how many products ship the package and that exact version |
+| `packages/index.json` | every package shipped by two or more products, most shared first, with the product count per version ("12 products use libX, 3 use libX 0.2.3") |
 
 Sizes on the 2026-10-16 database: 59 apps, 81 releases, 31 MB in total,
 `index.json` 27 KB, the largest dependency list 1.5 MB (OneKey). How the files

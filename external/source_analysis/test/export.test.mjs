@@ -6,7 +6,7 @@ import fs from 'fs';
 import os from 'os';
 import path from 'path';
 import { initDatabase, saveDependencies, saveVulnerabilities, recordAnalysis, saveAppList } from '../ddbbUtils.mjs';
-import { exportAll, buildApp, safeName } from '../export.mjs';
+import { exportAll, buildApp, safeName, sharedPackages } from '../export.mjs';
 
 const entry = (name, version, extra = {}) => ({ ecosystem: 'npm', lockfile: 'package-lock.json', name, version, resolved: `https://registry.npmjs.org/${name}/-/${name}-${version}.tgz`, integrity: `sha512-${name}${version}`, direct: true, dev: false, tier: 'hash-pinned', ...extra });
 
@@ -18,6 +18,7 @@ function seeded() {
   ]);
   saveDependencies(db, 'app.android', 'v1.0.0', [{ ecosystem: 'npm', entries: [entry('a', '1.0.0'), entry('b', '2.0.0', { direct: false, dev: true })] }]);
   saveDependencies(db, 'app.android', 'v1.1.0', [{ ecosystem: 'npm', entries: [entry('a', '1.0.1'), entry('c', '3.0.0', { tier: 'floating', dev: null })] }]);
+  saveDependencies(db, 'app.other', 'v9', [{ ecosystem: 'npm', entries: [entry('a', '1.0.1'), entry('z', '1.0.0')] }]);
   saveVulnerabilities(db, 'app.android', 'v1.1.0', { findings: [
     { ecosystem: 'npm', name: 'a', version: '1.0.1', id: 'GHSA-aaaa', aliases: ['CVE-2026-1'], severity: 'high', summary: 'bad', fixed: ['1.0.2'], direct: true, dev: false },
   ] });
@@ -65,7 +66,7 @@ test('exportAll writes index, app files and dependency lists, atomically replaci
   fs.writeFileSync(path.join(dir, 'stale.json'), '{}');
 
   const result = exportAll(db, dir, { generatedAt: '2026-10-16T00:00:00Z', analyser: '1.0.0+abc' });
-  assert.deepEqual(result, { apps: 2, releases: 2, dir });
+  assert.deepEqual(result, { apps: 3, releases: 3, dir });
   assert.ok(!fs.existsSync(path.join(dir, 'stale.json')));
   assert.ok(!fs.existsSync(`${dir}.previous`));
   assert.deepEqual(fs.readdirSync(path.dirname(dir)).filter(n => n.startsWith('.export-')), []);
@@ -73,7 +74,7 @@ test('exportAll writes index, app files and dependency lists, atomically replaci
   const index = JSON.parse(fs.readFileSync(path.join(dir, 'index.json'), 'utf8'));
   assert.equal(index.schema, 1);
   assert.equal(index.analyser, '1.0.0+abc');
-  assert.deepEqual(index.apps.map(a => a.appId), ['app.android', 'app.failed']);
+  assert.deepEqual(index.apps.map(a => a.appId), ['app.android', 'app.failed', 'app.other']);
   const android = index.apps[0];
   assert.equal(android.latest.ref, 'v1.1.0');
   assert.equal(android.latest.vulnerabilities.high, 1);
@@ -87,6 +88,16 @@ test('exportAll writes index, app files and dependency lists, atomically replaci
   const deps = JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.android', 'v1.1.0', 'dependencies.json'), 'utf8'));
   assert.deepEqual(deps.dependencies.map(d => `${d.name}@${d.version}:${d.tier}`), ['a@1.0.1:hash-pinned', 'c@3.0.0:floating']);
   assert.equal(deps.dependencies[1].dev, null);
+  assert.deepEqual(deps.dependencies.map(d => [d.products, d.productsSameVersion]), [[2, 2], [1, 1]]);
+  const packages = JSON.parse(fs.readFileSync(path.join(dir, 'packages', 'index.json'), 'utf8'));
+  assert.deepEqual(packages.packages, [{ ecosystem: 'npm', name: 'a', products: 2, versions: { '1.0.0': 1, '1.0.1': 2 } }]);
+  assert.equal(index.sharedPackages, 1);
+});
+
+test('sharedPackages lists packages used by two or more products, most shared first', () => {
+  const list = sharedPackages(seeded());
+  assert.deepEqual(list.map(p => `${p.name}:${p.products}`), ['a:2']);
+  assert.deepEqual(sharedPackages(seeded(), { minProducts: 1 }).map(p => p.name), ['a', 'b', 'c', 'z']);
 });
 
 test('safeName keeps ids and tags readable but path-safe', () => {
