@@ -210,7 +210,7 @@ test.describe('ZEUS verification detail page', () => {
 
       const shareNostrModal = page.locator('.share-nostr-modal').filter({ visible: true });
       await expect.soft(shareNostrModal).toBeVisible({ timeout: 10_000 });
-      await expect.soft(shareNostrModal.locator('h2')).toHaveText('Share on Nostr');
+      await expect.soft(shareNostrModal.locator('.share-nostr-title')).toHaveText('Share on Nostr');
       await expect.soft(shareNostrModal.locator('.share-nostr-textarea')).toHaveValue(
         /Check out this ZEUS Wallet v13\.0\.1 \(android\) verification!/,
       );
