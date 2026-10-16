@@ -124,5 +124,51 @@
     "walletscrutiny"
    ]
   ]
+ },
+ {
+  "content": "Demo statement written in the Judge dialog of the wallet page, signed with the browser extension path, to show the round trip. No ruling.",
+  "created_at": 1792179139,
+  "id": "b987386880ae18989e9778a4f182517d133e4178ab3683b5e08a9a43ec1452b2",
+  "kind": 30350,
+  "pubkey": "698c11c7263b6bd5a85bcd80ecc6e56562dd47eea5df70119755cb1f70ffacee",
+  "sig": "4cb1e269360d246a858169d0f113516484d6cc29ca9345ca9c0e6ec7be05022c14a08550dd35d1d921d3b9f3984463c04d406632f3df5173b6c14a43be80a474",
+  "tags": [
+   [
+    "d",
+    "GHSA-phwq-j96m-2c2q|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-phwq-j96m-2c2q"
+   ],
+   [
+    "vuln",
+    "CVE-2022-29078"
+   ],
+   [
+    "package",
+    "npm:ejs"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "under_investigation"
+   ],
+   [
+    "evidence",
+    "https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/978"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
  }
 ]

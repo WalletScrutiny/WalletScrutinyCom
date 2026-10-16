@@ -84,6 +84,18 @@ const PACKAGE_REF_RE = /^[a-z]+:\S+$/;
 
 const text = (v) => (typeof v === 'string' ? v.trim() : '');
 
+// An evidence link: the issue, pull request or code line a statement rests on. http(s) only.
+export function evidenceUrl(v) {
+  const t = text(v);
+  if (!t) return null;
+  try {
+    const u = new URL(t);
+    return u.protocol === 'http:' || u.protocol === 'https:' ? u.href : null;
+  } catch {
+    return null;
+  }
+}
+
 /**
  * The `d` tag of a statement: the advisory and the direct user it is about.
  * One of `via` (package reference of the direct user), `app` (wallet id), or
@@ -101,9 +113,10 @@ export function triageSubject({ vuln, via = null, app = null }) {
  * `pkg` the package reference ("npm:@babel/traverse"), `via` or `app` the
  * direct user, `status` one of TRIAGE_STATUSES, `justification` an OpenVEX
  * label (optional), `versions` of the direct user the statement holds for
- * (optional, free text), `content` the reasoning in prose.
+ * (optional, free text), `evidence` a link to the issue, pull request or
+ * code line the statement rests on (optional), `content` the reasoning in prose.
  */
-export function triageTemplate({ vulns, pkg, via = null, app = null, status, justification = null, versions = null, content = '', created_at = null }) {
+export function triageTemplate({ vulns, pkg, via = null, app = null, status, justification = null, versions = null, evidence = null, content = '', created_at = null }) {
   const ids = [...new Set((vulns || []).map(text).filter(Boolean))];
   if (!ids.length) throw new Error('a statement needs at least one advisory id');
   for (const id of ids) if (!ADVISORY_ID_RE.test(id)) throw new Error(`"${id}" is not an advisory id (GHSA-…, CVE-…, MAL-…)`);
@@ -112,6 +125,7 @@ export function triageTemplate({ vulns, pkg, via = null, app = null, status, jus
   if (via && !PACKAGE_REF_RE.test(text(via))) throw new Error(`"${via}" is not a package reference (ecosystem:name)`);
   if (!TRIAGE_STATUSES.includes(status)) throw new Error(`status "${status}" is not one of ${TRIAGE_STATUSES.join(', ')}`);
   if (justification && !TRIAGE_JUSTIFICATIONS.includes(justification)) throw new Error(`justification "${justification}" is not one of ${TRIAGE_JUSTIFICATIONS.join(', ')}`);
+  if (text(evidence) && !evidenceUrl(evidence)) throw new Error(`"${evidence}" is not an http(s) link`);
   const tags = [
     ['d', triageSubject({ vuln: ids[0], via: text(via) || null, app: text(app) || null })],
     ...ids.map(id => ['vuln', id]),
@@ -122,6 +136,7 @@ export function triageTemplate({ vulns, pkg, via = null, app = null, status, jus
   tags.push(['status', status]);
   if (justification) tags.push(['justification', justification]);
   if (text(versions)) tags.push(['versions', text(versions)]);
+  if (text(evidence)) tags.push(['evidence', evidenceUrl(evidence)]);
   // The project relay stores only events it recognises as WalletScrutiny traffic (external/configs/strfry/kind-policy.py).
   tags.push(['client', 'WalletScrutiny.com'], ['c', 'walletscrutiny']);
   return {
@@ -163,6 +178,7 @@ export function statementFromEvent(event, { kind = dependencyTriageKind } = {}) 
     status,
     justification: TRIAGE_JUSTIFICATIONS.includes(justification) ? justification : null,
     versions: text(tagValue(event, 'versions')) || null,
+    evidence: evidenceUrl(tagValue(event, 'evidence')),
     content: typeof event.content === 'string' ? event.content : '',
   };
 }
@@ -278,6 +294,50 @@ export function applyTriage(advisories = [], triage = null, { appIds = [] } = {}
     return { ...a, decision: r.decision, triage: { needs: r.needs, covered: r.covered, community: r.community.length, partial: r.partial || [] } };
   });
   return { advisories: out, summary };
+}
+
+/**
+ * What a statement about this row can be about, in the order the form offers
+ * them: each direct user (`via`), this wallet's own use (`app`, which settles
+ * the row outright), and the package itself, whoever uses it. `preferred`
+ * marks the one to start from: the single direct user when there is exactly
+ * one and the wallet does not import the package itself, else the wallet.
+ */
+export function statementChoices(advisory, { appId } = {}) {
+  const eco = advisory?.ecosystem || 'npm';
+  const name = advisory?.package || 'the package';
+  const dependants = Array.isArray(advisory?.dependants) ? advisory.dependants : [];
+  const choices = dependants.map(d => ({
+    key: `via:${eco}:${d}`,
+    via: `${eco}:${d}`,
+    label: `how ${d} uses ${name}`,
+    hint: `holds for every wallet in which ${name} is only reached via ${d}`,
+  }));
+  if (appId) {
+    choices.push({
+      key: `app:${appId}`,
+      app: appId,
+      label: advisory?.direct ? `this wallet's own use of ${name}` : 'this wallet, however it reaches the package',
+      hint: 'settles the row for this wallet only',
+    });
+  }
+  choices.push({ key: 'package', label: `${name} itself, whoever uses it`, hint: 'the flaw needs a role nobody has in a wallet, say; answers for every wallet and every direct user' });
+  const preferredKey = dependants.length === 1 && !advisory?.direct ? choices[0].key : (appId ? `app:${appId}` : 'package');
+  return choices.map(c => ({ ...c, preferred: c.key === preferredKey }));
+}
+
+/**
+ * The wallet's triage file with one more statement, as the page sees it right
+ * after publishing: newestStatements() lets it replace the author's older one
+ * on the same subject. `trusted` fills in the list when the wallet had no file.
+ */
+export function withStatement(triage, statement, { appId = null, trusted = [] } = {}) {
+  return {
+    schema: 3,
+    appId: triage?.appId || appId,
+    trusted: triage?.trusted?.length ? triage.trusted : [...trusted],
+    statements: [...(triage?.statements || []), statement],
+  };
 }
 
 export function triageStateOf(advisory) {

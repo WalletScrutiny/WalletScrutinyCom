@@ -80,6 +80,7 @@ version from the same author:
 | `status` | `affected`, `not_affected`, `fixed`, `under_investigation` (the VEX states) |
 | `justification` | optional, an OpenVEX label such as `vulnerable_code_not_in_execute_path` |
 | `versions` | optional, the versions of the direct user the statement holds for |
+| `evidence` | optional, an http(s) link to the issue, pull request or code line the statement rests on |
 | content | the reasoning in prose |
 
 Resolution per (wallet, advisory): the wallet's own `app` statement settles
@@ -109,9 +110,18 @@ Plumbing:
   (author, subject), and publishes the statements that concern a wallet as
   `api/source-analysis/triage/<appId>.json` with the trusted list. The panel
   resolves each row from them.
-- `scripts/publish-dependency-triage.mjs` publishes one statement from the
-  command line with a key in `DEPENDENCY_TRIAGE_NSEC`; the site's NIP-07
-  login (the opinions' path) is the next way in.
+- Writing one on the site: "Judge" under a row's decision opens a dialog
+  (`src/dependencies-triage-form.mjs`) that asks what the statement is about
+  (one of the row's direct users, this wallet, or the package itself), the
+  status, the OpenVEX justification for "not affected", the versions it
+  holds for, an evidence link (issue, pull request, code line; the
+  `evidence` tag) and the reasoning. It is signed with the visitor's Nostr
+  browser extension (NIP-07, as opinions are), published to the project
+  relay and the public relays, and merged into the page at once; the dialog
+  says beforehand whether the signer's statements settle rows or count as
+  community ones, and publishing again on the same subject replaces the
+  author's earlier statement. `scripts/publish-dependency-triage.mjs` does
+  the same from the command line with a key in `DEPENDENCY_TRIAGE_NSEC`.
 - The project relay stores the kind once `external/configs/strfry/kind-policy.py`
   is deployed; until then the public relays carry the statements.
 - The panel's "Decision" column shows the status with one line per direct
