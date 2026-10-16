@@ -1109,6 +1109,21 @@ $review-section-gap: 28px;
     margin-top: 0;
   }
 
+  // the review's own headings ("App Description", ...) keep their text as
+  // close under the icon tile as Platform notes does (5px closer on
+  // Android/iPhone pages, which pull Platform notes up under its icon)
+  .app-review .review-section-title {
+    margin-bottom: 8px;
+
+    + * {
+      margin-top: 0;
+    }
+  }
+
+  .app-review--dual-platform .review-section-title {
+    margin-bottom: 3px;
+  }
+
   // hardware wallet notes: only the first two lines until "more" is tapped
   .steps .step.platform-notes-collapsible[data-collapsed="true"] .platform-notes-text {
     .platform-notes-body > :not(:first-child) {
