@@ -129,6 +129,10 @@ export function renderCard(ctx, event, { opinion = event, depth = 0 } = {}) {
       dislike.button.disabled = false;
     }
   };
+  if (ctx.canPost === false) {
+    like.button.disabled = true;
+    dislike.button.disabled = true;
+  }
   like.button.addEventListener('click', react('+'));
   dislike.button.addEventListener('click', react('-'));
   actions.append(like.button, dislike.button);
@@ -136,7 +140,9 @@ export function renderCard(ctx, event, { opinion = event, depth = 0 } = {}) {
   const replyButton = el('button', { type: 'button', className: 'opinion-card__action', title: 'Reply' });
   replyButton.innerHTML = replyIcon;
   replyButton.appendChild(el('span', {}, 'Reply'));
-  actions.appendChild(replyButton);
+  if (ctx.canPost !== false) {
+    actions.appendChild(replyButton);
+  }
 
   const repliesContainer = el('div', { className: 'opinion-card__replies' });
   const threadToggle = el('button', { type: 'button', className: 'opinion-card__action opinion-card__thread' });

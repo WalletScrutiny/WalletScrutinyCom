@@ -21,7 +21,7 @@ import {
   emptyReactionTally,
 } from './content.mjs';
 import { fetchOpinions, fetchThreadData, signAndPublish, buildOpinionDraft, buildReplyDraft, buildReactionDraft, buildDeletionDraft } from './nostr.mjs';
-import { getPubkey, onAuthChange, restoreSignIn, signIn, signOut } from './auth.mjs';
+import { getPubkey, hasExtension, onAuthChange, restoreSignIn, signIn, signOut } from './auth.mjs';
 import { renderCard, renderAuthor } from './card.mjs';
 import { createOpinionEditor } from './editor.mjs';
 import { confirmModal } from './modal.mjs';
@@ -56,6 +56,8 @@ export class OpinionsWidget {
     this.loaded = false;
     this.loadError = null;
     this.me = null;
+    // null until the NIP-07 check settles; without an extension nobody can post.
+    this.canPost = null;
 
     this.ctx = {
       config: this.config,
@@ -64,6 +66,7 @@ export class OpinionsWidget {
       reactions: this.reactions,
       expandedThreads: this.expandedThreads,
       me: null,
+      canPost: null,
       requestProfile: (pubkey) => this.requestProfile(pubkey),
       actions: {
         ensureSignedIn: () => this.ensureSignedIn(),
@@ -79,6 +82,13 @@ export class OpinionsWidget {
     onAuthChange((pubkey) => {
       this.me = pubkey;
       this.ctx.me = pubkey;
+      if (this.loaded) {
+        this.render();
+      }
+    });
+    void hasExtension().then((found) => {
+      this.canPost = found;
+      this.ctx.canPost = found;
       if (this.loaded) {
         this.render();
       }
@@ -201,7 +211,9 @@ export class OpinionsWidget {
     const list = el('div', { className: 'opinions__list' });
     if (visible.length === 0) {
       list.appendChild(el('p', { className: 'opinions__empty' },
-        this.opinions.length === 0 ? 'No opinions yet. Be the first to share yours.' : ''));
+        this.opinions.length === 0
+          ? (this.canPost ? 'No opinions yet. Be the first to share yours.' : 'No opinions yet.')
+          : ''));
     }
     for (const event of visible) {
       list.appendChild(renderCard(this.ctx, event));
@@ -233,6 +245,15 @@ export class OpinionsWidget {
 
   renderCompose() {
     const container = el('div', { className: 'opinions__compose' });
+    if (this.canPost === null) {
+      return container;
+    }
+    if (!this.canPost) {
+      container.appendChild(el('p', { className: 'opinions__no-extension' },
+        'To ', el('strong', {}, 'add an opinion'),
+        ', reply or react, open this page in a browser with a Nostr extension (NIP-07), for example Alby, nos2x or Flamingo.'));
+      return container;
+    }
     const mine = this.myOpinion;
     const toggle = el('button', { type: 'button', className: 'opinions-btn opinions-btn--primary' },
       mine ? 'Edit your opinion' : 'Add your opinion');
