@@ -137,6 +137,8 @@ export function panelModel(app, { storeVersion = '', release = null, triage = nu
     versionMatches: storeVersion ? tagMatchesVersion(current.ref, storeVersion) : null,
     packages: current.dependencies?.total ?? 0,
     direct: current.dependencies?.direct ?? 0,
+    // Everything the wallet does not import itself; its direct users are named per row.
+    transitive: Math.max(0, (current.dependencies?.total ?? 0) - (current.dependencies?.direct ?? 0)),
     devUnknown: current.dependencies?.devUnknown ?? 0,
     byScope: current.dependencies?.byScope || null,
     whereUnknown: current.dependencies?.byScope?.unknown ?? current.dependencies?.devUnknown ?? 0,

@@ -232,6 +232,10 @@ function notices(model) {
   if (model.sameRepositoryAs.length) {
     items.push(`Same source repository as ${model.sameRepositoryAs.join(', ')}: one analysis covers both.`);
   }
+  if (model.unchecked) {
+    const why = model.uncheckedBreakdown.map(u => `${u.count} ${u.label}`).join(', ');
+    items.push(`${model.unchecked} of the ${model.packages} packages could not be checked for advisories${why ? ` (${why})` : ''}; that is not the same as "no problems".`);
+  }
   if (model.status !== 'ok') {
     items.push(`This check ended with status "${model.status}"${model.error ? `: ${model.error}` : ''}.`);
   }
@@ -240,9 +244,9 @@ function notices(model) {
 
 function howToRead(model) {
   const parts = [el('b', {}, 'How to read this. ')];
-  parts.push('"Could not be checked" means the package has no exact registry version to look up');
-  if (model.uncheckedBreakdown.length) parts.push(` (${model.uncheckedBreakdown.map(u => `${u.count} ${u.label}`).join(', ')})`);
-  parts.push(', so it is not the same as "no problems". Results are a snapshot from the check date; new advisories may appear later. ');
+  parts.push('"Direct" dependencies are the packages the wallet imports itself; "transitive" ones arrive through them, and the line under a package name says through which. ');
+  if (model.unchecked) parts.push('A package "could not be checked" when it has no exact registry version to look up (a version range, a git reference, no version recorded). ');
+  parts.push('Results are a snapshot from the check date; new advisories may appear later. ');
   parts.push('A listed advisory is not a defect in the wallet: it says that a version with a published advisory is present, nothing more. Leaving such a version in place can be the right call, when the vulnerable code is never reached or the flaw needs a position an attacker does not have here; that is a decision per advisory. ');
   const t = model.triage;
   if (t && t.total) {
@@ -312,8 +316,8 @@ export function panelElement(model, { appId, base = EXPORT_BASE, fetchImpl = glo
     ),
     notices(model),
     el('div', { className: 'dp-tiles' },
-      tile(model.packages, 'packages found'),
-      tile(model.unchecked, 'could not be checked', { tone: model.unchecked ? 'muted' : '' }),
+      tile(model.direct, 'direct dependencies'),
+      tile(model.transitive, 'transitive dependencies'),
       tile(model.vulnerabilities, 'known vulnerabilities', { tone: model.vulnerabilities ? 'bad' : 'good', sub: vulnSub, sub2: model.vulnerabilities ? whereLine(model.vulnerabilitiesByScope) : null }),
       tile(model.malware, 'known malware', { tone: model.malware ? 'bad' : 'good' }),
     ),
