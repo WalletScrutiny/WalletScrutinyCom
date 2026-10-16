@@ -68,14 +68,14 @@ test.describe('ZEUS verification detail page', () => {
 
       expect(createdAtIso).toMatch(/^2026-05-08T16:59:/);
 
-      await expect.soft(content).toContainText(
-        'Hash of the binary reproduced: 709e379506f7d86cfb146493441fc72b7f20cb90578a9b26b9ca9da374782caf',
-      );
-      await expect.soft(content).toContainText('Application: ZEUS Wallet');
-      await expect.soft(content).toContainText('Version: 13.0.1');
-      await expect.soft(content).toContainText(`Created At: ${expectedCreatedAt}`);
-      await expect.soft(content).toContainText('Build status:');
-      await expect.soft(content).toContainText('Reproducible when tested');
+      await expect.soft(content).toContainText('Hash of the binary reproduced');
+      await expect.soft(content).toContainText('709e379506f7d86cfb146493441fc72b7f20cb90578a9b26b9ca9da374782caf');
+      // The header carries the verdict, the app and version, the platform and the date.
+      const heading = modal.locator('#verificationModalHeading');
+      await expect.soft(heading.locator('.verification-modal-title')).toHaveText('ZEUS Wallet 13.0.1');
+      await expect.soft(heading.locator('.verification-modal-subtitle')).toHaveText(`Android · ${expectedCreatedAt}`);
+      await expect.soft(heading.locator('.verification-modal-status')).toHaveText('Reproducible when tested');
+      await expect.soft(heading.locator('.verification-modal-status')).toHaveClass(/verification-modal-status--good/);
       // The old one-paragraph build-server report, shown in today's layout.
       await expect.soft(content).toContainText(
         'Reproducible. We built version 13.0.1 from its public source code and got the same app users download.',
@@ -88,11 +88,11 @@ test.describe('ZEUS verification detail page', () => {
       const attemptBy = content.locator('#attempt-by');
       const basedOnAttemptBy = content.locator('#based-on-attempt-by');
 
-      await expect.soft(content).toContainText('Attempt by:');
+      await expect.soft(content).toContainText('Attempt by');
       await waitForNostrDisplayName(page, attemptBy, 'walletscrutiny_bot', nostrDisplayNameOptions);
       await expect.soft(attemptBy).toContainText('walletscrutiny_bot');
 
-      await expect.soft(content).toContainText('Based on an attempt by:');
+      await expect.soft(content).toContainText('Based on an attempt by');
       await waitForNostrDisplayName(page, basedOnAttemptBy, 'dannybuntu', nostrDisplayNameOptions);
       await expect.soft(basedOnAttemptBy).toContainText('dannybuntu');
     });
@@ -100,7 +100,7 @@ test.describe('ZEUS verification detail page', () => {
     await test.step('Scripts loading', async () => {
       const attachmentsList = content.locator('#verification-attachments-list');
 
-      await expect.soft(content).toContainText('Scripts used to reproduce:');
+      await expect.soft(content).toContainText('Scripts used to reproduce');
       await expect.soft(attachmentsList).toContainText('zeus_build.sh');
       await expect.soft(attachmentsList).toContainText('33 kB');
       await expect.soft(attachmentsList.locator('[title="Download zeus_build.sh"]')).toBeVisible();
@@ -143,7 +143,7 @@ test.describe('ZEUS verification detail page', () => {
       await expect.soft(previewModal).toBeHidden();
     });
 
-    await test.step('Comments', async () => {
+    await test.step('Comments come last', async () => {
       const commentsSection = content.locator('.comments-section');
       const commentAuthor = commentsSection.locator('.comment-author-name');
 
@@ -151,13 +151,19 @@ test.describe('ZEUS verification detail page', () => {
       await waitForNostrDisplayName(page, commentAuthor, 'btc_remnant', nostrDisplayNameOptions);
       await expect.soft(commentAuthor).toContainText('btc_remnant');
       await expect.soft(commentsSection.locator('.comment-body')).toContainText('Test comment! 1234');
+
+      // Section order: facts, report, files, then the comments at the end.
+      const sectionCaptions = await content.locator('.verification-modal-section:visible').evaluateAll(
+        nodes => nodes.map(node => node.querySelector('.verification-modal-caption, .comments-section > p')?.textContent?.trim() ?? ''),
+      );
+      expect.soft(sectionCaptions.slice(1)).toEqual(['Report', 'Scripts used to reproduce', 'Output files', 'Comments']);
     });
 
-    await test.step('Information build log viewer', async () => {
+    await test.step('Report build log viewer', async () => {
       const button = content.locator('.js-open-build-log');
       const viewer = page.locator('#buildLogViewer');
 
-      await expect.soft(content).toContainText('Information:');
+      await expect.soft(content).toContainText('Report');
       await expect(button).toBeVisible();
       await expect.soft(button).toContainText('View build log');
 

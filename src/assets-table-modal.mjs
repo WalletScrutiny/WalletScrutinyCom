@@ -1,7 +1,7 @@
 import { wsIcon } from './icon.mjs';
 import { verificationDraftKind, isWalletScrutinySiteAdmin, verificationReportKind } from "./nostr-constants.mjs";
 import { formatDate } from "./format-utils.mjs";
-import { formatZapAmount, getStatusIcon, getStatusText, formatCommentDate } from "./assets-table-utils.mjs";
+import { formatZapAmount, getStatusText, formatCommentDate } from "./assets-table-utils.mjs";
 import { getFirstTagValue } from "./verifications_common.mjs";
 import { parseMarkdownToSafeHtml, prefetchMarked } from './marked-loader.mjs';
 import { fillReportAuthors, rewriteLegacyReport, shortenReportHashes, tidyBuildServerReport } from './build-server-report.mjs';
@@ -31,32 +31,38 @@ export function buildEndorsementButtonHtml(verificationId, sha256Hash) {
       verificationId: verificationId ?? '',
       sha256: sha256Hash ?? '',
     },
-  }, '👍 👎 Endorse this verification'));
+  },
+    el('span', { className: 'verification-modal-action__icon', 'aria-hidden': 'true', html: wsIcon('circle-check') }),
+    'Endorse',
+  ));
 }
 
 export function buildOutputFileDownloadHtml(fileName, fileHash) {
-  return htmlOf(el('li', {},
-    fileName ?? '',
-    ' ',
-    el('span', {
-      className: 'js-download-blossom-file',
-      style: { cursor: 'pointer', marginLeft: '10px' },
+  return htmlOf(el('li', { className: 'verification-modal-file' },
+    el('span', { className: 'verification-modal-file__name' }, fileName ?? ''),
+    el('button', {
+      type: 'button',
+      className: 'verification-modal-file__action js-download-blossom-file',
       title: `Download ${fileName ?? ''}`,
       dataset: {
         fileHash: fileHash ?? '',
         fileName: fileName ?? '',
       },
-    }, '💾'),
+      html: wsIcon('download'),
+    }),
   ));
 }
 
 export function buildDiffoscopeOpenButtonHtml(fileName, fileUrl) {
   return htmlOf(el('button', {
     type: 'button',
-    className: 'btn btn-small btn-info js-open-diffoscope',
-    style: { width: 'auto' },
+    className: 'verification-modal-chip js-open-diffoscope',
+    title: 'Open the diffoscope report',
     dataset: { diffoscopeUrl: fileUrl ?? '' },
-  }, fileName ?? ''));
+  },
+    el('span', { className: 'verification-modal-action__icon', 'aria-hidden': 'true', html: wsIcon('code-compare') }),
+    fileName ?? '',
+  ));
 }
 
 /**
@@ -116,13 +122,13 @@ function openBuildLogFromButton(button) {
 export function buildIssueTrackerLinkHtml(issueTrackerUrl) {
   const safeUrl = sanitizeHttpUrl(issueTrackerUrl);
   if (!safeUrl) {
-    return htmlOf(el('p', {},
-      el('strong', {}, 'Issue tracker url:'),
+    return htmlOf(el('p', { className: 'verification-modal-note' },
+      el('strong', {}, 'Issue tracker:'),
       ' (invalid URL omitted)',
     ));
   }
-  return htmlOf(el('p', {},
-    el('strong', {}, 'Issue tracker url:'),
+  return htmlOf(el('p', { className: 'verification-modal-note' },
+    el('strong', {}, 'Issue tracker:'),
     ' ',
     el('a', { href: safeUrl, target: '_blank', rel: 'noopener noreferrer' }, safeUrl),
   ));
@@ -131,6 +137,31 @@ export function buildIssueTrackerLinkHtml(issueTrackerUrl) {
 let pendingVerificationReport = null;
 let verificationModalClickHandler = null;
 let verificationModalKeyHandler = null;
+
+const PLATFORM_LABELS = { android: 'Android', ios: 'iPhone', desktop: 'Desktop', hardware: 'Hardware' };
+
+function platformLabel(platform) {
+  if (!platform) {
+    return '';
+  }
+  return PLATFORM_LABELS[platform] ?? `${platform.charAt(0).toUpperCase()}${platform.slice(1)}`;
+}
+
+/** The header above the toolbar; built here when the modal shell on the page predates it. */
+function ensureVerificationModalHeading(modal, toolbar) {
+  let heading = document.getElementById('verificationModalHeading');
+  if (heading) {
+    return heading;
+  }
+  heading = el('div', { id: 'verificationModalHeading', className: 'verification-modal-heading' });
+  const header = el('div', { className: 'verification-modal-header' }, heading);
+  const closeButton = document.getElementById('closeModal');
+  if (closeButton) {
+    header.appendChild(closeButton);
+  }
+  modal.insertBefore(header, toolbar);
+  return heading;
+}
 
 function setupVerificationModalCloseHandlers(modal, modalBackdrop, content) {
   if (verificationModalClickHandler) {
@@ -305,41 +336,22 @@ function initVerificationAdminReportControls(verification) {
   }
   menu.style.display = 'none';
   if (!isWalletScrutinySiteAdmin(window.userPubkey)) {
-    wrap.style.display = 'none';
+    wrap.hidden = true;
     return;
   }
-  wrap.style.display = 'inline-block';
+  wrap.hidden = false;
 
-  const applyAdminReportMenuTheme = () => {
-    const isDark = window.theme === 'dark';
-    menu.style.background = isDark ? '#2d2d2d' : '#fff';
-    menu.style.color = isDark ? '#fff' : '#000';
-    menu.style.borderColor = isDark ? '#555' : '#ccc';
-    const hoverBg = isDark ? 'rgba(255,255,255,0.12)' : 'rgba(0,0,0,0.08)';
-    menu.querySelectorAll('.admin-report-reason').forEach((el) => {
-      el.style.setProperty('color', isDark ? '#ffffff' : '#000000', 'important');
-      el.style.setProperty('background', 'transparent', 'important');
-      el.onmouseenter = () => {
-        el.style.setProperty('background', hoverBg, 'important');
-      };
-      el.onmouseleave = () => {
-        el.style.setProperty('background', 'transparent', 'important');
-      };
-      el.onclick = (e) => {
-        e.stopPropagation();
-        menu.style.display = 'none';
-        openVerificationReportConfirmModal(verification, el.getAttribute('data-reason'));
-      };
-    });
-  };
-  applyAdminReportMenuTheme();
+  menu.querySelectorAll('.admin-report-reason').forEach((reasonBtn) => {
+    reasonBtn.onclick = (e) => {
+      e.stopPropagation();
+      menu.style.display = 'none';
+      openVerificationReportConfirmModal(verification, reasonBtn.getAttribute('data-reason'));
+    };
+  });
 
   reportBtn.onclick = (e) => {
     e.stopPropagation();
     const opening = menu.style.display === 'none' || menu.style.display === '';
-    if (opening) {
-      applyAdminReportMenuTheme();
-    }
     menu.style.display = opening ? 'block' : 'none';
   };
 }
@@ -372,14 +384,13 @@ export function buildWriteVerificationMenuHtml(verification, sha256Hash, editPar
   ];
 
   const items = entries.map(({ href, label }) => htmlOf(el('a', {
-    className: 'write-verification-option',
+    className: 'verification-modal-menu__item write-verification-option',
     href,
-    style: { display: 'block', width: '100%', textAlign: 'left', padding: '8px 12px', textDecoration: 'none', fontSize: '16px' },
   }, label))).join('');
 
-  return `<span id="writeVerificationWrap" style="display: inline-block; position: relative; vertical-align: middle;">
-    <button type="button" class="btn btn-info" id="writeVerificationBtn" style="margin: 0;">✏️ Write verification ${wsIcon('caret-down')}</button>
-    <div id="writeVerificationMenu" style="display: none; position: absolute; left: 0; top: 100%; z-index: 10003; margin-top: 4px; min-width: 220px; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); background: #fff; color: #000;">${items}</div>
+  return `<span id="writeVerificationWrap" class="verification-modal-menu-wrap">
+    <button type="button" class="btn btn-info" id="writeVerificationBtn">${wsIcon('pen')} Write verification ${wsIcon('caret-down')}</button>
+    <div id="writeVerificationMenu" class="verification-modal-menu" style="display: none;">${items}</div>
   </span>`;
 }
 
@@ -391,30 +402,9 @@ function initWriteVerificationMenuControls() {
   }
   menu.style.display = 'none';
 
-  const applyWriteVerificationMenuTheme = () => {
-    const isDark = window.theme === 'dark';
-    menu.style.background = isDark ? '#2d2d2d' : '#fff';
-    menu.style.color = isDark ? '#fff' : '#000';
-    menu.style.borderColor = isDark ? '#555' : '#ccc';
-    const hoverBg = isDark ? 'rgba(255,255,255,0.12)' : 'rgba(0,0,0,0.08)';
-    menu.querySelectorAll('.write-verification-option').forEach((el) => {
-      el.style.setProperty('color', isDark ? '#ffffff' : '#000000', 'important');
-      el.style.setProperty('background', 'transparent', 'important');
-      el.onmouseenter = () => {
-        el.style.setProperty('background', hoverBg, 'important');
-      };
-      el.onmouseleave = () => {
-        el.style.setProperty('background', 'transparent', 'important');
-      };
-    });
-  };
-
   writeBtn.onclick = (e) => {
     e.stopPropagation();
     const opening = menu.style.display === 'none' || menu.style.display === '';
-    if (opening) {
-      applyWriteVerificationMenuTheme();
-    }
     menu.style.display = opening ? 'block' : 'none';
   };
 }
@@ -471,9 +461,10 @@ function setupZapButton(zapBtn, profile, verification) {
   if (!zapBtn) {
     return;
   }
+  zapBtn.hidden = false;
   if (profile && (profile.lud16 || profile.lud06)) {
-    zapBtn.style.display = 'inline-block';
     zapBtn.disabled = false;
+    zapBtn.title = 'Zap this verification';
     zapBtn.onclick = (e) => {
       e.stopPropagation();
       window.showZapModal({
@@ -483,12 +474,8 @@ function setupZapButton(zapBtn, profile, verification) {
       });
     };
   } else {
-    zapBtn.style.display = 'inline-block';
     zapBtn.disabled = true;
     zapBtn.onclick = null;
-    zapBtn.style.backgroundColor = '#ccc';
-    zapBtn.style.color = '#888';
-    zapBtn.style.cursor = 'not-allowed';
     zapBtn.title = "The user doesn't have a nostr profile or a LN address to receive sats";
   }
 }
@@ -651,6 +638,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     toolbar.id = 'verificationModalToolbar';
     modal.insertBefore(toolbar, content);
   }
+  const heading = ensureVerificationModalHeading(modal, toolbar);
   toolbar.innerHTML = '';
   content.innerHTML = '';
 
@@ -660,26 +648,33 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     content.scrollLeft = 0;
   }, 0);
 
-  let otherVerificationsHTML = '';
-  if (otherVerificationsBySamePubkey.length > 0) {
-    for (const otherVerification of otherVerificationsBySamePubkey) {
-      const status = getFirstTagValue(otherVerification, 'status');
-
-      const statusIcon = '<span title="' + getStatusText(status) + '" style="margin-left: 4px;">' + getStatusIcon(status) + '</span>';
-
-      otherVerificationsHTML += `<li>
-        ${formatDate(otherVerification.created_at)} ${statusIcon}
-      </li>`;
-    }
-    otherVerificationsHTML = `<ul class="attestation-other-attempts">${otherVerificationsHTML}</ul>`;
-  }
-
   const isMine = verification.pubkey === window.userPubkey;
   const isDraft = verification.kind === verificationDraftKind;
   const isMyDraft = isDraft && isMine;
 
+  const version = getFirstTagValue(verification, 'version');
+  const identifier = getFirstTagValue(verification, 'i');
+  const verificationPlatform = getFirstTagValue(verification, 'platform');
+  const wallet = window.wallets.find(w => w.appId === identifier);
+  const walletTitle = wallet ? wallet.title : identifier;
+
+  /* -------------------- Header: verdict, app + version, platform and date -------------------- */
+  const isReproducible = status === 'reproducible';
+  heading.replaceChildren(
+    el('div', { className: 'verification-modal-badges' },
+      el('span', { className: `verification-modal-status verification-modal-status--${isReproducible ? 'good' : 'bad'}` },
+        el('span', { className: 'verification-modal-mark', 'aria-hidden': 'true', html: wsIcon(isReproducible ? 'check' : 'xmark') }),
+        getStatusText(status, true),
+      ),
+      isDraft ? el('span', { className: 'verification-draft-badge' }, isMyDraft ? 'Draft, not published yet' : 'Draft') : null,
+    ),
+    el('h2', { id: 'verificationModalTitle', className: 'verification-modal-title' }, `${walletTitle ?? ''} ${version ?? ''}`.trim()),
+    el('p', { className: 'verification-modal-subtitle' },
+      [platformLabel(verificationPlatform), formatDate(verification.created_at)].filter(Boolean).join(' · ')),
+  );
+
+  /* -------------------- Toolbar: one row of quiet action chips -------------------- */
   let toolbarRowHtml = '<div class="verification-modal-toolbar-row">';
-  toolbarRowHtml += isMyDraft ? `<span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet.` : '';
   toolbarRowHtml += `<div class="verification-modal-share" id="verificationShareButtonContainer"></div>`;
   const editParams = new URLSearchParams({ action: 'edit' });
   if (isMyDraft) {
@@ -693,7 +688,10 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
       className: 'btn btn-info',
       href: `/new_verification/?${editParams.toString()}`,
       title,
-    }, `✏️ ${title}`));
+    },
+      el('span', { className: 'verification-modal-action__icon', 'aria-hidden': 'true', html: wsIcon('pen') }),
+      title,
+    ));
   } else {
     if (verification.id && verification.pubkey) {
       editParams.set('basedOn', `${verification.id}:${verification.pubkey}`);
@@ -704,20 +702,16 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     toolbarRowHtml += buildEndorsementButtonHtml(verification.id, sha256Hash);
   }
   toolbarRowHtml += `<div id="verificationActionButtons"></div>`;
-  toolbarRowHtml += `<div id="verificationZapReportGroup" style="display: inline-flex; align-items: center; flex-wrap: wrap; gap: 8px;">
-    <button type="button" class="btn btn-info" style="display: none; padding-bottom: 7px; margin: 0;" id="zapButton">
-      ${wsIcon('bitcoin', '', 'font-size: 23px;')} Zap this verification
-    </button>
-    <span id="adminReportVerificationWrap" style="display: none; position: relative; vertical-align: middle;">
-      <button type="button" class="btn btn-secondary" id="adminReportVerificationBtn" style="font-size: 16px; margin: 0;">Report as spam/incorrect ${wsIcon('caret-down')}</button>
-      <div id="adminReportVerificationMenu" style="display: none; position: absolute; left: 0; top: 100%; z-index: 10003; margin-top: 4px; min-width: 160px; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); background: #fff; color: #000;">
-        <button type="button" class="admin-report-reason" data-reason="spam" style="display: block; width: 100%; text-align: left; padding: 8px 12px; border: 0; background: transparent; cursor: pointer; font-size: 16px;">Report as spam</button>
-        <button type="button" class="admin-report-reason" data-reason="incorrect" style="display: block; width: 100%; text-align: left; padding: 8px 12px; border: 0; background: transparent; cursor: pointer; font-size: 16px;">Report as incorrect</button>
+  toolbarRowHtml += `<button type="button" class="btn btn-info" id="zapButton" hidden>${wsIcon('bitcoin')} Zap</button>`;
+  toolbarRowHtml += `<span id="adminReportVerificationWrap" class="verification-modal-menu-wrap" hidden>
+      <button type="button" class="btn btn-info" id="adminReportVerificationBtn">${wsIcon('triangle-exclamation')} Report ${wsIcon('caret-down')}</button>
+      <div id="adminReportVerificationMenu" class="verification-modal-menu" style="display: none;">
+        <button type="button" class="verification-modal-menu__item admin-report-reason" data-reason="spam">Report as spam</button>
+        <button type="button" class="verification-modal-menu__item admin-report-reason" data-reason="incorrect">Report as incorrect</button>
       </div>
-    </span>
-  </div>`;
+    </span>`;
   toolbarRowHtml += isMine
-    ? '<a href="#" id="deleteVerificationLink" class="verification-modal-delete-link">Delete Verification</a>'
+    ? '<a href="#" id="deleteVerificationLink" class="verification-modal-delete-link">Delete verification</a>'
     : '';
   toolbarRowHtml += '</div>';
   toolbar.innerHTML = toolbarRowHtml;
@@ -754,11 +748,6 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     });
   }
 
-  const version = getFirstTagValue(verification, 'version');
-  const identifier = getFirstTagValue(verification, 'i');
-  const wallet = window.wallets.find(w => w.appId === identifier);
-  const walletTitle = wallet ? wallet.title : identifier;
-
   const verificationHashes = verification.tags
     .filter(tag => tag[0] === 'x')
     .map(tag => tag[1])
@@ -788,75 +777,92 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   if (numberVerificationAttachments > 0) {
     if (isVerifierOrAssetsPage) {
       const walletForLink = window.wallets.find(w => w.appId === appId);
-      attachmentsSectionHTML = `<p><strong>Scripts used to reproduce:</strong></p><ul class="attestation-other-attempts"><li>${numberVerificationAttachments} script(s) used to reproduce this binary.${walletForLink?.url ? ` See the <a href="${walletForLink.url}#verificationId=${verificationId}">the wallet page</a> for more details.` : ''}</li></ul>`;
+      attachmentsSectionHTML = `<p class="verification-modal-note">${numberVerificationAttachments} script(s) used to reproduce this binary.${walletForLink?.url ? ` See <a href="${walletForLink.url}#verificationId=${verificationId}">the wallet page</a> for more details.` : ''}</p>`;
     } else {
-      attachmentsSectionHTML = `<p><strong>Scripts used to reproduce:</strong></p><ul id="verification-attachments-list" class="attestation-other-attempts"><li>Loading scripts...</li></ul>`;
+      attachmentsSectionHTML = `<ul id="verification-attachments-list" class="verification-modal-files"><li class="verification-modal-note">Loading scripts...</li></ul>`;
     }
+  }
+
+  let otherVerificationsHTML = '';
+  for (const otherVerification of otherVerificationsBySamePubkey) {
+    const otherStatus = getFirstTagValue(otherVerification, 'status');
+    otherVerificationsHTML += htmlOf(el('li', { className: 'verification-modal-attempt' },
+      el('span', {
+        className: `verification-modal-mark verification-modal-mark--${otherStatus === 'reproducible' ? 'good' : 'bad'}`,
+        title: getStatusText(otherStatus),
+        html: wsIcon(otherStatus === 'reproducible' ? 'check' : 'xmark'),
+      }),
+      formatDate(otherVerification.created_at),
+      el('span', { className: 'verification-modal-attempt__status' }, getStatusText(otherStatus, true)),
+    ));
   }
 
   const itemContent = JSON.parse(verification.content).content;
   const report = rewriteLegacyReport(itemContent, verification.tags) ?? itemContent;
   const parsedMarkdown = shortenReportHashes(await parseMarkdownToSafeHtml(tidyBuildServerReport(report)));
 
-  let diffoscopeHTML = '';
-  if (diffoscopeFiles.length > 0) {
-    diffoscopeHTML += `<div class="diffoscope-files" style="margin-top: 10px; margin-bottom: 20px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start;">
-                         <p>Diffoscope files attached (click to see report):</p>`;
-    for (const file of diffoscopeFiles) {
-      const fileUrl = getBlossomFileURL(file[2]);
-      if (!fileUrl) {
-        continue;
-      }
-      diffoscopeHTML += buildDiffoscopeOpenButtonHtml(file[1], fileUrl);
-    }
-    diffoscopeHTML += '</div>';
-  }
-
-  const buildLogHTML = firstAsciicastFileSHA256
+  /* The report's tools: the build log and any diffoscope report, as chips above the text. */
+  let reportToolsHTML = firstAsciicastFileSHA256
     ? buildBuildLogButtonHtml(firstAsciicastFileSHA256, firstAsciicastFileName, `${walletTitle} ${version ?? ''}`.trim())
     : '';
+  for (const file of diffoscopeFiles) {
+    const fileUrl = getBlossomFileURL(file[2]);
+    if (fileUrl) {
+      reportToolsHTML += buildDiffoscopeOpenButtonHtml(file[1], fileUrl);
+    }
+  }
+  if (reportToolsHTML) {
+    reportToolsHTML = `<div class="verification-modal-report-tools">${reportToolsHTML}</div>`;
+  }
 
   const issueTrackerUrl = getFirstTagValue(verification, 'issue-tracker-url') || '';
+  const issueTrackerHTML = issueTrackerUrl ? buildIssueTrackerLinkHtml(issueTrackerUrl) : '';
 
-  let contentHTML = '';
-  const hashesHTML = verificationHashes
-    .map(hash => htmlOf(el('span', { className: 'verification-modal-hash' }, hashWithBoldPrefix(hash))))
-    .join('<br>');
-  if (verificationHashes.length === 1) {
-    contentHTML += `<p><strong>Hash of the binary reproduced:</strong> ${hashesHTML}</p>`;
-  } else if (verificationHashes.length > 1) {
-    contentHTML += `<p style="margin-bottom: 10px;"><strong>Hashes of the binaries reproduced:</strong><br>${hashesHTML}</p>`;
+  const sectionHtml = (title, innerHtml, className = '') =>
+    `<section class="verification-modal-section${className ? ` ${className}` : ''}">`
+    + (title ? `<h3 class="verification-modal-caption">${title}</h3>` : '')
+    + `${innerHtml}</section>`;
+  const factHtml = (label, valueHtml, { wide = false, ddId = '' } = {}) =>
+    `<div class="verification-modal-fact${wide ? ' verification-modal-fact--wide' : ''}"><dt>${label}</dt>`
+    + `<dd${ddId ? ` id="${ddId}"` : ''}>${valueHtml}</dd></div>`;
+
+  let factsHTML = '';
+  if (verificationHashes.length > 0) {
+    const hashRows = verificationHashes.map(hash => '<div class="verification-modal-hash-row">'
+      + htmlOf(el('span', { className: 'verification-modal-hash' }, hashWithBoldPrefix(hash)))
+      + htmlOf(el('button', {
+        type: 'button',
+        className: 'verification-modal-icon-btn js-copy-hash',
+        title: 'Copy hash',
+        dataset: { hash },
+        html: wsIcon('copy'),
+      }))
+      + '</div>').join('');
+    factsHTML += factHtml(
+      verificationHashes.length === 1 ? 'Hash of the binary reproduced' : 'Hashes of the binaries reproduced',
+      `<div class="verification-modal-hashes">${hashRows}</div>`,
+      { wide: true },
+    );
   }
-  contentHTML += `
-    <p><strong>Application:</strong> ${walletTitle}</p>
-    <p><strong>Version:</strong> ${version}</p>
-    <p><strong>Attempt by:</strong> <span id="attempt-by"></span></p>`;
+  factsHTML += factHtml('Attempt by', '', { ddId: 'attempt-by' });
   if (basedOn) {
-    contentHTML += `<p><strong>Based on an attempt by:</strong> <span id="based-on-attempt-by"></span></p>`;
+    factsHTML += factHtml('Based on an attempt by', '', { ddId: 'based-on-attempt-by' });
   }
-  contentHTML += `
-    <p><strong>Created At:</strong> ${formatDate(verification.created_at)}</p>
-    <p><strong>Build status: </strong> ${getStatusIcon(status)} ${getStatusText(status)}</p>
-    <p style="display: none;" id="zaps"></p>
-    <p style="display: none;" id="endorsements"></p>`;
-  if (issueTrackerUrl) {
-    contentHTML += buildIssueTrackerLinkHtml(issueTrackerUrl);
+
+  let contentHTML = sectionHtml('', `<dl class="verification-modal-facts">${factsHTML}</dl>`, 'verification-modal-section--facts');
+  contentHTML += '<div class="verification-modal-section" id="zaps" style="display: none;"></div>';
+  contentHTML += '<div class="verification-modal-section" id="endorsements" style="display: none;"></div>';
+  contentHTML += sectionHtml('Report', `${reportToolsHTML}${issueTrackerHTML}<div class="markdown-content">${parsedMarkdown}</div>`, 'verification-modal-section--report');
+  if (attachmentsSectionHTML) {
+    contentHTML += sectionHtml('Scripts used to reproduce', attachmentsSectionHTML);
   }
-  contentHTML += '<div id="comments-container"></div>';
-  contentHTML += attachmentsSectionHTML;
   if (outputFilesHTML) {
-    contentHTML += `<p><strong>Output files:</strong></p><ul class="attestation-other-attempts">${outputFilesHTML}</ul>`;
+    contentHTML += sectionHtml('Output files', `<ul class="verification-modal-files">${outputFilesHTML}</ul>`);
   }
   if (otherVerificationsHTML !== '') {
-    contentHTML += `<p><strong>Other attempts by this user:</strong> ${otherVerificationsHTML}</p>`;
+    contentHTML += sectionHtml('Other attempts by this verifier', `<ul class="verification-modal-attempts">${otherVerificationsHTML}</ul>`);
   }
-  contentHTML += `
-  <p><strong>Information:</strong></p>
-  <div class="markdown-content">
-      ${diffoscopeHTML}
-      ${buildLogHTML}
-      <div>${parsedMarkdown}</div>
-  </div>`;
+  contentHTML += '<div id="comments-container" class="verification-modal-section verification-modal-section--comments"></div>';
 
   content.innerHTML = contentHTML;
   void fillReportAuthors(content, async pubkey => getProfileDisplayName(await getNostrProfile(pubkey), pubkey));
@@ -877,12 +883,6 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   }
 
   if (modalBackdrop) {
-    const isMobileModal = window.matchMedia('(max-width: 480px)').matches;
-    if (isMobileModal) {
-      modalBackdrop.style.background = window.theme === 'dark' ? '#111' : '#fff';
-    } else {
-      modalBackdrop.style.background = '';
-    }
     modalBackdrop.style.display = 'block';
   }
   modal.style.display = 'flex';
@@ -985,20 +985,14 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
           details.appendChild(document.createTextNode(`Message: ${zap.content}`));
         }
 
-        list.appendChild(el('div', {
-          className: 'profile-card',
-          style: { marginLeft: '15px', fontSize: '14px', marginBottom: '13px' },
-        }, img, details));
+        list.appendChild(el('div', { className: 'profile-card verification-modal-person' }, img, details));
       });
 
       const zapsElement = document.getElementById('zaps');
       zapsElement.style.display = 'block';
       zapsElement.replaceChildren(
-        el('p', {},
-          el('strong', {}, `Zaps received for this verification (${formatZapAmount(zapTotalAmount)} sats):`),
-          ' ',
-          list,
-        ),
+        el('h3', { className: 'verification-modal-caption' }, `Zaps received · ${formatZapAmount(zapTotalAmount)} sats`),
+        list,
       );
     }
   });
@@ -1047,18 +1041,21 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
         });
       }
 
-      endorsementsList.appendChild(el('div', {
-        className: 'profile-card',
-        style: { marginTop: '5px', marginLeft: '15px' },
-      },
+      endorsementsList.appendChild(el('div', { className: 'profile-card verification-modal-person' },
         img,
-        ` ${validity === 'valid' ? 'Positive ✅' : 'Negative ❌'} (${formatCommentDate(endorsement.created_at)})`,
+        el('span', {
+          className: `verification-modal-mark verification-modal-mark--${validity === 'valid' ? 'good' : 'bad'}`,
+          'aria-hidden': 'true',
+          html: wsIcon(validity === 'valid' ? 'check' : 'xmark'),
+        }),
+        `${validity === 'valid' ? 'Positive' : 'Negative'} (${formatCommentDate(endorsement.created_at)})`,
       ));
     }
     const endorsementsElement = document.getElementById('endorsements');
     endorsementsElement.style.display = 'block';
     endorsementsElement.replaceChildren(
-      el('p', {}, el('strong', {}, 'Endorsements:'), ' ', endorsementsList),
+      el('h3', { className: 'verification-modal-caption' }, 'Endorsements'),
+      endorsementsList,
     );
   }
 
