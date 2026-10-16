@@ -138,6 +138,16 @@ body.dark .dp-panel {
     white-space: normal;
     word-break: break-all;
   }
+
+  .dp-td-products {
+    white-space: nowrap;
+  }
+}
+
+// "· 3 this version" after the wallet count, and "only this wallet"
+.dp-products-sub {
+  font-size: $font-xxs;
+  color: var(--neutral-3);
 }
 
 .dp-more {
