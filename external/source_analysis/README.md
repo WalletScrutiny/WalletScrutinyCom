@@ -116,6 +116,33 @@ empty database therefore analyses every repository and takes hours; later
 passes analyse new releases and the default branches that moved. If a pass is
 still running when the timer fires again, that firing is skipped.
 
+Every analysis the service runs leaves a row in the `analyses` table: app, kind
+(release or default branch), ref, commit, analyser version, status (`ok`,
+`failed`, `unsupported`), the plugins that ran, the lockfiles the pinning step
+read, dependency and OSV checked/skipped counts. The dependency and
+vulnerability tables only hold rows for releases that produced some; this
+table is what says "analysed and nothing found", "failed" or "never analysed",
+and when. Releases stored before the table existed get a row from what their
+dependency rows remember (`analyser = before-analyses-table`, no commit).
+
+### Static export
+
+With `SOURCE_ANALYSIS_EXPORT_DIR` set, each pass ends by writing a static JSON
+export of the database (`export.mjs`), built in a temporary directory and
+renamed into place so a reader never sees a half-written tree:
+
+| file | content |
+|---|---|
+| `index.json` | every analysed app: aliases (the site's app ids for the repository), latest release summary (ref, commit, date, status, dependency and advisory counts), default-branch status |
+| `apps/<appId>.json` | all analyses of one app: per release the counts, the advisories (id, severity, aliases, fixed-in, shipped/build-only where the lockfile says), the diff to the previous release, OSV checked/skipped counts |
+| `apps/<appId>/<ref>/dependencies.json` | the full resolved dependency list of one release (ecosystem, name, version, lockfile, pinning tier, direct, dev, integrity) |
+
+Sizes on the 2026-10-16 database: 59 apps, 81 releases, 31 MB in total,
+`index.json` 27 KB, the largest dependency list 1.5 MB (OneKey). How the files
+reach the site (Blossom blob plus pointer event, rsync, or a web server) is
+decided outside this module. Run it by hand with
+`node export.mjs --out <dir>` (`SOURCE_ANALYSIS_DB_PATH` selects the database).
+
 Query the service database with the CLI in this folder:
 
 ```bash

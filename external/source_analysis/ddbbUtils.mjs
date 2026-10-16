@@ -156,7 +156,75 @@ export function initDatabase(dbPath = DB_PATH) {
     );
   `);
 
+  // One row per analysis the service ran: what was looked at (commit, ref,
+  // kind), by which analyser, with which outcome, and what it saw (ecosystem,
+  // lockfiles, dependency and OSV counts). The dependency and vulnerability
+  // tables only hold rows for releases that produced some; this table is what
+  // says "analysed, nothing found", "failed" or "not supported", and when.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS analyses (
+      app_id TEXT NOT NULL,
+      kind TEXT NOT NULL,              -- release | default-branch
+      ref TEXT NOT NULL,               -- release tag, or the branch's commit for default-branch runs
+      commit_sha TEXT,
+      status TEXT NOT NULL,            -- ok | failed | unsupported
+      error TEXT,
+      app_type TEXT,
+      analyser TEXT NOT NULL,
+      plugins TEXT NOT NULL DEFAULT '',          -- space-separated plugin names that ran
+      lockfiles TEXT NOT NULL DEFAULT '',        -- JSON array of lockfile paths the pinning step read
+      dependencies INTEGER,
+      osv_checked INTEGER,
+      osv_skipped TEXT NOT NULL DEFAULT '{}',    -- JSON {reason: count}
+      vulnerabilities INTEGER,
+      analysed_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (app_id, kind, ref)
+    );
+  `);
+  // Releases stored before this table existed get a row from what the
+  // dependency rows remember (their creation time and count); commit and
+  // lockfiles stay unknown until the release is analysed again.
+  db.exec(`
+    INSERT OR IGNORE INTO analyses (app_id, kind, ref, status, analyser, dependencies, vulnerabilities, analysed_at)
+    SELECT d.app_id, 'release', d.version, 'ok', 'before-analyses-table', COUNT(*),
+           (SELECT COUNT(*) FROM app_vulnerabilities v WHERE v.app_id = d.app_id AND v.version = d.version),
+           MIN(d.created_at)
+    FROM app_dependencies d GROUP BY d.app_id, d.version;
+  `);
+
   return db;
+}
+
+// Store the outcome of one analysis (see appAnalysis.runSourceCodeAnalysis);
+// a repeat of the same (appId, kind, ref) replaces the earlier row.
+export function recordAnalysis(db, { appId, kind, ref, commit = null, status, error = null, appType = null,
+  analyser, plugins = [], lockfiles = [], dependencies = null, osvChecked = null, osvSkipped = {}, vulnerabilities = null }) {
+  db.prepare(`
+    INSERT OR REPLACE INTO analyses
+      (app_id, kind, ref, commit_sha, status, error, app_type, analyser, plugins, lockfiles,
+       dependencies, osv_checked, osv_skipped, vulnerabilities, analysed_at)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+  `).run(appId, kind, ref, commit, status, error, appType, analyser, plugins.join(' '), JSON.stringify(lockfiles),
+    dependencies, osvChecked, JSON.stringify(osvSkipped), vulnerabilities);
+}
+
+// Every recorded analysis of an app, newest first, JSON columns decoded.
+export function getAnalyses(db, appId) {
+  return db.prepare('SELECT * FROM analyses WHERE app_id = ? ORDER BY analysed_at DESC, ref').all(appId).map(decodeAnalysis);
+}
+
+// The apps with at least one recorded analysis.
+export function listAnalysedApps(db) {
+  return db.prepare('SELECT DISTINCT app_id FROM analyses ORDER BY app_id').all().map(r => r.app_id);
+}
+
+function decodeAnalysis(row) {
+  return {
+    ...row,
+    plugins: row.plugins ? row.plugins.split(' ') : [],
+    lockfiles: JSON.parse(row.lockfiles || '[]'),
+    osv_skipped: JSON.parse(row.osv_skipped || '{}'),
+  };
 }
 
 export function getAnalysedCommit(db, appId) {
