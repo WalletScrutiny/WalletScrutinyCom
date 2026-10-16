@@ -90,25 +90,25 @@ From a development perspective, the project maintains clear build instructions f
 
 {% include featureEvidence.html feature="ownFullNode" quote="Set the peers you would like to download block headers from and broadcast transactions through." comment="Embedded LND (Android and iOS) can connect only to chosen compact-filter peers, including a compatible full node the user operates." source="[ZEUS app text, Neutrino Peers setting](https://github.com/ZeusLN/zeus/blob/38a3129613b9ac2bf23fa485906da192ef559394/locales/en.json#L1450-L1451)" %}
 
-## Android
-
----
-
-## iPhone
+{% include featureEvidence.html feature="ln" quote="Lightning address receive" comment="ZEUS sends and receives Lightning payments through the connected or embedded node; the README also lists LNURL, keysend and MPP/AMP support." source="[README](https://github.com/ZeusLN/zeus#features)" %}
 
 This app is a bit special as it does not hold your private keys but neither is
 it custodial. It remote-controls your lightning node that you can run for
 example at home. So it is a wallet in that you can use it to send and receive
 Bitcoins.
 
+## Android
+
 And ... best of all:
 
 > Furthermore our builds have no proprietary dependencies, are reproducible, and
   are distributed on F-Droid.
 
-This only applies for the Android version of course and to see how that went,
-check out the Android app. For iPhone app, reproducibility is still an
-unresolved issue which leaves this app to be open source but still
-**not verifiable**.
+How that went is reflected in the verdict for the Android app.
+
+## iPhone
+
+For the iPhone app, reproducibility is still an unresolved issue which leaves
+this app to be open source but still **not verifiable**.
 
 An issue has been opened at [https://github.com/ZeusLN/zeus/issues/416](https://github.com/ZeusLN/zeus/issues/416)
