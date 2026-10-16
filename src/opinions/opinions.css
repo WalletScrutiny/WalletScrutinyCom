@@ -103,6 +103,12 @@
   margin: 1em 0;
 }
 
+.opinions__no-extension {
+  color: var(--neutral-3);
+  font-size: 0.9em;
+  margin: 1em 0 0;
+}
+
 /* Cards --------------------------------------------------------------- */
 
 .opinion-card {

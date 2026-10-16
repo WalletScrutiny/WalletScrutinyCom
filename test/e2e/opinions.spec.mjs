@@ -55,7 +55,7 @@ test.describe('Community opinions', () => {
     assertNoConsoleErrors();
   });
 
-  test('explains the extension requirement to anonymous visitors', async ({ page }, testInfo) => {
+  test('shows a note instead of the posting controls without an extension', async ({ page }, testInfo) => {
     const assertNoConsoleErrors = attachConsoleGuards(testInfo, page);
 
     await page.goto(WALLET_PAGE_PATH);
@@ -65,9 +65,14 @@ test.describe('Community opinions', () => {
       timeout: NOSTR_DATA_TIMEOUT_MS,
     });
 
-    await section.getByRole('button', { name: 'Add your opinion' }).click();
-    await expect(page.locator('.toast')).toContainText('browser extension', { timeout: 15_000 });
-    await expect(section.locator('.opinions__compose-panel')).toHaveCount(0);
+    await expect(section.locator('.opinions__no-extension')).toContainText('Nostr extension', { timeout: 15_000 });
+    await expect(section.getByRole('button', { name: 'Add your opinion' })).toHaveCount(0);
+
+    const firstCard = section.locator('.opinion-card').first();
+    await expect(firstCard).toBeVisible({ timeout: NOSTR_DATA_TIMEOUT_MS });
+    await expect(firstCard.getByRole('button', { name: 'Reply', exact: true })).toHaveCount(0);
+    await expect(firstCard.getByRole('button', { name: 'Like', exact: true })).toBeDisabled();
+    await expect(firstCard.getByRole('button', { name: 'Dislike' })).toBeDisabled();
 
     assertNoConsoleErrors();
   });

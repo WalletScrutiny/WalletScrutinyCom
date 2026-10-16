@@ -38,6 +38,18 @@ function storage() {
   }
 }
 
+let extensionCheck = null;
+
+/**
+ * Resolves to whether a NIP-07 extension is present. Extensions inject
+ * `window.nostr` after the page starts, so this waits once and remembers the
+ * answer for every widget on the page.
+ */
+export function hasExtension() {
+  extensionCheck ??= waitNostr(NIP07_WAIT_MS).then(Boolean, () => false);
+  return extensionCheck;
+}
+
 /** Asks the extension for the pubkey; throws when no extension is installed. */
 export async function signIn() {
   const nip07 = await waitNostr(NIP07_WAIT_MS);
