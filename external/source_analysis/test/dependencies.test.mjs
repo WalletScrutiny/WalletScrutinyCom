@@ -221,6 +221,48 @@ test('cargo: workspace crates are skipped, their dependencies are direct', () =>
   assert.equal(byName(cargo.entries, 'gitdep').tier, 'source-ref-pinned');
 });
 
+test('cargo: scope from the manifests, dev-dependencies are tests, build-dependencies are build', () => {
+  const dir = fixture({
+    'Cargo.toml': ['[workspace]', 'members = ["app", "lib"]', ''].join('\n'),
+    'app/Cargo.toml': [
+      '[package]', 'name = "app"', 'version = "0.1.0"', '',
+      '[dependencies]', 'serde = "1"', 'lib = { path = "../lib" }', 'pretty = { package = "prettyplease", version = "0.2" }', '',
+      '[dependencies.tokio]', 'version = "1"', 'features = ["rt"]', '',
+      '[target.\'cfg(unix)\'.dependencies]', 'libc = "0.2"', '',
+      '[build-dependencies]', 'cc = "1"', '',
+      '[dev-dependencies]', 'criterion = "0.5"', 'serde = "1" # also a dev dep: stays app', '',
+    ].join('\n'),
+    'lib/Cargo.toml': ['[package]', 'name = "lib"', 'version = "0.1.0"', '', '[dependencies]', 'hex = "0.4"', '', '[dev-dependencies]', 'proptest = "1"', ''].join('\n'),
+    'Cargo.lock': [
+      '[[package]]', 'name = "app"', 'version = "0.1.0"', 'dependencies = [', ' "cc",', ' "criterion",', ' "lib",', ' "libc",', ' "prettyplease",', ' "serde",', ' "tokio",', ']', '',
+      '[[package]]', 'name = "lib"', 'version = "0.1.0"', 'dependencies = [', ' "hex",', ' "proptest",', ']', '',
+      '[[package]]', 'name = "serde"', 'version = "1.0.1"', 'source = "registry+https://github.com/rust-lang/crates.io-index"', 'checksum = "a"', 'dependencies = [', ' "serde_derive 1.0.1",', ']', '',
+      '[[package]]', 'name = "serde_derive"', 'version = "1.0.1"', 'source = "registry+https://github.com/rust-lang/crates.io-index"', 'checksum = "b"', '',
+      '[[package]]', 'name = "prettyplease"', 'version = "0.2.0"', 'source = "registry+https://github.com/rust-lang/crates.io-index"', 'checksum = "c"', '',
+      '[[package]]', 'name = "tokio"', 'version = "1.40.0"', 'source = "registry+https://github.com/rust-lang/crates.io-index"', 'checksum = "d"', '',
+      '[[package]]', 'name = "libc"', 'version = "0.2.1"', 'source = "registry+https://github.com/rust-lang/crates.io-index"', 'checksum = "e"', '',
+      '[[package]]', 'name = "hex"', 'version = "0.4.3"', 'source = "registry+https://github.com/rust-lang/crates.io-index"', 'checksum = "f"', '',
+      '[[package]]', 'name = "cc"', 'version = "1.1.0"', 'source = "registry+https://github.com/rust-lang/crates.io-index"', 'checksum = "g"', 'dependencies = [', ' "shlex",', ']', '',
+      '[[package]]', 'name = "shlex"', 'version = "1.3.0"', 'source = "registry+https://github.com/rust-lang/crates.io-index"', 'checksum = "h"', '',
+      '[[package]]', 'name = "criterion"', 'version = "0.5.1"', 'source = "registry+https://github.com/rust-lang/crates.io-index"', 'checksum = "i"', 'dependencies = [', ' "serde",', ' "plotters",', ']', '',
+      '[[package]]', 'name = "plotters"', 'version = "0.3.5"', 'source = "registry+https://github.com/rust-lang/crates.io-index"', 'checksum = "j"', '',
+      '[[package]]', 'name = "proptest"', 'version = "1.4.0"', 'source = "registry+https://github.com/rust-lang/crates.io-index"', 'checksum = "k"', '',
+      '[[package]]', 'name = "orphan"', 'version = "0.0.1"', 'source = "registry+https://github.com/rust-lang/crates.io-index"', 'checksum = "l"', '',
+    ].join('\n'),
+  });
+  const [cargo] = quiet(() => analyzePinning(dir));
+  const scopes = Object.fromEntries(cargo.entries.map(e => [e.name, e.scope]));
+  assert.deepEqual(scopes, {
+    serde: 'app', serde_derive: 'app', prettyplease: 'app', tokio: 'app', libc: 'app', hex: 'app', // [dependencies], renamed, sub-table, target-specific, through the workspace lib
+    cc: 'build', shlex: 'build', // [build-dependencies] and what it pulls
+    criterion: 'tests', plotters: 'tests', proptest: 'tests', // [dev-dependencies] of app and of lib
+    orphan: null, // in the lock, reached by nothing
+  });
+  assert.equal(byName(cargo.entries, 'hex').dev, false);
+  assert.equal(byName(cargo.entries, 'proptest').dev, true);
+  assert.equal(byName(cargo.entries, 'orphan').dev, null);
+});
+
 test('database: store, re-store, diff and ships lookup', () => {
   const db = initDatabase(':memory:');
   const v1 = [{ ecosystem: 'npm', entries: [
