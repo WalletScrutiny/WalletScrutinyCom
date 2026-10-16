@@ -8,6 +8,7 @@ import fs from 'fs';
 import path from 'path';
 import { execSync, execFile } from 'child_process';
 import { promisify } from 'util';
+import { fileURLToPath } from 'url';
 import { DEFAULT_TEMP_DIR, APP_TYPES } from './config.mjs';
 import { ensureImage, runInContainer } from './containerRunner.mjs';
 import { loadPlugins, runPlugins } from './plugins.mjs';
@@ -97,6 +98,36 @@ export async function runChecksOnCheckout(repoPath, appType, { includeTestFiles 
 }
 
 /**
+ * What an analysis saw, for the analyses table: the lockfiles the pinning
+ * step read, the dependency rows it produced, and what the OSV step checked
+ * and skipped (plugins/osv.mjs checkVulnerabilities). Plugins that are off
+ * leave their fields null.
+ */
+export function summarizeResults(results = {}, plugins = []) {
+  const pinning = Array.isArray(results.pinning) ? results.pinning : null;
+  const osv = results.osv && typeof results.osv === 'object' ? results.osv : null;
+  return {
+    plugins: plugins.map(p => p.name),
+    lockfiles: pinning ? pinning.flatMap(a => a.lockfiles || []) : [],
+    dependencies: pinning ? pinning.reduce((n, a) => n + (a.entries || []).length, 0) : null,
+    osvChecked: osv ? osv.checked ?? null : null,
+    osvSkipped: osv ? osv.skipped || {} : {},
+    vulnerabilities: osv ? (osv.findings || []).length : null,
+  };
+}
+
+// Which analyser produced a row: the package version, plus the git revision
+// the deploy script writes to REVISION (a dev checkout has none).
+export function analyserVersion() {
+  const here = path.dirname(fileURLToPath(import.meta.url));
+  let version = 'unknown';
+  try { version = JSON.parse(fs.readFileSync(path.join(here, 'package.json'), 'utf8')).version || version; } catch { /* keep unknown */ }
+  let revision = '';
+  try { revision = fs.readFileSync(path.join(here, 'REVISION'), 'utf8').trim().slice(0, 12); } catch { /* dev checkout */ }
+  return revision ? `${version}+${revision}` : version;
+}
+
+/**
  * Analyse one repository at one ref (the new release's tag, or the default
  * branch when nothing new was found). Clone and the plugins' container steps
  * run in a throwaway container (containerRunner.mjs); the plugins' host steps
@@ -115,12 +146,19 @@ export async function runSourceCodeAnalysis({ name, repoUrl, version = null, inc
   fs.rmSync(workDir, { recursive: true, force: true });
   fs.mkdirSync(workDir, { recursive: true });
 
+  // Host only (the container never has a database): ddbbUtils stays a lazy import.
+  const record = async (fields) => {
+    if (!db) return;
+    const { recordAnalysis } = await import('./ddbbUtils.mjs');
+    recordAnalysis(db, { appId: name, kind: version ? 'release' : 'default-branch', ref: version || fields.commit || 'unknown', analyser: analyserVersion(), ...fields });
+  };
   try {
     const plugins = await loadPlugins();
     ensureImage();
     const result = await runInContainer({ name, repoUrl, ref: version, includeTestFiles, workDir });
     if (!result.ok) {
       console.log(`Analysis of ${name} failed in the container: ${result.error}. Skipping...`);
+      await record({ status: 'failed', error: String(result.error || 'container failed'), commit: result.commit || null, appType: result.appType || null });
       return null;
     }
     const ctx = {
@@ -128,13 +166,18 @@ export async function runSourceCodeAnalysis({ name, repoUrl, version = null, inc
       options: { includeTestFiles }, results: result.results || {}, failed: result.failed || [],
     };
     await runPlugins(plugins, 'host', ctx);
+    const seen = summarizeResults(ctx.results, plugins);
     if (ctx.failed.length) {
-      console.log(`Analysis of ${name} failed: ${ctx.failed.map(f => `${f.plugin} (${f.error})`).join(', ')}`);
+      const error = ctx.failed.map(f => `${f.plugin} (${f.error})`).join(', ');
+      console.log(`Analysis of ${name} failed: ${error}`);
+      await record({ status: 'failed', error, commit: result.commit, appType: result.appType, ...seen });
       return null;
     }
+    await record({ status: result.appType === APP_TYPES.UNKNOWN ? 'unsupported' : 'ok', commit: result.commit, appType: result.appType, ...seen });
     return { ...result, results: ctx.results };
   } catch (error) {
     console.error(`Analysis of ${name} failed: ${error.message}`);
+    await record({ status: 'failed', error: error.message }).catch(() => {});
     return null;
   } finally {
     // Clone, node_modules and result: nothing of it is needed after this point.

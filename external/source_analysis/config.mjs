@@ -38,6 +38,8 @@ export const DOCKER_HUB_API_BASE = 'https://hub.docker.com/v2';
 export const DB_PATH = process.env.SOURCE_ANALYSIS_DB_PATH || join(__dirname, 'assets.db');
 export const BACKUP_DIR = join(dirname(DB_PATH), 'backup');
 export const BACKUPS_TO_KEEP = 14; // one copy per run, older ones are deleted
+// Static JSON export written at the end of each pass (export.mjs); unset = no export
+export const EXPORT_DIR = process.env.SOURCE_ANALYSIS_EXPORT_DIR || null;
 
 // App list: which wallets exist and where their source lives, rendered by the
 // site from the wallet records (api/appRepositories.json).

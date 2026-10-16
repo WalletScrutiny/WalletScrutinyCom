@@ -52,6 +52,12 @@ cd "$ROOT"
 log "Running source analysis tests (a failure aborts the deploy)..."
 npm test --prefix "$SOURCE_DIR"
 
+# The analyses table records which analyser wrote each row (appAnalysis.analyserVersion).
+git -C "$ROOT" rev-parse HEAD > "${SOURCE_DIR}/REVISION"
+if [ -n "$(git -C "$ROOT" status --porcelain -- external/source_analysis | grep -v REVISION)" ]; then
+  log "Note: deploying with uncommitted changes in external/source_analysis; REVISION names the last commit"
+fi
+
 log "Syncing ${SOURCE_DIR} to ${HOST}:${TARGET_DIR}"
 ssh -o BatchMode=yes "${HOST}" "mkdir -p '${TARGET_DIR}'"
 
