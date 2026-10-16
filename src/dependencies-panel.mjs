@@ -75,7 +75,18 @@ function advisoryRow(a, { mixedEcosystems = false } = {}) {
     el('td', {}, el('a', { href: `${OSV_URL}${encodeURIComponent(a.id)}`, target: '_blank', rel: 'noopener noreferrer', title: a.summary || '' }, a.id)),
     el('td', {}, severityPill(a.severity)),
     el('td', {}, el('span', { className: `dp-where dp-where--${where}` }, whereLabel(a))),
+    el('td', { className: 'dp-td-products' }, usedBy(a)),
   );
+}
+
+// "25 · 3 this version": how many of the checked wallets ship the package at
+// all, and how many this exact version. A package only this wallet ships
+// says so instead of "1".
+export function usedBy(a) {
+  if (a.products == null) return '–';
+  if (a.products <= 1) return el('span', { className: 'dp-products-sub' }, 'only this wallet');
+  const same = a.productsSameVersion;
+  return el('span', {}, String(a.products), same != null ? el('span', { className: 'dp-products-sub' }, ` · ${same} this version`) : null);
 }
 
 function advisoryTable(model) {
@@ -85,7 +96,7 @@ function advisoryTable(model) {
   const body = el('tbody', {}, model.worst.map(a => advisoryRow(a, rowOptions)));
   const table = el('table', { className: 'dp-table' },
     el('thead', {}, el('tr', {},
-      ['Package', 'Version', 'Advisory', 'Severity', 'Where?'].map(h => el('th', {}, h)),
+      ['Package', 'Version', 'Advisory', 'Severity', 'Where?', 'Used by'].map(h => el('th', {}, h)),
     )),
     body,
   );
@@ -134,15 +145,16 @@ function howToRead(model) {
   parts.push('"Could not be checked" means the package has no exact registry version to look up');
   if (model.uncheckedBreakdown.length) parts.push(` (${model.uncheckedBreakdown.map(u => `${u.count} ${u.label}`).join(', ')})`);
   parts.push(', so it is not the same as "no problems". Results are a snapshot from the check date; new advisories may appear later. ');
-  parts.push('A listed advisory is not a defect in the wallet: it says that a version with a published advisory is present, nothing more. Leaving such a version in place is often the right call, when the vulnerable code is never reached or the package comes from a vendor the platform already trusts. Nobody has gone through these rows yet, and we do not rank wallets by this number. ');
+  parts.push('A listed advisory is not a defect in the wallet: it says that a version with a published advisory is present, nothing more. Leaving such a version in place can be the right call, when the vulnerable code is never reached or the flaw needs a position an attacker does not have here; that is a decision per advisory, and nobody has made those yet. We do not rank wallets by this number. ');
   if (model.byScope) {
     const b = model.byScope;
     parts.push(`"Where?" says where a package ends up: ${b.app} in the app, ${b.build} in the build tooling, ${b.tests} only in tests`);
     parts.push(b.unknown ? `, and ${b.unknown} the files do not say ("?"). ` : '. ');
     parts.push('A build or test dependency can still hurt the product (an install script runs on the developer\'s machine), so every advisory needs its own look. ');
   } else if (model.whereUnknown) {
-    parts.push(`"?" in the last column means the files do not say whether the package ends up in the app, the build tooling or the tests (${model.whereUnknown} packages). `);
+    parts.push(`"?" in the Where? column means the files do not say whether the package ends up in the app, the build tooling or the tests (${model.whereUnknown} packages). `);
   }
+  parts.push('"Used by" counts how many of the wallets we have checked ship the package in any version, and how many this exact version: a package shared by many wallets is a shared risk, not a problem with this one. ');
   if (model.lockfiles.length) {
     parts.push('Files read: ');
     model.lockfiles.forEach((l, i) => { if (i) parts.push(', '); parts.push(el('code', {}, l)); });

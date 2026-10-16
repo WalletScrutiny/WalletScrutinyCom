@@ -2,7 +2,7 @@ import './setup.mjs';
 import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { loadApp, renderDependenciesPanel, panelElement } from '../../src/dependencies-panel.mjs';
+import { loadApp, renderDependenciesPanel, panelElement, usedBy } from '../../src/dependencies-panel.mjs';
 import { panelModel } from '../../src/dependencies-panel-model.mjs';
 
 const advisory = (id, severity, extra = {}) => ({ id, severity, aliases: [], fixed: [], summary: 's', ecosystem: 'npm', package: 'pkg', version: '1.0.0', direct: true, dev: false, ...extra });
@@ -67,12 +67,12 @@ describe('dependencies panel', () => {
     assert.equal(host.querySelector('tbody tr td a').textContent, 'GHSA-crit');
     assert.equal(host.querySelector('tbody tr td a').getAttribute('href'), 'https://osv.dev/vulnerability/GHSA-crit');
     assert.equal(host.querySelector('.dp-more').textContent, 'Show all 13 advisories');
-    assert.deepEqual([...host.querySelectorAll('thead th')].map(e => e.textContent), ['Package', 'Version', 'Advisory', 'Severity', 'Where?']);
+    assert.deepEqual([...host.querySelectorAll('thead th')].map(e => e.textContent), ['Package', 'Version', 'Advisory', 'Severity', 'Where?', 'Used by']);
     assert.equal(host.querySelector('.dp-eco'), null, 'one ecosystem: no tag on the package');
     assert.match(host.querySelector('.dp-note').textContent, /300 in the app, 90 in the build tooling, 10 only in tests, and 12 the files do not say/);
     assert.equal(host.querySelector('.dp-badge').textContent, 'Measurement only · not part of the verdict');
     assert.match(host.querySelector('.dp-note').textContent, /A listed advisory is not a defect in the wallet/);
-    assert.match(host.querySelector('.dp-note').textContent, /we do not rank wallets by this number/);
+    assert.match(host.querySelector('.dp-note').textContent, /We do not rank wallets by this number/);
     const notices = [...host.querySelectorAll('.dp-notices li')].map(e => e.textContent);
     assert.match(notices[0], /store version 1\.4\.2 has not been checked yet/);
     assert.match(notices[1], /Same source repository as app\.ios/);
@@ -112,5 +112,15 @@ describe('dependencies panel', () => {
     const node = panelElement(panelModel(clean), { appId: 'app.android', base: '/x', fetchImpl: async () => null });
     assert.equal(node.querySelector('table'), null);
     assert.equal(node.querySelectorAll('.dp-tile--good').length, 2);
+  });
+
+  test('usedBy: wallets shipping the package, this exact version, or only this one', () => {
+    const text = (a) => { const v = usedBy(a); return typeof v === 'string' ? v : v.textContent; };
+    assert.equal(text(advisory('x', 'low', { products: 25, productsSameVersion: 3 })), '25 · 3 this version');
+    assert.equal(text(advisory('x', 'low', { products: 1, productsSameVersion: 1 })), 'only this wallet');
+    assert.equal(text(advisory('x', 'low')), '–', 'an export from before the field existed');
+    const rows = panelElement(panelModel({ ...APP, releases: [{ ...APP.releases[0], advisories: [advisory('GHSA-1', 'high', { products: 7, productsSameVersion: 2 })] }] }), { appId: 'app.android', base: '/x', fetchImpl: async () => null })
+      .querySelectorAll('tbody tr');
+    assert.equal(rows[0].querySelector('.dp-td-products').textContent, '7 · 2 this version');
   });
 });

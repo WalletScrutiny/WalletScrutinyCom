@@ -145,7 +145,7 @@ export function csvOf(dependencies = [], advisories = []) {
     if (!byPackage.has(key)) byPackage.set(key, []);
     byPackage.get(key).push(a);
   }
-  const header = ['ecosystem', 'package', 'version', 'lockfile', 'direct', 'where', 'pinning', 'advisories', 'worst_severity'];
+  const header = ['ecosystem', 'package', 'version', 'lockfile', 'direct', 'where', 'pinning', 'advisories', 'worst_severity', 'products', 'products_same_version'];
   const lines = [header.join(',')];
   for (const d of dependencies) {
     const hits = byPackage.get(`${d.ecosystem}:${d.name}@${d.version}`) || [];
@@ -157,6 +157,8 @@ export function csvOf(dependencies = [], advisories = []) {
       d.tier,
       hits.map(h => h.id).join(' '),
       worst ? worst.severity : '',
+      d.products ?? '',
+      d.productsSameVersion ?? '',
     ].map(csvCell).join(','));
   }
   return lines.join('\n') + '\n';
