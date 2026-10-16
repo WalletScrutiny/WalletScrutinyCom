@@ -51,6 +51,8 @@ export function readWidgetConfig(dataset) {
   return {
     subject,
     subjectKeys: parseSubjectKeys(subject, dataset.subjects),
+    /** Android package id, set on mobile pages: Zapstore comments are looked up by it. */
+    zapstoreAppId: String(dataset.zapstoreAppId ?? '').trim(),
     header: dataset.header ?? '',
     footer: dataset.footer ?? '',
     title: dataset.title ?? '',

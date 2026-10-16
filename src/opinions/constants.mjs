@@ -51,4 +51,13 @@ export const maxReplyLength = 10000;
 /** Per-relay wait for EOSE on the initial loads. */
 export const fetchMaxWaitMs = 5000;
 
-export const njumpUrl = 'https://njump.me/';
+/**
+ * Zapstore (zapstore.dev) comments on an Android app: NIP-22 comments (kind
+ * 1111) whose `A` tag names the NIP-82 app event (kind 32267, `d` = package
+ * id). They are read from the Zapstore relay only and shown read-only; people
+ * answer them in the Zapstore app.
+ */
+export const zapstoreAppKind = 32267;
+export const zapstoreCommentKind = 1111;
+export const zapstoreRelayUrls = ['wss://relay.zapstore.dev/'];
+export const zapstoreAppUrl = 'https://zapstore.dev/apps/';

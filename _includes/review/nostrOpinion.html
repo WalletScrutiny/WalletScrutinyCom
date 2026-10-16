@@ -3,17 +3,20 @@
   in src/opinions/ and is loaded by src/loader.js on review pages; this include
   only carries the per-page parameters as data attributes.
   The optional `opinionSubjects` are legacy d-tags (android/..., iphone/...)
-  that are read but never published to.
+  that are read but never published to. `opinionZapstoreAppId` (Android package
+  id) makes the widget also show the comments posted on Zapstore for the app.
 {%- endcomment -%}
 {% assign nostr_collection = include.opinionSubject | default: page.collection %}
 {% assign nostr_app_id = include.opinionAppId | default: page.appId %}
 {% assign nostr_subjects = include.opinionSubjects | default: '' %}
+{% assign nostr_zapstore_app_id = include.opinionZapstoreAppId | default: '' %}
 <section
   id="communityOpinions"
   class="opinions"
   data-opinions
   data-subject="{{ nostr_collection }}/{{ nostr_app_id }}"
   data-subjects="{{ nostr_subjects }}"
+  data-zapstore-app-id="{{ nostr_zapstore_app_id }}"
   data-header="******** Opinion about {{ page.title | escape }} ({{ nostr_collection }})"
   data-footer="[Join the conversation!](https://walletscrutiny.com/{{ nostr_collection }}/{{ nostr_app_id }}/)"
   data-title="Opinion about {{ page.title | escape }}"
@@ -32,7 +35,7 @@
       <i class="circle">{% include icon.html name="user-group" %}</i>
       <div class="title">
         <h2 class="opinions__headline">Community Opinions</h2>
-        <p class="opinions__description">These comments are contributed by nostr users and stored on Nostr relays.</p>
+        <p class="opinions__description">These comments are contributed by Nostr users.</p>
       </div>
     </div>
   </div>

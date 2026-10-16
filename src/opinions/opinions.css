@@ -79,6 +79,77 @@
   background: var(--accent-50);
 }
 
+/* Source tabs (WalletScrutiny / Zapstore), only when both have entries ---- */
+
+.opinions__tabs {
+  display: flex;
+  gap: 0.25em;
+  margin-top: 0.5em;
+  border-bottom: 1px solid var(--neutral-5);
+}
+
+.opinions__tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  margin-bottom: -1px;
+  padding: 0.5em 0.9em;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--neutral-3);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 500;
+}
+
+.opinions__tab:hover {
+  color: var(--text);
+}
+
+.opinions__tab[aria-selected="true"] {
+  color: var(--text);
+  border-bottom-color: var(--accent);
+}
+
+.opinions__tab .ws-icon {
+  width: 0.9em;
+  height: 0.9em;
+  fill: currentColor;
+}
+
+.opinions__tab-count {
+  padding: 0.05em 0.55em;
+  border-radius: 999px;
+  background: var(--neutral-6);
+  color: var(--neutral-2);
+  font-size: 0.85em;
+}
+
+.opinions__tabs + .opinions__toolbar {
+  border-top: none;
+}
+
+.opinions__source-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5em;
+  margin: 1em 0 0;
+  color: var(--neutral-3);
+}
+
+.opinions__source-note .ws-icon {
+  flex-shrink: 0;
+  width: 1.1em;
+  height: 1.1em;
+  margin-top: 0.15em;
+  fill: currentColor;
+}
+
+.opinions__source-note a {
+  color: var(--accent-text);
+}
+
 .opinions__notice {
   margin: 0.75em 0 0;
   color: var(--neutral-3);
@@ -112,16 +183,21 @@
 /* Cards --------------------------------------------------------------- */
 
 .opinion-card {
+  /* Vertical room inside a card: 25 % less than the 14px / 0.6em the widget
+     shipped with, 40 % less below the phone breakpoint (Luis, 2026-10-16). */
+  --card-pad-y: 10.5px;
+  --card-gap-y: 0.45em;
   border: 1px solid var(--neutral-5);
   border-radius: 8px;
-  padding: 14px 16px;
+  padding: var(--card-pad-y) 16px;
   margin-bottom: 14px;
   background: var(--body);
 }
 
 .opinion-card--reply {
+  --card-pad-y: 7.5px;
   margin: 10px 0 0 0;
-  padding: 10px 12px;
+  padding: var(--card-pad-y) 12px;
   background: var(--neutral-6);
   border-color: transparent;
 }
@@ -136,7 +212,7 @@ body.dark .opinion-card--reply {
   justify-content: space-between;
   align-items: center;
   gap: 0.5em 1em;
-  margin-bottom: 0.6em;
+  margin-bottom: var(--card-gap-y);
 }
 
 .opinion-card__author-row {
@@ -148,6 +224,14 @@ body.dark .opinion-card--reply {
 
 .opinion-card__sentiment {
   display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  margin-left: 0.25em;
+  padding-left: 0.75em;
+  border-left: 1px solid var(--neutral-5);
+  font-size: 0.9em;
+  color: var(--neutral-2);
+  white-space: nowrap;
 }
 
 .opinion-card__author {
@@ -158,8 +242,8 @@ body.dark .opinion-card--reply {
 }
 
 .opinion-card__avatar {
-  width: 36px;
-  height: 36px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   object-fit: cover;
   background: var(--neutral-5);
@@ -167,8 +251,8 @@ body.dark .opinion-card--reply {
 }
 
 .opinion-card--reply .opinion-card__avatar {
-  width: 28px;
-  height: 28px;
+  width: 35px;
+  height: 35px;
 }
 
 .opinion-card__name {
@@ -191,13 +275,19 @@ body.dark .opinion-card--reply {
   white-space: nowrap;
 }
 
-.opinion-card__meta a {
-  color: inherit;
+.opinion-card__version {
+  padding: 0.1em 0.6em;
+  border-radius: 999px;
+  background: var(--neutral-6);
+  color: var(--neutral-2);
 }
 
+/* Long content is cut after --clamp-lines lines with a "Read more" toggle (card.mjs). */
 .opinion-card__content {
+  --clamp-lines: 6;
   position: relative;
-  max-height: 320px;
+  line-height: 1.5;
+  max-height: calc(var(--clamp-lines) * 1.5em);
   overflow: hidden;
   word-break: break-word;
 }
@@ -212,7 +302,7 @@ body.dark .opinion-card--reply {
   left: 0;
   right: 0;
   bottom: 0;
-  height: 60px;
+  height: 1.5em;
   background: linear-gradient(to bottom, transparent, var(--body));
 }
 
@@ -244,7 +334,12 @@ body.dark .opinion-card--reply {
   flex-wrap: wrap;
   align-items: center;
   gap: 0.25em 1em;
-  margin-top: 0.6em;
+  margin-top: var(--card-gap-y);
+}
+
+/* The thread toggle is hidden on cards without replies; inline-flex below would override [hidden]. */
+.opinion-card__thread[hidden] {
+  display: none;
 }
 
 .opinion-card__action {
@@ -321,8 +416,8 @@ body.dark .opinion-card--reply {
 }
 
 .opinions__signed-in .opinion-card__avatar {
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
 }
 
 .opinions-editor,
@@ -506,6 +601,13 @@ body.dark .opinion-card--reply {
   .opinions__toolbar {
     flex-direction: column;
     align-items: flex-start;
+  }
+  .opinion-card {
+    --card-pad-y: 8.4px;
+    --card-gap-y: 0.36em;
+  }
+  .opinion-card--reply {
+    --card-pad-y: 6px;
   }
   .opinion-card__name {
     max-width: 10em;

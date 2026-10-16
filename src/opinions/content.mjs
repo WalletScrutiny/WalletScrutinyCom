@@ -10,6 +10,8 @@ import {
   opinionHeaderSeparator,
   opinionFooterSeparator,
   SENTIMENTS,
+  zapstoreAppKind,
+  zapstoreCommentKind,
 } from './constants.mjs';
 
 const headerRegex = new RegExp(`^[\\s\\S]*?${opinionHeaderSeparator}`);
@@ -158,13 +160,14 @@ export function getReplyParentId(reply) {
 
 /**
  * Groups replies by parent id, oldest first. Replies to events that are not in
- * `knownIds` (deleted opinions, foreign threads) are dropped.
+ * `knownIds` (deleted opinions, foreign threads) are dropped. Replies are
+ * kind-1 notes; Zapstore threads pass `kind: zapstoreCommentKind`.
  */
-export function buildReplyTree(replies, knownIds) {
+export function buildReplyTree(replies, knownIds, { kind = replyKind } = {}) {
   const children = new Map();
   const accepted = new Set(knownIds);
   const pending = replies
-    .filter((reply) => reply.kind === replyKind)
+    .filter((reply) => reply.kind === kind)
     .sort((a, b) => (a.created_at ?? 0) - (b.created_at ?? 0));
 
   // A reply's parent may itself be a reply that appears later in the list.
@@ -237,6 +240,33 @@ export function isEdited(event) {
   return Number.isFinite(publishedAt) && publishedAt < (event.created_at ?? 0);
 }
 
-export function headline(trustedCount, allCount) {
-  return `Community Opinions (${trustedCount}/${allCount})`;
+/** Zapstore app address (NIP-82 kind 32267) a comment must name in its `A` tag. */
+export function zapstoreAppAddress(publisherPubkey, appId) {
+  return `${zapstoreAppKind}:${publisherPubkey}:${appId}`;
+}
+
+/**
+ * Splits Zapstore comments into top-level comments on the app (newest first)
+ * and replies (NIP-22: a reply names its parent comment in an `e` tag).
+ * Blocked events and authors are dropped like everywhere else.
+ */
+export function splitZapstoreComments(events, { blockedEventIds = new Set(), blockedAuthors = new Set() } = {}) {
+  const roots = [];
+  const replies = [];
+  for (const event of events) {
+    if (event.kind !== zapstoreCommentKind) continue;
+    if (blockedEventIds.has(event.id) || blockedAuthors.has(event.pubkey)) continue;
+    if (getTags(event, 'e').length) {
+      replies.push(event);
+    } else {
+      roots.push(event);
+    }
+  }
+  roots.sort((a, b) => (b.created_at ?? 0) - (a.created_at ?? 0));
+  return { roots, replies };
+}
+
+/** App version the Zapstore comment was written for (`v` tag), or ''. */
+export function zapstoreCommentVersion(event) {
+  return getTagValue(event, 'v').trim();
 }

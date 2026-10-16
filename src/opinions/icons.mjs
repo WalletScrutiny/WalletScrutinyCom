@@ -31,5 +31,5 @@ export const replyIcon =
   '<path d="M9 17l-5-5 5-5"/><path d="M4 12h9a7 7 0 0 1 7 7v1"/></svg>';
 
 export const approvedIcon =
-  '<svg class="opinions-icon opinions-icon--approved" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="currentColor">' +
-  '<path d="M12 2l7 2.5v6c0 5-3 9-7 11.5C8 19.5 5 15.5 5 10.5v-6z"/><path d="M8.6 12.1l2.3 2.3 4.6-4.9" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  '<svg class="opinions-icon opinions-icon--approved" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="currentColor">' +
+  '<path d="M12 2l9 3.2v6.3c0 5.1-3.7 9.3-9 10.5-5.3-1.2-9-5.4-9-10.5V5.2z"/><path d="M8 12.2l2.7 2.7 5.3-5.6" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>';

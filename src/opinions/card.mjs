@@ -7,12 +7,13 @@ import { parseMarkdownToSafeHtml } from '../marked-loader.mjs';
 import { formatCommentDate } from '../assets-table-utils.mjs';
 import { getProfileDisplayName, getProfileImageUrl, PROFILE_PLACEHOLDER_IMAGE, profileImageFallback } from '../nostr-profile.mjs';
 import { wsIcon } from '../icon.mjs';
-import { opinionKind, njumpUrl } from './constants.mjs';
-import { countThread, emptyReactionTally, getSentiment, isEdited, stripOpinionWrapper } from './content.mjs';
+import { opinionKind, SENTIMENT_LABELS } from './constants.mjs';
+import { countThread, emptyReactionTally, getSentiment, isEdited, stripOpinionWrapper, zapstoreCommentVersion } from './content.mjs';
 import { approvedIcon, replyIcon, sentimentIcon, thumbsDownIcon, thumbsUpIcon } from './icons.mjs';
 import { createReplyEditor } from './editor.mjs';
 
-const CLAMP_HEIGHT_PX = 320;
+/** Content that overflows the CSS clamp by less than this many lines is shown in full instead of getting a "Read more". */
+const CLAMP_SLACK_LINES = 0.5;
 
 /** Avatar + name; the widget patches both once the profile arrives. */
 export function renderAuthor(ctx, pubkey, { withBadge = true } = {}) {
@@ -43,7 +44,9 @@ function renderContent(event) {
   parseMarkdownToSafeHtml(markdown).then((html) => {
     content.innerHTML = html;
     requestAnimationFrame(() => {
-      if (content.scrollHeight <= CLAMP_HEIGHT_PX + 20) {
+      const lineHeight = parseFloat(getComputedStyle(content).lineHeight) || 24;
+      if (content.scrollHeight <= content.clientHeight + CLAMP_SLACK_LINES * lineHeight) {
+        content.classList.add('is-expanded');
         return;
       }
       content.classList.add('is-clamped');
@@ -70,35 +73,53 @@ function reactionButton(icon, label) {
   return { button, count };
 }
 
+/** Wallet version a Zapstore comment was written for, as a "v1.2.3" pill. */
+function renderVersion(event) {
+  const version = zapstoreCommentVersion(event);
+  if (!version) {
+    return null;
+  }
+  return el('span', { className: 'opinion-card__version', title: 'Wallet version this comment was written for' }, `v${version}`);
+}
+
 /**
  * @param ctx widget context: config, me, profiles, requestProfile, tree,
- *            reactions, expandedThreads, actions
+ *            reactions, expandedThreads, actions; `readOnly` cards (Zapstore
+ *            comments, `source: 'zapstore'`) only offer the thread toggle.
  */
 export function renderCard(ctx, event, { opinion = event, depth = 0 } = {}) {
   const isOpinion = event.kind === opinionKind;
-  const mine = ctx.me && ctx.me === event.pubkey;
+  // Top-level Zapstore comments are kind 1111 too, so the reply look keys on the depth, not the kind.
+  const isReply = depth > 0;
+  const readOnly = ctx.readOnly === true;
+  const mine = !readOnly && ctx.me && ctx.me === event.pubkey;
   const card = el('article', {
-    className: `opinion-card${isOpinion ? '' : ' opinion-card--reply'}`,
-    dataset: { eventId: event.id },
+    className: `opinion-card${isReply ? ' opinion-card--reply' : ''}${readOnly ? ' opinion-card--read-only' : ''}`,
+    dataset: { eventId: event.id, source: ctx.source ?? 'walletscrutiny' },
   });
 
-  // Header: sentiment, author, time.
+  // Header: author, sentiment ("Positive opinion" after a separator), time.
   const top = el('div', { className: 'opinion-card__top' });
   const left = el('div', { className: 'opinion-card__author-row' });
+  left.appendChild(renderAuthor(ctx, event.pubkey));
   const sentiment = isOpinion ? getSentiment(event) : null;
   if (sentiment) {
-    left.appendChild(el('span', { className: 'opinion-card__sentiment', title: 'Sentiment', html: sentimentIcon(sentiment) }));
+    const label = el('span', { className: 'opinion-card__sentiment', html: sentimentIcon(sentiment) });
+    label.appendChild(el('span', {}, `${SENTIMENT_LABELS[sentiment]} opinion`));
+    left.appendChild(label);
   }
-  left.appendChild(renderAuthor(ctx, event.pubkey));
   const meta = el('span', { className: 'opinion-card__meta' });
+  const version = ctx.source === 'zapstore' ? renderVersion(event) : null;
+  if (version) {
+    meta.appendChild(version);
+    meta.appendChild(el('span', {}, ' · '));
+  }
   if (isOpinion && isEdited(event)) {
     meta.appendChild(el('span', {}, 'Edited · '));
   }
-  meta.appendChild(el('a', {
-    href: `${njumpUrl}${event.id}`,
-    target: '_blank',
-    rel: 'noopener noreferrer',
-    title: 'Open on njump',
+  meta.appendChild(el('span', {
+    className: 'opinion-card__date',
+    title: new Date(event.created_at * 1000).toLocaleString(),
   }, formatCommentDate(event.created_at)));
   top.append(left, meta);
   card.appendChild(top);
@@ -135,12 +156,14 @@ export function renderCard(ctx, event, { opinion = event, depth = 0 } = {}) {
   }
   like.button.addEventListener('click', react('+'));
   dislike.button.addEventListener('click', react('-'));
-  actions.append(like.button, dislike.button);
+  if (!readOnly) {
+    actions.append(like.button, dislike.button);
+  }
 
   const replyButton = el('button', { type: 'button', className: 'opinion-card__action', title: 'Reply' });
   replyButton.innerHTML = replyIcon;
   replyButton.appendChild(el('span', {}, 'Reply'));
-  if (ctx.canPost !== false) {
+  if (!readOnly && ctx.canPost !== false) {
     actions.appendChild(replyButton);
   }
 

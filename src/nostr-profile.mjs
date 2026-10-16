@@ -139,7 +139,12 @@ function normalizeProfileMetadata(metadata) {
   return normalized;
 }
 
-function hasUsableCachedProfileMetadata(metadata) {
+/**
+ * True when the profile carries something to show for its owner: a picture or
+ * a name. Cached profiles without either are refetched; the opinions widget
+ * hides authors without one.
+ */
+export function hasProfileIdentity(metadata) {
   if (!metadata) {
     return false;
   }
@@ -223,7 +228,7 @@ export async function getNostrProfile(pubkey) {
   const cached = await getProfileFromIDB(pubkey).catch(() => null);
   if (cached) {
     const normalizedCached = normalizeProfileMetadata(cached);
-    if (hasUsableCachedProfileMetadata(normalizedCached)) {
+    if (hasProfileIdentity(normalizedCached)) {
       return { pubkey, ...normalizedCached, profileEvent: cached.profileEvent ?? null };
     }
   }
@@ -243,40 +248,95 @@ export async function getNostrProfile(pubkey) {
       );
       return null;
     }
-
-    if (!profileEvent?.content) {
-      return null;
-    }
-
-    let metadata;
-    try {
-      metadata = JSON.parse(profileEvent.content);
-    } catch {
-      return null;
-    }
-
-    if (!metadata || typeof metadata !== 'object' || Object.keys(metadata).length === 0) {
-      return null;
-    }
-
-    const sanitizedMetadata = {};
-    Object.keys(metadata).forEach((key) => {
-      sanitizedMetadata[key] = sanitizeProfileValue(key, metadata[key]);
-    });
-
-    const profile = buildProfile(pubkey, sanitizedMetadata, profileEvent);
-    if (!profile) {
-      return null;
-    }
-
-    saveProfileToIDB(pubkey, profile).catch((e) => console.warn('Failed to save profile to IDB', e));
-    return profile;
+    return profileFromEvent(pubkey, profileEvent);
   })().finally(() => {
     inFlightProfileFetches.delete(pubkey);
   });
 
   inFlightProfileFetches.set(pubkey, fetchPromise);
   return fetchPromise;
+}
+
+/** Sanitized profile from a kind-0 event, cached in IndexedDB; null when the event has no usable metadata. */
+function profileFromEvent(pubkey, profileEvent) {
+  if (!profileEvent?.content) {
+    return null;
+  }
+
+  let metadata;
+  try {
+    metadata = JSON.parse(profileEvent.content);
+  } catch {
+    return null;
+  }
+
+  if (!metadata || typeof metadata !== 'object' || Object.keys(metadata).length === 0) {
+    return null;
+  }
+
+  const sanitizedMetadata = {};
+  Object.keys(metadata).forEach((key) => {
+    sanitizedMetadata[key] = sanitizeProfileValue(key, metadata[key]);
+  });
+
+  const profile = buildProfile(pubkey, sanitizedMetadata, profileEvent);
+  if (!profile) {
+    return null;
+  }
+
+  saveProfileToIDB(pubkey, profile).catch((e) => console.warn('Failed to save profile to IDB', e));
+  return profile;
+}
+
+/**
+ * Profiles for many pubkeys at once: cached ones from IndexedDB, the rest in a
+ * single kind-0 query (one subscription instead of one per author). Resolves
+ * to a Map pubkey → profile (null for authors without a usable kind 0).
+ */
+export async function getNostrProfiles(pubkeys) {
+  const result = new Map();
+  const wanted = [...new Set(pubkeys)].filter((pubkey) => typeof pubkey === 'string' && pubkey.length === 64);
+  const cached = await Promise.all(wanted.map((pubkey) => getProfileFromIDB(pubkey).catch(() => null)));
+  const missing = [];
+  wanted.forEach((pubkey, index) => {
+    const normalized = normalizeProfileMetadata(cached[index]);
+    if (hasProfileIdentity(normalized)) {
+      result.set(pubkey, { pubkey, ...normalized, profileEvent: cached[index].profileEvent ?? null });
+    } else {
+      result.set(pubkey, null);
+      missing.push(pubkey);
+    }
+  });
+  if (!missing.length) {
+    return result;
+  }
+
+  await ensureConnected();
+  const pool = getPool();
+  if (!pool) {
+    return result;
+  }
+  let events = [];
+  try {
+    events = await pool.querySync(eventRelayUrls, { kinds: [0], authors: missing }, { maxWait: PROFILE_FETCH_MAX_WAIT_MS });
+  } catch (e) {
+    console.debug('Nostr profile batch fetch failed', e && e.message ? e.message : e);
+    return result;
+  }
+  const newest = new Map();
+  for (const event of events) {
+    if (!missing.includes(event.pubkey)) {
+      continue;
+    }
+    const current = newest.get(event.pubkey);
+    if (!current || event.created_at > current.created_at) {
+      newest.set(event.pubkey, event);
+    }
+  }
+  for (const [pubkey, event] of newest) {
+    result.set(pubkey, profileFromEvent(pubkey, event));
+  }
+  return result;
 }
 
 function shortenNpub(npub) {

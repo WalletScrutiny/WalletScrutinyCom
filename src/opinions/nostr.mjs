@@ -21,8 +21,11 @@ import {
   deletionKind,
   opinionRelayUrls,
   fetchMaxWaitMs,
+  zapstoreAppKind,
+  zapstoreCommentKind,
+  zapstoreRelayUrls,
 } from './constants.mjs';
-import { buildOpinionContent, getTagValue, getTags, opinionAddress } from './content.mjs';
+import { buildOpinionContent, getTagValue, getTags, opinionAddress, zapstoreAppAddress } from './content.mjs';
 
 async function query(filter, maxWait = fetchMaxWaitMs) {
   const events = await fetchEvents(filter, { relayUrls: opinionRelayUrls, maxWait });
@@ -61,6 +64,30 @@ export async function fetchThreadData(opinions) {
     deletions.set(deletion.id, deletion);
   }
   return { replies, reactions, deletions: [...deletions.values()] };
+}
+
+/**
+ * Comments posted on Zapstore for an Android app: the app event(s) with that
+ * package id give the publisher pubkey(s), the comments name them in their `A`
+ * tag. Deletion requests are fetched for the comments found. Zapstore relay only.
+ */
+export async function fetchZapstoreComments(appId) {
+  const none = { comments: [], deletions: [] };
+  if (!appId) {
+    return none;
+  }
+  const options = { relayUrls: zapstoreRelayUrls, maxWait: fetchMaxWaitMs };
+  const apps = await fetchEvents({ kinds: [zapstoreAppKind], '#d': [appId] }, options);
+  const addresses = [...new Set([...apps].map((app) => zapstoreAppAddress(app.pubkey, appId)))];
+  if (!addresses.length) {
+    return none;
+  }
+  const comments = [...await fetchEvents({ kinds: [zapstoreCommentKind], '#A': addresses }, options)];
+  if (!comments.length) {
+    return none;
+  }
+  const deletions = [...await fetchEvents({ kinds: [deletionKind], '#e': comments.map((event) => event.id) }, options)];
+  return { comments, deletions };
 }
 
 function now() {
