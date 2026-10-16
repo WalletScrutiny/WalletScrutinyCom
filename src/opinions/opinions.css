@@ -79,6 +79,77 @@
   background: var(--accent-50);
 }
 
+/* Source tabs (WalletScrutiny / Zapstore), only when both have entries ---- */
+
+.opinions__tabs {
+  display: flex;
+  gap: 0.25em;
+  margin-top: 0.5em;
+  border-bottom: 1px solid var(--neutral-5);
+}
+
+.opinions__tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  margin-bottom: -1px;
+  padding: 0.5em 0.9em;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--neutral-3);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 500;
+}
+
+.opinions__tab:hover {
+  color: var(--text);
+}
+
+.opinions__tab[aria-selected="true"] {
+  color: var(--text);
+  border-bottom-color: var(--accent);
+}
+
+.opinions__tab .ws-icon {
+  width: 0.9em;
+  height: 0.9em;
+  fill: currentColor;
+}
+
+.opinions__tab-count {
+  padding: 0.05em 0.55em;
+  border-radius: 999px;
+  background: var(--neutral-6);
+  color: var(--neutral-2);
+  font-size: 0.85em;
+}
+
+.opinions__tabs + .opinions__toolbar {
+  border-top: none;
+}
+
+.opinions__source-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5em;
+  margin: 1em 0 0;
+  color: var(--neutral-3);
+}
+
+.opinions__source-note .ws-icon {
+  flex-shrink: 0;
+  width: 1.1em;
+  height: 1.1em;
+  margin-top: 0.15em;
+  fill: currentColor;
+}
+
+.opinions__source-note a {
+  color: var(--accent-text);
+}
+
 .opinions__notice {
   margin: 0.75em 0 0;
   color: var(--neutral-3);
@@ -189,6 +260,31 @@ body.dark .opinion-card--reply {
   font-size: 0.85em;
   color: var(--neutral-3);
   white-space: nowrap;
+}
+
+.opinion-card__source {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  padding: 0.1em 0.6em;
+  border-radius: 999px;
+  background: var(--neutral-6);
+  color: var(--neutral-2);
+  text-decoration: none;
+}
+
+.opinion-card__source:hover {
+  color: var(--text);
+}
+
+.opinion-card__source .ws-icon {
+  width: 0.8em;
+  height: 0.8em;
+  fill: currentColor;
+}
+
+.opinion-card__version {
+  color: var(--neutral-3);
 }
 
 .opinion-card__meta a {

@@ -38,6 +38,7 @@ describe('readWidgetConfig', () => {
 
   test('parses the data attributes written by the include', () => {
     const config = readWidgetConfig(dataset);
+    assert.equal(config.zapstoreAppId, '', 'no Zapstore lookup without an Android package id');
     assert.deepEqual(config.subjectKeys, ['mobile/x', 'android/x', 'iphone/x']);
     assert.deepEqual(config.tags, ['WalletScrutiny', 'nostrOpinion']);
     assert.deepEqual([...config.trustedAuthors], [PUBKEY]);
@@ -82,5 +83,12 @@ describe('readWidgetConfig', () => {
     assert.equal(deletion.kind, deletionKind);
     assert.ok(deletion.tags.some(([name, value]) => name === 'a' && value === opinionAddress(opinion)));
     assert.ok(deletion.tags.some(([name, value]) => name === 'k' && value === String(opinionKind)));
+  });
+});
+
+describe('readWidgetConfig zapstoreAppId', () => {
+  test('keeps the trimmed Android package id for the Zapstore lookup', () => {
+    const config = readWidgetConfig({ subject: 'mobile/x', zapstoreAppId: ' com.example.wallet ' });
+    assert.equal(config.zapstoreAppId, 'com.example.wallet');
   });
 });

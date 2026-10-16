@@ -4,6 +4,12 @@ import { attachConsoleGuards, injectNip07Signer, NOSTR_DATA_TIMEOUT_MS } from '.
 
 /** Wallet page with approved opinions on the relays (see _includes/allOpinions.json). */
 const WALLET_PAGE_PATH = '/mobile/com.samourai.wallet/';
+/** Android wallet with an opinion here and comments on Zapstore (relay.zapstore.dev). */
+const BOTH_SOURCES_PAGE_PATH = '/mobile/de.schildbach.wallet/';
+/** Android wallet with comments on Zapstore but no opinion on WalletScrutiny. */
+const ZAPSTORE_ONLY_PAGE_PATH = '/mobile/com.blitzwallet/';
+/** Android wallet with comments on Zapstore and only unknown-author opinions here. */
+const UNAPPROVED_AND_ZAPSTORE_PAGE_PATH = '/mobile/com.cakewallet.cake_wallet/';
 
 test.describe('Community opinions', () => {
   test('lists the approved opinions with their sentiment counts', async ({ page }, testInfo) => {
@@ -73,6 +79,78 @@ test.describe('Community opinions', () => {
     await expect(firstCard.getByRole('button', { name: 'Reply', exact: true })).toHaveCount(0);
     await expect(firstCard.getByRole('button', { name: 'Like', exact: true })).toBeDisabled();
     await expect(firstCard.getByRole('button', { name: 'Dislike' })).toBeDisabled();
+
+    assertNoConsoleErrors();
+  });
+
+  test('offers a Zapstore tab next to the opinions posted here', async ({ page }, testInfo) => {
+    const assertNoConsoleErrors = attachConsoleGuards(testInfo, page);
+
+    await page.goto(BOTH_SOURCES_PAGE_PATH);
+
+    const section = page.locator('#communityOpinions');
+    const tabs = section.locator('.opinions__tab');
+    await expect(tabs).toHaveCount(2, { timeout: NOSTR_DATA_TIMEOUT_MS });
+    await expect(tabs.nth(0)).toContainText('WalletScrutiny');
+    await expect(tabs.nth(0)).toHaveAttribute('aria-selected', 'true');
+    await expect(tabs.nth(1)).toContainText('Zapstore');
+    await expect(tabs.nth(1).locator('.opinions__tab-count')).toHaveText(/^[1-9]\d*$/);
+    await expect(section.locator('.opinions__filter')).toHaveCount(2);
+    await expect(section.locator('.opinion-card__source')).toHaveCount(0);
+
+    await tabs.nth(1).click();
+    await expect(tabs.nth(1)).toHaveAttribute('aria-selected', 'true');
+    await expect(section.locator('.opinions__source-note')).toContainText('posted on Zapstore');
+    await expect(section.locator('.opinions__filter')).toHaveCount(0);
+    const card = section.locator('.opinion-card').first();
+    await expect(card).toBeVisible();
+    await expect(card.locator('.opinion-card__source')).toContainText('Zapstore');
+    await expect(card.locator('.opinion-card__source')).toHaveAttribute('href', /zapstore\.dev\/apps\/de\.schildbach\.wallet/);
+    await expect(card.locator('.opinion-card__content')).not.toBeEmpty();
+    await expect(card.getByRole('button', { name: 'Like', exact: true })).toHaveCount(0);
+    await expect(card.getByRole('button', { name: 'Reply', exact: true })).toHaveCount(0);
+    await expect(section.locator('.opinions__compose')).toBeVisible();
+
+    await tabs.nth(0).click();
+    await expect(section.locator('.opinions__filter[aria-pressed="true"]')).toHaveText('Approved');
+    await expect(section.locator('.opinion-card__source')).toHaveCount(0);
+
+    assertNoConsoleErrors();
+  });
+
+  test('shows the Zapstore comments with a note when nobody posted an opinion here', async ({ page }, testInfo) => {
+    const assertNoConsoleErrors = attachConsoleGuards(testInfo, page);
+
+    await page.goto(ZAPSTORE_ONLY_PAGE_PATH);
+
+    const section = page.locator('#communityOpinions');
+    const note = section.locator('.opinions__source-note');
+    await expect(note).toContainText('No opinions on WalletScrutiny yet', { timeout: NOSTR_DATA_TIMEOUT_MS });
+    await expect(section.locator('.opinions__tab')).toHaveCount(0);
+    await expect(section.locator('.opinions__toolbar')).toHaveCount(0);
+    const card = section.locator('.opinion-card').first();
+    await expect(card).toBeVisible();
+    await expect(card.locator('.opinion-card__source')).toContainText('Zapstore');
+    await expect(card.getByRole('button', { name: 'Like', exact: true })).toHaveCount(0);
+
+    assertNoConsoleErrors();
+  });
+
+  test('opens on the Zapstore tab when no approved opinion exists here', async ({ page }, testInfo) => {
+    const assertNoConsoleErrors = attachConsoleGuards(testInfo, page);
+
+    await page.goto(UNAPPROVED_AND_ZAPSTORE_PAGE_PATH);
+
+    const section = page.locator('#communityOpinions');
+    const tabs = section.locator('.opinions__tab');
+    await expect(tabs).toHaveCount(2, { timeout: NOSTR_DATA_TIMEOUT_MS });
+    await expect(section.locator('.opinions__headline')).toHaveText(/Community Opinions \(0\/[1-9]\d*\)/);
+    await expect(tabs.nth(1)).toHaveAttribute('aria-selected', 'true');
+    await expect(section.locator('.opinions__source-note')).not.toContainText('No opinions on WalletScrutiny yet');
+    await expect(section.locator('.opinion-card__source').first()).toBeVisible();
+
+    await tabs.nth(0).click();
+    await expect(section.getByRole('button', { name: /Show \d+ opinions? of unknown authors?\./ })).toBeVisible();
 
     assertNoConsoleErrors();
   });

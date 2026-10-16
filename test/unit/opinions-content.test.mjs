@@ -18,8 +18,18 @@ import {
   stripOpinionWrapper,
   tallyReactions,
   tallySentiments,
+  splitZapstoreComments,
+  zapstoreAppAddress,
+  zapstoreCommentVersion,
 } from '../../src/opinions/content.mjs';
-import { opinionKind, replyKind, reactionKind, deletionKind } from '../../src/opinions/constants.mjs';
+import {
+  opinionKind,
+  replyKind,
+  reactionKind,
+  deletionKind,
+  zapstoreAppKind,
+  zapstoreCommentKind,
+} from '../../src/opinions/constants.mjs';
 
 const A = 'a'.repeat(64);
 const B = 'b'.repeat(64);
@@ -179,5 +189,63 @@ describe('tallyReactions', () => {
     assert.equal(tally.get('op').byAuthor.get(A), '-');
     assert.equal(tally.get('op').byAuthor.get(B), '');
     assert.equal(tally.get('other').likes, 1);
+  });
+});
+
+describe('Zapstore comments', () => {
+  const APP = zapstoreAppAddress(A, 'com.example.wallet');
+  function comment({ id, pubkey = B, created_at = 100, parent = null, version = '' }) {
+    const tags = [['A', APP], ['K', String(zapstoreAppKind)], ['a', APP]];
+    if (parent) {
+      tags.push(['e', parent], ['k', String(zapstoreCommentKind)]);
+    } else {
+      tags.push(['k', String(zapstoreAppKind)]);
+    }
+    if (version) {
+      tags.push(['v', version]);
+    }
+    return { id, pubkey, kind: zapstoreCommentKind, created_at, content: 'nice', tags };
+  }
+
+  test('zapstoreAppAddress names the NIP-82 app event', () => {
+    assert.equal(APP, `${zapstoreAppKind}:${A}:com.example.wallet`);
+  });
+
+  test('splitZapstoreComments separates top-level comments (newest first) from replies', () => {
+    const older = comment({ id: 'c1', created_at: 100 });
+    const newer = comment({ id: 'c2', created_at: 200 });
+    const reply = comment({ id: 'r1', parent: 'c1', created_at: 300 });
+    const foreign = { ...reply, id: 'x', kind: replyKind };
+    const { roots, replies } = splitZapstoreComments([older, reply, newer, foreign]);
+    assert.deepEqual(roots.map((event) => event.id), ['c2', 'c1']);
+    assert.deepEqual(replies.map((event) => event.id), ['r1']);
+  });
+
+  test('splitZapstoreComments drops blocked events and authors', () => {
+    const blockedEvent = comment({ id: 'c1' });
+    const blockedAuthor = comment({ id: 'c2', pubkey: A });
+    const kept = comment({ id: 'c3' });
+    const { roots } = splitZapstoreComments([blockedEvent, blockedAuthor, kept], {
+      blockedEventIds: new Set(['c1']),
+      blockedAuthors: new Set([A]),
+    });
+    assert.deepEqual(roots.map((event) => event.id), ['c3']);
+  });
+
+  test('buildReplyTree threads Zapstore replies under their comment when given the kind', () => {
+    const root = comment({ id: 'c1' });
+    const reply = comment({ id: 'r1', parent: 'c1', created_at: 200 });
+    const nested = comment({ id: 'r2', parent: 'r1', created_at: 300 });
+    const tree = buildReplyTree([nested, reply], ['c1'], { kind: zapstoreCommentKind });
+    assert.deepEqual(tree.get('c1').map((event) => event.id), ['r1']);
+    assert.deepEqual(tree.get('r1').map((event) => event.id), ['r2']);
+    assert.equal(countThread(tree, 'c1'), 2);
+    assert.equal(buildReplyTree([reply], ['c1']).size, 0, 'kind-1 tree ignores Zapstore comments');
+    assert.equal(root.kind, zapstoreCommentKind);
+  });
+
+  test('zapstoreCommentVersion reads the v tag', () => {
+    assert.equal(zapstoreCommentVersion(comment({ id: 'c1', version: '2.0.1' })), '2.0.1');
+    assert.equal(zapstoreCommentVersion(comment({ id: 'c2' })), '');
   });
 });

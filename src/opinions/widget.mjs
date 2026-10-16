@@ -4,10 +4,19 @@
  * reaction counts are patched in place by the cards.
  */
 import { el } from '../html-utils.mjs';
+import { wsIcon } from '../icon.mjs';
 import { showToast } from '../verifications_utils.mjs';
 import { getNostrProfile, getProfileDisplayName, getProfileImageUrl } from '../nostr-profile.mjs';
 import { readWidgetConfig } from './config.mjs';
-import { showAllConsentStorageKey, SENTIMENT_POSITIVE, SENTIMENT_NEUTRAL, SENTIMENT_NEGATIVE, SENTIMENT_LABELS } from './constants.mjs';
+import {
+  showAllConsentStorageKey,
+  SENTIMENT_POSITIVE,
+  SENTIMENT_NEUTRAL,
+  SENTIMENT_NEGATIVE,
+  SENTIMENT_LABELS,
+  zapstoreAppUrl,
+  zapstoreCommentKind,
+} from './constants.mjs';
 import {
   applyDeletions,
   buildReplyTree,
@@ -19,8 +28,18 @@ import {
   tallyReactions,
   tallySentiments,
   emptyReactionTally,
+  splitZapstoreComments,
 } from './content.mjs';
-import { fetchOpinions, fetchThreadData, signAndPublish, buildOpinionDraft, buildReplyDraft, buildReactionDraft, buildDeletionDraft } from './nostr.mjs';
+import {
+  fetchOpinions,
+  fetchThreadData,
+  fetchZapstoreComments,
+  signAndPublish,
+  buildOpinionDraft,
+  buildReplyDraft,
+  buildReactionDraft,
+  buildDeletionDraft,
+} from './nostr.mjs';
 import { getPubkey, hasExtension, onAuthChange, restoreSignIn, signIn, signOut } from './auth.mjs';
 import { renderCard, renderAuthor } from './card.mjs';
 import { createOpinionEditor } from './editor.mjs';
@@ -28,6 +47,10 @@ import { confirmModal } from './modal.mjs';
 import { sentimentIcon } from './icons.mjs';
 
 const GUIDELINES = 'Thank you for contributing your opinion. Please be objective and be polite.';
+
+/** Which list the section shows when both WalletScrutiny opinions and Zapstore comments exist. */
+const SOURCE_WALLETSCRUTINY = 'walletscrutiny';
+const SOURCE_ZAPSTORE = 'zapstore';
 
 function storage() {
   try {
@@ -58,6 +81,11 @@ export class OpinionsWidget {
     this.me = null;
     // null until the NIP-07 check settles; without an extension nobody can post.
     this.canPost = null;
+    // Comments posted on Zapstore for the Android app (read-only, own relay, loaded alongside).
+    this.zapstore = { loaded: false, roots: [], tree: new Map() };
+    this.source = SOURCE_WALLETSCRUTINY;
+    // The first full render picks the tab with content; afterwards only the visitor switches.
+    this.sourcePicked = false;
 
     this.ctx = {
       config: this.config,
@@ -94,7 +122,9 @@ export class OpinionsWidget {
       }
     });
     void restoreSignIn();
+    const zapstoreLoad = this.loadZapstore();
     await this.load();
+    await zapstoreLoad;
   }
 
   async load() {
@@ -118,6 +148,37 @@ export class OpinionsWidget {
       this.body.removeAttribute('aria-busy');
       this.render();
     }
+  }
+
+  /**
+   * Zapstore comments never block the opinions: a slow or failed Zapstore relay
+   * only means the tab stays away. Re-renders once both loads are in.
+   */
+  async loadZapstore() {
+    const appId = this.config.zapstoreAppId;
+    if (!appId) {
+      this.zapstore.loaded = true;
+      return;
+    }
+    try {
+      const { comments, deletions } = await fetchZapstoreComments(appId);
+      const kept = applyDeletions(comments, deletions);
+      const { roots, replies } = splitZapstoreComments(kept, this.config);
+      this.zapstore.roots = roots;
+      this.zapstore.tree = buildReplyTree(replies, roots.map((event) => event.id), { kind: zapstoreCommentKind });
+    } catch (error) {
+      console.warn('opinions: Zapstore comments failed to load', error?.message ?? error);
+    } finally {
+      this.zapstore.loaded = true;
+      if (this.loaded) {
+        this.render();
+      }
+    }
+  }
+
+  /** Card context for Zapstore comments: own reply tree, no reactions, no posting. */
+  get zapstoreCtx() {
+    return { ...this.ctx, tree: this.zapstore.tree, reactions: new Map(), readOnly: true, source: SOURCE_ZAPSTORE };
   }
 
   rebuildDerived(rawReactions = this.rawReactions ?? []) {
@@ -197,6 +258,24 @@ export class OpinionsWidget {
       return;
     }
 
+    const hasZapstore = this.zapstore.roots.length > 0;
+    const hasOwn = this.opinions.length > 0;
+    if (!hasZapstore) {
+      this.source = SOURCE_WALLETSCRUTINY;
+    } else if (!this.sourcePicked && this.zapstore.loaded) {
+      // Open on the Zapstore comments when there is no approved opinion to show.
+      this.sourcePicked = true;
+      this.source = this.trustedOpinions.length > 0 ? SOURCE_WALLETSCRUTINY : SOURCE_ZAPSTORE;
+    }
+    if (hasZapstore && hasOwn) {
+      this.body.appendChild(this.renderTabs());
+    }
+    if (hasZapstore && (this.source === SOURCE_ZAPSTORE || !hasOwn)) {
+      this.body.appendChild(this.renderZapstorePanel());
+      this.body.appendChild(this.renderCompose());
+      return;
+    }
+
     const visible = this.visibleOpinions;
     this.body.appendChild(this.renderToolbar(visible));
 
@@ -220,6 +299,58 @@ export class OpinionsWidget {
     }
     this.body.appendChild(list);
     this.body.appendChild(this.renderCompose());
+  }
+
+  /** WalletScrutiny / Zapstore tabs with the number of top-level entries in each list. */
+  renderTabs() {
+    const tabs = el('div', { className: 'opinions__tabs', role: 'tablist', 'aria-label': 'Opinion sources' });
+    const entries = [
+      [SOURCE_WALLETSCRUTINY, 'WalletScrutiny', '', this.opinions.length],
+      [SOURCE_ZAPSTORE, 'Zapstore', wsIcon('zapstore'), this.zapstore.roots.length],
+    ];
+    for (const [source, label, icon, count] of entries) {
+      const tab = el('button', {
+        type: 'button',
+        className: 'opinions__tab',
+        role: 'tab',
+        'aria-selected': String(this.source === source),
+        dataset: { source },
+        html: icon,
+      });
+      tab.appendChild(el('span', {}, label));
+      tab.appendChild(el('span', { className: 'opinions__tab-count', title: `${count} on ${label}` }, String(count)));
+      tab.addEventListener('click', () => {
+        this.sourcePicked = true;
+        if (this.source !== source) {
+          this.source = source;
+          this.render();
+        }
+      });
+      tabs.appendChild(tab);
+    }
+    return tabs;
+  }
+
+  /** Read-only list of the comments posted on Zapstore, with a note on where they come from. */
+  renderZapstorePanel() {
+    const panel = el('div', { className: 'opinions__panel', role: 'tabpanel', dataset: { source: SOURCE_ZAPSTORE } });
+    const link = el('a', {
+      href: `${zapstoreAppUrl}${encodeURIComponent(this.config.zapstoreAppId)}`,
+      target: '_blank',
+      rel: 'noopener noreferrer',
+    }, 'Open on Zapstore');
+    const note = el('p', { className: 'opinions__source-note', html: wsIcon('zapstore') });
+    note.appendChild(el('span', {},
+      this.opinions.length === 0 ? 'No opinions on WalletScrutiny yet. ' : '',
+      'These comments were posted on Zapstore, the Nostr app store, and can be answered there. ', link, '.'));
+    panel.appendChild(note);
+    const list = el('div', { className: 'opinions__list' });
+    const ctx = this.zapstoreCtx;
+    for (const event of this.zapstore.roots) {
+      list.appendChild(renderCard(ctx, event));
+    }
+    panel.appendChild(list);
+    return panel;
   }
 
   renderToolbar(visible) {

@@ -7,8 +7,8 @@ import { parseMarkdownToSafeHtml } from '../marked-loader.mjs';
 import { formatCommentDate } from '../assets-table-utils.mjs';
 import { getProfileDisplayName, getProfileImageUrl, PROFILE_PLACEHOLDER_IMAGE, profileImageFallback } from '../nostr-profile.mjs';
 import { wsIcon } from '../icon.mjs';
-import { opinionKind, njumpUrl } from './constants.mjs';
-import { countThread, emptyReactionTally, getSentiment, isEdited, stripOpinionWrapper } from './content.mjs';
+import { opinionKind, njumpUrl, zapstoreAppUrl } from './constants.mjs';
+import { countThread, emptyReactionTally, getSentiment, isEdited, stripOpinionWrapper, zapstoreCommentVersion } from './content.mjs';
 import { approvedIcon, replyIcon, sentimentIcon, thumbsDownIcon, thumbsUpIcon } from './icons.mjs';
 import { createReplyEditor } from './editor.mjs';
 
@@ -70,16 +70,36 @@ function reactionButton(icon, label) {
   return { button, count };
 }
 
+/** "Zapstore · v1.2.3" pill linking to the app's Zapstore page. */
+function renderZapstoreBadge(ctx, event) {
+  const badge = el('a', {
+    className: 'opinion-card__source',
+    href: `${zapstoreAppUrl}${encodeURIComponent(ctx.config.zapstoreAppId)}`,
+    target: '_blank',
+    rel: 'noopener noreferrer',
+    title: 'Posted on Zapstore',
+    html: wsIcon('zapstore'),
+  });
+  badge.appendChild(el('span', {}, 'Zapstore'));
+  const version = zapstoreCommentVersion(event);
+  if (version) {
+    badge.appendChild(el('span', { className: 'opinion-card__version' }, `v${version}`));
+  }
+  return badge;
+}
+
 /**
  * @param ctx widget context: config, me, profiles, requestProfile, tree,
- *            reactions, expandedThreads, actions
+ *            reactions, expandedThreads, actions; `readOnly` cards (Zapstore
+ *            comments, `source: 'zapstore'`) only offer the thread toggle.
  */
 export function renderCard(ctx, event, { opinion = event, depth = 0 } = {}) {
   const isOpinion = event.kind === opinionKind;
-  const mine = ctx.me && ctx.me === event.pubkey;
+  const readOnly = ctx.readOnly === true;
+  const mine = !readOnly && ctx.me && ctx.me === event.pubkey;
   const card = el('article', {
-    className: `opinion-card${isOpinion ? '' : ' opinion-card--reply'}`,
-    dataset: { eventId: event.id },
+    className: `opinion-card${isOpinion ? '' : ' opinion-card--reply'}${readOnly ? ' opinion-card--read-only' : ''}`,
+    dataset: { eventId: event.id, source: ctx.source ?? 'walletscrutiny' },
   });
 
   // Header: sentiment, author, time.
@@ -91,6 +111,10 @@ export function renderCard(ctx, event, { opinion = event, depth = 0 } = {}) {
   }
   left.appendChild(renderAuthor(ctx, event.pubkey));
   const meta = el('span', { className: 'opinion-card__meta' });
+  if (ctx.source === 'zapstore') {
+    meta.appendChild(renderZapstoreBadge(ctx, event));
+    meta.appendChild(el('span', {}, ' · '));
+  }
   if (isOpinion && isEdited(event)) {
     meta.appendChild(el('span', {}, 'Edited · '));
   }
@@ -135,12 +159,14 @@ export function renderCard(ctx, event, { opinion = event, depth = 0 } = {}) {
   }
   like.button.addEventListener('click', react('+'));
   dislike.button.addEventListener('click', react('-'));
-  actions.append(like.button, dislike.button);
+  if (!readOnly) {
+    actions.append(like.button, dislike.button);
+  }
 
   const replyButton = el('button', { type: 'button', className: 'opinion-card__action', title: 'Reply' });
   replyButton.innerHTML = replyIcon;
   replyButton.appendChild(el('span', {}, 'Reply'));
-  if (ctx.canPost !== false) {
+  if (!readOnly && ctx.canPost !== false) {
     actions.appendChild(replyButton);
   }
 

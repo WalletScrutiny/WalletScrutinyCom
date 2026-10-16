@@ -13,7 +13,7 @@ Android app keep working.
 | `widget.mjs` | `OpinionsWidget`: loads the events, holds the state (filter, threads, reactions, signed-in user) and renders the section. |
 | `card.mjs` | One opinion or reply card (author, sentiment, markdown content, like/dislike, reply, delete/edit). |
 | `editor.mjs` | Opinion editor (ToastUI markdown editor, loaded on demand, textarea fallback) and the reply textarea. |
-| `nostr.mjs` | Relay reads (`opinionRelayUrls`) and event drafts; publishing goes through `src/nostr-client.mjs`. |
+| `nostr.mjs` | Relay reads (`opinionRelayUrls`, Zapstore comments from `zapstoreRelayUrls`) and event drafts; publishing goes through `src/nostr-client.mjs`. |
 | `content.mjs` | Pure helpers: content wrapper, one-opinion-per-author, NIP-09 deletions, threads, tallies. Unit-tested. |
 | `config.mjs` | Parses the data attributes of `_includes/review/nostrOpinion.html`. |
 | `auth.mjs` | NIP-07 sign-in state. |
@@ -26,5 +26,11 @@ old plugin used; writes go to the webapp's relay set, and an opinion must be
 accepted by the project relay (`external/configs/strfry/kind-policy.py`
 stores kind 30023 with a `WalletScrutiny`/`nostrOpinion` t tag, but no
 replies or reactions).
+
+On Android pages the widget also loads the comments posted on Zapstore for
+the app (NIP-22 kind 1111 naming the kind-32267 app event, read from the
+Zapstore relay only). They are shown read-only with a Zapstore badge: on their
+own when nobody posted an opinion here, otherwise behind a second tab with the
+counts of both lists. The tab opens on Zapstore when no approved opinion exists.
 
 Tests: `test/unit/opinions-*.test.mjs`, `test/e2e/opinions.spec.mjs`.
