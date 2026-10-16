@@ -124,9 +124,23 @@ export function buildVersionTimeline(rows) {
     version.glass = version.tally.glass;
     version.hasWarning = version.verifications.some(v => getFirstTagValue(v, 'status') === 'warning');
     version.prerelease = /alpha|beta|-rc/i.test(version.name);
+    Object.assign(version, splitVersionName(version.name));
   }
   timeline.sort((a, b) => compareVersionNames(a.name, b.name));
   return timeline;
+}
+
+/**
+ * "13.2.0-rc1" -> { base: "13.2.0", suffix: "rc1" }; a release has an empty suffix. The
+ * suffix starts at the first "-" or "+", or at the alpha/beta/rc word when there is no
+ * separator ("2.0.0beta").
+ */
+export function splitVersionName(name) {
+  const match = /^(.*?)(?:[-+]|(?=alpha|beta|rc\d))(.*)$/i.exec(name);
+  if (!match || !/alpha|beta|rc/i.test(match[2])) {
+    return { base: name, suffix: '' };
+  }
+  return { base: match[1], suffix: match[2] };
 }
 
 /** The version the section opens on: the newest. */

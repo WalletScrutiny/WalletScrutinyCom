@@ -104,6 +104,15 @@ describe('buildVersionTimeline', () => {
     assert.deepEqual(timeline.map(v => [v.name, v.prerelease]), [['2.0.0-BETA', true], ['13.2.3-alpha1', true], ['13.2.3-rc1', true], ['13.2.3', false]]);
   });
 
+  test('splits a pre-release name into base and suffix', () => {
+    const timeline = buildVersionTimeline([
+      row({ version: '13.2.3-rc1' }),
+      row({ version: '2.0.0beta2', sha256: HASH_B }),
+      row({ version: '13.2.3', sha256: HASH_C }),
+    ]);
+    assert.deepEqual(timeline.map(v => [v.base, v.suffix]), [['2.0.0', 'beta2'], ['13.2.3', 'rc1'], ['13.2.3', '']]);
+  });
+
   test('flags a published warning', () => {
     const timeline = buildVersionTimeline([row({ attestations: [verification({ status: 'warning' })] })]);
     assert.equal(timeline[0].hasWarning, true);
