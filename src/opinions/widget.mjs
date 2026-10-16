@@ -28,8 +28,6 @@ import { confirmModal } from './modal.mjs';
 import { sentimentIcon } from './icons.mjs';
 
 const GUIDELINES = 'Thank you for contributing your opinion. Please be objective and be polite.';
-const NO_EXTENSION_NOTE =
-  'To add an opinion, reply or react, open this page in a browser with a Nostr extension (NIP-07), for example Alby, nos2x or Flamingo.';
 
 function storage() {
   try {
@@ -251,7 +249,9 @@ export class OpinionsWidget {
       return container;
     }
     if (!this.canPost) {
-      container.appendChild(el('p', { className: 'opinions__no-extension' }, NO_EXTENSION_NOTE));
+      container.appendChild(el('p', { className: 'opinions__no-extension' },
+        'To ', el('strong', {}, 'add an opinion'),
+        ', reply or react, open this page in a browser with a Nostr extension (NIP-07), for example Alby, nos2x or Flamingo.'));
       return container;
     }
     const mine = this.myOpinion;
