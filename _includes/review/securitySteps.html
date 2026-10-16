@@ -8,6 +8,7 @@
   {% endif %}
     <!-- {% include /review/steps/privacy.html %} -->
   {% include /review/steps/applicationBuild.html platform=platform appId=include.appId appsTableId=include.appsTableId %}
+  {% include /review/steps/dependencies.html platform=platform appId=include.appId version=page.version %}
   {% include_cached /review/steps/platformNotes.html platform=platform %}
 </div>
 {% include_cached /review/deadLinkMarkers.html %}

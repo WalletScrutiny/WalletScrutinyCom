@@ -265,7 +265,10 @@ export async function resolveGradleDependencies(repoPath, pinning, options = {})
     const shipped = [...modules.values()].filter(m => m.shipped).length;
     console.log(`${rel}: ${modules.size} modules resolved (${shipped} in release runtime classpaths), ` +
       `${added} rows added, gradle ${run.gradleVersion || '?'}, JDK ${run.jdk}, ${seconds} s`);
-    if (!run.ok) console.log('  gradle exited with an error after writing the graph; the rows it wrote are kept');
+    if (!run.ok) {
+      const tail = run.output.trim().split('\n').filter(l => l.trim()).slice(-8).join('\n    ');
+      console.log(`  gradle exited with an error after writing the graph; the rows it wrote are kept\n    ${tail}`);
+    }
     if (unresolved.length) {
       const note = `${rel}: ${unresolved.length} dependencies gradle could not resolve (e.g. ${unresolved.slice(0, 5).join(', ')})`;
       console.log(`  ${note}`);
