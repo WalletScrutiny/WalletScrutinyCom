@@ -286,9 +286,12 @@ body.dark .opinion-card--reply {
   color: inherit;
 }
 
+/* Long content is cut after --clamp-lines lines with a "Read more" toggle (card.mjs). */
 .opinion-card__content {
+  --clamp-lines: 6;
   position: relative;
-  max-height: 320px;
+  line-height: 1.5;
+  max-height: calc(var(--clamp-lines) * 1.5em);
   overflow: hidden;
   word-break: break-word;
 }
@@ -303,7 +306,7 @@ body.dark .opinion-card--reply {
   left: 0;
   right: 0;
   bottom: 0;
-  height: 60px;
+  height: 3em;
   background: linear-gradient(to bottom, transparent, var(--body));
 }
 

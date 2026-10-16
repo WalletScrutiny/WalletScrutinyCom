@@ -12,7 +12,8 @@ import { countThread, emptyReactionTally, getSentiment, isEdited, stripOpinionWr
 import { approvedIcon, replyIcon, sentimentIcon, thumbsDownIcon, thumbsUpIcon } from './icons.mjs';
 import { createReplyEditor } from './editor.mjs';
 
-const CLAMP_HEIGHT_PX = 320;
+/** Content that overflows the CSS clamp by less than this many lines is shown in full instead of getting a "Read more". */
+const CLAMP_SLACK_LINES = 0.5;
 
 /** Avatar + name; the widget patches both once the profile arrives. */
 export function renderAuthor(ctx, pubkey, { withBadge = true } = {}) {
@@ -43,7 +44,9 @@ function renderContent(event) {
   parseMarkdownToSafeHtml(markdown).then((html) => {
     content.innerHTML = html;
     requestAnimationFrame(() => {
-      if (content.scrollHeight <= CLAMP_HEIGHT_PX + 20) {
+      const lineHeight = parseFloat(getComputedStyle(content).lineHeight) || 24;
+      if (content.scrollHeight <= content.clientHeight + CLAMP_SLACK_LINES * lineHeight) {
+        content.classList.add('is-expanded');
         return;
       }
       content.classList.add('is-clamped');
