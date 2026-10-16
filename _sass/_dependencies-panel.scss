@@ -189,10 +189,42 @@ body.dark .dp-panel {
   }
 }
 
-.dp-decision__dev,
-.dp-decision__who {
+.dp-decision__who,
+.dp-decision__community {
   font-size: $font-xxs;
   color: var(--neutral-3);
+}
+
+.dp-decision__need {
+  font-weight: 600;
+}
+
+// "via @babel/core, @babel/helpers" under the package name
+.dp-via {
+  font-family: system-ui, sans-serif;
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+  margin-top: 2px;
+}
+
+.dp-sev-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.dp-epss {
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+  white-space: nowrap;
+}
+
+.dp-kev {
+  font-size: $font-xxs;
+  font-weight: 700;
+  color: #c0392b;
+  white-space: nowrap;
 }
 
 .dp-decision__why {

@@ -1,11 +1,36 @@
-// Dependency triage: our decision, per wallet and advisory, whether an
-// advisory the source analysis lists affects the product. The decisions live
-// in _data/dependencyTriage/<appId>.yml in this repository and are reviewed
-// like any verdict change; scripts/build-dependency-triage.mjs validates them
-// with `parseTriage` and publishes them next to the export, where the
-// Dependencies panel reads them. The states and their meaning follow VEX
-// (Vulnerability Exploitability eXchange, OpenVEX); "Where?" informs a
-// decision but never makes one. See docs/dependency-check.md, "Triage".
+// Dependency triage: statements on Nostr, keyed by (direct user, advisory),
+// saying whether an advisory on a package affects whoever uses it that way.
+//
+// Whether a flaw in blib matters is a property of how its direct user alib
+// calls it, and that is the same in every wallet that ships alib (Leo,
+// 2026-10-16). So a statement names the advisory and the direct user:
+//
+//   via:  "npm:alib"          alib's use of the package, holds for every
+//                             wallet in which the package is reached via alib
+//   app:  "it.airgap.vault"   this wallet's own, direct use of the package
+//   (neither)                 the package itself, whoever uses it: the flaw
+//                             needs a role nobody has in a wallet, say
+//
+// The analyser records each package's `dependants` (who requires it, one hop
+// up) and `direct` (the wallet itself does). A wallet's row is settled when
+// every one of its direct users has a statement: all not affected means not
+// affected, one affected means affected, one missing means still open. The
+// wallet's own `app` statement settles the row outright.
+//
+// Statements are addressable Nostr events (dependencyTriageKind), one per
+// author and subject, signed by whoever makes them: WalletScrutiny, the
+// direct user's maintainer, the wallet's developer, anyone. The site build
+// (scripts/build-dependency-triage.mjs) pulls them, keeps the newest per
+// (author, subject), and publishes the ones that concern a wallet next to its
+// export, with the list of trusted authors; only trusted authors' statements
+// settle a row, the others are counted. The states and the justification
+// labels follow VEX (Vulnerability Exploitability eXchange, OpenVEX). "Where?"
+// informs a statement but never makes one. See docs/dependency-check.md,
+// "Triage".
+
+import { dependencyTriageKind } from './nostr-constants.mjs';
+
+export { dependencyTriageKind };
 
 export const TRIAGE_STATUSES = ['affected', 'not_affected', 'fixed', 'under_investigation'];
 
@@ -16,109 +41,241 @@ export const TRIAGE_LABEL = {
   under_investigation: 'investigating',
 };
 
+// OpenVEX justification labels for `not_affected` (the status_justification field).
+export const TRIAGE_JUSTIFICATIONS = [
+  'component_not_present',
+  'vulnerable_code_not_present',
+  'vulnerable_code_not_in_execute_path',
+  'vulnerable_code_cannot_be_controlled_by_adversary',
+  'inline_mitigations_already_exist',
+];
+
+export const JUSTIFICATION_LABEL = {
+  component_not_present: 'component not present',
+  vulnerable_code_not_present: 'vulnerable code not present',
+  vulnerable_code_not_in_execute_path: 'vulnerable code never executed',
+  vulnerable_code_cannot_be_controlled_by_adversary: 'input not attacker-controlled',
+  inline_mitigations_already_exist: 'mitigated in place',
+};
+
 // Sort weight within one severity: what still needs attention comes first,
 // what has been looked at and dismissed sinks.
 export const TRIAGE_ORDER = { affected: 0, undecided: 1, under_investigation: 2, not_affected: 3, fixed: 4 };
 
+// When several direct users are judged, the row takes the gravest call.
+const WORST_FIRST = ['affected', 'under_investigation', 'fixed', 'not_affected'];
+
+// Where a package ends up: "app" (reachable from the project's own
+// dependencies, so bundled), "build" (its development tooling), "tests" (test
+// frameworks and what only they pull in), or "unknown" when the files do not
+// say. Rows exported before `scope` existed only carry the dev flag.
+export const WHERE_LABELS = { app: 'app', build: 'build', tests: 'tests' };
+export function whereOf(row) {
+  if (row?.scope && WHERE_LABELS[row.scope]) return row.scope;
+  if (row?.dev === true) return 'build';
+  if (row?.dev === false) return 'app';
+  return 'unknown';
+}
+
 // OSV-style identifiers: GHSA-xxxx-xxxx-xxxx, CVE-2023-45133, MAL-2026-1, RUSTSEC-2024-0001, PYSEC-...
-const ADVISORY_ID_RE = /^[A-Z][A-Z0-9]*-[A-Za-z0-9][A-Za-z0-9.-]*$/;
-const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+export const ADVISORY_ID_RE = /^[A-Z][A-Z0-9]*-[A-Za-z0-9][A-Za-z0-9.-]*$/;
+// "npm:@babel/core", "gradle:com.google.gms:google-services", "cargo:serde"
+const PACKAGE_REF_RE = /^[a-z]+:\S+$/;
 
-function text(v) {
-  return typeof v === 'string' ? v.trim() : '';
+const text = (v) => (typeof v === 'string' ? v.trim() : '');
+
+/**
+ * The `d` tag of a statement: the advisory and the direct user it is about.
+ * One of `via` (package reference of the direct user), `app` (wallet id), or
+ * neither (the package itself).
+ */
+export function triageSubject({ vuln, via = null, app = null }) {
+  if (via) return `${vuln}|via:${via}`;
+  if (app) return `${vuln}|app:${app}`;
+  return `${vuln}|package`;
 }
 
 /**
- * Validate one wallet's triage document (the parsed YAML). Returns
- * `{ decisions: [...] }` with normalised entries, or throws an Error whose
- * message lists every problem, so a build fails loudly on a typo in a status.
+ * The unsigned event for a statement, for a NIP-07 signer or a key:
+ * `vulns` the advisory id and its aliases (the first is the subject's),
+ * `pkg` the package reference ("npm:@babel/traverse"), `via` or `app` the
+ * direct user, `status` one of TRIAGE_STATUSES, `justification` an OpenVEX
+ * label (optional), `versions` of the direct user the statement holds for
+ * (optional, free text), `content` the reasoning in prose.
  */
-export function parseTriage(doc, { source = 'triage' } = {}) {
-  const problems = [];
-  const decisions = [];
-  const seen = new Map();
-  const list = doc?.decisions;
-  if (doc == null || list == null && typeof doc === 'object' && !Array.isArray(doc)) {
-    // An empty file, or one without the list, is a valid "nothing decided yet".
-  } else if (typeof doc !== 'object' || Array.isArray(doc)) {
-    problems.push('the document must be a mapping with a "decisions" list');
-  } else if (!Array.isArray(list)) {
-    problems.push('"decisions" must be a list');
-  } else {
-    list.forEach((d, i) => {
-      const at = `decisions[${i}]`;
-      if (d == null || typeof d !== 'object' || Array.isArray(d)) {
-        problems.push(`${at}: must be a mapping`);
-        return;
-      }
-      const advisory = text(d.advisory);
-      const status = text(d.status);
-      const justification = text(d.justification);
-      if (!advisory) problems.push(`${at}: "advisory" is required`);
-      else if (!ADVISORY_ID_RE.test(advisory)) problems.push(`${at}: "${advisory}" is not an advisory id (GHSA-…, CVE-…, MAL-…)`);
-      if (!status) problems.push(`${at} (${advisory || '?'}): "status" is required, one of ${TRIAGE_STATUSES.join(', ')}`);
-      else if (!TRIAGE_STATUSES.includes(status)) problems.push(`${at} (${advisory || '?'}): status "${status}" is not one of ${TRIAGE_STATUSES.join(', ')}`);
-      if (!justification) problems.push(`${at} (${advisory || '?'}): "justification" is required, one sentence on why`);
-      if (d.date != null && !DATE_RE.test(String(d.date instanceof Date ? d.date.toISOString().slice(0, 10) : d.date))) problems.push(`${at} (${advisory || '?'}): "date" must be YYYY-MM-DD`);
-      if (advisory) {
-        if (seen.has(advisory)) problems.push(`${at}: ${advisory} already decided in decisions[${seen.get(advisory)}]`);
-        seen.set(advisory, i);
-      }
-      const entry = { advisory, status, justification };
-      if (text(d.package)) entry.package = text(d.package);
-      if (d.date != null) entry.date = d.date instanceof Date ? d.date.toISOString().slice(0, 10) : String(d.date);
-      if (text(d.by)) entry.by = text(d.by);
-      if (d.developer != null) {
-        // What the wallet's developer says (from their OpenVEX or a reply), shown next to our call, never instead of it.
-        const dev = d.developer;
-        const devStatus = text(dev?.status);
-        if (!devStatus || !TRIAGE_STATUSES.includes(devStatus)) problems.push(`${at} (${advisory || '?'}): developer.status must be one of ${TRIAGE_STATUSES.join(', ')}`);
-        entry.developer = { status: devStatus };
-        if (text(dev?.justification)) entry.developer.justification = text(dev.justification);
-        if (text(dev?.url)) entry.developer.url = text(dev.url);
-      }
-      decisions.push(entry);
-    });
-  }
-  if (problems.length) {
-    throw new Error(`${source}: ${problems.length === 1 ? problems[0] : `\n  - ${problems.join('\n  - ')}`}`);
-  }
-  return { decisions };
+export function triageTemplate({ vulns, pkg, via = null, app = null, status, justification = null, versions = null, content = '', created_at = null }) {
+  const ids = [...new Set((vulns || []).map(text).filter(Boolean))];
+  if (!ids.length) throw new Error('a statement needs at least one advisory id');
+  for (const id of ids) if (!ADVISORY_ID_RE.test(id)) throw new Error(`"${id}" is not an advisory id (GHSA-…, CVE-…, MAL-…)`);
+  if (!PACKAGE_REF_RE.test(text(pkg))) throw new Error(`"${pkg}" is not a package reference (ecosystem:name)`);
+  if (via && app) throw new Error('a statement is about one direct user: via or app, not both');
+  if (via && !PACKAGE_REF_RE.test(text(via))) throw new Error(`"${via}" is not a package reference (ecosystem:name)`);
+  if (!TRIAGE_STATUSES.includes(status)) throw new Error(`status "${status}" is not one of ${TRIAGE_STATUSES.join(', ')}`);
+  if (justification && !TRIAGE_JUSTIFICATIONS.includes(justification)) throw new Error(`justification "${justification}" is not one of ${TRIAGE_JUSTIFICATIONS.join(', ')}`);
+  const tags = [
+    ['d', triageSubject({ vuln: ids[0], via: text(via) || null, app: text(app) || null })],
+    ...ids.map(id => ['vuln', id]),
+    ['package', text(pkg)],
+  ];
+  if (text(via)) tags.push(['via', text(via)]);
+  if (text(app)) tags.push(['app', text(app)]);
+  tags.push(['status', status]);
+  if (justification) tags.push(['justification', justification]);
+  if (text(versions)) tags.push(['versions', text(versions)]);
+  // The project relay stores only events it recognises as WalletScrutiny traffic (external/configs/strfry/kind-policy.py).
+  tags.push(['client', 'WalletScrutiny.com'], ['c', 'walletscrutiny']);
+  return {
+    kind: dependencyTriageKind,
+    created_at: Number.isFinite(created_at) ? created_at : Math.floor(Date.now() / 1000),
+    tags,
+    content: String(content || ''),
+  };
 }
 
-// Decisions by advisory id, for lookup by id or alias (a decision recorded
-// under the CVE applies to the GHSA that aliases it, and the other way round).
-export function decisionIndex(triage) {
-  const index = new Map();
-  for (const d of triage?.decisions || []) index.set(d.advisory, d);
-  return index;
+const tagValue = (event, name) => event.tags.find(t => Array.isArray(t) && t[0] === name && typeof t[1] === 'string')?.[1] ?? null;
+const tagValues = (event, name) => event.tags.filter(t => Array.isArray(t) && t[0] === name && typeof t[1] === 'string').map(t => t[1]);
+
+/**
+ * A statement from a (verified) event, or null when the event is not a
+ * well-formed statement: wrong kind, no advisory, bad status, both via and app.
+ */
+export function statementFromEvent(event, { kind = dependencyTriageKind } = {}) {
+  if (!event || event.kind !== kind || !Array.isArray(event.tags)) return null;
+  const d = tagValue(event, 'd');
+  const vulns = [...new Set(tagValues(event, 'vuln').map(text).filter(v => ADVISORY_ID_RE.test(v)))];
+  const status = tagValue(event, 'status');
+  const via = text(tagValue(event, 'via')) || null;
+  const app = text(tagValue(event, 'app')) || null;
+  const pkg = text(tagValue(event, 'package')) || null;
+  if (!d || !vulns.length || !TRIAGE_STATUSES.includes(status) || (via && app)) return null;
+  if (pkg && !PACKAGE_REF_RE.test(pkg)) return null;
+  if (via && !PACKAGE_REF_RE.test(via)) return null;
+  const justification = tagValue(event, 'justification');
+  return {
+    id: event.id,
+    pubkey: event.pubkey,
+    created_at: event.created_at,
+    d,
+    vulns,
+    package: pkg,
+    via,
+    app,
+    status,
+    justification: TRIAGE_JUSTIFICATIONS.includes(justification) ? justification : null,
+    versions: text(tagValue(event, 'versions')) || null,
+    content: typeof event.content === 'string' ? event.content : '',
+  };
 }
 
-export function decisionFor(advisory, index) {
-  if (!index || !index.size || !advisory) return null;
-  if (index.has(advisory.id)) return index.get(advisory.id);
-  for (const alias of advisory.aliases || []) {
-    if (index.has(alias)) return index.get(alias);
+// Newest statement per (author, subject): an addressable event replaces its
+// older versions, and a relay may still hand out both.
+export function newestStatements(statements) {
+  const byKey = new Map();
+  for (const s of statements) {
+    if (!s) continue;
+    const key = `${s.pubkey}\0${s.d}`;
+    const have = byKey.get(key);
+    if (!have || s.created_at > have.created_at || (s.created_at === have.created_at && s.id < have.id)) byKey.set(key, s);
   }
-  return null;
+  return [...byKey.values()];
+}
+
+// Advisory ids a release's rows answer to (ids and aliases).
+export function advisoryIdsOf(releases = []) {
+  const ids = new Set();
+  for (const r of releases) {
+    for (const a of r?.advisories || []) {
+      if (a?.id) ids.add(a.id);
+      for (const alias of a?.aliases || []) ids.add(alias);
+    }
+  }
+  return ids;
+}
+
+// Whether a statement is about this advisory row (id or alias, and the
+// package when the statement names one).
+export function statementConcerns(statement, advisory) {
+  const ids = new Set([advisory.id, ...(advisory.aliases || [])]);
+  if (!statement.vulns.some(v => ids.has(v))) return false;
+  if (statement.package && advisory.package && statement.package !== `${advisory.ecosystem}:${advisory.package}`) return false;
+  return true;
+}
+
+// Among several trusted authors' statements on one subject, the newest.
+function pick(list) {
+  return list.reduce((best, s) => (!best || s.created_at > best.created_at ? s : best), null);
+}
+
+function worstOf(statuses) {
+  return WORST_FIRST.find(s => statuses.includes(s)) || null;
 }
 
 /**
- * Attach `decision` (or null) to every advisory and count the states.
- * Returns `{ advisories, summary }`; summary.undecided is the work queue.
+ * Resolve one advisory row of one wallet against the statements. Returns
+ * `{ decision, needs, covered, community }`:
+ *   decision   `{ status, basis: [{ need, statement }] }` or null while open
+ *   needs      what has to be judged for this row: `app:<id>` when the wallet
+ *              imports the package itself, `via:<pkg>` per direct user, or
+ *              `package` when the files do not say who requires it
+ *   covered    the needs a trusted statement answers (a subset of needs)
+ *   community  statements by authors outside the trusted list (counted, not applied)
  */
-export function applyTriage(advisories = [], triage = null) {
-  const index = decisionIndex(triage);
-  const summary = { total: advisories.length, decided: 0, undecided: 0, affected: 0, not_affected: 0, fixed: 0, under_investigation: 0 };
+export function resolveRow(advisory, statements = [], { appIds = [], trusted = new Set() } = {}) {
+  const relevant = statements.filter(s => statementConcerns(s, advisory));
+  const trustedOnes = relevant.filter(s => trusted.has(s.pubkey));
+  const community = relevant.filter(s => !trusted.has(s.pubkey));
+  const ids = new Set(appIds.filter(Boolean));
+  const own = pick(trustedOnes.filter(s => s.app && ids.has(s.app)));
+  const packageWide = pick(trustedOnes.filter(s => !s.app && !s.via));
+  const eco = advisory.ecosystem || 'npm';
+
+  const needs = [];
+  if (advisory.direct) needs.push(`app:${appIds[0] || '?'}`);
+  const dependants = Array.isArray(advisory.dependants) ? advisory.dependants : null;
+  for (const d of dependants || []) needs.push(`via:${eco}:${d}`);
+  if (!needs.length) needs.push('package'); // no graph (gradle), or nothing in the files requires it
+
+  if (own) {
+    return { decision: { status: own.status, basis: [{ need: `app:${own.app}`, statement: own }] }, needs, covered: needs, community };
+  }
+  const basis = [];
+  const covered = [];
+  for (const need of needs) {
+    let s = null;
+    if (need.startsWith('via:')) s = pick(trustedOnes.filter(t => t.via === need.slice(4))) || packageWide;
+    else s = packageWide; // the wallet's own use, or an unknown graph: only a package-wide statement can answer without an `app` one
+    if (s) {
+      basis.push({ need, statement: s });
+      covered.push(need);
+    }
+  }
+  if (covered.length === needs.length) {
+    return { decision: { status: worstOf(basis.map(b => b.statement.status)), basis }, needs, covered, community };
+  }
+  return { decision: null, needs, covered, community, partial: basis };
+}
+
+/**
+ * Attach `decision` (or null) and `triage` (needs, covered, community) to
+ * every advisory and count the states. `triage` is the wallet's published
+ * file: `{ trusted: [pubkeys], statements: [...] }`, or null when nobody has
+ * said anything yet. summary.undecided is the work queue.
+ */
+export function applyTriage(advisories = [], triage = null, { appIds = [] } = {}) {
+  const statements = newestStatements(triage?.statements || []);
+  const trusted = new Set(triage?.trusted || []);
+  const summary = { total: advisories.length, decided: 0, undecided: 0, affected: 0, not_affected: 0, fixed: 0, under_investigation: 0, partial: 0, community: 0 };
   const out = advisories.map((a) => {
-    const decision = decisionFor(a, index);
-    if (decision) {
+    const r = resolveRow(a, statements, { appIds, trusted });
+    if (r.decision) {
       summary.decided += 1;
-      summary[decision.status] += 1;
+      summary[r.decision.status] += 1;
     } else {
       summary.undecided += 1;
+      if (r.covered.length) summary.partial += 1;
     }
-    return { ...a, decision };
+    if (r.community.length) summary.community += 1;
+    return { ...a, decision: r.decision, triage: { needs: r.needs, covered: r.covered, community: r.community.length, partial: r.partial || [] } };
   });
   return { advisories: out, summary };
 }
