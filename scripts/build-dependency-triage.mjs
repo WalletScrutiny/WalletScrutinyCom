@@ -5,8 +5,9 @@
  * advisory affects whoever uses the package that way) next to the
  * source-analysis export, as _site/api/source-analysis/triage/<appId>.json
  * per wallet: the statements that concern one of the wallet's advisories,
- * plus the trusted-author list (_data/dependencyTriage.yml). The wallet
- * page's Dependencies panel resolves each row from them.
+ * plus the trusted-author list (_data/dependencyTriage.yml), and the list
+ * alone as triage/_trusted.json. The wallet page's Dependencies panel
+ * resolves each row from them.
  *
  * Sources, merged, newest per (author, subject) wins:
  *   - the relays (dependencyTriageKind, every author: who signed decides the
@@ -125,6 +126,9 @@ export function buildTriage({ events = [], snapshotFile = SNAPSHOT_FILE, trusted
   const apps = exportApps(join(exportDir, 'apps'));
   if (!apps.size) return result;
   mkdirSync(target, { recursive: true });
+  // The trusted list on its own, for wallets without a file yet: the panel's
+  // Judge dialog tells a signer whether their statement settles rows.
+  writeFileSync(join(target, '_trusted.json'), JSON.stringify({ schema: 1, trusted }));
   for (const [appId, { ids }] of apps) {
     const mine = statements.filter(s => s.vulns.some(v => ids.has(v)));
     if (!mine.length) continue;

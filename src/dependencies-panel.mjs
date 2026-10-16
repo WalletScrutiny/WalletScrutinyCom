@@ -8,7 +8,8 @@ import { el } from './html-utils.mjs';
 import {
   panelModel, whereOf, whereLabel, safeName, csvOf, epssLabel, SEVERITY_ORDER, SEVERITY_LABEL,
 } from './dependencies-panel-model.mjs';
-import { TRIAGE_LABEL, JUSTIFICATION_LABEL, triageStateOf } from './dependency-triage.mjs';
+import { TRIAGE_LABEL, JUSTIFICATION_LABEL, triageStateOf, withStatement } from './dependency-triage.mjs';
+import { openTriageDialog } from './dependencies-triage-form.mjs';
 
 // Where the export is served from. The transport (proxy on walletscrutiny.com,
 // Blossom blobs, rsync) is decided outside this module; only this constant moves.
@@ -47,6 +48,17 @@ export async function loadTriage(appIds, { base = EXPORT_BASE, fetchImpl = globa
     if (triage) return triage;
   }
   return null;
+}
+
+// The trusted-author list on its own (triage/_trusted.json), for a wallet
+// whose file does not exist yet: the Judge dialog says whether the signer's
+// statement will settle rows or count as a community one. Fetched once.
+const trustedCache = new Map();
+export function loadTrusted({ base = EXPORT_BASE, fetchImpl = globalThis.fetch } = {}) {
+  if (!trustedCache.has(base)) {
+    trustedCache.set(base, fetchJson(`${base}/triage/_trusted.json`, fetchImpl).then(doc => (Array.isArray(doc?.trusted) ? doc.trusted : []), () => []));
+  }
+  return trustedCache.get(base);
 }
 
 // Public per-CVE signals (scripts/build-advisory-signals.mjs), or null when the build had none.
@@ -126,17 +138,23 @@ function severityLine(bySeverity) {
 
 // The ecosystem only appears when the release mixes several (npm next to
 // gradle next to pip); a wallet with one ecosystem would repeat it on every row.
-function advisoryRow(a, { mixedEcosystems = false } = {}) {
+function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = null } = {}) {
   const where = whereOf(a);
-  return el('tr', {},
+  const fresh = Boolean(freshId) && statementsOf(a).some(s => s.id === freshId);
+  return el('tr', { className: fresh ? 'dp-row--fresh' : null, dataset: { advisory: a.id, package: a.package } },
     el('td', { className: 'dp-td-package' }, ...breakableName(a.package), mixedEcosystems && a.ecosystem ? el('span', { className: 'dp-eco' }, a.ecosystem) : null, viaLine(a)),
     el('td', {}, a.version),
     el('td', {}, el('a', { href: `${OSV_URL}${encodeURIComponent(a.id)}`, target: '_blank', rel: 'noopener noreferrer', title: a.summary || '' }, a.id)),
     el('td', {}, severityCell(a)),
     el('td', {}, el('span', { className: `dp-where dp-where--${where}` }, whereLabel(a))),
     el('td', { className: 'dp-td-products' }, usedBy(a)),
-    el('td', { className: 'dp-td-decision' }, decisionCell(a)),
+    el('td', { className: 'dp-td-decision' }, decisionCell(a, { onJudge, freshId })),
   );
+}
+
+// Every statement a row's decision rests on or has collected so far.
+function statementsOf(a) {
+  return [...(a.decision?.basis || []), ...(a.triage?.partial || [])].map(b => b.statement);
 }
 
 // "via npm:@babel/core" / "this wallet" / "the package": what a statement's need reads as.
@@ -148,20 +166,24 @@ function needLabel(need) {
 
 const shortKey = (pubkey) => `${pubkey.slice(0, 8)}…`;
 
-// One statement as a line: who it is about, what it says, who signed.
-function statementLine({ need, statement: s }) {
+// One statement as a line: who it is about, what it says (linked to its
+// evidence when the author gave some), who signed. The one just published
+// from this page is marked.
+function statementLine({ need, statement: s }, { freshId = null } = {}) {
   const why = JUSTIFICATION_LABEL[s.justification] || s.content || TRIAGE_LABEL[s.status];
-  return el('div', { className: 'dp-decision__why', title: s.content || '' },
+  return el('div', { className: `dp-decision__why${s.id === freshId ? ' dp-decision__why--fresh' : ''}`, title: s.content || '' },
     el('span', { className: 'dp-decision__need' }, `${needLabel(need)}: `),
-    why,
+    s.evidence ? el('a', { href: s.evidence, target: '_blank', rel: 'noopener noreferrer' }, why) : why,
     el('span', { className: 'dp-decision__who' }, ` (${TRIAGE_LABEL[s.status]}, ${shortKey(s.pubkey)})`),
+    s.id === freshId ? el('span', { className: 'dp-decision__fresh' }, ' just published') : null,
   );
 }
 
 // The row's state from the statements of its direct users, each with its
 // reason; "–" while one is still missing, saying how many are in. Community
 // statements (authors outside the trusted list) are counted, not applied.
-export function decisionCell(a) {
+// With `onJudge`, a button opens the dialog that writes a statement for the row.
+export function decisionCell(a, { onJudge = null, freshId = null } = {}) {
   const state = triageStateOf(a);
   const d = a.decision;
   const t = a.triage || { needs: [], covered: [], community: 0, partial: [] };
@@ -169,12 +191,17 @@ export function decisionCell(a) {
   if (!d) {
     bits.push(el('span', { className: 'dp-decision dp-decision--undecided', title: 'Nobody has judged this advisory for this wallet yet' }, '–'));
     if (t.covered.length) bits.push(el('div', { className: 'dp-decision__why' }, `${t.covered.length} of ${t.needs.length} direct users judged`));
-    for (const b of t.partial || []) bits.push(statementLine(b));
+    for (const b of t.partial || []) bits.push(statementLine(b, { freshId }));
   } else {
     bits.push(el('span', { className: `dp-decision dp-decision--${state}` }, TRIAGE_LABEL[state]));
-    for (const b of d.basis) bits.push(statementLine(b));
+    for (const b of d.basis) bits.push(statementLine(b, { freshId }));
   }
   if (t.community) bits.push(el('div', { className: 'dp-decision__community' }, `${t.community} community ${t.community === 1 ? 'statement' : 'statements'}`));
+  if (onJudge) {
+    const judge = el('button', { type: 'button', className: 'dp-judge', title: 'Publish a signed statement on whether this advisory affects the product' }, d ? 'Judge again' : 'Judge');
+    judge.addEventListener('click', () => onJudge(a));
+    bits.push(judge);
+  }
   return el('div', {}, bits);
 }
 
@@ -202,11 +229,14 @@ export function usedBy(a) {
   return el('span', {}, String(a.products), same != null ? el('span', { className: 'dp-products-sub' }, ` · ${same} this version`) : null);
 }
 
-function advisoryTable(model) {
+// The worst rows, or every row with `showAll` (after a publish, so the judged
+// row stays in sight wherever it re-sorts to).
+function advisoryTable(model, { onJudge = null, freshId = null, showAll = false } = {}) {
   if (!model.advisories.length) return null;
-  const rest = model.advisories.slice(model.worst.length);
-  const rowOptions = { mixedEcosystems: model.ecosystems.length > 1 };
-  const body = el('tbody', {}, model.worst.map(a => advisoryRow(a, rowOptions)));
+  const shown = showAll ? model.advisories : model.worst;
+  const rest = model.advisories.slice(shown.length);
+  const rowOptions = { mixedEcosystems: model.ecosystems.length > 1, onJudge, freshId };
+  const body = el('tbody', {}, shown.map(a => advisoryRow(a, rowOptions)));
   const table = el('table', { className: 'dp-table' },
     el('thead', {}, el('tr', {},
       ['Package', 'Version', 'Advisory', 'Severity', 'Where?', 'Used by', 'Decision'].map(h => el('th', {}, h)),
@@ -269,6 +299,7 @@ function howToRead(model) {
     parts.push(t.decided
       ? `The "Decision" column shows ${t.decided} of ${t.total} advisories settled that way, each with its reasons and signers; the rest nobody has judged yet. `
       : 'Nobody has made those statements for this wallet\'s advisories yet, which is what the empty "Decision" column says. ');
+    parts.push('"Judge" on a row writes one: signed with your Nostr browser extension, published to the relays, shown here at once and on every wallet page after the next site build. Anyone can publish; whose statements settle rows is a list the site keeps, the others are counted. ');
   }
   if (model.signals) {
     parts.push('Under the severity, "exploited in the wild" means CISA lists the advisory as exploited somewhere, and EPSS is the published probability that it gets exploited anywhere within 30 days; both are about the advisory, not this wallet. ');
@@ -321,8 +352,11 @@ function actions(model, { appId, base, fetchImpl }) {
   );
 }
 
-// The panel element for a model; exported for tests.
-export function panelElement(model, { appId, base = EXPORT_BASE, fetchImpl = globalThis.fetch } = {}) {
+// The panel element for a model; exported for tests. `onJudge(advisory)`
+// puts a Judge button on every row; after a publish, `flash` is the line
+// above the table saying so, `freshId` the statement to mark, and every row
+// is shown so the judged one stays in sight wherever it re-sorts to.
+export function panelElement(model, { appId, base = EXPORT_BASE, fetchImpl = globalThis.fetch, onJudge = null, flash = null, freshId = null, showAll = false } = {}) {
   const vulnSub = severityLine(model.bySeverity);
   return el('div', { className: 'dp-panel' },
     el('div', { className: 'dp-top' },
@@ -330,24 +364,32 @@ export function panelElement(model, { appId, base = EXPORT_BASE, fetchImpl = glo
       el('span', { className: 'dp-badge' }, 'Measurement only · not part of the verdict'),
     ),
     notices(model),
+    flash ? el('p', { className: 'dp-flash', role: 'status' }, flash) : null,
     el('div', { className: 'dp-tiles' },
       tile(model.direct, 'direct dependencies'),
       tile(model.transitive, 'transitive dependencies'),
       tile(model.vulnerabilities, 'known vulnerabilities', { tone: model.vulnerabilities ? 'bad' : 'good', sub: vulnSub, sub2: model.vulnerabilities ? whereLine(model.vulnerabilitiesByScope) : null }),
       tile(model.malware, 'known malware', { tone: model.malware ? 'bad' : 'good' }),
     ),
-    advisoryTable(model),
+    advisoryTable(model, { onJudge, freshId, showAll }),
     howToRead(model),
     actions(model, { appId, base, fetchImpl }),
   );
+}
+
+// "Your statement on GHSA-… is published (3 of 6 relays): this page shows it now, every wallet page after the next site build."
+export function publishedFlash(statement, summary) {
+  const where = summary?.trusted === false ? 'counted as a community statement here' : 'this page shows it now';
+  return `Your statement on ${statement.vulns[0]} is published (${summary?.successful ?? '?'} of ${summary?.total ?? '?'} relays accepted it): ${where}, every wallet page after the next site build.`;
 }
 
 /**
  * Fetch the app's export file and paint the panel into `host`. The host stays
  * hidden when the app has no analysed release or the export is unreachable:
  * a wallet nobody analysed shows no empty box. Resolves to the model or null.
+ * `nostr` overrides the dialog's signer and relays (tests).
  */
-export async function renderDependenciesPanel({ host, appId, storeVersion = '', base = EXPORT_BASE, fetchImpl = globalThis.fetch }) {
+export async function renderDependenciesPanel({ host, appId, storeVersion = '', base = EXPORT_BASE, fetchImpl = globalThis.fetch, nostr = undefined }) {
   if (!host || !appId) return null;
   let app = null;
   let triage = null;
@@ -362,12 +404,36 @@ export async function renderDependenciesPanel({ host, appId, storeVersion = '', 
     console.warn('Dependencies panel: export not reachable', error);
     return null;
   }
-  const model = panelModel(app, { storeVersion, triage, signals });
-  if (!model) {
+  const analysisId = app?.appId || appId;
+  let model = null;
+
+  // Repainted after a statement is published, with the statement merged in.
+  const paint = (extra = {}) => {
+    model = panelModel(app, { storeVersion, triage, signals });
+    if (!model) return null;
+    host.replaceChildren(panelElement(model, { appId: analysisId, base, fetchImpl, onJudge, ...extra }));
+    return model;
+  };
+  async function onJudge(advisory) {
+    const trusted = triage?.trusted?.length ? triage.trusted : await loadTrusted({ base, fetchImpl });
+    openTriageDialog({
+      advisory,
+      appId: analysisId,
+      triage,
+      trusted,
+      ...(nostr ? { nostr } : {}),
+      onPublished: (statement, summary) => {
+        triage = withStatement(triage, statement, { appId: analysisId, trusted });
+        paint({ flash: publishedFlash(statement, summary), freshId: statement.id, showAll: true });
+        (host.querySelector('.dp-row--fresh') || host.querySelector('.dp-flash'))?.scrollIntoView?.({ block: 'center' });
+      },
+    });
+  }
+
+  if (!paint()) {
     host.hidden = true;
     return null;
   }
-  host.replaceChildren(panelElement(model, { appId: app.appId || appId, base, fetchImpl }));
   host.hidden = false;
   const step = host.closest('.dependencies-step');
   if (step) step.hidden = false;
