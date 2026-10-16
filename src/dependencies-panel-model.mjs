@@ -117,6 +117,7 @@ export function panelModel(app, { storeVersion = '', release = null } = {}) {
     malware,
     bySeverity,
     vulnerablePackages: current.vulnerabilities?.packages ?? 0,
+    vulnerabilitiesByScope: current.vulnerabilities?.byScope || null,
     advisories,
     worst: advisories.slice(0, WORST_ROWS),
     diff: current.diffFrom || null,

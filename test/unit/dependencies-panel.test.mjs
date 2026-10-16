@@ -15,7 +15,7 @@ const APP = {
     lockfiles: ['package-lock.json'],
     osv: { checked: 398, skipped: { floating: 14 } },
     dependencies: { total: 412, direct: 40, dev: 100, devUnknown: 0, byScope: { app: 300, build: 90, tests: 10, unknown: 12 }, byEcosystem: { npm: 412 }, tiers: {}, lockfiles: ['package-lock.json'] },
-    vulnerabilities: { total: 13, bySeverity: { malicious: 0, critical: 1, high: 2, moderate: 10, low: 0, unknown: 0 }, packages: 13 },
+    vulnerabilities: { total: 13, bySeverity: { malicious: 0, critical: 1, high: 2, moderate: 10, low: 0, unknown: 0 }, packages: 13, byScope: { app: 1, build: 2, tests: 0, unknown: 10 } },
     advisories: [advisory('GHSA-crit', 'critical'), advisory('GHSA-high', 'high', { dev: true }), advisory('GHSA-test', 'high', { dev: true, scope: 'tests' }), ...Array.from({ length: 10 }, (_, i) => advisory(`GHSA-mod-${i}`, 'moderate', { dev: null }))],
     diffFrom: { ref: 'v1.3.0', added: 12, removed: 3, changed: 40, integrityChangedAtSameVersion: ['npm:left-pad'] },
   }],
@@ -62,6 +62,7 @@ describe('dependencies panel', () => {
     const values = [...host.querySelectorAll('.dp-tile__value')].map(e => e.textContent);
     assert.deepEqual(values, ['412', '14', '13', '0']);
     assert.equal(host.querySelector('.dp-tile__sub').textContent, '1 critical · 2 high · 10 medium');
+    assert.equal(host.querySelector('.dp-tile__sub--where').textContent, '1 in the app · 2 in build tooling · 10 unplaced');
     assert.equal(host.querySelectorAll('tbody tr').length, 10);
     assert.equal(host.querySelector('tbody tr td a').textContent, 'GHSA-crit');
     assert.equal(host.querySelector('tbody tr td a').getAttribute('href'), 'https://osv.dev/vulnerability/GHSA-crit');
