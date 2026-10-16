@@ -1,0 +1,29 @@
+{%- comment -%}
+  "Dependencies": what the source analysis (external/source_analysis) found in
+  the release's lockfiles, from its static export. Painted by
+  renderDependenciesPanel (src/dependencies-panel.mjs) once the verifications UI
+  bundle is loaded; the step stays hidden until an analysed release exists for
+  this app. Separate from the verdict and the score. Parameters: platform,
+  appId, version (the store version the page lists).
+{%- endcomment -%}
+{% assign dependencies_app_id = include.appId | default: page.appId %}
+{% if dependencies_app_id and dependencies_app_id != '' %}
+{% assign dependencies_id = 'dependencies-' | append: include.platform | default: 'app' %}
+<div class="step dependencies-step" hidden>
+    <i class="circle disabled">{% include icon.html name="layer-group" %}</i>
+    <div class="title">
+        <h3>Dependencies</h3>
+        <div id="{{ dependencies_id }}" class="dependencies-panel" hidden></div>
+        <script>
+          window.addEventListener('verificationsUILoaded', () => {
+            if (typeof window.renderDependenciesPanel !== 'function') return;
+            window.renderDependenciesPanel({
+              host: document.getElementById('{{ dependencies_id }}'),
+              appId: {{ dependencies_app_id | jsonify }},
+              storeVersion: {{ include.version | default: '' | jsonify }},
+            });
+          });
+        </script>
+    </div>
+</div>
+{% endif %}
