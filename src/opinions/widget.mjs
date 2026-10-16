@@ -328,7 +328,7 @@ export class OpinionsWidget {
   renderTabs() {
     const tabs = el('div', { className: 'opinions__tabs', role: 'tablist', 'aria-label': 'Opinion sources' });
     const entries = [
-      [SOURCE_WALLETSCRUTINY, 'WalletScrutiny', '', this.opinions.length],
+      [SOURCE_WALLETSCRUTINY, 'WalletScrutiny', wsIcon('walletscrutiny'), this.opinions.length],
       [SOURCE_ZAPSTORE, 'Zapstore', wsIcon('zapstore'), this.zapstore.roots.length],
     ];
     for (const [source, label, icon, count] of entries) {

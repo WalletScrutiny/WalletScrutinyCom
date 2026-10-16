@@ -21,6 +21,20 @@ async function expectLoaded(section) {
   await expect(section.locator('.opinions__status--error')).toHaveCount(0);
 }
 
+/** Both tabs carry a rendered sprite icon (a missing <symbol> leaves the <use> box empty). */
+async function expectTabIcons(tabs) {
+  await expect(tabs.nth(0).locator('.ws-icon-walletscrutiny use')).toHaveCount(1);
+  await expect(tabs.nth(1).locator('.ws-icon-zapstore use')).toHaveCount(1);
+  for (const index of [0, 1]) {
+    const box = await tabs.nth(index).locator('.ws-icon use').evaluate((node) => {
+      const rect = node.getBoundingClientRect();
+      return { width: rect.width, height: rect.height };
+    });
+    expect(box.width, `tab ${index} icon width`).toBeGreaterThan(4);
+    expect(box.height, `tab ${index} icon height`).toBeGreaterThan(4);
+  }
+}
+
 /** Every card names its author: a profile picture or a profile name, never only a shortened npub. */
 async function expectIdentifiedAuthors(section) {
   const cards = await section.locator('.opinion-card').all();
@@ -133,6 +147,7 @@ test.describe('Community opinions', () => {
     await expect(tabs.nth(0)).toHaveAttribute('aria-selected', 'true');
     await expect(tabs.nth(1)).toContainText('Zapstore');
     await expect(tabs.nth(1).locator('.opinions__tab-count')).toHaveText(/^[1-9]\d*$/);
+    await expectTabIcons(tabs);
     await expect(section.locator('.opinions__filter')).toHaveCount(2);
     await expect(section.locator('.opinion-card__version')).toHaveCount(0);
 
