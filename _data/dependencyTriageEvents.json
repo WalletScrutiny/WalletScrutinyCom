@@ -1,0 +1,128 @@
+[
+ {
+  "content": "Compiler: @babel/core hands it the project's own sources, not attacker-written code. First example statement, to be confirmed or replaced.",
+  "created_at": 1792169649,
+  "id": "364cab22ed1bdb2e82437e64f2748b290020d672db3a603126f650d39b5334ea",
+  "kind": 30350,
+  "pubkey": "698c11c7263b6bd5a85bcd80ecc6e56562dd47eea5df70119755cb1f70ffacee",
+  "sig": "d98b14b5372c2760feb3c1d618864438c1ed759b4a9062c4988b9442d408491b601f84a93a6e8ec03ad72b09e189779a16435e25a26a2f4e932dd3f2dbdceb3b",
+  "tags": [
+   [
+    "d",
+    "GHSA-67hx-6x53-jw92|via:npm:@babel/core"
+   ],
+   [
+    "vuln",
+    "GHSA-67hx-6x53-jw92"
+   ],
+   [
+    "vuln",
+    "CVE-2023-45133"
+   ],
+   [
+    "package",
+    "npm:@babel/traverse"
+   ],
+   [
+    "via",
+    "npm:@babel/core"
+   ],
+   [
+    "status",
+    "under_investigation"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "Same input as via @babel/core: the project's own sources. Example statement.",
+  "created_at": 1792169673,
+  "id": "f15ac27982e76a27e50b22b5b7dc560100612dfdc2eb153bf7d521306b0044f5",
+  "kind": 30350,
+  "pubkey": "698c11c7263b6bd5a85bcd80ecc6e56562dd47eea5df70119755cb1f70ffacee",
+  "sig": "315856b00f038d09a210214c6e60c6891e94a8429bd38f0cd43bda80a8aa65ba35e829369d35c78c98127b6463cb0747529ae6520da8f1b8f1901291df5ae6fc",
+  "tags": [
+   [
+    "d",
+    "GHSA-67hx-6x53-jw92|via:npm:@babel/helpers"
+   ],
+   [
+    "vuln",
+    "GHSA-67hx-6x53-jw92"
+   ],
+   [
+    "vuln",
+    "CVE-2023-45133"
+   ],
+   [
+    "package",
+    "npm:@babel/traverse"
+   ],
+   [
+    "via",
+    "npm:@babel/helpers"
+   ],
+   [
+    "status",
+    "under_investigation"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "HttpTransferCache is a server-side-rendering feature; whether AirGap enables it decides this. Example of a wallet-level statement.",
+  "created_at": 1792169674,
+  "id": "16a913c74d107424d54e1656fa33cb1d4a76dedfbaa4eb8c1a5aeb5aac80c525",
+  "kind": 30350,
+  "pubkey": "698c11c7263b6bd5a85bcd80ecc6e56562dd47eea5df70119755cb1f70ffacee",
+  "sig": "851f078187444ead9dd8782b9bb3389a2f254c4d003856448db9431d1f58858c5cef81566ca9e432f23aefba11cebbc7319a9154e3ab406bb43937233a51bbe6",
+  "tags": [
+   [
+    "d",
+    "GHSA-39pv-4j6c-2g6v|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-39pv-4j6c-2g6v"
+   ],
+   [
+    "vuln",
+    "CVE-2026-54266"
+   ],
+   [
+    "package",
+    "npm:@angular/common"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "under_investigation"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ }
+]

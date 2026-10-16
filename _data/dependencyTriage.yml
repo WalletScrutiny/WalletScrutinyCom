@@ -1,0 +1,12 @@
+# Dependency triage (src/dependency-triage.mjs): statements on Nostr saying
+# whether an advisory affects whoever uses the package a given way. Anyone
+# can publish one; only the authors below settle a row on the site, the
+# others are counted as community statements.
+#
+# Read by scripts/build-dependency-triage.mjs, which publishes the list with
+# every wallet's statements, so an author only has to be added here.
+trustedAuthors:
+  - npub1gm7tuvr9atc6u7q3gevjfeyfyvmrlul4y67k7u7hcxztz67ceexs078rf6 # Leo
+  - npub1r709glp0xx2zvgac45wswufjst5xgr7cear5a8me7x9vazhjzmksp2sf7d # Danny
+  - npub1qw6sxmwrmwpxqsc8cxty62ujvst6j8pmz8hhtwnv54gpn6dh5c4qms4882 # Luis
+  - npub1dxxpr3ex8d4at2zmekqwe3h9v43d63lw5h0hqyvh2h937u8l4nhqyycltq # Bob's demo key for the first statements; remove once a real author has published

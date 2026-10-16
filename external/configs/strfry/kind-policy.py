@@ -45,6 +45,7 @@ WS_TAGGED_KINDS = {
     1337,           # code snippet
     31971, 31871,   # endorsement
     11984, 1984,    # verification report (NIP-56); admin reports hide spam verifications on the site
+    32350, 30350,   # dependency triage statement (src/dependency-triage.mjs, docs/dependency-check.md "Triage")
 }
 
 DELETION_KIND = 5       # event deletion (NIP-09); required for clients to delete events we store

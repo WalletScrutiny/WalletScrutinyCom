@@ -35,6 +35,7 @@ async function main() {
   await run('bundle', ['exec', 'jekyll', 'build'], { JEKYLL_ENV: 'production' });
   await run('node', ['scripts/copy-source-analysis-export.mjs']);
   await run('node', ['scripts/build-dependency-triage.mjs']);
+  await run('node', ['scripts/build-advisory-signals.mjs']);
   await run('node', ['scripts/postprocess-site.mjs', '--no-brotli']);
 }
 

@@ -70,7 +70,7 @@ describe('dependencies panel', () => {
     assert.deepEqual([...host.querySelectorAll('thead th')].map(e => e.textContent), ['Package', 'Version', 'Advisory', 'Severity', 'Where?', 'Used by', 'Decision']);
     assert.equal(host.querySelector('.dp-triage-line').textContent, '13 advisories · 0 decided · 13 still to look at');
     assert.equal(host.querySelectorAll('.dp-decision--undecided').length, 10);
-    assert.match(host.querySelector('.dp-note').textContent, /Nobody has made those decisions for this wallet yet/);
+    assert.match(host.querySelector('.dp-note').textContent, /Nobody has made those statements for this wallet's advisories yet/);
     assert.equal(host.querySelector('.dp-eco'), null, 'one ecosystem: no tag on the package');
     assert.match(host.querySelector('.dp-note').textContent, /300 in the app, 90 in the build tooling, 10 only in tests, and 12 the files do not say/);
     assert.equal(host.querySelector('.dp-badge').textContent, 'Measurement only · not part of the verdict');
@@ -89,25 +89,59 @@ describe('dependencies panel', () => {
     assert.equal(empty.hidden, true);
   });
 
-  test('a triage file paints decisions, sorts dismissed rows after open ones and counts the queue', async () => {
-    const triage = { schema: 1, appId: 'app.android', decisions: [
-      { advisory: 'GHSA-crit', status: 'not_affected', justification: 'never reached', by: 'Leo', date: '2026-10-16', developer: { status: 'not_affected', url: 'https://dev/vex.json' } },
-      { advisory: 'GHSA-test', status: 'affected', justification: 'postinstall runs on the build machine' },
+  test('a triage file paints decisions from the direct users\' statements, sorts dismissed rows after open ones and counts the queue', async () => {
+    const me = 'a'.repeat(64);
+    let n = 0;
+    const statement = (vulns, extra) => ({ id: String(++n), pubkey: me, created_at: 1, d: `${vulns[0]}|${n}`, vulns, package: 'npm:pkg', via: null, app: null, justification: null, versions: null, content: '', ...extra });
+    const triage = { schema: 3, appId: 'app.android', trusted: [me], statements: [
+      statement(['GHSA-crit'], { via: 'npm:alib', status: 'not_affected', justification: 'vulnerable_code_not_in_execute_path', content: 'alib never calls parse()' }),
+      statement(['GHSA-test'], { app: 'app.android', status: 'affected', content: 'postinstall runs on the build machine' }),
+      statement(['GHSA-high'], { via: 'npm:one', status: 'not_affected' }),
+      statement(['GHSA-mod-0'], { via: 'npm:zlib', status: 'fixed', pubkey: 'b'.repeat(64) }),
     ] };
-    const { fetchImpl, calls } = fakeFetch({ '/x/apps/app.ios.json': { schema: 1, appId: 'app.android', alias: true }, '/x/apps/app.android.json': APP, '/x/triage/app.android.json': triage });
+    const app = { ...APP, releases: [{ ...APP.releases[0], advisories: APP.releases[0].advisories.map(a => (
+      a.id === 'GHSA-crit' ? { ...a, direct: false, dependants: ['alib'] }
+        : a.id === 'GHSA-high' ? { ...a, direct: false, dependants: ['one', 'two'] }
+          : a.id === 'GHSA-mod-0' ? { ...a, direct: false, dependants: ['zlib'] } : a)) }] };
+    const { fetchImpl, calls } = fakeFetch({ '/x/apps/app.ios.json': { schema: 1, appId: 'app.android', alias: true }, '/x/apps/app.android.json': app, '/x/triage/app.android.json': triage });
     const host = document.createElement('div');
     const model = await renderDependenciesPanel({ host, appId: 'app.ios', base: '/x', fetchImpl });
-    assert.deepEqual(calls.slice(2), ['/x/triage/app.ios.json', '/x/triage/app.android.json'], 'the page\'s id first, then the analysis id');
-    assert.deepEqual(model.triage, { total: 13, decided: 2, undecided: 11, affected: 1, not_affected: 1, fixed: 0, under_investigation: 0 });
-    assert.equal(host.querySelector('.dp-triage-line').textContent, '13 advisories · 2 decided · 1 affected · 1 not affected · 11 still to look at');
+    assert.deepEqual(calls.slice(2), ['/x/triage/app.ios.json', '/x/triage/app.android.json', '/x/signals.json'], 'the page\'s id first, then the analysis id, then the signals');
+    assert.deepEqual(model.triage, { total: 13, decided: 2, undecided: 11, affected: 1, not_affected: 1, fixed: 0, under_investigation: 0, partial: 1, community: 1 });
+    assert.equal(host.querySelector('.dp-triage-line').textContent, '13 advisories · 2 decided · 1 affected · 1 not affected · 11 still to look at (1 partly)');
     const rows = [...host.querySelectorAll('tbody tr')];
     assert.deepEqual(rows.slice(0, 3).map(r => r.querySelector('td a').textContent), ['GHSA-crit', 'GHSA-test', 'GHSA-high'], 'critical first; within high the affected row before the undecided one');
     const first = rows[0].querySelector('.dp-td-decision');
     assert.equal(first.querySelector('.dp-decision').textContent, 'not affected');
-    assert.equal(first.querySelector('.dp-decision__dev a').getAttribute('href'), 'https://dev/vex.json');
-    assert.equal(first.querySelector('.dp-decision__why').textContent, 'never reached (Leo, 2026-10-16)');
+    assert.equal(first.querySelector('.dp-decision__why').textContent, 'via alib: vulnerable code never executed (not affected, aaaaaaaa…)');
+    assert.equal(rows[0].querySelector('.dp-via').textContent, 'via alib');
     assert.equal(rows[1].querySelector('.dp-decision').textContent, 'affected');
-    assert.match(host.querySelector('.dp-note').textContent, /our call so far, 2 of 13 advisories/);
+    assert.equal(rows[1].querySelector('.dp-decision__why').textContent, 'this wallet: postinstall runs on the build machine (affected, aaaaaaaa…)');
+    assert.equal(rows[1].querySelector('.dp-via').textContent, 'imported by the wallet');
+    const partly = rows[2].querySelector('.dp-td-decision');
+    assert.equal(partly.querySelector('.dp-decision').textContent, '–');
+    assert.equal(partly.querySelector('.dp-decision__why').textContent, '1 of 2 direct users judged');
+    const community = rows.find(r => r.querySelector('td a').textContent === 'GHSA-mod-0');
+    assert.equal(community.querySelector('.dp-decision').textContent, '–', 'an author outside the trusted list settles nothing');
+    assert.equal(community.querySelector('.dp-decision__community').textContent, '1 community statement');
+    assert.match(host.querySelector('.dp-note').textContent, /2 of 13 advisories settled that way/);
+  });
+
+  test('signals paint "exploited in the wild" and EPSS under the severity and reorder within a severity', async () => {
+    const signals = { schema: 1, date: '2026-10-16', epss: { 'CVE-A': [0.0052, 0.43], 'CVE-B': [0.3, 0.99] }, kev: { 'CVE-B': { added: '2024-01-01' } } };
+    const app = { ...APP, releases: [{ ...APP.releases[0], advisories: APP.releases[0].advisories.map(a => (
+      a.id === 'GHSA-high' ? { ...a, aliases: ['CVE-A'] } : a.id === 'GHSA-test' ? { ...a, aliases: ['CVE-B'] } : a)) }] };
+    const { fetchImpl } = fakeFetch({ '/x/apps/app.android.json': app, '/x/signals.json': signals });
+    const host = document.createElement('div');
+    const model = await renderDependenciesPanel({ host, appId: 'app.android', base: '/x', fetchImpl });
+    assert.deepEqual(model.signals, { date: '2026-10-16', exploited: 1, withEpss: 2 });
+    const rows = [...host.querySelectorAll('tbody tr')];
+    assert.deepEqual(rows.slice(0, 3).map(r => r.querySelector('td a').textContent), ['GHSA-crit', 'GHSA-test', 'GHSA-high'], 'the exploited high row before the other high row');
+    assert.equal(rows[1].querySelector('.dp-kev').textContent, 'exploited in the wild');
+    assert.equal(rows[1].querySelector('.dp-epss').textContent, 'EPSS 30 %');
+    assert.equal(rows[2].querySelector('.dp-epss').textContent, 'EPSS 0.5 %');
+    assert.equal(rows[0].querySelector('.dp-epss'), null);
+    assert.match(host.querySelector('.dp-note').textContent, /EPSS is the published probability/);
   });
 
   test('an unreachable export leaves the host untouched', async () => {
