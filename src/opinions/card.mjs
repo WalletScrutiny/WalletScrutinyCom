@@ -7,7 +7,7 @@ import { parseMarkdownToSafeHtml } from '../marked-loader.mjs';
 import { formatCommentDate } from '../assets-table-utils.mjs';
 import { getProfileDisplayName, getProfileImageUrl, PROFILE_PLACEHOLDER_IMAGE, profileImageFallback } from '../nostr-profile.mjs';
 import { wsIcon } from '../icon.mjs';
-import { opinionKind, njumpUrl } from './constants.mjs';
+import { opinionKind, njumpUrl, SENTIMENT_LABELS } from './constants.mjs';
 import { countThread, emptyReactionTally, getSentiment, isEdited, stripOpinionWrapper, zapstoreCommentVersion } from './content.mjs';
 import { approvedIcon, replyIcon, sentimentIcon, thumbsDownIcon, thumbsUpIcon } from './icons.mjs';
 import { createReplyEditor } from './editor.mjs';
@@ -95,14 +95,16 @@ export function renderCard(ctx, event, { opinion = event, depth = 0 } = {}) {
     dataset: { eventId: event.id, source: ctx.source ?? 'walletscrutiny' },
   });
 
-  // Header: sentiment, author, time.
+  // Header: author, sentiment ("Positive opinion" after a separator), time.
   const top = el('div', { className: 'opinion-card__top' });
   const left = el('div', { className: 'opinion-card__author-row' });
+  left.appendChild(renderAuthor(ctx, event.pubkey));
   const sentiment = isOpinion ? getSentiment(event) : null;
   if (sentiment) {
-    left.appendChild(el('span', { className: 'opinion-card__sentiment', title: 'Sentiment', html: sentimentIcon(sentiment) }));
+    const label = el('span', { className: 'opinion-card__sentiment', html: sentimentIcon(sentiment) });
+    label.appendChild(el('span', {}, `${SENTIMENT_LABELS[sentiment]} opinion`));
+    left.appendChild(label);
   }
-  left.appendChild(renderAuthor(ctx, event.pubkey));
   const meta = el('span', { className: 'opinion-card__meta' });
   const version = ctx.source === 'zapstore' ? renderVersion(event) : null;
   if (version) {

@@ -30,6 +30,7 @@ test.describe('Community opinions', () => {
     await expect(cards.first()).toBeVisible({ timeout: NOSTR_DATA_TIMEOUT_MS });
     await expect(cards.first().locator('.opinion-card__content')).not.toBeEmpty();
     await expect(cards.first().locator('.opinion-card__approved')).toBeVisible();
+    await expect(cards.first().locator('.opinion-card__sentiment')).toHaveText(/^(Positive|Neutral|Negative) opinion$/);
     await expect(cards.first().locator('.opinion-card__meta a')).toHaveAttribute('href', /njump\.me/);
 
     assertNoConsoleErrors();

@@ -219,6 +219,14 @@ body.dark .opinion-card--reply {
 
 .opinion-card__sentiment {
   display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  margin-left: 0.25em;
+  padding-left: 0.75em;
+  border-left: 1px solid var(--neutral-5);
+  font-size: 0.9em;
+  color: var(--neutral-2);
+  white-space: nowrap;
 }
 
 .opinion-card__author {
