@@ -47,6 +47,7 @@ test('buildApp: releases newest first with summary, advisories, diff and provena
   assert.deepEqual(latest.vulnerabilities.bySeverity, { malicious: 0, critical: 0, high: 1, moderate: 0, low: 0, unknown: 0 });
   assert.equal(latest.advisories[0].id, 'GHSA-aaaa');
   assert.deepEqual(latest.advisories[0].fixed, ['1.0.2']);
+  assert.deepEqual([latest.advisories[0].products, latest.advisories[0].productsSameVersion], [2, 2], 'a@1.0.1 is shipped by app.android and app.other');
   assert.deepEqual(latest.diffFrom, { ref: 'v1.0.0', added: 1, removed: 1, changed: 1, integrityChangedAtSameVersion: [] });
   assert.equal(previous.diffFrom, undefined);
   assert.equal(previous.dependencies.dev, 1);

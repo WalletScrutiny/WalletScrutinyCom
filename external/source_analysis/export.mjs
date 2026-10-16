@@ -5,7 +5,7 @@
 // small at the top and detailed below, so a reader fetches only what it shows:
 //
 //   index.json                          every analysed app with its latest analysis summary
-//   apps/<appId>.json                   all analyses of one app, with advisories and the diff to the previous release
+//   apps/<appId>.json                   all analyses of one app, with advisories (each with how many products ship the package) and the diff to the previous release
 //   apps/<aliasId>.json                 stub {appId, alias: true} for the repository's other app ids (the iPhone record)
 //   apps/<appId>/<ref>/dependencies.json  the full resolved dependency list of one release, each row with how many products ship the package
 //   packages/index.json                 every package shipped by two or more products, with the products per version
@@ -90,7 +90,8 @@ function releasesWithoutAnalysis(db, appId, analyses) {
 }
 
 // Everything the export says about one app.
-export function buildApp(db, appId, aliases = []) {
+// counts: productCounts(db), passed in by exportAll so the two queries run once per export.
+export function buildApp(db, appId, aliases = [], counts = productCounts(db)) {
   const analyses = getAnalyses(db, appId);
   const releases = [];
   const seen = new Set();
@@ -112,6 +113,8 @@ export function buildApp(db, appId, aliases = []) {
       summary: v.summary, ecosystem: v.ecosystem, package: v.name, version: v.dep_version,
       direct: v.direct === null ? null : v.direct === 1, dev: v.dev === null ? null : v.dev === 1,
       scope: scopeOfRow(v) === 'unknown' ? null : scopeOfRow(v),
+      products: counts.byName.get(`${v.ecosystem}:${v.name}`) || 1,
+      productsSameVersion: counts.byVersion.get(`${v.ecosystem}:${v.name}@${v.dep_version}`) || 1,
     }));
     if (previous) {
       const d = diffDependencies(db, appId, previous.ref, r.ref);
@@ -208,7 +211,7 @@ export function exportAll(db, outDir, { generatedAt = new Date().toISOString(), 
   const counts = productCounts(db);
   let releases = 0;
   for (const appId of [...appIds].sort()) {
-    const app = buildApp(db, appId, aliases.get(appId) || []);
+    const app = buildApp(db, appId, aliases.get(appId) || [], counts);
     const appDir = path.join(tmp, 'apps', safeName(appId));
     fs.mkdirSync(appDir, { recursive: true });
     fs.writeFileSync(path.join(tmp, 'apps', `${safeName(appId)}.json`), JSON.stringify(app));

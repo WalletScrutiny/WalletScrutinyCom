@@ -129,11 +129,19 @@ with 412 advisories next to one with 0 reads as a ranking, and the moment
 readers rank by it, developers get pressured to justify every package they
 decided not to update. Many of those decisions are correct. A critical
 advisory can be "not worth updating" when the vulnerable code is never
-reached, or when the package comes from a vendor the platform already trusts:
-`com.google.gms:google-services` on an Android phone adds nothing to what
-Google can already do through the operating system, unless the phone runs
-GrapheneOS. The triage file records that as a "not affected" decision with
-the reason, it is not special-cased in the scanner.
+reached, or when the flaw needs a position an attacker does not have in this
+product. Who made the package is not such a reason: a bug in a Google library
+is exploitable by anyone who finds it, the vendor's standing says nothing
+about that (Leo, 2026-10-16). The vendor argument belongs to the closed-source
+rule above, where the question is trust in code nobody can read. Either way
+the triage file records the decision with its reason; nothing is special-cased
+in the scanner.
+
+Next to each advisory the panel shows "Used by": how many of the checked
+wallets ship the package in any version, and how many this exact version
+(`products` / `productsSameVersion` on every advisory and dependency row of
+the export). A package shared by twenty wallets is a shared risk, not a
+finding against one of them, and the number also says where a fix helps most.
 
 Rules that follow:
 
