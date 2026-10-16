@@ -142,6 +142,64 @@ body.dark .dp-panel {
   .dp-td-products {
     white-space: nowrap;
   }
+
+  .dp-td-decision {
+    white-space: normal;
+    min-width: 14em;
+  }
+}
+
+// "412 advisories · 0 decided · 412 still to look at"
+.dp-triage-line {
+  margin: 0 0 6px;
+  font-size: $font-xs;
+  color: var(--neutral-3);
+}
+
+.dp-decision {
+  display: inline-block;
+  font-size: $font-xxs;
+  font-weight: 700;
+  border: 1px solid var(--neutral-5);
+  border-radius: 999px;
+  padding: 1px 8px;
+  color: var(--neutral-2);
+
+  &--affected {
+    border-color: #c0392b;
+    color: #c0392b;
+  }
+
+  &--not_affected,
+  &--fixed {
+    border-color: var(--success, #1e8449);
+    color: var(--success, #1e8449);
+  }
+
+  &--under_investigation {
+    border-color: #d68910;
+    color: #d68910;
+  }
+
+  &--undecided {
+    border: 0;
+    padding: 0;
+    font-weight: 400;
+    color: var(--neutral-3);
+  }
+}
+
+.dp-decision__dev,
+.dp-decision__who {
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+}
+
+.dp-decision__why {
+  font-size: $font-xxs;
+  color: var(--neutral-2);
+  margin-top: 2px;
+  max-width: 28em;
 }
 
 // "· 3 this version" after the wallet count, and "only this wallet"

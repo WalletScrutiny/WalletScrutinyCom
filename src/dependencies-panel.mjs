@@ -8,6 +8,7 @@ import { el } from './html-utils.mjs';
 import {
   panelModel, whereOf, whereLabel, safeName, csvOf, SEVERITY_ORDER, SEVERITY_LABEL,
 } from './dependencies-panel-model.mjs';
+import { TRIAGE_LABEL, triageStateOf } from './dependency-triage.mjs';
 
 // Where the export is served from. The transport (proxy on walletscrutiny.com,
 // Blossom blobs, rsync) is decided outside this module; only this constant moves.
@@ -34,6 +35,17 @@ export async function loadApp(appId, { base = EXPORT_BASE, fetchImpl = globalThi
     return fetchJson(`${base}/apps/${safeName(first.appId)}.json`, fetchImpl);
   }
   return first;
+}
+
+// The wallet's triage file (scripts/build-dependency-triage.mjs output), or
+// null when nobody has decided anything for it. Tried for the page's own app
+// id first, then the id the analysis is stored under (the alias hop in loadApp).
+export async function loadTriage(appIds, { base = EXPORT_BASE, fetchImpl = globalThis.fetch } = {}) {
+  for (const id of [...new Set(appIds.filter(Boolean))]) {
+    const triage = await fetchJson(`${base}/triage/${safeName(id)}.json`, fetchImpl);
+    if (triage) return triage;
+  }
+  return null;
 }
 
 function severityPill(severity) {
@@ -76,7 +88,39 @@ function advisoryRow(a, { mixedEcosystems = false } = {}) {
     el('td', {}, severityPill(a.severity)),
     el('td', {}, el('span', { className: `dp-where dp-where--${where}` }, whereLabel(a))),
     el('td', { className: 'dp-td-products' }, usedBy(a)),
+    el('td', { className: 'dp-td-decision' }, decisionCell(a)),
   );
+}
+
+// Our call on the advisory, with the one-line reason under it; "–" while
+// nobody has looked. A developer's own statement is shown beside ours.
+export function decisionCell(a) {
+  const state = triageStateOf(a);
+  const d = a.decision;
+  if (!d) return el('span', { className: 'dp-decision dp-decision--undecided', title: 'Nobody has looked at this advisory for this wallet yet' }, '–');
+  const bits = [el('span', { className: `dp-decision dp-decision--${state}` }, TRIAGE_LABEL[state])];
+  if (d.developer?.status) {
+    bits.push(el('span', { className: 'dp-decision__dev', title: d.developer.justification || '' },
+      ' developer: ',
+      d.developer.url ? el('a', { href: d.developer.url, target: '_blank', rel: 'noopener noreferrer' }, TRIAGE_LABEL[d.developer.status]) : TRIAGE_LABEL[d.developer.status],
+    ));
+  }
+  bits.push(el('div', { className: 'dp-decision__why' }, d.justification, d.by || d.date ? el('span', { className: 'dp-decision__who' }, ` (${[d.by, d.date].filter(Boolean).join(', ')})`) : null));
+  return el('div', {}, bits);
+}
+
+// "412 advisories · 0 decided · 412 to look at" above the table: the triage
+// work queue, so a long list is never mistaken for a finished one.
+function triageLine(model) {
+  const t = model.triage;
+  if (!t || !t.total) return null;
+  const parts = [`${t.total} ${t.total === 1 ? 'advisory' : 'advisories'}`, `${t.decided} decided`];
+  if (t.affected) parts.push(`${t.affected} affected`);
+  if (t.not_affected) parts.push(`${t.not_affected} not affected`);
+  if (t.fixed) parts.push(`${t.fixed} fixed`);
+  if (t.under_investigation) parts.push(`${t.under_investigation} under investigation`);
+  parts.push(t.undecided ? `${t.undecided} still to look at` : 'nothing left to look at');
+  return el('p', { className: 'dp-triage-line' }, parts.join(' · '));
 }
 
 // "25 · 3 this version": how many of the checked wallets ship the package at
@@ -96,11 +140,11 @@ function advisoryTable(model) {
   const body = el('tbody', {}, model.worst.map(a => advisoryRow(a, rowOptions)));
   const table = el('table', { className: 'dp-table' },
     el('thead', {}, el('tr', {},
-      ['Package', 'Version', 'Advisory', 'Severity', 'Where?', 'Used by'].map(h => el('th', {}, h)),
+      ['Package', 'Version', 'Advisory', 'Severity', 'Where?', 'Used by', 'Decision'].map(h => el('th', {}, h)),
     )),
     body,
   );
-  const wrap = el('div', { className: 'dp-table-wrap' }, table);
+  const wrap = el('div', { className: 'dp-table-wrap' }, triageLine(model), table);
   if (rest.length) {
     const more = el('button', { type: 'button', className: 'btn-small dp-more' }, `Show all ${model.advisories.length} advisories`);
     more.addEventListener('click', () => {
@@ -145,7 +189,14 @@ function howToRead(model) {
   parts.push('"Could not be checked" means the package has no exact registry version to look up');
   if (model.uncheckedBreakdown.length) parts.push(` (${model.uncheckedBreakdown.map(u => `${u.count} ${u.label}`).join(', ')})`);
   parts.push(', so it is not the same as "no problems". Results are a snapshot from the check date; new advisories may appear later. ');
-  parts.push('A listed advisory is not a defect in the wallet: it says that a version with a published advisory is present, nothing more. Leaving such a version in place can be the right call, when the vulnerable code is never reached or the flaw needs a position an attacker does not have here; that is a decision per advisory, and nobody has made those yet. We do not rank wallets by this number. ');
+  parts.push('A listed advisory is not a defect in the wallet: it says that a version with a published advisory is present, nothing more. Leaving such a version in place can be the right call, when the vulnerable code is never reached or the flaw needs a position an attacker does not have here; that is a decision per advisory. ');
+  const t = model.triage;
+  if (t && t.total) {
+    parts.push(t.decided
+      ? `The "Decision" column is our call so far, ${t.decided} of ${t.total} advisories, each with its reason; the rest nobody has looked at yet. `
+      : 'Nobody has made those decisions for this wallet yet, which is what the empty "Decision" column says. ');
+  }
+  parts.push('We do not rank wallets by this number. ');
   if (model.byScope) {
     const b = model.byScope;
     parts.push(`"Where?" says where a package ends up: ${b.app} in the app, ${b.build} in the build tooling, ${b.tests} only in tests`);
@@ -222,13 +273,15 @@ export function panelElement(model, { appId, base = EXPORT_BASE, fetchImpl = glo
 export async function renderDependenciesPanel({ host, appId, storeVersion = '', base = EXPORT_BASE, fetchImpl = globalThis.fetch }) {
   if (!host || !appId) return null;
   let app = null;
+  let triage = null;
   try {
     app = await loadApp(appId, { base, fetchImpl });
+    if (app) triage = await loadTriage([appId, app.appId], { base, fetchImpl });
   } catch (error) {
     console.warn('Dependencies panel: export not reachable', error);
     return null;
   }
-  const model = panelModel(app, { storeVersion });
+  const model = panelModel(app, { storeVersion, triage });
   if (!model) {
     host.hidden = true;
     return null;
