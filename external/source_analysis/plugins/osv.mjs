@@ -245,6 +245,7 @@ function findingsFor(q, ids, details) {
       direct: q.rows.some(r => r.direct === true) ? true : (q.rows.some(r => r.direct === false) ? false : null),
       dev: q.rows.every(r => r.dev === true) ? true : (q.rows.some(r => r.dev === false) ? false : null),
       scope: scopeOfRows(q.rows),
+      dependants: dependantsOfRows(q.rows),
       lockfiles: [...new Set(q.rows.map(r => r.lockfile))],
     });
   }
@@ -259,6 +260,14 @@ function findingsFor(q, ids, details) {
  */
 // The widest scope among the rows of one package version: 'app' if any row
 // ships, else 'build' if any row is build tooling, else 'tests', else null.
+// The union of the rows' dependants (who requires this package version, one
+// hop up); null when no row knows.
+export function dependantsOfRows(rows) {
+  const known = rows.filter(r => Array.isArray(r.dependants));
+  if (!known.length) return null;
+  return [...new Set(known.flatMap(r => r.dependants))].sort();
+}
+
 export function scopeOfRows(rows) {
   const scopes = new Set(rows.map(r => r.scope ?? (r.dev === true ? 'build' : r.dev === false ? 'app' : null)));
   for (const s of ['app', 'build', 'tests']) if (scopes.has(s)) return s;

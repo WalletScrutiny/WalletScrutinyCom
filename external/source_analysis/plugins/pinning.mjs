@@ -66,8 +66,50 @@ function makeEntry(ecosystem, lockfile, fields) {
     direct: fields.direct ?? null,
     dev: fields.dev ?? null,
     scope: fields.scope ?? scopeOf(fields),
+    // The packages that require this one, by name, one hop up (`alib` for
+    // alib -> blib); the project's own manifests are not listed, `direct`
+    // says that. null when the files do not record the graph.
+    dependants: fields.dependants ? [...new Set(fields.dependants)].sort() : null,
     tier: fields.tier,
   };
+}
+
+/**
+ * Who requires whom in a package-lock v2/v3 `packages` map, resolved the way
+ * node does: a name asked for by `node_modules/a/node_modules/b` is looked up
+ * in b's own node_modules, then a's, then the top level. Returns
+ * key -> Set of dependant names; roots and workspaces (keys without
+ * node_modules) are dependants of nothing listed, `direct` covers them.
+ */
+export function npmLockDependants(packages) {
+  const dependants = new Map();
+  for (const [key, entry] of Object.entries(packages)) {
+    if (key.includes('node_modules/') && !entry.link) dependants.set(key, new Set());
+  }
+  // The places a name asked for from `key` can live, nearest first:
+  // key/node_modules, then each enclosing package's node_modules, then the top.
+  const basesOf = (key) => {
+    const bases = [key];
+    let cur = key;
+    while (cur.includes('node_modules/')) {
+      cur = cur.replace(/\/?node_modules\/(@[^/]+\/)?[^/]+$/, '');
+      bases.push(cur);
+    }
+    if (bases[bases.length - 1] !== '') bases.push('');
+    return bases;
+  };
+  for (const [key, entry] of Object.entries(packages)) {
+    if (!key.includes('node_modules/') || entry.link) continue; // roots and workspaces: `direct` covers them
+    const by = key.replace(/^.*node_modules\//, '');
+    const names = Object.keys({ ...(entry.dependencies || {}), ...(entry.optionalDependencies || {}), ...(entry.peerDependencies || {}) });
+    for (const name of names) {
+      for (const base of basesOf(key)) {
+        const candidate = `${base ? `${base}/` : ''}node_modules/${name}`;
+        if (dependants.has(candidate)) { dependants.get(candidate).add(by); break; }
+      }
+    }
+  }
+  return dependants;
 }
 
 /**
@@ -174,6 +216,20 @@ function parseYarnLock(text) {
  * root reaches (stale entries, workspaces the manifests do not cover) get no
  * answer.
  */
+// entry -> Set of names of the entries whose `dependencies:` resolve to it.
+export function yarnDependants(entries) {
+  const byRequest = new Map();
+  for (const e of entries) for (const r of e.ranges) byRequest.set(`${e.name}@${r}`, e);
+  const dependants = new Map(entries.map(e => [e, new Set()]));
+  for (const e of entries) {
+    for (const [name, range] of Object.entries(e.dependencies || {})) {
+      const target = byRequest.get(`${name}@${range}`);
+      if (target && target !== e) dependants.get(target).add(e.name);
+    }
+  }
+  return dependants;
+}
+
 export function yarnScopes(entries, manifests) {
   const byRequest = new Map(); // "name@range" -> entry
   for (const e of entries) for (const r of e.ranges) byRequest.set(`${e.name}@${r}`, e);
@@ -239,20 +295,35 @@ function analyzeNpm(repoPath) {
         .filter(([key, entry]) => !key.includes('node_modules/') && !entry.link)
         .map(([, entry]) => entry);
       declared = declaredNpmDeps(roots.length ? roots : allManifests);
+      const dependants = npmLockDependants(lock.packages);
       for (const [key, entry] of Object.entries(lock.packages)) {
         if (!key.includes('node_modules/') || entry.link) continue; // root / workspaces / links
         const name = key.replace(/^.*node_modules\//, '');
-        entries.push({ name, nested: /node_modules\/.*node_modules\//.test(key), ...entry });
+        entries.push({ name, nested: /node_modules\/.*node_modules\//.test(key), ...entry, dependants: [...(dependants.get(key) || [])] });
       }
     } else if (lock.dependencies) {
       declared = declaredBeside(lockFile, allManifests);
-      const walk = (deps, depth) => {
+      // v1 nests what a package needs under it (`dependencies`) and names
+      // what it requires (`requires`); a required name resolves to the
+      // nearest enclosing level that has it.
+      const nodes = [];
+      const walk = (deps, chain) => {
         for (const [name, entry] of Object.entries(deps)) {
-          entries.push({ name, nested: depth > 0, ...entry });
-          if (entry.dependencies) walk(entry.dependencies, depth + 1);
+          const node = { name, nested: chain.length > 0, ...entry, dependants: [] };
+          nodes.push({ node, entry, chain });
+          if (entry.dependencies) walk(entry.dependencies, [...chain, { entry, node }]);
         }
       };
-      walk(lock.dependencies, 0);
+      walk(lock.dependencies, []);
+      const nodeOf = new Map(nodes.map(n => [n.entry, n.node]));
+      for (const { node, entry, chain } of nodes) {
+        for (const name of Object.keys(entry.requires || {})) {
+          const levels = [entry.dependencies || {}, ...[...chain].reverse().map(c => c.entry.dependencies || {}), lock.dependencies];
+          const target = levels.map(l => l[name]).find(Boolean);
+          if (target && nodeOf.has(target)) nodeOf.get(target).dependants.push(node.name);
+        }
+      }
+      entries.push(...nodes.map(n => n.node));
     } else {
       continue;
     }
@@ -276,6 +347,7 @@ function analyzeNpm(repoPath) {
         integrity: entry.integrity,
         direct: declared.has(entry.name) && !entry.nested,
         dev: entry.dev === true, // lockfile v1-v3 mark packages reachable only through devDependencies
+        dependants: entry.dependants,
         tier: entry.integrity ? 'hash-pinned' : 'version-pinned',
       }));
     }
@@ -289,7 +361,10 @@ function analyzeNpm(repoPath) {
     const declared = declaredNpmDeps(roots);
     const parsed = parseYarnLock(text);
     const scopes = yarnScopes(parsed, roots);
-    for (const { ranges, dependencies, ...e } of parsed) {
+    const dependants = yarnDependants(parsed);
+    for (const parsedEntry of parsed) {
+      const { ranges, dependencies, ...e } = parsedEntry;
+      e.dependants = [...(dependants.get(parsedEntry) || [])];
       // yarn.lock keeps every requested range per resolution, so the direct
       // one is the resolution whose ranges include what the manifest asked for
       const direct = declared.has(e.name) && ranges.includes(declared.get(e.name).range);
@@ -645,6 +720,7 @@ function analyzeCargo(repoPath) {
     // list is the declared (direct) set, everything else is transitive.
     const direct = new Set(blocks.filter(b => !b.source).flatMap(b => b.dependencies.map(d => d.split(' ')[0])));
     const scopes = cargoScopes(blocks, cargoManifests(path.dirname(lockFile)));
+    const dependants = cargoDependants(blocks);
     for (const block of blocks) {
       result.deps.total++;
       if (block.checksum) result.deps.hashPinned++;
@@ -661,6 +737,7 @@ function analyzeCargo(repoPath) {
         direct: direct.has(block.name),
         dev: scopes.has(block) ? scopes.get(block) !== 'app' : null,
         scope: scopes.get(block) ?? null,
+        dependants: [...dependants.get(block)],
         tier: block.checksum ? 'hash-pinned' : (block.source.startsWith('git+') ? 'source-ref-pinned' : 'version-pinned'),
       }));
     }
@@ -676,6 +753,29 @@ function analyzeCargo(repoPath) {
  * and their [dependencies.<name>] sub-tables. Not a TOML parser: enough for
  * the shapes manifests in the wild use.
  */
+// block -> Set of names of the crates that depend on it; the workspace's own
+// crates (no source) are not listed, `direct` covers them. A spec is
+// "name", "name 1.2.3" or "name 1.2.3 (source)": the version tells two
+// resolutions of one name apart.
+export function cargoDependants(blocks) {
+  const byName = new Map();
+  for (const b of blocks) {
+    if (!byName.has(b.name)) byName.set(b.name, []);
+    byName.get(b.name).push(b);
+  }
+  const dependants = new Map(blocks.map(b => [b, new Set()]));
+  for (const b of blocks) {
+    if (!b.source) continue;
+    for (const spec of b.dependencies) {
+      const [name, version] = spec.split(' ');
+      const candidates = byName.get(name) || [];
+      const target = candidates.length === 1 ? candidates[0] : candidates.find(c => c.version === version);
+      if (target && target !== b) dependants.get(target).add(b.name);
+    }
+  }
+  return dependants;
+}
+
 export function cargoManifests(dir) {
   const manifests = new Map();
   for (const file of findFiles(dir, (name) => name === 'Cargo.toml')) {

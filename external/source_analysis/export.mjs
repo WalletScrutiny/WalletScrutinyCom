@@ -19,7 +19,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { groupByRepository } from './appList.mjs';
-import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies } from './ddbbUtils.mjs';
+import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow } from './ddbbUtils.mjs';
 
 export const SCHEMA = 1;
 const SEVERITIES = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown'];
@@ -113,6 +113,7 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db)) {
       summary: v.summary, ecosystem: v.ecosystem, package: v.name, version: v.dep_version,
       direct: v.direct === null ? null : v.direct === 1, dev: v.dev === null ? null : v.dev === 1,
       scope: scopeOfRow(v) === 'unknown' ? null : scopeOfRow(v),
+      dependants: dependantsOfRow(v.dependants),
       products: counts.byName.get(`${v.ecosystem}:${v.name}`) || 1,
       productsSameVersion: counts.byVersion.get(`${v.ecosystem}:${v.name}@${v.dep_version}`) || 1,
     }));
@@ -223,6 +224,7 @@ export function exportAll(db, outDir, { generatedAt = new Date().toISOString(), 
           ecosystem: d.ecosystem, name: d.name, version: d.dep_version, lockfile: d.lockfile, tier: d.tier,
           direct: d.direct === null ? null : d.direct === 1, dev: d.dev === null ? null : d.dev === 1,
           scope: scopeOfRow(d) === 'unknown' ? null : scopeOfRow(d),
+          dependants: dependantsOfRow(d.dependants),
           resolved: d.resolved || undefined, integrity: d.integrity || undefined,
           products: counts.byName.get(`${d.ecosystem}:${d.name}`) || 1,
           productsSameVersion: counts.byVersion.get(`${d.ecosystem}:${d.name}@${d.dep_version}`) || 1,

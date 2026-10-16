@@ -6,7 +6,7 @@ import fs from 'fs';
 import os from 'os';
 import path from 'path';
 import { analyzePinning } from '../plugins/pinning.mjs';
-import { initDatabase, saveDependencies, getDependencies, diffDependencies, findAppsShipping } from '../ddbbUtils.mjs';
+import { initDatabase, saveDependencies, getDependencies, diffDependencies, findAppsShipping, dependantsOfRow } from '../ddbbUtils.mjs';
 
 function fixture(files) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'pinning-'));
@@ -33,7 +33,7 @@ test('npm package-lock v3: direct/transitive/dev flags and integrity', () => {
       packages: {
         '': { dependencies: { a: '^1.0.0' }, devDependencies: { t: '^2.0.0' } },
         'node_modules/a': { version: '1.2.3', resolved: 'https://registry.npmjs.org/a/-/a-1.2.3.tgz', integrity: 'sha512-AAA' },
-        'node_modules/b': { version: '0.1.0', resolved: 'https://registry.npmjs.org/b/-/b-0.1.0.tgz', integrity: 'sha512-BBB' },
+        'node_modules/b': { version: '0.1.0', resolved: 'https://registry.npmjs.org/b/-/b-0.1.0.tgz', integrity: 'sha512-BBB', dependencies: { a: '^0.5.0' } },
         'node_modules/t': { version: '2.0.0', resolved: 'https://registry.npmjs.org/t/-/t-2.0.0.tgz', dev: true },
         'node_modules/b/node_modules/a': { version: '0.5.0', resolved: 'https://registry.npmjs.org/a/-/a-0.5.0.tgz', integrity: 'sha512-A0' },
       },
@@ -45,9 +45,12 @@ test('npm package-lock v3: direct/transitive/dev flags and integrity', () => {
   assert.deepEqual(byName(npm.entries, 'a'), {
     ecosystem: 'npm', lockfile: 'package-lock.json', name: 'a', version: '1.2.3',
     resolved: 'https://registry.npmjs.org/a/-/a-1.2.3.tgz', integrity: 'sha512-AAA',
-    direct: true, dev: false, scope: 'app', tier: 'hash-pinned',
+    direct: true, dev: false, scope: 'app', dependants: [], tier: 'hash-pinned',
   });
   assert.equal(byName(npm.entries, 'b').direct, false);
+  // who requires whom, resolved like node does: b asks for a and gets its nested copy, not the top-level one
+  assert.deepEqual(npm.entries.find(e => e.name === 'a' && e.version === '0.5.0').dependants, ['b']);
+  assert.deepEqual(byName(npm.entries, 'b').dependants, [], 'nothing in the lock requires b; the manifest is not listed');
   assert.equal(byName(npm.entries, 't').dev, true);
   assert.equal(byName(npm.entries, 't').scope, 'build');
   assert.equal(byName(npm.entries, 't').tier, 'version-pinned');
@@ -123,6 +126,11 @@ test('yarn.lock graph walk: app, build, tests, and entries no root reaches', () 
   assert.equal(byName(npm.entries, 'stale').dev, null);
   assert.equal(byName(npm.entries, 'shared').direct, false);
   assert.equal(byName(npm.entries, 'app').integrity, 'sha512-APP');
+  // one hop up: the entries whose dependencies resolve to this one
+  assert.deepEqual(byName(npm.entries, 'shared').dependants, ['app', 'bundler']);
+  assert.deepEqual(byName(npm.entries, 'tool').dependants, ['bundler', 'jest']);
+  assert.deepEqual(byName(npm.entries, '@scope/deep').dependants, ['app']);
+  assert.deepEqual(byName(npm.entries, 'app').dependants, []);
 });
 
 test('yarn berry dependencies blocks and workspaces are walked too', () => {
@@ -149,17 +157,20 @@ test('yarn berry dependencies blocks and workspaces are walked too', () => {
 test('scope is stored, read back, and the column is added to a database that predates it', () => {
   const file = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'pinning-db-')), 'assets.db');
   const legacy = initDatabase(file);
-  legacy.exec('ALTER TABLE app_dependencies DROP COLUMN scope; ALTER TABLE app_vulnerabilities DROP COLUMN scope');
+  legacy.exec('ALTER TABLE app_dependencies DROP COLUMN scope; ALTER TABLE app_vulnerabilities DROP COLUMN scope; ALTER TABLE app_dependencies DROP COLUMN dependants; ALTER TABLE app_vulnerabilities DROP COLUMN dependants');
   legacy.close();
   const db = initDatabase(file);
-  assert.ok(db.prepare('PRAGMA table_info(app_dependencies)').all().some(c => c.name === 'scope'));
-  assert.ok(db.prepare('PRAGMA table_info(app_vulnerabilities)').all().some(c => c.name === 'scope'));
+  for (const column of ['scope', 'dependants']) {
+    assert.ok(db.prepare('PRAGMA table_info(app_dependencies)').all().some(c => c.name === column), column);
+    assert.ok(db.prepare('PRAGMA table_info(app_vulnerabilities)').all().some(c => c.name === column), column);
+  }
   saveDependencies(db, 'app', 'v1', [{ ecosystem: 'npm', entries: [
-    { ecosystem: 'npm', lockfile: 'yarn.lock', name: 'a', version: '1', resolved: '', integrity: '', direct: true, dev: true, scope: 'tests', tier: 'version-pinned' },
-    { ecosystem: 'npm', lockfile: 'yarn.lock', name: 'b', version: '1', resolved: '', integrity: '', direct: null, dev: null, scope: 'nonsense', tier: 'version-pinned' },
+    { ecosystem: 'npm', lockfile: 'yarn.lock', name: 'a', version: '1', resolved: '', integrity: '', direct: true, dev: true, scope: 'tests', dependants: ['z', 'y', 'z'], tier: 'version-pinned' },
+    { ecosystem: 'npm', lockfile: 'yarn.lock', name: 'b', version: '1', resolved: '', integrity: '', direct: null, dev: null, scope: 'nonsense', dependants: null, tier: 'version-pinned' },
   ] }]);
   const rows = getDependencies(db, 'app', 'v1');
   assert.deepEqual(rows.map(r => [r.name, r.scope]), [['a', 'tests'], ['b', null]]);
+  assert.deepEqual(rows.map(r => dependantsOfRow(r.dependants)), [['y', 'z'], null], 'stored as a sorted, deduplicated JSON list, or NULL');
   db.close();
 });
 
