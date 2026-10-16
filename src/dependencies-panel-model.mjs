@@ -3,6 +3,8 @@
 // apps/<appId>.json). Pure functions, no DOM: the renderer in
 // dependencies-panel.mjs only lays these out.
 
+import { applyTriage, TRIAGE_ORDER, triageStateOf, TRIAGE_LABEL } from './dependency-triage.mjs';
+
 export const SEVERITY_ORDER = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown'];
 
 export const SEVERITY_LABEL = {
@@ -55,10 +57,13 @@ export function tagMatchesVersion(ref, storeVersion) {
   return tag === store || tag.split(/[-+]/)[0] === store.split(/[-+]/)[0];
 }
 
-// Advisories as the table shows them: worst first, then by package name.
+// Advisories as the table shows them: worst first; within one severity what
+// still needs a look (affected, undecided) before what was dismissed (not
+// affected, fixed); then by package name.
 export function sortAdvisories(advisories = []) {
   return [...advisories].sort((a, b) =>
     SEVERITY_ORDER.indexOf(a.severity) - SEVERITY_ORDER.indexOf(b.severity)
+    || TRIAGE_ORDER[triageStateOf(a)] - TRIAGE_ORDER[triageStateOf(b)]
     || (a.package || '').localeCompare(b.package || '')
     || (a.id || '').localeCompare(b.id || ''));
 }
@@ -80,9 +85,11 @@ export function uncheckedBreakdown(osv) {
 /**
  * The panel's content for one app file. `storeVersion` is the version the
  * wallet page lists; `release` picks a specific analysed release, else the
- * latest. Returns null when the app has no analysed release.
+ * latest; `triage` is the wallet's decisions file (triage/<appId>.json), or
+ * null when nobody has decided anything yet. Returns null when the app has no
+ * analysed release.
  */
-export function panelModel(app, { storeVersion = '', release = null } = {}) {
+export function panelModel(app, { storeVersion = '', release = null, triage = null } = {}) {
   const releases = Array.isArray(app?.releases) ? app.releases : [];
   // The newest release whose analysis worked; a newer one that failed is reported, not shown.
   const current = (release && releases.find(r => r.ref === release)) || releases.find(r => (r.status || 'ok') === 'ok') || releases[0];
@@ -92,7 +99,8 @@ export function panelModel(app, { storeVersion = '', release = null } = {}) {
   const bySeverity = { ...Object.fromEntries(SEVERITY_ORDER.map(s => [s, 0])), ...(current.vulnerabilities?.bySeverity || {}) };
   const malware = bySeverity.malicious;
   const vulnerabilities = SEVERITY_ORDER.filter(s => s !== 'malicious').reduce((n, s) => n + bySeverity[s], 0);
-  const advisories = sortAdvisories(current.advisories || []);
+  const triaged = applyTriage(current.advisories || [], triage);
+  const advisories = sortAdvisories(triaged.advisories);
   const unchecked = uncheckedCount(current.osv);
 
   return {
@@ -120,6 +128,7 @@ export function panelModel(app, { storeVersion = '', release = null } = {}) {
     vulnerabilitiesByScope: current.vulnerabilities?.byScope || null,
     advisories,
     worst: advisories.slice(0, WORST_ROWS),
+    triage: triaged.summary,
     diff: current.diffFrom || null,
     newerFailed: newerFailed.map(r => ({ ref: r.ref, status: r.status, error: r.error || null })),
     releases: releases.map(r => ({ ref: r.ref, analysedAt: r.analysedAt || null, status: r.status || 'ok' })),
@@ -145,7 +154,7 @@ export function csvOf(dependencies = [], advisories = []) {
     if (!byPackage.has(key)) byPackage.set(key, []);
     byPackage.get(key).push(a);
   }
-  const header = ['ecosystem', 'package', 'version', 'lockfile', 'direct', 'where', 'pinning', 'advisories', 'worst_severity', 'products', 'products_same_version'];
+  const header = ['ecosystem', 'package', 'version', 'lockfile', 'direct', 'where', 'pinning', 'advisories', 'worst_severity', 'products', 'products_same_version', 'decision', 'justification'];
   const lines = [header.join(',')];
   for (const d of dependencies) {
     const hits = byPackage.get(`${d.ecosystem}:${d.name}@${d.version}`) || [];
@@ -159,6 +168,9 @@ export function csvOf(dependencies = [], advisories = []) {
       worst ? worst.severity : '',
       d.products ?? '',
       d.productsSameVersion ?? '',
+      // The worst advisory's decision; a row with several advisories lists each decision in the advisories' order.
+      hits.map(h => TRIAGE_LABEL[h.decision?.status] || 'undecided').join(' '),
+      hits.map(h => h.decision?.justification || '').filter(Boolean).join(' | '),
     ].map(csvCell).join(','));
   }
   return lines.join('\n') + '\n';

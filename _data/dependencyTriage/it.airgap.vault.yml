@@ -1,0 +1,14 @@
+# Dependency triage for it.airgap.vault: for each advisory the Dependencies
+# panel lists, does it affect the product? One entry per advisory id (GHSA, CVE
+# or MAL; aliases match), status one of affected / not_affected / fixed /
+# under_investigation, and one sentence of justification. "Where?" (app, build,
+# tests) informs the call and is shown next to it, but does not make it.
+# A wallet developer's own statement goes under `developer:` and is shown beside
+# ours, never instead of it. Rules: docs/dependency-check.md, "Triage".
+decisions:
+  - advisory: GHSA-67hx-6x53-jw92
+    package: "@babel/traverse"
+    status: under_investigation
+    justification: Build-time compiler; the flaw needs attacker-written source as input, which here is the project's own code. First example entry, to be confirmed or replaced.
+    date: 2026-10-16
+    by: Bob

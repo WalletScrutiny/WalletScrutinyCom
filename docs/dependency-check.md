@@ -56,15 +56,40 @@ product. The industry format for exactly this is VEX (Vulnerability
 Exploitability eXchange): per (product, advisory) one of `affected`,
 `not_affected`, `fixed` or `under_investigation`, with a justification.
 
-Planned shape:
+How it works:
 
-- every advisory starts as undecided; the panel headline counts decided
-  against total, and the undecided count is the work queue;
-- our decisions live as a small YAML file per wallet in the site repository,
-  reviewed like a verdict change, one line of justification each;
-- a wallet developer can hand us their own OpenVEX document; it is shown as
-  "developer says: not affected" next to our call, never instead of it;
+- Our decisions live in `_data/dependencyTriage/<appId>.yml`, one file per
+  wallet, reviewed like a verdict change. One entry per advisory id (GHSA, CVE
+  or MAL; an alias matches too), with `status` and one sentence of
+  `justification`; `package`, `date` and `by` are optional. A wallet
+  developer's own statement (from their OpenVEX document or a reply) goes
+  under `developer:` with its own status, justification and link; the panel
+  shows it next to our call, never instead of it.
+- `scripts/build-dependency-triage.mjs` validates every file during the site
+  build and publishes it as `api/source-analysis/triage/<appId>.json`. A
+  misspelt status, a missing justification or an advisory decided twice fails
+  the build.
+- The panel's "Decision" column shows the call and its reason, and the line
+  above the table counts: "412 advisories · 0 decided · 412 still to look
+  at". The undecided count is the work queue. Within one severity, rows
+  still needing a look (affected, undecided) sort before dismissed ones
+  (not affected, fixed). The CSV carries the decision and justification per
+  row.
 - "Where?" informs the decision and is shown with it, but does not make it.
+  Who made the package is not a reason either, see "No verdict change".
+
+```yaml
+decisions:
+  - advisory: GHSA-67hx-6x53-jw92
+    package: "@babel/traverse"
+    status: not_affected        # affected | not_affected | fixed | under_investigation
+    justification: Build-time compiler; the flaw needs attacker-written source as input.
+    date: 2026-10-16
+    by: Leo
+    developer:                  # optional, what the wallet's developer says
+      status: not_affected
+      url: https://example.com/openvex.json
+```
 
 ## What it does not claim
 
