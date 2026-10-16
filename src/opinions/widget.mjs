@@ -6,7 +6,7 @@
 import { el } from '../html-utils.mjs';
 import { wsIcon } from '../icon.mjs';
 import { showToast } from '../verifications_utils.mjs';
-import { getNostrProfile, getProfileDisplayName, getProfileImageUrl } from '../nostr-profile.mjs';
+import { getNostrProfile, getNostrProfiles, getProfileDisplayName, getProfileImageUrl, hasProfileIdentity } from '../nostr-profile.mjs';
 import { readWidgetConfig } from './config.mjs';
 import {
   showAllConsentStorageKey,
@@ -47,6 +47,8 @@ import { confirmModal } from './modal.mjs';
 import { sentimentIcon } from './icons.mjs';
 
 const GUIDELINES = 'Thank you for contributing your opinion. Please be objective and be polite.';
+const HIDDEN_WITHOUT_PROFILE = 'Published, but only authors with a Nostr profile name or picture are shown here. '
+  + 'Set up your profile and reload the page.';
 
 /** Which list the section shows when both WalletScrutiny opinions and Zapstore comments exist. */
 const SOURCE_WALLETSCRUTINY = 'walletscrutiny';
@@ -135,7 +137,7 @@ export class OpinionsWidget {
       const versions = await fetchOpinions(this.config.subjectKeys);
       const latest = latestOpinionPerAuthor(versions, this.config);
       const { replies, reactions, deletions } = await fetchThreadData(latest);
-      const kept = applyDeletions([...latest, ...replies], deletions);
+      const kept = await this.withProfiles(applyDeletions([...latest, ...replies], deletions));
       this.opinions = kept.filter((event) => latest.includes(event));
       this.replies = kept.filter((event) => replies.includes(event));
       this.rebuildDerived(reactions);
@@ -162,7 +164,7 @@ export class OpinionsWidget {
     }
     try {
       const { comments, deletions } = await fetchZapstoreComments(appId);
-      const kept = applyDeletions(comments, deletions);
+      const kept = await this.withProfiles(applyDeletions(comments, deletions));
       const { roots, replies } = splitZapstoreComments(kept, this.config);
       this.zapstore.roots = roots;
       this.zapstore.tree = buildReplyTree(replies, roots.map((event) => event.id), { kind: zapstoreCommentKind });
@@ -193,6 +195,34 @@ export class OpinionsWidget {
   }
 
   // --- profiles --------------------------------------------------------
+
+  /**
+   * Only authors with a Nostr profile picture or name are shown; the events of
+   * everybody else are dropped here, on both sources, with no way to reveal
+   * them. Profiles are fetched in one batch before the first render.
+   */
+  async withProfiles(events) {
+    await this.resolveProfiles(events.map((event) => event.pubkey));
+    return events.filter((event) => this.isShownAuthor(event.pubkey));
+  }
+
+  async resolveProfiles(pubkeys) {
+    const missing = [...new Set(pubkeys)].filter((pubkey) => !this.profiles.get(pubkey));
+    if (!missing.length) {
+      return;
+    }
+    const found = await getNostrProfiles(missing).catch((error) => {
+      console.debug('opinions: profile batch failed', error?.message ?? error);
+      return new Map();
+    });
+    for (const pubkey of missing) {
+      this.profiles.set(pubkey, found.get(pubkey) ?? null);
+    }
+  }
+
+  isShownAuthor(pubkey) {
+    return hasProfileIdentity(this.profiles.get(pubkey));
+  }
 
   requestProfile(pubkey) {
     if (this.profiles.has(pubkey)) {
@@ -482,9 +512,14 @@ export class OpinionsWidget {
   async submitOpinion({ body, sentiment, previous }) {
     const draft = buildOpinionDraft(this.config, { body, sentiment, previous });
     const signed = await signAndPublish(draft, { eventType: 'opinion', requireMainRelay: true });
+    this.composeOpen = false;
+    if (!(await this.withProfiles([signed])).length) {
+      showToast(HIDDEN_WITHOUT_PROFILE, 'error');
+      this.render();
+      return;
+    }
     this.opinions = [signed, ...this.opinions.filter((event) => event.pubkey !== signed.pubkey)];
     this.rebuildDerived();
-    this.composeOpen = false;
     showToast(previous ? 'Opinion updated.' : 'Opinion published.');
     this.render();
   }
@@ -510,6 +545,10 @@ export class OpinionsWidget {
 
   async reply(opinion, target, body) {
     const signed = await signAndPublish(buildReplyDraft({ opinion, target, body }), { eventType: 'reply' });
+    if (!(await this.withProfiles([signed])).length) {
+      showToast(HIDDEN_WITHOUT_PROFILE, 'error');
+      return;
+    }
     this.replies = [...this.replies, signed];
     this.rebuildDerived();
     showToast('Reply published.');

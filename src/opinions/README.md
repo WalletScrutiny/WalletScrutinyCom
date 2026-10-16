@@ -33,4 +33,10 @@ Zapstore relay only). They are shown read-only with a Zapstore badge: on their
 own when nobody posted an opinion here, otherwise behind a second tab with the
 counts of both lists. The tab opens on Zapstore when no approved opinion exists.
 
+Both lists only show authors who have a Nostr profile with a picture or a
+name (`hasProfileIdentity` in `src/nostr-profile.mjs`). Opinions, replies and
+Zapstore comments from accounts without one are dropped before the first
+render and are not counted anywhere; there is no switch to reveal them. The
+profiles are fetched in one batch (`getNostrProfiles`) once the events are in.
+
 Tests: `test/unit/opinions-*.test.mjs`, `test/e2e/opinions.spec.mjs`.
