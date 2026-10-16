@@ -92,9 +92,11 @@ export function parseResolution(text) {
     if (r.error) { errors.push(`${r.project} ${r.configuration}: ${r.error}`); continue; }
     if (r.unresolved) { unresolved.add(r.unresolved); continue; }
     const key = `${r.group}:${r.module}:${r.version}`;
-    if (!modules.has(key)) modules.set(key, { name: `${r.group}:${r.module}`, version: r.version, direct: false, shipped: false, configurations: new Set() });
+    if (!modules.has(key)) modules.set(key, { name: `${r.group}:${r.module}`, version: r.version, direct: false, shipped: false, configurations: new Set(), dependants: null });
     const m = modules.get(key);
     m.direct = m.direct || r.direct;
+    // who requires the module, one hop up (the init script's `dependants`); lines from older runs have none
+    if (Array.isArray(r.dependants)) m.dependants = new Set([...(m.dependants || []), ...r.dependants]);
     m.shipped = m.shipped || isShippedConfiguration(r.configuration);
     m.configurations.add(r.configuration);
   }
@@ -191,6 +193,7 @@ export function mergeResolved(analysis, modules, lockfile) {
       hashed.direct = hashed.direct || m.direct;
       hashed.dev = hashed.dev === false || m.shipped ? false : true;
       hashed.scope = hashed.dev === false ? 'app' : scopeOfConfigurations(m.configurations);
+      hashed.dependants = m.dependants ? [...m.dependants].sort() : null;
       continue;
     }
     const decl = declared.get(m.name) || [];
@@ -204,6 +207,7 @@ export function mergeResolved(analysis, modules, lockfile) {
       direct: m.direct || decl.length > 0,
       dev: !m.shipped,
       scope: scopeOfConfigurations(m.configurations),
+      dependants: m.dependants ? [...m.dependants].sort() : null,
       // what the build files ask for is still the pinning story: a floating
       // declaration stays floating even though gradle picked a version today
       tier: decl.some(d => d.tier === 'floating') ? 'floating' : 'version-pinned',
