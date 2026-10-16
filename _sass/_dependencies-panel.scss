@@ -136,7 +136,7 @@ body.dark .dp-panel {
   .dp-td-package {
     font-family: monospace;
     white-space: normal;
-    word-break: break-all;
+    overflow-wrap: anywhere; // after the <wbr> joints first, mid-word only when nothing else fits
   }
 
   .dp-td-products {

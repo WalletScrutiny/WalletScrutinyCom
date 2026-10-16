@@ -13,6 +13,7 @@
       {% include_cached /review/steps/tests.html meta=meta verdict=verdict platform=platform %}
     {% endif %}
     {% include /review/steps/applicationBuild.html platform=platform %}
+    {% include /review/steps/dependencies.html platform=platform version=page.version %}
     {% include_cached /review/steps/platformNotes.html platform=platform %}
   </div>
   {% include /review/seeAlso.html wsId=include.wsId platform=platform %}
