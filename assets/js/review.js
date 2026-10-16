@@ -32,10 +32,20 @@ function elapsedTime(ts, secondary, brackets, instance) {
   return processed
 }
 
-function verdictBadge(v) {
-  return `<a id="${v}" href="/methodology/#${v}" class="verdictBadge ${v}"><span>${window.verdicts[v].short}</span></a>`
-}
-
+// Mark dead and archived links across the whole page
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('a[href*="#deadLink"], a[href*="&deadLink"]').forEach((a) => {
+    a.classList.add('dead-link')
+    a.title = (a.title ? a.title + ' ' : '') + '(Dead link)'
+    if (!a.textContent.includes('\uD83D\uDC80')) a.textContent += ' \uD83D\uDC80'
+  })
+  document.querySelectorAll('a[href*="web.archive.org/web/"]').forEach((a) => {
+    if (a.classList.contains('dead-link')) return
+    a.classList.add('archived-link')
+    a.title = (a.title ? a.title + ' ' : '') + '(Archived)'
+    if (!a.textContent.includes('\uD83D\uDCE6')) a.textContent += ' \uD83D\uDCE6'
+  })
+})
 
 if (document.querySelector(".app_logo_big")) {
   let imgObj = new Image();

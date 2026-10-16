@@ -1,10 +1,38 @@
+{%- comment -%}
+  Review steps of a hardware, desktop or bearer page: platform meta warning,
+  tests, Build Verifications, Platform notes, then the links to the same wallet
+  on other platforms and the review text itself.
+  Parameters: platform, meta, verdict, wsId
+{%- endcomment -%}
 {% assign platform = include.platform %}
 {% assign meta = include.meta %}
 {% assign verdict = include.verdict %}
-{% assign wsId = include.wsId %}
-{% assign filterPlatform = include.filterPlatform %}
 <div class="security-overview">
-    {% include /review/securitySteps.html platform=platform filterPlatform=filterPlatform meta=meta verdict=verdict appId=include.appId idd=include.idd appCountry=include.appCountry alternativeStores=include.alternativeStores appsTableId=include.appsTableId %}
-    {% include /review/seeAlso.html wsId=wsId platform=platform appId=include.appId %}
-    {% include /review/results.html %}
+  <div class="steps linked">
+    {% include_cached /review/steps/platformMeta.html meta=meta %}
+    {% if verdict && meta %}
+      {% include_cached /review/steps/tests.html meta=meta verdict=verdict platform=platform %}
+    {% endif %}
+    {% include /review/steps/applicationBuild.html platform=platform %}
+    {% include_cached /review/steps/platformNotes.html platform=platform %}
+  </div>
+  {% include /review/seeAlso.html wsId=include.wsId platform=platform %}
+  <div class="steps" id="results">
+    <div class="step application-build">
+      {% if page.verdict == 'sourceavailable' %}
+      <i class="circle">{% include icon.html name="code-compare" %}</i>
+      {% else %}
+      <i class="circle">{% include icon.html name="triangle-exclamation" %}</i>
+      {% endif %}
+      <div class="title" id="result">
+        <h2>Application information</h2>
+        <p>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    {{ content }}
+    {% include_cached /review/byAuthor.html authors=page.authors %}
+  </div>
 </div>

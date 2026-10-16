@@ -1,9 +1,0 @@
-{% assign see_also_app_id = page.android.appId | default: page.iphone.appId %}
-{% assign see_also_platform = 'android' %}
-{% if see_also_app_id == page.iphone.appId and page.android.appId == nil %}
-  {% assign see_also_platform = 'iphone' %}
-{% endif %}
-<div class="security-overview">
-  {% include /review/securityStepsMobile.html externalResearchAlert=include.externalResearchAlert %}
-  {% include /review/seeAlso.html wsId=include.wsId platform=see_also_platform appId=see_also_app_id %}
-</div>

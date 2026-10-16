@@ -218,7 +218,7 @@ defaults:
       path: ""
       type: "hardware"
     values:
-      layout: reviewHardware
+      layout: review
       author_profile: true
       read_time: false
       comments: false
@@ -229,7 +229,7 @@ defaults:
       path: ""
       type: "bearer"
     values:
-      layout: reviewBearer
+      layout: review
       author_profile: true
       read_time: false
       comments: false
@@ -240,7 +240,7 @@ defaults:
       path: ""
       type: "desktop"
     values:
-      layout: reviewDesktop
+      layout: review
       author_profile: true
       read_time: false
       comments: false

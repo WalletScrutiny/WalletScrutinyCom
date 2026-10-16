@@ -3,12 +3,13 @@ layout: default
 ---
 
 {%- assign alt_title = page.android.altTitle | default: page.iphone.altTitle -%}
+{%- assign has_android = page.android.appId -%}
+{%- assign has_iphone = page.iphone.appId -%}
 
 {%- comment -%}
   review/externalResearchAlert.html wraps its box in marker comments. When the
-  page body contains exactly one such box, lift it out of the body and hand it to
-  the review steps, which render it after the tests summary and before the
-  per-platform verification section.
+  page body contains exactly one such box, lift it out of the body and render it
+  after the tests summary and before the per-platform verification section.
 {%- endcomment -%}
 {%- assign era_parts = content | split: '<!-- external-research-alert:start -->' -%}
 {%- assign review_body = content -%}
@@ -21,12 +22,29 @@ layout: default
   {%- endif -%}
 {%- endif -%}
 
+{%- comment -%}
+  Custody, tests and "see also" follow the Android app; the iPhone app when
+  there is no Android app.
+{%- endcomment -%}
+{%- assign primary_platform = 'android' -%}
+{%- assign primary_app_id = page.android.appId -%}
+{%- assign meta_android = page.android.meta | default: 'ok' -%}
+{%- assign meta_iphone = page.iphone.meta | default: 'ok' -%}
+{%- assign meta = meta_android -%}
+{%- assign verdict = page.android.verdict -%}
+{%- if has_android == nil and has_iphone -%}
+  {%- assign primary_platform = 'iphone' -%}
+  {%- assign primary_app_id = page.iphone.appId -%}
+  {%- assign meta = meta_iphone -%}
+  {%- assign verdict = page.iphone.verdict -%}
+{%- endif -%}
+
 <script>
   window.pageAppId = "{{ page.android.appId | default: page.iphone.appId }}";
   {% if page.wsId %}window.wsId = "{{ page.wsId }}";{% endif %}
 </script>
 
-<div id="main" class="app-review{% if page.android.appId and page.iphone.appId %} app-review--dual-platform{% endif %}" role="main">
+<div id="main" class="app-review{% if has_android and has_iphone %} app-review--dual-platform{% endif %}" role="main">
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="{{ alt_title | default: page.title | escape }}">
     {% if page.excerpt %}
@@ -58,19 +76,65 @@ layout: default
 
           {% include /review/bitcoinOrgBadge.html %}
 
-          {% include /review/mobileStoreLinks.html
-            androidAppId=page.android.appId
-            iphoneAppId=page.iphone.appId
-            idd=page.iphone.idd
-            appCountry=page.appCountry
-            alternativeStores=page.android.alternativeStores
-          %}
+          {% include /review/storeLinks.html checkVersion=true %}
 
           {% include /review/appFacts.html skipWebsite=true %}
         </div>
       </div>
 
-      {% include /review/securityOverviewMobile.html wsId=page.wsId externalResearchAlert=external_research_alert %}
+      <div class="security-overview">
+        <div class="steps linked">
+          {% include_cached /review/steps/tests.html meta=meta verdict=verdict platform=primary_platform %}
+
+          {%- if external_research_alert != '' -%}
+            {{ external_research_alert }}
+          {%- endif -%}
+
+          {% if has_android and has_iphone %}
+          <div class="mobile-platform-scope" data-mobile-platform-scope data-active-platform="android">
+            <div class="mobile-platform-scope__header">
+              <div class="mobile-platform-tabs__nav" role="tablist" aria-label="Platform-specific review">
+                <button type="button" class="mobile-platform-tabs__tab is-active" role="tab" aria-selected="true" aria-controls="mobile-tab-android mobile-content-android" id="mobile-tab-btn-android" data-mobile-tab="android">
+                  {% include icon.html name="google-play" %} Android
+                </button>
+                <button type="button" class="mobile-platform-tabs__tab" role="tab" aria-selected="false" aria-controls="mobile-tab-iphone mobile-content-iphone" id="mobile-tab-btn-iphone" data-mobile-tab="iphone">
+                  <i class="i-app-store" aria-hidden="true"></i> iPhone
+                </button>
+              </div>
+            </div>
+            <div class="mobile-platform-scope__body">
+              <div class="mobile-platform-tabs" data-mobile-platform-tabs>
+                <div class="mobile-platform-tabs__panels">
+                  <div class="mobile-platform-tabs__panel is-active" role="tabpanel" id="mobile-tab-android" aria-labelledby="mobile-tab-btn-android" data-mobile-panel="android">
+                    {% include_cached /review/steps/platformMeta.html meta=meta_android %}
+                    {% include /review/steps/distribution.html platform='android' %}
+                    {% include /review/steps/applicationBuild.html platform='android' appId=page.android.appId verdict=page.android.verdict appsTableId='appsTable-android' verificationMessageId='verificationMessage-android' %}
+                    {% include /review/steps/platformNotes.html platform='android' %}
+                  </div>
+                  <div class="mobile-platform-tabs__panel" role="tabpanel" id="mobile-tab-iphone" aria-labelledby="mobile-tab-btn-iphone" data-mobile-panel="iphone" hidden>
+                    {% include_cached /review/steps/platformMeta.html meta=meta_iphone %}
+                    {% include /review/steps/distribution.html platform='iphone' %}
+                    {% include /review/steps/applicationBuild.html platform='iphone' appId=page.iphone.appId verdict=page.iphone.verdict appsTableId='appsTable-iphone' verificationMessageId='verificationMessage-iphone' %}
+                    {% include /review/steps/platformNotes.html platform='iphone' %}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% elsif has_android %}
+            {% include_cached /review/steps/platformMeta.html meta=meta_android %}
+            {% include /review/steps/distribution.html platform='android' %}
+            {% include /review/steps/applicationBuild.html platform='android' appId=page.android.appId verdict=page.android.verdict appsTableId='appsTable-android' verificationMessageId='verificationMessage-android' %}
+            {% include /review/steps/platformNotes.html platform='android' %}
+          {% elsif has_iphone %}
+            {% include_cached /review/steps/platformMeta.html meta=meta_iphone %}
+            {% include /review/steps/distribution.html platform='iphone' %}
+            {% include /review/steps/applicationBuild.html platform='iphone' appId=page.iphone.appId verdict=page.iphone.verdict appsTableId='appsTable-iphone' verificationMessageId='verificationMessage-iphone' %}
+            {% include /review/steps/platformNotes.html platform='iphone' %}
+          {% endif %}
+        </div>
+        {% include /review/seeAlso.html wsId=page.wsId platform=primary_platform appId=primary_app_id %}
+      </div>
 
       <div class="security-overview">
         <div class="section page__content" itemprop="text" data-icon-sprite="{{ site.baseurl }}{{ site.icons_sprite }}">
@@ -88,10 +152,10 @@ layout: default
         so historical opinions still appear in the widget.
       {%- endcomment -%}
       {%- assign nostr_legacy_subjects = '' -%}
-      {%- if page.android.appId -%}
+      {%- if has_android -%}
         {%- assign nostr_legacy_subjects = nostr_legacy_subjects | append: 'android/' | append: page.android.appId -%}
       {%- endif -%}
-      {%- if page.iphone.appId -%}
+      {%- if has_iphone -%}
         {%- if nostr_legacy_subjects != '' -%}
           {%- assign nostr_legacy_subjects = nostr_legacy_subjects | append: ',' -%}
         {%- endif -%}

@@ -1,17 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-  document.querySelectorAll('a[href*="#deadLink"], a[href*="&deadLink"]').forEach(function (a) {
-    a.classList.add('dead-link');
-    a.title = (a.title ? a.title + ' ' : '') + '(Dead link)';
-    if (!a.textContent.includes('\uD83D\uDC80')) a.textContent += ' \uD83D\uDC80';
-  });
-  document.querySelectorAll('a[href*="web.archive.org/web/"]').forEach(function (a) {
-    if (!a.classList.contains('dead-link')) {
-      a.classList.add('archived-link');
-      a.title = (a.title ? a.title + ' ' : '') + '(Archived)';
-      if (!a.textContent.includes('\uD83D\uDCE6')) a.textContent += ' \uD83D\uDCE6';
-    }
-  });
-
   function isByAuthorBlock(node) {
     return node && node.tagName === 'P' && node.textContent.includes('Product page updated by');
   }

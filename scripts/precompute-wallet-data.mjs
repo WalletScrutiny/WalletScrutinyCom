@@ -267,7 +267,7 @@ function buildWalletLinksIndex(allWallets) {
 }
 
 /**
- * Effective meta/verdict for homepage verdict groups (matches product_matches_verdict_group.html).
+ * Effective meta/verdict for homepage verdict groups (mobile pages use platform blocks; other folders use root meta/verdict).
  */
 function computeEffectiveMetaVerdict(product, isMobile) {
   let eff_meta = product.meta || 'ok';
