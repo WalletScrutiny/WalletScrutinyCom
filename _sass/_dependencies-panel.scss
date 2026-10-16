@@ -1,0 +1,204 @@
+@use "type-scale" as *;
+
+/* Wallet page "Dependencies": what the source analysis found in the release's lockfiles.
+   Same box language as the Build Verifications panel next to it. */
+
+.dependencies-step[hidden] {
+  display: none;
+}
+
+.dependencies-panel {
+  margin-top: 8px;
+  min-width: 0;
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.dp-panel {
+  border: 1px solid var(--neutral-5);
+  border-radius: 14px;
+  background: var(--neutral-6);
+  padding: 14px 16px 12px;
+  min-width: 0;
+  display: grid;
+  gap: 12px;
+}
+
+body.dark .dp-panel {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.dp-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 6px 12px;
+}
+
+.dp-headline {
+  margin: 0;
+  font-size: $font-sm;
+  color: var(--neutral-2);
+}
+
+.dp-badge {
+  font-size: $font-xxs;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--neutral-3);
+  border: 1px solid var(--neutral-5);
+  border-radius: 999px;
+  padding: 2px 10px;
+  white-space: nowrap;
+}
+
+.dp-notices {
+  margin: 0;
+  padding-left: 1.2em;
+  font-size: $font-sm;
+  color: var(--neutral-2);
+}
+
+.dp-tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+.dp-tile {
+  border: 1px solid var(--neutral-5);
+  border-radius: 10px;
+  padding: 10px 12px;
+  background: var(--neutral-7, transparent);
+  min-width: 0;
+}
+
+.dp-tile__value {
+  font-size: $font-xl;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.dp-tile--bad .dp-tile__value {
+  color: var(--danger, #c0392b);
+}
+
+.dp-tile--good .dp-tile__value {
+  color: var(--success, #1e8449);
+}
+
+.dp-tile--muted .dp-tile__value {
+  color: var(--neutral-3);
+}
+
+.dp-tile__label {
+  font-size: $font-xs;
+  color: var(--neutral-3);
+}
+
+.dp-tile__sub {
+  margin-top: 2px;
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+}
+
+.dp-table-wrap {
+  overflow-x: auto;
+  min-width: 0;
+}
+
+.dp-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: $font-sm;
+  margin: 0;
+
+  th,
+  td {
+    text-align: left;
+    padding: 6px 10px;
+    border-bottom: 1px solid var(--neutral-5);
+    white-space: nowrap;
+  }
+
+  th {
+    font-size: $font-xxs;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--neutral-3);
+  }
+
+  .dp-td-package {
+    font-family: monospace;
+    white-space: normal;
+    word-break: break-all;
+  }
+}
+
+.dp-more {
+  margin-top: 8px;
+}
+
+.dp-sev {
+  display: inline-block;
+  font-size: $font-xxs;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 1px 8px;
+  color: #fff;
+  background: var(--neutral-3);
+
+  &--malicious,
+  &--critical {
+    background: #7b1e1e;
+  }
+
+  &--high {
+    background: #c0392b;
+  }
+
+  &--moderate {
+    background: #d68910;
+  }
+
+  &--low {
+    background: #5d6d7e;
+  }
+}
+
+.dp-ship {
+  display: inline-block;
+  font-size: $font-xxs;
+  border: 1px solid var(--neutral-5);
+  border-radius: 999px;
+  padding: 1px 8px;
+  color: var(--neutral-2);
+
+  &--unknown {
+    color: var(--neutral-3);
+    border-style: dashed;
+  }
+}
+
+.dp-note {
+  font-size: $font-xs;
+  color: var(--neutral-2);
+  background: rgba(214, 137, 16, 0.08);
+  border-radius: 10px;
+  padding: 10px 12px;
+
+  code {
+    font-size: inherit;
+  }
+}
+
+.dp-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}

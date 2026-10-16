@@ -81,6 +81,7 @@ test('exportAll writes index, app files and dependency lists, atomically replaci
   assert.equal(index.apps[1].latest, null);
   assert.equal(index.apps[1].defaultBranch.status, 'failed');
 
+  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.ios.json'), 'utf8')), { schema: 1, appId: 'app.android', alias: true });
   const app = JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.android.json'), 'utf8'));
   assert.equal(app.releases[0].advisories.length, 1);
   const deps = JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.android', 'v1.1.0', 'dependencies.json'), 'utf8'));

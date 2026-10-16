@@ -6,6 +6,7 @@
 //
 //   index.json                          every analysed app with its latest analysis summary
 //   apps/<appId>.json                   all analyses of one app, with advisories and the diff to the previous release
+//   apps/<aliasId>.json                 stub {appId, alias: true} for the repository's other app ids (the iPhone record)
 //   apps/<appId>/<ref>/dependencies.json  the full resolved dependency list of one release
 //
 // How the files travel to the site (Blossom blob + pointer event, rsync, or a
@@ -163,6 +164,12 @@ export function exportAll(db, outDir, { generatedAt = new Date().toISOString(), 
         })),
       }));
       releases++;
+    }
+    // The repository's other app ids (the iPhone page, a desktop record) get a
+    // stub pointing at the file above, so a reader needs no index lookup.
+    for (const alias of app.aliases) {
+      if (alias.appId === appId || appIds.has(alias.appId)) continue;
+      fs.writeFileSync(path.join(tmp, 'apps', `${safeName(alias.appId)}.json`), JSON.stringify({ schema: SCHEMA, appId, alias: true }));
     }
     index.apps.push(indexEntry(app));
   }
