@@ -306,7 +306,7 @@ body.dark .opinion-card--reply {
   left: 0;
   right: 0;
   bottom: 0;
-  height: 3em;
+  height: 1.5em;
   background: linear-gradient(to bottom, transparent, var(--body));
 }
 
