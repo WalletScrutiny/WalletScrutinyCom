@@ -298,7 +298,10 @@ window.renderAssetsTable = async function({
       return pubkey;
     })
     .catch((e) => {
-      console.error("Error getting user pubkey:", e);
+      // Most visitors have no Nostr extension; that is not an error.
+      if (e?.message !== "No signer available") {
+        console.error("Error getting user pubkey:", e);
+      }
       window.userPubkey = null;
       return null;
     });
