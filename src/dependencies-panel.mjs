@@ -40,12 +40,24 @@ function severityPill(severity) {
   return el('span', { className: `dp-sev dp-sev--${SEVERITY_ORDER.includes(severity) ? severity : 'unknown'}` }, SEVERITY_LABEL[severity] || severity);
 }
 
-function tile(value, label, { tone = '', sub = null } = {}) {
+function tile(value, label, { tone = '', sub = null, sub2 = null } = {}) {
   return el('div', { className: `dp-tile${tone ? ` dp-tile--${tone}` : ''}` },
     el('div', { className: 'dp-tile__value' }, value == null ? '–' : String(value)),
     el('div', { className: 'dp-tile__label' }, label),
     sub ? el('div', { className: 'dp-tile__sub' }, sub) : null,
+    sub2 ? el('div', { className: 'dp-tile__sub dp-tile__sub--where' }, sub2) : null,
   );
+}
+
+// "35 in the app · 377 in build tooling": where the vulnerable packages end up.
+function whereLine(byScope) {
+  if (!byScope) return null;
+  const parts = [];
+  if (byScope.app) parts.push(`${byScope.app} in the app`);
+  if (byScope.build) parts.push(`${byScope.build} in build tooling`);
+  if (byScope.tests) parts.push(`${byScope.tests} only in tests`);
+  if (byScope.unknown) parts.push(`${byScope.unknown} unplaced`);
+  return parts.length ? parts.join(' · ') : null;
 }
 
 function severityLine(bySeverity) {
@@ -180,7 +192,7 @@ export function panelElement(model, { appId, base = EXPORT_BASE, fetchImpl = glo
     el('div', { className: 'dp-tiles' },
       tile(model.packages, 'packages found'),
       tile(model.unchecked, 'could not be checked', { tone: model.unchecked ? 'muted' : '' }),
-      tile(model.vulnerabilities, 'known vulnerabilities', { tone: model.vulnerabilities ? 'bad' : 'good', sub: vulnSub }),
+      tile(model.vulnerabilities, 'known vulnerabilities', { tone: model.vulnerabilities ? 'bad' : 'good', sub: vulnSub, sub2: model.vulnerabilities ? whereLine(model.vulnerabilitiesByScope) : null }),
       tile(model.malware, 'known malware', { tone: model.malware ? 'bad' : 'good' }),
     ),
     advisoryTable(model),

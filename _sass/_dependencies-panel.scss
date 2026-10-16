@@ -194,7 +194,7 @@ body.dark .dp-panel {
 .dp-eco {
   display: inline-block;
   margin-left: 6px;
-  font-family: $global-font-family;
+  font-family: system-ui, sans-serif;
   font-size: $font-xxs;
   color: var(--neutral-3);
   text-transform: lowercase;
