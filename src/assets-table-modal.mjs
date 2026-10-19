@@ -19,7 +19,7 @@ import {
 import {
   populateVerificationAttachmentsList,
 } from "./assets-table-attachments.mjs";
-import { el, hashWithBoldPrefix, htmlOf, isSha256Hex, sanitizeHttpUrl } from "./html-utils.mjs";
+import { el, htmlOf, isSha256Hex, sanitizeHttpUrl } from "./html-utils.mjs";
 import './zapModal.mjs';
 
 export function buildEndorsementButtonHtml(verificationId, sha256Hash) {
@@ -829,14 +829,15 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   let factsHTML = '';
   if (verificationHashes.length > 0) {
     const hashRows = verificationHashes.map(hash => '<div class="verification-modal-hash-row">'
-      + htmlOf(el('span', { className: 'verification-modal-hash' }, hashWithBoldPrefix(hash)))
+      + htmlOf(el('span', { className: 'verification-modal-hash', title: hash }, hash.slice(0, 8)))
       + htmlOf(el('button', {
         type: 'button',
-        className: 'verification-modal-icon-btn js-copy-hash',
-        title: 'Copy hash',
+        className: 'verification-modal-chip js-copy-hash',
         dataset: { hash },
-        html: wsIcon('copy'),
-      }))
+      },
+        el('span', { 'aria-hidden': 'true', html: wsIcon('copy') }),
+        'Copy entire hash',
+      ))
       + '</div>').join('');
     factsHTML += factHtml(
       verificationHashes.length === 1 ? 'Hash of the binary reproduced' : 'Hashes of the binaries reproduced',

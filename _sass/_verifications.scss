@@ -1442,19 +1442,10 @@ body.dark #verificationModalToolbar #nostrButtonContainer .dropdown-content2 {
   min-width: 0;
 }
 
-/* The first 8 hex characters stand out, the rest steps back. */
+/* Only the first 8 hex characters; the chip beside it copies the whole hash. */
 .verification-modal-hash {
-  min-width: 0;
   font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
   font-size: $font-sm;
-  overflow-wrap: anywhere;
-}
-.verification-modal-hash .hash-prefix {
-  font-weight: 700;
-  color: var(--accent-text);
-}
-.verification-modal-hash .hash-rest {
-  color: var(--neutral-2);
 }
 
 /* Small round icon buttons: copy a hash, download or preview a file. */
