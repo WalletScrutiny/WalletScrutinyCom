@@ -141,6 +141,37 @@ export function initDatabase(dbPath = DB_PATH) {
   // hop up (plugins/pinning.mjs makeEntry); NULL when the lockfile has no graph.
   for (const table of ['app_dependencies', 'app_vulnerabilities']) ensureColumn(db, table, 'dependants', 'TEXT');
 
+  // Where a package's source lives, per (ecosystem, name): resolved from the
+  // registry metadata (plugins/source-repos.mjs) and cached, since it does not
+  // change per version. repo_url NULL = looked up, none named.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS package_sources (
+      ecosystem TEXT NOT NULL,
+      name TEXT NOT NULL,
+      repo_url TEXT,
+      source TEXT NOT NULL,
+      note TEXT,
+      checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (ecosystem, name)
+    );
+  `);
+
+  // Rung one of the dependency ladder (plugins/source-identity.mjs): does the
+  // shipped version exist in the package's source repository?
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS package_identity (
+      ecosystem TEXT NOT NULL,
+      name TEXT NOT NULL,
+      version TEXT NOT NULL,
+      status TEXT NOT NULL,
+      tag TEXT,
+      commit_sha TEXT,
+      provenance INTEGER,
+      checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (ecosystem, name, version)
+    );
+  `);
+
   // Last good copy of the site's app list (see appList.mjs), one row per
   // wallet record with a repository.
   db.exec(`
@@ -560,3 +591,25 @@ export function getPreviousAssetVersions(db, appId, assetName, source, architect
   );
 }
 
+
+export function savePackageSource(db, ecosystem, name, r) {
+  db.prepare(`INSERT OR REPLACE INTO package_sources (ecosystem, name, repo_url, source, note, checked_at) VALUES (?, ?, ?, ?, ?, CURRENT_TIMESTAMP)`)
+    .run(ecosystem, name, r.url || null, r.source, r.note || null);
+}
+
+// Source repository per `ecosystem:name`, for the export.
+export function packageSources(db) {
+  const map = new Map();
+  for (const r of db.prepare('SELECT ecosystem, name, repo_url, source FROM package_sources').all()) map.set(`${r.ecosystem}:${r.name}`, r);
+  return map;
+}
+
+// Distinct packages without a cached lookup (or all of them with `all`); one
+// version each, which Maven needs to find the POM.
+export function packagesToResolve(db, { all = false } = {}) {
+  return db.prepare(`
+    SELECT p.ecosystem, p.name, MAX(p.version) AS version FROM packages p
+    ${all ? '' : 'WHERE NOT EXISTS (SELECT 1 FROM package_sources s WHERE s.ecosystem = p.ecosystem AND s.name = p.name)'}
+    GROUP BY p.ecosystem, p.name ORDER BY p.ecosystem, p.name
+  `).all();
+}
