@@ -658,9 +658,28 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   const wallet = window.wallets.find(w => w.appId === identifier);
   const walletTitle = wallet ? wallet.title : identifier;
 
-  /* -------------------- Header: verdict, app + version, platform and date -------------------- */
+  const verificationHashes = verification.tags
+    .filter(tag => tag[0] === 'x')
+    .map(tag => tag[1])
+    .filter(id => isSha256Hex(id));
+
+  /* -------------------- Header: verdict, app + version, hash, platform and date -------------------- */
   const isReproducible = status === 'reproducible';
-  heading.replaceChildren(
+  const hashesEl = verificationHashes.length > 0
+    ? el('div', { className: 'verification-modal-hashes' }, ...verificationHashes.map(hash =>
+      el('span', { className: 'verification-modal-hash-row' },
+        el('span', { className: 'verification-modal-hash', title: hash }, hash.slice(0, 8)),
+        el('button', {
+          type: 'button',
+          className: 'verification-modal-icon-btn js-copy-hash',
+          title: 'Copy entire hash',
+          'aria-label': 'Copy entire hash',
+          dataset: { hash },
+          html: wsIcon('copy'),
+        }),
+      )))
+    : null;
+  heading.replaceChildren(...[
     el('div', { className: 'verification-modal-badges' },
       el('span', { className: `verification-modal-status verification-modal-status--${isReproducible ? 'good' : 'bad'}` },
         el('span', { className: 'verification-modal-mark', 'aria-hidden': 'true', html: wsIcon(isReproducible ? 'check' : 'xmark') }),
@@ -669,9 +688,10 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
       isDraft ? el('span', { className: 'verification-draft-badge' }, isMyDraft ? 'Draft, not published yet' : 'Draft') : null,
     ),
     el('h2', { id: 'verificationModalTitle', className: 'verification-modal-title' }, `${walletTitle ?? ''} ${version ?? ''}`.trim()),
+    hashesEl,
     el('p', { className: 'verification-modal-subtitle' },
       [platformLabel(verificationPlatform), formatDate(verification.created_at)].filter(Boolean).join(' · ')),
-  );
+  ].filter(Boolean));
 
   /* -------------------- Toolbar: one row of quiet action chips -------------------- */
   let toolbarRowHtml = '<div class="verification-modal-toolbar-row">';
@@ -748,10 +768,6 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     });
   }
 
-  const verificationHashes = verification.tags
-    .filter(tag => tag[0] === 'x')
-    .map(tag => tag[1])
-    .filter(id => isSha256Hex(id));
   const verificationAttachments = verification.tags.filter(tag => tag[0] === 'file-attachment');
   const verificationOutputFiles = verification.tags.filter(tag => tag[0] === 'output-file');
   const isVerifierOrAssetsPage = window.location.pathname.includes('/verifier/')
@@ -827,24 +843,6 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     + `<dd${ddId ? ` id="${ddId}"` : ''}>${valueHtml}</dd></div>`;
 
   let factsHTML = '';
-  if (verificationHashes.length > 0) {
-    const hashRows = verificationHashes.map(hash => '<div class="verification-modal-hash-row">'
-      + htmlOf(el('span', { className: 'verification-modal-hash', title: hash }, hash.slice(0, 8)))
-      + htmlOf(el('button', {
-        type: 'button',
-        className: 'verification-modal-icon-btn js-copy-hash',
-        title: 'Copy entire hash',
-        'aria-label': 'Copy entire hash',
-        dataset: { hash },
-        html: wsIcon('copy'),
-      }))
-      + '</div>').join('');
-    factsHTML += factHtml(
-      verificationHashes.length === 1 ? 'Hash of the binary reproduced' : 'Hashes of the binaries reproduced',
-      `<div class="verification-modal-hashes">${hashRows}</div>`,
-      { wide: true },
-    );
-  }
   factsHTML += factHtml('Attempt by', '', { ddId: 'attempt-by' });
   if (basedOn) {
     factsHTML += factHtml('Based on an attempt by', '', { ddId: 'based-on-attempt-by' });

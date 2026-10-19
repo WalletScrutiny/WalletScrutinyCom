@@ -1430,16 +1430,17 @@ body.dark #verificationModalToolbar #nostrButtonContainer .dropdown-content2 {
   grid-column: 1 / -1;
 }
 
+/* The reproduced hashes, between the title and the platform line. No label. */
 .verification-modal-hashes {
-  display: grid;
-  gap: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 14px;
 }
 
 .verification-modal-hash-row {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 6px;
-  min-width: 0;
+  gap: 2px;
 }
 
 /* Only the first 8 hex characters; the copy icon beside it copies the whole hash. */
