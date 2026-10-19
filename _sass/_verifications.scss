@@ -628,11 +628,16 @@ body.dark-theme .verification-card__avatar .profile-circle--placeholder {
   border: 1px solid transparent;
 }
 
-.verification-status-pill__dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  flex-shrink: 0;
+.verification-status-pill__mark {
+  display: inline-flex;
+  flex: 0 0 auto;
+  width: 12px;
+  height: 12px;
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .verification-status-pill--reproducible {
@@ -641,18 +646,10 @@ body.dark-theme .verification-card__avatar .profile-circle--placeholder {
   border-color: rgba(27, 222, 27, 0.35);
 }
 
-.verification-status-pill--reproducible .verification-status-pill__dot {
-  background: var(--good, #1bde1b);
-}
-
 .verification-status-pill--negative {
   color: #b33030;
   background: rgba(208, 34, 34, 0.1);
   border-color: rgba(208, 34, 34, 0.28);
-}
-
-.verification-status-pill--negative .verification-status-pill__dot {
-  background: var(--bad, #d02222);
 }
 
 .verification-status-pill--warning {
@@ -661,18 +658,10 @@ body.dark-theme .verification-card__avatar .profile-circle--placeholder {
   border-color: rgba(240, 173, 78, 0.4);
 }
 
-.verification-status-pill--warning .verification-status-pill__dot {
-  background: #f0ad4e;
-}
-
 .verification-status-pill--neutral {
   color: var(--neutral-2);
   background: var(--neutral-6);
   border-color: var(--neutral-5);
-}
-
-.verification-status-pill--neutral .verification-status-pill__dot {
-  background: var(--neutral-4);
 }
 
 body.dark .verification-status-pill--reproducible {
@@ -1022,6 +1011,7 @@ body.dark #verificationModal {
   align-items: center;
   gap: 6px;
   padding: 3px 10px 3px 8px;
+  border: 1px solid transparent;
   border-radius: 999px;
   font-size: $font-xs;
   font-weight: 700;
@@ -1030,18 +1020,22 @@ body.dark #verificationModal {
 .verification-modal-status--good {
   color: #15803d;
   background: rgba(27, 222, 27, 0.14);
+  border-color: rgba(27, 222, 27, 0.35);
 }
 .verification-modal-status--bad {
   color: #b91c1c;
   background: rgba(208, 34, 34, 0.12);
+  border-color: rgba(208, 34, 34, 0.28);
 }
 body.dark .verification-modal-status--good {
   color: #7ee2a3;
   background: rgba(0, 185, 0, 0.2);
+  border-color: rgba(0, 185, 0, 0.35);
 }
 body.dark .verification-modal-status--bad {
   color: #f2a0a0;
   background: rgba(185, 0, 0, 0.26);
+  border-color: rgba(185, 0, 0, 0.4);
 }
 
 /* A small check / cross, used by the verdict pill, the other attempts and the endorsements. */

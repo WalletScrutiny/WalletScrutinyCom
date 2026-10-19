@@ -6,7 +6,7 @@
 import { verificationDraftKind } from './nostr-constants.mjs';
 import { getFirstTagValue, getStatusText } from './verifications_common.mjs';
 import { formatDate } from './format-utils.mjs';
-import { formatCommentDate } from './assets-table-utils.mjs';
+import { createStatusPillMark, formatCommentDate } from './assets-table-utils.mjs';
 import { createVerificationActionLink } from './assets-table-paint.mjs';
 import { buildHashVerdictIndex } from './assets-table-filters.mjs';
 import { renderProfilePictures } from './assets-table-profiles.js';
@@ -56,8 +56,9 @@ function pipModifier(status) {
 }
 
 function statusPill(status) {
-  return el('span', { className: `verification-status-pill verification-status-pill--${pillModifier(status)}` },
-    el('span', { className: 'verification-status-pill__dot', 'aria-hidden': 'true' }),
+  const modifier = pillModifier(status);
+  return el('span', { className: `verification-status-pill verification-status-pill--${modifier}` },
+    createStatusPillMark(modifier),
     el('span', { className: 'attestation-status' }, getStatusText(status, true)),
   );
 }

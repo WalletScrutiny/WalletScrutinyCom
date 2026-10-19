@@ -82,6 +82,9 @@ test.describe('ZEUS verification detail page', () => {
       await expect.soft(heading.locator('.verification-modal-subtitle')).toHaveText(`Android · ${expectedCreatedAt}`);
       await expect.soft(heading.locator('.verification-modal-status')).toHaveText('Reproducible when tested');
       await expect.soft(heading.locator('.verification-modal-status')).toHaveClass(/verification-modal-status--good/);
+      // The verdict pill has the wallet page pills' frame, and those pills have the verdict's check mark.
+      await expect.soft(heading.locator('.verification-modal-status')).toHaveCSS('border-top-width', '1px');
+      await expect.soft(page.locator('.verification-card .verification-status-pill--reproducible .ws-icon-check').first()).toBeAttached();
       // The old one-paragraph build-server report, shown in today's layout.
       await expect.soft(content).toContainText(
         'Reproducible. We built version 13.0.1 from its public source code and got the same app users download.',
