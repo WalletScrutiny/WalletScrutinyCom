@@ -42,21 +42,30 @@ export function shortenOutputFileName(fileName) {
   return String(fileName ?? '').replace(/(?<=_)[A-Za-z0-9]{64}(?=_)/g, token => `${token.slice(0, 3)}...${token.slice(-3)}`);
 }
 
-/** One output file: its name, a download button and, for a recording, the build log button (`extraHtml`, markup from buildBuildLogButtonHtml). */
-export function buildOutputFileDownloadHtml(fileName, fileHash, extraHtml = '') {
+/**
+ * One output file: its name, a download button and, for a recording, the build log button (`extraHtml`, markup from buildBuildLogButtonHtml).
+ * When the recording is the only file, `nameHidden` drops the name and puts the build log button first.
+ */
+export function buildOutputFileDownloadHtml(fileName, fileHash, extraHtml = '', { nameHidden = false } = {}) {
+  const log = extraHtml ? el('span', { className: 'verification-modal-file__log', html: extraHtml }) : null;
+  const download = el('button', {
+    type: 'button',
+    className: 'verification-modal-file__download js-download-blossom-file',
+    title: `Download ${fileName ?? ''}`,
+    'aria-label': `Download ${fileName ?? ''}`,
+    dataset: {
+      fileHash: fileHash ?? '',
+      fileName: fileName ?? '',
+    },
+    html: wsIcon('download'),
+  });
+  if (nameHidden) {
+    return htmlOf(el('li', { className: 'verification-modal-file verification-modal-file--recording-only' }, log, download));
+  }
   return htmlOf(el('li', { className: 'verification-modal-file' },
     el('span', { className: 'verification-modal-file__name', title: fileName ?? '' }, shortenOutputFileName(fileName)),
-    el('button', {
-      type: 'button',
-      className: 'verification-modal-file__action js-download-blossom-file',
-      title: `Download ${fileName ?? ''}`,
-      dataset: {
-        fileHash: fileHash ?? '',
-        fileName: fileName ?? '',
-      },
-      html: wsIcon('download'),
-    }),
-    extraHtml ? el('span', { className: 'verification-modal-file__log', html: extraHtml }) : null,
+    download,
+    log,
   ));
 }
 
@@ -791,7 +800,9 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     if (outputFile[1].includes('diffo') && outputFile[1].includes('html') && isSha256Hex(outputFile[2])) {
       diffoscopeFiles.push(outputFile);
     }
-    outputFilesHTML += buildOutputFileDownloadHtml(outputFile[1], outputFile[2], buildLogHTML);
+    /* A lone recording needs no name: the build log button says what it is. */
+    const nameHidden = Boolean(buildLogHTML) && verificationOutputFiles.length === 1;
+    outputFilesHTML += buildOutputFileDownloadHtml(outputFile[1], outputFile[2], buildLogHTML, { nameHidden });
   }
 
   let attachmentsSectionHTML = '';

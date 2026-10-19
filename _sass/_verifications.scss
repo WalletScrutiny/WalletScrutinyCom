@@ -1570,6 +1570,47 @@ body.dark .verification-modal-chip {
   gap: 6px;
 }
 
+/* The download button: the build log button's dark pill, icon only. */
+.verification-modal-file__download {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 26px;
+  padding: 0 9px;
+  border: 1px solid #2a3040;
+  border-radius: 6px;
+  background: #11141c;
+  color: #e6e9f2;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+
+  svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  &:hover,
+  &:focus-visible {
+    border-color: var(--accent);
+    background: #1b2030;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    outline: none;
+  }
+  &:focus-visible {
+    box-shadow: 0 0 0 3px var(--accent-50), 0 3px 10px rgba(0, 0, 0, 0.3);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .verification-modal-file__download { transition: none; }
+}
+
+/* A lone recording: no name, just its build log button and then the download. */
+.verification-modal-file--recording-only .verification-modal-file__log {
+  margin-left: 0;
+}
+
 /* Other attempts by the same verifier */
 .verification-modal-attempts {
   list-style: none;

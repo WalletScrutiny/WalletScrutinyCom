@@ -169,10 +169,14 @@ test.describe('ZEUS verification detail page', () => {
       const button = content.locator('.js-open-build-log');
       const viewer = page.locator('#buildLogViewer');
 
-      // Beside the recording it plays, in the output files, and nowhere else.
+      // In the output files, and nowhere else. The recording is ZEUS's only output file, so its row
+      // drops the name and shows the build log button, then the recording's download.
       await expect(button).toHaveCount(1);
-      await expect.soft(content.locator('.verification-modal-file', { has: page.locator('.js-open-build-log') }).locator('.verification-modal-file__name'))
-        .toHaveAttribute('title', /\.cast$/);
+      const recording = content.locator('.verification-modal-file', { has: page.locator('.js-open-build-log') });
+      await expect.soft(recording.locator('.verification-modal-file__name')).toHaveCount(0);
+      await expect.soft(recording.locator('button')).toHaveCount(2);
+      await expect.soft(recording.locator('button').first()).toHaveClass(/js-open-build-log/);
+      await expect.soft(recording.locator('button').last()).toHaveAttribute('data-file-name', /\.cast$/);
       await expect(button).toBeVisible();
       await expect.soft(button).toContainText('View build log');
 

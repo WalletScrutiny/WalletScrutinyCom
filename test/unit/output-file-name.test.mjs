@@ -36,4 +36,15 @@ describe('output file names', () => {
     ul.innerHTML = buildOutputFileDownloadHtml('zeus_build.sh', HASH);
     assert.equal(ul.querySelector('.js-open-build-log'), null);
   });
+
+  test('a lone recording drops its name and puts the build log button before the download', () => {
+    const name = `app_${HASH}_script.cast`;
+    const ul = document.createElement('ul');
+    ul.innerHTML = buildOutputFileDownloadHtml(name, HASH, buildBuildLogButtonHtml(HASH, name, 'ZEUS 13.0.1'), { nameHidden: true });
+    assert.equal(ul.querySelector('.verification-modal-file__name'), null);
+    const buttons = [...ul.querySelectorAll('li button')];
+    assert.deepEqual(buttons.map(button => button.classList.contains('js-open-build-log')), [true, false]);
+    assert.equal(buttons[1].dataset.fileName, name);
+    assert.equal(buttons[1].getAttribute('aria-label'), `Download ${name}`);
+  });
 });
