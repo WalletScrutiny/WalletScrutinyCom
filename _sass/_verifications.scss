@@ -1427,6 +1427,11 @@ body.dark #verificationModalToolbar .share-dropdown-menu a:focus-visible img {
     gap: 10px;
   }
 
+  /* The verifier's name: a step above body text, not a heading. */
+  .profile-info > div:first-child {
+    font-weight: 500;
+  }
+
   .profile-image {
     width: 36px;
     height: 36px;
@@ -1566,6 +1571,11 @@ body.dark .verification-modal-chip {
   min-width: 0;
   font-weight: 600;
   overflow-wrap: anywhere;
+}
+
+/* The scripts are supporting detail, so their names stay at body weight. */
+#verification-attachments-list .verification-modal-file__name {
+  font-weight: 400;
 }
 
 /* A recording's build log button, beside its file and a little smaller than on its own */

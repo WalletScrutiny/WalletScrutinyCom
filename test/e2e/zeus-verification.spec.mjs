@@ -101,6 +101,8 @@ test.describe('ZEUS verification detail page', () => {
       await expect.soft(content).toContainText('Based on an attempt by');
       await waitForNostrDisplayName(page, basedOnAttemptBy, 'dannybuntu', nostrDisplayNameOptions);
       await expect.soft(basedOnAttemptBy).toContainText('dannybuntu');
+      // Verifier names sit one weight step above body text.
+      await expect.soft(basedOnAttemptBy.locator('.profile-info > div').first()).toHaveCSS('font-weight', '500');
     });
 
     await test.step('Scripts loading', async () => {
@@ -111,6 +113,8 @@ test.describe('ZEUS verification detail page', () => {
       await expect.soft(attachmentsList).toContainText('33 kB');
       await expect.soft(attachmentsList.locator('[title="Download zeus_build.sh"]')).toBeVisible();
       await expect.soft(attachmentsList.locator('[title="Preview zeus_build.sh"]')).toBeVisible();
+      // Script names are supporting detail, not bold.
+      await expect.soft(attachmentsList.locator('.verification-modal-file__name').first()).toHaveCSS('font-weight', '400');
     });
 
     await test.step('Script preview works fine', async () => {
@@ -162,7 +166,7 @@ test.describe('ZEUS verification detail page', () => {
       const sectionCaptions = await content.locator('.verification-modal-section:visible').evaluateAll(
         nodes => nodes.map(node => node.querySelector('.verification-modal-caption, .comments-section > p')?.textContent?.trim() ?? ''),
       );
-      expect.soft(sectionCaptions.slice(1)).toEqual(['Scripts used to reproduce', 'Output files', 'Comments', 'Report']);
+      expect.soft(sectionCaptions.slice(1)).toEqual(['Output files', 'Scripts used to reproduce', 'Comments', 'Report']);
     });
 
     await test.step('Build log viewer', async () => {

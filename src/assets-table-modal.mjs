@@ -865,11 +865,11 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   let contentHTML = sectionHtml('', `<dl class="verification-modal-facts">${factsHTML}</dl>`, 'verification-modal-section--facts');
   contentHTML += '<div class="verification-modal-section" id="zaps" style="display: none;"></div>';
   contentHTML += '<div class="verification-modal-section" id="endorsements" style="display: none;"></div>';
-  if (attachmentsSectionHTML) {
-    contentHTML += sectionHtml('Scripts used to reproduce', attachmentsSectionHTML);
-  }
   if (outputFilesHTML) {
     contentHTML += sectionHtml('Output files', `<ul class="verification-modal-files">${outputFilesHTML}</ul>`);
+  }
+  if (attachmentsSectionHTML) {
+    contentHTML += sectionHtml('Scripts used to reproduce', attachmentsSectionHTML);
   }
   if (otherVerificationsHTML !== '') {
     contentHTML += sectionHtml('Other attempts by this verifier', `<ul class="verification-modal-attempts">${otherVerificationsHTML}</ul>`);
