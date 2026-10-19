@@ -225,6 +225,13 @@ test.describe('ZEUS verification detail page', () => {
 
       const shareOnNostr = shareContainer.locator('.js-share-nostr-open');
       await expect.soft(shareOnNostr).toBeVisible();
+      // Every network shows the same size of icon, the Nostr tile included.
+      const iconSizes = await shareContainer.locator('.share-dropdown-menu a').evaluateAll(links =>
+        links.map(link => {
+          const box = link.querySelector('img, svg').getBoundingClientRect();
+          return `${Math.round(box.width)}x${Math.round(box.height)}`;
+        }));
+      expect.soft(iconSizes).toEqual(Array(5).fill('25x25'));
       await shareOnNostr.click();
 
       const shareNostrModal = page.locator('.share-nostr-modal').filter({ visible: true });

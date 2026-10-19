@@ -405,7 +405,7 @@ export function buildWriteVerificationMenuHtml(verification, sha256Hash, editPar
   }, label))).join('');
 
   return `<span id="writeVerificationWrap" class="verification-modal-menu-wrap">
-    <button type="button" class="btn btn-info" id="writeVerificationBtn">${wsIcon('pen')} Write verification ${wsIcon('caret-down')}</button>
+    <button type="button" class="btn btn-info" id="writeVerificationBtn">${wsIcon('pen')} Write new verification ${wsIcon('caret-down')}</button>
     <div id="writeVerificationMenu" class="verification-modal-menu" style="display: none;">${items}</div>
   </span>`;
 }
