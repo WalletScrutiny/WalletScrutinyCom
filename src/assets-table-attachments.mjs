@@ -1,3 +1,4 @@
+import { wsIcon } from './icon.mjs';
 import { verificationDraftKind } from "./nostr-constants.mjs";
 import { formatDate } from "./format-utils.mjs";
 import { getAttachmentInfo } from "./assets-table-utils.mjs";
@@ -174,24 +175,23 @@ function buildAttachmentListItems(verificationAttachments) {
     const attachmentId = attachment[1];
     const attachmentInfo = getAttachmentEntry(attachmentId);
     if (attachmentInfo) {
-      items.push(el('li', {},
-        attachmentInfo.filename ?? '',
-        ' ',
-        el('small', {}, `(${attachmentInfo.sizeInKb} kB)`),
-        ' ',
-        el('span', {
-          className: 'js-attachment-download',
-          style: { cursor: 'pointer', marginLeft: '10px' },
+      items.push(el('li', { className: 'verification-modal-file' },
+        el('span', { className: 'verification-modal-file__name' }, attachmentInfo.filename ?? ''),
+        el('small', {}, `${attachmentInfo.sizeInKb} kB`),
+        el('button', {
+          type: 'button',
+          className: 'verification-modal-file__download js-attachment-download',
           title: `Download ${attachmentInfo.filename ?? ''}`,
           dataset: { attachmentId: attachmentId ?? '' },
-        }, '💾'),
-        ' ',
-        el('span', {
-          className: 'js-attachment-preview',
-          style: { cursor: 'pointer', marginLeft: '10px' },
+          html: wsIcon('download'),
+        }),
+        el('button', {
+          type: 'button',
+          className: 'verification-modal-file__download js-attachment-preview',
           title: `Preview ${attachmentInfo.filename ?? ''}`,
           dataset: { attachmentId: attachmentId ?? '' },
-        }, '👁️'),
+          html: wsIcon('eye'),
+        }),
       ));
     }
   }

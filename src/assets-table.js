@@ -41,8 +41,14 @@ function ensureVerificationModal() {
   if (!document.getElementById('verificationModal')) {
     const verificationModalDiv = document.createElement('div');
     verificationModalDiv.id = 'verificationModal';
+    verificationModalDiv.setAttribute('role', 'dialog');
+    verificationModalDiv.setAttribute('aria-modal', 'true');
+    verificationModalDiv.setAttribute('aria-labelledby', 'verificationModalTitle');
     verificationModalDiv.innerHTML = `
-      <span id="closeModal">&times;</span>
+      <div class="verification-modal-header">
+        <div id="verificationModalHeading" class="verification-modal-heading"></div>
+        <button type="button" id="closeModal" class="verification-modal-close" aria-label="Close">${wsIcon('xmark')}</button>
+      </div>
       <div id="verificationModalToolbar"></div>
       <div id="verificationContent"></div>`;
     document.body.appendChild(verificationModalDiv);

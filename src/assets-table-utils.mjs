@@ -3,6 +3,7 @@ import { getFirstTagValue, getStatusText } from "./verifications_common.mjs";
 import { formatDate } from "./format-utils.mjs";
 import { updateTableVisibility } from "./assets-table-filters.mjs";
 import { el, sanitizeHttpUrl } from "./html-utils.mjs";
+import { wsIcon } from "./icon.mjs";
 
 export { getStatusText };
 
@@ -81,6 +82,22 @@ export function getAttachmentInfo(attachment) {
     name,
     sizeInKb
   };
+}
+
+const STATUS_PILL_ICONS = {
+  reproducible: 'check',
+  negative: 'xmark',
+  warning: 'triangle-exclamation',
+  neutral: 'minus',
+};
+
+/* The mark at the start of a verification status pill: the same check / cross as the modal's verdict. */
+export function createStatusPillMark(modifier) {
+  return el('span', {
+    className: 'verification-status-pill__mark',
+    'aria-hidden': 'true',
+    html: wsIcon(STATUS_PILL_ICONS[modifier] ?? STATUS_PILL_ICONS.neutral),
+  });
 }
 
 export function getStatusIcon(status) {

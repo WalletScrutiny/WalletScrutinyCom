@@ -628,11 +628,21 @@ body.dark-theme .verification-card__avatar .profile-circle--placeholder {
   border: 1px solid transparent;
 }
 
-.verification-status-pill__dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  flex-shrink: 0;
+/* The label takes the pill's colour, so a failed build reads red, not in the link green. */
+.verification-status-pill .attestation-status {
+  color: inherit;
+}
+
+.verification-status-pill__mark {
+  display: inline-flex;
+  flex: 0 0 auto;
+  width: 12px;
+  height: 12px;
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .verification-status-pill--reproducible {
@@ -641,18 +651,10 @@ body.dark-theme .verification-card__avatar .profile-circle--placeholder {
   border-color: rgba(27, 222, 27, 0.35);
 }
 
-.verification-status-pill--reproducible .verification-status-pill__dot {
-  background: var(--good, #1bde1b);
-}
-
 .verification-status-pill--negative {
   color: #b33030;
   background: rgba(208, 34, 34, 0.1);
   border-color: rgba(208, 34, 34, 0.28);
-}
-
-.verification-status-pill--negative .verification-status-pill__dot {
-  background: var(--bad, #d02222);
 }
 
 .verification-status-pill--warning {
@@ -661,18 +663,10 @@ body.dark-theme .verification-card__avatar .profile-circle--placeholder {
   border-color: rgba(240, 173, 78, 0.4);
 }
 
-.verification-status-pill--warning .verification-status-pill__dot {
-  background: #f0ad4e;
-}
-
 .verification-status-pill--neutral {
   color: var(--neutral-2);
   background: var(--neutral-6);
   border-color: var(--neutral-5);
-}
-
-.verification-status-pill--neutral .verification-status-pill__dot {
-  background: var(--neutral-4);
 }
 
 body.dark .verification-status-pill--reproducible {
@@ -960,7 +954,9 @@ table td.asset-description {
   text-decoration: none;
 }
 
-/* Attestation Modal */
+/* Verification modal: a centred reading panel (the whole screen on phones). Header with the
+   verdict, app + version and the close button; one row of quiet action chips; then the facts,
+   the report, the files and the comments, each under a small uppercase caption. */
 #verificationModalBackdrop {
   display: none;
   position: fixed;
@@ -969,20 +965,7 @@ table td.asset-description {
   background: rgba(0, 0, 0, 0.45);
 }
 body.dark #verificationModalBackdrop {
-  background: rgba(0, 0, 0, 0.75);
-}
-body.dark #verificationModal {
-  background: #424242;
-  border-color: var(--neutral-5);
-  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.8), 0 0 0 1px var(--neutral-5);
-  color: var(--neutral-0);
-}
-
-@media screen and (max-width: 480px) {
-  #verificationModalBackdrop {
-    z-index: 1000;
-    background: var(--body);
-  }
+  background: rgba(0, 0, 0, 0.7);
 }
 
 #verificationModal {
@@ -992,113 +975,382 @@ body.dark #verificationModal {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 1px solid var(--border-color);
   z-index: 1000;
-  border-radius: 12px;
-  height: 80vh;
+  width: min(94vw, 1040px);
+  max-height: min(88vh, 1100px);
+  border: 1px solid var(--neutral-5);
+  border-radius: 16px;
   background: var(--body);
+  color: var(--text);
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.28);
 }
+body.dark #verificationModal {
+  background: var(--neutral-7);
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.7);
+}
+
+.verification-modal-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  flex: 0 0 auto;
+  padding: 18px 20px 0;
+}
+
+.verification-modal-heading {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: grid;
+  gap: 4px;
+}
+
+.verification-modal-badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.verification-modal-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px 3px 8px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font-size: $font-xs;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.verification-modal-status--good {
+  color: #15803d;
+  background: rgba(27, 222, 27, 0.14);
+  border-color: rgba(27, 222, 27, 0.35);
+}
+.verification-modal-status--bad {
+  color: #b91c1c;
+  background: rgba(208, 34, 34, 0.12);
+  border-color: rgba(208, 34, 34, 0.28);
+}
+body.dark .verification-modal-status--good {
+  color: #7ee2a3;
+  background: rgba(0, 185, 0, 0.2);
+  border-color: rgba(0, 185, 0, 0.35);
+}
+body.dark .verification-modal-status--bad {
+  color: #f2a0a0;
+  background: rgba(185, 0, 0, 0.26);
+  border-color: rgba(185, 0, 0, 0.4);
+}
+
+/* A small check / cross, used by the verdict pill, the other attempts and the endorsements. */
+.verification-modal-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 14px;
+  height: 14px;
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+.verification-modal-mark--good {
+  color: var(--good);
+}
+.verification-modal-mark--bad {
+  color: var(--bad);
+}
+
+.verification-modal-title {
+  margin: 0;
+  font-size: $font-xl;
+  font-weight: 700;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
+.verification-modal-subtitle {
+  margin: 0;
+  font-size: $font-sm;
+  color: var(--neutral-3);
+}
+
+.verification-modal-close {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  margin: -6px -8px 0 0;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--neutral-3);
+  cursor: pointer;
+
+  svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  &:hover,
+  &:focus-visible {
+    background: var(--neutral-6);
+    color: var(--text);
+    outline: none;
+  }
+}
+body.dark .verification-modal-close:hover,
+body.dark .verification-modal-close:focus-visible {
+  background: var(--neutral-5);
+}
+
+/* Toolbar */
 
 #verificationModalToolbar {
   flex: 0 0 auto;
   position: relative;
   z-index: 3;
   overflow: visible;
-  padding: 20px 20px 10px;
-  padding-top: 5px;
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--neutral-5);
 }
 
 #verificationModalToolbar .verification-modal-toolbar-row {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   margin: 0;
-  overflow: visible;
 }
 
-#verificationModalToolbar .verification-modal-toolbar-row > .btn,
-#verificationModalToolbar .verification-modal-share,
-#verificationModalToolbar #verificationZapReportGroup,
-#verificationModalToolbar .verification-modal-delete-link {
-  margin-left: 0 !important;
-}
-
-#verificationModalToolbar .verification-modal-toolbar-row .btn {
-  margin-bottom: 0;
+#verificationModalToolbar [hidden] {
+  display: none !important;
 }
 
 #verificationModalToolbar .verification-modal-share,
 #verificationModalToolbar .verification-modal-share.shareButtonContainer,
-#verificationModalToolbar .verification-modal-share .dropdown {
+#verificationModalToolbar .verification-modal-share .dropdown,
+#verificationModalToolbar #verificationActionButtons,
+#verificationModalToolbar #verificationActionButtons .dropdown {
   display: flex;
   align-items: center;
 }
-@media screen and (max-width: 480px) {
-  #verificationModal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    height: 100dvh;
-    transform: none;
-    border-radius: 0;
+
+#verificationModalToolbar #verificationActionButtons:empty {
+  display: none;
+}
+
+.verification-modal-menu-wrap {
+  display: inline-flex;
+  position: relative;
+  vertical-align: middle;
+}
+
+/* Every action is the same quiet chip, including the shared Share and Nostr components. */
+#verificationModalToolbar .btn:not(.shareButtonNetwork) {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  padding: 6px 12px;
+  border: 1px solid var(--neutral-5) !important;
+  border-radius: 999px;
+  background: var(--body);
+  color: var(--accent-text) !important;
+  font-family: inherit;
+  font-size: $font-xs;
+  font-weight: 600;
+  line-height: 1.3;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+
+  &:hover,
+  &:focus-visible {
+    background: var(--accent-50);
+    border-color: var(--accent) !important;
+    outline: none;
+  }
+
+  &:disabled {
+    color: var(--neutral-3) !important;
     background: var(--body);
-    z-index: 1001;
+    border-color: var(--neutral-5) !important;
+    cursor: not-allowed;
   }
-  #verificationContent {
-    padding-top: 56px;
+
+  svg,
+  .ws-icon {
+    width: 15px;
+    height: 15px;
+    margin: 0 !important;
+  }
+
+  .ws-icon-caret-down {
+    width: 10px;
+    height: 10px;
+  }
+
+  .verification-modal-action__icon {
+    display: inline-flex;
+  }
+
+  /* The Nostr mark is white; give it an accent tile so it reads on both themes. */
+  img {
+    box-sizing: border-box;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    padding: 3px;
+    border-radius: 4px;
+    background: var(--accent);
   }
 }
-@media screen and (min-width: 481px) {
-  #verificationModal {
-    width: 95vw;
+body.dark #verificationModalToolbar .btn:not(.shareButtonNetwork),
+body.dark #verificationModalToolbar .btn:not(.shareButtonNetwork):disabled {
+  background: var(--neutral-7);
+}
+body.dark #verificationModalToolbar .btn:not(.shareButtonNetwork):hover,
+body.dark #verificationModalToolbar .btn:not(.shareButtonNetwork):focus-visible {
+  background: var(--accent-50);
+}
+
+/* The share component pulses its trigger red for one's own verification; a steady accent ring instead. */
+#verificationModalToolbar .share-dropdown-trigger--pulse,
+#verificationModalToolbar .share-dropdown-trigger--pulse:hover {
+  animation: none;
+  border-color: var(--accent) !important;
+  background: var(--accent-50);
+}
+
+/* Dropdown menus: ours and, inside the modal only, those of the shared components (their own
+   styles are injected after the stylesheet, so the Nostr menu needs the container id too). */
+.verification-modal-menu,
+#verificationModalToolbar .share-dropdown-menu,
+#verificationModalToolbar #nostrButtonContainer .dropdown-content2 {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 10003;
+  box-sizing: border-box;
+  min-width: 230px;
+  max-width: 90vw;
+  margin-top: 6px;
+  padding: 4px;
+  border: 1px solid var(--neutral-5);
+  border-radius: 10px;
+  background: var(--body);
+  color: var(--text);
+  box-shadow: 0 10px 30px var(--shadow-3);
+  font-size: $font-sm;
+}
+body.dark .verification-modal-menu,
+body.dark #verificationModalToolbar .share-dropdown-menu,
+body.dark #verificationModalToolbar #nostrButtonContainer .dropdown-content2 {
+  background: var(--neutral-7);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+/* On dark the text is light, so a light tile would hide the white mark: invert a black one. */
+body.dark #verificationModalToolbar .share-dropdown-menu a img {
+  background: #000;
+  filter: invert(1);
+}
+body.dark #verificationModalToolbar .share-dropdown-menu a:hover img,
+body.dark #verificationModalToolbar .share-dropdown-menu a:focus-visible img {
+  background: currentColor;
+  filter: none;
+}
+
+.verification-modal-menu__item,
+#verificationModalToolbar .share-dropdown-menu a,
+#verificationModalToolbar #nostrButtonContainer .dropdown-content2 button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 8px 10px;
+  border: 0 !important;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text) !important;
+  font-family: inherit;
+  font-size: $font-sm !important;
+  font-weight: 500;
+  line-height: 1.3;
+  text-align: left;
+  text-decoration: none !important;
+  cursor: pointer;
+
+  &:hover,
+  &:focus-visible {
+    background: var(--accent-50);
+    color: var(--accent-text) !important;
+    outline: none;
+  }
+
+  /* As big as the Nostr tile, which the share component sizes inline at 25px. */
+  svg {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+  }
+
+  /* The Nostr mark is white: a tile in the text colour makes it match the other icons. */
+  img {
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    padding: 4px;
+    border-radius: 5px;
+    background: currentColor;
+  }
+
+  /* The site styles spans inside any .dropdown as bold 1.22rem; the menu text is plain. */
+  span,
+  .network-text {
+    display: inline;
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
   }
 }
-@media screen and (min-width: 1200px) {
-  #verificationModal {
-    width: 85vw;
-  }
-}
-@media screen and (min-width: 1800px) {
-  #verificationModal {
-    width: 80vw;
-  }
-}
-@media screen and (min-width: 2300px) {
-  #verificationModal {
-    width: 75vw;
-  }
-}
+
+/* Content */
 
 #verificationContent {
   flex: 1 1 auto;
   min-height: 0;
-  padding: 20px;
-  padding-top: 5px;
+  padding: 18px 20px 22px;
   overflow-y: auto;
   overflow-x: auto;
   max-width: 100%;
+  border-radius: 0 0 16px 16px;
   font-size: 16px; // type-scale-exempt: hand-tuned responsive ladder
-  /* Styles for scrollbar */
-  /* Styles for scrollbar - Firefox */
+  line-height: 1.5;
   scrollbar-width: thin;
-  scrollbar-color: rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0.1);
+  scrollbar-color: var(--neutral-4) transparent;
 }
 #verificationContent::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 #verificationContent::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0.8);
-  border-radius: 10px;
+  background: transparent;
 }
 #verificationContent::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
+  background: var(--neutral-4);
+  border-radius: 8px;
 }
 #verificationContent::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 0, 0, 0.3);
+  background: var(--neutral-3);
 }
 @media screen and (max-width: 480px) {
   #verificationContent {
@@ -1115,7 +1367,7 @@ body.dark #verificationModal {
 }
 @media screen and (min-width: 1200px) {
   #verificationContent {
-    font-size: 18px; // type-scale-exempt: hand-tuned responsive ladder
+    font-size: 17px; // type-scale-exempt: hand-tuned responsive ladder
   }
   #verificationContent pre code {
     font-size: 15px; // type-scale-exempt: hand-tuned responsive ladder
@@ -1127,27 +1379,441 @@ body.dark #verificationModal {
   margin-bottom: 0em;
 }
 
-#closeModal {
+.verification-modal-section {
+  min-width: 0;
+}
+.verification-modal-section + .verification-modal-section {
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px solid var(--neutral-5);
+}
+
+.verification-modal-caption {
+  margin: 0 0 10px;
+  font-size: $font-xxs;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--neutral-3);
+}
+
+/* Facts: a two-column grid on desktop, one column on phones; the hash row spans both. */
+.verification-modal-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px 28px;
+  margin: 0;
+}
+
+.verification-modal-fact {
+  min-width: 0;
+
+  dt {
+    margin: 0 0 6px;
+    font-size: $font-xxs;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--neutral-3);
+  }
+
+  dd {
+    margin: 0;
+    min-width: 0;
+  }
+
+  .profile-card {
+    gap: 10px;
+  }
+
+  /* The verifier's name: a step above body text, not a heading. */
+  .profile-info > div:first-child {
+    font-weight: 500;
+  }
+
+  .profile-image {
+    width: 36px;
+    height: 36px;
+  }
+
+  .profile-nip05 {
+    font-size: $font-xs;
+    color: var(--neutral-3);
+  }
+}
+.verification-modal-fact--wide {
+  grid-column: 1 / -1;
+}
+
+/* The reproduced hashes, between the title and the platform line. No label. */
+.verification-modal-hashes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 14px;
+}
+
+.verification-modal-hash-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+/* Only the first 8 hex characters; the copy icon beside it copies the whole hash. */
+.verification-modal-hash {
+  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
+  font-size: $font-sm;
+}
+
+/* Small round icon button: copy a hash. */
+.verification-modal-icon-btn {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--accent-text);
   cursor: pointer;
-  position: fixed;
-  top: 0;
-  right: 17px;
-  font-size: $font-hero;
-  line-height: 1;
-  z-index: 2;
+
+  svg {
+    width: 15px;
+    height: 15px;
+  }
+
+  &:hover,
+  &:focus-visible {
+    background: var(--accent-50);
+    outline: none;
+  }
+}
+
+/* Report */
+
+.verification-modal-report-tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.verification-modal-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  padding: 6px 12px;
+  border: 1px solid var(--neutral-5);
+  border-radius: 999px;
   background: var(--body);
-  border-radius: 12px;
-  clear: both;
-  z-index: 1000;
+  color: var(--accent-text);
+  font-family: inherit;
+  font-size: $font-xs;
+  font-weight: 600;
+  line-height: 1.3;
+  cursor: pointer;
+
+  svg {
+    width: 15px;
+    height: 15px;
+  }
+
+  &:hover,
+  &:focus-visible {
+    background: var(--accent-50);
+    border-color: var(--accent);
+    outline: none;
+  }
 }
-body.dark #closeModal {
-  background: #424242;
+body.dark .verification-modal-chip {
+  background: var(--neutral-7);
 }
+
+.verification-modal-note {
+  font-size: $font-sm;
+}
+#verificationContent p.verification-modal-note {
+  margin: 0 0 10px;
+}
+
+/* Files: one line per file, name first, the actions right beside it. */
+.verification-modal-files {
+  list-style: none;
+  display: grid;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+}
+
+.verification-modal-file {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  margin: 0;
+  font-size: $font-sm;
+  line-height: 1.5;
+
+  small {
+    font-size: $font-xs;
+    color: var(--neutral-3);
+  }
+}
+
+.verification-modal-file__name {
+  flex: 0 1 auto;
+  min-width: 0;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+/* The scripts are supporting detail, so their names stay at body weight. */
+#verification-attachments-list .verification-modal-file__name {
+  font-weight: 400;
+}
+
+/* A recording's build log button, beside its file and a little smaller than on its own */
+.verification-modal-file:has(.verification-modal-file__log) {
+  flex-wrap: wrap; /* on a phone the button drops under the name rather than splitting it */
+}
+.verification-modal-file__log {
+  display: inline-flex;
+  margin-left: 4px;
+}
+#verificationContent .verification-modal-file .build-log-button {
+  margin: 0;
+  padding: 3px 10px 3px 8px;
+  gap: 6px;
+}
+
+/* File buttons (download, preview): the build log button's dark pill, icon only. */
+.verification-modal-file__download {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 26px;
+  padding: 0 9px;
+  border: 1px solid #2a3040;
+  border-radius: 6px;
+  background: #11141c;
+  color: #e6e9f2;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+
+  svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  &:hover,
+  &:focus-visible {
+    border-color: var(--accent);
+    background: #1b2030;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    outline: none;
+  }
+  &:focus-visible {
+    box-shadow: 0 0 0 3px var(--accent-50), 0 3px 10px rgba(0, 0, 0, 0.3);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .verification-modal-file__download { transition: none; }
+}
+
+/* A lone recording: no name, just its build log button and then the download. */
+.verification-modal-file--recording-only .verification-modal-file__log {
+  margin-left: 0;
+}
+
+/* Other attempts by the same verifier */
+.verification-modal-attempts {
+  list-style: none;
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  font-size: $font-sm;
+}
+
+.verification-modal-attempt {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+}
+
+.verification-modal-attempt__status {
+  color: var(--neutral-3);
+}
+
+/* Zaps and endorsements: one person per row */
+#verificationContent .verification-modal-person {
+  gap: 10px;
+  margin: 0 0 8px;
+  font-size: $font-sm;
+
+  .profile-image {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+/* Comments: the component ships its own styles; inside the modal they follow the panel. */
+#verificationContent .comments-section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  > p:first-child {
+    margin: 0 0 10px;
+    font-size: $font-xxs;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--neutral-3);
+  }
+
+  .comment-input-container {
+    gap: 8px;
+  }
+
+  .comment-input {
+    margin: 0;
+    padding: 10px 12px;
+    border: 1px solid var(--neutral-5);
+    border-radius: 10px;
+    background: var(--body);
+    color: var(--text);
+    font: inherit;
+    font-size: $font-sm;
+    line-height: 1.4;
+
+    &:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 2px var(--accent-50);
+    }
+  }
+
+  /* The same quiet chip as the toolbar actions, as tall as the one-line comment box. */
+  .comment-submit-btn {
+    box-sizing: border-box;
+    height: 40px;
+    padding: 0 18px;
+    border: 1px solid var(--neutral-5);
+    border-radius: 999px;
+    background: var(--body);
+    color: var(--accent-text);
+    font: inherit;
+    font-size: $font-xs;
+    font-weight: 600;
+    line-height: 1.3;
+    white-space: nowrap;
+
+    &:hover,
+    &:focus-visible {
+      background: var(--accent-50);
+      border-color: var(--accent);
+      outline: none;
+    }
+
+    &:disabled {
+      color: var(--neutral-3);
+      background: var(--body);
+      border-color: var(--neutral-5);
+      cursor: not-allowed;
+    }
+  }
+
+  .ws-v-comment {
+    margin: 8px 0 0;
+    padding: 10px 12px;
+    border: 1px solid var(--neutral-5) !important;
+    border-radius: 10px;
+    background: var(--neutral-6);
+    font-family: inherit;
+    font-size: $font-sm;
+  }
+
+  .comment-author-name {
+    color: var(--text);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--accent-text);
+      text-decoration: underline;
+    }
+  }
+
+  .comment-content {
+    color: var(--text);
+  }
+
+  .comment-date {
+    color: var(--neutral-3);
+  }
+}
+body.dark #verificationContent .comments-section {
+  .comment-input,
+  .comment-submit-btn,
+  .comment-submit-btn:disabled {
+    background: var(--neutral-7);
+  }
+
+  .comment-submit-btn:hover,
+  .comment-submit-btn:focus-visible {
+    background: var(--accent-50);
+  }
+
+  .ws-v-comment {
+    background: rgba(255, 255, 255, 0.03);
+  }
+}
+
+/* Phones: the modal is the screen. */
 @media screen and (max-width: 480px) {
-  #closeModal {
-    position: absolute;
-    top: 14px;
-    right: 12px;
+  #verificationModalBackdrop {
+    z-index: 1000;
+    background: var(--body);
+  }
+  #verificationModal {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    max-height: none;
+    height: 100vh;
+    height: 100dvh;
+    transform: none;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    z-index: 1001;
+  }
+  body.dark #verificationModal {
+    background: var(--body);
+  }
+  .verification-modal-header {
+    padding: 14px 16px 0;
+  }
+  .verification-modal-title {
+    font-size: $font-lg;
+  }
+  #verificationModalToolbar {
+    padding: 12px 16px;
+  }
+  #verificationContent {
+    padding: 16px 16px 24px;
+    border-radius: 0;
+  }
+  .verification-modal-facts {
+    gap: 14px;
   }
 }
 
@@ -1417,24 +2083,14 @@ body.dark #endorsementModalContent {
   cursor: pointer;
 }
 
-/* Verification modal: the first 8 hex characters stand out, the rest steps back */
-.verification-modal-hash {
-  overflow-wrap: anywhere;
-}
-
-.verification-modal-hash .hash-prefix {
-  font-size: 1.1em;
-  font-weight: 700;
-  color: var(--accent-text);
-}
-
-.verification-modal-hash .hash-rest {
-  font-size: 0.9em;
-}
-
 /* Verification report: the script facts under the verdict, a little apart */
 #verificationContent p.report-fact {
   margin-top: 1em;
+}
+
+/* Verification report: "Other information" set apart from the text above it */
+#verificationContent .markdown-content details {
+  margin-top: 1.5em;
 }
 
 /* Verification report: a short hash copies the full one on a tap */
@@ -1442,9 +2098,9 @@ body.dark #endorsementModalContent {
   cursor: pointer;
 }
 
-/* Verification modal: discreet delete action */
+/* Verification modal: discreet delete action, at the far end of the chip row */
 .verification-modal-delete-link {
-  margin-left: 10px;
+  margin-left: auto;
   font-size: $font-xs;
   font-weight: 400;
   color: #b84c4c;
