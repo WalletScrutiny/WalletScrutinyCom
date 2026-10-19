@@ -832,12 +832,12 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
       + htmlOf(el('span', { className: 'verification-modal-hash', title: hash }, hash.slice(0, 8)))
       + htmlOf(el('button', {
         type: 'button',
-        className: 'verification-modal-chip js-copy-hash',
+        className: 'verification-modal-icon-btn js-copy-hash',
+        title: 'Copy entire hash',
+        'aria-label': 'Copy entire hash',
         dataset: { hash },
-      },
-        el('span', { 'aria-hidden': 'true', html: wsIcon('copy') }),
-        'Copy entire hash',
-      ))
+        html: wsIcon('copy'),
+      }))
       + '</div>').join('');
     factsHTML += factHtml(
       verificationHashes.length === 1 ? 'Hash of the binary reproduced' : 'Hashes of the binaries reproduced',

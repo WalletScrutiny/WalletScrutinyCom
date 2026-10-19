@@ -69,10 +69,10 @@ test.describe('ZEUS verification detail page', () => {
       expect(createdAtIso).toMatch(/^2026-05-08T16:59:/);
 
       await expect.soft(content).toContainText('Hash of the binary reproduced');
-      // Only the first 8 characters show; the chip copies the whole hash.
+      // Only the first 8 characters show; the copy icon copies the whole hash.
       await expect.soft(content.locator('.verification-modal-hash')).toHaveText('709e3795');
       const copyHash = content.locator('.verification-modal-hash-row .js-copy-hash');
-      await expect.soft(copyHash).toHaveText('Copy entire hash');
+      await expect.soft(copyHash).toHaveAttribute('title', 'Copy entire hash');
       await expect.soft(copyHash).toHaveAttribute('data-hash', '709e379506f7d86cfb146493441fc72b7f20cb90578a9b26b9ca9da374782caf');
       // The header carries the verdict, the app and version, the platform and the date.
       const heading = modal.locator('#verificationModalHeading');
