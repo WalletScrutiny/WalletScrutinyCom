@@ -39,6 +39,15 @@ function hexSet(entities) {
   return new Set(entities.map(toHexPubkey).filter(Boolean));
 }
 
+/** Trusted authors and the blocklist, from the data attributes on the opinions index. */
+export function readModerationLists(dataset) {
+  return {
+    trustedAuthors: hexSet(parseJsonList(dataset.trustedAuthors)),
+    blockedEventIds: new Set(parseJsonList(dataset.blockedEventIds).map((id) => id.toLowerCase())),
+    blockedAuthors: hexSet(parseJsonList(dataset.blockedAuthors)),
+  };
+}
+
 /**
  * Widget parameters from the data attributes written by
  * _includes/review/nostrOpinion.html.
@@ -59,8 +68,6 @@ export function readWidgetConfig(dataset) {
     image: dataset.image ?? '',
     tags: parseTagList(dataset.tags || 'nostrOpinion'),
     summary: `An opinion made about ${subject} generated using nostr-opinion-plugin.`,
-    trustedAuthors: hexSet(parseJsonList(dataset.trustedAuthors)),
-    blockedEventIds: new Set(parseJsonList(dataset.blockedEventIds).map((id) => id.toLowerCase())),
-    blockedAuthors: hexSet(parseJsonList(dataset.blockedAuthors)),
+    ...readModerationLists(dataset),
   };
 }

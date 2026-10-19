@@ -10,9 +10,11 @@ import {
   getWeightForAppFromAssetInformation,
   isSamePlatform,
   getFileAttachmentIDsForVerificationEvent,
+  showSiteAdminMenuItems,
 } from '../../src/verifications_utils.mjs';
 import {
   assetRegistrationKind,
+  siteAdminPubkeys,
   verificationKind,
 } from '../../src/nostr-constants.mjs';
 import { HASH_A, HASH_B, HASH_C, makeAsset, makeEvent, makeVerification } from './fixtures.mjs';
@@ -404,5 +406,26 @@ describe('isSamePlatform', () => {
     assert.equal(isSamePlatform('iphone', 'android'), false);
     assert.equal(isSamePlatform('linux', 'desktop'), false);
     assert.equal(isSamePlatform('android', undefined), false);
+  });
+});
+
+describe('showSiteAdminMenuItems', () => {
+  function masthead() {
+    const root = document.createElement('ul');
+    root.innerHTML = '<li data-site-admin-only style="display: none;"><a href="/opinions/">Opinions</a></li>'
+      + '<li><a href="/about/">About</a></li>';
+    return root;
+  }
+
+  test('shows the admin items for a site admin only', () => {
+    const forAdmin = masthead();
+    assert.equal(showSiteAdminMenuItems(siteAdminPubkeys[0], forAdmin), true);
+    assert.equal(forAdmin.querySelector('[data-site-admin-only]').style.display, '');
+
+    for (const pubkey of ['ab'.repeat(32), null, undefined]) {
+      const forOther = masthead();
+      assert.equal(showSiteAdminMenuItems(pubkey, forOther), false);
+      assert.equal(forOther.querySelector('[data-site-admin-only]').style.display, 'none');
+    }
   });
 });

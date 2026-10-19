@@ -9,9 +9,11 @@ const {
   verificationsUiSrc,
   shareUiSrc,
   opinionsUiSrc,
+  opinionsModerationSrc,
   loadVerificationsUi,
   loadShareUi,
   loadOpinionsUi,
+  loadOpinionsModeration,
   deferSiteWideLoad,
 } = window.wsLoader;
 
@@ -49,6 +51,11 @@ const startVerificationsData = () => {
 
   (async function() {
     const ndkConnectPromise = nostrConnect();
+    void loadSiteAdminMenu();
+
+    if (loadOpinionsModeration) {
+      appendScript(opinionsModerationSrc);
+    }
 
     if (deferSiteWideLoad) {
       // Wallet pages paint their own table first. The site-wide load below

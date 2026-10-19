@@ -1,19 +1,25 @@
 /**
  * Who is posting: the browser extension (NIP-07), like everywhere else on the
- * site. Reading needs no identity. The pubkey is kept for the page; a flag in
- * localStorage lets the next page ask the extension again without a click.
+ * site. The pubkey is read once when the page loads. An extension that is
+ * present then is the identity for this page; one that is not present leaves
+ * the page without an identity. Reading opinions needs no identity.
  */
 import { waitNostr } from 'nip07-awaiter';
 import { getUserPubkeyFromSigner } from '../nostr-client.mjs';
-import { signedInStorageKey } from './constants.mjs';
 
 const NIP07_WAIT_MS = 3125;
+const LEGACY_SIGNED_IN_KEY = 'wsOpinionsSignedIn';
 
 export const NO_EXTENSION_MESSAGE =
   'Posting an opinion needs a Nostr browser extension (NIP-07), for example Alby, nos2x or Flamingo.';
 
+export const EXTENSION_DECLINED_MESSAGE =
+  'The Nostr extension did not share an account.';
+
 let pubkey = null;
 const listeners = new Set();
+let extensionCheck = null;
+let detection = null;
 
 function notify() {
   for (const listener of listeners) {
@@ -38,8 +44,6 @@ function storage() {
   }
 }
 
-let extensionCheck = null;
-
 /**
  * Resolves to whether a NIP-07 extension is present. Extensions inject
  * `window.nostr` after the page starts, so this waits once and remembers the
@@ -50,33 +54,30 @@ export function hasExtension() {
   return extensionCheck;
 }
 
-/** Asks the extension for the pubkey; throws when no extension is installed. */
-export async function signIn() {
-  const nip07 = await waitNostr(NIP07_WAIT_MS);
-  if (!nip07) {
-    throw new Error(NO_EXTENSION_MESSAGE);
-  }
-  pubkey = await getUserPubkeyFromSigner();
-  storage()?.setItem(signedInStorageKey, '1');
-  notify();
-  return pubkey;
+/**
+ * Adopts the extension account when one is available at load, once per page.
+ * A missing or declining extension leaves the pubkey empty for the rest of
+ * the page; there is no later sign-in.
+ */
+export function detectIdentity() {
+  detection ??= detectIdentityOnce();
+  return detection;
 }
 
-/** Silently signs in again when the user did so on an earlier page. */
-export async function restoreSignIn() {
-  if (storage()?.getItem(signedInStorageKey) !== '1') {
+async function detectIdentityOnce() {
+  storage()?.removeItem(LEGACY_SIGNED_IN_KEY);
+  const nip07 = await hasExtension();
+  if (!nip07) {
+    pubkey = null;
+    notify();
     return null;
   }
   try {
-    return await signIn();
+    pubkey = await getUserPubkeyFromSigner();
   } catch (error) {
-    console.debug('opinions: could not restore the extension sign-in', error?.message ?? error);
-    return null;
+    pubkey = null;
+    console.debug('opinions: extension did not provide a pubkey', error?.message ?? error);
   }
-}
-
-export function signOut() {
-  pubkey = null;
-  storage()?.removeItem(signedInStorageKey);
   notify();
+  return pubkey;
 }
