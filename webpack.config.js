@@ -68,6 +68,10 @@ module.exports = (env, argv) => {
         import: ['./src/opinions/index.mjs'],
         dependOn: ['dom_sanitization', 'verifications_data', 'verifications_ui'],
       },
+      opinions_moderation: {
+        import: ['./src/opinions/moderation-page-boot.mjs'],
+        dependOn: ['dom_sanitization', 'verifications_data'],
+      },
     },
     output: {
       filename: argv.mode === 'production' ? '[name].[contenthash].bundle.min.js' : '[name].bundle.min.js',
