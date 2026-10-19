@@ -103,6 +103,14 @@ export function viaLine(a) {
   return el('div', { className: 'dp-via', ...(title ? { title } : {}) }, parts.join(' · '));
 }
 
+// "github.com/o/r" under the package name: where the source lives, or nothing
+// when the registry names no repository (never a guess).
+export function repoLine(a) {
+  if (typeof a.repo !== 'string' || !/^https:\/\//.test(a.repo)) return null;
+  const label = a.repo.replace(/^https:\/\//, '');
+  return el('div', { className: 'dp-repo' }, el('a', { href: a.repo, rel: 'noopener', target: '_blank', title: `Source repository of ${a.package}` }, label));
+}
+
 // A package name with break opportunities after ':' and '/' (gradle
 // group:artifact, npm @scope/name), so a long coordinate wraps at its joints.
 function breakableName(name) {
@@ -142,7 +150,7 @@ function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = nul
   const where = whereOf(a);
   const fresh = Boolean(freshId) && statementsOf(a).some(s => s.id === freshId);
   return el('tr', { className: fresh ? 'dp-row--fresh' : null, dataset: { advisory: a.id, package: a.package } },
-    el('td', { className: 'dp-td-package' }, ...breakableName(a.package), mixedEcosystems && a.ecosystem ? el('span', { className: 'dp-eco' }, a.ecosystem) : null, viaLine(a)),
+    el('td', { className: 'dp-td-package' }, ...breakableName(a.package), mixedEcosystems && a.ecosystem ? el('span', { className: 'dp-eco' }, a.ecosystem) : null, repoLine(a), viaLine(a)),
     el('td', {}, a.version),
     el('td', {}, el('a', { href: `${OSV_URL}${encodeURIComponent(a.id)}`, target: '_blank', rel: 'noopener noreferrer', title: a.summary || '' }, a.id)),
     el('td', {}, severityCell(a)),
