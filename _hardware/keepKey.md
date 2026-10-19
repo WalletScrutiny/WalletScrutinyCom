@@ -68,12 +68,9 @@ and as such we will hopefully come to the same conclusions.
 
 That sounds like it's a hardware wallet by our standards.
 
-On their [help page](https://shapeshift.zendesk.com/hc/en-us/articles/360060952231-Is-KeepKey-Open-Source-)
-they also clarify:
-
-> **Is KeepKey Open Source?**<br>
-  KeepKey’s firmware is 100% open source.<br>
-  Take a look at our source code on [GitHub](https://github.com/keepkey) page!
+On their [support page](https://keepkey.com/support) they describe KeepKey as
+"the open-source hardware wallet" with "open-source firmware", and link to their
+source code on [GitHub](https://github.com/keepkey).
 
 This device is **source available**.
 
