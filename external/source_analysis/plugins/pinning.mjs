@@ -425,6 +425,15 @@ function analyzeNpm(repoPath) {
 
 /* ---------------------------------- pip ---------------------------------- */
 
+// pip decodes a requirements file by its byte-order mark; Windows editors save UTF-16.
+function readRequirements(file) {
+  const buf = fs.readFileSync(file);
+  const utf16 = () => Buffer.from(buf.subarray(2, buf.length - (buf.length % 2)));
+  if (buf[0] === 0xff && buf[1] === 0xfe) return utf16().toString('utf16le');
+  if (buf[0] === 0xfe && buf[1] === 0xff) return utf16().swap16().toString('utf16le');
+  return buf.toString('utf8').replace(/^\uFEFF/, '');
+}
+
 function analyzePip(repoPath) {
   const reqFiles = findFiles(repoPath, (name) => /^requirements[^/]*\.txt$/.test(name));
   if (!reqFiles.length) return null;
@@ -442,7 +451,7 @@ function analyzePip(repoPath) {
   };
 
   for (const reqFile of reqFiles) {
-    const raw = fs.readFileSync(reqFile, 'utf8');
+    const raw = readRequirements(reqFile);
     // join continuation lines so per-requirement --hash options stay attached
     const logical = raw.replace(/\\\r?\n/g, ' ').split('\n');
     for (const line of logical) {
