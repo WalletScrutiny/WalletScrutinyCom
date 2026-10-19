@@ -13,6 +13,9 @@ test('normaliseRepoUrl handles the shapes registries use', () => {
     'scm:git:git://github.com/o/r.git': 'https://github.com/o/r',
     'https://github.com/o/r/tree/main/packages/x': 'https://github.com/o/r',
     'https://gitlab.com/g/sub/r/-/tree/main': 'https://gitlab.com/g/sub/r',
+    'https://gitbox.apache.org/repos/asf?p=commons-io.git': 'https://gitbox.apache.org/repos/asf/commons-io',
+    'https://git-wip-us.apache.org/repos/asf?p=commons-lang.git': 'https://gitbox.apache.org/repos/asf/commons-lang',
+    'https://cs.android.com/androidx/platform/frameworks/support': 'https://android.googlesource.com/platform/frameworks/support',
   };
   for (const [raw, want] of Object.entries(cases)) assert.equal(normaliseRepoUrl(raw), want, raw);
   assert.equal(normaliseRepoUrl('https://github.com/o'), null);
@@ -73,6 +76,7 @@ test('identity: annotated tags peel to the commit; monorepo tags prefer the pack
   assert.equal(matchTag(tags, 'pkg', '1.2'), null);
   assert.equal(matchTag(new Map([['okhttp-parent-4.12.0', a]]), 'com.squareup.okhttp3:okhttp', '4.12.0'), null);
   assert.equal(matchTag(new Map([['okhttp-4.12.0', a]]), 'com.squareup.okhttp3:okhttp', '4.12.0'), 'okhttp-4.12.0');
+  assert.equal(matchTag(new Map([['rel/commons-io-2.11.0', a]]), 'commons-io:commons-io', '2.11.0'), 'rel/commons-io-2.11.0');
 });
 
 test('identity: no tag falls back to the registry-named commit; unreachable repo is its own status', () => {

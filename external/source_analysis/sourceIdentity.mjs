@@ -56,7 +56,7 @@ export function matchTag(tags, name, version) {
   const names = [...tags.keys ? tags.keys() : tags];
   const v = escapeRe(version);
   const leaf = name.includes(':') ? name.split(':')[1] : name.replace(/^@[^/]+\//, '');
-  const qualified = new RegExp(`^(?:${escapeRe(name)}|${escapeRe(leaf)})[@/_-]v?${v}$`, 'i');
+  const qualified = new RegExp(`^(?:rel/|release/|releases/)?(?:${escapeRe(name)}|${escapeRe(leaf)})[@/_-]v?${v}$`, 'i');
   const bare = new RegExp(`^(?:v|V|r|rel|release|releases|version)?[-_/ ]?${v}$`);
   return names.find(t => qualified.test(t)) || names.find(t => bare.test(t)) || null;
 }
