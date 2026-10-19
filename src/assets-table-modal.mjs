@@ -663,7 +663,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     .map(tag => tag[1])
     .filter(id => isSha256Hex(id));
 
-  /* -------------------- Header: verdict, app + version, hash, platform and date -------------------- */
+  /* -------------------- Header: app + version, hash, verdict, platform and date -------------------- */
   const isReproducible = status === 'reproducible';
   const hashesEl = verificationHashes.length > 0
     ? el('div', { className: 'verification-modal-hashes' }, ...verificationHashes.map(hash =>
@@ -680,6 +680,8 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
       )))
     : null;
   heading.replaceChildren(...[
+    el('h2', { id: 'verificationModalTitle', className: 'verification-modal-title' }, `${walletTitle ?? ''} ${version ?? ''}`.trim()),
+    hashesEl,
     el('div', { className: 'verification-modal-badges' },
       el('span', { className: `verification-modal-status verification-modal-status--${isReproducible ? 'good' : 'bad'}` },
         el('span', { className: 'verification-modal-mark', 'aria-hidden': 'true', html: wsIcon(isReproducible ? 'check' : 'xmark') }),
@@ -687,8 +689,6 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
       ),
       isDraft ? el('span', { className: 'verification-draft-badge' }, isMyDraft ? 'Draft, not published yet' : 'Draft') : null,
     ),
-    el('h2', { id: 'verificationModalTitle', className: 'verification-modal-title' }, `${walletTitle ?? ''} ${version ?? ''}`.trim()),
-    hashesEl,
     el('p', { className: 'verification-modal-subtitle' },
       [platformLabel(verificationPlatform), formatDate(verification.created_at)].filter(Boolean).join(' · ')),
   ].filter(Boolean));
