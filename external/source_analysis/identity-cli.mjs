@@ -1,11 +1,11 @@
 #!/usr/bin/env node
-// Identity check over the database (plugins/source-identity.mjs): for every
+// Identity check over the database (sourceIdentity.mjs): for every
 // package version whose repository is known (source-repos-cli.mjs), list the
 // repository's tags once and record whether the version exists there.
 // Usage: node identity-cli.mjs [--all] [--limit N]   (SOURCE_ANALYSIS_DB_PATH selects the database)
 import minimist from 'minimist';
 import { initDatabase } from './ddbbUtils.mjs';
-import { lsRemoteTags, identityOf, npmProvenance } from './plugins/source-identity.mjs';
+import { lsRemoteTags, identityOf, npmProvenance } from './sourceIdentity.mjs';
 
 const CONCURRENCY = 6;
 

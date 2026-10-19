@@ -142,7 +142,7 @@ export function initDatabase(dbPath = DB_PATH) {
   for (const table of ['app_dependencies', 'app_vulnerabilities']) ensureColumn(db, table, 'dependants', 'TEXT');
 
   // Where a package's source lives, per (ecosystem, name): resolved from the
-  // registry metadata (plugins/source-repos.mjs) and cached, since it does not
+  // registry metadata (sourceRepos.mjs) and cached, since it does not
   // change per version. repo_url NULL = looked up, none named.
   db.exec(`
     CREATE TABLE IF NOT EXISTS package_sources (
@@ -156,7 +156,7 @@ export function initDatabase(dbPath = DB_PATH) {
     );
   `);
 
-  // Rung one of the dependency ladder (plugins/source-identity.mjs): does the
+  // Rung one of the dependency ladder (sourceIdentity.mjs): does the
   // shipped version exist in the package's source repository?
   db.exec(`
     CREATE TABLE IF NOT EXISTS package_identity (

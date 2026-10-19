@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 // Resolve the source repository of every package in the database that has no
-// cached lookup yet (plugins/source-repos.mjs) and store it in package_sources.
+// cached lookup yet (sourceRepos.mjs) and store it in package_sources.
 // Usage: node source-repos-cli.mjs [--all] [--limit N]   (SOURCE_ANALYSIS_DB_PATH selects the database)
 import minimist from 'minimist';
 import { initDatabase, packagesToResolve, savePackageSource } from './ddbbUtils.mjs';
-import { resolveRepo } from './plugins/source-repos.mjs';
+import { resolveRepo } from './sourceRepos.mjs';
 
 const CONCURRENCY = 8;
 
