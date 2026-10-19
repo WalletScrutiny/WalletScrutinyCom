@@ -51,6 +51,7 @@ const startVerificationsData = () => {
 
   (async function() {
     const ndkConnectPromise = nostrConnect();
+    void loadSiteAdminMenu();
 
     if (loadOpinionsModeration) {
       appendScript(opinionsModerationSrc);

@@ -2096,6 +2096,36 @@ const deleteVerificationComment = async function(commentEventId, reason = 'User 
   }
 };
 
+/**
+ * Shows the masthead items marked data-site-admin-only when `pubkey` is a
+ * site admin. The greedy nav measures its links on resize, so a resize event
+ * lets it fit the new item.
+ */
+export function showSiteAdminMenuItems(pubkey, root = document) {
+  if (!isWalletScrutinySiteAdmin(pubkey)) {
+    return false;
+  }
+  const items = root.querySelectorAll('[data-site-admin-only]');
+  for (const item of items) {
+    item.style.display = '';
+  }
+  if (items.length) {
+    window.dispatchEvent(new window.Event('resize'));
+  }
+  return items.length > 0;
+}
+
+const loadSiteAdminMenu = async function () {
+  if (!document.querySelector('[data-site-admin-only]')) {
+    return;
+  }
+  try {
+    showSiteAdminMenuItems(await getUserPubkey());
+  } catch {
+    // No extension, or it did not share an account: the items stay hidden.
+  }
+};
+
 const loadDraftVerificationsNotifications = async function () {
   let myPubkey;
   try {
@@ -2559,6 +2589,7 @@ if (typeof window !== 'undefined') {
   window.purifyConfig = purifyConfig;
   window.getStatusText = getStatusText;
   window.loadDraftVerificationsNotifications = loadDraftVerificationsNotifications;
+  window.loadSiteAdminMenu = loadSiteAdminMenu;
   window.doDraftVerificationAction = doDraftVerificationAction;
   window.getVerificationEvent = getVerificationEvent;
   window.deleteDraftVerification = deleteDraftVerification;
