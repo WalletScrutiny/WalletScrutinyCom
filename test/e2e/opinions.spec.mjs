@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './relay-fixture.mjs';
 
 import { attachConsoleGuards, injectNip07Signer, NOSTR_DATA_TIMEOUT_MS } from './helpers.mjs';
 
