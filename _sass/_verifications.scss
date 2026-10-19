@@ -628,6 +628,11 @@ body.dark-theme .verification-card__avatar .profile-circle--placeholder {
   border: 1px solid transparent;
 }
 
+/* The label takes the pill's colour, so a failed build reads red, not in the link green. */
+.verification-status-pill .attestation-status {
+  color: inherit;
+}
+
 .verification-status-pill__mark {
   display: inline-flex;
   flex: 0 0 auto;

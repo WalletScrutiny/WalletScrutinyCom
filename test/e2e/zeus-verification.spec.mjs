@@ -85,6 +85,12 @@ test.describe('ZEUS verification detail page', () => {
       // The verdict pill has the wallet page pills' frame, and those pills have the verdict's check mark.
       await expect.soft(heading.locator('.verification-modal-status')).toHaveCSS('border-top-width', '1px');
       await expect.soft(page.locator('.verification-card .verification-status-pill--reproducible .ws-icon-check').first()).toBeAttached();
+      // The pill's label is in the pill's own colour, not the link colour.
+      const pillColours = await page.locator('.verification-card .verification-status-pill').first().evaluate((pill) => [
+        getComputedStyle(pill).color,
+        getComputedStyle(pill.querySelector('.attestation-status')).color,
+      ]);
+      expect.soft(pillColours[1]).toBe(pillColours[0]);
       // The old one-paragraph build-server report, shown in today's layout.
       await expect.soft(content).toContainText(
         'Reproducible. We built version 13.0.1 from its public source code and got the same app users download.',
