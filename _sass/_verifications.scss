@@ -1465,9 +1465,8 @@ body.dark #verificationModalToolbar .share-dropdown-menu a:focus-visible img {
   font-size: $font-sm;
 }
 
-/* Small round icon buttons: copy a hash, download or preview a file. */
-.verification-modal-icon-btn,
-.verification-modal-file__action {
+/* Small round icon button: copy a hash. */
+.verification-modal-icon-btn {
   flex: 0 0 auto;
   display: inline-flex;
   align-items: center;
@@ -1592,7 +1591,7 @@ body.dark .verification-modal-chip {
   gap: 6px;
 }
 
-/* The download button: the build log button's dark pill, icon only. */
+/* File buttons (download, preview): the build log button's dark pill, icon only. */
 .verification-modal-file__download {
   flex: 0 0 auto;
   display: inline-flex;

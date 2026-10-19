@@ -115,6 +115,15 @@ test.describe('ZEUS verification detail page', () => {
       await expect.soft(attachmentsList.locator('[title="Preview zeus_build.sh"]')).toBeVisible();
       // Script names are supporting detail, not bold.
       await expect.soft(attachmentsList.locator('.verification-modal-file__name').first()).toHaveCSS('font-weight', '400');
+      // The script buttons are the same dark pill as the output file download button.
+      const outputDownload = content.locator('.js-download-blossom-file').first();
+      for (const title of ['Download zeus_build.sh', 'Preview zeus_build.sh']) {
+        const button = attachmentsList.locator(`[title="${title}"]`);
+        for (const property of ['background-color', 'border-radius', 'height']) {
+          const expected = await outputDownload.evaluate((node, p) => getComputedStyle(node).getPropertyValue(p), property);
+          await expect.soft(button).toHaveCSS(property, expected);
+        }
+      }
     });
 
     await test.step('Script preview works fine', async () => {
