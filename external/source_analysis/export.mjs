@@ -19,7 +19,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { groupByRepository } from './appList.mjs';
-import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow } from './ddbbUtils.mjs';
+import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources } from './ddbbUtils.mjs';
 
 export const SCHEMA = 1;
 const SEVERITIES = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown'];
@@ -91,7 +91,7 @@ function releasesWithoutAnalysis(db, appId, analyses) {
 
 // Everything the export says about one app.
 // counts: productCounts(db), passed in by exportAll so the two queries run once per export.
-export function buildApp(db, appId, aliases = [], counts = productCounts(db)) {
+export function buildApp(db, appId, aliases = [], counts = productCounts(db), sources = packageSources(db)) {
   const analyses = getAnalyses(db, appId);
   const releases = [];
   const seen = new Set();
@@ -114,6 +114,7 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db)) {
       direct: v.direct === null ? null : v.direct === 1, dev: v.dev === null ? null : v.dev === 1,
       scope: scopeOfRow(v) === 'unknown' ? null : scopeOfRow(v),
       dependants: dependantsOfRow(v.dependants),
+      repo: sources.get(`${v.ecosystem}:${v.name}`)?.repo_url || undefined,
       products: counts.byName.get(`${v.ecosystem}:${v.name}`) || 1,
       productsSameVersion: counts.byVersion.get(`${v.ecosystem}:${v.name}@${v.dep_version}`) || 1,
     }));
@@ -210,9 +211,10 @@ export function exportAll(db, outDir, { generatedAt = new Date().toISOString(), 
   const appIds = new Set([...listAnalysedApps(db), ...db.prepare('SELECT DISTINCT app_id FROM app_dependencies').all().map(r => r.app_id)]);
   const index = { schema: SCHEMA, generatedAt, analyser, apps: [] };
   const counts = productCounts(db);
+  const sources = packageSources(db);
   let releases = 0;
   for (const appId of [...appIds].sort()) {
-    const app = buildApp(db, appId, aliases.get(appId) || [], counts);
+    const app = buildApp(db, appId, aliases.get(appId) || [], counts, sources);
     const appDir = path.join(tmp, 'apps', safeName(appId));
     fs.mkdirSync(appDir, { recursive: true });
     fs.writeFileSync(path.join(tmp, 'apps', `${safeName(appId)}.json`), JSON.stringify(app));
@@ -225,6 +227,7 @@ export function exportAll(db, outDir, { generatedAt = new Date().toISOString(), 
           direct: d.direct === null ? null : d.direct === 1, dev: d.dev === null ? null : d.dev === 1,
           scope: scopeOfRow(d) === 'unknown' ? null : scopeOfRow(d),
           dependants: dependantsOfRow(d.dependants),
+          repo: sources.get(`${d.ecosystem}:${d.name}`)?.repo_url || undefined,
           resolved: d.resolved || undefined, integrity: d.integrity || undefined,
           products: counts.byName.get(`${d.ecosystem}:${d.name}`) || 1,
           productsSameVersion: counts.byVersion.get(`${d.ecosystem}:${d.name}@${d.dep_version}`) || 1,

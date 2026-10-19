@@ -411,6 +411,13 @@ body.dark .dp-panel {
   margin-top: 2px;
 }
 
+.dp-repo {
+  font-family: system-ui, sans-serif;
+  font-size: $font-xxs;
+  margin-top: 2px;
+  overflow-wrap: anywhere;
+}
+
 .dp-sev-cell {
   display: flex;
   flex-direction: column;
