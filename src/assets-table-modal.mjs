@@ -42,7 +42,8 @@ export function shortenOutputFileName(fileName) {
   return String(fileName ?? '').replace(/(?<=_)[A-Za-z0-9]{64}(?=_)/g, token => `${token.slice(0, 3)}...${token.slice(-3)}`);
 }
 
-export function buildOutputFileDownloadHtml(fileName, fileHash) {
+/** One output file: its name, a download button and, for a recording, the build log button (`extraHtml`, markup from buildBuildLogButtonHtml). */
+export function buildOutputFileDownloadHtml(fileName, fileHash, extraHtml = '') {
   return htmlOf(el('li', { className: 'verification-modal-file' },
     el('span', { className: 'verification-modal-file__name', title: fileName ?? '' }, shortenOutputFileName(fileName)),
     el('button', {
@@ -55,6 +56,7 @@ export function buildOutputFileDownloadHtml(fileName, fileHash) {
       },
       html: wsIcon('download'),
     }),
+    extraHtml ? el('span', { className: 'verification-modal-file__log', html: extraHtml }) : null,
   ));
 }
 
@@ -779,19 +781,17 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     || window.location.pathname.includes('/assets/');
   const numberVerificationAttachments = verificationAttachments.length;
 
-  let firstAsciicastFileSHA256 = null;
-  let firstAsciicastFileName = '';
   let diffoscopeFiles = [];
   let outputFilesHTML = '';
   for (const outputFile of verificationOutputFiles) {
-    if (!firstAsciicastFileSHA256 && outputFile[1].includes('.cast') && isSha256Hex(outputFile[2])) {
-      firstAsciicastFileSHA256 = outputFile[2];
-      firstAsciicastFileName = outputFile[1];
-    }
+    /* A recording opens in the build log viewer, from a button beside its own file. */
+    const buildLogHTML = outputFile[1].includes('.cast')
+      ? buildBuildLogButtonHtml(outputFile[2], outputFile[1], `${walletTitle} ${version ?? ''}`.trim())
+      : '';
     if (outputFile[1].includes('diffo') && outputFile[1].includes('html') && isSha256Hex(outputFile[2])) {
       diffoscopeFiles.push(outputFile);
     }
-    outputFilesHTML += buildOutputFileDownloadHtml(outputFile[1], outputFile[2]);
+    outputFilesHTML += buildOutputFileDownloadHtml(outputFile[1], outputFile[2], buildLogHTML);
   }
 
   let attachmentsSectionHTML = '';
@@ -822,10 +822,8 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   const report = rewriteLegacyReport(itemContent, verification.tags) ?? itemContent;
   const parsedMarkdown = shortenReportHashes(await parseMarkdownToSafeHtml(tidyBuildServerReport(report)));
 
-  /* The report's tools: the build log and any diffoscope report, as chips above the text. */
-  let reportToolsHTML = firstAsciicastFileSHA256
-    ? buildBuildLogButtonHtml(firstAsciicastFileSHA256, firstAsciicastFileName, `${walletTitle} ${version ?? ''}`.trim())
-    : '';
+  /* The report's tools: any diffoscope report, as chips above the text. */
+  let reportToolsHTML = '';
   for (const file of diffoscopeFiles) {
     const fileUrl = getBlossomFileURL(file[2]);
     if (fileUrl) {

@@ -165,11 +165,14 @@ test.describe('ZEUS verification detail page', () => {
       expect.soft(sectionCaptions.slice(1)).toEqual(['Scripts used to reproduce', 'Output files', 'Comments', 'Report']);
     });
 
-    await test.step('Report build log viewer', async () => {
+    await test.step('Build log viewer', async () => {
       const button = content.locator('.js-open-build-log');
       const viewer = page.locator('#buildLogViewer');
 
-      await expect.soft(content).toContainText('Report');
+      // Beside the recording it plays, in the output files, and nowhere else.
+      await expect(button).toHaveCount(1);
+      await expect.soft(content.locator('.verification-modal-file', { has: page.locator('.js-open-build-log') }).locator('.verification-modal-file__name'))
+        .toHaveAttribute('title', /\.cast$/);
       await expect(button).toBeVisible();
       await expect.soft(button).toContainText('View build log');
 

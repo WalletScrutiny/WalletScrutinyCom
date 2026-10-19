@@ -1518,10 +1518,6 @@ body.dark .verification-modal-chip {
   background: var(--neutral-7);
 }
 
-#verificationContent .verification-modal-report-tools .build-log-button {
-  margin: 0;
-}
-
 .verification-modal-note {
   font-size: $font-sm;
 }
@@ -1558,6 +1554,20 @@ body.dark .verification-modal-chip {
   min-width: 0;
   font-weight: 600;
   overflow-wrap: anywhere;
+}
+
+/* A recording's build log button, beside its file and a little smaller than on its own */
+.verification-modal-file:has(.verification-modal-file__log) {
+  flex-wrap: wrap; /* on a phone the button drops under the name rather than splitting it */
+}
+.verification-modal-file__log {
+  display: inline-flex;
+  margin-left: 4px;
+}
+#verificationContent .verification-modal-file .build-log-button {
+  margin: 0;
+  padding: 3px 10px 3px 8px;
+  gap: 6px;
 }
 
 /* Other attempts by the same verifier */
