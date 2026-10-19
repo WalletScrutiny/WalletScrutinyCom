@@ -7,6 +7,7 @@
 import { el } from '../html-utils.mjs';
 import { isWalletScrutinySiteAdmin, siteAdminPubkeys } from '../nostr-constants.mjs';
 import { showToast } from '../verifications_utils.mjs';
+import { parseMarkdownToSafeHtml } from '../marked-loader.mjs';
 import { getNostrProfiles, getProfileDisplayName, hasProfileIdentity } from '../nostr-profile.mjs';
 import { readModerationLists } from './config.mjs';
 import { SENTIMENT_LABELS } from './constants.mjs';
@@ -16,6 +17,7 @@ import {
   getTagValue,
   latestOpinionPerSubject,
   opinionExcerpt,
+  stripOpinionWrapper,
 } from './content.mjs';
 import {
   OPINION_DECISION_APPROVE,
@@ -67,6 +69,20 @@ function walletTitle(event, wallet) {
   }
   const fromEvent = getTagValue(event, 'title').replace(/^Opinion about\s+/i, '').trim();
   return fromEvent || getTagValue(event, 'd') || 'Unknown wallet';
+}
+
+/** The whole opinion, rendered like the wallet page's card but never clamped. */
+function renderOpinionBody(event) {
+  const markdown = stripOpinionWrapper(event.content).trim();
+  const body = el('div', { className: 'opinion-moderation__body' }, markdown || '(No text)');
+  if (markdown) {
+    parseMarkdownToSafeHtml(markdown).then((html) => {
+      body.innerHTML = html;
+    }).catch((error) => {
+      console.error('opinions: could not render content', error);
+    });
+  }
+  return body;
 }
 
 export class OpinionModerationPage {
@@ -214,7 +230,7 @@ export class OpinionModerationPage {
       const haystack = [
         walletTitle(event, wallet),
         getTagValue(event, 'd'),
-        opinionExcerpt(event.content, 4000),
+        opinionExcerpt(event.content, Infinity),
         getProfileDisplayName(this.profiles.get(event.pubkey), event.pubkey),
       ].join(' ').toLowerCase();
       return haystack.includes(query);
@@ -261,7 +277,6 @@ export class OpinionModerationPage {
       : el('span', {}, title);
     const sentiment = getSentiment(event);
     const profile = this.profiles.get(event.pubkey);
-    const excerpt = opinionExcerpt(event.content);
     const item = el('article', { className: 'opinion-moderation__item' },
       el('h2', { className: 'opinion-moderation__wallet' }, heading),
       el('p', { className: 'opinion-moderation__meta' },
@@ -269,7 +284,7 @@ export class OpinionModerationPage {
         sentiment ? el('span', {}, SENTIMENT_LABELS[sentiment]) : null,
         el('span', {}, formatDate(event.created_at)),
       ),
-      el('p', { className: 'opinion-moderation__excerpt' }, excerpt || '(No text)'),
+      renderOpinionBody(event),
       hasProfileIdentity(profile) ? null : el('p', {
         className: 'opinion-moderation__note',
         role: 'note',

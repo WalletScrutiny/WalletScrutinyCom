@@ -45,9 +45,15 @@
   font-size: 0.9rem;
 }
 
-.opinion-moderation__excerpt {
+.opinion-moderation__body {
   margin: 0.35rem 0;
+  line-height: 1.5;
   white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.opinion-moderation__body:has(> *) {
+  white-space: normal;
 }
 
 .opinion-moderation__note {
