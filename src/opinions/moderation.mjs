@@ -132,6 +132,13 @@ export function isExplicitlyApproved(event, moderation) {
   return opinionListStatus(event, { trustedAuthors: new Set(), moderation }) === 'approved';
 }
 
+/** Approve / Hide buttons on a wallet page: site admins, on opinions nobody has decided yet. */
+export function canModerateOpinion(event, { me, trustedAuthors, moderation }) {
+  return isWalletScrutinySiteAdmin(me)
+    && event?.kind === opinionKind
+    && opinionListStatus(event, { trustedAuthors, moderation }) === 'open';
+}
+
 /** Opinions by site admins already show on the wallet page, so the index skips them. */
 export function opinionsForModeration(events) {
   return events.filter((event) => !isWalletScrutinySiteAdmin(event.pubkey));

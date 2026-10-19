@@ -8,6 +8,7 @@ import {
   OPINION_DECISION_APPROVE,
   OPINION_DECISION_HIDE,
   buildOpinionModerationDraft,
+  canModerateOpinion,
   indexWalletsBySubject,
   moderationRelayMessage,
   opinionListStatus,
@@ -16,6 +17,7 @@ import {
   resolveOpinionModeration,
 } from '../../src/opinions/moderation.mjs';
 import { OpinionModerationPage } from '../../src/opinions/moderation-page.mjs';
+import { renderCard } from '../../src/opinions/card.mjs';
 
 const ADMIN = siteAdminPubkeys[0];
 const OTHER = 'ab'.repeat(32);
@@ -242,5 +244,64 @@ describe('OpinionModerationPage actions', () => {
     const note = item.querySelector('.opinion-moderation__note');
     assert.equal(note?.getAttribute('role'), 'note');
     assert.equal(note?.textContent, 'This author has no profile name or picture, so it won\'t show on the website or app. Approving the opinion will show it on the wallet page.');
+  });
+});
+
+describe('wallet page approve / hide', () => {
+  const opinion = {
+    id: OPINION_ID,
+    pubkey: OTHER,
+    kind: opinionKind,
+    created_at: 1_700_000_000,
+    content: 'Looks good',
+    tags: [['d', 'mobile/com.example'], ['sentiment', '1']],
+  };
+  const lists = { trustedAuthors: new Set(), moderation: new Map() };
+
+  test('only a site admin moderates, and only opinions nobody decided yet', () => {
+    assert.equal(canModerateOpinion(opinion, { ...lists, me: ADMIN }), true);
+    assert.equal(canModerateOpinion(opinion, { ...lists, me: OTHER }), false);
+    assert.equal(canModerateOpinion(opinion, { ...lists, me: null }), false);
+    assert.equal(canModerateOpinion(opinion, { ...lists, me: ADMIN, trustedAuthors: new Set([OTHER]) }), false);
+    const approved = resolveOpinionModeration([
+      decisionEvent({ id: '1', pubkey: ADMIN, decision: OPINION_DECISION_APPROVE, created_at: 10 }),
+    ]);
+    assert.equal(canModerateOpinion(opinion, { ...lists, me: ADMIN, moderation: approved }), false);
+    assert.equal(canModerateOpinion({ ...opinion, kind: 1111 }, { ...lists, me: ADMIN }), false);
+  });
+
+  function cardCtx({ canModerate, pending = false, calls = [] }) {
+    return {
+      config: { trustedAuthors: new Set() },
+      profiles: new Map(),
+      tree: new Map(),
+      reactions: new Map(),
+      expandedThreads: new Set(),
+      me: canModerate ? ADMIN : OTHER,
+      canPost: true,
+      requestProfile: () => {},
+      canModerate: () => canModerate,
+      isModerationPending: () => pending,
+      actions: { moderate: (event, decision) => calls.push([event.id, decision]) },
+    };
+  }
+
+  const moderationButtons = (card) => [...card.querySelectorAll('.opinion-card__action--moderate')];
+
+  test('the card shows Approve and Hide when the widget allows it, and they publish the decision', () => {
+    const calls = [];
+    const card = renderCard(cardCtx({ canModerate: true, calls }), opinion);
+    const buttons = moderationButtons(card);
+    assert.deepEqual(buttons.map((button) => button.textContent), ['Approve', 'Hide']);
+    buttons[0].click();
+    buttons[1].click();
+    assert.deepEqual(calls, [[OPINION_ID, OPINION_DECISION_APPROVE], [OPINION_ID, OPINION_DECISION_HIDE]]);
+  });
+
+  test('the card has no moderation buttons otherwise, and disables them while publishing', () => {
+    assert.equal(moderationButtons(renderCard(cardCtx({ canModerate: false }), opinion)).length, 0);
+    const pending = moderationButtons(renderCard(cardCtx({ canModerate: true, pending: true }), opinion));
+    assert.equal(pending.length, 2);
+    assert.ok(pending.every((button) => button.disabled));
   });
 });

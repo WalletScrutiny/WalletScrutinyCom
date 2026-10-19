@@ -5,7 +5,7 @@
  */
 import { el } from '../html-utils.mjs';
 import { wsIcon } from '../icon.mjs';
-import { siteAdminPubkeys } from '../nostr-constants.mjs';
+import { isWalletScrutinySiteAdmin, siteAdminPubkeys } from '../nostr-constants.mjs';
 import { showToast } from '../verifications_utils.mjs';
 import { getNostrProfile, getNostrProfiles, getProfileDisplayName, getProfileImageUrl, hasProfileIdentity } from '../nostr-profile.mjs';
 import { readWidgetConfig } from './config.mjs';
@@ -55,6 +55,9 @@ import { confirmModal } from './modal.mjs';
 import { sentimentIcon } from './icons.mjs';
 import {
   OPINION_DECISION_APPROVE,
+  buildOpinionModerationDraft,
+  canModerateOpinion,
+  moderationRelayMessage,
   opinionListStatus,
   resolveOpinionModeration,
 } from './moderation.mjs';
@@ -82,7 +85,10 @@ export class OpinionsWidget {
     this.body = root.querySelector('.opinions__body') ?? root.appendChild(el('div', { className: 'opinions__body' }));
 
     this.opinions = [];
+    this.moderationEvents = [];
     this.moderation = new Map();
+    // Opinion ids with an approve / hide on its way to the relays.
+    this.moderationPending = new Set();
     this.replies = [];
     this.tree = new Map();
     this.reactions = new Map();
@@ -111,12 +117,15 @@ export class OpinionsWidget {
       me: null,
       canPost: null,
       requestProfile: (pubkey) => this.requestProfile(pubkey),
+      canModerate: (event) => this.canModerate(event),
+      isModerationPending: (event) => this.moderationPending.has(event.id),
       actions: {
         ensureSignedIn: () => this.ensureSignedIn(),
         react: (opinion, target, content) => this.react(opinion, target, content),
         reply: (opinion, target, body) => this.reply(opinion, target, body),
         remove: (event) => this.remove(event),
         edit: () => this.openCompose(),
+        moderate: (event, decision) => this.moderate(event, decision),
       },
     };
   }
@@ -154,6 +163,7 @@ export class OpinionsWidget {
           return [];
         }),
       ]);
+      this.moderationEvents = moderationEvents;
       this.moderation = resolveOpinionModeration(moderationEvents, siteAdminPubkeys);
       const latest = latestOpinionPerAuthor(versions, {
         ...this.config,
@@ -276,6 +286,14 @@ export class OpinionsWidget {
 
   listStatus(event) {
     return opinionListStatus(event, {
+      trustedAuthors: this.config.trustedAuthors,
+      moderation: this.moderation,
+    });
+  }
+
+  canModerate(event) {
+    return canModerateOpinion(event, {
+      me: this.me,
       trustedAuthors: this.config.trustedAuthors,
       moderation: this.moderation,
     });
@@ -586,6 +604,33 @@ export class OpinionsWidget {
     this.replies = [...this.replies, signed];
     this.rebuildDerived();
     showToast('Reply published.');
+  }
+
+  /** Admin approve / hide from the wallet page, the same event the /opinions/ page publishes. */
+  async moderate(opinion, decision) {
+    if (!isWalletScrutinySiteAdmin(getPubkey()) || this.moderationPending.has(opinion.id)) {
+      return;
+    }
+    this.moderationPending.add(opinion.id);
+    this.render();
+    try {
+      const { event: signed, summary } = await signAndPublish(buildOpinionModerationDraft({ opinion, decision }), {
+        eventType: decision === OPINION_DECISION_APPROVE ? 'approval' : 'hide',
+        requireMainRelay: true,
+        includeSummary: true,
+      });
+      this.moderationEvents = [...this.moderationEvents, signed];
+      this.moderation = resolveOpinionModeration(this.moderationEvents, siteAdminPubkeys);
+      this.opinions = this.opinions.filter((event) => this.listStatus(event) !== 'hidden');
+      this.rebuildDerived();
+      const toastType = summary.successful === summary.total ? 'success' : 'warning';
+      showToast(moderationRelayMessage(decision, summary), toastType);
+    } catch (error) {
+      showToast(error?.message || 'Could not publish the decision.', 'error');
+    } finally {
+      this.moderationPending.delete(opinion.id);
+      this.render();
+    }
   }
 
   async remove(event) {
