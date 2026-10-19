@@ -245,6 +245,21 @@ describe('OpinionModerationPage actions', () => {
     assert.equal(note?.getAttribute('role'), 'note');
     assert.equal(note?.textContent, 'This author has no profile name or picture, so it won\'t show on the website or app. Approving the opinion will show it on the wallet page.');
   });
+  test('shows the whole opinion, not an excerpt', async () => {
+    const page = new OpinionModerationPage(document.createElement('div'));
+    const tail = 'the last sentence of a long opinion';
+    const event = {
+      id: OPINION_ID,
+      pubkey: OTHER,
+      created_at: 1_700_000_000,
+      content: `First paragraph.\n\n${'word '.repeat(300)}${tail}`,
+      tags: [['d', 'mobile/com.example'], ['sentiment', '1']],
+    };
+    const body = page.renderItem(event).querySelector('.opinion-moderation__body');
+    await new Promise((resolve) => setTimeout(resolve, 50));
+    assert.match(body.textContent.trim(), new RegExp(`${tail}$`));
+    assert.equal(body.querySelectorAll('p').length, 2);
+  });
 });
 
 describe('wallet page approve / hide', () => {
