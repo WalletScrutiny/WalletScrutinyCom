@@ -10,8 +10,8 @@ const BOTH_SOURCES_PAGE_PATH = '/mobile/io.bluewallet.bluewallet/';
 const UNIDENTIFIED_ZAPSTORE_PAGE_PATH = '/mobile/de.schildbach.wallet/';
 /** Android wallet with comments on Zapstore but no opinion on WalletScrutiny. */
 const ZAPSTORE_ONLY_PAGE_PATH = '/mobile/com.blitzwallet/';
-/** Android wallet with comments on Zapstore and only unknown-author opinions here. */
-const UNAPPROVED_AND_ZAPSTORE_PAGE_PATH = '/mobile/com.cakewallet.cake_wallet/';
+/** Android wallet with comments on Zapstore and only unknown-author opinions here (approving one breaks this test). */
+const UNAPPROVED_AND_ZAPSTORE_PAGE_PATH = '/mobile/io.horizontalsystems.bankwallet/';
 
 /** The widget has fetched the opinions (or failed); the body drops aria-busy either way. */
 async function expectLoaded(section) {
@@ -205,7 +205,7 @@ test.describe('Community opinions', () => {
     await expect(section.locator('.opinion-card__version').first()).toBeVisible();
 
     await tabs.nth(0).click();
-    await expect(section.getByRole('button', { name: /Show \d+ opinions? of unknown authors?\./ })).toBeVisible();
+    await expect(section.getByRole('button', { name: /^Show \d+ opinions? of (an )?unknown authors?\.$/ })).toBeVisible();
 
     assertNoConsoleErrors();
   });
