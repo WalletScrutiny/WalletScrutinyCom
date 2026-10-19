@@ -117,7 +117,8 @@ async function fetchPom(fetchImpl, group, artifact, version) {
 export async function mavenRepo(name, version, fetchImpl = fetch) {
   const [group, artifact] = name.split(':');
   if (!group || !artifact || !version) return { url: null, source: 'maven', note: 'no version to read a POM for' };
-  let g = group, a = artifact, v = version;
+  let g = group, a = artifact, v = version.replace(/@\w+$/, '');
+  if (/[+\]\[,]/.test(v)) return { url: null, source: 'maven', note: 'dynamic version, no POM to read' };
   let homepage = null;
   for (let hop = 0; hop <= MAX_PARENT_HOPS; hop++) {
     const pom = await fetchPom(fetchImpl, g, a, v);

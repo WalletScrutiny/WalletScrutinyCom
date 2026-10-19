@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { normaliseRepoUrl, mavenRepo, npmRepo, resolveRepo } from '../plugins/source-repos.mjs';
+import { normaliseRepoUrl, mavenRepo, npmRepo, resolveRepo } from '../sourceRepos.mjs';
 
 test('normaliseRepoUrl handles the shapes registries use', () => {
   const cases = {
@@ -42,6 +42,16 @@ test('mavenRepo ignores a commented scm and a licence url', async () => {
   assert.equal(r.url, null);
 });
 
+test('mavenRepo drops an @aar classifier and skips dynamic versions without fetching', async () => {
+  const fetchImpl = respond({
+    'https://repo1.maven.org/maven2/g/a/1.0/a-1.0.pom': '<project><scm><url>https://github.com/o/r</url></scm></project>',
+  });
+  assert.equal((await mavenRepo('g:a', '1.0@aar', fetchImpl)).url, 'https://github.com/o/r');
+  const never = () => { throw new Error('fetched'); };
+  assert.equal((await mavenRepo('g:a', '2.+', never)).note, 'dynamic version, no POM to read');
+  assert.equal((await mavenRepo('g:a', '[1.0,2.0)', never)).note, 'dynamic version, no POM to read');
+});
+
 test('npmRepo reads the repository field; @types falls back to DefinitelyTyped', async () => {
   const fetchImpl = respond({
     'https://registry.npmjs.org/lodash/latest': JSON.stringify({ repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' } }),
@@ -52,7 +62,7 @@ test('npmRepo reads the repository field; @types falls back to DefinitelyTyped',
   assert.deepEqual([types.url, types.source], ['https://github.com/DefinitelyTyped/DefinitelyTyped', 'known-pattern']);
 });
 
-import { parseLsRemote, matchTag, identityOf } from '../plugins/source-identity.mjs';
+import { parseLsRemote, matchTag, identityOf } from '../sourceIdentity.mjs';
 
 test('identity: annotated tags peel to the commit; monorepo tags prefer the package-qualified one', () => {
   const a = 'a'.repeat(40), b = 'b'.repeat(40), c = 'c'.repeat(40);
