@@ -155,8 +155,10 @@ export class OpinionsWidget {
         }),
       ]);
       this.moderation = resolveOpinionModeration(moderationEvents, siteAdminPubkeys);
-      const latest = latestOpinionPerAuthor(versions, this.config)
-        .filter((event) => this.listStatus(event) !== 'hidden');
+      const latest = latestOpinionPerAuthor(versions, {
+        ...this.config,
+        isPinned: (event) => this.listStatus(event) === 'approved',
+      }).filter((event) => this.listStatus(event) !== 'hidden');
       const { replies, reactions, deletions } = await fetchThreadData(latest);
       const kept = await this.withProfiles(applyDeletions([...latest, ...replies], deletions));
       this.opinions = kept.filter((event) => latest.includes(event));

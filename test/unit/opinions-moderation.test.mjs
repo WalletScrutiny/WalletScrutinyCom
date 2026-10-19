@@ -21,7 +21,7 @@ const ADMIN = siteAdminPubkeys[0];
 const OTHER = 'ab'.repeat(32);
 const OPINION_ID = 'cd'.repeat(32);
 
-function decisionEvent({ id, pubkey, target = OPINION_ID, decision, created_at, k = String(opinionKind) }) {
+function decisionEvent({ id, pubkey, target = OPINION_ID, decision, created_at, k = String(opinionKind), address = null }) {
   return {
     id,
     pubkey,
@@ -33,6 +33,7 @@ function decisionEvent({ id, pubkey, target = OPINION_ID, decision, created_at, 
       ['p', OTHER],
       ['k', k],
       ['r', decision],
+      ...(address ? [['a', address]] : []),
     ],
   };
 }
@@ -62,6 +63,15 @@ describe('resolveOpinionModeration', () => {
     assert.ok(draft.tags.some((tag) => tag[0] === 'k' && tag[1] === '30023'));
     assert.ok(draft.tags.some((tag) => tag[0] === 'c' && tag[1] === 'walletscrutiny'));
   });
+
+  test('draft names the opinion address when the opinion has a subject', () => {
+    const draft = buildOpinionModerationDraft({
+      opinion: { id: OPINION_ID, pubkey: OTHER, tags: [['d', 'android/com.example']] },
+      decision: OPINION_DECISION_HIDE,
+      createdAt: 50,
+    });
+    assert.ok(draft.tags.some((tag) => tag[0] === 'a' && tag[1] === `${opinionKind}:${OTHER}:android/com.example`));
+  });
 });
 
 describe('opinionListStatus', () => {
@@ -79,6 +89,55 @@ describe('opinionListStatus', () => {
       decisionEvent({ id: '1', pubkey: ADMIN, decision: OPINION_DECISION_APPROVE, created_at: 1 }),
     ]);
     assert.equal(opinionListStatus(event, { trustedAuthors: new Set(), moderation }), 'approved');
+  });
+
+  describe('across versions of one opinion', () => {
+    const address = `${opinionKind}:${OTHER}:android/com.example`;
+    const version = (id) => ({ id, pubkey: OTHER, tags: [['d', 'android/com.example']] });
+    const original = version(OPINION_ID);
+    const edit = version('ef'.repeat(32));
+    const status = (event, events) => opinionListStatus(event, {
+      trustedAuthors: new Set(),
+      moderation: resolveOpinionModeration(events),
+    });
+
+    test('a hide covers later edits of the same opinion', () => {
+      const events = [
+        decisionEvent({ id: '1', pubkey: ADMIN, decision: OPINION_DECISION_HIDE, created_at: 1, address }),
+      ];
+      assert.equal(status(original, events), 'hidden');
+      assert.equal(status(edit, events), 'hidden');
+    });
+
+    test('an approval covers only the approved version', () => {
+      const events = [
+        decisionEvent({ id: '1', pubkey: ADMIN, decision: OPINION_DECISION_APPROVE, created_at: 1, address }),
+      ];
+      assert.equal(status(original, events), 'approved');
+      assert.equal(status(edit, events), 'open');
+    });
+
+    test('the newer of an approval and an address hide wins', () => {
+      const hideThenApprove = [
+        decisionEvent({ id: '1', pubkey: ADMIN, target: edit.id, decision: OPINION_DECISION_HIDE, created_at: 1, address }),
+        decisionEvent({ id: '2', pubkey: ADMIN, decision: OPINION_DECISION_APPROVE, created_at: 2, address }),
+      ];
+      assert.equal(status(original, hideThenApprove), 'approved');
+      assert.equal(status(edit, hideThenApprove), 'hidden');
+
+      const approveThenHide = [
+        decisionEvent({ id: '1', pubkey: ADMIN, decision: OPINION_DECISION_APPROVE, created_at: 1, address }),
+        decisionEvent({ id: '2', pubkey: ADMIN, target: edit.id, decision: OPINION_DECISION_HIDE, created_at: 2, address }),
+      ];
+      assert.equal(status(original, approveThenHide), 'hidden');
+    });
+
+    test('an address from a non-admin hides nothing', () => {
+      const events = [
+        decisionEvent({ id: '1', pubkey: OTHER, target: edit.id, decision: OPINION_DECISION_HIDE, created_at: 1, address }),
+      ];
+      assert.equal(status(original, events), 'open');
+    });
   });
 
   test('a trusted author with no decision is an approved author', () => {

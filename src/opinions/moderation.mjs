@@ -7,6 +7,11 @@
  * the opinion kind and the `r` tag is the decision, so these events are not
  * verification reports. The newest decision for an opinion id wins. Anyone
  * else publishing the same shape is ignored.
+ *
+ * An approval covers one version (the `e` id): an edit is a new event and
+ * goes back to the queue. A hide also names the opinion address (`a` tag),
+ * so it covers every version of that author's opinion on that wallet,
+ * including later edits.
  */
 import {
   isWalletScrutinySiteAdmin,
@@ -17,13 +22,14 @@ import {
   verificationReportKind,
   wsBotPublicKey,
 } from '../nostr-constants.mjs';
-import { getTagValue } from './content.mjs';
+import { getTagValue, opinionAddress } from './content.mjs';
 
 export const OPINION_DECISION_APPROVE = 'opinion-approve';
 export const OPINION_DECISION_HIDE = 'opinion-hide';
 
 const OPINION_DECISIONS = new Set([OPINION_DECISION_APPROVE, OPINION_DECISION_HIDE]);
 const EVENT_ID_HEX = /^[0-9a-f]{64}$/i;
+const OPINION_ADDRESS = new RegExp(`^${opinionKind}:[0-9a-f]{64}:.+$`);
 
 export function walletScrutinyClientTags() {
   return [
@@ -37,12 +43,14 @@ export function buildOpinionModerationDraft({ opinion, decision, createdAt = Mat
     throw new Error(`Unknown opinion decision: ${decision}`);
   }
   const verb = decision === OPINION_DECISION_APPROVE ? 'approval' : 'hide';
+  const address = getTagValue(opinion, 'd') ? opinionAddress(opinion) : '';
   return {
     kind: verificationReportKind,
     created_at: createdAt,
     tags: [
       ['e', opinion.id],
       ['p', opinion.pubkey],
+      ...(address ? [['a', address]] : []),
       ['k', String(opinionKind)],
       ['r', decision],
       ...walletScrutinyClientTags(),
@@ -52,7 +60,8 @@ export function buildOpinionModerationDraft({ opinion, decision, createdAt = Mat
 }
 
 /**
- * Newest admin decision per opinion id.
+ * Newest admin decision per opinion id, and the newest hide per opinion
+ * address (keys like `30023:<pubkey>:<d>`).
  * @returns {Map<string, { decision: string, created_at: number }>}
  */
 export function resolveOpinionModeration(events, adminPubkeys = siteAdminPubkeys) {
@@ -73,12 +82,30 @@ export function resolveOpinionModeration(events, adminPubkeys = siteAdminPubkeys
     if (!EVENT_ID_HEX.test(targetId)) {
       continue;
     }
-    const known = latest.get(targetId);
-    if (!known || (event.created_at ?? 0) >= known.created_at) {
-      latest.set(targetId, { decision, created_at: event.created_at ?? 0 });
+    keepNewest(latest, targetId, decision, event.created_at ?? 0);
+    const address = getTagValue(event, 'a');
+    if (decision === OPINION_DECISION_HIDE && OPINION_ADDRESS.test(address)) {
+      keepNewest(latest, address, decision, event.created_at ?? 0);
     }
   }
   return latest;
+}
+
+function keepNewest(map, key, decision, createdAt) {
+  const known = map.get(key);
+  if (!known || createdAt >= known.created_at) {
+    map.set(key, { decision, created_at: createdAt });
+  }
+}
+
+/** The decision for this version, or a newer hide of its address. */
+function decisionFor(event, moderation) {
+  const byId = moderation.get(event.id) ?? moderation.get(String(event.id).toLowerCase()) ?? null;
+  const byAddress = getTagValue(event, 'd') ? moderation.get(opinionAddress(event)) ?? null : null;
+  if (byAddress && (!byId || byAddress.created_at > byId.created_at)) {
+    return byAddress.decision;
+  }
+  return byId?.decision ?? null;
 }
 
 /**
@@ -86,7 +113,7 @@ export function resolveOpinionModeration(events, adminPubkeys = siteAdminPubkeys
  * `approved` is an explicit approval or a trusted author with no hide.
  */
 export function opinionListStatus(event, { trustedAuthors, moderation }) {
-  const decision = moderation.get(event.id)?.decision ?? moderation.get(String(event.id).toLowerCase())?.decision ?? null;
+  const decision = decisionFor(event, moderation);
   switch (decision) {
     case OPINION_DECISION_HIDE:
       return 'hidden';

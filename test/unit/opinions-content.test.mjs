@@ -93,6 +93,22 @@ describe('latestOpinionPerAuthor', () => {
     });
     assert.deepEqual(kept.map((event) => event.id), ['2']);
   });
+
+  test('a pinned version wins over newer versions that are not pinned', () => {
+    const events = [
+      opinion({ id: '1', created_at: 10 }),
+      opinion({ id: '2', created_at: 20 }),
+      opinion({ id: '3', created_at: 30 }),
+      opinion({ id: '4', pubkey: B, created_at: 5 }),
+    ];
+    const pinned = new Set(['1']);
+    const kept = latestOpinionPerAuthor(events, { isPinned: (event) => pinned.has(event.id) });
+    assert.deepEqual(kept.map((event) => event.id), ['1', '4']);
+
+    pinned.add('2');
+    const newestPinned = latestOpinionPerAuthor(events, { isPinned: (event) => pinned.has(event.id) });
+    assert.deepEqual(newestPinned.map((event) => event.id), ['2', '4']);
+  });
 });
 
 describe('applyDeletions', () => {

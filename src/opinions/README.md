@@ -46,8 +46,12 @@ the events are in.
 `/opinions/` is not in the site menu. When the page loads with a Nostr extension whose account is in `siteAdminPubkeys`, it lists third-party opinions that are still undecided, with their wallet. It skips opinions written by `siteAdminPubkeys` and any opinion already approved or hidden. Approving one (a kind 1984
 event with `k` `30023` and `r` `opinion-approve`, signed by a pubkey in
 `siteAdminPubkeys`) puts that event on the wallet page under "Approved".
-Hiding one (`r` `opinion-hide`) removes it from the wallet page. The newest
-decision wins, including over a trusted author. The static lists in
+An approval covers that version only: the wallet page keeps showing it after
+the author publishes an edit, and the edit goes back into the queue. Hiding
+one (`r` `opinion-hide`, with the opinion address in an `a` tag) removes
+every version of that author's opinion on that wallet from the wallet page,
+including later edits. The newest decision wins, including over a trusted
+author. The static lists in
 `_data/nostrOpinions.yml` and `_data/nostrOpinionBlocklist.yml` still apply.
 
 Tests: `test/unit/opinions-*.test.mjs`, `test/e2e/opinions.spec.mjs`.

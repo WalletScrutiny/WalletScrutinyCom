@@ -72,18 +72,23 @@ export function opinionAddress(event) {
 /**
  * One opinion per author across the canonical and legacy subjects: the newest
  * version wins. Blocked events and authors never make it into the list.
+ * A version for which `isPinned` is true wins over every version that is not,
+ * so an approved opinion stays up when its author publishes an edit.
  */
-export function latestOpinionPerAuthor(events, { blockedEventIds = new Set(), blockedAuthors = new Set() } = {}) {
+export function latestOpinionPerAuthor(events, { blockedEventIds = new Set(), blockedAuthors = new Set(), isPinned = () => false } = {}) {
   const byAuthor = new Map();
   for (const event of events) {
     if (event.kind !== opinionKind) continue;
     if (blockedEventIds.has(event.id) || blockedAuthors.has(event.pubkey)) continue;
+    const pinned = isPinned(event);
     const current = byAuthor.get(event.pubkey);
-    if (!current || (event.created_at ?? 0) >= (current.created_at ?? 0)) {
-      byAuthor.set(event.pubkey, event);
+    if (!current
+      || (pinned && !current.pinned)
+      || (pinned === current.pinned && (event.created_at ?? 0) >= (current.event.created_at ?? 0))) {
+      byAuthor.set(event.pubkey, { event, pinned });
     }
   }
-  return [...byAuthor.values()];
+  return [...byAuthor.values()].map(({ event }) => event);
 }
 
 /**
