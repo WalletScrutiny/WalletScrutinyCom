@@ -292,31 +292,15 @@ window.renderAssetsTable = async function({
   let hasAssets = false;
   let cachePaintFingerprint = null;
   let cachePaintResult = null;
+  // The data behind the table on screen, so it can be repainted once the
+  // visitor's pubkey is known.
+  let paintedAssetInfo = null;
+  let paintedFromCache = false;
 
   const verificationIdFromHash = getVerificationIdFromHash();
 
   resetAttachmentState();
   resetEndorsementsState();
-
-  const userPubkeyPromise = getUserPubkey()
-    .then((pubkey) => {
-      window.userPubkey = pubkey;
-      return pubkey;
-    })
-    .catch((e) => {
-      // Most visitors have no Nostr extension; that is not an error.
-      if (e?.message !== "No signer available") {
-        console.error("Error getting user pubkey:", e);
-      }
-      window.userPubkey = null;
-      return null;
-    });
-
-  if (!verificationIdFromHash) {
-    await userPubkeyPromise;
-  } else {
-    void userPubkeyPromise;
-  }
 
   const host = document.getElementById(htmlElementId);
   if (host && hideConfig?.wallet) {
@@ -394,10 +378,39 @@ window.renderAssetsTable = async function({
     hasAssets = pr.hasAssets;
     cachePaintFingerprint = fingerprintAllAssetInformation(cachedData);
     cachePaintResult = pr;
+    paintedAssetInfo = cachedData;
+    paintedFromCache = true;
     afterTablePaint(pr);
     tryOpenHashVerification(cachedData, false, effectiveAppId, verificationIdFromHash);
     notifyTableLoaded(cachedData, pr);
   }
+
+  // Don't wait for the signer before painting: without a Nostr extension,
+  // waitNostr runs into its full timeout (about 3 s, the usual case on
+  // phones). The pubkey only marks the visitor's own rows and drafts, so
+  // repaint once it is known.
+  void getUserPubkey()
+    .then((userPubkey) => {
+      window.userPubkey = userPubkey;
+      if (!paintedAssetInfo || !document.getElementById('assetsTable')) {
+        return;
+      }
+      removeAssetsTableDynamicContent(htmlElementId);
+      const pr = runPaint(paintedAssetInfo);
+      hasAssets = pr.hasAssets;
+      if (paintedFromCache) {
+        cachePaintResult = pr;
+      }
+      afterTablePaint(pr);
+      notifyTableLoaded(paintedAssetInfo, pr);
+    })
+    .catch((e) => {
+      // Most visitors have no Nostr extension; that is not an error.
+      if (e?.message !== "No signer available") {
+        console.error("Error getting user pubkey:", e);
+      }
+      window.userPubkey = null;
+    });
 
   const globalCachedAssetInfo = findCachedGlobalAssetInfo(effectiveAppId, verificationIdFromHash);
   if (globalCachedAssetInfo) {
@@ -448,6 +461,8 @@ window.renderAssetsTable = async function({
     paintResult = runPaint(response);
     hasAssets = paintResult.hasAssets;
     table = paintResult.table;
+    paintedAssetInfo = response;
+    paintedFromCache = false;
   }
 
   const { profilePubkeys } = paintResult;
@@ -496,6 +511,8 @@ window.renderAssetsTable = async function({
 
   updateTableVisibility();
 
+  // The pubkey repaint may have replaced the table while attachments loaded.
+  table = document.getElementById('assetsTable') || table;
   setupBlossomDownloadObserverForTable(table, {
     checkFileExistsInBlossom,
     openBlossomBundleDownloadModal: blossomHelpers.openBlossomBundleDownloadModal,
