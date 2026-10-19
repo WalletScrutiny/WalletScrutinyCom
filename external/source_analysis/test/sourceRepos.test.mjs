@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { normaliseRepoUrl, mavenRepo, npmRepo, resolveRepo } from '../sourceRepos.mjs';
+import { normaliseRepoUrl, mavenRepo, npmRepo, pypiRepo, resolveRepo } from '../sourceRepos.mjs';
 
 test('normaliseRepoUrl handles the shapes registries use', () => {
   const cases = {
@@ -63,6 +63,20 @@ test('npmRepo reads the repository field; @types falls back to DefinitelyTyped',
   assert.equal((await npmRepo('lodash', fetchImpl)).url, 'https://github.com/lodash/lodash');
   const types = await resolveRepo({ ecosystem: 'npm', name: '@types/foo' }, fetchImpl);
   assert.deepEqual([types.url, types.source], ['https://github.com/DefinitelyTyped/DefinitelyTyped', 'known-pattern']);
+});
+
+test('pypiRepo prefers a source key on a code host, normalises the name, skips funding links', async () => {
+  const fetchImpl = respond({
+    'https://pypi.org/pypi/typing-extensions/json': JSON.stringify({ info: { project_urls: { Documentation: 'https://docs.example.org', Source: 'https://docs.example.org/src', Repository: 'https://github.com/python/typing_extensions/' } } }),
+    'https://pypi.org/pypi/rpi-gpio/json': JSON.stringify({ info: { home_page: 'http://sourceforge.net/projects/raspberry-gpio-python/', project_urls: { Homepage: 'http://sourceforge.net/projects/raspberry-gpio-python/' } } }),
+    'https://pypi.org/pypi/x/json': JSON.stringify({ info: { project_urls: { Funding: 'https://github.com/sponsors/someone', Issues: 'https://github.com/o/x/issues' } } }),
+  });
+  assert.deepEqual(await pypiRepo('typing_extensions', fetchImpl), { url: 'https://github.com/python/typing_extensions', source: 'pypi' });
+  assert.equal((await pypiRepo('RPi.GPIO', fetchImpl)).note, 'registry names no repository');
+  assert.deepEqual(await pypiRepo('x', fetchImpl), { url: 'https://github.com/o/x', source: 'pypi-homepage' });
+  assert.equal((await pypiRepo('nope', fetchImpl)).note, 'not on the registry');
+  const never = () => { throw new Error('fetched'); };
+  assert.equal((await pypiRepo('\0p\0y', never)).note, 'not a package name');
 });
 
 import { parseLsRemote, matchTag, identityOf } from '../sourceIdentity.mjs';

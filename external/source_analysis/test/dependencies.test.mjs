@@ -191,6 +191,16 @@ test('pip requirements: exact, hashed, floating and git lines', () => {
   assert.equal(byName(pip.entries, 'lib').tier, 'source-ref-pinned');
 });
 
+test('pip requirements: a UTF-16 file decodes by its byte-order mark', () => {
+  const text = 'pydantic-core==2.27.1\r\nwinsdk==1.0.0b10\r\n';
+  const le = Buffer.concat([Buffer.from([0xff, 0xfe]), Buffer.from(text, 'utf16le')]);
+  const be = Buffer.concat([Buffer.from([0xfe, 0xff]), Buffer.from(text, 'utf16le').swap16()]);
+  for (const content of [le, be, '\uFEFF' + text]) {
+    const [pip] = quiet(() => analyzePinning(fixture({ 'requirements.txt': content })));
+    assert.deepEqual(pip.entries.map(e => [e.name, e.version]), [['pydantic-core', '2.27.1'], ['winsdk', '1.0.0b10']]);
+  }
+});
+
 test('gradle: verification metadata replaces covered declarations', () => {
   const dir = fixture({
     'build.gradle': 'dependencies { implementation "org.a:lib:1.0"; implementation "org.b:only-declared:2.0"; implementation "org.c:range:1.+" }\nrepositories { mavenCentral() }',

@@ -2,8 +2,9 @@
  * Source repository of a dependency, from the registry's own metadata.
  *
  * npm: the `repository` field of the registry document; crates.io: the
- * `repository` field of the crate; Maven: `<scm><url>` of the POM, then of its
- * parent POMs, then a `<url>` that points at a code host. Nothing here is a
+ * `repository` field of the crate; PyPI: a source-like `project_urls` entry,
+ * then any project URL or `home_page` on a code host; Maven: `<scm><url>` of
+ * the POM, then of its parent POMs, then a `<url>` that points at a code host. Nothing here is a
  * search: a package whose registry names no repository stays unresolved and is
  * reported as such. Runs on the host, no repository code is executed.
  *
@@ -106,6 +107,29 @@ export async function cargoRepo(name, fetchImpl = fetch) {
   return { url: null, source: 'crates.io', note: 'registry names no repository' };
 }
 
+// PEP 503: PyPI compares names case-insensitively with runs of -_. as one -.
+export const pypiName = (name) => name.toLowerCase().replace(/[-_.]+/g, '-');
+const PYPI_SOURCE_KEY = /^(source|sources|source ?code|repository|repo|code|git|github|gitlab|codeberg)$/i;
+
+export async function pypiRepo(name, fetchImpl = fetch) {
+  if (!/^[A-Za-z0-9][A-Za-z0-9._-]*$/.test(name)) return { url: null, source: 'pypi', note: 'not a package name' };
+  const doc = await get(fetchImpl, `https://pypi.org/pypi/${pypiName(name)}/json`, { json: true });
+  if (!doc) return { url: null, source: 'pypi', note: 'not on the registry' };
+  const urls = Object.entries(doc.info?.project_urls || {});
+  // A key that says "source" may still point at a docs site, so it also has to be a code host.
+  for (const [key, raw] of urls) {
+    const url = normaliseRepoUrl(raw);
+    if (url && isCodeHost(url) && PYPI_SOURCE_KEY.test(key.trim())) return { url, source: 'pypi' };
+  }
+  // github.com/sponsors/x is a code host but not a repository
+  const others = urls.filter(([key]) => !/fund|sponsor|donat/i.test(key)).map(([, u]) => u);
+  for (const raw of [...others, doc.info?.home_page]) {
+    const url = normaliseRepoUrl(raw);
+    if (url && isCodeHost(url)) return { url, source: 'pypi-homepage' };
+  }
+  return { url: null, source: 'pypi', note: 'registry names no repository' };
+}
+
 const tag = (xml, name) => {
   const m = new RegExp(`<${name}>\\s*([^<]*?)\\s*</${name}>`).exec(xml);
   return m ? m[1] : null;
@@ -172,6 +196,7 @@ export async function resolveRepo({ ecosystem, name, version }, fetchImpl = fetc
   let result;
   if (ecosystem === 'npm') result = await npmRepo(name, fetchImpl);
   else if (ecosystem === 'cargo') result = await cargoRepo(name, fetchImpl);
+  else if (ecosystem === 'pip') result = await pypiRepo(name, fetchImpl);
   else if (ecosystem === 'gradle') result = await mavenRepo(name, version, fetchImpl);
   else return { url: null, source: ecosystem, note: 'ecosystem not supported' };
   if (!result.url) {
