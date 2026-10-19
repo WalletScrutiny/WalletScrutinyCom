@@ -32,7 +32,11 @@ signer:
 twitter: ShapeShift
 social:
 - https://www.facebook.com/ShapeShiftPlatform
-builds: 
+builds:
+- arch: arm
+  types:
+    firmware:
+    - firmware.keepkey.bin
 features:
 - tradeAlts
 - foss
