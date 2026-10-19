@@ -1,0 +1,77 @@
+.opinion-moderation__toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin: 1rem 0 0.5rem;
+}
+
+.opinion-moderation__toolbar input,
+.opinion-moderation__toolbar select,
+.opinion-moderation button {
+  font: inherit;
+}
+
+.opinion-moderation__toolbar input,
+.opinion-moderation__toolbar select {
+  padding: 0.35rem 0.5rem;
+}
+
+.opinion-moderation__search {
+  flex: 1 1 16rem;
+  min-width: 12rem;
+}
+
+.opinion-moderation__count {
+  margin: 0.25rem 0 0.75rem;
+}
+
+.opinion-moderation__item {
+  padding: 1rem 0;
+  border-bottom: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+}
+
+.opinion-moderation__wallet {
+  font-size: 1.15rem;
+  font-weight: 650;
+  margin: 0;
+}
+
+.opinion-moderation__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.9rem;
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+}
+
+.opinion-moderation__excerpt {
+  margin: 0.35rem 0;
+  white-space: pre-wrap;
+}
+
+.opinion-moderation__note {
+  margin: 0.65rem 0 0.15rem;
+  padding: 0.55rem 0.75rem;
+  border-radius: 8px;
+  background: var(--blue-notify-background);
+  color: var(--text);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.opinion-moderation__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.4rem;
+}
+
+.opinion-moderation button {
+  cursor: pointer;
+}
+
+.opinion-moderation button[disabled] {
+  cursor: default;
+  opacity: 0.55;
+}

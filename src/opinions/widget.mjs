@@ -5,6 +5,7 @@
  */
 import { el } from '../html-utils.mjs';
 import { wsIcon } from '../icon.mjs';
+import { siteAdminPubkeys } from '../nostr-constants.mjs';
 import { showToast } from '../verifications_utils.mjs';
 import { getNostrProfile, getNostrProfiles, getProfileDisplayName, getProfileImageUrl, hasProfileIdentity } from '../nostr-profile.mjs';
 import { readWidgetConfig } from './config.mjs';
@@ -31,6 +32,7 @@ import {
 } from './content.mjs';
 import {
   fetchOpinions,
+  fetchOpinionModeration,
   fetchThreadData,
   fetchZapstoreComments,
   signAndPublish,
@@ -39,11 +41,23 @@ import {
   buildReactionDraft,
   buildDeletionDraft,
 } from './nostr.mjs';
-import { getPubkey, hasExtension, onAuthChange, restoreSignIn, signIn, signOut } from './auth.mjs';
+import {
+  detectIdentity,
+  EXTENSION_DECLINED_MESSAGE,
+  getPubkey,
+  hasExtension,
+  NO_EXTENSION_MESSAGE,
+  onAuthChange,
+} from './auth.mjs';
 import { renderCard, renderAuthor } from './card.mjs';
 import { createOpinionEditor } from './editor.mjs';
 import { confirmModal } from './modal.mjs';
 import { sentimentIcon } from './icons.mjs';
+import {
+  OPINION_DECISION_APPROVE,
+  opinionListStatus,
+  resolveOpinionModeration,
+} from './moderation.mjs';
 
 const GUIDELINES = 'Thank you for contributing your opinion. Please be objective and be polite.';
 const HIDDEN_WITHOUT_PROFILE = 'Published, but only authors with a Nostr profile name or picture are shown here. '
@@ -68,6 +82,7 @@ export class OpinionsWidget {
     this.body = root.querySelector('.opinions__body') ?? root.appendChild(el('div', { className: 'opinions__body' }));
 
     this.opinions = [];
+    this.moderation = new Map();
     this.replies = [];
     this.tree = new Map();
     this.reactions = new Map();
@@ -121,7 +136,7 @@ export class OpinionsWidget {
         this.render();
       }
     });
-    void restoreSignIn();
+    void detectIdentity();
     const zapstoreLoad = this.loadZapstore();
     await this.load();
     await zapstoreLoad;
@@ -132,8 +147,16 @@ export class OpinionsWidget {
     this.loadError = null;
     this.body.setAttribute('aria-busy', 'true');
     try {
-      const versions = await fetchOpinions(this.config.subjectKeys);
-      const latest = latestOpinionPerAuthor(versions, this.config);
+      const [versions, moderationEvents] = await Promise.all([
+        fetchOpinions(this.config.subjectKeys),
+        fetchOpinionModeration().catch((error) => {
+          console.warn('opinions: moderation events failed to load', error?.message ?? error);
+          return [];
+        }),
+      ]);
+      this.moderation = resolveOpinionModeration(moderationEvents, siteAdminPubkeys);
+      const latest = latestOpinionPerAuthor(versions, this.config)
+        .filter((event) => this.listStatus(event) !== 'hidden');
       const { replies, reactions, deletions } = await fetchThreadData(latest);
       const kept = await this.withProfiles(applyDeletions([...latest, ...replies], deletions));
       this.opinions = kept.filter((event) => latest.includes(event));
@@ -201,7 +224,7 @@ export class OpinionsWidget {
    */
   async withProfiles(events) {
     await this.resolveProfiles(events.map((event) => event.pubkey));
-    return events.filter((event) => this.isShownAuthor(event.pubkey));
+    return events.filter((event) => this.isShownAuthor(event.pubkey) || this.isExplicitlyApproved(event));
   }
 
   async resolveProfiles(pubkeys) {
@@ -249,13 +272,35 @@ export class OpinionsWidget {
 
   // --- derived views ---------------------------------------------------
 
+  listStatus(event) {
+    return opinionListStatus(event, {
+      trustedAuthors: this.config.trustedAuthors,
+      moderation: this.moderation,
+    });
+  }
+
+  isExplicitlyApproved(event) {
+    return this.moderation.get(event.id)?.decision === OPINION_DECISION_APPROVE
+      || this.moderation.get(String(event.id).toLowerCase())?.decision === OPINION_DECISION_APPROVE;
+  }
+
+  get approvedEventIds() {
+    const ids = new Set();
+    for (const [id, record] of this.moderation) {
+      if (record.decision === OPINION_DECISION_APPROVE) {
+        ids.add(id);
+      }
+    }
+    return ids;
+  }
+
   get trustedOpinions() {
-    return this.opinions.filter((event) => this.config.trustedAuthors.has(event.pubkey));
+    return this.opinions.filter((event) => this.listStatus(event) === 'approved' || this.listStatus(event) === 'approved-author');
   }
 
   get visibleOpinions() {
     const events = this.filter === 'approved' ? this.trustedOpinions : this.opinions;
-    return sortOpinions(events, this.config.trustedAuthors);
+    return sortOpinions(events, this.config.trustedAuthors, this.approvedEventIds);
   }
 
   get myOpinion() {
@@ -428,15 +473,9 @@ export class OpinionsWidget {
       el('h3', {}, mine ? 'Edit your opinion' : 'Add your opinion'),
       el('p', {}, GUIDELINES),
     );
-    const signOutButton = el('button', { type: 'button', className: 'opinions-btn opinions-btn--small' }, 'Sign out');
-    signOutButton.addEventListener('click', () => {
-      this.closeCompose();
-      signOut();
-    });
     panel.appendChild(el('div', { className: 'opinions__signed-in' },
       el('span', {}, 'Posting as'),
       renderAuthor(this.ctx, this.me, { withBadge: false }),
-      signOutButton,
     ));
     this.composeEditor = createOpinionEditor({
       initialValue: mine ? stripOpinionWrapper(mine.content) : '',
@@ -477,13 +516,13 @@ export class OpinionsWidget {
     if (getPubkey()) {
       return true;
     }
-    try {
-      await signIn();
+    await detectIdentity();
+    if (getPubkey()) {
       return true;
-    } catch (error) {
-      showToast(error?.message || 'Could not connect to the Nostr extension.', 'error');
-      return false;
     }
+    const message = await hasExtension() ? EXTENSION_DECLINED_MESSAGE : NO_EXTENSION_MESSAGE;
+    showToast(message, 'error');
+    return false;
   }
 
   async openCompose() {

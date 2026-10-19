@@ -11,7 +11,9 @@ import {
   getSentiment,
   isEdited,
   latestOpinionPerAuthor,
+  latestOpinionPerSubject,
   opinionAddress,
+  opinionExcerpt,
   parseSubjectKeys,
   sortOpinions,
   stripOpinionWrapper,
@@ -124,6 +126,32 @@ describe('sorting and tallies', () => {
       opinion({ id: 'new-trusted', created_at: 9 }),
     ];
     assert.deepEqual(sortOpinions(events, new Set([A])).map((event) => event.id), ['new-trusted', 'old-trusted', 'new-unknown']);
+  });
+
+  test('sortOpinions treats an explicitly approved id like a trusted author', () => {
+    const events = [
+      opinion({ id: 'aa', pubkey: B, created_at: 1 }),
+      opinion({ id: 'bb', pubkey: B, created_at: 5 }),
+    ];
+    assert.deepEqual(sortOpinions(events, new Set(), new Set(['aa'])).map((event) => event.id), ['aa', 'bb']);
+  });
+
+  test('latestOpinionPerSubject keeps the newest event per author and subject', () => {
+    const events = [
+      opinion({ id: '1', d: 'mobile/a', created_at: 1 }),
+      opinion({ id: '2', d: 'mobile/a', created_at: 3 }),
+      opinion({ id: '3', pubkey: B, d: 'mobile/a', created_at: 2 }),
+      opinion({ id: '4', d: 'hardware/h', created_at: 4 }),
+      opinion({ id: '5', d: '', created_at: 9, tags: [] }),
+    ];
+    const kept = latestOpinionPerSubject(events, { blockedEventIds: new Set(['4']) });
+    assert.deepEqual(kept.map((event) => event.id).sort(), ['2', '3']);
+  });
+
+  test('opinionExcerpt drops the wrapper and shortens the body', () => {
+    const content = buildOpinionContent({ header: 'h', body: 'Hello **world**', footer: 'f', tags: ['WalletScrutiny'] });
+    assert.equal(opinionExcerpt(content), 'Hello world');
+    assert.equal(opinionExcerpt('abcdefghijklmnopqrstuvwxyz', 5), 'abcde...');
   });
 
   test('tallySentiments counts only valid sentiment tags', () => {

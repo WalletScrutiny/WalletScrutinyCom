@@ -41,8 +41,7 @@ export const SENTIMENT_LABELS = {
   [SENTIMENT_NEGATIVE]: 'Negative',
 };
 
-/** localStorage keys. */
-export const signedInStorageKey = 'wsOpinionsSignedIn';
+/** localStorage key for the "show all opinions" consent. */
 export const showAllConsentStorageKey = 'wsOpinionsShowAll';
 
 export const maxOpinionLength = 60000;

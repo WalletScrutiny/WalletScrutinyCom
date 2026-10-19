@@ -9,11 +9,12 @@
  */
 import {
   fetchEvents,
+  fetchEventsWithPagination,
   publishEvent,
   assertRequiredRelaysAccepted,
   signEvent,
 } from '../nostr-client.mjs';
-import { mainRelayUrl } from '../nostr-constants.mjs';
+import { mainRelayUrl, siteAdminPubkeys, verificationReportKind } from '../nostr-constants.mjs';
 import {
   opinionKind,
   replyKind,
@@ -26,6 +27,7 @@ import {
   zapstoreRelayUrls,
 } from './constants.mjs';
 import { buildOpinionContent, getTagValue, getTags, opinionAddress, zapstoreAppAddress } from './content.mjs';
+import { OPINION_DECISION_APPROVE, OPINION_DECISION_HIDE } from './moderation.mjs';
 
 async function query(filter, maxWait = fetchMaxWaitMs) {
   const events = await fetchEvents(filter, { relayUrls: opinionRelayUrls, maxWait });
@@ -35,6 +37,61 @@ async function query(filter, maxWait = fetchMaxWaitMs) {
 /** Every version of every opinion on the canonical and legacy subjects. */
 export function fetchOpinions(subjectKeys) {
   return query({ kinds: [opinionKind], '#d': subjectKeys });
+}
+
+/**
+ * Every WalletScrutiny opinion on the opinion relays, including older
+ * versions. Paged, because a single response is capped by the relay.
+ */
+export async function fetchAllOpinionVersions() {
+  const events = await fetchEventsWithPagination(
+    { kinds: [opinionKind], '#t': ['WalletScrutiny', 'nostrOpinion'] },
+    { relayUrls: opinionRelayUrls, maxWait: 8000 },
+  );
+  return [...events];
+}
+
+const DELETION_FILTER_CHUNK = 40;
+
+async function collectChunked(filters) {
+  const events = new Map();
+  const batches = await Promise.all(filters.map((filter) => query(filter)));
+  for (const batch of batches) {
+    for (const event of batch) {
+      events.set(event.id, event);
+    }
+  }
+  return [...events.values()];
+}
+
+/** Deletion requests that name these opinions by id or by address. */
+export function fetchOpinionDeletions(opinions) {
+  if (!opinions.length) {
+    return Promise.resolve([]);
+  }
+  const filters = [];
+  const addresses = [...new Set(opinions.map(opinionAddress))];
+  const ids = opinions.map((event) => event.id);
+  for (let i = 0; i < addresses.length; i += DELETION_FILTER_CHUNK) {
+    filters.push({ kinds: [deletionKind], '#a': addresses.slice(i, i + DELETION_FILTER_CHUNK) });
+  }
+  for (let i = 0; i < ids.length; i += DELETION_FILTER_CHUNK) {
+    filters.push({ kinds: [deletionKind], '#e': ids.slice(i, i + DELETION_FILTER_CHUNK) });
+  }
+  return collectChunked(filters);
+}
+
+/** Admin approve/hide decisions for opinions. Verification reports have no `k` tag, so they are not included. */
+export async function fetchOpinionModeration() {
+  if (!siteAdminPubkeys.length) {
+    return [];
+  }
+  return query({
+    kinds: [verificationReportKind],
+    authors: siteAdminPubkeys,
+    '#k': [String(opinionKind)],
+    '#r': [OPINION_DECISION_APPROVE, OPINION_DECISION_HIDE],
+  });
 }
 
 /**
@@ -98,7 +155,7 @@ function now() {
  * Signs with the browser extension and publishes to the webapp's relays.
  * With `requireMainRelay`, the project relay must have answered OK.
  */
-export async function signAndPublish(draft, { eventType = 'event', requireMainRelay = false } = {}) {
+export async function signAndPublish(draft, { eventType = 'event', requireMainRelay = false, includeSummary = false } = {}) {
   const signed = await signEvent(draft);
   const summary = await publishEvent(signed, undefined, {
     requiredRelayUrls: requireMainRelay ? [mainRelayUrl] : [],
@@ -109,7 +166,7 @@ export async function signAndPublish(draft, { eventType = 'event', requireMainRe
     throw new Error(`Failed to publish ${eventType}: no relay accepted it. ${reasons}`);
   }
   console.debug(`Published ${eventType} (id: ${signed.id}) to ${summary.successful}/${summary.total} relays`);
-  return signed;
+  return includeSummary ? { event: signed, summary } : signed;
 }
 
 /**

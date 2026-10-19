@@ -122,13 +122,52 @@ export function applyDeletions(events, deletions) {
   });
 }
 
-/** Approved authors first, then newest first. */
-export function sortOpinions(events, trustedAuthors) {
+/**
+ * One opinion per author and subject (`d` tag): the newest version wins.
+ * Blocked events and authors never make it into the list. Events with no
+ * subject are dropped.
+ */
+export function latestOpinionPerSubject(events, { blockedEventIds = new Set(), blockedAuthors = new Set() } = {}) {
+  const byKey = new Map();
+  for (const event of events) {
+    if (event.kind !== opinionKind) continue;
+    if (blockedEventIds.has(event.id) || blockedAuthors.has(event.pubkey)) continue;
+    const subject = getTagValue(event, 'd');
+    if (!subject) continue;
+    const key = `${event.pubkey}:${subject}`;
+    const current = byKey.get(key);
+    if (!current || (event.created_at ?? 0) >= (current.created_at ?? 0)) {
+      byKey.set(key, event);
+    }
+  }
+  return [...byKey.values()];
+}
+
+/** Plain-text preview of an opinion body, with the header and footer removed. */
+export function opinionExcerpt(content, maxLength = 400) {
+  const body = stripOpinionWrapper(content)
+    .replace(/!\[[^\]]*]\([^)]*\)/g, '')
+    .replace(/\[([^\]]*)]\([^)]*\)/g, '$1')
+    .replace(/[#>*_`~]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+  if (body.length <= maxLength) {
+    return body;
+  }
+  return `${body.slice(0, maxLength).trimEnd()}...`;
+}
+
+/**
+ * Preferred opinions first (a trusted author, or an id in `approvedEventIds`),
+ * then newest first.
+ */
+export function sortOpinions(events, trustedAuthors, approvedEventIds = null) {
+  const preferred = (event) => trustedAuthors.has(event.pubkey) || Boolean(approvedEventIds?.has(event.id));
   return [...events].sort((a, b) => {
-    const aTrusted = trustedAuthors.has(a.pubkey);
-    const bTrusted = trustedAuthors.has(b.pubkey);
-    if (aTrusted !== bTrusted) {
-      return aTrusted ? -1 : 1;
+    const aPreferred = preferred(a);
+    const bPreferred = preferred(b);
+    if (aPreferred !== bPreferred) {
+      return aPreferred ? -1 : 1;
     }
     return (b.created_at ?? 0) - (a.created_at ?? 0);
   });
