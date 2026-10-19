@@ -1,7 +1,7 @@
 # Optional override for a faster local Jekyll loop: `npm run dev:fast`
 # (or add it to --config after _config.dev.yml). It renders only the wallets
-# whose file name starts with "a" or "z" (about 120 of the 4,400 mobile pages),
-# which cuts a full Jekyll regeneration from ~18 s to ~6 s. Everything else
+# whose file name starts with "z" (a handful of the 4,400 mobile pages),
+# which cuts a full Jekyll regeneration to a few seconds. Everything else
 # (hardware, desktop, bearer, others, pages) renders as usual.
 #
 # Jekyll replaces list settings when merging config files instead of
@@ -49,4 +49,4 @@ exclude:
 - test
 - "/*.sh"
 - "/*.mjs"
-- _mobile/[b-y]*
+- _mobile/[a-y]*
