@@ -35,8 +35,19 @@ export function normaliseRepoUrl(raw) {
   let url;
   try { url = new URL(s); } catch { return null; }
   if (url.protocol !== 'https:') return null;
-  const host = url.hostname.toLowerCase().replace(/^www\./, '');
-  const parts = url.pathname.replace(/\.git$/, '').split('/').filter(Boolean);
+  let host = url.hostname.toLowerCase().replace(/^www\./, '');
+  let parts = url.pathname.replace(/\.git$/, '').split('/').filter(Boolean);
+  // Apache's gitweb form names the repository in the query: /repos/asf?p=commons-io.git
+  const project = url.searchParams.get('p');
+  if (/^(gitbox|git-wip-us)\.apache\.org$/.test(host) && project) {
+    host = 'gitbox.apache.org';
+    parts = ['repos', 'asf', project.replace(/\.git$/, '')];
+  }
+  // Code Search is a browser over AOSP's git, not a git host: cs.android.com/androidx/platform/x
+  if (host === 'cs.android.com' && parts.length > 1) {
+    host = 'android.googlesource.com';
+    parts = parts.slice(1);
+  }
   if (CODE_HOSTS.test(host) && host !== 'git.kernel.org' && host !== 'android.googlesource.com') {
     if (parts.length < 2) return null;
     // gitlab nests groups; github and the others are owner/repo
