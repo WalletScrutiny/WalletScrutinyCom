@@ -852,7 +852,6 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   let contentHTML = sectionHtml('', `<dl class="verification-modal-facts">${factsHTML}</dl>`, 'verification-modal-section--facts');
   contentHTML += '<div class="verification-modal-section" id="zaps" style="display: none;"></div>';
   contentHTML += '<div class="verification-modal-section" id="endorsements" style="display: none;"></div>';
-  contentHTML += sectionHtml('Report', `${reportToolsHTML}${issueTrackerHTML}<div class="markdown-content">${parsedMarkdown}</div>`, 'verification-modal-section--report');
   if (attachmentsSectionHTML) {
     contentHTML += sectionHtml('Scripts used to reproduce', attachmentsSectionHTML);
   }
@@ -863,6 +862,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     contentHTML += sectionHtml('Other attempts by this verifier', `<ul class="verification-modal-attempts">${otherVerificationsHTML}</ul>`);
   }
   contentHTML += '<div id="comments-container" class="verification-modal-section verification-modal-section--comments"></div>';
+  contentHTML += sectionHtml('Report', `${reportToolsHTML}${issueTrackerHTML}<div class="markdown-content">${parsedMarkdown}</div>`, 'verification-modal-section--report');
 
   content.innerHTML = contentHTML;
   void fillReportAuthors(content, async pubkey => getProfileDisplayName(await getNostrProfile(pubkey), pubkey));

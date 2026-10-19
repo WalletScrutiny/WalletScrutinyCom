@@ -143,7 +143,7 @@ test.describe('ZEUS verification detail page', () => {
       await expect.soft(previewModal).toBeHidden();
     });
 
-    await test.step('Comments come last', async () => {
+    await test.step('The report comes last', async () => {
       const commentsSection = content.locator('.comments-section');
       const commentAuthor = commentsSection.locator('.comment-author-name');
 
@@ -152,11 +152,11 @@ test.describe('ZEUS verification detail page', () => {
       await expect.soft(commentAuthor).toContainText('btc_remnant');
       await expect.soft(commentsSection.locator('.comment-body')).toContainText('Test comment! 1234');
 
-      // Section order: facts, report, files, then the comments at the end.
+      // Section order: facts, files, comments, then the (possibly very long) report at the end.
       const sectionCaptions = await content.locator('.verification-modal-section:visible').evaluateAll(
         nodes => nodes.map(node => node.querySelector('.verification-modal-caption, .comments-section > p')?.textContent?.trim() ?? ''),
       );
-      expect.soft(sectionCaptions.slice(1)).toEqual(['Report', 'Scripts used to reproduce', 'Output files', 'Comments']);
+      expect.soft(sectionCaptions.slice(1)).toEqual(['Scripts used to reproduce', 'Output files', 'Comments', 'Report']);
     });
 
     await test.step('Report build log viewer', async () => {
