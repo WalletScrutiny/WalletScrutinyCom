@@ -54,7 +54,7 @@ compiles the project and you should see the changes when refreshing the browser.
 
 A full Jekyll regeneration (every layout or include change) renders all ~4,400
 wallet pages. `npm run dev:fast` adds `_config.fast.yml`, which renders only the
-wallets starting with "a" or "z" and is about three times faster; wallet lists
+wallets starting with "z" and is several times faster; wallet lists
 and counts are incomplete in that mode.
 
 ### For production deployment
