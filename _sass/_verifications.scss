@@ -1995,6 +1995,11 @@ body.dark #endorsementModalContent {
   margin-top: 1em;
 }
 
+/* Verification report: "Other information" set apart from the text above it */
+#verificationContent .markdown-content details {
+  margin-top: 1.5em;
+}
+
 /* Verification report: a short hash copies the full one on a tap */
 .markdown-content .report-hash {
   cursor: pointer;

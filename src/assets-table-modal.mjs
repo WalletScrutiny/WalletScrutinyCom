@@ -37,9 +37,14 @@ export function buildEndorsementButtonHtml(verificationId, sha256Hash) {
   ));
 }
 
+/** A 64-character token between underscores, usually a file hash, as its first and last 3 characters. */
+export function shortenOutputFileName(fileName) {
+  return String(fileName ?? '').replace(/(?<=_)[A-Za-z0-9]{64}(?=_)/g, token => `${token.slice(0, 3)}...${token.slice(-3)}`);
+}
+
 export function buildOutputFileDownloadHtml(fileName, fileHash) {
   return htmlOf(el('li', { className: 'verification-modal-file' },
-    el('span', { className: 'verification-modal-file__name' }, fileName ?? ''),
+    el('span', { className: 'verification-modal-file__name', title: fileName ?? '' }, shortenOutputFileName(fileName)),
     el('button', {
       type: 'button',
       className: 'verification-modal-file__action js-download-blossom-file',
