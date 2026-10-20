@@ -80,8 +80,12 @@ const WORST_FIRST = ['affected', 'under_investigation', 'fixed', 'not_affected']
 // dependencies, so bundled), "build" (its development tooling), "tests" (test
 // frameworks and what only they pull in), or "unknown" when the files do not
 // say. Rows exported before `scope` existed only carry the dev flag.
-export const WHERE_LABELS = { app: 'app', build: 'build', tests: 'tests' };
+// A row from a lockfile of another product built from the same repository
+// (`part`, external/source_analysis/export.mjs productPartOf) is not in this
+// app at all, whatever its scope there: "desktop app", "server", …
+export const WHERE_LABELS = { app: 'app', build: 'build', tests: 'tests', desktop: 'desktop app', server: 'server', web: 'website', extension: 'browser extension', docs: 'docs' };
 export function whereOf(row) {
+  if (row?.part && WHERE_LABELS[row.part]) return row.part;
   if (row?.scope && WHERE_LABELS[row.scope]) return row.scope;
   if (row?.dev === true) return 'build';
   if (row?.dev === false) return 'app';
