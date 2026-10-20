@@ -537,6 +537,17 @@ details.dp-decision__others {
   text-decoration: underline;
 }
 
+.dp-trusted {
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+  margin: 0.5em 0;
+}
+
+a.dp-signer {
+  color: inherit;
+  text-decoration: underline dotted;
+}
+
 .dp-published {
   font-size: $font-xxs;
   color: var(--neutral-3);
