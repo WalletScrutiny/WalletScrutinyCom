@@ -21,14 +21,8 @@ const FIXTURE_PATH = fileURLToPath(new URL('./fixtures/relay-events.json', impor
 const RECORD_DIR = join(process.cwd(), 'test-results', 'relay-record');
 
 const mode = process.env.E2E_RELAY || 'replay';
-/**
- * Answer delay of the fake relay. The ZEUS verification link opens its modal
- * from the URL hash before allWallets.js has set window.wallets; against an
- * instant relay the title then shows the app id instead of the wallet name.
- * Live relays always took longer than that script, so a short delay keeps the
- * order they produced.
- */
-const REPLAY_DELAY_MS = Number(process.env.E2E_RELAY_DELAY_MS ?? 100);
+/** Answer delay of the fake relay; 0 answers as fast as the page can ask. */
+const REPLAY_DELAY_MS = Number(process.env.E2E_RELAY_DELAY_MS ?? 0);
 
 let eventStore;
 function loadEvents() {

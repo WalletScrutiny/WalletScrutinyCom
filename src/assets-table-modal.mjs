@@ -1,7 +1,7 @@
 import { wsIcon } from './icon.mjs';
 import { verificationDraftKind, isWalletScrutinySiteAdmin, verificationReportKind } from "./nostr-constants.mjs";
 import { formatDate } from "./format-utils.mjs";
-import { formatZapAmount, getStatusText, formatCommentDate } from "./assets-table-utils.mjs";
+import { formatZapAmount, getStatusText, formatCommentDate, whenAllWalletsLoaded } from "./assets-table-utils.mjs";
 import { getFirstTagValue } from "./verifications_common.mjs";
 import { parseMarkdownToSafeHtml, prefetchMarked } from './marked-loader.mjs';
 import { fillReportAuthors, rewriteLegacyReport, shortenReportHashes, tidyBuildServerReport } from './build-server-report.mjs';
@@ -518,6 +518,10 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     document.body.classList.remove("modal-open");
     return;
   }
+
+  // Titles, share texts and links name the wallet; wait for the full list so
+  // a fast relay does not show the app id instead.
+  await whenAllWalletsLoaded();
 
   if (!response) {
     response = {
