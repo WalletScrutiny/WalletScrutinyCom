@@ -86,6 +86,9 @@ test.describe('Community opinions', () => {
     // The "+N" on All opinions is the number of opinions the Approved list leaves out.
     const opinionCards = section.locator('.opinion-card:not(.opinion-card--reply)');
     const approvedCount = await opinionCards.count();
+    // The Approved pill counts exactly the cards the Approved list shows.
+    await expect(section.locator('.opinions__filter', { hasText: 'Approved' }).locator('.opinions__filter-count'))
+      .toHaveText(String(approvedCount));
     const allButton = section.locator('.opinions__filter', { hasText: 'All opinions' });
     const unapproved = Number((await allButton.locator('.opinions__filter-count').innerText()).replace(/^\+/, ''));
     expect(unapproved).toBeGreaterThan(0);
@@ -155,7 +158,7 @@ test.describe('Community opinions', () => {
     await expect(tabs.nth(1).locator('.opinions__tab-count')).toHaveText(/^[1-9]\d*$/);
     await expectTabIcons(tabs);
     await expect(section.locator('.opinions__filter')).toHaveCount(2);
-    await expect(section.locator('.opinions__filter-count')).toHaveText(/^\+[1-9]\d*$/);
+    await expect(section.locator('.opinions__filter-count')).toHaveText([/^\d+$/, /^\+[1-9]\d*$/]);
     await expect(section.locator('.opinion-card__version')).toHaveCount(0);
 
     await tabs.nth(1).click();
@@ -173,7 +176,7 @@ test.describe('Community opinions', () => {
     await expectIdentifiedAuthors(section);
 
     await tabs.nth(0).click();
-    await expect(section.locator('.opinions__filter[aria-pressed="true"]')).toHaveText('Approved');
+    await expect(section.locator('.opinions__filter[aria-pressed="true"]')).toHaveText(/^Approved\d+$/);
     await expect(section.locator('.opinion-card__version')).toHaveCount(0);
 
     assertNoConsoleErrors();
