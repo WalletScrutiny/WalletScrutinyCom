@@ -234,6 +234,24 @@ export function decisionCell(a, { onJudge = null, freshId = null } = {}) {
   return el('div', { className: 'dp-decision-cell' }, bits);
 }
 
+// An advisory matters until it is fixed or reliably found not to affect the
+// wallet, so "potentially affected" counts every row not settled as either,
+// by severity: a critical one left open weighs more than ten low ones.
+export function exposureLine(model) {
+  if (!model.triage?.total) return null;
+  const open = {};
+  for (const a of model.advisories) {
+    const state = triageStateOf(a);
+    if (state === 'not_affected' || state === 'fixed') continue;
+    const sev = SEVERITY_ORDER.includes(a.severity) ? a.severity : 'unknown';
+    open[sev] = (open[sev] || 0) + 1;
+  }
+  const parts = SEVERITY_ORDER.filter(s => open[s]).map(s => el('span', { className: `dp-exposure__count dp-exposure__count--${s}` }, `${open[s]} ${SEVERITY_LABEL[s].toLowerCase()}`));
+  if (!parts.length) return el('p', { className: 'dp-exposure' }, 'Potentially affected: none. Every advisory is fixed or found not to affect this wallet.');
+  return el('p', { className: 'dp-exposure', title: 'Advisories not yet settled as fixed or not affected, by severity' },
+    el('b', {}, 'Potentially affected: '), parts.flatMap((p, i) => (i ? [' · ', p] : [p])));
+}
+
 // "412 advisories · 0 decided · 412 to look at" above the table: the triage
 // work queue, so a long list is never mistaken for a finished one.
 function triageLine(model) {
@@ -272,7 +290,7 @@ function advisoryTable(model, { onJudge = null, freshId = null, showAll = false 
     )),
     body,
   );
-  const wrap = el('div', { className: 'dp-table-wrap' }, triageLine(model), table);
+  const wrap = el('div', { className: 'dp-table-wrap' }, exposureLine(model), triageLine(model), table);
   if (rest.length) {
     const more = el('button', { type: 'button', className: 'btn-small dp-more' }, `Show all ${model.advisories.length} advisories`);
     more.addEventListener('click', () => {
