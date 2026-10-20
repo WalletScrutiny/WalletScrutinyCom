@@ -163,7 +163,8 @@ describe('dependency triage form', () => {
     const fetchImpl = async (url) => (files[url] === undefined ? { ok: false, status: 404, json: async () => null } : { ok: true, status: 200, json: async () => files[url] });
     const host = document.createElement('div');
     document.body.appendChild(host);
-    await renderDependenciesPanel({ host, appId: 'it.airgap.vault', base: '/y', fetchImpl, nostr: fakeNostr() });
+    const nostr = fakeNostr();
+    await renderDependenciesPanel({ host, appId: 'it.airgap.vault', base: '/y', fetchImpl, nostr });
 
     host.querySelector('.dp-judge').click();
     await settled();
@@ -204,7 +205,22 @@ describe('dependency triage form', () => {
     again = document.querySelector('dialog.dp-dialog');
     assert.equal(checkedSubject(again), 'package');
     assert.equal(again.querySelector('.dp-form__publish').textContent, 'Update statement');
-    again.querySelector('.dp-dialog__close').click();
+
+    // one's own statement can be deleted from the dialog, after a second click
+    const remove = again.querySelector('.dp-form__delete');
+    assert.equal(remove.hidden, false, 'shown for one\'s own statement');
+    remove.click();
+    assert.equal(remove.textContent, 'Click again to delete');
+    assert.equal(nostr.published.length, 1, 'nothing sent on the first click');
+    remove.click();
+    await settled(8);
+    const del = nostr.published[1];
+    assert.equal(del.kind, 5);
+    const target = nostr.published[0];
+    assert.deepEqual(del.tags, [['e', target.id], ['a', `${target.kind}:${target.pubkey}:${target.tags.find(t => t[0] === 'd')[1]}`], ['k', String(target.kind)]]);
+    assert.equal(document.querySelector('dialog.dp-dialog'), null, 'the dialog closed');
+    assert.match(host.querySelector('.dp-flash').textContent, /^Your statement on GHSA-67hx-6x53-jw92 is deleted/);
+    assert.equal(host.querySelector('details.dp-decision__others'), null, 'and it is gone from the row');
     host.remove();
   });
 

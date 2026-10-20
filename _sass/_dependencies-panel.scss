@@ -456,6 +456,17 @@ body.dark .dp-panel {
   gap: 8px;
 }
 
+// "Delete statement" on one's own statement, apart from the other buttons
+.dp-form__delete {
+  margin-right: auto;
+  color: #c0392b;
+
+  &[data-armed] {
+    background: #c0392b;
+    color: #fff;
+  }
+}
+
 // "3 decided · 3 under investigation · 409 still to look at", under the severities
 .dp-triage-line {
   margin-top: 4px;
