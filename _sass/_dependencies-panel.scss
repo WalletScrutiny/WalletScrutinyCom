@@ -404,11 +404,9 @@ body.dark .dp-panel {
   gap: 8px;
 }
 
-// "412 advisories · 0 decided · 412 still to look at"
+// "3 decided · 3 under investigation · 409 still to look at", under the severities
 .dp-triage-line {
-  margin: 0 0 6px;
-  font-size: $font-xs;
-  color: var(--neutral-3);
+  margin-top: 4px;
 }
 
 .dp-decision {

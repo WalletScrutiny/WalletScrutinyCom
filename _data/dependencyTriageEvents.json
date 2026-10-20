@@ -127,11 +127,11 @@
  },
  {
   "content": "Demo statement written in the Judge dialog of the wallet page, signed with the browser extension path, to show the round trip. No ruling.",
-  "created_at": 1792179139,
-  "id": "b987386880ae18989e9778a4f182517d133e4178ab3683b5e08a9a43ec1452b2",
+  "created_at": 1792179458,
+  "id": "8304afd076cb4f05a4703984fcbd39d912f6bac7d96b4e1fa1534b62777177fc",
   "kind": 30350,
   "pubkey": "698c11c7263b6bd5a85bcd80ecc6e56562dd47eea5df70119755cb1f70ffacee",
-  "sig": "4cb1e269360d246a858169d0f113516484d6cc29ca9345ca9c0e6ec7be05022c14a08550dd35d1d921d3b9f3984463c04d406632f3df5173b6c14a43be80a474",
+  "sig": "b64404dd0fed6a6c6c2d75c396d7b09b220829bbfeddf3233e444f271248743232f29311cab41ee783f78ce462dec7b2e5e70d514c1114ce4fc25102fc132179",
   "tags": [
    [
     "d",
@@ -160,6 +160,1552 @@
    [
     "evidence",
     "https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/978"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "Testing our judge button. Disregard.",
+  "created_at": 1792480787,
+  "id": "35ab221bf15f1347abb542c06f0fe27b1494329b26f2e3d99caeb6eb0c84a41a",
+  "kind": 30350,
+  "pubkey": "916cb5ff07d3b51cef7f6b6b7f5479b1001b401c0e82558ee1a22504c7d507c9",
+  "sig": "825230dc1386af2a56e7d3792eb95366025e1d359d8da46b8adba35df68a817c7693abfe729b46d758e82bb172b6f8618f2e8f3ddab40bf1d66d43e2e858b2ae",
+  "tags": [
+   [
+    "d",
+    "GHSA-xvch-5gv4-984h|package"
+   ],
+   [
+    "vuln",
+    "GHSA-xvch-5gv4-984h"
+   ],
+   [
+    "vuln",
+    "CVE-2021-44906"
+   ],
+   [
+    "package",
+    "npm:minimist"
+   ],
+   [
+    "status",
+    "under_investigation"
+   ],
+   [
+    "evidence",
+    "https://www.google.com/search?q=minimist+1.2.0+%C2%B7+critical+%C2%B7+Prototype+Pollution+in+minimist"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"graphql 16.7.1 via @airgap/tezos. First-party code never builds a GraphQL document, and the DoS needs a crafted query reaching the parser. Owned by the coinlib workstream; a fix exists in 16.8.1.\"",
+  "created_at": 1792488155,
+  "id": "43908d07fa0857f2d5459c94e095267490bfd1012ecb98dc8b5e57a639ab1c3c",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "ff5abcdddd60c920cd3009ff97e3aac7dca58c6cee94b679ca2e6b3850dd1c9554744f54d7024b2c6533ab6cdbc691f86a75d4200e4a7d31e8e72ad3479fdf93",
+  "tags": [
+   [
+    "d",
+    "GHSA-9pv7-vfvm-6vr7|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-9pv7-vfvm-6vr7"
+   ],
+   [
+    "vuln",
+    "CVE-2023-26144"
+   ],
+   [
+    "package",
+    "npm:graphql"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L41"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"form-data 3.0.1 via @airgap/tezos > graphql-request. Predictable multipart boundaries matter only for requests this app never issues; the vault talks to no backend. Owned by the coinlib workstream.\"",
+  "created_at": 1792488155,
+  "id": "aff9fee3d3548e0450bd037f17154cfe085e19d60a41582210136c2ad34ab4b6",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "a9369d46e5a9ccbbc26f6ce3eac9c907193776123f3fc9985401b92b6bad1bfbb16f63931946329460e7e3a42f457d01261648f73a7039fa8aefac61a7c1860d",
+  "tags": [
+   [
+    "d",
+    "GHSA-fjxv-7rqg-78g4|via:npm:graphql-request"
+   ],
+   [
+    "vuln",
+    "GHSA-fjxv-7rqg-78g4"
+   ],
+   [
+    "vuln",
+    "CVE-2025-7783"
+   ],
+   [
+    "package",
+    "npm:form-data"
+   ],
+   [
+    "via",
+    "npm:graphql-request"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L47"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"form-data 3.0.1 via @airgap/tezos > graphql-request. Same dead request path as CVE-2025-7783. Owned by the coinlib workstream.\"",
+  "created_at": 1792488156,
+  "id": "bf8891a5a6b194b1ac5360aa82eabb6e333feddbae80b7cc3cf0ae3325535e65",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "f04a9311e10794d9f287cdede58eaec6b25e631f3a4f3dab5424492b9de59327921e640ce56a093067c727943b7d74aa87a74b18a4bc9a0bf77781755c4173e3",
+  "tags": [
+   [
+    "d",
+    "GHSA-hmw2-7cc7-3qxx|via:npm:graphql-request"
+   ],
+   [
+    "vuln",
+    "GHSA-hmw2-7cc7-3qxx"
+   ],
+   [
+    "vuln",
+    "CVE-2026-12143"
+   ],
+   [
+    "package",
+    "npm:form-data"
+   ],
+   [
+    "via",
+    "npm:graphql-request"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L53"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"@stablelib/ed25519 1.0.3 via @airgap/tezos > @taquito/utils. Signature malleability, no published fix. Deserves attention out of proportion to its MEDIUM rating in a wallet, but the decision belongs to the coinlib team; tracked there rather than fixed here.\"",
+  "created_at": 1792488157,
+  "id": "8322480a85e0f32d4388bc3daeffb76621b2c744f66606e97877be360557b067",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "8e8b50d592cb9570e76b38c6d29ca98e7d9b193ad97962d7866457d74b4647de55ec1c2da343911d843829b58893472efc230fc23482f8cbff8858e7c66d3c6b",
+  "tags": [
+   [
+    "d",
+    "GHSA-x3ff-w252-2g7j|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-x3ff-w252-2g7j"
+   ],
+   [
+    "package",
+    "npm:@stablelib/ed25519"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "under_investigation"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L58"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"bn.js 4.12.0 (crypto-browserify > create-ecdh) and 5.2.2 (@airgap/substrate > @polkadot/util). maskn(0) is the vulnerable call; no first-party code uses bn.js directly, and every internal maskn call is Montgomery reduction where the shift is positive by construction.\"",
+  "created_at": 1792488158,
+  "id": "b3f4a68fc6db7cb8312b0b05dc8a42ff3e6526254b1eb550abc2645d550f7f0c",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "33c5189165d1d0a5c27232fdd727d06e7c6ee6775a366404b867c72edae7a95864984a7974685fb6431256670efe452d4b7e5dedb169ab04880897ef555835dc",
+  "tags": [
+   [
+    "d",
+    "GHSA-378v-28hj-76wf|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-378v-28hj-76wf"
+   ],
+   [
+    "vuln",
+    "CVE-2026-2739"
+   ],
+   [
+    "package",
+    "npm:bn.js"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L76"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"secp256k1 4.0.3 via @keystonehq/bc-ur-registry-eth > hdkey. The flaw is in ecdh(); no consumer of this copy calls it, only sign/verify/recover. The only ecdh() call sites in the tree are coinlib's vendored copies, which carry no package metadata and are a separate scan blind spot of their own. Re-open the moment any consumer calls ecdh: the fix is in-range at 4.0.4 and free.\"",
+  "created_at": 1792488158,
+  "id": "d0f7e7d5ca3beece6bc5aac041c7e98145fb4785f3a2efc964f0c2d5afe84e7c",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "d48629dccfea47d1a7434e02ba4c3b01d545ece2080d450a50203d26cc7a4e6c4df43f35572ef4ef7ba090ab5248e7fa4cd8b9956a98a7ed2665f140f2f6ca2a",
+  "tags": [
+   [
+    "d",
+    "GHSA-584q-6j8j-r5pm|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-584q-6j8j-r5pm"
+   ],
+   [
+    "vuln",
+    "CVE-2024-48930"
+   ],
+   [
+    "package",
+    "npm:secp256k1"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L67"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"uuid 8.3.2 via @keystonehq/bc-ur-registry-eth. The out-of-bounds write needs a caller-supplied buffer passed to v3/v5/v6. Note this differs from the original triage: the direct dependency was deleted, and @airgap/angular-core does import uuid on the live MetaMask sync path, but it calls only parse and v4, so the vulnerable signature is still unused.\"",
+  "created_at": 1792488159,
+  "id": "7330edf62d528eedf6cad6253b678ee562bf075328506df96922d04737f72690",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "cf147dba5dbc4d7b7dce57c0e17e389b4affbdf6448b738eac9081cb8bead6bd6cc2b0b87e64a96e58a707d5cead995f4037bd4632f9e21a2f1c0ad7a06a858b",
+  "tags": [
+   [
+    "d",
+    "GHSA-w5hq-g745-h8pq|via:npm:@keystonehq/bc-ur-registry-eth"
+   ],
+   [
+    "vuln",
+    "GHSA-w5hq-g745-h8pq"
+   ],
+   [
+    "vuln",
+    "CVE-2026-41907"
+   ],
+   [
+    "vuln",
+    "CVE-2026-41988"
+   ],
+   [
+    "package",
+    "npm:uuid"
+   ],
+   [
+    "via",
+    "npm:@keystonehq/bc-ur-registry-eth"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L83"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"minimist 1.2.0, pinned exactly by cordova.plugins.diagnostic. Used only in the plugin's build-time hook (scripts/logger.js parsing process.argv). Nothing under www/ requires minimist; exploitation needs attacker-controlled argv on a developer's build machine.\"",
+  "created_at": 1792488160,
+  "id": "3dd8bc6da49e4f34f65fb766f5c0963889a60afef2667008a4867c8568d25a93",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "92ddf58db5bd93adad00ae3ddb91ce9d5269b28b2b0cc5e145238fed4f30c9b6b5af0eb3e0de4ec653927f1004fa4e9b350d2c63a327543cc42a5e2a4409d9a3",
+  "tags": [
+   [
+    "d",
+    "GHSA-vh95-rmgr-6w4m|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-vh95-rmgr-6w4m"
+   ],
+   [
+    "vuln",
+    "CVE-2020-7598"
+   ],
+   [
+    "package",
+    "npm:minimist"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L93"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"elliptic 6.6.1 via crypto-browserify > browserify-sign. Reachable, unlike the rest of this file, and kept only because no patched release exists. Nothing to do but track upstream; the near review date is deliberate.\"",
+  "created_at": 1792488161,
+  "id": "26c9a43bdec87834883d3f42c606704c99dc55420ccac23bb1f72792b97bc625",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "27ed2d1dcf01b558d2c46f7e280fbe606f104e501e4093ae03f5b0258bbe366c3787e21fa05920cc2bba44ec5920b58db3a05a4b751513e5aa46d285c6a47d8b",
+  "tags": [
+   [
+    "d",
+    "GHSA-848j-6mx2-7j84|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-848j-6mx2-7j84"
+   ],
+   [
+    "vuln",
+    "CVE-2025-14505"
+   ],
+   [
+    "package",
+    "npm:elliptic"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "affected"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L200"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"minimist 1.2.0, same build-time-only hook as CVE-2020-7598. Prototype pollution reachable only through argv on a build machine.\"",
+  "created_at": 1792488161,
+  "id": "37c27c896da215c0911da77554c70cf92dd8c5d279ba83ae6e185d975bd00b77",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "77c6502b0b81d73f47edab0d96339576712ebab8afb4da1a6efda2cfa24e49719ee726019cc847323d693569ca894492351090e818d52283135bb475d92bd3a8",
+  "tags": [
+   [
+    "d",
+    "GHSA-xvch-5gv4-984h|via:npm:cordova.plugins.diagnostic"
+   ],
+   [
+    "vuln",
+    "GHSA-xvch-5gv4-984h"
+   ],
+   [
+    "vuln",
+    "CVE-2021-44906"
+   ],
+   [
+    "package",
+    "npm:minimist"
+   ],
+   [
+    "via",
+    "npm:cordova.plugins.diagnostic"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L100"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"XSRF token leaked to third-party hosts via protocol-relative URLs. Both HttpClient call sites use relative local-asset paths (sapling params, the ngx-translate loader); no cross-origin URL is ever built and there is no backend to set an XSRF cookie.\"",
+  "created_at": 1792488162,
+  "id": "a8b8df5a59affcf3f3f0c18ca552c833a5ac9e0269599818286a0606e46fafa1",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "5beef9668d333eef14e8d58509a64a8f6b4861692358e9c102b7322402113ef840a69cd2657156067b4d54905906f3c03a1a55a7e2ba82be389ee7bdb14e0952",
+  "tags": [
+   [
+    "d",
+    "GHSA-58c5-g7wp-6w37|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-58c5-g7wp-6w37"
+   ],
+   [
+    "vuln",
+    "CVE-2025-66035"
+   ],
+   [
+    "package",
+    "npm:@angular/common"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L122"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"Weak 32-bit HttpTransferCache key hashing. Same SSR-only API, same absence.\"",
+  "created_at": 1792488163,
+  "id": "139c22300d4c3da417ac9213f95f69b5caaf2ab37e16a6c245c35b339631d944",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "767282311c7b3cd640d5a8f28c219f39b963fe62bd6db3e07d0467a4e069a71c3af03c8d1a26f4462cc23740be766554d90cb26facc034fd1c01cc8ebc76e2a7",
+  "tags": [
+   [
+    "d",
+    "GHSA-39pv-4j6c-2g6v|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-39pv-4j6c-2g6v"
+   ],
+   [
+    "vuln",
+    "CVE-2026-54266"
+   ],
+   [
+    "package",
+    "npm:@angular/common"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L135"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"HttpTransferCache caches credentialed requests. SSR-only API: no provideClientHydration, no @angular/ssr, no @angular/platform-server. The cache is never instantiated.\"",
+  "created_at": 1792488163,
+  "id": "3482472290967f3cee174ab757e9d22cca6710d539d6b235b34d5bb163ecf14c",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "f11e5c8eb5de5ea53212b1eede8ef89351331ea178465579b5782c278869b9209c10df38871fdb583aa25d84c1d6eaba1c29e9686afcf70a91ff2f1e4803532d",
+  "tags": [
+   [
+    "d",
+    "GHSA-q6f4-qqrg-jv6x|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-q6f4-qqrg-jv6x"
+   ],
+   [
+    "vuln",
+    "CVE-2026-50170"
+   ],
+   [
+    "package",
+    "npm:@angular/common"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L129"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"Cross-request response reuse in HttpTransferCache. Same SSR-only API.\"",
+  "created_at": 1792488164,
+  "id": "a9a44c56b5b71c507913949e11f9cb591228b80da56603fe873f295373571b66",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "4dc034705439591d84b10ed1343e5955c8b748f5e38829e72faed784b325a3071180bbdb266e92dc90824a55fa6279199c79803c68e0aebd3c4e2c49ae05a520",
+  "tags": [
+   [
+    "d",
+    "GHSA-jhpw-976m-542j|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-jhpw-976m-542j"
+   ],
+   [
+    "vuln",
+    "CVE-2026-68945"
+   ],
+   [
+    "package",
+    "npm:@angular/common"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L139"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"Client hydration DOM clobbering and response-cache poisoning. Requires hydration; the app bootstraps client-side only.\"",
+  "created_at": 1792488166,
+  "id": "4000fb0854d1e5a3b8ecb7614038d71e79a503e706e6b5cb59287ddddb9a8f51",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "c2eca232f2b420f9f1f438457da6ec30f70b45df958a5641b7c47c11d77708a25e7e0539359d02894e14c550affe491aa22334509779bfd7d2c4858cc3ecbc89",
+  "tags": [
+   [
+    "d",
+    "GHSA-rgjc-h3x7-9mwg|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-rgjc-h3x7-9mwg"
+   ],
+   [
+    "vuln",
+    "CVE-2026-54267"
+   ],
+   [
+    "package",
+    "npm:@angular/core"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L148"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"HttpTransferCache leak, reported after the original triage. Same SSR-only API, same absence; consistent with the exclusions already recorded there.\"",
+  "created_at": 1792488166,
+  "id": "e14157820672432a48ecf0a1a01535c4f03c0f18e8136d041f82a2ce4705faa4",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "0ced3d7a80610b69f9b32bd3495f84633125cb7ed36ccb1a00572ad92d153be45ed78a6df703b452c1eed0075d767d6c7737520fb9e2ab7352af70cb7b3547ea",
+  "tags": [
+   [
+    "d",
+    "GHSA-p297-fm68-3q8c|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-p297-fm68-3q8c"
+   ],
+   [
+    "vuln",
+    "CVE-2026-88059"
+   ],
+   [
+    "package",
+    "npm:@angular/common"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L143"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"DoS via malformed digitsInfo on number pipes. The app's only number pipe is PercentPipe fed a number, and no call site passes digitsInfo at all.\"",
+  "created_at": 1792488167,
+  "id": "16d57eabdb250bf6fe72d362ce43ed82d1f88ceccd7d77f1c97a31713efa3525",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "91be208201c75417cccf52daecc0b06d74632600d1d645d2b124b4a1b0218025df399e1bd0258bcd1a177830309027dcb15df8cbc93309efe919d3a49ed0d561",
+  "tags": [
+   [
+    "d",
+    "GHSA-p3vc-36g9-x9gr|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-p3vc-36g9-x9gr"
+   ],
+   [
+    "vuln",
+    "CVE-2026-50171"
+   ],
+   [
+    "package",
+    "npm:@angular/common"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L153"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"DoS via crafted date format string. One date pipe usage in the app (error-history.page.html) with a literal format; no formatDate() calls.\"",
+  "created_at": 1792488168,
+  "id": "04d4fe340b543ae9caea27e3c744a62fd342e5de097c17c545c24bf550cefa20",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "eb70843e34802033357cea378cd0f2175424c07bd21d864a271863c0a184d5583e4f9fc8367ef1fc5387772ef8273cfba66951c3a725041c5c2552773be37da5",
+  "tags": [
+   [
+    "d",
+    "GHSA-48r7-hpm6-gfxm|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-48r7-hpm6-gfxm"
+   ],
+   [
+    "vuln",
+    "CVE-2026-54268"
+   ],
+   [
+    "package",
+    "npm:@angular/common"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L158"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"XSS in the Template Compiler. Needs a template compiled from untrusted input; all templates are first-party and compiled AOT at build time.\"",
+  "created_at": 1792488169,
+  "id": "38de220a9a6e3cfc562c84cc20c219c006b8aebc038ef58df50838996f0ca7e0",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "38b484920fb6bf854921392679f73f5a1676dca3f6a950ad561a8efddee31fb14f0b82e36875d7025b495e255a2655c0ad31c574dda20940a67f09a292827555",
+  "tags": [
+   [
+    "d",
+    "GHSA-jrmj-c5cx-3cw6|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-jrmj-c5cx-3cw6"
+   ],
+   [
+    "vuln",
+    "CVE-2026-22610"
+   ],
+   [
+    "package",
+    "npm:@angular/compiler"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L163"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"XSS in the Template Compiler. Needs a template compiled from untrusted input; all templates are first-party and compiled AOT at build time.\"",
+  "created_at": 1792488169,
+  "id": "9a483122e4dde3d16f1ad27010108c859e3221c3cb59548b1d3922e9951680e0",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "bd799d65f9752e6830a932b27174d16df33c0ed960531e9eb7709886f189c38003f8aa9a348a9944b88988994b8bbd325a624d5d6a29af83576a09bc89b86ee1",
+  "tags": [
+   [
+    "d",
+    "CVE-2026-22610|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "CVE-2026-22610"
+   ],
+   [
+    "vuln",
+    "GHSA-jrmj-c5cx-3cw6"
+   ],
+   [
+    "package",
+    "npm:@angular/core"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L163"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"XSS via compromised translation files, targeting $localize / loadTranslations. @angular/localize is not a dependency; i18n is @ngx-translate reading bundled first-party JSON.\"",
+  "created_at": 1792488170,
+  "id": "5c072aaeae72a55c962e6e885f3d0f64940a6d205a5b5cce131d8f248aaa0833",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "af14efd2f5237fc6d3d94eb359bf9c20adc677409a066b094bdbe9a264872ee2a6ebdca3e34e93a2593edf9572c80b76fa614bce70c30ee92dcd908305709e3a",
+  "tags": [
+   [
+    "d",
+    "GHSA-prjf-86w9-mfqv|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-prjf-86w9-mfqv"
+   ],
+   [
+    "vuln",
+    "CVE-2026-27970"
+   ],
+   [
+    "package",
+    "npm:@angular/core"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L168"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"XSS via internationalization event handlers, requiring Angular's own i18n markup. No i18n or i18n- attributes exist in any template.\"",
+  "created_at": 1792488171,
+  "id": "ff3c7bc7f2fbb83825381fcc12e70df8b72ada8c1ae66e0d9edca59a07d6807c",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "d557863088af295517c5600a4ac58e6a170a430b10214984c3aeae443f1a4016713ad69090fa054979452f58bb9962251a36292634cb13a2cda5e0356fa5e9a6",
+  "tags": [
+   [
+    "d",
+    "GHSA-jj27-h5hq-8x99|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-jj27-h5hq-8x99"
+   ],
+   [
+    "vuln",
+    "CVE-2026-69151"
+   ],
+   [
+    "package",
+    "npm:@angular/compiler"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L174"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"XSS via internationalization event handlers, requiring Angular's own i18n markup. No i18n or i18n- attributes exist in any template.\"",
+  "created_at": 1792488172,
+  "id": "cc5e9f7fdc2b85288384f8e0bf51b9373e900f63307a49c72914fdc048deb793",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "ab888fbd9d904b5bf8b449a74e246f80375eed65091bf055c0e1ff286d3d398598656a225f38ee0c2630d5d2007c5c2331c9277ec80c61e7d69b34975ed3f364",
+  "tags": [
+   [
+    "d",
+    "CVE-2026-69151|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "CVE-2026-69151"
+   ],
+   [
+    "vuln",
+    "GHSA-jj27-h5hq-8x99"
+   ],
+   [
+    "package",
+    "npm:@angular/core"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L174"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"Template/attribute namespace sanitization bypass. Needs untrusted data at an Angular sanitizer sink; every [innerHTML] binds a translate output or a first-party value. Untrusted strings do reach Ionic's own innerHTML path via innerHTMLTemplatesEnabled, but that is a separate sink outside this CVE and still unreviewed.\"",
+  "created_at": 1792488172,
+  "id": "ee15916be22891803ab7d997345daa33edb36e3ba178e9a7d3fd5065866bb3a3",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "509dffad5eb278180db5aee50ae6862eec0adc4f01a059cea1a4ab43604e2970f81a90f0ef255178a0f3e1ea3d5c425a5b395f541329d631b92eab1a76afd879",
+  "tags": [
+   [
+    "d",
+    "GHSA-f3m7-gqxr-g87x|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-f3m7-gqxr-g87x"
+   ],
+   [
+    "vuln",
+    "CVE-2026-50557"
+   ],
+   [
+    "package",
+    "npm:@angular/compiler"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L179"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"Template/attribute namespace sanitization bypass. Needs untrusted data at an Angular sanitizer sink; every [innerHTML] binds a translate output or a first-party value. Untrusted strings do reach Ionic's own innerHTML path via innerHTMLTemplatesEnabled, but that is a separate sink outside this CVE and still unreviewed.\"",
+  "created_at": 1792488173,
+  "id": "32058f6d845f1b845e116ec2ec2698d8cd969ee29553b0a6b58cf1008f0d0f67",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "3d90e610aefa4ff85f6e9bd6e94f661c6f7ea8c9af175606066731bb546ae9efc005bcef42c2d1c7d6f5196874d19ee62ea6b49f96b209c0614fd5481f219372",
+  "tags": [
+   [
+    "d",
+    "CVE-2026-50557|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "CVE-2026-50557"
+   ],
+   [
+    "vuln",
+    "GHSA-f3m7-gqxr-g87x"
+   ],
+   [
+    "package",
+    "npm:@angular/core"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L179"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"XSS via dynamic component creation. No runtime createComponent, ViewContainerRef or ComponentFactoryResolver use outside specs; Ionic overlays receive component classes, never template strings.\"",
+  "created_at": 1792488174,
+  "id": "211b4cf71c1eff04b8d4f7843f53db7d4a60fbbf4692860161dd0a866b559a6c",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "c90693d90bfec92fc2141242ab7db8876fda9b1a07b8c1d78ab6fca725a4582a9aa690302fbcda38fd7d4cadc44cb50e41dda405ede6a21e285979406f009339",
+  "tags": [
+   [
+    "d",
+    "GHSA-692r-grfm-v8x7|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-692r-grfm-v8x7"
+   ],
+   [
+    "vuln",
+    "CVE-2026-52725"
+   ],
+   [
+    "package",
+    "npm:@angular/core"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L187"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"Host-binding sanitization bypass, reported after the original triage. Application code declares no @HostBinding at all.\"",
+  "created_at": 1792488175,
+  "id": "354bc3ab5e20aedf05c6615645ba40f496231ef0070ecf2670e1d954e31d6ea5",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "5a74f7fe2a8576a4a962c89822ed2f1d110e83224cdd3eb6531613edbd22ec7f255b9a4b983d5064abb2455fd4651bb535e18df193503c25084900bcbd8b7134",
+  "tags": [
+   [
+    "d",
+    "GHSA-hh8m-fm6v-7cvg|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-hh8m-fm6v-7cvg"
+   ],
+   [
+    "vuln",
+    "CVE-2026-88057"
+   ],
+   [
+    "package",
+    "npm:@angular/compiler"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L193"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"Host-binding sanitization bypass, reported after the original triage. Application code declares no @HostBinding at all.\"",
+  "created_at": 1792488175,
+  "id": "bf9a2a6aeaeb09cbda701508caa1d4b4525a0f042f748f290e54f87791cd7410",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "09e520fd2d1b5b51be09e2fbaf4af4d3d63d5b8b81938fe4c406b73a9be658912a68c4c7ca267402e7da68ea20fd2e00674afd34e23c5e0efd209799e25ab8cc",
+  "tags": [
+   [
+    "d",
+    "CVE-2026-88057|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "CVE-2026-88057"
+   ],
+   [
+    "vuln",
+    "GHSA-hh8m-fm6v-7cvg"
+   ],
+   [
+    "package",
+    "npm:@angular/core"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L193"
    ],
    [
     "client",

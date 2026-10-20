@@ -62,7 +62,7 @@ describe('dependencies panel', () => {
     const values = [...host.querySelectorAll('.dp-tile__value')].map(e => e.textContent);
     assert.deepEqual(values, ['40', '372', '13', '0']);
     assert.match(host.querySelector('.dp-notices').textContent, /14 of the 412 packages could not be checked for advisories \(14 version range, not an exact version\); that is not the same as "no problems"\./);
-    assert.deepEqual([...host.querySelectorAll('.dp-tally')].map(e => e.textContent), ['1 critical', '2 high', '10 medium'], 'one line per severity');
+    assert.deepEqual([...host.querySelectorAll('.dp-tally')].map(e => e.textContent), ['1 critical · none cleared', '2 high · none cleared', '10 medium · none cleared'], 'one line per severity');
     assert.ok(host.querySelector('.dp-tile--sev-critical'), 'the count takes the worst open severity\'s colour');
     assert.equal(host.querySelector('.dp-tile__sub--where'), null, 'no app/build-tooling split in the tile');
     assert.equal(host.querySelectorAll('tbody tr').length, 10);
@@ -71,7 +71,7 @@ describe('dependencies panel', () => {
     assert.equal(host.querySelector('.dp-more').textContent, 'Show all 13 advisories');
     assert.deepEqual([...host.querySelectorAll('thead th')].map(e => e.textContent), ['Package', 'Version', 'Advisory', 'Severity', 'Where?', 'Used by', 'Decision']);
     assert.equal(host.querySelector('.dp-exposure'), null, 'the severities are counted once, in the tile');
-    assert.equal(host.querySelector('.dp-triage-line').textContent, '13 advisories · 0 decided · 13 still to look at');
+    assert.equal(host.querySelector('.dp-tile .dp-triage-line').textContent, '0 decided · 13 still to look at');
     assert.equal(host.querySelectorAll('.dp-decision--undecided').length, 10);
     assert.match(host.querySelector('.dp-note').textContent, /Nobody has made those statements for this wallet's advisories yet/);
     assert.equal(host.querySelector('.dp-eco'), null, 'one ecosystem: no tag on the package');
@@ -111,9 +111,9 @@ describe('dependencies panel', () => {
     const model = await renderDependenciesPanel({ host, appId: 'app.ios', base: '/x', fetchImpl });
     assert.deepEqual(calls.slice(2), ['/x/triage/app.ios.json', '/x/triage/app.android.json', '/x/signals.json'], 'the page\'s id first, then the analysis id, then the signals');
     assert.deepEqual(model.triage, { total: 13, decided: 2, undecided: 11, affected: 1, not_affected: 1, fixed: 0, under_investigation: 0, partial: 1, community: 1 });
-    assert.deepEqual([...host.querySelectorAll('.dp-tally')].map(e => e.textContent), ['1 critical (1 cleared)', '2 high', '10 medium'], 'the not-affected critical is cleared; the affected high is not');
+    assert.deepEqual([...host.querySelectorAll('.dp-tally')].map(e => e.textContent), ['1 critical · 1 cleared', '2 high · none cleared', '10 medium · none cleared'], 'the not-affected critical is cleared; the affected high is not');
     assert.ok(host.querySelector('.dp-tile--sev-high'), 'with the only critical cleared, the count goes orange');
-    assert.equal(host.querySelector('.dp-triage-line').textContent, '13 advisories · 2 decided · 1 affected · 1 not affected · 11 still to look at (1 partly)');
+    assert.equal(host.querySelector('.dp-tile .dp-triage-line').textContent, '2 decided · 1 affected · 1 not affected · 11 still to look at (1 partly)');
     const rows = [...host.querySelectorAll('tbody tr')];
     assert.deepEqual(rows.slice(0, 3).map(r => r.querySelector('td a').textContent), ['GHSA-crit', 'GHSA-test', 'GHSA-high'], 'critical first; within high the affected row before the undecided one');
     const first = rows[0].querySelector('.dp-td-decision');
@@ -185,10 +185,10 @@ describe('dependencies panel', () => {
     const model = (bySeverity, advisories) => ({ bySeverity, advisories });
     const text = (t) => t.lines.map(e => e.textContent);
     let t = severityTally(model({ critical: 2, low: 1, unknown: 1 }, [row('critical', 'fixed'), row('critical', 'under_investigation'), row('low', null), row('weird', null)]));
-    assert.deepEqual(text(t), ['2 critical (1 cleared)', '1 low', '1 unrated']);
+    assert.deepEqual(text(t), ['2 critical · 1 cleared', '1 low · none cleared', '1 unrated · none cleared']);
     assert.equal(t.worstOpen, 'critical');
     t = severityTally(model({ critical: 1, moderate: 1 }, [row('critical', 'not_affected'), row('moderate', 'affected')]));
-    assert.deepEqual(text(t), ['1 critical (1 cleared)', '1 medium']);
+    assert.deepEqual(text(t), ['1 critical · 1 cleared', '1 medium · none cleared']);
     assert.equal(t.worstOpen, 'moderate');
     t = severityTally(model({ high: 1 }, [row('high', 'not_affected')]));
     assert.equal(t.worstOpen, null, 'everything cleared');
