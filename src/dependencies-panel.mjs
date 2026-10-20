@@ -124,11 +124,11 @@ function tile(value, label, { tone = '', sub = null } = {}) {
   return el('div', { className: `dp-tile${tone ? ` dp-tile--${tone}` : ''}` },
     el('div', { className: 'dp-tile__value' }, value == null ? '–' : String(value)),
     el('div', { className: 'dp-tile__label' }, label),
-    sub ? el('div', { className: 'dp-tile__sub' }, sub) : null,
+    [sub].flat().some(Boolean) ? el('div', { className: 'dp-tile__sub' }, sub) : null,
   );
 }
 
-// One line per severity, "50 critical (40 cleared)": cleared counts the
+// One line per severity, "50 critical · 40 cleared": cleared counts the
 // rows settled as fixed or not affected; everything else (undecided, under
 // investigation, affected) is still potentially affected.
 export function severityTally(model) {
@@ -143,7 +143,7 @@ export function severityTally(model) {
   const worstOpen = rows.find(r => r.total > r.cleared)?.severity || null;
   const lines = rows.map(r => el('div', { className: 'dp-tally' },
     el('span', { className: `dp-tally__count dp-tally__count--${r.severity}` }, `${r.total} ${SEVERITY_LABEL[r.severity].toLowerCase()}`),
-    r.cleared ? ` (${r.cleared} cleared)` : null));
+    ` · ${r.cleared || 'none'} cleared`));
   return { lines: lines.length ? lines : null, worstOpen };
 }
 
@@ -244,18 +244,18 @@ export function decisionCell(a, { onJudge = null, freshId = null } = {}) {
   return el('div', { className: 'dp-decision-cell' }, bits);
 }
 
-// "412 advisories · 0 decided · 412 to look at" above the table: the triage
-// work queue, so a long list is never mistaken for a finished one.
+// "3 decided · 3 under investigation · 409 still to look at" in the
+// vulnerability tile: the triage work queue, so a long list is never mistaken for a finished one.
 function triageLine(model) {
   const t = model.triage;
   if (!t || !t.total) return null;
-  const parts = [`${t.total} ${t.total === 1 ? 'advisory' : 'advisories'}`, `${t.decided} decided`];
+  const parts = [`${t.decided} decided`];
   if (t.affected) parts.push(`${t.affected} affected`);
   if (t.not_affected) parts.push(`${t.not_affected} not affected`);
   if (t.fixed) parts.push(`${t.fixed} fixed`);
   if (t.under_investigation) parts.push(`${t.under_investigation} under investigation`);
   parts.push(t.undecided ? `${t.undecided} still to look at${t.partial ? ` (${t.partial} partly)` : ''}` : 'nothing left to look at');
-  return el('p', { className: 'dp-triage-line' }, parts.join(' · '));
+  return el('div', { className: 'dp-triage-line' }, parts.join(' · '));
 }
 
 // "25 · 3 this version": how many of the checked wallets ship the package at
@@ -282,7 +282,7 @@ function advisoryTable(model, { onJudge = null, freshId = null, showAll = false 
     )),
     body,
   );
-  const wrap = el('div', { className: 'dp-table-wrap' }, triageLine(model), table);
+  const wrap = el('div', { className: 'dp-table-wrap' }, table);
   if (rest.length) {
     const more = el('button', { type: 'button', className: 'btn-small dp-more' }, `Show all ${model.advisories.length} advisories`);
     more.addEventListener('click', () => {
@@ -410,7 +410,7 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
     el('div', { className: 'dp-tiles' },
       tile(model.direct, 'direct dependencies'),
       tile(model.transitive, 'transitive dependencies'),
-      tile(model.vulnerabilities, 'known vulnerabilities', { tone: vulnTone, sub: tally.lines }),
+      tile(model.vulnerabilities, 'known vulnerabilities', { tone: vulnTone, sub: [tally.lines, triageLine(model)] }),
       tile(model.malware, 'known malware', { tone: model.malware ? 'bad' : 'good' }),
     ),
     treeTabs(model, advisoryTable(model, { onJudge, freshId, showAll }), { appId, base, fetchImpl, label: `${wallet} ${model.ref}` }),
