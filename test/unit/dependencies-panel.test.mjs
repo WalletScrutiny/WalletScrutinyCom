@@ -92,7 +92,7 @@ describe('dependencies panel', () => {
     assert.equal(empty.hidden, true);
   });
 
-  test('a triage file paints decisions from the direct users\' statements, sorts dismissed rows after open ones and counts the queue', async () => {
+  test('a triage file paints decisions from the direct users\' statements, keeps rows in severity order and counts the queue', async () => {
     const me = 'a'.repeat(64);
     let n = 0;
     const statement = (vulns, extra) => ({ id: String(++n), pubkey: me, created_at: 1, d: `${vulns[0]}|${n}`, vulns, package: 'npm:pkg', via: null, app: null, justification: null, versions: null, content: '', ...extra });
@@ -115,15 +115,17 @@ describe('dependencies panel', () => {
     assert.ok(host.querySelector('.dp-tile--sev-high'), 'with the only critical cleared, the count goes orange');
     assert.equal(host.querySelector('.dp-tile .dp-triage-line').textContent, '2 decided · 1 affected · 1 not affected · 11 still to look at (1 partly)');
     const rows = [...host.querySelectorAll('tbody tr')];
-    assert.deepEqual(rows.slice(0, 3).map(r => r.querySelector('td a').textContent), ['GHSA-crit', 'GHSA-test', 'GHSA-high'], 'critical first; within high the affected row before the undecided one');
+    assert.deepEqual(rows.slice(0, 3).map(r => r.querySelector('td a').textContent), ['GHSA-crit', 'GHSA-high', 'GHSA-test'], 'by severity alone: a decision does not move a row');
+    const affected = rows[2];
+    const partlyRow = rows[1];
     const first = rows[0].querySelector('.dp-td-decision');
     assert.equal(first.querySelector('.dp-decision').textContent, 'not affected');
     assert.equal(first.querySelector('.dp-decision__why').textContent, 'via alib: vulnerable code never executed (not affected, aaaaaaaa…) Edit');
     assert.equal(rows[0].querySelector('.dp-via').textContent, 'via alib');
-    assert.equal(rows[1].querySelector('.dp-decision').textContent, 'affected');
-    assert.equal(rows[1].querySelector('.dp-decision__why').textContent, 'this wallet: postinstall runs on the build machine (affected, aaaaaaaa…) Edit');
-    assert.equal(rows[1].querySelector('.dp-via').textContent, 'imported by the wallet');
-    const partly = rows[2].querySelector('.dp-td-decision');
+    assert.equal(affected.querySelector('.dp-decision').textContent, 'affected');
+    assert.equal(affected.querySelector('.dp-decision__why').textContent, 'this wallet: postinstall runs on the build machine (affected, aaaaaaaa…) Edit');
+    assert.equal(affected.querySelector('.dp-via').textContent, 'imported by the wallet');
+    const partly = partlyRow.querySelector('.dp-td-decision');
     assert.equal(partly.querySelector('.dp-decision').textContent, 'Not assessed');
     assert.equal(partly.querySelector('.dp-decision__why').textContent, '1 of 2 direct users assessed');
     const community = rows.find(r => r.querySelector('td a').textContent === 'GHSA-mod-0');
