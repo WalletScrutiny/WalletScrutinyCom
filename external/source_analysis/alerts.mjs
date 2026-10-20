@@ -10,7 +10,8 @@
 //   ALERT_WEBHOOK_URL       POST of the alert as JSON
 //   ALERT_NOSTR_NSEC        the analyser's key, and
 //   ALERT_NOSTR_TO          npubs (comma-separated) that get a private
-//                           message (NIP-17) on
+//                           message (NIP-17); default ALERT_RECIPIENTS below
+//                           (Leo, 2026-10-20: Leo, Danny, Luis) on
 //   ALERT_NOSTR_RELAYS      relays (comma-separated; default below)
 // Without any channel the alert is still recorded and printed, and
 // `node alerts-cli.mjs` lists what is open.
@@ -19,6 +20,14 @@
 // finding (the registry package, not a workspace or an alias) and act.
 
 export const DEFAULT_ALERT_RELAYS = ['wss://relay.nostr.info/', 'wss://relay.damus.io/', 'wss://nos.lol/'];
+
+// Who is told by default: the same identities that settle dependency triage
+// on the site (_data/dependencyTriage.yml).
+export const ALERT_RECIPIENTS = [
+  'npub1gm7tuvr9atc6u7q3gevjfeyfyvmrlul4y67k7u7hcxztz67ceexs078rf6', // Leo
+  'npub1r709glp0xx2zvgac45wswufjst5xgr7cear5a8me7x9vazhjzmksp2sf7d', // Danny
+  'npub1qw6sxmwrmwpxqsc8cxty62ujvst6j8pmz8hhtwnv54gpn6dh5c4qms4882', // Luis
+];
 
 export function ensureAlertsTable(db) {
   db.exec(`
@@ -86,7 +95,7 @@ export function alertChannels(env = process.env, { fetchImpl = globalThis.fetch 
       },
     });
   }
-  if (env.ALERT_NOSTR_NSEC && env.ALERT_NOSTR_TO) {
+  if (env.ALERT_NOSTR_NSEC) {
     channels.push({
       name: 'nostr',
       async send(a) {
@@ -95,7 +104,7 @@ export function alertChannels(env = process.env, { fetchImpl = globalThis.fetch 
         const relays = (env.ALERT_NOSTR_RELAYS || DEFAULT_ALERT_RELAYS.join(',')).split(',').map(s => s.trim()).filter(Boolean);
         const pool = new SimplePool();
         try {
-          for (const npub of env.ALERT_NOSTR_TO.split(',').map(s => s.trim()).filter(Boolean)) {
+          for (const npub of (env.ALERT_NOSTR_TO ? env.ALERT_NOSTR_TO.split(',') : ALERT_RECIPIENTS).map(s => s.trim()).filter(Boolean)) {
             const recipient = { publicKey: nip19.decode(npub).data, relayUrl: relays[0] };
             const wrap = nip17.wrapEvent(sk, recipient, alertText(a));
             const results = await Promise.allSettled(pool.publish(relays, wrap));
