@@ -113,10 +113,15 @@ export function publishOutcome(summary) {
  * Open the dialog for one advisory row. `triage` is the wallet's statements
  * file (or null), `trusted` the trusted-author pubkeys (used when the file
  * has none), `onPublished(statement, summary)` runs after a relay accepted
- * the signed event. Returns the <dialog> element.
+ * the signed event. `edit` is a statement shown on the row whose "Edit" was
+ * clicked: the dialog opens on its subject, filled from the signer's own
+ * statement there or, when the signer is someone else, from this one.
+ * Returns the <dialog> element.
  */
-export function openTriageDialog({ advisory, appId, triage = null, trusted = [], nostr = browserNostr(), onPublished = () => {} }) {
-  const choices = statementChoices(advisory, { appId });
+export function openTriageDialog({ advisory, appId, triage = null, trusted = [], nostr = browserNostr(), onPublished = () => {}, edit = null }) {
+  const editKey = edit ? (edit.app ? `app:${edit.app}` : edit.via ? `via:${edit.via}` : 'package') : null;
+  const choices = statementChoices(advisory, { appId }).map((c, _, all) => (
+    editKey && all.some(o => o.key === editKey) ? { ...c, preferred: c.key === editKey } : c));
   const trustedSet = new Set(triage?.trusted?.length ? triage.trusted : trusted);
   let pubkey = null;
   let prefilledFrom = null;
@@ -145,6 +150,7 @@ export function openTriageDialog({ advisory, appId, triage = null, trusted = [],
   const evidence = el('input', { type: 'url', name: 'evidence', placeholder: 'https://… the issue, pull request or code line that shows it' });
   const content = el('textarea', { name: 'content', rows: 4, placeholder: 'Why. One or two sentences another reviewer can check.' });
   const signer = el('p', { className: 'dp-form__signer' }, 'Looking for a Nostr extension…');
+  const copied = el('p', { className: 'dp-form__copied', hidden: true });
   const error = el('p', { className: 'dp-form__error', hidden: true });
   const cancel = el('button', { type: 'button', className: 'btn-small' }, 'Cancel');
   const publish = el('button', { type: 'submit', className: 'btn-small dp-form__publish', disabled: true }, 'Publish statement');
@@ -160,6 +166,7 @@ export function openTriageDialog({ advisory, appId, triage = null, trusted = [],
     versionsField,
     el('label', { className: 'dp-form__field' }, el('span', {}, 'Evidence'), evidence),
     el('label', { className: 'dp-form__field' }, el('span', {}, 'Reasoning'), content),
+    copied,
     signer,
     error,
     el('div', { className: 'dp-form__actions' }, cancel, publish),
@@ -186,21 +193,29 @@ export function openTriageDialog({ advisory, appId, triage = null, trusted = [],
     if (choice?.via) versionsLabel.textContent = `Versions of ${choice.via.replace(/^[a-z]+:/, '')} this holds for`;
   }
 
+  const subjectKey = (choice) => triageSubject({ vuln: advisory.id, via: choice.via || null, app: choice.app || null });
+
   // The signer's existing statement on the chosen subject fills the form, so
-  // publishing again edits it (the relay replaces the older event).
+  // publishing again edits it (the relay replaces the older event). Opened
+  // from someone else's statement, that one fills it instead, to sign as
+  // one's own.
   function prefill() {
     const choice = choiceOf(value('subject'));
     if (!choice || !pubkey) return;
-    const d = triageSubject({ vuln: advisory.id, via: choice.via || null, app: choice.app || null });
-    const mine = ownStatement(triage, pubkey, d);
+    const d = subjectKey(choice);
+    const own = ownStatement(triage, pubkey, d);
+    const other = !own && edit && choice.key === editKey ? edit : null;
+    const mine = own || other;
+    copied.hidden = !other;
+    copied.textContent = other ? `Filled in from ${shortNpub(other.pubkey)}'s statement. Publishing signs it as your own; theirs stays as it is.` : '';
     if (mine) {
       form.querySelector(`input[name="status"][value="${mine.status}"]`).checked = true;
       setSelect(justification, mine.justification);
       versions.value = mine.versions || '';
       evidence.value = mine.evidence || '';
       content.value = mine.content || '';
-      publish.textContent = 'Update statement';
-      prefilledFrom = d;
+      publish.textContent = own ? 'Update statement' : 'Publish statement';
+      prefilledFrom = own ? d : `copy:${d}`;
     } else if (prefilledFrom) {
       for (const input of form.querySelectorAll('input[name="status"]')) input.checked = false;
       setSelect(justification, '');
@@ -253,7 +268,7 @@ export function openTriageDialog({ advisory, appId, triage = null, trusted = [],
     } catch (e) {
       showError(e.message || String(e));
       publish.disabled = false;
-      publish.textContent = prefilledFrom ? 'Update statement' : 'Publish statement';
+      publish.textContent = prefilledFrom && !prefilledFrom.startsWith('copy:') ? 'Update statement' : 'Publish statement';
     }
   });
 
@@ -272,6 +287,12 @@ export function openTriageDialog({ advisory, appId, triage = null, trusted = [],
       signer.textContent = `Signing as ${shortNpub(pubkey)} · ${weight}.`;
       signer.dataset.pubkey = pubkey;
       publish.disabled = false;
+      // Opened with "Add statement": land on a subject the signer already
+      // wrote about, so their statement shows up for editing at once.
+      if (!edit && !ownStatement(triage, pubkey, subjectKey(choiceOf(value('subject')) || choices[0]))) {
+        const written = choices.find(c => ownStatement(triage, pubkey, subjectKey(c)));
+        if (written) for (const input of form.querySelectorAll('input[name="subject"]')) input.checked = input.value === written.key;
+      }
       prefill();
     } catch (e) {
       signer.textContent = e.message || NO_EXTENSION_MESSAGE;

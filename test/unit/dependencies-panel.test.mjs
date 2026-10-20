@@ -116,10 +116,10 @@ describe('dependencies panel', () => {
     assert.deepEqual(rows.slice(0, 3).map(r => r.querySelector('td a').textContent), ['GHSA-crit', 'GHSA-test', 'GHSA-high'], 'critical first; within high the affected row before the undecided one');
     const first = rows[0].querySelector('.dp-td-decision');
     assert.equal(first.querySelector('.dp-decision').textContent, 'not affected');
-    assert.equal(first.querySelector('.dp-decision__why').textContent, 'via alib: vulnerable code never executed (not affected, aaaaaaaa…)');
+    assert.equal(first.querySelector('.dp-decision__why').textContent, 'via alib: vulnerable code never executed (not affected, aaaaaaaa…) Edit');
     assert.equal(rows[0].querySelector('.dp-via').textContent, 'via alib');
     assert.equal(rows[1].querySelector('.dp-decision').textContent, 'affected');
-    assert.equal(rows[1].querySelector('.dp-decision__why').textContent, 'this wallet: postinstall runs on the build machine (affected, aaaaaaaa…)');
+    assert.equal(rows[1].querySelector('.dp-decision__why').textContent, 'this wallet: postinstall runs on the build machine (affected, aaaaaaaa…) Edit');
     assert.equal(rows[1].querySelector('.dp-via').textContent, 'imported by the wallet');
     const partly = rows[2].querySelector('.dp-td-decision');
     assert.equal(partly.querySelector('.dp-decision').textContent, 'Not assessed');
@@ -129,7 +129,7 @@ describe('dependencies panel', () => {
     const folded = community.querySelector('details.dp-decision__community');
     assert.equal(folded.querySelector('summary').textContent, '1 community statement');
     assert.equal(folded.hasAttribute('open'), false, 'folded until asked for');
-    assert.equal(folded.querySelector('.dp-decision__why').textContent, 'via zlib: fixed (fixed, bbbbbbbb…)', 'the statement itself is there to read');
+    assert.equal(folded.querySelector('.dp-decision__why').textContent, 'via zlib: fixed (fixed, bbbbbbbb…) Edit', 'the statement itself is there to read');
     assert.match(host.querySelector('.dp-note').textContent, /2 of 13 advisories settled that way/);
   });
 

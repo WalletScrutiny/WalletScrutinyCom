@@ -198,6 +198,24 @@ body.dark .dp-panel {
   }
 }
 
+// "Edit" at the end of a statement line
+.dp-edit {
+  font: inherit;
+  font-size: $font-xxs;
+  color: var(--accent);
+  background: none;
+  border: 0;
+  padding: 0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.dp-form__copied {
+  font-size: $font-xs;
+  color: var(--neutral-3);
+  margin: 0;
+}
+
 // The statement dialog (src/dependencies-triage-form.mjs)
 .dp-dialog {
   width: min(36em, calc(100vw - 2em));
