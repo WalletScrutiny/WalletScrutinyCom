@@ -426,11 +426,11 @@ export class OpinionsWidget {
       href: `${zapstoreAppUrl}${encodeURIComponent(this.config.zapstoreAppId)}`,
       target: '_blank',
       rel: 'noopener noreferrer',
-    }, 'Open on Zapstore');
+    }, 'there');
     const note = el('p', { className: 'opinions__source-note', html: wsIcon('zapstore') });
     note.appendChild(el('span', {},
       this.opinions.length === 0 ? 'No opinions on WalletScrutiny yet. ' : '',
-      'These comments were posted on Zapstore, the Nostr app store, and can be answered there. ', link, '.'));
+      'These comments were posted on Zapstore, the Nostr app store, and can be answered ', link, '.'));
     panel.appendChild(note);
     const list = el('div', { className: 'opinions__list' });
     const ctx = this.zapstoreCtx;
