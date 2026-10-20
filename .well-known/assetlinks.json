@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.walletscrutiny.ng_app",
+      "sha256_cert_fingerprints": [
+        "61:5B:F6:CB:A1:C7:3C:90:B0:51:5E:74:F8:71:22:4B:A4:E7:ED:6D:63:55:B9:D5:EE:4A:5D:1C:9D:28:CF:B2"
+      ]
+    }
+  }
+]
