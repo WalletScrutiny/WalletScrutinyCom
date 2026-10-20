@@ -470,7 +470,7 @@ export class OpinionsWidget {
       button.addEventListener('click', () => this.setFilter(value));
       filters.appendChild(button);
     }
-    return el('div', { className: 'opinions__toolbar' }, countList, filters);
+    return el('div', { className: 'opinions__toolbar' }, filters, countList);
   }
 
   renderCompose() {
