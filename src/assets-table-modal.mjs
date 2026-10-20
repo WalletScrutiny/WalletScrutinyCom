@@ -519,14 +519,6 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     return;
   }
 
-  // Titles, share texts and links name the wallet. Only when the short
-  // fewWallets list lacks it, wait for the full list so a fast relay does not
-  // show the app id instead.
-  const lookupAppId = getFirstTagValue(lookup.verification, 'i');
-  if (!window.wallets?.some(w => w.appId === lookupAppId)) {
-    await whenAllWalletsLoaded();
-  }
-
   if (!response) {
     response = {
       verifications: new Map(),
@@ -545,6 +537,19 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   const otherVerificationsBySamePubkey = allTheVerifications.filter(a => (a.pubkey === verification.pubkey && a.id !== verification.id));
 
   window.currentVerification = verification;
+
+  // Titles, share texts and links name the wallet. If the short fewWallets list
+  // lacks it, show the app id now and render again once allWallets.js is in.
+  const lookupAppId = getFirstTagValue(verification, 'i');
+  if (!window.wallets?.some(w => w.appId === lookupAppId)) {
+    whenAllWalletsLoaded().then(() => {
+      const stillOpen = document.body.classList.contains('modal-open')
+        && window.currentVerification?.id === verification.id;
+      if (stillOpen && window.wallets?.some(w => w.appId === lookupAppId)) {
+        showVerificationModal(sha256Hash, verificationId, appId, platform);
+      }
+    });
+  }
 
   const status = getFirstTagValue(verification, 'status');
 
