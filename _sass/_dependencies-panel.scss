@@ -600,6 +600,18 @@ a.dp-signer {
   text-decoration: underline dotted;
 }
 
+.dp-inapk {
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+  white-space: nowrap;
+  margin-top: 2px;
+}
+
+.dp-inapk--present {
+  color: var(--neutral-1);
+  font-weight: 600;
+}
+
 .dp-published {
   font-size: $font-xxs;
   color: var(--neutral-3);

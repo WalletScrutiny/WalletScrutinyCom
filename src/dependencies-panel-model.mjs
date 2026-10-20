@@ -127,16 +127,52 @@ export function upstreamFor(advisory, upstream) {
   return out;
 }
 
+// Whether a package is in the released APK (external/source_analysis/
+// apk-contents-cli.mjs, apk/<appId>.json): `{ status, shipped }` with status
+// present | absent | cant-tell | not-fetched | other-version-shipped and
+// `shipped` the version the APK says it carries when that differs; null when
+// the APK was not checked or the package is not a Maven/Gradle one.
+export function inApkOf(advisory, apk) {
+  if (!apk?.packages || !advisory) return null;
+  const v = apk.packages[`${advisory.ecosystem}:${advisory.package}@${advisory.version}`];
+  if (!v) return null;
+  const [status, shipped = null] = v.split(/:(.*)/s);
+  return { status, shipped: shipped || null };
+}
+
+// "The released APK …: 289 of 451 declared packages in it; 35 of 35 native
+// libraries the same code as published; none no dependency declares."
+export function apkSummary(apk) {
+  if (!apk?.summary) return null;
+  const s = apk.summary;
+  const undeclaredNative = [...new Set((apk.nativeFiles || []).filter(n => n.verdict === 'undeclared').map(n => n.path.split('/').pop()))];
+  return {
+    name: apk.apk?.name || null,
+    sha256: apk.apk?.sha256 || null,
+    ref: apk.ref || null,
+    declared: s.declared,
+    present: s.present + (s.otherVersionShipped || 0),
+    cantTell: s.cantTell,
+    native: s.native ?? null,
+    nativeIdentical: s.nativeIdentical ?? null,
+    nativeDiffers: s.nativeDiffers ?? 0,
+    undeclaredNative,
+    undeclaredClasses: s.undeclaredClasses ?? 0,
+    undeclaredPackages: (apk.undeclared || []).slice(0, 5).map(u => u.package),
+  };
+}
+
 /**
  * The panel's content for one app file. `storeVersion` is the version the
  * wallet page lists; `release` picks a specific analysed release, else the
  * latest; `triage` is the wallet's decisions file (triage/<appId>.json), or
  * null when nobody has said anything yet; `signals` is signals.json (EPSS,
  * exploited list) or null; `upstream` the wallet's harvested ignore-file
- * entries (upstreamFor) or null. Returns null when the app has no analysed
+ * entries (upstreamFor) or null; `apk` the released APK's check
+ * (apk/<appId>.json) or null. Returns null when the app has no analysed
  * release.
  */
-export function panelModel(app, { storeVersion = '', release = null, triage = null, signals = null, upstream = null } = {}) {
+export function panelModel(app, { storeVersion = '', release = null, triage = null, signals = null, upstream = null, apk = null } = {}) {
   const releases = Array.isArray(app?.releases) ? app.releases : [];
   // The newest release whose analysis worked; a newer one that failed is reported, not shown.
   const current = (release && releases.find(r => r.ref === release)) || releases.find(r => (r.status || 'ok') === 'ok') || releases[0];
@@ -148,9 +184,11 @@ export function panelModel(app, { storeVersion = '', release = null, triage = nu
   const vulnerabilities = SEVERITY_ORDER.filter(s => s !== 'malicious').reduce((n, s) => n + bySeverity[s], 0);
   const appIds = [app.appId, ...(app.aliases || []).map(a => a.appId)].filter(Boolean);
   const triaged = applyTriage(applySignals(current.advisories || [], signals), triage, { appIds });
+  const apkOfRelease = apk && apk.ref === current.ref ? apk : null; // an APK of another release says nothing about these rows
   const advisories = sortAdvisories(triaged.advisories.map(a => {
     const hints = upstreamFor(a, upstream);
-    return hints.length ? { ...a, upstream: hints } : a;
+    const inApk = inApkOf(a, apkOfRelease);
+    return hints.length || inApk ? { ...a, ...(hints.length ? { upstream: hints } : {}), ...(inApk ? { inApk } : {}) } : a;
   }));
   const exploited = advisories.filter(a => a.exploited).length;
   const unchecked = uncheckedCount(current.osv);
@@ -183,6 +221,7 @@ export function panelModel(app, { storeVersion = '', release = null, triage = nu
     advisories,
     worst: advisories.slice(0, WORST_ROWS),
     triage: triaged.summary,
+    apk: apkSummary(apkOfRelease),
     signals: signals ? { date: signals.date || null, exploited, withEpss: advisories.filter(a => a.epss != null).length } : null,
     diff: current.diffFrom || null,
     newerFailed: newerFailed.map(r => ({ ref: r.ref, status: r.status, error: r.error || null })),

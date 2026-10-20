@@ -112,11 +112,14 @@ describe('dependencies panel', () => {
         : a.id === 'GHSA-high' ? { ...a, direct: false, dependants: ['one', 'two'] }
           : a.id === 'GHSA-mod-0' ? { ...a, direct: false, dependants: ['zlib'] } : a)) }] };
     const upstream = { schema: 1, appId: 'app.android', advisories: { 'GHSA-mod-0': [{ kind: 'upstream', repo: 'https://github.com/z/zlib', ref: 'v2', file: 'osv-scanner.toml', line: 4, url: 'https://github.com/z/zlib/blob/v2/osv-scanner.toml#L4', reason: 'zlib never inflates untrusted input', package: 'npm:zlib@2.0.0' }] } };
-    const { fetchImpl, calls } = fakeFetch({ '/x/apps/app.ios.json': { schema: 1, appId: 'app.android', alias: true }, '/x/apps/app.android.json': app, '/x/triage/app.android.json': triage, '/x/upstream/app.android.json': upstream });
+    const apk = { schema: 1, appId: 'app.android', ref: 'v1.4.0', apk: { name: 'app-1.4.0.apk', sha256: 'ab'.repeat(32) },
+      summary: { declared: 3, present: 1, otherVersionShipped: 1, cantTell: 0, native: 2, nativeIdentical: 1, nativeDiffers: 0, undeclaredClasses: 7 },
+      packages: { 'npm:pkg@1.0.0': 'absent' }, nativeFiles: [{ path: 'lib/arm64-v8a/libmystery.so', verdict: 'undeclared', providers: [] }], undeclared: [{ package: 'com.vendored', classes: 7 }] };
+    const { fetchImpl, calls } = fakeFetch({ '/x/apps/app.ios.json': { schema: 1, appId: 'app.android', alias: true }, '/x/apps/app.android.json': app, '/x/triage/app.android.json': triage, '/x/upstream/app.android.json': upstream, '/x/apk/app.android.json': apk });
     const host = document.createElement('div');
     const model = await renderDependenciesPanel({ host, appId: 'app.ios', base: '/x', fetchImpl, profiles: async () => new Map([[me, { name: 'Alice' }]]) });
     await new Promise(r => setTimeout(r, 0)); // signer names arrive after the paint
-    assert.deepEqual(calls.slice(2), ['/x/triage/app.ios.json', '/x/triage/app.android.json', '/x/signals.json', '/x/upstream/app.android.json'], 'the page\'s id first, then the analysis id, then the signals and the harvested ignore files');
+    assert.deepEqual(calls.slice(2), ['/x/triage/app.ios.json', '/x/triage/app.android.json', '/x/signals.json', '/x/upstream/app.android.json', '/x/apk/app.android.json'], 'the page\'s id first, then the analysis id, then the signals, the harvested ignore files and the APK check');
     assert.deepEqual(model.triage, { total: 13, decided: 2, undecided: 11, affected: 1, not_affected: 1, fixed: 0, under_investigation: 0, partial: 1, others: 2 });
     assert.deepEqual([...host.querySelectorAll('.dp-tally')].map(e => e.textContent), ['1 critical · 1 cleared', '2 high · none cleared', '10 medium · none cleared'], 'the not-affected critical is cleared; the affected high is not');
     assert.ok(host.querySelector('.dp-tile--sev-high'), 'with the only critical cleared, the count goes orange');
@@ -129,6 +132,8 @@ describe('dependencies panel', () => {
     assert.equal(first.querySelector('.dp-decision').textContent, 'not affected');
     assert.equal(first.querySelector('.dp-decision__why').textContent, 'via alib: vulnerable code never executed (not affected, Alice) Edit');
     assert.equal(rows[0].querySelector('.dp-via').textContent, 'via alib');
+    assert.equal(rows[0].querySelector('.dp-inapk').textContent, 'not in the APK', 'the released APK\'s answer under Where?');
+    assert.match(host.querySelector('.dp-notices').textContent, /Checked against the released APK app-1\.4\.0\.apk \(sha256 abababababab…\): 2 of the 3 declared Maven\/Gradle packages are in it; 1 of 2 native libraries are the same code as the published packages; no dependency declares libmystery\.so; 7 classes come from no declared package \(com\.vendored\)/);
     const signer = first.querySelector('a.dp-signer');
     assert.equal(signer.getAttribute('href'), `https://njump.me/${nip19.npubEncode(me)}`, 'the signer links to their profile');
     assert.equal(host.querySelector('.dp-trusted').textContent, 'Statements settle rows on this site when signed by Alice. Anyone else\'s are shown under "What others say".');

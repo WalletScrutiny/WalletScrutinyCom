@@ -265,6 +265,10 @@ export function exportAll(db, outDir, { generatedAt = new Date().toISOString(), 
   fs.writeFileSync(path.join(tmp, 'packages', 'index.json'), JSON.stringify({ schema: SCHEMA, generatedAt, minProducts: 2, packages: shared }));
   index.sharedPackages = shared.length;
   index.upstreamHints = writeUpstreamHints(db, tmp).apps;
+  // The APK checks (apk-contents-cli.mjs --export) are written next to the
+  // export from outside the database; a new export keeps them.
+  const apkDir = path.join(outDir, 'apk');
+  if (fs.existsSync(apkDir)) fs.cpSync(apkDir, path.join(tmp, 'apk'), { recursive: true });
   fs.writeFileSync(path.join(tmp, 'index.json'), JSON.stringify(index));
   const previous = `${path.resolve(outDir)}.previous`;
   fs.rmSync(previous, { recursive: true, force: true });

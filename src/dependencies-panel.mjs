@@ -68,6 +68,19 @@ export function loadTrusted({ base = EXPORT_BASE, fetchImpl = globalThis.fetch }
   return trustedCache.get(base);
 }
 
+// The released APK's check (apk/<appId>.json), or null.
+export async function loadApk(appIds, { base = EXPORT_BASE, fetchImpl = globalThis.fetch } = {}) {
+  for (const id of [...new Set(appIds.filter(Boolean))]) {
+    try {
+      const doc = await fetchJson(`${base}/apk/${safeName(id)}.json`, fetchImpl);
+      if (doc) return doc;
+    } catch {
+      return null;
+    }
+  }
+  return null;
+}
+
 // The wallet's harvested ignore-file entries (upstream/<appId>.json, from the
 // source-analysis export), or null; the same id order as loadTriage.
 export async function loadUpstream(appIds, { base = EXPORT_BASE, fetchImpl = globalThis.fetch } = {}) {
@@ -178,10 +191,27 @@ function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = nul
     el('td', { className: 'dp-td-version', dataset: { label: 'Version' } }, a.version),
     el('td', { className: 'dp-td-advisory', dataset: { label: 'Advisory' } }, el('a', { href: `${OSV_URL}${encodeURIComponent(a.id)}`, target: '_blank', rel: 'noopener noreferrer', title: a.summary || '' }, a.id)),
     el('td', { className: 'dp-td-severity', dataset: { label: 'Severity' } }, severityCell(a)),
-    el('td', { className: 'dp-td-where', dataset: { label: 'Where?' } }, el('span', { className: `dp-where dp-where--${where}` }, whereLabel(a))),
+    el('td', { className: 'dp-td-where', dataset: { label: 'Where?' } }, el('span', { className: `dp-where dp-where--${where}` }, whereLabel(a)), inApkLine(a)),
     el('td', { className: 'dp-td-products', dataset: { label: 'Used by' } }, usedBy(a)),
     el('td', { className: 'dp-td-decision', dataset: { label: 'Decision' } }, decisionCell(a, { onJudge, freshId })),
   );
+}
+
+// Under "Where?": what the released APK says about the package, when it was checked.
+const IN_APK_LABEL = {
+  present: 'in the APK',
+  absent: 'not in the APK',
+  'cant-tell': 'APK: can\'t tell',
+  'not-fetched': 'APK: not checked',
+};
+function inApkLine(a) {
+  const x = a.inApk;
+  if (!x) return null;
+  const text = x.status === 'other-version-shipped' || (x.shipped && x.status === 'present')
+    ? `APK has ${x.shipped || 'another version'}`
+    : IN_APK_LABEL[x.status];
+  if (!text) return null;
+  return el('div', { className: `dp-inapk dp-inapk--${x.status}`, title: 'From the released APK: whether this package\'s code is in it (class names, native libraries, META-INF version files)' }, text);
 }
 
 // Every statement a row's decision rests on or has collected so far, what
@@ -409,6 +439,14 @@ function notices(model) {
   if (model.status !== 'ok') {
     items.push(`This check ended with status "${model.status}"${model.error ? `: ${model.error}` : ''}.`);
   }
+  if (model.apk) {
+    const k = model.apk;
+    const parts = [`Checked against the released APK${k.name ? ` ${k.name}` : ''}${k.sha256 ? ` (sha256 ${k.sha256.slice(0, 12)}…)` : ''}: ${k.present} of the ${k.declared} declared Maven/Gradle packages are in it${k.cantTell ? `, ${k.cantTell} can't be told` : ''}`];
+    if (k.native) parts.push(`${k.nativeIdentical} of ${k.native} native libraries are the same code as the published packages${k.nativeDiffers ? `, ${k.nativeDiffers} differ` : ''}`);
+    if (k.undeclaredNative.length) parts.push(`no dependency declares ${k.undeclaredNative.join(', ')}`);
+    if (k.undeclaredClasses) parts.push(`${k.undeclaredClasses} classes come from no declared package (${k.undeclaredPackages.join(', ')}${k.undeclaredPackages.length < 5 ? '' : ', …'}), the wallet's own code among them`);
+    items.push(`${parts.join('; ')}.`);
+  }
   return items.length ? el('ul', { className: 'dp-notices' }, items.map(t => el('li', {}, t))) : null;
 }
 
@@ -558,12 +596,14 @@ export async function renderDependenciesPanel({ host, appId, storeVersion = '', 
   let triage = null;
   let signals = null;
   let upstream = null;
+  let apk = null;
   try {
     app = await loadApp(appId, { base, fetchImpl });
     if (app) {
       triage = await loadTriage([appId, app.appId], { base, fetchImpl });
       signals = await loadSignals({ base, fetchImpl });
       upstream = await loadUpstream([app.appId, appId], { base, fetchImpl });
+      apk = await loadApk([app.appId, appId], { base, fetchImpl });
     }
   } catch (error) {
     console.warn('Dependencies panel: export not reachable', error);
@@ -577,7 +617,7 @@ export async function renderDependenciesPanel({ host, appId, storeVersion = '', 
   let trusted = triage?.trusted || [];
   if (!trusted.length && app?.releases?.some(r => r.advisories?.length)) trusted = (await loadTrusted({ base, fetchImpl })).trusted;
   const paint = (extra = {}) => {
-    model = panelModel(app, { storeVersion, triage, signals, upstream });
+    model = panelModel(app, { storeVersion, triage, signals, upstream, apk });
     if (!model) return null;
     host.replaceChildren(panelElement(model, { appId: analysisId, wallet: title || analysisId, base, fetchImpl, onJudge, trusted: triage?.trusted?.length ? triage.trusted : trusted, ...extra }));
     nameSigners(host, profiles === undefined ? defaultProfiles : profiles);
