@@ -9,6 +9,9 @@
   z-index: 10000;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
+  // left:50% shrink-wraps to half the viewport; size to content up to 85vw
+  width: max-content;
+  max-width: 85vw;
 }
 
 .toast.show {
