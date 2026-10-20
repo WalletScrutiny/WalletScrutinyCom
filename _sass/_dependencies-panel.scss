@@ -23,6 +23,9 @@
   padding: 14px 16px 12px;
   min-width: 0;
   display: grid;
+  // one column no wider than the panel: without it the track grows to the
+  // table's min-content width and the tiles run off a narrow screen
+  grid-template-columns: minmax(0, 1fr);
   gap: 12px;
 }
 
@@ -170,6 +173,55 @@ body.dark .dp-panel {
   .dp-td-decision {
     white-space: normal;
     min-width: 14em;
+  }
+}
+
+// Phones: each advisory is a card instead of a row of a table wider than
+// the screen; the column names move into the cells (data-label).
+@media (max-width: 640px) {
+  .dp-table {
+    thead {
+      display: none;
+    }
+
+    tr {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4px 12px;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--neutral-5);
+    }
+
+    td {
+      display: block;
+      padding: 0;
+      border: 0;
+      white-space: normal;
+      min-width: 0;
+    }
+
+    td::before {
+      content: attr(data-label);
+      display: block;
+      font-size: $font-xxs;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--neutral-3);
+    }
+
+    .dp-td-package,
+    .dp-td-decision {
+      grid-column: 1 / -1;
+    }
+
+    .dp-td-package::before {
+      display: none;
+    }
+
+    .dp-td-decision {
+      min-width: 0;
+    }
   }
 }
 
