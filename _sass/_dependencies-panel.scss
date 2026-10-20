@@ -87,6 +87,15 @@ body.dark .dp-panel {
   color: var(--danger, #c0392b);
 }
 
+// The vulnerability count takes the colour of the worst severity still open
+.dp-tile--sev-critical .dp-tile__value {
+  color: var(--danger, #c0392b);
+}
+
+.dp-tile--sev-high .dp-tile__value {
+  color: #d68910;
+}
+
 .dp-tile--good .dp-tile__value {
   color: var(--success, #1e8449);
 }
@@ -104,6 +113,21 @@ body.dark .dp-panel {
   margin-top: 2px;
   font-size: $font-xxs;
   color: var(--neutral-3);
+}
+
+// "50 critical (40 cleared)", one line per severity in the vulnerability tile
+.dp-tally__count--critical,
+.dp-tally__count--high,
+.dp-tally__count--moderate {
+  font-weight: 700;
+}
+
+.dp-tally__count--critical {
+  color: var(--danger, #c0392b);
+}
+
+.dp-tally__count--high {
+  color: #d68910;
 }
 
 .dp-table-wrap {
@@ -378,23 +402,6 @@ body.dark .dp-panel {
   display: flex;
   justify-content: flex-end;
   gap: 8px;
-}
-
-// "Potentially affected: 50 critical · 182 high · …" above the work queue
-.dp-exposure {
-  margin: 0 0 2px;
-  font-size: $font-sm;
-}
-
-.dp-exposure__count--malicious,
-.dp-exposure__count--critical {
-  color: #c0392b;
-  font-weight: 700;
-}
-
-.dp-exposure__count--high {
-  color: #d68910;
-  font-weight: 600;
 }
 
 // "412 advisories · 0 decided · 412 still to look at"
