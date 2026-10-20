@@ -449,6 +449,11 @@ export class OpinionsWidget {
         item.appendChild(el('span', {}, `${counts[sentiment]} ${SENTIMENT_LABELS[sentiment].toLowerCase()}`));
         return item;
       }));
+    // Without an unapproved opinion both filters show the same list, so there is nothing to pick.
+    const unapproved = this.opinions.length - this.trustedOpinions.length;
+    if (unapproved === 0) {
+      return el('div', { className: 'opinions__toolbar' }, countList);
+    }
     const filters = el('div', { className: 'opinions__filters', role: 'group', 'aria-label': 'Filter opinions' });
     for (const [value, label] of [['approved', 'Approved'], ['all', 'All opinions']]) {
       const button = el('button', {
@@ -456,6 +461,12 @@ export class OpinionsWidget {
         className: 'opinions__filter',
         'aria-pressed': String(this.filter === value),
       }, label);
+      if (value === 'all') {
+        button.appendChild(el('span', {
+          className: 'opinions__filter-count',
+          title: `${unapproved} not approved`,
+        }, `+${unapproved}`));
+      }
       button.addEventListener('click', () => this.setFilter(value));
       filters.appendChild(button);
     }

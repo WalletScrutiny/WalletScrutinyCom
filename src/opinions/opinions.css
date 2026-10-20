@@ -79,6 +79,12 @@
   background: var(--accent-50);
 }
 
+.opinions__filter-count {
+  margin-left: 0.4em;
+  font-size: 0.85em;
+  opacity: 0.8;
+}
+
 /* Source tabs (WalletScrutiny / Zapstore), only when both have entries ---- */
 
 .opinions__tabs {
