@@ -107,10 +107,11 @@ describe('dependencies panel', () => {
       a.id === 'GHSA-crit' ? { ...a, direct: false, dependants: ['alib'] }
         : a.id === 'GHSA-high' ? { ...a, direct: false, dependants: ['one', 'two'] }
           : a.id === 'GHSA-mod-0' ? { ...a, direct: false, dependants: ['zlib'] } : a)) }] };
-    const { fetchImpl, calls } = fakeFetch({ '/x/apps/app.ios.json': { schema: 1, appId: 'app.android', alias: true }, '/x/apps/app.android.json': app, '/x/triage/app.android.json': triage });
+    const upstream = { schema: 1, appId: 'app.android', advisories: { 'GHSA-mod-0': [{ kind: 'upstream', repo: 'https://github.com/z/zlib', ref: 'v2', file: 'osv-scanner.toml', line: 4, url: 'https://github.com/z/zlib/blob/v2/osv-scanner.toml#L4', reason: 'zlib never inflates untrusted input', package: 'npm:zlib@2.0.0' }] } };
+    const { fetchImpl, calls } = fakeFetch({ '/x/apps/app.ios.json': { schema: 1, appId: 'app.android', alias: true }, '/x/apps/app.android.json': app, '/x/triage/app.android.json': triage, '/x/upstream/app.android.json': upstream });
     const host = document.createElement('div');
     const model = await renderDependenciesPanel({ host, appId: 'app.ios', base: '/x', fetchImpl });
-    assert.deepEqual(calls.slice(2), ['/x/triage/app.ios.json', '/x/triage/app.android.json', '/x/signals.json'], 'the page\'s id first, then the analysis id, then the signals');
+    assert.deepEqual(calls.slice(2), ['/x/triage/app.ios.json', '/x/triage/app.android.json', '/x/signals.json', '/x/upstream/app.android.json'], 'the page\'s id first, then the analysis id, then the signals and the harvested ignore files');
     assert.deepEqual(model.triage, { total: 13, decided: 2, undecided: 11, affected: 1, not_affected: 1, fixed: 0, under_investigation: 0, partial: 1, others: 2 });
     assert.deepEqual([...host.querySelectorAll('.dp-tally')].map(e => e.textContent), ['1 critical · 1 cleared', '2 high · none cleared', '10 medium · none cleared'], 'the not-affected critical is cleared; the affected high is not');
     assert.ok(host.querySelector('.dp-tile--sev-high'), 'with the only critical cleared, the count goes orange');
@@ -135,7 +136,10 @@ describe('dependencies panel', () => {
     const community = rows.find(r => r.querySelector('td a').textContent === 'GHSA-mod-0');
     assert.equal(community.querySelector('.dp-decision').textContent, 'Not assessed', 'an author outside the trusted list settles nothing');
     const folded = community.querySelector('details.dp-decision__others');
-    assert.equal(folded.querySelector('summary').textContent, 'What others say (1)');
+    assert.equal(folded.querySelector('summary').textContent, 'What others say (2)', 'one community statement, one ignore-file entry');
+    const harvested = folded.querySelector('.dp-decision__upstream');
+    assert.equal(harvested.textContent, 'osv-scanner.toml of zlib@2.0.0: zlib never inflates untrusted input (ignore file, unsigned)');
+    assert.equal(harvested.querySelector('a').getAttribute('href'), 'https://github.com/z/zlib/blob/v2/osv-scanner.toml#L4');
     assert.equal(folded.hasAttribute('open'), false, 'folded until asked for');
     assert.equal(folded.querySelector('.dp-decision__why').textContent, 'community, via zlib: fixed (fixed, bbbbbbbb…) Edit', 'the statement itself is there to read');
     assert.match(host.querySelector('.dp-note').textContent, /2 of 13 advisories settled that way/);

@@ -19,6 +19,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { groupByRepository } from './appList.mjs';
+import { hintsByApp } from './upstreamTriage.mjs';
 import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources } from './ddbbUtils.mjs';
 
 export const SCHEMA = 1;
@@ -197,6 +198,22 @@ export function sharedPackages(db, { minProducts = 2 } = {}) {
     .sort((a, b) => b.products - a.products || a.ecosystem.localeCompare(b.ecosystem) || a.name.localeCompare(b.name));
 }
 
+// The upstream triage hints (upstreamTriage.mjs, hintsByApp): one file per
+// wallet, upstream/<appId>.json, `{ schema, appId, advisories: { id: [entry] } }`.
+// Nothing is written while the harvest tables are empty.
+export function writeUpstreamHints(db, exportDir) {
+  const hints = hintsByApp(db);
+  const dir = path.join(exportDir, 'upstream');
+  fs.rmSync(dir, { recursive: true, force: true });
+  if (Object.keys(hints).length) fs.mkdirSync(dir, { recursive: true });
+  let rows = 0;
+  for (const [appId, byId] of Object.entries(hints)) {
+    fs.writeFileSync(path.join(dir, `${safeName(appId)}.json`), JSON.stringify({ schema: 1, appId, advisories: byId }));
+    rows += Object.keys(byId).length;
+  }
+  return { apps: Object.keys(hints).length, advisories: rows };
+}
+
 /**
  * Write the whole export into `outDir`: built in a sibling temporary
  * directory and swapped in with a rename, so a reader never sees a half-written
@@ -247,6 +264,7 @@ export function exportAll(db, outDir, { generatedAt = new Date().toISOString(), 
   const shared = sharedPackages(db);
   fs.writeFileSync(path.join(tmp, 'packages', 'index.json'), JSON.stringify({ schema: SCHEMA, generatedAt, minProducts: 2, packages: shared }));
   index.sharedPackages = shared.length;
+  index.upstreamHints = writeUpstreamHints(db, tmp).apps;
   fs.writeFileSync(path.join(tmp, 'index.json'), JSON.stringify(index));
   const previous = `${path.resolve(outDir)}.previous`;
   fs.rmSync(previous, { recursive: true, force: true });

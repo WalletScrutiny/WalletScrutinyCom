@@ -67,6 +67,20 @@ export function loadTrusted({ base = EXPORT_BASE, fetchImpl = globalThis.fetch }
   return trustedCache.get(base);
 }
 
+// The wallet's harvested ignore-file entries (upstream/<appId>.json, from the
+// source-analysis export), or null; the same id order as loadTriage.
+export async function loadUpstream(appIds, { base = EXPORT_BASE, fetchImpl = globalThis.fetch } = {}) {
+  for (const id of [...new Set(appIds.filter(Boolean))]) {
+    try {
+      const doc = await fetchJson(`${base}/upstream/${safeName(id)}.json`, fetchImpl);
+      if (doc) return doc;
+    } catch {
+      return null; // hints are optional; the panel paints without them
+    }
+  }
+  return null;
+}
+
 // Public per-CVE signals (scripts/build-advisory-signals.mjs), or null when the build had none.
 export async function loadSignals({ base = EXPORT_BASE, fetchImpl = globalThis.fetch } = {}) {
   try {
@@ -221,12 +235,25 @@ function otherScopeLabel({ statement: s, scope }) {
 // under their count so a reviewer of this wallet can read them and start
 // from one ("Adopt" opens the dialog filled from it). The one just published
 // from this page starts unfolded.
-function othersLine(t, { freshId = null, onEdit = null } = {}) {
+function othersLine(t, { freshId = null, onEdit = null, upstream = [] } = {}) {
   const list = t.others || [];
-  const label = `What others say (${list.length})`;
+  const label = `What others say (${list.length + upstream.length})`;
   return el('details', { className: 'dp-decision__others', open: list.some(o => o.statement.id === freshId) },
-    el('summary', { title: 'Statements made for other wallets or by authors whose word does not settle this row; shown, not applied' }, label),
+    el('summary', { title: 'Statements made for other wallets or by authors whose word does not settle this row, and what scanner ignore files say; shown, not applied' }, label),
     list.map(o => statementLine({ need: null, statement: o.statement, label: otherScopeLabel(o) }, { freshId, onEdit, adopt: o.scope === 'elsewhere' || o.scope === 'unproven' })),
+    upstream.map(upstreamLine),
+  );
+}
+
+// A harvested ignore-file entry: whose file, the reason written next to the
+// id (or that there is none), linked to the line. Nobody signed it.
+function upstreamLine(h) {
+  const repo = String(h.repo || '').replace(/^https:\/\/(github|gitlab)\.com\//, '');
+  const whose = h.kind === 'own' ? `this wallet's ${h.file}` : `${h.file} of ${String(h.package || repo).replace(/^[a-z]+:/, '')}`;
+  return el('div', { className: 'dp-decision__why dp-decision__upstream', title: `${repo} at ${h.ref}, line ${h.line}` },
+    el('span', { className: 'dp-decision__need' }, `${whose}: `),
+    el('a', { href: h.url, target: '_blank', rel: 'noopener noreferrer' }, h.reason || 'listed as ignored, no reason given'),
+    el('span', { className: 'dp-decision__who' }, ' (ignore file, unsigned)'),
   );
 }
 
@@ -247,7 +274,7 @@ export function decisionCell(a, { onJudge = null, freshId = null } = {}) {
     bits.push(el('span', { className: `dp-decision dp-decision--${state}` }, TRIAGE_LABEL[state]));
     for (const b of d.basis) bits.push(statementLine(b, { freshId, onEdit }));
   }
-  if (t.others?.length) bits.push(othersLine(t, { freshId, onEdit }));
+  if (t.others?.length || a.upstream?.length) bits.push(othersLine(t, { freshId, onEdit, upstream: a.upstream || [] }));
   if (onJudge) {
     const judge = el('button', { type: 'button', className: 'dp-judge', title: 'Publish a signed statement on whether this advisory affects the wallet' }, 'Add statement');
     judge.addEventListener('click', () => onJudge(a));
@@ -482,11 +509,13 @@ export async function renderDependenciesPanel({ host, appId, storeVersion = '', 
   let app = null;
   let triage = null;
   let signals = null;
+  let upstream = null;
   try {
     app = await loadApp(appId, { base, fetchImpl });
     if (app) {
       triage = await loadTriage([appId, app.appId], { base, fetchImpl });
       signals = await loadSignals({ base, fetchImpl });
+      upstream = await loadUpstream([app.appId, appId], { base, fetchImpl });
     }
   } catch (error) {
     console.warn('Dependencies panel: export not reachable', error);
@@ -497,7 +526,7 @@ export async function renderDependenciesPanel({ host, appId, storeVersion = '', 
 
   // Repainted after a statement is published, with the statement merged in.
   const paint = (extra = {}) => {
-    model = panelModel(app, { storeVersion, triage, signals });
+    model = panelModel(app, { storeVersion, triage, signals, upstream });
     if (!model) return null;
     host.replaceChildren(panelElement(model, { appId: analysisId, wallet: title || analysisId, base, fetchImpl, onJudge, ...extra }));
     return model;

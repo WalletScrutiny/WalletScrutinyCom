@@ -159,6 +159,23 @@ Plumbing:
 - "Where?" informs a statement and is shown with it, but does not make it.
   Who made the package is not a reason either, see "No verdict change".
 
+What projects already wrote down for their own scanners rides along too:
+`external/source_analysis/upstream-triage-cli.mjs` reads the ignore lists and
+VEX documents (`.trivyignore(.yaml)`, `osv-scanner.toml`, `.snyk`,
+`.grype.yaml`, `deny.toml`, `audit.toml`, `.nsprc`, `audit-ci.json`,
+`.yarnrc.yml`'s `npmAuditIgnoreAdvisories`, `package.json`'s
+`pnpm.auditConfig`, `vex.json`/`openvex.json`) of every analysed wallet at
+its analysed tag and of every direct user at the tag or commit the identity
+check found for the shipped version, through GitHub's GraphQL API when
+`GITHUB_TOKEN` is set and raw files otherwise. The export carries the entries
+that name one of a wallet's advisories as `upstream/<appId>.json`; the panel
+lists each under "What others say" as "(ignore file, unsigned)", linked to the
+line, and never settles a row with it. None of these files is a standard and
+a plain `.trivyignore` gives no reason. First run, 2026-10-20: 4,316 direct-user
+refs in 2,368 repositories, 153 with such a file (almost all Rust's
+`deny.toml` and `.cargo/audit.toml`), 66 naming advisories; 6 of the 59
+wallets keep one; together they speak to 82 of 7,219 advisory rows.
+
 Two public signals ride along, per advisory, pulled at build time by
 `scripts/build-advisory-signals.mjs` into `api/source-analysis/signals.json`:
 EPSS (FIRST's published probability that a CVE is exploited in the wild

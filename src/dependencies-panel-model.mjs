@@ -103,14 +103,38 @@ export function uncheckedBreakdown(osv) {
     .map(([reason, n]) => ({ reason, label: SKIP_REASON_LABEL[reason] || reason, count: n }));
 }
 
+// What scanner ignore files and VEX documents say about an advisory
+// (external/source_analysis/upstreamTriage.mjs, upstream/<appId>.json): the
+// wallet's own, or a direct user's at the shipped version. Unsigned and
+// harvested, so they only ever join "What others say". An entry whose link a
+// statement on the row already cites as evidence is left out (AirGap's own
+// file was relayed as signed statements).
+export function upstreamFor(advisory, upstream) {
+  const byId = upstream?.advisories;
+  if (!byId || !advisory) return [];
+  const seen = new Set();
+  const cited = new Set([...(advisory.decision?.basis || []), ...(advisory.triage?.partial || []), ...(advisory.triage?.others || [])].map(b => b.statement?.evidence).filter(Boolean));
+  const out = [];
+  for (const id of [advisory.id, ...(advisory.aliases || [])]) {
+    for (const h of byId[id] || []) {
+      if (seen.has(h.url) || cited.has(h.url)) continue;
+      seen.add(h.url);
+      out.push(h);
+    }
+  }
+  return out;
+}
+
 /**
  * The panel's content for one app file. `storeVersion` is the version the
  * wallet page lists; `release` picks a specific analysed release, else the
  * latest; `triage` is the wallet's decisions file (triage/<appId>.json), or
  * null when nobody has said anything yet; `signals` is signals.json (EPSS,
- * exploited list) or null. Returns null when the app has no analysed release.
+ * exploited list) or null; `upstream` the wallet's harvested ignore-file
+ * entries (upstreamFor) or null. Returns null when the app has no analysed
+ * release.
  */
-export function panelModel(app, { storeVersion = '', release = null, triage = null, signals = null } = {}) {
+export function panelModel(app, { storeVersion = '', release = null, triage = null, signals = null, upstream = null } = {}) {
   const releases = Array.isArray(app?.releases) ? app.releases : [];
   // The newest release whose analysis worked; a newer one that failed is reported, not shown.
   const current = (release && releases.find(r => r.ref === release)) || releases.find(r => (r.status || 'ok') === 'ok') || releases[0];
@@ -122,7 +146,10 @@ export function panelModel(app, { storeVersion = '', release = null, triage = nu
   const vulnerabilities = SEVERITY_ORDER.filter(s => s !== 'malicious').reduce((n, s) => n + bySeverity[s], 0);
   const appIds = [app.appId, ...(app.aliases || []).map(a => a.appId)].filter(Boolean);
   const triaged = applyTriage(applySignals(current.advisories || [], signals), triage, { appIds });
-  const advisories = sortAdvisories(triaged.advisories);
+  const advisories = sortAdvisories(triaged.advisories.map(a => {
+    const hints = upstreamFor(a, upstream);
+    return hints.length ? { ...a, upstream: hints } : a;
+  }));
   const exploited = advisories.filter(a => a.exploited).length;
   const unchecked = uncheckedCount(current.osv);
 
