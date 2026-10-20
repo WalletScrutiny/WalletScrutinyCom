@@ -6,11 +6,12 @@
 
 import { el } from './html-utils.mjs';
 import {
-  panelModel, whereOf, whereLabel, safeName, csvOf, epssLabel, SEVERITY_ORDER, SEVERITY_LABEL,
+  panelModel, whereOf, whereLabel, safeName, csvOf, SEVERITY_ORDER, SEVERITY_LABEL,
 } from './dependencies-panel-model.mjs';
 import { TRIAGE_LABEL, JUSTIFICATION_LABEL, triageStateOf, withStatement } from './dependency-triage.mjs';
 import { openTriageDialog } from './dependencies-triage-form.mjs';
 import { treeElement } from './dependencies-tree.mjs';
+import { epssTrigger } from './dependencies-epss-tip.mjs';
 
 // Where the export is served from. The transport (proxy on walletscrutiny.com,
 // Blossom blobs, rsync) is decided outside this module; only this constant moves.
@@ -82,7 +83,7 @@ function severityPill(severity) {
 export function severityCell(a) {
   const bits = [severityPill(a.severity)];
   if (a.exploited) bits.push(el('span', { className: 'dp-kev', title: `On CISA's Known Exploited Vulnerabilities list${a.exploited.added ? ` since ${a.exploited.added}` : ''}` }, 'exploited in the wild'));
-  if (a.epss != null) bits.push(el('span', { className: 'dp-epss', title: `EPSS: probability of exploitation in the wild within 30 days${a.epssPercentile != null ? `, higher than ${Math.round(a.epssPercentile * 100)} % of all CVEs` : ''}` }, `EPSS ${epssLabel(a.epss)}`));
+  if (a.epss != null) bits.push(epssTrigger(a.epss, a.epssPercentile));
   return el('div', { className: 'dp-sev-cell' }, bits);
 }
 
