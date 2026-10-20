@@ -7,6 +7,21 @@ import { wsIcon } from "./icon.mjs";
 
 export { getStatusText };
 
+/**
+ * window.wallets starts as the short fewWallets list; allWallets.js replaces it
+ * once loaded. Resolves when the full list is there (or after 15 s).
+ */
+export function whenAllWalletsLoaded() {
+  if (window.allWalletsLoaded) return Promise.resolve();
+  return new Promise((resolve) => {
+    const timer = setTimeout(resolve, 15000);
+    window.addEventListener('allWalletsLoaded', () => {
+      clearTimeout(timer);
+      resolve();
+    }, { once: true });
+  });
+}
+
 export function formatZapAmount(amount) {
   if (amount >= 1000000) {
     return `${(amount/1000000)}M`;

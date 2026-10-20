@@ -1,7 +1,7 @@
 import { wsIcon } from './icon.mjs';
 import { verificationDraftKind, isWalletScrutinySiteAdmin, verificationReportKind } from "./nostr-constants.mjs";
 import { formatDate } from "./format-utils.mjs";
-import { formatZapAmount, getStatusText, formatCommentDate } from "./assets-table-utils.mjs";
+import { formatZapAmount, getStatusText, formatCommentDate, whenAllWalletsLoaded } from "./assets-table-utils.mjs";
 import { getFirstTagValue } from "./verifications_common.mjs";
 import { parseMarkdownToSafeHtml, prefetchMarked } from './marked-loader.mjs';
 import { fillReportAuthors, rewriteLegacyReport, shortenReportHashes, tidyBuildServerReport } from './build-server-report.mjs';
@@ -537,6 +537,19 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   const otherVerificationsBySamePubkey = allTheVerifications.filter(a => (a.pubkey === verification.pubkey && a.id !== verification.id));
 
   window.currentVerification = verification;
+
+  // Titles, share texts and links name the wallet. If the short fewWallets list
+  // lacks it, show the app id now and render again once allWallets.js is in.
+  const lookupAppId = getFirstTagValue(verification, 'i');
+  if (!window.wallets?.some(w => w.appId === lookupAppId)) {
+    whenAllWalletsLoaded().then(() => {
+      const stillOpen = document.body.classList.contains('modal-open')
+        && window.currentVerification?.id === verification.id;
+      if (stillOpen && window.wallets?.some(w => w.appId === lookupAppId)) {
+        showVerificationModal(sha256Hash, verificationId, appId, platform);
+      }
+    });
+  }
 
   const status = getFirstTagValue(verification, 'status');
 
