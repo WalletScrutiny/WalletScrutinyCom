@@ -81,8 +81,12 @@
 
 .opinions__filter-count {
   margin-left: 0.4em;
-  font-size: 0.85em;
-  opacity: 0.8;
+  padding: 0.05em 0.55em;
+  border-radius: 999px;
+  background: var(--neutral-6);
+  color: var(--neutral-2);
+  font-size: 0.9em;
+  font-weight: 600;
 }
 
 /* Source tabs (WalletScrutiny / Zapstore), only when both have entries ---- */
