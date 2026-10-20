@@ -238,6 +238,71 @@ question, data in hand either way: whether platform SDKs from the OS vendor
 proposal on the table lists platform SDKs as "closed source, platform" without
 flipping the verdict, and flips it for everything else.
 
+## Checking the shipped app
+
+The ladder asks whether a dependency is really what the build used. This
+section asks the next question: is it really in the app, and is anything in
+there that should not be? It is also how the gap named under "What it does
+not claim" closes: code no lockfile declares.
+
+### Three levels of verification
+
+1. **Automatic APK check** (one script per wallet, not one per advisory). It
+   runs once per wallet and answers every row at the same time:
+   1. Unpack the released APK.
+   2. List what's inside it.
+   3. For each package in the lockfile, check whether its code is in that
+      list, and which version.
+
+   The only place it splits is by the kind of code in the APK, because each
+   kind hides package names differently. That gives about three detectors
+   inside the one script:
+   - **Java/Kotlin libraries:** easy, the class names still carry the package
+     name (for example `org.bouncycastle`).
+   - **Native libraries (`.so`, Rust or C):** medium. They're often stripped,
+     so we match file contents against a rebuilt copy instead.
+   - **JavaScript bundles** (AirGap, most web-based wallets): the hardest.
+     Minifying removes package names, so we match on licence comments that
+     survive, or rebuild the bundle with a source map. I'd expect this one to
+     leave some rows as "can't tell", and those would stay open for a person.
+
+   "Not found" only counts when the detector for that kind of code is
+   reliable. For Java/Kotlin it is. For minified JavaScript the honest answer
+   is sometimes "can't tell", and then the row stays open instead of being
+   marked "Not in the app".
+2. **Code search plus a person.** Not a script per advisory: one search tool,
+   and a person (or an AI helper) writes a short note with the code lines as
+   evidence.
+3. **Hand-written attack test.** Only for the handful of serious advisories
+   that sit near keys.
+
+### Discrepancies between the lockfile and the APK
+
+- **Code in the APK that no lockfile declares:** a vendored or copied library, a prebuilt `.so`, or an SDK added outside the build files. This is the most important one, because the check today is blind to it.
+- **Different version shipped:** the APK has a different version than the lockfile says. Older is worse, because then a fix we counted on isn't there.
+- **Same name and version, different content:** the files don't match the published package. That means it's patched, forked, or tampered with.
+- **Package listed as build-only but found in the app:** our "build" label was wrong, and the advisory really applies.
+- **Two copies of one library:** for example a fixed and an unfixed version bundled side by side.
+- **Closed-source binary with no source at all:** this ties to Leo's closed-source rule.
+
+### Malware markers in dependencies
+
+A marker is a reason for a person to look, not proof of malware.
+
+- **Name lookalikes (typosquats):** for example `bitcoinjs-lb` next to `bitcoinjs-lib`.
+- **Install scripts** (`postinstall`) that download or run code on the build machine.
+- **A sudden change in a package:** a new maintainer, or a release that is much bigger than the previous one or adds new network code.
+- **Code loaded at runtime:** `eval`, `DexClassLoader`, or a `.so` downloaded after install. What the app runs is then not what we reviewed.
+- **Hidden or packed code:** long encoded strings, heavy obfuscation in a library that is normally readable.
+- **Unexpected network calls:** hardcoded hosts or IP addresses that aren't the wallet's own servers or known services.
+- **Touching secrets:** reading the clipboard, the seed or keys, or the keystore from a library that has no reason to.
+- **Address swapping:** code that rewrites crypto addresses, the classic clipboard hijacker.
+- **Unexpected permissions:** a library that needs SMS, accessibility, or overlay permissions.
+
+The first group fits into the level 1 script, because it's the same
+unzip-and-compare. The second group is a separate scanner, and I'd treat its
+hits as "look here", never as a verdict.
+
 ## Measurement first, no verdict change
 
 For now the panel only measures (Leo, 2026-10-16). No verdict and no score
