@@ -2,6 +2,7 @@ import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
 import {
+  upstreamFor,
   panelModel, tagMatchesVersion, versionCore, whereLabel, whereOf, sortAdvisories, uncheckedCount, csvOf, WORST_ROWS,
 } from '../../src/dependencies-panel-model.mjs';
 
@@ -115,5 +116,13 @@ describe('dependencies panel model', () => {
     assert.equal(lines[1], 'npm,pkg,1.0.0,package-lock.json,yes,app,hash-pinned,GHSA-1 GHSA-2,high,25,3,not affected undecided,"via:npm:alib: never reached, ""really""",0.0052,yes');
     assert.equal(lines[2], 'npm,"quiet, inc",2.0.0,package-lock.json,,unknown,floating,,,,,,,,', 'rows from an older export: empty product counts');
     assert.equal(lines[3], 'npm,jest,29.0.0,yarn.lock,yes,tests,hash-pinned,,,,,,,,');
+  });
+
+  test('upstreamFor: ignore-file entries by id or alias, without the ones a statement already cites', () => {
+    const url = (n) => `https://github.com/a/b/blob/v1/.trivyignore#L${n}`;
+    const upstream = { advisories: { 'CVE-1': [{ url: url(1) }, { url: url(2) }], 'GHSA-x': [{ url: url(1) }] } };
+    const row = { id: 'GHSA-x', aliases: ['CVE-1'], decision: { basis: [{ statement: { evidence: url(2) } }] } };
+    assert.deepEqual(upstreamFor(row, upstream).map(h => h.url), [url(1)]);
+    assert.deepEqual(upstreamFor(row, null), []);
   });
 });
