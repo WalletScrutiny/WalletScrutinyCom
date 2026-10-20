@@ -1,5 +1,6 @@
 ---
 title: BULL
+bitcoinOrgId: bull
 date: 2025-01-13
 authors:
 - danny

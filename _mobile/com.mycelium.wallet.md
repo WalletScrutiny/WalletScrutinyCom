@@ -1,6 +1,7 @@
 ---
 wsId: mycelium
 title: Mycelium Bitcoin Wallet
+bitcoinOrgId: mycelium
 date: 2025-03-07
 authors:
 - leo
