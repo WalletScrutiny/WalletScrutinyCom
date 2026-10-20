@@ -10,7 +10,9 @@
  *     --content "babel/core only compiles the project's own sources"
  *
  * `--via <ecosystem:name>` is the direct user the statement is about,
- * `--app <appId>` a wallet's own use, neither the package itself. `--dry-run`
+ * `--app <appId>` the wallet it is made for (alone: the wallet's own use);
+ * `--via` without `--app` is a maintainer's statement for every wallet,
+ * neither the package itself. `--dry-run`
  * prints the signed event instead of publishing. Relays: the project relay
  * (which stores the kind once external/configs/strfry/kind-policy.py is
  * deployed) and the site's public relays; one acceptance is enough.
@@ -43,7 +45,7 @@ function parseArgs(argv) {
 }
 
 function usage() {
-  return `usage: publish-dependency-triage.mjs --vuln <id> [--vuln <alias>] --package <eco:name> [--via <eco:name> | --app <appId>] --status <${TRIAGE_STATUSES.join('|')}> [--justification <${TRIAGE_JUSTIFICATIONS.join('|')}>] [--versions <text>] --content <prose> [--dry-run]`;
+  return `usage: publish-dependency-triage.mjs --vuln <id> [--vuln <alias>] --package <eco:name> [--via <eco:name>] [--app <appId>] --status <${TRIAGE_STATUSES.join('|')}> [--justification <${TRIAGE_JUSTIFICATIONS.join('|')}>] [--versions <text>] --content <prose> [--dry-run]`;
 }
 
 export function secretKeyFromEnv(env = process.env) {

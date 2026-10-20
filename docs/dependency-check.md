@@ -57,13 +57,28 @@ product, the decisions are keyed by the package's **direct user** and the
 advisory, and they live on **Nostr**, signed by whoever makes them.
 
 Why the direct user: whether a flaw in `blib` matters is a property of how
-`alib` calls it, and that is the same in every wallet that ships `alib`. One
-statement about (`alib`, advisory) therefore settles the row in every wallet
-where `blib` is only reached via `alib`; the wallet itself is the direct user
-when it imports `blib`. Across the 59 checked wallets the 5,900 advisory rows
-repeat about 1,100 distinct advisories, and most of them sit under a handful
-of direct users, so this is also the only key under which the queue is
-finite. The analyser records each package's direct users (`dependants`, one
+`alib` calls it; the wallet itself is the direct user when it imports `blib`.
+Across the 59 checked wallets the 5,900 advisory rows repeat about 1,100
+distinct advisories, and most of them sit under a handful of direct users, so
+this is also the key under which other wallets' work can be found again.
+
+Scope, decision of 2026-10-20 (Leo): what one wallet concluded about
+(`alib`, advisory) does not decide it for another wallet that ships `alib`;
+D-wallet may come to a different conclusion, so the tool shows D-wallet's
+reviewers what others think instead of answering for them.
+
+- A statement made for a wallet (it carries `app`, with or without `via`)
+  settles rows in that wallet only. Everywhere else it is listed under "What
+  others say" on the same row, with its reasoning, evidence and signer, and an
+  "Adopt" button that opens this wallet's own statement filled in from it.
+- A statement without `app` is a claim about the library itself: how `alib`
+  uses `blib` (`via`), or `blib` whoever uses it (neither). It holds for every
+  wallet, but only when its author is listed as a maintainer of `alib` (or of
+  `blib`) under `maintainers:` in `_data/dependencyTriage.yml`. Anyone else's
+  such statement, a trusted reviewer's included, is shown under "What others
+  say".
+- Statements signed outside the trusted list are shown there too, as
+  "community". The analyser records each package's direct users (`dependants`, one
 hop up, from the lockfile graph: package-lock, yarn.lock, Cargo.lock, and
 gradle's resolved graph) and whether the wallet imports it (`direct`).
 
@@ -73,32 +88,38 @@ version from the same author:
 
 | tag | meaning |
 |---|---|
-| `d` | `<advisory>\|via:<ecosystem:name>`, `<advisory>\|app:<appId>`, or `<advisory>\|package` |
+| `d` | `<advisory>\|via:<ecosystem:name>\|app:<appId>`, `<advisory>\|app:<appId>`, `<advisory>\|via:<ecosystem:name>` (maintainers), or `<advisory>\|package` |
 | `vuln` | the advisory id and its aliases (GHSA and CVE), one tag each |
 | `package` | the vulnerable package, `npm:@babel/traverse` |
-| `via` / `app` | the direct user: a package, or a wallet; neither means the package itself, whoever uses it |
+| `via` | the direct user, a package; absent when the wallet imports the package itself or the statement is about the package whoever uses it |
+| `app` | the wallet the statement is made for, and settles rows in; absent only on a maintainer's statement for every wallet |
 | `status` | `affected`, `not_affected`, `fixed`, `under_investigation` (the VEX states) |
 | `justification` | optional, an OpenVEX label such as `vulnerable_code_not_in_execute_path` |
 | `versions` | optional, the versions of the direct user the statement holds for |
 | `evidence` | optional, an http(s) link to the issue, pull request or code line the statement rests on |
 | content | the reasoning in prose |
 
-Resolution per (wallet, advisory): the wallet's own `app` statement settles
-the row outright. Otherwise every direct user needs a statement (`via`, or a
-package-wide one as fallback; when the wallet imports the package itself,
-the wallet is one of the direct users and only an `app` or package-wide
-statement answers for it); all present means settled with the gravest status
-among them, one missing means still open, shown as "Not assessed" and "1 of 2 direct users
-assessed". Rows whose files record no graph need a package-wide or `app`
-statement.
+Resolution per (wallet, advisory), counting only statements that settle
+here (above): the wallet's own `app` statement without `via` settles the row
+outright. Otherwise every direct user needs a statement (this wallet's `via`
+one first, then the maintainer's, then a maintainer's package-wide one; when
+the wallet imports the package itself, the wallet is one of the direct users
+and only an `app` or package-wide statement answers for it); all present
+means settled with the gravest status among them, one missing means still
+open, shown as "Not assessed" and "1 of 2 direct users assessed". Rows whose
+files record no graph need a package-wide or `app` statement.
 
 Who signed decides the weight, not whether a statement is kept:
 `_data/dependencyTriage.yml` lists the authors whose statements settle rows
-on the site; everyone else's are counted as community statements next to the
-row, and the count folds out to show them without settling anything. The direct user's maintainer and the wallet's developer are the authors
-whose word should eventually carry: proving a key belongs to a package (a
+for the wallet they are made for (`trustedAuthors`) and the maintainers whose
+statements settle rows everywhere (`maintainers`, per package reference);
+everything else is shown under "What others say" without settling anything.
+The maintainers list is empty for now: proving a key belongs to a package (a
 nostr pubkey in its manifest or repository, as Zapstore links releases to
-developers) is the open piece.
+developers) is the open piece. A statement's author retracts it with a NIP-09
+deletion request (kind 5 with a `k` tag naming the statement kind); the build
+keeps the request in the snapshot so a relay still serving the statement does
+not bring it back.
 
 Plumbing:
 
@@ -112,14 +133,16 @@ Plumbing:
   resolves each row from them.
 - Writing one on the site: "Add statement" under a row's decision opens a dialog
   (`src/dependencies-triage-form.mjs`) that asks what the statement is about
-  (one of the row's direct users, this wallet, or the package itself), the
+  (one of the row's direct users in this wallet, this wallet, or the package
+  itself; a maintainer of the direct user can tick "this holds for every
+  wallet"), the
   status, the OpenVEX justification for "not affected", the versions it
   holds for, an evidence link (issue, pull request, code line; the
   `evidence` tag) and the reasoning. It is signed with the visitor's Nostr
   browser extension (NIP-07, as opinions are), published to the project
   relay and the public relays, and merged into the page at once; the dialog
-  says beforehand whether the signer's statements settle rows or count as
-  community ones, and publishing again on the same subject replaces the
+  says beforehand whether the signer's statements settle rows or are shown
+  under "What others say", and publishing again on the same subject replaces the
   author's earlier statement. `scripts/publish-dependency-triage.mjs` does
   the same from the command line with a key in `DEPENDENCY_TRIAGE_NSEC`.
 - The project relay stores the kind once `external/configs/strfry/kind-policy.py`

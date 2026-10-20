@@ -44,8 +44,10 @@ describe('dependency triage form', () => {
   test('statementFields turns the form into template fields and refuses an unreasoned "not affected"', () => {
     const [core] = statementChoices(traverse, { appId: 'a' });
     const f = statementFields(traverse, { choice: core, status: 'not_affected', justification: 'vulnerable_code_not_in_execute_path', versions: ' 7.23 and later ', evidence: 'https://github.com/babel/babel/issues/1', content: ' only compiles the project ' });
-    assert.deepEqual(f, { vulns: ['GHSA-67hx-6x53-jw92', 'CVE-2023-45133'], pkg: 'npm:@babel/traverse', via: 'npm:@babel/core', app: null, status: 'not_affected', justification: 'vulnerable_code_not_in_execute_path', versions: '7.23 and later', evidence: 'https://github.com/babel/babel/issues/1', content: 'only compiles the project' });
+    assert.deepEqual(f, { vulns: ['GHSA-67hx-6x53-jw92', 'CVE-2023-45133'], pkg: 'npm:@babel/traverse', via: 'npm:@babel/core', app: 'a', status: 'not_affected', justification: 'vulnerable_code_not_in_execute_path', versions: '7.23 and later', evidence: 'https://github.com/babel/babel/issues/1', content: 'only compiles the project' });
+    assert.equal(statementFields(traverse, { choice: core, everywhere: true, status: 'affected' }).app, null, 'a maintainer\'s "every wallet" drops the wallet');
     const t = triageTemplate(f);
+    assert.deepEqual(t.tags[0], ['d', 'GHSA-67hx-6x53-jw92|via:npm:@babel/core|app:a']);
     assert.deepEqual(t.tags.find(x => x[0] === 'evidence'), ['evidence', 'https://github.com/babel/babel/issues/1']);
     assert.equal(statementFromEvent(finalizeEvent(t, sk)).evidence, 'https://github.com/babel/babel/issues/1');
     const app = statementChoices(traverse, { appId: 'a' })[2];
@@ -65,7 +67,7 @@ describe('dependency triage form', () => {
     assert.equal(ownStatement({ statements: [s1, s2] }, pk, 'GHSA-1|package'), s2);
     assert.equal(ownStatement(null, pk, 'x'), null);
     const t = withStatement(null, s1, { appId: 'a', trusted: [pk] });
-    assert.deepEqual(t, { schema: 3, appId: 'a', trusted: [pk], statements: [s1] });
+    assert.deepEqual(t, { schema: 4, appId: 'a', trusted: [pk], maintainers: {}, statements: [s1] });
     assert.deepEqual(withStatement(t, s2).statements, [s1, s2]);
     assert.deepEqual(publishOutcome({ successful: 0, total: 2, failures: [{ url: 'wss://relay.nostr.info/', error: 'blocked: kind' }] }), { ok: false, text: '0 of 2 relays accepted the statement; relay.nostr.info: blocked: kind' });
     assert.equal(publishOutcome({ successful: 2, total: 2, failures: [] }).text, '2 of 2 relays accepted the statement');
@@ -94,7 +96,7 @@ describe('dependency triage form', () => {
     assert.equal(dialog.querySelector('.dp-dialog__title').textContent, 'Statement on GHSA-67hx-6x53-jw92');
     assert.deepEqual([...dialog.querySelectorAll('input[name="subject"]')].map(i => i.value), ['via:npm:@babel/core', 'via:npm:@babel/helpers', 'app:it.airgap.vault', 'package']);
     assert.equal(dialog.querySelector('input[name="subject"][value="app:it.airgap.vault"]').hasAttribute('checked'), true);
-    assert.match(dialog.querySelector('.dp-form__signer').textContent, /^Signing as npub1.*settle rows on this site\.$/);
+    assert.match(dialog.querySelector('.dp-form__signer').textContent, /^Signing as npub1.*settle rows for this wallet\.$/);
     assert.equal(dialog.querySelector('.dp-form__publish').disabled, false);
 
     // a statement about how @babel/core uses the package, not affected, with evidence
@@ -103,6 +105,8 @@ describe('dependency triage form', () => {
     core.checked = true;
     core.dispatchEvent(new window.Event('change', { bubbles: true }));
     assert.equal(dialog.querySelector('input[name="versions"]').closest('label').hidden, false, 'versions field appears for a direct user');
+    assert.equal(dialog.querySelector('.dp-form__everywhere').hidden, false, 'so does the maintainer\'s "every wallet"');
+    assert.match(dialog.querySelector('.dp-form__everywhere').textContent, /^I maintain @babel\/core: .*settles rows only once you are listed/);
     const notAffected = dialog.querySelector('input[name="status"][value="not_affected"]');
     notAffected.checked = true;
     notAffected.dispatchEvent(new window.Event('change', { bubbles: true }));
@@ -117,8 +121,8 @@ describe('dependency triage form', () => {
     assert.equal(nostr.published.length, 1, 'one signed event went to the relays');
     const event = nostr.published[0];
     assert.equal(event.pubkey, pk);
-    assert.deepEqual(event.tags.filter(t => ['d', 'status', 'justification', 'evidence', 'via'].includes(t[0])), [
-      ['d', 'GHSA-67hx-6x53-jw92|via:npm:@babel/core'], ['via', 'npm:@babel/core'], ['status', 'not_affected'], ['justification', 'vulnerable_code_not_in_execute_path'], ['evidence', 'https://github.com/babel/babel/pull/16033'],
+    assert.deepEqual(event.tags.filter(t => ['d', 'status', 'justification', 'evidence', 'via', 'app'].includes(t[0])), [
+      ['d', 'GHSA-67hx-6x53-jw92|via:npm:@babel/core|app:it.airgap.vault'], ['via', 'npm:@babel/core'], ['app', 'it.airgap.vault'], ['status', 'not_affected'], ['justification', 'vulnerable_code_not_in_execute_path'], ['evidence', 'https://github.com/babel/babel/pull/16033'],
     ]);
     assert.equal(document.querySelector('dialog.dp-dialog'), null, 'the dialog closed');
     assert.equal(host.querySelector('.dp-flash').textContent, 'Your statement on GHSA-67hx-6x53-jw92 is published (3 of 6 relays accepted it): this page shows it now, every wallet page after the next site build.');
@@ -176,10 +180,11 @@ describe('dependency triage form', () => {
     const decision = host.querySelector('tr.dp-row--fresh .dp-td-decision');
     assert.ok(decision, 'the row is marked even though the statement settles nothing');
     assert.equal(decision.querySelector('.dp-decision').textContent, 'Not assessed');
-    const folded = decision.querySelector('details.dp-decision__community');
-    assert.equal(folded.querySelector('summary').textContent, '1 community statement');
+    const folded = decision.querySelector('details.dp-decision__others');
+    assert.equal(folded.querySelector('summary').textContent, 'What others say (1)');
     assert.equal(folded.hasAttribute('open'), true, 'the statement just published is shown without a click');
-    assert.match(folded.querySelector('.dp-decision__why').textContent, /^the package: Testing the button \(investigating, [0-9a-f]{8}…\) just published Edit$/);
+    assert.match(host.querySelector('.dp-flash').textContent, /shown under "What others say" here/);
+    assert.match(folded.querySelector('.dp-decision__why').textContent, /^community, the package: Testing the button \(investigating, [0-9a-f]{8}…\) just published Edit$/);
 
     // "Edit" on the line reopens the form on that subject, filled in
     folded.querySelector('.dp-edit').click();
@@ -215,6 +220,20 @@ describe('dependency triage form', () => {
     dialog.remove();
   });
 
+  test('"Adopt" on another wallet\'s statement opens this wallet\'s statement on the same direct user, filled from it', async () => {
+    const theirs = { id: 'e2', pubkey: 'b'.repeat(64), created_at: 1, d: 'GHSA-67hx-6x53-jw92|via:npm:@babel/core|app:other.wallet', vulns: ['GHSA-67hx-6x53-jw92'], package: 'npm:@babel/traverse', via: 'npm:@babel/core', app: 'other.wallet', status: 'not_affected', justification: 'vulnerable_code_not_in_execute_path', versions: null, evidence: 'https://example.org/y', content: 'core only compiles' };
+    const nostr = fakeNostr();
+    let published = null;
+    const dialog = openTriageDialog({ advisory: traverse, appId: 'it.airgap.vault', triage: { trusted: [pk], statements: [theirs] }, nostr, edit: theirs, onPublished: (s, summary) => { published = { s, summary }; } });
+    await settled();
+    assert.equal(dialog.querySelector('input[name="subject"][checked]')?.value, 'via:npm:@babel/core');
+    assert.equal(dialog.querySelector('textarea[name="content"]').value, 'core only compiles');
+    dialog.querySelector('form').dispatchEvent(new window.Event('submit', { bubbles: true, cancelable: true }));
+    await settled(8);
+    assert.deepEqual([published.s.via, published.s.app], ['npm:@babel/core', 'it.airgap.vault'], 'made for this wallet, not the other');
+    assert.equal(published.summary.settles, true);
+  });
+
   test('without an extension the dialog says so and cannot publish; a rejected publish stays open with the reason', async () => {
     const none = openTriageDialog({ advisory: traverse, appId: 'a', nostr: fakeNostr({ extension: false }) });
     await settled();
@@ -225,7 +244,7 @@ describe('dependency triage form', () => {
     const rejected = fakeNostr({ accepted: 0, total: 1, failures: [{ url: 'wss://relay.nostr.info/', error: 'blocked' }] });
     const dialog = openTriageDialog({ advisory: traverse, appId: 'a', nostr: rejected, trusted: ['f'.repeat(64)] });
     await settled();
-    assert.match(dialog.querySelector('.dp-form__signer').textContent, /community statement/);
+    assert.match(dialog.querySelector('.dp-form__signer').textContent, /What others say/);
     dialog.querySelector('input[name="status"][value="affected"]').checked = true;
     dialog.querySelector('form').dispatchEvent(new window.Event('submit', { bubbles: true, cancelable: true }));
     await settled(8);
@@ -243,6 +262,6 @@ describe('dependency triage form', () => {
     assert.equal(d2.querySelector('.dp-form__error').textContent, 'choose a status');
     assert.equal(early.published.length, 0);
     d2.remove();
-    assert.match(publishedFlash({ vulns: ['GHSA-1'] }, { successful: 1, total: 2, trusted: false }), /counted as a community statement here/);
+    assert.match(publishedFlash({ vulns: ['GHSA-1'] }, { successful: 1, total: 2, settles: false }), /shown under "What others say" here/);
   });
 });
