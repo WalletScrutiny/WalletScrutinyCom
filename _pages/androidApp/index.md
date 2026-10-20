@@ -44,11 +44,8 @@ screenshots:
 <div class="guide-actions">
   <a href="https://zapstore.dev/apps/com.walletscrutiny.ng_app" class="btn btn-medium btn-success" target="_blank" rel="noopener noreferrer">{% include icon.html name="mobile-screen" %} Get it on Zapstore</a>
   <a href="{{ ws_app_repo }}/-/releases/permalink/latest" class="btn btn-medium btn-success" target="_blank" rel="noopener noreferrer">{% include icon.html name="gitlab" %} Download from GitLab</a>
+  <a href="{{ ws_app_repo }}" class="btn btn-medium android-app-source" target="_blank" rel="noopener noreferrer">Source code</a>
 </div>
-
-<p class="android-app-links">
-  <a href="{{ ws_app_repo }}" target="_blank" rel="noopener noreferrer">Source code</a>
-</p>
 
 <div class="android-app-showcase">
   <figure class="android-app-showcase-main">

@@ -210,15 +210,30 @@
   text-decoration: none;
 }
 
-// /androidApp/: two lead paragraphs, then source and privacy links under the buttons
+// /androidApp/: two lead paragraphs, then the download buttons and the source code link
 .android-app-page .guide-hero .guide-lead + .guide-lead {
   margin-top: 1.25rem;
 }
 
-.android-app-links {
-  text-align: center;
-  color: var(--neutral-2);
-  font-weight: $paragraph-font-weight;
+// Same green as .btn-success, outlined so the downloads stay the primary action.
+// .btn forces border: 0 and a white colour with !important, so the outline is a shadow.
+.android-app-source {
+  background: transparent;
+  box-shadow: inset 0 0 0 1px #4CAF50;
+  color: #4CAF50 !important;
+  transition: background-color 0.3s, color 0.3s;
+
+  &:hover,
+  &:focus-visible {
+    background-color: #4CAF50;
+    color: #fff !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .android-app-page .guide-hero .guide-lead {
+    font-size: $font-lg * 0.75;
+  }
 }
 
 // /androidApp/: one big screenshot, thumbnails below it pick which one is shown
