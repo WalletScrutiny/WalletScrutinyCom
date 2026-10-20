@@ -52,13 +52,17 @@ export async function loadTriage(appIds, { base = EXPORT_BASE, fetchImpl = globa
   return null;
 }
 
-// The trusted-author list on its own (triage/_trusted.json), for a wallet
-// whose file does not exist yet: the statement dialog says whether the signer's
-// statement will settle rows or count as a community one. Fetched once.
+// The trusted authors and listed maintainers on their own
+// (triage/_trusted.json), `{ trusted, maintainers }`, for a wallet whose file
+// does not exist yet: the statement dialog says whether the signer's
+// statement will settle rows or be shown as what others say. Fetched once.
 const trustedCache = new Map();
 export function loadTrusted({ base = EXPORT_BASE, fetchImpl = globalThis.fetch } = {}) {
   if (!trustedCache.has(base)) {
-    trustedCache.set(base, fetchJson(`${base}/triage/_trusted.json`, fetchImpl).then(doc => (Array.isArray(doc?.trusted) ? doc.trusted : []), () => []));
+    trustedCache.set(base, fetchJson(`${base}/triage/_trusted.json`, fetchImpl).then(doc => ({
+      trusted: Array.isArray(doc?.trusted) ? doc.trusted : [],
+      maintainers: doc?.maintainers && typeof doc.maintainers === 'object' ? doc.maintainers : {},
+    }), () => ({ trusted: [], maintainers: {} })));
   }
   return trustedCache.get(base);
 }
@@ -164,17 +168,10 @@ function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = nul
   );
 }
 
-// Every statement a row's decision rests on or has collected so far,
-// community ones included.
+// Every statement a row's decision rests on or has collected so far, what
+// others say included.
 function statementsOf(a) {
-  return [...(a.decision?.basis || []), ...(a.triage?.partial || [])].map(b => b.statement).concat(a.triage?.communityStatements || []);
-}
-
-// What a statement is about, in the shape of a row's needs.
-function needOf(s) {
-  if (s.app) return `app:${s.app}`;
-  if (s.via) return `via:${s.via}`;
-  return 'package';
+  return [...(a.decision?.basis || []), ...(a.triage?.partial || []), ...(a.triage?.others || [])].map(b => b.statement);
 }
 
 // "via npm:@babel/core" / "this wallet" / "the package": what a statement's need reads as.
@@ -189,15 +186,17 @@ const shortKey = (pubkey) => `${pubkey.slice(0, 8)}…`;
 // One statement as a line: who it is about, what it says (linked to its
 // evidence when the author gave some), who signed. The one just published
 // from this page is marked. `onEdit(statement)` adds an "Edit" button.
-function statementLine({ need, statement: s }, { freshId = null, onEdit = null } = {}) {
+function statementLine({ need, statement: s, label = null }, { freshId = null, onEdit = null, adopt = false } = {}) {
   let editButton = null;
   if (onEdit) {
-    editButton = el('button', { type: 'button', className: 'dp-edit', title: 'Change this statement (yours), or start yours from it' }, 'Edit');
+    editButton = adopt
+      ? el('button', { type: 'button', className: 'dp-edit', title: 'Start this wallet\'s statement from it: you check it against this wallet and sign it as yours' }, 'Adopt')
+      : el('button', { type: 'button', className: 'dp-edit', title: 'Change this statement (yours), or start yours from it' }, 'Edit');
     editButton.addEventListener('click', () => onEdit(s));
   }
   const why = JUSTIFICATION_LABEL[s.justification] || s.content || TRIAGE_LABEL[s.status];
   return el('div', { className: `dp-decision__why${s.id === freshId ? ' dp-decision__why--fresh' : ''}`, title: s.content || '' },
-    el('span', { className: 'dp-decision__need' }, `${needLabel(need)}: `),
+    el('span', { className: 'dp-decision__need' }, `${label || needLabel(need)}: `),
     s.evidence ? el('a', { href: s.evidence, target: '_blank', rel: 'noopener noreferrer' }, why) : why,
     el('span', { className: 'dp-decision__who' }, ` (${TRIAGE_LABEL[s.status]}, ${shortKey(s.pubkey)})`),
     s.id === freshId ? el('span', { className: 'dp-decision__fresh' }, ' just published') : null,
@@ -206,16 +205,28 @@ function statementLine({ need, statement: s }, { freshId = null, onEdit = null }
   );
 }
 
-// Community statements (authors outside the trusted list) do not settle the
-// row; they fold out under their count so they can still be read. The one
-// just published from this page starts unfolded.
-function communityLine(t, { freshId = null, onEdit = null } = {}) {
-  const label = `${t.community} community ${t.community === 1 ? 'statement' : 'statements'}`;
-  const list = t.communityStatements || [];
-  if (!list.length) return el('div', { className: 'dp-decision__community' }, label);
-  return el('details', { className: 'dp-decision__community', open: list.some(s => s.id === freshId) },
-    el('summary', { title: 'Signed by authors outside the list this site trusts, so they do not settle the row' }, label),
-    list.map(s => statementLine({ need: needOf(s), statement: s }, { freshId, onEdit })),
+// Where a statement that does not settle this row comes from
+// (statementScope in dependency-triage.mjs), as the start of its line.
+function otherScopeLabel({ statement: s, scope }) {
+  const via = s.via ? `via ${s.via.replace(/^[a-z]+:/, '')}` : '';
+  if (scope === 'elsewhere') return `in ${s.app}${via ? `, ${via}` : ''}`;
+  if (scope === 'unproven') return `${via || 'the package'}, every wallet (signer not listed as maintainer)`;
+  if (s.app) return `community, ${via || 'this wallet'}`;
+  return `community, ${via || 'the package'}`;
+}
+
+// What others say: statements that concern the row without settling it here,
+// made for another wallet, claimed for every wallet by someone not listed as
+// the library's maintainer, or signed outside the trusted list. They fold out
+// under their count so a reviewer of this wallet can read them and start
+// from one ("Adopt" opens the dialog filled from it). The one just published
+// from this page starts unfolded.
+function othersLine(t, { freshId = null, onEdit = null } = {}) {
+  const list = t.others || [];
+  const label = `What others say (${list.length})`;
+  return el('details', { className: 'dp-decision__others', open: list.some(o => o.statement.id === freshId) },
+    el('summary', { title: 'Statements made for other wallets or by authors whose word does not settle this row; shown, not applied' }, label),
+    list.map(o => statementLine({ need: null, statement: o.statement, label: otherScopeLabel(o) }, { freshId, onEdit, adopt: o.scope === 'elsewhere' || o.scope === 'unproven' })),
   );
 }
 
@@ -225,7 +236,7 @@ function communityLine(t, { freshId = null, onEdit = null } = {}) {
 export function decisionCell(a, { onJudge = null, freshId = null } = {}) {
   const state = triageStateOf(a);
   const d = a.decision;
-  const t = a.triage || { needs: [], covered: [], community: 0, partial: [] };
+  const t = a.triage || { needs: [], covered: [], others: [], partial: [] };
   const bits = [];
   const onEdit = onJudge ? (s) => onJudge(a, s) : null;
   if (!d) {
@@ -236,7 +247,7 @@ export function decisionCell(a, { onJudge = null, freshId = null } = {}) {
     bits.push(el('span', { className: `dp-decision dp-decision--${state}` }, TRIAGE_LABEL[state]));
     for (const b of d.basis) bits.push(statementLine(b, { freshId, onEdit }));
   }
-  if (t.community) bits.push(communityLine(t, { freshId, onEdit }));
+  if (t.others?.length) bits.push(othersLine(t, { freshId, onEdit }));
   if (onJudge) {
     const judge = el('button', { type: 'button', className: 'dp-judge', title: 'Publish a signed statement on whether this advisory affects the wallet' }, 'Add statement');
     judge.addEventListener('click', () => onJudge(a));
@@ -335,11 +346,11 @@ function howToRead(model) {
   parts.push('A listed advisory is not a defect in the wallet: it says that a version with a published advisory is present, nothing more. Leaving such a version in place can be the right call, when the vulnerable code is never reached or the flaw needs a position an attacker does not have here; that is a decision per advisory. ');
   const t = model.triage;
   if (t && t.total) {
-    parts.push('A decision is keyed by the advisory and the package\'s direct user (the line under the package name): what alib does with blib is the same in every wallet that ships alib, so one signed statement about that pair settles the row here and everywhere else blib is only reached via alib; a row is settled once every direct user has one, the wallet itself counting as one when it imports the package. ');
+    parts.push('A decision is keyed by the advisory and the package\'s direct user (the line under the package name), and made for this wallet: a row is settled once every direct user has a statement, the wallet itself counting as one when it imports the package. What another wallet concluded about the same direct user is listed under "What others say" and can be adopted after a look, but it never settles a row here; only a statement by the direct user\'s listed maintainer holds for every wallet. ');
     parts.push(t.decided
       ? `The "Decision" column shows ${t.decided} of ${t.total} advisories settled that way, each with its reasons and signers; the rest nobody has judged yet. `
       : 'Nobody has made those statements for this wallet\'s advisories yet, which is what the empty "Decision" column says. ');
-    parts.push('"Add statement" on a row writes one: signed with your Nostr browser extension, published to the relays, shown here at once and on every wallet page after the next site build. Anyone can publish; whose statements settle rows is a list the site keeps, the others are counted. ');
+    parts.push('"Add statement" on a row writes one: signed with your Nostr browser extension, published to the relays, shown here at once and on every wallet page after the next site build. Anyone can publish; whose statements settle rows is a list the site keeps, the others are shown. ');
   }
   if (model.signals) {
     parts.push('Under the severity, "exploited in the wild" means CISA lists the advisory as exploited somewhere, and EPSS is the published probability that it gets exploited anywhere within 30 days; both are about the advisory, not this wallet. ');
@@ -456,7 +467,7 @@ function treeTabs(model, table, { appId, base, fetchImpl, label }) {
 
 // "Your statement on GHSA-… is published (3 of 6 relays): this page shows it now, every wallet page after the next site build."
 export function publishedFlash(statement, summary) {
-  const where = summary?.trusted === false ? 'counted as a community statement here' : 'this page shows it now';
+  const where = summary?.settles === false ? 'shown under "What others say" here' : 'this page shows it now';
   return `Your statement on ${statement.vulns[0]} is published (${summary?.successful ?? '?'} of ${summary?.total ?? '?'} relays accepted it): ${where}, every wallet page after the next site build.`;
 }
 
@@ -492,16 +503,17 @@ export async function renderDependenciesPanel({ host, appId, storeVersion = '', 
     return model;
   };
   async function onJudge(advisory, edit = null) {
-    const trusted = triage?.trusted?.length ? triage.trusted : await loadTrusted({ base, fetchImpl });
+    const lists = triage?.trusted?.length ? { trusted: triage.trusted, maintainers: triage.maintainers || {} } : await loadTrusted({ base, fetchImpl });
     openTriageDialog({
       advisory,
       edit,
       appId: analysisId,
       triage,
-      trusted,
+      trusted: lists.trusted,
+      maintainers: lists.maintainers,
       ...(nostr ? { nostr } : {}),
       onPublished: (statement, summary) => {
-        triage = withStatement(triage, statement, { appId: analysisId, trusted });
+        triage = withStatement(triage, statement, { appId: analysisId, trusted: lists.trusted, maintainers: lists.maintainers });
         paint({ flash: publishedFlash(statement, summary), freshId: statement.id, showAll: true });
         (host.querySelector('.dp-row--fresh') || host.querySelector('.dp-flash'))?.scrollIntoView?.({ block: 'center' });
       },

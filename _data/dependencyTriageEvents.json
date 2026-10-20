@@ -1,5 +1,71 @@
 [
  {
+  "content": "",
+  "created_at": 1791814798,
+  "id": "2834103ae8fe7410cbd55b90ccca8869845b723eec3553e73f4eef8e70453480",
+  "kind": 5,
+  "pubkey": "8a16d6522432fcf84a75c86b8e06b64c4e702abd2516597dfbb43bd53b29437a",
+  "sig": "b4e6386b0ae1c34391ffa83138ddf36d0e5238f6d603763a79daf4f5dd21dc3b90cb3ec6bd73afffed62cbb4de9c7d574c4b29c364dc9bb47d8f8512f9536e8a",
+  "tags": [
+   [
+    "e",
+    "faa6b06ccea5f1adba118e74d9669a10b79f7ccbd74c6b501b80a0d84c026c68"
+   ],
+   [
+    "k",
+    "30350"
+   ],
+   [
+    "a",
+    "30350:8a16d6522432fcf84a75c86b8e06b64c4e702abd2516597dfbb43bd53b29437a:y22mq3irwi0i"
+   ]
+  ]
+ },
+ {
+  "content": "",
+  "created_at": 1791814803,
+  "id": "deedfd97c3b99b29729f7a68f789b4ed925b27ea10dc14c8bb5ad1f09316e707",
+  "kind": 5,
+  "pubkey": "8a16d6522432fcf84a75c86b8e06b64c4e702abd2516597dfbb43bd53b29437a",
+  "sig": "0e607917056875d7a57f8b291ba890781f159351ee5e4f01782e306b83aa6850074bfdf015ae1d810ec31d9f941b51061913b410147354a625dbe46314beb838",
+  "tags": [
+   [
+    "e",
+    "faa6b06ccea5f1adba118e74d9669a10b79f7ccbd74c6b501b80a0d84c026c68"
+   ],
+   [
+    "k",
+    "30350"
+   ],
+   [
+    "a",
+    "30350:8a16d6522432fcf84a75c86b8e06b64c4e702abd2516597dfbb43bd53b29437a:y22mq3irwi0i"
+   ]
+  ]
+ },
+ {
+  "content": "",
+  "created_at": 1791820891,
+  "id": "80469f1670e3ead802d8633829eb0fab8943c5a416ef78ed5420564c1951a7f8",
+  "kind": 5,
+  "pubkey": "c7fa3b7c7ec5633b7c9718de9d5f528d0e1c55c9b1543532596ca4a058b4cfe9",
+  "sig": "d82637a9526d054746890ad9d38461695673048a76847e459095070c8eeb789f167fac7c73bbdec4ebd331ce7ab9ddb5bab97fafe6961d8fd3e777fabaf38ac8",
+  "tags": [
+   [
+    "e",
+    "4b2689ab1599eaeaafda98e2eeebce856a3bdc49dddb0dcd43f68c40d8325323"
+   ],
+   [
+    "k",
+    "30350"
+   ],
+   [
+    "a",
+    "30350:c7fa3b7c7ec5633b7c9718de9d5f528d0e1c55c9b1543532596ca4a058b4cfe9:nbyazbsasjfe"
+   ]
+  ]
+ },
+ {
   "content": "Compiler: @babel/core hands it the project's own sources, not attacker-written code. First example statement, to be confirmed or replaced.",
   "created_at": 1792169649,
   "id": "364cab22ed1bdb2e82437e64f2748b290020d672db3a603126f650d39b5334ea",
@@ -268,114 +334,6 @@
   ]
  },
  {
-  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"form-data 3.0.1 via @airgap/tezos > graphql-request. Predictable multipart boundaries matter only for requests this app never issues; the vault talks to no backend. Owned by the coinlib workstream.\"",
-  "created_at": 1792488155,
-  "id": "aff9fee3d3548e0450bd037f17154cfe085e19d60a41582210136c2ad34ab4b6",
-  "kind": 30350,
-  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
-  "sig": "a9369d46e5a9ccbbc26f6ce3eac9c907193776123f3fc9985401b92b6bad1bfbb16f63931946329460e7e3a42f457d01261648f73a7039fa8aefac61a7c1860d",
-  "tags": [
-   [
-    "d",
-    "GHSA-fjxv-7rqg-78g4|via:npm:graphql-request"
-   ],
-   [
-    "vuln",
-    "GHSA-fjxv-7rqg-78g4"
-   ],
-   [
-    "vuln",
-    "CVE-2025-7783"
-   ],
-   [
-    "package",
-    "npm:form-data"
-   ],
-   [
-    "via",
-    "npm:graphql-request"
-   ],
-   [
-    "status",
-    "not_affected"
-   ],
-   [
-    "justification",
-    "vulnerable_code_not_in_execute_path"
-   ],
-   [
-    "versions",
-    "v3.35.0"
-   ],
-   [
-    "evidence",
-    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L47"
-   ],
-   [
-    "client",
-    "WalletScrutiny.com"
-   ],
-   [
-    "c",
-    "walletscrutiny"
-   ]
-  ]
- },
- {
-  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"form-data 3.0.1 via @airgap/tezos > graphql-request. Same dead request path as CVE-2025-7783. Owned by the coinlib workstream.\"",
-  "created_at": 1792488156,
-  "id": "bf8891a5a6b194b1ac5360aa82eabb6e333feddbae80b7cc3cf0ae3325535e65",
-  "kind": 30350,
-  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
-  "sig": "f04a9311e10794d9f287cdede58eaec6b25e631f3a4f3dab5424492b9de59327921e640ce56a093067c727943b7d74aa87a74b18a4bc9a0bf77781755c4173e3",
-  "tags": [
-   [
-    "d",
-    "GHSA-hmw2-7cc7-3qxx|via:npm:graphql-request"
-   ],
-   [
-    "vuln",
-    "GHSA-hmw2-7cc7-3qxx"
-   ],
-   [
-    "vuln",
-    "CVE-2026-12143"
-   ],
-   [
-    "package",
-    "npm:form-data"
-   ],
-   [
-    "via",
-    "npm:graphql-request"
-   ],
-   [
-    "status",
-    "not_affected"
-   ],
-   [
-    "justification",
-    "vulnerable_code_not_in_execute_path"
-   ],
-   [
-    "versions",
-    "v3.35.0"
-   ],
-   [
-    "evidence",
-    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L53"
-   ],
-   [
-    "client",
-    "WalletScrutiny.com"
-   ],
-   [
-    "c",
-    "walletscrutiny"
-   ]
-  ]
- },
- {
   "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"@stablelib/ed25519 1.0.3 via @airgap/tezos > @taquito/utils. Signature malleability, no published fix. Deserves attention out of proportion to its MEDIUM rating in a wallet, but the decision belongs to the coinlib team; tracked there rather than fixed here.\"",
   "created_at": 1792488157,
   "id": "8322480a85e0f32d4388bc3daeffb76621b2c744f66606e97877be360557b067",
@@ -530,64 +488,6 @@
   ]
  },
  {
-  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"uuid 8.3.2 via @keystonehq/bc-ur-registry-eth. The out-of-bounds write needs a caller-supplied buffer passed to v3/v5/v6. Note this differs from the original triage: the direct dependency was deleted, and @airgap/angular-core does import uuid on the live MetaMask sync path, but it calls only parse and v4, so the vulnerable signature is still unused.\"",
-  "created_at": 1792488159,
-  "id": "7330edf62d528eedf6cad6253b678ee562bf075328506df96922d04737f72690",
-  "kind": 30350,
-  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
-  "sig": "cf147dba5dbc4d7b7dce57c0e17e389b4affbdf6448b738eac9081cb8bead6bd6cc2b0b87e64a96e58a707d5cead995f4037bd4632f9e21a2f1c0ad7a06a858b",
-  "tags": [
-   [
-    "d",
-    "GHSA-w5hq-g745-h8pq|via:npm:@keystonehq/bc-ur-registry-eth"
-   ],
-   [
-    "vuln",
-    "GHSA-w5hq-g745-h8pq"
-   ],
-   [
-    "vuln",
-    "CVE-2026-41907"
-   ],
-   [
-    "vuln",
-    "CVE-2026-41988"
-   ],
-   [
-    "package",
-    "npm:uuid"
-   ],
-   [
-    "via",
-    "npm:@keystonehq/bc-ur-registry-eth"
-   ],
-   [
-    "status",
-    "not_affected"
-   ],
-   [
-    "justification",
-    "vulnerable_code_not_in_execute_path"
-   ],
-   [
-    "versions",
-    "v3.35.0"
-   ],
-   [
-    "evidence",
-    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L83"
-   ],
-   [
-    "client",
-    "WalletScrutiny.com"
-   ],
-   [
-    "c",
-    "walletscrutiny"
-   ]
-  ]
- },
- {
   "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"minimist 1.2.0, pinned exactly by cordova.plugins.diagnostic. Used only in the plugin's build-time hook (scripts/logger.js parsing process.argv). Nothing under www/ requires minimist; exploitation needs attacker-controlled argv on a developer's build machine.\"",
   "created_at": 1792488160,
   "id": "3dd8bc6da49e4f34f65fb766f5c0963889a60afef2667008a4867c8568d25a93",
@@ -680,60 +580,6 @@
    [
     "evidence",
     "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L200"
-   ],
-   [
-    "client",
-    "WalletScrutiny.com"
-   ],
-   [
-    "c",
-    "walletscrutiny"
-   ]
-  ]
- },
- {
-  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"minimist 1.2.0, same build-time-only hook as CVE-2020-7598. Prototype pollution reachable only through argv on a build machine.\"",
-  "created_at": 1792488161,
-  "id": "37c27c896da215c0911da77554c70cf92dd8c5d279ba83ae6e185d975bd00b77",
-  "kind": 30350,
-  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
-  "sig": "77c6502b0b81d73f47edab0d96339576712ebab8afb4da1a6efda2cfa24e49719ee726019cc847323d693569ca894492351090e818d52283135bb475d92bd3a8",
-  "tags": [
-   [
-    "d",
-    "GHSA-xvch-5gv4-984h|via:npm:cordova.plugins.diagnostic"
-   ],
-   [
-    "vuln",
-    "GHSA-xvch-5gv4-984h"
-   ],
-   [
-    "vuln",
-    "CVE-2021-44906"
-   ],
-   [
-    "package",
-    "npm:minimist"
-   ],
-   [
-    "via",
-    "npm:cordova.plugins.diagnostic"
-   ],
-   [
-    "status",
-    "not_affected"
-   ],
-   [
-    "justification",
-    "vulnerable_code_not_in_execute_path"
-   ],
-   [
-    "versions",
-    "v3.35.0"
-   ],
-   [
-    "evidence",
-    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L100"
    ],
    [
     "client",
@@ -1706,6 +1552,330 @@
    [
     "evidence",
     "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L193"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"form-data 3.0.1 via @airgap/tezos > graphql-request. Same dead request path as CVE-2025-7783. Owned by the coinlib workstream.\"",
+  "created_at": 1792495822,
+  "id": "0481ae691be7d3b6af9579ddcb4b1ffa9cb7a6b2f10354deecdebc968ae58d57",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "dc45bf0981bca806e7ae35520c79824ac205e76ce144794ca4de35de796e869315608ca567dff49037b4c84bfee73f69fecc04030bf98f1f3e5360908941dffd",
+  "tags": [
+   [
+    "d",
+    "GHSA-hmw2-7cc7-3qxx|via:npm:graphql-request|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-hmw2-7cc7-3qxx"
+   ],
+   [
+    "vuln",
+    "CVE-2026-12143"
+   ],
+   [
+    "package",
+    "npm:form-data"
+   ],
+   [
+    "via",
+    "npm:graphql-request"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L53"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's triage holds for AirGap: replaced by the same statement scoped to it.airgap.vault",
+  "created_at": 1792495822,
+  "id": "09bcd238f61bbb999fdc706ef3049257dd008753d9fb960fb22e1036529f74ee",
+  "kind": 5,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "3ec522c051115ff05c2c2afa9c16888fe9f9ec3ad1eb154bdf6b7bef4060916949308bc3f6db37419206b815c6e5aabae3cb070a2929118ac50e2c95e2c8a924",
+  "tags": [
+   [
+    "e",
+    "aff9fee3d3548e0450bd037f17154cfe085e19d60a41582210136c2ad34ab4b6"
+   ],
+   [
+    "a",
+    "30350:fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26:GHSA-fjxv-7rqg-78g4|via:npm:graphql-request"
+   ],
+   [
+    "k",
+    "30350"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's triage holds for AirGap: replaced by the same statement scoped to it.airgap.vault",
+  "created_at": 1792495822,
+  "id": "177f62504ab1f2ca9762fa874d9c43628fc8489c43c43ce5d3fc72ba1ded013a",
+  "kind": 5,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "7363fc3b0ae93e93d7db0059428fae7b04ac252cbcb835bf00647dd80dc4b29a09d80248edf61dabab8609e28027bd80dc974619101c0cb3e13fc0e3b1ff537e",
+  "tags": [
+   [
+    "e",
+    "bf8891a5a6b194b1ac5360aa82eabb6e333feddbae80b7cc3cf0ae3325535e65"
+   ],
+   [
+    "a",
+    "30350:fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26:GHSA-hmw2-7cc7-3qxx|via:npm:graphql-request"
+   ],
+   [
+    "k",
+    "30350"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"form-data 3.0.1 via @airgap/tezos > graphql-request. Predictable multipart boundaries matter only for requests this app never issues; the vault talks to no backend. Owned by the coinlib workstream.\"",
+  "created_at": 1792495822,
+  "id": "653bcc35c877526ca9834c3871859a2355790872d4cd12b61e290cc800123413",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "95b778182c318ec6c7bbfa4bf05e5d571533fac7cb2ddbef801bacb83b8d1fbb489f8a1720b808f9351510b02367e9280546618c29fd293c82d4842e80daaf9f",
+  "tags": [
+   [
+    "d",
+    "GHSA-fjxv-7rqg-78g4|via:npm:graphql-request|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-fjxv-7rqg-78g4"
+   ],
+   [
+    "vuln",
+    "CVE-2025-7783"
+   ],
+   [
+    "package",
+    "npm:form-data"
+   ],
+   [
+    "via",
+    "npm:graphql-request"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L47"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"minimist 1.2.0, same build-time-only hook as CVE-2020-7598. Prototype pollution reachable only through argv on a build machine.\"",
+  "created_at": 1792495822,
+  "id": "88beefebac309b764d197ca1810085109cfff22dc1e15e88c65826e39cffa743",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "1df931b4aba74b769fc2ae42e796d28d0d51c25da619c89f5a901a8230a6a1a87eef08676add3c8856221444069b7edb427fb3224a1dbcbab1e06d7a2c16653d",
+  "tags": [
+   [
+    "d",
+    "GHSA-xvch-5gv4-984h|via:npm:cordova.plugins.diagnostic|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-xvch-5gv4-984h"
+   ],
+   [
+    "vuln",
+    "CVE-2021-44906"
+   ],
+   [
+    "package",
+    "npm:minimist"
+   ],
+   [
+    "via",
+    "npm:cordova.plugins.diagnostic"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L100"
+   ],
+   [
+    "client",
+    "WalletScrutiny.com"
+   ],
+   [
+    "c",
+    "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's triage holds for AirGap: replaced by the same statement scoped to it.airgap.vault",
+  "created_at": 1792495822,
+  "id": "9456b03f11ad994b4acfc8ca7cb53d1f123c8a0f1eaf93febe23fa3d02bf5ffb",
+  "kind": 5,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "13c5b0d5793a47a391e5ba15016f61d01cfbb98568c39ed311394ed66a27ee6051caced237e4548035bec33d0655db73b00bbbee4a8025344f1cfd75de5c417c",
+  "tags": [
+   [
+    "e",
+    "7330edf62d528eedf6cad6253b678ee562bf075328506df96922d04737f72690"
+   ],
+   [
+    "a",
+    "30350:fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26:GHSA-w5hq-g745-h8pq|via:npm:@keystonehq/bc-ur-registry-eth"
+   ],
+   [
+    "k",
+    "30350"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's triage holds for AirGap: replaced by the same statement scoped to it.airgap.vault",
+  "created_at": 1792495822,
+  "id": "e3bac540dd8f42a36037314416cd4a4c7e43989d5b3be23c3f6069c47f0242bf",
+  "kind": 5,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "12977b8633a245e87b02a994a2484537233664235f38cd4dfa9bab7a6b8848030aa12384ab1ec8b682ae29e23d63eeffedf41ce496ac7a2a81430380057d5b6c",
+  "tags": [
+   [
+    "e",
+    "37c27c896da215c0911da77554c70cf92dd8c5d279ba83ae6e185d975bd00b77"
+   ],
+   [
+    "a",
+    "30350:fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26:GHSA-xvch-5gv4-984h|via:npm:cordova.plugins.diagnostic"
+   ],
+   [
+    "k",
+    "30350"
+   ]
+  ]
+ },
+ {
+  "content": "AirGap's own triage, from .trivyignore.yaml at v3.35.0 (enforced in their CI): \"uuid 8.3.2 via @keystonehq/bc-ur-registry-eth. The out-of-bounds write needs a caller-supplied buffer passed to v3/v5/v6. Note this differs from the original triage: the direct dependency was deleted, and @airgap/angular-core does import uuid on the live MetaMask sync path, but it calls only parse and v4, so the vulnerable signature is still unused.\"",
+  "created_at": 1792495822,
+  "id": "e4b2242260d8ce01bf0c94d87303eccf2b3f76d457897b39e2c85e43f0ba2e7b",
+  "kind": 30350,
+  "pubkey": "fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26",
+  "sig": "115d1abd785cb1e1f01504d20fc8aa5fc11a23d0eddd8f3812ada1eb17bfde2e682cc0260721d14576c7f5a737cb85a6b1ff72ec8e1c2bec17b18e95d5c2a84c",
+  "tags": [
+   [
+    "d",
+    "GHSA-w5hq-g745-h8pq|via:npm:@keystonehq/bc-ur-registry-eth|app:it.airgap.vault"
+   ],
+   [
+    "vuln",
+    "GHSA-w5hq-g745-h8pq"
+   ],
+   [
+    "vuln",
+    "CVE-2026-41907"
+   ],
+   [
+    "vuln",
+    "CVE-2026-41988"
+   ],
+   [
+    "package",
+    "npm:uuid"
+   ],
+   [
+    "via",
+    "npm:@keystonehq/bc-ur-registry-eth"
+   ],
+   [
+    "app",
+    "it.airgap.vault"
+   ],
+   [
+    "status",
+    "not_affected"
+   ],
+   [
+    "justification",
+    "vulnerable_code_not_in_execute_path"
+   ],
+   [
+    "versions",
+    "v3.35.0"
+   ],
+   [
+    "evidence",
+    "https://github.com/airgap-it/airgap-vault/blob/v3.35.0/.trivyignore.yaml#L83"
    ],
    [
     "client",
