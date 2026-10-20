@@ -6,7 +6,7 @@ import fs from 'fs';
 import os from 'os';
 import path from 'path';
 import {
-  buildQueries, checkVulnerabilities, clearAdvisoryCache, cvss3BaseScore, severityOf, uncheckableReason, scopeOfRows,
+  buildQueries, queryName, berryResolution, checkVulnerabilities, clearAdvisoryCache, cvss3BaseScore, severityOf, uncheckableReason, scopeOfRows,
 } from '../plugins/osv.mjs';
 import { initDatabase, saveVulnerabilities, getVulnerabilities } from '../ddbbUtils.mjs';
 
@@ -70,6 +70,18 @@ test('only exact registry versions are looked up', () => {
   assert.equal(uncheckableReason(entry('cargo', 'c', '0.1.0', { tier: 'source-ref-pinned', resolved: 'git+https://x' })), 'source-ref-pinned');
   assert.equal(uncheckableReason(entry('cargo', 'c', '0.1.0', { resolved: 'registry+https://github.com/rust-lang/crates.io-index' })), null);
   assert.equal(uncheckableReason(entry('pip', 'requests', '>=2.0')), 'no-exact-version');
+  // yarn berry: the workspace itself is no registry package (MetaMask's root is named "metamask", a name OSV lists as malware)
+  assert.equal(uncheckableReason(entry('npm', 'metamask', '0.0.0-use.local', { resolved: 'metamask@workspace:.' })), 'git-or-path');
+  assert.equal(uncheckableReason(entry('npm', 'a', '1.0.0', { resolved: 'a@npm:1.0.0' })), null);
+});
+
+test('a yarn alias is looked up as the package it really installs', () => {
+  const fs = entry('npm', 'fs', '1.2.1', { resolved: '@favware/skip-dependency@npm:1.2.1' });
+  assert.deepEqual(berryResolution(fs.resolved), { ident: '@favware/skip-dependency', ref: 'npm:1.2.1' });
+  assert.equal(queryName(fs), '@favware/skip-dependency', 'not the npm package "fs", which OSV lists as malware');
+  assert.equal(queryName(entry('npm', 'a', '1.0.0', { resolved: 'https://registry.npmjs.org/a/-/a-1.0.0.tgz' })), 'a');
+  const { queries } = buildQueries([{ entries: [fs] }]);
+  assert.deepEqual(queries.map(q => q.name), ['@favware/skip-dependency']);
 });
 
 test('queries are deduplicated across lockfiles and ecosystems map to OSV names', () => {
