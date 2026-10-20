@@ -112,3 +112,27 @@ test('identity: a range names no release, so it gets its own status instead of n
   assert.equal(identityOf({ ecosystem: 'npm', name: 'x', version: '^1.2.0' }, tags, null).status, 'range');
   assert.equal(identityOf({ ecosystem: 'pip', name: 'x', version: '>=1.2.0' }, null).status, 'range');
 });
+
+import { packagesOf, identifyPackages } from '../identity-scan-cli.mjs';
+
+test('identity scan: osv-scanner packages, one repo lookup per name and one tag listing per repo', async () => {
+  const report = { results: [{ packages: [
+    { package: { name: 'a', version: '1.0.0', ecosystem: 'npm' } },
+    { package: { name: 'a', version: '1.0.0', ecosystem: 'npm' } },
+    { package: { name: 'a', version: '2.0.0', ecosystem: 'npm' } },
+    { package: { name: 'b', version: '^1.0.0', ecosystem: 'npm' } },
+    { package: { name: 'serde', version: '1.0.1', ecosystem: 'crates.io' } },
+    { package: { name: 'rake', version: '13.0.0', ecosystem: 'RubyGems' } },
+  ] }] };
+  const pkgs = packagesOf(report);
+  assert.equal(pkgs.length, 5);
+  const calls = { resolve: 0, tags: 0 };
+  const result = await identifyPackages(pkgs, {
+    resolve: async (p) => { calls.resolve++; return { url: p.name === 'serde' ? null : 'https://github.com/o/a' }; },
+    listTags: async () => { calls.tags++; return new Map([['v1.0.0', 'c'.repeat(40)]]); },
+    npm: async () => ({ provenance: false, gitHead: null, published: true }),
+  });
+  assert.deepEqual(calls, { resolve: 2, tags: 1 });
+  assert.deepEqual(result.byStatus, { 'tag-found': 1, 'no-tag': 1, range: 1, 'no-repo': 1, unsupported: 1 });
+  assert.equal(result.packages.find(p => p.name === 'a' && p.version === '1.0.0').tag, 'v1.0.0');
+});
