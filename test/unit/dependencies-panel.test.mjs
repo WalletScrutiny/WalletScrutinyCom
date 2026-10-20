@@ -63,7 +63,8 @@ describe('dependencies panel', () => {
     assert.equal(host.hidden, false);
     assert.equal(step.hidden, false);
     const values = [...host.querySelectorAll('.dp-tile__value')].map(e => e.textContent);
-    assert.deepEqual(values, ['40', '372', '13', '0']);
+    assert.deepEqual(values, ['412', '13', '0'], 'direct and transitive share one tile');
+    assert.equal(host.querySelector('.dp-tile .dp-tile__sub').textContent, '40 direct · 372 transitive');
     assert.match(host.querySelector('.dp-notices').textContent, /14 of the 412 packages could not be checked for advisories \(14 version range, not an exact version\); that is not the same as "no problems"\./);
     assert.deepEqual([...host.querySelectorAll('.dp-tally')].map(e => e.textContent), ['1 critical · none cleared', '2 high · none cleared', '10 medium · none cleared'], 'one line per severity');
     assert.ok(host.querySelector('.dp-tile--sev-critical'), 'the count takes the worst open severity\'s colour');
