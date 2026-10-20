@@ -60,7 +60,8 @@ function elf(code, tail = '') {
   const buf = Buffer.alloc(64 + 56 + c.length + Buffer.byteLength(tail));
   buf.writeUInt32BE(0x7f454c46, 0); buf[4] = 2; buf[5] = 1;
   buf.writeBigUInt64LE(64n, 0x20); buf.writeUInt16LE(56, 0x36); buf.writeUInt16LE(1, 0x38);
-  buf.writeUInt32LE(1, 64); buf.writeBigUInt64LE(120n, 64 + 8); buf.writeBigUInt64LE(BigInt(c.length), 64 + 32);
+  // one PT_LOAD from offset 0, as real libraries have: it holds the ELF header too
+  buf.writeUInt32LE(1, 64); buf.writeBigUInt64LE(0n, 64 + 8); buf.writeBigUInt64LE(BigInt(120 + c.length), 64 + 32);
   c.copy(buf, 120);
   buf.write(tail, 120 + c.length);
   return buf;
@@ -72,6 +73,9 @@ describe('apk contents', () => {
     assert.deepEqual(zipEntries(z).map(e => [e.name, e.read().toString()]), [['a.txt', 'hello'], ['b/c.bin', 'xyz']]);
     assert.deepEqual(dexClasses(dex(['org.bouncycastle.Digest', 'a.b'])), ['org.bouncycastle.Digest', 'a.b']);
     assert.equal(elfCodeHash(elf('CODE', 'symbols')), elfCodeHash(elf('CODE')), 'stripping symbols outside the loaded segment changes nothing');
+    const stripped = elf('CODE');
+    stripped.writeBigUInt64LE(999n, 0x28); stripped.writeUInt16LE(7, 0x3c); stripped.writeUInt16LE(6, 0x3e);
+    assert.equal(elfCodeHash(stripped), elfCodeHash(elf('CODE')), 'nor do the section-table fields stripping rewrites in the header');
     assert.notEqual(elfCodeHash(elf('CODE')), elfCodeHash(elf('EVIL')));
     assert.equal(elfCodeHash(Buffer.from('not an elf at all, really not one')), null);
     assert.equal(outerClass('com.x.Foo$$ExternalSyntheticLambda0'), 'com.x.Foo');
@@ -125,5 +129,23 @@ describe('apk contents', () => {
     const r = compare(apk, [{ ecosystem: 'gradle', name: 'org.lib:lib', version: '1' }], artifacts);
     assert.equal(r.rows[0].status, 'cant-tell');
     assert.equal(r.summary.obfuscatedShare, 0.75);
+  });
+
+  test('artifactContents follows the Android variant of a Kotlin Multiplatform module, not the JVM one', async () => {
+    const module = JSON.stringify({ variants: [
+      { name: 'jvmRuntimeElements', attributes: { 'org.gradle.usage': 'java-runtime', 'org.gradle.jvm.environment': 'standard-jvm' }, 'available-at': { group: 'org.kmp', module: 'lib-jvm', version: '1' } },
+      { name: 'androidReleaseRuntimeElements', attributes: { 'org.gradle.usage': 'java-runtime', 'org.gradle.jvm.environment': 'android' }, 'available-at': { group: 'org.kmp', module: 'lib-android', version: '1' } },
+    ] });
+    const asked = [];
+    const fetchImpl = async (url) => {
+      asked.push(url);
+      if (url.endsWith('/org/kmp/lib/1/lib-1.module')) return { ok: true, arrayBuffer: async () => Buffer.from(module) };
+      if (url.endsWith('/lib-android/1/lib-android-1.aar')) return { ok: true, arrayBuffer: async () => zip({ 'classes.jar': zip({ 'org/kmp/A.class': '' }) }) };
+      if (url.endsWith('/lib-jvm/1/lib-jvm-1.jar')) return { ok: true, arrayBuffer: async () => zip({ 'org/kmp/Jvm.class': '' }) };
+      return { ok: false };
+    };
+    const c = await artifactContents('org.kmp:lib', '1', { fetchImpl, repos: ['https://repo'] });
+    assert.ok(c.url.endsWith('lib-android-1.aar'));
+    assert.ok(!asked.some(u => u.includes('lib-jvm')), 'the JVM build is never fetched');
   });
 });

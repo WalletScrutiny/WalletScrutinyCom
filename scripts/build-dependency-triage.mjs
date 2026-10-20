@@ -150,7 +150,9 @@ export function buildTriage({ events = [], snapshotFile = SNAPSHOT_FILE, trusted
   const snapshot = acceptEvents(snapshotEvents.filter(e => !isDeletion(e)), { kind, verify });
   const fresh = acceptEvents(events.filter(e => !isDeletion(e)), { kind, verify });
   const deletionEvents = [...snapshotEvents, ...events].filter(isDeletion);
-  const deletionsById = new Map(acceptDeletions(deletionEvents, { kind, verify }).map(e => [e.id, e]));
+  // only requests by someone who has written a statement: anyone can sign a kind 5, and the snapshot is committed
+  const authors = new Set([...snapshot.accepted, ...fresh.accepted].map(x => x.event.pubkey));
+  const deletionsById = new Map(acceptDeletions(deletionEvents, { kind, verify }).filter(e => authors.has(e.pubkey)).map(e => [e.id, e]));
   const deletions = [...deletionsById.values()];
   // newest per (author, subject) across both sources, then what its author deleted
   const byId = new Map([...snapshot.accepted, ...fresh.accepted].map(x => [x.event.id, x]));

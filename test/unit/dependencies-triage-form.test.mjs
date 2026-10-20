@@ -250,6 +250,26 @@ describe('dependency triage form', () => {
     assert.equal(published.summary.settles, true);
   });
 
+  test('"Adopt" on someone\'s every-wallet claim makes a statement for this wallet; a maintainer finds their own every-wallet one', async () => {
+    const claim = { id: 'e3', pubkey: 'b'.repeat(64), created_at: 1, d: 'GHSA-67hx-6x53-jw92|via:npm:@babel/core', vulns: ['GHSA-67hx-6x53-jw92'], package: 'npm:@babel/traverse', via: 'npm:@babel/core', app: null, status: 'not_affected', justification: null, versions: null, evidence: null, content: 'core only compiles' };
+    let published = null;
+    const dialog = openTriageDialog({ advisory: traverse, appId: 'it.airgap.vault', triage: { trusted: [pk], statements: [claim] }, nostr: fakeNostr(), edit: claim, onPublished: (st, summary) => { published = { st, summary }; } });
+    await settled();
+    assert.equal(dialog.querySelector('input[name="everywhere"]').hasAttribute('checked'), false, 'not pre-ticked for someone else\'s claim');
+    dialog.querySelector('form').dispatchEvent(new window.Event('submit', { bubbles: true, cancelable: true }));
+    await settled(8);
+    assert.deepEqual([published.st.app, published.summary.settles], ['it.airgap.vault', true]);
+
+    // a listed maintainer opening "Add statement" lands on their every-wallet statement, ticked
+    const mine = { ...claim, id: 'e4', pubkey: pk, content: 'mine, for every wallet' };
+    const again = openTriageDialog({ advisory: { ...traverse, dependants: ['@babel/core'] }, appId: 'other.wallet', triage: { trusted: [], maintainers: { 'npm:@babel/core': [pk] }, statements: [mine] }, nostr: fakeNostr() });
+    await settled();
+    assert.equal(again.querySelector('input[name="everywhere"]').hasAttribute('checked'), true);
+    assert.equal(again.querySelector('textarea[name="content"]').value, 'mine, for every wallet');
+    assert.equal(again.querySelector('.dp-form__publish').textContent, 'Update statement');
+    again.remove();
+  });
+
   test('without an extension the dialog says so and cannot publish; a rejected publish stays open with the reason', async () => {
     const none = openTriageDialog({ advisory: traverse, appId: 'a', nostr: fakeNostr({ extension: false }) });
     await settled();

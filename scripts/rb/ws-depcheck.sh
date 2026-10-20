@@ -56,7 +56,7 @@ IDENTITY_FILES=(
   "identity-scan-cli.mjs 4a54ce5efa6416f31bf5f249fe7983e2bb554ddd1da35fc8d6d3eb40078b6fa8"
   "sourceIdentity.mjs fa2c7551daca79c25ccab5d11423f2f419a4ea2b9d8b244efbaab267eb8e5a76"
   "sourceRepos.mjs 6de1b3ecb772a524e7ae6b7daf916b632b85eb5fde1837c50c8ab7601b6a039d"
-  "apkContents.mjs a07f7e959c0aa76bd96cf5e1a5dd139c5ab8dbf482c526f84484375bd3ff9d9d"
+  "apkContents.mjs 914e5ff44bb9beeb5f34c5cb6e64ff42561068406db567080aac0eb9a9a3ab80"
   "apk-scan-cli.mjs b642fbdf1cd4807fc0176d02f60ae155c0216d9d20ca14588455c161be65e9f8"
 )
 # ghcr.io/google/osv-scanner:v2.7.0 (2026-10-12), manifest list digest from the registry.

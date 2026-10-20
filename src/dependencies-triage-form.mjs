@@ -157,7 +157,10 @@ export function openTriageDialog({ advisory, appId, triage = null, trusted = [],
     el('legend', {}, 'This statement is about'),
     ...choices.map(c => radio('subject', c.key, c.label, c.hint, c.preferred)),
   );
-  const everywhereBox = el('input', { type: 'checkbox', name: 'everywhere', checked: edit?.via && !edit.app ? true : null });
+  // Ticked once the signer is known, and only for their own every-wallet
+  // statement or a library they are listed for: adopting someone else's
+  // every-wallet claim makes a statement for this wallet.
+  const everywhereBox = el('input', { type: 'checkbox', name: 'everywhere' });
   const everywhereText = el('span', {});
   const everywhereField = el('label', { className: 'dp-form__choice dp-form__everywhere', hidden: true }, everywhereBox, everywhereText);
   const statusGroup = el('fieldset', { className: 'dp-form__group' },
@@ -229,7 +232,12 @@ export function openTriageDialog({ advisory, appId, triage = null, trusted = [],
     if (choice?.via) versionsLabel.textContent = `Versions of ${choice.via.replace(/^[a-z]+:/, '')} this holds for`;
   }
 
-  const subjectKey = (choice) => triageSubject({ vuln: advisory.id, via: choice.via || null, app: (everywhere() && choice.via ? null : choice.app) || null });
+  const subjectKey = (choice, wide = everywhere()) => triageSubject({ vuln: advisory.id, via: choice.via || null, app: (wide && choice.via ? null : choice.app) || null });
+  const setEverywhere = (on) => {
+    everywhereBox.checked = on;
+    if (on) everywhereBox.setAttribute('checked', '');
+    else everywhereBox.removeAttribute('checked');
+  };
 
   // The signer's existing statement on the chosen subject fills the form, so
   // publishing again edits it (the relay replaces the older event). Opened
@@ -353,11 +361,18 @@ export function openTriageDialog({ advisory, appId, triage = null, trusted = [],
       signer.textContent = `Signing as ${shortNpub(pubkey)} · ${weight}.`;
       signer.dataset.pubkey = pubkey;
       publish.disabled = false;
+      if (edit?.via && !edit.app && (edit.pubkey === pubkey || (maintainerMap[edit.via] || []).includes(pubkey))) setEverywhere(true);
       // Opened with "Add statement": land on a subject the signer already
-      // wrote about, so their statement shows up for editing at once.
-      if (!edit && !ownStatement(triage, pubkey, subjectKey(choiceOf(value('subject')) || choices[0]))) {
-        const written = choices.find(c => ownStatement(triage, pubkey, subjectKey(c)));
-        if (written) for (const input of form.querySelectorAll('input[name="subject"]')) input.checked = input.value === written.key;
+      // wrote about, for this wallet or (a maintainer) for every wallet, so
+      // their statement shows up for editing at once.
+      if (!edit) {
+        const mine = (c) => (ownStatement(triage, pubkey, subjectKey(c, false)) ? 'here' : c.via && ownStatement(triage, pubkey, subjectKey(c, true)) ? 'everywhere' : null);
+        const current = choiceOf(value('subject')) || choices[0];
+        const written = mine(current) ? current : choices.find(c => mine(c));
+        if (written) {
+          for (const input of form.querySelectorAll('input[name="subject"]')) input.checked = input.value === written.key;
+          setEverywhere(mine(written) === 'everywhere');
+        }
       }
       prefill();
     } catch (e) {
