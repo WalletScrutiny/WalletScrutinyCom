@@ -461,12 +461,10 @@ export class OpinionsWidget {
         className: 'opinions__filter',
         'aria-pressed': String(this.filter === value),
       }, label);
-      if (value === 'all') {
-        button.appendChild(el('span', {
-          className: 'opinions__filter-count',
-          title: `${unapproved} not approved`,
-        }, `+${unapproved}`));
-      }
+      const approved = this.trustedOpinions.length;
+      button.appendChild(value === 'all'
+        ? el('span', { className: 'opinions__filter-count', title: `${unapproved} not approved` }, `+${unapproved}`)
+        : el('span', { className: 'opinions__filter-count', title: `${approved} approved` }, `${approved}`));
       button.addEventListener('click', () => this.setFilter(value));
       filters.appendChild(button);
     }
