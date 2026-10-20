@@ -120,29 +120,31 @@ function breakableName(name) {
   return out;
 }
 
-function tile(value, label, { tone = '', sub = null, sub2 = null } = {}) {
+function tile(value, label, { tone = '', sub = null } = {}) {
   return el('div', { className: `dp-tile${tone ? ` dp-tile--${tone}` : ''}` },
     el('div', { className: 'dp-tile__value' }, value == null ? '–' : String(value)),
     el('div', { className: 'dp-tile__label' }, label),
     sub ? el('div', { className: 'dp-tile__sub' }, sub) : null,
-    sub2 ? el('div', { className: 'dp-tile__sub dp-tile__sub--where' }, sub2) : null,
   );
 }
 
-// "35 in the app · 377 in build tooling": where the vulnerable packages end up.
-function whereLine(byScope) {
-  if (!byScope) return null;
-  const parts = [];
-  if (byScope.app) parts.push(`${byScope.app} in the app`);
-  if (byScope.build) parts.push(`${byScope.build} in build tooling`);
-  if (byScope.tests) parts.push(`${byScope.tests} only in tests`);
-  if (byScope.unknown) parts.push(`${byScope.unknown} unplaced`);
-  return parts.length ? parts.join(' · ') : null;
-}
-
-function severityLine(bySeverity) {
-  const parts = SEVERITY_ORDER.filter(s => s !== 'malicious' && bySeverity[s] > 0).map(s => `${bySeverity[s]} ${SEVERITY_LABEL[s].toLowerCase()}`);
-  return parts.length ? parts.join(' · ') : null;
+// One line per severity, "50 critical (40 cleared)": cleared counts the
+// rows settled as fixed or not affected; everything else (undecided, under
+// investigation, affected) is still potentially affected.
+export function severityTally(model) {
+  const cleared = {};
+  for (const a of model.advisories || []) {
+    const state = triageStateOf(a);
+    if (state !== 'not_affected' && state !== 'fixed') continue;
+    const sev = SEVERITY_ORDER.includes(a.severity) ? a.severity : 'unknown';
+    cleared[sev] = (cleared[sev] || 0) + 1;
+  }
+  const rows = SEVERITY_ORDER.filter(s => s !== 'malicious' && model.bySeverity[s] > 0).map(s => ({ severity: s, total: model.bySeverity[s], cleared: Math.min(cleared[s] || 0, model.bySeverity[s]) }));
+  const worstOpen = rows.find(r => r.total > r.cleared)?.severity || null;
+  const lines = rows.map(r => el('div', { className: 'dp-tally' },
+    el('span', { className: `dp-tally__count dp-tally__count--${r.severity}` }, `${r.total} ${SEVERITY_LABEL[r.severity].toLowerCase()}`),
+    r.cleared ? ` (${r.cleared} cleared)` : null));
+  return { lines: lines.length ? lines : null, worstOpen };
 }
 
 // The ecosystem only appears when the release mixes several (npm next to
@@ -242,24 +244,6 @@ export function decisionCell(a, { onJudge = null, freshId = null } = {}) {
   return el('div', { className: 'dp-decision-cell' }, bits);
 }
 
-// An advisory matters until it is fixed or reliably found not to affect the
-// wallet, so "potentially affected" counts every row not settled as either,
-// by severity: a critical one left open weighs more than ten low ones.
-export function exposureLine(model) {
-  if (!model.triage?.total) return null;
-  const open = {};
-  for (const a of model.advisories) {
-    const state = triageStateOf(a);
-    if (state === 'not_affected' || state === 'fixed') continue;
-    const sev = SEVERITY_ORDER.includes(a.severity) ? a.severity : 'unknown';
-    open[sev] = (open[sev] || 0) + 1;
-  }
-  const parts = SEVERITY_ORDER.filter(s => open[s]).map(s => el('span', { className: `dp-exposure__count dp-exposure__count--${s}` }, `${open[s]} ${SEVERITY_LABEL[s].toLowerCase()}`));
-  if (!parts.length) return el('p', { className: 'dp-exposure' }, 'Potentially affected: none. Every advisory is fixed or found not to affect this wallet.');
-  return el('p', { className: 'dp-exposure', title: 'Advisories not yet settled as fixed or not affected, by severity' },
-    el('b', {}, 'Potentially affected: '), parts.flatMap((p, i) => (i ? [' · ', p] : [p])));
-}
-
 // "412 advisories · 0 decided · 412 to look at" above the table: the triage
 // work queue, so a long list is never mistaken for a finished one.
 function triageLine(model) {
@@ -298,7 +282,7 @@ function advisoryTable(model, { onJudge = null, freshId = null, showAll = false 
     )),
     body,
   );
-  const wrap = el('div', { className: 'dp-table-wrap' }, exposureLine(model), triageLine(model), table);
+  const wrap = el('div', { className: 'dp-table-wrap' }, triageLine(model), table);
   if (rest.length) {
     const more = el('button', { type: 'button', className: 'btn-small dp-more' }, `Show all ${model.advisories.length} advisories`);
     more.addEventListener('click', () => {
@@ -412,7 +396,10 @@ function actions(model, { appId, base, fetchImpl }) {
 // above the table saying so, `freshId` the statement to mark, and every row
 // is shown so the judged one stays in sight wherever it re-sorts to.
 export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE, fetchImpl = globalThis.fetch, onJudge = null, flash = null, freshId = null, showAll = false } = {}) {
-  const vulnSub = severityLine(model.bySeverity);
+  const tally = severityTally(model);
+  // The number takes the colour of the worst severity still potentially
+  // affecting the wallet; once every advisory is cleared it turns green.
+  const vulnTone = !model.vulnerabilities ? 'good' : tally.worstOpen ? `sev-${tally.worstOpen}` : 'good';
   return el('div', { className: 'dp-panel' },
     el('div', { className: 'dp-top' },
       headline(model),
@@ -423,7 +410,7 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
     el('div', { className: 'dp-tiles' },
       tile(model.direct, 'direct dependencies'),
       tile(model.transitive, 'transitive dependencies'),
-      tile(model.vulnerabilities, 'known vulnerabilities', { tone: model.vulnerabilities ? 'bad' : 'good', sub: vulnSub, sub2: model.vulnerabilities ? whereLine(model.vulnerabilitiesByScope) : null }),
+      tile(model.vulnerabilities, 'known vulnerabilities', { tone: vulnTone, sub: tally.lines }),
       tile(model.malware, 'known malware', { tone: model.malware ? 'bad' : 'good' }),
     ),
     treeTabs(model, advisoryTable(model, { onJudge, freshId, showAll }), { appId, base, fetchImpl, label: `${wallet} ${model.ref}` }),
