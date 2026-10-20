@@ -14,6 +14,8 @@
 //     for byte with the one in the APK; one no dependency declares is listed.
 // JavaScript bundles are not read yet: their rows stay "can't tell".
 
+import fs from 'node:fs';
+import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { inflateRawSync } from 'node:zlib';
 
@@ -240,6 +242,39 @@ function nativeKey(path) {
   const name = parts.pop();
   const dir = parts.pop() || '';
   return `${JAR_ABI[dir] || dir}/${name}`;
+}
+
+const ARTIFACT_CONCURRENCY = 8;
+
+/**
+ * artifactContents() for every Maven/Gradle dependency in `deps`, as a Map
+ * "name@version" -> contents; the ones no repository has are left out.
+ * `cacheDir` keeps the class lists between runs (optional).
+ */
+export async function artifactsFor(deps, { cacheDir = null, log = () => {}, fetchImpl = fetch } = {}) {
+  if (cacheDir) fs.mkdirSync(cacheDir, { recursive: true });
+  const out = new Map();
+  const queue = deps.filter(d => d.ecosystem === 'gradle' && d.version).map(d => `${d.name}@${d.version}`);
+  const worker = async () => {
+    while (queue.length) {
+      const key = queue.shift();
+      if (out.has(key)) continue;
+      const file = cacheDir && path.join(cacheDir, `${key.replace(/[^A-Za-z0-9._@-]/g, '_')}.json`);
+      if (file && fs.existsSync(file)) {
+        const c = JSON.parse(fs.readFileSync(file, 'utf8'));
+        out.set(key, c && { url: c.url, classes: new Set(c.classes), native: new Map(c.native) });
+        continue;
+      }
+      const [name, version] = [key.slice(0, key.lastIndexOf('@')), key.slice(key.lastIndexOf('@') + 1)];
+      const c = await artifactContents(name, version, { fetchImpl });
+      if (!c) log(`not found in any repository: ${key}`);
+      if (file) fs.writeFileSync(file, JSON.stringify(c && { url: c.url, classes: [...c.classes], native: [...c.native] }));
+      out.set(key, c);
+    }
+  };
+  await Promise.all(Array.from({ length: ARTIFACT_CONCURRENCY }, worker));
+  for (const [k, v] of [...out]) if (!v) out.delete(k);
+  return out;
 }
 
 /**

@@ -12,35 +12,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import minimist from 'minimist';
 import { createHash } from 'node:crypto';
-import { readApk, artifactContents, compare } from './apkContents.mjs';
-
-const CONCURRENCY = 8;
-
-async function artifactsFor(deps, cacheDir, log) {
-  fs.mkdirSync(cacheDir, { recursive: true });
-  const out = new Map();
-  const queue = deps.filter(d => d.ecosystem === 'gradle' && d.version).map(d => `${d.name}@${d.version}`);
-  const worker = async () => {
-    while (queue.length) {
-      const key = queue.shift();
-      if (out.has(key)) continue;
-      const file = path.join(cacheDir, `${key.replace(/[^A-Za-z0-9._@-]/g, '_')}.json`);
-      if (fs.existsSync(file)) {
-        const c = JSON.parse(fs.readFileSync(file, 'utf8'));
-        out.set(key, c && { url: c.url, classes: new Set(c.classes), native: new Map(c.native) });
-        continue;
-      }
-      const [name, version] = [key.slice(0, key.lastIndexOf('@')), key.slice(key.lastIndexOf('@') + 1)];
-      const c = await artifactContents(name, version);
-      if (!c) log(`not found in any repository: ${key}`);
-      fs.writeFileSync(file, JSON.stringify(c && { url: c.url, classes: [...c.classes], native: [...c.native] }));
-      out.set(key, c);
-    }
-  };
-  await Promise.all(Array.from({ length: CONCURRENCY }, worker));
-  for (const [k, v] of [...out]) if (!v) out.delete(k);
-  return out;
-}
+import { readApk, artifactsFor, compare } from './apkContents.mjs';
 
 /**
  * What the wallet page needs: per declared package `ecosystem:name@version`
@@ -73,7 +45,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const apk = readApk(apkBuf);
   const doc = JSON.parse(fs.readFileSync(argv.deps, 'utf8'));
   const deps = doc.dependencies || doc;
-  const artifacts = await artifactsFor(deps, argv.cache || '.cache/apk-contents', console.error);
+  const artifacts = await artifactsFor(deps, { cacheDir: argv.cache || '.cache/apk-contents', log: console.error });
   const own = [].concat(argv.own || []).map(p => (p.endsWith('.') ? p : `${p}.`));
   const result = compare(apk, deps, artifacts, { ownPrefixes: own });
   if (argv.json) fs.writeFileSync(argv.json, JSON.stringify(result, null, 1));
