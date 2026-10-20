@@ -270,6 +270,25 @@ not claim" closes: code no lockfile declares.
    reliable. For Java/Kotlin it is. For minified JavaScript the honest answer
    is sometimes "can't tell", and then the row stays open instead of being
    marked "Not in the app".
+   Status (2026-10-20): the Java/Kotlin and native detectors exist as
+   `external/source_analysis/apk-contents-cli.mjs` (no dependencies beyond
+   Node, so a build script can fetch it by commit and check its hash). It
+   reads the classes every `classes*.dex` defines, the
+   `META-INF/*.version` files, and every `lib/<abi>/*.so`; downloads each
+   declared Maven artifact (Google Maven, Maven Central, JitPack, following
+   Gradle module metadata) and compares class names, versions, and native
+   code by the bytes the library loads (the Android build strips symbols,
+   which changes the file but not the code). Build-generated classes (D8
+   lambdas and desugaring, R, BuildConfig) are not counted as undeclared.
+   First three wallets: BitBanana 1.1.0 (all 35 native libraries identical
+   to the published artifacts; the only undeclared Java code is generated
+   from the app's own `.proto` files), Blockstream Green 5.7.0 (16 of 18
+   native libraries identical; `libgreen_gdk_java.so` is declared nowhere,
+   `gdk/fetch_android_binaries.sh` downloads it), Nunchuk 2.9.1 (the
+   analysed files declare 167 packages but the APK carries Firebase
+   Crashlytics, Matrix, Realm, Stetho and 22 undeclared native libraries,
+   and 11 androidx libraries ship in newer versions than the lockfile
+   rows the advisories were matched against).
 2. **Code search plus a person.** Not a script per advisory: one search tool,
    and a person (or an AI helper) writes a short note with the code lines as
    evidence.
