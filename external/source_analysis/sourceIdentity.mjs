@@ -12,6 +12,11 @@
  *               and workflow that built it
  * A tag that exists says the version was cut from this repository; it does not
  * say the published artifact equals that source. That is the next rung.
+ *
+ * A range (`^1.2.0`, `>=2.0`, `1.+`) names no single release, so there is
+ * nothing to look up: its status is `range`, whatever the repository holds.
+ * That is a finding about the wallet's build (it does not pin), not about the
+ * library.
  */
 import { spawn } from 'child_process';
 
@@ -61,6 +66,20 @@ export function matchTag(tags, name, version) {
   return names.find(t => qualified.test(t)) || names.find(t => bare.test(t)) || null;
 }
 
+/**
+ * True when `version` is a requirement rather than one release: an npm or
+ * cargo range, a PEP 440 specifier, a Gradle dynamic version, a workspace link.
+ */
+export function isRange(ecosystem, version) {
+  const v = String(version).trim();
+  if (!v || /^workspace:/.test(v)) return true;
+  switch (ecosystem) {
+    case 'pip': return !/^(?:===?)?[^<>=!~,*\s]+$/.test(v);
+    case 'gradle': { const g = v.replace(/@\w+$/, ''); return /\+$/.test(g) || /^[[\]()]/.test(g) || /^latest\./.test(g); }
+    default: return /^[\^~<>=*]/.test(v) || /\|\||\s-\s|,/.test(v) || /(?:^|\.)[xX*](?:\.|$)/.test(v) || v === 'latest';
+  }
+}
+
 export async function npmProvenance(name, version, fetchImpl = fetch) {
   const r = await fetchImpl(`https://registry.npmjs.org/${name.replace('/', '%2F')}/${encodeURIComponent(version)}`, { signal: AbortSignal.timeout(20000) });
   if (r.status === 404) return { provenance: false, gitHead: null, published: false };
@@ -75,6 +94,7 @@ export async function npmProvenance(name, version, fetchImpl = fetch) {
  */
 export function identityOf({ ecosystem, name, version }, tags, npm = null) {
   const out = { tag: null, commit: null, provenance: null, status: 'repo-unreachable' };
+  if (isRange(ecosystem, version)) return { ...out, status: 'range' };
   if (npm) { out.provenance = npm.provenance; if (npm.published === false) out.status = 'not-on-registry'; }
   if (!tags) return out;
   const tag = matchTag(tags, name, version);
