@@ -557,7 +557,7 @@ retried after the next analysis.
 | variable | channel |
 |---|---|
 | `ALERT_WEBHOOK_URL` | POST of the alert as JSON (`text` holds the message) |
-| `ALERT_NOSTR_NSEC` + `ALERT_NOSTR_TO` | NIP-17 private message from the analyser's key to each npub (comma-separated) |
+| `ALERT_NOSTR_NSEC` | NIP-17 private message from the analyser's key to Leo, Danny and Luis (`ALERT_RECIPIENTS` in alerts.mjs), or to the npubs in `ALERT_NOSTR_TO` (comma-separated) |
 | `ALERT_NOSTR_RELAYS` | relays for the message (default relay.nostr.info, relay.damus.io, nos.lol) |
 
 `node alerts-cli.mjs` lists open alerts; `--set confirmed|dismissed --app <id>
