@@ -537,6 +537,12 @@ details.dp-decision__others {
   text-decoration: underline;
 }
 
+.dp-published {
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+  white-space: nowrap;
+}
+
 .dp-kev {
   font-size: $font-xxs;
   font-weight: 700;

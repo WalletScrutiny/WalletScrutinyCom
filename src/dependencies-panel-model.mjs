@@ -52,13 +52,15 @@ export function tagMatchesVersion(ref, storeVersion) {
 
 // Public per-CVE signals (scripts/build-advisory-signals.mjs, signals.json):
 // the advisory's EPSS probability and percentile, and whether CISA lists it
-// as exploited. Looked up by id or alias; null when the file has nothing.
+// as exploited, and the date it became public. Looked up by id or alias;
+// null when the file has nothing.
 export function signalsFor(advisory, signals) {
-  if (!signals || !advisory) return { epss: null, epssPercentile: null, exploited: null };
-  const out = { epss: null, epssPercentile: null, exploited: null };
+  if (!signals || !advisory) return { epss: null, epssPercentile: null, exploited: null, published: null };
+  const out = { epss: null, epssPercentile: null, exploited: null, published: null };
   for (const id of [advisory.id, ...(advisory.aliases || [])]) {
     if (out.epss == null && signals.epss?.[id]) [out.epss, out.epssPercentile] = signals.epss[id];
     if (out.exploited == null && signals.kev?.[id]) out.exploited = signals.kev[id];
+    if (out.published == null && signals.published?.[id]) out.published = signals.published[id];
   }
   return out;
 }
