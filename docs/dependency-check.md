@@ -88,14 +88,14 @@ the row outright. Otherwise every direct user needs a statement (`via`, or a
 package-wide one as fallback; when the wallet imports the package itself,
 the wallet is one of the direct users and only an `app` or package-wide
 statement answers for it); all present means settled with the gravest status
-among them, one missing means still open, shown as "1 of 2 direct users
-judged". Rows whose files record no graph need a package-wide or `app`
+among them, one missing means still open, shown as "Not assessed" and "1 of 2 direct users
+assessed". Rows whose files record no graph need a package-wide or `app`
 statement.
 
 Who signed decides the weight, not whether a statement is kept:
 `_data/dependencyTriage.yml` lists the authors whose statements settle rows
 on the site; everyone else's are counted as community statements next to the
-row. The direct user's maintainer and the wallet's developer are the authors
+row, and the count folds out to show them without settling anything. The direct user's maintainer and the wallet's developer are the authors
 whose word should eventually carry: proving a key belongs to a package (a
 nostr pubkey in its manifest or repository, as Zapstore links releases to
 developers) is the open piece.
@@ -110,7 +110,7 @@ Plumbing:
   (author, subject), and publishes the statements that concern a wallet as
   `api/source-analysis/triage/<appId>.json` with the trusted list. The panel
   resolves each row from them.
-- Writing one on the site: "Judge" under a row's decision opens a dialog
+- Writing one on the site: "Add statement" under a row's decision opens a dialog
   (`src/dependencies-triage-form.mjs`) that asks what the statement is about
   (one of the row's direct users, this wallet, or the package itself), the
   status, the OpenVEX justification for "not affected", the versions it

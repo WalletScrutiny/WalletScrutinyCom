@@ -1,4 +1,4 @@
-// The "Judge" dialog of the Dependencies panel: one triage statement
+// The "Add statement" dialog of the Dependencies panel: one triage statement
 // (src/dependency-triage.mjs) written in the page and signed with the
 // visitor's Nostr browser extension (NIP-07), the way opinions are. The
 // statement is published to the project relay and the site's public relays;
@@ -152,7 +152,7 @@ export function openTriageDialog({ advisory, appId, triage = null, trusted = [],
   const sev = SEVERITY_LABEL[advisory.severity] || advisory.severity;
   const form = el('form', { className: 'dp-form', method: 'dialog' },
     el('button', { type: 'button', className: 'dp-dialog__close', 'aria-label': 'Close' }, '×'),
-    el('h3', { className: 'dp-dialog__title' }, 'Judge ', el('a', { href: `https://osv.dev/vulnerability/${encodeURIComponent(advisory.id)}`, target: '_blank', rel: 'noopener noreferrer' }, advisory.id)),
+    el('h3', { className: 'dp-dialog__title' }, 'Statement on ', el('a', { href: `https://osv.dev/vulnerability/${encodeURIComponent(advisory.id)}`, target: '_blank', rel: 'noopener noreferrer' }, advisory.id)),
     el('p', { className: 'dp-form__context' }, `${advisory.package} ${advisory.version || ''}`.trim(), ' · ', String(sev).toLowerCase(), advisory.summary ? ` · ${advisory.summary}` : ''),
     subjectGroup,
     statusGroup,

@@ -86,12 +86,12 @@ describe('dependency triage form', () => {
     await renderDependenciesPanel({ host, appId: 'it.airgap.vault', base: '/x', fetchImpl, nostr });
 
     const judge = host.querySelector('.dp-judge');
-    assert.equal(judge.textContent, 'Judge');
+    assert.equal(judge.textContent, 'Add statement');
     judge.click();
     await settled();
     const dialog = document.querySelector('dialog.dp-dialog');
     assert.ok(dialog, 'the dialog is on the page');
-    assert.equal(dialog.querySelector('.dp-dialog__title').textContent, 'Judge GHSA-67hx-6x53-jw92');
+    assert.equal(dialog.querySelector('.dp-dialog__title').textContent, 'Statement on GHSA-67hx-6x53-jw92');
     assert.deepEqual([...dialog.querySelectorAll('input[name="subject"]')].map(i => i.value), ['via:npm:@babel/core', 'via:npm:@babel/helpers', 'app:it.airgap.vault', 'package']);
     assert.equal(dialog.querySelector('input[name="subject"][value="app:it.airgap.vault"]').hasAttribute('checked'), true);
     assert.match(dialog.querySelector('.dp-form__signer').textContent, /^Signing as npub1.*settle rows on this site\.$/);
@@ -127,12 +127,12 @@ describe('dependency triage form', () => {
     assert.equal(host.querySelector('.dp-decision__fresh').textContent, ' just published');
     assert.equal(host.querySelector('.dp-more'), null, 'every row is shown after a publish');
     const decision = host.querySelector('.dp-td-decision');
-    assert.equal(decision.querySelector('.dp-decision').textContent, '–', 'one of two direct users judged: still open');
-    assert.equal(decision.querySelector('.dp-decision__why').textContent, '1 of 2 direct users judged');
+    assert.equal(decision.querySelector('.dp-decision').textContent, 'Not assessed', 'one of two direct users judged: still open');
+    assert.equal(decision.querySelector('.dp-decision__why').textContent, '1 of 2 direct users assessed');
     const line = decision.querySelectorAll('.dp-decision__why')[1];
     assert.match(line.textContent, /^via @babel\/core: vulnerable code never executed \(not affected, [0-9a-f]{8}…\) just published$/);
     assert.equal(line.querySelector('a').getAttribute('href'), 'https://github.com/babel/babel/pull/16033');
-    assert.equal(host.querySelector('.dp-judge').textContent, 'Judge');
+    assert.equal(host.querySelector('.dp-judge').textContent, 'Add statement');
 
     // judging again on the same subject prefills the earlier statement
     host.querySelector('.dp-judge').click();
@@ -145,6 +145,42 @@ describe('dependency triage form', () => {
     assert.equal(again.querySelector('.dp-form__publish').textContent, 'Update statement');
     again.querySelector('.dp-dialog__close').click();
     assert.equal(document.querySelector('dialog.dp-dialog'), null);
+  });
+
+  test('a community statement published from the page can be read on the row, unfolded', async () => {
+    const app = { schema: 1, appId: 'it.airgap.vault', releases: [{
+      kind: 'release', ref: 'v3.35.0', status: 'ok', lockfiles: ['yarn.lock'],
+      dependencies: { total: 3, direct: 1, byEcosystem: { npm: 3 } },
+      vulnerabilities: { total: 1, bySeverity: { critical: 1 }, packages: 1 },
+      advisories: [traverse],
+    }] };
+    // its own base: the trusted list is cached per base, and '/x' trusts the signer
+    const files = { '/y/apps/it.airgap.vault.json': app, '/y/triage/_trusted.json': { schema: 1, trusted: ['f'.repeat(64)] } };
+    const fetchImpl = async (url) => (files[url] === undefined ? { ok: false, status: 404, json: async () => null } : { ok: true, status: 200, json: async () => files[url] });
+    const host = document.createElement('div');
+    document.body.appendChild(host);
+    await renderDependenciesPanel({ host, appId: 'it.airgap.vault', base: '/y', fetchImpl, nostr: fakeNostr() });
+
+    host.querySelector('.dp-judge').click();
+    await settled();
+    const dialog = document.querySelector('dialog.dp-dialog');
+    dialog.querySelector('input[name="subject"][value="app:it.airgap.vault"]').removeAttribute('checked');
+    const pkg = dialog.querySelector('input[name="subject"][value="package"]');
+    pkg.checked = true;
+    pkg.dispatchEvent(new window.Event('change', { bubbles: true }));
+    dialog.querySelector('input[name="status"][value="under_investigation"]').checked = true;
+    dialog.querySelector('textarea[name="content"]').value = 'Testing the button';
+    dialog.querySelector('form').dispatchEvent(new window.Event('submit', { bubbles: true, cancelable: true }));
+    await settled(8);
+
+    const decision = host.querySelector('tr.dp-row--fresh .dp-td-decision');
+    assert.ok(decision, 'the row is marked even though the statement settles nothing');
+    assert.equal(decision.querySelector('.dp-decision').textContent, 'Not assessed');
+    const folded = decision.querySelector('details.dp-decision__community');
+    assert.equal(folded.querySelector('summary').textContent, '1 community statement');
+    assert.equal(folded.hasAttribute('open'), true, 'the statement just published is shown without a click');
+    assert.match(folded.querySelector('.dp-decision__why').textContent, /^the package: Testing the button \(investigating, [0-9a-f]{8}…\) just published$/);
+    host.remove();
   });
 
   test('without an extension the dialog says so and cannot publish; a rejected publish stays open with the reason', async () => {
