@@ -16,6 +16,7 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 const script = path.resolve(here, '../../scripts/rb/ws-depcheck.sh');
 const fakeScanner = path.join(here, 'fixtures/rb-depcheck/fake-scanner.sh');
 const fakeIdentity = path.join(here, 'fixtures/rb-depcheck/fake-identity.sh');
+const fakeApk = path.join(here, 'fixtures/rb-depcheck/fake-apk.sh');
 
 function makeCheckout(root) {
   const files = {
@@ -70,7 +71,8 @@ describe('ws-depcheck', () => {
     assert.equal(data.verdict, 'reproducible');
     const d = data.dependencies;
     assert.equal(d.status, 'ok');
-    assert.equal(d.step, 'ws-depcheck 0.2.0');
+    assert.equal(d.step, 'ws-depcheck 0.3.0');
+    assert.deepEqual(d.apk, { status: 'skipped', note: 'no --apk given' });
     assert.equal(d.scanner, fakeScanner);
     assert.equal(d.packages, 4);
     assert.deepEqual(d.advisories, { malicious: 1, critical: 1, high: 0, moderate: 1, low: 0, unknown: 0 });
@@ -111,10 +113,23 @@ describe('ws-depcheck', () => {
     assert.equal(yaml.load(fs.readFileSync(path.join(off, 'dependency-check.yaml'), 'utf8')).dependencies.identity.status, 'skipped');
   });
 
+  test('--apk compares the declared packages with the APK and reports it in the block', () => {
+    const withApk = path.join(tmp, 'out-apk');
+    const apkFile = path.join(tmp, 'app-release.apk');
+    fs.writeFileSync(apkFile, 'PK');
+    const r = run(['--src', src, '--out', withApk, '--apk', apkFile], { WS_DEPCHECK_APK_CMD: fakeApk });
+    assert.equal(r.status, 0, r.stderr + r.stdout);
+    assert.match(r.stdout, /2 of 3 declared Maven packages in app-release\.apk/);
+    assert.match(r.stdout, /native library no package declares: lib\/arm64-v8a\/libmystery\.so/);
+    const a = yaml.load(fs.readFileSync(path.join(withApk, 'dependency-check.yaml'), 'utf8')).dependencies.apk;
+    assert.deepEqual(a, { status: 'ok', file: 'app-release.apk', declared: 3, present: 2, absent: 1, cant_tell: 0, native: 2, native_identical: 1, undeclared_classes: 12, obfuscated_share: 0.01, native_differs: [], native_undeclared: ['lib/arm64-v8a/libmystery.so'], report: 'apk-contents.json' });
+    assert.equal(run(['--src', src, '--out', withApk, '--apk', path.join(tmp, 'missing.apk')]).status, 2, 'a missing APK is a usage error');
+  });
+
   test('the identity files the script fetches by commit have the hashes it checks', () => {
     const text = fs.readFileSync(script, 'utf8');
     const entries = [...text.matchAll(/^  "([\w.-]+\.mjs) ([0-9a-f]{64})"$/gm)];
-    assert.equal(entries.length, 3);
+    assert.equal(entries.length, 5);
     for (const [, file, sum] of entries) {
       const actual = crypto.createHash('sha256').update(fs.readFileSync(path.resolve(here, '../../external/source_analysis', file))).digest('hex');
       assert.equal(sum, actual, `${file}: update IDENTITY_FILES in ws-depcheck.sh`);

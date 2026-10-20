@@ -11,17 +11,24 @@
 #      (external/source_analysis/identity-scan-cli.mjs, run with the host's
 #      Node, fetched at WS_DEPCHECK_REV and hash-checked when not run from a
 #      checkout of this repository),
-#   4. prints a summary into the build recording and appends a `dependencies:`
+#   4. with --apk, compares the Maven packages the scanner found with the APK
+#      (external/source_analysis/apk-scan-cli.mjs, fetched and hash-checked
+#      like the identity check): which are in it, whether each native library
+#      is the same code as the published package's, and what in the APK no
+#      package declares,
+#   5. prints a summary into the build recording and appends a `dependencies:`
 #      block to COMPARISON_RESULTS.yaml when asked to.
 #
 # It never changes the build verdict: whatever happens here, the step exits 0
 # unless it was invoked wrongly. A failed scan is recorded as `status:
 # scanner-failed` so a missing block and a failed check stay distinguishable.
 #
-# Usage: ws-depcheck.sh --src <checkout> --out <dir> [--yaml <COMPARISON_RESULTS.yaml>]
+# Usage: ws-depcheck.sh --src <checkout> --out <dir> [--yaml <COMPARISON_RESULTS.yaml>] [--apk <app.apk>]
 #   --src   the checkout to inspect (the build script's clone, at the release ref)
 #   --out   where the scanner's JSON and the YAML fragment are written
 #   --yaml  COMPARISON_RESULTS.yaml to append the `dependencies:` block to (optional)
+#   --apk   the APK to compare the declared packages with (optional; the official
+#           one, or the one the build produced)
 # Environment:
 #   WS_DEPCHECK_CTR      container CLI: docker or podman (default: docker if present, else podman)
 #   WS_DEPCHECK_IMAGE    scanner image, pinned by digest (default below)
@@ -34,30 +41,37 @@
 #   WS_DEPCHECK_IDENTITY_TIMEOUT  seconds the identity check may take (default 900)
 #   WS_DEPCHECK_IDENTITY_CMD  command run instead of the identity check, for tests: gets
 #                        the scanner JSON and the identity JSON to write as arguments
+#   WS_DEPCHECK_APK_TIMEOUT  seconds the APK check may take (default 900)
+#   WS_DEPCHECK_APK_CMD  command run instead of the APK check, for tests: gets the scanner
+#                        JSON, the APK and the result JSON to write as arguments
 #
 # Build scripts are capped at 48 KB, so they do not embed this file; they fetch
 # it by commit and check its hash (see scripts/rb/README.md).
 set -u
 
-export WS_DEPCHECK_VERSION="0.2.0"
-# sha256 of the identity check's files at the commit this script is fetched at;
+export WS_DEPCHECK_VERSION="0.3.0"
+# sha256 of the identity and APK checks' files at the commit this script is fetched at;
 # test/unit/rb-depcheck.test.mjs fails when they drift from the files.
 IDENTITY_FILES=(
   "identity-scan-cli.mjs 4a54ce5efa6416f31bf5f249fe7983e2bb554ddd1da35fc8d6d3eb40078b6fa8"
   "sourceIdentity.mjs fa2c7551daca79c25ccab5d11423f2f419a4ea2b9d8b244efbaab267eb8e5a76"
   "sourceRepos.mjs 6de1b3ecb772a524e7ae6b7daf916b632b85eb5fde1837c50c8ab7601b6a039d"
+  "apkContents.mjs a07f7e959c0aa76bd96cf5e1a5dd139c5ab8dbf482c526f84484375bd3ff9d9d"
+  "apk-scan-cli.mjs b642fbdf1cd4807fc0176d02f60ae155c0216d9d20ca14588455c161be65e9f8"
 )
 # ghcr.io/google/osv-scanner:v2.7.0 (2026-10-12), manifest list digest from the registry.
 WS_DEPCHECK_IMAGE="${WS_DEPCHECK_IMAGE:-ghcr.io/google/osv-scanner@sha256:4f3b7e2c64b9d38a5febc5a7e4a3dfef1d1362f726dea7a2ef4762b46469fcd0}"
 WS_DEPCHECK_TIMEOUT="${WS_DEPCHECK_TIMEOUT:-600}"
 WS_DEPCHECK_IDENTITY_TIMEOUT="${WS_DEPCHECK_IDENTITY_TIMEOUT:-900}"
+WS_DEPCHECK_APK_TIMEOUT="${WS_DEPCHECK_APK_TIMEOUT:-900}"
 
-src=""; out=""; yaml=""
+src=""; out=""; yaml=""; apk=""
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --src) src="${2:-}"; shift 2 ;;
     --out) out="${2:-}"; shift 2 ;;
     --yaml) yaml="${2:-}"; shift 2 ;;
+    --apk) apk="${2:-}"; shift 2 ;;
     -h|--help) sed -n '2,30p' "$0"; exit 0 ;;
     *) echo "ws-depcheck: unknown argument $1" >&2; exit 2 ;;
   esac
@@ -66,6 +80,8 @@ done
 [[ -n "$out" ]] || { echo "ws-depcheck: --out is required" >&2; exit 2; }
 mkdir -p "$out" || exit 2
 src="$(cd "$src" && pwd -P)"; out="$(cd "$out" && pwd -P)"
+[[ -z "$apk" || -f "$apk" ]] || { echo "ws-depcheck: --apk must be an existing file" >&2; exit 2; }
+[[ -n "$apk" ]] && apk="$(cd "$(dirname "$apk")" && pwd -P)/$(basename "$apk")"
 
 echo
 echo "== Dependency check (ws-depcheck ${WS_DEPCHECK_VERSION}) =="
@@ -152,6 +168,7 @@ identity_lib() { # prints the directory holding the identity check's files, or f
   here="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)"
   lib="${here}/../../external/source_analysis"
   [[ -f "${lib}/identity-scan-cli.mjs" ]] && { (cd "$lib" && pwd -P); return 0; }
+  [[ -f "${out}/identity-lib/.complete" ]] && { echo "${out}/identity-lib"; return 0; } # fetched for the identity step already
   [[ -n "${WS_DEPCHECK_REV:-}" ]] || { echo "no WS_DEPCHECK_REV to fetch it at" >&2; return 1; }
   lib="${out}/identity-lib"; mkdir -p "$lib"
   for entry in "${IDENTITY_FILES[@]}"; do
@@ -160,6 +177,7 @@ identity_lib() { # prints the directory holding the identity check's files, or f
       || { echo "could not fetch ${f} at ${WS_DEPCHECK_REV}" >&2; return 1; }
     echo "${sum}  ${lib}/${f}" | sha256sum -c --quiet - >/dev/null 2>&1 || { echo "${f} at ${WS_DEPCHECK_REV} does not have the expected hash" >&2; return 1; }
   done
+  : > "${lib}/.complete"
   echo "$lib"
 }
 if [[ "${WS_DEPCHECK_IDENTITY:-1}" == 0 ]]; then
@@ -184,15 +202,41 @@ else
 fi
 [[ "$identity_status" == ok && ! -s "$identity_json" ]] && { identity_status=failed; identity_note='no result written'; }
 
-# 4. Summary: table into the recording, YAML fragment next to the JSON.
+# 4. The APK. Downloads the declared Maven artifacts and reads the APK's
+#    dex, META-INF version files and native libraries; nothing runs.
+apk_json="${out}/apk-contents.json"; apk_log="${out}/apk-contents.log"; rm -f "$apk_json"; apk_note=''
+if [[ -z "$apk" ]]; then
+  apk_status='skipped'; apk_note='no --apk given'
+elif [[ ! -s "$scan_json" || "$status" != ok ]]; then
+  apk_status='skipped'; apk_note='no package list from the scan'
+elif [[ -n "${WS_DEPCHECK_APK_CMD:-}" ]]; then
+  timeout "$WS_DEPCHECK_APK_TIMEOUT" $WS_DEPCHECK_APK_CMD "$scan_json" "$apk" "$apk_json" > /dev/null 2> "$apk_log" \
+    && apk_status=ok || { apk_status=failed; apk_note="exit $?"; }
+elif ! node -e 'process.exit(+process.versions.node.split(".")[0] < 18 ? 1 : 0)' 2>/dev/null; then
+  apk_status='skipped'; apk_note='no Node 18+ on PATH'
+elif ! lib="$(identity_lib 2> "$apk_log")"; then
+  apk_status='skipped'; apk_note="$(tail -1 "$apk_log")"
+else
+  echo "  apk: comparing the declared Maven packages with $(basename "$apk") (up to ${WS_DEPCHECK_APK_TIMEOUT}s)"
+  timeout "$WS_DEPCHECK_APK_TIMEOUT" node "${lib}/apk-scan-cli.mjs" "$scan_json" "$apk" "$apk_json" > /dev/null 2> "$apk_log"; rc=$?
+  case "$rc" in
+    0) apk_status=ok ;;
+    124) apk_status=failed; apk_note="timed out after ${WS_DEPCHECK_APK_TIMEOUT}s" ;;
+    *) apk_status=failed; apk_note="exit ${rc}, see ${apk_log}" ;;
+  esac
+fi
+[[ "$apk_status" == ok && ! -s "$apk_json" ]] && { apk_status=failed; apk_note='no result written'; }
+
+# 5. Summary: table into the recording, YAML fragment next to the JSON.
 if ! command -v python3 >/dev/null 2>&1; then
   echo "ws-depcheck: python3 missing, raw scanner JSON kept at ${scan_json}, no summary"
   exit 0
 fi
 WS_DEPCHECK_STATUS="$status" WS_DEPCHECK_SCANNER_ID="$scanner" WS_DEPCHECK_IDENTITY_STATUS="$identity_status" WS_DEPCHECK_IDENTITY_NOTE="${identity_note:-}" \
-  python3 - "$scan_json" "$out" "$src" "$identity_json" <<'PY'
+WS_DEPCHECK_APK_STATUS="$apk_status" WS_DEPCHECK_APK_NOTE="${apk_note:-}" WS_DEPCHECK_APK_NAME="$(basename "${apk:-}")" \
+  python3 - "$scan_json" "$out" "$src" "$identity_json" "$apk_json" <<'PY'
 import json, os, sys
-scan_json, out, src, identity_json = sys.argv[1:5]
+scan_json, out, src, identity_json, apk_json = sys.argv[1:6]
 status = os.environ['WS_DEPCHECK_STATUS']
 scanner = os.environ['WS_DEPCHECK_SCANNER_ID']
 lockfiles = [l for l in open(os.path.join(out, 'lockfiles.txt')).read().split('\n') if l]
@@ -298,12 +342,43 @@ if 'counts' in identity:
         lines.append('    unverified:')
         for p in unverified[:10]: lines.append(f'      - {{package: {q(p["name"] + "@" + p["version"])}, ecosystem: {q(p["ecosystem"])}, status: {p["status"]}}}')
     lines.append(f'    report: {q(os.path.basename(identity_json))}')
+# The APK: declared packages found in it, native libraries that are the same
+# code as the published package's, and what in it no package declares.
+apk = {'status': os.environ['WS_DEPCHECK_APK_STATUS']}
+if os.environ.get('WS_DEPCHECK_APK_NOTE'): apk['note'] = os.environ['WS_DEPCHECK_APK_NOTE']
+if apk['status'] == 'ok':
+    try:
+        adata = json.load(open(apk_json))
+        s = adata.get('summary', {})
+        apk.update({'file': os.environ.get('WS_DEPCHECK_APK_NAME', ''), 'declared': s.get('declared', 0), 'present': s.get('present', 0) + s.get('otherVersionShipped', 0),
+                    'absent': s.get('absent', 0), 'cant_tell': s.get('cantTell', 0), 'native': s.get('native', 0), 'native_identical': s.get('nativeIdentical', 0),
+                    'native_differs': [n['path'] for n in adata.get('nativeFiles', []) if n.get('verdict') == 'differs'],
+                    'native_undeclared': [n['path'] for n in adata.get('nativeFiles', []) if n.get('verdict') == 'undeclared'],
+                    'undeclared_classes': s.get('undeclaredClasses', 0), 'obfuscated_share': s.get('obfuscatedShare', 0)})
+    except (ValueError, OSError):
+        apk = {'status': 'failed', 'note': 'unreadable apk-contents.json'}
+print(f"  apk: {apk['status']}" + (f" ({apk['note']})" if apk.get('note') else ''))
+if 'declared' in apk:
+    print(f"    {apk['present']} of {apk['declared']} declared Maven packages in {apk['file']}, {apk['cant_tell']} can't tell; "
+          f"native libraries {apk['native_identical']} of {apk['native']} same code as published; {apk['undeclared_classes']} classes from no declared package")
+    for p in apk['native_differs']: print(f"    native code differs from every declared provider: {p}")
+    for p in apk['native_undeclared'][:10]: print(f"    native library no package declares: {p}")
+lines.append('  apk:')
+lines.append(f'    status: {apk["status"]}')
+if apk.get('note'): lines.append(f'    note: {q(apk["note"])}')
+if 'declared' in apk:
+    for k in ('file', 'declared', 'present', 'absent', 'cant_tell', 'native', 'native_identical', 'undeclared_classes', 'obfuscated_share'):
+        lines.append(f'    {k}: {q(apk[k]) if k == "file" else apk[k]}')
+    lines.append('    native_differs: [' + ', '.join(q(p) for p in apk['native_differs']) + ']')
+    lines.append('    native_undeclared: [' + ', '.join(q(p) for p in apk['native_undeclared']) + ']')
+    lines.append(f'    report: {q(os.path.basename(apk_json))}')
 lines.append(f'  report: {q(os.path.basename(scan_json))}')
 open(os.path.join(out, 'dependency-check.yaml'), 'w').write('\n'.join(lines) + '\n')
 json.dump({'step': 'ws-depcheck', 'scanner': scanner, 'status': status, 'packages': packages, 'advisories': totals,
            'lockfiles': [{'path': p, **per_lock[p]} if p in per_lock else {'path': p, 'scanned': False} for p in list(lockfiles) + [p for p in per_lock if p not in lockfiles]],
            'unlocked_manifests': unlocked,
            'identity': {**identity, 'unverified': [{k: p.get(k) for k in ('name', 'version', 'ecosystem', 'status', 'repo')} for p in unverified]},
+           'apk': apk,
            'worst': [{'id': w[2], 'severity': w[0], 'score': w[1], 'package': f'{w[3]}@{w[4]}', 'ecosystem': w[5], 'lockfile': w[6]} for w in worst[:10]]},
           open(os.path.join(out, 'dependency-check.json'), 'w'), indent=1)
 PY
