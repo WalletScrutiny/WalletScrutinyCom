@@ -117,7 +117,7 @@ describe('dependencies panel', () => {
       packages: { 'npm:pkg@1.0.0': 'absent' }, nativeFiles: [{ path: 'lib/arm64-v8a/libmystery.so', verdict: 'undeclared', providers: [] }], undeclared: [{ package: 'com.vendored', classes: 7 }] };
     const { fetchImpl, calls } = fakeFetch({ '/x/apps/app.ios.json': { schema: 1, appId: 'app.android', alias: true }, '/x/apps/app.android.json': app, '/x/triage/app.android.json': triage, '/x/upstream/app.android.json': upstream, '/x/apk/app.android.json': apk });
     const host = document.createElement('div');
-    const model = await renderDependenciesPanel({ host, appId: 'app.ios', base: '/x', fetchImpl, profiles: async () => new Map([[me, { name: 'Alice' }]]) });
+    const model = await renderDependenciesPanel({ host, appId: 'app.ios', base: '/x', fetchImpl, profiles: async () => new Map([[me, { name: 'Alice', picture: 'https://example.org/alice.png' }]]) });
     await new Promise(r => setTimeout(r, 0)); // signer names arrive after the paint
     assert.deepEqual(calls.slice(2), ['/x/triage/app.ios.json', '/x/triage/app.android.json', '/x/signals.json', '/x/upstream/app.android.json', '/x/apk/app.android.json'], 'the page\'s id first, then the analysis id, then the signals, the harvested ignore files and the APK check');
     assert.deepEqual(model.triage, { total: 13, decided: 2, undecided: 11, affected: 1, not_affected: 1, fixed: 0, under_investigation: 0, partial: 1, others: 2 });
@@ -136,6 +136,9 @@ describe('dependencies panel', () => {
     assert.match(host.querySelector('.dp-notices').textContent, /Checked against the released APK app-1\.4\.0\.apk \(sha256 abababababab…\): 2 of the 3 declared Maven\/Gradle packages are in it; 1 of 2 native libraries are the same code as the published packages; no dependency declares libmystery\.so; 7 classes come from no declared package \(com\.vendored\)/);
     const signer = first.querySelector('a.dp-signer');
     assert.equal(signer.getAttribute('href'), `https://njump.me/${nip19.npubEncode(me)}`, 'the signer links to their profile');
+    assert.equal(signer.getAttribute('title'), "Alice's profile");
+    assert.equal(signer.querySelector('img').getAttribute('src'), 'https://example.org/alice.png', 'with their picture');
+    assert.equal(host.querySelector(`a.dp-signer[data-pubkey="${'b'.repeat(64)}"] img`).getAttribute('src'), '/images/profile-placeholder.svg', 'no profile: the placeholder');
     assert.equal(host.querySelector('.dp-trusted').textContent, 'Statements settle rows on this site when signed by Alice. Anyone else\'s are shown under "What others say".');
     const elsewhere = first.querySelector('details.dp-decision__others');
     assert.equal(elsewhere.querySelector('summary').textContent, 'What others say (1)', 'another wallet\'s call on the same direct user is shown, not applied');

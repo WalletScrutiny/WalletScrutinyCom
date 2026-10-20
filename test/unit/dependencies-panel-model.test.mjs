@@ -125,4 +125,9 @@ describe('dependencies panel model', () => {
     assert.deepEqual(upstreamFor(row, upstream).map(h => h.url), [url(1)]);
     assert.deepEqual(upstreamFor(row, null), []);
   });
+
+  test('a row from another product\'s lockfile reads as that product under "Where?"', () => {
+    assert.equal(whereLabel({ part: 'desktop', scope: 'build', dev: true }), 'desktop app');
+    assert.equal(whereLabel({ scope: 'build' }), 'build');
+  });
 });

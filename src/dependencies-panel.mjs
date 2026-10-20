@@ -227,8 +227,11 @@ function needLabel(need) {
   return 'the package';
 }
 
-// A signer as a link to their Nostr profile on njump.me, shown as a short
-// npub until nameSigners() puts their profile name in.
+const AVATAR_PLACEHOLDER = '/images/profile-placeholder.svg';
+
+// A signer as a link to their Nostr profile on njump.me: picture and name
+// once nameSigners() has their profile, a placeholder and a short npub until
+// then (and for a signer without one).
 export function signerLink(pubkey) {
   let npub = null;
   try {
@@ -236,7 +239,9 @@ export function signerLink(pubkey) {
   } catch {
     return el('span', { className: 'dp-signer' }, `${String(pubkey).slice(0, 8)}…`);
   }
-  return el('a', { className: 'dp-signer', href: `https://njump.me/${npub}`, target: '_blank', rel: 'noopener noreferrer', title: npub, 'data-pubkey': pubkey }, `${npub.slice(0, 10)}…${npub.slice(-4)}`);
+  return el('a', { className: 'dp-signer', href: `https://njump.me/${npub}`, target: '_blank', rel: 'noopener noreferrer', title: 'Nostr profile', 'data-pubkey': pubkey },
+    el('img', { className: 'dp-signer__pic', src: AVATAR_PLACEHOLDER, alt: '', width: 16, height: 16, loading: 'lazy' }),
+    el('span', { className: 'dp-signer__name' }, `${npub.slice(0, 10)}…${npub.slice(-4)}`));
 }
 
 // Profile names for every signer link under `root`, from kind-0 events
@@ -255,7 +260,16 @@ export async function nameSigners(root, getProfiles = defaultProfiles) {
   for (const a of links) {
     const p = profiles?.get(a.dataset.pubkey);
     const name = p && String(p.name || p.displayName || p.display_name || '').trim();
-    if (name) a.textContent = name;
+    const picture = p && String(p.image || p.picture || '').trim();
+    if (name) {
+      a.querySelector('.dp-signer__name').textContent = name;
+      a.title = `${name}'s profile`;
+    }
+    const img = a.querySelector('.dp-signer__pic');
+    if (picture && /^https:\/\//.test(picture) && img) {
+      img.addEventListener('error', () => { img.src = AVATAR_PLACEHOLDER; }, { once: true });
+      img.src = picture;
+    }
   }
 }
 
@@ -358,6 +372,17 @@ export function decisionCell(a, { onJudge = null, freshId = null } = {}) {
     bits.push(judge);
   }
   return el('div', { className: 'dp-decision-cell' }, bits);
+}
+
+// "113 only in the desktop app": advisories from lockfiles of other products
+// built from the same repository (WHERE_LABELS), counted but not in this app.
+function otherProductsLine(model) {
+  const byPart = {};
+  for (const a of model.advisories || []) if (a.part) byPart[a.part] = (byPart[a.part] || 0) + 1;
+  const parts = Object.entries(byPart);
+  if (!parts.length) return null;
+  return el('div', { className: 'dp-tally dp-tally--elsewhere', title: 'From lockfiles of other products in the same repository; not in this app' },
+    parts.map(([p, n]) => `${n} only in the ${whereLabel({ part: p })}`).join(' · '));
 }
 
 // "3 decided · 3 under investigation · 409 still to look at" in the
@@ -533,7 +558,7 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
     flash ? el('p', { className: 'dp-flash', role: 'status' }, flash) : null,
     el('div', { className: 'dp-tiles' },
       tile(model.packages, 'dependencies', { sub: `${model.direct} direct · ${model.transitive} transitive` }),
-      tile(model.vulnerabilities, 'known vulnerabilities', { tone: vulnTone, sub: [tally.lines, triageLine(model)] }),
+      tile(model.vulnerabilities, 'known vulnerabilities', { tone: vulnTone, sub: [tally.lines, otherProductsLine(model), triageLine(model)] }),
       tile(model.malware, 'known malware', { tone: model.malware ? 'bad' : 'good' }),
     ),
     treeTabs(model, advisoryTable(model, { onJudge, freshId, showAll }), { appId, base, fetchImpl, label: `${wallet} ${model.ref}` }),

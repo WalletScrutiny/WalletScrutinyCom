@@ -46,6 +46,32 @@ function scopeOfRow(row) {
   return 'unknown';
 }
 
+// A lockfile that belongs to another product built from the same repository:
+// the desktop app (electron/, desktop/), a server, a website, a browser
+// extension, the docs. Its packages are not in the mobile app the wallet page
+// is about, whatever the lockfile says about dev and prod (AirGap's ejs came
+// from electron/package-lock.json). null for the main product.
+const PRODUCT_PARTS = [
+  ['desktop', /^(electron|desktop|electron-app|app-electron)$/i],
+  ['server', /^(server|backend|api|services?)$/i],
+  ['web', /^(web|website|webapp|site|landing)$/i],
+  ['extension', /^(extension|browser-extension|chrome-extension|webextension)$/i],
+  ['docs', /^(docs?|documentation)$/i],
+];
+export function productPartOf(lockfile) {
+  for (const dir of String(lockfile || '').split('/').slice(0, -1)) {
+    const hit = PRODUCT_PARTS.find(([, re]) => re.test(dir));
+    if (hit) return hit[0];
+  }
+  return null;
+}
+
+// The other product a row belongs to when every lockfile it comes from is that product's.
+function partOfLockfiles(lockfiles) {
+  const parts = [...new Set(lockfiles.map(productPartOf))];
+  return parts.length === 1 && parts[0] ? parts[0] : null;
+}
+
 // Summary of one release's stored rows: counts only, what the index and the
 // wallet page list show before anything is expanded.
 export function summarizeRelease(db, appId, ref) {
@@ -109,11 +135,17 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
   for (let i = 0; i < releases.length; i++) {
     const r = releases[i];
     const previous = releases[i + 1];
+    const lockfilesOf = new Map();
+    for (const d of getDependencies(db, appId, r.ref)) {
+      const key = `${d.ecosystem}:${d.name}@${d.dep_version}`;
+      lockfilesOf.set(key, [...(lockfilesOf.get(key) || []), d.lockfile]);
+    }
     r.advisories = getVulnerabilities(db, appId, r.ref).map(v => ({
       id: v.vuln_id, severity: v.severity, aliases: v.aliases ? v.aliases.split(' ') : [], fixed: v.fixed ? v.fixed.split(' ') : [],
       summary: v.summary, ecosystem: v.ecosystem, package: v.name, version: v.dep_version,
       direct: v.direct === null ? null : v.direct === 1, dev: v.dev === null ? null : v.dev === 1,
       scope: scopeOfRow(v) === 'unknown' ? null : scopeOfRow(v),
+      part: partOfLockfiles(lockfilesOf.get(`${v.ecosystem}:${v.name}@${v.dep_version}`) || []) || undefined,
       dependants: dependantsOfRow(v.dependants),
       repo: sources.get(`${v.ecosystem}:${v.name}`)?.repo_url || undefined,
       products: counts.byName.get(`${v.ecosystem}:${v.name}`) || 1,
@@ -243,6 +275,7 @@ export function exportAll(db, outDir, { generatedAt = new Date().toISOString(), 
           ecosystem: d.ecosystem, name: d.name, version: d.dep_version, lockfile: d.lockfile, tier: d.tier,
           direct: d.direct === null ? null : d.direct === 1, dev: d.dev === null ? null : d.dev === 1,
           scope: scopeOfRow(d) === 'unknown' ? null : scopeOfRow(d),
+          part: productPartOf(d.lockfile) || undefined,
           dependants: dependantsOfRow(d.dependants),
           repo: sources.get(`${d.ecosystem}:${d.name}`)?.repo_url || undefined,
           resolved: d.resolved || undefined, integrity: d.integrity || undefined,
