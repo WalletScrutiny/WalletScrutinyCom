@@ -146,7 +146,7 @@ describe('dependencies panel', () => {
   });
 
   test('signals paint "exploited in the wild" and EPSS under the severity and reorder within a severity', async () => {
-    const signals = { schema: 1, date: '2026-10-16', epss: { 'CVE-A': [0.0052, 0.43], 'CVE-B': [0.3, 0.99] }, kev: { 'CVE-B': { added: '2024-01-01' } } };
+    const signals = { schema: 1, date: '2026-10-16', epss: { 'CVE-A': [0.0052, 0.43], 'CVE-B': [0.3, 0.99] }, kev: { 'CVE-B': { added: '2024-01-01' } }, published: { 'GHSA-test': '2022-04-25' } };
     const app = { ...APP, releases: [{ ...APP.releases[0], advisories: APP.releases[0].advisories.map(a => (
       a.id === 'GHSA-high' ? { ...a, aliases: ['CVE-A'] } : a.id === 'GHSA-test' ? { ...a, aliases: ['CVE-B'] } : a)) }] };
     const { fetchImpl } = fakeFetch({ '/x/apps/app.android.json': app, '/x/signals.json': signals });
@@ -156,6 +156,8 @@ describe('dependencies panel', () => {
     const rows = [...host.querySelectorAll('tbody tr')];
     assert.deepEqual(rows.slice(0, 3).map(r => r.querySelector('td a').textContent), ['GHSA-crit', 'GHSA-test', 'GHSA-high'], 'the exploited high row before the other high row');
     assert.equal(rows[1].querySelector('.dp-kev').textContent, 'exploited in the wild');
+    assert.equal(rows[1].querySelector('.dp-published').textContent, 'public since 2022-04-25');
+    assert.equal(rows[2].querySelector('.dp-published'), null, 'no date known, none shown');
     assert.equal(rows[1].querySelector('.dp-epss').textContent, 'EPSS 30 %');
     assert.equal(rows[2].querySelector('.dp-epss').textContent, 'EPSS 0.5 %');
     assert.equal(rows[0].querySelector('.dp-epss'), null);

@@ -102,6 +102,7 @@ export function severityCell(a) {
   const bits = [severityPill(a.severity)];
   if (a.exploited) bits.push(el('span', { className: 'dp-kev', title: `On CISA's Known Exploited Vulnerabilities list${a.exploited.added ? ` since ${a.exploited.added}` : ''}` }, 'exploited in the wild'));
   if (a.epss != null) bits.push(epssTrigger(a.epss, a.epssPercentile));
+  if (a.published) bits.push(el('span', { className: 'dp-published', title: 'When the advisory became public (OSV.dev, or NVD when that was earlier)' }, `public since ${a.published}`));
   return el('div', { className: 'dp-sev-cell' }, bits);
 }
 
@@ -380,7 +381,7 @@ function howToRead(model) {
     parts.push('"Add statement" on a row writes one: signed with your Nostr browser extension, published to the relays, shown here at once and on every wallet page after the next site build. Anyone can publish; whose statements settle rows is a list the site keeps, the others are shown. ');
   }
   if (model.signals) {
-    parts.push('Under the severity, "exploited in the wild" means CISA lists the advisory as exploited somewhere, and EPSS is the published probability that it gets exploited anywhere within 30 days; both are about the advisory, not this wallet. ');
+    parts.push('Under the severity, "exploited in the wild" means CISA lists the advisory as exploited somewhere, EPSS is the published probability that it gets exploited anywhere within 30 days, and "public since" is when the advisory was published; all three are about the advisory, not this wallet. ');
   }
   parts.push('We do not rank wallets by this number. ');
   if (model.byScope) {
