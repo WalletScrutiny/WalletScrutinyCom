@@ -4,7 +4,7 @@ import { mkdtempSync, mkdirSync, writeFileSync, readFileSync, existsSync, rmSync
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
-import { collectCves, fetchEpss, buildSignals, EPSS_URL, KEV_URL } from '../../scripts/build-advisory-signals.mjs';
+import { collectCves, fetchEpss, buildSignals, publishedOf, EPSS_URL, KEV_URL, OSV_VULN_URL } from '../../scripts/build-advisory-signals.mjs';
 import { signalsFor, applySignals, sortAdvisories, epssLabel, csvOf } from '../../src/dependencies-panel-model.mjs';
 
 function exportWith(tmp) {
@@ -59,24 +59,37 @@ describe('advisory signals', () => {
     try {
       const exportDir = exportWith(tmp);
       const quiet = { warn: () => {}, log: () => {} };
-      let r = await buildSignals({ exportDir, now: new Date('2026-10-16T12:00:00Z'), log: quiet, fetchImpl: fakeFetch({
+      const publishedCache = join(tmp, 'published.json');
+      const osvCalls = [];
+      const osv = (url) => {
+        const id = decodeURIComponent(url.slice(OSV_VULN_URL.length));
+        osvCalls.push(id);
+        return id === 'GHSA-1' ? { published: '2023-10-16T00:00:40Z', database_specific: { nvd_published_at: '2023-10-12T17:15:00Z' } } : { published: '2023-09-12T15:15:00Z' };
+      };
+      let r = await buildSignals({ exportDir, publishedCache, now: new Date('2026-10-16T12:00:00Z'), log: quiet, fetchImpl: fakeFetch({
         [EPSS_URL]: { data: [{ cve: 'CVE-2023-45133', epss: '0.00525', percentile: '0.4322' }] },
         [KEV_URL]: { catalogVersion: '2026.10.16', count: 2, vulnerabilities: [{ cveID: 'CVE-2023-4863', dateAdded: '2023-09-13' }, { cveID: 'CVE-1999-1', dateAdded: '2021-11-03' }] },
+        [OSV_VULN_URL]: osv,
       }) });
-      assert.deepEqual(r, { cves: 2, epss: 1, kev: 1, written: true, failed: [] });
+      assert.deepEqual(r, { cves: 2, epss: 1, kev: 1, published: 3, written: true, failed: [] });
       const out = JSON.parse(readFileSync(join(exportDir, 'signals.json'), 'utf8'));
-      assert.deepEqual(out, { schema: 1, date: '2026-10-16', cves: 2, epss: { 'CVE-2023-45133': [0.00525, 0.432] }, kev: { 'CVE-2023-4863': { added: '2023-09-13' } }, kevCatalog: { version: '2026.10.16', size: 2 } });
+      const published = { 'CVE-2023-4863': '2023-09-12', 'GHSA-1': '2023-10-12', 'GHSA-2': '2023-09-12' };
+      assert.deepEqual(out, { schema: 1, date: '2026-10-16', cves: 2, epss: { 'CVE-2023-45133': [0.00525, 0.432] }, kev: { 'CVE-2023-4863': { added: '2023-09-13' } }, kevCatalog: { version: '2026.10.16', size: 2 }, published });
+      assert.deepEqual(JSON.parse(readFileSync(publishedCache, 'utf8')), published, 'dates are kept for the next build');
+      assert.equal(osvCalls.length, 3);
 
       rmSync(join(exportDir, 'signals.json'));
-      r = await buildSignals({ exportDir, log: quiet, fetchImpl: fakeFetch({ [EPSS_URL]: new Error('down'), [KEV_URL]: { vulnerabilities: [] } }) });
+      r = await buildSignals({ exportDir, publishedCache, log: quiet, fetchImpl: fakeFetch({ [EPSS_URL]: new Error('down'), [KEV_URL]: { vulnerabilities: [] }, [OSV_VULN_URL]: osv }) });
+      assert.equal(osvCalls.length, 3, 'cached dates are not looked up again');
       assert.deepEqual(r.failed, ['EPSS: down']);
       assert.equal(r.written, true, 'the KEV part is still written');
       assert.equal(JSON.parse(readFileSync(join(exportDir, 'signals.json'), 'utf8')).epss, undefined);
 
       rmSync(join(exportDir, 'signals.json'));
-      r = await buildSignals({ exportDir, log: quiet, fetchImpl: fakeFetch({ [EPSS_URL]: new Error('down'), [KEV_URL]: new Error('down') }) });
+      r = await buildSignals({ exportDir, publishedCache: join(tmp, 'none.json'), log: quiet, fetchImpl: fakeFetch({ [EPSS_URL]: new Error('down'), [KEV_URL]: new Error('down'), [OSV_VULN_URL]: new Error('down') }) });
       assert.equal(r.written, false);
-      assert.equal(existsSync(join(exportDir, 'signals.json')), false, 'both feeds down: nothing written, the build goes on');
+      assert.equal(existsSync(join(exportDir, 'signals.json')), false, 'every feed down: nothing written, the build goes on');
+      assert.equal(publishedOf({ published: 'nonsense' }), null);
     } finally {
       rmSync(tmp, { recursive: true, force: true });
     }
@@ -87,8 +100,8 @@ describe('advisory signals', () => {
     const a = { id: 'GHSA-1', aliases: ['CVE-2023-45133'], severity: 'high', package: 'a' };
     const b = { id: 'GHSA-2', aliases: ['CVE-2'], severity: 'high', package: 'b' };
     const c = { id: 'GHSA-3', aliases: [], severity: 'high', package: 'c' };
-    assert.deepEqual(signalsFor(a, signals), { epss: 0.00525, epssPercentile: 0.43, exploited: null });
-    assert.deepEqual(signalsFor(c, null), { epss: null, epssPercentile: null, exploited: null });
+    assert.deepEqual(signalsFor(a, { ...signals, published: { 'GHSA-1': '2022-04-25' } }), { epss: 0.00525, epssPercentile: 0.43, exploited: null, published: '2022-04-25' });
+    assert.deepEqual(signalsFor(c, null), { epss: null, epssPercentile: null, exploited: null, published: null });
     const sorted = sortAdvisories(applySignals([c, a, b], signals));
     assert.deepEqual(sorted.map(x => x.id), ['GHSA-2', 'GHSA-1', 'GHSA-3']);
     assert.deepEqual(sortAdvisories([c, a, b]).map(x => x.id), ['GHSA-1', 'GHSA-2', 'GHSA-3'], 'without signals: by package name');
