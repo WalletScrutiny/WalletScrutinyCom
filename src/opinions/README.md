@@ -43,6 +43,11 @@ opinion a site admin has approved is the exception: it is shown even without
 a profile. The profiles are fetched in one batch (`getNostrProfiles`) once
 the events are in.
 
+The WalletScrutiny list opens on "Approved" (approved authors and opinions a
+site admin approved). The "Approved" / "All opinions" filters only appear when
+at least one opinion is not approved; "All opinions" then carries "+N", the
+number of opinions it adds.
+
 `/opinions/` is not in the site menu. When the page loads with a Nostr extension whose account is in `siteAdminPubkeys`, it lists third-party opinions that are still undecided, with their wallet. It skips opinions written by `siteAdminPubkeys` and any opinion already approved or hidden. Approving one (a kind 1984
 event with `k` `30023` and `r` `opinion-approve`, signed by a pubkey in
 `siteAdminPubkeys`) puts that event on the wallet page under "Approved".

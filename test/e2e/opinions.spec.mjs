@@ -47,7 +47,7 @@ async function expectIdentifiedAuthors(section) {
 }
 
 test.describe('Community opinions', () => {
-  test('lists the approved opinions with their sentiment counts', async ({ page }, testInfo) => {
+  test('lists the approved opinions without filters when none is unapproved', async ({ page }, testInfo) => {
     const assertNoConsoleErrors = attachConsoleGuards(testInfo, page);
 
     await page.goto(WALLET_PAGE_PATH);
@@ -57,7 +57,7 @@ test.describe('Community opinions', () => {
     await expectLoaded(section);
 
     await expect(section.locator('.opinions__counts li')).toHaveCount(3);
-    await expect(section.locator('.opinions__filter[aria-pressed="true"]')).toHaveText('Approved');
+    await expect(section.locator('.opinions__filters')).toHaveCount(0);
 
     const cards = section.locator('.opinion-card');
     await expect(cards.first()).toBeVisible({ timeout: NOSTR_DATA_TIMEOUT_MS });
@@ -83,9 +83,15 @@ test.describe('Community opinions', () => {
     await expect(section.locator('.opinions__tab')).toHaveCount(0);
     await expect(section.locator('.opinions__source-note')).toHaveCount(0);
     await expectIdentifiedAuthors(section);
-    await section.locator('.opinions__filter', { hasText: 'All opinions' }).click();
+    // The "+N" on All opinions is the number of opinions the Approved list leaves out.
+    const opinionCards = section.locator('.opinion-card:not(.opinion-card--reply)');
+    const approvedCount = await opinionCards.count();
+    const allButton = section.locator('.opinions__filter', { hasText: 'All opinions' });
+    const unapproved = Number((await allButton.locator('.opinions__filter-count').innerText()).replace(/^\+/, ''));
+    expect(unapproved).toBeGreaterThan(0);
+    await allButton.click();
     await page.getByRole('button', { name: 'Agree' }).click();
-    await expect(section.locator('.opinion-card').nth(1)).toBeVisible();
+    await expect(opinionCards).toHaveCount(approvedCount + unapproved);
     await expectIdentifiedAuthors(section);
 
     assertNoConsoleErrors();
@@ -149,6 +155,7 @@ test.describe('Community opinions', () => {
     await expect(tabs.nth(1).locator('.opinions__tab-count')).toHaveText(/^[1-9]\d*$/);
     await expectTabIcons(tabs);
     await expect(section.locator('.opinions__filter')).toHaveCount(2);
+    await expect(section.locator('.opinions__filter-count')).toHaveText(/^\+[1-9]\d*$/);
     await expect(section.locator('.opinion-card__version')).toHaveCount(0);
 
     await tabs.nth(1).click();
