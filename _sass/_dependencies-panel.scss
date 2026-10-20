@@ -486,9 +486,55 @@ details.dp-decision__community {
 }
 
 .dp-epss {
+  font: inherit;
   font-size: $font-xxs;
   color: var(--neutral-3);
   white-space: nowrap;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: help;
+  text-decoration: underline dotted;
+  text-underline-offset: 2px;
+
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 1px;
+  }
+}
+
+// What EPSS means, opened from .dp-epss. Same look as the assets table's
+// hash-hint tooltip; fixed so the table's scroll box cannot clip it.
+.dp-tip {
+  position: fixed;
+  z-index: 20;
+  width: max-content;
+  max-width: min(18em, calc(100vw - 16px));
+  padding: 8px 10px;
+  border-radius: 6px;
+  background: var(--neutral-1);
+  color: var(--neutral-7);
+  font-family: system-ui, sans-serif;
+  font-size: $font-xxs;
+  line-height: 1.35;
+  white-space: normal;
+  text-align: left;
+  box-shadow: 0 2px 8px var(--shadow-2);
+
+  &[hidden] {
+    display: none;
+  }
+
+  p {
+    margin: 0 0 4px;
+  }
+
+}
+
+// By id: the panel sits inside a step title, whose links lose their underline.
+#dp-epss-tip a {
+  color: inherit;
+  text-decoration: underline;
 }
 
 .dp-kev {
