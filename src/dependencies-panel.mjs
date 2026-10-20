@@ -174,13 +174,13 @@ function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = nul
   const where = whereOf(a);
   const fresh = Boolean(freshId) && statementsOf(a).some(s => s.id === freshId);
   return el('tr', { className: fresh ? 'dp-row--fresh' : null, dataset: { advisory: a.id, package: a.package } },
-    el('td', { className: 'dp-td-package' }, ...breakableName(a.package), mixedEcosystems && a.ecosystem ? el('span', { className: 'dp-eco' }, a.ecosystem) : null, repoLine(a), viaLine(a)),
-    el('td', {}, a.version),
-    el('td', {}, el('a', { href: `${OSV_URL}${encodeURIComponent(a.id)}`, target: '_blank', rel: 'noopener noreferrer', title: a.summary || '' }, a.id)),
-    el('td', {}, severityCell(a)),
-    el('td', {}, el('span', { className: `dp-where dp-where--${where}` }, whereLabel(a))),
-    el('td', { className: 'dp-td-products' }, usedBy(a)),
-    el('td', { className: 'dp-td-decision' }, decisionCell(a, { onJudge, freshId })),
+    el('td', { className: 'dp-td-package', dataset: { label: 'Package' } }, ...breakableName(a.package), mixedEcosystems && a.ecosystem ? el('span', { className: 'dp-eco' }, a.ecosystem) : null, repoLine(a), viaLine(a)),
+    el('td', { className: 'dp-td-version', dataset: { label: 'Version' } }, a.version),
+    el('td', { className: 'dp-td-advisory', dataset: { label: 'Advisory' } }, el('a', { href: `${OSV_URL}${encodeURIComponent(a.id)}`, target: '_blank', rel: 'noopener noreferrer', title: a.summary || '' }, a.id)),
+    el('td', { className: 'dp-td-severity', dataset: { label: 'Severity' } }, severityCell(a)),
+    el('td', { className: 'dp-td-where', dataset: { label: 'Where?' } }, el('span', { className: `dp-where dp-where--${where}` }, whereLabel(a))),
+    el('td', { className: 'dp-td-products', dataset: { label: 'Used by' } }, usedBy(a)),
+    el('td', { className: 'dp-td-decision', dataset: { label: 'Decision' } }, decisionCell(a, { onJudge, freshId })),
   );
 }
 
@@ -494,8 +494,7 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
     notices(model),
     flash ? el('p', { className: 'dp-flash', role: 'status' }, flash) : null,
     el('div', { className: 'dp-tiles' },
-      tile(model.direct, 'direct dependencies'),
-      tile(model.transitive, 'transitive dependencies'),
+      tile(model.packages, 'dependencies', { sub: `${model.direct} direct · ${model.transitive} transitive` }),
       tile(model.vulnerabilities, 'known vulnerabilities', { tone: vulnTone, sub: [tally.lines, triageLine(model)] }),
       tile(model.malware, 'known malware', { tone: model.malware ? 'bad' : 'good' }),
     ),
