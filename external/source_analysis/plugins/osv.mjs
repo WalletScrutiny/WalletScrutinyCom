@@ -60,12 +60,19 @@ export function berryResolution(resolved) {
   return m ? { ident: m[1], ref: m[2] } : null;
 }
 
-// The package OSV is asked about: the alias target when the lockfile
-// installs one package under another's name (`"fs": "npm:@favware/skip-dependency@1.2.1"`
-// is not the npm package `fs`, which OSV lists as malware).
+// The package OSV is asked about: the package the lockfile really installs,
+// whatever name it is installed under. `"fs": "npm:@favware/skip-dependency@1.2.1"`
+// is not the npm package `fs` (which OSV lists as malware), and the other way
+// round `"friendlyService": "npm:fs@0.0.2"` is: an alias must neither raise
+// nor hide a finding. package-lock.json records the real name already; yarn
+// berry has it in the resolution, yarn v1 only in the tarball URL.
 export function queryName(entry) {
-  const b = entry.ecosystem === 'npm' ? berryResolution(entry.resolved) : null;
-  return b && b.ref.startsWith('npm:') ? b.ident : entry.name;
+  if (entry.ecosystem !== 'npm') return entry.name;
+  const b = berryResolution(entry.resolved);
+  if (b && b.ref.startsWith('npm:')) return b.ident;
+  // yarn v1 keeps the alias as the name; the registry tarball URL names the real package
+  const m = String(entry.resolved || '').match(/^https?:\/\/[^/]+\/((?:@[^/]+(?:\/|%2[fF]))?[^/@]+)\/-\//);
+  return m ? decodeURIComponent(m[1]) : entry.name;
 }
 
 /** Unique OSV queries for the rows of the given pinning analyses, plus what was skipped. */

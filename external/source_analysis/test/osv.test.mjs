@@ -80,6 +80,11 @@ test('a yarn alias is looked up as the package it really installs', () => {
   assert.deepEqual(berryResolution(fs.resolved), { ident: '@favware/skip-dependency', ref: 'npm:1.2.1' });
   assert.equal(queryName(fs), '@favware/skip-dependency', 'not the npm package "fs", which OSV lists as malware');
   assert.equal(queryName(entry('npm', 'a', '1.0.0', { resolved: 'https://registry.npmjs.org/a/-/a-1.0.0.tgz' })), 'a');
+  // the reverse: a malicious package under a friendly alias is still looked up as itself
+  assert.equal(queryName(entry('npm', 'friendlyService', '0.0.2', { resolved: 'fs@npm:0.0.2' })), 'fs', 'yarn berry');
+  assert.equal(queryName(entry('npm', 'friendlyService', '0.0.2', { resolved: 'https://registry.yarnpkg.com/fs/-/fs-0.0.2.tgz#abc' })), 'fs', 'yarn v1');
+  assert.equal(queryName(entry('npm', 'x', '1.0.0', { resolved: 'https://registry.yarnpkg.com/@babel/core/-/core-1.0.0.tgz' })), '@babel/core');
+  assert.equal(queryName(entry('npm', 'x', '1.0.0', { resolved: 'https://registry.npmjs.org/@babel%2fcore/-/core-1.0.0.tgz' })), '@babel/core');
   const { queries } = buildQueries([{ entries: [fs] }]);
   assert.deepEqual(queries.map(q => q.name), ['@favware/skip-dependency']);
 });
