@@ -87,6 +87,27 @@ a checkout of this repository it uses the files beside it. Without Node, or
 without `WS_DEPCHECK_REV` outside a checkout, the block says `status:
 skipped` with the reason.
 
+### The APK: is the declared code what ships?
+
+`--apk <file>` adds the level-1 check of docs/dependency-check.md ("Checking
+the shipped app"): `external/source_analysis/apk-scan-cli.mjs` (fetched by
+commit and hash-checked with the identity files) downloads every Maven
+package the scanner found and compares it with the APK: which are in it,
+whether each `lib/<abi>/*.so` is the same code as the published package's
+(the loaded bytes, so the build's symbol stripping does not count), and what
+in the APK no package declares. Build scripts pass the official APK they
+already downloaded. Nothing of the APK or of any package runs. The `apk:`
+block in the YAML carries the counts and the native libraries that differ or
+that nobody declares.
+
+It compares with the scanner's package list, which is what the lockfiles
+say; where a project's lockfiles cover only part of the build (Green's
+`verification-metadata.xml` gives the scanner 539 Maven packages, the
+analyser's own Gradle resolution 1,200), more of the APK shows up as
+undeclared than the wallet page reports. Blockstream Green 5.7.0 end to end,
+3½ minutes: `libgreen_gdk_java.so` is declared by no package
+(`gdk/fetch_android_binaries.sh` downloads it).
+
 ### Running it by hand
 
 ```bash
