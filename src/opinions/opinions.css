@@ -28,10 +28,9 @@
 
 .opinions__toolbar {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: 0.5em 1.5em;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5em;
   padding: 0.75em 0;
   border-top: 1px solid var(--neutral-5);
   border-bottom: 1px solid var(--neutral-5);
@@ -614,10 +613,6 @@ body.dark .opinion-card--reply {
 }
 
 @media (max-width: 600px) {
-  .opinions__toolbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
   .opinion-card {
     --card-pad-y: 8.4px;
     --card-gap-y: 0.36em;
