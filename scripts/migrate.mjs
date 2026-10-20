@@ -27,6 +27,7 @@ const MOBILE_ROOT_STRIP_FROM_PLATFORM = new Set([
 const MOBILE_ROOT_HEADERS = [
   ...MOBILE_ROOT_STRIP_FROM_PLATFORM,
   'appCountry',
+  'bitcoinOrgId',
 ];
 
 function allowedPlatformKeys (categoryHelper) {
