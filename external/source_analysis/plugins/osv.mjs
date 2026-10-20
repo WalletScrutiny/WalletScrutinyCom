@@ -40,12 +40,32 @@ export function uncheckableReason(entry) {
   // the `+` check here reject.
   const resolvedFloating = entry.tier === 'floating' && entry.ecosystem === 'gradle' && !(entry.version || '').includes('+');
   if (UNCHECKABLE_TIERS.has(entry.tier) && !resolvedFloating) return entry.tier;
-  const resolved = entry.resolved || '';
-  if (/^(git\+|git:|github:|file:|link:|portal:|workspace:|patch:)/.test(resolved)) return 'git-or-path';
+  // yarn berry writes `<ident>@<protocol>:<ref>` (`metamask@workspace:.`); the protocol is what counts
+  const resolved = berryResolution(entry.resolved)?.ref ?? (entry.resolved || '');
+  if (/^(git\+|git:|github:|file:|link:|portal:|workspace:|patch:|exec:)/.test(resolved)) return 'git-or-path';
   // an npm registry tarball is `<registry>/<name>/-/<name>-<version>.tgz`; any other URL is a tarball from elsewhere
   if (/^https?:/.test(resolved) && !/\/-\/|registry/.test(resolved)) return 'git-or-path';
   if (!/^\d[0-9A-Za-z.+_-]*$/.test(entry.version || '')) return 'no-exact-version';
   return null;
+}
+
+/**
+ * A yarn berry resolution split into the package it really is and its
+ * protocol reference: `@favware/skip-dependency@npm:1.2.1` is
+ * `{ ident: '@favware/skip-dependency', ref: 'npm:1.2.1' }`. Null for
+ * anything else (an npm tarball URL, a cargo source).
+ */
+export function berryResolution(resolved) {
+  const m = String(resolved || '').match(/^((?:@[^/@\s]+\/)?[^@\s:]+)@([a-z]+:.*)$/);
+  return m ? { ident: m[1], ref: m[2] } : null;
+}
+
+// The package OSV is asked about: the alias target when the lockfile
+// installs one package under another's name (`"fs": "npm:@favware/skip-dependency@1.2.1"`
+// is not the npm package `fs`, which OSV lists as malware).
+export function queryName(entry) {
+  const b = entry.ecosystem === 'npm' ? berryResolution(entry.resolved) : null;
+  return b && b.ref.startsWith('npm:') ? b.ident : entry.name;
 }
 
 /** Unique OSV queries for the rows of the given pinning analyses, plus what was skipped. */
@@ -59,8 +79,9 @@ export function buildQueries(analyses) {
         skipped[reason] = (skipped[reason] || 0) + 1;
         continue;
       }
-      const key = `${entry.ecosystem}\u0000${entry.name}\u0000${entry.version}`;
-      if (!queries.has(key)) queries.set(key, { ecosystem: entry.ecosystem, name: entry.name, version: entry.version, rows: [] });
+      const name = queryName(entry);
+      const key = `${entry.ecosystem}\u0000${name}\u0000${entry.version}`;
+      if (!queries.has(key)) queries.set(key, { ecosystem: entry.ecosystem, name, version: entry.version, rows: [] });
       queries.get(key).rows.push(entry);
     }
   }
