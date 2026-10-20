@@ -172,6 +172,31 @@ export function initDatabase(dbPath = DB_PATH) {
     );
   `);
 
+  // Upstream triage (upstreamTriage.mjs): the scanner ignore lists and VEX
+  // documents found in a repository at one ref, one row per advisory entry;
+  // upstream_triage_checked records every (repo, ref) read, with or without files.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS upstream_triage_checked (
+      repo_url TEXT NOT NULL,
+      ref TEXT NOT NULL,
+      status TEXT NOT NULL,            -- ok | unsupported-host | error
+      error TEXT,
+      files TEXT NOT NULL DEFAULT '[]', -- JSON array of the triage files present
+      checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (repo_url, ref)
+    );
+    CREATE TABLE IF NOT EXISTS upstream_triage (
+      repo_url TEXT NOT NULL,
+      ref TEXT NOT NULL,
+      file TEXT NOT NULL,
+      tool TEXT NOT NULL,
+      line INTEGER NOT NULL,
+      vuln_id TEXT NOT NULL,
+      reason TEXT,
+      PRIMARY KEY (repo_url, ref, file, line, vuln_id)
+    );
+  `);
+
   // Last good copy of the site's app list (see appList.mjs), one row per
   // wallet record with a repository.
   db.exec(`

@@ -533,3 +533,14 @@ The `notifySha256Changed()` function is called when a SHA256 change is detected.
   - The database file (`assets.db`) is created automatically in the same directory as the script
   - All operations are efficient - no file downloads required, everything comes from API responses
 
+## Upstream triage files
+
+`upstream-triage-cli.mjs` (`upstreamTriage.mjs`) reads the scanner ignore lists
+and VEX documents of every analysed wallet and of its direct users at the
+shipped version into `upstream_triage` / `upstream_triage_checked`, prints what
+they speak to, and with `--export <dir>` writes the per-wallet hints the panel
+shows (`exportAll` writes them too). `GITHUB_TOKEN` switches GitHub reads to
+the GraphQL API (five refs per query); without it raw.githubusercontent.com
+answers 429 after a few thousand files. Resumable: refs already read are
+skipped unless `--all`. See docs/dependency-check.md, "Triage".
+
