@@ -185,27 +185,34 @@ const shortKey = (pubkey) => `${pubkey.slice(0, 8)}…`;
 
 // One statement as a line: who it is about, what it says (linked to its
 // evidence when the author gave some), who signed. The one just published
-// from this page is marked.
-function statementLine({ need, statement: s }, { freshId = null } = {}) {
+// from this page is marked. `onEdit(statement)` adds an "Edit" button.
+function statementLine({ need, statement: s }, { freshId = null, onEdit = null } = {}) {
+  let editButton = null;
+  if (onEdit) {
+    editButton = el('button', { type: 'button', className: 'dp-edit', title: 'Change this statement (yours), or start yours from it' }, 'Edit');
+    editButton.addEventListener('click', () => onEdit(s));
+  }
   const why = JUSTIFICATION_LABEL[s.justification] || s.content || TRIAGE_LABEL[s.status];
   return el('div', { className: `dp-decision__why${s.id === freshId ? ' dp-decision__why--fresh' : ''}`, title: s.content || '' },
     el('span', { className: 'dp-decision__need' }, `${needLabel(need)}: `),
     s.evidence ? el('a', { href: s.evidence, target: '_blank', rel: 'noopener noreferrer' }, why) : why,
     el('span', { className: 'dp-decision__who' }, ` (${TRIAGE_LABEL[s.status]}, ${shortKey(s.pubkey)})`),
     s.id === freshId ? el('span', { className: 'dp-decision__fresh' }, ' just published') : null,
+    editButton ? ' ' : null,
+    editButton,
   );
 }
 
 // Community statements (authors outside the trusted list) do not settle the
 // row; they fold out under their count so they can still be read. The one
 // just published from this page starts unfolded.
-function communityLine(t, { freshId = null } = {}) {
+function communityLine(t, { freshId = null, onEdit = null } = {}) {
   const label = `${t.community} community ${t.community === 1 ? 'statement' : 'statements'}`;
   const list = t.communityStatements || [];
   if (!list.length) return el('div', { className: 'dp-decision__community' }, label);
   return el('details', { className: 'dp-decision__community', open: list.some(s => s.id === freshId) },
     el('summary', { title: 'Signed by authors outside the list this site trusts, so they do not settle the row' }, label),
-    list.map(s => statementLine({ need: needOf(s), statement: s }, { freshId })),
+    list.map(s => statementLine({ need: needOf(s), statement: s }, { freshId, onEdit })),
   );
 }
 
@@ -217,15 +224,16 @@ export function decisionCell(a, { onJudge = null, freshId = null } = {}) {
   const d = a.decision;
   const t = a.triage || { needs: [], covered: [], community: 0, partial: [] };
   const bits = [];
+  const onEdit = onJudge ? (s) => onJudge(a, s) : null;
   if (!d) {
     bits.push(el('span', { className: 'dp-decision dp-decision--undecided', title: 'No trusted statement settles this advisory for this wallet yet' }, 'Not assessed'));
     if (t.covered.length) bits.push(el('div', { className: 'dp-decision__why' }, `${t.covered.length} of ${t.needs.length} direct users assessed`));
-    for (const b of t.partial || []) bits.push(statementLine(b, { freshId }));
+    for (const b of t.partial || []) bits.push(statementLine(b, { freshId, onEdit }));
   } else {
     bits.push(el('span', { className: `dp-decision dp-decision--${state}` }, TRIAGE_LABEL[state]));
-    for (const b of d.basis) bits.push(statementLine(b, { freshId }));
+    for (const b of d.basis) bits.push(statementLine(b, { freshId, onEdit }));
   }
-  if (t.community) bits.push(communityLine(t, { freshId }));
+  if (t.community) bits.push(communityLine(t, { freshId, onEdit }));
   if (onJudge) {
     const judge = el('button', { type: 'button', className: 'dp-judge', title: 'Publish a signed statement on whether this advisory affects the wallet' }, 'Add statement');
     judge.addEventListener('click', () => onJudge(a));
@@ -495,10 +503,11 @@ export async function renderDependenciesPanel({ host, appId, storeVersion = '', 
     host.replaceChildren(panelElement(model, { appId: analysisId, wallet: title || analysisId, base, fetchImpl, onJudge, ...extra }));
     return model;
   };
-  async function onJudge(advisory) {
+  async function onJudge(advisory, edit = null) {
     const trusted = triage?.trusted?.length ? triage.trusted : await loadTrusted({ base, fetchImpl });
     openTriageDialog({
       advisory,
+      edit,
       appId: analysisId,
       triage,
       trusted,

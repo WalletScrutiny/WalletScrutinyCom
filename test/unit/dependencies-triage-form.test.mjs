@@ -130,7 +130,7 @@ describe('dependency triage form', () => {
     assert.equal(decision.querySelector('.dp-decision').textContent, 'Not assessed', 'one of two direct users judged: still open');
     assert.equal(decision.querySelector('.dp-decision__why').textContent, '1 of 2 direct users assessed');
     const line = decision.querySelectorAll('.dp-decision__why')[1];
-    assert.match(line.textContent, /^via @babel\/core: vulnerable code never executed \(not affected, [0-9a-f]{8}…\) just published$/);
+    assert.match(line.textContent, /^via @babel\/core: vulnerable code never executed \(not affected, [0-9a-f]{8}…\) just published Edit$/);
     assert.equal(line.querySelector('a').getAttribute('href'), 'https://github.com/babel/babel/pull/16033');
     assert.equal(host.querySelector('.dp-judge').textContent, 'Add statement');
 
@@ -179,8 +179,40 @@ describe('dependency triage form', () => {
     const folded = decision.querySelector('details.dp-decision__community');
     assert.equal(folded.querySelector('summary').textContent, '1 community statement');
     assert.equal(folded.hasAttribute('open'), true, 'the statement just published is shown without a click');
-    assert.match(folded.querySelector('.dp-decision__why').textContent, /^the package: Testing the button \(investigating, [0-9a-f]{8}…\) just published$/);
+    assert.match(folded.querySelector('.dp-decision__why').textContent, /^the package: Testing the button \(investigating, [0-9a-f]{8}…\) just published Edit$/);
+
+    // "Edit" on the line reopens the form on that subject, filled in
+    folded.querySelector('.dp-edit').click();
+    await settled();
+    let again = document.querySelector('dialog.dp-dialog');
+    // a property once script set it, the attribute before (linkedom keeps no form state)
+    const checkedSubject = (d) => [...d.querySelectorAll('input[name="subject"]')].find(i => (typeof i.checked === 'boolean' ? i.checked : i.hasAttribute('checked')))?.value;
+    assert.equal(checkedSubject(again), 'package');
+    assert.equal(again.querySelector('textarea[name="content"]').value, 'Testing the button');
+    assert.equal(again.querySelector('.dp-form__publish').textContent, 'Update statement');
+    assert.equal(again.querySelector('.dp-form__copied').hidden, true, 'one\'s own statement is no copy');
+    again.querySelector('.dp-dialog__close').click();
+
+    // "Add statement" lands on the subject the signer already wrote about
+    host.querySelector('tr.dp-row--fresh .dp-judge').click();
+    await settled();
+    again = document.querySelector('dialog.dp-dialog');
+    assert.equal(checkedSubject(again), 'package');
+    assert.equal(again.querySelector('.dp-form__publish').textContent, 'Update statement');
+    again.querySelector('.dp-dialog__close').click();
     host.remove();
+  });
+
+  test('"Edit" on someone else\'s statement fills the form from it, to publish as one\'s own', async () => {
+    const theirs = { id: 'e1', pubkey: 'b'.repeat(64), created_at: 1, d: 'GHSA-67hx-6x53-jw92|package', vulns: ['GHSA-67hx-6x53-jw92'], package: 'npm:@babel/traverse', via: null, app: null, status: 'not_affected', justification: 'vulnerable_code_not_present', versions: null, evidence: 'https://example.org/x', content: 'not shipped' };
+    const dialog = openTriageDialog({ advisory: traverse, appId: 'it.airgap.vault', triage: { trusted: [], statements: [theirs] }, nostr: fakeNostr(), edit: theirs });
+    await settled();
+    assert.equal(dialog.querySelector('input[name="subject"][checked]')?.value, 'package');
+    assert.equal(dialog.querySelector('textarea[name="content"]').value, 'not shipped');
+    assert.equal(dialog.querySelector('input[name="evidence"]').value, 'https://example.org/x');
+    assert.match(dialog.querySelector('.dp-form__copied').textContent, /^Filled in from npub1.*statement\. Publishing signs it as your own; theirs stays as it is\.$/);
+    assert.equal(dialog.querySelector('.dp-form__publish').textContent, 'Publish statement');
+    dialog.remove();
   });
 
   test('without an extension the dialog says so and cannot publish; a rejected publish stays open with the reason', async () => {
