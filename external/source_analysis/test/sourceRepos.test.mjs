@@ -79,7 +79,7 @@ test('pypiRepo prefers a source key on a code host, normalises the name, skips f
   assert.equal((await pypiRepo('\0p\0y', never)).note, 'not a package name');
 });
 
-import { parseLsRemote, matchTag, identityOf } from '../sourceIdentity.mjs';
+import { parseLsRemote, matchTag, identityOf, isRange } from '../sourceIdentity.mjs';
 
 test('identity: annotated tags peel to the commit; monorepo tags prefer the package-qualified one', () => {
   const a = 'a'.repeat(40), b = 'b'.repeat(40), c = 'c'.repeat(40);
@@ -98,4 +98,17 @@ test('identity: no tag falls back to the registry-named commit; unreachable repo
   assert.equal(identityOf({ ecosystem: 'npm', name: 'x', version: '2.0.0' }, tags, { provenance: true, gitHead: 'f'.repeat(40), published: true }).status, 'commit-named');
   assert.equal(identityOf({ ecosystem: 'cargo', name: 'x', version: '2.0.0' }, tags).status, 'no-tag');
   assert.equal(identityOf({ ecosystem: 'cargo', name: 'x', version: '2.0.0' }, null).status, 'repo-unreachable');
+});
+
+test('identity: a range names no release, so it gets its own status instead of no-tag', () => {
+  for (const v of ['^1.2.0', '~58.0.10', '>=1.0 <2', '1.x', '*', 'workspace:*', '1.0.0 - 2.0.0']) assert.equal(isRange('npm', v), true, v);
+  for (const v of ['1.2.0', '3.0.0-beta-1', '4.20260111.0']) assert.equal(isRange('npm', v), false, v);
+  for (const v of ['>=2.0', '>=7,<9', '~=3.0', '>=2.9,!=2.10.55', '1.*']) assert.equal(isRange('pip', v), true, v);
+  for (const v of ['3.0', '2024.1', '==1.2.3']) assert.equal(isRange('pip', v), false, v);
+  for (const v of ['2.+', '+', '[1.0,2.0)', 'latest.release', '1.+@aar']) assert.equal(isRange('gradle', v), true, v);
+  for (const v of ['38', 'jdk-12.0.1+2', '0.0.1@aar', '97c9ef136ba17e65c773a9fc915cbd89cebccf84@aar']) assert.equal(isRange('gradle', v), false, v);
+  assert.equal(isRange('cargo', '0.4.20'), false);
+  const tags = new Map([['v1.2.0', 'a'.repeat(40)]]);
+  assert.equal(identityOf({ ecosystem: 'npm', name: 'x', version: '^1.2.0' }, tags, null).status, 'range');
+  assert.equal(identityOf({ ecosystem: 'pip', name: 'x', version: '>=1.2.0' }, null).status, 'range');
 });

@@ -5,7 +5,7 @@
 // Usage: node identity-cli.mjs [--all] [--limit N]   (SOURCE_ANALYSIS_DB_PATH selects the database)
 import minimist from 'minimist';
 import { initDatabase } from './ddbbUtils.mjs';
-import { lsRemoteTags, identityOf, npmProvenance } from './sourceIdentity.mjs';
+import { lsRemoteTags, identityOf, npmProvenance, isRange } from './sourceIdentity.mjs';
 
 const CONCURRENCY = 6;
 
@@ -28,7 +28,7 @@ export async function checkIdentities(db, { all = false, limit = Infinity, log =
       try { tags = await lsRemoteTags(repo); } catch (e) { log(`${repo}: ${e.message}`); }
       for (const p of pkgs) {
         let npm = null;
-        if (p.ecosystem === 'npm') {
+        if (p.ecosystem === 'npm' && !isRange(p.ecosystem, p.version)) {
           try { npm = await npmProvenance(p.name, p.version); } catch (e) { stats.failed++; log(e.message); continue; }
           stats.npmVersions++;
           if (npm.provenance) stats.provenance++;
