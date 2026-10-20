@@ -126,8 +126,10 @@ Plumbing:
   is deployed; until then the public relays carry the statements.
 - The panel's "Decision" column shows the status with one line per direct
   user (its reason and signer), the line under the package name says who the
-  direct users are, and the line above the table counts the queue:
-  "412 advisories · 2 decided · 410 still to look at (3 partly)". Within one
+  direct users are, and the vulnerability tile counts one line per severity,
+  "50 critical · none cleared" (cleared: fixed or not affected), then the
+  queue: "2 decided · 410 still to look at (3 partly)". The big number takes
+  the colour of the worst severity still open. Within one
   severity, rows still needing a look (affected, undecided) sort before
   dismissed ones (not affected, fixed). The CSV carries decision, reasons,
   EPSS and the exploited flag per row.
