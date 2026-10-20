@@ -363,7 +363,8 @@ function report(queries, skipped, findings) {
 // exact registry version, from OSV.dev, looked up from the host. A failed
 // lookup fails the analysis, so an unchanged default branch is retried next
 // pass instead of being skipped without a vulnerability result. Stored per
-// release (app_vulnerabilities).
+// release (app_vulnerabilities); a malicious package also raises an alert
+// (alerts.mjs).
 export default {
   description: 'Test 10: known vulnerabilities (OSV.dev)',
   requires: ['pinning'],
@@ -374,6 +375,10 @@ export default {
       const { saveVulnerabilities } = await import('../ddbbUtils.mjs');
       const stored = saveVulnerabilities(db, name, version, vulnerabilities);
       console.log(`Stored ${stored} vulnerability rows for ${name} ${version}`);
+      // A malicious package is not a row to triage some day: record it and tell a person now.
+      const { recordMalwareAlerts, deliverAlerts } = await import('../alerts.mjs');
+      recordMalwareAlerts(db, name, version, vulnerabilities.findings);
+      await deliverAlerts(db); // also retries earlier ones a channel did not take
     }
     return vulnerabilities;
   },

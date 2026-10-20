@@ -544,3 +544,23 @@ the GraphQL API (five refs per query); without it raw.githubusercontent.com
 answers 429 after a few thousand files. Resumable: refs already read are
 skipped unless `--all`. See docs/dependency-check.md, "Triage".
 
+
+## Alerts
+
+A lockfile that pins a registry package OSV lists as malicious (MAL-*) raises
+an alert (`alerts.mjs`), whether the package ships in the app or only runs in
+the build: a build dependency can patch the artifact. Each alert is recorded
+once per (app, release, package, advisory) in `alerts` and sent to every
+configured channel right after the OSV step; one a channel did not take is
+retried after the next analysis.
+
+| variable | channel |
+|---|---|
+| `ALERT_WEBHOOK_URL` | POST of the alert as JSON (`text` holds the message) |
+| `ALERT_NOSTR_NSEC` + `ALERT_NOSTR_TO` | NIP-17 private message from the analyser's key to each npub (comma-separated) |
+| `ALERT_NOSTR_RELAYS` | relays for the message (default relay.nostr.info, relay.damus.io, nos.lol) |
+
+`node alerts-cli.mjs` lists open alerts; `--set confirmed|dismissed --app <id>
+--advisory <id> --note "…"` records what a person found; `--deliver` resends
+the undelivered ones. Without a channel an alert is still recorded and printed
+on every run until someone sets it.
