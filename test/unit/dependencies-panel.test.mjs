@@ -2,7 +2,7 @@ import './setup.mjs';
 import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { loadApp, renderDependenciesPanel, panelElement, usedBy } from '../../src/dependencies-panel.mjs';
+import { loadApp, renderDependenciesPanel, panelElement, usedBy, exposureLine } from '../../src/dependencies-panel.mjs';
 import { panelModel } from '../../src/dependencies-panel-model.mjs';
 
 const advisory = (id, severity, extra = {}) => ({ id, severity, aliases: [], fixed: [], summary: 's', ecosystem: 'npm', package: 'pkg', version: '1.0.0', direct: true, dev: false, ...extra });
@@ -69,6 +69,7 @@ describe('dependencies panel', () => {
     assert.equal(host.querySelector('tbody tr td a').getAttribute('href'), 'https://osv.dev/vulnerability/GHSA-crit');
     assert.equal(host.querySelector('.dp-more').textContent, 'Show all 13 advisories');
     assert.deepEqual([...host.querySelectorAll('thead th')].map(e => e.textContent), ['Package', 'Version', 'Advisory', 'Severity', 'Where?', 'Used by', 'Decision']);
+    assert.equal(host.querySelector('.dp-exposure').textContent, 'Potentially affected: 1 critical · 2 high · 10 medium');
     assert.equal(host.querySelector('.dp-triage-line').textContent, '13 advisories · 0 decided · 13 still to look at');
     assert.equal(host.querySelectorAll('.dp-decision--undecided').length, 10);
     assert.match(host.querySelector('.dp-note').textContent, /Nobody has made those statements for this wallet's advisories yet/);
@@ -109,6 +110,7 @@ describe('dependencies panel', () => {
     const model = await renderDependenciesPanel({ host, appId: 'app.ios', base: '/x', fetchImpl });
     assert.deepEqual(calls.slice(2), ['/x/triage/app.ios.json', '/x/triage/app.android.json', '/x/signals.json'], 'the page\'s id first, then the analysis id, then the signals');
     assert.deepEqual(model.triage, { total: 13, decided: 2, undecided: 11, affected: 1, not_affected: 1, fixed: 0, under_investigation: 0, partial: 1, community: 1 });
+    assert.equal(host.querySelector('.dp-exposure').textContent, 'Potentially affected: 2 high · 10 medium', 'the not-affected critical drops out; the affected high stays');
     assert.equal(host.querySelector('.dp-triage-line').textContent, '13 advisories · 2 decided · 1 affected · 1 not affected · 11 still to look at (1 partly)');
     const rows = [...host.querySelectorAll('tbody tr')];
     assert.deepEqual(rows.slice(0, 3).map(r => r.querySelector('td a').textContent), ['GHSA-crit', 'GHSA-test', 'GHSA-high'], 'critical first; within high the affected row before the undecided one');
@@ -174,6 +176,15 @@ describe('dependencies panel', () => {
     const node = panelElement(panelModel(clean), { appId: 'app.android', base: '/x', fetchImpl: async () => null });
     assert.equal(node.querySelector('table'), null);
     assert.equal(node.querySelectorAll('.dp-tile--good').length, 2);
+  });
+
+  test('exposureLine: fixed and not affected drop out, under investigation stays, nothing open says so', () => {
+    const row = (severity, status) => ({ severity, decision: status ? { status } : null });
+    const model = (advisories) => ({ triage: { total: advisories.length }, advisories });
+    assert.equal(exposureLine(model([row('critical', 'fixed'), row('critical', 'under_investigation'), row('low', null), row('weird', null)])).textContent,
+      'Potentially affected: 1 critical · 1 low · 1 unrated');
+    assert.equal(exposureLine(model([row('high', 'not_affected')])).textContent, 'Potentially affected: none. Every advisory is fixed or found not to affect this wallet.');
+    assert.equal(exposureLine(model([])), null);
   });
 
   test('usedBy: wallets shipping the package, this exact version, or only this one', () => {

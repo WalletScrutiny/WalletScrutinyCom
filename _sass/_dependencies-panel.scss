@@ -362,6 +362,23 @@ body.dark .dp-panel {
   gap: 8px;
 }
 
+// "Potentially affected: 50 critical · 182 high · …" above the work queue
+.dp-exposure {
+  margin: 0 0 2px;
+  font-size: $font-sm;
+}
+
+.dp-exposure__count--malicious,
+.dp-exposure__count--critical {
+  color: #c0392b;
+  font-weight: 700;
+}
+
+.dp-exposure__count--high {
+  color: #d68910;
+  font-weight: 600;
+}
+
 // "412 advisories · 0 decided · 412 still to look at"
 .dp-triage-line {
   margin: 0 0 6px;
