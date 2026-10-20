@@ -3,7 +3,7 @@
 // apps/<appId>.json). Pure functions, no DOM: the renderer in
 // dependencies-panel.mjs only lays these out.
 
-import { applyTriage, TRIAGE_ORDER, triageStateOf, TRIAGE_LABEL, JUSTIFICATION_LABEL, whereOf, WHERE_LABELS } from './dependency-triage.mjs';
+import { applyTriage, TRIAGE_LABEL, JUSTIFICATION_LABEL, whereOf, WHERE_LABELS } from './dependency-triage.mjs';
 
 export { whereOf, WHERE_LABELS };
 
@@ -76,14 +76,13 @@ export function epssLabel(p) {
   return `${pct < 10 ? pct.toFixed(1) : Math.round(pct)} %`;
 }
 
-// Advisories as the table shows them: worst first; within one severity what
-// still needs a look (affected, undecided) before what was dismissed (not
-// affected, fixed); among those, what is exploited in the wild, then the more
-// likely to be exploited (EPSS); then by package name.
+// Advisories as the table shows them: by severity alone, worst first; within
+// one severity what is exploited in the wild, then the more likely to be
+// exploited (EPSS); then by package name. Neither the decision nor where the
+// package ends up moves a row (Leo, 2026-10-20).
 export function sortAdvisories(advisories = []) {
   return [...advisories].sort((a, b) =>
     SEVERITY_ORDER.indexOf(a.severity) - SEVERITY_ORDER.indexOf(b.severity)
-    || TRIAGE_ORDER[triageStateOf(a)] - TRIAGE_ORDER[triageStateOf(b)]
     || (b.exploited ? 1 : 0) - (a.exploited ? 1 : 0)
     || (b.epss ?? -1) - (a.epss ?? -1)
     || (a.package || '').localeCompare(b.package || '')
