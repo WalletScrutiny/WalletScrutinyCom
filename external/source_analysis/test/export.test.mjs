@@ -6,7 +6,7 @@ import fs from 'fs';
 import os from 'os';
 import path from 'path';
 import { initDatabase, saveDependencies, saveVulnerabilities, recordAnalysis, saveAppList } from '../ddbbUtils.mjs';
-import { exportAll, buildApp, safeName, sharedPackages } from '../export.mjs';
+import { exportAll, buildApp, safeName, sharedPackages, productPartOf } from '../export.mjs';
 
 const entry = (name, version, extra = {}) => ({ ecosystem: 'npm', lockfile: 'package-lock.json', name, version, resolved: `https://registry.npmjs.org/${name}/-/${name}-${version}.tgz`, integrity: `sha512-${name}${version}`, direct: true, dev: false, tier: 'hash-pinned', ...extra });
 
@@ -105,6 +105,24 @@ test('sharedPackages lists packages used by two or more products, most shared fi
   const list = sharedPackages(seeded());
   assert.deepEqual(list.map(p => `${p.name}:${p.products}`), ['a:2']);
   assert.deepEqual(sharedPackages(seeded(), { minProducts: 1 }).map(p => p.name), ['a', 'b', 'c', 'z']);
+});
+
+test('a lockfile of another product in the repository (desktop, server, web) marks its rows', () => {
+  assert.equal(productPartOf('electron/package-lock.json'), 'desktop');
+  assert.equal(productPartOf('apps/desktop/yarn.lock'), 'desktop');
+  assert.equal(productPartOf('server/package-lock.json'), 'server');
+  assert.equal(productPartOf('web/package-lock.json'), 'web');
+  assert.equal(productPartOf('yarn.lock'), null);
+  assert.equal(productPartOf('android/app/build.gradle'), null);
+  assert.equal(productPartOf('electron.lock'), null, 'a file name is no directory');
+  const db = initDatabase(':memory:');
+  const e = (name, version, lockfile) => ({ ecosystem: 'npm', lockfile, name, version, resolved: '', integrity: '', direct: false, dev: true, tier: 'hash-pinned' });
+  saveDependencies(db, 'w', 'v1', [{ ecosystem: 'npm', entries: [e('ejs', '3.1.5', 'electron/package-lock.json'), e('minimist', '1.2.0', 'electron/package-lock.json'), e('minimist', '1.2.0', 'yarn.lock')] }]);
+  const f = (name, version, id) => ({ ecosystem: 'npm', name, version, id, severity: 'critical', aliases: [], fixed: [], summary: '', direct: false, dev: true });
+  saveVulnerabilities(db, 'w', 'v1', { findings: [f('ejs', '3.1.5', 'GHSA-phwq-j96m-2c2q'), f('minimist', '1.2.0', 'GHSA-xvch-5gv4-984h')] });
+  recordAnalysis(db, { appId: 'w', kind: 'release', ref: 'v1', status: 'ok', analyser: 't' });
+  const rows = buildApp(db, 'w').releases[0].advisories;
+  assert.deepEqual(rows.map(a => [a.package, a.part]), [['ejs', 'desktop'], ['minimist', undefined]], 'also in the main lockfile: the app\'s, not only the desktop\'s');
 });
 
 test('safeName keeps ids and tags readable but path-safe', () => {

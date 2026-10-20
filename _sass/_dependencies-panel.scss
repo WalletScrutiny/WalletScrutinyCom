@@ -596,8 +596,25 @@ details.dp-decision__others {
 }
 
 a.dp-signer {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
   color: inherit;
-  text-decoration: underline dotted;
+  text-decoration: none;
+  white-space: nowrap;
+  vertical-align: bottom;
+
+  &:hover .dp-signer__name {
+    text-decoration: underline;
+  }
+}
+
+.dp-signer__pic {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex: none;
 }
 
 .dp-inapk {
