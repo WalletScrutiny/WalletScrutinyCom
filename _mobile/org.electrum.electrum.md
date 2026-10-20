@@ -1,5 +1,6 @@
 ---
 title: Electrum Bitcoin Wallet
+bitcoinOrgId: electrum
 date: 2025-08-11
 authors:
 - leo
