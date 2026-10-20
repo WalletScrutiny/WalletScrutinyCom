@@ -2,7 +2,7 @@ import './setup.mjs';
 import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { loadApp, renderDependenciesPanel, panelElement, usedBy, exposureLine } from '../../src/dependencies-panel.mjs';
+import { loadApp, renderDependenciesPanel, panelElement, usedBy, severityTally } from '../../src/dependencies-panel.mjs';
 import { panelModel } from '../../src/dependencies-panel-model.mjs';
 
 const advisory = (id, severity, extra = {}) => ({ id, severity, aliases: [], fixed: [], summary: 's', ecosystem: 'npm', package: 'pkg', version: '1.0.0', direct: true, dev: false, ...extra });
@@ -62,14 +62,15 @@ describe('dependencies panel', () => {
     const values = [...host.querySelectorAll('.dp-tile__value')].map(e => e.textContent);
     assert.deepEqual(values, ['40', '372', '13', '0']);
     assert.match(host.querySelector('.dp-notices').textContent, /14 of the 412 packages could not be checked for advisories \(14 version range, not an exact version\); that is not the same as "no problems"\./);
-    assert.equal(host.querySelector('.dp-tile__sub').textContent, '1 critical · 2 high · 10 medium');
-    assert.equal(host.querySelector('.dp-tile__sub--where').textContent, '1 in the app · 2 in build tooling · 10 unplaced');
+    assert.deepEqual([...host.querySelectorAll('.dp-tally')].map(e => e.textContent), ['1 critical', '2 high', '10 medium'], 'one line per severity');
+    assert.ok(host.querySelector('.dp-tile--sev-critical'), 'the count takes the worst open severity\'s colour');
+    assert.equal(host.querySelector('.dp-tile__sub--where'), null, 'no app/build-tooling split in the tile');
     assert.equal(host.querySelectorAll('tbody tr').length, 10);
     assert.equal(host.querySelector('tbody tr td a').textContent, 'GHSA-crit');
     assert.equal(host.querySelector('tbody tr td a').getAttribute('href'), 'https://osv.dev/vulnerability/GHSA-crit');
     assert.equal(host.querySelector('.dp-more').textContent, 'Show all 13 advisories');
     assert.deepEqual([...host.querySelectorAll('thead th')].map(e => e.textContent), ['Package', 'Version', 'Advisory', 'Severity', 'Where?', 'Used by', 'Decision']);
-    assert.equal(host.querySelector('.dp-exposure').textContent, 'Potentially affected: 1 critical · 2 high · 10 medium');
+    assert.equal(host.querySelector('.dp-exposure'), null, 'the severities are counted once, in the tile');
     assert.equal(host.querySelector('.dp-triage-line').textContent, '13 advisories · 0 decided · 13 still to look at');
     assert.equal(host.querySelectorAll('.dp-decision--undecided').length, 10);
     assert.match(host.querySelector('.dp-note').textContent, /Nobody has made those statements for this wallet's advisories yet/);
@@ -110,7 +111,8 @@ describe('dependencies panel', () => {
     const model = await renderDependenciesPanel({ host, appId: 'app.ios', base: '/x', fetchImpl });
     assert.deepEqual(calls.slice(2), ['/x/triage/app.ios.json', '/x/triage/app.android.json', '/x/signals.json'], 'the page\'s id first, then the analysis id, then the signals');
     assert.deepEqual(model.triage, { total: 13, decided: 2, undecided: 11, affected: 1, not_affected: 1, fixed: 0, under_investigation: 0, partial: 1, community: 1 });
-    assert.equal(host.querySelector('.dp-exposure').textContent, 'Potentially affected: 2 high · 10 medium', 'the not-affected critical drops out; the affected high stays');
+    assert.deepEqual([...host.querySelectorAll('.dp-tally')].map(e => e.textContent), ['1 critical (1 cleared)', '2 high', '10 medium'], 'the not-affected critical is cleared; the affected high is not');
+    assert.ok(host.querySelector('.dp-tile--sev-high'), 'with the only critical cleared, the count goes orange');
     assert.equal(host.querySelector('.dp-triage-line').textContent, '13 advisories · 2 decided · 1 affected · 1 not affected · 11 still to look at (1 partly)');
     const rows = [...host.querySelectorAll('tbody tr')];
     assert.deepEqual(rows.slice(0, 3).map(r => r.querySelector('td a').textContent), ['GHSA-crit', 'GHSA-test', 'GHSA-high'], 'critical first; within high the affected row before the undecided one');
@@ -178,13 +180,19 @@ describe('dependencies panel', () => {
     assert.equal(node.querySelectorAll('.dp-tile--good').length, 2);
   });
 
-  test('exposureLine: fixed and not affected drop out, under investigation stays, nothing open says so', () => {
+  test('severityTally: fixed and not affected are cleared, under investigation is not, the worst open severity colours the count', () => {
     const row = (severity, status) => ({ severity, decision: status ? { status } : null });
-    const model = (advisories) => ({ triage: { total: advisories.length }, advisories });
-    assert.equal(exposureLine(model([row('critical', 'fixed'), row('critical', 'under_investigation'), row('low', null), row('weird', null)])).textContent,
-      'Potentially affected: 1 critical · 1 low · 1 unrated');
-    assert.equal(exposureLine(model([row('high', 'not_affected')])).textContent, 'Potentially affected: none. Every advisory is fixed or found not to affect this wallet.');
-    assert.equal(exposureLine(model([])), null);
+    const model = (bySeverity, advisories) => ({ bySeverity, advisories });
+    const text = (t) => t.lines.map(e => e.textContent);
+    let t = severityTally(model({ critical: 2, low: 1, unknown: 1 }, [row('critical', 'fixed'), row('critical', 'under_investigation'), row('low', null), row('weird', null)]));
+    assert.deepEqual(text(t), ['2 critical (1 cleared)', '1 low', '1 unrated']);
+    assert.equal(t.worstOpen, 'critical');
+    t = severityTally(model({ critical: 1, moderate: 1 }, [row('critical', 'not_affected'), row('moderate', 'affected')]));
+    assert.deepEqual(text(t), ['1 critical (1 cleared)', '1 medium']);
+    assert.equal(t.worstOpen, 'moderate');
+    t = severityTally(model({ high: 1 }, [row('high', 'not_affected')]));
+    assert.equal(t.worstOpen, null, 'everything cleared');
+    assert.equal(severityTally(model({}, [])).lines, null);
   });
 
   test('usedBy: wallets shipping the package, this exact version, or only this one', () => {
