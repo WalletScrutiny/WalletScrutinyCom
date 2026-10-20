@@ -5,14 +5,16 @@
 // the site build picks it up from there (scripts/build-dependency-triage.mjs),
 // and the panel shows it on the row at once without waiting for a build.
 //
-// Who signs decides the weight: an author on the trusted list settles rows,
-// anyone else is counted as a community statement. The dialog says which of
-// the two the visitor is before they write.
+// Who signs decides the weight: an author on the trusted list settles rows
+// for this wallet, anyone else is shown under "What others say". Every
+// statement is made for the wallet whose page it is written on; a listed
+// maintainer of the direct user can say it holds for every wallet instead.
+// The dialog says which applies before the visitor writes.
 
 import { waitNostr } from 'nip07-awaiter';
 import { el } from './html-utils.mjs';
 import {
-  triageTemplate, statementFromEvent, statementChoices, triageSubject, evidenceUrl,
+  triageTemplate, statementFromEvent, statementChoices, statementScope, triageSubject, evidenceUrl,
   TRIAGE_STATUSES, TRIAGE_LABEL, TRIAGE_JUSTIFICATIONS, JUSTIFICATION_LABEL,
 } from './dependency-triage.mjs';
 import { connectNostr, ensureConnected, getUserPubkeyFromSigner, publishEvent, signEvent, nip19 } from './nostr-client.mjs';
@@ -53,11 +55,13 @@ export function browserNostr() {
 
 /**
  * The template fields for a statement about `advisory` from the form's
- * values: `choice` is one of statementChoices(), `status`, `justification`,
- * `versions`, `evidence`, `content` what was typed. Throws on what
- * triageTemplate refuses and on a `not_affected` without a reason.
+ * values: `choice` is one of statementChoices(), `everywhere` the signer's
+ * "holds for every wallet" (drops the wallet, for a library's maintainer),
+ * `status`, `justification`, `versions`, `evidence`, `content` what was
+ * typed. Throws on what triageTemplate refuses and on a `not_affected`
+ * without a reason.
  */
-export function statementFields(advisory, { choice, status, justification = '', versions = '', evidence = '', content = '' }) {
+export function statementFields(advisory, { choice, everywhere = false, status, justification = '', versions = '', evidence = '', content = '' }) {
   if (!choice) throw new Error('choose what the statement is about');
   if (!TRIAGE_STATUSES.includes(status)) throw new Error('choose a status');
   const why = String(content || '').trim();
@@ -67,7 +71,7 @@ export function statementFields(advisory, { choice, status, justification = '', 
     vulns: [advisory.id, ...(advisory.aliases || [])],
     pkg: `${advisory.ecosystem || 'npm'}:${advisory.package}`,
     via: choice.via || null,
-    app: choice.app || null,
+    app: (everywhere && choice.via ? null : choice.app) || null,
     status,
     justification: status === 'not_affected' && justification ? justification : null,
     versions: choice.via ? String(versions || '').trim() || null : null,
@@ -112,17 +116,21 @@ export function publishOutcome(summary) {
 /**
  * Open the dialog for one advisory row. `triage` is the wallet's statements
  * file (or null), `trusted` the trusted-author pubkeys (used when the file
- * has none), `onPublished(statement, summary)` runs after a relay accepted
- * the signed event. `edit` is a statement shown on the row whose "Edit" was
+ * has none), `maintainers` the listed maintainers per package reference
+ * (likewise), `onPublished(statement, summary)` runs after a relay accepted
+ * the signed event; `summary.settles` says whether it settles the row here. `edit` is a statement shown on the row whose "Edit" was
  * clicked: the dialog opens on its subject, filled from the signer's own
  * statement there or, when the signer is someone else, from this one.
  * Returns the <dialog> element.
  */
-export function openTriageDialog({ advisory, appId, triage = null, trusted = [], nostr = browserNostr(), onPublished = () => {}, edit = null }) {
-  const editKey = edit ? (edit.app ? `app:${edit.app}` : edit.via ? `via:${edit.via}` : 'package') : null;
+export function openTriageDialog({ advisory, appId, triage = null, trusted = [], maintainers = {}, nostr = browserNostr(), onPublished = () => {}, edit = null }) {
+  // Opened from a statement, possibly one made for another wallet: land on
+  // the same direct user in this wallet.
+  const editKey = edit ? (edit.via ? `via:${edit.via}` : edit.app ? `app:${appId}` : 'package') : null;
   const choices = statementChoices(advisory, { appId }).map((c, _, all) => (
     editKey && all.some(o => o.key === editKey) ? { ...c, preferred: c.key === editKey } : c));
   const trustedSet = new Set(triage?.trusted?.length ? triage.trusted : trusted);
+  const maintainerMap = triage?.maintainers && Object.keys(triage.maintainers).length ? triage.maintainers : maintainers;
   let pubkey = null;
   let prefilledFrom = null;
 
@@ -135,6 +143,9 @@ export function openTriageDialog({ advisory, appId, triage = null, trusted = [],
     el('legend', {}, 'This statement is about'),
     ...choices.map(c => radio('subject', c.key, c.label, c.hint, c.preferred)),
   );
+  const everywhereBox = el('input', { type: 'checkbox', name: 'everywhere', checked: edit?.via && !edit.app ? true : null });
+  const everywhereText = el('span', {});
+  const everywhereField = el('label', { className: 'dp-form__choice dp-form__everywhere', hidden: true }, everywhereBox, everywhereText);
   const statusGroup = el('fieldset', { className: 'dp-form__group' },
     el('legend', {}, 'Status'),
     ...TRIAGE_STATUSES.map(s => radio('status', s, TRIAGE_LABEL[s], STATUS_HINT[s])),
@@ -161,6 +172,7 @@ export function openTriageDialog({ advisory, appId, triage = null, trusted = [],
     el('h3', { className: 'dp-dialog__title' }, 'Statement on ', el('a', { href: `https://osv.dev/vulnerability/${encodeURIComponent(advisory.id)}`, target: '_blank', rel: 'noopener noreferrer' }, advisory.id)),
     el('p', { className: 'dp-form__context' }, `${advisory.package} ${advisory.version || ''}`.trim(), ' · ', String(sev).toLowerCase(), advisory.summary ? ` · ${advisory.summary}` : ''),
     subjectGroup,
+    everywhereField,
     statusGroup,
     justificationField,
     versionsField,
@@ -176,6 +188,7 @@ export function openTriageDialog({ advisory, appId, triage = null, trusted = [],
   // the property in a browser; the attribute where a DOM has no form state (unit tests)
   const isChecked = (input) => (typeof input.checked === 'boolean' ? input.checked : input.hasAttribute('checked'));
   const value = (name) => [...form.querySelectorAll(`input[name="${name}"]`)].find(isChecked)?.value || '';
+  const everywhere = () => isChecked(everywhereBox);
   const choiceOf = (key) => choices.find(c => c.key === key) || null;
   const showError = (message) => {
     error.textContent = message || '';
@@ -190,10 +203,16 @@ export function openTriageDialog({ advisory, appId, triage = null, trusted = [],
     const choice = choiceOf(value('subject'));
     justificationField.hidden = value('status') !== 'not_affected';
     versionsField.hidden = !choice?.via;
+    everywhereField.hidden = !(choice?.via && choice.app);
+    if (choice?.via) {
+      const lib = choice.via.replace(/^[a-z]+:/, '');
+      const listed = pubkey && (maintainerMap[choice.via] || []).includes(pubkey);
+      everywhereText.textContent = `I maintain ${lib}: this holds for every wallet that uses it${listed ? '' : ' (settles rows only once you are listed as its maintainer; until then it is shown as what others say)'}`;
+    }
     if (choice?.via) versionsLabel.textContent = `Versions of ${choice.via.replace(/^[a-z]+:/, '')} this holds for`;
   }
 
-  const subjectKey = (choice) => triageSubject({ vuln: advisory.id, via: choice.via || null, app: choice.app || null });
+  const subjectKey = (choice) => triageSubject({ vuln: advisory.id, via: choice.via || null, app: (everywhere() && choice.via ? null : choice.app) || null });
 
   // The signer's existing statement on the chosen subject fills the form, so
   // publishing again edits it (the relay replaces the older event). Opened
@@ -229,7 +248,7 @@ export function openTriageDialog({ advisory, appId, triage = null, trusted = [],
   }
 
   form.addEventListener('change', (event) => {
-    if (event.target?.name === 'subject') prefill();
+    if (event.target?.name === 'subject' || event.target?.name === 'everywhere') prefill();
     syncFields();
     showError(null);
   });
@@ -244,6 +263,7 @@ export function openTriageDialog({ advisory, appId, triage = null, trusted = [],
     try {
       template = triageTemplate(statementFields(advisory, {
         choice: choiceOf(value('subject')),
+        everywhere: everywhere(),
         status: value('status'),
         justification: selectValue(justification),
         versions: versions.value,
@@ -264,7 +284,8 @@ export function openTriageDialog({ advisory, appId, triage = null, trusted = [],
       const outcome = publishOutcome(summary);
       if (!outcome.ok) throw new Error(`No relay accepted the statement: ${outcome.text}`);
       close();
-      onPublished(statement, { ...summary, text: outcome.text, trusted: trustedSet.has(statement.pubkey) });
+      const settles = statementScope(statement, advisory, { appIds: [appId], trusted: trustedSet, maintainers: maintainerMap }) === null;
+      onPublished(statement, { ...summary, text: outcome.text, trusted: trustedSet.has(statement.pubkey), settles });
     } catch (e) {
       showError(e.message || String(e));
       publish.disabled = false;
@@ -282,8 +303,8 @@ export function openTriageDialog({ advisory, appId, triage = null, trusted = [],
       if (!(await nostr.waitExtension())) throw new Error(NO_EXTENSION_MESSAGE);
       pubkey = await nostr.getPubkey();
       const weight = trustedSet.has(pubkey)
-        ? 'your statements settle rows on this site'
-        : 'counted as a community statement; the site lists whose statements settle rows';
+        ? 'your statements settle rows for this wallet'
+        : 'shown under "What others say"; the site lists whose statements settle rows';
       signer.textContent = `Signing as ${shortNpub(pubkey)} · ${weight}.`;
       signer.dataset.pubkey = pubkey;
       publish.disabled = false;

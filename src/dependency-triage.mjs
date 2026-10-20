@@ -2,31 +2,42 @@
 // saying whether an advisory on a package affects whoever uses it that way.
 //
 // Whether a flaw in blib matters is a property of how its direct user alib
-// calls it, and that is the same in every wallet that ships alib (Leo,
-// 2026-10-16). So a statement names the advisory and the direct user:
+// calls it (Leo, 2026-10-16). So a statement names the advisory and the
+// direct user:
 //
-//   via:  "npm:alib"          alib's use of the package, holds for every
-//                             wallet in which the package is reached via alib
+//   via:  "npm:alib"          alib's use of the package
 //   app:  "it.airgap.vault"   this wallet's own, direct use of the package
 //   (neither)                 the package itself, whoever uses it: the flaw
 //                             needs a role nobody has in a wallet, say
 //
+// and its scope: a statement that carries an `app` was made for that wallet
+// and settles rows only there, `via` and `app` together being "how alib uses
+// the package, in this wallet". A wallet that judged alib's use does not
+// decide it for another wallet that ships alib (Leo, 2026-10-20: D-wallet
+// may come to a different conclusion), so in every other wallet the same
+// statement is shown as what others say, never applied. A statement without
+// `app` is about the library and holds everywhere, but only the library's
+// maintainer can make that claim: it settles rows when its author is listed
+// as a maintainer of the `via` package (or of the vulnerable package, when
+// it names neither), and is shown as what others say otherwise.
+//
 // The analyser records each package's `dependants` (who requires it, one hop
 // up) and `direct` (the wallet itself does). A wallet's row is settled when
-// every one of its direct users has a statement: all not affected means not
-// affected, one affected means affected, one missing means still open. The
-// wallet's own `app` statement settles the row outright.
+// every one of its direct users has a statement that settles here: all not
+// affected means not affected, one affected means affected, one missing means
+// still open. The wallet's own `app` statement without `via` settles the row
+// outright.
 //
 // Statements are addressable Nostr events (dependencyTriageKind), one per
 // author and subject, signed by whoever makes them: WalletScrutiny, the
 // direct user's maintainer, the wallet's developer, anyone. The site build
 // (scripts/build-dependency-triage.mjs) pulls them, keeps the newest per
-// (author, subject), and publishes the ones that concern a wallet next to its
-// export, with the list of trusted authors; only trusted authors' statements
-// settle a row, the others are counted. The states and the justification
-// labels follow VEX (Vulnerability Exploitability eXchange, OpenVEX). "Where?"
-// informs a statement but never makes one. See docs/dependency-check.md,
-// "Triage".
+// (author, subject), drops those their author deleted (NIP-09), and
+// publishes the ones that concern a wallet next to its export, with the
+// trusted authors and the listed maintainers; only those settle a row, the
+// others are shown. The states and the justification labels follow VEX
+// (Vulnerability Exploitability eXchange, OpenVEX). "Where?" informs a
+// statement but never makes one. See docs/dependency-check.md, "Triage".
 
 import { dependencyTriageKind } from './nostr-constants.mjs';
 
@@ -97,11 +108,13 @@ export function evidenceUrl(v) {
 }
 
 /**
- * The `d` tag of a statement: the advisory and the direct user it is about.
- * One of `via` (package reference of the direct user), `app` (wallet id), or
- * neither (the package itself).
+ * The `d` tag of a statement: the advisory, the direct user it is about and
+ * the wallet it was made for. `via` (package reference of the direct user),
+ * `app` (wallet id), both (the direct user, in that wallet), or neither (the
+ * package itself).
  */
 export function triageSubject({ vuln, via = null, app = null }) {
+  if (via && app) return `${vuln}|via:${via}|app:${app}`;
   if (via) return `${vuln}|via:${via}`;
   if (app) return `${vuln}|app:${app}`;
   return `${vuln}|package`;
@@ -110,8 +123,9 @@ export function triageSubject({ vuln, via = null, app = null }) {
 /**
  * The unsigned event for a statement, for a NIP-07 signer or a key:
  * `vulns` the advisory id and its aliases (the first is the subject's),
- * `pkg` the package reference ("npm:@babel/traverse"), `via` or `app` the
- * direct user, `status` one of TRIAGE_STATUSES, `justification` an OpenVEX
+ * `pkg` the package reference ("npm:@babel/traverse"), `via` the direct
+ * user, `app` the wallet (its own use, or with `via` the wallet the
+ * statement was made for), `status` one of TRIAGE_STATUSES, `justification` an OpenVEX
  * label (optional), `versions` of the direct user the statement holds for
  * (optional, free text), `evidence` a link to the issue, pull request or
  * code line the statement rests on (optional), `content` the reasoning in prose.
@@ -121,7 +135,6 @@ export function triageTemplate({ vulns, pkg, via = null, app = null, status, jus
   if (!ids.length) throw new Error('a statement needs at least one advisory id');
   for (const id of ids) if (!ADVISORY_ID_RE.test(id)) throw new Error(`"${id}" is not an advisory id (GHSA-…, CVE-…, MAL-…)`);
   if (!PACKAGE_REF_RE.test(text(pkg))) throw new Error(`"${pkg}" is not a package reference (ecosystem:name)`);
-  if (via && app) throw new Error('a statement is about one direct user: via or app, not both');
   if (via && !PACKAGE_REF_RE.test(text(via))) throw new Error(`"${via}" is not a package reference (ecosystem:name)`);
   if (!TRIAGE_STATUSES.includes(status)) throw new Error(`status "${status}" is not one of ${TRIAGE_STATUSES.join(', ')}`);
   if (justification && !TRIAGE_JUSTIFICATIONS.includes(justification)) throw new Error(`justification "${justification}" is not one of ${TRIAGE_JUSTIFICATIONS.join(', ')}`);
@@ -152,7 +165,7 @@ const tagValues = (event, name) => event.tags.filter(t => Array.isArray(t) && t[
 
 /**
  * A statement from a (verified) event, or null when the event is not a
- * well-formed statement: wrong kind, no advisory, bad status, both via and app.
+ * well-formed statement: wrong kind, no advisory, bad status.
  */
 export function statementFromEvent(event, { kind = dependencyTriageKind } = {}) {
   if (!event || event.kind !== kind || !Array.isArray(event.tags)) return null;
@@ -162,7 +175,7 @@ export function statementFromEvent(event, { kind = dependencyTriageKind } = {}) 
   const via = text(tagValue(event, 'via')) || null;
   const app = text(tagValue(event, 'app')) || null;
   const pkg = text(tagValue(event, 'package')) || null;
-  if (!d || !vulns.length || !TRIAGE_STATUSES.includes(status) || (via && app)) return null;
+  if (!d || !vulns.length || !TRIAGE_STATUSES.includes(status)) return null;
   if (pkg && !PACKAGE_REF_RE.test(pkg)) return null;
   if (via && !PACKAGE_REF_RE.test(via)) return null;
   const justification = tagValue(event, 'justification');
@@ -217,7 +230,7 @@ export function statementConcerns(statement, advisory) {
   return true;
 }
 
-// Among several trusted authors' statements on one subject, the newest.
+// Among several statements on one subject, the newest.
 function pick(list) {
   return list.reduce((best, s) => (!best || s.created_at > best.created_at ? s : best), null);
 }
@@ -227,63 +240,92 @@ function worstOf(statuses) {
 }
 
 /**
+ * Why a statement that concerns this row does not settle it, or null when it
+ * can: `elsewhere` made for another wallet, `unproven` a claim about the
+ * library by someone not listed as its maintainer, `community` an author
+ * outside the trusted list.
+ */
+export function statementScope(s, advisory, { appIds = [], trusted = new Set(), maintainers = {} } = {}) {
+  if (s.app) {
+    if (!appIds.includes(s.app)) return 'elsewhere';
+    return trusted.has(s.pubkey) ? null : 'community';
+  }
+  const library = s.via || (advisory.package ? `${advisory.ecosystem || 'npm'}:${advisory.package}` : null);
+  if (library && (maintainers[library] || []).includes(s.pubkey)) return null;
+  return trusted.has(s.pubkey) ? 'unproven' : 'community';
+}
+
+/**
  * Resolve one advisory row of one wallet against the statements. Returns
- * `{ decision, needs, covered, community }`:
+ * `{ decision, needs, covered, others }`:
  *   decision   `{ status, basis: [{ need, statement }] }` or null while open
  *   needs      what has to be judged for this row: `app:<id>` when the wallet
  *              imports the package itself, `via:<pkg>` per direct user, or
  *              `package` when the files do not say who requires it
- *   covered    the needs a trusted statement answers (a subset of needs)
- *   community  statements by authors outside the trusted list (counted, not applied)
+ *   covered    the needs a settling statement answers (a subset of needs)
+ *   others     the statements that concern the row but do not settle it here
+ *              (statementScope), each `{ statement, scope }`: what others say
+ * `maintainers` maps a package reference to the pubkeys listed as its
+ * maintainers; `trusted` is the set of trusted authors.
  */
-export function resolveRow(advisory, statements = [], { appIds = [], trusted = new Set() } = {}) {
+export function resolveRow(advisory, statements = [], { appIds = [], trusted = new Set(), maintainers = {} } = {}) {
+  const ids = appIds.filter(Boolean);
   const relevant = statements.filter(s => statementConcerns(s, advisory));
-  const trustedOnes = relevant.filter(s => trusted.has(s.pubkey));
-  const community = relevant.filter(s => !trusted.has(s.pubkey));
-  const ids = new Set(appIds.filter(Boolean));
-  const own = pick(trustedOnes.filter(s => s.app && ids.has(s.app)));
-  const packageWide = pick(trustedOnes.filter(s => !s.app && !s.via));
+  const settling = [];
+  const others = [];
+  for (const s of relevant) {
+    const scope = statementScope(s, advisory, { appIds: ids, trusted, maintainers });
+    if (scope) others.push({ statement: s, scope });
+    else settling.push(s);
+  }
+  const own = pick(settling.filter(s => s.app && !s.via));
+  const packageWide = pick(settling.filter(s => !s.app && !s.via));
   const eco = advisory.ecosystem || 'npm';
 
   const needs = [];
-  if (advisory.direct) needs.push(`app:${appIds[0] || '?'}`);
+  if (advisory.direct) needs.push(`app:${ids[0] || '?'}`);
   const dependants = Array.isArray(advisory.dependants) ? advisory.dependants : null;
   for (const d of dependants || []) needs.push(`via:${eco}:${d}`);
   if (!needs.length) needs.push('package'); // no graph (gradle), or nothing in the files requires it
 
   if (own) {
-    return { decision: { status: own.status, basis: [{ need: `app:${own.app}`, statement: own }] }, needs, covered: needs, community };
+    return { decision: { status: own.status, basis: [{ need: `app:${own.app}`, statement: own }] }, needs, covered: needs, others };
   }
   const basis = [];
   const covered = [];
   for (const need of needs) {
     let s = null;
-    if (need.startsWith('via:')) s = pick(trustedOnes.filter(t => t.via === need.slice(4))) || packageWide;
-    else s = packageWide; // the wallet's own use, or an unknown graph: only a package-wide statement can answer without an `app` one
+    if (need.startsWith('via:')) {
+      const via = need.slice(4);
+      // this wallet's statement on the direct user first, then its maintainer's
+      s = pick(settling.filter(t => t.via === via && t.app)) || pick(settling.filter(t => t.via === via)) || packageWide;
+    } else s = packageWide; // the wallet's own use, or an unknown graph: only a package-wide statement can answer without an `app` one
     if (s) {
       basis.push({ need, statement: s });
       covered.push(need);
     }
   }
   if (covered.length === needs.length) {
-    return { decision: { status: worstOf(basis.map(b => b.statement.status)), basis }, needs, covered, community };
+    return { decision: { status: worstOf(basis.map(b => b.statement.status)), basis }, needs, covered, others };
   }
-  return { decision: null, needs, covered, community, partial: basis };
+  return { decision: null, needs, covered, others, partial: basis };
 }
 
 /**
- * Attach `decision` (or null) and `triage` (needs, covered, community and
- * the community statements themselves) to
+ * Attach `decision` (or null) and `triage` (needs, covered, and what others
+ * say: the statements that concern the row without settling it here) to
  * every advisory and count the states. `triage` is the wallet's published
- * file: `{ trusted: [pubkeys], statements: [...] }`, or null when nobody has
- * said anything yet. summary.undecided is the work queue.
+ * file: `{ trusted: [pubkeys], maintainers: { pkg: [pubkeys] }, statements:
+ * [...] }`, or null when nobody has said anything yet. summary.undecided is
+ * the work queue; summary.others counts rows with something others said.
  */
 export function applyTriage(advisories = [], triage = null, { appIds = [] } = {}) {
   const statements = newestStatements(triage?.statements || []);
   const trusted = new Set(triage?.trusted || []);
-  const summary = { total: advisories.length, decided: 0, undecided: 0, affected: 0, not_affected: 0, fixed: 0, under_investigation: 0, partial: 0, community: 0 };
+  const maintainers = triage?.maintainers || {};
+  const summary = { total: advisories.length, decided: 0, undecided: 0, affected: 0, not_affected: 0, fixed: 0, under_investigation: 0, partial: 0, others: 0 };
   const out = advisories.map((a) => {
-    const r = resolveRow(a, statements, { appIds, trusted });
+    const r = resolveRow(a, statements, { appIds, trusted, maintainers });
     if (r.decision) {
       summary.decided += 1;
       summary[r.decision.status] += 1;
@@ -291,18 +333,21 @@ export function applyTriage(advisories = [], triage = null, { appIds = [] } = {}
       summary.undecided += 1;
       if (r.covered.length) summary.partial += 1;
     }
-    if (r.community.length) summary.community += 1;
-    return { ...a, decision: r.decision, triage: { needs: r.needs, covered: r.covered, community: r.community.length, communityStatements: r.community, partial: r.partial || [] } };
+    if (r.others.length) summary.others += 1;
+    return { ...a, decision: r.decision, triage: { needs: r.needs, covered: r.covered, others: r.others, partial: r.partial || [] } };
   });
   return { advisories: out, summary };
 }
 
 /**
  * What a statement about this row can be about, in the order the form offers
- * them: each direct user (`via`), this wallet's own use (`app`, which settles
- * the row outright), and the package itself, whoever uses it. `preferred`
- * marks the one to start from: the single direct user when there is exactly
- * one and the wallet does not import the package itself, else the wallet.
+ * them: each direct user (`via`, made for this wallet), this wallet's own use
+ * (`app`, which settles the row outright), and the package itself, whoever
+ * uses it. `library` is the package whose maintainer can make the statement
+ * hold for every wallet (the form drops `app` when the signer says so).
+ * `preferred` marks the one to start from: the single direct user when there
+ * is exactly one and the wallet does not import the package itself, else the
+ * wallet.
  */
 export function statementChoices(advisory, { appId } = {}) {
   const eco = advisory?.ecosystem || 'npm';
@@ -311,8 +356,10 @@ export function statementChoices(advisory, { appId } = {}) {
   const choices = dependants.map(d => ({
     key: `via:${eco}:${d}`,
     via: `${eco}:${d}`,
-    label: `how ${d} uses ${name}`,
-    hint: `holds for every wallet in which ${name} is only reached via ${d}`,
+    app: appId || null,
+    library: `${eco}:${d}`,
+    label: `how ${d} uses ${name}${appId ? ', in this wallet' : ''}`,
+    hint: `settles ${d} for this wallet; other wallets that reach ${name} via ${d} see it as what others say`,
   }));
   if (appId) {
     choices.push({
@@ -322,7 +369,7 @@ export function statementChoices(advisory, { appId } = {}) {
       hint: 'settles the row for this wallet only',
     });
   }
-  choices.push({ key: 'package', label: `${name} itself, whoever uses it`, hint: 'the flaw needs a role nobody has in a wallet, say; answers for every wallet and every direct user' });
+  choices.push({ key: 'package', library: `${eco}:${advisory?.package}`, label: `${name} itself, whoever uses it`, hint: `for every wallet; settles rows only when signed by a listed maintainer of ${name}, elsewhere it is shown as what others say` });
   const preferredKey = dependants.length === 1 && !advisory?.direct ? choices[0].key : (appId ? `app:${appId}` : 'package');
   return choices.map(c => ({ ...c, preferred: c.key === preferredKey }));
 }
@@ -332,11 +379,12 @@ export function statementChoices(advisory, { appId } = {}) {
  * after publishing: newestStatements() lets it replace the author's older one
  * on the same subject. `trusted` fills in the list when the wallet had no file.
  */
-export function withStatement(triage, statement, { appId = null, trusted = [] } = {}) {
+export function withStatement(triage, statement, { appId = null, trusted = [], maintainers = {} } = {}) {
   return {
-    schema: 3,
+    schema: 4,
     appId: triage?.appId || appId,
     trusted: triage?.trusted?.length ? triage.trusted : [...trusted],
+    maintainers: triage?.maintainers || maintainers,
     statements: [...(triage?.statements || []), statement],
   };
 }

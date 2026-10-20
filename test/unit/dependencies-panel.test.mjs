@@ -97,9 +97,10 @@ describe('dependencies panel', () => {
     let n = 0;
     const statement = (vulns, extra) => ({ id: String(++n), pubkey: me, created_at: 1, d: `${vulns[0]}|${n}`, vulns, package: 'npm:pkg', via: null, app: null, justification: null, versions: null, content: '', ...extra });
     const triage = { schema: 3, appId: 'app.android', trusted: [me], statements: [
-      statement(['GHSA-crit'], { via: 'npm:alib', status: 'not_affected', justification: 'vulnerable_code_not_in_execute_path', content: 'alib never calls parse()' }),
+      statement(['GHSA-crit'], { via: 'npm:alib', app: 'app.android', status: 'not_affected', justification: 'vulnerable_code_not_in_execute_path', content: 'alib never calls parse()' }),
+      statement(['GHSA-crit'], { via: 'npm:alib', app: 'd.wallet', status: 'affected', content: 'd.wallet hands alib user input' }),
       statement(['GHSA-test'], { app: 'app.android', status: 'affected', content: 'postinstall runs on the build machine' }),
-      statement(['GHSA-high'], { via: 'npm:one', status: 'not_affected' }),
+      statement(['GHSA-high'], { via: 'npm:one', app: 'app.android', status: 'not_affected' }),
       statement(['GHSA-mod-0'], { via: 'npm:zlib', status: 'fixed', pubkey: 'b'.repeat(64) }),
     ] };
     const app = { ...APP, releases: [{ ...APP.releases[0], advisories: APP.releases[0].advisories.map(a => (
@@ -110,7 +111,7 @@ describe('dependencies panel', () => {
     const host = document.createElement('div');
     const model = await renderDependenciesPanel({ host, appId: 'app.ios', base: '/x', fetchImpl });
     assert.deepEqual(calls.slice(2), ['/x/triage/app.ios.json', '/x/triage/app.android.json', '/x/signals.json'], 'the page\'s id first, then the analysis id, then the signals');
-    assert.deepEqual(model.triage, { total: 13, decided: 2, undecided: 11, affected: 1, not_affected: 1, fixed: 0, under_investigation: 0, partial: 1, community: 1 });
+    assert.deepEqual(model.triage, { total: 13, decided: 2, undecided: 11, affected: 1, not_affected: 1, fixed: 0, under_investigation: 0, partial: 1, others: 2 });
     assert.deepEqual([...host.querySelectorAll('.dp-tally')].map(e => e.textContent), ['1 critical · 1 cleared', '2 high · none cleared', '10 medium · none cleared'], 'the not-affected critical is cleared; the affected high is not');
     assert.ok(host.querySelector('.dp-tile--sev-high'), 'with the only critical cleared, the count goes orange');
     assert.equal(host.querySelector('.dp-tile .dp-triage-line').textContent, '2 decided · 1 affected · 1 not affected · 11 still to look at (1 partly)');
@@ -122,6 +123,9 @@ describe('dependencies panel', () => {
     assert.equal(first.querySelector('.dp-decision').textContent, 'not affected');
     assert.equal(first.querySelector('.dp-decision__why').textContent, 'via alib: vulnerable code never executed (not affected, aaaaaaaa…) Edit');
     assert.equal(rows[0].querySelector('.dp-via').textContent, 'via alib');
+    const elsewhere = first.querySelector('details.dp-decision__others');
+    assert.equal(elsewhere.querySelector('summary').textContent, 'What others say (1)', 'another wallet\'s call on the same direct user is shown, not applied');
+    assert.equal(elsewhere.querySelector('.dp-decision__why').textContent, 'in d.wallet, via alib: d.wallet hands alib user input (affected, aaaaaaaa…) Adopt');
     assert.equal(affected.querySelector('.dp-decision').textContent, 'affected');
     assert.equal(affected.querySelector('.dp-decision__why').textContent, 'this wallet: postinstall runs on the build machine (affected, aaaaaaaa…) Edit');
     assert.equal(affected.querySelector('.dp-via').textContent, 'imported by the wallet');
@@ -130,10 +134,10 @@ describe('dependencies panel', () => {
     assert.equal(partly.querySelector('.dp-decision__why').textContent, '1 of 2 direct users assessed');
     const community = rows.find(r => r.querySelector('td a').textContent === 'GHSA-mod-0');
     assert.equal(community.querySelector('.dp-decision').textContent, 'Not assessed', 'an author outside the trusted list settles nothing');
-    const folded = community.querySelector('details.dp-decision__community');
-    assert.equal(folded.querySelector('summary').textContent, '1 community statement');
+    const folded = community.querySelector('details.dp-decision__others');
+    assert.equal(folded.querySelector('summary').textContent, 'What others say (1)');
     assert.equal(folded.hasAttribute('open'), false, 'folded until asked for');
-    assert.equal(folded.querySelector('.dp-decision__why').textContent, 'via zlib: fixed (fixed, bbbbbbbb…) Edit', 'the statement itself is there to read');
+    assert.equal(folded.querySelector('.dp-decision__why').textContent, 'community, via zlib: fixed (fixed, bbbbbbbb…) Edit', 'the statement itself is there to read');
     assert.match(host.querySelector('.dp-note').textContent, /2 of 13 advisories settled that way/);
   });
 

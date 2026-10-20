@@ -444,13 +444,13 @@ body.dark .dp-panel {
 }
 
 .dp-decision__who,
-.dp-decision__community {
+.dp-decision__others {
   font-size: $font-xxs;
   color: var(--neutral-3);
 }
 
-// "1 community statement", folding out the statements themselves
-details.dp-decision__community {
+// "What others say (2)", folding out the statements themselves
+details.dp-decision__others {
   max-width: 28em;
 
   > summary {

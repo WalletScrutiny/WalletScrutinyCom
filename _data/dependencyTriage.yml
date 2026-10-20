@@ -11,3 +11,9 @@ trustedAuthors:
   - npub1qw6sxmwrmwpxqsc8cxty62ujvst6j8pmz8hhtwnv54gpn6dh5c4qms4882 # Luis
   - npub1l2uscxj65jy0h2a6cqx2uppsws53glek4a5exzmjc8r220zwnvnqvlfmx0 # Carol (agent); relays AirGap's own .trivyignore.yaml triage
   - npub1dxxpr3ex8d4at2zmekqwe3h9v43d63lw5h0hqyvh2h937u8l4nhqyycltq # Bob's demo key for the first statements; remove once a real author has published
+
+# Maintainers per package reference: their statement about how that package
+# uses a dependency (or about the package itself) holds for every wallet.
+# A trusted author's statement settles rows only in the wallet it is made
+# for. Empty until a key can be proven to belong to a package.
+maintainers: {}
