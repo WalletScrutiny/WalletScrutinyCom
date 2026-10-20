@@ -231,10 +231,6 @@
 }
 
 @media (max-width: 767px) {
-  #main:has(.android-app-page) {
-    margin-top: 4em * 0.65;
-  }
-
   .android-app-page .guide-hero .guide-lead {
     font-size: $font-lg * 0.75;
   }
