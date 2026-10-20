@@ -674,6 +674,11 @@ export async function renderDependenciesPanel({ host, appId, storeVersion = '', 
         paint({ flash: publishedFlash(statement, summary), freshId: statement.id, showAll: true });
         (host.querySelector('.dp-row--fresh') || host.querySelector('.dp-flash'))?.scrollIntoView?.({ block: 'center' });
       },
+      onDeleted: (statement, summary) => {
+        triage = triage ? { ...triage, statements: triage.statements.filter(s => s.id !== statement.id) } : triage;
+        paint({ flash: `Your statement on ${statement.vulns[0]} is deleted (${summary.text}): gone from this page now, from every wallet page after the next site build.`, showAll: true });
+        host.querySelector('.dp-flash')?.scrollIntoView?.({ block: 'center' });
+      },
     });
   }
 

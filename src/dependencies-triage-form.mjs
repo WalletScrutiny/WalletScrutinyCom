@@ -14,7 +14,7 @@
 import { waitNostr } from 'nip07-awaiter';
 import { el } from './html-utils.mjs';
 import {
-  triageTemplate, statementFromEvent, statementChoices, statementScope, triageSubject, evidenceUrl,
+  dependencyTriageKind, triageTemplate, statementFromEvent, statementChoices, statementScope, triageSubject, evidenceUrl,
   TRIAGE_STATUSES, TRIAGE_LABEL, TRIAGE_JUSTIFICATIONS, JUSTIFICATION_LABEL,
 } from './dependency-triage.mjs';
 import { connectNostr, ensureConnected, getUserPubkeyFromSigner, publishEvent, signEvent, nip19 } from './nostr-client.mjs';
@@ -123,7 +123,21 @@ export function publishOutcome(summary) {
  * statement there or, when the signer is someone else, from this one.
  * Returns the <dialog> element.
  */
-export function openTriageDialog({ advisory, appId, triage = null, trusted = [], maintainers = {}, nostr = browserNostr(), onPublished = () => {}, edit = null }) {
+/**
+ * The unsigned NIP-09 deletion request for one's own statement: the event
+ * and the subject, so a relay drops the statement and the site build
+ * (scripts/build-dependency-triage.mjs) leaves it out for good.
+ */
+export function deletionTemplate(statement, { created_at = Math.floor(Date.now() / 1000) } = {}) {
+  return {
+    kind: 5,
+    created_at,
+    tags: [['e', statement.id], ['a', `${dependencyTriageKind}:${statement.pubkey}:${statement.d}`], ['k', String(dependencyTriageKind)]],
+    content: 'Statement withdrawn by its author',
+  };
+}
+
+export function openTriageDialog({ advisory, appId, triage = null, trusted = [], maintainers = {}, nostr = browserNostr(), onPublished = () => {}, onDeleted = () => {}, edit = null }) {
   // Opened from a statement, possibly one made for another wallet: land on
   // the same direct user in this wallet.
   const editKey = edit ? (edit.via ? `via:${edit.via}` : edit.app ? `app:${appId}` : 'package') : null;
@@ -164,6 +178,9 @@ export function openTriageDialog({ advisory, appId, triage = null, trusted = [],
   const copied = el('p', { className: 'dp-form__copied', hidden: true });
   const error = el('p', { className: 'dp-form__error', hidden: true });
   const cancel = el('button', { type: 'button', className: 'btn-small' }, 'Cancel');
+  // Shown when the form holds the signer's own statement; asks twice.
+  const remove = el('button', { type: 'button', className: 'btn-small dp-form__delete', hidden: true }, 'Delete statement');
+  let ownLoaded = null;
   const publish = el('button', { type: 'submit', className: 'btn-small dp-form__publish', disabled: true }, 'Publish statement');
 
   const sev = SEVERITY_LABEL[advisory.severity] || advisory.severity;
@@ -181,7 +198,7 @@ export function openTriageDialog({ advisory, appId, triage = null, trusted = [],
     copied,
     signer,
     error,
-    el('div', { className: 'dp-form__actions' }, cancel, publish),
+    el('div', { className: 'dp-form__actions' }, remove, cancel, publish),
   );
   const dialog = el('dialog', { className: 'dp-dialog' }, form);
 
@@ -225,6 +242,10 @@ export function openTriageDialog({ advisory, appId, triage = null, trusted = [],
     const own = ownStatement(triage, pubkey, d);
     const other = !own && edit && choice.key === editKey ? edit : null;
     const mine = own || other;
+    ownLoaded = own;
+    remove.hidden = !own;
+    remove.textContent = 'Delete statement';
+    delete remove.dataset.armed;
     copied.hidden = !other;
     copied.textContent = other ? `Filled in from ${shortNpub(other.pubkey)}'s statement. Publishing signs it as your own; theirs stays as it is.` : '';
     if (mine) {
@@ -253,6 +274,30 @@ export function openTriageDialog({ advisory, appId, triage = null, trusted = [],
     showError(null);
   });
   cancel.addEventListener('click', close);
+  remove.addEventListener('click', async () => {
+    if (!ownLoaded) return;
+    if (!remove.dataset.armed) {
+      remove.dataset.armed = '1';
+      remove.textContent = 'Click again to delete';
+      return;
+    }
+    showError(null);
+    remove.disabled = true;
+    remove.textContent = 'Deleting…';
+    try {
+      const signed = await nostr.signEvent(deletionTemplate(ownLoaded));
+      const outcome = publishOutcome(await nostr.publish(signed));
+      if (!outcome.ok) throw new Error(`No relay accepted the deletion: ${outcome.text}`);
+      const gone = ownLoaded;
+      close();
+      onDeleted(gone, { text: outcome.text });
+    } catch (e) {
+      showError(e.message || String(e));
+      remove.disabled = false;
+      remove.textContent = 'Delete statement';
+      delete remove.dataset.armed;
+    }
+  });
   form.querySelector('.dp-dialog__close').addEventListener('click', close);
   dialog.addEventListener('close', () => dialog.remove());
 
