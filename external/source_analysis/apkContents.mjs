@@ -98,6 +98,8 @@ export function dexClasses(buf) {
  * A hash of what an ELF library loads: the bytes of its PT_LOAD segments.
  * The Android build strips debug symbols from every .so it packages, which
  * changes the file but not these bytes, so equal hashes mean the same code.
+ * The first segment holds the ELF header, whose section-table fields
+ * (e_shoff, e_shnum, e_shstrndx) stripping rewrites; those are zeroed first.
  * Null for anything that is not a little-endian ELF.
  */
 export function elfCodeHash(buf) {
@@ -106,6 +108,8 @@ export function elfCodeHash(buf) {
   const phoff = is64 ? Number(buf.readBigUInt64LE(0x20)) : buf.readUInt32LE(0x1c);
   const phentsize = buf.readUInt16LE(is64 ? 0x36 : 0x2a);
   const phnum = buf.readUInt16LE(is64 ? 0x38 : 0x2c);
+  const header = Buffer.from(buf.subarray(0, is64 ? 64 : 52));
+  if (is64) { header.fill(0, 0x28, 0x30); header.fill(0, 0x3a, 0x40); } else { header.fill(0, 0x20, 0x24); header.fill(0, 0x2e, 0x34); }
   const h = createHash('sha256');
   let loads = 0;
   for (let i = 0; i < phnum; i++) {
@@ -113,7 +117,10 @@ export function elfCodeHash(buf) {
     if (buf.readUInt32LE(p) !== 1) continue; // PT_LOAD
     const offset = is64 ? Number(buf.readBigUInt64LE(p + 8)) : buf.readUInt32LE(p + 4);
     const filesz = is64 ? Number(buf.readBigUInt64LE(p + 32)) : buf.readUInt32LE(p + 16);
-    h.update(buf.subarray(offset, offset + filesz));
+    if (offset === 0 && filesz >= header.length) {
+      h.update(header);
+      h.update(buf.subarray(header.length, filesz));
+    } else h.update(buf.subarray(offset, offset + filesz));
     loads++;
   }
   return loads ? h.digest('hex') : null;
@@ -194,9 +201,13 @@ export async function artifactContents(coordinate, version, { fetchImpl = fetch,
         const runtime = (doc.variants || []).filter(v => /runtime/i.test(v.attributes?.['org.gradle.usage'] || '')
           && (v.attributes?.['org.gradle.category'] ?? 'library') === 'library');
         const rank = (v) => (v.attributes?.['org.gradle.jvm.environment'] === 'android' || /android/i.test(v.name) ? 2 : 0) + (/debug/i.test(v.name) ? 0 : 1);
-        const prefer = runtime.sort((x, y) => rank(y) - rank(x));
-        for (const v of prefer.reverse()) {
-          for (const f of v.files || []) if (/\.(aar|jar)$/.test(f.url) && !/-(sources|javadoc)\.jar$/.test(f.url)) candidates.unshift(f.url);
+        // the best variant decides: its own file, or the module it points at
+        for (const v of runtime.sort((x, y) => rank(y) - rank(x))) {
+          const files = (v.files || []).map(f => f.url).filter(u => /\.(aar|jar)$/.test(u) && !/-(sources|javadoc)\.jar$/.test(u));
+          if (files.length) {
+            candidates.unshift(...files);
+            break;
+          }
           const at = v['available-at'];
           if (at?.group && at?.module && at?.version && at.module !== artifact) {
             const redirected = await artifactContents(`${at.group}:${at.module}`, at.version, { fetchImpl, repos });

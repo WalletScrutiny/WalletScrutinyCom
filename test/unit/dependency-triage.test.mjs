@@ -129,6 +129,14 @@ describe('dependency triage statements', () => {
     assert.equal(statementScope(airgap, row, { appIds: ['it.airgap.vault'], trusted: new Set() }), 'community', 'made here, by an untrusted author');
   });
 
+  test('resolveRow: a statement about a direct user the release no longer has stays in sight', () => {
+    const row = { id: 'GHSA-fjxv-7rqg-78g4', aliases: [], ecosystem: 'npm', package: 'form-data', direct: false, dependants: ['superagent'] };
+    const stale = stmt({ vulns: ['GHSA-fjxv-7rqg-78g4'], pkg: 'npm:form-data', via: 'npm:graphql-request', app: 'w', status: 'not_affected' });
+    const r = resolveRow(row, [stale], { appIds: ['w'], trusted: new Set([pk]) });
+    assert.equal(r.decision, null);
+    assert.deepEqual(r.others.map(o => o.scope), ['unused']);
+  });
+
   test('applyTriage counts the queue', () => {
     const triage = { trusted: [pk], statements: [
       stmt({ vulns: ['GHSA-67hx-6x53-jw92'], pkg: 'npm:@babel/traverse', via: 'npm:@babel/core', app: 'app', status: 'not_affected' }),

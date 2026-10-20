@@ -1,71 +1,5 @@
 [
  {
-  "content": "",
-  "created_at": 1791814798,
-  "id": "2834103ae8fe7410cbd55b90ccca8869845b723eec3553e73f4eef8e70453480",
-  "kind": 5,
-  "pubkey": "8a16d6522432fcf84a75c86b8e06b64c4e702abd2516597dfbb43bd53b29437a",
-  "sig": "b4e6386b0ae1c34391ffa83138ddf36d0e5238f6d603763a79daf4f5dd21dc3b90cb3ec6bd73afffed62cbb4de9c7d574c4b29c364dc9bb47d8f8512f9536e8a",
-  "tags": [
-   [
-    "e",
-    "faa6b06ccea5f1adba118e74d9669a10b79f7ccbd74c6b501b80a0d84c026c68"
-   ],
-   [
-    "k",
-    "30350"
-   ],
-   [
-    "a",
-    "30350:8a16d6522432fcf84a75c86b8e06b64c4e702abd2516597dfbb43bd53b29437a:y22mq3irwi0i"
-   ]
-  ]
- },
- {
-  "content": "",
-  "created_at": 1791814803,
-  "id": "deedfd97c3b99b29729f7a68f789b4ed925b27ea10dc14c8bb5ad1f09316e707",
-  "kind": 5,
-  "pubkey": "8a16d6522432fcf84a75c86b8e06b64c4e702abd2516597dfbb43bd53b29437a",
-  "sig": "0e607917056875d7a57f8b291ba890781f159351ee5e4f01782e306b83aa6850074bfdf015ae1d810ec31d9f941b51061913b410147354a625dbe46314beb838",
-  "tags": [
-   [
-    "e",
-    "faa6b06ccea5f1adba118e74d9669a10b79f7ccbd74c6b501b80a0d84c026c68"
-   ],
-   [
-    "k",
-    "30350"
-   ],
-   [
-    "a",
-    "30350:8a16d6522432fcf84a75c86b8e06b64c4e702abd2516597dfbb43bd53b29437a:y22mq3irwi0i"
-   ]
-  ]
- },
- {
-  "content": "",
-  "created_at": 1791820891,
-  "id": "80469f1670e3ead802d8633829eb0fab8943c5a416ef78ed5420564c1951a7f8",
-  "kind": 5,
-  "pubkey": "c7fa3b7c7ec5633b7c9718de9d5f528d0e1c55c9b1543532596ca4a058b4cfe9",
-  "sig": "d82637a9526d054746890ad9d38461695673048a76847e459095070c8eeb789f167fac7c73bbdec4ebd331ce7ab9ddb5bab97fafe6961d8fd3e777fabaf38ac8",
-  "tags": [
-   [
-    "e",
-    "4b2689ab1599eaeaafda98e2eeebce856a3bdc49dddb0dcd43f68c40d8325323"
-   ],
-   [
-    "k",
-    "30350"
-   ],
-   [
-    "a",
-    "30350:c7fa3b7c7ec5633b7c9718de9d5f528d0e1c55c9b1543532596ca4a058b4cfe9:nbyazbsasjfe"
-   ]
-  ]
- },
- {
   "content": "Compiler: @babel/core hands it the project's own sources, not attacker-written code. First example statement, to be confirmed or replaced.",
   "created_at": 1792169649,
   "id": "364cab22ed1bdb2e82437e64f2748b290020d672db3a603126f650d39b5334ea",
@@ -226,48 +160,6 @@
    [
     "evidence",
     "https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/978"
-   ],
-   [
-    "client",
-    "WalletScrutiny.com"
-   ],
-   [
-    "c",
-    "walletscrutiny"
-   ]
-  ]
- },
- {
-  "content": "Testing our judge button. Disregard.",
-  "created_at": 1792480787,
-  "id": "35ab221bf15f1347abb542c06f0fe27b1494329b26f2e3d99caeb6eb0c84a41a",
-  "kind": 30350,
-  "pubkey": "916cb5ff07d3b51cef7f6b6b7f5479b1001b401c0e82558ee1a22504c7d507c9",
-  "sig": "825230dc1386af2a56e7d3792eb95366025e1d359d8da46b8adba35df68a817c7693abfe729b46d758e82bb172b6f8618f2e8f3ddab40bf1d66d43e2e858b2ae",
-  "tags": [
-   [
-    "d",
-    "GHSA-xvch-5gv4-984h|package"
-   ],
-   [
-    "vuln",
-    "GHSA-xvch-5gv4-984h"
-   ],
-   [
-    "vuln",
-    "CVE-2021-44906"
-   ],
-   [
-    "package",
-    "npm:minimist"
-   ],
-   [
-    "status",
-    "under_investigation"
-   ],
-   [
-    "evidence",
-    "https://www.google.com/search?q=minimist+1.2.0+%C2%B7+critical+%C2%B7+Prototype+Pollution+in+minimist"
    ],
    [
     "client",
@@ -1884,6 +1776,28 @@
    [
     "c",
     "walletscrutiny"
+   ]
+  ]
+ },
+ {
+  "content": "Statement withdrawn by its author",
+  "created_at": 1792501670,
+  "id": "597862f61fc4c801bb94a1390e02ceb34a415fe7a5750ee2417501ff4549db43",
+  "kind": 5,
+  "pubkey": "916cb5ff07d3b51cef7f6b6b7f5479b1001b401c0e82558ee1a22504c7d507c9",
+  "sig": "ca3591b48d00ac9653c25834b66e8cc5e5c8ac5773b731a570194ee56debe5dfa44eb67e61decf76e4be6a8d13b534326bf2e584f7f91bb309310d3e64d780c1",
+  "tags": [
+   [
+    "e",
+    "35ab221bf15f1347abb542c06f0fe27b1494329b26f2e3d99caeb6eb0c84a41a"
+   ],
+   [
+    "a",
+    "30350:916cb5ff07d3b51cef7f6b6b7f5479b1001b401c0e82558ee1a22504c7d507c9:GHSA-xvch-5gv4-984h|package"
+   ],
+   [
+    "k",
+    "30350"
    ]
   ]
  }
