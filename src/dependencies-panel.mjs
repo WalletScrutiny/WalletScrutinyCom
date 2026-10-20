@@ -10,6 +10,7 @@ import {
 } from './dependencies-panel-model.mjs';
 import { TRIAGE_LABEL, JUSTIFICATION_LABEL, triageStateOf, withStatement } from './dependency-triage.mjs';
 import { openTriageDialog } from './dependencies-triage-form.mjs';
+import { treeElement } from './dependencies-tree.mjs';
 
 // Where the export is served from. The transport (proxy on walletscrutiny.com,
 // Blossom blobs, rsync) is decided outside this module; only this constant moves.
@@ -364,7 +365,7 @@ function actions(model, { appId, base, fetchImpl }) {
 // puts a Judge button on every row; after a publish, `flash` is the line
 // above the table saying so, `freshId` the statement to mark, and every row
 // is shown so the judged one stays in sight wherever it re-sorts to.
-export function panelElement(model, { appId, base = EXPORT_BASE, fetchImpl = globalThis.fetch, onJudge = null, flash = null, freshId = null, showAll = false } = {}) {
+export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE, fetchImpl = globalThis.fetch, onJudge = null, flash = null, freshId = null, showAll = false } = {}) {
   const vulnSub = severityLine(model.bySeverity);
   return el('div', { className: 'dp-panel' },
     el('div', { className: 'dp-top' },
@@ -379,10 +380,44 @@ export function panelElement(model, { appId, base = EXPORT_BASE, fetchImpl = glo
       tile(model.vulnerabilities, 'known vulnerabilities', { tone: model.vulnerabilities ? 'bad' : 'good', sub: vulnSub, sub2: model.vulnerabilities ? whereLine(model.vulnerabilitiesByScope) : null }),
       tile(model.malware, 'known malware', { tone: model.malware ? 'bad' : 'good' }),
     ),
-    advisoryTable(model, { onJudge, freshId, showAll }),
+    treeTabs(model, advisoryTable(model, { onJudge, freshId, showAll }), { appId, base, fetchImpl, label: `${wallet} ${model.ref}` }),
     howToRead(model),
     actions(model, { appId, base, fetchImpl }),
   );
+}
+
+// "Advisories" (the table) and "Dependency tree" tabs. The tree's file (the
+// release's full dependency list) is fetched when its tab is first opened.
+function treeTabs(model, table, { appId, base, fetchImpl, label }) {
+  if (!model.packages) return table;
+  const tabs = [];
+  const panes = [];
+  let loaded = false;
+  const treePane = el('div', { className: 'dp-tabpanel', role: 'tabpanel', hidden: true }, el('p', { className: 'dpt-intro' }, 'Loading the dependency list…'));
+  const tablePane = el('div', { className: 'dp-tabpanel', role: 'tabpanel' }, table || el('p', { className: 'dpt-intro' }, 'No published advisories found for this release.'));
+  const select = (i) => {
+    tabs.forEach((t, j) => { t.setAttribute('aria-selected', String(i === j)); t.tabIndex = i === j ? 0 : -1; panes[j].hidden = i !== j; });
+    if (i === 1 && !loaded) {
+      loaded = true;
+      fetchJson(`${base}/apps/${safeName(appId)}/${safeName(model.ref)}/dependencies.json`, fetchImpl).then((data) => {
+        if (!data?.dependencies?.length) throw new Error('empty');
+        treePane.replaceChildren(treeElement({ dependencies: data.dependencies, advisories: model.advisories, wallet: label }));
+      }).catch((error) => {
+        console.warn('Dependency tree not available', error);
+        loaded = false;
+        treePane.replaceChildren(el('p', { className: 'dpt-intro' }, 'The dependency list for this release could not be loaded.'));
+      });
+    }
+  };
+  [['Advisories', tablePane], ['Dependency tree', treePane]].forEach(([name, pane], i) => {
+    const tab = el('button', { type: 'button', className: 'dp-tab', role: 'tab', 'aria-selected': String(i === 0), tabindex: i === 0 ? '0' : '-1' }, name);
+    tab.addEventListener('click', () => select(i));
+    tab.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') { const j = (i + 1) % 2; select(j); tabs[j].focus(); e.preventDefault(); }
+    });
+    tabs.push(tab); panes.push(pane);
+  });
+  return el('div', { className: 'dp-tabs' }, el('div', { className: 'dp-tablist', role: 'tablist' }, tabs), tablePane, treePane);
 }
 
 // "Your statement on GHSA-… is published (3 of 6 relays): this page shows it now, every wallet page after the next site build."
@@ -397,7 +432,7 @@ export function publishedFlash(statement, summary) {
  * a wallet nobody analysed shows no empty box. Resolves to the model or null.
  * `nostr` overrides the dialog's signer and relays (tests).
  */
-export async function renderDependenciesPanel({ host, appId, storeVersion = '', base = EXPORT_BASE, fetchImpl = globalThis.fetch, nostr = undefined }) {
+export async function renderDependenciesPanel({ host, appId, storeVersion = '', title = '', base = EXPORT_BASE, fetchImpl = globalThis.fetch, nostr = undefined }) {
   if (!host || !appId) return null;
   let app = null;
   let triage = null;
@@ -419,7 +454,7 @@ export async function renderDependenciesPanel({ host, appId, storeVersion = '', 
   const paint = (extra = {}) => {
     model = panelModel(app, { storeVersion, triage, signals });
     if (!model) return null;
-    host.replaceChildren(panelElement(model, { appId: analysisId, base, fetchImpl, onJudge, ...extra }));
+    host.replaceChildren(panelElement(model, { appId: analysisId, wallet: title || analysisId, base, fetchImpl, onJudge, ...extra }));
     return model;
   };
   async function onJudge(advisory) {
