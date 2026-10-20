@@ -408,3 +408,31 @@ verdict change.
    stays hidden. The interim export is a snapshot of the production database
    re-scored for "Where?" on AirGap only; the live analyser fills the rest
    once it is redeployed.
+
+## Open decisions and server steps (2026-10-20)
+
+Built and on the preview today; what each still needs before a release:
+
+1. **Alerts** (`external/source_analysis/alerts.mjs`): recipients are Leo,
+   Danny and Luis. The analyser needs its own key in `ALERT_NOSTR_NSEC` on
+   the server; until then alerts are recorded and printed only.
+2. **APK check on the page** (`apk/<appId>.json`): nine wallets were checked
+   by hand. Each wallet build script needs one line, `--apk` with the
+   official APK it already downloads, for the check to run on every
+   verified release (needs Leo's OK, the scripts belong to the wallets'
+   build recordings).
+3. **Other products' lockfiles** (`part`, "desktop app" etc.): counted in
+   the tile with a line of their own ("113 only in the desktop app" on
+   AirGap). Open: whether they leave the mobile page's count entirely.
+4. **Trusted list**: Bob's demo key has no profile and is still listed.
+5. **Re-run of the analyser** over the database: the yarn alias and
+   workspace fixes, `part`, and the direct users ("Where?", `dependants`)
+   all need it; the preview data was patched by hand where noted in the
+   commit messages (MetaMask and OneKey malware rows removed, AirGap's
+   Electron rows marked).
+6. **Upstream harvest** (`upstream-triage-cli.mjs`): run by hand once; it
+   wants a schedule next to the analyser (a GitHub token makes it take
+   about ten minutes).
+7. **Reproducibility of dependencies** (the "reproduced" rung of the
+   ladder): explained, not built; a pilot on the 50 most shared npm package
+   versions, starting from Google's OSS Rebuild attestations, waits for a go.
