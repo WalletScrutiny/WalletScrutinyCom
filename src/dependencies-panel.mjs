@@ -316,6 +316,7 @@ function otherScopeLabel({ statement: s, scope }) {
   const via = s.via ? `via ${s.via.replace(/^[a-z]+:/, '')}` : '';
   if (scope === 'elsewhere') return `in ${s.app}${via ? `, ${via}` : ''}`;
   if (scope === 'unproven') return `${via || 'the package'}, every wallet (signer not listed as maintainer)`;
+  if (scope === 'unused') return `${via}, no longer a direct user in this release`;
   if (s.app) return `community, ${via || 'this wallet'}`;
   return `community, ${via || 'the package'}`;
 }
@@ -675,7 +676,8 @@ export async function renderDependenciesPanel({ host, appId, storeVersion = '', 
         (host.querySelector('.dp-row--fresh') || host.querySelector('.dp-flash'))?.scrollIntoView?.({ block: 'center' });
       },
       onDeleted: (statement, summary) => {
-        triage = triage ? { ...triage, statements: triage.statements.filter(s => s.id !== statement.id) } : triage;
+        // every version of that subject by that author: an earlier one still in the page's list must not come back
+        triage = triage ? { ...triage, statements: triage.statements.filter(s => !(s.pubkey === statement.pubkey && s.d === statement.d)) } : triage;
         paint({ flash: `Your statement on ${statement.vulns[0]} is deleted (${summary.text}): gone from this page now, from every wallet page after the next site build.`, showAll: true });
         host.querySelector('.dp-flash')?.scrollIntoView?.({ block: 'center' });
       },

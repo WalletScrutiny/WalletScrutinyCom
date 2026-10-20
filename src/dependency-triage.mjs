@@ -268,7 +268,9 @@ export function statementScope(s, advisory, { appIds = [], trusted = new Set(), 
  *              `package` when the files do not say who requires it
  *   covered    the needs a settling statement answers (a subset of needs)
  *   others     the statements that concern the row but do not settle it here
- *              (statementScope), each `{ statement, scope }`: what others say
+ *              (statementScope), each `{ statement, scope }`: what others say;
+ *              also, scope `unused`, a statement for this wallet about a
+ *              direct user the release no longer has, so it stays in sight
  * `maintainers` maps a package reference to the pubkeys listed as its
  * maintainers; `trusted` is the set of trusted authors.
  */
@@ -309,6 +311,9 @@ export function resolveRow(advisory, statements = [], { appIds = [], trusted = n
       covered.push(need);
     }
   }
+  // a statement that settles here but answers none of the needs (its direct user left the graph)
+  const used = new Set(basis.map(b => b.statement.id));
+  for (const s of settling) if (!used.has(s.id) && s.via && !needs.includes(`via:${s.via}`)) others.push({ statement: s, scope: 'unused' });
   if (covered.length === needs.length) {
     return { decision: { status: worstOf(basis.map(b => b.statement.status)), basis }, needs, covered, others };
   }
