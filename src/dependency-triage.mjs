@@ -272,7 +272,8 @@ export function resolveRow(advisory, statements = [], { appIds = [], trusted = n
 }
 
 /**
- * Attach `decision` (or null) and `triage` (needs, covered, community) to
+ * Attach `decision` (or null) and `triage` (needs, covered, community and
+ * the community statements themselves) to
  * every advisory and count the states. `triage` is the wallet's published
  * file: `{ trusted: [pubkeys], statements: [...] }`, or null when nobody has
  * said anything yet. summary.undecided is the work queue.
@@ -291,7 +292,7 @@ export function applyTriage(advisories = [], triage = null, { appIds = [] } = {}
       if (r.covered.length) summary.partial += 1;
     }
     if (r.community.length) summary.community += 1;
-    return { ...a, decision: r.decision, triage: { needs: r.needs, covered: r.covered, community: r.community.length, partial: r.partial || [] } };
+    return { ...a, decision: r.decision, triage: { needs: r.needs, covered: r.covered, community: r.community.length, communityStatements: r.community, partial: r.partial || [] } };
   });
   return { advisories: out, summary };
 }

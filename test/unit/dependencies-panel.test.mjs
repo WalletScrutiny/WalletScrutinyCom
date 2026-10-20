@@ -120,11 +120,14 @@ describe('dependencies panel', () => {
     assert.equal(rows[1].querySelector('.dp-decision__why').textContent, 'this wallet: postinstall runs on the build machine (affected, aaaaaaaa…)');
     assert.equal(rows[1].querySelector('.dp-via').textContent, 'imported by the wallet');
     const partly = rows[2].querySelector('.dp-td-decision');
-    assert.equal(partly.querySelector('.dp-decision').textContent, '–');
-    assert.equal(partly.querySelector('.dp-decision__why').textContent, '1 of 2 direct users judged');
+    assert.equal(partly.querySelector('.dp-decision').textContent, 'Not assessed');
+    assert.equal(partly.querySelector('.dp-decision__why').textContent, '1 of 2 direct users assessed');
     const community = rows.find(r => r.querySelector('td a').textContent === 'GHSA-mod-0');
-    assert.equal(community.querySelector('.dp-decision').textContent, '–', 'an author outside the trusted list settles nothing');
-    assert.equal(community.querySelector('.dp-decision__community').textContent, '1 community statement');
+    assert.equal(community.querySelector('.dp-decision').textContent, 'Not assessed', 'an author outside the trusted list settles nothing');
+    const folded = community.querySelector('details.dp-decision__community');
+    assert.equal(folded.querySelector('summary').textContent, '1 community statement');
+    assert.equal(folded.hasAttribute('open'), false, 'folded until asked for');
+    assert.equal(folded.querySelector('.dp-decision__why').textContent, 'via zlib: fixed (fixed, bbbbbbbb…)', 'the statement itself is there to read');
     assert.match(host.querySelector('.dp-note').textContent, /2 of 13 advisories settled that way/);
   });
 

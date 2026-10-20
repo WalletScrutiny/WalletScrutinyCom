@@ -170,10 +170,19 @@ body.dark .dp-panel {
   color: var(--success, #1e8449);
 }
 
-// "Judge" under a row's decision: opens the statement dialog
+// A row's decision, its reasons and the button, stacked
+.dp-decision-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+// "Add statement" under a row's decision: opens the statement dialog
 .dp-judge {
   display: inline-block;
   margin-top: 4px;
+  white-space: nowrap;
   font: inherit;
   font-size: $font-xxs;
   font-weight: 600;
@@ -390,6 +399,7 @@ body.dark .dp-panel {
     padding: 0;
     font-weight: 400;
     color: var(--neutral-3);
+    white-space: nowrap;
   }
 }
 
@@ -397,6 +407,16 @@ body.dark .dp-panel {
 .dp-decision__community {
   font-size: $font-xxs;
   color: var(--neutral-3);
+}
+
+// "1 community statement", folding out the statements themselves
+details.dp-decision__community {
+  max-width: 28em;
+
+  > summary {
+    cursor: pointer;
+    color: var(--accent);
+  }
 }
 
 .dp-decision__need {
