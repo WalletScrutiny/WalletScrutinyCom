@@ -1,6 +1,7 @@
 import { describe, test, before, after } from 'node:test';
 import assert from 'node:assert/strict';
 import { spawnSync } from 'node:child_process';
+import crypto from 'node:crypto';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
@@ -14,6 +15,7 @@ import yaml from 'js-yaml';
 const here = path.dirname(fileURLToPath(import.meta.url));
 const script = path.resolve(here, '../../scripts/rb/ws-depcheck.sh');
 const fakeScanner = path.join(here, 'fixtures/rb-depcheck/fake-scanner.sh');
+const fakeIdentity = path.join(here, 'fixtures/rb-depcheck/fake-identity.sh');
 
 function makeCheckout(root) {
   const files = {
@@ -40,7 +42,7 @@ function makeCheckout(root) {
 function run(args, env = {}) {
   return spawnSync('bash', [script, ...args], {
     encoding: 'utf8',
-    env: { ...process.env, WS_DEPCHECK_SCANNER: fakeScanner, ...env },
+    env: { ...process.env, WS_DEPCHECK_SCANNER: fakeScanner, WS_DEPCHECK_IDENTITY_CMD: fakeIdentity, ...env },
   });
 }
 
@@ -68,7 +70,7 @@ describe('ws-depcheck', () => {
     assert.equal(data.verdict, 'reproducible');
     const d = data.dependencies;
     assert.equal(d.status, 'ok');
-    assert.equal(d.step, 'ws-depcheck 0.1.0');
+    assert.equal(d.step, 'ws-depcheck 0.2.0');
     assert.equal(d.scanner, fakeScanner);
     assert.equal(d.packages, 4);
     assert.deepEqual(d.advisories, { malicious: 1, critical: 1, high: 0, moderate: 1, low: 0, unknown: 0 });
@@ -85,6 +87,38 @@ describe('ws-depcheck', () => {
     const json = JSON.parse(fs.readFileSync(path.join(out, 'dependency-check.json'), 'utf8'));
     assert.equal(json.status, 'ok');
     assert.equal(json.worst[0].package, 'evil@0.0.1');
+  });
+
+  test('the identity block counts per status and lists the versions not tied to a commit', () => {
+    const d = yaml.load(fs.readFileSync(resultsYaml, 'utf8')).dependencies.identity;
+    assert.equal(d.status, 'ok');
+    assert.equal(d.counts['tag-found'], 2);
+    assert.equal(d.counts['no-tag'], 1);
+    assert.equal(d.counts.range, 0);
+    assert.equal(d.npm_provenance, 1);
+    assert.deepEqual(d.unverified, [{ package: 'evil@0.0.1', ecosystem: 'npm', status: 'no-tag' }]);
+    assert.equal(d.report, 'identity.json');
+  });
+
+  test('a failed or disabled identity check says so instead of counting nothing', () => {
+    const failed = path.join(tmp, 'out-idfail');
+    assert.equal(run(['--src', src, '--out', failed], { FAKE_IDENTITY_MODE: 'fail' }).status, 0);
+    const f = yaml.load(fs.readFileSync(path.join(failed, 'dependency-check.yaml'), 'utf8')).dependencies.identity;
+    assert.equal(f.status, 'failed');
+    assert.equal(f.counts, undefined);
+    const off = path.join(tmp, 'out-idoff');
+    assert.equal(run(['--src', src, '--out', off], { WS_DEPCHECK_IDENTITY: '0' }).status, 0);
+    assert.equal(yaml.load(fs.readFileSync(path.join(off, 'dependency-check.yaml'), 'utf8')).dependencies.identity.status, 'skipped');
+  });
+
+  test('the identity files the script fetches by commit have the hashes it checks', () => {
+    const text = fs.readFileSync(script, 'utf8');
+    const entries = [...text.matchAll(/^  "([\w.-]+\.mjs) ([0-9a-f]{64})"$/gm)];
+    assert.equal(entries.length, 3);
+    for (const [, file, sum] of entries) {
+      const actual = crypto.createHash('sha256').update(fs.readFileSync(path.resolve(here, '../../external/source_analysis', file))).digest('hex');
+      assert.equal(sum, actual, `${file}: update IDENTITY_FILES in ws-depcheck.sh`);
+    }
   });
 
   test('does not append a second block to a yaml that already has one', () => {

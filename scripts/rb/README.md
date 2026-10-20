@@ -16,7 +16,9 @@ answers, in the build recording and in `COMPARISON_RESULTS.yaml`:
 - how many packages each lockfile pins and how many of them have a known
   advisory on OSV.dev, by severity, with the worst ten listed,
 - whether the scan ran at all (`status: ok | no-lockfiles | scanner-failed`),
-  so a missing block and a failed scan never look alike.
+  so a missing block and a failed scan never look alike,
+- for every package the scan found, whether its version can be tied to a
+  commit of its source repository (`identity:`, see below).
 
 The scan is [osv-scanner](https://google.github.io/osv-scanner/), pulled by
 digest, run in a container with the checkout mounted read-only and no
@@ -41,7 +43,7 @@ DEPCHECK_REV=<commit>; DEPCHECK_SHA=<sha256 of scripts/rb/ws-depcheck.sh at that
 if curl -fsSL --max-time 60 -o "${workspace}/ws-depcheck.sh" \
      "https://gitlab.com/walletscrutiny/walletScrutinyCom/-/raw/${DEPCHECK_REV}/scripts/rb/ws-depcheck.sh" \
    && echo "${DEPCHECK_SHA}  ${workspace}/ws-depcheck.sh" | sha256sum -c --quiet -; then
-  bash "${workspace}/ws-depcheck.sh" --src "$SRC" --out "${workspace}/dependency-check" --yaml "${SCRIPT_DIR}/COMPARISON_RESULTS.yaml" || true
+  WS_DEPCHECK_REV="$DEPCHECK_REV" bash "${workspace}/ws-depcheck.sh" --src "$SRC" --out "${workspace}/dependency-check" --yaml "${SCRIPT_DIR}/COMPARISON_RESULTS.yaml" || true
 else
   echo "[WARN] dependency check skipped: could not fetch ws-depcheck.sh ${DEPCHECK_REV} with the expected hash"
 fi
@@ -55,6 +57,35 @@ the script then overwrites; scripts that write the YAML last (the usual
 
 Print the current hash with `sha256sum scripts/rb/ws-depcheck.sh` and the
 commit with `git log -1 --format=%H -- scripts/rb/ws-depcheck.sh`.
+
+### Identity: can the version be tied to a commit?
+
+Rung one of the dependency ladder (identity, provenance, reproduced). For each
+package osv-scanner found, `external/source_analysis/identity-scan-cli.mjs`
+asks the registry which repository the package comes from and lists that
+repository's tags with `git ls-remote`. Host-side, Node 18+ and git, nothing
+of the checkout or of any package runs. Keeper v2.6.3 (1,907 packages) takes
+about two to three minutes.
+
+| status | meaning |
+|---|---|
+| `tag-found` | a tag of the repository reads as this version |
+| `commit-named` | no tag, but the npm publish names its commit (`gitHead`) |
+| `no-tag` | the repository has no tag for this version: unverified |
+| `no-repo` | the registry names no repository: unverified |
+| `repo-unreachable` | the named repository is gone or private: unverified |
+| `range` | the lockfile holds a range, not a version: the build does not pin |
+| `unsupported` | no resolver for the ecosystem yet (RubyGems, Go, CocoaPods) |
+
+`npm_provenance` counts npm versions with a sigstore build attestation. A tag
+says the version was cut from that repository; it does not say the published
+artifact equals that source. That is the next rung.
+
+The step takes the three files from the same commit as itself
+(`WS_DEPCHECK_REV`), checked against the hashes in `IDENTITY_FILES`; run from
+a checkout of this repository it uses the files beside it. Without Node, or
+without `WS_DEPCHECK_REV` outside a checkout, the block says `status:
+skipped` with the reason.
 
 ### Running it by hand
 
@@ -110,6 +141,10 @@ summary), `lockfiles.txt`, `unlocked-manifests.txt`, `osv-scanner.log`.
 | `WS_DEPCHECK_IMAGE` | `ghcr.io/google/osv-scanner@sha256:4f3b…` (v2.7.0) | scanner image, keep it digest-pinned |
 | `WS_DEPCHECK_TIMEOUT` | 600 | seconds for the scan |
 | `WS_DEPCHECK_SCANNER` | unset | command used instead of the container (tests) |
+| `WS_DEPCHECK_REV` | unset | commit the identity check is fetched at |
+| `WS_DEPCHECK_IDENTITY` | 1 | 0 skips the identity check |
+| `WS_DEPCHECK_IDENTITY_TIMEOUT` | 900 | seconds for the identity check |
+| `WS_DEPCHECK_IDENTITY_CMD` | unset | command used instead of the identity check (tests) |
 
 Tests: `test/unit/rb-depcheck.test.mjs` (inventory, YAML block, failure path,
 against a fake scanner).
