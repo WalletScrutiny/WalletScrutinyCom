@@ -43,6 +43,8 @@
     "build:e2e": "node scripts/build-e2e.mjs",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
+    "test:e2e:live": "E2E_RELAY=live playwright test",
+    "record:e2e-relay": "node scripts/record-e2e-relay.mjs",
     "playwright:install": "playwright install chromium",
     "dev": "npm run clean_dist && npm run precompute && webpack --mode development --watch",
     "dev:fast": "JEKYLL_EXTRA_CONFIG=_config.fast.yml npm run dev",
