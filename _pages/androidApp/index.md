@@ -14,13 +14,13 @@ screenshots:
     caption: "The verifications for the installed version, their results, and how older versions did."
   - file: screenshot-3.webp
     alt: "Settings: upload only over Wi-Fi, background monitoring, app language and share logs"
-    caption: "Uploads can be limited to Wi-Fi; monitoring runs in the background."
+    caption: "Settings can be changed: uploads can be limited to Wi-Fi; monitoring can run in the background."
   - file: screenshot-4.webp
     alt: "Info and FAQ: what the app does, what reproducible means and how the check works"
-    caption: "What the app does, what reproducible means and how the check works."
+    caption: "Info about what the app does, what reproducible means and how the check works."
   - file: screenshot-5.webp
     alt: "About: WalletScrutiny.com checks whether the wallet apps people actually run can be rebuilt from their public source code"
-    caption: "Free software under the MIT licence, with links to the website and source code."
+    caption: "Free software under the MIT licence."
 ---
 
 {% assign ws_app_repo = "https://gitlab.com/walletscrutiny/walletscrutinyandroid" %}
