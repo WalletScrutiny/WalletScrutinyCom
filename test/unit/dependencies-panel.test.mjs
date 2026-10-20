@@ -232,4 +232,13 @@ describe('dependencies panel', () => {
       .querySelectorAll('tbody tr');
     assert.equal(rows[0].querySelector('.dp-td-products').textContent, '7 · 2 this version');
   });
+
+  test('a malicious package is a lead being checked, called out above everything else', () => {
+    const app = { ...APP, releases: [{ ...APP.releases[0], vulnerabilities: { ...APP.releases[0].vulnerabilities, bySeverity: { ...APP.releases[0].vulnerabilities.bySeverity, malicious: 1 } },
+      advisories: [advisory('MAL-2025-1', 'malicious', { package: 'evil', version: '6.6.6' }), ...APP.releases[0].advisories] }] };
+    const node = panelElement(panelModel(app), { appId: 'app.android' });
+    assert.match(node.querySelector('.dp-notices .dp-malware').textContent, /^Possible malware: evil@6\.6\.6 \(MAL-2025-1\) is listed on OSV\.dev as malicious/);
+    const tile = [...node.querySelectorAll('.dp-tile')].find(t => t.querySelector('.dp-tile__label').textContent === 'possible malware');
+    assert.ok(tile.classList.contains('dp-tile--bad'));
+  });
 });
