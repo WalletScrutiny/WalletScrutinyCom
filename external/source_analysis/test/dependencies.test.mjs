@@ -314,3 +314,25 @@ test('database: store, re-store, diff and ships lookup', () => {
   assert.equal(findAppsShipping(db, 'npm', 'nope').length, 0);
   db.close();
 });
+
+test('pinning reads a per-module gradle-lock directory (Bitkey) with versions, hashes and build-only groups', async () => {
+  const { analyzePinning } = await import('../plugins/pinning.mjs');
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'gradle-lock-'));
+  try {
+    fs.mkdirSync(path.join(dir, 'app', 'gradle-lock'), { recursive: true });
+    fs.writeFileSync(path.join(dir, 'app', 'build.gradle.kts'), 'dependencies { }\n');
+    const lock = (id, comps) => fs.writeFileSync(path.join(dir, 'app', 'gradle-lock', `${id}.json`), JSON.stringify({ 'module-identifier': id, components: comps }));
+    lock('net.java.dev.jna:jna', [
+      { version: '5.16.0', variants: [{ artifacts: { 'jna-5.16.0.aar': 'a'.repeat(64) } }], 'dependency-locking-groups': ['build-classpath'] },
+      { version: '5.6.0', variants: [{ artifacts: { 'jna-5.6.0.jar': 'b'.repeat(64) } }], 'dependency-locking-groups': ['gradle-plugins[bitkey]', 'kotlin-compiler'] },
+    ]);
+    fs.writeFileSync(path.join(dir, 'app', 'gradle-lock', 'not-a-lock.json'), '{"x": 1}');
+    const entries = analyzePinning(dir).flatMap(a => a.entries || []).filter(e => e.ecosystem === 'gradle');
+    assert.deepEqual(entries.map(e => [e.name, e.version, e.integrity.slice(0, 9), e.scope, e.tier, e.lockfile]), [
+      ['net.java.dev.jna:jna', '5.16.0', 'sha256:aa', null, 'hash-pinned', 'app/gradle-lock/net.java.dev.jna:jna.json'],
+      ['net.java.dev.jna:jna', '5.6.0', 'sha256:bb', 'build', 'hash-pinned', 'app/gradle-lock/net.java.dev.jna:jna.json'],
+    ]);
+  } finally {
+    fs.rmSync(dir, { recursive: true, force: true });
+  }
+});
