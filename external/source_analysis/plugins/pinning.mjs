@@ -589,6 +589,37 @@ function analyzeGradle(repoPath) {
       }));
     }
   }
+  // A per-module lock directory (Bitkey's app/gradle-lock/<group:artifact>.json:
+  // module-identifier, components with version, artifact sha256s and the
+  // locking groups they belong to). Groups that are only build tooling
+  // (Gradle plugins, the Kotlin compiler, SQLDelight's dialect, toolchains)
+  // make the row 'build'; "build-classpath" covers the app's own classpath
+  // and its build alike, so it says nothing.
+  const BUILD_ONLY_GROUP = /^(gradle-plugins(\[.*\])?|kotlin-compiler|build-toolchain|SQLDelight-.*)$/;
+  for (const file of findFiles(repoPath, (name, full) => name.endsWith('.json') && path.basename(path.dirname(full)) === 'gradle-lock')) {
+    let doc;
+    try {
+      doc = JSON.parse(fs.readFileSync(file, 'utf8'));
+    } catch {
+      continue;
+    }
+    const key = doc?.['module-identifier'];
+    if (typeof key !== 'string' || !Array.isArray(doc.components)) continue;
+    for (const comp of doc.components) {
+      if (!comp?.version) continue;
+      const sha = (comp.variants || []).flatMap(v => Object.values(v.artifacts || {})).find(h => /^[0-9a-f]{64}$/i.test(h));
+      const groups = comp['dependency-locking-groups'] || [];
+      covered.add(key);
+      result.entries.push(makeEntry('gradle', relative(repoPath, file), {
+        name: key,
+        version: comp.version,
+        integrity: sha ? `sha256:${sha.toLowerCase()}` : '',
+        direct: seen.has(key),
+        ...(groups.length && groups.every(g => BUILD_ONLY_GROUP.test(g)) ? { dev: true, scope: 'build' } : {}),
+        tier: sha ? 'hash-pinned' : 'version-pinned',
+      }));
+    }
+  }
   for (const e of declaredEntries) if (!covered.has(e.name)) result.entries.push(e);
 
   result.registries = [...repoSet];
