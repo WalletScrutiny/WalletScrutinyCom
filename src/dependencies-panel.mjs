@@ -52,7 +52,7 @@ export async function loadTriage(appIds, { base = EXPORT_BASE, fetchImpl = globa
 }
 
 // The trusted-author list on its own (triage/_trusted.json), for a wallet
-// whose file does not exist yet: the Judge dialog says whether the signer's
+// whose file does not exist yet: the statement dialog says whether the signer's
 // statement will settle rows or count as a community one. Fetched once.
 const trustedCache = new Map();
 export function loadTrusted({ base = EXPORT_BASE, fetchImpl = globalThis.fetch } = {}) {
@@ -161,9 +161,17 @@ function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = nul
   );
 }
 
-// Every statement a row's decision rests on or has collected so far.
+// Every statement a row's decision rests on or has collected so far,
+// community ones included.
 function statementsOf(a) {
-  return [...(a.decision?.basis || []), ...(a.triage?.partial || [])].map(b => b.statement);
+  return [...(a.decision?.basis || []), ...(a.triage?.partial || [])].map(b => b.statement).concat(a.triage?.communityStatements || []);
+}
+
+// What a statement is about, in the shape of a row's needs.
+function needOf(s) {
+  if (s.app) return `app:${s.app}`;
+  if (s.via) return `via:${s.via}`;
+  return 'package';
 }
 
 // "via npm:@babel/core" / "this wallet" / "the package": what a statement's need reads as.
@@ -188,9 +196,21 @@ function statementLine({ need, statement: s }, { freshId = null } = {}) {
   );
 }
 
+// Community statements (authors outside the trusted list) do not settle the
+// row; they fold out under their count so they can still be read. The one
+// just published from this page starts unfolded.
+function communityLine(t, { freshId = null } = {}) {
+  const label = `${t.community} community ${t.community === 1 ? 'statement' : 'statements'}`;
+  const list = t.communityStatements || [];
+  if (!list.length) return el('div', { className: 'dp-decision__community' }, label);
+  return el('details', { className: 'dp-decision__community', open: list.some(s => s.id === freshId) },
+    el('summary', { title: 'Signed by authors outside the list this site trusts, so they do not settle the row' }, label),
+    list.map(s => statementLine({ need: needOf(s), statement: s }, { freshId })),
+  );
+}
+
 // The row's state from the statements of its direct users, each with its
-// reason; "–" while one is still missing, saying how many are in. Community
-// statements (authors outside the trusted list) are counted, not applied.
+// reason; "Not assessed" while one is still missing, saying how many are in.
 // With `onJudge`, a button opens the dialog that writes a statement for the row.
 export function decisionCell(a, { onJudge = null, freshId = null } = {}) {
   const state = triageStateOf(a);
@@ -198,20 +218,20 @@ export function decisionCell(a, { onJudge = null, freshId = null } = {}) {
   const t = a.triage || { needs: [], covered: [], community: 0, partial: [] };
   const bits = [];
   if (!d) {
-    bits.push(el('span', { className: 'dp-decision dp-decision--undecided', title: 'Nobody has judged this advisory for this wallet yet' }, '–'));
-    if (t.covered.length) bits.push(el('div', { className: 'dp-decision__why' }, `${t.covered.length} of ${t.needs.length} direct users judged`));
+    bits.push(el('span', { className: 'dp-decision dp-decision--undecided', title: 'No trusted statement settles this advisory for this wallet yet' }, 'Not assessed'));
+    if (t.covered.length) bits.push(el('div', { className: 'dp-decision__why' }, `${t.covered.length} of ${t.needs.length} direct users assessed`));
     for (const b of t.partial || []) bits.push(statementLine(b, { freshId }));
   } else {
     bits.push(el('span', { className: `dp-decision dp-decision--${state}` }, TRIAGE_LABEL[state]));
     for (const b of d.basis) bits.push(statementLine(b, { freshId }));
   }
-  if (t.community) bits.push(el('div', { className: 'dp-decision__community' }, `${t.community} community ${t.community === 1 ? 'statement' : 'statements'}`));
+  if (t.community) bits.push(communityLine(t, { freshId }));
   if (onJudge) {
-    const judge = el('button', { type: 'button', className: 'dp-judge', title: 'Publish a signed statement on whether this advisory affects the product' }, d ? 'Judge again' : 'Judge');
+    const judge = el('button', { type: 'button', className: 'dp-judge', title: 'Publish a signed statement on whether this advisory affects the wallet' }, 'Add statement');
     judge.addEventListener('click', () => onJudge(a));
     bits.push(judge);
   }
-  return el('div', {}, bits);
+  return el('div', { className: 'dp-decision-cell' }, bits);
 }
 
 // "412 advisories · 0 decided · 412 to look at" above the table: the triage
@@ -308,7 +328,7 @@ function howToRead(model) {
     parts.push(t.decided
       ? `The "Decision" column shows ${t.decided} of ${t.total} advisories settled that way, each with its reasons and signers; the rest nobody has judged yet. `
       : 'Nobody has made those statements for this wallet\'s advisories yet, which is what the empty "Decision" column says. ');
-    parts.push('"Judge" on a row writes one: signed with your Nostr browser extension, published to the relays, shown here at once and on every wallet page after the next site build. Anyone can publish; whose statements settle rows is a list the site keeps, the others are counted. ');
+    parts.push('"Add statement" on a row writes one: signed with your Nostr browser extension, published to the relays, shown here at once and on every wallet page after the next site build. Anyone can publish; whose statements settle rows is a list the site keeps, the others are counted. ');
   }
   if (model.signals) {
     parts.push('Under the severity, "exploited in the wild" means CISA lists the advisory as exploited somewhere, and EPSS is the published probability that it gets exploited anywhere within 30 days; both are about the advisory, not this wallet. ');

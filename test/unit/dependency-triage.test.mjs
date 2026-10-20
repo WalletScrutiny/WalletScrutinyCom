@@ -111,7 +111,8 @@ describe('dependency triage statements', () => {
     ], triage, { appIds: ['app'] });
     assert.deepEqual(summary, { total: 3, decided: 1, undecided: 2, affected: 0, not_affected: 1, fixed: 0, under_investigation: 0, partial: 1, community: 1 });
     assert.deepEqual(advisories.map(a => a.decision?.status || null), ['not_affected', null, null]);
-    assert.deepEqual(advisories[1].triage, { needs: ['via:npm:a', 'via:npm:b'], covered: ['via:npm:a'], community: 0, partial: advisories[1].triage.partial });
+    assert.deepEqual(advisories[1].triage, { needs: ['via:npm:a', 'via:npm:b'], covered: ['via:npm:a'], community: 0, communityStatements: [], partial: advisories[1].triage.partial });
+    assert.deepEqual(advisories[2].triage.communityStatements.map(s => s.status), ['fixed'], 'the community statement itself is kept for display');
     assert.deepEqual(applyTriage([traverse], null).summary, { total: 1, decided: 0, undecided: 1, affected: 0, not_affected: 0, fixed: 0, under_investigation: 0, partial: 0, community: 0 });
   });
 
