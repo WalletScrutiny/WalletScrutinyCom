@@ -134,7 +134,7 @@ describe('dependency triage form', () => {
     assert.equal(decision.querySelector('.dp-decision').textContent, 'Not assessed', 'one of two direct users judged: still open');
     assert.equal(decision.querySelector('.dp-decision__why').textContent, '1 of 2 direct users assessed');
     const line = decision.querySelectorAll('.dp-decision__why')[1];
-    assert.match(line.textContent, /^via @babel\/core: vulnerable code never executed \(not affected, [0-9a-f]{8}…\) just published Edit$/);
+    assert.match(line.textContent, /^via @babel\/core: vulnerable code never executed \(not affected, npub1[0-9a-z]{5}…[0-9a-z]{4}\) just published Edit$/);
     assert.equal(line.querySelector('a').getAttribute('href'), 'https://github.com/babel/babel/pull/16033');
     assert.equal(host.querySelector('.dp-judge').textContent, 'Add statement');
 
@@ -184,7 +184,7 @@ describe('dependency triage form', () => {
     assert.equal(folded.querySelector('summary').textContent, 'What others say (1)');
     assert.equal(folded.hasAttribute('open'), true, 'the statement just published is shown without a click');
     assert.match(host.querySelector('.dp-flash').textContent, /shown under "What others say" here/);
-    assert.match(folded.querySelector('.dp-decision__why').textContent, /^community, the package: Testing the button \(investigating, [0-9a-f]{8}…\) just published Edit$/);
+    assert.match(folded.querySelector('.dp-decision__why').textContent, /^community, the package: Testing the button \(investigating, npub1[0-9a-z]{5}…[0-9a-z]{4}\) just published Edit$/);
 
     // "Edit" on the line reopens the form on that subject, filled in
     folded.querySelector('.dp-edit').click();

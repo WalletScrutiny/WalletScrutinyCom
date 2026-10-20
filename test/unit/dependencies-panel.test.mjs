@@ -4,6 +4,9 @@ import assert from 'node:assert/strict';
 
 import { loadApp, renderDependenciesPanel, panelElement, usedBy, severityTally } from '../../src/dependencies-panel.mjs';
 import { panelModel } from '../../src/dependencies-panel-model.mjs';
+import { nip19 } from 'nostr-tools';
+
+const shortNpub = (pk) => { const n = nip19.npubEncode(pk); return `${n.slice(0, 10)}…${n.slice(-4)}`; };
 
 const advisory = (id, severity, extra = {}) => ({ id, severity, aliases: [], fixed: [], summary: 's', ecosystem: 'npm', package: 'pkg', version: '1.0.0', direct: true, dev: false, ...extra });
 
@@ -110,7 +113,8 @@ describe('dependencies panel', () => {
     const upstream = { schema: 1, appId: 'app.android', advisories: { 'GHSA-mod-0': [{ kind: 'upstream', repo: 'https://github.com/z/zlib', ref: 'v2', file: 'osv-scanner.toml', line: 4, url: 'https://github.com/z/zlib/blob/v2/osv-scanner.toml#L4', reason: 'zlib never inflates untrusted input', package: 'npm:zlib@2.0.0' }] } };
     const { fetchImpl, calls } = fakeFetch({ '/x/apps/app.ios.json': { schema: 1, appId: 'app.android', alias: true }, '/x/apps/app.android.json': app, '/x/triage/app.android.json': triage, '/x/upstream/app.android.json': upstream });
     const host = document.createElement('div');
-    const model = await renderDependenciesPanel({ host, appId: 'app.ios', base: '/x', fetchImpl });
+    const model = await renderDependenciesPanel({ host, appId: 'app.ios', base: '/x', fetchImpl, profiles: async () => new Map([[me, { name: 'Alice' }]]) });
+    await new Promise(r => setTimeout(r, 0)); // signer names arrive after the paint
     assert.deepEqual(calls.slice(2), ['/x/triage/app.ios.json', '/x/triage/app.android.json', '/x/signals.json', '/x/upstream/app.android.json'], 'the page\'s id first, then the analysis id, then the signals and the harvested ignore files');
     assert.deepEqual(model.triage, { total: 13, decided: 2, undecided: 11, affected: 1, not_affected: 1, fixed: 0, under_investigation: 0, partial: 1, others: 2 });
     assert.deepEqual([...host.querySelectorAll('.dp-tally')].map(e => e.textContent), ['1 critical · 1 cleared', '2 high · none cleared', '10 medium · none cleared'], 'the not-affected critical is cleared; the affected high is not');
@@ -122,13 +126,16 @@ describe('dependencies panel', () => {
     const partlyRow = rows[1];
     const first = rows[0].querySelector('.dp-td-decision');
     assert.equal(first.querySelector('.dp-decision').textContent, 'not affected');
-    assert.equal(first.querySelector('.dp-decision__why').textContent, 'via alib: vulnerable code never executed (not affected, aaaaaaaa…) Edit');
+    assert.equal(first.querySelector('.dp-decision__why').textContent, 'via alib: vulnerable code never executed (not affected, Alice) Edit');
     assert.equal(rows[0].querySelector('.dp-via').textContent, 'via alib');
+    const signer = first.querySelector('a.dp-signer');
+    assert.equal(signer.getAttribute('href'), `https://njump.me/${nip19.npubEncode(me)}`, 'the signer links to their profile');
+    assert.equal(host.querySelector('.dp-trusted').textContent, 'Statements settle rows on this site when signed by Alice. Anyone else\'s are shown under "What others say".');
     const elsewhere = first.querySelector('details.dp-decision__others');
     assert.equal(elsewhere.querySelector('summary').textContent, 'What others say (1)', 'another wallet\'s call on the same direct user is shown, not applied');
-    assert.equal(elsewhere.querySelector('.dp-decision__why').textContent, 'in d.wallet, via alib: d.wallet hands alib user input (affected, aaaaaaaa…) Adopt');
+    assert.equal(elsewhere.querySelector('.dp-decision__why').textContent, 'in d.wallet, via alib: d.wallet hands alib user input (affected, Alice) Adopt');
     assert.equal(affected.querySelector('.dp-decision').textContent, 'affected');
-    assert.equal(affected.querySelector('.dp-decision__why').textContent, 'this wallet: postinstall runs on the build machine (affected, aaaaaaaa…) Edit');
+    assert.equal(affected.querySelector('.dp-decision__why').textContent, 'this wallet: postinstall runs on the build machine (affected, Alice) Edit');
     assert.equal(affected.querySelector('.dp-via').textContent, 'imported by the wallet');
     const partly = partlyRow.querySelector('.dp-td-decision');
     assert.equal(partly.querySelector('.dp-decision').textContent, 'Not assessed');
@@ -141,7 +148,7 @@ describe('dependencies panel', () => {
     assert.equal(harvested.textContent, 'osv-scanner.toml of zlib@2.0.0: zlib never inflates untrusted input (ignore file, unsigned)');
     assert.equal(harvested.querySelector('a').getAttribute('href'), 'https://github.com/z/zlib/blob/v2/osv-scanner.toml#L4');
     assert.equal(folded.hasAttribute('open'), false, 'folded until asked for');
-    assert.equal(folded.querySelector('.dp-decision__why').textContent, 'community, via zlib: fixed (fixed, bbbbbbbb…) Edit', 'the statement itself is there to read');
+    assert.equal(folded.querySelector('.dp-decision__why').textContent, `community, via zlib: fixed (fixed, ${shortNpub('b'.repeat(64))}) Edit`, 'the statement itself is there to read');
     assert.match(host.querySelector('.dp-note').textContent, /2 of 13 advisories settled that way/);
   });
 

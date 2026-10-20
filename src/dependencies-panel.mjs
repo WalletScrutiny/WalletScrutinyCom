@@ -4,6 +4,7 @@
 // wallet; the full dependency list is only fetched for the CSV download.
 // Measurement only, not part of the verdict, and labelled so.
 
+import * as nip19 from 'nostr-tools/nip19';
 import { el } from './html-utils.mjs';
 import {
   panelModel, whereOf, whereLabel, safeName, csvOf, SEVERITY_ORDER, SEVERITY_LABEL,
@@ -196,7 +197,52 @@ function needLabel(need) {
   return 'the package';
 }
 
-const shortKey = (pubkey) => `${pubkey.slice(0, 8)}…`;
+// A signer as a link to their Nostr profile on njump.me, shown as a short
+// npub until nameSigners() puts their profile name in.
+export function signerLink(pubkey) {
+  let npub = null;
+  try {
+    npub = nip19.npubEncode(pubkey);
+  } catch {
+    return el('span', { className: 'dp-signer' }, `${String(pubkey).slice(0, 8)}…`);
+  }
+  return el('a', { className: 'dp-signer', href: `https://njump.me/${npub}`, target: '_blank', rel: 'noopener noreferrer', title: npub, 'data-pubkey': pubkey }, `${npub.slice(0, 10)}…${npub.slice(-4)}`);
+}
+
+// Profile names for every signer link under `root`, from kind-0 events
+// (nostr-profile.mjs, loaded on first use). A signer without a profile keeps
+// the short npub; a failure leaves them all as they are.
+export async function nameSigners(root, getProfiles = defaultProfiles) {
+  const links = [...root.querySelectorAll('a.dp-signer[data-pubkey]')];
+  if (!links.length || !getProfiles) return;
+  let profiles;
+  try {
+    profiles = await getProfiles([...new Set(links.map(a => a.dataset.pubkey))]);
+  } catch (error) {
+    console.debug('Dependencies panel: signer profiles not loaded', error);
+    return;
+  }
+  for (const a of links) {
+    const p = profiles?.get(a.dataset.pubkey);
+    const name = p && String(p.name || p.displayName || p.display_name || '').trim();
+    if (name) a.textContent = name;
+  }
+}
+
+async function defaultProfiles(pubkeys) {
+  if (typeof indexedDB === 'undefined') return new Map();
+  const { getNostrProfiles } = await import('./nostr-profile.mjs');
+  return getNostrProfiles(pubkeys);
+}
+
+// Whose statements settle rows on this site (the trusted list), each linked
+// to their profile, so a reader can see who answers for the decisions.
+function trustedLine(trusted) {
+  if (!trusted?.length) return null;
+  const links = [];
+  trusted.forEach((pk, i) => { if (i) links.push(', '); links.push(signerLink(pk)); });
+  return el('p', { className: 'dp-trusted' }, 'Statements settle rows on this site when signed by ', ...links, '. Anyone else\'s are shown under "What others say".');
+}
 
 // One statement as a line: who it is about, what it says (linked to its
 // evidence when the author gave some), who signed. The one just published
@@ -213,7 +259,7 @@ function statementLine({ need, statement: s, label = null }, { freshId = null, o
   return el('div', { className: `dp-decision__why${s.id === freshId ? ' dp-decision__why--fresh' : ''}`, title: s.content || '' },
     el('span', { className: 'dp-decision__need' }, `${label || needLabel(need)}: `),
     s.evidence ? el('a', { href: s.evidence, target: '_blank', rel: 'noopener noreferrer' }, why) : why,
-    el('span', { className: 'dp-decision__who' }, ` (${TRIAGE_LABEL[s.status]}, ${shortKey(s.pubkey)})`),
+    el('span', { className: 'dp-decision__who' }, ` (${TRIAGE_LABEL[s.status]}, `, signerLink(s.pubkey), ')'),
     s.id === freshId ? el('span', { className: 'dp-decision__fresh' }, ' just published') : null,
     editButton ? ' ' : null,
     editButton,
@@ -435,7 +481,7 @@ function actions(model, { appId, base, fetchImpl }) {
 // puts a Judge button on every row; after a publish, `flash` is the line
 // above the table saying so, `freshId` the statement to mark, and every row
 // is shown so the judged one stays in sight wherever it re-sorts to.
-export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE, fetchImpl = globalThis.fetch, onJudge = null, flash = null, freshId = null, showAll = false } = {}) {
+export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE, fetchImpl = globalThis.fetch, onJudge = null, flash = null, freshId = null, showAll = false, trusted = [] } = {}) {
   const tally = severityTally(model);
   // The number takes the colour of the worst severity still potentially
   // affecting the wallet; once every advisory is cleared it turns green.
@@ -454,6 +500,7 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
       tile(model.malware, 'known malware', { tone: model.malware ? 'bad' : 'good' }),
     ),
     treeTabs(model, advisoryTable(model, { onJudge, freshId, showAll }), { appId, base, fetchImpl, label: `${wallet} ${model.ref}` }),
+    model.advisories.length ? trustedLine(trusted) : null,
     howToRead(model),
     actions(model, { appId, base, fetchImpl }),
   );
@@ -503,9 +550,10 @@ export function publishedFlash(statement, summary) {
  * Fetch the app's export file and paint the panel into `host`. The host stays
  * hidden when the app has no analysed release or the export is unreachable:
  * a wallet nobody analysed shows no empty box. Resolves to the model or null.
- * `nostr` overrides the dialog's signer and relays (tests).
+ * `nostr` overrides the dialog's signer and relays, `profiles(pubkeys)` the
+ * signer-name lookup (tests).
  */
-export async function renderDependenciesPanel({ host, appId, storeVersion = '', title = '', base = EXPORT_BASE, fetchImpl = globalThis.fetch, nostr = undefined }) {
+export async function renderDependenciesPanel({ host, appId, storeVersion = '', title = '', base = EXPORT_BASE, fetchImpl = globalThis.fetch, nostr = undefined, profiles = undefined }) {
   if (!host || !appId) return null;
   let app = null;
   let triage = null;
@@ -526,10 +574,14 @@ export async function renderDependenciesPanel({ host, appId, storeVersion = '', 
   let model = null;
 
   // Repainted after a statement is published, with the statement merged in.
+  // The trusted list from the wallet's triage file, or on its own when nobody said anything yet.
+  let trusted = triage?.trusted || [];
+  if (!trusted.length && app?.releases?.some(r => r.advisories?.length)) trusted = (await loadTrusted({ base, fetchImpl })).trusted;
   const paint = (extra = {}) => {
     model = panelModel(app, { storeVersion, triage, signals, upstream });
     if (!model) return null;
-    host.replaceChildren(panelElement(model, { appId: analysisId, wallet: title || analysisId, base, fetchImpl, onJudge, ...extra }));
+    host.replaceChildren(panelElement(model, { appId: analysisId, wallet: title || analysisId, base, fetchImpl, onJudge, trusted: triage?.trusted?.length ? triage.trusted : trusted, ...extra }));
+    nameSigners(host, profiles === undefined ? defaultProfiles : profiles);
     return model;
   };
   async function onJudge(advisory, edit = null) {
