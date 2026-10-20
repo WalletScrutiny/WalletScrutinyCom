@@ -448,6 +448,15 @@ function headline(model) {
 
 function notices(model) {
   const items = [];
+  // A package OSV lists as malicious outranks everything else on the panel:
+  // it is checked by hand (the registry package, not a workspace or an alias)
+  // and the team is alerted (external/source_analysis/alerts.mjs).
+  const malicious = (model.advisories || []).filter(a => a.severity === 'malicious');
+  if (malicious.length) {
+    items.push(el('span', { className: 'dp-malware' }, el('b', {}, 'Possible malware: '),
+      malicious.map(a => `${a.package}@${a.version} (${a.id})`).join(', '),
+      ` is listed on OSV.dev as malicious. A person is checking whether the lockfile really installs that registry package; until then this is a lead, not a finding. It matters even when only the build uses it: build code can change the app.`));
+  }
   if (model.storeVersion && model.versionMatches === false) {
     items.push(`The store version ${model.storeVersion} has not been checked yet; ${model.ref} is the newest release the source analysis looked at.`);
   }
@@ -559,7 +568,9 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
     el('div', { className: 'dp-tiles' },
       tile(model.packages, 'dependencies', { sub: `${model.direct} direct · ${model.transitive} transitive` }),
       tile(model.vulnerabilities, 'known vulnerabilities', { tone: vulnTone, sub: [tally.lines, otherProductsLine(model), triageLine(model)] }),
-      tile(model.malware, 'known malware', { tone: model.malware ? 'bad' : 'good' }),
+      model.malware
+        ? tile(model.malware, 'possible malware', { tone: 'bad', sub: 'being checked by a person; see the note above' })
+        : tile(model.malware, 'known malware', { tone: 'good' }),
     ),
     treeTabs(model, advisoryTable(model, { onJudge, freshId, showAll }), { appId, base, fetchImpl, label: `${wallet} ${model.ref}` }),
     model.advisories.length ? trustedLine(trusted) : null,
