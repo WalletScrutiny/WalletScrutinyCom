@@ -317,6 +317,9 @@
             display: grid;
             gap: 0;
             .wallet-platform-row--compact {
+              display: flex;
+              flex-direction: column;
+              gap: 2px;
               padding-top: 6px;
               margin-top: 6px;
               border-top: 1px solid var(--shadow-3);
@@ -330,9 +333,19 @@
                 align-items: center;
                 gap: 5px;
                 font-size: $font-xxs;
-                margin-bottom: 2px;
+                margin-bottom: 4px;
+                // the App Store font glyph sits about 1px above the middle
+                // of its box; the Play Store svg fills its box evenly
                 i {
                   font-size: $font-xxs;
+                  position: relative;
+                  top: 0.08em;
+                }
+                // flex centres the label's line box, whose centre sits below
+                // the capitals; trimmed to the cap height, the icon lines up
+                // with the letters
+                span {
+                  text-box: trim-both cap alphabetic;
                 }
               }
               // verdict and meta stamps are joined without whitespace in
@@ -366,17 +379,6 @@
           }
           .stamp-alert-feature::before {
             display: none;
-          }
-          .score,
-          .tests-passed {
-            gap: 5px;
-            margin-bottom: 0;
-            span {
-              text-align: left;
-            }
-            div {
-              width: 100%;
-            }
           }
         }
       }

@@ -751,6 +751,11 @@
         gap: 10px;
         width: 100%;
       }
+      // the tests and verification lines keep the same spacing as the
+      // stamps line above them (.score alone has a 10px gap)
+      > .score {
+        gap: 5px;
+      }
       > .stamps {
         display: flex;
         flex-wrap: wrap;
@@ -806,8 +811,16 @@
         font-size: $font-xxs;
         font-weight: $title-font-weight;
         opacity: 0.9;
+        // same alignment fix as the search dropdown (_masthead.scss): the
+        // App Store glyph sits high in its box, and the label is trimmed to
+        // its cap height so flex centres the letters, not the line box
         i {
           font-size: $font-xs;
+          position: relative;
+          top: 0.08em;
+        }
+        span {
+          text-box: trim-both cap alphabetic;
         }
       }
       .stamps {
@@ -819,7 +832,7 @@
       }
       .score {
         display: grid;
-        gap: 4px;
+        gap: 6px;
       }
       &--compact {
         text-align: left;
