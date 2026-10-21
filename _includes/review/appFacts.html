@@ -1,6 +1,6 @@
 {%- comment -%}
   Compact wallet facts shown in the page header: Developer (with social
-  links), Released, Source code and Custody. Replaces the former review steps of the same names.
+  links), Released, Source code, Custody and Status. Replaces the former review steps of the same names.
   Parameters:
     skipWebsite  set when the header already shows the Website chip, so the
                  developer links do not repeat it
@@ -61,6 +61,26 @@
   {%- elsif page.features contains 'cashu' or page.features contains 'fedimint' or page.features contains 'liquid' -%}
     {%- assign custody_state = 'mixed' -%}
   {%- endif -%}
+{%- endif -%}
+
+{%- comment -%} Status: the flags the homepage card shows, per platform on mobile pages. {%- endcomment -%}
+{%- assign status_android = '' -%}
+{%- assign status_iphone = '' -%}
+{%- if include.platform -%}
+  {%- capture status_flags -%}{% include review/statusFlags.html meta=page.meta verdict=page.verdict %}{%- endcapture -%}
+{%- else -%}
+  {%- if page.android.appId -%}
+    {%- capture status_android -%}{% include review/statusFlags.html meta=page.android.meta verdict=page.android.verdict %}{%- endcapture -%}
+  {%- endif -%}
+  {%- if page.iphone.appId -%}
+    {%- capture status_iphone -%}{% include review/statusFlags.html meta=page.iphone.meta verdict=page.iphone.verdict %}{%- endcapture -%}
+  {%- endif -%}
+  {%- assign status_flags = status_android -%}
+  {%- if status_flags == '' -%}{%- assign status_flags = status_iphone -%}{%- endif -%}
+{%- endif -%}
+{%- assign status_split = false -%}
+{%- if page.android.appId and page.iphone.appId and status_android != status_iphone -%}
+  {%- assign status_split = true -%}
 {%- endif -%}
 
 <dl class="app-facts">
@@ -196,4 +216,18 @@
       {%- endcase -%}
     </dd>
   </div>
+  {%- if status_flags != '' %}
+  <div class="app-facts__item">
+    <dt>Status</dt>
+    <dd>
+      {%- if status_split -%}
+        {%- if status_android != '' -%}<span class="secondary-text">Android:</span> {{ status_android }}{%- endif -%}
+        {%- if status_android != '' and status_iphone != '' -%}<br>{%- endif -%}
+        {%- if status_iphone != '' -%}<span class="secondary-text">iPhone:</span> {{ status_iphone }}{%- endif -%}
+      {%- else -%}
+        {{ status_flags }}
+      {%- endif -%}
+    </dd>
+  </div>
+  {%- endif %}
 </dl>
