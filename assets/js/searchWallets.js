@@ -709,8 +709,8 @@ function getIcon (name) {
 }
 
 // The header dropdown is rebuilt on every search, so its rows are kept
-// small: no test bars (the "Passed n of m tests" text says the same), no
-// template indentation, and the verdict stamps last.
+// small: no test bars (the "Passed n of m tests" text says the same) and no
+// template indentation. Lines run: platform, stamps, tests, verification.
 function getCompactTestsHtml (score) {
   return score ? `<span>${getWalletScoreIconsHtml(score).text}</span>` : '';
 }
@@ -734,14 +734,14 @@ function makeCompactResultsHTML (wallet, lazyLoad, platformFilter) {
     const shared = getWalletSharedStampsHtml(wallet);
     const sections = platforms.map((p) => {
       const score = p === 'android' ? wallet.scoreAndroid : wallet.scoreIphone;
-      // meta before verdict, so the verdict stays last even when they wrap
+      // meta before verdict stamp, in one line when they fit
       const stamps = renderWalletPlatformMetaStamp(wallet, p) +
         renderVerdictStamp(p === 'android' ? wallet.verdictAndroid : wallet.verdictIphone, null, getWalletPlatformMeta(wallet, p));
       return '<div class="wallet-platform-row wallet-platform-row--compact">' +
         `<div class="wallet-platform-row__head">${getIcon(p)}<span>${getPlatformStoreLabel(p)}</span></div>` +
-        (wallet.archived ? '' : getWalletVerificationHtmlForPlatform(wallet, p)) +
-        getCompactTestsHtml(score) +
         (stamps ? `<span class="stats-platform-stamps">${stamps}</span>` : '') +
+        getCompactTestsHtml(score) +
+        (wallet.archived ? '' : getWalletVerificationHtmlForPlatform(wallet, p)) +
         '</div>';
     }).join('');
     statsHTML = `<span class="stats stats--by-platform">${shared ? `<span class="stats-shared">${shared}</span>` : ''}${sections}</span>`;
@@ -764,12 +764,12 @@ function makeCompactResultsHTML (wallet, lazyLoad, platformFilter) {
       testsHTML = getCompactTestsHtml(wallet.score);
     }
     statsHTML = '<span class="stats">' +
-      (wallet.archived ? '' : getWalletVerificationLinesHtml(wallet, platformFilter)) +
-      testsHTML +
       (wallet.archived ? '<span class="stamp stamp-archived">Wallet Archived</span>' : '') +
       getCompactAlertStampsHtml(wallet) +
       (wallet.meta && wallet.meta !== 'ok' ? renderStamp(wallet.meta, window.verdicts[wallet.meta].short) : '') +
       getWalletVerdictStampsHtml(wallet, listPlatform) +
+      testsHTML +
+      (wallet.archived ? '' : getWalletVerificationLinesHtml(wallet, platformFilter)) +
       '</span>';
   }
 

@@ -31,7 +31,7 @@ test.describe('Navbar search', () => {
     assertNoConsoleErrors();
   });
 
-  test('result cards show no test bars and end each platform with its verdict', async ({ page }, testInfo) => {
+  test('result cards show no test bars and order each platform: store, stamps, tests, verification', async ({ page }, testInfo) => {
     const assertNoConsoleErrors = attachConsoleGuards(testInfo, page);
 
     await page.goto('/assets/');
@@ -47,8 +47,14 @@ test.describe('Navbar search', () => {
     await expect(results.locator('.pass, .fail')).toHaveCount(0);
     await expect(results).toContainText(/Passed all\s+\d+ tests/);
     await expect(results).not.toContainText('Not verified yet');
-    const lastChildren = await rows.evaluateAll((els) => els.map((el) => el.lastElementChild.className));
-    expect(lastChildren).toEqual(['stats-platform-stamps', 'stats-platform-stamps']);
+    const lines = await rows.evaluateAll((els) => els.map((el) =>
+      [...el.children].map((c) => c.className || c.textContent.trim())));
+    for (const line of lines) {
+      expect(line.slice(0, 2)).toEqual(['wallet-platform-row__head', 'stats-platform-stamps']);
+      expect(line[2]).toMatch(/^Passed /);
+      if (line.length > 3) expect(line[3]).toMatch(/^[✅❌] /);
+      expect(line.length).toBeLessThanOrEqual(4);
+    }
 
     assertNoConsoleErrors();
   });
