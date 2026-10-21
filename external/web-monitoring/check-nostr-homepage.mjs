@@ -9,7 +9,7 @@
  *   UPTIME_KUMA_JS_PUSH_URL - Push URL for the "no JavaScript errors" check
  *     (optional; if unset, this check is not pushed to Kuma)
  *   WALLETSCRUTINY_URL   - page to open (default: https://walletscrutiny.com/)
- *   NOSTR_HEALTHCHECK_TEXT - substring to wait for (default: Reproducible when tested)
+ *   NOSTR_HEALTHCHECK_TEXT - substring to wait for (default: Reproducible build)
  *   HEALTHCHECK_TIMEOUT_MS - max wait in ms (default: 50000)
  *   PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH - Chromium/Chrome binary (optional; common
  *     system paths are tried if unset; run `npm run install-browsers` where supported)
@@ -40,7 +40,7 @@ const contentPushUrlRaw = process.env.UPTIME_KUMA_CONTENT_PUSH_URL;
 const jsPushUrlRaw = process.env.UPTIME_KUMA_JS_PUSH_URL;
 const url = process.env.WALLETSCRUTINY_URL ?? 'https://walletscrutiny.com/';
 const expectedText =
-  process.env.NOSTR_HEALTHCHECK_TEXT ?? 'Reproducible when tested';
+  process.env.NOSTR_HEALTHCHECK_TEXT ?? 'Reproducible build';
 const timeoutMs = Number(process.env.HEALTHCHECK_TIMEOUT_MS ?? 50_000);
 const pushTimeoutMs = Number(process.env.UPTIME_KUMA_PUSH_TIMEOUT_MS ?? 30_000);
 

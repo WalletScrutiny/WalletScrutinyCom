@@ -35,7 +35,7 @@ npm run check-nostr
 You should see the following output:
 
 ```bash
-OK: found visible text matching "Reproducible when tested" on https://walletscrutiny.com/ (10000 ms)
+OK: found visible text matching "Reproducible build" on https://walletscrutiny.com/ (10000 ms)
 ```
 
 ## Install Uptime Kuma
@@ -110,7 +110,7 @@ Add the following line:
 | `UPTIME_KUMA_CONTENT_PUSH_URL` | No | Push URL for content visibility check. |
 | `UPTIME_KUMA_JS_PUSH_URL` | No | Push URL for JavaScript error check. |
 | `WALLETSCRUTINY_URL` | No | Page to open (default: `https://walletscrutiny.com/`). |
-| `NOSTR_HEALTHCHECK_TEXT` | No | Substring to wait for (default: `Reproducible when tested`). |
+| `NOSTR_HEALTHCHECK_TEXT` | No | Substring to wait for (default: `Reproducible build`). |
 | `HEALTHCHECK_TIMEOUT_MS` | No | Max wait for the text (default: `20000`). |
 | `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH` | No | Path to Chromium/Chrome if Playwright’s bundled browser is not used. |
 

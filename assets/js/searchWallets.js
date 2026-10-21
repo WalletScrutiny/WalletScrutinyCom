@@ -502,6 +502,12 @@ function getPlatformStoreLabel (platform) {
   return platform === 'iphone' ? 'App Store' : 'Play Store';
 }
 
+// wallet cards say "Reproducible build"; the shared getStatusText wording
+// stays for the verification tables and modals
+function getCardStatusHtml (status) {
+  return status === 'reproducible' ? '✅ Reproducible build' : '❌ ' + getStatusText(status, true);
+}
+
 function getWalletVerificationHtmlForPlatform (wallet, platform) {
   if (!window.allAssetInformation) return '';
   const verdict = platform === 'android' ? wallet.verdictAndroid : wallet.verdictIphone;
@@ -509,9 +515,9 @@ function getWalletVerificationHtmlForPlatform (wallet, platform) {
   if (verdict !== 'sourceavailable' || !appId) return '';
   const status = getLastVerificationStatusForAppId(appId, platform);
   if (!status) {
-    return '<span>❌ Not verifiable</span>';
+    return '<span>❌ Build not verifiable</span>';
   }
-  return `<span>${(status === 'reproducible' ? '✅ ' : '❌ ') + getStatusText(status, true)}</span>`;
+  return `<span>${getCardStatusHtml(status)}</span>`;
 }
 
 function getWalletVerificationLinesHtml (wallet, platformFilter) {
@@ -522,10 +528,10 @@ function getWalletVerificationLinesHtml (wallet, platformFilter) {
     const status = getLastVerificationStatusForAppId(appId, platform);
     const prefix = label ? `${label}: ` : '';
     if (!status) {
-      lines.push(`<span>${prefix}❌ Not verifiable</span>`);
+      lines.push(`<span>${prefix}❌ Build not verifiable</span>`);
       return;
     }
-    lines.push(`<span>${prefix}${(status === 'reproducible' ? '✅ ' : '❌ ') + getStatusText(status, true)}</span>`);
+    lines.push(`<span>${prefix}${getCardStatusHtml(status)}</span>`);
   };
   if (wallet.verdictAndroid || wallet.verdictIphone) {
     addLine(wallet.verdictAndroid, wallet.androidAppId, 'android', wallet.verdictAndroid !== wallet.verdictIphone ? 'Android' : null);
