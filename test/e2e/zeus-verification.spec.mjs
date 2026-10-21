@@ -76,10 +76,11 @@ test.describe('ZEUS verification detail page', () => {
       const copyHash = header.locator('.verification-modal-hash-row .js-copy-hash');
       await expect.soft(copyHash).toHaveAttribute('title', 'Copy entire hash');
       await expect.soft(copyHash).toHaveAttribute('data-hash', '709e379506f7d86cfb146493441fc72b7f20cb90578a9b26b9ca9da374782caf');
-      // The header carries the verdict, the app and version, the platform and the date.
+      // The header carries the verdict, the app and version, the platform on the hash line, and the date.
       const heading = modal.locator('#verificationModalHeading');
       await expect.soft(heading.locator('.verification-modal-title')).toHaveText('ZEUS Wallet 13.0.1');
-      await expect.soft(heading.locator('.verification-modal-subtitle')).toHaveText(`Android · ${expectedCreatedAt}`);
+      await expect.soft(heading.locator('.verification-modal-platform')).toHaveText('Android -');
+      await expect.soft(heading.locator('.verification-modal-subtitle')).toHaveText(expectedCreatedAt);
       await expect.soft(heading.locator('.verification-modal-status')).toHaveText('Reproducible when tested');
       await expect.soft(heading.locator('.verification-modal-status')).toHaveClass(/verification-modal-status--good/);
       // The verdict pill has the wallet page pills' frame, and those pills have the verdict's check mark.

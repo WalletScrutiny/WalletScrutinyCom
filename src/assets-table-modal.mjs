@@ -692,10 +692,15 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     .map(tag => tag[1])
     .filter(id => isSha256Hex(id));
 
-  /* -------------------- Header: app + version, hash, verdict, platform and date -------------------- */
+  /* -------------------- Header: app + version, platform and hash, verdict and date -------------------- */
   const isReproducible = status === 'reproducible';
-  const hashesEl = verificationHashes.length > 0
-    ? el('div', { className: 'verification-modal-hashes' }, ...verificationHashes.map(hash =>
+  const platformText = platformLabel(verificationPlatform);
+  const hashesEl = platformText || verificationHashes.length > 0
+    ? el('div', { className: 'verification-modal-hashes' },
+      platformText
+        ? el('span', { className: 'verification-modal-platform' }, verificationHashes.length > 0 ? `${platformText} -` : platformText)
+        : null,
+      ...verificationHashes.map(hash =>
       el('span', { className: 'verification-modal-hash-row' },
         el('span', { className: 'verification-modal-hash', title: hash }, hash.slice(0, 8)),
         el('button', {
@@ -718,8 +723,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
       ),
       isDraft ? el('span', { className: 'verification-draft-badge' }, isMyDraft ? 'Draft, not published yet' : 'Draft') : null,
     ),
-    el('p', { className: 'verification-modal-subtitle' },
-      [platformLabel(verificationPlatform), formatDate(verification.created_at)].filter(Boolean).join(' · ')),
+    el('p', { className: 'verification-modal-subtitle' }, formatDate(verification.created_at)),
   ].filter(Boolean));
 
   /* -------------------- Toolbar: one row of quiet action chips -------------------- */

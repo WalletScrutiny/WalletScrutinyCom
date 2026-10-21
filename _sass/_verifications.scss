@@ -1445,11 +1445,17 @@ body.dark #verificationModalToolbar .share-dropdown-menu a:focus-visible img {
   grid-column: 1 / -1;
 }
 
-/* The reproduced hashes, between the title and the platform line. No label. */
+/* The platform and the reproduced hashes, between the title and the verdict: "Android - 762ae102". No label. */
 .verification-modal-hashes {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 0 14px;
+}
+
+.verification-modal-platform {
+  font-size: $font-sm;
+  margin-right: -8px;
 }
 
 .verification-modal-hash-row {
