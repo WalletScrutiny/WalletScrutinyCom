@@ -751,6 +751,11 @@
         gap: 10px;
         width: 100%;
       }
+      // the tests and verification lines keep the same spacing as the
+      // stamps line above them (.score alone has a 10px gap)
+      > .score {
+        gap: 5px;
+      }
       > .stamps {
         display: flex;
         flex-wrap: wrap;
@@ -827,7 +832,7 @@
       }
       .score {
         display: grid;
-        gap: 4px;
+        gap: 6px;
       }
       &--compact {
         text-align: left;
