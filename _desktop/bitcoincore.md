@@ -52,6 +52,12 @@ builds:
     - bitcoin-*-win64.zip
     setup:
     - bitcoin-*-win64-setup.exe
+distributions:
+- channel: flathub
+  id: org.bitcoincore.bitcoin-qt
+  publisher: developer
+  type: repackage
+  wraps: bitcoin-*-x86_64-linux-gnu.tar.gz
 features:
 - ownFullNode
 - foss
