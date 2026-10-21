@@ -31,8 +31,15 @@ permalink: /asset/
     });
 
     const urlParams = new URLSearchParams(window.location.search);
-    const sha256 = DOMPurify.sanitize(urlParams.get('sha256'), purifyConfig);
-    document.getElementById('sha256title').innerHTML = sha256;
+    const sha256 = normalizeSha256Input(urlParams.get('sha256'));
+    if (!sha256) {
+      document.getElementById('sha256title').textContent = 'Not a sha256 hash';
+      document.getElementById('binariesTable').style.display = 'none';
+      document.getElementById('explanationText').textContent = 'A sha256 hash is exactly 64 characters from 0-9 and a-f. Check that you copied the whole hash and nothing else.';
+      document.getElementById('loadingSpinner').style.display = 'none';
+      return;
+    }
+    document.getElementById('sha256title').textContent = sha256;
 
     const result = await renderAssetsTable({
       htmlElementId: 'binariesTable',
@@ -58,7 +65,7 @@ permalink: /asset/
       binariesTable.style.display = 'none';
       explanationText.innerHTML = 'No assets were found in Nostr with that SHA256 hash. Do you want to add this asset to Nostr so you or other people can try to verify if it can be built from sources?';
       registerAssetButton.style.display = 'block';
-      registerAssetButton.querySelector('a').href = `/new_asset/?sha256=${sha256}`;
+      registerAssetButton.querySelector('a').href = `/new_asset/?sha256=${encodeURIComponent(sha256)}`;
     }
 
     document.getElementById('loadingSpinner').style.display = 'none';

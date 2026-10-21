@@ -56,7 +56,7 @@ import {
 } from './asset-utils.mjs';
 import { formatDate } from './format-utils.mjs';
 import { getNostrProfile } from './nostr-profile.mjs';
-import { isSha256Hex, stripHtmlTags } from './html-utils.mjs';
+import { isSha256Hex, normalizeSha256Input, stripHtmlTags } from './html-utils.mjs';
 
 // Configure DOMPurify to be more restrictive
 const purifyConfig = {
@@ -2587,6 +2587,7 @@ if (typeof window !== 'undefined') {
   window.getAppInfoFromEventInfo = getAppInfoFromEventInfo;
   window.nip19 = nip19;
   window.purifyConfig = purifyConfig;
+  window.normalizeSha256Input = normalizeSha256Input;
   window.getStatusText = getStatusText;
   window.loadDraftVerificationsNotifications = loadDraftVerificationsNotifications;
   window.loadSiteAdminMenu = loadSiteAdminMenu;

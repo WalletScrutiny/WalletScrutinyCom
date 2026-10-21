@@ -11,6 +11,7 @@ import {
   sanitizeRichHtml,
   sanitizeHttpUrl,
   isSha256Hex,
+  normalizeSha256Input,
 } from '../../src/html-utils.mjs';
 import { parseMarkdownToSafeHtml } from '../../src/marked-loader.mjs';
 import {
@@ -177,5 +178,19 @@ describe('isSha256Hex', () => {
     assert.equal(isSha256Hex('a'.repeat(64)), true);
     assert.equal(isSha256Hex(`' onmouseover='x/` + '0'.repeat(50)), false);
     assert.equal(isSha256Hex('g'.repeat(64)), false);
+  });
+});
+
+describe('normalizeSha256Input', () => {
+  test('trims and lowercases a pasted hash', () => {
+    assert.equal(normalizeSha256Input(`  ${'AB'.repeat(32)}\n`), 'ab'.repeat(32));
+  });
+
+  test('rejects anything that is not exactly 64 hex characters', () => {
+    for (const bad of [null, undefined, 42, '', 'a'.repeat(63), 'a'.repeat(65), 'g'.repeat(64),
+      `${'a'.repeat(32)} ${'a'.repeat(32)}`, `${'a'.repeat(64)}<script>`, `${'a'.repeat(64)}&x=1`,
+      `<img src=x onerror=alert(1)>${'a'.repeat(40)}`]) {
+      assert.equal(normalizeSha256Input(bad), null, String(bad));
+    }
   });
 });

@@ -6,28 +6,33 @@
                extra-data: the user's machine downloads the official file at install time
                source: Flathub compiles it, a separate binary nobody has verified
     wraps      the official file a repackage or extra-data package uses, e.g. Bisq-64bit-*.deb
+  _plugins/flathub_validate.rb fails the build unless these match strict patterns, because
+  they end up in links and in shell commands users copy. Everything is escaped here anyway.
 {%- endcomment -%}
 {%- assign fh = page.flathub -%}
 {%- if fh and fh.appId -%}
-{%- assign fh_needle = fh.wraps | split: '*' | first -%}
+{%- assign fh_id = fh.appId | escape -%}
+{%- assign fh_wraps = fh.wraps | escape -%}
+{%- assign fh_needle = fh.wraps | split: '*' | first | escape -%}
+{%- assign fh_title = page.title | escape -%}
 <div class="step flathub-package">
   <i class="circle">{% include icon.html name="flathub" %}</i>
   <div class="title">
     <h3>Flathub package</h3>
     {%- unless fh.publisher == 'developer' %}
     <div class="flathub-community-warning" role="note">
-      <b>Community package, not from the {{ page.title }} developers.</b>
-      A third party maintains its <a href="https://github.com/flathub/{{ fh.appId }}" target="_blank" rel="noopener noreferrer">Flathub manifest</a>. They can change which file it downloads, and its sha256, in a pull request. Only Flathub's review stands between that change and your computer.
+      <b>Community package, not from the {{ fh_title }} developers.</b>
+      A third party maintains its <a href="https://github.com/flathub/{{ fh_id }}" target="_blank" rel="noopener noreferrer">Flathub manifest</a>. They can change which file it downloads, and its sha256, in a pull request. Only Flathub's review stands between that change and your computer.
     </div>
     {%- endunless %}
     <p>
-      <a href="https://flathub.org/apps/{{ fh.appId }}" target="_blank" rel="noopener noreferrer"><code>{{ fh.appId }}</code></a>
-      {% if fh.publisher == 'developer' %}is published by the {{ page.title }} developers, who maintain its <a href="https://github.com/flathub/{{ fh.appId }}" target="_blank" rel="noopener noreferrer">Flathub manifest</a>.{% else %}is maintained by a third party.{% endif %}
+      <a href="https://flathub.org/apps/{{ fh_id }}" target="_blank" rel="noopener noreferrer"><code>{{ fh_id }}</code></a>
+      {% if fh.publisher == 'developer' %}is published by the {{ fh_title }} developers, who maintain its <a href="https://github.com/flathub/{{ fh_id }}" target="_blank" rel="noopener noreferrer">Flathub manifest</a>.{% else %}is maintained by a third party.{% endif %}
       {%- case fh.type %}
       {%- when 'repackage' %}
-      Flathub does not compile it. It downloads the official <code>{{ fh.wraps }}</code>, checks its sha256 and copies the files unchanged, apart from stripping debug symbols. It is as trustworthy as that official file, as long as you trust Flathub's build service.
+      Flathub does not compile it. It downloads the official <code>{{ fh_wraps }}</code>, checks its sha256 and copies the files unchanged, apart from stripping debug symbols. It is as trustworthy as that official file, as long as you trust Flathub's build service.
       {%- when 'extra-data' %}
-      Flathub ships only an installer. Your computer downloads the official <code>{{ fh.wraps }}</code> from the developer while installing and checks its sha256. It is as trustworthy as that official file.
+      Flathub ships only an installer. Your computer downloads the official <code>{{ fh_wraps }}</code> from the developer while installing and checks its sha256. It is as trustworthy as that official file.
       {%- else %}
       Flathub compiles it from source on its own servers. That is a different binary from the official downloads, and nobody has verified it yet, so the verdict above does not cover it.
       {%- endcase %}
@@ -35,13 +40,25 @@
     {%- if fh.type == 'repackage' or fh.type == 'extra-data' %}
     <p>Which official file does your Flathub version use? This reads the hash from the signed package without installing it (about 60 KB):</p>
 <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak install --user --no-deploy --no-deps --no-related --subpath=/manifest.json flathub {{ fh.appId }}
-grep -rh -A1 '{{ fh_needle }}' ~/.local/share/flatpak/repo/objects</code></pre></div></div>
+flatpak install --user --no-deploy --no-deps --no-related --subpath=/manifest.json flathub {{ fh_id }}
+grep -rhF -A1 -- '{{ fh_needle }}' ~/.local/share/flatpak/repo/objects</code></pre></div></div>
     <form class="flathub-hash-lookup" action="{{ site.baseurl }}/asset/" method="get">
       <label for="flathub-sha256">Look up the <code>sha256</code> it prints:</label>
-      <input id="flathub-sha256" name="sha256" type="text" required pattern="[0-9a-fA-F]{64}" placeholder="64 hex characters" autocomplete="off" spellcheck="false">
+      <input id="flathub-sha256" name="sha256" type="text" required pattern="\s*[0-9a-fA-F]{64}\s*" placeholder="64 hex characters" autocomplete="off" spellcheck="false">
       <button type="submit" class="btn btn-small btn-success">Look up</button>
+      <p class="flathub-hash-error" role="alert" hidden>That is not a sha256 hash. It must be exactly 64 characters from 0-9 and a-f.</p>
     </form>
+    <script>
+      var flathubForm = document.querySelector('.flathub-hash-lookup');
+      flathubForm.noValidate = true;
+      flathubForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var sha256 = this.elements.sha256.value.trim().toLowerCase();
+        var ok = /^[0-9a-f]{64}$/.test(sha256);
+        this.querySelector('.flathub-hash-error').hidden = ok;
+        if (ok) window.location.href = this.action + '?sha256=' + sha256;
+      });
+    </script>
     <p>If our verifications list that file as reproducible, your Flathub package contains that build. To check without trusting Flathub's build service, compare the installed files against the official download, as described in <a href="{{ site.baseurl }}/flathub/">How we check Flathub packages</a>.</p>
     {%- endif %}
   </div>

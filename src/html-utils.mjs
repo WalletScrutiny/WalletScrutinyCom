@@ -20,6 +20,13 @@ export function isSha256Hex(value) {
   return typeof value === 'string' && SHA256_HEX_RE.test(value);
 }
 
+/** A pasted or URL-supplied sha256: trimmed and lowercased if it is exactly 64 hex characters, else null. */
+export function normalizeSha256Input(value) {
+  if (typeof value !== 'string') return null;
+  const trimmed = value.trim().toLowerCase();
+  return isSha256Hex(trimmed) ? trimmed : null;
+}
+
 /** Strip tags when DOMPurify has no DOM (unit tests). */
 export function stripHtmlTags(value) {
   return String(value ?? '').replace(/<[^>]*>/g, '');
