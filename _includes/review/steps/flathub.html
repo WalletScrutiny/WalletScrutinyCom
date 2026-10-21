@@ -1,17 +1,18 @@
 {%- comment -%}
-  Flathub package of a desktop wallet, from the page's `flathub` block:
-    appId      Flathub ID, e.g. network.bisq.Bisq
+  Flathub package of a desktop wallet, from a `channel: flathub` entry of the page's
+  `distributions` list, passed as d (n numbers the entry, for unique element IDs):
+    id         Flathub app ID, e.g. network.bisq.Bisq
     publisher  developer (Flathub-verified) or community
     type       repackage: Flathub copies an official download, checked by sha256
                extra-data: the user's machine downloads the official file at install time
                source: Flathub compiles it, a separate binary nobody has verified
     wraps      the official file a repackage or extra-data package uses, e.g. Bisq-64bit-*.deb
-  _plugins/flathub_validate.rb fails the build unless these match strict patterns, because
+  _plugins/distributions_validate.rb fails the build unless these match strict patterns, because
   they end up in links and in shell commands users copy. Everything is escaped here anyway.
 {%- endcomment -%}
-{%- assign fh = page.flathub -%}
-{%- if fh and fh.appId -%}
-{%- assign fh_id = fh.appId | escape -%}
+{%- assign fh = include.d -%}
+{%- if fh and fh.id -%}
+{%- assign fh_id = fh.id | escape -%}
 {%- assign fh_wraps = fh.wraps | escape -%}
 {%- assign fh_needle = fh.wraps | split: '*' | first | escape -%}
 {%- assign fh_title = page.title | escape -%}
@@ -42,14 +43,14 @@
 <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak install --user --no-deploy --no-deps --no-related --subpath=/manifest.json flathub {{ fh_id }}
 grep -rhF -A1 -- '{{ fh_needle }}' ~/.local/share/flatpak/repo/objects</code></pre></div></div>
-    <form class="flathub-hash-lookup" action="{{ site.baseurl }}/asset/" method="get">
-      <label for="flathub-sha256">Look up the <code>sha256</code> it prints:</label>
-      <input id="flathub-sha256" name="sha256" type="text" required pattern="\s*[0-9a-fA-F]{64}\s*" placeholder="64 hex characters" autocomplete="off" spellcheck="false">
+    <form id="flathub-hash-lookup-{{ include.n }}" class="flathub-hash-lookup" action="{{ site.baseurl }}/asset/" method="get">
+      <label for="flathub-sha256-{{ include.n }}">Look up the <code>sha256</code> it prints:</label>
+      <input id="flathub-sha256-{{ include.n }}" name="sha256" type="text" required pattern="\s*[0-9a-fA-F]{64}\s*" placeholder="64 hex characters" autocomplete="off" spellcheck="false">
       <button type="submit" class="btn btn-small btn-success">Look up</button>
       <p class="flathub-hash-error" role="alert" hidden>That is not a sha256 hash. It must be exactly 64 characters from 0-9 and a-f.</p>
     </form>
     <script>
-      var flathubForm = document.querySelector('.flathub-hash-lookup');
+      var flathubForm = document.getElementById('flathub-hash-lookup-{{ include.n }}');
       flathubForm.noValidate = true;
       flathubForm.addEventListener('submit', function (e) {
         e.preventDefault();

@@ -1,0 +1,10 @@
+{%- comment -%}
+  One step per entry in the page's `distributions` list, switched on `channel`.
+  _plugins/distributions_validate.rb rejects channels without a case here.
+{%- endcomment -%}
+{%- for d in page.distributions -%}
+{%- case d.channel -%}
+{%- when 'flathub' -%}
+{% include /review/steps/flathub.html d=d n=forloop.index %}
+{%- endcase -%}
+{%- endfor -%}

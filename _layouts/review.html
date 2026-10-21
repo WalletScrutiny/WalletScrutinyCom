@@ -49,13 +49,15 @@ layout: default
           {% if platform == 'bearer' %}
             {% include /review/appFacts.html platform=platform %}
           {% else %}
-            {% if page.repository contains 'github.com' or page.website and page.website != '' or page.flathub.appId %}
+            {% if page.repository contains 'github.com' or page.website and page.website != '' or page.distributions.size > 0 %}
             <div class="distribution-store-links">
               {% include /review/githubDistributionLink.html %}
               {% include /review/websiteDistributionLink.html %}
-              {% if page.flathub.appId %}
-              <a title="Flathub" href="https://flathub.org/apps/{{ page.flathub.appId | escape }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">{% include icon.html name="flathub" %} Flathub{% unless page.flathub.publisher == 'developer' %} <span class="flathub-community-badge">community</span>{% endunless %}</a>
+              {% for d in page.distributions %}
+              {% if d.channel == 'flathub' %}
+              <a title="Flathub" href="https://flathub.org/apps/{{ d.id | escape }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">{% include icon.html name="flathub" %} Flathub{% unless d.publisher == 'developer' %} <span class="flathub-community-badge">community</span>{% endunless %}</a>
               {% endif %}
+              {% endfor %}
             </div>
             {% endif %}
             {% include /review/appFacts.html skipWebsite=true platform=platform %}

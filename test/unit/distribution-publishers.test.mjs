@@ -1,7 +1,7 @@
 import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { checkPublisherClaim, developerEvidence } from '../../scripts/checkFlathubPublishers.mjs';
+import { checkPublisherClaim, developerEvidence } from '../../scripts/checkDistributionPublishers.mjs';
 
 const core = { website: 'https://bitcoincore.org', repository: 'https://github.com/bitcoin/bitcoin' };
 const green = { website: 'https://blockstream.com/green/', repository: 'https://github.com/Blockstream/green_qt' };
@@ -36,12 +36,12 @@ describe('developerEvidence', () => {
 
 describe('checkPublisherClaim', () => {
   test('developer needs evidence', () => {
-    assert.equal(checkPublisherClaim({ ...core, flathub: { publisher: 'developer' } }, site('bitcoincore.org')).ok, true);
-    assert.equal(checkPublisherClaim({ ...core, flathub: { publisher: 'developer' } }, unverified).ok, false);
+    assert.equal(checkPublisherClaim(core, { channel: 'flathub', publisher: 'developer' }, site('bitcoincore.org')).ok, true);
+    assert.equal(checkPublisherClaim(core, { channel: 'flathub', publisher: 'developer' }, unverified).ok, false);
   });
 
   test('community is flagged when Flathub ties it to the developers', () => {
-    assert.equal(checkPublisherClaim({ ...core, flathub: { publisher: 'community' } }, unverified).ok, true);
-    assert.equal(checkPublisherClaim({ ...core, flathub: { publisher: 'community' } }, site('bitcoincore.org')).ok, false);
+    assert.equal(checkPublisherClaim(core, { channel: 'flathub', publisher: 'community' }, unverified).ok, true);
+    assert.equal(checkPublisherClaim(core, { channel: 'flathub', publisher: 'community' }, site('bitcoincore.org')).ok, false);
   });
 });

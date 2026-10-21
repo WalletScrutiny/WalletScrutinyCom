@@ -1,14 +1,16 @@
 /**
- * checkFlathubPublishers.mjs
+ * checkDistributionPublishers.mjs
  *
- * Checks each page's `flathub.publisher` claim against Flathub's own verification record,
- * so a page cannot call a package "developer" published unless Flathub agrees.
+ * Checks the `publisher` claim of each entry in a page's `distributions` list against the
+ * store's own record, so a page cannot call a package "developer" published unless the
+ * store agrees. Each channel needs its own check in STORE_STATUS; an entry whose channel
+ * has none fails.
  *
- *   node scripts/checkFlathubPublishers.mjs     exits 1 on any mismatch
+ *   node scripts/checkDistributionPublishers.mjs     exits 1 on any mismatch
  *
- * "developer" needs Flathub to have verified the app ID, through a website whose domain is
- * the page's website (or a parent of it), or through a GitHub/GitLab account that owns the
- * page's repository. Verification by anyone else does not count.
+ * Flathub: "developer" needs Flathub to have verified the app ID, through a website whose
+ * domain is the page's website (or a parent of it), or through a GitHub/GitLab account that
+ * owns the page's repository. Verification by anyone else does not count.
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -64,15 +66,15 @@ export function developerEvidence(page, status) {
 /**
  * @returns {{ ok: boolean, message: string }}
  */
-export function checkPublisherClaim(page, status) {
+export function checkPublisherClaim(page, entry, status) {
   const evidence = developerEvidence(page, status);
-  if (page.flathub.publisher === 'developer') {
+  if (entry.publisher === 'developer') {
     return evidence
-      ? { ok: true, message: `developer, Flathub-verified via ${evidence}` }
-      : { ok: false, message: `claims developer, but Flathub does not verify it to the page's website or repository (${JSON.stringify(status)})` };
+      ? { ok: true, message: `developer, store-verified via ${evidence}` }
+      : { ok: false, message: `claims developer, but the store does not verify it to the page's website or repository (${JSON.stringify(status)})` };
   }
   return evidence
-    ? { ok: false, message: `claims community, but Flathub verifies it via ${evidence}: should it be developer?` }
+    ? { ok: false, message: `claims community, but the store verifies it via ${evidence}: should it be developer?` }
     : { ok: true, message: 'community, not verified to the developers' };
 }
 
@@ -84,32 +86,54 @@ function readPages() {
     for (const name of fs.readdirSync(full).filter(n => n.endsWith('.md'))) {
       const text = fs.readFileSync(path.join(full, name), 'utf8');
       const fm = text.match(/^---\r?\n([\s\S]*?)\r?\n---/);
-      if (!fm || !/^flathub:/m.test(fm[1])) continue;
+      if (!fm || !/^distributions:/m.test(fm[1])) continue;
       const data = yaml.load(fm[1]);
-      if (data?.flathub) pages.push({ file: `${dir}/${name}`, ...data });
+      if (Array.isArray(data?.distributions)) pages.push({ file: `${dir}/${name}`, ...data });
     }
   }
   return pages;
 }
 
+/** Per channel: the ID pattern, and how to fetch the store's verification record for an ID. */
+const STORE_STATUS = {
+  flathub: {
+    idRe: APP_ID_RE,
+    async fetchStatus(id) {
+      const res = await fetch(`https://flathub.org/api/v2/verification/${encodeURIComponent(id)}/status`);
+      if (!res.ok) throw new Error(`Flathub answered ${res.status}`);
+      return res.json();
+    },
+  },
+};
+
 async function main() {
   let failed = 0;
   for (const page of readPages()) {
-    const appId = page.flathub.appId;
-    if (typeof appId !== 'string' || !APP_ID_RE.test(appId)) {
-      console.log(`FAIL ${page.file}: appId ${JSON.stringify(appId)} is not a Flatpak app ID`);
-      failed++;
-      continue;
+    for (const entry of page.distributions) {
+      const label = `${page.file} ${entry?.channel} ${entry?.id}`;
+      const store = STORE_STATUS[entry?.channel];
+      if (!store) {
+        console.log(`FAIL ${label}: no publisher check for this channel`);
+        failed++;
+        continue;
+      }
+      if (typeof entry.id !== 'string' || !store.idRe.test(entry.id)) {
+        console.log(`FAIL ${label}: not a valid ${entry.channel} ID`);
+        failed++;
+        continue;
+      }
+      let status;
+      try {
+        status = await store.fetchStatus(entry.id);
+      } catch (e) {
+        console.log(`FAIL ${label}: ${e.message}`);
+        failed++;
+        continue;
+      }
+      const { ok, message } = checkPublisherClaim(page, entry, status);
+      console.log(`${ok ? 'ok  ' : 'FAIL'} ${label}: ${message}`);
+      if (!ok) failed++;
     }
-    const res = await fetch(`https://flathub.org/api/v2/verification/${encodeURIComponent(appId)}/status`);
-    if (!res.ok) {
-      console.log(`FAIL ${page.file}: Flathub answered ${res.status} for ${appId}`);
-      failed++;
-      continue;
-    }
-    const { ok, message } = checkPublisherClaim(page, await res.json());
-    console.log(`${ok ? 'ok  ' : 'FAIL'} ${page.file} ${appId}: ${message}`);
-    if (!ok) failed++;
   }
   process.exit(failed ? 1 : 0);
 }
