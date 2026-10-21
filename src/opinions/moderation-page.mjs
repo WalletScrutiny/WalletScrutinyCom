@@ -1,14 +1,25 @@
 /**
- * Index of third-party WalletScrutiny opinions and the wallet each one belongs to.
- * Not linked from the site menu. The list is rendered only for siteAdminPubkeys.
+ * /opinions/: the queue of undecided third-party opinions, grouped by author.
+ * Each author is one card with their opinions indented below it. Approve
+ * author publishes one author approval: everything that author has published
+ * or publishes later counts as approved, on every page. Hide all publishes one
+ * hide per opinion. Not linked from the site menu. The list is rendered only
+ * for siteAdminPubkeys.
  * The stylesheet and the mount live in moderation-page-boot.mjs so unit tests
  * can import this module without a CSS loader.
  */
+import * as nip19 from 'nostr-tools/nip19';
 import { el } from '../html-utils.mjs';
 import { isWalletScrutinySiteAdmin, siteAdminPubkeys } from '../nostr-constants.mjs';
 import { showToast } from '../verifications_utils.mjs';
 import { parseMarkdownToSafeHtml } from '../marked-loader.mjs';
-import { getNostrProfiles, getProfileDisplayName, hasProfileIdentity } from '../nostr-profile.mjs';
+import {
+  getNostrProfiles,
+  getProfileDisplayName,
+  getProfileImageUrl,
+  hasProfileIdentity,
+  profileImageFallback,
+} from '../nostr-profile.mjs';
 import { readModerationLists } from './config.mjs';
 import { SENTIMENT_LABELS } from './constants.mjs';
 import {
@@ -20,15 +31,15 @@ import {
   stripOpinionWrapper,
 } from './content.mjs';
 import {
-  OPINION_DECISION_APPROVE,
   OPINION_DECISION_HIDE,
+  buildAuthorApprovalDraft,
   buildOpinionModerationDraft,
   indexWalletsBySubject,
-  moderationRelayMessage,
   opinionListStatus,
   opinionsForModeration,
   pendingModerationOpinions,
   resolveOpinionModeration,
+  withApprovedAuthors,
 } from './moderation.mjs';
 import {
   fetchAllOpinionVersions,
@@ -52,7 +63,7 @@ function whenWalletsReady() {
   });
 }
 
-function formatDate(createdAt) {
+export function formatDate(createdAt) {
   if (!createdAt) {
     return '';
   }
@@ -63,7 +74,7 @@ function formatDate(createdAt) {
   });
 }
 
-function walletTitle(event, wallet) {
+export function walletTitle(event, wallet) {
   if (wallet?.title) {
     return wallet.title;
   }
@@ -72,7 +83,7 @@ function walletTitle(event, wallet) {
 }
 
 /** The whole opinion, rendered like the wallet page's card but never clamped. */
-function renderOpinionBody(event) {
+export function renderOpinionBody(event) {
   const markdown = stripOpinionWrapper(event.content).trim();
   const body = el('div', { className: 'opinion-moderation__body' }, markdown || '(No text)');
   if (markdown) {
@@ -85,10 +96,45 @@ function renderOpinionBody(event) {
   return body;
 }
 
+function plural(count, noun) {
+  return `${count} ${count === 1 ? noun : `${noun}s`}`;
+}
+
+function shortNpub(pubkey) {
+  try {
+    const npub = nip19.npubEncode(pubkey);
+    return `${npub.slice(0, 12)}…${npub.slice(-6)}`;
+  } catch {
+    return pubkey;
+  }
+}
+
+/**
+ * Opinions grouped by author: the authors with the most opinions first, ties
+ * broken by the newest opinion. Each author's opinions are newest first.
+ * @returns {Array<{ pubkey: string, opinions: object[] }>}
+ */
+export function groupOpinionsByAuthor(events) {
+  const groups = new Map();
+  for (const event of events) {
+    if (!groups.has(event.pubkey)) {
+      groups.set(event.pubkey, []);
+    }
+    groups.get(event.pubkey).push(event);
+  }
+  const newest = (opinions) => Math.max(...opinions.map((event) => event.created_at ?? 0));
+  return [...groups].map(([pubkey, opinions]) => ({
+    pubkey,
+    opinions: opinions.sort((a, b) => (b.created_at ?? 0) - (a.created_at ?? 0)),
+  })).sort((a, b) => (b.opinions.length - a.opinions.length) || (newest(b.opinions) - newest(a.opinions)));
+}
+
 export class OpinionModerationPage {
   constructor(root) {
     this.root = root;
     this.lists = readModerationLists(root.dataset);
+    // _data/nostrOpinions.yml; lists.trustedAuthors adds the authors approved on Nostr.
+    this.staticTrustedAuthors = this.lists.trustedAuthors;
     this.opinions = [];
     this.moderationEvents = [];
     this.moderation = new Map();
@@ -100,7 +146,7 @@ export class OpinionModerationPage {
     this.shellReady = false;
     this.loadError = null;
     this.query = '';
-    this.pending = new Set();
+    this.pendingAuthors = new Set();
   }
 
   async init() {
@@ -191,11 +237,7 @@ export class OpinionModerationPage {
         getNostrProfiles(this.opinions.map((event) => event.pubkey)).catch(() => new Map()),
       ]);
       this.moderationEvents = moderationEvents;
-      this.moderation = resolveOpinionModeration(moderationEvents, siteAdminPubkeys);
-      this.opinions = pendingModerationOpinions(this.opinions, {
-        trustedAuthors: this.lists.trustedAuthors,
-        moderation: this.moderation,
-      });
+      this.applyModeration();
       this.profiles = profiles;
       this.me = getPubkey();
     } catch (error) {
@@ -208,6 +250,16 @@ export class OpinionModerationPage {
         this.renderList();
       }
     }
+  }
+
+  /** Resolve `moderationEvents` and drop the opinions that are no longer undecided. */
+  applyModeration() {
+    this.moderation = resolveOpinionModeration(this.moderationEvents, siteAdminPubkeys);
+    this.lists.trustedAuthors = withApprovedAuthors(this.staticTrustedAuthors, this.moderationEvents, siteAdminPubkeys);
+    this.opinions = pendingModerationOpinions(this.opinions, {
+      trustedAuthors: this.lists.trustedAuthors,
+      moderation: this.moderation,
+    });
   }
 
   statusOf(event) {
@@ -254,89 +306,154 @@ export class OpinionModerationPage {
     }
 
     const visible = this.visibleOpinions();
+    const groups = groupOpinionsByAuthor(visible);
     const total = this.opinions.length;
+    const totalAuthors = new Set(this.opinions.map((event) => event.pubkey)).size;
     this.countEl.textContent = visible.length === total
-      ? `${total} ${total === 1 ? 'opinion' : 'opinions'}`
-      : `${visible.length} of ${total} opinions`;
+      ? `${plural(totalAuthors, 'author')}, ${plural(total, 'opinion')}`
+      : `${groups.length} of ${plural(totalAuthors, 'author')}, ${visible.length} of ${plural(total, 'opinion')}`;
 
-    if (!visible.length) {
+    if (!groups.length) {
       this.listEl.appendChild(el('p', {}, total === 0 ? 'No opinions yet.' : 'No opinions match this filter.'));
       return;
     }
-    for (const event of visible) {
-      this.listEl.appendChild(this.renderItem(event));
+    for (const group of groups) {
+      this.listEl.appendChild(this.renderAuthor(group));
     }
   }
 
-  renderItem(event) {
-    const subject = getTagValue(event, 'd');
-    const wallet = this.wallets.get(subject);
+  renderAuthor({ pubkey, opinions }) {
+    const profile = this.profiles.get(pubkey);
+    const avatar = el('img', {
+      className: 'opinion-moderation__avatar',
+      src: getProfileImageUrl(profile),
+      alt: '',
+      loading: 'lazy',
+    });
+    avatar.addEventListener('error', () => profileImageFallback(avatar));
+
+    const card = el('article', { className: 'opinion-moderation__author' },
+      el('header', { className: 'opinion-moderation__author-header' },
+        avatar,
+        el('div', { className: 'opinion-moderation__author-title' },
+          el('h2', { className: 'opinion-moderation__author-name' }, getProfileDisplayName(profile, pubkey)),
+          el('p', { className: 'opinion-moderation__meta' },
+            el('span', {}, shortNpub(pubkey)),
+            el('span', {}, plural(opinions.length, 'opinion')),
+          ),
+        ),
+      ),
+      hasProfileIdentity(profile) ? null : el('p', {
+        className: 'opinion-moderation__note',
+        role: 'note',
+      }, 'This author has no profile name or picture, so their opinions won\'t show on the website or app. Approving them will show them on the wallet pages.'),
+    );
+    if (isWalletScrutinySiteAdmin(this.me)) {
+      card.appendChild(this.renderAuthorActions(pubkey, opinions));
+    }
+    card.appendChild(el('div', { className: 'opinion-moderation__author-opinions' },
+      ...opinions.map((event) => this.renderAuthorOpinion(event)),
+    ));
+    return card;
+  }
+
+  renderAuthorOpinion(event) {
+    const wallet = this.wallets.get(getTagValue(event, 'd'));
     const title = walletTitle(event, wallet);
     const heading = wallet?.url
       ? el('a', { href: `${wallet.url}#communityOpinions` }, title)
       : el('span', {}, title);
     const sentiment = getSentiment(event);
-    const profile = this.profiles.get(event.pubkey);
-    const item = el('article', { className: 'opinion-moderation__item' },
-      el('h2', { className: 'opinion-moderation__wallet' }, heading),
+    return el('section', { className: 'opinion-moderation__item' },
+      el('h3', { className: 'opinion-moderation__wallet' }, heading),
       el('p', { className: 'opinion-moderation__meta' },
-        el('span', {}, getProfileDisplayName(profile, event.pubkey)),
         sentiment ? el('span', {}, SENTIMENT_LABELS[sentiment]) : null,
         el('span', {}, formatDate(event.created_at)),
       ),
       renderOpinionBody(event),
-      hasProfileIdentity(profile) ? null : el('p', {
-        className: 'opinion-moderation__note',
-        role: 'note',
-      }, 'This author has no profile name or picture, so it won\'t show on the website or app. Approving the opinion will show it on the wallet page.'),
     );
-    if (isWalletScrutinySiteAdmin(this.me)) {
-      item.appendChild(this.renderActions(event));
-    }
-    return item;
   }
 
-  renderActions(event) {
-    const pending = this.pending.has(event.id);
+  renderAuthorActions(pubkey, opinions) {
+    const pending = this.pendingAuthors.has(pubkey);
     const approve = el('button', {
       type: 'button',
       disabled: pending,
-    }, 'Approve');
-    const hide = el('button', {
-      type: 'button',
-      disabled: pending,
-    }, 'Hide');
-    approve.addEventListener('click', () => this.decide(event, OPINION_DECISION_APPROVE));
-    hide.addEventListener('click', () => this.decide(event, OPINION_DECISION_HIDE));
+      title: 'Approves this author\'s opinions, including the ones they publish later',
+    }, 'Approve author');
+    const hide = el('button', { type: 'button', disabled: pending }, opinions.length > 1 ? `Hide all ${opinions.length}` : 'Hide');
+    approve.addEventListener('click', () => this.approveAuthor(pubkey));
+    hide.addEventListener('click', () => this.hideAll(pubkey, opinions));
     return el('div', { className: 'opinion-moderation__actions' }, approve, hide);
   }
 
-  async decide(opinion, decision) {
-    if (!isWalletScrutinySiteAdmin(getPubkey())) {
+  /** One event: the author joins the trusted authors, their opinions leave the queue. */
+  async approveAuthor(pubkey) {
+    if (!isWalletScrutinySiteAdmin(this.me)) {
       return;
     }
-    this.pending.add(opinion.id);
+    this.pendingAuthors.add(pubkey);
     this.renderList();
     try {
-      const { event: signed, summary } = await signAndPublish(buildOpinionModerationDraft({ opinion, decision }), {
-        eventType: decision === OPINION_DECISION_APPROVE ? 'approval' : 'hide',
+      const { event: signed, summary } = await signAndPublish(buildAuthorApprovalDraft({ pubkey }), {
+        eventType: 'approval',
         requireMainRelay: true,
         includeSummary: true,
       });
       this.moderationEvents.push(signed);
-      this.moderation = resolveOpinionModeration(this.moderationEvents, siteAdminPubkeys);
-      this.opinions = pendingModerationOpinions(this.opinions, {
-        trustedAuthors: this.lists.trustedAuthors,
-        moderation: this.moderation,
-      });
-      const toastType = summary.successful === summary.total ? 'success' : 'warning';
-      showToast(moderationRelayMessage(decision, summary), toastType);
+      this.applyModeration();
+      const name = getProfileDisplayName(this.profiles.get(pubkey), pubkey);
+      if (summary.successful === summary.total) {
+        showToast(`Approved ${name}. Their future opinions are approved too.`, 'success');
+      } else {
+        showToast(`Approved ${name}, but only ${summary.successful} of ${summary.total} relays accepted it.`, 'warning');
+      }
     } catch (error) {
-      showToast(error?.message || 'Could not publish the decision.', 'error');
+      showToast(error?.message || 'Could not publish the approval.', 'error');
     } finally {
-      this.pending.delete(opinion.id);
+      this.pendingAuthors.delete(pubkey);
       this.renderList();
     }
   }
-}
 
+  /**
+   * One hide per opinion, published one after the other so the extension
+   * asks for one signature at a time. Stops at the first failure; the
+   * opinions hidden so far stay hidden.
+   */
+  async hideAll(pubkey, opinions) {
+    if (!isWalletScrutinySiteAdmin(this.me)) {
+      return;
+    }
+    this.pendingAuthors.add(pubkey);
+    this.renderList();
+    let done = 0;
+    let partial = false;
+    let failure = null;
+    try {
+      for (const opinion of opinions) {
+        const { event: signed, summary } = await signAndPublish(
+          buildOpinionModerationDraft({ opinion, decision: OPINION_DECISION_HIDE }),
+          { eventType: 'hide', requireMainRelay: true, includeSummary: true },
+        );
+        this.moderationEvents.push(signed);
+        done += 1;
+        partial ||= summary.successful !== summary.total;
+      }
+    } catch (error) {
+      failure = error;
+    } finally {
+      this.applyModeration();
+      this.pendingAuthors.delete(pubkey);
+      this.renderList();
+    }
+    const counted = `Hid ${done} of ${plural(opinions.length, 'opinion')}`;
+    if (failure) {
+      showToast(`${counted}. ${failure?.message || 'Could not publish the decision.'}`, 'error');
+    } else if (partial) {
+      showToast(`${counted}. Some relays did not accept every decision.`, 'warning');
+    } else {
+      showToast(`${counted}.`, 'success');
+    }
+  }
+}

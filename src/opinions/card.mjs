@@ -11,7 +11,6 @@ import { opinionKind, SENTIMENT_LABELS } from './constants.mjs';
 import { countThread, emptyReactionTally, getSentiment, isEdited, stripOpinionWrapper, zapstoreCommentVersion } from './content.mjs';
 import { approvedIcon, replyIcon, sentimentIcon, thumbsDownIcon, thumbsUpIcon } from './icons.mjs';
 import { createReplyEditor } from './editor.mjs';
-import { OPINION_DECISION_APPROVE, OPINION_DECISION_HIDE } from './moderation.mjs';
 
 /** Content that overflows the CSS clamp by less than this many lines is shown in full instead of getting a "Read more". */
 const CLAMP_SLACK_LINES = 0.5;
@@ -127,7 +126,7 @@ export function renderCard(ctx, event, { opinion = event, depth = 0 } = {}) {
 
   card.appendChild(renderContent(event));
 
-  // Actions: like, dislike, reply, thread toggle, admin approve / hide, delete, edit.
+  // Actions: like, dislike, reply, thread toggle, delete, edit.
   const actions = el('div', { className: 'opinion-card__actions' });
   const like = reactionButton(thumbsUpIcon, 'Like');
   const dislike = reactionButton(thumbsDownIcon, 'Dislike');
@@ -193,25 +192,6 @@ export function renderCard(ctx, event, { opinion = event, depth = 0 } = {}) {
     paintReplies();
   });
   actions.appendChild(threadToggle);
-
-  if (!readOnly && depth === 0 && ctx.canModerate?.(event)) {
-    const pending = ctx.isModerationPending?.(event) ?? false;
-    const approve = el('button', {
-      type: 'button',
-      className: 'opinion-card__action opinion-card__action--moderate',
-      title: 'Approve this opinion (site admin)',
-      disabled: pending,
-    }, 'Approve');
-    const hide = el('button', {
-      type: 'button',
-      className: 'opinion-card__action opinion-card__action--moderate opinion-card__action--danger',
-      title: 'Hide this opinion, every version (site admin)',
-      disabled: pending,
-    }, 'Hide');
-    approve.addEventListener('click', () => ctx.actions.moderate(event, OPINION_DECISION_APPROVE));
-    hide.addEventListener('click', () => ctx.actions.moderate(event, OPINION_DECISION_HIDE));
-    actions.append(approve, hide);
-  }
 
   if (mine) {
     const remove = el('button', {

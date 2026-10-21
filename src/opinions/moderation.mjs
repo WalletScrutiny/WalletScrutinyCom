@@ -12,6 +12,11 @@
  * goes back to the queue. A hide also names the opinion address (`a` tag),
  * so it covers every version of that author's opinion on that wallet,
  * including later edits.
+ *
+ * An author approval (`r` `opinion-author-approve`, the author in a `p` tag
+ * and no `e` tag) makes that pubkey a trusted author, like the ones in
+ * _data/nostrOpinions.yml: every opinion they have published or publish
+ * later counts as approved, unless an admin hides it.
  */
 import {
   isWalletScrutinySiteAdmin,
@@ -26,9 +31,11 @@ import { getTagValue, opinionAddress } from './content.mjs';
 
 export const OPINION_DECISION_APPROVE = 'opinion-approve';
 export const OPINION_DECISION_HIDE = 'opinion-hide';
+export const OPINION_DECISION_APPROVE_AUTHOR = 'opinion-author-approve';
 
 const OPINION_DECISIONS = new Set([OPINION_DECISION_APPROVE, OPINION_DECISION_HIDE]);
 const EVENT_ID_HEX = /^[0-9a-f]{64}$/i;
+const PUBKEY_HEX = /^[0-9a-f]{64}$/i;
 const OPINION_ADDRESS = new RegExp(`^${opinionKind}:[0-9a-f]{64}:.+$`);
 
 export function walletScrutinyClientTags() {
@@ -57,6 +64,46 @@ export function buildOpinionModerationDraft({ opinion, decision, createdAt = Mat
     ],
     content: `WalletScrutiny.com admin ${verb} of opinion ${opinion.id}.`,
   };
+}
+
+export function buildAuthorApprovalDraft({ pubkey, createdAt = Math.floor(Date.now() / 1000) }) {
+  if (!PUBKEY_HEX.test(String(pubkey ?? ''))) {
+    throw new Error(`Not a hex pubkey: ${pubkey}`);
+  }
+  return {
+    kind: verificationReportKind,
+    created_at: createdAt,
+    tags: [
+      ['p', pubkey.toLowerCase()],
+      ['k', String(opinionKind)],
+      ['r', OPINION_DECISION_APPROVE_AUTHOR],
+      ...walletScrutinyClientTags(),
+    ],
+    content: `WalletScrutiny.com admin approval of opinion author ${pubkey.toLowerCase()}.`,
+  };
+}
+
+/** Pubkeys a site admin approved as opinion authors. */
+export function resolveApprovedAuthors(events, adminPubkeys = siteAdminPubkeys) {
+  const admins = adminPubkeys instanceof Set ? adminPubkeys : new Set(adminPubkeys ?? []);
+  const authors = new Set();
+  for (const event of events ?? []) {
+    if (!admins.has(event?.pubkey)
+      || getTagValue(event, 'k') !== String(opinionKind)
+      || getTagValue(event, 'r') !== OPINION_DECISION_APPROVE_AUTHOR) {
+      continue;
+    }
+    const pubkey = getTagValue(event, 'p').toLowerCase();
+    if (PUBKEY_HEX.test(pubkey)) {
+      authors.add(pubkey);
+    }
+  }
+  return authors;
+}
+
+/** The static trusted authors plus the ones approved on Nostr. */
+export function withApprovedAuthors(trustedAuthors, events, adminPubkeys = siteAdminPubkeys) {
+  return new Set([...trustedAuthors, ...resolveApprovedAuthors(events, adminPubkeys)]);
 }
 
 /**
@@ -132,43 +179,9 @@ export function isExplicitlyApproved(event, moderation) {
   return opinionListStatus(event, { trustedAuthors: new Set(), moderation }) === 'approved';
 }
 
-/** Approve / Hide buttons on a wallet page: site admins, on opinions nobody has decided yet. */
-export function canModerateOpinion(event, { me, trustedAuthors, moderation }) {
-  return isWalletScrutinySiteAdmin(me)
-    && event?.kind === opinionKind
-    && opinionListStatus(event, { trustedAuthors, moderation }) === 'open';
-}
-
 /** Opinions by site admins already show on the wallet page, so the index skips them. */
 export function opinionsForModeration(events) {
   return events.filter((event) => !isWalletScrutinySiteAdmin(event.pubkey));
-}
-
-function moderationActionLabel(decision) {
-  switch (decision) {
-    case OPINION_DECISION_APPROVE:
-      return 'Approval';
-    case OPINION_DECISION_HIDE:
-      return 'Hide';
-    default: {
-      const unexpected = decision;
-      throw new Error(`Unknown opinion decision: ${unexpected}`);
-    }
-  }
-}
-
-/**
- * Toast text for a moderation publish. `summary` is the relay outcome from
- * signAndPublish: how many relays accepted the event, and why the others did not.
- */
-export function moderationRelayMessage(decision, summary) {
-  const action = moderationActionLabel(decision);
-  if (summary.successful === summary.total) {
-    const noun = summary.successful === 1 ? 'relay' : 'relays';
-    return `${action} sent to ${summary.successful} ${noun}.`;
-  }
-  const failed = summary.failures.map(({ url, error }) => `${url} (${error})`).join(', ');
-  return `${action} accepted by ${summary.successful} of ${summary.total} relays. Not accepted by ${failed}.`;
 }
 
 /** The index is a queue: an opinion that is already approved or hidden stays off it. */

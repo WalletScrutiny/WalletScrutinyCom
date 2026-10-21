@@ -81,3 +81,46 @@
   cursor: default;
   opacity: 0.55;
 }
+
+.opinion-moderation__author {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid color-mix(in srgb, currentColor 30%, transparent);
+}
+
+.opinion-moderation__author-header {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.opinion-moderation__avatar {
+  width: 48px;
+  height: 48px;
+  flex: none;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.opinion-moderation__author-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.opinion-moderation__author-opinions {
+  margin: 0.5rem 0 0 1.5rem;
+  padding-left: 1rem;
+  border-left: 3px solid color-mix(in srgb, currentColor 18%, transparent);
+}
+
+.opinion-moderation__author-opinions .opinion-moderation__item {
+  padding: 0.75rem 0;
+}
+
+.opinion-moderation__author-opinions .opinion-moderation__item:last-child {
+  border-bottom: 0;
+}
+
+.opinion-moderation__author-opinions .opinion-moderation__wallet {
+  font-size: 1.05rem;
+}
