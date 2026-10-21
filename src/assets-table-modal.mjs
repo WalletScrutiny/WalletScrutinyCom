@@ -20,6 +20,9 @@ import {
   populateVerificationAttachmentsList,
 } from "./assets-table-attachments.mjs";
 import { el, htmlOf, isSha256Hex, sanitizeHttpUrl } from "./html-utils.mjs";
+import { assetRegistrationKinds, getAssetFileEntries } from "./asset-utils.mjs";
+import { ensureConnected, fetchEvents } from "./nostr-client.mjs";
+import { checkFileExistsInBlossom } from "./blossom-utils.mjs";
 import './zapModal.mjs';
 
 export function buildEndorsementButtonHtml(verificationId, sha256Hash) {
@@ -102,6 +105,64 @@ export function buildBuildLogButtonHtml(castHash, fileName, subject) {
     el('span', { className: 'build-log-button-icon', 'aria-hidden': 'true', html: wsIcon('terminal') }),
     'View build log',
   ));
+}
+
+/**
+ * The file name of each attested hash: the verification's own x tag first, then any asset
+ * registration the table loaded for that hash. A hash without a known name maps to ''.
+ */
+export function getAttestedFileNames(verification, assets) {
+  const names = new Map();
+  for (const tag of verification?.tags ?? []) {
+    if (tag[0] === 'x' && isSha256Hex(tag[1]) && !names.get(tag[1])) {
+      names.set(tag[1], tag[2] || '');
+    }
+  }
+  for (const hash of names.keys()) {
+    if (names.get(hash)) {
+      continue;
+    }
+    for (const assetEvent of assets?.get(hash) ?? []) {
+      const entry = getAssetFileEntries(assetEvent).find(e => e.hash === hash && e.fileName);
+      if (entry) {
+        names.set(hash, entry.fileName);
+        break;
+      }
+    }
+  }
+  return names;
+}
+
+/** Fills in names the table had not loaded yet (a deep link opens the modal first) from the relays. */
+async function fillMissingAttestedFileNames(hashesEl, verification) {
+  const rows = [...hashesEl.querySelectorAll('.verification-modal-hash-row')]
+    .filter(row => !row.querySelector('.verification-modal-hash-file'));
+  if (rows.length === 0) {
+    return;
+  }
+  await ensureConnected();
+  const events = await fetchEvents({ kinds: assetRegistrationKinds, '#x': rows.map(row => row.dataset.hash) });
+  const assets = new Map();
+  for (const event of events) {
+    for (const { hash } of getAssetFileEntries(event)) {
+      assets.set(hash, [...(assets.get(hash) ?? []), event]);
+    }
+  }
+  const names = getAttestedFileNames(verification, assets);
+  if (window.currentVerification?.id !== verification.id) {
+    return;
+  }
+  for (const row of rows) {
+    const fileName = names.get(row.dataset.hash);
+    if (!fileName || row.querySelector('.verification-modal-hash-file')) {
+      continue;
+    }
+    const download = row.querySelector('.js-download-blossom-file');
+    download.dataset.fileName = fileName;
+    download.title = `Download ${fileName}`;
+    download.setAttribute('aria-label', `Download ${fileName}`);
+    row.insertBefore(el('span', { className: 'verification-modal-hash-file', title: fileName }, fileName), download);
+  }
 }
 
 let buildLogViewerPromise;
@@ -694,9 +755,26 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
 
   /* -------------------- Header: app + version, hash, verdict, platform and date -------------------- */
   const isReproducible = status === 'reproducible';
+  /* Each attested file: its hash, then its name and, once Blossom confirms it has the blob, a download. */
+  const attestedFileNames = getAttestedFileNames(verification, response.assets);
   const hashesEl = verificationHashes.length > 0
-    ? el('div', { className: 'verification-modal-hashes' }, ...verificationHashes.map(hash =>
-      el('span', { className: 'verification-modal-hash-row' },
+    ? el('div', { className: 'verification-modal-hashes' }, ...verificationHashes.map(hash => {
+      const fileName = attestedFileNames.get(hash) || '';
+      const download = el('button', {
+        type: 'button',
+        className: 'verification-modal-icon-btn js-download-blossom-file',
+        hidden: true,
+        title: `Download ${fileName || 'this file'}`,
+        'aria-label': `Download ${fileName || hash.slice(0, 8)}`,
+        dataset: { fileHash: hash, fileName },
+        html: wsIcon('download'),
+      });
+      checkFileExistsInBlossom(hash).then(exists => {
+        if (exists) {
+          download.hidden = false;
+        }
+      }).catch(() => {});
+      return el('span', { className: 'verification-modal-hash-row', dataset: { hash } },
         el('span', { className: 'verification-modal-hash', title: hash }, hash.slice(0, 8)),
         el('button', {
           type: 'button',
@@ -706,8 +784,14 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
           dataset: { hash },
           html: wsIcon('copy'),
         }),
-      )))
+        fileName ? el('span', { className: 'verification-modal-hash-file', title: fileName }, fileName) : null,
+        download,
+      );
+    }))
     : null;
+  if (hashesEl) {
+    fillMissingAttestedFileNames(hashesEl, verification).catch(() => {});
+  }
   heading.replaceChildren(...[
     el('h2', { id: 'verificationModalTitle', className: 'verification-modal-title' }, `${walletTitle ?? ''} ${version ?? ''}`.trim()),
     hashesEl,

@@ -1464,6 +1464,15 @@ body.dark #verificationModalToolbar .share-dropdown-menu a:focus-visible img {
   font-size: $font-sm;
 }
 
+/* The attested file's name, after its hash as in the table's Hashes column. */
+.verification-modal-hash-file {
+  min-width: 0;
+  margin-left: 4px;
+  font-size: $font-sm;
+  color: var(--neutral-3);
+  overflow-wrap: anywhere;
+}
+
 /* Small round icon button: copy a hash. */
 .verification-modal-icon-btn {
   flex: 0 0 auto;
@@ -1482,6 +1491,10 @@ body.dark #verificationModalToolbar .share-dropdown-menu a:focus-visible img {
   svg {
     width: 15px;
     height: 15px;
+  }
+
+  &[hidden] {
+    display: none;
   }
 
   &:hover,
