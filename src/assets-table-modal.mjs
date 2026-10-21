@@ -425,6 +425,31 @@ function initWriteVerificationMenuControls() {
   };
 }
 
+// Share, Write new verification, Nostr and Report are separate dropdowns, and
+// each trigger stops propagation of its own click. One capture-phase listener
+// closes every open toolbar menu except the one that was clicked, before the
+// clicked trigger toggles its own.
+let toolbarMenusClickAwayRegistered = false;
+function initToolbarMenusClickAway() {
+  if (toolbarMenusClickAwayRegistered) {
+    return;
+  }
+  toolbarMenusClickAwayRegistered = true;
+  document.addEventListener('click', (event) => {
+    const toolbar = document.querySelector('.verification-modal-toolbar-row');
+    if (!toolbar) {
+      return;
+    }
+    toolbar.querySelectorAll('.verification-modal-menu-wrap, .dropdown').forEach((wrap) => {
+      if (wrap.contains(event.target)) {
+        return;
+      }
+      wrap.querySelectorAll('.verification-modal-menu').forEach((menu) => { menu.style.display = 'none'; });
+      wrap.querySelectorAll('.show').forEach((menu) => menu.classList.remove('show'));
+    });
+  }, true);
+}
+
 function buildVerifierProfileCardHtml(profile, pubkey) {
   const imageUrl = getProfileImageUrl(profile);
   const placeholderUrl = PROFILE_PLACEHOLDER_IMAGE;
@@ -903,6 +928,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
 
   initVerificationAdminReportControls(verification);
   initWriteVerificationMenuControls();
+  initToolbarMenusClickAway();
 
   if (diffoscopeFiles.length > 0) {
     insertDiffoscopeAssets();
