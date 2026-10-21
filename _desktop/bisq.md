@@ -30,6 +30,11 @@ builds:
   types:
     exe:
     - Bisq-64bit-*.exe
+flathub:
+  appId: network.bisq.Bisq
+  publisher: community
+  type: repackage
+  wraps: Bisq-64bit-*.deb
 features:
 - TOR
 - foss

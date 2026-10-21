@@ -49,10 +49,13 @@ layout: default
           {% if platform == 'bearer' %}
             {% include /review/appFacts.html platform=platform %}
           {% else %}
-            {% if page.repository contains 'github.com' or page.website and page.website != '' %}
+            {% if page.repository contains 'github.com' or page.website and page.website != '' or page.flathub.appId %}
             <div class="distribution-store-links">
               {% include /review/githubDistributionLink.html %}
               {% include /review/websiteDistributionLink.html %}
+              {% if page.flathub.appId %}
+              <a title="Flathub" href="https://flathub.org/apps/{{ page.flathub.appId }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">{% include icon.html name="flathub" %} Flathub</a>
+              {% endif %}
             </div>
             {% endif %}
             {% include /review/appFacts.html skipWebsite=true platform=platform %}

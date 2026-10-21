@@ -14,6 +14,7 @@
       {% include_cached /review/steps/tests.html meta=meta verdict=verdict platform=platform %}
     {% endif %}
     {% include /review/steps/applicationBuild.html platform=platform %}
+    {% include /review/steps/flathub.html %}
     {% include_cached /review/steps/platformNotes.html platform=platform %}
   </div>
   {% include /review/seeAlso.html wsId=include.wsId platform=platform %}
