@@ -55,7 +55,7 @@ function pipModifier(status) {
   }
 }
 
-function statusPill(status) {
+export function statusPill(status) {
   const modifier = pillModifier(status);
   return el('span', { className: `verification-status-pill verification-status-pill--${modifier}` },
     createStatusPillMark(modifier),

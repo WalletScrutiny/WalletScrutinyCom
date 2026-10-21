@@ -40,10 +40,7 @@
         <div id="{{ build_verifications_id }}" class="build-verifications" hidden></div>
         <div id="{{ apps_table_id }}" hidden></div>
 
-        <p>If you have a binary for <b>a version that doesn't appear on the list</b>, you can <span class="bigScreenOnly">drop</span><span class="smallScreenOnly">select</span> the file here to register it so somebody can verify its reproducibility:</p>
-        <div style="margin-top: 1em; margin-bottom: 0; margin-left: 0;">
-            {% include /verifications/dragAndDropArea.html buttonMessage="Drop binary file to verify" %}
-        </div>
+        {% include /verifications/dragAndDropArea.html variant="panel" appId=build_app_id %}
 
         <p id="{{ verification_message_id }}"></p>
 
