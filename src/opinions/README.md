@@ -19,6 +19,7 @@ Android app keep working.
 | `auth.mjs` | NIP-07 identity, read once from the extension when the page loads. |
 | `moderation.mjs` | Approve / hide decisions: kind 1984 events from a site admin, newest per opinion id. |
 | `moderation-page.mjs`, `moderation-page-boot.mjs` | `/opinions/` index, not linked from the menu. The list renders only for `siteAdminPubkeys`. |
+| `moderation-by-author-page.mjs` | `/opinions_by_author/`: the same queue grouped by author, with Approve / Hide per author. |
 | `modal.mjs`, `icons.mjs`, `constants.mjs`, `opinions.css` | Dialog, inline SVGs, constants, styles. |
 
 Configuration lives in `_data/nostrOpinions.yml` (approved authors, shared
@@ -60,3 +61,9 @@ author. The static lists in
 `_data/nostrOpinions.yml` and `_data/nostrOpinionBlocklist.yml` still apply.
 
 Tests: `test/unit/opinions-*.test.mjs`, `test/e2e/opinions.spec.mjs`.
+
+`/opinions_by_author/` shows the same queue grouped by author: one card per
+author (most opinions first) with their undecided opinions indented below it.
+Approve all / Hide all publish one decision per opinion, the same events as
+the per-opinion buttons, so the extension asks for one signature per opinion.
+It stops at the first failed publish and keeps the decisions made so far.

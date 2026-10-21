@@ -1,8 +1,10 @@
 /**
- * Entry of the opinions_moderation bundle: styles and mount for /opinions/.
+ * Entry of the opinions_moderation bundle: styles and mount for /opinions/
+ * and, with data-group-by="author", /opinions_by_author/.
  */
 import styles from './moderation-page.css';
 import { OpinionModerationPage } from './moderation-page.mjs';
+import { OpinionModerationByAuthorPage } from './moderation-by-author-page.mjs';
 
 const STYLE_ID = 'opinion-moderation-style';
 
@@ -19,6 +21,7 @@ function injectStyles() {
 const root = document.getElementById('opinion-moderation');
 if (root) {
   injectStyles();
-  const page = new OpinionModerationPage(root);
+  const Page = root.dataset.groupBy === 'author' ? OpinionModerationByAuthorPage : OpinionModerationPage;
+  const page = new Page(root);
   page.init().catch((error) => console.error('opinions: index init failed', error));
 }

@@ -52,7 +52,7 @@ function whenWalletsReady() {
   });
 }
 
-function formatDate(createdAt) {
+export function formatDate(createdAt) {
   if (!createdAt) {
     return '';
   }
@@ -63,7 +63,7 @@ function formatDate(createdAt) {
   });
 }
 
-function walletTitle(event, wallet) {
+export function walletTitle(event, wallet) {
   if (wallet?.title) {
     return wallet.title;
   }
@@ -72,7 +72,7 @@ function walletTitle(event, wallet) {
 }
 
 /** The whole opinion, rendered like the wallet page's card but never clamped. */
-function renderOpinionBody(event) {
+export function renderOpinionBody(event) {
   const markdown = stripOpinionWrapper(event.content).trim();
   const body = el('div', { className: 'opinion-moderation__body' }, markdown || '(No text)');
   if (markdown) {
