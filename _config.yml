@@ -281,3 +281,8 @@ plugins:
 whitelist:
   - jekyll-feed
   - jemoji
+
+# Public key (64 hex) whose NIP-32 labels (kind 1985, namespace ws.distribution) count as
+# WalletScrutiny's store-package check results; see src/distribution-labels.mjs. Empty means
+# no key is pinned yet, so pages show no real results. Placeholder until the key exists.
+distribution_label_pubkey: ""

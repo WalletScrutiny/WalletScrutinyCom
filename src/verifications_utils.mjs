@@ -57,6 +57,7 @@ import {
 import { formatDate } from './format-utils.mjs';
 import { getNostrProfile } from './nostr-profile.mjs';
 import { isSha256Hex, normalizeSha256Input, stripHtmlTags } from './html-utils.mjs';
+import { loadDistributionChecks } from './distribution-labels.mjs';
 
 // Configure DOMPurify to be more restrictive
 const purifyConfig = {
@@ -2613,6 +2614,7 @@ if (typeof window !== 'undefined') {
   window.createAuthorizationEvent = createAuthorizationEvent;
   window.getTagValue = getTagValue;
   window.parseHashListInput = parseHashListInput;
+  window.loadDistributionChecks = (options) => loadDistributionChecks(options, { ensureConnected: ensureNostrConnected });
   window.addEventListener('beforeunload', () => {
     cleanupNostrConnections();
   });

@@ -1,4 +1,6 @@
-import { test, expect } from './relay-fixture.mjs';
+import { finalizeEvent, generateSecretKey, getPublicKey } from 'nostr-tools/pure';
+
+import { test, expect, queryEvents } from './relay-fixture.mjs';
 
 import { attachConsoleGuards } from './helpers.mjs';
 
@@ -31,11 +33,13 @@ Bisq - A decentralized bitcoin exchange network
       Parent: ${PARENT}
 `;
 
-/** Serves the page with `checks` (or none) as its check results. */
-async function withChecks(page, checks) {
+/** Serves the page with `checks` (or none) as its check results, and `pubkey` as the pinned label key. */
+async function withChecks(page, checks, pubkey = '') {
   await page.route(`**${PAGE}`, async (route) => {
     const res = await route.fetch();
-    let html = (await res.text()).replace(/<script type="application\/json">[^<]*<\/script>/g, '');
+    let html = (await res.text())
+      .replace(/<script type="application\/json">[^<]*<\/script>/g, '')
+      .replace(/data-label-pubkey="[^"]*"/, `data-label-pubkey="${pubkey}"`);
     if (checks) {
       const json = JSON.stringify({ checks }).replace(/</g, '\\u003c');
       html = html.replace(/(<div class="distribution-checks"[^>]*>)/, `$1<script type="application/json">${json}</script>`);
@@ -140,5 +144,71 @@ test.describe('Flathub step without JavaScript', () => {
     await expect(step.locator('form.distribution-version-lookup')).toBeHidden();
     await step.locator('details.distribution-diy summary').click();
     await expect(step.locator('details.distribution-diy pre')).toContainText('flatpak install --user --no-deploy');
+  });
+});
+
+test.describe('Flathub step: results from Nostr labels', () => {
+  const labelKey = generateSecretKey();
+  const pinned = getPublicKey(labelKey);
+  const label = (over, key = labelKey) => finalizeEvent({
+    kind: 1985,
+    created_at: 1792575000,
+    content: '',
+    tags: [
+      ['L', 'ws.distribution'],
+      ['l', 'matches', 'ws.distribution'],
+      ['r', 'https://flathub.org/apps/network.bisq.Bisq'],
+      ['channel', 'flathub'],
+      ['id', 'network.bisq.Bisq'],
+      ['commit', COMMIT],
+      ['version', '1.10.9'],
+      ['x', 'c'.repeat(64)],
+      ['file', 'Bisq-64bit-1.10.9.deb'],
+      ['method', 'files'],
+      ...over,
+    ],
+  }, key);
+  const verification = finalizeEvent({
+    kind: 30301,
+    created_at: 1792574000,
+    content: 'test',
+    tags: [['d', 'test'], ['x', 'c'.repeat(64)], ['status', 'reproducible'], ['version', '1.10.9']],
+  }, generateSecretKey());
+
+  /** A relay that knows only `events`, for every socket of this page. */
+  async function relayWith(page, events) {
+    await page.routeWebSocket(/^wss?:\/\/(?!(127\.0\.0\.1|localhost)[:/])/, (ws) => {
+      ws.onMessage((raw) => {
+        const [type, subId, ...filters] = JSON.parse(String(raw));
+        if (type !== 'REQ') return;
+        for (const event of queryEvents(events, filters)) ws.send(JSON.stringify(['EVENT', subId, event]));
+        ws.send(JSON.stringify(['EOSE', subId]));
+      });
+    });
+  }
+
+  test('a label signed by the pinned key replaces the samples, with the wrapped verdict', async ({ page }) => {
+    await relayWith(page, [label([]), verification]);
+    await withChecks(page, CHECKS, pinned);
+    await page.goto(PAGE);
+    const headline = page.locator('.distribution-status .distribution-result').first();
+    await expect(headline).toContainText('matches Bisq-64bit-1.10.9.deb, whose verdict is reproducible', { timeout: 60_000 });
+    await expect(headline).toHaveClass(/distribution-tone-good/);
+    await expect(page.locator('.distribution-status table tbody tr')).toHaveCount(1);
+  });
+
+  test('labels from any other key are ignored', async ({ page }) => {
+    const intruder = generateSecretKey();
+    await relayWith(page, [label([], intruder), verification]);
+    // The pinned key's own filter cannot match an intruder's event, so also serve it under
+    // a relay that ignores authors: the page must still refuse it.
+    const forged = { ...label([], intruder), pubkey: pinned };
+    await relayWith(page, [forged, verification]);
+    await withChecks(page, null, pinned);
+    await page.goto(PAGE);
+    await page.waitForFunction(() => typeof window.loadDistributionChecks === 'function', null, { timeout: 60_000 });
+    const found = await page.evaluate((pk) => window.loadDistributionChecks({ pubkey: pk, channel: 'flathub', id: 'network.bisq.Bisq' }), pinned);
+    expect(found).toEqual([]);
+    await expect(page.locator('.distribution-status .distribution-result')).toHaveText('Not checked by WalletScrutiny yet.');
   });
 });

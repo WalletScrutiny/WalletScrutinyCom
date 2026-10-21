@@ -216,36 +216,45 @@
     var step = container.closest('.step') || container.parentNode;
     var diy = step.querySelector('details.distribution-diy');
     var status = container.querySelector('.distribution-status');
-    status.textContent = '';
-    if (isSample && checks.length) {
-      status.appendChild(el(doc, 'p', 'distribution-sample-note', 'Preview: these are sample results for review, not real checks.'));
-    }
-    if (checks.length) {
-      status.appendChild(resultLine(doc, checks[0], storeName));
-      status.appendChild(el(doc, 'p', 'distribution-history-caption', 'Last checked commits:'));
-      status.appendChild(historyTable(doc, checks, baseurl));
-    } else {
-      status.appendChild(el(doc, 'p', 'distribution-result distribution-tone-none', 'Not checked by WalletScrutiny yet.'));
-    }
-
     var form = container.querySelector('form.distribution-version-lookup');
-    if (!form) return;
-    form.hidden = false;
-    form.noValidate = true;
-    var answer = form.querySelector('.distribution-lookup-output');
-    var error = form.querySelector('.distribution-lookup-error');
-    var select = form.querySelector('select');
+    var answer = form && form.querySelector('.distribution-lookup-output');
+    var error = form && form.querySelector('.distribution-lookup-error');
+    var select = form && form.querySelector('select');
 
     function show(node) {
       answer.textContent = '';
       if (node) answer.appendChild(node);
     }
 
-    var versions = [];
-    checks.forEach(function (c) { if (versions.indexOf(c.version) < 0) versions.push(c.version); });
-    if (select) {
-      if (versions.length) {
+    function render() {
+      status.textContent = '';
+      if (isSample && checks.length) {
+        status.appendChild(el(doc, 'p', 'distribution-sample-note', 'Preview: these are sample results for review, not real checks.'));
+      }
+      if (checks.length) {
+        status.appendChild(resultLine(doc, checks[0], storeName));
+        status.appendChild(el(doc, 'p', 'distribution-history-caption', 'Last checked commits:'));
+        status.appendChild(historyTable(doc, checks, baseurl));
+      } else {
+        status.appendChild(el(doc, 'p', 'distribution-result distribution-tone-none', 'Not checked by WalletScrutiny yet.'));
+      }
+      if (!form) return;
+      show(null);
+      error.hidden = true;
+      if (select) {
+        var versions = [];
+        checks.forEach(function (c) { if (versions.indexOf(c.version) < 0) versions.push(c.version); });
+        while (select.options.length > 1) select.remove(1);
         versions.forEach(function (v) { select.appendChild(el(doc, 'option', null, v)).value = v; });
+        select.closest('.distribution-version-picker').hidden = versions.length === 0;
+      }
+    }
+
+    render();
+    if (form) {
+      form.hidden = false;
+      form.noValidate = true;
+      if (select) {
         select.addEventListener('change', function () {
           error.hidden = true;
           var v = select.value;
@@ -255,24 +264,45 @@
           });
           show(v ? box : null);
         });
-      } else {
-        select.closest('.distribution-version-picker').hidden = true;
       }
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var r = parseFlatpakInfo(form.elements.flatpakInfo.value, appId);
+        error.hidden = r.ok;
+        if (!r.ok) {
+          error.textContent = r.error;
+          show(null);
+          return;
+        }
+        var hit = checks.filter(function (c) { return c.commit === r.commit; })[0] || null;
+        show(lookupAnswer(doc, hit, storeName, r.commit));
+        if (!hit && diy) diy.open = true;
+      });
     }
 
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      var r = parseFlatpakInfo(form.elements.flatpakInfo.value, appId);
-      error.hidden = r.ok;
-      if (!r.ok) {
-        error.textContent = r.error;
-        show(null);
-        return;
-      }
-      var hit = checks.filter(function (c) { return c.commit === r.commit; })[0] || null;
-      show(lookupAnswer(doc, hit, storeName, r.commit));
-      if (!hit && diy) diy.open = true;
-    });
+    // Real results: NIP-32 labels signed by the pinned key, loaded by the verifications
+    // bundle (src/distribution-labels.mjs). They replace sample results when there are any.
+    var pubkey = (container.getAttribute('data-label-pubkey') || '').toLowerCase();
+    var channel = container.getAttribute('data-channel') || '';
+    var win = doc.defaultView;
+    if (!HEX64.test(pubkey) || !win) return;
+    function loadLabels() {
+      win.loadDistributionChecks({ pubkey: pubkey, channel: channel, id: appId }).then(function (found) {
+        var real = normalizeChecks(found);
+        if (!real.length) return;
+        checks = real;
+        isSample = false;
+        render();
+      }).catch(function () {});
+    }
+    if (typeof win.loadDistributionChecks === 'function') {
+      loadLabels();
+    } else {
+      win.addEventListener('verificationsDataLoaded', function onLoaded() {
+        win.removeEventListener('verificationsDataLoaded', onLoaded);
+        if (typeof win.loadDistributionChecks === 'function') loadLabels();
+      });
+    }
   }
 
   function mountAll(doc) {

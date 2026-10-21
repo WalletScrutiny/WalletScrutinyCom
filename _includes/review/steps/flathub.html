@@ -27,7 +27,7 @@
     </div>
     {%- endunless %}
     {%- assign fh_sample = site.data.distribution_check_fixtures[fh.channel][fh.id] -%}
-    <div class="distribution-checks" data-store="Flathub" data-id="{{ fh_id }}" data-baseurl="{{ site.baseurl | escape }}">
+    <div class="distribution-checks" data-store="Flathub" data-channel="flathub" data-id="{{ fh_id }}" data-label-pubkey="{{ site.distribution_label_pubkey | escape }}" data-baseurl="{{ site.baseurl | escape }}">
       {%- if site.distribution_check_fixtures and fh_sample %}
       <script type="application/json">{"sample": true, "checks": {{ fh_sample | jsonify | replace: "<", "\u003c" }}}</script>
       {%- endif %}
