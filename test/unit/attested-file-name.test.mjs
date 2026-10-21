@@ -2,7 +2,7 @@ import './setup.mjs';
 import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { getAttestedFileNames } from '../../src/assets-table-modal.mjs';
+import { buildAttestedFileHtml, getAttestedFileNames } from '../../src/assets-table-modal.mjs';
 import { assetRegistrationKind, assetBundleRegistrationKind } from '../../src/nostr-constants.mjs';
 
 const A = 'a'.repeat(64);
@@ -28,5 +28,12 @@ describe('attested file names', () => {
 
   test('a hash nobody named maps to an empty name, and no assets is fine', () => {
     assert.equal(getAttestedFileNames({ tags: [['x', A]] }, undefined).get(A), '');
+  });
+
+  test('each file is a list line: the name and short hash, or the short hash alone, and a hidden download', () => {
+    const named = buildAttestedFileHtml('base.apk', A);
+    assert.match(named, />base\.apk<\/span><small title="a{64}">aaaaaaaa<\/small>/);
+    assert.match(named, /<button data-file-name="base\.apk"[^>]* hidden[ >]/);
+    assert.match(buildAttestedFileHtml('', B), />bbbbbbbb<\/span><button/);
   });
 });

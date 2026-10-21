@@ -133,10 +133,41 @@ export function getAttestedFileNames(verification, assets) {
   return names;
 }
 
+/**
+ * One attested file: its name (the short hash while none is known), the short hash, and a download
+ * button that stays hidden until Blossom confirms it has the blob.
+ */
+export function buildAttestedFileHtml(fileName, hash) {
+  return htmlOf(el('li', { className: 'verification-modal-file', dataset: { hash } },
+    el('span', { className: 'verification-modal-file__name', title: fileName || hash }, fileName || hash.slice(0, 8)),
+    fileName ? el('small', { title: hash }, hash.slice(0, 8)) : null,
+    el('button', {
+      type: 'button',
+      className: 'verification-modal-file__download js-download-blossom-file',
+      hidden: true,
+      title: `Download ${fileName || 'this file'}`,
+      'aria-label': `Download ${fileName || hash.slice(0, 8)}`,
+      dataset: { fileHash: hash, fileName: fileName || '' },
+      html: wsIcon('download'),
+    }),
+  ));
+}
+
+/** Shows each attested file's download once Blossom confirms it has the blob. */
+function revealAttestedFileDownloads(listEl) {
+  for (const button of listEl.querySelectorAll('.js-download-blossom-file')) {
+    checkFileExistsInBlossom(button.dataset.fileHash).then(exists => {
+      if (exists) {
+        button.hidden = false;
+      }
+    }).catch(() => {});
+  }
+}
+
 /** Fills in names the table had not loaded yet (a deep link opens the modal first) from the relays. */
-async function fillMissingAttestedFileNames(hashesEl, verification) {
-  const rows = [...hashesEl.querySelectorAll('.verification-modal-hash-row')]
-    .filter(row => !row.querySelector('.verification-modal-hash-file'));
+async function fillMissingAttestedFileNames(listEl, verification) {
+  const rows = [...listEl.querySelectorAll('.verification-modal-file')]
+    .filter(row => !row.querySelector('small'));
   if (rows.length === 0) {
     return;
   }
@@ -154,14 +185,17 @@ async function fillMissingAttestedFileNames(hashesEl, verification) {
   }
   for (const row of rows) {
     const fileName = names.get(row.dataset.hash);
-    if (!fileName || row.querySelector('.verification-modal-hash-file')) {
+    if (!fileName || row.querySelector('small')) {
       continue;
     }
+    const name = row.querySelector('.verification-modal-file__name');
+    name.textContent = fileName;
+    name.title = fileName;
+    name.after(el('small', { title: row.dataset.hash }, row.dataset.hash.slice(0, 8)));
     const download = row.querySelector('.js-download-blossom-file');
     download.dataset.fileName = fileName;
     download.title = `Download ${fileName}`;
     download.setAttribute('aria-label', `Download ${fileName}`);
-    row.insertBefore(el('span', { className: 'verification-modal-hash-file', title: fileName }, fileName), download);
   }
 }
 
@@ -755,26 +789,9 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
 
   /* -------------------- Header: app + version, hash, verdict, platform and date -------------------- */
   const isReproducible = status === 'reproducible';
-  /* Each attested file: its hash, then its name and, once Blossom confirms it has the blob, a download. */
-  const attestedFileNames = getAttestedFileNames(verification, response.assets);
   const hashesEl = verificationHashes.length > 0
-    ? el('div', { className: 'verification-modal-hashes' }, ...verificationHashes.map(hash => {
-      const fileName = attestedFileNames.get(hash) || '';
-      const download = el('button', {
-        type: 'button',
-        className: 'verification-modal-icon-btn js-download-blossom-file',
-        hidden: true,
-        title: `Download ${fileName || 'this file'}`,
-        'aria-label': `Download ${fileName || hash.slice(0, 8)}`,
-        dataset: { fileHash: hash, fileName },
-        html: wsIcon('download'),
-      });
-      checkFileExistsInBlossom(hash).then(exists => {
-        if (exists) {
-          download.hidden = false;
-        }
-      }).catch(() => {});
-      return el('span', { className: 'verification-modal-hash-row', dataset: { hash } },
+    ? el('div', { className: 'verification-modal-hashes' }, ...verificationHashes.map(hash =>
+      el('span', { className: 'verification-modal-hash-row' },
         el('span', { className: 'verification-modal-hash', title: hash }, hash.slice(0, 8)),
         el('button', {
           type: 'button',
@@ -784,14 +801,8 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
           dataset: { hash },
           html: wsIcon('copy'),
         }),
-        fileName ? el('span', { className: 'verification-modal-hash-file', title: fileName }, fileName) : null,
-        download,
-      );
-    }))
+      )))
     : null;
-  if (hashesEl) {
-    fillMissingAttestedFileNames(hashesEl, verification).catch(() => {});
-  }
   heading.replaceChildren(...[
     el('h2', { id: 'verificationModalTitle', className: 'verification-modal-title' }, `${walletTitle ?? ''} ${version ?? ''}`.trim()),
     hashesEl,
@@ -962,6 +973,12 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   let contentHTML = sectionHtml('', `<dl class="verification-modal-facts">${factsHTML}</dl>`, 'verification-modal-section--facts');
   contentHTML += '<div class="verification-modal-section" id="zaps" style="display: none;"></div>';
   contentHTML += '<div class="verification-modal-section" id="endorsements" style="display: none;"></div>';
+  if (verificationHashes.length > 0) {
+    const attestedFileNames = getAttestedFileNames(verification, response.assets);
+    contentHTML += sectionHtml(verificationHashes.length === 1 ? 'Attested file' : 'Attested files',
+      `<ul id="verification-attested-files" class="verification-modal-files">${
+        verificationHashes.map(hash => buildAttestedFileHtml(attestedFileNames.get(hash), hash)).join('')}</ul>`);
+  }
   if (outputFilesHTML) {
     contentHTML += sectionHtml('Output files', `<ul class="verification-modal-files">${outputFilesHTML}</ul>`);
   }
@@ -975,6 +992,11 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   contentHTML += sectionHtml('Report', `${reportToolsHTML}${issueTrackerHTML}<div class="markdown-content">${parsedMarkdown}</div>`, 'verification-modal-section--report');
 
   content.innerHTML = contentHTML;
+  const attestedFilesEl = content.querySelector('#verification-attested-files');
+  if (attestedFilesEl) {
+    revealAttestedFileDownloads(attestedFilesEl);
+    fillMissingAttestedFileNames(attestedFilesEl, verification).catch(() => {});
+  }
   void fillReportAuthors(content, async pubkey => getProfileDisplayName(await getNostrProfile(pubkey), pubkey));
 
   const appIdForTheKey = getFirstTagValue(verification, 'i');
