@@ -382,12 +382,6 @@ body.dark .opinion-card--reply {
   color: var(--bad);
 }
 
-/* Site-admin Approve / Hide on unreviewed opinions: outlined so they read as decisions, not reactions. */
-.opinion-card__action--moderate {
-  border: 1px solid currentColor;
-  padding: 0.2em 0.6em;
-}
-
 .opinion-card__action--right {
   margin-left: auto;
 }

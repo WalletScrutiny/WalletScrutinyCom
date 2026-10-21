@@ -179,43 +179,9 @@ export function isExplicitlyApproved(event, moderation) {
   return opinionListStatus(event, { trustedAuthors: new Set(), moderation }) === 'approved';
 }
 
-/** Approve / Hide buttons on a wallet page: site admins, on opinions nobody has decided yet. */
-export function canModerateOpinion(event, { me, trustedAuthors, moderation }) {
-  return isWalletScrutinySiteAdmin(me)
-    && event?.kind === opinionKind
-    && opinionListStatus(event, { trustedAuthors, moderation }) === 'open';
-}
-
 /** Opinions by site admins already show on the wallet page, so the index skips them. */
 export function opinionsForModeration(events) {
   return events.filter((event) => !isWalletScrutinySiteAdmin(event.pubkey));
-}
-
-function moderationActionLabel(decision) {
-  switch (decision) {
-    case OPINION_DECISION_APPROVE:
-      return 'Approval';
-    case OPINION_DECISION_HIDE:
-      return 'Hide';
-    default: {
-      const unexpected = decision;
-      throw new Error(`Unknown opinion decision: ${unexpected}`);
-    }
-  }
-}
-
-/**
- * Toast text for a moderation publish. `summary` is the relay outcome from
- * signAndPublish: how many relays accepted the event, and why the others did not.
- */
-export function moderationRelayMessage(decision, summary) {
-  const action = moderationActionLabel(decision);
-  if (summary.successful === summary.total) {
-    const noun = summary.successful === 1 ? 'relay' : 'relays';
-    return `${action} sent to ${summary.successful} ${noun}.`;
-  }
-  const failed = summary.failures.map(({ url, error }) => `${url} (${error})`).join(', ');
-  return `${action} accepted by ${summary.successful} of ${summary.total} relays. Not accepted by ${failed}.`;
 }
 
 /** The index is a queue: an opinion that is already approved or hidden stays off it. */

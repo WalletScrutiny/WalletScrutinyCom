@@ -18,8 +18,7 @@ Android app keep working.
 | `config.mjs` | Parses the data attributes of `_includes/review/nostrOpinion.html`. |
 | `auth.mjs` | NIP-07 identity, read once from the extension when the page loads. |
 | `moderation.mjs` | Approve / hide decisions: kind 1984 events from a site admin, newest per opinion id. |
-| `moderation-page.mjs`, `moderation-page-boot.mjs` | `/opinions/` index, not linked from the menu. The list renders only for `siteAdminPubkeys`. |
-| `moderation-by-author-page.mjs` | `/opinions_by_author/`: the same queue grouped by author, with Approve author / Hide all per author. |
+| `moderation-page.mjs`, `moderation-page-boot.mjs` | `/opinions/`: the moderation queue grouped by author, with Approve author / Hide all per author. The list renders only for `siteAdminPubkeys`. |
 | `modal.mjs`, `icons.mjs`, `constants.mjs`, `opinions.css` | Dialog, inline SVGs, constants, styles. |
 
 Configuration lives in `_data/nostrOpinions.yml` (approved authors, shared
@@ -49,27 +48,31 @@ site admin approved). The "Approved" / "All opinions" filters only appear when
 at least one opinion is not approved; "All opinions" then carries "+N", the
 number of opinions it adds.
 
-`/opinions/` is not in the site menu. When the page loads with a Nostr extension whose account is in `siteAdminPubkeys`, it lists third-party opinions that are still undecided, with their wallet. It skips opinions written by `siteAdminPubkeys` and any opinion already approved or hidden. Approving one (a kind 1984
-event with `k` `30023` and `r` `opinion-approve`, signed by a pubkey in
-`siteAdminPubkeys`) puts that event on the wallet page under "Approved".
-An approval covers that version only: the wallet page keeps showing it after
-the author publishes an edit, and the edit goes back into the queue. Hiding
-one (`r` `opinion-hide`, with the opinion address in an `a` tag) removes
-every version of that author's opinion on that wallet from the wallet page,
-including later edits. The newest decision wins, including over a trusted
-author. The static lists in
+All moderation happens on `/opinions/`; the opinion cards on the wallet
+pages have no approve or hide buttons. When the page loads with a Nostr
+extension whose account is in `siteAdminPubkeys`, it lists the third-party
+opinions that are still undecided, grouped by author: one card per author
+(most opinions first) with their opinions indented below it, each linking to
+its wallet. It skips opinions written by `siteAdminPubkeys` and any opinion
+already approved or hidden.
+
+Approve author publishes one author approval: a kind 1984 event with `k`
+`30023`, `r` `opinion-author-approve` and the author in a `p` tag, signed by a
+pubkey in `siteAdminPubkeys`. The wallet pages and the queue add that author
+to the trusted authors from `_data/nostrOpinions.yml`, so everything they have
+published or publish later shows under "Approved" and stays off the queue.
+The build-time counts in `scripts/compileAllOpinions.mjs` read only the YAML
+list.
+
+Hide all publishes one hide per opinion (`r` `opinion-hide`, with the opinion
+address in an `a` tag), so the extension asks for one signature per opinion;
+it stops at the first failed publish and keeps the ones done so far. A hide
+removes every version of that author's opinion on that wallet from the wallet
+page, including later edits, and wins over an author approval.
+
+Approvals of single opinions (`r` `opinion-approve`) published by the earlier
+version of the page still count: the wallet page keeps showing that version
+under "Approved". The newest decision per opinion wins. The static lists in
 `_data/nostrOpinions.yml` and `_data/nostrOpinionBlocklist.yml` still apply.
 
 Tests: `test/unit/opinions-*.test.mjs`, `test/e2e/opinions.spec.mjs`.
-
-`/opinions_by_author/` shows the same queue grouped by author: one card per
-author (most opinions first) with their undecided opinions indented below it.
-Approve author publishes one author approval: a kind 1984 event with `k`
-`30023`, `r` `opinion-author-approve` and the author in a `p` tag, signed by a
-pubkey in `siteAdminPubkeys`. The wallet pages and both queue pages add that
-author to the trusted authors from `_data/nostrOpinions.yml`, so everything
-they have published or publish later shows under "Approved" and stays off the
-queue. A hide of a single opinion still wins. The build-time counts in
-`scripts/compileAllOpinions.mjs` read only the YAML list. Hide all publishes
-one hide per opinion, so the extension asks for one signature per opinion; it
-stops at the first failed publish and keeps the ones done so far.

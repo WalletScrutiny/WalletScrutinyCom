@@ -3,10 +3,7 @@ import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
 import { siteAdminPubkeys } from '../../src/nostr-constants.mjs';
-import {
-  OpinionModerationByAuthorPage,
-  groupOpinionsByAuthor,
-} from '../../src/opinions/moderation-by-author-page.mjs';
+import { OpinionModerationPage, groupOpinionsByAuthor } from '../../src/opinions/moderation-page.mjs';
 import { buildAuthorApprovalDraft } from '../../src/opinions/moderation.mjs';
 
 const ADMIN = siteAdminPubkeys[0];
@@ -41,9 +38,9 @@ describe('groupOpinionsByAuthor', () => {
   });
 });
 
-describe('OpinionModerationByAuthorPage', () => {
+describe('OpinionModerationPage', () => {
   function loadedPage(me) {
-    const page = new OpinionModerationByAuthorPage(document.createElement('div'));
+    const page = new OpinionModerationPage(document.createElement('div'));
     page.me = me;
     page.buildShell();
     page.loaded = true;
@@ -88,5 +85,24 @@ describe('OpinionModerationByAuthorPage', () => {
     page.me = ALICE;
     const card = page.renderAuthor(groupOpinionsByAuthor(page.opinions)[0]);
     assert.equal(card.querySelectorAll('button').length, 0);
+  });
+
+  test('only the administrator gate before an admin signs in', () => {
+    const page = new OpinionModerationPage(document.createElement('div'));
+    page.renderGate();
+    assert.equal(page.root.querySelector('button'), null);
+    assert.match(page.root.textContent, /administrators/);
+  });
+
+  test('shows the whole opinion, not an excerpt, with no per-opinion buttons', async () => {
+    const page = loadedPage(ADMIN);
+    const tail = 'the last sentence of a long opinion';
+    const event = { ...opinion('4', BOB, 400), content: `First paragraph.\n\n${'word '.repeat(300)}${tail}` };
+    const item = page.renderAuthorOpinion(event);
+    assert.equal(item.querySelectorAll('button').length, 0);
+    const body = item.querySelector('.opinion-moderation__body');
+    await new Promise((resolve) => setTimeout(resolve, 50));
+    assert.match(body.textContent.trim(), new RegExp(`${tail}$`));
+    assert.equal(body.querySelectorAll('p').length, 2);
   });
 });
