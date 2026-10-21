@@ -54,7 +54,7 @@ layout: default
               {% include /review/githubDistributionLink.html %}
               {% include /review/websiteDistributionLink.html %}
               {% if page.flathub.appId %}
-              <a title="Flathub" href="https://flathub.org/apps/{{ page.flathub.appId }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">{% include icon.html name="flathub" %} Flathub</a>
+              <a title="Flathub" href="https://flathub.org/apps/{{ page.flathub.appId }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">{% include icon.html name="flathub" %} Flathub{% unless page.flathub.publisher == 'developer' %} <span class="flathub-community-badge">community</span>{% endunless %}</a>
               {% endif %}
             </div>
             {% endif %}

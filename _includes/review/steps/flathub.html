@@ -14,9 +14,15 @@
   <i class="circle">{% include icon.html name="flathub" %}</i>
   <div class="title">
     <h3>Flathub package</h3>
+    {%- unless fh.publisher == 'developer' %}
+    <div class="flathub-community-warning" role="note">
+      <b>Community package, not from the {{ page.title }} developers.</b>
+      A third party maintains its <a href="https://github.com/flathub/{{ fh.appId }}" target="_blank" rel="noopener noreferrer">Flathub manifest</a>. They can change which file it downloads, and its sha256, in a pull request. Only Flathub's review stands between that change and your computer.
+    </div>
+    {%- endunless %}
     <p>
       <a href="https://flathub.org/apps/{{ fh.appId }}" target="_blank" rel="noopener noreferrer"><code>{{ fh.appId }}</code></a>
-      {% if fh.publisher == 'developer' %}is published by the {{ page.title }} developers.{% else %}is a <b>community package</b>, not published by the {{ page.title }} developers.{% endif %}
+      {% if fh.publisher == 'developer' %}is published by the {{ page.title }} developers, who maintain its <a href="https://github.com/flathub/{{ fh.appId }}" target="_blank" rel="noopener noreferrer">Flathub manifest</a>.{% else %}is maintained by a third party.{% endif %}
       {%- case fh.type %}
       {%- when 'repackage' %}
       Flathub does not compile it. It downloads the official <code>{{ fh.wraps }}</code>, checks its sha256 and copies the files unchanged, apart from stripping debug symbols. It is as trustworthy as that official file, as long as you trust Flathub's build service.

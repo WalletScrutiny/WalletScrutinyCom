@@ -1096,3 +1096,29 @@ $review-section-gap: var(--review-section-gap);
     margin-bottom: 0;
   }
 }
+
+.flathub-community-warning {
+  margin: 0.5em 0 1em;
+  padding: 0.75em 1em;
+  border: 1px solid rgba(240, 173, 78, 0.4);
+  border-left-width: 4px;
+  border-radius: 6px;
+  background: rgba(240, 173, 78, 0.15);
+  color: #6b4a00;
+}
+
+.flathub-community-badge {
+  padding: 1px 6px;
+  border-radius: 999px;
+  border: 1px solid rgba(240, 173, 78, 0.4);
+  background: rgba(240, 173, 78, 0.15);
+  color: #9a6b00;
+  font-size: 0.8em;
+}
+
+body.dark .flathub-community-warning,
+body.dark .flathub-community-badge {
+  background: rgba(240, 173, 78, 0.12);
+  border-color: rgba(240, 173, 78, 0.35);
+  color: #f5d08a;
+}
