@@ -456,14 +456,11 @@ function getWalletVerdictStampsHtml (wallet, platformFilter) {
   return renderVerdictStamp(wallet.verdict, null, wallet.meta);
 }
 
-function getWalletScoreIconsHtml (score) {
-  if (!score) return { passed: '', failed: '', text: '' };
-  let passed = '';
-  let failed = '';
-  for (let i = 0; i < score.numerator; i++) passed += '<i class="pass"></i>';
-  for (let i = 0; i < (score.denominator - score.numerator); i++) failed += '<i class="fail"></i>';
-  const text = `Passed ${score.numerator !== score.denominator ? score.numerator : 'all'} ${score.numerator !== score.denominator ? 'of' : ''} ${score.denominator} tests`;
-  return { passed, failed, text };
+function getScoreText (score) {
+  if (!score) return '';
+  return score.numerator !== score.denominator
+    ? `Passed ${score.numerator} of ${score.denominator} tests`
+    : `Passed all ${score.denominator} tests`;
 }
 
 function scoresAreEqual (a, b) {
@@ -471,31 +468,18 @@ function scoresAreEqual (a, b) {
   return a.numerator === b.numerator && a.denominator === b.denominator;
 }
 
+// "Passed n of m tests" lines, one per platform when the platforms differ;
+// the cards show no test bars
 function getWalletScoreBlockHtml (wallet, platformFilter) {
-  if (wallet.scoreAndroid || wallet.scoreIphone) {
-    const showAndroid = !platformFilter || platformFilter === 'android';
-    const showIphone = !platformFilter || platformFilter === 'iphone';
-    const scoreAndroid = showAndroid ? wallet.scoreAndroid : null;
-    const scoreIphone = showIphone ? wallet.scoreIphone : null;
-    const dual = wallet.verdictAndroid && wallet.verdictIphone && wallet.verdictAndroid !== wallet.verdictIphone;
-    const sameScore = scoresAreEqual(scoreAndroid, scoreIphone);
-    const rows = [];
-    const addRow = (score, label) => {
-      if (!score) return;
-      const icons = getWalletScoreIconsHtml(score);
-      const prefix = dual && label ? `<small>${label}: </small>` : '';
-      rows.push(`${prefix}<span>${icons.text}</span><div>${icons.passed}${icons.failed}</div>`);
-    };
-    if (scoreAndroid && scoreIphone && sameScore) addRow(scoreAndroid);
-    else {
-      if (scoreAndroid) addRow(scoreAndroid, 'Android');
-      if (scoreIphone) addRow(scoreIphone, 'iPhone');
-    }
-    return rows.join('<br>');
+  if (!wallet.scoreAndroid && !wallet.scoreIphone) {
+    return wallet.score ? `<span>${getScoreText(wallet.score)}</span>` : '';
   }
-  if (!wallet.score) return '';
-  const icons = getWalletScoreIconsHtml(wallet.score);
-  return `<span>${icons.text}</span><div>${icons.passed}${icons.failed}</div>`;
+  const scoreAndroid = platformFilter !== 'iphone' ? wallet.scoreAndroid : null;
+  const scoreIphone = platformFilter !== 'android' ? wallet.scoreIphone : null;
+  if (scoresAreEqual(scoreAndroid, scoreIphone)) return `<span>${getScoreText(scoreAndroid)}</span>`;
+  const dual = wallet.verdictAndroid && wallet.verdictIphone && wallet.verdictAndroid !== wallet.verdictIphone;
+  const line = (score, label) => (score ? `<span>${dual ? `${label}: ` : ''}${getScoreText(score)}</span>` : '');
+  return line(scoreAndroid, 'Android') + line(scoreIphone, 'iPhone');
 }
 
 function getPlatformStoreLabel (platform) {
@@ -576,48 +560,38 @@ function getWalletPlatformMeta (wallet, platform) {
   return platform === 'android' ? wallet.metaAndroid : wallet.metaIphone;
 }
 
-function getWalletPlatformVerdictStampsHtml (wallet, platform) {
+// meta before verdict stamp, in one line when they fit
+function getWalletPlatformStampsHtml (wallet, platform) {
   const verdict = platform === 'android' ? wallet.verdictAndroid : wallet.verdictIphone;
-  return [
-    renderVerdictStamp(verdict, null, getWalletPlatformMeta(wallet, platform)),
-    renderWalletPlatformMetaStamp(wallet, platform),
-  ].filter(Boolean).join('');
+  return renderWalletPlatformMetaStamp(wallet, platform) +
+    renderVerdictStamp(verdict, null, getWalletPlatformMeta(wallet, platform));
 }
 
+function getWalletPlatformHeadHtml (platform) {
+  return `<div class="wallet-platform-row__head">${getIcon(platform)}<span>${getPlatformStoreLabel(platform)}</span></div>`;
+}
+
+// Card lines run: platform, stamps, tests, verification. Rows are built
+// without template indentation, as there are hundreds of them.
 function renderWalletPlatformSection (wallet, platform) {
   const score = platform === 'android' ? wallet.scoreAndroid : wallet.scoreIphone;
-  const stamps = getWalletPlatformVerdictStampsHtml(wallet, platform);
-  const verificationHtml = getWalletVerificationHtmlForPlatform(wallet, platform);
-  let scoreHtml = '';
-  if (score) {
-    const icons = getWalletScoreIconsHtml(score);
-    scoreHtml = `<span>${icons.text}</span><div>${icons.passed}${icons.failed}</div>`;
-  }
-  const body = [verificationHtml, scoreHtml].filter(Boolean).join('');
-  return `
-    <div class="wallet-platform-row">
-      <div class="wallet-platform-row__head">
-        ${getIcon(platform)}
-        <span>${getPlatformStoreLabel(platform)}</span>
-      </div>
-      ${stamps ? `<div class="stamps">${stamps}</div>` : ''}
-      ${body ? `<div class="score">${body}</div>` : ''}
-    </div>`;
+  const stamps = getWalletPlatformStampsHtml(wallet, platform);
+  const body = (score ? `<span>${getScoreText(score)}</span>` : '') + getWalletVerificationHtmlForPlatform(wallet, platform);
+  return '<div class="wallet-platform-row">' + getWalletPlatformHeadHtml(platform) +
+    (stamps ? `<div class="stamps">${stamps}</div>` : '') +
+    (body ? `<div class="score">${body}</div>` : '') +
+    '</div>';
 }
 
 function getWalletSharedStampsHtml (wallet) {
-  const parts = [];
-  if (wallet.archived) {
-    parts.push('<span class="stamp stamp-archived">Wallet Archived</span>');
-  }
-  if (wallet.alertFeatures?.length) {
-    parts.push(
-      wallet.alertFeatures.map((f) =>
-        `<span data-text="${window.featureAlerts[f] || f}" class="stamp stamp-alert-feature" title="${window.featureAlertMessages[f] || 'This feature has custody implications'}" alt=""></span>`
-      ).join('')
-    );
-  }
-  return parts.join('');
+  return (wallet.archived ? '<span class="stamp stamp-archived">Wallet Archived</span>' : '') +
+    (wallet.alertFeatures || []).map((f) =>
+      `<span data-text="${window.featureAlerts[f] || f}" class="stamp stamp-alert-feature" title="${window.featureAlertMessages[f] || 'This feature has custody implications'}"></span>`
+    ).join('');
+}
+
+function getWalletMetaStampHtml (wallet) {
+  return wallet.meta && wallet.meta !== 'ok' ? renderStamp(wallet.meta, window.verdicts[wallet.meta].short) : '';
 }
 
 function shouldUseWalletPlatformSections (wallet, platforms, listPlatform) {
@@ -630,39 +604,20 @@ function shouldUseWalletPlatformSections (wallet, platforms, listPlatform) {
 function getWalletCardDetailsHtml (wallet, platformFilter) {
   const listPlatform = platformFilter && platformFilter !== 'allPlatforms' ? platformFilter : false;
   const platforms = walletPlatformSections(wallet, listPlatform);
-  const usePlatformSections = shouldUseWalletPlatformSections(wallet, platforms, listPlatform);
 
-  if (usePlatformSections) {
+  if (shouldUseWalletPlatformSections(wallet, platforms, listPlatform)) {
     const shared = getWalletSharedStampsHtml(wallet);
-    const sectionsHtml = platforms.map((p) => renderWalletPlatformSection(wallet, p)).join('');
-    return `
-      <div class="wallet-details wallet-details--by-platform">
-        ${shared ? `<div class="stamps stamps--shared">${shared}</div>` : ''}
-        ${sectionsHtml}
-      </div>`;
+    return '<div class="wallet-details wallet-details--by-platform">' +
+      (shared ? `<div class="stamps stamps--shared">${shared}</div>` : '') +
+      platforms.map((p) => renderWalletPlatformSection(wallet, p)).join('') +
+      '</div>';
   }
 
-  const verificationHtml = getWalletVerificationLinesHtml(wallet, listPlatform);
-  const verdictStampsHtml = getWalletVerdictStampsHtml(wallet, listPlatform);
-  const scoreBlockHtml = getWalletScoreBlockHtml(wallet, listPlatform);
-  const metaStamp = wallet.meta && wallet.meta !== 'ok'
-    ? renderStamp(wallet.meta, window.verdicts[wallet.meta].short)
-    : '';
-
-  return `
-    <div class="wallet-details">
-      <div class="stamps">
-        ${getWalletSharedStampsHtml(wallet)}
-        ${verdictStampsHtml}
-        ${metaStamp}
-      </div>
-      ${scoreBlockHtml || wallet.score || verificationHtml
-        ? `<div class="score" data-numerator="${(wallet.score || wallet.scoreAndroid || wallet.scoreIphone || {}).numerator || 0}" data-denominator="${(wallet.score || wallet.scoreAndroid || wallet.scoreIphone || {}).denominator || 0}">
-          ${verificationHtml}
-          ${scoreBlockHtml || (wallet.score ? `<span>Passed ${wallet.score.numerator !== wallet.score.denominator ? wallet.score.numerator : 'all'} ${wallet.score.numerator !== wallet.score.denominator ? 'of' : ''} ${wallet.score.denominator} tests</span>` : '')}
-        </div>`
-        : ''}
-    </div>`;
+  const score = getWalletScoreBlockHtml(wallet, listPlatform) + getWalletVerificationLinesHtml(wallet, listPlatform);
+  return '<div class="wallet-details">' +
+    `<div class="stamps">${getWalletSharedStampsHtml(wallet)}${getWalletMetaStampHtml(wallet)}${getWalletVerdictStampsHtml(wallet, listPlatform)}</div>` +
+    (score ? `<div class="score">${score}</div>` : '') +
+    '</div>';
 }
 
 function getVerificationTarget (wallet, platformFilter) {
@@ -714,19 +669,6 @@ function getIcon (name) {
   return '';
 }
 
-// The header dropdown is rebuilt on every search, so its rows are kept
-// small: no test bars (the "Passed n of m tests" text says the same) and no
-// template indentation. Lines run: platform, stamps, tests, verification.
-function getCompactTestsHtml (score) {
-  return score ? `<span>${getWalletScoreIconsHtml(score).text}</span>` : '';
-}
-
-function getCompactAlertStampsHtml (wallet) {
-  return (wallet.alertFeatures || []).map((f) =>
-    `<span data-text="${window.featureAlerts[f] || f}" class="stamp stamp-alert-feature" title="${window.featureAlertMessages[f] || 'This feature has custody implications'}"></span>`
-  ).join('');
-}
-
 function makeCompactResultsHTML (wallet, lazyLoad, platformFilter) {
   const faCollection = getWalletListIcon(wallet, platformFilter);
   const basePath = wallet.base_path || '';
@@ -740,41 +682,20 @@ function makeCompactResultsHTML (wallet, lazyLoad, platformFilter) {
     const shared = getWalletSharedStampsHtml(wallet);
     const sections = platforms.map((p) => {
       const score = p === 'android' ? wallet.scoreAndroid : wallet.scoreIphone;
-      // meta before verdict stamp, in one line when they fit
-      const stamps = renderWalletPlatformMetaStamp(wallet, p) +
-        renderVerdictStamp(p === 'android' ? wallet.verdictAndroid : wallet.verdictIphone, null, getWalletPlatformMeta(wallet, p));
-      return '<div class="wallet-platform-row wallet-platform-row--compact">' +
-        `<div class="wallet-platform-row__head">${getIcon(p)}<span>${getPlatformStoreLabel(p)}</span></div>` +
+      const stamps = getWalletPlatformStampsHtml(wallet, p);
+      return '<div class="wallet-platform-row wallet-platform-row--compact">' + getWalletPlatformHeadHtml(p) +
         (stamps ? `<span class="stats-platform-stamps">${stamps}</span>` : '') +
-        getCompactTestsHtml(score) +
+        (score ? `<span>${getScoreText(score)}</span>` : '') +
         (wallet.archived ? '' : getWalletVerificationHtmlForPlatform(wallet, p)) +
         '</div>';
     }).join('');
     statsHTML = `<span class="stats stats--by-platform">${shared ? `<span class="stats-shared">${shared}</span>` : ''}${sections}</span>`;
   } else {
-    let testsHTML = '';
-    if (wallet.scoreAndroid || wallet.scoreIphone) {
-      const scoreAndroid = listPlatform !== 'iphone' ? wallet.scoreAndroid : null;
-      const scoreIphone = listPlatform !== 'android' ? wallet.scoreIphone : null;
-      const dual = wallet.verdictAndroid && wallet.verdictIphone && wallet.verdictAndroid !== wallet.verdictIphone;
-      if (scoreAndroid && scoreIphone && scoresAreEqual(scoreAndroid, scoreIphone)) {
-        testsHTML = getCompactTestsHtml(scoreAndroid);
-      } else {
-        const label = (name) => (dual ? `${name}: ` : '');
-        testsHTML = [
-          scoreAndroid ? `<span>${label('Android')}${getWalletScoreIconsHtml(scoreAndroid).text}</span>` : '',
-          scoreIphone ? `<span>${label('iPhone')}${getWalletScoreIconsHtml(scoreIphone).text}</span>` : '',
-        ].join('');
-      }
-    } else {
-      testsHTML = getCompactTestsHtml(wallet.score);
-    }
     statsHTML = '<span class="stats">' +
-      (wallet.archived ? '<span class="stamp stamp-archived">Wallet Archived</span>' : '') +
-      getCompactAlertStampsHtml(wallet) +
-      (wallet.meta && wallet.meta !== 'ok' ? renderStamp(wallet.meta, window.verdicts[wallet.meta].short) : '') +
+      getWalletSharedStampsHtml(wallet) +
+      getWalletMetaStampHtml(wallet) +
       getWalletVerdictStampsHtml(wallet, listPlatform) +
-      testsHTML +
+      getWalletScoreBlockHtml(wallet, listPlatform) +
       (wallet.archived ? '' : getWalletVerificationLinesHtml(wallet, platformFilter)) +
       '</span>';
   }
