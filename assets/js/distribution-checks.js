@@ -213,7 +213,8 @@
         checks = [];
       }
     }
-    var step = container.closest('.step') || container.parentNode;
+    var step = container.closest('.distribution-entry') || container.parentNode;
+    var summary = step.querySelector('.distribution-summary-check');
     var diy = step.querySelector('details.distribution-diy');
     var status = container.querySelector('.distribution-status');
     var form = container.querySelector('form.distribution-version-lookup');
@@ -237,6 +238,15 @@
         status.appendChild(historyTable(doc, checks, baseurl));
       } else {
         status.appendChild(el(doc, 'p', 'distribution-result distribution-tone-none', 'Not checked by WalletScrutiny yet.'));
+      }
+      if (summary) {
+        // Compact layout: one line in the table row, same rule as the headline.
+        var d = checks.length ? describe(checks[0]) : null;
+        summary.className = 'distribution-cell distribution-summary-check distribution-tone-' + (d ? d.tone : 'none');
+        summary.textContent = !d ? 'not checked yet'
+          : checks[0].result === 'differs' ? 'differs from the official file'
+          : 'matches \u00b7 official file: ' + d.verdictText;
+        if (isSample && d) summary.textContent += ' (sample)';
       }
       if (!form) return;
       show(null);

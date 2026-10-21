@@ -1,6 +1,7 @@
 {%- comment -%}
   Flathub package of a desktop wallet, from a `channel: flathub` entry of the page's
-  `distributions` list, passed as d (n numbers the entry, for unique element IDs):
+  `distributions` list, passed as d (n numbers the entry, for unique element IDs; compact
+  renders it as a row of the "Other ways to install" table, with the same details inside):
     id         Flathub app ID, e.g. network.bisq.Bisq
     publisher  developer (Flathub-verified) or community
     type       repackage: Flathub copies an official download, checked by sha256
@@ -16,10 +17,7 @@
 {%- assign fh_wraps = fh.wraps | escape -%}
 {%- assign fh_needle = fh.wraps | split: '*' | first | escape -%}
 {%- assign fh_title = page.title | escape -%}
-<div class="step flathub-package">
-  <i class="circle">{% include icon.html name="flathub" %}</i>
-  <div class="title">
-    <h3>Flathub package</h3>
+{%- capture fh_body %}
     {%- unless fh.publisher == 'developer' %}
     <div class="flathub-community-warning" role="note">
       <b>Community package, not from the {{ fh_title }} developers.</b>
@@ -87,9 +85,29 @@ grep -rhF -A1 -- '{{ fh_needle }}' ~/.local/share/flatpak/repo/objects</code></p
     <p>If our verifications list that file as reproducible, your Flathub package contains that build. To check without trusting Flathub's build service, compare the installed files against the official download, as described in <a href="{{ site.baseurl }}/flathub/">How we check Flathub packages</a>.</p>
     </details>
     {%- endif %}
+{%- endcapture -%}
+{%- if include.compact %}
+<details class="distribution-entry distribution-row flathub-package">
+  <summary class="distribution-row-summary">
+    <span class="distribution-cell distribution-cell-channel">{% include icon.html name="flathub" %} Flathub</span>
+    <span class="distribution-cell">{% if fh.publisher == 'developer' %}developer{% else %}<span class="flathub-community-badge">community</span>{% endif %}</span>
+    <span class="distribution-cell">{% case fh.type %}{% when 'repackage' %}wraps <code>{{ fh_wraps }}</code>{% when 'extra-data' %}downloads <code>{{ fh_wraps }}</code>{% else %}built from source by Flathub{% endcase %}</span>
+    <span class="distribution-cell distribution-summary-check distribution-tone-none">not checked yet</span>
+  </summary>
+  <div class="distribution-row-body">
+{{ fh_body }}
+  </div>
+</details>
+{%- else %}
+<div class="step flathub-package distribution-entry">
+  <i class="circle">{% include icon.html name="flathub" %}</i>
+  <div class="title">
+    <h3>Flathub package</h3>
+{{ fh_body }}
   </div>
   <div class="data">
   </div>
 </div>
+{%- endif %}
 <script src="{{ site.baseurl }}/assets/js/distribution-checks.js" defer></script>
 {%- endif -%}

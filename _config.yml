@@ -286,3 +286,5 @@ whitelist:
 # WalletScrutiny's store-package check results; see src/distribution-labels.mjs. Empty means
 # no key is pinned yet, so pages show no real results. Placeholder until the key exists.
 distribution_label_pubkey: ""
+# Store-package layout: "step" or "compact" (see _includes/review/steps/distributions.html).
+distribution_layout: step

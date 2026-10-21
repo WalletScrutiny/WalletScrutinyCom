@@ -1,10 +1,36 @@
 {%- comment -%}
-  One step per entry in the page's `distributions` list, switched on `channel`.
+  One entry per item of the page's `distributions` list, switched on `channel`.
   _plugins/distributions_validate.rb rejects channels without a case here.
+  site.distribution_layout: "step" (default) gives each entry its own step; "compact" puts
+  all entries in one "Other ways to install" table whose rows open the details.
 {%- endcomment -%}
+{%- if page.distributions.size > 0 -%}
+{%- assign compact = false -%}
+{%- if site.distribution_layout == 'compact' %}{% assign compact = true %}{% endif -%}
+{%- if compact %}
+<div class="step distributions-compact">
+  <i class="circle">{% include icon.html name="download" %}</i>
+  <div class="title">
+    <h3>Other ways to install</h3>
+    <div class="distribution-table">
+      <div class="distribution-row-summary distribution-table-head" aria-hidden="true">
+        <span class="distribution-cell">Channel</span>
+        <span class="distribution-cell">Published by</span>
+        <span class="distribution-cell">What it is</span>
+        <span class="distribution-cell">Our check</span>
+      </div>
+{%- endif -%}
 {%- for d in page.distributions -%}
 {%- case d.channel -%}
 {%- when 'flathub' -%}
-{% include /review/steps/flathub.html d=d n=forloop.index %}
+{% include /review/steps/flathub.html d=d n=forloop.index compact=compact %}
 {%- endcase -%}
 {%- endfor -%}
+{%- if compact %}
+    </div>
+  </div>
+  <div class="data">
+  </div>
+</div>
+{%- endif -%}
+{%- endif -%}
