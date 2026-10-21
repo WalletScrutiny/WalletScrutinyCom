@@ -1,13 +1,13 @@
 /**
  * /opinions_by_author/: the same queue as /opinions/, grouped by author.
- * Each author is one card with their undecided opinions indented below it,
- * and Approve all / Hide all publish one decision per opinion, exactly the
- * events the per-opinion buttons publish, so both pages and the wallet pages
- * agree on every decision.
+ * Each author is one card with their undecided opinions indented below it.
+ * Approve author publishes one author approval: everything that author has
+ * published or publishes later counts as approved, on every page. Hide all
+ * publishes one hide per opinion, the event the per-opinion buttons publish.
  */
 import * as nip19 from 'nostr-tools/nip19';
 import { el } from '../html-utils.mjs';
-import { isWalletScrutinySiteAdmin, siteAdminPubkeys } from '../nostr-constants.mjs';
+import { isWalletScrutinySiteAdmin } from '../nostr-constants.mjs';
 import { showToast } from '../verifications_utils.mjs';
 import {
   getProfileDisplayName,
@@ -17,13 +17,7 @@ import {
 } from '../nostr-profile.mjs';
 import { SENTIMENT_LABELS } from './constants.mjs';
 import { getSentiment, getTagValue } from './content.mjs';
-import {
-  OPINION_DECISION_APPROVE,
-  OPINION_DECISION_HIDE,
-  buildOpinionModerationDraft,
-  pendingModerationOpinions,
-  resolveOpinionModeration,
-} from './moderation.mjs';
+import { OPINION_DECISION_HIDE, buildAuthorApprovalDraft, buildOpinionModerationDraft } from './moderation.mjs';
 import { signAndPublish } from './nostr.mjs';
 import { OpinionModerationPage, formatDate, renderOpinionBody, walletTitle } from './moderation-page.mjs';
 
@@ -153,20 +147,52 @@ export class OpinionModerationByAuthorPage extends OpinionModerationPage {
 
   renderAuthorActions(pubkey, opinions) {
     const pending = this.pendingAuthors.has(pubkey);
-    const suffix = opinions.length > 1 ? ` all ${opinions.length}` : '';
-    const approve = el('button', { type: 'button', disabled: pending }, `Approve${suffix}`);
-    const hide = el('button', { type: 'button', disabled: pending }, `Hide${suffix}`);
-    approve.addEventListener('click', () => this.decideAuthor(pubkey, opinions, OPINION_DECISION_APPROVE));
-    hide.addEventListener('click', () => this.decideAuthor(pubkey, opinions, OPINION_DECISION_HIDE));
+    const approve = el('button', {
+      type: 'button',
+      disabled: pending,
+      title: 'Approves this author\'s opinions, including the ones they publish later',
+    }, 'Approve author');
+    const hide = el('button', { type: 'button', disabled: pending }, opinions.length > 1 ? `Hide all ${opinions.length}` : 'Hide');
+    approve.addEventListener('click', () => this.approveAuthor(pubkey));
+    hide.addEventListener('click', () => this.hideAll(pubkey, opinions));
     return el('div', { className: 'opinion-moderation__actions' }, approve, hide);
   }
 
+  /** One event: the author joins the trusted authors, their opinions leave the queue. */
+  async approveAuthor(pubkey) {
+    if (!isWalletScrutinySiteAdmin(this.me)) {
+      return;
+    }
+    this.pendingAuthors.add(pubkey);
+    this.renderList();
+    try {
+      const { event: signed, summary } = await signAndPublish(buildAuthorApprovalDraft({ pubkey }), {
+        eventType: 'approval',
+        requireMainRelay: true,
+        includeSummary: true,
+      });
+      this.moderationEvents.push(signed);
+      this.applyModeration();
+      const name = getProfileDisplayName(this.profiles.get(pubkey), pubkey);
+      if (summary.successful === summary.total) {
+        showToast(`Approved ${name}. Their future opinions are approved too.`, 'success');
+      } else {
+        showToast(`Approved ${name}, but only ${summary.successful} of ${summary.total} relays accepted it.`, 'warning');
+      }
+    } catch (error) {
+      showToast(error?.message || 'Could not publish the approval.', 'error');
+    } finally {
+      this.pendingAuthors.delete(pubkey);
+      this.renderList();
+    }
+  }
+
   /**
-   * One decision event per opinion, published one after the other so the
-   * extension asks for one signature at a time. Stops at the first failure;
-   * the opinions decided so far stay decided.
+   * One hide per opinion, published one after the other so the extension
+   * asks for one signature at a time. Stops at the first failure; the
+   * opinions hidden so far stay hidden.
    */
-  async decideAuthor(pubkey, opinions, decision) {
+  async hideAll(pubkey, opinions) {
     if (!isWalletScrutinySiteAdmin(this.me)) {
       return;
     }
@@ -177,11 +203,10 @@ export class OpinionModerationByAuthorPage extends OpinionModerationPage {
     let failure = null;
     try {
       for (const opinion of opinions) {
-        const { event: signed, summary } = await signAndPublish(buildOpinionModerationDraft({ opinion, decision }), {
-          eventType: decision === OPINION_DECISION_APPROVE ? 'approval' : 'hide',
-          requireMainRelay: true,
-          includeSummary: true,
-        });
+        const { event: signed, summary } = await signAndPublish(
+          buildOpinionModerationDraft({ opinion, decision: OPINION_DECISION_HIDE }),
+          { eventType: 'hide', requireMainRelay: true, includeSummary: true },
+        );
         this.moderationEvents.push(signed);
         done += 1;
         partial ||= summary.successful !== summary.total;
@@ -189,16 +214,11 @@ export class OpinionModerationByAuthorPage extends OpinionModerationPage {
     } catch (error) {
       failure = error;
     } finally {
-      this.moderation = resolveOpinionModeration(this.moderationEvents, siteAdminPubkeys);
-      this.opinions = pendingModerationOpinions(this.opinions, {
-        trustedAuthors: this.lists.trustedAuthors,
-        moderation: this.moderation,
-      });
+      this.applyModeration();
       this.pendingAuthors.delete(pubkey);
       this.renderList();
     }
-    const verb = decision === OPINION_DECISION_APPROVE ? 'Approved' : 'Hid';
-    const counted = `${verb} ${done} of ${plural(opinions.length, 'opinion')}`;
+    const counted = `Hid ${done} of ${plural(opinions.length, 'opinion')}`;
     if (failure) {
       showToast(`${counted}. ${failure?.message || 'Could not publish the decision.'}`, 'error');
     } else if (partial) {

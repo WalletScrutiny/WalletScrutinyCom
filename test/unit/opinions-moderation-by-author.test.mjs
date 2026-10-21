@@ -7,6 +7,7 @@ import {
   OpinionModerationByAuthorPage,
   groupOpinionsByAuthor,
 } from '../../src/opinions/moderation-by-author-page.mjs';
+import { buildAuthorApprovalDraft } from '../../src/opinions/moderation.mjs';
 
 const ADMIN = siteAdminPubkeys[0];
 const ALICE = 'aa'.repeat(32);
@@ -58,8 +59,8 @@ describe('OpinionModerationByAuthorPage', () => {
     assert.equal(cards.length, 2);
     assert.match(page.countEl.textContent, /^2 authors, 3 opinions$/);
     assert.equal(cards[0].querySelectorAll('.opinion-moderation__author-opinions .opinion-moderation__item').length, 2);
-    assert.deepEqual([...cards[0].querySelectorAll('button')].map((b) => b.textContent), ['Approve all 2', 'Hide all 2']);
-    assert.deepEqual([...cards[1].querySelectorAll('button')].map((b) => b.textContent), ['Approve', 'Hide']);
+    assert.deepEqual([...cards[0].querySelectorAll('button')].map((b) => b.textContent), ['Approve author', 'Hide all 2']);
+    assert.deepEqual([...cards[1].querySelectorAll('button')].map((b) => b.textContent), ['Approve author', 'Hide']);
     assert.equal(cards[0].querySelector('.opinion-moderation__note')?.getAttribute('role'), 'note');
   });
 
@@ -69,6 +70,17 @@ describe('OpinionModerationByAuthorPage', () => {
     page.renderList();
     assert.equal(page.root.querySelectorAll('.opinion-moderation__author').length, 1);
     assert.equal(page.countEl.textContent, '1 of 2 authors, 1 of 3 opinions');
+  });
+
+  test('an author approval takes all their opinions off the queue', () => {
+    const page = loadedPage(ADMIN);
+    page.moderationEvents.push({ ...buildAuthorApprovalDraft({ pubkey: ALICE }), id: 'ee'.repeat(32), pubkey: ADMIN });
+    page.applyModeration();
+    page.renderList();
+    assert.deepEqual(page.opinions.map((event) => event.pubkey), [BOB]);
+    assert.equal(page.countEl.textContent, '1 author, 1 opinion');
+    assert.ok(page.lists.trustedAuthors.has(ALICE));
+    assert.equal(page.staticTrustedAuthors.has(ALICE), false);
   });
 
   test('no buttons for a non-admin', () => {

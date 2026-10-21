@@ -6,7 +6,9 @@ import { siteAdminPubkeys } from '../../src/nostr-constants.mjs';
 import { opinionKind } from '../../src/opinions/constants.mjs';
 import {
   OPINION_DECISION_APPROVE,
+  OPINION_DECISION_APPROVE_AUTHOR,
   OPINION_DECISION_HIDE,
+  buildAuthorApprovalDraft,
   buildOpinionModerationDraft,
   canModerateOpinion,
   indexWalletsBySubject,
@@ -14,7 +16,9 @@ import {
   opinionListStatus,
   opinionsForModeration,
   pendingModerationOpinions,
+  resolveApprovedAuthors,
   resolveOpinionModeration,
+  withApprovedAuthors,
 } from '../../src/opinions/moderation.mjs';
 import { OpinionModerationPage } from '../../src/opinions/moderation-page.mjs';
 import { renderCard } from '../../src/opinions/card.mjs';
@@ -73,6 +77,45 @@ describe('resolveOpinionModeration', () => {
       createdAt: 50,
     });
     assert.ok(draft.tags.some((tag) => tag[0] === 'a' && tag[1] === `${opinionKind}:${OTHER}:android/com.example`));
+  });
+});
+
+describe('author approvals', () => {
+  const approval = (pubkey, overrides = {}) => ({
+    ...buildAuthorApprovalDraft({ pubkey: OTHER, createdAt: 10 }),
+    id: 'ef'.repeat(32),
+    pubkey,
+    ...overrides,
+  });
+
+  test('the draft names the author and no opinion', () => {
+    const draft = buildAuthorApprovalDraft({ pubkey: OTHER.toUpperCase(), createdAt: 10 });
+    assert.equal(draft.kind, 1984);
+    assert.deepEqual(draft.tags.slice(0, 3), [['p', OTHER], ['k', String(opinionKind)], ['r', OPINION_DECISION_APPROVE_AUTHOR]]);
+    assert.equal(draft.tags.some(([name]) => name === 'e' || name === 'a'), false);
+    assert.throws(() => buildAuthorApprovalDraft({ pubkey: 'npub1nope' }));
+  });
+
+  test('only admin approvals count, and they add to the static list', () => {
+    assert.deepEqual([...resolveApprovedAuthors([approval(ADMIN)])], [OTHER]);
+    assert.equal(resolveApprovedAuthors([approval(OTHER)]).size, 0);
+    assert.equal(resolveApprovedAuthors([approval(ADMIN, { tags: [['p', OTHER], ['k', '1'], ['r', OPINION_DECISION_APPROVE_AUTHOR]] })]).size, 0);
+    const trusted = withApprovedAuthors(new Set(['12'.repeat(32)]), [approval(ADMIN)]);
+    assert.deepEqual([...trusted].sort(), ['12'.repeat(32), OTHER].sort());
+  });
+
+  test('it is not an opinion decision', () => {
+    assert.equal(resolveOpinionModeration([approval(ADMIN)]).size, 0);
+  });
+
+  test('an approved author\'s opinions are approved, and a hide still wins', () => {
+    const opinion = { id: OPINION_ID, pubkey: OTHER, kind: opinionKind, created_at: 5, tags: [['d', 'mobile/com.example']] };
+    const trustedAuthors = withApprovedAuthors(new Set(), [approval(ADMIN)]);
+    assert.equal(opinionListStatus(opinion, { trustedAuthors, moderation: new Map() }), 'approved-author');
+    const hidden = resolveOpinionModeration([
+      decisionEvent({ id: '1', pubkey: ADMIN, decision: OPINION_DECISION_HIDE, created_at: 20 }),
+    ]);
+    assert.equal(opinionListStatus(opinion, { trustedAuthors, moderation: hidden }), 'hidden');
   });
 });
 

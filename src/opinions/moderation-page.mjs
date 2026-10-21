@@ -29,6 +29,7 @@ import {
   opinionsForModeration,
   pendingModerationOpinions,
   resolveOpinionModeration,
+  withApprovedAuthors,
 } from './moderation.mjs';
 import {
   fetchAllOpinionVersions,
@@ -89,6 +90,8 @@ export class OpinionModerationPage {
   constructor(root) {
     this.root = root;
     this.lists = readModerationLists(root.dataset);
+    // _data/nostrOpinions.yml; lists.trustedAuthors adds the authors approved on Nostr.
+    this.staticTrustedAuthors = this.lists.trustedAuthors;
     this.opinions = [];
     this.moderationEvents = [];
     this.moderation = new Map();
@@ -191,11 +194,7 @@ export class OpinionModerationPage {
         getNostrProfiles(this.opinions.map((event) => event.pubkey)).catch(() => new Map()),
       ]);
       this.moderationEvents = moderationEvents;
-      this.moderation = resolveOpinionModeration(moderationEvents, siteAdminPubkeys);
-      this.opinions = pendingModerationOpinions(this.opinions, {
-        trustedAuthors: this.lists.trustedAuthors,
-        moderation: this.moderation,
-      });
+      this.applyModeration();
       this.profiles = profiles;
       this.me = getPubkey();
     } catch (error) {
@@ -208,6 +207,16 @@ export class OpinionModerationPage {
         this.renderList();
       }
     }
+  }
+
+  /** Resolve `moderationEvents` and drop the opinions that are no longer undecided. */
+  applyModeration() {
+    this.moderation = resolveOpinionModeration(this.moderationEvents, siteAdminPubkeys);
+    this.lists.trustedAuthors = withApprovedAuthors(this.staticTrustedAuthors, this.moderationEvents, siteAdminPubkeys);
+    this.opinions = pendingModerationOpinions(this.opinions, {
+      trustedAuthors: this.lists.trustedAuthors,
+      moderation: this.moderation,
+    });
   }
 
   statusOf(event) {
@@ -324,11 +333,7 @@ export class OpinionModerationPage {
         includeSummary: true,
       });
       this.moderationEvents.push(signed);
-      this.moderation = resolveOpinionModeration(this.moderationEvents, siteAdminPubkeys);
-      this.opinions = pendingModerationOpinions(this.opinions, {
-        trustedAuthors: this.lists.trustedAuthors,
-        moderation: this.moderation,
-      });
+      this.applyModeration();
       const toastType = summary.successful === summary.total ? 'success' : 'warning';
       showToast(moderationRelayMessage(decision, summary), toastType);
     } catch (error) {

@@ -27,7 +27,7 @@ import {
   zapstoreRelayUrls,
 } from './constants.mjs';
 import { buildOpinionContent, getTagValue, getTags, opinionAddress, zapstoreAppAddress } from './content.mjs';
-import { OPINION_DECISION_APPROVE, OPINION_DECISION_HIDE } from './moderation.mjs';
+import { OPINION_DECISION_APPROVE, OPINION_DECISION_APPROVE_AUTHOR, OPINION_DECISION_HIDE } from './moderation.mjs';
 
 async function query(filter, maxWait = fetchMaxWaitMs) {
   const events = await fetchEvents(filter, { relayUrls: opinionRelayUrls, maxWait });
@@ -81,7 +81,7 @@ export function fetchOpinionDeletions(opinions) {
   return collectChunked(filters);
 }
 
-/** Admin approve/hide decisions for opinions. Verification reports have no `k` tag, so they are not included. */
+/** Admin approve/hide decisions for opinions and approved authors. Verification reports have no `k` tag, so they are not included. */
 export async function fetchOpinionModeration() {
   if (!siteAdminPubkeys.length) {
     return [];
@@ -90,7 +90,7 @@ export async function fetchOpinionModeration() {
     kinds: [verificationReportKind],
     authors: siteAdminPubkeys,
     '#k': [String(opinionKind)],
-    '#r': [OPINION_DECISION_APPROVE, OPINION_DECISION_HIDE],
+    '#r': [OPINION_DECISION_APPROVE, OPINION_DECISION_HIDE, OPINION_DECISION_APPROVE_AUTHOR],
   });
 }
 

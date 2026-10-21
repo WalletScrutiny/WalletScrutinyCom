@@ -60,6 +60,7 @@ import {
   moderationRelayMessage,
   opinionListStatus,
   resolveOpinionModeration,
+  withApprovedAuthors,
 } from './moderation.mjs';
 
 const GUIDELINES = 'Thank you for contributing your opinion. Please be objective and be polite.';
@@ -82,6 +83,8 @@ export class OpinionsWidget {
   constructor(root) {
     this.root = root;
     this.config = readWidgetConfig(root.dataset);
+    // _data/nostrOpinions.yml; config.trustedAuthors adds the authors approved on Nostr once loaded.
+    this.staticTrustedAuthors = this.config.trustedAuthors;
     this.body = root.querySelector('.opinions__body') ?? root.appendChild(el('div', { className: 'opinions__body' }));
 
     this.opinions = [];
@@ -165,6 +168,7 @@ export class OpinionsWidget {
       ]);
       this.moderationEvents = moderationEvents;
       this.moderation = resolveOpinionModeration(moderationEvents, siteAdminPubkeys);
+      this.config.trustedAuthors = withApprovedAuthors(this.staticTrustedAuthors, moderationEvents, siteAdminPubkeys);
       const latest = latestOpinionPerAuthor(versions, {
         ...this.config,
         isPinned: (event) => this.listStatus(event) === 'approved',
@@ -230,9 +234,9 @@ export class OpinionsWidget {
   // --- profiles --------------------------------------------------------
 
   /**
-   * Only authors with a Nostr profile picture or name are shown; the events of
-   * everybody else are dropped here, on both sources, with no way to reveal
-   * them. Profiles are fetched in one batch before the first render.
+   * Only authors with a Nostr profile picture or name, and approved authors,
+   * are shown; the events of everybody else are dropped here, on both sources,
+   * with no way to reveal them. Profiles are fetched in one batch before the first render.
    */
   async withProfiles(events) {
     await this.resolveProfiles(events.map((event) => event.pubkey));
@@ -253,8 +257,9 @@ export class OpinionsWidget {
     }
   }
 
+  /** A trusted or admin-approved author is shown without a profile too. */
   isShownAuthor(pubkey) {
-    return hasProfileIdentity(this.profiles.get(pubkey));
+    return hasProfileIdentity(this.profiles.get(pubkey)) || this.config.trustedAuthors.has(pubkey);
   }
 
   requestProfile(pubkey) {

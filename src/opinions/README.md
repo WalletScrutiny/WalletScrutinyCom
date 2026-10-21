@@ -19,7 +19,7 @@ Android app keep working.
 | `auth.mjs` | NIP-07 identity, read once from the extension when the page loads. |
 | `moderation.mjs` | Approve / hide decisions: kind 1984 events from a site admin, newest per opinion id. |
 | `moderation-page.mjs`, `moderation-page-boot.mjs` | `/opinions/` index, not linked from the menu. The list renders only for `siteAdminPubkeys`. |
-| `moderation-by-author-page.mjs` | `/opinions_by_author/`: the same queue grouped by author, with Approve / Hide per author. |
+| `moderation-by-author-page.mjs` | `/opinions_by_author/`: the same queue grouped by author, with Approve author / Hide all per author. |
 | `modal.mjs`, `icons.mjs`, `constants.mjs`, `opinions.css` | Dialog, inline SVGs, constants, styles. |
 
 Configuration lives in `_data/nostrOpinions.yml` (approved authors, shared
@@ -64,6 +64,12 @@ Tests: `test/unit/opinions-*.test.mjs`, `test/e2e/opinions.spec.mjs`.
 
 `/opinions_by_author/` shows the same queue grouped by author: one card per
 author (most opinions first) with their undecided opinions indented below it.
-Approve all / Hide all publish one decision per opinion, the same events as
-the per-opinion buttons, so the extension asks for one signature per opinion.
-It stops at the first failed publish and keeps the decisions made so far.
+Approve author publishes one author approval: a kind 1984 event with `k`
+`30023`, `r` `opinion-author-approve` and the author in a `p` tag, signed by a
+pubkey in `siteAdminPubkeys`. The wallet pages and both queue pages add that
+author to the trusted authors from `_data/nostrOpinions.yml`, so everything
+they have published or publish later shows under "Approved" and stays off the
+queue. A hide of a single opinion still wins. The build-time counts in
+`scripts/compileAllOpinions.mjs` read only the YAML list. Hide all publishes
+one hide per opinion, so the extension asks for one signature per opinion; it
+stops at the first failed publish and keeps the ones done so far.
