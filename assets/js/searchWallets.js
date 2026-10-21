@@ -492,6 +492,12 @@ function getCardStatusHtml (status) {
   return status === 'reproducible' ? '✅ Reproducible build' : '❌ ' + getStatusText(status, true);
 }
 
+// a mobile build with no verification counts as not verifiable; on the
+// other platforms it is only not verified yet
+function getUnverifiedHtml (platform) {
+  return platform === 'android' || platform === 'iphone' ? '❌ Build not verifiable' : '❓ Not verified yet';
+}
+
 function getWalletVerificationHtmlForPlatform (wallet, platform) {
   if (!window.allAssetInformation) return '';
   const verdict = platform === 'android' ? wallet.verdictAndroid : wallet.verdictIphone;
@@ -499,7 +505,7 @@ function getWalletVerificationHtmlForPlatform (wallet, platform) {
   if (verdict !== 'sourceavailable' || !appId) return '';
   const status = getLastVerificationStatusForAppId(appId, platform);
   if (!status) {
-    return '<span>❌ Build not verifiable</span>';
+    return `<span>${getUnverifiedHtml(platform)}</span>`;
   }
   return `<span>${getCardStatusHtml(status)}</span>`;
 }
@@ -512,7 +518,7 @@ function getWalletVerificationLinesHtml (wallet, platformFilter) {
     const status = getLastVerificationStatusForAppId(appId, platform);
     const prefix = label ? `${label}: ` : '';
     if (!status) {
-      lines.push(`<span>${prefix}❌ Build not verifiable</span>`);
+      lines.push(`<span>${prefix}${getUnverifiedHtml(platform)}</span>`);
       return;
     }
     lines.push(`<span>${prefix}${getCardStatusHtml(status)}</span>`);
