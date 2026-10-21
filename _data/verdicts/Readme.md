@@ -10,6 +10,7 @@ main definition is here in this folder. The fields are:
 
 * **short**: a brief name of this verdict. <16 letters. Capitalization
 * **title**: a brief description of this verdict. <40 letters
+* **status**: the verdict as a short sentence for the Status row of the wallet page, where the card shows **short**
 * **message**: a longer summary of the verdict. <80 letters
 * **color**: css color
 * **redflag**: boolean. Show warning about potential for all users losing all funds at once or not. For Review footer "verdict explained".

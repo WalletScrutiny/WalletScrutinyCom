@@ -1,6 +1,7 @@
 meta: true
 short: Deprecated!
 title: App is Deprecated
+status: This product will be removed in the near future.
 color: '#d33100'
 redflag: true
 message: This product will be removed in the near future.

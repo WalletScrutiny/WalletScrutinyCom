@@ -1,6 +1,7 @@
 meta: true
 short: Discontinued
 title: Discontinued
+status: The provider discontinued this product.
 color: 'var(--indifferent, #3d506d)'
 message: The provider discontinued this product
 question: Is the product still for sale?

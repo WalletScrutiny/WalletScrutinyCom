@@ -1,6 +1,7 @@
 meta: true
 short: Stale!
 title: Not updated in a while
+status: Not updated in over a year.
 color: '#d33100'
 redflag: true
 message: This product did not get updated in over a year.

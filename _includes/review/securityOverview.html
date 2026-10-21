@@ -1,6 +1,6 @@
 {%- comment -%}
-  Review steps of a hardware, desktop or bearer page: platform meta warning,
-  tests, Build Verifications, Platform notes, then the links to the same wallet
+  Review steps of a hardware, desktop or bearer page: tests,
+  Build Verifications, Platform notes, then the links to the same wallet
   on other platforms and the review text itself.
   Parameters: platform, meta, verdict, wsId
 {%- endcomment -%}
@@ -9,7 +9,6 @@
 {% assign verdict = include.verdict %}
 <div class="security-overview">
   <div class="steps linked">
-    {% include_cached /review/steps/platformMeta.html meta=meta %}
     {% if verdict && meta %}
       {% include_cached /review/steps/tests.html meta=meta verdict=verdict platform=platform %}
     {% endif %}
