@@ -1,5 +1,6 @@
 short: DIY
 title: Do-It-Yourself Project
+status: A do-it-yourself project, not meant for non-technical users.
 color: 'var(--indifferent, #3d506d)'
 redflag: false
 message: This project is not meant for non-technical end users.

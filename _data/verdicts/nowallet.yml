@@ -1,5 +1,6 @@
 short: No Wallet
 title: Not a wallet
+status: Not a wallet for sending and receiving money.
 pass: This is an actual wallet
 color: 'var(--indifferent, #3d506d)'
 redflag: false

@@ -1,5 +1,6 @@
 short: Work In Progress
 title: Review is Work in Progress
+status: Our review is still in progress.
 color: 'var(--indifferent, #3d506d)'
 redflag: false
 message: We still have to analyze this product.

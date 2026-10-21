@@ -1,5 +1,6 @@
 short: Obfuscated!
 title: Obfuscated
+status: The app is obfuscated.
 color: '#d33100'
 redflag: true
 pass: We did not notice obfuscation.
