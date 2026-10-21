@@ -419,7 +419,7 @@ function renderStamp (key, text) {
   if (!v) return '';
   const title = (v.title || '').replace(/"/g, '&quot;');
   const color = v.color ? ` style="--verdict-color:${v.color}"` : '';
-  return `<span data-text="${text}" class="stamp stamp-${key}" title="${title}"${color} alt=""></span>`;
+  return `<span data-text="${text}" class="stamp stamp-${key}" title="${title}"${color}></span>`;
 }
 
 function shouldShowVerdictStamp (verdict, meta) {
@@ -509,7 +509,7 @@ function getWalletVerificationHtmlForPlatform (wallet, platform) {
   if (verdict !== 'sourceavailable' || !appId) return '';
   const status = getLastVerificationStatusForAppId(appId, platform);
   if (!status) {
-    return '<span>❓ Not verified yet</span>';
+    return '<span>❌ Not verifiable</span>';
   }
   return `<span>${(status === 'reproducible' ? '✅ ' : '❌ ') + getStatusText(status, true)}</span>`;
 }
@@ -522,7 +522,7 @@ function getWalletVerificationLinesHtml (wallet, platformFilter) {
     const status = getLastVerificationStatusForAppId(appId, platform);
     const prefix = label ? `${label}: ` : '';
     if (!status) {
-      lines.push(`<span>${prefix}❓ Not verified yet</span>`);
+      lines.push(`<span>${prefix}❌ Not verifiable</span>`);
       return;
     }
     lines.push(`<span>${prefix}${(status === 'reproducible' ? '✅ ' : '❌ ') + getStatusText(status, true)}</span>`);
@@ -708,84 +708,78 @@ function getIcon (name) {
   return '';
 }
 
+// The header dropdown is rebuilt on every search, so its rows are kept
+// small: no test bars (the "Passed n of m tests" text says the same), no
+// template indentation, and the verdict stamps last.
+function getCompactTestsHtml (score) {
+  return score ? `<span>${getWalletScoreIconsHtml(score).text}</span>` : '';
+}
+
+function getCompactAlertStampsHtml (wallet) {
+  return (wallet.alertFeatures || []).map((f) =>
+    `<span data-text="${window.featureAlerts[f] || f}" class="stamp stamp-alert-feature" title="${window.featureAlertMessages[f] || 'This feature has custody implications'}"></span>`
+  ).join('');
+}
+
 function makeCompactResultsHTML (wallet, lazyLoad, platformFilter) {
   const faCollection = getWalletListIcon(wallet, platformFilter);
   const basePath = wallet.base_path || '';
   const analysisUrl = `${basePath}${wallet.url}`;
   const listPlatform = platformFilter && platformFilter !== 'allPlatforms' ? platformFilter : false;
 
-  let scoreHTML = '';
-  const scoreBlock = getWalletScoreBlockHtml(wallet, listPlatform);
-  if (scoreBlock) {
-    const primaryScore = wallet.score || wallet.scoreAndroid || wallet.scoreIphone;
-    const num = primaryScore?.numerator ?? 0;
-    const den = primaryScore?.denominator ?? 0;
-    scoreHTML = `<div class="tests-passed" data-numerator="${num}" data-denominator="${den}">
-      ${scoreBlock}
-    </div>`;
-  }
-
   const platforms = walletPlatformSections(wallet, listPlatform);
-  const usePlatformSections = shouldUseWalletPlatformSections(wallet, platforms, listPlatform);
   let statsHTML = '';
 
-  if (usePlatformSections) {
+  if (shouldUseWalletPlatformSections(wallet, platforms, listPlatform)) {
     const shared = getWalletSharedStampsHtml(wallet);
     const sections = platforms.map((p) => {
       const score = p === 'android' ? wallet.scoreAndroid : wallet.scoreIphone;
-      const stamps = getWalletPlatformVerdictStampsHtml(wallet, p);
-      const verificationHTML = wallet.archived ? '' : getWalletVerificationHtmlForPlatform(wallet, p);
-      let sectionScoreHTML = '';
-      if (score) {
-        const icons = getWalletScoreIconsHtml(score);
-        sectionScoreHTML = `<div class="tests-passed"><span>${icons.text}</span><div>${icons.passed}${icons.failed}</div></div>`;
-      }
-      return `
-        <div class="wallet-platform-row wallet-platform-row--compact">
-          <div class="wallet-platform-row__head">
-            ${getIcon(p)}
-            <span>${getPlatformStoreLabel(p)}</span>
-          </div>
-          ${stamps ? `<span class="stats-platform-stamps">${stamps}</span>` : ''}
-          ${verificationHTML}
-          ${sectionScoreHTML}
-        </div>`;
+      // meta before verdict, so the verdict stays last even when they wrap
+      const stamps = renderWalletPlatformMetaStamp(wallet, p) +
+        renderVerdictStamp(p === 'android' ? wallet.verdictAndroid : wallet.verdictIphone, null, getWalletPlatformMeta(wallet, p));
+      return '<div class="wallet-platform-row wallet-platform-row--compact">' +
+        `<div class="wallet-platform-row__head">${getIcon(p)}<span>${getPlatformStoreLabel(p)}</span></div>` +
+        (wallet.archived ? '' : getWalletVerificationHtmlForPlatform(wallet, p)) +
+        getCompactTestsHtml(score) +
+        (stamps ? `<span class="stats-platform-stamps">${stamps}</span>` : '') +
+        '</div>';
     }).join('');
-    statsHTML = `
-      <span class="stats stats--by-platform">
-        ${shared ? `<span class="stats-shared">${shared}</span>` : ''}
-        ${sections}
-      </span>`;
+    statsHTML = `<span class="stats stats--by-platform">${shared ? `<span class="stats-shared">${shared}</span>` : ''}${sections}</span>`;
   } else {
-    const verificationHTML = getWalletVerificationLinesHtml(wallet, platformFilter);
-    statsHTML = `
-      <span class="stats">
-        ${wallet.archived ? '<span class="stamp stamp-archived">Wallet Archived</span>' : ''}
-        ${getWalletVerdictStampsHtml(wallet, listPlatform)}
-        ${wallet.meta && wallet.meta !== 'ok'
-          ? renderStamp(wallet.meta, window.verdicts[wallet.meta].short)
-          : ''}
-        ${wallet.archived ? '' : verificationHTML}
-        ${wallet.alertFeatures && wallet.alertFeatures.length > 0
-          ? wallet.alertFeatures.map(f => `<span data-text="${window.featureAlerts[f] || f}" class="stamp stamp-alert-feature" title="${window.featureAlertMessages[f] || 'This feature has custody implications'}" alt=""></span>`).join('')
-          : ''}
-        ${scoreHTML}
-      </span>`;
+    let testsHTML = '';
+    if (wallet.scoreAndroid || wallet.scoreIphone) {
+      const scoreAndroid = listPlatform !== 'iphone' ? wallet.scoreAndroid : null;
+      const scoreIphone = listPlatform !== 'android' ? wallet.scoreIphone : null;
+      const dual = wallet.verdictAndroid && wallet.verdictIphone && wallet.verdictAndroid !== wallet.verdictIphone;
+      if (scoreAndroid && scoreIphone && scoresAreEqual(scoreAndroid, scoreIphone)) {
+        testsHTML = getCompactTestsHtml(scoreAndroid);
+      } else {
+        const label = (name) => (dual ? `${name}: ` : '');
+        testsHTML = [
+          scoreAndroid ? `<span>${label('Android')}${getWalletScoreIconsHtml(scoreAndroid).text}</span>` : '',
+          scoreIphone ? `<span>${label('iPhone')}${getWalletScoreIconsHtml(scoreIphone).text}</span>` : '',
+        ].join('');
+      }
+    } else {
+      testsHTML = getCompactTestsHtml(wallet.score);
+    }
+    statsHTML = '<span class="stats">' +
+      (wallet.archived ? '' : getWalletVerificationLinesHtml(wallet, platformFilter)) +
+      testsHTML +
+      (wallet.archived ? '<span class="stamp stamp-archived">Wallet Archived</span>' : '') +
+      getCompactAlertStampsHtml(wallet) +
+      (wallet.meta && wallet.meta !== 'ok' ? renderStamp(wallet.meta, window.verdicts[wallet.meta].short) : '') +
+      getWalletVerdictStampsHtml(wallet, listPlatform) +
+      '</span>';
   }
 
   const url = wallet.archived ? '/archived/?appId=' + wallet.appId + '&platform=' + wallet.folder : analysisUrl;
-  return [
-    `<a class="result-pl-inner ${wallet.meta}" onclick="window.location.href = '${url}';" href='${url}'>`,
-      `<div class="icon-wrapper"><img src='${basePath}/images/${wallet.icon ? `wIcons/${getWalletIconFolder(wallet)}/small/${wallet.icon}` : 'noimg.svg'}' class='wallet-icon' ${lazyLoad ? 'loading="lazy"' : ''} /></div>`,
-      '<span class="result-title-wrapper">',
-        `<span>${wallet.altTitle || wallet.title}</span>`,
-        '<small>',
-          `<span class="category">${faCollection}&nbsp;<span> ${getWalletListCategory(wallet, platformFilter)}</span></span>`,
-        '</small>',
-      '</span>',
-      statsHTML,
-    '</a>'
-  ].join('');
+  return `<a class="result-pl-inner ${wallet.meta}" onclick="window.location.href = '${url}';" href="${url}">` +
+    `<div class="icon-wrapper"><img src="${basePath}/images/${wallet.icon ? `wIcons/${getWalletIconFolder(wallet)}/small/${wallet.icon}` : 'noimg.svg'}" class="wallet-icon"${lazyLoad ? ' loading="lazy"' : ''}></div>` +
+    `<span class="result-title-wrapper"><span>${wallet.altTitle || wallet.title}</span>` +
+    `<small><span class="category">${faCollection}&nbsp;<span> ${getWalletListCategory(wallet, platformFilter)}</span></span></small></span>` +
+    statsHTML +
+    '</a>';
 }
 
 function searchScrollToTop () {

@@ -31,6 +31,28 @@ test.describe('Navbar search', () => {
     assertNoConsoleErrors();
   });
 
+  test('result cards show no test bars and end each platform with its verdict', async ({ page }, testInfo) => {
+    const assertNoConsoleErrors = attachConsoleGuards(testInfo, page);
+
+    await page.goto('/assets/');
+    await waitForVerificationsUi(page);
+    await waitForLoadingSpinnerHidden(page);
+
+    await page.locator('.searchbar').fill('bluewallet');
+    await waitForSearchControlsIdle(page);
+
+    const results = page.locator('.results-target');
+    const rows = results.locator('.wallet-platform-row--compact');
+    await expect(rows).toHaveCount(2);
+    await expect(results.locator('.pass, .fail')).toHaveCount(0);
+    await expect(results).toContainText(/Passed all\s+\d+ tests/);
+    await expect(results).not.toContainText('Not verified yet');
+    const lastChildren = await rows.evaluateAll((els) => els.map((el) => el.lastElementChild.className));
+    expect(lastChildren).toEqual(['stats-platform-stamps', 'stats-platform-stamps']);
+
+    assertNoConsoleErrors();
+  });
+
   test('shows no matches message for nonsense queries', async ({ page }, testInfo) => {
     const assertNoConsoleErrors = attachConsoleGuards(testInfo, page);
 
