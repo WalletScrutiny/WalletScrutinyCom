@@ -26,12 +26,34 @@
       A third party maintains its <a href="https://github.com/flathub/{{ fh_id }}" target="_blank" rel="noopener noreferrer">Flathub manifest</a>. They can change which file it downloads, and its sha256, in a pull request. Only Flathub's review stands between that change and your computer.
     </div>
     {%- endunless %}
+    {%- assign fh_sample = site.data.distribution_check_fixtures[fh.channel][fh.id] -%}
+    <div class="distribution-checks" data-store="Flathub" data-id="{{ fh_id }}" data-baseurl="{{ site.baseurl | escape }}">
+      {%- if site.distribution_check_fixtures and fh_sample %}
+      <script type="application/json">{"sample": true, "checks": {{ fh_sample | jsonify | replace: "<", "\u003c" }}}</script>
+      {%- endif %}
+      <div class="distribution-status">
+        <p class="distribution-result distribution-tone-none">Not checked by WalletScrutiny yet.</p>
+        <p class="distribution-nojs">Our results need JavaScript. You can still check it yourself, below.</p>
+      </div>
+      <form id="distribution-lookup-{{ include.n }}" class="distribution-version-lookup" hidden>
+        <h4>Which version do you have?</h4>
+        <label for="distribution-info-{{ include.n }}">Run <code>flatpak info {{ fh_id }}</code> and paste its output, or just its <code>Commit:</code> line:</label>
+        <textarea id="distribution-info-{{ include.n }}" name="flatpakInfo" rows="3" maxlength="20000" autocomplete="off" spellcheck="false" placeholder="Commit: 64 hex characters"></textarea>
+        <button type="submit" class="btn btn-small btn-success">Look up</button>
+        <p class="distribution-lookup-error" role="alert" hidden></p>
+        <div class="distribution-version-picker">
+          <label for="distribution-version-{{ include.n }}">Installed it from GNOME Software or Discover? Pick the version it shows:</label>
+          <select id="distribution-version-{{ include.n }}"><option value="">Version</option></select>
+        </div>
+        <div class="distribution-lookup-output" aria-live="polite"></div>
+      </form>
+    </div>
     <p>
       <a href="https://flathub.org/apps/{{ fh_id }}" target="_blank" rel="noopener noreferrer"><code>{{ fh_id }}</code></a>
       {% if fh.publisher == 'developer' %}is published by the {{ fh_title }} developers, who maintain its <a href="https://github.com/flathub/{{ fh_id }}" target="_blank" rel="noopener noreferrer">Flathub manifest</a>.{% else %}is maintained by a third party.{% endif %}
       {%- case fh.type %}
       {%- when 'repackage' %}
-      Flathub does not compile it. It downloads the official <code>{{ fh_wraps }}</code>, checks its sha256 and copies the files unchanged, apart from stripping debug symbols. It is as trustworthy as that official file, as long as you trust Flathub's build service.
+      Flathub does not compile it. It downloads the official <code>{{ fh_wraps }}</code>, checks its sha256 and copies the files unchanged, apart from stripping debug symbols. "Matches" means the package contains the same files as that official file, so it is as trustworthy as that file, as long as you trust Flathub's build service. Nothing was built from source for this check.
       {%- when 'extra-data' %}
       Flathub ships only an installer. Your computer downloads the official <code>{{ fh_wraps }}</code> from the developer while installing and checks its sha256. It is as trustworthy as that official file.
       {%- else %}
@@ -39,6 +61,8 @@
       {%- endcase %}
     </p>
     {%- if fh.type == 'repackage' or fh.type == 'extra-data' %}
+    <details class="distribution-diy">
+      <summary>Don't trust us? Check it yourself</summary>
     <p>Which official file does your Flathub version use? This reads the hash from the signed package without installing it (about 60 KB):</p>
 <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak install --user --no-deploy --no-deps --no-related --subpath=/manifest.json flathub {{ fh_id }}
@@ -61,9 +85,11 @@ grep -rhF -A1 -- '{{ fh_needle }}' ~/.local/share/flatpak/repo/objects</code></p
       });
     </script>
     <p>If our verifications list that file as reproducible, your Flathub package contains that build. To check without trusting Flathub's build service, compare the installed files against the official download, as described in <a href="{{ site.baseurl }}/flathub/">How we check Flathub packages</a>.</p>
+    </details>
     {%- endif %}
   </div>
   <div class="data">
   </div>
 </div>
+<script src="{{ site.baseurl }}/assets/js/distribution-checks.js" defer></script>
 {%- endif -%}

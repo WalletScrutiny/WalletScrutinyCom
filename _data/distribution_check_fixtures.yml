@@ -1,0 +1,64 @@
+# SAMPLE check results, for reviewing the store-package step before real results exist.
+# Rendered only when the site config sets `distribution_check_fixtures: true`
+# (_config.preview.yml); production never shows them. The commits, versions and sha256s
+# are real Flathub data; the results and verdicts are made up to show every state.
+# Real results will come from WalletScrutiny-signed Nostr labels instead.
+flathub:
+  network.bisq.Bisq:
+  - commit: 1b2f946862e570352cc7945ade0d0f14cca64116ee9b8e23c237d63574e36de3
+    version: 1.10.9
+    checked: 2026-10-21
+    result: matches
+    file: Bisq-64bit-1.10.9.deb
+    sha256: 954aa4689f70cd2b773ef6d21d3aab3d5f5d2de4f69e19d64a49a31fdfdbd357
+    verdict: ftbfs
+  - commit: 6ce1c90858c91f951d9ab640c85f7787588357154b9b4ee108860703d2afe2df
+    version: 1.10.8
+    checked: 2026-09-18
+    result: matches
+    file: Bisq-64bit-1.10.8.deb
+    sha256: 8add3718343725adb5424c26c66496348fcf81a5b8e0d1b43b4af48c4863b1fb
+    verdict:
+  - commit: 97b5f3c113cd063abda478d7ff89028af97e46e4759ba573d0dd24bf6d8c7b67
+    version: 1.10.7
+    checked: 2026-08-27
+    result: differs
+    file: Bisq-64bit-1.10.7.deb
+    sha256: 3d18e920388c305dc0bf8ff7b099c4902500d17f880e296b6635084f6ef954e7
+    verdict:
+  - commit: 3f0da2c914c4d8f6d3d9b2c1143fad1d94cf6311ec9f53b3fa39152d77eccfaf
+    version: 1.10.6
+    checked: 2026-08-23
+    result: matches
+    file: Bisq-64bit-1.10.6.deb
+    sha256: 7a44e97b08da083e4dab8e2f901e7d76a856b91457391661d83109adf1a5b143
+    verdict: not_reproducible
+  org.bitcoincore.bitcoin-qt:
+  - commit: e00d49a1a644a1a5e7f812c9db00d8c5fe6f26353e31d9b4b1c50470e6bf63a2
+    version: '31.1'
+    checked: 2026-10-21
+    result: matches
+    file: bitcoin-31.1-x86_64-linux-gnu.tar.gz
+    sha256: b80d9c3e04da78fb6f0569685673418cf686fadba9042d926d13fb87ff503f9e
+    verdict: reproducible
+  - commit: c8478dd98358db0a57d80a6ced8ecd3b9cc714f2b18b6fc81dd17d44f692b710
+    version: '31.0'
+    checked: 2026-05-16
+    result: matches
+    file: bitcoin-31.0-x86_64-linux-gnu.tar.gz
+    sha256: d3e4c58a35b1d0a97a457462c94f55501ad167c660c245cb1ffa565641c65074
+    verdict: reproducible
+  - commit: f95ad62220357722bbb23eb9512c6728bda4668d5e20e2a9334190780069e42f
+    version: '31.0'
+    checked: 2026-04-22
+    result: matches
+    file: bitcoin-31.0-x86_64-linux-gnu.tar.gz
+    sha256: d3e4c58a35b1d0a97a457462c94f55501ad167c660c245cb1ffa565641c65074
+    verdict: reproducible
+  - commit: 7f5b15ed7de944abe6d1b472b44e096eb15c4258b52d50de3cc6dc74dcaa33fe
+    version: '30.2'
+    checked: 2026-01-11
+    result: matches
+    file: bitcoin-30.2-x86_64-linux-gnu.tar.gz
+    sha256: 6aa7bb4feb699c4c6262dd23e4004191f6df7f373b5d5978b5bcdd4bb72f75d8
+    verdict: reproducible

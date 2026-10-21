@@ -1,0 +1,4 @@
+# Review previews only: `--config _config.yml,_config.preview.yml`. Shows the sample
+# results in _data/distribution_check_fixtures.yml on store-package steps, labelled as
+# samples. Never deploy a build made with this file.
+distribution_check_fixtures: true

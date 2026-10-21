@@ -1122,3 +1122,113 @@ body.dark .flathub-community-badge {
   border-color: rgba(240, 173, 78, 0.35);
   color: #f5d08a;
 }
+
+.flathub-package .distribution-checks {
+  margin-bottom: 1em;
+
+  h4 {
+    margin: 1em 0 0.25em;
+  }
+
+  .distribution-sample-note {
+    display: inline-block;
+    padding: 1px 8px;
+    border: 1px dashed var(--border-color);
+    border-radius: 6px;
+    font-size: 0.85em;
+  }
+
+  .distribution-version-lookup[hidden],
+  .distribution-version-picker[hidden] {
+    display: none;
+  }
+
+  .distribution-version-lookup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+
+    label {
+      margin: 0;
+      font-size: inherit;
+    }
+
+    textarea {
+      width: 100%;
+      font-family: monospace;
+      font-size: 0.85em;
+    }
+
+    .btn {
+      margin-bottom: 0;
+    }
+  }
+
+  .distribution-version-picker {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .distribution-lookup-error {
+    color: #c62828;
+    margin: 0;
+  }
+}
+
+.flathub-package .distribution-result {
+  margin: 0.5em 0;
+  padding: 0.5em 0.75em;
+  border-left: 4px solid #9e9e9e;
+  border-radius: 4px;
+  background: rgba(158, 158, 158, 0.12);
+}
+
+.flathub-package .distribution-result.distribution-tone-good {
+  border-left-color: #2e7d32;
+  background: rgba(46, 125, 50, 0.12);
+}
+
+.flathub-package .distribution-result.distribution-tone-bad {
+  border-left-color: #c62828;
+  background: rgba(198, 40, 40, 0.1);
+}
+
+.flathub-package .distribution-result.distribution-tone-warn {
+  border-left-color: #f0ad4e;
+  background: rgba(240, 173, 78, 0.15);
+}
+
+.flathub-package .distribution-history {
+  display: table;
+  width: 100%;
+  font-size: 0.85em;
+
+  td.distribution-tone-good {
+    color: #2e7d32;
+  }
+
+  td.distribution-tone-bad {
+    color: #c62828;
+  }
+}
+
+body.dark .flathub-package .distribution-history td.distribution-tone-good {
+  color: #81c784;
+}
+
+body.dark .flathub-package .distribution-history td.distribution-tone-bad,
+body.dark .flathub-package .distribution-lookup-error {
+  color: #ef9a9a;
+}
+
+.flathub-package details.distribution-diy {
+  margin-top: 1em;
+
+  summary {
+    cursor: pointer;
+    font-weight: bold;
+  }
+}
