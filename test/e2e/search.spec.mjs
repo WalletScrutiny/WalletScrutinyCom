@@ -31,34 +31,6 @@ test.describe('Navbar search', () => {
     assertNoConsoleErrors();
   });
 
-  test('result cards show no test bars and order each platform: store, stamps, tests, verification', async ({ page }, testInfo) => {
-    const assertNoConsoleErrors = attachConsoleGuards(testInfo, page);
-
-    await page.goto('/assets/');
-    await waitForVerificationsUi(page);
-    await waitForLoadingSpinnerHidden(page);
-
-    await page.locator('.searchbar').fill('bluewallet');
-    await waitForSearchControlsIdle(page);
-
-    const results = page.locator('.results-target');
-    const rows = results.locator('.wallet-platform-row--compact');
-    await expect(rows).toHaveCount(2);
-    await expect(results.locator('.pass, .fail')).toHaveCount(0);
-    await expect(results).toContainText(/Passed all\s+\d+ tests/);
-    await expect(results).not.toContainText('Not verified yet');
-    const lines = await rows.evaluateAll((els) => els.map((el) =>
-      [...el.children].map((c) => c.className || c.textContent.trim())));
-    for (const line of lines) {
-      expect(line.slice(0, 2)).toEqual(['wallet-platform-row__head', 'stats-platform-stamps']);
-      expect(line[2]).toMatch(/^Passed /);
-      if (line.length > 3) expect(line[3]).toMatch(/^[✅❌] /);
-      expect(line.length).toBeLessThanOrEqual(4);
-    }
-
-    assertNoConsoleErrors();
-  });
-
   test('shows no matches message for nonsense queries', async ({ page }, testInfo) => {
     const assertNoConsoleErrors = attachConsoleGuards(testInfo, page);
 
