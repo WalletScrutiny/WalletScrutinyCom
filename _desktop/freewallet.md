@@ -5,7 +5,7 @@ authors:
 - danny
 released: 2017-10-13
 discontinued: 
-updated: 2025-02-04
+updated: 2025-08-01
 version: 2.0.4
 binaries: 
 provider: J-Dog
@@ -20,7 +20,11 @@ date: 2025-08-01
 twitter: FreeWallet
 social:
 - https://www.facebook.com/freewallet.io
-builds: 
+builds:
+- arch: x86_64-linux-gnu
+  types:
+    tarball:
+    - FreeWallet.linux64.tgz
 features:
 - fingerprint
 - foss
