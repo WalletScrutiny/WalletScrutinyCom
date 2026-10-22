@@ -377,8 +377,8 @@ body.dark .bv-panel {
 
 .bv-file__hash-text {
   font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
-  font-size: $font-xs;
-  color: var(--neutral-2);
+  font-size: inherit;
+  color: var(--neutral-3);
   background: none;
   padding: 0;
 }
@@ -502,8 +502,9 @@ body.dark .bv-panel {
     margin-left: 14px;
   }
 
-  // phones: let a long description wrap onto a second line before the ellipsis
+  // phones: one step smaller, and a long description wraps onto a second line before the ellipsis
   .bv-build__description {
+    font-size: $font-xs;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
