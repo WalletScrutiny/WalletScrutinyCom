@@ -76,11 +76,6 @@ export function buildAttachmentVerificationMetaHtml(options) {
   return htmlOf(createAttachmentVerificationMeta(options));
 }
 
-/** Preview body as a text node inside <pre>. Do not pass Nostr attachment bytes through innerHTML. */
-export function createAttachmentPreviewNode(textContent) {
-  return el('pre', { style: { margin: '0', overflow: 'visible' } }, textContent ?? '');
-}
-
 function decodeAttachmentContent(rawContent) {
   return atob(rawContent);
 }
@@ -180,17 +175,17 @@ function buildAttachmentListItems(verificationAttachments) {
         el('small', {}, `${attachmentInfo.sizeInKb} kB`),
         el('button', {
           type: 'button',
-          className: 'verification-modal-file__download js-attachment-download',
-          title: `Download ${attachmentInfo.filename ?? ''}`,
-          dataset: { attachmentId: attachmentId ?? '' },
-          html: wsIcon('download'),
-        }),
-        el('button', {
-          type: 'button',
           className: 'verification-modal-file__download js-attachment-preview',
           title: `Preview ${attachmentInfo.filename ?? ''}`,
           dataset: { attachmentId: attachmentId ?? '' },
           html: wsIcon('eye'),
+        }),
+        el('button', {
+          type: 'button',
+          className: 'verification-modal-file__download js-attachment-download',
+          title: `Download ${attachmentInfo.filename ?? ''}`,
+          dataset: { attachmentId: attachmentId ?? '' },
+          html: wsIcon('download'),
         }),
       ));
     }
@@ -361,7 +356,8 @@ export function registerAttachmentHandlers() {
     modal.style.display = 'block';
   };
 
-  window.handleAttachmentPreview = function(attachmentId) {
+  /** A script opens in the build log viewer, as plain text; the viewer is its own chunk. */
+  window.handleAttachmentPreview = function(attachmentId, openedFrom = null) {
     const attachmentData = getAttachmentEntry(attachmentId);
     const textContent = getDecodedContent(attachmentData);
 
@@ -371,59 +367,12 @@ export function registerAttachmentHandlers() {
       return;
     }
 
-    const modal = document.getElementById('attachmentPreviewModal');
-    const previewContent = document.getElementById('previewContent');
-    const previewFileName = document.getElementById('previewFileName');
-    const closeButton = document.getElementById('previewCloseButton');
-    const copyButton = document.getElementById('previewCopyButton');
-
-    previewFileName.textContent = attachmentData.filename;
-    previewContent.replaceChildren();
-
-    try {
-      previewContent.replaceChildren(createAttachmentPreviewNode(textContent));
-
-      closeButton.onclick = function() {
-        modal.style.display = 'none';
-      };
-
-      copyButton.onclick = function() {
-        navigator.clipboard.writeText(textContent).then(() => {
-          const originalIcon = copyButton.textContent;
-          copyButton.textContent = '✓';
-          copyButton.style.color = '#4CAF50';
-          showToast('Copied to clipboard!', 'success');
-          setTimeout(() => {
-            copyButton.textContent = originalIcon;
-            copyButton.style.color = '#555';
-          }, 1500);
-        }).catch(err => {
-          console.error('Failed to copy text: ', err);
-          showToast('Failed to copy to clipboard', 'error');
-        });
-      };
-
-      modal.onclick = function(event) {
-        if (event.target === modal) {
-          closeButton.onclick();
-        }
-      };
-
-      modal.style.display = 'flex';
-      previewContent.scrollTop = 0;
-      previewContent.scrollLeft = 0;
-
-      const handleKeyDown = function(event) {
-        if (event.key === 'Escape') {
-          closeButton.onclick();
-          window.removeEventListener('keydown', handleKeyDown);
-        }
-      };
-      window.addEventListener('keydown', handleKeyDown);
-    } catch (error) {
-      console.error('Error creating preview:', error);
-      showToast('Error creating preview.', 'error');
-    }
+    import(/* webpackChunkName: "build-log-viewer" */ './build-log-viewer.mjs')
+      .then(module => module.openTextFileViewer({ text: textContent, fileName: attachmentData.filename }, openedFrom))
+      .catch((error) => {
+        console.error('Error creating preview:', error);
+        showToast('Error creating preview.', 'error');
+      });
   };
 
   if (!window.__wsAttachmentUiDelegationRegistered) {
@@ -438,7 +387,7 @@ export function registerAttachmentHandlers() {
       const previewEl = event.target.closest('.js-attachment-preview');
       if (previewEl) {
         event.preventDefault();
-        window.handleAttachmentPreview(previewEl.dataset.attachmentId || '');
+        window.handleAttachmentPreview(previewEl.dataset.attachmentId || '', previewEl);
       }
     });
   }

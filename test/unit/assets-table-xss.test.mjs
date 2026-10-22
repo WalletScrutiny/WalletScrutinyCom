@@ -36,8 +36,8 @@ import {
   buildAttachmentVerificationMetaHtml,
   createAttachmentRowActions,
   createAttachmentVerificationMeta,
-  createAttachmentPreviewNode,
 } from '../../src/assets-table-attachments.mjs';
+import { renderTextLine } from '../../src/build-log-viewer.mjs';
 import { verificationKind } from '../../src/nostr-constants.mjs';
 import { HASH_A, HASH_B, HASH_D, HASH_E, makeEvent } from './fixtures.mjs';
 import {
@@ -652,12 +652,8 @@ describe('attachment HTML builders — ids/names/meta must not break handlers or
   });
 
   test('attachment preview keeps HTML tags as text, not DOM nodes', () => {
-    const node = createAttachmentPreviewNode(
-      `echo ok\n${HTML_TAG_PAYLOAD}\n<a href="https://evil.example">click</a>`,
-    );
-    assert.equal(node.tagName, 'PRE');
-    assert.equal(node.style.margin, '0');
-    assert.equal(node.style.overflow, 'visible');
+    const node = renderTextLine(`echo ok ${HTML_TAG_PAYLOAD} <a href="https://evil.example">click</a>`);
+    assert.equal(node.className, 'build-log-line');
     assert.equal(node.querySelectorAll('img, a, script').length, 0);
     assert.match(node.textContent, /onerror/);
     assert.match(node.textContent, /<a href="https:\/\/evil\.example">click<\/a>/);

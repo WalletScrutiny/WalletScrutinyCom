@@ -1,6 +1,7 @@
 /* The build log: the terminal-window button in a verification that opens it, and the
-   full-screen viewer (src/build-log-viewer.mjs). The viewer is a terminal, so it is dark
-   in both themes; the colours are the Android app's compilation log palette. */
+   viewer (src/build-log-viewer.mjs) that shows it and the scripts used to reproduce.
+   The viewer is a terminal, so it is dark in both themes; the colours are the Android
+   app's compilation log palette. */
 
 /* --- The button: a compact dark pill with a terminal icon, sized like the other small buttons. --- */
 .build-log-button {
@@ -42,19 +43,42 @@
   .build-log-button { transition: none; }
 }
 
-/* --- The viewer: full screen, a bar on top, the lines below, the jump button over them. --- */
+/* --- The viewer: a bar on top, the lines below, the jump button over them. Full screen
+   on a phone; on a wider screen a large panel over the dimmed page. --- */
 .build-log-viewer {
   display: none;
   position: fixed;
   inset: 0;
   z-index: 10010;
-  flex-direction: column;
-  background: #0f1117;
-  color: #d6dbe8;
   overscroll-behavior: contain;
 }
 .build-log-viewer.is-open {
   display: flex;
+}
+.build-log-panel {
+  position: relative;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background: #0f1117;
+  color: #d6dbe8;
+}
+@media screen and (min-width: 769px) {
+  .build-log-viewer {
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .build-log-panel {
+    flex: 0 1 auto;
+    width: 95%;
+    max-width: 1200px;
+    height: 85vh;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+  }
 }
 
 .build-log-header {
@@ -68,7 +92,8 @@
   border-bottom: 1px solid #262c3a;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
 }
-.build-log-close {
+.build-log-close,
+.build-log-copy {
   flex: 0 0 auto;
   display: inline-flex;
   align-items: center;
@@ -85,9 +110,14 @@
   cursor: pointer;
 }
 .build-log-close:hover,
-.build-log-close:focus-visible {
+.build-log-close:focus-visible,
+.build-log-copy:hover,
+.build-log-copy:focus-visible {
   background: rgba(255, 255, 255, 0.08);
   outline: none;
+}
+.build-log-copy[hidden] {
+  display: none;
 }
 .build-log-heading {
   flex: 1 1 auto;

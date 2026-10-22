@@ -1,11 +1,13 @@
 /**
- * The build log viewer: the build server's recording of a build, shown as the log a
- * terminal would have printed - the whole of it at once, in monospace, the way a reader
- * checking a verdict wants it. Full screen over the verification it belongs to; closing
- * returns there. A round button at the bottom right jumps to the end of the log, where
- * the build's outcome is, instead of a long scroll.
+ * The file viewer of a verification: its build log and the scripts used to reproduce it.
+ * A build log is the build server's recording of a build, shown as the log a terminal
+ * would have printed - the whole of it at once, in monospace, the way a reader checking a
+ * verdict wants it. A script is shown the same way, as plain text. Full screen on a phone
+ * and a large panel over the page on a wider screen; closing returns to the verification.
+ * A round button at the bottom right jumps to the end, where a build's outcome is,
+ * instead of a long scroll.
  *
- * The recording is downloaded only once the viewer is opened, by the hash the
+ * A recording is downloaded only once the viewer is opened, by the hash the
  * verification names, and is not shown unless it hashes to that.
  *
  * The web twin of the Android app's CompilationLogActivity. Loaded lazily from
@@ -26,6 +28,8 @@ let viewer = null;
 /** Bumped on every open and close so a download that outlives its viewer does nothing. */
 let session = 0;
 let opener = null;
+/** The text the copy button copies, made when it is clicked: a build log can be long. */
+let copyText = null;
 
 function formatBytes(bytes) {
   if (bytes >= 1024 * 1024) {
@@ -53,13 +57,22 @@ function ensureViewer() {
     title: 'Close',
     html: wsIcon('chevron-left'),
   });
-  const title = el('h2', { id: 'buildLogViewerTitle', className: 'build-log-title' }, 'Build log');
+  const title = el('h2', { id: 'buildLogViewerTitle', className: 'build-log-title' });
   const subtitle = el('p', { className: 'build-log-subtitle' });
   const meta = el('p', { className: 'build-log-meta' });
+  const copy = el('button', {
+    type: 'button',
+    className: 'build-log-copy',
+    'aria-label': 'Copy to clipboard',
+    title: 'Copy to clipboard',
+    hidden: true,
+    html: wsIcon('copy'),
+  });
   const header = el('header', { className: 'build-log-header' },
     close,
     el('div', { className: 'build-log-heading' }, title, subtitle),
     meta,
+    copy,
   );
 
   const notice = el('p', { className: 'build-log-notice', hidden: true },
@@ -82,17 +95,24 @@ function ensureViewer() {
     html: wsIcon('arrow-down'),
   });
 
+  const panel = el('div', { className: 'build-log-panel' }, header, notice, body, state, jump);
   const root = el('div', {
     id: BUILD_LOG_VIEWER_ID,
     className: 'build-log-viewer',
     role: 'dialog',
     'aria-modal': 'true',
     'aria-labelledby': 'buildLogViewerTitle',
-  }, header, notice, body, state, jump);
+  }, panel);
 
   // The verification modal closes on any click outside its panel and on Escape; the
-  // viewer sits outside that panel, so its events must not reach the window.
-  root.addEventListener('click', event => event.stopPropagation());
+  // viewer sits outside that panel, so its events must not reach the window. A click
+  // beside the viewer's own panel, on a wide screen, closes it.
+  root.addEventListener('click', (event) => {
+    event.stopPropagation();
+    if (event.target === root) {
+      closeBuildLogViewer();
+    }
+  });
   window.addEventListener('keydown', (event) => {
     if (event.key === 'Escape' && root.classList.contains('is-open')) {
       event.stopPropagation();
@@ -102,6 +122,17 @@ function ensureViewer() {
   }, true);
 
   close.addEventListener('click', () => closeBuildLogViewer());
+  copy.addEventListener('click', () => {
+    if (!copyText) {
+      return;
+    }
+    navigator.clipboard.writeText(copyText())
+      .then(() => window.showToast?.(viewer.hash ? 'Build log copied to clipboard' : 'Script content copied to clipboard', 'success'))
+      .catch((error) => {
+        console.error('Failed to copy text:', error);
+        window.showToast?.('Failed to copy to clipboard', 'error');
+      });
+  });
   jump.addEventListener('click', () => {
     body.scrollTop = body.scrollHeight;
     body.focus({ preventScroll: true });
@@ -110,7 +141,7 @@ function ensureViewer() {
   window.addEventListener('resize', () => updateJump());
 
   document.body.appendChild(root);
-  viewer = { root, close, subtitle, meta, notice, body, lines, state, stateText, spinner, retry, jump, hash: '' };
+  viewer = { root, close, title, subtitle, meta, copy, notice, body, lines, state, stateText, spinner, retry, jump, hash: '' };
   retry.addEventListener('click', () => {
     if (viewer.hash) {
       void load(viewer.hash, ++session);
@@ -193,9 +224,42 @@ function nextFrame() {
 }
 
 /**
- * The recording's text as lines in the viewer. Lines are added a chunk per frame so a
- * long log does not freeze the page while the first screen is already readable.
+ * Lines in the viewer, `renderLine` making each one's element. They are added a chunk
+ * per frame so a long log does not freeze the page while the first screen is already
+ * readable.
  */
+async function renderLines(lines, renderLine, mySession) {
+  viewer.meta.textContent = `${lines.length.toLocaleString()} lines`;
+  viewer.lines.replaceChildren();
+  viewer.copy.hidden = false;
+  showLines();
+  for (let start = 0; start < lines.length; start += RENDER_CHUNK) {
+    if (mySession !== session) {
+      return;
+    }
+    const fragment = document.createDocumentFragment();
+    const end = Math.min(start + RENDER_CHUNK, lines.length);
+    for (let i = start; i < end; i++) {
+      fragment.appendChild(renderLine(lines[i]));
+    }
+    viewer.lines.appendChild(fragment);
+    updateJump();
+    if (end < lines.length) {
+      await nextFrame();
+    }
+  }
+  viewer.body.focus({ preventScroll: true });
+}
+
+/** A plain text line, as a text node: a script's bytes never go through innerHTML. */
+export function renderTextLine(text, doc = document) {
+  const element = doc.createElement('div');
+  element.className = 'build-log-line';
+  element.textContent = text;
+  return element;
+}
+
+/** The recording's text as the lines a terminal would have shown. */
 async function render(text, mySession) {
   const recording = parseAsciicast(text);
   const terminal = new TerminalLines();
@@ -213,25 +277,8 @@ async function render(text, mySession) {
   }
 
   viewer.notice.hidden = !terminal.cursorMoved;
-  viewer.meta.textContent = `${lines.length.toLocaleString()} lines`;
-  viewer.lines.replaceChildren();
-  showLines();
-  for (let start = 0; start < lines.length; start += RENDER_CHUNK) {
-    if (mySession !== session) {
-      return;
-    }
-    const fragment = document.createDocumentFragment();
-    const end = Math.min(start + RENDER_CHUNK, lines.length);
-    for (let i = start; i < end; i++) {
-      fragment.appendChild(renderTerminalLine(lines[i]));
-    }
-    viewer.lines.appendChild(fragment);
-    updateJump();
-    if (end < lines.length) {
-      await nextFrame();
-    }
-  }
-  viewer.body.focus({ preventScroll: true });
+  copyText = () => lines.map(line => line.toString()).join('\n');
+  await renderLines(lines, line => renderTerminalLine(line), mySession);
 }
 
 async function load(hash, mySession) {
@@ -266,6 +313,26 @@ async function load(hash, mySession) {
   }
 }
 
+/** The viewer, emptied and open with this title and subtitle; the caller fills it. */
+function openViewer({ title, subtitle = '', subtitleTitle = '' }, openedFrom) {
+  const v = ensureViewer();
+  opener = openedFrom ?? document.activeElement;
+  v.hash = '';
+  copyText = null;
+  v.title.textContent = title;
+  v.subtitle.textContent = subtitle;
+  v.subtitle.title = subtitleTitle;
+  v.meta.textContent = '';
+  v.copy.hidden = true;
+  v.notice.hidden = true;
+  v.lines.replaceChildren();
+  v.body.scrollTop = 0;
+  v.root.classList.add('is-open');
+  updateJump();
+  v.close.focus({ preventScroll: true });
+  return v;
+}
+
 /**
  * Open the viewer on the recording with this Blossom hash.
  *
@@ -278,20 +345,33 @@ export function openBuildLogViewer({ hash, subject = '', fileName = '' }, opened
   if (!isSha256Hex(hash)) {
     return false;
   }
-  const v = ensureViewer();
-  opener = openedFrom ?? document.activeElement;
+  const v = openViewer({ title: 'Build log', subtitle: subject, subtitleTitle: fileName }, openedFrom);
   v.hash = hash;
-  v.subtitle.textContent = subject;
-  v.subtitle.title = fileName;
-  v.meta.textContent = '';
-  v.notice.hidden = true;
-  v.lines.replaceChildren();
-  v.body.scrollTop = 0;
-  v.root.classList.add('is-open');
-  updateJump();
-  v.close.focus({ preventScroll: true });
   void load(hash, ++session);
   return true;
+}
+
+/**
+ * Open the viewer on a text file the page already has, such as a script used to
+ * reproduce a build.
+ *
+ * @param {{ text: string, fileName?: string }} options `fileName` is the title in the bar
+ * @param {Element} [openedFrom] gets the focus back on close
+ */
+export function openTextFileViewer({ text, fileName = '' }, openedFrom = null) {
+  openViewer({ title: fileName || 'File' }, openedFrom);
+  const content = String(text ?? '');
+  const lines = content.split(/\r?\n/);
+  // A file that ends with a newline leaves an empty last line; it is not content.
+  if (lines.length > 1 && lines[lines.length - 1].length === 0) {
+    lines.pop();
+  }
+  if (lines.length === 1 && lines[0].length === 0) {
+    showState('The file is empty.');
+    return;
+  }
+  copyText = () => content;
+  void renderLines(lines, line => renderTextLine(line), ++session);
 }
 
 export function closeBuildLogViewer() {
@@ -299,6 +379,7 @@ export function closeBuildLogViewer() {
     return;
   }
   session++;
+  copyText = null;
   viewer.root.classList.remove('is-open');
   viewer.lines.replaceChildren();
   viewer.jump.classList.remove('is-visible');

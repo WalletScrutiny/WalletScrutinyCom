@@ -139,39 +139,39 @@ test.describe('ZEUS verification detail page', () => {
     });
 
     await test.step('Script preview works fine', async () => {
+      // Scripts open in the build log viewer, as plain text.
       const previewButton = content.locator('[title="Preview zeus_build.sh"]');
-      const previewModal = page.locator('#attachmentPreviewModal');
+      const viewer = page.locator('#buildLogViewer');
 
       await previewButton.click();
-      await expect.soft(previewModal).toBeVisible({ timeout: 30_000 });
-      await expect.soft(page.locator('#previewFileName')).toHaveText('zeus_build.sh');
-      await expect.soft(page.locator('#previewContent')).toContainText('SCRIPT_VERSION="v0.2.13"');
+      await expect.soft(viewer).toBeVisible({ timeout: 30_000 });
+      await expect.soft(viewer.locator('.build-log-title')).toHaveText('zeus_build.sh');
+      await expect.soft(viewer.locator('.build-log-lines')).toContainText('SCRIPT_VERSION="v0.2.13"');
+      await expect.soft(viewer.locator('.build-log-copy')).toBeVisible();
 
-      const previewScrollState = await page.evaluate(() => {
-        const overlay = document.getElementById('attachmentPreviewModal');
-        const panel = overlay?.firstElementChild;
-        const preview = document.getElementById('previewContent');
+      // Desktop: a panel over the dimmed page, not full screen, and only the lines scroll.
+      const layout = await page.evaluate(() => {
+        const root = document.getElementById('buildLogViewer');
+        const panel = root.querySelector('.build-log-panel');
+        const body = root.querySelector('.build-log-body');
+        const rect = panel.getBoundingClientRect();
         return {
-          overlayOverflowY: overlay ? getComputedStyle(overlay).overflowY : null,
-          panelOverflowY: panel ? getComputedStyle(panel).overflowY : null,
-          previewOverflowY: preview ? getComputedStyle(preview).overflowY : null,
-          overlayScrollable: overlay ? overlay.scrollHeight > overlay.clientHeight + 1 : null,
-          panelScrollable: panel ? panel.scrollHeight > panel.clientHeight + 1 : null,
+          panelWidth: rect.width,
+          panelHeight: rect.height,
+          bodyOverflowY: getComputedStyle(body).overflowY,
+          panelScrollable: panel.scrollHeight > panel.clientHeight + 1,
         };
       });
-      expect.soft(previewScrollState.overlayOverflowY).toBe('hidden');
-      expect.soft(previewScrollState.panelOverflowY).toBe('hidden');
-      expect.soft(previewScrollState.previewOverflowY).toBe('auto');
-      expect.soft(previewScrollState.overlayScrollable).toBe(false);
-      expect.soft(previewScrollState.panelScrollable).toBe(false);
+      const viewport = page.viewportSize();
+      expect.soft(layout.panelWidth).toBeLessThan(viewport.width);
+      expect.soft(layout.panelHeight).toBeLessThan(viewport.height);
+      expect.soft(layout.bodyOverflowY).toBe('auto');
+      expect.soft(layout.panelScrollable).toBe(false);
 
-      await page.evaluate(() => {
-        const preview = document.getElementById('attachmentPreviewModal');
-        if (preview) {
-          preview.style.display = 'none';
-        }
-      });
-      await expect.soft(previewModal).toBeHidden();
+      // A click beside the panel closes the viewer and leaves the verification open.
+      await page.mouse.click(5, 5);
+      await expect.soft(viewer).toBeHidden();
+      await expect(modal).toBeVisible();
     });
 
     await test.step('The report comes last', async () => {
