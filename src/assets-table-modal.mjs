@@ -945,8 +945,10 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     }
   }
 
+  /* Earlier attempts that all reached the same verdict add nothing, so list them only when one differs. */
+  const otherAttemptsDiffer = otherVerificationsBySamePubkey.some(a => getFirstTagValue(a, 'status') !== status);
   let otherVerificationsHTML = '';
-  for (const otherVerification of otherVerificationsBySamePubkey) {
+  for (const otherVerification of otherAttemptsDiffer ? otherVerificationsBySamePubkey : []) {
     const otherStatus = getFirstTagValue(otherVerification, 'status');
     otherVerificationsHTML += htmlOf(el('li', { className: 'verification-modal-attempt' },
       el('span', {

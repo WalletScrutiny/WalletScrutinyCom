@@ -225,7 +225,8 @@ function openVerificationFromDirectFetch(verification, verificationId, effective
 /**
  * A modal opened from the direct fetch lacks the "other attempts by this
  * verifier" list, which comes from the table maps. Re-render once when the maps
- * arrive, but only if that list is non-empty and the user has not scrolled yet.
+ * arrive, but only if that list would show (an attempt with another verdict)
+ * and the user has not scrolled yet.
  */
 function maybeRefreshDirectlyOpenedModal(assetInfo, verificationId) {
   if (!openedFromDirectFetch || refreshedAfterDirectOpen || !isVerificationModalVisible()) {
@@ -243,7 +244,9 @@ function maybeRefreshDirectlyOpenedModal(assetInfo, verificationId) {
     ...(assetInfo.verifications?.get(sha256Hash) || []),
     ...(assetInfo.draftVerifications?.get(sha256Hash) || []),
   ];
-  const hasOtherAttempts = siblings.some(a => a.pubkey === verification.pubkey && a.id !== verification.id);
+  const status = getFirstTagValue(verification, 'status');
+  const hasOtherAttempts = siblings.some(a => a.pubkey === verification.pubkey && a.id !== verification.id
+    && getFirstTagValue(a, 'status') !== status);
   const content = document.getElementById('verificationContent');
   if (!hasOtherAttempts || (content && content.scrollTop > 0)) {
     return;
