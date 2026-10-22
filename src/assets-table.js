@@ -167,6 +167,8 @@ function createBlossomDownloadHelpers() {
     const a = document.createElement('a');
     a.href = getBlossomDownloadURL(hash, filename);
     a.rel = 'noopener noreferrer';
+    // The synthetic click lands at (0, 0), which a modal's outside-click handler reads as a dismissal.
+    a.addEventListener('click', event => event.stopPropagation());
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
