@@ -70,7 +70,7 @@ function ensureBlossomModals() {
   if (!document.getElementById('blossomWarningModal')) {
     document.body.insertAdjacentHTML('beforeend', `
     <div id="blossomWarningModal" style="display: none; position: fixed; z-index: 1001; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.6);">
-      <div style="background-color: #fefefe; margin: 15% auto; padding: 20px; border: 1px solid #888; width: 80%; max-width: 400px; text-align: center; border-radius: 8px; color: black;">
+      <div class="blossom-modal-panel" style="margin: 15% auto; padding: 20px; width: 80%; max-width: 400px; text-align: center; border-radius: 8px;">
         <span id="blossomCloseModalButton" style="color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer;">&times;</span>
         <p style="margin-top: 30px; margin-bottom: 20px;">This file was uploaded by a third party. We haven't verified its content, so please be careful before running it.</p>
         <button id="blossomConfirmDownloadButton" class="btn btn-success" style="padding: 10px 20px;">Download</button>
@@ -81,11 +81,11 @@ function ensureBlossomModals() {
   if (!document.getElementById('blossomBundleModal')) {
     document.body.insertAdjacentHTML('beforeend', `
     <div id="blossomBundleModal" style="display: none; position: fixed; z-index: 1002; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.6);">
-      <div style="background-color: #fefefe; margin: 10% auto; padding: 20px; border: 1px solid #888; width: fit-content; max-width: min(90vw, 720px); border-radius: 8px; color: black; box-sizing: border-box;">
+      <div class="blossom-modal-panel" style="margin: 10% auto; padding: 20px; width: fit-content; max-width: min(90vw, 720px); border-radius: 8px; box-sizing: border-box;">
         <span id="blossomBundleCloseButton" style="color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer;">&times;</span>
         <h3 style="margin-top: 0;">Download asset files</h3>
-        <div style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 1em; padding: 12px; background-color: #fff3cd; border: 1px solid #ffc107; border-radius: 4px; text-align: left;">
-          ${wsIcon('triangle-exclamation', '', 'color: #856404; font-size: 1.5em; flex-shrink: 0; margin-top: 2px;')}
+        <div class="blossom-modal-warning" style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 1em; padding: 12px; border-radius: 4px; text-align: left;">
+          ${wsIcon('triangle-exclamation', 'blossom-modal-warning__icon', 'font-size: 1.5em; flex-shrink: 0; margin-top: 2px;')}
           <p style="margin: 0; font-size: 0.95em;">These files were uploaded by third parties. Review before running.</p>
         </div>
         <ul id="blossomBundleFileList" style="list-style: none; padding: 0; margin: 0; text-align: left; max-width: 100%;"></ul>
