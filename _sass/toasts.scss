@@ -6,7 +6,7 @@
   padding: 15px 25px;
   color: black;
   border-radius: 4px;
-  z-index: 10000;
+  z-index: 10020; // above the build log viewer
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
   // left:50% shrink-wraps to half the viewport; size to content up to 85vw
