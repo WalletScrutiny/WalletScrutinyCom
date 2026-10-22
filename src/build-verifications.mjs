@@ -253,8 +253,9 @@ function buildBlock(build, context) {
   const rows = shown.length
     ? shown.map(verification => verificationRow(verification, build, context))
     : [emptyRow({ builds: [build] })];
+  const description = build.description && build.description[0].toUpperCase() + build.description.slice(1);
   return el('div', { className: 'bv-build' },
-    build.description ? el('p', { className: 'bv-build__description', title: build.description }, build.description) : null,
+    description ? el('p', { className: 'bv-build__description', title: description }, description) : null,
     build.files.length ? el('ul', { className: 'bv-files' }, build.files.map(file => fileRow(file, hashVerdictIndex))) : null,
     el('div', { className: 'bv-rows' }, rows),
   );
