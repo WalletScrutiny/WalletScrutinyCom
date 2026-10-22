@@ -127,7 +127,7 @@ function ensureViewer() {
       return;
     }
     navigator.clipboard.writeText(copyText())
-      .then(() => window.showToast?.(`${viewer.title.textContent} copied to clipboard`, 'success'))
+      .then(() => window.showToast?.(viewer.hash ? 'Build log copied to clipboard' : 'Script content copied to clipboard', 'success'))
       .catch((error) => {
         console.error('Failed to copy text:', error);
         window.showToast?.('Failed to copy to clipboard', 'error');
