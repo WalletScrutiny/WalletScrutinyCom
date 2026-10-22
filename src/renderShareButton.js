@@ -1,4 +1,5 @@
 import { wsIcon } from './icon.mjs';
+import { waitNostr } from 'nip07-awaiter';
 (function(){
   function renderShareButton({
     container,
@@ -373,6 +374,15 @@ import { wsIcon } from './icon.mjs';
       };
     }
     if (shareNostrBtn) {
+      // Sharing on Nostr signs with the browser extension (NIP-07), so the
+      // entry only shows once one is detected. Same wait as the opinions
+      // widget (src/opinions/auth.mjs): extensions inject window.nostr late.
+      shareNostrBtn.style.display = "none";
+      waitNostr(3125).then((nostr) => {
+        if (nostr) {
+          shareNostrBtn.style.display = "";
+        }
+      });
       shareNostrBtn.onclick = function (e) {
         e.preventDefault();
         e.stopPropagation();
