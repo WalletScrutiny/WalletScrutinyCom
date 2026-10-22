@@ -7,6 +7,7 @@ import {
   waitForVerificationModalReady,
   waitForBuildLogLines,
   waitForNostrDisplayName,
+  injectNip07Signer,
 } from './helpers.mjs';
 
 const ZEUS_VERIFICATION_PATH =
@@ -19,6 +20,8 @@ test.describe('ZEUS verification detail page', () => {
     test.setTimeout(process.env.CI ? 300_000 : 180_000);
 
     const assertNoConsoleErrors = attachConsoleGuards(testInfo, page);
+    // "Share on Nostr" only shows with a NIP-07 extension.
+    await injectNip07Signer(page);
 
     await page.goto(ZEUS_VERIFICATION_PATH);
     await waitForVerificationsUi(page);
