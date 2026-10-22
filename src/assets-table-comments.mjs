@@ -126,6 +126,8 @@ function addCommentStyles() {
       background-color: rgba(255, 255, 255, 0.08);
     }
     .comment-author-name {
+      min-width: 0;
+      overflow-wrap: anywhere;
       font-weight: bold;
       color: black;
       cursor: pointer;
@@ -164,7 +166,7 @@ function addCommentStyles() {
     .comments-section .comment-date {
       font-size: 0.8em;
       color: #888;
-      margin-top: 2px;
+      margin-left: auto;
       flex-shrink: 0;
     }
     body.dark .comments-section .comment-date {
@@ -280,6 +282,7 @@ export async function renderCommentsSection(container, verificationKey, authorPu
           <div class="ws-v-comment comment-profile-${safePubkey}" ${index >= MAX_COMMENTS_TO_SHOW ? 'hidden' : ''}>
             <div class="comment-author">
               <span class="comment-author-name" data-pubkey="${safePubkey}">${escapeHtml(comment.author)}</span>
+              <span class="comment-date">${escapeHtml(comment.date)}</span>
               ${window.userPubkey && safePubkey === window.userPubkey && safeId ? `
               <button type="button" class="comment-delete-btn" data-comment-id="${safeId}" title="Delete comment" aria-label="Delete comment">
                 ${wsIcon('trash-can')}
@@ -287,9 +290,6 @@ export async function renderCommentsSection(container, verificationKey, authorPu
             </div>
             <div class="comment-content">
               <div class="comment-body">${escapeHtml(comment.content)}</div>
-            </div>
-            <div class="comment-date">
-              <span>${escapeHtml(comment.date)}</span>
             </div>
           </div>
         `;
