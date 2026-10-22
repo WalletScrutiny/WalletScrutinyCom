@@ -369,15 +369,17 @@ body.dark .bv-panel {
   overflow-wrap: anywhere;
 }
 
-/* Most readers only need the verdict, so the file name stays at body weight, in grey. */
+/* Most readers only need the verdict, so the file name stays at body weight, in grey.
+   Name and hash use the verification modal's sizes: the name one step up, the hash in the body font. */
 .bv-file__name {
+  font-size: $font-sm;
   font-weight: 400;
   color: var(--neutral-3);
 }
 
 .bv-file__hash-text {
-  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
-  font-size: inherit;
+  font-family: inherit;
+  font-size: $font-xs;
   color: var(--neutral-3);
   background: none;
   padding: 0;
