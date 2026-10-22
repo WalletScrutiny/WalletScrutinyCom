@@ -315,9 +315,8 @@ body.dark .bv-panel {
   border-top: 1px solid var(--neutral-5);
 }
 
-/* Inside a build the files come first; the description and the verifier rows are indented
-   under them by plain space, so they read as belonging to that set of files. */
-.bv-build > .bv-files ~ .bv-build__description,
+/* Inside a build the description heads the files; the verifier rows are indented under
+   them by plain space, so they read as belonging to that set of files. */
 .bv-build > .bv-files ~ .bv-rows {
   margin-left: 26px;
 }
@@ -370,9 +369,10 @@ body.dark .bv-panel {
   overflow-wrap: anywhere;
 }
 
-/* Most readers only need the verdict, so the file name stays at body weight. */
+/* Most readers only need the verdict, so the file name stays at body weight, in grey. */
 .bv-file__name {
   font-weight: 400;
+  color: var(--neutral-3);
 }
 
 .bv-file__hash-text {
@@ -456,10 +456,10 @@ body.dark .bv-panel {
 }
 
 .bv-build__description {
-  margin: 4px 0 0;
+  margin: 0 0 4px;
   padding-left: 6px;
-  font-size: $font-xxs;
-  color: var(--neutral-3);
+  font-size: $font-sm;
+  color: var(--text);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -498,7 +498,6 @@ body.dark .bv-panel {
     padding-right: 0;
   }
 
-  .bv-build > .bv-files ~ .bv-build__description,
   .bv-build > .bv-files ~ .bv-rows {
     margin-left: 14px;
   }
