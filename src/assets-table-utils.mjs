@@ -62,12 +62,12 @@ export function formatCommentDate(timestamp) {
   }
   
   // For comments within a month, show weeks
-  if (diffInWeeks < 4) {
+  if (diffInMonths < 1) {
     return `${diffInWeeks} week${diffInWeeks > 1 ? 's' : ''} ago`;
   }
   
   // For comments within a year, show months
-  if (diffInMonths < 12) {
+  if (diffInYears < 1) {
     return `${diffInMonths} month${diffInMonths > 1 ? 's' : ''} ago`;
   }
   
