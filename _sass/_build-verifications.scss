@@ -370,8 +370,9 @@ body.dark .bv-panel {
   overflow-wrap: anywhere;
 }
 
+/* Most readers only need the verdict, so the file name stays at body weight. */
 .bv-file__name {
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .bv-file__hash-text {
