@@ -94,17 +94,17 @@ permalink: /verifier/
 
       const profile = await getNostrProfile(pubkey);
 
-      if (profile && (profile.lud16 || profile.lud06) && profile.profileEvent) {
+      if (profile) {
+        // The zap modal zaps window.profileEvent, so a profile without its event cannot receive zaps here.
         window.profileEvent = profile.profileEvent;
-        document.getElementById('zapButtonVerifier').style.display = 'inline-block';
-      } else if (profile) {
         const zapBtn = document.getElementById('zapButtonVerifier');
-        zapBtn.style.display = 'inline-block';
-        zapBtn.disabled = true;
-        zapBtn.style.backgroundColor = '#ccc';
-        zapBtn.style.color = '#888';
-        zapBtn.style.cursor = 'not-allowed';
-        zapBtn.title = "The user doesn't have a nostr profile or a LN address to receive sats";
+        setupZapButton(zapBtn, profile.profileEvent ? profile : null, 'Zap this verifier').then((enabled) => {
+          if (!enabled) {
+            zapBtn.style.backgroundColor = '#ccc';
+            zapBtn.style.color = '#888';
+            zapBtn.style.cursor = 'not-allowed';
+          }
+        });
       }
 
       const attestatorEl = document.getElementById('attestator');
