@@ -23,12 +23,13 @@ import { el, htmlOf, isSha256Hex, sanitizeHttpUrl } from "./html-utils.mjs";
 import { assetRegistrationKinds, getAssetFileEntries } from "./asset-utils.mjs";
 import { ensureConnected, fetchEvents } from "./nostr-client.mjs";
 import { checkFileExistsInBlossom } from "./blossom-utils.mjs";
-import './zapModal.mjs';
+import { setupZapButton } from './zapModal.mjs';
+import { hasExtension } from './opinions/auth.mjs';
 
 export function buildEndorsementButtonHtml(verificationId, sha256Hash) {
   return htmlOf(el('button', {
     type: 'button',
-    className: 'btn btn-info js-open-endorsement',
+    className: 'btn btn-info js-open-endorsement needs-nostr-extension',
     title: 'Endorse this verification',
     dataset: {
       verificationId: verificationId ?? '',
@@ -499,7 +500,7 @@ export function buildWriteVerificationMenuHtml(verification, sha256Hash, editPar
     href,
   }, label))).join('');
 
-  return `<span id="writeVerificationWrap" class="verification-modal-menu-wrap">
+  return `<span id="writeVerificationWrap" class="verification-modal-menu-wrap needs-nostr-extension">
     <button type="button" class="btn btn-info" id="writeVerificationBtn">${wsIcon('pen')} Write new verification ${wsIcon('caret-down')}</button>
     <div id="writeVerificationMenu" class="verification-modal-menu" style="display: none;">${items}</div>
   </span>`;
@@ -593,27 +594,18 @@ function wireVerifierProfileCard(root) {
   });
 }
 
-function setupZapButton(zapBtn, profile, verification) {
-  if (!zapBtn) {
+async function setupVerificationZapButton(zapBtn, profile, verification) {
+  if (!await setupZapButton(zapBtn, profile, 'Zap this verification')) {
     return;
   }
-  zapBtn.hidden = false;
-  if (profile && (profile.lud16 || profile.lud06)) {
-    zapBtn.disabled = false;
-    zapBtn.title = 'Zap this verification';
-    zapBtn.onclick = (e) => {
-      e.stopPropagation();
-      window.showZapModal({
-        onClose: () => {},
-        setZapped: () => {},
-        zapEvent: verification,
-      });
-    };
-  } else {
-    zapBtn.disabled = true;
-    zapBtn.onclick = null;
-    zapBtn.title = "The user doesn't have a nostr profile or a LN address to receive sats";
-  }
+  zapBtn.onclick = (e) => {
+    e.stopPropagation();
+    window.showZapModal({
+      onClose: () => {},
+      setZapped: () => {},
+      zapEvent: verification,
+    });
+  };
 }
 
 export async function showVerificationModal(sha256Hash, verificationId, appId, platform) {
@@ -870,7 +862,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   if (!isDraft && !isMine) {
     toolbarRowHtml += buildEndorsementButtonHtml(verification.id, sha256Hash);
   }
-  toolbarRowHtml += `<div id="verificationActionButtons"></div>`;
+  toolbarRowHtml += `<div id="verificationActionButtons" class="needs-nostr-extension"></div>`;
   toolbarRowHtml += `<button type="button" class="btn btn-info" id="zapButton" hidden>${wsIcon('bitcoin')} Zap</button>`;
   toolbarRowHtml += `<span id="adminReportVerificationWrap" class="verification-modal-menu-wrap" hidden>
       <button type="button" class="btn btn-info" id="adminReportVerificationBtn">${wsIcon('triangle-exclamation')} Report ${wsIcon('caret-down')}</button>
@@ -884,6 +876,11 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     : '';
   toolbarRowHtml += '</div>';
   toolbar.innerHTML = toolbarRowHtml;
+  // Mobile hides the actions that need a Nostr extension until one is found (_verifications.scss).
+  const toolbarRow = toolbar.querySelector('.verification-modal-toolbar-row');
+  hasExtension().then((found) => {
+    toolbarRow.classList.toggle('has-nostr-extension', found);
+  });
 
   const shareButtonContainer = toolbar.querySelector('#verificationShareButtonContainer');
   let shareMessage = 'Check out this verification!';
@@ -1078,7 +1075,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
         wireVerifierProfileCard(basedOnEl);
       }
     }
-    setupZapButton(document.getElementById('zapButton'), profile, verification);
+    setupVerificationZapButton(document.getElementById('zapButton'), profile, verification);
   })();
 
   /* -------------------- Zap -------------------- */

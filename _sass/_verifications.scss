@@ -137,6 +137,18 @@ body.dark .assets-table-widget {
   .assets-table-widget .assets-hide-drafts-label {
     display: none !important;
   }
+
+  // A zap button is disabled without a Nostr extension or a recipient LN address (zapModal.mjs):
+  // desktop shows it greyed out with the reason as its title, mobile has no hover, so hide it.
+  #zapButton:disabled,
+  #zapButtonVerifier:disabled {
+    display: none !important;
+  }
+
+  // Writing, endorsing and the Nostr menu are for Nostr users; hidden until an extension is found (assets-table-modal.mjs).
+  #verificationModalToolbar .verification-modal-toolbar-row:not(.has-nostr-extension) .needs-nostr-extension {
+    display: none !important;
+  }
 }
 
 .assets-table-widget .issue-tracker-container {
