@@ -175,17 +175,17 @@ function buildAttachmentListItems(verificationAttachments) {
         el('small', {}, `${attachmentInfo.sizeInKb} kB`),
         el('button', {
           type: 'button',
-          className: 'verification-modal-file__download js-attachment-download',
-          title: `Download ${attachmentInfo.filename ?? ''}`,
-          dataset: { attachmentId: attachmentId ?? '' },
-          html: wsIcon('download'),
-        }),
-        el('button', {
-          type: 'button',
           className: 'verification-modal-file__download js-attachment-preview',
           title: `Preview ${attachmentInfo.filename ?? ''}`,
           dataset: { attachmentId: attachmentId ?? '' },
           html: wsIcon('eye'),
+        }),
+        el('button', {
+          type: 'button',
+          className: 'verification-modal-file__download js-attachment-download',
+          title: `Download ${attachmentInfo.filename ?? ''}`,
+          dataset: { attachmentId: attachmentId ?? '' },
+          html: wsIcon('download'),
         }),
       ));
     }
