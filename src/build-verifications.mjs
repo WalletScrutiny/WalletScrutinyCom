@@ -245,17 +245,18 @@ function fileRow(file, hashVerdictIndex) {
 
 // ---------------------------------------------------------------- who tested (files, then verifiers)
 
-// One build = one set of files and the verifications of that set: the files, the asset's
-// description, then the verifier rows indented under them so they read as that set's.
+// One build = one set of files and the verifications of that set: the asset's description
+// as its heading, the files, then the verifier rows indented under them so they read as that set's.
 function buildBlock(build, context) {
   const { userPubkey, hashVerdictIndex } = context;
   const shown = build.verifications.concat(build.drafts.filter(d => userPubkey && d.pubkey === userPubkey));
   const rows = shown.length
     ? shown.map(verification => verificationRow(verification, build, context))
     : [emptyRow({ builds: [build] })];
+  const description = build.description && build.description[0].toUpperCase() + build.description.slice(1);
   return el('div', { className: 'bv-build' },
+    description ? el('p', { className: 'bv-build__description', title: description }, description) : null,
     build.files.length ? el('ul', { className: 'bv-files' }, build.files.map(file => fileRow(file, hashVerdictIndex))) : null,
-    build.description ? el('p', { className: 'bv-build__description', title: build.description }, build.description) : null,
     el('div', { className: 'bv-rows' }, rows),
   );
 }
