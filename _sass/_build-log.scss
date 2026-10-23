@@ -1,9 +1,9 @@
-/* The build log: the terminal-window button in a verification that opens it, and the
+/* The build log: the button in a verification that opens it, and the
    viewer (src/build-log-viewer.mjs) that shows it and the scripts used to reproduce.
    The viewer is a terminal, so it is dark in both themes; the colours are the Android
    app's compilation log palette. */
 
-/* --- The button: a compact dark pill with a terminal icon, sized like the other small buttons. --- */
+/* --- The button: a compact dark pill with an eye icon, sized like the other small buttons. --- */
 .build-log-button {
   display: inline-flex;
   align-items: center;

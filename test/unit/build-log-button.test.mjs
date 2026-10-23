@@ -18,7 +18,7 @@ describe('buildBuildLogButtonHtml', () => {
     assert.equal(button.dataset.logSubject, 'ZEUS Wallet 13.0.1');
     assert.equal(button.dataset.logFile, 'script.cast');
     assert.match(button.textContent, /View build log/);
-    assert.ok(button.querySelector('svg.ws-icon-terminal'));
+    assert.ok(button.querySelector('svg.ws-icon-eye'));
   });
 
   test('hostile names stay data, not markup', () => {
