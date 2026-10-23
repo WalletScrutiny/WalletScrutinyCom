@@ -21,6 +21,7 @@ import {
 } from "./assets-table-attachments.mjs";
 import { el, htmlOf, isSha256Hex, sanitizeHttpUrl } from "./html-utils.mjs";
 import { assetRegistrationKinds, getAssetFileEntries } from "./asset-utils.mjs";
+import { getRowDescription } from "./assets-table-paint.mjs";
 import { ensureConnected, fetchEvents } from "./nostr-client.mjs";
 import { checkFileExistsInBlossom } from "./blossom-utils.mjs";
 import { setupZapButton } from './zapModal.mjs';
@@ -856,10 +857,18 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     .map(tag => tag[1])
     .filter(id => isSha256Hex(id));
 
-  /* -------------------- Header: app + version, platform and date, verdict -------------------- */
+  // The description the wallet page shows above this hash's build: getRowDescription over
+  // the hash's assets and verifications, newest first, with a capital first letter.
+  const hashItems = [...(response.assets?.get(sha256Hash) ?? []), ...verifications, ...draftVerifications]
+    .sort((a, b) => b.created_at - a.created_at);
+  const rowDescription = getRowDescription(hashItems.length ? hashItems : [verification]);
+  const verificationDescription = rowDescription && rowDescription[0].toUpperCase() + rowDescription.slice(1);
+
+  /* -------------------- Header: app + version, description, platform and date, verdict -------------------- */
   const isReproducible = status === 'reproducible';
   heading.replaceChildren(...[
     el('h2', { id: 'verificationModalTitle', className: 'verification-modal-title' }, `Build Verification for ${walletTitle ?? ''} ${version ?? ''}`.trim()),
+    verificationDescription ? el('p', { className: 'verification-modal-description' }, verificationDescription) : null,
     el('p', { className: 'verification-modal-subtitle' },
       [platformLabel(verificationPlatform), formatDate(verification.created_at)].filter(Boolean).join(' · ')),
     el('div', { className: 'verification-modal-badges' },
