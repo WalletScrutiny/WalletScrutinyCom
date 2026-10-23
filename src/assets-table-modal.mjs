@@ -873,7 +873,12 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
 
   /* -------------------- Toolbar: one row of quiet action chips -------------------- */
   let toolbarRowHtml = '<div class="verification-modal-toolbar-row">';
+  // Share, Endorse and Zap lead; the rest follow.
   toolbarRowHtml += `<div class="verification-modal-share" id="verificationShareButtonContainer"></div>`;
+  if (!isDraft && !isMine) {
+    toolbarRowHtml += buildEndorsementButtonHtml(verification.id, sha256Hash);
+  }
+  toolbarRowHtml += `<button type="button" class="btn btn-info" id="zapButton" hidden>${wsIcon('bitcoin')} Zap</button>`;
   const editParams = new URLSearchParams({ action: 'edit' });
   if (isMyDraft) {
     editParams.set('draftVerificationEventId', verification.id);
@@ -896,11 +901,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     }
     toolbarRowHtml += buildWriteVerificationMenuHtml(verification, sha256Hash, editParams, isDraft);
   }
-  if (!isDraft && !isMine) {
-    toolbarRowHtml += buildEndorsementButtonHtml(verification.id, sha256Hash);
-  }
   toolbarRowHtml += `<div id="verificationActionButtons" class="needs-nostr-extension"></div>`;
-  toolbarRowHtml += `<button type="button" class="btn btn-info" id="zapButton" hidden>${wsIcon('bitcoin')} Zap</button>`;
   toolbarRowHtml += `<span id="adminReportVerificationWrap" class="verification-modal-menu-wrap" hidden>
       <button type="button" class="btn btn-info" id="adminReportVerificationBtn">${wsIcon('triangle-exclamation')} Report ${wsIcon('caret-down')}</button>
       <div id="adminReportVerificationMenu" class="verification-modal-menu" style="display: none;">
