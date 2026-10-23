@@ -209,7 +209,8 @@ import { waitNostr } from 'nip07-awaiter';
           padding: 8px 4px;
         }
         .shareButtonNetwork img,
-        .shareButtonNetwork i {
+        .shareButtonNetwork i,
+        .shareButtonNetwork svg {
           margin-right: 0;
         }
         .shareButtonNetwork img {
