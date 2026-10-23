@@ -69,7 +69,9 @@ html, js and css and writes a `.br` next to every compressible file in one
 pass over `_site/`. The result can be found in the `_site/` folder, and you
 can upload the content of this folder to your web server. `npm run deploy:prod`
 builds once and runs the unit and E2E tests against that build
-(`PLAYWRIGHT_SKIP_BUILD=1`) before uploading it.
+(`PLAYWRIGHT_SKIP_BUILD=1`) before uploading it. `npm run deploy:beta` runs only
+the unit tests before uploading, then the E2E tests against the same build, so
+beta gets the new site first and the E2E results after.
 
 The E2E tests do not talk to the live relays. `test/e2e/relay-fixture.mjs`
 answers the page's relay WebSockets from `test/e2e/fixtures/relay-events.json`
