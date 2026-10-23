@@ -1143,24 +1143,24 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
         });
         img.addEventListener('error', () => profileImageFallback(img));
 
-        // Laid out like the "Attempt by" card, minus the NIP-05 address:
-        // name, then the zapper's message in quotes, then the date.
-        const info = el('div', { className: 'profile-info' },
-          el('div', {}, displayName),
-          zap.content ? el('div', { className: 'verification-modal-zap__message' }, `\u201C${zap.content}\u201D`) : null,
-          el('div', { className: 'verification-modal-zap__date' }, formatDate(zap.created_at, true)),
-        );
         if (npub) {
-          for (const node of [img, info]) {
-            node.style.cursor = 'pointer';
-            node.addEventListener('click', () => {
-              window.open(`https://njump.me/${npub}`, '_blank', 'noopener,noreferrer');
-            });
-          }
+          img.style.cursor = 'pointer';
+          img.addEventListener('click', () => {
+            window.open(`https://njump.me/${npub}`, '_blank', 'noopener,noreferrer');
+          });
         }
 
-        const amount = el('div', { className: 'verification-modal-zap__amount' }, `${formatZapAmount(zap.zapAmount)} sats`);
-        list.appendChild(el('div', { className: 'profile-card verification-modal-zap' }, img, info, amount));
+        // Laid out like the "Attempt by" card, minus the NIP-05 address:
+        // name, then the amount and the zapper's message in quotes, then the date.
+        const amountText = `${formatZapAmount(zap.zapAmount)} sats`;
+        const info = el('div', { className: 'profile-info' },
+          el('div', {}, displayName),
+          el('div', { className: 'verification-modal-zap__message' },
+            zap.content ? `${amountText} - \u201C${zap.content}\u201D` : amountText),
+          el('div', { className: 'verification-modal-zap__date' }, formatDate(zap.created_at, true)),
+        );
+
+        list.appendChild(el('div', { className: 'profile-card verification-modal-zap' }, img, info));
       });
 
       const zapsElement = document.getElementById('zaps');

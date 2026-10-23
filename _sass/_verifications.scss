@@ -1718,9 +1718,11 @@ body.dark .verification-modal-chip {
     height: 36px;
   }
 
+  /* Only the picture links to the zapper. */
   .profile-info {
     flex: 1;
     min-width: 0;
+    cursor: auto;
   }
 
   .profile-info > div:first-child {
@@ -1735,12 +1737,6 @@ body.dark .verification-modal-chip {
 .verification-modal-zap__date {
   font-size: $font-xs;
   color: var(--neutral-3);
-}
-
-.verification-modal-zap__amount {
-  flex-shrink: 0;
-  font-size: $font-sm;
-  white-space: nowrap;
 }
 
 /* Comments: the component ships its own styles; inside the modal they follow the panel. */
