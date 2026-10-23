@@ -1142,6 +1142,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
           dataset: { placeholder: placeholderUrl },
         });
         img.addEventListener('error', () => profileImageFallback(img));
+
         if (npub) {
           img.style.cursor = 'pointer';
           img.addEventListener('click', () => {
@@ -1149,17 +1150,17 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
           });
         }
 
-        const details = el('div', {},
-          `${formatZapAmount(zap.zapAmount)} sats`,
-          el('br'),
-          `Zapped by ${displayName} on ${formatDate(zap.created_at, true)}`,
+        // Laid out like the "Attempt by" card, minus the NIP-05 address:
+        // name, then the amount and the zapper's message in quotes, then the date.
+        const amountText = `${formatZapAmount(zap.zapAmount)} sats`;
+        const info = el('div', { className: 'profile-info' },
+          el('div', {}, displayName),
+          el('div', { className: 'verification-modal-zap__message' },
+            zap.content ? `${amountText} - \u201C${zap.content}\u201D` : amountText),
+          el('div', { className: 'verification-modal-zap__date' }, formatDate(zap.created_at, true)),
         );
-        if (zap.content) {
-          details.appendChild(document.createElement('br'));
-          details.appendChild(document.createTextNode(`Message: ${zap.content}`));
-        }
 
-        list.appendChild(el('div', { className: 'profile-card verification-modal-person' }, img, details));
+        list.appendChild(el('div', { className: 'profile-card verification-modal-zap' }, img, info));
       });
 
       const zapsElement = document.getElementById('zaps');
