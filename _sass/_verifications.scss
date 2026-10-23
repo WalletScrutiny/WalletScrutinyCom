@@ -1188,20 +1188,21 @@ body.dark .verification-modal-close:focus-visible {
   vertical-align: middle;
 }
 
-/* Every action is the same quiet chip, including the shared Share and Nostr components. */
+/* Every action is the same outlined button as the Distribution links on wallet pages,
+   including the shared Share and Nostr components. */
 #verificationModalToolbar .btn:not(.shareButtonNetwork) {
   display: inline-flex;
   align-items: center;
   gap: 6px;
   margin: 0;
   padding: 6px 12px;
-  border: 1px solid var(--neutral-5) !important;
-  border-radius: 999px;
-  background: var(--body);
-  color: var(--accent-text) !important;
+  border: 1px solid var(--neutral-4) !important;
+  border-radius: 6px;
+  background: var(--neutral-7);
+  color: var(--text) !important;
   font-family: inherit;
   font-size: $font-xs;
-  font-weight: 600;
+  font-weight: normal;
   line-height: 1.3;
   text-decoration: none;
   white-space: nowrap;
@@ -1211,12 +1212,13 @@ body.dark .verification-modal-close:focus-visible {
   &:focus-visible {
     background: var(--accent-50);
     border-color: var(--accent) !important;
+    color: var(--accent-text) !important;
     outline: none;
   }
 
   &:disabled {
     color: var(--neutral-3) !important;
-    background: var(--body);
+    background: var(--neutral-7);
     border-color: var(--neutral-5) !important;
     cursor: not-allowed;
   }
@@ -1237,24 +1239,16 @@ body.dark .verification-modal-close:focus-visible {
     display: inline-flex;
   }
 
-  /* The Nostr mark is white; give it an accent tile so it reads on both themes. */
+  /* The Nostr mark is white; darken it to match the other icons (dark mode keeps it white). */
   img {
-    box-sizing: border-box;
-    width: 18px;
-    height: 18px;
+    width: 15px;
+    height: 15px;
     margin: 0;
-    padding: 3px;
-    border-radius: 4px;
-    background: var(--accent);
+    filter: brightness(0);
   }
 }
-body.dark #verificationModalToolbar .btn:not(.shareButtonNetwork),
-body.dark #verificationModalToolbar .btn:not(.shareButtonNetwork):disabled {
-  background: var(--neutral-7);
-}
-body.dark #verificationModalToolbar .btn:not(.shareButtonNetwork):hover,
-body.dark #verificationModalToolbar .btn:not(.shareButtonNetwork):focus-visible {
-  background: var(--accent-50);
+body.dark #verificationModalToolbar .btn:not(.shareButtonNetwork) img {
+  filter: none;
 }
 
 /* The share component pulses its trigger red for one's own verification; a steady accent ring instead. */
@@ -1502,35 +1496,36 @@ body.dark #verificationModalToolbar .share-dropdown-menu a:focus-visible img {
   grid-column: 1 / -1;
 }
 
-/* Only the first 7 hex characters; the copy icon beside it copies the whole hash. */
+/* Only the first 7 hex characters, in the file name's font; the copy icon beside it copies the whole hash. */
 .verification-modal-hash {
-  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
-  font-size: $font-sm;
+  font: inherit;
 }
 
-/* Small round icon button: copy a hash. */
+/* Icon button: copy a hash. The same outline as the file download buttons beside it. */
 .verification-modal-icon-btn {
   flex: 0 0 auto;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 26px;
   height: 26px;
-  padding: 0;
-  border: 0;
-  border-radius: 50%;
-  background: transparent;
-  color: var(--accent-text);
+  padding: 0 9px;
+  border: 1px solid var(--neutral-4);
+  border-radius: 6px;
+  background: var(--neutral-7);
+  color: var(--text);
   cursor: pointer;
+  transition: border-color 0.12s ease, background-color 0.12s ease, color 0.12s ease;
 
   svg {
-    width: 15px;
-    height: 15px;
+    width: 14px;
+    height: 14px;
   }
 
   &:hover,
   &:focus-visible {
+    border-color: var(--accent);
     background: var(--accent-50);
+    color: var(--accent-text);
     outline: none;
   }
 }
@@ -1625,10 +1620,6 @@ body.dark .verification-modal-chip {
 .verification-modal-file__sep {
   color: var(--neutral-3);
 }
-.verification-modal-file .verification-modal-icon-btn {
-  margin-left: -4px;
-}
-
 /* A recording's build log button, beside its file and a little smaller than on its own */
 .verification-modal-file:has(.verification-modal-file__log) {
   flex-wrap: wrap; /* on a phone the button drops under the name rather than splitting it */
@@ -1643,7 +1634,7 @@ body.dark .verification-modal-chip {
   gap: 6px;
 }
 
-/* File buttons (download, preview): the build log button's dark pill, icon only. */
+/* File buttons (download, preview): the build log button's outline, icon only. */
 .verification-modal-file__download {
   flex: 0 0 auto;
   display: inline-flex;
@@ -1651,13 +1642,12 @@ body.dark .verification-modal-chip {
   justify-content: center;
   height: 26px;
   padding: 0 9px;
-  border: 1px solid #2a3040;
+  border: 1px solid var(--neutral-4);
   border-radius: 6px;
-  background: #11141c;
-  color: #e6e9f2;
+  background: var(--neutral-7);
+  color: var(--text);
   cursor: pointer;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  transition: border-color 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+  transition: border-color 0.12s ease, background-color 0.12s ease, color 0.12s ease;
 
   svg {
     width: 14px;
@@ -1672,16 +1662,14 @@ body.dark .verification-modal-chip {
   &:hover,
   &:focus-visible {
     border-color: var(--accent);
-    background: #1b2030;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    background: var(--accent-50);
+    color: var(--accent-text);
     outline: none;
-  }
-  &:focus-visible {
-    box-shadow: 0 0 0 3px var(--accent-50), 0 3px 10px rgba(0, 0, 0, 0.3);
   }
 }
 @media (prefers-reduced-motion: reduce) {
-  .verification-modal-file__download { transition: none; }
+  .verification-modal-file__download,
+  .verification-modal-icon-btn { transition: none; }
 }
 
 /* A lone recording: no name, just its build log button and then the download. */
@@ -1760,18 +1748,18 @@ body.dark .verification-modal-chip {
     }
   }
 
-  /* The same quiet chip as the toolbar actions, as tall as the one-line comment box. */
+  /* The same outlined button as the toolbar actions, as tall as the one-line comment box. */
   .comment-submit-btn {
     box-sizing: border-box;
     height: 40px;
     padding: 0 18px;
-    border: 1px solid var(--neutral-5);
-    border-radius: 999px;
-    background: var(--body);
-    color: var(--accent-text);
+    border: 1px solid var(--neutral-4);
+    border-radius: 6px;
+    background: var(--neutral-7);
+    color: var(--text);
     font: inherit;
     font-size: $font-xs;
-    font-weight: 600;
+    font-weight: normal;
     line-height: 1.3;
     white-space: nowrap;
 
@@ -1779,12 +1767,13 @@ body.dark .verification-modal-chip {
     &:focus-visible {
       background: var(--accent-50);
       border-color: var(--accent);
+      color: var(--accent-text);
       outline: none;
     }
 
     &:disabled {
       color: var(--neutral-3);
-      background: var(--body);
+      background: var(--neutral-7);
       border-color: var(--neutral-5);
       cursor: not-allowed;
     }
