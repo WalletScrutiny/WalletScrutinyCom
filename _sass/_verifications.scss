@@ -1706,6 +1706,43 @@ body.dark .verification-modal-chip {
   }
 }
 
+/* Zaps: the same card as "Attempt by", with the message and date under the name. */
+#verificationContent .verification-modal-zap {
+  align-items: flex-start;
+  gap: 10px;
+  margin: 0 0 12px;
+
+  .profile-image {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+  }
+
+  .profile-info {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .profile-info > div:first-child {
+    font-weight: 500;
+  }
+}
+
+.verification-modal-zap__message {
+  overflow-wrap: anywhere;
+}
+
+.verification-modal-zap__date {
+  font-size: $font-xs;
+  color: var(--neutral-3);
+}
+
+.verification-modal-zap__amount {
+  flex-shrink: 0;
+  font-size: $font-sm;
+  white-space: nowrap;
+}
+
 /* Comments: the component ships its own styles; inside the modal they follow the panel. */
 #verificationContent .comments-section {
   margin: 0;
