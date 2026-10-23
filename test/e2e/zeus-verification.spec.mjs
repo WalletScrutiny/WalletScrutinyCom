@@ -187,12 +187,12 @@ test.describe('ZEUS verification detail page', () => {
       await expect.soft(commentAuthor).toContainText('btc_remnant');
       await expect.soft(commentsSection.locator('.comment-body')).toContainText('Test comment! 1234');
 
-      // Section order: facts, attested file, output files, scripts, comments, then the (possibly very long)
+      // Section order: facts, attested file, scripts, output files, comments, then the (possibly very long)
       // report at the end.
       const sectionCaptions = await content.locator('.verification-modal-section:visible').evaluateAll(
         nodes => nodes.map(node => node.querySelector('.verification-modal-caption, .comments-section > p')?.textContent?.trim() ?? ''),
       );
-      expect.soft(sectionCaptions.slice(1)).toEqual(['Attested file', 'Output files', 'Scripts used to reproduce', 'Comments', 'Report']);
+      expect.soft(sectionCaptions.slice(1)).toEqual(['Attested file', 'Scripts used to reproduce', 'Output files', 'Comments', 'Report']);
     });
 
     await test.step('Build log viewer', async () => {
