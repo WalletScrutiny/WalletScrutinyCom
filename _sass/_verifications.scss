@@ -1481,7 +1481,7 @@ body.dark #verificationModalToolbar .share-dropdown-menu a:focus-visible img {
   grid-column: 1 / -1;
 }
 
-/* The reproduced hashes, between the title and the platform line. No label. */
+/* The reproduced hashes, between the platform line and the verdict. No label. */
 .verification-modal-hashes {
   display: flex;
   flex-wrap: wrap;
@@ -1494,7 +1494,7 @@ body.dark #verificationModalToolbar .share-dropdown-menu a:focus-visible img {
   gap: 2px;
 }
 
-/* Only the first 8 hex characters; the copy icon beside it copies the whole hash. */
+/* Only the first 7 hex characters; the copy icon beside it copies the whole hash. */
 .verification-modal-hash {
   font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
   font-size: $font-sm;
