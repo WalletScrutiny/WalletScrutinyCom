@@ -1603,17 +1603,12 @@ body.dark .verification-modal-chip {
   }
 }
 
+/* Attested files, output files and scripts all show their names at body weight. */
 .verification-modal-file__name {
   flex: 0 1 auto;
   min-width: 0;
-  font-weight: 600;
-  overflow-wrap: anywhere;
-}
-
-/* The scripts are supporting detail and the attested files sit beside their hashes, so both stay at body weight. */
-#verification-attachments-list .verification-modal-file__name,
-#verification-attested-files .verification-modal-file__name {
   font-weight: 400;
+  overflow-wrap: anywhere;
 }
 
 /* An attested file: name, hyphen, hash, copy, download. The copy icon hugs its hash. */
