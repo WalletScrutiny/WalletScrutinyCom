@@ -868,7 +868,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   const isReproducible = status === 'reproducible';
   heading.replaceChildren(...[
     el('h2', { id: 'verificationModalTitle', className: 'verification-modal-title' }, `Build Verification for ${walletTitle ?? ''} ${version ?? ''}`.trim()),
-    verificationDescription ? el('p', { className: 'verification-modal-description' }, verificationDescription) : null,
+    verificationDescription ? el('p', { className: 'verification-modal-description', title: verificationDescription }, verificationDescription) : null,
     el('p', { className: 'verification-modal-subtitle' },
       [platformLabel(verificationPlatform), formatDate(verification.created_at)].filter(Boolean).join(' · ')),
     el('div', { className: 'verification-modal-badges' },

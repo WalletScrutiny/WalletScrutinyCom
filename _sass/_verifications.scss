@@ -1897,6 +1897,14 @@ body.dark #verificationContent .comments-section {
   body.dark #verificationModal {
     background: var(--body);
   }
+  // phones: the description stops at two lines; the full text is in its title
+  .verification-modal-description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+  }
   .verification-modal-header {
     padding: 14px 16px 0;
   }
