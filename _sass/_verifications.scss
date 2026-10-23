@@ -1637,7 +1637,7 @@ body.dark .verification-modal-chip {
   gap: 6px;
 }
 
-/* File buttons (download, preview): the build log button's dark pill, icon only. */
+/* File buttons (download, preview): the build log button's outline, icon only. */
 .verification-modal-file__download {
   flex: 0 0 auto;
   display: inline-flex;
@@ -1645,13 +1645,12 @@ body.dark .verification-modal-chip {
   justify-content: center;
   height: 26px;
   padding: 0 9px;
-  border: 1px solid #2a3040;
+  border: 1px solid var(--neutral-4);
   border-radius: 6px;
-  background: #11141c;
-  color: #e6e9f2;
+  background: var(--neutral-7);
+  color: var(--text);
   cursor: pointer;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  transition: border-color 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+  transition: border-color 0.12s ease, background-color 0.12s ease, color 0.12s ease;
 
   svg {
     width: 14px;
@@ -1666,12 +1665,9 @@ body.dark .verification-modal-chip {
   &:hover,
   &:focus-visible {
     border-color: var(--accent);
-    background: #1b2030;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    background: var(--accent-50);
+    color: var(--accent-text);
     outline: none;
-  }
-  &:focus-visible {
-    box-shadow: 0 0 0 3px var(--accent-50), 0 3px 10px rgba(0, 0, 0, 0.3);
   }
 }
 @media (prefers-reduced-motion: reduce) {

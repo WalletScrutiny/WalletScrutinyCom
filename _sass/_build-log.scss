@@ -1,9 +1,11 @@
+@use "type-scale" as *;
+
 /* The build log: the button in a verification that opens it, and the
    viewer (src/build-log-viewer.mjs) that shows it and the scripts used to reproduce.
    The viewer is a terminal, so it is dark in both themes; the colours are the Android
    app's compilation log palette. */
 
-/* --- The button: a compact dark pill with an eye icon, sized like the other small buttons. --- */
+/* --- The button: the same outlined button as the Distribution links and the modal toolbar. --- */
 .build-log-button {
   display: inline-flex;
   align-items: center;
@@ -11,28 +13,24 @@
   margin: 4px 0 12px;
   padding: 6px 14px 6px 12px;
   max-width: 100%;
-  border: 1px solid #2a3040;
+  border: 1px solid var(--neutral-4);
   border-radius: 6px;
-  background: #11141c;
-  color: #e6e9f2;
-  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
-  font-size: 13px; // type-scale-exempt: terminal text
+  background: var(--neutral-7);
+  color: var(--text);
+  font-family: inherit;
+  font-size: $font-xs;
   line-height: 1.4;
   white-space: nowrap;
   text-align: left;
   cursor: pointer;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  transition: border-color 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+  transition: border-color 0.12s ease, background-color 0.12s ease, color 0.12s ease;
 }
 .build-log-button:hover,
 .build-log-button:focus-visible {
   border-color: var(--accent);
-  background: #1b2030;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  background: var(--accent-50);
+  color: var(--accent-text);
   outline: none;
-}
-.build-log-button:focus-visible {
-  box-shadow: 0 0 0 3px var(--accent-50), 0 3px 10px rgba(0, 0, 0, 0.3);
 }
 .build-log-button-icon {
   display: inline-flex;
