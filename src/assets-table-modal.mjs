@@ -165,6 +165,26 @@ function revealAttestedFileDownloads(listEl) {
   }
 }
 
+/** Lets a report table break inside words only when whole words do not fit the modal width. */
+function fitWideReportTables(content) {
+  const tables = content.querySelectorAll('.markdown-content table');
+  tables.forEach(table => table.classList.remove('markdown-table--break-words'));
+  tables.forEach(table => {
+    if (table.offsetWidth > table.parentElement.clientWidth) {
+      table.classList.add('markdown-table--break-words');
+    }
+  });
+}
+
+let reportTablesResizeObserver = null;
+function watchReportTableFit(content) {
+  fitWideReportTables(content);
+  if (!reportTablesResizeObserver && typeof ResizeObserver !== 'undefined') {
+    reportTablesResizeObserver = new ResizeObserver(entries => entries.forEach(entry => fitWideReportTables(entry.target)));
+  }
+  reportTablesResizeObserver?.observe(content);
+}
+
 /** Fills in names the table had not loaded yet (a deep link opens the modal first) from the relays. */
 async function fillMissingAttestedFileNames(listEl, verification) {
   const rows = [...listEl.querySelectorAll('.verification-modal-file')]
@@ -1045,6 +1065,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   modal.style.display = 'flex';
   modal.style.flexDirection = 'column';
   setupVerificationModalCloseHandlers(modal, modalBackdrop, content);
+  watchReportTableFit(content);
 
   // Store original URL before changing hash
   setOriginalUrlBeforeModal(window.location.pathname + window.location.search);

@@ -1367,7 +1367,7 @@ body.dark #verificationModalToolbar .share-dropdown-menu a:focus-visible img {
   min-height: 0;
   padding: 18px 20px 22px;
   overflow-y: auto;
-  overflow-x: auto;
+  overflow-x: hidden;
   max-width: 100%;
   border-radius: 0 0 16px 16px;
   font-size: 16px; // type-scale-exempt: hand-tuned responsive ladder
@@ -1413,6 +1413,27 @@ body.dark #verificationModalToolbar .share-dropdown-menu a:focus-visible img {
 #verificationContent p {
   margin-top: 0.4em;
   margin-bottom: 0em;
+}
+
+/* No horizontal scrolling: long lines wrap to the modal width. */
+#verificationContent .markdown-content pre,
+#verificationContent .markdown-content pre code {
+  white-space: pre-wrap;
+}
+#verificationContent .markdown-content pre code {
+  display: block;
+}
+#verificationContent .markdown-content code,
+#verificationContent .markdown-content a {
+  overflow-wrap: anywhere;
+}
+#verificationContent .markdown-content th,
+#verificationContent .markdown-content td {
+  hyphens: auto;
+}
+#verificationContent .markdown-content table.markdown-table--break-words th,
+#verificationContent .markdown-content table.markdown-table--break-words td {
+  overflow-wrap: anywhere;
 }
 
 .verification-modal-section {
