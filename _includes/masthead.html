@@ -38,7 +38,7 @@
           {%- endcomment -%}
           <li class="masthead__menu-item" data-site-admin-only style="display: none;"><a href="{{ site.baseurl }}/opinions/"><div>Opinions</div></a></li>
           <li><a class="theme-parent no-hover notifications-indicator" style="display: none; color: red;" onclick="showNotifications()" title="Notifications">{% include icon.html name="bell" %}</a></li>
-          <li><a class="theme-parent no-hover" onclick="toggleTheme()" title="Toggle light/dark website theme">{% include icon.html name="moon" %}{% include icon.html name="sun" %}</a></li>
+          <li><a class="theme-parent no-hover" onclick="toggleTheme(this)" title="Toggle light/dark website theme">{% include icon.html name="moon" %}{% include icon.html name="sun" %}</a></li>
         </ul>
         <button type="button" class="mobile-search-shortcut" aria-label="Search wallet reviews" title="Search">{% include icon.html name="magnifying-glass" %}</button>
         <button type="button" class="greedy-nav__toggle" aria-label="Menu" title="Menu"><div class="navicon"></div></button>

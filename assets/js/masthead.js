@@ -3,7 +3,7 @@
 // masthead markup, so the DOM it touches already exists and the onclick
 // handlers in _includes/masthead.html find their globals.
 document.body.classList.add(window.theme);
-function toggleTheme(){
+function toggleTheme(trigger){
   if(window.theme !== "dark"){
     window.theme = "dark";
     document.body.classList.remove("light");
@@ -14,6 +14,11 @@ function toggleTheme(){
     document.body.classList.add("light");
   }
   try { localStorage.setItem('colour-scheme', window.theme) } catch (e) {}
+  // on narrow screens the toggle sits in the burger dropdown; close it
+  if (trigger && trigger.closest('.hidden-links')) {
+    const menuToggle = document.querySelector('.greedy-nav__toggle.close');
+    if (menuToggle) menuToggle.click();
+  }
 }
 
 function addNotificationToIndicator(title, details, type = 'info'){
