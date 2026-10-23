@@ -71,11 +71,11 @@ test.describe('ZEUS verification detail page', () => {
 
       expect(createdAtIso).toMatch(/^2026-05-08T16:59:/);
 
-      // Under the title, the platform and date line, then the verdict. The hash sits in Attested files:
+      // Under the title, the description (when there is one), the platform and date line, then the verdict. The hash sits in Attested files:
       // its first 7 characters after the file, then a copy icon that copies the whole hash, then the download.
       await expect.soft(content).not.toContainText('Hash of the binary reproduced');
       const header = modal.locator('#verificationModalHeading');
-      await expect.soft(header.locator('.verification-modal-title + .verification-modal-subtitle + .verification-modal-badges')).toHaveCount(1);
+      await expect.soft(header.locator('.verification-modal-title ~ .verification-modal-subtitle + .verification-modal-badges')).toHaveCount(1);
       await expect.soft(header.locator('.verification-modal-hash')).toHaveCount(0);
       const attested = content.locator('#verification-attested-files .verification-modal-file');
       await expect.soft(attested.locator('.verification-modal-hash')).toHaveText('709e379');
