@@ -87,7 +87,7 @@ export function buildDiffoscopeOpenButtonHtml(fileName, fileUrl) {
 
 /**
  * The button that opens the build log viewer on a verification's recording: a compact
- * dark pill with a terminal icon. The recording is only downloaded once it is clicked.
+ * dark pill with an eye icon, like the script view buttons. The recording is only downloaded once it is clicked.
  */
 export function buildBuildLogButtonHtml(castHash, fileName, subject) {
   if (!isSha256Hex(castHash)) {
@@ -103,7 +103,7 @@ export function buildBuildLogButtonHtml(castHash, fileName, subject) {
       logFile: fileName ?? '',
     },
   },
-    el('span', { className: 'build-log-button-icon', 'aria-hidden': 'true', html: wsIcon('terminal') }),
+    el('span', { className: 'build-log-button-icon', 'aria-hidden': 'true', html: wsIcon('eye') }),
     'View build log',
   ));
 }
