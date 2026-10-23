@@ -49,8 +49,9 @@ export function shortenOutputFileName(fileName) {
 /**
  * One output file: its name, a download button and, for a recording, the build log button (`extraHtml`, markup from buildBuildLogButtonHtml).
  * For a recording, `nameHidden` drops the name and puts the build log button first.
+ * `hidden` folds the file under the "View N more" link.
  */
-export function buildOutputFileDownloadHtml(fileName, fileHash, extraHtml = '', { nameHidden = false } = {}) {
+export function buildOutputFileDownloadHtml(fileName, fileHash, extraHtml = '', { nameHidden = false, hidden = false } = {}) {
   const log = extraHtml ? el('span', { className: 'verification-modal-file__log', html: extraHtml }) : null;
   const download = el('button', {
     type: 'button',
@@ -66,7 +67,7 @@ export function buildOutputFileDownloadHtml(fileName, fileHash, extraHtml = '', 
   if (nameHidden) {
     return htmlOf(el('li', { className: 'verification-modal-file verification-modal-file--recording-only' }, log, download));
   }
-  return htmlOf(el('li', { className: 'verification-modal-file' },
+  return htmlOf(el('li', { className: 'verification-modal-file', hidden },
     el('span', { className: 'verification-modal-file__name', title: fileName ?? '' }, shortenOutputFileName(fileName)),
     download,
     log,
@@ -940,11 +941,18 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
   let outputFilesHTML = '';
   /* Recordings first: the build log is the output most people want. */
   const isRecording = outputFile => outputFile[1].includes('.cast');
+  const recordingFiles = verificationOutputFiles.filter(isRecording);
   const orderedOutputFiles = [
-    ...verificationOutputFiles.filter(isRecording),
+    ...recordingFiles,
     ...verificationOutputFiles.filter(outputFile => !isRecording(outputFile)),
   ];
-  for (const outputFile of orderedOutputFiles) {
+  /* Beside a build log, the other output files fold under a "View N more" link. */
+  const foldedOutputFileCount = recordingFiles.length > 0 ? orderedOutputFiles.length - recordingFiles.length : 0;
+  for (const [index, outputFile] of orderedOutputFiles.entries()) {
+    if (foldedOutputFileCount > 0 && index === recordingFiles.length) {
+      outputFilesHTML += htmlOf(el('li', { className: 'verification-modal-file' },
+        el('button', { type: 'button', className: 'verification-modal-files__more js-show-more-output-files' }, `View ${foldedOutputFileCount} more`)));
+    }
     /* A recording opens in the build log viewer, from a button beside its own download. */
     const buildLogHTML = isRecording(outputFile)
       ? buildBuildLogButtonHtml(outputFile[2], outputFile[1], `${walletTitle} ${version ?? ''}`.trim())
@@ -953,7 +961,10 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
       diffoscopeFiles.push(outputFile);
     }
     /* A recording needs no name: the build log button says what it is. */
-    outputFilesHTML += buildOutputFileDownloadHtml(outputFile[1], outputFile[2], buildLogHTML, { nameHidden: Boolean(buildLogHTML) });
+    outputFilesHTML += buildOutputFileDownloadHtml(outputFile[1], outputFile[2], buildLogHTML, {
+      nameHidden: Boolean(buildLogHTML),
+      hidden: foldedOutputFileCount > 0 && index >= recordingFiles.length,
+    });
   }
 
   let attachmentsSectionHTML = '';
@@ -1354,6 +1365,15 @@ export function registerShowVerificationModal() {
           }
         });
       }
+      return;
+    }
+
+    const moreOutputFilesBtn = event.target.closest('.js-show-more-output-files');
+    if (moreOutputFilesBtn) {
+      event.preventDefault();
+      const moreItem = moreOutputFilesBtn.closest('li');
+      moreItem.parentElement.querySelectorAll('li[hidden]').forEach(item => { item.hidden = false; });
+      moreItem.remove();
       return;
     }
 
