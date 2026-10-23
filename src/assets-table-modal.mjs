@@ -804,12 +804,12 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     .map(tag => tag[1])
     .filter(id => isSha256Hex(id));
 
-  /* -------------------- Header: app + version, hash, verdict, platform and date -------------------- */
+  /* -------------------- Header: app + version, platform and date, hash, verdict -------------------- */
   const isReproducible = status === 'reproducible';
   const hashesEl = verificationHashes.length > 0
     ? el('div', { className: 'verification-modal-hashes' }, ...verificationHashes.map(hash =>
       el('span', { className: 'verification-modal-hash-row' },
-        el('span', { className: 'verification-modal-hash', title: hash }, hash.slice(0, 8)),
+        el('span', { className: 'verification-modal-hash', title: hash }, hash.slice(0, 7)),
         el('button', {
           type: 'button',
           className: 'verification-modal-icon-btn js-copy-hash',
@@ -822,6 +822,8 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     : null;
   heading.replaceChildren(...[
     el('h2', { id: 'verificationModalTitle', className: 'verification-modal-title' }, `Build Verification for ${walletTitle ?? ''} ${version ?? ''}`.trim()),
+    el('p', { className: 'verification-modal-subtitle' },
+      [platformLabel(verificationPlatform), formatDate(verification.created_at)].filter(Boolean).join(' · ')),
     hashesEl,
     el('div', { className: 'verification-modal-badges' },
       el('span', { className: `verification-modal-status verification-modal-status--${isReproducible ? 'good' : 'bad'}` },
@@ -830,8 +832,6 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
       ),
       isDraft ? el('span', { className: 'verification-draft-badge' }, isMyDraft ? 'Draft, not published yet' : 'Draft') : null,
     ),
-    el('p', { className: 'verification-modal-subtitle' },
-      [platformLabel(verificationPlatform), formatDate(verification.created_at)].filter(Boolean).join(' · ')),
   ].filter(Boolean));
 
   /* -------------------- Toolbar: one row of quiet action chips -------------------- */
