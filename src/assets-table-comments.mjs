@@ -1,6 +1,7 @@
 import { wsIcon } from './icon.mjs';
 import { el, isSha256Hex } from './html-utils.mjs';
 import { getProfileImageUrl, PROFILE_PLACEHOLDER_IMAGE, profileImageFallback } from './nostr-profile.mjs';
+import { hasExtension } from './opinions/auth.mjs';
 
 let assetTableCommentsContainer = null;
 let assetTableCommentsVerificationKey = null;
@@ -180,6 +181,15 @@ function addCommentStyles() {
     body.dark .comments-section .comment-date {
       color: #aaa;
     }
+    .comments-empty-note {
+      font-weight: normal;
+      letter-spacing: normal;
+      text-transform: none;
+    }
+    .comments-empty-note a {
+      cursor: pointer;
+      text-decoration: underline;
+    }
     .see-more-container {
       margin-top: 3px;
       text-align: center;
@@ -256,6 +266,31 @@ async function handleCommentSubmit(verificationKey, textarea, button) {
   }
 }
 
+function commentInputHtml() {
+  return `
+      <div class="comment-input-container">
+        <textarea class="comment-input" placeholder="Write a comment to this verification..."></textarea>
+        <button class="comment-submit-btn">Post</button>
+      </div>`;
+}
+
+function bindCommentInput(container) {
+  const submitButton = container.querySelector('.comment-submit-btn');
+  const textarea = container.querySelector('.comment-input');
+
+  if (submitButton && textarea) {
+    submitButton.addEventListener('click', () => {
+      handleCommentSubmit(assetTableCommentsVerificationKey, textarea, submitButton);
+    });
+    textarea.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' && (event.ctrlKey || event.metaKey)) {
+        event.preventDefault();
+        handleCommentSubmit(assetTableCommentsVerificationKey, textarea, submitButton);
+      }
+    });
+  }
+}
+
 export async function renderCommentsSection(container, verificationKey, authorPubkey) {
   assetTableCommentsContainer = container;
   assetTableCommentsVerificationKey = verificationKey;
@@ -272,13 +307,34 @@ export async function renderCommentsSection(container, verificationKey, authorPu
     profilePubkeys.push(comment.pubkey);
   }
 
+  // With no comments yet, a one-line caption saves space: the input opens on
+  // "add yours", and without an extension there is nothing to open.
+  if (commentsForThisVerification.length === 0) {
+    const canComment = await hasExtension();
+    if (container !== assetTableCommentsContainer || verificationKey !== assetTableCommentsVerificationKey) {
+      return;
+    }
+    container.innerHTML = `
+    <div class="comments-section">
+      <p style="font-weight: bold;">Comments <span class="comments-empty-note">- ${canComment
+        ? 'no comments, <a href="#" class="comments-add-link">add yours</a>'
+        : 'nostr extension needed for first comment'}</span></p>
+    </div>
+  `;
+    container.querySelector('.comments-add-link')?.addEventListener('click', (event) => {
+      event.preventDefault();
+      container.querySelector('.comments-empty-note').remove();
+      container.querySelector('.comments-section').insertAdjacentHTML('beforeend', commentInputHtml());
+      bindCommentInput(container);
+      container.querySelector('.comment-input')?.focus();
+    });
+    return;
+  }
+
   container.innerHTML = `
     <div class="comments-section">
       <p style="font-weight: bold;">Comments</p>
-      <div class="comment-input-container">
-        <textarea class="comment-input" placeholder="Write a comment to this verification..."></textarea>
-        <button class="comment-submit-btn">Post</button>
-      </div>
+      ${commentInputHtml()}
       <div class="comments-list">
         ${commentsForThisVerification.map((comment, index) => {
           const safePubkey = isSha256Hex(comment.pubkey) ? comment.pubkey : '';
@@ -363,20 +419,7 @@ export async function renderCommentsSection(container, verificationKey, authorPu
     }
   });
 
-  const submitButton = container.querySelector('.comment-submit-btn');
-  const textarea = container.querySelector('.comment-input');
-
-  if (submitButton && textarea) {
-    submitButton.addEventListener('click', () => {
-      handleCommentSubmit(assetTableCommentsVerificationKey, textarea, submitButton);
-    });
-    textarea.addEventListener('keydown', (event) => {
-      if (event.key === 'Enter' && (event.ctrlKey || event.metaKey)) {
-        event.preventDefault();
-        handleCommentSubmit(assetTableCommentsVerificationKey, textarea, submitButton);
-      }
-    });
-  }
+  bindCommentInput(container);
 
   container.querySelectorAll('.comment-delete-btn').forEach((deleteBtn) => {
     deleteBtn.addEventListener('click', async (event) => {
