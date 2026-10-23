@@ -30,10 +30,11 @@ describe('attested file names', () => {
     assert.equal(getAttestedFileNames({ tags: [['x', A]] }, undefined).get(A), '');
   });
 
-  test('each file is a list line: the name and short hash, or the short hash alone, and a hidden download', () => {
+  test('each file is a list line: name, hidden download, hyphen, short hash, copy; unnamed drops name and hyphen', () => {
     const named = buildAttestedFileHtml('base.apk', A);
-    assert.match(named, />base\.apk<\/span><small title="a{64}">aaaaaaaa<\/small>/);
-    assert.match(named, /<button data-file-name="base\.apk"[^>]* hidden[ >]/);
-    assert.match(buildAttestedFileHtml('', B), />bbbbbbbb<\/span><button/);
+    assert.match(named, />base\.apk<\/span><button data-file-name="base\.apk"[^>]* hidden[ >][^]*<\/button><span [^>]*>-<\/span><span title="a{64}" class="verification-modal-hash">aaaaaaa<\/span><button [^>]*data-hash="a{64}"/);
+    const unnamed = buildAttestedFileHtml('', B);
+    assert.doesNotMatch(unnamed, /file__name|file__sep/);
+    assert.match(unnamed, /^<li [^>]*><button [^]*<\/button><span [^>]*>bbbbbbb<\/span><button [^>]*js-copy-hash/);
   });
 });

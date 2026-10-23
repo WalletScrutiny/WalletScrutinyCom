@@ -134,22 +134,36 @@ export function getAttestedFileNames(verification, assets) {
   return names;
 }
 
+const attestedFileNameEl = fileName => el('span', { className: 'verification-modal-file__name', title: fileName }, fileName);
+/** Sets a named file's download apart from its hash. */
+const attestedFileSepEl = () => el('span', { className: 'verification-modal-file__sep', 'aria-hidden': 'true' }, '-');
+
 /**
- * One attested file: its name (the short hash while none is known), the short hash, and a download
- * button that stays hidden until Blossom confirms it has the blob.
+ * One attested file: its name, a download button that stays hidden until Blossom confirms it has the
+ * blob, a hyphen, the first 7 characters of its hash and a button that copies the whole hash.
+ * A file nobody named shows only the download, the hash and the copy button.
  */
 export function buildAttestedFileHtml(fileName, hash) {
   return htmlOf(el('li', { className: 'verification-modal-file', dataset: { hash } },
-    el('span', { className: 'verification-modal-file__name', title: fileName || hash }, fileName || hash.slice(0, 8)),
-    fileName ? el('small', { title: hash }, hash.slice(0, 8)) : null,
+    fileName ? attestedFileNameEl(fileName) : null,
     el('button', {
       type: 'button',
       className: 'verification-modal-file__download js-download-blossom-file',
       hidden: true,
       title: `Download ${fileName || 'this file'}`,
-      'aria-label': `Download ${fileName || hash.slice(0, 8)}`,
+      'aria-label': `Download ${fileName || hash.slice(0, 7)}`,
       dataset: { fileHash: hash, fileName: fileName || '' },
       html: wsIcon('download'),
+    }),
+    fileName ? attestedFileSepEl() : null,
+    el('span', { className: 'verification-modal-hash', title: hash }, hash.slice(0, 7)),
+    el('button', {
+      type: 'button',
+      className: 'verification-modal-icon-btn js-copy-hash',
+      title: 'Copy entire hash',
+      'aria-label': 'Copy entire hash',
+      dataset: { hash },
+      html: wsIcon('copy'),
     }),
   ));
 }
@@ -188,7 +202,7 @@ function watchReportTableFit(content) {
 /** Fills in names the table had not loaded yet (a deep link opens the modal first) from the relays. */
 async function fillMissingAttestedFileNames(listEl, verification) {
   const rows = [...listEl.querySelectorAll('.verification-modal-file')]
-    .filter(row => !row.querySelector('small'));
+    .filter(row => !row.querySelector('.verification-modal-file__name'));
   if (rows.length === 0) {
     return;
   }
@@ -206,14 +220,12 @@ async function fillMissingAttestedFileNames(listEl, verification) {
   }
   for (const row of rows) {
     const fileName = names.get(row.dataset.hash);
-    if (!fileName || row.querySelector('small')) {
+    if (!fileName || row.querySelector('.verification-modal-file__name')) {
       continue;
     }
-    const name = row.querySelector('.verification-modal-file__name');
-    name.textContent = fileName;
-    name.title = fileName;
-    name.after(el('small', { title: row.dataset.hash }, row.dataset.hash.slice(0, 8)));
     const download = row.querySelector('.js-download-blossom-file');
+    download.before(attestedFileNameEl(fileName));
+    download.after(attestedFileSepEl());
     download.dataset.fileName = fileName;
     download.title = `Download ${fileName}`;
     download.setAttribute('aria-label', `Download ${fileName}`);
@@ -824,27 +836,12 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     .map(tag => tag[1])
     .filter(id => isSha256Hex(id));
 
-  /* -------------------- Header: app + version, platform and date, hash, verdict -------------------- */
+  /* -------------------- Header: app + version, platform and date, verdict -------------------- */
   const isReproducible = status === 'reproducible';
-  const hashesEl = verificationHashes.length > 0
-    ? el('div', { className: 'verification-modal-hashes' }, ...verificationHashes.map(hash =>
-      el('span', { className: 'verification-modal-hash-row' },
-        el('span', { className: 'verification-modal-hash', title: hash }, hash.slice(0, 7)),
-        el('button', {
-          type: 'button',
-          className: 'verification-modal-icon-btn js-copy-hash',
-          title: 'Copy entire hash',
-          'aria-label': 'Copy entire hash',
-          dataset: { hash },
-          html: wsIcon('copy'),
-        }),
-      )))
-    : null;
   heading.replaceChildren(...[
     el('h2', { id: 'verificationModalTitle', className: 'verification-modal-title' }, `Build Verification for ${walletTitle ?? ''} ${version ?? ''}`.trim()),
     el('p', { className: 'verification-modal-subtitle' },
       [platformLabel(verificationPlatform), formatDate(verification.created_at)].filter(Boolean).join(' · ')),
-    hashesEl,
     el('div', { className: 'verification-modal-badges' },
       el('span', { className: `verification-modal-status verification-modal-status--${isReproducible ? 'good' : 'bad'}` },
         el('span', { className: 'verification-modal-mark', 'aria-hidden': 'true', html: wsIcon(isReproducible ? 'check' : 'xmark') }),
