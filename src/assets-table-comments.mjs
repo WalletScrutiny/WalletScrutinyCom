@@ -1,5 +1,6 @@
 import { wsIcon } from './icon.mjs';
 import { el, isSha256Hex } from './html-utils.mjs';
+import { getProfileImageUrl, PROFILE_PLACEHOLDER_IMAGE, profileImageFallback } from './nostr-profile.mjs';
 
 let assetTableCommentsContainer = null;
 let assetTableCommentsVerificationKey = null;
@@ -124,6 +125,13 @@ function addCommentStyles() {
     body.dark .comment-delete-btn:hover {
       color: #f66;
       background-color: rgba(255, 255, 255, 0.08);
+    }
+    .comment-author-avatar {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
     }
     .comment-author-name {
       min-width: 0;
@@ -281,6 +289,7 @@ export async function renderCommentsSection(container, verificationKey, authorPu
           return `
           <div class="ws-v-comment comment-profile-${safePubkey}" ${index >= MAX_COMMENTS_TO_SHOW ? 'hidden' : ''}>
             <div class="comment-author">
+              <img class="comment-author-avatar" src="${PROFILE_PLACEHOLDER_IMAGE}" alt="" loading="lazy">
               <span class="comment-author-name" data-pubkey="${safePubkey}">${escapeHtml(comment.author)}</span>
               <span class="comment-date">${escapeHtml(comment.date)}</span>
               ${window.userPubkey && safePubkey === window.userPubkey && safeId ? `
@@ -324,6 +333,12 @@ export async function renderCommentsSection(container, verificationKey, authorPu
       ]);
       
       document.querySelectorAll(`.comment-profile-${pubkey}`).forEach(profileElement => {
+        const avatar = profileElement.querySelector('.comment-author-avatar');
+        const imageUrl = getProfileImageUrl(profile);
+        if (avatar && imageUrl !== PROFILE_PLACEHOLDER_IMAGE) {
+          avatar.addEventListener('error', () => profileImageFallback(avatar), { once: true });
+          avatar.src = imageUrl;
+        }
         const commentAuthorName = profileElement.querySelector('.comment-author-name');
         if (commentAuthorName) {
           const displayName = profile?.name || pubkey;
