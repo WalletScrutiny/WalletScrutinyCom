@@ -28,7 +28,7 @@ icon: blockstreamjade.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-08-04
+date: 2026-10-23
 signer: 
 twitter: Blockstream
 social:
@@ -38,7 +38,14 @@ social:
 - https://www.youtube.com/channel/UCZNt3fZazX9cwWcC9vjDJ4Q
 builds:
 - arch: esp32
-  types: jade
+  # One key per --type of blockstreamjade_build.sh, so ABS starts one job per variant. Patterns stay
+  # empty: Jade 1.0 (bin/jade) and Jade 1.1 (bin/jade1.1) publish files with the same names
+  # (<version>_ble|noradio_<size>_fw.bin), so a pattern could hand a 1.1 file to a 1.0 job.
+  types:
+    jade-ble: []
+    jade-noradio: []
+    jade1.1-ble: []
+    jade1.1-noradio: []
 features:
 - camera
 - foss
