@@ -32,7 +32,7 @@
     "p-limit": "^7.3.3",
     "postcss": "^8.5.31",
     "terser-webpack-plugin": "^5.6.1",
-    "webpack": "^5.112.0",
+    "webpack": "^5.112.1",
     "webpack-bundle-analyzer": "^5.4.0",
     "webpack-cli": "^7.2.3",
     "webpack-shell-plugin-next": "^2.3.3"
