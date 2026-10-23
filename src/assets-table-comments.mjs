@@ -318,7 +318,7 @@ export async function renderCommentsSection(container, verificationKey, authorPu
     <div class="comments-section">
       <p style="font-weight: bold;">Comments <span class="comments-empty-note">- ${canComment
         ? 'no comments, <a href="#" class="comments-add-link">add yours</a>'
-        : 'nostr extension needed to comment'}</span></p>
+        : 'nostr extension needed for first comment'}</span></p>
     </div>
   `;
     container.querySelector('.comments-add-link')?.addEventListener('click', (event) => {
