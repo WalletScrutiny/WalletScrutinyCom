@@ -30,7 +30,7 @@
   } catch (e) {}
 </script>
 
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css?v={{ site.time | date: "%s" }}">
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/site-styles.css?v={{ site.time | date: "%s" }}">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css?v={{ 'assets/css/main.scss' | sass_digest }}">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/site-styles.css?v={{ 'assets/css/site-styles.scss' | sass_digest }}">
 
 <meta http-equiv="cleartype" content="on">
