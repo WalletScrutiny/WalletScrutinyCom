@@ -72,7 +72,7 @@ test.describe('ZEUS verification detail page', () => {
       expect(createdAtIso).toMatch(/^2026-05-08T16:59:/);
 
       // Under the title, the platform and date line, then the verdict. The hash sits in Attested files:
-      // its first 7 characters after the file, and a copy icon that copies the whole hash.
+      // its first 7 characters after the file, then a copy icon that copies the whole hash, then the download.
       await expect.soft(content).not.toContainText('Hash of the binary reproduced');
       const header = modal.locator('#verificationModalHeading');
       await expect.soft(header.locator('.verification-modal-title + .verification-modal-subtitle + .verification-modal-badges')).toHaveCount(1);
@@ -82,6 +82,7 @@ test.describe('ZEUS verification detail page', () => {
       const copyHash = attested.locator('.verification-modal-hash + .js-copy-hash');
       await expect.soft(copyHash).toHaveAttribute('title', 'Copy entire hash');
       await expect.soft(copyHash).toHaveAttribute('data-hash', '709e379506f7d86cfb146493441fc72b7f20cb90578a9b26b9ca9da374782caf');
+      await expect.soft(attested.locator('.js-copy-hash + .js-download-blossom-file')).toHaveCount(1);
       // The header carries the verdict, the app and version, the platform and the date.
       const heading = modal.locator('#verificationModalHeading');
       await expect.soft(heading.locator('.verification-modal-title')).toHaveText('Build Verification for ZEUS Wallet 13.0.1');

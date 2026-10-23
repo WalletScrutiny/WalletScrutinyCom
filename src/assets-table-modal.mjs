@@ -135,26 +135,17 @@ export function getAttestedFileNames(verification, assets) {
 }
 
 const attestedFileNameEl = fileName => el('span', { className: 'verification-modal-file__name', title: fileName }, fileName);
-/** Sets a named file's download apart from its hash. */
+/** Sets a named file's name apart from its hash. */
 const attestedFileSepEl = () => el('span', { className: 'verification-modal-file__sep', 'aria-hidden': 'true' }, '-');
 
 /**
- * One attested file: its name, a download button that stays hidden until Blossom confirms it has the
- * blob, a hyphen, the first 7 characters of its hash and a button that copies the whole hash.
- * A file nobody named shows only the download, the hash and the copy button.
+ * One attested file: its name, a hyphen, the first 7 characters of its hash, a button that copies the
+ * whole hash and a download button that stays hidden until Blossom confirms it has the blob.
+ * A file nobody named starts at the hash.
  */
 export function buildAttestedFileHtml(fileName, hash) {
   return htmlOf(el('li', { className: 'verification-modal-file', dataset: { hash } },
     fileName ? attestedFileNameEl(fileName) : null,
-    el('button', {
-      type: 'button',
-      className: 'verification-modal-file__download js-download-blossom-file',
-      hidden: true,
-      title: `Download ${fileName || 'this file'}`,
-      'aria-label': `Download ${fileName || hash.slice(0, 7)}`,
-      dataset: { fileHash: hash, fileName: fileName || '' },
-      html: wsIcon('download'),
-    }),
     fileName ? attestedFileSepEl() : null,
     el('span', { className: 'verification-modal-hash', title: hash }, hash.slice(0, 7)),
     el('button', {
@@ -164,6 +155,15 @@ export function buildAttestedFileHtml(fileName, hash) {
       'aria-label': 'Copy entire hash',
       dataset: { hash },
       html: wsIcon('copy'),
+    }),
+    el('button', {
+      type: 'button',
+      className: 'verification-modal-file__download js-download-blossom-file',
+      hidden: true,
+      title: `Download ${fileName || 'this file'}`,
+      'aria-label': `Download ${fileName || hash.slice(0, 7)}`,
+      dataset: { fileHash: hash, fileName: fileName || '' },
+      html: wsIcon('download'),
     }),
   ));
 }
@@ -224,8 +224,7 @@ async function fillMissingAttestedFileNames(listEl, verification) {
       continue;
     }
     const download = row.querySelector('.js-download-blossom-file');
-    download.before(attestedFileNameEl(fileName));
-    download.after(attestedFileSepEl());
+    row.prepend(attestedFileNameEl(fileName), attestedFileSepEl());
     download.dataset.fileName = fileName;
     download.title = `Download ${fileName}`;
     download.setAttribute('aria-label', `Download ${fileName}`);
