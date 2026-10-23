@@ -1496,10 +1496,9 @@ body.dark #verificationModalToolbar .share-dropdown-menu a:focus-visible img {
   grid-column: 1 / -1;
 }
 
-/* Only the first 7 hex characters; the copy icon beside it copies the whole hash. */
+/* Only the first 7 hex characters, in the file name's font; the copy icon beside it copies the whole hash. */
 .verification-modal-hash {
-  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
-  font-size: $font-sm;
+  font: inherit;
 }
 
 /* Icon button: copy a hash. The same outline as the file download buttons beside it. */
