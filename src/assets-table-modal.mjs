@@ -1036,11 +1036,11 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
       `<ul id="verification-attested-files" class="verification-modal-files">${
         verificationHashes.map(hash => buildAttestedFileHtml(attestedFileNames.get(hash), hash)).join('')}</ul>`);
   }
-  if (outputFilesHTML) {
-    contentHTML += sectionHtml('Output files', `<ul class="verification-modal-files">${outputFilesHTML}</ul>`);
-  }
   if (attachmentsSectionHTML) {
     contentHTML += sectionHtml('Scripts used to reproduce', attachmentsSectionHTML);
+  }
+  if (outputFilesHTML) {
+    contentHTML += sectionHtml('Output files', `<ul class="verification-modal-files">${outputFilesHTML}</ul>`);
   }
   if (otherVerificationsHTML !== '') {
     contentHTML += sectionHtml('Other attempts by this verifier', `<ul class="verification-modal-attempts">${otherVerificationsHTML}</ul>`);
