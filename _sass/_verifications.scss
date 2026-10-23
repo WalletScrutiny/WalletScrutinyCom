@@ -1629,6 +1629,23 @@ body.dark .verification-modal-chip {
   gap: 6px;
 }
 
+.verification-modal-file[hidden] {
+  display: none;
+}
+/* "View N more" under the build log: a plain text link, like the table's "Show N more". */
+.verification-modal-files__more {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--accent-text);
+  font: inherit;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 /* File buttons (download, preview): the build log button's outline, icon only. */
 .verification-modal-file__download {
   flex: 0 0 auto;
