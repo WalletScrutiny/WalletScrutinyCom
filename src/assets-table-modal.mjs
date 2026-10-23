@@ -48,7 +48,7 @@ export function shortenOutputFileName(fileName) {
 
 /**
  * One output file: its name, a download button and, for a recording, the build log button (`extraHtml`, markup from buildBuildLogButtonHtml).
- * When the recording is the only file, `nameHidden` drops the name and puts the build log button first.
+ * For a recording, `nameHidden` drops the name and puts the build log button first.
  */
 export function buildOutputFileDownloadHtml(fileName, fileHash, extraHtml = '', { nameHidden = false } = {}) {
   const log = extraHtml ? el('span', { className: 'verification-modal-file__log', html: extraHtml }) : null;
@@ -938,17 +938,22 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
 
   let diffoscopeFiles = [];
   let outputFilesHTML = '';
-  for (const outputFile of verificationOutputFiles) {
-    /* A recording opens in the build log viewer, from a button beside its own file. */
-    const buildLogHTML = outputFile[1].includes('.cast')
+  /* Recordings first: the build log is the output most people want. */
+  const isRecording = outputFile => outputFile[1].includes('.cast');
+  const orderedOutputFiles = [
+    ...verificationOutputFiles.filter(isRecording),
+    ...verificationOutputFiles.filter(outputFile => !isRecording(outputFile)),
+  ];
+  for (const outputFile of orderedOutputFiles) {
+    /* A recording opens in the build log viewer, from a button beside its own download. */
+    const buildLogHTML = isRecording(outputFile)
       ? buildBuildLogButtonHtml(outputFile[2], outputFile[1], `${walletTitle} ${version ?? ''}`.trim())
       : '';
     if (outputFile[1].includes('diffo') && outputFile[1].includes('html') && isSha256Hex(outputFile[2])) {
       diffoscopeFiles.push(outputFile);
     }
-    /* A lone recording needs no name: the build log button says what it is. */
-    const nameHidden = Boolean(buildLogHTML) && verificationOutputFiles.length === 1;
-    outputFilesHTML += buildOutputFileDownloadHtml(outputFile[1], outputFile[2], buildLogHTML, { nameHidden });
+    /* A recording needs no name: the build log button says what it is. */
+    outputFilesHTML += buildOutputFileDownloadHtml(outputFile[1], outputFile[2], buildLogHTML, { nameHidden: Boolean(buildLogHTML) });
   }
 
   let attachmentsSectionHTML = '';

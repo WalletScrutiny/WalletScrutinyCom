@@ -199,7 +199,7 @@ test.describe('ZEUS verification detail page', () => {
       const button = content.locator('.js-open-build-log');
       const viewer = page.locator('#buildLogViewer');
 
-      // In the output files, and nowhere else. The recording is ZEUS's only output file, so its row
+      // In the output files, and nowhere else. A recording's row
       // drops the name and shows the build log button, then the recording's download.
       await expect(button).toHaveCount(1);
       const recording = content.locator('.verification-modal-file', { has: page.locator('.js-open-build-log') });
