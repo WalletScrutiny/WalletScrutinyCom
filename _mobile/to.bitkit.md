@@ -69,6 +69,8 @@ This app is **source-available**.
 
 {% include featureEvidence.html feature="segwit" quote="The app has a Bech32 BTC address" source="Analysis" %}
 
+{% include featureEvidence.html feature="screenReader" comment="Code scan of the public source (2026-10-23): 374 accessibility labels on buttons and icons, 281 decorative images hidden from screen readers. Not yet tested hands-on." source="[synonymdev/bitkit-android](https://github.com/synonymdev/bitkit-android)" %}
+
 An issue has been opened at [https://github.com/synonymdev/bitkit/issues/2414#deadLink](https://github.com/synonymdev/bitkit/issues/2414#deadLink)
 
 ---

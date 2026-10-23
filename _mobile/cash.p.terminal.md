@@ -17,6 +17,7 @@ features:
 - secEl
 - companion
 - foss
+- screenReader
 redirect_from:
 - /android/cash.p.terminal/
 android:
@@ -65,3 +66,5 @@ A powerful non-custodial multi-wallet for PirateCash, Cosanta, Bitcoin, Ethereum
 - A [search on GitHub](https://github.com/search?q=cash.p.terminal&type=code) for the app ID does not show any results.
 
 {% include featureEvidence.html feature="foss" quote="Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software" source="License" %}
+
+{% include featureEvidence.html feature="screenReader" comment="Code scan of the public source (2026-10-23): 415 accessibility labels on buttons and icons, 312 decorative images hidden from screen readers. Not yet tested hands-on." source="[piratecash/pcash-wallet-android](https://github.com/piratecash/pcash-wallet-android)" %}

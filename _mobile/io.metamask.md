@@ -16,6 +16,7 @@ social:
 features:
 - tradeAlts
 - buyWithCC
+- screenReader
 redirect_from:
 - /android/io.metamask/
 - /iphone/io.metamask.MetaMask/
@@ -52,6 +53,8 @@ iphone:
 
 ## Android
 
+{% include featureEvidence.html feature="screenReader" comment="Code scan of the public source (2026-10-23): 513 accessibility labels on buttons and icons, 55 decorative images hidden from screen readers, and 46 places where it adapts to a running screen reader. Not yet tested hands-on." source="[MetaMask/metamask-mobile](https://github.com/MetaMask/metamask-mobile)" %}
+
 ## App Description
 
 MetaMask is an Android self-custodial cryptocurrency wallet primarily designed for Ethereum and other EVM-compatible networks, allowing users to manage private keys locally and interact with decentralized applications.
@@ -74,5 +77,7 @@ This app is **now ready for verification**.
 
 {% include featureEvidence.html feature="tradeAlts" source="[Website](https://metamask.io/)" quote="Swaps Safely exchange any token" %}
 {% include featureEvidence.html feature="buyWithCC" source="[Website](https://metamask.io/)" quote="Buy Turn cash to crypto" %}
+
+{% include featureEvidence.html feature="screenReader" comment="Code scan of the public source (2026-10-23): 513 accessibility labels on buttons and icons, 55 decorative images hidden from screen readers, and 46 places where it adapts to a running screen reader. Not yet tested hands-on." source="[MetaMask/metamask-mobile](https://github.com/MetaMask/metamask-mobile)" %}
 
 {% include copyFromAndroid.html %}

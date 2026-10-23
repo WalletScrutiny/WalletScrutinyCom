@@ -81,6 +81,8 @@ The provider has their own **[script](https://github.com/nunchuk-io/nunchuk-andr
 
 {% include featureEvidence.html feature="segwit" comment="(no justification provided by LLM)" %}
 
+{% include featureEvidence.html feature="screenReader" comment="Code scan of the public source (2026-10-23): 490 accessibility labels on buttons and icons, 97 decorative images hidden from screen readers. Not yet tested hands-on." source="[nunchuk-io/nunchuk-android](https://github.com/nunchuk-io/nunchuk-android)" %}
+
 An issue has been opened at [https://github.com/nunchuk-io/nunchuk-android/issues/23#issuecomment-2723364936](https://github.com/nunchuk-io/nunchuk-android/issues/23#issuecomment-2723364936)
 
 ---

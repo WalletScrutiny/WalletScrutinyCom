@@ -16,6 +16,7 @@ features:
 - multiAccount
 - customNode
 - tradeAlts
+- screenReader
 redirect_from:
 - /android/com.cypherstack.stackwallet/
 - /iphone/com.cypherstack.stackwallet/
@@ -113,10 +114,14 @@ The Stack Wallet build was not successful due to the failure of the `build_app.s
 
 {% include featureEvidence.html feature="tradeAlts" quote="Trading cryptocurrencies through our partners." source="Store" %}
 
+{% include featureEvidence.html feature="screenReader" comment="Code scan of the public source (2026-10-23): 65 accessibility labels on buttons and icons, 13 decorative images hidden from screen readers. Not yet tested hands-on." source="[cypherstack/stack_wallet](https://github.com/cypherstack/stack_wallet)" %}
+
 An issue has been opened at [https://github.com/cypherstack/stack_wallet/issues/984](https://github.com/cypherstack/stack_wallet/issues/984)
 
 ---
 
 ## iPhone
+
+{% include featureEvidence.html feature="screenReader" comment="Code scan of the public source (2026-10-23): 65 accessibility labels on buttons and icons, 13 decorative images hidden from screen readers. Not yet tested hands-on." source="[cypherstack/stack_wallet](https://github.com/cypherstack/stack_wallet)" %}
 
 {% include copyFromAndroid.html %}

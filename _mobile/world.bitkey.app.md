@@ -79,6 +79,8 @@ This app is **source available**
 
 {% include featureEvidence.html feature="nfc" quote="It requires an NFC-capable phone, otherwise the app would not be installed." source="Existing WalletScrutiny review" comment="Excluded per rule 7 — evidence found only in the Review body. Removing this entry." %}
 
+{% include featureEvidence.html feature="screenReader" comment="Code scan of the public source (2026-10-23): 67 accessibility labels on buttons and icons, 27 decorative images hidden from screen readers. Not yet tested hands-on." source="[proto-at-block/bitkey](https://github.com/proto-at-block/bitkey)" %}
+
 An issue has been opened at [https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/647](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/647)
 
 ---

@@ -103,6 +103,8 @@ iphone:
 
 {% include featureEvidence.html feature="hd" quote="Create a new wallet and store the secret phrase somewhere safe" source="Website" %}
 
+{% include featureEvidence.html feature="screenReader" comment="Code scan of the public source (2026-10-23): 120 accessibility labels on buttons and icons, 66 decorative images hidden from screen readers. Not yet tested hands-on." source="[gemwalletcom/wallet](https://github.com/gemwalletcom/wallet)" %}
+
 ---
 
 ## iPhone

@@ -19,6 +19,7 @@ features:
 - customNode
 - foss
 - segwit
+- screenReader
 redirect_from:
 - /android/com.foundationdevices.envoy/
 - /iphone/com.foundationdevices.envoy/
@@ -91,10 +92,14 @@ Envoy is the companion app for both {% include walletLink.html wallet='hardware/
 
 {% include featureEvidence.html feature="segwit" comment="(no justification provided by LLM)" %}
 
+{% include featureEvidence.html feature="screenReader" comment="Code scan of the public source (2026-10-23): 79 accessibility labels on buttons and icons, 10 decorative images hidden from screen readers. Not yet tested hands-on." source="[Foundation-Devices/envoy](https://github.com/Foundation-Devices/envoy)" %}
+
 An issue has been opened at [https://github.com/Foundation-Devices/envoy/issues/1395](https://github.com/Foundation-Devices/envoy/issues/1395)
 
 ---
 
 ## iPhone
+
+{% include featureEvidence.html feature="screenReader" comment="Code scan of the public source (2026-10-23): 79 accessibility labels on buttons and icons, 10 decorative images hidden from screen readers. Not yet tested hands-on." source="[Foundation-Devices/envoy](https://github.com/Foundation-Devices/envoy)" %}
 
 {% include copyFromAndroid.html %}

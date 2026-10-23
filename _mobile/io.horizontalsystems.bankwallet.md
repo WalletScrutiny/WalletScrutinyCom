@@ -85,6 +85,8 @@ This app is **source available**.
 
 {% include featureEvidence.html feature="tradeAlts" quote="execute cross-chain swaps via THORChain" source="App Description" %}
 
+{% include featureEvidence.html feature="screenReader" comment="Code scan of the public source (2026-10-23): 321 accessibility labels on buttons and icons, 257 decorative images hidden from screen readers. Not yet tested hands-on." source="[horizontalsystems/unstoppable-wallet-android](https://github.com/horizontalsystems/unstoppable-wallet-android)" %}
+
 ---
 
 ## iPhone

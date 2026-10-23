@@ -46,6 +46,8 @@ iphone:
 
 ## Android
 
+{% include featureEvidence.html feature="screenReader" comment="Code scan of the public source (2026-10-23): 655 accessibility labels on buttons and icons, 346 decorative images hidden from screen readers. Not yet tested hands-on." source="[MixinNetwork/android-app](https://github.com/MixinNetwork/android-app)" %}
+
 *Legacy Verification [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/33ef490dd35a82be08872f7b30a5e79d19aed087/_android/one.mixin.messenger.md)*
 
 ---

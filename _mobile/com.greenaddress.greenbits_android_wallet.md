@@ -74,6 +74,8 @@ This app is **source available**
 
 {% include featureEvidence.html feature="multiSig" quote="our unique multisig security model" source="GitHub README" %}
 
+{% include featureEvidence.html feature="screenReader" comment="Code scan of the public source (2026-10-23): 226 accessibility labels on buttons and icons, 144 decorative images hidden from screen readers. Not yet tested hands-on." source="[Blockstream/green_android](https://github.com/Blockstream/green_android)" %}
+
 An issue has been opened at [https://github.com/Blockstream/green_android/issues/253](https://github.com/Blockstream/green_android/issues/253)
 
 ---

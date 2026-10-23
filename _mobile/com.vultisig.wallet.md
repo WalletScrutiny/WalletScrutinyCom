@@ -78,6 +78,8 @@ Our verdict is **sourceavailable**: the Android and iOS source is public and we 
 
 {% include featureEvidence.html feature="foss" quote="Open-Source Audited" source="Website" %}
 
+{% include featureEvidence.html feature="screenReader" comment="Code scan of the public source (2026-10-23): 195 accessibility labels on buttons and icons, 137 decorative images hidden from screen readers. Not yet tested hands-on." source="[vultisig/vultisig-android](https://github.com/vultisig/vultisig-android)" %}
+
 ---
 
 ## iPhone

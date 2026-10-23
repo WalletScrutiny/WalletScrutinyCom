@@ -63,4 +63,6 @@ Stack Duo is Cypher Stack's own Bitcoin-and-Monero-only edition of {% include wa
 
 ## iPhone
 
+{% include featureEvidence.html feature="screenReader" comment="Code scan of the public source (2026-10-23): 65 accessibility labels on buttons and icons, 13 decorative images hidden from screen readers. Not yet tested hands-on." source="[cypherstack/stack_wallet](https://github.com/cypherstack/stack_wallet)" %}
+
 {% include copyFromAndroid.html %}

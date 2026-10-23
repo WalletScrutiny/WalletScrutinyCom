@@ -560,3 +560,25 @@ selfBuild:
 
     * Without a reproducibility commitment, self-building still requires
       trusting the source code has not been tampered with since any given audit.
+screenReader:
+  short: Screen Reader
+  long: >
+    Blind and low-vision people use their phone through a screen reader,
+    TalkBack on Android or VoiceOver on iPhone, which reads out what is on the
+    screen. That only works if the app gives its buttons and icons text labels.
+    An icon-only button without one is read out as "button", or not at all.
+
+
+    We list this feature when the app's public source code labels its buttons
+    and icons systematically and hides purely decorative images from the
+    screen reader. It is a check of the code, not a hands-on test, unless the
+    evidence below says otherwise.
+  benefit: >
+    * **Usable without sight:** A blind user can find out what each button does
+      and operate the wallet on their own, without asking someone else to read
+      the screen, which would expose their balance or their recovery phrase.
+  drawback: >
+    * Some wallets deliberately hide the recovery phrase from screen readers, to
+      keep malicious accessibility apps from reading it. That protects sighted
+      users but means a blind user cannot write down or restore the backup
+      alone. Where we know of this, the evidence below says so.

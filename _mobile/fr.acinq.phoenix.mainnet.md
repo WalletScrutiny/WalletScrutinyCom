@@ -67,6 +67,8 @@ An issue has been opened at [https://github.com/ACINQ/phoenix/issues/112](https:
 
 {% include featureEvidence.html feature="foss" source="[App Store](https://apps.apple.com/app/co.acinq.phoenix)" quote="Phoenix is a non-custodial wallet, and is fully open source." %}
 
+{% include featureEvidence.html feature="screenReader" comment="Code scan of the public source (2026-10-23): 107 accessibility labels on buttons and icons, and it announces new screens and messages to VoiceOver in 11 places. Not yet tested hands-on." source="[ACINQ/phoenix](https://github.com/ACINQ/phoenix)" %}
+
 {% include copyFromAndroid.html %}
 
 An issue has been opened at [https://github.com/ACINQ/phoenix/issues/112](https://github.com/ACINQ/phoenix/issues/112)
