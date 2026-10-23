@@ -946,8 +946,9 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
     ...recordingFiles,
     ...verificationOutputFiles.filter(outputFile => !isRecording(outputFile)),
   ];
-  /* Beside a build log, the other output files fold under a "View N more" link. */
-  const foldedOutputFileCount = recordingFiles.length > 0 ? orderedOutputFiles.length - recordingFiles.length : 0;
+  /* Beside a build log, two or more other output files fold under a "View N more" link; a single one shows, since the link would take its row. */
+  const otherOutputFileCount = orderedOutputFiles.length - recordingFiles.length;
+  const foldedOutputFileCount = recordingFiles.length > 0 && otherOutputFileCount > 1 ? otherOutputFileCount : 0;
   for (const [index, outputFile] of orderedOutputFiles.entries()) {
     if (foldedOutputFileCount > 0 && index === recordingFiles.length) {
       outputFilesHTML += htmlOf(el('li', { className: 'verification-modal-file' },
