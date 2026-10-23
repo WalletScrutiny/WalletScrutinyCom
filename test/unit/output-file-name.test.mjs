@@ -37,7 +37,7 @@ describe('output file names', () => {
     assert.equal(ul.querySelector('.js-open-build-log'), null);
   });
 
-  test('a lone recording drops its name and puts the build log button before the download', () => {
+  test('a recording drops its name and puts the build log button before the download', () => {
     const name = `app_${HASH}_script.cast`;
     const ul = document.createElement('ul');
     ul.innerHTML = buildOutputFileDownloadHtml(name, HASH, buildBuildLogButtonHtml(HASH, name, 'ZEUS 13.0.1'), { nameHidden: true });
