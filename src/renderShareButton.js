@@ -171,6 +171,25 @@ import { waitNostr } from 'nip07-awaiter';
       #rawShareButtons .shareButtonNetwork {
         justify-content: center;
       }
+      /* The page buttons: the same outlined look as the verification modal
+         toolbar (_sass/_verifications.scss), on the page's own background. */
+      #rawShareButtons .shareButtonNetwork.btn {
+        border: 1px solid var(--neutral-4) !important;
+        border-radius: 6px;
+        background: transparent;
+        color: var(--text) !important;
+        font-weight: normal;
+      }
+      #rawShareButtons .shareButtonNetwork.btn:hover,
+      #rawShareButtons .shareButtonNetwork.btn:focus-visible {
+        border-color: var(--accent) !important;
+        background: var(--accent-50);
+        color: var(--accent-text) !important;
+        outline: none;
+      }
+      /* The Nostr mark is white; darken it to match the other icons (dark mode keeps it white). */
+      #rawShareButtons .shareButtonNetwork img { filter: brightness(0); }
+      body.dark #rawShareButtons .shareButtonNetwork img { filter: none; }
       .share-buttons-container { display: flex; flex-direction: row; width: 100%; justify-content: space-between; margin: auto; padding: auto; justify-items: center; }
       .network-text { margin-left: 10px; }
       #rawShareButtons {
