@@ -1126,7 +1126,7 @@ body.dark .verification-modal-status--bad {
   border: 0;
   border-radius: 50%;
   background: transparent;
-  color: var(--neutral-3);
+  color: inherit;
   cursor: pointer;
 
   svg {
