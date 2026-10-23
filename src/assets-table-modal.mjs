@@ -281,6 +281,7 @@ export function buildIssueTrackerLinkHtml(issueTrackerUrl) {
 let pendingVerificationReport = null;
 let verificationModalClickHandler = null;
 let verificationModalKeyHandler = null;
+let verificationModalPopstateHandler = null;
 
 const PLATFORM_LABELS = { android: 'Android', ios: 'iPhone', desktop: 'Desktop', hardware: 'Hardware' };
 
@@ -316,8 +317,13 @@ function setupVerificationModalCloseHandlers(modal, modalBackdrop, content) {
     window.removeEventListener('keydown', verificationModalKeyHandler);
     verificationModalKeyHandler = null;
   }
+  if (verificationModalPopstateHandler) {
+    window.removeEventListener('popstate', verificationModalPopstateHandler);
+    verificationModalPopstateHandler = null;
+  }
 
-  const closeModalAction = () => {
+  // fromHistory: the browser already left the #verificationId entry (back key), so don't push another one.
+  const closeModalAction = ({ fromHistory = false } = {}) => {
     modal.style.display = 'none';
     modal.style.flexDirection = '';
     if (modalBackdrop) {
@@ -332,8 +338,14 @@ function setupVerificationModalCloseHandlers(modal, modalBackdrop, content) {
       window.removeEventListener('keydown', verificationModalKeyHandler);
       verificationModalKeyHandler = null;
     }
+    if (verificationModalPopstateHandler) {
+      window.removeEventListener('popstate', verificationModalPopstateHandler);
+      verificationModalPopstateHandler = null;
+    }
     document.body.classList.remove("modal-open");
-    history.pushState("", document.title, getOriginalUrlBeforeModal());
+    if (!fromHistory) {
+      history.pushState("", document.title, getOriginalUrlBeforeModal());
+    }
   };
 
   const closeButton = document.getElementById('closeModal');
@@ -374,8 +386,16 @@ function setupVerificationModalCloseHandlers(modal, modalBackdrop, content) {
     }
   };
 
+  // Opening the modal sets #verificationId=..., so the phone's back key pops that entry.
+  verificationModalPopstateHandler = function() {
+    if (!window.location.hash.startsWith('#verificationId=')) {
+      closeModalAction({ fromHistory: true });
+    }
+  };
+
   window.addEventListener('click', verificationModalClickHandler);
   window.addEventListener('keydown', verificationModalKeyHandler);
+  window.addEventListener('popstate', verificationModalPopstateHandler);
 }
 
 function closeVerificationReportConfirmModal() {
