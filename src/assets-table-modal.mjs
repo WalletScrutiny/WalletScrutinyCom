@@ -821,7 +821,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
       )))
     : null;
   heading.replaceChildren(...[
-    el('h2', { id: 'verificationModalTitle', className: 'verification-modal-title' }, `${walletTitle ?? ''} ${version ?? ''}`.trim()),
+    el('h2', { id: 'verificationModalTitle', className: 'verification-modal-title' }, `Build Verification for ${walletTitle ?? ''} ${version ?? ''}`.trim()),
     hashesEl,
     el('div', { className: 'verification-modal-badges' },
       el('span', { className: `verification-modal-status verification-modal-status--${isReproducible ? 'good' : 'bad'}` },
