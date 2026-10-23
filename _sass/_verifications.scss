@@ -1502,29 +1502,31 @@ body.dark #verificationModalToolbar .share-dropdown-menu a:focus-visible img {
   font-size: $font-sm;
 }
 
-/* Small round icon button: copy a hash. */
+/* Icon button: copy a hash. The same outline as the file download buttons beside it. */
 .verification-modal-icon-btn {
   flex: 0 0 auto;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 26px;
   height: 26px;
-  padding: 0;
-  border: 0;
-  border-radius: 50%;
-  background: transparent;
-  color: var(--accent-text);
+  padding: 0 9px;
+  border: 1px solid var(--neutral-4);
+  border-radius: 6px;
+  background: var(--neutral-7);
+  color: var(--text);
   cursor: pointer;
+  transition: border-color 0.12s ease, background-color 0.12s ease, color 0.12s ease;
 
   svg {
-    width: 15px;
-    height: 15px;
+    width: 14px;
+    height: 14px;
   }
 
   &:hover,
   &:focus-visible {
+    border-color: var(--accent);
     background: var(--accent-50);
+    color: var(--accent-text);
     outline: none;
   }
 }
@@ -1619,10 +1621,6 @@ body.dark .verification-modal-chip {
 .verification-modal-file__sep {
   color: var(--neutral-3);
 }
-.verification-modal-file .verification-modal-icon-btn {
-  margin-left: -4px;
-}
-
 /* A recording's build log button, beside its file and a little smaller than on its own */
 .verification-modal-file:has(.verification-modal-file__log) {
   flex-wrap: wrap; /* on a phone the button drops under the name rather than splitting it */
@@ -1671,7 +1669,8 @@ body.dark .verification-modal-chip {
   }
 }
 @media (prefers-reduced-motion: reduce) {
-  .verification-modal-file__download { transition: none; }
+  .verification-modal-file__download,
+  .verification-modal-icon-btn { transition: none; }
 }
 
 /* A lone recording: no name, just its build log button and then the download. */
