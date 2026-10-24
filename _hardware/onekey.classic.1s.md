@@ -25,12 +25,18 @@ icon: onekey.classic.1s.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-08-20
+date: 2026-10-24
 signer: 
 twitter: OneKeyHQ
 social:
 - https://www.reddit.com/r/OneKeyHQ
-builds: 
+builds:
+- arch: arm
+  types:
+    btc-only:
+    - classic1s.*-Stable-btc-???????.signed.bin
+    universal:
+    - classic1s.*-Stable-???????.signed.bin
 features:
 - secEl
 
