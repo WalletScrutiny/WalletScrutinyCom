@@ -14,8 +14,7 @@ Flow values: pass, fail, hidden (seed hidden on purpose, counts as a fail), na.
 {%- endcomment -%}
 {%- if page.android.accessibility or page.iphone.accessibility -%}
 {% include /review/accessibilityScore.html platform=include.platform %}
-{%- capture a11y_flow_names -%}setup|Set up,backup|Back up,recover|Recover,receive|Receive,send|Send{%- endcapture -%}
-{%- assign a11y_flow_list = a11y_flow_names | split: ',' -%}
+{%- assign a11y_flow_keys = 'setup,backup,recover,receive,send' | split: ',' -%}
 <div class="step accessibility-step">
   <i class="circle{% unless a11y %} disabled{% endunless %}" aria-hidden="true">♿</i>
   <div class="title">
@@ -25,11 +24,17 @@ Flow values: pass, fail, hidden (seed hidden on purpose, counts as a fail), na.
       <b class="accessibility-score">{{ a11y_pass }}/{{ a11y_total }}</b>
       <span class="accessibility-meta">{{ a11y.reader }}{% if a11y.version %} · v{{ a11y.version }}{% endif %}{% if a11y.testers %} · {{ a11y.testers }} tester{% if a11y.testers != 1 %}s{% endif %}{% endif %}</span>
       <ul class="accessibility-flows">
-        {%- for item in a11y_flow_list -%}
-          {%- assign parts = item | split: '|' -%}
-          {%- assign state = a11y.flows[parts[0]] -%}
+        {%- for key in a11y_flow_keys -%}
+          {%- assign state = a11y.flows[key] -%}
+          {%- case key -%}
+            {%- when 'setup' -%}{%- assign flow_label = 'Set up' -%}
+            {%- when 'backup' -%}{%- assign flow_label = 'Back up' -%}
+            {%- when 'recover' -%}{%- assign flow_label = 'Recover' -%}
+            {%- when 'receive' -%}{%- assign flow_label = 'Receive' -%}
+            {%- else -%}{%- assign flow_label = 'Send' -%}
+          {%- endcase -%}
           {%- if state and state != 'na' -%}
-          <li class="accessibility-flow {% if state == 'pass' %}is-pass{% else %}is-fail{% endif %}"><span aria-hidden="true">{% if state == 'pass' %}✔{% else %}✘{% endif %}</span> {{ parts[1] }}<span class="visually-hidden">: {% if state == 'pass' %}passed{% elsif state == 'hidden' %}failed, hidden on purpose{% else %}failed{% endif %}</span></li>
+          <li class="accessibility-flow {% if state == 'pass' %}is-pass{% else %}is-fail{% endif %}"><span aria-hidden="true">{% if state == 'pass' %}✔{% else %}✘{% endif %}</span> {{ flow_label }}<span class="visually-hidden">: {% if state == 'pass' %}passed{% elsif state == 'hidden' %}failed, hidden on purpose{% else %}failed{% endif %}</span></li>
           {%- endif -%}
         {%- endfor -%}
       </ul>
