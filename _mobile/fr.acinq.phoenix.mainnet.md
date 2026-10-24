@@ -35,6 +35,8 @@ android:
   verdict: sourceavailable
   developerName: ACINQ
   repository: https://github.com/ACINQ/phoenix
+  accessibility:
+    hint: scattered
 iphone:
   appId: co.acinq.phoenix
   idd: '1544097028'
@@ -48,6 +50,12 @@ iphone:
   verdict: sourceavailable
   developerName: ACINQ
   repository: https://github.com/ACINQ/phoenix-kmm
+  accessibility:
+    version: 2.8.4
+    reader: VoiceOver
+    testers: 2
+    flows: {setup: pass, backup: pass, recover: pass, receive: pass, send: fail}
+    notes: "Send: invoice entry only by QR scan. DEMO DATA, not a real test."
 
 ---
 
