@@ -1,0 +1,13 @@
+{%- comment -%}
+The wheelchair badge inside a platform tab, so a screen reader announces it
+with the tab name before either panel. Nothing is shown while no platform of
+the page has accessibility data.
+{%- endcomment -%}
+{%- if page.android.accessibility or page.iphone.accessibility -%}
+  {% include /review/accessibilityScore.html platform=include.platform %}
+  {%- if a11y_scored -%}
+    <span class="a11y-badge"><span aria-hidden="true">♿ {{ a11y_pass }}/{{ a11y_total }}</span><span class="visually-hidden">, screen reader score {{ a11y_pass }} of {{ a11y_total }}</span></span>
+  {%- else -%}
+    <span class="a11y-badge a11y-badge--none"><span aria-hidden="true">♿ not tested</span><span class="visually-hidden">, screen reader accessibility not tested</span></span>
+  {%- endif -%}
+{%- endif -%}

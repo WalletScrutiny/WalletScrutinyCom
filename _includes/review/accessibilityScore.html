@@ -1,0 +1,21 @@
+{%- comment -%}
+Sets a11y (the platform's accessibility data, or nil), a11y_pass, a11y_total
+and a11y_scored for include.platform. The score is the flows marked "pass"
+out of the flows that apply: "na" drops a flow out, "fail" and "hidden" count
+as not passed. Fewer than 3 applicable flows, or no flows at all, means no
+score. Methodology: issue #990.
+{%- endcomment -%}
+{%- assign a11y = nil -%}
+{%- if include.platform == 'android' -%}{%- assign a11y = page.android.accessibility -%}
+{%- elsif include.platform == 'iphone' -%}{%- assign a11y = page.iphone.accessibility -%}
+{%- endif -%}
+{%- assign a11y_pass = 0 -%}
+{%- assign a11y_total = 0 -%}
+{%- if a11y.flows -%}
+  {%- for flow in a11y.flows -%}
+    {%- if flow[1] != 'na' -%}{%- assign a11y_total = a11y_total | plus: 1 -%}{%- endif -%}
+    {%- if flow[1] == 'pass' -%}{%- assign a11y_pass = a11y_pass | plus: 1 -%}{%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+{%- assign a11y_scored = false -%}
+{%- if a11y_total >= 3 -%}{%- assign a11y_scored = true -%}{%- endif -%}

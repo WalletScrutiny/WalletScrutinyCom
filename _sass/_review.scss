@@ -458,6 +458,24 @@ $review-section-gap: var(--review-section-gap);
     }
   }
 
+  // wheelchair badge inside a platform tab (score, or "not tested")
+  .a11y-badge {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.8em;
+    font-weight: 700;
+    padding: 1px 8px;
+    border-radius: 999px;
+    background: var(--body);
+    color: var(--text);
+    box-shadow: inset 0 0 0 1px currentColor;
+
+    &--none {
+      font-weight: 600;
+      opacity: 0.85;
+    }
+  }
+
   &__panels {
     display: block;
   }
@@ -1065,5 +1083,59 @@ $review-section-gap: var(--review-section-gap);
 
   .steps .step.platform-notes-collapsible[data-collapsed="false"] .platform-notes-more {
     display: none;
+  }
+}
+
+// Accessibility step: one compact row (score, reader, a chip per flow)
+.accessibility-step {
+  .accessibility-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.75rem;
+    margin-top: 0.4rem;
+  }
+
+  .accessibility-score {
+    font-size: 1.3rem;
+  }
+
+  .accessibility-meta {
+    font-size: $font-sm;
+    opacity: 0.75;
+  }
+
+  .accessibility-flows {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .accessibility-flow {
+    display: inline-flex;
+    gap: 0.35rem;
+    align-items: center;
+    padding: 0.2rem 0.65rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    box-shadow: inset 0 0 0 1px currentColor;
+
+    &.is-pass {
+      color: #0a6b3a;
+    }
+
+    &.is-fail {
+      color: #b3261e;
+    }
+  }
+
+  .accessibility-notes {
+    margin: 0.3rem 0 0;
+    font-size: 0.85rem;
+    opacity: 0.75;
   }
 }

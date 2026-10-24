@@ -95,10 +95,10 @@ layout: default
             <div class="mobile-platform-scope__header">
               <div class="mobile-platform-tabs__nav" role="tablist" aria-label="Platform-specific review">
                 <button type="button" class="mobile-platform-tabs__tab is-active" role="tab" aria-selected="true" aria-controls="mobile-tab-android mobile-content-android" id="mobile-tab-btn-android" data-mobile-tab="android">
-                  {% include icon.html name="google-play" %} Android
+                  {% include icon.html name="google-play" %} Android{% include /review/accessibilityBadge.html platform="android" %}
                 </button>
                 <button type="button" class="mobile-platform-tabs__tab" role="tab" aria-selected="false" aria-controls="mobile-tab-iphone mobile-content-iphone" id="mobile-tab-btn-iphone" data-mobile-tab="iphone">
-                  <i class="i-app-store" aria-hidden="true"></i> iPhone
+                  <i class="i-app-store" aria-hidden="true"></i> iPhone{% include /review/accessibilityBadge.html platform="iphone" %}
                 </button>
               </div>
             </div>
@@ -107,11 +107,13 @@ layout: default
                 <div class="mobile-platform-tabs__panels">
                   <div class="mobile-platform-tabs__panel is-active" role="tabpanel" id="mobile-tab-android" aria-labelledby="mobile-tab-btn-android" data-mobile-panel="android">
                     {% include /review/steps/distribution.html platform='android' %}
+                    {% include /review/steps/accessibility.html platform='android' %}
                     {% include /review/steps/applicationBuild.html platform='android' appId=page.android.appId verdict=page.android.verdict appsTableId='appsTable-android' verificationMessageId='verificationMessage-android' %}
                     {% include /review/steps/platformNotes.html platform='android' %}
                   </div>
                   <div class="mobile-platform-tabs__panel" role="tabpanel" id="mobile-tab-iphone" aria-labelledby="mobile-tab-btn-iphone" data-mobile-panel="iphone" hidden>
                     {% include /review/steps/distribution.html platform='iphone' %}
+                    {% include /review/steps/accessibility.html platform='iphone' %}
                     {% include /review/steps/applicationBuild.html platform='iphone' appId=page.iphone.appId verdict=page.iphone.verdict appsTableId='appsTable-iphone' verificationMessageId='verificationMessage-iphone' %}
                     {% include /review/steps/platformNotes.html platform='iphone' %}
                   </div>
@@ -121,10 +123,12 @@ layout: default
           </div>
           {% elsif has_android %}
             {% include /review/steps/distribution.html platform='android' %}
+            {% include /review/steps/accessibility.html platform='android' %}
             {% include /review/steps/applicationBuild.html platform='android' appId=page.android.appId verdict=page.android.verdict appsTableId='appsTable-android' verificationMessageId='verificationMessage-android' %}
             {% include /review/steps/platformNotes.html platform='android' %}
           {% elsif has_iphone %}
             {% include /review/steps/distribution.html platform='iphone' %}
+            {% include /review/steps/accessibility.html platform='iphone' %}
             {% include /review/steps/applicationBuild.html platform='iphone' appId=page.iphone.appId verdict=page.iphone.verdict appsTableId='appsTable-iphone' verificationMessageId='verificationMessage-iphone' %}
             {% include /review/steps/platformNotes.html platform='iphone' %}
           {% endif %}
