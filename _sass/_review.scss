@@ -594,7 +594,7 @@ $review-section-gap: var(--review-section-gap);
     position: relative;
     padding: 8px 0 4px;
 
-    > *:not(.circle):not(.title):not(.data):not(.methodology-chevron),
+    > *:not(.circle):not(.title):not(.data):not(.methodology-chevron):not(.accessibility-badge),
     .wide,
     .methodology-tests-list,
     .mobile-platform-scope,
@@ -1086,14 +1086,67 @@ $review-section-gap: var(--review-section-gap);
   }
 }
 
-// Accessibility step: one compact row (score, reader, a chip per flow)
-.accessibility-step {
-  .accessibility-row {
+// Accessibility Badge: rounded box in the Distribution section, right side,
+// spanning the heading and the store links rows
+.steps .step.has-accessibility-badge {
+  .distribution-store-links {
+    grid-column: 1 / 3;
+  }
+
+  > .accessibility-badge {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+
+    @media (max-width: 700px) {
+      grid-column: 1 / -1;
+      grid-row: auto;
+    }
+  }
+}
+
+.accessibility-badge {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  max-width: 440px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--text) 4%, transparent);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--text) 14%, transparent);
+
+  &__icon {
+    flex: none;
+    display: grid;
+    color: var(--accent-text);
+    background: color-mix(in srgb, var(--accent-text) 12%, transparent);
+    box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent-text) 24%, transparent);
+    place-items: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+    font-style: normal;
+    font-size: 38px;
+    line-height: 1;
+  }
+
+  &.is-untested &__icon {
+    color: var(--neutral-3);
+    background: color-mix(in srgb, var(--text) 6%, transparent);
+    box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--text) 12%, transparent);
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    min-width: 0;
+  }
+
+  &__head {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    gap: 0.5rem 0.75rem;
-    margin-top: 0.4rem;
+    align-items: baseline;
+    gap: 0.1rem 0.6rem;
   }
 
   .accessibility-score {
@@ -1106,9 +1159,9 @@ $review-section-gap: var(--review-section-gap);
   }
 
   .accessibility-flows {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
-    gap: 0.4rem;
+    gap: 0.35rem;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -1116,11 +1169,11 @@ $review-section-gap: var(--review-section-gap);
 
   .accessibility-flow {
     display: inline-flex;
-    gap: 0.35rem;
+    gap: 0.3rem;
     align-items: center;
-    padding: 0.2rem 0.65rem;
+    padding: 0.15rem 0.55rem;
     border-radius: 999px;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     font-weight: 600;
     box-shadow: inset 0 0 0 1px currentColor;
 
@@ -1131,11 +1184,5 @@ $review-section-gap: var(--review-section-gap);
     &.is-fail {
       color: #b3261e;
     }
-  }
-
-  .accessibility-notes {
-    margin: 0.3rem 0 0;
-    font-size: 0.85rem;
-    opacity: 0.75;
   }
 }

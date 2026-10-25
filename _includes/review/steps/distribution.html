@@ -1,10 +1,11 @@
 {%- assign plat = include.platform -%}
 {%- if plat == 'iphone' or plat == 'android' %}
-<div class="step distribution">
+<div class="step distribution{% if page.android.accessibility or page.iphone.accessibility %} has-accessibility-badge{% endif %}">
   <i class="circle">{% include icon.html name="download" %}</i>
   <div class="title">
     <h3>Distribution</h3>
     {% include /review/storeLinks.html platform=plat %}
   </div>
+  {% include /review/accessibilityBlock.html platform=plat %}
 </div>
 {%- endif %}
