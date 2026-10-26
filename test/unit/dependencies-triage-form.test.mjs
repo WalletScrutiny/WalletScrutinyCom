@@ -80,12 +80,12 @@ describe('dependency triage form', () => {
       vulnerabilities: { total: 1, bySeverity: { critical: 1 }, packages: 1 },
       advisories: [traverse],
     }] };
-    const files = { '/x/apps/it.airgap.vault.json': app, '/x/triage/_trusted.json': { schema: 1, trusted: [pk] } };
+    const files = { '/x/apps/it.airgap.vault.json': app, '/xt/statements.json': { schema: 1, trusted: [pk] } };
     const fetchImpl = async (url) => (files[url] === undefined ? { ok: false, status: 404, json: async () => null } : { ok: true, status: 200, json: async () => files[url] });
     const nostr = fakeNostr({ failures: [{ url: 'wss://relay.nostr.info/', error: 'blocked: kind not allowed' }] });
     const host = document.createElement('div');
     document.body.appendChild(host);
-    await renderDependenciesPanel({ host, appId: 'it.airgap.vault', base: '/x', fetchImpl, nostr });
+    await renderDependenciesPanel({ host, appId: 'it.airgap.vault', base: '/x', triageBase: '/xt', liveEvents: async () => [], fetchImpl, nostr });
 
     const judge = host.querySelector('.dp-judge');
     assert.equal(judge.textContent, 'Add statement');
@@ -159,12 +159,12 @@ describe('dependency triage form', () => {
       advisories: [traverse],
     }] };
     // its own base: the trusted list is cached per base, and '/x' trusts the signer
-    const files = { '/y/apps/it.airgap.vault.json': app, '/y/triage/_trusted.json': { schema: 1, trusted: ['f'.repeat(64)] } };
+    const files = { '/y/apps/it.airgap.vault.json': app, '/yt/statements.json': { schema: 1, trusted: ['f'.repeat(64)] } };
     const fetchImpl = async (url) => (files[url] === undefined ? { ok: false, status: 404, json: async () => null } : { ok: true, status: 200, json: async () => files[url] });
     const host = document.createElement('div');
     document.body.appendChild(host);
     const nostr = fakeNostr();
-    await renderDependenciesPanel({ host, appId: 'it.airgap.vault', base: '/y', fetchImpl, nostr });
+    await renderDependenciesPanel({ host, appId: 'it.airgap.vault', base: '/y', triageBase: '/yt', liveEvents: async () => [], fetchImpl, nostr });
 
     host.querySelector('.dp-judge').click();
     await settled();

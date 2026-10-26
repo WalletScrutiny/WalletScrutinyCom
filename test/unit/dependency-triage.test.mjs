@@ -9,6 +9,7 @@ import {
   triageTemplate, triageSubject, statementFromEvent, newestStatements, resolveRow, applyTriage, statementScope,
   dependencyTriageKind, TRIAGE_STATUSES,
 } from '../../src/dependency-triage.mjs';
+import { mergeLiveTriage, triageForApp } from '../../src/dependency-triage.mjs';
 import { buildTriage, acceptEvents, acceptDeletions, trustedAuthors, listedMaintainers } from '../../scripts/build-dependency-triage.mjs';
 
 const sk = generateSecretKey();
@@ -156,14 +157,11 @@ describe('dependency triage statements', () => {
     assert.deepEqual(applyTriage([traverse], null).summary, { total: 1, decided: 0, undecided: 1, affected: 0, not_affected: 0, fixed: 0, under_investigation: 0, partial: 0, others: 0 });
   });
 
-  test('buildTriage merges snapshot and relay events, publishes per wallet, keeps the snapshot current', () => {
+  test('buildTriage merges snapshot and relay events, publishes statements.json, keeps the snapshot current', () => {
     const tmp = mkdtempSync(join(tmpdir(), 'triage-'));
     try {
-      const exportDir = join(tmp, 'export');
-      mkdirSync(join(exportDir, 'apps'), { recursive: true });
-      writeFileSync(join(exportDir, 'apps', 'it.airgap.vault.json'), JSON.stringify({ appId: 'it.airgap.vault', aliases: [], releases: [{ advisories: [traverse] }] }));
-      writeFileSync(join(exportDir, 'apps', 'other.app.json'), JSON.stringify({ appId: 'other.app', aliases: [], releases: [{ advisories: [{ id: 'GHSA-q', aliases: [] }] }] }));
-      writeFileSync(join(exportDir, 'apps', 'alias.json'), JSON.stringify({ appId: 'it.airgap.vault', alias: true }));
+      const target = join(tmp, 'dependency-triage');
+      const outFile = join(target, 'statements.json');
       const snapshotFile = join(tmp, 'events.json');
       const trustedFile = join(tmp, 'trusted.yml');
       writeFileSync(trustedFile, `trustedAuthors:\n  - ${nip19.npubEncode(pk)} # me\nmaintainers:\n  npm:@babel/core:\n    - ${nip19.npubEncode(getPublicKey(other))}\n`);
@@ -174,38 +172,59 @@ describe('dependency triage statements', () => {
       // a JSON round trip, as from a relay or the file: nostr-tools marks objects it verified, a spread would carry the mark
       const broken = JSON.parse(JSON.stringify({ ...newer, sig: '0'.repeat(128) }));
 
-      const r = buildTriage({ events: [newer, unrelated, broken], snapshotFile, trustedFile, exportDir });
-      assert.deepEqual(r, { statements: 2, trusted: 1, rejected: 2, deleted: 0, apps: 1, published: 1, snapshotChanged: true });
-      const out = JSON.parse(readFileSync(join(exportDir, 'triage', 'it.airgap.vault.json'), 'utf8'));
+      const r = buildTriage({ events: [newer, unrelated, broken], snapshotFile, trustedFile, target });
+      assert.deepEqual(r, { statements: 2, trusted: 1, rejected: 2, deleted: 0, published: 2, snapshotChanged: true });
+      const out = triageForApp({ appId: 'it.airgap.vault', releases: [{ advisories: [traverse] }] }, JSON.parse(readFileSync(outFile, 'utf8')));
       assert.deepEqual(out.trusted, [pk]);
       assert.deepEqual(out.maintainers, { 'npm:@babel/core': [getPublicKey(other)] });
       assert.equal(out.statements.length, 1);
       assert.equal(out.statements[0].status, 'not_affected', 'the newer version of the same subject wins');
-      assert.equal(existsSync(join(exportDir, 'triage', 'other.app.json')), false, 'a wallet nobody said anything about gets no file');
+      assert.equal(triageForApp({ appId: 'other.app', releases: [{ advisories: [{ id: 'GHSA-q', aliases: [] }] }] }, JSON.parse(readFileSync(outFile, 'utf8'))).statements.length, 0, 'a wallet nobody said anything about');
       const snapshot = JSON.parse(readFileSync(snapshotFile, 'utf8'));
       assert.deepEqual(snapshot.map(e => e.id).sort(), [newer.id, unrelated.id].sort(), 'superseded and forged events leave the snapshot');
 
       // a second run with nothing new changes nothing
-      rmSync(join(exportDir, 'triage'), { recursive: true });
-      assert.equal(buildTriage({ events: [], snapshotFile, trustedFile, exportDir }).snapshotChanged, false);
+      assert.equal(buildTriage({ events: [], snapshotFile, trustedFile, target }).snapshotChanged, false);
       assert.deepEqual(acceptEvents([newer, broken]).accepted.map(x => x.event.id), [newer.id]);
 
       // its author deletes the statement (NIP-09): it leaves the export, and the request stays in the snapshot
       const del = finalizeEvent({ kind: 5, created_at: 400, tags: [['e', newer.id], ['k', String(dependencyTriageKind)]], content: 'moved to a wallet-scoped statement' }, sk);
       const forgedDel = finalizeEvent({ kind: 5, created_at: 400, tags: [['e', unrelated.id], ['k', String(dependencyTriageKind)]], content: '' }, sk);
-      rmSync(join(exportDir, 'triage'), { recursive: true });
-      const r2 = buildTriage({ events: [del, forgedDel], snapshotFile, trustedFile, exportDir });
+      const r2 = buildTriage({ events: [del, forgedDel], snapshotFile, trustedFile, target });
       assert.equal(r2.deleted, 1, 'only the author\'s own statement goes');
-      assert.equal(existsSync(join(exportDir, 'triage', 'it.airgap.vault.json')), false);
+      assert.deepEqual(JSON.parse(readFileSync(outFile, 'utf8')).statements.map(x => x.id), [unrelated.id]);
+      assert.deepEqual(JSON.parse(readFileSync(outFile, 'utf8')).deletions.map(x => x.id).sort(), [del.id, forgedDel.id].sort(), 'the requests are published for the page to apply to the relay\'s copy');
       const snap2 = JSON.parse(readFileSync(snapshotFile, 'utf8'));
       assert.ok(snap2.some(e => e.id === del.id) && !snap2.some(e => e.id === newer.id));
       // once every relay dropped the statement, its author has nothing left: the request still stays
-      buildTriage({ events: [], snapshotFile, trustedFile, exportDir });
+      buildTriage({ events: [], snapshotFile, trustedFile, target });
       assert.ok(JSON.parse(readFileSync(snapshotFile, 'utf8')).some(e => e.id === del.id), 'a build with no relay copy keeps the request');
-      assert.equal(buildTriage({ events: [newer], snapshotFile, trustedFile, exportDir }).deleted, 1, 'a relay serving it again does not bring it back');
+      assert.equal(buildTriage({ events: [newer], snapshotFile, trustedFile, target }).deleted, 1, 'a relay serving it again does not bring it back');
     } finally {
       rmSync(tmp, { recursive: true, force: true });
     }
+  });
+
+  test('mergeLiveTriage adds the relay\'s newer statements and applies deletions from either source', () => {
+    const subject = { vulns: ['GHSA-67hx-6x53-jw92'], pkg: 'npm:@babel/traverse', via: 'npm:@babel/core' };
+    const built = signed({ ...subject, status: 'under_investigation' }, sk, 100);
+    const gone = signed({ vulns: ['GHSA-gone'], pkg: 'npm:g', status: 'fixed' }, sk, 100);
+    const builtDel = finalizeEvent({ kind: 5, created_at: 150, tags: [['e', gone.id], ['k', String(dependencyTriageKind)]], content: '' }, sk);
+    const published = { trusted: [pk], maintainers: {}, statements: [statementFromEvent(built)], deletions: [builtDel] };
+    const newer = signed({ ...subject, status: 'not_affected' }, sk, 200);
+    const fresh = signed({ vulns: ['GHSA-new'], pkg: 'npm:n', status: 'affected' }, other, 300);
+    const freshDel = finalizeEvent({ kind: 5, created_at: 400, tags: [['e', fresh.id], ['k', String(dependencyTriageKind)]], content: '' }, other);
+    const stranger = finalizeEvent({ kind: 5, created_at: 400, tags: [['e', newer.id], ['k', String(dependencyTriageKind)]], content: '' }, generateSecretKey());
+    const forged = JSON.parse(JSON.stringify({ ...signed({ vulns: ['GHSA-x'], pkg: 'npm:x', status: 'fixed' }, sk, 500), sig: '0'.repeat(128) }));
+
+    let m = mergeLiveTriage(published, [newer, fresh, gone, stranger, forged]);
+    assert.deepEqual(m.statements.map(x => [x.vulns[0], x.status]).sort(), [['GHSA-67hx-6x53-jw92', 'not_affected'], ['GHSA-new', 'affected']],
+      'the newer version wins, a new one joins, a statement deleted in the build stays gone, a stranger\'s request and a forged event change nothing');
+    assert.deepEqual(m.trusted, [pk]);
+    m = mergeLiveTriage(published, [newer, fresh, freshDel]);
+    assert.deepEqual(m.statements.map(x => x.vulns[0]), ['GHSA-67hx-6x53-jw92'], 'a request only the relay has removes its author\'s statement');
+    assert.deepEqual(mergeLiveTriage(published, []).statements.map(x => x.status), ['under_investigation'], 'no relay: the build\'s statements');
+    assert.deepEqual(mergeLiveTriage(null, [fresh]).statements.map(x => x.id), [fresh.id], 'no build file: the relay alone');
   });
 
   test('the committed trusted list and snapshot are valid', () => {

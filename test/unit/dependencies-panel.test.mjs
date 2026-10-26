@@ -25,6 +25,8 @@ const APP = {
   defaultBranch: null,
 };
 
+const noLive = async () => [];
+
 function fakeFetch(files) {
   const calls = [];
   const fetchImpl = async (url) => {
@@ -42,10 +44,10 @@ describe('dependencies panel', () => {
       '/x/apps/app.ios.json': { schema: 1, appId: 'app.android', alias: true },
       '/x/apps/app.android.json': APP,
     });
-    const app = await loadApp('app.ios', { base: '/x', fetchImpl });
+    const app = await loadApp('app.ios', { base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl });
     assert.equal(app.appId, 'app.android');
     assert.deepEqual(calls, ['/x/apps/app.ios.json', '/x/apps/app.android.json']);
-    assert.equal(await loadApp('app.none', { base: '/x', fetchImpl }), null);
+    assert.equal(await loadApp('app.none', { base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl }), null);
   });
 
   test('renderDependenciesPanel paints tiles, worst rows, notes and keeps the host hidden without data', async () => {
@@ -58,7 +60,7 @@ describe('dependencies panel', () => {
     step.appendChild(host);
     document.body.appendChild(step);
 
-    const model = await renderDependenciesPanel({ host, appId: 'app.android', storeVersion: '1.4.2', base: '/x', fetchImpl });
+    const model = await renderDependenciesPanel({ host, appId: 'app.android', storeVersion: '1.4.2', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl });
     assert.equal(model.ref, 'v1.4.0');
     assert.equal(host.hidden, false);
     assert.equal(step.hidden, false);
@@ -92,7 +94,7 @@ describe('dependencies panel', () => {
 
     const empty = document.createElement('div');
     empty.hidden = true;
-    assert.equal(await renderDependenciesPanel({ host: empty, appId: 'app.none', base: '/x', fetchImpl }), null);
+    assert.equal(await renderDependenciesPanel({ host: empty, appId: 'app.none', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl }), null);
     assert.equal(empty.hidden, true);
   });
 
@@ -115,11 +117,11 @@ describe('dependencies panel', () => {
     const apk = { schema: 1, appId: 'app.android', ref: 'v1.4.0', apk: { name: 'app-1.4.0.apk', sha256: 'ab'.repeat(32) },
       summary: { declared: 3, present: 1, otherVersionShipped: 1, cantTell: 0, native: 2, nativeIdentical: 1, nativeDiffers: 0, undeclaredClasses: 7 },
       packages: { 'npm:pkg@1.0.0': 'absent' }, nativeFiles: [{ path: 'lib/arm64-v8a/libmystery.so', verdict: 'undeclared', providers: [] }], undeclared: [{ package: 'com.vendored', classes: 7 }] };
-    const { fetchImpl, calls } = fakeFetch({ '/x/apps/app.ios.json': { schema: 1, appId: 'app.android', alias: true }, '/x/apps/app.android.json': app, '/x/triage/app.android.json': triage, '/x/upstream/app.android.json': upstream, '/x/apk/app.android.json': apk });
+    const { fetchImpl, calls } = fakeFetch({ '/x/apps/app.ios.json': { schema: 1, appId: 'app.android', alias: true }, '/x/apps/app.android.json': app, '/xt3/statements.json': triage, '/x/upstream/app.android.json': upstream, '/x/apk/app.android.json': apk });
     const host = document.createElement('div');
-    const model = await renderDependenciesPanel({ host, appId: 'app.ios', base: '/x', fetchImpl, profiles: async () => new Map([[me, { name: 'Alice', picture: 'https://example.org/alice.png' }]]) });
+    const model = await renderDependenciesPanel({ host, appId: 'app.ios', base: '/x', triageBase: '/xt3', liveEvents: noLive, fetchImpl, profiles: async () => new Map([[me, { name: 'Alice', picture: 'https://example.org/alice.png' }]]) });
     await new Promise(r => setTimeout(r, 0)); // signer names arrive after the paint
-    assert.deepEqual(calls.slice(2), ['/x/triage/app.ios.json', '/x/triage/app.android.json', '/x/signals.json', '/x/upstream/app.android.json', '/x/apk/app.android.json'], 'the page\'s id first, then the analysis id, then the signals, the harvested ignore files and the APK check');
+    assert.deepEqual(calls.slice(2), ['/xt3/statements.json', '/x/signals.json', '/x/upstream/app.android.json', '/x/apk/app.android.json'], 'the site build\'s statements (cached per base, so this test has its own), then the signals, the harvested ignore files and the APK check');
     assert.deepEqual(model.triage, { total: 13, decided: 2, undecided: 11, affected: 1, not_affected: 1, fixed: 0, under_investigation: 0, partial: 1, others: 2 });
     assert.deepEqual([...host.querySelectorAll('.dp-tally')].map(e => e.textContent), ['1 critical · 1 cleared', '2 high · none cleared', '10 medium · none cleared'], 'the not-affected critical is cleared; the affected high is not');
     assert.ok(host.querySelector('.dp-tile--sev-high'), 'with the only critical cleared, the count goes orange');
@@ -167,7 +169,7 @@ describe('dependencies panel', () => {
       a.id === 'GHSA-high' ? { ...a, aliases: ['CVE-A'] } : a.id === 'GHSA-test' ? { ...a, aliases: ['CVE-B'] } : a)) }] };
     const { fetchImpl } = fakeFetch({ '/x/apps/app.android.json': app, '/x/signals.json': signals });
     const host = document.createElement('div');
-    const model = await renderDependenciesPanel({ host, appId: 'app.android', base: '/x', fetchImpl });
+    const model = await renderDependenciesPanel({ host, appId: 'app.android', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl });
     assert.deepEqual(model.signals, { date: '2026-10-16', exploited: 1, withEpss: 2 });
     const rows = [...host.querySelectorAll('tbody tr')];
     assert.deepEqual(rows.slice(0, 3).map(r => r.querySelector('td a').textContent), ['GHSA-crit', 'GHSA-test', 'GHSA-high'], 'the exploited high row before the other high row');
@@ -187,7 +189,7 @@ describe('dependencies panel', () => {
     const warn = console.warn;
     console.warn = () => {};
     try {
-      assert.equal(await renderDependenciesPanel({ host, appId: 'app.android', base: '/x', fetchImpl }), null);
+      assert.equal(await renderDependenciesPanel({ host, appId: 'app.android', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl }), null);
     } finally {
       console.warn = warn;
     }
@@ -197,13 +199,13 @@ describe('dependencies panel', () => {
 
   test('a release mixing ecosystems tags each package with its ecosystem', () => {
     const mixed = { ...APP, releases: [{ ...APP.releases[0], dependencies: { ...APP.releases[0].dependencies, byEcosystem: { npm: 400, gradle: 12 } } }] };
-    const node = panelElement(panelModel(mixed), { appId: 'app.android', base: '/x', fetchImpl: async () => null });
+    const node = panelElement(panelModel(mixed), { appId: 'app.android', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl: async () => null });
     assert.equal(node.querySelector('tbody tr .dp-eco').textContent, 'npm');
   });
 
   test('panelElement without advisories has no table and green tiles', () => {
     const clean = { ...APP, releases: [{ ...APP.releases[0], advisories: [], vulnerabilities: { bySeverity: {} }, diffFrom: null }] };
-    const node = panelElement(panelModel(clean), { appId: 'app.android', base: '/x', fetchImpl: async () => null });
+    const node = panelElement(panelModel(clean), { appId: 'app.android', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl: async () => null });
     assert.equal(node.querySelector('table'), null);
     assert.equal(node.querySelectorAll('.dp-tile--good').length, 2);
   });
@@ -228,7 +230,7 @@ describe('dependencies panel', () => {
     assert.equal(text(advisory('x', 'low', { products: 25, productsSameVersion: 3 })), '25 · 3 this version');
     assert.equal(text(advisory('x', 'low', { products: 1, productsSameVersion: 1 })), 'only this wallet');
     assert.equal(text(advisory('x', 'low')), '–', 'an export from before the field existed');
-    const rows = panelElement(panelModel({ ...APP, releases: [{ ...APP.releases[0], advisories: [advisory('GHSA-1', 'high', { products: 7, productsSameVersion: 2 })] }] }), { appId: 'app.android', base: '/x', fetchImpl: async () => null })
+    const rows = panelElement(panelModel({ ...APP, releases: [{ ...APP.releases[0], advisories: [advisory('GHSA-1', 'high', { products: 7, productsSameVersion: 2 })] }] }), { appId: 'app.android', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl: async () => null })
       .querySelectorAll('tbody tr');
     assert.equal(rows[0].querySelector('.dp-td-products').textContent, '7 · 2 this version');
   });
@@ -269,7 +271,7 @@ describe('dependencies panel', () => {
     document.body.append(river, host);
     const pick = (version) => river.dispatchEvent(new window.CustomEvent('buildVersionSelected', { bubbles: true, detail: { platform: 'android', version } }));
 
-    const model = await renderDependenciesPanel({ host, appId: 'app.android', platform: 'android', storeVersion: '1.4.2', base: '/x', fetchImpl });
+    const model = await renderDependenciesPanel({ host, appId: 'app.android', platform: 'android', storeVersion: '1.4.2', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl });
     assert.equal(model.ref, 'v1.3.0', 'the version already picked when the export arrives');
     assert.match(host.querySelector('.dp-headline').textContent, /Checked release v1\.3\.0/);
     assert.equal(host.querySelector('tbody tr td a').textContent, 'GHSA-old');
