@@ -22,10 +22,30 @@ source repository at that release's tag:
   up (a git URL, a local path, a version range the lockfile left open). This
   is not "no problems"; it is "nobody looked". Releases analysed before
   2026-10-16 show a dash because the record did not exist yet.
-- **known vulnerabilities**: advisories on [OSV.dev](https://osv.dev) that
-  match a pinned version, counted per advisory and split by severity. The
-  severity is the CVSS score OSV reports: critical ≥ 9, high ≥ 7, medium ≥ 4,
-  low > 0.
+- **advisory matches**: advisories on [OSV.dev](https://osv.dev) whose
+  affected versions include a version a lockfile pins. One advisory can match
+  several packages or lockfiles, so the tile also prints the number of
+  distinct advisories. A match is not a vulnerability in the app: it means a
+  package version is listed as affected, not that the affected part is used
+  (see "What it does not claim").
+  - Every match counts alike, whether "Where?" says app, build, tests or
+    `?`. Decision of 2026-10-26 (Leo): "in build tools only" is not an
+    actionable distinction, a backdoor can come as a build dependency, and
+    calling those "only" reads as "nothing to see here". Unless an advisory
+    says in a machine-readable way that it does not apply to build use, build
+    and test dependencies are treated like app dependencies. The tile has no
+    app/build/tests split; each row's "Where?" carries it.
+  - Matches from the lockfile of another product built from the same
+    repository are counted and named on their own line ("113 of them only in
+    the desktop app"); whether they leave the count is open, see below.
+  - One line per severity, the CVSS score OSV reports: critical ≥ 9,
+    high ≥ 7, medium ≥ 4, low > 0.
+  - A caveat on the tile says that a match means a package version is listed
+    as affected, not that the affected part is used, and, when the release
+    has no APK check, that the released app itself was not checked.
+  - The big number and each "cleared" open an explanation (hover, focus or
+    tap), worded for a visitor who has the app installed, see "The tile's
+    explanations" below.
 - **known malware**: packages OSV lists as malicious (`MAL-` identifiers),
   whatever the score.
 - **Where?**: where the package ends up, as far as the files say. `app`
@@ -150,9 +170,9 @@ Plumbing:
 - The panel's "Decision" column shows the status with one line per direct
   user (its reason and signer), the line under the package name says who the
   direct users are, and the vulnerability tile counts one line per severity,
-  "50 critical · none cleared" (cleared: fixed or not affected), then the
-  queue: "2 decided · 410 still to look at (3 partly)". The big number takes
-  the colour of the worst severity still open. Within one
+  "50 critical · 2 cleared" (cleared: a trusted statement says fixed or not
+  affected), then the queue: "2 decided · 410 still to look at (3 partly)".
+  The big number takes the colour of the worst severity still open. Within one
   severity, rows still needing a look (affected, undecided) sort before
   dismissed ones (not affected, fixed). The CSV carries decision, reasons,
   EPSS and the exploited flag per row.
@@ -183,6 +203,35 @@ within 30 days) and CISA's Known Exploited Vulnerabilities list. They sort
 the queue and put a "critical" label in perspective (944 of the 1,053
 advisories have a CVE; 4 are on CISA's list), they decide nothing, and a
 failing feed never fails the build.
+
+### The tile's explanations
+
+The wording is fixed in `src/dependencies-panel.mjs` (`vulnerabilityTipLines`,
+`CLEARED_TIP_LINES`). It is plain English for a visitor who has the app
+installed, and neutral: it says "report" and "affected", not "vulnerable",
+"exploitable" or "attack", and it never says more than the data.
+
+- **The number**: what it counts (published security reports that list a
+  package version the app's source uses as affected; every package counts
+  the same, in the app or used to build or test it, because a build tool can
+  change the app too; "Where?" says which), how it was counted (the package
+  list from the public source at the release tag, looked up in OSV.dev on the
+  check date; one report can match several packages), and what it means for
+  the visitor's app: it is about that release, and a report says the package
+  version is affected, not whether the affected part is used. Then either
+  each row says whether the package was found in the released app, or the
+  released app itself was not checked. The colour shows the highest severity
+  among reports not yet cleared.
+- **Cleared**: a reviewer this site trusts looked at the report and signed a
+  statement that it does not apply to this app, either "not affected" (the
+  app does not use the part the report is about) or "fixed" (the app already
+  has the fix), with the reason and signer on the row. A report that is not
+  cleared has not been reviewed yet or was found to apply (the Decision
+  column says which), and on its own does not mean there is a problem in the
+  app.
+
+On phones the tiles stack one per row and the explanation spans the screen
+width at a larger text size; each "cleared" has a finger-sized tap target.
 
 ## What it does not claim
 
@@ -427,7 +476,7 @@ Built and on the preview today; what each still needs before a release:
    verified release (needs Leo's OK, the scripts belong to the wallets'
    build recordings).
 3. **Other products' lockfiles** (`part`, "desktop app" etc.): counted in
-   the tile with a line of their own ("113 only in the desktop app" on
+   the tile with a line of their own ("113 of them only in the desktop app" on
    AirGap). Open: whether they leave the mobile page's count entirely.
 4. **Trusted list**: Bob's demo key has no profile and is still listed.
 5. **Re-run of the analyser** over the database: the yarn alias and
@@ -441,34 +490,3 @@ Built and on the preview today; what each still needs before a release:
 7. **Reproducibility of dependencies** (the "reproduced" rung of the
    ladder): explained, not built; a pilot on the 50 most shared npm package
    versions, starting from Google's OSS Rebuild attestations, waits for a go.
-
-## Parked: the vulnerability tile's wording (2026-10-26)
-
-Danny found the tile misleading: "AirGap 3.35.0 has 412 known
-vulnerabilities" reads as alarming. Those are 412 advisory matches against
-lockfile entries, 332 distinct advisories, and 377 of them are in build
-tooling only. Only 35 are in packages the app ships (4 critical, 13 high).
-
-A rework is built, on the preview and reviewed by Danny, but not on this
-branch. It waits on Leo and Luis, because it brings back the "in the app ·
-in build tooling" split that Leo had removed on 2026-10-20 (there, the
-numbers were duplicated; here, each number appears once). The three commits
-are on the branch `parked/dependency-tile-shipped-first`, on top of this one:
-
-- The big number counts only the matches in packages the app ships, plus
-  those the files do not place. The severity lines and the colour cover
-  only that set. Below it: build tools only ("not in the app"), tests
-  only, other products, then the total and the distinct advisories.
-- The caveat on the tile: a match means a package version is listed as
-  affected, not that the app uses the affected part, and, without an APK
-  check, that the released app itself was not checked.
-- The big number and each "cleared" open an explanation (hover, focus or
-  tap) in plain, neutral English for someone who has the app installed:
-  "report" and "affected", never "vulnerable", "exploitable" or "attack".
-- On phones the tiles stack one per row and the explanation spans the
-  screen.
-- This document's "What the panel shows" and "Triage" sections, plus a new
-  section quoting the wording, are updated on that branch.
-
-To take it: rebase the parked branch onto this one, and check the e2e and
-unit tests.

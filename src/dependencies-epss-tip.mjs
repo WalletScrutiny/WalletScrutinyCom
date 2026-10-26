@@ -1,5 +1,5 @@
-// The explanation behind every "EPSS 0.5 %" in the Dependencies panel. A
-// toggletip rather than a title or a CSS ::after tooltip, because it has to
+// The explanations behind terms in the Dependencies panel: every "EPSS 0.5 %",
+// the vulnerability tile's number and its "cleared". A toggletip rather than a title or a CSS ::after tooltip, because it has to
 // hold a link and open on tap: hover shows it, keyboard focus shows it, a
 // click or tap pins it, Escape or a press outside closes it. One shared
 // popup, moved next to whichever trigger is active so Tab reaches its link,
@@ -14,21 +14,18 @@ export const EPSS_TIP_LINES = [
 ];
 export const EPSS_LEARN_MORE_URL = 'https://www.first.org/epss/';
 
-const TIP_ID = 'dp-epss-tip';
+const TIP_ID = 'dp-tip';
 const MARGIN = 8; // px kept free from the viewport edges
 const GAP = 6; // px between the trigger and the tip
 const HOVER_CLOSE_DELAY = 150; // ms to move the mouse from the trigger into the tip
 
-let state = null; // { tip, percentile, trigger, pinned, closeTimer, refocusing }
+let state = null; // { tip, trigger, pinned, closeTimer, refocusing }
+const contents = new WeakMap(); // trigger -> () => the tip's children
 
 function ensureTip(doc) {
   if (state && state.tip.ownerDocument === doc) return state;
-  const percentile = el('p', { className: 'dp-tip__percentile' });
-  const tip = el('div', { id: TIP_ID, className: 'dp-tip', hidden: true },
-    ...EPSS_TIP_LINES.map(line => el('p', {}, line)),
-    percentile,
-    el('a', { href: EPSS_LEARN_MORE_URL, target: '_blank', rel: 'noopener noreferrer' }, 'Learn more'));
-  state = { tip, percentile, trigger: null, pinned: false, closeTimer: null };
+  const tip = el('div', { id: TIP_ID, className: 'dp-tip', hidden: true });
+  state = { tip, trigger: null, pinned: false, closeTimer: null };
 
   tip.addEventListener('mouseenter', () => clearTimeout(state.closeTimer));
   tip.addEventListener('mouseleave', () => { if (!state.pinned) scheduleClose(); });
@@ -82,10 +79,7 @@ function openTip(trigger, pinned) {
   s.pinned = s.pinned || pinned;
   if (s.trigger === trigger) return;
   s.trigger = trigger;
-  s.percentile.textContent = trigger.dataset.percentile
-    ? `Higher than ${trigger.dataset.percentile} % of all scored CVEs.`
-    : '';
-  s.percentile.hidden = !trigger.dataset.percentile;
+  s.tip.replaceChildren(...contents.get(trigger)());
   trigger.after(s.tip);
   trigger.setAttribute('aria-expanded', 'true');
   s.tip.hidden = false;
@@ -110,15 +104,16 @@ function place() {
   tip.style.left = `${Math.round(left)}px`;
 }
 
-// "EPSS 0.5 %" as a button that opens the shared tip.
-export function epssTrigger(epss, percentile) {
+// A button showing `label` that opens the shared tip with `content()`, a list
+// of nodes built when it opens.
+export function tipTrigger(label, content, { className = 'dp-term' } = {}) {
   const trigger = el('button', {
     type: 'button',
-    className: 'dp-epss',
+    className,
     'aria-expanded': 'false',
     'aria-controls': TIP_ID,
-    dataset: { percentile: percentile != null ? Math.round(percentile * 100) : null },
-  }, `EPSS ${epssLabel(epss)}`);
+  }, label);
+  contents.set(trigger, content);
   trigger.addEventListener('pointerenter', (e) => { if (e.pointerType === 'mouse') openTip(trigger, false); });
   trigger.addEventListener('pointerleave', (e) => { if (e.pointerType === 'mouse' && state?.trigger === trigger && !state.pinned) scheduleClose(); });
   trigger.addEventListener('focus', () => {
@@ -133,4 +128,14 @@ export function epssTrigger(epss, percentile) {
     else openTip(trigger, true);
   });
   return trigger;
+}
+
+// "EPSS 0.5 %" as a button that opens the shared tip.
+export function epssTrigger(epss, percentile) {
+  const pct = percentile != null ? Math.round(percentile * 100) : null;
+  return tipTrigger(`EPSS ${epssLabel(epss)}`, () => [
+    ...EPSS_TIP_LINES.map(line => el('p', {}, line)),
+    el('p', { className: 'dp-tip__percentile', hidden: pct == null }, pct == null ? '' : `Higher than ${pct} % of all scored CVEs.`),
+    el('a', { href: EPSS_LEARN_MORE_URL, target: '_blank', rel: 'noopener noreferrer' }, 'Learn more'),
+  ], { className: 'dp-epss' });
 }

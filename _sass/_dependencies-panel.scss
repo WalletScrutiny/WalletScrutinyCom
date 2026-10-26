@@ -72,6 +72,14 @@ body.dark .dp-panel {
   gap: 10px;
 }
 
+// Phones: one tile per row, so the long vulnerability tile does not stretch
+// its neighbour into an empty box.
+@media (max-width: 640px) {
+  .dp-tiles {
+    grid-template-columns: 1fr;
+  }
+}
+
 .dp-tile {
   border: 1px solid var(--neutral-5);
   border-radius: 10px;
@@ -131,6 +139,16 @@ body.dark .dp-panel {
 
 .dp-tally__count--high {
   color: #d68910;
+}
+
+// Under the severities: the distinct advisories, other products, and what a match means
+.dp-tile__line + .dp-tile__line,
+.dp-tile__caveat {
+  margin-top: 4px;
+}
+
+.dp-tile__caveat {
+  font-style: italic;
 }
 
 .dp-table-wrap {
@@ -548,7 +566,8 @@ details.dp-decision__others {
   gap: 2px;
 }
 
-.dp-epss {
+.dp-epss,
+.dp-term {
   font: inherit;
   font-size: $font-xxs;
   color: var(--neutral-3);
@@ -566,7 +585,16 @@ details.dp-decision__others {
   }
 }
 
-// What EPSS means, opened from .dp-epss. Same look as the assets table's
+// The tile's big number keeps its size and colour; only the underline marks it.
+// The padding gives "cleared" a finger-sized target without moving the text.
+.dp-term {
+  color: inherit;
+  font-size: inherit;
+  padding: 6px 0;
+  margin: -6px 0;
+}
+
+// What a term means, opened from .dp-epss or .dp-term. Same look as the assets table's
 // hash-hint tooltip; fixed so the table's scroll box cannot clip it.
 .dp-tip {
   position: fixed;
@@ -579,7 +607,8 @@ details.dp-decision__others {
   color: var(--neutral-7);
   font-family: system-ui, sans-serif;
   font-size: $font-xxs;
-  line-height: 1.35;
+  font-weight: 400; // not the bold of the tile number it opens from
+  line-height: 1.4;
   white-space: normal;
   text-align: left;
   box-shadow: 0 2px 8px var(--shadow-2);
@@ -589,13 +618,24 @@ details.dp-decision__others {
   }
 
   p {
-    margin: 0 0 4px;
+    margin: 0 0 6px;
   }
 
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  // Phones: the whole width (place() keeps the margins), a readable size.
+  @media (max-width: 640px) {
+    width: calc(100vw - 16px);
+    max-width: none;
+    padding: 12px 14px;
+    font-size: $font-xs;
+  }
 }
 
 // By id: the panel sits inside a step title, whose links lose their underline.
-#dp-epss-tip a {
+#dp-tip a {
   color: inherit;
   text-decoration: underline;
 }
