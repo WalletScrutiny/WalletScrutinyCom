@@ -416,9 +416,9 @@ export function decisionCell(a, { onJudge = null, freshId = null } = {}) {
 
 // What "cleared" on the severity lines means.
 export const CLEARED_TIP_LINES = [
-  'Cleared: someone whose statements this site trusts published a signed statement that the advisory does not affect this wallet.',
-  'Either “not affected” (the vulnerable code is not used, or cannot be reached) or “fixed” (the shipped version has the fix). The reason and the signer are on the advisory’s row below.',
-  'Not cleared means nobody has assessed it yet, or someone found it does affect the wallet; the row’s Decision column says which. It does not by itself mean your app is vulnerable.',
+  'Cleared means a reviewer this site trusts looked at the report and signed a statement that it does not apply to this app.',
+  'That is either “not affected” (the app does not use the part of the package the report is about) or “fixed” (the app already has the fix). Each row below shows the reason and who signed it.',
+  'A report that is not cleared has either not been reviewed yet, or was found to apply; the Decision column says which. On its own it does not mean there is a problem in your app.',
 ];
 
 function clearedTip() {
@@ -428,12 +428,12 @@ function clearedTip() {
 // What the vulnerability tile's number counts, how it was found, and what it
 // says about the app a visitor has installed.
 export function vulnerabilityTipLines(model, { maybe = false } = {}) {
-  const date = model.analysedAt ? ` on ${dateOf(model.analysedAt)}` : '';
+  const date = model.analysedAt ? `, on ${dateOf(model.analysedAt)}` : '';
   return [
-    `What it counts: advisories published on OSV.dev whose affected versions include a version this wallet’s lockfiles pin, in packages the app ships${maybe ? ', or may ship: where the files do not say, the package counts, because it cannot be ruled out' : ''}.`,
-    `How: WalletScrutiny read the lockfiles in the wallet’s public source code at the tag ${model.ref}, and looked up every pinned version on OSV.dev${date}. Build tools and tests are counted separately below.`,
-    `For your app: this is release ${model.ref} only. A match means the source pins an affected version, not that the vulnerable code runs in your app or that anyone can reach it. ${model.apk ? 'The APK check on each row says whether the package is in the released app.' : 'Nothing checked the released app for these packages.'}`,
-    'The colour is the worst severity not yet cleared.',
+    `This counts published security reports (advisories) that list a package version this app’s source code uses as affected. Only packages that go into the app are counted${maybe ? ', plus packages where the files do not say either way' : ''}.`,
+    `How we counted: we took the package list from the app’s public source code for ${model.ref} and looked up each package version in OSV.dev, a public database of these reports${date}. Packages used only to build or test the app are listed separately below.`,
+    `What it means for your app: it is about ${model.ref}. A report tells us the package version is affected, not whether the app uses the affected part. ${model.apk ? 'Each row below says whether we found the package in the released app.' : 'We have not checked the released app itself for these packages.'}`,
+    'The colour shows the highest severity among reports not yet cleared.',
   ];
 }
 
@@ -464,8 +464,8 @@ function vulnerabilityTile(model) {
     elsewhere.length ? el('div', { className: 'dp-tile__line dp-tile__line--elsewhere' }, elsewhere.join(' · ')) : null,
     model.vulnerabilities ? el('div', { className: 'dp-tile__line' }, `${model.vulnerabilities} matches in all, ${distinct} distinct advisories`) : null,
     model.vulnerabilities ? el('div', { className: 'dp-tile__caveat' }, model.apk
-      ? 'A match means a lockfile lists an affected version, not that the app runs the vulnerable code.'
-      : 'A match means a lockfile lists an affected version, not that the app runs the vulnerable code. Nothing checked the released app for these packages.') : null,
+      ? 'A match means a package version is listed as affected, not that the app uses the affected part.'
+      : 'A match means a package version is listed as affected, not that the app uses the affected part. The released app itself was not checked for these packages.') : null,
     triageLine(model),
   ] });
 }

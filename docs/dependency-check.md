@@ -41,8 +41,10 @@ source repository at that release's tag:
   - The severity lines and the tile colour cover only the big number's
     matches. The severity is the CVSS score OSV reports: critical ≥ 9,
     high ≥ 7, medium ≥ 4, low > 0.
-  - A caveat on the tile repeats that a match is not proof of use, and,
-    when the release has no APK check, that nothing checked the released app.
+  - A caveat on the tile repeats that a match means a package version is
+    listed as affected, not that the app uses the affected part, and, when
+    the release has no APK check, that the released app itself was not
+    checked.
   - The big number and each "cleared" open an explanation (hover, focus or
     tap), worded for a visitor who has the app installed, see "The tile's
     explanations" below.
@@ -208,24 +210,30 @@ failing feed never fails the build.
 ### The tile's explanations
 
 The wording is fixed in `src/dependencies-panel.mjs` (`vulnerabilityTipLines`,
-`CLEARED_TIP_LINES`), so that the panel never says more than the data:
+`CLEARED_TIP_LINES`). It is plain English for a visitor who has the app
+installed, and neutral: it says "report" and "affected", not "vulnerable",
+"exploitable" or "attack", and it never says more than the data.
 
-- **The number**: what it counts (OSV.dev advisories matching a pinned
-  version, in packages the app ships or may ship), how it was found (the
-  lockfiles in the public source at the release tag, looked up on OSV.dev on
-  the check date; build tools and tests counted separately), and what it says
-  about the visitor's app: it is about that one release; a match means the
-  source pins an affected version, not that the vulnerable code runs in the
-  app or that anyone can reach it; and either the APK check per row says
-  whether the package is in the released app, or nothing checked the released
-  app. The colour is the worst severity not yet cleared.
-- **Cleared**: someone whose statements this site trusts published a signed
-  statement that the advisory does not affect this wallet, either "not
-  affected" (the vulnerable code is not used or cannot be reached) or "fixed"
-  (the shipped version has the fix), with the reason and signer on the row.
-  Not cleared means not assessed yet or found to affect the wallet (the
-  Decision column says which), and does not by itself mean the app is
-  vulnerable.
+- **The number**: what it counts (published security reports that list a
+  package version the app's source uses as affected, only packages that go
+  into the app, plus those the files do not place), how it was counted (the
+  package list from the public source at the release tag, looked up in
+  OSV.dev on the check date; build and test packages listed separately), and
+  what it means for the visitor's app: it is about that release, and a report
+  says the package version is affected, not whether the app uses the affected
+  part. Then either each row says whether the package was found in the
+  released app, or the released app itself was not checked. The colour shows
+  the highest severity among reports not yet cleared.
+- **Cleared**: a reviewer this site trusts looked at the report and signed a
+  statement that it does not apply to this app, either "not affected" (the
+  app does not use the part the report is about) or "fixed" (the app already
+  has the fix), with the reason and signer on the row. A report that is not
+  cleared has not been reviewed yet or was found to apply (the Decision
+  column says which), and on its own does not mean there is a problem in the
+  app.
+
+On phones the tiles stack one per row and the explanation spans the screen
+width at a larger text size; each "cleared" has a finger-sized tap target.
 
 ## What it does not claim
 
