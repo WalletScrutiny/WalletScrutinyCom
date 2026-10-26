@@ -12,6 +12,10 @@
 #   npm     node_modules/.package-lock.json, the tree npm really installed
 #   pub     pubspec.lock files as `pub get` left them
 #   cargo   Cargo.lock files as the build left them
+#   committed  every compiled file checked into the checkout (.so, .a, .jar,
+#           .aar, .dll, ...), with its sha256: no lockfile lists those, and
+#           leaving something out of the lockfile must not hide it (Leo,
+#           2026-10-26)
 #
 # The cache must belong to this build alone: a cache shared with other builds
 # lists their artifacts too. Mount a fresh directory as the container's
@@ -23,10 +27,11 @@
 #   --out          where build-lock.json and the copied lockfiles are written
 #   --gradle-home  a GRADLE_USER_HOME the build used (repeatable)
 #   --src          the checkout after the build, for the npm, pub and cargo lockfiles
+#                  and the committed binaries (needs its .git)
 #   --yaml         COMPARISON_RESULTS.yaml to append a `build_lock:` block to (optional)
 set -u
 
-export WS_BUILDLOCK_VERSION="0.1.0"
+export WS_BUILDLOCK_VERSION="0.2.0"
 
 OUT="" SRC="" YAML=""
 GRADLE_HOMES=()
@@ -75,6 +80,23 @@ if [ -n "$SRC" ]; then
            | sed 's|^\./||' | grep -v 'node_modules/.*/node_modules/' | LC_ALL=C sort)
 fi
 
+# Compiled files the repository itself carries (git's index, so build output
+# is not mistaken for them). Same extensions as the source analyser's
+# committed-binaries check; the gradle wrapper jar is the one expected entry.
+committed_count=0
+if [ -n "$SRC" ] && git -C "$SRC" rev-parse --git-dir >/dev/null 2>&1; then
+  while IFS= read -r rel; do
+    [ -f "$SRC/$rel" ] || continue
+    sha256=$(sha256sum "$SRC/$rel" | cut -d' ' -f1)
+    printf '{"ecosystem":"committed","name":%s,"sha256":"%s"}\n' "$(json_str "$rel")" "$sha256" >> "$ENTRIES"
+    committed_count=$((committed_count + 1))
+  done < <(git -C "$SRC" ls-files -z | tr '\0' '\n' \
+             | grep -iE '\.(a|so|dylib|dll|lib|o|obj|aar|jar|apk|aab|ipa|wasm|exe|node|pyd|dex|class|jnilib)$|\.so\.[0-9]' \
+             | LC_ALL=C sort)
+elif [ -n "$SRC" ]; then
+  echo "[WARN] ws-buildlock: $SRC is not a git checkout; committed binaries not listed"
+fi
+
 {
   printf '{"schema":1,"tool":"ws-buildlock","version":"%s","generatedAt":"%s",\n' "$WS_BUILDLOCK_VERSION" "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
   printf '"lockfiles":['
@@ -88,6 +110,7 @@ rm -f "$ENTRIES"
 
 echo "=== ws-buildlock ${WS_BUILDLOCK_VERSION} ==="
 echo "Gradle artifacts the build fetched: ${gradle_count}"
+echo "Binaries committed in the checkout: ${committed_count}"
 for l in "${LOCKS[@]}"; do echo "Lockfile after the build: $l"; done
 if [ "$gradle_count" -eq 0 ] && [ ${#LOCKS[@]} -eq 0 ]; then
   echo "[WARN] ws-buildlock: nothing recorded; the build's exact dependency versions are unknown"
@@ -100,6 +123,7 @@ if [ -n "$YAML" ]; then
     echo "  tool_version: ${WS_BUILDLOCK_VERSION}"
     echo "  status: $([ "$gradle_count" -gt 0 ] || [ ${#LOCKS[@]} -gt 0 ] && echo ok || echo empty)"
     echo "  gradle_artifacts: ${gradle_count}"
+    echo "  committed_binaries: ${committed_count}"
     echo "  lockfiles: [$(IFS=,; echo "${LOCKS[*]:-}")]"
     echo "  sha256: $(sha256sum "$OUT/build-lock.json" | cut -d' ' -f1)"
   } >> "$YAML"

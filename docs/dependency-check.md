@@ -259,30 +259,53 @@ reproducible from the analysed source. The transitive dependencies of a
 wallet that fails to build from its source tell nothing about the shipped
 app.
 
-- The analyser reads the verdicts from the site and analyses wallets with a
-  reproducible verdict, at the tags of their verified versions.
-- Everything else stays in the database as supplementary data and is not
-  shown on the wallet page.
+- The scope is widened to wallets that were reproducible at some point
+  (Leo, 2026-10-26): one reproducible version keeps a wallet in, even when
+  later versions fail.
+- The verdicts are the build verifications on Nostr (kind 30301: `i` appId,
+  `version`, `status`), read fresh each pass from the project relays and
+  cached in the database for when the relays are unreachable
+  (`reproducible.mjs`). Only the newest event per author and `d` counts, so a
+  verifier who revises "reproducible" no longer vouches for that version.
+  A wallet matches through any of its records (Android and iPhone share a
+  repository).
+- In-scope wallets get each verified version analysed at the tag that names
+  it, newest verification first, up to `SOURCE_ANALYSIS_VERIFIED_PER_PASS`
+  (default 3) per wallet and pass; the backlog drains over the next passes.
+  Tags come from `git ls-remote`, so this works on any host, not only
+  GitHub. A version no tag names is recorded (`verified-no-tag`) and exported
+  as `verifiedWithoutTag`; a wrong tag would be worse than none, so two
+  candidates without a platform or flavour hint resolve to nothing. The
+  newest-release and default-branch analyses still run for in-scope wallets,
+  as early warning.
+- Exported releases that check a verified version carry `verifiedVersion`.
+- Wallets out of scope are neither analysed nor exported; rows from earlier
+  passes stay in the database as supplementary data.
+- `SOURCE_ANALYSIS_SCOPE=all` analyses every wallet with a repository.
 - This reverses the earlier "analyse every release" rule from 2026-10-02.
 
-Not built yet (checked 2026-10-26): the analyser does not read verdicts.
-`api/appRepositories.json` lists every wallet with a repository, and the pass
-analyses the newest GitHub release, not the verified version. See the next
-section.
+Measured 2026-10-26 against the relays and the app list cached on the test
+box: 60 wallets have a reproducible verification, 48 of 220 repositories are
+in scope, and 421 of 435 verified versions resolve to a tag. The 14 that do
+not are ambiguous flavours (`cash.p.terminal 0.60.0`: `-fdroid` or
+`-google`), BitBox02 "Multi" before 9.26, and a few with no matching tag.
+Two verified wallets are not in the app list (`de.schildbach.wallet`,
+`org.bitfinitechain.wallet`), so they stay out until their records name a
+repository.
 
 ## Coverage and weak points (2026-10-26)
 
 What a pass actually covers, from `external/source_analysis` on this branch:
 
-- **One version per wallet per pass.** Every 6 hours, each wallet gets one
-  analysis: the newest GitHub release that appeared since the last pass. If
-  there is none, the default branch HEAD is analysed instead, if it moved
-  (`index.mjs`).
+- **Verified versions first.** Every 6 hours, each in-scope wallet gets up
+  to three of its verified versions analysed (see Scope above), plus the
+  newest GitHub release that appeared since the last pass, or the default
+  branch HEAD if there is none and it moved (`index.mjs`).
 - **"New release" means a GitHub release with assets.** A release with no
   binaries attached counts as no release. Repositories outside GitHub
   (GitLab, Codeberg, ...) only ever get their default branch analysed.
-- **Never analysed:** releases between two passes, older releases, and the
-  version WalletScrutiny verified.
+- **Never analysed:** releases between two passes and older releases that
+  nobody verified.
 - **OSV lookups use the live API** (`api.osv.dev/v1/querybatch`,
   `plugins/osv.mjs`), with no local copy. Package versions are de-duplicated
   within one analysis only; advisory details are cached for one run.
@@ -296,14 +319,19 @@ Weak points, as an attacker would use them (Danny's red-team round):
 - Point the WS record at a clean decoy repo; the scanner trusts whatever URL
   is listed.
 - Host on GitLab or Codeberg; releases are never scanned, only the main
-  branch.
+  branch. Closed for verified versions: their tags come from git, on any
+  host.
 - Publish releases without binaries attached; the scanner treats them as "no
   release".
 - Ship two releases within six hours; only the newest one gets scanned.
 - Ship different code to the Play Store than GitHub shows; the scanner reads
   GitHub, not the APK.
 - Vendor a copied library or a prebuilt `.so`; no lockfile lists it, so
-  nothing checks it.
+  nothing checks it. Leaving something out of the lockfile must not hide it
+  (Leo, 2026-10-26): `committed-binaries` now runs on every analysis, and a
+  compiled file in the tree (outside tests, samples and the build-tool
+  wrapper) makes the lock verdict `unlocked`. A copied source tree is still
+  invisible.
 - Leave dependencies unlocked or floating; they are skipped, not counted as
   findings. Being addressed: a missing lockfile or an unlocked entry is
   strictly worse than a known vulnerability (Leo, 2026-10-26). The
@@ -316,6 +344,12 @@ Weak points, as an attacker would use them (Danny's red-team round):
   unlocks it. The panel does not show the verdict yet.
 - Ship iOS only; `Podfile.lock` and `Package.resolved` are not read.
 - Download code during the build with a script; only lockfiles are read.
+  Partly closed: `oob-downloads` now runs on every analysis, and a curl,
+  wget, git clone or container base image without a hash check nearby makes
+  the lock verdict `unlocked`, CI configs included, since a CI job may build
+  the release. URLs assembled at build time stay invisible to a static scan.
+  For verified builds, `ws-buildlock.sh` records what the build fetched
+  through Gradle and the binaries the checkout commits, with their hashes.
 - Publish a malicious package before OSV lists it; old scans are never
   re-checked.
 - Plant a Gradle init script in the shared cache; it runs in every later
@@ -325,8 +359,8 @@ Weak points, as an attacker would use them (Danny's red-team round):
 - Phish a trusted reviewer's key, then sign "not affected" to hide real rows.
 - Break the publish step; the site keeps showing old results.
 
-To fix first: the shared Gradle cache, and that verified versions are never
-scanned.
+To fix first: the shared Gradle cache. Verified versions are scanned since
+2026-10-26.
 
 ## The ladder: how far each dependency is verified
 
