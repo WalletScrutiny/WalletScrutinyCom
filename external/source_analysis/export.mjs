@@ -20,7 +20,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { groupByRepository } from './appList.mjs';
 import { hintsByApp } from './upstreamTriage.mjs';
-import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources } from './ddbbUtils.mjs';
+import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources, getVerifiedRefs, getReproducibleVersions } from './ddbbUtils.mjs';
 
 export const SCHEMA = 1;
 const SEVERITIES = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown'];
@@ -158,8 +158,13 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
         integrityChangedAtSameVersion: d.changed.filter(c => c.integrityChangedAtSameVersion.length).map(c => `${c.ecosystem}:${c.name}`) };
     }
   }
+  // Releases that are the check of a verified (reproducible) version, and the
+  // verified versions no tag names, so the panel can say what was not checked.
+  const verifiedRefs = getVerifiedRefs(db, appId);
+  for (const r of releases) if (verifiedRefs.has(r.ref)) r.verifiedVersion = verifiedRefs.get(r.ref);
+  const verifiedWithoutTag = analyses.filter(a => a.kind === 'verified-no-tag').map(a => a.ref);
   const defaultBranch = analyses.filter(a => a.kind === 'default-branch').map(analysisEntry)[0] || null;
-  return { schema: SCHEMA, appId, aliases, releases, defaultBranch };
+  return { schema: SCHEMA, appId, aliases, releases, defaultBranch, ...(verifiedWithoutTag.length ? { verifiedWithoutTag } : {}) };
 }
 
 function indexEntry(app) {
@@ -254,12 +259,18 @@ export function writeUpstreamHints(db, exportDir) {
  * tree; the previous export is removed afterwards.
  * Returns { apps, releases, dir }.
  */
-export function exportAll(db, outDir, { generatedAt = new Date().toISOString(), analyser = null } = {}) {
+export function exportAll(db, outDir, { generatedAt = new Date().toISOString(), analyser = null, onlyReproducible = false } = {}) {
   const parent = path.dirname(path.resolve(outDir));
   fs.mkdirSync(parent, { recursive: true });
   const tmp = fs.mkdtempSync(path.join(parent, '.export-'));
   const aliases = aliasMap(db);
-  const appIds = new Set([...listAnalysedApps(db), ...db.prepare('SELECT DISTINCT app_id FROM app_dependencies').all().map(r => r.app_id)]);
+  let appIds = new Set([...listAnalysedApps(db), ...db.prepare('SELECT DISTINCT app_id FROM app_dependencies').all().map(r => r.app_id)]);
+  // Out of scope (no reproducible version, reproducible.mjs): the rows stay in
+  // the database as supplementary data, the site does not show them.
+  if (onlyReproducible) {
+    const verified = getReproducibleVersions(db);
+    appIds = new Set([...appIds].filter(id => [id, ...(aliases.get(id) || []).map(a => a.appId)].some(a => verified.has(a))));
+  }
   const index = { schema: SCHEMA, generatedAt, analyser, apps: [] };
   const counts = productCounts(db);
   const sources = packageSources(db);
@@ -328,7 +339,8 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
   const { analyserVersion } = await import('./appAnalysis.mjs');
   const db = initDatabase();
   try {
-    const { apps, releases, dir } = exportAll(db, outDir, { analyser: analyserVersion() });
+    const { SCOPE } = await import('./config.mjs');
+    const { apps, releases, dir } = exportAll(db, outDir, { analyser: analyserVersion(), onlyReproducible: SCOPE !== 'all' });
     console.log(`Exported ${apps} apps, ${releases} releases to ${dir}`);
   } finally {
     db.close();

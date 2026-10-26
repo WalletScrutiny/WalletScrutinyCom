@@ -182,6 +182,10 @@ check (Leo, 2026-10-26), and for a project without lockfiles it is the only one.
   with its sha256. The directory name is the file's sha1, as Gradle stores it.
 - **npm, pub, cargo:** `node_modules/.package-lock.json`, `pubspec.lock` and
   `Cargo.lock` as the build left them, copied under `lockfiles/`.
+- **committed:** every compiled file the checkout carries in git (`.so`,
+  `.a`, `.jar`, `.aar`, `.dll`, ...), with its sha256. No lockfile lists
+  those, and leaving something out of a lockfile must not hide it (Leo,
+  2026-10-26). Needs `--src` to be a git checkout.
 
 The Gradle cache has to belong to this build alone, or the list includes other
 builds' artifacts. Most build scripts throw the container away with its cache,

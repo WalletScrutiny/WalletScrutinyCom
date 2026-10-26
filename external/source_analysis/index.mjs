@@ -6,13 +6,14 @@ import { fetchGitHubAssets, fetchDockerAssets, parseDockerImage, checkAuthorIdCo
 import { backupDatabase, initDatabase, saveAsset, hasExistingAssets, getAnalysedCommit, saveAnalysedCommit } from './ddbbUtils.mjs';
 import { runSourceCodeAnalysis, remoteHeadCommit } from './appAnalysis.mjs';
 import { pruneCache } from './containerRunner.mjs';
-import { APPS, APP_LIST_URL, DEFAULT_TEMP_DIR, CONCURRENCY , EXPORT_DIR } from './config.mjs';
+import { APPS, APP_LIST_URL, DEFAULT_TEMP_DIR, CONCURRENCY, EXPORT_DIR, SCOPE, VERIFIED_PER_PASS } from './config.mjs';
+import { loadReproducible, verifiedVersionsOf, analyseVerifiedVersions } from './reproducible.mjs';
 import { loadAppList, groupByRepository } from './appList.mjs';
 import { runPool, tagConsole } from './pool.mjs';
 import { loadPlugins } from './plugins.mjs';
 
 // Main function
-async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = null, dockerToken = null, includeTestFiles = false) {
+async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = null, dockerToken = null, includeTestFiles = false, verified = []) {
   console.log(`\nProcessing app: ${appId}`);
   if (repoUrl) {
     console.log(`  GitHub repo: ${repoUrl}`);
@@ -74,6 +75,9 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
           }
         }
       }
+
+      await analyseVerifiedVersions(db, { appId, repoUrl, verified, perPass: VERIFIED_PER_PASS,
+        analyse: (tag) => runSourceCodeAnalysis({ name: appId, repoUrl, version: tag, includeTestFiles, db }) });
     }
 
     // Fetch Docker assets if provided
@@ -167,7 +171,19 @@ try {
     console.warn(`Skipping ${e.appId} (${e.platform}): '${e.repository}' does not name a repository`);
   }
   console.log(`App list: ${entries.length} records, ${siteJobs.length} repositories, ${skipped.length} skipped (from ${listSource})`);
-  jobs = [...siteJobs, ...APPS];
+  // Only wallets some version of which was found reproducible (reproducible.mjs);
+  // SOURCE_ANALYSIS_SCOPE=all analyses every repository.
+  const { byApp, source: verdictSource, error: verdictError } = await loadReproducible(db).catch(error => {
+    if (SCOPE !== 'all') throw error;
+    return { byApp: new Map(), source: 'nowhere', error: error.message };
+  });
+  if (verdictSource !== 'relays') {
+    console.warn(`Warning: could not read the build verifications (${verdictError}); using the cached copy`);
+  }
+  for (const job of siteJobs) job.verified = verifiedVersionsOf(job, byApp);
+  const inScope = siteJobs.filter(j => j.verified.length);
+  console.log(`Scope: ${inScope.length} of ${siteJobs.length} repositories have a reproducible version (${byApp.size} wallets verified, from ${verdictSource})${SCOPE === 'all' ? '; SOURCE_ANALYSIS_SCOPE=all analyses all of them' : ''}`);
+  jobs = [...(SCOPE === 'all' ? siteJobs : inScope), ...APPS];
 } catch (error) {
   console.error(`✗  ${error.message}`);
   db.close();
@@ -227,7 +243,8 @@ try {
         app.dockerImage || null,
         appGithubToken,
         effectiveDockerToken,
-        includeTestFiles
+        includeTestFiles,
+        app.verified || []
       );
       successCount++;
     } catch (error) {
@@ -246,7 +263,7 @@ try {
     try {
       const { exportAll } = await import('./export.mjs');
       const { analyserVersion } = await import('./appAnalysis.mjs');
-      const { apps, releases, dir } = exportAll(db, EXPORT_DIR, { analyser: analyserVersion() });
+      const { apps, releases, dir } = exportAll(db, EXPORT_DIR, { analyser: analyserVersion(), onlyReproducible: SCOPE !== 'all' });
       console.log(`\nExported ${apps} apps, ${releases} releases to ${dir}`);
       if (process.env.SOURCE_ANALYSIS_SIGNALS !== 'off') {
         // EPSS, CISA's exploited list, publication dates; a failing feed only leaves its part out

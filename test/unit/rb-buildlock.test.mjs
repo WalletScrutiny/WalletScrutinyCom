@@ -66,3 +66,26 @@ test('a wrong invocation exits 2', () => {
   assert.equal(run([]).status, 2);
   assert.equal(run(['--out', '/tmp/x']).status, 2);
 });
+
+test('lists the binaries the checkout commits, with their hash, and not build output', () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'buildlock-'));
+  const src = path.join(root, 'src');
+  write(src, {
+    'app/libs/vendor.aar': 'aar bytes',
+    'app/src/main/jniLibs/arm64-v8a/libsecp.so': 'so bytes',
+    'app/src/Main.kt': 'class Main',
+    'app/build/out.jar': 'built, not committed',
+  });
+  const git = (...a) => spawnSync('git', ['-C', src, ...a], { encoding: 'utf8' });
+  git('init', '-q');
+  git('add', 'app/libs', 'app/src');
+  const out = path.join(root, 'out');
+  const r = run(['--out', out, '--src', src]);
+  assert.equal(r.status, 0, r.stderr);
+  const sha = (s) => crypto.createHash('sha256').update(s).digest('hex');
+  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(out, 'build-lock.json'), 'utf8')).artifacts, [
+    { ecosystem: 'committed', name: 'app/libs/vendor.aar', sha256: sha('aar bytes') },
+    { ecosystem: 'committed', name: 'app/src/main/jniLibs/arm64-v8a/libsecp.so', sha256: sha('so bytes') },
+  ]);
+  assert.match(r.stdout, /Binaries committed in the checkout: 2/);
+});

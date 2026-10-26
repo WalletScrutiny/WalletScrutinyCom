@@ -209,6 +209,29 @@ export function initDatabase(dbPath = DB_PATH) {
     );
   `);
 
+  // Last good copy of the build verifications that put a wallet in scope
+  // (see reproducible.mjs): every version some verifier found reproducible.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS reproducible_versions (
+      app_id TEXT NOT NULL,
+      version TEXT NOT NULL,
+      verified_at INTEGER NOT NULL,    -- created_at of the newest reproducible verification
+      platform TEXT,                   -- its platform tag (android, iphone, hardware, windows, ...)
+      PRIMARY KEY (app_id, version)
+    );
+  `);
+
+  // Which release analysis is the check of a verified version: the tag the
+  // pass resolved the version to.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS verified_refs (
+      app_id TEXT NOT NULL,
+      ref TEXT NOT NULL,
+      version TEXT NOT NULL,
+      PRIMARY KEY (app_id, ref)
+    );
+  `);
+
   // Commit of the default branch the last successful analysis looked at, so a
   // pass skips repositories whose default branch has not moved since.
   db.exec(`
@@ -227,7 +250,7 @@ export function initDatabase(dbPath = DB_PATH) {
   db.exec(`
     CREATE TABLE IF NOT EXISTS analyses (
       app_id TEXT NOT NULL,
-      kind TEXT NOT NULL,              -- release | default-branch
+      kind TEXT NOT NULL,              -- release | default-branch | verified-no-tag
       ref TEXT NOT NULL,               -- release tag, or the branch's commit for default-branch runs
       commit_sha TEXT,
       status TEXT NOT NULL,            -- ok | failed | unsupported
@@ -316,6 +339,40 @@ export function saveAppList(db, entries) {
 export function getAppList(db) {
   return db.prepare('SELECT app_id, platform, repository FROM apps ORDER BY platform, app_id').all()
     .map(r => ({ appId: r.app_id, platform: r.platform, repository: r.repository }));
+}
+
+// Replace the cached verifications with byApp (appId -> [{version, verifiedAt}]).
+export function saveReproducibleVersions(db, byApp) {
+  const insert = db.prepare('INSERT INTO reproducible_versions (app_id, version, verified_at, platform) VALUES (?, ?, ?, ?)');
+  db.transaction(() => {
+    db.prepare('DELETE FROM reproducible_versions').run();
+    for (const [appId, versions] of byApp) for (const v of versions) insert.run(appId, v.version, v.verifiedAt, v.platform ?? null);
+  })();
+}
+
+export function getReproducibleVersions(db) {
+  const byApp = new Map();
+  for (const r of db.prepare('SELECT app_id, version, verified_at, platform FROM reproducible_versions ORDER BY verified_at DESC').all()) {
+    if (!byApp.has(r.app_id)) byApp.set(r.app_id, []);
+    byApp.get(r.app_id).push({ version: r.version, verifiedAt: r.verified_at, platform: r.platform });
+  }
+  return byApp;
+}
+
+export function saveVerifiedRef(db, appId, ref, version) {
+  db.prepare("DELETE FROM analyses WHERE app_id = ? AND kind = 'verified-no-tag' AND ref = ?").run(appId, version);
+  db.prepare('INSERT OR REPLACE INTO verified_refs (app_id, ref, version) VALUES (?, ?, ?)').run(appId, ref, version);
+}
+
+// ref -> verified version, for one app.
+export function getVerifiedRefs(db, appId) {
+  return new Map(db.prepare('SELECT ref, version FROM verified_refs WHERE app_id = ?').all(appId).map(r => [r.ref, r.version]));
+}
+
+// True when a release analysis of this ref finished (ok or unsupported); a
+// failed one is retried.
+export function hasReleaseAnalysis(db, appId, ref) {
+  return Boolean(db.prepare("SELECT 1 FROM analyses WHERE app_id = ? AND kind = 'release' AND ref = ? AND status != 'failed'").get(appId, ref));
 }
 
 function ensureColumn(db, table, column, type) {

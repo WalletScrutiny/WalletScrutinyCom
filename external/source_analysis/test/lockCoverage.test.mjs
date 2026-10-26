@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import { findManifests, lockCoverage } from '../plugins/lock-coverage.mjs';
+import { findManifests, lockCoverage, unlistedInputs } from '../plugins/lock-coverage.mjs';
 
 function repo(files) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'lockcov-'));
@@ -103,4 +103,26 @@ test('example directories are listed but marked as not the product', () => {
   const ex = findManifests(dir).find(x => x.manifest === 'example/pubspec.yaml');
   assert.equal(ex.product, false);
   assert.equal(ex.lockfile, null);
+});
+
+test('inputs no lockfile lists unlock a fully locked repository (Leo, 2026-10-26)', () => {
+  const locked = [{ ecosystem: 'npm', manifest: 'package.json', lockfile: 'package-lock.json', product: true }];
+  const download = (o) => ({ kind: 'wget', target: 'https://dl.google.com/sdk.zip', file: 'Dockerfile', line: 3, hashCheck: false, stability: 'unspecified', ...o });
+  const artifact = (o) => ({ path: 'app/libs/x.aar', kind: 'aar', size: 10, category: 'build-input', ...o });
+  const verdict = (downloads, artifacts) => lockCoverage(locked, [], unlistedInputs({ downloads, binaries: { artifacts } })).verdict;
+
+  assert.equal(verdict([], []), 'locked');
+  assert.equal(verdict([download()], []), 'unlocked');
+  assert.equal(verdict([download({ kind: 'container-base-image', target: 'ubuntu:22.04' })], []), 'unlocked');
+  assert.equal(verdict([], [artifact()]), 'unlocked');
+  // a hash check next to the download, a test fixture, the gradle wrapper, a sample app: not hidden inputs
+  assert.equal(verdict([download({ hashCheck: true })], []), 'locked');
+  assert.equal(verdict([download({ file: 'examples/demo/Dockerfile' })], []), 'locked');
+  assert.equal(verdict([], [artifact({ category: 'test-fixture' }), artifact({ category: 'build-tool-wrapper' })]), 'locked');
+  // vendored binaries without any manifest are still something, not "unknown"
+  assert.equal(lockCoverage([], [], unlistedInputs({ binaries: { artifacts: [artifact()] } })).verdict, 'unlocked');
+
+  const c = lockCoverage(locked, [], unlistedInputs({ downloads: Array.from({ length: 60 }, (_, i) => download({ line: i })) }));
+  assert.equal(c.unlisted.downloadCount, 60);
+  assert.equal(c.unlisted.downloads.length, 50, 'the stored list is capped, the count is not');
 });

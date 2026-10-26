@@ -21,9 +21,9 @@ export const PLUGINS = {
   'obfuscation': false,           // test 6
   'pinning': true,                // test 7, stores the resolved dependencies
   'gradle-resolution': true,      // test 7b, completes pinning's gradle rows
-  'lock-coverage': true,          // test 7c, manifests without a lockfile
-  'oob-downloads': false,         // test 8
-  'committed-binaries': false,    // test 9
+  'oob-downloads': true,          // test 8, read by lock-coverage
+  'committed-binaries': true,     // test 9, read by lock-coverage
+  'lock-coverage': true,          // test 7c, manifests without a lockfile, inputs outside any lockfile
   'osv': true,                    // test 10, host: known vulnerabilities of pinning's rows
   'semgrep': false,               // test 11, host: its own container on the checkout
 };
@@ -80,6 +80,13 @@ export const CONTAINER_TIMEOUT_MS = Number(process.env.SOURCE_ANALYSIS_CONTAINER
 // Repositories processed at the same time. Each one runs its own container
 // with the limits above (3 x 6 GB / 2 CPUs by default), next to the build server.
 export const CONCURRENCY = Math.max(1, Math.floor(Number(process.env.SOURCE_ANALYSIS_CONCURRENCY)) || 3);
+// Which wallets a pass analyses: 'reproducible' (default) only those with a
+// reproducible build verification of any version (reproducible.mjs), 'all'
+// every wallet with a repository.
+export const SCOPE = process.env.SOURCE_ANALYSIS_SCOPE === 'all' ? 'all' : 'reproducible';
+// Verified versions not analysed yet, analysed per repository and pass,
+// newest verification first; the backlog drains over the next passes.
+export const VERIFIED_PER_PASS = Math.max(0, Math.floor(Number(process.env.SOURCE_ANALYSIS_VERIFIED_PER_PASS ?? 3)) || 0);
 // Shared npm/yarn/gradle/pip caches mounted into every container; wiped when
 // they grow past the cap (index.mjs calls pruneCache after each pass).
 export const CACHE_DIR = process.env.SOURCE_ANALYSIS_CACHE_DIR || join(__dirname, 'cache');
