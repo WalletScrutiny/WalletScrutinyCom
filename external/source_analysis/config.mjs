@@ -84,6 +84,11 @@ export const CONCURRENCY = Math.max(1, Math.floor(Number(process.env.SOURCE_ANAL
 // reproducible build verification of any version (reproducible.mjs), 'all'
 // every wallet with a repository.
 export const SCOPE = process.env.SOURCE_ANALYSIS_SCOPE === 'all' ? 'all' : 'reproducible';
+// A gone wallet (removed, defunct, discontinued, deprecated) stays in scope
+// while it was reproducible: its users still run it, and new advisories in
+// its dependencies matter to them. Once its default branch saw no commit for
+// this many years it is past its end of life and leaves the scope.
+export const GONE_EOL_YEARS = Number(process.env.SOURCE_ANALYSIS_GONE_EOL_YEARS || 2);
 // Verified versions not analysed yet, analysed per repository and pass,
 // newest verification first; the backlog drains over the next passes.
 export const VERIFIED_PER_PASS = Math.max(0, Math.floor(Number(process.env.SOURCE_ANALYSIS_VERIFIED_PER_PASS ?? 3)) || 0);

@@ -3,10 +3,11 @@
 import fs from 'fs';
 import minimist from 'minimist';
 import { fetchGitHubAssets, fetchDockerAssets, parseDockerImage, checkAuthorIdConsistency, evaluateChangesInNewAsset, loadSecret } from './utils.mjs';
-import { backupDatabase, initDatabase, saveAsset, hasExistingAssets, getAnalysedCommit, saveAnalysedCommit } from './ddbbUtils.mjs';
-import { runSourceCodeAnalysis, remoteHeadCommit } from './appAnalysis.mjs';
+import { backupDatabase, initDatabase, saveAsset, hasExistingAssets, getAnalysedCommit, saveAnalysedCommit, saveEndOfLife } from './ddbbUtils.mjs';
+import { runSourceCodeAnalysis, remoteHeadCommit, remoteHeadDate } from './appAnalysis.mjs';
+import { recheckStoredReleases } from './recheck.mjs';
 import { pruneCache } from './containerRunner.mjs';
-import { APPS, APP_LIST_URL, DEFAULT_TEMP_DIR, CONCURRENCY, EXPORT_DIR, SCOPE, VERIFIED_PER_PASS } from './config.mjs';
+import { APPS, APP_LIST_URL, DEFAULT_TEMP_DIR, CONCURRENCY, EXPORT_DIR, SCOPE, VERIFIED_PER_PASS, GONE_EOL_YEARS } from './config.mjs';
 import { loadReproducible, verifiedVersionsOf, analyseVerifiedVersions } from './reproducible.mjs';
 import { loadAppList, groupByRepository } from './appList.mjs';
 import { runPool, tagConsole } from './pool.mjs';
@@ -182,9 +183,20 @@ try {
     console.warn(`Warning: could not read the build verifications (${verdictError}); using the cached copy`);
   }
   for (const job of siteJobs) job.verified = verifiedVersionsOf(job, byApp);
-  const inScope = siteJobs.filter(j => j.verified.length);
-  console.log(`Scope: ${inScope.length} of ${siteJobs.length} repositories have a reproducible version (${byApp.size} wallets verified, from ${verdictSource})${SCOPE === 'all' ? '; SOURCE_ANALYSIS_SCOPE=all analyses all of them' : ''}`);
-  jobs = [...(SCOPE === 'all' ? siteJobs.filter(j => !j.gone || j.verified.length) : inScope), ...APPS];
+  const reproducible = siteJobs.filter(j => j.verified.length);
+  // A gone wallet leaves the scope GONE_EOL_YEARS after its last commit; an
+  // unreadable commit date keeps it in.
+  const eolBefore = Date.now() - GONE_EOL_YEARS * 365.25 * 24 * 3600 * 1000;
+  const endOfLife = [];
+  for (const job of reproducible.filter(j => j.gone)) {
+    const lastCommitAt = await remoteHeadDate(job.repoUrl);
+    if (lastCommitAt && lastCommitAt.getTime() < eolBefore) endOfLife.push({ appId: job.appId, lastCommitAt });
+  }
+  saveEndOfLife(db, endOfLife);
+  for (const e of endOfLife) console.log(`End of life: ${e.appId} is gone and its last commit is from ${e.lastCommitAt.toISOString().slice(0, 10)}`);
+  const inScope = reproducible.filter(j => !endOfLife.some(e => e.appId === j.appId));
+  console.log(`Scope: ${inScope.length} of ${siteJobs.length} repositories (${reproducible.length} have a reproducible version, ${endOfLife.length} of them gone and past their end of life; ${byApp.size} wallets verified, from ${verdictSource})${SCOPE === 'all' ? '; SOURCE_ANALYSIS_SCOPE=all analyses all of them' : ''}`);
+  jobs = [...(SCOPE === 'all' ? siteJobs.filter(j => !j.gone || inScope.includes(j)) : inScope), ...APPS];
 } catch (error) {
   console.error(`✗  ${error.message}`);
   db.close();
@@ -206,6 +218,7 @@ tagConsole();
 try {
   let successCount = 0;
   let errorCount = 0;
+  const passStart = db.prepare('SELECT CURRENT_TIMESTAMP AS t').get().t;
 
   // Process the apps, CONCURRENCY at a time (each in its own container and
   // scratch dir); every log line of a job is tagged with its appId.
@@ -254,6 +267,17 @@ try {
       // Continue with next app instead of stopping
     }
   }, (app) => app.appId);
+
+  // Releases that were not analysed this pass get their stored dependencies
+  // looked up again, so a wallet that stopped releasing still learns about new advisories.
+  try {
+    const recheck = await recheckStoredReleases(db, jobs.filter(j => j.repoUrl).map(j => j.appId), { since: passStart });
+    console.log(`\nLooked up ${recheck.releases} stored releases again: ${recheck.added} new advisories${recheck.failed ? `, ${recheck.failed} lookups failed` : ''}`);
+    if (recheck.failed) errorCount++;
+  } catch (error) {
+    console.error('\n✗  Looking up the stored releases again failed:', error.message);
+    errorCount++;
+  }
 
   // Scratch dirs are deleted per repository; the shared package caches only
   // when they outgrow their cap.

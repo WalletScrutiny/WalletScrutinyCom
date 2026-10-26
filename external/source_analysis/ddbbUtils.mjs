@@ -210,6 +210,15 @@ export function initDatabase(dbPath = DB_PATH) {
   `);
   ensureColumn(db, 'apps', 'gone', 'INTEGER NOT NULL DEFAULT 0');
 
+  // Gone wallets past their end of life (index.mjs, GONE_EOL_YEARS), as of the
+  // last pass: neither analysed nor exported.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS end_of_life (
+      app_id TEXT PRIMARY KEY,
+      last_commit_at DATETIME NOT NULL
+    );
+  `);
+
   // Last good copy of the build verifications that put a wallet in scope
   // (see reproducible.mjs): every version some verifier found reproducible.
   db.exec(`
@@ -340,6 +349,19 @@ export function saveAppList(db, entries) {
 export function getAppList(db) {
   return db.prepare('SELECT app_id, platform, repository, gone FROM apps ORDER BY platform, app_id').all()
     .map(r => ({ appId: r.app_id, platform: r.platform, repository: r.repository, gone: r.gone === 1 }));
+}
+
+// Replace the end-of-life set with the given entries ({appId, lastCommitAt: Date}).
+export function saveEndOfLife(db, entries) {
+  const insert = db.prepare('INSERT INTO end_of_life (app_id, last_commit_at) VALUES (?, ?)');
+  db.transaction(() => {
+    db.prepare('DELETE FROM end_of_life').run();
+    for (const e of entries) insert.run(e.appId, e.lastCommitAt.toISOString());
+  })();
+}
+
+export function getEndOfLife(db) {
+  return new Map(db.prepare('SELECT app_id, last_commit_at FROM end_of_life').all().map(r => [r.app_id, r.last_commit_at]));
 }
 
 // Replace the cached verifications with byApp (appId -> [{version, verifiedAt}]).

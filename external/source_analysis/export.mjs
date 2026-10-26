@@ -20,7 +20,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { groupByRepository } from './appList.mjs';
 import { hintsByApp } from './upstreamTriage.mjs';
-import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources, getVerifiedRefs, getReproducibleVersions } from './ddbbUtils.mjs';
+import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources, getVerifiedRefs, getReproducibleVersions, getEndOfLife } from './ddbbUtils.mjs';
 
 export const SCHEMA = 1;
 const SEVERITIES = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown'];
@@ -265,11 +265,12 @@ export function exportAll(db, outDir, { generatedAt = new Date().toISOString(), 
   const tmp = fs.mkdtempSync(path.join(parent, '.export-'));
   const aliases = aliasMap(db);
   let appIds = new Set([...listAnalysedApps(db), ...db.prepare('SELECT DISTINCT app_id FROM app_dependencies').all().map(r => r.app_id)]);
-  // Out of scope (no reproducible version, reproducible.mjs): the rows stay in
+  // Out of scope (no reproducible version, reproducible.mjs, or past its end of life): the rows stay in
   // the database as supplementary data, the site does not show them.
   if (onlyReproducible) {
     const verified = getReproducibleVersions(db);
-    appIds = new Set([...appIds].filter(id => [id, ...(aliases.get(id) || []).map(a => a.appId)].some(a => verified.has(a))));
+    const endOfLife = getEndOfLife(db); // gone and no commit for years (index.mjs)
+    appIds = new Set([...appIds].filter(id => !endOfLife.has(id) && [id, ...(aliases.get(id) || []).map(a => a.appId)].some(a => verified.has(a))));
   }
   const index = { schema: SCHEMA, generatedAt, analyser, apps: [] };
   const counts = productCounts(db);
