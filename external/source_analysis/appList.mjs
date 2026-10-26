@@ -16,12 +16,15 @@ const PAGE_SEGMENTS = new Set(['releases', 'tags', 'tree', 'blob', 'commits', 'i
 
 // Canonical https://host/owner/repo for the URL forms found in the wallet
 // records (trailing slash, .git, /releases, /tags, /tree/..., www.), or null
-// when the URL names no repository (user or organisation pages).
+// when the URL names no repository (user or organisation pages, or a URL the
+// site has marked dead with #deadLink / &deadLink).
 export function normalizeRepoUrl(url) {
   if (!url) return null;
+  const raw = String(url).trim();
+  if (raw.endsWith('#deadLink') || raw.endsWith('&deadLink')) return null;
   let parsed;
   try {
-    parsed = new URL(String(url).trim());
+    parsed = new URL(raw);
   } catch {
     return null;
   }

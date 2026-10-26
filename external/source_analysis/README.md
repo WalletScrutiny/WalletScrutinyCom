@@ -129,7 +129,8 @@ sudo -u build-server env SOURCE_ANALYSIS_DB_PATH=/var/lib/walletscrutiny-source-
 The list of wallets and their repositories comes from the site, not from this
 folder: `api/appRepositories.json` is rendered at site build time
 from every wallet record that has a `repository:` line and is not gone
-(`meta` removed, defunct, discontinued or deprecated). Each entry is
+(`meta` removed, defunct, discontinued or deprecated). A repository marked
+`#deadLink` or `&deadLink` is left out. Each entry is
 `{ "appId", "platform", "repository" }` and nothing else on purpose: the
 version to analyse is read from the repository itself, the site's version
 field lags behind releases.
@@ -141,7 +142,13 @@ and iPhone entries of one wallet) become one job, keyed by the first record
 (android before iphone before desktop, hardware, bearer); the others are
 listed as aliases. URLs are normalised (`.git`, trailing slash, `/releases`,
 `/tags`, `/tree/...`, `www.`), and URLs that name no repository (user or
-organisation pages) are skipped with a warning.
+organisation pages, or a `#deadLink`) are skipped with a warning. A
+repository GitHub answers 404 for is logged as not found and does not fail
+the pass. GitHub caps the release list (1000 results without a token, 10000
+with one) and answers 422 past that; the pass keeps the releases already
+fetched, which are the newest. The oneshot exits 1 only when some other
+per-app error remains (the summary line counts succeeded, failed and not
+found separately).
 
 ```bash
 node index.mjs --githubToken ghp_xxx                        # whole list (the service: GITHUB_TOKEN_FILE=<file>)

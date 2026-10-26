@@ -32,23 +32,60 @@ export function extractRepoPath(repoUrl) {
   return match[1].replace(/\.git$/, '');
 }
 
-// Fetch GitHub releases and their assets
-export async function fetchGitHubAssets(repoUrl, githubToken = null) {
+function isRetryableGithubError(error) {
+  const status = error?.response?.status;
+  if (status === 502 || status === 503 || status === 504) return true;
+  if (error?.code === 'ECONNRESET' || error?.code === 'ETIMEDOUT' || error?.code === 'ECONNABORTED' || error?.code === 'EAI_AGAIN') return true;
+  return error?.message === 'aborted' || error?.message === 'socket hang up';
+}
+
+// GitHub answers 502/503/504 (and the occasional dropped connection) often enough
+// that one blip would fail a whole repository. A few tries, then the real error.
+async function getWithRetry(get, url, config, { attempts = 3, delayMs = 1000 } = {}) {
+  let lastError;
+  for (let attempt = 1; attempt <= attempts; attempt++) {
+    try {
+      return await get(url, config);
+    } catch (error) {
+      lastError = error;
+      if (!isRetryableGithubError(error) || attempt === attempts) throw error;
+      await new Promise(resolve => setTimeout(resolve, delayMs * attempt));
+    }
+  }
+  throw lastError;
+}
+
+// Fetch GitHub releases and their assets.
+// `get` and the retry timing are injectable for tests.
+export async function fetchGitHubAssets(repoUrl, githubToken = null, { get = axios.get, attempts = 3, delayMs = 1000 } = {}) {
   const repoPath = extractRepoPath(repoUrl);
   const headers = githubToken ? { 'Authorization': `token ${githubToken}` } : {};
 
   const assets = [];
 
   try {
-    // Fetch all releases
+    // Fetch all releases. GitHub caps this list (1000 results without a
+    // token, 10000 with one) and answers 422 past the cap, even when the
+    // Link header still names that page. The newest releases are the first
+    // pages, so stopping there keeps what a pass needs.
     let page = 1;
     let hasMore = true;
 
     while (hasMore) {
-      const response = await axios.get(`${GITHUB_API_BASE}/repos/${repoPath}/releases`, {
-        headers,
-        params: { page, per_page: 100 }
-      });
+      let response;
+      try {
+        response = await getWithRetry(get, `${GITHUB_API_BASE}/repos/${repoPath}/releases`, {
+          headers,
+          params: { page, per_page: 100 }
+        }, { attempts, delayMs });
+      } catch (error) {
+        if (page > 1 && error.response?.status === 422) {
+          const detail = error.response?.data?.message;
+          console.warn(`  GitHub release list for ${repoPath} stopped at page ${page - 1}${detail ? `: ${detail}` : ''}`);
+          break;
+        }
+        throw error;
+      }
 
       if (response.data.length === 0) {
         hasMore = false;
