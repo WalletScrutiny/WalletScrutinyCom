@@ -310,9 +310,10 @@ Weak points, as an attacker would use them (Danny's red-team round):
   `lock-coverage` plugin lists every manifest (npm, cargo, pub, CocoaPods,
   SwiftPM, Go, Carthage, pip, gradle) with its lockfile or none, and gives
   each analysis a verdict: `locked`, `unlocked`, or `none` (no manifest
-  found, dependencies unknown). Gradle counts as unlocked without
-  `gradle.lockfile`, `verification-metadata.xml` or a lock directory. The
-  panel does not show the verdict yet.
+  found, dependencies unknown). Gradle has no lockfile by default: a build
+  that declares only exact versions resolves the same set every time and
+  counts as locked (Leo, 2026-10-26, on Schildbach's wallet); a range
+  unlocks it. The panel does not show the verdict yet.
 - Ship iOS only; `Podfile.lock` and `Package.resolved` are not read.
 - Download code during the build with a script; only lockfiles are read.
 - Publish a malicious package before OSV lists it; old scans are never

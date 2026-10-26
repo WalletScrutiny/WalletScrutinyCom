@@ -44,9 +44,12 @@ test('every ecosystem pairs its manifest with its lockfile, or with none', () =>
   });
 });
 
-test('gradle is unlocked without gradle.lockfile, verification metadata or a lock directory', () => {
+test('gradle without a lockfile is locked by exact declarations, unlocked by a range', () => {
   const plain = repo({ 'settings.gradle': '', 'app/build.gradle': '' });
-  assert.deepEqual(lockOf(findManifests(plain)), { 'settings.gradle': null });
+  assert.deepEqual(findManifests(plain), [{ ecosystem: 'gradle', manifest: 'settings.gradle', lockfile: null, product: true, exactDeclarations: true }]);
+  assert.equal(lockCoverage(findManifests(plain)).verdict, 'locked');
+  const ranged = [{ ecosystem: 'gradle', entries: [{ ecosystem: 'gradle', tier: 'floating', lockfile: 'app/build.gradle' }] }];
+  assert.equal(lockCoverage(findManifests(plain), ranged).verdict, 'unlocked');
   const verified = repo({ 'settings.gradle.kts': '', 'gradle/verification-metadata.xml': '' });
   assert.deepEqual(lockOf(findManifests(verified)), { 'settings.gradle.kts': 'gradle/verification-metadata.xml' });
   const locked = repo({ 'android/settings.gradle': '', 'android/app/gradle.lockfile': '' });

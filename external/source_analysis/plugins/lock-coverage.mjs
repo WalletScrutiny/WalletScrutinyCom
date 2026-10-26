@@ -23,9 +23,11 @@ const MAX_SCAN_DEPTH = 5;
 // test fixtures, docs): listed, but it does not decide the verdict.
 const NOT_PRODUCT_DIR = /^(examples?|samples?|demos?|tests?|__tests__|fixtures?|docs?|benchmarks?)$/i;
 
-// A gradle build without gradle.lockfile, verification-metadata.xml or a lock
-// directory resolves its transitive versions afresh on every build.
-const GRADLE_NEEDS_LOCK = true;
+// Gradle has no lockfile by default. A build that declares exact versions
+// only resolves the same set every time (Schildbach's wallet, Leo
+// 2026-10-26), so it is locked without one; a range (`1.+`, `[1,2)`,
+// `latest.release`) is a floating row from pinning and unlocks it. Only
+// verification metadata adds hashes; `lockfile` names it when present.
 
 function walk(root, visit, rel = '', depth = 0) {
   if (depth > MAX_SCAN_DEPTH) return;
@@ -87,7 +89,7 @@ export function findManifests(repoPath, files = null) {
   const lockHere = (rel, names) => names.map(n => inDir(dirOf(rel), n)).find(p => has.has(p)) || null;
 
   const out = [];
-  const add = (ecosystem, manifest, lockfile) => out.push({ ecosystem, manifest, lockfile, product: isProductPath(manifest) });
+  const add = (ecosystem, manifest, lockfile, extra = {}) => out.push({ ecosystem, manifest, lockfile, product: isProductPath(manifest), ...extra });
 
   for (const m of byName(/^package\.json$/)) {
     if (!/"(dependencies|devDependencies|optionalDependencies)"\s*:\s*\{\s*"/.test(read(m))) continue; // scripts or tooling config only
@@ -131,7 +133,7 @@ export function findManifests(repoPath, files = null) {
       || all.find(r => under(r) && /(^|\/)(gradle\.lockfile|buildscript-gradle\.lockfile)$/.test(r))
       || all.find(r => under(r) && /(^|\/)gradle-lock\/[^/]+\.json$/.test(r))
       || null;
-    add('gradle', m, lock ? lock : (GRADLE_NEEDS_LOCK ? null : m));
+    add('gradle', m, lock, lock ? {} : { exactDeclarations: true });
   }
   return out.sort((a, b) => a.ecosystem.localeCompare(b.ecosystem) || a.manifest.localeCompare(b.manifest));
 }
@@ -141,7 +143,7 @@ export function findManifests(repoPath, files = null) {
  * many rows are unlocked (a range, `1.+`, `latest`). The verdict counts
  * product manifests only:
  *   'none'     no manifest of any kind found: the dependencies are unknown
- *   'unlocked' a manifest without a lockfile, or unlocked rows
+ *   'unlocked' a manifest without a lockfile (gradle: with a range), or unlocked rows
  *   'locked'   every product manifest has a lockfile and no row floats
  */
 export function lockCoverage(manifests, pinning = []) {
@@ -152,7 +154,7 @@ export function lockCoverage(manifests, pinning = []) {
     }
   }
   const product = manifests.filter(m => m.product);
-  const missing = product.filter(m => !m.lockfile);
+  const missing = product.filter(m => !m.lockfile && !m.exactDeclarations);
   const floating = Object.values(floatingRows).reduce((n, v) => n + v, 0);
   const verdict = !product.length ? 'none' : (missing.length || floating ? 'unlocked' : 'locked');
   return { verdict, manifests, missing: missing.length, floatingRows };
@@ -165,7 +167,7 @@ export default {
     console.log('\n--- Test 7c: Lock coverage ---');
     if (coverage.verdict === 'none') console.log('No dependency manifest found: the dependencies are unknown.');
     for (const m of coverage.manifests) {
-      console.log(`  [${m.ecosystem}] ${m.manifest}: ${m.lockfile ? `locked by ${m.lockfile}` : 'NO LOCKFILE'}${m.product ? '' : ' (not the product)'}`);
+      console.log(`  [${m.ecosystem}] ${m.manifest}: ${m.lockfile ? `locked by ${m.lockfile}` : (m.exactDeclarations ? 'no lockfile, exact versions unless pinning lists floating rows' : 'NO LOCKFILE')}${m.product ? '' : ' (not the product)'}`);
     }
     for (const [eco, n] of Object.entries(coverage.floatingRows)) console.log(`  [${eco}] ${n} unlocked entries`);
     console.log(`  verdict: ${coverage.verdict}`);
