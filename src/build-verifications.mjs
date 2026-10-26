@@ -341,6 +341,8 @@ export function renderBuildVerifications({
   const paintSelected = () => {
     const version = timeline.find(v => v.key === host.dataset.selectedVersion) || timeline[timeline.length - 1];
     panelHost.replaceChildren(panel(version, context));
+    // The Dependencies panel (src/dependencies-panel.mjs) follows the pick.
+    host.dispatchEvent(new CustomEvent('buildVersionSelected', { bubbles: true, detail: { platform, appId, version: version.key } }));
     renderProfilePictures([...new Set(
       version.verifications.concat(version.drafts).map(v => v.pubkey).filter(isSha256Hex),
     )]);

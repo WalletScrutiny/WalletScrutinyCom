@@ -3,7 +3,8 @@
   the release's lockfiles, from its static export. Painted by
   renderDependenciesPanel (src/dependencies-panel.mjs) once the verifications UI
   bundle is loaded; the step stays hidden until an analysed release exists for
-  this app. Separate from the verdict and the score. Parameters: platform,
+  this app. Shows the release picked in the "Every version" section of the same
+  platform. Separate from the verdict and the score. Parameters: platform,
   appId, version (the store version the page lists).
 {%- endcomment -%}
 {% assign dependencies_app_id = include.appId | default: page.appId %}
@@ -20,6 +21,7 @@
             window.renderDependenciesPanel({
               host: document.getElementById('{{ dependencies_id }}'),
               appId: {{ dependencies_app_id | jsonify }},
+              platform: {{ include.platform | default: 'app' | jsonify }},
               title: {{ page.title | jsonify }},
               storeVersion: {{ include.version | default: '' | jsonify }},
             });
