@@ -15,9 +15,11 @@
  *   SOURCE_ANALYSIS_EXPORT_URL   a .tar.gz with index.json at its top, fetched
  *                                and unpacked
  *
- * This is the interim transport for the beta deployment; the production
- * transport (proxy, Blossom blob or rsync) is still open, see
- * docs/dependency-check.md.
+ * For local and preview builds only. On walletscrutiny.com the analyser
+ * copies its export to the web server after every pass
+ * (external/source_analysis/publish.mjs) and nginx serves it under the same
+ * path, so new data never waits for a site build; there, build without an
+ * export.
  */
 
 import { cpSync, existsSync, mkdirSync, mkdtempSync, rmSync, writeFileSync } from 'node:fs';
