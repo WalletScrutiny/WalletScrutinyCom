@@ -208,6 +208,39 @@ export function initDatabase(dbPath = DB_PATH) {
       PRIMARY KEY (app_id, platform)
     );
   `);
+  ensureColumn(db, 'apps', 'gone', 'INTEGER NOT NULL DEFAULT 0');
+
+  // Gone wallets past their end of life (index.mjs, GONE_EOL_YEARS), as of the
+  // last pass: neither analysed nor exported.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS end_of_life (
+      app_id TEXT PRIMARY KEY,
+      last_commit_at DATETIME NOT NULL
+    );
+  `);
+
+  // Last good copy of the build verifications that put a wallet in scope
+  // (see reproducible.mjs): every version some verifier found reproducible.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS reproducible_versions (
+      app_id TEXT NOT NULL,
+      version TEXT NOT NULL,
+      verified_at INTEGER NOT NULL,    -- created_at of the newest reproducible verification
+      platform TEXT,                   -- its platform tag (android, iphone, hardware, windows, ...)
+      PRIMARY KEY (app_id, version)
+    );
+  `);
+
+  // Which release analysis is the check of a verified version: the tag the
+  // pass resolved the version to.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS verified_refs (
+      app_id TEXT NOT NULL,
+      ref TEXT NOT NULL,
+      version TEXT NOT NULL,
+      PRIMARY KEY (app_id, ref)
+    );
+  `);
 
   // Commit of the default branch the last successful analysis looked at, so a
   // pass skips repositories whose default branch has not moved since.
@@ -227,7 +260,7 @@ export function initDatabase(dbPath = DB_PATH) {
   db.exec(`
     CREATE TABLE IF NOT EXISTS analyses (
       app_id TEXT NOT NULL,
-      kind TEXT NOT NULL,              -- release | default-branch
+      kind TEXT NOT NULL,              -- release | default-branch | verified-no-tag
       ref TEXT NOT NULL,               -- release tag, or the branch's commit for default-branch runs
       commit_sha TEXT,
       status TEXT NOT NULL,            -- ok | failed | unsupported
@@ -303,19 +336,66 @@ export function saveAnalysedCommit(db, appId, commitSha) {
     ON CONFLICT(app_id) DO UPDATE SET commit_sha = excluded.commit_sha, analysed_at = CURRENT_TIMESTAMP`).run(appId, commitSha);
 }
 
-// Replace the cached app list with the given entries ({appId, platform, repository}).
+// Replace the cached app list with the given entries ({appId, platform, repository, gone}).
 export function saveAppList(db, entries) {
-  const insert = db.prepare('INSERT INTO apps (app_id, platform, repository) VALUES (?, ?, ?)');
+  const insert = db.prepare('INSERT INTO apps (app_id, platform, repository, gone) VALUES (?, ?, ?, ?)');
   db.transaction(() => {
     db.prepare('DELETE FROM apps').run();
-    for (const e of entries) insert.run(e.appId, e.platform, e.repository);
+    for (const e of entries) insert.run(e.appId, e.platform, e.repository, e.gone ? 1 : 0);
   })();
   return entries.length;
 }
 
 export function getAppList(db) {
-  return db.prepare('SELECT app_id, platform, repository FROM apps ORDER BY platform, app_id').all()
-    .map(r => ({ appId: r.app_id, platform: r.platform, repository: r.repository }));
+  return db.prepare('SELECT app_id, platform, repository, gone FROM apps ORDER BY platform, app_id').all()
+    .map(r => ({ appId: r.app_id, platform: r.platform, repository: r.repository, gone: r.gone === 1 }));
+}
+
+// Replace the end-of-life set with the given entries ({appId, lastCommitAt: Date}).
+export function saveEndOfLife(db, entries) {
+  const insert = db.prepare('INSERT INTO end_of_life (app_id, last_commit_at) VALUES (?, ?)');
+  db.transaction(() => {
+    db.prepare('DELETE FROM end_of_life').run();
+    for (const e of entries) insert.run(e.appId, e.lastCommitAt.toISOString());
+  })();
+}
+
+export function getEndOfLife(db) {
+  return new Map(db.prepare('SELECT app_id, last_commit_at FROM end_of_life').all().map(r => [r.app_id, r.last_commit_at]));
+}
+
+// Replace the cached verifications with byApp (appId -> [{version, verifiedAt}]).
+export function saveReproducibleVersions(db, byApp) {
+  const insert = db.prepare('INSERT INTO reproducible_versions (app_id, version, verified_at, platform) VALUES (?, ?, ?, ?)');
+  db.transaction(() => {
+    db.prepare('DELETE FROM reproducible_versions').run();
+    for (const [appId, versions] of byApp) for (const v of versions) insert.run(appId, v.version, v.verifiedAt, v.platform ?? null);
+  })();
+}
+
+export function getReproducibleVersions(db) {
+  const byApp = new Map();
+  for (const r of db.prepare('SELECT app_id, version, verified_at, platform FROM reproducible_versions ORDER BY verified_at DESC').all()) {
+    if (!byApp.has(r.app_id)) byApp.set(r.app_id, []);
+    byApp.get(r.app_id).push({ version: r.version, verifiedAt: r.verified_at, platform: r.platform });
+  }
+  return byApp;
+}
+
+export function saveVerifiedRef(db, appId, ref, version) {
+  db.prepare("DELETE FROM analyses WHERE app_id = ? AND kind = 'verified-no-tag' AND ref = ?").run(appId, version);
+  db.prepare('INSERT OR REPLACE INTO verified_refs (app_id, ref, version) VALUES (?, ?, ?)').run(appId, ref, version);
+}
+
+// ref -> verified version, for one app.
+export function getVerifiedRefs(db, appId) {
+  return new Map(db.prepare('SELECT ref, version FROM verified_refs WHERE app_id = ?').all(appId).map(r => [r.ref, r.version]));
+}
+
+// True when a release analysis of this ref finished (ok or unsupported); a
+// failed one is retried.
+export function hasReleaseAnalysis(db, appId, ref) {
+  return Boolean(db.prepare("SELECT 1 FROM analyses WHERE app_id = ? AND kind = 'release' AND ref = ? AND status != 'failed'").get(appId, ref));
 }
 
 function ensureColumn(db, table, column, type) {

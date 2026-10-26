@@ -5,6 +5,7 @@
 // plugins/, one file each.
 
 import fs from 'fs';
+import os from 'os';
 import path from 'path';
 import { execSync, execFile } from 'child_process';
 import { promisify } from 'util';
@@ -82,6 +83,32 @@ export async function remoteHeadCommit(repoUrl, { timeoutMs = 60000 } = {}) {
   } catch (error) {
     console.log(`Could not read the default branch of ${repoUrl}: ${error.message.split('\n')[0]}`);
     return null;
+  }
+}
+
+/**
+ * Commit time (Date) of the remote's default branch, or null when it cannot be
+ * read. A shallow fetch of the one commit object, no trees or blobs: about a
+ * hundred kilobytes and a second, from any host.
+ */
+export async function remoteHeadDate(repoUrl, { timeoutMs = 60000 } = {}) {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'head-date-'));
+  const git = (args) => promisify(execFile)('git', ['-C', dir, ...args], {
+    encoding: 'utf8',
+    timeout: timeoutMs,
+    env: { ...process.env, GIT_TERMINAL_PROMPT: '0' },
+  });
+  try {
+    await git(['init', '-q', '--bare']);
+    await git(['fetch', '-q', '--depth=1', '--filter=tree:0', '--', repoUrl, 'HEAD']);
+    const { stdout } = await git(['log', '-1', '--format=%ct', 'FETCH_HEAD']);
+    const seconds = Number(stdout.trim());
+    return seconds > 0 ? new Date(seconds * 1000) : null;
+  } catch (error) {
+    console.log(`Could not read the last commit of ${repoUrl}: ${error.message.split('\n')[0]}`);
+    return null;
+  } finally {
+    fs.rmSync(dir, { recursive: true, force: true });
   }
 }
 

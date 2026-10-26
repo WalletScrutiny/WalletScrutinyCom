@@ -12,12 +12,21 @@ import path from 'path';
  * manifests nobody parses (Flutter, CocoaPods, SwiftPM, Go, Carthage), so a
  * wallet built from those cannot look clean by having no rows at all.
  *
+ * Leaving something out of the lockfile must not hide it (Leo, 2026-10-26):
+ * build inputs that no lockfile can list count too. A binary committed into
+ * the tree (committed-binaries) and a download without a hash check
+ * (oob-downloads: curl, wget, git clone, a container base image without a
+ * digest) make the verdict 'unlocked' like a manifest without a lockfile.
+ * Test fixtures and build-tool wrappers do not; CI configs do, since a CI job
+ * may be what builds the release.
+ *
  * Reads file names and a few bytes only; nothing is installed or executed.
  */
 
 // Directories never searched: installed or generated trees.
 const IGNORED_DIRS = new Set(['node_modules', '.git', 'build', 'dist', 'Pods', 'vendor', '.dart_tool', 'Carthage', 'target', '.gradle']);
 const MAX_SCAN_DEPTH = 5;
+const UNLISTED_LIST_CAP = 50;
 
 // A manifest under one of these is not the product (a library's demo app,
 // test fixtures, docs): listed, but it does not decide the verdict.
@@ -139,14 +148,31 @@ export function findManifests(repoPath, files = null) {
 }
 
 /**
- * The manifests plus what the pinning rows say about them: per ecosystem, how
- * many rows are unlocked (a range, `1.+`, `latest`). The verdict counts
- * product manifests only:
- *   'none'     no manifest of any kind found: the dependencies are unknown
- *   'unlocked' a manifest without a lockfile (gradle: with a range), or unlocked rows
- *   'locked'   every product manifest has a lockfile and no row floats
+ * Build inputs outside any lockfile, from the results of oob-downloads and
+ * committed-binaries (either may be missing when the plugin is off).
  */
-export function lockCoverage(manifests, pinning = []) {
+export function unlistedInputs({ downloads = [], binaries = null } = {}) {
+  const d = (downloads || []).filter(x => !x.hashCheck && isProductPath(x.file));
+  const b = (binaries?.artifacts || []).filter(x => x.category === 'build-input' && isProductPath(x.path));
+  // Counts are complete; the lists are capped, they are stored with every analysis.
+  return {
+    downloadCount: d.length,
+    binaryCount: b.length,
+    downloads: d.slice(0, UNLISTED_LIST_CAP).map(x => ({ kind: x.kind, target: x.target, file: x.file, line: x.line })),
+    binaries: b.slice(0, UNLISTED_LIST_CAP).map(x => ({ path: x.path, kind: x.kind, size: x.size })),
+  };
+}
+
+/**
+ * The manifests plus what the pinning rows say about them: per ecosystem, how
+ * many rows are unlocked (a range, `1.+`, `latest`), plus the inputs no
+ * lockfile lists. The verdict counts product manifests and inputs only:
+ *   'none'     no manifest and no unlisted input found: the dependencies are unknown
+ *   'unlocked' a manifest without a lockfile (gradle: with a range), unlocked
+ *              rows, a committed binary or a download without a hash check
+ *   'locked'   every product manifest has a lockfile, no row floats, nothing unlisted
+ */
+export function lockCoverage(manifests, pinning = [], unlisted = unlistedInputs()) {
   const floatingRows = {};
   for (const a of pinning || []) {
     for (const e of a.entries || []) {
@@ -156,20 +182,24 @@ export function lockCoverage(manifests, pinning = []) {
   const product = manifests.filter(m => m.product);
   const missing = product.filter(m => !m.lockfile && !m.exactDeclarations);
   const floating = Object.values(floatingRows).reduce((n, v) => n + v, 0);
-  const verdict = !product.length ? 'none' : (missing.length || floating ? 'unlocked' : 'locked');
-  return { verdict, manifests, missing: missing.length, floatingRows };
+  const outside = unlisted.downloadCount + unlisted.binaryCount;
+  const verdict = missing.length || floating || outside ? 'unlocked' : (product.length ? 'locked' : 'none');
+  return { verdict, manifests, missing: missing.length, floatingRows, unlisted };
 }
 
 export default {
   description: 'Test 7c: lock coverage, manifests without a lockfile',
   container({ repoPath, results }) {
-    const coverage = lockCoverage(findManifests(repoPath), results?.pinning);
+    const unlisted = unlistedInputs({ downloads: results?.['oob-downloads'], binaries: results?.['committed-binaries'] });
+    const coverage = lockCoverage(findManifests(repoPath), results?.pinning, unlisted);
     console.log('\n--- Test 7c: Lock coverage ---');
     if (coverage.verdict === 'none') console.log('No dependency manifest found: the dependencies are unknown.');
     for (const m of coverage.manifests) {
       console.log(`  [${m.ecosystem}] ${m.manifest}: ${m.lockfile ? `locked by ${m.lockfile}` : (m.exactDeclarations ? 'no lockfile, exact versions unless pinning lists floating rows' : 'NO LOCKFILE')}${m.product ? '' : ' (not the product)'}`);
     }
     for (const [eco, n] of Object.entries(coverage.floatingRows)) console.log(`  [${eco}] ${n} unlocked entries`);
+    for (const d of unlisted.downloads) console.log(`  [download] ${d.kind} ${d.target} at ${d.file}:${d.line}: NO HASH CHECK`);
+    for (const b of unlisted.binaries) console.log(`  [binary] ${b.path}: committed, in no lockfile`);
     console.log(`  verdict: ${coverage.verdict}`);
     return coverage;
   },
