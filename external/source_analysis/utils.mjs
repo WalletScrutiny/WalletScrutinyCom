@@ -619,17 +619,19 @@ export function evaluateChangesInNewAsset(db, appId, asset, options = {}) {
   const existing = selectStmt.get(appId, asset.version, asset.assetName, asset.source, asset.architecture || null, asset.os || null);
   const newSha256 = asset.sha256;
 
-  // Check size against previous versions (skip on baseline run — no prior snapshot to compare against)
-  if (!skipSizeComparison && asset.size !== undefined && asset.size !== null) {
-    checkSizeChangeAgainstPreviousVersions(
-      db, 
-      appId, 
-      asset, 
-      sizeChangeThresholdPercent
-    );
-  }
-
   if (!existing) {
+    // Check size against previous versions, once, when the asset first appears.
+    // Every pass refetches all releases, so checking stored assets too would
+    // repeat the same alert for every old release on every pass.
+    // Skipped on the baseline run: there is no prior snapshot to compare against.
+    if (!skipSizeComparison && asset.size !== undefined && asset.size !== null) {
+      checkSizeChangeAgainstPreviousVersions(
+        db,
+        appId,
+        asset,
+        sizeChangeThresholdPercent
+      );
+    }
     return { status: 'missing', existing: null, newSha256 };
   }
 
@@ -672,7 +674,8 @@ function checkSizeChangeAgainstPreviousVersions(db, appId, asset, thresholdPerce
     asset.architecture || null,
     asset.os || null,
     asset.version,
-    10
+    10,
+    asset.publishedAt || null
   );
 
   if (previousVersions.length === 0) {
