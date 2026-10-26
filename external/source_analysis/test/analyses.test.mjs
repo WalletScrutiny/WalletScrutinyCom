@@ -37,9 +37,20 @@ test('summarizeResults reads the pinning and osv results, null when a plugin was
     osv: { checked: 2, skipped: { floating: 1 }, findings: [{ id: 'GHSA-1' }] },
   };
   assert.deepEqual(summarizeResults(results, plugins), {
-    plugins: ['pinning', 'osv'], lockfiles: ['yarn.lock'], dependencies: 3, osvChecked: 2, osvSkipped: { floating: 1 }, vulnerabilities: 1,
+    plugins: ['pinning', 'osv'], lockfiles: ['yarn.lock'], dependencies: 3, osvChecked: 2, osvSkipped: { floating: 1 }, vulnerabilities: 1, lockCoverage: null,
   });
-  assert.deepEqual(summarizeResults({}, []), { plugins: [], lockfiles: [], dependencies: null, osvChecked: null, osvSkipped: {}, vulnerabilities: null });
+  assert.deepEqual(summarizeResults({}, []), { plugins: [], lockfiles: [], dependencies: null, osvChecked: null, osvSkipped: {}, vulnerabilities: null, lockCoverage: null });
+});
+
+test('the lock coverage result is stored with the analysis and read back', () => {
+  const coverage = { verdict: 'unlocked', manifests: [{ ecosystem: 'pub', manifest: 'pubspec.yaml', lockfile: null, product: true }], missing: 1, floatingRows: {} };
+  const seen = summarizeResults({ 'lock-coverage': coverage }, [{ name: 'lock-coverage' }]);
+  assert.deepEqual(seen.lockCoverage, coverage);
+  const db = initDatabase(':memory:');
+  recordAnalysis(db, { appId: 'app.flutter', kind: 'release', ref: 'v2', status: 'unsupported', analyser: '1', ...seen });
+  recordAnalysis(db, { appId: 'app.old', kind: 'release', ref: 'v1', status: 'ok', analyser: '1' });
+  assert.deepEqual(getAnalyses(db, 'app.flutter')[0].lock_coverage, coverage);
+  assert.equal(getAnalyses(db, 'app.old')[0].lock_coverage, null, 'an analysis without the plugin says nothing about locks');
 });
 
 test('initDatabase backfills analyses rows for releases stored before the table existed', async () => {

@@ -99,13 +99,15 @@ export async function runChecksOnCheckout(repoPath, appType, { includeTestFiles 
 
 /**
  * What an analysis saw, for the analyses table: the lockfiles the pinning
- * step read, the dependency rows it produced, and what the OSV step checked
- * and skipped (plugins/osv.mjs checkVulnerabilities). Plugins that are off
+ * step read, the dependency rows it produced, what the OSV step checked
+ * and skipped (plugins/osv.mjs checkVulnerabilities), and which manifests
+ * have no lockfile (plugins/lock-coverage.mjs). Plugins that are off
  * leave their fields null.
  */
 export function summarizeResults(results = {}, plugins = []) {
   const pinning = Array.isArray(results.pinning) ? results.pinning : null;
   const osv = results.osv && typeof results.osv === 'object' ? results.osv : null;
+  const coverage = results['lock-coverage'] && typeof results['lock-coverage'] === 'object' ? results['lock-coverage'] : null;
   return {
     plugins: plugins.map(p => p.name),
     lockfiles: pinning ? pinning.flatMap(a => a.lockfiles || []) : [],
@@ -113,6 +115,7 @@ export function summarizeResults(results = {}, plugins = []) {
     osvChecked: osv ? osv.checked ?? null : null,
     osvSkipped: osv ? osv.skipped || {} : {},
     vulnerabilities: osv ? (osv.findings || []).length : null,
+    lockCoverage: coverage,
   };
 }
 

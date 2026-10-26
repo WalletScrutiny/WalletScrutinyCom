@@ -240,10 +240,12 @@ export function initDatabase(dbPath = DB_PATH) {
       osv_checked INTEGER,
       osv_skipped TEXT NOT NULL DEFAULT '{}',    -- JSON {reason: count}
       vulnerabilities INTEGER,
+      lock_coverage TEXT,                        -- JSON plugins/lock-coverage.mjs result, NULL when it did not run
       analysed_at DATETIME DEFAULT CURRENT_TIMESTAMP,
       PRIMARY KEY (app_id, kind, ref)
     );
   `);
+  ensureColumn(db, 'analyses', 'lock_coverage', 'TEXT');
   // Releases stored before this table existed get a row from what the
   // dependency rows remember (their creation time and count); commit and
   // lockfiles stay unknown until the release is analysed again.
@@ -261,14 +263,14 @@ export function initDatabase(dbPath = DB_PATH) {
 // Store the outcome of one analysis (see appAnalysis.runSourceCodeAnalysis);
 // a repeat of the same (appId, kind, ref) replaces the earlier row.
 export function recordAnalysis(db, { appId, kind, ref, commit = null, status, error = null, appType = null,
-  analyser, plugins = [], lockfiles = [], dependencies = null, osvChecked = null, osvSkipped = {}, vulnerabilities = null }) {
+  analyser, plugins = [], lockfiles = [], dependencies = null, osvChecked = null, osvSkipped = {}, vulnerabilities = null, lockCoverage = null }) {
   db.prepare(`
     INSERT OR REPLACE INTO analyses
       (app_id, kind, ref, commit_sha, status, error, app_type, analyser, plugins, lockfiles,
-       dependencies, osv_checked, osv_skipped, vulnerabilities, analysed_at)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+       dependencies, osv_checked, osv_skipped, vulnerabilities, lock_coverage, analysed_at)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
   `).run(appId, kind, ref, commit, status, error, appType, analyser, plugins.join(' '), JSON.stringify(lockfiles),
-    dependencies, osvChecked, JSON.stringify(osvSkipped), vulnerabilities);
+    dependencies, osvChecked, JSON.stringify(osvSkipped), vulnerabilities, lockCoverage ? JSON.stringify(lockCoverage) : null);
 }
 
 // Every recorded analysis of an app, newest first, JSON columns decoded.
@@ -287,6 +289,7 @@ function decodeAnalysis(row) {
     plugins: row.plugins ? row.plugins.split(' ') : [],
     lockfiles: JSON.parse(row.lockfiles || '[]'),
     osv_skipped: JSON.parse(row.osv_skipped || '{}'),
+    lock_coverage: row.lock_coverage ? JSON.parse(row.lock_coverage) : null,
   };
 }
 

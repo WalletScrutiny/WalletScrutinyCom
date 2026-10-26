@@ -21,6 +21,7 @@ export const PLUGINS = {
   'obfuscation': false,           // test 6
   'pinning': true,                // test 7, stores the resolved dependencies
   'gradle-resolution': true,      // test 7b, completes pinning's gradle rows
+  'lock-coverage': true,          // test 7c, manifests without a lockfile
   'oob-downloads': false,         // test 8
   'committed-binaries': false,    // test 9
   'osv': true,                    // test 10, host: known vulnerabilities of pinning's rows

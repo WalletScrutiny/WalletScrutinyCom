@@ -131,3 +131,15 @@ test('safeName keeps ids and tags readable but path-safe', () => {
   assert.equal(safeName('release/2.0 beta'), 'release_2.0_beta');
   assert.equal(safeName('../x'), '__x');
 });
+
+test('a release carries its lock coverage, and the index its verdict', () => {
+  const db = initDatabase(':memory:');
+  const coverage = { verdict: 'unlocked', manifests: [{ ecosystem: 'pub', manifest: 'pubspec.yaml', lockfile: null, product: true }], missing: 1, floatingRows: {} };
+  recordAnalysis(db, { appId: 'app.flutter', kind: 'release', ref: 'v2', status: 'unsupported', analyser: '1', lockCoverage: coverage });
+  const app = buildApp(db, 'app.flutter');
+  assert.deepEqual(app.releases[0].lockCoverage, coverage);
+  const dir = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'sa-export-')), 'export');
+  exportAll(db, dir);
+  const index = JSON.parse(fs.readFileSync(path.join(dir, 'index.json'), 'utf8'));
+  assert.equal(index.apps[0].latest.lock, 'unlocked');
+});

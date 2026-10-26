@@ -105,6 +105,7 @@ function analysisEntry(a) {
     kind: a.kind, ref: a.ref, commit: a.commit_sha, analysedAt: a.analysed_at, analyser: a.analyser, status: a.status,
     error: a.error || undefined, appType: a.app_type, plugins: a.plugins, lockfiles: a.lockfiles,
     osv: a.osv_checked === null ? null : { checked: a.osv_checked, skipped: a.osv_skipped },
+    lockCoverage: a.lock_coverage || undefined,
   };
 }
 
@@ -169,6 +170,7 @@ function indexEntry(app) {
       ref: latest.ref, commit: latest.commit, analysedAt: latest.analysedAt, status: latest.status,
       dependencies: latest.dependencies.total, direct: latest.dependencies.direct, tiers: latest.dependencies.tiers,
       vulnerabilities: latest.vulnerabilities.bySeverity, osv: latest.osv,
+      lock: latest.lockCoverage?.verdict,
     } : null,
     defaultBranch: app.defaultBranch ? { commit: app.defaultBranch.commit, analysedAt: app.defaultBranch.analysedAt, status: app.defaultBranch.status } : null,
   };
