@@ -92,9 +92,11 @@ export function parseResolution(text) {
     if (r.error) { errors.push(`${r.project} ${r.configuration}: ${r.error}`); continue; }
     if (r.unresolved) { unresolved.add(r.unresolved); continue; }
     const key = `${r.group}:${r.module}:${r.version}`;
-    if (!modules.has(key)) modules.set(key, { name: `${r.group}:${r.module}`, version: r.version, direct: false, shipped: false, configurations: new Set() });
+    if (!modules.has(key)) modules.set(key, { name: `${r.group}:${r.module}`, version: r.version, direct: false, shipped: false, configurations: new Set(), dependants: null });
     const m = modules.get(key);
     m.direct = m.direct || r.direct;
+    // who requires the module, one hop up (the init script's `dependants`); lines from older runs have none
+    if (Array.isArray(r.dependants)) m.dependants = new Set([...(m.dependants || []), ...r.dependants]);
     m.shipped = m.shipped || isShippedConfiguration(r.configuration);
     m.configurations.add(r.configuration);
   }
@@ -108,6 +110,16 @@ export function parseResolution(text) {
  */
 export function isShippedConfiguration(name) {
   return /runtimeclasspath$/i.test(name) && !/test|debug|benchmark|^buildscript:/i.test(name);
+}
+
+// 'app' when any configuration ships, 'tests' when every configuration the
+// module came from is a test one, 'build' otherwise (plugins, annotation
+// processors, compile-only, debug variants).
+export function scopeOfConfigurations(configurations) {
+  const names = [...configurations];
+  if (names.some(isShippedConfiguration)) return 'app';
+  if (names.length && names.every(n => /test/i.test(n))) return 'tests';
+  return 'build';
 }
 
 /**
@@ -180,6 +192,8 @@ export function mergeResolved(analysis, modules, lockfile) {
     if (hashed) {
       hashed.direct = hashed.direct || m.direct;
       hashed.dev = hashed.dev === false || m.shipped ? false : true;
+      hashed.scope = hashed.dev === false ? 'app' : scopeOfConfigurations(m.configurations);
+      hashed.dependants = m.dependants ? [...m.dependants].sort() : null;
       continue;
     }
     const decl = declared.get(m.name) || [];
@@ -192,6 +206,8 @@ export function mergeResolved(analysis, modules, lockfile) {
       integrity: '',
       direct: m.direct || decl.length > 0,
       dev: !m.shipped,
+      scope: scopeOfConfigurations(m.configurations),
+      dependants: m.dependants ? [...m.dependants].sort() : null,
       // what the build files ask for is still the pinning story: a floating
       // declaration stays floating even though gradle picked a version today
       tier: decl.some(d => d.tier === 'floating') ? 'floating' : 'version-pinned',
@@ -249,7 +265,10 @@ export async function resolveGradleDependencies(repoPath, pinning, options = {})
     const shipped = [...modules.values()].filter(m => m.shipped).length;
     console.log(`${rel}: ${modules.size} modules resolved (${shipped} in release runtime classpaths), ` +
       `${added} rows added, gradle ${run.gradleVersion || '?'}, JDK ${run.jdk}, ${seconds} s`);
-    if (!run.ok) console.log('  gradle exited with an error after writing the graph; the rows it wrote are kept');
+    if (!run.ok) {
+      const tail = run.output.trim().split('\n').filter(l => l.trim()).slice(-8).join('\n    ');
+      console.log(`  gradle exited with an error after writing the graph; the rows it wrote are kept\n    ${tail}`);
+    }
     if (unresolved.length) {
       const note = `${rel}: ${unresolved.length} dependencies gradle could not resolve (e.g. ${unresolved.slice(0, 5).join(', ')})`;
       console.log(`  ${note}`);

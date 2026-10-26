@@ -133,6 +133,69 @@ export function initDatabase(dbPath = DB_PATH) {
     );
     CREATE INDEX IF NOT EXISTS idx_app_vulnerabilities_vuln ON app_vulnerabilities(vuln_id);
   `);
+  // Columns added after the tables existed on the server; CREATE TABLE IF NOT
+  // EXISTS leaves an existing table alone, so add them one by one when missing.
+  // `scope` is where a package ends up: app, build, tests, or NULL (not said).
+  for (const table of ['app_dependencies', 'app_vulnerabilities']) ensureColumn(db, table, 'scope', 'TEXT');
+  // `dependants` is the JSON list of package names that require this one, one
+  // hop up (plugins/pinning.mjs makeEntry); NULL when the lockfile has no graph.
+  for (const table of ['app_dependencies', 'app_vulnerabilities']) ensureColumn(db, table, 'dependants', 'TEXT');
+
+  // Where a package's source lives, per (ecosystem, name): resolved from the
+  // registry metadata (sourceRepos.mjs) and cached, since it does not
+  // change per version. repo_url NULL = looked up, none named.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS package_sources (
+      ecosystem TEXT NOT NULL,
+      name TEXT NOT NULL,
+      repo_url TEXT,
+      source TEXT NOT NULL,
+      note TEXT,
+      checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (ecosystem, name)
+    );
+  `);
+
+  // Rung one of the dependency ladder (sourceIdentity.mjs): does the
+  // shipped version exist in the package's source repository?
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS package_identity (
+      ecosystem TEXT NOT NULL,
+      name TEXT NOT NULL,
+      version TEXT NOT NULL,
+      status TEXT NOT NULL,
+      tag TEXT,
+      commit_sha TEXT,
+      provenance INTEGER,
+      checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (ecosystem, name, version)
+    );
+  `);
+
+  // Upstream triage (upstreamTriage.mjs): the scanner ignore lists and VEX
+  // documents found in a repository at one ref, one row per advisory entry;
+  // upstream_triage_checked records every (repo, ref) read, with or without files.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS upstream_triage_checked (
+      repo_url TEXT NOT NULL,
+      ref TEXT NOT NULL,
+      status TEXT NOT NULL,            -- ok | unsupported-host | error
+      error TEXT,
+      files TEXT NOT NULL DEFAULT '[]', -- JSON array of the triage files present
+      checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (repo_url, ref)
+    );
+    CREATE TABLE IF NOT EXISTS upstream_triage (
+      repo_url TEXT NOT NULL,
+      ref TEXT NOT NULL,
+      file TEXT NOT NULL,
+      tool TEXT NOT NULL,
+      line INTEGER NOT NULL,
+      vuln_id TEXT NOT NULL,
+      reason TEXT,
+      PRIMARY KEY (repo_url, ref, file, line, vuln_id)
+    );
+  `);
 
   // Last good copy of the site's app list (see appList.mjs), one row per
   // wallet record with a repository.
@@ -156,7 +219,78 @@ export function initDatabase(dbPath = DB_PATH) {
     );
   `);
 
+  // One row per analysis the service ran: what was looked at (commit, ref,
+  // kind), by which analyser, with which outcome, and what it saw (ecosystem,
+  // lockfiles, dependency and OSV counts). The dependency and vulnerability
+  // tables only hold rows for releases that produced some; this table is what
+  // says "analysed, nothing found", "failed" or "not supported", and when.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS analyses (
+      app_id TEXT NOT NULL,
+      kind TEXT NOT NULL,              -- release | default-branch
+      ref TEXT NOT NULL,               -- release tag, or the branch's commit for default-branch runs
+      commit_sha TEXT,
+      status TEXT NOT NULL,            -- ok | failed | unsupported
+      error TEXT,
+      app_type TEXT,
+      analyser TEXT NOT NULL,
+      plugins TEXT NOT NULL DEFAULT '',          -- space-separated plugin names that ran
+      lockfiles TEXT NOT NULL DEFAULT '',        -- JSON array of lockfile paths the pinning step read
+      dependencies INTEGER,
+      osv_checked INTEGER,
+      osv_skipped TEXT NOT NULL DEFAULT '{}',    -- JSON {reason: count}
+      vulnerabilities INTEGER,
+      lock_coverage TEXT,                        -- JSON plugins/lock-coverage.mjs result, NULL when it did not run
+      analysed_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (app_id, kind, ref)
+    );
+  `);
+  ensureColumn(db, 'analyses', 'lock_coverage', 'TEXT');
+  // Releases stored before this table existed get a row from what the
+  // dependency rows remember (their creation time and count); commit and
+  // lockfiles stay unknown until the release is analysed again.
+  db.exec(`
+    INSERT OR IGNORE INTO analyses (app_id, kind, ref, status, analyser, dependencies, vulnerabilities, analysed_at)
+    SELECT d.app_id, 'release', d.version, 'ok', 'before-analyses-table', COUNT(*),
+           (SELECT COUNT(*) FROM app_vulnerabilities v WHERE v.app_id = d.app_id AND v.version = d.version),
+           MIN(d.created_at)
+    FROM app_dependencies d GROUP BY d.app_id, d.version;
+  `);
+
   return db;
+}
+
+// Store the outcome of one analysis (see appAnalysis.runSourceCodeAnalysis);
+// a repeat of the same (appId, kind, ref) replaces the earlier row.
+export function recordAnalysis(db, { appId, kind, ref, commit = null, status, error = null, appType = null,
+  analyser, plugins = [], lockfiles = [], dependencies = null, osvChecked = null, osvSkipped = {}, vulnerabilities = null, lockCoverage = null }) {
+  db.prepare(`
+    INSERT OR REPLACE INTO analyses
+      (app_id, kind, ref, commit_sha, status, error, app_type, analyser, plugins, lockfiles,
+       dependencies, osv_checked, osv_skipped, vulnerabilities, lock_coverage, analysed_at)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+  `).run(appId, kind, ref, commit, status, error, appType, analyser, plugins.join(' '), JSON.stringify(lockfiles),
+    dependencies, osvChecked, JSON.stringify(osvSkipped), vulnerabilities, lockCoverage ? JSON.stringify(lockCoverage) : null);
+}
+
+// Every recorded analysis of an app, newest first, JSON columns decoded.
+export function getAnalyses(db, appId) {
+  return db.prepare('SELECT * FROM analyses WHERE app_id = ? ORDER BY analysed_at DESC, ref').all(appId).map(decodeAnalysis);
+}
+
+// The apps with at least one recorded analysis.
+export function listAnalysedApps(db) {
+  return db.prepare('SELECT DISTINCT app_id FROM analyses ORDER BY app_id').all().map(r => r.app_id);
+}
+
+function decodeAnalysis(row) {
+  return {
+    ...row,
+    plugins: row.plugins ? row.plugins.split(' ') : [],
+    lockfiles: JSON.parse(row.lockfiles || '[]'),
+    osv_skipped: JSON.parse(row.osv_skipped || '{}'),
+    lock_coverage: row.lock_coverage ? JSON.parse(row.lock_coverage) : null,
+  };
 }
 
 export function getAnalysedCommit(db, appId) {
@@ -184,7 +318,27 @@ export function getAppList(db) {
     .map(r => ({ appId: r.app_id, platform: r.platform, repository: r.repository }));
 }
 
+function ensureColumn(db, table, column, type) {
+  const columns = db.prepare(`PRAGMA table_info(${table})`).all().map(c => c.name);
+  if (!columns.includes(column)) db.exec(`ALTER TABLE ${table} ADD COLUMN ${column} ${type}`);
+}
+
+const SCOPES = ['app', 'build', 'tests'];
+const scopeOrNull = (v) => (SCOPES.includes(v) ? v : null);
+
 const boolOrNull = (v) => (v === null || v === undefined ? null : (v ? 1 : 0));
+
+const dependantsOrNull = (v) => (Array.isArray(v) ? JSON.stringify([...new Set(v)].sort()) : null);
+// The stored JSON list back as an array; null when the row predates the column or the files had no graph.
+export const dependantsOfRow = (v) => {
+  if (v == null) return null;
+  try {
+    const list = JSON.parse(v);
+    return Array.isArray(list) ? list : null;
+  } catch {
+    return null;
+  }
+};
 
 // Replace the stored dependency set of (appId, version) with the entries of
 // the given pinning analyses (see plugins/pinning.mjs makeEntry).
@@ -197,8 +351,8 @@ export function saveDependencies(db, appId, version, analyses) {
     SELECT id FROM packages WHERE ecosystem = ? AND name = ? AND version = ? AND resolved = ? AND integrity = ?
   `);
   const insertDependency = db.prepare(`
-    INSERT OR REPLACE INTO app_dependencies (app_id, version, package_id, lockfile, direct, dev, tier)
-    VALUES (?, ?, ?, ?, ?, ?, ?)
+    INSERT OR REPLACE INTO app_dependencies (app_id, version, package_id, lockfile, direct, dev, scope, dependants, tier)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
   `);
   const clear = db.prepare('DELETE FROM app_dependencies WHERE app_id = ? AND version = ?');
 
@@ -209,7 +363,7 @@ export function saveDependencies(db, appId, version, analyses) {
       for (const e of analysis.entries || []) {
         insertPackage.run(e.ecosystem, e.name, e.version, e.resolved, e.integrity);
         const { id } = selectPackage.get(e.ecosystem, e.name, e.version, e.resolved, e.integrity);
-        insertDependency.run(appId, version, id, e.lockfile, boolOrNull(e.direct), boolOrNull(e.dev), e.tier);
+        insertDependency.run(appId, version, id, e.lockfile, boolOrNull(e.direct), boolOrNull(e.dev), scopeOrNull(e.scope), dependantsOrNull(e.dependants), e.tier);
         count++;
       }
     }
@@ -223,14 +377,14 @@ export function saveDependencies(db, appId, version, analyses) {
 export function saveVulnerabilities(db, appId, version, { findings }) {
   const insert = db.prepare(`
     INSERT OR REPLACE INTO app_vulnerabilities
-      (app_id, version, ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+      (app_id, version, ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `);
   return db.transaction(() => {
     db.prepare('DELETE FROM app_vulnerabilities WHERE app_id = ? AND version = ?').run(appId, version);
     for (const f of findings) {
       insert.run(appId, version, f.ecosystem, f.name, f.version, f.id, f.severity,
-        f.aliases.join(' '), f.fixed.join(' '), f.summary, boolOrNull(f.direct), boolOrNull(f.dev));
+        f.aliases.join(' '), f.fixed.join(' '), f.summary, boolOrNull(f.direct), boolOrNull(f.dev), scopeOrNull(f.scope), dependantsOrNull(f.dependants));
     }
     return findings.length;
   })();
@@ -238,7 +392,7 @@ export function saveVulnerabilities(db, appId, version, { findings }) {
 
 export function getVulnerabilities(db, appId, version) {
   return db.prepare(`
-    SELECT ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev
+    SELECT ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants
     FROM app_vulnerabilities WHERE app_id = ? AND version = ?
     ORDER BY CASE severity WHEN 'malicious' THEN 0 WHEN 'critical' THEN 1 WHEN 'high' THEN 2
       WHEN 'moderate' THEN 3 WHEN 'low' THEN 4 ELSE 5 END, ecosystem, name, vuln_id
@@ -249,7 +403,7 @@ export function getVulnerabilities(db, appId, version) {
 export function getDependencies(db, appId, version) {
   return db.prepare(`
     SELECT p.ecosystem, p.name, p.version AS dep_version, p.resolved, p.integrity,
-           d.lockfile, d.direct, d.dev, d.tier
+           d.lockfile, d.direct, d.dev, d.scope, d.dependants, d.tier
     FROM app_dependencies d JOIN packages p ON p.id = d.package_id
     WHERE d.app_id = ? AND d.version = ?
     ORDER BY p.ecosystem, d.lockfile, p.name, p.version
@@ -470,3 +624,25 @@ export function getPreviousAssetVersions(db, appId, assetName, source, architect
   );
 }
 
+
+export function savePackageSource(db, ecosystem, name, r) {
+  db.prepare(`INSERT OR REPLACE INTO package_sources (ecosystem, name, repo_url, source, note, checked_at) VALUES (?, ?, ?, ?, ?, CURRENT_TIMESTAMP)`)
+    .run(ecosystem, name, r.url || null, r.source, r.note || null);
+}
+
+// Source repository per `ecosystem:name`, for the export.
+export function packageSources(db) {
+  const map = new Map();
+  for (const r of db.prepare('SELECT ecosystem, name, repo_url, source FROM package_sources').all()) map.set(`${r.ecosystem}:${r.name}`, r);
+  return map;
+}
+
+// Distinct packages without a cached lookup (or all of them with `all`); one
+// version each, which Maven needs to find the POM.
+export function packagesToResolve(db, { all = false } = {}) {
+  return db.prepare(`
+    SELECT p.ecosystem, p.name, MAX(p.version) AS version FROM packages p
+    ${all ? '' : 'WHERE NOT EXISTS (SELECT 1 FROM package_sources s WHERE s.ecosystem = p.ecosystem AND s.name = p.name)'}
+    GROUP BY p.ecosystem, p.name ORDER BY p.ecosystem, p.name
+  `).all();
+}

@@ -6,7 +6,7 @@ import { fetchGitHubAssets, fetchDockerAssets, parseDockerImage, checkAuthorIdCo
 import { backupDatabase, initDatabase, saveAsset, hasExistingAssets, getAnalysedCommit, saveAnalysedCommit } from './ddbbUtils.mjs';
 import { runSourceCodeAnalysis, remoteHeadCommit } from './appAnalysis.mjs';
 import { pruneCache } from './containerRunner.mjs';
-import { APPS, APP_LIST_URL, DEFAULT_TEMP_DIR, CONCURRENCY } from './config.mjs';
+import { APPS, APP_LIST_URL, DEFAULT_TEMP_DIR, CONCURRENCY , EXPORT_DIR } from './config.mjs';
 import { loadAppList, groupByRepository } from './appList.mjs';
 import { runPool, tagConsole } from './pool.mjs';
 import { loadPlugins } from './plugins.mjs';
@@ -68,7 +68,7 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
           console.log(`  No new release, default branch still at ${head.slice(0, 12)} (already analysed). Skipping the source analysis.`);
         } else {
           console.log('  No new release: analysing the default branch...');
-          const result = await runSourceCodeAnalysis({ name: appId, repoUrl: repoUrl, includeTestFiles });
+          const result = await runSourceCodeAnalysis({ name: appId, repoUrl: repoUrl, includeTestFiles, db });
           if (result && result.commit) {
             saveAnalysedCommit(db, appId, result.commit);
           }
@@ -249,6 +249,32 @@ try {
   // when they outgrow their cap.
   fs.rmSync(DEFAULT_TEMP_DIR, { recursive: true, force: true });
   pruneCache();
+
+  if (EXPORT_DIR) {
+    try {
+      const { exportAll } = await import('./export.mjs');
+      const { analyserVersion } = await import('./appAnalysis.mjs');
+      const { apps, releases, dir } = exportAll(db, EXPORT_DIR, { analyser: analyserVersion() });
+      console.log(`\nExported ${apps} apps, ${releases} releases to ${dir}`);
+      if (process.env.SOURCE_ANALYSIS_SIGNALS !== 'off') {
+        // EPSS, CISA's exploited list, publication dates; a failing feed only leaves its part out
+        const { buildSignals } = await import('./signals.mjs');
+        const s = await buildSignals({ exportDir: EXPORT_DIR });
+        console.log(`Advisory signals: ${s.cves} CVEs, EPSS for ${s.epss}, ${s.kev} on CISA's exploited list, publication date for ${s.published} advisories${s.written ? '' : ', nothing written'}`);
+      }
+    } catch (error) {
+      console.error(`\n✗  Export to ${EXPORT_DIR} failed:`, error.message);
+      errorCount++;
+    }
+    try {
+      const { publishExport } = await import('./publish.mjs');
+      const published = publishExport(EXPORT_DIR);
+      if (published.published) console.log(`Published the export to ${published.target}`);
+    } catch (error) {
+      console.error('\n✗  Publishing the export failed:', error.message);
+      errorCount++;
+    }
+  }
 
   const missingPart = missingCount === 0
     ? ''
