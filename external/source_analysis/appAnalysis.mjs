@@ -5,9 +5,11 @@
 // plugins/, one file each.
 
 import fs from 'fs';
+import os from 'os';
 import path from 'path';
 import { execSync, execFile } from 'child_process';
 import { promisify } from 'util';
+import { fileURLToPath } from 'url';
 import { DEFAULT_TEMP_DIR, APP_TYPES } from './config.mjs';
 import { ensureImage, runInContainer } from './containerRunner.mjs';
 import { loadPlugins, runPlugins } from './plugins.mjs';
@@ -85,6 +87,32 @@ export async function remoteHeadCommit(repoUrl, { timeoutMs = 60000 } = {}) {
 }
 
 /**
+ * Commit time (Date) of the remote's default branch, or null when it cannot be
+ * read. A shallow fetch of the one commit object, no trees or blobs: about a
+ * hundred kilobytes and a second, from any host.
+ */
+export async function remoteHeadDate(repoUrl, { timeoutMs = 60000 } = {}) {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'head-date-'));
+  const git = (args) => promisify(execFile)('git', ['-C', dir, ...args], {
+    encoding: 'utf8',
+    timeout: timeoutMs,
+    env: { ...process.env, GIT_TERMINAL_PROMPT: '0' },
+  });
+  try {
+    await git(['init', '-q', '--bare']);
+    await git(['fetch', '-q', '--depth=1', '--filter=tree:0', '--', repoUrl, 'HEAD']);
+    const { stdout } = await git(['log', '-1', '--format=%ct', 'FETCH_HEAD']);
+    const seconds = Number(stdout.trim());
+    return seconds > 0 ? new Date(seconds * 1000) : null;
+  } catch (error) {
+    console.log(`Could not read the last commit of ${repoUrl}: ${error.message.split('\n')[0]}`);
+    return null;
+  } finally {
+    fs.rmSync(dir, { recursive: true, force: true });
+  }
+}
+
+/**
  * The container steps of the enabled plugins (PLUGINS in config.mjs), on the
  * checkout. Runs INSIDE the analysis container (containerEntry.mjs).
  * Returns what goes back to the host: each plugin's result by name, and the
@@ -94,6 +122,39 @@ export async function runChecksOnCheckout(repoPath, appType, { includeTestFiles 
   const plugins = await loadPlugins();
   const { results, failed } = await runPlugins(plugins, 'container', { repoPath, appType, options: { includeTestFiles } });
   return { results, failed };
+}
+
+/**
+ * What an analysis saw, for the analyses table: the lockfiles the pinning
+ * step read, the dependency rows it produced, what the OSV step checked
+ * and skipped (plugins/osv.mjs checkVulnerabilities), and which manifests
+ * have no lockfile (plugins/lock-coverage.mjs). Plugins that are off
+ * leave their fields null.
+ */
+export function summarizeResults(results = {}, plugins = []) {
+  const pinning = Array.isArray(results.pinning) ? results.pinning : null;
+  const osv = results.osv && typeof results.osv === 'object' ? results.osv : null;
+  const coverage = results['lock-coverage'] && typeof results['lock-coverage'] === 'object' ? results['lock-coverage'] : null;
+  return {
+    plugins: plugins.map(p => p.name),
+    lockfiles: pinning ? pinning.flatMap(a => a.lockfiles || []) : [],
+    dependencies: pinning ? pinning.reduce((n, a) => n + (a.entries || []).length, 0) : null,
+    osvChecked: osv ? osv.checked ?? null : null,
+    osvSkipped: osv ? osv.skipped || {} : {},
+    vulnerabilities: osv ? (osv.findings || []).length : null,
+    lockCoverage: coverage,
+  };
+}
+
+// Which analyser produced a row: the package version, plus the git revision
+// the deploy script writes to REVISION (a dev checkout has none).
+export function analyserVersion() {
+  const here = path.dirname(fileURLToPath(import.meta.url));
+  let version = 'unknown';
+  try { version = JSON.parse(fs.readFileSync(path.join(here, 'package.json'), 'utf8')).version || version; } catch { /* keep unknown */ }
+  let revision = '';
+  try { revision = fs.readFileSync(path.join(here, 'REVISION'), 'utf8').trim().slice(0, 12); } catch { /* dev checkout */ }
+  return revision ? `${version}+${revision}` : version;
 }
 
 /**
@@ -115,12 +176,19 @@ export async function runSourceCodeAnalysis({ name, repoUrl, version = null, inc
   fs.rmSync(workDir, { recursive: true, force: true });
   fs.mkdirSync(workDir, { recursive: true });
 
+  // Host only (the container never has a database): ddbbUtils stays a lazy import.
+  const record = async (fields) => {
+    if (!db) return;
+    const { recordAnalysis } = await import('./ddbbUtils.mjs');
+    recordAnalysis(db, { appId: name, kind: version ? 'release' : 'default-branch', ref: version || fields.commit || 'unknown', analyser: analyserVersion(), ...fields });
+  };
   try {
     const plugins = await loadPlugins();
     ensureImage();
     const result = await runInContainer({ name, repoUrl, ref: version, includeTestFiles, workDir });
     if (!result.ok) {
       console.log(`Analysis of ${name} failed in the container: ${result.error}. Skipping...`);
+      await record({ status: 'failed', error: String(result.error || 'container failed'), commit: result.commit || null, appType: result.appType || null });
       return null;
     }
     const ctx = {
@@ -128,13 +196,18 @@ export async function runSourceCodeAnalysis({ name, repoUrl, version = null, inc
       options: { includeTestFiles }, results: result.results || {}, failed: result.failed || [],
     };
     await runPlugins(plugins, 'host', ctx);
+    const seen = summarizeResults(ctx.results, plugins);
     if (ctx.failed.length) {
-      console.log(`Analysis of ${name} failed: ${ctx.failed.map(f => `${f.plugin} (${f.error})`).join(', ')}`);
+      const error = ctx.failed.map(f => `${f.plugin} (${f.error})`).join(', ');
+      console.log(`Analysis of ${name} failed: ${error}`);
+      await record({ status: 'failed', error, commit: result.commit, appType: result.appType, ...seen });
       return null;
     }
+    await record({ status: result.appType === APP_TYPES.UNKNOWN ? 'unsupported' : 'ok', commit: result.commit, appType: result.appType, ...seen });
     return { ...result, results: ctx.results };
   } catch (error) {
     console.error(`Analysis of ${name} failed: ${error.message}`);
+    await record({ status: 'failed', error: error.message }).catch(() => {});
     return null;
   } finally {
     // Clone, node_modules and result: nothing of it is needed after this point.

@@ -21,8 +21,9 @@ export const PLUGINS = {
   'obfuscation': false,           // test 6
   'pinning': true,                // test 7, stores the resolved dependencies
   'gradle-resolution': true,      // test 7b, completes pinning's gradle rows
-  'oob-downloads': false,         // test 8
-  'committed-binaries': false,    // test 9
+  'oob-downloads': true,          // test 8, read by lock-coverage
+  'committed-binaries': true,     // test 9, read by lock-coverage
+  'lock-coverage': true,          // test 7c, manifests without a lockfile, inputs outside any lockfile
   'osv': true,                    // test 10, host: known vulnerabilities of pinning's rows
   'semgrep': false,               // test 11, host: its own container on the checkout
 };
@@ -38,6 +39,8 @@ export const DOCKER_HUB_API_BASE = 'https://hub.docker.com/v2';
 export const DB_PATH = process.env.SOURCE_ANALYSIS_DB_PATH || join(__dirname, 'assets.db');
 export const BACKUP_DIR = join(dirname(DB_PATH), 'backup');
 export const BACKUPS_TO_KEEP = 14; // one copy per run, older ones are deleted
+// Static JSON export written at the end of each pass (export.mjs); unset = no export
+export const EXPORT_DIR = process.env.SOURCE_ANALYSIS_EXPORT_DIR || null;
 
 // App list: which wallets exist and where their source lives, rendered by the
 // site from the wallet records (api/appRepositories.json).
@@ -77,6 +80,18 @@ export const CONTAINER_TIMEOUT_MS = Number(process.env.SOURCE_ANALYSIS_CONTAINER
 // Repositories processed at the same time. Each one runs its own container
 // with the limits above (3 x 6 GB / 2 CPUs by default), next to the build server.
 export const CONCURRENCY = Math.max(1, Math.floor(Number(process.env.SOURCE_ANALYSIS_CONCURRENCY)) || 3);
+// Which wallets a pass analyses: 'reproducible' (default) only those with a
+// reproducible build verification of any version (reproducible.mjs), 'all'
+// every wallet with a repository.
+export const SCOPE = process.env.SOURCE_ANALYSIS_SCOPE === 'all' ? 'all' : 'reproducible';
+// A gone wallet (removed, defunct, discontinued, deprecated) stays in scope
+// while it was reproducible: its users still run it, and new advisories in
+// its dependencies matter to them. Once its default branch saw no commit for
+// this many years it is past its end of life and leaves the scope.
+export const GONE_EOL_YEARS = Number(process.env.SOURCE_ANALYSIS_GONE_EOL_YEARS || 2);
+// Verified versions not analysed yet, analysed per repository and pass,
+// newest verification first; the backlog drains over the next passes.
+export const VERIFIED_PER_PASS = Math.max(0, Math.floor(Number(process.env.SOURCE_ANALYSIS_VERIFIED_PER_PASS ?? 3)) || 0);
 // Shared npm/yarn/gradle/pip caches mounted into every container; wiped when
 // they grow past the cap (index.mjs calls pruneCache after each pass).
 export const CACHE_DIR = process.env.SOURCE_ANALYSIS_CACHE_DIR || join(__dirname, 'cache');

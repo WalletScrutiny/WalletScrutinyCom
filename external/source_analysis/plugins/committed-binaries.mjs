@@ -455,6 +455,8 @@ export async function analyzeDependencyBinaries(repoPath, tempRoot) {
 export default {
   description: 'Test 9: committed binaries',
   container({ repoPath }) {
-    analyzeCommittedBinaries(repoPath);
+    // lock-coverage reads the artifacts; the groups only repeat them.
+    const { artifacts, totals } = analyzeCommittedBinaries(repoPath);
+    return { artifacts, totals };
   },
 };

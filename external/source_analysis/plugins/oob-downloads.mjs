@@ -191,6 +191,6 @@ export function analyzeOobDownloads(repoPath) {
 export default {
   description: 'Test 8: out-of-band downloads',
   container({ repoPath }) {
-    analyzeOobDownloads(repoPath);
+    return analyzeOobDownloads(repoPath);
   },
 };

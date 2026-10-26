@@ -45,6 +45,7 @@ a timer every 6 hours:
 | user | `build-server` |
 | database | `/var/lib/walletscrutiny-source-analysis/assets.db` (`SOURCE_ANALYSIS_DB_PATH`), backups next to it in `backup/`, newest 14 kept |
 | per-repository scratch | `/var/cache/walletscrutiny-source-analysis/repos` (`SOURCE_ANALYSIS_TEMP_DIR`), deleted after each repository |
+| scope | wallets with a reproducible build verification of any version (kind 30301 on the project relays, `reproducible.mjs`), each verified version analysed at its tag, 3 per wallet and pass (`SOURCE_ANALYSIS_VERIFIED_PER_PASS`); `SOURCE_ANALYSIS_SCOPE=all` analyses every wallet with a repository. Needs Node 22 (WebSocket) |
 | parallel repositories | 3 (`SOURCE_ANALYSIS_CONCURRENCY`), each in its own container with the [Sandbox](#sandbox) limits, so 18 GB / 6 CPUs for the analysis containers by default, next to the build server (the Semgrep container has no limits); every log line is prefixed with the `[appId]` of its repository |
 | package caches | `/var/cache/walletscrutiny-source-analysis/cache` (`SOURCE_ANALYSIS_CACHE_DIR`), npm/yarn/gradle/pip caches shared by the analysis containers, wiped when they pass `SOURCE_ANALYSIS_CACHE_MAX_GB` (20) |
 | analysis image | `ANALYSIS_IMAGE` in `config.mjs`, pinned by digest; pulled by the deploy, superseded copies removed |
@@ -98,6 +99,115 @@ sudo systemctl daemon-reload
 sudo systemctl enable --now walletscrutiny-source-analysis.timer
 ```
 
+### Setting up from scratch
+
+The whole setup on two machines, in order, for when one has to be rebuilt.
+The build server (`build.walletscrutiny.com`) runs the analysis, and the web
+host (`walletscrutiny.com`) serves its results. Names marked *suggested*
+can change, as long as the build server's settings in step 3 match the web
+host's in step 2.
+
+What is lost with the build server: the database
+(`/var/lib/walletscrutiny-source-analysis/assets.db`) and its backups, which
+sit next to it. Nothing else holds the analysis history or the recorded
+alerts. A new database gets filled again by the first pass, which takes
+hours. Copy `assets.db` off the machine now and then if the history matters.
+
+**1. Build server: user, docker, node, token.** If the Automated Build Server
+already runs on the machine, all of this is in place. Otherwise:
+
+```bash
+sudo apt install docker.io nodejs npm rsync openssh-client
+sudo adduser build-server
+sudo usermod -aG docker build-server          # the analysis runs every repository in a container
+echo -n 'ghp_xxx' | sudo systemd-creds encrypt --name=build-server-gh-token - /etc/credstore.encrypted/build-server-gh-token
+```
+
+Node must be 18.6 or newer (see `external/build_server/README.md`, "Install
+the dependencies", for a newer one). The token needs no scopes: it only
+raises the GitHub API rate limit.
+
+**2. Web host: directory, user, key, nginx.** Only needed for the wallet
+pages' Dependencies panel. Without it the analysis still runs and stores
+everything; the panel stays hidden.
+
+```bash
+# On the build server: the key the analysis copies its export with (suggested path)
+sudo mkdir -p /etc/walletscrutiny-source-analysis
+sudo ssh-keygen -t ed25519 -N '' -C source-analysis-publish -f /etc/walletscrutiny-source-analysis/publish_ed25519
+sudo chown build-server: /etc/walletscrutiny-source-analysis/publish_ed25519
+sudo cat /etc/walletscrutiny-source-analysis/publish_ed25519.pub     # goes into authorized_keys below
+
+# On the web host: a user that can write one directory and nothing else (suggested names)
+sudo adduser --disabled-password --gecos '' source-analysis
+sudo mkdir -p /srv/source-analysis
+sudo chown source-analysis: /srv/source-analysis
+sudo -u source-analysis mkdir -p -m 700 ~source-analysis/.ssh
+echo 'command="rrsync /srv/source-analysis",restrict ssh-ed25519 AAAA... source-analysis-publish' \
+  | sudo -u source-analysis tee ~source-analysis/.ssh/authorized_keys
+```
+
+`rrsync` comes with the `rsync` package (`/usr/bin/rrsync`, rsync 3.2.4 or
+newer). It limits the key to rsync inside `/srv/source-analysis`, so the
+target is that directory's root, `source-analysis@walletscrutiny.com:/`.
+The directory must not be inside `/var/www/walletscrutiny.com`, because
+`deploy:prod` empties that on every deploy.
+
+Then add this to the walletscrutiny.com `server` block and reload nginx
+(`sudo nginx -t && sudo systemctl reload nginx`):
+
+```nginx
+location /api/source-analysis/ {
+    alias /srv/source-analysis/;
+    add_header Cache-Control "no-cache";
+}
+```
+
+Back on the build server, record the web host's key, so the copy refuses a
+host it does not know (`StrictHostKeyChecking=yes`), and check the key works:
+
+```bash
+ssh-keyscan -t ed25519 walletscrutiny.com | sudo tee /etc/walletscrutiny-source-analysis/known_hosts
+sudo -u build-server rsync -e 'ssh -i /etc/walletscrutiny-source-analysis/publish_ed25519 -o UserKnownHostsFile=/etc/walletscrutiny-source-analysis/known_hosts -o StrictHostKeyChecking=yes' \
+  --list-only source-analysis@walletscrutiny.com:/
+```
+
+**3. Build server: settings in a drop-in.** Every deploy copies
+`config/walletscrutiny-source-analysis.service` over the installed unit, so
+anything edited in `/etc/systemd/system/walletscrutiny-source-analysis.service`
+is lost on the next deploy. Machine settings go in a drop-in, which the
+deploy leaves alone. `sudo systemctl edit walletscrutiny-source-analysis.service`
+opens it (`/etc/systemd/system/walletscrutiny-source-analysis.service.d/override.conf`):
+
+```ini
+[Service]
+# Static export at the end of each pass ("Static export"); without it nothing is published
+Environment=SOURCE_ANALYSIS_EXPORT_DIR=/var/lib/walletscrutiny-source-analysis/export
+# Copy of the export to the web host ("Publishing the export")
+Environment=SOURCE_ANALYSIS_PUBLISH_TARGET=source-analysis@walletscrutiny.com:/
+Environment="SOURCE_ANALYSIS_PUBLISH_SSH=ssh -i /etc/walletscrutiny-source-analysis/publish_ed25519 -o UserKnownHostsFile=/etc/walletscrutiny-source-analysis/known_hosts -o StrictHostKeyChecking=yes"
+# Alert key, kept out of the world-readable unit files ("Alerts")
+EnvironmentFile=-/etc/walletscrutiny-source-analysis/alerts.env
+```
+
+For alerts, put the analyser's Nostr key in that file, readable by root
+only (systemd reads it before it drops to `build-server`):
+
+```bash
+echo 'ALERT_NOSTR_NSEC=nsec1...' | sudo tee /etc/walletscrutiny-source-analysis/alerts.env
+sudo chmod 600 /etc/walletscrutiny-source-analysis/alerts.env
+```
+
+Without the file, alerts are still recorded and printed in the journal, but
+nobody gets a message.
+
+**4. Deploy and first run.** From your machine, `RUN_NOW=1 npm run
+deploy:source-analysis` installs the code, units and image (see "Deploy from
+your machine"), then starts a pass. Follow it with
+`sudo journalctl -u walletscrutiny-source-analysis.service -f`. When it ends,
+`curl -sI https://walletscrutiny.com/api/source-analysis/index.json` answers
+200, and a wallet page that has an analysis shows its Dependencies panel.
+
 ## Source analysis admin
 
 ```bash
@@ -116,6 +226,90 @@ empty database therefore analyses every repository and takes hours; later
 passes analyse new releases and the default branches that moved. If a pass is
 still running when the timer fires again, that firing is skipped.
 
+Every analysis the service runs leaves a row in the `analyses` table: app, kind
+(release or default branch), ref, commit, analyser version, status (`ok`,
+`failed`, `unsupported`), the plugins that ran, the lockfiles the pinning step
+read, dependency and OSV checked/skipped counts. The dependency and
+vulnerability tables only hold rows for releases that produced some; this
+table is what says "analysed and nothing found", "failed" or "never analysed",
+and when. Releases stored before the table existed get a row from what their
+dependency rows remember (`analyser = before-analyses-table`, no commit).
+
+### Static export
+
+With `SOURCE_ANALYSIS_EXPORT_DIR` set, each pass ends by writing a static JSON
+export of the database (`export.mjs`), built in a temporary directory and
+renamed into place so a reader never sees a half-written tree:
+
+| file | content |
+|---|---|
+| `index.json` | every analysed app: aliases (the site's app ids for the repository), latest release summary (ref, commit, date, status, dependency and advisory counts), default-branch status |
+| `apps/<aliasId>.json` | `{appId, alias: true}` for the repository's other app ids (the iPhone record of an Android app), one hop to the file above |
+| `apps/<appId>.json` | all analyses of one app: per release the counts (including `byScope`: app / build / tests / unknown), the advisories (id, severity, aliases, fixed-in, scope), the diff to the previous release, OSV checked/skipped counts |
+| `apps/<appId>/<ref>/dependencies.json` | the full resolved dependency list of one release (ecosystem, name, version, lockfile, pinning tier, direct, dev, scope, integrity), each row with how many products ship the package and that exact version |
+| `packages/index.json` | every package shipped by two or more products, most shared first, with the product count per version ("12 products use libX, 3 use libX 0.2.3") |
+
+`scope` says where a package ends up, as far as the files say: `app` when it
+is reachable from the project's own dependencies, `build` when only from its
+development dependencies, `tests` when only from test frameworks and test
+tooling among those (jest, vitest, mocha, junit-style configurations, …), and
+null when nothing says. `package-lock.json` records the dev flag; `yarn.lock`
+records the graph but no flag, so `plugins/pinning.mjs` walks it from the
+manifest's roots (`yarnScopes`); `Cargo.lock` likewise, with the workspace
+crates' `Cargo.toml` sections as roots (`cargoScopes`: `[dependencies]` is
+app, `[build-dependencies]` build, `[dev-dependencies]` tests, since cargo
+compiles those for tests, examples and benches only; a registry crate's own
+build helpers are listed with its normal dependencies in the lock and count as
+app, the safe direction); gradle resolution derives it from the configuration
+names. Measured 2026-10-16: AirGap Vault yarn.lock 1,338 rows → 330 app /
+1,008 build; Liana Cargo.lock 839 → 829 app / 6 build / 4 unplaced; Gem
+Wallet core 703 → all app; Passport Prime KeyOS (17 lockfiles) 3,937 → 3,595
+app / 135 tests / 24 build / 183 unplaced. The scope is a placement fact, not a verdict: a build
+dependency can still hurt the product (a `postinstall` script runs on the
+developer's machine), which is why every advisory still needs its own
+decision.
+
+Sizes on the 2026-10-16 database: 59 apps, 81 releases, 31 MB in total,
+`index.json` 27 KB, the largest dependency list 1.5 MB (OneKey). Run it by
+hand with `node export.mjs --out <dir>` (`SOURCE_ANALYSIS_DB_PATH` selects the
+database).
+
+After the export, the pass writes `signals.json` into it (`signals.mjs`: EPSS,
+CISA's exploited list, publication dates per advisory; a feed that fails only
+leaves its part out, and the previous file stays when all fail;
+`SOURCE_ANALYSIS_SIGNALS=off` skips it).
+
+### Publishing the export
+
+The wallet pages fetch the export at page load from `/api/source-analysis/`,
+so new data must not wait for a site build. With
+`SOURCE_ANALYSIS_PUBLISH_TARGET` set, each pass ends by rsyncing the export
+there (`publish.mjs`; `--delay-updates --delete-delay`, so a page sees the
+old or the new export). A failed copy counts as a failed pass.
+
+| variable | value |
+|---|---|
+| `SOURCE_ANALYSIS_PUBLISH_TARGET` | rsync destination directory, `user@host:/srv/source-analysis` |
+| `SOURCE_ANALYSIS_PUBLISH_SSH` | the ssh command rsync uses, for the key: `ssh -i /etc/... -o StrictHostKeyChecking=yes` |
+
+On the web host, the directory must not be inside the site's webroot:
+`deploy:prod` empties `/var/www/walletscrutiny.com` on every deploy. nginx
+serves it under the site's path:
+
+```nginx
+location /api/source-analysis/ {
+    alias /srv/source-analysis/;
+    add_header Cache-Control "no-cache";
+}
+```
+
+Its user needs write access to that directory and nothing else. A key
+restricted to rsync (`command="rrsync /srv/source-analysis"` in
+`authorized_keys`) keeps it that way; rrsync reads paths relative to that
+directory, so the target is then `user@host:/`. The commands for both
+machines are in [Setting up from scratch](#setting-up-from-scratch); the
+variables go in a drop-in, not in the unit, which every deploy overwrites.
+
 Query the service database with the CLI in this folder:
 
 ```bash
@@ -128,10 +322,12 @@ sudo -u build-server env SOURCE_ANALYSIS_DB_PATH=/var/lib/walletscrutiny-source-
 
 The list of wallets and their repositories comes from the site, not from this
 folder: `api/appRepositories.json` is rendered at site build time
-from every wallet record that has a `repository:` line and is not gone
-(`meta` removed, defunct, discontinued or deprecated). A repository marked
+from every wallet record that has a `repository:` line. A repository marked
 `#deadLink` or `&deadLink` is left out. Each entry is
-`{ "appId", "platform", "repository" }` and nothing else on purpose: the
+`{ "appId", "platform", "repository" }`, plus `"gone": true` when the record's
+`meta` is removed, defunct, discontinued or deprecated (a gone wallet stays in
+scope only while it was reproducible, see `SOURCE_ANALYSIS_SCOPE`), and
+nothing else on purpose: the
 version to analyse is read from the repository itself, the site's version
 field lags behind releases.
 
@@ -437,6 +633,7 @@ CREATE TABLE app_dependencies (
   lockfile TEXT NOT NULL,           -- file the row came from, relative to the repo root
   direct INTEGER,                   -- 1 declared by the project, 0 pulled in by a dependency, NULL unknown
   dev INTEGER,                      -- 1 build-time only (devDependencies), 0 shipped, NULL unknown
+  scope TEXT,                       -- where it ends up: 'app', 'build', 'tests', NULL when the files do not say
   tier TEXT NOT NULL,               -- hash-pinned | version-pinned | source-ref-pinned | build-service-tag | unversioned | floating
   created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (app_id, version, package_id, lockfile)
@@ -461,6 +658,7 @@ CREATE TABLE app_vulnerabilities (
   summary TEXT NOT NULL DEFAULT '',
   direct INTEGER,
   dev INTEGER,
+  scope TEXT,                       -- widest scope among the package's rows: app > build > tests
   checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (app_id, version, ecosystem, name, dep_version, vuln_id)
 );
@@ -490,3 +688,34 @@ The `notifySha256Changed()` function is called when a SHA256 change is detected.
   - The database file (`assets.db`) is created automatically in the same directory as the script
   - All operations are efficient - no file downloads required, everything comes from API responses
 
+## Upstream triage files
+
+`upstream-triage-cli.mjs` (`upstreamTriage.mjs`) reads the scanner ignore lists
+and VEX documents of every analysed wallet and of its direct users at the
+shipped version into `upstream_triage` / `upstream_triage_checked`, prints what
+they speak to, and with `--export <dir>` writes the per-wallet hints the panel
+shows (`exportAll` writes them too). `GITHUB_TOKEN` switches GitHub reads to
+the GraphQL API (five refs per query); without it raw.githubusercontent.com
+answers 429 after a few thousand files. Resumable: refs already read are
+skipped unless `--all`. See docs/dependency-check.md, "Triage".
+
+
+## Alerts
+
+A lockfile that pins a registry package OSV lists as malicious (MAL-*) raises
+an alert (`alerts.mjs`), whether the package ships in the app or only runs in
+the build: a build dependency can patch the artifact. Each alert is recorded
+once per (app, release, package, advisory) in `alerts` and sent to every
+configured channel right after the OSV step; one a channel did not take is
+retried after the next analysis.
+
+| variable | channel |
+|---|---|
+| `ALERT_WEBHOOK_URL` | POST of the alert as JSON (`text` holds the message) |
+| `ALERT_NOSTR_NSEC` | NIP-17 private message from the analyser's key to Leo, Danny and Luis (`ALERT_RECIPIENTS` in alerts.mjs), or to the npubs in `ALERT_NOSTR_TO` (comma-separated) |
+| `ALERT_NOSTR_RELAYS` | relays for the message (default relay.nostr.info, relay.damus.io, nos.lol) |
+
+`node alerts-cli.mjs` lists open alerts; `--set confirmed|dismissed --app <id>
+--advisory <id> --note "…"` records what a person found; `--deliver` resends
+the undelivered ones. Without a channel an alert is still recorded and printed
+on every run until someone sets it.

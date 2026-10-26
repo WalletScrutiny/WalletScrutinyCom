@@ -6,7 +6,7 @@ import fs from 'fs';
 import os from 'os';
 import path from 'path';
 import {
-  findGradleBuilds, wrapperGradleVersion, jdkForGradle, parseResolution, isShippedConfiguration, mergeResolved,
+  findGradleBuilds, wrapperGradleVersion, jdkForGradle, parseResolution, isShippedConfiguration, scopeOfConfigurations, mergeResolved,
   RESOLVED_LOCKFILE_SUFFIX, resolveGradleDependencies,
 } from '../plugins/gradle-resolution.mjs';
 import { uncheckableReason } from '../plugins/osv.mjs';
@@ -51,13 +51,20 @@ test('shipped configurations are release runtime classpaths', () => {
   for (const n of ['debugRuntimeClasspath', 'releaseUnitTestRuntimeClasspath', 'releaseCompileClasspath', 'kapt', 'buildscript:classpath', 'testRuntimeClasspath']) {
     assert.equal(isShippedConfiguration(n), false, n);
   }
+  assert.equal(scopeOfConfigurations(['testRuntimeClasspath', 'releaseRuntimeClasspath']), 'app');
+  assert.equal(scopeOfConfigurations(['testRuntimeClasspath', 'debugAndroidTestCompileClasspath']), 'tests');
+  assert.equal(scopeOfConfigurations(['kapt', 'testRuntimeClasspath']), 'build');
+  assert.equal(scopeOfConfigurations([]), 'build');
+  {
+  }
 });
 
 test('the init script output is folded per module across configurations', () => {
   const { modules, unresolved, errors } = parseResolution([
     line({ configuration: 'releaseRuntimeClasspath', group: 'com.squareup.okhttp3', module: 'okhttp', version: '4.12.0', direct: true }),
-    line({ configuration: 'debugRuntimeClasspath', group: 'com.squareup.okhttp3', module: 'okhttp', version: '4.12.0' }),
-    line({ configuration: 'releaseRuntimeClasspath', group: 'com.squareup.okio', module: 'okio', version: '3.6.0' }),
+    line({ configuration: 'debugRuntimeClasspath', group: 'com.squareup.okhttp3', module: 'okhttp', version: '4.12.0', dependants: [] }),
+    line({ configuration: 'releaseRuntimeClasspath', group: 'com.squareup.okio', module: 'okio', version: '3.6.0', dependants: ['com.squareup.okhttp3:okhttp'] }),
+    line({ configuration: 'debugRuntimeClasspath', group: 'com.squareup.okio', module: 'okio', version: '3.6.0', dependants: ['com.squareup.okhttp3:okhttp', 'com.example:logging'] }),
     line({ configuration: 'kapt', group: 'com.google.dagger', module: 'dagger-compiler', version: '2.50', direct: true }),
     line({ configuration: 'releaseRuntimeClasspath', unresolved: 'com.example:gone:1.0', reason: 'not found' }),
     line({ configuration: 'iosArm64CompileKlibraries', error: 'ambiguous variants' }),
@@ -68,6 +75,10 @@ test('the init script output is folded per module across configurations', () => 
   assert.equal(okhttp.direct, true);
   assert.equal(okhttp.shipped, true);
   assert.equal(modules.get('com.google.dagger:dagger-compiler:2.50').shipped, false);
+  // who requires whom, folded across configurations; a run without the field (older init script) leaves null
+  assert.deepEqual([...modules.get('com.squareup.okio:okio:3.6.0').dependants].sort(), ['com.example:logging', 'com.squareup.okhttp3:okhttp']);
+  assert.deepEqual([...okhttp.dependants], []);
+  assert.equal(modules.get('com.google.dagger:dagger-compiler:2.50').dependants, null);
   assert.deepEqual(unresolved, ['com.example:gone:1.0']);
   assert.equal(errors.length, 1);
 });
@@ -87,9 +98,9 @@ test('resolved modules replace declarations, keep metadata hashes, leave unresol
   };
   const { modules } = parseResolution([
     line({ configuration: 'releaseRuntimeClasspath', group: 'com.squareup.okhttp3', module: 'okhttp', version: '4.12.0', direct: true }),
-    line({ configuration: 'releaseRuntimeClasspath', group: 'com.squareup.okio', module: 'okio', version: '3.6.0' }),
+    line({ configuration: 'releaseRuntimeClasspath', group: 'com.squareup.okio', module: 'okio', version: '3.6.0', dependants: ['com.squareup.okhttp3:okhttp'] }),
     line({ configuration: 'releaseRuntimeClasspath', group: 'org.bouncycastle', module: 'bcprov-jdk18on', version: '1.78.1', direct: true }),
-    line({ configuration: 'releaseRuntimeClasspath', group: 'androidx.core', module: 'core', version: '1.13.1' }),
+    line({ configuration: 'releaseRuntimeClasspath', group: 'androidx.core', module: 'core', version: '1.13.1', dependants: ['androidx.appcompat:appcompat'] }),
     line({ configuration: 'testRuntimeClasspath', group: 'junit', module: 'junit', version: '4.13.2', direct: true }),
   ].join('\n'));
   const lockfile = `.${RESOLVED_LOCKFILE_SUFFIX}`;
@@ -98,7 +109,9 @@ test('resolved modules replace declarations, keep metadata hashes, leave unresol
 
   assert.deepEqual(get('com.squareup.okhttp3:okhttp').map(e => [e.version, e.tier, e.lockfile, e.direct, e.dev]),
     [['4.12.0', 'version-pinned', lockfile, true, false]]);
-  assert.deepEqual(get('com.squareup.okio:okio').map(e => [e.version, e.direct, e.dev]), [['3.6.0', false, false]]);
+  assert.deepEqual(get('com.squareup.okio:okio').map(e => [e.version, e.direct, e.dev, e.dependants]), [['3.6.0', false, false, ['com.squareup.okhttp3:okhttp']]]);
+  assert.deepEqual(get('androidx.core:core').map(e => [e.lockfile, e.dependants]), [['gradle/verification-metadata.xml', ['androidx.appcompat:appcompat']]], 'the hashed entry gets the graph too');
+  assert.equal(get('com.squareup.okhttp3:okhttp')[0].dependants, null, 'a line without the field: unknown, not empty');
   // still floating as declared, but now with the version gradle picked, so OSV can check it
   const bc = get('org.bouncycastle:bcprov-jdk18on');
   assert.deepEqual(bc.map(e => [e.version, e.tier]), [['1.78.1', 'floating']]);

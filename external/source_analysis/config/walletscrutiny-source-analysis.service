@@ -22,6 +22,10 @@ Environment=SOURCE_ANALYSIS_TEMP_DIR=/var/cache/walletscrutiny-source-analysis/r
 # npm/yarn/gradle/pip caches shared by the analysis containers, wiped past the cap
 Environment=SOURCE_ANALYSIS_CACHE_DIR=/var/cache/walletscrutiny-source-analysis/cache
 Environment=SOURCE_ANALYSIS_CACHE_MAX_GB=20
+# Static JSON export (README, "Static export"), the copy to the web server
+# (README, "Publishing the export") and the alert key are set per machine in a
+# drop-in (systemctl edit walletscrutiny-source-analysis.service), because
+# every deploy overwrites this file. README, "Setting up from scratch", step 3.
 # The analysed repositories are untrusted: clone, install and checks run in a
 # throwaway container (containerRunner.mjs: no token, no database, no docker
 # socket, capabilities dropped, read-only root, memory/cpu/pid limits, timeout;

@@ -51,11 +51,21 @@ gradle.projectsEvaluated {
           def direct = result.root.dependencies
             .findAll { it instanceof ResolvedDependencyResult && it.selected.id instanceof ModuleComponentIdentifier }
             .collect { it.selected.id.group + ':' + it.selected.id.module } as Set
+          // who requires whom, one hop up: the modules whose dependency edges
+          // select this module; project modules are not listed, `direct` says that
+          def requesters = [:].withDefault { [] as Set }
+          result.allDependencies
+            .findAll { it instanceof ResolvedDependencyResult && it.selected.id instanceof ModuleComponentIdentifier && it.from.id instanceof ModuleComponentIdentifier }
+            .each { d ->
+              def to = d.selected.id
+              requesters[to.group + ':' + to.module + ':' + to.version] << (d.from.id.group + ':' + d.from.id.module)
+            }
           result.allComponents.each { component ->
             def id = component.id
             if (id instanceof ModuleComponentIdentifier) {
               emit(project: p.path, configuration: name, group: id.group, module: id.module, version: id.version,
-                direct: direct.contains(id.group + ':' + id.module))
+                direct: direct.contains(id.group + ':' + id.module),
+                dependants: (requesters[id.group + ':' + id.module + ':' + id.version] as List).sort())
             }
           }
           result.allDependencies.findAll { it instanceof UnresolvedDependencyResult }.each { u ->

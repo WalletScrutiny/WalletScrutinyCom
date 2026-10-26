@@ -40,12 +40,39 @@ export function uncheckableReason(entry) {
   // the `+` check here reject.
   const resolvedFloating = entry.tier === 'floating' && entry.ecosystem === 'gradle' && !(entry.version || '').includes('+');
   if (UNCHECKABLE_TIERS.has(entry.tier) && !resolvedFloating) return entry.tier;
-  const resolved = entry.resolved || '';
-  if (/^(git\+|git:|github:|file:|link:|portal:|workspace:|patch:)/.test(resolved)) return 'git-or-path';
+  // yarn berry writes `<ident>@<protocol>:<ref>` (`metamask@workspace:.`); the protocol is what counts
+  const resolved = berryResolution(entry.resolved)?.ref ?? (entry.resolved || '');
+  if (/^(git\+|git:|github:|file:|link:|portal:|workspace:|patch:|exec:)/.test(resolved)) return 'git-or-path';
   // an npm registry tarball is `<registry>/<name>/-/<name>-<version>.tgz`; any other URL is a tarball from elsewhere
   if (/^https?:/.test(resolved) && !/\/-\/|registry/.test(resolved)) return 'git-or-path';
   if (!/^\d[0-9A-Za-z.+_-]*$/.test(entry.version || '')) return 'no-exact-version';
   return null;
+}
+
+/**
+ * A yarn berry resolution split into the package it really is and its
+ * protocol reference: `@favware/skip-dependency@npm:1.2.1` is
+ * `{ ident: '@favware/skip-dependency', ref: 'npm:1.2.1' }`. Null for
+ * anything else (an npm tarball URL, a cargo source).
+ */
+export function berryResolution(resolved) {
+  const m = String(resolved || '').match(/^((?:@[^/@\s]+\/)?[^@\s:]+)@([a-z]+:.*)$/);
+  return m ? { ident: m[1], ref: m[2] } : null;
+}
+
+// The package OSV is asked about: the package the lockfile really installs,
+// whatever name it is installed under. `"fs": "npm:@favware/skip-dependency@1.2.1"`
+// is not the npm package `fs` (which OSV lists as malware), and the other way
+// round `"friendlyService": "npm:fs@0.0.2"` is: an alias must neither raise
+// nor hide a finding. package-lock.json records the real name already; yarn
+// berry has it in the resolution, yarn v1 only in the tarball URL.
+export function queryName(entry) {
+  if (entry.ecosystem !== 'npm') return entry.name;
+  const b = berryResolution(entry.resolved);
+  if (b && b.ref.startsWith('npm:')) return b.ident;
+  // yarn v1 keeps the alias as the name; the registry tarball URL names the real package
+  const m = String(entry.resolved || '').match(/^https?:\/\/[^/]+\/((?:@[^/]+(?:\/|%2[fF]))?[^/@]+)\/-\//);
+  return m ? decodeURIComponent(m[1]) : entry.name;
 }
 
 /** Unique OSV queries for the rows of the given pinning analyses, plus what was skipped. */
@@ -59,8 +86,9 @@ export function buildQueries(analyses) {
         skipped[reason] = (skipped[reason] || 0) + 1;
         continue;
       }
-      const key = `${entry.ecosystem}\u0000${entry.name}\u0000${entry.version}`;
-      if (!queries.has(key)) queries.set(key, { ecosystem: entry.ecosystem, name: entry.name, version: entry.version, rows: [] });
+      const name = queryName(entry);
+      const key = `${entry.ecosystem}\u0000${name}\u0000${entry.version}`;
+      if (!queries.has(key)) queries.set(key, { ecosystem: entry.ecosystem, name, version: entry.version, rows: [] });
       queries.get(key).rows.push(entry);
     }
   }
@@ -244,6 +272,8 @@ function findingsFor(q, ids, details) {
       fixed: fixedVersions(advisory, q),
       direct: q.rows.some(r => r.direct === true) ? true : (q.rows.some(r => r.direct === false) ? false : null),
       dev: q.rows.every(r => r.dev === true) ? true : (q.rows.some(r => r.dev === false) ? false : null),
+      scope: scopeOfRows(q.rows),
+      dependants: dependantsOfRows(q.rows),
       lockfiles: [...new Set(q.rows.map(r => r.lockfile))],
     });
   }
@@ -256,6 +286,22 @@ function findingsFor(q, ids, details) {
  * first), or null when OSV.dev could not be reached: a failed lookup is not a
  * clean result.
  */
+// The widest scope among the rows of one package version: 'app' if any row
+// ships, else 'build' if any row is build tooling, else 'tests', else null.
+// The union of the rows' dependants (who requires this package version, one
+// hop up); null when no row knows.
+export function dependantsOfRows(rows) {
+  const known = rows.filter(r => Array.isArray(r.dependants));
+  if (!known.length) return null;
+  return [...new Set(known.flatMap(r => r.dependants))].sort();
+}
+
+export function scopeOfRows(rows) {
+  const scopes = new Set(rows.map(r => r.scope ?? (r.dev === true ? 'build' : r.dev === false ? 'app' : null)));
+  for (const s of ['app', 'build', 'tests']) if (scopes.has(s)) return s;
+  return null;
+}
+
 export async function checkVulnerabilities(analyses, { fetchImpl = globalThis.fetch } = {}) {
   console.log('\n--- Test 10: Known vulnerabilities (OSV.dev, from the resolved dependencies) ---');
   const { queries, skipped } = buildQueries(analyses);
@@ -317,7 +363,8 @@ function report(queries, skipped, findings) {
 // exact registry version, from OSV.dev, looked up from the host. A failed
 // lookup fails the analysis, so an unchanged default branch is retried next
 // pass instead of being skipped without a vulnerability result. Stored per
-// release (app_vulnerabilities).
+// release (app_vulnerabilities); a malicious package also raises an alert
+// (alerts.mjs).
 export default {
   description: 'Test 10: known vulnerabilities (OSV.dev)',
   requires: ['pinning'],
@@ -328,6 +375,10 @@ export default {
       const { saveVulnerabilities } = await import('../ddbbUtils.mjs');
       const stored = saveVulnerabilities(db, name, version, vulnerabilities);
       console.log(`Stored ${stored} vulnerability rows for ${name} ${version}`);
+      // A malicious package is not a row to triage some day: record it and tell a person now.
+      const { recordMalwareAlerts, deliverAlerts } = await import('../alerts.mjs');
+      recordMalwareAlerts(db, name, version, vulnerabilities.findings);
+      await deliverAlerts(db); // also retries earlier ones a channel did not take
     }
     return vulnerabilities;
   },
