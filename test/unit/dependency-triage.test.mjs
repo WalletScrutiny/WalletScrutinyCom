@@ -199,6 +199,9 @@ describe('dependency triage statements', () => {
       assert.equal(existsSync(join(exportDir, 'triage', 'it.airgap.vault.json')), false);
       const snap2 = JSON.parse(readFileSync(snapshotFile, 'utf8'));
       assert.ok(snap2.some(e => e.id === del.id) && !snap2.some(e => e.id === newer.id));
+      // once every relay dropped the statement, its author has nothing left: the request still stays
+      buildTriage({ events: [], snapshotFile, trustedFile, exportDir });
+      assert.ok(JSON.parse(readFileSync(snapshotFile, 'utf8')).some(e => e.id === del.id), 'a build with no relay copy keeps the request');
       assert.equal(buildTriage({ events: [newer], snapshotFile, trustedFile, exportDir }).deleted, 1, 'a relay serving it again does not bring it back');
     } finally {
       rmSync(tmp, { recursive: true, force: true });
