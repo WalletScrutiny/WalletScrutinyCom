@@ -441,3 +441,34 @@ Built and on the preview today; what each still needs before a release:
 7. **Reproducibility of dependencies** (the "reproduced" rung of the
    ladder): explained, not built; a pilot on the 50 most shared npm package
    versions, starting from Google's OSS Rebuild attestations, waits for a go.
+
+## Parked: the vulnerability tile's wording (2026-10-26)
+
+Danny found the tile misleading: "AirGap 3.35.0 has 412 known
+vulnerabilities" reads as alarming. Those are 412 advisory matches against
+lockfile entries, 332 distinct advisories, and 377 of them are in build
+tooling only. Only 35 are in packages the app ships (4 critical, 13 high).
+
+A rework is built, on the preview and reviewed by Danny, but not on this
+branch. It waits on Leo and Luis, because it brings back the "in the app ·
+in build tooling" split that Leo had removed on 2026-10-20 (there, the
+numbers were duplicated; here, each number appears once). The three commits
+are on the branch `parked/dependency-tile-shipped-first`, on top of this one:
+
+- The big number counts only the matches in packages the app ships, plus
+  those the files do not place. The severity lines and the colour cover
+  only that set. Below it: build tools only ("not in the app"), tests
+  only, other products, then the total and the distinct advisories.
+- The caveat on the tile: a match means a package version is listed as
+  affected, not that the app uses the affected part, and, without an APK
+  check, that the released app itself was not checked.
+- The big number and each "cleared" open an explanation (hover, focus or
+  tap) in plain, neutral English for someone who has the app installed:
+  "report" and "affected", never "vulnerable", "exploitable" or "attack".
+- On phones the tiles stack one per row and the explanation spans the
+  screen.
+- This document's "What the panel shows" and "Triage" sections, plus a new
+  section quoting the wording, are updated on that branch.
+
+To take it: rebase the parked branch onto this one, and check the e2e and
+unit tests.
