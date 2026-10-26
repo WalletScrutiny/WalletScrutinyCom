@@ -18,8 +18,8 @@ android:
   appCountry: us
   released: 2019-01-24
   updated: 2026-10-13
-  version: '40.0'
-  reviews: 2768
+  version: '41.0'
+  reviews: 2785
   icon: com.emberfund.ember.webp
   meta: ok
   verdict: nosource
@@ -31,7 +31,7 @@ iphone:
   released: 2018-08-04
   updated: 2026-10-13
   version: '41.0'
-  reviews: 19610
+  reviews: 20032
   icon: com.emberfund.ember.webp
   meta: ok
   verdict: nosource

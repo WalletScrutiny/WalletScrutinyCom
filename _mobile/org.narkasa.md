@@ -18,8 +18,8 @@ android:
   users: 50000
   appCountry: us
   released: 2020-10-30
-  updated: 2026-09-05
-  version: 5.21.0
+  updated: 2026-10-17
+  version: 5.21.1
   icon: org.narkasa.webp
   meta: ok
   verdict: custodial

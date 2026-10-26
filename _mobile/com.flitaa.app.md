@@ -19,7 +19,7 @@ android:
   released: 2021-05-15
   updated: 2025-06-13
   version: 1.51.8
-  reviews: 571
+  reviews: 573
   icon: com.flitaa.app.webp
   meta: stale
   verdict: custodial

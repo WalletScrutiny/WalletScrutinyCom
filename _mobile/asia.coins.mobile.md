@@ -22,7 +22,7 @@ android:
   appCountry: us
   released: 2014-10-01
   updated: 2026-10-13
-  version: 7.9.40.1
+  version: 7.9.41.0
   reviews: 551
   icon: asia.coins.mobile.webp
   meta: ok

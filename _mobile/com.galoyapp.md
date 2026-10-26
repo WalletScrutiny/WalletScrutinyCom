@@ -40,7 +40,7 @@ iphone:
   released: 2020-11-11
   updated: 2026-08-26
   version: 3.0.31
-  reviews: 68
+  reviews: 69
   icon: io.galoy.bitcoinbeach.webp
   meta: ok
   verdict: custodial

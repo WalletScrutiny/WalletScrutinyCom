@@ -25,7 +25,7 @@ iphone:
   released: 2022-07-07
   updated: 2026-10-09
   version: 2.4.3
-  reviews: 125
+  reviews: 126
   icon: ch.cryptonow.wallet.webp
   meta: ok
   verdict: nosource

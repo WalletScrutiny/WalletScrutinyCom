@@ -19,8 +19,8 @@ android:
   users: 500000
   appCountry: us
   released: 2022-06-26
-  updated: 2026-07-29
-  version: 2.0.30
+  updated: 2026-10-19
+  version: 2.0.31
   reviews: 120
   icon: com.coinsdo.wallet.webp
   meta: ok
@@ -31,8 +31,8 @@ iphone:
   idd: '6479635869'
   appCountry: us
   released: 2024-04-16
-  updated: 2026-08-12
-  version: 2.0.30
+  updated: 2026-10-20
+  version: 2.0.31
   reviews: 82
   icon: com.coinsdo.coinsdowallet.webp
   meta: ok

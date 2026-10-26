@@ -25,8 +25,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-08-08
-  updated: 2026-08-27
-  version: 3.3.1
+  updated: 2026-10-15
+  version: 3.4.0
   icon: com.revix.app.webp
   meta: ok
   verdict: custodial
@@ -36,8 +36,8 @@ iphone:
   idd: '1590491829'
   appCountry: za
   released: 2022-08-01
-  updated: 2026-08-03
-  version: 3.3.0
+  updated: 2026-10-20
+  version: 3.4.0
   reviews: 72
   icon: com.revix.mobile.webp
   meta: ok

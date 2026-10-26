@@ -53,9 +53,9 @@ iphone:
   idd: 1376878040
   appCountry: us
   released: 2018-05-27
-  updated: 2026-10-05
-  version: 8.0.2
-  reviews: 857
+  updated: 2026-10-17
+  version: 8.0.3
+  reviews: 858
   icon: io.bluewallet.bluewallet.webp
   meta: ok
   verdict: sourceavailable

@@ -13,7 +13,7 @@ android:
   released: 2021-09-06
   updated: 2025-10-07
   version: 1.6.20
-  reviews: 424
+  reviews: 425
   icon: com.paybis.webp
   meta: stale
   verdict: custodial
@@ -23,9 +23,9 @@ iphone:
   idd: '1584641245'
   appCountry: us
   released: 2021-09-20
-  updated: 2026-08-13
-  version: 1.7.32
-  reviews: 2845
+  updated: 2026-10-23
+  version: 1.7.33
+  reviews: 2838
   icon: com.paybis.webp
   meta: ok
   verdict: custodial

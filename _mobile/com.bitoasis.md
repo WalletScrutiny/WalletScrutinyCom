@@ -22,7 +22,7 @@ android:
   users: 100000
   appCountry: ae
   released: 2020-08-20
-  updated: 2026-10-08
+  updated: 2026-10-23
   version: 4.3.8
   reviews: 672
   icon: com.bitoasis.webp
@@ -34,8 +34,8 @@ iphone:
   idd: 1521661794
   appCountry: ae
   released: 2020-07-06
-  updated: 2026-10-12
-  version: 2.4.8
+  updated: 2026-10-23
+  version: 2.4.9
   reviews: 4498
   icon: net.bitoasis.ios.com.webp
   meta: ok

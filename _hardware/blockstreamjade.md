@@ -38,9 +38,6 @@ social:
 - https://www.youtube.com/channel/UCZNt3fZazX9cwWcC9vjDJ4Q
 builds:
 - arch: esp32
-  # One key per --type of blockstreamjade_build.sh, so ABS starts one job per variant. Patterns stay
-  # empty: Jade 1.0 (bin/jade) and Jade 1.1 (bin/jade1.1) publish files with the same names
-  # (<version>_ble|noradio_<size>_fw.bin), so a pattern could hand a 1.1 file to a 1.0 job.
   types:
     jade-ble: []
     jade-noradio: []

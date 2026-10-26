@@ -17,9 +17,9 @@ android:
   users: 5000000
   appCountry: us
   released: 2019-05-31
-  updated: 2026-10-06
-  version: 2.1.150
-  reviews: 232
+  updated: 2026-10-19
+  version: 2.1.152
+  reviews: 233
   icon: com.amarkets.webp
   meta: ok
   verdict: nosendreceive

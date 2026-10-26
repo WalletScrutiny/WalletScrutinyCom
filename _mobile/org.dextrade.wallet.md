@@ -30,8 +30,8 @@ iphone:
   idd: '1608922056'
   appCountry: ua
   released: 2022-10-07
-  updated: 2025-11-30
-  version: 2.0.106
+  updated: 2026-10-20
+  version: 3.0.0
   reviews: 1
   icon: com.dextrade.swap.webp
   meta: ok

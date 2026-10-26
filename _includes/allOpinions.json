@@ -23,6 +23,7 @@
   "mobile/io.muun.apollo":{"neutral":1},
   "mobile/io.nunchuk.android":{"positive":1},
   "mobile/it.airgap.vault":{"positive":1,"neutral":1},
+  "mobile/org.electrum.electrum":{"neutral":1},
   "mobile/org.guapcoin.multiwallet":{"neutral":1},
   "hardware/bitBox2":{"neutral":1},
   "hardware/blockstreamjade":{"positive":1},

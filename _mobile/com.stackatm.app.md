@@ -13,7 +13,7 @@ android:
   version: 1.14.0
   reviews: 4
   icon: com.stackatm.app.webp
-  meta: ok
+  meta: removed
   verdict: wip
   developerName: Kalbas, Inc.
 

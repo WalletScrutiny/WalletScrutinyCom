@@ -18,9 +18,9 @@ android:
   users: 500000
   appCountry: bh
   released: 2018-11-02
-  updated: 2026-09-15
-  version: 3.18.0
-  reviews: 3357
+  updated: 2026-10-19
+  version: 3.19.0
+  reviews: 3360
   icon: com.rainmanagement.rain.webp
   meta: ok
   verdict: custodial
@@ -30,9 +30,9 @@ iphone:
   idd: 1414619890
   appCountry: bh
   released: 2018-09-02
-  updated: 2026-09-17
-  version: 3.18.0
-  reviews: 2957
+  updated: 2026-10-20
+  version: 3.19.0
+  reviews: 2959
   icon: com.rainmanagement.rain.webp
   meta: ok
   verdict: custodial

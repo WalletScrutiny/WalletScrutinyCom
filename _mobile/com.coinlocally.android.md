@@ -31,7 +31,7 @@ iphone:
   released: 2020-01-28
   updated: 2025-12-12
   version: 3.1.6
-  reviews: 135
+  reviews: 136
   icon: com.coinlocally.app.webp
   meta: ok
   verdict: custodial

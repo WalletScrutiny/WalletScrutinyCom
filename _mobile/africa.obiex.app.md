@@ -20,8 +20,8 @@ android:
   users: 100000
   appCountry: us
   released: 2021-06-09
-  updated: 2026-10-11
-  version: 4.1.23
+  updated: 2026-10-13
+  version: 4.1.24
   reviews: 31
   icon: africa.obiex.app.webp
   meta: ok

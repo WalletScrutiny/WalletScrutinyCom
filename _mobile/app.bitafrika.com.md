@@ -19,7 +19,7 @@ android:
   released: 2021-07-19
   updated: 2026-09-14
   version: 5.2.1
-  reviews: 185
+  reviews: 186
   icon: app.bitafrika.com.webp
   meta: ok
   verdict: custodial

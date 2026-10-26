@@ -17,8 +17,8 @@ android:
   users: 100000
   appCountry: us
   released: 2021-12-05
-  updated: 2026-07-01
-  version: 5.5.25
+  updated: 2026-10-14
+  version: 5.5.26
   reviews: 448
   icon: com.foxwallet.play.webp
   meta: ok
@@ -29,8 +29,8 @@ iphone:
   idd: '1590983231'
   appCountry: us
   released: 2021-11-10
-  updated: 2026-07-02
-  version: 5.5.25
+  updated: 2026-10-17
+  version: 5.5.26
   reviews: 84
   icon: com.foxwallet.app.webp
   meta: ok

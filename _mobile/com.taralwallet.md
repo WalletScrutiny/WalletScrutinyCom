@@ -33,7 +33,7 @@ iphone:
   version: '2.9'
   reviews: 1
   icon: com.taralwallet.webp
-  meta: obsolete
+  meta: removed
   verdict: nosource
   developerName: TARALITY ECOSYSTEMS PRIVATE LIMITED
 

@@ -13,7 +13,7 @@ android:
   released: 2024-11-04
   updated: 2025-11-25
   version: 1.1.0
-  reviews: 4
+  reviews: 3
   icon: com.cakewallet.cupcake.webp
   meta: ok
   verdict: sourceavailable

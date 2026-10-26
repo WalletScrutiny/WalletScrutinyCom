@@ -11,8 +11,8 @@ android:
   users: 1000
   appCountry: us
   released: 2026-04-22
-  updated: 2026-09-16
-  version: 2.1.0
+  updated: 2026-10-23
+  version: 2.2.0
   icon: com.starrwallet.webp
   meta: ok
   verdict: wip
@@ -22,9 +22,9 @@ iphone:
   idd: '1513374252'
   appCountry: us
   released: 2026-05-08
-  updated: 2026-09-17
-  version: 2.1.0
-  reviews: 2
+  updated: 2026-10-23
+  version: 2.2.0
+  reviews: 3
   icon: com.starwallet.webp
   meta: ok
   verdict: wip

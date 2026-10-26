@@ -17,8 +17,8 @@ android:
   users: 500000
   appCountry: us
   released: 2021-08-14
-  updated: 2026-10-04
-  version: 7.4.3
+  updated: 2026-10-17
+  version: 7.4.5
   reviews: 155
   icon: com.tabdeal.webp
   meta: ok

@@ -19,7 +19,7 @@ android:
   released: 2020-07-28
   updated: 2026-10-05
   version: 2.4.2
-  reviews: 152
+  reviews: 153
   icon: ru.koshelek.webp
   meta: ok
   verdict: custodial

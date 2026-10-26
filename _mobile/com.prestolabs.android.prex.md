@@ -18,8 +18,8 @@ android:
   users: 500000
   appCountry: us
   released: 2022-11-18
-  updated: 2026-10-12
-  version: 3.40.102
+  updated: 2026-10-22
+  version: 3.43.100
   reviews: 75
   icon: com.prestolabs.android.prex.webp
   meta: ok

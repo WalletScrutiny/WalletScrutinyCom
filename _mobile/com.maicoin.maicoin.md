@@ -18,7 +18,7 @@ android:
   appCountry: us
   released: 2018-12-19
   updated: 2026-09-11
-  version: 15.0.0
+  version: 16.0.0
   reviews: 10
   icon: com.maicoin.maicoin.webp
   meta: ok

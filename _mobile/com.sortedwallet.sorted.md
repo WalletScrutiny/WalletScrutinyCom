@@ -9,7 +9,7 @@ redirect_from:
 - /android/com.sortedwallet.sorted/
 android:
   appId: com.sortedwallet.sorted
-  users: 10000
+  users: 50000
   appCountry: us
   released: 2025-12-11
   updated: 2026-10-06

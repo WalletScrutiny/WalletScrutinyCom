@@ -22,8 +22,8 @@ android:
   appId: au.com.swyftx
   users: 100000
   appCountry: us
-  updated: 2026-09-28
-  version: 2.11.2
+  updated: 2026-10-17
+  version: 2.11.3
   icon: au.com.swyftx.webp
   meta: ok
   verdict: custodial
@@ -33,9 +33,9 @@ iphone:
   idd: '1516986805'
   appCountry: au
   released: 2020-07-01
-  updated: 2026-09-29
-  version: 2.11.2
-  reviews: 6039
+  updated: 2026-10-19
+  version: 2.11.3
+  reviews: 6042
   icon: au.com.swyftx.ios.webp
   meta: ok
   verdict: custodial

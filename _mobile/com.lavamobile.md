@@ -28,7 +28,7 @@ iphone:
   released: 2024-04-29
   updated: 2026-10-07
   version: 3.26.0
-  reviews: 178
+  reviews: 179
   icon: xyz.lava.mobile.webp
   meta: ok
   verdict: nosource

@@ -25,7 +25,7 @@ android:
   released: 2019-05-01
   updated: 2026-03-18
   version: 1.52.3
-  reviews: 61
+  reviews: 60
   icon: com.trusteewallet.webp
   meta: ok
   verdict: sourceavailable

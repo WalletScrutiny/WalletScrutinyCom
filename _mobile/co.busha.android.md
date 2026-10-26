@@ -18,9 +18,9 @@ android:
   users: 500000
   appCountry: us
   released: 2019-01-21
-  updated: 2026-10-05
-  version: 10.1.16
-  reviews: 212
+  updated: 2026-10-14
+  version: 10.1.18
+  reviews: 211
   icon: co.busha.android.webp
   meta: ok
   verdict: custodial

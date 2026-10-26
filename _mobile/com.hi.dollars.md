@@ -34,7 +34,7 @@ iphone:
   version: 2.19.0
   reviews: 279
   icon: com.hidollars.app.webp
-  meta: stale
+  meta: obsolete
   verdict: custodial
   developerName: HI
 

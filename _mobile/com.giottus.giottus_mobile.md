@@ -17,8 +17,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2021-02-01
-  updated: 2026-09-19
-  version: 3.0.55
+  updated: 2026-10-15
+  version: 3.0.56
   reviews: 26
   icon: com.giottus.giottus_mobile.webp
   meta: ok
@@ -29,9 +29,9 @@ iphone:
   idd: 1537068185
   appCountry: in
   released: 2021-01-27
-  updated: 2026-09-21
-  version: 3.0.55
-  reviews: 1122
+  updated: 2026-10-21
+  version: 3.0.56
+  reviews: 1121
   icon: com.giottus.app.webp
   meta: ok
   verdict: nosource

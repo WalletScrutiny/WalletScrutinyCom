@@ -20,9 +20,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2020-07-23
-  updated: 2026-10-12
-  version: 6.78.0
-  reviews: 3252
+  updated: 2026-10-20
+  version: 6.79.0
+  reviews: 3278
   icon: com.mexcpro.client.webp
   meta: ok
   verdict: custodial
@@ -32,9 +32,9 @@ iphone:
   idd: '1605393003'
   appCountry: us
   released: 2022-02-09
-  updated: 2026-10-13
-  version: 6.78.1
-  reviews: 8468
+  updated: 2026-10-20
+  version: 6.79.0
+  reviews: 8521
   icon: mobile.mexcglobal.www.webp
   meta: ok
   verdict: custodial

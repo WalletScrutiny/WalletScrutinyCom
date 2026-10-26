@@ -21,8 +21,8 @@ android:
   users: 50000
   appCountry: us
   released: 2025-04-21
-  updated: 2026-09-19
-  version: 1.3.2
+  updated: 2026-10-19
+  version: 1.3.3
   reviews: 14
   icon: io.quidax.app.webp
   meta: ok
@@ -33,9 +33,9 @@ iphone:
   idd: '6742988930'
   appCountry: ng
   released: 2025-07-07
-  updated: 2026-09-28
-  version: 1.1.20
-  reviews: 613
+  updated: 2026-10-21
+  version: 1.1.22
+  reviews: 627
   icon: io.quidax.pro.webp
   meta: ok
   verdict: custodial

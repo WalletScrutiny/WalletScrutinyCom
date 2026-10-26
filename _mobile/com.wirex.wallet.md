@@ -21,8 +21,8 @@ android:
   users: 500000
   appCountry: nz
   released: 2021-12-03
-  updated: 2026-10-07
-  version: 3.9.1
+  updated: 2026-10-13
+  version: 3.10.0
   reviews: 16
   icon: com.wirex.wallet.webp
   meta: ok
@@ -33,8 +33,8 @@ iphone:
   idd: 1594165139
   appCountry: nz
   released: 2021-12-07
-  updated: 2026-10-07
-  version: 3.9.1
+  updated: 2026-10-14
+  version: 3.10.0
   reviews: 11
   icon: com.wirex.wallet.webp
   meta: ok

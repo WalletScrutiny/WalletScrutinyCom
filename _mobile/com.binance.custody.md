@@ -29,8 +29,8 @@ iphone:
   idd: '1595828184'
   appCountry: sg
   released: 2021-12-01
-  updated: 2026-10-07
-  version: 6.1.0
+  updated: 2026-10-21
+  version: 6.2.1
   reviews: 0
   icon: com.binance.custody.webp
   meta: ok

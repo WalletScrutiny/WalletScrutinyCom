@@ -24,7 +24,7 @@ android:
   users: 1000000
   appCountry: us
   released: 2018-11-07
-  updated: 2026-10-07
+  updated: 2026-10-21
   version: 3.34.0
   reviews: 18
   icon: com.bitpanda.bitpanda.webp
@@ -36,9 +36,9 @@ iphone:
   idd: '1449018960'
   appCountry: at
   released: 2019-11-29
-  updated: 2026-10-08
-  version: 3.34.0
-  reviews: 26288
+  updated: 2026-10-22
+  version: 3.35.0
+  reviews: 26337
   icon: com.bitpanda.bitpanda.webp
   meta: ok
   verdict: custodial

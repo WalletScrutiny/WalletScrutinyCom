@@ -17,8 +17,8 @@ android:
   users: 100000
   appCountry: us
   released: 2024-09-04
-  updated: 2026-10-01
-  version: 1.3.47
+  updated: 2026-10-16
+  version: 1.3.48
   icon: com.dex.digitalexchangeid.webp
   meta: ok
   verdict: custodial

@@ -24,7 +24,7 @@ iphone:
   released: 2024-07-23
   updated: 2026-10-14
   version: 2.22.0
-  reviews: 3
+  reviews: 4
   icon: com.coinex.vault.webp
   meta: ok
   verdict: nosource

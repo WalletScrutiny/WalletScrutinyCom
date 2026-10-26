@@ -23,7 +23,7 @@ android:
   appCountry: us
   released: 2022-03-17
   updated: 2026-09-30
-  version: 1.15.0
+  version: 1.16.0
   reviews: 2
   icon: com.btcmarket.btcm.webp
   meta: ok
@@ -36,7 +36,7 @@ iphone:
   released: 2022-03-19
   updated: 2026-10-08
   version: 1.16.1
-  reviews: 306
+  reviews: 309
   icon: com.btcmarkets.btcm.webp
   meta: ok
   verdict: custodial

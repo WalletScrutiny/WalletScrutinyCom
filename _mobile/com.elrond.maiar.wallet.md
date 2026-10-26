@@ -18,8 +18,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2021-01-15
-  updated: 2026-10-09
-  version: 2.101.18 (3248)
+  updated: 2026-10-14
+  version: 2.101.19 (3254)
   reviews: 417
   icon: com.elrond.maiar.wallet.webp
   meta: ok

@@ -14,7 +14,7 @@ android:
   users: 10000
   appCountry: us
   released: 2019-07-31
-  updated: 2026-09-18
+  updated: 2026-10-23
   version: VARY
   reviews: 34
   icon: com.ogpay.webp

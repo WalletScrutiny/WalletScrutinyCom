@@ -1,6 +1,6 @@
 ---
 wsId: DeltaTrading
-title: Delta Trading – FX&Shares CFDs
+title: Delta Trading - Stocks & CFDs
 date: 2023-08-30
 authors:
 - danny
@@ -20,7 +20,7 @@ android:
   released: 2013-03-29
   updated: 2026-06-05
   version: 5.9.14
-  reviews: 59
+  reviews: 58
   icon: delta.pk.mobile.webp
   meta: ok
   verdict: nosendreceive

@@ -16,8 +16,8 @@ android:
   users: 10000
   appCountry: us
   released: 2025-03-10
-  updated: 2026-09-24
-  version: 1.5.20
+  updated: 2026-10-16
+  version: 1.5.22
   reviews: 40
   icon: cash.savo.webp
   meta: ok
@@ -28,9 +28,9 @@ iphone:
   idd: '6742020669'
   appCountry: us
   released: 2025-02-18
-  updated: 2026-09-30
-  version: 1.5.20
-  reviews: 280
+  updated: 2026-10-22
+  version: 1.5.24
+  reviews: 279
   icon: savo.xyz.webp
   meta: ok
   verdict: custodial

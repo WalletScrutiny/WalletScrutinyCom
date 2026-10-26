@@ -9,7 +9,7 @@ iphone:
   released: 2026-01-24
   updated: 2026-10-04
   version: 26.09.11
-  reviews: 13
+  reviews: 14
   icon: app.replit.xcryptowallet.webp
   meta: ok
   verdict: wip

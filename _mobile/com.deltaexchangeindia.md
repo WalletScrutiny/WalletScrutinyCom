@@ -4,7 +4,7 @@ title: 'Delta Exchange: Crypto Options'
 date: 2025-11-14
 authors:
 - danny
-website: https://india.delta.exchange
+website: https://delta.exchange
 twitter: Delta_Exchange
 redirect_from:
 - /android/com.deltaexchangeindia/
@@ -13,8 +13,8 @@ android:
   appId: com.deltaexchangeindia
   users: 5000000
   appCountry: us
-  updated: 2026-10-13
-  version: 2.31.0
+  updated: 2026-10-16
+  version: 2.32.0
   reviews: 1
   icon: com.deltaexchangeindia.webp
   meta: ok
@@ -25,9 +25,9 @@ iphone:
   idd: '6478332344'
   appCountry: in
   released: 2024-08-16
-  updated: 2026-10-14
-  version: 2.31.2
-  reviews: 23698
+  updated: 2026-10-19
+  version: 2.32.0
+  reviews: 24030
   icon: app.deltaexchange.india.webp
   meta: ok
   verdict: custodial

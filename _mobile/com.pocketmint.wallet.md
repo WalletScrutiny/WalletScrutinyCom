@@ -13,8 +13,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-05-03
-  updated: 2026-09-11
-  version: 2.0.0
+  updated: 2026-10-17
+  version: 2.1.0
   reviews: 8
   icon: com.pocketmint.wallet.webp
   meta: ok
@@ -25,8 +25,8 @@ iphone:
   idd: '6743178752'
   appCountry: us
   released: 2025-05-14
-  updated: 2026-09-13
-  version: 2.0.0
+  updated: 2026-10-22
+  version: 2.1.0
   reviews: 5
   icon: ai.pocketmint.webp
   meta: ok

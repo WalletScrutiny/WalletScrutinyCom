@@ -19,9 +19,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2020-02-11
-  updated: 2026-09-24
-  version: 9.65.1
-  reviews: 3863
+  updated: 2026-10-21
+  version: 9.66.0
+  reviews: 3866
   icon: com.bitkeep.wallet.webp
   meta: ok
   verdict: nosource
@@ -31,9 +31,9 @@ iphone:
   idd: 1395301115
   appCountry: us
   released: 2018-09-26
-  updated: 2026-09-26
-  version: 9.65.1
-  reviews: 5628
+  updated: 2026-10-22
+  version: 9.67.0
+  reviews: 5643
   icon: com.bitkeep.os.webp
   meta: ok
   verdict: nosource

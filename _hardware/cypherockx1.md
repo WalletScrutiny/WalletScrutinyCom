@@ -11,8 +11,8 @@ authors:
 - keraliss
 released: 2022-04-07
 discontinued: 
-updated: 2026-06-12
-version: 0.6.3331
+updated: 2026-10-23
+version: 0.6.3341
 binaries: https://github.com/Cypherock/x1_wallet_firmware/releases/
 dimensions:
 - 30

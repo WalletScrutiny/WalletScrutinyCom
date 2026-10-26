@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2026-03-16
 discontinued: 
-updated: 2026-09-04
-version: 1.4.0
+updated: 2026-10-22
+version: 1.4.1
 binaries: https://github.com/Foundation-Devices/KeyOS-Releases/releases
 dimensions:
 - 56
@@ -33,8 +33,6 @@ social:
 - https://www.reddit.com/r/FoundationDevices/
 builds:
 - arch: armv7a
-  # passportprime_build.sh accepts only --arch armv7a --type firmware; either release bundle can be
-  # its --binary (the other is downloaded). The OTA Update.tar is out of scope.
   types:
     firmware:
     - KeyOS-v*-Recovery.bin

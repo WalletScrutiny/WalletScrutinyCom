@@ -23,9 +23,9 @@ iphone:
   idd: '1608783388'
   appCountry: be
   released: 2022-07-05
-  updated: 2026-10-01
-  version: 4.3.0
-  reviews: 189
+  updated: 2026-10-15
+  version: 4.4.0
+  reviews: 192
   icon: com.bitstack.app.webp
   meta: ok
   verdict: custodial

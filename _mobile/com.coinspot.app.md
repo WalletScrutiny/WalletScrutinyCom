@@ -22,7 +22,7 @@ android:
   released: 2020-10-07
   updated: 2026-10-01
   version: 3.11.14
-  reviews: 2220
+  reviews: 2221
   icon: com.coinspot.app.webp
   meta: ok
   verdict: custodial
@@ -34,7 +34,7 @@ iphone:
   released: 2020-12-13
   updated: 2026-10-04
   version: 3.11.14
-  reviews: 45617
+  reviews: 45675
   icon: com.coinspot.app.webp
   meta: ok
   verdict: custodial

@@ -24,11 +24,11 @@ iphone:
   idd: '1489335158'
   appCountry: ru
   released: 2019-12-09
-  updated: 2025-09-08
-  version: 2.2.2
+  updated: 2026-10-19
+  version: 2.3.0
   reviews: 4
   icon: im.immune.app.webp
-  meta: stale
+  meta: ok
   verdict: nosource
   developerName: IMM Money Messenger Limited
 

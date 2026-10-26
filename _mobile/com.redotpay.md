@@ -19,9 +19,9 @@ android:
   users: 5000000
   appCountry: us
   released: 2023-06-09
-  updated: 2026-10-05
-  version: 3.14.3
-  reviews: 1340
+  updated: 2026-10-22
+  version: 3.14.6
+  reviews: 1349
   icon: com.redotpay.webp
   meta: ok
   verdict: custodial
@@ -31,9 +31,9 @@ iphone:
   idd: '6449689356'
   appCountry: us
   released: 2023-06-13
-  updated: 2026-09-28
-  version: 3.14.3
-  reviews: 4257
+  updated: 2026-10-23
+  version: 3.14.6
+  reviews: 4383
   icon: com.redotpay.webp
   meta: ok
   verdict: custodial

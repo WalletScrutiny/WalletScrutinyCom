@@ -32,8 +32,8 @@ iphone:
   idd: '6444825898'
   appCountry: au
   released: 2022-12-20
-  updated: 2026-10-10
-  version: 5.3.1
+  updated: 2026-10-14
+  version: 5.3.2
   reviews: 26
   icon: au.com.bitaroo.express.webp
   meta: ok

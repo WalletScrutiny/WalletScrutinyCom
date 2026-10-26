@@ -7,8 +7,8 @@ android:
   users: 100
   appCountry: us
   released: 2025-02-08
-  updated: 2026-09-12
-  version: '1.112'
+  updated: 2026-10-20
+  version: '1.114'
   icon: com.mitilena.app.webp
   meta: fewusers
   verdict: wip
@@ -18,8 +18,8 @@ iphone:
   idd: '6443488723'
   appCountry: us
   released: 2025-02-11
-  updated: 2026-09-13
-  version: 5.1.6
+  updated: 2026-10-22
+  version: 5.1.7
   reviews: 0
   icon: com.mitilena.app.webp
   meta: ok

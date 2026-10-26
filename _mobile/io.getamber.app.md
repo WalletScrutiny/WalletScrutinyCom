@@ -20,8 +20,8 @@ android:
   users: 10000
   appCountry: us
   released: 2021-06-21
-  updated: 2026-10-13
-  version: 8.5.1
+  updated: 2026-10-19
+  version: 8.5.3
   reviews: 26
   icon: io.getamber.app.webp
   meta: ok
@@ -32,9 +32,9 @@ iphone:
   idd: '1410639317'
   appCountry: au
   released: 2021-06-21
-  updated: 2026-09-10
-  version: 8.4.2
-  reviews: 297
+  updated: 2026-10-14
+  version: 8.5.1
+  reviews: 296
   icon: io.getamber.app.webp
   meta: ok
   verdict: custodial

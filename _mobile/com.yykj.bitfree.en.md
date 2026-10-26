@@ -18,8 +18,8 @@ android:
   users: 50000
   appCountry: us
   released: 2019-01-26
-  updated: 2026-07-20
-  version: 5.6.60
+  updated: 2026-10-19
+  version: 5.6.80
   reviews: 31
   icon: com.yykj.bitfree.en.webp
   meta: ok

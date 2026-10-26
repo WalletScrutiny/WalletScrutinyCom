@@ -1,5 +1,5 @@
 ---
-title: FxWallet
+title: 'FxWallet: Crypto & Cold Wallet'
 date: 2026-07-23
 website: https://www.fxwallet.com
 appCountry: us
@@ -23,8 +23,8 @@ iphone:
   idd: '1560943983'
   appCountry: us
   released: 2021-05-05
-  updated: 2026-10-02
-  version: 3.3.0
+  updated: 2026-10-15
+  version: 3.3.1
   reviews: 29
   icon: com.fxfi.fxwallet.webp
   meta: ok

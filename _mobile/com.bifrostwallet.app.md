@@ -20,7 +20,7 @@ android:
   released: 2021-09-09
   updated: 2026-10-01
   version: 0.7.63
-  reviews: 112
+  reviews: 113
   icon: com.bifrostwallet.app.webp
   meta: ok
   verdict: nosource

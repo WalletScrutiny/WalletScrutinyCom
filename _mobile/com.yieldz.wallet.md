@@ -7,8 +7,8 @@ android:
   users: 50
   appCountry: us
   released: 2026-03-12
-  updated: 2026-10-05
-  version: 3.0.3
+  updated: 2026-10-17
+  version: 4.0.11
   icon: com.yieldz.wallet.webp
   meta: fewusers
   verdict: wip
@@ -18,8 +18,8 @@ iphone:
   idd: '6757610225'
   appCountry: us
   released: 2026-04-03
-  updated: 2026-10-02
-  version: 2.0.0
+  updated: 2026-10-19
+  version: 4.0.21
   reviews: 0
   icon: com.yieldz.wallet.webp
   meta: ok

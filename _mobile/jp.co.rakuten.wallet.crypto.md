@@ -26,7 +26,7 @@ iphone:
   released: 2019-08-31
   updated: 2026-10-14
   version: 1.7.4
-  reviews: 10046
+  reviews: 10063
   icon: jp.co.rakuten.wallet.crypto.webp
   meta: ok
   verdict: custodial

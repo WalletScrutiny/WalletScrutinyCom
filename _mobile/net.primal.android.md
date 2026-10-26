@@ -15,8 +15,8 @@ android:
   users: 50000
   appCountry: us
   released: 2024-07-09
-  updated: 2026-09-01
-  version: 3.5.27
+  updated: 2026-10-19
+  version: 3.5.28
   reviews: 35
   icon: net.primal.android.webp
   alternativeStores:
@@ -29,9 +29,9 @@ iphone:
   idd: '1673134518'
   appCountry: us
   released: 2023-12-01
-  updated: 2026-09-03
-  version: 3.5.61
-  reviews: 935
+  updated: 2026-10-20
+  version: 3.5.65
+  reviews: 936
   icon: net.primal.iosapp.Primal.webp
   meta: ok
   verdict: custodial

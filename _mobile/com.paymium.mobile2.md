@@ -30,7 +30,7 @@ iphone:
   released: 2016-01-18
   updated: 2026-07-22
   version: 19.0.0
-  reviews: 38
+  reviews: 37
   icon: com.paymium.mobile.webp
   meta: ok
   verdict: custodial

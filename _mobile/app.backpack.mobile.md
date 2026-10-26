@@ -26,7 +26,7 @@ iphone:
   released: 2023-10-26
   updated: 2026-10-13
   version: 2.89.2
-  reviews: 236
+  reviews: 239
   icon: app.backpack.mobile.webp
   meta: ok
   verdict: custodial

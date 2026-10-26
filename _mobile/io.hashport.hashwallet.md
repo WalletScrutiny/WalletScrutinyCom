@@ -24,7 +24,7 @@ iphone:
   released: 2023-10-22
   updated: 2026-10-13
   version: 3.23.1
-  reviews: 1397
+  reviews: 1398
   icon: io.hashport.hashwallet.webp
   meta: ok
   verdict: nosource

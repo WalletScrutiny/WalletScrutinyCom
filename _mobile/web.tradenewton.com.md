@@ -33,7 +33,7 @@ iphone:
   released: 2018-10-03
   updated: 2026-10-08
   version: 2.23.6
-  reviews: 24474
+  reviews: 24472
   icon: co.newton.newtonios.webp
   meta: ok
   verdict: custodial

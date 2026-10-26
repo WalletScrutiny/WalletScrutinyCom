@@ -1,5 +1,5 @@
 ---
-title: Investments - Capital·com
+title: Stocks & Investing Capital·com
 date: 2024-02-22
 authors:
 - danny
@@ -12,8 +12,8 @@ android:
   appId: com.capital.etf.trade
   users: 5000000
   appCountry: us
-  updated: 2026-10-12
-  version: 3.54.0
+  updated: 2026-10-23
+  version: 3.55.0
   reviews: 8
   icon: com.capital.etf.trade.webp
   meta: ok

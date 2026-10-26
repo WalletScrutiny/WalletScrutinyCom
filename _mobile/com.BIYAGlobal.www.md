@@ -15,8 +15,8 @@ android:
   users: 100000
   appCountry: us
   released: 2021-04-13
-  updated: 2026-10-12
-  version: 3.1.000
+  updated: 2026-10-15
+  version: 3.1.001
   reviews: 17
   icon: com.BIYAGlobal.www.webp
   meta: ok
@@ -27,8 +27,8 @@ iphone:
   idd: '1546702297'
   appCountry: sn
   released: 2021-02-09
-  updated: 2026-10-13
-  version: 3.1.000
+  updated: 2026-10-16
+  version: 3.1.001
   reviews: 0
   icon: com.BiyaGlobal.Biya.webp
   meta: ok

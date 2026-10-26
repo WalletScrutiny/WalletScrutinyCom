@@ -24,8 +24,8 @@ android:
   users: 50000
   appCountry: us
   released: 2021-10-18
-  updated: 2026-09-27
-  version: 17.0.1
+  updated: 2026-10-26
+  version: 17.0.2
   reviews: 3
   icon: com.independentreserve.mobileapp.webp
   meta: ok
@@ -38,7 +38,7 @@ iphone:
   released: 2021-10-18
   updated: 2026-09-27
   version: 17.0.1
-  reviews: 2287
+  reviews: 2286
   icon: com.independentreserve.mobileapp.webp
   meta: ok
   verdict: custodial

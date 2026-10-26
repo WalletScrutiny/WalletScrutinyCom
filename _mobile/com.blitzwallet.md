@@ -21,8 +21,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-09-29
-  updated: 2026-08-29
-  version: 0.7.15
+  updated: 2026-10-15
+  version: 0.7.16
   icon: com.blitzwallet.webp
   alternativeStores:
   - zapstore

@@ -34,9 +34,9 @@ iphone:
   idd: '340408565'
   appCountry: ch
   released: 2009-12-09
-  updated: 2026-02-09
-  version: 3.45.0
-  reviews: 697
+  updated: 2026-10-19
+  version: 3.46.0
+  reviews: 701
   icon: com.acm.Mobile-Trader.webp
   meta: ok
   verdict: custodial

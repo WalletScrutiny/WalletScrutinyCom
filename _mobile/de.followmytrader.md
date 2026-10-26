@@ -33,7 +33,7 @@ iphone:
   version: 3.6.0
   reviews: 0
   icon: de.followmytrader.webp
-  meta: stale
+  meta: removed
   verdict: custodial
   developerName: FELS Group GmbH
 

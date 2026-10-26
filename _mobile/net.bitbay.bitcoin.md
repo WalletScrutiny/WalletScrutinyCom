@@ -34,7 +34,7 @@ iphone:
   version: 1.4.16
   reviews: 3
   icon: com.bitbay.BitBayTrading.webp
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: BitBay Sp. z o.o.
 

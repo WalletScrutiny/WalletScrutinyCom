@@ -24,8 +24,8 @@ android:
   users: 10000
   appCountry: US
   released: 2024-02-28
-  updated: 2026-10-08
-  version: 2026.16.0 (1)
+  updated: 2026-10-16
+  version: 2026.16.1 (3)
   reviews: 32
   icon: world.bitkey.app.webp
   signer: c0d0f9da7158cde788d0281e9ebd07034178165584d635f7ce17f77c037d961a
@@ -42,9 +42,9 @@ iphone:
   idd: '6476990471'
   appCountry: us
   released: 2024-03-13
-  updated: 2026-10-13
-  version: 2026.16.0
-  reviews: 137
+  updated: 2026-10-20
+  version: 2026.16.1
+  reviews: 138
   icon: world.bitkey.app.webp
   meta: ok
   verdict: sourceavailable

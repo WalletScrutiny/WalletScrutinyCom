@@ -24,9 +24,9 @@ android:
   users: 500000
   appCountry: us
   released: 2017-04-25
-  updated: 2026-08-28
+  updated: 2026-10-23
   version: '55.11'
-  reviews: 239
+  reviews: 241
   icon: io.muun.apollo.webp
   signer: 026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1
   builds:

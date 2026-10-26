@@ -27,9 +27,9 @@ android:
   users: 10000
   appCountry: us
   released: 2021-11-11
-  updated: 2026-10-13
-  version: 2.9.1
-  reviews: 46
+  updated: 2026-10-24
+  version: 2.9.2
+  reviews: 47
   icon: io.nunchuk.android.webp
   signer: 79b1cd71de5f19c6236d4e3ef134b5b691cf051a138944bda01b640b3e9b1d42
   alternativeStores:
@@ -43,9 +43,9 @@ iphone:
   idd: 1563190073
   appCountry: us
   released: 2021-12-16
-  updated: 2026-10-13
-  version: 2.9.1
-  reviews: 580
+  updated: 2026-10-24
+  version: 2.9.3
+  reviews: 582
   icon: io.nunchuk.ios.webp
   meta: ok
   verdict: nosource

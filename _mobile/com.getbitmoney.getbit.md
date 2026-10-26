@@ -16,8 +16,8 @@ android:
   users: 1000
   appCountry: us
   released: 2023-01-16
-  updated: 2026-09-22
-  version: 2.00.76
+  updated: 2026-10-21
+  version: 2.00.77
   icon: com.getbitmoney.getbit.webp
   meta: ok
   verdict: custodial
@@ -27,8 +27,8 @@ iphone:
   idd: '6748333458'
   appCountry: in
   released: 2025-09-08
-  updated: 2026-09-02
-  version: 2.0.75
+  updated: 2026-10-21
+  version: 2.0.77
   reviews: 15
   icon: in.getbitmoney.getbit.webp
   meta: ok

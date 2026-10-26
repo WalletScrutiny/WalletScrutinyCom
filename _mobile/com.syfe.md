@@ -19,8 +19,8 @@ android:
   users: 100000
   appCountry: us
   released: 2020-02-13
-  updated: 2026-10-09
-  version: 17.6.0
+  updated: 2026-10-23
+  version: 17.7.0
   reviews: 5
   icon: com.syfe.webp
   meta: ok
@@ -31,9 +31,9 @@ iphone:
   idd: '1497156434'
   appCountry: sg
   released: 2020-02-24
-  updated: 2026-10-12
-  version: 17.6.0
-  reviews: 671
+  updated: 2026-10-26
+  version: 17.8.0
+  reviews: 722
   icon: com.syfe.webp
   meta: ok
   verdict: nosendreceive

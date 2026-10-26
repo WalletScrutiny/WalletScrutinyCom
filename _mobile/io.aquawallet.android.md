@@ -27,7 +27,7 @@ android:
   released: 2024-01-02
   updated: 2026-09-29
   version: 0.5.4
-  reviews: 21
+  reviews: 22
   icon: io.aquawallet.android.webp
   alternativeStores:
   - zapstore
@@ -42,7 +42,7 @@ iphone:
   released: 2024-01-03
   updated: 2026-10-01
   version: 0.5.4
-  reviews: 77
+  reviews: 78
   icon: io.aquawallet.ios.webp
   meta: ok
   verdict: nosource

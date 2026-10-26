@@ -29,7 +29,7 @@ android:
   released: 2022-04-01
   updated: 2026-09-30
   version: 2.3.5
-  reviews: 6
+  reviews: 7
   icon: com.foundationdevices.envoy.webp
   alternativeStores:
   - zapstore

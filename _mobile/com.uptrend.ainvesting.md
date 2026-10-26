@@ -14,10 +14,10 @@ android:
   appId: com.uptrend.ainvesting
   users: 5000
   appCountry: us
-  updated: 2024-12-21
-  version: 7.0.32
+  updated: 2026-10-13
+  version: 7.2.3
   icon: com.uptrend.ainvesting.webp
-  meta: stale
+  meta: ok
   verdict: nosendreceive
   developerName: Up Trend LTD
 

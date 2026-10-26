@@ -9,8 +9,8 @@ android:
   users: 500
   appCountry: us
   released: 2021-05-16
-  updated: 2026-06-07
-  version: 0.9.5
+  updated: 2026-10-22
+  version: 0.9.7
   icon: com.gleec.gleecdex.webp
   meta: fewusers
   verdict: wip

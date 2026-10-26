@@ -19,9 +19,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2015-01-23
-  updated: 2026-10-02
-  version: '4.61'
-  reviews: 2176
+  updated: 2026-10-16
+  version: '4.62'
+  reviews: 2175
   icon: de.number26.android.webp
   meta: ok
   verdict: custodial
@@ -31,9 +31,9 @@ iphone:
   idd: '956857223'
   appCountry: us
   released: 2015-02-04
-  updated: 2026-10-06
-  version: '4.61'
-  reviews: 12031
+  updated: 2026-10-21
+  version: '4.62'
+  reviews: 12085
   icon: de.no26.Number26.webp
   meta: ok
   verdict: custodial

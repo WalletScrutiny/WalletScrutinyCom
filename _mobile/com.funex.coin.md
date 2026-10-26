@@ -22,7 +22,7 @@ android:
   updated: 2025-10-30
   version: 1.0.37
   icon: com.funex.coin.webp
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: Funex Coin
 iphone:

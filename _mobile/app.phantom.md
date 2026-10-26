@@ -23,9 +23,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2022-04-12
-  updated: 2026-10-08
-  version: 26.32.0
-  reviews: 2388
+  updated: 2026-10-21
+  version: 26.34.1
+  reviews: 2394
   icon: app.phantom.webp
   meta: ok
   verdict: nosource
@@ -35,9 +35,9 @@ iphone:
   idd: '1598432977'
   appCountry: us
   released: 2022-01-30
-  updated: 2026-10-07
-  version: 26.32.0
-  reviews: 64247
+  updated: 2026-10-20
+  version: 26.34.0
+  reviews: 64248
   icon: app.phantom.webp
   meta: ok
   verdict: nosource

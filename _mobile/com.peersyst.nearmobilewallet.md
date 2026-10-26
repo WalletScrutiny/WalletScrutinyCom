@@ -20,7 +20,7 @@ android:
   released: 2023-02-21
   updated: 2026-10-12
   version: 4.0.1
-  reviews: 1366
+  reviews: 1368
   icon: com.peersyst.nearmobilewallet.webp
   meta: ok
   verdict: custodial
@@ -30,9 +30,9 @@ iphone:
   idd: '6443501225'
   appCountry: us
   released: 2023-03-20
-  updated: 2026-07-20
-  version: 3.11.0
-  reviews: 840
+  updated: 2026-10-19
+  version: 4.0.0
+  reviews: 843
   icon: com.peersyst.nearmobilewallet.webp
   meta: ok
   verdict: custodial

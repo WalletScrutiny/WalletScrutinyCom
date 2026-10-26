@@ -27,9 +27,9 @@ android:
   users: 5000000
   appCountry: us
   released: 2020-05-11
-  updated: 2026-10-09
-  version: 3.0.2
-  reviews: 3833
+  updated: 2026-10-23
+  version: 3.1.0
+  reviews: 3839
   icon: com.defi.wallet.webp
   meta: ok
   verdict: nosource
@@ -39,9 +39,9 @@ iphone:
   idd: 1512048310
   appCountry: us
   released: 2020-05-20
-  updated: 2026-10-12
-  version: 3.0.2
-  reviews: 22496
+  updated: 2026-10-26
+  version: 3.1.0
+  reviews: 22589
   icon: com.defi.wallet.webp
   meta: ok
   verdict: nosource

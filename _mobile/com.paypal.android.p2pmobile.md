@@ -19,9 +19,9 @@ android:
   users: 500000000
   appCountry: us
   released: 2016-02-19
-  updated: 2026-10-09
-  version: 10.16.0
-  reviews: 442740
+  updated: 2026-10-16
+  version: 10.18.0
+  reviews: 443100
   icon: com.paypal.android.p2pmobile.webp
   meta: ok
   verdict: nosendreceive
@@ -31,9 +31,9 @@ iphone:
   idd: 283646709
   appCountry: us
   released: 2019-02-03
-  updated: 2026-10-02
-  version: 10.5.2
-  reviews: 6298938
+  updated: 2026-10-22
+  version: 10.8.1
+  reviews: 6299180
   icon: com.yourcompany.PPClient.webp
   meta: ok
   verdict: nosendreceive

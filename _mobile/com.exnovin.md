@@ -15,8 +15,8 @@ android:
   users: 100000
   appCountry: us
   released: 2018-07-06
-  updated: 2025-12-15
-  version: 2.6.9
+  updated: 2026-10-20
+  version: 2.7.6
   reviews: 71
   icon: com.exnovin.webp
   meta: ok

@@ -11,7 +11,7 @@ android:
   updated: 2024-03-06
   version: 3.5.15
   icon: com.goldbitpro.wallet.webp
-  meta: obsolete
+  meta: removed
   verdict: wip
   developerName: BSTYLE TECHNOLOGY INC.
 

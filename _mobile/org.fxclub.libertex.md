@@ -15,9 +15,9 @@ android:
   users: 10000000
   appCountry: cl
   released: 2015-05-22
-  updated: 2026-10-13
-  version: 2.61.0
-  reviews: 1270
+  updated: 2026-10-21
+  version: 2.62.0
+  reviews: 1271
   icon: org.fxclub.libertex.webp
   meta: ok
   verdict: nosendreceive

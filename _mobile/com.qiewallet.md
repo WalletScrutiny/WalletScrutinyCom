@@ -10,11 +10,11 @@ redirect_from:
 - /iphone/org.reactjs.native.QIEWallet/
 android:
   appId: com.qiewallet
-  users: 1000
+  users: 5000
   appCountry: us
   released: 2023-06-20
-  updated: 2026-10-07
-  version: 0.3.78
+  updated: 2026-10-16
+  version: 0.3.79
   icon: com.qiewallet.webp
   meta: ok
   verdict: nosource
@@ -24,8 +24,8 @@ iphone:
   idd: '6445826746'
   appCountry: us
   released: 2024-05-31
-  updated: 2026-10-07
-  version: 2.8.3
+  updated: 2026-10-17
+  version: 2.8.4
   reviews: 1
   icon: org.reactjs.native.QIEWallet.webp
   meta: ok

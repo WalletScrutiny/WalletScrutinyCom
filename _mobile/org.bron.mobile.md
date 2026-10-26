@@ -9,7 +9,7 @@ android:
   appId: org.bron.mobile
   users: 1000
   appCountry: us
-  released: Mar 10, 2026
+  released: 2026-03-10
   updated: 2026-10-18
   version: 1.1.538
   reviews: 6
@@ -21,10 +21,10 @@ iphone:
   appId: org.bron.mobile
   idd: '6757437880'
   appCountry: us
-  released: '2026-05-18T07:00:00Z'
+  released: 2026-05-18
   updated: 2026-10-17
   version: 1.1.538
-  reviews: 35
+  reviews: 36
   icon: org.bron.mobile.webp
   meta: ok
   verdict: custodial

@@ -32,7 +32,7 @@ iphone:
   version: 1.0.5
   reviews: 21
   icon: com.rezor.webp
-  meta: ok
+  meta: removed
   verdict: nosource
   developerName: rezor foundation
 

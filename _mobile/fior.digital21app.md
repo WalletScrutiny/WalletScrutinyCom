@@ -17,7 +17,7 @@ android:
   appId: fior.digital21app
   users: 10000
   appCountry: us
-  updated: 2026-10-06
+  updated: 2026-10-21
   version: 2.2.20
   icon: fior.digital21app.webp
   meta: ok

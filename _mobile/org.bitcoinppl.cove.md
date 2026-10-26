@@ -28,7 +28,7 @@ iphone:
   released: 2025-06-11
   updated: 2026-07-16
   version: 1.3.0
-  reviews: 23
+  reviews: 24
   icon: org.bitcoinppl.cove.webp
   meta: ok
   verdict: wip

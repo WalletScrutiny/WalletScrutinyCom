@@ -34,7 +34,7 @@ iphone:
   version: 2026.0909.1
   reviews: 25
   icon: com.cointree.mobileapp.webp
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Cointree
 

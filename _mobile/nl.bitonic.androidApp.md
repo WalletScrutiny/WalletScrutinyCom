@@ -29,7 +29,7 @@ iphone:
   released: 2020-05-17
   updated: 2026-10-07
   version: 3.28.6
-  reviews: 2586
+  reviews: 2588
   icon: nl.bitonic.Bitonic.webp
   meta: ok
   verdict: custodial

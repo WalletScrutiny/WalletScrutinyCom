@@ -17,8 +17,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2012-03-26
-  updated: 2026-09-18
-  version: 5.9.9
+  updated: 2026-10-15
+  version: 5.9.91
   reviews: 64
   icon: de.finanzen.net.webp
   meta: ok

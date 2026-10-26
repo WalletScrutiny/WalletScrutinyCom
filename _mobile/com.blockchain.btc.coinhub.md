@@ -14,7 +14,7 @@ android:
   version: 1.5.5
   reviews: 87
   icon: com.blockchain.btc.coinhub.webp
-  meta: ok
+  meta: stale
   verdict: fake
   developerName: TwiX
   repository: https://github.com/hoanghiephui/unstoppable-wallet-android

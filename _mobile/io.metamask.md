@@ -24,9 +24,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2020-09-01
-  updated: 2026-09-29
-  version: 8.12.0
-  reviews: 6755
+  updated: 2026-10-14
+  version: 8.15.0
+  reviews: 6767
   icon: io.metamask.webp
   alternativeStores:
   - zapstore
@@ -39,9 +39,9 @@ iphone:
   idd: 1438144202
   appCountry: us
   released: 2020-09-03
-  updated: 2026-09-29
-  version: 8.13.0
-  reviews: 76477
+  updated: 2026-10-20
+  version: 8.16.0
+  reviews: 76590
   icon: io.metamask.MetaMask.webp
   meta: ok
   verdict: sourceavailable

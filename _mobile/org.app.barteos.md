@@ -14,7 +14,7 @@ android:
   icon: org.app.barteos.webp
   meta: obsolete
   verdict: wip
-  developerName: BTE AUSTRALIA
+  developerName: MAILPOST PTY LTD
 
 ---
 

@@ -17,8 +17,8 @@ android:
   appId: com.safello.androidsapp
   users: 50000
   appCountry: us
-  updated: 2026-09-10
-  version: 2.1.2
+  updated: 2026-10-19
+  version: 2.2.3
   icon: com.safello.androidsapp.webp
   meta: ok
   verdict: custodial
@@ -28,9 +28,9 @@ iphone:
   idd: '1514429922'
   appCountry: se
   released: 2020-06-18
-  updated: 2026-09-17
-  version: 2.1.3
-  reviews: 3299
+  updated: 2026-10-20
+  version: 2.2.3
+  reviews: 3301
   icon: com.safello.iosapp.webp
   meta: ok
   verdict: custodial

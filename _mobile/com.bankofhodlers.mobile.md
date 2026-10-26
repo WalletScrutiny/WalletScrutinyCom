@@ -22,7 +22,7 @@ android:
   version: 3.0.7
   reviews: 88
   icon: com.bankofhodlers.mobile.webp
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: VauldGoogleDeveloper
 iphone:

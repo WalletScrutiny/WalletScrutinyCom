@@ -19,7 +19,7 @@ android:
   users: 100000
   appCountry: us
   updated: 2026-10-09
-  version: 2026.40.1
+  version: 2026.41.2
   icon: com.robinhood.global.webp
   meta: ok
   verdict: custodial
@@ -29,8 +29,8 @@ iphone:
   idd: '6467049008'
   appCountry: pl
   released: 2023-12-06
-  updated: 2026-10-13
-  version: 2026.42.0
+  updated: 2026-10-21
+  version: 2026.43.0
   reviews: 320
   icon: com.robinhood.release.RobinhoodGlobal.webp
   meta: ok

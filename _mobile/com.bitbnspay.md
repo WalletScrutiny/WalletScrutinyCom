@@ -16,10 +16,10 @@ android:
   appId: com.bitbnspay
   users: 1000000
   appCountry: us
-  updated: 2023-11-23
-  version: 1.9.1
+  updated: 2026-10-15
+  version: 1.10.0
   icon: com.bitbnspay.webp
-  meta: obsolete
+  meta: ok
   verdict: custodial
   developerName: Bitbns Cryptocurrency Trading Exchange India
 iphone:

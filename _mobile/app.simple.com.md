@@ -18,9 +18,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2023-04-24
-  updated: 2026-10-08
-  version: 3.29.9
-  reviews: 1860
+  updated: 2026-10-14
+  version: 3.30.0
+  reviews: 1861
   icon: app.simple.com.webp
   meta: ok
   verdict: custodial

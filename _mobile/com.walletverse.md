@@ -25,8 +25,8 @@ android:
   users: 10000
   appCountry: us
   released: 2023-06-29
-  updated: 2026-09-24
-  version: 1.18.4
+  updated: 2026-10-13
+  version: 1.18.7
   reviews: 21
   icon: com.walletverse.webp
   meta: ok
@@ -37,9 +37,9 @@ iphone:
   idd: '6462672660'
   appCountry: us
   released: 2023-10-15
-  updated: 2026-09-29
-  version: 1.18.4
-  reviews: 43
+  updated: 2026-10-16
+  version: 1.18.7
+  reviews: 42
   icon: ilink.walletverse.webp
   meta: ok
   verdict: nosource

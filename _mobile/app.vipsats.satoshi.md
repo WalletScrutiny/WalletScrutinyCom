@@ -29,7 +29,7 @@ iphone:
   version: 1.4.2
   reviews: 0
   icon: app.vipsats.satos.webp
-  meta: stale
+  meta: obsolete
   verdict: wip
   developerName: VIPSATS.APP
 

@@ -14,7 +14,7 @@ android:
   users: 100000
   appCountry: us
   released: 2020-06-14
-  updated: 2026-07-19
+  updated: 2026-10-25
   version: 3.1.7
   reviews: 277
   icon: i.brains.pandax.webp
@@ -26,9 +26,9 @@ iphone:
   idd: '1563046132'
   appCountry: us
   released: 2021-04-20
-  updated: 2026-07-25
-  version: 1.9.12
-  reviews: 4727
+  updated: 2026-10-25
+  version: 1.9.13
+  reviews: 4737
   icon: ng.pandar.resource.webp
   meta: ok
   verdict: nosendreceive

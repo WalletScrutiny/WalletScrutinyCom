@@ -32,7 +32,7 @@ iphone:
   released: 2018-06-07
   updated: 2026-09-30
   version: 2.23.0
-  reviews: 1134
+  reviews: 1144
   icon: im.token.app.webp
   meta: ok
   verdict: nosource

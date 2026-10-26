@@ -19,8 +19,8 @@ android:
   users: 5000000
   appCountry: us
   released: 2014-12-23
-  updated: 2026-10-09
-  version: 4.01.01
+  updated: 2026-10-15
+  version: 4.01.02
   reviews: 88
   icon: zebpay.Application.webp
   meta: ok

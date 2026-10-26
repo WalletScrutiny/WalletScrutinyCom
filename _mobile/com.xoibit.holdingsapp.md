@@ -11,8 +11,8 @@ android:
   users: 10000
   appCountry: us
   released: 2025-07-05
-  updated: 2026-07-23
-  version: 1.0.19
+  updated: 2026-10-16
+  version: 1.0.20
   icon: com.xoibit.holdingsapp.webp
   meta: ok
   verdict: custodial

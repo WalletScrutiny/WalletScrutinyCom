@@ -19,8 +19,8 @@ android:
   users: 100000
   appCountry: us
   released: 2022-08-17
-  updated: 2026-09-27
-  version: 3.38.1
+  updated: 2026-10-14
+  version: 3.39.0
   reviews: 8
   icon: com.cointr.webp
   meta: ok

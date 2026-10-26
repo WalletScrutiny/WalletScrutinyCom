@@ -13,7 +13,7 @@ android:
   updated: 2023-03-28
   version: 2023.03.27
   icon: com.sdb.app.webp
-  meta: obsolete
+  meta: removed
   verdict: custodial
   developerName: Milepost Power Holdings, LLC
 

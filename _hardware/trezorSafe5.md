@@ -7,8 +7,8 @@ authors:
 - keraliss
 released: 2024-06-14
 discontinued: 
-updated: 2026-09-15
-version: 2.12.5
+updated: 2026-10-20
+version: 2.13.0
 binaries: https://data.trezor.io/firmware/t3t1/trezor-t3t1-2.8.3.bin
 dimensions:
 - 66

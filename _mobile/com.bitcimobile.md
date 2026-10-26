@@ -19,8 +19,8 @@ android:
   users: 100000
   appCountry: us
   released: 2020-03-30
-  updated: 2026-10-05
-  version: 23.0.13
+  updated: 2026-10-14
+  version: 23.0.14
   reviews: 14
   icon: com.bitcimobile.webp
   meta: ok
@@ -31,9 +31,9 @@ iphone:
   idd: '1459044769'
   appCountry: tr
   released: 2019-04-17
-  updated: 2026-10-06
-  version: 23.0.13
-  reviews: 1385
+  updated: 2026-10-16
+  version: 23.0.14
+  reviews: 1386
   icon: com.bitcimobil.com.webp
   meta: ok
   verdict: custodial

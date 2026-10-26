@@ -17,8 +17,8 @@ android:
   appId: com.galias.coinrivet
   users: 1000
   appCountry: us
-  updated: 2026-10-02
-  version: 1.5.5.1253
+  updated: 2026-10-12
+  version: 1.5.6.1254
   icon: com.galias.coinrivet.webp
   meta: ok
   verdict: custodial

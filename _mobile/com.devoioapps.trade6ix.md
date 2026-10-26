@@ -12,7 +12,7 @@ android:
   updated: 2022-05-31
   version: '1.5'
   icon: com.devoioapps.trade6ix.webp
-  meta: obsolete
+  meta: removed
   verdict: wip
   developerName: DEVOIO GmbH
 

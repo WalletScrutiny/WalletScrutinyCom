@@ -18,8 +18,8 @@ android:
   users: 100000
   appCountry: au
   released: 2019-11-21
-  updated: 2026-10-12
-  version: 3.69.0
+  updated: 2026-10-21
+  version: 3.72.0
   reviews: 1188
   icon: com.coinjar.riemann.webp
   meta: ok
@@ -30,9 +30,9 @@ iphone:
   idd: 958797429
   appCountry: au
   released: 2015-02-04
-  updated: 2026-09-15
-  version: 3.68.0
-  reviews: 15264
+  updated: 2026-10-23
+  version: 3.72.1
+  reviews: 15269
   icon: com.coinjar.mobius.webp
   meta: ok
   verdict: custodial

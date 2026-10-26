@@ -20,9 +20,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2021-04-14
-  updated: 2026-10-10
-  version: 5.34.0
-  reviews: 262
+  updated: 2026-10-22
+  version: 5.35.0
+  reviews: 263
   icon: com.app.xt.webp
   meta: ok
   verdict: custodial
@@ -32,9 +32,9 @@ iphone:
   idd: '1556596708'
   appCountry: us
   released: 2021-03-08
-  updated: 2026-10-12
-  version: 5.34.0
-  reviews: 1369
+  updated: 2026-10-26
+  version: 5.35.0
+  reviews: 1368
   icon: com.xt.app.webp
   meta: ok
   verdict: custodial

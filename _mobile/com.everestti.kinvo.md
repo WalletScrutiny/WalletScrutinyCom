@@ -20,9 +20,9 @@ android:
   users: 1000000
   appCountry: BR
   released: 2017-12-22
-  updated: 2026-10-07
-  version: 3.68.0
-  reviews: 7579
+  updated: 2026-10-22
+  version: 3.69.0
+  reviews: 7580
   icon: com.everestti.kinvo.webp
   meta: ok
   verdict: nosendreceive
@@ -32,8 +32,8 @@ iphone:
   idd: '1327335329'
   appCountry: BR
   released: 2018-01-03
-  updated: 2026-10-08
-  version: 3.68.0
+  updated: 2026-10-23
+  version: 3.69.0
   reviews: 19181
   icon: com.everest.kinvo.webp
   meta: ok

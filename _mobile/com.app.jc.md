@@ -27,7 +27,7 @@ iphone:
   released: 2025-08-06
   updated: 2026-07-29
   version: 3.3.20
-  reviews: 29
+  reviews: 28
   icon: io.jubit.pro.webp
   meta: ok
   verdict: custodial

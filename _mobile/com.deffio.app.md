@@ -14,8 +14,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-03-14
-  updated: 2026-10-02
-  version: 1.9.1
+  updated: 2026-10-22
+  version: 1.9.2
   icon: com.deffio.app.webp
   meta: ok
   verdict: nosource
@@ -25,8 +25,8 @@ iphone:
   idd: '6743933039'
   appCountry: ua
   released: 2025-07-14
-  updated: 2026-10-02
-  version: 1.9.1
+  updated: 2026-10-22
+  version: 1.9.2
   reviews: 23
   icon: com.deffio.app.webp
   meta: ok

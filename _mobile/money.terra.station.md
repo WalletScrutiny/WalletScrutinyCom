@@ -19,7 +19,7 @@ android:
   released: 2021-02-15
   updated: 2026-07-17
   version: 6.1.0
-  reviews: 195
+  reviews: 196
   icon: money.terra.station.webp
   meta: ok
   verdict: nosource

@@ -20,7 +20,7 @@ android:
   version: 2.0.1
   reviews: 6
   icon: com.plusblocks.boxtradex.webp
-  meta: stale
+  meta: obsolete
   verdict: custodial
   developerName: PlusBlocks Technology Ltd.
 iphone:

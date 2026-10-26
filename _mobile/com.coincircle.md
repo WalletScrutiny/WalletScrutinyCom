@@ -32,7 +32,7 @@ iphone:
   released: 2021-04-02
   updated: 2022-01-21
   version: 1.1.1
-  reviews: 630
+  reviews: 629
   icon: com.coincircle.app.webp
   meta: obsolete
   verdict: nosource

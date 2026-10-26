@@ -18,8 +18,8 @@ android:
   users: 5000
   appCountry: us
   released: 2022-11-13
-  updated: 2026-08-14
-  version: 12.5.0
+  updated: 2026-10-21
+  version: 12.6.0
   reviews: 8
   icon: finance.hollox.app.webp
   meta: ok
@@ -30,8 +30,8 @@ iphone:
   idd: '6444396340'
   appCountry: us
   released: 2022-11-21
-  updated: 2026-08-25
-  version: 12.5.0
+  updated: 2026-10-22
+  version: 12.6.0
   reviews: 31
   icon: finance.hollox.webp
   meta: ok

@@ -30,9 +30,9 @@ iphone:
   idd: '6483944320'
   appCountry: us
   released: 2024-07-28
-  updated: 2026-10-12
-  version: 1.26.1
-  reviews: 238
+  updated: 2026-10-15
+  version: 1.26.6
+  reviews: 252
   icon: com.ourbit.www.webp
   meta: ok
   verdict: custodial

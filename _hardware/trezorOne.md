@@ -6,8 +6,8 @@ authors:
 - Mohammad
 released: 2014-07-29
 discontinued: 
-updated: 2026-03-02
-version: 1.14.1
+updated: 2026-10-20
+version: 1.14.2
 binaries: https://github.com/trezor/webwallet-data/tree/master/firmware/1
 dimensions:
 - 60

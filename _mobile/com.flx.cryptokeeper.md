@@ -18,7 +18,7 @@ android:
   version: 3.0.0
   reviews: 11
   icon: com.flx.cryptokeeper.webp
-  meta: stale
+  meta: removed
   verdict: custodial
   developerName: Crypto Keeper LLC
 iphone:
@@ -28,7 +28,7 @@ iphone:
   released: 2025-07-22
   updated: 2026-02-21
   version: 6.0.0
-  reviews: 82
+  reviews: 84
   icon: com.flx.cryptokeeper.webp
   meta: ok
   verdict: custodial

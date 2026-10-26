@@ -15,8 +15,8 @@ android:
   appId: com.maxwallet.cc
   users: 10000
   appCountry: us
-  updated: 2026-09-28
-  version: 1.6.0
+  updated: 2026-10-22
+  version: 1.6.1
   icon: com.maxwallet.cc.webp
   meta: ok
   verdict: nosource
@@ -26,8 +26,8 @@ iphone:
   idd: '6670610349'
   appCountry: ru
   released: 2025-01-06
-  updated: 2026-09-24
-  version: 1.6.0 (2)
+  updated: 2026-10-23
+  version: 1.6.1 (2)
   reviews: 96
   icon: com.maxwallet.cc.webp
   meta: ok

@@ -17,7 +17,7 @@ android:
   released: 2023-02-26
   updated: 2025-12-16
   version: 3.12.13
-  reviews: 10
+  reviews: 11
   icon: io.ts.converter.webp
   meta: ok
   verdict: nosendreceive

@@ -20,9 +20,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-09-06
-  updated: 2026-10-08
-  version: 3.267.0
-  reviews: 9586
+  updated: 2026-10-23
+  version: 3.270.0
+  reviews: 9596
   icon: com.public.app.webp
   meta: ok
   verdict: nosendreceive
@@ -32,9 +32,9 @@ iphone:
   idd: '1204112719'
   appCountry: us
   released: 2017-03-13
-  updated: 2026-10-08
-  version: 5.7.0
-  reviews: 85436
+  updated: 2026-10-24
+  version: 5.11.0
+  reviews: 85585
   icon: com.t3securities.matador.webp
   meta: ok
   verdict: nosendreceive

@@ -20,7 +20,7 @@ android:
   released: 2023-09-27
   updated: 2026-02-17
   version: 1.20.0
-  reviews: 235
+  reviews: 234
   icon: com.crypto.ab.wallet.app.webp
   meta: ok
   verdict: nosource
@@ -32,7 +32,7 @@ iphone:
   released: 2023-12-05
   updated: 2026-08-11
   version: 1.21.0
-  reviews: 206
+  reviews: 204
   icon: com.ab.crypto.wallet.app.webp
   meta: ok
   verdict: nosource

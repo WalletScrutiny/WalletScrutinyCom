@@ -17,7 +17,7 @@ android:
   released: 2019-07-30
   updated: 2026-07-01
   version: 3.2.2
-  reviews: 538
+  reviews: 540
   icon: rsv.walletapp.reserve.webp
   meta: ok
   verdict: custodial

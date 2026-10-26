@@ -1,6 +1,6 @@
 ---
 wsId: ventAfrica
-title: 'Vent: Sell BTC, USDT & Crypto'
+title: 'Vent: Sell Crypto & Buy USDT'
 date: 2023-06-10
 authors:
 - danny
@@ -17,8 +17,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-01-26
-  updated: 2026-10-07
-  version: 2.0.16
+  updated: 2026-10-17
+  version: 2.0.18
   reviews: 10
   icon: com.vent.app.webp
   meta: ok

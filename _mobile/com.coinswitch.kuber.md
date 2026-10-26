@@ -18,9 +18,9 @@ android:
   users: 10000000
   appCountry: in
   released: 2020-05-31
-  updated: 2026-10-09
-  version: 9.6.0
-  reviews: 149779
+  updated: 2026-10-21
+  version: 9.6.1
+  reviews: 149894
   icon: com.coinswitch.kuber.webp
   meta: ok
   verdict: nosendreceive
@@ -30,9 +30,9 @@ iphone:
   idd: 1540214951
   appCountry: in
   released: 2020-12-01
-  updated: 2026-09-26
-  version: 9.5.8
-  reviews: 61472
+  updated: 2026-10-23
+  version: 10.0.0
+  reviews: 61517
   icon: com.coinswitch.kuber.webp
   meta: ok
   verdict: nosendreceive

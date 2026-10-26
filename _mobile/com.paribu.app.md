@@ -19,8 +19,8 @@ android:
   users: 5000000
   appCountry: us
   released: 2019-06-14
-  updated: 2026-10-08
-  version: 6.2.1
+  updated: 2026-10-13
+  version: 6.2.3
   reviews: 116
   icon: com.paribu.app.webp
   meta: ok
@@ -31,9 +31,9 @@ iphone:
   idd: 1448200352
   appCountry: us
   released: 2019-05-29
-  updated: 2026-10-09
-  version: 6.2.1
-  reviews: 327
+  updated: 2026-10-14
+  version: 6.2.3
+  reviews: 328
   icon: com.codevist.paribu.webp
   meta: ok
   verdict: custodial

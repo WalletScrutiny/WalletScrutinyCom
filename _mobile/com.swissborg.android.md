@@ -32,7 +32,7 @@ iphone:
   released: 2020-03-31
   updated: 2026-10-13
   version: 1.147.0
-  reviews: 2747
+  reviews: 2760
   icon: com.swissborg.ios.webp
   meta: ok
   verdict: custodial

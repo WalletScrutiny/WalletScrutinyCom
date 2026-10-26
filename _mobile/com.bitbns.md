@@ -21,7 +21,7 @@ android:
   released: 2019-09-21
   updated: 2026-04-06
   version: 6.21.0
-  reviews: 44
+  reviews: 45
   icon: com.bitbns.webp
   meta: ok
   verdict: custodial

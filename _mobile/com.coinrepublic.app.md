@@ -16,7 +16,7 @@ android:
   updated: 2026-06-11
   version: 4.1.4
   icon: com.coinrepublic.app.webp
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Coin Republic Pty Ltd
 iphone:

@@ -12,7 +12,7 @@ android:
   users: 100000
   appCountry: us
   released: 2025-01-13
-  updated: 2026-10-09
+  updated: 2026-10-16
   version: 5.20.0
   icon: com.coinhouse.webp
   meta: ok

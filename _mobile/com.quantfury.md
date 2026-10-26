@@ -26,9 +26,9 @@ iphone:
   idd: 1445564443
   appCountry: br
   released: 2018-12-15
-  updated: 2026-10-01
-  version: 1.98.1
-  reviews: 85
+  updated: 2026-10-23
+  version: 1.99.0
+  reviews: 88
   icon: com.quantfury.webp
   meta: ok
   verdict: custodial

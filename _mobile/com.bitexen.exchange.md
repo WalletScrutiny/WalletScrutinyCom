@@ -18,7 +18,7 @@ android:
   appCountry: us
   released: 2018-05-27
   updated: 2026-10-08
-  version: '1.42'
+  version: '1.43'
   reviews: 45
   icon: com.bitexen.exchange.webp
   meta: ok

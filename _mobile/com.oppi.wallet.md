@@ -20,8 +20,8 @@ android:
   users: 10000
   appCountry: us
   released: 2024-05-13
-  updated: 2026-10-09
-  version: 1.0.125
+  updated: 2026-10-20
+  version: 1.0.126
   reviews: 12
   icon: com.oppi.wallet.webp
   meta: ok
@@ -32,8 +32,8 @@ iphone:
   idd: '6502544148'
   appCountry: us
   released: 2024-08-12
-  updated: 2026-09-01
-  version: 1.0.121
+  updated: 2026-10-23
+  version: 1.0.126
   reviews: 16
   icon: com.oppi.wallet.webp
   meta: ok

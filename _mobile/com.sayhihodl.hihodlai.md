@@ -10,7 +10,7 @@ redirect_from:
 - /mobile/com.sayhihodl.hihodlyes/
 android:
   appId: com.sayhihodl.hihodlai
-  users: 10
+  users: 50
   appCountry: us
   released: 2026-05-28
   updated: 2026-10-08

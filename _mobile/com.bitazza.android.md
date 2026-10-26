@@ -18,8 +18,8 @@ android:
   users: 500000
   appCountry: th
   released: 2020-09-29
-  updated: 2026-10-05
-  version: 4.12.4
+  updated: 2026-10-16
+  version: 4.13.0
   reviews: 2529
   icon: com.bitazza.android.webp
   meta: ok
@@ -30,9 +30,9 @@ iphone:
   idd: '1476944844'
   appCountry: th
   released: 2020-05-25
-  updated: 2026-10-14
-  version: 5.2.4
-  reviews: 2655
+  updated: 2026-10-19
+  version: 5.3.0
+  reviews: 2680
   icon: com.bitazza.ios.webp
   meta: ok
   verdict: custodial

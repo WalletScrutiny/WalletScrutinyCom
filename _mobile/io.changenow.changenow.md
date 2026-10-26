@@ -23,9 +23,9 @@ android:
   users: 100000
   appCountry: us
   released: 2018-09-07
-  updated: 2026-10-06
-  version: 2.1.4
-  reviews: 817
+  updated: 2026-10-21
+  version: 2.1.5
+  reviews: 820
   icon: io.changenow.changenow.webp
   meta: ok
   verdict: nosource
@@ -35,8 +35,8 @@ iphone:
   idd: 1518003605
   appCountry: us
   released: 2020-06-29
-  updated: 2026-10-09
-  version: 2.11.6
+  updated: 2026-10-19
+  version: 2.11.7
   reviews: 2276
   icon: io.changenow.webp
   meta: ok

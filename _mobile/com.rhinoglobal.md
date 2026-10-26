@@ -1,6 +1,6 @@
 ---
 wsId: rhinoBitcoin
-title: 'Rhino Bitcoin: Buy BTC, 0 Fees'
+title: 'Rhino: Buy Bitcoin, Zero Fees'
 date: 2026-05-19
 authors:
 - danny
@@ -18,9 +18,9 @@ android:
   users: 10000
   appCountry: us
   released: 2024-08-30
-  updated: 2026-10-06
-  version: 2.13.3
-  reviews: 61
+  updated: 2026-10-19
+  version: 2.13.4
+  reviews: 62
   icon: com.rhinoglobal.webp
   meta: ok
   verdict: custodial
@@ -30,8 +30,8 @@ iphone:
   idd: '1564149079'
   appCountry: us
   released: 2022-06-29
-  updated: 2026-10-07
-  version: 2.13.3
+  updated: 2026-10-22
+  version: 2.13.4
   reviews: 54
   icon: com.Rhino.Global.webp
   meta: ok

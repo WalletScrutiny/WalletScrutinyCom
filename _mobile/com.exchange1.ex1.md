@@ -19,7 +19,7 @@ android:
   icon: com.exchange1.ex1.webp
   meta: ok
   verdict: custodial
-  developerName: Web 3 Utility Platform UAB
+  developerName: UAB WEB 3 UTILITY IT SERVICES INDIA PRIVATE LTD
 iphone:
   appId: com.exchange1.exapp
   idd: '6744722632'

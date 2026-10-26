@@ -23,7 +23,7 @@ android:
   released: 2020-04-17
   updated: 2026-10-08
   version: 5.3.2
-  reviews: 685
+  reviews: 687
   icon: com.nicehash.metallum.webp
   meta: ok
   verdict: custodial
@@ -33,8 +33,8 @@ iphone:
   idd: '1372054956'
   appCountry: us
   released: 2020-04-29
-  updated: 2026-10-07
-  version: 7.2.1
+  updated: 2026-10-15
+  version: 7.2.2
   reviews: 4573
   icon: com.nicehash.mobile.webp
   meta: ok

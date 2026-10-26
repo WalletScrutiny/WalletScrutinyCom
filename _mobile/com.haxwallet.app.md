@@ -34,7 +34,7 @@ iphone:
   released: 2023-08-23
   updated: 2026-09-15
   version: '3.6'
-  reviews: 416
+  reviews: 417
   icon: com.haxwallet.app.webp
   meta: ok
   verdict: nosource

@@ -19,8 +19,8 @@ android:
   users: 500000
   appCountry: us
   released: 2018-04-01
-  updated: 2026-10-08
-  version: 5.8.7.3436
+  updated: 2026-10-16
+  version: 5.8.8.3476
   reviews: 68
   icon: io.totalcoin.wallet.webp
   meta: ok

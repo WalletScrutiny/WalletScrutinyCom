@@ -15,8 +15,8 @@ android:
   appId: com.gateio.turkey
   users: 100000
   appCountry: us
-  updated: 2026-09-23
-  version: 7.28.0
+  updated: 2026-10-20
+  version: 8.40.0
   icon: com.gateio.turkey.webp
   meta: ok
   verdict: custodial
@@ -28,7 +28,7 @@ iphone:
   released: 2022-08-25
   updated: 2025-09-04
   version: 6.15.28
-  reviews: 628
+  reviews: 629
   icon: com.gateio.GateTR.webp
   meta: stale
   verdict: custodial

@@ -15,8 +15,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-07-25
-  updated: 2026-10-09
-  version: 2.132.0
+  updated: 2026-10-16
+  version: 2.134.0
   reviews: 73
   icon: br.com.mercadobitcoin.android.webp
   meta: ok

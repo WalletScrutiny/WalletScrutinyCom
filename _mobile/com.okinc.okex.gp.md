@@ -19,9 +19,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2019-10-29
-  updated: 2026-10-07
-  version: 6.192.0
-  reviews: 4024
+  updated: 2026-10-19
+  version: 6.193.0
+  reviews: 4022
   icon: com.okinc.okex.gp.webp
   meta: ok
   verdict: custodial
@@ -31,9 +31,9 @@ iphone:
   idd: 1327268470
   appCountry: us
   released: 2018-01-04
-  updated: 2026-10-13
-  version: 6.193.0
-  reviews: 22854
+  updated: 2026-10-26
+  version: 6.194.2
+  reviews: 22926
   icon: com.okex.OKExAppstoreFull.webp
   meta: ok
   verdict: custodial

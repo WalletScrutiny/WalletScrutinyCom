@@ -19,8 +19,8 @@ android:
   users: 1000000
   appCountry: us
   released: 2018-01-28
-  updated: 2026-10-02
-  version: 5.38.0
+  updated: 2026-10-16
+  version: 5.39.0
   reviews: 15
   icon: coinone.co.kr.official.webp
   meta: ok
@@ -31,9 +31,9 @@ iphone:
   idd: 1326526995
   appCountry: kr
   released: 2018-03-27
-  updated: 2026-10-08
-  version: 5.38.0
-  reviews: 1061
+  updated: 2026-10-21
+  version: 5.39.0
+  reviews: 1064
   icon: kr.co.coinone.officialapp.webp
   meta: ok
   verdict: custodial

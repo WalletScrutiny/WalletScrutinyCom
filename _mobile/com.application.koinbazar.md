@@ -22,7 +22,7 @@ android:
   released: 2021-05-17
   updated: 2026-10-09
   version: 3.1.25
-  reviews: 3651
+  reviews: 3653
   icon: com.application.koinbazar.webp
   meta: ok
   verdict: custodial

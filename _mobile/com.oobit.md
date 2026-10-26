@@ -1,6 +1,6 @@
 ---
 wsId: ooBit
-title: Oobit Everyday Crypto Payments
+title: 'Oobit: Crypto Card & Payments'
 date: 2023-06-14
 authors:
 - danny
@@ -18,9 +18,9 @@ android:
   users: 100000
   appCountry: us
   released: 2022-02-07
-  updated: 2026-10-08
-  version: 3.4.2
-  reviews: 51
+  updated: 2026-10-14
+  version: 3.4.3
+  reviews: 52
   icon: com.oobit.webp
   meta: ok
   verdict: custodial
@@ -30,9 +30,9 @@ iphone:
   idd: '1598882898'
   appCountry: br
   released: 2022-02-05
-  updated: 2026-10-09
-  version: 3.4.2
-  reviews: 1035
+  updated: 2026-10-18
+  version: 3.4.3
+  reviews: 1039
   icon: com.oobit.webp
   meta: ok
   verdict: custodial

@@ -9,8 +9,8 @@ android:
   users: 100
   appCountry: us
   released: 2022-06-08
-  updated: 2026-10-08
-  version: 3.7.1
+  updated: 2026-10-23
+  version: 3.7.5
   icon: com.getfexr.core.webp
   meta: fewusers
   verdict: wip

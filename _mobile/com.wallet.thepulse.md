@@ -25,7 +25,7 @@ iphone:
   released: 2023-12-20
   updated: 2026-07-07
   version: 5.3.8
-  reviews: 26
+  reviews: 27
   icon: ios.wallet.pulse.webp
   meta: ok
   verdict: wip

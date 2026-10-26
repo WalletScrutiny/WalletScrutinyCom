@@ -26,7 +26,7 @@ android:
   released: 2025-02-04
   updated: 2026-10-07
   version: 1.3.3
-  reviews: 33
+  reviews: 36
   icon: me.proton.wallet.android.webp
   signer: dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853
   alternativeStores:
@@ -40,9 +40,9 @@ iphone:
   idd: '6479609548'
   appCountry: us
   released: 2025-02-10
-  updated: 2026-08-27
-  version: 1.3.3
-  reviews: 265
+  updated: 2026-10-16
+  version: 1.3.5
+  reviews: 268
   icon: me.proton.wallet.ios.webp
   meta: ok
   verdict: nosource

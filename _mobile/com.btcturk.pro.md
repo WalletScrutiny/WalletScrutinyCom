@@ -17,7 +17,7 @@ android:
   appCountry: us
   released: 2020-09-10
   updated: 2026-10-13
-  version: 2.51.0
+  version: 2.52.0
   reviews: 232
   icon: com.btcturk.pro.webp
   meta: ok

@@ -18,7 +18,7 @@ android:
   released: 2017-05-17
   updated: 2026-09-16
   version: 2.1.11
-  reviews: 2932
+  reviews: 2944
   icon: com.core.app.flitpay.webp
   meta: ok
   verdict: custodial
@@ -30,7 +30,7 @@ iphone:
   released: 2021-08-27
   updated: 2026-09-19
   version: 2.1.1
-  reviews: 136
+  reviews: 138
   icon: com.core.ios.flitpay.webp
   meta: ok
   verdict: custodial
