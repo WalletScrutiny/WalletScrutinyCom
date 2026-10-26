@@ -1426,6 +1426,14 @@ body.dark #verificationModalToolbar .share-dropdown-menu a:focus-visible img {
 #verificationContent .markdown-content h3 { font-size: 1.1em; }
 #verificationContent .markdown-content :is(h4, h5, h6) { font-size: 1em; }
 
+/* Desktop: smaller table headers in the report. */
+@media screen and (min-width: 769px) {
+  #verificationContent .markdown-content th {
+    font-size: 0.85em;
+    padding: 6px 8px;
+  }
+}
+
 /* No horizontal scrolling: long lines wrap to the modal width. */
 #verificationContent .markdown-content pre,
 #verificationContent .markdown-content pre code {
