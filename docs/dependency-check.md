@@ -265,6 +265,61 @@ app.
   shown on the wallet page.
 - This reverses the earlier "analyse every release" rule from 2026-10-02.
 
+Not built yet (checked 2026-10-26): the analyser does not read verdicts.
+`api/appRepositories.json` lists every wallet with a repository, and the pass
+analyses the newest GitHub release, not the verified version. See the next
+section.
+
+## Coverage and weak points (2026-10-26)
+
+What a pass actually covers, from `external/source_analysis` on this branch:
+
+- **One version per wallet per pass.** Every 6 hours, each wallet gets one
+  analysis: the newest GitHub release that appeared since the last pass. If
+  there is none, the default branch HEAD is analysed instead, if it moved
+  (`index.mjs`).
+- **"New release" means a GitHub release with assets.** A release with no
+  binaries attached counts as no release. Repositories outside GitHub
+  (GitLab, Codeberg, ...) only ever get their default branch analysed.
+- **Never analysed:** releases between two passes, older releases, and the
+  version WalletScrutiny verified.
+- **OSV lookups use the live API** (`api.osv.dev/v1/querybatch`,
+  `plugins/osv.mjs`), with no local copy. Package versions are de-duplicated
+  within one analysis only; advisory details are cached for one run.
+- **No automatic re-check.** Each analysed release keeps its resolved
+  packages, so a new advisory can be matched against old releases
+  (`pinning-cli.mjs`), but nothing runs that on a schedule. A release keeps
+  the match date of its analysis.
+
+Weak points, as an attacker would use them (Danny's red-team round):
+
+- Point the WS record at a clean decoy repo; the scanner trusts whatever URL
+  is listed.
+- Host on GitLab or Codeberg; releases are never scanned, only the main
+  branch.
+- Publish releases without binaries attached; the scanner treats them as "no
+  release".
+- Ship two releases within six hours; only the newest one gets scanned.
+- Ship different code to the Play Store than GitHub shows; the scanner reads
+  GitHub, not the APK.
+- Vendor a copied library or a prebuilt `.so`; no lockfile lists it, so
+  nothing checks it.
+- Leave dependencies unlocked or floating; they are skipped, not counted as
+  findings.
+- Ship iOS only; `Podfile.lock` and `Package.resolved` are not read.
+- Download code during the build with a script; only lockfiles are read.
+- Publish a malicious package before OSV lists it; old scans are never
+  re-checked.
+- Plant a Gradle init script in the shared cache; it runs in every later
+  wallet's analysis. `gradle-resolution` runs each wallet's own `gradlew`, and
+  `/cache/gradle` (`GRADLE_USER_HOME`) is shared and writable across wallets
+  (`containerRunner.mjs`). Not tried, read from the code.
+- Phish a trusted reviewer's key, then sign "not affected" to hide real rows.
+- Break the publish step; the site keeps showing old results.
+
+To fix first: the shared Gradle cache, and that verified versions are never
+scanned.
+
 ## The ladder: how far each dependency is verified
 
 Each dependency starts at "not tested yet" and climbs:
