@@ -22,10 +22,30 @@ source repository at that release's tag:
   up (a git URL, a local path, a version range the lockfile left open). This
   is not "no problems"; it is "nobody looked". Releases analysed before
   2026-10-16 show a dash because the record did not exist yet.
-- **known vulnerabilities**: advisories on [OSV.dev](https://osv.dev) that
-  match a pinned version, counted per advisory and split by severity. The
-  severity is the CVSS score OSV reports: critical ≥ 9, high ≥ 7, medium ≥ 4,
-  low > 0.
+- **advisory matches**: advisories on [OSV.dev](https://osv.dev) whose
+  affected versions include a version a lockfile pins. One advisory can match
+  several packages or lockfiles, so the tile also prints the number of
+  distinct advisories. A match is not a vulnerability in the app: it means the
+  source pins an affected version, not that the vulnerable code runs or can be
+  reached (see "What it does not claim").
+  - The big number counts only the matches in packages the app ships
+    ("Where?" is `app`) plus those the files do not place (`?`), because
+    those cannot be ruled out. When both occur the tile says
+    "35 shipped · 288 the files do not say", and the label changes to
+    "ships or may ship" (or "the files do not say whether the app ships
+    them" when none is placed).
+  - Below it: the matches in build tools only ("not in the app"), only in
+    tests, and only in another product built from the same repository, then
+    the total of all matches and of distinct advisories. Each match is
+    in exactly one of these numbers, and they add up to the total.
+  - The severity lines and the tile colour cover only the big number's
+    matches. The severity is the CVSS score OSV reports: critical ≥ 9,
+    high ≥ 7, medium ≥ 4, low > 0.
+  - A caveat on the tile repeats that a match is not proof of use, and,
+    when the release has no APK check, that nothing checked the released app.
+  - The big number and each "cleared" open an explanation (hover, focus or
+    tap), worded for a visitor who has the app installed, see "The tile's
+    explanations" below.
 - **known malware**: packages OSV lists as malicious (`MAL-` identifiers),
   whatever the score.
 - **Where?**: where the package ends up, as far as the files say. `app`
@@ -149,10 +169,11 @@ Plumbing:
   is deployed; until then the public relays carry the statements.
 - The panel's "Decision" column shows the status with one line per direct
   user (its reason and signer), the line under the package name says who the
-  direct users are, and the vulnerability tile counts one line per severity,
-  "50 critical · none cleared" (cleared: fixed or not affected), then the
-  queue: "2 decided · 410 still to look at (3 partly)". The big number takes
-  the colour of the worst severity still open. Within one
+  direct users are, and the vulnerability tile counts one line per severity
+  of what the app ships or may ship, "4 critical · 2 cleared" (cleared: a
+  trusted statement says fixed or not affected), then the queue over every
+  row, build tooling included: "2 decided · 410 still to look at (3 partly)".
+  The big number takes the colour of the worst severity still open. Within one
   severity, rows still needing a look (affected, undecided) sort before
   dismissed ones (not affected, fixed). The CSV carries decision, reasons,
   EPSS and the exploited flag per row.
@@ -183,6 +204,28 @@ within 30 days) and CISA's Known Exploited Vulnerabilities list. They sort
 the queue and put a "critical" label in perspective (944 of the 1,053
 advisories have a CVE; 4 are on CISA's list), they decide nothing, and a
 failing feed never fails the build.
+
+### The tile's explanations
+
+The wording is fixed in `src/dependencies-panel.mjs` (`vulnerabilityTipLines`,
+`CLEARED_TIP_LINES`), so that the panel never says more than the data:
+
+- **The number**: what it counts (OSV.dev advisories matching a pinned
+  version, in packages the app ships or may ship), how it was found (the
+  lockfiles in the public source at the release tag, looked up on OSV.dev on
+  the check date; build tools and tests counted separately), and what it says
+  about the visitor's app: it is about that one release; a match means the
+  source pins an affected version, not that the vulnerable code runs in the
+  app or that anyone can reach it; and either the APK check per row says
+  whether the package is in the released app, or nothing checked the released
+  app. The colour is the worst severity not yet cleared.
+- **Cleared**: someone whose statements this site trusts published a signed
+  statement that the advisory does not affect this wallet, either "not
+  affected" (the vulnerable code is not used or cannot be reached) or "fixed"
+  (the shipped version has the fix), with the reason and signer on the row.
+  Not cleared means not assessed yet or found to affect the wallet (the
+  Decision column says which), and does not by itself mean the app is
+  vulnerable.
 
 ## What it does not claim
 

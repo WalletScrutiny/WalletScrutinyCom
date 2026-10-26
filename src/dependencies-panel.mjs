@@ -14,7 +14,7 @@ import { dependencyTriageKind, mainRelayUrl, eventRelayUrls } from './nostr-cons
 import { fetchEvents } from './nostr-client.mjs';
 import { openTriageDialog } from './dependencies-triage-form.mjs';
 import { treeElement } from './dependencies-tree.mjs';
-import { epssTrigger } from './dependencies-epss-tip.mjs';
+import { epssTrigger, tipTrigger } from './dependencies-epss-tip.mjs';
 
 // Where the export is served from: the analyser copies it to the web server
 // after each pass (external/source_analysis/publish.mjs), no site build involved.
@@ -173,7 +173,7 @@ function breakableName(name) {
 
 function tile(value, label, { tone = '', sub = null } = {}) {
   return el('div', { className: `dp-tile${tone ? ` dp-tile--${tone}` : ''}` },
-    el('div', { className: 'dp-tile__value' }, value == null ? '–' : String(value)),
+    el('div', { className: 'dp-tile__value' }, value == null ? '–' : typeof value === 'object' ? value : String(value)),
     el('div', { className: 'dp-tile__label' }, label),
     [sub].flat().some(Boolean) ? el('div', { className: 'dp-tile__sub' }, sub) : null,
   );
@@ -183,7 +183,7 @@ function tile(value, label, { tone = '', sub = null } = {}) {
 // rows settled as fixed or not affected; everything else (undecided, under
 // investigation, affected) is still potentially affected. `rows` narrows the
 // count to part of the advisories (the ones the app ships).
-export function severityTally(model, rows = model.advisories || []) {
+export function severityTally(model, rows = model.advisories || [], { explain = false } = {}) {
   const total = {};
   const cleared = {};
   for (const a of rows) {
@@ -197,7 +197,7 @@ export function severityTally(model, rows = model.advisories || []) {
   const worstOpen = out.find(r => r.total > r.cleared)?.severity || null;
   const lines = out.map(r => el('div', { className: 'dp-tally' },
     el('span', { className: `dp-tally__count dp-tally__count--${r.severity}` }, `${r.total} ${SEVERITY_LABEL[r.severity].toLowerCase()}`),
-    ` · ${r.cleared || 'none'} cleared`));
+    ` · ${r.cleared || 'none'} `, explain ? tipTrigger('cleared', clearedTip) : 'cleared'));
   return { lines: lines.length ? lines : null, worstOpen };
 }
 
@@ -414,12 +414,35 @@ export function decisionCell(a, { onJudge = null, freshId = null } = {}) {
   return el('div', { className: 'dp-decision-cell' }, bits);
 }
 
+// What "cleared" on the severity lines means.
+export const CLEARED_TIP_LINES = [
+  'Cleared: someone whose statements this site trusts published a signed statement that the advisory does not affect this wallet.',
+  'Either “not affected” (the vulnerable code is not used, or cannot be reached) or “fixed” (the shipped version has the fix). The reason and the signer are on the advisory’s row below.',
+  'Not cleared means nobody has assessed it yet, or someone found it does affect the wallet; the row’s Decision column says which. It does not by itself mean your app is vulnerable.',
+];
+
+function clearedTip() {
+  return CLEARED_TIP_LINES.map(line => el('p', {}, line));
+}
+
+// What the vulnerability tile's number counts, how it was found, and what it
+// says about the app a visitor has installed.
+export function vulnerabilityTipLines(model, { maybe = false } = {}) {
+  const date = model.analysedAt ? ` on ${dateOf(model.analysedAt)}` : '';
+  return [
+    `What it counts: advisories published on OSV.dev whose affected versions include a version this wallet’s lockfiles pin, in packages the app ships${maybe ? ', or may ship: where the files do not say, the package counts, because it cannot be ruled out' : ''}.`,
+    `How: WalletScrutiny read the lockfiles in the wallet’s public source code at the tag ${model.ref}, and looked up every pinned version on OSV.dev${date}. Build tools and tests are counted separately below.`,
+    `For your app: this is release ${model.ref} only. A match means the source pins an affected version, not that the vulnerable code runs in your app or that anyone can reach it. ${model.apk ? 'The APK check on each row says whether the package is in the released app.' : 'Nothing checked the released app for these packages.'}`,
+    'The colour is the worst severity not yet cleared.',
+  ];
+}
+
 // The vulnerability tile leads with what the app ships; a match in build
 // tooling or another product's lockfile is counted below it, not in the number.
 function vulnerabilityTile(model) {
   const split = shippedSplit(model);
   const lead = [...split.ships, ...split.maybe];
-  const tally = severityTally(model, lead);
+  const tally = severityTally(model, lead, { explain: true });
   // The number takes the colour of the worst severity still potentially
   // affecting the app; once every advisory it counts is cleared it turns green.
   const tone = tally.worstOpen ? `sev-${tally.worstOpen}` : 'good';
@@ -433,7 +456,9 @@ function vulnerabilityTile(model) {
   for (const a of split.other) byPart[a.part] = (byPart[a.part] || 0) + 1;
   for (const [p, n] of Object.entries(byPart)) elsewhere.push(`${n} only in the ${whereLabel({ part: p })}`);
   const distinct = new Set((model.advisories || []).filter(a => a.severity !== 'malicious').map(a => a.id)).size;
-  return tile(lead.length, label, { tone, sub: [
+  const lines = vulnerabilityTipLines(model, { maybe: split.maybe.length > 0 });
+  const value = tipTrigger(String(lead.length), () => lines.map(line => el('p', {}, line)), { className: 'dp-term dp-term--value' });
+  return tile(value, label, { tone, sub: [
     split.ships.length && split.maybe.length ? el('div', { className: 'dp-tile__line' }, `${split.ships.length} shipped · ${split.maybe.length} the files do not say`) : null,
     tally.lines,
     elsewhere.length ? el('div', { className: 'dp-tile__line dp-tile__line--elsewhere' }, elsewhere.join(' · ')) : null,

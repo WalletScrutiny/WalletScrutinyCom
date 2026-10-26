@@ -558,7 +558,8 @@ details.dp-decision__others {
   gap: 2px;
 }
 
-.dp-epss {
+.dp-epss,
+.dp-term {
   font: inherit;
   font-size: $font-xxs;
   color: var(--neutral-3);
@@ -576,7 +577,13 @@ details.dp-decision__others {
   }
 }
 
-// What EPSS means, opened from .dp-epss. Same look as the assets table's
+// The tile's big number keeps its size and colour; only the underline marks it.
+.dp-term {
+  color: inherit;
+  font-size: inherit;
+}
+
+// What a term means, opened from .dp-epss or .dp-term. Same look as the assets table's
 // hash-hint tooltip; fixed so the table's scroll box cannot clip it.
 .dp-tip {
   position: fixed;
@@ -605,7 +612,7 @@ details.dp-decision__others {
 }
 
 // By id: the panel sits inside a step title, whose links lose their underline.
-#dp-epss-tip a {
+#dp-tip a {
   color: inherit;
   text-decoration: underline;
 }
