@@ -169,3 +169,33 @@ summary), `lockfiles.txt`, `unlocked-manifests.txt`, `osv-scanner.log`.
 
 Tests: `test/unit/rb-depcheck.test.mjs` (inventory, YAML block, failure path,
 against a fake scanner).
+
+## ws-buildlock: the exact versions the build used
+
+`ws-depcheck.sh` reads what the checkout declares, before the build.
+`ws-buildlock.sh` runs after the build and writes `build-lock.json`: what the
+build actually fetched. For a verified build that is the most relevant list to
+check (Leo, 2026-10-26), and for a project without lockfiles it is the only one.
+
+- **gradle:** every artifact in the module cache
+  (`caches/modules-2/files-2.1/<group>/<artifact>/<version>/<sha1>/<file>`),
+  with its sha256. The directory name is the file's sha1, as Gradle stores it.
+- **npm, pub, cargo:** `node_modules/.package-lock.json`, `pubspec.lock` and
+  `Cargo.lock` as the build left them, copied under `lockfiles/`.
+
+The Gradle cache has to belong to this build alone, or the list includes other
+builds' artifacts. Most build scripts throw the container away with its cache,
+so mount a fresh directory as `GRADLE_USER_HOME` and pass it in:
+
+```bash
+mkdir -p "${workspace}/gradle-home"
+docker run ... -v "${workspace}/gradle-home:/gradle-home" -e GRADLE_USER_HOME=/gradle-home ...
+# after the build, fetched and hash-checked like ws-depcheck.sh:
+bash "${workspace}/ws-buildlock.sh" --out "${workspace}/build-lock" --gradle-home "${workspace}/gradle-home" --src "$SRC" --yaml "${SCRIPT_DIR}/COMPARISON_RESULTS.yaml" || true
+```
+
+Like ws-depcheck, it never changes the verdict and exits 0. With `--yaml` it
+appends a `build_lock:` block (status `ok` or `empty`, the artifact count, the
+lockfiles, and the sha256 of `build-lock.json`). The ABS doesn't publish the
+file yet. Not covered: CocoaPods and SwiftPM builds, and anything a build
+downloads outside Gradle, npm, pub or cargo.
