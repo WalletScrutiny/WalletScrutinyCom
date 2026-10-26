@@ -418,11 +418,13 @@ knowledge. This is the same category as deps.dev, Snyk Advisor and the Debian
 security tracker, all public. A `MAL-` identifier already on OSV is in this
 category too.
 
-**Findings of our own: private first.** Anything this work discovers that is
-not yet public goes to the maintainer and, where one exists, the registry's
-security contact before it goes anywhere else, and is published after the fix
-ships or after 90 days, whichever comes first. The wallet page credits the
-finding only once it is public. This covers:
+**Findings of our own: decided case by case (Leo, 2026-10-26).** Anything
+this work discovers that is not yet public has no default route. Leo decides
+each one. It is not a promise to tell the provider first: some wallet
+developers are malicious, and a backdoor that only its anonymous provider can
+use is not reported to that provider before anyone else. A vulnerability in
+a legitimate product will probably go the provider's way, through their bug
+bounty where one exists. Findings in this category include:
 
 - a published package whose artifact does not match its source (the
   "reproduced" level failing);
@@ -430,9 +432,10 @@ finding only once it is public. This covers:
 - a wallet where a vulnerable function is provably reachable from key
   material.
 
-**Courtesy before launch.** The developers of wallets with critical "Shipped"
-rows get a heads-up a week before the panel goes live, the same practice as a
-verdict change.
+**Courtesy before launch.** Shortly before the panel goes live, every listed
+wallet's provider gets a short heads-up: what the panel lists, and how to
+send a "not affected, because..." statement that the panel shows next to the
+count. Launch does not wait for replies (Leo and Danny, 2026-10-26).
 
 ## Open decisions (2026-10-16)
 
