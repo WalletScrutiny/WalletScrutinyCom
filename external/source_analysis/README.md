@@ -98,6 +98,115 @@ sudo systemctl daemon-reload
 sudo systemctl enable --now walletscrutiny-source-analysis.timer
 ```
 
+### Setting up from scratch
+
+The whole setup on two machines, in order, for when one has to be rebuilt.
+The build server (`build.walletscrutiny.com`) runs the analysis, and the web
+host (`walletscrutiny.com`) serves its results. Names marked *suggested*
+can change, as long as the build server's settings in step 3 match the web
+host's in step 2.
+
+What is lost with the build server: the database
+(`/var/lib/walletscrutiny-source-analysis/assets.db`) and its backups, which
+sit next to it. Nothing else holds the analysis history or the recorded
+alerts. A new database gets filled again by the first pass, which takes
+hours. Copy `assets.db` off the machine now and then if the history matters.
+
+**1. Build server: user, docker, node, token.** If the Automated Build Server
+already runs on the machine, all of this is in place. Otherwise:
+
+```bash
+sudo apt install docker.io nodejs npm rsync openssh-client
+sudo adduser build-server
+sudo usermod -aG docker build-server          # the analysis runs every repository in a container
+echo -n 'ghp_xxx' | sudo systemd-creds encrypt --name=build-server-gh-token - /etc/credstore.encrypted/build-server-gh-token
+```
+
+Node must be 18.6 or newer (see `external/build_server/README.md`, "Install
+the dependencies", for a newer one). The token needs no scopes: it only
+raises the GitHub API rate limit.
+
+**2. Web host: directory, user, key, nginx.** Only needed for the wallet
+pages' Dependencies panel. Without it the analysis still runs and stores
+everything; the panel stays hidden.
+
+```bash
+# On the build server: the key the analysis copies its export with (suggested path)
+sudo mkdir -p /etc/walletscrutiny-source-analysis
+sudo ssh-keygen -t ed25519 -N '' -C source-analysis-publish -f /etc/walletscrutiny-source-analysis/publish_ed25519
+sudo chown build-server: /etc/walletscrutiny-source-analysis/publish_ed25519
+sudo cat /etc/walletscrutiny-source-analysis/publish_ed25519.pub     # goes into authorized_keys below
+
+# On the web host: a user that can write one directory and nothing else (suggested names)
+sudo adduser --disabled-password --gecos '' source-analysis
+sudo mkdir -p /srv/source-analysis
+sudo chown source-analysis: /srv/source-analysis
+sudo -u source-analysis mkdir -p -m 700 ~source-analysis/.ssh
+echo 'command="rrsync /srv/source-analysis",restrict ssh-ed25519 AAAA... source-analysis-publish' \
+  | sudo -u source-analysis tee ~source-analysis/.ssh/authorized_keys
+```
+
+`rrsync` comes with the `rsync` package (`/usr/bin/rrsync`, rsync 3.2.4 or
+newer). It limits the key to rsync inside `/srv/source-analysis`, so the
+target is that directory's root, `source-analysis@walletscrutiny.com:/`.
+The directory must not be inside `/var/www/walletscrutiny.com`, because
+`deploy:prod` empties that on every deploy.
+
+Then add this to the walletscrutiny.com `server` block and reload nginx
+(`sudo nginx -t && sudo systemctl reload nginx`):
+
+```nginx
+location /api/source-analysis/ {
+    alias /srv/source-analysis/;
+    add_header Cache-Control "no-cache";
+}
+```
+
+Back on the build server, record the web host's key, so the copy refuses a
+host it does not know (`StrictHostKeyChecking=yes`), and check the key works:
+
+```bash
+ssh-keyscan -t ed25519 walletscrutiny.com | sudo tee /etc/walletscrutiny-source-analysis/known_hosts
+sudo -u build-server rsync -e 'ssh -i /etc/walletscrutiny-source-analysis/publish_ed25519 -o UserKnownHostsFile=/etc/walletscrutiny-source-analysis/known_hosts -o StrictHostKeyChecking=yes' \
+  --list-only source-analysis@walletscrutiny.com:/
+```
+
+**3. Build server: settings in a drop-in.** Every deploy copies
+`config/walletscrutiny-source-analysis.service` over the installed unit, so
+anything edited in `/etc/systemd/system/walletscrutiny-source-analysis.service`
+is lost on the next deploy. Machine settings go in a drop-in, which the
+deploy leaves alone. `sudo systemctl edit walletscrutiny-source-analysis.service`
+opens it (`/etc/systemd/system/walletscrutiny-source-analysis.service.d/override.conf`):
+
+```ini
+[Service]
+# Static export at the end of each pass ("Static export"); without it nothing is published
+Environment=SOURCE_ANALYSIS_EXPORT_DIR=/var/lib/walletscrutiny-source-analysis/export
+# Copy of the export to the web host ("Publishing the export")
+Environment=SOURCE_ANALYSIS_PUBLISH_TARGET=source-analysis@walletscrutiny.com:/
+Environment="SOURCE_ANALYSIS_PUBLISH_SSH=ssh -i /etc/walletscrutiny-source-analysis/publish_ed25519 -o UserKnownHostsFile=/etc/walletscrutiny-source-analysis/known_hosts -o StrictHostKeyChecking=yes"
+# Alert key, kept out of the world-readable unit files ("Alerts")
+EnvironmentFile=-/etc/walletscrutiny-source-analysis/alerts.env
+```
+
+For alerts, put the analyser's Nostr key in that file, readable by root
+only (systemd reads it before it drops to `build-server`):
+
+```bash
+echo 'ALERT_NOSTR_NSEC=nsec1...' | sudo tee /etc/walletscrutiny-source-analysis/alerts.env
+sudo chmod 600 /etc/walletscrutiny-source-analysis/alerts.env
+```
+
+Without the file, alerts are still recorded and printed in the journal, but
+nobody gets a message.
+
+**4. Deploy and first run.** From your machine, `RUN_NOW=1 npm run
+deploy:source-analysis` installs the code, units and image (see "Deploy from
+your machine"), then starts a pass. Follow it with
+`sudo journalctl -u walletscrutiny-source-analysis.service -f`. When it ends,
+`curl -sI https://walletscrutiny.com/api/source-analysis/index.json` answers
+200, and a wallet page that has an analysis shows its Dependencies panel.
+
 ## Source analysis admin
 
 ```bash
@@ -196,7 +305,9 @@ location /api/source-analysis/ {
 Its user needs write access to that directory and nothing else. A key
 restricted to rsync (`command="rrsync /srv/source-analysis"` in
 `authorized_keys`) keeps it that way; rrsync reads paths relative to that
-directory, so the target is then `user@host:/`.
+directory, so the target is then `user@host:/`. The commands for both
+machines are in [Setting up from scratch](#setting-up-from-scratch); the
+variables go in a drop-in, not in the unit, which every deploy overwrites.
 
 Query the service database with the CLI in this folder:
 
