@@ -181,21 +181,43 @@ function tile(value, label, { tone = '', sub = null } = {}) {
 
 // One line per severity, "50 critical · 40 cleared": cleared counts the
 // rows settled as fixed or not affected; everything else (undecided, under
-// investigation, affected) is still potentially affected.
-export function severityTally(model) {
+// investigation, affected) is still potentially affected. `rows` narrows the
+// count to part of the advisories (the ones the app ships).
+export function severityTally(model, rows = model.advisories || []) {
+  const total = {};
   const cleared = {};
-  for (const a of model.advisories || []) {
-    const state = triageStateOf(a);
-    if (state !== 'not_affected' && state !== 'fixed') continue;
+  for (const a of rows) {
     const sev = SEVERITY_ORDER.includes(a.severity) ? a.severity : 'unknown';
-    cleared[sev] = (cleared[sev] || 0) + 1;
+    if (sev === 'malicious') continue;
+    total[sev] = (total[sev] || 0) + 1;
+    const state = triageStateOf(a);
+    if (state === 'not_affected' || state === 'fixed') cleared[sev] = (cleared[sev] || 0) + 1;
   }
-  const rows = SEVERITY_ORDER.filter(s => s !== 'malicious' && model.bySeverity[s] > 0).map(s => ({ severity: s, total: model.bySeverity[s], cleared: Math.min(cleared[s] || 0, model.bySeverity[s]) }));
-  const worstOpen = rows.find(r => r.total > r.cleared)?.severity || null;
-  const lines = rows.map(r => el('div', { className: 'dp-tally' },
+  const out = SEVERITY_ORDER.filter(s => total[s] > 0).map(s => ({ severity: s, total: total[s], cleared: cleared[s] || 0 }));
+  const worstOpen = out.find(r => r.total > r.cleared)?.severity || null;
+  const lines = out.map(r => el('div', { className: 'dp-tally' },
     el('span', { className: `dp-tally__count dp-tally__count--${r.severity}` }, `${r.total} ${SEVERITY_LABEL[r.severity].toLowerCase()}`),
     ` · ${r.cleared || 'none'} cleared`));
   return { lines: lines.length ? lines : null, worstOpen };
+}
+
+// The advisory rows by whether the app ships the package: `ships` (the app's
+// own lockfile says it is in the app), `maybe` (the files do not say), and
+// what is not in the app at all: `build` (build tooling, any product's),
+// `tests`, `other` (the runtime of another product from the same repository,
+// "only in the desktop app"). Malware rows are counted in their own tile.
+export function shippedSplit(model) {
+  const split = { ships: [], maybe: [], build: [], tests: [], other: [] };
+  for (const a of model.advisories || []) {
+    if (a.severity === 'malicious') continue;
+    const scope = whereOf({ ...a, part: null });
+    if (scope === 'build') split.build.push(a);
+    else if (scope === 'tests') split.tests.push(a);
+    else if (a.part) split.other.push(a);
+    else if (scope === 'app') split.ships.push(a);
+    else split.maybe.push(a);
+  }
+  return split;
 }
 
 // The ecosystem only appears when the release mixes several (npm next to
@@ -392,15 +414,35 @@ export function decisionCell(a, { onJudge = null, freshId = null } = {}) {
   return el('div', { className: 'dp-decision-cell' }, bits);
 }
 
-// "113 only in the desktop app": advisories from lockfiles of other products
-// built from the same repository (WHERE_LABELS), counted but not in this app.
-function otherProductsLine(model) {
+// The vulnerability tile leads with what the app ships; a match in build
+// tooling or another product's lockfile is counted below it, not in the number.
+function vulnerabilityTile(model) {
+  const split = shippedSplit(model);
+  const lead = [...split.ships, ...split.maybe];
+  const tally = severityTally(model, lead);
+  // The number takes the colour of the worst severity still potentially
+  // affecting the app; once every advisory it counts is cleared it turns green.
+  const tone = tally.worstOpen ? `sev-${tally.worstOpen}` : 'good';
+  const label = !split.maybe.length ? 'advisory matches in packages the app ships'
+    : !split.ships.length ? 'advisory matches; the files do not say whether the app ships them'
+      : 'advisory matches in packages the app ships or may ship';
+  const elsewhere = [];
+  if (split.build.length) elsewhere.push(`${split.build.length} in build tools only, not in the app`);
+  if (split.tests.length) elsewhere.push(`${split.tests.length} only in tests`);
   const byPart = {};
-  for (const a of model.advisories || []) if (a.part) byPart[a.part] = (byPart[a.part] || 0) + 1;
-  const parts = Object.entries(byPart);
-  if (!parts.length) return null;
-  return el('div', { className: 'dp-tally dp-tally--elsewhere', title: 'From lockfiles of other products in the same repository; not in this app' },
-    parts.map(([p, n]) => `${n} only in the ${whereLabel({ part: p })}`).join(' · '));
+  for (const a of split.other) byPart[a.part] = (byPart[a.part] || 0) + 1;
+  for (const [p, n] of Object.entries(byPart)) elsewhere.push(`${n} only in the ${whereLabel({ part: p })}`);
+  const distinct = new Set((model.advisories || []).filter(a => a.severity !== 'malicious').map(a => a.id)).size;
+  return tile(lead.length, label, { tone, sub: [
+    split.ships.length && split.maybe.length ? el('div', { className: 'dp-tile__line' }, `${split.ships.length} shipped · ${split.maybe.length} the files do not say`) : null,
+    tally.lines,
+    elsewhere.length ? el('div', { className: 'dp-tile__line dp-tile__line--elsewhere' }, elsewhere.join(' · ')) : null,
+    model.vulnerabilities ? el('div', { className: 'dp-tile__line' }, `${model.vulnerabilities} matches in all, ${distinct} distinct advisories`) : null,
+    model.vulnerabilities ? el('div', { className: 'dp-tile__caveat' }, model.apk
+      ? 'A match means a lockfile lists an affected version, not that the app runs the vulnerable code.'
+      : 'A match means a lockfile lists an affected version, not that the app runs the vulnerable code. Nothing checked the released app for these packages.') : null,
+    triageLine(model),
+  ] });
 }
 
 // "3 decided · 3 under investigation · 409 still to look at" in the
@@ -572,10 +614,6 @@ function actions(model, { appId, base, fetchImpl }) {
 // above the table saying so, `freshId` the statement to mark, and every row
 // is shown so the judged one stays in sight wherever it re-sorts to.
 export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE, fetchImpl = globalThis.fetch, onJudge = null, flash = null, freshId = null, showAll = false, trusted = [] } = {}) {
-  const tally = severityTally(model);
-  // The number takes the colour of the worst severity still potentially
-  // affecting the wallet; once every advisory is cleared it turns green.
-  const vulnTone = !model.vulnerabilities ? 'good' : tally.worstOpen ? `sev-${tally.worstOpen}` : 'good';
   return el('div', { className: 'dp-panel' },
     el('div', { className: 'dp-top' },
       headline(model),
@@ -585,7 +623,7 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
     flash ? el('p', { className: 'dp-flash', role: 'status' }, flash) : null,
     el('div', { className: 'dp-tiles' },
       tile(model.packages, 'dependencies', { sub: `${model.direct} direct · ${model.transitive} transitive` }),
-      tile(model.vulnerabilities, 'known vulnerabilities', { tone: vulnTone, sub: [tally.lines, otherProductsLine(model), triageLine(model)] }),
+      vulnerabilityTile(model),
       model.malware
         ? tile(model.malware, 'possible malware', { tone: 'bad', sub: 'being checked by a person; see the note above' })
         : tile(model.malware, 'known malware', { tone: 'good' }),

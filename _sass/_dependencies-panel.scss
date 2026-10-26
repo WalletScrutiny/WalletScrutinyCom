@@ -133,6 +133,16 @@ body.dark .dp-panel {
   color: #d68910;
 }
 
+// Under the severities: what is not in the app, the raw total, and what a match means
+.dp-tile__line--elsewhere,
+.dp-tile__caveat {
+  margin-top: 4px;
+}
+
+.dp-tile__caveat {
+  font-style: italic;
+}
+
 .dp-table-wrap {
   overflow-x: auto;
   min-width: 0;

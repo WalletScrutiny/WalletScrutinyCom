@@ -65,12 +65,15 @@ describe('dependencies panel', () => {
     assert.equal(host.hidden, false);
     assert.equal(step.hidden, false);
     const values = [...host.querySelectorAll('.dp-tile__value')].map(e => e.textContent);
-    assert.deepEqual(values, ['412', '13', '0'], 'direct and transitive share one tile');
+    assert.deepEqual(values, ['412', '11', '0'], 'the vulnerability tile counts what the app ships or may ship, not the build and test matches');
     assert.equal(host.querySelector('.dp-tile .dp-tile__sub').textContent, '40 direct · 372 transitive');
     assert.match(host.querySelector('.dp-notices').textContent, /14 of the 412 packages could not be checked for advisories \(14 version range, not an exact version\); that is not the same as "no problems"\./);
-    assert.deepEqual([...host.querySelectorAll('.dp-tally')].map(e => e.textContent), ['1 critical · none cleared', '2 high · none cleared', '10 medium · none cleared'], 'one line per severity');
+    assert.deepEqual([...host.querySelectorAll('.dp-tally')].map(e => e.textContent), ['1 critical · none cleared', '10 medium · none cleared'], 'one line per severity of what the app ships or may ship');
     assert.ok(host.querySelector('.dp-tile--sev-critical'), 'the count takes the worst open severity\'s colour');
-    assert.equal(host.querySelector('.dp-tile__sub--where'), null, 'no app/build-tooling split in the tile');
+    const vulnTile = host.querySelectorAll('.dp-tile')[1];
+    assert.equal(vulnTile.querySelector('.dp-tile__label').textContent, 'advisory matches in packages the app ships or may ship');
+    assert.deepEqual([...vulnTile.querySelectorAll('.dp-tile__line')].map(e => e.textContent), ['1 shipped · 10 the files do not say', '1 in build tools only, not in the app · 1 only in tests', '13 matches in all, 13 distinct advisories']);
+    assert.match(vulnTile.querySelector('.dp-tile__caveat').textContent, /not that the app runs the vulnerable code\. Nothing checked the released app/);
     assert.equal(host.querySelectorAll('tbody tr').length, 10);
     assert.equal(host.querySelector('tbody tr td a').textContent, 'GHSA-crit');
     assert.equal(host.querySelector('tbody tr td a').getAttribute('href'), 'https://osv.dev/vulnerability/GHSA-crit');
@@ -123,8 +126,9 @@ describe('dependencies panel', () => {
     await new Promise(r => setTimeout(r, 0)); // signer names arrive after the paint
     assert.deepEqual(calls.slice(2), ['/xt3/statements.json', '/x/signals.json', '/x/upstream/app.android.json', '/x/apk/app.android.json'], 'the site build\'s statements (cached per base, so this test has its own), then the signals, the harvested ignore files and the APK check');
     assert.deepEqual(model.triage, { total: 13, decided: 2, undecided: 11, affected: 1, not_affected: 1, fixed: 0, under_investigation: 0, partial: 1, others: 2 });
-    assert.deepEqual([...host.querySelectorAll('.dp-tally')].map(e => e.textContent), ['1 critical · 1 cleared', '2 high · none cleared', '10 medium · none cleared'], 'the not-affected critical is cleared; the affected high is not');
-    assert.ok(host.querySelector('.dp-tile--sev-high'), 'with the only critical cleared, the count goes orange');
+    assert.deepEqual([...host.querySelectorAll('.dp-tally')].map(e => e.textContent), ['1 critical · 1 cleared', '10 medium · none cleared'], 'the not-affected critical is cleared; the high rows are build and tests, not in the tally');
+    assert.ok(host.querySelector('.dp-tile--sev-moderate'), 'with the only critical cleared, the count takes the open medium\'s tone');
+    assert.equal(host.querySelector('.dp-tile__caveat').textContent, 'A match means a lockfile lists an affected version, not that the app runs the vulnerable code.', 'with an APK check, no "nothing checked" sentence');
     assert.equal(host.querySelector('.dp-tile .dp-triage-line').textContent, '2 decided · 1 affected · 1 not affected · 11 still to look at (1 partly)');
     const rows = [...host.querySelectorAll('tbody tr')];
     assert.deepEqual(rows.slice(0, 3).map(r => r.querySelector('td a').textContent), ['GHSA-crit', 'GHSA-high', 'GHSA-test'], 'by severity alone: a decision does not move a row');
