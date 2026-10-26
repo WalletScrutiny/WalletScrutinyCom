@@ -129,7 +129,8 @@ sudo -u build-server env SOURCE_ANALYSIS_DB_PATH=/var/lib/walletscrutiny-source-
 The list of wallets and their repositories comes from the site, not from this
 folder: `api/appRepositories.json` is rendered at site build time
 from every wallet record that has a `repository:` line and is not gone
-(`meta` removed, defunct, discontinued or deprecated). Each entry is
+(`meta` removed, defunct, discontinued or deprecated). A repository marked
+`#deadLink` or `&deadLink` is left out. Each entry is
 `{ "appId", "platform", "repository" }` and nothing else on purpose: the
 version to analyse is read from the repository itself, the site's version
 field lags behind releases.
@@ -141,7 +142,14 @@ and iPhone entries of one wallet) become one job, keyed by the first record
 (android before iphone before desktop, hardware, bearer); the others are
 listed as aliases. URLs are normalised (`.git`, trailing slash, `/releases`,
 `/tags`, `/tree/...`, `www.`), and URLs that name no repository (user or
-organisation pages) are skipped with a warning.
+organisation pages, or a `#deadLink`) are skipped with a warning. A
+repository GitHub answers 404 for is logged as not found and does not fail
+the pass. Release assets are recorded for the last 3 years
+(`RELEASE_MAX_AGE_YEARS`); GitHub lists newest first and the walk stops at
+the first older release. A 422 from the result cap keeps whatever was
+already fetched. The oneshot exits 1 only when some other
+per-app error remains (the summary line counts succeeded, failed and not
+found separately).
 
 ```bash
 node index.mjs --githubToken ghp_xxx                        # whole list (the service: GITHUB_TOKEN_FILE=<file>)
@@ -213,7 +221,7 @@ Nothing from the analysed repository is executed or installed for any of this: t
 ## How it works
 
 1. **GitHub Assets**: 
-   - Fetches all releases from the GitHub repository using the GitHub API
+   - Fetches releases from the last 3 years (`RELEASE_MAX_AGE_YEARS` in `config.mjs`). GitHub lists newest first, and the walk stops at the first older release
    - For each release, processes all binary assets
    - **Uses the `digest` field directly from the GitHub API** - GitHub provides SHA256 checksums automatically since 2025
    - Extracts SHA256 from the digest field (handles formats like `sha256:hash` or direct hash)

@@ -189,6 +189,7 @@ tagConsole();
 try {
   let successCount = 0;
   let errorCount = 0;
+  let missingCount = 0;
 
   // Process the apps, CONCURRENCY at a time (each in its own container and
   // scratch dir); every log line of a job is tagged with its appId.
@@ -231,9 +232,16 @@ try {
       );
       successCount++;
     } catch (error) {
-      console.error(`\n✗  Failed to process ${app.appId}:`, error.message);
-      errorCount++;
-      // Continue with next app instead of stopping
+      // A repository GitHub reports as missing is a property of that wallet,
+      // not a failed pass. Anything else (5xx after retries, rate limit, a
+      // crash in one app) still fails the oneshot so the unit shows it.
+      if (typeof error.message === 'string' && error.message.startsWith('Repository not found:')) {
+        console.error(`\n✗  Repository missing, skipping ${app.appId}: ${error.message}`);
+        missingCount++;
+      } else {
+        console.error(`\n✗  Failed to process ${app.appId}:`, error.message);
+        errorCount++;
+      }
     }
   }, (app) => app.appId);
 
@@ -242,8 +250,11 @@ try {
   fs.rmSync(DEFAULT_TEMP_DIR, { recursive: true, force: true });
   pruneCache();
 
+  const missingPart = missingCount === 0
+    ? ''
+    : `, ${missingCount} ${missingCount === 1 ? 'repository' : 'repositories'} not found`;
   console.log(`\n${'='.repeat(50)}`);
-  console.log(`Summary: ${successCount} succeeded, ${errorCount} failed`);
+  console.log(`Summary: ${successCount} succeeded, ${errorCount} failed${missingPart}`);
   console.log(`${'='.repeat(50)}`);
 
   if (errorCount > 0) {

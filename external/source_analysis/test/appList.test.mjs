@@ -28,6 +28,8 @@ test('normalizeRepoUrl: forms found in the wallet records', () => {
     'https://www.github.com/kzen-networks': null,
     'git@github.com:ZeusLN/zeus.git': null,
     'https://web.archive.org/web/20201113132658/https://github.com/neatnik/icywallet': null,
+    'https://github.com/blockchain/My-Wallet-V3-iOS#deadLink': null,
+    'https://github.com/ONTO-Data-Wallet/ONTO&deadLink': null,
     '': null,
   };
   for (const [input, expected] of Object.entries(cases)) {
@@ -42,12 +44,13 @@ test('groupByRepository: one job per repository, android record first, others be
     { appId: 'app.zeusln.zeus', platform: 'android', repository: 'https://github.com/ZeusLN/zeus' },
     { appId: 'sparrow', platform: 'desktop', repository: 'https://github.com/sparrowwallet/sparrow' },
     { appId: 'com.toporin', platform: 'android', repository: 'https://github.com/Toporin' },
+    { appId: 'com.github.ontio.onto', platform: 'android', repository: 'https://github.com/ONTO-Data-Wallet/ONTO#deadLink' },
   ]);
   assert.equal(jobs.length, 2);
   const zeus = jobs.find(j => j.repoUrl === 'https://github.com/ZeusLN/zeus');
   assert.equal(zeus.appId, 'app.zeusln.zeus');
   assert.deepEqual(zeus.aliases.map(a => a.appId), ['app.zeusln.zeus', 'com.zeus.ios']);
-  assert.deepEqual(skipped.map(e => e.appId), ['com.toporin']);
+  assert.deepEqual(skipped.map(e => e.appId), ['com.toporin', 'com.github.ontio.onto']);
 });
 
 test('fetchAppList: reads a local file and rejects malformed entries', async () => {
