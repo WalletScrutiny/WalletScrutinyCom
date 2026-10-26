@@ -171,8 +171,9 @@ try {
     console.warn(`Skipping ${e.appId} (${e.platform}): '${e.repository}' does not name a repository`);
   }
   console.log(`App list: ${entries.length} records, ${siteJobs.length} repositories, ${skipped.length} skipped (from ${listSource})`);
-  // Only wallets some version of which was found reproducible (reproducible.mjs);
-  // SOURCE_ANALYSIS_SCOPE=all analyses every repository.
+  // Only wallets some version of which was found reproducible (reproducible.mjs),
+  // gone ones included: a reproducible wallet pulled from a store can still ship
+  // elsewhere. SOURCE_ANALYSIS_SCOPE=all adds every repository that is not gone.
   const { byApp, source: verdictSource, error: verdictError } = await loadReproducible(db).catch(error => {
     if (SCOPE !== 'all') throw error;
     return { byApp: new Map(), source: 'nowhere', error: error.message };
@@ -183,7 +184,7 @@ try {
   for (const job of siteJobs) job.verified = verifiedVersionsOf(job, byApp);
   const inScope = siteJobs.filter(j => j.verified.length);
   console.log(`Scope: ${inScope.length} of ${siteJobs.length} repositories have a reproducible version (${byApp.size} wallets verified, from ${verdictSource})${SCOPE === 'all' ? '; SOURCE_ANALYSIS_SCOPE=all analyses all of them' : ''}`);
-  jobs = [...(SCOPE === 'all' ? siteJobs : inScope), ...APPS];
+  jobs = [...(SCOPE === 'all' ? siteJobs.filter(j => !j.gone || j.verified.length) : inScope), ...APPS];
 } catch (error) {
   console.error(`✗  ${error.message}`);
   db.close();

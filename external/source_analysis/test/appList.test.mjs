@@ -50,12 +50,31 @@ test('groupByRepository: one job per repository, android record first, others be
   assert.deepEqual(skipped.map(e => e.appId), ['com.toporin']);
 });
 
+test('groupByRepository: a repository is gone only when every record of it is', () => {
+  // de.schildbach.wallet: removed from Google Play, still on F-Droid and reproducible.
+  const { jobs } = groupByRepository([
+    { appId: 'de.schildbach.wallet', platform: 'android', repository: 'https://github.com/bitcoin-wallet/bitcoin-wallet', gone: true },
+    { appId: 'com.zeus.ios', platform: 'iphone', repository: 'https://github.com/ZeusLN/zeus', gone: true },
+    { appId: 'app.zeusln.zeus', platform: 'android', repository: 'https://github.com/ZeusLN/zeus', gone: false },
+  ]);
+  const gone = Object.fromEntries(jobs.map(j => [j.appId, j.gone]));
+  assert.deepEqual(gone, { 'de.schildbach.wallet': true, 'app.zeusln.zeus': false });
+});
+
+test('loadAppList: gone survives the cache', async () => {
+  const db = tmpDb();
+  const list = [{ appId: 'de.schildbach.wallet', platform: 'android', repository: 'https://github.com/bitcoin-wallet/bitcoin-wallet', gone: true }];
+  await loadAppList(db, { source: 'https://example.invalid/list.json', get: async () => ({ data: list }) });
+  assert.deepEqual(getAppList(db), list);
+  db.close();
+});
+
 test('fetchAppList: reads a local file and rejects malformed entries', async () => {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'applist-'));
   const file = path.join(dir, 'list.json');
   fs.writeFileSync(file, JSON.stringify([{ appId: 'a', platform: 'android', repository: 'https://github.com/x/y' }]));
   const entries = await fetchAppList(file);
-  assert.deepEqual(entries, [{ appId: 'a', platform: 'android', repository: 'https://github.com/x/y' }]);
+  assert.deepEqual(entries, [{ appId: 'a', platform: 'android', repository: 'https://github.com/x/y', gone: false }]);
 
   fs.writeFileSync(file, JSON.stringify([{ appId: 'a', platform: 'android' }]));
   await assert.rejects(fetchAppList(file), /malformed app list entry/);
@@ -65,7 +84,7 @@ test('fetchAppList: reads a local file and rejects malformed entries', async () 
 
 test('loadAppList: caches a fetched list and falls back to the cache when the fetch fails', async () => {
   const db = tmpDb();
-  const list = [{ appId: 'a', platform: 'android', repository: 'https://github.com/x/y' }];
+  const list = [{ appId: 'a', platform: 'android', repository: 'https://github.com/x/y', gone: false }];
   const ok = async () => ({ data: list });
   const down = async () => { throw new Error('ECONNREFUSED'); };
 

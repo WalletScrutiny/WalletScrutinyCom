@@ -8,8 +8,10 @@ the site; keep fields stable and tell the consumer's owner before changing them.
 
 Which wallets exist and where their source lives. Only appId, platform and
 repository on purpose; the analyser reads versions from the repository itself,
-the site's version field lags. Records without a repository, and apps that are
-gone (removed, defunct, discontinued, deprecated), are left out.
+the site's version field lags. Records without a repository are left out. Apps
+that are gone (removed, defunct, discontinued, deprecated) carry "gone":true:
+one pulled from a store can still ship elsewhere, and a reproducible one stays
+in the analyser's scope.
 {%- endcomment -%}
 {%- assign mobilePlatforms = "android,iphone" | split: "," -%}
 {%- assign platforms = "desktop,hardware,bearer" | split: "," -%}
@@ -21,11 +23,11 @@ gone (removed, defunct, discontinued, deprecated), are left out.
 {%- assign store = post[platform] -%}
 {%- assign repo = store.repository | strip -%}
 {%- if store.appId and repo != "" -%}
-{%- unless goneMetas contains store.meta -%}
 {%- assign appIdJson = store.appId | jsonify -%}
 {%- assign repoJson = repo | jsonify -%}
-{%- assign out = out | append: ',{"appId":' | append: appIdJson | append: ',"platform":"' | append: platform | append: '","repository":' | append: repoJson | append: '}' -%}
-{%- endunless -%}
+{%- assign out = out | append: ',{"appId":' | append: appIdJson | append: ',"platform":"' | append: platform | append: '","repository":' | append: repoJson -%}
+{%- if goneMetas contains store.meta -%}{%- assign out = out | append: ',"gone":true' -%}{%- endif -%}
+{%- assign out = out | append: '}' -%}
 {%- endif -%}
 {%- endfor -%}
 {%- endfor -%}
@@ -33,11 +35,11 @@ gone (removed, defunct, discontinued, deprecated), are left out.
 {%- for post in site[platform] -%}
 {%- assign repo = post.repository | strip -%}
 {%- if repo != "" -%}
-{%- unless goneMetas contains post.meta -%}
 {%- assign appIdJson = post.appId | jsonify -%}
 {%- assign repoJson = repo | jsonify -%}
-{%- assign out = out | append: ',{"appId":' | append: appIdJson | append: ',"platform":"' | append: platform | append: '","repository":' | append: repoJson | append: '}' -%}
-{%- endunless -%}
+{%- assign out = out | append: ',{"appId":' | append: appIdJson | append: ',"platform":"' | append: platform | append: '","repository":' | append: repoJson -%}
+{%- if goneMetas contains post.meta -%}{%- assign out = out | append: ',"gone":true' -%}{%- endif -%}
+{%- assign out = out | append: '}' -%}
 {%- endif -%}
 {%- endfor -%}
 {%- endfor -%}

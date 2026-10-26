@@ -208,6 +208,7 @@ export function initDatabase(dbPath = DB_PATH) {
       PRIMARY KEY (app_id, platform)
     );
   `);
+  ensureColumn(db, 'apps', 'gone', 'INTEGER NOT NULL DEFAULT 0');
 
   // Last good copy of the build verifications that put a wallet in scope
   // (see reproducible.mjs): every version some verifier found reproducible.
@@ -326,19 +327,19 @@ export function saveAnalysedCommit(db, appId, commitSha) {
     ON CONFLICT(app_id) DO UPDATE SET commit_sha = excluded.commit_sha, analysed_at = CURRENT_TIMESTAMP`).run(appId, commitSha);
 }
 
-// Replace the cached app list with the given entries ({appId, platform, repository}).
+// Replace the cached app list with the given entries ({appId, platform, repository, gone}).
 export function saveAppList(db, entries) {
-  const insert = db.prepare('INSERT INTO apps (app_id, platform, repository) VALUES (?, ?, ?)');
+  const insert = db.prepare('INSERT INTO apps (app_id, platform, repository, gone) VALUES (?, ?, ?, ?)');
   db.transaction(() => {
     db.prepare('DELETE FROM apps').run();
-    for (const e of entries) insert.run(e.appId, e.platform, e.repository);
+    for (const e of entries) insert.run(e.appId, e.platform, e.repository, e.gone ? 1 : 0);
   })();
   return entries.length;
 }
 
 export function getAppList(db) {
-  return db.prepare('SELECT app_id, platform, repository FROM apps ORDER BY platform, app_id').all()
-    .map(r => ({ appId: r.app_id, platform: r.platform, repository: r.repository }));
+  return db.prepare('SELECT app_id, platform, repository, gone FROM apps ORDER BY platform, app_id').all()
+    .map(r => ({ appId: r.app_id, platform: r.platform, repository: r.repository, gone: r.gone === 1 }));
 }
 
 // Replace the cached verifications with byApp (appId -> [{version, verifiedAt}]).
