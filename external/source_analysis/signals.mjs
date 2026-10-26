@@ -1,8 +1,7 @@
-#!/usr/bin/env node
 /**
- * Public, per-CVE signals for the advisories the source-analysis export
- * lists, published as _site/api/source-analysis/signals.json for the wallet
- * page's Dependencies panel:
+ * Public, per-CVE signals for the advisories the export lists, written as
+ * signals.json into the export directory at the end of each pass (index.mjs),
+ * for the wallet page's Dependencies panel:
  *
  *   epss  EPSS (Exploit Prediction Scoring System, FIRST): the probability
  *         that the CVE is exploited in the wild within 30 days, and its
@@ -13,29 +12,40 @@
  *   published  when each advisory became public (OSV.dev: the earlier of the
  *         record's `published` and NVD's publication date), so a reader
  *         tells a years-old flaw from this week's one. Dates never change,
- *         so they are kept in _data/advisoryPublished.json and only new ids
- *         are looked up.
+ *         so they are kept in advisoryPublished.json next to the database
+ *         and only new ids are looked up.
  *
  * Both say something about the advisory, nothing about the wallet: they sort
  * the triage queue and put a severity label in perspective, they decide
  * nothing (docs/dependency-check.md, "Triage"). A failing upstream must not
- * fail the site build: the file is then written without that part, or not at
- * all, and the panel shows no signal. ADVISORY_SIGNALS=off skips the step.
+ * fail the pass: the file is then written without that part, or not at all
+ * (the export keeps the previous pass's file), and the panel shows no signal
+ * for what is missing. SOURCE_ANALYSIS_SIGNALS=off skips the step.
  */
 
 import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
-import { join } from 'node:path';
-import { advisoryIdsOf } from '../src/dependency-triage.mjs';
+import { dirname, join } from 'node:path';
+import { DB_PATH } from './config.mjs';
 
-const SITE_DIR = process.env.SITE_DIR || '_site';
-const EXPORT_DIR = join(SITE_DIR, 'api', 'source-analysis');
 export const EPSS_URL = 'https://api.first.org/data/v1/epss';
 export const KEV_URL = 'https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json';
 export const OSV_VULN_URL = 'https://api.osv.dev/v1/vulns/';
-export const PUBLISHED_CACHE = join('_data', 'advisoryPublished.json');
+export const PUBLISHED_CACHE = join(dirname(DB_PATH), 'advisoryPublished.json');
 const BATCH = 100;
 const OSV_CONCURRENCY = 12;
 const TIMEOUT_MS = 30_000;
+
+// Every advisory id and alias in `releases` (the export's apps/<appId>.json).
+function advisoryIdsOf(releases = []) {
+  const ids = new Set();
+  for (const r of releases) {
+    for (const a of r?.advisories || []) {
+      if (a?.id) ids.add(a.id);
+      for (const alias of a?.aliases || []) ids.add(alias);
+    }
+  }
+  return ids;
+}
 
 // Every CVE id the export's analysed releases name, as id or alias.
 export function collectCves(appsDir) {
@@ -78,7 +88,7 @@ export function publishedOf(record) {
 }
 
 // { id: "YYYY-MM-DD" } for `ids`, from the cache and OSV.dev for the rest; a
-// failed lookup is left out (and tried again next build).
+// failed lookup is left out (and tried again next pass).
 export async function fetchPublished(ids, { fetchImpl = globalThis.fetch, url = OSV_VULN_URL, cache = {} } = {}) {
   const out = {};
   const missing = [];
@@ -142,7 +152,7 @@ function readCache(file) {
   }
 }
 
-export async function buildSignals({ exportDir = EXPORT_DIR, fetchImpl = globalThis.fetch, now = new Date(), log = console, publishedCache = PUBLISHED_CACHE } = {}) {
+export async function buildSignals({ exportDir, fetchImpl = globalThis.fetch, now = new Date(), log = console, publishedCache = PUBLISHED_CACHE } = {}) {
   const cves = collectCves(join(exportDir, 'apps'));
   const ids = collectAdvisoryIds(join(exportDir, 'apps'));
   const result = { cves: cves.size, epss: 0, kev: 0, published: 0, written: false, failed: [] };
@@ -175,30 +185,10 @@ export async function buildSignals({ exportDir = EXPORT_DIR, fetchImpl = globalT
   } else {
     result.failed.push(`OSV dates: ${parts[2].reason?.message || parts[2].reason}`);
   }
-  for (const f of result.failed) log.warn(`advisory signals: ${f} (the panel shows no such signal in this build)`);
+  for (const f of result.failed) log.warn(`advisory signals: ${f} (the panel shows no such signal until the next pass)`);
   if (out.epss || out.kev || out.published) {
     writeFileSync(join(exportDir, 'signals.json'), JSON.stringify(out));
     result.written = true;
   }
   return result;
-}
-
-async function main() {
-  if (process.env.ADVISORY_SIGNALS === 'off') {
-    console.log('advisory signals: skipped (ADVISORY_SIGNALS=off)');
-    return;
-  }
-  if (!existsSync(join(EXPORT_DIR, 'apps'))) {
-    console.log(`advisory signals: no export under ${EXPORT_DIR}, nothing to do`);
-    return;
-  }
-  const r = await buildSignals();
-  console.log(`advisory signals: ${r.cves} CVEs, EPSS for ${r.epss}, ${r.kev} on CISA's exploited list, publication date for ${r.published} advisories${r.written ? ` -> ${join(EXPORT_DIR, 'signals.json')}` : ', nothing written'}`);
-}
-
-if (process.argv[1] && import.meta.url === new URL(`file://${process.argv[1]}`).href) {
-  main().catch((err) => {
-    // Never fail the site build on a third-party feed.
-    console.warn(`advisory signals: ${err.message}`);
-  });
 }

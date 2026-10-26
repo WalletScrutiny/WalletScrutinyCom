@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Site build for Playwright E2E: same as build.mjs minus the .br files
- * (precompute | webpack | redirect map) -> jekyll -> source-analysis export + triage -> minify.
+ * (precompute | webpack | redirect map) -> jekyll -> (local source-analysis export) + triage statements -> minify.
  */
 
 import { spawn } from 'child_process';
@@ -35,7 +35,6 @@ async function main() {
   await run('bundle', ['exec', 'jekyll', 'build'], { JEKYLL_ENV: 'production' });
   await run('node', ['scripts/copy-source-analysis-export.mjs']);
   await run('node', ['scripts/build-dependency-triage.mjs']);
-  await run('node', ['scripts/build-advisory-signals.mjs']);
   await run('node', ['scripts/postprocess-site.mjs', '--no-brotli']);
 }
 

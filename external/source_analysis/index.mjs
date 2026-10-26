@@ -248,8 +248,22 @@ try {
       const { analyserVersion } = await import('./appAnalysis.mjs');
       const { apps, releases, dir } = exportAll(db, EXPORT_DIR, { analyser: analyserVersion() });
       console.log(`\nExported ${apps} apps, ${releases} releases to ${dir}`);
+      if (process.env.SOURCE_ANALYSIS_SIGNALS !== 'off') {
+        // EPSS, CISA's exploited list, publication dates; a failing feed only leaves its part out
+        const { buildSignals } = await import('./signals.mjs');
+        const s = await buildSignals({ exportDir: EXPORT_DIR });
+        console.log(`Advisory signals: ${s.cves} CVEs, EPSS for ${s.epss}, ${s.kev} on CISA's exploited list, publication date for ${s.published} advisories${s.written ? '' : ', nothing written'}`);
+      }
     } catch (error) {
       console.error(`\n✗  Export to ${EXPORT_DIR} failed:`, error.message);
+      errorCount++;
+    }
+    try {
+      const { publishExport } = await import('./publish.mjs');
+      const published = publishExport(EXPORT_DIR);
+      if (published.published) console.log(`Published the export to ${published.target}`);
+    } catch (error) {
+      console.error('\n✗  Publishing the export failed:', error.message);
       errorCount++;
     }
   }

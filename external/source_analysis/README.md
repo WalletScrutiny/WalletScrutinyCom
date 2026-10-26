@@ -160,10 +160,43 @@ developer's machine), which is why every advisory still needs its own
 decision.
 
 Sizes on the 2026-10-16 database: 59 apps, 81 releases, 31 MB in total,
-`index.json` 27 KB, the largest dependency list 1.5 MB (OneKey). How the files
-reach the site (Blossom blob plus pointer event, rsync, or a web server) is
-decided outside this module. Run it by hand with
-`node export.mjs --out <dir>` (`SOURCE_ANALYSIS_DB_PATH` selects the database).
+`index.json` 27 KB, the largest dependency list 1.5 MB (OneKey). Run it by
+hand with `node export.mjs --out <dir>` (`SOURCE_ANALYSIS_DB_PATH` selects the
+database).
+
+After the export, the pass writes `signals.json` into it (`signals.mjs`: EPSS,
+CISA's exploited list, publication dates per advisory; a feed that fails only
+leaves its part out, and the previous file stays when all fail;
+`SOURCE_ANALYSIS_SIGNALS=off` skips it).
+
+### Publishing the export
+
+The wallet pages fetch the export at page load from `/api/source-analysis/`,
+so new data must not wait for a site build. With
+`SOURCE_ANALYSIS_PUBLISH_TARGET` set, each pass ends by rsyncing the export
+there (`publish.mjs`; `--delay-updates --delete-delay`, so a page sees the
+old or the new export). A failed copy counts as a failed pass.
+
+| variable | value |
+|---|---|
+| `SOURCE_ANALYSIS_PUBLISH_TARGET` | rsync destination directory, `user@host:/srv/source-analysis` |
+| `SOURCE_ANALYSIS_PUBLISH_SSH` | the ssh command rsync uses, for the key: `ssh -i /etc/... -o StrictHostKeyChecking=yes` |
+
+On the web host, the directory must not be inside the site's webroot:
+`deploy:prod` empties `/var/www/walletscrutiny.com` on every deploy. nginx
+serves it under the site's path:
+
+```nginx
+location /api/source-analysis/ {
+    alias /srv/source-analysis/;
+    add_header Cache-Control "no-cache";
+}
+```
+
+Its user needs write access to that directory and nothing else. A key
+restricted to rsync (`command="rrsync /srv/source-analysis"` in
+`authorized_keys`) keeps it that way; rrsync reads paths relative to that
+directory, so the target is then `user@host:/`.
 
 Query the service database with the CLI in this folder:
 

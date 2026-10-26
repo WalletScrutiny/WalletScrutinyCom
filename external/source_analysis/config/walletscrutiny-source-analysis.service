@@ -24,6 +24,9 @@ Environment=SOURCE_ANALYSIS_CACHE_DIR=/var/cache/walletscrutiny-source-analysis/
 Environment=SOURCE_ANALYSIS_CACHE_MAX_GB=20
 # Static JSON export written at the end of each pass (README, "Static export"); unset = no export
 #Environment=SOURCE_ANALYSIS_EXPORT_DIR=/var/lib/walletscrutiny-source-analysis/export
+# Copy the export to the web server after each pass (README, "Publishing the export"); unset = no copy
+#Environment=SOURCE_ANALYSIS_PUBLISH_TARGET=source-analysis@walletscrutiny.com:/srv/source-analysis
+#Environment="SOURCE_ANALYSIS_PUBLISH_SSH=ssh -i /etc/walletscrutiny-source-analysis/publish_ed25519 -o StrictHostKeyChecking=yes"
 # The analysed repositories are untrusted: clone, install and checks run in a
 # throwaway container (containerRunner.mjs: no token, no database, no docker
 # socket, capabilities dropped, read-only root, memory/cpu/pid limits, timeout;
