@@ -2,7 +2,7 @@
 // No network; fetchGitHubAssets takes the GET function.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { fetchGitHubAssets } from '../utils.mjs';
+import { fetchGitHubAssets, releaseNotBefore } from '../utils.mjs';
 
 const HASH = 'ab'.repeat(32);
 
@@ -25,6 +25,38 @@ function release(tag, name = 'app.apk') {
     }],
   };
 }
+
+test('releaseNotBefore is the same month and day, three years earlier', () => {
+  assert.equal(releaseNotBefore(3, Date.parse('2026-10-26T12:00:00Z')), Date.parse('2023-10-26T12:00:00Z'));
+});
+
+test('fetchGitHubAssets stops at the first release older than the cutoff and does not ask for another page', async () => {
+  let calls = 0;
+  const warnings = [];
+  const original = console.warn;
+  console.warn = (...args) => warnings.push(args.join(' '));
+  const notBefore = Date.parse('2023-10-26T00:00:00Z');
+  try {
+    const get = async () => {
+      calls++;
+      const recent = Array.from({ length: 98 }, (_, i) => ({ ...release(`v${i}`, `app-${i}.apk`), published_at: '2026-01-01T00:00:00Z' }));
+      return {
+        data: [
+          ...recent,
+          { ...release('v-boundary', 'boundary.apk'), published_at: '2023-10-26T00:00:00Z' },
+          { ...release('v-old', 'old.apk'), published_at: '2020-01-01T00:00:00Z' },
+        ],
+      };
+    };
+    const assets = await fetchGitHubAssets('https://github.com/brave/brave-browser', 'token', { get, delayMs: 0, notBefore });
+    assert.equal(assets.length, 99);
+    assert.equal(assets.at(-1).version, 'v-boundary');
+    assert.equal(calls, 1);
+    assert.match(warnings.join('\n'), /stopped at v-old \(2020-01-01T00:00:00Z\): older than 2023-10-26/);
+  } finally {
+    console.warn = original;
+  }
+});
 
 test('fetchGitHubAssets keeps releases already fetched when GitHub caps the list with 422', async () => {
   let calls = 0;

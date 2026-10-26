@@ -144,9 +144,10 @@ listed as aliases. URLs are normalised (`.git`, trailing slash, `/releases`,
 `/tags`, `/tree/...`, `www.`), and URLs that name no repository (user or
 organisation pages, or a `#deadLink`) are skipped with a warning. A
 repository GitHub answers 404 for is logged as not found and does not fail
-the pass. GitHub caps the release list (1000 results without a token, 10000
-with one) and answers 422 past that; the pass keeps the releases already
-fetched, which are the newest. The oneshot exits 1 only when some other
+the pass. Release assets are recorded for the last 3 years
+(`RELEASE_MAX_AGE_YEARS`); GitHub lists newest first and the walk stops at
+the first older release. A 422 from the result cap keeps whatever was
+already fetched. The oneshot exits 1 only when some other
 per-app error remains (the summary line counts succeeded, failed and not
 found separately).
 
@@ -220,7 +221,7 @@ Nothing from the analysed repository is executed or installed for any of this: t
 ## How it works
 
 1. **GitHub Assets**: 
-   - Fetches all releases from the GitHub repository using the GitHub API
+   - Fetches releases from the last 3 years (`RELEASE_MAX_AGE_YEARS` in `config.mjs`). GitHub lists newest first, and the walk stops at the first older release
    - For each release, processes all binary assets
    - **Uses the `digest` field directly from the GitHub API** - GitHub provides SHA256 checksums automatically since 2025
    - Extracts SHA256 from the digest field (handles formats like `sha256:hash` or direct hash)

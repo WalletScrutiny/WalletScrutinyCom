@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { readFileSync } from 'fs';
 import { getPreviousReleases, getPreviousAssetVersions } from './ddbbUtils.mjs';
-import { GITHUB_API_BASE, DOCKER_HUB_API_BASE, SIZE_CHANGE_THRESHOLD_PERCENT } from './config.mjs';
+import { GITHUB_API_BASE, DOCKER_HUB_API_BASE, SIZE_CHANGE_THRESHOLD_PERCENT, RELEASE_MAX_AGE_YEARS } from './config.mjs';
 
 // Secrets come from a file named by an environment variable (the systemd unit
 // passes its LoadCredential files this way, same as build_server), with the
@@ -55,19 +55,33 @@ async function getWithRetry(get, url, config, { attempts = 3, delayMs = 1000 } =
   throw lastError;
 }
 
+// Releases published at or after this instant are recorded. GitHub returns
+// the list newest first, so the walk stops at the first older one.
+export function releaseNotBefore(years = RELEASE_MAX_AGE_YEARS, now = Date.now()) {
+  const cutoff = new Date(now);
+  cutoff.setUTCFullYear(cutoff.getUTCFullYear() - years);
+  return cutoff.getTime();
+}
+
+function releaseInstant(release) {
+  const raw = release?.published_at || release?.created_at;
+  if (!raw) return null;
+  const ms = Date.parse(raw);
+  return Number.isNaN(ms) ? null : ms;
+}
+
 // Fetch GitHub releases and their assets.
-// `get` and the retry timing are injectable for tests.
-export async function fetchGitHubAssets(repoUrl, githubToken = null, { get = axios.get, attempts = 3, delayMs = 1000 } = {}) {
+// `get`, the retry timing and `notBefore` are injectable for tests.
+export async function fetchGitHubAssets(repoUrl, githubToken = null, { get = axios.get, attempts = 3, delayMs = 1000, notBefore = releaseNotBefore() } = {}) {
   const repoPath = extractRepoPath(repoUrl);
   const headers = githubToken ? { 'Authorization': `token ${githubToken}` } : {};
 
   const assets = [];
 
   try {
-    // Fetch all releases. GitHub caps this list (1000 results without a
-    // token, 10000 with one) and answers 422 past the cap, even when the
-    // Link header still names that page. The newest releases are the first
-    // pages, so stopping there keeps what a pass needs.
+    // Newest first. Stop at the first release older than notBefore. GitHub
+    // also caps the list and answers 422 past that, even when the Link
+    // header still names the page; the releases already fetched are kept.
     let page = 1;
     let hasMore = true;
 
@@ -92,8 +106,16 @@ export async function fetchGitHubAssets(repoUrl, githubToken = null, { get = axi
         break;
       }
 
+      let reachedAgeCutoff = false;
       for (const release of response.data) {
         const version = release.tag_name;
+        const publishedMs = releaseInstant(release);
+        if (publishedMs !== null && publishedMs < notBefore) {
+          const when = release.published_at || release.created_at;
+          console.warn(`  GitHub release list for ${repoPath} stopped at ${version} (${when}): older than ${new Date(notBefore).toISOString().slice(0, 10)}`);
+          reachedAgeCutoff = true;
+          break;
+        }
 
         // Process release assets
         if (release.assets && release.assets.length > 0) {
@@ -146,7 +168,7 @@ export async function fetchGitHubAssets(repoUrl, githubToken = null, { get = axi
         }
       }
 
-      if (response.data.length < 100) {
+      if (reachedAgeCutoff || response.data.length < 100) {
         hasMore = false;
       } else {
         page++;
