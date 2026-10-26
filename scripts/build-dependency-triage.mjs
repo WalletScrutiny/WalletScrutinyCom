@@ -150,8 +150,11 @@ export function buildTriage({ events = [], snapshotFile = SNAPSHOT_FILE, trusted
   const snapshot = acceptEvents(snapshotEvents.filter(e => !isDeletion(e)), { kind, verify });
   const fresh = acceptEvents(events.filter(e => !isDeletion(e)), { kind, verify });
   const deletionEvents = [...snapshotEvents, ...events].filter(isDeletion);
-  // only requests by someone who has written a statement: anyone can sign a kind 5, and the snapshot is committed
-  const authors = new Set([...snapshot.accepted, ...fresh.accepted].map(x => x.event.pubkey));
+  // only requests by someone who has written a statement: anyone can sign a kind 5, and the snapshot is committed.
+  // A request already in the snapshot passed that test when it was written; its statement is gone by then, so
+  // without it the request would drop out and a relay still holding the statement would bring it back.
+  const authors = new Set([...snapshot.accepted, ...fresh.accepted].map(x => x.event.pubkey)
+    .concat(snapshotEvents.filter(isDeletion).map(e => e.pubkey)));
   const deletionsById = new Map(acceptDeletions(deletionEvents, { kind, verify }).filter(e => authors.has(e.pubkey)).map(e => [e.id, e]));
   const deletions = [...deletionsById.values()];
   // newest per (author, subject) across both sources, then what its author deleted
