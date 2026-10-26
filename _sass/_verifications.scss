@@ -1415,6 +1415,25 @@ body.dark #verificationModalToolbar .share-dropdown-menu a:focus-visible img {
   margin-bottom: 0em;
 }
 
+/* Report markdown: global heading sizes/margins (_base.scss) are far too big
+   here, so scale them down but keep the hierarchy. */
+#verificationContent .markdown-content :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0.8em 0 0.3em;
+  line-height: 1.3;
+}
+#verificationContent .markdown-content h1 { font-size: 1.3em; }
+#verificationContent .markdown-content h2 { font-size: 1.2em; }
+#verificationContent .markdown-content h3 { font-size: 1.1em; }
+#verificationContent .markdown-content :is(h4, h5, h6) { font-size: 1em; }
+
+/* Desktop: smaller table headers in the report. */
+@media screen and (min-width: 769px) {
+  #verificationContent .markdown-content th {
+    font-size: 0.85em;
+    padding: 6px 8px;
+  }
+}
+
 /* No horizontal scrolling: long lines wrap to the modal width. */
 #verificationContent .markdown-content pre,
 #verificationContent .markdown-content pre code {
