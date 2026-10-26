@@ -50,6 +50,19 @@ export function tagMatchesVersion(ref, storeVersion) {
   return tag === store || tag.split(/[-+]/)[0] === store.split(/[-+]/)[0];
 }
 
+// The analysed release for a version picked in "Every version"
+// (src/build-verifications.mjs), or null when none was analysed. The version
+// digits must agree; only a plain version ("1.4.0") also takes a tag with a
+// suffix (v1.4.0-android), so a picked beta never shows the final release.
+export function releaseForVersion(app, version) {
+  const releases = Array.isArray(app?.releases) ? app.releases : [];
+  const core = versionCore(version);
+  if (!core) return null;
+  return releases.find(r => versionCore(r.ref) === core)
+    || (/[-+]/.test(core) ? null : releases.find(r => versionCore(r.ref).split(/[-+]/)[0] === core))
+    || null;
+}
+
 // Public per-CVE signals (scripts/build-advisory-signals.mjs, signals.json):
 // the advisory's EPSS probability and percentile, and whether CISA lists it
 // as exploited, and the date it became public. Looked up by id or alias;
@@ -169,10 +182,11 @@ export function apkSummary(apk) {
  * null when nobody has said anything yet; `signals` is signals.json (EPSS,
  * exploited list) or null; `upstream` the wallet's harvested ignore-file
  * entries (upstreamFor) or null; `apk` the released APK's check
- * (apk/<appId>.json) or null. Returns null when the app has no analysed
- * release.
+ * (apk/<appId>.json) or null. `selectedVersion` is the version picked in
+ * "Every version" that `release` was looked up for. Returns null when the app
+ * has no analysed release.
  */
-export function panelModel(app, { storeVersion = '', release = null, triage = null, signals = null, upstream = null, apk = null } = {}) {
+export function panelModel(app, { storeVersion = '', release = null, selectedVersion = null, triage = null, signals = null, upstream = null, apk = null } = {}) {
   const releases = Array.isArray(app?.releases) ? app.releases : [];
   // The newest release whose analysis worked; a newer one that failed is reported, not shown.
   const current = (release && releases.find(r => r.ref === release)) || releases.find(r => (r.status || 'ok') === 'ok') || releases[0];
@@ -200,6 +214,7 @@ export function panelModel(app, { storeVersion = '', release = null, triage = nu
     status: current.status || 'ok',
     error: current.error || null,
     storeVersion: storeVersion || null,
+    selectedVersion: selectedVersion || null,
     versionMatches: storeVersion ? tagMatchesVersion(current.ref, storeVersion) : null,
     packages: current.dependencies?.total ?? 0,
     direct: current.dependencies?.direct ?? 0,

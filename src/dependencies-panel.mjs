@@ -7,7 +7,7 @@
 import * as nip19 from 'nostr-tools/nip19';
 import { el } from './html-utils.mjs';
 import {
-  panelModel, whereOf, whereLabel, safeName, csvOf, SEVERITY_ORDER, SEVERITY_LABEL,
+  panelModel, releaseForVersion, whereOf, whereLabel, safeName, csvOf, SEVERITY_ORDER, SEVERITY_LABEL,
 } from './dependencies-panel-model.mjs';
 import { TRIAGE_LABEL, JUSTIFICATION_LABEL, triageStateOf, withStatement } from './dependency-triage.mjs';
 import { openTriageDialog } from './dependencies-triage-form.mjs';
@@ -458,10 +458,10 @@ function notices(model) {
       malicious.map(a => `${a.package}@${a.version} (${a.id})`).join(', '),
       ` is listed on OSV.dev as malicious. A person is checking whether the lockfile really installs that registry package; until then this is a lead, not a finding. It matters even when only the build uses it: build code can change the app.`));
   }
-  if (model.storeVersion && model.versionMatches === false) {
+  if (!model.selectedVersion && model.storeVersion && model.versionMatches === false) {
     items.push(`The store version ${model.storeVersion} has not been checked yet; ${model.ref} is the newest release the source analysis looked at.`);
   }
-  for (const f of model.newerFailed) {
+  for (const f of model.selectedVersion ? [] : model.newerFailed) {
     items.push(`The check of ${f.ref} failed${f.error ? ` (${f.error})` : ''}; showing the last release that was checked.`);
   }
   if (model.sameRepositoryAs.length) {
@@ -627,8 +627,57 @@ export function publishedFlash(statement, summary) {
  * `nostr` overrides the dialog's signer and relays, `profiles(pubkeys)` the
  * signer-name lookup (tests).
  */
-export async function renderDependenciesPanel({ host, appId, storeVersion = '', title = '', base = EXPORT_BASE, fetchImpl = globalThis.fetch, nostr = undefined, profiles = undefined }) {
+// Shown instead of the panel when the version picked in "Every version" has no
+// analysis: which releases do, each a button that picks its stone when the
+// river has one.
+function notAnalysedElement(version, app, platform, failed) {
+  const river = typeof document !== 'undefined' ? document.getElementById(`buildVerifications-${platform}`) : null;
+  const analysed = (app.releases || []).filter(r => (r.status || 'ok') === 'ok');
+  const refs = analysed.map((r) => {
+    const stone = river && [...river.querySelectorAll('.bv-stone[data-version-key]')]
+      .find(b => releaseForVersion({ releases: [r] }, b.dataset.versionKey));
+    if (!stone) return el('b', {}, r.ref);
+    const pick = el('button', { type: 'button', className: 'dp-pick-version' }, r.ref);
+    pick.addEventListener('click', () => stone.click());
+    return pick;
+  });
+  const list = el('span', {});
+  refs.forEach((r, i) => { if (i) list.append(', '); list.append(r); });
+  return el('div', { className: 'dp-panel dp-panel--not-analysed' },
+    el('p', { className: 'dp-headline' },
+      failed
+        ? `The dependency check of version ${version} (${failed.ref}) failed${failed.error ? ` (${failed.error})` : ''}.`
+        : `Version ${version} has not been checked for dependencies.`),
+    refs.length ? el('p', {}, analysed.length === 1 ? 'Checked: ' : 'Checked releases: ', list, '.') : null,
+  );
+}
+
+// The version picked in "Every version" (src/build-verifications.mjs keeps it
+// on its host), or null before that section is painted.
+function pickedVersion(platform) {
+  if (typeof document === 'undefined') return null;
+  const river = document.getElementById(`buildVerifications-${platform}`);
+  return (river && !river.hidden && river.dataset.selectedVersion) || null;
+}
+
+/**
+ * Paints the panel into [host] for the release the "Every version" section of
+ * [platform] has picked, and follows it when another version is picked
+ * (`buildVersionSelected`); the newest analysed release until that section is
+ * painted, or when the page has none. `selectedVersion` overrides the pick.
+ */
+export async function renderDependenciesPanel({ host, appId, platform = 'app', selectedVersion = undefined, storeVersion = '', title = '', base = EXPORT_BASE, fetchImpl = globalThis.fetch, nostr = undefined, profiles = undefined }) {
   if (!host || !appId) return null;
+  let selected = selectedVersion === undefined ? pickedVersion(platform) : selectedVersion;
+  let ready = false;
+  if (selectedVersion === undefined && typeof document !== 'undefined') {
+    // Listening before the export loads: a pick made meanwhile is not lost.
+    document.addEventListener('buildVersionSelected', (event) => {
+      if (event.detail?.platform !== platform || event.detail.version === selected) return;
+      selected = event.detail.version || null;
+      if (ready) paint();
+    });
+  }
   let app = null;
   let triage = null;
   let signals = null;
@@ -654,7 +703,13 @@ export async function renderDependenciesPanel({ host, appId, storeVersion = '', 
   let trusted = triage?.trusted || [];
   if (!trusted.length && app?.releases?.some(r => r.advisories?.length)) trusted = (await loadTrusted({ base, fetchImpl })).trusted;
   const paint = (extra = {}) => {
-    model = panelModel(app, { storeVersion, triage, signals, upstream, apk });
+    const release = selected ? releaseForVersion(app, selected) : null;
+    if (selected && (!release || (release.status || 'ok') !== 'ok') && app?.releases?.length) {
+      model = { ref: release?.ref || null, selectedVersion: selected, notAnalysed: true };
+      host.replaceChildren(notAnalysedElement(selected, app, platform, release));
+      return model;
+    }
+    model = panelModel(app, { storeVersion, release: release?.ref || null, selectedVersion: release ? selected : null, triage, signals, upstream, apk });
     if (!model) return null;
     host.replaceChildren(panelElement(model, { appId: analysisId, wallet: title || analysisId, base, fetchImpl, onJudge, trusted: triage?.trusted?.length ? triage.trusted : trusted, ...extra }));
     nameSigners(host, profiles === undefined ? defaultProfiles : profiles);
@@ -684,6 +739,7 @@ export async function renderDependenciesPanel({ host, appId, storeVersion = '', 
     });
   }
 
+  ready = true;
   if (!paint()) {
     host.hidden = true;
     return null;

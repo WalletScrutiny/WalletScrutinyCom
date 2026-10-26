@@ -3,7 +3,7 @@ import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
 import { loadApp, renderDependenciesPanel, panelElement, usedBy, severityTally } from '../../src/dependencies-panel.mjs';
-import { panelModel } from '../../src/dependencies-panel-model.mjs';
+import { panelModel, releaseForVersion } from '../../src/dependencies-panel-model.mjs';
 import { nip19 } from 'nostr-tools';
 
 const shortNpub = (pk) => { const n = nip19.npubEncode(pk); return `${n.slice(0, 10)}…${n.slice(-4)}`; };
@@ -240,5 +240,60 @@ describe('dependencies panel', () => {
     assert.match(node.querySelector('.dp-notices .dp-malware').textContent, /^Possible malware: evil@6\.6\.6 \(MAL-2025-1\) is listed on OSV\.dev as malicious/);
     const tile = [...node.querySelectorAll('.dp-tile')].find(t => t.querySelector('.dp-tile__label').textContent === 'possible malware');
     assert.ok(tile.classList.contains('dp-tile--bad'));
+  });
+
+  test('releaseForVersion: the version digits must agree; a beta never takes the final release', () => {
+    const app = { releases: [{ ref: 'v2.0.0-beta1' }, { ref: 'android-v1.4.0' }, { ref: 'v1.3.0-android' }] };
+    assert.equal(releaseForVersion(app, '1.4.0').ref, 'android-v1.4.0');
+    assert.equal(releaseForVersion(app, '1.3.0').ref, 'v1.3.0-android', 'a plain version takes a tag with a suffix');
+    assert.equal(releaseForVersion(app, '2.0.0-beta1').ref, 'v2.0.0-beta1');
+    assert.equal(releaseForVersion(app, '1.4.0-beta2'), null);
+    assert.equal(releaseForVersion(app, '1.4'), null);
+    assert.equal(releaseForVersion(app, 'latest'), null);
+  });
+
+  test('the panel follows the version picked in "Every version"', async () => {
+    const older = { ...APP.releases[0], ref: 'v1.3.0', commit: 'f0f0f0f0', advisories: [advisory('GHSA-old', 'low')], vulnerabilities: { total: 1, bySeverity: { low: 1 }, packages: 1 } };
+    const app = { ...APP, releases: [APP.releases[0], older, { ref: 'v1.2.0', status: 'failed', error: 'no lockfile' }] };
+    const { fetchImpl } = fakeFetch({ '/x/apps/app.android.json': app });
+    const river = document.createElement('div');
+    river.id = 'buildVerifications-android';
+    river.dataset.selectedVersion = '1.3.0';
+    for (const v of ['1.1.0', '1.3.0', '1.4.0']) {
+      const stone = document.createElement('button');
+      stone.className = 'bv-stone';
+      stone.dataset.versionKey = v;
+      river.appendChild(stone);
+    }
+    const host = document.createElement('div');
+    document.body.append(river, host);
+    const pick = (version) => river.dispatchEvent(new window.CustomEvent('buildVersionSelected', { bubbles: true, detail: { platform: 'android', version } }));
+
+    const model = await renderDependenciesPanel({ host, appId: 'app.android', platform: 'android', storeVersion: '1.4.2', base: '/x', fetchImpl });
+    assert.equal(model.ref, 'v1.3.0', 'the version already picked when the export arrives');
+    assert.match(host.querySelector('.dp-headline').textContent, /Checked release v1\.3\.0/);
+    assert.equal(host.querySelector('tbody tr td a').textContent, 'GHSA-old');
+    assert.doesNotMatch(host.querySelector('.dp-notices')?.textContent || '', /store version/, 'the picked version is shown, not the newest');
+
+    pick('1.4.0');
+    assert.match(host.querySelector('.dp-headline').textContent, /Checked release v1\.4\.0/);
+    assert.equal(host.querySelector('tbody tr td a').textContent, 'GHSA-crit');
+
+    pick('1.1.0');
+    assert.equal(host.querySelector('tbody'), null);
+    assert.equal(host.querySelector('.dp-headline').textContent, 'Version 1.1.0 has not been checked for dependencies.');
+    assert.equal(host.querySelector('.dp-panel--not-analysed p:last-child').textContent, 'Checked releases: v1.4.0, v1.3.0.');
+    let clicked = null;
+    river.addEventListener('click', (e) => { clicked = e.target.dataset.versionKey; });
+    host.querySelectorAll('.dp-pick-version')[1].click();
+    assert.equal(clicked, '1.3.0', 'a checked release picks its stone');
+
+    pick('1.2.0');
+    assert.equal(host.querySelector('.dp-headline').textContent, 'The dependency check of version 1.2.0 (v1.2.0) failed (no lockfile).');
+
+    river.dispatchEvent(new window.CustomEvent('buildVersionSelected', { bubbles: true, detail: { platform: 'iphone', version: '1.4.0' } }));
+    assert.match(host.querySelector('.dp-headline').textContent, /failed/, 'another platform\'s pick is ignored');
+    river.remove();
+    host.remove();
   });
 });
