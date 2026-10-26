@@ -387,8 +387,13 @@ verdict change.
 
 ## Open decisions (2026-10-16)
 
-1. Transport of the export to the site: Blossom blob plus signed pointer
-   event (recommended, same path as the build verifications) or rsync.
+1. Transport of the export to the site: decided 2026-10-26 (Luis), no site
+   build in the path. The analyser rsyncs its export, `signals.json`
+   included, to the web server after every pass, and nginx serves it under
+   `/api/source-analysis/` (`external/source_analysis/README.md`,
+   "Publishing the export"). Triage statements come from the relay at page
+   load, on top of the snapshot the site build publishes under
+   `/api/dependency-triage/`. Only the trusted list needs a site build.
 2. Whether the panel shape above is final, so the branch can be split into
    reviewable merge requests (build-script step, analyser, panel).
 3. The platform-SDK question under the closed-source rule.

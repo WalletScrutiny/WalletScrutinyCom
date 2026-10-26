@@ -2,13 +2,16 @@
 /**
  * Publish the dependency triage statements (src/dependency-triage.mjs: Nostr
  * events, one per author and (advisory, direct user), saying whether an
- * advisory affects whoever uses the package that way) next to the
- * source-analysis export, as _site/api/source-analysis/triage/<appId>.json
- * per wallet: the statements that concern one of the wallet's advisories,
- * plus the trusted authors and the listed maintainers per package
- * (_data/dependencyTriage.yml), and the two lists alone as
- * triage/_trusted.json. The wallet page's Dependencies panel
- * resolves each row from them.
+ * advisory affects whoever uses the package that way) for the wallet pages,
+ * under _site/api/dependency-triage/:
+ *
+ *   statements.json  every statement seen so far (newest per author and
+ *                    subject, parsed), the deletion requests, and the trusted
+ *                    authors and listed maintainers per package
+ *                    (_data/dependencyTriage.yml). The page merges in what
+ *                    the relay has now (mergeLiveTriage), so the statements
+ *                    here are the fallback for what a relay dropped, not the
+ *                    freshness; only the two lists need a site build to change.
  *
  * Sources, merged, newest per (author, subject) wins:
  *   - the relays (dependencyTriageKind, every author: who signed decides the
@@ -24,21 +27,19 @@
  * Requests are kept in the snapshot too, so a relay that still serves the
  * statement does not bring it back.
  *
- * Runs after copy-source-analysis-export.mjs, which recreates the target
- * directory; without an export there is nothing to publish per wallet.
+ * Kept apart from /api/source-analysis/, which the analyser publishes to the
+ * web server itself (external/source_analysis/publish.mjs).
  */
 
-import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import yaml from 'js-yaml';
 import { SimplePool, verifyEvent, nip19 } from 'nostr-tools';
-import { dependencyTriageKind, statementFromEvent, newestStatements, advisoryIdsOf } from '../src/dependency-triage.mjs';
-import { safeName } from '../src/dependencies-panel-model.mjs';
+import { dependencyTriageKind, DELETION_KIND, acceptEvents, acceptDeletions, isDeleted, mergeTriageEvents } from '../src/dependency-triage.mjs';
 import { eventRelayUrls, mainRelayUrl } from '../src/nostr-constants.mjs';
 
 const SITE_DIR = process.env.SITE_DIR || '_site';
-const EXPORT_DIR = join(SITE_DIR, 'api', 'source-analysis');
-const TARGET = join(EXPORT_DIR, 'triage');
+const TARGET = join(SITE_DIR, 'api', 'dependency-triage');
 export const SNAPSHOT_FILE = join('_data', 'dependencyTriageEvents.json');
 export const TRUSTED_FILE = join('_data', 'dependencyTriage.yml');
 export const TRIAGE_RELAY_URLS = [...new Set([mainRelayUrl, ...eventRelayUrls])];
@@ -64,35 +65,7 @@ export function listedMaintainers(file = TRUSTED_FILE) {
   return out;
 }
 
-const DELETION_KIND = 5;
-
-// Signed deletion requests for statements (NIP-09 with a `k` tag naming the kind).
-export function acceptDeletions(events, { kind = dependencyTriageKind, verify = verifyEvent } = {}) {
-  return (events || []).filter(e => e?.kind === DELETION_KIND && Array.isArray(e.tags)
-    && e.tags.some(t => t[0] === 'k' && t[1] === String(kind)) && verify(e));
-}
-
-// Whether a deletion request by the statement's own author removes it.
-export function isDeleted(statement, deletions, { kind = dependencyTriageKind } = {}) {
-  const coordinate = `${kind}:${statement.pubkey}:${statement.d}`;
-  return deletions.some(del => del.pubkey === statement.pubkey && del.tags.some(t =>
-    (t[0] === 'e' && t[1] === statement.id) || (t[0] === 'a' && t[1] === coordinate && del.created_at >= statement.created_at)));
-}
-
-// Signed, well-formed statements from a list of events; anything else is dropped and counted.
-export function acceptEvents(events, { kind = dependencyTriageKind, verify = verifyEvent } = {}) {
-  const accepted = [];
-  let rejected = 0;
-  for (const event of events || []) {
-    const statement = statementFromEvent(event, { kind });
-    if (!statement || !verify(event)) {
-      rejected++;
-      continue;
-    }
-    accepted.push({ event, statement });
-  }
-  return { accepted, rejected };
-}
+export { acceptEvents, acceptDeletions, isDeleted };
 
 export function readSnapshot(file = SNAPSHOT_FILE) {
   if (!existsSync(file)) return [];
@@ -123,73 +96,24 @@ export async function pullEvents({ relayUrls = TRIAGE_RELAY_URLS, kind = depende
   }
 }
 
-// The export's wallets and the advisory ids their analysed releases name; alias stubs are skipped.
-function exportApps(appsDir) {
-  const apps = new Map();
-  if (!existsSync(appsDir)) return apps;
-  for (const file of readdirSync(appsDir).filter(f => f.endsWith('.json'))) {
-    let doc;
-    try {
-      doc = JSON.parse(readFileSync(join(appsDir, file), 'utf8'));
-    } catch {
-      continue;
-    }
-    if (!doc || doc.alias || !doc.appId || !Array.isArray(doc.releases)) continue;
-    apps.set(doc.appId, { ids: advisoryIdsOf(doc.releases), aliases: (doc.aliases || []).map(a => a.appId).filter(Boolean) });
-  }
-  return apps;
-}
-
 /**
- * Merge snapshot and relay events, publish per wallet, update the snapshot.
- * Pure apart from the files it is given; `events` are the relay's.
+ * Merge snapshot and relay events, write statements.json, update the
+ * snapshot. Pure apart from the files it is given; `events` are the relay's.
  */
-export function buildTriage({ events = [], snapshotFile = SNAPSHOT_FILE, trustedFile = TRUSTED_FILE, exportDir = EXPORT_DIR, target = join(exportDir, 'triage'), kind = dependencyTriageKind, verify = verifyEvent, writeSnapshot = true } = {}) {
-  const isDeletion = e => e?.kind === DELETION_KIND;
+export function buildTriage({ events = [], snapshotFile = SNAPSHOT_FILE, trustedFile = TRUSTED_FILE, target = TARGET, kind = dependencyTriageKind, verify = verifyEvent, writeSnapshot = true } = {}) {
   const snapshotEvents = readSnapshot(snapshotFile);
-  const snapshot = acceptEvents(snapshotEvents.filter(e => !isDeletion(e)), { kind, verify });
-  const fresh = acceptEvents(events.filter(e => !isDeletion(e)), { kind, verify });
-  const deletionEvents = [...snapshotEvents, ...events].filter(isDeletion);
-  // only requests by someone who has written a statement: anyone can sign a kind 5, and the snapshot is committed.
-  // A request already in the snapshot passed that test when it was written; its statement is gone by then, so
-  // without it the request would drop out and a relay still holding the statement would bring it back.
-  const authors = new Set([...snapshot.accepted, ...fresh.accepted].map(x => x.event.pubkey)
-    .concat(snapshotEvents.filter(isDeletion).map(e => e.pubkey)));
-  const deletionsById = new Map(acceptDeletions(deletionEvents, { kind, verify }).filter(e => authors.has(e.pubkey)).map(e => [e.id, e]));
-  const deletions = [...deletionsById.values()];
-  // newest per (author, subject) across both sources, then what its author deleted
-  const byId = new Map([...snapshot.accepted, ...fresh.accepted].map(x => [x.event.id, x]));
-  const newest = newestStatements([...byId.values()].map(x => x.statement));
-  const statements = newest.filter(s => !isDeleted(s, deletions, { kind }));
-  const keep = new Set(statements.map(s => s.id));
-  const kept = [...byId.values()].filter(x => keep.has(x.event.id)).map(x => x.event);
+  const merged = mergeTriageEvents(snapshotEvents, events, { kind, verify });
   const trusted = trustedAuthors(trustedFile);
   const maintainers = listedMaintainers(trustedFile);
-
-  const rejectedDeletions = deletionEvents.filter(e => !deletionsById.has(e.id)).length;
-  const result = { statements: statements.length, trusted: trusted.length, rejected: snapshot.rejected + fresh.rejected + rejectedDeletions, deleted: newest.length - statements.length, apps: 0, published: 0, snapshotChanged: false };
-  const before = JSON.stringify(snapshotEvents.map(e => e.id).sort());
-  const toWrite = [...kept, ...deletions];
-  const after = JSON.stringify(toWrite.map(e => e.id).sort());
-  if (writeSnapshot && before !== after) {
-    toWrite.sort((a, b) => a.created_at - b.created_at || a.id.localeCompare(b.id));
+  const result = { statements: merged.statements.length, trusted: trusted.length, rejected: merged.rejected, deleted: merged.deleted, published: 0, snapshotChanged: false };
+  const toWrite = [...merged.kept, ...merged.deletions].sort((a, b) => a.created_at - b.created_at || a.id.localeCompare(b.id));
+  if (writeSnapshot && JSON.stringify(snapshotEvents.map(e => e.id).sort()) !== JSON.stringify(toWrite.map(e => e.id).sort())) {
     writeFileSync(snapshotFile, `${JSON.stringify(toWrite, null, 1)}\n`);
     result.snapshotChanged = true;
   }
-
-  const apps = exportApps(join(exportDir, 'apps'));
-  if (!apps.size) return result;
   mkdirSync(target, { recursive: true });
-  // The trusted list on its own, for wallets without a file yet: the panel's
-  // Judge dialog tells a signer whether their statement settles rows.
-  writeFileSync(join(target, '_trusted.json'), JSON.stringify({ schema: 2, trusted, maintainers }));
-  for (const [appId, { ids }] of apps) {
-    const mine = statements.filter(s => s.vulns.some(v => ids.has(v)));
-    if (!mine.length) continue;
-    writeFileSync(join(target, `${safeName(appId)}.json`), JSON.stringify({ schema: 4, appId, trusted, maintainers, statements: mine }));
-    result.apps += 1;
-    result.published += mine.length;
-  }
+  writeFileSync(join(target, 'statements.json'), JSON.stringify({ schema: 1, trusted, maintainers, statements: merged.statements, deletions: merged.deletions }));
+  result.published = merged.statements.length;
   return result;
 }
 
@@ -197,7 +121,7 @@ async function main() {
   if (!existsSync(SITE_DIR)) throw new Error(`${SITE_DIR} does not exist; run after the Jekyll build`);
   const events = process.env.DEPENDENCY_TRIAGE_RELAYS === 'off' ? [] : await pullEvents();
   const r = buildTriage({ events });
-  console.log(`dependency triage: ${r.statements} statement(s) by any author (${r.rejected} event(s) rejected, ${r.deleted} deleted by their author), ${r.trusted} trusted author(s); ${r.published} published for ${r.apps} wallet(s) -> ${TARGET}${r.snapshotChanged ? `; ${SNAPSHOT_FILE} updated` : ''}`);
+  console.log(`dependency triage: ${r.statements} statement(s) by any author (${r.rejected} event(s) rejected, ${r.deleted} deleted by their author), ${r.trusted} trusted author(s); ${r.published} published -> ${TARGET}${r.snapshotChanged ? `; ${SNAPSHOT_FILE} updated` : ''}`);
 }
 
 if (process.argv[1] && import.meta.url === new URL(`file://${process.argv[1]}`).href) {

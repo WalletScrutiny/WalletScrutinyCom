@@ -9,14 +9,20 @@ import { el } from './html-utils.mjs';
 import {
   panelModel, releaseForVersion, whereOf, whereLabel, safeName, csvOf, SEVERITY_ORDER, SEVERITY_LABEL,
 } from './dependencies-panel-model.mjs';
-import { TRIAGE_LABEL, JUSTIFICATION_LABEL, triageStateOf, withStatement } from './dependency-triage.mjs';
+import { TRIAGE_LABEL, JUSTIFICATION_LABEL, DELETION_KIND, triageStateOf, withStatement, mergeLiveTriage, triageForApp } from './dependency-triage.mjs';
+import { dependencyTriageKind, mainRelayUrl, eventRelayUrls } from './nostr-constants.mjs';
+import { fetchEvents } from './nostr-client.mjs';
 import { openTriageDialog } from './dependencies-triage-form.mjs';
 import { treeElement } from './dependencies-tree.mjs';
 import { epssTrigger } from './dependencies-epss-tip.mjs';
 
-// Where the export is served from. The transport (proxy on walletscrutiny.com,
-// Blossom blobs, rsync) is decided outside this module; only this constant moves.
+// Where the export is served from: the analyser copies it to the web server
+// after each pass (external/source_analysis/publish.mjs), no site build involved.
 export const EXPORT_BASE = (typeof window !== 'undefined' && window.WS_SOURCE_ANALYSIS_BASE) || '/api/source-analysis';
+// The triage statements the site build saw and the trusted list
+// (scripts/build-dependency-triage.mjs); the relay adds the newer ones.
+export const TRIAGE_BASE = (typeof window !== 'undefined' && window.WS_DEPENDENCY_TRIAGE_BASE) || '/api/dependency-triage';
+const TRIAGE_RELAY_WAIT_MS = 4000;
 
 const OSV_URL = 'https://osv.dev/vulnerability/';
 const ISSUE_URL = 'https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/978';
@@ -41,31 +47,42 @@ export async function loadApp(appId, { base = EXPORT_BASE, fetchImpl = globalThi
   return first;
 }
 
-// The wallet's triage file (scripts/build-dependency-triage.mjs output: the
-// statements that concern it, and the trusted authors), or null when nobody
-// has said anything about its advisories. Tried for the page's own app id
-// first, then the id the analysis is stored under (the alias hop in loadApp).
-export async function loadTriage(appIds, { base = EXPORT_BASE, fetchImpl = globalThis.fetch } = {}) {
-  for (const id of [...new Set(appIds.filter(Boolean))]) {
-    const triage = await fetchJson(`${base}/triage/${safeName(id)}.json`, fetchImpl);
-    if (triage) return triage;
-  }
-  return null;
-}
-
-// The trusted authors and listed maintainers on their own
-// (triage/_trusted.json), `{ trusted, maintainers }`, for a wallet whose file
-// does not exist yet: the statement dialog says whether the signer's
-// statement will settle rows or be shown as what others say. Fetched once.
-const trustedCache = new Map();
-export function loadTrusted({ base = EXPORT_BASE, fetchImpl = globalThis.fetch } = {}) {
-  if (!trustedCache.has(base)) {
-    trustedCache.set(base, fetchJson(`${base}/triage/_trusted.json`, fetchImpl).then(doc => ({
+// statements.json (scripts/build-dependency-triage.mjs): every statement the
+// site build saw, its deletion requests, the trusted authors and the listed
+// maintainers; fetched once per base. Empty lists when it cannot be read.
+const triageCache = new Map();
+export function loadTriage({ triageBase = TRIAGE_BASE, fetchImpl = globalThis.fetch } = {}) {
+  if (!triageCache.has(triageBase)) {
+    triageCache.set(triageBase, fetchJson(`${triageBase}/statements.json`, fetchImpl).then(doc => ({
       trusted: Array.isArray(doc?.trusted) ? doc.trusted : [],
       maintainers: doc?.maintainers && typeof doc.maintainers === 'object' ? doc.maintainers : {},
-    }), () => ({ trusted: [], maintainers: {} })));
+      statements: Array.isArray(doc?.statements) ? doc.statements : [],
+      deletions: Array.isArray(doc?.deletions) ? doc.deletions : [],
+    }), () => ({ trusted: [], maintainers: {}, statements: [], deletions: [] })));
   }
-  return trustedCache.get(base);
+  return triageCache.get(triageBase);
+}
+
+// The trusted authors and listed maintainers, `{ trusted, maintainers }`: the
+// statement dialog says whether the signer's statement settles rows.
+export async function loadTrusted(opts = {}) {
+  const { trusted, maintainers } = await loadTriage(opts);
+  return { trusted, maintainers };
+}
+
+// What the relays have now: every statement and every deletion request for
+// the statement kind (a few dozen events; the page filters per wallet). The
+// same relays the site build reads: the project relay does not accept the
+// statement kind yet. After the first paint, so a slow relay only delays the
+// repaint. [] when none answers in time.
+export async function liveTriageEvents() {
+  try {
+    const events = await fetchEvents([{ kinds: [dependencyTriageKind] }, { kinds: [DELETION_KIND], '#k': [String(dependencyTriageKind)] }], { relayUrls: [...new Set([mainRelayUrl, ...eventRelayUrls])], maxWait: TRIAGE_RELAY_WAIT_MS });
+    return [...events];
+  } catch (error) {
+    console.warn('Dependencies panel: relay not reachable for triage statements', error);
+    return [];
+  }
 }
 
 // The released APK's check (apk/<appId>.json), or null.
@@ -666,7 +683,7 @@ function pickedVersion(platform) {
  * (`buildVersionSelected`); the newest analysed release until that section is
  * painted, or when the page has none. `selectedVersion` overrides the pick.
  */
-export async function renderDependenciesPanel({ host, appId, platform = 'app', selectedVersion = undefined, storeVersion = '', title = '', base = EXPORT_BASE, fetchImpl = globalThis.fetch, nostr = undefined, profiles = undefined }) {
+export async function renderDependenciesPanel({ host, appId, platform = 'app', selectedVersion = undefined, storeVersion = '', title = '', base = EXPORT_BASE, triageBase = TRIAGE_BASE, liveEvents = liveTriageEvents, fetchImpl = globalThis.fetch, nostr = undefined, profiles = undefined }) {
   if (!host || !appId) return null;
   let selected = selectedVersion === undefined ? pickedVersion(platform) : selectedVersion;
   let ready = false;
@@ -679,6 +696,7 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
     });
   }
   let app = null;
+  let published = null;
   let triage = null;
   let signals = null;
   let upstream = null;
@@ -686,7 +704,8 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
   try {
     app = await loadApp(appId, { base, fetchImpl });
     if (app) {
-      triage = await loadTriage([appId, app.appId], { base, fetchImpl });
+      published = await loadTriage({ triageBase, fetchImpl });
+      triage = triageForApp(app, published);
       signals = await loadSignals({ base, fetchImpl });
       upstream = await loadUpstream([app.appId, appId], { base, fetchImpl });
       apk = await loadApk([app.appId, appId], { base, fetchImpl });
@@ -698,10 +717,9 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
   const analysisId = app?.appId || appId;
   let model = null;
 
-  // Repainted after a statement is published, with the statement merged in.
-  // The trusted list from the wallet's triage file, or on its own when nobody said anything yet.
-  let trusted = triage?.trusted || [];
-  if (!trusted.length && app?.releases?.some(r => r.advisories?.length)) trusted = (await loadTrusted({ base, fetchImpl })).trusted;
+  // Repainted after a statement is published, with the statement merged in,
+  // and when the relay has statements the site build did not see.
+  const lists = { trusted: published?.trusted || [], maintainers: published?.maintainers || {} };
   const paint = (extra = {}) => {
     const release = selected ? releaseForVersion(app, selected) : null;
     if (selected && (!release || (release.status || 'ok') !== 'ok') && app?.releases?.length) {
@@ -711,12 +729,11 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
     }
     model = panelModel(app, { storeVersion, release: release?.ref || null, selectedVersion: release ? selected : null, triage, signals, upstream, apk });
     if (!model) return null;
-    host.replaceChildren(panelElement(model, { appId: analysisId, wallet: title || analysisId, base, fetchImpl, onJudge, trusted: triage?.trusted?.length ? triage.trusted : trusted, ...extra }));
+    host.replaceChildren(panelElement(model, { appId: analysisId, wallet: title || analysisId, base, fetchImpl, onJudge, trusted: lists.trusted, ...extra }));
     nameSigners(host, profiles === undefined ? defaultProfiles : profiles);
     return model;
   };
   async function onJudge(advisory, edit = null) {
-    const lists = triage?.trusted?.length ? { trusted: triage.trusted, maintainers: triage.maintainers || {} } : await loadTrusted({ base, fetchImpl });
     openTriageDialog({
       advisory,
       edit,
@@ -733,7 +750,7 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
       onDeleted: (statement, summary) => {
         // every version of that subject by that author: an earlier one still in the page's list must not come back
         triage = triage ? { ...triage, statements: triage.statements.filter(s => !(s.pubkey === statement.pubkey && s.d === statement.d)) } : triage;
-        paint({ flash: `Your statement on ${statement.vulns[0]} is deleted (${summary.text}): gone from this page now, from every wallet page after the next site build.`, showAll: true });
+        paint({ flash: `Your statement on ${statement.vulns[0]} is deleted (${summary.text}): gone from this page and, once the relay has the request, from every wallet page.`, showAll: true });
         host.querySelector('.dp-flash')?.scrollIntoView?.({ block: 'center' });
       },
     });
@@ -747,6 +764,18 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
   host.hidden = false;
   const step = host.closest('.dependencies-step');
   if (step) step.hidden = false;
+  // The relay's statements, after the first paint: a statement made since the
+  // last site build shows now, a deleted one goes. A dialog the reader has open
+  // keeps working on the rows it was opened from.
+  if (app?.releases?.some(r => r.advisories?.length)) {
+    const events = await liveEvents();
+    const merged = triageForApp(app, mergeLiveTriage(published, events));
+    const ids = (t) => JSON.stringify((t?.statements || []).map(st => st.id).sort());
+    if (ids(merged) !== ids(triage)) {
+      triage = merged;
+      paint();
+    }
+  }
   return model;
 }
 

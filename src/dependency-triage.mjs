@@ -33,12 +33,14 @@
 // direct user's maintainer, the wallet's developer, anyone. The site build
 // (scripts/build-dependency-triage.mjs) pulls them, keeps the newest per
 // (author, subject), drops those their author deleted (NIP-09), and
-// publishes the ones that concern a wallet next to its export, with the
-// trusted authors and the listed maintainers; only those settle a row, the
-// others are shown. The states and the justification labels follow VEX
+// publishes them with the trusted authors and the listed maintainers; the
+// wallet page adds what the relay has now (mergeTriageEvents), so a new
+// statement shows without a site build. Only trusted authors and listed
+// maintainers settle a row, the others are shown. The states and the justification labels follow VEX
 // (Vulnerability Exploitability eXchange, OpenVEX). "Where?" informs a
 // statement but never makes one. See docs/dependency-check.md, "Triage".
 
+import { verifyEvent } from 'nostr-tools/pure';
 import { dependencyTriageKind } from './nostr-constants.mjs';
 
 export { dependencyTriageKind };
@@ -400,4 +402,89 @@ export function withStatement(triage, statement, { appId = null, trusted = [], m
 
 export function triageStateOf(advisory) {
   return advisory?.decision?.status || 'undecided';
+}
+
+export const DELETION_KIND = 5;
+
+// Signed deletion requests for statements (NIP-09 with a `k` tag naming the kind).
+export function acceptDeletions(events, { kind = dependencyTriageKind, verify = verifyEvent } = {}) {
+  return (events || []).filter(e => e?.kind === DELETION_KIND && Array.isArray(e.tags)
+    && e.tags.some(t => t[0] === 'k' && t[1] === String(kind)) && verify(e));
+}
+
+// Whether a deletion request by the statement's own author removes it.
+export function isDeleted(statement, deletions, { kind = dependencyTriageKind } = {}) {
+  const coordinate = `${kind}:${statement.pubkey}:${statement.d}`;
+  return deletions.some(del => del.pubkey === statement.pubkey && del.tags.some(t =>
+    (t[0] === 'e' && t[1] === statement.id) || (t[0] === 'a' && t[1] === coordinate && del.created_at >= statement.created_at)));
+}
+
+// Signed, well-formed statements from a list of events; anything else is dropped and counted.
+export function acceptEvents(events, { kind = dependencyTriageKind, verify = verifyEvent } = {}) {
+  const accepted = [];
+  let rejected = 0;
+  for (const event of events || []) {
+    const statement = statementFromEvent(event, { kind });
+    if (!statement || !verify(event)) {
+      rejected++;
+      continue;
+    }
+    accepted.push({ event, statement });
+  }
+  return { accepted, rejected };
+}
+
+/**
+ * The published snapshot (`snapshotEvents`: statements and deletion requests
+ * seen so far) merged with fresh `events` from the relays: the newest
+ * statement per (author, subject), minus what its author deleted. Returns the
+ * `statements`, the events to keep as the next snapshot (`kept` statements and
+ * `deletions`), and counts. Used by the site build and by the wallet page.
+ */
+export function mergeTriageEvents(snapshotEvents = [], events = [], { kind = dependencyTriageKind, verify = verifyEvent } = {}) {
+  const isDeletion = e => e?.kind === DELETION_KIND;
+  const snapshot = acceptEvents(snapshotEvents.filter(e => !isDeletion(e)), { kind, verify });
+  const fresh = acceptEvents(events.filter(e => !isDeletion(e)), { kind, verify });
+  const deletionEvents = [...snapshotEvents, ...events].filter(isDeletion);
+  // only requests by someone who has written a statement: anyone can sign a kind 5, and the snapshot is committed.
+  // A request already in the snapshot passed that test when it was written; its statement is gone by then, so
+  // without it the request would drop out and a relay still holding the statement would bring it back.
+  const authors = new Set([...snapshot.accepted, ...fresh.accepted].map(x => x.event.pubkey)
+    .concat(snapshotEvents.filter(isDeletion).map(e => e.pubkey)));
+  const deletionsById = new Map(acceptDeletions(deletionEvents, { kind, verify }).filter(e => authors.has(e.pubkey)).map(e => [e.id, e]));
+  const deletions = [...deletionsById.values()];
+  // newest per (author, subject) across both sources, then what its author deleted
+  const byId = new Map([...snapshot.accepted, ...fresh.accepted].map(x => [x.event.id, x]));
+  const newest = newestStatements([...byId.values()].map(x => x.statement));
+  const statements = newest.filter(st => !isDeleted(st, deletions, { kind }));
+  const keep = new Set(statements.map(st => st.id));
+  const kept = [...byId.values()].filter(x => keep.has(x.event.id)).map(x => x.event);
+  const rejectedDeletions = deletionEvents.filter(e => !deletionsById.has(e.id)).length;
+  return { statements, kept, deletions, rejected: snapshot.rejected + fresh.rejected + rejectedDeletions, deleted: newest.length - statements.length };
+}
+
+// The published file (scripts/build-dependency-triage.mjs, statements.json)
+// with what the relays have now: their signed statements and their authors'
+// deletion requests join, newest per (author, subject) wins, and a request in
+// either source removes what its author deleted.
+export function mergeLiveTriage(published, events = [], { kind = dependencyTriageKind, verify = verifyEvent } = {}) {
+  const base = published || {};
+  const fresh = acceptEvents((events || []).filter(e => e?.kind !== DELETION_KIND), { kind, verify }).accepted.map(x => x.statement);
+  const all = [...(base.statements || []), ...fresh];
+  const authors = new Set(all.map(st => st.pubkey).concat((base.deletions || []).map(e => e.pubkey)));
+  const live = acceptDeletions((events || []).filter(e => e?.kind === DELETION_KIND), { kind, verify }).filter(e => authors.has(e.pubkey));
+  const deletions = [...new Map([...(base.deletions || []), ...live].map(e => [e.id, e])).values()];
+  return { ...base, statements: newestStatements(all).filter(st => !isDeleted(st, deletions, { kind })), deletions, live: fresh.length };
+}
+
+// What one wallet's page needs: the statements about any advisory its
+// analysed releases name, with the trusted authors and listed maintainers.
+export function triageForApp(app, triage) {
+  const ids = advisoryIdsOf(app?.releases || []);
+  return {
+    appId: app?.appId || null,
+    trusted: triage?.trusted || [],
+    maintainers: triage?.maintainers || {},
+    statements: (triage?.statements || []).filter(st => st.vulns.some(v => ids.has(v))),
+  };
 }
