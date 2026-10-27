@@ -173,9 +173,11 @@ target is that directory's root, `source-analysis@walletscrutiny.com:/`.
 The directory must not be inside `/var/www/walletscrutiny.com`, because
 `deploy:prod` empties that on every deploy.
 
-Then add this to the `server` block of each site (walletscrutiny.com, beta
-and old; the tracked copies in `external/configs/webserver_nginx/` already
-have it) and reload nginx (`sudo nginx -t && sudo systemctl reload nginx`):
+The nginx config files in this repository (`prod`, `beta` and `old` in
+`external/configs/webserver_nginx/`) already have the `/api/source-analysis/`
+section. Check that the files installed on the web host contain it, or add it
+manually to each site's `server` block, then reload nginx
+(`sudo nginx -t && sudo systemctl reload nginx`):
 
 ```nginx
 location /api/source-analysis/ {
