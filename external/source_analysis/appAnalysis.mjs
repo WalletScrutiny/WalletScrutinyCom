@@ -65,25 +65,31 @@ export async function cloneRepository(repoUrl, targetPath, tagName = null) {
 }
 
 /**
- * Commit the remote's default branch (HEAD) points at, or null when it cannot
- * be read. Runs on the host and only talks to the remote: nothing is checked out.
+ * Commit the remote's default branch (HEAD) points at, or null when the remote
+ * answers without one. Throws when the remote cannot be reached (unknown host,
+ * a .onion address, no such repository): a clone would fail the same way.
+ * Runs on the host and only talks to the remote: nothing is checked out.
  */
 export async function remoteHeadCommit(repoUrl, { timeoutMs = 60000 } = {}) {
+  let stdout;
   try {
-    const { stdout } = await promisify(execFile)('git', ['ls-remote', '--', repoUrl, 'HEAD'], {
+    ({ stdout } = await promisify(execFile)('git', ['ls-remote', '--', repoUrl, 'HEAD'], {
       encoding: 'utf8',
       timeout: timeoutMs,
       env: { ...process.env, GIT_TERMINAL_PROMPT: '0' },
-    });
-    // The pattern also matches refs ending in /HEAD (refs/pull/123/HEAD on
-    // Forgejo/Gitea), so pick the line for HEAD itself.
-    const line = stdout.split('\n').find(l => l.split('\t')[1] === 'HEAD');
-    const sha = line ? line.split('\t')[0] : null;
-    return /^[0-9a-f]{40}([0-9a-f]{24})?$/.test(sha) ? sha : null;
+    }));
   } catch (error) {
-    console.log(`Could not read the default branch of ${repoUrl}: ${error.message.split('\n')[0]}`);
-    return null;
+    // git's own reason ("Could not resolve host: ...") is on stderr; the
+    // message's first line is only the command.
+    const lines = String(error.stderr || '').split('\n').map(l => l.trim()).filter(Boolean);
+    const reason = (lines.find(l => l.startsWith('fatal:')) || lines[0] || error.message.split('\n')[0]).replace(/^fatal: /, '');
+    throw new Error(`cannot reach ${repoUrl}: ${reason}`);
   }
+  // The pattern also matches refs ending in /HEAD (refs/pull/123/HEAD on
+  // Forgejo/Gitea), so pick the line for HEAD itself.
+  const line = stdout.split('\n').find(l => l.split('\t')[1] === 'HEAD');
+  const sha = line ? line.split('\t')[0] : null;
+  return /^[0-9a-f]{40}([0-9a-f]{24})?$/.test(sha) ? sha : null;
 }
 
 /**
