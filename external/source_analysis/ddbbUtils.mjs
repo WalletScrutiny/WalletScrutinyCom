@@ -279,6 +279,19 @@ export function initDatabase(dbPath = DB_PATH) {
     );
   `);
   ensureColumn(db, 'analyses', 'lock_coverage', 'TEXT');
+
+  // The git submodules of an analysed release with their three claims
+  // (submoduleIdentity.mjs), as the walk returned them; one row per release.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS release_submodules (
+      app_id TEXT NOT NULL,
+      ref TEXT NOT NULL,
+      commit_sha TEXT NOT NULL,
+      rows TEXT NOT NULL,              -- JSON array, one entry per submodule, nested ones included
+      checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (app_id, ref)
+    );
+  `);
   // Releases stored before this table existed get a row from what the
   // dependency rows remember (their creation time and count); commit and
   // lockfiles stay unknown until the release is analysed again.
@@ -477,6 +490,17 @@ export function getVulnerabilities(db, appId, version) {
     ORDER BY CASE severity WHEN 'malicious' THEN 0 WHEN 'critical' THEN 1 WHEN 'high' THEN 2
       WHEN 'moderate' THEN 3 WHEN 'low' THEN 4 ELSE 5 END, ecosystem, name, vuln_id
   `).all(appId, version);
+}
+
+export function saveSubmodules(db, appId, ref, commit, rows) {
+  db.prepare('INSERT OR REPLACE INTO release_submodules (app_id, ref, commit_sha, rows, checked_at) VALUES (?, ?, ?, ?, CURRENT_TIMESTAMP)')
+    .run(appId, ref, commit, JSON.stringify(rows));
+}
+
+// { commit, checkedAt, rows } of (appId, ref), or null when it has no submodules stored.
+export function getSubmodules(db, appId, ref) {
+  const r = db.prepare('SELECT commit_sha, rows, checked_at FROM release_submodules WHERE app_id = ? AND ref = ?').get(appId, ref);
+  return r ? { commit: r.commit_sha, checkedAt: r.checked_at, rows: JSON.parse(r.rows) } : null;
 }
 
 // Stored dependency rows of (appId, version), package fields joined in.

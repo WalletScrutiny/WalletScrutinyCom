@@ -21,7 +21,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { groupByRepository } from './appList.mjs';
 import { hintsByApp } from './upstreamTriage.mjs';
-import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources, getVerifiedRefs, getReproducibleVersions, getEndOfLife } from './ddbbUtils.mjs';
+import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources, getVerifiedRefs, getReproducibleVersions, getEndOfLife, getSubmodules } from './ddbbUtils.mjs';
 
 export const SCHEMA = 1;
 const SEVERITIES = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown'];
@@ -75,10 +75,35 @@ function partOfLockfiles(lockfiles) {
 
 // Summary of one release's stored rows: counts only, what the index and the
 // wallet page list show before anything is expanded.
+// Counts for the release summary from the stored submodule rows
+// (plugins/submodules.mjs). Only submodules that may be in the app count
+// towards advisories; the ones that are not built or only tested are counted
+// apart, never dropped.
+export function summarizeSubmodules(stored) {
+  if (!stored) return undefined;
+  const rows = stored.rows;
+  const inApp = rows.filter(r => !r.error && (!r.scope || r.scope.status === 'assumed'));
+  return {
+    total: rows.length,
+    errors: rows.filter(r => r.error).length,
+    firstParty: rows.filter(r => r.firstParty).length,
+    notInApp: rows.filter(r => r.scope && r.scope.status !== 'assumed').length,
+    // of the submodules that may be in the app
+    upstream: inApp.filter(r => !r.firstParty && (r.identity.status === 'upstream-tag' || r.identity.status === 'upstream-commit')).length,
+    derived: inApp.filter(r => r.identity.status === 'derived').length,
+    unknownOrigin: inApp.filter(r => r.identity.status === 'unknown-origin').length,
+    affected: inApp.filter(r => r.advisories?.status === 'affected').length,
+    advisories: inApp.reduce((n, r) => n + (r.advisories?.applies?.length || 0), 0),
+    advisoriesUnknown: inApp.reduce((n, r) => n + (r.advisories?.unknown?.length || 0), 0),
+  };
+}
+
 export function summarizeRelease(db, appId, ref) {
   const deps = getDependencies(db, appId, ref);
   const vulns = getVulnerabilities(db, appId, ref);
+  const submodules = summarizeSubmodules(getSubmodules(db, appId, ref));
   return {
+    ...(submodules ? { submodules } : {}),
     dependencies: {
       total: deps.length,
       direct: deps.filter(d => d.direct === 1).length,
@@ -383,6 +408,8 @@ function writeAppFiles(db, dir, appId, aliases, counts, sources, isExported, { a
         productsSameVersion: counts.byVersion.get(`${d.ecosystem}:${d.name}@${d.dep_version}`) || 1,
       })),
     }));
+    const subs = getSubmodules(db, appId, r.ref);
+    if (subs) write(path.join(refDir, 'submodules.json'), JSON.stringify({ schema: SCHEMA, appId, ref: r.ref, ...subs }));
   }
   // The app file last: a reader that sees a release in it finds its dependency list.
   write(path.join(dir, 'apps', `${safeName(appId)}.json`), JSON.stringify(app));
