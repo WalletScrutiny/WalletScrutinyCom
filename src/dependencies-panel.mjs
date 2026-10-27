@@ -533,7 +533,9 @@ function notices(model) {
     const why = model.uncheckedBreakdown.map(u => `${u.count} ${u.label}`).join(', ');
     items.push(`${model.unchecked} of the ${model.packages} packages could not be checked for advisories${why ? ` (${why})` : ''}; that is not the same as "no problems".`);
   }
-  if (model.status !== 'ok') {
+  if (model.status === 'unsupported' && model.submodules) {
+    items.push('No lockfile this check reads was found in this release, so only its git submodules were checked.');
+  } else if (model.status !== 'ok') {
     items.push(`This check ended with status "${model.status}"${model.error ? `: ${model.error}` : ''}.`);
   }
   if (model.apk) {
@@ -624,7 +626,8 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
     ),
     notices(model),
     flash ? el('p', { className: 'dp-flash', role: 'status' }, flash) : null,
-    el('div', { className: 'dp-tiles' },
+    // No lockfile was read (a C/C++ release with only submodules): zeros here would read as clean.
+    !model.packages && model.submodules ? null : el('div', { className: 'dp-tiles' },
       tile(model.packages, 'dependencies', { sub: `${model.direct} direct · ${model.transitive} transitive` }),
       vulnerabilityTile(model),
       model.malware
@@ -689,7 +692,7 @@ function submoduleAdvisoryCell(r) {
 
 export function submodulesSummaryText(s) {
   const mayBe = s.total - s.notInApp - s.errors;
-  const parts = [`${plural(s.total, 'library', 'libraries')} pinned as git submodules`];
+  const parts = [plural(s.total, 'library', 'libraries')];
   if (s.firstParty) parts.push(`${s.firstParty} of them the wallet's own`);
   if (s.notInApp) parts.push(`${s.notInApp} not in the app (tests, or folders the build does not use)`);
   if (s.errors) parts.push(`${s.errors} could not be checked`);
