@@ -143,3 +143,14 @@ test('a release carries its lock coverage, and the index its verdict', () => {
   const index = JSON.parse(fs.readFileSync(path.join(dir, 'index.json'), 'utf8'));
   assert.equal(index.apps[0].latest.lock, 'unlocked');
 });
+
+test('buildApp: releases analysed later but older (backfill) still sort after newer versions', () => {
+  const db = initDatabase(':memory:');
+  for (const v of ['v1.9.0', 'v1.10.0', 'v2.0.0-rc1', 'v2.0.0', 'v1.0.0']) {
+    saveDependencies(db, 'app.b', v, [{ ecosystem: 'npm', entries: [entry('a', '1.0.0')] }]);
+    recordAnalysis(db, { appId: 'app.b', kind: 'release', ref: v, commit: 'c', status: 'ok', appType: 'npm', analyser: 't', plugins: [], lockfiles: [], dependencies: 1, osvChecked: 1, osvSkipped: {}, vulnerabilities: 0 });
+  }
+  // v1.0.0 was backfilled last, so it has the newest analysis time.
+  db.prepare("UPDATE analyses SET analysed_at = '2026-10-20 00:00:00' WHERE ref = 'v1.0.0'").run();
+  assert.deepEqual(buildApp(db, 'app.b').releases.map(r => r.ref), ['v2.0.0', 'v2.0.0-rc1', 'v1.10.0', 'v1.9.0', 'v1.0.0']);
+});
