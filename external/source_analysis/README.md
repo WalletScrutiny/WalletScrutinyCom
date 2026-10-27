@@ -186,14 +186,33 @@ location /api/source-analysis/ {
 }
 ```
 
-Back on the build server, record the web host's key, so the copy refuses a
-host it does not know (`StrictHostKeyChecking=yes`), and check the key works:
+Back on the build server, two one-time steps.
+
+First, save the web host's SSH host key. The analysis connects with
+`StrictHostKeyChecking=yes`: it only copies to a host whose key is already in
+its `known_hosts` file, so without this step every publish fails with
+`Host key verification failed`.
 
 ```bash
 ssh-keyscan -t ed25519 walletscrutiny.com | sudo tee /etc/walletscrutiny-source-analysis/known_hosts
+sudo ssh-keygen -lf /etc/walletscrutiny-source-analysis/known_hosts   # fingerprint saved
+```
+
+To be sure the saved key is the real server's, run
+`ssh-keygen -lf /etc/ssh/ssh_host_ed25519_key.pub` on the web host: both
+fingerprints must be the same.
+
+Second, test the copy. This connects exactly like the analysis will (same
+user, key and `known_hosts`) but only lists the web host's directory:
+
+```bash
 sudo -u build-server rsync -e 'ssh -i /etc/walletscrutiny-source-analysis/publish_ed25519 -o UserKnownHostsFile=/etc/walletscrutiny-source-analysis/known_hosts -o StrictHostKeyChecking=yes' \
   --list-only source-analysis@walletscrutiny.com:/
 ```
+
+A line ending in ` .` means it works. `Permission denied` means the public key
+in the web host's `authorized_keys` is wrong; `Host key verification failed`
+means the first step is missing or saved another host's key.
 
 **3. Build server: settings in a drop-in.** Every deploy copies
 `config/walletscrutiny-source-analysis.service` over the installed unit, so
