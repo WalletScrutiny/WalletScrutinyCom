@@ -318,3 +318,46 @@ describe('dependencies panel', () => {
     host.remove();
   });
 });
+
+describe('dependencies panel: git submodules', () => {
+  const SUBS = { total: 5, errors: 0, firstParty: 1, notInApp: 2, upstream: 1, derived: 1, unknownOrigin: 0, affected: 1, advisories: 2, advisoriesUnknown: 1 };
+  const ROWS = [
+    { path: 'contrib/own', url: 'https://github.com/o/own.git', commit: 'a'.repeat(40), firstParty: true, scope: { status: 'assumed' }, identity: { status: 'upstream-commit' }, advisories: { status: 'none-listed', applies: [] } },
+    { path: 'contrib/openssl', url: 'https://github.com/openssl/openssl.git', commit: 'b'.repeat(40), scope: { status: 'assumed' }, identity: { status: 'upstream-tag', tag: 'openssl-3.0.13' }, advisories: { status: 'affected', applies: ['CVE-1', 'CVE-2'] } },
+    { path: 'contrib/openssl/krb5', url: 'https://github.com/krb5/krb5', commit: 'c'.repeat(40), scope: { status: 'test-only', why: "openssl's external test suites" }, identity: { status: 'upstream-commit' }, advisories: { status: 'affected', applies: ['CVE-3'] } },
+    { path: 'contrib/fork', url: 'https://github.com/me/lib.git', upstream: 'https://github.com/up/lib.git', commit: 'd'.repeat(40), scope: { status: 'assumed' }, identity: { status: 'derived', base: 'v1.0', ahead: 3, files: ['a.c'] }, advisories: { status: 'unknown', base: 'v1.0', unknown: [{ id: 'CVE-4', hint: 'fix-patch-absent' }] } },
+    { path: 'contrib/t/vendor/mp', url: 'https://github.com/x/mp', commit: 'e'.repeat(40), scope: { status: 'not-built', why: 'the build of contrib/t uses only crypto/' }, identity: { status: 'derived', base: 'v1', ahead: 1 }, advisories: { status: 'unknown', base: 'v1', unknown: [] } },
+  ];
+  // A C/C++ wallet: no lockfile the check reads, so the analysis is "unsupported", but its submodules were checked.
+  const CPP = { schema: 1, appId: 'cpp.wallet', aliases: [], defaultBranch: null, releases: [{ kind: 'release', ref: '2.9.1', commit: 'f'.repeat(40), status: 'unsupported', advisories: [], submodules: SUBS }] };
+
+  test('the summary line counts what may be in the app apart from what is not', () => {
+    const node = panelElement(panelModel(CPP), { appId: 'cpp.wallet', base: '/x', fetchImpl: async () => null });
+    const summary = node.querySelector('.dp-submodules > summary').textContent;
+    assert.match(summary, /5 libraries pinned as git submodules, 1 of them the wallet's own, 2 not in the app/);
+    assert.match(summary, /Of the 3 that may be in the app, 1 unmodified upstream copy has 2 listed advisories; 1 is a modified copy, where upstream advisories may or may not apply \(1 to check\)\./);
+  });
+
+  test('opening it loads the rows: identity, scope and advisories in words', async () => {
+    const { fetchImpl, calls } = fakeFetch({ '/x/apps/cpp.wallet/2.9.1/submodules.json': { schema: 1, rows: ROWS } });
+    const node = panelElement(panelModel(CPP), { appId: 'cpp.wallet', base: '/x', fetchImpl });
+    const details = node.querySelector('.dp-submodules');
+    details.open = true;
+    details.dispatchEvent(new window.Event('toggle'));
+    await new Promise(r => setTimeout(r, 0));
+    assert.deepEqual(calls, ['/x/apps/cpp.wallet/2.9.1/submodules.json']);
+    const rows = [...node.querySelectorAll('.dp-sub-table tbody tr')].map(tr => [...tr.querySelectorAll('td')].slice(2).map(td => td.textContent));
+    assert.deepEqual(rows[0], ["The wallet's own code", 'May be', 'None listed']);
+    assert.deepEqual(rows[1], ['Upstream release openssl-3.0.13, unmodified', 'May be', '2 listed: CVE-1, CVE-2']);
+    assert.equal(rows[2][1], "No, tests only: openssl's external test suites");
+    assert.equal(rows[3][0], 'Modified: v1.0 plus 3 commits upstream does not have (1 file changed)');
+    assert.match(rows[3][2], /^Status unknown: 1 listed for v1.0.*CVE-4: fix patch applies, so likely missing$/);
+    assert.equal(rows[4][1], 'No: the build of contrib/t uses only crypto/');
+    assert.equal(node.querySelectorAll('.dp-sub-out').length, 2);
+  });
+
+  test('a release with only submodules is not reported as unanalysed', () => {
+    assert.equal(panelModel(CPP).ref, '2.9.1');
+    assert.equal(panelModel({ ...CPP, releases: [{ ...CPP.releases[0], submodules: undefined }] }).submodules, null);
+  });
+});
