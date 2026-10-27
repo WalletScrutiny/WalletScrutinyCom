@@ -5,8 +5,8 @@ import assert from 'node:assert/strict';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import { initDatabase, saveDependencies, saveVulnerabilities, recordAnalysis, saveAppList } from '../ddbbUtils.mjs';
-import { exportAll, buildApp, safeName, sharedPackages, productPartOf } from '../export.mjs';
+import { initDatabase, saveDependencies, saveVulnerabilities, recordAnalysis, saveAppList, saveReproducibleVersions } from '../ddbbUtils.mjs';
+import { exportAll, exportApp, buildApp, safeName, sharedPackages, productPartOf } from '../export.mjs';
 
 const entry = (name, version, extra = {}) => ({ ecosystem: 'npm', lockfile: 'package-lock.json', name, version, resolved: `https://registry.npmjs.org/${name}/-/${name}-${version}.tgz`, integrity: `sha512-${name}${version}`, direct: true, dev: false, tier: 'hash-pinned', ...extra });
 
@@ -99,6 +99,52 @@ test('exportAll writes index, app files and dependency lists, atomically replaci
   const packages = JSON.parse(fs.readFileSync(path.join(dir, 'packages', 'index.json'), 'utf8'));
   assert.deepEqual(packages.packages, [{ ecosystem: 'npm', name: 'a', products: 2, versions: { '1.0.0': 1, '1.0.1': 2 } }]);
   assert.equal(index.sharedPackages, 1);
+});
+
+test('exportApp updates one app in place, leaving the rest of the export as it was', () => {
+  const db = seeded();
+  const dir = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'sa-export-')), 'export');
+  exportAll(db, dir, { generatedAt: '2026-10-16T00:00:00Z', analyser: '1.0.0+abc' });
+  const otherBefore = fs.readFileSync(path.join(dir, 'apps', 'app.other.json'), 'utf8');
+
+  saveDependencies(db, 'app.android', 'v1.2.0', [{ ecosystem: 'npm', entries: [entry('a', '1.0.2')] }]);
+  recordAnalysis(db, { appId: 'app.android', kind: 'release', ref: 'v1.2.0', commit: 'c3', status: 'ok', appType: 'npm', analyser: '1.0.1', dependencies: 1 });
+  db.prepare("UPDATE analyses SET analysed_at = '2099-01-01 00:00:00' WHERE ref = 'v1.2.0'").run();
+  saveDependencies(db, 'app.other', 'v10', [{ ecosystem: 'npm', entries: [entry('z', '2.0.0')] }]);
+  recordAnalysis(db, { appId: 'app.other', kind: 'release', ref: 'v10', status: 'ok', analyser: '1.0.1' });
+
+  const result = exportApp(db, dir, 'app.android', { analyser: '1.0.1' });
+  assert.deepEqual(result, { exported: true, releases: 3, files: ['index.json', 'apps/app.android.json', 'apps/app.android/', 'apps/app.ios.json'] });
+  const app = JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.android.json'), 'utf8'));
+  assert.equal(app.releases[0].ref, 'v1.2.0');
+  assert.ok(fs.existsSync(path.join(dir, 'apps', 'app.android', 'v1.2.0', 'dependencies.json')));
+  assert.equal(fs.readFileSync(path.join(dir, 'apps', 'app.other.json'), 'utf8'), otherBefore, 'another app waits for the end of the pass');
+  const index = JSON.parse(fs.readFileSync(path.join(dir, 'index.json'), 'utf8'));
+  assert.deepEqual(index.apps.map(a => a.appId), ['app.android', 'app.failed', 'app.other']);
+  assert.equal(index.apps[0].latest.ref, 'v1.2.0');
+  assert.equal(index.apps[2].latest.ref, 'v9');
+  assert.equal(index.generatedAt, '2026-10-16T00:00:00Z', 'still the full export\'s');
+  assert.ok(index.updatedAt);
+  assert.ok(fs.existsSync(path.join(dir, 'packages', 'index.json')));
+  assert.deepEqual(fs.readdirSync(path.join(dir, 'apps')).filter(n => n.endsWith('.tmp')), []);
+});
+
+test('exportApp starts an export when there is none, with the alias stub', () => {
+  const db = seeded();
+  const dir = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'sa-export-')), 'export');
+  const result = exportApp(db, dir, 'app.android');
+  assert.deepEqual(result.files, ['index.json', 'apps/app.android.json', 'apps/app.android/', 'apps/app.ios.json']);
+  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.ios.json'), 'utf8')), { schema: 1, appId: 'app.android', alias: true });
+  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'index.json'), 'utf8')).apps.map(a => a.appId), ['app.android']);
+});
+
+test('exportApp leaves an app out of scope alone, and exports one verified under an alias', () => {
+  const db = seeded();
+  const dir = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'sa-export-')), 'export');
+  assert.deepEqual(exportApp(db, dir, 'app.android', { onlyReproducible: true }), { exported: false });
+  assert.ok(!fs.existsSync(dir));
+  saveReproducibleVersions(db, new Map([['app.ios', [{ version: '1.1.0', verifiedAt: 1 }]]]));
+  assert.equal(exportApp(db, dir, 'app.android', { onlyReproducible: true }).exported, true);
 });
 
 test('sharedPackages lists packages used by two or more products, most shared first', () => {

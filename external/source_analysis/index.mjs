@@ -227,6 +227,24 @@ fs.rmSync(DEFAULT_TEMP_DIR, { recursive: true, force: true });
 console.log(`Processing ${jobs.length} app(s), ${CONCURRENCY} at a time...\n`);
 tagConsole();
 
+// Put an app's new analyses on its page as soon as they are stored, instead
+// of at the end of the pass. Only an app something was recorded for since
+// appStart; a failure is logged and left to the export that ends the pass.
+async function exportAndPublishApp(appId, appStart) {
+  try {
+    const recorded = db.prepare('SELECT COUNT(*) AS n FROM analyses WHERE app_id = ? AND analysed_at >= ?').get(appId, appStart).n;
+    if (!recorded) return;
+    const { exportApp } = await import('./export.mjs');
+    const { publishFiles } = await import('./publish.mjs');
+    const exported = exportApp(db, EXPORT_DIR, appId, { analyser: analyserVersion(), onlyReproducible: SCOPE !== 'all' });
+    if (!exported.exported) return;
+    const published = publishFiles(EXPORT_DIR, exported.files);
+    console.log(`  Exported ${exported.releases} releases${published.published ? ` and published them to ${published.target}` : ''}`);
+  } catch (error) {
+    console.warn(`  ⚠ Exporting or publishing this app failed (the end of the pass exports it again): ${error.message}`);
+  }
+}
+
 try {
   let successCount = 0;
   let errorCount = 0;
@@ -263,6 +281,7 @@ try {
         }
       }
       
+      const appStart = db.prepare('SELECT CURRENT_TIMESTAMP AS t').get().t;
       await processApp(
         db,
         app.appId,
@@ -274,6 +293,7 @@ try {
         app.verified || []
       );
       successCount++;
+      if (EXPORT_DIR) await exportAndPublishApp(app.appId, appStart);
     } catch (error) {
       // A repository GitHub reports as missing is a property of that wallet,
       // not a failed pass. Anything else (5xx after retries, rate limit, a

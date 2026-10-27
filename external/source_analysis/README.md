@@ -249,6 +249,14 @@ renamed into place so a reader never sees a half-written tree:
 | `apps/<appId>/<ref>/dependencies.json` | the full resolved dependency list of one release (ecosystem, name, version, lockfile, pinning tier, direct, dev, scope, integrity), each row with how many products ship the package and that exact version |
 | `packages/index.json` | every package shipped by two or more products, most shared first, with the product count per version ("12 products use libX, 3 use libX 0.2.3") |
 
+Each wallet does not wait for the end of the pass: as soon as an analysis of
+it is stored, `exportApp` rewrites its `apps/` files and its `index.json`
+entry in the existing export (each file renamed into place), and, with a
+publish target, rsyncs just those files (no `--delete`). The rest (shared
+packages, upstream hints, signals, other wallets' product counts, releases
+removed since) waits for the full export that ends the pass. A failure there
+is only logged; the full export writes the wallet again.
+
 `scope` says where a package ends up, as far as the files say: `app` when it
 is reachable from the project's own dependencies, `build` when only from its
 development dependencies, `tests` when only from test frameworks and test
@@ -285,7 +293,9 @@ The wallet pages fetch the export at page load from `/api/source-analysis/`,
 so new data must not wait for a site build. With
 `SOURCE_ANALYSIS_PUBLISH_TARGET` set, each pass ends by rsyncing the export
 there (`publish.mjs`; `--delay-updates --delete-delay`, so a page sees the
-old or the new export). A failed copy counts as a failed pass.
+old or the new export). A failed copy counts as a failed pass. Each wallet's
+own files are copied as soon as it is analysed (`publishFiles`, see "Static
+export").
 
 | variable | value |
 |---|---|
