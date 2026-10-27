@@ -4,27 +4,30 @@
 // anyone else later. Plain JSON files, written atomically into one directory,
 // small at the top and detailed below, so a reader fetches only what it shows:
 //
-//   index.json                          every analysed app with its latest analysis summary
+//   index.json                          the exported app ids (exportApp keeps it current)
 //   apps/<appId>.json                   all analyses of one app, with advisories (each with how many products ship the package) and the diff to the previous release
 //   apps/<aliasId>.json                 stub {appId, alias: true} for the repository's other app ids (the iPhone record)
 //   apps/<appId>/<ref>/dependencies.json  the full resolved dependency list of one release, each row with how many products ship the package
-//   packages/index.json                 every package shipped by two or more products, with the products per version
+//   apps/<appId>/<ref>/submodules.json    the release's git submodules, when it has any
+//
+// Each file carries only what a reader uses (the wallet page's Dependencies
+// panel, signals.mjs, apk-contents-cli.mjs --deps); the database keeps the rest.
 //
 // How the files travel to the site (Blossom blob + pointer event, rsync, or a
 // web server) is decided outside this module: it only writes a directory.
 //
 // Usage: node export.mjs --out <dir>      (SOURCE_ANALYSIS_DB_PATH selects the database)
-// The service calls exportAll at the end of each pass when SOURCE_ANALYSIS_EXPORT_DIR is set.
+// The service calls exportAll at the end of each pass when SOURCE_ANALYSIS_EXPORT_DIR is set,
+// and exportApp for each app as soon as its analysis ends.
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { groupByRepository } from './appList.mjs';
 import { hintsByApp } from './upstreamTriage.mjs';
-import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources, getVerifiedRefs, getReproducibleVersions, getEndOfLife, getSubmodules } from './ddbbUtils.mjs';
+import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getEndOfLife, getSubmodules } from './ddbbUtils.mjs';
 
 export const SCHEMA = 1;
 const SEVERITIES = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown'];
-const TIERS = ['hash-pinned', 'version-pinned', 'build-service-tag', 'source-ref-pinned', 'floating', 'unversioned'];
 
 // A file name an app id or release tag maps to: ids are reverse-DNS or slugs,
 // tags may carry slashes or spaces.
@@ -88,13 +91,21 @@ export function summarizeSubmodules(stored) {
     firstParty: rows.filter(r => r.firstParty).length,
     notInApp: rows.filter(r => r.scope && r.scope.status !== 'assumed').length,
     // of the submodules that may be in the app
-    upstream: inApp.filter(r => !r.firstParty && (r.identity.status === 'upstream-tag' || r.identity.status === 'upstream-commit')).length,
     derived: inApp.filter(r => r.identity.status === 'derived').length,
     unknownOrigin: inApp.filter(r => r.identity.status === 'unknown-origin').length,
     affected: inApp.filter(r => r.advisories?.status === 'affected').length,
     advisories: inApp.reduce((n, r) => n + (r.advisories?.applies?.length || 0), 0),
     advisoriesUnknown: inApp.reduce((n, r) => n + (r.advisories?.unknown?.length || 0), 0),
   };
+}
+
+// A stored submodule row as the panel reads it: the walk depth, the scope's
+// parent and the base commit stay in the database.
+function submoduleRow({ depth, ...r }) {
+  const out = { ...r };
+  if (r.scope) { const { via, ...scope } = r.scope; out.scope = scope; }
+  if (r.identity) { const { baseCommit, ...identity } = r.identity; out.identity = identity; }
+  return out;
 }
 
 export function summarizeRelease(db, appId, ref) {
@@ -106,20 +117,13 @@ export function summarizeRelease(db, appId, ref) {
     dependencies: {
       total: deps.length,
       direct: deps.filter(d => d.direct === 1).length,
-      dev: deps.filter(d => d.dev === 1).length,
-      devUnknown: deps.filter(d => d.dev === null).length,
       // where the packages end up, from the lockfile graph: app / build / tests / unknown
       byScope: Object.fromEntries(['app', 'build', 'tests', 'unknown'].map(s => [s, deps.filter(d => scopeOfRow(d) === s).length])),
       byEcosystem: Object.fromEntries([...new Set(deps.map(d => d.ecosystem))].sort().map(e => [e, deps.filter(d => d.ecosystem === e).length])),
-      tiers: countBy(deps, 'tier', TIERS),
       lockfiles: [...new Set(deps.map(d => d.lockfile))].sort(),
     },
     vulnerabilities: {
-      total: vulns.length,
       bySeverity: countBy(vulns, 'severity', SEVERITIES),
-      packages: new Set(vulns.map(v => `${v.ecosystem}:${v.name}@${v.dep_version}`)).size,
-      direct: vulns.filter(v => v.direct === 1).length,
-      shipped: vulns.filter(v => v.dev === 0).length,
       byScope: Object.fromEntries(['app', 'build', 'tests', 'unknown'].map(s => [s, vulns.filter(v => scopeOfRow(v) === s).length])),
     },
   };
@@ -127,10 +131,9 @@ export function summarizeRelease(db, appId, ref) {
 
 function analysisEntry(a) {
   return {
-    kind: a.kind, ref: a.ref, commit: a.commit_sha, analysedAt: a.analysed_at, analyser: a.analyser, status: a.status,
-    error: a.error || undefined, appType: a.app_type, plugins: a.plugins, lockfiles: a.lockfiles,
-    osv: a.osv_checked === null ? null : { checked: a.osv_checked, skipped: a.osv_skipped },
-    lockCoverage: a.lock_coverage || undefined,
+    ref: a.ref, commit: a.commit_sha, analysedAt: a.analysed_at, status: a.status,
+    error: a.error || undefined, lockfiles: a.lockfiles,
+    osv: a.osv_checked === null ? null : { skipped: a.osv_skipped },
   };
 }
 
@@ -169,7 +172,7 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
     releases.push({ ...analysisEntry(a), ...summarizeRelease(db, appId, a.ref) });
   }
   for (const v of releasesWithoutAnalysis(db, appId, analyses)) {
-    releases.push({ kind: 'release', ref: v, commit: null, analysedAt: null, analyser: null, status: 'ok', ...summarizeRelease(db, appId, v) });
+    releases.push({ ref: v, commit: null, analysedAt: null, status: 'ok', ...summarizeRelease(db, appId, v) });
   }
   // Newest version first. Analysis time says nothing about it: releases added
   // later (backfill) are analysed last but are older. Equal versions keep their order.
@@ -183,9 +186,9 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
       lockfilesOf.set(key, [...(lockfilesOf.get(key) || []), d.lockfile]);
     }
     r.advisories = getVulnerabilities(db, appId, r.ref).map(v => ({
-      id: v.vuln_id, severity: v.severity, aliases: v.aliases ? v.aliases.split(' ') : [], fixed: v.fixed ? v.fixed.split(' ') : [],
+      id: v.vuln_id, severity: v.severity, aliases: v.aliases ? v.aliases.split(' ') : [],
       summary: v.summary, ecosystem: v.ecosystem, package: v.name, version: v.dep_version,
-      direct: v.direct === null ? null : v.direct === 1, dev: v.dev === null ? null : v.dev === 1,
+      direct: v.direct === null ? null : v.direct === 1,
       scope: scopeOfRow(v) === 'unknown' ? null : scopeOfRow(v),
       part: partOfLockfiles(lockfilesOf.get(`${v.ecosystem}:${v.name}@${v.dep_version}`) || []) || undefined,
       dependants: dependantsOfRow(v.dependants),
@@ -199,27 +202,11 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
         integrityChangedAtSameVersion: d.changed.filter(c => c.integrityChangedAtSameVersion.length).map(c => `${c.ecosystem}:${c.name}`) };
     }
   }
-  // Releases that are the check of a verified (reproducible) version, and the
-  // verified versions no tag names, so the panel can say what was not checked.
-  const verifiedRefs = getVerifiedRefs(db, appId);
-  for (const r of releases) if (verifiedRefs.has(r.ref)) r.verifiedVersion = verifiedRefs.get(r.ref);
-  const verifiedWithoutTag = analyses.filter(a => a.kind === 'verified-no-tag').map(a => a.ref);
-  const defaultBranch = analyses.filter(a => a.kind === 'default-branch').map(analysisEntry)[0] || null;
-  return { schema: SCHEMA, appId, aliases, releases, defaultBranch, ...(verifiedWithoutTag.length ? { verifiedWithoutTag } : {}) };
+  return { schema: SCHEMA, appId, aliases, releases };
 }
 
 function indexEntry(app) {
-  const latest = app.releases[0] || null;
-  return {
-    appId: app.appId, aliases: app.aliases,
-    latest: latest ? {
-      ref: latest.ref, commit: latest.commit, analysedAt: latest.analysedAt, status: latest.status,
-      dependencies: latest.dependencies.total, direct: latest.dependencies.direct, tiers: latest.dependencies.tiers,
-      vulnerabilities: latest.vulnerabilities.bySeverity, osv: latest.osv,
-      lock: latest.lockCoverage?.verdict,
-    } : null,
-    defaultBranch: app.defaultBranch ? { commit: app.defaultBranch.commit, analysedAt: app.defaultBranch.analysedAt, status: app.defaultBranch.status } : null,
-  };
+  return { appId: app.appId };
 }
 
 // The app ids the site lists for each analysed id (rows are keyed by the
@@ -228,7 +215,7 @@ function aliasMap(db) {
   const map = new Map();
   try {
     const { jobs } = groupByRepository(getAppList(db));
-    for (const j of jobs) map.set(j.appId, j.aliases.map(a => ({ appId: a.appId, platform: a.platform })));
+    for (const j of jobs) map.set(j.appId, j.aliases.map(a => ({ appId: a.appId })));
   } catch { /* no cached app list: aliases stay empty */ }
   return map;
 }
@@ -254,29 +241,6 @@ export function productCounts(db) {
   return { byName, byVersion };
 }
 
-// The packages shipped by two or more products, most shared first, with the
-// product count per version: the cross-wallet "who ships X" list.
-export function sharedPackages(db, { minProducts = 2 } = {}) {
-  const rows = db.prepare(`
-    SELECT p.ecosystem, p.name, p.version, COUNT(DISTINCT d.app_id) AS products
-    FROM app_dependencies d JOIN packages p ON p.id = d.package_id
-    GROUP BY p.ecosystem, p.name, p.version
-  `).all();
-  const byName = new Map();
-  for (const r of rows) {
-    const key = `${r.ecosystem}:${r.name}`;
-    if (!byName.has(key)) byName.set(key, { ecosystem: r.ecosystem, name: r.name, versions: {}, apps: new Set() });
-    byName.get(key).versions[r.version] = r.products;
-  }
-  const totals = db.prepare(`
-    SELECT p.ecosystem, p.name, COUNT(DISTINCT d.app_id) AS products
-    FROM app_dependencies d JOIN packages p ON p.id = d.package_id
-    GROUP BY p.ecosystem, p.name HAVING products >= ?
-  `).all(minProducts);
-  return totals
-    .map(t => ({ ecosystem: t.ecosystem, name: t.name, products: t.products, versions: byName.get(`${t.ecosystem}:${t.name}`).versions }))
-    .sort((a, b) => b.products - a.products || a.ecosystem.localeCompare(b.ecosystem) || a.name.localeCompare(b.name));
-}
 
 // The upstream triage hints (upstreamTriage.mjs, hintsByApp): one file per
 // wallet, upstream/<appId>.json, `{ schema, appId, advisories: { id: [entry] } }`.
@@ -300,7 +264,7 @@ export function writeUpstreamHints(db, exportDir) {
  * tree; the previous export is removed afterwards.
  * Returns { apps, releases, dir }.
  */
-export function exportAll(db, outDir, { generatedAt = new Date().toISOString(), analyser = null, onlyReproducible = false } = {}) {
+export function exportAll(db, outDir, { onlyReproducible = false } = {}) {
   const parent = path.dirname(path.resolve(outDir));
   fs.mkdirSync(parent, { recursive: true });
   const tmp = fs.mkdtempSync(path.join(parent, '.export-'));
@@ -309,52 +273,19 @@ export function exportAll(db, outDir, { generatedAt = new Date().toISOString(), 
   // Out of scope (no reproducible version, reproducible.mjs, or past its end of life): the rows stay in
   // the database as supplementary data, the site does not show them.
   if (onlyReproducible) {
-    const verified = getReproducibleVersions(db);
-    const endOfLife = getEndOfLife(db); // gone and no commit for years (index.mjs)
-    appIds = new Set([...appIds].filter(id => !endOfLife.has(id) && [id, ...(aliases.get(id) || []).map(a => a.appId)].some(a => verified.has(a))));
+    const inScope = scopeFilter(db, aliases);
+    appIds = new Set([...appIds].filter(inScope));
   }
-  const index = { schema: SCHEMA, generatedAt, analyser, apps: [] };
+  const index = { schema: SCHEMA, apps: [] };
   const counts = productCounts(db);
   const sources = packageSources(db);
   let releases = 0;
   for (const appId of [...appIds].sort()) {
-    const app = buildApp(db, appId, aliases.get(appId) || [], counts, sources);
-    const appDir = path.join(tmp, 'apps', safeName(appId));
-    fs.mkdirSync(appDir, { recursive: true });
-    fs.writeFileSync(path.join(tmp, 'apps', `${safeName(appId)}.json`), JSON.stringify(app));
-    for (const r of app.releases) {
-      const refDir = path.join(appDir, safeName(r.ref));
-      fs.mkdirSync(refDir, { recursive: true });
-      fs.writeFileSync(path.join(refDir, 'dependencies.json'), JSON.stringify({
-        schema: SCHEMA, appId, ref: r.ref, dependencies: getDependencies(db, appId, r.ref).map(d => ({
-          ecosystem: d.ecosystem, name: d.name, version: d.dep_version, lockfile: d.lockfile, tier: d.tier,
-          direct: d.direct === null ? null : d.direct === 1, dev: d.dev === null ? null : d.dev === 1,
-          scope: scopeOfRow(d) === 'unknown' ? null : scopeOfRow(d),
-          part: productPartOf(d.lockfile) || undefined,
-          dependants: dependantsOfRow(d.dependants),
-          repo: sources.get(`${d.ecosystem}:${d.name}`)?.repo_url || undefined,
-          resolved: d.resolved || undefined, integrity: d.integrity || undefined,
-          products: counts.byName.get(`${d.ecosystem}:${d.name}`) || 1,
-          productsSameVersion: counts.byVersion.get(`${d.ecosystem}:${d.name}@${d.dep_version}`) || 1,
-        })),
-      }));
-      const subs = getSubmodules(db, appId, r.ref);
-      if (subs) fs.writeFileSync(path.join(refDir, 'submodules.json'), JSON.stringify({ schema: SCHEMA, appId, ref: r.ref, ...subs }));
-      releases++;
-    }
-    // The repository's other app ids (the iPhone page, a desktop record) get a
-    // stub pointing at the file above, so a reader needs no index lookup.
-    for (const alias of app.aliases) {
-      if (alias.appId === appId || appIds.has(alias.appId)) continue;
-      fs.writeFileSync(path.join(tmp, 'apps', `${safeName(alias.appId)}.json`), JSON.stringify({ schema: SCHEMA, appId, alias: true }));
-    }
+    const app = writeAppFiles(db, tmp, appId, aliases.get(appId) || [], counts, sources, (id) => appIds.has(id));
+    releases += app.releases.length;
     index.apps.push(indexEntry(app));
   }
-  fs.mkdirSync(path.join(tmp, 'packages'), { recursive: true });
-  const shared = sharedPackages(db);
-  fs.writeFileSync(path.join(tmp, 'packages', 'index.json'), JSON.stringify({ schema: SCHEMA, generatedAt, minProducts: 2, packages: shared }));
-  index.sharedPackages = shared.length;
-  index.upstreamHints = writeUpstreamHints(db, tmp).apps;
+  writeUpstreamHints(db, tmp);
   // The APK checks (apk-contents-cli.mjs --export) are written next to the
   // export from outside the database; a new export keeps them.
   const apkDir = path.join(outDir, 'apk');
@@ -372,6 +303,81 @@ export function exportAll(db, outDir, { generatedAt = new Date().toISOString(), 
   return { apps: index.apps.length, releases, dir: path.resolve(outDir) };
 }
 
+/**
+ * Update one app in an existing export as soon as its analysis ends, so its
+ * page does not wait for the rest of the pass: its app file, dependency lists,
+ * alias stubs and index entry. Everything else (shared packages, upstream
+ * hints, signals, releases removed since, product counts of the other apps)
+ * stays as the last exportAll left it until the pass ends with a new one.
+ * Each file is written to a temporary name and renamed into place.
+ * Returns { exported: false } for an app out of scope, else
+ * { exported: true, releases, files } with the paths (relative to outDir) to publish.
+ */
+export function exportApp(db, outDir, appId, { onlyReproducible = false, counts = productCounts(db), sources = packageSources(db) } = {}) {
+  const aliases = aliasMap(db);
+  if (onlyReproducible && !scopeFilter(db, aliases)(appId)) return { exported: false };
+  const indexFile = path.join(outDir, 'index.json');
+  let index = null;
+  try { index = JSON.parse(fs.readFileSync(indexFile, 'utf8')); } catch { /* first export: start an index */ }
+  if (!index || index.schema !== SCHEMA || !Array.isArray(index.apps)) index = { schema: SCHEMA, apps: [] };
+  const exported = new Set(index.apps.map(a => a.appId));
+  const app = writeAppFiles(db, outDir, appId, aliases.get(appId) || [], counts, sources, (id) => id === appId || exported.has(id), { atomic: true });
+  index.apps = [...index.apps.filter(a => a.appId !== appId), indexEntry(app)].sort((a, b) => a.appId.localeCompare(b.appId));
+  writeAtomic(indexFile, JSON.stringify(index));
+  const files = ['index.json', `apps/${safeName(appId)}.json`, `apps/${safeName(appId)}/`,
+    ...app.aliases.filter(a => a.appId !== appId && !exported.has(a.appId)).map(a => `apps/${safeName(a.appId)}.json`)];
+  return { exported: true, releases: app.releases.length, files };
+}
+
+// Which app ids the site shows: a reproducible version on any of the
+// repository's ids, and not past its end of life.
+function scopeFilter(db, aliases) {
+  const verified = getReproducibleVersions(db);
+  const endOfLife = getEndOfLife(db); // gone and no commit for years (index.mjs)
+  return (id) => !endOfLife.has(id) && [id, ...(aliases.get(id) || []).map(a => a.appId)].some(a => verified.has(a));
+}
+
+function writeAtomic(file, content) {
+  const tmp = `${file}.${process.pid}.tmp`;
+  fs.writeFileSync(tmp, content);
+  fs.renameSync(tmp, file);
+}
+
+// One app's files under dir: apps/<appId>.json, a dependencies.json per
+// release, and a stub for each alias that is not exported in its own right.
+function writeAppFiles(db, dir, appId, aliases, counts, sources, isExported, { atomic = false } = {}) {
+  const write = atomic ? writeAtomic : (file, content) => fs.writeFileSync(file, content);
+  const app = buildApp(db, appId, aliases, counts, sources);
+  const appDir = path.join(dir, 'apps', safeName(appId));
+  fs.mkdirSync(appDir, { recursive: true });
+  for (const r of app.releases) {
+    const refDir = path.join(appDir, safeName(r.ref));
+    fs.mkdirSync(refDir, { recursive: true });
+    write(path.join(refDir, 'dependencies.json'), JSON.stringify({
+      schema: SCHEMA, dependencies: getDependencies(db, appId, r.ref).map(d => ({
+        ecosystem: d.ecosystem, name: d.name, version: d.dep_version, lockfile: d.lockfile, tier: d.tier,
+        direct: d.direct === null ? null : d.direct === 1,
+        scope: scopeOfRow(d) === 'unknown' ? null : scopeOfRow(d),
+        part: productPartOf(d.lockfile) || undefined,
+        dependants: dependantsOfRow(d.dependants),
+        products: counts.byName.get(`${d.ecosystem}:${d.name}`) || 1,
+        productsSameVersion: counts.byVersion.get(`${d.ecosystem}:${d.name}@${d.dep_version}`) || 1,
+      })),
+    }));
+    const subs = getSubmodules(db, appId, r.ref);
+    if (subs) write(path.join(refDir, 'submodules.json'), JSON.stringify({ schema: SCHEMA, rows: subs.rows.map(submoduleRow) }));
+  }
+  // The app file last: a reader that sees a release in it finds its dependency list.
+  write(path.join(dir, 'apps', `${safeName(appId)}.json`), JSON.stringify(app));
+  // The repository's other app ids (the iPhone page, a desktop record) get a
+  // stub pointing at the file above, so a reader needs no index lookup.
+  for (const alias of app.aliases) {
+    if (alias.appId === appId || isExported(alias.appId)) continue;
+    write(path.join(dir, 'apps', `${safeName(alias.appId)}.json`), JSON.stringify({ schema: SCHEMA, appId, alias: true }));
+  }
+  return app;
+}
+
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const outFlag = process.argv.indexOf('--out');
   const outDir = outFlag > -1 ? process.argv[outFlag + 1] : process.env.SOURCE_ANALYSIS_EXPORT_DIR;
@@ -380,11 +386,10 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
     process.exit(2);
   }
   const { initDatabase } = await import('./ddbbUtils.mjs');
-  const { analyserVersion } = await import('./appAnalysis.mjs');
   const db = initDatabase();
   try {
     const { SCOPE } = await import('./config.mjs');
-    const { apps, releases, dir } = exportAll(db, outDir, { analyser: analyserVersion(), onlyReproducible: SCOPE !== 'all' });
+    const { apps, releases, dir } = exportAll(db, outDir, { onlyReproducible: SCOPE !== 'all' });
     console.log(`Exported ${apps} apps, ${releases} releases to ${dir}`);
   } finally {
     db.close();

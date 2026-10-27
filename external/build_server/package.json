@@ -14,7 +14,7 @@
     "isomorphic-dompurify": "^3.23.0",
     "js-yaml": "^4.3.2",
     "nostr-tools": "2.23.8",
-    "p-queue": "^9.3.3",
+    "p-queue": "^9.3.5",
     "winston": "^3.19.0",
     "winston-daily-rotate-file": "^5.0.0",
     "yauzl": "^3.4.0"

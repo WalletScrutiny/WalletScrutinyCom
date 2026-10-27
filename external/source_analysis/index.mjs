@@ -227,9 +227,28 @@ fs.rmSync(DEFAULT_TEMP_DIR, { recursive: true, force: true });
 console.log(`Processing ${jobs.length} app(s), ${CONCURRENCY} at a time...\n`);
 tagConsole();
 
+// Put an app's new analyses on its page as soon as they are stored, instead
+// of at the end of the pass. Only an app something was recorded for since
+// appStart; a failure is logged and left to the export that ends the pass.
+async function exportAndPublishApp(appId, appStart) {
+  try {
+    const recorded = db.prepare('SELECT COUNT(*) AS n FROM analyses WHERE app_id = ? AND analysed_at >= ?').get(appId, appStart).n;
+    if (!recorded) return;
+    const { exportApp } = await import('./export.mjs');
+    const { publishFiles } = await import('./publish.mjs');
+    const exported = exportApp(db, EXPORT_DIR, appId, { onlyReproducible: SCOPE !== 'all' });
+    if (!exported.exported) return;
+    const published = publishFiles(EXPORT_DIR, exported.files);
+    console.log(`  Exported ${exported.releases} releases${published.published ? ` and published them to ${published.target}` : ''}`);
+  } catch (error) {
+    console.warn(`  ⚠ Exporting or publishing this app failed (the end of the pass exports it again): ${error.message}`);
+  }
+}
+
 try {
   let successCount = 0;
   let errorCount = 0;
+  let missingCount = 0;
   const passStart = db.prepare('SELECT CURRENT_TIMESTAMP AS t').get().t;
 
   // Process the apps, CONCURRENCY at a time (each in its own container and
@@ -262,6 +281,7 @@ try {
         }
       }
       
+      const appStart = db.prepare('SELECT CURRENT_TIMESTAMP AS t').get().t;
       await processApp(
         db,
         app.appId,
@@ -273,10 +293,18 @@ try {
         app.verified || []
       );
       successCount++;
+      if (EXPORT_DIR) await exportAndPublishApp(app.appId, appStart);
     } catch (error) {
-      console.error(`\n✗  Failed to process ${app.appId}:`, error.message);
-      errorCount++;
-      // Continue with next app instead of stopping
+      // A repository GitHub reports as missing is a property of that wallet,
+      // not a failed pass. Anything else (5xx after retries, rate limit, a
+      // crash in one app) still fails the oneshot so the unit shows it.
+      if (typeof error.message === 'string' && error.message.startsWith('Repository not found:')) {
+        console.error(`\n✗  Repository missing, skipping ${app.appId}: ${error.message}`);
+        missingCount++;
+      } else {
+        console.error(`\n✗  Failed to process ${app.appId}:`, error.message);
+        errorCount++;
+      }
     }
   }, (app) => app.appId);
 
@@ -299,8 +327,7 @@ try {
   if (EXPORT_DIR) {
     try {
       const { exportAll } = await import('./export.mjs');
-      const { analyserVersion } = await import('./appAnalysis.mjs');
-      const { apps, releases, dir } = exportAll(db, EXPORT_DIR, { analyser: analyserVersion(), onlyReproducible: SCOPE !== 'all' });
+      const { apps, releases, dir } = exportAll(db, EXPORT_DIR, { onlyReproducible: SCOPE !== 'all' });
       console.log(`\nExported ${apps} apps, ${releases} releases to ${dir}`);
       if (process.env.SOURCE_ANALYSIS_SIGNALS !== 'off') {
         // EPSS, CISA's exploited list, publication dates; a failing feed only leaves its part out
@@ -322,8 +349,11 @@ try {
     }
   }
 
+  const missingPart = missingCount === 0
+    ? ''
+    : `, ${missingCount} ${missingCount === 1 ? 'repository' : 'repositories'} not found`;
   console.log(`\n${'='.repeat(50)}`);
-  console.log(`Summary: ${successCount} succeeded, ${errorCount} failed`);
+  console.log(`Summary: ${successCount} succeeded, ${errorCount} failed${missingPart}`);
   console.log(`${'='.repeat(50)}`);
 
   if (errorCount > 0) {

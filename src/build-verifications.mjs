@@ -10,7 +10,7 @@ import { createStatusPillMark, formatCommentDate } from './assets-table-utils.mj
 import { createVerificationActionLink } from './assets-table-paint.mjs';
 import { buildHashVerdictIndex } from './assets-table-filters.mjs';
 import { renderProfilePictures } from './assets-table-profiles.js';
-import { getNostrProfile, getProfileDisplayName } from './nostr-profile.mjs';
+import { getKnownNostrProfile, getNostrProfile, getProfileDisplayName } from './nostr-profile.mjs';
 import { checkFileExistsInBlossom } from './blossom-utils.mjs';
 import { getVerificationIdFromHash } from './assets-table-hash.mjs';
 import { el, HASH_PREFIX_LENGTH, isSha256Hex } from './html-utils.mjs';
@@ -137,9 +137,12 @@ function centerStone(riverEl, stoneEl, { smooth = true } = {}) {
 
 // ---------------------------------------------------------------- who tested
 
+// A name this page already resolved is shown straight away; only an unknown verifier
+// starts as the npub and is renamed when the profile arrives.
 function verifierName(pubkey) {
-  const span = el('span', { className: 'bv-row__name', dataset: { bvPubkey: pubkey } }, getProfileDisplayName(null, pubkey));
-  if (isSha256Hex(pubkey)) {
+  const known = getKnownNostrProfile(pubkey);
+  const span = el('span', { className: 'bv-row__name', dataset: { bvPubkey: pubkey } }, getProfileDisplayName(known, pubkey));
+  if (!known && isSha256Hex(pubkey)) {
     getNostrProfile(pubkey).then(profile => {
       if (profile) {
         span.textContent = getProfileDisplayName(profile, pubkey);

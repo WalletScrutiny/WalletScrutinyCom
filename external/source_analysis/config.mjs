@@ -101,7 +101,12 @@ export const YEARS_FOR_OUTDATED_CHECK = 5; // Report dependencies not updated in
 export const MIN_DOWNLOADS_THRESHOLD = 10000; // Minimum downloads per month to avoid alert
 
 // Asset Size Change Detection Configuration
-export const SIZE_CHANGE_THRESHOLD_PERCENT = 30; // Alert if size difference exceeds this percentage
+export const SIZE_CHANGE_THRESHOLD_PERCENT = 40; // Alert if size difference exceeds this percentage
+
+// GitHub lists releases newest first. The asset ledger stops at the first
+// release older than this, so a repository with a long history (Brave) is not
+// walked into the API's result cap.
+export const RELEASE_MAX_AGE_YEARS = 3;
 
 export const SHOW_ONLY_FIRST_X_ALERTS = 100;
 

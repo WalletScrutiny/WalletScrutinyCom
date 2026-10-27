@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@nodesecure/js-x-ray": "^15.2.0",
-    "axios": "^1.20.0",
+    "axios": "^1.21.0",
     "better-sqlite3": "^12.11.1",
     "minimist": "^1.2.8",
     "nostr-tools": "^2.23.8",

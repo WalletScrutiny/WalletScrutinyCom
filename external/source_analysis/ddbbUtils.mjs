@@ -696,7 +696,9 @@ function createAssetNamePattern(assetName, version) {
 // The asset_name pattern is created by replacing the version with a wildcard
 // This allows matching assets like "zeus-v0.12.0-alpha4-arm64-v8a.apk" and "zeus-v0.12.0-alpha3-arm64-v8a.apk"
 // Returns array of objects with version, size, published_at
-export function getPreviousAssetVersions(db, appId, assetName, source, architecture, os, currentVersion, limit = 10) {
+// publishedBefore (optional): only versions published before it, so a release is
+// never compared against newer ones
+export function getPreviousAssetVersions(db, appId, assetName, source, architecture, os, currentVersion, limit = 10, publishedBefore = null) {
   // Create pattern by replacing version with wildcard
   const assetNamePattern = createAssetNamePattern(assetName, currentVersion);
   
@@ -708,6 +710,7 @@ export function getPreviousAssetVersions(db, appId, assetName, source, architect
       AND COALESCE(os, '') = COALESCE(?, '')
       AND version != ?
       AND size IS NOT NULL
+      AND (? IS NULL OR published_at < ?)
     ORDER BY COALESCE(published_at, created_at) DESC
     LIMIT ?
   `);
@@ -719,6 +722,8 @@ export function getPreviousAssetVersions(db, appId, assetName, source, architect
     architecture || null, 
     os || null, 
     currentVersion,
+    publishedBefore,
+    publishedBefore,
     limit
   );
 }

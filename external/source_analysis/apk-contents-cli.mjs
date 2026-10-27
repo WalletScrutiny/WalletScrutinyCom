@@ -15,23 +15,23 @@ import { createHash } from 'node:crypto';
 import { readApk, artifactsFor, compare } from './apkContents.mjs';
 
 /**
- * What the wallet page needs: per declared package `ecosystem:name@version`
- * its status in the APK, the native files, the undeclared code (largest
- * first) and the summary; `apk` names the file that was checked.
+ * What the wallet page reads: per declared package `ecosystem:name@version`
+ * its status in the APK, the undeclared native files and code (largest
+ * first) and the summary counts; `apk` names the file that was checked.
  */
-export function apkExport(result, { appId, ref, apkName, apkSha256, checkedAt = new Date().toISOString() }) {
+export function apkExport(result, { ref, apkName, apkSha256 }) {
   const packages = {};
   for (const r of result.rows) packages[`gradle:${r.name}@${r.version}`] = r.shippedVersion && r.shippedVersion !== r.version ? `${r.status}:${r.shippedVersion}` : r.status;
+  const s = result.summary;
   return {
     schema: 1,
-    appId,
     ref,
     apk: { name: apkName, sha256: apkSha256 },
-    checkedAt,
-    summary: result.summary,
+    summary: { declared: s.declared, present: s.present, otherVersionShipped: s.otherVersionShipped, cantTell: s.cantTell, native: s.native, nativeIdentical: s.nativeIdentical, nativeDiffers: s.nativeDiffers, undeclaredClasses: s.undeclaredClasses },
     packages,
-    nativeFiles: result.nativeFiles.map(n => ({ path: n.path, verdict: n.verdict, providers: n.providers.filter(p => p.identical).map(p => `${p.name}@${p.version}`) })),
-    undeclared: result.undeclared.slice(0, 30),
+    // the panel names the native libraries no dependency declares, and the five largest undeclared packages
+    nativeFiles: result.nativeFiles.filter(n => n.verdict === 'undeclared').map(n => ({ path: n.path, verdict: n.verdict })),
+    undeclared: result.undeclared.slice(0, 5).map(u => ({ package: u.package })),
   };
 }
 
@@ -51,7 +51,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   if (argv.json) fs.writeFileSync(argv.json, JSON.stringify(result, null, 1));
   if (argv.export) {
     if (!argv['app-id'] || !argv.ref) throw new Error('--export needs --app-id and --ref');
-    const doc = apkExport(result, { appId: argv['app-id'], ref: argv.ref, apkName: path.basename(argv.apk), apkSha256: createHash('sha256').update(apkBuf).digest('hex') });
+    const doc = apkExport(result, { ref: argv.ref, apkName: path.basename(argv.apk), apkSha256: createHash('sha256').update(apkBuf).digest('hex') });
     fs.mkdirSync(path.join(argv.export, 'apk'), { recursive: true });
     fs.writeFileSync(path.join(argv.export, 'apk', `${argv['app-id'].replace(/[^A-Za-z0-9._+-]/g, '_')}.json`), JSON.stringify(doc));
   }

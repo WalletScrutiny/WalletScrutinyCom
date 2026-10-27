@@ -5,8 +5,8 @@ import assert from 'node:assert/strict';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import { initDatabase, saveDependencies, saveVulnerabilities, recordAnalysis, saveAppList, saveSubmodules } from '../ddbbUtils.mjs';
-import { exportAll, buildApp, safeName, sharedPackages, productPartOf } from '../export.mjs';
+import { initDatabase, saveDependencies, saveVulnerabilities, recordAnalysis, saveAppList, saveReproducibleVersions, saveSubmodules } from '../ddbbUtils.mjs';
+import { exportAll, exportApp, buildApp, safeName, productPartOf } from '../export.mjs';
 
 const entry = (name, version, extra = {}) => ({ ecosystem: 'npm', lockfile: 'package-lock.json', name, version, resolved: `https://registry.npmjs.org/${name}/-/${name}-${version}.tgz`, integrity: `sha512-${name}${version}`, direct: true, dev: false, tier: 'hash-pinned', ...extra });
 
@@ -30,29 +30,31 @@ function seeded() {
   return db;
 }
 
-test('buildApp: releases newest first with summary, advisories, diff and provenance', () => {
-  const app = buildApp(seeded(), 'app.android', [{ appId: 'app.android', platform: 'android' }, { appId: 'app.ios', platform: 'iphone' }]);
+test('buildApp: releases newest first with summary, advisories and diff, nothing the panel does not read', () => {
+  const app = buildApp(seeded(), 'app.android', [{ appId: 'app.android' }, { appId: 'app.ios' }]);
   assert.equal(app.releases.length, 2);
   const [latest, previous] = app.releases;
   assert.equal(latest.ref, 'v1.1.0');
   assert.equal(latest.commit, 'c2');
-  assert.deepEqual(latest.osv, { checked: 1, skipped: { floating: 1 } });
+  assert.deepEqual(latest.osv, { skipped: { floating: 1 } });
   assert.equal(latest.dependencies.total, 2);
-  assert.equal(latest.dependencies.tiers.floating, 1);
-  assert.equal(latest.dependencies.devUnknown, 1);
   assert.deepEqual(latest.dependencies.byScope, { app: 1, build: 0, tests: 0, unknown: 1 });
   assert.deepEqual(previous.dependencies.byScope, { app: 1, build: 0, tests: 1, unknown: 0 }, 'scope column first, dev flag for rows without one');
   assert.equal(latest.advisories[0].scope, 'app');
   assert.deepEqual(latest.vulnerabilities.byScope, { app: 1, build: 0, tests: 0, unknown: 0 });
   assert.deepEqual(latest.vulnerabilities.bySeverity, { malicious: 0, critical: 0, high: 1, moderate: 0, low: 0, unknown: 0 });
   assert.equal(latest.advisories[0].id, 'GHSA-aaaa');
-  assert.deepEqual(latest.advisories[0].fixed, ['1.0.2']);
   assert.deepEqual([latest.advisories[0].products, latest.advisories[0].productsSameVersion], [2, 2], 'a@1.0.1 is shipped by app.android and app.other');
   assert.deepEqual(latest.diffFrom, { ref: 'v1.0.0', added: 1, removed: 1, changed: 1, integrityChangedAtSameVersion: [] });
   assert.equal(previous.diffFrom, undefined);
-  assert.equal(previous.dependencies.dev, 1);
-  assert.equal(app.defaultBranch.commit, 'headsha');
-  assert.equal(app.aliases.length, 2);
+  assert.deepEqual(app.aliases, [{ appId: 'app.android' }, { appId: 'app.ios' }]);
+  // as written to the file: undefined keys are left out
+  const written = JSON.parse(JSON.stringify(latest));
+  assert.deepEqual(Object.keys(app), ['schema', 'appId', 'aliases', 'releases']);
+  assert.deepEqual(Object.keys(written), ['ref', 'commit', 'analysedAt', 'status', 'lockfiles', 'osv', 'dependencies', 'vulnerabilities', 'advisories', 'diffFrom']);
+  assert.deepEqual(Object.keys(written.dependencies), ['total', 'direct', 'byScope', 'byEcosystem', 'lockfiles']);
+  assert.deepEqual(Object.keys(written.vulnerabilities), ['bySeverity', 'byScope']);
+  assert.deepEqual(Object.keys(written.advisories[0]), ['id', 'severity', 'aliases', 'summary', 'ecosystem', 'package', 'version', 'direct', 'scope', 'dependants', 'products', 'productsSameVersion']);
 });
 
 test('a release stored before the analyses table existed is exported without provenance', () => {
@@ -70,42 +72,70 @@ test('exportAll writes index, app files and dependency lists, atomically replaci
   fs.mkdirSync(dir);
   fs.writeFileSync(path.join(dir, 'stale.json'), '{}');
 
-  const result = exportAll(db, dir, { generatedAt: '2026-10-16T00:00:00Z', analyser: '1.0.0+abc' });
+  const result = exportAll(db, dir, {});
   assert.deepEqual(result, { apps: 3, releases: 3, dir });
   assert.ok(!fs.existsSync(path.join(dir, 'stale.json')));
   assert.ok(!fs.existsSync(`${dir}.previous`));
   assert.deepEqual(fs.readdirSync(path.dirname(dir)).filter(n => n.startsWith('.export-')), []);
 
   const index = JSON.parse(fs.readFileSync(path.join(dir, 'index.json'), 'utf8'));
-  assert.equal(index.schema, 1);
-  assert.equal(index.analyser, '1.0.0+abc');
-  assert.deepEqual(index.apps.map(a => a.appId), ['app.android', 'app.failed', 'app.other']);
-  const android = index.apps[0];
-  assert.equal(android.latest.ref, 'v1.1.0');
-  assert.equal(android.latest.vulnerabilities.high, 1);
-  assert.deepEqual(android.aliases.map(a => a.appId), ['app.android', 'app.ios']);
-  assert.equal(index.apps[1].latest, null);
-  assert.equal(index.apps[1].defaultBranch.status, 'failed');
+  assert.deepEqual(index, { schema: 1, apps: [{ appId: 'app.android' }, { appId: 'app.failed' }, { appId: 'app.other' }] });
 
   assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.ios.json'), 'utf8')), { schema: 1, appId: 'app.android', alias: true });
   const app = JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.android.json'), 'utf8'));
   assert.equal(app.releases[0].advisories.length, 1);
   const deps = JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.android', 'v1.1.0', 'dependencies.json'), 'utf8'));
   assert.deepEqual(deps.dependencies.map(d => `${d.name}@${d.version}:${d.tier}`), ['a@1.0.1:hash-pinned', 'c@3.0.0:floating']);
-  assert.equal(deps.dependencies[1].dev, null);
+  assert.deepEqual(Object.keys(deps), ['schema', 'dependencies']);
+  assert.deepEqual(Object.keys(deps.dependencies[0]), ['ecosystem', 'name', 'version', 'lockfile', 'tier', 'direct', 'scope', 'dependants', 'products', 'productsSameVersion']);
   assert.equal(deps.dependencies[1].scope, null);
   assert.equal(deps.dependencies[0].scope, 'app');
   assert.deepEqual(deps.dependencies.map(d => [d.products, d.productsSameVersion]), [[2, 2], [1, 1]]);
-  const packages = JSON.parse(fs.readFileSync(path.join(dir, 'packages', 'index.json'), 'utf8'));
-  assert.deepEqual(packages.packages, [{ ecosystem: 'npm', name: 'a', products: 2, versions: { '1.0.0': 1, '1.0.1': 2 } }]);
-  assert.equal(index.sharedPackages, 1);
+  assert.ok(!fs.existsSync(path.join(dir, 'packages')));
 });
 
-test('sharedPackages lists packages used by two or more products, most shared first', () => {
-  const list = sharedPackages(seeded());
-  assert.deepEqual(list.map(p => `${p.name}:${p.products}`), ['a:2']);
-  assert.deepEqual(sharedPackages(seeded(), { minProducts: 1 }).map(p => p.name), ['a', 'b', 'c', 'z']);
+test('exportApp updates one app in place, leaving the rest of the export as it was', () => {
+  const db = seeded();
+  const dir = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'sa-export-')), 'export');
+  exportAll(db, dir, {});
+  const otherBefore = fs.readFileSync(path.join(dir, 'apps', 'app.other.json'), 'utf8');
+
+  saveDependencies(db, 'app.android', 'v1.2.0', [{ ecosystem: 'npm', entries: [entry('a', '1.0.2')] }]);
+  recordAnalysis(db, { appId: 'app.android', kind: 'release', ref: 'v1.2.0', commit: 'c3', status: 'ok', appType: 'npm', analyser: '1.0.1', dependencies: 1 });
+  db.prepare("UPDATE analyses SET analysed_at = '2099-01-01 00:00:00' WHERE ref = 'v1.2.0'").run();
+  saveDependencies(db, 'app.other', 'v10', [{ ecosystem: 'npm', entries: [entry('z', '2.0.0')] }]);
+  recordAnalysis(db, { appId: 'app.other', kind: 'release', ref: 'v10', status: 'ok', analyser: '1.0.1' });
+
+  const result = exportApp(db, dir, 'app.android');
+  assert.deepEqual(result, { exported: true, releases: 3, files: ['index.json', 'apps/app.android.json', 'apps/app.android/', 'apps/app.ios.json'] });
+  const app = JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.android.json'), 'utf8'));
+  assert.equal(app.releases[0].ref, 'v1.2.0');
+  assert.ok(fs.existsSync(path.join(dir, 'apps', 'app.android', 'v1.2.0', 'dependencies.json')));
+  assert.equal(fs.readFileSync(path.join(dir, 'apps', 'app.other.json'), 'utf8'), otherBefore, 'another app waits for the end of the pass');
+  const index = JSON.parse(fs.readFileSync(path.join(dir, 'index.json'), 'utf8'));
+  assert.deepEqual(index.apps.map(a => a.appId), ['app.android', 'app.failed', 'app.other']);
+  assert.equal(JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.other.json'), 'utf8')).releases[0].ref, 'v9');
+  assert.deepEqual(fs.readdirSync(path.join(dir, 'apps')).filter(n => n.endsWith('.tmp')), []);
 });
+
+test('exportApp starts an export when there is none, with the alias stub', () => {
+  const db = seeded();
+  const dir = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'sa-export-')), 'export');
+  const result = exportApp(db, dir, 'app.android');
+  assert.deepEqual(result.files, ['index.json', 'apps/app.android.json', 'apps/app.android/', 'apps/app.ios.json']);
+  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.ios.json'), 'utf8')), { schema: 1, appId: 'app.android', alias: true });
+  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'index.json'), 'utf8')).apps.map(a => a.appId), ['app.android']);
+});
+
+test('exportApp leaves an app out of scope alone, and exports one verified under an alias', () => {
+  const db = seeded();
+  const dir = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'sa-export-')), 'export');
+  assert.deepEqual(exportApp(db, dir, 'app.android', { onlyReproducible: true }), { exported: false });
+  assert.ok(!fs.existsSync(dir));
+  saveReproducibleVersions(db, new Map([['app.ios', [{ version: '1.1.0', verifiedAt: 1 }]]]));
+  assert.equal(exportApp(db, dir, 'app.android', { onlyReproducible: true }).exported, true);
+});
+
 
 test('a lockfile of another product in the repository (desktop, server, web) marks its rows', () => {
   assert.equal(productPartOf('electron/package-lock.json'), 'desktop');
@@ -132,17 +162,6 @@ test('safeName keeps ids and tags readable but path-safe', () => {
   assert.equal(safeName('../x'), '__x');
 });
 
-test('a release carries its lock coverage, and the index its verdict', () => {
-  const db = initDatabase(':memory:');
-  const coverage = { verdict: 'unlocked', manifests: [{ ecosystem: 'pub', manifest: 'pubspec.yaml', lockfile: null, product: true }], missing: 1, floatingRows: {} };
-  recordAnalysis(db, { appId: 'app.flutter', kind: 'release', ref: 'v2', status: 'unsupported', analyser: '1', lockCoverage: coverage });
-  const app = buildApp(db, 'app.flutter');
-  assert.deepEqual(app.releases[0].lockCoverage, coverage);
-  const dir = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'sa-export-')), 'export');
-  exportAll(db, dir);
-  const index = JSON.parse(fs.readFileSync(path.join(dir, 'index.json'), 'utf8'));
-  assert.equal(index.apps[0].latest.lock, 'unlocked');
-});
 
 test('buildApp: releases analysed later but older (backfill) still sort after newer versions', () => {
   const db = initDatabase(':memory:');
@@ -161,21 +180,23 @@ test('submodules: counted in the release summary, advisories only where the code
   const rows = [
     { path: 'contrib/own', firstParty: true, scope: { status: 'assumed' }, identity: { status: 'upstream-commit' }, advisories: { status: 'none-listed', applies: [] } },
     { path: 'contrib/openssl', scope: { status: 'assumed' }, identity: { status: 'upstream-tag', tag: 'openssl-3.0.13' }, advisories: { status: 'affected', applies: ['CVE-1', 'CVE-2'] } },
-    { path: 'contrib/openssl/krb5', scope: { status: 'test-only', why: 'x' }, identity: { status: 'upstream-commit' }, advisories: { status: 'affected', applies: ['CVE-3'] } },
-    { path: 'contrib/fork', scope: { status: 'assumed' }, identity: { status: 'derived', base: 'v1' }, advisories: { status: 'unknown', base: 'v1', unknown: [{ id: 'CVE-4', hint: 'cant-tell' }] } },
+    { path: 'contrib/openssl/krb5', depth: 2, scope: { status: 'test-only', why: 'x', via: 'contrib/openssl' }, identity: { status: 'upstream-commit' }, advisories: { status: 'affected', applies: ['CVE-3'] } },
+    { path: 'contrib/fork', scope: { status: 'assumed' }, identity: { status: 'derived', base: 'v1', baseCommit: 'b'.repeat(40) }, advisories: { status: 'unknown', base: 'v1', unknown: [{ id: 'CVE-4', hint: 'cant-tell' }] } },
     { path: 'contrib/gone', error: 'cannot reach' },
   ];
   saveSubmodules(db, 'cpp.wallet', 'v2', 'a'.repeat(40), rows);
   const app = buildApp(db, 'cpp.wallet');
   assert.deepEqual(app.releases[0].submodules, {
-    total: 5, errors: 1, firstParty: 1, notInApp: 1, upstream: 1, derived: 1, unknownOrigin: 0, affected: 1, advisories: 2, advisoriesUnknown: 1,
+    total: 5, errors: 1, firstParty: 1, notInApp: 1, derived: 1, unknownOrigin: 0, affected: 1, advisories: 2, advisoriesUnknown: 1,
   });
   const out = fs.mkdtempSync(path.join(os.tmpdir(), 'sa-export-subs-'));
   try {
     exportAll(db, path.join(out, 'export'));
     const file = JSON.parse(fs.readFileSync(path.join(out, 'export', 'apps', 'cpp.wallet', 'v2', 'submodules.json'), 'utf8'));
-    assert.equal(file.commit, 'a'.repeat(40));
-    assert.deepEqual(file.rows, rows);
+    assert.deepEqual(Object.keys(file), ['schema', 'rows']);
+    assert.deepEqual(file.rows[2], { path: 'contrib/openssl/krb5', scope: { status: 'test-only', why: 'x' }, identity: { status: 'upstream-commit' }, advisories: { status: 'affected', applies: ['CVE-3'] } });
+    assert.deepEqual(file.rows[3].identity, { status: 'derived', base: 'v1' });
+    assert.deepEqual(file.rows[0], rows[0]);
   } finally {
     fs.rmSync(out, { recursive: true, force: true });
   }

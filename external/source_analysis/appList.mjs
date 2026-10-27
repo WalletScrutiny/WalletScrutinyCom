@@ -2,8 +2,9 @@
 //
 // The site renders api/appRepositories.json from the wallet
 // records: one {appId, platform, repository} per record that has a repository,
-// with gone: true for apps that are removed, defunct, discontinued or deprecated. This module fetches it, keeps the last good copy in SQLite
-// so a run survives the site being unreachable, and groups the entries by
+// with gone: true for apps that are removed, defunct, discontinued or
+// deprecated. This module fetches it, keeps the last good copy in SQLite so a
+// run survives the site being unreachable, and groups the entries by
 // repository so a repo shared by several records is cloned once.
 import fs from 'fs';
 import axios from 'axios';
@@ -16,12 +17,15 @@ const PAGE_SEGMENTS = new Set(['releases', 'tags', 'tree', 'blob', 'commits', 'i
 
 // Canonical https://host/owner/repo for the URL forms found in the wallet
 // records (trailing slash, .git, /releases, /tags, /tree/..., www.), or null
-// when the URL names no repository (user or organisation pages).
+// when the URL names no repository (user or organisation pages, or a URL the
+// site has marked dead with #deadLink / &deadLink).
 export function normalizeRepoUrl(url) {
   if (!url) return null;
+  const raw = String(url).trim();
+  if (raw.endsWith('#deadLink') || raw.endsWith('&deadLink')) return null;
   let parsed;
   try {
-    parsed = new URL(String(url).trim());
+    parsed = new URL(raw);
   } catch {
     return null;
   }

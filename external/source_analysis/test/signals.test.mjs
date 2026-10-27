@@ -73,7 +73,7 @@ describe('advisory signals', () => {
       assert.deepEqual(r, { cves: 2, epss: 1, kev: 1, published: 3, written: true, failed: [] });
       const out = JSON.parse(readFileSync(join(exportDir, 'signals.json'), 'utf8'));
       const published = { 'CVE-2023-4863': '2023-09-12', 'GHSA-1': '2023-10-12', 'GHSA-2': '2023-09-12' };
-      assert.deepEqual(out, { schema: 1, date: '2026-10-16', cves: 2, epss: { 'CVE-2023-45133': [0.00525, 0.432] }, kev: { 'CVE-2023-4863': { added: '2023-09-13' } }, kevCatalog: { version: '2026.10.16', size: 2 }, published });
+      assert.deepEqual(out, { schema: 1, date: '2026-10-16', epss: { 'CVE-2023-45133': [0.00525, 0.432] }, kev: { 'CVE-2023-4863': { added: '2023-09-13' } }, published });
       assert.deepEqual(JSON.parse(readFileSync(publishedCache, 'utf8')), published, 'dates are kept for the next pass');
       assert.equal(osvCalls.length, 3);
 

@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { readFileSync } from 'fs';
 import { getPreviousReleases, getPreviousAssetVersions } from './ddbbUtils.mjs';
-import { GITHUB_API_BASE, DOCKER_HUB_API_BASE, SIZE_CHANGE_THRESHOLD_PERCENT } from './config.mjs';
+import { GITHUB_API_BASE, DOCKER_HUB_API_BASE, SIZE_CHANGE_THRESHOLD_PERCENT, RELEASE_MAX_AGE_YEARS } from './config.mjs';
 
 // Secrets come from a file named by an environment variable (the systemd unit
 // passes its LoadCredential files this way, same as build_server), with the
@@ -32,31 +32,90 @@ export function extractRepoPath(repoUrl) {
   return match[1].replace(/\.git$/, '');
 }
 
-// Fetch GitHub releases and their assets
-export async function fetchGitHubAssets(repoUrl, githubToken = null) {
+function isRetryableGithubError(error) {
+  const status = error?.response?.status;
+  if (status === 502 || status === 503 || status === 504) return true;
+  if (error?.code === 'ECONNRESET' || error?.code === 'ETIMEDOUT' || error?.code === 'ECONNABORTED' || error?.code === 'EAI_AGAIN') return true;
+  return error?.message === 'aborted' || error?.message === 'socket hang up';
+}
+
+// GitHub answers 502/503/504 (and the occasional dropped connection) often enough
+// that one blip would fail a whole repository. A few tries, then the real error.
+async function getWithRetry(get, url, config, { attempts = 3, delayMs = 1000 } = {}) {
+  let lastError;
+  for (let attempt = 1; attempt <= attempts; attempt++) {
+    try {
+      return await get(url, config);
+    } catch (error) {
+      lastError = error;
+      if (!isRetryableGithubError(error) || attempt === attempts) throw error;
+      await new Promise(resolve => setTimeout(resolve, delayMs * attempt));
+    }
+  }
+  throw lastError;
+}
+
+// Releases published at or after this instant are recorded. GitHub returns
+// the list newest first, so the walk stops at the first older one.
+export function releaseNotBefore(years = RELEASE_MAX_AGE_YEARS, now = Date.now()) {
+  const cutoff = new Date(now);
+  cutoff.setUTCFullYear(cutoff.getUTCFullYear() - years);
+  return cutoff.getTime();
+}
+
+function releaseInstant(release) {
+  const raw = release?.published_at || release?.created_at;
+  if (!raw) return null;
+  const ms = Date.parse(raw);
+  return Number.isNaN(ms) ? null : ms;
+}
+
+// Fetch GitHub releases and their assets.
+// `get`, the retry timing and `notBefore` are injectable for tests.
+export async function fetchGitHubAssets(repoUrl, githubToken = null, { get = axios.get, attempts = 3, delayMs = 1000, notBefore = releaseNotBefore() } = {}) {
   const repoPath = extractRepoPath(repoUrl);
   const headers = githubToken ? { 'Authorization': `token ${githubToken}` } : {};
 
   const assets = [];
 
   try {
-    // Fetch all releases
+    // Newest first. Stop at the first release older than notBefore. GitHub
+    // also caps the list and answers 422 past that, even when the Link
+    // header still names the page; the releases already fetched are kept.
     let page = 1;
     let hasMore = true;
 
     while (hasMore) {
-      const response = await axios.get(`${GITHUB_API_BASE}/repos/${repoPath}/releases`, {
-        headers,
-        params: { page, per_page: 100 }
-      });
+      let response;
+      try {
+        response = await getWithRetry(get, `${GITHUB_API_BASE}/repos/${repoPath}/releases`, {
+          headers,
+          params: { page, per_page: 100 }
+        }, { attempts, delayMs });
+      } catch (error) {
+        if (page > 1 && error.response?.status === 422) {
+          const detail = error.response?.data?.message;
+          console.warn(`  GitHub release list for ${repoPath} stopped at page ${page - 1}${detail ? `: ${detail}` : ''}`);
+          break;
+        }
+        throw error;
+      }
 
       if (response.data.length === 0) {
         hasMore = false;
         break;
       }
 
+      let reachedAgeCutoff = false;
       for (const release of response.data) {
         const version = release.tag_name;
+        const publishedMs = releaseInstant(release);
+        if (publishedMs !== null && publishedMs < notBefore) {
+          const when = release.published_at || release.created_at;
+          console.warn(`  GitHub release list for ${repoPath} stopped at ${version} (${when}): older than ${new Date(notBefore).toISOString().slice(0, 10)}`);
+          reachedAgeCutoff = true;
+          break;
+        }
 
         // Process release assets
         if (release.assets && release.assets.length > 0) {
@@ -109,7 +168,7 @@ export async function fetchGitHubAssets(repoUrl, githubToken = null) {
         }
       }
 
-      if (response.data.length < 100) {
+      if (reachedAgeCutoff || response.data.length < 100) {
         hasMore = false;
       } else {
         page++;
@@ -560,17 +619,19 @@ export function evaluateChangesInNewAsset(db, appId, asset, options = {}) {
   const existing = selectStmt.get(appId, asset.version, asset.assetName, asset.source, asset.architecture || null, asset.os || null);
   const newSha256 = asset.sha256;
 
-  // Check size against previous versions (skip on baseline run — no prior snapshot to compare against)
-  if (!skipSizeComparison && asset.size !== undefined && asset.size !== null) {
-    checkSizeChangeAgainstPreviousVersions(
-      db, 
-      appId, 
-      asset, 
-      sizeChangeThresholdPercent
-    );
-  }
-
   if (!existing) {
+    // Check size against previous versions, once, when the asset first appears.
+    // Every pass refetches all releases, so checking stored assets too would
+    // repeat the same alert for every old release on every pass.
+    // Skipped on the baseline run: there is no prior snapshot to compare against.
+    if (!skipSizeComparison && asset.size !== undefined && asset.size !== null) {
+      checkSizeChangeAgainstPreviousVersions(
+        db,
+        appId,
+        asset,
+        sizeChangeThresholdPercent
+      );
+    }
     return { status: 'missing', existing: null, newSha256 };
   }
 
@@ -613,7 +674,8 @@ function checkSizeChangeAgainstPreviousVersions(db, appId, asset, thresholdPerce
     asset.architecture || null,
     asset.os || null,
     asset.version,
-    10
+    10,
+    asset.publishedAt || null
   );
 
   if (previousVersions.length === 0) {

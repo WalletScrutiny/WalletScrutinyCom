@@ -55,19 +55,50 @@ a timer every 6 hours:
 The state and cache directories are created by systemd (`StateDirectory`,
 `CacheDirectory`). The analysed repositories are untrusted: nothing of them
 runs on the host, see [Sandbox](#sandbox). The service user needs to be in the
-`docker` group (it is, for the Automated Build Server).
+`docker` group.
 
 ### Server preparation
 
-The build server is already prepared (user, docker group, node): see
-`external/build_server/README.md`. The only extra requirement is the GitHub
-token credential, which the build server already has. To give the source
-analysis its own token instead (separate API rate limit), create a second
-credential and point the two `build-server-gh-token` lines of the unit at it:
+Everything the source analysis needs on the server is listed here; it does
+not depend on `external/build_server/README.md`. It shares two names with the
+Automated Build Server: the user `build-server` and the GitHub token
+credential `build-server-gh-token`. On a machine where the build server is
+already installed, `adduser` reports that the user exists and the credential
+can be left as it is; every other command is safe to run again.
+
+```bash
+# Packages: docker runs every analysed repository in a container, git asks
+# the remotes for their default branch, rsync copies the export to the web host
+sudo apt install docker.io git rsync openssh-client curl ca-certificates
+
+# Node 22 or newer (the default scope reads the verifications over WebSocket,
+# which Node has built in from 22 on). Check with `node --version`; if it is
+# older or missing, install it from NodeSource. The unit runs /usr/bin/node.
+curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
+sudo apt install nodejs
+
+# The service user and its group (the unit runs as build-server:build-server),
+# allowed to use docker
+sudo adduser --disabled-password --gecos '' build-server
+sudo usermod -aG docker build-server
+
+# GitHub token, encrypted for systemd (the unit loads it with LoadCredentialEncrypted)
+sudo mkdir -p /etc/credstore.encrypted
+echo -n 'ghp_xxx' | sudo systemd-creds encrypt --name=build-server-gh-token - /etc/credstore.encrypted/build-server-gh-token
+```
+
+The token needs no scopes: it only raises the GitHub API rate limit. To give
+the source analysis its own token instead (separate API rate limit), create a
+second credential and point the two `build-server-gh-token` lines of the unit
+at it:
 
 ```bash
 echo -n 'ghp_xxx' | sudo systemd-creds encrypt --name=source-analysis-gh-token - /etc/credstore.encrypted/source-analysis-gh-token
 ```
+
+The directories (`/opt/source_analysis`, `/var/lib/walletscrutiny-source-analysis`,
+`/var/cache/walletscrutiny-source-analysis`) need no preparation: the deploy
+creates the first, systemd the other two.
 
 ### Deploy from your machine
 
@@ -104,8 +135,8 @@ sudo systemctl enable --now walletscrutiny-source-analysis.timer
 The whole setup on two machines, in order, for when one has to be rebuilt.
 The build server (`build.walletscrutiny.com`) runs the analysis, and the web
 host (`walletscrutiny.com`) serves its results. Names marked *suggested*
-can change, as long as the build server's settings in step 3 match the web
-host's in step 2.
+can change, as long as the settings in
+`config/walletscrutiny-source-analysis.service` match the web host's in step 2.
 
 What is lost with the build server: the database
 (`/var/lib/walletscrutiny-source-analysis/assets.db`) and its backups, which
@@ -113,19 +144,8 @@ sit next to it. Nothing else holds the analysis history or the recorded
 alerts. A new database gets filled again by the first pass, which takes
 hours. Copy `assets.db` off the machine now and then if the history matters.
 
-**1. Build server: user, docker, node, token.** If the Automated Build Server
-already runs on the machine, all of this is in place. Otherwise:
-
-```bash
-sudo apt install docker.io nodejs npm rsync openssh-client
-sudo adduser build-server
-sudo usermod -aG docker build-server          # the analysis runs every repository in a container
-echo -n 'ghp_xxx' | sudo systemd-creds encrypt --name=build-server-gh-token - /etc/credstore.encrypted/build-server-gh-token
-```
-
-Node must be 18.6 or newer (see `external/build_server/README.md`, "Install
-the dependencies", for a newer one). The token needs no scopes: it only
-raises the GitHub API rate limit.
+**1. Build server: packages, user, token.** Run every command of
+[Server preparation](#server-preparation).
 
 **2. Web host: directory, user, key, nginx.** Only needed for the wallet
 pages' Dependencies panel. Without it the analysis still runs and stores
@@ -153,7 +173,10 @@ target is that directory's root, `source-analysis@walletscrutiny.com:/`.
 The directory must not be inside `/var/www/walletscrutiny.com`, because
 `deploy:prod` empties that on every deploy.
 
-Then add this to the walletscrutiny.com `server` block and reload nginx
+The nginx config files in this repository (`prod`, `beta` and `old` in
+`external/configs/webserver_nginx/`) already have the `/api/source-analysis/`
+section. Check that the files installed on the web host contain it, or add it
+manually to each site's `server` block, then reload nginx
 (`sudo nginx -t && sudo systemctl reload nginx`):
 
 ```nginx
@@ -163,35 +186,42 @@ location /api/source-analysis/ {
 }
 ```
 
-Back on the build server, record the web host's key, so the copy refuses a
-host it does not know (`StrictHostKeyChecking=yes`), and check the key works:
+Back on the build server, two one-time steps.
+
+First, save the web host's SSH host key. The analysis connects with
+`StrictHostKeyChecking=yes`: it only copies to a host whose key is already in
+its `known_hosts` file, so without this step every publish fails with
+`Host key verification failed`.
 
 ```bash
 ssh-keyscan -t ed25519 walletscrutiny.com | sudo tee /etc/walletscrutiny-source-analysis/known_hosts
+sudo ssh-keygen -lf /etc/walletscrutiny-source-analysis/known_hosts   # fingerprint saved
+```
+
+To be sure the saved key is the real server's, run
+`ssh-keygen -lf /etc/ssh/ssh_host_ed25519_key.pub` on the web host: both
+fingerprints must be the same.
+
+Second, test the copy. This connects exactly like the analysis will (same
+user, key and `known_hosts`) but only lists the web host's directory:
+
+```bash
 sudo -u build-server rsync -e 'ssh -i /etc/walletscrutiny-source-analysis/publish_ed25519 -o UserKnownHostsFile=/etc/walletscrutiny-source-analysis/known_hosts -o StrictHostKeyChecking=yes' \
   --list-only source-analysis@walletscrutiny.com:/
 ```
 
-**3. Build server: settings in a drop-in.** Every deploy copies
-`config/walletscrutiny-source-analysis.service` over the installed unit, so
-anything edited in `/etc/systemd/system/walletscrutiny-source-analysis.service`
-is lost on the next deploy. Machine settings go in a drop-in, which the
-deploy leaves alone. `sudo systemctl edit walletscrutiny-source-analysis.service`
-opens it (`/etc/systemd/system/walletscrutiny-source-analysis.service.d/override.conf`):
+A line ending in ` .` means it works. `Permission denied` means the public key
+in the web host's `authorized_keys` is wrong; `Host key verification failed`
+means the first step is missing or saved another host's key.
 
-```ini
-[Service]
-# Static export at the end of each pass ("Static export"); without it nothing is published
-Environment=SOURCE_ANALYSIS_EXPORT_DIR=/var/lib/walletscrutiny-source-analysis/export
-# Copy of the export to the web host ("Publishing the export")
-Environment=SOURCE_ANALYSIS_PUBLISH_TARGET=source-analysis@walletscrutiny.com:/
-Environment="SOURCE_ANALYSIS_PUBLISH_SSH=ssh -i /etc/walletscrutiny-source-analysis/publish_ed25519 -o UserKnownHostsFile=/etc/walletscrutiny-source-analysis/known_hosts -o StrictHostKeyChecking=yes"
-# Alert key, kept out of the world-readable unit files ("Alerts")
-EnvironmentFile=-/etc/walletscrutiny-source-analysis/alerts.env
-```
-
-For alerts, put the analyser's Nostr key in that file, readable by root
-only (systemd reads it before it drops to `build-server`):
+**3. Build server: alert key.** The export directory, the web host target
+and the SSH key paths from step 2 are already set in
+`config/walletscrutiny-source-analysis.service`, which the deploy installs. If
+you changed a *suggested* name in step 2, change it there too. Only the alert
+key stays out of the unit, because it is a secret and unit files are
+world-readable. Put the analyser's Nostr key in
+`/etc/walletscrutiny-source-analysis/alerts.env`, readable by root only
+(systemd reads it before it drops to `build-server`):
 
 ```bash
 echo 'ALERT_NOSTR_NSEC=nsec1...' | sudo tee /etc/walletscrutiny-source-analysis/alerts.env
@@ -243,11 +273,23 @@ renamed into place so a reader never sees a half-written tree:
 
 | file | content |
 |---|---|
-| `index.json` | every analysed app: aliases (the site's app ids for the repository), latest release summary (ref, commit, date, status, dependency and advisory counts), default-branch status |
+| `index.json` | the exported app ids, which `exportApp` keeps current |
 | `apps/<aliasId>.json` | `{appId, alias: true}` for the repository's other app ids (the iPhone record of an Android app), one hop to the file above |
-| `apps/<appId>.json` | all analyses of one app: per release the counts (including `byScope`: app / build / tests / unknown), the advisories (id, severity, aliases, fixed-in, scope), the diff to the previous release, OSV checked/skipped counts |
-| `apps/<appId>/<ref>/dependencies.json` | the full resolved dependency list of one release (ecosystem, name, version, lockfile, pinning tier, direct, dev, scope, integrity), each row with how many products ship the package and that exact version |
-| `packages/index.json` | every package shipped by two or more products, most shared first, with the product count per version ("12 products use libX, 3 use libX 0.2.3") |
+| `apps/<appId>.json` | all releases of one app, newest version first: ref, commit, date, status, lockfiles, the OSV skip counts, the dependency and advisory counts (including `byScope`: app / build / tests / unknown), the submodule counts, the advisories (id, severity, aliases, summary, package, scope, who pulls it in, how many products ship it) and the diff to the previous release |
+| `apps/<appId>/<ref>/dependencies.json` | the full resolved dependency list of one release (ecosystem, name, version, lockfile, pinning tier, direct, scope, dependants), each row with how many products ship the package and that exact version |
+| `apps/<appId>/<ref>/submodules.json` | the release's git submodules, one row per library with its three claims (`submoduleIdentity.mjs`), when it has any |
+
+The files carry only what a reader uses: the wallet page's Dependencies panel,
+`signals.mjs` (advisory ids) and `apk-contents-cli.mjs --deps`. The rest
+(integrity hashes, resolved URLs, analyser version, plugins, lock coverage,
+the default branch, cross-wallet package counts) stays in `assets.db`.
+
+Each wallet does not wait for the end of the pass: as soon as an analysis of
+it is stored, `exportApp` rewrites its `apps/` files and its `index.json`
+entry in the existing export (each file renamed into place), and, with a
+publish target, rsyncs just those files (no `--delete`). The rest (upstream hints, signals, other wallets' product counts, releases
+removed since) waits for the full export that ends the pass. A failure there
+is only logged; the full export writes the wallet again.
 
 `scope` says where a package ends up, as far as the files say: `app` when it
 is reachable from the project's own dependencies, `build` when only from its
@@ -269,8 +311,11 @@ dependency can still hurt the product (a `postinstall` script runs on the
 developer's machine), which is why every advisory still needs its own
 decision.
 
-Sizes on the 2026-10-16 database: 59 apps, 81 releases, 31 MB in total,
-`index.json` 27 KB, the largest dependency list 1.5 MB (OneKey). Run it by
+Sizes on the 2026-10-16 database, before the export was cut to what readers
+use: 59 apps, 81 releases, 31 MB in total, the largest dependency list 1.5 MB
+(OneKey). The cut took the `apps/` files of a 2026-10-27 export from 41 MB
+(6.5 MB with brotli) to 24 MB (1.3 MB with brotli), mostly by leaving out
+`resolved` and `integrity`. Run it by
 hand with `node export.mjs --out <dir>` (`SOURCE_ANALYSIS_DB_PATH` selects the
 database).
 
@@ -285,7 +330,15 @@ The wallet pages fetch the export at page load from `/api/source-analysis/`,
 so new data must not wait for a site build. With
 `SOURCE_ANALYSIS_PUBLISH_TARGET` set, each pass ends by rsyncing the export
 there (`publish.mjs`; `--delay-updates --delete-delay`, so a page sees the
-old or the new export). A failed copy counts as a failed pass.
+old or the new export). A failed copy counts as a failed pass. Each wallet's
+own files are copied as soon as it is analysed (`publishFiles`, see "Static
+export").
+
+Before copying, every `.json` gets a brotli copy next to it (`x.json.br`,
+quality 11, redone only when the `.json` is newer). The nginx sites have
+`brotli_static on`, so a browser that accepts br gets the copy: the
+dependency lists shrink to about a sixth (42 MB of export to 6.6 MB). Others
+get the plain file.
 
 | variable | value |
 |---|---|
@@ -308,7 +361,7 @@ restricted to rsync (`command="rrsync /srv/source-analysis"` in
 `authorized_keys`) keeps it that way; rrsync reads paths relative to that
 directory, so the target is then `user@host:/`. The commands for both
 machines are in [Setting up from scratch](#setting-up-from-scratch); the
-variables go in a drop-in, not in the unit, which every deploy overwrites.
+variables are set in `config/walletscrutiny-source-analysis.service`.
 
 Query the service database with the CLI in this folder:
 
@@ -322,9 +375,12 @@ sudo -u build-server env SOURCE_ANALYSIS_DB_PATH=/var/lib/walletscrutiny-source-
 
 The list of wallets and their repositories comes from the site, not from this
 folder: `api/appRepositories.json` is rendered at site build time
-from every wallet record that has a `repository:` line and is not gone
-(`meta` removed, defunct, discontinued or deprecated). Each entry is
-`{ "appId", "platform", "repository" }` and nothing else on purpose: the
+from every wallet record that has a `repository:` line. A repository marked
+`#deadLink` or `&deadLink` is left out. Each entry is
+`{ "appId", "platform", "repository" }`, plus `"gone": true` when the record's
+`meta` is removed, defunct, discontinued or deprecated (a gone wallet stays in
+scope only while it was reproducible, see `SOURCE_ANALYSIS_SCOPE`), and
+nothing else on purpose: the
 version to analyse is read from the repository itself, the site's version
 field lags behind releases.
 
@@ -335,7 +391,14 @@ and iPhone entries of one wallet) become one job, keyed by the first record
 (android before iphone before desktop, hardware, bearer); the others are
 listed as aliases. URLs are normalised (`.git`, trailing slash, `/releases`,
 `/tags`, `/tree/...`, `www.`), and URLs that name no repository (user or
-organisation pages) are skipped with a warning.
+organisation pages, or a `#deadLink`) are skipped with a warning. A
+repository GitHub answers 404 for is logged as not found and does not fail
+the pass. Release assets are recorded for the last 3 years
+(`RELEASE_MAX_AGE_YEARS`); GitHub lists newest first and the walk stops at
+the first older release. A 422 from the result cap keeps whatever was
+already fetched. The oneshot exits 1 only when some other
+per-app error remains (the summary line counts succeeded, failed and not
+found separately).
 
 ```bash
 node index.mjs --githubToken ghp_xxx                        # whole list (the service: GITHUB_TOKEN_FILE=<file>)
@@ -407,7 +470,7 @@ Nothing from the analysed repository is executed or installed for any of this: t
 ## How it works
 
 1. **GitHub Assets**: 
-   - Fetches all releases from the GitHub repository using the GitHub API
+   - Fetches releases from the last 3 years (`RELEASE_MAX_AGE_YEARS` in `config.mjs`). GitHub lists newest first, and the walk stops at the first older release
    - For each release, processes all binary assets
    - **Uses the `digest` field directly from the GitHub API** - GitHub provides SHA256 checksums automatically since 2025
    - Extracts SHA256 from the digest field (handles formats like `sha256:hash` or direct hash)
