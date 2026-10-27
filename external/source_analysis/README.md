@@ -690,6 +690,22 @@ answers 429 after a few thousand files. Resumable: refs already read are
 skipped unless `--all`. See docs/dependency-check.md, "Triage".
 
 
+## Libraries pinned as git submodules
+
+`submodules-cli.mjs --repo <url> --ref <tag|commit> [--app <appId> --version <v>]`
+(`submoduleIdentity.mjs`) walks every submodule a wallet pins, recursively,
+and reports three separate claims for each: RB (the product's build
+verification, from `--app`), identity (the pinned commit is an upstream
+release, an upstream commit, or derived: commits upstream does not have on top
+of a release) and advisories (OSV by commit). Advisories apply only when
+identity holds. A derived tree gets its base release's advisories as "status
+unknown", each with a hint from the advisory's fix commit: in the fork's
+history, its patch already in the tree, its patch still applying (likely
+missing), or can't tell. Nothing is built: git fetches commits only (and one
+commit's trees for the listing) into `$SOURCE_ANALYSIS_CACHE_DIR/submodules`.
+`GITHUB_TOKEN_FILE` raises the rate limit of the fork lookups. Not in the
+pass or the panel yet.
+
 ## Alerts
 
 A lockfile that pins a registry package OSV lists as malicious (MAL-*) raises
