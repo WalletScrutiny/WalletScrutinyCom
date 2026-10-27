@@ -72,7 +72,7 @@ describe('dependencies panel', () => {
     assert.ok(host.querySelector('.dp-tile--sev-critical'), 'the count takes the worst open severity\'s colour');
     const vulnTile = host.querySelectorAll('.dp-tile')[1];
     assert.equal(vulnTile.querySelector('.dp-tile__label').textContent, 'advisory matches');
-    assert.deepEqual([...vulnTile.querySelectorAll('.dp-tile__line')].map(e => e.textContent), ['13 distinct advisories'], 'no app/build/tests split in the tile');
+    assert.deepEqual([...vulnTile.querySelectorAll('.dp-tile__line')].map(e => e.textContent), ['13 distinct advisories', '1 in the app · 2 in build tooling · 10 unclear'], 'the split is a muted line; the headline stays the total');
     assert.doesNotMatch(vulnTile.textContent, /only/, 'nothing is played down as "only" build or tests');
     assert.match(vulnTile.querySelector('.dp-tile__caveat').textContent, /not that the affected part is used\. The released app itself was not checked/);
     const number = vulnTile.querySelector('.dp-tile__value button');

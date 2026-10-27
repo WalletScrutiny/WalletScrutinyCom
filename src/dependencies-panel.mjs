@@ -430,11 +430,16 @@ function vulnerabilityTile(model) {
   for (const a of rows) if (a.part) byPart[a.part] = (byPart[a.part] || 0) + 1;
   const parts = Object.entries(byPart).map(([p, n]) => `${n} of them only in the ${whereLabel({ part: p })}`);
   const distinct = new Set(rows.map(a => a.id)).size;
+  // Where the matches sit, muted: the total above stays the headline.
+  const sc = model.vulnerabilitiesByScope;
+  const split = sc ? [[sc.app, 'in the app'], [sc.build, 'in build tooling'], [sc.tests, 'only in tests'], [sc.unknown, 'unclear']]
+    .filter(([n]) => n).map(([n, l]) => `${n} ${l}`).join(' · ') : '';
   const lines = vulnerabilityTipLines(model);
   const value = tipTrigger(String(rows.length), () => lines.map(line => el('p', {}, line)), { className: 'dp-term dp-term--value' });
   return tile(value, 'advisory matches', { tone, sub: [
     tally.lines,
     rows.length ? el('div', { className: 'dp-tile__line' }, `${distinct} distinct advisories`) : null,
+    rows.length && split ? el('div', { className: 'dp-tile__line dp-tile__line--muted' }, split) : null,
     parts.length ? el('div', { className: 'dp-tile__line', title: 'From lockfiles of other products in the same repository; not in this app' }, parts.join(' · ')) : null,
     rows.length ? el('div', { className: 'dp-tile__caveat' }, model.apk
       ? 'A match means a package version is listed as affected, not that the affected part is used.'
