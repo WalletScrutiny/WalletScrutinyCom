@@ -23,10 +23,11 @@ android:
   reviews: 2098
   icon: de.schildbach.wallet.webp
   signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
+  playStore: removed
   alternativeStores:
   - fdroid
   - zapstore
-  meta: removed
+  meta: ok
   verdict: sourceavailable
   developerName: Bitcoin Wallet developers
   repository: https://gitlab.com/bitcoin-wallet/bitcoin-wallet

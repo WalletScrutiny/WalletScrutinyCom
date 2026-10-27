@@ -18,9 +18,10 @@ android:
   reviews: 34
   icon: com.btcontract.wallet.webp
   signer: dca2c3527ec7f7c0e38c0353278e7a5674cfa6e4b7556510ff05f60073ca338a
+  playStore: removed
   alternativeStores:
   - zapstore
-  meta: removed
+  meta: ok
   verdict: sourceavailable
 
 ---
