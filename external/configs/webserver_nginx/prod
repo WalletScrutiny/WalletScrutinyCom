@@ -35,6 +35,12 @@ server {
         internal;
     }
 
+    # source analysis export (external/source_analysis), rsynced here by the build server
+    location /api/source-analysis/ {
+        alias /srv/source-analysis/;
+        add_header Cache-Control "no-cache";
+    }
+
     location /.well-known/nostr.json {
         add_header Access-Control-Allow-Origin "*";
     }
