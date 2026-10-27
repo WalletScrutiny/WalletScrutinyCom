@@ -140,6 +140,73 @@ export function advisoryStatus(identity, vulns, hints = new Map()) {
   }
 }
 
+// ---- build scope --------------------------------------------------------
+
+/** Files that say what gets compiled (CMake, make, qmake, meson, autotools, scons, bazel, gradle, cargo, setup.py, build scripts). */
+export const BUILD_FILE = /(^|\/)(CMakeLists\.txt|[^/]*\.cmake|(GNU)?[Mm]akefile[^/]*|[^/]*\.mk|[^/]*\.pr[oi]|meson\.build|configure\.ac|SConstruct|SConscript|BUILD(\.bazel)?|build\.gradle(\.kts)?|Cargo\.toml|setup\.py|[^/]*\.sh)$/;
+
+const TEST_SEGMENT = /^(tests?|testing|fuzz(ing)?|bench(mark)?s?|docs?|examples?)$/i;
+
+// Submodules an upstream pins for its own test suite only, keyed by the upstream's browsable url.
+export const TEST_ONLY_SUBMODULES = new Map([
+  // openssl-3.x: test/recipes/95-test_external_{pyca,krb5,gost_engine}.t, and wycheproof's test vectors
+  ['https://github.com/openssl/openssl', { paths: ['pyca-cryptography', 'krb5', 'gost-engine', 'wycheproof'], why: "openssl's external test suites (test/recipes/95-test_external_*)" }],
+]);
+
+const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+/**
+ * Which parts of the child at `childPath` the parent's build files name:
+ *   { referenced: false }                     not named at all (a glob or variable may still pull it in)
+ *   { referenced: true, whole: true }         the directory itself (add_subdirectory, an include root)
+ *   { referenced: true, whole: false, parts } only files under these top-level folders of the child
+ */
+export function referencedParts(buildTexts, childPath) {
+  const re = new RegExp(`(?<![\\w.-])${escapeRe(childPath)}(/[^\\s"'()\`;,]*)?(?![\\w.-])`, 'g');
+  let referenced = false, whole = false;
+  const parts = new Set();
+  for (const text of buildTexts) {
+    for (const m of String(text).matchAll(re)) {
+      referenced = true;
+      const rest = (m[1] || '').replace(/^\/+/, '');
+      const first = rest.split('/')[0];
+      if (!first || /[$*{]/.test(first)) whole = true;
+      else parts.add(first);
+    }
+  }
+  return referenced ? (whole ? { referenced, whole } : { referenced, whole, parts: [...parts].sort() }) : { referenced };
+}
+
+/**
+ * Is a submodule part of the product? `inherited` is the parent's scope;
+ * `parentRefs` what the grandparent's build files use of the parent.
+ *   assumed     nothing says otherwise (not proof that it is compiled in)
+ *   not-built   the grandparent builds only other folders of the parent
+ *   test-only   a test, fuzz, bench, docs or examples folder, or a known test-suite submodule
+ */
+export function scopeStatus({ path: subPath, parentPath = null, parentUpstream = null, parentRefs = null, inherited = null }) {
+  if (inherited && inherited.status !== 'assumed') return { status: inherited.status, why: inherited.why, via: inherited.via || parentPath };
+  const rel = parentPath ? subPath.slice(parentPath.length + 1) : subPath;
+  const known = parentUpstream && TEST_ONLY_SUBMODULES.get(normaliseRepoUrl(parentUpstream) || parentUpstream);
+  if (known && known.paths.includes(rel)) return { status: 'test-only', why: known.why };
+  if (rel.split('/').slice(0, -1).some(seg => TEST_SEGMENT.test(seg))) return { status: 'test-only', why: `under ${rel.split('/').slice(0, -1).find(seg => TEST_SEGMENT.test(seg))}/` };
+  if (parentRefs?.referenced && !parentRefs.whole && parentRefs.parts.length && !parentRefs.parts.includes(rel.split('/')[0])) {
+    return { status: 'not-built', why: `the build of ${parentPath} uses only ${parentRefs.parts.map(p => `${p}/`).join(', ')}` };
+  }
+  return { status: 'assumed' };
+}
+
+/** Same owner on the same host as the product's repository: the wallet's own code, not a third-party library. */
+export function isFirstParty(url, productUrl) {
+  const owner = (u) => {
+    const n = normaliseRepoUrl(u) || String(u).replace(/\.git$/, '');
+    const m = /^https:\/\/([^/]+)\/([^/]+)\//.exec(n);
+    return m ? `${m[1]}/${m[2]}`.toLowerCase() : null;
+  };
+  const a = owner(url);
+  return a !== null && a === owner(productUrl);
+}
+
 // ---- git ----------------------------------------------------------------
 
 export function git(args, { cwd, env = {}, allowFail = false } = {}) {
@@ -184,6 +251,35 @@ export async function listSubmodules(url, commit, { cacheDir }) {
   return parseGitmodules(modules)
     .filter(m => links.has(m.path))
     .map(m => ({ path: m.path, url: resolveSubmoduleUrl(m.url, url), commit: links.get(m.path) }));
+}
+
+const MAX_BUILD_FILES = 400;
+
+/**
+ * Texts of the build files (BUILD_FILE) in one commit's tree, fetched by blob
+ * id from the same tree repository listSubmodules filled: only those blobs,
+ * in one request per chunk.
+ */
+export async function buildFileTexts(url, commit, { cacheDir }) {
+  const dir = await bareRepo(cacheDir, 'tree', `${url}\n${commit}`);
+  const blobs = (await git(['ls-tree', '-r', commit], { cwd: dir }))
+    .split('\n')
+    .map(line => /^100\d{3} blob ([0-9a-f]{40})\t(.+)$/.exec(line))
+    .filter(m => m && BUILD_FILE.test(m[2]))
+    .slice(0, MAX_BUILD_FILES)
+    .map(m => m[1]);
+  const has = async (oid) => (await git(['cat-file', '-e', oid], { cwd: dir, env: NO_LAZY, allowFail: true })) !== null;
+  const missing = [];
+  for (const oid of blobs) if (!(await has(oid))) missing.push(oid);
+  for (let i = 0; i < missing.length; i += 100) {
+    await git(['fetch', '-q', '--no-tags', '--no-write-fetch-head', '--filter=blob:none', url, ...missing.slice(i, i + 100)], { cwd: dir, allowFail: true });
+  }
+  const texts = [];
+  for (const oid of blobs) {
+    const text = await git(['cat-file', 'blob', oid], { cwd: dir, env: NO_LAZY, allowFail: true });
+    if (text !== null) texts.push(text);
+  }
+  return texts;
 }
 
 /** GitHub's root of a fork network, or the url itself. */
@@ -299,15 +395,24 @@ export async function checkSubmodules(url, commit, {
   maxDepth = MAX_DEPTH,
 } = {}) {
   const results = [];
-  const walk = async (parentUrl, parentCommit, prefix, depth) => {
+  const texts = new Map();
+  const buildTexts = async (u, c) => {
+    if (!texts.has(`${u}\n${c}`)) texts.set(`${u}\n${c}`, await buildFileTexts(u, c, { cacheDir }).catch(() => null));
+    return texts.get(`${u}\n${c}`);
+  };
+  // parent: the row of the submodule whose own submodules these are (null at the product);
+  // parentRefs: what the grandparent's build files use of the parent.
+  const walk = async (parentUrl, parentCommit, parent, parentRefs, depth) => {
     const subs = await listSubmodules(parentUrl, parentCommit, { cacheDir });
     for (const s of subs) {
-      const where = prefix ? `${prefix}/${s.path}` : s.path;
+      const where = parent ? `${parent.path}/${s.path}` : s.path;
       log(`${where} @ ${s.commit.slice(0, 10)}`);
       const row = { path: where, url: s.url, commit: s.commit, depth };
+      if (isFirstParty(s.url, url)) row.firstParty = true;
       try {
         const upstream = await upstreamOf(s.url);
         row.upstream = sameRepo(upstream, s.url) ? null : upstream;
+        row.scope = scopeStatus({ path: where, parentPath: parent?.path ?? null, parentUpstream: parent ? (parent.upstream || parent.url) : null, parentRefs, inherited: parent?.scope });
         const tags = await listTags(upstream);
         const tagAtCommit = [...tags].find(([, c]) => c === s.commit)?.[0] || null;
         let facts = { inUpstream: true, base: null, dir: null };
@@ -331,10 +436,16 @@ export async function checkSubmodules(url, commit, {
       }
       results.push(row);
       if (depth < maxDepth) {
-        try { await walk(s.url, s.commit, where, depth + 1); } catch (e) { row.childrenError = e.message; }
+        try {
+          // Only a submodule with submodules of its own needs its parent's build files read.
+          const refs = (await listSubmodules(s.url, s.commit, { cacheDir })).length
+            ? referencedParts((await buildTexts(parentUrl, parentCommit)) || [], s.path) : null;
+          if (refs) row.buildRefs = refs;
+          await walk(s.url, s.commit, row, refs, depth + 1);
+        } catch (e) { row.childrenError = e.message; }
       }
     }
   };
-  await walk(url, commit, '', 0);
+  await walk(url, commit, null, null, 0);
   return results;
 }

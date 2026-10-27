@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import { initDatabase, saveDependencies, saveVulnerabilities, recordAnalysis, saveAppList } from '../ddbbUtils.mjs';
+import { initDatabase, saveDependencies, saveVulnerabilities, recordAnalysis, saveAppList, saveSubmodules } from '../ddbbUtils.mjs';
 import { exportAll, buildApp, safeName, sharedPackages, productPartOf } from '../export.mjs';
 
 const entry = (name, version, extra = {}) => ({ ecosystem: 'npm', lockfile: 'package-lock.json', name, version, resolved: `https://registry.npmjs.org/${name}/-/${name}-${version}.tgz`, integrity: `sha512-${name}${version}`, direct: true, dev: false, tier: 'hash-pinned', ...extra });
@@ -153,4 +153,30 @@ test('buildApp: releases analysed later but older (backfill) still sort after ne
   // v1.0.0 was backfilled last, so it has the newest analysis time.
   db.prepare("UPDATE analyses SET analysed_at = '2026-10-20 00:00:00' WHERE ref = 'v1.0.0'").run();
   assert.deepEqual(buildApp(db, 'app.b').releases.map(r => r.ref), ['v2.0.0', 'v2.0.0-rc1', 'v1.10.0', 'v1.9.0', 'v1.0.0']);
+});
+
+test('submodules: counted in the release summary, advisories only where the code may be in the app, rows exported per release', () => {
+  const db = initDatabase(':memory:');
+  recordAnalysis(db, { appId: 'cpp.wallet', kind: 'release', ref: 'v2', commit: 'a'.repeat(40), status: 'unsupported', analyser: 't', appType: 'unknown' });
+  const rows = [
+    { path: 'contrib/own', firstParty: true, scope: { status: 'assumed' }, identity: { status: 'upstream-commit' }, advisories: { status: 'none-listed', applies: [] } },
+    { path: 'contrib/openssl', scope: { status: 'assumed' }, identity: { status: 'upstream-tag', tag: 'openssl-3.0.13' }, advisories: { status: 'affected', applies: ['CVE-1', 'CVE-2'] } },
+    { path: 'contrib/openssl/krb5', scope: { status: 'test-only', why: 'x' }, identity: { status: 'upstream-commit' }, advisories: { status: 'affected', applies: ['CVE-3'] } },
+    { path: 'contrib/fork', scope: { status: 'assumed' }, identity: { status: 'derived', base: 'v1' }, advisories: { status: 'unknown', base: 'v1', unknown: [{ id: 'CVE-4', hint: 'cant-tell' }] } },
+    { path: 'contrib/gone', error: 'cannot reach' },
+  ];
+  saveSubmodules(db, 'cpp.wallet', 'v2', 'a'.repeat(40), rows);
+  const app = buildApp(db, 'cpp.wallet');
+  assert.deepEqual(app.releases[0].submodules, {
+    total: 5, errors: 1, firstParty: 1, notInApp: 1, upstream: 1, derived: 1, unknownOrigin: 0, affected: 1, advisories: 2, advisoriesUnknown: 1,
+  });
+  const out = fs.mkdtempSync(path.join(os.tmpdir(), 'sa-export-subs-'));
+  try {
+    exportAll(db, path.join(out, 'export'));
+    const file = JSON.parse(fs.readFileSync(path.join(out, 'export', 'apps', 'cpp.wallet', 'v2', 'submodules.json'), 'utf8'));
+    assert.equal(file.commit, 'a'.repeat(40));
+    assert.deepEqual(file.rows, rows);
+  } finally {
+    fs.rmSync(out, { recursive: true, force: true });
+  }
 });

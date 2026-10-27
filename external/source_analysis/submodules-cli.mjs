@@ -19,6 +19,11 @@ const HINT_TEXT = {
   'cant-tell': "can't tell",
 };
 
+const SCOPE_TEXT = {
+  'not-built': 'not in the app',
+  'test-only': 'tests only, not in the app',
+};
+
 async function resolveRef(repo, ref) {
   if (/^[0-9a-f]{40}$/.test(ref)) return { commit: ref, tag: null };
   const tags = await lsRemoteTags(repo);
@@ -39,9 +44,10 @@ function render({ repo, ref, commit, rb, rows }) {
   for (const r of rows) {
     const pad = '  '.repeat(r.depth + 1);
     out.push('', `${pad}${r.path} @ ${r.commit.slice(0, 10)}  ${r.url}${r.upstream ? `  (fork of ${r.upstream})` : ''}`);
+    if (r.scope && r.scope.status !== 'assumed') out.push(`${pad}  scope: ${SCOPE_TEXT[r.scope.status]}: ${r.scope.why}${r.scope.via ? ` (via ${r.scope.via})` : ''}`);
     if (r.error) { out.push(`${pad}  error: ${r.error}`); continue; }
     const id = r.identity;
-    const idText = {
+    const idText = r.firstParty ? `first-party: the wallet's own repository${id.base ? `, ${id.ahead ?? '?'} commit(s) after ${id.base}` : ''}` : {
       'upstream-tag': `upstream release ${id.tag}${id.viaTree ? ' (same tree, different history)' : ''}, unmodified`,
       'upstream-commit': `upstream commit${id.base ? `, ${id.ahead} after ${id.base}` : ''}, unmodified`,
       derived: `derived from ${id.base}: ${id.ahead} commit(s) upstream does not have${id.files ? `, ${id.files.length} file(s) changed` : ''}`,

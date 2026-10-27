@@ -189,7 +189,8 @@ export function apkSummary(apk) {
 export function panelModel(app, { storeVersion = '', release = null, selectedVersion = null, triage = null, signals = null, upstream = null, apk = null } = {}) {
   const releases = Array.isArray(app?.releases) ? app.releases : [];
   // The newest release whose analysis worked; a newer one that failed is reported, not shown.
-  const current = (release && releases.find(r => r.ref === release)) || releases.find(r => (r.status || 'ok') === 'ok') || releases[0];
+  // A release of a language the lockfile check does not read can still have its git submodules checked.
+  const current = (release && releases.find(r => r.ref === release)) || releases.find(r => (r.status || 'ok') === 'ok' || r.submodules) || releases[0];
   if (!current) return null;
   const newerFailed = releases.slice(0, releases.indexOf(current)).filter(r => r.status && r.status !== 'ok');
 
@@ -239,6 +240,7 @@ export function panelModel(app, { storeVersion = '', release = null, selectedVer
     apk: apkSummary(apkOfRelease),
     signals: signals ? { date: signals.date || null, exploited, withEpss: advisories.filter(a => a.epss != null).length } : null,
     diff: current.diffFrom || null,
+    submodules: current.submodules || null,
     newerFailed: newerFailed.map(r => ({ ref: r.ref, status: r.status, error: r.error || null })),
     releases: releases.map(r => ({ ref: r.ref, analysedAt: r.analysedAt || null, status: r.status || 'ok' })),
     sameRepositoryAs: app.aliases?.length > 1 ? app.aliases.map(a => a.appId).filter(id => id !== app.appId) : [],

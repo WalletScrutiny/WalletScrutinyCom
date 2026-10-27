@@ -6,6 +6,7 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import {
   parseGitmodules, parseGitlinks, resolveSubmoduleUrl, identityStatus, fixCommitsOf, advisoryStatus, checkSubmodules,
+  referencedParts, scopeStatus, isFirstParty,
 } from '../submoduleIdentity.mjs';
 
 describe('submodule identity: parsing', () => {
@@ -59,6 +60,35 @@ describe('submodule identity: the three claims', () => {
     // no advisories for the base is not "clean": the fork's own changes are unreviewed
     assert.equal(advisoryStatus({ status: 'derived', base: 'v1.0' }, []).status, 'none-listed-for-base');
     assert.equal(advisoryStatus({ status: 'unknown-origin' }, vulns).status, 'unknown');
+  });
+});
+
+describe('submodule identity: build scope', () => {
+  test('which parts of a child the build files name', () => {
+    const cmake = 'add_library(t STATIC\n  "contrib/trezor/crypto/bip39.c"\n  "${PROJECT_SOURCE_DIR}/contrib/trezor/crypto/sha2.c")\n';
+    assert.deepEqual(referencedParts([cmake], 'contrib/trezor'), { referenced: true, whole: false, parts: ['crypto'] });
+    assert.deepEqual(referencedParts([cmake, 'add_subdirectory(contrib/trezor)\n'], 'contrib/trezor'), { referenced: true, whole: true });
+    assert.deepEqual(referencedParts(['include_directories(contrib/trezor/${PLATFORM})'], 'contrib/trezor'), { referenced: true, whole: true });
+    // a longer name with the same prefix is another directory
+    assert.deepEqual(referencedParts(['add_subdirectory(contrib/trezor-firmware)'], 'contrib/trezor'), { referenced: false });
+  });
+
+  test('not built when the grandparent picks other folders; test folders and known test suites; inherited', () => {
+    const refs = { referenced: true, whole: false, parts: ['crypto'] };
+    assert.equal(scopeStatus({ path: 'c/t/vendor/mp', parentPath: 'c/t', parentRefs: refs }).status, 'not-built');
+    assert.equal(scopeStatus({ path: 'c/t/crypto/sub', parentPath: 'c/t', parentRefs: refs }).status, 'assumed');
+    assert.equal(scopeStatus({ path: 'c/t/vendor/mp', parentPath: 'c/t', parentRefs: { referenced: false } }).status, 'assumed');
+    assert.equal(scopeStatus({ path: 'c/t/crypto/tests/wp', parentPath: 'c/t', parentRefs: refs }).status, 'test-only');
+    assert.equal(scopeStatus({ path: 'c/ossl/krb5', parentPath: 'c/ossl', parentUpstream: 'https://github.com/openssl/openssl.git' }).status, 'test-only');
+    assert.equal(scopeStatus({ path: 'c/other/krb5', parentPath: 'c/other', parentUpstream: 'https://github.com/x/other' }).status, 'assumed');
+    const inherited = { status: 'not-built', why: 'x' };
+    assert.deepEqual(scopeStatus({ path: 'c/t/vendor/mp/lib/s', parentPath: 'c/t/vendor/mp', inherited }), { status: 'not-built', why: 'x', via: 'c/t/vendor/mp' });
+  });
+
+  test('first party: same owner on the same host', () => {
+    assert.equal(isFirstParty('https://github.com/nunchuk-io/libnunchuk.git', 'https://github.com/nunchuk-io/nunchuk-desktop'), true);
+    assert.equal(isFirstParty('https://github.com/openssl/openssl.git', 'https://github.com/nunchuk-io/nunchuk-desktop'), false);
+    assert.equal(isFirstParty('https://gitlab.com/nunchuk-io/x', 'https://github.com/nunchuk-io/nunchuk-desktop'), false);
   });
 });
 
@@ -143,5 +173,34 @@ describe('submodule identity: walking real git repositories', () => {
     });
     // the fork's own commit is never asked: OSV does not know it, and "none" would read as clean
     assert.ok(!osvAsked.includes(sha.fork));
+  });
+
+  test('a library whose app compiles only some folders: its other submodules are not built', async () => {
+    const vendor = repo('vendor');
+    write(vendor, 'v.c', 'int v;\n');
+    const vsha = commit(vendor, 'vendor');
+    const big = repo('big');
+    fs.mkdirSync(path.join(big, 'crypto'));
+    write(big, 'crypto/h.c', 'int h;\n');
+    write(big, '.gitmodules', `[submodule "mp"]\n\tpath = vendor/mp\n\turl = file://${vendor}\n[submodule "vectors"]\n\tpath = crypto/tests/vectors\n\turl = file://${vendor}\n`);
+    g(big, 'add', '-A');
+    g(big, 'update-index', '--add', '--cacheinfo', `160000,${vsha},vendor/mp`);
+    g(big, 'update-index', '--add', '--cacheinfo', `160000,${vsha},crypto/tests/vectors`);
+    g(big, 'commit', '-q', '-m', 'big'); // not commit(): add -A would drop the gitlinks, which have no checkout
+    const bsha = g(big, 'rev-parse', 'HEAD');
+    const app2 = repo('app2');
+    write(app2, 'CMakeLists.txt', 'add_library(h STATIC "contrib/big/crypto/h.c")\n');
+    write(app2, '.gitmodules', `[submodule "big"]\n\tpath = contrib/big\n\turl = file://${big}\n`);
+    g(app2, 'add', '-A');
+    g(app2, 'update-index', '--add', '--cacheinfo', `160000,${bsha},contrib/big`);
+    g(app2, 'commit', '-q', '-m', 'app2');
+    const asha = g(app2, 'rev-parse', 'HEAD');
+
+    const rows = await checkSubmodules(`file://${app2}`, asha, { cacheDir: path.join(root, 'cache2'), upstreamOf: async (u) => u, osv: async () => [] });
+    const byPath = Object.fromEntries(rows.map(r => [r.path, r]));
+    assert.deepEqual(byPath['contrib/big'].scope, { status: 'assumed' });
+    assert.deepEqual(byPath['contrib/big'].buildRefs, { referenced: true, whole: false, parts: ['crypto'] });
+    assert.equal(byPath['contrib/big/vendor/mp'].scope.status, 'not-built');
+    assert.equal(byPath['contrib/big/crypto/tests/vectors'].scope.status, 'test-only');
   });
 });

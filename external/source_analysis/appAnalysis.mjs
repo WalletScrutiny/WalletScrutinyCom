@@ -198,7 +198,7 @@ export async function runSourceCodeAnalysis({ name, repoUrl, version = null, inc
       return null;
     }
     const ctx = {
-      name, version, db, repoPath: path.join(workDir, 'repo'), appType: result.appType,
+      name, version, db, repoUrl, commit: result.commit || null, repoPath: path.join(workDir, 'repo'), appType: result.appType,
       options: { includeTestFiles }, results: result.results || {}, failed: result.failed || [],
     };
     await runPlugins(plugins, 'host', ctx);
