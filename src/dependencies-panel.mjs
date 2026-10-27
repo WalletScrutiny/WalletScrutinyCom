@@ -25,7 +25,6 @@ export const TRIAGE_BASE = (typeof window !== 'undefined' && window.WS_DEPENDENC
 const TRIAGE_RELAY_WAIT_MS = 4000;
 
 const OSV_URL = 'https://osv.dev/vulnerability/';
-const ISSUE_URL = 'https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/978';
 
 const dateOf = (s) => (s ? String(s).slice(0, 10) : null);
 
@@ -608,10 +607,7 @@ function actions(model, { appId, base, fetchImpl }) {
       csv.disabled = false;
     }
   });
-  return el('div', { className: 'dp-actions' },
-    csv,
-    el('a', { className: 'btn-small', href: ISSUE_URL, target: '_blank', rel: 'noopener noreferrer' }, 'What is this?'),
-  );
+  return el('div', { className: 'dp-actions' }, csv);
 }
 
 // The panel element for a model; exported for tests. `onJudge(advisory)`
