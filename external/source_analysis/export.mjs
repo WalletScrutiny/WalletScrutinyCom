@@ -118,6 +118,21 @@ function releasesWithoutAnalysis(db, appId, analyses) {
     .map(r => r.version).filter(v => !known.has(v));
 }
 
+// Newest first by version number (v1.10.0 > v1.9.0; 1.2.0 > 1.2.0-rc1). Refs
+// without digits fall back to analysis time. Returns 0 for equal versions, so
+// the stable sort keeps their stored order.
+function compareReleasesNewestFirst(x, y) {
+  const core = r => String(r.ref).split(/[-+]/)[0].match(/\d+/g);
+  const nx = core(x), ny = core(y);
+  if (!nx || !ny) return (y.analysedAt || '').localeCompare(x.analysedAt || '');
+  for (let i = 0; i < Math.max(nx.length, ny.length); i++) {
+    const d = Number(ny[i] ?? -1) - Number(nx[i] ?? -1);
+    if (d) return d;
+  }
+  const pre = r => /[-+]?(alpha|beta|rc|pre|dev|snapshot)/i.test(String(r.ref)) ? 1 : 0;
+  return pre(x) - pre(y);
+}
+
 // Everything the export says about one app.
 // counts: productCounts(db), passed in by exportAll so the two queries run once per export.
 export function buildApp(db, appId, aliases = [], counts = productCounts(db), sources = packageSources(db)) {
@@ -132,8 +147,9 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
   for (const v of releasesWithoutAnalysis(db, appId, analyses)) {
     releases.push({ kind: 'release', ref: v, commit: null, analysedAt: null, analyser: null, status: 'ok', ...summarizeRelease(db, appId, v) });
   }
-  // Newest first, by analysis time; rows without one keep their stored order after them.
-  releases.sort((x, y) => (y.analysedAt || '').localeCompare(x.analysedAt || ''));
+  // Newest version first. Analysis time says nothing about it: releases added
+  // later (backfill) are analysed last but are older. Equal versions keep their order.
+  releases.sort(compareReleasesNewestFirst);
   for (let i = 0; i < releases.length; i++) {
     const r = releases[i];
     const previous = releases[i + 1];
