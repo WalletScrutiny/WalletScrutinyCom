@@ -38,9 +38,10 @@ test('remoteHeadCommit: refs ending in /HEAD (Forgejo pull requests) are not the
   assert.equal(await remoteHeadCommit(`file://${repo}`), main);
 });
 
-test('remoteHeadCommit: null for a remote that cannot be read', async () => {
-  assert.equal(await remoteHeadCommit(`file://${os.tmpdir()}/sa-no-such-repo`), null);
-  assert.equal(await remoteHeadCommit('--upload-pack=touch /tmp/sa-pwned'), null);
+test('remoteHeadCommit: throws, with git\'s reason, for a remote that cannot be reached', async () => {
+  await assert.rejects(remoteHeadCommit(`file://${os.tmpdir()}/sa-no-such-repo`), /cannot reach file:\/\/.*sa-no-such-repo: .*(does not appear to be a git repository|not found|Could not read)/i);
+  await assert.rejects(remoteHeadCommit('https://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru-Mobile'), /cannot reach .*\.onion/);
+  await assert.rejects(remoteHeadCommit('--upload-pack=touch /tmp/sa-pwned'), /cannot reach/);
   assert.ok(!fs.existsSync('/tmp/sa-pwned'), 'a URL is never parsed as an option');
 });
 

@@ -3,8 +3,8 @@
 import fs from 'fs';
 import minimist from 'minimist';
 import { fetchGitHubAssets, fetchDockerAssets, parseDockerImage, checkAuthorIdConsistency, evaluateChangesInNewAsset, loadSecret } from './utils.mjs';
-import { backupDatabase, initDatabase, saveAsset, hasExistingAssets, getAnalysedCommit, saveAnalysedCommit, saveEndOfLife } from './ddbbUtils.mjs';
-import { runSourceCodeAnalysis, remoteHeadCommit, remoteHeadDate } from './appAnalysis.mjs';
+import { backupDatabase, initDatabase, saveAsset, hasExistingAssets, getAnalysedCommit, saveAnalysedCommit, saveEndOfLife, recordAnalysis } from './ddbbUtils.mjs';
+import { runSourceCodeAnalysis, remoteHeadCommit, remoteHeadDate, analyserVersion } from './appAnalysis.mjs';
 import { recheckStoredReleases } from './recheck.mjs';
 import { pruneCache } from './containerRunner.mjs';
 import { APPS, APP_LIST_URL, DEFAULT_TEMP_DIR, CONCURRENCY, EXPORT_DIR, SCOPE, VERIFIED_PER_PASS, GONE_EOL_YEARS } from './config.mjs';
@@ -60,13 +60,25 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
         }
       }
 
+      let unreachable = null;
       if (mostRecentAsset) {
         await runSourceCodeAnalysis({ name: appId, repoUrl: repoUrl, version: mostRecentAsset.version, includeTestFiles, db });
       } else {
         // No new release: analyse the default branch, unless it has not moved
-        // since the last successful analysis. An unreadable remote HEAD analyses.
-        const head = await remoteHeadCommit(repoUrl);
-        if (head && head === getAnalysedCommit(db, appId)) {
+        // since the last successful analysis. A remote that cannot be reached
+        // (an .onion address, a gone host) cannot be cloned either: recorded
+        // as a failed analysis, and nothing more is tried this pass.
+        // A reachable remote without a readable HEAD analyses.
+        let head = null;
+        try {
+          head = await remoteHeadCommit(repoUrl);
+        } catch (error) {
+          unreachable = error;
+        }
+        if (unreachable) {
+          console.log(`  No new release, and ${unreachable.message}. Skipping the source analysis.`);
+          recordAnalysis(db, { appId, kind: 'default-branch', ref: 'unknown', status: 'failed', error: unreachable.message, analyser: analyserVersion() });
+        } else if (head && head === getAnalysedCommit(db, appId)) {
           console.log(`  No new release, default branch still at ${head.slice(0, 12)} (already analysed). Skipping the source analysis.`);
         } else {
           console.log('  No new release: analysing the default branch...');
@@ -77,7 +89,7 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
         }
       }
 
-      await analyseVerifiedVersions(db, { appId, repoUrl, verified, perPass: VERIFIED_PER_PASS,
+      if (!unreachable) await analyseVerifiedVersions(db, { appId, repoUrl, verified, perPass: VERIFIED_PER_PASS,
         analyse: (tag) => runSourceCodeAnalysis({ name: appId, repoUrl, version: tag, includeTestFiles, db }) });
     }
 
