@@ -55,19 +55,50 @@ a timer every 6 hours:
 The state and cache directories are created by systemd (`StateDirectory`,
 `CacheDirectory`). The analysed repositories are untrusted: nothing of them
 runs on the host, see [Sandbox](#sandbox). The service user needs to be in the
-`docker` group (it is, for the Automated Build Server).
+`docker` group.
 
 ### Server preparation
 
-The build server is already prepared (user, docker group, node): see
-`external/build_server/README.md`. The only extra requirement is the GitHub
-token credential, which the build server already has. To give the source
-analysis its own token instead (separate API rate limit), create a second
-credential and point the two `build-server-gh-token` lines of the unit at it:
+Everything the source analysis needs on the server is listed here; it does
+not depend on `external/build_server/README.md`. It shares two names with the
+Automated Build Server: the user `build-server` and the GitHub token
+credential `build-server-gh-token`. On a machine where the build server is
+already installed, `adduser` reports that the user exists and the credential
+can be left as it is; every other command is safe to run again.
+
+```bash
+# Packages: docker runs every analysed repository in a container, git asks
+# the remotes for their default branch, rsync copies the export to the web host
+sudo apt install docker.io git rsync openssh-client curl ca-certificates
+
+# Node 22 or newer (the default scope reads the verifications over WebSocket,
+# which Node has built in from 22 on). Check with `node --version`; if it is
+# older or missing, install it from NodeSource. The unit runs /usr/bin/node.
+curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
+sudo apt install nodejs
+
+# The service user and its group (the unit runs as build-server:build-server),
+# allowed to use docker
+sudo adduser --disabled-password --gecos '' build-server
+sudo usermod -aG docker build-server
+
+# GitHub token, encrypted for systemd (the unit loads it with LoadCredentialEncrypted)
+sudo mkdir -p /etc/credstore.encrypted
+echo -n 'ghp_xxx' | sudo systemd-creds encrypt --name=build-server-gh-token - /etc/credstore.encrypted/build-server-gh-token
+```
+
+The token needs no scopes: it only raises the GitHub API rate limit. To give
+the source analysis its own token instead (separate API rate limit), create a
+second credential and point the two `build-server-gh-token` lines of the unit
+at it:
 
 ```bash
 echo -n 'ghp_xxx' | sudo systemd-creds encrypt --name=source-analysis-gh-token - /etc/credstore.encrypted/source-analysis-gh-token
 ```
+
+The directories (`/opt/source_analysis`, `/var/lib/walletscrutiny-source-analysis`,
+`/var/cache/walletscrutiny-source-analysis`) need no preparation: the deploy
+creates the first, systemd the other two.
 
 ### Deploy from your machine
 
@@ -113,19 +144,8 @@ sit next to it. Nothing else holds the analysis history or the recorded
 alerts. A new database gets filled again by the first pass, which takes
 hours. Copy `assets.db` off the machine now and then if the history matters.
 
-**1. Build server: user, docker, node, token.** If the Automated Build Server
-already runs on the machine, all of this is in place. Otherwise:
-
-```bash
-sudo apt install docker.io nodejs npm rsync openssh-client
-sudo adduser build-server
-sudo usermod -aG docker build-server          # the analysis runs every repository in a container
-echo -n 'ghp_xxx' | sudo systemd-creds encrypt --name=build-server-gh-token - /etc/credstore.encrypted/build-server-gh-token
-```
-
-Node must be 18.6 or newer (see `external/build_server/README.md`, "Install
-the dependencies", for a newer one). The token needs no scopes: it only
-raises the GitHub API rate limit.
+**1. Build server: packages, user, token.** Run every command of
+[Server preparation](#server-preparation).
 
 **2. Web host: directory, user, key, nginx.** Only needed for the wallet
 pages' Dependencies panel. Without it the analysis still runs and stores
