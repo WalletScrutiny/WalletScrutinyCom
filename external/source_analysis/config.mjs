@@ -25,6 +25,7 @@ export const PLUGINS = {
   'committed-binaries': true,     // test 9, read by lock-coverage
   'lock-coverage': true,          // test 7c, manifests without a lockfile, inputs outside any lockfile
   'osv': true,                    // test 10, host: known vulnerabilities of pinning's rows
+  'submodules': true,             // host: git submodules as three claims (submoduleIdentity.mjs)
   'semgrep': false,               // test 11, host: its own container on the checkout
 };
 

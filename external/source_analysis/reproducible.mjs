@@ -21,7 +21,7 @@ const SINCE = 1742997262;
 
 const tag = (event, name) => (event.tags.find(t => t[0] === name) || [])[1];
 
-async function queryRelays(relays, filter) {
+export async function queryRelays(relays, filter) {
   if (typeof WebSocket !== 'function') throw new Error('this Node has no WebSocket (needs Node 22 or later)');
   const { SimplePool } = await import('nostr-tools/pool');
   const pool = new SimplePool();

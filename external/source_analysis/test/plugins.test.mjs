@@ -28,7 +28,7 @@ test('the shipped configuration: every plugin file listed, the enabled ones load
   assert.deepEqual(Object.keys(PLUGINS).sort(), files);
   const plugins = await loadPlugins();
   assert.deepEqual(plugins.map(p => p.name), Object.keys(PLUGINS).filter(n => PLUGINS[n]));
-  assert.deepEqual(plugins.map(p => p.name), ['pinning', 'gradle-resolution', 'oob-downloads', 'committed-binaries', 'lock-coverage', 'osv'], 'the default run: dependencies, inputs outside them, lock coverage and OSV');
+  assert.deepEqual(plugins.map(p => p.name), ['pinning', 'gradle-resolution', 'oob-downloads', 'committed-binaries', 'lock-coverage', 'osv', 'submodules'], 'the default run: dependencies, inputs outside them, lock coverage, OSV and git submodules');
 });
 
 test('every plugin loads when enabled, and none pulls the database module into the container', () => {
@@ -147,6 +147,7 @@ test('runSourceCodeAnalysis: the host steps run on the container results', () =>
   assert.equal(result.commit, 'c'.repeat(40));
   assert.deepEqual(result.results.pinning, []);
   assert.equal(result.results.osv.checked, 0, 'osv ran on the host');
+  assert.deepEqual(result.results.submodules, { submodules: 0 }, 'no .gitmodules in the checkout: no network');
 });
 
 test('runSourceCodeAnalysis: a plugin that failed in the container fails the analysis', () => {

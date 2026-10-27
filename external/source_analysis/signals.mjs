@@ -157,7 +157,7 @@ export async function buildSignals({ exportDir, fetchImpl = globalThis.fetch, no
   const ids = collectAdvisoryIds(join(exportDir, 'apps'));
   const result = { cves: cves.size, epss: 0, kev: 0, published: 0, written: false, failed: [] };
   if (!ids.size) return result;
-  const out = { schema: 1, date: now.toISOString().slice(0, 10), cves: cves.size };
+  const out = { schema: 1, date: now.toISOString().slice(0, 10) };
   const cache = readCache(publishedCache);
   const parts = await Promise.allSettled([fetchEpss(cves, { fetchImpl }), fetchKev(cves, { fetchImpl }), fetchPublished(ids, { fetchImpl, cache })]);
   if (parts[0].status === 'fulfilled') {
@@ -168,7 +168,6 @@ export async function buildSignals({ exportDir, fetchImpl = globalThis.fetch, no
   }
   if (parts[1].status === 'fulfilled') {
     out.kev = parts[1].value.kev;
-    out.kevCatalog = { version: parts[1].value.catalogVersion, size: parts[1].value.catalogSize };
     result.kev = Object.keys(out.kev).length;
   } else {
     result.failed.push(`KEV: ${parts[1].reason?.message || parts[1].reason}`);
