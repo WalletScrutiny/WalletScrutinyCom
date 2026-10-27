@@ -25,7 +25,7 @@ icon: keystone3.pro.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-09-18
+date: 2026-10-27
 signer: 6853ffd1706faed1468e677621b2ef1ccf053dff4f9b22e7ba5b12a978e1eb37
 twitter: KeystoneForBTC
 social:
@@ -53,6 +53,30 @@ features:
 - taproot
 
 ---
+
+## ⚠️ Keystone security incident (October 2026): what it means for you
+
+On October 26, 2026, Keystone disclosed a breach of its official website
+([statement](https://x.com/KeystoneWallet/status/2114719318722404578)). Keystone detected it on
+October 20; the attacker used a flaw in a third-party monitoring tool. The attacker obtained customer
+information (25,964 buyer records with names, contacts, addresses and orders, plus 12,873 unfinished
+checkouts) and the "WebAuth" key Keystone uses to check that a device is genuine. Keystone says recovery
+phrases, private keys and bank payment information were not exposed. It will destroy the 18,835 devices in
+its inventory that carry the old key; new devices get a new key.
+
+How the check works: on [keyst.one/authentication](https://keyst.one/authentication/), the device scans a
+QR code and shows a code you type back into the site. Keystone says this check relies on its WebAuth key,
+which is written into each device during manufacturing and cannot be erased or rewritten. With the stolen
+key, an attacker could produce counterfeit devices that pass the check; Keystone warns these could be sold
+or shipped to customers and lead to asset theft. Keystone says devices delivered before October 20 are fine
+if they pass the check. If yours arrived later with the old key, contact Keystone support before using it,
+even if it passes. Keystone will not ask you to return your device; treat any "recall" request as a scam.
+
+WalletScrutiny checks firmware files, not devices. The 3.2.0 files we downloaded from keyst.one on October
+26, after the breach, match the hashes in Keystone's GitHub release notes, and the Multi and BTC-only
+payloads match our own builds. These results cannot authenticate a device or the checksum it displays; a
+counterfeit could show the expected value. Buy only from Keystone or trusted sellers, and don't use a device
+you didn't order.
 
 ## Other Features:
 
