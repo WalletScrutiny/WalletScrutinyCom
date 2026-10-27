@@ -236,7 +236,7 @@ async function exportAndPublishApp(appId, appStart) {
     if (!recorded) return;
     const { exportApp } = await import('./export.mjs');
     const { publishFiles } = await import('./publish.mjs');
-    const exported = exportApp(db, EXPORT_DIR, appId, { analyser: analyserVersion(), onlyReproducible: SCOPE !== 'all' });
+    const exported = exportApp(db, EXPORT_DIR, appId, { onlyReproducible: SCOPE !== 'all' });
     if (!exported.exported) return;
     const published = publishFiles(EXPORT_DIR, exported.files);
     console.log(`  Exported ${exported.releases} releases${published.published ? ` and published them to ${published.target}` : ''}`);
@@ -327,8 +327,7 @@ try {
   if (EXPORT_DIR) {
     try {
       const { exportAll } = await import('./export.mjs');
-      const { analyserVersion } = await import('./appAnalysis.mjs');
-      const { apps, releases, dir } = exportAll(db, EXPORT_DIR, { analyser: analyserVersion(), onlyReproducible: SCOPE !== 'all' });
+      const { apps, releases, dir } = exportAll(db, EXPORT_DIR, { onlyReproducible: SCOPE !== 'all' });
       console.log(`\nExported ${apps} apps, ${releases} releases to ${dir}`);
       if (process.env.SOURCE_ANALYSIS_SIGNALS !== 'off') {
         // EPSS, CISA's exploited list, publication dates; a failing feed only leaves its part out

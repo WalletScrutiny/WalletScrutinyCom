@@ -273,17 +273,21 @@ renamed into place so a reader never sees a half-written tree:
 
 | file | content |
 |---|---|
-| `index.json` | every analysed app: aliases (the site's app ids for the repository), latest release summary (ref, commit, date, status, dependency and advisory counts), default-branch status |
+| `index.json` | the exported app ids, which `exportApp` keeps current |
 | `apps/<aliasId>.json` | `{appId, alias: true}` for the repository's other app ids (the iPhone record of an Android app), one hop to the file above |
-| `apps/<appId>.json` | all analyses of one app: per release the counts (including `byScope`: app / build / tests / unknown), the advisories (id, severity, aliases, fixed-in, scope), the diff to the previous release, OSV checked/skipped counts |
-| `apps/<appId>/<ref>/dependencies.json` | the full resolved dependency list of one release (ecosystem, name, version, lockfile, pinning tier, direct, dev, scope, integrity), each row with how many products ship the package and that exact version |
-| `packages/index.json` | every package shipped by two or more products, most shared first, with the product count per version ("12 products use libX, 3 use libX 0.2.3") |
+| `apps/<appId>.json` | all releases of one app, newest version first: ref, commit, date, status, lockfiles, the OSV skip counts, the dependency and advisory counts (including `byScope`: app / build / tests / unknown), the submodule counts, the advisories (id, severity, aliases, summary, package, scope, who pulls it in, how many products ship it) and the diff to the previous release |
+| `apps/<appId>/<ref>/dependencies.json` | the full resolved dependency list of one release (ecosystem, name, version, lockfile, pinning tier, direct, scope, dependants), each row with how many products ship the package and that exact version |
+| `apps/<appId>/<ref>/submodules.json` | the release's git submodules, one row per library with its three claims (`submoduleIdentity.mjs`), when it has any |
+
+The files carry only what a reader uses: the wallet page's Dependencies panel,
+`signals.mjs` (advisory ids) and `apk-contents-cli.mjs --deps`. The rest
+(integrity hashes, resolved URLs, analyser version, plugins, lock coverage,
+the default branch, cross-wallet package counts) stays in `assets.db`.
 
 Each wallet does not wait for the end of the pass: as soon as an analysis of
 it is stored, `exportApp` rewrites its `apps/` files and its `index.json`
 entry in the existing export (each file renamed into place), and, with a
-publish target, rsyncs just those files (no `--delete`). The rest (shared
-packages, upstream hints, signals, other wallets' product counts, releases
+publish target, rsyncs just those files (no `--delete`). The rest (upstream hints, signals, other wallets' product counts, releases
 removed since) waits for the full export that ends the pass. A failure there
 is only logged; the full export writes the wallet again.
 
@@ -307,8 +311,11 @@ dependency can still hurt the product (a `postinstall` script runs on the
 developer's machine), which is why every advisory still needs its own
 decision.
 
-Sizes on the 2026-10-16 database: 59 apps, 81 releases, 31 MB in total,
-`index.json` 27 KB, the largest dependency list 1.5 MB (OneKey). Run it by
+Sizes on the 2026-10-16 database, before the export was cut to what readers
+use: 59 apps, 81 releases, 31 MB in total, the largest dependency list 1.5 MB
+(OneKey). The cut took the `apps/` files of a 2026-10-27 export from 41 MB
+(6.5 MB with brotli) to 24 MB (1.3 MB with brotli), mostly by leaving out
+`resolved` and `integrity`. Run it by
 hand with `node export.mjs --out <dir>` (`SOURCE_ANALYSIS_DB_PATH` selects the
 database).
 

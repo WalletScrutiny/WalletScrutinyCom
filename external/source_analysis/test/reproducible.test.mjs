@@ -7,7 +7,7 @@ import os from 'os';
 import path from 'path';
 import { reproducibleVersions, loadReproducible, verifiedVersionsOf, inScope, tagOfVersion, analyseVerifiedVersions } from '../reproducible.mjs';
 import { initDatabase, recordAnalysis, getAnalyses, saveAppList, saveReproducibleVersions } from '../ddbbUtils.mjs';
-import { buildApp, exportAll } from '../export.mjs';
+import { exportAll } from '../export.mjs';
 
 const tmpDb = () => initDatabase(path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'repro-')), 'assets.db'));
 
@@ -80,7 +80,7 @@ test('tagOfVersion: a dotted app prefix, and the flavour in the verified version
   assert.equal(tagOfVersion(tags, 'bitBox2', '9.25.0-Btc-Only', 'hardware'), 'firmware-btc-only/v9.25.0');
 });
 
-test('analyseVerifiedVersions: newest first, capped per pass, finished ones skipped, a missing tag recorded and exported', async () => {
+test('analyseVerifiedVersions: newest first, capped per pass, finished ones skipped, a missing tag recorded', async () => {
   const db = tmpDb();
   const tags = new Map([['v3.0', 'a'], ['v2.0', 'b'], ['v1.0', 'c']]);
   const verified = [{ version: '3.0', verifiedAt: 30 }, { version: '2.5', verifiedAt: 25 }, { version: '2.0', verifiedAt: 20 }, { version: '1.0', verifiedAt: 10 }];
@@ -94,9 +94,6 @@ test('analyseVerifiedVersions: newest first, capped per pass, finished ones skip
   assert.deepEqual(analysed, ['v3.0', 'v2.0', 'v1.0']);
   assert.ok(getAnalyses(db, 'w').some(a => a.kind === 'verified-no-tag' && a.ref === '2.5'));
 
-  const app = buildApp(db, 'w');
-  assert.deepEqual(app.releases.map(r => [r.ref, r.verifiedVersion]).sort(), [['v1.0', '1.0'], ['v2.0', '2.0'], ['v3.0', '3.0']]);
-  assert.deepEqual(app.verifiedWithoutTag, ['2.5']);
 
   // unreadable tags: nothing analysed, nothing thrown
   assert.deepEqual(await analyseVerifiedVersions(db, { appId: 'w', repoUrl: 'x', verified, perPass: 2, analyse, listTags: async () => { throw new Error('gone'); } }), []);

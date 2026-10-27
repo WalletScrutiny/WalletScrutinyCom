@@ -149,3 +149,20 @@ describe('apk contents', () => {
     assert.ok(!asked.some(u => u.includes('lib-jvm')), 'the JVM build is never fetched');
   });
 });
+
+test('apkExport writes only what the panel reads', async () => {
+  const { apkExport } = await import('../apk-contents-cli.mjs');
+  const result = {
+    rows: [{ name: 'g:a', version: '1', status: 'present' }, { name: 'g:b', version: '2', status: 'other-version-shipped', shippedVersion: '3' }],
+    summary: { classes: 9, obfuscatedShare: 0.1, declared: 2, present: 1, absent: 0, cantTell: 0, notFetched: 0, otherVersionShipped: 1, versionMismatches: 1, native: 2, nativeIdentical: 1, nativeDiffers: 0, undeclaredClasses: 7, nativeUndeclared: 1 },
+    nativeFiles: [{ path: 'lib/x/a.so', verdict: 'identical', providers: [] }, { path: 'lib/x/b.so', verdict: 'undeclared', providers: [] }],
+    undeclared: Array.from({ length: 8 }, (_, i) => ({ package: `p${i}`, classes: 8 - i })),
+  };
+  assert.deepEqual(apkExport(result, { ref: 'v1', apkName: 'a.apk', apkSha256: 'ff' }), {
+    schema: 1, ref: 'v1', apk: { name: 'a.apk', sha256: 'ff' },
+    summary: { declared: 2, present: 1, otherVersionShipped: 1, cantTell: 0, native: 2, nativeIdentical: 1, nativeDiffers: 0, undeclaredClasses: 7 },
+    packages: { 'gradle:g:a@1': 'present', 'gradle:g:b@2': 'other-version-shipped:3' },
+    nativeFiles: [{ path: 'lib/x/b.so', verdict: 'undeclared' }],
+    undeclared: ['p0', 'p1', 'p2', 'p3', 'p4'].map(p => ({ package: p })),
+  });
+});
