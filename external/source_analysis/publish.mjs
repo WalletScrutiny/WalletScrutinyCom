@@ -35,3 +35,18 @@ export function publishExport(exportDir, { target = process.env.SOURCE_ANALYSIS_
   if (result.status !== 0) throw new Error(`rsync exited ${result.status}: ${String(result.stderr || '').trim().split('\n').slice(-3).join(' / ')}`);
   return { published: true, target };
 }
+
+// One app's files (exportApp's list, relative to exportDir) as soon as its
+// analysis ends: no --delete, so the rest of the published export stays.
+// A short timeout, since the pass waits for it.
+export function publishFiles(exportDir, files, { target = process.env.SOURCE_ANALYSIS_PUBLISH_TARGET, ssh = process.env.SOURCE_ANALYSIS_PUBLISH_SSH, run = spawnSync } = {}) {
+  if (!target || !files.length) return { published: false };
+  const args = ['-rlt', '--compress', '--delay-updates', '--chmod=D755,F644', '--files-from=-',
+    ...(ssh ? ['-e', ssh] : []),
+    `${path.resolve(exportDir)}/`,
+    target.endsWith('/') ? target : `${target}/`];
+  const result = run('rsync', args, { encoding: 'utf8', input: `${files.join('\n')}\n`, timeout: 2 * 60 * 1000 });
+  if (result.error) throw new Error(`rsync: ${result.error.message}`);
+  if (result.status !== 0) throw new Error(`rsync exited ${result.status}: ${String(result.stderr || '').trim().split('\n').slice(-3).join(' / ')}`);
+  return { published: true, target };
+}

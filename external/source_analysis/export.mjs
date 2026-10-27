@@ -14,7 +14,8 @@
 // web server) is decided outside this module: it only writes a directory.
 //
 // Usage: node export.mjs --out <dir>      (SOURCE_ANALYSIS_DB_PATH selects the database)
-// The service calls exportAll at the end of each pass when SOURCE_ANALYSIS_EXPORT_DIR is set.
+// The service calls exportAll at the end of each pass when SOURCE_ANALYSIS_EXPORT_DIR is set,
+// and exportApp for each app as soon as its analysis ends.
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -268,43 +269,16 @@ export function exportAll(db, outDir, { generatedAt = new Date().toISOString(), 
   // Out of scope (no reproducible version, reproducible.mjs, or past its end of life): the rows stay in
   // the database as supplementary data, the site does not show them.
   if (onlyReproducible) {
-    const verified = getReproducibleVersions(db);
-    const endOfLife = getEndOfLife(db); // gone and no commit for years (index.mjs)
-    appIds = new Set([...appIds].filter(id => !endOfLife.has(id) && [id, ...(aliases.get(id) || []).map(a => a.appId)].some(a => verified.has(a))));
+    const inScope = scopeFilter(db, aliases);
+    appIds = new Set([...appIds].filter(inScope));
   }
   const index = { schema: SCHEMA, generatedAt, analyser, apps: [] };
   const counts = productCounts(db);
   const sources = packageSources(db);
   let releases = 0;
   for (const appId of [...appIds].sort()) {
-    const app = buildApp(db, appId, aliases.get(appId) || [], counts, sources);
-    const appDir = path.join(tmp, 'apps', safeName(appId));
-    fs.mkdirSync(appDir, { recursive: true });
-    fs.writeFileSync(path.join(tmp, 'apps', `${safeName(appId)}.json`), JSON.stringify(app));
-    for (const r of app.releases) {
-      const refDir = path.join(appDir, safeName(r.ref));
-      fs.mkdirSync(refDir, { recursive: true });
-      fs.writeFileSync(path.join(refDir, 'dependencies.json'), JSON.stringify({
-        schema: SCHEMA, appId, ref: r.ref, dependencies: getDependencies(db, appId, r.ref).map(d => ({
-          ecosystem: d.ecosystem, name: d.name, version: d.dep_version, lockfile: d.lockfile, tier: d.tier,
-          direct: d.direct === null ? null : d.direct === 1, dev: d.dev === null ? null : d.dev === 1,
-          scope: scopeOfRow(d) === 'unknown' ? null : scopeOfRow(d),
-          part: productPartOf(d.lockfile) || undefined,
-          dependants: dependantsOfRow(d.dependants),
-          repo: sources.get(`${d.ecosystem}:${d.name}`)?.repo_url || undefined,
-          resolved: d.resolved || undefined, integrity: d.integrity || undefined,
-          products: counts.byName.get(`${d.ecosystem}:${d.name}`) || 1,
-          productsSameVersion: counts.byVersion.get(`${d.ecosystem}:${d.name}@${d.dep_version}`) || 1,
-        })),
-      }));
-      releases++;
-    }
-    // The repository's other app ids (the iPhone page, a desktop record) get a
-    // stub pointing at the file above, so a reader needs no index lookup.
-    for (const alias of app.aliases) {
-      if (alias.appId === appId || appIds.has(alias.appId)) continue;
-      fs.writeFileSync(path.join(tmp, 'apps', `${safeName(alias.appId)}.json`), JSON.stringify({ schema: SCHEMA, appId, alias: true }));
-    }
+    const app = writeAppFiles(db, tmp, appId, aliases.get(appId) || [], counts, sources, (id) => appIds.has(id));
+    releases += app.releases.length;
     index.apps.push(indexEntry(app));
   }
   fs.mkdirSync(path.join(tmp, 'packages'), { recursive: true });
@@ -327,6 +301,82 @@ export function exportAll(db, outDir, { generatedAt = new Date().toISOString(), 
   fs.renameSync(tmp, outDir);
   fs.rmSync(previous, { recursive: true, force: true });
   return { apps: index.apps.length, releases, dir: path.resolve(outDir) };
+}
+
+/**
+ * Update one app in an existing export as soon as its analysis ends, so its
+ * page does not wait for the rest of the pass: its app file, dependency lists,
+ * alias stubs and index entry. Everything else (shared packages, upstream
+ * hints, signals, releases removed since, product counts of the other apps)
+ * stays as the last exportAll left it until the pass ends with a new one.
+ * Each file is written to a temporary name and renamed into place.
+ * Returns { exported: false } for an app out of scope, else
+ * { exported: true, releases, files } with the paths (relative to outDir) to publish.
+ */
+export function exportApp(db, outDir, appId, { analyser = null, onlyReproducible = false, counts = productCounts(db), sources = packageSources(db) } = {}) {
+  const aliases = aliasMap(db);
+  if (onlyReproducible && !scopeFilter(db, aliases)(appId)) return { exported: false };
+  const indexFile = path.join(outDir, 'index.json');
+  let index = null;
+  try { index = JSON.parse(fs.readFileSync(indexFile, 'utf8')); } catch { /* first export: start an index */ }
+  if (!index || index.schema !== SCHEMA || !Array.isArray(index.apps)) index = { schema: SCHEMA, generatedAt: null, analyser, apps: [] };
+  const exported = new Set(index.apps.map(a => a.appId));
+  const app = writeAppFiles(db, outDir, appId, aliases.get(appId) || [], counts, sources, (id) => id === appId || exported.has(id), { atomic: true });
+  index.apps = [...index.apps.filter(a => a.appId !== appId), indexEntry(app)].sort((a, b) => a.appId.localeCompare(b.appId));
+  index.updatedAt = new Date().toISOString();
+  writeAtomic(indexFile, JSON.stringify(index));
+  const files = ['index.json', `apps/${safeName(appId)}.json`, `apps/${safeName(appId)}/`,
+    ...app.aliases.filter(a => a.appId !== appId && !exported.has(a.appId)).map(a => `apps/${safeName(a.appId)}.json`)];
+  return { exported: true, releases: app.releases.length, files };
+}
+
+// Which app ids the site shows: a reproducible version on any of the
+// repository's ids, and not past its end of life.
+function scopeFilter(db, aliases) {
+  const verified = getReproducibleVersions(db);
+  const endOfLife = getEndOfLife(db); // gone and no commit for years (index.mjs)
+  return (id) => !endOfLife.has(id) && [id, ...(aliases.get(id) || []).map(a => a.appId)].some(a => verified.has(a));
+}
+
+function writeAtomic(file, content) {
+  const tmp = `${file}.${process.pid}.tmp`;
+  fs.writeFileSync(tmp, content);
+  fs.renameSync(tmp, file);
+}
+
+// One app's files under dir: apps/<appId>.json, a dependencies.json per
+// release, and a stub for each alias that is not exported in its own right.
+function writeAppFiles(db, dir, appId, aliases, counts, sources, isExported, { atomic = false } = {}) {
+  const write = atomic ? writeAtomic : (file, content) => fs.writeFileSync(file, content);
+  const app = buildApp(db, appId, aliases, counts, sources);
+  const appDir = path.join(dir, 'apps', safeName(appId));
+  fs.mkdirSync(appDir, { recursive: true });
+  for (const r of app.releases) {
+    const refDir = path.join(appDir, safeName(r.ref));
+    fs.mkdirSync(refDir, { recursive: true });
+    write(path.join(refDir, 'dependencies.json'), JSON.stringify({
+      schema: SCHEMA, appId, ref: r.ref, dependencies: getDependencies(db, appId, r.ref).map(d => ({
+        ecosystem: d.ecosystem, name: d.name, version: d.dep_version, lockfile: d.lockfile, tier: d.tier,
+        direct: d.direct === null ? null : d.direct === 1, dev: d.dev === null ? null : d.dev === 1,
+        scope: scopeOfRow(d) === 'unknown' ? null : scopeOfRow(d),
+        part: productPartOf(d.lockfile) || undefined,
+        dependants: dependantsOfRow(d.dependants),
+        repo: sources.get(`${d.ecosystem}:${d.name}`)?.repo_url || undefined,
+        resolved: d.resolved || undefined, integrity: d.integrity || undefined,
+        products: counts.byName.get(`${d.ecosystem}:${d.name}`) || 1,
+        productsSameVersion: counts.byVersion.get(`${d.ecosystem}:${d.name}@${d.dep_version}`) || 1,
+      })),
+    }));
+  }
+  // The app file last: a reader that sees a release in it finds its dependency list.
+  write(path.join(dir, 'apps', `${safeName(appId)}.json`), JSON.stringify(app));
+  // The repository's other app ids (the iPhone page, a desktop record) get a
+  // stub pointing at the file above, so a reader needs no index lookup.
+  for (const alias of app.aliases) {
+    if (alias.appId === appId || isExported(alias.appId)) continue;
+    write(path.join(dir, 'apps', `${safeName(alias.appId)}.json`), JSON.stringify({ schema: SCHEMA, appId, alias: true }));
+  }
+  return app;
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
