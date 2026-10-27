@@ -27,6 +27,21 @@ export const PROFILE_PLACEHOLDER_IMAGE = '/images/profile-placeholder.svg';
 
 let dbOpenPromise = null;
 const inFlightProfileFetches = new Map();
+// Profiles already resolved on this page, so a repaint can show the name at once
+// instead of painting the npub and swapping it a moment later.
+const knownProfiles = new Map();
+
+/** The profile for `pubkey` if this page already resolved it, else null. Synchronous. */
+export function getKnownNostrProfile(pubkey) {
+  return knownProfiles.get(pubkey) ?? null;
+}
+
+function rememberProfile(pubkey, profile) {
+  if (profile) {
+    knownProfiles.set(pubkey, profile);
+  }
+  return profile;
+}
 
 function openProfilesDb() {
   if (dbOpenPromise) {
@@ -229,7 +244,7 @@ export async function getNostrProfile(pubkey) {
   if (cached) {
     const normalizedCached = normalizeProfileMetadata(cached);
     if (hasProfileIdentity(normalizedCached)) {
-      return { pubkey, ...normalizedCached, profileEvent: cached.profileEvent ?? null };
+      return rememberProfile(pubkey, { pubkey, ...normalizedCached, profileEvent: cached.profileEvent ?? null });
     }
   }
 
@@ -285,7 +300,7 @@ function profileFromEvent(pubkey, profileEvent) {
   }
 
   saveProfileToIDB(pubkey, profile).catch((e) => console.warn('Failed to save profile to IDB', e));
-  return profile;
+  return rememberProfile(pubkey, profile);
 }
 
 /**
@@ -301,7 +316,7 @@ export async function getNostrProfiles(pubkeys) {
   wanted.forEach((pubkey, index) => {
     const normalized = normalizeProfileMetadata(cached[index]);
     if (hasProfileIdentity(normalized)) {
-      result.set(pubkey, { pubkey, ...normalized, profileEvent: cached[index].profileEvent ?? null });
+      result.set(pubkey, rememberProfile(pubkey, { pubkey, ...normalized, profileEvent: cached[index].profileEvent ?? null }));
     } else {
       result.set(pubkey, null);
       missing.push(pubkey);
