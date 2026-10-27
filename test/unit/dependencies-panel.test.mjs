@@ -334,7 +334,9 @@ describe('dependencies panel: git submodules', () => {
   test('the summary line counts what may be in the app apart from what is not', () => {
     const node = panelElement(panelModel(CPP), { appId: 'cpp.wallet', base: '/x', fetchImpl: async () => null });
     const summary = node.querySelector('.dp-submodules > summary').textContent;
-    assert.match(summary, /5 libraries pinned as git submodules, 1 of them the wallet's own, 2 not in the app/);
+    assert.match(summary, /^Libraries pinned as git submodules\. 5 libraries, 1 of them the wallet's own, 2 not in the app/);
+    assert.equal(node.querySelector('.dp-tiles'), null, 'no lockfile was read: no zero tiles that read as clean');
+    assert.match(node.querySelector('.dp-notices').textContent, /only its git submodules were checked/);
     assert.match(summary, /Of the 3 that may be in the app, 1 unmodified upstream copy has 2 listed advisories; 1 is a modified copy, where upstream advisories may or may not apply \(1 to check\)\./);
   });
 

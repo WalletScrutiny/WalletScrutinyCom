@@ -990,6 +990,25 @@ a.dp-signer {
     margin-top: 8px;
   }
 
+  .dp-sub-table td {
+    white-space: normal;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+  }
+
+  .dp-sub-table td:nth-child(2) {
+    white-space: nowrap;
+  }
+
+  .dp-sub-table td:first-child {
+    min-width: 14em;
+  }
+
+  .dp-sub-table td:nth-child(3),
+  .dp-sub-table td:nth-child(4) {
+    min-width: 11em;
+  }
+
   .dp-sub-out td {
     color: var(--neutral-3);
   }
