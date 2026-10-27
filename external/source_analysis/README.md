@@ -327,6 +327,12 @@ old or the new export). A failed copy counts as a failed pass. Each wallet's
 own files are copied as soon as it is analysed (`publishFiles`, see "Static
 export").
 
+Before copying, every `.json` gets a brotli copy next to it (`x.json.br`,
+quality 11, redone only when the `.json` is newer). The nginx sites have
+`brotli_static on`, so a browser that accepts br gets the copy: the
+dependency lists shrink to about a sixth (42 MB of export to 6.6 MB). Others
+get the plain file.
+
 | variable | value |
 |---|---|
 | `SOURCE_ANALYSIS_PUBLISH_TARGET` | rsync destination directory, `user@host:/srv/source-analysis` |
