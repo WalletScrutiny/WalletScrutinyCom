@@ -22,10 +22,15 @@ Environment=SOURCE_ANALYSIS_TEMP_DIR=/var/cache/walletscrutiny-source-analysis/r
 # npm/yarn/gradle/pip caches shared by the analysis containers, wiped past the cap
 Environment=SOURCE_ANALYSIS_CACHE_DIR=/var/cache/walletscrutiny-source-analysis/cache
 Environment=SOURCE_ANALYSIS_CACHE_MAX_GB=20
-# Static JSON export (README, "Static export"), the copy to the web server
-# (README, "Publishing the export") and the alert key are set per machine in a
-# drop-in (systemctl edit walletscrutiny-source-analysis.service), because
-# every deploy overwrites this file. README, "Setting up from scratch", step 3.
+# Static JSON export (README, "Static export"); unset = nothing is exported or published
+Environment=SOURCE_ANALYSIS_EXPORT_DIR=/var/lib/walletscrutiny-source-analysis/export
+# Copy of the export to the web host (README, "Publishing the export"); key and
+# known_hosts from README, "Setting up from scratch", step 2
+Environment=SOURCE_ANALYSIS_PUBLISH_TARGET=source-analysis@walletscrutiny.com:/
+Environment="SOURCE_ANALYSIS_PUBLISH_SSH=ssh -i /etc/walletscrutiny-source-analysis/publish_ed25519 -o UserKnownHostsFile=/etc/walletscrutiny-source-analysis/known_hosts -o StrictHostKeyChecking=yes"
+# Alert key, a secret, so it stays out of this world-readable file (README,
+# "Alerts"); the leading - means a missing file is not an error
+EnvironmentFile=-/etc/walletscrutiny-source-analysis/alerts.env
 # The analysed repositories are untrusted: clone, install and checks run in a
 # throwaway container (containerRunner.mjs: no token, no database, no docker
 # socket, capabilities dropped, read-only root, memory/cpu/pid limits, timeout;

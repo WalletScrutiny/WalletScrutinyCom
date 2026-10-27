@@ -135,8 +135,8 @@ sudo systemctl enable --now walletscrutiny-source-analysis.timer
 The whole setup on two machines, in order, for when one has to be rebuilt.
 The build server (`build.walletscrutiny.com`) runs the analysis, and the web
 host (`walletscrutiny.com`) serves its results. Names marked *suggested*
-can change, as long as the build server's settings in step 3 match the web
-host's in step 2.
+can change, as long as the settings in
+`config/walletscrutiny-source-analysis.service` match the web host's in step 2.
 
 What is lost with the build server: the database
 (`/var/lib/walletscrutiny-source-analysis/assets.db`) and its backups, which
@@ -214,26 +214,14 @@ A line ending in ` .` means it works. `Permission denied` means the public key
 in the web host's `authorized_keys` is wrong; `Host key verification failed`
 means the first step is missing or saved another host's key.
 
-**3. Build server: settings in a drop-in.** Every deploy copies
-`config/walletscrutiny-source-analysis.service` over the installed unit, so
-anything edited in `/etc/systemd/system/walletscrutiny-source-analysis.service`
-is lost on the next deploy. Machine settings go in a drop-in, which the
-deploy leaves alone. `sudo systemctl edit walletscrutiny-source-analysis.service`
-opens it (`/etc/systemd/system/walletscrutiny-source-analysis.service.d/override.conf`):
-
-```ini
-[Service]
-# Static export at the end of each pass ("Static export"); without it nothing is published
-Environment=SOURCE_ANALYSIS_EXPORT_DIR=/var/lib/walletscrutiny-source-analysis/export
-# Copy of the export to the web host ("Publishing the export")
-Environment=SOURCE_ANALYSIS_PUBLISH_TARGET=source-analysis@walletscrutiny.com:/
-Environment="SOURCE_ANALYSIS_PUBLISH_SSH=ssh -i /etc/walletscrutiny-source-analysis/publish_ed25519 -o UserKnownHostsFile=/etc/walletscrutiny-source-analysis/known_hosts -o StrictHostKeyChecking=yes"
-# Alert key, kept out of the world-readable unit files ("Alerts")
-EnvironmentFile=-/etc/walletscrutiny-source-analysis/alerts.env
-```
-
-For alerts, put the analyser's Nostr key in that file, readable by root
-only (systemd reads it before it drops to `build-server`):
+**3. Build server: alert key.** The export directory, the web host target
+and the SSH key paths from step 2 are already set in
+`config/walletscrutiny-source-analysis.service`, which the deploy installs. If
+you changed a *suggested* name in step 2, change it there too. Only the alert
+key stays out of the unit, because it is a secret and unit files are
+world-readable. Put the analyser's Nostr key in
+`/etc/walletscrutiny-source-analysis/alerts.env`, readable by root only
+(systemd reads it before it drops to `build-server`):
 
 ```bash
 echo 'ALERT_NOSTR_NSEC=nsec1...' | sudo tee /etc/walletscrutiny-source-analysis/alerts.env
@@ -360,7 +348,7 @@ restricted to rsync (`command="rrsync /srv/source-analysis"` in
 `authorized_keys`) keeps it that way; rrsync reads paths relative to that
 directory, so the target is then `user@host:/`. The commands for both
 machines are in [Setting up from scratch](#setting-up-from-scratch); the
-variables go in a drop-in, not in the unit, which every deploy overwrites.
+variables are set in `config/walletscrutiny-source-analysis.service`.
 
 Query the service database with the CLI in this folder:
 
