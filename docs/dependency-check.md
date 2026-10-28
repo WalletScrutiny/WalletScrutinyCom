@@ -352,7 +352,9 @@ Weak points, as an attacker would use them (Danny's red-team round):
   each page sees its own part (`lockCoverageByPlatform`: no Podfile.lock on
   the Android page, no Flutter `linux/` target on either). Version ranges are
   named by file (Danny, 2026-10-28).
-- Ship iOS only; `Podfile.lock` and `Package.resolved` are not read.
+- Ship iOS only. A repository only iPhone records point at is not checked
+  at all, since no iOS build was ever found reproducible (Leo agreed), and
+  `Podfile.lock` and `Package.resolved` are not read.
 - Download code during the build with a script; only lockfiles are read.
   Partly closed: `oob-downloads` now runs on every analysis, and a curl,
   wget, git clone or container base image without a hash check nearby makes
@@ -362,15 +364,16 @@ Weak points, as an attacker would use them (Danny's red-team round):
   through Gradle and the binaries the checkout commits, with their hashes.
 - Publish a malicious package before OSV lists it; old scans are never
   re-checked.
-- Plant a Gradle init script in the shared cache; it runs in every later
-  wallet's analysis. `gradle-resolution` runs each wallet's own `gradlew`, and
-  `/cache/gradle` (`GRADLE_USER_HOME`) is shared and writable across wallets
-  (`containerRunner.mjs`). Not tried, read from the code.
+- Plant a Gradle init script in the package cache. Closed: each wallet has
+  its own cache directory (`wallets/<appId>`, mounted at `/cache`), so a
+  planted script reaches only later checks of the same wallet, never another
+  wallet's (!1860). Before, `/cache/gradle` was shared and writable across
+  wallets, and `gradle-resolution` runs each wallet's own `gradlew`.
 - Phish a trusted reviewer's key, then sign "not affected" to hide real rows.
 - Break the publish step; the site keeps showing old results.
 
-To fix first: the shared Gradle cache. Verified versions are scanned since
-2026-10-26.
+The shared Gradle cache was the one to fix first; !1860 does. Verified
+versions are scanned since 2026-10-26.
 
 ## The ladder: how far each dependency is verified
 
