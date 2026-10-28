@@ -53,6 +53,17 @@ test('groupByRepository: one job per repository, android record first, others be
   assert.deepEqual(skipped.map(e => e.appId), ['com.toporin', 'com.github.ontio.onto']);
 });
 
+test('groupByRepository: a repository only iPhone records point at is left out', () => {
+  const { jobs, iosOnly } = groupByRepository([
+    { appId: 'com.vultisig.wallet', platform: 'android', repository: 'https://github.com/vultisig/vultisig-android' },
+    { appId: 'com.vultisig.wallet', platform: 'iphone', repository: 'https://github.com/vultisig/vultisig-ios' },
+    { appId: 'com.zeus.ios', platform: 'iphone', repository: 'https://github.com/ZeusLN/zeus' },
+    { appId: 'app.zeusln.zeus', platform: 'android', repository: 'https://github.com/ZeusLN/zeus' },
+  ]);
+  assert.deepEqual(jobs.map(j => j.repoUrl).sort(), ['https://github.com/ZeusLN/zeus', 'https://github.com/vultisig/vultisig-android']);
+  assert.deepEqual(iosOnly, [{ appId: 'com.vultisig.wallet', repoUrl: 'https://github.com/vultisig/vultisig-ios' }]);
+});
+
 test('groupByRepository: a repository is gone only when every record of it is', () => {
   // de.schildbach.wallet: removed from Google Play, still on F-Droid and reproducible.
   const { jobs } = groupByRepository([
