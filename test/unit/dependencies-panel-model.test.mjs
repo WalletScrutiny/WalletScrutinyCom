@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 
 import {
   upstreamFor,
-  panelModel, tagMatchesVersion, versionCore, whereLabel, whereOf, sortAdvisories, uncheckedCount, csvOf, WORST_ROWS,
+  panelModel, versionCore, whereLabel, whereOf, sortAdvisories, uncheckedCount, csvOf, WORST_ROWS,
 } from '../../src/dependencies-panel-model.mjs';
 
 const advisory = (id, severity, extra = {}) => ({ id, severity, aliases: [], fixed: [], summary: '', ecosystem: 'npm', package: 'pkg', version: '1.0.0', direct: true, dev: false, ...extra });
@@ -32,14 +32,10 @@ const app = {
 };
 
 describe('dependencies panel model', () => {
-  test('tagMatchesVersion compares the digits of the tag with the store version', () => {
+  test('versionCore keeps the digits of a tag', () => {
     assert.equal(versionCore('android-v2.8.4'), '2.8.4');
-    assert.equal(tagMatchesVersion('v1.4.0', '1.4.0'), true);
-    assert.equal(tagMatchesVersion('android-v2.8.4', '2.8.4'), true);
-    assert.equal(tagMatchesVersion('v1.4.0-beta1', '1.4.0'), true);
-    assert.equal(tagMatchesVersion('v1.4.0', '1.4.2'), false);
-    assert.equal(tagMatchesVersion('release', '1.4.0'), false);
-    assert.equal(tagMatchesVersion('v1.4.0', ''), false);
+    assert.equal(versionCore('v1.4.0-beta1'), '1.4.0-beta1');
+    assert.equal(versionCore('release'), '');
   });
 
   test('whereLabel: scope first, then the dev flag of older exports, then "?"', () => {
@@ -51,11 +47,10 @@ describe('dependencies panel model', () => {
     assert.equal(whereOf({ scope: 'bogus', dev: null }), 'unknown');
   });
 
-  test('panelModel: tiles, worst-first rows, unchecked total, version note, diff, aliases', () => {
-    const m = panelModel(app, { storeVersion: '1.4.2' });
+  test('panelModel: tiles, worst-first rows, unchecked total, diff, aliases', () => {
+    const m = panelModel(app);
     assert.equal(m.ref, 'v1.4.0');
     assert.equal(m.commit, 'a1b2c3d');
-    assert.equal(m.versionMatches, false);
     assert.equal(m.packages, 412);
     assert.equal(m.direct, 40);
     assert.equal(m.transitive, 372);
@@ -73,10 +68,9 @@ describe('dependencies panel model', () => {
     assert.deepEqual(m.releases.map(r => r.ref), ['v1.4.0', 'v1.3.0']);
   });
 
-  test('panelModel: a specific release, a matching store version, no osv data', () => {
-    const m = panelModel(app, { storeVersion: '1.3.0', release: 'v1.3.0' });
+  test('panelModel: a specific release, no osv data', () => {
+    const m = panelModel(app, { release: 'v1.3.0' });
     assert.equal(m.ref, 'v1.3.0');
-    assert.equal(m.versionMatches, true);
     assert.equal(m.unchecked, null);
     assert.equal(m.vulnerabilities, 0);
     assert.equal(m.diff, null);

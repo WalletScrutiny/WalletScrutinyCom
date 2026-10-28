@@ -504,7 +504,6 @@ function headline(model) {
   const bits = [
     el('span', {}, 'Checked release ', el('b', {}, model.ref), model.commit ? ` (source tag, commit ${model.commit})` : ' (source tag)'),
   ];
-  if (model.storeVersion) bits.push(el('span', {}, 'Store version ', el('b', {}, model.storeVersion)));
   if (model.analysedAt) bits.push(el('span', {}, 'Checked on ', el('b', {}, dateOf(model.analysedAt))));
   const line = el('p', { className: 'dp-headline' });
   bits.forEach((b, i) => { if (i) line.append(' · '); line.append(b); });
@@ -584,9 +583,6 @@ function notices(model) {
     items.push(el('span', { className: 'dp-malware' }, el('b', {}, 'Possible malware: '),
       malicious.map(a => `${a.package}@${a.version} (${a.id})`).join(', '),
       ` is listed on OSV.dev as malicious. A person is checking whether the lockfile really installs that registry package; until then this is a lead, not a finding. It matters even when only the build uses it: build code can change the app.`));
-  }
-  if (!model.selectedVersion && model.storeVersion && model.versionMatches === false) {
-    items.push(`The store version ${model.storeVersion} has not been checked yet; ${model.ref} is the newest release the source analysis looked at.`);
   }
   for (const f of model.selectedVersion ? [] : model.newerFailed) {
     items.push(`The check of ${f.ref} failed${f.error ? ` (${f.error})` : ''}; showing the last release that was checked.`);
@@ -890,7 +886,7 @@ function pickedVersion(platform) {
  * (`buildVersionSelected`); the newest analysed release until that section is
  * painted, or when the page has none. `selectedVersion` overrides the pick.
  */
-export async function renderDependenciesPanel({ host, appId, platform = 'app', selectedVersion = undefined, storeVersion = '', title = '', base = EXPORT_BASE, triageBase = TRIAGE_BASE, liveEvents = liveTriageEvents, fetchImpl = globalThis.fetch, nostr = undefined, profiles = undefined }) {
+export async function renderDependenciesPanel({ host, appId, platform = 'app', selectedVersion = undefined, title = '', base = EXPORT_BASE, triageBase = TRIAGE_BASE, liveEvents = liveTriageEvents, fetchImpl = globalThis.fetch, nostr = undefined, profiles = undefined }) {
   if (!host || !appId) return null;
   let selected = selectedVersion === undefined ? pickedVersion(platform) : selectedVersion;
   let ready = false;
@@ -934,7 +930,7 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
       host.replaceChildren(notAnalysedElement(selected, app, platform, release));
       return model;
     }
-    model = panelModel(app, { storeVersion, release: release?.ref || null, selectedVersion: release ? selected : null, triage, signals, upstream, apk, platform });
+    model = panelModel(app, { release: release?.ref || null, selectedVersion: release ? selected : null, triage, signals, upstream, apk, platform });
     if (!model) return null;
     host.replaceChildren(panelElement(model, { appId: analysisId, wallet: title || analysisId, base, fetchImpl, onJudge, trusted: lists.trusted, ...extra }));
     nameSigners(host, profiles === undefined ? defaultProfiles : profiles);

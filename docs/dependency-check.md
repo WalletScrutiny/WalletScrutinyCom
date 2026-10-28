@@ -60,9 +60,6 @@ source repository at that release's tag:
   This is a placement fact, not a judgement: a build dependency can still hurt
   the product (an install script runs on the developer's machine), which is
   why every advisory gets its own decision, see "Triage" below.
-- **checked release vs store version**: the analysed tag and the version the
-  store lists. When they differ, the panel says so instead of presenting old
-  data as current.
 - the ten worst advisories, a button for the full list, a CSV of the full
   dependency list, and the lockfiles that were read.
 

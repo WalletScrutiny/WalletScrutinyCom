@@ -108,13 +108,13 @@ layout: default
                   <div class="mobile-platform-tabs__panel is-active" role="tabpanel" id="mobile-tab-android" aria-labelledby="mobile-tab-btn-android" data-mobile-panel="android">
                     {% include /review/steps/distribution.html platform='android' %}
                     {% include /review/steps/applicationBuild.html platform='android' appId=page.android.appId verdict=page.android.verdict appsTableId='appsTable-android' verificationMessageId='verificationMessage-android' %}
-                    {% include /review/steps/dependencies.html platform='android' appId=page.android.appId version=page.android.version %}
+                    {% include /review/steps/dependencies.html platform='android' appId=page.android.appId %}
                     {% include /review/steps/platformNotes.html platform='android' %}
                   </div>
                   <div class="mobile-platform-tabs__panel" role="tabpanel" id="mobile-tab-iphone" aria-labelledby="mobile-tab-btn-iphone" data-mobile-panel="iphone" hidden>
                     {% include /review/steps/distribution.html platform='iphone' %}
                     {% include /review/steps/applicationBuild.html platform='iphone' appId=page.iphone.appId verdict=page.iphone.verdict appsTableId='appsTable-iphone' verificationMessageId='verificationMessage-iphone' %}
-                    {% include /review/steps/dependencies.html platform='iphone' appId=page.iphone.appId version=page.iphone.version %}
+                    {% include /review/steps/dependencies.html platform='iphone' appId=page.iphone.appId %}
                     {% include /review/steps/platformNotes.html platform='iphone' %}
                   </div>
                 </div>
@@ -124,12 +124,12 @@ layout: default
           {% elsif has_android %}
             {% include /review/steps/distribution.html platform='android' %}
             {% include /review/steps/applicationBuild.html platform='android' appId=page.android.appId verdict=page.android.verdict appsTableId='appsTable-android' verificationMessageId='verificationMessage-android' %}
-            {% include /review/steps/dependencies.html platform='android' appId=page.android.appId version=page.android.version %}
+            {% include /review/steps/dependencies.html platform='android' appId=page.android.appId %}
             {% include /review/steps/platformNotes.html platform='android' %}
           {% elsif has_iphone %}
             {% include /review/steps/distribution.html platform='iphone' %}
             {% include /review/steps/applicationBuild.html platform='iphone' appId=page.iphone.appId verdict=page.iphone.verdict appsTableId='appsTable-iphone' verificationMessageId='verificationMessage-iphone' %}
-            {% include /review/steps/dependencies.html platform='iphone' appId=page.iphone.appId version=page.iphone.version %}
+            {% include /review/steps/dependencies.html platform='iphone' appId=page.iphone.appId %}
             {% include /review/steps/platformNotes.html platform='iphone' %}
           {% endif %}
         </div>

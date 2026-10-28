@@ -41,15 +41,6 @@ export function versionCore(s) {
   return m ? m[0] : '';
 }
 
-// Whether the analysed source tag names the version the store ships. A tag
-// without digits matches nothing; a store version without digits matches nothing.
-export function tagMatchesVersion(ref, storeVersion) {
-  const tag = versionCore(ref);
-  const store = versionCore(storeVersion);
-  if (!tag || !store) return false;
-  return tag === store || tag.split(/[-+]/)[0] === store.split(/[-+]/)[0];
-}
-
 // The analysed release for a version picked in "Every version"
 // (src/build-verifications.mjs), or null when none was analysed. The version
 // digits must agree; only a plain version ("1.4.0") also takes a tag with a
@@ -176,9 +167,8 @@ export function apkSummary(apk) {
 }
 
 /**
- * The panel's content for one app file. `storeVersion` is the version the
- * wallet page lists; `release` picks a specific analysed release, else the
- * latest; `triage` is the wallet's decisions file (triage/<appId>.json), or
+ * The panel's content for one app file. `release` picks a specific analysed
+ * release, else the latest; `triage` is the wallet's decisions file (triage/<appId>.json), or
  * null when nobody has said anything yet; `signals` is signals.json (EPSS,
  * exploited list) or null; `upstream` the wallet's harvested ignore-file
  * entries (upstreamFor) or null; `apk` the released APK's check
@@ -186,7 +176,7 @@ export function apkSummary(apk) {
  * "Every version" that `release` was looked up for. Returns null when the app
  * has no analysed release.
  */
-export function panelModel(app, { storeVersion = '', release = null, selectedVersion = null, triage = null, signals = null, upstream = null, apk = null, platform = null } = {}) {
+export function panelModel(app, { release = null, selectedVersion = null, triage = null, signals = null, upstream = null, apk = null, platform = null } = {}) {
   const releases = Array.isArray(app?.releases) ? app.releases : [];
   // The newest release whose analysis worked; a newer one that failed is reported, not shown.
   // A release of a language the lockfile check does not read can still have its git submodules checked.
@@ -214,9 +204,7 @@ export function panelModel(app, { storeVersion = '', release = null, selectedVer
     analysedAt: current.analysedAt || null,
     status: current.status || 'ok',
     error: current.error || null,
-    storeVersion: storeVersion || null,
     selectedVersion: selectedVersion || null,
-    versionMatches: storeVersion ? tagMatchesVersion(current.ref, storeVersion) : null,
     packages: current.dependencies?.total ?? 0,
     direct: current.dependencies?.direct ?? 0,
     // Everything the wallet does not import itself; its direct users are named per row.

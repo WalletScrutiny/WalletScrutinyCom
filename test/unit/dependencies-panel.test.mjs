@@ -60,7 +60,7 @@ describe('dependencies panel', () => {
     step.appendChild(host);
     document.body.appendChild(step);
 
-    const model = await renderDependenciesPanel({ host, appId: 'app.android', storeVersion: '1.4.2', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl });
+    const model = await renderDependenciesPanel({ host, appId: 'app.android', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl });
     assert.equal(model.ref, 'v1.4.0');
     assert.equal(host.hidden, false);
     assert.equal(step.hidden, false);
@@ -104,10 +104,10 @@ describe('dependencies panel', () => {
     assert.match(host.querySelector('.dp-note').textContent, /A listed advisory is not a defect in the wallet/);
     assert.match(host.querySelector('.dp-note').textContent, /We do not rank wallets by this number/);
     const notices = [...host.querySelectorAll('.dp-notices li')].map(e => e.textContent);
-    assert.match(notices[0], /store version 1\.4\.2 has not been checked yet/);
-    assert.match(notices[1], /Same source repository as app\.ios/);
+    assert.match(notices[0], /Same source repository as app\.ios/);
+    assert.doesNotMatch(host.textContent, /store version/i, 'the store version is not shown');
     assert.match(host.querySelector('.dp-note').textContent, /Since v1\.3\.0: 12 packages added, 3 removed, 40 updated, and 1 changed content at the same version \(npm:left-pad\)/);
-    assert.match(host.querySelector('.dp-headline').textContent, /Checked release v1\.4\.0 \(source tag, commit a1b2c3d\) · Store version 1\.4\.2 · Checked on 2026-10-01/);
+    assert.match(host.querySelector('.dp-headline').textContent, /Checked release v1\.4\.0 \(source tag, commit a1b2c3d\) · Checked on 2026-10-01/);
     assert.deepEqual([...host.querySelectorAll('.dp-where')].slice(0, 4).map(e => e.textContent), ['app', 'build', 'tests', '?']);
 
     const empty = document.createElement('div');
@@ -292,11 +292,10 @@ describe('dependencies panel', () => {
     document.body.append(river, host);
     const pick = (version) => river.dispatchEvent(new window.CustomEvent('buildVersionSelected', { bubbles: true, detail: { platform: 'android', version } }));
 
-    const model = await renderDependenciesPanel({ host, appId: 'app.android', platform: 'android', storeVersion: '1.4.2', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl });
+    const model = await renderDependenciesPanel({ host, appId: 'app.android', platform: 'android', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl });
     assert.equal(model.ref, 'v1.3.0', 'the version already picked when the export arrives');
     assert.match(host.querySelector('.dp-headline').textContent, /Checked release v1\.3\.0/);
     assert.equal(host.querySelector('tbody tr td a').textContent, 'GHSA-old');
-    assert.doesNotMatch(host.querySelector('.dp-notices')?.textContent || '', /store version/, 'the picked version is shown, not the newest');
 
     pick('1.4.0');
     assert.match(host.querySelector('.dp-headline').textContent, /Checked release v1\.4\.0/);

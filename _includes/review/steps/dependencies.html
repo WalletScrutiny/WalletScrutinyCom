@@ -5,7 +5,7 @@
   bundle is loaded; the step stays hidden until an analysed release exists for
   this app. Shows the release picked in the "Every version" section of the same
   platform. Separate from the verdict and the score. Parameters: platform,
-  appId, version (the store version the page lists).
+  appId.
 {%- endcomment -%}
 {% assign dependencies_app_id = include.appId | default: page.appId %}
 {% if dependencies_app_id and dependencies_app_id != '' %}
@@ -23,7 +23,6 @@
               appId: {{ dependencies_app_id | jsonify }},
               platform: {{ include.platform | default: 'app' | jsonify }},
               title: {{ page.title | jsonify }},
-              storeVersion: {{ include.version | default: '' | jsonify }},
             });
           });
         </script>
