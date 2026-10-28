@@ -29,7 +29,7 @@ iphone:
   reviews: 19
   icon: com.barkalab.barkachanges.webp
   meta: ok
-  verdict: wip
+  verdict: nowallet
   developerName: BarkaLab
 
 ---
@@ -45,5 +45,9 @@ Barka Change is a crypto/mobile-money exchange published by BarkaLab. According 
 - **Discrepancy.** The [homepage](https://www.barkachange.com/) still says "Your cryptocurrencies arrive in your BarkaChange wallet in less than 2 minutes". This contradicts the Play description, the FAQ and the terms. We rely on the terms and the current store description.
 
 Barka Change converts between mobile money and crypto that comes from, and goes to, wallets the user controls elsewhere. By its own terms it keeps no balance for the user. Its own description makes it a broker into another wallet, which is [not a wallet](/methodology/#nowallet).
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/bj/app/id6444768314). It is published by BarkaLab, the same provider, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Not a wallet**

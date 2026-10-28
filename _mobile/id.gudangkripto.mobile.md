@@ -27,7 +27,7 @@ iphone:
   reviews: 64
   icon: id.gudangkripto.mobileios.webp
   meta: ok
-  verdict: wip
+  verdict: custodial
   developerName: PT GUDANG KRIPTO INDONESIA
 
 ---
@@ -43,5 +43,9 @@ GudangKripto is the app of PT Gudang Kripto Indonesia, which the Play Store desc
 - **Custody.** The Play Store description names "ICC as the Custodian Wallet Institution". The homepage says: "Your assets are safely encrypted and stored offline." The [terms](https://gudangkripto.id/legal/terms) define the deposit address as "the Member's Digital Asset wallet address ... usable repeatedly as a Digital Asset wallet provided on the platform". They also state that "GudangKripto has the right to close the Account and freeze the funds, Digital Assets, and transactions therein if suspicious activity is found", and that the member "authorizes GudangKripto to debit Digital Assets in the GudangKripto digital wallet" to cover the company's losses.
 
 GudangKripto and its custodian hold users' crypto in wallets the platform can freeze and debit, so it is [custodial](/methodology/#custodial).
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/id/app/id1612764585). The provider's website links to it, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**

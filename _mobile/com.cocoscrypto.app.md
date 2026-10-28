@@ -27,7 +27,7 @@ iphone:
   reviews: 9
   icon: com.cocoscrypto.app.webp
   meta: ok
-  verdict: wip
+  verdict: custodial
   developerName: Cocos Capital Servicios Digitales
 
 ---
@@ -42,5 +42,9 @@ Cocos Crypto is the cryptocurrency app of Cocos, an Argentine investment platfor
 - **Custody.** The [Cocos Crypto Terms and Conditions](https://cocos.capital/legales/cocos-crypto/terminos-y-condiciones-cocos-crypto.pdf) say the crypto service "se concretará a través de la infraestructura informática, servicios de custodia y capacidad operacional de LIRIUM AG" (is carried out through the IT infrastructure, custody services and operations of LIRIUM AG). LIRIUM AG is a Liechtenstein company with a licence for "custodia calificada de criptoactivos" (qualified custody of crypto assets). Among the risks users accept, the Terms list "Riesgos vinculados con la utilización de una Billetera Lirium" (risks of using a Lirium wallet).
 
 Users' coins are held in Lirium wallets under Lirium's custody, not by the user. That makes the app [custodial](/methodology/#custodial).
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/ar/app/id6800873587). It is published by Cocos Capital Servicios Digitales SA, the same provider, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**

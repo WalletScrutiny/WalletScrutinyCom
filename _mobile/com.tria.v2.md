@@ -29,7 +29,7 @@ iphone:
   reviews: 39
   icon: com.tria.v2.webp
   meta: ok
-  verdict: wip
+  verdict: custodial
   developerName: Threely Dimensions Inc.
 
 ---
@@ -49,5 +49,9 @@ Tria is a crypto app with a Visa card, trading, yield and travel booking, publis
 - **Source code.** The [triahq GitHub organization](https://github.com/triahq) has a relay server, an SDK test project and a RainbowKit fork, but no repository for the app. A GitHub code search for `com.tria.v2` found only third-party lists.
 
 Tria's key management is undocumented in public, the wallet is tied to a Google or Apple login, and its own terms warn that assets "may be lost" if Tria ends the service. We cannot confirm that the user alone controls the keys. Until Tria documents who holds the key shares and how a user can sign without Tria, we treat the app as [custodial](/methodology/#custodial).
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/us/app/id6745908653). The provider's website links to it, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**

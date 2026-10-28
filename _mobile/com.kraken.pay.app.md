@@ -29,7 +29,7 @@ iphone:
   reviews: 758
   icon: com.kraken.pay.app.webp
   meta: ok
-  verdict: wip
+  verdict: custodial
   developerName: Kraken
 
 ---
@@ -47,5 +47,9 @@ Payward's other apps listed here are {% include walletLink.html wallet='android/
 - **Custody.** Kraken's [Global Terms of Service](https://www.kraken.com/legal/global-terms) name the Krak app in their e-money and card annexes. Section 2, "Custody and Title of Digital Assets", states: "Digital Assets ... held within your account are assets held in custody by us for you". It adds: "we may use shared blockchain addresses, that we control, to hold Digital Assets on your behalf". The terms also say "a court may disagree with our treatment of your Digital Assets and subject them to claims of our creditors". The Play description says "Krak is not a bank; balances are not FDIC/SIPC-insured".
 
 Krak balances sit in addresses Kraken controls, so the app is [custodial](/methodology/#custodial).
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/us/app/id6738051700). It is published by Payward, Inc., the same provider, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**

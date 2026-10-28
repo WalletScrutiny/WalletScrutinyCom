@@ -27,7 +27,7 @@ iphone:
   reviews: 11
   icon: com.app.yesa.webp
   meta: ok
-  verdict: wip
+  verdict: custodial
   developerName: Blue Zenith Tech
 
 ---
@@ -43,5 +43,9 @@ Yesa is a Nigerian app for selling and buying crypto against naira. It supports 
 - **Custody.** Selling BTC held in the app happens "inside Yesa, so nothing travels over the Bitcoin network". The balance is therefore an entry on Yesa's books, not coins in a wallet the user controls. The [terms](https://yesaapp.ng/terms.html) list "wallet services for digital assets" among Yesa's services. The Play description says "Yesa holds the dollars until you choose the moment to convert". We found no claim of self-custody and no seed phrase.
 
 Yesa holds BTC for its users as internal balances and lets them deposit and withdraw it on the Bitcoin network. This is a [custodial](/methodology/#custodial) service.
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/ng/app/id6749385545). The provider's website links to it, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**

@@ -29,7 +29,7 @@ iphone:
   reviews: 53
   icon: com.lootbase.webp
   meta: ok
-  verdict: wip
+  verdict: nobtc
   developerName: Lootbase
 
 ---
@@ -46,5 +46,9 @@ Stack (formerly Lootbase) is a mobile front end for trading spot assets and perp
 - **Custody (for completeness).** [How are my funds stored?](https://intercom.help/lootbase/en/articles/10518034-how-are-my-funds-stored) calls the wallets "self-custodial" and says that "only you can authorize transactions with your passkey". It also notes: "Our partner, MoonPay Inc. handles custody of funds and crypto during deposits and withdrawals." We did not look into Privy's key handling further, because the Bitcoin question already decides the verdict.
 
 BTC held in Stack is a token on Hyperliquid. On the way in and out it is converted by a bridge or by MoonPay. Wrapped or bridged BTC on another chain is not bitcoin, so Stack is [a wallet, but not for Bitcoin](/methodology/#nobtc).
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/us/app/id6742149218). The provider's website links to it, and it gives access to the same account and service, so the same verdict applies to it.
 
 **A wallet but not for Bitcoin**

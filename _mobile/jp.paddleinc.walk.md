@@ -28,7 +28,7 @@ iphone:
   reviews: 77368
   icon: jp.paddle-inc.walk.webp
   meta: ok
-  verdict: wip
+  verdict: custodial
   developerName: Paddle.inc
 
 ---
@@ -45,5 +45,9 @@ BitWalk is a step-counting rewards app by Paddle, Inc. ("Paddle Co., Ltd." in it
 - The landing page [lp.bitwalk.jp](https://lp.bitwalk.jp/) has no information about payouts or custody.
 
 BitWalk holds an earned bitcoin balance for the user and Paddle decides how much of it the user gets to keep, up to taking it away. Bitcoin can leave the app as a payout to an external wallet but cannot be deposited. As with other rewards apps that pay out bitcoin, such as {% include walletLink.html wallet='android/io.gosats' verdict='true' %}, we rate it [custodial](/methodology/#custodial).
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/jp/app/id1634543016). It is published by Paddle,inc, the same provider, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**

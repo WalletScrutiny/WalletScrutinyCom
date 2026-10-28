@@ -27,7 +27,7 @@ iphone:
   reviews: 42
   icon: ca.mybtc.app.webp
   meta: ok
-  verdict: wip
+  verdict: nowallet
   developerName: MyBTC.ca
 
 ---
@@ -44,5 +44,9 @@ MyBTC.ca is a Canadian cryptocurrency broker, registered as a Money Service Busi
 - The [home page](https://mybtc.ca/) says that MyBTC.ca will "mandate you, as our valued customer, to send your purchased Bitcoin and Ether to an external wallet".
 
 The app buys bitcoin into a wallet the user brings and keeps no bitcoin balance itself. It is a broker, not a wallet, as described in [our methodology](/methodology/#nowallet).
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/ca/app/id6470927556). The provider's website links to it, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Not a wallet**

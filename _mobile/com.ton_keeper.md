@@ -29,7 +29,7 @@ iphone:
   reviews: 3894
   icon: com.jbig.tonkeeper.webp
   meta: ok
-  verdict: wip
+  verdict: sourceavailable
   developerName: TON APPS UK LTD
 
 ---
@@ -45,5 +45,9 @@ Keeper, formerly Tonkeeper, is a multichain wallet published by Ton Apps Limited
 - **Source code.** The developer's website, [keeperwallet.com](https://keeperwallet.com/) (tonkeeper.com redirects there), links to the [tonkeeper GitHub organization](https://github.com/tonkeeper). Its [tonkeeper/android](https://github.com/tonkeeper/android) repository is GPL-3.0 licensed. Its build file sets `applicationId = "com.ton_keeper"`, the ID of this app, and it was last pushed on 2026-10-26. The repository's newest tag is `v26.10.4_1353`. The version on Google Play is 26.10.3, which has no tag of its own.
 
 The source of this app is public and matches its app ID, so this wallet is [source available](/methodology/#sourceavailable). We have not yet tried to build it and compare the result with the Play Store version. A reproducibility test is still to be done.
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/us/app/id1587742107). The provider's website links to it, and it is the same wallet, so the same verdict applies to it. Its source is public too, in the separate repository [tonkeeper/ios](https://github.com/tonkeeper/ios). We have not tried to build it.
 
 **Source code is available**

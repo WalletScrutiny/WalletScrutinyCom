@@ -27,7 +27,7 @@ iphone:
   reviews: 46
   icon: com.mxglobal.mxexchange.webp
   meta: ok
-  verdict: wip
+  verdict: custodial
   developerName: Mx Global
 
 ---
@@ -44,5 +44,9 @@ MX is the app of MX Global, a Malaysian exchange registered with the Securities 
 - **Name.** We found no connection between MX Global and MEXC, which is listed separately as {% include walletLink.html wallet='android/com.mexcpro.client' verdict='true' %}.
 
 By MX Global's own terms, the user has no access to the keys, so the app is [custodial](/methodology/#custodial).
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/my/app/id6446581872). The provider's website links to it, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**

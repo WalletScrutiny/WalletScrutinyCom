@@ -29,7 +29,7 @@ iphone:
   reviews: 160
   icon: com.crane.bigbird.webp
   meta: ok
-  verdict: wip
+  verdict: nosendreceive
   developerName: THE BIG BIRD TECH
 
 ---
@@ -45,5 +45,9 @@ Crane, published by Crane, Inc, is aimed at freelancers and businesses in Nigeri
 - **Custody.** The terms say "custody infrastructure" may be performed "by third-party partners", and that Crane "may place holds on funds, delay access, or restrict withdrawals". Users do not get keys.
 
 Crane holds coins for the user, but its documentation describes no way to withdraw them as crypto. It only receives coins and pays out in naira. That makes it a custodial product that [cannot send bitcoins](/methodology/#nosendreceive).
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/ng/app/id6502242343). The provider's website links to it, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Can't send or receive bitcoins**

@@ -26,7 +26,7 @@ iphone:
   reviews: 0
   icon: com.ibkr.handyinvest.webp
   meta: ok
-  verdict: wip
+  verdict: custodial
   developerName: IB Exchange Corp.
 
 ---
@@ -43,5 +43,9 @@ Handy Invest is a simplified mobile trading app from the Interactive Brokers gro
 - Crypto eligibility depends on the IBKR entity and the client's country of residence. We did not determine which Handy Invest users can trade or transfer crypto.
 
 Bitcoin bought through Handy Invest is held by Paxos or zerohash for the user. That makes the app [custodial](/methodology/#custodial).
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/us/app/id1641664193). It is published by IB Exchange Corp., the same provider, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**

@@ -29,7 +29,7 @@ iphone:
   reviews: 18
   icon: com.bleap.webp
   meta: ok
-  verdict: wip
+  verdict: nobtc
   developerName: Bleap
 
 ---
@@ -46,5 +46,9 @@ Bleap is a crypto finance app from Bleap (Bleap SIA, Latvia). It combines a Mast
 - **Custody (for completeness).** [Security & Keys at Bleap](https://help.bleap.finance/en/articles/11012551-security-keys-at-bleap) says the key "consists of two separate parts" (one on your device, one on PortalHQ). [How to use your wallet without Bleap](https://help.bleap.finance/en/articles/15887052-how-to-use-your-wallet-without-bleap-guide) describes a "Slow Withdrawal" that needs only the user's exported key and a waiting period of 24 to 72 hours. We did not look into this further, because it only matters for the non-Bitcoin assets.
 
 Any "Bitcoin" in Bleap would be a token on a smart-contract chain such as Arbitrum, or a conversion through Bleap's bridge, not BTC on the Bitcoin network. Bleap is therefore [a wallet, but not for Bitcoin](/methodology/#nobtc).
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/gb/app/id6467641662). It is published by Bleap, the same provider, and it gives access to the same account and service, so the same verdict applies to it.
 
 **A wallet but not for Bitcoin**

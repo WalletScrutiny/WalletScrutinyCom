@@ -28,7 +28,7 @@ iphone:
   reviews: 1
   icon: io.runonflux.sspkey.webp
   meta: ok
-  verdict: wip
+  verdict: sourceavailable
   developerName: Influx Technologies Limited
 
 ---
@@ -45,5 +45,9 @@ SSP Key is the phone half of SSP Wallet, a 2-of-2 multisignature wallet by Influ
 - **Source code.** The source is public under AGPL-3.0 at [RunOnFlux/ssp-key](https://github.com/RunOnFlux/ssp-key), linked from [sspwallet.io](https://sspwallet.io/). It builds the app ID `io.runonflux.sspkey`. Tag [v2.1.1](https://github.com/RunOnFlux/ssp-key/tree/v2.1.1) declares `versionName "2.1.1"` and is dated 2026-09-02, the same day the Play release was updated. The companion extension is at [RunOnFlux/ssp-wallet](https://github.com/RunOnFlux/ssp-wallet).
 
 SSP Key is self-custodial and its source is public. A reproducible build test is still to be done. See [our methodology](/methodology/#sourceavailable).
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/us/app/id6463717332). It is published by Influx Technologies USA, the same provider, and it is the same wallet, so the same verdict applies to it. The iOS project is in the same repository, under [`ios/`](https://github.com/RunOnFlux/ssp-key/tree/master/ios). We have not tried to build it.
 
 **Source code is available**

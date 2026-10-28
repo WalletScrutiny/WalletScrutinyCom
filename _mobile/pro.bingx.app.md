@@ -29,7 +29,7 @@ iphone:
   reviews: 388
   icon: pro.bingx.app.webp
   meta: ok
-  verdict: wip
+  verdict: custodial
   developerName: BINGX EU EAB
 
 ---
@@ -45,5 +45,9 @@ BingX Pro is an exchange app published by "BINGX GLOBAL". It links to `bingx.pro
 - **Publisher name.** The developer is "BINGX GLOBAL", while the main BingX app is published by "BINGX GROUP LIMITED". The website, support address and bug-bounty scope all point to BingX itself, so we see no sign of an impostor.
 
 Users deposit bitcoin to BingX and have to ask BingX to withdraw them, so BingX holds the keys: the app is [custodial](/methodology/#custodial).
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/in/app/id1672172781). It is published by BINGX GLOBAL, the same provider, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**

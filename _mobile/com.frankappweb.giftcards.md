@@ -28,7 +28,7 @@ iphone:
   reviews: 3
   icon: com.frankappweb.sogo.webp
   meta: ok
-  verdict: wip
+  verdict: nosendreceive
   developerName: Frankappweb Technologies Ltd
 
 ---
@@ -44,5 +44,9 @@ Sogo, published by FraNKAPPWeb Technologies, is a Nigerian and Ghanaian app for 
 - **No crypto custody or crypto withdrawal.** The [Terms of Service](https://sogo.africa/terms) describe Sogo as a "Liquidation Intermediary Only" and state: "Sogo does not act as a cryptocurrency exchange, custodian, broker, or speculative trading platform. We do not hold digital assets on custody for users." We found no option to buy BTC or to withdraw BTC. The account's "Sogo wallet" holds local-currency balances (refunds, rewards, cashback), which the terms say are withdrawn to a bank.
 
 The app gives each user a BTC address that only receives, and every deposit is converted to fiat. The resulting balance is held by Sogo. This is the pattern we list as [cannot send or receive bitcoins](/methodology/#nosendreceive): bitcoin can come in but never leave as bitcoin.
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/ng/app/id6796819536). The provider's website links to it, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Can't send or receive bitcoins**

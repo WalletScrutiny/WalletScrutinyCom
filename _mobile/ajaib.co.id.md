@@ -29,7 +29,7 @@ iphone:
   reviews: 27009
   icon: id.ajaib.co.webp
   meta: ok
-  verdict: wip
+  verdict: nosendreceive
   developerName: Ajaib Technologies Corporation
 
 ---
@@ -45,5 +45,9 @@ Ajaib is an Indonesian investment app published by Ajaib Technologies for Indone
 - **Sending and receiving BTC.** We found no documentation that BTC can be deposited to or withdrawn from this app. The help centre's crypto section tells users to fund crypto purchases in rupiah: "kamu bisa segera memulai investasi dengan mendeposit dana ke Rekening Ajaib Alpha (IDR)" ("you can start investing right away by depositing funds into the Ajaib Alpha Account (IDR)") ([source](https://ajaib.co.id/pusat-bantuan/aset-kripto/bagaimana-memulai-investasi-aset-kripto)). The crypto page describes cashing out as selling: "Setelah kamu menjual aset kripto, hasilnya akan masuk ke Rekening Ajaib Alpha dan bisa ditarik ke rekening bank kamu" ("After you sell crypto assets, the proceeds go to the Ajaib Alpha Account and can be withdrawn to your bank account"). Ajaib's [send and receive article](https://ajaib.co.id/belajar/investasi/kirim-dan-terima-aset-kripto) does describe BTC deposits ("Deposit Aset") and withdrawals ("Tarik Aset"), but every step says "Buka aplikasi Ajaib Kripto" ("Open the Ajaib Kripto app") and it states that only "aset yang ada di aplikasi Ajaib Kripto" ("assets in the Ajaib Kripto app") can be sent or received. That describes the separate Ajaib Kripto app, not this one.
 
 The provider holds the keys, and the sources we read document BTC transfers only for the separate Ajaib Kripto app, while this app is funded and cashed out in rupiah. Until we can confirm on-chain BTC deposits and withdrawals in this app, we file it as [not able to send or receive BTC](/methodology/#nosendreceive). Either way it is custodial.
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/id/app/id1473916571). The provider's website links to it, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Can't send or receive bitcoins**

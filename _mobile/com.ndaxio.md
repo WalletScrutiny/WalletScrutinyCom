@@ -28,7 +28,7 @@ iphone:
   reviews: 15303
   icon: com.starpoint.ndax.webp
   meta: ok
-  verdict: wip
+  verdict: custodial
   developerName: National Digital Asset Exchange
 
 ---
@@ -43,5 +43,9 @@ Ndax is a Canadian crypto trading platform run by NDAX Inc. The app buys, sells 
 - **Custody.** Ndax's [Security and Compliance page](https://ndax.io/en/security) states: "A majority of client digital assets are held with acceptable third-party custodians, with at least 80% of client crypto assets held in segregated omnibus accounts in the name of Ndax in trust for or for the benefit of Ndax's clients". It adds: "Ndax uses a combination of cold, warm, and hot wallet infrastructure to support asset custody, trading, deposits, withdrawals, and settlement". Client assets used for staking "remain in the possession, custody, and control of Ndax at all times".
 
 Ndax and its custodians hold the keys to client bitcoin in accounts in Ndax's name, so the app is [custodial](/methodology/#custodial).
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/ca/app/id1412219882). It is published by NDAX INC, the same provider, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**

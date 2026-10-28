@@ -26,7 +26,7 @@ iphone:
   reviews: 214
   icon: com.btcturk.global.webp
   meta: ok
-  verdict: wip
+  verdict: custodial
   developerName: BtcTurk Global Inc.
 
 ---
@@ -42,5 +42,9 @@ BtcTurk | Global is the international exchange of the BtcTurk group, run by BtcT
 - **Related listing.** BtcTurk's Turkish exchange app, [BtcTurk | Kripto](/mobile/com.btcturk.pro/) (`com.btcturk.pro`), is already listed as custodial. The website says BtcTurk | Kripto "currently only serves its primary local market", while this app serves global users. They are separate products for separate markets.
 
 The terms state that BtcTurk | Global keeps the private keys for users' deposited assets. That makes the app [custodial](/methodology/#custodial).
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/tr/app/id6744916635). It is published by BtcTurk Global Inc., the same provider, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**

@@ -28,7 +28,7 @@ iphone:
   reviews: 47
   icon: com.ecstasy.app.webp
   meta: ok
-  verdict: wip
+  verdict: nosendreceive
   developerName: Ecstasy Data Nigeria Limited
 
 ---
@@ -44,5 +44,9 @@ Ecstasy is a Nigerian payments app published by Ecstasy Nigeria (named "Ecstasy 
 - **Custody.** The naira balance sits with the provider and its banking partners, so the app is custodial for whatever it holds.
 
 The publisher gives very little information on its crypto service. What there is describes crypto being converted into a custodial naira balance, with no BTC withdrawal. We did not install the app, so we could not confirm which coins it accepts. We therefore choose the more conservative verdict and list it as [unable to send or receive bitcoins](/methodology/#nosendreceive), not as a non-Bitcoin product.
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/ng/app/id6448960100). It is published by Ecstasy Nigeria, the same provider, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Can't send or receive bitcoins**

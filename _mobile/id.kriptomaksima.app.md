@@ -27,7 +27,7 @@ iphone:
   reviews: 3713
   icon: id.kriptomaksima.app.webp
   meta: ok
-  verdict: wip
+  verdict: custodial
   developerName: PT Kripto Maksima Koin
 
 ---
@@ -43,5 +43,9 @@ FLOQ is an Indonesian crypto exchange app operated by PT Kripto Maksima Koin. Th
 - **Custody.** The [consumer agreement](https://floq.co.id/perjanjiankonsumen) says that for a delisted asset the company may move "Aset Kripto tertentu milik Konsumen yang disimpan pada wallet milik Perusahaan kepada wallet milik Konsumen" ("certain crypto assets of the Consumer that are stored in the Company's wallet to the Consumer's wallet"). It also lets the company "mendebet Aset Kripto pada dompet digital Platform" ("debit crypto assets in the Platform's digital wallet") to cover its losses from suspicious transactions. The [terms and conditions](https://floq.co.id/syaratdanketentuan) add that "Floq berhak untuk menutup Akun dan membekukan dana, Aset Kripto, dan transaksi" ("Floq has the right to close the account and freeze funds, crypto assets and transactions").
 
 By its own agreement, FLOQ keeps customers' crypto in wallets the company owns and can debit or freeze it. It is [custodial](/methodology/#custodial).
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/id/app/id6740000653). The provider's website links to it, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**

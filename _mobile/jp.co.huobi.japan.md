@@ -27,7 +27,7 @@ iphone:
   reviews: 2149
   icon: jp.co.huobi.bittrade.webp
   meta: ok
-  verdict: wip
+  verdict: custodial
   developerName: BitTrade Inc.
 
 ---
@@ -44,5 +44,9 @@ BitTrade is the trading app of BitTrade Inc. (ビットトレード株式会社)
 - **Name change.** BitTrade's [press release](https://prtimes.jp/main/html/rd/p/000000184.000037450.html) confirms that "フォビジャパン株式会社 ... 2023年４月21日に社名を「ビットトレード株式会社（英文表記：BitTrade Inc.）」へ変更" ("Huobi Japan Inc. changed its name to BitTrade Inc. on April 21, 2023").
 
 BitTrade holds the customers' bitcoin and the private keys that control them, so the app is [custodial](/methodology/#custodial).
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/jp/app/id1449925793). The provider's website links to it, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**

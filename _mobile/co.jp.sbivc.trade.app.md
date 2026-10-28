@@ -27,7 +27,7 @@ iphone:
   reviews: 376
   icon: co.jp.sbivc.trade.app.webp
   meta: ok
-  verdict: wip
+  verdict: custodial
   developerName: SBI VC TRADE CO., LTD.
 
 ---
@@ -43,5 +43,9 @@ This is the "VCTRADE" app of SBI VC Trade Co., Ltd., the SBI Group's Japanese cr
 - **Custody.** SBI VC Trade's page on [safe trading](https://www.sbivc.co.jp/crypto-assets/efforts-for-safe-trading) says: "お客様の暗号資産及び電子決済手段は、お客様専用のウォレットにて、当社の資産とは分別管理いたします" ("customers' crypto assets and electronic payment methods are managed in wallets dedicated to customers, separately from the company's assets"). It also says assets are kept in "外部インターネットにつながらないコールドウォレット" ("cold wallets not connected to the internet") and that "暗号資産及び電子決済手段の秘密鍵は、当社管理基準に基づき、一つのアドレスに複数の秘密鍵を割り当てるマルチシグネチャアドレスを採用しております" ("for the private keys of crypto assets and electronic payment methods, we use multi-signature addresses that assign several private keys to one address, based on our management standards"). The company manages the keys.
 
 SBI VC Trade stores customers' crypto in wallets whose keys it manages, so the app is [custodial](/methodology/#custodial).
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/jp/app/id6639604109). It is published by SBI VC Trade Co., Ltd., the same provider, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**

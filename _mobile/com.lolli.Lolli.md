@@ -29,7 +29,7 @@ iphone:
   reviews: 19103
   icon: com.lolli.Lolli.webp
   meta: ok
-  verdict: wip
+  verdict: nosendreceive
   developerName: Lolli Holdings, Inc
 
 ---
@@ -46,5 +46,9 @@ Lolli, by Lolli Holdings, Inc., is a US rewards app. Users earn bitcoin or cash 
 - **Withdrawals paused.** The Play Store description, current for version 4.3.10, says withdrawals are on pause.
 
 Lolli holds the bitcoin for the user but accepts no bitcoin deposits. Its Lightning withdrawal is a reward payout and is currently paused. The app cannot send and receive bitcoin as a wallet does, so we rate it ["can't send or receive"](/methodology/#nosendreceive). Like every product in this category, it is also custodial.
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/us/app/id1477476830). It is published by Lolli Holdings, Inc, the same provider, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Can't send or receive bitcoins**

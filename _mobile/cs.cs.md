@@ -28,7 +28,7 @@ iphone:
   reviews: 709
   icon: com.coinstash.coinstash.webp
   meta: ok
-  verdict: wip
+  verdict: custodial
   developerName: TWMT Pty LTD
 
 ---
@@ -43,5 +43,9 @@ Coinstash is an Australian crypto exchange run by Coinstash Australia. Its Play 
 - **Custody.** The Play Store description says "Coinstash maintains full currency reserves at all times. All customer funds are held 1:1 and available for withdrawal at any time." The help article [Platform Security and Audits](https://help.coinstash.com.au/en/articles/13328858-platform-security-and-audits) says "Every dollar and token our customers hold on the platform is backed 1:1 by reserves" and "Coinstash has partnered with trusted custodians such as Fireblocks and Ledger". Withdrawals are processed by Coinstash, may be held "pending" for Travel Rule checks, and are then broadcast by Coinstash.
 
 Coinstash and its custody partners hold users' coins, and Coinstash processes withdrawals. That makes the app [custodial](/methodology/#custodial).
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/au/app/id1577145939). The provider's website links to it, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**

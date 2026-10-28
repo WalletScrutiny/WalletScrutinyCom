@@ -28,7 +28,7 @@ iphone:
   reviews: 29
   icon: com.qubetics.wallet.webp
   meta: ok
-  verdict: wip
+  verdict: sourceavailable
   developerName: Qubetics Labs LLC
 
 ---
@@ -45,5 +45,9 @@ Qubetics Wallet is a multi-chain wallet by Qubetics, the team behind the Qubetic
 - **Version mismatch.** Google Play ships version 1.1.5 from 2025-11-13. Both repositories declare `versionName "1.1.8"` and have no tags. The history of wallet-mobile-app goes back to 2025, but no commit sets version 1.1.5, so we could not identify the exact source of the release on Google Play.
 
 The wallet is self-custodial and its source is public under the same app ID. We have not yet tried to build it. The source would first have to be matched to the version on Google Play. See [our methodology](/methodology/#sourceavailable).
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/us/app/id6746333540). It is published by Qubetics, the same provider, and it is the same wallet, so the same verdict applies to it. The iOS project is in the same repository, under [`ios/`](https://github.com/Qubetics/qubetics-mobile-app/tree/main/ios). We have not tried to build it.
 
 **Source code is available**

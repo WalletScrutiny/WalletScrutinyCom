@@ -26,7 +26,7 @@ iphone:
   reviews: 3181
   icon: id.co.triv.webp
   meta: ok
-  verdict: wip
+  verdict: custodial
   developerName: TIGA INTI UTAMA, PT
 
 ---
@@ -42,5 +42,9 @@ Triv is an Indonesian crypto exchange operated by PT. Tiga Inti Utama of Surabay
 - **Custody.** The terms define "Deposit" as "proses penyimpanan saldo Rupiah atau Aset Kripto oleh Pengguna" ("the process of storing a rupiah or crypto balance by the user") in the user's Triv account. They also state: "Triv berhak menutup Akun dan membekukan dana, Aset Kripto dan transaksi di dalamnya apabila menemukan aktivitas yang mencurigakan di dalam Akun tersebut hingga waktu yang tidak ditentukan" ("Triv has the right to close the account and freeze the funds, crypto assets and transactions in it if it finds suspicious activity, for an indefinite period"). Triv can only freeze crypto assets if it controls them.
 
 Triv holds users' crypto in accounts it can freeze, so it is [custodial](/methodology/#custodial).
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/id/app/id1470919460). It is published by Triv, the same provider, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**

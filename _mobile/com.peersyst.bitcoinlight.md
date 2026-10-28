@@ -27,7 +27,7 @@ iphone:
   reviews: 1
   icon: com.peersyst.bitcoin-light.webp
   meta: ok
-  verdict: wip
+  verdict: nosource
   developerName: Peersyst
 
 ---
@@ -43,5 +43,9 @@ Bitcoin Light is a wallet for Bitcoin and Nervos (CKB) by Peersyst Technology. I
 - **Source code.** The [Peersyst GitHub organization](https://github.com/Peersyst) has 93 public repositories. None of them is Bitcoin Light. The closest is [Peersyst/ckbull-mobile](https://github.com/Peersyst/ckbull-mobile), the predecessor app. It builds the app ID `com.peersyst.ckbull`, not `com.peersyst.bitcoinlight`, and has had no pushes since 2025-06-30, half a year before Bitcoin Light was released. A GitHub code search for `com.peersyst.bitcoinlight` returned no results. Neither the Play listing nor the website links to source code.
 
 Bitcoin Light says it is self-custodial, but we found no source code for it, so a [reproducible build](/methodology/#nosource) cannot be attempted.
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/us/app/id6753018094). It is published by Peersyst Technology, the same provider, and it is the same wallet, so the same verdict applies to it. We found no source for the iOS app either.
 
 **No source for current release found**

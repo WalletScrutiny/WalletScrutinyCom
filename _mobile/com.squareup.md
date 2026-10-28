@@ -28,7 +28,7 @@ iphone:
   reviews: 606921
   icon: com.squareup.square.webp
   meta: ok
-  verdict: wip
+  verdict: custodial
   developerName: Block, Inc.
 
 ---
@@ -46,5 +46,9 @@ Square Point of Sale is Block, Inc.'s point-of-sale app for merchants. It takes 
 - Square Bitcoin is available only to US sellers outside New York. Elsewhere this is a fiat-only payment app.
 
 The bitcoin a seller receives through this app is held by Block, Inc. in the seller's Square account. That makes the app [custodial](/methodology/#custodial).
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/us/app/id335393788). It is published by Block, Inc., the same provider, and it gives access to the same account and service, so the same verdict applies to it. Bitcoin on Square belongs to the seller's Square account, whichever app is used to reach it.
 
 **Custodial: The provider holds the keys**

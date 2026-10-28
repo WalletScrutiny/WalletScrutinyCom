@@ -28,7 +28,7 @@ iphone:
   reviews: 13
   icon: com.example.breedjr.webp
   meta: ok
-  verdict: wip
+  verdict: nowallet
   developerName: Breedjr Technologies Limited
 
 ---
@@ -44,5 +44,9 @@ Breedjr — Crypto to Naira Fast is published by Breedjr Technologies for users 
 - **No crypto withdrawal.** We found no description of sending crypto out of Breedjr on its [website](https://breedjr.com), in these two guides or in the Play Store description. The only payout described is naira to a bank account.
 
 By the provider's own account, coins are converted to naira on arrival and the user never holds a crypto balance in the app. A one-way cash-out service is [not a wallet](/methodology/#nowallet).
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/ng/app/id6748546759). The provider's website links to it, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Not a wallet**

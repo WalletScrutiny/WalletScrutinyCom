@@ -29,7 +29,7 @@ iphone:
   reviews: 86
   icon: com.kingcards.kingcards.webp
   meta: ok
-  verdict: wip
+  verdict: custodial
   developerName: Initiative for educational remediation innovation and child support
 
 ---
@@ -45,5 +45,9 @@ KWIQ (formerly Kingcards, still published under the app ID `com.kingcards.kingca
 - **Custody.** The terms describe the wallets as being "in your account" and say "Wallet services and naira payments are provided through licensed partners." The terms also say KWIQ may "suspend or close an account". We found no seed phrase backup and no claim of self-custody. Coins sit in wallets that KWIQ and its partners control.
 
 KWIQ holds bitcoin for its users in wallets run by the provider and its partners, and lets them deposit and send BTC. This is a [custodial](/methodology/#custodial) service.
+
+## iOS
+
+There is also an [iOS version on the App Store](https://apps.apple.com/ng/app/id1570500302). It is published by KWIQ, the same provider, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**
