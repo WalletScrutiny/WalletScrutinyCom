@@ -6,7 +6,7 @@ import fs from 'fs';
 import os from 'os';
 import path from 'path';
 import { reproducibleVersions, loadReproducible, verifiedVersionsOf, inScope, tagOfVersion, analyseVerifiedVersions } from '../reproducible.mjs';
-import { initDatabase, recordAnalysis, getAnalyses, saveAppList, saveReproducibleVersions } from '../ddbbUtils.mjs';
+import { initDatabase, recordAnalysis, getAnalyses, saveAppList, saveReproducibleVersions, releasesToReanalyse } from '../ddbbUtils.mjs';
 import { exportAll } from '../export.mjs';
 
 const tmpDb = () => initDatabase(path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'repro-')), 'assets.db'));
@@ -97,6 +97,36 @@ test('analyseVerifiedVersions: newest first, capped per pass, finished ones skip
 
   // unreadable tags: nothing analysed, nothing thrown
   assert.deepEqual(await analyseVerifiedVersions(db, { appId: 'w', repoUrl: 'x', verified, perPass: 2, analyse, listTags: async () => { throw new Error('gone'); } }), []);
+});
+
+test('--reanalyse: verified versions run again without a cap, except tags already redone this pass', async () => {
+  const db = tmpDb();
+  const tags = new Map([['v3.0', 'a'], ['v2.0', 'b'], ['v1.0', 'c']]);
+  const verified = [{ version: '3.0', verifiedAt: 30 }, { version: '2.0', verifiedAt: 20 }, { version: '1.0', verifiedAt: 10 }];
+  for (const ref of ['v3.0', 'v2.0']) recordAnalysis(db, { appId: 'w', kind: 'release', ref, status: 'ok', analyser: 't' });
+  const analysed = [];
+  const analyse = async (tag) => { analysed.push(tag); };
+  const done = await analyseVerifiedVersions(db, { appId: 'w', repoUrl: 'x', verified, perPass: 1, analyse, listTags: async () => tags, redo: ['v3.0'] });
+  assert.deepEqual(done, ['v2.0', 'v1.0']);
+  assert.deepEqual(analysed, ['v2.0', 'v1.0']);
+  // with no cap configured (perPass 0) it still runs
+  assert.deepEqual(await analyseVerifiedVersions(db, { appId: 'w', repoUrl: 'x', verified, perPass: 0, analyse, listTags: async () => tags, redo: [] }), ['v3.0', 'v2.0', 'v1.0']);
+});
+
+test('releasesToReanalyse: the newest stored GitHub release first, then every analysed release, once each', () => {
+  const db = tmpDb();
+  const asset = db.prepare("INSERT INTO assets (app_id, source, version, asset_name, sha256, published_at) VALUES (?, ?, ?, ?, 'h', ?)");
+  asset.run('w', 'github', 'v1.0', 'a.apk', '2026-01-01');
+  asset.run('w', 'github', 'v3.0', 'a.apk', '2026-03-01');
+  asset.run('w', 'docker', 'v9.0', 'img', '2026-09-01');
+  asset.run('other', 'github', 'v8.0', 'a.apk', '2026-08-01');
+  for (const ref of ['v2.0', 'v3.0']) recordAnalysis(db, { appId: 'w', kind: 'release', ref, status: 'ok', analyser: 't' });
+  recordAnalysis(db, { appId: 'w', kind: 'default-branch', ref: 'abc', status: 'ok', analyser: 't' });
+  recordAnalysis(db, { appId: 'w', kind: 'verified-no-tag', ref: '2.5', status: 'unsupported', analyser: 't' });
+  const refs = releasesToReanalyse(db, 'w');
+  assert.equal(refs[0], 'v3.0');
+  assert.deepEqual([...refs].sort(), ['v2.0', 'v3.0']);
+  assert.deepEqual(releasesToReanalyse(db, 'nobody'), []);
 });
 
 test('exportAll with onlyReproducible leaves out wallets without a reproducible version, matched through aliases', () => {

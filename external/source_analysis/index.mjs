@@ -3,7 +3,7 @@
 import fs from 'fs';
 import minimist from 'minimist';
 import { fetchGitHubAssets, fetchDockerAssets, parseDockerImage, checkAuthorIdConsistency, evaluateChangesInNewAsset, loadSecret } from './utils.mjs';
-import { backupDatabase, initDatabase, saveAsset, hasExistingAssets, getAnalysedCommit, saveAnalysedCommit, saveEndOfLife, recordAnalysis } from './ddbbUtils.mjs';
+import { backupDatabase, initDatabase, saveAsset, hasExistingAssets, getAnalysedCommit, saveAnalysedCommit, saveEndOfLife, recordAnalysis, releasesToReanalyse } from './ddbbUtils.mjs';
 import { runSourceCodeAnalysis, remoteHeadCommit, remoteHeadDate, analyserVersion } from './appAnalysis.mjs';
 import { recheckStoredReleases } from './recheck.mjs';
 import { pruneCache } from './containerRunner.mjs';
@@ -14,7 +14,7 @@ import { runPool, tagConsole } from './pool.mjs';
 import { loadPlugins } from './plugins.mjs';
 
 // Main function
-async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = null, dockerToken = null, includeTestFiles = false, verified = []) {
+async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = null, dockerToken = null, includeTestFiles = false, verified = [], reanalyse = false) {
   console.log(`\nProcessing app: ${appId}`);
   if (repoUrl) {
     console.log(`  GitHub repo: ${repoUrl}`);
@@ -61,8 +61,10 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
       }
 
       let unreachable = null;
+      const redone = [];
       if (mostRecentAsset) {
         await runSourceCodeAnalysis({ name: appId, repoUrl: repoUrl, version: mostRecentAsset.version, includeTestFiles, db });
+        redone.push(mostRecentAsset.version);
       } else {
         // No new release: analyse the default branch, unless it has not moved
         // since the last successful analysis. A remote that cannot be reached
@@ -78,7 +80,7 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
         if (unreachable) {
           console.log(`  No new release, and ${unreachable.message}. Skipping the source analysis.`);
           recordAnalysis(db, { appId, kind: 'default-branch', ref: 'unknown', status: 'failed', error: unreachable.message, analyser: analyserVersion() });
-        } else if (head && head === getAnalysedCommit(db, appId)) {
+        } else if (!reanalyse && head && head === getAnalysedCommit(db, appId)) {
           console.log(`  No new release, default branch still at ${head.slice(0, 12)} (already analysed). Skipping the source analysis.`);
         } else {
           console.log('  No new release: analysing the default branch...');
@@ -89,7 +91,18 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
         }
       }
 
+      // --reanalyse: the newest release and every release analysed before run
+      // again, so an analyser fix reaches results stored before it.
+      if (reanalyse && !unreachable) {
+        for (const tag of releasesToReanalyse(db, appId).filter(t => !redone.includes(t))) {
+          console.log(`  Reanalysing release ${tag}...`);
+          await runSourceCodeAnalysis({ name: appId, repoUrl, version: tag, includeTestFiles, db });
+          redone.push(tag);
+        }
+      }
+
       if (!unreachable) await analyseVerifiedVersions(db, { appId, repoUrl, verified, perPass: VERIFIED_PER_PASS,
+        redo: reanalyse ? redone : null,
         analyse: (tag) => runSourceCodeAnalysis({ name: appId, repoUrl, version: tag, includeTestFiles, db }) });
     }
 
@@ -132,13 +145,14 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
 // Parse command line arguments with minimist
 const argv = minimist(process.argv.slice(2), {
   string: ['githubToken', 'dockerToken', 'appList', 'appId'],
-  boolean: ['includeTestFiles'],
+  boolean: ['includeTestFiles', 'reanalyse'],
   alias: {
     githubToken: ['github-token', 'gh-token'],
     dockerToken: ['docker-token', 'docker-token'],
     includeTestFiles: ['include-test-files', 'jsxray-include-tests'],
     appList: ['app-list'],
-    appId: ['app-id']
+    appId: ['app-id'],
+    reanalyse: ['reanalyze']
   }
 });
 
@@ -146,6 +160,13 @@ const argv = minimist(process.argv.slice(2), {
 const githubToken = loadSecret({ name: 'GITHUB_TOKEN', fileEnv: 'GITHUB_TOKEN_FILE', argValue: argv.githubToken });
 const dockerToken = loadSecret({ name: 'DOCKER_TOKEN', fileEnv: 'DOCKER_TOKEN_FILE', argValue: argv.dockerToken });
 const includeTestFiles = Boolean(argv.includeTestFiles);
+
+// --reanalyse runs the chosen wallets' stored releases again; without
+// --app-id it would redo every wallet, so it is refused.
+if (argv.reanalyse && ![].concat(argv.appId || []).filter(Boolean).length) {
+  console.error('✗  --reanalyse needs --app-id <id>: it analyses every stored release of a wallet again');
+  process.exit(1);
+}
 
 if (!githubToken && !dockerToken) {
   console.error('No token provided: set GITHUB_TOKEN_FILE (or DOCKER_TOKEN_FILE), or pass --githubToken / --dockerToken');
@@ -290,7 +311,8 @@ try {
         appGithubToken,
         effectiveDockerToken,
         includeTestFiles,
-        app.verified || []
+        app.verified || [],
+        Boolean(argv.reanalyse)
       );
       successCount++;
       if (EXPORT_DIR) await exportAndPublishApp(app.appId, appStart);

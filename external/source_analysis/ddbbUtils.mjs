@@ -411,6 +411,14 @@ export function hasReleaseAnalysis(db, appId, ref) {
   return Boolean(db.prepare("SELECT 1 FROM analyses WHERE app_id = ? AND kind = 'release' AND ref = ? AND status != 'failed'").get(appId, ref));
 }
 
+// The release tags --reanalyse runs again for an app: the newest GitHub
+// release stored for it, then every release with a recorded analysis.
+export function releasesToReanalyse(db, appId) {
+  const newest = db.prepare("SELECT version FROM assets WHERE app_id = ? AND source = 'github' ORDER BY published_at DESC LIMIT 1").get(appId);
+  const analysed = db.prepare("SELECT ref FROM analyses WHERE app_id = ? AND kind = 'release' ORDER BY analysed_at DESC, ref").all(appId).map(r => r.ref);
+  return [...new Set([...(newest ? [newest.version] : []), ...analysed])];
+}
+
 function ensureColumn(db, table, column, type) {
   const columns = db.prepare(`PRAGMA table_info(${table})`).all().map(c => c.name);
   if (!columns.includes(column)) db.exec(`ALTER TABLE ${table} ADD COLUMN ${column} ${type}`);

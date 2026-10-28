@@ -406,6 +406,17 @@ node index.mjs --githubToken ghp_xxx --app-id app.zeusln.zeus  # one job (appId 
 node index.mjs --githubToken ghp_xxx --app-list ./list.json  # a local or alternative list
 ```
 
+A release is analysed once, and the default branch only when it moved, so an
+analyser fix does not reach results stored before it. `--reanalyse` (needs
+`--app-id`) runs that wallet again: the default branch, the newest release and
+every release analysed before, and all of its verified versions with no
+per-pass cap. Each run replaces the stored rows of its release; a run that fails
+records the release as failed and leaves its old dependency rows in place.
+
+```bash
+node index.mjs --githubToken ghp_xxx --app-id com.example.wallet --reanalyse
+```
+
 ## Configuration
 
 Extra apps that are not on the site list (for example Docker images) go in

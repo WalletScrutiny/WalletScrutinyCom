@@ -143,10 +143,11 @@ export function tagOfVersion(tags, appId, version, platform = null) {
  * yet, at most `perPass`, each at the tag that names it. These are the
  * versions users run, so they count more than the newest release; any host
  * works, the tags come from git. `analyse(tag)` runs one release analysis.
- * Returns the tags analysed.
+ * With `redo` (--reanalyse: the tags already run again this pass) finished
+ * analyses run again too and there is no cap. Returns the tags analysed.
  */
-export async function analyseVerifiedVersions(db, { appId, repoUrl, verified, perPass, analyse, listTags = lsRemoteTags, analyser = null }) {
-  if (!verified.length || !perPass) return [];
+export async function analyseVerifiedVersions(db, { appId, repoUrl, verified, perPass, analyse, listTags = lsRemoteTags, analyser = null, redo = null }) {
+  if (!verified.length || (!perPass && !redo)) return [];
   let tags;
   try {
     tags = await listTags(repoUrl);
@@ -164,8 +165,9 @@ export async function analyseVerifiedVersions(db, { appId, repoUrl, verified, pe
       continue;
     }
     saveVerifiedRef(db, appId, tag, v.version);
-    if (hasReleaseAnalysis(db, appId, tag) || done.includes(tag)) continue;
-    if (done.length >= perPass) {
+    if (done.includes(tag)) continue;
+    if (redo ? redo.includes(tag) : hasReleaseAnalysis(db, appId, tag)) continue;
+    if (!redo && done.length >= perPass) {
       console.log(`  Verified versions left for the next pass: ${verified.length - i}.`);
       break;
     }
