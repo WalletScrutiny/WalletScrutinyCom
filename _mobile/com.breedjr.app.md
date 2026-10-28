@@ -5,6 +5,8 @@ authors:
 - leo
 website: https://breedjr.com
 twitter: use_breedjr
+redirect_from:
+- /iphone/com.example.breedjr/
 android:
   appId: com.breedjr.app
   users: 5000
@@ -16,6 +18,18 @@ android:
   meta: ok
   verdict: nowallet
   developerName: Breedjr Technologies
+iphone:
+  appId: com.example.breedjr
+  idd: '6748546759'
+  appCountry: ng
+  released: '2025-09-11T07:00:00Z'
+  updated: 2025-12-09
+  version: '1.3'
+  reviews: 13
+  icon: com.example.breedjr.webp
+  meta: ok
+  verdict: wip
+  developerName: Breedjr Technologies Limited
 
 ---
 

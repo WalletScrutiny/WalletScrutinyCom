@@ -5,6 +5,8 @@ authors:
 - leo
 website: https://masamasa.ng
 twitter: masamasaltd
+redirect_from:
+- /iphone/com.masamasang/
 android:
   appId: com.masamasang
   users: 1000
@@ -15,6 +17,18 @@ android:
   icon: com.masamasang.webp
   meta: ok
   verdict: nosendreceive
+  developerName: MasaMasa
+iphone:
+  appId: com.masamasang
+  idd: '6760827663'
+  appCountry: ng
+  released: '2026-07-16T07:00:00Z'
+  updated: 2026-10-10
+  version: 2.0.11
+  reviews: 7
+  icon: com.masamasang.webp
+  meta: ok
+  verdict: wip
   developerName: MasaMasa
 
 ---

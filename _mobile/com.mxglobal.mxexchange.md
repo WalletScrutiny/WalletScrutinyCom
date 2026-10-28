@@ -4,6 +4,8 @@ date: 2026-10-28
 authors:
 - leo
 website: https://mxglobal.com.my/support/
+redirect_from:
+- /iphone/com.mxglobal.mxexchange/
 android:
   appId: com.mxglobal.mxexchange
   users: 100000
@@ -15,6 +17,18 @@ android:
   meta: ok
   verdict: custodial
   developerName: MX Global
+iphone:
+  appId: com.mxglobal.mxexchange
+  idd: '6446581872'
+  appCountry: my
+  released: '2023-06-25T07:00:00Z'
+  updated: 2026-10-14
+  version: 1.48.44
+  reviews: 46
+  icon: com.mxglobal.mxexchange.webp
+  meta: ok
+  verdict: wip
+  developerName: Mx Global
 
 ---
 

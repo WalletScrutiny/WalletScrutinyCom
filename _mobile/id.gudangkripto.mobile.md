@@ -4,6 +4,8 @@ date: 2026-10-28
 authors:
 - leo
 website: https://gudangkripto.id/
+redirect_from:
+- /iphone/id.gudangkripto.mobileios/
 android:
   appId: id.gudangkripto.mobile
   users: 50000
@@ -15,6 +17,18 @@ android:
   meta: ok
   verdict: custodial
   developerName: PT Gudang Kripto Indonesia
+iphone:
+  appId: id.gudangkripto.mobileios
+  idd: '1612764585'
+  appCountry: id
+  released: '2022-03-22T07:00:00Z'
+  updated: 2026-10-14
+  version: 2.1.2
+  reviews: 64
+  icon: id.gudangkripto.mobileios.webp
+  meta: ok
+  verdict: wip
+  developerName: PT GUDANG KRIPTO INDONESIA
 
 ---
 

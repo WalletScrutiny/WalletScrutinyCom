@@ -5,6 +5,8 @@ authors:
 - leo
 website: https://floq.id/
 twitter: Floq_Id
+redirect_from:
+- /iphone/id.kriptomaksima.app/
 android:
   appId: id.kriptomaksima.app
   users: 1000000
@@ -15,6 +17,18 @@ android:
   meta: ok
   verdict: custodial
   developerName: PT KRIPTO MAKSIMA KOIN
+iphone:
+  appId: id.kriptomaksima.app
+  idd: '6740000653'
+  appCountry: id
+  released: '2025-05-27T07:00:00Z'
+  updated: 2026-10-26
+  version: 1.24.0
+  reviews: 3713
+  icon: id.kriptomaksima.app.webp
+  meta: ok
+  verdict: wip
+  developerName: PT Kripto Maksima Koin
 
 ---
 

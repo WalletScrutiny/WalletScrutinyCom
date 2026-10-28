@@ -5,6 +5,8 @@ authors:
 - leo
 website: https://ajaib.co.id/
 twitter: ajaib_investasi
+redirect_from:
+- /iphone/id.ajaib.co/
 android:
   appId: ajaib.co.id
   users: 10000000
@@ -17,6 +19,18 @@ android:
   meta: ok
   verdict: nosendreceive
   developerName: Ajaib Technologies
+iphone:
+  appId: id.ajaib.co
+  idd: '1473916571'
+  appCountry: id
+  released: '2019-09-05T07:00:00Z'
+  updated: 2026-10-26
+  version: 2.109.1
+  reviews: 27009
+  icon: id.ajaib.co.webp
+  meta: ok
+  verdict: wip
+  developerName: Ajaib Technologies Corporation
 
 ---
 

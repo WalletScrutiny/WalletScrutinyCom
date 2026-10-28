@@ -5,6 +5,8 @@ authors:
 - leo
 website: https://usecrane.co
 twitter: usecrane_
+redirect_from:
+- /iphone/com.crane.bigbird/
 android:
   appId: com.crane.bigbird
   users: 10000
@@ -17,6 +19,18 @@ android:
   meta: ok
   verdict: nosendreceive
   developerName: Crane, Inc
+iphone:
+  appId: com.crane.bigbird
+  idd: '6502242343'
+  appCountry: ng
+  released: '2024-05-05T07:00:00Z'
+  updated: 2026-08-17
+  version: 1.3.6
+  reviews: 160
+  icon: com.crane.bigbird.webp
+  meta: ok
+  verdict: wip
+  developerName: THE BIG BIRD TECH
 
 ---
 

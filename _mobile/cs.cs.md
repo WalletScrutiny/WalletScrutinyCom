@@ -5,6 +5,8 @@ authors:
 - leo
 website: https://coinstash.com.au
 twitter: Coinstash_AU
+redirect_from:
+- /iphone/com.coinstash.coinstash/
 android:
   appId: cs.cs
   users: 10000
@@ -16,6 +18,18 @@ android:
   meta: ok
   verdict: custodial
   developerName: Coinstash Australia
+iphone:
+  appId: com.coinstash.coinstash
+  idd: '1577145939'
+  appCountry: au
+  released: '2022-02-10T08:00:00Z'
+  updated: 2026-10-19
+  version: '64.4'
+  reviews: 709
+  icon: com.coinstash.coinstash.webp
+  meta: ok
+  verdict: wip
+  developerName: TWMT Pty LTD
 
 ---
 

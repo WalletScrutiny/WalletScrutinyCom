@@ -3,6 +3,8 @@ title: Handy Invest
 date: 2026-10-28
 authors:
 - leo
+redirect_from:
+- /iphone/com.ibkr.handyinvest/
 android:
   appId: com.ibkr.handyinvest.app
   users: 1000
@@ -13,6 +15,18 @@ android:
   icon: com.ibkr.handyinvest.app.webp
   meta: ok
   verdict: custodial
+  developerName: IB Exchange Corp.
+iphone:
+  appId: com.ibkr.handyinvest
+  idd: '1641664193'
+  appCountry: us
+  released: '2022-09-07T07:00:00Z'
+  updated: 2026-01-19
+  version: '10.06'
+  reviews: 0
+  icon: com.ibkr.handyinvest.webp
+  meta: ok
+  verdict: wip
   developerName: IB Exchange Corp.
 
 ---

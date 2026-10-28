@@ -5,6 +5,8 @@ authors:
 - leo
 website: https://breez.technology
 twitter: breez_tech
+redirect_from:
+- /iphone/technology.breez.glow/
 android:
   appId: technology.breez.glow
   users: 1000
@@ -16,6 +18,18 @@ android:
   meta: ok
   verdict: custodial
   developerName: Breez Development LTD
+iphone:
+  appId: technology.breez.glow
+  idd: '6762465698'
+  appCountry: us
+  released: '2026-07-30T07:00:00Z'
+  updated: 2026-09-24
+  version: 1.3.0
+  reviews: 4
+  icon: technology.breez.glow.webp
+  meta: ok
+  verdict: wip
+  developerName: BREEZ DEVELOPMENT LTD
 
 ---
 

@@ -5,6 +5,8 @@ authors:
 - leo
 website: https://www.bittrade.co.jp/
 twitter: BitTrade_jp
+redirect_from:
+- /iphone/jp.co.huobi.bittrade/
 android:
   appId: jp.co.huobi.japan
   users: 100000
@@ -14,6 +16,18 @@ android:
   icon: jp.co.huobi.japan.webp
   meta: ok
   verdict: custodial
+  developerName: BitTrade Inc.
+iphone:
+  appId: jp.co.huobi.bittrade
+  idd: '1449925793'
+  appCountry: jp
+  released: '2019-01-26T05:58:15Z'
+  updated: 2026-10-21
+  version: 3.19.01
+  reviews: 2149
+  icon: jp.co.huobi.bittrade.webp
+  meta: ok
+  verdict: wip
   developerName: BitTrade Inc.
 
 ---

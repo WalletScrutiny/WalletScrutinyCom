@@ -5,6 +5,8 @@ authors:
 - leo
 website: https://yesaapp.ng
 twitter: yesaapp
+redirect_from:
+- /iphone/com.app.yesa/
 android:
   appId: com.app.yesa
   users: 10000
@@ -15,6 +17,18 @@ android:
   meta: ok
   verdict: custodial
   developerName: Yesa
+iphone:
+  appId: com.app.yesa
+  idd: '6749385545'
+  appCountry: ng
+  released: '2025-08-06T07:00:00Z'
+  updated: 2026-10-11
+  version: 1.0.13
+  reviews: 11
+  icon: com.app.yesa.webp
+  meta: ok
+  verdict: wip
+  developerName: Blue Zenith Tech
 
 ---
 

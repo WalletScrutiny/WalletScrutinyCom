@@ -5,6 +5,8 @@ authors:
 - leo
 website: https://kingcards.ng
 twitter: KwiqNg
+redirect_from:
+- /iphone/com.kingcards.kingcards/
 android:
   appId: com.kingcards.kingcards
   users: 10000
@@ -17,6 +19,18 @@ android:
   meta: ok
   verdict: custodial
   developerName: KWIQ
+iphone:
+  appId: com.kingcards.kingcards
+  idd: '1570500302'
+  appCountry: ng
+  released: '2021-07-17T07:00:00Z'
+  updated: 2026-10-24
+  version: 4.0.29
+  reviews: 86
+  icon: com.kingcards.kingcards.webp
+  meta: ok
+  verdict: wip
+  developerName: Initiative for educational remediation innovation and child support
 
 ---
 

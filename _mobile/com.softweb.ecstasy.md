@@ -4,6 +4,8 @@ date: 2026-10-28
 authors:
 - leo
 website: https://ecstasynigeria.com/privacy
+redirect_from:
+- /iphone/com.ecstasy.app/
 android:
   appId: com.softweb.ecstasy
   users: 100000
@@ -16,6 +18,18 @@ android:
   meta: ok
   verdict: nosendreceive
   developerName: Ecstasy Nigeria
+iphone:
+  appId: com.ecstasy.app
+  idd: '6448960100'
+  appCountry: ng
+  released: '2023-05-24T07:00:00Z'
+  updated: 2026-10-27
+  version: 2.8.3
+  reviews: 47
+  icon: com.ecstasy.app.webp
+  meta: ok
+  verdict: wip
+  developerName: Ecstasy Data Nigeria Limited
 
 ---
 

@@ -4,6 +4,8 @@ date: 2026-10-28
 authors:
 - leo
 website: https://www.bitpoint.co.jp/
+redirect_from:
+- /iphone/jp.co.bitpoint.strade/
 android:
   appId: jp.co.bitpoint.bitpoint
   users: 100000
@@ -14,6 +16,18 @@ android:
   meta: ok
   verdict: custodial
   developerName: SBI VC Trade Co., Ltd.
+iphone:
+  appId: jp.co.bitpoint.strade
+  idd: '1517332591'
+  appCountry: jp
+  released: '2020-07-31T07:00:00Z'
+  updated: 2026-10-08
+  version: 1.3.42
+  reviews: 425
+  icon: jp.co.bitpoint.strade.webp
+  meta: ok
+  verdict: wip
+  developerName: SBI VC TRADE CO., LTD.
 
 ---
 

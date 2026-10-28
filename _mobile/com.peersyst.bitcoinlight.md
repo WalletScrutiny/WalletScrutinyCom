@@ -3,6 +3,8 @@ title: Bitcoin Light - Crypto Wallet
 date: 2026-10-28
 authors:
 - leo
+redirect_from:
+- /iphone/com.peersyst.bitcoin-light/
 android:
   appId: com.peersyst.bitcoinlight
   users: 5000
@@ -15,6 +17,18 @@ android:
   meta: ok
   verdict: nosource
   developerName: Peersyst Technology
+iphone:
+  appId: com.peersyst.bitcoin-light
+  idd: '6753018094'
+  appCountry: us
+  released: '2026-01-22T08:00:00Z'
+  updated: 2026-09-17
+  version: 1.4.3
+  reviews: 1
+  icon: com.peersyst.bitcoin-light.webp
+  meta: ok
+  verdict: wip
+  developerName: Peersyst
 
 ---
 

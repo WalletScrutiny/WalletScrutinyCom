@@ -5,6 +5,8 @@ authors:
 - leo
 website: https://lootbase.com
 twitter: lootbaseX
+redirect_from:
+- /iphone/com.lootbase/
 android:
   appId: com.lootbase
   users: 5000
@@ -16,6 +18,18 @@ android:
   icon: com.lootbase.webp
   meta: ok
   verdict: nobtc
+  developerName: Lootbase
+iphone:
+  appId: com.lootbase
+  idd: '6742149218'
+  appCountry: us
+  released: '2025-04-28T07:00:00Z'
+  updated: 2026-02-12
+  version: 1.2.2
+  reviews: 53
+  icon: com.lootbase.webp
+  meta: ok
+  verdict: wip
   developerName: Lootbase
 
 ---

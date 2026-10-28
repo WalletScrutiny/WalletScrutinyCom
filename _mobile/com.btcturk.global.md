@@ -4,6 +4,8 @@ date: 2026-10-28
 authors:
 - leo
 website: https://global.btcturk.com
+redirect_from:
+- /iphone/com.btcturk.global/
 android:
   appId: com.btcturk.global
   users: 10000
@@ -13,6 +15,18 @@ android:
   icon: com.btcturk.global.webp
   meta: ok
   verdict: custodial
+  developerName: BtcTurk Global Inc.
+iphone:
+  appId: com.btcturk.global
+  idd: '6744916635'
+  appCountry: tr
+  released: '2025-08-29T07:00:00Z'
+  updated: 2026-10-13
+  version: 1.1.7
+  reviews: 214
+  icon: com.btcturk.global.webp
+  meta: ok
+  verdict: wip
   developerName: BtcTurk Global Inc.
 
 ---

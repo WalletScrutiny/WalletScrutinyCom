@@ -5,6 +5,8 @@ authors:
 - leo
 website: https://www.quickchain.app
 twitter: quickchainapp
+redirect_from:
+- /iphone/com.quickchain.ios/
 android:
   appId: com.quickchain.app
   users: 10000
@@ -17,6 +19,18 @@ android:
   meta: ok
   verdict: nosendreceive
   developerName: QUCHANGE TECHNOLOGIES
+iphone:
+  appId: com.quickchain.ios
+  idd: '6738952667'
+  appCountry: ng
+  released: '2025-01-24T08:00:00Z'
+  updated: 2026-08-31
+  version: 1.3.7
+  reviews: 34
+  icon: com.quickchain.ios.webp
+  meta: ok
+  verdict: wip
+  developerName: Quchange
 
 ---
 

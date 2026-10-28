@@ -5,6 +5,8 @@ authors:
 - leo
 website: https://tria.so
 twitter: useTria
+redirect_from:
+- /iphone/com.tria.v2/
 android:
   appId: com.tria.v2
   users: 100000
@@ -16,6 +18,18 @@ android:
   icon: com.tria.v2.webp
   meta: ok
   verdict: custodial
+  developerName: Threely Dimensions Inc.
+iphone:
+  appId: com.tria.v2
+  idd: '6745908653'
+  appCountry: us
+  released: '2025-07-18T07:00:00Z'
+  updated: 2026-10-27
+  version: 0.0.75
+  reviews: 39
+  icon: com.tria.v2.webp
+  meta: ok
+  verdict: wip
   developerName: Threely Dimensions Inc.
 
 ---

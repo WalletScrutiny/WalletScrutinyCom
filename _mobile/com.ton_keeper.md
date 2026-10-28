@@ -5,6 +5,8 @@ authors:
 - leo
 website: https://tonkeeper.com
 twitter: keeper_wallet
+redirect_from:
+- /iphone/com.jbig.tonkeeper/
 android:
   appId: com.ton_keeper
   users: 10000000
@@ -17,6 +19,18 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Ton Apps Limited
+iphone:
+  appId: com.jbig.tonkeeper
+  idd: '1587742107'
+  appCountry: us
+  released: '2021-10-12T07:00:00Z'
+  updated: 2026-10-28
+  version: 26.10.4
+  reviews: 3894
+  icon: com.jbig.tonkeeper.webp
+  meta: ok
+  verdict: wip
+  developerName: TON APPS UK LTD
 
 ---
 

@@ -4,6 +4,8 @@ date: 2026-10-28
 authors:
 - leo
 website: https://www.satscapital.com.br
+redirect_from:
+- /iphone/com.satscapital.satsClient/
 android:
   appId: com.satscapital.satscompanyclient
   users: 10000
@@ -15,6 +17,18 @@ android:
   meta: ok
   verdict: nosendreceive
   developerName: Sats Capital
+iphone:
+  appId: com.satscapital.satsClient
+  idd: '6737625497'
+  appCountry: br
+  released: '2024-11-04T08:00:00Z'
+  updated: 2026-10-16
+  version: 2.18.3
+  reviews: 15
+  icon: com.satscapital.satsClient.webp
+  meta: ok
+  verdict: wip
+  developerName: SatsCapital
 
 ---
 

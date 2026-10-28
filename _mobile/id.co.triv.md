@@ -4,6 +4,8 @@ date: 2026-10-28
 authors:
 - leo
 website: https://triv.co.id
+redirect_from:
+- /iphone/id.co.triv/
 android:
   appId: id.co.triv
   users: 5000000
@@ -14,6 +16,18 @@ android:
   meta: ok
   verdict: custodial
   developerName: Triv
+iphone:
+  appId: id.co.triv
+  idd: '1470919460'
+  appCountry: id
+  released: '2020-01-15T08:00:00Z'
+  updated: 2026-10-15
+  version: 2.3.107
+  reviews: 3181
+  icon: id.co.triv.webp
+  meta: ok
+  verdict: wip
+  developerName: TIGA INTI UTAMA, PT
 
 ---
 

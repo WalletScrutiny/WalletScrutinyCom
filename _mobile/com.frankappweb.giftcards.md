@@ -4,6 +4,8 @@ date: 2026-10-28
 authors:
 - leo
 website: https://sogo.africa/
+redirect_from:
+- /iphone/com.frankappweb.sogo/
 android:
   appId: com.frankappweb.giftcards
   users: 50000
@@ -16,6 +18,18 @@ android:
   meta: ok
   verdict: nosendreceive
   developerName: FraNKAPPWeb Technologies
+iphone:
+  appId: com.frankappweb.sogo
+  idd: '6796819536'
+  appCountry: ng
+  released: '2026-09-18T07:00:00Z'
+  updated: 2026-10-26
+  version: 3.0.26
+  reviews: 3
+  icon: com.frankappweb.sogo.webp
+  meta: ok
+  verdict: wip
+  developerName: Frankappweb Technologies Ltd
 
 ---
 

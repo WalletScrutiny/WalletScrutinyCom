@@ -4,6 +4,8 @@ date: 2026-10-28
 authors:
 - leo
 website: https://coin.z.com/jp/
+redirect_from:
+- /iphone/com.z.coin.jp.wallet/
 android:
   appId: com.gmowallet.mobilewallet
   users: 100000
@@ -13,6 +15,18 @@ android:
   icon: com.gmowallet.mobilewallet.webp
   meta: ok
   verdict: custodial
+  developerName: GMO Coin, Inc.
+iphone:
+  appId: com.z.coin.jp.wallet
+  idd: '1388836948'
+  appCountry: jp
+  released: '2018-06-23T14:08:22Z'
+  updated: 2026-10-07
+  version: 5.20.2
+  reviews: 12281
+  icon: com.z.coin.jp.wallet.webp
+  meta: ok
+  verdict: wip
   developerName: GMO Coin, Inc.
 
 ---

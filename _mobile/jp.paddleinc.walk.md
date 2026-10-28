@@ -4,6 +4,8 @@ date: 2026-10-28
 authors:
 - leo
 website: https://paddle-inc.jp/
+redirect_from:
+- /iphone/jp.paddle-inc.walk/
 android:
   appId: jp.paddleinc.walk
   users: 500000
@@ -16,6 +18,18 @@ android:
   meta: ok
   verdict: custodial
   developerName: Paddle,inc
+iphone:
+  appId: jp.paddle-inc.walk
+  idd: '1634543016'
+  appCountry: jp
+  released: '2022-08-15T07:00:00Z'
+  updated: 2026-10-26
+  version: 1.0.169
+  reviews: 77368
+  icon: jp.paddle-inc.walk.webp
+  meta: ok
+  verdict: wip
+  developerName: Paddle.inc
 
 ---
 

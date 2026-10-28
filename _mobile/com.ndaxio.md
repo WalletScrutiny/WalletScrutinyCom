@@ -4,6 +4,8 @@ date: 2026-10-28
 authors:
 - leo
 website: https://ndax.io
+redirect_from:
+- /iphone/com.starpoint.ndax/
 android:
   appId: com.ndaxio
   users: 100000
@@ -16,6 +18,18 @@ android:
   meta: ok
   verdict: custodial
   developerName: NDAX INC
+iphone:
+  appId: com.starpoint.ndax
+  idd: '1412219882'
+  appCountry: ca
+  released: '2018-09-22T20:28:43Z'
+  updated: 2026-10-27
+  version: 1.36.2
+  reviews: 15303
+  icon: com.starpoint.ndax.webp
+  meta: ok
+  verdict: wip
+  developerName: National Digital Asset Exchange
 
 ---
 

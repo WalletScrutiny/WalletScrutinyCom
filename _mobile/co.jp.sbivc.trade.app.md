@@ -5,6 +5,8 @@ authors:
 - leo
 website: https://www.sbivc.co.jp/
 twitter: sbivc_official
+redirect_from:
+- /iphone/co.jp.sbivc.trade.app/
 android:
   appId: co.jp.sbivc.trade.app
   users: 100000
@@ -15,6 +17,18 @@ android:
   meta: ok
   verdict: custodial
   developerName: SBI VC Trade Co., Ltd.
+iphone:
+  appId: co.jp.sbivc.trade.app
+  idd: '6639604109'
+  appCountry: jp
+  released: '2024-10-20T07:00:00Z'
+  updated: 2026-10-28
+  version: 3.2.9
+  reviews: 376
+  icon: co.jp.sbivc.trade.app.webp
+  meta: ok
+  verdict: wip
+  developerName: SBI VC TRADE CO., LTD.
 
 ---
 

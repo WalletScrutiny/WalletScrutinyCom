@@ -5,6 +5,8 @@ authors:
 - leo
 website: https://lace.io
 twitter: lace_io
+redirect_from:
+- /iphone/io.lace.mobilewallet/
 android:
   appId: io.lace.mobilewallet
   users: 5000
@@ -17,6 +19,18 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: IOHK
+iphone:
+  appId: io.lace.mobilewallet
+  idd: '6743856101'
+  appCountry: us
+  released: '2026-04-20T07:00:00Z'
+  updated: 2026-08-24
+  version: 2.2.0
+  reviews: 16
+  icon: io.lace.mobilewallet.webp
+  meta: ok
+  verdict: wip
+  developerName: Input Output HK Limited
 
 ---
 

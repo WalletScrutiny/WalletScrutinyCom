@@ -5,6 +5,8 @@ authors:
 - leo
 website: https://www.bleap.finance
 twitter: BleapApp
+redirect_from:
+- /iphone/com.bleap/
 android:
   appId: com.bleap
   users: 50000
@@ -16,6 +18,18 @@ android:
   icon: com.bleap.webp
   meta: ok
   verdict: nobtc
+  developerName: Bleap
+iphone:
+  appId: com.bleap
+  idd: '6467641662'
+  appCountry: gb
+  released: '2024-08-19T07:00:00Z'
+  updated: 2026-10-22
+  version: 1.55.0
+  reviews: 18
+  icon: com.bleap.webp
+  meta: ok
+  verdict: wip
   developerName: Bleap
 
 ---

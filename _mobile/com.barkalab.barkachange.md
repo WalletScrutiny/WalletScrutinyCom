@@ -5,6 +5,8 @@ authors:
 - leo
 website: https://www.barkachange.com
 twitter: BarkaChange
+redirect_from:
+- /iphone/com.barkalab.barkachanges/
 android:
   appId: com.barkalab.barkachange
   users: 50000
@@ -16,6 +18,18 @@ android:
   icon: com.barkalab.barkachange.webp
   meta: ok
   verdict: nowallet
+  developerName: BarkaLab
+iphone:
+  appId: com.barkalab.barkachanges
+  idd: '6444768314'
+  appCountry: bj
+  released: '2022-12-01T08:00:00Z'
+  updated: 2026-10-10
+  version: 2.1.4
+  reviews: 19
+  icon: com.barkalab.barkachanges.webp
+  meta: ok
+  verdict: wip
   developerName: BarkaLab
 
 ---

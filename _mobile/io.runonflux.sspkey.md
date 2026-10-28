@@ -5,6 +5,8 @@ authors:
 - leo
 website: https://sspwallet.io
 twitter: sspwallet_io
+redirect_from:
+- /iphone/io.runonflux.sspkey/
 android:
   appId: io.runonflux.sspkey
   users: 1000
@@ -16,6 +18,18 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Influx Technologies USA
+iphone:
+  appId: io.runonflux.sspkey
+  idd: '6463717332'
+  appCountry: us
+  released: '2024-01-24T08:00:00Z'
+  updated: 2026-09-02
+  version: v2.1.1
+  reviews: 1
+  icon: io.runonflux.sspkey.webp
+  meta: ok
+  verdict: wip
+  developerName: Influx Technologies Limited
 
 ---
 

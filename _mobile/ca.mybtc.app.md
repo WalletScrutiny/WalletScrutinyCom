@@ -5,6 +5,8 @@ authors:
 - leo
 website: https://mybtc.ca/
 twitter: MyBTCca
+redirect_from:
+- /iphone/ca.mybtc.app/
 android:
   appId: ca.mybtc.app
   users: 1000
@@ -14,6 +16,18 @@ android:
   icon: ca.mybtc.app.webp
   meta: ok
   verdict: nowallet
+  developerName: MyBTC.ca
+iphone:
+  appId: ca.mybtc.app
+  idd: '6470927556'
+  appCountry: ca
+  released: '2024-03-05T08:00:00Z'
+  updated: 2026-09-29
+  version: 1.0.48
+  reviews: 42
+  icon: ca.mybtc.app.webp
+  meta: ok
+  verdict: wip
   developerName: MyBTC.ca
 
 ---

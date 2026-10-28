@@ -4,6 +4,8 @@ date: 2026-10-28
 authors:
 - leo
 twitter: qubetics
+redirect_from:
+- /iphone/com.qubetics.wallet/
 android:
   appId: com.qubetics.wallet
   users: 5000
@@ -16,6 +18,18 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Qubetics
+iphone:
+  appId: com.qubetics.wallet
+  idd: '6746333540'
+  appCountry: us
+  released: '2025-11-14T08:00:00Z'
+  updated: 2026-03-06
+  version: 1.0.1
+  reviews: 29
+  icon: com.qubetics.wallet.webp
+  meta: ok
+  verdict: wip
+  developerName: Qubetics Labs LLC
 
 ---
 

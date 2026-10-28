@@ -5,6 +5,8 @@ authors:
 - leo
 website: https://cocos.capital
 twitter: cocoscap
+redirect_from:
+- /iphone/com.cocoscrypto.app/
 android:
   appId: com.cocoscrypto.app
   users: 5000
@@ -15,6 +17,18 @@ android:
   meta: ok
   verdict: custodial
   developerName: Cocos Capital Servicios Digitales SA
+iphone:
+  appId: com.cocoscrypto.app
+  idd: '6800873587'
+  appCountry: ar
+  released: '2026-09-25T07:00:00Z'
+  updated: 2026-10-21
+  version: 3.34.0
+  reviews: 9
+  icon: com.cocoscrypto.app.webp
+  meta: ok
+  verdict: wip
+  developerName: Cocos Capital Servicios Digitales
 
 ---
 

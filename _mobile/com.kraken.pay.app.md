@@ -5,6 +5,8 @@ authors:
 - leo
 website: https://www.kraken.com
 twitter: Krak
+redirect_from:
+- /iphone/com.kraken.pay.app/
 android:
   appId: com.kraken.pay.app
   users: 500000
@@ -17,6 +19,18 @@ android:
   meta: ok
   verdict: custodial
   developerName: Payward, Inc.
+iphone:
+  appId: com.kraken.pay.app
+  idd: '6738051700'
+  appCountry: us
+  released: '2025-06-26T07:00:00Z'
+  updated: 2026-10-27
+  version: 2.1.0
+  reviews: 758
+  icon: com.kraken.pay.app.webp
+  meta: ok
+  verdict: wip
+  developerName: Kraken
 
 ---
 

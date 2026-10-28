@@ -5,6 +5,8 @@ authors:
 - leo
 website: https://www.lolli.com/help
 twitter: trylolli
+redirect_from:
+- /iphone/com.lolli.Lolli/
 android:
   appId: com.lolli.Lolli
   users: 50000
@@ -16,6 +18,18 @@ android:
   icon: com.lolli.Lolli.webp
   meta: ok
   verdict: nosendreceive
+  developerName: Lolli Holdings, Inc
+iphone:
+  appId: com.lolli.Lolli
+  idd: '1477476830'
+  appCountry: us
+  released: '2020-06-04T07:00:00Z'
+  updated: 2026-10-19
+  version: 4.3.9
+  reviews: 19103
+  icon: com.lolli.Lolli.webp
+  meta: ok
+  verdict: wip
   developerName: Lolli Holdings, Inc
 
 ---

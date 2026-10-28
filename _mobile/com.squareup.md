@@ -4,6 +4,8 @@ date: 2026-10-28
 authors:
 - leo
 website: https://square.com/help
+redirect_from:
+- /iphone/com.squareup.square/
 android:
   appId: com.squareup
   users: 10000000
@@ -15,6 +17,18 @@ android:
   icon: com.squareup.webp
   meta: ok
   verdict: custodial
+  developerName: Block, Inc.
+iphone:
+  appId: com.squareup.square
+  idd: '335393788'
+  appCountry: us
+  released: '2010-04-03T04:42:05Z'
+  updated: 2026-10-26
+  version: '7.31'
+  reviews: 606921
+  icon: com.squareup.square.webp
+  meta: ok
+  verdict: wip
   developerName: Block, Inc.
 
 ---

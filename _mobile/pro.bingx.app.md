@@ -5,6 +5,8 @@ authors:
 - leo
 website: https://www.bingx.pro
 twitter: BingXOfficial
+redirect_from:
+- /iphone/pro.bingx.app/
 android:
   appId: pro.bingx.app
   users: 100000
@@ -17,6 +19,18 @@ android:
   meta: ok
   verdict: custodial
   developerName: BINGX GLOBAL
+iphone:
+  appId: pro.bingx.app
+  idd: '1672172781'
+  appCountry: in
+  released: '2023-12-04T08:00:00Z'
+  updated: 2026-10-19
+  version: 5.4.0
+  reviews: 388
+  icon: pro.bingx.app.webp
+  meta: ok
+  verdict: wip
+  developerName: BINGX EU EAB
 
 ---
 
