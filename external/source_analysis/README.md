@@ -268,6 +268,46 @@ table is what says "analysed and nothing found", "failed" or "never analysed",
 and when. Releases stored before the table existed get a row from what their
 dependency rows remember (`analyser = before-analyses-table`, no commit).
 
+### Rerunning wallets
+
+To have the service analyse wallets again (after an analyser fix, say), mark
+them; the next timer pass reruns each marked wallet the way `index.mjs
+--reanalyse` does: the default branch, the newest release, every release
+analysed before, and all verified versions with no per-pass cap. Only the pass
+analyses, so nothing runs next to it, and the page keeps a wallet's current
+results until the rerun replaces them.
+
+Run the commands as the service user, against the service's database:
+
+```bash
+cd /opt/source_analysis
+DB=/var/lib/walletscrutiny-source-analysis/assets.db
+
+# mark one or more wallets (appId or an alias; repeat --app-id)
+sudo -u build-server env SOURCE_ANALYSIS_DB_PATH=$DB node reanalyse-cli.mjs --app-id com.example.wallet --app-id org.example.other
+
+# list the pending marks, oldest first
+sudo -u build-server env SOURCE_ANALYSIS_DB_PATH=$DB node reanalyse-cli.mjs --list
+
+# take marks back before a pass reaches them
+sudo -u build-server env SOURCE_ANALYSIS_DB_PATH=$DB node reanalyse-cli.mjs --clear --app-id com.example.wallet
+
+# see which wallets a pass is rerunning (each log line starts with its appId)
+sudo journalctl -u walletscrutiny-source-analysis.service -f | grep -A3 'Marked for a rerun'
+```
+
+- Marking only writes a row into the `reanalyse_requests` table, so it is safe
+  while a pass runs. Marking a wallet again just moves its mark to now.
+- The pass removes a wallet's mark once that wallet finished without an error.
+  A wallet that failed keeps its mark and is retried by the next pass. A mark
+  made while the wallet was already running also stays, for the next pass.
+- An appId the database has never seen gets a warning (probably a typo) but is
+  marked anyway. A wallet outside the pass's scope (see
+  [Which apps are analysed](#which-apps-are-analysed)) is never reached, so its
+  mark stays until you `--clear` it.
+- A rerun clones every release again, so it takes a while per wallet; the
+  hourly advisory refresh skips while the pass holds the lock.
+
 ### Static export
 
 With `SOURCE_ANALYSIS_EXPORT_DIR` set, each pass ends by writing a static JSON
@@ -437,19 +477,7 @@ records the release as failed and leaves its old dependency rows in place.
 node index.mjs --githubToken ghp_xxx --app-id com.example.wallet --reanalyse
 ```
 
-On the server, mark the wallets instead and let the next timer pass rerun
-them, so only one process analyses. `reanalyse-cli.mjs` only writes the mark
-(table `reanalyse_requests`), which is safe while a pass runs; the pass runs a
-marked wallet (appId or alias) as `--reanalyse` would and removes its mark once
-the wallet finished without an error. A mark made while that wallet was
-already running stays for the next pass.
-
-```bash
-cd /opt/source_analysis
-sudo -u build-server env SOURCE_ANALYSIS_DB_PATH=/var/lib/walletscrutiny-source-analysis/assets.db \
-  node reanalyse-cli.mjs --app-id com.example.wallet --app-id org.example.other
-# --list shows the pending marks, --clear --app-id <id> takes one back
-```
+On the server, use [Rerunning wallets](#rerunning-wallets) instead.
 
 ## Configuration
 
