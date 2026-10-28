@@ -129,21 +129,21 @@ test('inputs no lockfile lists unlock a fully locked repository (Leo, 2026-10-26
 
 test('a lockfile nothing reads is unknown, not locked (Danny, 2026-10-28)', () => {
   const verdictOf = (files) => lockCoverage(findManifests(repo(files))).verdict;
-  assert.equal(verdictOf({ 'pubspec.yaml': 'dependencies:', 'pubspec.lock': '' }), 'unknown');
   assert.equal(verdictOf({ 'go.mod': 'module x', 'go.sum': '' }), 'unknown');
   assert.equal(verdictOf({ 'package.json': NPM_DEPS, 'pnpm-lock.yaml': '' }), 'unknown');
   assert.equal(verdictOf({ 'pyproject.toml': '[tool.poetry.dependencies]\nx = "1"\n', 'poetry.lock': '' }), 'unknown');
   // the ones pinning parses stay locked
   assert.equal(verdictOf({ 'package.json': NPM_DEPS, 'yarn.lock': '' }), 'locked');
   assert.equal(verdictOf({ 'Cargo.toml': '[package]', 'Cargo.lock': '' }), 'locked');
+  assert.equal(verdictOf({ 'pubspec.yaml': 'dependencies:', 'pubspec.lock': '' }), 'locked');
   // one unread lockfile is enough, and it is named
-  const c = lockCoverage(findManifests(repo({ 'package.json': NPM_DEPS, 'package-lock.json': '{}', 'mobile/pubspec.yaml': 'dependencies:', 'mobile/pubspec.lock': '' })));
+  const c = lockCoverage(findManifests(repo({ 'package.json': NPM_DEPS, 'package-lock.json': '{}', 'mobile/go.mod': 'module x', 'mobile/go.sum': '' })));
   assert.equal(c.verdict, 'unknown');
-  assert.deepEqual(c.unread, [{ ecosystem: 'pub', manifest: 'mobile/pubspec.yaml', lockfile: 'mobile/pubspec.lock' }]);
+  assert.deepEqual(c.unread, [{ ecosystem: 'go', manifest: 'mobile/go.mod', lockfile: 'mobile/go.sum' }]);
   // a missing lockfile still beats an unread one
   assert.equal(verdictOf({ 'package.json': NPM_DEPS, 'go.mod': 'module x', 'go.sum': '' }), 'unlocked');
   // a sample app's unread lockfile does not count
-  assert.equal(verdictOf({ 'package.json': NPM_DEPS, 'yarn.lock': '', 'example/pubspec.yaml': 'dependencies:', 'example/pubspec.lock': '' }), 'locked');
+  assert.equal(verdictOf({ 'package.json': NPM_DEPS, 'yarn.lock': '', 'example/go.mod': 'module x', 'example/go.sum': '' }), 'locked');
 });
 
 test('a C/C++ build is unknown: tooling manifests cannot make firmware look locked', () => {
@@ -186,10 +186,14 @@ test('a pub workspace member is locked by the workspace root (Bull Bitcoin v6.15
 test('readers see a shared unread lockfile once', () => {
   const files = { 'pubspec.yaml': 'workspace:\n  - a\n  - b\ndependencies:', 'pubspec.lock': '',
     'a/pubspec.yaml': 'resolution: workspace', 'b/pubspec.yaml': 'resolution: workspace' };
-  const stored = lockCoverage(findManifests(repo(files)));
+  // stored before pinning read pubspec.lock: no `read` flag, no rows
+  const fresh = lockCoverage(findManifests(repo(files)));
+  const stored = { ...fresh, manifests: fresh.manifests.map(({ read, ...m }) => m) };
   const r = coverageForReaders(stored);
   assert.deepEqual(r.unread.map(u => u.lockfile), ['pubspec.lock']);
   assert.equal(r.unreadCount, 1);
+  // analysed since: read, so locked
+  assert.equal(coverageForReaders(fresh).verdict, 'locked');
 });
 
 // AirGap Vault v3.35.0 (2026-10-28): a helper script's requirements.txt, the

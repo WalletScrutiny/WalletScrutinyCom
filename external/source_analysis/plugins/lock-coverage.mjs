@@ -22,7 +22,7 @@ import { CONTAINER_FILE_RE, LOOPBACK_URL_RE } from './oob-downloads.mjs';
  * may be what builds the release.
  *
  * A lockfile counts only if the pinning step reads it (Danny, 2026-10-28).
- * pubspec.lock, go.sum, Podfile.lock, Package.resolved, pnpm-lock.yaml,
+ * go.sum, Podfile.lock, Package.resolved, pnpm-lock.yaml,
  * poetry.lock and the like are found but not parsed: their packages are in no
  * row and were never checked. Those manifests are 'unread', and a release
  * whose product rests on one is 'unknown', never 'locked'. So is a C/C++
@@ -46,8 +46,13 @@ const NOT_PRODUCT_DIR = /^(examples?|samples?|demos?|tests?|__tests__|fixtures?|
 
 // The lockfiles plugins/pinning.mjs parses. Gradle is read from its build
 // files whatever lockfile it has (pinning grades every declaration).
-const READ_LOCKFILE = /(^|\/)(package-lock\.json|yarn\.lock|Cargo\.lock|requirements[^/]*\.txt)$/;
+const READ_LOCKFILE = /(^|\/)(package-lock\.json|yarn\.lock|Cargo\.lock|pubspec\.lock|requirements[^/]*\.txt)$/;
 export const isRead = (m) => m.ecosystem === 'gradle' || (!!m.lockfile && READ_LOCKFILE.test(m.lockfile));
+// Each stored manifest records whether pinning read its lockfile (`read`,
+// since 2026-10-28). A result stored before that has no rows for a lockfile
+// pinning learned to read later, so regrading it must not call it read.
+const READ_SINCE_RECORDED = /(^|\/)pubspec\.lock$/;
+const wasRead = (m) => typeof m.read === 'boolean' ? m.read : isRead(m) && !READ_SINCE_RECORDED.test(m.lockfile || '');
 
 // A container for development only: it never builds the release.
 const DEV_CONTAINER_FILE = /^((docker-)?compose[^/]*\.ya?ml|(Dockerfile|Containerfile)[.-](dev|devel|development|local|debug|tests?|e2e)([.-][^/]*)?)$/i;
@@ -248,6 +253,7 @@ export function lockCoverage(manifests, pinning = [], unlisted = unlistedInputs(
       f.count++;
     }
   }
+  manifests = manifests.map(m => (m.lockfile ? { ...m, read: isRead(m) } : m));
   const g = grade(manifests, floatingRows, unlisted);
   return { verdict: g.verdict, manifests, missing: g.missing.length, unread: g.unread, floatingRows, floatingFiles, unlisted };
 }
@@ -255,7 +261,7 @@ export function lockCoverage(manifests, pinning = [], unlisted = unlistedInputs(
 function grade(manifests, floatingRows, unlisted) {
   const product = manifests.filter(m => m.product);
   const missing = product.filter(m => !m.lockfile && !m.exactDeclarations && !m.nativeBuild);
-  const unread = product.filter(m => m.nativeBuild || (m.lockfile && !isRead(m))).map(m => ({ ecosystem: m.ecosystem, manifest: m.manifest, lockfile: m.lockfile }));
+  const unread = product.filter(m => m.nativeBuild || (m.lockfile && !wasRead(m))).map(m => ({ ecosystem: m.ecosystem, manifest: m.manifest, lockfile: m.lockfile }));
   const floating = Object.values(floatingRows).reduce((n, v) => n + v, 0);
   const outside = unlisted.downloadCount + unlisted.binaryCount;
   const verdict = missing.length || floating || outside ? 'unlocked' : unread.length ? 'unknown' : (product.length ? 'locked' : 'none');
