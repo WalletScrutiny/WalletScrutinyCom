@@ -93,8 +93,9 @@ export const GONE_EOL_YEARS = Number(process.env.SOURCE_ANALYSIS_GONE_EOL_YEARS 
 // Verified versions not analysed yet, analysed per repository and pass,
 // newest verification first; the backlog drains over the next passes.
 export const VERIFIED_PER_PASS = Math.max(0, Math.floor(Number(process.env.SOURCE_ANALYSIS_VERIFIED_PER_PASS ?? 3)) || 0);
-// Shared npm/yarn/gradle/pip caches mounted into every container; wiped when
-// they grow past the cap (index.mjs calls pruneCache after each pass).
+// npm/yarn/gradle/pip caches, one directory per wallet under wallets/, each
+// mounted only into that wallet's container; past the cap the least recently
+// used ones are wiped (index.mjs calls pruneCache after each pass).
 export const CACHE_DIR = process.env.SOURCE_ANALYSIS_CACHE_DIR || join(__dirname, 'cache');
 export const CACHE_MAX_BYTES = Number(process.env.SOURCE_ANALYSIS_CACHE_MAX_GB || 20) * 1e9;
 export const YEARS_FOR_OUTDATED_CHECK = 5; // Report dependencies not updated in last X years

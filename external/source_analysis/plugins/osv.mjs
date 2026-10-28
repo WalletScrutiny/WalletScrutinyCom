@@ -22,7 +22,7 @@ const REQUEST_TIMEOUT_MS = 30000;
 const RETRIES = 2;
 
 // test 7 ecosystem -> OSV ecosystem
-const OSV_ECOSYSTEMS = { npm: 'npm', pip: 'PyPI', gradle: 'Maven', cargo: 'crates.io' };
+const OSV_ECOSYSTEMS = { npm: 'npm', pip: 'PyPI', gradle: 'Maven', cargo: 'crates.io', pub: 'Pub' };
 const UNCHECKABLE_TIERS = new Set(['floating', 'unversioned', 'source-ref-pinned']);
 const SEVERITY_ORDER = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown'];
 

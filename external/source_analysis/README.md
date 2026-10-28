@@ -47,7 +47,7 @@ a timer every 6 hours:
 | per-repository scratch | `/var/cache/walletscrutiny-source-analysis/repos` (`SOURCE_ANALYSIS_TEMP_DIR`), deleted after each repository |
 | scope | wallets with a reproducible build verification of any version (kind 30301 on the project relays, `reproducible.mjs`), each verified version analysed at its tag, 3 per wallet and pass (`SOURCE_ANALYSIS_VERIFIED_PER_PASS`); `SOURCE_ANALYSIS_SCOPE=all` analyses every wallet with a repository. Needs Node 22 (WebSocket) |
 | parallel repositories | 3 (`SOURCE_ANALYSIS_CONCURRENCY`), each in its own container with the [Sandbox](#sandbox) limits, so 18 GB / 6 CPUs for the analysis containers by default, next to the build server (the Semgrep container has no limits); every log line is prefixed with the `[appId]` of its repository |
-| package caches | `/var/cache/walletscrutiny-source-analysis/cache` (`SOURCE_ANALYSIS_CACHE_DIR`), npm/yarn/gradle/pip caches shared by the analysis containers, wiped when they pass `SOURCE_ANALYSIS_CACHE_MAX_GB` (20) |
+| package caches | `/var/cache/walletscrutiny-source-analysis/cache` (`SOURCE_ANALYSIS_CACHE_DIR`), npm/yarn/gradle/pip caches, one set per wallet under `wallets/`; past `SOURCE_ANALYSIS_CACHE_MAX_GB` (20) the least recently used wallets' caches are wiped |
 | analysis image | `ANALYSIS_IMAGE` in `config.mjs`, pinned by digest; pulled by the deploy, superseded copies removed |
 | GitHub token | `/etc/credstore.encrypted/build-server-gh-token`, handed to the process as `GITHUB_TOKEN_FILE` |
 | logs | journal: `journalctl -u walletscrutiny-source-analysis.service` |
@@ -275,14 +275,14 @@ renamed into place so a reader never sees a half-written tree:
 |---|---|
 | `index.json` | the exported app ids, which `exportApp` keeps current |
 | `apps/<aliasId>.json` | `{appId, alias: true}` for the repository's other app ids (the iPhone record of an Android app), one hop to the file above |
-| `apps/<appId>.json` | all releases of one app, newest version first: ref, commit, date, status, lockfiles, the OSV skip counts, the dependency and advisory counts (including `byScope`: app / build / tests / unknown), the submodule counts, the advisories (id, severity, aliases, summary, package, scope, who pulls it in, how many products ship it) and the diff to the previous release |
+| `apps/<appId>.json` | all releases of one app, newest version first: ref, commit, date, status, lockfiles, the OSV skip counts, the dependency and advisory counts (including `byScope`: app / build / tests / unknown), the submodule counts, the lock coverage (`locked`, `unlocked`, `unknown` or `none`, with up to five files a wallet team can fix: manifests without a lockfile, lockfiles nothing reads, downloads without a hash check, committed binaries), the advisories (id, severity, aliases, summary, package, scope, who pulls it in, how many products ship it) and the diff to the previous release |
 | `apps/<appId>/<ref>/dependencies.json` | the full resolved dependency list of one release (ecosystem, name, version, lockfile, pinning tier, direct, scope, dependants), each row with how many products ship the package and that exact version |
 | `apps/<appId>/<ref>/submodules.json` | the release's git submodules, one row per library with its three claims (`submoduleIdentity.mjs`), when it has any |
 
 The files carry only what a reader uses: the wallet page's Dependencies panel,
 `signals.mjs` (advisory ids) and `apk-contents-cli.mjs --deps`. The rest
-(integrity hashes, resolved URLs, analyser version, plugins, lock coverage,
-the default branch, cross-wallet package counts) stays in `assets.db`.
+(integrity hashes, resolved URLs, analyser version, plugins, the full lock
+coverage lists, the default branch, cross-wallet package counts) stays in `assets.db`.
 
 Each wallet does not wait for the end of the pass: as soon as an analysis of
 it is stored, `exportApp` rewrites its `apps/` files and its `index.json`
@@ -534,7 +534,7 @@ result and deletes the scratch directory; it never opens a file of the repositor
 
 | | |
 |---|---|
-| mounts | this folder read-only at `/analysis` (code and `node_modules`; the entry point loads only pure-JS packages), the per-repository scratch dir at `/work`, the shared package caches at `/cache` |
+| mounts | this folder read-only at `/analysis` (code and `node_modules`; the entry point loads only pure-JS packages), the per-repository scratch dir at `/work`, the wallet's own package caches at `/cache` |
 | not in the container | the GitHub token, `assets.db`, the docker socket |
 | hardening | runs as the service user (`--user`), `--cap-drop ALL`, `--security-opt no-new-privileges`, read-only root with a tmpfs `/tmp`, `--memory 6g --cpus 2 --pids-limit 2048`, killed after 45 min (`SOURCE_ANALYSIS_CONTAINER_MEMORY`, `_CPUS`, `_PIDS`, `_TIMEOUT_MIN`) |
 | inside | `HOME=/work/home`, `npm_config_ignore_scripts=true` (the repositories' npm lifecycle scripts never run), `GIT_TERMINAL_PROMPT=0` (a private or removed repository fails instead of waiting for credentials), `PIP_USER=1` (pip installs under `/work`), JDK 17 as `JAVA_HOME` |
@@ -542,13 +542,13 @@ result and deletes the scratch directory; it never opens a file of the repositor
 
 Semgrep (test 11) is its own container, started by the host on the checkout the
 first container leaves in the scratch dir. The image is the one place a hostile
-repository can reach: the network (its own installs need it) and the shared
-`/cache` (poisoning the npm/gradle cache for the next repository is possible;
-the caches are wiped past their size cap and can be set to a small cap for
-strict isolation at the price of re-downloads). Gradle projects needing an SDK
+repository can reach: the network (its own installs need it) and its own
+`/cache`. Each wallet gets a separate cache directory, so whatever one
+repository's build plants there (a gradle init script, a doctored npm package)
+reaches only later checks of the same wallet, never another wallet's. Gradle projects needing an SDK
 platform the image lacks fail their gradle tests (the SDK directory in the image
 is not writable for the service user); they still get the lockfile-based tests.
-Flutter projects are detected as `unknown` and get the file-only tests.
+Flutter projects are detected as `unknown` and get the file-only tests; their `pubspec.lock` is read by test 7 and checked by test 10.
 
 Dev run against another image or engine: `SOURCE_ANALYSIS_IMAGE=docker.io/library/node:22
 SOURCE_ANALYSIS_CONTAINER_CLI=podman node index.mjs --githubToken … --app-id …`
@@ -561,10 +561,10 @@ SOURCE_ANALYSIS_CONTAINER_CLI=podman node index.mjs --githubToken … --app-id �
 | 4 | Packages with no release in the last `YEARS_FOR_OUTDATED_CHECK` years, and packages under `MIN_DOWNLOADS_THRESHOLD` monthly downloads (abandoned, or crafted for this app) | npm (gradle, maven, pip: the outdated check runs, but its result is not reported) | `plugins/outdated-dependencies.mjs` |
 | 5 | js-x-ray warnings (eval, encoded literals, suspicious imports …) in JS/TS files; test files skipped unless `--include-test-files` | JS/TS | `plugins/jsxray.mjs` |
 | 6 | Obfuscated JS/TS files (obfuscation-detector) | JS/TS | `plugins/obfuscation.mjs` |
-| 7 | Supply-chain pinning per dependency (7b: for gradle, the resolved graph from the project's own gradle, see below): hash-pinned, version-pinned, source-ref-pinned (JitPack at a commit), build-service-tag, unversioned, floating; registries seen and whether resolution is ambiguous (dependency confusion). Every resolved row is stored (`packages`, `app_dependencies`) | npm, yarn, pip, gradle, cargo | `plugins/pinning.mjs`, `plugins/gradle-resolution.mjs` |
+| 7 | Supply-chain pinning per dependency (7b: for gradle, the resolved graph from the project's own gradle, see below): hash-pinned, version-pinned, source-ref-pinned (JitPack at a commit), build-service-tag, unversioned, floating; registries seen and whether resolution is ambiguous (dependency confusion). Every resolved row is stored (`packages`, `app_dependencies`) | npm, yarn, pip, gradle, cargo, pub (`pubspec.lock`; it records no dependency graph, so only direct packages have a scope) | `plugins/pinning.mjs`, `plugins/gradle-resolution.mjs` |
 | 8 | Build inputs fetched outside the package manager (curl/wget, Dockerfile `FROM`, cmake downloads, git clones in scripts and CI), graded on hash evidence and on whether the URL is immutable or rolling | any | `plugins/oob-downloads.mjs` |
 | 9 | Compiled artifacts checked into the tree (`.a`, `.so`, `.aar`, `.jar`, `.wasm` …), graded on whether the repository documents how they were built and whether a build file uses them | any | `plugins/committed-binaries.mjs` |
-| 10 | Known vulnerabilities of every dependency test 7 resolved to an exact registry version, from the [OSV.dev](https://osv.dev) batch API, run on the host: advisory id and CVE, severity (GitHub's reviewed label, else the CVSS 3 base score; `malicious` for OSV `MAL-` records), fixed versions, direct/transitive and dev. Floating ranges, BOM-supplied versions and git/path/tarball sources are counted as not checkable. Stored per release (`app_vulnerabilities`). The old `npm audit` / `yarn audit` version is the `npm-audit` plugin, off | npm, yarn, pip, gradle, cargo | `plugins/osv.mjs` |
+| 10 | Known vulnerabilities of every dependency test 7 resolved to an exact registry version, from the [OSV.dev](https://osv.dev) batch API, run on the host: advisory id and CVE, severity (GitHub's reviewed label, else the CVSS 3 base score; `malicious` for OSV `MAL-` records), fixed versions, direct/transitive and dev. Floating ranges, BOM-supplied versions and git/path/tarball sources are counted as not checkable. Stored per release (`app_vulnerabilities`). The old `npm audit` / `yarn audit` version is the `npm-audit` plugin, off | npm, yarn, pip, gradle, cargo, pub | `plugins/osv.mjs` |
 | 11 | Semgrep CE with `--config=auto`, run in the `SEMGREP_IMAGE` container; skipped without docker | any | `plugins/semgrep.mjs` |
 
 **For now only tests 7 and 10 run** (the resolved dependencies and their known

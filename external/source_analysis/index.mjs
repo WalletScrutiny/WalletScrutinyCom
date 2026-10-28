@@ -179,11 +179,11 @@ try {
   if (listSource === 'cache') {
     console.warn(`Warning: could not fetch the app list from ${source} (${error}); using the cached copy`);
   }
-  const { jobs: siteJobs, skipped } = groupByRepository(entries);
+  const { jobs: siteJobs, skipped, iosOnly } = groupByRepository(entries);
   for (const e of skipped) {
     console.warn(`Skipping ${e.appId} (${e.platform}): '${e.repository}' does not name a repository`);
   }
-  console.log(`App list: ${entries.length} records, ${siteJobs.length} repositories, ${skipped.length} skipped (from ${listSource})`);
+  console.log(`App list: ${entries.length} records, ${siteJobs.length} repositories, ${skipped.length} skipped, ${iosOnly.length} iPhone-only repositories left out (from ${listSource})`);
   // Only wallets some version of which was found reproducible (reproducible.mjs),
   // gone ones included: a reproducible wallet pulled from a store can still ship
   // elsewhere. SOURCE_ANALYSIS_SCOPE=all adds every repository that is not gone.

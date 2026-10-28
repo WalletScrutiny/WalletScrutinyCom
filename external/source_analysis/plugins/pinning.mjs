@@ -920,6 +920,119 @@ export function cargoScopes(blocks, manifests) {
   return scopes;
 }
 
+/* ---------------------------------- pub ---------------------------------- */
+
+// pub's test frameworks: a dev dependency among these is 'tests', any other
+// dev dependency 'build'.
+const PUB_TEST_ROOT = /^(test|flutter_test|integration_test|flutter_driver|mockito|mocktail|test_api|test_core|build_test|patrol|golden_toolkit|bloc_test|fake_async)$/;
+
+const unquote = (v) => v.trim().replace(/^"(.*)"$/, '$1').replace(/^'(.*)'$/, '$1');
+
+/**
+ * The `packages:` map of a pubspec.lock, as pub writes it: two spaces per
+ * level, one package per key, `description` either a scalar (sdk packages)
+ * or a map (name/sha256/url for hosted, url/ref/resolved-ref/path for git,
+ * path for path). Not a YAML parser: enough for the files pub generates.
+ */
+export function parsePubspecLock(text) {
+  const packages = [];
+  let inPackages = false;
+  let pkg = null;
+  let inDescription = false;
+  for (const line of text.split(/\r?\n/)) {
+    if (!line.trim() || line.trimStart().startsWith('#')) continue;
+    const indent = line.length - line.trimStart().length;
+    if (indent === 0) {
+      inPackages = /^packages:\s*$/.test(line);
+      pkg = null;
+      continue;
+    }
+    if (!inPackages) continue;
+    const m = line.trim().match(/^("[^"]*"|[^:]+):\s*(.*)$/);
+    if (!m) continue;
+    const key = unquote(m[1]);
+    const value = m[2];
+    if (indent === 2) {
+      pkg = { name: key, dependency: '', source: '', version: '', description: {} };
+      packages.push(pkg);
+      inDescription = false;
+    } else if (pkg && indent === 4) {
+      inDescription = key === 'description' && value === '';
+      if (key === 'description' && value !== '') pkg.description = { name: unquote(value) };
+      else if (key !== 'description') pkg[key] = unquote(value);
+    } else if (pkg && indent === 6 && inDescription) {
+      pkg.description[key] = unquote(value);
+    }
+  }
+  return packages;
+}
+
+function analyzePub(repoPath) {
+  const lockFiles = findFiles(repoPath, (name) => name === 'pubspec.lock');
+  if (!lockFiles.length) return null;
+
+  const result = {
+    ecosystem: 'pub',
+    lockfiles: lockFiles.map(f => relative(repoPath, f)),
+    deps: { total: 0, hashPinned: 0, versionPinned: 0, sourceRefPinned: 0, floating: 0 },
+    gitOrTarballDeps: [],
+    sourceRefExamples: [],
+    registries: [],
+    resolutionNotes: [],
+    resolutionAmbiguous: false,
+    floatingExamples: [],
+    entries: [],
+  };
+  const registries = new Set();
+  for (const lockFile of lockFiles) {
+    for (const p of parsePubspecLock(fs.readFileSync(lockFile, 'utf8'))) {
+      // The Flutter/Dart SDK's own packages come with the SDK, and path
+      // packages are the repository's own code: neither is a download.
+      if (p.source === 'sdk' || p.source === 'path') continue;
+      const d = p.description;
+      const direct = p.dependency.startsWith('direct');
+      const dev = p.dependency === 'direct dev';
+      let tier;
+      let resolved = '';
+      if (p.source === 'git') {
+        tier = d['resolved-ref'] ? 'source-ref-pinned' : 'floating';
+        resolved = `git+${d.url || ''}${d['resolved-ref'] ? `#${d['resolved-ref']}` : ''}`;
+        result.gitOrTarballDeps.push(`${p.name} (${resolved.slice(0, 70)})`);
+        if (tier === 'source-ref-pinned') result.sourceRefExamples.push(p.name);
+        else result.floatingExamples.push(`${p.name} (git, no resolved-ref)`);
+      } else {
+        tier = d.sha256 ? 'hash-pinned' : 'version-pinned';
+        resolved = d.url || 'https://pub.dev';
+        registries.add(resolved);
+      }
+      result.deps.total++;
+      if (tier === 'hash-pinned') result.deps.hashPinned++;
+      else if (tier === 'version-pinned') result.deps.versionPinned++;
+      else if (tier === 'source-ref-pinned') result.deps.sourceRefPinned++;
+      else result.deps.floating++;
+      result.entries.push(makeEntry('pub', relative(repoPath, lockFile), {
+        name: p.name,
+        version: p.version,
+        resolved,
+        integrity: d.sha256 ? `sha256:${d.sha256}` : '',
+        direct,
+        // pubspec.lock records no graph: only a direct package's scope is known.
+        dev: direct ? dev : null,
+        scope: direct ? (dev ? (PUB_TEST_ROOT.test(p.name) ? 'tests' : 'build') : 'app') : null,
+        dependants: null,
+        tier,
+      }));
+    }
+  }
+  result.registries = [...registries].sort();
+  if (registries.size > 1) {
+    result.resolutionAmbiguous = true;
+    result.resolutionNotes.push(`packages come from ${registries.size} hosted registries: ${result.registries.join(', ')}`);
+  }
+  result.sourceRefExamples = result.sourceRefExamples.slice(0, 10);
+  return result;
+}
+
 /* --------------------------------- report -------------------------------- */
 
 export function analyzePinning(repoPath) {
@@ -929,10 +1042,11 @@ export function analyzePinning(repoPath) {
     analyzePip(repoPath),
     analyzeGradle(repoPath),
     analyzeCargo(repoPath),
+    analyzePub(repoPath),
   ].filter(Boolean);
 
   if (!analyses.length) {
-    console.log('No supported manifest/lock files found (npm, pip, gradle, cargo).');
+    console.log('No supported manifest/lock files found (npm, pip, gradle, cargo, pub).');
     return [];
   }
 
