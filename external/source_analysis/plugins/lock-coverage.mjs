@@ -97,6 +97,28 @@ export function isProductPath(rel) {
   return !dirOf(rel).split('/').some(seg => NOT_PRODUCT_DIR.test(seg));
 }
 
+// A dependency file under one of these belongs to the team's own tooling (a
+// helper script's requirements.txt, CI), not to the app. Only manifests and
+// their version ranges: whether downloads in CI and scripts count is open.
+const TOOLING_DIR = /^(scripts?|tools?|tooling|\.github|\.circleci|ci)$/i;
+export function isProductManifestPath(rel) {
+  return isProductPath(rel) && !dirOf(rel).split('/').some(seg => TOOLING_DIR.test(seg));
+}
+
+// Which app a file builds: 'iphone', 'android', 'desktop' (Flutter's linux/,
+// macos/, windows/ targets), null for all. One repository often holds several
+// apps, and the Android page must not list what only the iPhone build reads.
+const IPHONE_ECOSYSTEMS = new Set(['cocoapods', 'swiftpm', 'carthage']);
+export function platformOf(rel, ecosystem = null) {
+  if (IPHONE_ECOSYSTEMS.has(ecosystem)) return 'iphone';
+  if (ecosystem === 'gradle') return 'android';
+  const segs = dirOf(rel || '').split('/').map(x => x.toLowerCase());
+  if (segs.some(x => x === 'ios' || x === 'iphone')) return 'iphone';
+  if (segs.includes('android')) return 'android';
+  if (segs.some(x => x === 'linux' || x === 'macos' || x === 'windows')) return 'desktop';
+  return null;
+}
+
 /**
  * One record per manifest: { ecosystem, manifest, lockfile, product }.
  * `lockfile` is the path of the lockfile that covers the manifest, null when
@@ -121,7 +143,7 @@ export function findManifests(repoPath, files = null) {
   const lockHere = (rel, names) => names.map(n => inDir(dirOf(rel), n)).find(p => has.has(p)) || null;
 
   const out = [];
-  const add = (ecosystem, manifest, lockfile, extra = {}) => out.push({ ecosystem, manifest, lockfile, product: isProductPath(manifest), ...extra });
+  const add = (ecosystem, manifest, lockfile, extra = {}) => out.push({ ecosystem, manifest, lockfile, product: isProductManifestPath(manifest), ...extra });
 
   for (const m of byName(/^package\.json$/)) {
     if (!/"(dependencies|devDependencies|optionalDependencies)"\s*:\s*\{\s*"/.test(read(m))) continue; // scripts or tooling config only
@@ -216,13 +238,18 @@ export function unlistedInputs({ downloads = [], binaries = null } = {}) {
  */
 export function lockCoverage(manifests, pinning = [], unlisted = unlistedInputs()) {
   const floatingRows = {};
+  // per file too, so the page can name it: { 'app/build.gradle': { ecosystem, count } }
+  const floatingFiles = {};
   for (const a of pinning || []) {
     for (const e of a.entries || []) {
-      if (e.tier === 'floating' && isProductPath(e.lockfile || '')) floatingRows[e.ecosystem] = (floatingRows[e.ecosystem] || 0) + 1;
+      if (e.tier !== 'floating' || !isProductManifestPath(e.lockfile || '')) continue;
+      floatingRows[e.ecosystem] = (floatingRows[e.ecosystem] || 0) + 1;
+      const f = floatingFiles[e.lockfile || ''] ||= { ecosystem: e.ecosystem, count: 0 };
+      f.count++;
     }
   }
   const g = grade(manifests, floatingRows, unlisted);
-  return { verdict: g.verdict, manifests, missing: g.missing.length, unread: g.unread, floatingRows, unlisted };
+  return { verdict: g.verdict, manifests, missing: g.missing.length, unread: g.unread, floatingRows, floatingFiles, unlisted };
 }
 
 function grade(manifests, floatingRows, unlisted) {
@@ -243,21 +270,38 @@ function grade(manifests, floatingRows, unlisted) {
  * when the plugin did not run. Lists are capped; the counts are not.
  */
 const SHOWN_CAP = 5;
-export function coverageForReaders(stored) {
+export function coverageForReaders(stored, platform = null) {
   if (!stored || !Array.isArray(stored.manifests)) return null;
   const u = stored.unlisted || {};
+  // On one app's page, leave out what only the other app's build reads.
+  const forThisApp = (rel, ecosystem) => !platform || [null, platform].includes(platformOf(rel, ecosystem));
   // Stored before the scanner stopped reading FROM in scripts and loopback
   // health checks as downloads, or before development containers were dropped.
   const stillCounts = (d) => !isDevOnlyPath(d.file) && !LOOPBACK_URL_RE.test(d.target)
-    && (d.kind !== 'container-base-image' || CONTAINER_FILE_RE.test(path.basename(d.file)));
+    && (d.kind !== 'container-base-image' || CONTAINER_FILE_RE.test(path.basename(d.file))) && forThisApp(d.file);
   const listed = u.downloads || [];
   const downloads = listed.filter(stillCounts);
-  const binaryCount = u.binaryCount || 0;
+  const listedBinaries = u.binaries || [];
+  const binaries = listedBinaries.filter(b => forThisApp(b.path));
+  const binaryCount = Math.max(binaries.length, (u.binaryCount || 0) - (listedBinaries.length - binaries.length));
   const unlisted = { downloadCount: Math.max(downloads.length, (u.downloadCount || 0) - (listed.length - downloads.length)), binaryCount };
-  const c = grade(stored.manifests, stored.floatingRows || {}, unlisted);
+  // Manifests are re-classified too: a helper script's requirements.txt
+  // stored as product before that rule no longer counts.
+  const manifests = stored.manifests.filter(m => forThisApp(m.manifest, m.ecosystem))
+    .map(m => ({ ...m, product: m.product && isProductManifestPath(m.manifest) }));
+  // Version ranges per file where stored (since 2026-10-28), else the per-ecosystem counts as they were.
+  const floatingFiles = stored.floatingFiles
+    ? Object.entries(stored.floatingFiles).filter(([f, v]) => isProductManifestPath(f) && forThisApp(f, v.ecosystem)).map(([file, v]) => ({ file, count: v.count }))
+    : null;
+  const floatingRows = floatingFiles ? { all: floatingFiles.reduce((n, f) => n + f.count, 0) }
+    : Object.fromEntries(Object.entries(stored.floatingRows || {}).filter(([eco]) => forThisApp('', eco)));
+  const c = grade(manifests, floatingRows, unlisted);
   // Workspace members share the root's lockfile: name each unread file once.
   const seen = new Set();
   const unread = c.unread.filter(m => { const k = `${m.ecosystem} ${m.lockfile || m.manifest}`; return !seen.has(k) && seen.add(k); });
+  // One line can download twice (a key and a repository): name the place once.
+  const places = new Set();
+  const downloadPlaces = downloads.filter(d => { const k = `${d.file}:${d.line}`; return !places.has(k) && places.add(k); });
   return {
     verdict: c.verdict,
     missing: c.missing.slice(0, SHOWN_CAP).map(m => ({ ecosystem: m.ecosystem, manifest: m.manifest })),
@@ -265,11 +309,27 @@ export function coverageForReaders(stored) {
     unread: unread.slice(0, SHOWN_CAP),
     unreadCount: unread.length,
     floating: c.floating,
-    downloads: downloads.slice(0, SHOWN_CAP).map(d => ({ file: d.file, line: d.line, target: d.target })),
+    ...(floatingFiles ? { floatingFiles: floatingFiles.slice(0, SHOWN_CAP).map(f => f.file) } : {}),
+    downloads: downloadPlaces.slice(0, SHOWN_CAP).map(d => ({ file: d.file, line: d.line, target: d.target })),
     downloadCount: unlisted.downloadCount,
-    binaries: (u.binaries || []).slice(0, SHOWN_CAP).map(b => b.path),
+    downloadPlaceCount: downloadPlaces.length + Math.max(0, unlisted.downloadCount - downloads.length),
+    binaries: binaries.slice(0, SHOWN_CAP).map(b => b.path),
     binaryCount,
   };
+}
+
+/**
+ * The page of each app, when one repository builds both and they differ:
+ * { android, iphone }, or undefined when both see the same as coverageForReaders(stored).
+ */
+export function coverageByPlatform(stored) {
+  const all = JSON.stringify(coverageForReaders(stored));
+  const out = {};
+  for (const p of ['android', 'iphone']) {
+    const c = coverageForReaders(stored, p);
+    if (c && JSON.stringify(c) !== all) out[p] = c;
+  }
+  return Object.keys(out).length ? out : undefined;
 }
 
 export default {

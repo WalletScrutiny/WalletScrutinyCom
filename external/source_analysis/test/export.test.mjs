@@ -220,7 +220,7 @@ test('buildApp: lock coverage regraded with the current rules, capped for the pa
   assert.deepEqual(buildApp(db, 'app.flutter').releases[0].lockCoverage, {
     verdict: 'unknown', missing: [], missingCount: 0,
     unread: [{ ecosystem: 'pub', manifest: 'pubspec.yaml', lockfile: 'pubspec.lock' }], unreadCount: 1,
-    floating: 0, downloads: [], downloadCount: 0, binaries: [], binaryCount: 0,
+    floating: 0, downloads: [], downloadCount: 0, downloadPlaceCount: 0, binaries: [], binaryCount: 0,
   });
 
   const many = Array.from({ length: 8 }, (_, i) => ({ ecosystem: 'npm', manifest: `pkg${i}/package.json`, lockfile: null, product: true }));
@@ -234,4 +234,19 @@ test('buildApp: lock coverage regraded with the current rules, capped for the pa
   assert.deepEqual(c.downloads, [{ file: 'Dockerfile', line: 4, target: 'https://x/sdk.zip' }]);
   assert.equal(c.downloadCount, 60, 'the stored count is complete; only listed downloads can be dropped');
   assert.deepEqual(c.binaries, ['libs/x.aar']);
+});
+
+test('buildApp: lock coverage per app when one repository builds both', () => {
+  const db = initDatabase(':memory:');
+  saveAppList(db, [{ appId: 'it.vault', platform: 'android', repository: 'https://github.com/org/vault' }]);
+  const manifests = [
+    { ecosystem: 'npm', manifest: 'package.json', lockfile: 'yarn.lock', product: true },
+    { ecosystem: 'cocoapods', manifest: 'ios/App/Podfile', lockfile: 'ios/App/Podfile.lock', product: true },
+  ];
+  recordAnalysis(db, { appId: 'it.vault', kind: 'release', ref: 'v1', commit: 'c1', status: 'ok', appType: 'npm', analyser: 't',
+    lockCoverage: { manifests, floatingRows: {}, floatingFiles: {}, unlisted: { downloadCount: 0, binaryCount: 0, downloads: [], binaries: [] } } });
+  const r = buildApp(db, 'it.vault').releases[0];
+  assert.equal(r.lockCoverage.verdict, 'unknown');
+  assert.equal(r.lockCoverageByPlatform.android.verdict, 'locked', 'the Podfile is not part of the Android app');
+  assert.equal(r.lockCoverageByPlatform.iphone, undefined, 'the iPhone page sees the same as the whole');
 });

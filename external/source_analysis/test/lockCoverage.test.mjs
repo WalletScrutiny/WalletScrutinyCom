@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import { findManifests, lockCoverage, unlistedInputs, coverageForReaders } from '../plugins/lock-coverage.mjs';
+import { findManifests, lockCoverage, unlistedInputs, coverageForReaders, coverageByPlatform, platformOf } from '../plugins/lock-coverage.mjs';
 
 function repo(files) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'lockcov-'));
@@ -190,4 +190,60 @@ test('readers see a shared unread lockfile once', () => {
   const r = coverageForReaders(stored);
   assert.deepEqual(r.unread.map(u => u.lockfile), ['pubspec.lock']);
   assert.equal(r.unreadCount, 1);
+});
+
+// AirGap Vault v3.35.0 (2026-10-28): a helper script's requirements.txt, the
+// iPhone lockfiles on the Android page, and one Dockerfile line listed twice.
+const AIRGAP = {
+  'package.json': NPM_DEPS, 'yarn.lock': '',
+  'scripts/requirements.txt': 'duckdb\n',
+  'ios/App/Podfile': "pod 'X'", 'ios/App/Podfile.lock': '',
+  'android/settings.gradle': '',
+};
+const airgapPinning = [{ entries: [{ ecosystem: 'pip', lockfile: 'scripts/requirements.txt', name: 'duckdb', tier: 'floating' }] }];
+const airgapUnlisted = unlistedInputs({ downloads: [
+  { kind: 'curl', target: 'https://dl-ssl.google.com/linux/linux_signing_key.pub', file: 'Dockerfile', line: 16, hashCheck: false },
+  { kind: 'curl', target: 'http://dl.google.com/linux/chrome/deb/', file: 'Dockerfile', line: 16, hashCheck: false },
+] });
+
+test('a helper script is not the app: its manifest and version ranges do not count', () => {
+  const c = lockCoverage(findManifests(repo(AIRGAP)), airgapPinning, airgapUnlisted);
+  assert.equal(c.manifests.find(m => m.manifest === 'scripts/requirements.txt').product, false);
+  assert.deepEqual(c.floatingRows, {});
+  assert.deepEqual(c.floatingFiles, {});
+  // a range in the app's own files is named by file
+  const own = lockCoverage([], [{ entries: [{ ecosystem: 'gradle', lockfile: 'app/build.gradle', tier: 'floating' }, { ecosystem: 'gradle', lockfile: 'app/build.gradle', tier: 'floating' }] }]);
+  assert.deepEqual(own.floatingFiles, { 'app/build.gradle': { ecosystem: 'gradle', count: 2 } });
+  const r = coverageForReaders(own);
+  assert.equal(r.floating, 2);
+  assert.deepEqual(r.floatingFiles, ['app/build.gradle']);
+});
+
+test('readers re-grade a helper script stored as the app by an older analyser', () => {
+  const stored = { manifests: [{ ecosystem: 'npm', manifest: 'package.json', lockfile: 'yarn.lock', product: true },
+    { ecosystem: 'pip', manifest: 'scripts/requirements.txt', lockfile: 'scripts/requirements.txt', product: true }],
+  floatingFiles: { 'scripts/requirements.txt': { ecosystem: 'pip', count: 1 } }, floatingRows: { pip: 1 } };
+  assert.equal(coverageForReaders(stored).verdict, 'locked');
+});
+
+test('each app page sees only its own build', () => {
+  assert.equal(platformOf('ios/App/Podfile', 'cocoapods'), 'iphone');
+  assert.equal(platformOf('android/settings.gradle', 'gradle'), 'android');
+  assert.equal(platformOf('android/app/build.sh'), 'android');
+  assert.equal(platformOf('Dockerfile'), null);
+  assert.equal(platformOf('linux/CMakeLists.txt', 'c/c++'), 'desktop', "Flutter's desktop target (Bull Bitcoin)");
+  const stored = lockCoverage(findManifests(repo(AIRGAP)), airgapPinning, unlistedInputs());
+  assert.equal(coverageForReaders(stored).verdict, 'unknown', 'the whole repository: the Podfile.lock is not read');
+  const by = coverageByPlatform(stored);
+  assert.equal(by.android.verdict, 'locked');
+  assert.equal(by.android.unreadCount, 0);
+  assert.equal(by.iphone, undefined);
+});
+
+test('one line that downloads twice is named once', () => {
+  const stored = lockCoverage(findManifests(repo(AIRGAP)), airgapPinning, airgapUnlisted);
+  const r = coverageForReaders(stored, 'android');
+  assert.equal(r.downloadCount, 2);
+  assert.deepEqual(r.downloads.map(d => `${d.file}:${d.line}`), ['Dockerfile:16']);
+  assert.equal(r.downloadPlaceCount, 1);
 });

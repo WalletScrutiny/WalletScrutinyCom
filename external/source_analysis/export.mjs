@@ -24,7 +24,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { groupByRepository } from './appList.mjs';
 import { hintsByApp } from './upstreamTriage.mjs';
-import { coverageForReaders } from './plugins/lock-coverage.mjs';
+import { coverageForReaders, coverageByPlatform } from './plugins/lock-coverage.mjs';
 import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getEndOfLife, getSubmodules } from './ddbbUtils.mjs';
 
 export const SCHEMA = 1;
@@ -137,6 +137,8 @@ function analysisEntry(a) {
     osv: a.osv_checked === null ? null : { skipped: a.osv_skipped },
     // how much of the build the lockfiles we read cover (plugins/lock-coverage.mjs)
     lockCoverage: coverageForReaders(a.lock_coverage) || undefined,
+    // the same, for one app's page, when the repository also builds the other app
+    lockCoverageByPlatform: coverageByPlatform(a.lock_coverage),
   };
 }
 
