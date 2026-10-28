@@ -593,7 +593,9 @@ Built and on the preview today; what each still needs before a release:
 3. **Other products' lockfiles** (`part`, "desktop app" etc.): counted in
    the tile with a line of their own ("113 of them only in the desktop app" on
    AirGap). Open: whether they leave the mobile page's count entirely.
-4. **Trusted list**: Bob's demo key has no profile and is still listed.
+4. **Trusted list**: done. Bob's demo key is off the list (Danny, 2026-10-28,
+   issue 992 B7). Its four statements all said "under investigation"; three
+   AirGap and Babel rows lose that label, the fourth keeps Carol's "not affected".
 5. **Re-run of the analyser** over the database: the yarn alias and
    workspace fixes, `part`, and the direct users ("Where?", `dependants`)
    all need it; the preview data was patched by hand where noted in the
