@@ -152,11 +152,6 @@ function add (newIdds, options = {}) {
         console.error(`Error: ${targetFile} already has an iphone block. Aborting --merge-into.`);
         return;
       }
-      if (!loaded.mobile.redirect_from) loaded.mobile.redirect_from = [];
-      const redirectEntry = `/iphone/${appId}/`;
-      if (!loaded.mobile.redirect_from.includes(redirectEntry)) {
-        loaded.mobile.redirect_from.push(redirectEntry);
-      }
       loaded.mobile.iphone = iphone;
       refreshFile(targetFile, loaded);
       return;
