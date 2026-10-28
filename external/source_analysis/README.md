@@ -437,6 +437,20 @@ records the release as failed and leaves its old dependency rows in place.
 node index.mjs --githubToken ghp_xxx --app-id com.example.wallet --reanalyse
 ```
 
+On the server, mark the wallets instead and let the next timer pass rerun
+them, so only one process analyses. `reanalyse-cli.mjs` only writes the mark
+(table `reanalyse_requests`), which is safe while a pass runs; the pass runs a
+marked wallet (appId or alias) as `--reanalyse` would and removes its mark once
+the wallet finished without an error. A mark made while that wallet was
+already running stays for the next pass.
+
+```bash
+cd /opt/source_analysis
+sudo -u build-server env SOURCE_ANALYSIS_DB_PATH=/var/lib/walletscrutiny-source-analysis/assets.db \
+  node reanalyse-cli.mjs --app-id com.example.wallet --app-id org.example.other
+# --list shows the pending marks, --clear --app-id <id> takes one back
+```
+
 ## Configuration
 
 Extra apps that are not on the site list (for example Docker images) go in

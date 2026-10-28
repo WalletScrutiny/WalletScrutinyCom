@@ -303,6 +303,15 @@ export function initDatabase(dbPath = DB_PATH) {
     FROM app_dependencies d GROUP BY d.app_id, d.version;
   `);
 
+  // Wallets marked for a rerun (reanalyse-cli.mjs): the next pass analyses
+  // each one as --reanalyse would, then removes its mark.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS reanalyse_requests (
+      app_id TEXT PRIMARY KEY,
+      requested_at DATETIME DEFAULT CURRENT_TIMESTAMP
+    );
+  `);
+
   return db;
 }
 
@@ -417,6 +426,28 @@ export function releasesToReanalyse(db, appId) {
   const newest = db.prepare("SELECT version FROM assets WHERE app_id = ? AND source = 'github' ORDER BY published_at DESC LIMIT 1").get(appId);
   const analysed = db.prepare("SELECT ref FROM analyses WHERE app_id = ? AND kind = 'release' ORDER BY analysed_at DESC, ref").all(appId).map(r => r.ref);
   return [...new Set([...(newest ? [newest.version] : []), ...analysed])];
+}
+
+// Mark wallets for a rerun; marking one again moves its mark to now.
+export function requestReanalyse(db, appIds) {
+  const mark = db.prepare('INSERT OR REPLACE INTO reanalyse_requests (app_id) VALUES (?)');
+  db.transaction(() => { for (const id of appIds) mark.run(id); })();
+}
+
+// The pending marks, oldest first: [{ app_id, requested_at }].
+export function reanalyseRequests(db) {
+  return db.prepare('SELECT app_id, requested_at FROM reanalyse_requests ORDER BY requested_at, app_id').all();
+}
+
+// Remove marks. With `before`, only marks older than it: one made while the
+// wallet was already being analysed stays for the next pass.
+export function clearReanalyse(db, appIds, before = null) {
+  const clear = before
+    ? db.prepare('DELETE FROM reanalyse_requests WHERE app_id = ? AND requested_at < ?')
+    : db.prepare('DELETE FROM reanalyse_requests WHERE app_id = ?');
+  let removed = 0;
+  db.transaction(() => { for (const id of appIds) removed += (before ? clear.run(id, before) : clear.run(id)).changes; })();
+  return removed;
 }
 
 function ensureColumn(db, table, column, type) {

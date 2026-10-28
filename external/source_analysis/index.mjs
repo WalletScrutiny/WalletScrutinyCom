@@ -3,7 +3,7 @@
 import fs from 'fs';
 import minimist from 'minimist';
 import { fetchGitHubAssets, fetchDockerAssets, parseDockerImage, checkAuthorIdConsistency, evaluateChangesInNewAsset, loadSecret } from './utils.mjs';
-import { backupDatabase, initDatabase, saveAsset, hasExistingAssets, getAnalysedCommit, saveAnalysedCommit, saveEndOfLife, recordAnalysis, releasesToReanalyse } from './ddbbUtils.mjs';
+import { backupDatabase, initDatabase, saveAsset, hasExistingAssets, getAnalysedCommit, saveAnalysedCommit, saveEndOfLife, recordAnalysis, releasesToReanalyse, reanalyseRequests, clearReanalyse } from './ddbbUtils.mjs';
 import { runSourceCodeAnalysis, remoteHeadCommit, remoteHeadDate, analyserVersion } from './appAnalysis.mjs';
 import { recheckStoredReleases } from './recheck.mjs';
 import { pruneCache } from './containerRunner.mjs';
@@ -307,6 +307,11 @@ try {
         }
       }
       
+      // A wallet marked with reanalyse-cli.mjs (by its appId or an alias)
+      // runs as with --reanalyse; its mark goes once it finished.
+      const ids = [app.appId, ...(app.aliases || []).map(a => a.appId)];
+      const marked = reanalyseRequests(db).some(r => ids.includes(r.app_id));
+      if (marked) console.log(`  Marked for a rerun: analysing every stored release again`);
       const appStart = db.prepare('SELECT CURRENT_TIMESTAMP AS t').get().t;
       await processApp(
         db,
@@ -317,8 +322,9 @@ try {
         effectiveDockerToken,
         includeTestFiles,
         app.verified || [],
-        Boolean(argv.reanalyse)
+        Boolean(argv.reanalyse) || marked
       );
+      if (marked) clearReanalyse(db, ids, appStart);
       successCount++;
       if (EXPORT_DIR) await exportAndPublishApp(app.appId, appStart);
     } catch (error) {
