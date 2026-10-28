@@ -55,6 +55,8 @@ source repository at that release's tag:
   `package-lock.json` records the dev flag; `yarn.lock` and `Cargo.lock`
   record the graph but no flag, so the analyser walks the graph from the
   manifest's roots; gradle resolution derives it from the configuration names.
+  `pubspec.lock` (Flutter) records no graph, only whether a direct package
+  is main or dev, so its transitive packages show `?`.
   This is a placement fact, not a judgement: a build dependency can still hurt
   the product (an install script runs on the developer's machine), which is
   why every advisory gets its own decision, see "Triage" below.
@@ -338,7 +340,7 @@ Weak points, as an attacker would use them (Danny's red-team round):
   `lock-coverage` plugin lists every manifest (npm, cargo, pub, CocoaPods,
   SwiftPM, Go, Carthage, pip, gradle) with its lockfile or none, and gives
   each analysis a verdict: `locked`, `unlocked`, `unknown` (locked, but by a
-  lockfile this check does not read, such as `pubspec.lock` or `go.sum`, or
+  lockfile this check does not read, such as `go.sum` or `Podfile.lock`, or
   a C/C++ build, which has no lockfile format), or `none` (no manifest
   found, dependencies unknown). Gradle has no lockfile by default: a build
   that declares only exact versions resolves the same set every time and
