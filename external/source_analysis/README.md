@@ -40,7 +40,7 @@ a timer every 6 hours:
 
 | | |
 |---|---|
-| units | `config/walletscrutiny-source-analysis.service`, `config/walletscrutiny-source-analysis.timer` |
+| units | `config/walletscrutiny-source-analysis.service`, `config/walletscrutiny-source-analysis.timer`; the hourly advisory refresh `config/walletscrutiny-advisory-refresh.service`, `config/walletscrutiny-advisory-refresh.timer` ([Static export](#static-export)) |
 | working directory | `/opt/source_analysis` |
 | user | `build-server` |
 | database | `/var/lib/walletscrutiny-source-analysis/assets.db` (`SOURCE_ANALYSIS_DB_PATH`), backups next to it in `backup/`, newest 14 kept |
@@ -112,7 +112,7 @@ no switch to skip them). It then rsyncs this folder alone to
 `/opt/source_analysis` (dev state such as `assets.db`, `backup/`, `temp_repos/`,
 `cache/` and `node_modules/` excluded), installs the npm dependencies there as
 `build-server`, pulls the analysis image and removes superseded copies of it,
-copies the two units to `/etc/systemd/system/` and enables the timer. It does
+copies the four units to `/etc/systemd/system/` and enables both timers. It does
 not touch the Automated Build Server tree or its images; the two deploys are
 independent and can run in any order.
 
@@ -126,8 +126,9 @@ cd /opt/source_analysis
 sudo -u build-server npm ci
 sudo cp config/walletscrutiny-source-analysis.service /etc/systemd/system/
 sudo cp config/walletscrutiny-source-analysis.timer /etc/systemd/system/
+sudo cp config/walletscrutiny-advisory-refresh.service config/walletscrutiny-advisory-refresh.timer /etc/systemd/system/
 sudo systemctl daemon-reload
-sudo systemctl enable --now walletscrutiny-source-analysis.timer
+sudo systemctl enable --now walletscrutiny-source-analysis.timer walletscrutiny-advisory-refresh.timer
 ```
 
 ### Setting up from scratch
@@ -246,6 +247,8 @@ sudo systemctl start walletscrutiny-source-analysis.service        # run now (bl
 sudo systemctl status walletscrutiny-source-analysis.service
 sudo journalctl -u walletscrutiny-source-analysis.service -f
 sudo systemctl stop walletscrutiny-source-analysis.service         # abort a running pass
+sudo systemctl list-timers walletscrutiny-advisory-refresh.timer   # hourly advisory refresh
+sudo journalctl -u walletscrutiny-advisory-refresh.service         # what each refresh found and published
 ```
 
 A pass walks every repository of the site list, three at a time. A repository
@@ -290,6 +293,17 @@ entry in the existing export (each file renamed into place), and, with a
 publish target, rsyncs just those files (no `--delete`). The rest (upstream hints, signals, other wallets' product counts, releases
 removed since) waits for the full export that ends the pass. A failure there
 is only logged; the full export writes the wallet again.
+
+New advisories do not wait for a pass either. A second timer,
+`walletscrutiny-advisory-refresh.timer`, runs `refresh-cli.mjs` every hour:
+it asks OSV.dev again about the stored dependencies of every release (no
+clone, one batched query per release, `recheck.mjs`), and for each wallet
+whose stored advisories changed (new, withdrawn, or edited, such as a raised
+severity) rewrites its files with `exportApp`, rebuilds `signals.json` and
+rsyncs those files. Nothing changed, nothing is written. It needs an export
+to exist, and it is skipped while a pass runs (`ExecCondition`), since the
+pass rechecks and exports everything when it ends. So a new advisory reaches
+the page within about an hour, or at the end of a pass that is running then.
 
 `scope` says where a package ends up, as far as the files say: `app` when it
 is reachable from the project's own dependencies, `build` when only from its

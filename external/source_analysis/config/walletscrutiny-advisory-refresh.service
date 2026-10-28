@@ -1,0 +1,29 @@
+[Unit]
+Description=WalletScrutiny source analysis: new OSV.dev advisories for the stored releases onto the wallet pages (oneshot)
+Documentation=file:/opt/source_analysis/README.md
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=build-server
+Group=build-server
+WorkingDirectory=/opt/source_analysis
+StateDirectory=walletscrutiny-source-analysis
+
+# Same database, export and web host as walletscrutiny-source-analysis.service;
+# no GitHub token and no containers: nothing is cloned, only OSV.dev is asked
+Environment=SOURCE_ANALYSIS_DB_PATH=/var/lib/walletscrutiny-source-analysis/assets.db
+Environment=SOURCE_ANALYSIS_EXPORT_DIR=/var/lib/walletscrutiny-source-analysis/export
+Environment=SOURCE_ANALYSIS_PUBLISH_TARGET=source-analysis@walletscrutiny.com:/
+Environment="SOURCE_ANALYSIS_PUBLISH_SSH=ssh -i /etc/walletscrutiny-source-analysis/publish_ed25519 -o UserKnownHostsFile=/etc/walletscrutiny-source-analysis/known_hosts -o StrictHostKeyChecking=yes"
+EnvironmentFile=-/etc/walletscrutiny-source-analysis/alerts.env
+
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=full
+
+# A running pass rechecks and exports everything when it ends, and swaps the
+# export directory; this run is skipped (not failed) while one is active.
+ExecCondition=/bin/sh -c '! systemctl is-active --quiet walletscrutiny-source-analysis.service'
+ExecStart=/usr/bin/node refresh-cli.mjs

@@ -25,8 +25,10 @@ export function entryOfRow(r) {
  * Look up the stored releases of the given apps again. Releases analysed since
  * `since` (an SQLite CURRENT_TIMESTAMP string, the start of the pass) were
  * just looked up and are left alone. A failed lookup keeps the stored rows.
- * Returns { releases, failed, added } where added counts advisories that were
- * not stored before.
+ * Returns { releases, failed, added, changed } where added counts advisories
+ * that were not stored before and changed lists the apps whose stored
+ * advisories differ afterwards in any way (new, withdrawn, or edited: a new
+ * severity, fix version or summary), the ones whose files are out of date.
  */
 export async function recheckStoredReleases(db, appIds, { since = null, check = checkVulnerabilities, deliver = deliverAlerts } = {}) {
   const versionsOf = db.prepare(`
@@ -36,6 +38,7 @@ export async function recheckStoredReleases(db, appIds, { since = null, check = 
     ORDER BY d.version`);
   const updateCount = db.prepare(`UPDATE analyses SET vulnerabilities = ?, osv_checked = ? WHERE app_id = ? AND kind = 'release' AND ref = ?`);
   let releases = 0, failed = 0, added = 0;
+  const changed = new Set();
   for (const appId of appIds) {
     for (const { version } of versionsOf.all(appId, since, since)) {
       const entries = getDependencies(db, appId, version).map(entryOfRow);
@@ -45,10 +48,12 @@ export async function recheckStoredReleases(db, appIds, { since = null, check = 
         failed++;
         continue;
       }
-      const before = new Set(getVulnerabilities(db, appId, version).map(v => `${v.ecosystem}\u0000${v.name}\u0000${v.dep_version}\u0000${v.vuln_id}`));
+      const stored = getVulnerabilities(db, appId, version);
+      const before = new Set(stored.map(v => `${v.ecosystem}\u0000${v.name}\u0000${v.dep_version}\u0000${v.vuln_id}`));
       const fresh = result.findings.filter(f => !before.has(`${f.ecosystem}\u0000${f.name}\u0000${f.version}\u0000${f.id}`));
       saveVulnerabilities(db, appId, version, result);
       updateCount.run(result.findings.length, result.checked, appId, version);
+      if (JSON.stringify(getVulnerabilities(db, appId, version)) !== JSON.stringify(stored)) changed.add(appId);
       recordMalwareAlerts(db, appId, version, result.findings);
       if (fresh.length) console.log(`  ${appId} ${version}: ${fresh.length} new advisories (${fresh.map(f => f.id).join(', ')})`);
       releases++;
@@ -56,5 +61,5 @@ export async function recheckStoredReleases(db, appIds, { since = null, check = 
     }
   }
   if (releases) await deliver(db);
-  return { releases, failed, added };
+  return { releases, failed, added, changed: [...changed] };
 }

@@ -33,7 +33,7 @@ test('recheckStoredReleases: a new advisory for an unchanged release is stored a
   const delivered = [];
   const result = await recheckStoredReleases(db, ['old.wallet'], { check, deliver: async () => delivered.push(1) });
   assert.deepEqual(asked.sort(), ['a@1.0.0', 'b@2.0.0']);
-  assert.deepEqual(result, { releases: 1, failed: 0, added: 1 });
+  assert.deepEqual(result, { releases: 1, failed: 0, added: 1, changed: ['old.wallet'] });
   assert.deepEqual(getVulnerabilities(db, 'old.wallet', 'v1.0').map(v => v.vuln_id), ['GHSA-new']);
   assert.equal(db.prepare("SELECT vulnerabilities FROM analyses WHERE app_id = 'old.wallet'").get().vulnerabilities, 1);
   assert.equal(delivered.length, 1);
@@ -46,7 +46,7 @@ test('recheckStoredReleases: a failed lookup keeps the stored advisories', async
   const db = seeded();
   saveVulnerabilities(db, 'old.wallet', 'v1.0', { findings: [finding('a', '1.0.0', 'GHSA-old')] });
   const result = await recheckStoredReleases(db, ['old.wallet'], { check: async () => null, deliver: async () => {} });
-  assert.deepEqual(result, { releases: 0, failed: 1, added: 0 });
+  assert.deepEqual(result, { releases: 0, failed: 1, added: 0, changed: [] });
   assert.deepEqual(getVulnerabilities(db, 'old.wallet', 'v1.0').map(v => v.vuln_id), ['GHSA-old']);
   db.close();
 });
