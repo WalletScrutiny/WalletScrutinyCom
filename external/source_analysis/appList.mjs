@@ -97,7 +97,10 @@ const platformRank = (p) => {
 // One job per distinct repository. `appId` is the first record (android before
 // iphone before desktop ...) and `aliases` are all (appId, platform) records
 // that point at the repository; `gone` when every one of them is gone. Entries whose URL names no repository land in
-// `skipped`.
+// `skipped`. A repository only iPhone records point at lands in `iosOnly`: no
+// iOS build was ever found reproducible, and its tags would land under the
+// appId the Android record of the same wallet uses (vultisig-ios and
+// bitkit-ios share their appId with the Android app).
 export function groupByRepository(entries) {
   const byRepo = new Map();
   const skipped = [];
@@ -113,10 +116,15 @@ export function groupByRepository(entries) {
     job.gone = job.gone && e.gone === true;
   }
   const jobs = [];
+  const iosOnly = [];
   for (const job of byRepo.values()) {
+    if (job.aliases.every(a => a.platform === 'iphone')) {
+      iosOnly.push({ appId: job.aliases[0].appId, repoUrl: job.repoUrl });
+      continue;
+    }
     job.aliases.sort((a, b) => platformRank(a.platform) - platformRank(b.platform) || a.appId.localeCompare(b.appId));
     jobs.push({ appId: job.aliases[0].appId, repoUrl: job.repoUrl, aliases: job.aliases, gone: job.gone });
   }
   jobs.sort((a, b) => a.repoUrl.localeCompare(b.repoUrl));
-  return { jobs, skipped };
+  return { jobs, skipped, iosOnly };
 }

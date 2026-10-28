@@ -8,7 +8,7 @@ import os from 'os';
 import path from 'path';
 import { execFileSync } from 'child_process';
 import { fileURLToPath } from 'url';
-import { buildRunArgs, containerEnv, runInContainer, pruneCache, dirSizeBytes, ANALYSIS_DIR } from '../containerRunner.mjs';
+import { buildRunArgs, containerEnv, runInContainer, pruneCache, dirSizeBytes, walletCacheDir, ANALYSIS_DIR } from '../containerRunner.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const tmp = (p) => fs.mkdtempSync(path.join(os.tmpdir(), p));
@@ -137,14 +137,40 @@ test('containerEntry loads without the database module', () => {
   assert.ok(!trace.includes('better-sqlite3'), `better-sqlite3 loaded: ${trace}`);
 });
 
-test('pruneCache: wipes the caches only past the cap', () => {
+test('pruneCache: past the cap, least recently used wallets go first; the old shared caches always go', () => {
   const cacheDir = tmp('sa-cache-');
-  fs.mkdirSync(path.join(cacheDir, 'npm'));
-  fs.writeFileSync(path.join(cacheDir, 'npm', 'blob'), Buffer.alloc(10000));
+  const fill = (dir, bytes, ageSeconds) => {
+    fs.mkdirSync(dir, { recursive: true });
+    fs.writeFileSync(path.join(dir, 'blob'), Buffer.alloc(bytes));
+    const t = new Date(Date.now() - ageSeconds * 1000);
+    fs.utimesSync(dir, t, t);
+  };
+  fill(path.join(cacheDir, 'gradle'), 10, 0); // shared cache from before
+  fill(walletCacheDir(cacheDir, 'old'), 10000, 300);
+  fill(walletCacheDir(cacheDir, 'mid'), 10000, 200);
+  fill(walletCacheDir(cacheDir, 'new'), 10000, 100);
   assert.equal(pruneCache({ cacheDir, maxBytes: 1e9 }), false);
-  assert.ok(fs.existsSync(path.join(cacheDir, 'npm', 'blob')));
-  assert.ok(dirSizeBytes(cacheDir) >= 10000);
+  assert.ok(!fs.existsSync(path.join(cacheDir, 'gradle')));
+  assert.deepEqual(fs.readdirSync(path.join(cacheDir, 'wallets')).sort(), ['mid', 'new', 'old']);
+  assert.equal(pruneCache({ cacheDir, maxBytes: dirSizeBytes(cacheDir) - 5000 }), true);
+  assert.deepEqual(fs.readdirSync(path.join(cacheDir, 'wallets')).sort(), ['mid', 'new']);
   assert.equal(pruneCache({ cacheDir, maxBytes: 100 }), true);
-  assert.deepEqual(fs.readdirSync(cacheDir), []);
+  assert.deepEqual(fs.readdirSync(cacheDir).flatMap(e => fs.readdirSync(path.join(cacheDir, e))), []);
   assert.equal(dirSizeBytes(path.join(cacheDir, 'missing')), 0);
+});
+
+test('runInContainer: each wallet gets its own cache, never the shared dir or the host caches', async () => {
+  const stub = stubDocker(`[ "$1" = run ] || exit 0
+W=$(${workMount})
+echo '{"ok":true}' > "$W/result.json"`);
+  const cacheDir = tmp('sa-cache-');
+  const mountOf = () => stub.argv('run').find(a => a.endsWith(':/cache:rw'));
+  await runInContainer({ name: 'com.a/b', repoUrl: 'https://github.com/o/a', workDir: tmp('sa-work-'), cli: stub.cli, cacheDir, timeoutMs: 10000 });
+  const a = mountOf();
+  await runInContainer({ name: 'com.c', repoUrl: 'https://github.com/o/c', workDir: tmp('sa-work-'), cli: stub.cli, cacheDir, timeoutMs: 10000 });
+  const c = mountOf();
+  assert.equal(a, `${path.join(cacheDir, 'wallets', 'com.a_b')}:/cache:rw`);
+  assert.equal(c, `${path.join(cacheDir, 'wallets', 'com.c')}:/cache:rw`);
+  assert.ok(fs.existsSync(path.join(cacheDir, 'wallets', 'com.c')));
+  assert.equal(walletCacheDir('/c', '..'), '/c/wallets/_.', 'a name cannot step out of wallets/');
 });

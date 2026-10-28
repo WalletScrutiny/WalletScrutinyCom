@@ -4,7 +4,7 @@
 // orchestration, the app list and the database.
 //
 // The container gets: this folder read-only at /analysis (code + node_modules),
-// a per-repository scratch dir at /work (clone, result.json), the shared
+// a per-repository scratch dir at /work (clone, result.json), the wallet's own
 // package caches at /cache. It gets no GitHub token, no database and no docker
 // socket, runs as the calling user with all capabilities dropped, a read-only
 // root, memory/cpu/pid limits and a hard timeout.
@@ -24,7 +24,8 @@ export const ANALYSIS_DIR = path.dirname(fileURLToPath(import.meta.url));
 export const CONTAINER_JAVA_HOME = '/usr/lib/jvm/java-17-openjdk-amd64';
 
 // Environment of the process inside the container. Everything that writes goes
-// to /work (per repository, deleted afterwards) or /cache (shared, size-capped).
+// to /work (per repository, deleted afterwards) or /cache (this wallet's own,
+// size-capped).
 export function containerEnv() {
   return {
     HOME: '/work/home',
@@ -73,6 +74,15 @@ export function buildRunArgs({
   return args;
 }
 
+// The package caches of one wallet: <cacheDir>/wallets/<name>. Each wallet gets
+// its own, so code one repository's build plants in a cache (a gradle init
+// script, a doctored npm tarball) only ever reaches later runs of the same
+// wallet, never the next wallet's check; and the host's own caches next to it
+// (submodules/) are out of reach.
+export function walletCacheDir(cacheDir, name) {
+  return path.join(cacheDir, 'wallets', name.replace(/[^a-zA-Z0-9.-]/g, '_').replace(/^\./, '_'));
+}
+
 export function containerName(appName) {
   return `sa-${appName.replace(/[^a-zA-Z0-9.-]/g, '_')}-${process.pid}`;
 }
@@ -112,7 +122,10 @@ export function runInContainer({
   timeoutMs = CONTAINER_TIMEOUT_MS, uid, gid,
 }) {
   fs.mkdirSync(path.join(workDir, 'home'), { recursive: true });
-  fs.mkdirSync(cacheDir, { recursive: true });
+  const walletCache = walletCacheDir(cacheDir, name);
+  fs.mkdirSync(walletCache, { recursive: true });
+  const now = new Date();
+  fs.utimesSync(walletCache, now, now); // last use, for pruneCache
   const resultPath = path.join(workDir, 'result.json');
   fs.rmSync(resultPath, { force: true });
 
@@ -120,7 +133,7 @@ export function runInContainer({
   if (ref) entryArgs.push('--ref', ref);
   if (includeTestFiles) entryArgs.push('--include-test-files');
   const cname = containerName(name);
-  const args = buildRunArgs({ image, name: cname, workDir, cacheDir, analysisDir, uid, gid, entryArgs });
+  const args = buildRunArgs({ image, name: cname, workDir, cacheDir: walletCache, analysisDir, uid, gid, entryArgs });
 
   return new Promise((resolve, reject) => {
     const child = spawn(cli, args, { stdio: ['ignore', 'pipe', 'pipe'] });
@@ -166,19 +179,38 @@ export function dirSizeBytes(dir) {
   }
 }
 
-// The npm/yarn/gradle/pip caches are only there to make the next pass faster.
-// When they grow past the cap they are wiped entirely (partial pruning would
-// have to understand four cache layouts); the next pass downloads again.
+// The shared caches containers wrote before each wallet got its own. Nothing
+// mounts them any more and anything in them may be planted, so they go.
+const SHARED_CACHES = ['gradle', 'npm', 'yarn', 'pip'];
+
+// The package caches are only there to make the next pass faster. Past the cap
+// the wallets' caches are wiped, least recently used first, until the total
+// fits; if it still does not, everything goes. The next pass downloads again.
 export function pruneCache({ cacheDir = CACHE_DIR, maxBytes = CACHE_MAX_BYTES } = {}) {
-  const size = dirSizeBytes(cacheDir);
+  if (!fs.existsSync(cacheDir)) return false;
+  for (const entry of SHARED_CACHES) fs.rmSync(path.join(cacheDir, entry), { recursive: true, force: true });
+  let size = dirSizeBytes(cacheDir);
   const gb = (n) => (n / 1e9).toFixed(1);
   if (size <= maxBytes) {
     console.log(`Package caches: ${gb(size)} GB in ${cacheDir} (cap ${gb(maxBytes)} GB)`);
     return false;
   }
-  console.log(`Package caches: ${gb(size)} GB in ${cacheDir} exceeds the ${gb(maxBytes)} GB cap, wiping them`);
-  for (const entry of fs.readdirSync(cacheDir)) {
-    fs.rmSync(path.join(cacheDir, entry), { recursive: true, force: true });
+  const walletsDir = path.join(cacheDir, 'wallets');
+  const wallets = fs.existsSync(walletsDir)
+    ? fs.readdirSync(walletsDir).map(n => path.join(walletsDir, n)).sort((a, b) => fs.statSync(a).mtimeMs - fs.statSync(b).mtimeMs)
+    : [];
+  let wiped = 0;
+  for (const dir of wallets) {
+    if (size <= maxBytes) break;
+    size -= dirSizeBytes(dir);
+    fs.rmSync(dir, { recursive: true, force: true });
+    wiped++;
+  }
+  if (size > maxBytes) {
+    console.log(`Package caches: ${gb(size)} GB in ${cacheDir} still exceed the ${gb(maxBytes)} GB cap, wiping them all`);
+    for (const entry of fs.readdirSync(cacheDir)) fs.rmSync(path.join(cacheDir, entry), { recursive: true, force: true });
+  } else {
+    console.log(`Package caches: wiped ${wiped} wallets' caches, least recently used first, to get ${cacheDir} under the ${gb(maxBytes)} GB cap`);
   }
   return true;
 }
