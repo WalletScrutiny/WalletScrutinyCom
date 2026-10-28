@@ -602,6 +602,8 @@ function notices(model) {
   }
   if (model.status === 'unsupported' && model.submodules) {
     items.push('No lockfile this check reads was found in this release, so only its git submodules were checked.');
+  } else if (model.status === 'unsupported' && coverage) {
+    // the coverage notice already says what was not read, in words
   } else if (model.status !== 'ok') {
     items.push(`This check ended with status "${model.status}"${model.error ? `: ${model.error}` : ''}.`);
   }
@@ -693,8 +695,8 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
     ),
     notices(model),
     flash ? el('p', { className: 'dp-flash', role: 'status' }, flash) : null,
-    // No lockfile was read (a C/C++ release with only submodules): zeros here would read as clean.
-    !model.packages && model.submodules ? null : el('div', { className: 'dp-tiles' },
+    // No lockfile was read (a C/C++ release with only submodules, or a Flutter one): zeros here would read as clean.
+    !model.packages && (model.submodules || model.status === 'unsupported') ? null : el('div', { className: 'dp-tiles' },
       tile(model.packages, 'dependencies', { sub: `${model.direct} direct · ${model.transitive} transitive` }),
       vulnerabilityTile(model),
       model.malware
@@ -930,7 +932,7 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
   const lists = { trusted: published?.trusted || [], maintainers: published?.maintainers || {} };
   const paint = (extra = {}) => {
     const release = selected ? releaseForVersion(app, selected) : null;
-    if (selected && (!release || ((release.status || 'ok') !== 'ok' && !release.submodules)) && app?.releases?.length) {
+    if (selected && (!release || ((release.status || 'ok') !== 'ok' && !release.submodules && !release.lockCoverage)) && app?.releases?.length) {
       model = { ref: release?.ref || null, selectedVersion: selected, notAnalysed: true };
       host.replaceChildren(notAnalysedElement(selected, app, platform, release));
       return model;

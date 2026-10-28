@@ -275,7 +275,9 @@ describe('dependencies panel', () => {
 
   test('the panel follows the version picked in "Every version"', async () => {
     const older = { ...APP.releases[0], ref: 'v1.3.0', commit: 'f0f0f0f0', advisories: [advisory('GHSA-old', 'low')], vulnerabilities: { total: 1, bySeverity: { low: 1 }, packages: 1 } };
-    const app = { ...APP, releases: [APP.releases[0], older, { ref: 'v1.2.0', status: 'failed', error: 'no lockfile' }] };
+    const app = { ...APP, releases: [APP.releases[0], older, { ref: 'v1.2.0', status: 'failed', error: 'no lockfile' },
+      { ref: 'v1.0.0', status: 'unsupported', lockfiles: [], advisories: [], dependencies: { total: 0, direct: 0 },
+        lockCoverage: { verdict: 'unknown', missing: [], missingCount: 0, unread: [{ ecosystem: 'pub', manifest: 'pubspec.yaml', lockfile: 'pubspec.lock' }], unreadCount: 1, floating: 0, downloads: [], downloadCount: 0, binaries: [], binaryCount: 0 } }] };
     const { fetchImpl } = fakeFetch({ '/x/apps/app.android.json': app });
     const river = document.createElement('div');
     river.id = 'buildVerifications-android';
@@ -314,6 +316,11 @@ describe('dependencies panel', () => {
 
     river.dispatchEvent(new window.CustomEvent('buildVersionSelected', { bubbles: true, detail: { platform: 'iphone', version: '1.4.0' } }));
     assert.match(host.querySelector('.dp-headline').textContent, /failed/, 'another platform\'s pick is ignored');
+
+    // nothing read, but the coverage says why: the panel with its notice, not "failed" (Bull Bitcoin v6.15.0)
+    pick('1.0.0');
+    assert.match(host.querySelector('.dp-headline').textContent, /Checked release v1\.0\.0/);
+    assert.match(host.querySelector('.dp-coverage').textContent, /Flutter \(pubspec\.lock\)/);
     river.remove();
     host.remove();
   });

@@ -190,7 +190,7 @@ export function panelModel(app, { storeVersion = '', release = null, selectedVer
   const releases = Array.isArray(app?.releases) ? app.releases : [];
   // The newest release whose analysis worked; a newer one that failed is reported, not shown.
   // A release of a language the lockfile check does not read can still have its git submodules checked.
-  const current = (release && releases.find(r => r.ref === release)) || releases.find(r => (r.status || 'ok') === 'ok' || r.submodules) || releases[0];
+  const current = (release && releases.find(r => r.ref === release)) || releases.find(r => (r.status || 'ok') === 'ok' || r.submodules || r.lockCoverage) || releases[0];
   if (!current) return null;
   const newerFailed = releases.slice(0, releases.indexOf(current)).filter(r => r.status && r.status !== 'ok');
 

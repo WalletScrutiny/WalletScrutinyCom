@@ -626,6 +626,18 @@ details.dp-decision__others {
     margin-bottom: 0;
   }
 
+  // File names: the site's light code chip would be a white box on the dark tip.
+  code {
+    padding: 0 2px;
+    border-radius: 3px;
+    border: 0;
+    background: rgba(255, 255, 255, 0.15);
+    color: inherit;
+    font-size: inherit;
+    white-space: normal;
+    overflow-wrap: anywhere; // a long path breaks inside the tip
+  }
+
   // Phones: the whole width (place() keeps the margins), a readable size.
   @media (max-width: 640px) {
     width: calc(100vw - 16px);
