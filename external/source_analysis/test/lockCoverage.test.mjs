@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import { findManifests, lockCoverage, unlistedInputs } from '../plugins/lock-coverage.mjs';
+import { findManifests, lockCoverage, unlistedInputs, coverageForReaders } from '../plugins/lock-coverage.mjs';
 
 function repo(files) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'lockcov-'));
@@ -170,4 +170,24 @@ test('development containers do not unlock the release', () => {
   for (const file of ['Dockerfile', 'Dockerfile.release', 'docker/Dockerfile.push-gateway', 'Dockerfile.developer-tools']) {
     assert.equal(verdict(file), 'unlocked', file);
   }
+});
+
+test('a pub workspace member is locked by the workspace root (Bull Bitcoin v6.15.0)', () => {
+  const m = findManifests(repo({
+    'pubspec.yaml': 'workspace:\n  - packages/ui\ndependencies:', 'pubspec.lock': '',
+    'packages/ui/pubspec.yaml': 'name: ui\nresolution: workspace\ndependencies:',
+    'packages/lone/pubspec.yaml': 'name: lone\ndependencies:',
+  }));
+  const lockOf = (rel) => m.find(x => x.manifest === rel).lockfile;
+  assert.equal(lockOf('packages/ui/pubspec.yaml'), 'pubspec.lock');
+  assert.equal(lockOf('packages/lone/pubspec.yaml'), null, 'not a workspace member: it needs its own lockfile');
+});
+
+test('readers see a shared unread lockfile once', () => {
+  const files = { 'pubspec.yaml': 'workspace:\n  - a\n  - b\ndependencies:', 'pubspec.lock': '',
+    'a/pubspec.yaml': 'resolution: workspace', 'b/pubspec.yaml': 'resolution: workspace' };
+  const stored = lockCoverage(findManifests(repo(files)));
+  const r = coverageForReaders(stored);
+  assert.deepEqual(r.unread.map(u => u.lockfile), ['pubspec.lock']);
+  assert.equal(r.unreadCount, 1);
 });

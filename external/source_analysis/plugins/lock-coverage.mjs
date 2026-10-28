@@ -128,7 +128,11 @@ export function findManifests(repoPath, files = null) {
     add('npm', m, lockAbove(m, ['package-lock.json', 'npm-shrinkwrap.json', 'yarn.lock', 'pnpm-lock.yaml', 'bun.lockb', 'bun.lock']));
   }
   for (const m of byName(/^Cargo\.toml$/)) add('cargo', m, lockAbove(m, ['Cargo.lock']));
-  for (const m of byName(/^pubspec\.yaml$/)) add('pub', m, lockHere(m, ['pubspec.lock']));
+  // A pub workspace member (`resolution: workspace`) is resolved into the
+  // workspace root's pubspec.lock, not one of its own.
+  for (const m of byName(/^pubspec\.yaml$/)) {
+    add('pub', m, lockHere(m, ['pubspec.lock']) || (/(^|\n)resolution:\s*workspace\b/.test(read(m)) ? lockAbove(m, ['pubspec.lock']) : null));
+  }
   for (const m of byName(/^Podfile$/)) add('cocoapods', m, lockHere(m, ['Podfile.lock']));
   for (const m of byName(/^Cartfile$/)) add('carthage', m, lockHere(m, ['Cartfile.resolved']));
   for (const m of byName(/^go\.mod$/)) add('go', m, lockHere(m, ['go.sum']) || lockAbove(m, ['go.work.sum']));
@@ -251,12 +255,15 @@ export function coverageForReaders(stored) {
   const binaryCount = u.binaryCount || 0;
   const unlisted = { downloadCount: Math.max(downloads.length, (u.downloadCount || 0) - (listed.length - downloads.length)), binaryCount };
   const c = grade(stored.manifests, stored.floatingRows || {}, unlisted);
+  // Workspace members share the root's lockfile: name each unread file once.
+  const seen = new Set();
+  const unread = c.unread.filter(m => { const k = `${m.ecosystem} ${m.lockfile || m.manifest}`; return !seen.has(k) && seen.add(k); });
   return {
     verdict: c.verdict,
     missing: c.missing.slice(0, SHOWN_CAP).map(m => ({ ecosystem: m.ecosystem, manifest: m.manifest })),
     missingCount: c.missing.length,
-    unread: c.unread.slice(0, SHOWN_CAP),
-    unreadCount: c.unread.length,
+    unread: unread.slice(0, SHOWN_CAP),
+    unreadCount: unread.length,
     floating: c.floating,
     downloads: downloads.slice(0, SHOWN_CAP).map(d => ({ file: d.file, line: d.line, target: d.target })),
     downloadCount: unlisted.downloadCount,
