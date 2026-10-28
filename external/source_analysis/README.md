@@ -301,9 +301,15 @@ clone, one batched query per release, `recheck.mjs`), and for each wallet
 whose stored advisories changed (new, withdrawn, or edited, such as a raised
 severity) rewrites its files with `exportApp`, rebuilds `signals.json` and
 rsyncs those files. Nothing changed, nothing is written. It needs an export
-to exist, and it is skipped while a pass runs (`ExecCondition`), since the
-pass rechecks and exports everything when it ends. So a new advisory reaches
-the page within about an hour, or at the end of a pass that is running then.
+to exist, and it is skipped while a pass runs, since the pass rechecks and
+exports everything when it ends. So a new advisory reaches the page within
+about an hour, or at the end of a pass that is running then.
+
+Only one of them writes at a time. A pass (from the timer or by hand), the
+refresh and `node export.mjs` take a lock file next to the database
+(`assets.db.lock`, holding the owner's pid; `runLock.mjs`). The refresh skips
+when it is held; a pass and `export.mjs` wait for it, which for a refresh is
+minutes. A lock left by a killed run is taken over once its pid is gone.
 
 `scope` says where a package ends up, as far as the files say: `app` when it
 is reachable from the project's own dependencies, `build` when only from its

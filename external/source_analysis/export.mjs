@@ -391,6 +391,9 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
     process.exit(2);
   }
   const { initDatabase } = await import('./ddbbUtils.mjs');
+  const { DB_PATH } = await import('./config.mjs');
+  const { lockPathFor, waitForLock } = await import('./runLock.mjs');
+  const release = await waitForLock(lockPathFor(DB_PATH)); // not while a pass or refresh writes
   const db = initDatabase();
   try {
     const { SCOPE } = await import('./config.mjs');
@@ -398,5 +401,6 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
     console.log(`Exported ${apps} apps, ${releases} releases to ${dir}`);
   } finally {
     db.close();
+    release();
   }
 }

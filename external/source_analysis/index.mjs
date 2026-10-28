@@ -7,7 +7,8 @@ import { backupDatabase, initDatabase, saveAsset, hasExistingAssets, getAnalysed
 import { runSourceCodeAnalysis, remoteHeadCommit, remoteHeadDate, analyserVersion } from './appAnalysis.mjs';
 import { recheckStoredReleases } from './recheck.mjs';
 import { pruneCache } from './containerRunner.mjs';
-import { APPS, APP_LIST_URL, DEFAULT_TEMP_DIR, CONCURRENCY, EXPORT_DIR, SCOPE, VERIFIED_PER_PASS, GONE_EOL_YEARS } from './config.mjs';
+import { APPS, APP_LIST_URL, DEFAULT_TEMP_DIR, CONCURRENCY, EXPORT_DIR, SCOPE, VERIFIED_PER_PASS, GONE_EOL_YEARS, DB_PATH } from './config.mjs';
+import { lockPathFor, waitForLock } from './runLock.mjs';
 import { loadReproducible, verifiedVersionsOf, analyseVerifiedVersions } from './reproducible.mjs';
 import { loadAppList, groupByRepository } from './appList.mjs';
 import { runPool, tagConsole } from './pool.mjs';
@@ -182,6 +183,10 @@ try {
   console.error(`✗  ${error.message}`);
   process.exit(1);
 }
+
+// One writer of the database and the export at a time (runLock.mjs): wait
+// for a running advisory refresh, and make the next one skip until this ends.
+await waitForLock(lockPathFor(DB_PATH));
 
 // Backup database before starting the process
 backupDatabase();

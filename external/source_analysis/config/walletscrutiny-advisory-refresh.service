@@ -23,7 +23,7 @@ NoNewPrivileges=yes
 PrivateTmp=yes
 ProtectSystem=full
 
-# A running pass rechecks and exports everything when it ends, and swaps the
-# export directory; this run is skipped (not failed) while one is active.
-ExecCondition=/bin/sh -c '! systemctl is-active --quiet walletscrutiny-source-analysis.service'
+# A running pass (the timer's or a manual one) rechecks and exports everything
+# when it ends; refresh-cli.mjs exits 0 without doing anything while one holds
+# the lock next to the database (runLock.mjs), and a pass waits for this run.
 ExecStart=/usr/bin/node refresh-cli.mjs
