@@ -47,7 +47,7 @@ a timer every 6 hours:
 | per-repository scratch | `/var/cache/walletscrutiny-source-analysis/repos` (`SOURCE_ANALYSIS_TEMP_DIR`), deleted after each repository |
 | scope | wallets with a reproducible build verification of any version (kind 30301 on the project relays, `reproducible.mjs`), each verified version analysed at its tag, 3 per wallet and pass (`SOURCE_ANALYSIS_VERIFIED_PER_PASS`); `SOURCE_ANALYSIS_SCOPE=all` analyses every wallet with a repository. Needs Node 22 (WebSocket) |
 | parallel repositories | 3 (`SOURCE_ANALYSIS_CONCURRENCY`), each in its own container with the [Sandbox](#sandbox) limits, so 18 GB / 6 CPUs for the analysis containers by default, next to the build server (the Semgrep container has no limits); every log line is prefixed with the `[appId]` of its repository |
-| package caches | `/var/cache/walletscrutiny-source-analysis/cache` (`SOURCE_ANALYSIS_CACHE_DIR`), npm/yarn/gradle/pip caches shared by the analysis containers, wiped when they pass `SOURCE_ANALYSIS_CACHE_MAX_GB` (20) |
+| package caches | `/var/cache/walletscrutiny-source-analysis/cache` (`SOURCE_ANALYSIS_CACHE_DIR`), npm/yarn/gradle/pip caches, one set per wallet under `wallets/`; past `SOURCE_ANALYSIS_CACHE_MAX_GB` (20) the least recently used wallets' caches are wiped |
 | analysis image | `ANALYSIS_IMAGE` in `config.mjs`, pinned by digest; pulled by the deploy, superseded copies removed |
 | GitHub token | `/etc/credstore.encrypted/build-server-gh-token`, handed to the process as `GITHUB_TOKEN_FILE` |
 | logs | journal: `journalctl -u walletscrutiny-source-analysis.service` |
@@ -534,7 +534,7 @@ result and deletes the scratch directory; it never opens a file of the repositor
 
 | | |
 |---|---|
-| mounts | this folder read-only at `/analysis` (code and `node_modules`; the entry point loads only pure-JS packages), the per-repository scratch dir at `/work`, the shared package caches at `/cache` |
+| mounts | this folder read-only at `/analysis` (code and `node_modules`; the entry point loads only pure-JS packages), the per-repository scratch dir at `/work`, the wallet's own package caches at `/cache` |
 | not in the container | the GitHub token, `assets.db`, the docker socket |
 | hardening | runs as the service user (`--user`), `--cap-drop ALL`, `--security-opt no-new-privileges`, read-only root with a tmpfs `/tmp`, `--memory 6g --cpus 2 --pids-limit 2048`, killed after 45 min (`SOURCE_ANALYSIS_CONTAINER_MEMORY`, `_CPUS`, `_PIDS`, `_TIMEOUT_MIN`) |
 | inside | `HOME=/work/home`, `npm_config_ignore_scripts=true` (the repositories' npm lifecycle scripts never run), `GIT_TERMINAL_PROMPT=0` (a private or removed repository fails instead of waiting for credentials), `PIP_USER=1` (pip installs under `/work`), JDK 17 as `JAVA_HOME` |
@@ -542,10 +542,10 @@ result and deletes the scratch directory; it never opens a file of the repositor
 
 Semgrep (test 11) is its own container, started by the host on the checkout the
 first container leaves in the scratch dir. The image is the one place a hostile
-repository can reach: the network (its own installs need it) and the shared
-`/cache` (poisoning the npm/gradle cache for the next repository is possible;
-the caches are wiped past their size cap and can be set to a small cap for
-strict isolation at the price of re-downloads). Gradle projects needing an SDK
+repository can reach: the network (its own installs need it) and its own
+`/cache`. Each wallet gets a separate cache directory, so whatever one
+repository's build plants there (a gradle init script, a doctored npm package)
+reaches only later checks of the same wallet, never another wallet's. Gradle projects needing an SDK
 platform the image lacks fail their gradle tests (the SDK directory in the image
 is not writable for the service user); they still get the lockfile-based tests.
 Flutter projects are detected as `unknown` and get the file-only tests.
