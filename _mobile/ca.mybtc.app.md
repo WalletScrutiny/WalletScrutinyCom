@@ -5,8 +5,6 @@ authors:
 - leo
 website: https://mybtc.ca/
 twitter: MyBTCca
-redirect_from:
-- /iphone/ca.mybtc.app/
 android:
   appId: ca.mybtc.app
   users: 1000
@@ -43,10 +41,10 @@ MyBTC.ca is a Canadian cryptocurrency broker, registered as a Money Service Busi
 - **Selling.** To sell, the user sends coins from an external wallet "to the designated receiving wallet address provided". After confirmation, the coins are "converted immediately to CAD", which can be withdrawn by Interac e-Transfer or bank transfer. The account balance therefore holds only Canadian dollars.
 - The [home page](https://mybtc.ca/) says that MyBTC.ca will "mandate you, as our valued customer, to send your purchased Bitcoin and Ether to an external wallet".
 
-The app buys bitcoin into a wallet the user brings and keeps no bitcoin balance itself. It is a broker, not a wallet, as described in [our methodology](/methodology/#nowallet).
+The app buys bitcoin into a wallet the user brings and keeps no bitcoin balance itself. It is a broker, not a wallet: {% include verdictBadge.html verdict="nowallet" type='short' %}.
 
-## iOS
+## iPhone
 
-There is also an [iOS version on the App Store](https://apps.apple.com/ca/app/id6470927556). The provider's website links to it, and it gives access to the same account and service, so the same verdict applies to it.
+The provider's website links to the iOS app. It gives access to the same account and service, so the same verdict applies to it.
 
 **Not a wallet**

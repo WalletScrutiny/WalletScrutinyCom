@@ -5,8 +5,6 @@ authors:
 - leo
 website: https://cocos.capital
 twitter: cocoscap
-redirect_from:
-- /iphone/com.cocoscrypto.app/
 android:
   appId: com.cocoscrypto.app
   users: 5000
@@ -41,10 +39,10 @@ Cocos Crypto is the cryptocurrency app of Cocos, an Argentine investment platfor
 - **Bitcoin support.** Bitcoin (BTC) is the first coin listed in the Play Store description and on the [cryptocurrency page](https://cocos.capital/inversiones/criptomonedas). For external transfers, the store description says: "if you need to use external wallets, send and receive funds via the blockchain." We found no Cocos document that names the networks supported for BTC deposits and withdrawals.
 - **Custody.** The [Cocos Crypto Terms and Conditions](https://cocos.capital/legales/cocos-crypto/terminos-y-condiciones-cocos-crypto.pdf) say the crypto service "se concretará a través de la infraestructura informática, servicios de custodia y capacidad operacional de LIRIUM AG" (is carried out through the IT infrastructure, custody services and operations of LIRIUM AG). LIRIUM AG is a Liechtenstein company with a licence for "custodia calificada de criptoactivos" (qualified custody of crypto assets). Among the risks users accept, the Terms list "Riesgos vinculados con la utilización de una Billetera Lirium" (risks of using a Lirium wallet).
 
-Users' coins are held in Lirium wallets under Lirium's custody, not by the user. That makes the app [custodial](/methodology/#custodial).
+Users' coins are held in Lirium wallets under Lirium's custody, not by the user. That makes the app {% include verdictBadge.html verdict="custodial" type='short' %}.
 
-## iOS
+## iPhone
 
-There is also an [iOS version on the App Store](https://apps.apple.com/ar/app/id6800873587). It is published by Cocos Capital Servicios Digitales SA, the same provider, and it gives access to the same account and service, so the same verdict applies to it.
+The iOS app is published by Cocos Capital Servicios Digitales SA, the same provider, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**

@@ -4,8 +4,6 @@ date: 2026-10-28
 authors:
 - leo
 website: https://global.btcturk.com
-redirect_from:
-- /iphone/com.btcturk.global/
 android:
   appId: com.btcturk.global
   users: 10000
@@ -39,12 +37,12 @@ BtcTurk | Global is the international exchange of the BtcTurk group, run by BtcT
 
 - **Bitcoin support.** The [fee page](https://global.btcturk.com/fee-information) lists BTC on the Bitcoin network with a deposit fee of 0 BTC and a withdrawal fee of 0.00005 BTC. Section 4 of the [Terms of Use](https://global.btcturk.com/legal-information/terms-of-use) says "The User may deposit and/or withdraw Crypto Assets".
 - **Custody.** The Terms of Use say: "To the extent that Users maintain storage of their Crypto Assets with BtcTurk | Global, BtcTurk | Global shall retain control of the private keys associated with the wallets controlled by BtcTurk | Global, including the blockchain addresses holding their Crypto Assets." The same section says users "may withdraw their Crypto Assets at any time by transferring them to a different blockchain address".
-- **Related listing.** BtcTurk's Turkish exchange app, [BtcTurk | Kripto](/mobile/com.btcturk.pro/) (`com.btcturk.pro`), is already listed as custodial. The website says BtcTurk | Kripto "currently only serves its primary local market", while this app serves global users. They are separate products for separate markets.
+- **Related listing.** BtcTurk's Turkish exchange app, {% include walletLink.html wallet='android/com.btcturk.pro' verdict='true' %}, is already listed as custodial. The website says BtcTurk | Kripto "currently only serves its primary local market", while this app serves global users. They are separate products for separate markets.
 
-The terms state that BtcTurk | Global keeps the private keys for users' deposited assets. That makes the app [custodial](/methodology/#custodial).
+The terms state that BtcTurk | Global keeps the private keys for users' deposited assets. That makes the app {% include verdictBadge.html verdict="custodial" type='short' %}.
 
-## iOS
+## iPhone
 
-There is also an [iOS version on the App Store](https://apps.apple.com/tr/app/id6744916635). It is published by BtcTurk Global Inc., the same provider, and it gives access to the same account and service, so the same verdict applies to it.
+The iOS app is published by BtcTurk Global Inc., the same provider, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**

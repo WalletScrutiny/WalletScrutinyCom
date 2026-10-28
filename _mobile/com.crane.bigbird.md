@@ -5,8 +5,6 @@ authors:
 - leo
 website: https://usecrane.co
 twitter: usecrane_
-redirect_from:
-- /iphone/com.crane.bigbird/
 android:
   appId: com.crane.bigbird
   users: 10000
@@ -44,10 +42,10 @@ Crane, published by Crane, Inc, is aimed at freelancers and businesses in Nigeri
 - **BTC is held, not withdrawn.** According to the help article [How to use the Crane app](https://intercom.help/crane-aef1012755d7/en/articles/8548477-how-to-use-the-crane-app), the app lets users "save the digital asset on the digital wallet, and convert it to naira at your convenience". Its flow ends "receive crypto/stablecoin > convert to naira > withdraw to a local bank account". The same article says: "**Withdraw** transfers money from your Crane digital naira wallet to your local bank account." Its Receive, Convert and Withdraw buttons offer no way to send crypto out.
 - **Custody.** The terms say "custody infrastructure" may be performed "by third-party partners", and that Crane "may place holds on funds, delay access, or restrict withdrawals". Users do not get keys.
 
-Crane holds coins for the user, but its documentation describes no way to withdraw them as crypto. It only receives coins and pays out in naira. That makes it a custodial product that [cannot send bitcoins](/methodology/#nosendreceive).
+Crane holds coins for the user, but its documentation describes no way to withdraw them as crypto. It only receives coins and pays out in naira. That makes it a custodial product that {% include verdictBadge.html verdict="nosendreceive" type='short' %}.
 
-## iOS
+## iPhone
 
-There is also an [iOS version on the App Store](https://apps.apple.com/ng/app/id6502242343). The provider's website links to it, and it gives access to the same account and service, so the same verdict applies to it.
+The provider's website links to the iOS app. It gives access to the same account and service, so the same verdict applies to it.
 
 **Can't send or receive bitcoins**

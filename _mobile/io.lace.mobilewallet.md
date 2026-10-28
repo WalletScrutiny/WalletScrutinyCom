@@ -5,8 +5,6 @@ authors:
 - leo
 website: https://lace.io
 twitter: lace_io
-redirect_from:
-- /iphone/io.lace.mobilewallet/
 android:
   appId: io.lace.mobilewallet
   users: 5000
@@ -15,6 +13,7 @@ android:
   updated: 2026-10-07
   version: 2.4.2
   reviews: 3
+  repository: https://github.com/input-output-hk/lace
   icon: io.lace.mobilewallet.webp
   meta: ok
   verdict: sourceavailable
@@ -27,6 +26,7 @@ iphone:
   updated: 2026-08-24
   version: 2.2.0
   reviews: 16
+  repository: https://github.com/input-output-hk/lace
   icon: io.lace.mobilewallet.webp
   meta: ok
   verdict: sourceavailable
@@ -44,10 +44,10 @@ Lace is a wallet by IOHK (Input Output), the company behind Cardano. The Android
 - **Custody.** The listing calls Lace "non-custodial". The repository has a recovery-phrase contract package (`packages/contract/recovery-phrase`) and local and in-memory key vaults (`packages/module/vault-local`, `vault-in-memory`). We found nothing indicating that keys are held by IOHK.
 - **Source code.** A GitHub code search for `io.lace.mobilewallet` leads to the Apache-2.0 repository [input-output-hk/lace](https://github.com/input-output-hk/lace), which contains the mobile app in `apps/lace-mobile`. The [app.json](https://github.com/input-output-hk/lace/blob/main/apps/lace-mobile/app.json) there declares `"package": "io.lace.mobilewallet"`, and its Android version, 2.4.2, is the same as the version on Google Play. The newest mobile release tag is [lace-mobile@2.4.0](https://github.com/input-output-hk/lace/releases/tag/lace-mobile%402.4.0) (2026-09-29). Version 2.4.2 exists only on the `main` branch so far.
 
-The app's current source is public under the same app ID, so Lace is [source available](/methodology/#sourceavailable). A reproducibility test is still to be done.
+The app's current source is public under the same app ID, so Lace is {% include verdictBadge.html verdict="sourceavailable" type='short' %}. A reproducibility test is still to be done.
 
-## iOS
+## iPhone
 
-There is also an [iOS version on the App Store](https://apps.apple.com/us/app/id6743856101). The provider's website links to it, and it is the same wallet, so the same verdict applies to it. The same `apps/lace-mobile` source declares the iOS bundle ID `io.lace.mobilewallet` in its [app.json](https://github.com/input-output-hk/lace/blob/main/apps/lace-mobile/app.json). We have not tried to build it.
+The provider's website links to the iOS app, and it is the same wallet, so the same verdict applies to it. The same `apps/lace-mobile` source declares the iOS bundle ID `io.lace.mobilewallet` in its [app.json](https://github.com/input-output-hk/lace/blob/main/apps/lace-mobile/app.json). We have not tried to build it.
 
 **Source code is available**

@@ -5,8 +5,6 @@ authors:
 - leo
 website: https://yesaapp.ng
 twitter: yesaapp
-redirect_from:
-- /iphone/com.app.yesa/
 android:
   appId: com.app.yesa
   users: 10000
@@ -42,10 +40,10 @@ Yesa is a Nigerian app for selling and buying crypto against naira. It supports 
 - **BTC can be held and sent.** The [Buy Bitcoin page](https://yesaapp.ng/buy-bitcoin-in-nigeria.html) says "the BTC lands in your Yesa wallet" and "Bitcoin you hold in your Yesa wallet stays put until you do something with it". It adds that the BTC "is then yours to hold, swap, send or sell back". Sending "to your own wallet ... goes over the Bitcoin network", and "The send screen shows the fee before you confirm."
 - **Custody.** Selling BTC held in the app happens "inside Yesa, so nothing travels over the Bitcoin network". The balance is therefore an entry on Yesa's books, not coins in a wallet the user controls. The [terms](https://yesaapp.ng/terms.html) list "wallet services for digital assets" among Yesa's services. The Play description says "Yesa holds the dollars until you choose the moment to convert". We found no claim of self-custody and no seed phrase.
 
-Yesa holds BTC for its users as internal balances and lets them deposit and withdraw it on the Bitcoin network. This is a [custodial](/methodology/#custodial) service.
+Yesa holds BTC for its users as internal balances and lets them deposit and withdraw it on the Bitcoin network. This is a {% include verdictBadge.html verdict="custodial" type='short' %} service.
 
-## iOS
+## iPhone
 
-There is also an [iOS version on the App Store](https://apps.apple.com/ng/app/id6749385545). The provider's website links to it, and it gives access to the same account and service, so the same verdict applies to it.
+The provider's website links to the iOS app. It gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**

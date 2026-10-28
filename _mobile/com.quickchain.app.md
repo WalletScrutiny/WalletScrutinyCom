@@ -5,8 +5,6 @@ authors:
 - leo
 website: https://www.quickchain.app
 twitter: quickchainapp
-redirect_from:
-- /iphone/com.quickchain.ios/
 android:
   appId: com.quickchain.app
   users: 10000
@@ -45,10 +43,10 @@ QuickChain, published by QUCHANGE TECHNOLOGIES, is a Nigerian app for selling cr
 - **Custody.** The balance is a naira wallet held by the provider.
 - **Sources we could not read.** The website [quickchain.app](https://www.quickchain.app/) is a JavaScript application that rendered no text for us, so we could not read its terms. The help-centre article we found returned 404. This analysis rests on the Google Play description.
 
-Bitcoin sent to QuickChain is converted to a custodial naira balance on arrival, and the app describes no way to send BTC out. We therefore list it as [cannot send or receive bitcoins](/methodology/#nosendreceive).
+Bitcoin sent to QuickChain is converted to a custodial naira balance on arrival, and the app describes no way to send BTC out. We therefore list it as {% include verdictBadge.html verdict="nosendreceive" type='short' %}.
 
-## iOS
+## iPhone
 
-There is also an [iOS version on the App Store](https://apps.apple.com/ng/app/id6738952667). The provider's website links to it, and it gives access to the same account and service, so the same verdict applies to it. Its App Store description mentions only gift cards, virtual cards and bill payments, not crypto.
+The provider's website links to the iOS app. It gives access to the same account and service, so the same verdict applies to it. Its App Store description mentions only gift cards, virtual cards and bill payments, not crypto.
 
 **Can't send or receive bitcoins**

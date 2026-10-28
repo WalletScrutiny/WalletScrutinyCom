@@ -4,8 +4,6 @@ date: 2026-10-28
 authors:
 - leo
 website: https://coin.z.com/jp/
-redirect_from:
-- /iphone/com.z.coin.jp.wallet/
 android:
   appId: com.gmowallet.mobilewallet
   users: 100000
@@ -41,10 +39,10 @@ This is the app of GMO Coin, Inc., a Japanese crypto exchange in the GMO Interne
 - **Sending and receiving.** GMO Coin's help article on deposits ([暗号資産の預入方法を教えてください](https://support.coin.z.com/hc/ja/articles/115012950248)) tells app users to open "【ホーム】-【預入/送付】-（銘柄を選択）-【預入】" ("Home > Deposit/Send > (choose asset) > Deposit") to see the deposit address, then send from the "送付元サービス、ウォレット" ("sending service or wallet"). The article on sending ([暗号資産の送付方法を教えてください](https://support.coin.z.com/hc/ja/articles/115010364528)) uses the same menu and the "【送付】" (Send) tab, to a registered destination address.
 - **Custody.** GMO Coin's help article on asset segregation ([分別管理について教えてください](https://support.coin.z.com/hc/ja/articles/115007373008)) says: "お客さまから預託された資産は全て当社の資産と分別して管理しており" ("all assets entrusted to us by customers are managed separately from the company's assets") and "暗号資産の保管場所は、当社保有分とお客さま保有分で物理的に分離しています" ("the storage locations of crypto assets are physically separated between the company's holdings and customers' holdings"). The company, not the user, stores the customers' crypto.
 
-GMO Coin keeps the crypto customers entrust to it, so the app is [custodial](/methodology/#custodial). We found no other listing for GMO Coin. The existing [Z.com EX](/mobile/com.gmo.exchange/) listing belongs to a different GMO company in Thailand.
+GMO Coin keeps the crypto customers entrust to it, so the app is {% include verdictBadge.html verdict="custodial" type='short' %}. We found no other listing for GMO Coin. The existing {% include walletLink.html wallet='android/com.gmo.exchange' verdict='true' %} listing belongs to a different GMO company in Thailand.
 
-## iOS
+## iPhone
 
-There is also an [iOS version on the App Store](https://apps.apple.com/jp/app/id1388836948). It is published by GMO Coin, Inc., the same provider, and it gives access to the same account and service, so the same verdict applies to it.
+The iOS app is published by GMO Coin, Inc., the same provider, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**

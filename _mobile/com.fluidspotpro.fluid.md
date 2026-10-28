@@ -29,6 +29,6 @@ Fluid is published on Google Play by "Fluid Android". It describes itself as a "
 - The linked [privacy policy](https://www.privacypolicies.com/live/5331ad6a-97ad-46fd-bc6d-2f120a3fa4e1) was made with a generator, dates from October 14, 2023, and only names "Fluid" in "Missouri, United States" as the company. It says nothing about holding funds.
 - The app has not been updated since November 2023.
 
-By its own description the wallet has not been released, and the app offers price tracking and news only. We found no evidence that it can hold or move funds, so it is [not a wallet](/methodology/#nowallet).
+By its own description the wallet has not been released, and the app offers price tracking and news only. We found no evidence that it can hold or move funds, so it is {% include verdictBadge.html verdict="nowallet" type='short' %}.
 
 **Not a wallet**

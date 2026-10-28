@@ -30,6 +30,6 @@ IPMB Wallet is a multi-chain wallet published by IPMB, a gold tokenization compa
 - **Source code.** IPMB's GitHub organization, [IpmbOfficial](https://github.com/IpmbOfficial), linked from ipmb.com, has four repositories, all of them smart contracts (IPMB ERC-20, GPRO ERC-20, GEM, staking). None is the wallet app. A GitHub code search for `com.ipmb.app` found no repository for the app. The announcement says the wallet is built on third-party technology but does not name it.
 - **Discontinued.** IPMB says it "made the decision to transition away from the dedicated IPMB Wallet" because of "persistent technical and support issues affecting the reliability and functionality of the underlying third-party wallet technology". The app is still on Google Play, and its latest update (2025-11-11) came after the announcement.
 
-IPMB says the wallet is self-custodial, but we found no source code for it, so a [reproducible build](/methodology/#nosource) cannot be attempted. IPMB itself has stopped maintaining the app and recommends that users move to another wallet.
+IPMB says the wallet is self-custodial, but we found no source code for it, so a reproducible build cannot be attempted. The app is {% include verdictBadge.html verdict="nosource" type='short' %}. IPMB itself has stopped maintaining the app and recommends that users move to another wallet.
 
 **No source for current release found**

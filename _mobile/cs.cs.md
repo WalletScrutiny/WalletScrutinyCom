@@ -5,8 +5,6 @@ authors:
 - leo
 website: https://coinstash.com.au
 twitter: Coinstash_AU
-redirect_from:
-- /iphone/com.coinstash.coinstash/
 android:
   appId: cs.cs
   users: 10000
@@ -42,10 +40,10 @@ Coinstash is an Australian crypto exchange run by Coinstash Australia. Its Play 
 - **Bitcoin support.** The help article [BTC Withdrawal Processing Times and Blockchain Confirmation](https://help.coinstash.com.au/en/articles/15358487-btc-withdrawal-processing-times-and-blockchain-confirmation) says: "After Coinstash processes and broadcasts your BTC withdrawal, the transaction must be confirmed by the Bitcoin network." The help centre's Deposits & Withdrawals section also has a guide to [depositing cryptocurrency](https://help.coinstash.com.au/en/articles/13457957-how-to-deposit-cryptocurrency-into-your-coinstash-account).
 - **Custody.** The Play Store description says "Coinstash maintains full currency reserves at all times. All customer funds are held 1:1 and available for withdrawal at any time." The help article [Platform Security and Audits](https://help.coinstash.com.au/en/articles/13328858-platform-security-and-audits) says "Every dollar and token our customers hold on the platform is backed 1:1 by reserves" and "Coinstash has partnered with trusted custodians such as Fireblocks and Ledger". Withdrawals are processed by Coinstash, may be held "pending" for Travel Rule checks, and are then broadcast by Coinstash.
 
-Coinstash and its custody partners hold users' coins, and Coinstash processes withdrawals. That makes the app [custodial](/methodology/#custodial).
+Coinstash and its custody partners hold users' coins, and Coinstash processes withdrawals. That makes the app {% include verdictBadge.html verdict="custodial" type='short' %}.
 
-## iOS
+## iPhone
 
-There is also an [iOS version on the App Store](https://apps.apple.com/au/app/id1577145939). The provider's website links to it, and it gives access to the same account and service, so the same verdict applies to it.
+The provider's website links to the iOS app. It gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**

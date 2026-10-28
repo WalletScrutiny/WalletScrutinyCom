@@ -4,8 +4,6 @@ date: 2026-10-28
 authors:
 - leo
 website: https://ecstasynigeria.com/privacy
-redirect_from:
-- /iphone/com.ecstasy.app/
 android:
   appId: com.softweb.ecstasy
   users: 100000
@@ -43,10 +41,10 @@ Ecstasy is a Nigerian payments app published by Ecstasy Nigeria (named "Ecstasy 
 - **No BTC balance or withdrawal described.** Every description of the crypto feature is a conversion into naira. We found no statement that the app holds BTC for the user or that BTC can be sent out of the app. The website describes withdrawals only as "wallet withdrawals to personal bank accounts" ([About](https://ecstasynigeria.com/about)).
 - **Custody.** The naira balance sits with the provider and its banking partners, so the app is custodial for whatever it holds.
 
-The publisher gives very little information on its crypto service. What there is describes crypto being converted into a custodial naira balance, with no BTC withdrawal. We did not install the app, so we could not confirm which coins it accepts. We therefore choose the more conservative verdict and list it as [unable to send or receive bitcoins](/methodology/#nosendreceive), not as a non-Bitcoin product.
+The publisher gives very little information on its crypto service. What there is describes crypto being converted into a custodial naira balance, with no BTC withdrawal. We did not install the app, so we could not confirm which coins it accepts. We therefore choose the more conservative verdict and list it as {% include verdictBadge.html verdict="nosendreceive" type='short' %}, not as a non-Bitcoin product.
 
-## iOS
+## iPhone
 
-There is also an [iOS version on the App Store](https://apps.apple.com/ng/app/id6448960100). It is published by Ecstasy Nigeria, the same provider, and it gives access to the same account and service, so the same verdict applies to it.
+The iOS app is published by Ecstasy Nigeria, the same provider, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Can't send or receive bitcoins**

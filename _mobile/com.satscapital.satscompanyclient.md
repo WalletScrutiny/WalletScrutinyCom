@@ -4,8 +4,6 @@ date: 2026-10-28
 authors:
 - leo
 website: https://www.satscapital.com.br
-redirect_from:
-- /iphone/com.satscapital.satsClient/
 android:
   appId: com.satscapital.satscompanyclient
   users: 10000
@@ -43,10 +41,10 @@ SATS: Bitcoin Cashback is published by Sats Capital (SATS CAPITAL LTDA., Brazil)
 - **No deposits.** Balances come only from cashback. Neither the Play Store description, the [website](https://www.satscapital.com.br) nor the Terms describe sending bitcoin into the app.
 - **Withdrawals: conflicting statements.** The Security page says "A qualquer momento você pode transferir seus satoshis para sua carteira pessoal (Lightning)" (you can move your satoshis to your own Lightning wallet at any time), and the homepage lists "Saque em Bitcoin" (Bitcoin withdrawal). The Terms of Use, titled "Termo de Usuário - Versão Experimental do Sistema Sats Capital", say the opposite in capitals: "A VERSÃO EXPERIMENTAL E ATUAL DO SISTEMA SATS CAPITAL AINDA NÃO PERMITE O RESGATE DOS SATOSHIS (BITCOIN) OBTIDOS ATRAVÉS DE CASHBACK" (the current experimental version does not yet allow redeeming the satoshis earned as cashback). The Terms also say that registered data and cashback information "podem arbitrariamente ser apagadas do sistema" (may be deleted arbitrarily). We did not install the app and could not check which statement holds.
 
-Bitcoin cannot be deposited into SATS, and the provider's binding terms say the earned satoshis cannot yet be withdrawn. We therefore rate it [no send/receive](/methodology/#nosendreceive). If Lightning withdrawals are confirmed to work, the app would still be custodial, because the satoshis are held by the provider's custody partners.
+Bitcoin cannot be deposited into SATS, and the provider's binding terms say the earned satoshis cannot yet be withdrawn. We therefore rate it {% include verdictBadge.html verdict="nosendreceive" type='short' %}. If Lightning withdrawals are confirmed to work, the app would still be custodial, because the satoshis are held by the provider's custody partners.
 
-## iOS
+## iPhone
 
-There is also an [iOS version on the App Store](https://apps.apple.com/br/app/id6737625497). The provider's website links to it, and it gives access to the same account and service, so the same verdict applies to it.
+The provider's website links to the iOS app. It gives access to the same account and service, so the same verdict applies to it.
 
 **Can't send or receive bitcoins**

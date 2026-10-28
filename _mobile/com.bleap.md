@@ -5,8 +5,6 @@ authors:
 - leo
 website: https://www.bleap.finance
 twitter: BleapApp
-redirect_from:
-- /iphone/com.bleap/
 android:
   appId: com.bleap
   users: 50000
@@ -45,10 +43,10 @@ Bleap is a crypto finance app from Bleap (Bleap SIA, Latvia). It combines a Mast
 - **Tracking is not holding.** The listing's "Sync wallets across Ethereum, Bitcoin, and Solana" describes tracking external wallets. It does not mean Bleap holds Bitcoin.
 - **Custody (for completeness).** [Security & Keys at Bleap](https://help.bleap.finance/en/articles/11012551-security-keys-at-bleap) says the key "consists of two separate parts" (one on your device, one on PortalHQ). [How to use your wallet without Bleap](https://help.bleap.finance/en/articles/15887052-how-to-use-your-wallet-without-bleap-guide) describes a "Slow Withdrawal" that needs only the user's exported key and a waiting period of 24 to 72 hours. We did not look into this further, because it only matters for the non-Bitcoin assets.
 
-Any "Bitcoin" in Bleap would be a token on a smart-contract chain such as Arbitrum, or a conversion through Bleap's bridge, not BTC on the Bitcoin network. Bleap is therefore [a wallet, but not for Bitcoin](/methodology/#nobtc).
+Any "Bitcoin" in Bleap would be a token on a smart-contract chain such as Arbitrum, or a conversion through Bleap's bridge, not BTC on the Bitcoin network. Bleap is therefore {% include verdictBadge.html verdict="nobtc" type='short' %}.
 
-## iOS
+## iPhone
 
-There is also an [iOS version on the App Store](https://apps.apple.com/gb/app/id6467641662). It is published by Bleap, the same provider, and it gives access to the same account and service, so the same verdict applies to it.
+The iOS app is published by Bleap, the same provider, and it gives access to the same account and service, so the same verdict applies to it.
 
 **A wallet but not for Bitcoin**

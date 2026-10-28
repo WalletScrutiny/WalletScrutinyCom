@@ -5,8 +5,6 @@ authors:
 - leo
 website: https://breez.technology
 twitter: breez_tech
-redirect_from:
-- /iphone/technology.breez.glow/
 android:
   appId: technology.breez.glow
   users: 1000
@@ -46,8 +44,8 @@ Glow is a Bitcoin and stablecoin app published by Breez Development LTD and buil
 
 Our [custodial definition](/methodology/#custodial) counts a Spark balance as self-custodial only for the part that a recovery from the app has been demonstrated to bring back on-chain without anyone's help. No such recovery from Glow has been demonstrated yet, and the exit path in version 1.3.0 is hidden behind developer mode. Until that test is done we consider the balance custodial, even though Glow is marketed as non-custodial.
 
-## iOS
+## iPhone
 
-There is also an [iOS version on the App Store](https://apps.apple.com/us/app/id6762465698). It is published by Breez Development LTD, the same provider, and it gives access to the same account and service, so the same verdict applies to it. The App Store version is 1.3.0, the same release as on Google Play, so the developer-mode gate on the unilateral exit applies to it too.
+The iOS app is published by Breez Development LTD, the same provider, and it gives access to the same account and service, so the same verdict applies to it. The App Store version is 1.3.0, the same release as on Google Play, so the developer-mode gate on the unilateral exit applies to it too.
 
 **Custodial: The provider holds the keys**

@@ -3,8 +3,6 @@ title: Handy Invest
 date: 2026-10-28
 authors:
 - leo
-redirect_from:
-- /iphone/com.ibkr.handyinvest/
 android:
   appId: com.ibkr.handyinvest.app
   users: 1000
@@ -42,10 +40,10 @@ Handy Invest is a simplified mobile trading app from the Interactive Brokers gro
 - **Deposits and withdrawals.** According to the [IBKR crypto deposit guide](https://ibkrguides.com/clientportal/crypto-deposit.htm), clients can transfer "BTC, ETH, SOL, BCH, LTC" from an external wallet into their IBKR-linked crypto account, using **Transfer & Pay > Transfer Funds** in the Client Portal. According to the [withdrawal guide](https://www.ibkrguides.com/clientportal/transferandpay/withdrawcrypto.htm), "You can withdraw cryptocurrency assets from your Paxos or zerohash account and place them in an external wallet using the Paxos or the zerohash web app." Both guides describe the web portals. Neither mentions the Handy Invest app.
 - Crypto eligibility depends on the IBKR entity and the client's country of residence. We did not determine which Handy Invest users can trade or transfer crypto.
 
-Bitcoin bought through Handy Invest is held by Paxos or zerohash for the user. That makes the app [custodial](/methodology/#custodial).
+Bitcoin bought through Handy Invest is held by Paxos or zerohash for the user. That makes the app {% include verdictBadge.html verdict="custodial" type='short' %}.
 
-## iOS
+## iPhone
 
-There is also an [iOS version on the App Store](https://apps.apple.com/us/app/id1641664193). It is published by IB Exchange Corp., the same provider, and it gives access to the same account and service, so the same verdict applies to it.
+The iOS app is published by IB Exchange Corp., the same provider, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**

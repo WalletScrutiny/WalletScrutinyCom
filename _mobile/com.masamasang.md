@@ -5,8 +5,6 @@ authors:
 - leo
 website: https://masamasa.ng
 twitter: masamasaltd
-redirect_from:
-- /iphone/com.masamasang/
 android:
   appId: com.masamasang
   users: 1000
@@ -43,10 +41,10 @@ MasaMasa | Bitcoin to Naira is published by MasaMasa, a company in Lagos, Nigeri
 - **Custody.** The [FAQ](https://masamasa.ng/#faq) says: "We use bank-level encryption and secure custody systems to protect your funds." The [Terms of Use](https://masamasa.ng/terms/) say users send crypto "to the correct wallet address provided by Masamasa". Whatever the app shows as "your wallet" is held by MasaMasa.
 - **Deposit only.** The Terms of Use describe the whole service as three steps: "Deposit cryptocurrency assets into a designated wallet address", "Convert those assets into Nigerian Naira (NGN)", and "Receive the NGN equivalent into a verified Nigerian bank account". Neither the Terms, the website, the Bitcoin to Naira page nor the Play Store description mentions sending crypto out to an external address. We did not install the app.
 
-The provider documents a deposit address for BTC but no way to withdraw BTC. Bitcoin can only leave MasaMasa as naira. This matches our [no send/receive](/methodology/#nosendreceive) definition, which also means the provider holds the funds.
+The provider documents a deposit address for BTC but no way to withdraw BTC. Bitcoin can only leave MasaMasa as naira. This matches our {% include verdictBadge.html verdict="nosendreceive" type='short' %} verdict, which also means the provider holds the funds.
 
-## iOS
+## iPhone
 
-There is also an [iOS version on the App Store](https://apps.apple.com/ng/app/id6760827663). The provider's website links to it, and it gives access to the same account and service, so the same verdict applies to it.
+The provider's website links to the iOS app. It gives access to the same account and service, so the same verdict applies to it.
 
 **Can't send or receive bitcoins**

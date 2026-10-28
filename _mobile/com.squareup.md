@@ -4,8 +4,6 @@ date: 2026-10-28
 authors:
 - leo
 website: https://square.com/help
-redirect_from:
-- /iphone/com.squareup.square/
 android:
   appId: com.squareup
   users: 10000000
@@ -45,10 +43,10 @@ Square Point of Sale is Block, Inc.'s point-of-sale app for merchants. It takes 
 - **Where in the product.** Lightning payments are taken in the Point of Sale app itself. Withdrawals, buying and selling are documented only in the web Square Dashboard. We did not find documentation that this Android app can withdraw. The bitcoin balance belongs to the same Square account either way.
 - Square Bitcoin is available only to US sellers outside New York. Elsewhere this is a fiat-only payment app.
 
-The bitcoin a seller receives through this app is held by Block, Inc. in the seller's Square account. That makes the app [custodial](/methodology/#custodial).
+The bitcoin a seller receives through this app is held by Block, Inc. in the seller's Square account. That makes the app {% include verdictBadge.html verdict="custodial" type='short' %}.
 
-## iOS
+## iPhone
 
-There is also an [iOS version on the App Store](https://apps.apple.com/us/app/id335393788). It is published by Block, Inc., the same provider, and it gives access to the same account and service, so the same verdict applies to it. Bitcoin on Square belongs to the seller's Square account, whichever app is used to reach it.
+The iOS app is published by Block, Inc., the same provider, and it gives access to the same account and service, so the same verdict applies to it. Bitcoin on Square belongs to the seller's Square account, whichever app is used to reach it.
 
 **Custodial: The provider holds the keys**

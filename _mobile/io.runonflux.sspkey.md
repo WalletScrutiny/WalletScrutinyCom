@@ -5,8 +5,6 @@ authors:
 - leo
 website: https://sspwallet.io
 twitter: sspwallet_io
-redirect_from:
-- /iphone/io.runonflux.sspkey/
 android:
   appId: io.runonflux.sspkey
   users: 1000
@@ -26,6 +24,7 @@ iphone:
   updated: 2026-09-02
   version: v2.1.1
   reviews: 1
+  repository: https://github.com/RunOnFlux/ssp-key
   icon: io.runonflux.sspkey.webp
   meta: ok
   verdict: sourceavailable
@@ -44,10 +43,10 @@ SSP Key is the phone half of SSP Wallet, a 2-of-2 multisignature wallet by Influ
 - **Custody.** The description says "Keys are generated on your devices and never leave them. No seed, private key, or extended private key is ever shared between devices." The two keys sit on two devices the user owns. Influx's relay server only passes signing requests between them, and the app can also sign offline by QR code.
 - **Source code.** The source is public under AGPL-3.0 at [RunOnFlux/ssp-key](https://github.com/RunOnFlux/ssp-key), linked from [sspwallet.io](https://sspwallet.io/). It builds the app ID `io.runonflux.sspkey`. Tag [v2.1.1](https://github.com/RunOnFlux/ssp-key/tree/v2.1.1) declares `versionName "2.1.1"` and is dated 2026-09-02, the same day the Play release was updated. The companion extension is at [RunOnFlux/ssp-wallet](https://github.com/RunOnFlux/ssp-wallet).
 
-SSP Key is self-custodial and its source is public. A reproducible build test is still to be done. See [our methodology](/methodology/#sourceavailable).
+SSP Key is self-custodial and its source is public. A reproducible build test is still to be done. For now it is {% include verdictBadge.html verdict="sourceavailable" type='short' %}.
 
-## iOS
+## iPhone
 
-There is also an [iOS version on the App Store](https://apps.apple.com/us/app/id6463717332). It is published by Influx Technologies USA, the same provider, and it is the same wallet, so the same verdict applies to it. The iOS project is in the same repository, under [`ios/`](https://github.com/RunOnFlux/ssp-key/tree/master/ios). We have not tried to build it.
+The iOS app is published by Influx Technologies USA, the same provider, and it is the same wallet, so the same verdict applies to it. The iOS project is in the same repository, under [`ios/`](https://github.com/RunOnFlux/ssp-key/tree/master/ios). We have not tried to build it.
 
 **Source code is available**

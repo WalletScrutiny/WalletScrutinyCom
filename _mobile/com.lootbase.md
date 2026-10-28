@@ -5,8 +5,6 @@ authors:
 - leo
 website: https://lootbase.com
 twitter: lootbaseX
-redirect_from:
-- /iphone/com.lootbase/
 android:
   appId: com.lootbase
   users: 5000
@@ -45,10 +43,10 @@ Stack (formerly Lootbase) is a mobile front end for trading spot assets and perp
 - **No Bitcoin wallet is described.** [Why can't I deposit?](https://intercom.help/lootbase/en/articles/10518071-why-can-t-i-deposit) says: "Currently, Lootbase supports deposits on select blockchain networks (e.g., Solana)". None of the help pages we read mention a Bitcoin wallet of the app's own. While it is in the app, "BTC" is a bridged token on Hyperliquid, not BTC on the Bitcoin network.
 - **Custody (for completeness).** [How are my funds stored?](https://intercom.help/lootbase/en/articles/10518034-how-are-my-funds-stored) calls the wallets "self-custodial" and says that "only you can authorize transactions with your passkey". It also notes: "Our partner, MoonPay Inc. handles custody of funds and crypto during deposits and withdrawals." We did not look into Privy's key handling further, because the Bitcoin question already decides the verdict.
 
-BTC held in Stack is a token on Hyperliquid. On the way in and out it is converted by a bridge or by MoonPay. Wrapped or bridged BTC on another chain is not bitcoin, so Stack is [a wallet, but not for Bitcoin](/methodology/#nobtc).
+BTC held in Stack is a token on Hyperliquid. On the way in and out it is converted by a bridge or by MoonPay. Wrapped or bridged BTC on another chain is not bitcoin, so Stack is {% include verdictBadge.html verdict="nobtc" type='short' %}.
 
-## iOS
+## iPhone
 
-There is also an [iOS version on the App Store](https://apps.apple.com/us/app/id6742149218). The provider's website links to it, and it gives access to the same account and service, so the same verdict applies to it.
+The provider's website links to the iOS app. It gives access to the same account and service, so the same verdict applies to it.
 
 **A wallet but not for Bitcoin**

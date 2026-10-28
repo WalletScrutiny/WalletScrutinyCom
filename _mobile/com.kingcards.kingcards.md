@@ -5,8 +5,6 @@ authors:
 - leo
 website: https://kingcards.ng
 twitter: KwiqNg
-redirect_from:
-- /iphone/com.kingcards.kingcards/
 android:
   appId: com.kingcards.kingcards
   users: 10000
@@ -44,10 +42,10 @@ KWIQ (formerly Kingcards, still published under the app ID `com.kingcards.kingca
 - **BTC can be held and sent.** The [Terms of Service](https://kwiq.app/terms-of-service) say KWIQ lets you "receive, store and send supported cryptocurrencies in wallets in your account". The Sell Bitcoin page lists "20+ crypto wallets to receive, store, swap and send, including BTC."
 - **Custody.** The terms describe the wallets as being "in your account" and say "Wallet services and naira payments are provided through licensed partners." The terms also say KWIQ may "suspend or close an account". We found no seed phrase backup and no claim of self-custody. Coins sit in wallets that KWIQ and its partners control.
 
-KWIQ holds bitcoin for its users in wallets run by the provider and its partners, and lets them deposit and send BTC. This is a [custodial](/methodology/#custodial) service.
+KWIQ holds bitcoin for its users in wallets run by the provider and its partners, and lets them deposit and send BTC. This is a {% include verdictBadge.html verdict="custodial" type='short' %} service.
 
-## iOS
+## iPhone
 
-There is also an [iOS version on the App Store](https://apps.apple.com/ng/app/id1570500302). It is published by KWIQ, the same provider, and it gives access to the same account and service, so the same verdict applies to it.
+The iOS app is published by KWIQ, the same provider, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**

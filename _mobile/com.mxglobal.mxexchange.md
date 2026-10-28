@@ -4,8 +4,6 @@ date: 2026-10-28
 authors:
 - leo
 website: https://mxglobal.com.my/support/
-redirect_from:
-- /iphone/com.mxglobal.mxexchange/
 android:
   appId: com.mxglobal.mxexchange
   users: 100000
@@ -43,10 +41,10 @@ MX is the app of MX Global, a Malaysian exchange registered with the Securities 
 - **Discrepancy.** The store description's "YOUR KEYS ARE SAFE HERE" and "we never touch this" do not match the terms, which give MX Global "full ownership and control of the Private Keys".
 - **Name.** We found no connection between MX Global and MEXC, which is listed separately as {% include walletLink.html wallet='android/com.mexcpro.client' verdict='true' %}.
 
-By MX Global's own terms, the user has no access to the keys, so the app is [custodial](/methodology/#custodial).
+By MX Global's own terms, the user has no access to the keys, so the app is {% include verdictBadge.html verdict="custodial" type='short' %}.
 
-## iOS
+## iPhone
 
-There is also an [iOS version on the App Store](https://apps.apple.com/my/app/id6446581872). The provider's website links to it, and it gives access to the same account and service, so the same verdict applies to it.
+The provider's website links to the iOS app. It gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**

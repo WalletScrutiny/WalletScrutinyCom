@@ -28,6 +28,6 @@ This is the new "楽天ウォレット" (Rakuten Wallet) app from Rakuten Wallet
 - **Deposits and withdrawals.** The same page says: "他の取引所・ウォレット等より、楽天ウォレットの入庫用アドレス宛に暗号資産をお送りください" ("send crypto assets from other exchanges or wallets to your Rakuten Wallet deposit address"). For withdrawals it says to choose "取引所以外" ("other than an exchange") when withdrawing to a private wallet. That page is from June 2022 and describes the older app. rakuten-wallet.co.jp returned HTTP 403 to us, so we could not read the current version. The press coverage we read does not mention deposits or withdrawals in the new app. The account is the same one the older apps use, and the older app's listing documents both directions.
 - **Custody.** The Play description says customer assets are held under "Segregated asset management" with "Offline management using cold wallets", which means Rakuten Wallet stores the coins. The same 2022 page says customer money "当社の資産と明確に分別して管理します" ("is managed clearly separated from our company's assets"). Rakuten Wallet does not describe any way for users to hold their own keys.
 
-Rakuten Wallet holds the bitcoin for its customers, so this app is [custodial](/methodology/#custodial), like the two apps it replaces.
+Rakuten Wallet holds the bitcoin for its customers, so this app is {% include verdictBadge.html verdict="custodial" type='short' %}, like the two apps it replaces.
 
 **Custodial: The provider holds the keys**

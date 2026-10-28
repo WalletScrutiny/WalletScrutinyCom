@@ -4,8 +4,6 @@ date: 2026-10-28
 authors:
 - leo
 twitter: qubetics
-redirect_from:
-- /iphone/com.qubetics.wallet/
 android:
   appId: com.qubetics.wallet
   users: 5000
@@ -14,6 +12,7 @@ android:
   updated: 2025-11-13
   version: 1.1.5
   reviews: 19
+  repository: https://github.com/Qubetics/qubetics-mobile-app
   icon: com.qubetics.wallet.webp
   meta: ok
   verdict: sourceavailable
@@ -26,6 +25,7 @@ iphone:
   updated: 2026-03-06
   version: 1.0.1
   reviews: 29
+  repository: https://github.com/Qubetics/qubetics-mobile-app
   icon: com.qubetics.wallet.webp
   meta: ok
   verdict: sourceavailable
@@ -44,10 +44,10 @@ Qubetics Wallet is a multi-chain wallet by Qubetics, the team behind the Qubetic
 - **Source code.** The [Qubetics GitHub organization](https://github.com/Qubetics), linked from [qubetics.com](https://www.qubetics.com/), publishes two MIT-licensed repositories for the app, [wallet-mobile-app](https://github.com/Qubetics/wallet-mobile-app) (created 2026-10-16) and [qubetics-mobile-app](https://github.com/Qubetics/qubetics-mobile-app) (created 2026-10-23, "Prepare repository for public release"). Both build the app ID `com.qubetics.wallet` ([`build.gradle`](https://github.com/Qubetics/qubetics-mobile-app/blob/main/android/app/build.gradle)).
 - **Version mismatch.** Google Play ships version 1.1.5 from 2025-11-13. Both repositories declare `versionName "1.1.8"` and have no tags. The history of wallet-mobile-app goes back to 2025, but no commit sets version 1.1.5, so we could not identify the exact source of the release on Google Play.
 
-The wallet is self-custodial and its source is public under the same app ID. We have not yet tried to build it. The source would first have to be matched to the version on Google Play. See [our methodology](/methodology/#sourceavailable).
+The wallet is self-custodial and its source is public under the same app ID. We have not yet tried to build it. The source would first have to be matched to the version on Google Play. For now it is {% include verdictBadge.html verdict="sourceavailable" type='short' %}.
 
-## iOS
+## iPhone
 
-There is also an [iOS version on the App Store](https://apps.apple.com/us/app/id6746333540). It is published by Qubetics, the same provider, and it is the same wallet, so the same verdict applies to it. The iOS project is in the same repository, under [`ios/`](https://github.com/Qubetics/qubetics-mobile-app/tree/main/ios). We have not tried to build it.
+The iOS app is published by Qubetics, the same provider, and it is the same wallet, so the same verdict applies to it. The iOS project is in the same repository, under [`ios/`](https://github.com/Qubetics/qubetics-mobile-app/tree/main/ios). We have not tried to build it.
 
 **Source code is available**

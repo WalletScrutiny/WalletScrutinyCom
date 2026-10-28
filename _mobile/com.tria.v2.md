@@ -5,8 +5,6 @@ authors:
 - leo
 website: https://tria.so
 twitter: useTria
-redirect_from:
-- /iphone/com.tria.v2/
 android:
   appId: com.tria.v2
   users: 100000
@@ -48,10 +46,10 @@ Tria is a crypto app with a Visa card, trading, yield and travel booking, publis
 - **Funds may be lost if the service stops.** The Terms of Service say: "in the event of permanent suspension or termination of the Services, the Digital Assets associated with your Tria Account and Card Account may be lost". If the user alone controlled the keys, a shutdown of Tria's services would not cost them their funds.
 - **Source code.** The [triahq GitHub organization](https://github.com/triahq) has a relay server, an SDK test project and a RainbowKit fork, but no repository for the app. A GitHub code search for `com.tria.v2` found only third-party lists.
 
-Tria's key management is undocumented in public, the wallet is tied to a Google or Apple login, and its own terms warn that assets "may be lost" if Tria ends the service. We cannot confirm that the user alone controls the keys. Until Tria documents who holds the key shares and how a user can sign without Tria, we treat the app as [custodial](/methodology/#custodial).
+Tria's key management is undocumented in public, the wallet is tied to a Google or Apple login, and its own terms warn that assets "may be lost" if Tria ends the service. We cannot confirm that the user alone controls the keys. Until Tria documents who holds the key shares and how a user can sign without Tria, we treat the app as {% include verdictBadge.html verdict="custodial" type='short' %}.
 
-## iOS
+## iPhone
 
-There is also an [iOS version on the App Store](https://apps.apple.com/us/app/id6745908653). The provider's website links to it, and it gives access to the same account and service, so the same verdict applies to it.
+The provider's website links to the iOS app. It gives access to the same account and service, so the same verdict applies to it.
 
 **Custodial: The provider holds the keys**

@@ -4,8 +4,6 @@ date: 2026-10-28
 authors:
 - leo
 website: https://sogo.africa/
-redirect_from:
-- /iphone/com.frankappweb.sogo/
 android:
   appId: com.frankappweb.giftcards
   users: 50000
@@ -43,10 +41,10 @@ Sogo, published by FraNKAPPWeb Technologies, is a Nigerian and Ghanaian app for 
 - **Receive only, converted to fiat.** The Sell Crypto page says each account gets "a permanent deposit address for each supported cryptocurrency". It continues: "When you send crypto to your Sogo address, our system automatically detects the deposit, waits for the required blockchain confirmations, converts it to Naira at the current rate, and triggers the bank payout."
 - **No crypto custody or crypto withdrawal.** The [Terms of Service](https://sogo.africa/terms) describe Sogo as a "Liquidation Intermediary Only" and state: "Sogo does not act as a cryptocurrency exchange, custodian, broker, or speculative trading platform. We do not hold digital assets on custody for users." We found no option to buy BTC or to withdraw BTC. The account's "Sogo wallet" holds local-currency balances (refunds, rewards, cashback), which the terms say are withdrawn to a bank.
 
-The app gives each user a BTC address that only receives, and every deposit is converted to fiat. The resulting balance is held by Sogo. This is the pattern we list as [cannot send or receive bitcoins](/methodology/#nosendreceive): bitcoin can come in but never leave as bitcoin.
+The app gives each user a BTC address that only receives, and every deposit is converted to fiat. The resulting balance is held by Sogo. This is the pattern we list as {% include verdictBadge.html verdict="nosendreceive" type='short' %}: bitcoin can come in but never leave as bitcoin.
 
-## iOS
+## iPhone
 
-There is also an [iOS version on the App Store](https://apps.apple.com/ng/app/id6796819536). The provider's website links to it, and it gives access to the same account and service, so the same verdict applies to it.
+The provider's website links to the iOS app. It gives access to the same account and service, so the same verdict applies to it.
 
 **Can't send or receive bitcoins**

@@ -4,9 +4,6 @@ date: 2026-10-28
 authors:
 - leo
 website: https://www.barkachange.com
-twitter: BarkaChange
-redirect_from:
-- /iphone/com.barkalab.barkachanges/
 android:
   appId: com.barkalab.barkachange
   users: 50000
@@ -44,10 +41,10 @@ Barka Change is a crypto/mobile-money exchange published by BarkaLab. According 
 - **No balance in the app.** The Play description states: "Your cryptocurrencies are not stored on Barka Change. As soon as we receive your payment, the equivalent amount is sent to the wallet address you specify." The [FAQ](https://barkachange.com/en/support/frequently-asked-questions) says: "Once the payment is received by BarkaChange, the counterpart is immediately sent to the receiving address provided when creating the order." The [terms of use](https://barkachange.com/en/company/legal/terms-of-use) (French) say the service "ne propose pas de service de portefeuille de stockage" and "Il n'existe pas de "solde" ou de portefeuille client stocké par la Plateforme". When selling, users send crypto "directement depuis son propre portefeuille" and are paid in fiat through a third-party payment provider.
 - **Discrepancy.** The [homepage](https://www.barkachange.com/) still says "Your cryptocurrencies arrive in your BarkaChange wallet in less than 2 minutes". This contradicts the Play description, the FAQ and the terms. We rely on the terms and the current store description.
 
-Barka Change converts between mobile money and crypto that comes from, and goes to, wallets the user controls elsewhere. By its own terms it keeps no balance for the user. Its own description makes it a broker into another wallet, which is [not a wallet](/methodology/#nowallet).
+Barka Change converts between mobile money and crypto that comes from, and goes to, wallets the user controls elsewhere. By its own terms it keeps no balance for the user. Its own description makes it a broker into another wallet, which is {% include verdictBadge.html verdict="nowallet" type='short' %}.
 
-## iOS
+## iPhone
 
-There is also an [iOS version on the App Store](https://apps.apple.com/bj/app/id6444768314). It is published by BarkaLab, the same provider, and it gives access to the same account and service, so the same verdict applies to it.
+The iOS app is published by BarkaLab, the same provider, and it gives access to the same account and service, so the same verdict applies to it.
 
 **Not a wallet**
