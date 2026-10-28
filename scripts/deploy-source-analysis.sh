@@ -77,13 +77,15 @@ rsync -az --delete --chown="${SERVICE_USER}:${SERVICE_USER}" --info=stats1 \
 
 log "Installing dependencies and verifying on ${HOST}"
 ssh -o BatchMode=yes "${HOST}" bash -s -- \
-  "$TARGET_DIR" "$SERVICE_USER" "$SERVICE_NAME" "$TIMER_NAME" "${RUN_NOW:-0}" <<'REMOTE'
+  "$TARGET_DIR" "$SERVICE_USER" "$SERVICE_NAME" "$TIMER_NAME" "$REFRESH_SERVICE_NAME" "$REFRESH_TIMER_NAME" "${RUN_NOW:-0}" <<'REMOTE'
 set -euo pipefail
 TARGET_DIR="$1"
 SERVICE_USER="$2"
 SERVICE_NAME="$3"
 TIMER_NAME="$4"
-RUN_NOW="$5"
+REFRESH_SERVICE_NAME="$5"
+REFRESH_TIMER_NAME="$6"
+RUN_NOW="$7"
 UNIT_DIR="${TARGET_DIR}/config"
 
 if [ ! -f /etc/credstore.encrypted/build-server-gh-token ]; then
