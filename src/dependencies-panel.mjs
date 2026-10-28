@@ -544,8 +544,9 @@ export function coverageGaps(c) {
 export function coverageTipLines(c) {
   const lines = [el('p', {}, el('b', {}, 'What would fix it'))];
   if (c.missingCount) lines.push(el('p', {}, 'Wallet team: commit the lockfile your package manager writes for ', ...fileList(c.missing.map(m => m.manifest), c.missingCount), '.'));
-  if (c.floating) lines.push(el('p', {}, 'Wallet team: replace version ranges (like ', el('code', {}, '1.+'), ' or ', el('code', {}, '^2.0'), ') with exact versions, or add a lockfile.'));
-  if (c.downloadCount) lines.push(el('p', {}, 'Wallet team: check the hash of what the build downloads (', el('code', {}, 'sha256sum -c'), ', or an image ', el('code', {}, '@sha256:'), ' digest) in ', ...fileList(c.downloads.map(d => `${d.file}:${d.line}`), c.downloadCount), '.'));
+  const rangeFiles = c.floatingFiles?.length ? [' in ', ...fileList(c.floatingFiles, c.floatingFiles.length)] : [];
+  if (c.floating) lines.push(el('p', {}, 'Wallet team: replace version ranges (like ', el('code', {}, '1.+'), ' or ', el('code', {}, '^2.0'), ') with exact versions', ...rangeFiles, ', or add a lockfile.'));
+  if (c.downloadCount) lines.push(el('p', {}, 'Wallet team: check the hash of what the build downloads (', el('code', {}, 'sha256sum -c'), ', or an image ', el('code', {}, '@sha256:'), ' digest) in ', ...fileList(c.downloads.map(d => `${d.file}:${d.line}`), c.downloadPlaceCount ?? c.downloadCount), '.'));
   if (c.binaryCount) lines.push(el('p', {}, 'Wallet team: build these from source, or say where each comes from with its hash: ', ...fileList(c.binaries, c.binaryCount), '.'));
   const native = c.unread.filter(u => u.ecosystem === 'c/c++');
   const unread = c.unread.filter(u => u.ecosystem !== 'c/c++');
@@ -937,7 +938,7 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
       host.replaceChildren(notAnalysedElement(selected, app, platform, release));
       return model;
     }
-    model = panelModel(app, { storeVersion, release: release?.ref || null, selectedVersion: release ? selected : null, triage, signals, upstream, apk });
+    model = panelModel(app, { storeVersion, release: release?.ref || null, selectedVersion: release ? selected : null, triage, signals, upstream, apk, platform });
     if (!model) return null;
     host.replaceChildren(panelElement(model, { appId: analysisId, wallet: title || analysisId, base, fetchImpl, onJudge, trusted: lists.trusted, ...extra }));
     nameSigners(host, profiles === undefined ? defaultProfiles : profiles);

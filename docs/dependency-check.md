@@ -346,7 +346,12 @@ Weak points, as an attacker would use them (Danny's red-team round):
   unlocks it. Anything but `locked` puts an "Incomplete check" notice on the
   panel, naming what was not checked, with "What would fix it?" listing the
   files a wallet team can fix (Danny, 2026-10-28); the advisory tile then
-  says "at least this many" instead of a green zero.
+  says "at least this many" instead of a green zero. Only the app's own build
+  counts: a dependency file in the team's tooling (`scripts/`, `tools/`,
+  `.github/`, `ci/`) does not, and where one repository builds several apps
+  each page sees its own part (`lockCoverageByPlatform`: no Podfile.lock on
+  the Android page, no Flutter `linux/` target on either). Version ranges are
+  named by file (Danny, 2026-10-28).
 - Ship iOS only; `Podfile.lock` and `Package.resolved` are not read.
 - Download code during the build with a script; only lockfiles are read.
   Partly closed: `oob-downloads` now runs on every analysis, and a curl,

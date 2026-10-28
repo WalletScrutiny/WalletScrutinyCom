@@ -186,7 +186,7 @@ export function apkSummary(apk) {
  * "Every version" that `release` was looked up for. Returns null when the app
  * has no analysed release.
  */
-export function panelModel(app, { storeVersion = '', release = null, selectedVersion = null, triage = null, signals = null, upstream = null, apk = null } = {}) {
+export function panelModel(app, { storeVersion = '', release = null, selectedVersion = null, triage = null, signals = null, upstream = null, apk = null, platform = null } = {}) {
   const releases = Array.isArray(app?.releases) ? app.releases : [];
   // The newest release whose analysis worked; a newer one that failed is reported, not shown.
   // A release of a language the lockfile check does not read can still have its git submodules checked.
@@ -242,7 +242,8 @@ export function panelModel(app, { storeVersion = '', release = null, selectedVer
     diff: current.diffFrom || null,
     submodules: current.submodules || null,
     // how much of the build the lockfiles we read cover (external/source_analysis/plugins/lock-coverage.mjs)
-    lockCoverage: current.lockCoverage || null,
+    // this page's app only, when the repository also builds another (iPhone files stay off the Android page)
+    lockCoverage: current.lockCoverageByPlatform?.[platform] || current.lockCoverage || null,
     newerFailed: newerFailed.map(r => ({ ref: r.ref, status: r.status, error: r.error || null })),
     releases: releases.map(r => ({ ref: r.ref, analysedAt: r.analysedAt || null, status: r.status || 'ok' })),
     sameRepositoryAs: app.aliases?.length > 1 ? app.aliases.map(a => a.appId).filter(id => id !== app.appId) : [],

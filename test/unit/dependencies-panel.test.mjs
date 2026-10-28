@@ -400,6 +400,11 @@ describe('lock coverage notice', () => {
     const tiles = node(empty).querySelectorAll('.dp-tile');
     assert.ok(![...tiles].some(t => t.className.includes('good') && /advisory matches/.test(t.textContent)));
     assert.match(node(empty).textContent, /At least this many: part of the build was not checked/);
+    // nothing was read at all (Bull Bitcoin v6.15.0): no zero tiles, and no bare status line next to the notice
+    const unsupported = { ...APP, releases: [{ ...APP.releases[0], status: 'unsupported', lockfiles: [], advisories: [], dependencies: { ...APP.releases[0].dependencies, total: 0, direct: 0 }, lockCoverage: c }] };
+    assert.equal(node(unsupported).querySelector('.dp-tiles'), null);
+    assert.doesNotMatch(node(unsupported).textContent, /ended with status/);
+    assert.ok(notice(unsupported));
     const clean = { ...withCoverage(COVERAGE), releases: [{ ...withCoverage(COVERAGE).releases[0], advisories: [] }] };
     assert.doesNotMatch(node(clean).textContent, /At least this many/);
   });
@@ -419,6 +424,22 @@ describe('lock coverage notice', () => {
     assert.match(tip, /C and C\+\+ have no lockfile\. Bring each library in as a git submodule/);
     assert.doesNotMatch(tip, /Nothing for the wallet team/, 'only C/C++ is unread, and that one the team can act on');
     assert.match(tip, /Using this wallet\? Send the list above to its team\./);
+  });
+
+  test('each app page shows its own build; ranges are named by file, a line downloading twice once', () => {
+    // AirGap Vault v3.35.0: the whole repository reads the iPhone lockfiles; the Android app does not use them
+    const all = { ...COVERAGE, verdict: 'unknown', unread: [{ ecosystem: 'cocoapods', manifest: 'ios/App/Podfile', lockfile: 'ios/App/Podfile.lock' }], unreadCount: 1 };
+    const app = withCoverage(all, { lockCoverageByPlatform: { android: COVERAGE } });
+    assert.equal(panelModel(app, { platform: 'android' }).lockCoverage.verdict, 'locked');
+    assert.equal(panelModel(app, { platform: 'iphone' }).lockCoverage.verdict, 'unknown', 'no entry for the iPhone: it sees the whole');
+    assert.equal(panelModel(app).lockCoverage.verdict, 'unknown');
+    const c = { ...COVERAGE, verdict: 'unlocked', floating: 3, floatingFiles: ['app/build.gradle'],
+      downloads: [{ file: 'Dockerfile', line: 16, target: 'https://a/key.pub' }], downloadCount: 2, downloadPlaceCount: 1 };
+    const tip = tipText(c);
+    assert.match(tip, /with exact versions in app\/build\.gradle, or add a lockfile\./);
+    assert.match(tip, /in Dockerfile:16\./);
+    assert.doesNotMatch(tip, /more/);
+    assert.match(notice(withCoverage(c)).textContent, /2 downloads without a hash check/);
   });
 
   test('nothing found: unknown, not absent; a submodule-only release keeps its own notice', () => {
