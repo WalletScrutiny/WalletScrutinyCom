@@ -126,3 +126,48 @@ test('inputs no lockfile lists unlock a fully locked repository (Leo, 2026-10-26
   assert.equal(c.unlisted.downloadCount, 60);
   assert.equal(c.unlisted.downloads.length, 50, 'the stored list is capped, the count is not');
 });
+
+test('a lockfile nothing reads is unknown, not locked (Danny, 2026-10-28)', () => {
+  const verdictOf = (files) => lockCoverage(findManifests(repo(files))).verdict;
+  assert.equal(verdictOf({ 'pubspec.yaml': 'dependencies:', 'pubspec.lock': '' }), 'unknown');
+  assert.equal(verdictOf({ 'go.mod': 'module x', 'go.sum': '' }), 'unknown');
+  assert.equal(verdictOf({ 'package.json': NPM_DEPS, 'pnpm-lock.yaml': '' }), 'unknown');
+  assert.equal(verdictOf({ 'pyproject.toml': '[tool.poetry.dependencies]\nx = "1"\n', 'poetry.lock': '' }), 'unknown');
+  // the ones pinning parses stay locked
+  assert.equal(verdictOf({ 'package.json': NPM_DEPS, 'yarn.lock': '' }), 'locked');
+  assert.equal(verdictOf({ 'Cargo.toml': '[package]', 'Cargo.lock': '' }), 'locked');
+  // one unread lockfile is enough, and it is named
+  const c = lockCoverage(findManifests(repo({ 'package.json': NPM_DEPS, 'package-lock.json': '{}', 'mobile/pubspec.yaml': 'dependencies:', 'mobile/pubspec.lock': '' })));
+  assert.equal(c.verdict, 'unknown');
+  assert.deepEqual(c.unread, [{ ecosystem: 'pub', manifest: 'mobile/pubspec.yaml', lockfile: 'mobile/pubspec.lock' }]);
+  // a missing lockfile still beats an unread one
+  assert.equal(verdictOf({ 'package.json': NPM_DEPS, 'go.mod': 'module x', 'go.sum': '' }), 'unlocked');
+  // a sample app's unread lockfile does not count
+  assert.equal(verdictOf({ 'package.json': NPM_DEPS, 'yarn.lock': '', 'example/pubspec.yaml': 'dependencies:', 'example/pubspec.lock': '' }), 'locked');
+});
+
+test('a C/C++ build is unknown: tooling manifests cannot make firmware look locked', () => {
+  const firmware = repo({
+    'CMakeLists.txt': 'project(fw)', 'components/wally/CMakeLists.txt': '', 'components/wally/upstream/configure.ac': '',
+    'tools/fonts/package.json': NPM_DEPS, 'tools/fonts/package-lock.json': '{}',
+  });
+  const c = lockCoverage(findManifests(firmware));
+  assert.equal(c.verdict, 'unknown');
+  assert.deepEqual(c.unread, [{ ecosystem: 'c/c++', manifest: 'CMakeLists.txt', lockfile: null }], 'one record per build root');
+  assert.equal(lockCoverage(findManifests(repo({ 'meson.build': '' }))).verdict, 'unknown');
+  // ESP-IDF components: a range without dependencies.lock floats, with one it is unread
+  const idf = 'dependencies:\n  espressif/button: "^3"\n';
+  assert.equal(lockCoverage(findManifests(repo({ 'main/idf_component.yml': idf }))).verdict, 'unlocked');
+  assert.equal(lockCoverage(findManifests(repo({ 'main/idf_component.yml': idf, 'dependencies.lock': '' }))).verdict, 'unknown');
+});
+
+test('development containers do not unlock the release', () => {
+  const locked = [{ ecosystem: 'npm', manifest: 'package.json', lockfile: 'package-lock.json', product: true }];
+  const verdict = (file) => lockCoverage(locked, [], unlistedInputs({ downloads: [{ kind: 'container-base-image', target: 'node:20', file, line: 1, hashCheck: false }] })).verdict;
+  for (const file of ['.devcontainer/Dockerfile', 'docker-compose.yml', 'compose.dev.yaml', 'Dockerfile.dev', 'docker/Dockerfile-test', 'Dockerfile.e2e']) {
+    assert.equal(verdict(file), 'locked', file);
+  }
+  for (const file of ['Dockerfile', 'Dockerfile.release', 'docker/Dockerfile.push-gateway', 'Dockerfile.developer-tools']) {
+    assert.equal(verdict(file), 'unlocked', file);
+  }
+});

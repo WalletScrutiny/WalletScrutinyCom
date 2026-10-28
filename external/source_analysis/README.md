@@ -275,14 +275,14 @@ renamed into place so a reader never sees a half-written tree:
 |---|---|
 | `index.json` | the exported app ids, which `exportApp` keeps current |
 | `apps/<aliasId>.json` | `{appId, alias: true}` for the repository's other app ids (the iPhone record of an Android app), one hop to the file above |
-| `apps/<appId>.json` | all releases of one app, newest version first: ref, commit, date, status, lockfiles, the OSV skip counts, the dependency and advisory counts (including `byScope`: app / build / tests / unknown), the submodule counts, the advisories (id, severity, aliases, summary, package, scope, who pulls it in, how many products ship it) and the diff to the previous release |
+| `apps/<appId>.json` | all releases of one app, newest version first: ref, commit, date, status, lockfiles, the OSV skip counts, the dependency and advisory counts (including `byScope`: app / build / tests / unknown), the submodule counts, the lock coverage (`locked`, `unlocked`, `unknown` or `none`, with up to five files a wallet team can fix: manifests without a lockfile, lockfiles nothing reads, downloads without a hash check, committed binaries), the advisories (id, severity, aliases, summary, package, scope, who pulls it in, how many products ship it) and the diff to the previous release |
 | `apps/<appId>/<ref>/dependencies.json` | the full resolved dependency list of one release (ecosystem, name, version, lockfile, pinning tier, direct, scope, dependants), each row with how many products ship the package and that exact version |
 | `apps/<appId>/<ref>/submodules.json` | the release's git submodules, one row per library with its three claims (`submoduleIdentity.mjs`), when it has any |
 
 The files carry only what a reader uses: the wallet page's Dependencies panel,
 `signals.mjs` (advisory ids) and `apk-contents-cli.mjs --deps`. The rest
-(integrity hashes, resolved URLs, analyser version, plugins, lock coverage,
-the default branch, cross-wallet package counts) stays in `assets.db`.
+(integrity hashes, resolved URLs, analyser version, plugins, the full lock
+coverage lists, the default branch, cross-wallet package counts) stays in `assets.db`.
 
 Each wallet does not wait for the end of the pass: as soon as an analysis of
 it is stored, `exportApp` rewrites its `apps/` files and its `index.json`

@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { CONTAINER_FILE_RE, LOOPBACK_URL_RE } from './oob-downloads.mjs';
 
 /**
  * Test 7c: lock coverage. Which dependency manifests the repository has, and
@@ -20,6 +21,17 @@ import path from 'path';
  * Test fixtures and build-tool wrappers do not; CI configs do, since a CI job
  * may be what builds the release.
  *
+ * A lockfile counts only if the pinning step reads it (Danny, 2026-10-28).
+ * pubspec.lock, go.sum, Podfile.lock, Package.resolved, pnpm-lock.yaml,
+ * poetry.lock and the like are found but not parsed: their packages are in no
+ * row and were never checked. Those manifests are 'unread', and a release
+ * whose product rests on one is 'unknown', never 'locked'. So is a C/C++
+ * build: CMake, meson and autotools have no lockfile at all.
+ *
+ * Containers for development only (a devcontainer, a compose file, a
+ * Dockerfile named for dev or tests) do not build the release, so their
+ * downloads do not unlock it.
+ *
  * Reads file names and a few bytes only; nothing is installed or executed.
  */
 
@@ -31,6 +43,17 @@ const UNLISTED_LIST_CAP = 50;
 // A manifest under one of these is not the product (a library's demo app,
 // test fixtures, docs): listed, but it does not decide the verdict.
 const NOT_PRODUCT_DIR = /^(examples?|samples?|demos?|tests?|__tests__|fixtures?|docs?|benchmarks?)$/i;
+
+// The lockfiles plugins/pinning.mjs parses. Gradle is read from its build
+// files whatever lockfile it has (pinning grades every declaration).
+const READ_LOCKFILE = /(^|\/)(package-lock\.json|yarn\.lock|Cargo\.lock|requirements[^/]*\.txt)$/;
+export const isRead = (m) => m.ecosystem === 'gradle' || (!!m.lockfile && READ_LOCKFILE.test(m.lockfile));
+
+// A container for development only: it never builds the release.
+const DEV_CONTAINER_FILE = /^((docker-)?compose[^/]*\.ya?ml|(Dockerfile|Containerfile)[.-](dev|devel|development|local|debug|tests?|e2e)([.-][^/]*)?)$/i;
+export function isDevOnlyPath(rel) {
+  return rel.split('/').includes('.devcontainer') || DEV_CONTAINER_FILE.test(rel.slice(rel.lastIndexOf('/') + 1));
+}
 
 // Gradle has no lockfile by default. A build that declares exact versions
 // only resolves the same set every time (Schildbach's wallet, Leo
@@ -144,6 +167,18 @@ export function findManifests(repoPath, files = null) {
       || null;
     add('gradle', m, lock, lock ? {} : { exactDeclarations: true });
   }
+  // ESP-IDF's component manager resolves version ranges into dependencies.lock.
+  for (const m of byName(/^idf_component\.yml$/)) {
+    if (/(^|\n)dependencies:\s*\n\s+\S/.test(read(m))) add('esp-idf', m, lockAbove(m, ['dependencies.lock']));
+  }
+  // C and C++: no lockfile format exists; the libraries are checked in,
+  // submodules or found on the build machine. One record per build root (the
+  // topmost CMakeLists.txt, meson.build or configure.ac of a tree), so a
+  // C/C++ product is never 'locked' by a stray package.json of its tooling.
+  const nativeFiles = byName(/^(CMakeLists\.txt|meson\.build|configure\.(ac|in))$/);
+  for (const m of nativeFiles.filter(f => !nativeFiles.some(o => dirOf(o) !== dirOf(f) && isBelow(f, dirOf(o))))) {
+    add('c/c++', m, null, { nativeBuild: true });
+  }
   return out.sort((a, b) => a.ecosystem.localeCompare(b.ecosystem) || a.manifest.localeCompare(b.manifest));
 }
 
@@ -152,7 +187,7 @@ export function findManifests(repoPath, files = null) {
  * committed-binaries (either may be missing when the plugin is off).
  */
 export function unlistedInputs({ downloads = [], binaries = null } = {}) {
-  const d = (downloads || []).filter(x => !x.hashCheck && isProductPath(x.file));
+  const d = (downloads || []).filter(x => !x.hashCheck && isProductPath(x.file) && !isDevOnlyPath(x.file));
   const b = (binaries?.artifacts || []).filter(x => x.category === 'build-input' && isProductPath(x.path));
   // Counts are complete; the lists are capped, they are stored with every analysis.
   return {
@@ -170,7 +205,10 @@ export function unlistedInputs({ downloads = [], binaries = null } = {}) {
  *   'none'     no manifest and no unlisted input found: the dependencies are unknown
  *   'unlocked' a manifest without a lockfile (gradle: with a range), unlocked
  *              rows, a committed binary or a download without a hash check
- *   'locked'   every product manifest has a lockfile, no row floats, nothing unlisted
+ *   'unknown'  locked, but a lockfile nothing reads, or a C/C++ build (it has
+ *              none): those packages were not checked
+ *   'locked'   every product manifest has a lockfile we read, no row floats, nothing unlisted
+ * `unread` lists the product manifests whose lockfile nothing reads.
  */
 export function lockCoverage(manifests, pinning = [], unlisted = unlistedInputs()) {
   const floatingRows = {};
@@ -179,12 +217,52 @@ export function lockCoverage(manifests, pinning = [], unlisted = unlistedInputs(
       if (e.tier === 'floating' && isProductPath(e.lockfile || '')) floatingRows[e.ecosystem] = (floatingRows[e.ecosystem] || 0) + 1;
     }
   }
+  const g = grade(manifests, floatingRows, unlisted);
+  return { verdict: g.verdict, manifests, missing: g.missing.length, unread: g.unread, floatingRows, unlisted };
+}
+
+function grade(manifests, floatingRows, unlisted) {
   const product = manifests.filter(m => m.product);
-  const missing = product.filter(m => !m.lockfile && !m.exactDeclarations);
+  const missing = product.filter(m => !m.lockfile && !m.exactDeclarations && !m.nativeBuild);
+  const unread = product.filter(m => m.nativeBuild || (m.lockfile && !isRead(m))).map(m => ({ ecosystem: m.ecosystem, manifest: m.manifest, lockfile: m.lockfile }));
   const floating = Object.values(floatingRows).reduce((n, v) => n + v, 0);
   const outside = unlisted.downloadCount + unlisted.binaryCount;
-  const verdict = missing.length || floating || outside ? 'unlocked' : (product.length ? 'locked' : 'none');
-  return { verdict, manifests, missing: missing.length, floatingRows, unlisted };
+  const verdict = missing.length || floating || outside ? 'unlocked' : unread.length ? 'unknown' : (product.length ? 'locked' : 'none');
+  return { verdict, missing, unread, floating };
+}
+
+/**
+ * What the wallet page shows of a stored result (analyses.lock_coverage),
+ * graded again with today's rules, so an analysis stored before a rule existed
+ * follows it too. (Only the capped download list can be re-checked, and a
+ * C/C++ build root is only recorded by analyses since that rule.) `null`
+ * when the plugin did not run. Lists are capped; the counts are not.
+ */
+const SHOWN_CAP = 5;
+export function coverageForReaders(stored) {
+  if (!stored || !Array.isArray(stored.manifests)) return null;
+  const u = stored.unlisted || {};
+  // Stored before the scanner stopped reading FROM in scripts and loopback
+  // health checks as downloads, or before development containers were dropped.
+  const stillCounts = (d) => !isDevOnlyPath(d.file) && !LOOPBACK_URL_RE.test(d.target)
+    && (d.kind !== 'container-base-image' || CONTAINER_FILE_RE.test(path.basename(d.file)));
+  const listed = u.downloads || [];
+  const downloads = listed.filter(stillCounts);
+  const binaryCount = u.binaryCount || 0;
+  const unlisted = { downloadCount: Math.max(downloads.length, (u.downloadCount || 0) - (listed.length - downloads.length)), binaryCount };
+  const c = grade(stored.manifests, stored.floatingRows || {}, unlisted);
+  return {
+    verdict: c.verdict,
+    missing: c.missing.slice(0, SHOWN_CAP).map(m => ({ ecosystem: m.ecosystem, manifest: m.manifest })),
+    missingCount: c.missing.length,
+    unread: c.unread.slice(0, SHOWN_CAP),
+    unreadCount: c.unread.length,
+    floating: c.floating,
+    downloads: downloads.slice(0, SHOWN_CAP).map(d => ({ file: d.file, line: d.line, target: d.target })),
+    downloadCount: unlisted.downloadCount,
+    binaries: (u.binaries || []).slice(0, SHOWN_CAP).map(b => b.path),
+    binaryCount,
+  };
 }
 
 export default {
@@ -195,7 +273,7 @@ export default {
     console.log('\n--- Test 7c: Lock coverage ---');
     if (coverage.verdict === 'none') console.log('No dependency manifest found: the dependencies are unknown.');
     for (const m of coverage.manifests) {
-      console.log(`  [${m.ecosystem}] ${m.manifest}: ${m.lockfile ? `locked by ${m.lockfile}` : (m.exactDeclarations ? 'no lockfile, exact versions unless pinning lists floating rows' : 'NO LOCKFILE')}${m.product ? '' : ' (not the product)'}`);
+      console.log(`  [${m.ecosystem}] ${m.manifest}: ${m.lockfile ? `locked by ${m.lockfile}${isRead(m) ? '' : ' (NOT READ: its packages were not checked)'}` : (m.nativeBuild ? 'C/C++ build, has no lockfile format (NOT READ)' : m.exactDeclarations ? 'no lockfile, exact versions unless pinning lists floating rows' : 'NO LOCKFILE')}${m.product ? '' : ' (not the product)'}`);
     }
     for (const [eco, n] of Object.entries(coverage.floatingRows)) console.log(`  [${eco}] ${n} unlocked entries`);
     for (const d of unlisted.downloads) console.log(`  [download] ${d.kind} ${d.target} at ${d.file}:${d.line}: NO HASH CHECK`);

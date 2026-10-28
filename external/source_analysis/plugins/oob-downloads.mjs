@@ -24,7 +24,10 @@ const IGNORED_DIRS = new Set(['node_modules', '.git', 'build', 'dist', 'Pods', '
 const MAX_SCAN_DEPTH = 4;
 const HASH_EVIDENCE_WINDOW = 6; // lines before/after a finding searched for hash evidence
 
-const SCAN_FILE_RE = /^(Dockerfile.*|.*\.(sh|bash|yml|yaml|cmake|mk|ps1)|Makefile.*|CMakeLists\.txt|.*\.gitlab-ci\.yml)$/;
+const SCAN_FILE_RE = /^((Dockerfile|Containerfile).*|.*\.(sh|bash|yml|yaml|cmake|mk|ps1)|Makefile.*|CMakeLists\.txt|.*\.gitlab-ci\.yml)$/;
+
+// A health check against a local service fetches nothing.
+export const LOOPBACK_URL_RE = /^https?:\/\/(127\.\d+\.\d+\.\d+|0\.0\.0\.0)([:/]|$)|^https?:\/\/\[::1?(\]|$)/; // URL_RE stops at ']'
 
 const URL_RE = /https?:\/\/[^\s"'`)\]}>\\]+/g;
 
@@ -73,8 +76,12 @@ function logicalLines(text) {
   return out;
 }
 
-function classifyCommand(text) {
-  if (/^\s*FROM\s+/i.test(text)) return 'container-base-image';
+// FROM pulls an image only in a Dockerfile; in a shell script it is SQL, or
+// Python's import, inside a heredoc. (A Dockerfile written by a script is missed.)
+export const CONTAINER_FILE_RE = /^(Dockerfile|Containerfile)/i;
+
+function classifyCommand(text, fileName) {
+  if (/^\s*FROM\s+/i.test(text)) return CONTAINER_FILE_RE.test(fileName) ? 'container-base-image' : null;
   if (/\bcurl\b/.test(text)) return 'curl';
   if (/\bwget\b/.test(text)) return 'wget';
   if (/\bgit\s+clone\b/.test(text)) return 'git-clone';
@@ -116,11 +123,11 @@ export function analyzeOobDownloads(repoPath) {
       const { line, text: raw } = lines[i];
       const trimmed = raw.trim();
       if (!trimmed || trimmed.startsWith('#') || trimmed.startsWith('//')) continue;
-      const kind = classifyCommand(raw);
+      const kind = classifyCommand(raw, path.basename(file));
       if (!kind) continue;
 
       const urls = [...new Set(raw.match(URL_RE) || [])]
-        .filter(u => !/^https?:\/\/(www\.)?(github\.com\/[^/]+\/[^/]+\/?$|example\.|localhost)/.test(u));
+        .filter(u => !/^https?:\/\/(www\.)?(github\.com\/[^/]+\/[^/]+\/?$|example\.|localhost)/.test(u) && !LOOPBACK_URL_RE.test(u));
       let ref = null;
       if (kind === 'container-base-image') {
         const m = raw.match(/^\s*FROM\s+(?:--platform=\S+\s+)?(\S+)/i);

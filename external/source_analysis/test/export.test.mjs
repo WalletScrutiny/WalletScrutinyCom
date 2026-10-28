@@ -201,3 +201,37 @@ test('submodules: counted in the release summary, advisories only where the code
     fs.rmSync(out, { recursive: true, force: true });
   }
 });
+
+test('buildApp: lock coverage regraded with the current rules, capped for the page', () => {
+  const db = initDatabase(':memory:');
+  saveAppList(db, [{ appId: 'app.flutter', platform: 'android', repository: 'https://github.com/org/flutter' }]);
+  const manifests = [
+    { ecosystem: 'npm', manifest: 'package.json', lockfile: 'package-lock.json', product: true },
+    { ecosystem: 'pub', manifest: 'pubspec.yaml', lockfile: 'pubspec.lock', product: true },
+  ];
+  // stored by an older analyser: 'locked', with a SQL FROM, a health check and a dev container as downloads
+  const downloads = [
+    { kind: 'container-base-image', target: 'communities', file: 'scripts/seed.sh', line: 3 },
+    { kind: 'curl', target: 'http://127.0.0.1:3000/_readiness', file: 'scripts/wait.sh', line: 1 },
+    { kind: 'container-base-image', target: 'node:20', file: '.devcontainer/Dockerfile', line: 1 },
+  ];
+  const stored = { verdict: 'unlocked', manifests, missing: 0, floatingRows: {}, unlisted: { downloadCount: 3, binaryCount: 0, downloads, binaries: [] } };
+  recordAnalysis(db, { appId: 'app.flutter', kind: 'release', ref: 'v1', commit: 'c1', status: 'ok', appType: 'flutter', analyser: 't', lockCoverage: stored });
+  assert.deepEqual(buildApp(db, 'app.flutter').releases[0].lockCoverage, {
+    verdict: 'unknown', missing: [], missingCount: 0,
+    unread: [{ ecosystem: 'pub', manifest: 'pubspec.yaml', lockfile: 'pubspec.lock' }], unreadCount: 1,
+    floating: 0, downloads: [], downloadCount: 0, binaries: [], binaryCount: 0,
+  });
+
+  const many = Array.from({ length: 8 }, (_, i) => ({ ecosystem: 'npm', manifest: `pkg${i}/package.json`, lockfile: null, product: true }));
+  recordAnalysis(db, { appId: 'app.flutter', kind: 'release', ref: 'v2', commit: 'c2', status: 'ok', appType: 'npm', analyser: 't',
+    lockCoverage: { manifests: many, floatingRows: { gradle: 2 }, unlisted: { downloadCount: 60, binaryCount: 1, downloads: [{ kind: 'wget', target: 'https://x/sdk.zip', file: 'Dockerfile', line: 4 }], binaries: [{ path: 'libs/x.aar' }] } } });
+  const c = buildApp(db, 'app.flutter').releases[0].lockCoverage;
+  assert.equal(c.verdict, 'unlocked');
+  assert.equal(c.missing.length, 5);
+  assert.equal(c.missingCount, 8);
+  assert.equal(c.floating, 2);
+  assert.deepEqual(c.downloads, [{ file: 'Dockerfile', line: 4, target: 'https://x/sdk.zip' }]);
+  assert.equal(c.downloadCount, 60, 'the stored count is complete; only listed downloads can be dropped');
+  assert.deepEqual(c.binaries, ['libs/x.aar']);
+});
