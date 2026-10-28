@@ -35,9 +35,10 @@ android:
   updated: 2025-01-14
   version: VARY
   icon: com.breez.client.webp
+  playStore: removed
   alternativeStores:
   - zapstore
-  meta: removed
+  meta: ok
   verdict: sourceavailable
   developerName: Breez Development LTD
   repository: https://github.com/breez/breezmobile

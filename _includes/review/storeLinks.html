@@ -14,7 +14,7 @@
 {%- assign app_country = page.appCountry | default: 'us' -%}
 <div class="distribution-store-links">
   {%- if store_android %}
-    {%- unless page.android.playStore == false %}
+    {%- unless page.android.playStore == false or page.android.playStore == 'removed' %}
     <a title="Google Play" href="https://play.google.com/store/apps/details?id={{ page.android.appId }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">{% include icon.html name="google-play" %} Google Play</a>
     {%- endunless %}
     {%- for store in page.android.alternativeStores %}
