@@ -425,7 +425,9 @@ function vulnerabilityTile(model) {
   const tally = severityTally(model, rows, { explain: true });
   // The number takes the colour of the worst severity still open; once every
   // advisory is cleared it turns green.
-  const tone = tally.worstOpen ? `sev-${tally.worstOpen}` : 'good';
+  // An incomplete package list cannot show a green "0": it is a lower bound.
+  const incomplete = model.lockCoverage && model.lockCoverage.verdict !== 'locked';
+  const tone = tally.worstOpen ? `sev-${tally.worstOpen}` : (incomplete ? '' : 'good');
   const byPart = {};
   for (const a of rows) if (a.part) byPart[a.part] = (byPart[a.part] || 0) + 1;
   const parts = Object.entries(byPart).map(([p, n]) => `${n} of them only in the ${whereLabel({ part: p })}`);
@@ -444,6 +446,7 @@ function vulnerabilityTile(model) {
     rows.length ? el('div', { className: 'dp-tile__caveat' }, model.apk
       ? 'A match means a package version is listed as affected, not that the affected part is used.'
       : 'A match means a package version is listed as affected, not that the affected part is used. The released app itself was not checked for these packages.') : null,
+    incomplete ? el('div', { className: 'dp-tile__caveat' }, 'At least this many: part of the build was not checked (see the note above).') : null,
     triageLine(model),
   ] });
 }
@@ -509,6 +512,68 @@ function headline(model) {
   return line;
 }
 
+// Lock coverage (external/source_analysis/plugins/lock-coverage.mjs): what
+// this check could not see, said to the reader, with what would fix it in a
+// toggletip. "0 advisories" must not read as "nothing wrong" when the list
+// of packages is incomplete.
+const LOCKFILE_KIND = {
+  pub: 'Flutter (pubspec.lock)', go: 'Go (go.sum)', cocoapods: 'CocoaPods (Podfile.lock)',
+  swiftpm: 'Swift (Package.resolved)', carthage: 'Carthage (Cartfile.resolved)', npm: 'npm (pnpm or bun lockfile)',
+  pip: 'Python (poetry, uv, Pipfile or pdm lockfile)', 'esp-idf': 'ESP-IDF (dependencies.lock)', 'c/c++': 'C/C++ build',
+};
+const fileList = (files, count) => {
+  const out = [];
+  files.forEach((f, i) => { if (i) out.push(', '); out.push(el('code', {}, f)); });
+  if (count > files.length) out.push(` and ${count - files.length} more`);
+  return out;
+};
+
+// What could not be seen, in words: "2 manifests without a lockfile, 1 download without a hash check".
+export function coverageGaps(c) {
+  const gaps = [];
+  if (c.missingCount) gaps.push(plural(c.missingCount, 'dependency file without a lockfile', 'dependency files without a lockfile'));
+  if (c.floating) gaps.push(plural(c.floating, 'version range', 'version ranges'));
+  if (c.downloadCount) gaps.push(plural(c.downloadCount, 'download without a hash check', 'downloads without a hash check'));
+  if (c.binaryCount) gaps.push(plural(c.binaryCount, 'committed binary', 'committed binaries'));
+  const kinds = [...new Set(c.unread.map(u => LOCKFILE_KIND[u.ecosystem] || u.ecosystem))];
+  if (kinds.length) gaps.push(`the ${kinds.join(', ')} part${kinds.length > 1 ? 's' : ''}, which this check does not read yet`);
+  return gaps;
+}
+
+// The toggletip: what the wallet team can do, item by item, and what a reader can do.
+export function coverageTipLines(c) {
+  const lines = [el('p', {}, el('b', {}, 'What would fix it'))];
+  if (c.missingCount) lines.push(el('p', {}, 'Wallet team: commit the lockfile your package manager writes for ', ...fileList(c.missing.map(m => m.manifest), c.missingCount), '.'));
+  if (c.floating) lines.push(el('p', {}, 'Wallet team: replace version ranges (like ', el('code', {}, '1.+'), ' or ', el('code', {}, '^2.0'), ') with exact versions, or add a lockfile.'));
+  if (c.downloadCount) lines.push(el('p', {}, 'Wallet team: check the hash of what the build downloads (', el('code', {}, 'sha256sum -c'), ', or an image ', el('code', {}, '@sha256:'), ' digest) in ', ...fileList(c.downloads.map(d => `${d.file}:${d.line}`), c.downloadCount), '.'));
+  if (c.binaryCount) lines.push(el('p', {}, 'Wallet team: build these from source, or say where each comes from with its hash: ', ...fileList(c.binaries, c.binaryCount), '.'));
+  const native = c.unread.filter(u => u.ecosystem === 'c/c++');
+  const unread = c.unread.filter(u => u.ecosystem !== 'c/c++');
+  if (native.length) lines.push(el('p', {}, 'Wallet team: C and C++ have no lockfile. Bring each library in as a git submodule, which this check follows, or list its version and hash next to the build.'));
+  const unreadCount = c.unreadCount - native.length;
+  if (unread.length) lines.push(el('p', {}, 'Nothing for the wallet team here: ', ...fileList(unread.map(u => u.lockfile), unreadCount), unreadCount === 1 ? ' exists, but this check cannot read it yet.' : ' exist, but this check cannot read them yet.', ' That is on us.'));
+  // Something only the wallet team can fix: a reader can pass it on.
+  const forTheTeam = c.missingCount || c.floating || c.downloadCount || c.binaryCount || native.length;
+  lines.push(el('p', {}, forTheTeam
+    ? 'Using this wallet? Send the list above to its team. Until then, treat the advisory count as a lower bound.'
+    : 'Using this wallet? Treat the advisory count as a lower bound until this check reads those files.'));
+  return lines;
+}
+
+function coverageNotice(model) {
+  const c = model.lockCoverage;
+  if (!c || c.verdict === 'locked') return null;
+  // A release with only submodules already says so in its status notice.
+  if (c.verdict === 'none') return model.submodules ? null : el('span', { className: 'dp-coverage' }, 'This check found no dependency files in this release, so its dependencies are unknown, not absent.');
+  const gaps = coverageGaps(c);
+  const lead = c.verdict === 'unknown'
+    ? 'This check could read only part of this release\'s dependencies'
+    : 'Part of this release\'s build is not pinned to exact versions, so it can pull different code without any change to its source';
+  return el('span', { className: 'dp-coverage' },
+    el('b', {}, 'Incomplete check: '), `${lead}${gaps.length ? `: ${gaps.join(', ')}` : ''}. Those parts were not checked for advisories. `,
+    tipTrigger('What would fix it?', () => coverageTipLines(c)));
+}
+
 function notices(model) {
   const items = [];
   // A package OSV lists as malicious outranks everything else on the panel:
@@ -526,6 +591,8 @@ function notices(model) {
   for (const f of model.selectedVersion ? [] : model.newerFailed) {
     items.push(`The check of ${f.ref} failed${f.error ? ` (${f.error})` : ''}; showing the last release that was checked.`);
   }
+  const coverage = coverageNotice(model);
+  if (coverage) items.push(coverage);
   if (model.sameRepositoryAs.length) {
     items.push(`Same source repository as ${model.sameRepositoryAs.join(', ')}: one analysis covers both.`);
   }

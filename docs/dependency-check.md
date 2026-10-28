@@ -337,11 +337,16 @@ Weak points, as an attacker would use them (Danny's red-team round):
   strictly worse than a known vulnerability (Leo, 2026-10-26). The
   `lock-coverage` plugin lists every manifest (npm, cargo, pub, CocoaPods,
   SwiftPM, Go, Carthage, pip, gradle) with its lockfile or none, and gives
-  each analysis a verdict: `locked`, `unlocked`, or `none` (no manifest
+  each analysis a verdict: `locked`, `unlocked`, `unknown` (locked, but by a
+  lockfile this check does not read, such as `pubspec.lock` or `go.sum`, or
+  a C/C++ build, which has no lockfile format), or `none` (no manifest
   found, dependencies unknown). Gradle has no lockfile by default: a build
   that declares only exact versions resolves the same set every time and
   counts as locked (Leo, 2026-10-26, on Schildbach's wallet); a range
-  unlocks it. The panel does not show the verdict yet.
+  unlocks it. Anything but `locked` puts an "Incomplete check" notice on the
+  panel, naming what was not checked, with "What would fix it?" listing the
+  files a wallet team can fix (Danny, 2026-10-28); the advisory tile then
+  says "at least this many" instead of a green zero.
 - Ship iOS only; `Podfile.lock` and `Package.resolved` are not read.
 - Download code during the build with a script; only lockfiles are read.
   Partly closed: `oob-downloads` now runs on every analysis, and a curl,

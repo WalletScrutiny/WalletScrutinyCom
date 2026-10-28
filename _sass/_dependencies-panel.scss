@@ -599,6 +599,7 @@ details.dp-decision__others {
 .dp-tip {
   position: fixed;
   z-index: 20;
+  box-sizing: border-box; // the phone width below includes the padding
   width: max-content;
   max-width: min(18em, calc(100vw - 16px));
   padding: 8px 10px;

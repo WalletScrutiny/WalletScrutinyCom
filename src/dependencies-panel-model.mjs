@@ -241,6 +241,8 @@ export function panelModel(app, { storeVersion = '', release = null, selectedVer
     signals: signals ? { date: signals.date || null, exploited, withEpss: advisories.filter(a => a.epss != null).length } : null,
     diff: current.diffFrom || null,
     submodules: current.submodules || null,
+    // how much of the build the lockfiles we read cover (external/source_analysis/plugins/lock-coverage.mjs)
+    lockCoverage: current.lockCoverage || null,
     newerFailed: newerFailed.map(r => ({ ref: r.ref, status: r.status, error: r.error || null })),
     releases: releases.map(r => ({ ref: r.ref, analysedAt: r.analysedAt || null, status: r.status || 'ok' })),
     sameRepositoryAs: app.aliases?.length > 1 ? app.aliases.map(a => a.appId).filter(id => id !== app.appId) : [],

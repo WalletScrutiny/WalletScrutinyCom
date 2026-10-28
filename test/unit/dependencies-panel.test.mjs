@@ -2,7 +2,7 @@ import './setup.mjs';
 import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { loadApp, renderDependenciesPanel, panelElement, usedBy, severityTally } from '../../src/dependencies-panel.mjs';
+import { loadApp, renderDependenciesPanel, panelElement, usedBy, severityTally, coverageTipLines } from '../../src/dependencies-panel.mjs';
 import { panelModel, releaseForVersion } from '../../src/dependencies-panel-model.mjs';
 import { nip19 } from 'nostr-tools';
 
@@ -361,5 +361,62 @@ describe('dependencies panel: git submodules', () => {
   test('a release with only submodules is not reported as unanalysed', () => {
     assert.equal(panelModel(CPP).ref, '2.9.1');
     assert.equal(panelModel({ ...CPP, releases: [{ ...CPP.releases[0], submodules: undefined }] }).submodules, null);
+  });
+});
+
+describe('lock coverage notice', () => {
+  const withCoverage = (lockCoverage, extra = {}) => ({ ...APP, releases: [{ ...APP.releases[0], lockCoverage, ...extra }] });
+  const COVERAGE = { verdict: 'locked', missing: [], missingCount: 0, unread: [], unreadCount: 0, floating: 0, downloads: [], downloadCount: 0, binaries: [], binaryCount: 0 };
+  const node = (app) => panelElement(panelModel(app), { appId: 'app.android' });
+  const notice = (app) => node(app).querySelector('.dp-notices .dp-coverage');
+  // the toggletip's children, as the trigger would show them
+  const tipText = (c) => coverageTipLines(c).map(p => p.textContent).join('\n');
+
+  test('a locked release, or one without the measurement, says nothing', () => {
+    assert.equal(notice(withCoverage(COVERAGE)), null);
+    assert.equal(notice(APP), null);
+  });
+
+  test('an unread Flutter lockfile: the gap is ours, the reader is told the count is a lower bound', () => {
+    const c = { ...COVERAGE, verdict: 'unknown', unread: [{ ecosystem: 'pub', manifest: 'pubspec.yaml', lockfile: 'pubspec.lock' }], unreadCount: 1 };
+    const n = notice(withCoverage(c));
+    assert.match(n.textContent, /^Incomplete check: This check could read only part of this release's dependencies: the Flutter \(pubspec\.lock\) part, which this check does not read yet\. Those parts were not checked for advisories\./);
+    assert.ok(n.querySelector('.dp-term'), 'the call to action is a toggletip');
+    assert.match(n.textContent, /What would fix it\?/);
+    const tip = tipText(c);
+    assert.match(tip, /Nothing for the wallet team here: pubspec\.lock exists, but this check cannot read it yet\. That is on us\./);
+    assert.match(tip, /Using this wallet\? Treat the advisory count as a lower bound until this check reads those files\./);
+    assert.doesNotMatch(tip, /Send the list above/, 'nothing to send when the gap is ours');
+    assert.doesNotMatch(tip, /commit the lockfile/);
+    // the advisory tile cannot read as a green all-clear
+    const empty = { ...withCoverage(c), releases: [{ ...withCoverage(c).releases[0], advisories: [] }] };
+    const tiles = node(empty).querySelectorAll('.dp-tile');
+    assert.ok(![...tiles].some(t => t.className.includes('good') && /advisory matches/.test(t.textContent)));
+    assert.match(node(empty).textContent, /At least this many: part of the build was not checked/);
+    const clean = { ...withCoverage(COVERAGE), releases: [{ ...withCoverage(COVERAGE).releases[0], advisories: [] }] };
+    assert.doesNotMatch(node(clean).textContent, /At least this many/);
+  });
+
+  test('an unlocked release names what the wallet team can fix, capped with a count', () => {
+    const c = { ...COVERAGE, verdict: 'unlocked',
+      missing: [{ ecosystem: 'npm', manifest: 'web/package.json' }], missingCount: 3,
+      floating: 2, downloads: [{ file: 'Dockerfile', line: 4, target: 'https://x/sdk.zip' }], downloadCount: 1,
+      binaries: ['libs/x.aar'], binaryCount: 1,
+      unread: [{ ecosystem: 'c/c++', manifest: 'CMakeLists.txt', lockfile: null }], unreadCount: 1 };
+    assert.match(notice(withCoverage(c)).textContent, /Part of this release's build is not pinned to exact versions, so it can pull different code without any change to its source: 3 dependency files without a lockfile, 2 version ranges, 1 download without a hash check, 1 committed binary, the C\/C\+\+ build part, which this check does not read yet\./);
+    const tip = tipText(c);
+    assert.match(tip, /commit the lockfile your package manager writes for web\/package\.json and 2 more\./);
+    assert.match(tip, /replace version ranges/);
+    assert.match(tip, /in Dockerfile:4\./);
+    assert.match(tip, /with its hash: libs\/x\.aar\./);
+    assert.match(tip, /C and C\+\+ have no lockfile\. Bring each library in as a git submodule/);
+    assert.doesNotMatch(tip, /Nothing for the wallet team/, 'only C/C++ is unread, and that one the team can act on');
+    assert.match(tip, /Using this wallet\? Send the list above to its team\./);
+  });
+
+  test('nothing found: unknown, not absent; a submodule-only release keeps its own notice', () => {
+    assert.match(notice(withCoverage({ ...COVERAGE, verdict: 'none' })).textContent, /no dependency files in this release, so its dependencies are unknown, not absent/);
+    const subsOnly = withCoverage({ ...COVERAGE, verdict: 'none' }, { submodules: { total: 1, mayBeInApp: 0 } });
+    assert.equal(notice(subsOnly), null);
   });
 });
