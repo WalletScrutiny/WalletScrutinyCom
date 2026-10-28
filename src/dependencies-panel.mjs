@@ -15,6 +15,7 @@ import { fetchEvents } from './nostr-client.mjs';
 import { openTriageDialog } from './dependencies-triage-form.mjs';
 import { treeElement } from './dependencies-tree.mjs';
 import { epssTrigger, tipTrigger } from './dependencies-epss-tip.mjs';
+import { showAnalysedReleases } from './build-verifications.mjs';
 
 // Where the export is served from: the analyser copies it to the web server
 // after each pass (external/source_analysis/publish.mjs), no site build involved.
@@ -872,6 +873,11 @@ function notAnalysedElement(version, app, platform, failed) {
   );
 }
 
+// A release the panel can show: analysed, or failed with something still read from it.
+function hasAnalysis(release) {
+  return (release.status || 'ok') === 'ok' || Boolean(release.submodules) || Boolean(release.lockCoverage);
+}
+
 // The version picked in "Every version" (src/build-verifications.mjs keeps it
 // on its host), or null before that section is painted.
 function pickedVersion(platform) {
@@ -919,13 +925,18 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
   }
   const analysisId = app?.appId || appId;
   let model = null;
+  // Every release the panel can show gets a stone in "Every version", verified or not.
+  if (selectedVersion === undefined && typeof document !== 'undefined') {
+    const shown = (app?.releases || []).filter(r => r.ref && hasAnalysis(r));
+    showAnalysedReleases(document.getElementById(`buildVerifications-${platform}`), shown.map(r => r.ref));
+  }
 
   // Repainted after a statement is published, with the statement merged in,
   // and when the relay has statements the site build did not see.
   const lists = { trusted: published?.trusted || [], maintainers: published?.maintainers || {} };
   const paint = (extra = {}) => {
     const release = selected ? releaseForVersion(app, selected) : null;
-    if (selected && (!release || ((release.status || 'ok') !== 'ok' && !release.submodules && !release.lockCoverage)) && app?.releases?.length) {
+    if (selected && (!release || !hasAnalysis(release)) && app?.releases?.length) {
       model = { ref: release?.ref || null, selectedVersion: selected, notAnalysed: true };
       host.replaceChildren(notAnalysedElement(selected, app, platform, release));
       return model;

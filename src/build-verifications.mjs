@@ -296,22 +296,45 @@ function panel(version, context) {
   );
 }
 
+// Per host: the last paint's arguments, so the analysed releases can repaint it, and those
+// releases, so a paint from the assets table keeps them.
+const lastPaint = new WeakMap();
+const analysedRefsOf = new WeakMap();
+
 /**
- * Paints the section into [host] from the assets table's [rows]. Returns the key of the
- * version shown, or null when there is nothing to show (the host is then hidden).
+ * Adds the release tags the source analysis checked to [host]'s versions, each one a stone
+ * even when nobody sent that version in. Repaints the section when it was painted already;
+ * otherwise its first paint picks them up.
  */
-export function renderBuildVerifications({
-  host,
-  rows,
-  assetInfo,
-  appId,
-  platform,
-  walletTitle = '',
-}) {
+export function showAnalysedReleases(host, refs) {
+  if (!host) {
+    return;
+  }
+  analysedRefsOf.set(host, refs || []);
+  if (lastPaint.has(host)) {
+    renderBuildVerifications(lastPaint.get(host));
+  }
+}
+
+/**
+ * Paints the section into [host] from the assets table's [rows] and the analysed releases
+ * (showAnalysedReleases). Returns the key of the version shown, or null when there is
+ * nothing to show (the host is then hidden).
+ */
+export function renderBuildVerifications(args) {
+  const {
+    host,
+    rows,
+    assetInfo,
+    appId,
+    platform,
+    walletTitle = '',
+  } = args;
   if (!host) {
     return null;
   }
-  const timeline = buildVersionTimeline(rows);
+  lastPaint.set(host, args);
+  const timeline = buildVersionTimeline(rows, analysedRefsOf.get(host));
   if (timeline.length === 0) {
     host.hidden = true;
     host.replaceChildren();
@@ -383,4 +406,5 @@ export function renderBuildVerifications({
 
 if (typeof window !== 'undefined') {
   window.renderBuildVerifications = renderBuildVerifications;
+  window.showAnalysedReleases = showAnalysedReleases;
 }
