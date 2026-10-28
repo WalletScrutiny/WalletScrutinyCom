@@ -66,6 +66,8 @@ describe('dependencies panel model', () => {
     assert.equal(m.diff.ref, 'v1.3.0');
     assert.deepEqual(m.sameRepositoryAs, ['app.ios']);
     assert.deepEqual(m.releases.map(r => r.ref), ['v1.4.0', 'v1.3.0']);
+    // the alias's page names the analysed app, not itself
+    assert.deepEqual(panelModel(app, { appId: 'app.ios' }).sameRepositoryAs, [app.appId]);
   });
 
   test('panelModel: a specific release, no osv data', () => {

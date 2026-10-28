@@ -104,7 +104,7 @@ describe('dependencies panel', () => {
     assert.match(host.querySelector('.dp-note').textContent, /A listed advisory is not a defect in the wallet/);
     assert.match(host.querySelector('.dp-note').textContent, /We do not rank wallets by this number/);
     const notices = [...host.querySelectorAll('.dp-notices li')].map(e => e.textContent);
-    assert.match(notices[0], /Same source repository as app\.ios/);
+    assert.match(notices[0], /same source repository as app\.ios, which shares this analysis/);
     assert.doesNotMatch(host.textContent, /store version/i, 'the store version is not shown');
     assert.match(host.querySelector('.dp-note').textContent, /Since v1\.3\.0: 12 packages added, 3 removed, 40 updated, and 1 changed content at the same version \(npm:left-pad\)/);
     assert.match(host.querySelector('.dp-headline').textContent, /Checked release v1\.4\.0 \(source tag, commit a1b2c3d\) · Checked on 2026-10-01/);

@@ -173,10 +173,11 @@ export function apkSummary(apk) {
  * exploited list) or null; `upstream` the wallet's harvested ignore-file
  * entries (upstreamFor) or null; `apk` the released APK's check
  * (apk/<appId>.json) or null. `selectedVersion` is the version picked in
- * "Every version" that `release` was looked up for. Returns null when the app
+ * "Every version" that `release` was looked up for; `appId` the page's own app
+ * id, which an alias's page differs from `app.appId` in. Returns null when the app
  * has no analysed release.
  */
-export function panelModel(app, { release = null, selectedVersion = null, triage = null, signals = null, upstream = null, apk = null, platform = null } = {}) {
+export function panelModel(app, { release = null, selectedVersion = null, triage = null, signals = null, upstream = null, apk = null, platform = null, appId = null } = {}) {
   const releases = Array.isArray(app?.releases) ? app.releases : [];
   // The newest release whose analysis worked; a newer one that failed is reported, not shown.
   // A release of a language the lockfile check does not read can still have its git submodules checked.
@@ -234,7 +235,8 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
     lockCoverage: current.lockCoverageByPlatform?.[platform] || current.lockCoverage || null,
     newerFailed: newerFailed.map(r => ({ ref: r.ref, status: r.status, error: r.error || null })),
     releases: releases.map(r => ({ ref: r.ref, analysedAt: r.analysedAt || null, status: r.status || 'ok' })),
-    sameRepositoryAs: app.aliases?.length > 1 ? app.aliases.map(a => a.appId).filter(id => id !== app.appId) : [],
+    // the other apps of the repository: an alias's page (com.zeusln.zeus) names the analysed one, not itself
+    sameRepositoryAs: app.aliases?.length > 1 ? app.aliases.map(a => a.appId).filter(id => id !== (appId || app.appId)) : [],
   };
 }
 

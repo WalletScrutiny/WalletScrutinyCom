@@ -590,7 +590,7 @@ function notices(model) {
   const coverage = coverageNotice(model);
   if (coverage) items.push(coverage);
   if (model.sameRepositoryAs.length) {
-    items.push(`Same source repository as ${model.sameRepositoryAs.join(', ')}: one analysis covers both.`);
+    items.push(`Built from the same source repository as ${model.sameRepositoryAs.join(', ')}, which shares this analysis.`);
   }
   if (model.unchecked) {
     const why = model.uncheckedBreakdown.map(u => `${u.count} ${u.label}`).join(', ');
@@ -930,7 +930,7 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
       host.replaceChildren(notAnalysedElement(selected, app, platform, release));
       return model;
     }
-    model = panelModel(app, { release: release?.ref || null, selectedVersion: release ? selected : null, triage, signals, upstream, apk, platform });
+    model = panelModel(app, { release: release?.ref || null, selectedVersion: release ? selected : null, triage, signals, upstream, apk, platform, appId });
     if (!model) return null;
     host.replaceChildren(panelElement(model, { appId: analysisId, wallet: title || analysisId, base, fetchImpl, onJudge, trusted: lists.trusted, ...extra }));
     nameSigners(host, profiles === undefined ? defaultProfiles : profiles);
