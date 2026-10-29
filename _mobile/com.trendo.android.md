@@ -4,7 +4,7 @@ title: 'Trendo: Forex Trading & Broker'
 date: 2023-04-04
 authors:
 - danny
-website: https://fxtrendo.com
+website: https://trendo.com/
 social:
 - https://www.instagram.com/fxtrendo/
 redirect_from:

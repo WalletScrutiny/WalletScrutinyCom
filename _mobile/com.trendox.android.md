@@ -3,7 +3,7 @@ title: 'Trendox: Crypto Trading App'
 date: 2025-03-29
 authors:
 - danny
-website: https://fxtrendo.com
+website: https://trendo.com/
 social:
 - https://t.me/trendo_support
 - https://www.instagram.com/fxtrendo
