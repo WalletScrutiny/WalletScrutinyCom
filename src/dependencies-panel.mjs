@@ -200,17 +200,51 @@ const svgEl = (tag, attrs = {}) => {
   return node;
 };
 
-export const historyPointText = (p) =>
-  `${p.ref}: ${p.total.toLocaleString('en-US')} dependencies${p.direct != null ? ` (${p.direct.toLocaleString('en-US')} direct)` : ''}`;
+const fmt = (v) => v.toLocaleString('en-US');
+export const historyPointText = (p, key = 'total') => (key === 'direct'
+  ? `${p.ref}: ${fmt(p.direct)} direct dependencies (${fmt(p.total)} in all)`
+  : `${p.ref}: ${fmt(p.total)} dependencies${p.direct != null ? ` (${fmt(p.direct)} direct)` : ''}`);
 
-// The count of every analysed release as a line, oldest left. Hovering (or the
-// arrow keys) shows one release's version and count; the release the panel
-// shows has its own colour and a "Currently selected" label. Positions are percentages,
-// so the chart follows the tile's width; the line is the only SVG.
+const HISTORY_SERIES = [['total', 'All'], ['direct', 'Direct']];
+
+// The count of every analysed release as a line, oldest left, with tabs for
+// all dependencies or only the direct ones. Hovering (or the arrow keys) shows
+// one release's version and count; the release the panel shows has its own
+// colour and a "Currently selected" label. Positions are percentages, so the
+// chart follows the tile's width; the line is the only SVG.
 export function historyChart(history) {
   if (!history || history.length < 2) return null;
+  const series = HISTORY_SERIES.map(([key, name]) => ({ key, name, points: history.filter(p => p[key] != null) }))
+    .filter(sr => sr.points.length >= 2);
+  const slot = el('div', { className: 'dp-history__slot' });
+  const tabs = series.map((sr, i) => {
+    const tab = el('button', { type: 'button', className: 'dp-history__tab', role: 'tab', 'aria-selected': String(i === 0), tabindex: i === 0 ? '0' : '-1' }, sr.name);
+    tab.addEventListener('click', () => select(i));
+    tab.addEventListener('keydown', (e) => {
+      if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
+      const j = (i + 1) % tabs.length;
+      select(j); tabs[j].focus(); e.preventDefault();
+    });
+    return tab;
+  });
+  const chart = el('div', { className: 'dp-history' },
+    el('div', { className: 'dp-history__head' },
+      el('span', { className: 'dp-history__title' }, 'Dependencies per version'),
+      tabs.length > 1 ? el('span', { className: 'dp-history__tabs', role: 'tablist', 'aria-label': 'Which dependencies' }, tabs) : null,
+    ),
+    slot,
+  );
+  function select(i) {
+    tabs.forEach((t, j) => { t.setAttribute('aria-selected', String(i === j)); t.tabIndex = i === j ? 0 : -1; });
+    slot.replaceChildren(historyPlot(series[i].points, series[i].key, chart));
+  }
+  select(0);
+  return chart;
+}
+
+function historyPlot(history, key, chart) {
   const n = history.length;
-  const totals = history.map(p => p.total);
+  const totals = history.map(p => p[key]);
   const { bottom, top, step } = historyScale(Math.min(...totals), Math.max(...totals));
   const xOf = (i) => (i / (n - 1)) * 100;
   const yOf = (v) => 100 - ((v - bottom) / (top - bottom)) * 100;
@@ -222,20 +256,20 @@ export function historyChart(history) {
     yLabels.push(el('span', { className: 'dp-history__ylabel', style: { top: `${yOf(v)}%` } }, v.toLocaleString('en-US')));
   }
   svg.appendChild(svgEl('polyline', {
-    points: history.map((p, i) => `${xOf(i)},${yOf(p.total)}`).join(' '),
+    points: history.map((p, i) => `${xOf(i)},${yOf(p[key])}`).join(' '),
     class: 'dp-history__line', 'vector-effect': 'non-scaling-stroke',
   }));
   const dots = history.map((p, i) => el('span', {
     className: `dp-history__dot${p.current ? ' dp-history__dot--current' : ''}`,
-    style: { left: `${xOf(i)}%`, top: `${yOf(p.total)}%` },
+    style: { left: `${xOf(i)}%`, top: `${yOf(p[key])}%` },
   }));
   // the release the panel shows, named next to its dot: below it when the dot is near the top
   const at = history.findIndex(p => p.current);
   const currentLabel = at < 0 ? null : el('span', {
     className: 'dp-history__current',
-    style: { left: `${xOf(at)}%`, top: `${yOf(history[at].total)}%` },
-    dataset: { edge: xOf(at) < 20 ? 'start' : xOf(at) > 80 ? 'end' : '', side: yOf(history[at].total) < 40 ? 'below' : 'above' },
-  }, 'Currently selected');
+    style: { left: `${xOf(at)}%`, top: `${yOf(history[at][key])}%` },
+    dataset: { edge: xOf(at) < 20 ? 'start' : xOf(at) > 80 ? 'end' : '', side: yOf(history[at][key]) < 40 ? 'below' : 'above' },
+  }, 'Currently', el('br'), 'selected');
   const cross = el('span', { className: 'dp-history__cross', hidden: true });
   const tip = el('span', { className: 'dp-history__tip', role: 'status', hidden: true });
 
@@ -244,7 +278,7 @@ export function historyChart(history) {
   const plot = el('div', {
     className: 'dp-history__plot',
     tabindex: '0',
-    'aria-label': `Dependencies per version, ${n} versions, from ${first.total} in ${first.ref} to ${last.total} in ${last.ref}. Use the arrow keys to read each version.`,
+    'aria-label': `${key === 'direct' ? 'Direct dependencies' : 'Dependencies'} per version, ${n} versions, from ${first[key]} in ${first.ref} to ${last[key]} in ${last.ref}. Use the arrow keys to read each version.`,
   }, svg, cross, dots, currentLabel, tip);
 
   let shown = -1;
@@ -258,7 +292,7 @@ export function historyChart(history) {
     cross.hidden = false;
     cross.style.left = `${x}%`;
     tip.hidden = false;
-    tip.textContent = historyPointText(history[i]);
+    tip.textContent = historyPointText(history[i], key);
     // centred on the point but kept inside the chart, over the axis labels if need be
     const p = plot.getBoundingClientRect();
     const c = chart.getBoundingClientRect();
@@ -283,15 +317,11 @@ export function historyChart(history) {
     show(Math.max(0, Math.min(n - 1, next)));
   });
 
-  const chart = el('div', { className: 'dp-history' },
-    el('div', { className: 'dp-history__title' }, 'Dependencies per version'),
-    el('div', { className: 'dp-history__body' },
-      el('div', { className: 'dp-history__yaxis', 'aria-hidden': 'true' }, yLabels),
-      plot,
-      el('div', { className: 'dp-history__xaxis', 'aria-hidden': 'true' }, el('span', {}, first.ref), el('span', {}, last.ref)),
-    ),
+  return el('div', { className: 'dp-history__body' },
+    el('div', { className: 'dp-history__yaxis', 'aria-hidden': 'true' }, yLabels),
+    plot,
+    el('div', { className: 'dp-history__xaxis', 'aria-hidden': 'true' }, el('span', {}, first.ref), el('span', {}, last.ref)),
   );
-  return chart;
 }
 
 // One line per severity, "50 critical · 40 cleared": cleared counts the

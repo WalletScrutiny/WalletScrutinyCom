@@ -467,7 +467,7 @@ describe('dependencies per version', () => {
     assert.equal(chart.parentElement.querySelector('.dp-tile__label').textContent, 'dependencies');
     assert.equal(chart.querySelectorAll('.dp-history__dot').length, 3);
     assert.equal(chart.querySelectorAll('.dp-history__dot--current').length, 1);
-    assert.equal(chart.querySelector('.dp-history__current').textContent, 'Currently selected');
+    assert.equal(chart.querySelector('.dp-history__current').textContent, 'Currentlyselected');
     assert.equal(chart.querySelector('.dp-history__xaxis').textContent, 'v1.1.0v1.4.0');
   });
 
@@ -481,6 +481,18 @@ describe('dependencies per version', () => {
     key.key = 'ArrowLeft';
     plot.dispatchEvent(key);
     assert.equal(tip.textContent, 'v1.2.0: 380 dependencies (38 direct)');
+  });
+
+  test('the Direct tab draws the direct counts', () => {
+    const node = panelElement(panelModel(multi), { appId: 'app.android', base: '/x', fetchImpl: async () => null });
+    const [all, direct] = node.querySelectorAll('.dp-history__tab');
+    assert.equal(all.getAttribute('aria-selected'), 'true');
+    direct.dispatchEvent(new window.Event('click'));
+    assert.equal(direct.getAttribute('aria-selected'), 'true');
+    const plot = node.querySelector('.dp-history__plot');
+    plot.dispatchEvent(new window.Event('focus'));
+    assert.equal(node.querySelector('.dp-history__tip').textContent, 'v1.4.0: 40 direct dependencies (412 in all)');
+    assert.equal(node.querySelectorAll('.dp-history__dot').length, 3);
   });
 
   test('one analysed release draws no chart', () => {
