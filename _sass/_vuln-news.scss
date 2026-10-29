@@ -6,6 +6,8 @@
 
 .vuln-news {
   max-width: 820px;
+  // centred under the page title, which the archive layout centres
+  margin: 0 auto;
 
   &__lead,
   &__status {
