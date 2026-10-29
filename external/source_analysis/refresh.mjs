@@ -12,6 +12,7 @@ import { exportApp, productCounts } from './export.mjs';
 import { packageSources } from './ddbbUtils.mjs';
 import { publishFiles } from './publish.mjs';
 import { buildSignals } from './signals.mjs';
+import { buildNews } from './news.mjs';
 
 /**
  * Returns recheckStoredReleases' result plus { exported, published }:
@@ -40,6 +41,11 @@ export async function refreshAdvisories(db, { exportDir = null, onlyReproducible
     if ((await signals({ exportDir, log })).written) files.add('signals.json');
   } catch (error) {
     log.warn(`advisory signals: ${error.message}`);
+  }
+  try {
+    if (buildNews({ exportDir }).written) files.add('news.json');
+  } catch (error) {
+    log.warn(`news: ${error.message}`);
   }
   result.published = publish(exportDir, [...files]).published;
   return result;

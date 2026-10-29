@@ -382,7 +382,12 @@ database).
 After the export, the pass writes `signals.json` into it (`signals.mjs`: EPSS,
 CISA's exploited list, publication dates per advisory; a feed that fails only
 leaves its part out, and the previous file stays when all fail;
-`SOURCE_ANALYSIS_SIGNALS=off` skips it).
+`SOURCE_ANALYSIS_SIGNALS=off` skips it). Then `news.json` (`news.mjs`): the
+advisories published in the last 14 days, each with the wallets whose newest
+working release uses an affected version, for the site's `/news/` page. It is
+a join of `signals.json` and the app files (about 70 KB instead of the 11 MB
+of app files the page would otherwise load), and the hourly refresh rewrites
+it with `signals.json`.
 
 ### Publishing the export
 

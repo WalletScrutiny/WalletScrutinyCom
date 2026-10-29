@@ -368,6 +368,10 @@ try {
         const s = await buildSignals({ exportDir: EXPORT_DIR });
         console.log(`Advisory signals: ${s.cves} CVEs, EPSS for ${s.epss}, ${s.kev} on CISA's exploited list, publication date for ${s.published} advisories${s.written ? '' : ', nothing written'}`);
       }
+      // The /news/ page: advisories of the last 14 days and the wallets they hit
+      const { buildNews } = await import('./news.mjs');
+      const n = buildNews({ exportDir: EXPORT_DIR });
+      console.log(n.written ? `News: ${n.advisories} advisories of the last 14 days in ${n.wallets} wallets` : 'News: no publication dates, nothing written');
     } catch (error) {
       console.error(`\n✗  Export to ${EXPORT_DIR} failed:`, error.message);
       errorCount++;

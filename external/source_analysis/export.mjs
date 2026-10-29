@@ -295,10 +295,12 @@ export function exportAll(db, outDir, { onlyReproducible = false } = {}) {
   // export from outside the database; a new export keeps them.
   const apkDir = path.join(outDir, 'apk');
   if (fs.existsSync(apkDir)) fs.cpSync(apkDir, path.join(tmp, 'apk'), { recursive: true });
-  // signals.json (signals.mjs) is rewritten after the export; until then, and
-  // when every feed is down, the previous one stays.
+  // signals.json (signals.mjs) and news.json (news.mjs) are rewritten after the
+  // export; until then, and when every feed is down, the previous ones stay.
   const signals = path.join(outDir, 'signals.json');
   if (fs.existsSync(signals)) fs.copyFileSync(signals, path.join(tmp, 'signals.json'));
+  const news = path.join(outDir, 'news.json');
+  if (fs.existsSync(news)) fs.copyFileSync(news, path.join(tmp, 'news.json'));
   fs.writeFileSync(path.join(tmp, 'index.json'), JSON.stringify(index));
   const previous = `${path.resolve(outDir)}.previous`;
   fs.rmSync(previous, { recursive: true, force: true });
