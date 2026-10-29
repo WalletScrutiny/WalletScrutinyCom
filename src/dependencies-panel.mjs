@@ -826,7 +826,24 @@ function actions(model, { appId, base, fetchImpl }) {
 // puts a Judge button on every row; after a publish, `flash` is the line
 // above the table saying so, `freshId` the statement to mark, and every row
 // is shown so the judged one stays in sight wherever it re-sorts to.
-export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE, fetchImpl = globalThis.fetch, onJudge = null, flash = null, freshId = null, showAll = false, trusted = [] } = {}) {
+// Below the tiles everything starts folded behind one link; `expanded` opens
+// it, `onToggle(open)` hears the reader open or close it.
+export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE, fetchImpl = globalThis.fetch, onJudge = null, flash = null, freshId = null, showAll = false, trusted = [], expanded = false, onToggle = null } = {}) {
+  // No lockfile was read (a C/C++ release with only submodules, or a Flutter one): zeros here would read as clean.
+  const tiles = !model.packages && (model.submodules || model.status === 'unsupported') ? null : el('div', { className: 'dp-tiles' },
+    tile(model.packages, 'dependencies', { sub: `${model.direct} direct · ${model.transitive} transitive`, extra: historyChart(model.history) }),
+    vulnerabilityTile(model),
+    model.malware
+      ? tile(model.malware, 'possible malware', { tone: 'bad', sub: 'being checked by a person; see the note above' })
+      : tile(model.malware, 'known malware', { tone: 'good' }),
+  );
+  const rest = [
+    treeTabs(model, advisoryTable(model, { onJudge, freshId, showAll }), { appId, base, fetchImpl, label: `${wallet} ${model.ref}` }),
+    model.advisories.length ? trustedLine(trusted) : null,
+    submodulesSection(model, { appId, base, fetchImpl }),
+    howToRead(model),
+    actions(model, { appId, base, fetchImpl }),
+  ];
   return el('div', { className: 'dp-panel' },
     el('div', { className: 'dp-top' },
       headline(model),
@@ -834,20 +851,35 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
     ),
     notices(model),
     flash ? el('p', { className: 'dp-flash', role: 'status' }, flash) : null,
-    // No lockfile was read (a C/C++ release with only submodules, or a Flutter one): zeros here would read as clean.
-    !model.packages && (model.submodules || model.status === 'unsupported') ? null : el('div', { className: 'dp-tiles' },
-      tile(model.packages, 'dependencies', { sub: `${model.direct} direct · ${model.transitive} transitive`, extra: historyChart(model.history) }),
-      vulnerabilityTile(model),
-      model.malware
-        ? tile(model.malware, 'possible malware', { tone: 'bad', sub: 'being checked by a person; see the note above' })
-        : tile(model.malware, 'known malware', { tone: 'good' }),
-    ),
-    treeTabs(model, advisoryTable(model, { onJudge, freshId, showAll }), { appId, base, fetchImpl, label: `${wallet} ${model.ref}` }),
-    model.advisories.length ? trustedLine(trusted) : null,
-    submodulesSection(model, { appId, base, fetchImpl }),
-    howToRead(model),
-    actions(model, { appId, base, fetchImpl }),
+    tiles,
+    // without the tiles there is nothing to fold under
+    tiles ? foldedDetails(model, rest, { expanded: expanded || showAll, onToggle }) : rest,
   );
+}
+
+// "See 38 Advisories and Dependency Tree": the count is the advisory tile's.
+export function detailsLinkText(model, open = false) {
+  const n = (model.advisories || []).filter(a => a.severity !== 'malicious').length;
+  const what = !model.packages ? 'Details'
+    : n ? `${open ? '' : `${n} `}${n === 1 ? 'Advisory' : 'Advisories'} and Dependency Tree` : 'Dependency Tree';
+  return `${open ? 'Hide' : 'See'} ${what}`;
+}
+
+function foldedDetails(model, rest, { expanded, onToggle }) {
+  const body = el('div', { className: 'dp-details', id: `dp-details-${Math.random().toString(36).slice(2, 8)}` }, rest);
+  const link = el('button', { type: 'button', className: 'dp-details-link', 'aria-controls': body.id });
+  const set = (open) => {
+    body.hidden = !open;
+    link.setAttribute('aria-expanded', String(open));
+    link.textContent = detailsLinkText(model, open);
+  };
+  set(expanded);
+  link.addEventListener('click', () => {
+    const open = body.hidden;
+    set(open);
+    onToggle?.(open);
+  });
+  return [link, body];
 }
 
 const plural = (n, one, many = `${one}s`) => `${n} ${n === 1 ? one : many}`;
@@ -1079,7 +1111,10 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
   // Repainted after a statement is published, with the statement merged in,
   // and when the relay has statements the site build did not see.
   const lists = { trusted: published?.trusted || [], maintainers: published?.maintainers || {} };
+  // whether the reader opened the advisories and tree; kept across repaints and version picks
+  let expanded = false;
   const paint = (extra = {}) => {
+    if (extra.showAll) expanded = true;
     const release = selected ? releaseForVersion(app, selected) : null;
     if (selected && (!release || !hasAnalysis(release)) && app?.releases?.length) {
       model = { ref: release?.ref || null, selectedVersion: selected, notAnalysed: true };
@@ -1088,7 +1123,7 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
     }
     model = panelModel(app, { release: release?.ref || null, selectedVersion: release ? selected : null, triage, signals, upstream, apk, platform, appId });
     if (!model) return null;
-    host.replaceChildren(panelElement(model, { appId: analysisId, wallet: title || analysisId, base, fetchImpl, onJudge, trusted: lists.trusted, ...extra }));
+    host.replaceChildren(panelElement(model, { appId: analysisId, wallet: title || analysisId, base, fetchImpl, onJudge, trusted: lists.trusted, expanded, onToggle: (open) => { expanded = open; }, ...extra }));
     nameSigners(host, profiles === undefined ? defaultProfiles : profiles);
     return model;
   };

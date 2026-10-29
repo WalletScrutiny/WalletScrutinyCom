@@ -448,6 +448,35 @@ describe('lock coverage notice', () => {
   });
 });
 
+describe('folded details', () => {
+  const opts = { appId: 'app.android', base: '/x', fetchImpl: async () => null };
+
+  test('under the tiles only a link shows, with the advisory count, until it is clicked', () => {
+    let heard = null;
+    const node = panelElement(panelModel(APP), { ...opts, onToggle: (open) => { heard = open; } });
+    const link = node.querySelector('.dp-details-link');
+    const body = node.querySelector('.dp-details');
+    assert.equal(link.previousElementSibling.className, 'dp-tiles');
+    assert.equal(link.textContent, 'See 13 Advisories and Dependency Tree');
+    assert.equal(body.hidden, true);
+    assert.ok(body.querySelector('.dp-tabs'));
+    link.dispatchEvent(new window.Event('click'));
+    assert.equal(body.hidden, false);
+    assert.equal(link.textContent, 'Hide Advisories and Dependency Tree');
+    assert.equal(heard, true);
+  });
+
+  test('a publish (showAll) or an earlier open paints it open', () => {
+    assert.equal(panelElement(panelModel(APP), { ...opts, showAll: true }).querySelector('.dp-details').hidden, false);
+    assert.equal(panelElement(panelModel(APP), { ...opts, expanded: true }).querySelector('.dp-details').hidden, false);
+  });
+
+  test('without advisories the link names only the tree', () => {
+    const clean = { ...APP, releases: [{ ...APP.releases[0], advisories: [], vulnerabilities: { total: 0, bySeverity: {}, packages: 0 } }] };
+    assert.equal(panelElement(panelModel(clean), opts).querySelector('.dp-details-link').textContent, 'See Dependency Tree');
+  });
+});
+
 describe('dependencies per version', () => {
   const rel = (ref, total, direct, extra = {}) => ({ ...APP.releases[0], ref, dependencies: { ...APP.releases[0].dependencies, total, direct }, ...extra });
   const multi = { ...APP, releases: [rel('v1.4.0', 412, 40), rel('v1.3.0', 0, 0, { status: 'failed' }), rel('v1.2.0', 380, 38), rel('v1.1.0', 510, 51)] };

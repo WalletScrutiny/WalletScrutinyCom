@@ -126,6 +126,41 @@ body.dark .dp-panel {
   color: var(--neutral-3);
 }
 
+// "See 38 Advisories and Dependency Tree": everything under the tiles, folded
+.dp-details-link {
+  appearance: none;
+  justify-self: start;
+  border: 0;
+  background: none;
+  padding: 0;
+  font: inherit;
+  font-size: $font-sm;
+  font-weight: 600;
+  color: var(--accent-text, var(--accent));
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+
+  &::after {
+    content: " ▾";
+  }
+
+  &[aria-expanded="true"]::after {
+    content: " ▴";
+  }
+}
+
+.dp-details {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 12px;
+  min-width: 0;
+
+  &[hidden] {
+    display: none;
+  }
+}
+
 // Dependencies per version, under the count (historyChart in src/dependencies-panel.mjs)
 .dp-history {
   min-width: 0;
