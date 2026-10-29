@@ -126,20 +126,31 @@ body.dark .dp-panel {
   color: var(--neutral-3);
 }
 
-// "See 38 Advisories and Dependency Tree": everything under the tiles, folded
+// "See 38 Advisories and Dependency Tree": everything under the tiles, folded.
+// A button in the site's info blue ($info-color): it should be noticed, but
+// red would read as one more alarm next to the advisory tile.
 .dp-details-link {
   appearance: none;
   justify-self: start;
-  border: 0;
-  background: none;
-  padding: 0;
+  border: 1px solid #52adc8;
+  border-radius: 8px;
+  background: rgba(82, 173, 200, 0.14);
+  padding: 6px 14px;
   font: inherit;
   font-size: $font-sm;
   font-weight: 600;
-  color: var(--accent-text, var(--accent));
-  text-decoration: underline;
-  text-underline-offset: 3px;
+  color: #1f6f86;
+  text-decoration: none;
   cursor: pointer;
+
+  &:hover {
+    background: rgba(82, 173, 200, 0.26);
+  }
+
+  &:focus-visible {
+    outline: 2px solid #52adc8;
+    outline-offset: 2px;
+  }
 
   &::after {
     content: " ▾";
@@ -147,6 +158,15 @@ body.dark .dp-panel {
 
   &[aria-expanded="true"]::after {
     content: " ▴";
+  }
+}
+
+body.dark .dp-details-link {
+  color: #8fd0e3;
+  background: rgba(82, 173, 200, 0.16);
+
+  &:hover {
+    background: rgba(82, 173, 200, 0.28);
   }
 }
 
