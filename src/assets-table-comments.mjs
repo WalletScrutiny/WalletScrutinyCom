@@ -345,7 +345,7 @@ export async function renderCommentsSection(container, verificationKey, authorPu
           return `
           <div class="ws-v-comment comment-profile-${safePubkey}" ${index >= MAX_COMMENTS_TO_SHOW ? 'hidden' : ''}>
             <div class="comment-author">
-              <img class="comment-author-avatar" src="${PROFILE_PLACEHOLDER_IMAGE}" alt="" loading="lazy">
+              <img class="comment-author-avatar" referrerpolicy="no-referrer" src="${PROFILE_PLACEHOLDER_IMAGE}" alt="" loading="lazy">
               <span class="comment-author-name" data-pubkey="${safePubkey}">${escapeHtml(comment.author)}</span>
               <span class="comment-date">${escapeHtml(comment.date)}</span>
               ${window.userPubkey && safePubkey === window.userPubkey && safeId ? `

@@ -20,6 +20,7 @@ export function renderAuthor(ctx, pubkey, { withBadge = true } = {}) {
   const profile = ctx.profiles.get(pubkey) ?? null;
   const avatar = el('img', {
     className: 'opinion-card__avatar',
+    referrerpolicy: 'no-referrer',
     src: getProfileImageUrl(profile),
     alt: '',
     loading: 'lazy',
