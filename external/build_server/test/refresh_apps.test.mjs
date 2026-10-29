@@ -36,6 +36,19 @@ describe('parseRefreshOutput', () => {
     });
   });
 
+  test('strips the tag prefix the way wallet files store versions', () => {
+    const output = [
+      '  appId: wasabi  Current: 2.8.4  Latest: v2.8.5',
+      '  appId: trezorT  Current: 2.9.0  Latest: firmware/v9.27.1',
+      '  appId: bitcoinknots  Current: 29.3  Latest: v29.4.3.knots20260508'
+    ].join('\n');
+    assert.deepEqual(parseRefreshOutput(output), {
+      wasabi: { latestVersion: '2.8.5' },
+      trezorT: { latestVersion: '9.27.1' },
+      bitcoinknots: { latestVersion: '29.4.3.knots20260508' }
+    });
+  });
+
   test('captures latest versions that include spaces / suffixes after the number', () => {
     const output = '  appId: com.example.one  Current: 1.0.0  Latest: 1.2.3-rc1 (annotated)';
     assert.deepEqual(parseRefreshOutput(output), {

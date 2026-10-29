@@ -65,12 +65,13 @@ describe('ddbbUtils CRUD', () => {
   });
 
   test('update applies only allowed fields and clears queued/error lookup', () => {
-    const id = insert(baseRow());
+    const assetRow = baseRow({ assetKey: 'e'.repeat(64) });
+    const id = insert(assetRow);
 
     const changes = update(id, { endResult: 'reproducible', bogus: 'ignored' });
     assert.equal(changes, 1);
 
-    assert.equal(findQueuedOrErroredSimilarAttempt(baseRow()), undefined);
+    assert.equal(findQueuedOrErroredSimilarAttempt(assetRow), undefined);
   });
 
   test('update returns 0 when no allowed field is provided', () => {
@@ -87,8 +88,22 @@ describe('findQueuedOrErroredSimilarAttempt', () => {
     assert.equal(hit.endResult, 'queued');
   });
 
-  test('ignores rows with terminal endResults like reproducible', () => {
-    insert(baseRow({ endResult: 'reproducible' }));
+  test('ignores asset rows with terminal endResults like reproducible', () => {
+    insert(baseRow({ assetKey: 'e'.repeat(64), endResult: 'reproducible' }));
+    assert.equal(findQueuedOrErroredSimilarAttempt(baseRow({ assetKey: 'e'.repeat(64) })), undefined);
+  });
+
+  test('a finished release build blocks a rebuild of the same version', () => {
+    for (const endResult of ['reproducible', 'not_reproducible', 'ftbfs']) {
+      insert(baseRow({ version: endResult, endResult }));
+      assert.equal(findQueuedOrErroredSimilarAttempt(baseRow({ version: endResult })).endResult, endResult);
+    }
+    // A newer release is still built.
+    assert.equal(findQueuedOrErroredSimilarAttempt(baseRow({ version: '9.9.9' })), undefined);
+  });
+
+  test('an interrupted release build is retried', () => {
+    insert(baseRow({ endResult: 'interrupted' }));
     assert.equal(findQueuedOrErroredSimilarAttempt(baseRow()), undefined);
   });
 

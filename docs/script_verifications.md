@@ -44,6 +44,13 @@ notes: |
 - `script_version`: the version of the script
 - `verdict`: the verdict of the verification
 - `notes`: (optional) any note that could be useful to understand the verdict, or a description of the differences that were expected to be reproducible, but did not affect the reproducibility verdict
+- `hashes`: (optional, for runs with `--version`) list of the SHA-256 hashes of the official binaries the build was compared against. With `--binary` the build server already knows the hash and ignores this field. Without it, a verification of a new release is published without a binary hash.
+
+```yaml
+verdict: reproducible
+hashes:
+  - 0f1e2d3c4b5a69788796a5b4c3d2e1f00f1e2d3c4b5a69788796a5b4c3d2e1f0
+```
 
 The build server publishes `notes` as plain text under the collapsed "Other information" section of the verification, one line per line of `notes`. Paths inside its build directory are shown relative to it, since nobody else can open them.
 

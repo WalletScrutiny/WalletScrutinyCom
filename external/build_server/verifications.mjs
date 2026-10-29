@@ -451,11 +451,14 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
 }
 
 export async function processNewReleaseVerification(verification, newWalletVersion, appInfo, wsBotVerifications, githubToken) {
+  // Declared outside the try so the catch can log them.
+  const appId = getFirstTagValue(verification, 'i');
+  let architecture = null;
+  let type = null;
   try {
     // Ensure the relay pool is ready before any async callbacks run.
     requireNostrPool();
 
-    const appId = getFirstTagValue(verification, 'i');
     const version = getFirstTagValue(verification, 'version');
     const platform = getFirstTagValue(verification, 'platform');
     const legacyPlatform = toLegacyPlatform(platform);
@@ -486,7 +489,8 @@ export async function processNewReleaseVerification(verification, newWalletVersi
         continue;
       }
 
-      for (const { architecture, type } of buildCombinations) {
+      for (const combination of buildCombinations) {
+        ({ architecture, type } = combination);
         const safeAppId = sanitizeFilesystemSegment(appId);
         const safeVersion = sanitizeFilesystemSegment(newWalletVersion);
         const safeFileName = sanitizeFilesystemSegment(fileName);
@@ -764,6 +768,17 @@ async function runJobWithPreparation({
   };
 }
 
+// sha256 of the official binaries a release build compared against. Scripts
+// that build a new release download those binaries themselves, so only they
+// can report them. Anything that is not a sha256 hex string is ignored.
+function readReportedHashes(value) {
+  const values = Array.isArray(value) ? value : (value == null ? [] : [value]);
+  const hashes = values
+    .map(hash => String(hash).trim().toLowerCase())
+    .filter(hash => /^[0-9a-f]{64}$/.test(hash));
+  return [...new Set(hashes)];
+}
+
 export function readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type) {
   const yamlFilePath = findFileRecursively(buildDirForThisVerification, 'COMPARISON_RESULTS.yaml');
   if (yamlFilePath) {
@@ -777,7 +792,8 @@ export function readComparisonResults(buildDirForThisVerification, architecture,
         // Workaround for old scripts that don't have a verdict field yet
         verdict: data?.verdict ?? data?.results?.[0]?.status ?? null,
         scriptVersion: data?.script_version ?? null,
-        notes: data?.notes ?? null
+        notes: data?.notes ?? null,
+        hashes: readReportedHashes(data?.hashes)
       };
 
     } catch (error) {
@@ -953,6 +969,11 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
   }
 
   const { verdict, scriptVersion, notes } = comparisonResults;
+  // Release builds have no registered binary; publish what the script
+  // compared against instead.
+  if (!hashes?.length) {
+    hashes = comparisonResults.hashes ?? [];
+  }
 
   if (!PUBLISHABLE_VERDICTS.includes(verdict)) {
     appLog.error(`________________________________ Verdict ${verdict} is not in the list of allowed verdicts for appId=${appId}, version=${newWalletVersion}, architecture=${architecture}, type=${type}`);
@@ -1012,7 +1033,9 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
     isDraft: false,
     // Original verification values
     appId: appId,
-    platform: platform
+    platform: platform,
+    architecture,
+    type
   };
 
   try {

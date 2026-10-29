@@ -6,7 +6,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { Readable } from 'node:stream';
 
-import { readComparisonResults, buildVerificationContent, downloadFileFromBlossom, downloadAssetFilesToDir, addJobToQueue, queue, startCompilationJob } from '../verifications.mjs';
+import { readComparisonResults, processNewReleaseVerification, buildVerificationContent, downloadFileFromBlossom, downloadAssetFilesToDir, addJobToQueue, queue, startCompilationJob } from '../verifications.mjs';
 import { initDb, closeDb, insert, findQueuedOrErroredSimilarAttempt, findErroredAttemptForBuildScript } from '../ddbbUtils.mjs';
 import { DEBUG_APP_IDS } from '../config/config.mjs';
 import { assetBundleRegistrationKind, assetRegistrationKind } from '../nostr-constants.mjs';
@@ -125,9 +125,29 @@ describe('readComparisonResults', () => {
       {
         verdict: 'reproducible',
         scriptVersion: '2.1.0',
-        notes: 'all good'
+        notes: 'all good',
+        hashes: []
       }
     );
+  });
+
+  test('reads the reported hashes of the official binaries', () => {
+    const buildDir = makeTempDir('comparison-hashes');
+    const hash = 'ab'.repeat(32);
+    fs.writeFileSync(
+      path.join(buildDir, 'COMPARISON_RESULTS.yaml'),
+      [
+        'verdict: reproducible',
+        'hashes:',
+        `  - ${hash.toUpperCase()}`,
+        `  - ${hash}`,
+        '  - not-a-hash'
+      ].join('\n')
+    );
+    assert.deepEqual(readComparisonResults(buildDir).hashes, [hash]);
+
+    fs.writeFileSync(path.join(buildDir, 'COMPARISON_RESULTS.yaml'), `verdict: reproducible\nhashes: ${hash}\n`);
+    assert.deepEqual(readComparisonResults(buildDir).hashes, [hash]);
   });
 
   test('falls back to results[0].status when verdict is missing', () => {
@@ -145,7 +165,8 @@ describe('readComparisonResults', () => {
       {
         verdict: 'not_reproducible',
         scriptVersion: null,
-        notes: null
+        notes: null,
+        hashes: []
       }
     );
   });
@@ -469,5 +490,18 @@ describe('addJobToQueue asset key', () => {
       queue.clear();
       queue.start();
     }
+  });
+});
+
+describe('processNewReleaseVerification', () => {
+  test('logs an error instead of throwing from its catch', async () => {
+    // No relay pool in tests, so requireNostrPool() throws inside the try.
+    const verification = {
+      id: 'v'.repeat(64),
+      pubkey: 'p'.repeat(64),
+      tags: [['i', 'sparrow'], ['version', '2.5.5'], ['platform', 'desktop']],
+      content: '{}',
+    };
+    await processNewReleaseVerification(verification, '2.5.6', {}, [], null);
   });
 });
