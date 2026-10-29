@@ -2,7 +2,7 @@ import './setup.mjs';
 import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { loadApp, renderDependenciesPanel, panelElement, usedBy, severityTally, coverageTipLines } from '../../src/dependencies-panel.mjs';
+import { loadApp, renderDependenciesPanel, panelElement, usedBy, severityTally, coverageTipLines, historyScale } from '../../src/dependencies-panel.mjs';
 import { panelModel, releaseForVersion } from '../../src/dependencies-panel-model.mjs';
 import { nip19 } from 'nostr-tools';
 
@@ -445,5 +445,50 @@ describe('lock coverage notice', () => {
     assert.match(notice(withCoverage({ ...COVERAGE, verdict: 'none' })).textContent, /no dependency files in this release, so its dependencies are unknown, not absent/);
     const subsOnly = withCoverage({ ...COVERAGE, verdict: 'none' }, { submodules: { total: 1, mayBeInApp: 0 } });
     assert.equal(notice(subsOnly), null);
+  });
+});
+
+describe('dependencies per version', () => {
+  const rel = (ref, total, direct, extra = {}) => ({ ...APP.releases[0], ref, dependencies: { ...APP.releases[0].dependencies, total, direct }, ...extra });
+  const multi = { ...APP, releases: [rel('v1.4.0', 412, 40), rel('v1.3.0', 0, 0, { status: 'failed' }), rel('v1.2.0', 380, 38), rel('v1.1.0', 510, 51)] };
+
+  test('the history runs oldest first, marks the shown release, and leaves out releases without a count', () => {
+    assert.deepEqual(panelModel(multi, { release: 'v1.2.0' }).history, [
+      { ref: 'v1.1.0', total: 510, direct: 51, current: false },
+      { ref: 'v1.2.0', total: 380, direct: 38, current: true },
+      { ref: 'v1.4.0', total: 412, direct: 40, current: false },
+    ]);
+  });
+
+  test('the chart has a dot per release under the count, and names the first and last version', () => {
+    const node = panelElement(panelModel(multi), { appId: 'app.android', base: '/x', fetchImpl: async () => null });
+    const chart = node.querySelector('.dp-history');
+    assert.ok(chart);
+    assert.equal(chart.parentElement.querySelector('.dp-tile__label').textContent, 'dependencies');
+    assert.equal(chart.querySelectorAll('.dp-history__dot').length, 3);
+    assert.equal(chart.querySelectorAll('.dp-history__dot--current').length, 1);
+    assert.equal(chart.querySelector('.dp-history__xaxis').textContent, 'v1.1.0v1.4.0');
+  });
+
+  test('the arrow keys show one version and its count', () => {
+    const node = panelElement(panelModel(multi), { appId: 'app.android', base: '/x', fetchImpl: async () => null });
+    const plot = node.querySelector('.dp-history__plot');
+    const tip = node.querySelector('.dp-history__tip');
+    plot.dispatchEvent(new window.Event('focus'));
+    assert.equal(tip.textContent, 'v1.4.0: 412 dependencies (40 direct)');
+    const key = new window.Event('keydown');
+    key.key = 'ArrowLeft';
+    plot.dispatchEvent(key);
+    assert.equal(tip.textContent, 'v1.2.0: 380 dependencies (38 direct)');
+  });
+
+  test('one analysed release draws no chart', () => {
+    assert.equal(panelElement(panelModel(APP), { appId: 'app.android', base: '/x', fetchImpl: async () => null }).querySelector('.dp-history'), null);
+  });
+
+  test('the axis top is a round number above the largest count', () => {
+    assert.deepEqual(historyScale(2514), { top: 3000, step: 1000 });
+    assert.deepEqual(historyScale(167), { top: 200, step: 100 });
+    assert.deepEqual(historyScale(412), { top: 600, step: 200 });
   });
 });

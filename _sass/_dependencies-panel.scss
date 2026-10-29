@@ -126,6 +126,151 @@ body.dark .dp-panel {
   color: var(--neutral-3);
 }
 
+// Dependencies per version, under the count (historyChart in src/dependencies-panel.mjs)
+.dp-history {
+  min-width: 0;
+  margin-top: 14px;
+}
+
+.dp-history__title {
+  font-size: $font-xs;
+  color: var(--neutral-3);
+  margin-bottom: 6px;
+}
+
+.dp-history__body {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  grid-template-rows: 90px auto;
+  gap: 4px 8px;
+}
+
+.dp-history__yaxis {
+  position: relative;
+  font-size: $font-xxs;
+  font-variant-numeric: tabular-nums;
+  min-width: 5ch;
+}
+
+.dp-history__ylabel {
+  position: absolute;
+  right: 0;
+  transform: translateY(-50%);
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.dp-history__plot {
+  position: relative;
+  // room for the end dots, which sit on the plot's edges
+  margin: 0 5px;
+  cursor: crosshair;
+  touch-action: pan-y;
+  outline-offset: 6px;
+}
+
+.dp-history__lines {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.dp-history__grid {
+  stroke: var(--neutral-5);
+  stroke-width: 1;
+}
+
+.dp-history__line {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.dp-history__dot {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  margin: -4px 0 0 -4px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 2px var(--neutral-6);
+  pointer-events: none;
+}
+
+body.dark .dp-history__dot {
+  box-shadow: 0 0 0 2px var(--body, #222);
+}
+
+// the release the panel is showing
+.dp-history__dot--current {
+  width: 12px;
+  height: 12px;
+  margin: -6px 0 0 -6px;
+}
+
+.dp-history__dot--hover {
+  width: 12px;
+  height: 12px;
+  margin: -6px 0 0 -6px;
+  background: var(--neutral-1);
+}
+
+.dp-history__cross {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  border-left: 1px dashed var(--neutral-3);
+  pointer-events: none;
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.dp-history__tip {
+  position: absolute;
+  bottom: calc(100% + 4px);
+  transform: translateX(-50%);
+  white-space: nowrap;
+  padding: 3px 8px;
+  border-radius: 6px;
+  border: 1px solid var(--neutral-5);
+  background: var(--neutral-7, #fff);
+  box-shadow: var(--shadow-2, none);
+  font-size: $font-xxs;
+  font-variant-numeric: tabular-nums;
+  pointer-events: none;
+  z-index: 1;
+
+  &[data-edge="start"] {
+    transform: none;
+  }
+
+  &[data-edge="end"] {
+    transform: translateX(-100%);
+  }
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.dp-history__xaxis {
+  display: flex;
+  grid-column: 2;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+}
+
 // "50 critical (40 cleared)", one line per severity in the vulnerability tile
 .dp-tally__count--critical,
 .dp-tally__count--high,

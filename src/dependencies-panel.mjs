@@ -171,11 +171,110 @@ function breakableName(name) {
   return out;
 }
 
-function tile(value, label, { tone = '', sub = null } = {}) {
+function tile(value, label, { tone = '', sub = null, extra = null } = {}) {
   return el('div', { className: `dp-tile${tone ? ` dp-tile--${tone}` : ''}` },
     el('div', { className: 'dp-tile__value' }, value == null ? '–' : typeof value === 'object' ? value : String(value)),
     el('div', { className: 'dp-tile__label' }, label),
     [sub].flat().some(Boolean) ? el('div', { className: 'dp-tile__sub' }, sub) : null,
+    extra,
+  );
+}
+
+// A round axis top for a count: 1, 2 or 5 times a power of ten per step, three steps.
+export function historyScale(max) {
+  if (!(max > 0)) return { top: 1, step: 1 };
+  const raw = max / 3;
+  const pow = 10 ** Math.floor(Math.log10(raw));
+  const step = [1, 2, 5, 10].map(m => m * pow).find(v => v >= raw);
+  return { top: Math.ceil(max / step) * step, step };
+}
+
+const SVG_NS = 'http://www.w3.org/2000/svg';
+const svgEl = (tag, attrs = {}) => {
+  const node = document.createElementNS(SVG_NS, tag);
+  for (const [k, v] of Object.entries(attrs)) node.setAttribute(k, String(v));
+  return node;
+};
+
+export const historyPointText = (p) =>
+  `${p.ref}: ${p.total.toLocaleString('en-US')} dependencies${p.direct != null ? ` (${p.direct.toLocaleString('en-US')} direct)` : ''}`;
+
+// The count of every analysed release as a line, oldest left. Hovering (or the
+// arrow keys) shows one release's version and count. Positions are percentages,
+// so the chart follows the tile's width; the line is the only SVG.
+export function historyChart(history) {
+  if (!history || history.length < 2) return null;
+  const n = history.length;
+  const { top, step } = historyScale(Math.max(...history.map(p => p.total)));
+  const xOf = (i) => (i / (n - 1)) * 100;
+  const yOf = (v) => 100 - (v / top) * 100;
+
+  const svg = svgEl('svg', { class: 'dp-history__lines', viewBox: '0 0 100 100', preserveAspectRatio: 'none', 'aria-hidden': 'true' });
+  const yLabels = [];
+  for (let v = 0; v <= top; v += step) {
+    svg.appendChild(svgEl('line', { x1: 0, x2: 100, y1: yOf(v), y2: yOf(v), class: 'dp-history__grid', 'vector-effect': 'non-scaling-stroke' }));
+    yLabels.push(el('span', { className: 'dp-history__ylabel', style: { top: `${yOf(v)}%` } }, v.toLocaleString('en-US')));
+  }
+  svg.appendChild(svgEl('polyline', {
+    points: history.map((p, i) => `${xOf(i)},${yOf(p.total)}`).join(' '),
+    class: 'dp-history__line', 'vector-effect': 'non-scaling-stroke',
+  }));
+  const dots = history.map((p, i) => el('span', {
+    className: `dp-history__dot${p.current ? ' dp-history__dot--current' : ''}`,
+    style: { left: `${xOf(i)}%`, top: `${yOf(p.total)}%` },
+  }));
+  const cross = el('span', { className: 'dp-history__cross', hidden: true });
+  const tip = el('span', { className: 'dp-history__tip', role: 'status', hidden: true });
+
+  const currentIndex = history.findIndex(p => p.current);
+  const first = history[0];
+  const last = history[n - 1];
+  const plot = el('div', {
+    className: 'dp-history__plot',
+    tabindex: '0',
+    'aria-label': `Dependencies per version, ${n} versions, from ${first.total} in ${first.ref} to ${last.total} in ${last.ref}. Use the arrow keys to read each version.`,
+  }, svg, cross, dots, tip);
+
+  let shown = -1;
+  const show = (i) => {
+    if (i === shown) return;
+    if (shown >= 0) dots[shown].classList.remove('dp-history__dot--hover');
+    shown = i;
+    if (i < 0) { cross.hidden = true; tip.hidden = true; return; }
+    const x = xOf(i);
+    dots[i].classList.add('dp-history__dot--hover');
+    cross.hidden = false;
+    cross.style.left = `${x}%`;
+    tip.hidden = false;
+    tip.textContent = historyPointText(history[i]);
+    tip.style.left = `${x}%`;
+    tip.dataset.edge = x < 20 ? 'start' : x > 80 ? 'end' : '';
+  };
+  const indexAt = (clientX) => {
+    const r = plot.getBoundingClientRect();
+    if (!r.width) return -1;
+    return Math.max(0, Math.min(n - 1, Math.round(((clientX - r.left) / r.width) * (n - 1))));
+  };
+  plot.addEventListener('pointermove', (e) => show(indexAt(e.clientX)));
+  plot.addEventListener('pointerdown', (e) => show(indexAt(e.clientX)));
+  plot.addEventListener('pointerleave', () => { if (document.activeElement !== plot) show(-1); });
+  plot.addEventListener('focus', () => show(shown >= 0 ? shown : (currentIndex >= 0 ? currentIndex : n - 1)));
+  plot.addEventListener('blur', () => show(-1));
+  plot.addEventListener('keydown', (e) => {
+    const next = e.key === 'ArrowLeft' ? shown - 1 : e.key === 'ArrowRight' ? shown + 1
+      : e.key === 'Home' ? 0 : e.key === 'End' ? n - 1 : null;
+    if (next == null) return;
+    e.preventDefault();
+    show(Math.max(0, Math.min(n - 1, next)));
+  });
+
+  return el('div', { className: 'dp-history' },
+    el('div', { className: 'dp-history__title' }, 'Dependencies per version'),
+    el('div', { className: 'dp-history__body' },
+      el('div', { className: 'dp-history__yaxis', 'aria-hidden': 'true' }, yLabels),
+      plot,
+      el('div', { className: 'dp-history__xaxis', 'aria-hidden': 'true' }, el('span', {}, first.ref), el('span', {}, last.ref)),
+    ),
   );
 }
 
@@ -691,7 +790,7 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
     flash ? el('p', { className: 'dp-flash', role: 'status' }, flash) : null,
     // No lockfile was read (a C/C++ release with only submodules, or a Flutter one): zeros here would read as clean.
     !model.packages && (model.submodules || model.status === 'unsupported') ? null : el('div', { className: 'dp-tiles' },
-      tile(model.packages, 'dependencies', { sub: `${model.direct} direct · ${model.transitive} transitive` }),
+      tile(model.packages, 'dependencies', { sub: `${model.direct} direct · ${model.transitive} transitive`, extra: historyChart(model.history) }),
       vulnerabilityTile(model),
       model.malware
         ? tile(model.malware, 'possible malware', { tone: 'bad', sub: 'being checked by a person; see the note above' })

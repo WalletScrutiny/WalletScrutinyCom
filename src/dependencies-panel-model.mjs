@@ -235,9 +235,21 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
     lockCoverage: current.lockCoverageByPlatform?.[platform] || current.lockCoverage || null,
     newerFailed: newerFailed.map(r => ({ ref: r.ref, status: r.status, error: r.error || null })),
     releases: releases.map(r => ({ ref: r.ref, analysedAt: r.analysedAt || null, status: r.status || 'ok' })),
+    history: dependencyHistory(releases, current.ref),
     // the other apps of the repository: an alias's page (com.zeusln.zeus) names the analysed one, not itself
     sameRepositoryAs: app.aliases?.length > 1 ? app.aliases.map(a => a.appId).filter(id => id !== (appId || app.appId)) : [],
   };
+}
+
+// The dependency count of every analysed release, oldest first, for the
+// chart under the count: { ref, total, direct, current }. A release whose
+// analysis failed has no count, and a zero from one that read no lockfile
+// would draw a cliff that is not there, so both are left out.
+export function dependencyHistory(releases = [], currentRef = null) {
+  return releases
+    .filter(r => Number.isFinite(r.dependencies?.total) && ((r.status || 'ok') === 'ok' || r.dependencies.total > 0))
+    .map(r => ({ ref: r.ref, total: r.dependencies.total, direct: r.dependencies.direct ?? null, current: r.ref === currentRef }))
+    .reverse();
 }
 
 // File name the export uses for an app id or release tag (export.mjs safeName).
