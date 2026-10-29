@@ -7,10 +7,14 @@ author_profile: true
 
 <div class="vuln-news" id="vuln-news" data-base="{{ site.baseurl }}">
   <p class="vuln-news__lead">
-    Security advisories published in the last 14 days, and the wallets whose
-    newest analysed release uses an affected version. The date is when the
-    advisory became public, not when a wallet started using the library.
+    Security advisories published in the last 14 days, and the wallets with a
+    release that uses an affected version. The date is when the advisory
+    became public, not when a wallet started using the library.
   </p>
+  <label class="vuln-news__filter">
+    Releases:
+    <select id="vuln-news-releases"></select>
+  </label>
   <div class="vuln-news__days" id="vuln-news-days">
     <p class="vuln-news__status">Loading…</p>
   </div>

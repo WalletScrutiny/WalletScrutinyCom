@@ -359,6 +359,14 @@ try {
 
   if (EXPORT_DIR) {
     try {
+      // Release days for tags without dated GitHub release files; a failed lookup is retried next pass
+      const { fillReleaseDates } = await import('./releaseDates.mjs');
+      const d = await fillReleaseDates(db, { githubToken });
+      if (d.looked) console.log(`Release dates: ${d.dated} of ${d.looked} tags dated${d.failed ? `, ${d.failed} lookups failed` : ''}`);
+    } catch (error) {
+      console.warn('Release dates:', error.message);
+    }
+    try {
       const { exportAll } = await import('./export.mjs');
       const { apps, releases, dir } = exportAll(db, EXPORT_DIR, { onlyReproducible: SCOPE !== 'all' });
       console.log(`\nExported ${apps} apps, ${releases} releases to ${dir}`);

@@ -182,8 +182,17 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
   // Newest version first. Analysis time says nothing about it: releases added
   // later (backfill) are analysed last but are older. Equal versions keep their order.
   releases.sort(compareReleasesNewestFirst);
+  // The day each release was published, for the /news/ page's release-age
+  // filter: its GitHub release assets, else the tagged commit's date
+  // (releaseDates.mjs); absent when neither is known.
+  const releasedOn = new Map(db.prepare('SELECT ref, released_at AS at FROM release_dates WHERE app_id = ? AND released_at IS NOT NULL')
+    .all(appId).map(row => [row.ref, row.at]));
+  for (const row of db.prepare('SELECT version, MIN(published_at) AS at FROM assets WHERE app_id = ? AND published_at IS NOT NULL GROUP BY version').all(appId)) {
+    releasedOn.set(row.version, String(row.at).slice(0, 10));
+  }
   for (let i = 0; i < releases.length; i++) {
     const r = releases[i];
+    if (releasedOn.has(r.ref)) r.releasedAt = releasedOn.get(r.ref);
     const previous = releases[i + 1];
     const lockfilesOf = new Map();
     for (const d of getDependencies(db, appId, r.ref)) {

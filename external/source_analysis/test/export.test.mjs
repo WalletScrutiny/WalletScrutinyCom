@@ -174,6 +174,22 @@ test('buildApp: releases analysed later but older (backfill) still sort after ne
   assert.deepEqual(buildApp(db, 'app.b').releases.map(r => r.ref), ['v2.0.0', 'v2.0.0-rc1', 'v1.10.0', 'v1.9.0', 'v1.0.0']);
 });
 
+test('buildApp: a release carries the earliest publication day of its assets, else its tag commit day', () => {
+  const db = initDatabase(':memory:');
+  for (const v of ['v2.0.0', 'v1.0.0']) {
+    saveDependencies(db, 'app.d', v, [{ ecosystem: 'npm', entries: [entry('a', '1.0.0')] }]);
+    recordAnalysis(db, { appId: 'app.d', kind: 'release', ref: v, commit: 'c', status: 'ok', appType: 'npm', analyser: 't', plugins: [], lockfiles: [], dependencies: 1, osvChecked: 1, osvSkipped: {}, vulnerabilities: 0 });
+  }
+  const asset = db.prepare("INSERT INTO assets (app_id, source, version, asset_name, sha256, published_at) VALUES ('app.d', 'github', ?, ?, 'h', ?)");
+  asset.run('v2.0.0', 'app.apk', '2026-10-02T15:34:04Z');
+  asset.run('v2.0.0', 'app.aab', '2026-10-01T09:00:00Z');
+  asset.run('v1.0.0', 'app.apk', null);
+  assert.deepEqual(buildApp(db, 'app.d').releases.map(r => [r.ref, r.releasedAt]), [['v2.0.0', '2026-10-01'], ['v1.0.0', undefined]]);
+  // a tag's commit day (releaseDates.mjs) fills in; an asset's day wins over it
+  db.prepare("INSERT INTO release_dates (app_id, ref, released_at) VALUES ('app.d', 'v1.0.0', '2026-04-01'), ('app.d', 'v2.0.0', '2026-09-30')").run();
+  assert.deepEqual(buildApp(db, 'app.d').releases.map(r => [r.ref, r.releasedAt]), [['v2.0.0', '2026-10-01'], ['v1.0.0', '2026-04-01']]);
+});
+
 test('submodules: counted in the release summary, advisories only where the code may be in the app, rows exported per release', () => {
   const db = initDatabase(':memory:');
   recordAnalysis(db, { appId: 'cpp.wallet', kind: 'release', ref: 'v2', commit: 'a'.repeat(40), status: 'unsupported', analyser: 't', appType: 'unknown' });

@@ -12,6 +12,28 @@
     color: var(--neutral-2);
   }
 
+  &__filter {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: $font-sm;
+    color: var(--neutral-2);
+
+    select {
+      font: inherit;
+      color: var(--text);
+      background: var(--body);
+      border: 1px solid var(--neutral-5);
+      border-radius: 8px;
+      padding: 4px 8px;
+    }
+  }
+
+  &__ref {
+    color: var(--neutral-2);
+    font-size: $font-xxs;
+  }
+
   &__day {
     margin-top: 24px;
 

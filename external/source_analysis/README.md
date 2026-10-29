@@ -384,7 +384,13 @@ CISA's exploited list, publication dates per advisory; a feed that fails only
 leaves its part out, and the previous file stays when all fail;
 `SOURCE_ANALYSIS_SIGNALS=off` skips it). Then `news.json` (`news.mjs`): the
 advisories published in the last 14 days, each with the wallets whose newest
-working release uses an affected version, for the site's `/news/` page. It is
+working release, or a release published in the last 6 months, uses an
+affected version, for the site's `/news/` page and its release filter. A
+release's day (`releasedAt` in the app file) is the earliest `published_at` of
+its GitHub release files, else the date of the commit its tag points at:
+before the export, `releaseDates.mjs` asks GitHub or GitLab once per release
+without dated files (Bitcoin Core, Electrum, Trezor, … tag releases but
+publish no files there) and keeps the answer in the `release_dates` table. It is
 a join of `signals.json` and the app files (about 70 KB instead of the 11 MB
 of app files the page would otherwise load), and the hourly refresh rewrites
 it with `signals.json`.

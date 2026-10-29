@@ -210,6 +210,19 @@ export function initDatabase(dbPath = DB_PATH) {
   `);
   ensureColumn(db, 'apps', 'gone', 'INTEGER NOT NULL DEFAULT 0');
 
+  // The day a release was tagged, for refs without a dated GitHub release asset
+  // (releaseDates.mjs): the date of the commit the tag points at. released_at is
+  // null when the forge does not know the ref; neither changes, so each is asked once.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS release_dates (
+      app_id TEXT NOT NULL,
+      ref TEXT NOT NULL,
+      released_at TEXT,
+      checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (app_id, ref)
+    );
+  `);
+
   // Gone wallets past their end of life (index.mjs, GONE_EOL_YEARS), as of the
   // last pass: neither analysed nor exported.
   db.exec(`
