@@ -421,7 +421,7 @@ export function signerLink(pubkey) {
     return el('span', { className: 'dp-signer' }, `${String(pubkey).slice(0, 8)}…`);
   }
   return el('a', { className: 'dp-signer', href: `https://njump.me/${npub}`, target: '_blank', rel: 'noopener noreferrer', title: 'Nostr profile', 'data-pubkey': pubkey },
-    el('img', { className: 'dp-signer__pic', src: AVATAR_PLACEHOLDER, alt: '', width: 16, height: 16, loading: 'lazy' }),
+    el('img', { className: 'dp-signer__pic', referrerpolicy: 'no-referrer', src: AVATAR_PLACEHOLDER, alt: '', width: 16, height: 16, loading: 'lazy' }),
     el('span', { className: 'dp-signer__name' }, `${npub.slice(0, 10)}…${npub.slice(-4)}`));
 }
 
