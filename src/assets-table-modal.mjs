@@ -606,6 +606,7 @@ function buildVerifierProfileCardHtml(profile, pubkey) {
   if (profile) {
     const card = el('div', { className: 'profile-card' },
       el('img', {
+        referrerpolicy: 'no-referrer',
         src: imageUrl,
         className: 'profile-image',
         alt: '',
@@ -1182,6 +1183,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
         titleParts.push('Click to open in Njump.me');
 
         const img = el('img', {
+          referrerpolicy: 'no-referrer',
           src: zapperImageUrl,
           className: 'profile-image',
           alt: '',
@@ -1249,6 +1251,7 @@ export async function showVerificationModal(sha256Hash, verificationId, appId, p
       titleParts.push('Click to open in Njump.me');
 
       const img = el('img', {
+        referrerpolicy: 'no-referrer',
         src: endorserImageUrl,
         className: 'profile-image',
         alt: '',

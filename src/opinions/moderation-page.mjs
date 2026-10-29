@@ -326,6 +326,7 @@ export class OpinionModerationPage {
     const profile = this.profiles.get(pubkey);
     const avatar = el('img', {
       className: 'opinion-moderation__avatar',
+      referrerpolicy: 'no-referrer',
       src: getProfileImageUrl(profile),
       alt: '',
       loading: 'lazy',

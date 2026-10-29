@@ -434,6 +434,7 @@ export function buildProfileCircleHtml(pubkey, profile, imageUrl, placeholderUrl
     dataset: { name: displayName },
   },
     el('img', {
+      referrerpolicy: 'no-referrer',
       src: safeImageUrl,
       className: `profile-circle${placeholderClass}`,
       alt: '',
@@ -442,6 +443,7 @@ export function buildProfileCircleHtml(pubkey, profile, imageUrl, placeholderUrl
     el('div', { className: 'profile-hover-modal' },
       el('div', { className: 'profile-modal-content' },
         el('img', {
+          referrerpolicy: 'no-referrer',
           src: safeImageUrl,
           className: 'profile-modal-image',
           alt: '',
@@ -481,6 +483,7 @@ export function renderProfileCardHtml(pubkey, profile) {
     ...(safePubkey ? { dataset: { verifierPubkey: safePubkey } } : {}),
   },
     el('img', {
+      referrerpolicy: 'no-referrer',
       src: imageUrl,
       className: 'profile-image',
       alt: '',
@@ -509,6 +512,7 @@ export function renderBigProfileCardHtml(pubkey, profile) {
   const imageUrl = getProfileImageUrl(profile);
   const card = el('div', { className: 'big-profile-card' },
     el('img', {
+      referrerpolicy: 'no-referrer',
       src: imageUrl,
       alt: 'Profile Picture',
       style: {
