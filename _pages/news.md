@@ -8,7 +8,9 @@ author_profile: true
 <div class="vuln-news" id="vuln-news" data-base="{{ site.baseurl }}">
   <p class="vuln-news__lead">
     Security advisories published in the last 14 days, and the wallets with a
-    release that uses an affected version. The date is when the advisory
+    release that uses an affected version. A vulnerable dependency does not
+    by itself put funds at risk: the app may not use the affected code, or
+    use it in a way that cannot be exploited. The date is when the advisory
     became public, not when a wallet started using the library.
   </p>
   <label class="vuln-news__filter">
