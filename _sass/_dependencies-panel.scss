@@ -311,22 +311,13 @@ body.dark .dp-history__dot--current {
     transform: translate(-50%, 9px);
   }
 
-  &[data-edge="start"] {
-    transform: translate(-6px, calc(-100% - 9px));
-    text-align: left;
+  // placed in pixels, already left of its dot by as much as it needs
+  &--placed {
+    transform: translateY(calc(-100% - 9px));
   }
 
-  &[data-edge="start"][data-side="below"] {
-    transform: translate(-6px, 9px);
-  }
-
-  &[data-edge="end"] {
-    transform: translate(calc(-100% + 6px), calc(-100% - 9px));
-    text-align: right;
-  }
-
-  &[data-edge="end"][data-side="below"] {
-    transform: translate(calc(-100% + 6px), 9px);
+  &--placed[data-side="below"] {
+    transform: translateY(9px);
   }
 }
 

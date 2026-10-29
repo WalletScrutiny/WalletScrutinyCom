@@ -234,11 +234,16 @@ export function historyChart(history) {
     ),
     slot,
   );
+  let plot = null;
   function select(i) {
     tabs.forEach((t, j) => { t.setAttribute('aria-selected', String(i === j)); t.tabIndex = i === j ? 0 : -1; });
-    slot.replaceChildren(historyPlot(series[i].points, series[i].key, chart));
+    plot = historyPlot(series[i].points, series[i].key, chart);
+    slot.replaceChildren(plot);
+    plot.placeLabel();
   }
   select(0);
+  // the label needs the laid-out width, which the chart only has once it is on the page
+  if (typeof ResizeObserver !== 'undefined') new ResizeObserver(() => plot.placeLabel()).observe(chart);
   return chart;
 }
 
@@ -268,8 +273,18 @@ function historyPlot(history, key, chart) {
   const currentLabel = at < 0 ? null : el('span', {
     className: 'dp-history__current',
     style: { left: `${xOf(at)}%`, top: `${yOf(history[at][key])}%` },
-    dataset: { edge: xOf(at) < 20 ? 'start' : xOf(at) > 80 ? 'end' : '', side: yOf(history[at][key]) < 40 ? 'below' : 'above' },
+    dataset: { side: yOf(history[at][key]) < 40 ? 'below' : 'above' },
   }, 'Currently', el('br'), 'selected');
+  // centred on its dot, and only pushed sideways as far as it takes to stay inside the plot
+  const placeLabel = () => {
+    if (!currentLabel) return;
+    const pw = plot.clientWidth;
+    const lw = currentLabel.offsetWidth;
+    if (!pw || !lw) return;
+    const x = (xOf(at) / 100) * pw;
+    currentLabel.style.left = `${Math.max(-6, Math.min(x - lw / 2, pw - lw + 6))}px`;
+    currentLabel.classList.add('dp-history__current--placed');
+  };
   const cross = el('span', { className: 'dp-history__cross', hidden: true });
   const tip = el('span', { className: 'dp-history__tip', role: 'status', hidden: true });
 
@@ -317,11 +332,13 @@ function historyPlot(history, key, chart) {
     show(Math.max(0, Math.min(n - 1, next)));
   });
 
-  return el('div', { className: 'dp-history__body' },
+  const body = el('div', { className: 'dp-history__body' },
     el('div', { className: 'dp-history__yaxis', 'aria-hidden': 'true' }, yLabels),
     plot,
     el('div', { className: 'dp-history__xaxis', 'aria-hidden': 'true' }, el('span', {}, first.ref), el('span', {}, last.ref)),
   );
+  body.placeLabel = placeLabel;
+  return body;
 }
 
 // One line per severity, "50 critical · 40 cleared": cleared counts the
