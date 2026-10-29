@@ -180,13 +180,17 @@ function tile(value, label, { tone = '', sub = null, extra = null } = {}) {
   );
 }
 
-// A round axis top for a count: 1, 2 or 5 times a power of ten per step, three steps.
-export function historyScale(max) {
-  if (!(max > 0)) return { top: 1, step: 1 };
-  const raw = max / 3;
-  const pow = 10 ** Math.floor(Math.log10(raw));
+// The y axis around the counts, a little wider than their range, so a rise or
+// a drop shows instead of a flat line far above zero: round ends, about four
+// steps of 1, 2 or 5 times a power of ten, never below zero.
+export function historyScale(min, max) {
+  const span = max - min || max * 0.1 || 1;
+  const lo = min - span * 0.15;
+  const hi = max + span * 0.15;
+  const raw = (hi - lo) / 4;
+  const pow = 10 ** Math.max(0, Math.floor(Math.log10(raw)));
   const step = [1, 2, 5, 10].map(m => m * pow).find(v => v >= raw);
-  return { top: Math.ceil(max / step) * step, step };
+  return { bottom: Math.max(0, Math.floor(lo / step) * step), top: Math.ceil(hi / step) * step, step };
 }
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
@@ -205,13 +209,14 @@ export const historyPointText = (p) =>
 export function historyChart(history) {
   if (!history || history.length < 2) return null;
   const n = history.length;
-  const { top, step } = historyScale(Math.max(...history.map(p => p.total)));
+  const totals = history.map(p => p.total);
+  const { bottom, top, step } = historyScale(Math.min(...totals), Math.max(...totals));
   const xOf = (i) => (i / (n - 1)) * 100;
-  const yOf = (v) => 100 - (v / top) * 100;
+  const yOf = (v) => 100 - ((v - bottom) / (top - bottom)) * 100;
 
   const svg = svgEl('svg', { class: 'dp-history__lines', viewBox: '0 0 100 100', preserveAspectRatio: 'none', 'aria-hidden': 'true' });
   const yLabels = [];
-  for (let v = 0; v <= top; v += step) {
+  for (let v = bottom; v <= top; v += step) {
     svg.appendChild(svgEl('line', { x1: 0, x2: 100, y1: yOf(v), y2: yOf(v), class: 'dp-history__grid', 'vector-effect': 'non-scaling-stroke' }));
     yLabels.push(el('span', { className: 'dp-history__ylabel', style: { top: `${yOf(v)}%` } }, v.toLocaleString('en-US')));
   }

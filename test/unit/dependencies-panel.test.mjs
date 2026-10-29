@@ -486,9 +486,10 @@ describe('dependencies per version', () => {
     assert.equal(panelElement(panelModel(APP), { appId: 'app.android', base: '/x', fetchImpl: async () => null }).querySelector('.dp-history'), null);
   });
 
-  test('the axis top is a round number above the largest count', () => {
-    assert.deepEqual(historyScale(2514), { top: 3000, step: 1000 });
-    assert.deepEqual(historyScale(167), { top: 200, step: 100 });
-    assert.deepEqual(historyScale(412), { top: 600, step: 200 });
+  test('the y axis spans the counts with a little room, not from zero', () => {
+    assert.deepEqual(historyScale(1686, 3028), { bottom: 1000, top: 3500, step: 500 });
+    assert.deepEqual(historyScale(1152, 2126), { bottom: 1000, top: 2500, step: 500 });
+    assert.deepEqual(historyScale(115, 665), { bottom: 0, top: 800, step: 200 });
+    assert.deepEqual(historyScale(167, 167), { bottom: 164, top: 170, step: 2 });
   });
 });
