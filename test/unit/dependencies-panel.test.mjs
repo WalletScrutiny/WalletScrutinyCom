@@ -467,6 +467,7 @@ describe('dependencies per version', () => {
     assert.equal(chart.parentElement.querySelector('.dp-tile__label').textContent, 'dependencies');
     assert.equal(chart.querySelectorAll('.dp-history__dot').length, 3);
     assert.equal(chart.querySelectorAll('.dp-history__dot--current').length, 1);
+    assert.equal(chart.querySelector('.dp-history__current').textContent, 'Currently selected');
     assert.equal(chart.querySelector('.dp-history__xaxis').textContent, 'v1.1.0v1.4.0');
   });
 

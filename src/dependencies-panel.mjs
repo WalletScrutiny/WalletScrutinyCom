@@ -204,7 +204,8 @@ export const historyPointText = (p) =>
   `${p.ref}: ${p.total.toLocaleString('en-US')} dependencies${p.direct != null ? ` (${p.direct.toLocaleString('en-US')} direct)` : ''}`;
 
 // The count of every analysed release as a line, oldest left. Hovering (or the
-// arrow keys) shows one release's version and count. Positions are percentages,
+// arrow keys) shows one release's version and count; the release the panel
+// shows has its own colour and a "Currently selected" label. Positions are percentages,
 // so the chart follows the tile's width; the line is the only SVG.
 export function historyChart(history) {
   if (!history || history.length < 2) return null;
@@ -228,17 +229,23 @@ export function historyChart(history) {
     className: `dp-history__dot${p.current ? ' dp-history__dot--current' : ''}`,
     style: { left: `${xOf(i)}%`, top: `${yOf(p.total)}%` },
   }));
+  // the release the panel shows, named next to its dot: below it when the dot is near the top
+  const at = history.findIndex(p => p.current);
+  const currentLabel = at < 0 ? null : el('span', {
+    className: 'dp-history__current',
+    style: { left: `${xOf(at)}%`, top: `${yOf(history[at].total)}%` },
+    dataset: { edge: xOf(at) < 20 ? 'start' : xOf(at) > 80 ? 'end' : '', side: yOf(history[at].total) < 40 ? 'below' : 'above' },
+  }, 'Currently selected');
   const cross = el('span', { className: 'dp-history__cross', hidden: true });
   const tip = el('span', { className: 'dp-history__tip', role: 'status', hidden: true });
 
-  const currentIndex = history.findIndex(p => p.current);
   const first = history[0];
   const last = history[n - 1];
   const plot = el('div', {
     className: 'dp-history__plot',
     tabindex: '0',
     'aria-label': `Dependencies per version, ${n} versions, from ${first.total} in ${first.ref} to ${last.total} in ${last.ref}. Use the arrow keys to read each version.`,
-  }, svg, cross, dots, tip);
+  }, svg, cross, dots, currentLabel, tip);
 
   let shown = -1;
   const show = (i) => {
@@ -252,8 +259,11 @@ export function historyChart(history) {
     cross.style.left = `${x}%`;
     tip.hidden = false;
     tip.textContent = historyPointText(history[i]);
-    tip.style.left = `${x}%`;
-    tip.dataset.edge = x < 20 ? 'start' : x > 80 ? 'end' : '';
+    // centred on the point but kept inside the chart, over the axis labels if need be
+    const p = plot.getBoundingClientRect();
+    const c = chart.getBoundingClientRect();
+    const tw = tip.offsetWidth;
+    tip.style.left = `${Math.max(Math.min((x / 100) * p.width - tw / 2, c.right - p.left - tw), c.left - p.left)}px`;
   };
   const indexAt = (clientX) => {
     const r = plot.getBoundingClientRect();
@@ -263,7 +273,7 @@ export function historyChart(history) {
   plot.addEventListener('pointermove', (e) => show(indexAt(e.clientX)));
   plot.addEventListener('pointerdown', (e) => show(indexAt(e.clientX)));
   plot.addEventListener('pointerleave', () => { if (document.activeElement !== plot) show(-1); });
-  plot.addEventListener('focus', () => show(shown >= 0 ? shown : (currentIndex >= 0 ? currentIndex : n - 1)));
+  plot.addEventListener('focus', () => show(shown >= 0 ? shown : (at >= 0 ? at : n - 1)));
   plot.addEventListener('blur', () => show(-1));
   plot.addEventListener('keydown', (e) => {
     const next = e.key === 'ArrowLeft' ? shown - 1 : e.key === 'ArrowRight' ? shown + 1
@@ -273,7 +283,7 @@ export function historyChart(history) {
     show(Math.max(0, Math.min(n - 1, next)));
   });
 
-  return el('div', { className: 'dp-history' },
+  const chart = el('div', { className: 'dp-history' },
     el('div', { className: 'dp-history__title' }, 'Dependencies per version'),
     el('div', { className: 'dp-history__body' },
       el('div', { className: 'dp-history__yaxis', 'aria-hidden': 'true' }, yLabels),
@@ -281,6 +291,7 @@ export function historyChart(history) {
       el('div', { className: 'dp-history__xaxis', 'aria-hidden': 'true' }, el('span', {}, first.ref), el('span', {}, last.ref)),
     ),
   );
+  return chart;
 }
 
 // One line per severity, "50 critical · 40 cleared": cleared counts the

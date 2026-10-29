@@ -207,11 +207,47 @@ body.dark .dp-history__dot {
   box-shadow: 0 0 0 2px var(--body, #222);
 }
 
-// the release the panel is showing
+// the release the panel is showing: its own colour, not a status one
 .dp-history__dot--current {
   width: 12px;
   height: 12px;
   margin: -6px 0 0 -6px;
+  background: #6c5ce7;
+}
+
+body.dark .dp-history__dot--current {
+  background: #a29bfe;
+}
+
+.dp-history__current {
+  position: absolute;
+  transform: translate(-50%, calc(-100% - 9px));
+  white-space: nowrap;
+  font-size: $font-xxs;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--neutral-2);
+  pointer-events: none;
+
+  &[data-side="below"] {
+    transform: translate(-50%, 9px);
+  }
+
+  &[data-edge="start"] {
+    transform: translate(-6px, calc(-100% - 9px));
+  }
+
+  &[data-edge="start"][data-side="below"] {
+    transform: translate(-6px, 9px);
+  }
+
+  &[data-edge="end"] {
+    transform: translate(calc(-100% + 6px), calc(-100% - 9px));
+  }
+
+  &[data-edge="end"][data-side="below"] {
+    transform: translate(calc(-100% + 6px), 9px);
+  }
 }
 
 .dp-history__dot--hover {
@@ -237,7 +273,6 @@ body.dark .dp-history__dot {
 .dp-history__tip {
   position: absolute;
   bottom: calc(100% + 4px);
-  transform: translateX(-50%);
   white-space: nowrap;
   padding: 3px 8px;
   border-radius: 6px;
@@ -248,14 +283,6 @@ body.dark .dp-history__dot {
   font-variant-numeric: tabular-nums;
   pointer-events: none;
   z-index: 1;
-
-  &[data-edge="start"] {
-    transform: none;
-  }
-
-  &[data-edge="end"] {
-    transform: translateX(-100%);
-  }
 
   &[hidden] {
     display: none;
