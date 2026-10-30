@@ -36,9 +36,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** BitcoinPoint is now [BCP Markets](https://www.bcp.markets/) by BCP Technologies Ltd, and the iPhone app is now called BCP Markets. The Android successor {% include walletLink.html wallet='android/com.bitcoinpoint.uk' verdict='true' %} is gone from Google Play too.
 
-**Update 2026-10-30:** BitcoinPoint is now [BCP Markets](https://www.bcp.markets/) by BCP Technologies Ltd, and its successor {% include walletLink.html wallet='android/com.bitcoinpoint.uk' verdict='true' %} is gone from Google Play too.
+## Android
 
 **Update 2022-04-25**: This app is not available anymore.
 
@@ -90,8 +90,6 @@ The wallets are purportedly kept offline in cold storage and there is no evidenc
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is now called BCP Markets.
 
 The Android analysis above applies to the iPhone app too.
 

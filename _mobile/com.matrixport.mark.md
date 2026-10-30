@@ -39,9 +39,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** Matrixport [rebranded as BIT](https://www.bit.com/pressroom/matrixport-rebrands-as-bit) on 20 March 2026, and both apps are now branded BIT. Its old websites now redirect to [bit.com](https://www.bit.com/). BIT says "client accounts, products and services remain the same, and legal entities and contractual arrangements are unchanged".
 
-**Update 2026-10-30:** Matrixport [rebranded as BIT](https://www.bit.com/pressroom/matrixport-rebrands-as-bit) on 20 March 2026, and its old websites now redirect to [bit.com](https://www.bit.com/). BIT says "client accounts, products and services remain the same, and legal entities and contractual arrangements are unchanged".
+## Android
 
 From its site description:
 
@@ -62,7 +62,5 @@ This cryptocurrency finance app is **custodial** and thus, **not verifiable.**
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is now branded BIT after Matrixport's [rebrand](https://www.bit.com/pressroom/matrixport-rebrands-as-bit).
 
 The Android analysis above applies to the iPhone app too.

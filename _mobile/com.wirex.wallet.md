@@ -42,9 +42,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** This app, which we reviewed as the Wirex Wallet, is now called COCA in both stores. The publisher is CCA LABS, shown as CCA LABS - FZCO on the App Store. The [COCA website](https://www.coca.xyz/) links to this app ID on both stores. It is not the legacy Wirex app, {% include walletLink.html wallet='android/com.wirex' verdict='true' %}, which [stopped supporting transactions on 2026-09-30](https://help.wirexapp.com/article/wirex-one-upgrade-faq-1685), and not its successor Wirex One (com.wirexapp.one).
 
-**Update 2026-10-30:** This app, which we reviewed as the Wirex Wallet, is now called COCA and is published by CCA LABS. The [COCA website](https://www.coca.xyz/) links to this app ID on both stores. It is not the legacy Wirex app, {% include walletLink.html wallet='android/com.wirex' verdict='true' %}, which [stopped supporting transactions on 2026-09-30](https://help.wirexapp.com/article/wirex-one-upgrade-faq-1685), and not its successor Wirex One (com.wirexapp.one).
+## Android
 
 ## Update 2024-07-17
 
@@ -81,8 +81,6 @@ At present, the verdict that we can give it is it is not an open source project.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is also COCA by CCA LABS - FZCO, linked from the [COCA website](https://www.coca.xyz/).
 
 The Android analysis above applies to the iPhone app too.
 

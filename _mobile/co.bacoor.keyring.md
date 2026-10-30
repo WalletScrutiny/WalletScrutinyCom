@@ -35,9 +35,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** KEYRING PRO no longer handles Bitcoin, on Android or on iPhone. The Google Play description calls it "a self-custodial Ethereum wallet and EVM wallet built for DeFi users", and the App Store description covers only "Ethereum and EVM-compatible networks". The code bacoor published as [KEYRINGPRO on GitHub](https://github.com/bacoor-hb/KEYRINGPRO) under GPL-3.0 in July 2026 also contains the iOS project. It treats Bitcoin as one of the ["LEGACY display-only chains"](https://github.com/bacoor-hb/KEYRINGPRO/blob/main/src/Common/legacyChainKey.js) that "V2 never signs on". A wallet that cannot send Bitcoin gets the verdict {% include verdictBadge.html verdict="nobtc" type='short' %}, so both apps get it.
 
-**Update 2026-10-30:** KEYRING PRO no longer handles Bitcoin. The Google Play description calls it "a self-custodial Ethereum wallet and EVM wallet built for DeFi users", and the code bacoor published as [KEYRINGPRO on GitHub](https://github.com/bacoor-hb/KEYRINGPRO) under GPL-3.0 in July 2026 treats Bitcoin as one of the ["LEGACY display-only chains"](https://github.com/bacoor-hb/KEYRINGPRO/blob/main/src/Common/legacyChainKey.js) that "V2 never signs on". A wallet that cannot send Bitcoin gets the verdict {% include verdictBadge.html verdict="nobtc" type='short' %}.
+## Android
 
 ## Updated Review 2024-07-17
 
@@ -88,7 +88,5 @@ This wallet is **self-custodial.** With no link to a Github account or mention o
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is the same KEYRING PRO: its App Store description covers only "Ethereum and EVM-compatible networks", and the same [repository](https://github.com/bacoor-hb/KEYRINGPRO) contains the iOS project. It too gets the verdict {% include verdictBadge.html verdict="nobtc" type='short' %}.
 
 The Android analysis above applies to the iPhone app too.

@@ -38,9 +38,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** Ember is now a free-to-play games app, and its wallet is being retired, on Android and on iPhone. On 2025-04-01 Ember [announced](https://help.emberfund.io/en/articles/11012668-important-update-for-our-invested-users) that it was winding down its investing feature, and an [August 2025 help article](https://help.emberfund.io/en/articles/12091932-how-do-i-transfer-funds-out-of-my-on-chain-btc-wallet) says it "has officially wound down its investing options and in-app on-chain wallet" and tells users to withdraw from the "Bitcoin Wallet" in the app. New users get no Bitcoin wallet, and the old Terms link and the "Liquidate Portfolio" instructions below no longer apply. The iPhone app is now titled "Ember - Free Games. Big Wins."
 
-**Update 2026-10-30:** Ember is now a free-to-play games app, and its wallet is being retired. On 2025-04-01 Ember [announced](https://help.emberfund.io/en/articles/11012668-important-update-for-our-invested-users) that it was winding down its investing feature, and an [August 2025 help article](https://help.emberfund.io/en/articles/12091932-how-do-i-transfer-funds-out-of-my-on-chain-btc-wallet) says it "has officially wound down its investing options and in-app on-chain wallet" and tells users to withdraw from the "Bitcoin Wallet" in the app. New users get no Bitcoin wallet, and the old Terms link and the "Liquidate Portfolio" instructions below no longer apply.
+## Android
 
 ## Update 2024-07-15
 
@@ -117,7 +117,5 @@ This app claims to be non-custodial, but with no source to back it up, it is **n
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is the same games app, now titled "Ember - Free Games. Big Wins.", and the [wallet wind-down](https://help.emberfund.io/en/articles/12091932-how-do-i-transfer-funds-out-of-my-on-chain-btc-wallet) applies to it too.
 
 The Android analysis above applies to the iPhone app too.

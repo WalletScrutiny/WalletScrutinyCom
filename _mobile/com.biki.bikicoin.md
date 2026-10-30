@@ -37,9 +37,9 @@ iphone:
 
 **⚠️ Warning:** BiKi has shut down. It closed its exchange at the end of November 2021.
 
-## Android
+**Update 2026-10-30:** The provider is gone, for both apps. BiKi [closed its operations on 30 November 2021](https://www.cryptowisser.com/exchange/biki/), citing regulation, and its websites biki.com and biki.cc are gone, so the agreement links below are dead too.
 
-**Update 2026-10-30:** The provider is gone. BiKi [closed its operations on 30 November 2021](https://www.cryptowisser.com/exchange/biki/), citing regulation, and its websites biki.com and biki.cc are gone, so the agreement links below are dead too.
+## Android
 
 **Update 2022-02-27**: This app is not available anymore.
 
@@ -69,8 +69,6 @@ All evidences point to a **custodial** service.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** BiKi has shut down; see the Android section.
 
 **Update 2022-02-25**: This app is not available anymore.
 

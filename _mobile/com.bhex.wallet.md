@@ -36,9 +36,9 @@ iphone:
 
 **⚠️ Warning:** Bluehelix appears to be gone. Its website is a domain for sale and its GitHub account no longer exists.
 
-## Android
+**Update 2026-10-30:** The provider is gone, and with it the code we were waiting on, so we change the verdict of both apps from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="nosource" type='short' %}. bhexchain.com now forwards to a GoDaddy "domain for sale" page, and the [bluehelix-chain GitHub account](https://github.com/bluehelix-chain) no longer exists. Our 2021 test below showed a self-custodial wallet.
 
-**Update 2026-10-30:** The provider is gone, and with it the code we were waiting on, so we change the verdict from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="nosource" type='short' %}. bhexchain.com now forwards to a GoDaddy "domain for sale" page, and the [bluehelix-chain GitHub account](https://github.com/bluehelix-chain) no longer exists. Our 2021 test below showed a self-custodial wallet.
+## Android
 
 **Update 2022-03-16**: The [provided code repository](https://github.com/bluehelix-chain/wallet-android#deadLink) disappeared now, too.
 
@@ -90,8 +90,6 @@ An issue has been opened at [https://github.com/bluehelix-chain/wallet-android/i
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The provider is gone (see Android), so the verdict changes from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="nosource" type='short' %} here too.
 
 **Update 2022-10-21**: This app is not available anymore.
 

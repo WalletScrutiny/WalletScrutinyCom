@@ -36,9 +36,9 @@ iphone:
 
 ---
 
-## Android
-
 **Update 2026-10-30:** The website mobi.me is now a [domain for sale](https://www.mobi.me/), and the newest posts we could see on [Mobi's X account](https://x.com/mobimeglobal) are from 2019.
+
+## Android
 
 **Update 2021-12-06**: This app is gone from the Google Play Store. In the Apple App Store, while not available for Australia anymore, it is now available in the US.
 
@@ -54,6 +54,6 @@ In a page entitled ["How do I access my private keys?"](https://cms.mobi.me/mobi
 
 ## iPhone
 
-**Update 2026-10-30:** The iPhone app is still listed, but the website mobi.me is now a [domain for sale](https://www.mobi.me/), and the newest posts we could see on [Mobi's X account](https://x.com/mobimeglobal) are from 2019. Be careful before you send coins to this app.
+**Update 2026-10-30:** The iPhone app is still listed. Be careful before you send coins to this app.
 
 The Android analysis above applies to the iPhone app too.

@@ -43,9 +43,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** The self-custody claims quoted below are gone from both the Play Store and the App Store descriptions, which now say nothing about who holds the keys.
 
-**Update 2026-10-30:** The self-custody claim quoted below is gone from the Play Store description, which now says nothing about who holds the keys.
+## Android
 
 Notably, it features a generic descriptor as its app title "{{page.title}}" while the app's description claims it's called "Fintap.app" and the Play store id is `{{page.appId}}`.
 
@@ -66,8 +66,6 @@ Our verdict: This ‘wallet’ claims to be non-custodial, however with no sourc
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The self-custody claim quoted below is gone from the App Store description, which now says nothing about who holds the keys.
 
 The App Store description states...
 

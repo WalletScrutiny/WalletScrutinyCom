@@ -35,9 +35,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** OneKey's successor apps are {% include walletLink.html wallet='android/so.onekey.app.wallet' verdict='true' %} and {% include walletLink.html wallet='iphone/so.onekey.wallet' verdict='true' %}, with their source in the [app-monorepo](https://github.com/OneKeyHQ/app-monorepo) repository.
 
-**Update 2026-10-30:** OneKey's successor app is {% include walletLink.html wallet='android/so.onekey.app.wallet' verdict='true' %}, with its source in the [app-monorepo](https://github.com/OneKeyHQ/app-monorepo) repository.
+## Android
 
 This app is the companion app of {% include walletLink.html wallet='hardware/onekey' verdict='true' %}.
 
@@ -82,8 +82,6 @@ An issue has been opened at [https://github.com/OneKeyHQ/android_app/issues/1#de
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** Its successor is {% include walletLink.html wallet='iphone/so.onekey.wallet' verdict='true' %}.
 
 **Update 2022-02-26**: This app is not available anymore.
 

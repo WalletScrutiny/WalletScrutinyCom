@@ -35,9 +35,9 @@ iphone:
 
 **⚠️ Warning:** AToken stopped operating on 24 December 2021, as announced in the pinned "AToken Stop Operation Announcement" on its [X account](https://x.com/ATokenOfficial). Funds are only recoverable with your own backup of the mnemonic or private keys.
 
-## Android
+**Update 2026-10-30:** The [X account](https://x.com/ATokenOfficial) announcement also told users to move their coins to another wallet, and [atoken.com](https://www.atoken.com) now hosts an unrelated Bitcoin casino guide.
 
-**Update 2026-10-30:** The provider is gone. Its [X account](https://x.com/ATokenOfficial) announced that operation ended on 24 December 2021 and told users to move their coins to another wallet, and [atoken.com](https://www.atoken.com) now hosts an unrelated Bitcoin casino guide.
+## Android
 
 **Update 2022-01-15**: This app is not on the Store anymore.
 
@@ -54,8 +54,6 @@ The claim on their website is that the wallet is non-custodial, but without sour
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The provider stopped operating on 24 December 2021. See the Android section.
 
 **Update 2022-01-15**: This app is not on the Store anymore.
 

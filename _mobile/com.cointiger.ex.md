@@ -36,9 +36,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** The exchange behind both apps looks shut down. Since [July 2024](https://web.archive.org/web/20240717202031/https://www.cointiger.com/), cointiger.com only shows an error, and CoinMarketCap's [exchange page](https://coinmarketcap.com/exchanges/cointiger/#deadLink) is gone.
 
-**Update 2026-10-30:** The exchange looks shut down. Since [July 2024](https://web.archive.org/web/20240717202031/https://www.cointiger.com/), cointiger.com only shows an error, and CoinMarketCap's [exchange page](https://coinmarketcap.com/exchanges/cointiger/#deadLink) is gone.
+## Android
 
 CoinTiger Exchange [Terms of Service](https://www.cointiger.com/en-us/#/footer/service&deadLink)
 
@@ -58,8 +58,6 @@ This app is a cryptocurrency exchanged developed by a company based in Singapore
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The exchange looks shut down since mid-2024; see the Android section.
 
 **Update 2022-01-15**: This app is not on the Store anymore.
 

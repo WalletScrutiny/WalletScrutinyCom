@@ -32,9 +32,9 @@ iphone:
 
 **⚠️ Warning:** The provider appears to be gone. Both apps are off the stores and the antareswallet.com website is gone.
 
-## Android
+**Update 2026-10-30:** The provider is gone, and so is its website antareswallet.com. An [archived copy of its App Store page](https://web.archive.org/web/20210320013211/https://apps.apple.com/app/id1549506189) says "most of the assets are stored in offline blockchain storage", and the Google Play description quoted below says you can recover your account even if you forget your private keys, so we change the verdict of both apps from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
 
-**Update 2026-10-30:** The provider is gone, and so is its website antareswallet.com. An [archived copy of its App Store page](https://web.archive.org/web/20210320013211/https://apps.apple.com/app/id1549506189) says "most of the assets are stored in offline blockchain storage", and the description quoted below says you can recover your account even if you forget your private keys, so we change the verdict from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
+## Android
 
 ⚠️ **Warning:** This wallet's domain is not listed on its Google Play app. Many users have also reported having negative experience with this wallet. Many of its social media presences have also been scrubbed. A domain which bears the same name as the app, antareswallet.com, now returns a 404. 
 
@@ -78,7 +78,5 @@ This app is **no longer working.**
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** Its [archived App Store page](https://web.archive.org/web/20210320013211/https://apps.apple.com/app/id1549506189) is the evidence for the change from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}, see the Android section.
 
 The Android analysis above applies to the iPhone app too.

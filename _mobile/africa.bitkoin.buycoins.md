@@ -39,9 +39,9 @@ account on X no longer exists. Its parent company Helicarrier
 [shut its Buycoins Pro exchange](https://www.mariblock.com/helicarrier-shuts-crypto-trading-platform-buycoins-pro/)
 in early 2024, and its [founders had left by 2025](https://techpoint.africa/news/buycoins-helicarrier-founders-quit/).
 
-## Android
+**Update 2026-10-30:** The apps that later replaced this one are gone too: {% include walletLink.html wallet='android/africa.buycoins.buycoinsx.basic' verdict='true' %}, which replaced the Android app on 2021-04-16, and {% include walletLink.html wallet='iphone/africa.buycoins.BuycoinsX.pro' verdict='true' %} in the App Store.
 
-**Update 2026-10-30:** The provider is gone (see the warning above). {% include walletLink.html wallet='android/africa.buycoins.buycoinsx.basic' verdict='true' %}, the app that replaced this one on 2021-04-16, is gone too.
+## Android
 
 This app is not on the app stores anymore and given the many scam accusations it
 might have been a scam.
@@ -49,8 +49,6 @@ might have been a scam.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The provider is gone (see the warning above), and its later {% include walletLink.html wallet='iphone/africa.buycoins.BuycoinsX.pro' verdict='true' %} app is gone from the App Store too.
 
 This app is not on the app stores anymore and given the many scam accusations it
 might have been a scam.

@@ -35,8 +35,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The provider has shut down; see the warning above.
-
 The [Bundle website](https://bundle.africa/) claims to be a wallet from their description...
 
 > Send, receive, request naria and other ctyptocurrenices for free.
@@ -48,8 +46,6 @@ Our verdict: This 'wallet' is probably custodial but does not provide public sou
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The provider has shut down; see the warning above.
 
 **Update 2021-08-31**: This app is no more available.
 

@@ -38,9 +38,9 @@ iphone:
 
 **⚠️ Warning:** Flare Wallet appears to be gone. Both apps are off the stores, its website is dead and its X account stopped posting in 2020.
 
-## Android
+**Update 2026-10-30:** The provider is gone, for both apps. The Wayback Machine last saved the [Flare Wallet website](https://web.archive.org/web/20220315025051/https://flarewallet.io/) in March 2022; by [September 2024](https://web.archive.org/web/20240906090821/https://flarewallet.io/) the domain served a gambling site, and today it does not answer at all.
 
-**Update 2026-10-30:** The provider is gone. The Wayback Machine last saved the [Flare Wallet website](https://web.archive.org/web/20220315025051/https://flarewallet.io/) in March 2022; by [September 2024](https://web.archive.org/web/20240906090821/https://flarewallet.io/) the domain served a gambling site, and today it does not answer at all.
+## Android
 
 This app claims to be non-custodial:
 
@@ -54,8 +54,6 @@ description so the app is **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The provider is gone; see the Android section.
 
 **Update 2022-03-23**: This app is not available anymore.
 

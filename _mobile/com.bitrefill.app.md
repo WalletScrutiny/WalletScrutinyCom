@@ -40,9 +40,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** In July 2025 Bitrefill [renamed "Bitrefill Balance" to "Store Credit"](https://www.bitrefill.com/blog/updated-bitrefill-balance-to-store-credit/) and wrote: "Store Credit is non-withdrawable". You can [top it up with BTC](https://help.bitrefill.com/hc/en-us/articles/4402564626450-How-to-add-store-credit-by-paying-with-tokens-from-my-wallet) but only spend it on Bitrefill purchases, so we change the verdict of both apps from {% include verdictBadge.html verdict="custodial" type='short' %} to {% include verdictBadge.html verdict="nosendreceive" type='short' %}.
 
-**Update 2026-10-30:** In July 2025 Bitrefill [renamed "Bitrefill Balance" to "Store Credit"](https://www.bitrefill.com/blog/updated-bitrefill-balance-to-store-credit/) and wrote: "Store Credit is non-withdrawable". You can [top it up with BTC](https://help.bitrefill.com/hc/en-us/articles/4402564626450-How-to-add-store-credit-by-paying-with-tokens-from-my-wallet) but only spend it on Bitrefill purchases, so we change the verdict from {% include verdictBadge.html verdict="custodial" type='short' %} to {% include verdictBadge.html verdict="nosendreceive" type='short' %}.
+## Android
 
 **Update 2021-09-14**: This app was updated after a long time which had it fall
 into our stale category but it remains being a custodial product.
@@ -61,8 +61,6 @@ Our verdict: The app is **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** In July 2025 Bitrefill [renamed "Bitrefill Balance" to "Store Credit"](https://www.bitrefill.com/blog/updated-bitrefill-balance-to-store-credit/) and wrote: "Store Credit is non-withdrawable". You can [top it up with BTC](https://help.bitrefill.com/hc/en-us/articles/4402564626450-How-to-add-store-credit-by-paying-with-tokens-from-my-wallet) but only spend it on Bitrefill purchases, so we change the verdict from {% include verdictBadge.html verdict="custodial" type='short' %} to {% include verdictBadge.html verdict="nosendreceive" type='short' %}.
 
 **Update 2021-09-12**: This app wasn't updated for a year but appears to be
 back. Nothing changed with the former verdict.

@@ -38,9 +38,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** Z.com EX, and with it both apps, is changing owners. GMO Internet [disclosed the sale](https://internet.gmo/en/ir/pdf/irlibrary/gmointernet_e_disclose_20260924.pdf) of GMO-Z.com Cryptonomics (Thailand) to BTGT Management (Thailand), scheduled for October 31, 2026, and [Bitget announced](https://bitpinas.com/business/bitget-thailand-gmo-z-com-cryptonomics) that this is its vehicle. The deal still needs approval from the Thai SEC.
 
-**Update 2026-10-30:** Z.com EX is changing owners. GMO Internet [disclosed the sale](https://internet.gmo/en/ir/pdf/irlibrary/gmointernet_e_disclose_20260924.pdf) of GMO-Z.com Cryptonomics (Thailand) to BTGT Management (Thailand), scheduled for October 31, 2026, and [Bitget announced](https://bitpinas.com/business/bitget-thailand-gmo-z-com-cryptonomics) that this is its vehicle. The deal still needs approval from the Thai SEC.
+## Android
 
 ## App Description
 
@@ -74,7 +74,5 @@ This is a **custodial** app and thus **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app falls under the same [pending sale to Bitget](https://bitpinas.com/business/bitget-thailand-gmo-z-com-cryptonomics) as the Android app.
 
 The Android analysis above applies to the iPhone app too.

@@ -34,9 +34,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** Bitnovo now offers a [self-custodial "Bitnovo Wallet"](https://www.bitnovo.com/wallet), the apps {% include walletLink.html wallet='android/com.bitnovo.Wallet' verdict='true' %} and {% include walletLink.html wallet='iphone/com.bitnovo.Wallet' verdict='true' %}, which we review separately.
 
-**Update 2026-10-30:** Bitnovo now offers a [self-custodial "Bitnovo Wallet"](https://www.bitnovo.com/wallet), the app {% include walletLink.html wallet='android/com.bitnovo.Wallet' verdict='true' %}, which we review separately.
+## Android
 
 **Update 2022-01-31**: This app is not in store anymore.
 
@@ -49,8 +49,6 @@ verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** Bitnovo now offers a [self-custodial "Bitnovo Wallet"](https://www.bitnovo.com/wallet), the app {% include walletLink.html wallet='iphone/com.bitnovo.Wallet' verdict='true' %}, which we review separately.
 
 **Update 2022-01-31**: This app is not in store anymore.
 

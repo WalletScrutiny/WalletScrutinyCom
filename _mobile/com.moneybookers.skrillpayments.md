@@ -38,13 +38,13 @@ iphone:
 
 ---
 
-## Android
-
 **Update 2026-10-30:** Skrill now lets you send bitcoins out, but still not
-receive them. Its
+receive them, in both apps. Its
 [crypto FAQ](https://www.skrill.com/en/support/question/189/what-crypto-services-does-skrill-offer/)
 lists withdrawals from your Skrill crypto balance to an external address, and
 says deposits of cryptocurrencies from external wallets are not offered yet.
+
+## Android
 
 > The app empowers you to make online payments, send money to a friend or relative, and exchange cryptocurrencies.
 
@@ -59,8 +59,5 @@ Based on this information, the app is custodial therefore not verifiable.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** As on Android, Skrill now lets you send bitcoins out, but still not
-receive them.
 
 The Android analysis above applies to the iPhone app too.

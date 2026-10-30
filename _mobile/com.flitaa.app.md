@@ -38,9 +38,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** Flitaa was [acquired by the Nigerian exchange Roqqu](https://innovation-village.com/nigerian-crypto-exchange-roqqu-acquires-kenyas-flitaa-to-accelerate-east-african-expansion/) in July 2025, which said Flitaa's operations would be fully integrated into its own platform. Roqqu is listed here as {% include walletLink.html wallet='android/com.roqqu.app' verdict='true' %} and {% include walletLink.html wallet='iphone/com.roqqu.ios' verdict='true' %}.
 
-**Update 2026-10-30:** Flitaa was [acquired by the Nigerian exchange Roqqu](https://innovation-village.com/nigerian-crypto-exchange-roqqu-acquires-kenyas-flitaa-to-accelerate-east-african-expansion/) in July 2025, which said Flitaa's operations would be fully integrated into its own platform. Roqqu is listed here as {% include walletLink.html wallet='android/com.roqqu.app' verdict='true' %}.
+## Android
 
 ## App Description
 
@@ -69,7 +69,5 @@ All signs point to this being a **custodial** app and thus it is **not verifiabl
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** Flitaa now belongs to Roqqu ({% include walletLink.html wallet='iphone/com.roqqu.ios' verdict='true' %}); see the Android section.
 
 The Android analysis above applies to the iPhone app too.

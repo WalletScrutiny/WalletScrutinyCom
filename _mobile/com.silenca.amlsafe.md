@@ -37,15 +37,15 @@ iphone:
 
 ---
 
-## Android
-
 **Update 2026-10-30:** AMLSafe is now called Safe3. The [website](https://safe3.app/) and the
-app description now call it a "Non-custodial wallet", and the
+app descriptions now call it a "Non-custodial wallet", and the
 [terms of use](https://safe3.app/terms-of-use) say Safe3 "does not
 receive or store your Wallet password, encrypted private key, unencrypted private
 key, or mnemonic (backup) phrase". We found no source code for the app, so we
-change the verdict from custodial to
+change the verdict of both apps from custodial to
 {% include verdictBadge.html verdict="nosource" type='short' %}.
+
+## Android
 
 > AMLSafe is a cutting edge crypto wallet with fiat pairs and an instant
   Anti-Money Laundering (AML) checking. Our wallet gives you the ability to buy
@@ -77,14 +77,6 @@ they retain access to the users' keys. Either way this app is **not verifiable**
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** AMLSafe is now called Safe3. The [website](https://safe3.app/) and the
-app description now call it a "Non-custodial wallet", and the
-[terms of use](https://safe3.app/terms-of-use) say Safe3 "does not
-receive or store your Wallet password, encrypted private key, unencrypted private
-key, or mnemonic (backup) phrase". We found no source code for the app, so we
-change the verdict from custodial to
-{% include verdictBadge.html verdict="nosource" type='short' %}.
 
 > AMLSafe is a cutting edge crypto wallet with fiat pairs and an instant
   Anti-Money Laundering (AML) checking. Our wallet gives you the ability to buy

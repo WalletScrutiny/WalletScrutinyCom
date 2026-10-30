@@ -38,9 +38,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** Wealthsimple now lets users send and receive crypto, so we change the verdict of both apps from {% include verdictBadge.html verdict="nosendreceive" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}. In March 2022 Wealthsimple [announced crypto wallets](https://newsroom.wealthsimple.com/weve-got-wallets-crypto-not-velcro) that let users "transfer those coins into and out of your account", and called them "hosted wallets, not non-custodial wallets". The App Store description also says "Transfer coins to and from your Wealthsimple wallet in just a few taps". The text below is from 2021, when only Canadian dollars could move in and out.
 
-**Update 2026-10-30:** Wealthsimple now lets users send and receive crypto, so we change the verdict from {% include verdictBadge.html verdict="nosendreceive" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}. In March 2022 Wealthsimple [announced crypto wallets](https://newsroom.wealthsimple.com/weve-got-wallets-crypto-not-velcro) that let users "transfer those coins into and out of your account", and called them "hosted wallets, not non-custodial wallets". The text below is from 2021, when only Canadian dollars could move in and out.
+## Android
 
 > Buy and sell 16+ cryptocurrencies in just a few taps with Wealthsimple Crypto. There’s no long list of fees or account minimums. Just simple and secure crypto trading of Bitcoin (BTC)[...]
 
@@ -55,7 +55,5 @@ Users **cannot send or receive BTC** since the primary method of deposit and wit
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The App Store description also says "Transfer coins to and from your Wealthsimple wallet in just a few taps", so the iPhone app is {% include verdictBadge.html verdict="custodial" type='short' %} too.
 
 The Android analysis above applies to the iPhone app too.

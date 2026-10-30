@@ -35,9 +35,9 @@ iphone:
 
 ---
 
-## Android
-
 **Update 2026-10-30:** The provider renamed itself Blackcat and [launched a rebuilt app](https://www.financexmagazine.com/post/european-fintech-blackcat-launches-multi-wallet-app-combining-euro-and-crypto-accounts-completing-r), ";blackcat", whose crypto services come from "a separately licensed European partner". That new app has its own app ID and is not listed here yet.
+
+## Android
 
 ## Update 2021-10-28
 

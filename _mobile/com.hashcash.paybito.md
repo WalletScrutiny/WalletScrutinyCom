@@ -35,9 +35,9 @@ iphone:
 
 ---
 
-## Android
-
 **Update 2026-10-30:** The provider now runs [paybito.com](https://www.paybito.com/) under the name PayBitoPro, pitched mainly as a crypto payment gateway for businesses.
+
+## Android
 
 **Update 2022-02-03**: This app is no more.
 

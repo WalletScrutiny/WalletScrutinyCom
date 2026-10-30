@@ -42,9 +42,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** Robinhood [completed its acquisition of Bitstamp](https://www.coindesk.com/business/2025/06/03/robinhood-completes-200m-acquisition-of-crypto-exchange-bitstamp) in June 2025, and both apps are now called "Bitstamp by Robinhood".
 
-**Update 2026-10-30:** Robinhood [completed its acquisition of Bitstamp](https://www.coindesk.com/business/2025/06/03/robinhood-completes-200m-acquisition-of-crypto-exchange-bitstamp) in June 2025, and the app is now called "Bitstamp by Robinhood".
+## Android
 
 On the Google Play description we read:
 
@@ -58,8 +58,6 @@ and therefore **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** Robinhood [completed its acquisition of Bitstamp](https://www.coindesk.com/business/2025/06/03/robinhood-completes-200m-acquisition-of-crypto-exchange-bitstamp) in June 2025, and the app is now called "Bitstamp by Robinhood".
 
 Just like on Play Store {% include walletLink.html wallet='android/net.bitstamp.app' %}, they claim:
 

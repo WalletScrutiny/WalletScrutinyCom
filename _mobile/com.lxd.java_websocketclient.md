@@ -42,13 +42,16 @@ OPNX told customers on 2024-02-02 that it would "cease operations and shut down 
 ([Decrypt](https://decrypt.co/215346/opnx-the-crypto-exchange-from-bankrupt-three-arrows-capital-is-shutting-down)).
 The coinflex.com website is gone.
 
-## Android
-
 **Update 2026-10-30:** An
 [archived copy of its store page](https://web.archive.org/web/20230202000800/https://play.google.com/store/apps/details?id=com.lxd.java_websocketclient)
 from February 2023 describes an exchange app to "Buy, Sell & Trade", "Earn interest 3 times a day with
-flexUSD" and "Withdraw and deposit funds at anytime". With the 99% cold-storage policy below, that is a
-custodial exchange, and we change the verdict from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
+flexUSD" and "Withdraw and deposit funds at anytime". The iPhone app was the same CoinFLEX
+exchange client, and the
+[archived security page](https://web.archive.org/web/20211130053447/https://coinflex.com/security/) says
+"CoinFLEX operates with a 99% cold storage policy, with up to only 1% stored in a secure hot wallet".
+That is a custodial exchange, and we change the verdict of both apps from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
+
+## Android
 
 ## App Description
 
@@ -91,11 +94,5 @@ As a cryptocurrency derivatives exchange that holds 99% of funds in cold storage
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app was the same CoinFLEX
-exchange client, and the
-[archived security page](https://web.archive.org/web/20211130053447/https://coinflex.com/security/) says
-"CoinFLEX operates with a 99% cold storage policy, with up to only 1% stored in a secure hot wallet". We
-change the verdict from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 The Android analysis above applies to the iPhone app too.

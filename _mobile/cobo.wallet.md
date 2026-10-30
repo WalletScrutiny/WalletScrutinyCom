@@ -44,9 +44,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** Cobo is shutting down both apps. Its [announcement of 2026-10-15](https://www.cobo.com/zh/post/Cobo-Wallet-2026-10-15-1406) says the Cobo Wallet App stops service on 2026-12-01 (UTC+8), and users must move all assets out before then.
 
-**Update 2026-10-30:** Cobo is shutting this app down. Its [announcement of 2026-10-15](https://www.cobo.com/zh/post/Cobo-Wallet-2026-10-15-1406) says the Cobo Wallet App stops service on 2026-12-01 (UTC+8), and users must move all assets out before then.
+## Android
 
 **Update 2022-05-15**: This app is not available anymore.
 
@@ -83,8 +83,6 @@ verdict has to be: this wallet is **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app falls under the same [shutdown on 2026-12-01](https://www.cobo.com/zh/post/Cobo-Wallet-2026-10-15-1406) as the Android app. Withdraw any funds before then.
 
 The Android analysis above applies to the iPhone app too.
 

@@ -42,9 +42,9 @@ iphone:
 
 ---
 
-## Android
-
 **Update 2026-10-30:** Savl has [rebranded as Unity Wallet](https://www.prnewswire.com/news-releases/savl-rebrands-to-unity-wallet-and-launches-loyalty-program-boosting-user-experience-and-value-302253337.html), at [unitywallet.com](https://www.unitywallet.com/).
+
+## Android
 
 ## Update 2024-07-15
 
@@ -74,7 +74,7 @@ This wallet is a self custodial wallet, but without the source code for the wall
 
 ## iPhone
 
-**Update 2026-10-30:** The iPhone app is now "UnityWallet: Крипто и Биткоин" in the Russian App Store. See the Android section.
+**Update 2026-10-30:** The iPhone app is now "UnityWallet: Крипто и Биткоин" in the Russian App Store.
 
 The Android analysis above applies to the iPhone app too.
 

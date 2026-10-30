@@ -48,9 +48,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** The app formerly known as Crypto.com Onchain is now called "Ult" and comes from Cronos Labs ([ult.trade](https://ult.trade/)), on Android and on iPhone. The old wallet lives on inside it, next to a new trading mode for crypto, tokenized stocks, perpetual futures and sports predictions.
 
-**Update 2026-10-30:** The app formerly known as Crypto.com Onchain is now called "Ult" and comes from Cronos Labs ([ult.trade](https://ult.trade/)). The old wallet lives on inside it, next to a new trading mode for crypto, tokenized stocks, perpetual futures and sports predictions.
+## Android
 
 ## Update 2024-07-16
 
@@ -80,8 +80,6 @@ their website:
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** As on Android, the iPhone app is now "Ult" by Cronos Labs ([ult.trade](https://ult.trade/)).
 
 The Android analysis above applies to the iPhone app too.
 

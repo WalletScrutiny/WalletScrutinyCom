@@ -45,8 +45,6 @@ since March 2023, coincasso.com no longer loads, and ccwalletapp.com is gone.
 
 ## Android
 
-**Update 2026-10-30:** The provider is out of business: [Cryptowisser](https://www.cryptowisser.com/exchange/coincasso/) has listed CoinCasso, the exchange behind CCWallet, as dead since March 2023.
-
 Also based on [Emauel](https://gitlab.com/e3amn2l)'s
 [Analysis](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/172#note_522567637):
 
@@ -188,8 +186,6 @@ An issue has been opened at [https://github.com/coincasso/ccwallet/issues/1](htt
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The provider is out of business (see the Android section).
 
 **Update 2021-09-11**: This app is not on the App Store anymore.
 

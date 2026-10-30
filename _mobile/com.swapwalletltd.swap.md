@@ -34,8 +34,6 @@ but pointed to no server. We found no other website, social account or support c
 
 ## Android
 
-**Update 2026-10-30:** The provider is gone: its domain swapwallet.com no longer points to any server.
-
 **Update:** We can't find the app on Google Play anymore and assume it stopped
 to exist. With 50k downloads there might be many users wondering how to recover
 their coins. Please let us know if you know more!
@@ -49,8 +47,6 @@ FAQ are broken. Like this we have to assume it's a custodial wallet and thus
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The provider is gone. See the Android section.
 
 We can't find the app on the App Store anymore and assume it stopped
 to exist.

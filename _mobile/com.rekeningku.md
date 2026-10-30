@@ -38,9 +38,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** Rekeningku now trades as Reku at [reku.id](https://reku.id/). The old help site help.rekeningku.com is gone; the Terms and Conditions links below now point to the [current version](https://reku.id/help/syarat-dan-ketentuan-pelanggan-aset-kripto-rekeningku-com), where the quoted clause is unchanged.
 
-**Update 2026-10-30:** Rekeningku now trades as Reku at [reku.id](https://reku.id/). The old help site help.rekeningku.com is gone; the Terms and Conditions link below now points to the [current version](https://reku.id/help/syarat-dan-ketentuan-pelanggan-aset-kripto-rekeningku-com), where the quoted clause is unchanged.
+## Android
 
 Rekeningku offers the Digital Asset Transaction services that allow its users to buy or sell Bitcoin and other cryptocurrencies. It  is managed by PT. My Account Dotcom Indonesia.
 
@@ -62,7 +62,7 @@ KYC, and account access restrictions based on its Terms and Conditions indicates
 
 ## iPhone
 
-**Update 2026-10-30:** Rekeningku now trades as Reku at [reku.id](https://reku.id/). The old help site help.rekeningku.com is gone; the Terms and Conditions link below now points to the [current version](https://reku.id/help/syarat-dan-ketentuan-pelanggan-aset-kripto-rekeningku-com). The iPhone app is in the Indonesian App Store as "Reku:Trading Crypto & Saham AS", so we added `appCountry: id`.
+**Update 2026-10-30:** The iPhone app is in the Indonesian App Store as "Reku:Trading Crypto & Saham AS", so we added `appCountry: id`.
 
 Rekeningku offers the Digital Asset Transaction services that allow its users to buy or sell Bitcoin and other cryptocurrencies. It  is managed by PT. My Account Dotcom Indonesia.
 

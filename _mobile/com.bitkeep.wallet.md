@@ -40,9 +40,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** BitKeep is now Bitget Wallet, on Android and on iPhone, after a $30 million investment by the exchange Bitget ([Cointelegraph](https://cointelegraph.com/news/bitkeep-completes-compensation-for-8m-apk-exploit-announces-rebranding)), and bitkeep.com now redirects to [web3.bitget.com](https://web3.bitget.com/).
 
-**Update 2026-10-30:** BitKeep is now Bitget Wallet, after a $30 million investment by the exchange Bitget ([Cointelegraph](https://cointelegraph.com/news/bitkeep-completes-compensation-for-8m-apk-exploit-announces-rebranding)), and bitkeep.com now redirects to [web3.bitget.com](https://web3.bitget.com/).
+## Android
 
 ## Update 2024-07-15
 
@@ -71,7 +71,5 @@ non-custodial closed source wallet and as such **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is also Bitget Wallet now.
 
 The Android analysis above applies to the iPhone app too.

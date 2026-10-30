@@ -46,10 +46,9 @@ the Harju County Court
 [declared BB Trade Estonia OÜ bankrupt](https://bankier.pl/wiadomosc/Wierzyciele-Zondacrypto-czekaja-na-rozliczenie-Syndyk-ma-tysiace-zgloszen-9219569.html).
 Its website no longer loads.
 
-## Android
+**Update 2026-10-30:** Customers of the bankrupt exchange behind both apps can now only file claims with the bankruptcy trustee.
 
-**Update 2026-10-30:** The exchange behind this app is bankrupt, see the
-warning above. Its customers can now only file claims with the bankruptcy trustee.
+## Android
 
 This app's description loses no word on who holds the keys to your coins. Their
 website is mainly about the exchange and not about the mobile appp but there is
@@ -60,9 +59,6 @@ probably means this app is a custodial offering and therefore **not verifiable**
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The exchange behind this app is bankrupt, see the
-warning above. Its customers can now only file claims with the bankruptcy trustee.
 
 This app's description loses no word on who holds the keys to your coins. Their
 website is mainly about the exchange and not about the mobile appp but there is

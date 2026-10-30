@@ -38,12 +38,13 @@ iphone:
 
 ---
 
-## Android
-
 **Update 2026-10-30:** eToro's help centre says
 the [eToro Money app features have moved to the eToro platform](https://help.etoro.com/s/article/eToro-Money-app-features-have-moved-to-the-eToro-platform?language=en_GB):
 the crypto wallet now sits in the Wallet tab of
-{% include walletLink.html wallet='android/com.etoro.openbook' verdict='true' %}.
+{% include walletLink.html wallet='android/com.etoro.openbook' verdict='true' %} and
+{% include walletLink.html wallet='iphone/com.etoro.openbook' verdict='true' %}.
+
+## Android
 
 From the eToro wallet FAQ:
 
@@ -78,11 +79,6 @@ So we assume this app is custodial and thus **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** eToro's help centre says
-the [eToro Money app features have moved to the eToro platform](https://help.etoro.com/s/article/eToro-Money-app-features-have-moved-to-the-eToro-platform?language=en_GB):
-the crypto wallet now sits in the Wallet tab of
-{% include walletLink.html wallet='iphone/com.etoro.openbook' verdict='true' %}.
 
 From the eToro wallet FAQ:
 

@@ -41,9 +41,9 @@ iphone:
 
 **⚠️ Warning:** Coinmetro OÜ [suspended registrations, deposits, withdrawals and trading on June 22, 2026](https://www.coinmetro.com/blog/announcement-onboarding-depositing-and-withdrawals) and applied for reorganisation in an Estonian court. Balances remain frozen.
 
-## Android
+**Update 2026-10-30:** Both apps use the same frozen Coinmetro accounts. Its [reorganization hub](https://www.coinmetro.com/reorganization-status-and-information) said on September 25, 2026 that "deposits, withdrawals, trading and onboarding are still paused, and balances are still frozen".
 
-**Update 2026-10-30:** Coinmetro OÜ [suspended registrations, deposits, withdrawals and trading on June 22, 2026](https://www.coinmetro.com/blog/announcement-onboarding-depositing-and-withdrawals) and applied for reorganisation in an Estonian court. Its [reorganization hub](https://www.coinmetro.com/reorganization-status-and-information) said on September 25, 2026 that "deposits, withdrawals, trading and onboarding are still paused, and balances are still frozen".
+## Android
 
 ## App Description
 
@@ -87,7 +87,5 @@ Coinmetro is a **custodial** service and **not verifiable**
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app uses the same frozen Coinmetro accounts; see the Android update above.
 
 The Android analysis above applies to the iPhone app too.

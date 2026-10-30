@@ -41,9 +41,9 @@ iphone:
 said the wallet "will no longer be supported starting October 11, 2024" and asked
 users to move their funds. lumiwallet.com now redirects to noone.io.
 
-## Android
+**Update 2026-10-30:** [noone.io](https://noone.io), where lumiwallet.com now redirects, has its own app, {% include walletLink.html wallet='android/io.noone.androidwallet' verdict='true' %}. It lists the same Google Play developer name, Raias Llc, though the shutdown notice does not call it a successor.
 
-**Update 2026-10-30:** The provider ended support for Lumi Wallet on 2024-10-11. lumiwallet.com now redirects to [noone.io](https://noone.io), whose app {% include walletLink.html wallet='android/io.noone.androidwallet' verdict='true' %} lists the same Google Play developer name, Raias Llc, though the shutdown notice does not call it a successor.
+## Android
 
 **Update 2021-06-16**: Something weird is going on. Apparently there are three
 Lumi apps: {% include walletLink.html wallet='iphone/com.lumiwallet.HD' %} on
@@ -107,8 +107,6 @@ under a less permissive license, we have to remain with our verdict:
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The provider ended support for Lumi Wallet on 2024-10-11. See the Android section.
 
 **Update 2021-06-16**: It's been a few days this app is not on the App store
 anymore and it looks like it's not coming back. If it should return, please open

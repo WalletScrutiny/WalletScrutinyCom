@@ -40,9 +40,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** Both apps now have an "Exchange / Web3" switch that opens a non-custodial Web3 Wallet with its own keys and separate assets ([help page](https://www.okx.com/en-us/help/understanding-the-link-between-okx-and-web3-wallets)). OKX also ships that wallet as a standalone app, {% include walletLink.html wallet='android/com.okx.wallet' verdict='true' %}. The exchange part is still custodial.
 
-**Update 2026-10-30:** The app now has an "Exchange / Web3" switch that opens a non-custodial Web3 Wallet with its own keys and separate assets ([help page](https://www.okx.com/en-us/help/understanding-the-link-between-okx-and-web3-wallets)). OKX also ships that wallet as a standalone app, {% include walletLink.html wallet='android/com.okx.wallet' verdict='true' %}. The exchange part is still custodial.
+## Android
 
 This app gives you access to a trading platform which sounds fully custodial and
 therefore **not verifiable**.
@@ -50,8 +50,6 @@ therefore **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The app now has an "Exchange / Web3" switch that opens a non-custodial Web3 Wallet with its own keys and separate assets ([help page](https://www.okx.com/en-us/help/understanding-the-link-between-okx-and-web3-wallets)). OKX also ships that wallet as a standalone app, {% include walletLink.html wallet='android/com.okx.wallet' verdict='true' %}. The exchange part is still custodial.
 
 On their website we find:
 

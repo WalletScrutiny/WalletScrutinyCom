@@ -35,9 +35,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** Unodax no longer exists as a separate exchange. [unodax.com](https://www.unodax.com) now redirects to [Unocoin](https://unocoin.com/in/), the Indian exchange that ran it, and the FAQ page quoted below no longer loads. Unocoin's own apps are {% include walletLink.html wallet='android/com.unocoin.unocoinwallet' verdict='true' %} and {% include walletLink.html wallet='iphone/com.unocoin.mainapp.production' verdict='true' %}.
 
-**Update 2026-10-30:** Unodax no longer exists as a separate exchange. [unodax.com](https://www.unodax.com) now redirects to [Unocoin](https://unocoin.com/in/), the Indian exchange that ran it, and the FAQ page quoted below no longer loads. Unocoin's own app is {% include walletLink.html wallet='android/com.unocoin.unocoinwallet' verdict='true' %}.
+## Android
 
 **Update 2022-03-27**: This app is not available anymore.
 
@@ -61,7 +61,5 @@ Our verdict for this app is **custodial** and thus **not verifiable.**
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** Unodax has merged into [Unocoin](https://unocoin.com/in/), whose iPhone app is {% include walletLink.html wallet='iphone/com.unocoin.mainapp.production' verdict='true' %}.
 
 The Android analysis above applies to the iPhone app too.

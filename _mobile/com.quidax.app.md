@@ -36,9 +36,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** Quidax has new apps: {% include walletLink.html wallet='android/io.quidax.app' verdict='true' %}, also custodial, and on iPhone {% include walletLink.html wallet='iphone/io.quidax.pro' verdict='true' %}.
 
-**Update 2026-10-30:** Quidax's current app is {% include walletLink.html wallet='android/io.quidax.app' verdict='true' %}, also custodial.
+## Android
 
 **Update 2022-02-02**: This app is not in store anymore.
 
@@ -53,8 +53,6 @@ Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** Quidax's current iPhone app is {% include walletLink.html wallet='iphone/io.quidax.pro' verdict='true' %}.
 
 **Update 2022-02-02**: This app is not in store anymore.
 

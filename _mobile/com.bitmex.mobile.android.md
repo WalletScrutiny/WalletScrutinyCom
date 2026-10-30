@@ -33,9 +33,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** BitMEX has closed. It [announced the closure](https://www.bitmex.com/blog/bitmex-closure) on 23 July 2026, and [trading ceased on 23 September 2026](https://www.bitmex.com/wind-down); users can still log in only to withdraw. The newer apps are gone too: {% include walletLink.html wallet='android/com.bitmex.app.android' verdict='true' %} from Google Play and {% include walletLink.html wallet='iphone/com.bitmex.app.ios' verdict='true' %} from the App Store.
 
-**Update 2026-10-30:** BitMEX has closed. It [announced the closure](https://www.bitmex.com/blog/bitmex-closure) on 23 July 2026, and [trading ceased on 23 September 2026](https://www.bitmex.com/wind-down); users can still log in only to withdraw. The newer {% include walletLink.html wallet='android/com.bitmex.app.android' verdict='true' %} is gone from Google Play too.
+## Android
 
 **Update 2022-02-02**: This app is not in store anymore.
 
@@ -67,8 +67,6 @@ By most indications including security mechanisms, regulatory compliances and it
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** BitMEX [ceased trading on 23 September 2026](https://www.bitmex.com/wind-down) and now only lets users withdraw. The newer {% include walletLink.html wallet='iphone/com.bitmex.app.ios' verdict='true' %} is gone from the App Store too.
 
 **Update 2022-02-02**: This app is not in store anymore.
 

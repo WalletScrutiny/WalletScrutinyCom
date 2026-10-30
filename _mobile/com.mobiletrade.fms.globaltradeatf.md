@@ -36,9 +36,9 @@ iphone:
 
 **⚠️ Warning:** Global TradeATF appears to be gone. Both apps are off the stores, its website domain is for sale, and South Africa's financial regulator warned against it in 2021.
 
-## Android
+**Update 2026-10-30:** global.tradeatf.com now forwards to a GoDaddy page offering the domain for sale.
 
-**Update 2026-10-30:** The provider appears to be gone: global.tradeatf.com now forwards to a GoDaddy page offering the domain for sale.
+## Android
 
 ## App Description
 
@@ -83,8 +83,6 @@ CFD Trading platforms **cannot send or receive bitcoins.** Careful scrutiny must
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The provider appears to be gone. See the Android section.
 
 **Update 2022-02-20**: This app is not available anymore.
 

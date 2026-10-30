@@ -38,9 +38,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** Bitcoin can now be sent and received, so the verdict of both apps changes from {% include verdictBadge.html verdict="nosendreceive" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}. Mercado Pago's [crypto page](https://www.mercadopago.com.br/criptomoedas) says you can send and receive crypto, and that "A Paxos realiza as compras, vendas, transferências e a custódia das suas criptos" (Paxos does the buying, selling, transfers and custody of your crypto). It describes the app's crypto section without limiting it to one platform.
 
-**Update 2026-10-30:** Bitcoin can now be sent and received, so the verdict changes from {% include verdictBadge.html verdict="nosendreceive" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}. Mercado Pago's [crypto page](https://www.mercadopago.com.br/criptomoedas) says you can send and receive crypto, and that "A Paxos realiza as compras, vendas, transferências e a custódia das suas criptos" (Paxos does the buying, selling, transfers and custody of your crypto).
+## Android
 
 The provider announced the possibility to buy and sell Bitcoin from within the
 app a while ago already. It is not clear where exactly this feature is available
@@ -55,7 +55,5 @@ it also supports Ethereum and Pax Dollar.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The sources in the Android update describe the Mercado Pago app's crypto section without limiting it to one platform, so the iPhone verdict also changes from {% include verdictBadge.html verdict="nosendreceive" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 The Android analysis above applies to the iPhone app too.

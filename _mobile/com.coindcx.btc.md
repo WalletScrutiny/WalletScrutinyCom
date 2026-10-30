@@ -38,9 +38,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** In October 2024 CoinDCX added a "Web3 Mode" to both apps, an MPC wallet secured with two-factor authentication instead of a seed phrase, to which users can move funds out of the exchange ([The Crypto Times](https://www.cryptotimes.io/2024/10/30/coindcx-launches-custody-feature-for-safer-crypto-storage/)). The exchange account is still custodial.
 
-**Update 2026-10-30:** In October 2024 CoinDCX added a "Web3 Mode" to the app, an MPC wallet secured with two-factor authentication instead of a seed phrase, to which users can move funds out of the exchange ([The Crypto Times](https://www.cryptotimes.io/2024/10/30/coindcx-launches-custody-feature-for-safer-crypto-storage/)). The exchange account is still custodial.
+## Android
 
 {% include review/bitgo.md %}
 
@@ -57,7 +57,5 @@ According to this claim from the Google Play description, this means that funds 
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** In October 2024 CoinDCX added a "Web3 Mode" to the app, an MPC wallet secured with two-factor authentication instead of a seed phrase, to which users can move funds out of the exchange ([The Crypto Times](https://www.cryptotimes.io/2024/10/30/coindcx-launches-custody-feature-for-safer-crypto-storage/)). The exchange account is still custodial.
 
 The Android analysis above applies to the iPhone app too.

@@ -38,9 +38,9 @@ iphone:
 
 **⚠️ Warning:** CoinBene shut down in November 2021. Its website no longer loads and its apps are gone from both stores.
 
-## Android
+**Update 2026-10-30:** CoinBene shut down, and both apps with it. It closed its website and apps on 2021-11-15 and the platform by the end of that month ([TheNewsCrypto](https://thenewscrypto.com/crypto-exchange-coinbene-shuts-down/), [Bitcointalk](https://bitcointalk.org/index.php?topic=5370391.0)). The "CB Global" successor app named in the Android section is also gone from Google Play.
 
-**Update 2026-10-30:** CoinBene shut down. It closed its website and apps on 2021-11-15 and the platform by the end of that month ([TheNewsCrypto](https://thenewscrypto.com/crypto-exchange-coinbene-shuts-down/), [Bitcointalk](https://bitcointalk.org/index.php?topic=5370391.0)). The "CB Global" successor app named below is also gone from Google Play.
+## Android
 
 **Update 2022-01-03**: Although there is a replacement app on Google Play, the app still points to the same developer website (coinbene.com), which is still [404 as of today](https://twitter.com/BitcoinWalletz/status/1477969064806916103). The telegram channel indicated in the iOS app page, now points to 'null'
 
@@ -67,7 +67,5 @@ Verdict is therefore **custodial** and **not verifiable**
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The provider is gone. See the Android section.
 
 The Android analysis above applies to the iPhone app too.

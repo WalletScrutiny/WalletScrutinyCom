@@ -38,9 +38,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** Wanchain has dropped WanWallet mobile: its [wallets page](https://www.wanchain.org/wanwallet) now sends mobile users to MetaMask, {% include walletLink.html wallet='android/io.metamask' verdict='true' %} and {% include walletLink.html wallet='iphone/io.metamask.MetaMask' verdict='true' %}. The desktop wallet repository linked below is gone ([archived copy](https://web.archive.org/web/20241222163811/https://github.com/wanchain/wan-wallet-desktop)).
 
-**Update 2026-10-30:** Wanchain has dropped WanWallet mobile: its [wallets page](https://www.wanchain.org/wanwallet) now sends mobile users to {% include walletLink.html wallet='android/io.metamask' verdict='true' %}. The desktop wallet repository linked below is gone ([archived copy](https://web.archive.org/web/20241222163811/https://github.com/wanchain/wan-wallet-desktop)).
+## Android
 
 **Update 2022-03-30**: This app is not available anymore.
 
@@ -69,7 +69,5 @@ At the moment, we will [wait for the source-code to be tested](https://gitlab.co
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** Wanchain's [wallets page](https://www.wanchain.org/wanwallet) now points iPhone users to {% include walletLink.html wallet='iphone/io.metamask.MetaMask' verdict='true' %} instead.
 
 The Android analysis above applies to the iPhone app too.

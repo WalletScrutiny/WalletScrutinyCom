@@ -33,9 +33,9 @@ iphone:
 
 **⚠️ Warning:** Cryptonator is gone. US and German authorities seized its domain in August 2024 and charged its operator with money laundering.
 
-## Android
+**Update 2026-10-30:** The provider is gone, for both apps. In August 2024 US and German law enforcement [seized cryptonator.com and charged its operator](https://www.bleepingcomputer.com/news/cryptocurrency/cryptonator-seized-for-laundering-ransom-payments-stolen-crypto/) with money laundering and running an unlicensed money service business, and the domain now redirects to a [seizure notice](https://web.archive.org/web/20260514125538/https://www.cryptonator.com/). The Customer Support links below now point to an archived copy.
 
-**Update 2026-10-30:** The provider is gone. In August 2024 US and German law enforcement [seized cryptonator.com and charged its operator](https://www.bleepingcomputer.com/news/cryptocurrency/cryptonator-seized-for-laundering-ransom-payments-stolen-crypto/) with money laundering and running an unlicensed money service business, and the domain now redirects to a [seizure notice](https://web.archive.org/web/20260514125538/https://www.cryptonator.com/). The Customer Support link below now points to an archived copy.
+## Android
 
 **Update 2022-04-10**: This app is not available anymore.
 
@@ -51,8 +51,6 @@ Absent source code this wallet is **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The service was seized as described in the Android section.
 
 **Update 2022-02-09**: This app is not on the Store anymore.
 

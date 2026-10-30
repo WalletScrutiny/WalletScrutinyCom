@@ -37,9 +37,9 @@ iphone:
 
 **⚠️ Warning:** iSunOne has shut down. Its website says it ceased operations in 2025.
 
-## Android
+**Update 2026-10-30:** iSunOne is gone. Its [website](https://isun.one) now carries only a notice that "Operations ceased in 2025", and the [terms page](https://isun.one/tnc#deadLink) quoted below is gone. The iPhone app is gone from the App Store as well.
 
-**Update 2026-10-30:** iSunOne is gone. Its [website](https://isun.one) now carries only a notice that "Operations ceased in 2025", and the [terms page](https://isun.one/tnc#deadLink) quoted below is gone.
+## Android
 
 **Update 2022-03-21**: This app is not available anymore.
 
@@ -70,7 +70,5 @@ This app is a financial app merged with a Bitcoin wallet, staking, interest paym
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is gone from the App Store as well, and iSunOne's [website](https://isun.one) says the company ceased operations in 2025.
 
 The Android analysis above applies to the iPhone app too.

@@ -49,12 +49,12 @@ EXMO says 29.4% of what it owes users cannot be returned, due to its 2020 hot
 wallet hack and to assets frozen after the sanctions, and it cut every balance by
 that share. [exmo.com](https://exmo.com/) now redirects to a withdrawals-only site.
 
-## Android
-
-**Update 2026-10-30:** The exchange behind this app is
+**Update 2026-10-30:** Both apps belong to the exchange that is
 [winding down](https://exmowithdrawals.com/blog/en/notifications/exmo-com-is-closing-please-initiate-withdrawal-from-your-account).
 EXMO says part of its users' coins were stolen in 2020 or are now frozen by
 third-party custodians, so it cannot pay out every balance in full.
+
+## Android
 
 The Exmo [support FAQ](https://info.exmo.com/en/faq/#deadLink) states under "Where are my EXMO funds kept?"
 
@@ -71,11 +71,6 @@ Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The exchange behind this app is
-[winding down](https://exmowithdrawals.com/blog/en/notifications/exmo-com-is-closing-please-initiate-withdrawal-from-your-account).
-EXMO says part of its users' coins were stolen in 2020 or are now frozen by
-third-party custodians, so it cannot pay out every balance in full.
 
 The Exmo [support FAQ](https://info.exmo.com/en/faq/#deadLink) states under "Where are my
 EXMO funds kept?"

@@ -35,9 +35,9 @@ iphone:
 
 **⚠️ Warning:** Atomex has shut down. Its website says the team no longer supports the project.
 
-## Android
+**Update 2026-10-30:** Atomex has ended the project, and we change the verdict of both apps from {% include verdictBadge.html verdict="sourceavailable" type='short' %} to {% include verdictBadge.html verdict="nosource" type='short' %}. The [Atomex website](https://atomex.me/) now only says "We are sad to announce that the Atomex team will no longer support the project", and the atomex.mobile repository we linked below has been deleted from the [atomex-me GitHub account](https://github.com/atomex-me). The only copy we found is a [personal copy](https://github.com/mismirnov/atomex.mobile) last updated in May 2021, long before the last release, 1.25.0, in February 2023.
 
-**Update 2026-10-30:** Atomex has ended the project, and we change the verdict from {% include verdictBadge.html verdict="sourceavailable" type='short' %} to {% include verdictBadge.html verdict="nosource" type='short' %}. The [Atomex website](https://atomex.me/) now only says "We are sad to announce that the Atomex team will no longer support the project", and the atomex.mobile repository we linked below has been deleted from the [atomex-me GitHub account](https://github.com/atomex-me). The only copy we found is a [personal copy](https://github.com/mismirnov/atomex.mobile) last updated in May 2021, long before the last release, 1.25.0, in February 2023.
+## Android
 
 **Update 2022-02-12**: This app is not on the Store anymore.
 
@@ -62,8 +62,6 @@ An issue has been opened at [https://github.com/atomex-me/atomex.mobile/issues/2
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** Atomex has ended the project and its source repository is gone (see Android), so the verdict changes from {% include verdictBadge.html verdict="sourceavailable" type='short' %} to {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 > Atomex — is a non-custodial crypto wallet
 

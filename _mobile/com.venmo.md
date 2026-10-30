@@ -38,9 +38,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** The verdict of both apps changes from {% include verdictBadge.html verdict="nosendreceive" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}. Venmo now lets US users transfer crypto to other Venmo and PayPal accounts and to wallets outside that network, and receive it from them ([crypto FAQ](https://help.venmo.com/cs/articles/cryptocurrency-faq-vhel141), [crypto page](https://venmo.com/about/crypto)), while the coins stay in the Venmo account. The text below predates this and its conclusion that bitcoin cannot leave Venmo is outdated.
 
-**Update 2026-10-30:** The verdict changes from {% include verdictBadge.html verdict="nosendreceive" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}. Venmo now lets US users transfer crypto to other Venmo and PayPal accounts and to wallets outside that network, and receive it from them ([crypto FAQ](https://help.venmo.com/cs/articles/cryptocurrency-faq-vhel141), [crypto page](https://venmo.com/about/crypto)), while the coins stay in the Venmo account. The text below predates this and its conclusion that bitcoin cannot leave Venmo is outdated.
+## Android
 
 On [their website](https://help.venmo.com/hc/en-us/articles/360063753053) we
 find:
@@ -65,7 +65,5 @@ own" on the app.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The verdict changes from {% include verdictBadge.html verdict="nosendreceive" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}. Venmo now lets US users transfer crypto to other Venmo and PayPal accounts and to wallets outside that network, and receive it from them ([crypto FAQ](https://help.venmo.com/cs/articles/cryptocurrency-faq-vhel141), [crypto page](https://venmo.com/about/crypto)), while the coins stay in the Venmo account. The text below predates this and its conclusion that bitcoin cannot leave Venmo is outdated.
 
 The Android analysis above applies to the iPhone app too.

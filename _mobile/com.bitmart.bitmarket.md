@@ -51,8 +51,6 @@ ended all trading on 2026-08-26 and keeps withdrawals open only until
 
 ## Android
 
-**Update 2026-10-30:** The exchange is winding down, see the warning above.
-
 On their website we read:
 
 > **Secure**<br>
@@ -67,8 +65,6 @@ not "cold", so it's them who hold the keys. As a custodial service the app is
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The exchange is winding down, see the warning above.
 
 On their website we read:
 

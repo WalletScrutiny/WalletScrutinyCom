@@ -38,9 +38,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** Our verdict was wrong, for both apps. [Edge says](https://support.edge.app/en/articles/15196710-how-to-log-into-edge-with-your-bitcoin-depot-account) the Bitcoin Depot app "was built on Edge's infrastructure" and that its users can log into {% include walletLink.html wallet='android/co.edgesecure.app' verdict='true' %} with their old username and password and find their wallets there, and the [Bitcoin Depot homepage](https://bitcoindepot.com/) says it "does not take ownership or custody of your crypto". We found no public source code, so, like the Edge fork {% include walletLink.html wallet='android/com.emberfund.ember' verdict='true' %}, both apps move from {% include verdictBadge.html verdict="custodial" type='short' %} to {% include verdictBadge.html verdict="nosource" type='short' %}. The app itself is finished: Bitcoin Depot [filed for Chapter 11](https://www.digitaltransactions.net/crypto-atm-operator-bitcoin-depot-files-for-bankruptcy/) in May 2026, and the homepage says "new mobile app logins are no longer active" and points users to Edge. The iPhone app is gone from the App Store as well.
 
-**Update 2026-10-30:** Our verdict was wrong. [Edge says](https://support.edge.app/en/articles/15196710-how-to-log-into-edge-with-your-bitcoin-depot-account) the Bitcoin Depot app "was built on Edge's infrastructure" and that its users can log into {% include walletLink.html wallet='android/co.edgesecure.app' verdict='true' %} with their old username and password and find their wallets there, and the [Bitcoin Depot homepage](https://bitcoindepot.com/) says it "does not take ownership or custody of your crypto". We found no public source code, so, like the Edge fork {% include walletLink.html wallet='android/com.emberfund.ember' verdict='true' %}, it moves from {% include verdictBadge.html verdict="custodial" type='short' %} to {% include verdictBadge.html verdict="nosource" type='short' %}. The app itself is finished: Bitcoin Depot [filed for Chapter 11](https://www.digitaltransactions.net/crypto-atm-operator-bitcoin-depot-files-for-bankruptcy/) in May 2026, and the homepage says "new mobile app logins are no longer active" and points users to Edge.
+## Android
 
 ## App Description
 
@@ -86,8 +86,6 @@ Due to the information we have collected thus far, it is apparent that private k
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is gone from the App Store as well. It used the same Edge-based accounts as the Android app, so the verdict changes from {% include verdictBadge.html verdict="custodial" type='short' %} to {% include verdictBadge.html verdict="nosource" type='short' %} here too. See the Android section.
 
 The Android analysis above applies to the iPhone app too.
 

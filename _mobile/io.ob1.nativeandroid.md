@@ -45,8 +45,6 @@ The domain gethaven.app now hosts an unrelated Thai-language blog.
 
 ## Android
 
-**Update 2026-10-30:** The provider has shut down; see the warning above.
-
 {% include featureEvidence.html feature="foss" source="[License](https://github.com/OpenBazaar/haven/blob/master/LICENSE)" quote="MIT License" %}
 
 **Update:** [@StevieZollo](https://twitter.com/StevieZollo) sent a
@@ -168,8 +166,6 @@ An issue has been opened at [https://github.com/OpenBazaar/haven/issues/3](https
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The provider has shut down as described above.
 
 **Update:** As of now, this app is not to be found on the App Store.
 

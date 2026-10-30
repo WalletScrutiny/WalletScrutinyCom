@@ -40,9 +40,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** On 2026-10-26 Ownbit published the part of its code that touches private keys as [bitbill/ownbit-app-50](https://github.com/bitbill/ownbit-app-50) under the MIT license. It covers both apps; the iOS key handling comes as a Swift package. Its README says that "the user interface and the code that talks to Ownbit's servers are not part of it", so nobody can build either app from source and the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
-**Update 2026-10-30:** On 2026-10-26 Ownbit published the part of its code that touches private keys as [bitbill/ownbit-app-50](https://github.com/bitbill/ownbit-app-50) under the MIT license. Its README says that "the user interface and the code that talks to Ownbit's servers are not part of it", so nobody can build the app from source and the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+## Android
 
 ## Update 2024-07-13
 
@@ -81,8 +81,6 @@ thus **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The [partial source release](https://github.com/bitbill/ownbit-app-50) also covers the iOS key handling, as a Swift package, but not the user interface or the server code.
 
 The Android analysis above applies to the iPhone app too.
 

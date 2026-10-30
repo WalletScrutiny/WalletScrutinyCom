@@ -40,9 +40,9 @@ iphone:
 
 ---
 
-## Android
+**Update 2026-10-30:** The verdict of both apps changes from {% include verdictBadge.html verdict="nosendreceive" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}. Since [June 2022](https://newsroom.paypal-corp.com/2022-06-07-PayPal-Users-Can-Now-Transfer-Send-and-Receive-Bitcoin-Ethereum-Bitcoin-Cash-and-Litecoin) eligible US users can send bitcoin from PayPal to other wallets and exchanges and receive it from them, while custody stays with PayPal's provider Paxos ([crypto page](https://www.paypal.com/us/digital-wallet/manage-money/crypto)). The text below predates this and its conclusion that BTC cannot leave PayPal is outdated.
 
-**Update 2026-10-30:** The verdict changes from {% include verdictBadge.html verdict="nosendreceive" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}. Since [June 2022](https://newsroom.paypal-corp.com/2022-06-07-PayPal-Users-Can-Now-Transfer-Send-and-Receive-Bitcoin-Ethereum-Bitcoin-Cash-and-Litecoin) eligible US users can send bitcoin from PayPal to other wallets and exchanges and receive it from them, while custody stays with PayPal's provider Paxos ([crypto page](https://www.paypal.com/us/digital-wallet/manage-money/crypto)). The text below predates this and its conclusion that BTC cannot leave PayPal is outdated.
+## Android
 
 PayPal was one of the more hostile companies towards Bitcoin, so it was some
 surprise in the community when they finally started taking a more positive
@@ -82,8 +82,6 @@ you won't be able to pay a Bitcoin accepting merchant with your PayPal wallet.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The verdict changes from {% include verdictBadge.html verdict="nosendreceive" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}. Since [June 2022](https://newsroom.paypal-corp.com/2022-06-07-PayPal-Users-Can-Now-Transfer-Send-and-Receive-Bitcoin-Ethereum-Bitcoin-Cash-and-Litecoin) eligible US users can send bitcoin from PayPal to other wallets and exchanges and receive it from them, while custody stays with PayPal's provider Paxos ([crypto page](https://www.paypal.com/us/digital-wallet/manage-money/crypto)). The text below predates this and its conclusion that BTC cannot leave PayPal is outdated.
 
 PayPal was one of the more hostile companies towards Bitcoin, so it was some
 surprise in the community when they finally started taking a more positive

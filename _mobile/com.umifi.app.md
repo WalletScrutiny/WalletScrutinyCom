@@ -34,9 +34,9 @@ iphone:
 
 **⚠️ Warning:** UmiFi appears to be gone. Its domain is for sale and its help center is closed.
 
-## Android
+**Update 2026-10-30:** [umifi.com](http://www.umifi.com) now leads to a HugeDomains page that sells the domain, and its [Zendesk help center](https://umificom.zendesk.com/), which the analysis below cites, is closed.
 
-**Update 2026-10-30:** UmiFi appears to be out of business. [umifi.com](http://www.umifi.com) now leads to a HugeDomains page that sells the domain, and its [Zendesk help center](https://umificom.zendesk.com/), which the analysis below cites, is closed.
+## Android
 
 **Update 2022-02-11**: This app is not on the Store anymore.
 
@@ -68,8 +68,6 @@ Cryptocurrency exchanges that have Anti Money Laundering policies are almost alw
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The provider is gone; see the Android section.
 
 **Update 2022-10-21**: This app is not available anymore.
 
