@@ -47,6 +47,7 @@ function publishedDay(advisory, published) {
  * advisories holds, newest first, each advisory published on or after `since`
  * with the wallets that carry it in their newest working release or in a
  * release published on or after `releasesSince`; or null without publication dates.
+ * Each advisory also carries the package's affected ranges and fixed versions when known.
  * Each wallet: { appId, releases: [{ ref, releasedAt, newest, version, scope, direct }] }, newest first.
  */
 export function newsOf({ index, appDoc, signals, now = new Date(), days = NEWS_DAYS, releaseMonths = NEWS_RELEASE_MONTHS }) {
@@ -68,9 +69,13 @@ export function newsOf({ index, appDoc, signals, now = new Date(), days = NEWS_D
         if (!day || day < since) continue;
         let entry = byId.get(a.id);
         if (!entry) {
-          entry = { id: a.id, aliases: a.aliases || [], published: day, severity: a.severity, summary: a.summary, ecosystem: a.ecosystem, package: a.package, wallets: [] };
+          entry = { id: a.id, aliases: a.aliases || [], published: day, severity: a.severity, summary: a.summary, ecosystem: a.ecosystem, package: a.package,
+            affected: a.affected, fixed: a.fixed, wallets: [] };
           byId.set(a.id, entry);
         }
+        // Rows stored before the ranges were kept have none; any release that has them will do.
+        entry.affected ??= a.affected;
+        entry.fixed ??= a.fixed;
         let wallet = entry.wallets.find(w => w.appId === appId);
         if (!wallet) {
           wallet = { appId, releases: [] };

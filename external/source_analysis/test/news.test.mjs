@@ -64,3 +64,14 @@ test('buildNews writes news.json next to signals.json, and nothing without it', 
     fs.rmSync(dir, { recursive: true, force: true });
   }
 });
+
+test('newsOf carries the affected ranges and fixed versions, from any release that has them', () => {
+  const docs = {
+    'a.wallet': { releases: [
+      { ref: 'v2', status: 'ok', releasedAt: '2026-10-01', advisories: [adv('GHSA-new')] },
+      { ref: 'v1', status: 'ok', releasedAt: '2026-09-01', advisories: [adv('GHSA-new', { affected: ['< 1.2.0'], fixed: ['1.2.0'] })] },
+    ] },
+  };
+  const news = newsOf({ index: { apps: [{ appId: 'a.wallet' }] }, appDoc: id => docs[id], signals, now });
+  assert.deepEqual([news.advisories[0].affected, news.advisories[0].fixed], [['< 1.2.0'], ['1.2.0']]);
+});

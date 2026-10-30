@@ -140,6 +140,9 @@ export function initDatabase(dbPath = DB_PATH) {
   // `dependants` is the JSON list of package names that require this one, one
   // hop up (plugins/pinning.mjs makeEntry); NULL when the lockfile has no graph.
   for (const table of ['app_dependencies', 'app_vulnerabilities']) ensureColumn(db, table, 'dependants', 'TEXT');
+  // `affected` is the JSON list of the advisory's affected ranges for this
+  // package ("< 1.2.3"); NULL on rows stored before the column, until the next recheck.
+  ensureColumn(db, 'app_vulnerabilities', 'affected', 'TEXT');
 
   // Where a package's source lives, per (ecosystem, name): resolved from the
   // registry metadata (sourceRepos.mjs) and cached, since it does not
@@ -522,14 +525,15 @@ export function saveDependencies(db, appId, version, analyses) {
 export function saveVulnerabilities(db, appId, version, { findings }) {
   const insert = db.prepare(`
     INSERT OR REPLACE INTO app_vulnerabilities
-      (app_id, version, ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+      (app_id, version, ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants, affected)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   `);
   return db.transaction(() => {
     db.prepare('DELETE FROM app_vulnerabilities WHERE app_id = ? AND version = ?').run(appId, version);
     for (const f of findings) {
       insert.run(appId, version, f.ecosystem, f.name, f.version, f.id, f.severity,
-        f.aliases.join(' '), f.fixed.join(' '), f.summary, boolOrNull(f.direct), boolOrNull(f.dev), scopeOrNull(f.scope), dependantsOrNull(f.dependants));
+        f.aliases.join(' '), f.fixed.join(' '), f.summary, boolOrNull(f.direct), boolOrNull(f.dev), scopeOrNull(f.scope), dependantsOrNull(f.dependants),
+        Array.isArray(f.affected) && f.affected.length ? JSON.stringify(f.affected) : null);
     }
     return findings.length;
   })();
@@ -537,7 +541,7 @@ export function saveVulnerabilities(db, appId, version, { findings }) {
 
 export function getVulnerabilities(db, appId, version) {
   return db.prepare(`
-    SELECT ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants
+    SELECT ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants, affected
     FROM app_vulnerabilities WHERE app_id = ? AND version = ?
     ORDER BY CASE severity WHEN 'malicious' THEN 0 WHEN 'critical' THEN 1 WHEN 'high' THEN 2
       WHEN 'moderate' THEN 3 WHEN 'low' THEN 4 ELSE 5 END, ecosystem, name, vuln_id

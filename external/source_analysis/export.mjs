@@ -202,6 +202,8 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
     r.advisories = getVulnerabilities(db, appId, r.ref).map(v => ({
       id: v.vuln_id, severity: v.severity, aliases: v.aliases ? v.aliases.split(' ') : [],
       summary: v.summary, ecosystem: v.ecosystem, package: v.name, version: v.dep_version,
+      affected: v.affected ? JSON.parse(v.affected) : undefined,
+      fixed: v.fixed ? v.fixed.split(' ') : undefined,
       direct: v.direct === null ? null : v.direct === 1,
       scope: scopeOfRow(v) === 'unknown' ? null : scopeOfRow(v),
       part: partOfLockfiles(lockfilesOf.get(`${v.ecosystem}:${v.name}@${v.dep_version}`) || []) || undefined,

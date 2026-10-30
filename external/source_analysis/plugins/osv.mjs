@@ -241,6 +241,35 @@ function fixedVersions(advisory, q) {
 }
 
 /**
+ * The affected version ranges the advisory lists for this package, one string
+ * per range: "< 4.17.19", ">= 3.7.0, < 4.17.19", "<= 2.1.0", ">= 1.0.0".
+ * Git commit ranges are left out; null when no range names a version.
+ */
+export function affectedRanges(advisory, q) {
+  const out = new Set();
+  for (const affected of advisory.affected || []) {
+    if (affected.package?.ecosystem !== OSV_ECOSYSTEMS[q.ecosystem]) continue;
+    if (String(affected.package?.name).toLowerCase() !== q.name.toLowerCase()) continue;
+    for (const range of affected.ranges || []) {
+      if (range.type === 'GIT') continue;
+      let from = null;
+      const close = (to) => {
+        out.add([from && from !== '0' && `>= ${from}`, to].filter(Boolean).join(', ') || 'all versions');
+        from = null;
+      };
+      let open = false;
+      for (const event of range.events || []) {
+        if (event.introduced !== undefined) { from = event.introduced; open = true; }
+        else if (event.fixed !== undefined && open) { close(`< ${event.fixed}`); open = false; }
+        else if (event.last_affected !== undefined && open) { close(`<= ${event.last_affected}`); open = false; }
+      }
+      if (open) close(null);
+    }
+  }
+  return out.size ? [...out] : null;
+}
+
+/**
  * One finding per advisory, per package version. OSV often returns the same
  * issue twice (a GHSA and the RUSTSEC or PYSEC record it aliases); those are
  * folded into one finding, keeping the record that carries a severity.
@@ -270,6 +299,7 @@ function findingsFor(q, ids, details) {
       severity: severityOf(advisory),
       summary: advisory.summary || (advisory.details || '').split('\n')[0].slice(0, 200),
       fixed: fixedVersions(advisory, q),
+      affected: affectedRanges(advisory, q),
       direct: q.rows.some(r => r.direct === true) ? true : (q.rows.some(r => r.direct === false) ? false : null),
       dev: q.rows.every(r => r.dev === true) ? true : (q.rows.some(r => r.dev === false) ? false : null),
       scope: scopeOfRows(q.rows),

@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import {
+import { affectedRanges,
   buildQueries, queryName, berryResolution, checkVulnerabilities, clearAdvisoryCache, cvss3BaseScore, severityOf, uncheckableReason, scopeOfRows,
 } from '../plugins/osv.mjs';
 import { initDatabase, saveVulnerabilities, getVulnerabilities } from '../ddbbUtils.mjs';
@@ -142,6 +142,8 @@ test('findings across ecosystems, aliases folded, severity from GHSA, CVSS and M
   ]);
   const lodash = result.findings.find(f => f.name === 'lodash');
   assert.deepEqual(lodash.fixed, ['4.17.19']); // lodash-es' fix is not lodash's
+  assert.deepEqual(lodash.affected, ['>= 3.7.0, < 4.17.19']);
+  assert.equal(result.findings.find(f => f.name === 'evil').affected, null);
   assert.equal(lodash.direct, false);
   assert.equal(lodash.dev, true);
   assert.equal(calls.filter(c => c.url.endsWith('/querybatch')).length, 1);
@@ -196,15 +198,32 @@ test('findings are stored per release and replaced on re-analysis', () => {
   const db = initDatabase(path.join(dir, 'test.db'));
   const finding = {
     ecosystem: 'npm', name: 'lodash', version: '4.17.15', id: 'GHSA-p6mc-m468-83gw', aliases: ['CVE-2020-8203'],
-    severity: 'high', summary: 'Prototype Pollution', fixed: ['4.17.19'], direct: true, dev: false,
+    severity: 'high', summary: 'Prototype Pollution', fixed: ['4.17.19'], affected: ['>= 3.7.0, < 4.17.19'], direct: true, dev: false,
   };
-  assert.equal(saveVulnerabilities(db, 'app', '1.0', { findings: [finding, { ...finding, id: 'MAL-1', severity: 'malicious', aliases: [] }] }), 2);
-  assert.deepEqual(getVulnerabilities(db, 'app', '1.0').map(r => [r.vuln_id, r.severity, r.fixed, r.aliases]), [
-    ['MAL-1', 'malicious', '4.17.19', ''],
-    ['GHSA-p6mc-m468-83gw', 'high', '4.17.19', 'CVE-2020-8203'],
+  assert.equal(saveVulnerabilities(db, 'app', '1.0', { findings: [finding, { ...finding, id: 'MAL-1', severity: 'malicious', aliases: [], affected: null }] }), 2);
+  assert.deepEqual(getVulnerabilities(db, 'app', '1.0').map(r => [r.vuln_id, r.severity, r.fixed, r.aliases, r.affected]), [
+    ['MAL-1', 'malicious', '4.17.19', '', null],
+    ['GHSA-p6mc-m468-83gw', 'high', '4.17.19', 'CVE-2020-8203', '[">= 3.7.0, < 4.17.19"]'],
   ]);
   saveVulnerabilities(db, 'app', '1.0', { findings: [] });
   assert.equal(getVulnerabilities(db, 'app', '1.0').length, 0);
   db.close();
   fs.rmSync(dir, { recursive: true, force: true });
+});
+
+test('affectedRanges: one string per range, introduced 0 is no lower bound, git ranges left out', () => {
+  const q = { ecosystem: 'npm', name: 'lib' };
+  const range = (...events) => ({ type: 'SEMVER', events });
+  const advisory = { affected: [
+    { package: { ecosystem: 'npm', name: 'lib' }, ranges: [
+      range({ introduced: '0' }, { fixed: '0.5.1' }),
+      range({ introduced: '1.0.0' }, { fixed: '1.2.3' }, { introduced: '2.0.0' }, { last_affected: '2.1.0' }),
+      range({ introduced: '3.0.0' }),
+      { type: 'GIT', events: [{ introduced: 'abc' }, { fixed: 'def' }] },
+    ] },
+    { package: { ecosystem: 'npm', name: 'other' }, ranges: [range({ introduced: '0' }, { fixed: '9.9.9' })] },
+  ] };
+  assert.deepEqual(affectedRanges(advisory, q), ['< 0.5.1', '>= 1.0.0, < 1.2.3', '>= 2.0.0, <= 2.1.0', '>= 3.0.0']);
+  assert.deepEqual(affectedRanges({ affected: [{ package: { ecosystem: 'npm', name: 'lib' }, ranges: [range({ introduced: '0' })] }] }, q), ['all versions']);
+  assert.equal(affectedRanges({ affected: [] }, q), null);
 });

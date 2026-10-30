@@ -385,7 +385,9 @@ leaves its part out, and the previous file stays when all fail;
 `SOURCE_ANALYSIS_SIGNALS=off` skips it). Then `news.json` (`news.mjs`): the
 advisories published in the last 14 days, each with the wallets whose newest
 working release, or a release published in the last 6 months, uses an
-affected version, for the site's `/news/` page and its release filter. A
+affected version, for the site's `/news/` page and its release filter. Each
+advisory carries its affected ranges and fixed versions from OSV (`affected`,
+`fixed`); rows stored before `affected` existed get it at the next recheck. A
 release's day (`releasedAt` in the app file) is the earliest `published_at` of
 its GitHub release files, else the date of the commit its tag points at:
 before the export, `releaseDates.mjs` asks GitHub or GitLab once per release

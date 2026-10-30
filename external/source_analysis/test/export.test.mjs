@@ -54,7 +54,7 @@ test('buildApp: releases newest first with summary, advisories and diff, nothing
   assert.deepEqual(Object.keys(written), ['ref', 'commit', 'analysedAt', 'status', 'lockfiles', 'osv', 'dependencies', 'vulnerabilities', 'advisories', 'diffFrom']);
   assert.deepEqual(Object.keys(written.dependencies), ['total', 'direct', 'byScope', 'byEcosystem', 'lockfiles']);
   assert.deepEqual(Object.keys(written.vulnerabilities), ['bySeverity', 'byScope']);
-  assert.deepEqual(Object.keys(written.advisories[0]), ['id', 'severity', 'aliases', 'summary', 'ecosystem', 'package', 'version', 'direct', 'scope', 'dependants', 'products', 'productsSameVersion']);
+  assert.deepEqual(Object.keys(written.advisories[0]), ['id', 'severity', 'aliases', 'summary', 'ecosystem', 'package', 'version', 'fixed', 'direct', 'scope', 'dependants', 'products', 'productsSameVersion']);
 });
 
 test('a release stored before the analyses table existed is exported without provenance', () => {
