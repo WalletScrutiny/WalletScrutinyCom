@@ -23,9 +23,7 @@ android:
 **⚠️ Warning:** This provider is gone. The app is no longer on Google Play, and
 on 2026-10-30 the domain yeswallet.io no longer resolved.
 
-**Update 2026-10-30:** The app is still gone from Google Play and its website is
-gone, so we mark the provider as defunct. The verdict stays
-{% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** The provider is gone; the domain yeswallet.io no longer resolves.
 
 This app ~~is~~was **very likely a scam** judging by the reviews and the website being
 down and the last update being almost two years old.

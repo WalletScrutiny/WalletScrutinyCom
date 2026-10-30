@@ -31,13 +31,6 @@ is from 2025-02-20), the support site support.huobiwallet.io did not connect, an
 the [HuobiWallet](https://x.com/HuobiWallet) handle on X now belongs to an
 unrelated account with no posts. Its successor app is also gone from both stores.
 
-**Update 2026-10-30:** This app and its replacement
-{% include walletLink.html wallet='android/com.huobionchainwallet.itokenhd' verdict='true' %}
-are no longer on Google Play, and the provider shows no sign of life, so we mark
-this listing defunct. The verdict stays
-{% include verdictBadge.html verdict="nosource" type='short' %}: the app claimed
-self-custody, but its source code was never published.
-
 ## Notes on Similar Apps
 
 This is the former Android app and is no longer available in the Play Store. It was replaced by:

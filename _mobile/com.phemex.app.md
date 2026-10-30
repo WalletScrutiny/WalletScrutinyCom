@@ -46,14 +46,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Google Play no longer shows the app in the US, but still
-lists it in Singapore and Nigeria. In January 2025 attackers drained
-[about $73 million from Phemex hot wallets on sixteen chains](https://www.halborn.com/blog/post/explained-the-phemex-hack-january-2025),
-which shows that Phemex, not its users, holds the keys. The app description still
-promises "Cold Wallet Storage" that "keeps user funds offline", and a web search
-found no self-custody mode for this app. It remains
-{% include verdictBadge.html verdict="custodial" type='short' %}.
-
 The Phemex mobile app claims to hold funds in cold storage...
 
 > All assets are 100% stored in cold wallets. Each withdrawal is thoroughly monitored and requires two-person approval with offline signatures.
@@ -65,13 +57,6 @@ Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** In January 2025 attackers drained
-[about $73 million from Phemex hot wallets on sixteen chains](https://www.halborn.com/blog/post/explained-the-phemex-hack-january-2025),
-which shows that Phemex, not its users, holds the keys. The app description still
-promises "Cold Wallet Storage" that "keeps user funds offline", and a web search
-found no self-custody mode for this app. It remains
-{% include verdictBadge.html verdict="custodial" type='short' %}.
 
 The Phemex mobile app claims to hold funds in cold storage...
 

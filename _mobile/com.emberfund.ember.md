@@ -41,7 +41,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Ember is now a free-to-play games app, and its wallet is being retired. The [website](https://www.emberfund.io/) and the store description now advertise games, free "Sats" and prizes, and say that "Sats are free sweepstakes entries". On 2025-04-01 Ember [announced](https://help.emberfund.io/en/articles/11012668-important-update-for-our-invested-users) that it was winding down its investing feature to focus on gaming. It stopped new deposits and stopped selling portfolios in the app from 2025-04-10. An [August 2025 help article](https://help.emberfund.io/en/articles/12091932-how-do-i-transfer-funds-out-of-my-on-chain-btc-wallet) says Ember "has officially wound down its investing options and in-app on-chain wallet". It tells users to withdraw from the "Bitcoin Wallet" in the app, and the help center files the wallet under ["Wallet (Sunset Feature)"](https://help.emberfund.io/en/collections/9542167-wallet-sunset-feature). Prize redemptions now go to bank accounts through the payment provider [Breeze](https://help.emberfund.io/en/articles/12110486-breeze-payments-everything-you-need-to-know). Existing users can still send their legacy BTC out, and we found no source code, so the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %} for now. New users get no Bitcoin wallet. The old Terms link and the "Liquidate Portfolio" instructions below no longer apply.
+**Update 2026-10-30:** Ember is now a free-to-play games app, and its wallet is being retired. On 2025-04-01 Ember [announced](https://help.emberfund.io/en/articles/11012668-important-update-for-our-invested-users) that it was winding down its investing feature, and an [August 2025 help article](https://help.emberfund.io/en/articles/12091932-how-do-i-transfer-funds-out-of-my-on-chain-btc-wallet) says it "has officially wound down its investing options and in-app on-chain wallet" and tells users to withdraw from the "Bitcoin Wallet" in the app. New users get no Bitcoin wallet, and the old Terms link and the "Liquidate Portfolio" instructions below no longer apply.
 
 ## Update 2024-07-15
 
@@ -119,6 +119,6 @@ This app claims to be non-custodial, but with no source to back it up, it is **n
 
 ## iPhone
 
-**Update 2026-10-30:** The iPhone app is the same games app, now titled "Ember - Free Games. Big Wins." on the App Store, and the [wallet wind-down](https://help.emberfund.io/en/articles/12091932-how-do-i-transfer-funds-out-of-my-on-chain-btc-wallet) applies to it too. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %} for now.
+**Update 2026-10-30:** The iPhone app is the same games app, now titled "Ember - Free Games. Big Wins.", and the [wallet wind-down](https://help.emberfund.io/en/articles/12091932-how-do-i-transfer-funds-out-of-my-on-chain-btc-wallet) applies to it too.
 
 {% include copyFromAndroid.html %}

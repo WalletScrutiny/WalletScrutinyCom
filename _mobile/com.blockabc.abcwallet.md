@@ -16,10 +16,7 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play, and the domain
-[blockabc.com](https://www.blockabc.com/) now redirects to a GoDaddy
-domain-for-sale page. The verdict stays
-{% include verdictBadge.html verdict="obfuscated" type='short' %}.
+**Update 2026-10-30:** The domain [blockabc.com](https://www.blockabc.com/) now redirects to a GoDaddy domain-for-sale page.
 
 **Update 2021-04-13**: The app cannot be found on Google Play anymore. We assume
 it was a scam as can be seen in our original review below:

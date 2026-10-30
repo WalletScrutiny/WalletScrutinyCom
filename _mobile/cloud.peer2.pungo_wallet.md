@@ -23,11 +23,7 @@ pungowallet.com no longer resolved, and pungo.io shows
 an old company page that says "We are going for good", padded with casino
 advertising.
 
-**Update 2026-10-30:** The app is still gone from Google Play and its website
-is gone, so we mark the provider as defunct. The
-[ChainZilla/agamamobilefork](https://github.com/ChainZilla/agamamobilefork)
-repository mentioned below has had no commit since 2018-10-01. The verdict stays
-{% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** The provider is gone; its website pungowallet.com no longer resolves.
 
 **Update 2021-06-02**: Their website is gone. Their Play Store listing is gone.
 We assume this wallet is no more.

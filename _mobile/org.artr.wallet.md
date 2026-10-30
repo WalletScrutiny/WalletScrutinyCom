@@ -37,8 +37,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The app is gone from Google Play, but the provider is still active. The [Artery Network website](https://artery.network/) now offers the Android app as a [direct APK download](https://artery-updates.fra1.digitaloceanspaces.com/android/Artery_Network_1810.apk) (file dated September 2022). The linked [GitHub repository](https://github.com/arterynetwork/artr) holds the code for running an Artery blockchain node, last updated in March 2024, not the wallet app. We found no source code for the app, so the verdict {% include verdictBadge.html verdict="nosource" type='short' %} still holds.
-
 > The Artery Network is based on devices (phones, computers) that allocate free memory and internet connection in the Artery Node product, providing decentralization to the Artery Storage and Artery VPN products.
 
 Artery Network claims to be a decentralized product.
@@ -59,8 +57,6 @@ To further verify, we emailed their support and await their response.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The app is still gone from the App Store. The Android findings below apply, and the verdict {% include verdictBadge.html verdict="nosource" type='short' %} still holds.
 
 **Update 2021-11-07**: This app is not available anymore.
 

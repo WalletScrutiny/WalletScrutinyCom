@@ -43,15 +43,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Still custodial. Gemini's
-[security page](https://www.gemini.com/security) now says coins sit in its
-"Cold Storage System" and that "All private keys are stored offsite at
-high-security data centers", so Gemini holds the keys. Gemini listed on Nasdaq
-as GEMI in
-[September 2025](https://www.cnbc.com/2025/09/11/winklevoss-founded-crypto-exchange-gemini-prices-ipo.html).
-Its self-custody [Gemini Wallet](https://www.gemini.com/wallet) is a separate
-product that "lives in-browser", not part of this app.
-
 This provider being an exchange, together with the lack of clear words of who
 gets to hold the private keys leads us to believe this app is only an interface
 to the Gemini exchange account and thus custodial and thus **not verifiable**.
@@ -59,15 +50,6 @@ to the Gemini exchange account and thus custodial and thus **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** Still custodial. Gemini's
-[security page](https://www.gemini.com/security) now says coins sit in its
-"Cold Storage System" and that "All private keys are stored offsite at
-high-security data centers", so Gemini holds the keys. Gemini listed on Nasdaq
-as GEMI in
-[September 2025](https://www.cnbc.com/2025/09/11/winklevoss-founded-crypto-exchange-gemini-prices-ipo.html).
-Its self-custody [Gemini Wallet](https://www.gemini.com/wallet) is a separate
-product that "lives in-browser", not part of this app.
 
 This provider being an exchange, together with the lack of clear words of who
 gets to hold the private keys leads us to believe this app is only an interface

@@ -41,12 +41,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** FOREX.com still offers crypto only as CFDs. Its
-[crypto page](https://www.forex.com/en/cryptocurrency-trading/) says you "go long or
-short on crypto CFDs 24/7* without needing to own the underlying asset". The site now
-carries an "FX by SX" logo and sends institutional clients to StoneX. There is still no
-bitcoin to send or receive, so the verdict {% include verdictBadge.html verdict="nosendreceive" type='short' %} still holds.
-
 ## App Description
 
 Perhaps one of the more well-known Forex sites due to its domain power, Forex.com offers trading in 300+ markets. This includes: FX, precious metals, various trade indices, shares and cryptocurrencies.
@@ -83,8 +77,5 @@ Funding can only be via traditional financial institutions, this app **cannot se
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is still listed in the UK App Store, now as "Trade Stocks and FX
-FOREX.com". See the Android section.
 
 {% include copyFromAndroid.html %}

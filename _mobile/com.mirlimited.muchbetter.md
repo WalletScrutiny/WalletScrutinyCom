@@ -42,14 +42,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The verdict still holds. MuchBetter is still a
-regulated e-money account. Its [help center](https://support.muchbetter.com/hc/en-us/articles/360010960774-Which-cryptocurrency-can-I-use)
-says it uses a partner for crypto-fiat exchange, and a crypto
-[top-up](https://support.muchbetter.com/hc/en-us/articles/1500005970702-How-can-I-send-funds-from-my-cryptowallet)
-starts with an amount and pays to an address the app generates. You never hold
-keys. The [identification FAQ](https://support.muchbetter.com/hc/en-us/articles/115007807928-Why-do-I-need-to-supply-identification-)
-quoted below is still online.
-
 As a payment app, it's almost certain that fiat and cryptocurrencies will be held in custody by a third party. 
 
 There's also a use of identity verification which is usually a trait of custodial products. 
@@ -63,14 +55,6 @@ Verdict: This app is **custodial** and therefore **not verifiable.**
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The verdict still holds. MuchBetter is still a
-regulated e-money account. Its [help center](https://support.muchbetter.com/hc/en-us/articles/360010960774-Which-cryptocurrency-can-I-use)
-says it uses a partner for crypto-fiat exchange, and a crypto
-[top-up](https://support.muchbetter.com/hc/en-us/articles/1500005970702-How-can-I-send-funds-from-my-cryptowallet)
-starts with an amount and pays to an address the app generates. You never hold
-keys. The [identification FAQ](https://support.muchbetter.com/hc/en-us/articles/115007807928-Why-do-I-need-to-supply-identification-)
-quoted below is still online.
 
 As a payment app, it's almost certain that fiat and cryptocurrencies will be held in custody by a third party. 
 

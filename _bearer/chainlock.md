@@ -31,7 +31,7 @@ features:
 
 ---
 
-**Update 2026-10-30:** Chainlock is still made and sold. youniqx still has a [product page](https://youniqx.com/youniqx-technologies/chainlock/), and the Vienna shop bitcoin.wien [sells the card](https://shop.bitcoin.wien/products/card-wallet) for €40. Our shop link pointed to Coinfinity's {% include walletLink.html wallet='bearer/coinfinitycardwallet' verdict='true' %}, which is a different product, and now points to the bitcoin.wien listing. bitcoin.wien [describes the current card](https://www.bitcoin.wien/wallets/offline/) as holding a 12-word seed phrase under the seal instead of a private key. Either way the secret is printed before delivery, so the verdict stays {% include verdictBadge.html verdict="prefilled" type='short' %}.
+**Update 2026-10-30:** Our shop link pointed to Coinfinity's {% include walletLink.html wallet='bearer/coinfinitycardwallet' verdict='true' %}, which is a different product. It now points to the Vienna shop bitcoin.wien, which [sells the Chainlock card](https://shop.bitcoin.wien/products/card-wallet).
 
 Chainlock is a card wallet that can be kept or passed on from one user to another. It also advertises that it is "100% offline"
 

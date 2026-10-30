@@ -19,8 +19,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** Still defunct. cointong.io now returns a server error. Its [last archived copy, from November 2023](https://web.archive.org/web/20231129095126/http://cointong.io/), still shows only the September 2021 shutdown notice, which also said Cointong would reopen once it got ISMS certification. We found no sign that it did. The Android app is still listed, but its last update is from November 2022.
-
 **CAUTION: We have reason to believe that this app is undergoing law enforcement proceedings.** 
 
 > **Notice of termination of Cointong service due to enforcement of Special Act**

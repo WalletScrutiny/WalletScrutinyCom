@@ -37,7 +37,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** We now mark this app defunct. It is still gone from Google Play, and crystalwallet.eu no longer resolves. The Wayback Machine last saved the [Crystal Wallet website](https://web.archive.org/web/20220129033320/https://crystalwallet.eu/) in January 2022; by [April 2025](https://web.archive.org/web/20250403080435/https://crystalwallet.eu/) the domain only redirected to a parking page. We still found no source code, so the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** The provider is gone: crystalwallet.eu no longer resolves, and by [April 2025](https://web.archive.org/web/20250403080435/https://crystalwallet.eu/) the domain only redirected to a parking page.
 
 **Update 2022-03-02**: This app is not available anymore.
 
@@ -60,8 +60,6 @@ We couldn't find a link to their source code and neither did searching the appID
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is also gone; the App Store lookup for it returns no result in the US or Chinese store. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 **Update 2022-03-02**: This app is not available anymore.
 

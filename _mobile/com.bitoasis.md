@@ -46,7 +46,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** BitOasis was [acquired by the Indian exchange CoinDCX](https://www.financemagnates.com/cryptocurrency/bitoasis-secures-crypto-license-from-vara-following-coindcx-acquisition/) in 2024 and later received a full VASP licence from Dubai's VARA. The app is still listed and the [website](https://bitoasis.net/en/home) now presents it as "BitOasis by CoinDCX", an exchange with Lite and Pro modes. The multi-signature answer we quote below is no longer in the [FAQ](https://bitoasis.net/en/page/faq), and we found nothing that gives users a key. It stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** BitOasis was [acquired by the Indian exchange CoinDCX](https://www.financemagnates.com/cryptocurrency/bitoasis-secures-crypto-license-from-vara-following-coindcx-acquisition/) in 2024, and its [website](https://bitoasis.net/en/home) now presents it as "BitOasis by CoinDCX". The multi-signature answer we quote below is no longer in the [FAQ](https://bitoasis.net/en/page/faq).
 
 {% include review/bitgo.md %}
 
@@ -81,8 +81,6 @@ As third parties have the 2of3 quorum - BitGo and "an independent law firm" - an
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is still listed and is the same exchange as the Android app. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include copyFromAndroid.html %}
 

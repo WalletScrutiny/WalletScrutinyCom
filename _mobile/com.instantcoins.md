@@ -40,8 +40,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The app is still gone from Google Play. In [September 2026](https://web.archive.org/web/20260914044930/https://instantcoins.ng/) instantcoins.ng showed only a link shortener's "Your domain is working" page, and today it does not answer at all. The [@Instantcoins_ng](https://x.com/instantcoins_ng) X account was registered in May 2026 and has no posts, so it is not the account we looked at in 2021. We mark the provider as defunct. The verdict {% include verdictBadge.html verdict="nosendreceive" type='short' %} stays.
-
 ## App Description
 
 > Sell & Buy Bitcoins, Ethereums, USDT, Litecoin, and Perfect Money securely with Instantcoins! We are the best platform to exchange cryptocurrencies in Nigeria. Instantcoins is duly registered at the Corporate Affairs Commission (CAC), making us the safest, fastest and all-around best application for selling, buying bitcoin and other crypto currencies for individuals and institutions who are based in Nigeria.
@@ -91,8 +89,6 @@ Our verdict for this app is it **cannot send or receive bitcoins**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The app is still gone from the App Store (no result for id1519748966 in the NG or US store) and the provider appears to be gone, see the Android section.
 
 **Update 2022-02-09**: This app is no more.
 

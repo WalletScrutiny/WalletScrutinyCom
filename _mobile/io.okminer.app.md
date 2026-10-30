@@ -21,8 +21,6 @@ android:
 
 **⚠️ Warning:** The provider appears to be gone. The app is off Google Play and its website no longer resolves.
 
-**Update 2026-10-30:** The app is still gone from Google Play, and we found no archived copy of its store page. The domain okminer.io no longer resolves, and the listing names no other website or social account, so we mark it defunct. It stays {% include verdictBadge.html verdict="wip" type='short' %}.
-
 ## Updated Verdict 2021-10-29
 
 ⚠️ **Warning** many users have reported losing money on this app. We were able to download, register and test it. Many of the functionalities are not working. 

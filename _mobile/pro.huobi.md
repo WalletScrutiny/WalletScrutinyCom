@@ -46,12 +46,7 @@ iphone:
 ## Android
 
 **Update 2026-10-30:** Huobi is now HTX. The old website www.hbg.com no longer
-loads, so we replaced it with [htx.com](https://www.htx.com). On 26 May 2026 the UK
-[sanctioned Huobi Global S.A., the operator of HTX](https://www.coindesk.com/business/2026/05/26/uk-sanctions-huobi-and-ruble-stablecoin-issuer-in-crackdown-on-russia-crypto-networks),
-for allegedly helping Russia evade sanctions, and in July 2026 the EU
-[followed](https://www.icij.org/investigations/coin-laundry/europe-sanctioned-crypto-exchange-htx-experts-say-the-firm-is-deploying-tactics-that-could-blunt-the-impact/).
-The Android app is still on Google Play. Nothing suggests the app now gives you
-the keys, so it remains {% include verdictBadge.html verdict="custodial" type='short' %}.
+loads, so we replaced it with [htx.com](https://www.htx.com).
 
 Neither on Google Play nor on their website can we find a claim of a
 non-custodial part to this app. We assume it is a purely custodial interface to
@@ -60,14 +55,6 @@ the exchange of same name and therefore **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is gone from the App Store. Apple's lookup
-returns nothing for it in any of the 21 countries we tried, including the US,
-the UK, Hong Kong and Singapore. HTX itself still operates at
-[htx.com](https://www.htx.com), although the UK
-[sanctioned its operator](https://www.coindesk.com/business/2026/05/26/uk-sanctions-huobi-and-ruble-stablecoin-issuer-in-crackdown-on-russia-crypto-networks)
-in May 2026. When it was listed, the app was a custodial exchange client, so the
-verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 Neither on Google Play nor on their website can we find a claim of a
 non-custodial part to this app. We assume it is a purely custodial interface to

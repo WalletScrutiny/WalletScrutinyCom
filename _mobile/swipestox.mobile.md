@@ -41,8 +41,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Still CFDs only. NAGA's [Crypto One](https://naga.com/en/investing/markets/crypto-one) page says you "trade CFDs that mirror the price of cryptocurrencies", "all without owning the actual assets", and that it "eliminates the need for digital wallets". The verdict stays {% include verdictBadge.html verdict="nosendreceive" type='short' %}.
-
 ## App Description
 
 Forex trading app by Naga is a trading and investment platform.

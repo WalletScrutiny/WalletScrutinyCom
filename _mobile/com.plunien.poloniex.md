@@ -42,14 +42,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Still custodial. The [Poloniex website](https://www.poloniex.com/)
-advertises a "cold, warm, hot, and multi-party offline wallet system" and proof
-of reserves. In November 2023 attackers drained about $114 million from Poloniex
-hot wallets, and Justin Sun promised to "fully reimburse the affected funds"
-([CoinDesk](https://www.coindesk.com/business/2023/11/10/poloniex-hot-wallets-hacked-65m-seemingly-stolen-on-chain-data)).
-The old support.poloniex.com address now redirects to the Poloniex announcements
-page.
-
 This app is not primarily advertised as a wallet. It is an interface to a crypto
 exchange but on the Google Play description we read:
 
@@ -64,10 +56,6 @@ therefore **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The App Store lookup no longer finds this app in the US,
-but it is listed in Japan, Hong Kong and Singapore, now published by HBGL PTY
-LTD. It is the same custodial service as on Android.
 
 ## Update 2025-03-14
 

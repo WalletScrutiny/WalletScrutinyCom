@@ -30,8 +30,6 @@ features:
 
 ---
 
-**Update 2026-10-30:** Nothing changed for the product. keyois.com now redirects to an [article on seedkeys.xyz](https://seedkeys.xyz/keyois/) that calls the capsule a historical backup device from 2017. It is not the maker's site. We found no shop and no sign of the maker, so it stays {% include verdictBadge.html verdict="plainkey" type='short' %} and defunct.
-
 [Link](https://bitcointalk.org/index.php?topic=1659001.0) to Keyois Capsule's thread on BitcoinTalk.
 
 > You can put funds into it but you need to break it apart to spend the funds.

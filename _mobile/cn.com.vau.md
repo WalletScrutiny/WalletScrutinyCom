@@ -41,7 +41,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Vantage still sells crypto only as CFDs, so the verdict stays {% include verdictBadge.html verdict="nosendreceive" type='short' %}. The app description now calls Vantage a "Contract for Difference (CFD) trading platform", and [ForexBrokers.com's 2026 review](https://www.forexbrokers.com/reviews/vantage) lists about 50 crypto CFDs that now trade 24/7, including in a new "Perpetual" account that charges funding rates. The weekend restriction quoted below no longer applies, and the help-center article it came from is gone. Crypto appears only as a way to fund the account ("digital currencies"), not as an asset the user can withdraw.
+**Update 2026-10-30:** The help-center article quoted below is gone, and the weekend restriction it described no longer applies: [ForexBrokers.com's 2026 review](https://www.forexbrokers.com/reviews/vantage) lists about 50 crypto CFDs that now trade 24/7.
 
 App description:
 

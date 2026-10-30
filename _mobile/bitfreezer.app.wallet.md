@@ -26,10 +26,7 @@ android:
 2026-10-30 bitfreezer.app showed only a GoDaddy parking page, and the last post on
 its [X account](https://x.com/TheBitFreezer) is from 2020-12-25.
 
-**Update 2026-10-30:** The app is still gone from Google Play and the provider's
-website and social media are dead, so we mark the provider as defunct. We found
-no source code, so the verdict stays
-{% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** The provider is gone; its website and social media are dead.
 
 **Update 2021-08-03**: This app is not on Play Store anymore.
 

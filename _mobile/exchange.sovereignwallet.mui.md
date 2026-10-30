@@ -38,7 +38,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The app is still gone from Google Play and the App Store. An [archived Play store page from November 2020](https://web.archive.org/web/20201126120840/https://play.google.com/store/apps/details?id=exchange.sovereignwallet.mui) presents it as a self-custodial Bitcoin wallet: "non-custodial staking ... while keeping full control over them" and "hierarchical deterministic (HD) key generation to have full control over all of your addresses". We found no source code for the app on GitHub; the provider's only public repository is a [cryptography library](https://github.com/SovereignWallet-Network/metamui-crypto). A self-custody claim without source code gets the verdict {% include verdictBadge.html verdict="nosource" type='short' %}. The provider still exists: [sovereignwallet.network](https://sovereignwallet.network/) now presents the MetaMUI identity-based blockchain of SWN Global.
+**Update 2026-10-30:** An [archived Play store page from November 2020](https://web.archive.org/web/20201126120840/https://play.google.com/store/apps/details?id=exchange.sovereignwallet.mui) presents it as a self-custodial Bitcoin wallet with "hierarchical deterministic (HD) key generation to have full control over all of your addresses". We found no source code for the app on GitHub, so it gets the verdict {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 **UPDATE:** Support from Telegram responded to our inquiry, saying that they currently **are no longer supporting services related to the SovereignWallet App.** This app is **defunct.**
 
@@ -98,7 +98,5 @@ The wallet's developers claim to support other cryptocurrencies including Bitcoi
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is still gone from the App Store, and we found no archived copy of its store page, so it stays {% include verdictBadge.html verdict="wip" type='short' %}. The Android findings below are for the same app.
 
 {% include copyFromAndroid.html %}

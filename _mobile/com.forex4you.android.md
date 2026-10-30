@@ -40,8 +40,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Markets4you still offers crypto only as CFDs, so the verdict stays {% include verdictBadge.html verdict="nosendreceive" type='short' %}. The current app description lists cryptocurrencies among its instruments and describes the offer as "CFDs on 5 asset classes". [FXLeaders' 2026 review](https://www.fxleaders.com/forex-brokers/forex-brokers-review/forex4you-review/) confirms that Markets4You is the former Forex4You, an "offshore-regulated forex and CFD broker" licensed in Mauritius and the British Virgin Islands. Nothing suggests that users can deposit or withdraw actual bitcoin.
-
 ## New Review 2021-10-28
 
 [Article on site: What is Cryptocurrency CFDs Trading?](https://www.forex4you.com/en/trading-school/what-is-cryptocurrency-cfds-trading/)

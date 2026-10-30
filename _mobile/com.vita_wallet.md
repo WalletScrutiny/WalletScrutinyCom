@@ -42,8 +42,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Vita Wallet's [terms](https://vitawallet.io/terminos-y-condiciones/) now state the custody plainly. Vita Solutions SpA "presta servicios de intermediación y custodia para la compra y venta de criptoactivos" (provides brokerage and custody services for buying and selling crypto assets), and the funds and crypto assets in a user's account "se custodian" (are held in custody) by Vita. The supported crypto assets are USDT, USDC and BTC. The app is still listed. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
-
 ### App Description
 The app, as well as its description appear to be entirely in Spanish. Quotes below are taken from Google Translate.
 

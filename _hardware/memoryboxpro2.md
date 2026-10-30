@@ -34,7 +34,7 @@ features:
 
 **⚠️ Warning:** Starteos, the provider of this device, appears to be gone. Its website and companion app are no longer available.
 
-**Update 2026-10-30:** Starteos looks defunct. The domain starteos.io no longer resolves, so neither the [website](https://www.starteos.io#deadLink) nor its app download works. The companion app {% include walletLink.html wallet='android/com.hconline.iso' verdict='true' %} is gone from Google Play and the App Store. The [Starteos GitHub account](https://github.com/StarteosIO) has had no push since March 2023, and the newest posts we could see on its [X account](https://x.com/Starteosio) are from September 2020. The listing's X handle pointed to Starteos, an unrelated personal account; it now points to Starteosio. The verdict stays {% include verdictBadge.html verdict="noita" type='short' %}, as the device has no display.
+**Update 2026-10-30:** Starteos looks defunct. The domain starteos.io no longer resolves, so neither the [website](https://www.starteos.io#deadLink) nor its app download works, and the companion app {% include walletLink.html wallet='android/com.hconline.iso' verdict='true' %} is gone from Google Play and the App Store. The listing's X handle pointed to an unrelated personal account; it now points to [Starteosio](https://x.com/Starteosio).
 
 Announced on [twitter on May 17, 2020](https://twitter.com/Starteosio/status/1129233526597902336), it was difficult to find technical information, documentation, reviews and video reviews of the product. It does however have some Chinese language videos from its official YouTube channel: 
 

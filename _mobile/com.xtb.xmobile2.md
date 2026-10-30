@@ -25,8 +25,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The verdict still holds. XTB now also sells "real" crypto in some regions, not only CFDs, but [its crypto page](https://www.xtb.com/cy/crypto) says: "crypto trading at XTB takes place exclusively within our platform. We only accept deposits and withdrawals in fiat." Bitcoin can still not be sent or received.
-
 The app description:
 
 >Trade with the Best CFD Broker for 2021* using the award-winning mobile app (Best Mobile App for Investing 2019 & 2020 according to the Rankia awards).

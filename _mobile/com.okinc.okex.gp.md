@@ -43,17 +43,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The exchange part is still custodial. OKX's
-[help page](https://www.okx.com/en-us/help/understanding-the-link-between-okx-and-web3-wallets)
-says "As a centralized service, OKX maintains custody of these assets." The same
-page says the app now has an "Exchange / Web3" switch that opens a non-custodial
-Web3 Wallet, with its own keys and separate assets. OKX also ships that wallet as
-a standalone app,
-{% include walletLink.html wallet='android/com.okx.wallet' verdict='true' %}.
-We keep the custodial verdict for this exchange app. In February 2025 the
-operator of OKX pled guilty in the US to operating an unlicensed money
-transmitting business and agreed to pay more than $504 million
-([FinTech Futures](https://www.fintechfutures.com/regulations-compliance/okx-resolves-us-doj-investigation-agrees-to-pay-around-504m-in-penalties)).
+**Update 2026-10-30:** The app now has an "Exchange / Web3" switch that opens a non-custodial Web3 Wallet with its own keys and separate assets ([help page](https://www.okx.com/en-us/help/understanding-the-link-between-okx-and-web3-wallets)). OKX also ships that wallet as a standalone app, {% include walletLink.html wallet='android/com.okx.wallet' verdict='true' %}. The exchange part is still custodial.
 
 This app gives you access to a trading platform which sounds fully custodial and
 therefore **not verifiable**.
@@ -62,17 +52,7 @@ therefore **not verifiable**.
 
 ## iPhone
 
-**Update 2026-10-30:** The exchange part is still custodial. OKX's
-[help page](https://www.okx.com/en-us/help/understanding-the-link-between-okx-and-web3-wallets)
-says "As a centralized service, OKX maintains custody of these assets." The same
-page says the app now has an "Exchange / Web3" switch that opens a non-custodial
-Web3 Wallet, with its own keys and separate assets. OKX also ships that wallet as
-a standalone app,
-{% include walletLink.html wallet='android/com.okx.wallet' verdict='true' %}.
-We keep the custodial verdict for this exchange app. In February 2025 the
-operator of OKX pled guilty in the US to operating an unlicensed money
-transmitting business and agreed to pay more than $504 million
-([FinTech Futures](https://www.fintechfutures.com/regulations-compliance/okx-resolves-us-doj-investigation-agrees-to-pay-around-504m-in-penalties)).
+**Update 2026-10-30:** The app now has an "Exchange / Web3" switch that opens a non-custodial Web3 Wallet with its own keys and separate assets ([help page](https://www.okx.com/en-us/help/understanding-the-link-between-okx-and-web3-wallets)). OKX also ships that wallet as a standalone app, {% include walletLink.html wallet='android/com.okx.wallet' verdict='true' %}. The exchange part is still custodial.
 
 On their website we find:
 

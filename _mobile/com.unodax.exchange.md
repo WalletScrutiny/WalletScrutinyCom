@@ -38,7 +38,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Unodax no longer exists as a separate exchange. [unodax.com](https://www.unodax.com) now redirects to [Unocoin](https://unocoin.com/in/), the Indian exchange that ran it, and the FAQ page quoted below no longer loads. The app is still missing from Google Play. Unocoin's own app, {% include walletLink.html wallet='android/com.unocoin.unocoinwallet' verdict='true' %}, is still listed. Unodax was {% include verdictBadge.html verdict="custodial" type='short' %} and that verdict stands.
+**Update 2026-10-30:** Unodax no longer exists as a separate exchange. [unodax.com](https://www.unodax.com) now redirects to [Unocoin](https://unocoin.com/in/), the Indian exchange that ran it, and the FAQ page quoted below no longer loads. Unocoin's own app is {% include walletLink.html wallet='android/com.unocoin.unocoinwallet' verdict='true' %}.
 
 **Update 2022-03-27**: This app is not available anymore.
 
@@ -63,6 +63,6 @@ Our verdict for this app is **custodial** and thus **not verifiable.**
 
 ## iPhone
 
-**Update 2026-10-30:** The iPhone app is still missing from the App Store. Unodax has merged into Unocoin, whose iPhone app is {% include walletLink.html wallet='iphone/com.unocoin.mainapp.production' verdict='true' %}. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** Unodax has merged into [Unocoin](https://unocoin.com/in/), whose iPhone app is {% include walletLink.html wallet='iphone/com.unocoin.mainapp.production' verdict='true' %}.
 
 {% include copyFromAndroid.html %}

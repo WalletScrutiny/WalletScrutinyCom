@@ -32,7 +32,7 @@ features:
 
 **⚠️ Warning:** There are some third-party websites that have raised red flags concerning this product/project. We would not be linking to them as they have received adverse reactions from the project creators by filing copyright claims against their hosting provider. We leave that for you to Google.
 
-**Update 2026-10-30:** The ZENIQ Hub is no longer sold. [safir.com](https://safir.com/), the shop that sold it, now says "The SAFIR webshop is no more" and points hub owners to Kmintings to manage their hubs. zeniq.com only redirects to start.zeniq.wiki, which no longer resolves. In December 2021 the Dubai Financial Services Authority warned that ZENIQ Technologies was never authorised to provide financial services, and Austrian prosecutors investigated the company for fraud and embezzlement, [according to BE Conflict Management](https://www.bekm.us/safir-zeniq-the-bankruptcy-with-the-hub-shareholders-fooled-stock-exchange-supervisory-authority-warns-and-the-path-to-xero/), a firm that helps buyers recover their money. One of those cases [was dropped in March 2025](https://www.bekm.us/zeniq-safir-in-the-sights-of-the-judiciary-first-proceedings-dropped-but-the-reckoning-is-only-just-beginning/). We still found no source code for the hub, so it stays {% include verdictBadge.html verdict="nosource" type='short' %}. We mark it discontinued.
+**Update 2026-10-30:** The ZENIQ Hub is no longer sold. [safir.com](https://safir.com/), the shop that sold it, now says "The SAFIR webshop is no more", and zeniq.com only redirects to start.zeniq.wiki, which no longer resolves. We mark it discontinued.
 
 ## Product Information 
 

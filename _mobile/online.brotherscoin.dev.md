@@ -15,6 +15,4 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play. We found no provider website: neither brotherscoin.online nor brotherscoin.dev, the domains its app ID suggests, resolves today, and we have no archived copy of its store page that would show what the app did. It stays a stub.
-
 **Update 2021-08-31**: This app is no more available.

@@ -22,7 +22,7 @@ android:
 
 ---
 
-**Update 2026-10-30:** This app is back on Google Play. It is OK-Ex, an Iranian exchange now at [ok-ex.io](https://ok-ex.io/), and it holds your coins: its website says that with the OK-Ex trading app "users no longer need an external wallet and can easily store their assets" (our translation of "کاربران دیگر نیازی به کیف پول خارجی نخواهند داشت و به راحتی دارایی های خود را ذخیره خواهند کرد"). The ok-ex.co address the store listing still links is an empty WordPress page. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** This app is back on Google Play. It is now OK-Ex, an Iranian exchange at [ok-ex.io](https://ok-ex.io/), and it holds your coins: its website says that with the OK-Ex trading app "users no longer need an external wallet and can easily store their assets" (our translation of "کاربران دیگر نیازی به کیف پول خارجی نخواهند داشت و به راحتی دارایی های خود را ذخیره خواهند کرد").
 
 **Update:** This app appears to have disappeared from Google Play or maybe only
 from English Google Play, as it apparently was in Arab, only? If we should

@@ -18,8 +18,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play, and the Wayback Machine has no archived copy of its store page. The {% include verdictBadge.html verdict="fake" type='short' %} verdict stays.
-
 **Update 2021-10-28**: This app is no more.
 
 This app pretends to be by name and logo

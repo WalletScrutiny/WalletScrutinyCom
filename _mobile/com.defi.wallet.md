@@ -51,7 +51,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The app formerly known as Crypto.com Onchain is now called "Ult" and comes from Cronos Labs ([ult.trade](https://ult.trade/)). The old wallet lives on inside it, next to a new trading mode for crypto, tokenized stocks, perpetual futures and sports predictions. The app description says that Cronos and Crypto.com are separate legal entities and that no Crypto.com account is needed. The [Ult terms](https://ult.trade/terms-and-conditions/) (sections 4.2 and 12.3) still describe a non-custodial service: "Cronos does not store your private keys or codes". We still found no source code for the app. The [crypto-com GitHub organization](https://github.com/orgs/crypto-com/repositories) has libraries such as [defi-wallet-core-rs](https://github.com/crypto-com/defi-wallet-core-rs), but no app. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** The app formerly known as Crypto.com Onchain is now called "Ult" and comes from Cronos Labs ([ult.trade](https://ult.trade/)). The old wallet lives on inside it, next to a new trading mode for crypto, tokenized stocks, perpetual futures and sports predictions.
 
 ## Update 2024-07-16
 
@@ -82,7 +82,7 @@ their website:
 
 ## iPhone
 
-**Update 2026-10-30:** As on Android, the iPhone app is now "Ult" by Cronos Labs. The [terms](https://ult.trade/terms-and-conditions/) still describe self-custody, and we found no source code, so it stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** As on Android, the iPhone app is now "Ult" by Cronos Labs ([ult.trade](https://ult.trade/)).
 
 {% include copyFromAndroid.html %}
 

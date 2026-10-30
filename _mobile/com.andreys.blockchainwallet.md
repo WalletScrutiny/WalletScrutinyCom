@@ -16,8 +16,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play. The listing names no website or developer we could follow up on, so there is no provider to check and the verdict stays `wip`. The warning below still applies to any app that asks for your blockchain.com credentials.
-
 **Update:** This app is not on Google Play anymore
 
 This app is ... a game ... turned into a tool to collect your blockchain.com

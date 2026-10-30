@@ -40,8 +40,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Coinhub is still an active Mongolian exchange, and the app is still on Google Play. Its [terms of service](https://www.coinhub.mn/about-terms), last revised on 9 April 2026, define the user's "wallet" as an account that Coinhub creates and keeps for the user on its platform, and still route every outgoing transfer through the exchange. We found no self-custody option, so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
-
 ## Notes on similar apps 
 
 Many apps share the same name of CoinHub, found in different parts of the world. Apart from the name, they have different branding identities and countries of origin. Here we note some of them: 
@@ -110,7 +108,5 @@ This is most notably expressed in 3.2.6:
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The app is not in the US App Store, but it is still available in the Mongolian one, updated in October 2026, so we now point the store check at Mongolia. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include copyFromAndroid.html %}

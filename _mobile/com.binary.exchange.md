@@ -16,6 +16,4 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play, and binary-exchange.com no longer resolves. We found no archived copy of its store page, so it stays {% include verdictBadge.html verdict="wip" type='short' %}.
-
 **Update 2022-02-09**: This app is no more.

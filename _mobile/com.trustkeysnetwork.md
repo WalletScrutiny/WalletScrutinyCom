@@ -39,8 +39,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Still {% include verdictBadge.html verdict="nosource" type='short' %}. The app is still on Google Play, but its last update is from October 2024. [trustkeys.network](https://trustkeys.network) still promotes the same "SuperApp" with messaging, a multi-chain wallet and a decentralized exchange. The [trustkeys GitHub account](https://github.com/trustkeys) still has only a few old server and smart-contract repositories, and a GitHub code search for the app ID finds no app source.
-
 ## Update 2024-07-16
 
 No changes were seen regarding this app's source-availability. A search for the app ID ["com.truskeysnetwork" on GitHub](https://github.com/search?q=org%3Atrustkeys%20%22com.trustkeysnetwork%22&type=code) did not yield an Android-related repository.
@@ -78,8 +76,6 @@ Claims of decentralization and the provision of private keys lend us to believe 
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The app is still gone from the App Store. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 **Update 2021-10-30**: This app is no more.
 

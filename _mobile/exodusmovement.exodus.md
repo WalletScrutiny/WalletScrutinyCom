@@ -42,8 +42,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Still no source code for the app. Exodus's support article [Is Exodus open source?](https://www.exodus.com/support/en/articles/8598678-is-exodus-open-source) now says "there are components of Exodus that are not open-source" and explains this as protection against copycat phishing apps. The [Exodus GitHub](https://github.com/ExodusMovement) has libraries but no repository for the mobile wallet, and a code search for the appId there finds nothing. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
-
 ## Update 2024-07-13
 
 There have been no changes noted regarding the availability of this app's source code.
@@ -75,8 +73,6 @@ Our verdict: This app is **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** As on Android, the [support article](https://www.exodus.com/support/en/articles/8598678-is-exodus-open-source) still says parts of Exodus are not open source, and we found no repository for the app. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 Just like {% include walletLink.html wallet='android/exodusmovement.exodus' %} on Android, this app is
 closed source and thus **not verifiable**.

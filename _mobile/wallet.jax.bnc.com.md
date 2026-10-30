@@ -19,7 +19,5 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play. It stays a {% include verdictBadge.html verdict="fake" type='short' %} of Jaxx Liberty.
-
 This app "{{ page.title }}" clearly tries to imitate
 {% include walletLink.html wallet='android/com.liberty.jaxx' verdict='true' %}.

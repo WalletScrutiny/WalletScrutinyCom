@@ -22,7 +22,7 @@ android:
 
 **⚠️ Warning:** The provider appears to be out of business. Its domain no longer exists.
 
-**Update 2026-10-30:** The app is still gone from Google Play. The domain mysecurewallet.info, which the code uses as its server, no longer resolves. The [GitHub repository](https://github.com/omidkhsdev/wallet) is still up but has had no change since its two commits of November 2019. The verdict {% include verdictBadge.html verdict="custodial" type='short' %} stays.
+**Update 2026-10-30:** The provider is gone. The domain mysecurewallet.info, which the code uses as its server, no longer resolves.
 
 **Update 2022-01-15**: This app is not on the Store anymore.
 

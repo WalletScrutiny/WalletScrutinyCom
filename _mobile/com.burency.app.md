@@ -39,8 +39,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The app is still gone from Google Play and the App Store. Burency itself looks inactive: www.burency.com now only shows "Sorry, the Website is being upgraded!" behind a certificate for other domains, the [Burency Medium blog](https://burency.medium.com/) last posted in February 2024, and KuCoin [suspended withdrawals of the BUY token](https://www.kucoin.com/announcement/en-withdrawal-services-of-burency-buy-temporarily-closed-20230809) in August 2023 "for the safety of your account and assets". The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
-
 **Update 2021-11-22**: This app is not available anymore.
 
 ## App Description
@@ -66,8 +64,6 @@ Any app that has the power to suspend, freeze or lock accounts is **custodial** 
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The app is still gone from the App Store. See the Android section for the state of Burency. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 **Update 2021-11-26**: This app is not available anymore.
 

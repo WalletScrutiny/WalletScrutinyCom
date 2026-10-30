@@ -19,8 +19,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** This fake app is still not on Google Play. The verdict stands.
-
 **Update 2021-08-04**: This app disappeared from the Play Store 2 days after our
 "fake" verdict.
 

@@ -16,8 +16,4 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play. The listing names
-no website or developer, we found no Internet Archive copy of its Play page, and a
-web search for the app ID found nothing. We keep this listing as a stub.
-
 **Update 2021-08-26**: This app is no more.

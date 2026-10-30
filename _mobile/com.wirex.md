@@ -41,7 +41,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Wirex has replaced this app. Since [2026-09-30 the legacy Wirex app no longer supports transactions or other account services](https://help.wirexapp.com/article/wirex-one-upgrade-faq-1685); users are asked to move to the new Wirex One app, which Wirex describes as self-custodial, and to claim their balances there. Funds left in this app stay with Wirex until claimed, so this app stays {% include verdictBadge.html verdict="custodial" type='short' %}. Wirex One is not yet listed here.
+**Update 2026-10-30:** Wirex has replaced this app. Since [2026-09-30 the legacy Wirex app no longer supports transactions or other account services](https://help.wirexapp.com/article/wirex-one-upgrade-faq-1685); users are asked to move to the new Wirex One app, which Wirex describes as self-custodial, and to claim their balances there. Wirex One is not yet listed here.
 
 From their app description:
 
@@ -57,6 +57,6 @@ This makes the app custodial and also not verifiable.
 
 ## iPhone
 
-**Update 2026-10-30:** We could not find this app in the US, UK, German, French or Ukrainian App Stores; Wirex One is in the UK App Store, published by Wirex Limited. The [Wirex One FAQ](https://help.wirexapp.com/article/wirex-one-upgrade-faq-1685) applies to both platforms.
+**Update 2026-10-30:** The [Wirex One FAQ](https://help.wirexapp.com/article/wirex-one-upgrade-faq-1685) applies here too; Wirex One is in the UK App Store, published by Wirex Limited.
 
 {% include copyFromAndroid.html %}

@@ -19,10 +19,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play, and it never had
-a website we could check. The verdict
-{% include verdictBadge.html verdict="custodial" type='short' %} stays.
-
 **Update 2021-07-09**: This app is no more. Given the shady findings below we
 assume it was removed by Google and not coming back.
 

@@ -41,8 +41,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Nothing changed. Brasil Bitcoin is still an exchange where users trade from an account, and its [terms](https://brasilbitcoin.com.br/terms) still reserve the right to refuse, suspend or cancel any registration, for example when the user's identity cannot be verified. We found no self-custody mode and no source code. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
-
 This custodial service offers users the ability to buy, store, send and receive cryptocurrencies using an account. 
 
 It is possible to purchase cryptocurrencies on the site using a debit card. 
@@ -58,7 +56,5 @@ Verdict is **custodial** and **not verifiable**
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is still in the Brazilian App Store as "Brasil Bitcoin: Compre Cripto" and is the same exchange. The verdict still holds; see the Android section.
 
 {% include copyFromAndroid.html %}

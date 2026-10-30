@@ -37,13 +37,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Indodax still runs its exchange at
-[indodax.com](https://indodax.com), and the verdict stays
-{% include verdictBadge.html verdict="custodial" type='short' %}. In September
-2024 attackers took more than $22 million from the exchange's
-[hot wallets](https://www.coindesk.com/markets/2024/09/11/indonesian-crypto-exchange-indodax-hacked-for-22m-pauses-activity-before-bigger-hit),
-which shows that the coins sit in wallets the provider controls.
-
 This is the interface to
 
 > Indodax is Indonesia’s largest crypto asset marketplace
@@ -61,14 +54,6 @@ custodial offering and thus **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The app is still available in the Indonesian App Store,
-so we now point our store check there. Indodax still runs its exchange at
-[indodax.com](https://indodax.com), and the verdict stays
-{% include verdictBadge.html verdict="custodial" type='short' %}. In September
-2024 attackers took more than $22 million from the exchange's
-[hot wallets](https://www.coindesk.com/markets/2024/09/11/indonesian-crypto-exchange-indodax-hacked-for-22m-pauses-activity-before-bigger-hit),
-which shows that the coins sit in wallets the provider controls.
 
 This is the interface to
 

@@ -19,8 +19,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still not on the Play Store. The verdict stays {% include verdictBadge.html verdict="fake" type='short' %}.
-
 **Update 2021-07-30**: This app is not on Play Store anymore.
 
 This app "{{ page.title }}" clearly tries to imitate

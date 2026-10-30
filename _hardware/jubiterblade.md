@@ -39,7 +39,7 @@ features:
 
 **⚠️ Warning:** The JuBiter brand is gone. Its website now hosts unrelated spam.
 
-**Update 2026-10-30:** The JuBiter product line has been abandoned. The [last archived copy of jubiterwallet.com with JuBiter content is from March 2023](https://web.archive.org/web/20230314231929/https://jubiterwallet.com/); by [February 2025](https://web.archive.org/web/20250216130118/http://jubiterwallet.com/) the domain only redirected to a parking page, and on 2026-10-30 it served an unrelated Chinese gambling spam site. The Android app is still off Google Play, and the iPhone app was last updated in April 2022. Feitian itself is [still in business](https://portal.ftsafe.com/), but we found no sign that it still sells or supports the Blade, so we mark it discontinued. The [JubiterWallet GitHub account](https://github.com/JubiterWallet) has no firmware for the device, so the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** The JuBiter product line has been abandoned, so we mark it discontinued. The [last archived copy of jubiterwallet.com with JuBiter content is from March 2023](https://web.archive.org/web/20230314231929/https://jubiterwallet.com/); on 2026-10-30 the domain served an unrelated Chinese gambling spam site. Feitian itself is [still in business](https://portal.ftsafe.com/), but we found no sign that it still sells or supports the Blade.
 
 {{ page.title }} is a credit card sized device with buttons and screen that
 connects via bluetooth to the companion app.

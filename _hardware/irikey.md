@@ -32,7 +32,7 @@ features:
 
 ---
 
-**Update 2026-10-30:** IriTech is still in business, but IriKey seems to be abandoned. The [IriKey announcement from 2019](https://iritech.com/irikey-iris-recognition-secure-id-management-for-blockchain-applications/) moved to a new address (the links on this page now point there). IriKey is not among the [hardware products](https://iritech.com/products/hardware/) any more, and we still found no shop and no source code. In October 2026 IriTech [promoted the same "iris lock" idea](https://iritech.com/the-tokenized-world-needs-a-new-way-to-prove-who-s-signing/) for institutional signing with its IriPaladin 26T Pro, which is an iris scanner, not a wallet. As the provider is alive, we change the meta from defunct to discontinued. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** IriTech is still in business, but IriKey seems to be abandoned, so we change the meta from defunct to discontinued. IriKey is not among the [hardware products](https://iritech.com/products/hardware/) any more, and the [IriKey announcement from 2019](https://iritech.com/irikey-iris-recognition-secure-id-management-for-blockchain-applications/) moved to a new address (the links on this page now point there).
 
 While Iritech's social media still looks to be active, there is little recent information online concerning their bitcoin hardware product. They are primarily a biometrics company. Listed relevant videos and articles all come from 2018-2019. Additionally, we found it odd there does not seem to be any clear link to any store for this hardware wallet.
 

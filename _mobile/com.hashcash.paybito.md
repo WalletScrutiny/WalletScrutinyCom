@@ -38,7 +38,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The Android app is still gone from Google Play. The provider still runs [paybito.com](https://www.paybito.com/), now under the name PayBitoPro and pitched mainly as a crypto payment gateway for businesses. Section 4.1 of the [terms of use](https://www.paybito.com/terms-of-use/) still says that by sending crypto to your PayBitoPro account "you entrust and entitle Us to ultimately take decisions on the safety and security of your crypto assets". The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** The provider now runs [paybito.com](https://www.paybito.com/) under the name PayBitoPro, pitched mainly as a crypto payment gateway for businesses.
 
 **Update 2022-02-03**: This app is no more.
 
@@ -75,6 +75,6 @@ This app is **custodial** and thus **not verifiable.**
 
 ## iPhone
 
-**Update 2026-10-30:** The iPhone app is still available, now as "PayBitoPro". It still describes an exchange account with a built-in wallet, and the same [terms of use](https://www.paybito.com/terms-of-use/) apply, so it stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** The iPhone app is now called "PayBitoPro".
 
 {% include copyFromAndroid.html %}

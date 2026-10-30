@@ -40,14 +40,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Coinmotion is still a custodial exchange.
-[prasos.fi](https://prasos.fi/) now redirects to coinmotion.com, and the
-[homepage](https://coinmotion.com/) names the operator as Coinmotion Oy, regulated by
-the Finnish Financial Supervisory Authority. Coinmotion
-[says](https://helpcenter.coinmotion.com/changes-to-usdc/usdt-services-on-coinmotion) it
-"has received the EU MiCA regulation-compliant operating license". We found no
-self-custody option, so the verdict {% include verdictBadge.html verdict="custodial" type='short' %} still holds.
-
 ## App Description
 
 Coinmotion is a trading platform and has both mobile and web versions. It is run by a Finnish company, ["Prasos Ltd."](https://prasos.fi/)
@@ -82,8 +74,5 @@ This is a custodial exchange and therefore, it is **not verifiable.**
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is gone from the Canadian App Store but still listed in the
-Finnish one, so this listing now looks there. See the Android section.
 
 {% include copyFromAndroid.html %}

@@ -42,14 +42,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Roqqu is still active and has moved to
-[roqqu.io](https://roqqu.io/). The main account still keeps
-"over 98% of cryptocurrency" offline on Roqqu's side, so the verdict stays
-{% include verdictBadge.html verdict="custodial" type='short' %}. New since our
-review is a separate [Web3 wallet](https://roqqu.io/wallet/web3) inside the app,
-for which Roqqu claims "Your private keys belong solely to you". On iPhone,
-Roqqu's 2026-07-31 release notes say this Web3 wallet now supports Bitcoin. We
-have not tested that part yet, and we found no public source code for the app.
+**Update 2026-10-30:** Roqqu has moved to [roqqu.io](https://roqqu.io/). New since our review is a separate [Web3 wallet](https://roqqu.io/wallet/web3) inside the app, for which Roqqu claims "Your private keys belong solely to you". We have not tested that part yet.
 
 The provider claims:
 
@@ -70,13 +63,7 @@ Our verdict: This "wallet" is custodial and therefore **not verifiable**.
 
 ## iPhone
 
-**Update 2026-10-30:** The app is back on the App Store and still keeps
-"over 98% of cryptocurrency" offline on Roqqu's side, so the verdict stays
-{% include verdictBadge.html verdict="custodial" type='short' %}. Roqqu's
-2026-07-31 release notes add Bitcoin to a separate Web3 wallet in the app, and
-Roqqu's [Web3 page](https://roqqu.io/wallet/web3) claims "Your private keys
-belong solely to you". We have not tested that part yet, and we found no public
-source code for the app.
+**Update 2026-10-30:** Roqqu's 2026-07-31 release notes add Bitcoin to a separate Web3 wallet in the app, and Roqqu's [Web3 page](https://roqqu.io/wallet/web3) claims "Your private keys belong solely to you". We have not tested that part yet.
 
 **Update 2022-01-05**
 

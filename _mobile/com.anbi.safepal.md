@@ -19,16 +19,7 @@ iphone:
 
 ---
 
-**Update 2026-10-30:** This app is still gone from the App Store, but SafePal
-is alive: [safepal.io](https://www.safepal.io/) now forwards to
-[safepal.com](https://www.safepal.com/en/), which offers the "SafePal App iOS &
-Android". Its current iPhone app, by SAFEPAL LTD., is one we already list,
-{% include walletLink.html wallet='iphone/walletapp.safepal.io' verdict='true' %},
-released on 2021-01-11, less than two weeks after this app's last update. As
-SafePal has not published the full source of its app (their
-[safepal-app](https://github.com/SafePalWallet/safepal-app) repository is a
-"Core Version" last pushed in January 2024), we give this predecessor the same
-verdict: {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** SafePal's current iPhone app, by SAFEPAL LTD., is {% include walletLink.html wallet='iphone/walletapp.safepal.io' verdict='true' %}, released on 2021-01-11, less than two weeks after this app's last update. As SafePal has not published the full source of its app (their [safepal-app](https://github.com/SafePalWallet/safepal-app) repository is a "Core Version"), we give this predecessor the same verdict: {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 This app appears to have disappeared from the App Store but
 

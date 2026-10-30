@@ -41,8 +41,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Upbit (Global) is still an exchange. The app's store description promises "Institutional-grade custody for all users" and no longer mentions BitGo. Outside Korea, Upbit now runs regional exchanges such as [Upbit Singapore](https://sg.upbit.com/). Dunamu agreed to merge into Naver Financial, but the share swap has been [postponed to March 2027](https://en.sedaily.com/news/2026/10/07/naver-financial-dunamu-share-swap-delayed-again-to-march). The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
-
 {% include review/bitgo.md %}
 
 ## App Description
@@ -79,6 +77,6 @@ This is a **custodial** app, and therefore **not verifiable.**
 
 ## iPhone
 
-**Update 2026-10-30:** The iPhone app ("Upbit Global") is not in the US App Store but is available in the Singapore App Store, so we set its store country to Singapore. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** The iPhone app ("Upbit Global") is not in the US App Store but is available in the Singapore App Store, so we set its store country to Singapore.
 
 {% include copyFromAndroid.html %}

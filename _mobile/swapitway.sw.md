@@ -16,10 +16,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** This app is still gone from Google Play, but Swapitway is
-still active. The [Swapitway website](https://swapitway.com) now links to
-{% include walletLink.html wallet='android/swapitway.trade' verdict='true' %},
-which appeared on Google Play in November 2021. We found no copy of this app's
-Play page to confirm it was the same product, so we keep this listing as a stub.
+**Update 2026-10-30:** The [Swapitway website](https://swapitway.com) now links to {% include walletLink.html wallet='android/swapitway.trade' verdict='true' %}, which appeared on Google Play in November 2021. We found no copy of this app's Play page to confirm it was the same product.
 
 **Update 2021-08-28**: This app is no more.

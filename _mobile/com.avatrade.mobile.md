@@ -25,12 +25,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** AvaTrade still offers Bitcoin only as CFDs. Its
-[Bitcoin page](https://www.avatrade.com/forex/cryptocurrencies/bitcoin) says
-these "let you trade Bitcoin price movements without owning actual BTC" and
-"No wallets or private keys needed". The verdict
-{% include verdictBadge.html verdict="nosendreceive" type='short' %} still holds.
-
 >AvaTradeGO enables users to trade, monitor their accounts, engage in social trading and follow top traders from all over the globe.
 
 It's a trading platform and most likely custodial.

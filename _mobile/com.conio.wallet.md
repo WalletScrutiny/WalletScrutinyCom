@@ -29,16 +29,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The verdict
-{% include verdictBadge.html verdict="custodial" type='short' %} still holds.
-Conio's [website](https://www.conio.com/) explains that each wallet has three
-keys: the customer's, Conio's and a recovery key "stored offline at an
-independent third party". Any two can sign, and "if you lose your key, we will
-use ours and the third recovery key to return access", so the user's key is not
-needed to move the funds. The same page says Conio S.r.l. now holds a MiCAR
-licence for "custody and administration of crypto-assets on behalf of clients".
-We found no source code.
-
 This app has wonderful security claims on Google Play:
 
 > *5. STAY CAREFREE* With Conio you can recover your Bitcoins even if you forget

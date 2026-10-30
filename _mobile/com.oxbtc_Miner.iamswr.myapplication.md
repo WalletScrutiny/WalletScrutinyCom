@@ -18,8 +18,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play, and we found no archived copy of its store page. OXBTC itself was still running in September 2024, when an [archived copy of oxbtc.com](https://web.archive.org/web/20240917091749/https://oxbtc.com/) presented it as a "Platform for Cryptocurrency Earn, Learn, and Crypto Mining"; today the site sits behind a Cloudflare challenge. Nothing we saw changes the custody model, so the verdict {% include verdictBadge.html verdict="custodial" type='short' %} stays.
-
 **Update 2022-01-02**: This app is no more available.
 
 ⚠️ **Caution:** TrendMicro has an [article](https://www.trendmicro.com/en_us/research/21/h/fake-cryptocurrency-mining-apps-trick-victims-into-watching-ads-.html) about fake cloud mining apps on Google Play. Proceed with caution.

@@ -46,18 +46,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Still no public source for the app. Trust Wallet's
-[GitHub organization](https://github.com/trustwallet) keeps
-[wallet-core](https://github.com/trustwallet/wallet-core) and other libraries
-active, but its old
-[Android repository](https://github.com/trustwallet/trust-wallet-android-source)
-is archived as "Inactive Repository" with its last push in January 2019. In
-December 2025, malicious code in version 2.68 of Trust Wallet's Chrome
-extension drained about $7 million; the team said mobile-only users were not
-affected and Binance co-founder Changpeng Zhao said losses would be reimbursed
-([CoinDesk](https://www.coindesk.com/business/2025/12/26/trust-wallet-users-lose-more-than-usd7-million-to-hacked-chrome-extension)).
-The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
-
 ## Update 2024-07-13
 
 Despite the passage of time, the devs have maintained the android app as not source-available. Only the wallet-core library is available publicly.
@@ -106,11 +94,6 @@ Without public code the verdict is anyway: **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The
-[iOS repository](https://github.com/trustwallet/trust-wallet-ios) is archived
-too, last pushed in May 2019, and we found no newer app source. The verdict
-stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 On the App Store they claim:
 

@@ -42,12 +42,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Metal Pay is still custodial, but the custodian changed. Its
-[terms](https://www.metalpay.com/terms), last updated 2026-10-01, say all digital assets
-are held "under the custody of the Digital Asset Custodian", named as Fireblocks. Synapse
-and Evolve Bank, quoted below, are no longer mentioned. The terms also give access to the
-WebAuth Wallet, Metallicus' separate app {% include walletLink.html wallet='android/com.metallicus.webauth' verdict='true' %}. Coins
-kept in Metal Pay stay with the custodian, so the verdict {% include verdictBadge.html verdict="custodial" type='short' %} still holds.
+**Update 2026-10-30:** The custodian changed. Metal Pay's [terms](https://www.metalpay.com/terms), last updated 2026-10-01, say all digital assets are held "under the custody of the Digital Asset Custodian", named as Fireblocks; Synapse and Evolve Bank, quoted below, are no longer mentioned.
 
 ## App Description
 
@@ -68,7 +63,5 @@ As the terms and conditions state above, this service uses other services to pro
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is still in the US App Store. See the Android section.
 
 {% include copyFromAndroid.html %}

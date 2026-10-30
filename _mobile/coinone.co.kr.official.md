@@ -43,15 +43,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Coinone is still a Korean exchange and still
-{% include verdictBadge.html verdict="custodial" type='short' %}. In April 2026
-South Korea's Financial Intelligence Unit
-[fined it 5.2 billion won and suspended part of its business for three months](https://www.amlintelligence.com/2026/04/news-south-korea-fines-crypto-exchange-coinone-3-5m-over-aml-violations/)
-over failures to verify customer accounts. In May 2026 OKX Ventures and Korea
-Investment & Securities each
-[bought a 19.6% stake](https://www.coindesk.com/markets/2026/05/29/okx-ventures-buys-usd53-million-stake-in-korea-s-coinone-exchange).
-Neither changes who holds the coins.
-
 > Hello. This is Team Coinone. Currently, foreigners cannot use the Coinone app, so we recommend using a web browser to use the Coinone service. We apologize for any inconvenience.
 
 It's a Korean app and is not available in English. As the support stated, *foreigners will not be able to use it.*
@@ -63,9 +54,6 @@ As it's an exchange and there's nothing to suggest otherwise, it is safe to conc
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is still listed in the Korean App Store
-and is the same exchange. The verdict still holds; see the Android section.
 
 {% include copyFromAndroid.html %}
 

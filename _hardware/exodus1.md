@@ -35,7 +35,7 @@ features:
 
 ---
 
-**Update 2026-10-30:** The Exodus site is gone. [htcexodus.com](https://www.htcexodus.com/us/cryptophone/exodus1/) now redirects to HTC's main website; the Wayback Machine shows the [Exodus 1 page](https://web.archive.org/web/20250416172612/https://www.htcexodus.com/us/cryptophone/exodus1/) still online in April 2025. GSMArena lists the phone as [discontinued](https://www.gsmarena.com/htc_exodus_1-9385.php). The repositories of the [htczion GitHub account](https://github.com/htczion) were last pushed in 2019, and we still found no source code for the wallet, so the {% include verdictBadge.html verdict="nosource" type='short' %} verdict and the defunct mark stay. The Ledger Donjon report linked below now leads to a missing page, so the link points to an archived copy.
+**Update 2026-10-30:** [htcexodus.com](https://www.htcexodus.com/us/cryptophone/exodus1/) now redirects to HTC's main website. The Ledger Donjon report linked below now leads to a missing page, so the link points to an archived copy.
 
 The HTC Exodus 1 Cryptophone is not comparable to other hardware wallets such as Trezor or Ledger Nano because it is in essence, still a smartphone.
 

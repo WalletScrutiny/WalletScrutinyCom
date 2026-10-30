@@ -41,7 +41,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** CoinBene is defunct. In November 2021 it announced that it would stop its services, close its website and apps on 2021-11-15 and close the platform completely by the end of that month ([TheNewsCrypto](https://thenewscrypto.com/crypto-exchange-coinbene-shuts-down/), [Bitcointalk](https://bitcointalk.org/index.php?topic=5370391.0)). Today coinbene.com does not load. The Wayback Machine has no successful capture of it after [2021-10-19](https://web.archive.org/web/20211019162109/https://www.coinbene.com/). The "CB Global" successor app named below is also gone from Google Play. We set the listing to defunct. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** CoinBene shut down. It closed its website and apps on 2021-11-15 and the platform by the end of that month ([TheNewsCrypto](https://thenewscrypto.com/crypto-exchange-coinbene-shuts-down/), [Bitcointalk](https://bitcointalk.org/index.php?topic=5370391.0)). The "CB Global" successor app named below is also gone from Google Play.
 
 **Update 2022-01-03**: Although there is a replacement app on Google Play, the app still points to the same developer website (coinbene.com), which is still [404 as of today](https://twitter.com/BitcoinWalletz/status/1477969064806916103). The telegram channel indicated in the iOS app page, now points to 'null'
 
@@ -69,6 +69,6 @@ Verdict is therefore **custodial** and **not verifiable**
 
 ## iPhone
 
-**Update 2026-10-30:** The iPhone app is also gone from the App Store (checked for the US and Brazil). The provider is defunct, as described above.
+**Update 2026-10-30:** The provider is gone. See the Android section.
 
 {% include copyFromAndroid.html %}

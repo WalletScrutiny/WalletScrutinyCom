@@ -19,8 +19,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play. In June 2026 [swissy.io](https://web.archive.org/web/20260612074146/https://swissy.io/) described an investment fund with a 10,000 USD minimum deposit, not a wallet app. Today the site does not answer. We have no evidence about how the app handled keys, so it stays {% include verdictBadge.html verdict="wip" type='short' %}.
-
 ## App Description
 
 From Google Play:

@@ -38,7 +38,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Still {% include verdictBadge.html verdict="custodial" type='short' %}. AnchorUSD now calls itself Anchor, and the old anchorusd.com help center and terms links below only redirect to the [tryanchor.com](https://tryanchor.com/) homepage. That site still sells crypto trading with a USD account, and its [help center](https://support.tryanchor.com/hc/en-us) explains how to get "funds out of your Anchor account". We found no self-custody feature. Recent App Store reviews, from mid-2025 to May 2026, complain that users cannot withdraw their funds.
+**Update 2026-10-30:** The old anchorusd.com help center and terms links below now only redirect to the [tryanchor.com](https://tryanchor.com/) homepage.
 
 AnchorUSD claims to be a stock and crypto investment app. 
 

@@ -18,8 +18,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play, and so is the developer page of "Crypto Journal". We found no archived copy of the store page. The app copied the Crypto.com brand under an unrelated publisher, so the verdict stays {% include verdictBadge.html verdict="fake" type='short' %}.
-
 **Update 2021-09-22**: This app is not on the Play Store anymore.
 
 **Warning:** It is advisable to proceed with caution when downloading this app. 

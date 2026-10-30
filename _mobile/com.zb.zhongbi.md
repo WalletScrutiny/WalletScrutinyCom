@@ -19,7 +19,7 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play, and the Wayback Machine has no archived copy of its store page. The only archived copy of plantcoin.com, [from May 2021](https://web.archive.org/web/20210526151611/http://plantcoin.com/), is a Chinese web host's "site not found" page. Today [plantcoin.com](https://plantcoin.com) hosts an unrelated "chain intelligence" network, not a bitcoin lending app. With nothing left to examine, the verdict stays {% include verdictBadge.html verdict="wip" type='short' %}.
+**Update 2026-10-30:** [plantcoin.com](https://plantcoin.com) now hosts an unrelated "chain intelligence" network, not a bitcoin lending app.
 
 ## App Description
 

@@ -41,7 +41,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Still a CFD broker. AMarkets lists BTCUSD among its [trading instruments](https://www.amarkets.com/trading-instruments/), and its [deposit and withdrawal page](https://www.amarkets.com/deposit-withdrawal/) says "AMarkets does not provide cryptocurrency exchange services using the company's internal systems" and that withdrawals go back to the card or account used to deposit. The iPhone app was marked defunct, but it is listed on the US App Store with an October 2026 update and the provider is active, so that mark is removed. The verdict stays {% include verdictBadge.html verdict="nosendreceive" type='short' %} on both platforms.
+**Update 2026-10-30:** The iPhone app was marked defunct, but it is listed on the US App Store with an October 2026 update, so that mark is removed.
 
 ## App Description
 

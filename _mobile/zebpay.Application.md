@@ -27,11 +27,7 @@ android:
 
 ---
 
-**Update 2026-10-30:** The verdict still holds. [ZebPay](https://zebpay.com) still
-runs the exchange, and the current store description says "~98% of assets remain
-secured in cold storage", so ZebPay holds the keys. We removed the "FOSS"
-feature tag: it came without any evidence, and we found no public source code
-for this app on GitHub. It remains {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** We removed the "FOSS" feature tag: it came without any evidence, and we found no public source code for this app on GitHub.
 
 In the description at Google Play we read:
 

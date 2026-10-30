@@ -41,7 +41,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** We now mark this app defunct. It is still gone from Google Play. The Wayback Machine last saved the [Flare Wallet website](https://web.archive.org/web/20220315025051/https://flarewallet.io/) in March 2022. By [September 2024](https://web.archive.org/web/20240906090821/https://flarewallet.io/) the domain served a gambling site, and today it does not answer at all. The newest post we could see on the [Flare Wallet X account](https://x.com/flarewallet) is from October 2020. We found no source code, so the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** The provider is gone. The Wayback Machine last saved the [Flare Wallet website](https://web.archive.org/web/20220315025051/https://flarewallet.io/) in March 2022; by [September 2024](https://web.archive.org/web/20240906090821/https://flarewallet.io/) the domain served a gambling site, and today it does not answer at all.
 
 This app claims to be non-custodial:
 
@@ -56,7 +56,7 @@ description so the app is **not verifiable**.
 
 ## iPhone
 
-**Update 2026-10-30:** The app is still gone from the App Store, and the provider appears to be gone. See the Android section.
+**Update 2026-10-30:** The provider is gone; see the Android section.
 
 **Update 2022-03-23**: This app is not available anymore.
 

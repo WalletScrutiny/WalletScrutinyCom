@@ -36,8 +36,6 @@ features:
 
 ---
 
-**Update 2026-10-30:** BC Vault is still sold and the device is still closed source. On 2026-10-30 bc-vault.com did not answer from our network, but an [archived copy of the shop from 2026-09-28](https://web.archive.org/web/20260928073236/https://bc-vault.com/shop/) lists the BC Vault ONE Basic Model at 131.14 €, and the [support site](https://support.bc-vault.com/support/home) is online. The [BC Vault GitHub account](https://github.com/bc-vault) still has only the two integration libraries, with no firmware. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
-
 ## Private keys can be created offline 
 
 Yes. BC Vault uses "**nondeterministric wallets**". This is a [short snippet](https://bc-vault.com/2020/04/a-deep-dive-into-the-bc-vault-security-model/) of BC Vault's security overview. It does not use seed phrases.

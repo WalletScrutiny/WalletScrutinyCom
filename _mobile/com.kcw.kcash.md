@@ -25,8 +25,6 @@ iphone:
 
 **⚠️ Warning:** Kcash appears to be gone. The app is off the App Store and kcash.com no longer resolves.
 
-**Update 2026-10-30:** We now mark this app defunct. It is still gone from the App Store, and kcash.com no longer resolves. The Wayback Machine last saved the [Kcash website](https://web.archive.org/web/20220826010753/https://kcash.com/) in August 2022, and [CoinMarketCap](https://coinmarketcap.com/currencies/kcash/) now lists the project's KCASH token as untracked. We still found no source code, so the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
-
 **Update 2022-03-28**: This app is not available anymore.
 
 **Note:** The Android version can only be downloaded via an apk file hosted on the homepage itself. It was not available in Google Play.

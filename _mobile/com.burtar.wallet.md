@@ -21,8 +21,6 @@ android:
 
 **⚠️ Warning:** Burtar appears to be gone. Its website is now a domain parking page.
 
-**Update 2026-10-30:** We now mark this app defunct. It is still gone from Google Play, and burtar.com now only loads a domain parking page. We found no archived copy of the store page. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
-
 **Update 2022-02-18**: This app is not on the Store anymore.
 
 <div class="alertBox"><div>

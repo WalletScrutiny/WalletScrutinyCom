@@ -36,8 +36,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The Android app is still gone from Google Play. The [CoinCollect website](https://coincollect.cc/) is still up and still describes the wallet. The [Medium post](https://medium.com/coincollect/coincollect-open-source-policy-466841ed324e) promised to open the code of each major release on GitHub, but its app repository [CoinCollect/coincollect-app](https://github.com/CoinCollect/coincollect-app) has been empty since it was created in December 2019. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
-
 ## App Description
 
 Users can use Euro to buy various cryptocurrencies including Bitcoin. The multi-currency wallet provides the seed to unlock the private keys which are stored only on the device.
@@ -53,7 +51,5 @@ It would seem that non-custodial CoinCollect was formerly open source. They then
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is still in the App Store but has not been updated since January 2020. The [GitHub repository](https://github.com/CoinCollect/coincollect-app) for the app is still empty, so the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 {% include copyFromAndroid.html %}

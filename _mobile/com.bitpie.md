@@ -48,7 +48,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Bitpie has left Google Play. Its [Android download page](https://bitpie.com/en/android/) says "Bitpie no longer supports Google Play download" and warns that "all Bitpie apps you find" through Google Play search are fake. It offers an APK instead (version 5.0.247 of 2026-10-22) with SHA256 sums. We still found no source code for the wallet. The issue we filed and the `bitpiedotcom.github.com` repository it was in both return 404 now, and the only public repository on [bitpiedotcom](https://github.com/bitpiedotcom) is an old Ethereum contracts repository. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** Bitpie has left Google Play. Its [Android download page](https://bitpie.com/en/android/) says "Bitpie no longer supports Google Play download" and offers an APK instead. The issue we filed and the `bitpiedotcom.github.com` repository it was in both return 404 now.
 
 **Update 2024-07-17**: The last time this app was updated was in March 27, 2024. Prior to that, an [issue was filed](https://github.com/bitpiedotcom/bitpiedotcom.github.com/issues/7#deadLink) on behalf of WalletScrutiny asking for its source-code to be made available. It went unanswered. Moreover, a search for the app ID on GitHub, turned up [hits on some cybersecurity database](https://github.com/github/advisory-database/blob/d8b7bd8352e1621965179b11ac9eff056e6363e1/advisories/unreviewed/2022/05/GHSA-8rhq-wwg6-2476/GHSA-8rhq-wwg6-2476.json#L9), which had a partial match on the app ID string. We are including the text for posterity:
 
@@ -105,8 +105,6 @@ give the verdict: **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is still on the App Store, now called "Bitpie Universal Crypto Wallet". We found no source code for it, so the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 {% include copyFromAndroid.html %}
 

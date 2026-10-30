@@ -23,7 +23,7 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone. Tokenize Technology (M) Sdn Bhd is now Kinetic DAX Sdn Bhd (KDX). In March 2026 Kenanga Investment Bank [raised its stake in KDX to 81.70%](https://www.kenanga.com.my/wp-content/uploads/2026/03/Press-Release-Kenanga-Investment-Bank-Ups-Stake-in-KDX-Establishing-Malaysias-First-Bank-Backed-Digital-Asset-Exchange.pdf). tokenizemalaysia.com [redirected to KDX](https://web.archive.org/web/20260212122019/https://tokenizemalaysia.com/) and no longer answers. [kdx.com.my](https://kdx.com.my/) offers a new app and says client funds are "secured through trusted custodian", so the exchange is still custodial. This listing stays {% include verdictBadge.html verdict="custodial" type='short' %}. The old Tokenize Malaysia links below are dead.
+**Update 2026-10-30:** Tokenize Technology (M) Sdn Bhd is now Kinetic DAX Sdn Bhd (KDX), and in March 2026 Kenanga Investment Bank [raised its stake in KDX to 81.70%](https://www.kenanga.com.my/wp-content/uploads/2026/03/Press-Release-Kenanga-Investment-Bank-Ups-Stake-in-KDX-Establishing-Malaysias-First-Bank-Backed-Digital-Asset-Exchange.pdf). tokenizemalaysia.com [redirected to KDX](https://web.archive.org/web/20260212122019/https://tokenizemalaysia.com/) and no longer answers, so the old Tokenize Malaysia links below are dead.
 
 **Update 2021-10-19**: This app is no more.
 

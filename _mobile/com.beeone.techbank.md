@@ -35,7 +35,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The app is gone from Google Play again. techbank.finance, techbank.live and beeone.co.uk all return Cloudflare errors because the servers behind them are down. The provider, Bee International Consultancy, is still active: its {% include walletLink.html wallet='iphone/com.techbank.dwallettb' verdict='true' %} app was updated in June 2026 and is still on the Indian App Store. Nothing suggests this app ever let users hold their own keys, so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** The app is gone from Google Play again.
 
 There are multiple apps in our list with a similar name of 'TechBank'.  
 
@@ -65,8 +65,6 @@ file it as such and conclude this app is **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is still missing from the App Store; we found no result in the US, Indian, British or UAE stores. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 There are multiple apps in our list with a similar name of 'TechBank'.  
 

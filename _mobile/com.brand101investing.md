@@ -39,7 +39,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** We now mark this app defunct. It is still gone from Google Play. The Cyprus regulator CySEC [withdrew the licence of FXBFI Broker Financial Invest Ltd](https://www.financemagnates.com/institutional-forex/cyprus-regulator-withdraws-license-of-fxbfi-broker-amid-compliance-issues/), the operator of 101Investing, in September 2023, after the firm renounced it. Today www.101investing.com shows a Turkish online casino page instead of the broker. The verdict stays {% include verdictBadge.html verdict="nosendreceive" type='short' %}.
+**Update 2026-10-30:** The provider is gone. The Cyprus regulator CySEC [withdrew the licence of FXBFI Broker Financial Invest Ltd](https://www.financemagnates.com/institutional-forex/cyprus-regulator-withdraws-license-of-fxbfi-broker-amid-compliance-issues/), the operator of 101Investing, in September 2023, after the firm renounced it, and www.101investing.com now shows a Turkish online casino page instead of the broker.
 
 **Update 2022-03-22**: This app is not available anymore.
 
@@ -67,7 +67,7 @@ This service **does not allow the user to send or receive bitcoins**.
 
 ## iPhone
 
-**Update 2026-10-30:** The app is still gone from the App Store, and the provider is gone as described in the Android section. The verdict stays {% include verdictBadge.html verdict="nosendreceive" type='short' %}.
+**Update 2026-10-30:** The provider is gone; see the Android section.
 
 **Update 2022-03-21**: This app is not available anymore.
 

@@ -26,17 +26,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still custodial. The provider's
-[personal FAQ](https://elegro.eu/personal) has you "pass our quick KYC check",
-fund currency wallets with a "Top up" button and send "internal" transfers to
-other users by phone number or email, which is an account system run by the
-provider, not a self-custodial wallet. Separately, the UK Financial Conduct
-Authority has, since 2023-12-06, carried a
-[warning against "Elegro / Niko Technologies"](https://www.fca.org.uk/news/warnings/elegro-niko-technologies-wwwelegroeu)
-as a firm "not authorised or registered by the FCA", listing this very app as
-its retail app. The verdict stays
-{% include verdictBadge.html verdict="custodial" type='short' %}.
-
 We have no idea what they claim here:
 
 > elegro Wallet is currently the only solution you can use to buy things for

@@ -41,8 +41,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Bitsa now lets users buy and sell cryptocurrencies such as BTC and ETH inside the app, but the verdict stays {% include verdictBadge.html verdict="nosendreceive" type='short' %}. Bitsa's own blog post on the feature says ["the Bitsa account allows for buying and selling within the app but is not enabled for sending or receiving cryptocurrencies from external wallets"](https://bitsacard.com/blog/en/you-can-now-buy-and-sell-cryptocurrencies-from-bitsa-app). Crypto sent from outside is still converted to euros on arrival, and the app description says that conversion is "provided and managed by Bitnovo".
-
 ## App Description
 
 > 👉 Create your free virtual card or order your plastic card directly from the App. Enjoy a rechargeable VISA prepaid card with which you can safely buy online or at any store, withdraw cash at ATMs, make transfers, get cashback and exclusive benefits, and control all your expenses from the same App at the click of a button.

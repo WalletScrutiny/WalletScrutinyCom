@@ -19,8 +19,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play, and the Wayback Machine has no copy of its store page. The listing named no website, so there is no provider to check. The verdict {% include verdictBadge.html verdict="fake" type='short' %} stays.
-
 **Update 2022-01-31**: This app is not in store anymore.
 
 ⚠️ **Warning**

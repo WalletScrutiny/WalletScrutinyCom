@@ -18,15 +18,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play. It used the
-name of Portis, a non-custodial wallet that
-[ShapeShift acquired in 2020](https://www.theblock.co/news/deals/2020-04-14-crypto-exchange-shapeshift-acquires-non-custodial-crypto-wallet-portis-61753),
-under a "shiftshape" app ID. Today portis.io redirects to kraken.com. We found no
-archived copy of the app's store page and cannot tell who published it, so it
-stays {% include verdictBadge.html verdict="wip" type='short' %}. The similar
-app mentioned in the 2021 note below is also listed as
-{% include verdictBadge.html verdict="wip" type='short' %}, not as defunct.
-
 **Update 2021-08-31**: Today we mark as
 {% include verdictBadge.html verdict="defunct" type='short' %} a very similar
 app:

@@ -37,11 +37,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Libertex is still a CFD broker, so the verdict stays
-{% include verdictBadge.html verdict="nosendreceive" type='short' %}. libertex.org
-now redirects to [libertex.com](https://libertex.com/), which offers
-cryptocurrency CFDs next to stock, currency and metal CFDs. The old links below to
-the CFD specification and the support article no longer open.
+**Update 2026-10-30:** The old links below to the CFD specification and the support article no longer open; libertex.org now redirects to [libertex.com](https://libertex.com/).
 
 **Updated Analysis 2022-01-04**: 
 
@@ -68,9 +64,7 @@ Interestingly enough, there's [an app](https://play.google.com/store/apps/detail
 
 ## iPhone
 
-**Update 2026-10-30:** This app is still gone from the App Store in Chile and the
-US. Libertex International Company Limited now publishes a different iPhone app,
-"Libertex: Opera Forex y Crypto", which we have not reviewed.
+**Update 2026-10-30:** Libertex International Company Limited now publishes a different iPhone app, "Libertex: Opera Forex y Crypto", which we have not reviewed.
 
 **Update 2022-02-09**: This app is no more.
 

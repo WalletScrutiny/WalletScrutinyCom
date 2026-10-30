@@ -17,7 +17,7 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play. We now have a {% include verdictBadge.html verdict="fake" type='short' %} verdict for exactly this case, so we move it there from custodial. The analysis below shows the imitation of {% include walletLink.html wallet='android/com.bitpie' verdict='true' %}: the copied `appId` and description, and receive addresses that come from the provider's cloud database while the app claims the keys never leave the device.
+**Update 2026-10-30:** We now have a {% include verdictBadge.html verdict="fake" type='short' %} verdict for exactly this case, so we move this imitation of {% include walletLink.html wallet='android/com.bitpie' verdict='true' %} there from custodial.
 
 **Update 2021-04-30**: This app is no more and probably scammed some people as
 the original analysis below suggests.

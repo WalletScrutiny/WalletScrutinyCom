@@ -38,7 +38,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Quantfury is still {% include verdictBadge.html verdict="custodial" type='short' %}. Users fund a "Cash Account" by [sending Bitcoin and other cryptocurrencies from an external wallet](https://help.quantfury.com/en/articles/6619537-how-to-fund-cash-account), and can [withdraw cryptocurrency to an external wallet](https://help.quantfury.com/en/articles/6619557-withdraw-funds-from-spot-wallet) by entering a destination address. Quantfury holds the coins in between, and the help center mentions no user-held keys. The app description now names regulated broker-dealer entities in the USA (FINRA member), the Bahamas and the UK (FCA). The terms PDF and support pages quoted below no longer load.
+**Update 2026-10-30:** The terms PDF and support pages quoted below no longer load. The help center now describes [funding a Cash Account from an external wallet](https://help.quantfury.com/en/articles/6619537-how-to-fund-cash-account) and [withdrawing to an external wallet](https://help.quantfury.com/en/articles/6619557-withdraw-funds-from-spot-wallet).
 
 Description from the site: 
 

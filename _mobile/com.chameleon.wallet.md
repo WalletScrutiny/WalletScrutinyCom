@@ -23,16 +23,11 @@ android:
 ---
 
 **Update 2026-10-30:** We now assign a real verdict:
-{% include verdictBadge.html verdict="nosource" type='short' %}. The app is still
-gone from Google Play. An
+{% include verdictBadge.html verdict="nosource" type='short' %}. An
 [archived copy of its store page](http://web.archive.org/web/20190512043905/https://play.google.com/store/apps/details?id=com.chameleon.wallet)
-from May 2019 lists Bitcoin and says "Non-Custodial" and "Your private keys never
-leave your device", so it was a self-custodial Bitcoin wallet. ChainZilla's
-[GitHub](https://github.com/ChainZilla) still has no app source, only a
-[server list for Chameleon Pay](https://github.com/ChainZilla/chamspv), and no
-repository there was updated after 2020. The
-[chainzilla.io](https://chainzilla.io/) website now presents a software studio
-and no longer mentions the wallet.
+from May 2019 says "Non-Custodial" and "Your private keys never leave your
+device", and ChainZilla's [GitHub](https://github.com/ChainZilla) has no app
+source, only a [server list for Chameleon Pay](https://github.com/ChainZilla/chamspv).
 
 **Update:** The app is not available on Google Play anymore.
 

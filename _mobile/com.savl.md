@@ -45,7 +45,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Savl has [rebranded as Unity Wallet](https://www.prnewswire.com/news-releases/savl-rebrands-to-unity-wallet-and-launches-loyalty-program-boosting-user-experience-and-value-302253337.html), and its [website](https://www.unitywallet.com/) still calls it a self-custody wallet. The [savl-gmbh](https://github.com/savl-gmbh) GitHub organization still holds only libraries, and a GitHub search for "unitywallet" found no repository from the provider. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** Savl has [rebranded as Unity Wallet](https://www.prnewswire.com/news-releases/savl-rebrands-to-unity-wallet-and-launches-loyalty-program-boosting-user-experience-and-value-302253337.html), at [unitywallet.com](https://www.unitywallet.com/).
 
 ## Update 2024-07-15
 
@@ -75,7 +75,7 @@ This wallet is a self custodial wallet, but without the source code for the wall
 
 ## iPhone
 
-**Update 2026-10-30:** The iPhone app is still in the Russian App Store as "UnityWallet: Крипто и Биткоин". The verdict still holds; see the Android section.
+**Update 2026-10-30:** The iPhone app is now "UnityWallet: Крипто и Биткоин" in the Russian App Store. See the Android section.
 
 {% include copyFromAndroid.html %}
 

@@ -24,13 +24,6 @@ android:
 on 2026-10-30 allcoinwallet.com redirected to a GoDaddy page offering the domain
 for sale.
 
-**Update 2026-10-30:** The app is still gone from Google Play and its domain is
-for sale, so we mark the provider as defunct. An
-[archived Play page](https://web.archive.org/web/20220427030449/https://play.google.com/store/apps/details?id=com.allcoinwallet.allcoinwallet)
-from 2022 describes a platform to buy and sell crypto through purchase, sale and
-order book options, which fits the custodial account system described below, but
-we never saw it work, so we keep this listing as a stub.
-
 Unfortunately, it's hard to get any additional info on this wallet. While the app links to a [website](http://www.allcoinwallet.com) on its Google Play page, it appears to be inaccessible and returns an nxdomain error. There's no information on the developers either.
 
 The app uses an account system with no source code in sight either. We can assume this wallet is custodial if it is still in function at all.

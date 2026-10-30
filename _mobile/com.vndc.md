@@ -40,7 +40,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The provider is gone. Both apps are off the stores, goonus.io fails with a Cloudflare SSL error, onus.io is a parked GoDaddy domain and vndc.io now hosts an unrelated login page. On March 20, 2026 the app stopped letting users log in ([VnExpress](https://e.vnexpress.net/news/tech/tech-news/singapore-headquartered-onus-crypto-exchange-crashes-5053459.html)). The strategic investor HVA Group said withdrawals were impossible because authorities had confiscated devices ([Longbridge/TechNode](https://longbridge.com/news/280128868)). Days later the Ministry of Public Security detained ONUS-linked suspects, among them Vuong Le Vinh Nhan (Eric Vuong), whom VnExpress names as the founder, alleging the group manipulated the prices of the VNDC, ONUS and HNG tokens it sold through the platform ([Cointelegraph](https://cointelegraph.com/news/vietnam-arrests-onus-linked-suspects-crypto-fraud-probe)). The frozen balances confirm the {% include verdictBadge.html verdict="custodial" type='short' %} verdict. The listing is now marked defunct.
+**Update 2026-10-30:** The provider is gone. On March 20, 2026 the app stopped letting users log in ([VnExpress](https://e.vnexpress.net/news/tech/tech-news/singapore-headquartered-onus-crypto-exchange-crashes-5053459.html)), and the strategic investor HVA Group said withdrawals were impossible because authorities had confiscated devices ([Longbridge/TechNode](https://longbridge.com/news/280128868)).
 
 ## App Description
 

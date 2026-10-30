@@ -18,12 +18,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play and we found no
-archived copy of its store page. It stays
-{% include verdictBadge.html verdict="fake" type='short' %}. The real
-{% include walletLink.html wallet='android/com.liberty.jaxx' verdict='true' %}
-is no longer on Google Play either.
-
 **Update 2021-10-14**: This app is no more available.
 
 Funny enough this app is not called "Jaxx". Try searching for "Jaxx" here or on

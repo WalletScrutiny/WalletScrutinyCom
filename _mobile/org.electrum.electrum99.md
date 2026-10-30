@@ -14,5 +14,5 @@ android:
 
 ---
 
-**Update 2026-10-30:** This app was a {% include verdictBadge.html verdict="fake" type='short' %} of {% include walletLink.html wallet='android/org.electrum.electrum' verdict='true' %}. The [archived store page](https://web.archive.org/web/20210427104138/https://play.google.com/store/apps/details?id=org.electrum.electrum99) shows the developer as "Electrum Labs", not Electrum Technologies GmbH, and the description is copied from Electrum ("Your private keys are encrypted and never leave your device"). The app is still gone from Google Play.
+**Update 2026-10-30:** This app was a {% include verdictBadge.html verdict="fake" type='short' %} of {% include walletLink.html wallet='android/org.electrum.electrum' verdict='true' %}. The [archived store page](https://web.archive.org/web/20210427104138/https://play.google.com/store/apps/details?id=org.electrum.electrum99) shows the developer as "Electrum Labs", not Electrum Technologies GmbH, and the description is copied from Electrum ("Your private keys are encrypted and never leave your device").
 

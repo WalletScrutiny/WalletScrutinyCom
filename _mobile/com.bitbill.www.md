@@ -43,7 +43,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Ownbit has now published part of its code. On 2026-10-26 the provider created [bitbill/ownbit-app-50](https://github.com/bitbill/ownbit-app-50) under the MIT license. Its README says that from version 5.0 "the part of Ownbit that touches private keys is open source": mnemonic generation, key storage, key derivation and signing, for iOS and Android. It also says that "the user interface and the code that talks to Ownbit's servers are not part of it." Without the rest of the app, nobody can build it from source and compare the result to the published app. So the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}. The [website](https://ownbit.io/en/) still describes the same self-custody multisig and cold wallet.
+**Update 2026-10-30:** On 2026-10-26 Ownbit published the part of its code that touches private keys as [bitbill/ownbit-app-50](https://github.com/bitbill/ownbit-app-50) under the MIT license. Its README says that "the user interface and the code that talks to Ownbit's servers are not part of it", so nobody can build the app from source and the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 ## Update 2024-07-13
 
@@ -83,7 +83,7 @@ thus **not verifiable**.
 
 ## iPhone
 
-**Update 2026-10-30:** The [partial source release](https://github.com/bitbill/ownbit-app-50) also covers the iOS key handling, as a Swift package. The user interface and the server code are not included, so the iPhone app also stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** The [partial source release](https://github.com/bitbill/ownbit-app-50) also covers the iOS key handling, as a Swift package, but not the user interface or the server code.
 
 {% include copyFromAndroid.html %}
 

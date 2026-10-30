@@ -24,7 +24,7 @@ android:
 
 **⚠️ Warning:** Shango appears to be out of business. Do not expect support for this app.
 
-**Update 2026-10-30:** We now mark the provider defunct. The app is still not on the Play Store. www.shangoapp.com no longer answers (the connection times out). The [Shango X account](https://x.com/shangoapp) last posted in June 2019, and the [GitHub repository](https://github.com/neogeno/shango-lightning-wallet) has had no push since June 2019. [Our issue](https://github.com/neogeno/shango-lightning-wallet/issues/84) never got an answer. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** Shango appears to be out of business. www.shangoapp.com no longer answers, and both the [Shango X account](https://x.com/shangoapp) and the [GitHub repository](https://github.com/neogeno/shango-lightning-wallet) have been silent since June 2019.
 
 **Update 2021-07-16**: This app is not available on the Play Store. Given our
 findings below, we don't expect it to come back.

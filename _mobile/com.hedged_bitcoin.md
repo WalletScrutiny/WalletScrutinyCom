@@ -23,8 +23,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play. The [Hedged Bitcoin website](https://hedgedbitcoin.com) is still online but unchanged since 2022: it still says the service is "powered by the Uphold Platform", and its copyright ends in 2022. Its maker [Ternary Intelligence](https://ternaryintelligence.com) still runs a website about market signals. Funds still sit in the user's {% include walletLink.html wallet='android/com.uphold.wallet' verdict='true' %} account, so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
-
 **Update 2022-02-26**: This app is not available anymore.
 
 ## App Description

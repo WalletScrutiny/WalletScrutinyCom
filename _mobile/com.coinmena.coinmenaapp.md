@@ -42,7 +42,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** CoinMENA is still on Google Play and is still a regulated exchange. [Paribu acquired CoinMENA](https://www.prnewswire.co.uk/news-releases/paribu-has-acquired-coinmena-menas-largest-local-crypto-exchange-in-a-transaction-valued-at-up-to-usd-240-million-302633561.html) in December 2025; the press release names a Central Bank of Bahrain crypto-asset licence and a Dubai VARA broker-dealer licence. The current store description offers a "Secure Crypto Wallet" to "swap and store crypto", funded "via bank transfer or card" after account verification. We found no self-custody mode. The {% include verdictBadge.html verdict="custodial" type='short' %} verdict stays.
+**Update 2026-10-30:** [Paribu acquired CoinMENA](https://www.prnewswire.co.uk/news-releases/paribu-has-acquired-coinmena-menas-largest-local-crypto-exchange-in-a-transaction-valued-at-up-to-usd-240-million-302633561.html) in December 2025.
 
 ## App Description
 
@@ -74,7 +74,5 @@ This **custodial** service signifies that the app **cannot be verified**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The app is still on the App Store. The Android findings apply; the {% include verdictBadge.html verdict="custodial" type='short' %} verdict stays.
 
 {% include copyFromAndroid.html %}

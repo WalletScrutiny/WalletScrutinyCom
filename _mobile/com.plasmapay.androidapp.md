@@ -40,7 +40,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** PlasmaPay is gone. The app is still missing from Google Play and the App Store, the Wayback Machine has no archived copy of its Play store page, and plasmapay.com no longer resolves; its [last archived copy is from September 2024](https://web.archive.org/web/20240915224157/https://plasmapay.com/). The team's public [GitHub repository for the mobile app](https://github.com/plasmadlt/plasma-mobile-app) holds only dApp lists and images, not source code, and was last updated in August 2023. The listing's Twitter handle, 0xPlasma, matches 0xPlasma Labs, which still runs the DeFi platform [Plasma Finance](https://plasma.finance), so we do not mark the Android app defunct. With no app to examine, the verdict stays {% include verdictBadge.html verdict="wip" type='short' %}.
+**Update 2026-10-30:** plasmapay.com no longer resolves; its [last archived copy is from September 2024](https://web.archive.org/web/20240915224157/https://plasmapay.com/).
 
 ## App Description
 

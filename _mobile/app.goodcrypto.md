@@ -27,14 +27,7 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is now goodcryptoX and has a built-in
-non-custodial wallet, but not for Bitcoin, so the verdict stays
-{% include verdictBadge.html verdict="nosendreceive" type='short' %}. Its
-[wallet docs](https://docs.goodcrypto.app/wallets/built-in-wallet) describe an
-MPC wallet on EVM chains and Solana for decentralized trading. Bitcoin addresses
-can only be added for
-[read-only tracking](https://docs.goodcrypto.app/goodcryptox-2.0/supported-blockchains),
-and bitcoins on exchanges are traded through API keys, as before.
+**Update 2026-10-30:** The app is now goodcryptoX. Its new [built-in wallet](https://docs.goodcrypto.app/wallets/built-in-wallet) covers only EVM chains and Solana; Bitcoin addresses can only be added for [read-only tracking](https://docs.goodcrypto.app/goodcryptox-2.0/supported-blockchains).
 
 This app allows you to connect to accounts on trading platforms and does not
 work as a wallet as such. We assume that you cannot receive Bitcoins to and send

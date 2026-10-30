@@ -17,5 +17,3 @@ android:
   developerName: BitDATA FINTECH Co., Limited
 
 ---
-
-**Update 2026-10-30:** The app is still on Google Play with few users. Its store description now calls it a "market analysis and portfolio tracking tool" with no mention of sending or receiving coins, while the provider's [website](https://www.bitdata.site/) advertises brokerage services such as top-up, withdrawal and "digital asset custody". These two sources conflict, so we keep the app as {% include verdictBadge.html verdict="wip" type='short' %}.

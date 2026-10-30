@@ -16,8 +16,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play, and the Wayback Machine has no copy of its store page. copay.io now redirects to BitPay's [Copay repository on GitHub](https://github.com/bitpay/copay), whose description reads "Copay wallet is now Bitpay Wallet", instead of the warning quoted below. The verdict {% include verdictBadge.html verdict="fake" type='short' %} stays.
-
 **Update 2022-01-21**: This app is not available anymore.
 
 This product

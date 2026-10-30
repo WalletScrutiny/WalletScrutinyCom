@@ -36,7 +36,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The app is still gone from Google Play. prizmbit.com no longer resolves; the Wayback Machine last captured a page titled "PrizmBit" there in [January 2026](https://web.archive.org/web/20260113161350/https://prizmbit.com/). The [Prizmbit X account](https://x.com/prizmbit) still exists but X shows it as temporarily restricted. Nothing we found changes the custody model, so the verdict {% include verdictBadge.html verdict="custodial" type='short' %} stays.
+**Update 2026-10-30:** prizmbit.com no longer resolves; the Wayback Machine last captured it in [January 2026](https://web.archive.org/web/20260113161350/https://prizmbit.com/).
 
 **Update 2021-12-04**: This app is gone from the Store.
 
@@ -47,8 +47,6 @@ Our verdict: This 'wallet' is custodial and therefore **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is still gone from the App Store (US). See the Android section; the verdict {% include verdictBadge.html verdict="custodial" type='short' %} stays.
 
 **Update 2022-01-02**: This app is no more available.
 

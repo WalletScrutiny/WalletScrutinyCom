@@ -42,7 +42,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Mexo renamed itself TruBit Pro on [October 3, 2022](https://academy.trubit.com/a-partir-del-3-de-octubre-mexo-sera-trubit-pro). Accounts and funds moved over unchanged. mexo.io now redirects to [trubit.com](https://www.trubit.com/new/), and the old blog post cited below is gone. The app is still listed as TruBit Pro, and it is still an exchange that holds users' coins. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** Mexo renamed itself TruBit Pro on [October 3, 2022](https://academy.trubit.com/a-partir-del-3-de-octubre-mexo-sera-trubit-pro). mexo.io now redirects to [trubit.com](https://www.trubit.com/new/), and the old blog post cited below is gone.
 
 ### App Description
 The app description appears to be entirely in Spanish. Quotes below are taken from Google Translate.
@@ -76,6 +76,6 @@ This app is **custodial** therefore **not verifiable.**
 
 ## iPhone
 
-**Update 2026-10-30:** The iPhone app is still available as TruBit Pro in the Mexican App Store, so we set its store country to Mexico. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** The iPhone app is now called TruBit Pro too, after the [rename of October 3, 2022](https://academy.trubit.com/a-partir-del-3-de-octubre-mexo-sera-trubit-pro).
 
 {% include copyFromAndroid.html %}

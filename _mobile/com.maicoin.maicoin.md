@@ -40,8 +40,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** MaiCoin is still custodial. The store description now says "MaiCoin's custodial wallet provider is ISO 27001 certified". The [support article](https://support.maicoin.com/en/support/solutions/articles/32000021141-can-i-download-a-copy-of-my-private-key-) quoted below was updated on 2026-10-27 and still says MAX "does not provide private key download or backup services". Users who want custody must withdraw to their own wallet. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
-
 This is from the Google Play description:
 
 > Securely store Bitcoin, Ethereum, Bitcoin Cash, Litecoin and more in your MAX wallet for free. Your assets are distributed and secured in hot, warm and cold storage. Wallets are guarded with the multi-signature scheme to provide the highest level of protection.
@@ -62,6 +60,6 @@ As the keys are on the side of the providers that means this app is **custodial*
 
 ## iPhone
 
-**Update 2026-10-30:** The iPhone app is missing from the US App Store but is still listed in Taiwan as "MaiCoin - 買賣比特幣", so we set the store country to Taiwan. It is the same custodial service, and the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** The iPhone app is missing from the US App Store but is still listed in Taiwan as "MaiCoin - 買賣比特幣", so we set the store country to Taiwan.
 
 {% include copyFromAndroid.html %}

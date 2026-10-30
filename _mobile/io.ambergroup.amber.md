@@ -41,7 +41,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The app is gone from Google Play in every country we tried, and the App Store lookup is empty too. The provider still exists: Amber Premium is the brand of the Nasdaq-listed [Amber International](https://www.prnewswire.com/news-releases/amber-international-holding-limited-reports-fourth-quarter-and--full-year-2025-unaudited-financial-results-302755621.html). A banner on its [website](https://www.ambr.io/global/terms) says that effective 30 October 2026 Amber Premium accounts are moved to "WhaleFin Wallet", with holdings unchanged. Its current [Terms of Service](https://www.ambr.io/global/protocol/detail?code=Tos_001) still say "Amber Premium shall maintain full custody of the funds or Digital Assets", so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** A banner on Amber's [website](https://www.ambr.io/global/terms) says that effective 30 October 2026 Amber Premium accounts are moved to "WhaleFin Wallet", with holdings unchanged.
 
 The app is a crypto investment app that allows users to: 
 
@@ -64,7 +64,5 @@ This app is **custodial** and therefore **not verifiable**
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The App Store lookup for this app is empty in the US, Singapore, Hong Kong, the UK, Taiwan and Germany. The provider and its custodial terms are unchanged (see the Android section), so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include copyFromAndroid.html %}

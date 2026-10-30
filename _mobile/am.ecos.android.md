@@ -41,8 +41,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** ECOS is still operating and both apps are still listed. The current [Terms of Use](https://ecos.am/en/terms-of-use) say that "Withdrawals may be performed only after identification and security checks are completed and approved by ECOS-M", that ECOS-M may suspend withdrawals, and that mining rewards are "credited to the Customer’s wallet in the system". This is an account balance that ECOS controls. The [wallet page](https://ecos.am/en/wallet) does not mention a seed phrase or user-held keys. ECOS never answered our 2021 question. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
-
 ## App Description
 From Google Play:
 

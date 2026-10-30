@@ -19,12 +19,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The fake app is still gone from Google Play. The real
-[Wasabi Wallet](https://wasabiwallet.io/) still states "Wasabi is not available
-on Mobile", and Wasabi's
-[warning on X](https://x.com/wasabiwallet/status/1333316866249535488) is still
-online. This remains {% include verdictBadge.html verdict="fake" type='short' %}.
-
 **Update 2020-12-08:** This wallet was removed from Google Play. You can find a
 [discussion on Twitter](https://twitter.com/wasabiwallet/status/1333316866249535488)
 but it was an obvious scam and has nothing to do with

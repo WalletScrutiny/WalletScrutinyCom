@@ -19,14 +19,7 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play, and the protocol
-it was built for no longer works. After the UST collapse in May 2022, Band
-Protocol stopped serving price feeds to Terra Classic, including Mirror, on
-26 August 2022, saying ["without price feed support, the protocol will no longer function"](https://coinpaprika.com/education/tokenized-stocks-failed-twice/).
-The app's website mirrorwallet.com is now a parked page. KysenPool itself is
-still alive as a [staking validator](https://www.kysenpool.io/en) and no longer
-mentions Mirror. The verdict
-{% include verdictBadge.html verdict="nosendreceive" type='short' %} still holds.
+**Update 2026-10-30:** The protocol this app was built for no longer works. After the UST collapse, Band Protocol stopped serving price feeds to Terra Classic, including Mirror, on 26 August 2022, saying ["without price feed support, the protocol will no longer function"](https://coinpaprika.com/education/tokenized-stocks-failed-twice/).
 
 **Update 2021-10-14**: This app is no more available.
 

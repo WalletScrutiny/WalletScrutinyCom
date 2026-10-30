@@ -32,7 +32,7 @@ features:
 
 **⚠️ Warning:** Swiss Bank in Your Pocket appears to be out of business. Its domain now hosts an unrelated blog and the device is no longer sold.
 
-**Update 2026-10-30:** Still defunct. The device did exist: an [archived copy of swissbankinyourpocket.com from October 2019](https://web.archive.org/web/20191017031333/https://swissbankinyourpocket.com/) still shows "Swiss Bank In Your Pocket – Secure Digital Currency Banking". Today the domain serves an unrelated crypto news and loans blog, and the [Amazon listing](https://www.amazon.com/Swiss-Bank-Your-Pocket-SBIYP/dp/B0773KZCMK) says "Currently unavailable". We found no other shop and no source code, so it stays a stub.
+**Update 2026-10-30:** The [main site](https://swissbankinyourpocket.com/) linked below now serves an unrelated crypto news and loans blog.
 
 It is difficult to determine if this wallet ever existed, launched in 2017, it is highly likely this device is not available anymore.
 We will consider this device defunct as there is no clear links to buy this product and the [main site](https://swissbankinyourpocket.com/) is unavailable.

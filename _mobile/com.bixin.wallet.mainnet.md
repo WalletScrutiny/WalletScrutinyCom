@@ -38,7 +38,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** This legacy OneKey app is still gone from Google Play. OneKey itself is active on [onekey.so](https://onekey.so) and now ships a new app, which we list as {% include walletLink.html wallet='android/so.onekey.app.wallet' verdict='true' %}, with its source in the [app-monorepo](https://github.com/OneKeyHQ/app-monorepo) repository. The android_app repository we linked in 2022 no longer exists on GitHub, and our [firmware issue](https://github.com/OneKeyHQ/firmware/issues/17) was closed in March 2022. We found no source code for this old app, so it stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** OneKey's successor app is {% include walletLink.html wallet='android/so.onekey.app.wallet' verdict='true' %}, with its source in the [app-monorepo](https://github.com/OneKeyHQ/app-monorepo) repository.
 
 This app is the companion app of {% include walletLink.html wallet='hardware/onekey' verdict='true' %}.
 
@@ -84,7 +84,7 @@ An issue has been opened at [https://github.com/OneKeyHQ/android_app/issues/1#de
 
 ## iPhone
 
-**Update 2026-10-30:** This legacy app is still gone from the App Store. Its successor is {% include walletLink.html wallet='iphone/so.onekey.wallet' verdict='true' %}. The verdict for this old app stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** Its successor is {% include walletLink.html wallet='iphone/so.onekey.wallet' verdict='true' %}.
 
 **Update 2022-02-26**: This app is not available anymore.
 

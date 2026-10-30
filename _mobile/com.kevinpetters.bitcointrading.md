@@ -16,6 +16,4 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play. bitcoin-trading.global no longer resolves, and we found no archived copy of the store page or the website, so it stays {% include verdictBadge.html verdict="wip" type='short' %}.
-
 **Update 2022-03-16**: This app is not available anymore.

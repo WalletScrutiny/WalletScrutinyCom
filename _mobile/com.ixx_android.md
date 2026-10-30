@@ -16,6 +16,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play. Its [archived store page from May 2021](https://web.archive.org/web/20210508083441/https://play.google.com/store/apps/details?id=com.ixx_android) shows it was the app of IXX Exchange, a trading platform for spot, fiat and futures trades that kept "all assets of the platform" in a "100% cold wallet" storage mechanism. That makes it {% include verdictBadge.html verdict="custodial" type='short' %}. [CoinPaprika](https://coinpaprika.com/exchange/ixx/) gives ixx.com as the exchange's website. Today ixx.com redirects to [ixxixx.com](https://www.ixxixx.com/), a "wallet and portfolio discovery" site, and we could not tell whether the same company runs it.
+**Update 2026-10-30:** Its [archived store page from May 2021](https://web.archive.org/web/20210508083441/https://play.google.com/store/apps/details?id=com.ixx_android) shows it was the app of IXX Exchange, which kept "all assets of the platform" in a "100% cold wallet" storage mechanism, so it is {% include verdictBadge.html verdict="custodial" type='short' %}. Today ixx.com redirects to [ixxixx.com](https://www.ixxixx.com/), a "wallet and portfolio discovery" site that may not be run by the same company.
 
 **Update 2021-09-20**: This app is no more.

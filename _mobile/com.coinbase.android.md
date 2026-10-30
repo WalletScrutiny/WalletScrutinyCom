@@ -47,8 +47,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Still custodial. The [Coinbase User Agreement](https://www.coinbase.com/legal/user_agreement/united_states) says "All Supported Digital Assets held in your Digital Asset Wallet are custodial assets held by Coinbase for your benefit" and that Coinbase stores the private keys. Self-custody remains a separate app, {% include walletLink.html wallet='android/org.toshi' verdict='true' %}, which [wallet.coinbase.com](https://wallet.coinbase.com/) now calls a "self-custodial wallet". In May 2025 Coinbase disclosed that bribed overseas support staff leaked customer personal and account data, and estimated $180 million to $400 million in costs including voluntary customer reimbursements ([SEC Form 8-K](https://www.sec.gov/Archives/edgar/data/1679788/000167978825000094/coin-20250514.htm)). The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
-
 {{ page.title }}, not to be confused with
 {% include walletLink.html wallet='android/org.toshi' verdict='true' %}
 is one of the top Bitcoin "wallets" on Google Play but beyond the

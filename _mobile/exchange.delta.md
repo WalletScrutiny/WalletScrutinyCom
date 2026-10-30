@@ -40,7 +40,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** delta.exchange now shows Delta Exchange India, a separate INR product run by Excelium Technologies Private Limited and listed here as {% include walletLink.html wallet='android/com.deltaexchangeindia' verdict='true' %}. This app is the global exchange at [global.delta.exchange](https://global.delta.exchange/). Its [Terms of Use](https://global.delta.exchange/terms-of-use) name Bit Protocol S.A (Panama), a subsidiary of Protocol Labs Pte Ltd. They still contain the suspension clause quoted below and refer to the user's "Hosted Wallet". We updated the terms links below to the global site. The Android app is still on Google Play and was updated in October 2026. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** delta.exchange now shows Delta Exchange India, a separate INR product listed here as {% include walletLink.html wallet='android/com.deltaexchangeindia' verdict='true' %}. This app is the global exchange at [global.delta.exchange](https://global.delta.exchange/), so we updated the terms links below to the global site.
 
 ## App Description
 
@@ -73,7 +73,5 @@ Verdict is **custodial** and thus, **not verifiable**
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is still in the New Zealand App Store, but its last update was in July 2023. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include copyFromAndroid.html %}

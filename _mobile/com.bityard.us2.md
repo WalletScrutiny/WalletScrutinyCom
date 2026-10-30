@@ -23,7 +23,7 @@ android:
 
 ---
 
-**Update 2026-10-30:** BitYard renamed itself BYDFi in January 2023, [according to Coin Bureau](https://www.coinbureau.com/review/bydfi-review/). Its current app is {% include walletLink.html wallet='android/com.bydfi.app' verdict='true' %}. bityard.com no longer resolves, so the Terms of Use link below is dead. This US app is still gone from Google Play, and the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** BitYard renamed itself BYDFi in January 2023, [according to Coin Bureau](https://www.coinbureau.com/review/bydfi-review/). Its current app is {% include walletLink.html wallet='android/com.bydfi.app' verdict='true' %}. bityard.com no longer resolves, so the Terms of Use link below is dead.
 
 **Update 2022-02-25**: This app is not available anymore.
 

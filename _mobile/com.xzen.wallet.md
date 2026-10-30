@@ -27,13 +27,7 @@ android:
 **⚠️ Warning:** This provider is gone. XZEN announced that its wallet is closed,
 and the xzen.io domain has since passed to unrelated owners.
 
-**Update 2026-10-30:** The app is gone from Google Play and xzen.io no longer
-belongs to XZEN. The address now returns "404 Not Found", and the
-[Wayback Machine](https://web.archive.org/web/20230712073036/https://xzen.io/)
-shows it listed as a domain for sale in 2023 and
-[as an Indonesian gambling site](https://web.archive.org/web/20250306092255/https://xzen.io/)
-in 2025. The custodial verdict stays as history and the listing is marked
-defunct.
+**Update 2026-10-30:** xzen.io no longer belongs to XZEN: the [Wayback Machine](https://web.archive.org/web/20230712073036/https://xzen.io/) shows it listed as a domain for sale in 2023 and [as an Indonesian gambling site](https://web.archive.org/web/20250306092255/https://xzen.io/) in 2025. The provider is gone.
 
 While this app still appears to be on Google Play,
 [their website](https://web.archive.org/web/20210515033615/https://xzen.io/) read in May 2021:

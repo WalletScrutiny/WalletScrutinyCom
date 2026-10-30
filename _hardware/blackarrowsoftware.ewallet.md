@@ -34,8 +34,6 @@ features:
 
 ---
 
-**Update 2026-10-30:** Nothing changed. On 2026-10-30 blackarrowsoftware.com no longer resolved; the [last archived copy of the eWallet shop page is from November 2019](https://web.archive.org/web/20191119010913/https://www.blackarrowsoftware.com/store/ewallet.html). We found no published source code for the eWallet firmware, so this stays {% include verdictBadge.html verdict="nosource" type='short' %} and defunct.
-
 **⚠️ Note:** There are multiple serious allegations on Blackarrow Software's available social media accounts including Facebook and bitcointalk.  
 
 [A Reddit post from r/Bitcoin in 2015](https://www.reddit.com/r/Bitcoin/comments/2ygong/ewallet_trezor_compatible_hardware_wallet_just/) stated that eWallet was "just released."

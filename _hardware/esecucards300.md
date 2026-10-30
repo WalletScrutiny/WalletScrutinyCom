@@ -34,8 +34,6 @@ features:
 
 ---
 
-**Update 2026-10-30:** Nothing changed. Excelsecu still lists the card on its [eSecuCard-S300 page](https://www.excelsecu.com/productdetail/esecucards300.html), with "bitcoin wallet" as a typical application, the same specification, and no price. We found no source code for a wallet applet: the only public Excelsecu wallet code, the [EsecuBit repositories](https://github.com/EsecuBit), is host-side app and SDK code for Excelsecu's {% include walletLink.html wallet='hardware/esecubit' verdict='true' %}, last pushed in 2022. This stays {% include verdictBadge.html verdict="nosource" type='short' %}.
-
 ## Product Description
 
 The Excel Secucard S300 Display card finds its origins as a secure authentication card for various purposes. It can be used as a secure means for identification prior to its usage as a cryptocurrency wallet. It has a 256x256 E-Ink display screen and 13-key keypad. 

@@ -18,8 +18,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play, and the [Wayback Machine](https://web.archive.org/web/*/play.google.com/store/apps/details?id=crypto.walls.exoduks.comy*) holds no copy of its store page. The developer's email domain `exuduxcrypto.com` no longer resolves and was never archived either. Nothing contradicts the earlier finding, so the verdict stays {% include verdictBadge.html verdict="fake" type='short' %}.
-
 **Update 2021-10-23**: This app is no more.
 
 Apparently this is a BTC wallet:

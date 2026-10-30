@@ -37,7 +37,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** UmiFi appears to be out of business. Its website [umifi.com](http://www.umifi.com) now redirects to a HugeDomains sale page, and its [Zendesk help center](https://umificom.zendesk.com/), which the analysis below cites, shows Zendesk's "help center closed" page. The app is still missing from Google Play. It was a {% include verdictBadge.html verdict="custodial" type='short' %} exchange and the verdict stays as its history.
+**Update 2026-10-30:** UmiFi appears to be out of business. [umifi.com](http://www.umifi.com) now redirects to a HugeDomains sale page, and its [Zendesk help center](https://umificom.zendesk.com/), which the analysis below cites, is closed.
 
 **Update 2022-02-11**: This app is not on the Store anymore.
 
@@ -70,7 +70,7 @@ Cryptocurrency exchanges that have Anti Money Laundering policies are almost alw
 
 ## iPhone
 
-**Update 2026-10-30:** The iPhone app is still missing from the App Store, and the provider's website and help center are gone (see the Android section). The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** The provider is gone; see the Android section.
 
 **Update 2022-10-21**: This app is not available anymore.
 

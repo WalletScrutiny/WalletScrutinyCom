@@ -28,7 +28,7 @@ android:
 
 **⚠️ Warning:** QuickX appears to be gone. Its websites are dead or parked.
 
-**Update 2026-10-30:** We now mark this app defunct. It is still gone from Google Play. quickx.io now shows a GoDaddy parking page, quickxtouch.com no longer resolves, the [QuickX Medium blog](https://medium.com/quickxprotocol) last posted in 2018, and the [QuickX Telegram channel](https://t.me/quickxprotocol) is down to one member. The [archived store page](https://web.archive.org/web/20191023230535/https://play.google.com/store/apps/details?id=kr.co.keypair.quickxtouch) confirms it was the companion app for the {% include walletLink.html wallet='hardware/quickxtouch' verdict='true' %} card, made by Keypair, who still maintain {% include walletLink.html wallet='android/kr.co.keypair.keywalletTouch' verdict='true' %}. Like the other removed Keypair card apps, it stays {% include verdictBadge.html verdict="wip" type='short' %}.
+**Update 2026-10-30:** The provider is gone. quickx.io now shows a GoDaddy parking page and quickxtouch.com no longer resolves.
 
 **Update 2022-02-20**: This app is not available anymore.
 

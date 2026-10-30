@@ -43,14 +43,10 @@ iphone:
 ## Android
 
 **Update 2026-10-30:** Yellow Card
-[discontinued this retail app](https://yellowcard.io/blog/yellow-card-s-next-chapter-focusing-exclusively-on-b2b-stablecoin-infrastructure)
-to "focus exclusively on our B2B Institutional Suite". December 31, 2025 was "the
-final day to process withdrawals through the app", with "final access ending on
-January 1, 2026". Funds not withdrawn by then "will be held securely on your
-behalf", which also confirms that Yellow Card held the users' coins. The company
-itself still operates. The app is still listed on Google Play, but do not
-send coins to it. It remains
-{% include verdictBadge.html verdict="custodial" type='short' %}.
+[discontinued this retail app](https://yellowcard.io/blog/yellow-card-s-next-chapter-focusing-exclusively-on-b2b-stablecoin-infrastructure).
+December 31, 2025 was "the final day to process withdrawals through the app", with "final access ending on
+January 1, 2026". The app is still listed on Google Play, but do not
+send coins to it.
 
 **Update 2021-07-18**: Currently the app is not on the App Store.
 
@@ -64,14 +60,10 @@ Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.
 ## iPhone
 
 **Update 2026-10-30:** Yellow Card
-[discontinued this retail app](https://yellowcard.io/blog/yellow-card-s-next-chapter-focusing-exclusively-on-b2b-stablecoin-infrastructure)
-to "focus exclusively on our B2B Institutional Suite". December 31, 2025 was "the
-final day to process withdrawals through the app", with "final access ending on
-January 1, 2026". Funds not withdrawn by then "will be held securely on your
-behalf", which also confirms that Yellow Card held the users' coins. The company
-itself still operates. The App Store still lists the app in Nigeria, but do
-not send coins to it. It remains
-{% include verdictBadge.html verdict="custodial" type='short' %}.
+[discontinued this retail app](https://yellowcard.io/blog/yellow-card-s-next-chapter-focusing-exclusively-on-b2b-stablecoin-infrastructure).
+December 31, 2025 was "the final day to process withdrawals through the app", with "final access ending on
+January 1, 2026". The App Store still lists the app in Nigeria, but do
+not send coins to it.
 
 **Update 2021-07-26**: As it turns out, the provider has limited the
 availability of the app to fewer countries and excluded the US, Chile and some

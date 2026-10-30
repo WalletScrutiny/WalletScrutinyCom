@@ -18,8 +18,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play. The Wayback Machine has no archived copy of its store page, and the listing never named a website we could check, so the verdict stays {% include verdictBadge.html verdict="wip" type='short' %}.
-
 ## App Description
 
 > P2P options introduces you the world of Peer to Peer trading on crypto stock prices. It is a first ever platform to trade Peer to Peer options removing the risk of manipulation's by broker. The app allows you to find a peer trader matching your investment and your options forecast and the winning trader gets 75% of the trade profit. You can refer new users to our platform and get passive profits of up to 5% on every trade won by your referred users.

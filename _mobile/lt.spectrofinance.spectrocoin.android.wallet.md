@@ -44,13 +44,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The verdict still holds. Since 30 June 2026 SpectroCoin has
-[limited EU users served by Spectro Finance OÜ](https://help.spectrocoin.com/en-US/kb/article/129/important-update-changes-to-spectrocoin-services-in-eu-after-30-june-2026)
-to exchanging the assets they already hold and withdrawing their funds, while its
-MiCA authorisation is pending. A provider can only freeze deposits and trades like
-this because it holds the coins. We found no public source code. It remains
-{% include verdictBadge.html verdict="custodial" type='short' %}.
-
 This part of the wallet's descriptions certainly sounds like a custodial app:
 
 > We respect your privacy and collect only necessary data, which is processed and stored in accordance with applicable laws. We give you great control, so you can always manage and update your SpectroCoin account easily. As with so many things, it is a matter of balancing security and convenience. A safe environment, in which you can exchange cryptocurrency and make borderless payments, requires industry-leading safety standards, including multi-stage account verification, advanced authentication methods, and bank-level security.
@@ -67,10 +60,6 @@ Our verdict: **not verifiable**
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The verdict still holds. The same
-[EU service limits](https://help.spectrocoin.com/en-US/kb/article/129/important-update-changes-to-spectrocoin-services-in-eu-after-30-june-2026)
-apply to the iPhone app as to Android. It remains {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 Neither on the description nor on the website can we find any claims about coins
 custody and especially given what we had found when reviewing the version on the

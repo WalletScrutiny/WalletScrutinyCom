@@ -44,14 +44,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Bitfinex still runs the exchange behind this app at
-[bitfinex.com](https://www.bitfinex.com), and the verdict stays
-{% include verdictBadge.html verdict="custodial" type='short' %}. The app now
-also accepts a plain
-[email and password login](https://support.bitfinex.com/hc/en-us/articles/115002349625-How-to-log-in-to-the-Bitfinex-Mobile-App)
-with 2FA, so a restricted API key is an option, not the only way in. Either way
-the coins stay in the user's Bitfinex account.
-
 From a security standpoint, this app appears to be doing something right: The
 user does not provide his Bifinex exchange credentials but an API key which he
 has to create on Bitfinex and there he can limit the permissions. For example
@@ -65,14 +57,6 @@ As a custodial app it is **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** Bitfinex still runs the exchange behind this app at
-[bitfinex.com](https://www.bitfinex.com), and the verdict stays
-{% include verdictBadge.html verdict="custodial" type='short' %}. The app now
-also accepts a plain
-[email and password login](https://support.bitfinex.com/hc/en-us/articles/115002349625-How-to-log-in-to-the-Bitfinex-Mobile-App)
-with 2FA, so a restricted API key is an option, not the only way in. Either way
-the coins stay in the user's Bitfinex account.
 
 From a security standpoint, this app appears to be doing something right: The
 user does not provide his Bifinex exchange credentials but an API key which he

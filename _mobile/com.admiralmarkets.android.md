@@ -41,8 +41,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Still CFDs only. The old Digital Currency CFDs page now redirects to the [Admirals cryptocurrencies page](https://admiralmarkets.com/products/cryptocurrencies), which offers CFDs on over 20 cryptocurrencies and explains that crypto CFD trading means "speculating on cryptocurrency price movements without owning the underlying assets". [BrokerChooser](https://brokerchooser.com/broker-reviews/admirals-admiral-markets-review/admirals-admiral-markets-crypto) also finds no spot crypto at Admirals. The verdict stays {% include verdictBadge.html verdict="nosendreceive" type='short' %}.
-
 ## Description
 
 > trade CFDs on Forex, ETFs, Stocks, Indices, Metals, and Bonds

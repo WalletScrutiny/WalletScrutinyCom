@@ -31,7 +31,7 @@ android:
 
 **⚠️ Warning:** DropBit and its maker Coin Ninja are out of business. Do not use this app.
 
-**Update 2026-10-30:** We now mark the provider defunct. The app is no longer on the Play Store. dropbit.app now serves an unrelated casino page and coinninja.com redirects to a placeholder page, so we marked the website link dead. Coin Ninja's CEO Larry Harmon, also DropBit's founder, [was arrested in February 2020](https://www.cryptopolitan.com/coin-ninja-ceo-arrested-311-m-laundering/) over the Helix bitcoin mixer and [was sentenced to three years in prison in November 2024](https://therecord.media/ohio-man-helix-crypto-sentenced). The [Android repository](https://github.com/coinninjadev/dropbit-android) has had no push since October 2019; on [our issue](https://github.com/coinninjadev/dropbit-android/issues/2) a commenter wrote in May 2021: "Project is dead, company no longer exists." The verdict stays {% include verdictBadge.html verdict="sourceavailable" type='short' %}.
+**Update 2026-10-30:** The provider is gone. dropbit.app now serves an unrelated casino page, so we marked the website link dead, and coinninja.com redirects to a placeholder page.
 
 {% include featureEvidence.html feature="foss" source="[License](https://github.com/coinninjadev/dropbit-android/blob/master/LICENSE)" quote="MIT License" %}
 

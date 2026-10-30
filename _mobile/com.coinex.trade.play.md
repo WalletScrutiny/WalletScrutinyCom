@@ -41,17 +41,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The verdict
-{% include verdictBadge.html verdict="custodial" type='short' %} still holds.
-In September 2023 attackers stole about $70 million from CoinEx's hot wallets
-after its private keys were compromised, and CoinEx said affected users would
-be compensated
-([Cointelegraph](https://cointelegraph.com/news/coinex-compromised-private-keys-behind-70-million-hack)).
-That only works because CoinEx holds the users' coins. CoinEx's self-custody
-products are separate apps, listed as
-{% include walletLink.html wallet='android/com.viabtc.wallet' verdict='true' %}
-and {% include walletLink.html wallet='android/com.viabtc.coldwallet' verdict='true' %}.
-
 The description on Google Play starts not so promising:
 
 > Meet the top cryptocurrency trading app！
@@ -64,11 +53,8 @@ custodial and thus **not verifiable**.
 
 ## iPhone
 
-**Update 2026-10-30:** This app is still gone from the App Store. CoinEx now
-publishes its exchange on iPhone as a new app,
-{% include walletLink.html wallet='iphone/com.coinex.trade' verdict='true' %},
-which we found in the Hong Kong, Taiwan and Singapore stores. The verdict here
-stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** CoinEx now publishes its exchange on iPhone as a new app,
+{% include walletLink.html wallet='iphone/com.coinex.trade' verdict='true' %}.
 
 **Update 2022-01-13**: This app is not available anymore.
 

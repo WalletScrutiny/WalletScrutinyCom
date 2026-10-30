@@ -42,13 +42,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Satoshi Tango is still custodial. Its
-[general terms](https://www.satoshitango.com/terms/general.pdf) (version of
-2026-07-24) say it uses third-party services, naming Payward Inc. (Kraken), to
-process deposits and to store, send and receive crypto for the user's account.
-The verdict
-{% include verdictBadge.html verdict="custodial" type='short' %} holds.
-
 > Buy and sell BTC, ETH, LTC, XRP and BCH and monitor your balance and
   transactions.<br>
   Pay in local currency and hold a balance in fiat currency. Store your cryptos
@@ -62,13 +55,6 @@ We have to assume this is a custodial offering and thus **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** Satoshi Tango is still custodial. Its
-[general terms](https://www.satoshitango.com/terms/general.pdf) (version of
-2026-07-24) say it uses third-party services, naming Payward Inc. (Kraken), to
-process deposits and to store, send and receive crypto for the user's account.
-The verdict
-{% include verdictBadge.html verdict="custodial" type='short' %} holds.
 
 > Buy and sell BTC, ETH, LTC, XRP and BCH and monitor your balance and
   transactions.<br>

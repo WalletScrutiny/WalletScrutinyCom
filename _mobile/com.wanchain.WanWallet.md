@@ -41,7 +41,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** WanWallet mobile is still gone from Google Play, and Wanchain has dropped it. The [wallets page](https://www.wanchain.org/wanwallet) on wanchain.org now sends mobile users to {% include walletLink.html wallet='android/io.metamask' verdict='true' %}, and offers WanWallet only for desktop. Wanchain itself is still active. We found no source code for the mobile app in the [Wanchain GitHub organization](https://github.com/wanchain). The desktop wallet repository linked below now returns 404 ([archived copy](https://web.archive.org/web/20241222163811/https://github.com/wanchain/wan-wallet-desktop)); only a [binary release repository](https://github.com/wanchain/wan-desktop-wallet-release) remains. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** Wanchain has dropped WanWallet mobile: its [wallets page](https://www.wanchain.org/wanwallet) now sends mobile users to {% include walletLink.html wallet='android/io.metamask' verdict='true' %}. The desktop wallet repository linked below now returns 404 ([archived copy](https://web.archive.org/web/20241222163811/https://github.com/wanchain/wan-wallet-desktop)).
 
 **Update 2022-03-30**: This app is not available anymore.
 
@@ -71,6 +71,6 @@ At the moment, we will [wait for the source-code to be tested](https://gitlab.co
 
 ## iPhone
 
-**Update 2026-10-30:** The iPhone app is still missing from the App Store, and Wanchain's [wallets page](https://www.wanchain.org/wanwallet) points iPhone users to {% include walletLink.html wallet='iphone/io.metamask.MetaMask' verdict='true' %} instead. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** Wanchain's [wallets page](https://www.wanchain.org/wanwallet) now points iPhone users to {% include walletLink.html wallet='iphone/io.metamask.MetaMask' verdict='true' %} instead.
 
 {% include copyFromAndroid.html %}

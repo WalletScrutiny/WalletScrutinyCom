@@ -34,8 +34,6 @@ features:
 
 ---
 
-**Update 2026-10-30:** Nothing changed. The [FLX homepage](https://flxwallet.com/index-en.html) still carries the notice that support ended on 2021-12-03, and we found nothing new to analyze, so this stays {% include verdictBadge.html verdict="wip" type='short' %} and defunct.
-
 [The most recent (2019-01-24) review on Amazon](https://www.amazon.com/gp/customer-reviews/RLI3BEBASPDRJ/ref=cm_cr_srp_d_rvw_ttl?ie=UTF8&ASIN=B07JHMDV9X) claims that this wallet "seems to have been abandoned and no longer works properly."
 
 We checked the website, and [on the homepage](https://flxwallet.com/index-en.html) we found this notice:

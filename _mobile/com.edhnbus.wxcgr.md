@@ -19,7 +19,5 @@ android:
 
 ---
 
-**Update 2026-10-30:** This fake app is no longer on Google Play. The verdict stands.
-
 By name and logo this tries to fool users into believing it's
 {% include walletLink.html wallet='android/exodusmovement.exodus' verdict='true' %}.

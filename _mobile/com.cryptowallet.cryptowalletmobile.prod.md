@@ -45,9 +45,6 @@ for sale.
 
 ## Android
 
-**Update 2026-10-30:** The app is still gone from Google Play. The closing notice confirms that the
-provider held its customers' funds, so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
-
 {% include review/bitgo.md %}
 
 ## App Description
@@ -101,10 +98,6 @@ response from the dev team.
 
 ## iPhone
 
-**Update 2026-10-30:** The iPhone app is gone from the App Store. It was the same CryptoWallet app,
-and both the [archived 2021 website](https://web.archive.org/web/20211120121143/https://cryptowallet.com/)
-("CryptoWallet is secured by BitGo" with "multi-signature cold storage") and the closing notice, which has
-customers request withdrawals of their funds, show the provider held the coins. We change the verdict from
-{% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** The [archived 2021 website](https://web.archive.org/web/20211120121143/https://cryptowallet.com/) ("CryptoWallet is secured by BitGo" with "multi-signature cold storage") and the closing notice, which has customers request withdrawals of their funds, show the provider held the coins. We change the verdict from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include copyFromAndroid.html %}

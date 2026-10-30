@@ -21,7 +21,7 @@ android:
 
 **⚠️ Warning:** DueDEX retired in July 2021, according to its own notice quoted below. The app is gone from Google Play and duedex.com no longer serves a site.
 
-**Update 2026-10-30:** The app is still gone from Google Play, and duedex.com now only returns a GitHub Pages "Site not found" error, so we mark DueDEX defunct. An [archived copy of its store page](https://web.archive.org/web/20210113172014/https://play.google.com/store/apps/details?id=com.duedex.app) describes a derivatives exchange with a "multi-sig cold wallet; no hot wallet involved" and "withdrawals reviewed & paid out 3 times a day". The exchange held the coins, so we change the verdict from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** An [archived copy of its store page](https://web.archive.org/web/20210113172014/https://play.google.com/store/apps/details?id=com.duedex.app) describes a derivatives exchange with a "multi-sig cold wallet; no hot wallet involved" and "withdrawals reviewed & paid out 3 times a day". The exchange held the coins, so we change the verdict from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 **NOTE: DueDEX has retired.**
 

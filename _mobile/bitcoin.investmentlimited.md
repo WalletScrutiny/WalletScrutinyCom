@@ -28,8 +28,6 @@ android:
 
 **⚠️ Warning:** This provider looks gone. On 2026-10-30 its website no longer resolved and its apps were off Google Play.
 
-**Update 2026-10-30:** The app is still gone from Google Play and the Wayback Machine has no archived copy of its store page. The provider's other app mentioned below, "forex.signals99vip", is gone from Google Play too, and [forexsignals99.com](http://www.forexsignals99.com#deadLink) no longer resolves. We mark the listing defunct. With no way to look at the app, the verdict stays {% include verdictBadge.html verdict="wip" type='short' %}.
-
 ## App Description
 
 For some reason, the screenshots on Play Store don't feature images of the app at all. They're all just the same image of this app's logo.

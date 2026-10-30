@@ -27,13 +27,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** This app is still gone from Google Play, but the HitBTC
-exchange still runs: [CoinGecko](https://www.coingecko.com/en/exchanges/hitbtc)
-tracks live trading on hitbtc.com, and the website itself blocks our region.
-HitBTC's other app,
-{% include walletLink.html wallet='android/com.hitbtc.wallet' verdict='true' %},
-is custodial too. The verdict holds.
-
 On Google Play this app claims
 
 > **High-Level Security**

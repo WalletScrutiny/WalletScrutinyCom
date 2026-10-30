@@ -42,14 +42,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** CoinSwitch now accepts some crypto deposits but still sends
-none out. Its [deposit page](https://coinswitch.co/pro/crypto-deposit) for CoinSwitch PRO,
-which the app offers as a mode ("Switch to PRO within CoinSwitch"), allows deposits "only
-from your own self custody wallet or from your wallet on any exchange" and says "We do not
-support crypto withdrawals at this time". The only way out is to sell for INR. Like
-{% include walletLink.html wallet='android/com.weareblox.app' verdict='true' %}, this app can take bitcoin in but never send it, so
-the verdict {% include verdictBadge.html verdict="nosendreceive" type='short' %} stays. The terms link below is dead; it now points to
-an archived copy.
+**Update 2026-10-30:** CoinSwitch PRO, a mode in the app, now accepts some crypto deposits, but its [deposit page](https://coinswitch.co/pro/crypto-deposit) says "We do not support crypto withdrawals at this time". The terms link below is dead; it now points to an archived copy.
 
 ## App Description
 
@@ -96,7 +89,5 @@ You **cannot send or receive assets on this platform.**
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is still in the Indian App Store. See the Android section.
 
 {% include copyFromAndroid.html %}

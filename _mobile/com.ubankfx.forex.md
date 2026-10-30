@@ -34,8 +34,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The app is still gone from Google Play, and the Wayback Machine has no archived copy of its store page. The UBFX website was last archived in [April 2022](https://web.archive.org/web/20220428093652/https://www.ubfx.co.uk/), the month the app left Google Play. Today www.ubfx.co.uk redirects to an unrelated domain. We mark the listing defunct. The verdict stays {% include verdictBadge.html verdict="nosendreceive" type='short' %}.
-
 **Update 2022-04-09**: This app is not available anymore.
 
 ## App Description
@@ -56,8 +54,6 @@ You **cannot send or receive bitcoins** on this app.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The app is still gone from the App Store. We mark it defunct like the Android app. The verdict stays {% include verdictBadge.html verdict="nosendreceive" type='short' %}.
 
 **Update 2021-10-26**: This app is no more.
 

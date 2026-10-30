@@ -39,7 +39,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** We now mark this app defunct. It is still gone from Google Play, aofex.co no longer resolves and aofex.com only returns a Cloudflare error. [Cryptowisser](https://www.cryptowisser.com/exchange/aofex/) could not reach the exchange from January 2022 on and lists it as dead, and [CaptainAltcoin](https://captainaltcoin.com/aofex-review/) calls the shutdown a rug pull. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** AOFEX has shut down. aofex.co no longer resolves, aofex.com only returns a Cloudflare error, and [Cryptowisser](https://www.cryptowisser.com/exchange/aofex/) lists the exchange as dead since January 2022; [CaptainAltcoin](https://captainaltcoin.com/aofex-review/) calls the shutdown a rug pull.
 
 **Update 2022-03-12**: This app is not available anymore.
 
@@ -80,7 +80,7 @@ This app is **custodial** and therefore **not verifiable.**
 
 ## iPhone
 
-**Update 2026-10-30:** The iPhone app is still missing from the App Store, and AOFEX has shut down (see Android). The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** AOFEX has shut down; see the Android section.
 
 **Update 2022-10-21**: This app is not available anymore.
 

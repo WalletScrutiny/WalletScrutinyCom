@@ -37,14 +37,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Pionex is still an exchange with trading bots, and the
-verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
-The app description now tells users to buy coins elsewhere and "transfer to your
-Pionex account", secured by a "withdrawal white list". We found no self-custody
-mode. On 2025-04-10 the French regulator AMF put www.pionex.com on its
-[blacklist](https://www.amf-france.org/en/warnings/blacklists/crypto-currencies/wwwpionexcom)
-because it "offers financial services or products without being authorized".
-
 There is some confusion regarding the Android-iPhone pairing of this app. 
 
 There are two domains associated with Pionex. One with a `.us` extension and the other with a `.com` extension. Apparently, there is a US-regulated version and an international one.
@@ -80,9 +72,5 @@ We signed up to verify and like most exchanges, it is a custodial service
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** On 2026-10-30 Apple's lookup still found the iPhone app in
-the Japanese App Store, last updated on 2026-10-22, but not in the US store. The
-Android findings apply.
 
 {% include copyFromAndroid.html %}

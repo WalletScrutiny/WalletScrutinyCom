@@ -29,7 +29,7 @@ features:
 
 ---
 
-**Update 2026-10-30:** Polymerbit is still active, now at [polymerbit.com](https://www.polymerbit.com/); polymerbit.ch no longer resolves. The [shop](https://www.polymerbit.com/shop) lists twelve notes from CHF 7.50 to CHF 130. The [key generation page](https://www.polymerbit.com/blank-2) names the two directors who make the keys and says Polymerbit "takes the responsibility to create keys", so notes with keys stay {% include verdictBadge.html verdict="prefilled" type='short' %}.
+**Update 2026-10-30:** Polymerbit moved to [polymerbit.com](https://www.polymerbit.com/); polymerbit.ch no longer resolves.
 
 ## Product Description
 

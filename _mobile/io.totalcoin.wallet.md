@@ -43,12 +43,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The website now settles it. Totalcoin's
-[terms](https://totalcoin.io/terms) speak of "crypto stored in TC hosted wallet"
-and reserve the right to limit "access to your wallet", for example on "a valid
-legal request from the authority". Totalcoin holds the keys and the verdict stays
-custodial.
-
 On the wallet's website there is no claim about custodianship which makes us
 assume it is a custodial product.
 
@@ -58,11 +52,7 @@ As such it is **not verifiable**.
 
 ## iPhone
 
-**Update 2026-10-30:** Contrary to the 2022 note below, the app is still listed
-in the Indian App Store, but its last update was on 2023-03-11. Totalcoin's
-[terms](https://totalcoin.io/terms) speak of "crypto stored in TC hosted wallet"
-and reserve the right to limit "access to your wallet", so the verdict stays
-custodial.
+**Update 2026-10-30:** Contrary to the 2022 note below, the app is still listed in the Indian App Store, but its last update was on 2023-03-11.
 
 **Update 2022-04-14**: This app is not available anymore.
 

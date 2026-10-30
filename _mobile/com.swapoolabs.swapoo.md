@@ -33,8 +33,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Swapoo is gone from both Google Play and the App Store, and the Wayback Machine has no archived copy of the Play page. [swapoo.com](https://swapoo.com/) is still online with a generic page about "cryptocurrency exchange and payment processing", while swapoo.ai returns a Cloudflare 522 error. Nothing shows how the app held funds, so it stays {% include verdictBadge.html verdict="wip" type='short' %}.
-
 ## App Description
 
 > Our proprietary wallet is the first step towards providing the world with true fiscal independence. Able to hold cryptocurrency the first step to decentralized monetization, look for us to soon add crypto and fiat trading, peer to peer payment platforms, and even crypto to fiat debit card!
@@ -60,7 +58,5 @@ We will try to send them an email via their Google Play page contact information
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is gone too (no App Store result in the Philippines or the US). It stays {% include verdictBadge.html verdict="wip" type='short' %}.
 
 {% include copyFromAndroid.html %}

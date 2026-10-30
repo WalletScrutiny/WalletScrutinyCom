@@ -32,8 +32,6 @@ features:
 
 ---
 
-**Update 2026-10-30:** We still found no ASTRI hardware wallet product, so this stays {% include verdictBadge.html verdict="vapor" type='short' %}. The project page now redirects to the [ASTRI homepage](https://www.astri.org/en); its [last archived copy, from May 2024](https://web.archive.org/web/20240527024351/https://www.astri.org/tdprojects/communication/), still had only the same two sentences about a "mobile crypto-currency hardware wallet". We found no shop, price, specification or release announcement for it anywhere.
-
 ## Product Description 
 
 From [ASTRI's website](https://web.archive.org/web/20240527024351/https://www.astri.org/tdprojects/communication/):

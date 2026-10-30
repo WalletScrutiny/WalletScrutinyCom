@@ -33,7 +33,7 @@ features:
 
 ---
 
-**Update 2026-10-30:** This device is no longer sold, and its app is gone. The [Amazon listing](https://www.amazon.com/dp/B09MQ8CWJ9/) says "Currently unavailable", and the companion app {% include walletLink.html wallet='iphone/com.idiskk.wallet.usb' verdict='true' %} has been removed from the App Store. icoldwallet.com does not resolve. The maker still exists: the [iDiskk website](https://www.idiskk.com/idiskk_new/?lg=en) is online, but it no longer shows any crypto wallet. We mark the device discontinued; the verdict stays {% include verdictBadge.html verdict="noita" type='short' %}, since the device still has no screen or buttons.
+**Update 2026-10-30:** This device is no longer sold: the [Amazon listing](https://www.amazon.com/dp/B09MQ8CWJ9/) says "Currently unavailable", and the companion app {% include walletLink.html wallet='iphone/com.idiskk.wallet.usb' verdict='true' %} has been removed from the App Store. We mark the device discontinued.
 
 ## General Overview 
 

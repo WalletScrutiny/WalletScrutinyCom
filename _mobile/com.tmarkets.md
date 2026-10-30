@@ -39,8 +39,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The app is still gone from Google Play. www.t1markets.com no longer resolves; the [last archived copy from May 2026](https://web.archive.org/web/20260513130018/http://www.t1markets.com/) only redirects to a parking-style "/lander" page, and an [earlier 2023 capture](https://web.archive.org/web/20230204144226/https://www.t1markets.com/) already said "We do not provide services in your country". The newest posts on [T1Markets' X account](https://x.com/T1_Markets) are from 2021. We now list the provider as defunct. The verdict {% include verdictBadge.html verdict="nosendreceive" type='short' %} stays, as a CFD broker never let users send or receive bitcoin.
-
 ## App Description
 
 > Invest in derivatives on 300+ underlying assets, including Bitcoin, gold, Forex, indices, and stocks.
@@ -75,8 +73,6 @@ Sites/apps that allow users to trade in forex, derivatives and cryptocurrency CF
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is still gone from the App Store (UK and US). See the Android section for why we list T1Markets as defunct.
 
 **Update 2021-12-06**: This app is gone from the Store.
 

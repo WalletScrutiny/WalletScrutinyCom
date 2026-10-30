@@ -21,8 +21,6 @@ android:
 
 ⚠️ **Warning:** We've noticed several odd things about this app. First, there are users who claim that this is a "scam". Secondly, the app's registration process seems to be broken. Nothing happens. Clicking on "register" via the website takes you back to the home page in a loop. On the app, there is no register option, only sign in.
 
-**Update 2026-10-30:** The app is still gone from Google Play, and the Wayback Machine has no archived copy of its store page. [futuretradelink.com](https://futuretradelink.com/) shows only "Under maintenance", as it already did in [July 2025](https://web.archive.org/web/20250711185645/http://futuretradelink.com/). Nothing tells us how the app handled funds, so it stays {% include verdictBadge.html verdict="wip" type='short' %}.
-
 ## App Description
 
 The app's Google Play description is not very specific:

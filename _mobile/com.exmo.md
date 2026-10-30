@@ -52,12 +52,10 @@ that share. [exmo.com](https://exmo.com/) now redirects to a withdrawals-only si
 
 ## Android
 
-**Update 2026-10-30:** The app is gone from Google Play and the exchange behind it
-is winding down. EXMO holds its users' coins, and it
-[says](https://exmowithdrawals.com/blog/en/notifications/exmo-com-is-closing-please-initiate-withdrawal-from-your-account) that part of them were stolen in 2020 or are now frozen by
-third-party custodians, the risk any custodial exchange carries.
-The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}
-and the listing is marked defunct.
+**Update 2026-10-30:** The exchange behind this app is
+[winding down](https://exmowithdrawals.com/blog/en/notifications/exmo-com-is-closing-please-initiate-withdrawal-from-your-account).
+EXMO says part of its users' coins were stolen in 2020 or are now frozen by
+third-party custodians, so it cannot pay out every balance in full.
 
 The Exmo [support FAQ](https://info.exmo.com/en/faq/#deadLink) states under "Where are my EXMO funds kept?"
 
@@ -75,12 +73,10 @@ Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.
 
 ## iPhone
 
-**Update 2026-10-30:** The app is gone from the App Store and the exchange behind it
-is winding down. EXMO holds its users' coins, and it
-[says](https://exmowithdrawals.com/blog/en/notifications/exmo-com-is-closing-please-initiate-withdrawal-from-your-account) that part of them were stolen in 2020 or are now frozen by
-third-party custodians, the risk any custodial exchange carries.
-The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}
-and the listing is marked defunct.
+**Update 2026-10-30:** The exchange behind this app is
+[winding down](https://exmowithdrawals.com/blog/en/notifications/exmo-com-is-closing-please-initiate-withdrawal-from-your-account).
+EXMO says part of its users' coins were stolen in 2020 or are now frozen by
+third-party custodians, so it cannot pay out every balance in full.
 
 The Exmo [support FAQ](https://info.exmo.com/en/faq/#deadLink) states under "Where are my
 EXMO funds kept?"

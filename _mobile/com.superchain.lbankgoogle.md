@@ -42,15 +42,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** LBank is still a centralized exchange and still
-{% include verdictBadge.html verdict="custodial" type='short' %}. The old help
-center at support.lbank.site no longer loads, so the links below are dead. The
-current [LBank User Service Agreement](https://www.lbank.com/support/articles/21436496711705)
-still says LBank will cooperate with authorities "in querying, freezing, or
-transferring User deposits (including but not limited to cash and tokens)". In
-February 2025 Japan's FSA
-[asked Apple and Google to remove the LBank app](https://thecryptobasic.com/2025/02/07/japans-regulator-requests-google-and-apple-to-take-down-kucoin-bybit-bitget-lbank-and-mexc-apps/)
-and four other unregistered exchange apps from their Japanese stores.
+**Update 2026-10-30:** The old help center at support.lbank.site no longer loads, so the links below are dead. The current terms are the [LBank User Service Agreement](https://www.lbank.com/support/articles/21436496711705).
 
 ## App Description
 
@@ -76,8 +68,5 @@ LBank app is **custodial** and thus **not verifiable.**
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is still listed in the US App Store and is
-the same exchange. The verdict still holds; see the Android section.
 
 {% include copyFromAndroid.html %}

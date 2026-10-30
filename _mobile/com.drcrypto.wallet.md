@@ -24,8 +24,6 @@ android:
 - Many users complained that they thought BitSmart was BitMart, a more popular cryptocurrency service.
 - We could not locate the social media accounts of the app.
 
-**Update 2026-10-30:** The app is still gone from Google Play, and the Wayback Machine has no archived copy of its store page. The listing names no website; a bitsmart.app site, which we could not tie to this app, returns only a Cloudflare error. Without evidence of who holds the keys, it stays {% include verdictBadge.html verdict="wip" type='short' %}.
-
 ## App Description
 
 > With BitSmart blockchain wallet, you can expect so much more than just an ordinary crypto wallet. This crypto wallet app allows users to send, receive, and store cryptocurrencies such as: Bitcoin (BTC), Ethereum (ETH), Ripple (XRP), Litecoin (LTC), Stellar (XML), Dash, Bitcoin Cash (BCH) and any ERC-20 token.

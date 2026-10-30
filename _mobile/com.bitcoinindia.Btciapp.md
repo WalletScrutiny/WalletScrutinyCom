@@ -38,13 +38,10 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** This app is still gone from Google Play and the verdict
-holds. The provider is still online: its
+**Update 2026-10-30:** The provider's
 [download page](https://www.bitcoin-india.org/en/downloads) now points to a
 different Android app,
-{% include walletLink.html wallet='android/org.bitcoinindia.Btciapp' verdict='true' %},
-and the [home page](https://www.bitcoin-india.org/en) sells mining packs and calls
-itself "India's No. 1 cryptocurrency wallet".
+{% include walletLink.html wallet='android/org.bitcoinindia.Btciapp' verdict='true' %}.
 
 **Update 2021-09-17**: This app is no more.
 
@@ -98,10 +95,6 @@ and thus **not verifiable** but ... don't install it. Just don't.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The app is still gone from the App Store (US and India).
-The provider's [download page](https://www.bitcoin-india.org/en/downloads) still
-shows an iOS section, but its App Store button leads nowhere. The verdict holds.
 
 **Update 2021-09-11**: This app is not on the App Store anymore.
 

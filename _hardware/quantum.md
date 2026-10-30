@@ -35,8 +35,6 @@ features:
 
 ---
 
-**Update 2026-10-30:** The QUANTUM is still listed at $49 and still marked "Out of stock" on the [order page](https://security-arts.com/order), as it was in 2021. The firmware is still not public: the [SecurityArts GitHub account](https://github.com/SecurityArts) holds only the Quantum Manager, whose last push was on 2023-01-07, and our [issue asking for the firmware source](https://github.com/SecurityArts/QuantumManager/issues/14) is still open without a reply. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
-
 Security Arts' is a Ukrainian company. As of November 26, 2021, the [device is out of stock](https://security-arts.com/order).
 
 ## Private keys can be created offline

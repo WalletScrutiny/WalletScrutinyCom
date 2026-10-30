@@ -41,8 +41,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** ZBX is still a {% include verdictBadge.html verdict="custodial" type='short' %} exchange. The Play description now says Zillion Bits Ltd is authorised by the MFSA as a Crypto-Asset Service Provider under MiCAR. Its help centre moved from zbxone.zendesk.com to zbx.zendesk.com, so the terms links below now point to the new address. The [current Terms of Business](https://zbx.zendesk.com/hc/en-us/articles/900001053666-Terms-of-Business) describe "Crypto-Asset Custody Services" and keep the suspension clause 10.1 quoted below.
-
 ## App Description
 
 It's a cryptocurrency trading platform.
@@ -68,6 +66,6 @@ This is a cryptocurrency exchange. As specified in its [Terms](https://zbx.zende
 
 ## iPhone
 
-**Update 2026-10-30:** The iPhone app is not gone. It has no App Store result in the US, but it is [listed in Malta](https://itunes.apple.com/lookup?id=1458088759&country=mt), last updated to version 2.5.31 on 2026-09-10. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** The iPhone app is not gone. It has no App Store result in the US, but it is [listed in Malta](https://itunes.apple.com/lookup?id=1458088759&country=mt), last updated to version 2.5.31 on 2026-09-10.
 
 {% include copyFromAndroid.html %}

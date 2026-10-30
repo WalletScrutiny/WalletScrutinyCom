@@ -30,8 +30,6 @@ features:
 
 ---
 
-**Update 2026-10-30:** The project is still gone. diyhardwarewallet.com is now a parked domain for sale, and the [JAG Electromagnetics website](https://www.jagelectromagnetics.com/) only shows antennas and RF filters, with no mention of the wallet. The link to the archived project page below now points to the [last archived copy from November 2020](https://web.archive.org/web/20201109035414/http://diyhardwarewallet.com/). The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
-
 The social media account for this specific project has not been updated since 2018 and the website is down. Any quotes listed below were taken from the [archived version of the website.](https://web.archive.org/web/20201109035414/http://diyhardwarewallet.com/)
 
 From the description:

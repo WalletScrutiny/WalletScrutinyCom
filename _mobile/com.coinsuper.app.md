@@ -37,8 +37,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The app is still gone from Google Play. The Coinsuper website blocks our requests, but an [archived copy from June 2026](https://web.archive.org/web/20260617021405/https://www.coinsuper.com/) still shows the exchange with login, registration and "your Coinsuper account". The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
-
 **Update 2022-01-14**: This app is not available anymore.
 
 ## App Description
@@ -58,8 +56,6 @@ We did not download the app anymore due to its self-description as a custodian s
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The app is still gone from the App Store. The Coinsuper website blocks our requests, but an [archived copy from June 2026](https://web.archive.org/web/20260617021405/https://www.coinsuper.com/) still shows the exchange with login, registration and "your Coinsuper account". The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 **Update 2022-01-17**: This app is not available anymore.
 

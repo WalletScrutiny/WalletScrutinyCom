@@ -32,8 +32,6 @@ features:
 
 ---
 
-**Update 2026-10-30:** Still defunct as a bitcoin product. [casascius.com](https://www.casascius.com/) still says that sales of items containing bitcoins stopped on November 27, 2013. The [Casascius Bitcoin Analyzer](https://casascius.uberbills.com/) today counts 17,437 coins and bars that are still unopened, holding about 34,571 BTC, so many remain in circulation. The verdict stays {% include verdictBadge.html verdict="sealed-plainkey" type='short' %}.
-
 ## Background
 
 The idea of physical coins that contain bitcoins was the brainchild of Mike Caldwell, a software engineer from Utah. The coins come in different BTC denominations: 1, 10, 25, 100 and 1000. The physical bitcoins grew in popularity because of their tangible nature. They were first announced in the bitcointalk.org forum on [September 6, 2011.](https://bitcointalk.org/index.php?topic=41892.msg509883#msg509883) Embedded in each physical coin is a 30-character string representing the private key. This was covered by a tamper-resistant hologram.

@@ -32,7 +32,7 @@ features:
 
 **⚠️ Warning:** The versocards.com domain no longer belongs to Verso. It now shows an unrelated page that sends visitors to a third-party "official Bitcoin wallet" sign-up site. Do not use it.
 
-**Update 2026-10-30:** Verso is gone. Its domain was taken over (see the warning above), the [VersoSolutions GitHub account](https://github.com/VersoSolutions) has had no code pushed since 2019, and the Verso Wallet app is still absent from Google Play. The listing stays defunct and {% include verdictBadge.html verdict="prefilled" type='short' %}.
+**Update 2026-10-30:** Verso's domain was taken over and now serves an unrelated page; see the warning above.
 
 ## Addendum 2022-03-19
 

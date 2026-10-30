@@ -44,7 +44,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Koin Bazar is now KoinBX, at [koinbx.com](https://koinbx.com/). The old terms page is gone. The current [Terms of Use](https://koinbx.com/legal?tab=terms-and-use) say that after sign-up "you will have a default Wallet in your account dashboard", and that KoinBX "reserves the right to seize, suspend, or delete user accounts and funds". KoinBX describes itself as [FIU-registered in India](https://www.manilatimes.net/2026/06/04/tmt-newswire/globenewswire/koinbx-fiu-registered-and-trusted-by-15-million-users-drives-accessible-crypto-trading-in-india/2358516). Both apps are still listed. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** Koin Bazar is now KoinBX, at [koinbx.com](https://koinbx.com/). The old terms page is gone, so the link below points to an archived copy.
 
 ### App Description
 

@@ -42,14 +42,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** VALR is still an exchange that holds its customers' coins.
-The app description now promises "secure custody" for "your account", and in
-October 2025 VALR published a
-[proof of reserves audit by Hacken](https://blog.valr.com/blog/valr-successfully-completes-proof-of-reserves-audit-by-hacken)
-of the assets it holds against its users' balances, confirming "a 1:1 ratio for
-all in-scope digital assets". It remains
-{% include verdictBadge.html verdict="custodial" type='short' %}.
-
 I need not go further into researching this wallet as the statement on the Google Play description screams custodial.
 
 > We hold your cryptocurrencies in both “cold storage” and “hot wallets”.
@@ -61,14 +53,6 @@ Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** VALR is still an exchange that holds its customers' coins.
-The app description now promises "secure custody" for "your account", and in
-October 2025 VALR published a
-[proof of reserves audit by Hacken](https://blog.valr.com/blog/valr-successfully-completes-proof-of-reserves-audit-by-hacken)
-of the assets it holds against its users' balances, confirming "a 1:1 ratio for
-all in-scope digital assets". It remains
-{% include verdictBadge.html verdict="custodial" type='short' %}.
 
 I need not go further into researching this wallet as the statement on the
 Google Play description screams custodial.

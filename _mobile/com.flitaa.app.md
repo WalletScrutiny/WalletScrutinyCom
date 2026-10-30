@@ -41,7 +41,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Flitaa was [acquired by the Nigerian exchange Roqqu](https://innovation-village.com/nigerian-crypto-exchange-roqqu-acquires-kenyas-flitaa-to-accelerate-east-african-expansion/) in July 2025. Roqqu said Flitaa's operations would be fully integrated into its own platform. The Flitaa app is still in the store but has had no update since June 2025, and [flitaa.com](https://flitaa.com) still promotes it. Roqqu is listed here as {% include walletLink.html wallet='android/com.roqqu.app' verdict='true' %}. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** Flitaa was [acquired by the Nigerian exchange Roqqu](https://innovation-village.com/nigerian-crypto-exchange-roqqu-acquires-kenyas-flitaa-to-accelerate-east-african-expansion/) in July 2025, which said Flitaa's operations would be fully integrated into its own platform. Roqqu is listed here as {% include walletLink.html wallet='android/com.roqqu.app' verdict='true' %}.
 
 ## App Description
 
@@ -71,6 +71,6 @@ All signs point to this being a **custodial** app and thus it is **not verifiabl
 
 ## iPhone
 
-**Update 2026-10-30:** The iPhone app is still in the Nigerian App Store, also without an update since June 2025. Flitaa now belongs to Roqqu ({% include walletLink.html wallet='iphone/com.roqqu.ios' verdict='true' %}), see the Android section. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** Flitaa now belongs to Roqqu ({% include walletLink.html wallet='iphone/com.roqqu.ios' verdict='true' %}); see the Android section.
 
 {% include copyFromAndroid.html %}

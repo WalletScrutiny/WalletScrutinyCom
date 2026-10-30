@@ -20,8 +20,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still on Google Play. Its description no longer mentions bitcoin and now asks users to contact info@tradewill.com. The provider's site, [tradewill.com](https://tradewill.com), lists "Crypto CFDs" among its markets and says TradeWill Global Limited is licensed by the Seychelles Financial Services Authority. We did not install the app again, so we could not check whether the in-app crypto wallets we found in 2021 are still there. Either way, the provider holds the funds, so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
-
 ## App Description
 
 > Trade global popular varieties with one account: forex, gold, bitcoin, stock indices, energy and more, Be a trader now and start making money.

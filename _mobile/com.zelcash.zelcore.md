@@ -48,8 +48,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Zelcore still calls itself non-custodial ("Non-custodial — you own the private keys", [zelcore.io](https://zelcore.io/)), and its own GitHub repository now says outright that the app is closed: "Zelcore is a closed source wallet. These are some open source components of Zelcore such as documentation, logs" ([ZelCore-io/Zelcore](https://github.com/ZelCore-io/Zelcore)). The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
-
 ## Update 2024-07-13
 
 No change regarding source-availability has been found.

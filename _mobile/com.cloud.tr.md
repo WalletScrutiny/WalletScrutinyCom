@@ -41,13 +41,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Binance TR is still a {% include verdictBadge.html verdict="custodial" type='short' %} exchange, and today
-showed what that means. On 2026-10-30 it
-[temporarily stopped crypto withdrawals](https://www.diken.com.tr/binance-turkiyede-kripto-cekimlerini-durdurdu/)
-as a precaution, while trading and Turkish lira deposits and withdrawals kept working.
-This followed a [hack of Binance](https://www.engadget.com/2301941/binance-hacked-for-estimated-6-3-billion-in-record-crypto-theft/)
-estimated at $6.3 billion; Binance says it will cover all losses and that "user funds are
-safe". The agreement link below now redirects to binance.tr and still loads.
+**Update 2026-10-30:** On 2026-10-30 Binance TR [temporarily stopped crypto withdrawals](https://www.diken.com.tr/binance-turkiyede-kripto-cekimlerini-durdurdu/) as a precaution after a [hack of Binance](https://www.engadget.com/2301941/binance-hacked-for-estimated-6-3-billion-in-record-crypto-theft/), while trading and Turkish lira deposits and withdrawals kept working.
 
 ## App Description
 
@@ -76,7 +70,5 @@ Like its counterpart {% include walletLink.html wallet='android/com.binance.dev'
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is still in the Turkish App Store. See the Android section.
 
 {% include copyFromAndroid.html %}

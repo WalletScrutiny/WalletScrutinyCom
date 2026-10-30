@@ -23,7 +23,7 @@ android:
 
 ---
 
-**Update 2026-10-30:** ChainEX is still trading. [chainex.io](https://chainex.io/) refers to its FSCA authorisation and now also links an iPhone app. The [terms](https://chainex.io/terms) (3.12, 3.13 and 5.4) say that ChainEX "may control the corresponding private keys" and may keep customer assets in omnibus wallets, in hot and cold storage. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}. The withdrawal FAQ moved to the support site, and we updated the link below.
+**Update 2026-10-30:** The withdrawal FAQ moved to the support site, and we updated the link below.
 
 ## App Description
 

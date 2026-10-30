@@ -50,10 +50,7 @@ Its website no longer loads.
 ## Android
 
 **Update 2026-10-30:** The exchange behind this app is bankrupt, see the
-warning above. zondacrypto.com now returns a Cloudflare error 522 and the app
-is gone from Google Play. The exchange held its customers' coins, and they can
-now only file claims with the bankruptcy trustee. The verdict stays custodial
-and the listing is marked defunct.
+warning above. Its customers can now only file claims with the bankruptcy trustee.
 
 This app's description loses no word on who holds the keys to your coins. Their
 website is mainly about the exchange and not about the mobile appp but there is
@@ -66,11 +63,7 @@ probably means this app is a custodial offering and therefore **not verifiable**
 ## iPhone
 
 **Update 2026-10-30:** The exchange behind this app is bankrupt, see the
-warning above. zondacrypto.com now returns a Cloudflare error 522. The app is
-still listed in the Canadian and Polish App Store but was last updated on
-2025-10-21. The exchange held its customers' coins, and they can now only file
-claims with the bankruptcy trustee. The verdict stays custodial and the listing
-is marked defunct.
+warning above. Its customers can now only file claims with the bankruptcy trustee.
 
 This app's description loses no word on who holds the keys to your coins. Their
 website is mainly about the exchange and not about the mobile appp but there is

@@ -30,7 +30,7 @@ android:
 
 ---
 
-**Update 2026-10-30:** Blixt is still on Google Play and still under active development. The code has moved to [github.com/smolcars/blixt-wallet](https://github.com/smolcars/blixt-wallet), an organization that links to blixtwallet.com; the old BlixtWallet address redirects there. It is still MIT licensed, the latest [GitHub release v0.9.0](https://github.com/smolcars/blixt-wallet/releases/tag/v0.9.0) came out on 2026-02-18 with APKs attached, and the README still links only a TestFlight beta for iPhone. The verdict stays {% include verdictBadge.html verdict="sourceavailable" type='short' %}.
+**Update 2026-10-30:** The code has moved to [github.com/smolcars/blixt-wallet](https://github.com/smolcars/blixt-wallet); the old BlixtWallet address redirects there.
 
 **Update 2022-02-07**: This wallet recently reached 1000 downloads on Play
 Store, so now it's time to see if it reproducible ...

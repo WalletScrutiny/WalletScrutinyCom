@@ -18,8 +18,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play, and the Wayback Machine holds no copy of its store page. The listing named no website or provider, so there is nothing left to check, and it stays {% include verdictBadge.html verdict="wip" type='short' %}.
-
 ## Updated Review 2021-10-29
 
 **⚠️ Caution:** Cloud mining apps that run on a phone with no reference to a mining facility and require referrals are generally shady projects that are not really into mining. Users are cautioned regarding apps like these. 

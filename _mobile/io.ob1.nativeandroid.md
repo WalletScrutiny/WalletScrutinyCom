@@ -46,11 +46,7 @@ The domain gethaven.app now hosts an unrelated Thai-language blog.
 
 ## Android
 
-**Update 2026-10-30:** The app is still gone from Google Play and its provider
-has shut down, so we mark it defunct. The
-[repository](https://github.com/OpenBazaar/haven) is still online but has not
-changed since 2020-08-11, so the build files we missed are still missing and the verdict stays
-{% include verdictBadge.html verdict="sourceavailable" type='short' %}.
+**Update 2026-10-30:** The provider has shut down; see the warning above.
 
 {% include featureEvidence.html feature="foss" source="[License](https://github.com/OpenBazaar/haven/blob/master/LICENSE)" quote="MIT License" %}
 
@@ -174,9 +170,7 @@ An issue has been opened at [https://github.com/OpenBazaar/haven/issues/3](https
 
 ## iPhone
 
-**Update 2026-10-30:** Still gone from the App Store, with the provider shut
-down as described above. The verdict stays
-{% include verdictBadge.html verdict="sourceavailable" type='short' %}.
+**Update 2026-10-30:** The provider has shut down as described above.
 
 **Update:** As of now, this app is not to be found on the App Store.
 

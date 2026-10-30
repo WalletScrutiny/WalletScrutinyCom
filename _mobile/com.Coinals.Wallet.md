@@ -22,9 +22,6 @@ android:
 [Wayback Machine](https://web.archive.org/web/2023*/coinals.com) has nothing but redirects for it after
 June 2023.
 
-**Update 2026-10-30:** The app is still gone from Google Play, and the Wayback Machine holds no copy of its
-store page, so we have no evidence for a verdict and keep it at {% include verdictBadge.html verdict="wip" type='short' %}.
-
 ## App Description
 
 > It's easy to start earning with Coinals Wallet

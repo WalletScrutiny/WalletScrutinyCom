@@ -25,7 +25,7 @@ android:
 
 ---
 
-**Update 2026-10-30:** This app is gone from Google Play in every country we tried, including Iran. The exchange still runs: [exnovin.io](https://exnovin.io/) is online, still links to this appId and offers a direct APK download. Its sibling app {% include walletLink.html wallet='android/com.exnovin' verdict='true' %} is still listed. Nothing suggests the exchange gave up the keys it told us it holds, so it stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** This app is gone from Google Play in every country we tried, including Iran. [exnovin.io](https://exnovin.io/) still links to this appId and offers a direct APK download.
 
 There are two apps with the same name of {% include walletLink.html wallet='android/com.exnovin' verdict='true' %}. Both appear to be created by the same developer [Team App E](https://play.google.com/store/apps/developer?id=Team+App+E). Both are Iranian. However, both have different website domains. This specific app links to [exnovin.io](https://exnovin.io).
 

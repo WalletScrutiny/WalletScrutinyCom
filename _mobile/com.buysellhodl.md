@@ -21,8 +21,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play. Its domain
-buysellhodlapp.com now serves an unrelated gambling spam page, so the provider
-has abandoned it. We keep this listing as work in progress.
+**Update 2026-10-30:** The provider's domain buysellhodlapp.com now serves an unrelated gambling spam page.
 
 This app appears to only provide information without being a wallet.

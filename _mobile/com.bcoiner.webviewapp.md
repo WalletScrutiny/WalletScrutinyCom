@@ -20,13 +20,7 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play. The domain
-[bcoiner.com](https://www.bcoiner.com/) now shows a new landing page that
-claims a "self-custody wallet" and 78 million users, but names no company and
-offers no app or source code. Its only link,
-[wallet.bcoiner.com](https://wallet.bcoiner.com/), returned a 503 error when we
-checked. Nothing here changes our verdict:
-{% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** The domain [bcoiner.com](https://www.bcoiner.com/) now shows a new landing page that claims a "self-custody wallet" and 78 million users, but names no company and offers no app or source code.
 
 **Update 2021-06-24**: This app is back on Google Play but given the app is the
 one app we got most support requests about, from people that believe it's a

@@ -38,7 +38,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The app is still gone from Google Play and the App Store. Royal Forex Ltd, which ran ROInvesting, gave up its Cyprus investment firm licence: CySEC [withdrew it in early 2025](https://fxnewsgroup.com/forex-news/retail-forex/royal-forex-loses-cysec-cif-license/) "due to the company's decision to expressly renounce it". Since October 2025 the Wayback Machine has only [captured a redirect to a /lander page](https://web.archive.org/web/20260310091411/http://roinvesting.com/) on roinvesting.com instead of the broker site. Trading was always in CFDs, so the verdict stays {% include verdictBadge.html verdict="nosendreceive" type='short' %}.
+**Update 2026-10-30:** ROInvesting appears to be gone. Royal Forex Ltd, which ran it, gave up its Cyprus investment firm licence: CySEC [withdrew it in early 2025](https://fxnewsgroup.com/forex-news/retail-forex/royal-forex-loses-cysec-cif-license/) "due to the company's decision to expressly renounce it". Since October 2025 the Wayback Machine has only [captured a redirect to a /lander page](https://web.archive.org/web/20260310091411/http://roinvesting.com/) on roinvesting.com instead of the broker site.
 
 ## App Description
 
@@ -62,7 +62,7 @@ This app **cannot send or receive bitcoins**.
 
 ## iPhone
 
-**Update 2026-10-30:** The app is still gone from the App Store. See the Android section for what happened to the provider. The verdict stays {% include verdictBadge.html verdict="nosendreceive" type='short' %}.
+**Update 2026-10-30:** See the Android section for what happened to the provider.
 
 **Update 2021-11-26**: This app is not available anymore.
 

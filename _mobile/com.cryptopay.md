@@ -23,8 +23,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play. The provider [Shamla Tech](https://shamlatech.com/) is still online, now as a blockchain and AI development agency. A GitHub search for `com.cryptopay` finds no source code, so the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
-
 **Update 2022-01-15**: This app is not on the Store anymore.
 
 This wallet claims to be non-custodial but we cannot find any source code on their [official Website page](https://shamlatech.com/).

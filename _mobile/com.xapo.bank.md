@@ -46,8 +46,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Xapo Bank still runs this app and is still custodial. Its [security page](https://www.xapobank.com/en/company/our-security-system) says Xapo secures client bitcoin with key shards in its own bunkers (MPC), so the user holds no keys. Xapo Bank Limited is a credit institution regulated by the Gibraltar Financial Services Commission (same page). The verdict {% include verdictBadge.html verdict="custodial" type='short' %} still holds.
-
 **Update 2021-08-06**: Xapo
 [confirmed on Twitter](https://twitter.com/xapo/status/1423632786112516097)
 that there is a transition happening from xapo to xapo bank:
@@ -65,8 +63,6 @@ By its name alone we assume it is custodial and thus **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is still listed in the Finnish App Store, not in the US one. Custody is the same as on Android, so the verdict {% include verdictBadge.html verdict="custodial" type='short' %} still holds.
 
 {% include copyFromAndroid.html %}
 

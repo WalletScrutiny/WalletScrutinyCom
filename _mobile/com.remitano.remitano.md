@@ -45,13 +45,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Still custodial. In September 2023 an attacker took
-about $2.7 million from Remitano's hot wallet, and Remitano then moved user funds
-to cold wallets
-([Halborn](https://www.halborn.com/blog/post/explained-the-remitano-hack-september-2023)).
-The [website](https://remitano.com/) still sells the app as a "crypto wallet" for
-buying and selling, with no self-custody claim.
-
 This app is an interface to an exchange which holds your coins. On Google Play
 and their website there is no claim to a non-custodial part to the app. As a
 custodial app it is **not verifiable**.
@@ -59,13 +52,6 @@ custodial app it is **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** Still custodial. In September 2023 an attacker took
-about $2.7 million from Remitano's hot wallet, and Remitano then moved user funds
-to cold wallets
-([Halborn](https://www.halborn.com/blog/post/explained-the-remitano-hack-september-2023)).
-The [website](https://remitano.com/) still sells the app as a "crypto wallet" for
-buying and selling, with no self-custody claim.
 
 This app is an interface to an exchange which holds your coins. On the App Store
 and their website there is no claim to a non-custodial part to the app. As a

@@ -43,24 +43,12 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Still custodial. Bit2Me
-[says](https://blog.bit2me.com/en/bit2me-authorised-exchange-mica/) it has held a
-MiCA licence from Spain's CNMV since July 2025, and its
-[website](https://bit2me.com/) describes custody as "We store and secure your
-funds in cold wallets". We found no claim of a self-custody mode.
-
 This appears to be the interface for an exchange. We could not find any claims
 about you owning your keys. As a custodial service it is **not verifiable**.
 
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** Still custodial. Bit2Me
-[says](https://blog.bit2me.com/en/bit2me-authorised-exchange-mica/) it has held a
-MiCA licence from Spain's CNMV since July 2025, and its
-[website](https://bit2me.com/) describes custody as "We store and secure your
-funds in cold wallets". We found no claim of a self-custody mode.
 
 This appears to be the interface for an exchange. We could not find any claims
 about you owning your keys. As a custodial service it is **not verifiable**.

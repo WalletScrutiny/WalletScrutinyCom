@@ -41,11 +41,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The Android app is gone from Google Play.
-[bitkan.com](https://bitkan.com/) is still up and offers spot trading, futures and
-trading bots under the slogan "One BitKan Account. Connect Binance, OKX & More." We
-found nothing new on who holds the keys, so the verdict {% include verdictBadge.html verdict="custodial" type='short' %} stays.
-
 ## App Description
 
 > BitKan is a one-stop investment service platform for Bitcoin. BitKan provides multiple services such as Market Price Watch, Informations, Community K Site, Digital Wallets.
@@ -84,9 +79,6 @@ While waiting for their reply, we are going to assume that as the keys are not a
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is still in the US App Store, now titled "BitKan: Buy
-Bitcoin & Crypto". See the Android section.
 
 {% include copyFromAndroid.html %}
 

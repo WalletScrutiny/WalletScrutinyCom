@@ -51,7 +51,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The app is still closed source. The [ELLIPAL GitHub account](https://github.com/ELLIPAL?tab=repositories) holds no code for this app. Its most recently updated repositories are firmware for the ELLIPAL Joy mnemonic generator and a tool to verify Titan upgrade files, neither of which builds this app. ELLIPAL's blog post quoted below is gone from its website, so we now link [an archived copy](https://web.archive.org/web/20250916221029/https://www.ellipal.com/blogs/news/how-much-does-open-source-contribute-to-security). The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** ELLIPAL's blog post quoted below is gone from its website, so we now link [an archived copy](https://web.archive.org/web/20250916221029/https://www.ellipal.com/blogs/news/how-much-does-open-source-contribute-to-security).
 
 ## Update 2024-07-17
 
@@ -79,8 +79,6 @@ we assume the app is closed source and thus **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** As on Android, we found no source code for the iPhone app on the [ELLIPAL GitHub account](https://github.com/ELLIPAL?tab=repositories). The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 {% include copyFromAndroid.html %}
 

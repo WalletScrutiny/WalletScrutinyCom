@@ -34,7 +34,7 @@ features:
 
 ---
 
-**Update 2026-10-30:** The PURE series is no longer sold. Ballet moved from balletcrypto.com to [ballet.com](https://www.ballet.com/), the PURE page now shows the generic home page, and the [Ballet store](https://store.ballet.com/) lists only REAL cards, coins and gift cards; the PURE product page we linked as the shop returns "page not found" there. We mark it discontinued. Ballet still documents the [2FKG process](https://www.ballet.com/en/2FKG/) quoted below, and the verdict stays {% include verdictBadge.html verdict="sealed-plainkey" type='short' %}.
+**Update 2026-10-30:** The PURE series is no longer sold. Ballet moved to [ballet.com](https://www.ballet.com/), and its [store](https://store.ballet.com/) lists only REAL cards, coins and gift cards; the PURE product page returns "page not found". We mark it discontinued.
 
 Similar to the Casascius coins but built to be the same size as a credit card, Ballet Crypto Pure is the next iteration of Ballet's physical bitcoin product series. It comes in denominations of 0.1, 0.025, 0.01 or 0.005 BTC. It comes in stainless steel, 24K gold-plated or plastic. Both the public address and the private keys are physically located on the card. The manufacturer assures that they [do not keep records](https://www.balletcrypto.com/en/2FKG/) of the private keys through their **Two-Factor Key Generation** (2FKG) production process:
 

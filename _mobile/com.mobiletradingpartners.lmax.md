@@ -41,8 +41,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Nothing changed. The app is still on Google Play, and the [LMAX Global page](https://www.lmax.com/global) still offers "FX, metals, equity indices, commodities and crypto CFDs", now from brokers in the UK, Europe, New Zealand and Mauritius. Spot crypto stays with LMAX Digital. With CFDs only, the verdict stays {% include verdictBadge.html verdict="nosendreceive" type='short' %}.
-
 ## Updated Review 2023-04-04
 
 With some further digging, we [found](https://www.lmax.com/about) that: 
@@ -87,7 +85,5 @@ Because this is primarily a trading app that utilizes crypto CFDs rather than a 
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The app is still on the App Store and is the iPhone version of the same LMAX Global app. The verdict stays {% include verdictBadge.html verdict="nosendreceive" type='short' %}.
 
 {% include copyFromAndroid.html %}

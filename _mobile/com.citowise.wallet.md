@@ -24,12 +24,6 @@ On 2026-10-30 citowise.com answered again, but with a copy of the old page,
 marked "2016 - 2020", that now carries links to betting and casino articles.
 We found no sign of a maintained wallet.
 
-**Update 2026-10-30:** The app is still gone from Google Play, and the website
-no longer represents a working product, so we mark the provider as defunct. The
-[citowise GitHub account](https://github.com/citowise) holds only two token
-contract repositories from 2018, no wallet code. The verdict stays
-{% include verdictBadge.html verdict="nosource" type='short' %}.
-
 **Update 2021-06-02**: As for our review a month ago, the provider website was
 already offline, we assume the store listing being gone now is a permanent
 thing and thus file the app as defunct.

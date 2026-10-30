@@ -36,8 +36,6 @@ features:
 
 ---
 
-**Update 2026-10-30:** The MIRkey is still for sale. The [order page](https://ellipticsecure.com/order.html) lists it at $49 as a "FIDO Certified™ FIDO2 L1 Authenticator and Bitcoin Wallet", and the [Electrum tutorial](https://ellipticsecure.com/mirkey/how-to/2019/07/08/how-to-use-MIRkey-hardware-bitcoin-wallet-with-Electrum.html) is still online. The device still has no screen, so the verdict stays {% include verdictBadge.html verdict="noita" type='short' %}.
-
 > The MIRkey is a [FIDO2 Security Key](https://ellipticsecure.com/mirkey/faq/2019/05/28/what-is-a-hardware-security-key.html), multi-purpose [HSM](https://ellipticsecure.com/ehsm/faq/2019/02/09/what-is-a-hardware-security-module.html) and hardware Bitcoin wallet.
 
 Here is [a tutorial](https://ellipticsecure.com/mirkey/how-to/2019/07/08/how-to-use-MIRkey-hardware-bitcoin-wallet-with-Electrum.html) on how to use this wallet with Electrum.

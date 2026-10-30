@@ -40,8 +40,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** This app is still gone from Google Play, and xapo.com now [redirects to xapobank.com](https://www.xapobank.com/en). Its successor {% include walletLink.html wallet='android/com.xapo.bank' verdict='true' %} is custodial too.
-
 **Update 2021-08-02**: Xapo discontinued this app to migrate its users to 
 {% include walletLink.html wallet='android/com.xapo.bank' verdict='true' %}.
 
@@ -61,8 +59,6 @@ otherwise neither which makes us conclude: This app is **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** This app is still gone from the App Store, and xapo.com now [redirects to xapobank.com](https://www.xapobank.com/en). Its successor is the iPhone version of {% include walletLink.html wallet='android/com.xapo.bank' verdict='true' %}.
 
 **Update 2021-08-02**: Xapo discontinued this app to migrate its users to the
 Apple version of {% include walletLink.html wallet='android/com.xapo.bank' verdict='true' %}.

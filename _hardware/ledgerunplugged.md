@@ -35,8 +35,6 @@ features:
 
 ---
 
-**Update 2026-10-30:** Still discontinued. Ledger's [discontinued products page](https://support.ledger.com/article/360010500620-zd), last updated in May 2026, lists the Ledger Unplugged among products that "have been discontinued and are not supported anymore". The device still had no screen, so the verdict stays {% include verdictBadge.html verdict="noita" type='short' %}.
-
 The [provider's website has a clear statement](https://support.ledger.com/hc/en-us/articles/360010500620-Discontinued-products?docs=true) that this wallet is discontinued and we considered it defunct.
 
 As can be seen in [this video](https://www.youtube.com/watch?v=mZhbLtPlU5I), the

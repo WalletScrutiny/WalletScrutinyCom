@@ -31,7 +31,5 @@ features:
 
 ---
 
-**Update 2026-10-30:** Nothing changed. On 2026-10-30 blackbirdwallet.io no longer resolved; its [last archived copy with content is from March 2019](https://web.archive.org/web/20190331080727/https://blackbirdwallet.io/). The parent brand's site [ammbr.com](https://ammbr.com/) now advertises an unrelated eSIM marketplace and says nothing about Blackbird. We found no source code, so this stays {% include verdictBadge.html verdict="nosource" type='short' %} and defunct.
-
 The website for this product is no longer available. Information about the product can be found via their twitter account and an unboxing video on [YouTube](https://www.youtube.com/watch?v=cExXitndmvc). They claim the device is airgapped. It has a touch screen display. Users can generate the private keys during initial wallet creation. It can be backed up via a 24-word recovery seed. There is no indication that the product is Open Source.
 

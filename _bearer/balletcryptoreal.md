@@ -35,8 +35,6 @@ features:
 
 ---
 
-**Update 2026-10-30:** The REAL card is still sold. Ballet moved from balletcrypto.com to [ballet.com](https://www.ballet.com/), and the [Ballet store](https://store.ballet.com/products/ballet-wallet) now lists the card at $49, next to gold and limited editions. Ballet still describes the same [2FKG process](https://www.ballet.com/en/2FKG/), and the companion app {% include walletLink.html wallet='android/com.balletcrypto' verdict='true' %} is still available. We found no change to the design, so the verdict stays {% include verdictBadge.html verdict="sealed-plainkey" type='short' %}.
-
 **Updated Analysis 2022-01-20**
 
 Ballet Crypto REAL is the original and first iteration of the Ballet Crypto Cards series. Subsequent items are:

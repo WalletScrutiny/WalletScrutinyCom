@@ -46,17 +46,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Mixin Messenger is still listed and its source is still public. The
-[Android repository](https://github.com/MixinNetwork/android-app) is GPL-3.0, was pushed to today and
-tagged [v6.3.6](https://github.com/MixinNetwork/android-app/releases/tag/v6.3.6) on 2026-10-25. Our
-reproducibility issue [4980](https://github.com/MixinNetwork/android-app/issues/4980) (the build fails
-on a MapBox requirement) is still open, and we have not built the app again, so the verdict stays
-{% include verdictBadge.html verdict="sourceavailable" type='short' %}. On 2023-09-23 the database of Mixin Network's cloud service provider was attacked,
-about $200 million of mainnet assets were drained and deposits and withdrawals were halted
-([Cointelegraph](https://cointelegraph.com/news/mixin-network-hack-200-m-crypto-assets)). The
-[website](https://messenger.mixin.one/) now advertises "battle-tested MPC technology" and a wallet that can
-"Import mnemonics, private keys, and watch-only addresses".
-
 *Legacy Verification [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/33ef490dd35a82be08872f7b30a5e79d19aed087/_android/one.mixin.messenger.md)*
 
 ---
@@ -94,10 +83,7 @@ An issue has been opened at [https://github.com/MixinNetwork/android-app/issues/
 
 ## iPhone
 
-**Update 2026-10-30:** The iPhone app is still listed (version 6.3.6, 2026-10-23). Its source
-is in a separate [iOS repository](https://github.com/MixinNetwork/ios-app), which was pushed to today; the
-listing used to point at the Android repository, which we corrected. The verdict stays
-{% include verdictBadge.html verdict="sourceavailable" type='short' %}.
+**Update 2026-10-30:** The iPhone app's source is in a separate [iOS repository](https://github.com/MixinNetwork/ios-app); the listing used to point at the Android repository, which we corrected.
 
 **Note:** iPhone products are not verifiable.
 

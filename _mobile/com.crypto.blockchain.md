@@ -20,8 +20,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play (the store page returns 404) and the Wayback Machine has no copy of it. The listing names no website to check. The verdict stays {% include verdictBadge.html verdict="fake" type='short' %}.
-
 **Update 2021-10-07**: This app is not on Play Store anymore.
 
 This looks like a fake {% include walletLink.html wallet='android/piuk.blockchain.android' verdict='true' %}.

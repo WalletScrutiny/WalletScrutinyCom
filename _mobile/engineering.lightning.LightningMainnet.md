@@ -19,7 +19,7 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play, and the [lightning-app repository](https://github.com/lightninglabs/lightning-app) is archived (last push July 2020). The provider's website [lightning.engineering](https://lightning.engineering) is still online. The Play Store description, as archived by the Wayback Machine on 2022-01-27, told users to close their channels and move their funds before the app was pulled on December 31, 2020, and said: "the code for the App will still be available on Github as a reference for developers even after the App has been pulled." The repository has a `mobile` folder with the Android build, which we could not build (see below). Like the desktop {% include walletLink.html wallet='desktop/lightning.app' verdict='true' %}, we file this app as {% include verdictBadge.html verdict="sourceavailable" type='short' %}.
+**Update 2026-10-30:** The Play Store description, as archived by the Wayback Machine on 2022-01-27, said: "the code for the App will still be available on Github as a reference for developers even after the App has been pulled." The archived [lightning-app repository](https://github.com/lightninglabs/lightning-app) still has the Android build in its `mobile` folder, so like the desktop {% include walletLink.html wallet='desktop/lightning.app' verdict='true' %} we file this app as {% include verdictBadge.html verdict="sourceavailable" type='short' %}.
 
 **Update:** This app is not supported by its provider anymore. As the name reads
 "Lightning (Remove Funds by Dec 31st)" and the description talks about "3

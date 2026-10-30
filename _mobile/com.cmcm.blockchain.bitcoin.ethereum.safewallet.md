@@ -25,12 +25,6 @@ returned an empty page, as it has in the
 [Internet Archive](https://web.archive.org/web/2021/http://safewallet.cmcmbc.com/)
 since 2021.
 
-**Update 2026-10-30:** The app is still gone from Google Play and its website is
-an empty page, so we mark the provider as defunct. The Telegram group
-"SafeWallet Official Group" still lists 518 members, but we could not see any
-messages in it.
-The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
-
 This app disappeared from Google Play! While this might be an
 accident, it sure is not inducing much confidence. We also checked their Twitter
 (last tweet was "Merry Christmas!"), their YouTube (no new videos in a year),

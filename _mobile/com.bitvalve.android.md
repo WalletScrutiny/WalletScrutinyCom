@@ -22,8 +22,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is gone from Google Play (the last [archived copy of its store page](https://web.archive.org/web/20260413144605/https://play.google.com/store/apps/details?id=com.bitvalve.android) is from April 2026), but BitValve itself is still running. [Its website](https://www.bitvalve.com) still offers the P2P exchange and a direct APK download. The APK we downloaded on 2026-10-30 is `com.bitvalve.android` version 1.45.0. The site says every trade is "backed by an escrow system", which means the platform holds the coins during a trade. Nothing we saw changes the verdict: {% include verdictBadge.html verdict="custodial" type='short' %}.
-
 ## App Description
 
 > BitValve P2P exchange allows people from anywhere in the world to buy and sell their cryptocurrency (Bitcoin, Ethereum, Litecoin and others) using any payment method such as Bank Transfer, PayPal or Western Union. Join BitValve and start trading instantly, anonymously and peer to peer!

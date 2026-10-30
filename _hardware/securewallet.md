@@ -36,7 +36,7 @@ features:
 
 ---
 
-**Update 2026-10-30:** The Secure Wallet is no longer sold. Its shop domain [securewallet.shop](https://securewallet.shop/#deadLink) now shows a domain-parking page, and the [ECOMI homepage](https://www.ecomi.com/) is now about the OMI token and VeVe collectibles, with no mention of the hardware wallet. ECOMI still exists, and its companion app was last updated on 2025-04-22 (version 3.0.10 on the App Store), so we mark the device discontinued rather than defunct. The same device is also listed as {% include walletLink.html wallet='hardware/ecomisecurewallet' verdict='true' %}. The verdict stays {% include verdictBadge.html verdict="plainkey" type='short' %}.
+**Update 2026-10-30:** The Secure Wallet is no longer sold, so we mark it discontinued. Its shop domain [securewallet.shop](https://securewallet.shop/#deadLink) now shows a domain-parking page, and the [ECOMI homepage](https://www.ecomi.com/) no longer mentions the hardware wallet.
 
 **NOTE:** Secure Wallet is temporarily sold out.
 

@@ -18,8 +18,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The fake app is still gone from Google Play. The app it imitated is gone too: its developer [shut down the Jaxx Liberty servers on March 27, 2023](https://bitcointalk.org/index.php?topic=5449494.0). Any new app that claims to be Jaxx is not the original.
-
 **Update 2021-10-23**: This app is no more.
 
 This is obviously an imitation of

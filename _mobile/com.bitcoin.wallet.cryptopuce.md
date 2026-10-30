@@ -21,7 +21,7 @@ android:
 
 **⚠️ Warning:** The provider of this wallet appears to be gone. Its website domain is for sale.
 
-**Update 2026-10-30:** We now mark this app defunct. It is still gone from Google Play, and cryptopuce.com now redirects to a [HugeDomains sale page](https://www.hugedomains.com/domain_profile.cfm?d=cryptopuce.com). The Wayback Machine last saved the [Cryptopuce website](https://web.archive.org/web/20250304223746/https://cryptopuce.com/) in March 2025, still advertising "Multi-currency Non-custodial Wallets". We found no archived store page and still no source code, so the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** The provider is gone: cryptopuce.com now redirects to a [HugeDomains sale page](https://www.hugedomains.com/domain_profile.cfm?d=cryptopuce.com).
 
 **Update 2022-02-09**: This app is no more.
 

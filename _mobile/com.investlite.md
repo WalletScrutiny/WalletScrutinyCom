@@ -22,7 +22,7 @@ android:
 
 **⚠️ Warning:** InvestLite appears to be gone. Its domain registration has expired.
 
-**Update 2026-10-30:** The app is still gone from Google Play. [investlite.com](https://www.investlite.com/) now shows a Namecheap "Domain registration has expired" page, and the [@invest_lite](https://x.com/invest_lite) X account has only 29 posts, and its latest ones date from 2021. We mark the provider as defunct. The CFD-only verdict {% include verdictBadge.html verdict="nosendreceive" type='short' %} stays.
+**Update 2026-10-30:** The provider is gone: [investlite.com](https://www.investlite.com/) now shows a Namecheap "Domain registration has expired" page.
 
 **Update 2022-01-16**: This app is not available anymore.
 

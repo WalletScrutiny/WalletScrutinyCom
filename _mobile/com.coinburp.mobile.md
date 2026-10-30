@@ -38,7 +38,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** We now mark this app defunct. It is still gone from Google Play. By [October 2022](https://web.archive.org/web/20221023034708/https://www.coinburp.com/) coinburp.com redirected to ferriswheel.finance, which no longer responds either, and today coinburp.com only loads a domain parking page. The CoinBurp help centre we cited no longer exists. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** The provider is gone. By [October 2022](https://web.archive.org/web/20221023034708/https://www.coinburp.com/) coinburp.com redirected to ferriswheel.finance, which no longer responds either, and today coinburp.com only loads a domain parking page. The CoinBurp help centre we cited no longer exists.
 
 **Update 2022-03-26**: This app is not available anymore.
 
@@ -51,7 +51,7 @@ Our Verdict: This "wallet" is custodial and therefor **not verifiable**
 
 ## iPhone
 
-**Update 2026-10-30:** The app is still gone from the App Store, and the provider is gone as described in the Android section. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** The provider is gone; see the Android section.
 
 **Update 2022-04-02**: This app is not available anymore.
 

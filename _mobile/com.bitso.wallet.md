@@ -41,12 +41,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The app is still the Bitso exchange, and its
-[app page](https://bitso.com/app) still offers only "Maximum security" as a
-promise. Its self-custody
-[Web3 wallet](https://news.bitcoin.com/latam-powerhouse-crypto-exchange-bitso-launches-web3-wallet/)
-from 2024 supports five EVM networks, not Bitcoin. The verdict stays custodial.
-
 Bitso appears to be an exchange and their statement on security on their website
 
 > **Maximum security**<br>
@@ -58,12 +52,6 @@ is saying "trust us". Their security is **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The app is still the Bitso exchange, and its
-[app page](https://bitso.com/app) still offers only "Maximum security" as a
-promise. Its self-custody
-[Web3 wallet](https://news.bitcoin.com/latam-powerhouse-crypto-exchange-bitso-launches-web3-wallet/)
-from 2024 supports five EVM networks, not Bitcoin. The verdict stays custodial.
 
 Bitso appears to be an exchange and their statement on security on their website
 

@@ -34,8 +34,6 @@ features:
 
 **⚠️ Warning:** This provider is gone. Its website is a parking page.
 
-**Update 2026-10-30:** slimTECH is still gone. On 2026-10-30 slimtechgear.com only showed a domain parking page. The [Mashable shop page](https://shop.mashable.com/sales/slimtech-cryptolite-cold-storage-wallet-silver) is still online, but its own data says the deal expired on 2018-03-06 and is no longer active. The card still has no display or buttons, so the verdict stays {% include verdictBadge.html verdict="noita" type='short' %}.
-
 **⚠️ Note:** Some users have complained on social media that they were not able to receive their devices.
 
 ## Product Description 

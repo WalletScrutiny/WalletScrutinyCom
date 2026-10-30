@@ -47,14 +47,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The verdict still holds. Unocoin's
-[security page](https://unocoin.com/in/support/security/) still says the
-address-private key pairs are encrypted with AES-256, sealed in envelopes and
-stored in safe deposit lockers, so Unocoin holds the keys. In 2025 Unocoin
-[added Lightning](https://bitcoinmagazine.com/news/indias-leading-bitcoin-and-crypto-exchange-unocoin-integrates-lightning)
-to the exchange, which does not change who holds the coins. We found no public
-source code. It remains {% include verdictBadge.html verdict="custodial" type='short' %}.
-
 This app appears to be the interface to a trading platform. The description on
 Google Play does not talk about where the keys are stored but it links to their
 website and there we read
@@ -69,14 +61,6 @@ this app is **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The verdict still holds. Unocoin's
-[security page](https://unocoin.com/in/support/security/) still says the
-address-private key pairs are encrypted with AES-256, sealed in envelopes and
-stored in safe deposit lockers, so Unocoin holds the keys. In 2025 Unocoin
-[added Lightning](https://bitcoinmagazine.com/news/indias-leading-bitcoin-and-crypto-exchange-unocoin-integrates-lightning)
-to the exchange, which does not change who holds the coins. We found no public
-source code. It remains {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 This app appears to be the interface to a trading platform. The description
 does not talk about where the keys are stored but it links to their

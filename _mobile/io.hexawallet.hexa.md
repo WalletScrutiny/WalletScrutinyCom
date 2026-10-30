@@ -39,7 +39,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The app is still gone from Google Play and the App Store, and [hexawallet.io](https://hexawallet.io) is now a domain-for-sale page. The successor {% include walletLink.html wallet='android/io.hexawallet.hexa2' verdict='true' %} is gone too; BitHyve's current wallet is {% include walletLink.html wallet='android/io.hexawallet.bitcoinkeeper' verdict='true' %}. The [source repository](https://github.com/bithyve/bitcointribe-classic) is still online under the MIT license, now describing itself as Bitcoin Tribe, with its last release (v2.4.2) from February 2024. Our [issue about reproducible builds](https://github.com/bithyve/bitcointribe-classic/issues/2544) is still open. The verdict {% include verdictBadge.html verdict="sourceavailable" type='short' %} still holds.
+**Update 2026-10-30:** [hexawallet.io](https://hexawallet.io) is now a domain-for-sale page. The successor {% include walletLink.html wallet='android/io.hexawallet.hexa2' verdict='true' %} is gone too; BitHyve's current wallet is {% include walletLink.html wallet='android/io.hexawallet.bitcoinkeeper' verdict='true' %}.
 
 {% include featureEvidence.html feature="foss" source="[License](https://github.com/bithyve/hexa/blob/master/LICENSE)" quote="MIT License" %}
 
@@ -96,8 +96,6 @@ An issue has been opened at [https://github.com/bithyve/bitcointribe-classic/iss
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The app is still gone from the App Store. See the Android section above; the verdict {% include verdictBadge.html verdict="sourceavailable" type='short' %} still holds.
 
 **Update 2021-12-29**: As the name implies, this app was deprecated by its
 successor

@@ -43,7 +43,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The 2 BTC no-KYC limit described below no longer applies to new users. WhiteBIT's [help centre](https://help.whitebit.com/hc/en-gb/articles/14857492129821-Cryptocurrency-withdrawal-on-WhiteBIT) now says users must pass identity verification at the basic level or higher before making any transactions, and the [verification update](https://blog.whitebit.com/en/kyc-update/) made the new process mandatory for all users. WhiteBIT also launched [Whitewallet](https://blog.whitebit.com/en/whitewallet/), a separate non-custodial wallet app that supports Solana, TON, TRON and EVM chains but not Bitcoin. This app is still the exchange, so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** The 2 BTC no-KYC limit described below no longer applies: WhiteBIT's [help centre](https://help.whitebit.com/hc/en-gb/articles/14857492129821-Cryptocurrency-withdrawal-on-WhiteBIT) now says users must pass identity verification at the basic level or higher before making any transactions.
 
 This centralized cryptocurrency exchange also has a decentralized exchange. 
 
@@ -58,7 +58,5 @@ Cold storage for the securing user funds is employed and this further indicates 
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is still in the Ukrainian App Store and is the same exchange. The verdict still holds; see the Android section.
 
 {% include copyFromAndroid.html %}

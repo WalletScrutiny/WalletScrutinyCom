@@ -42,10 +42,8 @@ to the same report they never were.
 
 ## Android
 
-**Update 2026-10-30:** The app is still gone from Google Play and the App Store,
-and the provider's website is a domain for sale, so we mark this listing
-defunct. We never got to test the app, so the verdict stays
-{% include verdictBadge.html verdict="wip" type='short' %}.
+**Update 2026-10-30:** The provider is gone. Its website now redirects to a
+[domain sale page](https://www.hugedomains.com/domain_profile.cfm?d=francexchange.com).
 
 **⚠️ Warning ⚠️** 
 
@@ -87,8 +85,5 @@ As such, we will mark this app as **defunct.**
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is still gone from the US App Store. See
-the Android section.
 
 {% include copyFromAndroid.html %}

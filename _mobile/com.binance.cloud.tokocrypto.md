@@ -41,12 +41,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Tokocrypto is still a Binance subsidiary and still
-{% include verdictBadge.html verdict="custodial" type='short' %}. In 2024 it
-[received a full Physical Crypto Asset Trader licence](https://cointelegraph.com/news/binance-subsidiary-tokocrypto-secures-full-license-indonesia)
-from Indonesia's Bappebti, and its
-[website](https://www.tokocrypto.com/) now calls it an exchange supervised by OJK.
-
 Presented by Binance - corroborated on [Binance Launchpad's Tokocrypto Token Sale](https://www.binance.com/en/support/announcement/4620c8a2a87c42978519750964af7aa4)
 
 LEARN, BUY, SELL AND INVEST BITCOIN AND CRYPTO ASSETS EASILY AND SAFELY.
@@ -59,7 +53,6 @@ LEARN, BUY, SELL AND INVEST BITCOIN AND CRYPTO ASSETS EASILY AND SAFELY.
 
 **Update 2026-10-30:** The iPhone app is not gone. It is still in the
 Indonesian App Store as "Tokocrypto Crypto Exchange" by PT. Crypto Indonesia
-Berkat, with an update in October 2026; we only looked for it in the Philippine
-store before. The verdict still holds; see the Android section.
+Berkat; we only looked for it in the Philippine store before.
 
 {% include copyFromAndroid.html %}

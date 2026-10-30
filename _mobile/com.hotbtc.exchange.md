@@ -18,6 +18,6 @@ android:
 
 **⚠️ Warning:** HotBTC appears to be gone. Its domain was up for sale in 2022 and no longer resolves.
 
-**Update 2026-10-30:** The app is still gone from Google Play. Its [archived store page from November 2020](https://web.archive.org/web/20201101022527/https://play.google.com/store/apps/details?id=com.hotbtc.exchange) describes an exchange where you "open an account" and "store your cryptos with HotBTC App" in a "cryptocurrency exchange wallet", secured by "API Keys and Pin-Codes". Nothing mentions a seed phrase or user-held keys, so like other exchanges we list it as {% include verdictBadge.html verdict="custodial" type='short' %}. The website hotbtc.exchange showed a ["Buy this domain" page in March 2022](https://web.archive.org/web/20220330055046/https://hotbtc.exchange/) and no longer resolves, so we mark the provider as defunct.
+**Update 2026-10-30:** Its [archived store page from November 2020](https://web.archive.org/web/20201101022527/https://play.google.com/store/apps/details?id=com.hotbtc.exchange) describes an exchange where you "store your cryptos with HotBTC App" in a "cryptocurrency exchange wallet", with no mention of a seed phrase, so we list it as {% include verdictBadge.html verdict="custodial" type='short' %}. The provider is gone: hotbtc.exchange showed a ["Buy this domain" page in March 2022](https://web.archive.org/web/20220330055046/https://hotbtc.exchange/) and no longer resolves.
 
 **Update 2022-01-20**: This app is not available anymore.

@@ -41,7 +41,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The app is still gone from Google Play and the App Store. The [source repository](https://github.com/blocktrail/blocktrail-wallet) is still online, but its newest tag is still v4.4.7 and it was last pushed in December 2022. wallet.btc.com no longer resolves, and the [btc.com](https://btc.com/) home page now advertises AI computing futures and GPU resources instead of a wallet. We keep the verdict {% include verdictBadge.html verdict="sourceavailable" type='short' %} as history.
+**Update 2026-10-30:** wallet.btc.com no longer resolves, and the [btc.com](https://btc.com/) home page now advertises AI computing futures and GPU resources instead of a wallet.
 
 {% include featureEvidence.html feature="hd" source="[README](https://github.com/blocktrail/blocktrail-wallet#readme)" quote="HD wallet technology allowing you to create an unlimited number of addresses" %}
 {% include featureEvidence.html feature="multiSig" source="[README](https://github.com/blocktrail/blocktrail-wallet#readme)" quote="2-of-3 Multisig technology so you always remain in control of your coins" %}
@@ -100,7 +100,7 @@ updated since July 2019 and many 1* ratings complain about financial loss!**
 
 ## iPhone
 
-**Update 2026-10-30:** The app is still gone from the App Store and Google Play. The [source repository](https://github.com/blocktrail/blocktrail-wallet) is still online, but its newest tag is still v4.4.7 and it was last pushed in December 2022. wallet.btc.com no longer resolves, and the [btc.com](https://btc.com/) home page now advertises AI computing futures and GPU resources instead of a wallet. We keep the verdict {% include verdictBadge.html verdict="sourceavailable" type='short' %} as history.
+**Update 2026-10-30:** wallet.btc.com no longer resolves, and the [btc.com](https://btc.com/) home page now advertises AI computing futures and GPU resources instead of a wallet.
 
 {% include featureEvidence.html feature="hd" source="[README](https://github.com/blocktrail/blocktrail-wallet#readme)" quote="HD wallet technology allowing you to create an unlimited number of addresses" %}
 {% include featureEvidence.html feature="multiSig" source="[README](https://github.com/blocktrail/blocktrail-wallet#readme)" quote="2-of-3 Multisig technology so you always remain in control of your coins" %}

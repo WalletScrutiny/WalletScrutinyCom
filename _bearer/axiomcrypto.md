@@ -32,8 +32,6 @@ features:
 
 ---
 
-**Update 2026-10-30:** The Axiom Crypto website currently answers every page, including the [shop](https://axiomcrypto.com/index.php/shop/), with a bare "maintenance" message, so the cards cannot be bought there right now. Search engines still index product pages such as the [Bitcoin card](https://axiomcrypto.com/index.php/product/metal-cold-wallet-storage-card-for-bitcoin-gold/), and we found no shutdown notice, so we do not mark the provider defunct yet. Nothing suggests the design changed: the vendor engraves the private key, so the card stays {% include verdictBadge.html verdict="prefilled" type='short' %}.
-
 ## Product Information 
 
 Axiom is a metal cold device which has the public key engraved at the front in text and in QR form. The back of the card has the private key with a scratchable QR code. There is very sparse information about this product that we can find as they also do not have social media accounts. The project also has a similar name with another unrelated cryptocurrency project called "Axioms Crypto". 

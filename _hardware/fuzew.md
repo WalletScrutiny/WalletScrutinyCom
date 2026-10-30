@@ -37,7 +37,7 @@ features:
 
 **⚠️ Warning:** BrilliantTS, the maker of FuzeW, appears to be gone. Its website domain has expired and the FuzeW shop no longer exists.
 
-**Update 2026-10-30:** We now mark this device defunct instead of obsolete. fuzeway.com, which hosted the shop, no longer resolves. The Wayback Machine last saved the [FuzeW shop page](https://web.archive.org/web/20210506115642/https://fuzeway.com/products/fuzew-hardware-wallet) in May 2021. The [BrilliantTS website](https://web.archive.org/web/20251212225619/https://brilliantts.com/) was still up in December 2025, but by [March 2026](https://web.archive.org/web/20260313233412/https://brilliantts.com/) the domain showed the registrar's "This domain name has expired" page, and brilliantts.com and fuzew.com now return HTTP 410. We found no source code, so the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** We now mark this device defunct instead of obsolete. fuzeway.com, which hosted the shop, no longer resolves, and by [March 2026](https://web.archive.org/web/20260313233412/https://brilliantts.com/) the BrilliantTS domain showed the registrar's "This domain name has expired" page; brilliantts.com and fuzew.com now return HTTP 410.
 
 FuzeW refers to itself as a "wireless cryptocurrency hardware wallet."  It resembles a credit card, although it has both a screen and buttons.
 

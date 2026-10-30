@@ -16,10 +16,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play. It never had a
-website, and we found no other trace of its provider. The verdict
-{% include verdictBadge.html verdict="obfuscated" type='short' %} stays.
-
 This app claims to be a server-less and self-custodial Bitcoin wallet. We were
 asked about funds disappearing on our Wallet Support chat and had a look:
 

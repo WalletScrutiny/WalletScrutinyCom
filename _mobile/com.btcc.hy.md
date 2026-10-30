@@ -43,12 +43,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** BTCC is still a centralized exchange, and it still holds
-its users' coins: its [proof of reserves page](https://www.btcc.com/en-US/proof-of-reserves)
-says "BTCC maintains a reserve ratio of at least 1:1 for all user assets" and
-publishes Merkle tree reports. The verdict
-{% include verdictBadge.html verdict="custodial" type='short' %} still holds.
-
 In its Google Play description:
 
 >The BTCC app allows you to register, deposit and trade within 30 seconds. It further allows you to enjoy trading cryptocurrency futures anytime, anywhere.
@@ -66,7 +60,5 @@ Interestingly, this exchange also trades in [cryptocurrency CFDs](https://www.bt
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is still in the App Store and is the same exchange. The verdict still holds; see the Android section.
 
 {% include copyFromAndroid.html %}

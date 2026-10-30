@@ -40,15 +40,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** You still cannot move bitcoins into or out of Webull, so
-the verdict stays {% include verdictBadge.html verdict="nosendreceive" type='short' %}.
-Webull's [help page on crypto transfers](https://www.webull.com/help/faq/11085-Bank-and-Internal-Transfer)
-says coin transfers are temporarily unavailable. The provider changed: Apex Crypto,
-quoted below, is gone, and Webull's
-[crypto FAQ](https://www.webull.com/help/faq/11094-Getting-Started-with-Crypto-Trading)
-says Coinbase holds customers' crypto, or Bakkt for customers in New York, Guam and
-the Northern Mariana Islands. Webull also has a separate crypto app,
-{% include walletLink.html wallet='android/com.webull.pay.us' verdict='true' %}.
+**Update 2026-10-30:** Apex Crypto, quoted below, is gone. Webull's [crypto FAQ](https://www.webull.com/help/faq/11094-Getting-Started-with-Crypto-Trading) says Coinbase now holds customers' crypto, or Bakkt for customers in New York, Guam and the Northern Mariana Islands.
 
 The app allows you to trade BTC but it is only an exchange and not a wallet.
 
@@ -60,9 +52,6 @@ From their website:
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app offers the same crypto service; see the
-Android section. Transfers are still unavailable.
 
 The app allows you to trade BTC but it is only an exchange and not a wallet.
 

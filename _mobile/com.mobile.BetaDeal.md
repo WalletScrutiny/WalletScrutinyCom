@@ -20,13 +20,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play and betadeal.net no longer resolves.
-The last archived page on the domain, from April 2022, is a
-[hosting "suspended" page](https://web.archive.org/web/20220405093952/https://www.betadeal.net/cgi-sys/suspendedpage.cgi).
-The [archived terms](https://web.archive.org/web/20210518161215/https://www.betadeal.net/terms-conditions)
-still carry the private-key quote below, so the verdict stays
-{% include verdictBadge.html verdict="custodial" type='short' %}.
-
 **Update 2022-02-07**: This app is no more.
 
 ## App Description

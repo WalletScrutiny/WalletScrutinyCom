@@ -33,12 +33,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The app is still gone from Google Play and the App Store.
-The domain [bbx.com](https://bbx.com/) is alive again, but it now shows a
-stablecoin-funded stock and crypto trading platform with a "BBX DEX"; we found
-nothing that ties it to the index-trading exchange reviewed here, so we treat it
-as unrelated. With no app to test, the verdict stays
-{% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** The domain [bbx.com](https://bbx.com/) now shows an unrelated stablecoin-funded stock and crypto trading platform.
 
 **Update 2021-10-26**: This app is no more.
 
@@ -74,9 +69,6 @@ It is also highly probable that this app is already defunct, but since its Googl
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is still gone from the US App Store. See
-the Android section.
 
 **Update 2021-10-14**: This app is no more available.
 

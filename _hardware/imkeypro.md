@@ -33,8 +33,6 @@ features:
 
 ---
 
-**Update 2026-10-30:** imKey still sells the device: the [imKey Pro product page](https://imkey.im/products/imkey-pro-crypto-hardware-wallet) lists it at 109.99 USD. The open code we now found is host-side only: [imkey-core](https://github.com/consenlabs/imkey-core) is a library for "mobile, desktop, server side" and [imkey-manager](https://github.com/consenlabs/imkey-manager) is the desktop tool. We found no firmware source for the device, so the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
-
 imKey is only partially Open Source. According to its [User Agreement:](https://imkey.im/tos?locale=en-us#deadLink)
 
 > Section 3.3.2 imKey software open source code may contain third-party-developed open source license and source code and the Company does not provide any guarantee for functions, non-existence of virus or vulnerabilities etc of such third-party-developed open source license and source code. Developer Users shall, at their sole discretion, decide the consequences of using imKey software open source code. Developer Users shall carefully read and then agree with relevant open source licenses and notices of the Company updated from time to time

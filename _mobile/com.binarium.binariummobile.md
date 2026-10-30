@@ -23,12 +23,8 @@ android:
 
 ---
 
-**Update 2026-10-30:** Binarium still operates at
-[binarium.com](https://binarium.com/), which advertises trading with a $5 minimum
-deposit and a deposit bonus. The FAQ link below now lands on that home page, so
-we could not re-read the withdrawal rule. Nothing we found suggests users now get
-their own keys. The verdict
-{% include verdictBadge.html verdict="custodial" type='short' %} holds.
+**Update 2026-10-30:** The FAQ link below now lands on the
+[binarium.com](https://binarium.com/) home page.
 
 Binarium is a mobile trading app where the user tries to predict
 the movement of an asset and earn if the prediction is correct.

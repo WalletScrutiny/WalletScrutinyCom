@@ -16,8 +16,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play, and the Wayback Machine has no archived copy of its store page. Both apps it imitated are still listed here, so the verdict stays {% include verdictBadge.html verdict="fake" type='short' %}.
-
 **Update 2021-10-28**: This app is no more.
 
 This scammer couldn't decide if he wanted to fool the users of

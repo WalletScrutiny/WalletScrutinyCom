@@ -16,6 +16,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play. Its [archived store page](http://web.archive.org/web/20210714045220/https://play.google.com/store/apps/details?id=wallet.snowgem.bitfrost) from July 2021, by SnowGem Foundation s.r.o., described TENT Wallet as a "multi-asset, non-custodial" wallet where "private keys never leave your device". The project's GitHub account has a [TENTMobileWallet](https://github.com/TENTOfficial/TENTMobileWallet) repository, but it holds only a README committed in July 2021. Without source code it is {% include verdictBadge.html verdict="nosource" type='short' %}. tent.app is now for sale and snowgem.org is a parked domain.
+**Update 2026-10-30:** Its [archived store page](http://web.archive.org/web/20210714045220/https://play.google.com/store/apps/details?id=wallet.snowgem.bitfrost) from July 2021 described TENT Wallet as a "multi-asset, non-custodial" wallet where "private keys never leave your device", but the [TENTMobileWallet](https://github.com/TENTOfficial/TENTMobileWallet) repository holds only a README, so it is {% include verdictBadge.html verdict="nosource" type='short' %}. tent.app is now for sale and snowgem.org is a parked domain.
 
 **Update 2021-10-25**: This app is no more.

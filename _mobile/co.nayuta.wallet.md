@@ -20,11 +20,7 @@ it was closing its business and would shut down its Lightning service node three
 months later ([No BS Bitcoin](https://www.nobsbitcoin.com/nayuta-wallet-is-shutting-down/),
 [NEW ECONOMY](https://www.neweconomy.jp/posts/417563)).
 
-**Update 2026-10-30:** This app is still gone from Google Play and its provider
-has closed (see the warning above). The website nayuta.co now shows only a logo.
-Nayuta's later apps are listed as
-{% include walletLink.html wallet='android/com.nayuta.core' verdict='true' %} and
-{% include walletLink.html wallet='android/com.nayuta.core2' verdict='true' %}.
+**Update 2026-10-30:** Nayuta has closed (see the warning above). Its later apps are listed as {% include walletLink.html wallet='android/com.nayuta.core' verdict='true' %} and {% include walletLink.html wallet='android/com.nayuta.core2' verdict='true' %}.
 
 This app disappeared from Google Play before we got to have a look at it. With
 500 downloads it was not due yet.

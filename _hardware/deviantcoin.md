@@ -33,7 +33,7 @@ features:
 
 ---
 
-**Update 2026-10-30:** The hardware wallet is still not released, so this stays {% include verdictBadge.html verdict="vapor" type='short' %}. The [last archived copy of the hardware wallet page, from May 2026](https://web.archive.org/web/20260518035511/https://deviantcoin.io/hardware-wallet/), still shows it as "Coming Soon" with the text quoted below. On 2026-10-30 deviantcoin.io itself only showed a Cloudflare "Suspected Phishing" warning, so we did not use the live site.
+**Update 2026-10-30:** On 2026-10-30 deviantcoin.io only showed a Cloudflare "Suspected Phishing" warning. The [last archived copy of the hardware wallet page](https://web.archive.org/web/20260518035511/https://deviantcoin.io/hardware-wallet/) is from May 2026.
 
 ## Overview
 

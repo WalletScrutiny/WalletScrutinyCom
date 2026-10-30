@@ -25,6 +25,6 @@ android:
 
 **⚠️ Warning:** AscendEX [ceased operations on 2026-07-01](https://thedefiant.io/news/cefi/ascendex-halts-operations-freezes-automated-withdrawals) and moved all withdrawals to manual review from 2026-07-06.
 
-**Update 2026-10-30:** This app is still gone from Google Play, and the successor app is gone too. On 2026-08-22 [AscendEX wrote](https://ascendex.com/) that its website is becoming a claims portal that "will not initially support trading, deposits or withdrawals", and that it cannot "confirm the amount that customers may ultimately recover". It was {% include verdictBadge.html verdict="custodial" type='short' %} and that does not change.
+**Update 2026-10-30:** On 2026-08-22 [AscendEX wrote](https://ascendex.com/) that its website is becoming a claims portal that "will not initially support trading, deposits or withdrawals", and that it cannot "confirm the amount that customers may ultimately recover".
 
 This app apparently was removed in favor of {% include walletLink.html wallet='android/com.ascendex.exchange' %}.

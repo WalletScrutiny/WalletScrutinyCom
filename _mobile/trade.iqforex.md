@@ -16,6 +16,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play. Its [archived store page](https://web.archive.org/web/20210616183408/https://play.google.com/store/apps/details?id=trade.iqforex) from June 2021, by Coovil Co., described "a pure Paper Trading Sandbox for binary option on Forex and Cryptocurrency" that hands out "cyber money". No real coins were involved, so the app is {% include verdictBadge.html verdict="nowallet" type='short' %}, like {% include walletLinkArchived.html wallet='android/com.tiim.gooptions' %}. The developer website www.iqforex.trade no longer resolves.
+**Update 2026-10-30:** Its [archived store page](https://web.archive.org/web/20210616183408/https://play.google.com/store/apps/details?id=trade.iqforex) from June 2021, by Coovil Co., described "a pure Paper Trading Sandbox for binary option on Forex and Cryptocurrency" that hands out "cyber money". No real coins were involved, so the app is {% include verdictBadge.html verdict="nowallet" type='short' %}, like {% include walletLinkArchived.html wallet='android/com.tiim.gooptions' %}.
 
 **Update 2021-12-14**: This app is gone from the Store.

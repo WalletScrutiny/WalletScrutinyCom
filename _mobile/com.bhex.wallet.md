@@ -39,7 +39,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** We now mark this app defunct and change the verdict from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="nosource" type='short' %}. The app is still gone from Google Play, bhexchain.com now forwards to a GoDaddy "domain for sale" page, and the [bluehelix-chain GitHub account](https://github.com/bluehelix-chain) no longer exists. Our 2021 test below showed a self-custodial wallet that let us back up its mnemonic phrase, and the code we were waiting on is gone, so there is no source left to check.
+**Update 2026-10-30:** The provider is gone, and with it the code we were waiting on, so we change the verdict from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="nosource" type='short' %}. bhexchain.com now forwards to a GoDaddy "domain for sale" page, and the [bluehelix-chain GitHub account](https://github.com/bluehelix-chain) no longer exists. Our 2021 test below showed a self-custodial wallet.
 
 **Update 2022-03-16**: The [provided code repository](https://github.com/bluehelix-chain/wallet-android#deadLink) disappeared now, too.
 
@@ -92,7 +92,7 @@ An issue has been opened at [https://github.com/bluehelix-chain/wallet-android/i
 
 ## iPhone
 
-**Update 2026-10-30:** The iPhone app is still missing from the App Store and the provider is gone (see Android). For the same reasons the verdict changes from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** The provider is gone (see Android), so the verdict changes from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="nosource" type='short' %} here too.
 
 **Update 2022-10-21**: This app is not available anymore.
 

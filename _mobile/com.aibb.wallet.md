@@ -37,7 +37,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** BlockBank V1 is still gone from Google Play and the App Store. [blockbank.ai](https://blockbank.ai) no longer resolves, and [Trustpilot](https://www.trustpilot.com/review/blockbank.ai) notes that the company's website has closed. The V2 app, {% include walletLink.html wallet='android/ai.blockbank.bbexpoapp' verdict='true' %}, is now called Pairs and is also gone from Google Play; its website [pairs.xyz](https://pairs.xyz) is online. So the four apps listed below are no longer available. The {% include verdictBadge.html verdict="custodial" type='short' %} verdict stays.
+**Update 2026-10-30:** BlockBank's website has closed: [blockbank.ai](https://blockbank.ai) no longer resolves, and [Trustpilot](https://www.trustpilot.com/review/blockbank.ai) notes that the company's website has closed. The V2 app, {% include walletLink.html wallet='android/ai.blockbank.bbexpoapp' verdict='true' %}, is now called Pairs and is also gone from Google Play.
 
 ## Updated Review 2023-04-05 
 
@@ -160,7 +160,7 @@ Note: With that said, we are willing to change our verdict upon further guidance
 
 ## iPhone
 
-**Update 2026-10-30:** The app is still gone from the App Store. See the Android section; the {% include verdictBadge.html verdict="custodial" type='short' %} verdict stays.
+**Update 2026-10-30:** BlockBank's website has closed; see the Android section.
 
 **Update 2021-11-03**: This app is no more.
 

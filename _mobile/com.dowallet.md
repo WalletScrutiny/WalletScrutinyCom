@@ -36,7 +36,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** We now mark this app defunct. It is gone from Google Play, and the website shows a [shutdown notice](https://web.archive.org/web/20241230001443/https://dowallet.app/): "The DoWallet app will be shutting down officially on September 17, 2024", and users should recover their wallets "using their 12 word recovery phrases" in other wallets. We never found source code, so the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** DoWallet [shut down](https://web.archive.org/web/20241230001443/https://dowallet.app/) on 17 September 2024, and users were told to recover their wallets "using their 12 word recovery phrases" in other wallets.
 
 This wallet sounds like non-custodial. From their description:
 
@@ -57,7 +57,7 @@ Our verdict: This wallet is **not verifiable**.
 
 ## iPhone
 
-**Update 2026-10-30:** The app is still gone from the App Store, and DoWallet shut down as described in the Android section. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** DoWallet shut down as described in the Android section.
 
 **Update 2022-03-08**: This app is not available anymore.
 

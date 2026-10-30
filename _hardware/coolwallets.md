@@ -35,7 +35,7 @@ features:
 
 ---
 
-**Update 2026-10-30:** CoolBitX no longer sells the CoolWallet S. Its [last archived product page, from March 2026](https://web.archive.org/web/20260306085103/https://www.coolwallet.io/products/coolwallet-s), shows both variants as "Sold Out", the page now returns 404, and the [CoolWallet shop](https://www.coolwallet.io/collections/coolwallet) now lists only the CoolWallet Pro and CoolWallet Go. The provider is active. Its [GitHub organization](https://github.com/CoolBitX-Technology) publishes a host SDK and secure-element code for the CoolWallet Pro, but we found no firmware for the S. We mark the device discontinued; the verdict stays {% include verdictBadge.html verdict="plainkey" type='short' %}.
+**Update 2026-10-30:** CoolBitX no longer sells the CoolWallet S, so we mark it discontinued. Its [last archived product page, from March 2026](https://web.archive.org/web/20260306085103/https://www.coolwallet.io/products/coolwallet-s), shows both variants as "Sold Out", the page now returns 404, and the [CoolWallet shop](https://www.coolwallet.io/collections/coolwallet) now lists only the CoolWallet Pro and CoolWallet Go.
 
 ## Update Verdict 2021-12-08
 

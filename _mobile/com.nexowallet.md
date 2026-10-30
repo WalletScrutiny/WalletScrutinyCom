@@ -42,12 +42,12 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The verdict still holds, but the custodian changed. The
+**Update 2026-10-30:** The custodian changed. The
 store description no longer mentions BitGo. Nexo says
 [Bakkt powers custody for its US clients](https://nexo.com/blog/is-nexo-legit),
 and in the EEA
 [Tangany holds client crypto-assets](https://crypto.news/nexo-keeps-eu-services-live-with-mica-partners/)
-since July 2026. Either way the user does not hold the keys. It remains {% include verdictBadge.html verdict="custodial" type='short' %}.
+since July 2026.
 
 {% include review/bitgo.md %}
 

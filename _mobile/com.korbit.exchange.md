@@ -37,7 +37,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Korbit is now called Digital X. Mirae Asset took a 97.15% stake and [renamed the exchange in July 2026](https://crypto.news/south-koreas-korbit-becomes-digital-x-under-mirae-asset-ownership/), and korbit.co.kr now redirects to [digitalx.miraeasset.com](https://digitalx.miraeasset.com/). It is still a Korean exchange that holds its users' coins, so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** Korbit is now called Digital X. Mirae Asset took a 97.15% stake and [renamed the exchange in July 2026](https://crypto.news/south-koreas-korbit-becomes-digital-x-under-mirae-asset-ownership/), and korbit.co.kr now redirects to [digitalx.miraeasset.com](https://digitalx.miraeasset.com/).
 
 This Korean cryptocurrency exchange requires real name verification (KYC). This includes the requirement to register using a Korean mobile phone number. 
 
@@ -49,6 +49,6 @@ Verdict is **custodial** and **not verifiable**
 
 ## iPhone
 
-**Update 2026-10-30:** The iPhone app is still in the Korean App Store, now under the Digital X name, and is the same exchange. The verdict still holds; see the Android section.
+**Update 2026-10-30:** The iPhone app is now also under the Digital X name; see the Android section.
 
 {% include copyFromAndroid.html %}

@@ -42,12 +42,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The verdict still holds. DigiFinex still runs a
-[centralized exchange](https://www.digifinex.com/), and the store description
-lists "TSS-type deposit addresses" and "whitelist management" among its security
-features, which are exchange-side controls over coins it holds. We found no
-public source code. It remains {% include verdictBadge.html verdict="custodial" type='short' %}.
-
 > DigiFinex is a world’s leading crypto finance exchange
 
 doesn't sound like "wallet" is their primary business and as we can't find any
@@ -59,10 +53,8 @@ claims to the contrary, we have to assume this is a custodial offering and thus
 ## iPhone
 
 **Update 2026-10-30:** The app is back on the App Store, under the same App Store
-ID, updated in October 2026, so the note below is outdated. We set its status back
-from defunct, because the provider and its
-[website](https://www.digifinex.com/) are alive. The App Store description matches
-the Android one. It remains {% include verdictBadge.html verdict="custodial" type='short' %}.
+ID, updated in October 2026, so the note below is outdated and we no longer
+mark it defunct.
 
 **Update 2022-10-21**: This app is not available anymore.
 

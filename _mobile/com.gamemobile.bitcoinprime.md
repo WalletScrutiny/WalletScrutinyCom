@@ -15,6 +15,4 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play. It names no provider or website and we found no archived copy of its store page, so it stays {% include verdictBadge.html verdict="wip" type='short' %}.
-
 **Update 2021-09-14**: This app is not on the Play Store anymore.

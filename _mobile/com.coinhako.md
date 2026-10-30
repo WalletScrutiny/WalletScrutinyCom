@@ -46,14 +46,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Coinhako now states its custody plainly. Its help
-centre [explains](https://help.coinhako.com/portal/en/kb/articles/what-is-a-bitcoin-wallet-and-how-does-it-work)
-that on an exchange "custodial wallets entrust a custodian (e.g the exchange) to
-hold your keys" and that "Coinhako moves over 90% of customers’ funds into cold
-storage". In July 2026 Japan's SBI Holdings
-[took a majority stake](https://www.theblock.co/news/deals/2026-07-17-sbi-holdings-completes-majority-acquisition-of-singapore-crypto-platform-coinhako-following-mas-approval-408761)
-after approval by Singapore's MAS. The verdict stays
-{% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** In July 2026 Japan's SBI Holdings [took a majority stake](https://www.theblock.co/news/deals/2026-07-17-sbi-holdings-completes-majority-acquisition-of-singapore-crypto-platform-coinhako-following-mas-approval-408761) in Coinhako after approval by Singapore's MAS.
 
 Having a scan over the providers website and faq articles does not reveal any
 claims regarding the management of private keys.
@@ -65,14 +58,7 @@ Our verdict: This “wallet” is probably custodial and therefore is **not veri
 
 ## iPhone
 
-**Update 2026-10-30:** Coinhako now states its custody plainly. Its help
-centre [explains](https://help.coinhako.com/portal/en/kb/articles/what-is-a-bitcoin-wallet-and-how-does-it-work)
-that on an exchange "custodial wallets entrust a custodian (e.g the exchange) to
-hold your keys" and that "Coinhako moves over 90% of customers’ funds into cold
-storage". In July 2026 Japan's SBI Holdings
-[took a majority stake](https://www.theblock.co/news/deals/2026-07-17-sbi-holdings-completes-majority-acquisition-of-singapore-crypto-platform-coinhako-following-mas-approval-408761)
-after approval by Singapore's MAS. The verdict stays
-{% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** In July 2026 Japan's SBI Holdings [took a majority stake](https://www.theblock.co/news/deals/2026-07-17-sbi-holdings-completes-majority-acquisition-of-singapore-crypto-platform-coinhako-following-mas-approval-408761) in Coinhako after approval by Singapore's MAS.
 
 Having a scan over the providers website and faq articles does not reveal any
 claims regarding the management of private keys.

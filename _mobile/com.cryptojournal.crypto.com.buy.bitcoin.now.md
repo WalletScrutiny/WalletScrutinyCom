@@ -19,8 +19,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play, and we found no archived copy of its store page. The real Crypto.com app, {% include walletLink.html wallet='android/co.mona.android' verdict='true' %}, is still on Google Play under "Crypto Technology Holdings Limited", and that company is still listed as live in the [Hong Kong companies directory](https://www.ltddir.com/companies/crypto-technology-holdings-limited/). This app's publisher was "Crypto Journal", so it stays {% include verdictBadge.html verdict="fake" type='short' %}.
-
 **Update 2021-09-16**: This app is no more.
 
 This review was made in relation to a similar app with an almost identical appID.

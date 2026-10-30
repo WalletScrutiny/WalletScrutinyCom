@@ -44,7 +44,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The app is still listed and still self-custodial: its [backup guide](https://docs.onto.app/guides/wallet-management/wallet-backup) says "the mnemonic phrase grants full access to the wallet". The [website](https://onto.app/en) still links to the [ONTO-Data-Wallet](https://github.com/ONTO-Data-Wallet) GitHub organisation, but its public repositories are SDKs and wallet adapters, and the `ONTO` repository it once had is gone. A GitHub code search for the appId finds no app source, so it stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** The `ONTO` repository we linked as the source is gone; the [ONTO-Data-Wallet](https://github.com/ONTO-Data-Wallet) organisation now holds only SDKs and wallet adapters. The help-centre page below moved to [docs.onto.app](https://docs.onto.app/guides/wallet-management/wallet-backup).
 
 ## Update 2024-07-15
 
@@ -71,8 +71,6 @@ In the absence of a scrutinizable source code, we would tentatively have to labe
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is still listed and its source is not public either. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 {% include copyFromAndroid.html %}
 

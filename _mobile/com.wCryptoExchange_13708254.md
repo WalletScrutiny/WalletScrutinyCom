@@ -16,6 +16,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** This app was a list of links to exchanges, not a wallet. Its [archived Play store page](https://web.archive.org/web/20210520191653/https://play.google.com/store/apps/details?id=com.wCryptoExchange_13708254) from May 2021 describes "All Major & Leading Crypto Exchanges in a Single Place. Binanace, WazirX, Coinsbit, Phemex, CoinSwitch, Latoken", plus links to crypto news and airdrop channels. It never held coins, so it is {% include verdictBadge.html verdict="nowallet" type='short' %}. The app is still gone from Google Play. The "website" listed for it, m2f5ac532.app-ads-txt.com, is only an ad-network placeholder.
+**Update 2026-10-30:** This app was a list of links to exchanges, not a wallet. Its [archived Play store page](https://web.archive.org/web/20210520191653/https://play.google.com/store/apps/details?id=com.wCryptoExchange_13708254) from May 2021 describes "All Major & Leading Crypto Exchanges in a Single Place". It never held coins, so the verdict changes from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="nowallet" type='short' %}.
 
 **Update 2022-02-12**: This app is not on the Store anymore.

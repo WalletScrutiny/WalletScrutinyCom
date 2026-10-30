@@ -17,12 +17,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still not on Google Play, and neither is the
-successor linked below. Freewallet itself still operates: its
-[help center](https://help.freewallet.org/) is online, while
-[freewallet.org](https://freewallet.org/) shows a "restricted region" page to
-our server. Without an archived copy of this app we keep it as work in progress.
-
 **Update 2021-05-25**: This app is not on the Play Store anymore. The app's
 website links to {% include walletLink.html wallet='android/multi.org.freewallet.app' %} now.
 

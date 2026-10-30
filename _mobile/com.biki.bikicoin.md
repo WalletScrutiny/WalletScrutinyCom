@@ -40,7 +40,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** We now mark this app defunct. BiKi [closed its operations on 30 November 2021](https://www.cryptowisser.com/exchange/biki/), citing regulation, and biki.com and biki.cc no longer resolve, so the agreement links below are dead too. The app is still gone from Google Play. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** The provider is gone. BiKi [closed its operations on 30 November 2021](https://www.cryptowisser.com/exchange/biki/), citing regulation, and biki.com and biki.cc no longer resolve, so the agreement links below are dead too.
 
 **Update 2022-02-27**: This app is not available anymore.
 
@@ -71,7 +71,7 @@ All evidences point to a **custodial** service.
 
 ## iPhone
 
-**Update 2026-10-30:** The iPhone app is still missing from the App Store, and BiKi has shut down (see Android). The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** BiKi has shut down; see the Android section.
 
 **Update 2022-02-25**: This app is not available anymore.
 

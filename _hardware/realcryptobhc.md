@@ -32,8 +32,6 @@ features:
 
 **⚠️ Warning:** This provider is gone. Its website is a domain for sale and its only shop is closed.
 
-**Update 2026-10-30:** Real Crypto is still gone. On 2026-10-30 realcrypto.org redirected to a domain sale page at Atom, and the [Stakebox shop](https://www.stakebox.org/) quoted below says "This store is currently unavailable". The coin is still a sticker over a self-printed paper wallet, so the verdict stays {% include verdictBadge.html verdict="plainkey" type='short' %}.
-
 ## Product Description 
 
 From [the online store:](https://www.stakebox.org/collections/real-crypto/products/bitcoin-holographic-coin)

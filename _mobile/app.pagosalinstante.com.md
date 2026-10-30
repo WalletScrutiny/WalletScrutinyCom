@@ -24,7 +24,7 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still on Google Play and was updated in 2026, so the "close to being defunct" worry below did not come true. The [website](https://paiexchange.com/) now presents PAI Exchange as a Latin American crypto platform ("formerly known as Pagos Al Instante") with an exchange, a P2P market, bill payments and an "integrated digital wallet" for storing coins. Its blog announced the [official P2P launch for Latin America](https://blog.paiexchange.com/lanzamientos/pai-exchange-lanzamiento-oficial-del-comercio-p2p-para-latinoamerica/) in April 2025. We found nothing that hands users their own keys and no source code on GitHub, so it stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** Pagos Al Instante is now [PAI Exchange](https://paiexchange.com/). The app is still on Google Play and was updated in 2026, so the "close to being defunct" worry below did not come true.
 
 Cursory analysis indicates that this is a business backed cryptocurrency exchange. Our tentative analysis points to a custodial service. 
 

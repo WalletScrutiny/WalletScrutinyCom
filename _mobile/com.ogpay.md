@@ -38,7 +38,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The app is now called OGPay Business and is still updated. Its current Play and App Store descriptions talk only about business payments and a VISA debit card; they no longer mention crypto or the "wallet custodial storage" quoted below. We could not check whether the app still holds bitcoin: [ogpaywallet.com](https://www.ogpaywallet.com/) now only shows a member login. Nothing points to self-custody, so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** The app is now called OGPay Business. Its current Play and App Store descriptions talk only about business payments and a VISA debit card and no longer mention crypto.
 
 ## App Description
 

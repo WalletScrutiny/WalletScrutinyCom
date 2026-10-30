@@ -32,7 +32,7 @@ features:
 
 **⚠️ Warning:** BitStash appears to be gone. Its domain is a parking page.
 
-**Update 2026-10-30:** BitStash never shipped and the provider is gone, so this stays {% include verdictBadge.html verdict="vapor" type='short' %} and we mark it defunct. On 2026-10-30 bitstash.com only redirected to a GoDaddy parking page. The [last archived copy of the product website is from February 2015](https://web.archive.org/web/20150213010806/https://bitstash.com/), and we found no news of the device since the [2014 Cointelegraph interview](https://cointelegraph.com/news/an-inside-look-at-bitstashs-new-3-tier-hardware-wallet-interview-with-cto-trevor-murphy).
+**Update 2026-10-30:** BitStash never shipped and the provider is gone, so we mark it defunct. On 2026-10-30 bitstash.com only redirected to a GoDaddy parking page; the [last archived copy of the product website is from February 2015](https://web.archive.org/web/20150213010806/https://bitstash.com/).
 
 There are currently other cryptocurrency related projects that have a similar but unrelated name.
 

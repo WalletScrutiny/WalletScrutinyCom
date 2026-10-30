@@ -46,15 +46,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The verdict still holds for the exchange account. The store
-description now also advertises "Binance.US Wallet", which it calls "a true
-self-custodial crypto wallet" inside the same app. We found no public source code
-for the app, so that wallet cannot be verified either. The description also says
-that for users in New York and North Carolina, assets "are custodied, cleared, and
-settled solely by BitGo". We removed the "FOSS" feature tag, which had no source.
-The exchange remains {% include verdictBadge.html verdict="custodial" type='short' %},
-like other exchange apps with a built-in Web3 wallet such as
-{% include walletLink.html wallet='android/com.okinc.okex.gp' verdict='true' %}.
+**Update 2026-10-30:** We removed the "FOSS" feature tag, which had no source code behind it.
 
 Binance being a big exchange, the description on Google Play only mentions
 security features like FDIC insurance for USD balance but no word on
@@ -64,10 +56,6 @@ assume the app is a custodial offering and therefore **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The verdict still holds. The App Store description does
-not mention the self-custodial wallet that the Android description advertises, but
-carries the same BitGo custody note for New York and North Carolina. It remains {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 This is the iPhone version of {% include walletLink.html wallet='android/com.binance.us' %} and we
 come to the same conclusion for the same reasons. This app is **not verifiable**.

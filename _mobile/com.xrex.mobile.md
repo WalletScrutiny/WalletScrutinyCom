@@ -40,8 +40,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** XREX is still a {% include verdictBadge.html verdict="custodial" type='short' %} exchange. The current Play description advertises margin trading, grid bots and bank-linked deposits and withdrawals "with your XREX wallet". [xrex.io](https://xrex.io/) now presents XREX Group as a "Blockchain-Powered Financial Institution" with a cross-border payment product, XREX Pay.
-
 ## App Description
 
 > XREX crypto-fiat exchange supports US dollar (USD), Bitcoin (BTC), Indian Rupee (INR), Ethereum (ETH), USDT, XRP, BCH, and continues to expand multiple fiat and cryptocurrency options. Partnering with international banking partners, XREX is trusted by cross-border merchants, overseas working professionals, migrant workers, and crypto traders in over 20+ countries, especially in emerging economies such as India, Africa, Southeast Asia, the Middle East, and South America.
@@ -58,7 +56,5 @@ Cryptocurrency exchanges that have banking partners that let users buy cryptocur
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is not gone. It has no App Store result in India or the US, but it is [listed in Taiwan](https://itunes.apple.com/lookup?id=1482096895&country=tw) and was updated to version 2.1.1242 on 2026-10-29. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include copyFromAndroid.html %}

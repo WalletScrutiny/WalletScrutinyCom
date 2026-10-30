@@ -50,8 +50,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The app is now called Pundi Wallet and has reached version 5.10.1. The [repository](https://github.com/PundiAI/fx-wallet-android) moved to the PundiAI organization. Its [last commit](https://github.com/PundiAI/fx-wallet-android/commits/main) is from February 2022 and its only tag is v1.0.0. The provider never answered our [issue](https://github.com/FunctionX/fx-wallet-android/issues/1). The provider's newer projects are on [pundi.ai](https://pundi.ai/). The public code is years behind the app, so the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
-
 ## Update 2024-07-16
 
 They still have not responded to the [GitHub issue](https://github.com/FunctionX/fx-wallet-android/issues/1) we created, and have not updated their repository at all. This app is **not source-available**.
@@ -108,8 +106,6 @@ The source code for this app is **not verifiable.**
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** Same as on Android: the iPhone app is Pundi Wallet 5.9.0, and the [repository](https://github.com/PundiAI/fx-wallet-android) has not changed since February 2022. It stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 {% include copyFromAndroid.html %}
 

@@ -18,8 +18,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The fake app is still gone from Google Play. The verdict {% include verdictBadge.html verdict="fake" type='short' %} stays.
-
 **Update 2021-11-26**: This app is not available anymore.
 
 This app tries to imitate

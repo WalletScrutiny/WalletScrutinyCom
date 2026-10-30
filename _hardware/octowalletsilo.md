@@ -36,8 +36,6 @@ features:
 
 **⚠️ Warning:** This provider is gone. Its website is a domain for sale and its shop no longer resolves.
 
-**Update 2026-10-30:** OctoWallet is still gone. On 2026-10-30 [octowallet.com](https://www.octowallet.com/) was a "for sale" page at the registrar Spaceship, and shop.octowallet.com no longer resolved. The website field now points to the [last archived copy of the real site, from December 2019](https://web.archive.org/web/20191212090550/https://www.octowallet.com/). We found no source code, so the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
-
 The last twitter post of the Octowallet was made on [March 1, 2019.](https://twitter.com/OctoWallet/status/1079365807707086848). The first working prototype was shown on twitter on [August 3, 2018.](https://twitter.com/OctoWallet/status/1025206431505502208). The Youtube video linked-to on the tweet is now removed. 
 
 Photos of the first order of Octowallet Silo's are in this [tweet](https://twitter.com/OctoWallet/status/1096284595962564608/photo/2).

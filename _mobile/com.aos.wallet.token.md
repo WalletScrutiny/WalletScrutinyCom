@@ -21,7 +21,7 @@ android:
 
 **⚠️ Warning:** The provider of ATS Wallet appears to be gone. Its website no longer exists.
 
-**Update 2026-10-30:** We now mark this app defunct. It is still gone from Google Play, and atswallet.io no longer resolves. The Wayback Machine last saved the [ATS Wallet website](https://web.archive.org/web/20220122043913/http://atswallet.io/) in January 2022; by [October 2025](https://web.archive.org/web/20251007104543/http://atswallet.io/) the domain only showed a parking page. We found no archived copy of the store page and still no source code, so the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** The provider is gone. atswallet.io no longer resolves; by [October 2025](https://web.archive.org/web/20251007104543/http://atswallet.io/) the domain only showed a parking page.
 
 **Update 2022-01-15**: This app is not on the Store anymore.
 

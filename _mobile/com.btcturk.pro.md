@@ -40,14 +40,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** BtcTurk is still {% include verdictBadge.html verdict="custodial" type='short' %}.
-Hackers drained its hot wallets twice since our review, for about USD 55 million
-in June 2024 and about USD 48 million in
-[August 2025](https://cointelegraph.com/news/btcturk-withdrawal-halt-hack-report).
-In 2025 BtcTurk paused crypto deposits and withdrawals and said that most
-assets were held in cold wallets. The bug bounty page moved to
-[kripto.btcturk.com](https://kripto.btcturk.com/en/bug-bounty); we updated the link.
-
 > We offer mandatory two-step verification and an optional withdrawal PIN Code for your security. We store at least 97% of assets in secure, offline cold wallets.
 
 This confirms it as custodial.
@@ -62,8 +54,4 @@ They also feature a [Bug Bounty](https://kripto.btcturk.com/en/bug-bounty).
 
 ## iPhone
 
-**Update 2026-10-30:** The iPhone app is not gone. It is in the Turkish App
-Store under the same name, bundle ID and developer as the Android app, and was
-updated in October 2026. It is the same exchange, so it is
-{% include verdictBadge.html verdict="custodial" type='short' %} too; see the
-Android section.
+**Update 2026-10-30:** The iPhone app is in the Turkish App Store under the same name, bundle ID and developer as the Android app. It is the same exchange, so it is {% include verdictBadge.html verdict="custodial" type='short' %} too; see the Android section.

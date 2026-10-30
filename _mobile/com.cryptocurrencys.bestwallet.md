@@ -13,11 +13,7 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play, and so is the
-developer page of its provider NICE APPER. The apk.support link below no longer
-resolves. The [demo video](https://www.youtube.com/watch?v=eFfECTyRuos) is still
-online. We found no archived copy of the store page, so we keep the
-{% include verdictBadge.html verdict="wip" type='short' %} status.
+**Update 2026-10-30:** The apk.support link below no longer resolves.
 
 This app still appears in search results but Google Play doesn't show the app.
 At least not for users in 

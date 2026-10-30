@@ -21,8 +21,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play and the Wayback Machine has no archived copy of its store page. [atmoption.in](https://atmoption.in#deadLink) no longer resolves. The [Facebook page](https://www.facebook.com/warrant.atm.1) still exists but only shows a login wall, so we could not tell whether it is active. The {% include verdictBadge.html verdict="nosendreceive" type='short' %} verdict stays.
-
 **Update 2021-11-18**: This app is not on Play Store anymore.
 
 ## App Description

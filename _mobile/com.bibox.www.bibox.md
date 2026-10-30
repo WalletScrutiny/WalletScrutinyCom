@@ -25,8 +25,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is gone from Google Play again; an [archived copy of its store page](https://web.archive.org/web/20220122231830/https://play.google.com/store/apps/details?id=com.bibox.www.bibox) from January 2022 is the last we found. The [Bibox website](https://www.bibox.com/en) is still online and offers spot, leveraged and futures trading, so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}. Its successor {% include walletLink.html wallet='android/com.box.pro' verdict='true' %} is also gone from Google Play.
-
 **Update 2023-07-06**: The app is available once more. However, this was last updated in 2021. The newer {% include walletLink.html wallet='android/com.box.pro' verdict='true' %} is the one linked to from the Bibox website.
 
 

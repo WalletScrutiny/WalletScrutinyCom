@@ -42,8 +42,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** CoinJar is still running and has [expanded into the US](https://ffnews.com/newsarticle/coinjar-enters-the-u-s-bringing-ai-enabled-tools-to-a-regulated-crypto-exchange). Its current [Terms of Service](https://www.coinjar.com/au/legal) say "we store at least 90% of all cryptoassets, including customer assets, in cold storage wallets, multi-signature ("multi-sig") wallets, or multi-party computation ("MPC") wallets", supported by BitGo and Fireblocks, and that part of the balances is held by BitGo Trust. CoinJar still holds the keys, so it stays {% include verdictBadge.html verdict="custodial" type='short' %}.
-
 Google Play description:
 
 > CoinJar is Australia’s longest-running cryptocurrency exchange. The CoinJar app lets you buy and sell cryptocurrencies using Australian dollars simply, securely and with low fees.
@@ -65,7 +63,5 @@ This confirms that CoinJar is in charge of the funds. This app is **custodial** 
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is still listed and uses the same custodial account as the Android app. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include copyFromAndroid.html %}

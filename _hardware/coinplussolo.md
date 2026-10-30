@@ -34,7 +34,7 @@ features:
 
 ---
 
-**Update 2026-10-30:** The product lives on as the "Coinplus Card" and works the same way, so this stays {% include verdictBadge.html verdict="prefilled" type='short' %}. [Coinplus, Inc.](https://coinplus.com/), now based in New York, sells the card from 24.99 USD. Its [security page](https://coinplus.com/security) describes the same two-secret scheme: a manufacturing partner engraves and seals secret 1, Coinplus engraves and seals secret 2, and the user combines both in the Coinplus app. The cards still arrive with their keys already made, and the user has to trust that the two parties never combine their secrets. The [redeem code](https://github.com/coinplus-sa/coinplus-solo-redeem) is still on GitHub under the MIT license and was last updated in March 2026.
+**Update 2026-10-30:** The product is now sold as the "Coinplus Card" by [Coinplus, Inc.](https://coinplus.com/), now based in New York. Its [security page](https://coinplus.com/security) describes the same two-secret scheme.
 
 [Here is a video](https://youtube.com/watch?v=qaaQREWK9IY) showing how to redeem the private key on CoinPlus Solo.
 

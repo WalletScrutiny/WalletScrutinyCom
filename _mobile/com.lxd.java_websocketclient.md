@@ -45,7 +45,7 @@ On 2026-10-30 coinflex.com no longer resolved in DNS.
 
 ## Android
 
-**Update 2026-10-30:** The app is still gone from Google Play. An
+**Update 2026-10-30:** An
 [archived copy of its store page](https://web.archive.org/web/20230202000800/https://play.google.com/store/apps/details?id=com.lxd.java_websocketclient)
 from February 2023 describes an exchange app to "Buy, Sell & Trade", "Earn interest 3 times a day with
 flexUSD" and "Withdraw and deposit funds at anytime". With the 99% cold-storage policy below, that is a
@@ -93,8 +93,8 @@ As a cryptocurrency derivatives exchange that holds 99% of funds in cold storage
 
 ## iPhone
 
-**Update 2026-10-30:** The iPhone app is gone from the App Store too. It was the same CoinFLEX
-exchange client (same version 2.7.0 as on Android), and the
+**Update 2026-10-30:** The iPhone app was the same CoinFLEX
+exchange client, and the
 [archived security page](https://web.archive.org/web/20211130053447/https://coinflex.com/security/) says
 "CoinFLEX operates with a 99% cold storage policy, with up to only 1% stored in a secure hot wallet". We
 change the verdict from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.

@@ -17,9 +17,4 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play. We found no
-archived copy of its store page, no website (augstrain.com does not resolve) and
-no trace of the provider in a web search, so it stays
-{% include verdictBadge.html verdict="wip" type='short' %}.
-
 **Update 2021-08-23**: This app is no more on Play Store.

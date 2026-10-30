@@ -18,8 +18,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play. It stays a {% include verdictBadge.html verdict="fake" type='short' %}; the [real Crypto.com exchange](https://crypto.com/exchange) is still in operation.
-
 **Update 2021-08-17**: This app is not the the Play Store anymore and by name
 apparently tried to imitate
 {% include walletLink.html wallet='android/com.crypto.exchange' verdict='true' %}.

@@ -42,13 +42,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The verdict still holds. Foxbit still runs a
-Brazilian crypto exchange on [its website](https://foxbit.com.br/). The old
-Terms of Use link is dead; the [current Terms of Use](https://foxbit.com.br/termos-de-uso)
-list custody of crypto assets among Foxbit's services and describe the user's
-wallet as one "mantida junto à Foxbit" (kept with Foxbit). We found no
-self-custody mode.
-
 **The app's description and official website are in Portugese. Quotes are provided by Google Translate, and the app may not have an English translation available.**
 
 > Here at Foxbit you can trade bitcoin, ethereum, litecoin, trueusd and XRP on our platform from the desktop or in our app. Transparency, liquidity and security in one of the largest cryptocurrency companies in Brazil.
@@ -64,13 +57,6 @@ This is a **custodial** product and therefore **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The verdict still holds. Foxbit still runs a
-Brazilian crypto exchange on [its website](https://foxbit.com.br/). The old
-Terms of Use link is dead; the [current Terms of Use](https://foxbit.com.br/termos-de-uso)
-list custody of crypto assets among Foxbit's services and describe the user's
-wallet as one "mantida junto à Foxbit" (kept with Foxbit). We found no
-self-custody mode.
 
 **The app's description and official website are in Portugese. Quotes are provided by Google Translate, and the app may not have an English translation available.**
 

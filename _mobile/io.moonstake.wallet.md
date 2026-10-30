@@ -42,8 +42,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Moonstake still claims self-custody. Its Google Play description says "You can fully manage your private keys and control your staking coins in your local device with the digital wallet. Even Moonstake cannot hold your keys." Its [GitHub account](https://github.com/Moonstake) holds only three library repositories last touched in 2021, no wallet app. The FAQ we quoted now fails with a Cloudflare error, while [moonstake.io](https://moonstake.io/) still loads. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
-
 ## Update 2024-07-15
 
 No change has been discovered regarding the availability of this app's source code. A search for the app ID ["io.moonstake.wallet" on GitHub](https://github.com/search?q=%22io.moonstake.wallet%22&type=code), resulted in 9 results that were not related to the Android app.

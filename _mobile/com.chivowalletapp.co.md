@@ -19,11 +19,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** This fake app is still gone from Google Play. The
-[archived store page](https://web.archive.org/web/20210819191720/https://play.google.com/store/apps/details?id=com.chivowalletapp.co)
-confirms the Gmail developer address and promised "an airdrop worth $30 BTC"
-on download. The verdict {% include verdictBadge.html verdict="fake" type='short' %} stands.
-
 **Update 2021-08-21**: This app is no more.
 
 This app pretends to be the hugely anticipated

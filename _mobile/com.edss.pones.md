@@ -18,8 +18,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play, and the Wayback Machine has no copy of its store page. It never listed a website. The verdict stays {% include verdictBadge.html verdict="fake" type='short' %}.
-
 **Update 2021-12-03**: This app is gone from the Store.
 
 ⚠️ **Warning**: There are many instances which give us pause when it comes to this app. Please see below. Proceed with utmost scrutiny, due diligence and caution when examining this app. 

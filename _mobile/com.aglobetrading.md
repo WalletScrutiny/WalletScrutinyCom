@@ -18,8 +18,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play, and the Wayback Machine has no archived copy of its store page. The listing never named a website, so there is no provider to check. Without evidence of how the app held funds, it stays {% include verdictBadge.html verdict="wip" type='short' %}.
-
 ⚠️ **Caution:** Some users on Google Play have specified negative experiences with this app.
 
 ## App Description

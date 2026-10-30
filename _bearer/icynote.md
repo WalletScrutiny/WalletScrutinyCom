@@ -30,8 +30,6 @@ features:
 
 ---
 
-**Update 2026-10-30:** Icynote is still sold. The [shop](https://www.icynote.ch/wallets) lists Bitcoin notes from CHF 9 up to CHF 50,000, and the [FAQ](https://www.icynote.ch/faq) still says the private keys are generated and printed by the company. The verdict stays {% include verdictBadge.html verdict="prefilled" type='short' %}.
-
 ## Private keys can be created offline 
 
 Since we are talking about physical bitcoin notes, we'd have to assume that they are printed somewhere physically.

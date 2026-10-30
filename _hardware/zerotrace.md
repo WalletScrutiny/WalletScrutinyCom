@@ -32,8 +32,6 @@ features:
 
 ---
 
-**Update 2026-10-30:** The [Zero Trace Pen](https://zerotrace.org/product/zerotracepen/) is still on sale, now as a "2nd Generation" device with a USB-A or USB-C plug, for $99 to $147. The shop page still lists Electrum among the pre-installed apps. We found no published source code or firmware for the pen itself, so it stays {% include verdictBadge.html verdict="nosource" type='short' %}.
-
 ## Product Description
 
 > Zero Trace is an all-in-one flash drive with everything you need to stay anonymous. Being completely portable, you can access the Tor network on any computer from the USB port, anonymously from the Zero Trace Pen.  Clearnet, Dark Web, Darknet, Deep Web Compatible

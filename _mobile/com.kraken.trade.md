@@ -47,14 +47,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Still custodial. Kraken's
-[security page](https://www.kraken.com/features/security) says "We use advanced
-cold storage and hot wallet solutions to secure your funds", and its
-[proof of reserves](https://www.kraken.com/proof-of-reserves) lets users check
-"that Kraken had custody of the covered tokens in your account". Kraken's
-self-custody app is listed separately:
-{% include walletLink.html wallet='android/com.kraken.superwallet' verdict='true' %}.
-
 On their website we read:
 
 > 95% of all deposits are kept in offline, air-gapped, geographically
@@ -67,14 +59,6 @@ verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** Still custodial. Kraken's
-[security page](https://www.kraken.com/features/security) says "We use advanced
-cold storage and hot wallet solutions to secure your funds", and its
-[proof of reserves](https://www.kraken.com/proof-of-reserves) lets users check
-"that Kraken had custody of the covered tokens in your account". Kraken's
-self-custody app is listed separately:
-{% include walletLink.html wallet='android/com.kraken.superwallet' verdict='true' %}.
 
 On their website we read:
 

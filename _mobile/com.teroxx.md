@@ -37,8 +37,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Teroxx is still a {% include verdictBadge.html verdict="custodial" type='short' %} service. The Play description now says Teroxx Worldwide UAB has operated as a VASP in Lithuania since late 2022 and that the app lets you "Purchase, Store, Send" crypto, with a Teroxx Pay VISA card from Wallester AS. [teroxx.com](https://www.teroxx.com/) now presents a "digital asset boutique" with a EUR IBAN account, and portfolio management under CySEC regulation. We found no mention of a seed phrase or private keys.
-
 ## App Description
 
 It's a multi-currency wallet that supports BTC, ETH, DASH, XRP and others. It also supports linking Mastercard to the wallet.

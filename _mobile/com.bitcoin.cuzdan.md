@@ -18,7 +18,3 @@ iphone:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from the App Store (US and Turkey).
-The listing names no website or developer, and we found no trace of the
-provider, so the app stays unreviewed.
-

@@ -40,8 +40,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Still no source code for the app. The [Ballet GitHub organization](https://github.com/balletcrypto) has forks of libraries, the source of the balletcrypto.org website ([evian](https://github.com/balletcrypto/evian)) and a BIP38 [crypto library](https://github.com/balletcrypto/cryptojs-lib) "for the Ballet wallet", but no repository for the Android app, and a code search for the appId finds only WalletScrutiny's own pages. The [website](https://www.ballet.com/) still sells the cards as "100% self-custodial" and the app as the way to buy, sell and swap. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
-
 ## Update as of 2024-05-17
 
 Currently, there is no mention of source code on the site or the app's description page.
@@ -84,8 +82,6 @@ source code is also **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** As on Android, we found no repository for the app in the [Ballet GitHub organization](https://github.com/balletcrypto). The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 > Ballet Crypto is an app that acts as a companion to your Ballet product,
   allowing you to manage your cryptocurrencies, check their market value and add

@@ -34,7 +34,7 @@ features:
 
 ---
 
-**Update 2026-10-30:** Keystone no longer sells this device. Its [product page](https://shop.keyst.one/products/keystone-ultimate#deadLink) returns 404, and the [Keystone shop](https://shop.keyst.one/) no longer lists it. The hardware wallet it sells today is the {% include walletLink.html wallet='hardware/keystone3.pro' verdict='true' %}. The [firmware page](https://keyst.one/firmware) offers only Keystone 3 firmware. The last release of the first-generation [Keystone-cold-app](https://github.com/KeystoneHQ/Keystone-cold-app/releases) is M-13.0 from 2024-05-29. Keystone is still in business, so we mark this device discontinued. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** Keystone no longer sells this device. Its [product page](https://shop.keyst.one/products/keystone-ultimate#deadLink) returns 404, and the hardware wallet Keystone sells today is the {% include walletLink.html wallet='hardware/keystone3.pro' verdict='true' %}. We mark this device discontinued.
 
 This device is the same as {% include walletLink.html wallet='hardware/cobovaultessential' verdict='true' %} but with more durable casing. 
 

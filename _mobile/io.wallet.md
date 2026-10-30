@@ -39,8 +39,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The Android app is still gone from Google Play, and so is the Pro version. The [wallet.io website](https://wallet.io/) is still online with the same claims ("No need to save mnemonic phrase or private key", "Open Source") and now offers login with a Gate.com account. The [wallet-io GitHub account](https://github.com/wallet-io) still holds only libraries and a Ledger app, plus new 2026 "Keygenix" key-management repositories, but no wallet app code. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
-
 **Update 2022-02-18**: This app is not on the Store anymore.
 
 **Note:** There is a Pro version for wallet.io
@@ -95,7 +93,5 @@ This app is **self-custodial**, but the source code is **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is still on the US App Store, but its last update is version 1.14.1 from November 2021. We found no source code for it either, so the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 {% include copyFromAndroid.html %}

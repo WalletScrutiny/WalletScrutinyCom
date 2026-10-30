@@ -40,8 +40,6 @@ features:
 
 ---
 
-**Update 2026-10-30:** Keycard is still sold and still open source. The [Keycard shop](https://keycard.tech/products/keycard) sells a single card for 29 € (we updated the price). The [applet repository](https://github.com/keycard-tech/status-keycard) moved from status-im to the keycard-tech organization and got its last release, 4.0.1, on 2026-10-13. Keycard now also sells the {% include walletLink.html wallet='hardware/keycard-shell' verdict='true' %}, a signer with a screen and keypad that uses the card as its secure element. We review it separately. The card alone still has no screen or button, so it stays {% include verdictBadge.html verdict="noita" type='short' %}.
-
 ## Update 2022-11-03
 
 - This device is NFC-enabled

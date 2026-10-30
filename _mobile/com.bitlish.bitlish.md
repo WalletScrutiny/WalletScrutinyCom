@@ -27,9 +27,7 @@ android:
 services on 2020-03-30, and on 2026-10-30 the domain bitlish.com no longer
 resolved.
 
-**Update 2026-10-30:** The app is still gone from Google Play and the domain
-bitlish.com no longer resolves, so we mark the provider as defunct. The verdict
-stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** The provider is gone; the domain bitlish.com no longer resolves.
 
 This app is closing down its operation. It disappeard from Google Play, iTunes,
 Twitter, LinkedIn and Facebook and on their website we read:

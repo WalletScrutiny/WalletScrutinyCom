@@ -40,7 +40,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** iSunOne is gone. Its [website](https://isun.one) now carries only a notice, updated 13 October 2026, that "Operations ceased in 2025" and that it no longer offers "stablecoin, OTC, wallet, card, payment, or savings services". It warns users not to send funds through old iSunOne links or apps. The app is still missing from Google Play, and the [terms page](https://isun.one/tnc) quoted below now returns 410 Gone. The app was {% include verdictBadge.html verdict="custodial" type='short' %} and that stays as its history.
+**Update 2026-10-30:** iSunOne is gone. Its [website](https://isun.one) now carries only a notice that "Operations ceased in 2025", and the [terms page](https://isun.one/tnc) quoted below now returns 410 Gone.
 
 **Update 2022-03-21**: This app is not available anymore.
 
@@ -72,6 +72,6 @@ This app is a financial app merged with a Bitcoin wallet, staking, interest paym
 
 ## iPhone
 
-**Update 2026-10-30:** The iPhone app is gone from the App Store as well, in the US, Hong Kong and India storefronts. iSunOne's [website](https://isun.one) says the company ceased operations in 2025. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** The iPhone app is gone from the App Store as well, and iSunOne's [website](https://isun.one) says the company ceased operations in 2025.
 
 {% include copyFromAndroid.html %}

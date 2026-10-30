@@ -42,13 +42,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** ThinkTrader is still a CFD app. ThinkMarkets calls it
-its ["proprietary CFD trading platform"](https://www.thinkmarkets.com/en/thinktrader/),
-and its crypto page is titled
-["Trade Crypto CFDs Online 24/7"](https://www.thinkmarkets.com/en/cryptocurrency-trading/).
-You trade price movements, you do not hold bitcoin, so the verdict
-{% include verdictBadge.html verdict="nosendreceive" type='short' %} still holds.
-
 ## App Description
 
 ThinkTrader is a trading platform for forex and CFD trading.
@@ -66,8 +59,5 @@ You **cannot send or receive bitcoins on this platform.**
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The iPhone app is still listed in the US App Store and is
-the same CFD platform. The verdict still holds; see the Android section.
 
 {% include copyFromAndroid.html %}

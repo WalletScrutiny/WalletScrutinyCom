@@ -48,15 +48,6 @@ insolvency process, and gives no timetable for withdrawals.
 
 ## Android
 
-**Update 2026-10-30:** The app is gone from Google Play and the exchange behind it
-has stopped trading. On 2026-08-22
-[AscendEX wrote](https://ascendex.com/) that its website is being turned into a
-claims portal that "will not initially support trading, deposits or withdrawals",
-and that it cannot "confirm the amount that customers may ultimately recover".
-Users can only file claims for their balances, the risk any custodial exchange
-carries.
-The verdict stays custodial and the listing is marked defunct.
-
 The AscendEx mobile app claims on the website help section to manage bitcoins...
 
 > You can withdraw your digital assets to external platforms or wallets via
@@ -72,15 +63,6 @@ Our verdict: This 'wallet' is custodial and therefore **not verifiable**.
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The app is gone from the App Store and the exchange behind it
-has stopped trading. On 2026-08-22
-[AscendEX wrote](https://ascendex.com/) that its website is being turned into a
-claims portal that "will not initially support trading, deposits or withdrawals",
-and that it cannot "confirm the amount that customers may ultimately recover".
-Users can only file claims for their balances, the risk any custodial exchange
-carries.
-The verdict stays custodial and the listing is marked defunct.
 
 The AscendEx mobile app claims on the website help section to manage bitcoins...
 

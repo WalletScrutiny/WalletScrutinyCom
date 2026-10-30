@@ -34,7 +34,7 @@ features:
 
 ---
 
-**Update 2026-10-30:** The PRO is no longer sold. Ballet moved from balletcrypto.com to [ballet.com](https://www.ballet.com/). The [PRO page](https://www.ballet.com/en/pro/) is still online, but the old store address of the PRO now redirects to the REAL card, and the [Ballet store](https://store.ballet.com/) lists only REAL cards, coins and gift cards. We mark it discontinued. The analysis below still describes the cards in circulation, and the verdict stays {% include verdictBadge.html verdict="prefilled" type='short' %}.
+**Update 2026-10-30:** The PRO is no longer sold. Ballet moved from balletcrypto.com to [ballet.com](https://www.ballet.com/), and the [Ballet store](https://store.ballet.com/) lists only REAL cards, coins and gift cards. We mark it discontinued.
 
 The Ballet Crypto Pro is the third product from the Ballet Crypto series. 
 

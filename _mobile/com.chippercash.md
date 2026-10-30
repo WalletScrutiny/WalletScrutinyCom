@@ -25,14 +25,7 @@ android:
 
 ---
 
-**Update 2026-10-30:** Still custodial, and crypto is now limited. The
-[support article below](https://support.chippercash.com/en/articles/4750740-how-to-buy-sell-cryptocurrency-on-chipper-cash)
-now says the crypto feature "is only available for new users in Uganda" and no
-longer contains the quote about external wallets. The
-[crypto terms of use](https://support.chippercash.com/en/articles/6007645-cryptocurrency-terms-of-use)
-say custody is done by Fireblocks or another service provider, in an omnibus
-account that pools all users' coins. The verdict
-{% include verdictBadge.html verdict="custodial" type='short' %} holds.
+**Update 2026-10-30:** The [support article below](https://support.chippercash.com/en/articles/4750740-how-to-buy-sell-cryptocurrency-on-chipper-cash) no longer contains the quote about external wallets, and now says the crypto feature "is only available for new users in Uganda".
 
 Stated in their sites [support article](https://support.chippercash.com/en/articles/4750740-how-to-buy-sell-cryptocurrency-on-chipper-cash) 
 "Currently it's not possible to send to or receive Bitcoin or Ethereum from external wallets"

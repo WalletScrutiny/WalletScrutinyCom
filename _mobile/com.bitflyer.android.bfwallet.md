@@ -41,12 +41,6 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The verdict still holds. bitFlyer still runs its
-exchange, and [its website](https://bitflyer.com/en-jp/) says that 100% of
-customer crypto assets are held in cold wallets and kept separate from
-bitFlyer's own assets. The provider holds the keys. We found no self-custody
-mode.
-
 > We ensure the safety of your funds with state-of-the-art security features including cold wallets, Multisig, 2FA, Installation of web application firewall (WAF), encryption of customer information, asset segregation and more.
 
 bitFlyer is **custodial** and **not verifiable.**
@@ -64,12 +58,6 @@ I gave 1 star only because there is no 0 star option. One word, meh. Verificatio
 ---
 
 ## iPhone
-
-**Update 2026-10-30:** The verdict still holds. bitFlyer still runs its
-exchange, and [its website](https://bitflyer.com/en-jp/) says that 100% of
-customer crypto assets are held in cold wallets and kept separate from
-bitFlyer's own assets. The provider holds the keys. We found no self-custody
-mode.
 
 > We ensure the safety of your funds with state-of-the-art security features including cold wallets, Multisig, 2FA, Installation of web application firewall (WAF), encryption of customer information, asset segregation and more.
 

@@ -24,16 +24,9 @@ android:
 
 ---
 
-**Update 2026-10-30:** The verdict holds: this app still only drives your
-Binance account, so your coins stay in Binance's custody. The provider now says the
-opposite of our worry about its own access. The current store description says
+**Update 2026-10-30:** The "stale" note below is outdated: the app was updated in July 2026. The current store description says
 the API keys "are encrypted and securely stored locally on your device and are
-never transmitted to our servers" and that ProfiTradingApp "is not a broker,
-custodian, or financial intermediary". Its [website](https://profittradingapp.com/)
-calls it a "Non-custodial trading terminal" but also advertises trading bots
-working "24/7". The app is closed source, so we cannot check where the keys and
-bots live. The website now lists only Binance, Bybit, KuCoin, BitMEX and Bitget
-as supported exchanges. The "stale" note below is outdated: the app was updated in July 2026.
+never transmitted to our servers", but the app is closed source, so we cannot check this.
 
 The provider [ProfitTradingApp](https://play.google.com/store/apps/dev?id=6470884744111312194) features a list of apps:
 

@@ -22,7 +22,7 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play. The provider still exists under a new name: utrust.com now redirects to [xMoney](https://www.xmoney.com/), and Utrust [announced its rebrand to xMoney](https://www.coincarp.com/events/utrust-rebranding-to-xmoney/) in 2023. The Play Store page as archived by the Wayback Machine in December 2020 links to utrust.com. Nothing changes the old finding: the app was {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** Utrust [rebranded to xMoney](https://www.coincarp.com/events/utrust-rebranding-to-xmoney/) in 2023, and utrust.com now redirects to [xMoney](https://www.xmoney.com/).
 
 **Update:** This app is not available on Google Play anymore
 

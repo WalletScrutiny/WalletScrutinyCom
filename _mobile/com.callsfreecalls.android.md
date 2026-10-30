@@ -22,14 +22,7 @@ android:
 
 ---
 
-**Update 2026-10-30:** This app is still gone from Google Play. Its website
-cfc.io now forwards to ixc.ua, a seller of VoIP switching software, and the
-[CallsFreeCalls](https://x.com/CallsFreeCalls) account on X no longer exists.
-The [cfc_io](https://x.com/cfc_io) account is no longer suspended and now calls
-itself "Earn online | Only real methods". The
-[archived store page](https://web.archive.org/web/20230924082110/https://play.google.com/store/apps/details?id=com.callsfreecalls.android)
-from 2023 promised a "built-in wallet" but does not say who held the keys, so
-the app stays a work in progress.
+**Update 2026-10-30:** The [cfc_io](https://x.com/cfc_io) account on X, linked above, is no longer suspended and now calls itself "Earn online | Only real methods".
 
 Its Google Play description is: 
 

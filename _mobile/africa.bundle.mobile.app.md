@@ -36,7 +36,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The app is no longer on Google Play and the provider has shut down (see the warning above), so we mark it defunct. While it ran it was an exchange that held user funds, so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** The provider has shut down; see the warning above.
 
 The [Bundle website](https://bundle.africa/) claims to be a wallet from their description...
 
@@ -50,7 +50,7 @@ Our verdict: This 'wallet' is probably custodial but does not provide public sou
 
 ## iPhone
 
-**Update 2026-10-30:** The App Store lookup for this app returns nothing, both in Nigeria and in the US, and the provider has shut down, so we mark it defunct. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** The provider has shut down; see the warning above.
 
 **Update 2021-08-31**: This app is no more available.
 

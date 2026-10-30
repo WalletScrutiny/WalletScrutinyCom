@@ -21,8 +21,6 @@ android:
 
 **⚠️ Warning:** S3 Wallet is defunct. The app is gone from Google Play and its website no longer exists.
 
-**Update 2026-10-30:** The app is still gone from Google Play, and the Wayback Machine has no archived copy of its store page. The domain [s3wallet.io](https://s3wallet.io#deadLink) no longer resolves, and we found no GitHub repository for the app or brand. The listing names no social accounts to follow up on. We mark it defunct. With no way to look at the app, the verdict stays {% include verdictBadge.html verdict="wip" type='short' %}.
-
 ## App Description
 
 > S3 Wallet is the very first fully decentralized and distributed digital asset wallet that provides users with a focused wealth generation ecosystem. Store, Swap, and manage bitcoin, ethereum & S3C tokens with the most secure wallet.

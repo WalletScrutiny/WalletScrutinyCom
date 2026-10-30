@@ -42,14 +42,7 @@ in early 2024, and its [founders had left by 2025](https://techpoint.africa/news
 
 ## Android
 
-**Update 2026-10-30:** This app stopped updating on 2021-04-16, the day
-{% include walletLink.html wallet='android/africa.buycoins.buycoinsx.basic' verdict='true' %}
-came out. That app is gone too, and
-{% include walletLink.html wallet='android/africa.buycoins.buycoinsx.pro' verdict='true' %}
-is still on Google Play but has not been updated since 2023-09-19, although the
-service behind it was shut down. The provider shows no sign of life, so we mark
-this listing defunct. The verdict
-stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** The provider is gone (see the warning above). {% include walletLink.html wallet='android/africa.buycoins.buycoinsx.basic' verdict='true' %}, the app that replaced this one on 2021-04-16, is gone too.
 
 This app is not on the app stores anymore and given the many scam accusations it
 might have been a scam.
@@ -58,11 +51,7 @@ might have been a scam.
 
 ## iPhone
 
-**Update 2026-10-30:** This app stopped updating on 2021-04-17, and the
-company's later {% include walletLink.html wallet='iphone/africa.buycoins.BuycoinsX.pro' verdict='true' %}
-app is gone from the App Store too. The provider shows no sign of life, so we mark
-this listing defunct. The verdict stays
-{% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** The provider is gone (see the warning above), and its later {% include walletLink.html wallet='iphone/africa.buycoins.BuycoinsX.pro' verdict='true' %} app is gone from the App Store too.
 
 This app is not on the app stores anymore and given the many scam accusations it
 might have been a scam.

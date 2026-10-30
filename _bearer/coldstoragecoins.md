@@ -36,7 +36,7 @@ features:
 
 ---
 
-**Update 2026-10-30:** Cold Storage Coins are still sold, now under the Blockchain Mint name. coldstoragecoins.com redirects to [blockchainmint.com](https://blockchainmint.com/), which sells BTC, ETH, DOGE, LTC and TXC coins in copper for [$19.95 each](https://blockchainmint.com/products), and [Rearden Metals](https://reardenmetals.sg/) points buyers there. The shop still says that "every coin ships with a unique laser-etched private key sealed under a tamper-evident hologram", so the key is still made by the mint and the verdict stays {% include verdictBadge.html verdict="prefilled" type='short' %}. The companion app is listed on Google Play again, as "Blockchain Mint".
+**Update 2026-10-30:** Cold Storage Coins are now sold under the Blockchain Mint name: coldstoragecoins.com redirects to [blockchainmint.com](https://blockchainmint.com/). The companion app is listed on Google Play again, as "Blockchain Mint".
 
 Comes with a partner-tracker app {% include walletLinkArchived.html wallet='android/com.coldstoragecoins' %} 
 

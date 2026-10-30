@@ -31,8 +31,6 @@ features:
 
 ---
 
-**Update 2026-10-30:** Still dead. hodler.tech does not resolve, the [GitHub repository](https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet) had its last push on 2019-10-29, and the companion app {% include walletLink.html wallet='android/tech.hodler.core' verdict='true' %} is no longer on Google Play. The verdict stays {% include verdictBadge.html verdict="vapor" type='short' %}.
-
 If a hardware wallet based on a Samsung J3 exists as a Samsung J3, does the project still exist? This project held [an ICO](https://medium.com/@cryptoyoga/hodler-the-only-ico-with-an-annual-83de9463f26b) where they promised annual dividends:
 
 > When you buy HDL at a stage of Pre sale with 40% bonus with the amount of 300 USD the total accumulated purchased HDL token, you will receive 42 000 and the annual company’s profit 20 000 000 USD and your total ROI (200%) will be 840 USD.

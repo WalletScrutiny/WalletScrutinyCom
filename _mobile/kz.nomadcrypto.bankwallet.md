@@ -16,6 +16,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** The app is still gone from Google Play. Its [archived store page](https://web.archive.org/web/20210727171407/https://play.google.com/store/apps/details?id=kz.nomadcrypto.bankwallet) from July 2021 described a "Non-Custodial Multi-wallet" with an SPV Bitcoin wallet. The text and the app ID follow {% include walletLink.html wallet='android/io.horizontalsystems.bankwallet' verdict='true' %} closely, down to the leftover line "Unstoppable is for you!", so this was most likely a rebranded fork. We found no source code for Nomad Wallet on GitHub, so it is {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** Its [archived store page](https://web.archive.org/web/20210727171407/https://play.google.com/store/apps/details?id=kz.nomadcrypto.bankwallet) from July 2021 described a "Non-Custodial Multi-wallet" with an SPV Bitcoin wallet, most likely a rebranded fork of {% include walletLink.html wallet='android/io.horizontalsystems.bankwallet' verdict='true' %}. We found no source code for Nomad Wallet on GitHub, so it is {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 **Update 2022-01-14**: This app is not available anymore.

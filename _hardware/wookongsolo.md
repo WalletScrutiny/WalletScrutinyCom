@@ -34,6 +34,4 @@ features:
 
 ---
 
-**Update 2026-10-30:** [wooko.ng](https://wooko.ng/en#deadLink) still does not resolve; the newest snapshot of it in the Wayback Machine is from [September 2021](https://web.archive.org/web/20210928005437/https://wooko.ng/). The [wookong-dot GitHub account](https://github.com/wookong-dot), which holds firmware for the related Wookong-Dot device, was last pushed in December 2022. We found no shop still selling the Solo, so the listing stays defunct and {% include verdictBadge.html verdict="wip" type='short' %}.
-
 The site can no longer be reached (404)
