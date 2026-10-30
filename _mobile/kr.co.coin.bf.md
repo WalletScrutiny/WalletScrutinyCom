@@ -1,6 +1,6 @@
 ---
 title: 비트코인렌트-올인비트,비트코인,가상화폐,투자,분석
-date: 2023-06-21
+date: 2026-10-30
 redirect_from:
 - /android/kr.co.coin.bf/
 android:

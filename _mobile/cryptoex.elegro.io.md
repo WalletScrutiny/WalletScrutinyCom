@@ -1,6 +1,6 @@
 ---
 title: 'elegro Exchange - Bitcoin and '
-date: 2023-07-03
+date: 2026-10-30
 authors:
 - leo
 - danny

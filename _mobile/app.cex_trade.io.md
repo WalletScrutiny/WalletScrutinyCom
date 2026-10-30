@@ -1,6 +1,6 @@
 ---
 title: Cex-Trade
-date: 2023-07-02
+date: 2026-10-30
 authors:
 - danny
 website: https://cex-trade.io

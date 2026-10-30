@@ -1,6 +1,6 @@
 ---
 title: 'BYDFi: Buy BTC, XRP & SOL'
-date: 2023-07-21
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bydfi.com/

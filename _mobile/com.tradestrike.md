@@ -1,6 +1,6 @@
 ---
 title: StrikeX | DeFi Crypto Wallet
-date: 2023-06-30
+date: 2026-10-30
 authors:
 - danny
 website: https://tradestrike.io/strikex-wallet/

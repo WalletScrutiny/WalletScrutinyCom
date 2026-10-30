@@ -1,6 +1,6 @@
 ---
 title: 'Sarwa: Invest, Trade & Save'
-date: 2023-07-28
+date: 2026-10-30
 authors:
 - danny
 website: https://www.sarwa.co
@@ -15,6 +15,7 @@ redirect_from:
 android:
   appId: co.sarwa
   users: 100000
+  appCountry: ae
   released: 2021-04-04
   updated: 2026-04-14
   version: 7.5.0
@@ -26,7 +27,7 @@ android:
 iphone:
   appId: co.sarwa.ios
   idd: '1554353496'
-  appCountry: us
+  appCountry: ae
   released: 2021-04-12
   updated: 2026-02-18
   version: 7.4.0

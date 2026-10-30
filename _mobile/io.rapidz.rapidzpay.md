@@ -1,9 +1,9 @@
 ---
 title: 'Rapidz: Crypto Wallet & Hub'
-date: 2023-07-19
+date: 2026-10-30
 authors:
 - danny
-website: https://www.rapidz.io/
+website: https://www.rapidz.io/#deadLink
 twitter: Rapidz_io
 social:
 - https://t.me/RapidzCommunity
@@ -41,6 +41,8 @@ iphone:
   developerName: UAB Rapidz Pay
 
 ---
+
+**⚠️ Warning:** Rapidz Pay Inc. [announced](https://x.com/Rapidz_io/status/2060332283962507528) that it ceased its services and operations on 26 May 2026. Both apps are gone from the stores and the website no longer loads.
 
 ## Android
 

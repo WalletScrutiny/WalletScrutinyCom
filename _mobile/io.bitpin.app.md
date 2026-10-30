@@ -1,6 +1,6 @@
 ---
 title: بیت پین - Bitpin
-date: 2023-07-18
+date: 2026-10-30
 authors:
 - danny
 website: https://bitpin.ir
@@ -33,7 +33,7 @@ android:
 
 ## Analysis
 
-- Tutorial article about [depositing](https://help.bitpin.ir/fa/article/chgonh-rmzarz-oariz-knim-6454nm/).
+- Tutorial article about [depositing](https://web.archive.org/web/20230925204211/https://help.bitpin.ir/fa/article/chgonh-rmzarz-oariz-knim-6454nm/).
 - The ["rules"](https://bitpin.ir/rules) (equivalent to Terms) of the site.
     - Section 2-12 shows that the platform can cancel transactions.
     - Section 2-13 shows that the platform will cooperate with authorities and block the user's access to the account for cause.

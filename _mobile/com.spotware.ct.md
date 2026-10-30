@@ -1,6 +1,6 @@
 ---
 title: 'cTrader: CFD Trading & Charts'
-date: 2023-07-01
+date: 2026-10-30
 authors:
 - danny
 website: https://ctrader.com/forum

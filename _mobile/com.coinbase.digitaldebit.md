@@ -1,6 +1,6 @@
 ---
 title: Cashlis - Real-Time Bitcoin mP
-date: 2023-06-21
+date: 2026-10-30
 website: https://digitaldebit.com#deadLink
 redirect_from:
 - /android/com.coinbase.digitaldebit/

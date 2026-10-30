@@ -1,6 +1,6 @@
 ---
 title: 'Syfe: Invest, Trade and Save'
-date: 2023-07-10
+date: 2026-10-30
 authors:
 - danny
 website: https://www.syfe.com
@@ -55,7 +55,7 @@ iphone:
 ## Analysis
 
 - We got in touch with Syfe via their webchat form. They informed us that cryptocurrency trading is available in the Australian version of the app which can be accessed by selecting the Australian flag during registration. However, when we asked if they provided a Bitcoin wallet for the user, they said 'No'.
-- Their support gave us a link to their [cryptocurrency FAQ](https://help.au.syfe.com/hc/en-us/sections/7991483746073-General), with the following information:
+- Their support gave us a link to their [cryptocurrency FAQ](https://help.au.syfe.com/hc/en-us/sections/7991483746073-General#deadLink), with the following information:
   - Users cannot deposit or withdraw cryptocurrency
   - Transactions are in USD.
   - BTCUSD is available.

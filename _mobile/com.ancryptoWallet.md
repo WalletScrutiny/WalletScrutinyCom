@@ -1,9 +1,9 @@
 ---
 title: Gems Pocket
-date: 2023-07-01
+date: 2026-10-30
 authors:
 - danny
-website: https://gemspocket.com/
+website: https://gemspocket.com/#deadLink
 twitter: AnCryptoWallet
 social:
 - https://www.linkedin.com/company/ancrypto
@@ -40,6 +40,8 @@ iphone:
   developerName: Ancrypto
 
 ---
+
+**⚠️ Warning:** Gems Pocket appears to be gone. Both apps have left the stores, the gemspocket.com website no longer loads (last working [Wayback copy from April 2026](https://web.archive.org/web/20260421012018/https://gemspocket.com/)), and its X account no longer exists.
 
 ## Android
 

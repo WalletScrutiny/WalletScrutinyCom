@@ -1,6 +1,6 @@
 ---
 title: 'El Dorado: Enviar Dinero y QR'
-date: 2023-07-18
+date: 2026-10-30
 authors:
 - danny
 website: https://eldorado.io

@@ -1,6 +1,6 @@
 ---
 title: Mahfazah | محفظة بيتكوين
-date: 2023-06-21
+date: 2026-10-30
 website: http://www.cryptocurrencysolutions.io#deadLink
 redirect_from:
 - /android/io.mahfazah/

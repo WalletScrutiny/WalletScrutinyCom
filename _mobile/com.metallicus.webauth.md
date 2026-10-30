@@ -1,6 +1,6 @@
 ---
 title: WebAuth
-date: 2023-07-06
+date: 2026-10-30
 authors:
 - danny
 website: https://webauth.com/

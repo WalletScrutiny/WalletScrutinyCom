@@ -1,6 +1,6 @@
 ---
 title: Astrollax
-date: 2023-06-21
+date: 2026-10-30
 website: https://astrollax.com#deadLink
 redirect_from:
 - /android/com.astrolltd.astrollax/

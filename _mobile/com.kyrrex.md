@@ -1,6 +1,6 @@
 ---
 title: Kyrrex Global
-date: 2023-07-11
+date: 2026-10-30
 authors:
 - danny
 website: https://kyrrex.com
@@ -38,6 +38,8 @@ iphone:
   developerName: Kyrrex Limited
 
 ---
+
+**Update 2026-10-30:** Both apps are gone from the stores, but [Kyrrex](https://kyrrex.com) still runs its exchange and now offers a new Android app, "Kyrrex EU" (app ID `mt.kyrrex.kyrrex`), which we have not reviewed yet.
 
 ## Android
 

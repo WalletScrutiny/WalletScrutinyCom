@@ -1,6 +1,6 @@
 ---
 title: CoinW · Buy BTC, ETH & Crypto
-date: 2023-07-07
+date: 2026-10-30
 authors:
 - danny
 website: https://www.coinw.com

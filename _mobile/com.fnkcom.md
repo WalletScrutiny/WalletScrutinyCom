@@ -1,6 +1,6 @@
 ---
 title: Fnk.com
-date: 2023-07-04
+date: 2026-10-30
 authors:
 - danny
 website: https://fnk.com#deadLink

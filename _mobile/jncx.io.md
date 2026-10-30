@@ -1,6 +1,6 @@
 ---
 title: JNCX:Zero-Fee Bitcoin Exchange
-date: 2023-07-28
+date: 2026-10-30
 authors:
 - danny
 redirect_from:

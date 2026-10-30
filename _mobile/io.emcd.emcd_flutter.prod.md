@@ -1,6 +1,6 @@
 ---
 title: EMCD Coinhold — Crypto Wallet
-date: 2023-07-07
+date: 2026-10-30
 authors:
 - danny
 website: https://emcd.io/ru

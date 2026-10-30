@@ -1,6 +1,6 @@
 ---
 title: 'Flipster: Trade BTC & TradFi'
-date: 2023-06-14
+date: 2026-10-30
 authors:
 - danny
 website: https://flipster.io
