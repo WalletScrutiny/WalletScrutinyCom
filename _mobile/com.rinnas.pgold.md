@@ -1,6 +1,6 @@
 ---
 title: 'Pgold App: Gift Card & Crypto'
-date: 2023-01-02
+date: 2026-10-30
 website: https://pgoldapp.com/
 redirect_from:
 - /android/com.rinnas.pgold/
@@ -16,3 +16,4 @@ android:
 
 ---
 
+**Update 2026-10-30:** PGold still exists and its [website](https://www.pgoldapp.com/) now offers a different app, "PGold" (`com.pgoldapp`), which we have not reviewed yet.

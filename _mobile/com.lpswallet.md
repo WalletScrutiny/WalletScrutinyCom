@@ -1,6 +1,6 @@
 ---
 title: Lps Wallet
-date: 2023-01-02
+date: 2026-10-30
 website: https://www.lpschain.com
 redirect_from:
 - /android/com.lpswallet/

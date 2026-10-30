@@ -1,6 +1,6 @@
 ---
 title: OPENBIT(오픈빗) - 탈중앙화 거래소_beta
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/com.openbit.app/
 android:

@@ -1,10 +1,10 @@
 ---
 title: JuBiter Wallet 2.0 - Secure Ha
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - leo
 - danny
-website: http://www.jubiterwallet.com
+website: http://www.jubiterwallet.com#deadLink
 twitter: JuBiterWallet
 social:
 - https://www.linkedin.com/company/jubiter-wallet
@@ -35,6 +35,8 @@ iphone:
   developerName: FEITIAN Technologies Co.,Ltd.
 
 ---
+
+**⚠️ Warning:** The JuBiter brand is gone. Its website now hosts an unrelated gambling site; the [last archived copy with JuBiter content is from March 2023](https://web.archive.org/web/20230314231929/https://jubiterwallet.com/). The iPhone app is still in the App Store but has not been updated since April 2022, and the {% include walletLink.html wallet='hardware/jubiterblade' verdict='true' %} is discontinued.
 
 ## Android
 

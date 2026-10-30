@@ -1,7 +1,7 @@
 ---
 title: GOW - Bitcoin & Crypto
-date: 2023-01-02
-website: https://gow.com
+date: 2026-10-30
+website: https://gow.com#deadLink
 redirect_from:
 - /android/com.gow/
 android:

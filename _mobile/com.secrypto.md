@@ -1,6 +1,6 @@
 ---
 title: Secrypto-Bitcoin, ETH, EOS
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - kiwilamb
 website: https://www.secrypto.io#deadLink
