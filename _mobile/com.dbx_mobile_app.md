@@ -1,7 +1,7 @@
 ---
 title: Bang
-date: 2023-03-21
-website: https://dbxbang.com/
+date: 2026-10-30
+website: https://dbxbang.com/#deadLink
 redirect_from:
 - /android/com.dbx_mobile_app/
 android:

@@ -1,6 +1,6 @@
 ---
 title: InBit
-date: 2023-03-21
+date: 2026-10-30
 website: https://inbitwetrust.com#deadLink
 redirect_from:
 - /android/com.InBit.app/

@@ -1,6 +1,6 @@
 ---
 title: 'Kimpper: Borrow&Invest Crypto'
-date: 2023-01-30
+date: 2026-10-30
 website: https://www.kimpper.com#deadLink
 redirect_from:
 - /android/com.kimpper/

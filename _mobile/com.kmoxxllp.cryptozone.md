@@ -1,7 +1,7 @@
 ---
 title: Cryptozone
-date: 2023-01-30
-website: https://kmoxx.com/
+date: 2026-10-30
+website: https://kmoxx.com/#deadLink
 redirect_from:
 - /android/com.kmoxxllp.cryptozone/
 android:

@@ -1,6 +1,6 @@
 ---
 title: LiteBit – Buy Bitcoin & crypto
-date: 2023-03-21
+date: 2026-10-30
 authors:
 - leo
 website: https://www.litebit.eu/
@@ -35,6 +35,8 @@ iphone:
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** LiteBit is gone. It announced in May 2023 that it would end its business and offered its customers a move to {% include walletLink.html wallet='android/com.bitvavo.android' verdict='true' %}, as [Bitvavo's LiteBit page](https://bitvavo.com/en/bitvavo-litebit) says. litebit.eu now forwards to that page.
 
 ## Android
 

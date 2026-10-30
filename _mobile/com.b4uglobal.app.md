@@ -1,9 +1,9 @@
 ---
 title: B4U Global
-date: 2023-02-08
+date: 2026-10-30
 authors:
 - danny
-website: https://www.b4uglobal.com
+website: https://www.b4uglobal.com#deadLink
 redirect_from:
 - /android/com.b4uglobal.app/
 android:

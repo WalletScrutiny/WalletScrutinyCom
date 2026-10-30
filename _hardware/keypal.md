@@ -4,7 +4,7 @@ appId: keypal
 authors:
 - danny
 released: 2021-08-09
-discontinued: 
+discontinued: 2025-08-22
 updated: 
 version: 
 binaries: 
@@ -22,9 +22,9 @@ price: 110 USD
 repository: 
 icon: keypal.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: nosource
-date: 2023-02-01
+date: 2026-10-30
 signer: 
 twitter: KeyPalWallet
 social:
@@ -33,6 +33,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** The original Keypal is no longer sold. The [KeyPal store](https://keypal.store/) has not offered it since at least August 2025 and now sells its successor, the KeyPal 2. The [KeyPal website](https://www.keypal.pro/) only offers firmware for the KeyPal 2 and the {% include walletLink.html wallet='hardware/keypal.plus' verdict='true' %}. Devices already sold still work with the TokenPocket app.
 
 ## Product Description 
 

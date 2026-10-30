@@ -1,6 +1,6 @@
 ---
 title: Safecoin Wallet
-date: 2023-01-30
+date: 2026-10-30
 website: https://safecoin.org
 redirect_from:
 - /android/org.safecoin.safecoinwallet/

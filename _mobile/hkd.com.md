@@ -1,6 +1,6 @@
 ---
 title: HKD.com
-date: 2023-02-13
+date: 2026-10-30
 authors:
 - danny
 website: http://hkd.com

@@ -1,9 +1,9 @@
 ---
 title: Dunia
-date: 2023-01-30
+date: 2026-10-30
 authors:
 - danny
-website: https://www.duniapay.net
+website: https://www.duniapay.net#deadLink
 twitter: dunia_pay
 social:
 - https://www.linkedin.com/company/dunia-payment/
@@ -35,6 +35,8 @@ iphone:
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** Dunia is gone. Its old website duniapay.net now belongs to an unrelated tech blog, and the app is no longer in either store.
 
 ## Android
 

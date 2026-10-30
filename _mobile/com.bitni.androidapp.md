@@ -1,6 +1,6 @@
 ---
 title: bitni.com Anon Crypto Exchange
-date: 2023-03-21
+date: 2026-10-30
 website: http://bitni.com#deadLink
 redirect_from:
 - /android/com.bitni.androidapp/

@@ -1,6 +1,6 @@
 ---
 title: Ondawa Bot
-date: 2023-01-30
+date: 2026-10-30
 redirect_from:
 - /android/com.botlnw.bot/
 android:

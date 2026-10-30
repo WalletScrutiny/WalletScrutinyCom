@@ -1,9 +1,9 @@
 ---
 title: Moon Wallet
-date: 2023-01-30
+date: 2026-10-30
 authors:
 - danny
-website: https://moonwallet.net/
+website: https://moonwallet.net/#deadLink
 twitter: gomoonwallet
 social:
 - https://www.facebook.com/moonwallet.net
@@ -33,6 +33,8 @@ iphone:
   verdict: nosource
 
 ---
+
+**⚠️ Warning:** Moon Wallet is gone. Its website now shows a parked domain page, and the app is no longer in either store.
 
 ## Android
 

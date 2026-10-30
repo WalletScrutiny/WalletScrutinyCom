@@ -1,6 +1,6 @@
 ---
 title: KIKI
-date: 2023-03-21
+date: 2026-10-30
 authors:
 - danny
 website: http://www.kikitrade.com#deadLink
@@ -34,6 +34,8 @@ iphone:
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** Kikitrade stopped running an exchange. It [told its users](https://www.wikifx.com/en/newsdetail/202402094134728442.html) that trading and deposits would end on 2024-02-28 and its custodial wallet on 2024-05-30, and that the app would carry on as "Kiki" with a self-custody wallet. Both apps are gone from the stores and kikitrade.com no longer loads. The custodial verdict below describes the app as we tested it.
 
 ## Android
 

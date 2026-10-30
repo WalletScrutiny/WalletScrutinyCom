@@ -1,6 +1,6 @@
 ---
 title: All Crypto Trading Bot
-date: 2023-03-21
+date: 2026-10-30
 website: https://botcrypto.mygreat.app#deadLink
 redirect_from:
 - /android/com.botcrypto.finance.mygreatapp/

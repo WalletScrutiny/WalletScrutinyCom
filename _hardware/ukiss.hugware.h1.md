@@ -12,16 +12,16 @@ dimensions:
 weight: 
 provider: UKISS Technology
 providerWebsite: 
-website: https://www.ukiss.io/
-shop: https://www.ukiss.io/launch-bundle
+website: https://web.archive.org/web/20260412164659/https://www.ukiss.io/
+shop: https://www.ukiss.io/launch-bundle#deadLink
 country: SG
 price: 169USD
 repository: 
 icon: ukiss.hugware.h1.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: noita
-date: 2023-02-10
+date: 2026-10-30
 signer: 
 twitter: UKISSTech
 social:
@@ -37,6 +37,10 @@ features:
 
 ---
 
+**⚠️ Warning:** UKISS Technology appears to be gone. Its domain was taken over by an unrelated site and no longer loads.
+
+**Update 2026-10-30:** UKISS is gone, so we mark the {{ page.title }} defunct. The UKISS site was [still online in April 2026](https://web.archive.org/web/20260412164659/https://www.ukiss.io/), but by June 2026 the domain showed an [unrelated football streaming site](https://web.archive.org/web/20260612205905/https://www.ukiss.io/), and now it does not load at all. The keys have no recovery phrase and work only with the UKISS Hub software and the UKISS app, and we found no other source for either, so a lost key can no longer be replaced through UKISS.
+
 The {{page.title}} is unique in its security implementation. Most of the mainstream devices are stand-alone or paired with a mobile phone. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4-OMRrQ2pkY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -46,7 +50,7 @@ The two devices:
 
 - Have no interface
 - Have to be connected to a desktop computer with the UKiss Hub Software installed (currently at v.1.1.3) or the UKiss app when connected to a mobile phone.
-- [Require user registration](www.ukiss.io/my-account/.) to activate 5-year warranty
+- [Require user registration](https://www.ukiss.io/my-account/#deadLink) to activate 5-year warranty
 - Does not use recovery phrases
 
 > Hugware comes in a pair. During setup, the master seed is generated in the Authentication Key (A-Key) and synchronised with the Rescue Key (R-Key). Use the A-Key to manage your crypto assets and keep your R-Key for when you need to recover access in the future. 
@@ -86,7 +90,7 @@ Both the A-key and the R-key **do not have a display or an interface** the user 
 
 ## Documentation
 
-[User guide](https://www.ukiss.io/userguide/)
+[User guide](https://web.archive.org/web/20260123175057/https://www.ukiss.io/userguide/)
 
 ## Product Description 
 
