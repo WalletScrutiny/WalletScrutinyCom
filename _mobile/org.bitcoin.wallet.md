@@ -1,6 +1,6 @@
 ---
 title: 'Bitcoin Wallet: by Bitcoin.org'
-date: 2021-06-16
+date: 2026-10-30
 authors:
 - emanuel
 - leo
@@ -23,6 +23,17 @@ android:
 ---
 
 {% include featureEvidence.html feature="hd" source="[README](https://github.com/bitcoin-dot-org/BitcoinWalletMobile#readme)" quote="BIP-39 mnemonic 12 word seed" %}
+
+**Update 2026-10-30:** The app is still gone from Google Play. In May 2021
+Cobra-Bitcoin [wrote](https://github.com/bitcoin-dot-org/BitcoinWalletMobile/issues/9)
+that he had disabled it in the store to fix a critical bug, but no fixed version
+followed: the [repository](https://github.com/bitcoin-dot-org/BitcoinWalletMobile)
+still exists, its last commit dates from 2021-04-18, and the only tag is `v1.0`.
+Our [request for build instructions](https://github.com/bitcoin-dot-org/BitcoinWalletMobile/issues/7)
+is still open. Bitcoin.org's
+[Android wallet list](https://bitcoin.org/en/wallets/mobile/android/) does not
+include this app. The verdict stays
+{% include verdictBadge.html verdict="sourceavailable" type='short' %}.
 
 **Update 2021-06-16**: It's been
 [six weeks](https://github.com/bitcoin-dot-org/BitcoinWalletMobile/issues/9)

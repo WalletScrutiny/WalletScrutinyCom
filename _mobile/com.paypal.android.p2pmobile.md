@@ -1,7 +1,7 @@
 ---
 wsId: paypal
 title: PayPal - Pay, Send, Save
-date: 2021-08-22
+date: 2026-10-30
 authors:
 - emanuel
 - leo
@@ -24,7 +24,7 @@ android:
   reviews: 442740
   icon: com.paypal.android.p2pmobile.webp
   meta: ok
-  verdict: nosendreceive
+  verdict: custodial
   developerName: PayPal Mobile
 iphone:
   appId: com.yourcompany.PPClient
@@ -36,12 +36,14 @@ iphone:
   reviews: 6298938
   icon: com.yourcompany.PPClient.webp
   meta: ok
-  verdict: nosendreceive
+  verdict: custodial
   developerName: PayPal, Inc.
 
 ---
 
 ## Android
+
+**Update 2026-10-30:** The verdict changes from {% include verdictBadge.html verdict="nosendreceive" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}. Since [June 2022](https://newsroom.paypal-corp.com/2022-06-07-PayPal-Users-Can-Now-Transfer-Send-and-Receive-Bitcoin-Ethereum-Bitcoin-Cash-and-Litecoin) eligible US users can send bitcoin from PayPal to other wallets and exchanges and receive it from them. PayPal's [crypto page](https://www.paypal.com/us/digital-wallet/manage-money/crypto) confirms: "Yes, you can transfer cryptocurrency into and out of PayPal." The keys stay with PayPal: "Custody, trading and transfer services for cryptocurrencies are performed for us by our licensed service provider, Paxos Trust Company, N.A. or other appropriately licensed or otherwise authorized service provider." The text below predates this and its conclusion that BTC cannot leave PayPal is outdated.
 
 PayPal was one of the more hostile companies towards Bitcoin, so it was some
 surprise in the community when they finally started taking a more positive
@@ -81,6 +83,8 @@ you won't be able to pay a Bitcoin accepting merchant with your PayPal wallet.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The verdict changes from {% include verdictBadge.html verdict="nosendreceive" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}. Since [June 2022](https://newsroom.paypal-corp.com/2022-06-07-PayPal-Users-Can-Now-Transfer-Send-and-Receive-Bitcoin-Ethereum-Bitcoin-Cash-and-Litecoin) eligible US users can send bitcoin from PayPal to other wallets and exchanges and receive it from them. PayPal's [crypto page](https://www.paypal.com/us/digital-wallet/manage-money/crypto) confirms: "Yes, you can transfer cryptocurrency into and out of PayPal." The keys stay with PayPal: "Custody, trading and transfer services for cryptocurrencies are performed for us by our licensed service provider, Paxos Trust Company, N.A. or other appropriately licensed or otherwise authorized service provider." The text below predates this and its conclusion that BTC cannot leave PayPal is outdated.
 
 PayPal was one of the more hostile companies towards Bitcoin, so it was some
 surprise in the community when they finally started taking a more positive

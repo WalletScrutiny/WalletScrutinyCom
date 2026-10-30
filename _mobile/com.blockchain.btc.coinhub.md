@@ -1,6 +1,6 @@
 ---
 title: 'CoinDex:  Bitcoin Crypto'
-date: 2021-07-26
+date: 2026-10-30
 website: https://coindex.money
 redirect_from:
 - /android/com.blockchain.btc.coinhub/
@@ -20,6 +20,8 @@ android:
   repository: https://github.com/hoanghiephui/unstoppable-wallet-android
 
 ---
+
+**Update 2026-10-30:** The app is now called CoinDex and is still on the Play Store from the same developer, TwiX. Its description now links [hoanghiephui/Multi-Wallet-Crypto-android](https://github.com/hoanghiephui/Multi-Wallet-Crypto-android), which redirects to [hoanghiephui/coindex-wallet-android](https://github.com/hoanghiephui/coindex-wallet-android), a fork of {% include walletLink.html wallet='android/io.horizontalsystems.bankwallet' verdict='true' %}. The old repository link below now redirects there too. Its `master` branch builds the app ID of the provider's removed {% include walletLink.html wallet='android/com.blockchain.bitcoin.wallet' verdict='true' %}, but the [`2025v2` branch](https://github.com/hoanghiephui/coindex-wallet-android/blob/2025v2/app/build.gradle) has a `coinhub` flavour with this app's ID and version 1.5.5, the version on the Play Store. We have not tried to build it. The provider's other apps listed below are all gone from the Play Store, and coindex.money, the website on the store page, does not resolve. Until someone shows that this source produces the published app, the verdict stays {% include verdictBadge.html verdict="fake" type='short' %}.
 
 **Update 2021-07-26**: The provider features several apps that either through
 their logo or the name try to resemble trusted wallets like

@@ -1,7 +1,7 @@
 ---
 wsId: blockchainWallet
 title: 'Blockchain Wallet: Buy BTC'
-date: 2021-07-15
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -55,6 +55,16 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** There is still no source code for the current app. The
+old Android and iOS repositories (`blockchain/My-Wallet-V3-Android`,
+`blockchain/My-Wallet-V3-iOS`) return "not found" on GitHub, and the web wallet
+repository
+[blockchain-wallet-v4-frontend](https://github.com/blockchain/blockchain-wallet-v4-frontend)
+is archived, with its last push in April 2025. A
+[request for the Android source](https://github.com/blockchain/blockchain-wallet-v4-frontend/issues/6456)
+from September 2024 is still open without a reply. The verdict
+{% include verdictBadge.html verdict="nosource" type='short' %} stays.
 
 *Legacy verification [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/ad6b4ddcc39906bcaf7180aa4b5c058fd1003973/_android/piuk.blockchain.android.md)*
 

@@ -1,6 +1,6 @@
 ---
 title: 'Coinom Wallet : Bitcoin Ethereum Altcoins Tokens'
-date: 2021-07-30
+date: 2026-10-30
 authors:
 - emanuel
 - leo
@@ -18,6 +18,8 @@ android:
   verdict: fake
 
 ---
+
+**Update 2026-10-30:** The app is still not on the Play Store. The verdict stays {% include verdictBadge.html verdict="fake" type='short' %}.
 
 **Update 2021-07-30**: This app is not on Play Store anymore.
 

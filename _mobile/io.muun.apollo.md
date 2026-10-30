@@ -1,7 +1,7 @@
 ---
 wsId: muun
 title: 'Muun: Bitcoin Lightning Wallet'
-date: 2021-07-30
+date: 2026-10-30
 authors:
 - leo
 - mohammad
@@ -54,6 +54,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** Custody and source claims still hold. The [Muun website](https://muun.com) still calls Muun "a self-custodial wallet for bitcoin and lightning" with a 2-of-2 multi-signature setup, and the [apollo repository](https://github.com/muun/apollo) is still public under the MIT license, with code pushed in October 2026 and tags up to v55.12. The verdict stays {% include verdictBadge.html verdict="sourceavailable" type='short' %}.
+
 *Legacy verification [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/a85123512755a021e4003644854d39d60facf7f6/_android/io.muun.apollo.md)*
 
 ## App Description
@@ -73,6 +75,8 @@ An issue has been opened at [https://github.com/muun/apollo/issues/54](https://g
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** Custody and source claims still hold. The [Muun website](https://muun.com) still describes the same self-custodial 2-of-2 wallet, and the [falcon repository](https://github.com/muun/falcon) is still public under the MIT license, with code pushed in September 2026 and a 2.16.0 tag matching the current App Store version. The verdict stays {% include verdictBadge.html verdict="sourceavailable" type='short' %}.
 
 **Update 2021-07-30**: While the Android version made some attempts at
 reproducibility, the iPhone version, which is in a different code repository,

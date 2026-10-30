@@ -1,6 +1,6 @@
 ---
 title: 'MB | Mercado Bitcoin: criptos'
-date: 2021-08-21
+date: 2026-10-30
 authors:
 - danny
 website: http://www.mercadobitcoin.com.br
@@ -24,6 +24,14 @@ android:
   developerName: MERCADO BITCOIN SERVICOS DIGITAIS LTDA
 
 ---
+
+**Update 2026-10-30:** Mercado Bitcoin is still {% include verdictBadge.html verdict="custodial" type='short' %}.
+Its current [terms of use](https://www.mercadobitcoin.com.br/politicas-termo-de-uso)
+still say that "O MB armazena de forma segura as chaves privadas" (MB securely
+stores the private keys) of the assets deposited in each user's wallet addresses.
+The exchange is active: Tether
+[invested USD 20 million](https://www.pymnts.com/news/investment-tracker/2026/tether-invests-20-million-in-brazils-mercado-bitcoin/)
+in it in July 2026.
 
 Section 8.2 of the Terms and Conditions indicate that it is custodial.
 

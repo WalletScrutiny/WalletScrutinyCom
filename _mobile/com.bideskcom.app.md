@@ -1,7 +1,7 @@
 ---
 wsId: Bidesk
 title: Bidesk App - Crypto Trading
-date: 2021-08-08
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bidesk.com/
@@ -21,7 +21,7 @@ android:
   version: 3.4.1
   reviews: 47
   icon: com.bideskcom.app.webp
-  meta: removed
+  meta: defunct
   verdict: wip
 iphone:
   appId: com.bideskexchange.app
@@ -31,12 +31,16 @@ iphone:
   version: 3.1.2
   reviews: 12
   icon: com.bideskexchange.app.webp
-  meta: removed
+  meta: defunct
   verdict: wip
 
 ---
 
+**⚠️ Warning:** Bidesk shut down in 2021. Its website no longer loads and both apps are gone from the stores.
+
 ## Android
+
+**Update 2026-10-30:** Bidesk [announced on 29 September 2021](https://www.cryptowisser.com/exchange/bidesk/) that it would permanently cease operations, citing pressure from Chinese regulators. [bidesk.com](https://www.bidesk.com/) now returns a Cloudflare 522 error and both apps are gone from the stores, so we mark this provider as defunct. The verdict stays {% include verdictBadge.html verdict="wip" type='short' %} because we never confirmed how it held user funds.
 
 **Update 2021-10-22:** The service is shutting down. 
 

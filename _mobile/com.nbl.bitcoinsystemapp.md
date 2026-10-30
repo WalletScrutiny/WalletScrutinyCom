@@ -1,6 +1,6 @@
 ---
 title: Bitcoin System App - Passive Crypto Trading
-date: 2021-08-20
+date: 2026-10-30
 redirect_from:
 - /android/com.nbl.bitcoinsystemapp/
 android:
@@ -14,5 +14,9 @@ android:
   verdict: wip
 
 ---
+
+**Update 2026-10-30:** This app is still gone from Google Play. The listing names
+no website, and the Internet Archive has no copy of its store page, so we cannot
+say what the app did. It stays a work in progress.
 
 **Update 2021-08-12**: This app is not on the Play Store anymore

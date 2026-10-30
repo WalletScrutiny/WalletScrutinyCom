@@ -1,6 +1,6 @@
 ---
 title: 'Bitcoiva : Buy Bitcoin &Crypto'
-date: 2021-07-29
+date: 2026-10-30
 authors:
 - leo
 website: https://bitcoiva.com
@@ -23,6 +23,8 @@ android:
   developerName: Bitcoiva
 
 ---
+
+**Update 2026-10-30:** Nothing changed. Bitcoiva is still an Indian exchange with a maintained app, and the app description still promises to "keep the assets stored with us secure". The [website](https://bitcoiva.com) tells users to "Deposit your INR or crypto in your Bitcoiva digital wallet" and now advertises the Android app with a download QR code, so this is the official app. We found no self-custody mode. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 > Buy, store and sell cryptocurrencies like Bitcoin, Ethereum,
 

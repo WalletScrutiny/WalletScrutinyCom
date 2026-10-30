@@ -1,7 +1,7 @@
 ---
 wsId: indodax
 title: Indodax Crypto Simple & Secure
-date: 2021-05-31
+date: 2026-10-30
 authors:
 - leo
 website: http://indodax.com
@@ -24,6 +24,7 @@ android:
 iphone:
   appId: id.co.bitcoin.Bitcoin-Trading-Platform
   idd: 1349104693
+  appCountry: id
   released: 2018-03-29
   updated: 2022-06-29
   version: 3.3.6
@@ -35,6 +36,13 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Indodax still runs its exchange at
+[indodax.com](https://indodax.com), and the verdict stays
+{% include verdictBadge.html verdict="custodial" type='short' %}. In September
+2024 attackers took more than $22 million from the exchange's
+[hot wallets](https://www.coindesk.com/markets/2024/09/11/indonesian-crypto-exchange-indodax-hacked-for-22m-pauses-activity-before-bigger-hit),
+which shows that the coins sit in wallets the provider controls.
 
 This is the interface to
 
@@ -53,6 +61,14 @@ custodial offering and thus **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The app is still available in the Indonesian App Store,
+so we now point our store check there. Indodax still runs its exchange at
+[indodax.com](https://indodax.com), and the verdict stays
+{% include verdictBadge.html verdict="custodial" type='short' %}. In September
+2024 attackers took more than $22 million from the exchange's
+[hot wallets](https://www.coindesk.com/markets/2024/09/11/indonesian-crypto-exchange-indodax-hacked-for-22m-pauses-activity-before-bigger-hit),
+which shows that the coins sit in wallets the provider controls.
 
 This is the interface to
 
