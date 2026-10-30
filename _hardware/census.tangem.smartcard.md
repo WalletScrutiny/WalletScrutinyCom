@@ -22,7 +22,7 @@ price: 39USD
 repository: 
 icon: census.tangem.smartcard.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: noita
 date: 2026-10-30
 signer: 

@@ -19,7 +19,7 @@ price:
 repository: 
 icon: keyois.capsule.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: plainkey
 date: 2026-10-30
 signer: 

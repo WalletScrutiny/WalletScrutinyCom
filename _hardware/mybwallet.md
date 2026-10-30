@@ -23,7 +23,7 @@ price: 168CNY
 repository: https://github.com/BWallet/bwallet-mcu
 icon: mybwallet.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: wip
 date: 2026-10-30
 signer: 

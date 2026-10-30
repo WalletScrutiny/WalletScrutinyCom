@@ -19,7 +19,7 @@ price: 25EUR
 repository: 
 icon: blackmetal.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: prefilled
 date: 2026-10-30
 signer: 
@@ -29,7 +29,7 @@ features:
 
 ---
 
-**⚠️ Warning:** The Crypto Cards shop is gone. cryptocards.store no longer resolves.
+**⚠️ Warning:** The Crypto Cards shop is gone and the cards are no longer sold. cryptocards.store no longer resolves. Cards already made carry their keys printed on the steel, so they do not depend on the shop.
 
 ## Product Description 
 

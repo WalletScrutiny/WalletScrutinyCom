@@ -23,7 +23,7 @@ price: 69.99USD
 repository: 
 icon: flxone.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: wip
 date: 2026-10-30
 signer: 

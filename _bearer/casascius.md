@@ -22,7 +22,7 @@ price:
 repository: 
 icon: casascius.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: sealed-plainkey
 date: 2026-10-30
 signer: 

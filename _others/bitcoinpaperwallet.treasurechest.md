@@ -11,7 +11,7 @@ twitter: flowolf
 provider: Florian Klien
 country: AT
 price: 106EUR
-meta: defunct
+meta: discontinued
 verdict: plainkey
 social: 
 

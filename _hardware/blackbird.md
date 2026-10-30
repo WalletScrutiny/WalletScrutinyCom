@@ -19,7 +19,7 @@ price:
 repository: 
 icon: blackbird.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: nosource
 date: 2026-10-30
 signer: 

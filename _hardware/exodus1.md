@@ -21,7 +21,7 @@ price:
 repository: 
 icon: exodus1.webp
 bugbounty: https://www.htcexodus.com/mea-en/bounty-program/
-meta: defunct
+meta: discontinued
 verdict: nosource
 date: 2026-10-30
 signer: 

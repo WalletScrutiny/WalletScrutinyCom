@@ -19,7 +19,7 @@ price: 24USD
 repository: 
 icon: bcmint.physicalbitcoins.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: prefilled
 date: 2026-10-30
 signer: 
@@ -30,7 +30,7 @@ features:
 
 ---
 
-**⚠️ Warning:** BCmint appears to be gone. [bcmint.com](https://bcmint.com/) is now a domain listed for sale at HugeDomains, so the product page linked here no longer exists.
+**⚠️ Warning:** BCmint appears to be gone and no longer sells these coins. [bcmint.com](https://bcmint.com/) is now a domain listed for sale at HugeDomains, so the product page linked here no longer exists. Coins already sold carry their private key under the hologram, so they can still be redeemed with any wallet that imports a private key.
 
 ## Background
 

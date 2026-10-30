@@ -19,7 +19,7 @@ price: 1USD
 repository: 
 icon: bitcard.de.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: prefilled
 date: 2026-10-30
 signer: 

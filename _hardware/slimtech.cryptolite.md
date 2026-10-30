@@ -19,7 +19,7 @@ price: 89.99USD
 repository: 
 icon: slimtech.cryptolite.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: noita
 date: 2026-10-30
 signer: 
@@ -32,7 +32,7 @@ features:
 
 ---
 
-**⚠️ Warning:** This provider is gone. Its website is a parking page.
+**⚠️ Warning:** This provider is gone. Its website is a parking page and the card is no longer sold. Cards that were delivered still hold their keys, which sit on a rewritable NFC chip, much like a paper wallet (see the quote below).
 
 **⚠️ Note:** Some users have complained on social media that they were not able to receive their devices.
 

@@ -19,7 +19,7 @@ price:
 repository: 
 icon: alitin.mint.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: prefilled
 date: 2026-10-30
 signer: 

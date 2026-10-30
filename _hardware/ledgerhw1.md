@@ -20,7 +20,7 @@ price:
 repository: 
 icon: ledgerhw1.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: noita
 date: 2026-10-30
 signer: 

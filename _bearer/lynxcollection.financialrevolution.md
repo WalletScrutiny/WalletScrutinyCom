@@ -19,7 +19,7 @@ price: 79USD
 repository: 
 icon: lynxcollection.financialrevolution.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: sealed-plainkey
 date: 2026-10-30
 signer: 
@@ -31,7 +31,7 @@ features:
 
 ---
 
-**⚠️ Warning:** The Lynx Art Collection shop is gone. Its last working Wayback copy is from [August 2025](https://web.archive.org/web/20250815200623/https://lynxartcollection.com/); since then the domain returns a parked-domain redirect.
+**⚠️ Warning:** The Lynx Art Collection shop is gone, so these wallets are no longer sold. Its last working Wayback copy is from [August 2025](https://web.archive.org/web/20250815200623/https://lynxartcollection.com/); since then the domain returns a parked-domain redirect. The wallets never held provider keys, so one you loaded with your own keys still works.
 
 **Note:** Some people stated that ["FrankBitcoin"](https://bitcointalk.org/index.php?topic=5305206.msg55980306#msg55980306), the original creator of lynxartcollection.com has left Lynx Art and that many of the items still listed on the site have already sold out. 
 

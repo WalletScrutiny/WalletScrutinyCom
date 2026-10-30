@@ -22,7 +22,7 @@ price: 19.95EUR
 repository: https://github.com/BlochsTech/BitcoinCardTerminal
 icon: blochstech.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: prefilled
 date: 2026-10-30
 signer: 

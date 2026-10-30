@@ -19,7 +19,7 @@ price: 149USD
 repository: https://github.com/lightningasic/BitExchange-Hardware-Wallet
 icon: bitexchange.hardid.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: plainkey
 date: 2026-10-30
 signer: 
