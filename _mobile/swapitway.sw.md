@@ -1,6 +1,6 @@
 ---
 title: 'Swapitway : Sell Trade or Swap Gift Card & Bitcoin'
-date: 2021-09-06
+date: 2026-10-30
 redirect_from:
 - /android/swapitway.sw/
 android:
@@ -15,5 +15,11 @@ android:
   verdict: wip
 
 ---
+
+**Update 2026-10-30:** This app is still gone from Google Play, but Swapitway is
+still active. The [Swapitway website](https://swapitway.com) now links to
+{% include walletLink.html wallet='android/swapitway.trade' verdict='true' %},
+which appeared on Google Play in November 2021. We found no copy of this app's
+Play page to confirm it was the same product, so we keep this listing as a stub.
 
 **Update 2021-08-28**: This app is no more.

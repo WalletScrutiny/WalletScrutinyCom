@@ -1,7 +1,7 @@
 ---
 wsId: africa.bundle
 title: Bundle - Cash & Crypto Wallet
-date: 2021-09-08
+date: 2026-10-30
 authors:
 - kiwilamb
 website: https://bundle.africa
@@ -16,7 +16,7 @@ android:
   version: 4.6.9
   reviews: 371
   icon: africa.bundle.mobile.app.webp
-  meta: removed
+  meta: defunct
   verdict: custodial
   developerName: BundleAfrica
 iphone:
@@ -27,12 +27,16 @@ iphone:
   version: 3.0.0
   reviews: 208
   icon: com.bundlewallet.mobileApp.webp
-  meta: removed
+  meta: defunct
   verdict: custodial
 
 ---
 
+**⚠️ Warning:** Bundle is gone. It [announced on 2023-07-20](https://cointelegraph.com/news/nigerian-social-payments-app-shuts-down-crypto-exchange-services) that it would close its exchange and asked users to withdraw their assets, and [Wikipedia](https://en.wikipedia.org/wiki/Bundle_Africa) lists the company as defunct since September 2023. On 2026-10-30 bundle.africa answered with "410 Gone", and the [Internet Archive](https://web.archive.org/web/20260131180643/http://www.bundle.africa/) showed it as a parked domain for sale in January 2026.
+
 ## Android
+
+**Update 2026-10-30:** The app is no longer on Google Play and the provider has shut down (see the warning above), so we mark it defunct. While it ran it was an exchange that held user funds, so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 The [Bundle website](https://bundle.africa/) claims to be a wallet from their description...
 
@@ -45,6 +49,8 @@ Our verdict: This 'wallet' is probably custodial but does not provide public sou
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The App Store lookup for this app returns nothing, both in Nigeria and in the US, and the provider has shut down, so we mark it defunct. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 **Update 2021-08-31**: This app is no more available.
 

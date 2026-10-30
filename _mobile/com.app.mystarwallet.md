@@ -1,6 +1,6 @@
 ---
 title: MyStarWallet- Ethereum & Btc & Erc-20 Mutil Wallet
-date: 2021-09-30
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -13,10 +13,14 @@ android:
   version: '1.47'
   reviews: 200
   icon: com.app.mystarwallet.webp
-  meta: removed
+  meta: defunct
   verdict: wip
 
 ---
+
+**⚠️ Warning:** MyStarWallet and its provider GrafSound appear to be out of business. None of their domains resolve.
+
+**Update 2026-10-30:** We now mark this app defunct. It is still gone from Google Play. The contact domains stargramglobal.net and kmscom.com no longer resolve, and neither does grafsound.com, the site of the GrafSound music platform behind the app. CoinGecko's API answers "coin not found" for [GrafSound (GSMT)](https://www.coingecko.com/en/coins/grafsound/usd). btcmanager.com is down as well, so the press release below now links to its [archived copy](https://web.archive.org/web/20211022004953/https://btcmanager.com/blockchain-music-streaming-platform-grafsound-sound-world/). We never got past the sign-up, so the verdict stays {% include verdictBadge.html verdict="wip" type='short' %}.
 
 The app has no listed website. It describes itself as an app that has a Bitcoin, Ethereum as well as ERC-20 wallets. 
 
@@ -59,7 +63,7 @@ The latest Google Play review was dated November 7, 2020:
        
 ### Other sources
 
-There was a [press release about this specific app on btcmanager.com](https://btcmanager.com/blockchain-music-streaming-platform-grafsound-sound-world/) dated October 5, 2020. Quoting from the press release:
+There was a [press release about this specific app on btcmanager.com](https://web.archive.org/web/20211022004953/https://btcmanager.com/blockchain-music-streaming-platform-grafsound-sound-world/) dated October 5, 2020. Quoting from the press release:
 
 > “With GRAFSOUND, we want to offer a platform where anyone can create tangible and intangible added value. By making the entire cycle, from creation to distribution and sale transparent, the platform aims to usher in the needed reforms and a viable solution,” said a spokesperson for GRAFSOUND.
 

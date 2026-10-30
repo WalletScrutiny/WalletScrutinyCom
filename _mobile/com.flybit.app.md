@@ -1,7 +1,7 @@
 ---
 wsId: flybit
 title: 플라이빗 Flybit -신뢰할 수 있는 가상자산 거래소
-date: 2021-09-30
+date: 2026-10-30
 authors:
 - danny
 website: https://flybit.com
@@ -37,6 +37,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Still {% include verdictBadge.html verdict="custodial" type='short' %}. [flybit.com](https://flybit.com/) still runs the Korean exchange. Korea's Financial Intelligence Unit [renewed Flybit's virtual asset service provider registration in March 2025](https://www.digitaltoday.co.kr/news/articleView.html?idxno=558203), and Flybit publishes quarterly audits comparing its holdings to [customer deposits](https://www.ezyeconomy.com/news/articleView.html?idxno=227196). In May 2026 the holding company WeHub [agreed to buy a stake in its operator, Korea Digital Exchange](https://www.blockchainus.co.kr/news/articleView.html?idxno=4263).
 
 ### Google Play
 

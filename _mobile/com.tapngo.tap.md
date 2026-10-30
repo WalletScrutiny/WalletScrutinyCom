@@ -1,7 +1,7 @@
 ---
 wsId: tapngo
 title: "Tap - Mobile Finance\_"
-date: 2021-09-11
+date: 2026-10-30
 authors:
 - danny
 website: https://www.withtap.com
@@ -42,9 +42,11 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The app is still listed and the provider now runs it from [withtap.com](https://withtap.com/). The current [Tap Global Limited terms](https://terms.withtap.com/terms/generally_applicable_terms/GB) still contain the account suspension and freeze clauses quoted below, so we updated the dead terms link. Tap has since added [Tap Earn](https://www.tipranks.com/news/company-announcements/tap-global-launches-high-yield-crypto-product-tap-earn-to-drive-self-funded-growth), a yield product on deposited coins. We found no option to hold your own keys, so it stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+
 This country specific app is not available in some jurisdictions so we were not able to download the app. 
 
-We have to rely on the [Terms and Conditions](https://www.tap.global/terms-and-conditions#deadLink) page to be able to ascertain the nature of this service.
+We have to rely on the [Terms and Conditions](https://terms.withtap.com/terms/generally_applicable_terms/GB) page to be able to ascertain the nature of this service.
 
 Under Section 3.4 of the Terms and Conditions page:
 
@@ -72,6 +74,8 @@ With all funds in cold storage, this app is **custodial** and thus, it **cannot 
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still listed and is the same product as the Android app. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include copyFromAndroid.html %}
 

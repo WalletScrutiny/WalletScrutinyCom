@@ -1,6 +1,6 @@
 ---
 title: CryptoMarket
-date: 2021-09-19
+date: 2026-10-30
 redirect_from:
 - /android/com.cryptomkt.app/
 android:
@@ -12,8 +12,16 @@ android:
   reviews: 323
   icon: com.cryptomkt.app.webp
   meta: removed
-  verdict: wip
+  verdict: custodial
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play. We now mark it
+{% include verdictBadge.html verdict="custodial" type='short' %}. Its
+[archived store page from August 2021](https://web.archive.org/web/20210817203704/https://play.google.com/store/apps/details?id=com.cryptomkt.app)
+describes a client for the CryptoMarket exchange: you "log in with your CryptoMarket"
+account, place market orders and "check your account balances". The exchange still
+runs at [cryptomkt.com](https://www.cryptomkt.com/en), now next to its
+[Notbank](https://www.notbank.com/en) brand, which offers institutional custody.
 
 **Update 2021-09-11**: This app is not on the Play Store anymore.

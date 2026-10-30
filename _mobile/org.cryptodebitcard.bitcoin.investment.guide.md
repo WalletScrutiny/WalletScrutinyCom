@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Investment Guide
-date: 2021-09-28
+date: 2026-10-30
 redirect_from:
 - /android/org.cryptodebitcard.bitcoin.investment.guide/
 android:
@@ -14,5 +14,7 @@ android:
   verdict: wip
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play. We found no archived copy of its store page, and the listing names no website or developer we could follow up on, so it stays {% include verdictBadge.html verdict="wip" type='short' %}.
 
 **Update 2021-09-20**: This app is no more.

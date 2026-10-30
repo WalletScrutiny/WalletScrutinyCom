@@ -1,6 +1,6 @@
 ---
 title: 'B I N A N C E : Trade cryptocurrency (Binance)'
-date: 2021-09-02
+date: 2026-10-30
 redirect_from:
 - /android/com.trustdx.binance/
 android:
@@ -15,5 +15,11 @@ android:
   verdict: fake
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play. It posed as
+{% include walletLink.html wallet='android/com.binance.dev' verdict='true' %},
+under a "com.trustdx" app ID, like two other fake exchange apps we listed at the
+same time. We found no archived copy of its store page. It stays a
+{% include verdictBadge.html verdict="fake" type='short' %}.
 
 **Update 2021-09-01**: App is no more on Play Store.

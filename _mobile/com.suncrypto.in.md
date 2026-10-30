@@ -1,6 +1,6 @@
 ---
 title: 'Suncrypto: Best Crypto App'
-date: 2021-09-11
+date: 2026-10-30
 website: https://suncrypto.in
 twitter: suncryptoin
 redirect_from:
@@ -19,6 +19,8 @@ android:
   developerName: SunCrypto
 
 ---
+
+**Update 2026-10-30:** Nothing changed. SunCrypto is still an Indian exchange, and its [terms](https://suncrypto.in/terms) now say the platform "stores and holds in custody, in trust, the cryptocurrencies purchased by users" in its "Crypto Custody Wallet". The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 We downloaded the app. 
 

@@ -1,7 +1,7 @@
 ---
 wsId: BigONE
 title: BigONE - Bitcoin Trading
-date: 2021-09-17
+date: 2026-10-30
 authors:
 - danny
 website: https://www.b1.zone/
@@ -42,6 +42,14 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** BigONE is still a custodial exchange and the verdict
+holds. [big.one](https://big.one/) and [b1.zone](https://www.b1.zone/) now both
+describe it as "a crypto exchange for Bitcoin, Ethereum and USDT markets". On
+2025-07-16 BigONE
+[lost about $27 million from its hot wallet](https://www.coindesk.com/markets/2025/07/16/crypto-exchange-bigone-confirms-27m-hack-vows-full-user-compensation)
+in a third-party attack and said it would cover all losses itself. We found no
+self-custody mode or separate wallet app from BigONE.
+
 BigONE has the interface of a digital exchange, and advertises itself as such.
 
 > BigONE is a global digital asset trading platform. We implement a 100% reserve and multiple protection measures to ensure the security of user assets.
@@ -60,5 +68,9 @@ It seems that keys are not on the side of the user. Thus this product is **custo
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The App Store listing is live and, like the Android app,
+gives access to the BigONE exchange, so it stays
+{% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include copyFromAndroid.html %}

@@ -1,7 +1,7 @@
 ---
 wsId: rekeningku
 title: Reku - Trade Crypto & US Stock
-date: 2021-08-27
+date: 2026-10-30
 authors:
 - danny
 website: https://reku.id
@@ -35,22 +35,30 @@ iphone:
   icon: com.rekeningku.app.webp
   meta: removed
   verdict: custodial
+  appCountry: id
 
 ---
 
 ## Android
 
+**Update 2026-10-30:** The verdict still holds. Rekeningku now trades as
+Reku at [reku.id](https://reku.id/), which says it is licensed and supervised by
+Indonesia's financial services authority (OJK). The old help site
+help.rekeningku.com no longer resolves. The clause quoted below, which lets the
+provider delay credits and block the user's wallet, is unchanged in the
+[current Terms and Conditions](https://reku.id/help/syarat-dan-ketentuan-pelanggan-aset-kripto-rekeningku-com).
+
 Rekeningku offers the Digital Asset Transaction services that allow its users to buy or sell Bitcoin and other cryptocurrencies. It  is managed by PT. My Account Dotcom Indonesia.
 
 It uses cold storage for its wallet security.
 
-Help page on how to [withdraw digital assets](https://help.rekeningku.com/cara-melakukan-withdraw-aset-digital-coin-dan-token/)
+Help page on how to [withdraw digital assets](https://help.rekeningku.com/cara-melakukan-withdraw-aset-digital-coin-dan-token/#deadLink)
 
-Help page on how to [deposit digital assets](https://help.rekeningku.com/cara-deposit-aset-digital-anda/)
+Help page on how to [deposit digital assets](https://help.rekeningku.com/cara-deposit-aset-digital-anda/#deadLink)
 
-Help page on [how to order sell/buy digital assets](https://help.rekeningku.com/cara-melakukan-order-jual-beli-aset-digital/)
+Help page on [how to order sell/buy digital assets](https://help.rekeningku.com/cara-melakukan-order-jual-beli-aset-digital/#deadLink)
 
-Help page [Terms and Conditions](https://help.rekeningku.com/syarat-dan-ketentuan-rekeningku-com/)
+Help page [Terms and Conditions](https://reku.id/help/syarat-dan-ketentuan-pelanggan-aset-kripto-rekeningku-com)
 
 > In the event of a suspicious transaction and/or transaction exceeding the transaction volume limit set by Accountku.com against the member for any reason, Accountku.com reserves the right at any time to delay crediting funds to the member's Accountku.com account and/or to block the wallet. member until the investigation process is completed within the period specified by Accountku.com.
 
@@ -60,17 +68,26 @@ KYC, and account access restrictions based on its Terms and Conditions indicates
 
 ## iPhone
 
+**Update 2026-10-30:** The verdict still holds. Rekeningku now trades as
+Reku at [reku.id](https://reku.id/), which says it is licensed and supervised by
+Indonesia's financial services authority (OJK). The old help site
+help.rekeningku.com no longer resolves. The clause quoted below, which lets the
+provider delay credits and block the user's wallet, is unchanged in the
+[current Terms and Conditions](https://reku.id/help/syarat-dan-ketentuan-pelanggan-aset-kripto-rekeningku-com).
+The iPhone app is still in the Indonesian App Store as "Reku:Trading Crypto &
+Saham AS", so we added `appCountry: id` to the iPhone listing.
+
 Rekeningku offers the Digital Asset Transaction services that allow its users to buy or sell Bitcoin and other cryptocurrencies. It  is managed by PT. My Account Dotcom Indonesia.
 
 It uses cold storage for its wallet security.
 
-Help page on how to [withdraw digital assets](https://help.rekeningku.com/cara-melakukan-withdraw-aset-digital-coin-dan-token/)
+Help page on how to [withdraw digital assets](https://help.rekeningku.com/cara-melakukan-withdraw-aset-digital-coin-dan-token/#deadLink)
 
-Help page on how to [deposit digital assets](https://help.rekeningku.com/cara-deposit-aset-digital-anda/)
+Help page on how to [deposit digital assets](https://help.rekeningku.com/cara-deposit-aset-digital-anda/#deadLink)
 
-Help page on [how to order sell/buy digital assets](https://help.rekeningku.com/cara-melakukan-order-jual-beli-aset-digital/)
+Help page on [how to order sell/buy digital assets](https://help.rekeningku.com/cara-melakukan-order-jual-beli-aset-digital/#deadLink)
 
-Help page [Terms and Conditions](https://help.rekeningku.com/syarat-dan-ketentuan-rekeningku-com/)
+Help page [Terms and Conditions](https://reku.id/help/syarat-dan-ketentuan-pelanggan-aset-kripto-rekeningku-com)
 
 > In the event of a suspicious transaction and/or transaction exceeding the transaction volume limit set by Accountku.com against the member for any reason, Accountku.com reserves the right at any time to delay crediting funds to the member's Accountku.com account and/or to block the wallet. member until the investigation process is completed within the period specified by Accountku.com.
 

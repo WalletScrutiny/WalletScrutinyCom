@@ -1,7 +1,7 @@
 ---
 wsId: CoinDCXPro
 title: 'CoinDCX: Bitcoin Crypto App'
-date: 2021-08-27
+date: 2026-10-30
 authors:
 - danny
 website: https://coindcx.com/
@@ -41,6 +41,15 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The verdict still holds. On 2025-07-18 attackers
+drained about $44.2 million from a CoinDCX operational wallet; the CEO said no
+customer funds were affected ([Cointelegraph](https://cointelegraph.com/news/coinbase-talks-to-buy-hacked-crypto-exchange-coindcx-report)).
+In October 2024 CoinDCX launched a "Web3 Mode", an MPC wallet secured
+with two-factor authentication instead of a seed phrase, to which users can move
+funds out of the exchange ([The Crypto Times](https://www.cryptotimes.io/2024/10/30/coindcx-launches-custody-feature-for-safer-crypto-storage/)).
+The exchange account, which is what this app is mainly for, is still custodial,
+so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+
 {% include review/bitgo.md %}
 
 [CoinDCX **Pro**](https://walletscrutiny.com/android/com.coindcx) and CoinDCX **Go** are from the same providers. Go is a
@@ -56,5 +65,14 @@ According to this claim from the Google Play description, this means that funds 
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The verdict still holds. On 2025-07-18 attackers
+drained about $44.2 million from a CoinDCX operational wallet; the CEO said no
+customer funds were affected ([Cointelegraph](https://cointelegraph.com/news/coinbase-talks-to-buy-hacked-crypto-exchange-coindcx-report)).
+In October 2024 CoinDCX launched a "Web3 Mode", an MPC wallet secured
+with two-factor authentication instead of a seed phrase, to which users can move
+funds out of the exchange ([The Crypto Times](https://www.cryptotimes.io/2024/10/30/coindcx-launches-custody-feature-for-safer-crypto-storage/)).
+The exchange account, which is what this app is mainly for, is still custodial,
+so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include copyFromAndroid.html %}

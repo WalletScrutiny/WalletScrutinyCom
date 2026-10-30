@@ -1,7 +1,7 @@
 ---
 wsId: bitazza
 title: 'Bitazza TH: Buy & Trade Crypto'
-date: 2021-09-03
+date: 2026-10-30
 authors:
 - danny
 website: http://bitazza.com/
@@ -41,6 +41,17 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Still custodial, and under regulatory scrutiny. In
+February 2026 the Thai SEC
+[filed a criminal complaint](https://en.thairath.co.th/money/tech_innovation/digital_assets/2915463)
+against Bitazza International (Bitazza Global), Bitazza and two executives for
+jointly running an unlicensed exchange. It said the Bitazza app and website gave
+direct access to Bitazza Global, and it asked for bitazza.com to be blocked in
+Thailand from 2026-03-22. Bitazza Thailand says it is a licensed
+digital asset broker, that customer assets are safe and that it is now separated
+from Bitazza Global. Its current website is [bitazza.co.th](https://bitazza.co.th/home).
+The verdict {% include verdictBadge.html verdict="custodial" type='short' %} holds.
 
 Bitazza is a cryptocurrency exchange and wallet provider. 
 

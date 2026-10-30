@@ -1,7 +1,7 @@
 ---
 wsId: swissborg
 title: 'SwissBorg: Buy Bitcoin, crypto'
-date: 2021-08-27
+date: 2026-10-30
 authors:
 - danny
 website: https://swissborg.com
@@ -42,6 +42,15 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The verdict still holds. On 2025-09-08 a breach at
+Kiln, the third-party staking provider behind SwissBorg's SOL Earn program,
+cost about $42 million in SOL ([Halborn](https://www.halborn.com/blog/post/explained-the-swissborg-hack-september-2025)).
+SwissBorg paused Solana staking and said it would compensate affected users
+from its treasury ([SwissBorg](https://swissborg.com/blog/swissborg-security-update-kiln-breach)).
+The [current Terms of Use](https://swissborg.com/legal/swissborg-app-terms-of-use)
+still say that users send their assets to a wallet managed by the company,
+which holds them on the user's behalf. We found no self-custody mode.
+
 [Swissborg has provided a Youtube tutorial for withdrawing cryptocurrencies from their product.](https://www.youtube.com/watch?v=e7CwCbX0AbE)
 
 > [SwissBorg](https://play.google.com/store/apps/details?id=com.swissborg.androidc) is a fully licensed cryptocurrency wallet and exchange provider, trusted by over 100,000 users. 
@@ -68,5 +77,14 @@ Verdict: Swissborg is **custodial** and **not verifiable.**
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The verdict still holds. On 2025-09-08 a breach at
+Kiln, the third-party staking provider behind SwissBorg's SOL Earn program,
+cost about $42 million in SOL ([Halborn](https://www.halborn.com/blog/post/explained-the-swissborg-hack-september-2025)).
+SwissBorg paused Solana staking and said it would compensate affected users
+from its treasury ([SwissBorg](https://swissborg.com/blog/swissborg-security-update-kiln-breach)).
+The [current Terms of Use](https://swissborg.com/legal/swissborg-app-terms-of-use)
+still say that users send their assets to a wallet managed by the company,
+which holds them on the user's behalf. We found no self-custody mode.
 
 {% include copyFromAndroid.html %}

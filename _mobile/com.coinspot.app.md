@@ -1,7 +1,7 @@
 ---
 wsId: coinspot
 title: CoinSpot - Buy & Sell Bitcoin
-date: 2021-09-03
+date: 2026-10-30
 authors:
 - danny
 website: https://www.coinspot.com.au
@@ -44,6 +44,12 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** CoinSpot is still an Australian exchange that holds its
+users' coins, and the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+Its [terms](https://www.coinspot.com.au/terms) say "CoinSpot securely stores Coin
+private keys", and the app is still listed on Google Play in Australia. We found
+no self-custody mode.
+
 > The CoinSpot app enables you to easily and safely manage all of your digital currencies in one place. Simply follow the markets, send & receive cryptocurrency, buy & sell all assets available on CoinSpot and easily access account facilities.
 
 Sounds like an exchange.
@@ -57,6 +63,9 @@ There are no mentions of private keys or self-custody, so we can assume this app
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still listed in the Australian App
+Store, and the Android findings apply.
 
 {% include copyFromAndroid.html %}
 

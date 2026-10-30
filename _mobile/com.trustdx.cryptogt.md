@@ -1,6 +1,6 @@
 ---
 title: 'C r y p t o G T : Trade cryptocurrency (cryptogt)'
-date: 2021-09-02
+date: 2026-10-30
 redirect_from:
 - /android/com.trustdx.cryptogt/
 android:
@@ -15,6 +15,12 @@ android:
   verdict: fake
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play. It posed as
+the CryptoGT exchange (we list no CryptoGT app),
+under a "com.trustdx" app ID, like two other fake exchange apps we listed at the
+same time. We found no archived copy of its store page. It stays a
+{% include verdictBadge.html verdict="fake" type='short' %}.
 
 **Update 2021-09-17**: CryptoGT contacted us, asking to remove this app as there
 is no such app of theirs. We are very well aware that this app probably was not

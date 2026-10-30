@@ -1,7 +1,7 @@
 ---
 wsId: pdax
 title: PDAX - Make your money move
-date: 2021-09-03
+date: 2026-10-30
 authors:
 - danny
 website: https://pdax.ph
@@ -42,6 +42,12 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** PDAX is still a Philippine exchange licensed by the
+Bangko Sentral ng Pilipinas, and the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+Its [user agreement of 2025-10-17](https://pdax.ph/wp-content/uploads/2025/10/01-PDAX-User-Agreement-as-of-October-17-2025.pdf)
+says "PDAX stores and manages the Digital Asset private keys" for each account
+and "You will not have access to such private keys."
+
 PDAX or the "Philippine Digital Asset Exchange" is a cryptocurrency exchange.
 
 It allows deposits and withdrawals of different cryptocurrency assets only after KYC. 
@@ -57,6 +63,12 @@ Verdict is **custodial**
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** PDAX is still a Philippine exchange licensed by the
+Bangko Sentral ng Pilipinas, and the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+Its [user agreement of 2025-10-17](https://pdax.ph/wp-content/uploads/2025/10/01-PDAX-User-Agreement-as-of-October-17-2025.pdf)
+says "PDAX stores and manages the Digital Asset private keys" for each account
+and "You will not have access to such private keys."
 
 PDAX or the "Philippine Digital Asset Exchange" is a cryptocurrency exchange.
 

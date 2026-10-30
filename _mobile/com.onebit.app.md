@@ -1,6 +1,6 @@
 ---
 title: TenX - Buy Bitcoin & Crypto Card
-date: 2021-09-03
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -17,10 +17,24 @@ android:
   version: 3.25.1
   reviews: 575
   icon: com.onebit.app.webp
-  meta: removed
+  meta: defunct
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** This provider is gone. TenX shut down its wallet and card
+service in 2021, and on 2026-10-30 the domain www.tenx.tech no longer resolved.
+
+**Update 2026-10-30:** The app is still gone from Google Play. In January 2021
+TenX [announced](https://www.cryptoninjas.net/2021/01/12/crypto-payment-and-wallet-project-tenx-shuts-down/)
+that it would discontinue its services and told users to withdraw their funds.
+By October 2021 its website
+[said "We moved!"](https://web.archive.org/web/20211011001357/https://tenx.tech/)
+and pointed to Mimo. [Mimo Capital](https://www.mimo.capital/) now tokenizes
+bonds, which is a different business. The last
+[archived Play page](https://web.archive.org/web/20220128064758/https://play.google.com/store/apps/details?id=com.onebit.app)
+is from 2022. We mark the provider as defunct. The app was
+{% include verdictBadge.html verdict="custodial" type='short' %} while it worked.
 
 **UPDATE: 2021-09-01**
 

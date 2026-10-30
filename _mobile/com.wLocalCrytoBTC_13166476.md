@@ -1,6 +1,6 @@
 ---
 title: LocalBitcoin
-date: 2021-09-16
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -17,5 +17,14 @@ android:
   verdict: wip
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play. The listing named no website, we found
+no archived store page, and a web search for the app ID and title found no trace
+of the provider, so the app stays unreviewed.
+The title resembles
+{% include walletLink.html wallet='android/com.localbitcoins.app.android' verdict='true' %},
+but nothing we found ties this app to it, and LocalBitcoins itself
+[discontinued its service](https://web.archive.org/web/20230210002605/https://localbitcoins.com/service_closure/)
+in February 2023.
 
 **Update 2021-09-06**: This app is not on Play Store anymore.

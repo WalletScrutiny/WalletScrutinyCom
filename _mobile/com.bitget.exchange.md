@@ -1,7 +1,7 @@
 ---
 wsId: Bitget
 title: Bitget - Buy & Sell Crypto
-date: 2021-09-17
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitget.com/
@@ -41,6 +41,16 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** Bitget is still a centralized exchange, and it still
+holds its users' coins: its [proof of reserves page](https://www.bitget.com/promotion/proof-of-reserves)
+promises "100% reserve backing of user assets" and showed a total reserve ratio
+of 115% when we checked. Bitget's self-custody app is listed separately as
+{% include walletLink.html wallet='android/com.bitkeep.wallet' verdict='true' %}.
+In June 2026 Bitget
+[applied for a MiCAR license in Austria](https://en.cryptonomist.ch/2026/07/02/bitget-micar-authorization-eu/)
+and said it would not serve EEA residents until it is approved. The verdict
+{% include verdictBadge.html verdict="custodial" type='short' %} still holds.
+
 **Update 2021-09-12**: This app appears to be back on Play Store
 
 **Update 2021-08-05**: This app is not on Play Store anymore.
@@ -59,5 +69,7 @@ This is *also* very usually an indicator that this product is **custodial** thus
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still in the App Store and is the same exchange. The verdict still holds; see the Android section.
 
 {% include copyFromAndroid.html %}
