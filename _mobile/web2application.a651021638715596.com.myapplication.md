@@ -1,7 +1,7 @@
 ---
 title: NEWCHANGE.IO
-date: 2023-12-19
-website: https://newchange.io
+date: 2026-10-30
+website: https://newchange.io#deadLink
 redirect_from:
 - /android/web2application.a651021638715596.com.myapplication/
 android:
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**⚠️ Warning:** NEWCHANGE.IO appears to be gone. The exchange site was [still up in October 2024](https://web.archive.org/web/20241015031953/https://newchange.io/), but newchange.io now shows only an empty file listing.

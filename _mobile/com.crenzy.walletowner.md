@@ -1,6 +1,6 @@
 ---
 title: Crenzy Admin
-date: 2024-02-05
+date: 2026-10-30
 website: http://www.crenzy.com#deadLink
 redirect_from:
 - /android/com.crenzy.walletowner/

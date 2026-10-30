@@ -1,6 +1,6 @@
 ---
 title: Endurance Wallet
-date: 2024-02-05
+date: 2026-10-30
 website: https://cbyte.network#deadLink
 redirect_from:
 - /android/com.cbytenetwork.endurancewallet/

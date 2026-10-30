@@ -1,6 +1,6 @@
 ---
 title: BTCBOX臺灣 - 買賣比特幣
-date: 2024-02-05
+date: 2026-10-30
 website: https://www.btcboxtw.com#deadLink
 redirect_from:
 - /android/com.bicheng.newtw.exchange/

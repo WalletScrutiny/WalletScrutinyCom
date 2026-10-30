@@ -1,6 +1,6 @@
 ---
 title: 'COBINHOOD - Zero Fees Bitcoin '
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - leo
 website: https://cobinhood.com#deadLink
@@ -21,6 +21,8 @@ android:
   developerName: COBINHOOD, Ltd.
 
 ---
+
+**⚠️ Warning:** Cobinhood is gone. Its parent company filed for bankruptcy in May 2019, and on 10 January 2020 the exchange shut down to audit all balances, telling users not to deposit any more ([Finance Magnates](https://www.financemagnates.com/cryptocurrency/news/cobinhood-shuts-down-and-freezes-deposits-citing-audit-probe/)). Its website no longer loads.
 
 This exchange and wallet claims:
 

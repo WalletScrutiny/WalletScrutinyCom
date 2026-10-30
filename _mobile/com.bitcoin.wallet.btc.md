@@ -1,6 +1,6 @@
 ---
 title: 'Bitcoin Wallet: Blockchain NFT'
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - leo
 website: https://coinhub8899.web.app

@@ -1,6 +1,6 @@
 ---
 title: Echo Wallet
-date: 2023-12-19
+date: 2026-10-30
 website: https://echo-dev.io#deadLink
 redirect_from:
 - /android/org.echo.wallet/

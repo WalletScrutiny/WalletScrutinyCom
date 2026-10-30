@@ -1,6 +1,6 @@
 ---
 title: 'Line2coin Swap: BTC, ETH, & +'
-date: 2024-02-05
+date: 2026-10-30
 website: https://line2coin.com#deadLink
 redirect_from:
 - /android/apps.produccion.line2coinswap/

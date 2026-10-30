@@ -1,9 +1,9 @@
 ---
 title: BigoMex-Trading for BEGINNERS
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
-website: https://www.bigomex.com
+website: https://www.bigomex.com#deadLink
 twitter: bigomexofficial
 social:
 - https://www.linkedin.com/company/bigomex-bigomex-6225b81b2
@@ -25,6 +25,8 @@ android:
 
 ---
 
+**⚠️ Warning:** BigoMex appears to have closed. Its website stopped loading in January 2023 without any notice ([Cryptowisser](https://www.cryptowisser.com/exchange/bigomex/)), and the domain no longer leads to the exchange.
+
 ## App Description
 
 BigoMex is a cryptocurrency contract trading platform. 
@@ -33,7 +35,7 @@ BigoMex is a cryptocurrency contract trading platform.
 
 ## The Site
 
-### [Terms and Conditions](https://bigomex.com)
+### [Terms and Conditions](https://bigomex.com#deadLink)
 
 **Section 6.4**
 

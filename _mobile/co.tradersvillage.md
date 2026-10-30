@@ -1,6 +1,6 @@
 ---
 title: Traders Village - Trade Crypto
-date: 2024-02-05
+date: 2026-10-30
 website: https://tradersvillage.co#deadLink
 redirect_from:
 - /android/co.tradersvillage/

@@ -1,6 +1,6 @@
 ---
 title: Coinplus
-date: 2024-02-05
+date: 2026-10-30
 website: https://www.coinplus.com
 redirect_from:
 - /android/com.coinplus.mobile/

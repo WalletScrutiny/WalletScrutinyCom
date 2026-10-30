@@ -1,6 +1,6 @@
 ---
 title: FETICK
-date: 2023-12-19
+date: 2026-10-30
 redirect_from:
 - /android/uni.UNIDFF115B/
 android:
