@@ -470,16 +470,36 @@ body.dark .dp-history__dot--current {
 // the screen; the column names move into the cells (data-label).
 @media (max-width: 640px) {
   .dp-table {
+    border: 0; // the theme frames every table
+
     thead {
       display: none;
+    }
+
+    // the cards look like the tiles above them
+    &,
+    tbody {
+      display: grid;
+      gap: 10px;
     }
 
     tr {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 4px 12px;
-      padding: 10px 0;
-      border-bottom: 1px solid var(--neutral-5);
+      border: 1px solid var(--neutral-5);
+      border-radius: 10px;
+      padding: 10px 12px;
+      background: var(--neutral-7, transparent);
+      min-width: 0;
+    }
+
+    tr.dp-row--fresh {
+      background: rgba(30, 132, 73, 0.08);
+    }
+
+    tbody tr.dp-row--fresh td {
+      background: none;
     }
 
     td {
