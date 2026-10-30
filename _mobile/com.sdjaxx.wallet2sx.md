@@ -1,6 +1,6 @@
 ---
 title: Jaxx Liberty Wallet
-date: 2021-12-05
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -17,6 +17,8 @@ android:
   verdict: fake
 
 ---
+
+**Update 2026-10-30:** The fake app is still gone from Google Play. The verdict {% include verdictBadge.html verdict="fake" type='short' %} stays.
 
 **Update 2021-11-26**: This app is not available anymore.
 

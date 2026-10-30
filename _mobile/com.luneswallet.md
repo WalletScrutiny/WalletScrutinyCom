@@ -1,6 +1,6 @@
 ---
 title: Lunes Wallet  - Lunes, Bitcoin, Litecoin,  Buy BTC
-date: 2021-12-29
+date: 2026-10-30
 authors:
 - leo
 website: https://luneswallet.app#deadLink
@@ -21,6 +21,15 @@ android:
   repository: https://github.com/Lunes-platform/Wallet-mobile
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play and luneswallet.app no
+longer resolves. The Lunes project itself is still around: [lunes.io](https://lunes.io)
+now promotes a browser extension and the LunesPay app as its wallet, and LunesPay is listed
+here as {% include walletLink.html wallet='android/com.lunespay' verdict='true' %}.
+The repository moved to the [lunes-legacy organization](https://github.com/lunes-legacy/Wallet-mobile),
+last changed in April 2022, and [the issue](https://github.com/lunes-legacy/Wallet-mobile/issues/9)
+about the missing source of the last release is still open. The verdict stays
+{% include verdictBadge.html verdict="nosource" type='short' %}.
 
 **Update 2021-07-15:** As [Emanuel](/authors/emanuel) already
 [noticed in March '21](https://github.com/Lunes-platform/Wallet-mobile/issues/9),

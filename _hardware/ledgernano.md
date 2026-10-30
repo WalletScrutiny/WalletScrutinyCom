@@ -22,7 +22,7 @@ icon: ledgernano.webp
 bugbounty: 
 meta: defunct
 verdict: noita
-date: 2022-01-22
+date: 2026-10-30
 signer: 
 twitter: Ledger
 social:
@@ -35,6 +35,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** Ledger's [discontinued-products page](https://support.ledger.com/article/360010500620-zd) still lists the Ledger Nano among the products that "have been discontinued and are not supported anymore". Ledger adds that this means the original Ledger Nano, not the current Nano X or Nano S Plus. It stays defunct with the verdict {% include verdictBadge.html verdict="noita" type='short' %}.
 
 The [provider's website has a clear statement](https://support.ledger.com/hc/en-us/articles/360010500620-Discontinued-products?docs=true)
 that this wallet is discontinued and we considered it defunct. Other than that,

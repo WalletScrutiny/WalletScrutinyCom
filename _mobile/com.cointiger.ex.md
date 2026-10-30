@@ -1,7 +1,7 @@
 ---
 wsId: cointiger
 title: CoinTiger-Crypto Exchange
-date: 2022-01-15
+date: 2026-10-30
 authors:
 - danny
 website: https://www.cointiger.com#deadLink
@@ -39,6 +39,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The app is still gone from Google Play, and the exchange looks shut down. The Wayback Machine has working captures of cointiger.com until early 2024, but from [July 2024](https://web.archive.org/web/20240717202031/https://www.cointiger.com/) on the site only answers "400 Bad Request", as it does today. CoinMarketCap's [exchange page](https://coinmarketcap.com/exchanges/cointiger/) now returns 404. The [X account](https://x.com/CoinTigerEX) still exists. Nothing suggests the app ever stopped holding user funds, so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+
 CoinTiger Exchange [Terms of Service](https://www.cointiger.com/en-us/#/footer/service&deadLink)
 
 > About CoinTiger<br>
@@ -57,6 +59,8 @@ This app is a cryptocurrency exchanged developed by a company based in Singapore
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The app is gone from the App Store again (no result for id1366562802 in the US, NZ or NG store). The website has been down since mid-2024, see the Android section. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 **Update 2022-01-15**: This app is not on the Store anymore.
 

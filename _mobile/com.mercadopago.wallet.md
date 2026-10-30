@@ -1,7 +1,7 @@
 ---
 wsId: mercadopago
 title: 'Mercado Pago: Banco Digital'
-date: 2021-12-26
+date: 2026-10-30
 authors:
 - leo
 website: http://www.mercadopago.com
@@ -22,7 +22,7 @@ android:
   reviews: 1128429
   icon: com.mercadopago.wallet.webp
   meta: ok
-  verdict: nosendreceive
+  verdict: custodial
   developerName: Mercado Libre
 iphone:
   appId: com.mercadopago.MercadoPago
@@ -34,12 +34,23 @@ iphone:
   reviews: 2507791
   icon: com.mercadopago.MercadoPago.webp
   meta: ok
-  verdict: nosendreceive
+  verdict: custodial
   developerName: MercadoLibre
 
 ---
 
 ## Android
+
+**Update 2026-10-30:** Bitcoin can now be sent and received, so the verdict changes from
+{% include verdictBadge.html verdict="nosendreceive" type='short' %} to
+{% include verdictBadge.html verdict="custodial" type='short' %}. Mercado Pago's
+[crypto page](https://www.mercadopago.com.br/criptomoedas) says you can send crypto and receive
+Bitcoin, Ethereum and other coins, and that "A Paxos realiza as compras, vendas, transferências e a
+custódia das suas criptos" (Paxos does the buying, selling, transfers and custody of your crypto).
+A [September 2026 guide](https://www.mercadopago.com.br/blog/como-transferir-criptomoedas-para-carteiras-digitais-com-mercado-pago)
+shows how to send Bitcoin, Ethereum or Dólar Cripto from the app to "outras contas e carteiras
+digitais" (other accounts and digital wallets) by entering the destination address. The coins are held
+by Paxos, not by the user.
 
 The provider announced the possibility to buy and sell Bitcoin from within the
 app a while ago already. It is not clear where exactly this feature is available
@@ -54,5 +65,10 @@ it also supports Ethereum and Pax Dollar.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The sources in the Android update describe the Mercado Pago app's crypto
+section without limiting it to one platform, so the iPhone verdict also changes from
+{% include verdictBadge.html verdict="nosendreceive" type='short' %} to
+{% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include copyFromAndroid.html %}

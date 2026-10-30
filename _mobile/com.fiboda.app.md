@@ -1,7 +1,7 @@
 ---
 wsId: Fiboda
 title: Fiboda - Copy trading Platform
-date: 2022-01-15
+date: 2026-10-30
 authors:
 - danny
 website: http://www.fiboda.com
@@ -17,7 +17,7 @@ android:
   version: 1.0.5
   reviews: 2
   icon: com.fiboda.app.webp
-  meta: removed
+  meta: defunct
   verdict: nosendreceive
 iphone:
   appId: com.fiboda.Fiboda
@@ -27,12 +27,16 @@ iphone:
   version: 1.1.0
   reviews: 5
   icon: com.fiboda.Fiboda.webp
-  meta: removed
+  meta: defunct
   verdict: nosendreceive
 
 ---
 
+**⚠️ Warning:** Fiboda appears to be gone. Its website now shows only a hosting provider's default page.
+
 ## Android
+
+**Update 2026-10-30:** The app is still gone from Google Play. [fiboda.com](http://www.fiboda.com) now shows only a "Welcome fiboda.com - BlueHost.com" placeholder, and the listing names no other channel, so we mark the provider as defunct. The CFD-only verdict {% include verdictBadge.html verdict="nosendreceive" type='short' %} stays.
 
 ## App Description
 
@@ -55,6 +59,8 @@ Due to this platform being created for traders who conduct CFD transactions, use
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The app is still gone from the App Store (no result for id1540952335) and the provider appears to be gone, see the Android section.
 
 **Update 2022-01-15**: This app is not on the Store anymore.
 

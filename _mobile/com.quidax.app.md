@@ -1,7 +1,7 @@
 ---
 wsId: Quidax
 title: Quidax Classic
-date: 2022-02-10
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
@@ -39,6 +39,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** This "Classic" app is still gone from Google Play. Quidax itself is active: www.quidax.com now redirects to [quidax.io](https://quidax.io/), which says Quidax is "SEC Licensed", the "First crypto exchanged licensed in Nigeria", and offers trading, swaps and an "Earn" product. Its current app is {% include walletLink.html wallet='android/io.quidax.app' verdict='true' %}, also custodial. The verdict {% include verdictBadge.html verdict="custodial" type='short' %} stays.
+
 **Update 2022-02-02**: This app is not in store anymore.
 
 From the play store description it clearly states the private keys are in control of the provider....
@@ -52,6 +54,8 @@ Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still gone from the App Store (US and Nigeria). Quidax's current iPhone app is {% include walletLink.html wallet='iphone/io.quidax.pro' verdict='true' %}. The verdict {% include verdictBadge.html verdict="custodial" type='short' %} stays.
 
 **Update 2022-02-02**: This app is not in store anymore.
 

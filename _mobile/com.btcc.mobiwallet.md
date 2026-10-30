@@ -1,7 +1,7 @@
 ---
 wsId: MobiWallet
 title: Mobi - Crypto Asset Wallet
-date: 2021-12-22
+date: 2026-10-30
 authors:
 - danny
 website: https://www.mobi.me/
@@ -39,6 +39,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The Android app is still gone from Google Play. The website mobi.me is now a [domain for sale](https://www.mobi.me/), the FAQ host cms.mobi.me no longer answers, and the newest posts we could see on [Mobi's X account](https://x.com/mobimeglobal) are from 2019. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+
 **Update 2021-12-06**: This app is gone from the Google Play Store. In the Apple App Store, while not available for Australia anymore, it is now available in the US.
 
 ## App Description
@@ -52,5 +54,7 @@ In a page entitled ["How do I access my private keys?"](https://cms.mobi.me/mobi
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still listed in the App Store in Australia and the US, but it was last updated in May 2023. The website mobi.me is now a [domain for sale](https://www.mobi.me/), the FAQ host cms.mobi.me no longer answers, and the newest posts we could see on [Mobi's X account](https://x.com/mobimeglobal) are from 2019. Be careful before you send coins to this app. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include copyFromAndroid.html %}

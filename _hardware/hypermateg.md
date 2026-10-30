@@ -18,15 +18,15 @@ weight:
 provider: HyperPay
 providerWebsite: https://hyperpay.tech/
 website: https://hyperpay.me/hypermatepro/g
-shop: https://shop.hyperpay.tech/products/crypto-hardware-wallet-hypermate-g
+shop: https://shop.hyperpay.tech/products/crypto-hardware-wallet-hypermate-g#deadLink
 country: HK
 price: 129USD
 repository: https://github.com/hyperpayorg/hardwallet
 icon: hypermateg.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: nosource
-date: 2021-12-12
+date: 2026-10-30
 signer: 
 twitter: HyperPay_tech
 social:
@@ -38,6 +38,8 @@ features:
 - secEl
 
 ---
+
+**Update 2026-10-30:** HPX, the former HyperPay, has stopped maintaining its first-generation HyperMate and tells owners to stop using it. HyperPay has rebranded as HPX: hyperpay.tech now redirects to [hpx.com](https://www.hpx.com/en), which calls HyperPay Wallet "the predecessor of HPX", and the companion app {% include walletLink.html wallet='android/com.legendwd.hyperpayW' verdict='true' %} is now called "HPX". Its site carries an "\[Important Security Notice\] Free Upgrade to HyperMate Pro and Asset Migration Announcement". It says HPX will stop "long-term maintenance of the first-generation HyperMate", asks users to stop signing and receiving with it, and offers a free {% include walletLink.html wallet='hardware/hypermatepro' verdict='true' %} to move the funds to a new seed. The notice does not name the model and has no date; by release dates the first-generation device is most likely this HyperMate G. The HyperMate G [shop page](https://shop.hyperpay.tech/products/crypto-hardware-wallet-hypermate-g) now returns 404, and the [hardwallet repository](https://github.com/hyperpayorg/hardwallet) still has its last commit from January 2021 and no tags. We mark the device discontinued; the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 HyperMate G is about the size of a credit card and has buttons and a screen. These help the user to verify and confirm transactions. The wallet can connect via Bluetooth.
 

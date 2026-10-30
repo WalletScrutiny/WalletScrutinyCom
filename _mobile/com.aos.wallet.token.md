@@ -1,6 +1,6 @@
 ---
 title: ATS Wallet
-date: 2022-01-15
+date: 2026-10-30
 authors:
 - kiwilamb
 website: https://atswallet.io/
@@ -14,14 +14,18 @@ android:
   version: 2.0.22
   reviews: 154
   icon: com.aos.wallet.token.webp
-  meta: removed
+  meta: defunct
   verdict: nosource
 
 ---
 
+**⚠️ Warning:** The provider of ATS Wallet appears to be gone. Its website no longer exists.
+
+**Update 2026-10-30:** We now mark this app defunct. It is still gone from Google Play, and atswallet.io no longer resolves. The Wayback Machine last saved the [ATS Wallet website](https://web.archive.org/web/20220122043913/http://atswallet.io/) in January 2022; by [October 2025](https://web.archive.org/web/20251007104543/http://atswallet.io/) the domain only showed a parking page. We found no archived copy of the store page and still no source code, so the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+
 **Update 2022-01-15**: This app is not on the Store anymore.
 
-A clear statement can be found in the [play store description](https://play.google.com/store/apps/details?id=com.aos.wallet.token) regarding the management of private keys.
+A clear statement can be found in the Play Store description regarding the management of private keys.
 
 > "Superb Security: Your private keys never leave your device. Strong wallet encryption and cryptography guarantee that your funds will stay safe under your ultimate control."
 

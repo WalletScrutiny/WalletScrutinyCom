@@ -1,6 +1,6 @@
 ---
 title: Binary Exchange
-date: 2022-02-16
+date: 2026-10-30
 website: https://www.binary-exchange.com#deadLink
 redirect_from:
 - /android/com.binary.exchange/
@@ -15,5 +15,7 @@ android:
   verdict: wip
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play, and binary-exchange.com no longer resolves. We found no archived copy of its store page, so it stays {% include verdictBadge.html verdict="wip" type='short' %}.
 
 **Update 2022-02-09**: This app is no more.

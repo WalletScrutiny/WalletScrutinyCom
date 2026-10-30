@@ -24,7 +24,7 @@ icon: hardbit.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2022-02-17
+date: 2026-10-30
 signer: 
 twitter: 
 social:
@@ -33,6 +33,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** Hardbit is still gone. hardbit.cn no longer answers; its [last archived copy, from August 2024](https://web.archive.org/web/20240806142923/http://www.hardbit.cn/), still showed the old HB01/HB01M product pages. The only public code, the [HardbitSafetyCheck repository](https://github.com/hardbitcn/HardbitSafetyCheck), was last pushed in August 2014, and we found no firmware, so this stays {% include verdictBadge.html verdict="wip" type='short' %}.
 
 Announced in [CoinTelegraph](https://cointelegraph.com/news/china_releases_hardbit_hardware_wallet) on May 10, 2014 the Hardbit wallet seems to have fallen prey to China's stringent cryptocurrency regulations. Its website is still accessible but displays a warning. There are also indications that the product is no longer available for sale - such as its 'Buy' page no longer working.
 

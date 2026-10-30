@@ -1,7 +1,7 @@
 ---
 wsId: buda
 title: Buda.com
-date: 2022-01-07
+date: 2026-10-30
 authors:
 - leo
 website: https://buda.com
@@ -45,6 +45,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** Buda.com is still an exchange for Chile, Peru and Colombia, and the app is still on Google Play and was last updated in September 2026. Its [home page](https://www.buda.com/) still tells users to "guarda tus criptos en Buda.com" (keep your crypto at Buda.com) and to approve each movement with a PIN, so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+
 This app has very poor ratings on Google (2.5 stars) and Apple (3.5 stars),
 mainly due to limited functionality and high fees. Caution is advised!
 
@@ -54,6 +56,8 @@ phone. As a custodial service it is **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** Buda.com is still an exchange for Chile, Peru and Colombia, and the app is still on the App Store and was last updated in September 2026. Its [home page](https://www.buda.com/) still tells users to "guarda tus criptos en Buda.com" (keep your crypto at Buda.com) and to approve each movement with a PIN, so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 This app has very poor ratings on Google (2.5 stars) and Apple (3.5 stars),
 mainly due to limited functionality and high fees. Caution is advised!

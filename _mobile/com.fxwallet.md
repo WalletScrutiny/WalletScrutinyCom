@@ -1,6 +1,6 @@
 ---
 title: FX Wallet
-date: 2022-02-16
+date: 2026-10-30
 authors:
 - danny
 website: https://fxwallet.info#deadLink
@@ -17,10 +17,14 @@ android:
   version: '5.0'
   reviews: 17
   icon: com.fxwallet.webp
-  meta: removed
+  meta: defunct
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** This provider appears to be gone. Its domain fxwallet.info has expired.
+
+**Update 2026-10-30:** The app is still gone from Google Play. Its [archived store page](https://web.archive.org/web/20210701031408/https://play.google.com/store/apps/details?id=com.fxwallet) gave app@fxwallet.info as the developer contact. The Wayback Machine shows fxwallet.info as an [expired domain up for auction](https://web.archive.org/web/20250525194020/https://fxwallet.info/) since 2025, and today it does not resolve at all. The [@FxWallet](https://x.com/fxwallet) X account now promotes a self-custody wallet on fxwallet.com, which we list as {% include walletLink.html wallet='android/com.fxfi.fxwallet' verdict='true' %}. We found nothing that ties that app to this one. We mark this provider as defunct and keep the {% include verdictBadge.html verdict="custodial" type='short' %} verdict.
 
 **Update 2022-02-09**: This app is no more.
 

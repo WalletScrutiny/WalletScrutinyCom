@@ -1,7 +1,7 @@
 ---
 wsId: bridgeWallet
 title: 'Bridge Wallet: Bitcoin, crypto'
-date: 2022-01-10
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -50,6 +50,12 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The app is still self-custodial and still closed source.
+[Its website](https://www.mtpelerin.com/bridge-wallet) says "Bridge Wallet is fully self-custodial:
+you hold your own secret phrase at all times". The provider's [GitHub](https://github.com/MtPelerin)
+holds a BTCPay Server plugin, an assets repository and its DeFi middleware, but no wallet app, so the
+verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+
 ## Update 2024-07-13 
 
 The provider's GitHub account appears to be [here](https://github.com/MtPelerin). 
@@ -79,6 +85,10 @@ As a closed source wallet, this is **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The app is still on the App Store and, as on Android, we found no source for it
+on [the provider's GitHub](https://github.com/MtPelerin). The verdict stays
+{% include verdictBadge.html verdict="nosource" type='short' %}.
 
 {% include copyFromAndroid.html %}
 

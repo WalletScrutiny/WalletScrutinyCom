@@ -1,7 +1,7 @@
 ---
 wsId: dCent
 title: DCENT Wallet - Secure Crypto
-date: 2022-01-10
+date: 2026-10-30
 authors:
 - kiwilamb
 - danny
@@ -47,6 +47,13 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** Still no source for the app. The provider
+[renamed itself from D'CENT to DCENT](https://store.dcentwallet.com/blogs/post/dcent-is-now-dcent)
+and [its website](https://dcentwallet.com/) still offers the app alongside its hardware wallets.
+Its [GitHub organization](https://github.com/DcentWallet) holds SDKs, connectors and a firmware
+release repository, but no repository for the mobile app, so the verdict stays
+{% include verdictBadge.html verdict="nosource" type='short' %}.
+
 ## Update 2024-07-15
 
 The source code for this app remains unaccounted for as of this date, thus leaving this app as **not verifiable.**
@@ -87,6 +94,10 @@ Our verdict: This 'wallet' claims to be non-custodial, however with no source co
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The app is still on the App Store and, as on Android, we found no
+source for it on [the provider's GitHub](https://github.com/DcentWallet). The verdict stays
+{% include verdictBadge.html verdict="nosource" type='short' %}.
 
 {% include copyFromAndroid.html %}
 

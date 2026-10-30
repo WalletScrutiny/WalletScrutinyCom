@@ -1,6 +1,6 @@
 ---
 title: Coiny
-date: 2022-01-13
+date: 2026-10-30
 authors:
 - danny
 website: https://coiny.io#deadLink
@@ -16,10 +16,14 @@ android:
   updated: 2019-01-17
   version: 1.6.1
   icon: io.coiny.android.webp
-  meta: removed
+  meta: defunct
   verdict: wip
 
 ---
+
+**⚠️ Warning:** Coiny appears to be out of business. Its website is gone and its X account has not posted since 2020.
+
+**Update 2026-10-30:** The app is still gone from Google Play, and the Wayback Machine has no copy of its store page. coiny.io now only returns a hosting provider's 404 error page, and www.coiny.io no longer resolves. The newest posts on [Coiny's X account](https://x.com/Coiny_io) are from 2020. Without an archived store page we keep it as {% include verdictBadge.html verdict="wip" type='short' %}.
 
 ## App Description
 

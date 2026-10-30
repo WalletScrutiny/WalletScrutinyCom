@@ -1,6 +1,6 @@
 ---
 title: 'Swaps: buy BTC, USDT crypto. Tether, bitcoin store'
-date: 2022-02-16
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -16,6 +16,11 @@ android:
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play and we found no archived copy of its
+store page. The [privacy policy](https://docs.google.com/document/d/17BZh049r3p-byYTLcWRNzhzmeDfhQj8UUbbr1xZctBA/edit)
+is still online and names Octo Liquidity OÜ as the developer, but there is no website to check.
+Nothing new changes the verdict: {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 **Update 2022-02-09**: This app is no more.
 

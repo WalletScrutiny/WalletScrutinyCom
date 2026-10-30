@@ -1,6 +1,6 @@
 ---
 title: Binance JEX - Bitcoin Futures&Options Exchange
-date: 2022-01-15
+date: 2026-10-30
 authors:
 - danny
 website: https://www.jex.com#deadLink
@@ -14,10 +14,21 @@ android:
   version: 2.8.4
   reviews: 713
   icon: com.jex.trade.webp
-  meta: removed
+  meta: defunct
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** The provider is gone. JEX [announced on 2021-10-25](https://web.archive.org/web/20240624001730/https://jexhelp.zendesk.com/hc/en-us/articles/4412000596877-Announcement-on-the-suspension-of-operation-of-the-JEX-platform)
+that the platform would "officially cease operations on December 1, 2021".
+
+**Update 2026-10-30:** The app is still gone from Google Play and the exchange
+behind it has closed. JEX first stopped new registrations, deposits and trading,
+then shut down the platform on 2021-12-01, leaving only withdrawals open and charging
+a daily custody fee on assets left behind
+([archived announcement](https://web.archive.org/web/20240624001730/https://jexhelp.zendesk.com/hc/en-us/articles/4412000596877-Announcement-on-the-suspension-of-operation-of-the-JEX-platform)).
+The domain jex.com no longer resolves. The verdict stays
+{% include verdictBadge.html verdict="custodial" type='short' %}.
 
 **Update 2022-01-15**: This app is not on the Store anymore.
 

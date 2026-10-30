@@ -1,7 +1,7 @@
 ---
 wsId: coin98
 title: 'Coin98: Trade Crypto & Stocks'
-date: 2022-01-10
+date: 2026-10-30
 authors:
 - kiwilamb
 - danny
@@ -42,6 +42,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** Coin98 still calls itself self-custodial: its [terms of service](https://docs.coin98.com/legal/coin98-super-wallet/terms-of-service) say "Coin98 Software is non-custodial. We do not have access to, custody of, or control over your private keys". The app is now marketed as the "Coin98 Super Wallet", and the [website](https://coin98.com/) adds stock and Hyperliquid futures trading and a Google-login "Social Wallet". The [Coin98 GitHub organisation](https://github.com/coin98) still has token contracts and SDKs but no source for the mobile app, so the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+
 The [Coin98 website](https://coin98.app/) claims to be a wallet from their description...
 
 > Coin98 Wallet is the simplest and most secure crypto & bitcoin wallet to store, send, receive and manage your crypto assets, such as Bitcoin (BTC), Ethereum (ETH), TomoChain (TOMO), Ethereum-based ERC20 tokens. etc.
@@ -59,5 +61,7 @@ Our verdict: This 'wallet' claims to be non-custodial but does not provide publi
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is the same Coin98 Super Wallet as the Android app. We found no source for it either, so the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 {% include copyFromAndroid.html %}

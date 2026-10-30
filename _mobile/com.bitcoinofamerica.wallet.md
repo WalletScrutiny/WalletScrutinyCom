@@ -1,6 +1,6 @@
 ---
 title: Bitcoin of America Wallet
-date: 2022-02-16
+date: 2026-10-30
 authors:
 - leo
 website: https://www.bitcoinofamerica.org
@@ -18,6 +18,8 @@ android:
   verdict: nosource
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play; the last [archived copy of its store page](https://web.archive.org/web/20220104020126/https://play.google.com/store/apps/details?id=com.bitcoinofamerica.wallet) is from January 2022. The provider's website was still a [Bitcoin ATM site in February 2023](https://web.archive.org/web/20230217162059/https://bitcoinofamerica.org/), but since [May 2023](https://web.archive.org/web/20230506043102/https://bitcoinofamerica.org/) it only says "Unavailable" and now forwards to a domain parking page. We still found no source code for the app, so the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 **Update 2022-02-03**: This app is no more.
 

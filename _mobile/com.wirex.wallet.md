@@ -1,11 +1,11 @@
 ---
 wsId: wirexwalletdefi
 title: 'COCA: Crypto Card & Wallet'
-date: 2022-01-10
+date: 2026-10-30
 authors:
 - danny
-website: https://wirexapp.com/wirex-wallet#deadLink
-twitter: wirexapp
+website: https://www.coca.xyz/
+twitter: coca_card
 social:
 - https://github.com/wirexapp
 features:
@@ -45,6 +45,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** This app, which we reviewed as the Wirex Wallet, is now called COCA and is published by CCA LABS. The [COCA website](https://www.coca.xyz/) links to this app ID on both stores. It is not the legacy Wirex app, {% include walletLink.html wallet='android/com.wirex' verdict='true' %}, which [stopped supporting transactions on 2026-09-30](https://help.wirexapp.com/article/wirex-one-upgrade-faq-1685), and not its successor Wirex One, which is a separate app (com.wirexapp.one) by Wirex Limited. The store description still calls it a non-custodial wallet "built with MPC security — no private keys or seed phrases" and offering "Anonymous biometric recovery if you lose your device"; the website FAQ also describes MPC instead of seed phrases, but we found no source code: a [GitHub code search for the app ID](https://github.com/search?q=%22com.wirex.wallet%22&type=code) only finds lists that mention it, and the [wirexapp GitHub organization](https://github.com/wirexapp) holds no wallet app. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+
 ## Update 2024-07-17
 
 No changes have been observed in the GitHub organization page. We also did not find any relevant Android repository when searching for ["com.wirex.wallet" on GitHub.](https://github.com/search?q=%22com.wirex.wallet%22&type=code)
@@ -80,6 +82,8 @@ At present, the verdict that we can give it is it is not an open source project.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is also COCA by CCA LABS - FZCO, linked from the [COCA website](https://www.coca.xyz/). We found no source code for it either. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 {% include copyFromAndroid.html %}
 
