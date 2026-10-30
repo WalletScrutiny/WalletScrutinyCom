@@ -1,6 +1,6 @@
 ---
 title: 'SekiApp: Buy and Sell Giftcard'
-date: 2023-08-14
+date: 2026-10-30
 authors:
 - danny
 website: https://sekiapp.com

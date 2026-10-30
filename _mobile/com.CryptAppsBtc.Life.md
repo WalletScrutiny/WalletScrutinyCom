@@ -1,6 +1,6 @@
 ---
 title: Вitсоin Lifеstуlе
-date: 2023-08-07
+date: 2026-10-30
 authors:
 - danny
 redirect_from:

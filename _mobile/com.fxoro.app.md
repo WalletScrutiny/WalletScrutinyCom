@@ -1,6 +1,6 @@
 ---
 title: FXORO Trading APP
-date: 2023-08-15
+date: 2026-10-30
 authors:
 - danny
 website: http://fxoro.com
@@ -34,6 +34,8 @@ iphone:
   developerName: MCA INTELIFUNDS LIMITED
 
 ---
+
+**⚠️ Warning:** FXORO has shut down. Its [website](https://fxoro.com/en/) says that MCA Intelifunds is giving up its Cyprus licence, stopped providing services on 24 October 2025 and closed all client accounts. Both apps are gone from the stores.
 
 ## Android
 

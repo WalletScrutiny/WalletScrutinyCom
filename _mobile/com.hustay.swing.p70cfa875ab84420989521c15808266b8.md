@@ -1,6 +1,6 @@
 ---
 title: 아이더블유디지갑 (iwd wallet)
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/com.hustay.swing.p70cfa875ab84420989521c15808266b8/
 android:

@@ -1,9 +1,9 @@
 ---
 title: 'GulfTrader: استثمار الذهب النف'
-date: 2023-08-07
+date: 2026-10-30
 authors:
 - danny
-website: https://www.gulftrader.com
+website: https://www.gulftrader.com#deadLink
 redirect_from:
 - /android/com.gulftrader/
 android:

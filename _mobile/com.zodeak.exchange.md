@@ -1,6 +1,6 @@
 ---
 title: ZodeakX - Crypto Trading App
-date: 2023-08-04
+date: 2026-10-30
 website: https://www.cryptocurrencyscript.com/
 redirect_from:
 - /android/com.zodeak.exchange/

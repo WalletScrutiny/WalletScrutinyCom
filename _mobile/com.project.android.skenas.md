@@ -1,9 +1,9 @@
 ---
 title: نیکات | پلتفرم سرمایه‌گذاری در
-date: 2023-08-05
+date: 2026-10-30
 authors:
 - danny
-website: https://skenas.app/
+website: https://web.archive.org/web/20220629043337/https://skenas.app/
 redirect_from:
 - /android/com.project.android.skenas/
 android:

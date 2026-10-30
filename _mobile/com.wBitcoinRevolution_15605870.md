@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Revolution
-date: 2023-08-16
+date: 2026-10-30
 redirect_from:
 - /android/com.wBitcoinRevolution_15605870/
 android:

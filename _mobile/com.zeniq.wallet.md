@@ -1,9 +1,9 @@
 ---
 title: ZENIQ App
-date: 2023-08-04
+date: 2026-10-30
 authors:
 - danny
-website: https://zeniq.com/
+website: https://zeniq.com/#deadLink
 twitter: Zeniq_tech
 social:
 - https://www.linkedin.com/company/zeniq-hub/
@@ -24,6 +24,8 @@ android:
   developerName: ZENIQ Technologies FZ LLC
 
 ---
+
+**⚠️ Warning:** The ZENIQ website no longer loads. zeniq.com forwards to a site that is gone, and the project's zeniq.wiki domain now shows an unrelated casino page. The ZENIQ coin has [stopped trading](https://www.coingecko.com/en/coins/zeniq) on every exchange CoinGecko tracks.
 
 ## App Description 
 

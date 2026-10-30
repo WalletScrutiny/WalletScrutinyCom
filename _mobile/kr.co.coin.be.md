@@ -1,6 +1,6 @@
 ---
 title: 가상화폐쉐어서비스-올인비트,비트코인,가상화폐,암호화폐,
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/kr.co.coin.be/
 android:

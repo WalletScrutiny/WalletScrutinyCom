@@ -1,6 +1,6 @@
 ---
 title: Starmera - Naira & Bitcoin App
-date: 2023-08-04
+date: 2026-10-30
 website: https://starmera.com#deadLink
 redirect_from:
 - /android/com.starmera.app/

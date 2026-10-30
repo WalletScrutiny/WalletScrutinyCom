@@ -1,6 +1,6 @@
 ---
 title: رابکس ، خرید ارز دیجیتال
-date: 2023-08-08
+date: 2026-10-30
 authors:
 - danny
 website: https://rabex.ir
