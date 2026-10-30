@@ -6,7 +6,7 @@ authors:
 - leo
 - danny
 released: 2019-10-19
-discontinued: 
+discontinued: 2025-12-13
 updated: 
 version: 
 binaries: 
@@ -21,9 +21,9 @@ price: 244USD
 repository: 
 icon: exodus1s.webp
 bugbounty: 
-meta: obsolete
+meta: discontinued
 verdict: nosource
-date: 2023-01-30
+date: 2026-10-30
 signer: 
 twitter: htcexodus
 social:
@@ -33,6 +33,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** HTC no longer sells the {{ page.title }}. Its [product page](https://web.archive.org/web/20250416062539/https://www.htcexodus.com/us/cryptophone/exodus1s/) has been gone [since at least December 13, 2025](https://web.archive.org/web/20251213045446/https://www.htcexodus.com/us/cryptophone/exodus1s/), and htcexodus.com now leads to HTC's main website. Phones already sold still work, so we mark it as discontinued.
 
 The providers' behind this cryptophone offer an alternative product: {% include walletLink.html wallet='hardware/exodus1' verdict='true' %}
 
@@ -46,13 +48,13 @@ The providers' behind this cryptophone offer an alternative product: {% include 
   - 4G RAM + 64GB storage
   - 3000mAh battery
   
-EXODUS 1s aims to be the first ever mobile device with "[Bitcoin Full Node support.](https://www.htcexodus.com/us/cryptophone/exodus1s/)"
+EXODUS 1s aims to be the first ever mobile device with "[Bitcoin Full Node support.](https://web.archive.org/web/20250416062539/https://www.htcexodus.com/us/cryptophone/exodus1s/)"
 
 It also features an implementation of Zion Vault's Trusted Execution Environment (TEE) which is meant to temporarily isolate the operating system when the user signs a transaction.
 
-[Here is the official guide](https://www.htcexodus.com/eu/support/exodus-one-s/howto/setting-up-your-wallet.html) on how to set up the "Vault." Users are allowed to choose between an alphanumeric or a numeric passcode, and then allowed to generate and backup a 12-word recovery phrase.
+[Here is the official guide](https://www.htcexodus.com/eu/support/exodus-one-s/howto/setting-up-your-wallet.html#deadLink) on how to set up the "Vault." Users are allowed to choose between an alphanumeric or a numeric passcode, and then allowed to generate and backup a 12-word recovery phrase.
 
-[Here is a guide](https://www.htcexodus.com/eu/support/exodus-one-s/howto/sending-cryptocurrency-or-tokens.html) on how to send cryptocurrency.
+[Here is a guide](https://www.htcexodus.com/eu/support/exodus-one-s/howto/sending-cryptocurrency-or-tokens.html#deadLink) on how to send cryptocurrency.
 
 ## Verdict
 

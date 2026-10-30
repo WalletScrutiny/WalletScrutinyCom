@@ -1,6 +1,6 @@
 ---
 title: Cexchangenex
-date: 2023-01-11
+date: 2026-10-30
 authors:
 - danny
 website: https://cexchangenex.com#deadLink

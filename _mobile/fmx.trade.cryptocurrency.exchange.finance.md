@@ -1,7 +1,7 @@
 ---
 title: FMX Trade
-date: 2023-01-02
-website: https://fmx.trade
+date: 2026-10-30
+website: https://fmx.trade#deadLink
 redirect_from:
 - /android/fmx.trade.cryptocurrency.exchange.finance/
 android:

@@ -1,6 +1,6 @@
 ---
 title: Cointral | Buy Bitcoin
-date: 2023-01-11
+date: 2026-10-30
 authors:
 - danny
 website: https://cointral.com#deadLink
@@ -35,6 +35,8 @@ iphone:
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** Cointral stopped all deposits, withdrawals and trading on May 15, 2024 and ended its business ([notice on its website](https://web.archive.org/web/20240807002924/https://cointral.com/)). The site no longer loads.
 
 ## Android
 

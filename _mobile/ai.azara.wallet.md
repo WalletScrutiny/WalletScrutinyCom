@@ -1,6 +1,6 @@
 ---
 title: 'Azara Crypto & Bitcoin Wallet:'
-date: 2023-01-11
+date: 2026-10-30
 authors:
 - leo
 website: https://www.azara.ai#deadLink

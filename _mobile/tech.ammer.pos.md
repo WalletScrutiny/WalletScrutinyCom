@@ -1,7 +1,7 @@
 ---
 title: Trustody Terminal
-date: 2023-01-02
-website: https://trustody.io/
+date: 2026-10-30
+website: https://trustody.io/#deadLink
 redirect_from:
 - /android/tech.ammer.pos/
 android:

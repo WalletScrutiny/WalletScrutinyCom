@@ -1,6 +1,6 @@
 ---
 title: Uphold Card
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/com.uphold.card/
 android:
@@ -16,3 +16,5 @@ android:
 
 ---
 
+
+**Update 2026-10-30:** Uphold now handles its card [inside its main app](https://support.uphold.com/hc/en-us/articles/41078719850139-Managing-the-Uphold-Debit-Card), which is listed separately as {% include walletLink.html wallet='android/com.uphold.wallet' verdict='true' %}.

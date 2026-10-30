@@ -1,6 +1,6 @@
 ---
 title: SWISS BANK BTC
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/com.web2app.SWISS_BANK_BTC/
 android:

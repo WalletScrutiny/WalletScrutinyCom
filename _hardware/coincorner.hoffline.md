@@ -21,7 +21,7 @@ icon: coincorner.hoffline.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2023-01-20
+date: 2026-10-30
 signer: 
 twitter: CoinCorner
 social: 

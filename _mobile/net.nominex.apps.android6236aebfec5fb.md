@@ -1,6 +1,6 @@
 ---
 title: Nominex NMx Coin
-date: 2023-01-02
+date: 2026-10-30
 website: https://nominex.io/?r=90687
 redirect_from:
 - /android/net.nominex.apps.android6236aebfec5fb/

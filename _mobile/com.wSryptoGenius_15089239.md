@@ -1,6 +1,6 @@
 ---
 title: Crypto Genius
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/com.wSryptoGenius_15089239/
 android:

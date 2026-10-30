@@ -1,7 +1,7 @@
 ---
 title: GlobalBlock Digital Asset Exchange
-date: 2023-01-02
-website: https://globalblock.co.uk#deadLink
+date: 2026-10-30
+website: https://globalblock.co.uk
 redirect_from:
 - /android/uk.co.globalblock.droidapp/
 android:
