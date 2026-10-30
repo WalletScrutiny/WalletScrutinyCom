@@ -1,6 +1,6 @@
 ---
 title: Betepal Wallet - 币宝 钱包 安全加密 US
-date: 2023-08-04
+date: 2026-10-30
 authors:
 - danny
 website: http://betepal.com#deadLink

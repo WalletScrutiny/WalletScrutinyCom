@@ -1,6 +1,6 @@
 ---
 title: Cryptseifu
-date: 2023-08-04
+date: 2026-10-30
 website: http://cryptseifu.com#deadLink
 redirect_from:
 - /android/com.app.cryptseifu/

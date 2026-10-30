@@ -1,6 +1,6 @@
 ---
 title: Crypto Plane
-date: 2023-08-04
+date: 2026-10-30
 website: https://crypto-plane.com#deadLink
 redirect_from:
 - /android/co.cryptoplane.app.cryptoplane/

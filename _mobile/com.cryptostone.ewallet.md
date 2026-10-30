@@ -1,6 +1,6 @@
 ---
 title: Cryptostone Wallet
-date: 2023-08-04
+date: 2026-10-30
 website: https://www.crypto-stone.io/
 redirect_from:
 - /android/com.cryptostone.ewallet/

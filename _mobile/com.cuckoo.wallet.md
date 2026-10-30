@@ -1,7 +1,7 @@
 ---
 title: Kanga - multi-chain crypt wall
-date: 2023-08-04
-website: http://www.tyco.link/#/
+date: 2026-10-30
+website: http://www.tyco.link/#deadLink
 redirect_from:
 - /android/com.cuckoo.wallet/
 android:

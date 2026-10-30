@@ -1,7 +1,7 @@
 ---
 title: Definance Wallet
-date: 2023-08-04
-website: https://definance.app/
+date: 2026-10-30
+website: https://definance.app/#deadLink
 redirect_from:
 - /android/com.definance.app/
 android:

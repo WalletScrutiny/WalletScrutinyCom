@@ -1,6 +1,6 @@
 ---
 title: Bittery
-date: 2023-08-04
+date: 2026-10-30
 website: https://github.com/bitteryapp/bitteryapp-android
 redirect_from:
 - /android/com.github.bitteryapp/

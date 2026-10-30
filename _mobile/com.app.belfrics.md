@@ -1,9 +1,9 @@
 ---
 title: Belfrics – CryptoCurrency
-date: 2023-08-04
+date: 2026-10-30
 authors:
 - danny
-website: http://www.belfrics.io
+website: https://belfrics.com
 twitter: Belfrics
 social:
 - https://www.facebook.com/Belfrics
@@ -36,6 +36,8 @@ iphone:
 
 ---
 
+**Update 2026-10-30:** The old website belfrics.io now shows an unrelated gambling page, so we list the group site [belfrics.com](https://belfrics.com) instead. The exchange pages we quoted no longer load, and the [India](https://india.belfrics.com/) and [Malaysia](https://malaysia.belfrics.com/) exchange sites now show Belfrics Academy, a training offer.
+
 ## Android
 
 ## App Description
@@ -49,13 +51,13 @@ It also supports fiat currencies like: INR, KES, NGN, TZS and USD.
 
 ## The Site
 
-[Terms of Participation - Suspension Clause](https://singapore.belfrics.com/terms-conditions/#terms-condition)
+[Terms of Participation - Suspension Clause](https://web.archive.org/web/20230330105957/https://singapore.belfrics.com/terms-conditions/#terms-condition)
 
 > We have the right to suspend or terminate your Account and refuse any and all current or future use of the Site and Services, as well as subject you to civil liability or refer you to the appropriate law enforcement authorities for criminal prosecution. We shall not be liable to make any compensation, monetary or otherwise, following such suspension, termination or inability to use the Site or the Services.
 
 ### Deposit and Withdrawal Fees
 
-If an exchange has [deposit and withdrawal fees](https://singapore.belfrics.com/trading-fees/), it means that it supports the sending and receiving of bitcoins.
+If an exchange has [deposit and withdrawal fees](https://web.archive.org/web/20230330110035/https://singapore.belfrics.com/trading-fees/), it means that it supports the sending and receiving of bitcoins.
 
 ## The App
 

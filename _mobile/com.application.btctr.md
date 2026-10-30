@@ -1,9 +1,9 @@
 ---
 title: BTC Bank
-date: 2023-08-04
+date: 2026-10-30
 authors:
 - danny
-website: https://btc-bank.co/
+website: https://btc-bank.co/#deadLink
 redirect_from:
 - /android/com.application.btctr/
 android:

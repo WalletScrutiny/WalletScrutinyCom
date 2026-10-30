@@ -1,6 +1,6 @@
 ---
 title: DTCWallet
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/com.dtcwallet.dtcwallet/
 android:

@@ -1,7 +1,7 @@
 ---
 title: CoinStorey
-date: 2023-08-04
-website: https://www.coinstorey.com/
+date: 2026-10-30
+website: https://www.coinstorey.com/#deadLink
 redirect_from:
 - /android/com.coinstorey/
 android:

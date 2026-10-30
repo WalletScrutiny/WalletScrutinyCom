@@ -1,6 +1,6 @@
 ---
 title: MYA Wallet
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/com.developer.myafrique.mya/
 android:

@@ -1,6 +1,6 @@
 ---
 title: Black Wallet
-date: 2023-08-04
+date: 2026-10-30
 website: https://blackproject.tech#deadLink
 redirect_from:
 - /android/com.blackwallet/
