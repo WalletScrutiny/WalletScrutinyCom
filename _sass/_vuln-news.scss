@@ -37,8 +37,10 @@
       padding: 4px 8px;
     }
 
-    label {
+    // the site-wide label rule is a 46px-tall flex row
+    .vuln-news__sev {
       display: inline-flex;
+      line-height: 1.4;
       align-items: center;
       gap: 4px;
       cursor: pointer;
