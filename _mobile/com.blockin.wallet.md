@@ -1,5 +1,4 @@
 ---
-wsId: PoolinWallet
 title: PoolinWallet - Secure Custody
 date: 2023-08-25
 authors:
@@ -58,4 +57,4 @@ This app is self-described as **custodial** and therefore **not verifiable**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

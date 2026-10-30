@@ -1,5 +1,4 @@
 ---
-wsId: indodax
 title: Indodax Crypto Simple & Secure
 date: 2021-05-31
 authors:

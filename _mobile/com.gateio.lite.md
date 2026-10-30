@@ -1,5 +1,4 @@
 ---
-wsId: gateIOLite
 title: 'Gate Lite: Buy Bitcoin, Crypto'
 date: 2024-02-05
 authors:
@@ -65,4 +64,4 @@ This is the lite version of:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

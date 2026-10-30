@@ -1,5 +1,4 @@
 ---
-wsId: Airbitz
 title: Bitcoin Wallet - Airbitz
 date: 2021-10-19
 authors:
@@ -52,6 +51,6 @@ An issue has been opened at [https://github.com/EdgeApp/airbitz-android-gui/issu
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 An issue has been opened at [https://github.com/EdgeApp/airbitz-android-gui/issues/21](https://github.com/EdgeApp/airbitz-android-gui/issues/21)

@@ -1,5 +1,4 @@
 ---
-wsId: flashWallet
 title: Flash Wallet
 date: 2025-11-14
 authors:
@@ -77,4 +76,4 @@ The project does not make a claim regarding source-availability and offers **[no
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

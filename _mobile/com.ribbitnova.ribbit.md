@@ -1,5 +1,4 @@
 ---
-wsId: ribbitCrypto
 title: 'Ribbit: Crypto Wallet'
 date: 2026-05-19
 authors:
@@ -65,4 +64,4 @@ As a result, Ribbit is classified as **nosource**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

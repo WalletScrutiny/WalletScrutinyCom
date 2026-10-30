@@ -1,5 +1,4 @@
 ---
-wsId: zumoPay
 title: 'Zumo: Bitcoin & Crypto Wallet'
 date: 2025-09-09
 authors:
@@ -80,4 +79,4 @@ thus: **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: trusteePlus
 title: Trustee Plus | Wallet & Card
 date: 2026-02-20
 authors:
@@ -68,4 +67,4 @@ Since the wallet does not provide the private keys, this app is **custodial** an
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

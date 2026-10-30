@@ -1,5 +1,4 @@
 ---
-wsId: kuantist
 title: Kuantist | Bitcoin ve Kripto
 date: 2026-04-20
 authors:
@@ -61,4 +60,4 @@ Kuantist is a **custodial cryptocurrency exchange**. Users do not control privat
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

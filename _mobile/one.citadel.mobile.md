@@ -1,5 +1,4 @@
 ---
-wsId: CitadelOne
 title: Citadel.one Super App
 date: 2024-07-17
 authors:
@@ -87,4 +86,4 @@ Citadel's GitHub account contains multiple repositories and appears to receive f
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

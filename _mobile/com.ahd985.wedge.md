@@ -1,5 +1,4 @@
 ---
-wsId: wedgePayWithCrypto
 title: 'Wedge: Pay with Stock & Crypto'
 date: 2023-09-15
 authors:
@@ -56,4 +55,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

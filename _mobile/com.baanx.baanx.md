@@ -1,5 +1,4 @@
 ---
-wsId: Baanx
 title: Baanx
 date: 2023-05-30
 authors:
@@ -71,4 +70,4 @@ Baanx is a **custodial** service making the app **not-verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

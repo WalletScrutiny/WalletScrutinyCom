@@ -6,7 +6,6 @@ import helper from './helper.mjs';
 export const MOBILE_DIR = '_mobile';
 
 const ROOT_FIELD_ORDER = [
-  'wsId',
   'title',
   'altTitle',
   'bitcoinOrgId',
@@ -44,7 +43,6 @@ const PLATFORM_FIELD_ORDER = [
   'repository',
   'bugbounty',
   'bitcoinOrgId',
-  'wsId',
 ];
 
 function isEmpty (value) {

@@ -1,5 +1,4 @@
 ---
-wsId: HuobiWallet
 title: 'iToken HD: DeFi Crypto Wallet'
 date: 2023-09-28
 authors:

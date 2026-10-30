@@ -1,5 +1,4 @@
 ---
-wsId: spend
 title: Spend App
 date: 2023-08-16
 authors:

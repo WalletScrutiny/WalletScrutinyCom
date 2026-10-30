@@ -1,5 +1,4 @@
 ---
-wsId: satangPro
 title: 'orbix: Buy Bitcoin & Crypto'
 date: 2022-06-28
 authors:
@@ -69,4 +68,4 @@ This is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

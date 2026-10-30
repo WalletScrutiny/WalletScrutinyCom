@@ -1,5 +1,4 @@
 ---
-wsId: alvexo
 title: Alvexo Online Trading Platform
 date: 2024-07-05
 authors:
@@ -54,4 +53,4 @@ The verdict for this app, is that it **can't send or receive bitcoins**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

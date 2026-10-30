@@ -1,5 +1,4 @@
 ---
-wsId: HaruInvest
 title: Earn Crypto with Haru Invest
 date: 2023-08-04
 authors:
@@ -75,4 +74,4 @@ This service is a **custodial** app that **cannot be verified**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

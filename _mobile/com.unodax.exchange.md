@@ -1,5 +1,4 @@
 ---
-wsId: UnodaxExchange
 title: Unodax Exchange
 date: 2022-04-07
 authors:
@@ -61,4 +60,4 @@ Our verdict for this app is **custodial** and thus **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

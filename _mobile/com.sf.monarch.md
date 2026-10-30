@@ -1,5 +1,4 @@
 ---
-wsId: Monarch
 title: Monarch Wallet
 date: 2024-07-13
 authors:

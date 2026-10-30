@@ -1,5 +1,4 @@
 ---
-wsId: LMAXDigital
 title: LMAX Digital Trading
 date: 2023-04-04
 authors:
@@ -118,4 +117,4 @@ Financial trading platforms that support crypto CFDs usually **do not allow depo
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

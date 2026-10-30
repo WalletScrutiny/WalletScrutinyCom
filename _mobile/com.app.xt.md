@@ -1,5 +1,4 @@
 ---
-wsId: xtcom
 title: 'XT.com: Buy Bitcoin & Ethereum'
 date: 2022-07-31
 authors:
@@ -61,7 +60,7 @@ This is a **custodial** provider.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="XT.com is a full-service trading platform that supports 100+ high-quality currencies, 1,000+ coins and over 1,300+ trading pairs. Spot trading, futures trading, currency transactions, leveraged trades, OTC transactions, and credit card purchases can be accessed on XT.com." source="Store description" %}
 

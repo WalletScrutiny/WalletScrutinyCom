@@ -1,5 +1,4 @@
 ---
-wsId: glamster
 title: Glamster | The Smart Messenger
 date: 2025-03-17
 authors:
@@ -54,4 +53,4 @@ However, they do not claim to be Open Source and **do not have any links** to an
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

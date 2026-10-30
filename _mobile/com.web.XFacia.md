@@ -1,5 +1,4 @@
 ---
-wsId: xfacia
 title: Xfacia Buy BTC & Crypto
 date: 2025-03-17
 authors:
@@ -62,4 +61,4 @@ This app is an exchange with multiple wallet support. It does not feature privat
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

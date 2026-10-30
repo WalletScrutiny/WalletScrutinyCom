@@ -1,5 +1,4 @@
 ---
-wsId: eXchangily
 title: 'eXchangily DEX Bitcoin Wallet '
 date: 2023-08-16
 authors:
@@ -72,6 +71,6 @@ An issue has been opened at [https://github.com/blockchaingate/exchangily-mobile
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 An issue has been opened at [https://github.com/blockchaingate/exchangily-mobile-app/issues/1](https://github.com/blockchaingate/exchangily-mobile-app/issues/1)

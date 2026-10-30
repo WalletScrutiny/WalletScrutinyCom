@@ -1,5 +1,4 @@
 ---
-wsId: ownrDigitalWallet
 title: OWNR Digital Wallet
 date: 2025-09-03
 authors:
@@ -81,4 +80,4 @@ code, we remain with a verdict of **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

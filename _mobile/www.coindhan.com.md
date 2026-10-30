@@ -1,5 +1,4 @@
 ---
-wsId: coindhan
 title: 'Coindhan: Buy Bitcoin & Crypto'
 date: 2024-10-03
 authors:
@@ -62,4 +61,4 @@ This service is a **custodian** and the app is **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

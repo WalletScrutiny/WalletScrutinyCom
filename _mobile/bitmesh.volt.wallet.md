@@ -1,5 +1,4 @@
 ---
-wsId: VoltWallet
 title: 'Volt: Bitcoin & DeFi Wallet'
 date: 2023-06-21
 authors:
@@ -71,4 +70,4 @@ Its claim to an innovative approach to wallet security by removing a single-poin
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: viaBTC
 title: ViaBTC-Crypto Mining Pool
 date: 2022-06-24
 authors:
@@ -82,4 +81,4 @@ As a cryptocurrency mining service provider, they provide a wallet over which th
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

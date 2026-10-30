@@ -1,5 +1,4 @@
 ---
-wsId: Koshelek
 title: Koshelek. Crypto wallet & p2p
 date: 2023-10-14
 authors:
@@ -110,4 +109,4 @@ Judging this app was difficult as it has many features. At its most basic, **it 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

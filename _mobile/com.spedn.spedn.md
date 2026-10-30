@@ -1,5 +1,4 @@
 ---
-wsId: spednByFlexa
 title: SPEDN by Flexa
 date: 2025-11-26
 authors:
@@ -66,4 +65,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: busha
 title: 'Busha: Make your money better!'
 date: 2024-03-02
 authors:

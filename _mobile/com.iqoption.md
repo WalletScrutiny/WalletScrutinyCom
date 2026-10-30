@@ -1,5 +1,4 @@
 ---
-wsId: iqoption
 title: IQ Option – Trading Platform
 date: 2024-09-02
 authors:
@@ -60,4 +59,4 @@ This app **cannot send or receive Bitcoin**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

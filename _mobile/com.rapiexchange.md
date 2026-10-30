@@ -1,5 +1,4 @@
 ---
-wsId: rapixchange
 title: RapiXchangE
 date: 2023-04-29
 authors:
@@ -63,4 +62,4 @@ This is a **custodial** provider.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

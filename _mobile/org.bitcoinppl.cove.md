@@ -1,5 +1,4 @@
 ---
-wsId: coveBitcoinWallet
 title: Cove - Simple Bitcoin Wallet
 date: 2026-01-14
 authors:
@@ -36,4 +35,3 @@ iphone:
 
 ---
 
-{% include copyFromAndroid.html %}

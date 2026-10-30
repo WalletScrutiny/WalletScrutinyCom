@@ -1,5 +1,4 @@
 ---
-wsId: ROInvesting
 title: 'ROInvesting: Trading Forex, St'
 date: 2021-12-05
 authors:
@@ -62,4 +61,4 @@ This app **cannot send or receive bitcoins**.
 
 **Update 2021-11-26**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: bluewallet
 title: BlueWallet Bitcoin Wallet
 bitcoinOrgId: bluewallet
 date: 2023-12-30
@@ -96,7 +95,7 @@ An issue has been opened at [https://github.com/BlueWallet/BlueWallet/issues/640
 
 {% include featureEvidence.html feature="companion" source="[Website](https://bluewallet.io)" quote="Sign a transaction offline" %}
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="segwit" quote="SegWit-first. Replace-By-Fee support" source="GitHub README" %}
 

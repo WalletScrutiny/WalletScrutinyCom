@@ -1,5 +1,4 @@
 ---
-wsId: dyorEX
 title: DyorEX Exchange
 date: 2023-05-23
 authors:
@@ -62,4 +61,4 @@ With DyorEX, you can easily track and analyze Bitcoin and altcoins while trading
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

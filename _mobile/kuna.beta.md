@@ -1,5 +1,4 @@
 ---
-wsId: kunaio
 title: KUNA - buy & sell crypto, BTC
 date: 2025-04-22
 authors:
@@ -72,4 +71,4 @@ Tentatively, we are inclined to label this specific app or service as **custodia
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

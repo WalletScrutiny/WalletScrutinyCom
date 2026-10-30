@@ -1,5 +1,4 @@
 ---
-wsId: Coinsuper
 title: Coinsuper
 date: 2022-01-31
 authors:
@@ -59,4 +58,4 @@ We did not download the app anymore due to its self-description as a custodian s
 
 **Update 2022-01-17**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

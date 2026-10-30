@@ -1,5 +1,4 @@
 ---
-wsId: nash
 title: 'Nash: Trade & Invest in Crypto'
 date: 2024-07-15
 authors:

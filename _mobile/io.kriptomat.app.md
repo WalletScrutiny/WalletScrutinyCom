@@ -1,5 +1,4 @@
 ---
-wsId: kriptomat
 title: 'Kriptomat: Invest & Buy Crypto'
 date: 2021-09-23
 authors:
@@ -60,4 +59,4 @@ It is apparent that this is a **custodial** service and hence, **not verifiable*
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

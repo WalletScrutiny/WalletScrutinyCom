@@ -1,5 +1,4 @@
 ---
-wsId: Trustee
 title: Trustee | crypto & btc wallet
 date: 2026-03-23
 authors:

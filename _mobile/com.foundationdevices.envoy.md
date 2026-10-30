@@ -1,5 +1,4 @@
 ---
-wsId: envoyFoundation
 title: Envoy
 date: 2026-07-23
 authors:
@@ -97,4 +96,4 @@ An issue has been opened at [https://github.com/Foundation-Devices/envoy/issues/
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

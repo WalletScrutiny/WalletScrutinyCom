@@ -1,5 +1,4 @@
 ---
-wsId: quidaxLite
 title: Quidax - Buy Bitcoin & Crypto
 date: 2025-08-09
 authors:
@@ -63,4 +62,4 @@ This app is the successor to the:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

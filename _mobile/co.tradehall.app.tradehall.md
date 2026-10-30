@@ -1,5 +1,4 @@
 ---
-wsId: tradehallCFD
 title: Tradehall
 date: 2023-11-02
 authors:
@@ -58,4 +57,4 @@ Since the app allows users to trade in cryptocurrency CFDs, no 'real' cryptocurr
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

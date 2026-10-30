@@ -1,5 +1,4 @@
 ---
-wsId: bitginApp
 title: BITGIN
 date: 2024-10-28
 authors:
@@ -48,4 +47,4 @@ The description explicitly tells us that this is a custodial cryptocurrency exch
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

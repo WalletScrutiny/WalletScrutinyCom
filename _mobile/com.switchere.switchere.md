@@ -1,5 +1,4 @@
 ---
-wsId: switchere
 title: 'Switchere: Buy & Sell Crypto'
 date: 2025-08-04
 authors:
@@ -65,4 +64,4 @@ We verified that the app can receive and send BTC. We did not find an option to 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

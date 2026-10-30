@@ -1,5 +1,4 @@
 ---
-wsId: ZamWallet
 title: ZamWallet Crypto, DeFi, Invest
 date: 2025-02-26
 authors:
@@ -104,4 +103,4 @@ We could not find the source for the app as reported in [gitlab issue #367](http
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

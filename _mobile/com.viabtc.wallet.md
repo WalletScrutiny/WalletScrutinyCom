@@ -1,5 +1,4 @@
 ---
-wsId: ViaWallet
 title: CoinEx Wallet - Crypto & DeFi
 date: 2021-10-01
 authors:
@@ -78,7 +77,7 @@ verdict: **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Cross-chain swap · No need to transfer between wallet and exchange. · Using CoinEx Wallet to exchange cryptos conveniently." source="Store" %}
 

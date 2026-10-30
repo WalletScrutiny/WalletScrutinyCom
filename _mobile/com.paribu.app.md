@@ -1,5 +1,4 @@
 ---
-wsId: paribu
 title: Paribu | Bitcoin - Crypto
 date: 2023-12-16
 authors:
@@ -63,4 +62,4 @@ The use of cold-storage mechanisms despite the linguistic disclaimer that *"Pari
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

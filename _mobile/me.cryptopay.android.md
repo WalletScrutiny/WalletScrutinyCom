@@ -1,5 +1,4 @@
 ---
-wsId: cryptopay
 title: 'Cryptopay: Spend Crypto Daily'
 date: 2026-01-28
 website: https://cryptopay.me

@@ -1,5 +1,4 @@
 ---
-wsId: tooBitExchange
 title: 'Toobit: Buy BTC, ETH & Crypto'
 date: 2025-12-01
 authors:
@@ -59,7 +58,7 @@ This is a **custodial** platform.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Convert: Instantly swap your cryptoassets with zero fees." source="Store description" %}
 

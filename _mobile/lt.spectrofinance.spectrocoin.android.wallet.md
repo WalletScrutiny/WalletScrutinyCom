@@ -1,5 +1,4 @@
 ---
-wsId: SpectroCoin
 title: SpectroCoin - Buy Crypto
 date: 2020-10-12
 authors:

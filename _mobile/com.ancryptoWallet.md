@@ -1,5 +1,4 @@
 ---
-wsId: ancryptoWallet
 title: Gems Pocket
 date: 2023-07-01
 authors:
@@ -63,4 +62,4 @@ No significant change regarding source code availability is detected.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: revolutX
 title: 'Revolut X: Buy Bitcoin, Crypto'
 date: 2025-05-19
 authors:
@@ -64,4 +63,4 @@ Revolut X operates as a **custodial** platform. Users do not have direct access 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

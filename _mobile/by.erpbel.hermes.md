@@ -1,5 +1,4 @@
 ---
-wsId: bynexExchange
 title: 'BYNEX: Buy&Trade Сrypto, Fiat'
 date: 2023-08-09
 authors:
@@ -68,4 +67,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: Cryptinix
 title: 'Cryptinix: Crypto Trading'
 date: 2025-08-21
 authors:
@@ -62,4 +61,4 @@ Since this is an exchange, it did not provide backup mnemonics or seed words. Ex
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

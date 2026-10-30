@@ -46,7 +46,6 @@
           {%- assign mobile_icon_folder = 'android' -%}
           {%- if post.android.icon -%}{%- assign mobile_icon_folder = 'android' -%}{%- elsif post.iphone.icon -%}{%- assign mobile_icon_folder = 'iphone' -%}{%- endif -%}
           {
-            "wsId": "{{ post.wsId }}",
             "appId": "{{ mobile_slug }}",
             "storeAppId": "{{ post.android.appId | default: post.iphone.appId }}",
             "storePlatform": "{% if post.android.appId %}android{% else %}iphone{% endif %}",

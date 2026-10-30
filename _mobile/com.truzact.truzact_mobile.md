@@ -1,5 +1,4 @@
 ---
-wsId: truzactCrypto
 title: 'Truzact: Save & Invest Crypto'
 date: 2024-07-05
 authors:
@@ -63,4 +62,4 @@ The agreement explicitly assigns Truzact Technology Limited as a **"custodian wa
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

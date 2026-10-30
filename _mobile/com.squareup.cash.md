@@ -1,5 +1,4 @@
 ---
-wsId: CashApp
 title: Cash App
 date: 2020-08-06
 authors:

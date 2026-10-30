@@ -1,5 +1,4 @@
 ---
-wsId: kointra
 title: Kointra - Crypto Exchange
 date: 2023-10-06
 authors:
@@ -69,4 +68,4 @@ Without registering and testing the plaform itself, and only verifying informati
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: hkd
 title: HKD.com
 date: 2023-02-13
 authors:
@@ -72,4 +71,4 @@ As all mentions of "securing assets" states that HKD protects *the clients' asse
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

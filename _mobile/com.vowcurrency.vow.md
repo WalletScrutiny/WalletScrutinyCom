@@ -1,5 +1,4 @@
 ---
-wsId: vowCurrency
 title: Vow
 date: 2024-07-30
 authors:
@@ -64,4 +63,4 @@ The app's source code remains not available, with no signs of accessibility.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

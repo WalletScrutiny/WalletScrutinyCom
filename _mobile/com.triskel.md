@@ -1,5 +1,4 @@
 ---
-wsId: triskelWallet
 title: Triskel Wallet
 date: 2026-04-21
 authors:
@@ -51,4 +50,4 @@ Triskel Wallet is described as a multi-chain wallet for storing, buying, sending
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

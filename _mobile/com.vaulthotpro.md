@@ -1,5 +1,4 @@
 ---
-wsId: CoboVault
 title: Cobo Vault
 date: 2021-11-17
 authors:
@@ -76,4 +75,4 @@ This app is slated for verification.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

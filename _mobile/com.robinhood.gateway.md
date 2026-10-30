@@ -1,5 +1,4 @@
 ---
-wsId: robinhoodWalletSwapCrypto
 title: 'Robinhood Wallet: Swap Crypto'
 date: 2025-12-08
 authors:
@@ -64,7 +63,7 @@ Robinhood [**does not publish the source code**](https://github.com/search?q=com
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Swap Your Favorite Cryptocurrencies Manage and trade tens of thousands of popular cryptocurrencies like Ethereum (ETH), Solana (SOL), USDC, and more." source="Store description" %}
 

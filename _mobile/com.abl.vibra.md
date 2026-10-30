@@ -1,5 +1,4 @@
 ---
-wsId: vibra
 title: 'VIBRA Wallet: Buy BTC and ETH'
 date: 2023-09-04
 authors:
@@ -66,4 +65,4 @@ We believe this service is custodial.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

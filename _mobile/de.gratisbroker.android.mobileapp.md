@@ -1,5 +1,4 @@
 ---
-wsId: finanzenZero
 title: finanzen.net zero Aktien & ETF
 date: 2023-03-02
 authors:
@@ -79,4 +78,4 @@ First, there is a wallet provided by the service. Second, there is a custodial p
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

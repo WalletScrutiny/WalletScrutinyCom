@@ -1,5 +1,4 @@
 ---
-wsId: xGoWallet
 title: 'XGo: Buy, Swap & Store Crypto'
 date: 2024-02-05
 authors:
@@ -57,4 +56,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

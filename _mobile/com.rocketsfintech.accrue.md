@@ -1,5 +1,4 @@
 ---
-wsId: accrue
 title: 'Accrue: The cross-border app'
 date: 2023-04-29
 authors:
@@ -93,4 +92,4 @@ Although, we were not able to access all features of the app, based on the infor
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

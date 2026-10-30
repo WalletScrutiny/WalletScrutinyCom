@@ -1,5 +1,4 @@
 ---
-wsId: obrinvest
 title: 'OBRinvest:  Online Trading'
 date: 2024-08-15
 authors:
@@ -57,4 +56,4 @@ As is common with CFD trading platforms, this app can **neither send or receive 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

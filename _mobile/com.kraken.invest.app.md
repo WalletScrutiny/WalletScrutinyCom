@@ -1,5 +1,4 @@
 ---
-wsId: krakenInvest
 title: 'Kraken: Buy Crypto & Stocks'
 date: 2021-08-21
 authors:
@@ -62,7 +61,7 @@ On its [Security page](https://www.kraken.com/en-us/features/security):
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="OVER 300 CRYPTOCURRENCIES AVAILABLE We have one of the largest selections of assets to buy and sell, including: Bitcoin (BTC), Ethereum (ETH), Dogecoin (DOGE), Litecoin (LTC), Ripple (XRP), Bitcoin Cash (BCH), Monero (XMR), EOS, Cardano (ADA), TRON (TRX), and more." source="Store" %}
 

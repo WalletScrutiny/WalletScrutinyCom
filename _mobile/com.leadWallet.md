@@ -1,5 +1,4 @@
 ---
-wsId: LeadWallet
 title: 'Lead Wallet – Swap, Multisend '
 date: 2023-01-02
 authors:
@@ -68,4 +67,4 @@ The Github repository has been provided for this app. However, there is no appID
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

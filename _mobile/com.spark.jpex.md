@@ -1,5 +1,4 @@
 ---
-wsId: JPEX
 title: JPEX Exchange
 date: 2024-04-03
 authors:
@@ -70,4 +69,4 @@ Like most exchanges, JPEX is a **custodial** service. This makes the app **not v
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

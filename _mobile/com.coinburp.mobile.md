@@ -1,5 +1,4 @@
 ---
-wsId: CoinBurp
 title: CoinBurp - Buy and Sell Bitcoin. Crypto Wallet.
 date: 2022-04-07
 authors:

@@ -1,5 +1,4 @@
 ---
-wsId: Keystone
 title: Keystone Hardware Wallet
 date: 2025-03-29
 authors:
@@ -53,4 +52,4 @@ Formerly known as Cobo Vault, this is the companion app to the hardware wallet {
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

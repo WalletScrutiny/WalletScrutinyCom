@@ -1,5 +1,4 @@
 ---
-wsId: changeinvest
 title: 'Change: Invest & Trade'
 date: 2020-05-29
 authors:
@@ -68,4 +67,4 @@ which means it is a custodial service and thus **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

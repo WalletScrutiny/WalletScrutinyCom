@@ -1,5 +1,4 @@
 ---
-wsId: mayexTrading
 title: Trade Crypto.BinanceKucoinOkex
 date: 2024-07-05
 authors:
@@ -73,4 +72,4 @@ It does look a lot like Binance. The founders claim to be former Binance employe
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

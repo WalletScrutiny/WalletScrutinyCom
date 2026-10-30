@@ -1,5 +1,4 @@
 ---
-wsId: coinCatchExchange
 title: CoinCatch-Buy Bitcoin & Crypto
 date: 2026-03-11
 authors:
@@ -64,4 +63,4 @@ This explicitly tells us that this is a **custodial** service with a **non-verif
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: bitfortip
 title: Bitfortip | Now with Tezos sup
 date: 2023-08-25
 authors:
@@ -75,4 +74,4 @@ Users may send crypto to other users on Bitfortip's platform or withdraw to thei
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

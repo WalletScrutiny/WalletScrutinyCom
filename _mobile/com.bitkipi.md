@@ -1,5 +1,4 @@
 ---
-wsId: bitKipi
 title: Bitkipi
 date: 2023-12-19
 authors:
@@ -61,4 +60,4 @@ Bitkipi has been [acquired by Pocketbitcoin.com](https://pocketbitcoin.com/blog/
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

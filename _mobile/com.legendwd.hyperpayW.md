@@ -1,5 +1,4 @@
 ---
-wsId: hyperPay
 title: HPX :Wallet Crypto & Card
 date: 2023-05-30
 authors:
@@ -94,4 +93,4 @@ We take this as a confirmation that the app is obfuscated and thus file it as
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

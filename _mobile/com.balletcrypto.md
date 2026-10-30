@@ -1,5 +1,4 @@
 ---
-wsId: balletcrypto
 title: Ballet Crypto
 date: 2021-03-11
 website: https://www.ballet.com/

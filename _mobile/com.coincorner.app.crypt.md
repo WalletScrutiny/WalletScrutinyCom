@@ -1,5 +1,4 @@
 ---
-wsId: coincorner
 title: CoinCorner
 date: 2024-10-07
 authors:

@@ -1,5 +1,4 @@
 ---
-wsId: coinsDoCoinWallet
 title: 'CoinWallet: BTC USDT Wallet'
 date: 2026-07-23
 authors:
@@ -71,4 +70,4 @@ Nothing has changed in this app's repository. It is still **not source-available
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: MuchBetter
 title: MuchBetter
 date: 2021-08-27
 authors:

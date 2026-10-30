@@ -1,5 +1,4 @@
 ---
-wsId: Coinmotion
 title: 'Coinmotion: Buy Bitcoin Easily'
 date: 2021-10-19
 authors:
@@ -75,4 +74,4 @@ This is a custodial exchange and therefore, it is **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

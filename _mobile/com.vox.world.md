@@ -1,5 +1,4 @@
 ---
-wsId: vooxExchange
 title: 'x.me Exchange: Buy BTC&Crypto'
 date: 2026-01-26
 authors:
@@ -54,4 +53,4 @@ This is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

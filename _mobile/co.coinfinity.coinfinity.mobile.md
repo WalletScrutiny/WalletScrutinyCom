@@ -1,5 +1,4 @@
 ---
-wsId: coinfinity
 title: Coinfinity - Buy Bitcoin
 date: 2025-11-11
 authors:
@@ -62,6 +61,6 @@ This app is **not source available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Experience the future of buying Bitcoin with the Lightning Network. With us, you can purchase BTC via Lightning, enabling lightning-fast transactions with minimal fees." source="Store description" %}

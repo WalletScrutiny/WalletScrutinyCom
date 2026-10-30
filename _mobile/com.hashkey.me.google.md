@@ -1,5 +1,4 @@
 ---
-wsId: hashKeyMe
 title: HashKey Me - Your Web3 Wallet
 date: 2024-04-03
 authors:
@@ -72,4 +71,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

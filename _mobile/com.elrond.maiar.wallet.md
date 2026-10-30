@@ -1,5 +1,4 @@
 ---
-wsId: maiarwallet
 title: 'xPortal: Crypto & DeFi Wallet'
 date: 2023-01-30
 authors:
@@ -78,4 +77,4 @@ As there's no accessible source code, this is **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

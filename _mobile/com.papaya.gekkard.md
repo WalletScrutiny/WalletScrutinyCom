@@ -1,5 +1,4 @@
 ---
-wsId: Gekkard
 title: 'Gekkard: Banking Alternative'
 date: 2025-10-10
 authors:
@@ -79,4 +78,4 @@ We conclude that this is a **custodial** app and therefore **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

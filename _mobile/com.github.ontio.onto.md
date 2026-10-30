@@ -1,5 +1,4 @@
 ---
-wsId: ONTO
 title: ONTO Cross-chain Crypto Wallet
 date: 2021-09-15
 authors:
@@ -70,7 +69,7 @@ In the absence of a scrutinizable source code, we would tentatively have to labe
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Native cross-chain bridge & multi-chain exchange Multi-chain integrated swapping with low fees and high efficiency" source="Website" %}
 

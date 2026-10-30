@@ -1,5 +1,4 @@
 ---
-wsId: CoinFlex
 title: CoinFLEX
 date: 2021-11-22
 authors:
@@ -80,4 +79,4 @@ As a cryptocurrency derivatives exchange that holds 99% of funds in cold storage
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

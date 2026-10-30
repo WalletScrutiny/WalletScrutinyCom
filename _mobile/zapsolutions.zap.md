@@ -1,5 +1,4 @@
 ---
-wsId: zapwallet
 title: 'Zap: Bitcoin Lightning Wallet'
 date: 2022-04-25
 authors:

@@ -1,5 +1,4 @@
 ---
-wsId: bunqApp
 title: bunq
 date: 2025-08-28
 authors:
@@ -71,4 +70,4 @@ bunq cannot function as a Bitcoin wallet because it explicitly prohibits externa
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

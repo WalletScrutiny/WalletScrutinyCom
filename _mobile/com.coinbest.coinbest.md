@@ -1,5 +1,4 @@
 ---
-wsId: coinbest
 title: 暗号資産取引ならOSL Japan
 date: 2025-02-24
 authors:
@@ -80,4 +79,4 @@ This tells us that the service is a **custodial** service. Meanwhile, the 403 er
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

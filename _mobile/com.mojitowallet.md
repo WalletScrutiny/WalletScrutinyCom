@@ -1,5 +1,4 @@
 ---
-wsId: mojitoWallet
 title: Mojito wallet
 date: 2025-12-15
 authors:
@@ -123,4 +122,4 @@ An issue has been opened at [https://github.com/mintlayer/mojito_mobile_wallet/i
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

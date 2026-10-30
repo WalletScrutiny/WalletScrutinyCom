@@ -1,5 +1,4 @@
 ---
-wsId: guarda
 title: 'Guarda: Crypto Bitcoin Wallet'
 date: 2021-05-20
 authors:

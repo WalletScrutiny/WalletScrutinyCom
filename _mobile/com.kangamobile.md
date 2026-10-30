@@ -1,5 +1,4 @@
 ---
-wsId: KangaWallet
 title: Kanga Wallet
 date: 2022-07-20
 authors:
@@ -74,4 +73,4 @@ This is a **custodial** offering, and as such it is **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

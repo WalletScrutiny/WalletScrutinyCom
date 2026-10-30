@@ -1,5 +1,4 @@
 ---
-wsId: faswet
 title: Faswet
 date: 2024-10-28
 authors:
@@ -90,4 +89,4 @@ The Faswet terms and conditions is bundled with several other services and thus,
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

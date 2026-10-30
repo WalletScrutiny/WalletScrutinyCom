@@ -1,5 +1,4 @@
 ---
-wsId: ZaifExchange
 title: Zaif‐ビットコイン取引・購入なら暗号資産交換所Zaif
 date: 2023-12-19
 authors:
@@ -84,4 +83,4 @@ All indications point to a government regulated and centralized cryptocurrency e
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

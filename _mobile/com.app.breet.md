@@ -1,5 +1,4 @@
 ---
-wsId: breetBitcoin
 title: Breet - Buy, Swap, Sell Crypto
 date: 2023-07-19
 authors:
@@ -81,4 +80,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

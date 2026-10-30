@@ -1,5 +1,4 @@
 ---
-wsId: CoinPayments
 title: CoinPayments - Crypto Wallet
 date: 2025-02-28
 authors:

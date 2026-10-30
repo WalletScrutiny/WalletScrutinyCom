@@ -1,5 +1,4 @@
 ---
-wsId: tetherWallet
 title: 'Tether Wallet: USDT & Bitcoin'
 date: 2026-04-20
 authors:
@@ -68,4 +67,4 @@ The underlying WDK framework is open source, but the **application code for `io.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

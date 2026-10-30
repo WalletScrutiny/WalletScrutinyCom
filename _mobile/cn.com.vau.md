@@ -1,5 +1,4 @@
 ---
-wsId: vantageFX
 title: Vantage:All-In-One Trading App
 date: 2021-11-01
 authors:
@@ -57,4 +56,4 @@ CFD trading entails that users do not actually own the assets and as a result, *
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

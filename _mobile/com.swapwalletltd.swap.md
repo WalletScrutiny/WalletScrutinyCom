@@ -1,5 +1,4 @@
 ---
-wsId: SwapWallet
 title: Swap Wallet - BTC, Bitcoin wallet
 date: 2020-12-28
 website: http://swapwallet.com#deadLink

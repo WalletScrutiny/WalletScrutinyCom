@@ -1,5 +1,4 @@
 ---
-wsId: paycool
 title: Pay.cool
 date: 2024-07-05
 authors:
@@ -47,4 +46,4 @@ Sounds **custodial.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

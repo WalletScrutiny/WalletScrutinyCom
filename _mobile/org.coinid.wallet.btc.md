@@ -1,5 +1,4 @@
 ---
-wsId: COINiDwallet
 title: Bitcoin Wallet for COINiD
 date: 2024-07-05
 authors:
@@ -142,6 +141,6 @@ An issue has been opened at [https://github.com/COINiD/COINiDWallet/issues/24](h
 
 {% include featureEvidence.html feature="companion" source="[Website](https://coinid.org)" quote="COINiD Vault Holds your private keys away from your COINiD Wallet and is used to sign transactions." %}
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 An issue has been opened at [https://github.com/COINiD/COINiDWallet/issues/24](https://github.com/COINiD/COINiDWallet/issues/24)

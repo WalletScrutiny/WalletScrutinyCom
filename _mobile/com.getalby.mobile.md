@@ -1,5 +1,4 @@
 ---
-wsId: albyGo
 title: Alby Go
 date: 2025-09-09
 authors:
@@ -72,7 +71,7 @@ The verdict of **sourceavailable** applies because Alby Go provides genuine wall
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Instant, low-cost, global payments – sent directly from your phone in a self-custodial way." source="Store" %}
 

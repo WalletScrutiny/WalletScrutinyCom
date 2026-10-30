@@ -1,5 +1,4 @@
 ---
-wsId: PayizaDlt
 title: Payiza
 date: 2022-06-02
 authors:
@@ -88,4 +87,4 @@ With little information on this app and an inability to register, we classify th
 **Update 2022-06-02**: This app is not available anymore.
 
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

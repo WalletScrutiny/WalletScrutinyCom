@@ -1,5 +1,4 @@
 ---
-wsId: MandalaExchange
 title: Mandala Exchange
 date: 2023-05-17
 authors:
@@ -66,4 +65,4 @@ This exchange is a **custodial** service and its app **cannot be verified.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

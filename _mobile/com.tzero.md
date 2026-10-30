@@ -1,5 +1,4 @@
 ---
-wsId: tzerocrypto
 title: tZERO Crypto - Buy, Sell, Grow
 date: 2023-04-16
 authors:
@@ -59,4 +58,4 @@ The rationale for this "passing around of custody" has to do more with the legal
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

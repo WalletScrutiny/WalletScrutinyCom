@@ -1,5 +1,4 @@
 ---
-wsId: Defiant
 title: Defiant
 date: 2024-07-16
 authors:
@@ -68,4 +67,4 @@ We have to conclude that this is not an open source project. If the source code 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

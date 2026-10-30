@@ -1,5 +1,4 @@
 ---
-wsId: ELLIPAL
 title: 'ELLIPAL: Crypto Wallet'
 date: 2021-12-03
 authors:
@@ -78,7 +77,7 @@ we assume the app is closed source and thus **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="You can send, receive, swap, buy, sell, and stake various crypto assets all in one place" source="Store description" %}
 

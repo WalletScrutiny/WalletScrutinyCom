@@ -1,5 +1,4 @@
 ---
-wsId: bananatok
 title: Bananatok - Web 3 Messenger
 date: 2022-06-27
 authors:
@@ -85,4 +84,4 @@ We classify this wallet as **custodial.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

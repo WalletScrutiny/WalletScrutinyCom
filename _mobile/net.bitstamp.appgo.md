@@ -1,5 +1,4 @@
 ---
-wsId: bitstampCrypto
 title: 'Bitstamp: Buy Crypto & Bitcoin'
 date: 2024-08-31
 authors:
@@ -76,4 +75,4 @@ The description explicitly states that this app is **custodial** and therefore *
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: mexc
 title: 'MEXC: Buy Bitcoin & Crypto'
 date: 2026-09-04
 authors:

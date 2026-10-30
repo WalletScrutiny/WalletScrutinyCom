@@ -1,5 +1,4 @@
 ---
-wsId: kucoinExchange
 title: 'KuCoin: Buy Bitcoin & Crypto'
 date: 2021-02-09
 authors:

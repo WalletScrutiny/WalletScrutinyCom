@@ -1,5 +1,4 @@
 ---
-wsId: mobeeBitcoinID
 title: 'Mobee: Trade Bitcoin & Crypto'
 date: 2025-11-19
 authors:
@@ -78,7 +77,7 @@ This is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Keamanan biometrik Akses akun terjaga dengan scan wajah atau sidik jari." source="Website" %}
 

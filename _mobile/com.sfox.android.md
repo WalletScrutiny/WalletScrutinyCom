@@ -1,5 +1,4 @@
 ---
-wsId: sFox
 title: 'sFOX: Buy BTC, ETH, DOGE'
 date: 2025-02-28
 authors:
@@ -65,4 +64,4 @@ All signs, including cold-storage security, no hot wallets or external ledgers, 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

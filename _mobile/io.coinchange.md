@@ -1,5 +1,4 @@
 ---
-wsId: coinchange
 title: Coinchange
 date: 2025-04-09
 authors:
@@ -58,4 +57,4 @@ This is a **custodial provider**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

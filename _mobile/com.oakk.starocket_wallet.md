@@ -1,5 +1,4 @@
 ---
-wsId: trubit
 title: 'TruBit: Crypto Wallet'
 date: 2023-04-29
 authors:
@@ -67,7 +66,7 @@ As a buy/sell exchange service, {{ page.title }}'s ability to freeze and close t
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="buyWithCC" quote="Buy Bitcoin, Ethereum and more cryptos easily, safely and instantly, with bank transfer, your credit or debit cards." source="Store" %}
 

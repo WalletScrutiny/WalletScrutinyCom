@@ -1,5 +1,4 @@
 ---
-wsId: fairdesk
 title: Fairdesk Go:Trade Bitcoin, ETH
 date: 2024-12-23
 authors:
@@ -57,4 +56,4 @@ As an exchange that hosts users funds in cold wallets, this is a good indicator 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

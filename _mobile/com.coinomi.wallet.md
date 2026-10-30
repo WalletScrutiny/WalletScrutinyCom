@@ -1,5 +1,4 @@
 ---
-wsId: coinomi
 title: 'Coinomi: Crypto Bitcoin Wallet'
 date: 2024-09-14
 authors:

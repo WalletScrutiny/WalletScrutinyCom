@@ -1,5 +1,4 @@
 ---
-wsId: ironwallet
 title: 'IronWallet: Crypto Wallet'
 date: 2024-09-02
 authors:
@@ -68,7 +67,7 @@ An issue has been opened at [https://github.com/Ironwallet/IronWallet/issues/1](
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Secure your wallet with a PIN or biometric login." source="Store description" %}
 

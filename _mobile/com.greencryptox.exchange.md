@@ -1,5 +1,4 @@
 ---
-wsId: greenCryptoX
 title: 'GreenCryptoX: Buy BTC & Crypto'
 date: 2025-11-18
 authors:
@@ -58,4 +57,4 @@ The verdict is **custodial**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: BityPreco
 title: Bitypreço
 date: 2024-03-02
 authors:
@@ -92,4 +91,4 @@ The platform provides the wallets for the user which is hosted on their service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

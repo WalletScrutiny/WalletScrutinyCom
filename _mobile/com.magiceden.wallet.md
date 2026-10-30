@@ -1,5 +1,4 @@
 ---
-wsId: magicEdenWallet
 title: Magic Eden Wallet
 date: 2025-12-05
 authors:
@@ -78,7 +77,7 @@ This app is **not source available.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="secEl" quote="We use advanced Secure Element technology and encryption to keep your keys and digital assets safe." source="Store" %}
 

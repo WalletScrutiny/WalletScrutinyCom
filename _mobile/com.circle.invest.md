@@ -1,5 +1,4 @@
 ---
-wsId: circleInvest
 title: 'Circle Invest: Buy & sell Bitc'
 date: 2024-09-16
 authors:
@@ -61,4 +60,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

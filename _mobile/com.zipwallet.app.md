@@ -1,5 +1,4 @@
 ---
-wsId: zipwalletpay
 title: Zipwallet-Buy Btc with Paypal
 date: 2023-01-02
 authors:
@@ -65,4 +64,4 @@ As there is a capability to send and receive Bitcoins with an entity that has th
 
 **Update 2021-09-28**: This app is not on the Store anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

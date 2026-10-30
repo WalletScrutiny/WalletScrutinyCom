@@ -1,5 +1,4 @@
 ---
-wsId: PolisPay
 title: PolisPay - Cryptocurrency wallet
 date: 2022-02-10
 authors:
@@ -57,4 +56,4 @@ This app is **not verifiable**.
 
 **Update 2022-05-06**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

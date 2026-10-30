@@ -1,5 +1,4 @@
 ---
-wsId: bither
 title: Bither - Bitcoin Wallet
 bitcoinOrgId: bither
 date: 2025-06-11

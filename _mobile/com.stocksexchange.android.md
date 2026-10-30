@@ -1,5 +1,4 @@
 ---
-wsId: stex
 title: Stex.com - Crypto exchange
 date: 2023-06-21
 authors:
@@ -48,4 +47,4 @@ This app being **custodial,** it's also **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

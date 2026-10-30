@@ -1,5 +1,4 @@
 ---
-wsId: deepcoin
 title: 'Deepcoin: Buy Bitcoin & Crypto'
 date: 2023-02-10
 authors:
@@ -55,4 +54,4 @@ This is a **custodial service**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

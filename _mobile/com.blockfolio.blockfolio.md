@@ -1,5 +1,4 @@
 ---
-wsId: blockfolio
 title: FTX - Buy Crypto, Stocks, ETFs
 date: 2023-01-02
 authors:

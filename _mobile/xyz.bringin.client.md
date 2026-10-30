@@ -1,5 +1,4 @@
 ---
-wsId: bringinApp
 title: 'Bringin: Buy & spend Bitcoin'
 date: 2026-07-07
 authors:

@@ -1,5 +1,4 @@
 ---
-wsId: everspace
 title: Oberton Wallet
 date: 2024-09-06
 authors:
@@ -62,7 +61,7 @@ The app's **source code is not publicly available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Enable Touch ID or Face ID to access the crypto storage without having to type the password every time." source="Store" %}
 

@@ -1,5 +1,4 @@
 ---
-wsId: uxuy
 title: 'UXUY: Memecoin for Trading'
 date: 2025-06-18
 authors:
@@ -105,4 +104,4 @@ For this reason, we have to err on the side of caution and mark this as a **cust
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

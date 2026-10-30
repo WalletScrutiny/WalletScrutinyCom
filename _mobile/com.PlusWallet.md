@@ -1,5 +1,4 @@
 ---
-wsId: coldWalletSeekJazz
 title: 'Cold Wallet: Crypto Wallet App'
 date: 2025-11-12
 authors:
@@ -54,4 +53,4 @@ This app is **not source-available.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

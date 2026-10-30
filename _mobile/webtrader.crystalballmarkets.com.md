@@ -1,5 +1,4 @@
 ---
-wsId: crystalBallMarkets
 title: Crystal Ball Markets MT7
 date: 2024-08-28
 authors:
@@ -74,4 +73,4 @@ This confirms Crystal Ball Markets is a derivatives trading platform rather than
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

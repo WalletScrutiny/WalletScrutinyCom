@@ -1,5 +1,4 @@
 ---
-wsId: phantomlabs
 title: 'Phantom: Trading Wallet'
 date: 2023-12-21
 authors:
@@ -68,7 +67,7 @@ As of this review, Phantom has a GitHub profile but no source code. Phantom wall
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Stay secure with biometric authentication" source="Store description" %}
 

@@ -1,5 +1,4 @@
 ---
-wsId: kryptogo
 title: KryptoGO - Web3 Social Payment
 date: 2023-04-28
 authors:
@@ -76,4 +75,4 @@ We messaged them on twitter but for the meanwhile, we'll tag this as having **no
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

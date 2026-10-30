@@ -1,5 +1,4 @@
 ---
-wsId: copalyBitcoin
 title: 'Copaly: P2P .Bitcoin & Utility'
 date: 2026-05-19
 authors:
@@ -70,4 +69,4 @@ As a result, Copaly is classified as **custodial**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

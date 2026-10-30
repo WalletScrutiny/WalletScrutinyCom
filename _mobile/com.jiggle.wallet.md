@@ -1,5 +1,4 @@
 ---
-wsId: jiggleCrypto
 title: 'Jiggle: Crypto Wallet'
 date: 2026-07-21
 authors:

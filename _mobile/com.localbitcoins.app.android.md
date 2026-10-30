@@ -1,5 +1,4 @@
 ---
-wsId: LocalBitcoins
 title: LocalBitcoins
 date: 2023-04-16
 authors:
@@ -144,4 +143,4 @@ This makes the service **custodial** and the app **not verifiable**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

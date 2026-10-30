@@ -1,5 +1,4 @@
 ---
-wsId: copterExchange
 title: Copter
 date: 2024-03-02
 authors:
@@ -64,4 +63,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

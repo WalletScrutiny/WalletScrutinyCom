@@ -1,5 +1,4 @@
 ---
-wsId: guapBitcoinWallet
 title: Guap - Stablecoin Wallet
 date: 2026-05-02
 authors:
@@ -63,4 +62,4 @@ No public source repository was found for the Android app via Google Play, the G
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

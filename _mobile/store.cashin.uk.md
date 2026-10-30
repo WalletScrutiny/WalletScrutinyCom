@@ -1,5 +1,4 @@
 ---
-wsId: BitcoinPoint
 title: BitcoinPoint
 date: 2021-11-17
 authors:
@@ -90,7 +89,7 @@ The wallets are purportedly kept offline in cold storage and there is no evidenc
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Receive Bitcoin, including Lightning!" source="Store description" %}
 

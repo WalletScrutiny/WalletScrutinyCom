@@ -1,5 +1,4 @@
 ---
-wsId: vccExchange
 title: VCC Exchange
 date: 2023-01-02
 authors:
@@ -57,4 +56,4 @@ We did find a third-party [article](https://azcoinnews.com/why-did-vcc-exchange-
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: goabra
 title: 'Abra: Buy & Trade BTC & Crypto'
 date: 2026-01-08
 authors:

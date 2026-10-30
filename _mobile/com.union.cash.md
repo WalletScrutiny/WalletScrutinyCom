@@ -1,5 +1,4 @@
 ---
-wsId: unionCash
 title: Union.cash
 date: 2023-11-17
 authors:
@@ -76,4 +75,4 @@ We cannot find in any of its documentation information about how the private key
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

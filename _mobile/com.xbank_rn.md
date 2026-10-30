@@ -1,5 +1,4 @@
 ---
-wsId: xBankPocket
 title: xBank
 date: 2024-09-25
 authors:
@@ -58,4 +57,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

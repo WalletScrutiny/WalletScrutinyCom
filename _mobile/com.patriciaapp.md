@@ -1,5 +1,4 @@
 ---
-wsId: patriciaApp
 title: Patricia
 date: 2023-09-28
 authors:
@@ -82,4 +81,4 @@ So this is **custodial** and **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

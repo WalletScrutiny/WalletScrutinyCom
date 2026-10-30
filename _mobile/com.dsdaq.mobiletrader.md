@@ -1,5 +1,4 @@
 ---
-wsId: Dsdaq
 title: Dsdaq - Trade stock, gold, oil
 date: 2023-08-25
 authors:
@@ -64,4 +63,4 @@ Thus we can assume that this trading app is **custodial** and therefore **not ve
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: GWalletApp
 title: GWallet
 date: 2025-02-26
 authors:
@@ -64,4 +63,4 @@ This is a self-custodial wallet that supports the sending and receiving of BTC. 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

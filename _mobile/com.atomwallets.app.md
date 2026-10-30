@@ -1,5 +1,4 @@
 ---
-wsId: atomCryptoBitcoinWallet
 title: 'Atom: Crypto & USDT Wallet'
 date: 2026-03-05
 authors:
@@ -49,4 +48,4 @@ We tested the app and successfully exported the seed phrases to an Electrum app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

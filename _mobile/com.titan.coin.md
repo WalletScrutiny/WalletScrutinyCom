@@ -1,5 +1,4 @@
 ---
-wsId: TitanCoin
 title: TitanCoin (TTN)
 date: 2023-08-04
 authors:
@@ -66,4 +65,4 @@ Absent the ability to retrieve the backup seed phrases, together with an ability
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

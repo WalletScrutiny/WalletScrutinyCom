@@ -1,5 +1,4 @@
 ---
-wsId: CoinCircle
 title: CoinCircle
 date: 2024-01-16
 authors:
@@ -74,4 +73,4 @@ While this claims to be a **non-custodial** wallet, we have no source to verify 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

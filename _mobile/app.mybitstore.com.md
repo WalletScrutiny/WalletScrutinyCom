@@ -1,5 +1,4 @@
 ---
-wsId: mybitstore
 title: 'Mybitstore: Bitcoin & Crypto'
 date: 2022-04-11
 authors:
@@ -68,4 +67,4 @@ We believe this service is a **custodial** service since there was no provision 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

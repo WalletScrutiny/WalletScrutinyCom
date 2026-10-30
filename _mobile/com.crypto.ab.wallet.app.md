@@ -1,5 +1,4 @@
 ---
-wsId: aliceBobWallet
 title: 'Crypto Wallet: Buy Bitcoin BTC'
 date: 2024-09-04
 authors:
@@ -69,7 +68,7 @@ This app's **source is not available**, and thus the app is **nonverifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="hd" quote="We implement advanced cryptographic methods including BIP32, BIP39, and BIP44 to protect your digital assets like Bitcoin (BTC) and Ethereum (ETH) from security risks." source="Store description" %}
 

@@ -1,5 +1,4 @@
 ---
-wsId: BlackFort
 title: BlackFort Wallet & Exchange
 date: 2023-08-16
 authors:
@@ -63,4 +62,4 @@ We conclude that this app's source code is not publicly available, therefore it 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: bitcoinkeeper
 title: Bitcoin Keeper
 date: 2025-02-12
 authors:
@@ -88,4 +87,4 @@ An issue has been opened at [https://github.com/bithyve/bitcoin-keeper/issues/60
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

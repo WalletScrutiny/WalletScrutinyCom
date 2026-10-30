@@ -1,5 +1,4 @@
 ---
-wsId: opzCryptoBTC
 title: 'OPZ: Crypto & BTC Wallet'
 date: 2026-05-05
 authors:
@@ -57,6 +56,6 @@ Our [tests](https://x.com/BitcoinWalletz/status/1991488024673427775) show that t
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="nfc" quote="OPZ NFC Technology: Connect NFC-enabled devices with Web3, allowing users to interact with the decentralized applications (dApps) with just a tap." source="Store" %}

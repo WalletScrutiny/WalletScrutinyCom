@@ -1,5 +1,4 @@
 ---
-wsId: satoshiBitcoinLightning
 title: Satoshi Bitcoin Lightning
 date: 2023-12-02
 authors:
@@ -102,4 +101,4 @@ Apple's store has four reviews for this app, three of which are claiming that it
        **Developer Response,** <br>
        definitely not
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

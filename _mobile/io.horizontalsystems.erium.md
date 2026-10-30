@@ -1,5 +1,4 @@
 ---
-wsId: eriumWallet
 title: Erium - Crypto Exchange App
 date: 2024-02-05
 authors:
@@ -61,4 +60,4 @@ no unauthorized access to your cryptocurrencies.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

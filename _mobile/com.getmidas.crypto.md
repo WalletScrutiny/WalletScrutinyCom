@@ -1,5 +1,4 @@
 ---
-wsId: midasKripto
 title: 'Midas Kripto: Bitcoin Al Sat'
 date: 2025-11-18
 authors:
@@ -52,4 +51,4 @@ As the platform controls the private keys to the wallets holding user funds, use
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

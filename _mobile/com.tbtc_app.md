@@ -1,5 +1,4 @@
 ---
-wsId: theBitcoinCompany
 title: The Bitcoin Company Rewards
 date: 2024-07-17
 authors:
@@ -75,4 +74,4 @@ Thus, we can say that this app is a **custodial** provider.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

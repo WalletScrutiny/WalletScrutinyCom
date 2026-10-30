@@ -1,5 +1,4 @@
 ---
-wsId: suniwallet
 title: Suni Wallet
 date: 2025-11-05
 authors:
@@ -60,4 +59,4 @@ At the moment, we have to conclude that this app is custodial and **not verifiab
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

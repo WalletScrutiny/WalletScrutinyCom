@@ -1,5 +1,4 @@
 ---
-wsId: counos
 title: Counos Bitcoin Wallet
 date: 2024-07-05
 authors:

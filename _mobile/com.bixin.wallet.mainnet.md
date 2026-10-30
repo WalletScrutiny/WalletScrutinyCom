@@ -1,5 +1,4 @@
 ---
-wsId: OneKey
 title: OneKey - Safe Crypto Wallet
 date: 2022-03-07
 authors:
@@ -84,4 +83,4 @@ An issue has been opened at [https://github.com/OneKeyHQ/android_app/issues/1#de
 
 **Update 2022-02-26**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

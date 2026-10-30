@@ -1,5 +1,4 @@
 ---
-wsId: igTradingPlatform
 title: IG Trading Platform
 date: 2022-06-23
 authors:
@@ -53,4 +52,4 @@ Given the fact this app advertises itself as a *CFD trading platform*, we can co
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

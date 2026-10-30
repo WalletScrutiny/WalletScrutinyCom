@@ -1,5 +1,4 @@
 ---
-wsId: streakkWallet
 title: Earn World
 date: 2024-10-08
 authors:
@@ -65,4 +64,4 @@ Nothing significant regarding source-availability has been seen.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

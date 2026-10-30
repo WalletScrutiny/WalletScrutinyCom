@@ -1,5 +1,4 @@
 ---
-wsId: paypal
 title: PayPal - Pay, Send, Save
 date: 2021-08-22
 authors:

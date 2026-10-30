@@ -1,5 +1,4 @@
 ---
-wsId: scallopApp
 title: E Money Network
 date: 2025-01-27
 authors:
@@ -110,4 +109,4 @@ The provider currently has these products
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

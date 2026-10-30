@@ -1,5 +1,4 @@
 ---
-wsId: Nuri
 title: 'Bitwala: Crypto Wallet & Card'
 date: 2024-07-17
 authors:
@@ -103,4 +102,4 @@ a proof of address document (POA), in order for the account to be opened success
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

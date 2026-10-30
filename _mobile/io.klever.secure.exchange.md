@@ -1,5 +1,4 @@
 ---
-wsId: kleverexchange
 title: Bitcoin.me
 date: 2024-02-05
 authors:
@@ -81,4 +80,4 @@ Our verdict for the Klever Exchange is **custodial** and therefore **not verifia
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

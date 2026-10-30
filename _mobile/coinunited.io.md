@@ -1,5 +1,4 @@
 ---
-wsId: CoinUnited
 title: 'CoinUnited: Trade BTC & Stocks'
 date: 2025-03-19
 authors:
@@ -77,4 +76,4 @@ We were not able to find any references to the private key when we searched on t
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

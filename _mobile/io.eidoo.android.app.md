@@ -1,5 +1,4 @@
 ---
-wsId: eidooApp
 title: Eidoo
 date: 2024-04-26
 authors:
@@ -76,4 +75,4 @@ Eidoo's homepage is currently inaccessible because of an SSL misconfiguration. B
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

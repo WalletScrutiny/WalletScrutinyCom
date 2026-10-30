@@ -1,5 +1,4 @@
 ---
-wsId: swipestoxNaga
 title: 'NAGA: Social Trading Platform'
 date: 2021-10-10
 authors:
@@ -71,4 +70,4 @@ Due to the use of CFDs, users **cannot really send or receive** on this app as t
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: fatBTC
 title: FatBTC
 date: 2024-02-05
 authors:
@@ -65,4 +64,4 @@ Due to the information we have collected thus far, our verdict for this app is *
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

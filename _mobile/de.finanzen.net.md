@@ -1,5 +1,4 @@
 ---
-wsId: börseFinanzen
 title: Börse & Aktien - finanzen.net
 date: 2022-06-23
 authors:
@@ -58,4 +57,4 @@ As this is a trading platform, and as there is no indication otherwise, it is mo
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: FluxPay
 title: Flux
 date: 2023-12-19
 authors:
@@ -72,4 +71,4 @@ We have not found any reference to private keys or seed phrases on Flux's websit
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

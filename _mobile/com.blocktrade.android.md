@@ -1,5 +1,4 @@
 ---
-wsId: BlockTrade
 title: 'Blocktrade: Invest in Crypto'
 date: 2025-07-03
 authors:
@@ -77,4 +76,4 @@ KYC, AML statutes, plus an extensive questionnaire and the outright detailing of
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

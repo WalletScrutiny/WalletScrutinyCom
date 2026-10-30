@@ -1,5 +1,4 @@
 ---
-wsId: bloxCrypto
 title: BLOX Crypto & Bitcoin Trading
 date: 2023-07-20
 authors:
@@ -62,4 +61,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

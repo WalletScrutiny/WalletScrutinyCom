@@ -1,5 +1,4 @@
 ---
-wsId: lykkex
 title: 'Lykke: Buy. Sell. Invest.'
 date: 2025-03-11
 authors:

@@ -1,5 +1,4 @@
 ---
-wsId: cryptocomexchange
 title: Crypto.com Exchange
 date: 2021-10-24
 authors:
@@ -78,4 +77,4 @@ their website:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

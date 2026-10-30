@@ -1,5 +1,4 @@
 ---
-wsId: simpleCrypto
 title: 'Simple:  Сrypto BTC, USDC'
 date: 2023-06-13
 authors:
@@ -63,4 +62,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

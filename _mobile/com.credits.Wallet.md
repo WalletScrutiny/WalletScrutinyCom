@@ -1,5 +1,4 @@
 ---
-wsId: creditsCrypto
 title: Credits.com. Buy and Sell BTC.
 date: 2023-07-02
 authors:
@@ -72,4 +71,4 @@ All evidences point to a **custodial** provider.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

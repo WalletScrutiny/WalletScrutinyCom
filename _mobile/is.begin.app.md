@@ -1,5 +1,4 @@
 ---
-wsId: beginApp
 title: 'Begin: Bitcoin Cardano Solana'
 date: 2025-04-22
 authors:
@@ -58,7 +57,7 @@ The app has its source partially available on Github, with only the SDK availabl
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="foss" quote="Is the wallet open-source? Yes — the entire core of Begin is open-source. Developers and users can audit the code anytime." source="Website" %}
 

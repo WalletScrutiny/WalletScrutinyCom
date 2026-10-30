@@ -1,5 +1,4 @@
 ---
-wsId: maxSwapApp
 title: 'MaxSwap: Crypto Bitcoin Wallet'
 date: 2025-08-29
 authors:
@@ -73,4 +72,4 @@ The platform combines wallet functionality with trading and virtual card service
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

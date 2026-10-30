@@ -1,5 +1,4 @@
 ---
-wsId: yuh
 title: Yuh - Your app. Your money.
 date: 2023-03-02
 authors:
@@ -147,4 +146,4 @@ Translated from German:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: bitStack
 title: Bitstack - Buy & Sell Bitcoin
 date: 2025-11-13
 authors:
@@ -53,4 +52,4 @@ This is a [**custodial**](https://bitstack-app.com/en/terms-conditions/condition
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

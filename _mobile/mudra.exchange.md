@@ -1,5 +1,4 @@
 ---
-wsId: mudraExchange
 title: 'Mudra Exchange: Buy BTC, ETH'
 date: 2025-09-12
 authors:
@@ -60,4 +59,4 @@ Although it is not explicitly stated that the platform uses cold storage, or whe
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

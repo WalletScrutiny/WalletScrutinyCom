@@ -1,5 +1,4 @@
 ---
-wsId: lyopay
 title: LYOPAY
 date: 2023-11-02
 authors:
@@ -80,4 +79,4 @@ This is enough to warrant a **custodial** verdict and therefore **not verifiable
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

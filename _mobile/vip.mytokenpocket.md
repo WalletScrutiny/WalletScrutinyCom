@@ -1,5 +1,4 @@
 ---
-wsId: TokenPocket
 title: 'TokenPocket: Crypto & Bitcoin'
 date: 2026-07-23
 authors:
@@ -94,6 +93,6 @@ An issue has been opened at [https://github.com/TP-Lab/tp-android/issues/15](htt
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 An issue has been opened at [https://github.com/TP-Lab/tp-ios/issues/1](https://github.com/TP-Lab/tp-ios/issues/1)

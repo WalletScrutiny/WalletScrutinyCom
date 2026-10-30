@@ -1,5 +1,4 @@
 ---
-wsId: choiceBitcoinIRA
 title: 'Choice: Bitcoin in your IRA'
 date: 2023-12-15
 authors:
@@ -69,4 +68,4 @@ They also have an option for users to use their own private key using another ap
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

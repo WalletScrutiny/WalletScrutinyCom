@@ -1,5 +1,4 @@
 ---
-wsId: crypterium
 title: Сhoise.com
 date: 2026-01-28
 authors:

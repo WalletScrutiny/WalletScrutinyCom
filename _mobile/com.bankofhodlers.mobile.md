@@ -1,5 +1,4 @@
 ---
-wsId: Vauld
 title: Vauld.com
 date: 2024-09-03
 authors:

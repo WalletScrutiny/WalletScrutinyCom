@@ -1,5 +1,4 @@
 ---
-wsId: vuolletApp
 title: Vuollet
 date: 2024-04-03
 authors:
@@ -54,4 +53,4 @@ Vuollet is the safe place for your coins, with the easiest tools to buy and sell
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

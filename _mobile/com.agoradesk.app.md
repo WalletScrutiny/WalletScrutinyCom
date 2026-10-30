@@ -1,5 +1,4 @@
 ---
-wsId: agoraDeskAnonymous
 title: 'AgoraDesk: buy BTC anonymously'
 date: 2025-03-14
 authors:
@@ -76,4 +75,4 @@ How it Works:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

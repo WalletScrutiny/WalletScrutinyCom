@@ -1,5 +1,4 @@
 ---
-wsId: mercadoPortugal
 title: MB Portugal
 date: 2026-02-25
 authors:
@@ -63,4 +62,4 @@ This service is **custodial**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

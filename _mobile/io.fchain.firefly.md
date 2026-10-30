@@ -1,5 +1,4 @@
 ---
-wsId: fireflywalletpro
 title: Firefly Wallet Pro
 date: 2023-03-21
 authors:
@@ -55,4 +54,4 @@ Although the app describes itself as an open source project, we took a look at t
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

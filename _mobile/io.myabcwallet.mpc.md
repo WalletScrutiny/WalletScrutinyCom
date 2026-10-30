@@ -1,5 +1,4 @@
 ---
-wsId: abcwalletSafeWeb3Wallet
 title: ABC Wallet - Safe Web3 wallet
 date: 2025-12-27
 authors:
@@ -81,4 +80,4 @@ Only then were we [able to access a Bitcoin wallet](https://x.com/BitcoinWalletz
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

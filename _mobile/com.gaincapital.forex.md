@@ -1,5 +1,4 @@
 ---
-wsId: Forexcom
 title: FOREX.com Forex & CFD Trading
 date: 2021-10-16
 authors:
@@ -78,4 +77,4 @@ Funding can only be via traditional financial institutions, this app **cannot se
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

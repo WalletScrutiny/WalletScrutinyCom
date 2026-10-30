@@ -1,5 +1,4 @@
 ---
-wsId: Bidesk
 title: Bidesk App - Crypto Trading
 date: 2021-08-08
 authors:
@@ -79,4 +78,4 @@ This product or service is **defunct**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

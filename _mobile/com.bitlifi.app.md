@@ -1,5 +1,4 @@
 ---
-wsId: bitlifiApp
 title: Bitlifi
 date: 2023-11-01
 authors:
@@ -55,6 +54,6 @@ In section 3.a.1 of the [terms](https://www.bitlifi.com/en/terms/), it is mentio
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Innovative Lightning Network wallet with intuitive controls for easy Bitcoin management" source="Store" %}

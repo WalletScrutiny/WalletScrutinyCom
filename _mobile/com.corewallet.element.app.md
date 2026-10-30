@@ -1,5 +1,4 @@
 ---
-wsId: elementWallet
 title: 'Element Wallet: Chat & Pay'
 date: 2026-04-13
 authors:
@@ -53,4 +52,4 @@ We did **not find any claims regarding source-availability**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

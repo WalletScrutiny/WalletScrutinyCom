@@ -1,5 +1,4 @@
 ---
-wsId: BizzCoin
 title: BizzCoin Wallet
 date: 2022-04-25
 authors:
@@ -54,4 +53,4 @@ As the keys are on the side of the user, this app appears to be non-custodial. H
 
 **Update 2022-04-13**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

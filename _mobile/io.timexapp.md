@@ -1,5 +1,4 @@
 ---
-wsId: timexApp
 title: TimeX
 date: 2024-11-29
 authors:
@@ -57,4 +56,4 @@ The app description explicitly states that trading bitcoin is allowed and that c
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

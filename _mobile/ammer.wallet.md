@@ -1,5 +1,4 @@
 ---
-wsId: ammerWallet
 title: Ammer Wallet
 date: 2023-07-20
 authors:
@@ -77,7 +76,7 @@ We did not find any evidence that the source code for this app is publicly avail
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="nfc" quote="Ammer Card has the traditional shape of a credit card and can be used for payment with Ammer Pay due to its NFC capability." source="Store description" %}
 

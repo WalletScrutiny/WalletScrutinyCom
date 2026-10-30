@@ -1,5 +1,4 @@
 ---
-wsId: mona
 title: 'Crypto.com: Trade Every Market'
 date: 2021-10-24
 authors:
@@ -82,7 +81,7 @@ their website:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Crypto Trading — Trade BTC, ETH, CRO, SOL, XRP, and 400+ other cryptocurrencies." source="Store" %}
 

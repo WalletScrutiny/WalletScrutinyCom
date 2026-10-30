@@ -1,5 +1,4 @@
 ---
-wsId: quadency
 title: Quadency - Crypto Platform
 date: 2024-08-07
 authors:
@@ -60,4 +59,4 @@ As the Terms state, this app is a **custodial** one.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

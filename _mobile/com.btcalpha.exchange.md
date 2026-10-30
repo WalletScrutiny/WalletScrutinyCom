@@ -1,5 +1,4 @@
 ---
-wsId: BTCAlpha
 title: BTC-Alpha Exchange
 date: 2024-04-19
 authors:
@@ -80,4 +79,4 @@ This app is a **custodial** exchange and thus **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

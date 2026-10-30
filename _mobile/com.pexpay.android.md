@@ -1,5 +1,4 @@
 ---
-wsId: pexpaypeaceful
 title: 'Pexpay: 0 Fee Buy and Sell BTC'
 date: 2023-09-15
 authors:
@@ -59,4 +58,4 @@ As the service provider has indicated, this is a **hosted digital currency walle
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

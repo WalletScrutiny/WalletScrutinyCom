@@ -1,5 +1,4 @@
 ---
-wsId: prizmbit
 title: Prizmbit wallet, p2p cryptocurrency exchange
 date: 2021-12-22
 authors:

@@ -1,5 +1,4 @@
 ---
-wsId: leapWallet
 title: Leap Wallet
 date: 2025-11-09
 authors:
@@ -56,4 +55,4 @@ However, we did not find any claims regarding source-availability, nor did we fi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

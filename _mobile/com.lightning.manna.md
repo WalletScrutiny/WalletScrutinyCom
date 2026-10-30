@@ -1,5 +1,4 @@
 ---
-wsId: mannaBitcoin
 title: Manna Bitcoin Wallet
 date: 2026-10-15
 authors:
@@ -68,4 +67,4 @@ This would change if the app let users exit on their own, for example by exporti
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: rockwalletApp
 title: 'RockWallet: Buy and Swap'
 date: 2023-08-28
 authors:
@@ -71,7 +70,7 @@ An issue has been opened at [https://gitlab.com/walletscrutiny/walletScrutinyCom
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="swap and store top digital assets like BTC, ETH, BSV, XRP and many more" source="Store" %}
 

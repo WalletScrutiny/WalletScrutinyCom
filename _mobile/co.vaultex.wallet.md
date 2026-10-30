@@ -1,5 +1,4 @@
 ---
-wsId: vaultexWeb3
 title: Vaultex | Web3 wallet
 date: 2026-04-13
 authors:
@@ -52,4 +51,4 @@ Despite its claims, this app is **custodial**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

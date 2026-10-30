@@ -1,5 +1,4 @@
 ---
-wsId: Sylo
 title: Sylo - Smart Wallet & Messenge
 date: 2025-02-04
 authors:
@@ -58,4 +57,4 @@ it is **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

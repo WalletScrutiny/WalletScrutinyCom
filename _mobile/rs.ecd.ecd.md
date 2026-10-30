@@ -1,5 +1,4 @@
 ---
-wsId: ecdWallet
 title: 'ECD Wallet: Buy BTC & ETH'
 date: 2026-01-03
 authors:
@@ -62,4 +61,4 @@ For our purposes, we still consider this as a **custodial arrangement** if the u
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

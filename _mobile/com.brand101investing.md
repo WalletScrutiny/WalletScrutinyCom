@@ -1,5 +1,4 @@
 ---
-wsId: 101Investing
 title: 101Investing Online Trading | Forex and Stocks
 date: 2022-04-07
 authors:
@@ -65,4 +64,4 @@ This service **does not allow the user to send or receive bitcoins**.
 
 **Update 2022-03-21**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

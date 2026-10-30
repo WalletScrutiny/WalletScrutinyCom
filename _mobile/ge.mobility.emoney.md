@@ -1,5 +1,4 @@
 ---
-wsId: eMoneyGe
 title: Emoney
 date: 2025-05-23
 authors:
@@ -68,4 +67,4 @@ eMoney functions as a **custodial** Bitcoin wallet because it allows external tr
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

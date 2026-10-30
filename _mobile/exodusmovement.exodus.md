@@ -1,5 +1,4 @@
 ---
-wsId: ExodusCryptoBitcoinWallet
 title: 'Exodus: Crypto & Payments'
 date: 2021-01-23
 authors:

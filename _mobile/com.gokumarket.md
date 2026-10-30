@@ -1,5 +1,4 @@
 ---
-wsId: gokuMarket
 title: GokuMarket
 date: 2023-01-30
 authors:
@@ -58,4 +57,4 @@ This app is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

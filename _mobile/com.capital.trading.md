@@ -1,5 +1,4 @@
 ---
-wsId: capitalTrading
 title: Trading app by Capital·com
 date: 2024-02-08
 authors:
@@ -77,6 +76,6 @@ withdrawals.
 
 **Update 2024-02-08**: This app is back on the Apple store.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 **Update 2022-01-15**: This app is not on the Store anymore.

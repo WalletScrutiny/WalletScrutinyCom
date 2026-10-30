@@ -298,15 +298,8 @@ function makeSearchResultRowsHTML (wallets, from, to) {
   for (let i = from; i < to; i++) {
     const wallet = wallets[i];
     const lazyLoad = i >= SEARCH_RESULTS_EAGER_IMAGES;
-    let compactedResults = makeCompactResultsHTML(wallet, lazyLoad);
-    let walletGroupClass = '';
-    if (wallet.versions?.length > 0) {
-      for (const version of wallet.versions) {
-        compactedResults += makeCompactResultsHTML(version, lazyLoad);
-      }
-      walletGroupClass = 'grouped';
-    }
-    html += `<li class="actionable"><div class="${walletGroupClass}">${compactedResults}</div></li>`;
+    const compactedResults = makeCompactResultsHTML(wallet, lazyLoad);
+    html += `<li class="actionable"><div>${compactedResults}</div></li>`;
   }
   return html;
 }
@@ -737,30 +730,11 @@ const versionTaggedWallets = [];
 window.versionTag = () => {
   versionTaggedWallets.length = 0;
   walletSearchTextCache = new WeakMap();
-  const wsIdIndex = new Map();
   const seenAppIds = new Set();
   window.wallets.forEach(e => {
-    if (e.wsId) {
-      const wsId = e.wsId;
-      if (wsId.length === 0) return;
-      if (!wsIdIndex.has(wsId)) {
-        wsIdIndex.set(wsId, versionTaggedWallets.length);
-        versionTaggedWallets.push(e);
-      } else {
-        // If we already added a product with this wsId, we add the new one as a
-        // 'version' of the prior one.
-        const i = wsIdIndex.get(wsId);
-        const versionsI = versionTaggedWallets[i].versions || [];
-        versionsI.push(e);
-        versionTaggedWallets[i].versions = versionsI;
-      }
-    } else if (e.appId && e.appId.length > 0) {
-      // making sure the appId doesn't match any wsId:
-      const appId = `__${e.appId}__`;
-      if (!seenAppIds.has(appId)) {
-        seenAppIds.add(appId);
-        versionTaggedWallets.push(e);
-      }
+    if (e.appId && e.appId.length > 0 && !seenAppIds.has(e.appId)) {
+      seenAppIds.add(e.appId);
+      versionTaggedWallets.push(e);
     }
   });
   warmWalletSearchTextCache(versionTaggedWallets);

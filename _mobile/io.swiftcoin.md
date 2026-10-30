@@ -1,5 +1,4 @@
 ---
-wsId: swiftcoin
 title: Swiftcoin
 date: 2023-08-30
 authors:
@@ -70,4 +69,4 @@ Even though it is not explicitly stated, the app most likely stores the private 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: LMAXGlobal
 title: LMAX Global Trading
 date: 2021-11-10
 authors:
@@ -86,4 +85,4 @@ Because this is primarily a trading app that utilizes crypto CFDs rather than a 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

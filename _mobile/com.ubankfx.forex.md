@@ -1,5 +1,4 @@
 ---
-wsId: UBFXGlobal
 title: UBFX Global
 date: 2021-11-10
 authors:
@@ -55,4 +54,4 @@ You **cannot send or receive bitcoins** on this app.
 
 **Update 2021-10-26**: This app is no more.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

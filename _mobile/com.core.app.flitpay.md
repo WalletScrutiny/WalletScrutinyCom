@@ -1,5 +1,4 @@
 ---
-wsId: flitpay
 title: 'Flitpay: Crypto Trading App'
 date: 2021-09-30
 authors:
@@ -61,4 +60,4 @@ This app is **custodial** and thus **not verifiable**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

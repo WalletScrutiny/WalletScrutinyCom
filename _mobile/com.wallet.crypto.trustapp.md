@@ -1,5 +1,4 @@
 ---
-wsId: sixdays
 title: 'Trust: Crypto & Bitcoin Wallet'
 date: 2020-12-23
 authors:

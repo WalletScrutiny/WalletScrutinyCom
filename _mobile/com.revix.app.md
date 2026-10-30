@@ -1,5 +1,4 @@
 ---
-wsId: revixBuyBitcoin
 title: Altify - Invest in Alts
 date: 2023-07-09
 authors:
@@ -71,7 +70,7 @@ As the description and [Terms](https://revix.com/legal/terms-of-service) state, 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Buy, sell, and hold Bitcoin, Ethereum, Solana, Cardano, USDT, USDC, BNB, and +35 more, all on one platform." source="Store description" %}
 

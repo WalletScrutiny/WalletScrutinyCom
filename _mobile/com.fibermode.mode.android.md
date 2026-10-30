@@ -1,5 +1,4 @@
 ---
-wsId: fibermode
 title: 'Mode: Buy, Earn & Grow Crypto'
 date: 2023-04-16
 authors:
@@ -79,4 +78,4 @@ Our verdict for this app is **custodial.** Thus, it is **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

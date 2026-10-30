@@ -1,5 +1,4 @@
 ---
-wsId: CoinCollect
 title: 'CoinCollect wallet: We Make Crypto Easy'
 date: 2022-01-15
 authors:
@@ -52,4 +51,4 @@ It would seem that non-custodial CoinCollect was formerly open source. They then
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: DeltaTrading
 title: Delta Trading – FX&Shares CFDs
 date: 2023-08-30
 authors:
@@ -66,4 +65,4 @@ Financial platforms that trade in cryptocurrency CFDs more often than not, **can
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

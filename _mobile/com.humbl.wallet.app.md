@@ -1,5 +1,4 @@
 ---
-wsId: tapWallet
 title: TAP Wallet
 date: 2025-10-03
 authors:
@@ -62,4 +61,4 @@ This app is **not source-available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

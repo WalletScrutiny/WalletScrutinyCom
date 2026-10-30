@@ -1,5 +1,4 @@
 ---
-wsId: truedex
 title: TrueDEX - Trading Unleashed
 date: 2024-08-23
 authors:
@@ -35,4 +34,3 @@ iphone:
 
 ---
 
-{% include copyFromAndroid.html %}

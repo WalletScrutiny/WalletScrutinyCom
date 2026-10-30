@@ -1,5 +1,4 @@
 ---
-wsId: korbit
 title: 디지털엑스 - 디지털자산 거래소
 date: 2021-09-10
 authors:
@@ -47,4 +46,4 @@ Verdict is **custodial** and **not verifiable**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

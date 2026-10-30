@@ -1,5 +1,4 @@
 ---
-wsId: krakenSuperWallet
 title: 'Kraken Wallet: Crypto & NFT'
 date: 2025-02-04
 authors:
@@ -77,7 +76,7 @@ An issue has been opened at [https://github.com/krakenfx/wallet/discussions/59](
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="hd" quote="Import Wallets (BIP39 standard)" source="GitHub README" %}
 

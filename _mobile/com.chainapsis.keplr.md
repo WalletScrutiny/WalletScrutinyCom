@@ -1,5 +1,4 @@
 ---
-wsId: keplrWallet
 title: Keplr - Crypto Wallet
 date: 2025-07-21
 authors:
@@ -58,4 +57,4 @@ An issue has been opened at [https://github.com/chainapsis/keplr-wallet/issues/1
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

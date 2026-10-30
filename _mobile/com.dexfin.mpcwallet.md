@@ -1,5 +1,4 @@
 ---
-wsId: dexfinWallet
 title: Dexfin Wallet
 date: 2024-08-07
 authors:
@@ -75,4 +74,4 @@ This app is from the same [developer](https://play.google.com/store/apps/dev?id=
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

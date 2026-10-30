@@ -1,5 +1,4 @@
 ---
-wsId: Cryptology
 title: 'Cryptology: Blockchain Wallet'
 date: 2023-12-19
 authors:
@@ -76,4 +75,4 @@ With KYC verification, account termination, cold-storage and the non-provision o
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

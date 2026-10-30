@@ -1,5 +1,4 @@
 ---
-wsId: flashBitcoinWallet
 title: 'Flash: Bitcoin Wallet'
 date: 2026-05-20
 authors:
@@ -106,4 +105,4 @@ Sources:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

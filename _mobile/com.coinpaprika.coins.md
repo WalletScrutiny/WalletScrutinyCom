@@ -1,5 +1,4 @@
 ---
-wsId: coinsonepaprika
 title: 'COINS: One App For Crypto'
 date: 2024-07-15
 authors:
@@ -96,7 +95,7 @@ Absent source code for **this specific app**, it is **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="segwit" quote="Native SegWit (bech32): addresses start with bc1 (we use this type in Coins)" source="Website" %}
 

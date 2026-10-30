@@ -1,5 +1,4 @@
 ---
-wsId: DiviWallet
 title: 'Divi Wallet: Crypto & Staking'
 date: 2025-02-13
 authors:
@@ -74,6 +73,6 @@ An issue has been opened at [https://github.com/DiviProject/Divi-Desktop-Public/
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 An issue has been opened at [https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/366](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/366)

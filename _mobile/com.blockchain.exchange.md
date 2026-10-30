@@ -1,5 +1,4 @@
 ---
-wsId: blockchainExchange
 title: Blockchain.com Exchange
 date: 2023-12-19
 authors:
@@ -63,4 +62,4 @@ This is a **custodial** app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

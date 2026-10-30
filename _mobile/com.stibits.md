@@ -1,5 +1,4 @@
 ---
-wsId: stibits
 title: Stibits
 date: 2023-12-19
 authors:
@@ -57,4 +56,4 @@ The possibility is also there, that the company and thus the servers, that are o
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

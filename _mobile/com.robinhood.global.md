@@ -1,5 +1,4 @@
 ---
-wsId: robinhoodCryptoAndStocks
 title: Robinhood Crypto, Bitcoin, ETH
 date: 2025-12-08
 authors:
@@ -61,4 +60,4 @@ This is a **custodial** app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

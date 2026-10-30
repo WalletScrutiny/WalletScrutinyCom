@@ -1,5 +1,4 @@
 ---
-wsId: LiteBit
 title: LiteBit – Buy Bitcoin & crypto
 date: 2023-03-21
 authors:

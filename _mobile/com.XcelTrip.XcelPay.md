@@ -1,5 +1,4 @@
 ---
-wsId: XcelPay
 title: 'XcelPay: Crypto Bitcoin Wallet'
 date: 2026-04-20
 authors:

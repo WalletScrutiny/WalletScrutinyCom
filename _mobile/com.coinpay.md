@@ -1,5 +1,4 @@
 ---
-wsId: coinpayapp
 title: 'Coinpay: Buy & Send Bitcoin Fa'
 date: 2023-01-11
 authors:
@@ -53,4 +52,4 @@ Play description. This app is closed source and thus **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

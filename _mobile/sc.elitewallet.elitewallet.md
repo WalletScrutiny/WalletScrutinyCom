@@ -1,5 +1,4 @@
 ---
-wsId: eliteWallet
 title: Elite Wallet
 date: 2024-05-18
 authors:
@@ -457,4 +456,4 @@ An issue has been opened at [https://gitlab.com/walletscrutiny/walletScrutinyCom
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

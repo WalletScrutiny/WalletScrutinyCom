@@ -1,5 +1,4 @@
 ---
-wsId: trofiInvestment
 title: Trofi - Crypto Investment App
 date: 2024-02-05
 authors:
@@ -59,4 +58,4 @@ Further down Section 2, it says (paraphrased) assets which are not designated as
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

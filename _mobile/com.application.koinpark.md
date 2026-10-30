@@ -1,5 +1,4 @@
 ---
-wsId: koinParkCrypto
 title: 'Koinpark: Buy Bitcoin & Crypto'
 date: 2023-07-29
 authors:
@@ -64,4 +63,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: maicoin
 title: MaiCoin - Buy Bitcoin & Crypto
 date: 2021-10-01
 authors:
@@ -59,4 +58,4 @@ As the keys are on the side of the providers that means this app is **custodial*
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

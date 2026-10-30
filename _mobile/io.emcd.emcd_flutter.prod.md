@@ -1,5 +1,4 @@
 ---
-wsId: emcdPoolWallet
 title: EMCD Coinhold — Crypto Wallet
 date: 2023-07-07
 authors:
@@ -74,4 +73,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

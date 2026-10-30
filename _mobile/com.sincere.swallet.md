@@ -1,5 +1,4 @@
 ---
-wsId: sincereSWallet
 title: S-Wallet
 date: 2025-04-11
 authors:
@@ -67,4 +66,4 @@ As the provider mentions, the service is a **custodial** service. Once we've dow
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

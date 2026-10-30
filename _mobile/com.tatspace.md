@@ -1,5 +1,4 @@
 ---
-wsId: tatspace
 title: TATSPACE
 date: 2025-09-09
 authors:
@@ -63,4 +62,4 @@ As stated in the privacy policy, {{ page.title }}: **we collect an encrypted fil
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

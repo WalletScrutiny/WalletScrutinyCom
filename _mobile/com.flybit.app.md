@@ -1,5 +1,4 @@
 ---
-wsId: flybit
 title: 플라이빗 Flybit -신뢰할 수 있는 가상자산 거래소
 date: 2021-09-30
 authors:
@@ -61,4 +60,4 @@ By all indications, this is a regulated centralized exchange and therefore our v
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

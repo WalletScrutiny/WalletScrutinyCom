@@ -1,5 +1,4 @@
 ---
-wsId: wirex
 title: 'Wirex: All-In-One Crypto App'
 date: 2021-08-21
 authors:
@@ -55,4 +54,4 @@ This makes the app custodial and also not verifiable.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

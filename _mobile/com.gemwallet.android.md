@@ -1,5 +1,4 @@
 ---
-wsId: gemWallet
 title: 'Gem Wallet: Bitcoin, USDT, BNB'
 date: 2026-07-23
 authors:
@@ -107,4 +106,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

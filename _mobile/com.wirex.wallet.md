@@ -1,5 +1,4 @@
 ---
-wsId: wirexwalletdefi
 title: 'COCA: Crypto Card & Wallet'
 date: 2022-01-10
 authors:
@@ -81,7 +80,7 @@ At present, the verdict that we can give it is it is not an open source project.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Create your account in just a few minutes and secure it with biometrics. Deposit crypto or buy it with your bank card, and start spending and earning right away." source="Store description" %}
 

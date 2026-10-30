@@ -1,5 +1,4 @@
 ---
-wsId: unitedExchange
 title: UnitedExchange
 date: 2023-12-19
 authors:
@@ -63,4 +62,4 @@ We weren't able to find any options to backup the private keys.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

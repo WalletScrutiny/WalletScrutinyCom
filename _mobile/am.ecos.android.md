@@ -1,5 +1,4 @@
 ---
-wsId: ECOS
 title: 'ECOS: Bitcoin & Crypto Mining'
 date: 2021-10-07
 authors:
@@ -81,4 +80,4 @@ Due to the information we have collected thus far, we conclude that this app is 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

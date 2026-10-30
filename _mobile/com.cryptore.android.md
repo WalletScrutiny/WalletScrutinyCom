@@ -1,5 +1,4 @@
 ---
-wsId: coinlord
 title: COINLORD
 date: 2024-04-19
 authors:
@@ -76,4 +75,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

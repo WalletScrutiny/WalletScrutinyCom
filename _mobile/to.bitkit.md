@@ -1,5 +1,4 @@
 ---
-wsId: bitkit
 title: 'Bitkit: Bitcoin Wallet'
 date: 2024-12-25
 authors:
@@ -75,4 +74,4 @@ An issue has been opened at [https://github.com/synonymdev/bitkit/issues/2414#de
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

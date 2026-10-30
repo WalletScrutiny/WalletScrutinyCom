@@ -1,5 +1,4 @@
 ---
-wsId: mudrex
 title: 'Mudrex : Bitcoin & Crypto App'
 date: 2024-09-07
 authors:
@@ -65,4 +64,4 @@ This is enough to give this service a **custodial** verdict.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

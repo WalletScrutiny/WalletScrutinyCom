@@ -1,5 +1,4 @@
 ---
-wsId: bhWallet
 title: Bluehelix Wallet
 date: 2022-03-16
 authors:
@@ -90,6 +89,6 @@ An issue has been opened at [https://github.com/bluehelix-chain/wallet-android/i
 
 **Update 2022-10-21**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 An issue has been opened at [https://github.com/bluehelix-chain/wallet-android/issues/4#deadLink](https://github.com/bluehelix-chain/wallet-android/issues/4#deadLink)

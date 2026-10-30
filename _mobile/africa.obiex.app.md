@@ -1,5 +1,4 @@
 ---
-wsId: ObiexExchange
 title: Obiex - Swap, Buy & Sell BTC
 date: 2022-08-01
 authors:
@@ -64,7 +63,7 @@ This is a **custodial** offering.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Trade Bitcoin, USDT, Ethereum, and over 20+ cryptocurrencies and digital currencies with ease on our crypto exchange." source="Store" comment="Explicitly supports swapping/trading between multiple cryptocurrencies." %}
 

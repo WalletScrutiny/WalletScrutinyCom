@@ -1,5 +1,4 @@
 ---
-wsId: trexCrypto
 title: TREX Global-Buy Crypto, FX
 date: 2024-12-31
 authors:
@@ -57,4 +56,4 @@ Since the platform allows users to trade cryptocurrency contracts or CFDs, no ac
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

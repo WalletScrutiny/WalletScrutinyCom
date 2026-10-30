@@ -1,5 +1,4 @@
 ---
-wsId: coinhako
 title: 'Coinhako: Buy Bitcoin & Crypto'
 date: 2021-04-23
 authors:

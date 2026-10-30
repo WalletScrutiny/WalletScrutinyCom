@@ -1,5 +1,4 @@
 ---
-wsId: WalletIO
 title: wallet.io—Multi-Chain (BTC, ETH, EOS, Cosmos ...)
 date: 2022-02-25
 authors:
@@ -94,4 +93,4 @@ This app is **self-custodial**, but the source code is **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

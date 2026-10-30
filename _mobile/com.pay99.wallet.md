@@ -1,5 +1,4 @@
 ---
-wsId: 99Pay
 title: 99Pay
 date: 2021-12-26
 authors:
@@ -54,4 +53,4 @@ speculation on the price of bitcoin.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

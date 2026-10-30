@@ -1,5 +1,4 @@
 ---
-wsId: atomic
 title: Bitcoin Wallet Crypto Ethereum
 date: 2023-11-22
 authors:
@@ -123,4 +122,4 @@ Verdict: This wallet is **not verifiable**.
 
 **Update 2022-01-02**: This app is no more available.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

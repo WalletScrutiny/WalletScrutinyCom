@@ -1,5 +1,4 @@
 ---
-wsId: ZenGo
 title: 'Zengo: Crypto & Bitcoin Wallet'
 date: 2020-04-27
 authors:

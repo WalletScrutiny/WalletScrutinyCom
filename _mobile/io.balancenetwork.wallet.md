@@ -1,5 +1,4 @@
 ---
-wsId: balanceWalletApp
 title: BalanceWallet
 date: 2024-10-31
 authors:
@@ -70,4 +69,4 @@ A search for the [app ID on GitHub](https://github.com/search?q=io.balancenetwor
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

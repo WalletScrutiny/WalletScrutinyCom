@@ -1,5 +1,4 @@
 ---
-wsId: SpotWalletapp
 title: 'Spot: bitcoin & crypto wallet'
 date: 2025-05-30
 authors:
