@@ -1,6 +1,6 @@
 ---
 title: Win Wallet
-date: 2022-05-31
+date: 2026-10-30
 authors:
 - danny
 website: https://wise.win#deadLink

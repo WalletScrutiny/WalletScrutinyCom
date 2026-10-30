@@ -24,7 +24,7 @@ icon: hubsecurity.firewallet.webp
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2022-05-19
+date: 2026-10-30
 signer: 
 twitter: id3services
 social:

@@ -1,9 +1,9 @@
 ---
 title: CITEX- Crypto trading & PoW
-date: 2022-05-31
+date: 2026-10-30
 authors:
 - danny
-website: https://www.citex.io
+website: https://www.citex.io#deadLink
 twitter: Citexofficial
 social:
 - https://www.facebook.com/citexglobal
@@ -21,6 +21,8 @@ android:
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** CITEX shut down its exchange on August 6, 2024, and asked users to withdraw their coins by email ([CITEX notice](https://web.archive.org/web/20241011233912/https://www.citex.io/)). Its website no longer shows the exchange.
 
 **Update 2022-05-13**: This app is not available anymore.
 
@@ -44,7 +46,7 @@ There is one scam accusation.
 
 ## The Site
 
-From the [Terms of Use](https://citex.zendesk.com/hc/en-us/articles/360018961991-Terms-of-Use), we see that it's possible for CITEX to terminate your account.
+From the [Terms of Use](https://web.archive.org/web/20220601091434/https://citex.zendesk.com/hc/en-us/articles/360018961991-Terms-of-Use), we see that it's possible for CITEX to terminate your account.
 
 > The Company may freeze the member’s account and e-wallet without his/her consent when freezing the e-wallet is required for the investigation of national authorities such as investigation organs, the Ministry of Justice and administrative departments due to electronic financial fraud.
 

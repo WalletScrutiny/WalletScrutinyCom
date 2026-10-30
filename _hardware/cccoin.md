@@ -4,7 +4,7 @@ appId: cccoin
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2022-11-25
 updated: 
 version: 
 binaries: 
@@ -12,16 +12,16 @@ dimensions:
 weight: 
 provider: HASH CAPITAL HOLDING PTE.LTD
 providerWebsite: 
-website: https://www.cccoin.cash/hardwallet
-shop: https://www.rhy.zone/hardwallet/id/80
+website: https://web.archive.org/web/20241209090456/https://www.cccoin.cash/hardwallet
+shop: https://web.archive.org/web/20221130001103/https://www.rhy.zone/hardwallet/id/80
 country: SG
 price: 160USDT
 repository: 
 icon: cccoin.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: wip
-date: 2022-11-25
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -29,6 +29,10 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** CCCoin appears to be gone. Its website and the shop no longer load.
+
+**Update 2026-10-30:** The [CCCoin website](https://web.archive.org/web/20241209090456/https://www.cccoin.cash/hardwallet) was still online in December 2024 but no longer loads, and the shop is gone too. The device uses a standard BIP39 recovery phrase, so the coins can still be recovered in other wallets. We now list it as discontinued instead of defunct.
 
 ## Verdict Update 2022-11-25
 

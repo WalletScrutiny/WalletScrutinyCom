@@ -18,15 +18,15 @@ weight: 6
 provider: eSignus Security Solutions, S.L.
 providerWebsite: https://www.esignus.com/
 website: https://gethashwallet.com
-shop: https://shop.esignus.com/products/hashwallet-link-cobalt
+shop: https://www.gethashwallet.com/buy
 country: ES
-price: 125EUR
+price: 149EUR
 repository: 
 icon: hashwallet.webp
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2022-11-08
+date: 2026-10-30
 signer: 
 twitter: hashwallet
 social:
@@ -38,6 +38,10 @@ features:
 - secEl
 
 ---
+
+**Update 2026-10-30:** The old eSignus shop page is gone. eSignus now sells the card as
+"Hashwallet All in One" for 149 EUR on [its website](https://www.gethashwallet.com/buy). It is still an NFC
+card without a screen or buttons.
 
 **Update 2023-01-30**: This product is now available for 450 users. As it has no
 screen and buttons, it adds little security to whatever software wallet it is

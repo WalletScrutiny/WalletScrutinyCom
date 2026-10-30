@@ -13,15 +13,15 @@ weight:
 provider: Ammer Technologies AG
 providerWebsite: 
 website: https://ammer.cards/
-shop: 
+shop: https://ammer.cards/shop
 country: CH
-price: 50 CHF
+price: 59 CHF
 repository: 
 icon: ammer.cards.webp
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2022-11-10
+date: 2026-10-30
 signer: 
 twitter: AmmerCards
 social:
@@ -36,7 +36,7 @@ features:
 
 ## Product Description 
 
-- The NFC-enabled card has a [companion app.](https://play.google.com/store/apps/details?id=trustody.wallet) 
+- The NFC-enabled card has a companion app, the {% include walletLink.html wallet='android/ammer.wallet' verdict='true' %}.
 - > [To activate your new card](https://ammer.cards/getting-started), you will need the Ammer Wallet app. In the app, you will be able to manage your crypto assets and create virtual cards. To use the app with the card, you will need an NFC-enabled smartphone with NFC turned on.
 - Although the wallet is claimed to be self-custodial, the [terms and conditions](https://ammer.cards/terms) have language such as:
 

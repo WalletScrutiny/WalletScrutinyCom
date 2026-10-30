@@ -1,6 +1,6 @@
 ---
 title: BITCLOVER
-date: 2022-05-31
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitclover.io#deadLink
@@ -34,10 +34,12 @@ iphone:
 
 ---
 
+**⚠️ Warning:** Bitclover closed its exchange in 2022. Its last announcements, in April 2022, only extended the period for withdrawing coins ([Bitclover notice channel](https://t.me/s/bitclovernotice)), and its website and help center are gone.
+
 ## Android
 
 **Updated September 17, 2021**
-Hotbit has successfully transitioned from hotbit into bitclover. [Details here](https://bitclover.zendesk.com/hc/en-us/articles/4406561078553-Rebranding-from-Hotbit-Korea-to-BITCLOVER).
+Hotbit has successfully transitioned from hotbit into bitclover. [Details here](https://bitclover.zendesk.com/hc/en-us/articles/4406561078553-Rebranding-from-Hotbit-Korea-to-BITCLOVER#deadLink).
 
 From the [main page of bitclover](https://www.bitclover.io#deadLink)
 
@@ -45,18 +47,18 @@ From the [main page of bitclover](https://www.bitclover.io#deadLink)
 Bank-level security through HSM<br>
 Use the provided COBO wallet
 
-Centralized exchanges managed by private companies are usually custodial. Since Bitclover has just recently rebranded, they have a new [Terms and Service page](https://bitclover.zendesk.com/hc/en-us/articles/4406210263577).
+Centralized exchanges managed by private companies are usually custodial. Since Bitclover has just recently rebranded, they have a new [Terms and Service page](https://bitclover.zendesk.com/hc/en-us/articles/4406210263577#deadLink).
 
 > Bitclover.io is a regulated entity and must comply with applicable law. Applicable law, regulation, and executive orders may require Bitclover.io to, **upon request by government agencies, freeze withdrawals or trading (or both)**, or provide information regarding your account.
 
 This is confirmation that this service is custodial.
 
-They also have a [structured withdrawal fee](https://bitclover.zendesk.com/hc/en-us/articles/4406153545625-Fees) page, which is an indication that you could store, receive and send bitcoins from their app.
+They also have a [structured withdrawal fee](https://bitclover.zendesk.com/hc/en-us/articles/4406153545625-Fees#deadLink) page, which is an indication that you could store, receive and send bitcoins from their app.
 
 Verdict is now changed to **custodial** and thus **not verifiable**.
 _____
 **Old Verdict**
-We viewed the [main page of hotbit](https://www.hotbit.co.kr/), and were greeted with this message:
+We viewed the [main page of hotbit](https://www.hotbit.co.kr/#deadLink), and were greeted with this message:
 
 >Hotbit Korea Exchange decided that domestic service could no longer be carried out without real-name accounts being secured, so it inevitably decided to terminate domestic service. It will be sold to the global market and transformed into a global service through rebranding as a global exchange. The operating body of the new global service will be Hotbit Global, which will provide better services to members by supporting listing of more diverse stocks and launching new products.<br>
 -  Platform rebranding: Hotbit Korea (Hotbit.co.kr) -> Bitclover (bitclover.io)

@@ -4,7 +4,7 @@ appId: ledger.osjavacard
 authors:
 - danny
 released: 2013-11-20
-discontinued: 
+discontinued: 2017-01-29
 updated: 2016-01-27
 version: v1.0-fidesmo
 binaries: https://github.com/LedgerHQ/ledger-javacard/releases/tag/v1.0-fidesmo
@@ -15,16 +15,16 @@ dimensions:
 weight: 0.75
 provider: Ledger
 providerWebsite: https://www.ledger.com/
-website: https://www.ledgerwallet.com/products/6-ledger-unplugged
+website: https://web.archive.org/web/20171124155710/https://www.ledgerwallet.com/products/6-ledger-unplugged
 shop: 
 country: FR
 price: 29EUR
 repository: https://github.com/LedgerHQ/ledger-javacard
 icon: ledger.osjavacard.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: noita
-date: 2022-05-20
+date: 2026-10-30
 signer: 
 twitter: ledger
 social:
@@ -37,6 +37,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** We change this listing from defunct to discontinued, to match {% include walletLink.html wallet='hardware/ledgerunplugged' verdict='true' %}. Ledger stopped selling it in early 2017, but the [applet source](https://github.com/LedgerHQ/ledger-javacard) is still public and the keys live on the card, so it does not depend on Ledger to keep working.
 
 ## Background 
 
@@ -52,7 +54,7 @@ The Ledger Open Source Java Card applet is also known as {% include walletLink.h
 >
 > Developers can also check if a Java Card platform is supported and its performance with the Eligibility applet
 
-You can still find the product page for the {{ page.title }} on [archive.org](https://www.ledgerwallet.com/products/6-ledger-unplugged)
+You can still find the product page for the {{ page.title }} on [archive.org](https://web.archive.org/web/20171124155710/https://www.ledgerwallet.com/products/6-ledger-unplugged)
 
 ## Discontinued 
 

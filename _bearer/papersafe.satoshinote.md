@@ -4,7 +4,7 @@ appId: papersafe.satoshinote
 authors:
 - danny
 released: 2015-05-15
-discontinued: 
+discontinued: 2025-08-21
 updated: 
 version: 
 binaries: 
@@ -19,9 +19,9 @@ price: 20USD
 repository: 
 icon: papersafe.satoshinote.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: prefilled
-date: 2022-05-19
+date: 2026-10-30
 signer: 
 twitter: 
 social:
@@ -29,6 +29,8 @@ social:
 features: 
 
 ---
+
+**⚠️ Warning:** PaperSafe notes are no longer sold. [papersafe.org](http://papersafe.org) only points to the Satoshi Note page of the Physibit shop, and that shop has not loaded since August 2025 ([last copy](https://web.archive.org/web/20250516110422/https://www.physibit.com/bitcoin-goods/cold-storage-wallets/satoshi-note/)). The encrypted key and its code are on the note itself, so a note you hold does not depend on the provider.
 
 ## Product Description 
 

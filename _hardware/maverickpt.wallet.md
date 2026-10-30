@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Maverick SGPS
 providerWebsite: 
-website: https://maverick.pt/wallet/
+website: https://web.archive.org/web/20210123001841/https://maverick.pt/wallet/
 shop: 
 country: PT
 price: 
@@ -21,7 +21,7 @@ icon:
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-05-19
+date: 2026-10-30
 signer: 
 twitter: maverickpt
 social: 

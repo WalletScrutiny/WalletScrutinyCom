@@ -4,7 +4,7 @@ appId: coinkite.coldcard.mk1
 authors:
 - danny
 released: 2018-07-25
-discontinued: 
+discontinued: 2019-04-06
 updated: 2019-12-19
 version: v3.0.6
 binaries: 
@@ -21,7 +21,7 @@ icon: coinkite.coldcard.mk1.webp
 bugbounty: https://coinkite.com/responsible-disclosure
 meta: discontinued
 verdict: sourceavailable
-date: 2022-11-24
+date: 2026-10-30
 signer: 
 twitter: COLDCARDwallet
 social:

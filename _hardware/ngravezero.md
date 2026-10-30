@@ -16,16 +16,16 @@ dimensions:
 weight: 6.3
 provider: NGRAVE
 providerWebsite: https://www.ngrave.io/
-website: https://www.ngrave.io/products/zero
+website: https://www.ngrave.io/en/zero
 shop: https://shop.ngrave.io/
 country: BE
 price: 398EUR
-repository: https://github.com/ngraveio/zero-firmware
+repository: https://web.archive.org/web/20230626071638/https://github.com/ngraveio/zero-firmware
 icon: ngravezero.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-10-08
+date: 2026-10-30
 signer: 
 twitter: ngrave_official
 social:
@@ -38,6 +38,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** The empty firmware repository is gone from [NGRAVE's GitHub](https://github.com/ngraveio) ([archived copy](https://web.archive.org/web/20230626071638/https://github.com/ngraveio/zero-firmware)), and we found no published ZERO firmware anywhere else. The ZERO is still [sold](https://shop.ngrave.io/products/zero) for 398 EUR.
 
 This hardware wallet offers features including a 4-inch touch screen, camera, fingerprint sensor, and runs a custom OS which [NGRAVE claims](https://www.ngrave.io/zero) is EAL7 certified.
 

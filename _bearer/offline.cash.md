@@ -20,14 +20,22 @@ repository:
 icon: offline.cash.webp
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2022-11-17
+verdict: sealed-plainkey
+date: 2026-10-30
 signer: 
 twitter: offlinecashco
 social: 
 features: 
 
 ---
+
+**Update 2026-10-30:** The Bitcoin Note is now on sale: a pack of four notes costs $49 plus the
+bitcoin you load onto them ([shop](https://offline.cash/products/bitcoin-notes)), and the client app has been
+on [GitHub](https://github.com/offline-cash/OfflineCashClient/releases) since June 2023. To claim the funds you
+cut the note, the provider's server releases the key to the encrypted manufacturer key, and both
+private keys end up in the app ([security overview](https://offline.cash/pages/bitcoin-note-security-overview)).
+Like other sealed bearer items that hand out their keys when spent, it gets
+{% include verdictBadge.html verdict="sealed-plainkey" type='short' %}.
 
 ## [Product Description from the FAQ](https://offline.cash/pages/faq)
 

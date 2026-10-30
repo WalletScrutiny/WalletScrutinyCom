@@ -1,9 +1,9 @@
 ---
 title: 'orbix: Buy Bitcoin & Crypto'
-date: 2022-06-28
+date: 2026-10-30
 authors:
 - danny
-website: https://satangcorp.com/
+website: https://www.orbixtrade.com/
 twitter: SatangOfficial_
 social:
 - https://www.facebook.com/satangcorp
@@ -27,7 +27,7 @@ android:
 iphone:
   appId: com.satang-pro.ios
   idd: '1513155132'
-  appCountry: us
+  appCountry: th
   released: 2021-08-25
   updated: 2023-10-19
   version: 1.6.0
@@ -38,6 +38,8 @@ iphone:
   developerName: Satang Corporation Co., Ltd.
 
 ---
+
+**Update 2026-10-30:** Satang Pro is now called orbix. Kasikornbank (KBank) bought a 97% stake through its subsidiary Unita Capital and [renamed the company Orbix Trade](https://www.ledgerinsights.com/kasikornbank-acquires-crypto-exchange/); the old site now forwards to [orbixtrade.com](https://www.orbixtrade.com/en).
 
 ## Android
 

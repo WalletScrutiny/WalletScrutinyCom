@@ -1,9 +1,9 @@
 ---
 title: KELTA - Buy & Sell Bitcoin
-date: 2022-10-21
+date: 2026-10-30
 authors:
 - danny
-website: https://kelta.com/
+website: https://kelta.com/#deadLink
 appCountry: sk
 redirect_from:
 - /android/com.kelta.app/
@@ -31,6 +31,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** Both apps are gone from the stores, and the kelta.com domain is now [for sale](https://web.archive.org/web/20260713034736/http://kelta.com/).
+
 ## Android
 
 ### Caution
@@ -51,11 +53,11 @@ It also claims to give payouts every Monday
 >PAYOUT EVERY MONDAY<br>
 Payout is a revenue from the use of computing power and represents your passive income. Its amount depends on the number of KLT tokens you own and use, your activity, the use of cost reduction tools or the use of Blueprint service, which enables you to copy signals of successful users and increase your income.
 
-The Kelta [whitepaper](https://kelta.com/preview-file/Kelta_WhitePaper.pdf) indicates that it held an ICO in 2018:
+The Kelta [whitepaper](https://web.archive.org/web/20230725135516/http://kelta.com/preview-file/Kelta_WhitePaper.pdf) indicates that it held an ICO in 2018:
 
 >KLT tokens will be available for purchase for a limited time by means of an initial coin offering (ICO). Tokens will be available for sale for 70 days, starting January 15, 2018 and ending March 25, 2018. During the pre-sale, tokens will be available for as low as $ 4.00 each, while a minimum purchase amount of 10,000 tokens will be enforced. During the token sale no minimum purchase is to be enforced, but the price of tokens will increase exponentially week by week.
 
-Its [Terms and Conditions](https://kelta.com/preview-file/2021-06-10-KELTA-Cube-General-Business-Terms-and-Conditions.pdf) does raise a few questions about this specific phrase in Section IV - Deposits, Withdrawals and Transactions:
+Its [Terms and Conditions](https://web.archive.org/web/20230711134830/http://www.kelta.com/preview-file/2021-06-10-KELTA-Cube-General-Business-Terms-and-Conditions.pdf) does raise a few questions about this specific phrase in Section IV - Deposits, Withdrawals and Transactions:
 
 > 1. All transactions, deposits and withdrawals related to KELTA ́s services are carried out **primary in the USDT** currency, unless KELTA determines otherwise.<br>
 2. It is also possible to make deposits in the Ethereum and Bitcoin currency. In this case, **it is necessary for the User to convert these cryptocurrencies into USDT via the KELTA App**. Transactions of purchase and sale of KLT tokens can be realized only in relation to USDT.

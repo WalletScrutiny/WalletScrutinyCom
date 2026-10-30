@@ -1,6 +1,6 @@
 ---
 title: 'Ampiy: Trade Bitcoin & Crypto'
-date: 2022-07-31
+date: 2026-10-30
 website: https://ampiy.com
 redirect_from:
 - /android/com.ampiy.app/

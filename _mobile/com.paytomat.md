@@ -1,9 +1,9 @@
 ---
 title: 'Paytomat Wallet: Bitcoin, Ethereum, EOS, tokens'
-date: 2022-10-21
+date: 2026-10-30
 authors:
 - leo
-website: http://www.paytomat.com
+website: https://web.archive.org/web/20220125042531/https://paytomat.com/en/
 twitter: paytomat
 social:
 - https://www.linkedin.com/company/11433285
@@ -35,6 +35,8 @@ iphone:
   verdict: nosource
 
 ---
+
+**⚠️ Warning:** Paytomat appears to be gone. Its domain now carries generic crypto news articles with no wallet download, its GitHub account is gone, and the [last archived copy of the real Paytomat site is from January 2022](https://web.archive.org/web/20220125042531/https://paytomat.com/en/).
 
 ## Android
 

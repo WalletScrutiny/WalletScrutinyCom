@@ -1,6 +1,6 @@
 ---
 title: NordFX | Investing app
-date: 2022-10-21
+date: 2026-10-30
 authors:
 - danny
 website: http://nordfx.com
