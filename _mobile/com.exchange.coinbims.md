@@ -1,6 +1,6 @@
 ---
 title: 빔스코리아 - 신세대 암호화폐거래소
-date: 2024-02-05
+date: 2026-10-30
 website: https://coinbims.com#deadLink
 redirect_from:
 - /android/com.exchange.coinbims/

@@ -1,6 +1,6 @@
 ---
 title: Abono Cripto
-date: 2024-02-05
+date: 2026-10-30
 website: https://abonocripto.com.ar#deadLink
 redirect_from:
 - /android/com.mundocripto.app/

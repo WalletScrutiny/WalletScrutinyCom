@@ -1,7 +1,7 @@
 ---
 title: TRADE HORN
-date: 2024-02-05
-website: https://tradehorn.com/
+date: 2026-10-30
+website: https://tradehorn.com/#deadLink
 redirect_from:
 - /android/com.tradehorn.app/
 android:

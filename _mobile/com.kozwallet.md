@@ -1,7 +1,7 @@
 ---
 title: KOZ Wallet
-date: 2024-02-05
-website: https://www.kozjin.io
+date: 2026-10-30
+website: https://www.kozjin.io#deadLink
 redirect_from:
 - /android/com.kozwallet/
 android:

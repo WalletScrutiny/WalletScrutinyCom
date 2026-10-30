@@ -1,9 +1,9 @@
 ---
 title: 'XGo: Buy, Swap & Store Crypto'
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
-website: https://xgo.com
+website: https://xgo.com#deadLink
 twitter: XGo_official
 social:
 - https://t.me/+Z536yScjjQg0NzE0
@@ -36,6 +36,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** XGo appears to be gone. Both apps have left the stores, the XGo website now only shows a "Domain for sale" page (it still showed the XGo service [in June 2026](https://web.archive.org/web/20260613123619/https://xgo.com/)), and the support site with the terms no longer loads. We found no official closure notice.
+
 ## Android
 
 ## App Description from Google Play
@@ -49,7 +51,7 @@ iphone:
 - The app features a multi-currency account which includes bitcoin.
 - Verification is needed before we even get to see the wallet address.
 - We did not find any option to backup the private keys.
-- Section 4.1 of the [terms](https://support.xgo.com/hc/en-gb/articles/5977815359005-Terms-of-Service), describes the service as having full custody of the user's assets.
+- Section 4.1 of the [terms](https://web.archive.org/web/20230926063629/https://support.xgo.com/hc/en-gb/articles/5977815359005-Terms-of-Service), describes the service as having full custody of the user's assets.
 - This is a **custodial** provider.
 
 ---

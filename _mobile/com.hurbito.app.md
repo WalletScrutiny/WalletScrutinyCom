@@ -1,6 +1,6 @@
 ---
 title: Hurbito - Buy & Sell Bitcoin I
-date: 2024-02-05
+date: 2026-10-30
 website: https://hurbito.com#deadLink
 redirect_from:
 - /android/com.hurbito.app/

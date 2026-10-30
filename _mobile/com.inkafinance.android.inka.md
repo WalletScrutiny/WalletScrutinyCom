@@ -1,6 +1,6 @@
 ---
 title: Inka | Crypto & DeFi wallet
-date: 2024-02-05
+date: 2026-10-30
 website: https://inka.finance#deadLink
 redirect_from:
 - /android/com.inkafinance.android.inka/

@@ -1,6 +1,6 @@
 ---
 title: Thunderbolt Lightning Wallet
-date: 2024-02-05
+date: 2026-10-30
 website: https://thunderboltwallet.us#deadLink
 features:
 - ln
@@ -21,5 +21,5 @@ android:
 ---
 
 <div class="alertBox"><div>
-<p>This app is <a href="https://github.com/btcontract/wallet/issues/146">most likely a scam!</a></p>
+<p>This app is <a href="https://github.com/Tactical-Advantage-Trading/wallet/issues/146">most likely a scam!</a></p>
 </div></div>

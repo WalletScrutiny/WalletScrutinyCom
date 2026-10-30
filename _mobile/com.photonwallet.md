@@ -1,6 +1,6 @@
 ---
 title: Photon-Wallet
-date: 2024-02-05
+date: 2026-10-30
 redirect_from:
 - /android/com.photonwallet/
 android:

@@ -1,7 +1,7 @@
 ---
 title: Notch Wallet - Altcoins Wallet
-date: 2024-02-05
-website: https://notchtoken.com
+date: 2026-10-30
+website: https://notchtoken.com#deadLink
 redirect_from:
 - /android/com.notch.token/
 android:

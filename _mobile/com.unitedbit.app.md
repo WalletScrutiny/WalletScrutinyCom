@@ -1,7 +1,7 @@
 ---
 title: UNITEDBIT
-date: 2024-02-05
-website: https://unitedbit.com/
+date: 2026-10-30
+website: https://unitedbit.com/#deadLink
 redirect_from:
 - /android/com.unitedbit.app/
 android:

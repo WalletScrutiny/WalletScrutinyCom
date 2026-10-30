@@ -1,6 +1,6 @@
 ---
 title: Trofi - Crypto Investment App
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 website: https://www.trofi.group#deadLink
@@ -38,6 +38,8 @@ iphone:
   developerName: Yield App
 
 ---
+
+**⚠️ Warning:** Yield App, the company behind Trofi, froze all withdrawals on 28 June 2024 and went into liquidation in the Seychelles ([crypto.news](https://crypto.news/crypto-wealth-platform-yield-app-faces-liquidation-due-to-ftx-triggered-losses/), [liquidator Cork Gully](https://corkgully.com/cork-gully-achieves-rapid-crypto-asset-recovery-and-distribution-in-yield-app-liquidation/)). The app and the Trofi website are gone.
 
 ## Android
 

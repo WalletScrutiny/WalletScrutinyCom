@@ -1,6 +1,6 @@
 ---
 title: Libex
-date: 2024-02-05
+date: 2026-10-30
 website: https://www.libertas-fund.com#deadLink
 redirect_from:
 - /android/com.libertasfund.exchange/

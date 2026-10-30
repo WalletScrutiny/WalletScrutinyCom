@@ -1,6 +1,6 @@
 ---
 title: 'Freya Wallet: Crypto Wallet'
-date: 2024-02-05
+date: 2026-10-30
 website: https://freyawallet.com#deadLink
 redirect_from:
 - /android/com.secure.freyawallet/

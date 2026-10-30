@@ -1,7 +1,7 @@
 ---
 title: FlashX
-date: 2024-02-05
-website: https://flashxchanger.com/
+date: 2026-10-30
+website: https://flashxchanger.com/#deadLink
 redirect_from:
 - /android/com.flashxchanger.app/
 android:
