@@ -1,6 +1,6 @@
 ---
 title: UVTrader
-date: 2023-11-02
+date: 2026-10-30
 website: http://exmo.uvitto.ru#deadLink
 redirect_from:
 - /android/ru.uvitto.uvextrader/

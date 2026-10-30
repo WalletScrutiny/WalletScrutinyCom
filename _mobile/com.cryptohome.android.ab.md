@@ -1,6 +1,6 @@
 ---
 title: Cryptohome
-date: 2023-12-19
+date: 2026-10-30
 website: https://cryptohome.ng#deadLink
 redirect_from:
 - /android/com.cryptohome.android.ab/

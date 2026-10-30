@@ -1,6 +1,6 @@
 ---
 title: 1MO Trading platform
-date: 2023-12-19
+date: 2026-10-30
 website: https://web.archive.org/web/20230607060147/http://1minuteoptions.com/
 redirect_from:
 - /android/com.MOTradingplatform/

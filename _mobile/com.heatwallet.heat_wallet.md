@@ -1,6 +1,6 @@
 ---
 title: HW (deprecated)
-date: 2023-11-25
+date: 2026-10-30
 redirect_from:
 - /android/com.heatwallet.heat_wallet/
 android:

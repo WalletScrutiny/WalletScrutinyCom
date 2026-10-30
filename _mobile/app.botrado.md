@@ -1,6 +1,6 @@
 ---
 title: Botrado P2P
-date: 2023-12-19
+date: 2026-10-30
 website: https://botrado.net#deadLink
 redirect_from:
 - /android/app.botrado/

@@ -1,6 +1,6 @@
 ---
 title: X-Meta Exchange
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: https://x-meta.com
@@ -37,6 +37,8 @@ iphone:
   developerName: X-META LLC
 
 ---
+
+**Update 2026-10-30:** X-Meta now offers a new app, "X-Meta Global", from its [website](https://www.x-meta.com/mn). This older Android app has not been updated since December 2022, and the old iPhone app is gone.
 
 ## Android
 

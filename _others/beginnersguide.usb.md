@@ -4,18 +4,21 @@ appId: beginnersguide.usb
 authors:
 - danny
 icon: beginnersguide.usb.webp
-date: 2023-12-15
+date: 2026-10-30
 released: 2019-06-04
 weight: 11.3
 provider: BetterWorldATL
 shop: https://www.amazon.com/Beginners-Guide-Cryptocurrency-Portable-Launcher/dp/B07SNFBL7S/
 country: US
 price: 34USD
-meta: ok
+meta: discontinued
+discontinued: 2026-10-30
 verdict: plainkey
 social: 
 
 ---
+
+**Update 2026-10-30:** The USB stick is no longer sold. Its [Amazon page](https://www.amazon.com/Beginners-Guide-Cryptocurrency-Portable-Launcher/dp/B07SNFBL7S/) says "Currently unavailable" and Amazon does not know if it will be back in stock. Sticks already sold keep working, so we mark it discontinued.
 
 ## Product Background
 

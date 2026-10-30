@@ -1,7 +1,7 @@
 ---
 title: GoLiquid
-date: 2023-12-19
-website: http://goliquid.app
+date: 2026-10-30
+website: http://goliquid.app#deadLink
 redirect_from:
 - /android/com.bitmex_trading/
 android:

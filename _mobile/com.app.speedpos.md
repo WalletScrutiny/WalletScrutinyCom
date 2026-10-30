@@ -1,6 +1,6 @@
 ---
 title: Speed Bitcoin POS
-date: 2023-12-19
+date: 2026-10-30
 website: https://www.tryspeed.com/
 redirect_from:
 - /android/com.app.speedpos/

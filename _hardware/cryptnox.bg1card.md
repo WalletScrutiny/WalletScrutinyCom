@@ -21,7 +21,7 @@ icon: cryptnox.bg1card.webp
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2023-11-15
+date: 2026-10-30
 signer: 
 twitter: cryptnox
 social: 

@@ -1,6 +1,6 @@
 ---
 title: B.P.S SmartWallet
-date: 2023-12-19
+date: 2026-10-30
 website: https://bps.money
 redirect_from:
 - /android/com.bpstwalletnew/

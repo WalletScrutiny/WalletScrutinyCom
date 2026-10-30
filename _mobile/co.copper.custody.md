@@ -1,6 +1,6 @@
 ---
 title: Copper Unlimited
-date: 2023-12-14
+date: 2026-10-30
 authors:
 - danny
 website: https://copper.co

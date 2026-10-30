@@ -21,7 +21,7 @@ icon: denarium.webp
 bugbounty: 
 meta: discontinued
 verdict: prefilled
-date: 2023-12-07
+date: 2026-10-30
 signer: 
 twitter: denariumbitcoin
 social:

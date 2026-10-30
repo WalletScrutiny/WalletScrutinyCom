@@ -1,6 +1,6 @@
 ---
 title: BigMine Bitcoin
-date: 2023-12-19
+date: 2026-10-30
 website: https://riccardoodissea.wixsite.com/innapp
 redirect_from:
 - /android/com.bigminebitcoin1rd0.app/

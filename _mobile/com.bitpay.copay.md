@@ -1,6 +1,6 @@
 ---
 title: Copay Bitcoin Wallet
-date: 2023-12-14
+date: 2026-10-30
 authors:
 - danny
 website: https://copay.io
@@ -21,5 +21,7 @@ iphone:
   developerName: BitPay, Inc.
 
 ---
+
+**Update 2026-10-30:** Copay is no longer in the App Store; an [archived copy of its App Store page](https://web.archive.org/web/20260809103528/https://apps.apple.com/us/app/copay-bitcoin-wallet/id951330296) shows it was still listed in August 2026. The copay.io website now leads to the [Copay GitHub repository](https://github.com/bitpay/copay), which says "Copay wallet is now Bitpay Wallet".
 
 This still exists in the Apple store, although it has been replaced by {% include walletLink.html wallet='iphone/com.bitpay.wallet' verdict='true' %}

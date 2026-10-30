@@ -1,6 +1,6 @@
 ---
 title: Kudiro
-date: 2023-12-19
+date: 2026-10-30
 redirect_from:
 - /android/app.Kudiro.io/
 android:

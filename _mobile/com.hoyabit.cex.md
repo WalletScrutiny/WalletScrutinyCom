@@ -1,6 +1,6 @@
 ---
 title: HOYA BIT 加密貨幣交易所 ｜一鍵台幣買賣比特幣
-date: 2023-12-02
+date: 2026-10-30
 authors:
 - danny
 website: https://hoyabit.com/

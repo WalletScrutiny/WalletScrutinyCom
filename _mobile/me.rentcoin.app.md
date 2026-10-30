@@ -1,7 +1,7 @@
 ---
 title: RentCoin
-date: 2023-11-02
-website: https://www.rentcoin.me
+date: 2026-10-30
+website: https://www.rentcoin.me#deadLink
 redirect_from:
 - /android/me.rentcoin.app/
 android:

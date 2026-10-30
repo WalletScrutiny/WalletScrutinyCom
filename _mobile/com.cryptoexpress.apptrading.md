@@ -1,7 +1,7 @@
 ---
 title: Crpyto Express Exchange
-date: 2023-12-19
-website: https://www.cryptoxpress.io/
+date: 2026-10-30
+website: https://www.cryptoxpress.io/#deadLink
 redirect_from:
 - /android/com.cryptoexpress.apptrading/
 android:

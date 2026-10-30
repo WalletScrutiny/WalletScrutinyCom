@@ -1,6 +1,6 @@
 ---
 title: BMETA
-date: 2023-11-02
+date: 2026-10-30
 redirect_from:
 - /android/key.cn/
 android:
