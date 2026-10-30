@@ -1,6 +1,6 @@
 ---
 title: Pay me with Bitcoin
-date: 2022-02-25
+date: 2026-10-30
 website: http://www.salvadorjesus.com/
 redirect_from:
 - /android/com.salvadorjesus.PagameConBitcoin/
@@ -13,8 +13,9 @@ android:
   version: 2.2.3.1
   icon: com.salvadorjesus.PagameConBitcoin.webp
   meta: obsolete
-  verdict: wip
+  verdict: nowallet
   developerName: Salvador Jesús Romero
 
 ---
 
+**Update 2026-10-30:** This app is not a wallet. It is still on Google Play, last updated in March 2020. Its description says it creates Bitcoin payment links and QR codes for shops, and that you add wallets "with just the public address" to check their balance and transactions, "without exposing your private keys to employees". Lightning payments go through OpenNode. The app never holds keys and cannot send bitcoin, so we give it the verdict {% include verdictBadge.html verdict="nowallet" type='short' %}.

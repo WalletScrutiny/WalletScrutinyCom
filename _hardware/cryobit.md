@@ -24,7 +24,7 @@ icon: cryobit.webp
 bugbounty: 
 meta: defunct
 verdict: prefilled
-date: 2022-03-11
+date: 2026-10-30
 signer: 
 twitter: cryobit
 social:
@@ -34,6 +34,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** Nothing changed. [cryobit.co](https://www.cryobit.co/products/) is still online but frozen: the footer still reads "Copyright © 2017" and the [Cryo Card page](https://www.cryobit.co/cold-storage-products/cryo-card/) shows every variant "Out of stock". [Florida records](https://bisprofiles.com/fl/cryobit-l14000004402) still list CryoBit LLC as inactive. This stays {% include verdictBadge.html verdict="prefilled" type='short' %} and defunct.
 
  **Note:** There are [external](https://bisprofiles.com/fl/cryobit-l14000004402) [sources](https://www.corporationwiki.com/p/2eins3/cryobit-llc) that state that Cryobit LLC is inactive. The website is also outdated as the copyright reads "2017" and all the products are listed as "out of stock".
 

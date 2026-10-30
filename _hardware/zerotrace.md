@@ -16,13 +16,13 @@ providerWebsite:
 website: https://zerotrace.org
 shop: https://zerotrace.org/product/zerotracepen/
 country: US
-price: 97USD
+price: 99USD
 repository: 
 icon: zerotrace.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-03-08
+date: 2026-10-30
 signer: 
 twitter: 
 social:
@@ -31,6 +31,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** The [Zero Trace Pen](https://zerotrace.org/product/zerotracepen/) is still on sale, now as a "2nd Generation" device with a USB-A or USB-C plug, for $99 to $147. The shop page still lists Electrum among the pre-installed apps. We found no published source code or firmware for the pen itself, so it stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 ## Product Description
 

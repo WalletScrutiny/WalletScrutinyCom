@@ -15,17 +15,17 @@ dimensions:
 - 1.2
 weight: 35
 provider: Ballet
-providerWebsite: https://www.balletcrypto.com
-website: https://www.balletcrypto.com/en/real/
-shop: https://www.balletcrypto.com/en/buy/
+providerWebsite: https://www.ballet.com
+website: https://www.ballet.com/en/real/
+shop: https://store.ballet.com/products/ballet-wallet
 country: US
-price: 35USD
+price: 49USD
 repository: 
 icon: balletcryptoreal.webp
 bugbounty: 
 meta: ok
 verdict: sealed-plainkey
-date: 2022-03-23
+date: 2026-10-30
 signer: 
 twitter: BalletCrypto
 social:
@@ -34,6 +34,8 @@ social:
 features: 
 
 ---
+
+**Update 2026-10-30:** The REAL card is still sold. Ballet moved from balletcrypto.com to [ballet.com](https://www.ballet.com/), and the [Ballet store](https://store.ballet.com/products/ballet-wallet) now lists the card at $49, next to gold and limited editions. Ballet still describes the same [2FKG process](https://www.ballet.com/en/2FKG/), and the companion app {% include walletLink.html wallet='android/com.balletcrypto' verdict='true' %} is still available. We found no change to the design, so the verdict stays {% include verdictBadge.html verdict="sealed-plainkey" type='short' %}.
 
 **Updated Analysis 2022-01-20**
 

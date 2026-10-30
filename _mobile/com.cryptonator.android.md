@@ -1,7 +1,7 @@
 ---
 wsId: cryptonator
 title: Cryptonator cryptocurrency wallet
-date: 2022-02-25
+date: 2026-10-30
 authors:
 - leo
 website: https://www.cryptonator.com
@@ -17,7 +17,7 @@ android:
   version: '4.2'
   reviews: 139
   icon: com.cryptonator.android.webp
-  meta: removed
+  meta: defunct
   verdict: custodial
 iphone:
   appId: com.cryptonator.ios
@@ -27,18 +27,22 @@ iphone:
   version: 4.1.4
   reviews: 26
   icon: com.cryptonator.ios.webp
-  meta: removed
+  meta: defunct
   verdict: custodial
 
 ---
 
+**⚠️ Warning:** Cryptonator is gone. US and German authorities seized its domain in August 2024 and charged its operator with money laundering.
+
 ## Android
+
+**Update 2026-10-30:** We now mark this app defunct. It is still gone from Google Play. In August 2024 US and German law enforcement [seized cryptonator.com and charged its operator](https://www.bleepingcomputer.com/news/cryptocurrency/cryptonator-seized-for-laundering-ransom-payments-stolen-crypto/) with money laundering and running an unlicensed money service business. The domain now redirects to a [seizure notice](https://web.archive.org/web/20260514125538/https://www.cryptonator.com/). The Customer Support link below now points to an archived copy. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 **Update 2022-04-10**: This app is not available anymore.
 
 Cryptonator cryptocurrency wallet
 makes no claim to be non-custodial but the
-[Customer Support](https://www.cryptonator.com/contact/other/)
+[Customer Support](https://web.archive.org/web/20220122233702/https://www.cryptonator.com/contact/other/)
 is pretty unambiguously pointing towards it being custodial:
 
 > **Do you provide private keys?**: No
@@ -49,10 +53,12 @@ Absent source code this wallet is **not verifiable**.
 
 ## iPhone
 
+**Update 2026-10-30:** The app is still gone from the App Store, and the service was seized as described in the Android section. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+
 **Update 2022-02-09**: This app is not on the Store anymore.
 
 Cryptonator cryptocurrency wallet makes no claim to be non-custodial but the
-[Customer Support](https://www.cryptonator.com/contact/other/)
+[Customer Support](https://web.archive.org/web/20220122233702/https://www.cryptonator.com/contact/other/)
 is pretty unambiguously pointing towards it being custodial:
 
 > **Do you provide private keys?**: No

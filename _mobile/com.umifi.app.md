@@ -1,7 +1,7 @@
 ---
 wsId: UmiFi
 title: UmiFi-Bitcoin, Crypto Trading
-date: 2022-02-25
+date: 2026-10-30
 authors:
 - danny
 website: http://www.umifi.com
@@ -18,7 +18,7 @@ android:
   version: 1.0.6
   reviews: 4
   icon: com.umifi.app.webp
-  meta: removed
+  meta: defunct
   verdict: custodial
 iphone:
   appId: com.umifi.app
@@ -28,12 +28,16 @@ iphone:
   version: 1.0.6
   reviews: 1
   icon: com.umifi.app.webp
-  meta: removed
+  meta: defunct
   verdict: custodial
 
 ---
 
+**⚠️ Warning:** UmiFi appears to be gone. Its domain is for sale and its help center is closed.
+
 ## Android
+
+**Update 2026-10-30:** UmiFi appears to be out of business. Its website [umifi.com](http://www.umifi.com) now redirects to a HugeDomains sale page, and its [Zendesk help center](https://umificom.zendesk.com/), which the analysis below cites, shows Zendesk's "help center closed" page. The app is still missing from Google Play. It was a {% include verdictBadge.html verdict="custodial" type='short' %} exchange and the verdict stays as its history.
 
 **Update 2022-02-11**: This app is not on the Store anymore.
 
@@ -65,6 +69,8 @@ Cryptocurrency exchanges that have Anti Money Laundering policies are almost alw
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still missing from the App Store, and the provider's website and help center are gone (see the Android section). The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 **Update 2022-10-21**: This app is not available anymore.
 

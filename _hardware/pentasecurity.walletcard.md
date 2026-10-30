@@ -19,9 +19,9 @@ price:
 repository: 
 icon: pentasecurity.walletcard.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: noita
-date: 2022-04-04
+date: 2026-10-30
 signer: 
 twitter: pentasecsystems
 social:
@@ -34,6 +34,8 @@ features:
 - secEl
 
 ---
+
+**Update 2026-10-30:** Penta Security no longer offers this card. Its PALLET wallet line was on the [product page archived in December 2019](https://web.archive.org/web/20191206115146/https://www.pentasecurity.com/product/pallet/), but that page now returns 404 and the site menu has no blockchain products. The [brochure](https://www.pentasecurity.com/wp-content/uploads/2018/08/Brochure_Penta-Cryptowallet-pallet_JP_180605.pdf) is still online, and the company itself is active. The companion app {% include walletLink.html wallet='android/com.pentasecurity.pallet' verdict='true' %} is still off Google Play. We mark the card discontinued; it still has no screen or buttons, so the verdict stays {% include verdictBadge.html verdict="noita" type='short' %}.
 
 ## Product Description
 

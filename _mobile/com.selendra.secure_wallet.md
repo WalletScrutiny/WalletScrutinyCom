@@ -1,6 +1,6 @@
 ---
 title: 'Bitriel: digital wallet'
-date: 2022-03-07
+date: 2026-10-30
 authors:
 - danny
 website: https://bitriel.com/
@@ -15,13 +15,15 @@ android:
   updated: 2024-04-29
   version: 1.0.0
   reviews: 4
+  repository: https://github.com/bitriel/bitriel-wallet
   icon: com.selendra.secure_wallet.webp
-  meta: defunct
+  meta: ok
   verdict: sourceavailable
   developerName: KOOMPI
-  repository: https://github.com/bitriel/bitriel-wallet
 
 ---
+
+**Update 2026-10-30:** The app is back on Google Play as "Bitriel: digital wallet" by KOOMPI, last updated in April 2024, so it is no longer defunct. Its store description calls it "a self-custody digital wallet that supports cross-chain multi-assets". The repository we reviewed, [bitriel/bitriel-wallet](https://github.com/bitriel/bitriel-wallet), was archived in December 2023, and our [build issue](https://github.com/bitriel/bitriel-wallet/issues/26) is still open there. Newer code for the same app ID lives in [bitriel/bitriel-monorepo](https://github.com/bitriel/bitriel-monorepo), an Expo rewrite whose [app.json](https://github.com/bitriel/bitriel-monorepo/blob/main/apps/mobile/app.json) uses `com.selendra.secure_wallet` and which has no license file. We have not checked which code the current store version was built from, or whether it still holds Bitcoin, so the verdict stays {% include verdictBadge.html verdict="sourceavailable" type='short' %}. The website bitriel.com returned a 502 error when we checked, though the [Wayback Machine](https://web.archive.org/web/20260216052714/https://www.bitriel.com/) saw it working in February 2026.
 
 **Update 2022-02-26**: This app is not available anymore.
 

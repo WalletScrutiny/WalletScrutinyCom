@@ -1,7 +1,7 @@
 ---
 wsId: mnCoinHub
 title: Coinhub
-date: 2022-02-21
+date: 2026-10-30
 authors:
 - danny
 website: https://coinhub.mn/
@@ -26,7 +26,7 @@ android:
 iphone:
   appId: mn.coinhub.coinhub
   idd: '1585102002'
-  appCountry: us
+  appCountry: mn
   released: 2021-09-23
   updated: 2023-04-19
   version: 1.3.3
@@ -39,6 +39,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Coinhub is still an active Mongolian exchange, and the app is still on Google Play. Its [terms of service](https://www.coinhub.mn/about-terms), last revised on 9 April 2026, define the user's "wallet" as an account that Coinhub creates and keeps for the user on its platform, and still route every outgoing transfer through the exchange. We found no self-custody option, so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## Notes on similar apps 
 
@@ -108,5 +110,7 @@ This is most notably expressed in 3.2.6:
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The app is not in the US App Store, but it is still available in the Mongolian one, updated in October 2026, so we now point the store check at Mongolia. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include copyFromAndroid.html %}

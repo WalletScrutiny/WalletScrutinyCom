@@ -1,7 +1,7 @@
 ---
 wsId: atomex
 title: Atomex - Crypto Wallet & DEX
-date: 2022-02-25
+date: 2026-10-30
 authors:
 - leo
 website: https://atomex.me#deadLink
@@ -17,10 +17,9 @@ android:
   version: 1.25.0
   reviews: 5
   icon: com.atomex.android.webp
-  meta: removed
-  verdict: sourceavailable
+  meta: defunct
+  verdict: nosource
   developerName: Atomex
-  repository: https://github.com/atomex-me/atomex.mobile#deadLink
 iphone:
   appId: com.atomex.ios
   idd: '1534717828'
@@ -29,14 +28,17 @@ iphone:
   version: '1.24'
   reviews: 11
   icon: com.atomex.ios.webp
-  meta: removed
-  verdict: sourceavailable
+  meta: defunct
+  verdict: nosource
   developerName: Atomex OÜ
-  repository: https://github.com/atomex-me/atomex.mobile#deadLink
 
 ---
 
+**⚠️ Warning:** Atomex has shut down. Its website says the team no longer supports the project.
+
 ## Android
+
+**Update 2026-10-30:** Atomex has ended the project, and we change the verdict from {% include verdictBadge.html verdict="sourceavailable" type='short' %} to {% include verdictBadge.html verdict="nosource" type='short' %}. The [Atomex website](https://atomex.me/) now only says "We are sad to announce that the Atomex team will no longer support the project". The app is still gone from Google Play. The atomex.mobile repository we linked below has been deleted from the [atomex-me GitHub account](https://github.com/atomex-me); the only copy we found is a [personal copy](https://github.com/mismirnov/atomex.mobile) last updated in May 2021, long before the last release, 1.25.0, in February 2023. We did the same for the {% include walletLink.html wallet='desktop/atomex' verdict='true' %} app when its repository vanished.
 
 **Update 2022-02-12**: This app is not on the Store anymore.
 
@@ -61,6 +63,8 @@ An issue has been opened at [https://github.com/atomex-me/atomex.mobile/issues/2
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still missing from the App Store, Atomex has ended the project, and its source repository is gone (see Android). The verdict changes from {% include verdictBadge.html verdict="sourceavailable" type='short' %} to {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 > Atomex — is a non-custodial crypto wallet
 

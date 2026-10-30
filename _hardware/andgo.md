@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: AndGo Company Ltd.
+provider: AndGo, Inc.
 providerWebsite: 
 website: https://andgo.co.jp/
 shop: 
@@ -20,8 +20,8 @@ repository:
 icon: andgo.webp
 bugbounty: 
 meta: ok
-verdict: vapor
-date: 2022-04-11
+verdict: wip
+date: 2026-10-30
 signer: 
 twitter: andgo_inc
 social: 
@@ -29,6 +29,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** The AndGo hardware wallet exists, but only as an enterprise product, so we change the verdict from vapor to {% include verdictBadge.html verdict="wip" type='short' %}, as we did for the B2B {% include walletLink.html wallet='hardware/gk8.coldvault' verdict='true' %}. [AndGo's website](https://andgo.co.jp/) (in Japanese) now describes an enterprise wallet business that sells signing-key management to crypto exchanges and companies. A [May 2026 press release](https://prtimes.jp/main/html/rd/p/000000006.000040358.html) (in Japanese) calls the "AndGo Wallet" an enterprise hardware wallet that AndGo develops and manufactures, says several crypto exchanges and large companies use it without naming them, and reports a completed trial that links it to Fireblocks. We found no consumer shop and no price. AndGo's [GitHub account](https://github.com/andgohq) has no firmware for the device.
 
 ## 2022-02-18
 

@@ -15,7 +15,7 @@ dimensions:
 weight: 
 provider: PRISMicide
 providerWebsite: 
-website: http://www.prismicide.com
+website: https://web.archive.org/web/20160110122424/http://prismicide.com/
 shop: https://www.indiegogo.com/projects/prismicide-world-s-most-secure-bitcoin-hardware-wallet-and-anti-prism-platform#/
 country: FR
 price: 
@@ -24,7 +24,7 @@ icon: prismicide.webp
 bugbounty: 
 meta: defunct
 verdict: nosource
-date: 2022-04-04
+date: 2026-10-30
 signer: 
 twitter: Prismicide
 social:
@@ -34,6 +34,10 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** This project is gone. Its website and its successor site no longer exist.
+
+**Update 2026-10-30:** PRISMicide is still gone. prismicide.com and bitcoinpinpad.com no longer resolve, and the [last archived copy of prismicide.com, from July 2026](https://web.archive.org/web/20260714131558/http://www.prismicide.com/), is a Gandi parking page. The website field now points to an [archived copy of the real site from January 2016](https://web.archive.org/web/20160110122424/http://prismicide.com/). A GitHub search for PRISMicide, origamiboard and bitcoinpinpad finds no repository, so the claimed open source code is still nowhere to be found and the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 ## Product Description 
 

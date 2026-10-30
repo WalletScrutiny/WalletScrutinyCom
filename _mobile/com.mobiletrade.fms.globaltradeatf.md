@@ -1,7 +1,7 @@
 ---
 wsId: GlobalTradeATF
 title: Global TradeATF Online Trading | Forex and Stocks
-date: 2022-03-07
+date: 2026-10-30
 authors:
 - danny
 website: https://global.tradeatf.com#deadLink
@@ -21,7 +21,7 @@ android:
   version: 1.5.78-mobiletrade.fms.globaltradeatf
   reviews: 318
   icon: com.mobiletrade.fms.globaltradeatf.webp
-  meta: removed
+  meta: defunct
   verdict: nosendreceive
 iphone:
   appId: com.tradeatf.global
@@ -30,12 +30,16 @@ iphone:
   updated: 2021-11-26
   version: 1.69.13
   icon: com.tradeatf.global.webp
-  meta: removed
+  meta: defunct
   verdict: nosendreceive
 
 ---
 
+**⚠️ Warning:** Global TradeATF appears to be gone. Both apps are off the stores, its website domain is for sale, and South Africa's financial regulator warned against it in 2021.
+
 ## Android
+
+**Update 2026-10-30:** We now mark this app defunct. It is still gone from Google Play, and global.tradeatf.com now forwards to a GoDaddy page offering the domain for sale. In July 2021 South Africa's Financial Sector Conduct Authority [warned the public](https://insurancebiz.co.za/news/regulatory-news/fsca-warns-the-public-against-global-tradeatf/bayline-trading-ltd.html) that Global TradeATF, operated by Bayline Global World Ltd and Bayline Trading of Belize, was not authorised to provide financial services there. The app only offered CFDs, so the verdict stays {% include verdictBadge.html verdict="nosendreceive" type='short' %}.
 
 ## App Description
 
@@ -80,6 +84,8 @@ CFD Trading platforms **cannot send or receive bitcoins.** Careful scrutiny must
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The app is still gone from the App Store, and the provider appears to be gone. See the Android section.
 
 **Update 2022-02-20**: This app is not available anymore.
 

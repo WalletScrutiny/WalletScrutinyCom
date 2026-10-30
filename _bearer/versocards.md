@@ -11,8 +11,8 @@ binaries:
 dimensions: 
 weight: 
 provider: 
-providerWebsite: https://versocards.com/
-website: https://versocards.com/
+providerWebsite: https://versocards.com/#deadLink
+website: https://versocards.com/#deadLink
 shop: 
 country: US
 price: 16.99USD
@@ -21,7 +21,7 @@ icon: versocards.webp
 bugbounty: 
 meta: defunct
 verdict: prefilled
-date: 2022-03-23
+date: 2026-10-30
 signer: 
 twitter: VersoCards
 social:
@@ -29,6 +29,10 @@ social:
 features: 
 
 ---
+
+**⚠️ Warning:** The versocards.com domain no longer belongs to Verso. It now shows an unrelated page that sends visitors to a third-party "official Bitcoin wallet" sign-up site. Do not use it.
+
+**Update 2026-10-30:** Verso is gone. Its domain was taken over (see the warning above), the [VersoSolutions GitHub account](https://github.com/VersoSolutions) has had no code pushed since 2019, and the Verso Wallet app is still absent from Google Play. The listing stays defunct and {% include verdictBadge.html verdict="prefilled" type='short' %}.
 
 ## Addendum 2022-03-19
 
@@ -49,7 +53,7 @@ A third-party reviewer Dan Roseman from letstalkbitcoin.com also mentioned some 
 
 The card does not have a screen interface or a button for confirming transactions. To confirm transactions or use the app, the user is required to scan the card's private key.
 
-The primary domain for the vendor is still online, however the 'Buy' function is no longer available. The last public tweet of the VersoCard twitter account was made on [November 14, 2015](https://twitter.com/VersoCards/status/661896010940227584). 
+At the time, the primary domain for the vendor was still online, but the 'Buy' function was no longer available. The last public tweet of the VersoCard twitter account was made on [November 14, 2015](https://twitter.com/VersoCards/status/661896010940227584). 
 
 All indications point to a product that is **no longer available**.
 

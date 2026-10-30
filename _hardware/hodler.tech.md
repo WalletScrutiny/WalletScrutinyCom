@@ -21,7 +21,7 @@ icon: hodler.tech.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-11
+date: 2026-10-30
 signer: 
 twitter: HODLER_TECH
 social:
@@ -30,6 +30,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** Still dead. hodler.tech does not resolve, the [GitHub repository](https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet) had its last push on 2019-10-29, and the companion app {% include walletLink.html wallet='android/tech.hodler.core' verdict='true' %} is no longer on Google Play. The verdict stays {% include verdictBadge.html verdict="vapor" type='short' %}.
 
 If a hardware wallet based on a Samsung J3 exists as a Samsung J3, does the project still exist? This project held [an ICO](https://medium.com/@cryptoyoga/hodler-the-only-ico-with-an-annual-83de9463f26b) where they promised annual dividends:
 

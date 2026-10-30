@@ -11,7 +11,7 @@ binaries:
 dimensions: 
 weight: 
 provider: CoinPlus
-providerWebsite: https://www.coinplus.com/en#deadLink
+providerWebsite: https://coinplus.com/
 website: 
 shop: 
 country: LU
@@ -21,7 +21,7 @@ icon: coinplussolo.webp
 bugbounty: 
 meta: ok
 verdict: prefilled
-date: 2022-03-23
+date: 2026-10-30
 signer: 
 twitter: coinplus_sa
 social:
@@ -34,9 +34,11 @@ features:
 
 ---
 
+**Update 2026-10-30:** The product lives on as the "Coinplus Card" and works the same way, so this stays {% include verdictBadge.html verdict="prefilled" type='short' %}. [Coinplus, Inc.](https://coinplus.com/), now based in New York, sells the card from 24.99 USD. Its [security page](https://coinplus.com/security) describes the same two-secret scheme: a manufacturing partner engraves and seals secret 1, Coinplus engraves and seals secret 2, and the user combines both in the Coinplus app. The cards still arrive with their keys already made, and the user has to trust that the two parties never combine their secrets. The [redeem code](https://github.com/coinplus-sa/coinplus-solo-redeem) is still on GitHub under the MIT license and was last updated in March 2026.
+
 [Here is a video](https://youtube.com/watch?v=qaaQREWK9IY) showing how to redeem the private key on CoinPlus Solo.
 
-CoinPlus also has a [mobile app](https://play.google.com/store/apps/details?id=com.coinplus.mobile) that combines the two secrets to compute the private key.
+CoinPlus also had a mobile app, {% include walletLink.html wallet='android/com.coinplus.mobile' verdict='true' %}, that combines the two secrets to compute the private key.
 
 The two secrets are two printed strings printed on the same card by two different entities. These are initially covered and ideally, can only be known by the user when he is in possession of the card. The two are then entered into a program which then converts the two into a private key.
 

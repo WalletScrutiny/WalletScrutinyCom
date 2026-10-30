@@ -19,15 +19,19 @@ price: 25EUR
 repository: 
 icon: blackmetal.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: prefilled
-date: 2022-03-23
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
 features: 
 
 ---
+
+**⚠️ Warning:** The Crypto Cards shop is gone. cryptocards.store no longer resolves.
+
+**Update 2026-10-30:** The provider is gone. cryptocards.store does not resolve any more, and its [registry record](https://rdap.org/domain/cryptocards.store) shows the domain was registered anew on 2026-05-25 and is on "client hold", so the old registration lapsed. The newest Wayback Machine capture of the shop is from August 2025, and we found no successor shop. We mark the listing defunct. Cards already sold had their keys printed by the provider, so they stay {% include verdictBadge.html verdict="prefilled" type='short' %}.
 
 ## Product Description 
 

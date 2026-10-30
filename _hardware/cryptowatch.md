@@ -19,9 +19,9 @@ price: 400XCW
 repository: 
 icon: cryptowatch.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2022-04-11
+date: 2026-10-30
 signer: 
 twitter: thecryptowatchO
 social:
@@ -32,6 +32,10 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** The Crypto Watch project appears to be gone. Its domain no longer exists.
+
+**Update 2026-10-30:** The watch never shipped and the project is gone, so this stays {% include verdictBadge.html verdict="vapor" type='short' %} and we mark it defunct. On 2026-10-30 thecryptowatch.org no longer resolved; by [October 2025](https://web.archive.org/web/20251009190231/https://thecryptowatch.org/en/) it was already a domain parking page. The [Telegram channel](https://t.me/s/thecryptowatch_org) has had no post since March 2020.
 
 **⚠️ Note:** The project held an STO (Security Token Offering) from 2019-01-06 up to 2019-02-08. The only available images of the watch are renderings. The project is also associated with an Ethereum token called XCW and a decentralized exchange. We checked the Telegram channel, and the last message dated March 6, 2020 was: 
 
@@ -55,7 +59,7 @@ Further details:
 
 > Secure Element (SE) is a protection against unauthorized interference. The chip has been developed to withstand complex attacks and is able to reliably protect the hosting of apps and their confidential and cryptographic data. SEs are usually used in credit cards, SIM cards, or ID cards.
 
-A CryptoWatch app is mentioned, but we could not find any links to download from the archived page. A search on Google Play, displays [3 results with a similar name](https://play.google.com/store/search?q=thecryptowatch&c=apps&hl=en&gl=US), but unrelated website or appearance. The CryptoWatch app on the Apple Store is an app developed by Kraken meant to track the prices of cryptocurrencies.
+A CryptoWatch app is mentioned, but we could not find any links to download from the archived page. A search on Google Play displays 3 results with a similar name, but unrelated website or appearance. The CryptoWatch app on the Apple Store is an app developed by Kraken meant to track the prices of cryptocurrencies.
 
 > theCryptoWatch has a simple and easy-to-use application for PCs and mobile devices called theCryptoWatch App.
 This application, designed for cryptocurrency wallets, allows you to: manage devices and crypto assets through a single window, send and receive funds, make new accounts and manage devices for cold storage of cryptocurrencies. The private key is reliably stored on the device.

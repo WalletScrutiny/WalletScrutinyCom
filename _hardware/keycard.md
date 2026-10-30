@@ -19,13 +19,13 @@ providerWebsite: https://keycard.tech
 website: https://keycard.tech
 shop: https://get.keycard.tech/
 country: 
-price: 24.9EUR
-repository: https://github.com/status-im/status-keycard
+price: 29EUR
+repository: https://github.com/keycard-tech/status-keycard
 icon: keycard.webp
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2022-03-23
+date: 2026-10-30
 signer: 
 twitter: Keycard_
 social: 
@@ -39,6 +39,8 @@ features:
 - secEl
 
 ---
+
+**Update 2026-10-30:** Keycard is still sold and still open source. The [Keycard shop](https://keycard.tech/products/keycard) sells a single card for 29 € (we updated the price). The [applet repository](https://github.com/keycard-tech/status-keycard) moved from status-im to the keycard-tech organization and got its last release, 4.0.1, on 2026-10-13. Keycard now also sells the {% include walletLink.html wallet='hardware/keycard-shell' verdict='true' %}, a signer with a screen and keypad that uses the card as its secure element. We review it separately. The card alone still has no screen or button, so it stays {% include verdictBadge.html verdict="noita" type='short' %}.
 
 ## Update 2022-11-03
 

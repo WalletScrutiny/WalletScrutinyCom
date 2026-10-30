@@ -18,13 +18,13 @@ providerWebsite: https://www.franckmuller.com/
 website: https://franckmullerencrypto.com/
 shop: https://franckmullerencrypto.com/product/franck-muller-41mm-free-the-money-free-the-world/
 country: 
-price: 12000CHF
+price: 12500CHF
 repository: 
 icon: vanguard.encrypto.webp
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2022-04-04
+date: 2026-10-30
 signer: 
 twitter: FranckMullerBTC
 social:
@@ -33,6 +33,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** The watch is still sold. The [shop page](https://franckmullerencrypto.com/product/franck-muller-41mm-free-the-money-free-the-world/) lists it at CHF 12,500 with "only 5 left in stock", and the [Franck Muller page](https://www.franckmuller.com/vanguard-encrypto-) is unchanged. The [FAQ](https://franckmullerencrypto.com/faq/) now adds that the sealed USB generates its key inside with a true random number generator, but also that "due to liability reasons" the watch is "a commemorative, limited edition novelty item, and not for storing Bitcoins". The encrypto site now mainly sells a Franck Muller x Solana watch with a QR code on the dial. The watch still cannot show or confirm a transaction, so the verdict stays {% include verdictBadge.html verdict="noita" type='short' %}.
 
 >  [The Vanguard Encrypto](https://www.franckmuller.com/vanguard-encrypto-) also called “the world’s first functional Bitcoin watch” is our newly launched limited edition. The dial includes a laser-etched QR code for a public wallet address that can be used to deposit Bitcoins and check the balance of the account. To allow this secure process, a sealed USB stick is included with the watch to store the private key.
 

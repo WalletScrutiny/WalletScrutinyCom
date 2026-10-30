@@ -24,7 +24,7 @@ icon: uduncoldt1.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-03-11
+date: 2026-10-30
 signer: 
 twitter: UdunWallet
 social:
@@ -38,6 +38,8 @@ features:
 - camera
 
 ---
+
+**Update 2026-10-30:** The device is still listed, and still closed source. The [English hardware page](https://www.uduncloud.com/en/products/hardware) now calls it "Udun PRO", with the same specifications, while the [Chinese page](https://www.uduncloud.com/products/hardware-pack) still calls it Udun Cold T1 with a "buy now" button. That page also says Udun rebranded as Cregis on 2023-03-20, and the [Cregis website](https://www.cregis.com/) lists no hardware wallet, so we are not sure the device is still sold. The [uduncloud GitHub account](https://github.com/uduncloud) now has no public repositories at all. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 We found that this product looks to be very similar to {% include walletLink.html wallet='hardware/ellipaltitan' verdict='true' %}.
 Like Ellipal, it resembles a mobile phone with a screen display and button.

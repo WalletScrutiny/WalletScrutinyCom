@@ -21,7 +21,7 @@ icon: gk8.coldvault.webp
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2022-04-04
+date: 2026-10-30
 signer: 
 twitter: gk8_security
 social:
@@ -31,6 +31,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** GK8 now belongs to Galaxy Digital. Celsius bought GK8 in late 2021, and after Celsius went bankrupt, [Galaxy completed the purchase of GK8 in February 2023](https://siliconangle.com/2023/02/24/galaxy-digital-finalizes-44m-acquisition-crypto-self-custody-platform-gk8/). [gk8.io](https://www.gk8.io/) now redirects to [Galaxy's custody infrastructure page](https://www.galaxy.com/infrastructure/custody), which sells the same air-gapped "Impenetrable Vault" and MPC products to institutions. It is still a business service with no device for sale to individuals and no public source code, so this stays {% include verdictBadge.html verdict="wip" type='short' %}.
 
 ## Updated Review 2023-04-28
 

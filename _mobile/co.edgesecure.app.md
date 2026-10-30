@@ -2,7 +2,7 @@
 wsId: edge
 title: Edge - Bitcoin & Crypto Wallet
 bitcoinOrgId: edgewallet
-date: 2022-03-13
+date: 2026-10-30
 authors:
 - leo
 - emanuel
@@ -58,6 +58,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** Edge is still listed and updated. The [edge-react-gui repository](https://github.com/EdgeApp/edge-react-gui) is still public under the BSD 3-Clause license and received commits today; its tags include v4.51.3, the version on Google Play, and v4.52.1. Our [issue about verifying the Play build](https://github.com/EdgeApp/edge-react-gui/issues/1748) is still open, so the verdict stays {% include verdictBadge.html verdict="sourceavailable" type='short' %}.
+
 *Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/dc62509a628bf691951d673ce74ec124cc6d442e/_android/co.edgesecure.app.md)*
 
 ## Edge – Technical Overview
@@ -73,6 +75,8 @@ An issue has been opened at [https://github.com/EdgeApp/edge-react-gui/issues/17
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still listed, at version 4.51.3, built from the same repository. As usual for iPhone apps we cannot verify the build, and the verdict stays {% include verdictBadge.html verdict="sourceavailable" type='short' %}.
 
 {% include copyFromAndroid.html %}
 

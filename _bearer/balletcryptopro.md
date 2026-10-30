@@ -14,17 +14,17 @@ dimensions:
 - 1.2
 weight: 35
 provider: Ballet
-providerWebsite: https://www.balletcrypto.com
-website: https://www.balletcrypto.com/en/pro
+providerWebsite: https://www.ballet.com
+website: https://www.ballet.com/en/pro/
 shop: https://web.archive.org/web/20210921103922/https://store.balletcrypto.com/collections/ballet/products/pro/?utm_source=OfficialWebsite&utm_medium=referral&utm_campaign=productpage
 country: US
 price: 179USD
 repository: 
 icon: balletcryptopro.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: prefilled
-date: 2022-03-23
+date: 2026-10-30
 signer: 
 twitter: BalletCrypto
 social:
@@ -33,6 +33,8 @@ social:
 features: 
 
 ---
+
+**Update 2026-10-30:** The PRO is no longer sold. Ballet moved from balletcrypto.com to [ballet.com](https://www.ballet.com/). The [PRO page](https://www.ballet.com/en/pro/) is still online, but the old store address of the PRO now redirects to the REAL card, and the [Ballet store](https://store.ballet.com/) lists only REAL cards, coins and gift cards. We mark it discontinued. The analysis below still describes the cards in circulation, and the verdict stays {% include verdictBadge.html verdict="prefilled" type='short' %}.
 
 The Ballet Crypto Pro is the third product from the Ballet Crypto series. 
 
