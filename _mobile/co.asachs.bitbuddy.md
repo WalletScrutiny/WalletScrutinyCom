@@ -1,9 +1,9 @@
 ---
 title: BitBuddy –Buy & Sell Bitcoin
-date: 2023-05-10
+date: 2026-10-30
 authors:
 - danny
-website: https://bitbuddy.app
+website: https://bitbuddy.app#deadLink
 redirect_from:
 - /android/co.asachs.bitbuddy/
 android:

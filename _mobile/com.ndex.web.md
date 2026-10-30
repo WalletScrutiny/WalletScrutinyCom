@@ -1,6 +1,6 @@
 ---
 title: 뉴드림이엑스-거래소(암호화폐, 비트코인,비트코인캐시,이
-date: 2023-04-29
+date: 2026-10-30
 authors:
 - danny
 website: https://nd-exk.com#deadLink

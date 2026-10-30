@@ -1,6 +1,6 @@
 ---
 title: HRAI
-date: 2023-04-22
+date: 2026-10-30
 authors:
 - danny
 redirect_from:

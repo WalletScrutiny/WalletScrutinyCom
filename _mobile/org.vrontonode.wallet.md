@@ -1,6 +1,6 @@
 ---
 title: VTN Wallet
-date: 2023-05-06
+date: 2026-10-30
 authors:
 - danny
 website: https://web.archive.org/web/20240722011202/https://vrontonode.org/

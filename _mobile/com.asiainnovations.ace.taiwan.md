@@ -1,9 +1,9 @@
 ---
 title: ACE Exchange - TWD, BTC&Crypto
-date: 2023-05-10
+date: 2026-10-30
 authors:
 - danny
-website: https://www.ace.io
+website: https://www.ace.io#deadLink
 social:
 - https://www.facebook.com/ace.exchange.tw
 redirect_from:
@@ -34,6 +34,8 @@ iphone:
   developerName: 王牌數位創新股份有限公司
 
 ---
+
+**⚠️ Warning:** ACE Exchange stopped its exchange business on 2025-04-01 because it had not registered with Taiwan's financial regulator in time ([BlockTempo](https://www.blocktempo.com/ace-exchange-announces-suspension-of-trading/)). Its website is now a domain for sale.
 
 ## Android
 

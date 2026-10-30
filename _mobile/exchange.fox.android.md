@@ -1,6 +1,6 @@
 ---
 title: fox.exchange Cryptocurrency Ex
-date: 2023-05-03
+date: 2026-10-30
 authors:
 - danny
 website: https://fox.exchange#deadLink

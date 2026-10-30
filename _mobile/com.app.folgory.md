@@ -1,6 +1,6 @@
 ---
 title: Folgory Merchant
-date: 2023-05-11
+date: 2026-10-30
 authors:
 - danny
 website: https://folgory.com#deadLink

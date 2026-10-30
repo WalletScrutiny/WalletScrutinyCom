@@ -1,6 +1,6 @@
 ---
 title: Satang App
-date: 2023-05-10
+date: 2026-10-30
 website: https://satang.com
 redirect_from:
 - /android/com.satang.app/

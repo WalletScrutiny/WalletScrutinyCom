@@ -1,9 +1,9 @@
 ---
 title: BitAnex Pro
-date: 2023-05-05
+date: 2026-10-30
 authors:
 - danny
-website: http://bitanex.com
+website: https://web.archive.org/web/20190720141714/https://bitanex.com/
 redirect_from:
 - /android/org.bitanex.bitanexpro/
 android:

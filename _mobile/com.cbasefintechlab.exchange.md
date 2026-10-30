@@ -1,6 +1,6 @@
 ---
 title: CROSS exchange -secure exchange-
-date: 2023-04-21
+date: 2026-10-30
 authors:
 - danny
 website: https://www.crossexchange.io/cross/home#deadLink

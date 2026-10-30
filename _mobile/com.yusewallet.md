@@ -1,7 +1,7 @@
 ---
 title: YUSE Wallet
-date: 2023-05-10
-website: https://yusetoken.io/
+date: 2026-10-30
+website: https://yusetoken.io/#deadLink
 redirect_from:
 - /android/com.yusewallet/
 android:

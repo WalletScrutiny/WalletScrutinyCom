@@ -1,9 +1,9 @@
 ---
 title: DMBank
-date: 2023-04-20
+date: 2026-10-30
 authors:
 - danny
-website: https://www.dmbank.com.br
+website: https://www.dmbank.com.br#deadLink
 redirect_from:
 - /android/com.bancryp.dmbank.user/
 android:

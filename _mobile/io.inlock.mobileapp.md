@@ -1,6 +1,6 @@
 ---
 title: 'INLOCK: Crypto Savings Account'
-date: 2023-05-10
+date: 2026-10-30
 authors:
 - danny
 website: https://inlock.io/
@@ -36,6 +36,10 @@ iphone:
   developerName: Variance HODLING Ltd
 
 ---
+
+**⚠️ Warning:** INLOCK stopped all services on 14 November 2022, and the company is now winding down the platform.
+
+**Update 2026-10-30:** On [14 November 2022](https://web.archive.org/web/20221114184450/https://inlock.io/2022/11/14/suspend/) INLOCK froze its platform after a failed liquidation left part of the customers' assets missing. Since then it takes no new customers and offers no services. In June 2025 it [paid out a final settlement](https://web.archive.org/web/20251008025327/https://inlock.io/2025/06/30/inlock-has-successfully-completed-its-final-settlement-programme/) covering more than 75% of the outstanding assets to customers who accepted it, and it began shutting the platform down. Both apps are gone from the stores.
 
 ## Android
 

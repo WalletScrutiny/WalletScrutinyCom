@@ -1,6 +1,6 @@
 ---
 title: Hipcibot
-date: 2023-05-10
+date: 2026-10-30
 website: https://www.hipcibot.com#deadLink
 redirect_from:
 - /android/com.hipcibot.hip/

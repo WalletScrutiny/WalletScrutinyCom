@@ -1,7 +1,7 @@
 ---
 title: QuotaTrade
-date: 2023-05-10
-website: https://www.quotatrade.com/
+date: 2026-10-30
+website: https://www.quotatrade.com/#deadLink
 redirect_from:
 - /android/com.quotatrade.app/
 android:

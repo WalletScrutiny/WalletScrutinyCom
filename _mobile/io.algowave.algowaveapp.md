@@ -1,9 +1,9 @@
 ---
 title: Algowave
-date: 2023-05-05
+date: 2026-10-30
 authors:
 - danny
-website: https://www.algowave.io
+website: https://www.algowave.io#deadLink
 social:
 - https://web.archive.org/web/20211208164813/https://www.algowave.io/
 redirect_from:

@@ -1,9 +1,9 @@
 ---
 title: CoinHe
-date: 2023-05-05
+date: 2026-10-30
 authors:
 - danny
-website: https://coinhe.io/
+website: https://web.archive.org/web/20210207084500/https://coinhe.io/
 redirect_from:
 - /android/io.coinhe/
 android:
