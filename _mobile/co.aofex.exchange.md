@@ -1,7 +1,7 @@
 ---
 wsId: AOFEX
 title: AOFEX
-date: 2022-03-24
+date: 2026-10-30
 authors:
 - danny
 website: http://www.aofex.co#deadLink
@@ -20,7 +20,7 @@ android:
   version: 3.0.3
   reviews: 333
   icon: co.aofex.exchange.webp
-  meta: removed
+  meta: defunct
   verdict: custodial
 iphone:
   appId: com.aofex.exchange1
@@ -30,12 +30,16 @@ iphone:
   version: 3.0.9
   reviews: 129
   icon: com.aofex.exchange1.webp
-  meta: removed
+  meta: defunct
   verdict: custodial
 
 ---
 
+**⚠️ Warning:** AOFEX appears to be gone. Its websites are down, and users reported that they could not withdraw their funds when it shut.
+
 ## Android
+
+**Update 2026-10-30:** We now mark this app defunct. It is still gone from Google Play, aofex.co no longer resolves and aofex.com only returns a Cloudflare error. [Cryptowisser](https://www.cryptowisser.com/exchange/aofex/) could not reach the exchange from January 2022 on and lists it as dead, and [CaptainAltcoin](https://captainaltcoin.com/aofex-review/) calls the shutdown a rug pull. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 **Update 2022-03-12**: This app is not available anymore.
 
@@ -75,6 +79,8 @@ This app is **custodial** and therefore **not verifiable.**
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still missing from the App Store, and AOFEX has shut down (see Android). The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 **Update 2022-10-21**: This app is not available anymore.
 

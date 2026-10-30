@@ -1,6 +1,6 @@
 ---
 title: Bian：Bitcoin Wallet-Virtual currency
-date: 2021-10-22
+date: 2026-10-30
 authors:
 - emanuel
 - leo
@@ -18,6 +18,10 @@ android:
   verdict: fake
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play and we found no
+archived copy of its store page. It stays
+{% include verdictBadge.html verdict="fake" type='short' %}.
 
 **Update 2021-10-14**: This app is no more available.
 

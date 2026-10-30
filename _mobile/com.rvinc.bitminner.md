@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Chivo -  Chivo Bitcoin
-date: 2021-11-10
+date: 2026-10-30
 redirect_from:
 - /android/com.rvinc.bitminner/
 android:
@@ -15,6 +15,8 @@ android:
   verdict: fake
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play, and the Wayback Machine has no archived copy of its store page. Both apps it imitated are still listed here, so the verdict stays {% include verdictBadge.html verdict="fake" type='short' %}.
 
 **Update 2021-10-28**: This app is no more.
 

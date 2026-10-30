@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: slimTECH Gear Co
 providerWebsite: 
-website: https://www.slimtechgear.com
+website: https://www.slimtechgear.com#deadLink
 shop: https://shop.mashable.com/sales/slimtech-cryptolite-cold-storage-wallet-silver
 country: US
 price: 89.99USD
@@ -21,7 +21,7 @@ icon: slimtech.cryptolite.webp
 bugbounty: 
 meta: defunct
 verdict: noita
-date: 2022-04-04
+date: 2026-10-30
 signer: 
 twitter: SlimTechGearCo
 social:
@@ -31,6 +31,10 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** This provider is gone. Its website is a parking page.
+
+**Update 2026-10-30:** slimTECH is still gone. On 2026-10-30 slimtechgear.com only showed a domain parking page. The [Mashable shop page](https://shop.mashable.com/sales/slimtech-cryptolite-cold-storage-wallet-silver) is still online, but its own data says the deal expired on 2018-03-06 and is no longer active. The card still has no display or buttons, so the verdict stays {% include verdictBadge.html verdict="noita" type='short' %}.
 
 **⚠️ Note:** Some users have complained on social media that they were not able to receive their devices.
 

@@ -1,7 +1,7 @@
 ---
 wsId: BitMEXOld
 title: BitMEX
-date: 2022-02-10
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitmex.com/
@@ -36,6 +36,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** BitMEX has closed. It [announced the closure](https://www.bitmex.com/blog/bitmex-closure) on 23 July 2026, and [trading ceased on 23 September 2026](https://www.bitmex.com/wind-down); users can still log in only to withdraw, and balances left on the platform are charged an account fee. This old app is still gone from Google Play; the newer {% include walletLink.html wallet='android/com.bitmex.app.android' verdict='true' %} is gone too. The founders pleaded guilty in 2022 and were pardoned in March 2025, along with the company itself ([Wikipedia](https://en.wikipedia.org/wiki/BitMEX)). The security page quoted below is gone, so the link points to an archived copy. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+
 **Update 2022-02-02**: This app is not in store anymore.
 
 ## App Description
@@ -46,7 +48,7 @@ The platform allows for 100x leverage.
 
 ## The Site
 
-[BitMex Security](https://www.bitmex.com/security) features a comprehensive outline for the platforms measures:
+[BitMex Security](https://web.archive.org/web/20230127175927/https://www.bitmex.com/security) features a comprehensive outline for the platforms measures:
 
 ### Wallet Security
 > BitMEX runs a first-of-its-kind multisignature deposit and withdrawal scheme. All BitMEX addresses are multisignature and all storage is kept offline.
@@ -66,6 +68,8 @@ By most indications including security mechanisms, regulatory compliances and it
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** BitMEX [ceased trading on 23 September 2026](https://www.bitmex.com/wind-down) and now only lets users withdraw. This old app is still gone from the App Store, and the newer {% include walletLink.html wallet='iphone/com.bitmex.app.ios' verdict='true' %} is gone too. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 **Update 2022-02-02**: This app is not in store anymore.
 

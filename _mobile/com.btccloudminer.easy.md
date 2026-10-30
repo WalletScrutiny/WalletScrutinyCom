@@ -1,6 +1,6 @@
 ---
 title: BTC Cloud Miner - Easy Wallet Transfer
-date: 2021-11-02
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -17,6 +17,8 @@ android:
   verdict: wip
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play, and the Wayback Machine holds no copy of its store page. The listing named no website or provider, so there is nothing left to check, and it stays {% include verdictBadge.html verdict="wip" type='short' %}.
 
 ## Updated Review 2021-10-29
 

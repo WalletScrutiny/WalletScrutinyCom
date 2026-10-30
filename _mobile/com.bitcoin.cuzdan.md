@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Wallet & Vault
-date: 2021-07-15
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -17,4 +17,8 @@ iphone:
   verdict: wip
 
 ---
+
+**Update 2026-10-30:** The app is still gone from the App Store (US and Turkey).
+The listing names no website or developer, and we found no trace of the
+provider, so the app stays unreviewed.
 

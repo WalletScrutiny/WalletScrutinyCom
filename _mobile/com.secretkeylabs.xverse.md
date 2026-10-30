@@ -1,7 +1,7 @@
 ---
 wsId: xverse
 title: 'Xverse Wallet: Buy Bitcoin'
-date: 2022-01-13
+date: 2026-10-30
 authors:
 - danny
 website: https://www.xverse.app/
@@ -46,6 +46,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** Still no source code for the mobile app. The [Xverse website](https://www.xverse.app/) now calls the wallet "self-custodial, open source, and independently audited", but the [secretkeylabs GitHub organization](https://github.com/secretkeylabs) only holds libraries such as xverse-core and sats-connect and the browser extension, no Android or iPhone app. A [GitHub code search for the app ID](https://github.com/search?q=%22com.secretkeylabs.xverse%22&type=code) finds only references to it from other projects. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+
 ## Update 2024-07-17
 
 We did not find any change regarding the source-availability for this app. A search for the app ID ["com.secretekeylabs.xverse" on GitHub](https://github.com/search?q=%22com.secretkeylabs.xverse%22&type=code), did not point to a relevant Android app repository. Despite their claims of being an Open Source Android wallet, only the xverse-core library is available for scrutiny.
@@ -67,6 +69,8 @@ We could **not find any information indicating whether the project is open sourc
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The same applies to the iPhone app: no public source for it in the [secretkeylabs GitHub organization](https://github.com/secretkeylabs). The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 {% include copyFromAndroid.html %}
 

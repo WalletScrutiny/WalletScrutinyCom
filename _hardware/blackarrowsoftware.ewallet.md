@@ -14,9 +14,9 @@ dimensions:
 - 2.3
 weight: 7
 provider: Black Arrow Software
-providerWebsite: https://www.blackarrowsoftware.com/
+providerWebsite: https://www.blackarrowsoftware.com/#deadLink
 website: 
-shop: http://www.blackarrowsoftware.com/store/ewallet.html
+shop: https://web.archive.org/web/20191116164822/http://www.blackarrowsoftware.com/store/ewallet.html
 country: 
 price: 24.99GBP
 repository: 
@@ -24,7 +24,7 @@ icon: blackarrowsoftware.ewallet.webp
 bugbounty: 
 meta: defunct
 verdict: nosource
-date: 2022-04-04
+date: 2026-10-30
 signer: 
 twitter: blackarrowsoft
 social:
@@ -33,6 +33,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** Nothing changed. On 2026-10-30 blackarrowsoftware.com no longer resolved; the [last archived copy of the eWallet shop page is from November 2019](https://web.archive.org/web/20191119010913/https://www.blackarrowsoftware.com/store/ewallet.html). We found no published source code for the eWallet firmware, so this stays {% include verdictBadge.html verdict="nosource" type='short' %} and defunct.
 
 **⚠️ Note:** There are multiple serious allegations on Blackarrow Software's available social media accounts including Facebook and bitcointalk.  
 

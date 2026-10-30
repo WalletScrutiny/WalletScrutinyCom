@@ -1,6 +1,6 @@
 ---
 title: EBC Wallet
-date: 2021-11-10
+date: 2026-10-30
 authors:
 - leo
 website: https://ebc.eco#deadLink
@@ -16,10 +16,14 @@ android:
   version: 0.0.7
   reviews: 61
   icon: com.ebcecosystem.wallets.webp
-  meta: removed
+  meta: defunct
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** EBC Wallet looks gone. On 2026-10-30 ebc.eco no longer resolved and the app was off Google Play.
+
+**Update 2026-10-30:** The app is still gone from Google Play. By December 2021 [ebc.eco](https://web.archive.org/web/20211202183208/http://ebc.eco/) was a parked "recently registered" domain, and today it no longer resolves. We mark the listing defunct. The {% include verdictBadge.html verdict="custodial" type='short' %} verdict stays.
 
 **Update 2021-10-26**: This app is no more.
 

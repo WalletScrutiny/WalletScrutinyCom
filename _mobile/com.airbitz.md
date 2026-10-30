@@ -1,7 +1,7 @@
 ---
 wsId: Airbitz
 title: Bitcoin Wallet - Airbitz
-date: 2021-10-19
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -42,6 +42,15 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The app is still gone from Google Play. The registration of
+[airbitz.co](http://airbitz.co/) has expired and the domain shows a Namecheap parking
+page. The team lives on as {% include walletLink.html wallet='android/co.edgesecure.app' verdict='true' %}. The
+[repository](https://github.com/EdgeApp/airbitz-android-gui) is still public, with the
+last push in September 2018, and the
+[reproducibility issue](https://github.com/EdgeApp/airbitz-android-gui/issues/21) was
+closed in September 2023 without a reproducible build. The verdict
+{% include verdictBadge.html verdict="sourceavailable" type='short' %} still holds.
+
 *Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/4858b0b76e8e8e7fe6c60e2e3af81360a79bed91/_android/com.airbitz.md)*
 
 This is the predecessor to the {% include walletLink.html wallet='android/co.edgesecure.app' verdict='true' %}.
@@ -51,6 +60,9 @@ An issue has been opened at [https://github.com/EdgeApp/airbitz-android-gui/issu
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still in the US App Store, unchanged since version 2.4.12
+from 2018. See the Android section.
 
 {% include copyFromAndroid.html %}
 

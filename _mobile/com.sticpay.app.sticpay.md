@@ -1,7 +1,7 @@
 ---
 wsId: STICPAY
 title: STICPAY
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - danny
 website: http://sticpay.com
@@ -41,6 +41,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** STICPAY is still a custodial e-wallet behind KYC. Its Google Play description no longer mentions cryptocurrencies and still lists "Strict KYC and AML checks". Its [payments page](https://www.sticpay.com/payments) still lists cryptocurrencies among the deposit and withdrawal methods, next to cards and bank transfers. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 In the Google Play description, STICPAY does claim to be a digital wallet.
 

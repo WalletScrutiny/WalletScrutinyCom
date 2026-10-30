@@ -1,7 +1,7 @@
 ---
 wsId: SALT
 title: SALT Crypto Loans
-date: 2021-10-07
+date: 2026-10-30
 authors:
 - danny
 website: https://saltlending.com
@@ -41,6 +41,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** SALT is still lending against bitcoin and both apps are still listed. The current [Terms of Use](https://saltlending.com/terms-of-use/) still say that "All Stored Coins credited to your wallet shall at all times be controlled by Custodian", which is SALT's subsidiary Salt Platform, LLC. The Custodian also guards "the private keys to the wallet". The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## App Description
 From Google Play:

@@ -1,7 +1,7 @@
 ---
 wsId: Coinmotion
 title: 'Coinmotion: Buy Bitcoin Easily'
-date: 2021-10-19
+date: 2026-10-30
 authors:
 - danny
 website: https://coinmotion.com/
@@ -26,7 +26,7 @@ android:
 iphone:
   appId: com.ios.coinmotion.app
   idd: 1518765595
-  appCountry: ca
+  appCountry: fi
   released: 2020-11-19
   updated: 2024-11-12
   version: 1.11.6
@@ -39,6 +39,14 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Coinmotion is still a custodial exchange.
+[prasos.fi](https://prasos.fi/) now redirects to coinmotion.com, and the
+[homepage](https://coinmotion.com/) names the operator as Coinmotion Oy, regulated by
+the Finnish Financial Supervisory Authority. Coinmotion
+[says](https://helpcenter.coinmotion.com/changes-to-usdc/usdt-services-on-coinmotion) it
+"has received the EU MiCA regulation-compliant operating license". We found no
+self-custody option, so the verdict {% include verdictBadge.html verdict="custodial" type='short' %} still holds.
 
 ## App Description
 
@@ -74,5 +82,8 @@ This is a custodial exchange and therefore, it is **not verifiable.**
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is gone from the Canadian App Store but still listed in the
+Finnish one, so this listing now looks there. See the Android section.
 
 {% include copyFromAndroid.html %}

@@ -1,6 +1,6 @@
 ---
 title: Crypto Buy Bitcoin
-date: 2021-09-23
+date: 2026-10-30
 redirect_from:
 - /android/crypto.buy.bitcoin1/
 android:
@@ -14,5 +14,7 @@ android:
   verdict: wip
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play. It names no provider or website and we found no archived copy of its store page, so it stays {% include verdictBadge.html verdict="wip" type='short' %}.
 
 **Update 2021-09-15**: This app is not on the Play Store anymore.

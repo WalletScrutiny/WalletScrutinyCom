@@ -1,7 +1,7 @@
 ---
 wsId: bhexExchange
 title: BHEX
-date: 2021-11-08
+date: 2026-10-30
 authors:
 - danny
 website: https://bhex.co#deadLink
@@ -17,7 +17,7 @@ android:
   version: 4.2.2
   reviews: 21
   icon: com.bh.android.webp
-  meta: removed
+  meta: defunct
   verdict: wip
 iphone:
   appId: io.bhex.app
@@ -27,17 +27,23 @@ iphone:
   version: 4.1.2
   reviews: 35
   icon: io.bhex.app.webp
-  meta: removed
-  verdict: wip
+  meta: defunct
+  verdict: custodial
 
 ---
 
+**⚠️ Warning:** BHEX has closed. Its apps are gone from both stores and its websites are dead or for sale.
+
 ## Android
+
+**Update 2026-10-30:** The app is still gone from Google Play, and we found no archived copy of its store page. bhex.co no longer resolves, the closure notice on support.hbtc.co is gone too, and hbtc.co and hbtc.com now only show domain parking or sale pages, so we mark BHEX defunct. Without any record of the Android app it stays {% include verdictBadge.html verdict="wip" type='short' %} here.
 
 The service made an announcement [**regarding the closing of its services.**](https://support.hbtc.co/hc/en-us/articles/4406992059417#deadLink).
 
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still gone from the App Store. An [archived copy of its App Store page](https://web.archive.org/web/20210619202418/https://apps.apple.com/us/app/bhex/id1441395245) calls BHEX a "cryptocurrency exchange" where "user assets are completely managed and cleared by Bluehelix decentralized technology". The exchange held its users' coins, so the verdict changes from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %} for the iPhone app.
 
 {% include copyFromAndroid.html %}

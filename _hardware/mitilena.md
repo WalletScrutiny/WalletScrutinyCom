@@ -13,15 +13,15 @@ weight:
 provider: Mitilena s.r.o.
 providerWebsite: 
 website: https://mitilena.com/
-shop: https://mitelena.com/
+shop: https://mitilena-store.com/
 country: CZ
 price: 146.9USD
 repository: 
 icon: 
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-03-23
+verdict: plainkey
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -29,6 +29,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** Mitilena now sells a hardware part, and it leaks the keys. The [Mitilena store](https://mitilena-store.com/) sells NFC cards that it calls "just a 'deaf' memory chip holding your encrypted text", with "no firmware running on the card". The key is created on the phone and saved to the card encrypted with a PIN. To send, you tap the card on the phone, so the phone reads and decrypts the key and signs. The card never signs anything. That is how we rate other key-storage cards like the {% include walletLink.html wallet='hardware/onekey.lite' verdict='true' %}. We change the verdict from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="plainkey" type='short' %}. The phone app is {% include walletLink.html wallet='android/com.mitilena.app' verdict='true' %}. Mitilena's [article "Our Code Is Open for Verification"](https://mitelena.com/our-code-is-open-for-verification/) only explains how to decompile the app. It links no source code. We updated the shop link to the new store.
 
 **⚠️ Note:** From the wordings in the product description, the Mitilena "hardware" wallet can be "downloaded" and installed on a USB flash drive, desktop computer or a mobile phone. We can find no spefications for the "hardware wallet". Please see analysis below for further information.
 

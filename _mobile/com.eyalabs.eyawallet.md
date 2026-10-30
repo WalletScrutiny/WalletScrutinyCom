@@ -1,6 +1,6 @@
 ---
 title: 이야페이, 비트코인 지갑
-date: 2021-12-29
+date: 2026-10-30
 redirect_from:
 - /android/com.eyalabs.eyawallet/
 android:
@@ -15,4 +15,6 @@ android:
   verdict: wip
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play. We found no archived copy of its store page, and the listing names no website or developer we could follow up on, so it stays {% include verdictBadge.html verdict="wip" type='short' %}.
 

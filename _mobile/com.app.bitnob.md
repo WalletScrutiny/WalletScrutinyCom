@@ -1,7 +1,7 @@
 ---
 wsId: Bitnob
 title: Bitnob
-date: 2021-10-07
+date: 2026-10-30
 authors:
 - danny
 website: https://bitnob.com
@@ -43,6 +43,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** Bitnob's [website](https://bitnob.com/en-US/) now promotes business payment infrastructure. [TechCabal](https://techcabal.com/2026/06/03/bitnob-expands-its-infrastructure-platform-for-global-businesses/) covered the June 2026 launch of Bitnob Business and Bitnob Enterprise. The consumer app is still listed. Bitnob's current [terms of service](https://bitnob.com/en-US/legal?tab=terms-of-service) state: "We will act as your custodian for any Cryptocurrency assets in your Account" and "We will use commercially reasonable efforts to securely store and control access to private keys". The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+
 ## App Description
 
 The app allows users to buy, save and invest in Bitcoin. Its focus is in savings, investment via Dollar Cost Averaging. 
@@ -64,6 +66,8 @@ This app is primarily a method to save or invest in Bitcoin. Thus, its interface
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is available again in the US App Store, under the same terms as the Android app. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 **Update 2022-01-15**: This app is not on the Store anymore.
 

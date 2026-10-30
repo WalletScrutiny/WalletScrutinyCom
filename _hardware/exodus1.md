@@ -23,7 +23,7 @@ icon: exodus1.webp
 bugbounty: https://www.htcexodus.com/mea-en/bounty-program/
 meta: defunct
 verdict: nosource
-date: 2021-11-26
+date: 2026-10-30
 signer: 
 twitter: htcexodus
 social:
@@ -35,11 +35,13 @@ features:
 
 ---
 
+**Update 2026-10-30:** The Exodus site is gone. [htcexodus.com](https://www.htcexodus.com/us/cryptophone/exodus1/) now redirects to HTC's main website; the Wayback Machine shows the [Exodus 1 page](https://web.archive.org/web/20250416172612/https://www.htcexodus.com/us/cryptophone/exodus1/) still online in April 2025. GSMArena lists the phone as [discontinued](https://www.gsmarena.com/htc_exodus_1-9385.php). The repositories of the [htczion GitHub account](https://github.com/htczion) were last pushed in 2019, and we still found no source code for the wallet, so the {% include verdictBadge.html verdict="nosource" type='short' %} verdict and the defunct mark stay. The Ledger Donjon report linked below now leads to a missing page, so the link points to an archived copy.
+
 The HTC Exodus 1 Cryptophone is not comparable to other hardware wallets such as Trezor or Ledger Nano because it is in essence, still a smartphone.
 
 [Here is a video review](https://www.youtube.com/watch?v=PR5PkTa1ags) of this product.
 
-In 2019, security researchers [discovered and reported](https://donjon.ledger.com/Stealing-all-HTC-Exodus-users/) a security problem with this product. It has since been patched.
+In 2019, security researchers [discovered and reported](https://web.archive.org/web/20220128055252/https://donjon.ledger.com/Stealing-all-HTC-Exodus-users/) a security problem with this product. It has since been patched.
 
 ## Private keys can be created offline - ✔️
 

@@ -1,7 +1,7 @@
 ---
 wsId: ViaWallet
 title: CoinEx Wallet - Crypto & DeFi
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -46,6 +46,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** ViaWallet is now called CoinEx Wallet, and viawallet.com redirects to [wallet.coinex.com](https://wallet.coinex.com/en/). It still claims self-custody ("100% Control of assets with private key self-custody") and still links no source code. The [coinexcom GitHub organisation](https://github.com/coinexcom) has API demos, node forks and a proof-of-reserves repository, but no wallet app, and a GitHub search for "viawallet" finds only unrelated test projects. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 ## Update 2024-07-13
 

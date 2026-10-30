@@ -24,13 +24,15 @@ icon: casascius.webp
 bugbounty: 
 meta: defunct
 verdict: sealed-plainkey
-date: 2022-03-23
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
 features: 
 
 ---
+
+**Update 2026-10-30:** Still defunct as a bitcoin product. [casascius.com](https://www.casascius.com/) still says that sales of items containing bitcoins stopped on November 27, 2013. The [Casascius Bitcoin Analyzer](https://casascius.uberbills.com/) today counts 17,437 coins and bars that are still unopened, holding about 34,571 BTC, so many remain in circulation. The verdict stays {% include verdictBadge.html verdict="sealed-plainkey" type='short' %}.
 
 ## Background
 

@@ -1,7 +1,7 @@
 ---
 wsId: iconomi
 title: 'ICONOMI: Buy Bitcoin & Crypto'
-date: 2021-10-04
+date: 2026-10-30
 authors:
 - danny
 website: https://www.iconomi.com
@@ -42,6 +42,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** ICONOMI is still operating. Its [General Terms and Conditions](https://static.iconomi.com/documents/ICONOMI_GTC_End_user.pdf) (published February 23, 2026) say "ICONOMI keeps Users’ assets in self-custody, but part of the assets are stored in third-parties accounts". Here "self-custody" means ICONOMI holds the keys, not the user. The temporary UK registration quoted below has since been replaced: ICONOMI LTD is now [registered with the FCA under reference 927859](https://www.iconomi.com/legal/terms-and-conditions). Since October 7, 2026, ICONOMI [no longer accepts new UK clients](https://www.iconomi.com/blog/iconomi-uk-clients). Both apps are still listed. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ### App Description
 

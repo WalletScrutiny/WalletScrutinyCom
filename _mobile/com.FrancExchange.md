@@ -1,7 +1,7 @@
 ---
 wsId: FrancExchange
 title: Franc Exchange
-date: 2021-10-24
+date: 2026-10-30
 authors:
 - danny
 website: https://trade.francexchange.com/
@@ -16,7 +16,7 @@ android:
   updated: 2020-12-02
   version: '1.0'
   icon: com.FrancExchange.webp
-  meta: removed
+  meta: defunct
   verdict: wip
   developerName: Franc IT Solutions
 iphone:
@@ -27,12 +27,25 @@ iphone:
   version: '1.0'
   reviews: 1
   icon: com.FrancExchange.webp
-  meta: removed
+  meta: defunct
   verdict: wip
 
 ---
 
+**⚠️ Warning:** Franc Exchange is gone. On 2026-10-30 both
+trade.francexchange.com and francexchange.com redirected to a
+[HugeDomains sale page](https://www.hugedomains.com/domain_profile.cfm?d=francexchange.com)
+for the domain. Indian press reporting on the Morris Coin case names a
+["Coimbatore based cryptocurrency exchange, 'Franc exchange'"](https://www.businesstoday.in/crypto/story/ed-arrests-kerala-man-allegedly-involved-in-morris-coin-scam-327542-2022-03-28)
+as the place where the Morris Coin tokens were supposed to be listed; according
+to the same report they never were.
+
 ## Android
+
+**Update 2026-10-30:** The app is still gone from Google Play and the App Store,
+and the provider's website is a domain for sale, so we mark this listing
+defunct. We never got to test the app, so the verdict stays
+{% include verdictBadge.html verdict="wip" type='short' %}.
 
 **⚠️ Warning ⚠️** 
 
@@ -74,5 +87,8 @@ As such, we will mark this app as **defunct.**
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still gone from the US App Store. See
+the Android section.
 
 {% include copyFromAndroid.html %}

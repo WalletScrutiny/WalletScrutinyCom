@@ -1,6 +1,6 @@
 ---
 title: XTB Online Investing
-date: 2021-08-21
+date: 2026-10-30
 authors:
 - danny
 website: http://www.xtb.com
@@ -24,6 +24,8 @@ android:
   developerName: XTB S.A.
 
 ---
+
+**Update 2026-10-30:** The verdict still holds. XTB now also sells "real" crypto in some regions, not only CFDs, but [its crypto page](https://www.xtb.com/cy/crypto) says: "crypto trading at XTB takes place exclusively within our platform. We only accept deposits and withdrawals in fiat." Bitcoin can still not be sent or received.
 
 The app description:
 

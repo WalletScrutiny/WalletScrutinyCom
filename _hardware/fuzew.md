@@ -16,16 +16,16 @@ dimensions:
 weight: 8.5
 provider: BrilliantTS
 providerWebsite: https://web.archive.org/web/20251212225619/https://brilliantts.com/
-website: https://fuzeway.com/collections/fuzew-products
-shop: https://fuzeway.com/products/fuzew-hardware-wallet
+website: https://fuzeway.com/collections/fuzew-products#deadLink
+shop: https://fuzeway.com/products/fuzew-hardware-wallet#deadLink
 country: KP
 price: 99USD
 repository: 
 icon: fuzew.webp
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: nosource
-date: 2021-12-03
+date: 2026-10-30
 signer: 
 twitter: w_fuze
 social:
@@ -35,11 +35,15 @@ features:
 
 ---
 
+**⚠️ Warning:** BrilliantTS, the maker of FuzeW, appears to be gone. Its website domain has expired and the FuzeW shop no longer exists.
+
+**Update 2026-10-30:** We now mark this device defunct instead of obsolete. fuzeway.com, which hosted the shop, no longer resolves. The Wayback Machine last saved the [FuzeW shop page](https://web.archive.org/web/20210506115642/https://fuzeway.com/products/fuzew-hardware-wallet) in May 2021. The [BrilliantTS website](https://web.archive.org/web/20251212225619/https://brilliantts.com/) was still up in December 2025, but by [March 2026](https://web.archive.org/web/20260313233412/https://brilliantts.com/) the domain showed the registrar's "This domain name has expired" page, and brilliantts.com and fuzew.com now return HTTP 410. We found no source code, so the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+
 FuzeW refers to itself as a "wireless cryptocurrency hardware wallet."  It resembles a credit card, although it has both a screen and buttons.
 
 It has a companion app for Android: {% include walletLinkArchived.html wallet='android/com.brilliantts.fuzew' %}
 
-From the [blog:](https://fuzew.com/blogs/news/best-wallet-for-storing-dash-fuzew)
+From the [blog:](https://web.archive.org/web/20211023175207/https://fuzew.com/blogs/news/best-wallet-for-storing-dash-fuzew)
 
 > Security-Convenience compatible crypto wallet: <br>
 FuzeW - Secure as Ledger, Easy and Convenient as a mobile "Hot" wallet

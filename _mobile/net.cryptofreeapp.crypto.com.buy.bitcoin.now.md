@@ -1,6 +1,6 @@
 ---
 title: (Fake) Crypto.com - Buy Bitcoin Now
-date: 2021-08-26
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -17,6 +17,8 @@ android:
   verdict: fake
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play. It stays a {% include verdictBadge.html verdict="fake" type='short' %}; the [real Crypto.com exchange](https://crypto.com/exchange) is still in operation.
 
 **Update 2021-08-17**: This app is not the the Play Store anymore and by name
 apparently tried to imitate

@@ -1,6 +1,6 @@
 ---
 title: 'SimpleFX: Crypto Trading App'
-date: 2021-10-13
+date: 2026-10-30
 authors:
 - danny
 website: https://simplefx.com
@@ -23,6 +23,8 @@ android:
   developerName: SimpleFX Ltd.
 
 ---
+
+**Update 2026-10-30:** Still custodial. The [SimpleFX payments page](https://simplefx.com/payments) offers bitcoin deposits and withdrawals, including over Lightning, and says "We store your funds securely in cold wallets", so the provider holds the coins. An App Store search for SimpleFX found no iPhone app. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## App Description
 

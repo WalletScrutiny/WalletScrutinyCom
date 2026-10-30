@@ -24,7 +24,7 @@ icon: temexex.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2021-08-01
+date: 2026-10-30
 signer: 
 twitter: 
 social:
@@ -33,5 +33,9 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Temexe appears to be out of business. Its domain was sold and now hosts an unrelated site.
+
+**Update 2026-10-30:** Still defunct. temexe.com [was offered for sale in December 2021](https://web.archive.org/web/20211226234041/http://temexe.com/) and today hosts an unrelated Portuguese fitness site. [Tracxn](https://tracxn.com/d/companies/temexe/__Rtq_uwHuN-q1w6QEEoXMl0SAfkR_Qktp9x4zKXsxnRQ) lists the company as deadpooled. We could not check whether the Amazon listing still sells old stock, so this stays a stub.
 
 The [provider's website](https://temexe.com/) is inaccessible and we considered it defunct.

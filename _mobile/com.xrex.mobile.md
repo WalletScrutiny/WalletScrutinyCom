@@ -1,7 +1,7 @@
 ---
 wsId: XRex
 title: XREX:Buy Crypto,Bitcoin & USDT
-date: 2021-11-15
+date: 2026-10-30
 authors:
 - danny
 website: https://xrex.io/
@@ -26,7 +26,7 @@ android:
 iphone:
   appId: com.xrex.mobile
   idd: 1482096895
-  appCountry: in
+  appCountry: tw
   released: 2020-02-19
   updated: 2025-07-31
   version: 2.1.668
@@ -39,6 +39,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** XREX is still a {% include verdictBadge.html verdict="custodial" type='short' %} exchange. The current Play description advertises margin trading, grid bots and bank-linked deposits and withdrawals "with your XREX wallet". [xrex.io](https://xrex.io/) now presents XREX Group as a "Blockchain-Powered Financial Institution" with a cross-border payment product, XREX Pay.
 
 ## App Description
 
@@ -56,5 +58,7 @@ Cryptocurrency exchanges that have banking partners that let users buy cryptocur
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is not gone. It has no App Store result in India or the US, but it is [listed in Taiwan](https://itunes.apple.com/lookup?id=1482096895&country=tw) and was updated to version 2.1.1242 on 2026-10-29. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include copyFromAndroid.html %}

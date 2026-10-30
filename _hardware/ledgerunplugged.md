@@ -21,7 +21,7 @@ icon: ledgerunplugged.webp
 bugbounty: 
 meta: defunct
 verdict: noita
-date: 2021-08-01
+date: 2026-10-30
 signer: 
 twitter: Ledger
 social:
@@ -34,6 +34,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** Still discontinued. Ledger's [discontinued products page](https://support.ledger.com/article/360010500620-zd), last updated in May 2026, lists the Ledger Unplugged among products that "have been discontinued and are not supported anymore". The device still had no screen, so the verdict stays {% include verdictBadge.html verdict="noita" type='short' %}.
 
 The [provider's website has a clear statement](https://support.ledger.com/hc/en-us/articles/360010500620-Discontinued-products?docs=true) that this wallet is discontinued and we considered it defunct.
 

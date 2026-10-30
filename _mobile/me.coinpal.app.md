@@ -1,7 +1,7 @@
 ---
 wsId: Coinpal
 title: Coinpal
-date: 2022-02-10
+date: 2026-10-30
 authors:
 - kiwilamb
 website: https://coinpal.me/
@@ -38,6 +38,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The app is still gone from Google Play and the App Store. [coinpal.me](https://coinpal.me/) now sits behind a Cloudflare block, and the newest [archived copy of the wallet website](https://web.archive.org/web/20220106232940/https://coinpal.me/) we could open is from January 2022. We still found no source code, so the verdict {% include verdictBadge.html verdict="nosource" type='short' %} holds.
+
 **Update 2022-01-28**: This app is not in store anymore.
 
 The providers [Play store description](https://play.google.com/store/apps/details?id=me.coinpal.app) states the customer is in control of the private keys.
@@ -51,6 +53,8 @@ Our verdict: As there is no source code to be found anywhere, this wallet is at 
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The app is still gone from the App Store. See the Android section; the verdict {% include verdictBadge.html verdict="nosource" type='short' %} still holds.
 
 **Update 2022-01-28**: This app is not in store anymore.
 

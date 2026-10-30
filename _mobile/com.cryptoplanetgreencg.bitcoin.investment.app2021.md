@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Investment App2021
-date: 2021-09-25
+date: 2026-10-30
 redirect_from:
 - /android/com.cryptoplanetgreencg.bitcoin.investment.app2021/
 android:
@@ -14,5 +14,7 @@ android:
   verdict: wip
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play. We found no archived copy of its store page, and the listing names no website or developer we could follow up on, so it stays {% include verdictBadge.html verdict="wip" type='short' %}.
 
 **Update 2021-09-17**: This app is no more.

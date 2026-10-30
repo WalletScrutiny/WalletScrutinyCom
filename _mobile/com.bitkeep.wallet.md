@@ -1,11 +1,11 @@
 ---
 wsId: bitkeep
 title: 'Bitget Wallet: Crypto, Bitcoin'
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - leo
 - danny
-website: https://bitkeep.com
+website: https://web3.bitget.com
 twitter: BitKeepOS
 social:
 - https://www.facebook.com/bitkeep
@@ -43,6 +43,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** BitKeep is now Bitget Wallet. The rebrand followed a $30 million investment by the exchange Bitget ([Cointelegraph](https://cointelegraph.com/news/bitkeep-completes-compensation-for-8m-apk-exploit-announces-rebranding)), and bitkeep.com now redirects to [web3.bitget.com](https://web3.bitget.com/). On 2022-12-26, hackers swapped the 7.2.9 APK update for a malicious one, and users who installed it lost about $8 million. All 11,090 affected wallets were reimbursed by 2023-03-29 (same source). The store description still calls the app "a decentralized, self-custodial wallet". It now also offers email sign-up with "no seed phrases". The [Bitget Wallet GitHub organization](https://github.com/bitgetwallet) has SDKs, contracts and logos but no app code. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+
 ## Update 2024-07-15
 
 There is no overt statement describing this project as source-available. A search for the app ID ["com.bitkeep.wallet" on GitHub](https://github.com/search?q=%22com.bitkeep.wallet%22+android&type=code), resulted in 51 results that are not an Android app. This app is still not source-available.
@@ -70,5 +72,7 @@ non-custodial closed source wallet and as such **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is also Bitget Wallet now, and we found no source code for it either. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 {% include copyFromAndroid.html %}

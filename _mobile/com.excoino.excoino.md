@@ -1,6 +1,6 @@
 ---
 title: excoino | اکسکوینو
-date: 2021-08-21
+date: 2026-10-30
 authors:
 - danny
 website: https://www.excoino.com/
@@ -23,6 +23,8 @@ android:
   developerName: Ernyka Co
 
 ---
+
+**Update 2026-10-30:** The verdict still holds. Excoino is still an Iranian exchange: its [website](https://www.excoino.com/), now also in English, offers spot trading against the Iranian rial, staking and investment plans, all on accounts the platform holds. We found no self-custody option.
 
 The app appears to be an Iranian exchange and there's no English translation.
 

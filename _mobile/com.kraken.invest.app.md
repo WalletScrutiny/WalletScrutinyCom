@@ -1,7 +1,7 @@
 ---
 wsId: krakenInvest
 title: 'Kraken: Buy Crypto & Stocks'
-date: 2021-08-21
+date: 2026-10-30
 authors:
 - danny
 website: https://www.kraken.com
@@ -46,6 +46,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The verdict still holds. Kraken still holds client funds; its [security page](https://www.kraken.com/features/security) describes cold storage and hot wallets run by Kraken, and it publishes [proof of reserves](https://www.kraken.com/proof-of-reserves). The app now also sells stocks. Kraken's self-custody wallet is a separate app, {% include walletLink.html wallet='android/com.kraken.superwallet' verdict='true' %}.
+
 Kraken is one of the leading exchanges in the world with over 2 billion traded over a 24h period. 
 
 Source: [Coinmarketcap.com](https://coinmarketcap.com/exchanges/kraken)
@@ -61,6 +63,8 @@ On its [Security page](https://www.kraken.com/en-us/features/security):
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** Same app and same custody model as on Android; the verdict still holds.
 
 {% include copyFromAndroid.html %}
 

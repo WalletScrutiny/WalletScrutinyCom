@@ -1,7 +1,7 @@
 ---
 wsId: bitrefill
 title: 'Bitrefill: Gift Card & Games'
-date: 2021-09-12
+date: 2026-10-30
 authors:
 - leo
 website: https://www.bitrefill.com
@@ -24,7 +24,7 @@ android:
   reviews: 292
   icon: com.bitrefill.app.webp
   meta: ok
-  verdict: custodial
+  verdict: nosendreceive
   developerName: Bitrefill
 iphone:
   appId: com.bitrefill.bitrefill
@@ -36,12 +36,14 @@ iphone:
   reviews: 492
   icon: com.bitrefill.bitrefill.webp
   meta: ok
-  verdict: custodial
+  verdict: nosendreceive
   developerName: Bitrefill
 
 ---
 
 ## Android
+
+**Update 2026-10-30:** Bitrefill now says plainly that the balance in this app cannot leave it. In July 2025 it [renamed "Bitrefill Balance" to "Store Credit"](https://www.bitrefill.com/blog/updated-bitrefill-balance-to-store-credit/) and wrote: "Store Credit is non-withdrawable" and "a prepaid value you can spend only on Bitrefill". You can [top it up with BTC](https://help.bitrefill.com/hc/en-us/articles/4402564626450-How-to-add-store-credit-by-paying-with-tokens-from-my-wallet) on-chain or over Lightning and even keep it denominated in Bitcoin, but you cannot send those bitcoins anywhere. The app receives BTC and only spends it on Bitrefill purchases, so we change the verdict from {% include verdictBadge.html verdict="custodial" type='short' %} to {% include verdictBadge.html verdict="nosendreceive" type='short' %}.
 
 **Update 2021-09-14**: This app was updated after a long time which had it fall
 into our stale category but it remains being a custodial product.
@@ -60,6 +62,8 @@ Our verdict: The app is **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** Bitrefill now says plainly that the balance in this app cannot leave it. In July 2025 it [renamed "Bitrefill Balance" to "Store Credit"](https://www.bitrefill.com/blog/updated-bitrefill-balance-to-store-credit/) and wrote: "Store Credit is non-withdrawable" and "a prepaid value you can spend only on Bitrefill". You can [top it up with BTC](https://help.bitrefill.com/hc/en-us/articles/4402564626450-How-to-add-store-credit-by-paying-with-tokens-from-my-wallet) on-chain or over Lightning and even keep it denominated in Bitcoin, but you cannot send those bitcoins anywhere. The app receives BTC and only spends it on Bitrefill purchases, so we change the verdict from {% include verdictBadge.html verdict="custodial" type='short' %} to {% include verdictBadge.html verdict="nosendreceive" type='short' %}. The iPhone app is the same product.
 
 **Update 2021-09-12**: This app wasn't updated for a year but appears to be
 back. Nothing changed with the former verdict.

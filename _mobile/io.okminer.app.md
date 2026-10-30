@@ -1,6 +1,6 @@
 ---
 title: OK Miner
-date: 2021-11-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.okminer.io#deadLink
@@ -14,10 +14,14 @@ android:
   version: 1.2.8
   reviews: 117
   icon: io.okminer.app.webp
-  meta: removed
+  meta: defunct
   verdict: wip
 
 ---
+
+**⚠️ Warning:** The provider appears to be gone. The app is off Google Play and its website no longer resolves.
+
+**Update 2026-10-30:** The app is still gone from Google Play, and we found no archived copy of its store page. The domain okminer.io no longer resolves, and the listing names no other website or social account, so we mark it defunct. It stays {% include verdictBadge.html verdict="wip" type='short' %}.
 
 ## Updated Verdict 2021-10-29
 

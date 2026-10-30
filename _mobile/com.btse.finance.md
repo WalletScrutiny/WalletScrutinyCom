@@ -1,7 +1,7 @@
 ---
 wsId: BTSE
 title: 'BTSE: Buy Bitcoin & Crypto'
-date: 2021-11-15
+date: 2026-10-30
 authors:
 - danny
 website: https://btse.com
@@ -29,6 +29,7 @@ android:
 iphone:
   appId: com.btse.BTSE
   idd: 1494556510
+  appCountry: sg
   released: 2020-04-13
   updated: 2024-08-19
   version: 1.93.0
@@ -41,6 +42,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** BTSE is still a {% include verdictBadge.html verdict="custodial" type='short' %} exchange. Its [Terms and Conditions](https://www.btse.com/en/termsandconditions) still let "the Platform" terminate or suspend accounts in its sole discretion, and the current Play description advertises an "isolated custodial system" with most user assets in cold wallets. BTSE is still active: it [launched a regulated exchange in Indonesia in July 2026](https://technode.global/2026/07/03/btse-launches-indonesian-digital-and-crypto-assets-exchange/).
 
 ## App Description
 
@@ -61,5 +64,7 @@ This cryptocurrency exchange is a custodial service with the ability to suspend 
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is not gone. It has no App Store result in Nigeria or the US, but it is [listed in Singapore](https://itunes.apple.com/lookup?id=1494556510&country=sg) and was updated to version 1.147.0 on 2026-10-26. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include copyFromAndroid.html %}

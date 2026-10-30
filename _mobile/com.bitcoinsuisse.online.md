@@ -1,7 +1,7 @@
 ---
 wsId: BitcoinSuisse
 title: 'Bitcoin Suisse: Crypto Natives'
-date: 2021-11-22
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitcoinsuisse.com
@@ -44,6 +44,15 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The app is still listed and Bitcoin Suisse is still in business; its
+[website](https://bitcoinsuisse.com/) claims "over CHF 6 billion crypto assets under custody". Its
+[custody page](https://bitcoinsuisse.com/individuals/custody) now offers a Crypto Account, a Vault Account and
+a Proof Wallet, and says of the Proof Wallet that message signing "provides cryptographic proof that Bitcoin
+Suisse controls the private keys to your segregated addresses". The 2021 terms quoted below are no longer
+online; we link an archived copy, and the current version is the
+[GTC v8.0](https://resources.bitcoinsuisse.com/hubfs/Legal/20251101%20GTC%20BTCS%20CH%20v8.0%20EN.pdf).
+The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+
 ## App Description
 
 > Buy, sell and earn crypto assets with a regulated Swiss company. The bank guarantee by a state-backed Swiss Cantonal Bank and our audited cold storage solution are some of the reasons why our clients trust us with over CHF 5 billion in cryptocurrencies.
@@ -56,7 +65,7 @@ Supported cryptocurrencies include BTC, ETH, LINK, BCH, BSV, and [more](https://
 
 Withdrawals are discussed [here](https://support.bitcoinsuisse.com/hc/en-us/articles/360007023160-How-do-I-add-an-external-crypto-address-for-withdrawals-#deadLink).
 
-## [Custody Provision in General Terms and Conditions](https://files.bitcoinsuisse.com/assets/pdf/20211001_GTC.pdf)
+## [Custody Provision in General Terms and Conditions](https://web.archive.org/web/20211025132632/https://files.bitcoinsuisse.com/assets/pdf/20211001_GTC.pdf)
 
 > **Section 8.2** BTCS has the right to decide, in its sole discretion, if Digital Assets are stored in separate custody or collective custody. In the BTCS Online Tools, the Client can download a statement that shows the assets that are covered by the bank guarantee.
 
@@ -67,6 +76,10 @@ As a regulated entity, Bitcoinsuisse has many of the hallmarks of a **custodial*
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still listed (version 3.4.1, 2026-10-09). Its description
+promises to "Move fiat and crypto in and out of your account", and the custody evidence above applies to it
+too. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include copyFromAndroid.html %}
 

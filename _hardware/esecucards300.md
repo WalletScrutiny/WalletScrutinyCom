@@ -16,7 +16,7 @@ weight:
 provider: Excelsecu Data Technology Co., Ltd
 providerWebsite: https://www.excelsecu.com/
 website: 
-shop: https://www.excelsecu.com/productdetail/esecucarddispl.html
+shop: https://www.excelsecu.com/productdetail/esecucards300.html
 country: CN
 price: 85USD
 repository: 
@@ -24,7 +24,7 @@ icon: esecucards300.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-03-23
+date: 2026-10-30
 signer: 
 twitter: 
 social:
@@ -33,6 +33,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** Nothing changed. Excelsecu still lists the card on its [eSecuCard-S300 page](https://www.excelsecu.com/productdetail/esecucards300.html), with "bitcoin wallet" as a typical application, the same specification, and no price. We found no source code for a wallet applet: the only public Excelsecu wallet code, the [EsecuBit repositories](https://github.com/EsecuBit), is host-side app and SDK code for Excelsecu's {% include walletLink.html wallet='hardware/esecubit' verdict='true' %}, last pushed in 2022. This stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 ## Product Description
 

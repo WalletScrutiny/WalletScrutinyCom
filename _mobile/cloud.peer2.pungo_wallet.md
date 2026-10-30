@@ -1,6 +1,6 @@
 ---
 title: Pungo App
-date: 2021-06-02
+date: 2026-10-30
 authors:
 - leo
 website: https://pungowallet.com#deadLink
@@ -13,10 +13,21 @@ android:
   version: '1.33'
   reviews: 10
   icon: cloud.peer2.pungo_wallet.webp
-  meta: removed
+  meta: defunct
   verdict: nosource
 
 ---
+
+**⚠️ Warning:** This provider is gone. On 2026-10-30 the domain
+pungowallet.com no longer resolved, and pungo.io shows
+an old company page that says "We are going for good", padded with casino
+advertising.
+
+**Update 2026-10-30:** The app is still gone from Google Play and its website
+is gone, so we mark the provider as defunct. The
+[ChainZilla/agamamobilefork](https://github.com/ChainZilla/agamamobilefork)
+repository mentioned below has had no commit since 2018-10-01. The verdict stays
+{% include verdictBadge.html verdict="nosource" type='short' %}.
 
 **Update 2021-06-02**: Their website is gone. Their Play Store listing is gone.
 We assume this wallet is no more.

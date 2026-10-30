@@ -1,6 +1,6 @@
 ---
 title: Finzo Markets
-date: 2021-11-26
+date: 2026-10-30
 authors:
 - danny
 website: https://finzomarkets.com/
@@ -14,10 +14,14 @@ android:
   version: '1.3'
   reviews: 66
   icon: com.finzo.webp
-  meta: removed
+  meta: defunct
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** Finzo Markets looks gone. On 2026-10-30 its website was a parked domain and the app was off Google Play.
+
+**Update 2026-10-30:** Finzo Markets looks gone. The app is still off Google Play, and both [finzomarkets.com](https://finzomarkets.com/) and the [deposits page](https://finzomarkets.com/deposits.html) quoted below now show only a Hostinger "Parked Domain" page. We mark the listing defunct. The {% include verdictBadge.html verdict="custodial" type='short' %} verdict stays.
 
 **Update 2021-11-11**: This app is not on Play Store anymore.
 

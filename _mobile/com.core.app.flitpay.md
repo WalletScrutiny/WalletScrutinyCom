@@ -1,7 +1,7 @@
 ---
 wsId: flitpay
 title: 'Flitpay: Crypto Trading App'
-date: 2021-09-30
+date: 2026-10-30
 authors:
 - danny
 website: https://www.flitpay.com/
@@ -39,6 +39,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Still {% include verdictBadge.html verdict="custodial" type='short' %}. The [Flitpay website](https://www.flitpay.com/) still describes an Indian exchange where users deposit INR and crypto into their Flitpay account, and says it "keeps the majority of its user funds in offline wallets". The [terms](https://www.flitpay.com/terms) still contain the wallet clauses quoted below. We found no self-custody wallet from Flitpay.
 
 Our initial assessment points to this app as a custodial offering because it is a centralized exchange.
 

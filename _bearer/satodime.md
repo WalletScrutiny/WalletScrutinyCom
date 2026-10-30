@@ -16,8 +16,8 @@ dimensions:
 weight: 5
 provider: Satochip SRL
 providerWebsite: https://satochip.io
-website: https://satodime.io/
-shop: https://satochip.io/product/satodime-original#deadLink
+website: https://satochip.io/product/satodime/
+shop: https://satochip.io/product/satodime/
 country: BE
 price: 25EUR
 repository: https://github.com/Toporin/Satodime-Tool
@@ -25,7 +25,7 @@ icon: satodime.webp
 bugbounty: 
 meta: ok
 verdict: sealed-plainkey
-date: 2022-03-23
+date: 2026-10-30
 signer: 
 twitter: satochipwallet
 social:
@@ -36,6 +36,8 @@ social:
 features: 
 
 ---
+
+**Update 2026-10-30:** Satodime is still sold, for €25 on the [Satochip shop](https://satochip.io/product/satodime/); the old satodime.io site no longer loads. The card is now also used from a phone over NFC: Satochip publishes an [open-source Android app](https://github.com/Toporin/Satodime-Android), last released in February 2026, while the desktop [Satodime Tool](https://github.com/Toporin/Satodime-Tool/releases) has had no release since 2022. Keys are still generated in the chip with user entropy and revealed only on unseal, so the verdict stays {% include verdictBadge.html verdict="sealed-plainkey" type='short' %}.
 
 Link to companion app: {% include walletLinkArchived.html wallet='android/org.satochip.satodimeapp' %}
 

@@ -1,7 +1,7 @@
 ---
 wsId: ZcomEx
 title: Z.com EX - Buy/Sell Bitcoin
-date: 2021-11-08
+date: 2026-10-30
 authors:
 - danny
 website: https://ex.z.com/
@@ -41,6 +41,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** Z.com EX is changing owners. GMO Internet announced in March 2026 that it would leave the Thai digital asset business, and on September 24, 2026 it [disclosed the sale](https://internet.gmo/en/ir/pdf/irlibrary/gmointernet_e_disclose_20260924.pdf) of GMO-Z.com Cryptonomics (Thailand) to BTGT Management (Thailand), scheduled for October 31, 2026. [Bitget announced](https://bitpinas.com/business/bitget-thailand-gmo-z-com-cryptonomics) on October 20 that this is its vehicle, and the deal still needs approval from the Thai SEC. The app is still listed and updated in September 2026. It is still an exchange account, so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+
 ## App Description
 
 Z.com EX is a cryptocurrency exchange platform.
@@ -73,5 +75,7 @@ This is a **custodial** app and thus **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still in the Thai App Store, updated in October 2026. The pending sale to Bitget described in the Android section does not change the verdict: {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include copyFromAndroid.html %}

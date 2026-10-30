@@ -1,7 +1,7 @@
 ---
 wsId: ZBX
 title: ZBX - Bitcoin & Cryptocurrency
-date: 2021-11-15
+date: 2026-10-30
 authors:
 - danny
 website: https://www.zbx.com/
@@ -27,6 +27,7 @@ android:
 iphone:
   appId: com.zbx.www
   idd: 1458088759
+  appCountry: mt
   released: 2019-05-26
   updated: 2025-08-20
   version: 2.5.14
@@ -40,11 +41,13 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** ZBX is still a {% include verdictBadge.html verdict="custodial" type='short' %} exchange. The Play description now says Zillion Bits Ltd is authorised by the MFSA as a Crypto-Asset Service Provider under MiCAR. Its help centre moved from zbxone.zendesk.com to zbx.zendesk.com, so the terms links below now point to the new address. The [current Terms of Business](https://zbx.zendesk.com/hc/en-us/articles/900001053666-Terms-of-Business) describe "Crypto-Asset Custody Services" and keep the suspension clause 10.1 quoted below.
+
 ## App Description
 
 It's a cryptocurrency trading platform.
 
-## [Terms of Business](https://zbxone.zendesk.com/hc/en-us/articles/900001053666-Terms-of-Business)
+## [Terms of Business](https://zbx.zendesk.com/hc/en-us/articles/900001053666-Terms-of-Business)
 
 > Zillion Bits Limited is registered and incorporated under the Laws of Malta with company registration number C 88757 and  is authorised by the Malta Financial Services Authority (MFSA), under License Number VFA/11, to provide the following VFA Services, to both experienced and non-experienced investors:
 > - (i) Placing of Virtual Financial Assets
@@ -59,10 +62,12 @@ It's a cryptocurrency trading platform.
 
 ## Verdict
 
-This is a cryptocurrency exchange. As specified in its [Terms](https://zbxone.zendesk.com/hc/en-us/articles/900001053666-Terms-of-Business) it is a **custodial** service which denotes that its app **cannot be verified**.
+This is a cryptocurrency exchange. As specified in its [Terms](https://zbx.zendesk.com/hc/en-us/articles/900001053666-Terms-of-Business) it is a **custodial** service which denotes that its app **cannot be verified**.
 
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is not gone. It has no App Store result in the US, but it is [listed in Malta](https://itunes.apple.com/lookup?id=1458088759&country=mt), last updated to version 2.5.31 on 2026-09-10. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include copyFromAndroid.html %}

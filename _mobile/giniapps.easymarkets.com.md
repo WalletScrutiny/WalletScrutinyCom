@@ -1,10 +1,10 @@
 ---
 wsId: easyMarkets
 title: easyMarkets Online Trading
-date: 2021-09-10
+date: 2026-10-30
 authors:
 - danny
-website: https://www.easymarkets.com/
+website: https://www.easy-markets.com/
 twitter: easymarkets
 social:
 - https://www.linkedin.com/company/easymarkets
@@ -41,6 +41,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The easymarkets.com domain no longer resolves; the broker now runs at [easy-markets.com](https://www.easy-markets.com/), which still offers the app and lists crypto CFDs such as BTC/USD. The links below to the Bitcoin account page and the 2021 client agreement are dead, and we could not find a current page for the μBTC account. easyMarkets is still a broker that holds client deposits, so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+
 At the onset, it would appear that it is a general investment site which trades shares, indices, metals, forex, commodities and cryptocurrencies.
 
 However, they have a new offering called a ['Bitcoin Base Currency Account'](https://www.easymarkets.com/int/bitcoin-account-base-currency#deadLink). This service, which they call the μBTC Base Currency Account, allows users to deposit, trade and withdraw in Bitcoin. 
@@ -56,5 +58,7 @@ The platform is proprietary, **custodial** and therefore **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still in the Chinese App Store, though not in the US one, and is the same broker app. The verdict still holds; see the Android section.
 
 {% include copyFromAndroid.html %}

@@ -1,6 +1,6 @@
 ---
 title: Crypto.com Wallet Bitcoin & Ethereum
-date: 2021-11-10
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -17,6 +17,8 @@ android:
   verdict: fake
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play, and the Wayback Machine has no archived copy of its store page. The {% include verdictBadge.html verdict="fake" type='short' %} verdict stays.
 
 **Update 2021-10-28**: This app is no more.
 

@@ -1,6 +1,6 @@
 ---
 title: 'BitSmart: Bitcoin, Ethereum, Blockchain Wallet'
-date: 2021-11-10
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -23,6 +23,8 @@ android:
 - There is no website listed on its Google Play app.
 - Many users complained that they thought BitSmart was BitMart, a more popular cryptocurrency service.
 - We could not locate the social media accounts of the app.
+
+**Update 2026-10-30:** The app is still gone from Google Play, and the Wayback Machine has no archived copy of its store page. The listing names no website; a bitsmart.app site, which we could not tie to this app, returns only a Cloudflare error. Without evidence of who holds the keys, it stays {% include verdictBadge.html verdict="wip" type='short' %}.
 
 ## App Description
 

@@ -1,6 +1,6 @@
 ---
 title: BitTrade 빗썸 코인원 코빗 api 거래 비트코인 이더리움 리플 대시 모네로
-date: 2021-12-22
+date: 2026-10-30
 redirect_from:
 - /android/com.bllang.bithumb/
 android:
@@ -15,5 +15,7 @@ android:
   verdict: wip
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play. We found no archived copy of its store page, and the listing names no website or developer we could follow up on, so it stays {% include verdictBadge.html verdict="wip" type='short' %}.
 
 **Update 2021-12-05**: This app is gone from the Store.

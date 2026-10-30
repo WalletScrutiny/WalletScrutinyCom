@@ -1,7 +1,7 @@
 ---
 wsId: BitcoinIRA
 title: 'BitcoinIRA: Buy & Sell Crypto'
-date: 2021-10-18
+date: 2026-10-30
 authors:
 - danny
 website: https://bitcoinira.com/
@@ -45,6 +45,12 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** BitcoinIRA still holds its customers' coins through partners.
+Its [homepage](https://bitcoinira.com/) says assets are "stored in industry leading
+multi-signature wallets with BitGo" and that "Retirement accounts and custodial services
+are offered by Digital Trust LLC, a regulated custodian and Nevada chartered trust
+company". The verdict {% include verdictBadge.html verdict="custodial" type='short' %} still holds.
+
 {% include review/bitgo.md %}
 
 ## App Description
@@ -75,6 +81,9 @@ As Bitgo still acts as a custodian to your funds, keeping them in **cold storage
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still in the US App Store, now under the seller name
+Alternative IRA Services, LLC. See the Android section.
 
 {% include copyFromAndroid.html %}
 

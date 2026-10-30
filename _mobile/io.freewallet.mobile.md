@@ -1,7 +1,7 @@
 ---
 wsId: FreeWalletIO
 title: FreeWallet
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -48,6 +48,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** Nothing has changed. The [repository](https://github.com/jdogresorg/freewallet-mobile) is still at its last commit from March 17, 2019, and [our build-instructions issue](https://github.com/jdogresorg/freewallet-mobile/issues/34) is still open. [freewallet.io](https://freewallet.io/) still links the Android and iOS apps and still calls FreeWallet Mobile open source. The verdict stays {% include verdictBadge.html verdict="sourceavailable" type='short' %}.
+
 {% include featureEvidence.html feature="foss" source="[License](https://github.com/jdogresorg/freewallet-mobile/blob/master/LICENSE)" quote="The MIT License (MIT)" %}
 {% include featureEvidence.html feature="segwit" source="[Website](https://freewallet.io)" quote="Supports multiple addresses as well as segwit, importing private keys, and watch-only addresses." %}
 {% include featureEvidence.html feature="fingerprint" source="[Website](https://freewallet.io)" quote="Add an Password, PIN or thumbprint scan to give your wallet an additional layer of security." %}
@@ -80,6 +82,8 @@ An issue has been opened at [https://github.com/jdogresorg/freewallet-mobile/iss
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** Same as Android: the App Store version is still 1.0.9 from March 2019, and the repository it shares with Android is unchanged. The verdict stays {% include verdictBadge.html verdict="sourceavailable" type='short' %}.
 
 {% include featureEvidence.html feature="segwit" source="[Website](https://freewallet.io)" quote="Supports multiple addresses as well as segwit, importing private keys, and watch-only addresses." %}
 

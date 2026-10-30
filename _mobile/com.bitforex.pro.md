@@ -1,6 +1,6 @@
 ---
 title: BitForex Pro
-date: 2022-04-07
+date: 2026-10-30
 redirect_from:
 - /android/com.bitforex.pro/
 android:
@@ -12,8 +12,12 @@ android:
   reviews: 71
   icon: com.bitforex.pro.webp
   meta: removed
-  verdict: wip
+  verdict: custodial
 
 ---
+
+**⚠️ Warning:** BitForex stopped processing withdrawals in February 2024, and Hong Kong's Securities and Futures Commission [lists it as a suspected fraud](https://www.sfc.hk/en/alert-list/3010).
+
+**Update 2026-10-30:** The app is still gone from Google Play, and we now file it as {% include verdictBadge.html verdict="custodial" type='short' %}. The [archived store page](http://web.archive.org/web/20220303013457/https://play.google.com/store/apps/details?id=com.bitforex.pro) describes BitForex Pro as the app of the BitForex exchange, "dedicated to providing users with safe, professional, and convenient digital currency trading services", and lists a bitforex.com developer address. That is the same exchange as {% include walletLink.html wallet='android/com.bitforex.bitforex' verdict='true' %}. In February 2024 BitForex went offline after large outflows from its hot wallets, and the [Hong Kong SFC warned](https://www.coindesk.com/policy/2024/03/04/hong-kongs-markets-regulator-issues-warning-against-crypto-exchange-bitforex) the public about it. [bitforex.com](https://www.bitforex.com/) is now an "Asset Service Center" that posts monthly liquidation notices.
 
 **Update 2022-03-26**: This app is not available anymore.

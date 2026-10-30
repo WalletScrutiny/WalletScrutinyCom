@@ -1,6 +1,6 @@
 ---
 title: MX exchange - buying & sell Bitcoin
-date: 2021-12-22
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -17,6 +17,8 @@ android:
   verdict: fake
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play, and the Wayback Machine has no copy of its store page. It never listed a website. The verdict stays {% include verdictBadge.html verdict="fake" type='short' %}.
 
 **Update 2021-12-03**: This app is gone from the Store.
 

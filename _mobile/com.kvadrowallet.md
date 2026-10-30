@@ -1,6 +1,6 @@
 ---
 title: Kvadro WL
-date: 2021-11-15
+date: 2026-10-30
 authors:
 - danny
 website: https://kvadrowallet.com#deadLink
@@ -18,6 +18,8 @@ android:
   verdict: wip
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play, and kvadrowallet.com no longer resolves. The [archived store page from May 2022](https://web.archive.org/web/20220510081312/https://play.google.com/store/apps/details?id=com.kvadrowallet) repeats the short description quoted below and says nothing about keys or backups. That is not enough for a verdict, so it stays {% include verdictBadge.html verdict="wip" type='short' %}.
 
 ## App Description
 

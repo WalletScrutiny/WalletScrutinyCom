@@ -1,6 +1,6 @@
 ---
 title: Folgory
-date: 2021-11-30
+date: 2026-10-30
 authors:
 - danny
 website: https://folgory.com#deadLink
@@ -15,10 +15,14 @@ android:
   version: 1.0.1
   reviews: 14
   icon: folgory.folgory.webp
-  meta: removed
-  verdict: wip
+  meta: defunct
+  verdict: custodial
 
 ---
+
+**⚠️ Warning:** Folgory appears to be out of business. Its website stopped showing the exchange in 2022, and the exchange was reported in 2021 to not process withdrawals.
+
+**Update 2026-10-30:** We now list this app as {% include verdictBadge.html verdict="custodial" type='short' %} and defunct. The app is still gone from Google Play. Its [archived store page](http://web.archive.org/web/20220522191238/https://play.google.com/store/apps/details?id=folgory.folgory) from May 2022 described a crypto wallet with a KYC upload, and the reviews quoted below are about logging into a verified account. That is the account app of the Folgory exchange, so the exchange holds the coins. In July 2021 [Cryptowisser](https://www.cryptowisser.com/exchange/folgory) moved Folgory to its exchange graveyard after reports that it did not process withdrawals. [Tracxn](https://tracxn.com/d/companies/folgory/__TmLFm4h6COfw9HtMcEp0kMVp05aa7-fSlKnpDFNQUOI) lists the company as deadpooled. folgory.com now serves a certificate for a different name, and the [last archived copy](https://web.archive.org/web/20221002121254/http://folgory.com/) that still shows the exchange is from October 2022.
 
 The app has multiple negative reviews from way back in April 2021. 
 

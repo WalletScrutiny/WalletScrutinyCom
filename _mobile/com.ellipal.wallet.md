@@ -1,7 +1,7 @@
 ---
 wsId: ELLIPAL
 title: 'ELLIPAL: Crypto Wallet'
-date: 2021-12-03
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -51,9 +51,11 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The app is still closed source. The [ELLIPAL GitHub account](https://github.com/ELLIPAL?tab=repositories) holds no code for this app. Its most recently updated repositories are firmware for the ELLIPAL Joy mnemonic generator and a tool to verify Titan upgrade files, neither of which builds this app. ELLIPAL's blog post quoted below is gone from its website, so we now link [an archived copy](https://web.archive.org/web/20250916221029/https://www.ellipal.com/blogs/news/how-much-does-open-source-contribute-to-security). The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+
 ## Update 2024-07-17
 
-This article confirms that Ellipal is a [closed source](https://www.ellipal.com/blogs/news/how-much-does-open-source-contribute-to-security) product.
+This article confirms that Ellipal is a [closed source](https://web.archive.org/web/20250916221029/https://www.ellipal.com/blogs/news/how-much-does-open-source-contribute-to-security) product.
 
 >  "ELLIPAL allows Private keys import to overcome any worries originating from being closed source."
 
@@ -77,6 +79,8 @@ we assume the app is closed source and thus **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** As on Android, we found no source code for the iPhone app on the [ELLIPAL GitHub account](https://github.com/ELLIPAL?tab=repositories). The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 {% include copyFromAndroid.html %}
 

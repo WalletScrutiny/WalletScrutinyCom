@@ -1,7 +1,7 @@
 ---
 wsId: gopax
 title: GOPAX (Crypto exchange)
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.gopax.co.kr
@@ -11,7 +11,7 @@ redirect_from:
 android:
   appId: kr.co.gopax
   users: 500000
-  appCountry: cn
+  appCountry: kr
   released: 2018-11-05
   updated: 2026-10-13
   version: 1.9.85.37ce
@@ -36,6 +36,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** GOPAX survived the closure threat mentioned below, but changed hands. Binance bought a majority stake in February 2023 ([Cointelegraph](https://cointelegraph.com/news/binance-re-enters-south-korea-with-gopax-exchange)), and Korea's Financial Intelligence Unit approved the change of executives in October 2025, which gave Binance effective control ([Korea Times](https://www.koreatimes.co.kr/economy/cryptocurrency/20251017/worlds-largest-crypto-exchange-binance-approved-to-enter-korean-market)). As of January 2026, users of its frozen GoFi yield product were still waiting for full repayment ([The Block](https://www.theblock.co/news/business/2026-01-30-binance-top-spot-south-korea-gopax-gofi-387783)). The Google Play description still says most deposits sit in "offline cold wallets". The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ### Google Play
 

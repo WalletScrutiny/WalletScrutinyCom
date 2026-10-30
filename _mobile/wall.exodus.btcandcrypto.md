@@ -1,6 +1,6 @@
 ---
 title: EXODUS CRYPTO BTC ETH WALLET TRX USDT
-date: 2021-08-06
+date: 2026-10-30
 authors:
 - emanuel
 - leo
@@ -18,6 +18,8 @@ android:
   verdict: fake
 
 ---
+
+**Update 2026-10-30:** This fake app is still not on Google Play. The verdict stands.
 
 **Update 2021-08-04**: This app disappeared from the Play Store 2 days after our
 "fake" verdict.

@@ -1,7 +1,7 @@
 ---
 wsId: blackcatcard
 title: Blackcatcard
-date: 2021-09-03
+date: 2026-10-30
 authors:
 - danny
 website: https://blackcatcard.com
@@ -37,6 +37,16 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+The [crypto service page](https://blackcatcard.com/crypto-service) still offers a
+"hot crypto wallet" that is ready "the moment your account is opened" and can
+send coins to other customers by phone number. The provider has since renamed
+itself Blackcat and
+[launched a rebuilt app](https://www.financexmagazine.com/post/european-fintech-blackcat-launches-multi-wallet-app-combining-euro-and-crypto-accounts-completing-r),
+";blackcat", whose crypto services come from "a separately licensed European
+partner". That new app has its own app ID and is not listed here yet. This
+older Blackcatcard app is still on Google Play.
 
 ## Update 2021-10-28
 
@@ -94,5 +104,10 @@ We assume that DigiNord provides the cryptocurrency services and BlackCatCard in
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** On 2026-10-30 Apple's lookup no longer found this app in
+the Latvian, US, UK, German, Estonian, Lithuanian or French App Store. The new
+";blackcat" app from the same developer, Papaya Ltd, has been in the App Store since
+2025-06-17.
 
 {% include copyFromAndroid.html %}

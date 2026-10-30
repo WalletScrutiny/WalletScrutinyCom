@@ -21,13 +21,15 @@ icon: bitbills.webp
 bugbounty: 
 meta: defunct
 verdict: prefilled
-date: 2022-03-23
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
 features: 
 
 ---
+
+**Update 2026-10-30:** Nothing changed. [bitbills.com](http://bitbills.com/) is still a one-line placeholder with a support address, and no cards have been made since 2012. The listing stays defunct and {% include verdictBadge.html verdict="prefilled" type='short' %}.
 
 ## Product Description 
 

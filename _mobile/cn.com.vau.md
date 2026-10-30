@@ -1,7 +1,7 @@
 ---
 wsId: vantageFX
 title: Vantage:All-In-One Trading App
-date: 2021-11-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.vantagemarkets.com/
@@ -41,13 +41,15 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** Vantage still sells crypto only as CFDs, so the verdict stays {% include verdictBadge.html verdict="nosendreceive" type='short' %}. The app description now calls Vantage a "Contract for Difference (CFD) trading platform", and [ForexBrokers.com's 2026 review](https://www.forexbrokers.com/reviews/vantage) lists about 50 crypto CFDs that now trade 24/7, including in a new "Perpetual" account that charges funding rates. The weekend restriction quoted below no longer applies, and the help-center article it came from is gone. Crypto appears only as a way to fund the account ("digital currencies"), not as an asset the user can withdraw.
+
 App description:
 
 > The Vantage FX app offers traders easy, yet powerful mobile access to hundreds of FX Pairs, Commodities, Indices, Share CFDs and more! Available for both iOS and Android devices, the Vantage FX trading app is equipped with a suite of trading and investing tools so you can trade global markets anywhere, anytime! Trade your way anywhere, anytime, with the Vantage FX app.
 
 There was no mention of BTC or any other cryptocurrency in their Playstore description. 
 
-On their website's [help center](https://helpcenter.vantagefx.com/hc/en-us/articles/360004063096-Why-can-not-I-trade-Crypto-assets-over-the-weekend-), Vantage mentions that crypto assets "are offered in the form of CFD."
+On their website's [help center](https://helpcenter.vantagefx.com/hc/en-us/articles/360004063096-Why-can-not-I-trade-Crypto-assets-over-the-weekend-#deadLink), Vantage mentions that crypto assets "are offered in the form of CFD."
 
 > Kindly note that Crypto assets are offered in the form of CFD. As CFD markets are closed over the weekend crypto trading is not available either. 
 

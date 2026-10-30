@@ -1,6 +1,6 @@
 ---
 title: BitDATA Pro - Buy & Sell BTC
-date: 2021-08-08
+date: 2026-10-30
 website: https://www.bitdata.site
 redirect_from:
 - /android/com.qm.bitdata.pro/
@@ -18,3 +18,4 @@ android:
 
 ---
 
+**Update 2026-10-30:** The app is still on Google Play with few users. Its store description now calls it a "market analysis and portfolio tracking tool" with no mention of sending or receiving coins, while the provider's [website](https://www.bitdata.site/) advertises brokerage services such as top-up, withdrawal and "digital asset custody". These two sources conflict, so we keep the app as {% include verdictBadge.html verdict="wip" type='short' %}.

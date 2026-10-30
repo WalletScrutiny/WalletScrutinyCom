@@ -14,7 +14,7 @@ dimensions:
 - 1
 weight: 1
 provider: Digital Systems a.s.
-providerWebsite: https://digitalsystems.eu#deadLink
+providerWebsite: https://www.digitalsystems.eu/
 website: https://www.digitalsystems.eu/cyber-security/#ace
 shop: 
 country: SK
@@ -24,7 +24,7 @@ icon: acecardwallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-11
+date: 2026-10-30
 signer: 
 twitter: 
 social:
@@ -34,6 +34,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** Still vaporware. The Digital Systems [cyber security page](https://www.digitalsystems.eu/cyber-security/) no longer mentions the Ace Card Wallet at all and only offers audits and consulting. The 2018 [data sheet](https://www.digitalsystems.eu/wp-content/uploads/2018/11/AceCardWallet.pdf) is still online, but we found no sign that the product ever shipped. The verdict stays {% include verdictBadge.html verdict="vapor" type='short' %}.
 
 ## Product Description
 

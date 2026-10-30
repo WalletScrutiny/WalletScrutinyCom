@@ -1,7 +1,7 @@
 ---
 wsId: WalletIOPRO
 title: wallet.io Pro—Multisig Wallet (BTC, ETH, EOS...)
-date: 2022-02-16
+date: 2026-10-30
 authors:
 - danny
 website: https://wallet.io/
@@ -37,6 +37,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The app is still gone from Google Play, and the Pro website [pro.wallet.io](https://pro.wallet.io/) now answers with a 503 error. The main site [wallet.io](https://wallet.io/) is still online and now offers log-in with a Gate.com account. The provider's [GitHub account](https://github.com/wallet-io) still has no repository for the mobile apps, so the verdict {% include verdictBadge.html verdict="nosource" type='short' %} still holds.
 
 **Update 2022-02-09**: This app is no more.
 
@@ -91,5 +93,7 @@ This app is **self-custodial**, but the source code is **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** Unlike the Android app, this one is still listed in the US and New Zealand App Stores, at version 1.2.9 from August 2021, with no update since. See the Android section; the verdict {% include verdictBadge.html verdict="nosource" type='short' %} still holds.
 
 {% include copyFromAndroid.html %}

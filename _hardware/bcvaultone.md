@@ -25,7 +25,7 @@ icon: bcvaultone.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-12-10
+date: 2026-10-30
 signer: 
 twitter: bc_vault
 social:
@@ -35,6 +35,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** BC Vault is still sold and the device is still closed source. On 2026-10-30 bc-vault.com did not answer from our network, but an [archived copy of the shop from 2026-09-28](https://web.archive.org/web/20260928073236/https://bc-vault.com/shop/) lists the BC Vault ONE Basic Model at 131.14 €, and the [support site](https://support.bc-vault.com/support/home) is online. The [BC Vault GitHub account](https://github.com/bc-vault) still has only the two integration libraries, with no firmware. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 ## Private keys can be created offline 
 

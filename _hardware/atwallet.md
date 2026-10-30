@@ -23,9 +23,9 @@ price: 120USD
 repository: 
 icon: atwallet.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: plainkey
-date: 2021-12-03
+date: 2026-10-30
 signer: 
 twitter: authentrend
 social:
@@ -35,6 +35,10 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** AuthenTrend has discontinued the AT.Wallet and no longer supports it. The firmware and companion apps get no more updates or security patches.
+
+**Update 2026-10-30:** We now mark this device defunct. The [AT.Wallet product page](https://authentrend.com/at-wallet/) says the device "has reached its End-of-Life (EOL) status and has been officially discontinued", that the device, its firmware and the companion apps get no more updates, and that "Official technical support for this product is no longer active." The [Amazon listing](https://www.amazon.com/dp/B084Q4FRPT) shows it as currently unavailable. AuthenTrend itself is still in business with its ATKey security keys. Nothing about the firmware became public, so the verdict stays {% include verdictBadge.html verdict="plainkey" type='short' %}.
 
 {{ page.title }} describes itself as
 

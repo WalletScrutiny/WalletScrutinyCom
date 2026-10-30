@@ -1,7 +1,7 @@
 ---
 wsId: coinmetro
 title: 'Coinmetro: Buy BTC ETH SOL XRP'
-date: 2021-10-04
+date: 2026-10-30
 authors:
 - danny
 website: https://coinmetro.com/
@@ -40,7 +40,11 @@ iphone:
 
 ---
 
+**⚠️ Warning:** Coinmetro OÜ [suspended registrations, deposits, withdrawals and trading on June 22, 2026](https://www.coinmetro.com/blog/announcement-onboarding-depositing-and-withdrawals) and applied for reorganisation in an Estonian court. Balances remain frozen.
+
 ## Android
+
+**Update 2026-10-30:** Coinmetro OÜ [suspended registrations, deposits, withdrawals and trading on June 22, 2026](https://www.coinmetro.com/blog/announcement-onboarding-depositing-and-withdrawals) and applied for reorganisation in an Estonian court. According to its [reorganization hub](https://www.coinmetro.com/reorganization-status-and-information) (last updated September 25, 2026), "deposits, withdrawals, trading and onboarding are still paused, and balances are still frozen". A court rejected the application on August 24 and Coinmetro appealed to the Tallinn Circuit Court. The company also says it "isn't licensed to run [an exchange] and isn't trying to reopen as one" ([Protos](https://protos.com/coinmetro-files-for-reorganization-blames-years-old-failure-of-provider/) covered the filing). The app is still listed. This shows the custody risk clearly: users cannot move their own coins. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## App Description
 
@@ -84,5 +88,7 @@ Coinmetro is a **custodial** service and **not verifiable**
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still listed, but it uses the same frozen Coinmetro accounts. See the Android update above. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include copyFromAndroid.html %}

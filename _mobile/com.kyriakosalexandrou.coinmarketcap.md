@@ -1,7 +1,7 @@
 ---
 wsId: DopamineBitcoin
 title: DOPAMINE - Bitcoin & Crypto
-date: 2021-10-10
+date: 2026-10-30
 authors:
 - danny
 website: https://www.dopamineapp.com
@@ -40,6 +40,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Still no public wallet source. The [Dopamine website](https://www.dopamineapp.com/faq.html) still calls the app "a non-custodial, secure, and anonymous cryptocurrency mobile app wallet" and now also promotes its $DOPE token on Solana. The [dopamineapp GitHub account](https://github.com/dopamineapp) has four repositories (a profile README, a token list, a remote-config file and a ChatGPT app), none of them wallet code. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 ## Update 2024-07-16
 

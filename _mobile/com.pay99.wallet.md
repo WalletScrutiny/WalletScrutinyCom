@@ -1,7 +1,7 @@
 ---
 wsId: 99Pay
 title: 99Pay
-date: 2021-12-26
+date: 2026-10-30
 authors:
 - leo
 twitter: voude99
@@ -41,6 +41,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The app is still listed, and crypto is still a buy-and-sell feature. The current Play description offers to "Buy and sell bitcoins" from R$10 and says "you can redeem the amount invested in reais at any time"; the Brazilian App Store description lists "Compra de criptomoedas a partir de R$1,00". Neither mentions sending bitcoin to or receiving it from an outside wallet, so the verdict {% include verdictBadge.html verdict="nosendreceive" type='short' %} stays.
+
 This is the payment app for the ride sharing app "99" which is popular in
 Brazil. 99 was bought by "Didi Chuxing", the Chinese Ride Sharing giant.
 
@@ -53,5 +55,7 @@ speculation on the price of bitcoin.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still listed in Brazil. See the Android section; the verdict {% include verdictBadge.html verdict="nosendreceive" type='short' %} stays.
 
 {% include copyFromAndroid.html %}

@@ -1,6 +1,6 @@
 ---
 title: Yes Wallet
-date: 2021-06-18
+date: 2026-10-30
 authors:
 - leo
 website: http://www.yeswallet.io
@@ -15,10 +15,17 @@ android:
   version: '1.0'
   reviews: 31
   icon: com.yes.yeswallet.webp
-  meta: removed
+  meta: defunct
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** This provider is gone. The app is no longer on Google Play, and
+on 2026-10-30 the domain yeswallet.io no longer resolved.
+
+**Update 2026-10-30:** The app is still gone from Google Play and its website is
+gone, so we mark the provider as defunct. The verdict stays
+{% include verdictBadge.html verdict="custodial" type='short' %}.
 
 This app ~~is~~was **very likely a scam** judging by the reviews and the website being
 down and the last update being almost two years old.

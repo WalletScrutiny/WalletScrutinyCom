@@ -1,10 +1,10 @@
 ---
 wsId: prestmit
 title: 'Prestmit: Gift Cards & Crypto'
-date: 2021-11-02
+date: 2026-10-30
 authors:
 - danny
-website: https://staging.prestmit.com
+website: https://prestmit.io
 twitter: prestmit
 social:
 - https://www.facebook.com/prestmit
@@ -40,6 +40,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Prestmit still only receives bitcoin, so the verdict stays {% include verdictBadge.html verdict="nosendreceive" type='short' %}. Its help center says you [generate an address and send crypto to it](https://help.prestmit.io/en/articles/6996652-how-to-sell-crypto-on-prestmit), and the coins are then converted to your Naira, Cedis or USD balance or paid to your bank. [Buying crypto "is not currently available"](https://help.prestmit.io/en/articles/6996651-how-can-i-buy-crypto-on-prestmit). The only on-chain payout is for the USD balance, which goes to a [stablecoin address](https://help.prestmit.io/en/articles/13396001-withdrawal-fees-on-prestmit). The website moved from prestmit.com to [prestmit.io](https://prestmit.io).
 
 ## Updated Verdict 2021-10-29
 

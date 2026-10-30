@@ -26,7 +26,7 @@ icon: hypermatepro.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-12-12
+date: 2026-10-30
 signer: 
 twitter: HyperPay_tech
 social:
@@ -41,6 +41,8 @@ features:
 - segwit
 
 ---
+
+**Update 2026-10-30:** HyperPay has rebranded as HPX: hyperpay.tech now redirects to [hpx.com](https://www.hpx.com/en), which calls HyperPay Wallet "the predecessor of HPX", and the companion app {% include walletLink.html wallet='android/com.legendwd.hyperpayW' verdict='true' %} is now called "HPX". The [old HyperMate Pro page](https://hyperpay.tech/hypermatepro/pro) now lands on an HPX "Page not found". The device is still current, though: an HPX security notice on [hpx.com](https://www.hpx.com/en) offers first-generation HyperMate owners a free HyperMate Pro as a replacement. The [hardwallet repository](https://github.com/hyperpayorg/hardwallet) still has its last commit from January 2021 and no tags, so the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 This hardware wallet is paired with {% include walletLink.html wallet='android/com.legendwd.hyperpayW' verdict='true' %}
 

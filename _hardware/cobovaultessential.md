@@ -21,9 +21,9 @@ price: 119USD
 repository: https://github.com/KeystoneHQ/Keystone-cold-app
 icon: cobovaultessential.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: nosource
-date: 2022-02-18
+date: 2026-10-30
 signer: 
 twitter: KeystoneWallet
 social: 
@@ -37,6 +37,8 @@ features:
 
 ---
 
+**Update 2026-10-30:** Keystone no longer sells this device. Its [shop product page](https://shop.keyst.one/products/keystone-essential) now returns 404 (the [last archived copy is from July 2023](https://web.archive.org/web/20230707094146/https://shop.keyst.one/products/keystone-essential)), and [Keystone's website](https://keyst.one/) lists the {% include walletLink.html wallet='hardware/keystone3.pro' verdict='true' %} as its only hardware wallet. Keystone itself is active, and its [support site](https://support.keyst.one/getting-started/setting-up-keystone-in-5-steps) still has the setup guide linked below. The software situation has not changed: the [Keystone-system repository](https://github.com/KeystoneHQ/Keystone-system) still says vendor code was removed, the code "cannot be compiled", and the rest is shared only under an NDA. The [Medium article](https://web.archive.org/web/20250506081535/https://blog.keyst.one/keystone-product-design-principles-cd833bc11125) quoted below is gone; the link now points to an archived copy. We mark the device discontinued, and the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+
 **Note:** Cobovault has been renamed to Keystone, previous products were known as Cobovault Essential, Cobovault Pro and Cobovault Ultimate.
 
 This hardware wallet has a companion app: {% include walletLink.html wallet='android/com.keystone.mobile' verdict='true' %}
@@ -47,7 +49,7 @@ Keystone resembles a smartphone and has a 4" touchscreen.
 
 ## Private keys can be created offline - ✔️
 
-[From Keystone's article on Medium:](https://blog.keyst.one/keystone-product-design-principles-cd833bc11125)
+[From Keystone's article on Medium:](https://web.archive.org/web/20250506081535/https://blog.keyst.one/keystone-product-design-principles-cd833bc11125)
 
 > Hardware wallets isolate your private keys from the internet because physical attacks cost significantly more than remote attacks. In terms of how air-gapped your hardware wallet is and how costly it is for a hacker to steal your assets, it’s crucial how the hardware wallet connects to a companion app. Using QR codes or microSD cards for data transmission has significant advantages for air-gapping your keys compared to USB and Bluetooth, which have larger attack surfaces because they are interactive connections.
 

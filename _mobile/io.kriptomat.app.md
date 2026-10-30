@@ -1,7 +1,7 @@
 ---
 wsId: kriptomat
 title: 'Kriptomat: Invest & Buy Crypto'
-date: 2021-09-23
+date: 2026-10-30
 authors:
 - danny
 website: https://kriptomat.io
@@ -20,7 +20,7 @@ android:
   updated: 2026-02-20
   version: 7.8.0
   icon: io.kriptomat.app.webp
-  meta: removed
+  meta: defunct
   verdict: custodial
   developerName: Kriptomat
 iphone:
@@ -32,13 +32,17 @@ iphone:
   version: 7.8.0
   reviews: 94
   icon: io.kriptomat.app.webp
-  meta: removed
+  meta: defunct
   verdict: custodial
   developerName: FintechX OU
 
 ---
 
+**⚠️ Warning:** Kriptomat shut down. Its regulated services ended on 30 June 2026 and app access ended on 1 September 2026 ([Kriptomat wind-down page](https://kriptomat.io/wind-down/)).
+
 ## Android
+
+**Update 2026-10-30:** Kriptomat is closed. It [announced its wind-down](https://kriptomat.io/kriptomat-to-wind-down-operations-by-30-june-2026-and-what-comes-next-for-our-customers/) on 19 May 2026, after it withdrew its application for a MiCA licence in Estonia, where no such licence had yet been granted ([Kaupr](https://www.kaupr.io/en/news/micas-full-picture-38-licensed-firms-in-the-nordics-and-baltics), [Finansu Guru](https://finansuguru.com/kriptovaluta/kriptomat-partrauks-darbibu-eiropa/)). Trading stopped on 30 June 2026, the platform was read-only until 1 September 2026, and leftover balances are now paid out by manual request, with crypto going only to Kraken ([wind-down page](https://kriptomat.io/wind-down/)). The app is gone from Google Play and the App Store. The help-centre article about private keys quoted below is now a 404. Kriptomat paying out leftover balances itself confirms it held its customers' coins, so the {% include verdictBadge.html verdict="custodial" type='short' %} verdict stands for the time the app was live. Kriptomat recommends {% include walletLink.html wallet='android/com.kraken.invest.app' verdict='true' %} as the place to move to.
 
 A cursory look at the app's website indicates a centralized custodial buy, sell and store service that is managed by a private company based in Estonia. We would be looking deeper by perusing its legal documents and compliances.
 

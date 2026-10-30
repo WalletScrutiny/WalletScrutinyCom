@@ -1,7 +1,7 @@
 ---
 wsId: iwallet
 title: iWallet - blockchain wallet for Bitcoin, Ethereum
-date: 2021-11-16
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -19,7 +19,7 @@ android:
   version: 0.0068beta
   reviews: 15
   icon: tech.insense.sensewalet.webp
-  meta: removed
+  meta: defunct
   verdict: nosource
 iphone:
   appId: com.iwallet.iwallet
@@ -29,12 +29,16 @@ iphone:
   version: '2.35'
   reviews: 46
   icon: com.iwallet.iwallet.webp
-  meta: removed
+  meta: defunct
   verdict: nosource
 
 ---
 
+**⚠️ Warning:** iWallet is defunct. The app is gone from both stores and the provider's website no longer works.
+
 ## Android
+
+**Update 2026-10-30:** The app is still gone from Google Play. The provider's website [insense.tech](http://insense.tech#deadLink) only redirects to an HTTPS address that fails to load, and the listing names no social accounts to follow up on. We mark the app defunct. The verdict {% include verdictBadge.html verdict="nosource" type='short' %} stays as the record of what the app was.
 
 **Update 2022-01-04**: As of today, the homepage for this app is now up for sale. [(Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1478318114106318850)
 
@@ -62,6 +66,8 @@ verify it, we remain with the verdict: **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The app is still gone from the App Store. We mark it defunct, as on Android, and the verdict {% include verdictBadge.html verdict="nosource" type='short' %} stays.
 
 **Update 2022-05-26**: This app is not on the app store anymore.
 

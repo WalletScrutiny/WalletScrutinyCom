@@ -1,7 +1,7 @@
 ---
 wsId: bitsa
 title: 'Bitsa: Reloadable Prepaid Card'
-date: 2021-11-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitsacard.com
@@ -40,6 +40,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Bitsa now lets users buy and sell cryptocurrencies such as BTC and ETH inside the app, but the verdict stays {% include verdictBadge.html verdict="nosendreceive" type='short' %}. Bitsa's own blog post on the feature says ["the Bitsa account allows for buying and selling within the app but is not enabled for sending or receiving cryptocurrencies from external wallets"](https://bitsacard.com/blog/en/you-can-now-buy-and-sell-cryptocurrencies-from-bitsa-app). Crypto sent from outside is still converted to euros on arrival, and the app description says that conversion is "provided and managed by Bitnovo".
 
 ## App Description
 

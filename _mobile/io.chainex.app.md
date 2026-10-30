@@ -1,6 +1,6 @@
 ---
 title: ChainEX
-date: 2021-10-26
+date: 2026-10-30
 authors:
 - danny
 website: https://chainex.io/
@@ -23,6 +23,8 @@ android:
 
 ---
 
+**Update 2026-10-30:** ChainEX is still trading. [chainex.io](https://chainex.io/) refers to its FSCA authorisation and now also links an iPhone app. The [terms](https://chainex.io/terms) (3.12, 3.13 and 5.4) say that ChainEX "may control the corresponding private keys" and may keep customer assets in omnibus wallets, in hot and cold storage. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}. The withdrawal FAQ moved to the support site, and we updated the link below.
+
 ## App Description
 
 > ChainEX provides you with a secure, online platform from which you can purchase and trade with different digital assets.
@@ -43,7 +45,7 @@ From ChainEX's Terms of Service:
 > - ChainEX service partners are unable to support your use; or
 > - You take any action that ChainEX deems as circumventing ChainEX's controls, including, but not limited to, opening multiple ChainEX accounts or abusing promotions which ChainEX may offer from time to time.
 
-[Users can withdraw into external wallets](https://osticket.chainex.io/kb/faq.php?id=106) or into a bank account. 2FA is required for withdrawal.
+[Users can withdraw into external wallets](https://support.chainex.io/kb/faq.php?id=106) or into a bank account. 2FA is required for withdrawal.
 
 ## The App
 

@@ -1,7 +1,7 @@
 ---
 wsId: SwipeWallet
 title: Swipe Wallet
-date: 2021-07-06
+date: 2026-10-30
 authors:
 - leo
 website: https://swipe.io
@@ -36,6 +36,14 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The Swipe Wallet app is still gone from both Google Play
+and the App Store. [swipe.io](https://swipe.io/) now sells card-issuing
+infrastructure to businesses, and its homepage no longer mentions a consumer
+wallet. Binance
+[completed its takeover of Swipe in 2020](https://www.coindesk.com/markets/2020/07/07/binance-acquires-crypto-debit-card-provider-swipe-for-undisclosed-sum).
+The verdict {% include verdictBadge.html verdict="custodial" type='short' %}
+stays as the record of how the app worked.
 
 **Update 2021-07-06**: The app looks abandoned. It was:
 

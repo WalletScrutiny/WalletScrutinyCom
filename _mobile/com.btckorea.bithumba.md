@@ -1,6 +1,6 @@
 ---
 title: 빗썸 트레이더
-date: 2021-08-04
+date: 2026-10-30
 authors:
 - leo
 website: https://www.bithumb.com
@@ -19,6 +19,8 @@ android:
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** {{ page.title }} is still not on Google Play. Bithumb itself still runs its exchange at [bithumb.com](https://www.bithumb.com) and its main app {% include walletLink.html wallet='android/com.btckorea.bithumb' verdict='true' %}. In 2026 Bithumb [mistakenly credited users with billions of dollars worth of bitcoin](https://www.coindesk.com/policy/2026/02/09/usd44b-bitcoin-blunder-puts-south-korea-regulators-on-alert-over-local-crypto-exchanges), and South Korea's Financial Intelligence Unit imposed a six-month partial suspension for anti-money-laundering violations, which [a Seoul court put on hold](https://www.coindesk.com/policy/2026/05/01/bithumb-scores-a-legal-win-in-south-korea-as-six-month-suspension-is-lifted-by-local-judge). The verdict {% include verdictBadge.html verdict="custodial" type='short' %} still holds.
 
 **Update 2021-08-04**: Since 2021-07-22 the app is not on Play Store anymore.
 We don't know any details but also noticed that

@@ -1,7 +1,7 @@
 ---
 wsId: ZixiPay
 title: 'ZixiPay: Crypto Wallet'
-date: 2021-11-17
+date: 2026-10-30
 authors:
 - danny
 website: https://zixipay.com
@@ -39,6 +39,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** ZixiPay is still a custodial service. The app is listed again on Google Play and on the App Store. Its Play description still offers "Server side entropy for maximum randomness" and lets users "link your existing web wallet", and mentions no recovery phrase. The [User Agreement](https://zixipay.com/agreement) still contains the clauses quoted below, including the right "to limit, refuse or cancel any act by You or through Your Account". ZixiPay's only [GitHub repository](https://github.com/zixipay/zixipay.github.io) documents its wallet API; it holds no app code. The verdict {% include verdictBadge.html verdict="custodial" type='short' %} still holds.
 
 ## App Description
 
