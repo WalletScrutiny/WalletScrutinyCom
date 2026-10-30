@@ -1,7 +1,7 @@
 ---
 wsId: rainfinancial
 title: 'Rain: Buy & Sell Bitcoin'
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - danny
 website: https://rain.com
@@ -41,6 +41,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Rain still runs as a broker that holds your coins. Its Google Play description now says "Bank-grade security, cold storage, and multi-factor authentication keep your assets protected." On April 29, 2024 attackers took about $14.8 million from Rain's wallets; the exchange said it covered the loss and customer funds were not affected ([Halborn](https://www.halborn.com/blog/post/explained-the-rain-exchange-hack-may-2024)). The old rain.bh link now redirects to [rain.com](https://www.rain.com/). The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 **Update: 2022-01-05**
 

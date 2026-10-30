@@ -1,7 +1,7 @@
 ---
 wsId: cobowallet
 title: Cobo Wallet
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - leo
 website: https://cobo.com
@@ -47,6 +47,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** Cobo is shutting this app down. Its [announcement of 2026-10-15](https://www.cobo.com/zh/post/Cobo-Wallet-2026-10-15-1406) says the personal Cobo Wallet App stops service on 2026-12-01 (UTC+8), and that registration has been closed since 2021. Users must move all assets out before then. From 2027-01-01, Cobo deducts a monthly fee of 2% (at least $100 worth) from assets left in the account, which shows that Cobo controls at least the funds in those accounts. Cobo itself now sells institutional custody and wallet services. The app is back on Google Play, where its description now says it "is available to existing users only". We still found no source code for it, so the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %} until the shutdown.
+
 **Update 2022-05-15**: This app is not available anymore.
 
 **Update:** This wallet was one of the first wallets that was analyzed and back
@@ -82,6 +84,8 @@ verdict has to be: this wallet is **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still on the App Store and falls under the same [shutdown on 2026-12-01](https://www.cobo.com/zh/post/Cobo-Wallet-2026-10-15-1406) as the Android app. Withdraw any funds before then. The verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 {% include copyFromAndroid.html %}
 
