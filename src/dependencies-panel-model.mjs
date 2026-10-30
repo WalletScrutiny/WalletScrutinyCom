@@ -263,9 +263,12 @@ export function decisionReason(decision) {
   return (decision.basis || []).map(b => `${b.need}: ${JUSTIFICATION_LABEL[b.statement.justification] || b.statement.content || TRIAGE_LABEL[b.statement.status]}`).join('; ');
 }
 
-const csvCell = (v) => {
-  const s = v == null ? '' : String(v);
-  return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+// A text cell starting with = + - @ tab or CR runs as a formula in a spreadsheet, and the
+// justification column holds text anyone can publish, so prefix those with ' (OWASP CSV injection).
+export const csvCell = (v) => {
+  let s = v == null ? '' : String(v);
+  if (typeof v !== 'number' && /^[=+\-@\t\r]/.test(s)) s = `'${s}`;
+  return /[",\r\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
 };
 
 // One CSV with the whole dependency list and, per row, the advisories hitting it.
