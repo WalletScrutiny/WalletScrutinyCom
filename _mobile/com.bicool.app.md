@@ -1,6 +1,6 @@
 ---
 title: 'BICOOL: Buy Crypto & Bitcoin'
-date: 2023-01-02
+date: 2026-10-30
 website: https://bicool.in#deadLink
 redirect_from:
 - /android/com.bicool.app/

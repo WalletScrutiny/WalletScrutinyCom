@@ -1,6 +1,6 @@
 ---
 title: 'Bitdot: Indian Crypto Exchange'
-date: 2023-01-02
+date: 2026-10-30
 website: https://bitdotglobal.com#deadLink
 redirect_from:
 - /android/com.bitdot_project_a6.bitdot/

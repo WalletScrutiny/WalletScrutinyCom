@@ -1,7 +1,7 @@
 ---
 title: Bgogo - Digital Asset Exchange
-date: 2023-01-02
-website: https://bgogo.com/
+date: 2026-10-30
+website: https://bgogo.com/#deadLink
 redirect_from:
 - /android/com.bgg.bgg_exchange/
 android:

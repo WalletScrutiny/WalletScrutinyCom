@@ -1,9 +1,9 @@
 ---
 title: DotWallet - Manage Your Crypto and Dapp Assets
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
-website: https://www.dotwallet.com/
+website: https://www.dotwallet.com/#deadLink
 twitter: wallet_dot
 appCountry: us
 redirect_from:
@@ -33,6 +33,8 @@ iphone:
 
 ---
 
+**Update 2026-10-30:** The DotWallet website no longer loads. The last archived copy is from [November 2025](https://web.archive.org/web/20251113212636/https://www.dotwallet.com/).
+
 ## Android
 
 ## App Description
@@ -43,7 +45,7 @@ iphone:
 
 ## The App
 
-We downloaded the app and found support for BTC with send and receive functions. The mnemonics are only generated for BSV wallets. This is indicated on this [article:](https://www.dotwallet.com/en/article/208)
+We downloaded the app and found support for BTC with send and receive functions. The mnemonics are only generated for BSV wallets. This is indicated on this [article:](https://web.archive.org/web/20230324005451/https://www.dotwallet.com/en/article/208)
 
 > The BSV wallet supports backup mnemonics, while the BTC and ETH wallets are generated powered by BSV tokenized techniques, which has the core advantages of instant payment, lower handling fees, and 100% chain auditability (Check details);
 >

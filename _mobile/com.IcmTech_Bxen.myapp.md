@@ -1,6 +1,6 @@
 ---
 title: Bxen.io - Bitcoin Arbitrage
-date: 2023-01-02
+date: 2026-10-30
 website: https://www.bxen.io/tickets#deadLink
 redirect_from:
 - /android/com.IcmTech_Bxen.myapp/

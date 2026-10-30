@@ -1,6 +1,6 @@
 ---
 title: 'HCU Wallet : 헬스체이너스 지갑'
-date: 2023-01-02
+date: 2026-10-30
 website: https://healthchainus.com#deadLink
 redirect_from:
 - /android/com.bbko.hcu_wallet/

@@ -1,7 +1,7 @@
 ---
 title: Bitfera – Buy Bitcoin, ETH, LTC, XRP and BCH
-date: 2023-01-02
-website: https://www.bitfera.com
+date: 2026-10-30
+website: https://www.bitfera.com#deadLink
 redirect_from:
 - /android/com.coinsfera/
 android:

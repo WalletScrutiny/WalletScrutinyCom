@@ -1,6 +1,6 @@
 ---
 title: Binance Auto Trade
-date: 2023-01-02
+date: 2026-10-30
 website: http://binanceautotrade.myreport-live.be#deadLink
 redirect_from:
 - /android/be.myreportlive.binanceautotrade/
