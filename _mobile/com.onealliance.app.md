@@ -1,6 +1,6 @@
 ---
 title: ONE Exchange
-date: 2023-12-19
+date: 2026-10-30
 website: http://client.onechange.com.br#deadLink
 redirect_from:
 - /android/com.onealliance.app/

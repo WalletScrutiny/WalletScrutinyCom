@@ -1,6 +1,6 @@
 ---
 title: elegro Retail PoS App
-date: 2023-12-19
+date: 2026-10-30
 website: https://business.elegro.eu/acceptance#deadLink
 redirect_from:
 - /android/dashboard.elegro.io/

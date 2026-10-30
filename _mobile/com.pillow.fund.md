@@ -1,6 +1,6 @@
 ---
 title: 'Pillow: Save. Invest. Earn.'
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: https://www.pillow.fund#deadLink
@@ -35,6 +35,8 @@ iphone:
   developerName: Pillow Digital Technologies Pte Ltd
 
 ---
+
+**⚠️ Warning:** Pillow shut down. It [discontinued all services](https://techcrunch.com/2023/06/23/pillow-discontinue) citing regulatory uncertainty; bank withdrawals ended on 2023-07-07 and crypto withdrawals on 2023-07-31. Its website no longer loads.
 
 ## Android
 

@@ -1,9 +1,9 @@
 ---
 title: Stibits
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
-website: https://stibits.com
+website: https://stibits.com#deadLink
 twitter: stibits
 redirect_from:
 - /android/com.stibits/
@@ -33,6 +33,8 @@ iphone:
   developerName: Stibits
 
 ---
+
+**⚠️ Warning:** Stibits appears to be gone. Both apps are no longer in the stores, and the [Stibits website](https://web.archive.org/web/20230519162248/https://stibits.com/) no longer loads: its domain has expired and now shows a parking page.
 
 ## Android
 

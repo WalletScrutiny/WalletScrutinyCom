@@ -1,6 +1,6 @@
 ---
 title: 'LunesPay: Pagamentos Via QR Co'
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: https://lunespay.com.br#deadLink
@@ -31,6 +31,6 @@ Below is the app description (translated from Portuguese):
 >
 > You pay your bills in seconds through the app with credit card, account balance, or with Lunes and Bitcoin cryptocurrencies!
 
-The site claims you can buy cryptocurrencies as well as send and receive. LunesPay has [an official blogpost](https://blog.lunes.io/gestao-de-seed-no-app-lunespay-uma-nova-forma-de-protecao-a-mesma-seguranca-de-sempre/) which confirms that users can create, backup, and restore their wallets.
+The site claims you can buy cryptocurrencies as well as send and receive. LunesPay has [an official blogpost](https://web.archive.org/web/20221209100100/https://blog.lunes.io/gestao-de-seed-no-app-lunespay-uma-nova-forma-de-protecao-a-mesma-seguranca-de-sempre/) which confirms that users can create, backup, and restore their wallets.
 
 While the official GitHub profile contained multiple repositories, they were meant for the browser extension wallets. We did not find a repository for this wallet. Additionally, we searched for this app's Play Store id on GitHub, but there were no relevant results. With no further information or evidence otherwise, we conclude that this app's code is **not available for review.**

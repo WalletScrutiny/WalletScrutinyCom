@@ -1,6 +1,6 @@
 ---
 title: WX Invest
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: https://waves.exchange/investments

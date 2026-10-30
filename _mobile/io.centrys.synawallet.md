@@ -1,6 +1,6 @@
 ---
 title: Syna
-date: 2023-12-19
+date: 2026-10-30
 website: http://www.theoproject.io#deadLink
 redirect_from:
 - /android/io.centrys.synawallet/

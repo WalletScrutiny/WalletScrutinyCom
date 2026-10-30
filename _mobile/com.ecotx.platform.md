@@ -1,6 +1,6 @@
 ---
 title: 'ECOTX: BTC, Crypto and P2P'
-date: 2023-12-19
+date: 2026-10-30
 website: https://ecotx.io#deadLink
 redirect_from:
 - /android/com.ecotx.platform/

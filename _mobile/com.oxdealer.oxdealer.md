@@ -1,6 +1,6 @@
 ---
 title: 0xdealer
-date: 2023-12-19
+date: 2026-10-30
 website: https://0xdealer.com#deadLink
 redirect_from:
 - /android/com.oxdealer.oxdealer/

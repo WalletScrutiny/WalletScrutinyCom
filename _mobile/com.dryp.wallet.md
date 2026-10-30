@@ -1,7 +1,7 @@
 ---
 title: DRYP Wallet
-date: 2023-12-19
-website: https://drypwallet.com/
+date: 2026-10-30
+website: https://web.archive.org/web/20220309044945/https://drypwallet.com/
 redirect_from:
 - /android/com.dryp.wallet/
 android:
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**⚠️ Warning:** The DRYP crypto wallet site is gone. Its domain [drypwallet.com](https://www.drypwallet.com/) now shows a payments app funded from a bank account, with no crypto features; the original wallet site survives only in an [archived copy from March 2022](https://web.archive.org/web/20220309044945/https://drypwallet.com/).

@@ -1,7 +1,7 @@
 ---
 title: MyBitcart
-date: 2023-12-19
-website: https://mybitcart.com
+date: 2026-10-30
+website: https://mybitcart.com#deadLink
 redirect_from:
 - /android/com.mybitcart.app/
 android:

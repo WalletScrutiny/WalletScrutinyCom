@@ -1,7 +1,7 @@
 ---
 title: 블랙비트
-date: 2023-12-19
-website: http://www.ag-system.com
+date: 2026-10-30
+website: http://www.ag-system.com#deadLink
 redirect_from:
 - /android/com.imweb.appS2017021258a0179e1e786_58f1bc4502b7a/
 android:

@@ -1,6 +1,6 @@
 ---
 title: MilleniumOne
-date: 2023-12-19
+date: 2026-10-30
 website: https://milleniumone.com#deadLink
 redirect_from:
 - /android/com.pandats.milleniumone/

@@ -1,9 +1,9 @@
 ---
 title: Bull App - Blockchain Wallet
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
-website: https://getbull.app
+website: https://web.archive.org/web/20240302200916/https://getbull.app/
 redirect_from:
 - /android/crypto.wallet.chainapp/
 - /iphone/crypto.wallet.chainapp/
@@ -31,6 +31,8 @@ iphone:
   developerName: SUPERBRAIN LIMITED
 
 ---
+
+**⚠️ Warning:** Both Bull App apps are gone from the stores, and getbull.app no longer loads; the last [archived copy of the site](https://web.archive.org/web/20240302200916/https://getbull.app/) is from March 2024. The provider appears to be gone.
 
 ## Android
 

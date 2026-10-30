@@ -1,6 +1,6 @@
 ---
 title: XSpring Digital
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: https://trade.xspringdigital.com
@@ -35,6 +35,8 @@ iphone:
   developerName: XSPRING DIGITAL COMPANY LIMITED
 
 ---
+
+**Update 2026-10-30:** This app is gone from both stores. XSpring Digital now lives on the [XSpring Capital website](https://www.xspringcapital.com/th/xspring-digital), and the group offers a general XSpring app, which we have not reviewed yet.
 
 ## Android
 

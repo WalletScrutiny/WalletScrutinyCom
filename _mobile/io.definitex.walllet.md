@@ -1,7 +1,7 @@
 ---
 title: Definitex
-date: 2023-12-19
-website: http://definitex.org/
+date: 2026-10-30
+website: http://definitex.org/#deadLink
 redirect_from:
 - /android/io.definitex.walllet/
 android:

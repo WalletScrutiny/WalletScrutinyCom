@@ -1,6 +1,6 @@
 ---
 title: Planeta Bank
-date: 2023-12-19
+date: 2026-10-30
 website: https://planetabank.com.br#deadLink
 redirect_from:
 - /android/com.gmail.planetabank1.myproject/

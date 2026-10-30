@@ -1,7 +1,7 @@
 ---
 title: Timebit DeFi
-date: 2023-12-19
-website: https://timebitex.com/
+date: 2026-10-30
+website: https://timebitex.com/#deadLink
 redirect_from:
 - /android/com.timebitex.wallet/
 android:

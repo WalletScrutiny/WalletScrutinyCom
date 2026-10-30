@@ -1,7 +1,7 @@
 ---
 title: 'Vimepay : Peer To Peer Escrow'
-date: 2023-12-19
-website: https://vimepay.com
+date: 2026-10-30
+website: https://vimepay.com#deadLink
 redirect_from:
 - /android/com.vimepay/
 android:

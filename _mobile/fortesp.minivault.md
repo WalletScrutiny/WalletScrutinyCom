@@ -1,6 +1,6 @@
 ---
 title: Mini Vault - Local Password Ma
-date: 2023-12-19
+date: 2026-10-30
 redirect_from:
 - /android/fortesp.minivault/
 android:
