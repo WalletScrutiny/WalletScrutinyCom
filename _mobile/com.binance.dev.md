@@ -58,6 +58,12 @@ anti-money-laundering and sanctions charges and agreed to pay $4.3 billion, and
 its founder Changpeng Zhao stepped down as CEO
 ([CNBC](https://www.cnbc.com/2023/11/21/binance-ceo-changpeng-zhao-to-plead-guilty-to-federal-charges-step-down.html)).
 
+On 2026-10-29 Binance reported a security incident with an estimated impact of
+about $6.3 billion, apparently started from a compromised engineer's laptop. It
+froze withdrawals and says it will cover all losses from its SAFU fund and its
+own funds ([Engadget](https://www.engadget.com/2301941/binance-hacked-for-estimated-6-3-billion-in-record-crypto-theft/)).
+Coins on the exchange are only as safe as Binance's own systems.
+
 This app appears to be an app interface for the Binance exchange and at first we
 cannot find anything indicating that there is also a non-custodial feature to
 this app.
