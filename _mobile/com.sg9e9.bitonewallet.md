@@ -1,6 +1,6 @@
 ---
 title: Bitone Wallet
-date: 2023-09-04
+date: 2026-10-30
 redirect_from:
 - /android/com.sg9e9.bitonewallet/
 android:

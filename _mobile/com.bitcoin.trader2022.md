@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Trader - Buy & Sell
-date: 2023-09-15
+date: 2026-10-30
 website: https://bitcointrader.icu#deadLink
 redirect_from:
 - /android/com.bitcoin.trader2022/

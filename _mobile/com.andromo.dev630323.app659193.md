@@ -1,6 +1,6 @@
 ---
 title: FudMart Cryptocurrency App
-date: 2023-09-15
+date: 2026-10-30
 website: https://chukwukaobeleagu.com#deadLink
 redirect_from:
 - /android/com.andromo.dev630323.app659193/

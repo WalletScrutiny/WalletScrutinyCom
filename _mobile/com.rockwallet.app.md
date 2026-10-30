@@ -1,6 +1,6 @@
 ---
 title: 'RockWallet: Buy and Swap'
-date: 2023-08-28
+date: 2026-10-30
 authors:
 - danny
 website: http://www.rockwallet.com
@@ -38,11 +38,13 @@ iphone:
   reviews: 801
   icon: com.rockwallet.app.webp
   meta: removed
-  verdict: sourceavailable
+  verdict: nosource
   developerName: RockWallet, LLC
   repository: https://github.com/rockwalletcode/wallet-ios#deadLink
 
 ---
+
+**Update 2026-10-30:** This app, now called RockWallet 1.0, is closing. According to a [letter from the CEO](https://www.rockwallet.com/blog/a-letter-from-our-ceo-rockwallet-is-becoming-mnee-app), buying stops on 2026-11-16 and everything else closes on 2026-12-07, so users should send their coins to another wallet before then. The iPhone source code repository is gone and the [RockWallet GitHub account](https://github.com/rockwalletcode) no longer has the wallet code, so the iPhone app is now {% include verdictBadge.html verdict="nosource" type='short' %} like the Android app. The successor app, RockWallet 2.0 (to be renamed MNEE App), is a different product that will become fully custodial in 2027.
 
 ## Android
 

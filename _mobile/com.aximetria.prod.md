@@ -1,6 +1,6 @@
 ---
 title: 'Aximetria: Buy Bitcoin, Crypto'
-date: 2023-09-08
+date: 2026-10-30
 authors:
 - danny
 website: https://aximetria.com#deadLink
@@ -35,6 +35,8 @@ iphone:
   developerName: Aximetria
 
 ---
+
+**⚠️ Warning:** Aximetria has shut down. In January 2024 its website said that "Aximetria has discontinued customer service" ([archived](https://web.archive.org/web/20240113154142/https://aximetria.com/)), and the same month TCS Group sold the company to the Swiss firm Red Circle AG ([TAdviser](https://tadviser.com/index.php/Company:Aximetria)). The website no longer loads.
 
 ## Android
 

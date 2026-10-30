@@ -1,6 +1,6 @@
 ---
 title: 'Knaken: Buy crypto safely'
-date: 2023-08-24
+date: 2026-10-30
 authors:
 - danny
 website: https://knaken.eu/
@@ -36,6 +36,10 @@ iphone:
 
 ---
 
+**⚠️ Warning:** Knaken stopped all trading, deposits and withdrawals in June 2026 and was declared bankrupt on 2026-07-16. Customers cannot reach their funds.
+
+**Update 2026-10-30:** Knaken withdrew its application for the EU crypto licence (MiCA) and then blocked customer accounts, saying on [its website](https://knaken.eu/) that trading, deposits and withdrawals are unavailable. On request of the Dutch public prosecutor, the Rotterdam court [declared Knaken Cryptohandel B.V. and its custody foundation Stichting Knaken Payments bankrupt](https://nos.nl/artikel/2623199-cryptoplatform-knaken-failliet-7-miljoen-euro-van-klanten-is-zoek) on 2026-07-16; according to the [prosecutor](https://www.om.nl/actueel/nieuws/2026/06/30/om-verzoekt-faillissement-cryptocurrency-bedrijf-knaken), millions of euros of customer funds are missing. Both apps are gone from the stores.
+
 ## Android
 
 ## App Description from Google Play
@@ -54,7 +58,7 @@ iphone:
 
 - We signed up with the service using the web platform
 - There was a wallet option, but this was inaccessible unless we performed KYC and provided proof of our physical address. 
-- Article 8 of the [terms](https://knaken.eu/terms-and-conditions/) has the provider talking about providing "temporary wallets" that presumedly does not have the private keys. They describe this as a temporary measure because of current regulations. 
+- Article 8 of the [terms](https://web.archive.org/web/20230712211606/https://knaken.eu/terms-and-conditions/) has the provider talking about providing "temporary wallets" that presumedly does not have the private keys. They describe this as a temporary measure because of current regulations. 
 - Article 9 describes their staking services used in conjunction with the Knaken Wallet. 
 - Keywords associated with custodial services include:
   - freezing of user accounts

@@ -1,6 +1,6 @@
 ---
 title: Swiftcoin
-date: 2023-08-30
+date: 2026-10-30
 authors:
 - danny
 website: https://swiftcoin.io/

@@ -1,6 +1,6 @@
 ---
 title: Ari10 Crypto Exchange
-date: 2023-09-07
+date: 2026-10-30
 authors:
 - danny
 website: https://ari10.com
@@ -40,6 +40,8 @@ iphone:
   developerName: BITCAN sp. z o.o.
 
 ---
+
+**⚠️ Warning:** ARI10 stopped its services on July 1, 2026, [according to its website](https://ari10.com/en). The team now runs [RGLTD](https://rgltd.com/), which sells crypto services to businesses rather than to consumers ([announcement](https://ari10.com/en/blog/meet-rgltd---the-next-chapter-for-digital-assets)).
 
 ## Android
 

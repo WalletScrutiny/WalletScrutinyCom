@@ -1,9 +1,9 @@
 ---
 title: Bous Echanj
-date: 2023-09-04
+date: 2026-10-30
 authors:
 - danny
-website: https://bousechanj.com/
+website: https://eritajpam.com/
 twitter: eritajpam
 redirect_from:
 - /android/com.bouspam.eritajpam/
@@ -34,6 +34,8 @@ iphone:
   developerName: Eritajpam, LLC
 
 ---
+
+**Update 2026-10-30:** Both apps no longer describe a crypto exchange. The Google Play and App Store listings, now published as "Bous Echanj" and "Eritaj Pam", describe only a virtual payment card that you fund with deposits, and they both link to [eritajpam.com](https://eritajpam.com/), a virtual card issuing site that does not mention crypto. We did not test whether the app still holds bitcoin, so the verdict below stays until we do.
 
 ## Android
 

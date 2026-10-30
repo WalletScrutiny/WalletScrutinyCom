@@ -1,6 +1,6 @@
 ---
 title: RightBTC
-date: 2023-08-16
+date: 2026-10-30
 website: https://www.rightbtc.com#deadLink
 redirect_from:
 - /android/rightbtc.app/

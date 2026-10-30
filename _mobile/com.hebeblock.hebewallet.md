@@ -1,6 +1,6 @@
 ---
 title: Hebe Wallet
-date: 2023-08-25
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -35,6 +35,12 @@ iphone:
   developerName: Hebeblock Co., Ltd.
 
 ---
+
+**⚠️ Warning:** Hebe Wallet is shut down. In September 2023 the provider posted
+"Sorry, we have completely stopped the wallet business" and asked users who
+cannot withdraw to email hebeblock@gmail.com
+([notice on GitHub](https://github.com/HebePlatform/HebeCore/releases/tag/1.0.6)).
+[hebe.cc](https://hebe.cc) now only shows that notice.
 
 ## Android
 
