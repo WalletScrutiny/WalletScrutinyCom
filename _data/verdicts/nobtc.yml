@@ -8,3 +8,9 @@ message: The product is not for BTC.
 question: Is it for bitcoins?
 details: >
   At this point we only look into wallets that at least also support BTC.
+
+
+  A product that can send and receive other coins but only tracks Bitcoin
+  addresses read-only is a wallet, just not for Bitcoin, so it gets this
+  verdict. 'Not a wallet' is for products that hold no coins at all, such as
+  pure portfolio trackers.
