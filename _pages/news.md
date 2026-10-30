@@ -13,10 +13,15 @@ author_profile: true
     use it in a way that cannot be exploited. The date is when the advisory
     became public, not when a wallet started using the library.
   </p>
-  <label class="vuln-news__filter">
-    Releases:
-    <select id="vuln-news-releases"></select>
-  </label>
+  <div class="vuln-news__filters">
+    <label class="vuln-news__filter">
+      Releases:
+      <select id="vuln-news-releases"></select>
+    </label>
+    <div class="vuln-news__filter" id="vuln-news-severity" role="group" aria-label="Severity">
+      Severity:
+    </div>
+  </div>
   <div class="vuln-news__days" id="vuln-news-days">
     <p class="vuln-news__status">Loading…</p>
   </div>
