@@ -134,7 +134,8 @@
   // The OSV link: an icon after the summary on phones, the ids line elsewhere.
   &__osv {
     display: none;
-    color: var(--neutral-2);
+    margin-left: 4px;
+    color: var(--accent);
 
     .ws-icon {
       width: 0.85em;
