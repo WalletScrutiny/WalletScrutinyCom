@@ -1,7 +1,7 @@
 ---
 wsId: Haven
 title: Haven - Private Shopping
-date: 2021-01-15
+date: 2026-10-30
 website: https://gethaven.app
 twitter: HavenPrivacy
 social:
@@ -19,7 +19,7 @@ android:
   version: 1.3.7
   reviews: 173
   icon: io.ob1.nativeandroid.webp
-  meta: removed
+  meta: defunct
   verdict: sourceavailable
   repository: https://github.com/OpenBazaar/haven
 iphone:
@@ -30,13 +30,27 @@ iphone:
   version: 1.3.8
   reviews: 188
   icon: io.ob1.native-ios.webp
-  meta: removed
+  meta: defunct
   verdict: sourceavailable
   repository: https://github.com/OpenBazaar/haven
 
 ---
 
+**⚠️ Warning:** Haven and its developer OB1 are gone. Haven was to "stop
+working on October 1" 2020
+([Decrypt](https://decrypt.co/43028/decentralized-marketplace-openbazaar-to-close-unless-community-donates)),
+and on 2021-01-04 OB1 announced it "would cease supporting the marketplace's
+wallets, APIs, search engine and website"
+([CoinDesk](https://www.coindesk.com/business/2021/07/15/openbazaar-co-founder-explains-why-web-3s-answer-to-ebay-folded-its-tents)).
+The domain gethaven.app now hosts an unrelated Thai-language blog.
+
 ## Android
+
+**Update 2026-10-30:** The app is still gone from Google Play and its provider
+has shut down, so we mark it defunct. The
+[repository](https://github.com/OpenBazaar/haven) is still online but has not
+changed since 2020-08-11, so the build files we missed are still missing and the verdict stays
+{% include verdictBadge.html verdict="sourceavailable" type='short' %}.
 
 {% include featureEvidence.html feature="foss" source="[License](https://github.com/OpenBazaar/haven/blob/master/LICENSE)" quote="MIT License" %}
 
@@ -159,6 +173,10 @@ An issue has been opened at [https://github.com/OpenBazaar/haven/issues/3](https
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** Still gone from the App Store, with the provider shut
+down as described above. The verdict stays
+{% include verdictBadge.html verdict="sourceavailable" type='short' %}.
 
 **Update:** As of now, this app is not to be found on the App Store.
 

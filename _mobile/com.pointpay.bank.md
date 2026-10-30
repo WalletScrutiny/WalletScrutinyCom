@@ -1,7 +1,7 @@
 ---
 wsId: pointpay
 title: 'PointPay: Crypto Wallet App'
-date: 2021-04-27
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
@@ -45,6 +45,13 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The app is gone from Google Play, while the iPhone app
+is still listed. PointPay is still active:
+[pointpay.io](https://pointpay.io/) now redirects to its exchange, which offers
+spot and futures trading, staking and P2P. We found nothing that gives users the
+keys to their bitcoins, so the verdict stays
+{% include verdictBadge.html verdict="custodial" type='short' %}.
+
 The PointPay website has very little information about how they manage private keys of the user.
 The only basic statement is...
 
@@ -57,6 +64,13 @@ Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** PointPay is still active:
+[pointpay.io](https://pointpay.io/) now redirects to its exchange, which offers
+spot and futures trading, staking and P2P. The App Store description still offers
+"a cryptocurrency account at PointPay CryptoBank" with daily interest, and we
+found nothing that gives users the keys to their bitcoins. The verdict stays
+{% include verdictBadge.html verdict="custodial" type='short' %}.
 
 The PointPay Bank website has very little information about how they manage
 private keys of the users.

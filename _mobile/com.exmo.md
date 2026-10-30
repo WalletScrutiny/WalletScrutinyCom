@@ -1,7 +1,7 @@
 ---
 wsId: exmo
 title: 'EXMO.com: Trade & Hold Crypto'
-date: 2021-04-21
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
@@ -24,7 +24,7 @@ android:
   version: 3.88.1
   reviews: 96
   icon: com.exmo.webp
-  meta: removed
+  meta: defunct
   verdict: custodial
   developerName: Exmo Poland Sp. z o.o.
 iphone:
@@ -36,15 +36,30 @@ iphone:
   version: 2.28.27
   reviews: 86
   icon: com.exmo.enfins.webp
-  meta: removed
+  meta: defunct
   verdict: custodial
   developerName: EXMO EXCHANGE LTD
 
 ---
 
+**⚠️ Warning:** EXMO is closing. On 2026-05-26 the UK
+[added EXMO Exchange Limited to its Russia sanctions list](https://www.financemagnates.com/cryptocurrency/exmo-pulls-the-plug-sanctioned-crypto-exchange-winds-down-leaves-users-holding-iou-tokens/),
+and on 2026-07-14 EXMO [announced an orderly wind-down](https://exmowithdrawals.com/blog/en/notifications/exmo-com-is-closing-please-initiate-withdrawal-from-your-account).
+Registrations and deposits are closed and trades can only be closed.
+EXMO says 29.4% of what it owes users cannot be returned, due to its 2020 hot
+wallet hack and to assets frozen after the sanctions, and it cut every balance by
+that share. [exmo.com](https://exmo.com/) now redirects to a withdrawals-only site.
+
 ## Android
 
-The Exmo [support FAQ](https://info.exmo.com/en/faq/) states under "Where are my EXMO funds kept?"
+**Update 2026-10-30:** The app is gone from Google Play and the exchange behind it
+is winding down. EXMO holds its users' coins, and it
+[says](https://exmowithdrawals.com/blog/en/notifications/exmo-com-is-closing-please-initiate-withdrawal-from-your-account) that part of them were stolen in 2020 or are now frozen by
+third-party custodians, the risk any custodial exchange carries.
+The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}
+and the listing is marked defunct.
+
+The Exmo [support FAQ](https://info.exmo.com/en/faq/#deadLink) states under "Where are my EXMO funds kept?"
 
 > Users cryptocurrency funds are stored on the exchange’s crypto wallets: cold and hot vaults.
 
@@ -60,7 +75,14 @@ Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.
 
 ## iPhone
 
-The Exmo [support FAQ](https://info.exmo.com/en/faq/) states under "Where are my
+**Update 2026-10-30:** The app is gone from the App Store and the exchange behind it
+is winding down. EXMO holds its users' coins, and it
+[says](https://exmowithdrawals.com/blog/en/notifications/exmo-com-is-closing-please-initiate-withdrawal-from-your-account) that part of them were stolen in 2020 or are now frozen by
+third-party custodians, the risk any custodial exchange carries.
+The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}
+and the listing is marked defunct.
+
+The Exmo [support FAQ](https://info.exmo.com/en/faq/#deadLink) states under "Where are my
 EXMO funds kept?"
 
 > Users cryptocurrency funds are stored on the exchange’s crypto wallets: cold

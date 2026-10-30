@@ -1,7 +1,7 @@
 ---
 wsId: coincola
 title: CoinCola - P2P Buy & Sell BTC
-date: 2020-12-03
+date: 2026-10-30
 authors:
 - leo
 website: https://www.coincola.com
@@ -41,6 +41,13 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The verdict still holds. The app no longer opens on Google
+Play from the US but is still listed in other countries, such as the UK and
+Nigeria, and was updated in October 2026. CoinCola still runs a
+[P2P marketplace](https://www.coincola.com/) where "crypto stays safely in escrow
+until a trade is confirmed or cancelled", which requires CoinCola to hold the
+coins. We found no public source code. It remains {% include verdictBadge.html verdict="custodial" type='short' %}.
+
 > SAFE AND SECURE<br>
 > Our team uses bank-level encryption, cold storage and SSL for the highest level of security.
 
@@ -50,6 +57,12 @@ is **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** This app is gone from the US App Store; it is still listed
+in Germany and the UK, last updated in 2022. CoinCola's
+[website](https://www.coincola.com/) now links to a different iPhone app,
+"CoinCola Pro", which we have not reviewed yet. The provider is active, and the
+verdict for this app still holds: {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 > SAFE AND SECURE<br>
   Our team uses bank-level encryption, cold storage and SSL for the highest

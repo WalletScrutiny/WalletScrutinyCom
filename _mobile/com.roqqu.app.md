@@ -1,12 +1,12 @@
 ---
 wsId: roqqu
 title: 'Roqqu: Buy & Sell Crypto'
-date: 2021-04-16
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
 - danny
-website: https://roqqu.com
+website: https://roqqu.io
 twitter: roqqupay
 social:
 - https://www.facebook.com/roqqupay
@@ -42,6 +42,15 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** Roqqu is still active and has moved to
+[roqqu.io](https://roqqu.io/). The main account still keeps
+"over 98% of cryptocurrency" offline on Roqqu's side, so the verdict stays
+{% include verdictBadge.html verdict="custodial" type='short' %}. New since our
+review is a separate [Web3 wallet](https://roqqu.io/wallet/web3) inside the app,
+for which Roqqu claims "Your private keys belong solely to you". On iPhone,
+Roqqu's 2026-07-31 release notes say this Web3 wallet now supports Bitcoin. We
+have not tested that part yet, and we found no public source code for the app.
+
 The provider claims:
 
 > SAFETY FIRST<br>
@@ -52,7 +61,7 @@ which means you do not control the keys to your Bitcoins.
 
 It is somewhat obscure weather this wallet can even store bitcoins, but under
 their FAQ section on their website it contains an article on how to
-[send and receive bitcoins](https://roqqu.com/knowledge/articles/send/how-to-send-and-receive-btc)
+[send and receive bitcoins](https://roqqu.com/knowledge/articles/send/how-to-send-and-receive-btc#deadLink)
 with addresses and QR codes displayed.
 
 Our verdict: This "wallet" is custodial and therefore **not verifiable**.
@@ -60,6 +69,14 @@ Our verdict: This "wallet" is custodial and therefore **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The app is back on the App Store and still keeps
+"over 98% of cryptocurrency" offline on Roqqu's side, so the verdict stays
+{% include verdictBadge.html verdict="custodial" type='short' %}. Roqqu's
+2026-07-31 release notes add Bitcoin to a separate Web3 wallet in the app, and
+Roqqu's [Web3 page](https://roqqu.io/wallet/web3) claims "Your private keys
+belong solely to you". We have not tested that part yet, and we found no public
+source code for the app.
 
 **Update 2022-01-05**
 

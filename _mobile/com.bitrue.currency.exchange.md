@@ -1,7 +1,7 @@
 ---
 wsId: bitrue
 title: Bitrue - Buy XRP, BTC & Crypto
-date: 2020-11-17
+date: 2026-10-30
 authors:
 - leo
 website: https://www.bitrue.com/
@@ -41,6 +41,12 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The verdict still holds. The store description still cites
+"hot/cold wallet isolation technology". In April 2023 Bitrue lost about
+[$23 million from one of its hot wallets](https://crypto.news/bitrue-crypto-exchange-suffers-23m-hot-wallet-exploit/)
+and promised to compensate affected users, which shows that Bitrue holds the
+coins. We found no public source code. It remains {% include verdictBadge.html verdict="custodial" type='short' %}.
+
 This app is heavily focused on the "exchange" part which is also in its name.
 Nowhere in Google Play can we find claims about self-custody but things like
 
@@ -52,6 +58,11 @@ only make sense for custodial apps. As a custodial app it is **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The verdict still holds. The App Store description has the
+same hot/cold wallet wording, and the
+[April 2023 hot wallet exploit](https://crypto.news/bitrue-crypto-exchange-suffers-23m-hot-wallet-exploit/)
+hit the same exchange. It remains {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 This app is heavily focused on the "exchange" part which is also in its name.
 Nowhere on the App Store can we find claims about self-custody but things like

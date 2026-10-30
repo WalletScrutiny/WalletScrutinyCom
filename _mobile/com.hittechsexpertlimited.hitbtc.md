@@ -1,6 +1,6 @@
 ---
 title: HitBTC cryptocurrency exchange
-date: 2020-05-29
+date: 2026-10-30
 authors:
 - leo
 website: https://hitbtc.com/
@@ -26,6 +26,13 @@ android:
   developerName: HitBTC Exchange
 
 ---
+
+**Update 2026-10-30:** This app is still gone from Google Play, but the HitBTC
+exchange still runs: [CoinGecko](https://www.coingecko.com/en/exchanges/hitbtc)
+tracks live trading on hitbtc.com, and the website itself blocks our region.
+HitBTC's other app,
+{% include walletLink.html wallet='android/com.hitbtc.wallet' verdict='true' %},
+is custodial too. The verdict holds.
 
 On Google Play this app claims
 

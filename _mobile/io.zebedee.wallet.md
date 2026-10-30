@@ -1,7 +1,7 @@
 ---
 wsId: zebedee
 title: 'ZBD: Play. Earn. Cash Out.'
-date: 2021-04-12
+date: 2026-10-30
 authors:
 - leo
 website: https://zbd.gg/z/support
@@ -40,6 +40,14 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** ZBD is still an account-based service. Its help center
+says ["Verifying your ID is required to use the ZBD app"](https://intercom.help/zbd/en/articles/8558457-should-i-verify-my-identity-with-zbd),
+with verification giving "Higher Wallet Limits" to "hold more sats", and that
+[account deletion](https://intercom.help/zbd/en/articles/8542156-how-do-i-delete-my-zbd-account)
+goes to its "Compliance and Engineering teams", after which you can no longer use
+"the wallet". The Discord link below is dead. The app remains
+{% include verdictBadge.html verdict="custodial" type='short' %}.
+
 This app is very gamer focused and does no mention at all security aspects or
 who's the custodian to your coins:
 
@@ -57,6 +65,14 @@ is **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** ZBD is still an account-based service. Its help center
+says ["Verifying your ID is required to use the ZBD app"](https://intercom.help/zbd/en/articles/8558457-should-i-verify-my-identity-with-zbd),
+with verification giving "Higher Wallet Limits" to "hold more sats", and that
+[account deletion](https://intercom.help/zbd/en/articles/8542156-how-do-i-delete-my-zbd-account)
+goes to its "Compliance and Engineering teams", after which you can no longer use
+"the wallet". The Discord link below is dead. The app remains
+{% include verdictBadge.html verdict="custodial" type='short' %}.
 
 This app is very gamer focused and does no mention at all security aspects or
 who's the custodian to your coins:

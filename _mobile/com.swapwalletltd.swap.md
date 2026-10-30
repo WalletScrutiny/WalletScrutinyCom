@@ -1,7 +1,7 @@
 ---
 wsId: SwapWallet
 title: Swap Wallet - BTC, Bitcoin wallet
-date: 2020-12-28
+date: 2026-10-30
 website: http://swapwallet.com#deadLink
 redirect_from:
 - /com.swapwalletltd.swap/
@@ -14,7 +14,7 @@ android:
   version: Varies with device
   reviews: 2065
   icon: com.swapwalletltd.swap.webp
-  meta: removed
+  meta: defunct
   verdict: custodial
 iphone:
   appId: com.swap.wallet
@@ -24,12 +24,22 @@ iphone:
   version: 2.9.0
   reviews: 30
   icon: com.swap.wallet.webp
-  meta: removed
+  meta: defunct
   verdict: custodial
 
 ---
 
+**⚠️ Warning:** This provider appears to be gone. The app is still missing from
+both stores, and on 2026-10-30 the domain swapwallet.com was still registered
+but pointed to no server. We found no other website, social account or support channel for it.
+
 ## Android
+
+**Update 2026-10-30:** The app is still not on Google Play and the provider's
+domain swapwallet.com no longer points to any server, so we mark the provider as
+defunct. We found no public source code for the app. The verdict stays
+{% include verdictBadge.html verdict="custodial" type='short' %}, as nothing
+ever showed that users held their own keys.
 
 **Update:** We can't find the app on Google Play anymore and assume it stopped
 to exist. With 50k downloads there might be many users wondering how to recover
@@ -44,6 +54,10 @@ FAQ are broken. Like this we have to assume it's a custodial wallet and thus
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The app is still gone from the App Store and the
+provider's domain no longer points to any server. The verdict stays
+{% include verdictBadge.html verdict="custodial" type='short' %}.
 
 We can't find the app on the App Store anymore and assume it stopped
 to exist.

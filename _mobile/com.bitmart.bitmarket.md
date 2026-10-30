@@ -1,7 +1,7 @@
 ---
 wsId: bitmart
 title: 'BitMart: Buy Crypto & Stocks'
-date: 2021-05-20
+date: 2026-10-30
 authors:
 - leo
 website: http://www.bitmart.com
@@ -45,7 +45,21 @@ iphone:
 
 ---
 
+**⚠️ Warning:** BitMart is shutting down. It
+[stopped new registrations and deposits on 2026-07-26](https://www.financemagnates.com/cryptocurrency/exchange/bitmart-winds-down-trading-as-exchange-closures-pile-up/),
+ended all trading on 2026-08-26 and keeps withdrawals open only until
+2027-01-31. If you still hold coins there, withdraw them.
+
 ## Android
+
+**Update 2026-10-30:** The exchange is winding down, see the warning above.
+Its website still describes the same "Hybrid hot/cold wallet systems", so
+BitMart keeps the keys and the verdict stays custodial. In March 2026 BitMart
+[added a "Web3 Wallet"](https://www.globenewswire.com/news-release/2026/03/20/3259887/0/en/BitMart-Launches-Web3-Wallet-Creating-a-One-Stop-Gateway-for-On-Chain-Assets-and-Trading.html)
+inside the app that it calls self-custody, with a passkey "smart wallet" linked
+to the exchange account and an optional seed phrase wallet. The announcement
+does not mention Bitcoin and no source code is public, so it changes nothing
+for this verdict.
 
 On their website we read:
 
@@ -61,6 +75,15 @@ not "cold", so it's them who hold the keys. As a custodial service the app is
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The exchange is winding down, see the warning above.
+Its website still describes the same "Hybrid hot/cold wallet systems", so
+BitMart keeps the keys and the verdict stays custodial. In March 2026 BitMart
+[added a "Web3 Wallet"](https://www.globenewswire.com/news-release/2026/03/20/3259887/0/en/BitMart-Launches-Web3-Wallet-Creating-a-One-Stop-Gateway-for-On-Chain-Assets-and-Trading.html)
+inside the app that it calls self-custody, with a passkey "smart wallet" linked
+to the exchange account and an optional seed phrase wallet. The announcement
+does not mention Bitcoin and no source code is public, so it changes nothing
+for this verdict.
 
 On their website we read:
 

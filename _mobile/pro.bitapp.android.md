@@ -1,6 +1,6 @@
 ---
 title: PureWallet-CryptoWallet for BTC,BCH,ETH,TRON,IOST
-date: 2020-05-07
+date: 2026-10-30
 website: https://www.purewallet.org#deadLink
 twitter: PureWallet
 redirect_from:
@@ -19,6 +19,12 @@ android:
   verdict: wip
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play, and the domain
+purewallet.org no longer resolves. The provider's
+[GitHub organization](https://github.com/BitApp) still exists, but it holds only
+the old [website code](https://github.com/BitApp/purewallet-homesite) and
+unrelated projects, no wallet source. We keep this listing as work in progress.
 
 **Update**: As the app is not available on Google Play, we assume it is defunct
 now.

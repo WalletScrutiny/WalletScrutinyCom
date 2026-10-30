@@ -1,7 +1,7 @@
 ---
 wsId: safepal
 title: 'SafePal: Crypto Wallet BTC NFT'
-date: 2021-04-26
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -39,6 +39,17 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** Still no usable source. The
+[safepal-app](https://github.com/SafePalWallet/safepal-app) repository is a
+"core version" of the app whose last commit is from 2023-09-21, with no tags or
+releases, while the app is now at version 4.11. The
+recent activity on the [SafePalWallet](https://github.com/SafePalWallet) account
+is in the hardware wallet repositories safepal-s1 and safepal-x1, not the app. In August 2026 SafePal
+[disclosed a breach](https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/)
+of order data from its online shop for 39,798 customers; it says seed phrases,
+private keys and wallets were not affected. The verdict stays
+{% include verdictBadge.html verdict="nosource" type='short' %}.
+
 ## Update 2024-07-15
 
 GitHub account [SafePalWallet](https://github.com/SafePalWallet/) contains the "[safepal-app](https://github.com/SafePalWallet/safepal-app)" repository, which states that it's a "Core Version" of the SafePal Wallet App.
@@ -64,6 +75,17 @@ found which makes the app **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** Still no usable source. The
+[safepal-app](https://github.com/SafePalWallet/safepal-app) repository is a
+"core version" of the app whose last commit is from 2023-09-21, with no tags or
+releases, while the app is now at version 4.11. The
+recent activity on the [SafePalWallet](https://github.com/SafePalWallet) account
+is in the hardware wallet repositories safepal-s1 and safepal-x1, not the app. In August 2026 SafePal
+[disclosed a breach](https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/)
+of order data from its online shop for 39,798 customers; it says seed phrases,
+private keys and wallets were not affected. The verdict stays
+{% include verdictBadge.html verdict="nosource" type='short' %}.
 
 **Update 2021-04-26**: Now some months after the original review, Google finds
 some things that confirms the claims of Binance "investing" in SafePal. The best

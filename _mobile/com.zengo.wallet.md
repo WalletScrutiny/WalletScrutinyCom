@@ -1,7 +1,7 @@
 ---
 wsId: ZenGo
 title: 'Zengo: Crypto & Bitcoin Wallet'
-date: 2020-04-27
+date: 2026-10-30
 authors:
 - leo
 - emanuel
@@ -41,6 +41,13 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Still no app source code. Zengo's
+[GitHub account](https://github.com/ZenGo-X) has its cryptography libraries but
+no repository for the wallet app, and its
+[open source page](https://zengo.com/zengo-and-open-source/) still says the app
+and server code are closed source. The verdict stays
+{% include verdictBadge.html verdict="nosource" type='short' %}.
 
 **Update 2024-07-13:**
 
@@ -111,6 +118,9 @@ Their decision to not be transparent earns them the verdict **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** As on Android, we found no source code for the app. The
+verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 On their website we find:
 

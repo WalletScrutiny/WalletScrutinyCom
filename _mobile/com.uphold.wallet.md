@@ -1,7 +1,7 @@
 ---
 wsId: UpholdbuyandsellBitcoin
 title: 'Uphold: Trade crypto & stocks'
-date: 2020-10-12
+date: 2026-10-30
 authors:
 - leo
 website: https://uphold.com
@@ -46,6 +46,17 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The verdict still holds for the app's regular account,
+which Uphold holds for you. The store description still says "Your money is 100%
+reserved. We never loan out your funds." The app now also offers
+[Vault](https://uphold.com/en-us/vault), a 2-of-3 multisig for BTC, HBAR and XRP
+where the user holds two keys and Uphold one. Uphold calls it "assisted
+self-custody". We found no public source code for the app, so Vault cannot be
+verified either. In April 2026 the
+[New York Attorney General](https://ag.ny.gov/press-release/2026/attorney-general-james-secures-over-5-million-crypto-platform-promoting)
+secured $5 million from Uphold for misleadingly promoting Cred's CredEarn product.
+It remains {% include verdictBadge.html verdict="custodial" type='short' %}.
+
 This app appears to be an interface to a custodial trading platform. In the
 Google Play description we read:
 
@@ -59,6 +70,11 @@ verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The verdict still holds. The App Store description carries
+the same "100% reserved" claim as on Android, and the same optional
+[Vault](https://uphold.com/en-us/vault) multisig is offered without public source
+code. It remains {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 This app appears to be an interface to a custodial trading platform. In the
 App Store description we read:

@@ -1,7 +1,7 @@
 ---
 wsId: Luno
 title: 'Luno: Buy Bitcoin & Crypto'
-date: 2020-10-12
+date: 2026-10-30
 authors:
 - leo
 website: https://www.luno.com
@@ -45,6 +45,14 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The verdict still holds. Luno's
+[security page](https://www.luno.com/en/security) now says most customer
+cryptocurrency is kept offline in "deep freeze" storage "managed by Bitgo Custody
+and Fireblocks", so Luno and its custodians, not you, hold the keys. In
+July 2026 Luno [cut 20% of its staff](https://www.coindesk.com/business/2026/07/30/crypto-exchange-luno-cuts-20-of-staff-amid-automation-push-and-retail-trading-slumps)
+and stopped serving some markets from September 1 to focus on Africa and
+Southeast Asia. It remains {% include verdictBadge.html verdict="custodial" type='short' %}.
+
 Luno: Buy Bitcoin, Ethereum and Cryptocurrency
 advertises on the Playstore:
 
@@ -57,6 +65,14 @@ verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The verdict still holds. Luno's
+[security page](https://www.luno.com/en/security) now says most customer
+cryptocurrency is kept offline in "deep freeze" storage "managed by Bitgo Custody
+and Fireblocks", so Luno and its custodians, not you, hold the keys. In
+July 2026 Luno [cut 20% of its staff](https://www.coindesk.com/business/2026/07/30/crypto-exchange-luno-cuts-20-of-staff-amid-automation-push-and-retail-trading-slumps)
+and stopped serving some markets from September 1 to focus on Africa and
+Southeast Asia. It remains {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 This app's Android version had a clear statement about being custodial in the
 Play Store description but on the App Store, no claims are made that let you

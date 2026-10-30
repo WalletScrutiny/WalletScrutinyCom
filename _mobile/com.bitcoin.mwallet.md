@@ -1,7 +1,7 @@
 ---
 wsId: mwallet
 title: 'Bitcoin.com: Crypto Wallet'
-date: 2021-05-20
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -55,6 +55,14 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** Still no source code for the current app. Bitcoin.com
+[markets it](https://www.bitcoin.com/wallet/) as "Self-custody by default", but
+the [old repository](https://github.com/Bitcoin-com/Wallet) was last pushed on
+2021-06-10 and its newest tag is `5.6-rc3`, while the app is at version 9.
+A GitHub code search for `com.bitcoin.mwallet` turns up the old repository
+and a [releases repository](https://github.com/bitcoin-portal/bitcoin-wallet-releases)
+that holds only a README. The verdict stays **not verifiable**.
+
 According to
 [the words of its owner on 2020-04-12](https://www.reddit.com/r/btc/comments/g04ece/bitcoincom_wallet_app_is_still_closed_source/fn7rlvy/)
 this wallet is closed source until further notice. There is no indication that this will be changing, and the repository's updates ended at the 5.4-hotfix. We assume it is still supposed to be non-custodial but without source code, this is **not verifiable**.
@@ -72,6 +80,14 @@ An issue has been opened at [https://github.com/Bitcoin-com/Wallet/issues/39](ht
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** Still no source code for the current app. Bitcoin.com
+[markets it](https://www.bitcoin.com/wallet/) as "Self-custody by default", but
+the [old repository](https://github.com/Bitcoin-com/Wallet) was last pushed on
+2021-06-10 and its newest tag is `5.6-rc3`, while the app is at version 9.
+A GitHub code search for `com.bitcoin.mwallet` turns up the old repository
+and a [releases repository](https://github.com/bitcoin-portal/bitcoin-wallet-releases)
+that holds only a README. The verdict stays **not verifiable**.
 
 According to
 [the words of its owner on 2020-04-12](https://www.reddit.com/r/btc/comments/g04ece/bitcoincom_wallet_app_is_still_closed_source/fn7rlvy/)

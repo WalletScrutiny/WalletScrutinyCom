@@ -1,7 +1,7 @@
 ---
 wsId: Quppy
 title: 'Quppy: Bitcoin Сrypto wallet'
-date: 2020-12-01
+date: 2026-10-30
 authors:
 - leo
 website: https://quppy.com/
@@ -42,12 +42,25 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The verdict still holds. The app no longer opens on Google
+Play from the US but is still listed in some other countries, such as Slovenia.
+Quppy's [website](https://quppy.com/en) now says that for European customers,
+"crypto-asset exchange, custody and transfer services available through Quppy are
+provided by Payhound Limited", a MiCA-licensed provider in Malta. The store
+description's mention of "decentralised storage" and "private keys" does not change
+that: the coins are held by a licensed custodian. We found no public source code.
+It remains {% include verdictBadge.html verdict="custodial" type='short' %}.
+
 This provider loses no word on security or where the keys are stored. We assume
 it is a custodial offering and therefore **not verifiable**.
 
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The verdict still holds. The iPhone app is still listed, and
+the [website](https://quppy.com/en) names Payhound Limited as the custodian for
+European customers. It remains {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 This provider loses no word on security or where the keys are stored. We assume
 it is a custodial offering and therefore **not verifiable**.

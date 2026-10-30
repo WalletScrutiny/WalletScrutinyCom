@@ -1,7 +1,7 @@
 ---
 wsId: cex
 title: 'CEX.IO: Trade & Buy Crypto'
-date: 2021-04-16
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
@@ -46,6 +46,14 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** CEX.IO still runs the same exchange at
+[cex.io](https://cex.io/), and its free CEX.IO Wallet is described as
+"featuring encryption and cold storage protection", which is storage on CEX.IO's
+side. In March 2026 it
+[registered with the UK FCA](https://blog.cex.io/company-updates/cex-io-secures-fca-registration-in-the-uk-35437).
+We found no self-custody mode and no public source code, so the verdict stays
+{% include verdictBadge.html verdict="custodial" type='short' %}.
+
 The CEX.io mobile app claims on the website to manage bitcoins...
 
 > Stay in control of your funds anywhere. Deposit and withdraw crypto and fiat, add your debit or credit card in a few clicks, and store your funds securely.
@@ -57,6 +65,14 @@ Our verdict: This 'wallet' is probably custodial but does not provide public sou
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** CEX.IO still runs the same exchange at
+[cex.io](https://cex.io/), and its free CEX.IO Wallet is described as
+"featuring encryption and cold storage protection", which is storage on CEX.IO's
+side. In March 2026 it
+[registered with the UK FCA](https://blog.cex.io/company-updates/cex-io-secures-fca-registration-in-the-uk-35437).
+We found no self-custody mode and no public source code, so the verdict stays
+{% include verdictBadge.html verdict="custodial" type='short' %}.
 
 The CEX.io mobile app claims on the website to manage bitcoins...
 

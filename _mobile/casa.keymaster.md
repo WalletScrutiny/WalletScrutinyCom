@@ -1,7 +1,7 @@
 ---
 wsId: casaapp
 title: 'Casa: Bitcoin & Crypto Wallet'
-date: 2021-05-22
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -41,6 +41,13 @@ iphone:
   developerName: Casa Inc.
 
 ---
+
+**Update 2026-10-30:** The app is still closed source. A GitHub code search for
+`casa.keymaster` and `com.casa.vault` finds only third-party pages, and the public
+repositories of [Casa's GitHub account](https://github.com/casa) are SDKs and
+libraries, not the app. The [docs](https://docs.casa.io/wealth-security-protocol/chosen-key-schemes/2-of-3-basic-multisig)
+and [blog post](https://blog.casa.io/casa-keymaster-security-mobile-key-overview/)
+cited below are still online. The verdict stays **not verifiable**.
 
 **Update 2026-08-15**: Following
 [a discussion on Nostr](https://njump.me/note17fvthzcwgja4y5tqrylvrtpe6ku2enpqs92s8gh4f9hcytgu2eysgjw0tn#:~:text=the%20mobile%20key%20can%20technically%20be%20extracted)

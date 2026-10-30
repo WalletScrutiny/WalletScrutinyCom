@@ -1,7 +1,7 @@
 ---
 wsId: changeinvest
 title: 'Change: Invest & Trade'
-date: 2020-05-29
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -44,6 +44,13 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** Still custodial. The service is now provided by Change
+Securities B.V., which [the website](https://www.changeinvest.com/) says is
+authorised by the Dutch AFM as a Crypto-Asset Service Provider. Its
+[crypto page](https://www.changeinvest.com/crypto) says "Client cryptocurrencies
+are secured in multi-signature hardware wallets and held by reputable financial
+institutions within the European Union."
+
 **Update 2022-01-04:**
 
 The app on Google Play now lists a different homepage than what was previously listed. From getchange.com, the new url is changeinvest.com.
@@ -67,5 +74,9 @@ which means it is a custodial service and thus **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The App Store lookup for the Netherlands finds this app
+again, version 30.68.3 from 2026-10-29. It is the same custodial service as on
+Android.
 
 {% include copyFromAndroid.html %}

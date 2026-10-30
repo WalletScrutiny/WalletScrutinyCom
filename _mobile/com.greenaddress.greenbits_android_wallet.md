@@ -2,7 +2,7 @@
 wsId: GreenBitcoinWallet
 title: Blockstream Bitcoin Wallet
 bitcoinOrgId: green
-date: 2020-12-19
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -62,6 +62,16 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** Custody and source claims still hold. Green is now
+called the "Blockstream App", and its
+[README](https://github.com/Blockstream/green_android) still calls it "a
+non-custodial Bitcoin wallet" under GPL-3.0, with release 5.7.0 tagged on
+2026-09-24. On the [multisig page](https://blockstream.com/app/multisig/) one
+key "lives on your device" and Blockstream's key is "released only when you
+confirm with your 2FA code"; an optional 2-of-3 backup key "can spend without
+Blockstream at any time". The verdict stays
+{% include verdictBadge.html verdict="sourceavailable" type='short' %}.
+
 *Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/249f5fed576720a6d4fb53215614327ab2ec8b38/_android/com.greenaddress.greenbits_android_wallet.md)*
 
 ## App Description
@@ -79,6 +89,13 @@ An issue has been opened at [https://github.com/Blockstream/green_android/issues
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** Same as on Android: the
+[iOS repository](https://github.com/Blockstream/green_ios) is still public under
+GPL-3.0 (release 5.7.0, 2026-09-28) and the
+[multisig model](https://blockstream.com/app/multisig/) still leaves the user's
+key on the device. The verdict stays
+{% include verdictBadge.html verdict="sourceavailable" type='short' %}.
 
 {% include featureEvidence.html feature="companion" source="[App Store](https://apps.apple.com/app/io.blockstream.green)" quote="Pair with Blockstream Jade for ultimate security of your private keys." %}
 

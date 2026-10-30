@@ -1,7 +1,7 @@
 ---
 wsId: digifinex
 title: DigiFinex- Crypto Exchange
-date: 2020-11-28
+date: 2026-10-30
 authors:
 - leo
 website: https://www.digifinex.com/
@@ -34,13 +34,19 @@ iphone:
   version: 2026.01.28
   reviews: 60
   icon: com.digifinex.app.webp
-  meta: defunct
+  meta: ok
   verdict: custodial
   developerName: DIGIFINEX PTE.LTD.
 
 ---
 
 ## Android
+
+**Update 2026-10-30:** The verdict still holds. DigiFinex still runs a
+[centralized exchange](https://www.digifinex.com/), and the store description
+lists "TSS-type deposit addresses" and "whitelist management" among its security
+features, which are exchange-side controls over coins it holds. We found no
+public source code. It remains {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 > DigiFinex is a world’s leading crypto finance exchange
 
@@ -51,6 +57,12 @@ claims to the contrary, we have to assume this is a custodial offering and thus
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The app is back on the App Store, under the same App Store
+ID, updated in October 2026, so the note below is outdated. We set its status back
+from defunct, because the provider and its
+[website](https://www.digifinex.com/) are alive. The App Store description matches
+the Android one. It remains {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 **Update 2022-10-21**: This app is not available anymore.
 

@@ -1,10 +1,11 @@
 ---
 title: Blockchain
-date: 2021-01-15
+date: 2026-10-30
 redirect_from:
 - /android/com.blockchain.android/
 android:
   appId: com.blockchain.android
+  altTitle: (Fake) Blockchain
   users: 50000
   released: 2020-06-15
   updated: 2021-01-04
@@ -12,10 +13,24 @@ android:
   reviews: 532
   icon: com.blockchain.android.webp
   meta: removed
-  verdict: obfuscated
+  verdict: fake
   repository: https://github.com/hoanghiephui/Bitcoin-Wallet
 
 ---
+
+**Update 2026-10-30:** We now call this app a fake. It is still gone from
+Google Play. As shown below, it imitated the name and logo of
+{% include walletLink.html wallet='android/piuk.blockchain.android' verdict='true' %}
+and took the app ID that brand would use. It also shares its [repository](https://github.com/hoanghiephui/Bitcoin-Wallet)
+and provider with
+{% include walletLink.html wallet='android/com.bitcoin.wallet.btc' verdict='true' %}
+and other InvoVN Solutions apps that we already list as
+{% include verdictBadge.html verdict="fake" type='short' %} for the same kind
+of imitation. That repository still enables `minifyEnabled` in its
+[release build](https://github.com/hoanghiephui/Bitcoin-Wallet/blob/master/mobile/build.gradle).
+The verdict moves from
+{% include verdictBadge.html verdict="obfuscated" type='short' %} to
+{% include verdictBadge.html verdict="fake" type='short' %}.
 
 **Update:** This wallet is no more but never looked too likely to stay around
 for long:

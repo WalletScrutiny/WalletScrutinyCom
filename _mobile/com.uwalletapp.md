@@ -1,6 +1,6 @@
 ---
 title: Utrust Wallet
-date: 2021-01-23
+date: 2026-10-30
 website: https://utrust.com
 twitter: utrust
 social:
@@ -21,6 +21,8 @@ android:
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play. The provider still exists under a new name: utrust.com now redirects to [xMoney](https://www.xmoney.com/), and Utrust [announced its rebrand to xMoney](https://www.coincarp.com/events/utrust-rebranding-to-xmoney/) in 2023. The Play Store page as archived by the Wayback Machine in December 2020 links to utrust.com. Nothing changes the old finding: the app was {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 **Update:** This app is not available on Google Play anymore
 

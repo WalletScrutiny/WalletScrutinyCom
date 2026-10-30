@@ -1,6 +1,6 @@
 ---
 title: Bitlish - crypto wallet
-date: 2020-03-20
+date: 2026-10-30
 website: https://bitlish.com#deadLink
 twitter: bitlish_com
 social:
@@ -18,10 +18,18 @@ android:
   version: 2.0.10
   reviews: 177
   icon: com.bitlish.bitlish.webp
-  meta: removed
+  meta: defunct
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** This provider is gone. Bitlish announced that it would stop all
+services on 2020-03-30, and on 2026-10-30 the domain bitlish.com no longer
+resolved.
+
+**Update 2026-10-30:** The app is still gone from Google Play and the domain
+bitlish.com no longer resolves, so we mark the provider as defunct. The verdict
+stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 This app is closing down its operation. It disappeard from Google Play, iTunes,
 Twitter, LinkedIn and Facebook and on their website we read:

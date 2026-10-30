@@ -1,7 +1,7 @@
 ---
 wsId: CoinbaseWallet
 title: 'Coinbase Wallet: Trade to Win'
-date: 2021-01-04
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -42,6 +42,19 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Still self-custodial, still no public app source.
+Coinbase renamed the app "Base App" in July 2025
+([CoinDesk](https://www.coindesk.com/tech/2025/07/17/coinbase-wallet-becomes-base-app-in-major-rebrand))
+and back to "Coinbase Wallet" in September 2026, saying "the wallet will remain
+self-custodial, with users retaining their own keys"
+([The Block](https://www.theblock.co/news/defi/2026-09-10-coinbase-rebrands-base-app-back-to-coinbase-wallet-after-just-over-a-year-as-social-experiment-falls-short-414115)).
+The [website](https://wallet.coinbase.com/) now advertises trading "in one
+self-custodial wallet". A GitHub code search for the app ID `org.toshi` in an
+`AndroidManifest.xml` finds nothing, and the
+[CoinbaseWallet](https://github.com/CoinbaseWallet) account still holds only
+libraries and tools. The verdict stays
+{% include verdictBadge.html verdict="nosource" type='short' %}.
 
 ## Update 2024-07-15
 
@@ -95,6 +108,10 @@ no public source code to build the app from.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The same rename applies here, and we found no public
+source for the iPhone app either. The verdict stays
+{% include verdictBadge.html verdict="nosource" type='short' %}.
 
 This is the iPhone version of the Android
 {% include walletLink.html wallet='android/org.toshi' %}.

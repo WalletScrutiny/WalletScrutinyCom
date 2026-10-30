@@ -1,7 +1,7 @@
 ---
 wsId: amlsafe
 title: Safe3 - Crypto Wallet
-date: 2021-04-11
+date: 2026-10-30
 authors:
 - leo
 website: https://safe3.app/
@@ -21,7 +21,7 @@ android:
   reviews: 2
   icon: com.silenca.amlsafe.webp
   meta: ok
-  verdict: custodial
+  verdict: nosource
   developerName: Avelot Limited
 iphone:
   appId: com.avelot.amlsafe
@@ -33,12 +33,24 @@ iphone:
   reviews: 51
   icon: com.avelot.amlsafe.webp
   meta: ok
-  verdict: custodial
+  verdict: nosource
   developerName: Avelot Limited
 
 ---
 
 ## Android
+
+**Update 2026-10-30:** AMLSafe is now called Safe3, and the conflicting claims
+that made us assume custody are gone. The [website](https://safe3.app/) and the
+app description now call it a "Non-custodial wallet", and the
+[terms of use](https://safe3.app/terms-of-use) say the private key "can be stored
+on your device", that you are "solely responsible for maintaining the security of
+your private key and any mnemonic (backup) phrase", and that Safe3 "does not
+receive or store your Wallet password, encrypted private key, unencrypted private
+key, or mnemonic (backup) phrase". The "on-premise" statement we quoted below is no
+longer on the website. We found no source code for the app on GitHub or linked from
+the website. We change the verdict from custodial to
+{% include verdictBadge.html verdict="nosource" type='short' %}.
 
 > AMLSafe is a cutting edge crypto wallet with fiat pairs and an instant
   Anti-Money Laundering (AML) checking. Our wallet gives you the ability to buy
@@ -70,6 +82,18 @@ they retain access to the users' keys. Either way this app is **not verifiable**
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** AMLSafe is now called Safe3, and the conflicting claims
+that made us assume custody are gone. The [website](https://safe3.app/) and the
+app description now call it a "Non-custodial wallet", and the
+[terms of use](https://safe3.app/terms-of-use) say the private key "can be stored
+on your device", that you are "solely responsible for maintaining the security of
+your private key and any mnemonic (backup) phrase", and that Safe3 "does not
+receive or store your Wallet password, encrypted private key, unencrypted private
+key, or mnemonic (backup) phrase". The "on-premise" statement we quoted below is no
+longer on the website. We found no source code for the app on GitHub or linked from
+the website. We change the verdict from custodial to
+{% include verdictBadge.html verdict="nosource" type='short' %}.
 
 > AMLSafe is a cutting edge crypto wallet with fiat pairs and an instant
   Anti-Money Laundering (AML) checking. Our wallet gives you the ability to buy

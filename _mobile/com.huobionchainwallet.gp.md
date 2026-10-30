@@ -1,6 +1,6 @@
 ---
 title: 'iToken: Secure Crypto Wallet'
-date: 2021-04-20
+date: 2026-10-30
 authors:
 - kiwilamb
 - danny
@@ -18,11 +18,25 @@ android:
   version: 3.03.06.003
   reviews: 185
   icon: com.huobionchainwallet.gp.webp
-  meta: removed
+  meta: defunct
   verdict: nosource
   developerName: BlazekTech Internet Technology Service Limited
 
 ---
+
+**⚠️ Warning:** iToken looks gone. On 2026-10-30 [itoken.com](https://www.itoken.com/)
+answered only "503 Service Temporarily Unavailable" (the
+[last archived copy](https://web.archive.org/web/20250220161901/https://www.itoken.com/)
+is from 2025-02-20), the support site support.huobiwallet.io did not connect, and
+the [HuobiWallet](https://x.com/HuobiWallet) handle on X now belongs to an
+unrelated account with no posts. Its successor app is also gone from both stores.
+
+**Update 2026-10-30:** This app and its replacement
+{% include walletLink.html wallet='android/com.huobionchainwallet.itokenhd' verdict='true' %}
+are no longer on Google Play, and the provider shows no sign of life, so we mark
+this listing defunct. The verdict stays
+{% include verdictBadge.html verdict="nosource" type='short' %}: the app claimed
+self-custody, but its source code was never published.
 
 ## Notes on Similar Apps
 

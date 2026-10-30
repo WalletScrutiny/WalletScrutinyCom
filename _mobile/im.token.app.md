@@ -1,7 +1,7 @@
 ---
 wsId: imToken
 title: 'imToken: BTC & ETH Wallet'
-date: 2021-05-02
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -41,6 +41,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Still {% include verdictBadge.html verdict="nosource" type='short' %}. The [consenlabs GitHub](https://github.com/consenlabs) publishes the key-management library [token-core-monorepo](https://github.com/consenlabs/token-core-monorepo) but no app source, and [issue 97](https://github.com/consenlabs/token-core/issues/97) asking for it is still open with no reply. The [website](https://token.im/) still describes the same self-custodial wallet.
 
 ## Update 2024-07-15
 
@@ -127,6 +129,8 @@ An issue has been opened at [https://github.com/consenlabs/token-core/issues/97]
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** Still {% include verdictBadge.html verdict="nosource" type='short' %}. The [consenlabs GitHub](https://github.com/consenlabs) publishes the key-management library [token-core-monorepo](https://github.com/consenlabs/token-core-monorepo) but no app source, and [issue 97](https://github.com/consenlabs/token-core/issues/97) asking for it is still open with no reply.
 
 In the description we read:
 

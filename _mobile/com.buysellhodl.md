@@ -1,6 +1,6 @@
 ---
 title: '🔥🔥BuySellHodl: Crypto Predictions, Ratings, News'
-date: 2020-05-29
+date: 2026-10-30
 website: http://www.buysellhodlapp.com
 twitter: BuySellHodlApp
 social:
@@ -20,5 +20,9 @@ android:
   verdict: wip
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play. Its domain
+buysellhodlapp.com now serves an unrelated gambling spam page, so the provider
+has abandoned it. We keep this listing as work in progress.
 
 This app appears to only provide information without being a wallet.

@@ -2,7 +2,7 @@
 wsId: Unstoppable
 title: 'Unstoppable: Crypto Wallet'
 bitcoinOrgId: unstoppable
-date: 2020-12-19
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -59,6 +59,14 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** Custody and source claims still hold. The
+[README](https://github.com/horizontalsystems/unstoppable-wallet-android) still
+describes "a powerful non-custodial multi-wallet" under the MIT License, with
+release 0.53.0 tagged on 2026-10-26, and
+[Horizontal Systems](https://horizontalsystems.io/) still presents it as a
+"non-custodial cryptocurrency multi-wallet". The verdict stays
+{% include verdictBadge.html verdict="sourceavailable" type='short' %}.
+
 *Legacy Verification [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/bd55de6e6e654c6f9e9e00411b6f6842c6bfc2f7/_android/io.horizontalsystems.bankwallet.md)*
 
 ## App Description
@@ -88,6 +96,12 @@ This app is **source available**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The
+[iOS repository](https://github.com/horizontalsystems/unstoppable-wallet-ios) is
+still public under MIT (release 0.53, 2026-10-26) and the provider still
+describes the wallet as non-custodial. The verdict stays
+{% include verdictBadge.html verdict="sourceavailable" type='short' %}.
 
 The provider claims:
 

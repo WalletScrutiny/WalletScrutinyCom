@@ -1,6 +1,6 @@
 ---
 title: HandCash - Bitcoin SV Wallet (BETA)
-date: 2019-12-25
+date: 2026-10-30
 website: https://handcash.io
 twitter: handcashapp
 redirect_from:
@@ -19,5 +19,11 @@ android:
   verdict: wip
 
 ---
+
+**Update 2026-10-30:** This beta app is still gone from Google Play. Its
+provider, Handcash AG, still runs [handcash.io](https://handcash.io/), which now
+presents a marketplace for game items and apps. The main app
+{% include walletLinkArchived.html wallet='android/io.handcash.wallet' %} is
+still in the stores. We keep this beta listing as a stub.
 
 This was the beta version of {% include walletLinkArchived.html wallet='android/io.handcash.wallet' %}.

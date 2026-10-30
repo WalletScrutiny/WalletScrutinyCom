@@ -1,6 +1,6 @@
 ---
 title: 'Shakepay: Buy Bitcoin Canada'
-date: 2020-05-29
+date: 2026-10-30
 authors:
 - leo
 website: https://shakepay.com
@@ -26,6 +26,15 @@ android:
   developerName: Shakepay
 
 ---
+
+**Update 2026-10-30:** The verdict still holds. Shakepay's
+[lost phone article](https://help.shakepay.com/en/articles/1721007-what-are-my-next-steps-if-my-phone-is-lost-or-stolen)
+still tells you to contact support so they can block the account until you have
+a new phone, and it mentions no recovery phrase or private keys. In 2026
+Shakepay [joined Interac e-Transfer](https://www.newswire.ca/news-releases/shakepay-joins-interac-e-transfer-r-as-a-participant-867315205.html)
+as a FINTRAC-registered Money Services Business. The app is still on Google Play,
+and we found no self-custody mode and no public source code. It remains
+{% include verdictBadge.html verdict="custodial" type='short' %}.
 
 This app claims to be a wallet:
 

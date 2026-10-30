@@ -1,7 +1,7 @@
 ---
 wsId: Bitstamp
 title: 'Bitstamp by Robinhood: Buy BTC'
-date: 2020-05-29
+date: 2026-10-30
 authors:
 - leo
 website: https://www.bitstamp.net
@@ -45,6 +45,13 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The verdict still holds. Robinhood
+[completed its acquisition of Bitstamp](https://www.coindesk.com/business/2025/06/03/robinhood-completes-200m-acquisition-of-crypto-exchange-bitstamp)
+in June 2025, and the app is now called "Bitstamp by Robinhood". The current store
+description says Bitstamp holds "100% of user assets in reserve & under 1:1
+custody" and keeps 95% of crypto assets in cold wallets. We found no
+self-custody mode. It remains {% include verdictBadge.html verdict="custodial" type='short' %}.
+
 On the Google Play description we read:
 
 > Convenient, but secure
@@ -57,6 +64,13 @@ and therefore **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The verdict still holds. Robinhood
+[completed its acquisition of Bitstamp](https://www.coindesk.com/business/2025/06/03/robinhood-completes-200m-acquisition-of-crypto-exchange-bitstamp)
+in June 2025, and the app is now called "Bitstamp by Robinhood". The current store
+description says Bitstamp holds "100% of user assets in reserve & under 1:1
+custody" and keeps 95% of crypto assets in cold wallets. We found no
+self-custody mode. It remains {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 Just like on Play Store {% include walletLink.html wallet='android/net.bitstamp.app' %}, they claim:
 

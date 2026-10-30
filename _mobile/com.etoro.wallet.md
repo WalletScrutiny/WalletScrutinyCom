@@ -1,7 +1,7 @@
 ---
 wsId: etorowallet
 title: eToro Money
-date: 2021-04-21
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
@@ -41,6 +41,13 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The app is gone from Google Play. eToro's help centre says
+the [eToro Money app features have moved to the eToro platform](https://help.etoro.com/s/article/eToro-Money-app-features-have-moved-to-the-eToro-platform?language=en_GB):
+the crypto wallet now sits in the Wallet tab of
+{% include walletLink.html wallet='android/com.etoro.openbook' verdict='true' %}.
+We found nothing that changes who holds the keys, so the verdict stays
+{% include verdictBadge.html verdict="custodial" type='short' %}.
+
 From the eToro wallet FAQ:
 
 > **[Where is my private key? (eToro Wallet)](https://www.etoro.com/customer-service/help/1306618582/where-is-my-private-key-etoro-wallet#deadLink)<br>
@@ -74,6 +81,13 @@ So we assume this app is custodial and thus **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The app is gone from the App Store. eToro's help centre says
+the [eToro Money app features have moved to the eToro platform](https://help.etoro.com/s/article/eToro-Money-app-features-have-moved-to-the-eToro-platform?language=en_GB):
+the crypto wallet now sits in the Wallet tab of
+{% include walletLink.html wallet='iphone/com.etoro.openbook' verdict='true' %}.
+We found nothing that changes who holds the keys, so the verdict stays
+{% include verdictBadge.html verdict="custodial" type='short' %}.
 
 From the eToro wallet FAQ:
 

@@ -1,7 +1,7 @@
 ---
 wsId: CashApp
 title: Cash App
-date: 2020-08-06
+date: 2026-10-30
 authors:
 - leo
 website: https://cash.app
@@ -41,6 +41,14 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The verdict still holds. In April 2026 Block
+[launched Proof of Reserves](https://block.xyz/inside/block-launches-bitkey-wallet-with-screen-automatic-bitcoin-earning-on-cash-app-and-proof-of-reserves)
+for "Cash App and Square customer holdings", which confirms that Block holds the
+bitcoin of Cash App users. The same announcement lets Bitkey users move Cash App
+purchases out automatically, but self-custody happens in the separate
+{% include walletLink.html wallet='android/world.bitkey.app' verdict='true' %}
+app, not in Cash App. Cash App remains {% include verdictBadge.html verdict="custodial" type='short' %}.
+
 This app is primarily a banking app:
 
 > Cash App is the easiest way to send, spend, save, and invest your money. It’s
@@ -62,6 +70,14 @@ verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The verdict still holds. In April 2026 Block
+[launched Proof of Reserves](https://block.xyz/inside/block-launches-bitkey-wallet-with-screen-automatic-bitcoin-earning-on-cash-app-and-proof-of-reserves)
+for "Cash App and Square customer holdings", which confirms that Block holds the
+bitcoin of Cash App users. The same announcement lets Bitkey users move Cash App
+purchases out automatically, but self-custody happens in the separate
+{% include walletLink.html wallet='android/world.bitkey.app' verdict='true' %}
+app, not in Cash App. Cash App remains {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 On their website the provider claims:
 

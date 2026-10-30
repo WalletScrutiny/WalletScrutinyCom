@@ -1,6 +1,6 @@
 ---
 title: Ripio App | Crypto Wallet
-date: 2020-03-28
+date: 2026-10-30
 authors:
 - leo
 website: https://ripio.com
@@ -28,6 +28,13 @@ android:
   developerName: Ripio Holding
 
 ---
+
+**Update 2026-10-30:** Ripio now confirms that it holds the coins. Its
+[wallet page](https://www.ripio.com/en/products/wallet) publishes a proof of
+reserves for the assets "en custodia de la wallet (Ripio App)" and states that
+"Ripio tiene la custodia del 100% de tus fondos" (Ripio holds 100% of your
+funds in custody). We found no source code. The verdict stays
+{% include verdictBadge.html verdict="custodial" type='short' %}.
 
 Ripio Bitcoin Wallet: the new digital economy
 does not claim to be non-custodial and looks much like an interface for an

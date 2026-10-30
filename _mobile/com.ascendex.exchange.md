@@ -1,7 +1,7 @@
 ---
 wsId: ascendex
 title: 'AscendEX: Buy & Sell Crypto'
-date: 2021-05-12
+date: 2026-10-30
 authors:
 - leo
 - kiwilamb
@@ -22,7 +22,7 @@ android:
   version: 3.7.5
   reviews: 76
   icon: com.ascendex.exchange.webp
-  meta: removed
+  meta: defunct
   verdict: custodial
   developerName: AscendEX
 iphone:
@@ -39,7 +39,23 @@ iphone:
 
 ---
 
+**⚠️ Warning:** AscendEX is shut down. The exchange
+[ceased operations on 2026-07-01](https://thedefiant.io/news/cefi/ascendex-halts-operations-freezes-automated-withdrawals)
+and moved all withdrawals to manual review. Its
+[website](https://ascendexannouncement.com/) now only announces a claims portal.
+The company says it is exploring a rescue while preparing for a formal
+insolvency process, and gives no timetable for withdrawals.
+
 ## Android
+
+**Update 2026-10-30:** The app is gone from Google Play and the exchange behind it
+has stopped trading. On 2026-08-22
+[AscendEX wrote](https://ascendex.com/) that its website is being turned into a
+claims portal that "will not initially support trading, deposits or withdrawals",
+and that it cannot "confirm the amount that customers may ultimately recover".
+Users can only file claims for their balances, the risk any custodial exchange
+carries.
+The verdict stays custodial and the listing is marked defunct.
 
 The AscendEx mobile app claims on the website help section to manage bitcoins...
 
@@ -56,6 +72,15 @@ Our verdict: This 'wallet' is custodial and therefore **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The app is gone from the App Store and the exchange behind it
+has stopped trading. On 2026-08-22
+[AscendEX wrote](https://ascendex.com/) that its website is being turned into a
+claims portal that "will not initially support trading, deposits or withdrawals",
+and that it cannot "confirm the amount that customers may ultimately recover".
+Users can only file claims for their balances, the risk any custodial exchange
+carries.
+The verdict stays custodial and the listing is marked defunct.
 
 The AscendEx mobile app claims on the website help section to manage bitcoins...
 

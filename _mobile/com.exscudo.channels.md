@@ -1,7 +1,7 @@
 ---
 wsId: exscudo
 title: 'Fintap: BTC, ETH Crypto Wallet'
-date: 2021-04-24
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
@@ -46,6 +46,15 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The app is still listed and updated, but the
+self-custody claim quoted below is gone from the Play Store description. It now
+presents Fintap as a wallet, exchange and messenger, lets users "send cripto via
+integrated secure messenger" and "swap without energy fees", and says nothing about who
+holds the keys. The website [fintap.app](https://fintap.app/) refused connections
+on 2026-10-30, and the [Exscudo](https://github.com/Exscudo) account on GitHub
+holds only API documentation. With no source code and an unclear custody model,
+the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+
 Notably, it features a generic descriptor as its app title "{{page.title}}" while the app's description claims it's called "Fintap.app" and the Play store id is `{{page.appId}}`.
 
 The Play Store description states...
@@ -65,6 +74,15 @@ Our verdict: This ‘wallet’ claims to be non-custodial, however with no sourc
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The app is still listed and updated, but the
+self-custody claim quoted below is gone from the App Store description. It now
+presents Fintap as a wallet, exchange and messenger, offers "zero-fee transfers"
+between Fintap users and swaps "without additional gas fees", and says nothing about who
+holds the keys. The website [fintap.app](https://fintap.app/) refused connections
+on 2026-10-30, and the [Exscudo](https://github.com/Exscudo) account on GitHub
+holds only API documentation. With no source code and an unclear custody model,
+the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 The App Store description states...
 

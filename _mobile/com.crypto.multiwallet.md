@@ -1,7 +1,7 @@
 ---
 wsId: guarda
 title: 'Guarda: Crypto Bitcoin Wallet'
-date: 2021-05-20
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -45,6 +45,13 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Still no source code for this app.
+[Guarda](https://guarda.com/) still says "Your private keys stay on your device",
+the [guarda-android-wallets](https://github.com/guardaco/guarda-android-wallets)
+repository is still archived (last push 2021-05-12), and none of the
+[guardaco repositories](https://github.com/guardaco) nor a GitHub code search for
+`com.crypto.multiwallet` turns up the app. The verdict stays **not verifiable**.
 
 ## Update 2024-07-13
 
@@ -98,6 +105,13 @@ An issue has been opened at [https://github.com/guardaco/guarda-android-wallets/
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** Still no source code for this app.
+[Guarda](https://guarda.com/) still says "Your private keys stay on your device",
+the [guarda-android-wallets](https://github.com/guardaco/guarda-android-wallets)
+repository is still archived (last push 2021-05-12), and none of the
+[guardaco repositories](https://github.com/guardaco) nor a GitHub code search for
+`com.crypto.multiwallet` turns up the app. The verdict stays **not verifiable**.
 
 This app claims to be non-custodial on the App Store
 
