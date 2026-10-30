@@ -1,5 +1,4 @@
 ---
-wsId: zapitWeb3Wallet
 title: 'Zapit: Web3 Wallet'
 date: 2026-01-02
 authors:
@@ -57,4 +56,4 @@ This is a **custodial service**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

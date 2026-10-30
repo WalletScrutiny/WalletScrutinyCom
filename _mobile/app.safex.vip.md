@@ -1,5 +1,4 @@
 ---
-wsId: yubitExchange
 title: 'YUBIT: Crypto Exchange'
 date: 2026-01-15
 authors:
@@ -60,4 +59,4 @@ This is a **custodial service**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

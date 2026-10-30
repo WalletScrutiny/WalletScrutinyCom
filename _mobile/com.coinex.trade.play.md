@@ -1,5 +1,4 @@
 ---
-wsId: CoinEx
 title: 'CoinEx: Buy Bitcoin & Crypto'
 date: 2020-04-15
 authors:

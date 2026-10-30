@@ -1,5 +1,4 @@
 ---
-wsId: meta1Wallet
 title: META 1 Wallet
 date: 2025-01-09
 authors:
@@ -77,4 +76,4 @@ An issue has been opened at [https://gitlab.com/walletscrutiny/walletScrutinyCom
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: ForexTB
 title: 'ForexTB: Online Trading'
 date: 2024-02-05
 authors:
@@ -64,4 +63,4 @@ A CFD is a financial instrument that allows traders to speculate on an asset __[
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

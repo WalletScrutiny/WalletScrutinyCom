@@ -1,5 +1,4 @@
 ---
-wsId: redotpayCrypto
 title: 'RedotPay: Crypto Card & Pay'
 date: 2026-01-23
 authors:
@@ -68,4 +67,4 @@ However, this self-custody wallet cannot readily be accessible without having to
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

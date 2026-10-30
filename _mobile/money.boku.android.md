@@ -1,5 +1,4 @@
 ---
-wsId: neverlessBuyBitcoin
 title: 'Neverless: Stocks & Crypto'
 date: 2026-01-02
 authors:
@@ -66,4 +65,4 @@ The absence of Bitcoin in the deposit or withdraw options, give us a clue that w
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

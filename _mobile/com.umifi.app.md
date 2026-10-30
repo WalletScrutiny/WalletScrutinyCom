@@ -1,5 +1,4 @@
 ---
-wsId: UmiFi
 title: UmiFi-Bitcoin, Crypto Trading
 date: 2022-02-25
 authors:
@@ -68,4 +67,4 @@ Cryptocurrency exchanges that have Anti Money Laundering policies are almost alw
 
 **Update 2022-10-21**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

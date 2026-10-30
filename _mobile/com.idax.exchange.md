@@ -1,5 +1,4 @@
 ---
-wsId: idax
 title: iDAX Exchange
 date: 2023-05-10
 authors:
@@ -66,4 +65,4 @@ The ability to freeze or lock the user's funds is a good sign that this is a **c
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

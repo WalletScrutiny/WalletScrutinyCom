@@ -1,5 +1,4 @@
 ---
-wsId: tokenomy
 title: Tokenomy
 date: 2024-05-07
 authors:
@@ -66,4 +65,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: CoinLoan
 title: 'CoinLoan: Сrypto & Fiat Loans'
 date: 2024-04-03
 authors:
@@ -69,4 +68,4 @@ The ability to freeze accounts, and claims to be regulatory compliant, indicate 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

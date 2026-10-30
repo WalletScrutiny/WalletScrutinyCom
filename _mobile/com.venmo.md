@@ -1,5 +1,4 @@
 ---
-wsId: venmo
 title: Venmo
 date: 2022-04-12
 authors:
@@ -65,4 +64,4 @@ own" on the app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

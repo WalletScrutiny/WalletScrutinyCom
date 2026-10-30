@@ -1,5 +1,4 @@
 ---
-wsId: techAmon
 title: Amon
 date: 2024-08-17
 authors:
@@ -62,4 +61,4 @@ Otherwise, the other text shows:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

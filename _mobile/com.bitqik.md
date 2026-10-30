@@ -1,5 +1,4 @@
 ---
-wsId: bitqikExchange
 title: bitqik
 date: 2024-10-07
 authors:
@@ -61,4 +60,4 @@ Secured and insured: Cold and Hot wallet storage. A world-class digital asset cu
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

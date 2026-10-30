@@ -1,5 +1,4 @@
 ---
-wsId: WanWallet
 title: WanWallet
 date: 2022-04-07
 authors:
@@ -69,4 +68,4 @@ At the moment, we will [wait for the source-code to be tested](https://gitlab.co
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

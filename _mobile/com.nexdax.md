@@ -1,5 +1,4 @@
 ---
-wsId: nexdaxExchange
 title: NexDAX
 date: 2023-08-19
 authors:
@@ -61,4 +60,4 @@ The description generally describes a cryptocurrency exchange.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

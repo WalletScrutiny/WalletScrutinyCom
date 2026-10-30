@@ -1,5 +1,4 @@
 ---
-wsId: ZenaPay
 title: ZenaPay
 date: 2025-07-03
 authors:
@@ -27,4 +26,3 @@ iphone:
 
 ---
 
-{% include copyFromAndroid.html %}

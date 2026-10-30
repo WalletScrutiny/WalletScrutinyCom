@@ -1,5 +1,4 @@
 ---
-wsId: boundlessPay
 title: 'BoundlessPay: Buy& Sell Crypto'
 date: 2023-03-29
 authors:
@@ -69,4 +68,4 @@ As the provider itself mentioned, this is a custodial service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

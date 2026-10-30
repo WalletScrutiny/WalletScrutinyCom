@@ -1,5 +1,4 @@
 ---
-wsId: ZBX
 title: ZBX - Bitcoin & Cryptocurrency
 date: 2021-11-15
 authors:
@@ -65,4 +64,4 @@ This is a cryptocurrency exchange. As specified in its [Terms](https://zbxone.ze
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

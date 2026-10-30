@@ -1,5 +1,4 @@
 ---
-wsId: PumaPay
 title: PumaPay Blockchain wallet - Bu
 date: 2024-05-18
 authors:
@@ -55,4 +54,4 @@ code which makes the app **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

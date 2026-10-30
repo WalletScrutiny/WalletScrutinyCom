@@ -1,5 +1,4 @@
 ---
-wsId: pallapayApp
 title: PallaPay
 date: 2025-07-28
 authors:
@@ -81,4 +80,4 @@ ____
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: newMoneyAIWallet
 title: Newmoney AI Wallet
 date: 2025-11-20
 authors:
@@ -63,4 +62,4 @@ Absent proof that the private keys can indeed be exported, we are marking this a
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

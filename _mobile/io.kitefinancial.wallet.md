@@ -1,5 +1,4 @@
 ---
-wsId: kiteFinancialWallet
 title: Kite Financial  Wallet
 date: 2024-07-10
 authors:
@@ -61,4 +60,4 @@ Finally, the strongest proof that this is a **custodial** service is the non-pro
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

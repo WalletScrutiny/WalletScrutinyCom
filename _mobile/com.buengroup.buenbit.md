@@ -1,5 +1,4 @@
 ---
-wsId: buenbit
 title: 'Buenbit by Nexo: Invierte bien'
 date: 2023-12-14
 authors:
@@ -79,4 +78,4 @@ Translated from Spanish using Google Translate:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

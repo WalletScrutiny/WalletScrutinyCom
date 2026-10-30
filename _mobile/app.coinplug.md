@@ -1,5 +1,4 @@
 ---
-wsId: coinPlugNG
 title: CoinPlug - Swap Crypto to Cash
 date: 2025-08-29
 authors:
@@ -82,4 +81,4 @@ CoinPlug provides custodial deposit addresses and enables crypto-to-fiat withdra
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

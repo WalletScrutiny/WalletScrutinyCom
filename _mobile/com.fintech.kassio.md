@@ -1,5 +1,4 @@
 ---
-wsId: kassio
 title: Kassio
 date: 2024-10-31
 authors:
@@ -62,4 +61,4 @@ Kassio uses Bitgo as a third-party custodian for its services. This indicates th
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

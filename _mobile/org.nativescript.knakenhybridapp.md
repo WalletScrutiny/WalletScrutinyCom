@@ -1,5 +1,4 @@
 ---
-wsId: knakenCrypto
 title: 'Knaken: Buy crypto safely'
 date: 2023-08-24
 authors:
@@ -74,4 +73,4 @@ The "temporary wallet" without the private keys can only be a **custodial** serv
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

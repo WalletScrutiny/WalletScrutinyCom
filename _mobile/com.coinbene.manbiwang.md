@@ -1,5 +1,4 @@
 ---
-wsId: CoinBene
 title: CoinBene
 date: 2021-10-01
 authors:
@@ -65,4 +64,4 @@ Verdict is therefore **custodial** and **not verifiable**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

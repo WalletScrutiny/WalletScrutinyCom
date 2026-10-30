@@ -1,5 +1,4 @@
 ---
-wsId: lavaXYZ
 title: 'Lava: Bitcoin Finance'
 date: 2025-05-22
 authors:
@@ -85,4 +84,4 @@ But still, it fails the next test: it's not **source available**. They do have a
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: deffioWallet
 title: 'Deffio: Secure Crypto Wallet'
 date: 2025-11-14
 authors:
@@ -57,4 +56,4 @@ This app is **not source-available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

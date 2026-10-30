@@ -1,5 +1,4 @@
 ---
-wsId: com.btc.trustless
 title: Trustless
 date: 2026-02-03
 authors:

@@ -1,5 +1,4 @@
 ---
-wsId: OKEx
 title: 'OKX: Buy Bitcoin BTC & Crypto'
 date: 2020-05-29
 authors:

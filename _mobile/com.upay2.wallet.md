@@ -1,5 +1,4 @@
 ---
-wsId: upayWallet
 title: UPay Wallet
 date: 2026-01-23
 authors:
@@ -63,4 +62,4 @@ This is a **custodial app**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: sonicWallet
 title: Sonic Wallet
 date: 2024-02-05
 authors:
@@ -68,4 +67,4 @@ It describes some of its software as developed by the Open Source community - bu
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

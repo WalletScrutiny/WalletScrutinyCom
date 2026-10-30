@@ -1,5 +1,4 @@
 ---
-wsId: mutiny
 title: Mutiny Wallet
 date: 2025-01-27
 authors:
@@ -68,4 +67,4 @@ We'll keep an eye out whether somebody will continue the development of this app
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

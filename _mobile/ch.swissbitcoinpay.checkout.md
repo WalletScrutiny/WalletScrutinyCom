@@ -1,5 +1,4 @@
 ---
-wsId: swissBitcoinPay
 title: Swiss Bitcoin Pay
 date: 2026-07-21
 authors:

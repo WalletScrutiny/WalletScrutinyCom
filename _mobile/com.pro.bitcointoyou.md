@@ -1,5 +1,4 @@
 ---
-wsId: bitcointoyou
 title: Bitcointoyou Pro
 date: 2025-02-18
 authors:

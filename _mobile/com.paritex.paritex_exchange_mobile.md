@@ -1,5 +1,4 @@
 ---
-wsId: Paritex
 title: Paritex Exchange
 date: 2023-04-16
 authors:
@@ -59,4 +58,4 @@ With ID verification, an Anti-Money laundering and Terrorism Financing Policy, p
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

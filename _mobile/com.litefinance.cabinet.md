@@ -1,5 +1,4 @@
 ---
-wsId: litefinance
 title: LiteFinance mobile trading
 date: 2023-02-10
 authors:
@@ -66,4 +65,4 @@ This is a **custodial provider**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

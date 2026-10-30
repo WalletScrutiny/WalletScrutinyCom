@@ -1,5 +1,4 @@
 ---
-wsId: AjGlobalV
 title: 'AjGlobalV: Crypto And Giftcard'
 date: 2025-10-02
 authors:
@@ -122,4 +121,4 @@ Most apps with developers catering to the Nigerian population usually uses gift 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

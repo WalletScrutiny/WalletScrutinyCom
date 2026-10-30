@@ -1,5 +1,4 @@
 ---
-wsId: bitkubExchange
 title: 'Bitkub : Buy Bitcoin & Crypto'
 date: 2023-04-04
 authors:
@@ -77,4 +76,4 @@ While this is a trading platform it is still possible to send and receive BTC. W
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

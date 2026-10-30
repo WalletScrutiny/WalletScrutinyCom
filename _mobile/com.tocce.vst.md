@@ -1,5 +1,4 @@
 ---
-wsId: vstmex
 title: VSTMEX - Buy Bitcoin & Crypto
 date: 2023-04-12
 authors:
@@ -77,4 +76,4 @@ The service is custodial, and the app **cannot be verified**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

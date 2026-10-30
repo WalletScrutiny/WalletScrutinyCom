@@ -1,5 +1,4 @@
 ---
-wsId: ThinkTrader
 title: ThinkTrader
 date: 2021-10-21
 authors:
@@ -60,4 +59,4 @@ You **cannot send or receive bitcoins on this platform.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

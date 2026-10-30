@@ -1,5 +1,4 @@
 ---
-wsId: savitaBuyBTC
 title: 'Savita: Buy BTC,ETH,USDT'
 date: 2024-08-02
 authors:
@@ -63,4 +62,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

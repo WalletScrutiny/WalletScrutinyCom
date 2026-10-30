@@ -1,5 +1,4 @@
 ---
-wsId: uniSat
 title: UniSat Wallet
 date: 2025-10-23
 authors:
@@ -68,6 +67,6 @@ Despite claims, this app is **NOT source available**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="foss" quote="Fully Open Source Built with transparency in mind. Review our code anytime at https://github.com/unisat-wallet/extension" source="Store" %}

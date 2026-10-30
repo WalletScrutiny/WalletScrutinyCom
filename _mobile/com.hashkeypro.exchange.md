@@ -1,5 +1,4 @@
 ---
-wsId: hashkeyExchange
 title: HashKey Exchange
 date: 2025-11-18
 authors:
@@ -58,4 +57,4 @@ As a licensed and regulated virtual asset exchange in Hong Kong, HashKey Exchang
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

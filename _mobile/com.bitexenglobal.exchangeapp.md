@@ -1,5 +1,4 @@
 ---
-wsId: bitexenGlobal
 title: Bitexen Global
 date: 2023-09-06
 authors:
@@ -64,4 +63,4 @@ This makes the app **non-verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

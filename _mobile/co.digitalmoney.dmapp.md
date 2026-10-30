@@ -1,5 +1,4 @@
 ---
-wsId: DigitalMoney
 title: Digital Money - Buy/Send/Recie
 date: 2023-06-21
 authors:
@@ -63,4 +62,4 @@ In this case, we classify the app as **self-custodial**. Nevertheless, there is 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

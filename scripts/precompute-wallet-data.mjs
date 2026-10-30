@@ -132,33 +132,6 @@ function calculateWalletScore(verdict, platform) {
 }
 
 /**
- * Build seeAlso data - find wallets with same wsId on other platforms
- */
-function buildSeeAlsoIndex(allWallets) {
-  const wsIdIndex = {};
-  
-  // Index all wallets by wsId
-  for (const [platform, wallets] of Object.entries(allWallets)) {
-    for (const wallet of wallets) {
-      if (wallet.wsId) {
-        if (!wsIdIndex[wallet.wsId]) {
-          wsIdIndex[wallet.wsId] = [];
-        }
-        wsIdIndex[wallet.wsId].push({
-          platform,
-          appId: wallet.appId,
-          // Use altTitle if available (important for Android wallets with generic names)
-          title: wallet.altTitle || wallet.title,
-          icon: wallet.icon
-        });
-      }
-    }
-  }
-  
-  return wsIdIndex;
-}
-
-/**
  * Resolve icon/title for walletLink.html (matches Liquid logic in _includes/walletLink.html).
  */
 function resolveMobileWalletLinkDisplay(wallet, linkPlatform) {
@@ -449,8 +422,6 @@ const allWallets = {};
 const precomputed = {
   // Key: "platform-verdict" (score only depends on these two)
   walletScores: {},
-  // Key: "platform/appId" (seeAlso is per-wallet)
-  seeAlso: {},
   // Key: "platform/appId" (walletLink O(1) lookup)
   walletLinks: {},
   // Key: verdict group key -> product count
@@ -468,9 +439,6 @@ for (const platform of platforms) {
     ? loadMobileWallets()
     : loadPlatformWallets(platform);
 }
-
-// Build seeAlso index
-const wsIdIndex = buildSeeAlsoIndex(allWallets);
 
 // Pre-compute scores keyed by platform-verdict (not per-wallet).
 // Use every platform in platformMeta (android, iphone, mobile, …), not only wallet folders.
@@ -491,19 +459,6 @@ for (const platform of platforms) {
   console.log(`    ${platform}: ${criteria.length} tests (${criteria.join(', ')})`);
 }
 
-// Build seeAlso links (still per-wallet, keyed by platform/appId)
-for (const platform of platforms) {
-  for (const wallet of allWallets[platform]) {
-    if (wallet.wsId && wsIdIndex[wallet.wsId]) {
-      const others = wsIdIndex[wallet.wsId].filter(w => w.platform !== platform);
-      if (others.length > 0) {
-        const key = `${platform}/${wallet.appId}`;
-        precomputed.seeAlso[key] = others;
-      }
-    }
-  }
-}
-
 console.log('  Building walletLinks index...');
 precomputed.walletLinks = buildWalletLinksIndex(allWallets);
 
@@ -521,7 +476,6 @@ fs.writeFileSync(outputPath, JSON.stringify(precomputed, null, 2));
 
 console.log(`\nGenerated ${outputPath}`);
 console.log(`  Wallet scores: ${Object.keys(precomputed.walletScores).length} unique platform-verdict combinations`);
-console.log(`  SeeAlso links: ${Object.keys(precomputed.seeAlso).length} wallets with cross-platform links`);
 console.log(`  Wallet links: ${Object.keys(precomputed.walletLinks).length} lookup keys`);
 console.log(`  Verdict group counts: ${precomputed.totalReviewedProducts} products across ${verdictGroups.length} groups`);
 
@@ -576,7 +530,6 @@ for (const platform of productPlatforms) {
       features: walletFeatures,
     };
     if (platform === 'mobile') {
-      if (wallet.wsId) app.wsId = wallet.wsId;
       if (wallet.altTitle) app.altTitle = wallet.altTitle;
       if (wallet.storeAppId) app.storeAppId = wallet.storeAppId;
       if (wallet.storePlatform && wallet.storePlatform !== 'android') app.storePlatform = wallet.storePlatform;

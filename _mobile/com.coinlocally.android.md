@@ -1,5 +1,4 @@
 ---
-wsId: coinlocally
 title: Coinlocally
 date: 2023-02-21
 authors:
@@ -55,7 +54,7 @@ It is evident in their [Terms and Conditions](https://coinlocally.com/terms) pag
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="there are more than 600 cryptocurrencies to buy and sell on Coinlocally." source="Store description" %}
 

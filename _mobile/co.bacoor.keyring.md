@@ -1,5 +1,4 @@
 ---
-wsId: keyring
 title: Ethereum Wallet - KEYRING PRO
 date: 2021-11-17
 authors:
@@ -88,4 +87,4 @@ This wallet is **self-custodial.** With no link to a Github account or mention o
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: bitrue
 title: Bitrue - Buy XRP, BTC & Crypto
 date: 2020-11-17
 authors:

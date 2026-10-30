@@ -1,5 +1,4 @@
 ---
-wsId: PlasmaPay
 title: PlasmaPay - cryptocurrency wallet and DeFi app
 date: 2021-11-17
 authors:
@@ -124,4 +123,4 @@ But at the moment, the app itself is not functional. As there are reviews dating
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

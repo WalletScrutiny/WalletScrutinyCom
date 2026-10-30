@@ -1,5 +1,4 @@
 ---
-wsId: usenobi
 title: 'NOBI: Own Bitcoin & Crypto'
 date: 2023-04-12
 authors:
@@ -66,4 +65,4 @@ The deposit function is disabled until the user complies with KYC procedures. We
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

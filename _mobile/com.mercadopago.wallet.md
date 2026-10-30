@@ -1,5 +1,4 @@
 ---
-wsId: mercadopago
 title: 'Mercado Pago: Banco Digital'
 date: 2021-12-26
 authors:
@@ -55,4 +54,4 @@ it also supports Ethereum and Pax Dollar.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

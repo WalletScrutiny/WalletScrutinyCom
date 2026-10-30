@@ -1,5 +1,4 @@
 ---
-wsId: swyftx
 title: 'Swyftx: Buy Bitcoin, ETH & SOL'
 date: 2025-11-11
 authors:
@@ -69,7 +68,7 @@ Additionally, the same paragraph notes that "Customer crypto assets and fiat cur
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Easily buy, sell and swap your favourite cryptocurrencies and manage your portfolio in one place." source="Store description" %}
 

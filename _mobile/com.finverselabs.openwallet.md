@@ -1,5 +1,4 @@
 ---
-wsId: openWallet
 title: 'Open Wallet: BTC & ETH Wallet'
 date: 2025-11-14
 authors:
@@ -115,4 +114,4 @@ Even if the service claims to be “non-custodial,” the absence of user-contro
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

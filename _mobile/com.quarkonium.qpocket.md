@@ -1,5 +1,4 @@
 ---
-wsId: QPocket
 title: 'QPocket: ETH TRON QKC Crypto W'
 date: 2022-12-26
 authors:
@@ -71,4 +70,4 @@ An issue has been opened at [https://github.com/QuarkChain/QPocket-Android/issue
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

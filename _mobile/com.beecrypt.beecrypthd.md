@@ -1,5 +1,4 @@
 ---
-wsId: MoneyPipe
 title: 'MoneyPipe: HD Bitcoin Wallet'
 date: 2022-05-31
 authors:
@@ -69,4 +68,4 @@ Contrary to the Bitcoin thread above, we could no longer locate any mention of t
 
 **Update 2022-05-17**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

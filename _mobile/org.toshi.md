@@ -1,5 +1,4 @@
 ---
-wsId: CoinbaseWallet
 title: 'Coinbase Wallet: Trade to Win'
 date: 2021-01-04
 authors:

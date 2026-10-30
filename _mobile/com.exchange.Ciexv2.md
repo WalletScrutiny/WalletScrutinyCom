@@ -1,5 +1,4 @@
 ---
-wsId: ciexExchange
 title: CIEx
 date: 2025-05-30
 authors:
@@ -62,4 +61,4 @@ This provider is explicit in its claims and thus the app is **non-verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

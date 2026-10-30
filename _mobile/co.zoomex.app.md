@@ -1,5 +1,4 @@
 ---
-wsId: zoomexCrypto
 title: Zoomex-BTC, ETH Crypto Trading
 date: 2023-07-01
 authors:
@@ -56,4 +55,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

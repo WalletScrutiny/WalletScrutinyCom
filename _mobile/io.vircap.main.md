@@ -1,5 +1,4 @@
 ---
-wsId: vircapExchange
 title: Vircap
 date: 2024-11-04
 authors:
@@ -62,4 +61,4 @@ Platforms that store the private keys for their users are **custodial**, and the
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

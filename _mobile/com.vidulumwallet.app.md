@@ -1,5 +1,4 @@
 ---
-wsId: Vidulum
 title: Vidulum - Crypto Web Wallet
 date: 2024-12-15
 authors:
@@ -77,4 +76,4 @@ The app is closed source and thus **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

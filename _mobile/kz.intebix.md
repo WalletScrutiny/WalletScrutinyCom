@@ -1,5 +1,4 @@
 ---
-wsId: intebix
 title: Intebix
 date: 2026-05-02
 authors:
@@ -51,4 +50,4 @@ This app is **custodial** because access to funds depends on the provider-contro
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

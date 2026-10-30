@@ -1,5 +1,4 @@
 ---
-wsId: cryptoComDefi
 title: 'Ult: Trade Stocks & Crypto'
 date: 2021-10-24
 authors:
@@ -80,7 +79,7 @@ their website:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="hd" quote="If you have an existing wallet created on other applications, you can easily import it by entering or copying your 12/18/24-word recovery phrase to Crypto.com Onchain." source="Website" %}
 

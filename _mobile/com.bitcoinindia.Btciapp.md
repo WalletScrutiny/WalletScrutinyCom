@@ -1,5 +1,4 @@
 ---
-wsId: btciapp
 title: Bitcoin India Wallet & Exchange
 date: 2021-09-19
 authors:

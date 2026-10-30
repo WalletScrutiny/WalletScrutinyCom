@@ -1,5 +1,4 @@
 ---
-wsId: btccLite
 title: 'BTCC Lite: Trade BTC & ETH'
 date: 2023-08-23
 authors:
@@ -92,4 +91,4 @@ As an official lite version of the app, this is also a **custodial** and therefo
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

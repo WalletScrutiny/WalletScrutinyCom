@@ -1,5 +1,4 @@
 ---
-wsId: Skilling
 title: Skilling - Forex Trading App
 date: 2025-10-02
 authors:
@@ -65,4 +64,4 @@ You **cannot send or receive bitcoins** on this trading app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

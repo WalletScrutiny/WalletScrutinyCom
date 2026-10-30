@@ -1,5 +1,4 @@
 ---
-wsId: TradeMN
 title: Trade.mn
 date: 2022-05-31
 authors:
@@ -57,4 +56,4 @@ This service is **custodial** making the app **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

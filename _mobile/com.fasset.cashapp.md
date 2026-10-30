@@ -1,5 +1,4 @@
 ---
-wsId: fassetCrypto
 title: 'Fasset: Global Digital Bank'
 date: 2023-07-01
 authors:
@@ -60,4 +59,4 @@ This app is in early access.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: cpass
 title: CPASS
 date: 2023-09-28
 authors:
@@ -61,4 +60,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: AdmiralMarkets
 title: Admirals・Stocks trading
 date: 2021-10-16
 authors:
@@ -91,4 +90,4 @@ Since this app trades in CFDs, and only accepts traditional modes for deposit/wi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

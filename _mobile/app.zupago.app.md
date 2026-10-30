@@ -1,5 +1,4 @@
 ---
-wsId: ZuPago
 title: ViZO
 date: 2024-07-05
 authors:
@@ -77,4 +76,4 @@ The app is **custodial** and **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

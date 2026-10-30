@@ -1,5 +1,4 @@
 ---
-wsId: digifinex
 title: DigiFinex- Crypto Exchange
 date: 2020-11-28
 authors:

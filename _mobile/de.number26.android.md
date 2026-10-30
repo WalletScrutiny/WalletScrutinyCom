@@ -1,5 +1,4 @@
 ---
-wsId: n26App
 title: N26 — Love your bank
 date: 2025-10-17
 authors:
@@ -59,4 +58,4 @@ This may be done via API, where the custodian is Bitpanda. Nevertheless, this is
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

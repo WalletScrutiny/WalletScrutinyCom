@@ -1,5 +1,4 @@
 ---
-wsId: B4UWallet
 title: 'B4U Wallet: Crypto Bitcoin Wal'
 date: 2022-04-25
 authors:

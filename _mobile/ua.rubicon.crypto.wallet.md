@@ -1,5 +1,4 @@
 ---
-wsId: rubicoinWallet
 title: Rubicon Wallet
 date: 2026-05-01
 authors:
@@ -52,4 +51,4 @@ This app **does not share its source code**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

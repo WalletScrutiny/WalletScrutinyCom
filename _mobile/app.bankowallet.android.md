@@ -1,5 +1,4 @@
 ---
-wsId: bankoWallet
 title: Banko Wallet - Bitcoin, ETH, T
 date: 2023-05-10
 authors:
@@ -87,4 +86,4 @@ have full control over your own private keys;
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

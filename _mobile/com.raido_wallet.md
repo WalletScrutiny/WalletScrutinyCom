@@ -1,5 +1,4 @@
 ---
-wsId: Raido
 title: Crypto wallet - Raido
 date: 2023-12-19
 authors:
@@ -59,4 +58,4 @@ All indications point to **custodial** service. This makes the app **not verifia
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

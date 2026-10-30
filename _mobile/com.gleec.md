@@ -1,5 +1,4 @@
 ---
-wsId: gleecCard
 title: Gleec Card Crypto-powered card
 date: 2023-05-04
 authors:
@@ -71,4 +70,4 @@ Without the private keys provided to the user, this app can only be a **custodia
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

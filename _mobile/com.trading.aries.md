@@ -1,5 +1,4 @@
 ---
-wsId: TradeAries
 title: 'Aries: Trade. Invest.'
 date: 2024-11-21
 authors:
@@ -75,4 +74,4 @@ We conclude that this app, while it lets you buy and sell bitcoin, **will not al
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

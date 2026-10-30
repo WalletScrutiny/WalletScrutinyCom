@@ -1,5 +1,4 @@
 ---
-wsId: FondexcTrader
 title: Fondex cTrader
 date: 2024-03-02
 authors:
@@ -63,4 +62,4 @@ It's clear that you **do not actually send or receive your digital assets** in t
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

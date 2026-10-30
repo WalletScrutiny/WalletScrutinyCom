@@ -1,5 +1,4 @@
 ---
-wsId: cashierestCrypto
 title: 캐셔레스트 공식앱(캐셔레스트,코인,디지털 자산,거래소)
 date: 2025-05-14
 authors:
@@ -63,4 +62,4 @@ Translated from Korean using Google Translate:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

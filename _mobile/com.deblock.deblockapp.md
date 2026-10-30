@@ -1,5 +1,4 @@
 ---
-wsId: deblock
 title: Deblock - Banking app
 date: 2024-09-06
 authors:
@@ -79,4 +78,4 @@ In the section “What if Deblock disappears?” (and you have neither the app n
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

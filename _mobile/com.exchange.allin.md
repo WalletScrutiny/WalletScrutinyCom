@@ -1,5 +1,4 @@
 ---
-wsId: allInXCrypto
 title: AllinX：Exchange& Crypto BTC
 date: 2025-11-14
 authors:
@@ -58,4 +57,4 @@ The [terms](https://support.allinx.io/en/articles/11757472-all-inx-terms-of-use)
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

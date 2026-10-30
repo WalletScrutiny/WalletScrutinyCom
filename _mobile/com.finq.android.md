@@ -1,5 +1,4 @@
 ---
-wsId: finq
 title: Finq
 date: 2025-02-26
 authors:
@@ -64,4 +63,4 @@ The types of trading accounts are listed on this [page.](https://www.finq.com/en
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

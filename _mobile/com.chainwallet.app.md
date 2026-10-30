@@ -1,5 +1,4 @@
 ---
-wsId: chainAppWeb3
 title: Chain App - Web3 Wallet
 date: 2024-11-19
 authors:
@@ -68,4 +67,4 @@ Nothing changed with regards to its source-availability.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

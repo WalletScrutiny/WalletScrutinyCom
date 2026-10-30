@@ -1,5 +1,4 @@
 ---
-wsId: tuxWallet
 title: TUX Wallet
 date: 2023-08-18
 authors:
@@ -59,4 +58,4 @@ Searching for the app ID on Github did not turn out any relevant code or reposit
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

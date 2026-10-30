@@ -1,5 +1,4 @@
 ---
-wsId: devereCrypto
 title: deVere Crypto
 date: 2024-11-29
 authors:
@@ -106,4 +105,4 @@ While this app can be used for trading and storing cryptocurrencies, you are not
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

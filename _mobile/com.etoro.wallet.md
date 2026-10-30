@@ -1,5 +1,4 @@
 ---
-wsId: etorowallet
 title: eToro Money
 date: 2021-04-21
 authors:

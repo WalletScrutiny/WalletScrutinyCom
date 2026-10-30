@@ -1,5 +1,4 @@
 ---
-wsId: FoxOne
 title: FoxOne - BTC,ETH,EOS,Cosmos exchange & wallet
 date: 2021-11-11
 authors:
@@ -62,4 +61,4 @@ All indications point to an app that is **no longer working.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

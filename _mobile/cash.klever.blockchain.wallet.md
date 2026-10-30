@@ -1,5 +1,4 @@
 ---
-wsId: klever
 title: K4 Wallet
 date: 2023-08-04
 authors:

@@ -1,5 +1,4 @@
 ---
-wsId: StartEOSWallet
 title: Start Wallet(EOS, BTC, ETH, TR
 date: 2024-02-05
 authors:
@@ -65,4 +64,4 @@ We could not locate the source code for the project.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

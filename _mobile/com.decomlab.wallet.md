@@ -1,5 +1,4 @@
 ---
-wsId: decomlab
 title: Moon Wallet
 date: 2023-01-30
 authors:
@@ -72,4 +71,4 @@ While this is a **non-custodial** wallet, there is **a lack of any source code**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

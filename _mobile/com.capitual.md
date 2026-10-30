@@ -1,5 +1,4 @@
 ---
-wsId: capitual
 title: Capitual - Multiple Currencies
 date: 2025-02-04
 authors:
@@ -77,4 +76,4 @@ Because this app leans towards being a **custodial** offering, its claims are **
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

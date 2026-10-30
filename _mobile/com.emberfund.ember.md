@@ -1,5 +1,4 @@
 ---
-wsId: ember
 title: Ember - Play Games. Win Big.
 date: 2021-10-01
 authors:
@@ -117,4 +116,4 @@ This app claims to be non-custodial, but with no source to back it up, it is **n
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

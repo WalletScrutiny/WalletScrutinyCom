@@ -1,5 +1,4 @@
 ---
-wsId: blackcatcard
 title: Blackcatcard
 date: 2021-09-03
 authors:
@@ -95,4 +94,4 @@ We assume that DigiNord provides the cryptocurrency services and BlackCatCard in
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

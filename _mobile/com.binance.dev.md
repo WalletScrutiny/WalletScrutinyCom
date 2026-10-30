@@ -1,5 +1,4 @@
 ---
-wsId: binance
 title: 'Binance: Buy Bitcoin & Crypto'
 date: 2020-03-15
 authors:

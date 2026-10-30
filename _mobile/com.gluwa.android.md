@@ -1,5 +1,4 @@
 ---
-wsId: gluwaWallet
 title: Gluwa
 date: 2024-12-31
 authors:
@@ -70,4 +69,4 @@ The app's source code remains unavailable, with no updates on its potential rele
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

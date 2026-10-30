@@ -1,5 +1,4 @@
 ---
-wsId: leoExchange
 title: LEO12 Exchange
 date: 2024-11-30
 authors:
@@ -55,4 +54,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

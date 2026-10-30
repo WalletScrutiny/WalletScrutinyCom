@@ -1,5 +1,4 @@
 ---
-wsId: Colodax
 title: Colodax - Bitcoin Exchange
 date: 2024-10-19
 authors:
@@ -69,4 +68,4 @@ This regulated cryptocurrency exchange is **custodial** and the app is **not ver
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

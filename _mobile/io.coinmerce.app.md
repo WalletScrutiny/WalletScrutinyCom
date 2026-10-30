@@ -1,5 +1,4 @@
 ---
-wsId: coinmerce
 title: Coinmerce - Buy Bitcoin
 date: 2023-04-15
 authors:
@@ -62,4 +61,4 @@ This is a **custodial** service and therefore, the app is **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: nooneWallet
 title: Noone Crypto Wallet
 date: 2023-07-24
 authors:
@@ -98,7 +97,7 @@ Right now, we find no definitive proof that either of these repositories would b
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="buyWithCC" quote="Instantly purchase Bitcoin, Ethereum, Dogecoin, and more using your credit or debit card. No need for third-party apps – buy and store your crypto directly in Noone Wallet." source="Store description" %}
 

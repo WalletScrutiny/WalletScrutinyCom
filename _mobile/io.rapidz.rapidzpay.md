@@ -1,5 +1,4 @@
 ---
-wsId: rapidzPay
 title: 'Rapidz: Crypto Wallet & Hub'
 date: 2023-07-19
 authors:
@@ -62,7 +61,7 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Our wallet app is fortified with security measures like 2FA, biometric login, and advanced app protection." source="Store description" %}
 

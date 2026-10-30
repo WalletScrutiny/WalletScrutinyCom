@@ -1,5 +1,4 @@
 ---
-wsId: Bitexen
 title: Bitexen - Bitcoin and Altcoins
 date: 2023-02-01
 authors:
@@ -96,4 +95,4 @@ Though its assumed social media accounts seem to be active as of 2021-08-19. The
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

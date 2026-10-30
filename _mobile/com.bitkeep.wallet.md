@@ -1,5 +1,4 @@
 ---
-wsId: bitkeep
 title: 'Bitget Wallet: Crypto, Bitcoin'
 date: 2021-10-01
 authors:
@@ -71,4 +70,4 @@ non-custodial closed source wallet and as such **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

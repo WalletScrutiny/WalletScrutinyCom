@@ -23,4 +23,3 @@ iphone:
 
 ---
 
-{% include copyFromAndroid.html %}

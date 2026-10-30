@@ -1,5 +1,4 @@
 ---
-wsId: letsBit
 title: 'LB Finanzas: billetera virtual'
 date: 2023-04-07
 authors:
@@ -77,4 +76,4 @@ This proves that the service is **custodial** in nature and thus **not verifiabl
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

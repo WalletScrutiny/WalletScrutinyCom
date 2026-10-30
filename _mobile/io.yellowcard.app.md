@@ -1,5 +1,4 @@
 ---
-wsId: yellowcard
 title: 'Yellow Card: Buy & Sell Crypto'
 date: 2021-04-13
 authors:

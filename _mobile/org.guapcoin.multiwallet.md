@@ -1,5 +1,4 @@
 ---
-wsId: guapcoinWallet
 title: Official Guap & Bitcoin Wallet
 date: 2024-07-05
 authors:
@@ -64,4 +63,4 @@ For this reason, this app is **not source-available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

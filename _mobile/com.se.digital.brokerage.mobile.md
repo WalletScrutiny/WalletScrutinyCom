@@ -1,5 +1,4 @@
 ---
-wsId: xSpringDigital
 title: XSpring Digital
 date: 2023-12-19
 authors:
@@ -64,4 +63,4 @@ The exchange's disclosure clearly states that it has third-party custodians. Thi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

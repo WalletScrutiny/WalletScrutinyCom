@@ -1,5 +1,4 @@
 ---
-wsId: BitnovoWallet
 title: Bitnovo – Buy Bitcoin
 date: 2024-07-17
 authors:
@@ -95,4 +94,4 @@ This self-custodial app does not claim to be an open source project on its websi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: dexTradeWallet
 title: DexTrade
 date: 2025-08-28
 authors:
@@ -80,4 +79,4 @@ DexTrade is a Bitcoin wallet that claims to be self-custodial with local key sto
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

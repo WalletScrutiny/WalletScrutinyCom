@@ -1,5 +1,4 @@
 ---
-wsId: marSDigitalAssetWallet
 title: MarS
 date: 2024-05-18
 authors:
@@ -69,4 +68,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

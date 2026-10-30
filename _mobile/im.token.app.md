@@ -1,5 +1,4 @@
 ---
-wsId: imToken
 title: 'imToken: BTC & ETH Wallet'
 date: 2021-05-02
 authors:

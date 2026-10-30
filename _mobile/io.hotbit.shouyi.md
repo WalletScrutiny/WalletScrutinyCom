@@ -1,5 +1,4 @@
 ---
-wsId: hotbit
 title: Hotbit
 date: 2023-04-16
 authors:
@@ -51,4 +50,4 @@ It laters mentions the use of hot and cold wallets, and both are usually traits 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

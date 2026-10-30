@@ -1,5 +1,4 @@
 ---
-wsId: digitraTrading
 title: Digitra.com - BTC & Crypto
 date: 2022-07-31
 authors:
@@ -67,4 +66,4 @@ We downloaded and installed the app but was not able to complete account verific
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

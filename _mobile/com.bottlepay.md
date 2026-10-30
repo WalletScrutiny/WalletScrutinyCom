@@ -1,5 +1,4 @@
 ---
-wsId: bottlepay
 title: 'Bottlepay: Buy & Send Bitcoin'
 date: 2023-08-16
 authors:
@@ -57,4 +56,4 @@ The presence of cold storage and the additional guide to educate the user on how
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

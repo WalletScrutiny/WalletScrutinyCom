@@ -1,5 +1,4 @@
 ---
-wsId: LynKeyWallet
 title: LynKey
 date: 2025-02-28
 authors:
@@ -64,4 +63,4 @@ Luxury resort & tourism investment
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

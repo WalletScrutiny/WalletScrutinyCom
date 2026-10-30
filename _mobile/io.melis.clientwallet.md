@@ -1,5 +1,4 @@
 ---
-wsId: melisclientwallet
 title: Melis Bitcoin, Bitcoin Cash, L
 date: 2023-12-19
 authors:
@@ -167,6 +166,6 @@ An issue has been opened at [https://github.com/melis-wallet/melis-cm-client/iss
 {% include featureEvidence.html feature="multiAccount" source="[Website](http://melis.io)" quote="Multi-account" %}
 {% include featureEvidence.html feature="multiSig" source="[Website](http://melis.io)" quote="multi-signature accounts (N of M signatures)" %}
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 An issue has been opened at [https://github.com/melis-wallet/melis-cm-client/issues/1](https://github.com/melis-wallet/melis-cm-client/issues/1)

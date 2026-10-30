@@ -1,5 +1,4 @@
 ---
-wsId: CoinSwitch
 title: Buy Bitcoin and Crypto app
 date: 2021-10-21
 authors:
@@ -88,4 +87,4 @@ You **cannot send or receive assets on this platform.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

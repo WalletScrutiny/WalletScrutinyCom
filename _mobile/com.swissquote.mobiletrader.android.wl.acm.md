@@ -1,5 +1,4 @@
 ---
-wsId: swissQuoteAdvancedTrader
 title: 'Swissquote CFXD: Forex & CFDs'
 date: 2023-11-02
 authors:
@@ -84,4 +83,4 @@ The provider explicitly describes the service as **custodial**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

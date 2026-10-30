@@ -1,5 +1,4 @@
 ---
-wsId: trustNE
 title: TrustNE Wallet
 date: 2026-05-02
 authors:
@@ -58,4 +57,4 @@ Without source code for the current Android release, the app cannot be verified 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

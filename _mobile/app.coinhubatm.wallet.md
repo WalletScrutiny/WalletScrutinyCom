@@ -1,5 +1,4 @@
 ---
-wsId: coinhubWallet
 title: Coinhub Bitcoin Wallet
 date: 2026-02-02
 authors:
@@ -114,4 +113,4 @@ This app is **not source-available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

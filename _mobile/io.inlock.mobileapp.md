@@ -1,5 +1,4 @@
 ---
-wsId: inLock
 title: 'INLOCK: Crypto Savings Account'
 date: 2023-05-10
 authors:
@@ -81,4 +80,4 @@ You can store BTC in this app, as well as send and receive it. However, due to t
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

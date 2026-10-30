@@ -1,5 +1,4 @@
 ---
-wsId: mercurycash
 title: Mercury Cash
 date: 2023-01-02
 authors:

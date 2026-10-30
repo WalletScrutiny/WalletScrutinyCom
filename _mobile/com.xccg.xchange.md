@@ -1,5 +1,4 @@
 ---
-wsId: xchangeCash
 title: Xchange - купить Биткоин
 date: 2024-12-23
 authors:
@@ -60,4 +59,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

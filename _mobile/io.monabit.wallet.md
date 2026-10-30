@@ -1,5 +1,4 @@
 ---
-wsId: monabitWallet
 title: MonaBit Wallet
 date: 2025-02-26
 authors:
@@ -65,4 +64,4 @@ We have found no evidence to indicate that the source code for this app is publi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: AMarkets
 title: 'AMarkets: Finance & Trading'
 date: 2021-10-13
 authors:
@@ -71,4 +70,4 @@ This app is a brokerage service and not for managing actual bitcoin. You can't r
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

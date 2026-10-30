@@ -1,5 +1,4 @@
 ---
-wsId: Luno
 title: 'Luno: Buy Bitcoin & Crypto'
 date: 2020-10-12
 authors:

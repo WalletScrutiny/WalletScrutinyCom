@@ -1,5 +1,4 @@
 ---
-wsId: slaviWallet
 title: 'Slavi: DeFi Crypto Wallet'
 date: 2025-05-30
 authors:
@@ -104,4 +103,4 @@ An issue has been opened at [https://github.com/SlvLabs/slavi-wallet/issues/8](h
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

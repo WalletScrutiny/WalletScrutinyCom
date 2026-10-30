@@ -1,5 +1,4 @@
 ---
-wsId: salletone
 title: SalletOne Live
 date: 2023-04-16
 authors:
@@ -47,4 +46,4 @@ This is the Android companion app to the hardware wallet:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

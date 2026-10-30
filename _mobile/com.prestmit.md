@@ -1,5 +1,4 @@
 ---
-wsId: prestmit
 title: 'Prestmit: Gift Cards & Crypto'
 date: 2021-11-02
 authors:
@@ -91,4 +90,4 @@ Since withdrawal is possible via a conversion to fiat currency, our revised verd
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

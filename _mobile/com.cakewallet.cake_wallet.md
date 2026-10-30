@@ -1,5 +1,4 @@
 ---
-wsId: cake
 title: 'Cake Wallet: Crypto, Made Easy'
 date: 2022-11-02
 authors:

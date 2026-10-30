@@ -1,5 +1,4 @@
 ---
-wsId: capex
 title: Capex
 date: 2025-03-29
 authors:
@@ -64,4 +63,4 @@ Given that this is a CFD trading app, our verdict is that this app **does not se
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

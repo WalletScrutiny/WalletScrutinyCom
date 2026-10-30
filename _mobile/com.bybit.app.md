@@ -1,5 +1,4 @@
 ---
-wsId: bybit
 title: 'Bybit: New Financial Platform'
 date: 2021-02-09
 authors:

@@ -1,5 +1,4 @@
 ---
-wsId: firiMirai
 title: Firi - Buy Bitcoin & Ethereum
 date: 2025-11-19
 authors:
@@ -60,4 +59,4 @@ This service is **custodial**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

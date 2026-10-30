@@ -1,5 +1,4 @@
 ---
-wsId: Quidax
 title: Quidax Classic
 date: 2022-02-10
 authors:

@@ -1,5 +1,4 @@
 ---
-wsId: Bytesmix
 title: Bytesmix - Coin, Token Wallet
 date: 2024-04-19
 authors:
@@ -80,4 +79,4 @@ Due to the lack of self-custody and the use of KYC, it is safe to assume that th
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: bybitCashWallet
 title: Bitcash Сrypto Bitcoin Wallet
 date: 2025-11-11
 authors:
@@ -93,4 +92,4 @@ This is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

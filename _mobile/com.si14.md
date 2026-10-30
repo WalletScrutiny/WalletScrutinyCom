@@ -1,5 +1,4 @@
 ---
-wsId: sil4Crypto
 title: Si14 Crypto Wallet
 date: 2025-12-08
 authors:
@@ -72,7 +71,7 @@ While the Play Store listing states that the code is â€œopen-source and auditedâ
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Biometric ID and PIN-based 2FA" source="Store" %}
 

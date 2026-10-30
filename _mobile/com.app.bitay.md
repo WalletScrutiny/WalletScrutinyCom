@@ -1,5 +1,4 @@
 ---
-wsId: bitay
 title: Bitay | Bitcoin & 200+ Altcoin
 date: 2023-01-30
 authors:

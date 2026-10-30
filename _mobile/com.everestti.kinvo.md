@@ -1,5 +1,4 @@
 ---
-wsId: everestKinvo
 title: 'Kinvo: Acompanhe investimentos'
 date: 2022-06-23
 authors:
@@ -56,4 +55,4 @@ There are no mentions of cryptocurrencies in the description. This app's main fu
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

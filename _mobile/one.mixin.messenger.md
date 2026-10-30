@@ -1,5 +1,4 @@
 ---
-wsId: Mixin
 title: Mixin - Private Crypto Wallet
 date: 2021-11-17
 authors:
@@ -85,6 +84,6 @@ An issue has been opened at [https://github.com/MixinNetwork/android-app/issues/
 
 **Note:** iPhone products are not verifiable.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 An issue has been opened at [https://github.com/MixinNetwork/android-app/issues/2559](https://github.com/MixinNetwork/android-app/issues/2559)

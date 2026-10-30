@@ -1,5 +1,4 @@
 ---
-wsId: sarwaApp
 title: 'Sarwa: Invest, Trade & Save'
 date: 2023-07-28
 authors:
@@ -69,4 +68,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

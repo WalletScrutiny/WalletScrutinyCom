@@ -1,5 +1,4 @@
 ---
-wsId: CardWalletCardano
 title: CWallet - ADA Crypto Wallet
 date: 2023-09-28
 authors:
@@ -63,4 +62,4 @@ A search on GitHub for the appID `fi.cardwallet` [yielded 0 results](https://git
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

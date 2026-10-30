@@ -34,9 +34,6 @@ git diff --name-only | while read file; do
   fi
 done
 
-print_refresh_subsection "Duplicate wsIds in mobile"
-diff <( rgrep '^wsId: ' _mobile/ | sed 's/.*wsId: //g' | sed -e '/^$/d' | sort ) <( rgrep '^wsId: ' _mobile/ | sed 's/.*wsId: //g' | sed -e '/^$/d' | sort -u )
-
 print_refresh_subsection "Unreleased/defunct hardware wallets"
 grep -l "meta: defunct" `grep -l "verdict: unreleased" _hardware/*`
 

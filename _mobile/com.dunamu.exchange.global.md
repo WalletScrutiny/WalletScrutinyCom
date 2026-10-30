@@ -1,5 +1,4 @@
 ---
-wsId: UpbitGlobal
 title: Upbit (Global)
 date: 2021-10-10
 authors:
@@ -76,4 +75,4 @@ This is a **custodial** app, and therefore **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

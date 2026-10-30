@@ -1,5 +1,4 @@
 ---
-wsId: Mexo
 title: 'TruBit Pro: Crypto Exchange'
 date: 2021-10-04
 authors:
@@ -73,4 +72,4 @@ This app is **custodial** therefore **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

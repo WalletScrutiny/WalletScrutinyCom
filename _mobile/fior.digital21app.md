@@ -1,5 +1,4 @@
 ---
-wsId: 21Bitcoin
 title: '21bitcoin: Buy Bitcoin 24/7'
 date: 2023-09-06
 authors:
@@ -59,4 +58,4 @@ Section 6.2 is explicit and describes a *custodianship* arrangement, making the 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: rWallet
 title: RWallet
 date: 2023-05-17
 authors:
@@ -106,6 +105,6 @@ An issue has been opened at [https://github.com/rsksmart/rwallet/issues/726](htt
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 An issue has been opened at [https://github.com/rsksmart/rwallet/issues/726](https://github.com/rsksmart/rwallet/issues/726)

@@ -1,5 +1,4 @@
 ---
-wsId: river
 title: 'River: Buy Bitcoin'
 date: 2023-12-15
 authors:
@@ -61,7 +60,7 @@ Section 3 of the terms describes River as a **custodial** app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Seamlessly send and receive Bitcoin through the Lightning Network or on-chain." source="Store description" %}
 

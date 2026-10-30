@@ -1,5 +1,4 @@
 ---
-wsId: mathWallet5
 title: MathWallet
 date: 2024-01-05
 authors:
@@ -77,4 +76,4 @@ MathWallet's profile houses a different repository called ["MathChain"](https://
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

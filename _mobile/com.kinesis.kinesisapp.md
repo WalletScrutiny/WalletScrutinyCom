@@ -1,5 +1,4 @@
 ---
-wsId: kinesismoney
 title: Kinesis - Buy gold and silver
 date: 2024-10-07
 authors:
@@ -89,4 +88,4 @@ An issue has been opened at [https://github.com/KinesisNetwork/wallet-mobile/iss
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

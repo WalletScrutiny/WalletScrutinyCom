@@ -1,5 +1,4 @@
 ---
-wsId: cheeleeDeFiWallet
 title: Cheelee DeFi Wallet
 date: 2025-11-13
 authors:
@@ -55,4 +54,4 @@ Going by the description, without the private keys provided to the user, this wo
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

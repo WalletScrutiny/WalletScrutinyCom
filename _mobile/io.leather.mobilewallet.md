@@ -1,5 +1,4 @@
 ---
-wsId: leatherBitcoin
 title: 'Leather: Bitcoin DeFi Wallet'
 date: 2026-05-02
 authors:
@@ -56,4 +55,4 @@ This app is **for verification**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

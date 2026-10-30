@@ -1,5 +1,4 @@
 ---
-wsId: hashkeyHub
 title: HashKey Hub - The Key to Infin
 date: 2023-05-26
 authors:
@@ -85,4 +84,4 @@ The screenshot shows a BTC wallet.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

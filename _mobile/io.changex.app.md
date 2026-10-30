@@ -1,5 +1,4 @@
 ---
-wsId: changeXCrypto
 title: 'ChangeX: Buy & Earn Crypto'
 date: 2025-02-04
 authors:
@@ -70,4 +69,4 @@ The main app interface appeared with a notice on top, to 'backup your wallet'
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

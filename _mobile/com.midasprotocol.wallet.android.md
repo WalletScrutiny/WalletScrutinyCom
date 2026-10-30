@@ -1,5 +1,4 @@
 ---
-wsId: midas
 title: Midas Crypto Wallet
 date: 2024-04-26
 authors:

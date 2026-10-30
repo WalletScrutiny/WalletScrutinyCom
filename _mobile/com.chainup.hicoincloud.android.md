@@ -1,5 +1,4 @@
 ---
-wsId: chainUpCustody
 title: ChainUp Custody
 date: 2025-02-28
 authors:
@@ -56,7 +55,7 @@ Since no single party has control over all of the private key shares, together w
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Fingerprint and face unlocking, safe and efficient." source="Store" %}
 

@@ -1,5 +1,4 @@
 ---
-wsId: CoinDCXPro
 title: 'CoinDCX: Bitcoin Crypto App'
 date: 2021-08-27
 authors:
@@ -57,4 +56,4 @@ According to this claim from the Google Play description, this means that funds 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

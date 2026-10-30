@@ -1,5 +1,4 @@
 ---
-wsId: bitazzaGL
 title: 'Bitazza: Buy & Trade Crypto'
 date: 2026-04-13
 authors:
@@ -69,4 +68,4 @@ This is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: byteWallet
 title: ByteVault
 date: 2023-05-05
 authors:
@@ -77,7 +76,7 @@ It claims to be non-custodial, which means that the private keys would be under 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="The Lightning Network is supported as well!" source="Store" %}
 

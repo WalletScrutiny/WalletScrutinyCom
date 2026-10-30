@@ -1,5 +1,4 @@
 ---
-wsId: xverse
 title: 'Xverse Wallet: Buy Bitcoin'
 date: 2022-01-13
 authors:
@@ -68,7 +67,7 @@ We could **not find any information indicating whether the project is open sourc
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="segwit" quote="Compra, Guarda y Haz Trading, Simplemente: Rastrea, haz trading y genera ganancias sin esfuerzo con Bitcoin (BTC)" source="Store" comment="Insufficient — store description does not explicitly mention SegWit or bech32 addresses." %}
 

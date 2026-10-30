@@ -1,5 +1,4 @@
 ---
-wsId: foxWalletApp
 title: FoxWallet- Secure Crypto Asset
 date: 2025-07-21
 authors:
@@ -106,4 +105,4 @@ An issue has been opened at [https://github.com/foxwallet/issue/issues/1](https:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

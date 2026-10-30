@@ -1,5 +1,4 @@
 ---
-wsId: followMyTrader
 title: Follow MyMoney
 date: 2023-04-13
 authors:
@@ -63,4 +62,4 @@ As section 2.4 of the Terms states, this is a **custodial** provider and the app
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

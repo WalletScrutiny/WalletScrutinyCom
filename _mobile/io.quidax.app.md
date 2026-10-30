@@ -1,5 +1,4 @@
 ---
-wsId: quidaxBuyBitcoin
 title: Quidax -  Buy Bitcoin & Crypto
 date: 2026-01-02
 authors:
@@ -61,7 +60,7 @@ This is a good indication that the service is **custodial**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="You can swap between different cryptocurrencies and local currencies on the App seamlessly. You can swap USDT to Bitcoin, Bitcoin to Solana, Solana to Ethereum, Local currency to Bitcoin and Bitcoin to local currency in seconds." source="Store" %}
 

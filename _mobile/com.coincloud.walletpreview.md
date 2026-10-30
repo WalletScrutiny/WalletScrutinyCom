@@ -1,5 +1,4 @@
 ---
-wsId: coinCloudWallet
 title: 'Coin Cloud: Wallet'
 date: 2024-03-02
 authors:
@@ -85,4 +84,4 @@ Bad versioning. We took a look at the history of the url "coin.cloud/app" and fo
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

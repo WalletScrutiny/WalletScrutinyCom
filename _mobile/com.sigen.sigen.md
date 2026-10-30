@@ -1,5 +1,4 @@
 ---
-wsId: SIGEN.pro
 title: SIGEN.pro
 date: 2025-05-30
 authors:

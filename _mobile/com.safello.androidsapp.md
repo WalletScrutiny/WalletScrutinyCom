@@ -1,5 +1,4 @@
 ---
-wsId: safelloBitcoin
 title: 'Safello: Buy Bitcoin & Crypto'
 date: 2025-12-08
 authors:
@@ -56,4 +55,4 @@ The company states that customer crypto-assets are segregated from Safello’s o
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

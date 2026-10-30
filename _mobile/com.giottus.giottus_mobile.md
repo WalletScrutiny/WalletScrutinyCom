@@ -1,5 +1,4 @@
 ---
-wsId: giottus
 title: 'Giottus: Crypto Investing App'
 date: 2024-07-15
 authors:
@@ -76,4 +75,4 @@ Security information
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

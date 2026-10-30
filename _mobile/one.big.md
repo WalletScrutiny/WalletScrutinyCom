@@ -1,5 +1,4 @@
 ---
-wsId: BigONE
 title: BigONE - Bitcoin Trading
 date: 2021-09-17
 authors:
@@ -61,4 +60,4 @@ It seems that keys are not on the side of the user. Thus this product is **custo
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

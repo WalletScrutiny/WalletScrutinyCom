@@ -1,5 +1,4 @@
 ---
-wsId: bittrex
 title: Bittrex | Buy Bitcoin & Crypto
 date: 2023-12-19
 authors:

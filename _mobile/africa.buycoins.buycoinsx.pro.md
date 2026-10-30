@@ -1,5 +1,4 @@
 ---
-wsId: BuyCoinsPro
 title: 'Buycoins Pro: Trade BTC & USDT'
 date: 2023-06-21
 authors:
@@ -74,4 +73,4 @@ The ability to restrict usage and freeze the funds of the user is also clear evi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

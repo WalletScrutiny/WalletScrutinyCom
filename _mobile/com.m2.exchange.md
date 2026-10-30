@@ -1,5 +1,4 @@
 ---
-wsId: m2BuyBitcoin
 title: 'M2: Buy Bitcoin & Trade Crypto'
 date: 2025-11-19
 authors:
@@ -67,4 +66,4 @@ This service is **custodial**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

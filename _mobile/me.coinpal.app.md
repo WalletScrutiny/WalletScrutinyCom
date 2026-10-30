@@ -1,5 +1,4 @@
 ---
-wsId: Coinpal
 title: Coinpal
 date: 2022-02-10
 authors:

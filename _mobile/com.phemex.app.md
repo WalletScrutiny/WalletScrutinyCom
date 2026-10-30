@@ -1,5 +1,4 @@
 ---
-wsId: phemex
 title: 'Phemex: Buy Bitcoin & Crypto'
 date: 2021-04-13
 authors:

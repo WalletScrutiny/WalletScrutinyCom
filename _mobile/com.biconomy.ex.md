@@ -1,5 +1,4 @@
 ---
-wsId: biconomy
 title: Biconomy-Buy Bitcoin & Crypto
 date: 2023-02-15
 authors:
@@ -100,4 +99,4 @@ This app is custodial and thus **non-verifiable.** We advise users to note the r
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: ArteryNetwork
 title: Artery Wallet
 date: 2021-11-16
 authors:
@@ -60,4 +59,4 @@ To further verify, we emailed their support and await their response.
 
 **Update 2021-11-07**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

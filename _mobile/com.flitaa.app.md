@@ -1,5 +1,4 @@
 ---
-wsId: flitaa
 title: 'Flitaa: your crypto wallet'
 date: 2021-11-03
 authors:
@@ -69,4 +68,4 @@ All signs point to this being a **custodial** app and thus it is **not verifiabl
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

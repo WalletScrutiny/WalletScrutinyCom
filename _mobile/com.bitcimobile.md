@@ -1,5 +1,4 @@
 ---
-wsId: bitci
 title: Safebit | Kripto BTC, ETH,USDT
 date: 2022-06-28
 authors:
@@ -63,4 +62,4 @@ This app is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

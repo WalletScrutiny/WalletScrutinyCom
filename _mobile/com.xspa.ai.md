@@ -1,5 +1,4 @@
 ---
-wsId: xspaCrypto
 title: 'XSPA: Crypto Wallet'
 date: 2025-12-26
 authors:
@@ -59,4 +58,4 @@ Apart from not finding claims regarding source-availability, a search for the ap
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

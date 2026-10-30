@@ -1,5 +1,4 @@
 ---
-wsId: bipaBR
 title: 'Bipa: Bitcoin, Pix e Cartão'
 date: 2023-06-14
 authors:
@@ -85,7 +84,7 @@ Therefore, we conclude that this is a **custodial** provider.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Transfira seu Bitcoin para qualquer carteira — sem taxas, on-chain ou pela Lightning Network." source="Store" %}
 

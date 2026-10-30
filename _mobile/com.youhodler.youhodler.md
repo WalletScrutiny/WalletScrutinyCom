@@ -1,5 +1,4 @@
 ---
-wsId: YouHodler
 title: 'YouHodler: BTC & Crypto Wallet'
 date: 2020-06-20
 authors:

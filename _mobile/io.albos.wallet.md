@@ -1,5 +1,4 @@
 ---
-wsId: albosWallet
 title: ALBOS Wallet
 date: 2026-05-05
 authors:
@@ -65,4 +64,4 @@ As additional context, the project's [X account](https://x.com/ALBOS77566387) ap
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

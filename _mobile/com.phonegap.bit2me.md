@@ -1,5 +1,4 @@
 ---
-wsId: bit2me
 title: Bit2Me - Bitcoin and Cryptos
 date: 2020-05-29
 authors:

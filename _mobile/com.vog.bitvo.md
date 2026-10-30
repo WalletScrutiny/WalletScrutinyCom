@@ -1,5 +1,4 @@
 ---
-wsId: Bitvo
 title: Bitvo
 date: 2023-12-19
 authors:
@@ -58,4 +57,4 @@ Having a "third-party financial institution" host the cold storage of Bitvo mean
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

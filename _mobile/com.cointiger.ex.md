@@ -1,5 +1,4 @@
 ---
-wsId: cointiger
 title: CoinTiger-Crypto Exchange
 date: 2022-01-15
 authors:

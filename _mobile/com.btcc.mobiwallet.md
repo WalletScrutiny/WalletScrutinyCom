@@ -1,5 +1,4 @@
 ---
-wsId: MobiWallet
 title: Mobi - Crypto Asset Wallet
 date: 2021-12-22
 authors:
@@ -53,4 +52,4 @@ In a page entitled ["How do I access my private keys?"](https://cms.mobi.me/mobi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

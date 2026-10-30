@@ -1,5 +1,4 @@
 ---
-wsId: yusetokenio
 title: 'Yuse: Bitcoin & Crypto Wallet'
 date: 2024-09-04
 authors:
@@ -66,4 +65,4 @@ We could not find a hint at the code repository being public on their website. S
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

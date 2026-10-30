@@ -1,5 +1,4 @@
 ---
-wsId: bitopronew
 title: BitoPro - Buy & Trade Bitcoin
 date: 2025-11-13
 authors:
@@ -54,4 +53,4 @@ Like its predecessor, this is a **custodial** app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

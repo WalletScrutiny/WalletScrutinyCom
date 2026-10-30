@@ -1,5 +1,4 @@
 ---
-wsId: wannabitCosmostation
 title: Cosmostation Interchain Wallet
 date: 2023-01-03
 authors:
@@ -90,7 +89,7 @@ An issue has been opened at [https://github.com/cosmostation/cosmostation-androi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="segwit" quote="Bitcoin: Supports Taproot, Native SegWit, SegWit, and Legacy addresses." source="Store" %}
 

@@ -1,5 +1,4 @@
 ---
-wsId: bison
 title: BISON - Buy Bitcoin & Crypto
 date: 2024-09-05
 authors:
@@ -62,4 +61,4 @@ This service is **custodial**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

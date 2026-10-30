@@ -1,5 +1,4 @@
 ---
-wsId: ethosCrypto
 title: 'Ethos: Crypto Trading Wallet'
 date: 2025-11-14
 authors:
@@ -56,4 +55,4 @@ There were **no claims regarding source-availability** nor did we find its Andro
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

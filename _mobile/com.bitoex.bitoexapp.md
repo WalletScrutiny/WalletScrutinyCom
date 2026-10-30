@@ -1,5 +1,4 @@
 ---
-wsId: bitoEXOld
 title: BitoEX幣託-虛擬通貨錢包
 date: 2023-09-15
 authors:
@@ -51,4 +50,4 @@ Since this product has not seen development for quite some time, we will keep ma
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

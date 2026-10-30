@@ -1,5 +1,4 @@
 ---
-wsId: hotWallet
 title: HOT — Bitcoin & Crypto Wallet
 date: 2025-11-11
 authors:
@@ -77,7 +76,7 @@ This app offers self-custodial options (Standard Account) but **is not source-av
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Swap & bridge: move tokens cross-chain with just a few taps" source="Store description" %}
 

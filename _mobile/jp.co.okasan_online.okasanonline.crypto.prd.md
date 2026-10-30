@@ -1,5 +1,4 @@
 ---
-wsId: okasanCryptoCFD
 title: 暗号資産CFD‐ 岡三オンライン
 date: 2024-10-06
 authors:
@@ -58,4 +57,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

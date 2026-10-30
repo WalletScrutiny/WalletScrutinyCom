@@ -1,5 +1,4 @@
 ---
-wsId: immuneMessenger
 title: IMMUNE Messenger
 date: 2023-04-15
 authors:
@@ -66,4 +65,4 @@ The app has a Bitcoin wallet that can send and receive. It also provides the see
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

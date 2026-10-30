@@ -1,5 +1,4 @@
 ---
-wsId: GCBuying
 title: GCBuying - Sell & exchange Gif
 date: 2023-06-10
 authors:
@@ -122,4 +121,4 @@ As noted above, there is a 'BTC Wallet' tab, which the user can click, however c
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

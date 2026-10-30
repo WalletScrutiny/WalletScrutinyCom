@@ -1,5 +1,4 @@
 ---
-wsId: matbeaExchange
 title: Matbea
 date: 2023-04-07
 authors:
@@ -130,4 +129,4 @@ The platform avoids the use of the word custody and as evidenced by the conversa
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

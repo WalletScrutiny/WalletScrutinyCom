@@ -1,5 +1,4 @@
 ---
-wsId: Cexchangenex
 title: Cexchangenex
 date: 2023-01-11
 authors:
@@ -53,4 +52,4 @@ We downloaded the app and registered on the platform. It is a typical cryptocurr
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

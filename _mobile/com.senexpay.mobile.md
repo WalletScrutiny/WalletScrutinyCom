@@ -1,5 +1,4 @@
 ---
-wsId: senexPayBitcoin
 title: 'SenexPay: Buy & Store Bitcoin'
 date: 2023-09-07
 authors:
@@ -63,4 +62,4 @@ In other terminologies, it is a **custodial** provider, with a **non-verifiable*
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

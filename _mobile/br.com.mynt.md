@@ -1,5 +1,4 @@
 ---
-wsId: myntBitcoin
 title: 'Mynt: Bitcoin, ETH, SOL e mais'
 date: 2026-01-15
 authors:
@@ -58,4 +57,4 @@ The [Terms](https://www.mynt.com.br/assets/documents/Mynt%20-%20Termos.pdf) stat
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: xapobankapp
 title: 'Xapo Bank: Save in BTC & USD'
 date: 2021-08-06
 authors:
@@ -64,7 +63,7 @@ By its name alone we assume it is custodial and thus **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="you can transact in BTC instantly with the Lightning Network" source="Store description" %}
 

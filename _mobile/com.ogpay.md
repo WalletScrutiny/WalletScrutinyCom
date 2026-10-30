@@ -1,5 +1,4 @@
 ---
-wsId: OGPay
 title: OGPay Business
 date: 2021-11-15
 authors:
@@ -52,4 +51,4 @@ This service is **custodial** thus making the app, **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

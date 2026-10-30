@@ -1,5 +1,4 @@
 ---
-wsId: relaiBuyBitcoin
 title: 'Relai: Bitcoin Savings App'
 date: 2023-07-11
 authors:
@@ -61,4 +60,4 @@ It seems that relai app's Android repository is located [here](https://github.co
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: ncWallet
 title: 'NC Wallet: Crypto Without Fees'
 date: 2023-06-14
 authors:
@@ -56,7 +55,7 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Comprehensive security for your funds' protection: two-factor authentication, PIN codes, biometric login, possibility to set transaction limits and block IP addresses." source="Store description" %}
 

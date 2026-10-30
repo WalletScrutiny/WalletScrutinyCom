@@ -1,5 +1,4 @@
 ---
-wsId: rumbleWallet
 title: 'Rumble Wallet: Buy Crypto, BTC'
 date: 2026-01-12
 authors:
@@ -68,7 +67,7 @@ This app is **not source available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="hd" quote="Restore access to your crypto wallet and cryptocurrency assets with a 12-word seed phrase. You control your account, no middlemen." source="Store" %}
 

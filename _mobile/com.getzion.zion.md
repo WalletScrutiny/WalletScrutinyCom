@@ -1,5 +1,4 @@
 ---
-wsId: zionApp
 title: Zion - Create Openly
 date: 2025-02-13
 authors:
@@ -84,4 +83,4 @@ This makes the app **not source-available.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

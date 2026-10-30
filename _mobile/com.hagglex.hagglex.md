@@ -1,5 +1,4 @@
 ---
-wsId: hagglex
 title: 'HaggleX: Buy/Sell BTC and ETH'
 date: 2023-01-02
 authors:
@@ -64,4 +63,4 @@ Pending the release of their non-custodial app, this app is **custodial** and th
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

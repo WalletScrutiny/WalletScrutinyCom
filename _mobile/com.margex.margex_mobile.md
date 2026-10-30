@@ -1,5 +1,4 @@
 ---
-wsId: margex100X
 title: Margex – Up to 100x Leverage
 date: 2023-07-08
 authors:
@@ -59,4 +58,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

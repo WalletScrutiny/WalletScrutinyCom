@@ -1,5 +1,4 @@
 ---
-wsId: payBusinessElegro
 title: elegro Business online banking
 date: 2026-05-05
 authors:
@@ -76,4 +75,4 @@ This is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

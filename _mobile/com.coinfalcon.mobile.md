@@ -1,5 +1,4 @@
 ---
-wsId: coinfalcon
 title: CoinFalcon – Buy & sell Bitcoi
 date: 2023-01-11
 authors:

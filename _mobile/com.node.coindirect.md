@@ -1,5 +1,4 @@
 ---
-wsId: coindirect
 title: Coindirect - Buy & Sell Bitcoi
 date: 2023-01-02
 authors:

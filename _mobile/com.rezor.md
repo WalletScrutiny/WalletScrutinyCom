@@ -1,5 +1,4 @@
 ---
-wsId: rezorWallet
 title: 'Rezor : Crypto Wallet'
 date: 2025-12-08
 authors:
@@ -58,4 +57,4 @@ However, during [testing](https://x.com/BitcoinWalletz/status/199794273696057794
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

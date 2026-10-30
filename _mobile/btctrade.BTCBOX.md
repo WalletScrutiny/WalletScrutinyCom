@@ -1,5 +1,4 @@
 ---
-wsId: btcboxJP
 title: ビットコイン・暗号資産の取引なら安心安全のBTCBOX
 date: 2023-04-19
 authors:
@@ -69,4 +68,4 @@ This cryptocurrency exchange provides a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

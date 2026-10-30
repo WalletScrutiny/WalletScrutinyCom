@@ -1,5 +1,4 @@
 ---
-wsId: pionex
 title: Pionex - Crypto Trading Bot
 date: 2021-09-03
 authors:
@@ -73,4 +72,4 @@ We signed up to verify and like most exchanges, it is a custodial service
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

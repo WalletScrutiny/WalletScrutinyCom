@@ -1,5 +1,4 @@
 ---
-wsId: amberAppWallet
 title: AmberApp
 date: 2023-07-17
 authors:
@@ -63,6 +62,6 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Then stack for life. Or send on the Lightning Network." source="Website" %}

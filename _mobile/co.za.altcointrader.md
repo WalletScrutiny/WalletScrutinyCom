@@ -1,5 +1,4 @@
 ---
-wsId: altcoinTrader
 title: 'AltCoinTrader: Bitcoin, Crypto'
 date: 2023-02-03
 authors:
@@ -59,4 +58,4 @@ This service has the indications that it is a **custodial service**. This is evi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

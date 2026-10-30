@@ -1,5 +1,4 @@
 ---
-wsId: Abit
 title: ABIT
 date: 2021-11-04
 authors:
@@ -42,4 +41,4 @@ This service is defunct.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

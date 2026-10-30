@@ -1,5 +1,4 @@
 ---
-wsId: stackDuo
 title: Stack Duo
 date: 2026-07-23
 authors:
@@ -63,4 +62,4 @@ Stack Duo is Cypher Stack's own Bitcoin-and-Monero-only edition of {% include wa
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

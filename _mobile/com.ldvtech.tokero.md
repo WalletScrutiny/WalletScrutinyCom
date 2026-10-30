@@ -1,5 +1,4 @@
 ---
-wsId: tokero
 title: TOKERO
 date: 2023-04-28
 authors:
@@ -70,4 +69,4 @@ These limitations indicates that the service has control over the private keys. 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

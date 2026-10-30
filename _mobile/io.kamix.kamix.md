@@ -1,5 +1,4 @@
 ---
-wsId: kamixApp
 title: Kamix
 date: 2025-08-18
 authors:
@@ -84,4 +83,4 @@ There is no mention of how the bitcoin private key is treated by the app. This i
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

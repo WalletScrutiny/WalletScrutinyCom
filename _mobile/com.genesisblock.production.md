@@ -1,5 +1,4 @@
 ---
-wsId: GenesisBlock
 title: Hightop
 date: 2023-01-02
 authors:
@@ -95,4 +94,4 @@ Bitcoin related apps with lending services are usually **custodial** services. T
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

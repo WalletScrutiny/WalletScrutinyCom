@@ -1,5 +1,4 @@
 ---
-wsId: ProtonWallet
 title: Proton Wallet
 date: 2023-01-11
 authors:
@@ -64,4 +63,4 @@ We checked the repository of the [Proton on Github](https://github.com/ProtonPro
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

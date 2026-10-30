@@ -1,5 +1,4 @@
 ---
-wsId: wowEarnBTCandCrypto
 title: 'WOW EARN: BTC & Crypto Wallet'
 date: 2023-07-09
 authors:
@@ -65,4 +64,4 @@ There has been no progress in making the app's source code accessible.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: biboxPro
 title: Bibox Pro：Crypto，BTC，ETH
 date: 2024-10-23
 authors:
@@ -82,4 +81,4 @@ This app is the newer and 'Pro' version of the cryptocurrency exchange Bibox. Th
 - {% include walletLink.html wallet='android/com.bibox.www.bibox' verdict='true' %} while the new Android equivalent is:
 - {% include walletLink.html wallet='android/com.box.pro' verdict='true' %}
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

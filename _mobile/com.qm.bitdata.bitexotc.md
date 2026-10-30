@@ -1,5 +1,4 @@
 ---
-wsId: bitdataExchange
 title: BitDATA Exchange (BitEx)
 date: 2026-02-02
 authors:
@@ -65,4 +64,4 @@ Although "cold-wallets" were not explicitly stated, the provider itself describe
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

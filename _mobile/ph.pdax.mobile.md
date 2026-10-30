@@ -1,5 +1,4 @@
 ---
-wsId: pdax
 title: PDAX - Make your money move
 date: 2021-09-03
 authors:

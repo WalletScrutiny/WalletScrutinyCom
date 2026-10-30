@@ -1,5 +1,4 @@
 ---
-wsId: etoro
 title: 'etoro: Trade. Invest. Connect.'
 date: 2021-04-02
 authors:

@@ -1,5 +1,4 @@
 ---
-wsId: unidoMultisigWallet
 title: Unido
 date: 2025-07-24
 authors:
@@ -67,4 +66,4 @@ A quick Google search brought us a '[unidocore](https://github.com/unidocore)' p
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

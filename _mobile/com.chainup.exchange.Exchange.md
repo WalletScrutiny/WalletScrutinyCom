@@ -1,5 +1,4 @@
 ---
-wsId: scallopExchange
 title: Scallop Exchange
 date: 2025-08-09
 authors:
@@ -85,4 +84,4 @@ The exchange supports both hot and cold wallets, and with no evidence that it su
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

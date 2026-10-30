@@ -23,7 +23,7 @@ const stats = {
 };
 
 const category = 'iphone';
-const headers = ('wsId title altTitle authors appId bitcoinOrgId appCountry idd released ' +
+const headers = ('title altTitle authors appId bitcoinOrgId appCountry idd released ' +
                 'updated version reviews website repository ' +
                 'icon bugbounty meta verdict signer ' +
                 'twitter social features developerName').split(' ');

@@ -1,5 +1,4 @@
 ---
-wsId: DuniaPay
 title: Dunia
 date: 2023-01-30
 authors:
@@ -67,4 +66,4 @@ As this app was [removed on iPhone](https://apps.apple.com/in/app/duniapay/id147
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

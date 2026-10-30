@@ -1,5 +1,4 @@
 ---
-wsId: buda
 title: Buda.com
 date: 2022-01-07
 authors:

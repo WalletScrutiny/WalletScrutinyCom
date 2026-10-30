@@ -1,5 +1,4 @@
 ---
-wsId: ventAfrica
 title: 'Vent: Sell BTC, USDT & Crypto'
 date: 2023-06-10
 authors:
@@ -63,4 +62,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

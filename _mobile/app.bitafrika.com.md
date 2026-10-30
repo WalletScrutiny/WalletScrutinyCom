@@ -1,5 +1,4 @@
 ---
-wsId: bitAfrika
 title: BitAfrika - Buy & Sell Crypto
 date: 2023-03-06
 authors:
@@ -64,4 +63,4 @@ Verdict: Custodial
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

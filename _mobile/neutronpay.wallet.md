@@ -1,5 +1,4 @@
 ---
-wsId: neutronLNBitcoinWallet
 title: 'Neutron: LN Bitcoin Wallet'
 date: 2025-12-31
 authors:
@@ -64,7 +63,7 @@ Although not explicitly stated in its [terms](https://web.archive.org/web/202511
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Pay: Instantly pay anywhere that accepts Bitcoin Lightning payments." source="Store" %}
 

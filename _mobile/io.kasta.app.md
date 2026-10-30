@@ -1,5 +1,4 @@
 ---
-wsId: kastaCryptoPayments
 title: Ka.app Bitcoin & Crypto Wallet
 date: 2026-02-02
 authors:
@@ -54,4 +53,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

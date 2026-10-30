@@ -1,5 +1,4 @@
 ---
-wsId: ajaibkripto
 title: 'Ajaib Kripto: Buy BTC & Crypto'
 date: 2024-09-06
 authors:
@@ -51,4 +50,4 @@ This is a **custodial** app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

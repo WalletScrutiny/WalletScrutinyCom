@@ -41,7 +41,6 @@ layout: default
 
 <script>
   window.pageAppId = "{{ page.android.appId | default: page.iphone.appId }}";
-  {% if page.wsId %}window.wsId = "{{ page.wsId }}";{% endif %}
 </script>
 
 <div id="main" class="app-review{% if has_android and has_iphone %} app-review--dual-platform{% endif %}" role="main">
@@ -129,7 +128,6 @@ layout: default
             {% include /review/steps/platformNotes.html platform='iphone' %}
           {% endif %}
         </div>
-        {% include /review/seeAlso.html wsId=page.wsId platform=primary_platform appId=primary_app_id %}
       </div>
 
       <div class="security-overview">

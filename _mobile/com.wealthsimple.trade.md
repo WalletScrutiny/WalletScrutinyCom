@@ -1,5 +1,4 @@
 ---
-wsId: WealthsimpleTrade
 title: Wealthsimple - Grow your money
 date: 2021-09-03
 authors:
@@ -55,4 +54,4 @@ Users **cannot send or receive BTC** since the primary method of deposit and wit
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

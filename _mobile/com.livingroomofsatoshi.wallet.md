@@ -1,5 +1,4 @@
 ---
-wsId: WalletofSatoshi
 title: Wallet of Satoshi
 date: 2024-10-07
 authors:

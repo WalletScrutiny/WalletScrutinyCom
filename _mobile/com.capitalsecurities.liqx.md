@@ -1,5 +1,4 @@
 ---
-wsId: liquidityX
 title: 'LiquidityX: CFD Online Trading'
 date: 2024-07-22
 authors:
@@ -48,4 +47,4 @@ This is a cryptocurrency CFD trading app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

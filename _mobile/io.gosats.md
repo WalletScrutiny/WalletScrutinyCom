@@ -1,5 +1,4 @@
 ---
-wsId: gosats
 title: 'GoSats: Gold and BTC Rewards'
 date: 2023-02-13
 authors:
@@ -72,4 +71,4 @@ A service that can terminate a user's access to his funds is a **custodial servi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

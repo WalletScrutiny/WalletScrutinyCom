@@ -1,5 +1,4 @@
 ---
-wsId: amlsafe
 title: Safe3 - Crypto Wallet
 date: 2021-04-11
 authors:

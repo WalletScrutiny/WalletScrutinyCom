@@ -1,5 +1,4 @@
 ---
-wsId: kikitrade
 title: KIKI
 date: 2023-03-21
 authors:
@@ -83,4 +82,4 @@ The wording about how kikitrade handles private keys in the [Terms and Condition
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

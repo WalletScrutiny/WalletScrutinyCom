@@ -1,5 +1,4 @@
 ---
-wsId: africa
 title: BuyCoins - Buy & Sell Bitcoin, Ethereum, Litecoin
 date: 2021-04-22
 authors:

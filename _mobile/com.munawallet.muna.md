@@ -1,5 +1,4 @@
 ---
-wsId: munawallet
 title: Muna App
 date: 2023-05-17
 authors:
@@ -66,4 +65,4 @@ While Muna claims to allow users to send and receive crypto, it offers no inform
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

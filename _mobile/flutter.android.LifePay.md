@@ -1,5 +1,4 @@
 ---
-wsId: lifPay
 title: LifPay
 date: 2024-09-07
 authors:
@@ -74,7 +73,7 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="LifPay is your comprehensive Bitcoin Lightning wallet solution. Beyond instant and low-fee transactions on mobile, POS services" source="Store" %}
 

@@ -1,5 +1,4 @@
 ---
-wsId: zebedee
 title: 'ZBD: Play. Earn. Cash Out.'
 date: 2021-04-12
 authors:
