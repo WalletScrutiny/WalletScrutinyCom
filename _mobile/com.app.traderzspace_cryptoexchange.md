@@ -1,6 +1,6 @@
 ---
 title: Traderz Space -Crypto Exchange
-date: 2023-09-28
+date: 2026-10-30
 redirect_from:
 - /android/com.app.traderzspace_cryptoexchange/
 android:

@@ -1,9 +1,9 @@
 ---
 title: CoinField
-date: 2023-09-28
+date: 2026-10-30
 authors:
 - danny
-website: http://www.coinfield.com
+website: http://www.coinfield.com#deadLink
 twitter: CoinFieldEx
 social:
 - https://www.linkedin.com/company/coinfield
@@ -37,6 +37,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** CoinField is gone. The platform shut down in 2023 without paying out its users, and in 2024 an Ontario tribunal found that its operators had failed to keep customer assets safe, failed to allow withdrawals and made false statements to reassure users ([Capital Markets Tribunal](https://www.capitalmarketstribunal.ca/en/proceedings/decisions-in-brief/decision-brief-manticore-labs-ou-enforcement-proceeding-merits-august-26-2024)). The coinfield.com website now shows only a domain parking page.
+
 ## Android
 
 Taken from CoinField's Play Store description:
@@ -45,7 +47,7 @@ Taken from CoinField's Play Store description:
 
 CoinField is an exchange app and additionally, claims to be regulated. This makes our verdict for it lean towards a custodial nature.
 
-Its transfer fees are indicated on this [page](https://www.coinfield.com/support/transfer-fees).
+Its transfer fees are indicated on this [page](https://www.coinfield.com/support/transfer-fees#deadLink).
 
 From the User Agreement:
 
@@ -53,7 +55,7 @@ From the User Agreement:
 
 Upon installing the app and registering an account, you are given a Demo Account. Accessing more features such as depositing BTC requires identity verification.
 
-Under Section 5 of its [Support Page](https://www.coinfield.com/support/most-secure-bitcoin-exchange):
+Under Section 5 of its [Support Page](https://www.coinfield.com/support/most-secure-bitcoin-exchange#deadLink):
 
 > CoinField™ uses 3 different advanced wallet technologies to keep assets and transactions safe: **Cold Wallet**: Cold storage wallets are kept offline in a secure safety deposit box that is only retrievable only if the two founders are present at the same time. This process protects our exchange from intrusion when hackers attempt to breach the platform. **Hot Wallet**: Enables accounting of digital currencies during an influx of deposit requests. **Warm Wallet**: Wallet for daily cash flow required by our platform operations that are stored in our digital Secret Vault for absolute maximum security.
 

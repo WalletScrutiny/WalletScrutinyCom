@@ -1,6 +1,6 @@
 ---
 title: Citify Instant Exchange
-date: 2023-09-28
+date: 2026-10-30
 website: https://exchange.citifymarketplace.com/
 redirect_from:
 - /android/com.citify.crypto.exchange/

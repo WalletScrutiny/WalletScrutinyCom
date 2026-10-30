@@ -6,9 +6,9 @@ authors:
 - mohammad
 - leo
 released: 2019-04-06
-discontinued: 
-updated: 2023-06-26
-version: v4.1.9
+discontinued: 2019-09-18
+updated: 2026-07-31
+version: v4.2.0
 binaries: https://coldcard.com/downloads/
 dimensions: 
 weight: 
@@ -23,7 +23,7 @@ icon: coinkite.coldcard.mk2.webp
 bugbounty: https://coinkite.com/responsible-disclosure
 meta: discontinued
 verdict: sourceavailable
-date: 2023-10-08
+date: 2026-10-30
 signer: 
 twitter: COLDCARDwallet
 social:
@@ -45,6 +45,8 @@ features:
 {% include featureEvidence.html feature="multiSig" source="[Website](https://coldcard.com/)" quote="Advanced users can even setup a multisig wallet between multiple cosigners, entirely on-device, and air gapped" %}
 {% include featureEvidence.html feature="airGapped" source="[Website](https://coldcard.com/)" quote="COLDCARD never needs to touch a computer." %}
 {% include featureEvidence.html feature="secEl" source="[Website](https://coldcard.com/)" quote="COLDCARD uses two Secure Elements, from different vendors, to protect your Bitcoin." %}
+
+**Update 2026-10-30:** Coinkite released firmware 4.2.0 on 2026-07-31 as the [final release for the Mk3 and Mk2](https://coldcard.com/downloads/mk3); it fixes the seed problem in the warning above. We have not checked whether 4.2.0 builds reproducibly.
 
 **Update 2023-10-08**: v4.1.9 is also reproducible
 

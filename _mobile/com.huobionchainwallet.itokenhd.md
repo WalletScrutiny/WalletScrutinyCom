@@ -1,11 +1,11 @@
 ---
 title: 'iToken HD: DeFi Crypto Wallet'
-date: 2023-09-28
+date: 2026-10-30
 authors:
 - danny
 - kiwilamb
 - leo
-website: https://www.itoken.com/
+website: https://www.itoken.com/#deadLink
 twitter: iTokenWallet
 social:
 - https://medium.com/@iTokenWalletOfficial
@@ -37,6 +37,8 @@ iphone:
   developerName: BlazekTech Internet Technology Service Limited
 
 ---
+
+**⚠️ Warning:** iToken appears to be gone. Both apps are off the stores, and the iToken website has not loaded since April 2025 (the [last working copy](https://web.archive.org/web/20250201022937/https://www.itoken.com/) is from February 2025). We found no shutdown notice.
 
 ## Android
 

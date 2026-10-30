@@ -1,9 +1,9 @@
 ---
 title: Tradehall
-date: 2023-11-02
+date: 2026-10-30
 authors:
 - danny
-website: https://www.tradehall.co#deadLink
+website: https://web.archive.org/web/20230929200737/https://tradehall.co/
 social:
 - https://www.facebook.com/Tradehall.co
 - https://www.instagram.com/tradehall_ltd
@@ -36,6 +36,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** Tradehall's website no longer loads; the [last archived copy](https://web.archive.org/web/20250425083328/https://tradehall.co/) is from April 2025.
+
 ## Android
 
 ## App Description from Google Play
@@ -47,7 +49,7 @@ iphone:
 ## Analysis 
 
 - This app is related to MetaTrader5.
-- The app allows users to trade in [cryptocurrency CFDs](https://tradehall.co/cryptocurrency#deadLink). 
+- The app allows users to trade in [cryptocurrency CFDs](https://web.archive.org/web/20231003180457/https://tradehall.co/cryptocurrency/). 
 - Under deposit/withdrawal options, they list the following: 
   > ...credit cards, multiple electronic payment methods, bank wire transfer, local bank transfer, and other payment methods.
 

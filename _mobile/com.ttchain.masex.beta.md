@@ -1,6 +1,6 @@
 ---
 title: MASEx Wallet-多鏈錢包 ✕ 跨鏈平台 ✕ 移動經
-date: 2023-09-28
+date: 2026-10-30
 redirect_from:
 - /android/com.ttchain.masex.beta/
 android:

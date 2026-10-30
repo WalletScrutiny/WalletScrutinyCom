@@ -1,6 +1,6 @@
 ---
 title: Mathayo Funds
-date: 2023-11-02
+date: 2026-10-30
 website: https://mathayofunds.com#deadLink
 redirect_from:
 - /android/com.exchange.mathayo.ng/

@@ -1,6 +1,6 @@
 ---
 title: get2coin - Wallet - g2c
-date: 2023-09-15
+date: 2026-10-30
 authors:
 - danny
 website: https://get2coin.com

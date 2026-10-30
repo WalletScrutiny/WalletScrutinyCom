@@ -1,6 +1,6 @@
 ---
 title: GPC Wallet
-date: 2023-11-02
+date: 2026-10-30
 website: https://gpcio.org/index_m.html#deadLink
 redirect_from:
 - /android/com.gpc.gpcwallet/

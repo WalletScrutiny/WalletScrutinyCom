@@ -1,6 +1,6 @@
 ---
 title: JOYBIT
-date: 2023-10-16
+date: 2026-10-30
 website: https://www.joybit.io/#&deadLink
 redirect_from:
 - /android/io.bilian.contract.joybit/

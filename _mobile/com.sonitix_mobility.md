@@ -1,6 +1,6 @@
 ---
 title: Sonitix Exchange
-date: 2023-09-15
+date: 2026-10-30
 authors:
 - danny
 website: https://sonitixexchange.in#deadLink
@@ -34,6 +34,8 @@ iphone:
   developerName: Sonitix Private Limited
 
 ---
+
+**⚠️ Warning:** Sonitix looks gone. Both apps are no longer in the stores, and the sonitixexchange.in website no longer loads; its last [archived copy](https://web.archive.org/web/20220306143809/https://sonitixexchange.in/) is from March 2022.
 
 ## Android
 

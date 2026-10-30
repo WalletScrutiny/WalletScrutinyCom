@@ -1,6 +1,6 @@
 ---
 title: POS by Crypto Cash Fast
-date: 2023-09-28
+date: 2026-10-30
 website: https://www.cryptocashfast.com
 redirect_from:
 - /android/com.crypto_business/

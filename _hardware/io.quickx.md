@@ -11,17 +11,17 @@ binaries:
 dimensions: 
 weight: 
 provider: 
-providerWebsite: https://quickx.io/index.html#products
-website: https://quickx.io
+providerWebsite: https://quickx.io/index.html#deadLink
+website: https://quickx.io#deadLink
 shop: 
 country: 
 price: 
 repository: 
 icon: io.quickx.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2023-09-28
+date: 2026-10-30
 signer: 
 twitter: quickxprotocol
 social:
@@ -31,6 +31,10 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** This provider is gone. The quickx.io website now shows only a domain parking page ([archived December 2022](https://web.archive.org/web/20221222050658/http://quickx.io/)), and its apps are no longer on Google Play.
+
+**Update 2026-10-30:** With QuickX gone, the card it promised will never ship, so we mark this vaporware listing defunct.
 
  <div class="alertBox"><div>There are reports that this company is involved in Ponzi schemes. Furthermore, it claims to be licensed by the MFSA (Malta Financial Services Authority), when in fact, <a href="https://www.mfsa.mt/news-item/mfsa-warning-quickx-ltd-cnexchange-unlicensed-entity/">they are not</a>. 
  </div> </div>

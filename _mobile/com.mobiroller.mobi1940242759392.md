@@ -1,6 +1,6 @@
 ---
 title: CharmPay
-date: 2023-09-28
+date: 2026-10-30
 redirect_from:
 - /android/com.mobiroller.mobi1940242759392/
 android:

@@ -1,7 +1,7 @@
 ---
 title: LYO MERCHANT PoS
-date: 2023-09-28
-website: https://lyomerchant.com
+date: 2026-10-30
+website: https://lyomerchant.com#deadLink
 redirect_from:
 - /android/com.lyo.merchant/
 android:

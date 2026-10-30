@@ -1,6 +1,6 @@
 ---
 title: XeggeX Mobile
-date: 2023-09-28
+date: 2026-10-30
 authors:
 - danny
 website: https://xeggex.com
@@ -23,6 +23,8 @@ android:
   developerName: Dokdo
 
 ---
+
+**Update 2026-10-30:** XeggeX went offline after a hack in February 2025 and in June 2025 announced on its website that it was closing and filing for bankruptcy ([CoinNess](https://coinness.com/en/news/1131862), [Gate News](https://www.gate.com/news/detail/11806562)). The site is back online in 2026 with a [refund form](https://refund.xeggex.com/) for old balances.
 
 ## App Description from Google Play 
 

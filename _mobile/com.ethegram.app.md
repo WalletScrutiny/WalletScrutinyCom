@@ -1,6 +1,6 @@
 ---
 title: ETHEGRAM P2P Wallet - 이더그램
-date: 2023-11-02
+date: 2026-10-30
 website: http://www.ethegram.net#deadLink
 redirect_from:
 - /android/com.ethegram.app/

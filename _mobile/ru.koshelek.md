@@ -1,6 +1,6 @@
 ---
 title: Koshelek. Crypto wallet & p2p
-date: 2023-10-14
+date: 2026-10-30
 authors:
 - danny
 website: https://koshelek.ru/

@@ -1,9 +1,9 @@
 ---
 title: LYO TRADE Crypto BTC Exchange
-date: 2023-10-16
+date: 2026-10-30
 authors:
 - danny
-website: https://www.lyotrade.com
+website: https://www.lyotrade.com#deadLink
 twitter: lyopayofficial
 social:
 - https://www.facebook.com/lyopayofficial
@@ -37,6 +37,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** LYOTRADE has shut down. Since January 2024 its website said that "LYOTRADE's work ends" after December 2023 and that accounts and funds were moved to a new exchange run by a new team ([archived](https://web.archive.org/web/20240112171553/https://lyotrade.com/)). The website no longer loads.
+
 ## Android
 
 This app is from the same provider as the following products:
@@ -56,9 +58,9 @@ This app is from the same provider as the following products:
 
 ## Analysis
 
-- It is possible to deposit/withdraw [BTC](https://docs.lyotrade.com/help-center/deposit-and-withdrawals/how-do-i-deposit)
+- It is possible to deposit/withdraw [BTC](https://docs.lyotrade.com/help-center/deposit-and-withdrawals/how-do-i-deposit#deadLink)
 - The user account is centralized with KYC and ID-verification standards.
-- According to the [Terms and Conditions](https://docs.lyotrade.com/terms/terms-of-use), LYOTrade is defined as a VASP or a Virtual Asset Service Provider. The VASP is tasked with the **safekeeping** and **administration** of virtual assets. Section 3 of the same Terms give LyoTrade the power to suspend or terminate the user's access to the platform.
+- According to the [Terms and Conditions](https://web.archive.org/web/20230930183250/https://docs.lyotrade.com/terms/terms-of-use), LYOTrade is defined as a VASP or a Virtual Asset Service Provider. The VASP is tasked with the **safekeeping** and **administration** of virtual assets. Section 3 of the same Terms give LyoTrade the power to suspend or terminate the user's access to the platform.
 - This is a **custodial** platform.
 
 ---

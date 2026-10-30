@@ -1,6 +1,6 @@
 ---
 title: Kala Wallet
-date: 2023-09-28
+date: 2026-10-30
 website: https://kala.finance#deadLink
 redirect_from:
 - /android/finance.kala.app/
