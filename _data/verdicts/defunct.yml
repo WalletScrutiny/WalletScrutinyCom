@@ -1,7 +1,7 @@
 meta: true
 short: Defunct!
 title: Not functioning anymore
-status: The provider went out of business or stopped supporting this product.
+status: The provider went out of business and the product cannot be used anymore.
 color: '#d33100'
 redflag: false
 message: This product went out of business ... or so. Read the analysis for details.
@@ -18,3 +18,15 @@ details: >
   the store, it is 'removed' and the review mentions the provider's fate in a
   warning. 'Defunct' applies while the product can still be downloaded or bought,
   and to products that are not distributed through a store, such as hardware.
+
+
+  A device that keeps working without its provider is 'discontinued', not
+  'defunct', even when the provider is gone: for example one with a standard
+  seed that other wallets restore, one that third-party apps support, or a
+  bearer item with its key printed or sealed on it. Hardware is 'defunct' when
+  it cannot be used anymore, because it needs the provider's app, server or
+  redemption service and those are gone.
+
+
+  On a 'vapor' product, 'defunct' means the provider is gone, too: what was
+  announced as coming will not come, and the announcement is a broken promise.
