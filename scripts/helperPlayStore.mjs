@@ -12,6 +12,7 @@ import {
   resolveAndroidFilenames,
   findMobileFileByAndroidAppId,
 } from './mobileWalletStore.mjs';
+import { applyStoreWebsite } from './mobileWebsite.mjs';
 
 process.env.TZ = 'UTC'; // fix timezone issues
 const sem = new Semaphore(50);
@@ -151,8 +152,9 @@ function updateFromApp (android, app, mobile, storeCountry) {
   }
   android.users = app.minInstalls;
   android.reviews = app.reviews || null;
-  if (app.developerWebsite) {
-    mobile.website = app.developerWebsite;
+  const otherWebsite = applyStoreWebsite(mobile, 'android', app.developerWebsite);
+  if (otherWebsite) {
+    console.warn(`\nWebsite conflict for ${android.appId}: Play says ${app.developerWebsite}, page keeps ${otherWebsite}`);
   }
   const metaCtx = metaUpdateContext(mobile, 'android');
   metaCtx.date = metaCtx.date || new Date();

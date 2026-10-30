@@ -12,6 +12,7 @@ import {
   resolveIphoneFilenames,
   findMobileFileByIphoneAppId,
 } from './mobileWalletStore.mjs';
+import { applyStoreWebsite } from './mobileWebsite.mjs';
 
 process.env.TZ = 'UTC'; // fix timezone issues
 
@@ -124,8 +125,9 @@ function updateFromApp (iphone, app, mobile, storeCountry) {
     : new Date(app.updated);
   iphone.released = iphone.released || app.released || null;
   iphone.reviews = app.reviews;
-  if (app.developerWebsite && !mobile.android?.appId) {
-    mobile.website = app.developerWebsite;
+  const otherWebsite = applyStoreWebsite(mobile, 'iphone', app.developerWebsite);
+  if (otherWebsite) {
+    console.warn(`\nWebsite conflict for ${iphone.appId}: App Store says ${app.developerWebsite}, page keeps ${otherWebsite}`);
   }
   const metaCtx = metaUpdateContext(mobile, 'iphone');
   metaCtx.date = metaCtx.date || new Date();
