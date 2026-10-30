@@ -1,3 +1,7 @@
-{% if page.website and page.website != '' %}
+{%- comment -%}Mobile pages carry android.website and iphone.website only when the two stores disagree (scripts/mobileWebsite.mjs).{%- endcomment -%}
+{% if page.android.website and page.iphone.website %}
+<a title="Website according to Google Play" href="{{ page.android.website }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">{% include icon.html name="globe" %} Website according to Google Play</a>
+<a title="Website according to App Store" href="{{ page.iphone.website }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">{% include icon.html name="globe" %} Website according to App Store</a>
+{% elsif page.website and page.website != '' %}
 <a title="Website" href="{{ page.website }}" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">{% include icon.html name="globe" %} Website</a>
 {% endif %}

@@ -125,10 +125,7 @@ function updateFromApp (iphone, app, mobile, storeCountry) {
     : new Date(app.updated);
   iphone.released = iphone.released || app.released || null;
   iphone.reviews = app.reviews;
-  const otherWebsite = applyStoreWebsite(mobile, 'iphone', app.developerWebsite);
-  if (otherWebsite) {
-    console.warn(`\nWebsite conflict for ${iphone.appId}: App Store says ${app.developerWebsite}, page keeps ${otherWebsite}`);
-  }
+  applyStoreWebsite(mobile, 'iphone', app.developerWebsite);
   const metaCtx = metaUpdateContext(mobile, 'iphone');
   metaCtx.date = metaCtx.date || new Date();
   iphone.developerName = app.developer || iphone.developerName || 'Unknown Developer(s)';

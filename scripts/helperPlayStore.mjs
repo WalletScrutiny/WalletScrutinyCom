@@ -152,10 +152,7 @@ function updateFromApp (android, app, mobile, storeCountry) {
   }
   android.users = app.minInstalls;
   android.reviews = app.reviews || null;
-  const otherWebsite = applyStoreWebsite(mobile, 'android', app.developerWebsite);
-  if (otherWebsite) {
-    console.warn(`\nWebsite conflict for ${android.appId}: Play says ${app.developerWebsite}, page keeps ${otherWebsite}`);
-  }
+  applyStoreWebsite(mobile, 'android', app.developerWebsite);
   const metaCtx = metaUpdateContext(mobile, 'android');
   metaCtx.date = metaCtx.date || new Date();
   android.developerName = app.developer || android.developerName || 'Unknown Developer(s)';

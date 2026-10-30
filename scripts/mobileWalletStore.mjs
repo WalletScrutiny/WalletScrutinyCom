@@ -41,6 +41,7 @@ const PLATFORM_FIELD_ORDER = [
   'meta',
   'verdict',
   'developerName',
+  'website',
   'repository',
   'bugbounty',
   'bitcoinOrgId',
@@ -149,11 +150,15 @@ export function demoteRootDeveloperName (mobile) {
   delete mobile.developerName;
 }
 
-/** Keep `website` at root only; prefer Android when hoisting from platform blocks. */
+/**
+ * Keep `website` at root only, unless both platforms carry one: then the stores disagree
+ * and the page shows one per store (mobileWebsite.mjs). Prefer Android when hoisting.
+ */
 export function stripPlatformWebsite (mobile) {
+  const androidSite = mobile.android?.website;
+  const iphoneSite = mobile.iphone?.website;
+  if (!isEmpty(androidSite) && !isEmpty(iphoneSite)) return;
   if (isEmpty(mobile.website)) {
-    const androidSite = mobile.android?.website;
-    const iphoneSite = mobile.iphone?.website;
     if (!isEmpty(androidSite)) {
       mobile.website = androidSite;
     } else if (!isEmpty(iphoneSite)) {
