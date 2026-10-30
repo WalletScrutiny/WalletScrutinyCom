@@ -1,5 +1,4 @@
 ---
-wsId: clubSwan
 title: 'Club Swan: Lifestyle & Finance'
 date: 2023-09-04
 authors:
@@ -83,4 +82,4 @@ In the terms it is stated:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

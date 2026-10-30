@@ -1,5 +1,4 @@
 ---
-wsId: GlobalTradeATF
 title: Global TradeATF Online Trading | Forex and Stocks
 date: 2026-10-30
 authors:
@@ -89,4 +88,4 @@ CFD Trading platforms **cannot send or receive bitcoins.** Careful scrutiny must
 
 **Update 2022-02-20**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

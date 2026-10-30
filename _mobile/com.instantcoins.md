@@ -1,5 +1,4 @@
 ---
-wsId: InstantCoins
 title: 'Instantcoins: sell bitcoin in '
 date: 2026-10-30
 authors:
@@ -92,4 +91,4 @@ Our verdict for this app is it **cannot send or receive bitcoins**.
 
 **Update 2022-02-09**: This app is no more.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

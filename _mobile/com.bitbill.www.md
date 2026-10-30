@@ -1,5 +1,4 @@
 ---
-wsId: ownbit
 title: 'Ownbit: MultiSig & Cold Wallet'
 date: 2026-10-30
 authors:
@@ -85,7 +84,7 @@ thus **not verifiable**.
 
 **Update 2026-10-30:** The [partial source release](https://github.com/bitbill/ownbit-app-50) also covers the iOS key handling, as a Swift package, but not the user interface or the server code.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="multiSig" quote="Multisig Security: Manage funds with team or personal multi-signature." source="Store" %}
 

@@ -1,5 +1,4 @@
 ---
-wsId: T1Markets
 title: 'T1Markets: Online Trading on F'
 date: 2026-10-30
 authors:
@@ -76,4 +75,4 @@ Sites/apps that allow users to trade in forex, derivatives and cryptocurrency CF
 
 **Update 2021-12-06**: This app is gone from the Store.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

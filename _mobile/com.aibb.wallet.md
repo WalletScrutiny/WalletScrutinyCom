@@ -1,5 +1,4 @@
 ---
-wsId: blockbank.v1
 title: BlockBank V1
 date: 2026-10-30
 authors:
@@ -164,4 +163,4 @@ Note: With that said, we are willing to change our verdict upon further guidance
 
 **Update 2021-11-03**: This app is no more.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

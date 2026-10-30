@@ -1,5 +1,4 @@
 ---
-wsId: bitop
 title: Bitop Exchange：Bitcoin Crypto
 date: 2025-11-13
 authors:
@@ -57,4 +56,4 @@ This is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: btcCom
 title: BTC.com - Bitcoin Wallet
 date: 2026-10-30
 website: https://btc.com
@@ -108,4 +107,4 @@ updated since July 2019 and many 1* ratings complain about financial loss!**
 
 **Update 2022-02-22**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

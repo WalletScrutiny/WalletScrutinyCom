@@ -1,5 +1,4 @@
 ---
-wsId: WealthsimpleTrade
 title: Wealthsimple - Grow your money
 date: 2026-10-30
 authors:
@@ -59,4 +58,4 @@ Users **cannot send or receive BTC** since the primary method of deposit and wit
 
 **Update 2026-10-30:** The App Store description also says "Transfer coins to and from your Wealthsimple wallet in just a few taps", so the iPhone app is {% include verdictBadge.html verdict="custodial" type='short' %} too.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

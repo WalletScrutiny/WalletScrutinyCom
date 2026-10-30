@@ -1,5 +1,4 @@
 ---
-wsId: 2cash
 title: 2cash - Money for Everyone
 date: 2024-11-04
 authors:
@@ -105,4 +104,4 @@ The app can apparently send and receive bitcoins. Provisions on the app's Terms 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

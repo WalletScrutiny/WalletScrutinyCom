@@ -1,5 +1,4 @@
 ---
-wsId: treeumMultiInvest
 title: Multi Invest - Investments
 date: 2025-02-18
 authors:
@@ -52,4 +51,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

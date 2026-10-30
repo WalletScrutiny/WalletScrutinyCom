@@ -1,5 +1,4 @@
 ---
-wsId: coinFlipCrypto
 title: CoinFlip Crypto Wallet
 date: 2026-01-03
 authors:
@@ -67,4 +66,4 @@ Under WalletScrutiny standards, any wallet where a third party must cooperate to
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

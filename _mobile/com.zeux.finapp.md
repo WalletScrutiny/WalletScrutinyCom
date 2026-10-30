@@ -1,5 +1,4 @@
 ---
-wsId: zeux
 title: Zeux - Payments & Investing
 date: 2022-10-21
 authors:
@@ -101,4 +100,4 @@ It's been 8 days since we emailed Zeux at support@zeux.com, but they still haven
 
 **Update 2022-10-21**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

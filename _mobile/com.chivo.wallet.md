@@ -1,5 +1,4 @@
 ---
-wsId: ChivoWallet
 title: Chivo Wallet
 date: 2024-11-29
 authors:
@@ -245,6 +244,6 @@ As a **custodial** app, it is **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Chivo es compatible con otras billeteras Bitcoin on-chain y Lightning." source="Store" %}

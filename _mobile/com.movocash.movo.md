@@ -1,5 +1,4 @@
 ---
-wsId: MOVOCash
 title: MOVO - Send to Spend
 date: 2023-08-16
 authors:
@@ -64,4 +63,4 @@ Because there's no indication that this app is meant to be used as a crypto wall
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

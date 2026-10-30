@@ -1,5 +1,4 @@
 ---
-wsId: DelioLending
 title: Delio - Global Crypto Finance
 date: 2024-04-03
 authors:
@@ -125,4 +124,4 @@ The way it describes its services is at times vague. But the presence of insuran
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

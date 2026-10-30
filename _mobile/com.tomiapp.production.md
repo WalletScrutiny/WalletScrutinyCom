@@ -1,5 +1,4 @@
 ---
-wsId: tomiPay
 title: TOMI Web3 SuperApp
 date: 2023-07-19
 authors:
@@ -68,4 +67,4 @@ We have not found any indication that this app's source code availability has ch
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

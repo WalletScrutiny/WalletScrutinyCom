@@ -1,5 +1,4 @@
 ---
-wsId: bridgeWallet
 title: 'Bridge Wallet: Bitcoin, crypto'
 date: 2026-10-30
 authors:
@@ -80,7 +79,7 @@ As a closed source wallet, this is **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="LN Bitcoin sat CHF" source="Website" %}
 

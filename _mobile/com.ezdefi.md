@@ -1,5 +1,4 @@
 ---
-wsId: ezdefi
 title: ezDeFi - Crypto & Bitcoin Wall
 date: 2023-09-04
 authors:
@@ -69,4 +68,4 @@ is why we have to assume it's custodial all the way and thus **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

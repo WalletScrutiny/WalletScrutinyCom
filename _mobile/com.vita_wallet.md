@@ -1,5 +1,4 @@
 ---
-wsId: vita
 title: Vita Wallet
 date: 2026-10-30
 authors:
@@ -72,4 +71,4 @@ While information on this app is somewhat limited, it certainly appears to be **
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

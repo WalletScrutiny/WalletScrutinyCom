@@ -1,5 +1,4 @@
 ---
-wsId: doshiWallet
 title: Do* Wallet
 date: 2024-09-08
 authors:
@@ -84,4 +83,4 @@ The app claims to be a financial education app that allows users even as young a
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

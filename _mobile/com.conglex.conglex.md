@@ -1,5 +1,4 @@
 ---
-wsId: conglex
 title: Conglex
 date: 2025-04-06
 authors:
@@ -79,4 +78,4 @@ Based on this information, we can conclude that this is a **custodial** offering
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

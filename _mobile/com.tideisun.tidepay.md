@@ -1,5 +1,4 @@
 ---
-wsId: iSunOne
 title: iSunOne – Spend Cryptos and Tokens in a Card
 date: 2026-10-30
 authors:
@@ -74,4 +73,4 @@ This app is a financial app merged with a Bitcoin wallet, staking, interest paym
 
 **Update 2026-10-30:** The iPhone app is gone from the App Store as well, and iSunOne's [website](https://isun.one) says the company ceased operations in 2025.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

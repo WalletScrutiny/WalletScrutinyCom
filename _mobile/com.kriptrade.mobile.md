@@ -1,5 +1,4 @@
 ---
-wsId: kriptradeExchange
 title: Kriptrade
 date: 2023-09-06
 authors:
@@ -59,4 +58,4 @@ As a cryptocurrency exchange which uses custody services, this is explicitly a *
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

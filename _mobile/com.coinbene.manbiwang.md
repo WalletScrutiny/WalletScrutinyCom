@@ -1,5 +1,4 @@
 ---
-wsId: CoinBene
 title: CoinBene
 date: 2026-10-30
 authors:
@@ -71,4 +70,4 @@ Verdict is therefore **custodial** and **not verifiable**
 
 **Update 2026-10-30:** The provider is gone. See the Android section.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

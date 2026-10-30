@@ -1,5 +1,4 @@
 ---
-wsId: tapngo
 title: "Tap - Mobile Finance\_"
 date: 2026-10-30
 authors:
@@ -73,7 +72,7 @@ With all funds in cold storage, this app is **custodial** and thus, it **cannot 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Your account is secured with encryption, biometric login, and you can freeze/unfreeze your card instantly for peace of mind." source="Store description" %}
 

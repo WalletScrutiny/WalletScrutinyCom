@@ -1,5 +1,4 @@
 ---
-wsId: BBX
 title: BBX-Cryptocurrency Index Trading (Bitcoin,ETH,EOS)
 date: 2026-10-30
 authors:
@@ -73,4 +72,4 @@ It is also highly probable that this app is already defunct, but since its Googl
 **Update 2021-10-14**: This app is no more available.
 
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: StrikeXDefi
 title: StrikeX | DeFi Crypto Wallet
 date: 2023-06-30
 authors:
@@ -75,7 +74,7 @@ No change has been noted and no relevant repository has been found when searchin
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="buying, selling, swapping, transferring, and tracking your favourite crypto projects" source="Store" %}
 

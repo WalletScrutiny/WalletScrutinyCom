@@ -1,5 +1,4 @@
 ---
-wsId: voltaXRPayNet
 title: Volta Wallet
 date: 2023-07-07
 authors:
@@ -80,7 +79,7 @@ No updates have been made regarding this app's source status. It is still not av
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="hd" quote="backed by advanced security like mnemonic phrases" source="Store" %}
 

@@ -1,5 +1,4 @@
 ---
-wsId: Bitget
 title: Bitget - Buy & Sell Crypto
 date: 2026-10-30
 authors:
@@ -60,4 +59,4 @@ This is *also* very usually an indicator that this product is **custodial** thus
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

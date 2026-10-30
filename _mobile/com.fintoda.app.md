@@ -1,5 +1,4 @@
 ---
-wsId: fintodaWallet
 title: Fintoda Wallet
 date: 2024-07-24
 authors:
@@ -65,4 +64,4 @@ This app is **not source-available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

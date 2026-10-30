@@ -1,5 +1,4 @@
 ---
-wsId: bitonic
 title: 'Bitonic: buy & store bitcoin'
 date: 2026-01-03
 authors:
@@ -55,4 +54,4 @@ Their reliance on [cold storage](https://bitonic.nl/security) strongly suggests 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

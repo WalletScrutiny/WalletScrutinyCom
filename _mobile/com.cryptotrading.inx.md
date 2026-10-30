@@ -1,5 +1,4 @@
 ---
-wsId: iNXCrypto
 title: INX Buy & Trade Crypto
 date: 2023-06-30
 authors:
@@ -67,4 +66,4 @@ INX Crypto allows listing and trading of cryptocurrencies with full regulatory c
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

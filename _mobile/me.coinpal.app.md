@@ -1,5 +1,4 @@
 ---
-wsId: Coinpal
 title: Coinpal
 date: 2026-10-30
 authors:

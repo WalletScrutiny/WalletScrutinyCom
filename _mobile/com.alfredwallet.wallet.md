@@ -1,5 +1,4 @@
 ---
-wsId: alfredWallet
 title: AlfredWallet
 date: 2024-10-28
 authors:
@@ -67,4 +66,4 @@ Assuming that its claims about self-custody are true, we could **not find any re
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

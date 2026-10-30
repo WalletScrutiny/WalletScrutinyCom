@@ -1,5 +1,4 @@
 ---
-wsId: confirmoLightning
 title: Bitcoin Lightning POS
 date: 2024-04-26
 authors:
@@ -81,4 +80,4 @@ Like most lightning based Point-of-Sale systems, the user is a provided an accou
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

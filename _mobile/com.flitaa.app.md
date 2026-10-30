@@ -1,5 +1,4 @@
 ---
-wsId: flitaa
 title: 'Flitaa: your crypto wallet'
 date: 2026-10-30
 authors:
@@ -73,4 +72,4 @@ All signs point to this being a **custodial** app and thus it is **not verifiabl
 
 **Update 2026-10-30:** Flitaa now belongs to Roqqu ({% include walletLink.html wallet='iphone/com.roqqu.ios' verdict='true' %}); see the Android section.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

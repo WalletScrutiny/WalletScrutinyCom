@@ -1,5 +1,4 @@
 ---
-wsId: blackcatcard
 title: Blackcatcard
 date: 2026-10-30
 authors:
@@ -99,4 +98,4 @@ We assume that DigiNord provides the cryptocurrency services and BlackCatCard in
 
 **Update 2026-10-30:** This app is gone from the App Store. The new ";blackcat" app from the same developer, Papaya Ltd, has been there since 2025-06-17.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

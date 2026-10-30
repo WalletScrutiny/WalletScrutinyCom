@@ -1,5 +1,4 @@
 ---
-wsId: pockieWallet
 title: Pockie Wallet - Crypto Wallet
 date: 2025-11-26
 authors:
@@ -67,7 +66,7 @@ This app is **not source-available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Use your PIN or biometrics to unlock your wallet." source="Store" %}
 

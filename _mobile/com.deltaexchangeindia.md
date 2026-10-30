@@ -1,5 +1,4 @@
 ---
-wsId: deltaExchange
 title: 'Delta Exchange: Crypto Options'
 date: 2025-11-14
 authors:
@@ -57,4 +56,4 @@ This is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: trustPoolFrostWallet
 title: 'FROST Wallet: Buy BTC & Crypto'
 date: 2025-06-20
 authors:
@@ -59,4 +58,4 @@ There is no evidence to suggest that this app's source code is publicly availabl
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

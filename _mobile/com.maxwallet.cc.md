@@ -1,5 +1,4 @@
 ---
-wsId: maxwallet
 title: MaxWallet
 date: 2026-01-14
 authors:
@@ -50,4 +49,4 @@ We installed and tested MaxWallet on Android. The app provides a seed phrase on 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

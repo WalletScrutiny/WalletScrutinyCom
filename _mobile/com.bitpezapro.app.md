@@ -1,5 +1,4 @@
 ---
-wsId: Bekonta
 title: 'Bekonta: Buy & Sell Crypto'
 date: 2024-02-05
 authors:
@@ -82,4 +81,4 @@ This app **cannot be verified.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

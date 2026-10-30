@@ -1,5 +1,4 @@
 ---
-wsId: bitpaytrading
 title: zondacrypto - crypto exchange
 date: 2026-10-30
 authors:

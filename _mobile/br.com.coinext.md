@@ -1,5 +1,4 @@
 ---
-wsId: coinext
 title: 'Coinext: Comprar Bitcoin'
 date: 2024-09-07
 authors:
@@ -61,4 +60,4 @@ Wallets are hosted on accounts on the platform which means that control over pri
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

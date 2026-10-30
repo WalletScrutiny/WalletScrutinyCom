@@ -1,5 +1,4 @@
 ---
-wsId: yieldApp
 title: 'Yield App : Bitcoin Wallet'
 date: 2024-07-22
 authors:
@@ -71,4 +70,4 @@ Based on the description, this is a **custodial** provider.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

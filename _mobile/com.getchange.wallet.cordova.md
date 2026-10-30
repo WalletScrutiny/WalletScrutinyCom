@@ -1,5 +1,4 @@
 ---
-wsId: changeinvest
 title: 'Change: Invest & Trade'
 date: 2026-10-30
 authors:
@@ -70,4 +69,4 @@ which means it is a custodial service and thus **not verifiable**.
 
 **Update 2026-10-30:** The app is back in the Dutch App Store, with version 30.68.3 from 2026-10-29.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

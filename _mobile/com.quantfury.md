@@ -1,5 +1,4 @@
 ---
-wsId: quantfury
 title: 'Quantfury: Trading & Investing'
 date: 2026-10-30
 authors:
@@ -81,4 +80,4 @@ This app is **custodial** ergo, the app **cannot be verified**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

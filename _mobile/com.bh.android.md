@@ -1,5 +1,4 @@
 ---
-wsId: bhexExchange
 title: BHEX
 date: 2026-10-30
 authors:
@@ -44,4 +43,4 @@ The service made an announcement [**regarding the closing of its services.**](ht
 
 **Update 2026-10-30:** An [archived copy of its App Store page](https://web.archive.org/web/20210619202418/https://apps.apple.com/us/app/bhex/id1441395245) calls BHEX a "cryptocurrency exchange" where "user assets are completely managed and cleared by Bluehelix decentralized technology". The exchange held its users' coins, so the verdict changes from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %} for the iPhone app.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

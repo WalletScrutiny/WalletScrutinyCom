@@ -1,5 +1,4 @@
 ---
-wsId: mercadopago
 title: 'Mercado Pago: Banco Digital'
 date: 2026-10-30
 authors:
@@ -59,4 +58,4 @@ it also supports Ethereum and Pax Dollar.
 
 **Update 2026-10-30:** The sources in the Android update describe the Mercado Pago app's crypto section without limiting it to one platform, so the iPhone verdict also changes from {% include verdictBadge.html verdict="nosendreceive" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

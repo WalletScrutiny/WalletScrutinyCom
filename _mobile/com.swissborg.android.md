@@ -1,5 +1,4 @@
 ---
-wsId: swissborg
 title: 'SwissBorg: Buy Bitcoin, crypto'
 date: 2026-10-30
 authors:
@@ -69,4 +68,4 @@ Verdict: Swissborg is **custodial** and **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

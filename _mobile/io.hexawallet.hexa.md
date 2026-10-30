@@ -1,5 +1,4 @@
 ---
-wsId: Hexa
 title: Legacy Hexa (do not download)
 date: 2026-10-30
 authors:
@@ -101,4 +100,4 @@ An issue has been opened at [https://github.com/bithyve/bitcointribe-classic/iss
 successor
 {% include walletLink.html wallet='android/io.hexawallet.hexa2' verdict='true' %}.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

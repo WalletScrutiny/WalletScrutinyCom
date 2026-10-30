@@ -1,5 +1,4 @@
 ---
-wsId: ChaingeFinance
 title: Chainge Finance
 date: 2025-06-20
 authors:
@@ -90,4 +89,4 @@ We contacted them via [twitter](https://twitter.com/BitcoinWalletz/status/145038
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

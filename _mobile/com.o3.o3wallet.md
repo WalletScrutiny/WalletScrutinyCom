@@ -1,5 +1,4 @@
 ---
-wsId: O3Wallet
 title: O3 Wallet
 date: 2024-07-05
 authors:
@@ -67,4 +66,4 @@ Therefore, since the O3 repository does not even include the Google Play source 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

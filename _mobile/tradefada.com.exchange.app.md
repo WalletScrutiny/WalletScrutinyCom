@@ -1,5 +1,4 @@
 ---
-wsId: tradefada
 title: 'Tradefada: Bitcoin Exchange'
 date: 2024-10-02
 authors:
@@ -60,4 +59,4 @@ These are indicators of a **custodial** service, making the app non-verifiable.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

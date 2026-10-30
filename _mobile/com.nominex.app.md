@@ -1,5 +1,4 @@
 ---
-wsId: Nominex
 title: 'Nominex: Cryptocurrency tradin'
 date: 2023-09-04
 authors:
@@ -65,4 +64,4 @@ The previous quote is very telling of this app's custodial nature. Maintaining a
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

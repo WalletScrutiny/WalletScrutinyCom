@@ -1,5 +1,4 @@
 ---
-wsId: Paymium
 title: Paymium
 date: 2024-10-07
 authors:
@@ -90,4 +89,4 @@ The service uses cold storage to manage their users' bitcoins. They require KYC,
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

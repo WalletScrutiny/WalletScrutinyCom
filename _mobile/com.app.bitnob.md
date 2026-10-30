@@ -1,5 +1,4 @@
 ---
-wsId: Bitnob
 title: Bitnob
 date: 2026-10-30
 authors:
@@ -69,4 +68,4 @@ This app is primarily a method to save or invest in Bitcoin. Thus, its interface
 
 **Update 2022-01-15**: This app is not on the Store anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

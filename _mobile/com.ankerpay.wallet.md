@@ -1,5 +1,4 @@
 ---
-wsId: ankerPay
 title: 'AnkerPay: Blockchain Crypto Wa'
 date: 2025-06-09
 authors:
@@ -63,4 +62,4 @@ link to source code which leads to our verdict **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

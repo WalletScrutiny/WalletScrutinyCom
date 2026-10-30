@@ -1,5 +1,4 @@
 ---
-wsId: matrixport
 title: BIT - Buy US Stocks & Crypto
 date: 2026-10-30
 authors:
@@ -66,4 +65,4 @@ This cryptocurrency finance app is **custodial** and thus, **not verifiable.**
 
 **Update 2026-10-30:** The iPhone app is now branded BIT after Matrixport's [rebrand](https://www.bit.com/pressroom/matrixport-rebrands-as-bit).
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

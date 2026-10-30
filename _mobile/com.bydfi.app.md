@@ -1,5 +1,4 @@
 ---
-wsId: bydfiExchange
 title: 'BYDFi: Buy BTC, XRP & SOL'
 date: 2023-07-21
 authors:
@@ -60,4 +59,4 @@ Most centralized and "regulated" cryptocurrency exchanges use cold-wallet storag
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

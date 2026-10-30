@@ -1,5 +1,4 @@
 ---
-wsId: Zipmex
 title: 'Zipmex: Buy Bitcoin & Crypto'
 date: 2024-03-02
 authors:
@@ -62,4 +61,4 @@ In the case of this product, the provider is in charge of the keys. This app is 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: nexoProExchange
 title: 'Nexo Pro: Crypto Exchange'
 date: 2024-02-05
 authors:
@@ -78,4 +77,4 @@ This makes the service a **custodial** platform with a **non-verifiable** app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

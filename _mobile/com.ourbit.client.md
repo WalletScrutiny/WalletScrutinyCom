@@ -1,5 +1,4 @@
 ---
-wsId: ourbitBitcoin
 title: 'Ourbit: Buy Bitcoin & Crypto'
 date: 2025-11-26
 authors:
@@ -54,4 +53,4 @@ Cold wallet custody implementation indicates the exchange maintains control over
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

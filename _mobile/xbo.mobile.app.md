@@ -1,5 +1,4 @@
 ---
-wsId: xboCrypto
 title: XBO.com - Buy Bitcoin & Crypto
 date: 2023-08-25
 authors:
@@ -64,4 +63,4 @@ This makes the app **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

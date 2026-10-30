@@ -1,5 +1,4 @@
 ---
-wsId: bitso
 title: 'Bitso: Save and invest easily'
 date: 2026-10-30
 authors:

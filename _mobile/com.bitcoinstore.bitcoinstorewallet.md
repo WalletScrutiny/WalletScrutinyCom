@@ -1,5 +1,4 @@
 ---
-wsId: bitcoinStoreWallet
 title: Bitcoin Store Wallet
 date: 2024-09-07
 authors:
@@ -66,7 +65,7 @@ This indicates that the wallets within the user account, is controlled and **cus
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="buyWithCC" quote="Credit Card (Visa,Mastercard)" source="Store" %}
 

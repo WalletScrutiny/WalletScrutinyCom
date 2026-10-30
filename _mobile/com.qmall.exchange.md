@@ -1,5 +1,4 @@
 ---
-wsId: qmallExchange
 title: Qmall APP
 date: 2025-07-28
 authors:
@@ -62,4 +61,4 @@ This is a **custodial provider**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

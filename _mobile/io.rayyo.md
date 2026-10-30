@@ -1,5 +1,4 @@
 ---
-wsId: rayyoWallet
 title: RAYYO Wallet
 date: 2026-01-02
 authors:
@@ -86,6 +85,6 @@ This is a clear indication that this app is **not sourceavailable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Integra la autenticación biométrica, como la huella dactilar o el reconocimiento facial, lo que garantiza que solo los usuarios autorizados puedan acceder a sus cuentas y realizar transacciones." source="Store" %}

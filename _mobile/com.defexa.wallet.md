@@ -1,5 +1,4 @@
 ---
-wsId: defexaWallet
 title: Defexa - Safe Crypto Wallet
 date: 2023-11-02
 authors:
@@ -71,7 +70,7 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="hd" quote="Defexa leverages mnemonic phrases as the safest way to hold crypto." source="Store description" %}
 

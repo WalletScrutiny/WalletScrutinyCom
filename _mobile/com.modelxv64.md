@@ -1,5 +1,4 @@
 ---
-wsId: StratumWallet
 title: Stratum Advanced Wallet
 date: 2023-03-21
 authors:
@@ -71,4 +70,4 @@ This app is **custodial** and **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

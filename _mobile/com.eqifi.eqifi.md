@@ -1,5 +1,4 @@
 ---
-wsId: eqifi
 title: EQIFi | Hold & Transfer Crypto
 date: 2025-07-01
 authors:
@@ -71,4 +70,4 @@ Without the ability to register, we can only go by the app description. As the d
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

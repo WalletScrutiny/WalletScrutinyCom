@@ -1,5 +1,4 @@
 ---
-wsId: exmo
 title: 'EXMO.com: Trade & Hold Crypto'
 date: 2026-10-30
 authors:

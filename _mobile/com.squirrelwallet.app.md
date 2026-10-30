@@ -1,5 +1,4 @@
 ---
-wsId: squirrelWallet
 title: Squirrel Wallet
 date: 2025-09-24
 authors:
@@ -53,4 +52,4 @@ However, its code is **not source-available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

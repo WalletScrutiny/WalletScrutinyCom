@@ -1,5 +1,4 @@
 ---
-wsId: TradeStation
 title: 'TradeStation: Trade & Invest'
 date: 2026-10-30
 authors:
@@ -71,4 +70,4 @@ While TradeStation has engaged with *BitGo* to provide wallet services, a third-
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

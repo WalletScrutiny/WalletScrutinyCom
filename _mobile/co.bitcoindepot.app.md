@@ -1,5 +1,4 @@
 ---
-wsId: bitcoindepot
 title: Bitcoin Depot
 date: 2026-10-30
 authors:
@@ -90,6 +89,6 @@ Due to the information we have collected thus far, it is apparent that private k
 
 **Update 2026-10-30:** The iPhone app is gone from the App Store as well. It used the same Edge-based accounts as the Android app, so the verdict changes from {% include verdictBadge.html verdict="custodial" type='short' %} to {% include verdictBadge.html verdict="nosource" type='short' %} here too. See the Android section.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="buyWithCC" quote="Buy Online: Buy bitcoin in only a few steps in our app with your credit or debit card" source="Store" %}

@@ -1,5 +1,4 @@
 ---
-wsId: freeda
 title: Freeda Wallet - Trade Crypto
 date: 2023-01-30
 authors:
@@ -61,4 +60,4 @@ As the private keys are secured by the company, we will classify this app as **c
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

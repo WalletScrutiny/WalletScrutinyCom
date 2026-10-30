@@ -1,5 +1,4 @@
 ---
-wsId: xFunWallet
 title: XFUN Wallet
 date: 2025-03-14
 authors:
@@ -61,4 +60,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

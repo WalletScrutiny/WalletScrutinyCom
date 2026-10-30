@@ -1,5 +1,4 @@
 ---
-wsId: WalletIOPRO
 title: wallet.io Pro—Multisig Wallet (BTC, ETH, EOS...)
 date: 2026-10-30
 authors:
@@ -92,4 +91,4 @@ This app is **self-custodial**, but the source code is **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

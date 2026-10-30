@@ -1,5 +1,4 @@
 ---
-wsId: Cofinex
 title: Cofinex.io Buy BTC, ETH, LTC
 date: 2023-08-04
 authors:
@@ -90,4 +89,4 @@ As there has not been a fix since February 2021, we have to conclude that this a
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

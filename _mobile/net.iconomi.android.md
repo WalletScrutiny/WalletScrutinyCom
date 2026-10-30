@@ -1,5 +1,4 @@
 ---
-wsId: iconomi
 title: 'ICONOMI: Buy Bitcoin & Crypto'
 date: 2026-10-30
 authors:
@@ -86,4 +85,4 @@ This app provides a **custodial** service and therefore it is **not verifiable**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

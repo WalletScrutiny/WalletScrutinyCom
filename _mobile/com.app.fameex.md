@@ -1,5 +1,4 @@
 ---
-wsId: FAMEEX
 title: 'FameEX: Buy Bitcoin & Crypto'
 date: 2023-04-16
 authors:
@@ -69,4 +68,4 @@ This cryptocurrency exchange has provisions that could freeze the user's assets.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

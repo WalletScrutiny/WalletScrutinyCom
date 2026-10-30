@@ -1,5 +1,4 @@
 ---
-wsId: Bitfinex
 title: 'Bitfinex: Trade Digital Assets'
 date: 2026-10-30
 authors:

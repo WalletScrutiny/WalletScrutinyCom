@@ -1,5 +1,4 @@
 ---
-wsId: bitazza
 title: 'Bitazza TH: Buy & Trade Crypto'
 date: 2026-10-30
 authors:
@@ -62,4 +61,4 @@ Verdict is **custodial**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

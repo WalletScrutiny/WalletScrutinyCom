@@ -1,5 +1,4 @@
 ---
-wsId: bitcoinjungle
 title: Bitcoin Jungle
 date: 2023-10-20
 authors:
@@ -72,6 +71,6 @@ It's not explicitly specified whether Bitcoin Jungle is a custodial wallet. Howe
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="foss" quote="MIT License Copyright (c) 2021 Galoy Inc Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software" source="GitHub README" %}

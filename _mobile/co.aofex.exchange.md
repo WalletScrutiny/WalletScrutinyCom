@@ -1,5 +1,4 @@
 ---
-wsId: AOFEX
 title: AOFEX
 date: 2026-10-30
 authors:
@@ -84,4 +83,4 @@ This app is **custodial** and therefore **not verifiable.**
 
 **Update 2022-10-21**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

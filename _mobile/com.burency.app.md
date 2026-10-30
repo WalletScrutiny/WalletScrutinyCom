@@ -1,5 +1,4 @@
 ---
-wsId: Burency
 title: Burency Global – Insured Crypto Exchange & Wallet
 date: 2026-10-30
 authors:
@@ -67,4 +66,4 @@ Any app that has the power to suspend, freeze or lock accounts is **custodial** 
 
 **Update 2021-11-26**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

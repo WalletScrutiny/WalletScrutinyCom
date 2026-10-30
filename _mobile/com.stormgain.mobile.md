@@ -1,5 +1,4 @@
 ---
-wsId: stormgain
 title: 'StormGain: Bitcoin & Crypto'
 date: 2023-09-28
 authors:

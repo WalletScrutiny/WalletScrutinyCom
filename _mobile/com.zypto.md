@@ -1,5 +1,4 @@
 ---
-wsId: zyptoCrypto
 title: Zypto Crypto & Bitcoin Wallet
 date: 2025-12-26
 authors:
@@ -72,7 +71,7 @@ We also did not find any claims regarding source-availability in their home page
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Multichain wallet & swaps – trade BTC, ETH, SOL, BNB, MATIC and thousands more with great rates across 500,000+ pairs." source="Store" %}
 

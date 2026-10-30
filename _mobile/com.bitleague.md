@@ -1,5 +1,4 @@
 ---
-wsId: BitLeague
 title: BitLeague
 date: 2024-05-07
 authors:
@@ -62,4 +61,4 @@ The service is very similar to deposit services of banks. They also require ID v
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

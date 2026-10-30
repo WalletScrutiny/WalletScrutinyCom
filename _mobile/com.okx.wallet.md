@@ -1,5 +1,4 @@
 ---
-wsId: okxWeb3Wallet
 title: 'OKX Wallet: Portal to Web3'
 date: 2025-11-20
 authors:
@@ -51,4 +50,4 @@ The wallet offers two modes: traditional seed phrase (tested above) and an optio
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

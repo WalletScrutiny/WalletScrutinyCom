@@ -1,5 +1,4 @@
 ---
-wsId: WanWallet
 title: WanWallet
 date: 2026-10-30
 authors:
@@ -73,4 +72,4 @@ At the moment, we will [wait for the source-code to be tested](https://gitlab.co
 
 **Update 2026-10-30:** Wanchain's [wallets page](https://www.wanchain.org/wanwallet) now points iPhone users to {% include walletLink.html wallet='iphone/io.metamask.MetaMask' verdict='true' %} instead.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

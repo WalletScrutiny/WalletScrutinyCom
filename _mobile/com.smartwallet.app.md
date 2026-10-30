@@ -1,5 +1,4 @@
 ---
-wsId: echooDeFi
 title: 'Echooo : Crypto AA Wallet&DeFi'
 date: 2026-01-28
 authors:
@@ -127,4 +126,4 @@ While their choice of doing key management is not an industry standard, it is - 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

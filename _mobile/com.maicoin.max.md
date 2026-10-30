@@ -1,5 +1,4 @@
 ---
-wsId: maxmaicoin
 title: MAX Exchange - Buy Bitcoin
 date: 2026-10-30
 authors:
@@ -58,4 +57,4 @@ Since the platform and app, explicitly states its control of user funds, this is
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

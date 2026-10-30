@@ -1,5 +1,4 @@
 ---
-wsId: ditobanxPOS
 title: DitoBanx POS Bitcoin
 date: 2025-12-27
 authors:
@@ -51,4 +50,4 @@ DitoBanx provides a custodial Bitcoin payment application that enables merchants
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

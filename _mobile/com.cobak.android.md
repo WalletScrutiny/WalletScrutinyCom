@@ -1,5 +1,4 @@
 ---
-wsId: cobak
 title: Cobak - Crypto Community App
 date: 2025-03-29
 authors:
@@ -53,4 +52,4 @@ Unless there's evidence proving otherwise, Cobak is **custodial**, thus **not ve
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

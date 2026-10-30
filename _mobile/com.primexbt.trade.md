@@ -1,5 +1,4 @@
 ---
-wsId: primeXBTCryptoTrading
 title: PrimeXBT — Trading Platform
 date: 2023-06-02
 authors:
@@ -79,4 +78,4 @@ You can find [links](https://web.archive.org/web/20200515000000*/https://primexb
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

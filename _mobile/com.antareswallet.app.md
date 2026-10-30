@@ -1,5 +1,4 @@
 ---
-wsId: AntaresWallet
 title: Antares Wallet
 date: 2026-10-30
 authors:
@@ -82,4 +81,4 @@ This app is **no longer working.**
 
 **Update 2026-10-30:** Its [archived App Store page](https://web.archive.org/web/20210320013211/https://apps.apple.com/app/id1549506189) is the evidence for the change from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}, see the Android section.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: criptanWallet
 title: Criptan - Complement your bank
 date: 2023-12-14
 authors:
@@ -58,7 +57,7 @@ This is a **custodial** service with a non-verifiable app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="nuestra app incluye sistemas de autenticación de dos factores (2FA) y seguridad biométrica" source="Store" %}
 

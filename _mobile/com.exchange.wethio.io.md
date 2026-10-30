@@ -1,5 +1,4 @@
 ---
-wsId: wethiox
 title: WethioX
 date: 2026-02-02
 authors:
@@ -59,4 +58,4 @@ The site itself describes its app as **custodial**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

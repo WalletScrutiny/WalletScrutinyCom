@@ -1,5 +1,4 @@
 ---
-wsId: bitvavo
 title: Bitvavo | Buy Bitcoin & Crypto
 date: 2026-10-30
 authors:
@@ -57,4 +56,4 @@ This confirms it as **custodial** and thus **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

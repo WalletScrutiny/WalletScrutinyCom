@@ -1,5 +1,4 @@
 ---
-wsId: Xapa
 title: 'Xapa Wallet - BTC, ETH, DOGE, '
 date: 2023-08-25
 authors:

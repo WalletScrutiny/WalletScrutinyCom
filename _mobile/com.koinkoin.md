@@ -1,5 +1,4 @@
 ---
-wsId: koinkoin
 title: KoinKoin Exchange
 date: 2024-01-18
 authors:
@@ -67,7 +66,7 @@ In general, it is inadvisable to use apps with the specific purpose of exchangin
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="buyWithCC" quote="purchase cryptocurrency via Credit / Debit card, Mobile money and through Bank transfer" source="Store" %}
 

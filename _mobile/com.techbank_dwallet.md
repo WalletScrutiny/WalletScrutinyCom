@@ -1,5 +1,4 @@
 ---
-wsId: techbankDWallet
 title: TechBank Dwallet
 date: 2026-02-02
 authors:
@@ -71,4 +70,4 @@ As they have stated themselves, their service is **custodial** making the app **
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

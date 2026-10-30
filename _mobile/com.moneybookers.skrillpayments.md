@@ -1,5 +1,4 @@
 ---
-wsId: skrill
 title: Skrill - Fast, secure payments
 date: 2026-10-30
 authors:
@@ -64,4 +63,4 @@ Based on this information, the app is custodial therefore not verifiable.
 **Update 2026-10-30:** As on Android, Skrill now lets you send bitcoins out, but still not
 receive them.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

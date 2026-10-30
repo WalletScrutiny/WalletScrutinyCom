@@ -1,5 +1,4 @@
 ---
-wsId: coinsph
 title: 'Coins: Buy Crypto & Pay Wallet'
 date: 2026-10-30
 authors:

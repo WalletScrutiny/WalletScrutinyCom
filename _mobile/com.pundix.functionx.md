@@ -1,5 +1,4 @@
 ---
-wsId: functionX
 title: Pundi Wallet
 date: 2026-10-30
 authors:
@@ -107,7 +106,7 @@ The source code for this app is **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="foss" quote="Apache License Version 2.0, January 2004 http://www.apache.org/licenses/" source="License" %}
 

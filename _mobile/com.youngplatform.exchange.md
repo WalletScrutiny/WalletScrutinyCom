@@ -1,5 +1,4 @@
 ---
-wsId: youngPlatformSwapBitcoin
 title: 'Young Platform: Cash & Crypto'
 date: 2025-12-26
 authors:
@@ -60,4 +59,4 @@ Translated from Italian:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

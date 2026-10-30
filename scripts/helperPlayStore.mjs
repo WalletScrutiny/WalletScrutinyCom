@@ -22,7 +22,7 @@ const stats = {
 };
 
 const category = 'android';
-const headers = ('wsId title altTitle authors users appId bitcoinOrgId alternativeStores ' +
+const headers = ('title altTitle authors users appId bitcoinOrgId alternativeStores ' +
                 'playStore appCountry released updated version reviews website repository ' +
                 'icon bugbounty meta verdict signer twitter social ' +
                 'social redirect_from developerName builds features').split(' ');

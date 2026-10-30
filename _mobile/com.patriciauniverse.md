@@ -1,5 +1,4 @@
 ---
-wsId: patriciaUniverse
 title: Patricia Universe
 date: 2024-02-05
 authors:
@@ -84,4 +83,4 @@ This is a *custodial* and **non-verifiable** app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

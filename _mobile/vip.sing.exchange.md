@@ -1,5 +1,4 @@
 ---
-wsId: starEx
 title: StarEx - Buy Bitcoin & Crypto
 date: 2023-11-14
 authors:
@@ -62,7 +61,7 @@ This is a **custodial** offering and as such it is **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="multiSig" quote="Safe & secure operations with multisig cold wallets for digital asset storage." source="Store" %}
 

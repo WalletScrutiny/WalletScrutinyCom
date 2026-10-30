@@ -1,5 +1,4 @@
 ---
-wsId: bifrostWallet
 title: Bifrost Wallet - XRP, FLR, ETH
 date: 2025-11-12
 authors:
@@ -54,7 +53,7 @@ We confirmed the existence of Bitcoin support, but found **no claims regarding s
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="segwit" quote="MULTI-CHAIN SUPPORT Manage all your crypto in one secure wallet. Supported networks are Flare, XRP Ledger, Songbird, Ethereum, Bitcoin, Hyperliquid, Base, Polygon, Arbitrum, Optimism, BNB Smart Chain, XDC, Litecoin, Dogecoin, with many more chains to come." source="Store" comment="Bitcoin is listed as a supported network; SegWit support is standard for modern Bitcoin wallets, but the source text does not explicitly confirm send/receive to bech32 addresses." %}
 

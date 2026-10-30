@@ -1,5 +1,4 @@
 ---
-wsId: mDAOWallet
 title: MDAO Wallet
 date: 2026-04-20
 authors:

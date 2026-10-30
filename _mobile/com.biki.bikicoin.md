@@ -1,5 +1,4 @@
 ---
-wsId: bikiexchange
 title: BiKi App
 date: 2026-10-30
 authors:
@@ -75,4 +74,4 @@ All evidences point to a **custodial** service.
 
 **Update 2022-02-25**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

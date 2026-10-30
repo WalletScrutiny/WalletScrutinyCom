@@ -1,5 +1,4 @@
 ---
-wsId: ybitBitcoinCrypto
 title: 'Ybit: Bitcoin & Crypto Wallet'
 date: 2026-05-02
 authors:
@@ -53,4 +52,4 @@ We [tested](https://x.com/BitcoinWalletz/status/2050426036576571833) the app and
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

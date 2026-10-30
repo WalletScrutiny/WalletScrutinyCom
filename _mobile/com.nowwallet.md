@@ -1,5 +1,4 @@
 ---
-wsId: nowWallet
 title: 'NOW Wallet: Buy & Store Crypto'
 date: 2023-04-08
 authors:
@@ -89,7 +88,7 @@ We downloaded the app and got the seed phrases. As the review mentioned, it took
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Swap over 800+ cryptos, yeah, Shiba Swap too, with ease using our in-app exchange or link your bank account and cards." source="Store description" %}
 

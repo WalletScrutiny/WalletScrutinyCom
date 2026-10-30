@@ -1,5 +1,4 @@
 ---
-wsId: Swapoo
 title: Swapoo
 date: 2026-10-30
 authors:
@@ -59,4 +58,4 @@ We will try to send them an email via their Google Play page contact information
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

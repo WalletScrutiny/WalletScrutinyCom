@@ -1,5 +1,4 @@
 ---
-wsId: BinanceTR
 title: 'Binance TR: Crypto Trading'
 date: 2026-10-30
 authors:
@@ -71,4 +70,4 @@ Like its counterpart {% include walletLink.html wallet='android/com.binance.dev'
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

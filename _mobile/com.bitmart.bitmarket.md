@@ -1,5 +1,4 @@
 ---
-wsId: bitmart
 title: 'BitMart: Buy Crypto & Stocks'
 date: 2026-10-30
 authors:

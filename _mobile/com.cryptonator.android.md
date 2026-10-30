@@ -1,5 +1,4 @@
 ---
-wsId: cryptonator
 title: Cryptonator cryptocurrency wallet
 date: 2026-10-30
 authors:

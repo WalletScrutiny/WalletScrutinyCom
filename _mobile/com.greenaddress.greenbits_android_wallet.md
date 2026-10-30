@@ -1,5 +1,4 @@
 ---
-wsId: GreenBitcoinWallet
 title: Blockstream Bitcoin Wallet
 bitcoinOrgId: green
 date: 2026-10-30

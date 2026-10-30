@@ -1,5 +1,4 @@
 ---
-wsId: etoro
 title: 'etoro: Trade. Invest. Connect.'
 date: 2026-10-30
 authors:

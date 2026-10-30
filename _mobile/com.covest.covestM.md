@@ -1,5 +1,4 @@
 ---
-wsId: covest
 title: 코베스트 - COVEST
 date: 2023-05-17
 authors:
@@ -59,4 +58,4 @@ This is a **custodial** platform.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

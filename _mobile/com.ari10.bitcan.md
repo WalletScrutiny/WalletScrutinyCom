@@ -1,5 +1,4 @@
 ---
-wsId: ari10Exchange
 title: Ari10 Crypto Exchange
 date: 2023-09-07
 authors:
@@ -68,7 +67,7 @@ This is a **custodial** provider with a **non-verifiable** app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Swap crypto directly in the exchange with just a 1% fee" source="Store" %}
 

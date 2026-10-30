@@ -1,5 +1,4 @@
 ---
-wsId: Dreambit
 title: Dreambit
 date: 2023-09-04
 authors:
@@ -72,4 +71,4 @@ Without the private key or the ability to import or backup a wallet, it is safe 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

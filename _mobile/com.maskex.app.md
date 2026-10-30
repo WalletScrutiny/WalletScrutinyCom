@@ -1,5 +1,4 @@
 ---
-wsId: maskEX
 title: MaskEX Crypto & Privacy Wallet
 date: 2025-06-05
 authors:
@@ -60,4 +59,4 @@ We were not able to find options to backup or import private keys. As an exchang
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

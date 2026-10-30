@@ -1,5 +1,4 @@
 ---
-wsId: forex4you
 title: Markets4you - Online Trading
 date: 2026-10-30
 authors:
@@ -84,4 +83,4 @@ Furthermore, the support did not specifically point to a web page indicating suc
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: verusMobile
 title: Verus Mobile
 date: 2025-04-24
 authors:
@@ -61,7 +60,7 @@ An issue has been opened at [https://github.com/VerusCoin/Verus-Mobile/issues/20
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="multiAccount" quote="Multiple account support, the ability to use different keys on the same phone" source="GitHub README" %}
 

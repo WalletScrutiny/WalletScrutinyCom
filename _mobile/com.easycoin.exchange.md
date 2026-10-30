@@ -1,5 +1,4 @@
 ---
-wsId: easycoinExchange
 title: EasyCoins
 date: 2024-07-05
 authors:
@@ -63,4 +62,4 @@ This is very likely to be a **custodial** offering and thus not verifiable.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

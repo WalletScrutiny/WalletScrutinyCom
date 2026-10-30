@@ -1,5 +1,4 @@
 ---
-wsId: funexCrypto
 title: 'Funex: Crypto & Bitcoin Wallet'
 date: 2024-10-23
 authors:
@@ -67,4 +66,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

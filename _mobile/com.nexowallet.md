@@ -1,5 +1,4 @@
 ---
-wsId: nexo
 title: 'Nexo: Crypto Wealth Platform'
 date: 2026-10-30
 authors:
@@ -63,4 +62,4 @@ all or part of the coins. In any case this app is **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

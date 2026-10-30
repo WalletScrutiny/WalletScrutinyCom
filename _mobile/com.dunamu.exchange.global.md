@@ -1,5 +1,4 @@
 ---
-wsId: UpbitGlobal
 title: Upbit (Global)
 date: 2026-10-30
 authors:
@@ -79,4 +78,4 @@ This is a **custodial** app, and therefore **not verifiable.**
 
 **Update 2026-10-30:** The iPhone app ("Upbit Global") is not in the US App Store but is available in the Singapore App Store, so we set its store country to Singapore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

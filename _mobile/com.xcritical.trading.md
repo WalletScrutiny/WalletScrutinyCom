@@ -1,5 +1,4 @@
 ---
-wsId: xcritical
 title: XCritical
 date: 2025-01-15
 authors:
@@ -63,4 +62,4 @@ Because of the information above, as well as the fact that a majority of exchang
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

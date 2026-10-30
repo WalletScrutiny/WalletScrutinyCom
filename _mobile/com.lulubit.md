@@ -1,5 +1,4 @@
 ---
-wsId: luluBit
 title: 'Lulubit: Compra Bitcoin Cripto'
 date: 2025-11-19
 authors:
@@ -66,4 +65,4 @@ This app is **custodial**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

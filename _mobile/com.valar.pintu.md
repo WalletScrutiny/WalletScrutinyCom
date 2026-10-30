@@ -1,5 +1,4 @@
 ---
-wsId: Pintu
 title: Pintu Trading Crypto & Futures
 date: 2026-10-30
 authors:

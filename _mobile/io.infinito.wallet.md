@@ -1,5 +1,4 @@
 ---
-wsId: InfinitoWallet
 title: Infinito Wallet - Crypto Walle
 date: 2023-08-25
 authors:

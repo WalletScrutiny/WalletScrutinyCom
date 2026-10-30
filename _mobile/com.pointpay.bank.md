@@ -1,5 +1,4 @@
 ---
-wsId: pointpay
 title: 'PointPay: Crypto Wallet App'
 date: 2026-10-30
 authors:

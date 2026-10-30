@@ -1,5 +1,4 @@
 ---
-wsId: ember
 title: Ember - Play Games. Win Big.
 date: 2026-10-30
 authors:
@@ -121,4 +120,4 @@ This app claims to be non-custodial, but with no source to back it up, it is **n
 
 **Update 2026-10-30:** The iPhone app is the same games app, now titled "Ember - Free Games. Big Wins.", and the [wallet wind-down](https://help.emberfund.io/en/articles/12091932-how-do-i-transfer-funds-out-of-my-on-chain-btc-wallet) applies to it too.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: SmartWallet
 title: SmartWallet
 date: 2023-03-21
 authors:
@@ -67,4 +66,4 @@ While we await the reply from the support email, it seems that private keys are 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

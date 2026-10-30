@@ -1,5 +1,4 @@
 ---
-wsId: lnFlash
 title: 'Flash: Rewards & Payments'
 date: 2025-06-13
 authors:
@@ -116,7 +115,7 @@ The app supported both Bitcoin and lightning. We tested this and was provided wi
 {% include featureEvidence.html feature="buyWithCC" source="[Website](https://getflash.io)" quote="Buy Bitcoin" %}
 {% include featureEvidence.html feature="liquid" source="[README](https://github.com/lnflash/flash-mobile#readme)" quote="Seamless integration with Liquid sidechain functionality" %}
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Flash is built on top of the Bitcoin and Lightning Networks." source="Store description" %}
 

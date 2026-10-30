@@ -1,5 +1,4 @@
 ---
-wsId: dzengi
 title: 'Dzengi: Buy BTC & Crypto'
 date: 2024-01-23
 authors:
@@ -67,8 +66,8 @@ The [terms and conditions](https://prod-img.dzengi.com/docs/dzengicom_terms_and_
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 Note 2022-01-09:
 >
-> According to the Android review, this app was falsely marked as wsId currencycominvesting and needs another close look.
+> According to the Android review, this app was falsely linked to the currencycominvesting listing and needs another close look.

@@ -1,5 +1,4 @@
 ---
-wsId: BitOasis
 title: 'BitOasis: Buy Bitcoin & Crypto'
 date: 2026-10-30
 authors:
@@ -82,7 +81,7 @@ As third parties have the 2of3 quorum - BitGo and "an independent law firm" - an
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="buyWithCC" quote="Buy Crypto instantly with a Credit/Debit Card." source="Store" %}
 

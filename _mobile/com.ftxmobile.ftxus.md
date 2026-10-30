@@ -1,5 +1,4 @@
 ---
-wsId: ftxus
 title: 'FTX.US Pro: Trade Crypto'
 date: 2023-01-11
 authors:

@@ -1,5 +1,4 @@
 ---
-wsId: catecoin
 title: Bitcoin Defi Crypto Wallet
 date: 2024-04-19
 authors:
@@ -54,4 +53,4 @@ The app provides a Bitcoin wallet which can send and receive. Backups are also p
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

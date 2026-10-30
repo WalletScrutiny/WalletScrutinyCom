@@ -1,5 +1,4 @@
 ---
-wsId: CointoPayWallet
 title: Cointopay wallet
 date: 2024-05-24
 authors:
@@ -65,4 +64,4 @@ A service that can "refuse to complete, block or reverse a transaction initiated
 
 **Update 2022-04-05**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

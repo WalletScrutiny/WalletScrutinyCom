@@ -1,5 +1,4 @@
 ---
-wsId: garantiBBVAKripto
 title: Garanti BBVA Kripto
 date: 2026-01-23
 authors:
@@ -67,4 +66,4 @@ This is a centralized Turkish exchange, and the use of cold storage implies that
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

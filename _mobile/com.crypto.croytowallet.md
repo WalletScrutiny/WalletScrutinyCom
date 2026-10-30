@@ -1,5 +1,4 @@
 ---
-wsId: iMX
 title: iMX
 date: 2026-02-02
 authors:
@@ -69,4 +68,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: saitaPro
 title: SaitaPro
 date: 2024-10-28
 authors:
@@ -66,4 +65,4 @@ No significant updates regarding source-availability to report.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

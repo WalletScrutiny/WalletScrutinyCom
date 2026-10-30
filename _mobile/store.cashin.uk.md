@@ -1,5 +1,4 @@
 ---
-wsId: BitcoinPoint
 title: BitcoinPoint
 date: 2026-10-30
 authors:
@@ -94,7 +93,7 @@ The wallets are purportedly kept offline in cold storage and there is no evidenc
 
 **Update 2026-10-30:** The iPhone app is now called BCP Markets.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Receive Bitcoin, including Lightning!" source="Store description" %}
 

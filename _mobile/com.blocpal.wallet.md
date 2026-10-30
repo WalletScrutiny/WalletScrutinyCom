@@ -1,5 +1,4 @@
 ---
-wsId: BlocPal
 title: BlocPal Wallet
 date: 2023-01-02
 authors:
@@ -79,4 +78,4 @@ While this app claims to be open-source, we can find no evidence of this being t
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

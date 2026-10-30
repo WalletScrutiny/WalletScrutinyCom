@@ -1,5 +1,4 @@
 ---
-wsId: okxTR
 title: 'OKX TR: Buy Bitcoin & Crypto'
 date: 2025-11-20
 authors:
@@ -63,7 +62,7 @@ This is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Easily discover tokens from thousands of cryptocurrencies, including Bitcoin (BTC), Ethereum (ETH), Ripple (XRP), Tether (USDT), Solana (SOL), Dogecoin (DOGE), and Shiba Inu (SHIB)." source="Store description" %}
 

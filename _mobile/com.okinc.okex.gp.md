@@ -1,5 +1,4 @@
 ---
-wsId: OKEx
 title: 'OKX: Buy Bitcoin BTC & Crypto'
 date: 2026-10-30
 authors:

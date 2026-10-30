@@ -1,5 +1,4 @@
 ---
-wsId: MathWallet
 title: MathWallet1
 date: 2022-10-21
 authors:
@@ -74,4 +73,4 @@ it is **not verifiable**.
 
 **Update 2022-10-21**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

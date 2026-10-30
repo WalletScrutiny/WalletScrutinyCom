@@ -1,5 +1,4 @@
 ---
-wsId: BitKan
 title: 'BitKan: Trade Bitcoin & Crypto'
 date: 2026-10-30
 authors:
@@ -80,7 +79,7 @@ While waiting for their reply, we are going to assume that as the keys are not a
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Spot Trading: Discover the latest crypto gems ahead of the market with BitKan's weekly coin offerings aggregated across Binance, OKX, Bitfinex, Gate, MEXC, Bit, Huobi, MatrixPort, and more!" source="Store" %}
 

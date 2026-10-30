@@ -1,5 +1,4 @@
 ---
-wsId: MobiWallet
 title: Mobi - Crypto Asset Wallet
 date: 2026-10-30
 authors:
@@ -57,4 +56,4 @@ In a page entitled ["How do I access my private keys?"](https://cms.mobi.me/mobi
 
 **Update 2026-10-30:** The iPhone app is still listed, but the website mobi.me is now a [domain for sale](https://www.mobi.me/), and the newest posts we could see on [Mobi's X account](https://x.com/mobimeglobal) are from 2019. Be careful before you send coins to this app.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

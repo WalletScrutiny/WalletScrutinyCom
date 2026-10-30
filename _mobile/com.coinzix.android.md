@@ -1,5 +1,4 @@
 ---
-wsId: coinzix
 title: Coinzix
 date: 2025-02-04
 authors:
@@ -57,4 +56,4 @@ This provider is **custodial**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

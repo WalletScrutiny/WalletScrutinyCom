@@ -1,5 +1,4 @@
 ---
-wsId: protonWallet
 title: 'Proton Wallet: Secure Bitcoin'
 date: 2025-05-20
 authors:
@@ -93,7 +92,7 @@ An issue has been opened at [https://github.com/ProtonWallet/flutter-app/issues/
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="hd" quote="Proton Wallet creates your wallet using a BIP39 standard seed phrase, ensuring seamless recovery and interoperability with other self-custodial wallets, including hardware wallets. This also means you can easily import existing wallets or recover your Proton wallets on other services." source="Store description" %}
 

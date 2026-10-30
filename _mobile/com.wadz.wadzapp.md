@@ -1,5 +1,4 @@
 ---
-wsId: wadzPay
 title: WadzPay
 date: 2024-07-05
 authors:
@@ -77,4 +76,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

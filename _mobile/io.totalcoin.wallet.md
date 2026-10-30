@@ -1,5 +1,4 @@
 ---
-wsId: Totalcoin
 title: Totalcoin - Buy & Sell Bitcoin
 date: 2026-10-30
 authors:

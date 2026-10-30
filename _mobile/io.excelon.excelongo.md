@@ -1,5 +1,4 @@
 ---
-wsId: excelonGo
 title: 'Excelon : Payments unleashed'
 date: 2026-02-02
 authors:
@@ -62,4 +61,4 @@ As a service that allows users to connect their banking account, with the option
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: aximetriaCrypto
 title: 'Aximetria: Buy Bitcoin, Crypto'
 date: 2023-09-08
 authors:
@@ -87,4 +86,4 @@ Aximetria GmbH has two apps which seem to alternate being offline and online.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

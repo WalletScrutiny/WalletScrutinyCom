@@ -1,5 +1,4 @@
 ---
-wsId: AirGapVault
 title: AirGap Vault - Secure Secrets
 date: 2023-12-30
 authors:

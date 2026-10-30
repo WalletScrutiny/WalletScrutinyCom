@@ -1,5 +1,4 @@
 ---
-wsId: FoxOne
 title: FoxOne - BTC,ETH,EOS,Cosmos exchange & wallet
 date: 2026-10-30
 authors:
@@ -66,4 +65,4 @@ All indications point to an app that is **no longer working.**
 
 **Update 2026-10-30:** The shutdown notice covers the iOS app too, so the iPhone verdict also changes from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

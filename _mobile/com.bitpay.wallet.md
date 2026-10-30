@@ -1,5 +1,4 @@
 ---
-wsId: bitpaywallet
 title: 'BitPay: Buy & Trade Bitcoin'
 date: 2023-03-13
 authors:
@@ -73,6 +72,6 @@ An issue has been opened at [https://github.com/bitpay/bitpay-app/issues/1431](h
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 An issue has been opened at [https://github.com/bitpay/bitpay-app/issues/686](https://github.com/bitpay/bitpay-app/issues/686)

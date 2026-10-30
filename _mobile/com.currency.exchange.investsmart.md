@@ -1,5 +1,4 @@
 ---
-wsId: dzengiComInvesting
 title: 'Dzengi: Инвестиции в токены'
 date: 2025-07-18
 authors:
@@ -51,4 +50,4 @@ The use of cold storage is [proof](https://dzengi.com/security) this is a custod
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: Robinhood
 title: 'Robinhood: Trading & Investing'
 date: 2026-10-30
 authors:
@@ -63,4 +62,4 @@ It is currently **not possible to send or receive BTC** to and from your account
 
 **Update 2026-10-30:** Robinhood now lets you send and receive bitcoin ([crypto transfers](https://robinhood.com/us/en/support/articles/crypto-transfers/)), but the coins stay in a Robinhood account; the same page suggests moving them to "an external self-custody wallet, like Robinhood Wallet" ({% include walletLink.html wallet='iphone/com.robinhood.release.Gateway' verdict='true' %}). So we change the verdict from {% include verdictBadge.html verdict="nosendreceive" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}. The FAQ we quote below is gone.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

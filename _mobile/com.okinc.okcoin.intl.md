@@ -1,5 +1,4 @@
 ---
-wsId: Okcoin
 title: Okcoin - Buy Bitcoin & Crypto
 date: 2025-12-15
 authors:
@@ -56,4 +55,4 @@ This probably means that this app is **custodial**, as OkCoin is in charge of yo
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: Ledn
 title: Ledn
 date: 2023-08-25
 authors:
@@ -77,4 +76,4 @@ The app allows users to deposit, withdraw, save and borrow against bitcoin. It f
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

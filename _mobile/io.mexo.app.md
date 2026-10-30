@@ -1,5 +1,4 @@
 ---
-wsId: Mexo
 title: 'TruBit Pro: Crypto Exchange'
 date: 2026-10-30
 authors:
@@ -78,4 +77,4 @@ This app is **custodial** therefore **not verifiable.**
 
 **Update 2026-10-30:** The iPhone app is now called TruBit Pro too, after the [rename of October 3, 2022](https://academy.trubit.com/a-partir-del-3-de-octubre-mexo-sera-trubit-pro).
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

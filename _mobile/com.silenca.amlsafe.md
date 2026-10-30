@@ -1,5 +1,4 @@
 ---
-wsId: amlsafe
 title: Safe3 - Crypto Wallet
 date: 2026-10-30
 authors:

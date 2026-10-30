@@ -1,5 +1,4 @@
 ---
-wsId: speedBitcoinWallet
 title: Speed Wallet - Buy Bitcoin
 date: 2024-03-02
 authors:
@@ -65,7 +64,7 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Lightning Network BTC payments: Experience Bitcoin with instant and low cost BTC transactions." source="Store" %}
 

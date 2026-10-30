@@ -1,5 +1,4 @@
 ---
-wsId: atomex
 title: Atomex - Crypto Wallet & DEX
 date: 2026-10-30
 authors:

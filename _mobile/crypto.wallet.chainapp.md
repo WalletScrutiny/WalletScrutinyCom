@@ -1,5 +1,4 @@
 ---
-wsId: bullDeFi
 title: Bull App - Blockchain Wallet
 date: 2023-12-19
 authors:
@@ -56,4 +55,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

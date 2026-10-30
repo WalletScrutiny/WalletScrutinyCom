@@ -1,5 +1,4 @@
 ---
-wsId: ZelCore
 title: Zelcore - Crypto Wallet
 date: 2026-10-30
 authors:
@@ -78,7 +77,7 @@ verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="segwit" quote="Bitcoin Wallet" source="Website" comment="Insufficient — just mentioning Bitcoin wallet does not explicitly confirm SegWit send+receive support." %}
 

@@ -1,5 +1,4 @@
 ---
-wsId: digitalexchangeid
 title: digitalexchange.id Crypto Aset
 date: 2026-10-30
 authors:
@@ -59,4 +58,4 @@ This app is **custodial** and therefore **not verifiable**
 
 **Update 2026-10-30:** The iPhone app is not gone. It is still in the Indonesian App Store as "digitalexchangeid" by INDONESIA DIGITAL EXCHANGE, PT, with an update in October 2026; we only looked for it in the US store before.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

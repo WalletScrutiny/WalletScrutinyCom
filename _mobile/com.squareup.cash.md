@@ -1,5 +1,4 @@
 ---
-wsId: CashApp
 title: Cash App
 date: 2026-10-30
 authors:

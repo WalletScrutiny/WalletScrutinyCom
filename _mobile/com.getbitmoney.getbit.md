@@ -1,5 +1,4 @@
 ---
-wsId: getbit
 title: GetBit
 date: 2026-05-27
 authors:
@@ -57,4 +56,4 @@ GetBit is a **custodial** Bitcoin broker, not a wallet. Investigation stops here
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

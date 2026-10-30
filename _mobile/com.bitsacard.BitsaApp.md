@@ -1,5 +1,4 @@
 ---
-wsId: bitsa
 title: 'Bitsa: Reloadable Prepaid Card'
 date: 2026-10-30
 authors:
@@ -58,4 +57,4 @@ This app **cannot send or receive BTC.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: koopWallet
 title: KOOP Wallet
 date: 2025-01-27
 authors:
@@ -68,4 +67,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

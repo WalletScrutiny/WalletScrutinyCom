@@ -1,5 +1,4 @@
 ---
-wsId: BitWallet
 title: BitWallet - Buy & Sell Bitcoin
 date: 2025-06-18
 authors:

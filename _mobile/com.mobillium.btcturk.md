@@ -1,5 +1,4 @@
 ---
-wsId: BtcTurk
 title: 'BtcTurk | Bitcoin: Birikim Yap'
 date: 2025-11-05
 authors:
@@ -80,4 +79,4 @@ It is a bit difficult to make a conclusive verdict on this app. However, with th
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

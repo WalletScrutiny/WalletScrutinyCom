@@ -1,5 +1,4 @@
 ---
-wsId: exchange1India
 title: eXchange1:Trade Crypto Futures
 date: 2026-05-27
 authors:
@@ -55,4 +54,4 @@ stops here.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

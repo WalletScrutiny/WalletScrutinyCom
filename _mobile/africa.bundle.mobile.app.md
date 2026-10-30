@@ -1,5 +1,4 @@
 ---
-wsId: africa.bundle
 title: Bundle - Cash & Crypto Wallet
 date: 2026-10-30
 authors:

@@ -1,5 +1,4 @@
 ---
-wsId: bitnovo
 title: Bitnovo - Crypto Wallet
 date: 2026-10-30
 authors:

@@ -1,5 +1,4 @@
 ---
-wsId: tokocrypto
 title: 'Tokocrypto: Buy Bitcoin Crypto'
 date: 2026-10-30
 authors:
@@ -55,4 +54,4 @@ LEARN, BUY, SELL AND INVEST BITCOIN AND CRYPTO ASSETS EASILY AND SAFELY.
 Indonesian App Store as "Tokocrypto Crypto Exchange" by PT. Crypto Indonesia
 Berkat; we only looked for it in the Philippine store before.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

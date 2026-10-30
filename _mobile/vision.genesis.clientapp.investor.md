@@ -1,5 +1,4 @@
 ---
-wsId: GenesisVision
 title: Genesis Vision
 date: 2023-09-04
 authors:
@@ -85,4 +84,4 @@ We'll tentatively label this app as **custodial** and thus **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

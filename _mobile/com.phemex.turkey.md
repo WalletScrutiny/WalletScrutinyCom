@@ -1,5 +1,4 @@
 ---
-wsId: phemexTR
 title: 'Phemex TR: TL ile Bitcoin Al'
 date: 2024-09-08
 authors:
@@ -62,7 +61,7 @@ Related to:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="buyWithCC" quote="Buy Crypto with Industry-Low Fees Using Credit & Debit Cards, Bank Transfer, P2P or other payment methods." source="Store description" %}
 

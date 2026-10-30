@@ -1,5 +1,4 @@
 ---
-wsId: pandar
 title: 'Pandar: Coins, Giftcard & Bill'
 date: 2024-09-02
 authors:
@@ -73,4 +72,4 @@ Based on official documentation from their help center, Pandar offers:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

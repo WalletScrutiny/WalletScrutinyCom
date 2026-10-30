@@ -1,5 +1,4 @@
 ---
-wsId: haqabiCrypto
 title: 'Haqabi: Crypto Wallet'
 date: 2025-11-18
 authors:
@@ -54,4 +53,4 @@ The combination of proprietary "seedless recovery", inability to use the seed ph
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

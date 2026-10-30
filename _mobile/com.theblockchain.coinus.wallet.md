@@ -1,5 +1,4 @@
 ---
-wsId: coinus
 title: 'CoinUs 3.0 : BTC, ETH, ERC20'
 date: 2022-05-31
 authors:
@@ -58,4 +57,4 @@ Thus our verdict is a *self-custodial* wallet, however it has **no source** code
 
 **Update 2022-04-17**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

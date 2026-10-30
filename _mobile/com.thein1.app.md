@@ -1,5 +1,4 @@
 ---
-wsId: in1CryptoWallet
 title: 'IN1: Digital Crypto Wallet App'
 date: 2025-12-16
 authors:
@@ -58,4 +57,4 @@ The usage of cold storage, implies that key management is in the hands of the pr
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

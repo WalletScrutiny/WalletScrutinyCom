@@ -1,5 +1,4 @@
 ---
-wsId: xfrXTrade
 title: 'Xtrade: Forex, Stocks & CFDs'
 date: 2023-11-17
 authors:
@@ -49,4 +48,4 @@ Like most trading platforms it seems to have a **custodial** wallet integrated. 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

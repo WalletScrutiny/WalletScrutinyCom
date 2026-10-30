@@ -1,5 +1,4 @@
 ---
-wsId: phoenix
 title: Phoenix - LN Bitcoin wallet
 bitcoinOrgId: phoenix
 date: 2024-07-05
@@ -67,6 +66,6 @@ An issue has been opened at [https://github.com/ACINQ/phoenix/issues/112](https:
 
 {% include featureEvidence.html feature="foss" source="[App Store](https://apps.apple.com/app/co.acinq.phoenix)" quote="Phoenix is a non-custodial wallet, and is fully open source." %}
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 An issue has been opened at [https://github.com/ACINQ/phoenix/issues/112](https://github.com/ACINQ/phoenix/issues/112)

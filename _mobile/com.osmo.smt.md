@@ -1,5 +1,4 @@
 ---
-wsId: osmoWallet
 title: Osmo Money
 date: 2023-08-24
 authors:
@@ -80,7 +79,7 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="buyWithCC" quote="Tarjeta de Crédito o Débito" source="Website" comment="Website lists credit/debit card as a way to top up the account, implying buying crypto with a credit card." %}
 

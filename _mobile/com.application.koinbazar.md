@@ -1,5 +1,4 @@
 ---
-wsId: koinbazar
 title: 'KoinBX: Indian Crypto Exchange'
 date: 2026-10-30
 authors:
@@ -72,6 +71,6 @@ By most indications, this centralized cryptocurrency exchange is a **custodial**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="passcode, fingerprint verification, two-factor authentication, email encryption, SSL encryption, IP change verification, and anti-phishing codes" source="Store" %}

@@ -1,5 +1,4 @@
 ---
-wsId: trastra
 title: 'TRASTRA: Crypto Card & Wallet'
 date: 2025-05-14
 authors:
@@ -77,4 +76,4 @@ All indications by far indicate that this is a **custodial** service and therefo
 
 **Update 2022-02-26**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

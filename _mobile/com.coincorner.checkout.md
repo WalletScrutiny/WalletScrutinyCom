@@ -1,5 +1,4 @@
 ---
-wsId: coinCornerCheckout
 title: CoinCorner - Checkout
 date: 2025-09-17
 authors:

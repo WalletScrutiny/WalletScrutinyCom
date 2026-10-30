@@ -1,5 +1,4 @@
 ---
-wsId: tangem
 title: Tangem - Hardware Wallet
 date: 2025-03-21
 authors:

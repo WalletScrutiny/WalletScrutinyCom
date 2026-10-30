@@ -1,5 +1,4 @@
 ---
-wsId: bitFlyer
 title: 'bitFlyer: Trade Crypto'
 date: 2026-10-30
 authors:

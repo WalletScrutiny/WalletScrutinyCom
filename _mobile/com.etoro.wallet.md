@@ -1,5 +1,4 @@
 ---
-wsId: etorowallet
 title: eToro Money
 date: 2026-10-30
 authors:

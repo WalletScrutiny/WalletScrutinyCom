@@ -1,5 +1,4 @@
 ---
-wsId: TheCircleWalletApp
 title: The Circle App Wallets
 date: 2023-12-13
 authors:
@@ -56,4 +55,4 @@ We couldn't find a link to their source code and also searched for appID `com.th
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

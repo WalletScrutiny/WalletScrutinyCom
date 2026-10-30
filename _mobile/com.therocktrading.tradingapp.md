@@ -1,5 +1,4 @@
 ---
-wsId: theRockTrading
 title: TheRockTrading
 date: 2023-07-21
 authors:
@@ -69,4 +68,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: ggpWallet
 title: GGP Wallet
 date: 2025-11-18
 authors:
@@ -77,7 +76,7 @@ This app is **not source-available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="buyWithCC" quote="Purchase crypto with Visa, Mastercard, or local payment providers. GGP Wallet integrates six fiat on-ramp services (MoonPay, Simplex, Banxa, and more), supporting multiple currencies, including USD, EUR, GBP, and others." source="Store" %}
 

@@ -1,5 +1,4 @@
 ---
-wsId: Cointral
 title: Cointral | Buy Bitcoin
 date: 2023-01-11
 authors:
@@ -65,4 +64,4 @@ This app is **custodial** and **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: WiseBitcoin
 title: Batonex
 date: 2026-10-30
 authors:
@@ -79,4 +78,4 @@ All evidences point to a **custodial** service whose app **cannot be verified**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

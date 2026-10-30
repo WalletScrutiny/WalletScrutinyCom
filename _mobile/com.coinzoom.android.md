@@ -1,5 +1,4 @@
 ---
-wsId: coinZoom
 title: CoinZoom Buy, Spend, Send BTC
 date: 2023-03-30
 authors:
@@ -84,4 +83,4 @@ This is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

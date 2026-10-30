@@ -1,5 +1,4 @@
 ---
-wsId: hotXexchange
 title: HotX
 date: 2024-08-31
 authors:
@@ -54,4 +53,4 @@ This is a cryptocurrency exchange.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

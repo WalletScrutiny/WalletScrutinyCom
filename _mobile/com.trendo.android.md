@@ -1,5 +1,4 @@
 ---
-wsId: trendofx
 title: 'Trendo: Forex Trading & Broker'
 date: 2023-04-04
 authors:
@@ -103,4 +102,4 @@ For the meantime, with claims to receive cryptocurrencies, but with no proof tha
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: ZixiPay
 title: 'ZixiPay: Crypto Wallet'
 date: 2026-10-30
 authors:
@@ -66,4 +65,4 @@ Without the private keys or mnemonics, this service can only be **custodial**. M
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

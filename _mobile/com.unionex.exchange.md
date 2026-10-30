@@ -1,5 +1,4 @@
 ---
-wsId: unionEx
 title: 'UnionEx: Buy Bitcoin & Crypto'
 date: 2026-05-05
 authors:
@@ -65,4 +64,4 @@ This proves the keys are held by the provider.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: NamiExchange
 title: Nami - Digital asset platform
 date: 2022-07-20
 authors:
@@ -54,4 +53,4 @@ This product is qualifiable as **custodial.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

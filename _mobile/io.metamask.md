@@ -1,5 +1,4 @@
 ---
-wsId: metamask
 title: 'MetaMask: Trade Crypto'
 date: 2025-12-16
 authors:
@@ -75,4 +74,4 @@ This app is **now ready for verification**.
 {% include featureEvidence.html feature="tradeAlts" source="[Website](https://metamask.io/)" quote="Swaps Safely exchange any token" %}
 {% include featureEvidence.html feature="buyWithCC" source="[Website](https://metamask.io/)" quote="Buy Turn cash to crypto" %}
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: keyring
 title: Ethereum Wallet - KEYRING PRO
 date: 2026-10-30
 authors:
@@ -92,4 +91,4 @@ This wallet is **self-custodial.** With no link to a Github account or mention o
 
 **Update 2026-10-30:** The iPhone app is the same KEYRING PRO: its App Store description covers only "Ethereum and EVM-compatible networks", and the same [repository](https://github.com/bacoor-hb/KEYRINGPRO) contains the iOS project. It too gets the verdict {% include verdictBadge.html verdict="nobtc" type='short' %}.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

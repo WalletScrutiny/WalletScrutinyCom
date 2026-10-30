@@ -1,5 +1,4 @@
 ---
-wsId: haxWallet
 title: 'Hax: Crypto & Bitcoin Wallet'
 date: 2025-11-18
 authors:
@@ -81,6 +80,6 @@ This app is **not source-available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Protect your digital assets by setting a PIN code or biometric authentication." source="Store" %}

@@ -1,5 +1,4 @@
 ---
-wsId: coinspace
 title: Coin Wallet - Bitcoin & Crypto
 date: 2023-04-22
 authors:
@@ -199,7 +198,7 @@ An issue has been opened at [https://github.com/CoinSpace/CoinSpace/issues/30](h
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Buy, sell, send & receive crypto using Coin Wallet." source="Store" comment="Swap functionality is also explicitly listed on the website under Swap section for multiple cryptocurrencies." %}
 

@@ -1,5 +1,4 @@
 ---
-wsId: BTSE
 title: 'BTSE: Buy Bitcoin & Crypto'
 date: 2026-10-30
 authors:
@@ -65,4 +64,4 @@ This cryptocurrency exchange is a custodial service with the ability to suspend 
 
 **Update 2026-10-30:** The iPhone app is [listed in Singapore](https://itunes.apple.com/lookup?id=1494556510&country=sg), where it was updated to version 1.147.0 on 2026-10-26.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

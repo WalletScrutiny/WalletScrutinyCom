@@ -1,5 +1,4 @@
 ---
-wsId: coincloud
 title: 'Coin Cloud: Wallet 1.5'
 date: 2023-08-29
 authors:

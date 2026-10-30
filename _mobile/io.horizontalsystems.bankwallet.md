@@ -1,5 +1,4 @@
 ---
-wsId: Unstoppable
 title: 'Unstoppable: Crypto Wallet'
 bitcoinOrgId: unstoppable
 date: 2026-10-30

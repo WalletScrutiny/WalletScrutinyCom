@@ -1,5 +1,4 @@
 ---
-wsId: ePocketExchange
 title: e-Pocket
 date: 2023-09-06
 authors:
@@ -60,4 +59,4 @@ This is a *custodial* platform with a **non-verifiable** app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

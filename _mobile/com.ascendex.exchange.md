@@ -1,5 +1,4 @@
 ---
-wsId: ascendex
 title: 'AscendEX: Buy & Sell Crypto'
 date: 2026-10-30
 authors:

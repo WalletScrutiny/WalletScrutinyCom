@@ -1,5 +1,4 @@
 ---
-wsId: paypal
 title: PayPal - Pay, Send, Save
 date: 2026-10-30
 authors:

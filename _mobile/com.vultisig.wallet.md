@@ -1,5 +1,4 @@
 ---
-wsId: vultisig
 title: 'Vultisig: Seedless MPC Wallet'
 date: 2026-07-28
 authors:
@@ -82,7 +81,7 @@ Our verdict is **sourceavailable**: the Android and iOS source is public and we 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="multiSig" quote="TSS threshold signature technology • Multi-signature security without complexity" source="Store description" %}
 

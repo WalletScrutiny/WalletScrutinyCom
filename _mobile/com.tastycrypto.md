@@ -1,5 +1,4 @@
 ---
-wsId: tastyCrypto
 title: 'tastycrypto: Crypto Wallet'
 date: 2025-12-16
 authors:
@@ -73,7 +72,7 @@ No claims regarding source availability has been made. A search on GitHub Code u
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Swap: Access over 1000+ tokens for in-app trading." source="Store description" %}
 

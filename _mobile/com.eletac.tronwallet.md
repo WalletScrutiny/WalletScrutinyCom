@@ -1,5 +1,4 @@
 ---
-wsId: visionwallet
 title: 'Vision: Bitcoin Crypto Wallet'
 date: 2024-07-17
 authors:

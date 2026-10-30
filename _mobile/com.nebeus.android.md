@@ -1,5 +1,4 @@
 ---
-wsId: nebeus
 title: 'Nebeus: Crypto Finance'
 date: 2023-02-25
 authors:
@@ -62,4 +61,4 @@ This is a **custodial** provider.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

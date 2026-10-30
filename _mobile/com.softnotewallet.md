@@ -1,5 +1,4 @@
 ---
-wsId: softnoteCrypto
 title: 'SoftNote: Secure Crypto Wallet'
 date: 2025-12-08
 authors:
@@ -75,6 +74,6 @@ Therefore, the user never controls Bitcoin keys, and SoftNote should be classifi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Keep your SoftNote account secure with a variety of protection methods including Passcode (Pincode), Touch ID and Face ID for iOS devices." source="Store description" %}

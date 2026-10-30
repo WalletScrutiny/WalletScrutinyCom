@@ -1,5 +1,4 @@
 ---
-wsId: TrustKeys
 title: TrustKeys Web3 SocialFi
 date: 2026-10-30
 authors:
@@ -79,4 +78,4 @@ Claims of decentralization and the provision of private keys lend us to believe 
 
 **Update 2021-10-30**: This app is no more.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

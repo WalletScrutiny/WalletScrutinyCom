@@ -1,5 +1,4 @@
 ---
-wsId: netCoinsCrypto
 title: 'Netcoins: Buy Crypto Easily'
 date: 2025-11-20
 authors:
@@ -57,4 +56,4 @@ The platform uses third-party custodians (BitGo and Fireblocks) to manage user a
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

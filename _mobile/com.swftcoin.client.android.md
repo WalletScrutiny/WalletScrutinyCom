@@ -1,5 +1,4 @@
 ---
-wsId: swft
 title: SWFT Blockchain
 date: 2023-04-16
 authors:

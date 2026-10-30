@@ -1,5 +1,4 @@
 ---
-wsId: CoinFlex
 title: CoinFLEX
 date: 2026-10-30
 authors:
@@ -99,4 +98,4 @@ exchange client, and the
 "CoinFLEX operates with a 99% cold storage policy, with up to only 1% stored in a secure hot wallet". We
 change the verdict from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

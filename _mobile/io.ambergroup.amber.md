@@ -1,5 +1,4 @@
 ---
-wsId: ambercrypto
 title: Amber Premium Global
 date: 2026-10-30
 authors:
@@ -65,4 +64,4 @@ This app is **custodial** and therefore **not verifiable**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

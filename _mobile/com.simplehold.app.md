@@ -1,5 +1,4 @@
 ---
-wsId: simpleholdCrypto
 title: SimpleHold - Crypto Wallet
 date: 2023-09-28
 authors:
@@ -62,4 +61,4 @@ The reviews give us pause as one has indicated that they have allegedly lost fun
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

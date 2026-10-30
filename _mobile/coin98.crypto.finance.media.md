@@ -1,5 +1,4 @@
 ---
-wsId: coin98
 title: 'Coin98: Trade Crypto & Stocks'
 date: 2026-10-30
 authors:
@@ -62,4 +61,4 @@ Our verdict: This 'wallet' claims to be non-custodial but does not provide publi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

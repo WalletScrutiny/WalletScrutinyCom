@@ -1,5 +1,4 @@
 ---
-wsId: plugCrypto
 title: Plug - Crypto Wallet
 date: 2026-01-15
 authors:
@@ -62,7 +61,7 @@ Thus, we cannot claim true self-custody and have to give a **custodial** assessm
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Swap across chains directly in-app" source="Store" %}
 

@@ -1,5 +1,4 @@
 ---
-wsId: XCOEX
 title: 'XCOEX: Cryptocurrency Wallet'
 date: 2025-03-17
 authors:

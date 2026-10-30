@@ -1,5 +1,4 @@
 ---
-wsId: coinspot
 title: CoinSpot - Buy & Sell Bitcoin
 date: 2026-10-30
 authors:
@@ -58,7 +57,7 @@ There are no mentions of private keys or self-custody, so we can assume this app
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="On CoinSpot you also have the ability to instantly swap between one crypto to another." source="Store description" %}
 

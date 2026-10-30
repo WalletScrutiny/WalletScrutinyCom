@@ -1,5 +1,4 @@
 ---
-wsId: CAPITALIKA
 title: CAPITALIKA®
 date: 2025-11-05
 authors:
@@ -65,4 +64,4 @@ We checked [the FAQ page](https://capitalika.com/preguntas-frecuentes#deadLink) 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

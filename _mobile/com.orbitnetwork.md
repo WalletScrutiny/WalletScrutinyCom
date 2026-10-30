@@ -1,5 +1,4 @@
 ---
-wsId: orbitNetwork
 title: Orbit Network
 date: 2025-03-14
 authors:
@@ -75,4 +74,4 @@ Users should be wary with this app, **although it may be possible to deposit, it
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

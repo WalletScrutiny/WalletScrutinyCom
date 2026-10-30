@@ -1,5 +1,4 @@
 ---
-wsId: cryptoComDefi
 title: 'Ult: Trade Stocks & Crypto'
 date: 2026-10-30
 authors:
@@ -84,7 +83,7 @@ their website:
 
 **Update 2026-10-30:** As on Android, the iPhone app is now "Ult" by Cronos Labs ([ult.trade](https://ult.trade/)).
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="hd" quote="If you have an existing wallet created on other applications, you can easily import it by entering or copying your 12/18/24-word recovery phrase to Crypto.com Onchain." source="Website" %}
 

@@ -1,5 +1,4 @@
 ---
-wsId: crossTowerIn
 title: CrossTower
 date: 2023-08-04
 authors:
@@ -54,4 +53,4 @@ The provider retains control of the private keys and is thus a **custodial** ser
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: NitroEXexchangeapp
 title: NitroEx Exchange
 date: 2026-01-08
 authors:
@@ -64,4 +63,4 @@ This service is **custodial** and the app **cannot be verified.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

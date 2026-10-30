@@ -1,5 +1,4 @@
 ---
-wsId: SwipeWallet
 title: Swipe Wallet
 date: 2026-10-30
 authors:
@@ -85,4 +84,4 @@ Anyway, this is all **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

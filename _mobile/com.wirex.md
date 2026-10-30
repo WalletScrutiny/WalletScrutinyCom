@@ -1,5 +1,4 @@
 ---
-wsId: wirex
 title: 'Wirex: All-In-One Crypto App'
 date: 2026-10-30
 authors:
@@ -59,4 +58,4 @@ This makes the app custodial and also not verifiable.
 
 **Update 2026-10-30:** The [Wirex One FAQ](https://help.wirexapp.com/article/wirex-one-upgrade-faq-1685) applies here too; Wirex One is in the UK App Store, published by Wirex Limited.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

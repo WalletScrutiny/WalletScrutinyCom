@@ -1,5 +1,4 @@
 ---
-wsId: DopamineBitcoin
 title: DOPAMINE - Bitcoin & Crypto
 date: 2026-10-30
 authors:
@@ -87,4 +86,4 @@ They service claims to offer a self-custodial app, but we were **not able to fin
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

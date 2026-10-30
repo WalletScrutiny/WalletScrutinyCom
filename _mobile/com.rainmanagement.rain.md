@@ -1,5 +1,4 @@
 ---
-wsId: rainfinancial
 title: 'Rain: Buy & Sell Bitcoin'
 date: 2026-10-30
 authors:
@@ -67,4 +66,4 @@ Despite our inability to successfully use and register the app, it is clear that
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

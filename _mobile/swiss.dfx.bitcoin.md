@@ -1,5 +1,4 @@
 ---
-wsId: dfxBTCTaroWallet
 title: DFX BTC Taro Wallet
 date: 2026-01-03
 authors:
@@ -84,7 +83,7 @@ An issue has been opened at [https://github.com/DFXswiss/btc-wallet/issues/167](
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Lightning Network supported" source="GitHub README" %}
 

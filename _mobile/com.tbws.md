@@ -1,5 +1,4 @@
 ---
-wsId: theBlackWallStreet
 title: The Black Wall Street
 date: 2024-07-25
 authors:
@@ -63,4 +62,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

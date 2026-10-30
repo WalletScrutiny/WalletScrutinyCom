@@ -1,5 +1,4 @@
 ---
-wsId: UnodaxExchange
 title: Unodax Exchange
 date: 2026-10-30
 authors:
@@ -65,4 +64,4 @@ Our verdict for this app is **custodial** and thus **not verifiable.**
 
 **Update 2026-10-30:** Unodax has merged into [Unocoin](https://unocoin.com/in/), whose iPhone app is {% include walletLink.html wallet='iphone/com.unocoin.mainapp.production' verdict='true' %}.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

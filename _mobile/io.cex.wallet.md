@@ -1,5 +1,4 @@
 ---
-wsId: cexCryptoWallet
 title: CEX.IO App - Crypto Wallet
 date: 2024-04-19
 authors:
@@ -65,4 +64,4 @@ In the same vein as the apps related to cex described above are **custodial**, t
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

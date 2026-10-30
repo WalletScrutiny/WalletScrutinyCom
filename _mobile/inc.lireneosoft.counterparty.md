@@ -1,5 +1,4 @@
 ---
-wsId: indieSquare
 title: IndieSquare Wallet
 date: 2024-02-05
 authors:
@@ -69,6 +68,6 @@ We can still say that this app has **not adequately provided verifiable source c
 
 ## iPhone
 
-{**Update 2022-10-21**: This app is not available anymore.
+**Update 2022-10-21**: This app is not available anymore.
 
-% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: ethosUW
 title: Ethos Universal Wallet
 date: 2022-10-21
 website: https://www.ethos.io/

@@ -1,5 +1,4 @@
 ---
-wsId: iCrypex
 title: 'ICRYPEX TR: Bitcoin, Kripto Al'
 date: 2022-06-24
 authors:
@@ -67,4 +66,4 @@ As a digital asset exchange, this is a **custodial** service. When ICRYPEX menti
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

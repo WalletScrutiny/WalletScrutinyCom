@@ -1,5 +1,4 @@
 ---
-wsId: capexExchange
 title: Capex exchange
 date: 2024-07-05
 authors:
@@ -61,4 +60,4 @@ We did not find any explicit mention of whether the exchange utilizes cold-stora
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

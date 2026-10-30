@@ -1,5 +1,4 @@
 ---
-wsId: pxqWallet
 title: 'PXQ Wallet: Custom Seed Wallet'
 date: 2024-07-05
 authors:
@@ -66,4 +65,4 @@ The provider claims that the private keys are stored on the user's device, thus 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

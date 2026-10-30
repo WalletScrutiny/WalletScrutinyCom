@@ -1,5 +1,4 @@
 ---
-wsId: xInfinity
 title: X Infinity
 date: 2023-08-16
 authors:
@@ -60,4 +59,4 @@ This is a **custodial** service and thus, not-verifiable.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

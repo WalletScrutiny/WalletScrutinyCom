@@ -1,5 +1,4 @@
 ---
-wsId: gate.io
 title: 'Gate: Buy Bitcoin & Crypto'
 date: 2026-10-30
 authors:
@@ -58,4 +57,4 @@ We mark this wallet as **custodial** and therefore **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: huskyhdw20
 title: Husky HDW20 Hardware Wallet
 date: 2023-12-19
 website: https://www.huskywallet.com/

@@ -1,5 +1,4 @@
 ---
-wsId: ZcomEx
 title: Z.com EX - Buy/Sell Bitcoin
 date: 2026-10-30
 authors:
@@ -78,4 +77,4 @@ This is a **custodial** app and thus **not verifiable**.
 
 **Update 2026-10-30:** The iPhone app falls under the same [pending sale to Bitget](https://bitpinas.com/business/bitget-thailand-gmo-z-com-cryptonomics) as the Android app.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

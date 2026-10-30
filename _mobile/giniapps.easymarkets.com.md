@@ -1,5 +1,4 @@
 ---
-wsId: easyMarkets
 title: easyMarkets Online Trading
 date: 2026-10-30
 authors:
@@ -59,4 +58,4 @@ The platform is proprietary, **custodial** and therefore **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

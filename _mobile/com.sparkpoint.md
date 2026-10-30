@@ -1,5 +1,4 @@
 ---
-wsId: sparkPoint
 title: SparkPoint Crypto Wallet
 date: 2024-08-31
 authors:
@@ -59,4 +58,4 @@ We were not able to find the source code nor any references to its availability 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

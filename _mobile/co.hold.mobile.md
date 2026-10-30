@@ -1,5 +1,4 @@
 ---
-wsId: coholdmobile
 title: HOLD — Buy Bitcoin & Crypto
 date: 2023-05-10
 authors:
@@ -53,4 +52,4 @@ This app is a custodial offering and thus **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

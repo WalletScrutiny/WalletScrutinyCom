@@ -1,5 +1,4 @@
 ---
-wsId: coinRepublic
 title: 'CoinRepublic: Buy BTC Crypto'
 date: 2023-05-17
 authors:
@@ -52,4 +51,4 @@ As stated, this app is **custodial**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

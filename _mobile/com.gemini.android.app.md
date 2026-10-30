@@ -1,5 +1,4 @@
 ---
-wsId: geminiwallet
 title: Gemini Markets & Credit Card
 date: 2026-10-30
 authors:

@@ -1,5 +1,4 @@
 ---
-wsId: oppiWallet
 title: 'Oppi: Crypto Wallet & Card'
 date: 2025-11-20
 authors:
@@ -71,4 +70,4 @@ There were no claims regarding source-availability and a [search for the app ID]
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

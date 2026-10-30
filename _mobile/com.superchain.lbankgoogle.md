@@ -1,5 +1,4 @@
 ---
-wsId: LBank
 title: LBank - Buy Bitcoin & Crypto
 date: 2026-10-30
 authors:
@@ -69,4 +68,4 @@ LBank app is **custodial** and thus **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

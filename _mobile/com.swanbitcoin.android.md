@@ -1,5 +1,4 @@
 ---
-wsId: swanBitcoin
 title: 'Swan Bitcoin: Buy & Save'
 date: 2023-07-17
 authors:
@@ -59,7 +58,7 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="multiSig" quote="With features like 72-hour withdrawal holds and multi-signature protection, your Bitcoin stays safe even if you lose your keys." source="Store description" %}
 

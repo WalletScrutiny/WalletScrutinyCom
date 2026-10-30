@@ -1,5 +1,4 @@
 ---
-wsId: coinGrig
 title: 'Coingrig: Digital Wallet'
 date: 2023-08-04
 authors:
@@ -74,4 +73,4 @@ An issue has been opened at [https://github.com/coingrig/coingrig-wallet/issues/
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: maicoin
 title: MaiCoin - Buy Bitcoin & Crypto
 date: 2026-10-30
 authors:
@@ -62,4 +61,4 @@ As the keys are on the side of the providers that means this app is **custodial*
 
 **Update 2026-10-30:** The iPhone app is missing from the US App Store but is still listed in Taiwan as "MaiCoin - 買賣比特幣", so we set the store country to Taiwan.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

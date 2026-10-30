@@ -1,5 +1,4 @@
 ---
-wsId: korbit
 title: 디지털엑스 - 디지털자산 거래소
 date: 2026-10-30
 authors:
@@ -51,4 +50,4 @@ Verdict is **custodial** and **not verifiable**
 
 **Update 2026-10-30:** The iPhone app is now also under the Digital X name; see the Android section.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

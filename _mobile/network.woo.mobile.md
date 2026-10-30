@@ -1,5 +1,4 @@
 ---
-wsId: wooXTrading
 title: 'WOO X: Smart Crypto Trading'
 date: 2023-04-15
 authors:
@@ -57,4 +56,4 @@ As it states on its description, they have partnered with Fireblocks for the **c
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

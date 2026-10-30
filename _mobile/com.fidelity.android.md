@@ -1,5 +1,4 @@
 ---
-wsId: fidelityInvestments
 title: Fidelity Investments
 date: 2025-11-14
 authors:
@@ -62,4 +61,4 @@ This is a **custodial** service as noted in the [footer of this fidelity page.](
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

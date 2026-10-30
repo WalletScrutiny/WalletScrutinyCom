@@ -1,5 +1,4 @@
 ---
-wsId: MuchBetter
 title: MuchBetter
 date: 2026-10-30
 authors:

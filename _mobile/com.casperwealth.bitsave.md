@@ -1,5 +1,4 @@
 ---
-wsId: bitsaveBitcoin
 title: 'BitSave: Bitcoin & Crypto SIP'
 date: 2026-01-16
 authors:
@@ -55,4 +54,4 @@ BitSave [states](https://www.bitsave.club/post/bitsave-partners-up-with-liminal-
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

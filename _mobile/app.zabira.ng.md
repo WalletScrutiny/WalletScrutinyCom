@@ -1,5 +1,4 @@
 ---
-wsId: zabiraBuyBTC
 title: 'Zabira: Buy BTC, ETH & Crypto'
 date: 2023-12-19
 authors:
@@ -64,4 +63,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

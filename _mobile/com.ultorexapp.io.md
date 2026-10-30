@@ -1,5 +1,4 @@
 ---
-wsId: ultorex
 title: Ultorex
 date: 2024-11-28
 authors:
@@ -54,4 +53,4 @@ This cryptocurrency-exchange based in St. Vincent and Grenadines, stores user's 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

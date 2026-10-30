@@ -1,5 +1,4 @@
 ---
-wsId: wota
 title: 'Wota: Amplify Your Crypto'
 date: 2026-05-05
 authors:
@@ -63,4 +62,4 @@ This app may support Bitcoin deposits, but it is a centralized finance account s
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

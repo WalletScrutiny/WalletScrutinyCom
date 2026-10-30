@@ -1,5 +1,4 @@
 ---
-wsId: SovereignWallet
 title: SovereignWallet, Sovereign Wallet, MUI, MUI Token
 date: 2026-10-30
 authors:
@@ -99,4 +98,4 @@ The wallet's developers claim to support other cryptocurrencies including Bitcoi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

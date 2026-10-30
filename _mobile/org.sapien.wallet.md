@@ -1,5 +1,4 @@
 ---
-wsId: SapienWallet
 title: Sapien Wallet
 date: 2025-02-26
 authors:
@@ -64,4 +63,4 @@ This is evidently a self-custodial wallet since it provided the mnemonics and th
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

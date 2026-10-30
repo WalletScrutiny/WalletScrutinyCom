@@ -1,5 +1,4 @@
 ---
-wsId: lemonCash
 title: Lemon - Billetera Virtual
 date: 2025-11-12
 authors:
@@ -53,4 +52,4 @@ This is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

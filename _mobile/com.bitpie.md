@@ -1,5 +1,4 @@
 ---
-wsId: bitpie
 title: Bitpie Wallet
 date: 2026-10-30
 authors:
@@ -106,7 +105,7 @@ give the verdict: **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Protect all of your payments with Face ID, Touch ID, or a passcode." source="Store" %}
 

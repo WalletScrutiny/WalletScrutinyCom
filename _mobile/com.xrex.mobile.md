@@ -1,5 +1,4 @@
 ---
-wsId: XRex
 title: XREX:Buy Crypto,Bitcoin & USDT
 date: 2026-10-30
 authors:
@@ -57,4 +56,4 @@ Cryptocurrency exchanges that have banking partners that let users buy cryptocur
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: ccwallet
 title: 'CCWallet: Your Bitcoin Wallet.'
 date: 2026-10-30
 authors:
@@ -194,6 +193,6 @@ An issue has been opened at [https://github.com/coincasso/ccwallet/issues/1](htt
 
 **Update 2021-09-11**: This app is not on the App Store anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 An issue has been opened at [https://github.com/coincasso/ccwallet/issues/1](https://github.com/coincasso/ccwallet/issues/1)

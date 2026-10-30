@@ -1,5 +1,4 @@
 ---
-wsId: easyCryptoWallet
 title: 'Easy Crypto Wallet: Buy BTC'
 date: 2025-11-20
 authors:
@@ -59,4 +58,4 @@ In March 2025, Australian exchange Swyftx [acquired Easy Crypto](https://swyftx.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

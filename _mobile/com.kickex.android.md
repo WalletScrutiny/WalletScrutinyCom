@@ -1,5 +1,4 @@
 ---
-wsId: kickexExchange
 title: KICKEX SECURELY CRYPTOCURRENCY
 date: 2024-11-29
 authors:
@@ -61,4 +60,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

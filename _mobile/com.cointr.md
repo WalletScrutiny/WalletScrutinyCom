@@ -1,5 +1,4 @@
 ---
-wsId: coinTR
 title: "CoinTR |\_Bitcoin & Crypto"
 date: 2023-08-19
 authors:
@@ -79,4 +78,4 @@ There is another version of this app at:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

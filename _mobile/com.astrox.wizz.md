@@ -1,5 +1,4 @@
 ---
-wsId: wizzWallet
 title: WizzWallet
 date: 2025-11-03
 authors:
@@ -66,7 +65,7 @@ This app's source is **not available publicly**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="segwit" quote="Support legacy, segwit, taproot address types." source="Store" %}
 

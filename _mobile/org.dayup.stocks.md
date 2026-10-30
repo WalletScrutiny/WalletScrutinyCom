@@ -1,5 +1,4 @@
 ---
-wsId: webull
 title: 'Webull: Investing & Trading'
 date: 2026-10-30
 authors:

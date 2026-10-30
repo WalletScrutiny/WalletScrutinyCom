@@ -1,5 +1,4 @@
 ---
-wsId: NetCentsCryptoWallet
 title: NetCents Cryptocurrency Wallet
 date: 2023-01-11
 authors:
@@ -79,4 +78,4 @@ The service is **custodial**, which means that the **app cannot be verified**.
 
 ## iPhone
 
-{%include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

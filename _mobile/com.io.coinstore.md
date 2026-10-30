@@ -1,5 +1,4 @@
 ---
-wsId: coinStore
 title: Coinstore:Trade Crypto&Futures
 date: 2022-06-24
 authors:
@@ -60,4 +59,4 @@ All of these are indications that this is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

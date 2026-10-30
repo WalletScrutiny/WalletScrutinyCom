@@ -1,5 +1,4 @@
 ---
-wsId: safepal
 title: 'SafePal: Crypto Wallet BTC NFT'
 date: 2026-10-30
 authors:

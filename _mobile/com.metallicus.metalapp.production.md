@@ -1,5 +1,4 @@
 ---
-wsId: MetalPay
 title: 'Metal Pay: Buy Bitcoin and ETH'
 date: 2026-10-30
 authors:
@@ -64,4 +63,4 @@ As the terms and conditions state above, this service uses other services to pro
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

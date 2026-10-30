@@ -1,5 +1,4 @@
 ---
-wsId: vipsFinstock
 title: 'VIPS Finstock: Buy/Sell Crypto'
 date: 2024-04-03
 authors:
@@ -67,4 +66,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

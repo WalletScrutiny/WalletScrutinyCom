@@ -6,7 +6,7 @@ import {
   setAndroidAlternativeStore
 } from '../../scripts/alternativeStoresFrontmatter.mjs';
 
-const page = (android) => `---\nwsId: x\nandroid:\n${android}\nstripped: true\n---\n\nBody text.\n`;
+const page = (android) => `---\nandroid:\n${android}\nstripped: true\n---\n\nBody text.\n`;
 
 describe('setAndroidAlternativeStore', () => {
   test('inserts a new list right after appId', () => {

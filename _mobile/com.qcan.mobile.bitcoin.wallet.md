@@ -1,5 +1,4 @@
 ---
-wsId: Qcan
 title: Mobile Bitcoin Wallet
 date: 2025-04-09
 authors:
@@ -54,4 +53,4 @@ website can we find a link to source code. This app is thus **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

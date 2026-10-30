@@ -1,5 +1,4 @@
 ---
-wsId: CWExchangeAndCard
 title: CryptoWallet | Exchange & Card
 date: 2026-10-30
 authors:
@@ -99,4 +98,4 @@ response from the dev team.
 
 **Update 2026-10-30:** The [archived 2021 website](https://web.archive.org/web/20211120121143/https://cryptowallet.com/) ("CryptoWallet is secured by BitGo" with "multi-signature cold storage") and the closing notice, which has customers request withdrawals of their funds, show the provider held the coins. We change the verdict from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

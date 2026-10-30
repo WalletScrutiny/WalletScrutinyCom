@@ -1,5 +1,4 @@
 ---
-wsId: primalNostr
 title: Primal
 date: 2024-03-02
 authors:
@@ -70,4 +69,4 @@ The terms are only visible from the Android app which is still in early testing:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

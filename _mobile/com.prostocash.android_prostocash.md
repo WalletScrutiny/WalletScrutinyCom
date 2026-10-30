@@ -1,5 +1,4 @@
 ---
-wsId: prostocash
 title: Prostocash – обменять Биткоин
 date: 2025-01-15
 authors:
@@ -57,4 +56,4 @@ We believe this service is **custodial** because of this 'Internal Balance'. Acc
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

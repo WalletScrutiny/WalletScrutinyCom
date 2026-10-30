@@ -1,5 +1,4 @@
 ---
-wsId: deribitOptions
 title: 'Deribit: BTC Options & Futures'
 date: 2023-03-31
 authors:
@@ -67,6 +66,6 @@ As an exchange, we found no options to backup the private keys. The terms and co
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Our app is built with robust security features, such as two-factor authentication, Biometrics, PIN-code and Restricted API login to ensure that your trading activities are safe and secure." source="Store description" %}

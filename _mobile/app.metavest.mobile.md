@@ -1,5 +1,4 @@
 ---
-wsId: metavestCryptoBank
 title: 'Metavest: AI Portfolio Agent'
 date: 2023-08-08
 authors:
@@ -64,4 +63,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

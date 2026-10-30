@@ -1,5 +1,4 @@
 ---
-wsId: ceffuCustody
 title: 'Ceffu: Institutional Custody'
 date: 2023-07-21
 authors:
@@ -61,6 +60,6 @@ Other than explicitly offering a "custody service" the provider also promotes it
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="multiSig" quote="multi-signature authorization" source="Store description" %}

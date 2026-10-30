@@ -1,5 +1,4 @@
 ---
-wsId: lanistar
 title: Lanistar
 date: 2025-03-11
 authors:
@@ -73,4 +72,4 @@ We invite people residing in Brazil to contribute information when they can abou
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

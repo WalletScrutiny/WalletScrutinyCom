@@ -1,5 +1,4 @@
 ---
-wsId: tomyaApp
 title: Tomya  Güvenli Kripto Yatırımı
 date: 2025-02-04
 authors:
@@ -62,4 +61,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

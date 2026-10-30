@@ -1,5 +1,4 @@
 ---
-wsId: ctrlWallet
 title: Ctrl Wallet
 date: 2024-09-24
 authors:
@@ -62,4 +61,4 @@ We also posted on [x.com](https://x.com/dannybuntu/status/1900819210101813276) t
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

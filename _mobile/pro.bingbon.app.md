@@ -1,5 +1,4 @@
 ---
-wsId: bingbon
 title: 'BingX: Buy Crypto & Stocks'
 date: 2024-10-07
 authors:

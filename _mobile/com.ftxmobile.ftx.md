@@ -1,5 +1,4 @@
 ---
-wsId: FTXPro
 title: 'FTX Pro: Trade Crypto'
 date: 2023-01-02
 authors:

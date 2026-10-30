@@ -1,5 +1,4 @@
 ---
-wsId: balletcrypto
 title: Ballet Crypto
 date: 2026-10-30
 website: https://www.ballet.com/

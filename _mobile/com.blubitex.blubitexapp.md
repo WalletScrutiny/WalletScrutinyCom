@@ -1,5 +1,4 @@
 ---
-wsId: Blubitex
 title: Blubitex
 date: 2023-08-04
 authors:
@@ -57,4 +56,4 @@ Tentatively, we assume there is **no source** for the current release. We'll the
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: sessip
 title: Sessip
 date: 2024-11-30
 authors:
@@ -78,4 +77,4 @@ Until such time the provider responds to our question, we see that most indicati
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

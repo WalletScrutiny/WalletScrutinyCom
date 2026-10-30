@@ -1,5 +1,4 @@
 ---
-wsId: gbtcFinance
 title: GBTC Finance - Compra Bitcoin
 date: 2025-12-27
 authors:
@@ -65,4 +64,4 @@ This shows that **key material is held and custodied by the service**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

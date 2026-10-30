@@ -1,5 +1,4 @@
 ---
-wsId: beloCrypto
 title: 'belo: global wallet'
 date: 2023-06-30
 authors:
@@ -80,4 +79,4 @@ The [Terms](https://help.belo.app/es/articles/5362779-terminos-y-condiciones-gen
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

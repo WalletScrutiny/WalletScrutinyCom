@@ -1,5 +1,4 @@
 ---
-wsId: FlareWallet
 title: Flare Wallet
 date: 2026-10-30
 authors:
@@ -60,4 +59,4 @@ description so the app is **not verifiable**.
 
 **Update 2022-03-23**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

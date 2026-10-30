@@ -1,5 +1,4 @@
 ---
-wsId: ellyCrypto
 title: Elly, crypto wallet app
 date: 2025-07-03
 authors:
@@ -73,4 +72,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

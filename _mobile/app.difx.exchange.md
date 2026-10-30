@@ -1,5 +1,4 @@
 ---
-wsId: dIFXExchange
 title: 'DIFX Exchange : Buy Crypto'
 date: 2023-06-29
 authors:
@@ -58,4 +57,4 @@ As the Google Play description says, the centralized exchange uses cold storage.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: FrancExchange
 title: Franc Exchange
 date: 2026-10-30
 authors:
@@ -86,4 +85,4 @@ As such, we will mark this app as **defunct.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

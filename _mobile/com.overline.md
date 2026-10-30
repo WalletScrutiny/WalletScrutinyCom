@@ -1,5 +1,4 @@
 ---
-wsId: overlineNetwork
 title: Overline
 date: 2023-08-16
 authors:
@@ -61,4 +60,4 @@ We installed the app and these are our findings:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

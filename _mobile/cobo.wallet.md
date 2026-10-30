@@ -1,5 +1,4 @@
 ---
-wsId: cobowallet
 title: Cobo Wallet
 date: 2026-10-30
 authors:
@@ -87,7 +86,7 @@ verdict has to be: this wallet is **not verifiable**.
 
 **Update 2026-10-30:** The iPhone app falls under the same [shutdown on 2026-12-01](https://www.cobo.com/zh/post/Cobo-Wallet-2026-10-15-1406) as the Android app. Withdraw any funds before then.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="hd" quote="Hierarchical Deterministic (HD) Wallet Take full control of your digital assets and private keys for maximum safety Easily import your mnemonic seeds from other wallets you may own" source="Store description" %}
 

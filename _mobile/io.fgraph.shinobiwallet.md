@@ -1,5 +1,4 @@
 ---
-wsId: shinobiWalletWeb3
 title: Shinobi Wallet · DeFi & Web3
 date: 2026-02-20
 authors:
@@ -71,4 +70,4 @@ Our review has found no proof that the source code for this app is accessible to
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

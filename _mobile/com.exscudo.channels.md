@@ -1,5 +1,4 @@
 ---
-wsId: exscudo
 title: 'Fintap: BTC, ETH Crypto Wallet'
 date: 2026-10-30
 authors:

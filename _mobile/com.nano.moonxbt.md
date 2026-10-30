@@ -1,5 +1,4 @@
 ---
-wsId: MoonXBT
 title: MoonXBT - Social Trading
 date: 2025-02-26
 authors:
@@ -69,4 +68,4 @@ The conversion of deposits and withdrawals from BTC to USDT, and USDT to BTC can
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

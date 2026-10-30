@@ -1,5 +1,4 @@
 ---
-wsId: sparkWallet
 title: 'Spark Wallet: Earn Rewards'
 date: 2025-08-18
 authors:
@@ -52,4 +51,4 @@ This *custodial* service provider makes this app **non-verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

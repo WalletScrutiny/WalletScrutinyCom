@@ -1,5 +1,4 @@
 ---
-wsId: PayBito
 title: PayBito - Trade Bitcoin and Crypto
 date: 2026-10-30
 authors:
@@ -77,4 +76,4 @@ This app is **custodial** and thus **not verifiable.**
 
 **Update 2026-10-30:** The iPhone app is now called "PayBitoPro".
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

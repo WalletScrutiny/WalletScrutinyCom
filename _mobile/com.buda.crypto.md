@@ -1,5 +1,4 @@
 ---
-wsId: buda
 title: Buda.com
 date: 2026-10-30
 authors:

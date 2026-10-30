@@ -1,5 +1,4 @@
 ---
-wsId: independentReserveExchange
 title: Independent Reserve Buy Crypto
 date: 2023-07-01
 authors:
@@ -76,7 +75,7 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Security is always our top priority: 2FA, biometric authentication and data encryption" source="Store" %}
 

@@ -1,5 +1,4 @@
 ---
-wsId: roseon
 title: 'Roseon: Trade & Earn'
 date: 2025-11-05
 authors:
@@ -95,4 +94,4 @@ While we await the response of Roseon Finance, we would have to give this a verd
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

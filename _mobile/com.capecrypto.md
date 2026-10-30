@@ -1,5 +1,4 @@
 ---
-wsId: capeCryptoExchange
 title: Cape Crypto Exchange
 date: 2023-09-06
 authors:
@@ -68,7 +67,7 @@ Although not directly stated or described. The lack of private key backup mechan
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="BTC Lightning Deposit and withdraw Bitcoin on the Lightning network for instant BTC transfers" source="Website" %}
 

@@ -1,5 +1,4 @@
 ---
-wsId: TokoinTWallet
 title: My-T Wallet
 date: 2025-01-15
 authors:
@@ -61,4 +60,4 @@ Evidently, this is a **self-custodial** app. However we could not find a link to
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: STICPAY
 title: STICPAY
 date: 2026-10-30
 authors:
@@ -60,4 +59,4 @@ Presumably, the funds are under custody of the providers and identity verificati
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

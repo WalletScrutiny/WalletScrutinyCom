@@ -1,5 +1,4 @@
 ---
-wsId: cash2bitcoinWallet
 title: Cash2Bitcoin Wallet
 date: 2025-11-13
 authors:
@@ -51,4 +50,4 @@ The Play Store listing states that the wallet integrates with Cash2Bitcoin’s b
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

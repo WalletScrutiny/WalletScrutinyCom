@@ -1,5 +1,4 @@
 ---
-wsId: UpholdbuyandsellBitcoin
 title: 'Uphold: Trade crypto & stocks'
 date: 2026-10-30
 authors:

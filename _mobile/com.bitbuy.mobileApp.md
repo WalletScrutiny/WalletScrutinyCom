@@ -1,5 +1,4 @@
 ---
-wsId: bitbuy
 title: 'Bitbuy: Buy Bitcoin Canada'
 date: 2026-10-30
 authors:
@@ -60,4 +59,4 @@ Prior to purchasing Bitcoin, users are also mandated to pass KYC procedures.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

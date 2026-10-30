@@ -1,5 +1,4 @@
 ---
-wsId: OceanEX
 title: OceanEx
 date: 2024-10-08
 authors:
@@ -65,4 +64,4 @@ The app is **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

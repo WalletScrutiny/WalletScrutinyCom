@@ -1,5 +1,4 @@
 ---
-wsId: webullPay
 title: 'Webull Pay: Crypto Buy & Sell'
 date: 2025-12-26
 authors:
@@ -67,4 +66,4 @@ This is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

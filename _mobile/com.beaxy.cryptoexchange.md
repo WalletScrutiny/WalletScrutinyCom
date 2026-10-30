@@ -1,5 +1,4 @@
 ---
-wsId: Beaxy
 title: Beaxy Exchange
 date: 2023-05-10
 authors:
@@ -58,4 +57,4 @@ Verdict is **custodial** and thus **not verifiable**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

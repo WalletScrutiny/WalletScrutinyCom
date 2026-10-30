@@ -1,5 +1,4 @@
 ---
-wsId: mpcvaultMultisig
 title: MPCVault - Multisig Wallet
 date: 2025-11-20
 authors:
@@ -74,7 +73,7 @@ According to WalletScrutiny's custodial verdict criteria, products that "claim t
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="multiSig" quote="Supports creating multiple independent wallets for different use cases and multisig transaction policies." source="Store description" %}
 

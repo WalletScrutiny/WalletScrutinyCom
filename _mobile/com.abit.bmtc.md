@@ -1,5 +1,4 @@
 ---
-wsId: Abit
 title: ABIT
 date: 2026-10-30
 authors:
@@ -48,4 +47,4 @@ This service is defunct.
 
 **Update 2026-10-30:** An [archived copy of its App Store page](https://web.archive.org/web/20220625205100/https://apps.apple.com/us/app/abit/id1523980355) carries the same exchange description as the Android one, so the verdict changes from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %} here too.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: nayutaCore2
 title: Nayuta Wallet
 date: 2024-07-05
 authors:
@@ -81,4 +80,4 @@ An issue has been opened at [https://github.com/nayutaco/NayutaWalletApp/pull/2/
 
 **Note:** iPhone products are not verifiable.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

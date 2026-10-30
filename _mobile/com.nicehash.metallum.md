@@ -1,5 +1,4 @@
 ---
-wsId: niceHash
 title: NiceHash
 date: 2022-06-24
 authors:
@@ -89,4 +88,4 @@ The wallet service component of NiceHash is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

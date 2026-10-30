@@ -1,5 +1,4 @@
 ---
-wsId: CoinBaazar
 title: Coinbaazar- Crypto Marketplace
 date: 2025-11-26
 authors:
@@ -62,4 +61,4 @@ Peer-to-peer trading platforms are usually **custodial** due to the nature of th
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

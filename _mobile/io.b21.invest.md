@@ -1,5 +1,4 @@
 ---
-wsId: B21Crypto
 title: 'B21 Crypto: Invest | Earn | Sp'
 date: 2023-01-30
 authors:
@@ -66,4 +65,4 @@ We can conclude that this is a **custodial** wallet, thus **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

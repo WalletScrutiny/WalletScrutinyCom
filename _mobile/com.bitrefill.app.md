@@ -1,5 +1,4 @@
 ---
-wsId: bitrefill
 title: 'Bitrefill: Gift Card & Games'
 date: 2026-10-30
 authors:

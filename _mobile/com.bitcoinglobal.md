@@ -1,5 +1,4 @@
 ---
-wsId: bitcoinglobal
 title: 'Bitcoin Global: P2P platform'
 date: 2025-04-14
 authors:
@@ -71,4 +70,4 @@ We conclude that this app is **custodial,** and thus **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
