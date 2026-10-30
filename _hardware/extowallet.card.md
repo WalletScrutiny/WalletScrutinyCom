@@ -4,7 +4,7 @@ appId: extowallet.card
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2024-03-04
 updated: 
 version: 
 binaries: 

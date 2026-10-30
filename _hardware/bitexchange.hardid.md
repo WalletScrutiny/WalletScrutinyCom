@@ -4,7 +4,7 @@ appId: bitexchange.hardid
 authors:
 - danny
 released: 2017-11-15
-discontinued: 
+discontinued: 2025-02-28
 updated: 2018-04-18
 version: 
 binaries: 

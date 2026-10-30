@@ -4,7 +4,7 @@ appId: klever
 authors:
 - danny
 released: 2021-12-17
-discontinued: 
+discontinued: 2026-10-30
 updated: 
 version: 
 binaries: 

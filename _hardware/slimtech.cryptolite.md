@@ -4,7 +4,7 @@ appId: slimtech.cryptolite
 authors:
 - danny
 released: 2018-01-03
-discontinued: 
+discontinued: 2018-11-20
 updated: 
 version: 
 binaries: 

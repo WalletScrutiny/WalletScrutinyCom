@@ -4,7 +4,7 @@ appId: lynxcollection.financialrevolution
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2025-09-22
 updated: 
 version: 
 binaries: 

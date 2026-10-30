@@ -4,7 +4,7 @@ appId: keyois.capsule
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2022-03-30
 updated: 
 version: 
 binaries: 

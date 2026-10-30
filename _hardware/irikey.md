@@ -4,7 +4,7 @@ appId: irikey
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2022-03-09
 updated: 
 version: 
 binaries: 

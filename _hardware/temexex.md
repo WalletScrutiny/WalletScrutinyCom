@@ -4,7 +4,7 @@ appId: temexex
 authors:
 - kiwilamb
 released: 
-discontinued: 
+discontinued: 2020-08-14
 updated: 
 version: 
 binaries: 

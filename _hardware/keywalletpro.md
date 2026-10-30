@@ -4,7 +4,7 @@ appId: keywalletpro
 authors:
 - kiwilamb
 released: 
-discontinued: 
+discontinued: 2021-04-12
 updated: 
 version: 
 binaries: 

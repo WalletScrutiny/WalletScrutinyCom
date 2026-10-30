@@ -4,7 +4,7 @@ appId: blackarrowsoftware.ewallet
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2022-03-23
 updated: 
 version: 
 binaries: 

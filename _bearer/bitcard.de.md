@@ -4,7 +4,7 @@ appId: bitcard.de
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2018-12-27
 updated: 
 version: 
 binaries: 

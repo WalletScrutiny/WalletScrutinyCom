@@ -6,7 +6,7 @@ authors:
 - leo
 - danny
 released: 2018-10-23
-discontinued: 
+discontinued: 2021-11-22
 updated: 
 version: 
 binaries: 

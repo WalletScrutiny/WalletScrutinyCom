@@ -4,7 +4,7 @@ appId: pentasecurity.damokms
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2025-09-10
 updated: 
 version: 
 binaries: 

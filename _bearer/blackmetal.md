@@ -4,7 +4,7 @@ appId: blackmetal
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2024-03-02
 updated: 
 version: 
 binaries: 

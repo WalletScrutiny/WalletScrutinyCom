@@ -5,7 +5,7 @@ authors:
 - danny
 - leo
 released: 2013-04-14
-discontinued: 
+discontinued: 2025-12-01
 updated: 2017-09-22
 version: 
 binaries: 

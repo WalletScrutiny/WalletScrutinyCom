@@ -5,7 +5,7 @@ authors:
 - kiwilamb
 - danny
 released: 
-discontinued: 
+discontinued: 2025-01-14
 updated: 
 version: 
 binaries: 

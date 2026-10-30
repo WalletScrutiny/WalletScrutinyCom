@@ -4,7 +4,7 @@ appId: keepstick.32
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2024-03-01
 updated: 
 version: 
 binaries: 

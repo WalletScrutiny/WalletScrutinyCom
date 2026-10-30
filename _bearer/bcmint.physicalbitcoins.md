@@ -4,7 +4,7 @@ appId: bcmint.physicalbitcoins
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2026-01-25
 updated: 
 version: 
 binaries: 

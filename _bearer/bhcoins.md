@@ -4,7 +4,7 @@ appId: bhcoins
 authors:
 - danny
 released: 2013-09-11
-discontinued: 
+discontinued: 2022-05-13
 updated: 
 version: 
 binaries: 

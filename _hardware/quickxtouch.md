@@ -4,7 +4,7 @@ appId: quickxtouch
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2022-12-21
 updated: 
 version: 
 binaries: 

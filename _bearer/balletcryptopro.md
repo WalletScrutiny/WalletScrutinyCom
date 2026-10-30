@@ -4,7 +4,7 @@ appId: balletcryptopro
 authors:
 - danny
 released: 2021-09-19
-discontinued: 
+discontinued: 2023-10-02
 updated: 
 version: 
 binaries: 

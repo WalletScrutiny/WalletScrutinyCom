@@ -4,7 +4,7 @@ appId: keystone.ultimate
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2021-10-17
 updated: 
 version: 
 binaries: 

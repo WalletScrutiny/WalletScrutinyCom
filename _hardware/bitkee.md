@@ -4,7 +4,7 @@ appId: bitkee
 authors:
 - kiwilamb
 released: 
-discontinued: 
+discontinued: 2021-01-28
 updated: 
 version: 
 binaries: 

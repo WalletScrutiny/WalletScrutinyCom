@@ -4,7 +4,7 @@ appId: alitin.mint
 authors:
 - danny
 released: 2013-12-15
-discontinued: 
+discontinued: 2018-08-05
 updated: 
 version: 
 binaries: 

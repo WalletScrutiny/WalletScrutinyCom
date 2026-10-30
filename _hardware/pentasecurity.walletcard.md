@@ -4,7 +4,7 @@ appId: pentasecurity.walletcard
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2020-08-06
 updated: 
 version: 
 binaries: 

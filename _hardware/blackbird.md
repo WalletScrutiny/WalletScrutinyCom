@@ -4,7 +4,7 @@ appId: blackbird
 authors:
 - danny
 released: 2018-05-11
-discontinued: 
+discontinued: 2019-09-09
 updated: 
 version: 
 binaries: 

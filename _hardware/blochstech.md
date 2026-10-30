@@ -4,7 +4,7 @@ appId: blochstech
 authors:
 - kiwilamb
 released: 
-discontinued: 
+discontinued: 2019-04-14
 updated: 
 version: 
 binaries: 

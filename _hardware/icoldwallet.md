@@ -4,7 +4,7 @@ appId: icoldwallet
 authors:
 - danny
 released: 2021-12-06
-discontinued: 
+discontinued: 2025-07-11
 updated: 
 version: 
 binaries: 

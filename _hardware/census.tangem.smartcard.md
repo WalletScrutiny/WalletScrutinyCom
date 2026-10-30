@@ -4,7 +4,7 @@ appId: census.tangem.smartcard
 authors:
 - danny
 released: 2020-06-19
-discontinued: 
+discontinued: 2021-06-11
 updated: 
 version: 
 binaries: 

@@ -6,7 +6,7 @@ authors:
 - danny
 - leo
 released: 2020-04-13
-discontinued: 
+discontinued: 2021-04-20
 updated: 2021-09-22
 version: 4.1.7
 binaries: 

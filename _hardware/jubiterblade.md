@@ -5,7 +5,7 @@ authors:
 - kiwilamb
 - leo
 released: 2018-11-01
-discontinued: 
+discontinued: 2025-02-06
 updated: 
 version: 
 binaries: 

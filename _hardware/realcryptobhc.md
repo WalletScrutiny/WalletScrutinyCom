@@ -4,7 +4,7 @@ appId: realcryptobhc
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2022-03-16
 updated: 
 version: 
 binaries: 

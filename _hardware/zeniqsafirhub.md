@@ -4,7 +4,7 @@ appId: zeniqsafirhub
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2025-03-03
 updated: 
 version: 
 binaries: 

@@ -4,7 +4,7 @@ appId: balletcryptopure
 authors:
 - danny
 released: 2021-09-19
-discontinued: 
+discontinued: 2025-07-15
 updated: 
 version: 
 binaries: 

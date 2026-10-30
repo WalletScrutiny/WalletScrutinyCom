@@ -4,7 +4,7 @@ appId: ledgerunplugged
 authors:
 - kiwilamb
 released: 
-discontinued: 
+discontinued: 2017-01-29
 updated: 
 version: 
 binaries: 
