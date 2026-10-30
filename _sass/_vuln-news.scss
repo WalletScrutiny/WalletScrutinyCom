@@ -4,13 +4,14 @@
    (assets/js/vulnerabilityNews.js). Severity pills are .dp-sev from the
    dependencies panel. */
 
-// Phones: the title sits as high as on the homepage, not 100px down.
+// Phones: the title sits as high, and about as big, as on the homepage.
 @media (max-width: 640px) {
   #main:has(.vuln-news) {
     margin-top: 16px;
   }
 
   .archive:has(.vuln-news) .page__title {
+    font-size: $font-xxl;
     margin-bottom: 16px;
   }
 }
