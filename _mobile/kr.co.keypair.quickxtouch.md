@@ -28,7 +28,7 @@ android:
 
 **⚠️ Warning:** QuickX appears to be gone. Its websites are dead or parked.
 
-**Update 2026-10-30:** The provider is gone. quickx.io now shows a GoDaddy parking page and quickxtouch.com no longer resolves.
+**Update 2026-10-30:** The provider is gone. quickx.io now shows a GoDaddy parking page and the quickxtouch.com website is gone.
 
 **Update 2022-02-20**: This app is not available anymore.
 

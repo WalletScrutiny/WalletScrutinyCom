@@ -30,6 +30,6 @@ features:
 
 ---
 
-**Update 2026-10-30:** xzen.io now returns a 404 error, so the support notice below is gone too.
+**Update 2026-10-30:** xzen.io now only shows an error page, so the support notice below is gone too.
 
 The provider's [website states](https://xzen.io/) that this hardware wallet is no longer supported.

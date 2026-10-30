@@ -30,7 +30,7 @@ features:
 
 ---
 
-**⚠️ Warning:** The Jolt project appears to be gone. On 2026-10-30 joltwallet.com no longer resolved, and the [GitHub repository](https://github.com/joltwallet/jolt_wallet) has been archived (read-only).
+**⚠️ Warning:** The Jolt project appears to be gone. The joltwallet.com website no longer loads, and the [GitHub repository](https://github.com/joltwallet/jolt_wallet) has been archived (read-only).
 
 - The homepage for this device joltwallet.com, is no longer online. A cached copy dated June 2018 could be found via Web [Archive](https://web.archive.org/web/20180601221232/https://www.joltwallet.com/). 
 - The subreddit r/joltwallet no longer exists.

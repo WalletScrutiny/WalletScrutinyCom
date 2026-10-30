@@ -32,9 +32,9 @@ features:
 
 ---
 
-**⚠️ Warning:** BitCube appears to be gone. Its domain no longer exists and its crowdfunding page was taken down.
+**⚠️ Warning:** BitCube appears to be gone. Its website no longer loads and its crowdfunding page was taken down.
 
-**Update 2026-10-30:** BitCube is gone, so we mark it defunct. On 2026-10-30 bitcubewallet.com no longer resolved; its [only archived copy is from November 2021](https://web.archive.org/web/20211127191914/http://bitcubewallet.com/). The Indiegogo campaign page now redirects to the Indiegogo homepage ([archived copy from January 2019](https://web.archive.org/web/20190127005059/https://www.indiegogo.com/projects/bitcube-the-most-secure-convenient-bitcoin-wallet)).
+**Update 2026-10-30:** BitCube is gone, so we mark it defunct. The bitcubewallet.com website no longer loads; its [only archived copy is from November 2021](https://web.archive.org/web/20211127191914/http://bitcubewallet.com/). The Indiegogo campaign page now redirects to the Indiegogo homepage ([archived copy from January 2019](https://web.archive.org/web/20190127005059/https://www.indiegogo.com/projects/bitcube-the-most-secure-convenient-bitcoin-wallet)).
 
 ## Product Description 
 

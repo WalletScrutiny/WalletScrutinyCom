@@ -41,7 +41,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** wallet.btc.com no longer resolves, and the [btc.com](https://btc.com/) home page now advertises AI computing futures and GPU resources instead of a wallet.
+**Update 2026-10-30:** The wallet.btc.com website is gone, and the [btc.com](https://btc.com/) home page now advertises AI computing futures and GPU resources instead of a wallet.
 
 {% include featureEvidence.html feature="hd" source="[README](https://github.com/blocktrail/blocktrail-wallet#readme)" quote="HD wallet technology allowing you to create an unlimited number of addresses" %}
 {% include featureEvidence.html feature="multiSig" source="[README](https://github.com/blocktrail/blocktrail-wallet#readme)" quote="2-of-3 Multisig technology so you always remain in control of your coins" %}
@@ -100,7 +100,7 @@ updated since July 2019 and many 1* ratings complain about financial loss!**
 
 ## iPhone
 
-**Update 2026-10-30:** wallet.btc.com no longer resolves, and the [btc.com](https://btc.com/) home page now advertises AI computing futures and GPU resources instead of a wallet.
+**Update 2026-10-30:** The wallet.btc.com website is gone, and the [btc.com](https://btc.com/) home page now advertises AI computing futures and GPU resources instead of a wallet.
 
 {% include featureEvidence.html feature="hd" source="[README](https://github.com/blocktrail/blocktrail-wallet#readme)" quote="HD wallet technology allowing you to create an unlimited number of addresses" %}
 {% include featureEvidence.html feature="multiSig" source="[README](https://github.com/blocktrail/blocktrail-wallet#readme)" quote="2-of-3 Multisig technology so you always remain in control of your coins" %}

@@ -30,7 +30,7 @@ features:
 
 ---
 
-**⚠️ Warning:** CRPT Secure appears to be gone. The domain crptsecure.com no longer resolves (the [last archived capture](https://web.archive.org/web/20240221130411/https://www.crptsecure.com/) from February 2024 shows only a login page), and its Android app is no longer on Google Play.
+**⚠️ Warning:** CRPT Secure appears to be gone. Its website crptsecure.com no longer loads (the [last archived capture](https://web.archive.org/web/20240221130411/https://www.crptsecure.com/) from February 2024 shows only a login page), and its Android app is no longer on Google Play.
 
 ## Product/Service Description 
 

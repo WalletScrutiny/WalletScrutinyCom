@@ -41,7 +41,7 @@ exchange OPNX in a restructuring
 ([Cointelegraph](https://cointelegraph.com/news/coinflex-restructuring-approved-in-seychelles-as-rebranding-reportedly-continues)).
 OPNX told customers on 2024-02-02 that it would "cease operations and shut down in February 2024"
 ([Decrypt](https://decrypt.co/215346/opnx-the-crypto-exchange-from-bankrupt-three-arrows-capital-is-shutting-down)).
-On 2026-10-30 coinflex.com no longer resolved in DNS.
+The coinflex.com website is gone.
 
 ## Android
 

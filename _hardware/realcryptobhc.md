@@ -57,4 +57,4 @@ The site suggests that users encrypt the private keys:
 
 It's unclear how this coin is more secure than a regular paper wallet. The keys may not be prefilled as you're meant to print them yourself but somebody could still steal the coin and easily remove the sticker, thus gaining access to your keys.
 
-{{ page.title }} is also listed as out-of-stock on the online stores selling this product. We're assuming that it is now **discontinued or defunct.**
+{{ page.title }} is also listed as out-of-stock on the online stores selling this product. We're assuming that it is now **discontinued.**

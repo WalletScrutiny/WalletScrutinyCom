@@ -66,6 +66,6 @@ This is a cryptocurrency exchange. As specified in its [Terms](https://zbx.zende
 
 ## iPhone
 
-**Update 2026-10-30:** The iPhone app is not gone. It has no App Store result in the US, but it is [listed in Malta](https://itunes.apple.com/lookup?id=1458088759&country=mt), last updated to version 2.5.31 on 2026-09-10.
+**Update 2026-10-30:** The iPhone app is not gone. It is not in the US App Store, but it is [in the App Store in Malta](https://itunes.apple.com/lookup?id=1458088759&country=mt), last updated to version 2.5.31 on 2026-09-10.
 
 {% include copyFromAndroid.html %}

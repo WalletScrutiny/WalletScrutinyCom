@@ -40,7 +40,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The provider is gone. BiKi [closed its operations on 30 November 2021](https://www.cryptowisser.com/exchange/biki/), citing regulation, and biki.com and biki.cc no longer resolve, so the agreement links below are dead too.
+**Update 2026-10-30:** The provider is gone. BiKi [closed its operations on 30 November 2021](https://www.cryptowisser.com/exchange/biki/), citing regulation, and its websites biki.com and biki.cc are gone, so the agreement links below are dead too.
 
 **Update 2022-02-27**: This app is not available anymore.
 

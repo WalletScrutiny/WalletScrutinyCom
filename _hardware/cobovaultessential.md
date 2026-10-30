@@ -37,7 +37,7 @@ features:
 
 ---
 
-**Update 2026-10-30:** Keystone no longer sells this device: its [shop product page](https://shop.keyst.one/products/keystone-essential) returns 404, and [Keystone's website](https://keyst.one/) lists the {% include walletLink.html wallet='hardware/keystone3.pro' verdict='true' %} as its only hardware wallet. We mark the device discontinued. The Medium article quoted below is gone, so the link now points to an archived copy.
+**Update 2026-10-30:** Keystone no longer sells this device: its [shop product page](https://shop.keyst.one/products/keystone-essential#deadLink) is gone, and [Keystone's website](https://keyst.one/) lists the {% include walletLink.html wallet='hardware/keystone3.pro' verdict='true' %} as its only hardware wallet. We mark the device discontinued. The Medium article quoted below is gone, so the link now points to an archived copy.
 
 **Note:** Cobovault has been renamed to Keystone, previous products were known as Cobovault Essential, Cobovault Pro and Cobovault Ultimate.
 

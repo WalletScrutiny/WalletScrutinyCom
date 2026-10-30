@@ -35,6 +35,6 @@ features:
 
 **⚠️ Warning:** BEPAL appears to be out of business. Website, code and social accounts have been dead for years.
 
-**Update 2026-10-30:** We now mark this device defunct. bepal.pro no longer resolves, its last [archived copy, from September 2022](https://web.archive.org/web/20220925090512/https://www.bepal.pro/), only says the site is under maintenance, and [Tracxn](https://tracxn.com/d/companies/bepal/__SEGjw4I2_SdGfAwrMoJx_Cul8OQ_4gtsHuNM7Rsh4pI) lists the company as deadpooled.
+**Update 2026-10-30:** We now mark this device defunct. The bepal.pro website is gone, its last [archived copy, from September 2022](https://web.archive.org/web/20220925090512/https://www.bepal.pro/), only says the site is under maintenance, and [Tracxn](https://tracxn.com/d/companies/bepal/__SEGjw4I2_SdGfAwrMoJx_Cul8OQ_4gtsHuNM7Rsh4pI) lists the company as out of business.
 
 This NFC card device lacks a screen and does not allow a user to verify what is actually being signed. The device blindly signs a transaction without the user being able to validate any parameters on the device itself.

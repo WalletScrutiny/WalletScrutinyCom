@@ -40,7 +40,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Bidesk [announced on 29 September 2021](https://www.cryptowisser.com/exchange/bidesk/) that it would permanently cease operations, citing pressure from Chinese regulators. [bidesk.com](https://www.bidesk.com/) now returns a Cloudflare 522 error.
+**Update 2026-10-30:** Bidesk [announced on 29 September 2021](https://www.cryptowisser.com/exchange/bidesk/) that it would permanently cease operations, citing pressure from Chinese regulators. Its website [bidesk.com](https://www.bidesk.com/#deadLink) no longer loads.
 
 **Update 2021-10-22:** The service is shutting down. 
 

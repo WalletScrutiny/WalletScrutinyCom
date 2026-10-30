@@ -40,7 +40,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** plasmapay.com no longer resolves; its [last archived copy is from September 2024](https://web.archive.org/web/20240915224157/https://plasmapay.com/).
+**Update 2026-10-30:** The plasmapay.com website is gone; its [last archived copy is from September 2024](https://web.archive.org/web/20240915224157/https://plasmapay.com/).
 
 ## App Description
 

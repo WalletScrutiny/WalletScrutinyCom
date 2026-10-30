@@ -16,5 +16,5 @@ android:
 
 ---
 
-**⚠️ Warning:** The provider appears to be out of business. Its domain no longer resolves.
+**⚠️ Warning:** The provider appears to be out of business. Its website is gone.
 

@@ -70,4 +70,4 @@ From [a blogpost in 2015](http://www.stellaw.info/blog/2015/3/18/black-arrow-ewa
 
 This product **does not have any source code available for review.**
 
-With the site down and the company's social media inactive, we have to assume that this product is now **defunct.** 
+With the site down and the company's social media inactive, we have to assume that this product is now **discontinued.** 

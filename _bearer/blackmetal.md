@@ -29,7 +29,7 @@ features:
 
 ---
 
-**⚠️ Warning:** The Crypto Cards shop is gone and the cards are no longer sold. cryptocards.store no longer resolves. Cards already made carry their keys printed on the steel, so they do not depend on the shop.
+**⚠️ Warning:** The Crypto Cards shop is gone and the cards are no longer sold. The cryptocards.store website is gone. Cards already made carry their keys printed on the steel, so they do not depend on the shop.
 
 ## Product Description 
 

@@ -35,7 +35,7 @@ features:
 
 ---
 
-**Update 2026-10-30:** Penta Security no longer offers this card: its [PALLET product page](https://web.archive.org/web/20191206115146/https://www.pentasecurity.com/product/pallet/) now returns 404 and the site menu has no blockchain products, so we mark the card discontinued.
+**Update 2026-10-30:** Penta Security no longer offers this card: its [PALLET product page](https://web.archive.org/web/20191206115146/https://www.pentasecurity.com/product/pallet/) is gone and the site menu has no blockchain products, so we mark the card discontinued.
 
 ## Product Description
 

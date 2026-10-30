@@ -36,7 +36,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** prizmbit.com no longer resolves; the Wayback Machine last captured it in [January 2026](https://web.archive.org/web/20260113161350/https://prizmbit.com/).
+**Update 2026-10-30:** The prizmbit.com website is gone; its last archived copy is from [January 2026](https://web.archive.org/web/20260113161350/https://prizmbit.com/).
 
 **Update 2021-12-04**: This app is gone from the Store.
 

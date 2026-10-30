@@ -16,6 +16,6 @@ android:
 
 ---
 
-**Update 2026-10-30:** wallet.harcomia.com now fails with a Cloudflare 522 error, and the [Harcomia website](https://harcomia.com/) now sells AI services with no mention of a wallet.
+**Update 2026-10-30:** wallet.harcomia.com no longer loads, and the [Harcomia website](https://harcomia.com/) now sells AI services with no mention of a wallet.
 
 **Update 2022-03-30**: This app is not available anymore.

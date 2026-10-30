@@ -32,7 +32,7 @@ features:
 
 ---
 
-**Update 2026-10-30:** stakenet.io no longer belongs to the project: on 2026-10-30 it redirected to an unrelated Big Cartel shop, so the website link now points to the [last archived copy from January 2023](https://web.archive.org/web/20230120062650/http://stakenet.io/). The project continues as [Hydranet](https://www.hydranet.ai/), whose website offers a software wallet and mentions no hardware.
+**Update 2026-10-30:** stakenet.io no longer belongs to the project: it now leads to an unrelated Big Cartel shop, so the website link now points to the [last archived copy from January 2023](https://web.archive.org/web/20230120062650/http://stakenet.io/). The project continues as [Hydranet](https://www.hydranet.ai/), whose website offers a software wallet and mentions no hardware.
 
 ## Background Information 
 

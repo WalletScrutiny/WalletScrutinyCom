@@ -13,7 +13,7 @@ android:
 
 ---
 
-**Update 2026-10-30:** The apk.support link below no longer resolves.
+**Update 2026-10-30:** The apk.support website linked below is gone.
 
 This app still appears in search results but Google Play doesn't show the app.
 At least not for users in 

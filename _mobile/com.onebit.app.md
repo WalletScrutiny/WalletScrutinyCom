@@ -23,7 +23,7 @@ android:
 ---
 
 **⚠️ Warning:** This provider is gone. TenX shut down its wallet and card
-service in 2021, and on 2026-10-30 the domain www.tenx.tech no longer resolved.
+service in 2021, and its website www.tenx.tech is gone.
 
 **UPDATE: 2021-09-01**
 

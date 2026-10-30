@@ -40,7 +40,7 @@ iphone:
 **⚠️ Warning:** Lumi Wallet was shut down. Its
 [shutdown notice](http://web.archive.org/web/20240722010730/https://lumiwallet.com/shutdown/)
 said the wallet "will no longer be supported starting October 11, 2024" and asked
-users to move their funds. On 2026-10-30 lumiwallet.com redirected to noone.io.
+users to move their funds. lumiwallet.com now redirects to noone.io.
 
 ## Android
 

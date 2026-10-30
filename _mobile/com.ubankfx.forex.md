@@ -30,7 +30,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** This provider looks gone. On 2026-10-30 its website redirected to an unrelated domain, ubfx.com redirected to an ad site, and both apps were gone from the stores.
+**⚠️ Warning:** This provider looks gone. Its website now leads to an unrelated site, ubfx.com leads to an ad site, and both apps are gone from the stores.
 
 ## Android
 

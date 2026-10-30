@@ -16,6 +16,6 @@ android:
 
 ---
 
-**⚠️ Warning:** The provider of CoinWallet.id appears to be gone. Its website domain no longer resolves.
+**⚠️ Warning:** The provider of CoinWallet.id appears to be gone. Its website is gone.
 
 **Update 2022-03-01**: This app is not available anymore.

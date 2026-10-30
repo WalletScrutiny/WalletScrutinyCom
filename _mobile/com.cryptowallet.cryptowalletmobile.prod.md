@@ -40,8 +40,7 @@ iphone:
 **⚠️ Warning:** CryptoWallet.com has closed. In April 2025 the domain led to a
 [closing notice](https://web.archive.org/web/20250419233825/http://206.189.103.36/) that says "CryptoWallet.com
 is closing its operations, including all crypto wallet activities" and asks customers with funds to "submit a
-withdrawal request". On 2026-10-30 [cryptowallet.com](https://cryptowallet.com/) was a parked domain offered
-for sale.
+withdrawal request". Now the [cryptowallet.com](https://cryptowallet.com/) domain is offered for sale.
 
 ## Android
 

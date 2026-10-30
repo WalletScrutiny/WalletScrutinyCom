@@ -30,7 +30,7 @@ features:
 
 ---
 
-**Update 2026-10-30:** The company now calls itself balns: blns.io redirects to [balns.io](https://balns.io/), which mentions a "balnsCard" but offers no shop, price or specification. The "waiting-list" page at a bare IP address no longer answers ([archived copy from December 2021](https://web.archive.org/web/20211202004340/http://18.158.244.64/waiting-list/)), and the companion app {% include walletLink.html wallet='android/io.blns' verdict='true' %} is no longer on Google Play.
+**Update 2026-10-30:** The company now calls itself balns: blns.io redirects to [balns.io](https://balns.io/), which mentions a "balnsCard" but offers no shop, price or specification. The "waiting-list" page at a bare IP address no longer loads ([archived copy from December 2021](https://web.archive.org/web/20211202004340/http://18.158.244.64/waiting-list/)), and the companion app {% include walletLink.html wallet='android/io.blns' verdict='true' %} is no longer on Google Play.
 
 This wallet has a companion app: {% include walletLink.html wallet='android/io.blns' verdict='true' %} 
 

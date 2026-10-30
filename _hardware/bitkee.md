@@ -30,6 +30,6 @@ features:
 
 ---
 
-**⚠️ Warning:** Bitkee appears to be out of business and its metal wallets are no longer sold. Its domain no longer resolves. The [archived shop](https://web.archive.org/web/20200511020459/https://bitkee.com/) shows the cards carried standard BIP38 or Armory backups, which other wallets can still restore.
+**⚠️ Warning:** Bitkee appears to be out of business and its metal wallets are no longer sold. Its website is gone. The [archived shop](https://web.archive.org/web/20200511020459/https://bitkee.com/) shows the cards carried standard BIP38 or Armory backups, which other wallets can still restore.
 
 On the [bitkee site](https://web.archive.org/web/20200511020459/https://bitkee.com/) they state the production of this wallet has been discontinued.

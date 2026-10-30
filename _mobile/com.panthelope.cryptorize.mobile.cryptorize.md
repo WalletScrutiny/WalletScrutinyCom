@@ -16,8 +16,8 @@ android:
 
 ---
 
-**⚠️ Warning:** The provider appears to be out of business. Its domain cryptorize.co expired in 2024 and no longer resolves.
+**⚠️ Warning:** The provider appears to be out of business. Its website cryptorize.co expired in 2024 and is gone.
 
-**Update 2026-10-30:** The website named on its [archived Play page](https://web.archive.org/web/20210118060547/https://play.google.com/store/apps/details?id=com.panthelope.cryptorize.mobile.cryptorize), cryptorize.co, showed a [registry "domain expired" notice in September 2024](https://web.archive.org/web/20240913203815/http://cryptorize.co/) and no longer resolves.
+**Update 2026-10-30:** The website named on its [archived Play page](https://web.archive.org/web/20210118060547/https://play.google.com/store/apps/details?id=com.panthelope.cryptorize.mobile.cryptorize), cryptorize.co, showed a ["domain expired" notice in September 2024](https://web.archive.org/web/20240913203815/http://cryptorize.co/) and is now gone.
 
 **Update 2022-01-15**: This app is not on the Store anymore.

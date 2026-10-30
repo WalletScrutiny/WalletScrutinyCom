@@ -40,7 +40,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** iSunOne is gone. Its [website](https://isun.one) now carries only a notice that "Operations ceased in 2025", and the [terms page](https://isun.one/tnc) quoted below now returns 410 Gone.
+**Update 2026-10-30:** iSunOne is gone. Its [website](https://isun.one) now carries only a notice that "Operations ceased in 2025", and the [terms page](https://isun.one/tnc#deadLink) quoted below is gone.
 
 **Update 2022-03-21**: This app is not available anymore.
 

@@ -24,10 +24,10 @@ android:
 
 ---
 
-**⚠️ Warning:** iToken looks gone. On 2026-10-30 [itoken.com](https://www.itoken.com/)
-answered only "503 Service Temporarily Unavailable" (the
+**⚠️ Warning:** iToken looks gone. [itoken.com](https://www.itoken.com/)
+only shows an error page (the
 [last archived copy](https://web.archive.org/web/20250220161901/https://www.itoken.com/)
-is from 2025-02-20), the support site support.huobiwallet.io did not connect, and
+is from 2025-02-20), the support site support.huobiwallet.io no longer loads, and
 the [HuobiWallet](https://x.com/HuobiWallet) handle on X now belongs to an
 unrelated account with no posts. Its successor app is also gone from both stores.
 

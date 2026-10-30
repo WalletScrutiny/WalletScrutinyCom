@@ -33,7 +33,7 @@ features:
 
 ---
 
-**Update 2026-10-30:** On 2026-10-30 deviantcoin.io only showed a Cloudflare "Suspected Phishing" warning. The [last archived copy of the hardware wallet page](https://web.archive.org/web/20260518035511/https://deviantcoin.io/hardware-wallet/) is from May 2026.
+**Update 2026-10-30:** deviantcoin.io now only shows a Cloudflare "Suspected Phishing" warning. The [last archived copy of the hardware wallet page](https://web.archive.org/web/20260518035511/https://deviantcoin.io/hardware-wallet/) is from May 2026.
 
 ## Overview
 

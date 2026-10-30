@@ -39,7 +39,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The exchange looks shut down. From [July 2024](https://web.archive.org/web/20240717202031/https://www.cointiger.com/) on, cointiger.com only answers "400 Bad Request", as it does today, and CoinMarketCap's [exchange page](https://coinmarketcap.com/exchanges/cointiger/) now returns 404.
+**Update 2026-10-30:** The exchange looks shut down. Since [July 2024](https://web.archive.org/web/20240717202031/https://www.cointiger.com/), cointiger.com only shows an error, and CoinMarketCap's [exchange page](https://coinmarketcap.com/exchanges/cointiger/#deadLink) is gone.
 
 CoinTiger Exchange [Terms of Service](https://www.cointiger.com/en-us/#/footer/service&deadLink)
 

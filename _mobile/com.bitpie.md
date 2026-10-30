@@ -48,7 +48,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Bitpie has left Google Play. Its [Android download page](https://bitpie.com/en/android/) says "Bitpie no longer supports Google Play download" and offers an APK instead. The issue we filed and the `bitpiedotcom.github.com` repository it was in both return 404 now.
+**Update 2026-10-30:** Bitpie has left Google Play. Its [Android download page](https://bitpie.com/en/android/) says "Bitpie no longer supports Google Play download" and offers an APK instead. The issue we filed and the `bitpiedotcom.github.com` repository it was in are both gone now.
 
 **Update 2024-07-17**: The last time this app was updated was in March 27, 2024. Prior to that, an [issue was filed](https://github.com/bitpiedotcom/bitpiedotcom.github.com/issues/7#deadLink) on behalf of WalletScrutiny asking for its source-code to be made available. It went unanswered. Moreover, a search for the app ID on GitHub, turned up [hits on some cybersecurity database](https://github.com/github/advisory-database/blob/d8b7bd8352e1621965179b11ac9eff056e6363e1/advisories/unreviewed/2022/05/GHSA-8rhq-wwg6-2476/GHSA-8rhq-wwg6-2476.json#L9), which had a partial match on the app ID string. We are including the text for posterity:
 

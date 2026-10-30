@@ -34,7 +34,7 @@ features:
 
 ---
 
-**Update 2026-10-30:** Keystone no longer sells this device. Its [product page](https://shop.keyst.one/products/keystone-ultimate#deadLink) returns 404, and the hardware wallet Keystone sells today is the {% include walletLink.html wallet='hardware/keystone3.pro' verdict='true' %}. We mark this device discontinued.
+**Update 2026-10-30:** Keystone no longer sells this device. Its [product page](https://shop.keyst.one/products/keystone-ultimate#deadLink) is gone and the hardware wallet Keystone sells today is the {% include walletLink.html wallet='hardware/keystone3.pro' verdict='true' %}. We mark this device discontinued.
 
 This device is the same as {% include walletLink.html wallet='hardware/cobovaultessential' verdict='true' %} but with more durable casing. 
 

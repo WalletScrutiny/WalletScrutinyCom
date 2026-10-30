@@ -87,4 +87,4 @@ It also claims to store the full bitcoin ledger (which is currently around the a
 
 The app did not advertise itself as an open-source offering.
 
-We cannot find any official shop on the HTC website for {{ page.title }}, with the social media account's last post dating back to December 2020. Even the GitHub account's repos has had no updates since 2019. Until further update, this app is classified as **defunct.**
+We cannot find any official shop on the HTC website for {{ page.title }}, with the social media account's last post dating back to December 2020. Even the GitHub account's repos has had no updates since 2019. Until further update, this device is classified as **discontinued.**

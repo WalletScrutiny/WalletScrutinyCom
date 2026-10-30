@@ -56,4 +56,4 @@ and:
 
 While the keys aren't "prefilled" the user would have still depended on external devices that aren't secure and cannot approve or make transactions. 
  
-This product is **defunct** along with the manufacturer in charge of it.
+This product is **discontinued**, and its manufacturer is gone.

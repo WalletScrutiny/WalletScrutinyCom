@@ -24,7 +24,7 @@ android:
 
 **⚠️ Warning:** This provider appears to be gone. Its domain fxwallet.info has expired.
 
-**Update 2026-10-30:** The provider is gone. Its [archived store page](https://web.archive.org/web/20210701031408/https://play.google.com/store/apps/details?id=com.fxwallet) gave app@fxwallet.info as the developer contact, and the Wayback Machine shows fxwallet.info as an [expired domain up for auction](https://web.archive.org/web/20250525194020/https://fxwallet.info/) since 2025; today it does not resolve at all.
+**Update 2026-10-30:** The provider is gone. Its [archived store page](https://web.archive.org/web/20210701031408/https://play.google.com/store/apps/details?id=com.fxwallet) gave app@fxwallet.info as the developer contact, and the Wayback Machine shows fxwallet.info as an [expired domain up for auction](https://web.archive.org/web/20250525194020/https://fxwallet.info/) since 2025; today the site does not load at all.
 
 **Update 2022-02-09**: This app is no more.
 

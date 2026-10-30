@@ -18,6 +18,6 @@ android:
 
 ---
 
-**⚠️ Warning:** The provider of Fact Wallet appears to be gone. Its website no longer resolves.
+**⚠️ Warning:** The provider of Fact Wallet appears to be gone. Its website is gone.
 
 **Update 2022-03-30**: This app is not available anymore.

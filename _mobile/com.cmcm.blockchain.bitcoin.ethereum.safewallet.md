@@ -20,10 +20,10 @@ android:
 ---
 
 **⚠️ Warning:** This provider appears to be gone. The app has been missing from
-Google Play since at least March 2020, and on 2026-10-30 the website safewallet.cmcmbc.com
-returned an empty page, as it has in the
+Google Play since at least March 2020, and its website safewallet.cmcmbc.com has
+been a blank page since 2021, as the
 [Internet Archive](https://web.archive.org/web/2021/http://safewallet.cmcmbc.com/)
-since 2021.
+shows.
 
 This app disappeared from Google Play! While this might be an
 accident, it sure is not inducing much confidence. We also checked their Twitter

@@ -30,7 +30,7 @@ features:
 
 ---
 
-**⚠️ Warning:** SafeWise appears to be gone. On 2026-10-30 neither safewise.io nor coinwise.com.br resolved; the [last archived copy of safewise.io is from February 2025](https://web.archive.org/web/20250225024658/https://safewise.io/).
+**⚠️ Warning:** SafeWise appears to be gone. The safewise.io and coinwise.com.br websites no longer load; the [last archived copy of safewise.io is from February 2025](https://web.archive.org/web/20250225024658/https://safewise.io/).
 
 we could not find much information anywhere about this device, except that [Safewise is from Coinwise](https://twitter.com/coinwisebr/status/1137068094319484929)(Brazil). They seem to have [given away some prototypes](https://twitter.com/coinwisebr/status/1070031333928378369) but that was in 2018.
 

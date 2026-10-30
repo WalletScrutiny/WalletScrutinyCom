@@ -24,10 +24,9 @@ android:
 ---
 
 **⚠️ Warning:** This provider is gone. Bitlish announced that it would stop all
-services on 2020-03-30, and on 2026-10-30 the domain bitlish.com no longer
-resolved.
+services on 2020-03-30, and its website bitlish.com is gone.
 
-**Update 2026-10-30:** The provider is gone; the domain bitlish.com no longer resolves.
+**Update 2026-10-30:** The provider is gone, and so is its website bitlish.com.
 
 This app is closing down its operation. It disappeard from Google Play, iTunes,
 Twitter, LinkedIn and Facebook and on their website we read:

@@ -18,7 +18,7 @@ android:
 
 ---
 
-**⚠️ Warning:** Coinals appears to be gone. On 2026-10-30 coinals.com no longer resolved in DNS, and the
+**⚠️ Warning:** Coinals appears to be gone. Its website coinals.com no longer loads, and the
 [Wayback Machine](https://web.archive.org/web/2023*/coinals.com) has nothing but redirects for it after
 June 2023.
 

@@ -41,4 +41,4 @@ An external site called [Coin Community](https://wiki.coin.community/Alitin_Mint
 
 Although the coins were placed in a "tamper-proof casing," the keys were **prefilled** and engraved on the edge of the coin. Users could seal the coin away in a secure place, but they wouldn't be able to know if the provider had taken a copy beforehand.
 
-The website is now unavailable and it is unlikely that the coins will be in production again. As such, we can conclude it is **defunct.**
+The website is now unavailable and it is unlikely that the coins will be in production again. As such, we can conclude it is **discontinued.**

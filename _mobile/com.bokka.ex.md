@@ -19,6 +19,6 @@ android:
 
 **⚠️ Warning:** Bokka appears to be out of business. Its domain is for sale.
 
-**Update 2026-10-30:** The provider is gone: bokka.com now redirects to a domain sale page on Sedo, and [Tracxn](https://tracxn.com/d/companies/bokka/__gmnH7bOv4Ld7hA77jtDsGjB_vkUUkFm4KxfGQ_Fxtng) lists the company as deadpooled. The [archived website from January 2021](https://web.archive.org/web/20210126151907/http://bokka.com/) shows it was {% include verdictBadge.html verdict="custodial" type='short' %}: Bokka was "a crypto exchange" where users "register and verify your account, deposit, trade and withdraw inside the application".
+**Update 2026-10-30:** The provider is gone: bokka.com now redirects to a domain sale page on Sedo, and [Tracxn](https://tracxn.com/d/companies/bokka/__gmnH7bOv4Ld7hA77jtDsGjB_vkUUkFm4KxfGQ_Fxtng) lists the company as defunct. The [archived website from January 2021](https://web.archive.org/web/20210126151907/http://bokka.com/) shows it was {% include verdictBadge.html verdict="custodial" type='short' %}: Bokka was "a crypto exchange" where users "register and verify your account, deposit, trade and withdraw inside the application".
 
 **Update 2021-09-20**: This app is no more.

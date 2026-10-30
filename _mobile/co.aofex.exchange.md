@@ -39,7 +39,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** AOFEX has shut down. aofex.co no longer resolves, aofex.com only returns a Cloudflare error, and [Cryptowisser](https://www.cryptowisser.com/exchange/aofex/) lists the exchange as dead since January 2022; [CaptainAltcoin](https://captainaltcoin.com/aofex-review/) calls the shutdown a rug pull.
+**Update 2026-10-30:** AOFEX has shut down. aofex.co is gone, aofex.com no longer loads, and [Cryptowisser](https://www.cryptowisser.com/exchange/aofex/) lists the exchange as dead since January 2022; [CaptainAltcoin](https://captainaltcoin.com/aofex-review/) calls the shutdown a rug pull.
 
 **Update 2022-03-12**: This app is not available anymore.
 

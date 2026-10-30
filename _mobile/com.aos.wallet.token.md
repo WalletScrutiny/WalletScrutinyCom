@@ -21,7 +21,7 @@ android:
 
 **⚠️ Warning:** The provider of ATS Wallet appears to be gone. Its website no longer exists.
 
-**Update 2026-10-30:** The provider is gone. atswallet.io no longer resolves; by [October 2025](https://web.archive.org/web/20251007104543/http://atswallet.io/) the domain only showed a parking page.
+**Update 2026-10-30:** The provider is gone, and so is its website atswallet.io; by [October 2025](https://web.archive.org/web/20251007104543/http://atswallet.io/) the domain only showed a parking page.
 
 **Update 2022-01-15**: This app is not on the Store anymore.
 

@@ -20,9 +20,9 @@ android:
 
 ---
 
-**⚠️ Warning:** The provider appears to be out of business. Its domain no longer exists.
+**⚠️ Warning:** The provider appears to be out of business. Its website is gone.
 
-**Update 2026-10-30:** The provider is gone. The domain mysecurewallet.info, which the code uses as its server, no longer resolves.
+**Update 2026-10-30:** The provider is gone. The website mysecurewallet.info, which the app's code uses as its server, is gone.
 
 **Update 2022-01-15**: This app is not on the Store anymore.
 

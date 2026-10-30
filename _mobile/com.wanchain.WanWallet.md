@@ -41,7 +41,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** Wanchain has dropped WanWallet mobile: its [wallets page](https://www.wanchain.org/wanwallet) now sends mobile users to {% include walletLink.html wallet='android/io.metamask' verdict='true' %}. The desktop wallet repository linked below now returns 404 ([archived copy](https://web.archive.org/web/20241222163811/https://github.com/wanchain/wan-wallet-desktop)).
+**Update 2026-10-30:** Wanchain has dropped WanWallet mobile: its [wallets page](https://www.wanchain.org/wanwallet) now sends mobile users to {% include walletLink.html wallet='android/io.metamask' verdict='true' %}. The desktop wallet repository linked below is gone ([archived copy](https://web.archive.org/web/20241222163811/https://github.com/wanchain/wan-wallet-desktop)).
 
 **Update 2022-03-30**: This app is not available anymore.
 

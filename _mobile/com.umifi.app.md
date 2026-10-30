@@ -37,7 +37,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** UmiFi appears to be out of business. [umifi.com](http://www.umifi.com) now redirects to a HugeDomains sale page, and its [Zendesk help center](https://umificom.zendesk.com/), which the analysis below cites, is closed.
+**Update 2026-10-30:** UmiFi appears to be out of business. [umifi.com](http://www.umifi.com) now leads to a HugeDomains page that sells the domain, and its [Zendesk help center](https://umificom.zendesk.com/), which the analysis below cites, is closed.
 
 **Update 2022-02-11**: This app is not on the Store anymore.
 

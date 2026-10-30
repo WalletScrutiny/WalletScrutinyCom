@@ -68,6 +68,6 @@ which means it is a custodial service and thus **not verifiable**.
 
 ## iPhone
 
-**Update 2026-10-30:** The App Store lookup for the Netherlands finds this app again, version 30.68.3 from 2026-10-29.
+**Update 2026-10-30:** The app is back in the Dutch App Store, with version 30.68.3 from 2026-10-29.
 
 {% include copyFromAndroid.html %}

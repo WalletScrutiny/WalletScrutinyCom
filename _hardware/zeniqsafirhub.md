@@ -32,7 +32,7 @@ features:
 
 **⚠️ Warning:** There are some third-party websites that have raised red flags concerning this product/project. We would not be linking to them as they have received adverse reactions from the project creators by filing copyright claims against their hosting provider. We leave that for you to Google.
 
-**Update 2026-10-30:** The ZENIQ Hub is no longer sold. [safir.com](https://safir.com/), the shop that sold it, now says "The SAFIR webshop is no more", and zeniq.com only redirects to start.zeniq.wiki, which no longer resolves. We mark it discontinued.
+**Update 2026-10-30:** The ZENIQ Hub is no longer sold. [safir.com](https://safir.com/), the shop that sold it, now says "The SAFIR webshop is no more", and zeniq.com only redirects to start.zeniq.wiki, which no longer loads. We mark it discontinued.
 
 ## Product Information 
 

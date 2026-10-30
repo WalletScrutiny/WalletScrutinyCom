@@ -19,7 +19,7 @@ verdict: plainkey
 
 ---
 
-**Update 2026-10-30:** The vault no longer appears to be for sale. [ridgeiron.com](http://ridgeiron.com/) now presents autonomy systems for land, sea and air, and its old cart page returns 404. [blockchainiron.com](http://blockchainiron.com/) still describes the Crypto Coin Vault, but it has no shop: its only purchase link goes to the 2019 Kickstarter, and its footer reads "Copyright © 2019".
+**Update 2026-10-30:** The vault no longer appears to be for sale. [ridgeiron.com](http://ridgeiron.com/) now presents autonomy systems for land, sea and air, and its old cart page is gone. [blockchainiron.com](http://blockchainiron.com/) still describes the Crypto Coin Vault, but it has no shop: its only purchase link goes to the 2019 Kickstarter, and its footer reads "Copyright © 2019".
 
 The provider's name is Ridge Iron (Blockchain Iron). The product is also referenced as Crypto Coin Vault on the same page. They successfully funded their [Kickstarter campaign](https://www.kickstarter.com/projects/1173199625/cold-storage-wallet-for-bitcoin-and-cryptocurrenci/) in 2019. They raised $19,665 out of their target goal of $18,000. 
 

@@ -33,9 +33,9 @@ features:
 
 ---
 
-**⚠️ Warning:** The Crypto Watch project appears to be gone. Its domain no longer exists.
+**⚠️ Warning:** The Crypto Watch project appears to be gone. Its website no longer loads.
 
-**Update 2026-10-30:** The watch never shipped and the project is gone, so we mark it defunct. On 2026-10-30 thecryptowatch.org no longer resolved; by [October 2025](https://web.archive.org/web/20251009190231/https://thecryptowatch.org/en/) it was already a domain parking page.
+**Update 2026-10-30:** The watch never shipped and the project is gone, so we mark it defunct. The thecryptowatch.org website no longer loads; by [October 2025](https://web.archive.org/web/20251009190231/https://thecryptowatch.org/en/) it was already a parked domain.
 
 **⚠️ Note:** The project held an STO (Security Token Offering) from 2019-01-06 up to 2019-02-08. The only available images of the watch are renderings. The project is also associated with an Ethereum token called XCW and a decentralized exchange. We checked the Telegram channel, and the last message dated March 6, 2020 was: 
 

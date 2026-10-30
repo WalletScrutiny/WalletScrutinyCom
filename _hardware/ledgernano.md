@@ -37,6 +37,6 @@ features:
 ---
 
 The [provider's website has a clear statement](https://support.ledger.com/hc/en-us/articles/360010500620-Discontinued-products?docs=true)
-that this wallet is discontinued and we considered it defunct. Other than that,
+that this wallet is discontinued and we consider it discontinued. Other than that,
 it lacked a screen, so the user had no way of knowing what transaction signing
 he approved.

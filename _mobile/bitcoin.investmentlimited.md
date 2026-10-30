@@ -26,7 +26,7 @@ android:
 
 </div></div>
 
-**⚠️ Warning:** This provider looks gone. On 2026-10-30 its website no longer resolved and its apps were off Google Play.
+**⚠️ Warning:** This provider looks gone. Its website no longer loads and its apps are no longer on Google Play.
 
 ## App Description
 

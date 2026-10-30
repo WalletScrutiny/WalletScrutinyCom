@@ -41,7 +41,7 @@ iphone:
 
 ## Android
 
-**Update 2026-10-30:** The easymarkets.com domain no longer resolves; the broker now runs at [easy-markets.com](https://www.easy-markets.com/). The links below to the Bitcoin account page and the 2021 client agreement are dead.
+**Update 2026-10-30:** The easymarkets.com website is gone; the broker now runs at [easy-markets.com](https://www.easy-markets.com/). The links below to the Bitcoin account page and the 2021 client agreement are dead.
 
 At the onset, it would appear that it is a general investment site which trades shares, indices, metals, forex, commodities and cryptocurrencies.
 

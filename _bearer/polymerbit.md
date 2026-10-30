@@ -29,7 +29,7 @@ features:
 
 ---
 
-**Update 2026-10-30:** Polymerbit moved to [polymerbit.com](https://www.polymerbit.com/); polymerbit.ch no longer resolves.
+**Update 2026-10-30:** Polymerbit moved to [polymerbit.com](https://www.polymerbit.com/); the old polymerbit.ch website is gone.
 
 ## Product Description
 
