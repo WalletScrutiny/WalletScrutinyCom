@@ -68,7 +68,7 @@ async function main() {
     await fromUrl(process.env.SOURCE_ANALYSIS_EXPORT_URL);
     return;
   }
-  console.log('source-analysis export: none configured, the Dependencies panel stays hidden');
+  console.log('source-analysis export: none in this build (normal on the servers: the analyser publishes it and nginx serves /api/source-analysis/)');
 }
 
 main().catch((err) => {
