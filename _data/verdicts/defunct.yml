@@ -12,3 +12,9 @@ details: >
   and well audited to be self-custodial following open standards. If the
   provider hasn't answered inquiries for a year but their server is still
   running or similar circumstances might get this verdict, too.
+
+
+  For apps on an app store, 'removed' takes precedence: once the app is gone from
+  the store, it is 'removed' and the review mentions the provider's fate in a
+  warning. 'Defunct' applies while the product can still be downloaded or bought,
+  and to products that are not distributed through a store, such as hardware.
