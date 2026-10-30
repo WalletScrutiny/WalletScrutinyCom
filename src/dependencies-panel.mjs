@@ -466,7 +466,7 @@ function trustedLine(trusted) {
   if (!trusted?.length) return null;
   const links = [];
   trusted.forEach((pk, i) => { if (i) links.push(', '); links.push(signerLink(pk)); });
-  return el('p', { className: 'dp-trusted' }, 'Statements settle rows on this site when signed by ', ...links, '. Anyone else\'s are shown under "What others say".');
+  return el('p', { className: 'dp-trusted' }, 'Decisions here count only from: ', ...links, '. Statements by anyone else are listed under "What others say".');
 }
 
 // One statement as a line: who it is about, what it says (linked to its

@@ -160,7 +160,7 @@ describe('dependencies panel', () => {
     assert.equal(signer.getAttribute('title'), "Alice's profile");
     assert.equal(signer.querySelector('img').getAttribute('src'), 'https://example.org/alice.png', 'with their picture');
     assert.equal(host.querySelector(`a.dp-signer[data-pubkey="${'b'.repeat(64)}"] img`).getAttribute('src'), '/images/profile-placeholder.svg', 'no profile: the placeholder');
-    assert.equal(host.querySelector('.dp-trusted').textContent, 'Statements settle rows on this site when signed by Alice. Anyone else\'s are shown under "What others say".');
+    assert.equal(host.querySelector('.dp-trusted').textContent, 'Decisions here count only from: Alice. Statements by anyone else are listed under "What others say".');
     const elsewhere = first.querySelector('details.dp-decision__others');
     assert.equal(elsewhere.querySelector('summary').textContent, 'What others say (1)', 'another wallet\'s call on the same direct user is shown, not applied');
     assert.equal(elsewhere.querySelector('.dp-decision__why').textContent, 'in d.wallet, via alib: d.wallet hands alib user input (affected, Alice) Adopt');
