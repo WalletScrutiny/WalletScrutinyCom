@@ -28,4 +28,4 @@ author_profile: true
   <button type="button" class="vuln-news__more" id="vuln-news-more" hidden></button>
 </div>
 
-<script defer src="{{ site.baseurl }}/assets/js/vulnerabilityNews.js"></script>
+<script defer src="{{ site.baseurl }}/assets/js/vulnerabilityNews.js?v={{ 'assets/js/vulnerabilityNews.js' | file_digest }}"></script>
