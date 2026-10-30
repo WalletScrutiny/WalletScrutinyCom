@@ -11,8 +11,8 @@ import {
   metaUpdateContext,
   resolveAndroidFilenames,
   findMobileFileByAndroidAppId,
+  applyStoreWebsite,
 } from './mobileWalletStore.mjs';
-import { applyStoreWebsite } from './mobileWebsite.mjs';
 
 process.env.TZ = 'UTC'; // fix timezone issues
 const sem = new Semaphore(50);

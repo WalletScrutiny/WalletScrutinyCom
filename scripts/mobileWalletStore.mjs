@@ -41,7 +41,6 @@ const PLATFORM_FIELD_ORDER = [
   'meta',
   'verdict',
   'developerName',
-  'website',
   'repository',
   'bugbounty',
   'bitcoinOrgId',
@@ -150,15 +149,12 @@ export function demoteRootDeveloperName (mobile) {
   delete mobile.developerName;
 }
 
-/**
- * Keep `website` at root only, unless both platforms carry one: then the stores disagree
- * and the page shows one per store (mobileWebsite.mjs). Prefer Android when hoisting.
- */
+/** Keep `website` at root only (unless the stores disagree); prefer Android when hoisting. */
 export function stripPlatformWebsite (mobile) {
-  const androidSite = mobile.android?.website;
-  const iphoneSite = mobile.iphone?.website;
-  if (!isEmpty(androidSite) && !isEmpty(iphoneSite)) return;
+  if (mobile.android?.website && mobile.iphone?.website) return;
   if (isEmpty(mobile.website)) {
+    const androidSite = mobile.android?.website;
+    const iphoneSite = mobile.iphone?.website;
     if (!isEmpty(androidSite)) {
       mobile.website = androidSite;
     } else if (!isEmpty(iphoneSite)) {
@@ -170,6 +166,30 @@ export function stripPlatformWebsite (mobile) {
     if (!block || typeof block !== 'object') continue;
     delete block.website;
   }
+}
+
+const normalizeUrl = (url) => String(url || '').toLowerCase()
+  .replace(/^https?:\/\/(www\.)?/, '').replace(/\/+$/, '');
+const isListed = (block) => !!block?.meta && !['removed', 'defunct'].includes(block.meta) &&
+  block.playStore !== false && block.playStore !== 'removed';
+
+/**
+ * A store refresh found `url` for `platform`. Neither store takes precedence: while they
+ * agree, or only one lists the app, root `website` holds the URL. When both list it and
+ * disagree, each platform block keeps its store's URL and the page shows both.
+ */
+export function applyStoreWebsite (mobile, platform, url) {
+  if (!url) return;
+  const other = mobile[platform === 'android' ? 'iphone' : 'android'];
+  const otherUrl = isListed(other) && (other.website || mobile.website);
+  if (otherUrl && normalizeUrl(otherUrl) !== normalizeUrl(url)) {
+    mobile[platform].website = url;
+    other.website = otherUrl;
+    return;
+  }
+  if (normalizeUrl(mobile.website) !== normalizeUrl(url)) mobile.website = url;
+  delete mobile.android?.website;
+  delete mobile.iphone?.website;
 }
 
 /** Keep `twitter` at root only; prefer Android when hoisting from platform blocks. */

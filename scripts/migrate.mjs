@@ -30,7 +30,7 @@ const MOBILE_ROOT_HEADERS = [
   'bitcoinOrgId',
 ];
 
-/** Per-store `website` stays when the stores disagree (see mobileWebsite.mjs). */
+/** Per-store `website` stays when the stores disagree (applyStoreWebsite). */
 function allowedPlatformKeys (categoryHelper) {
   return categoryHelper.headers.filter((k) => k === 'website' || !MOBILE_ROOT_STRIP_FROM_PLATFORM.has(k));
 }

@@ -11,8 +11,8 @@ import {
   metaUpdateContext,
   resolveIphoneFilenames,
   findMobileFileByIphoneAppId,
+  applyStoreWebsite,
 } from './mobileWalletStore.mjs';
-import { applyStoreWebsite } from './mobileWebsite.mjs';
 
 process.env.TZ = 'UTC'; // fix timezone issues
 
