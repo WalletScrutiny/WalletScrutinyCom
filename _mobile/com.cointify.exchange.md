@@ -1,6 +1,6 @@
 ---
 title: Cointify Exchange
-date: 2023-05-30
+date: 2026-10-30
 website: https://ex.cointify.com#deadLink
 redirect_from:
 - /android/com.cointify.exchange/

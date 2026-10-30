@@ -1,6 +1,6 @@
 ---
 title: Oobit Everyday Crypto Payments
-date: 2023-06-14
+date: 2026-10-30
 authors:
 - danny
 website: https://www.oobit.com/

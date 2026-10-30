@@ -1,6 +1,6 @@
 ---
 title: 5A Crypto Exchange
-date: 2023-05-17
+date: 2026-10-30
 redirect_from:
 - /android/com.fivea.app/
 android:

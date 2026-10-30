@@ -1,6 +1,6 @@
 ---
 title: 'LMEX: Crypto & Bitcoin Trading'
-date: 2023-06-03
+date: 2026-10-30
 website: https://www.lmex.io/
 redirect_from:
 - /android/mobile.lmex.io/

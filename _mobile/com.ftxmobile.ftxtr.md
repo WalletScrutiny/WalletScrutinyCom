@@ -1,9 +1,9 @@
 ---
 title: FTX TR
-date: 2023-06-14
+date: 2026-10-30
 authors:
 - danny
-website: https://ftxtr.com
+website: https://ftxtr.com#deadLink
 redirect_from:
 - /android/com.ftxmobile.ftxtr/
 android:

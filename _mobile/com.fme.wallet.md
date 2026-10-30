@@ -1,9 +1,9 @@
 ---
 title: FME Wallet
-date: 2023-05-25
+date: 2026-10-30
 authors:
 - danny
-website: https://wallet.fmetoken.io
+website: https://wallet.fmetoken.io#deadLink
 redirect_from:
 - /android/com.fme.wallet/
 android:

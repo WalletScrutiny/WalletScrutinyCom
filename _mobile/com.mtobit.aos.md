@@ -1,9 +1,9 @@
 ---
 title: Mtobit
-date: 2023-05-30
+date: 2026-10-30
 authors:
 - danny
-website: https://mtobit.com
+website: https://mtobit.com#deadLink
 redirect_from:
 - /android/com.mtobit.aos/
 android:

@@ -1,6 +1,6 @@
 ---
 title: 'NC Wallet: Crypto Without Fees'
-date: 2023-06-14
+date: 2026-10-30
 authors:
 - danny
 website: https://nc-wallet.com
@@ -47,7 +47,7 @@ iphone:
 
 - We tested the app, but was not able to find any mnemonic phrases. 
 - There was a BTC wallet that can send and receive.
-- The app's [Terms](https://ncwallet.net/en/terms/) defines storage services and fees, for storing "dormant" cryptocurrencies with no transactions for more than 12 months.
+- The app's [Terms](https://nc-wallet.com/en/terms/) defines storage services and fees, for storing "dormant" cryptocurrencies with no transactions for more than 12 months.
 - The terms also give the platform the right to "suspend the user's account" and "block all Cryptocurrencies" in that account. 
 - This is clearly a **custodial** provider.
 

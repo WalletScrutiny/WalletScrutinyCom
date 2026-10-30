@@ -1,9 +1,9 @@
 ---
 title: Decoin
-date: 2023-05-23
+date: 2026-10-30
 authors:
 - danny
-website: https://www.decoin.io
+website: https://web.archive.org/web/20220110014511/https://www.decoin.io/en
 twitter: decoin_io
 social:
 - https://www.facebook.com/DECOIN.io
@@ -29,6 +29,8 @@ android:
 </div>
 </div>
 [TrustPilot link](https://www.trustpilot.com/review/decoin.io)
+
+**Update 2026-10-30:** The decoin.io domain now carries an unrelated article site with casino links, not the exchange. The website link now points to the [archived exchange site](https://web.archive.org/web/20220110014511/https://www.decoin.io/en).
 
 ## App Description from Google Play 
 

@@ -1,6 +1,6 @@
 ---
 title: Volum - Bitcoin Wallet
-date: 2023-05-17
+date: 2026-10-30
 redirect_from:
 - /android/volum.aplihqm/
 android:

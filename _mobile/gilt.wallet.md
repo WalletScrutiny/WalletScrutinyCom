@@ -1,7 +1,7 @@
 ---
 title: Gilt Wallet
-date: 2023-05-17
-website: https://giltwallet.com
+date: 2026-10-30
+website: https://web.archive.org/web/20220108055712/https://giltwallet.com/
 redirect_from:
 - /android/gilt.wallet/
 android:
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**Update 2026-10-30:** The Gilt Wallet app is gone. Its app ID now belongs to a game, "EndlessEscape", by the same developer, Xmewe. giltwallet.com now shows only an empty "Coming Soon" page; the website link points to an [archived copy](https://web.archive.org/web/20220108055712/https://giltwallet.com/) from January 2022.

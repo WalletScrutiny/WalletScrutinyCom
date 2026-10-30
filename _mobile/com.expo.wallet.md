@@ -1,9 +1,9 @@
 ---
 title: EXPO Mobile Wallet
-date: 2023-05-24
+date: 2026-10-30
 authors:
 - danny
-website: https://expo.biz/
+website: https://expo.biz/#deadLink
 redirect_from:
 - /android/com.expo.wallet/
 android:

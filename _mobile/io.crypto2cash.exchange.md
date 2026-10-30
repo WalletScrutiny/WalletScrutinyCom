@@ -1,6 +1,6 @@
 ---
 title: Crypto2Cash
-date: 2023-06-13
+date: 2026-10-30
 authors:
 - danny
 website: https://www.crypto2cash.com/

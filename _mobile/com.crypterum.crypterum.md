@@ -1,6 +1,6 @@
 ---
 title: Crypterum
-date: 2023-05-22
+date: 2026-10-30
 authors:
 - danny
 website: https://crypterum.com#deadLink

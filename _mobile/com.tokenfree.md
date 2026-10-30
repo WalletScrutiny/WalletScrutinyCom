@@ -1,6 +1,6 @@
 ---
 title: TokenFree
-date: 2023-05-30
+date: 2026-10-30
 website: http://tokenfree.net#deadLink
 redirect_from:
 - /android/com.tokenfree/
