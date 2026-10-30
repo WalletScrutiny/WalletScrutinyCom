@@ -39,7 +39,9 @@ features:
 
 ---
 
-**Update 2026-10-30:** HPX, the former HyperPay, has stopped maintaining its first-generation HyperMate and tells owners to stop using it. Its [site](https://www.hpx.com/en) announces the end of "long-term maintenance of the first-generation HyperMate" and offers a free {% include walletLink.html wallet='hardware/hypermatepro' verdict='true' %} to move the funds to a new seed; by release dates the first-generation device is most likely this HyperMate G. We mark the device discontinued.
+**⚠️ Warning:** HPX tells owners to stop using this device. Its [security notice](https://www.hpx.com/en) says to stop signing with it, stop receiving to its addresses, move the funds to a fresh seed made on a new device, and not restore the old seed anywhere.
+
+**Update 2026-10-30:** HPX, the former HyperPay, ended maintenance of the first-generation HyperMate, the HyperMate G ("Genesis"). Its notice, titled "[Important Security Notice] Free Upgrade to HyperMate Pro and Asset Migration Announcement", says the device "can no longer meet HPX's current, higher security standards" and offers "eligible" owners a free {% include walletLink.html wallet='hardware/hypermatepro' verdict='true' %} through customer service. It names no vulnerability and no eligibility rules. We mark the device discontinued.
 
 HyperMate G is about the size of a credit card and has buttons and a screen. These help the user to verify and confirm transactions. The wallet can connect via Bluetooth.
 
