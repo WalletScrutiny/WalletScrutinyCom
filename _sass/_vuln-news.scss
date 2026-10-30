@@ -131,6 +131,28 @@
     font-size: $font-sm;
   }
 
+  // The OSV link: an icon after the summary on phones, the ids line elsewhere.
+  &__osv {
+    display: none;
+    color: var(--neutral-2);
+
+    .ws-icon {
+      width: 0.85em;
+      height: 0.85em;
+      vertical-align: -0.05em;
+    }
+
+    @media (max-width: 640px) {
+      display: inline;
+    }
+  }
+
+  &__ids--phone-hidden {
+    @media (max-width: 640px) {
+      display: none;
+    }
+  }
+
   // A column of chips, set off from the advisory by a rule (above it on phones).
   &__wallets {
     display: flex;
