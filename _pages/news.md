@@ -5,7 +5,7 @@ permalink: /news/
 author_profile: true
 ---
 
-<div class="vuln-news" id="vuln-news" data-base="{{ site.baseurl }}">
+<div class="vuln-news" id="vuln-news" data-base="{{ site.baseurl }}" data-icon-sprite="{{ site.baseurl }}{{ site.icons_sprite }}">
   <p class="vuln-news__lead">
     Advisories of the last 14 days, by the day they went public, and the
     wallets with a release that uses an affected version. That alone does not
