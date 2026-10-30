@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: MyCryptoVault
 providerWebsite: 
-website: http://mycryptovault.net
+website: https://web.archive.org/web/20150801210513/http://mycryptovault.net/
 shop: 
 country: US
 price: 15USD
@@ -21,7 +21,7 @@ icon: mycryptovaultnet.coins.webp
 bugbounty: 
 meta: defunct
 verdict: sealed-plainkey
-date: 2022-04-29
+date: 2026-10-30
 signer: 
 twitter: myCryptoVAULTne
 social:
@@ -29,6 +29,8 @@ social:
 features: 
 
 ---
+
+**Update 2026-10-30:** The mycryptovault.net domain now hosts an unrelated French crypto-mining platform, so the website link points to the [2015 archived shop](https://web.archive.org/web/20150801210513/http://mycryptovault.net/) instead.
 
 ## Background 
 

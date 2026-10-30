@@ -15,7 +15,7 @@ dimensions:
 weight: 
 provider: KONA I Co., Ltd.
 providerWebsite: 
-website: https://www.konai.com/business/cards/card
+website: https://www.konai.com/product/blockchain
 shop: 
 country: KR
 price: 
@@ -24,7 +24,7 @@ icon: konai.cryptokona.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-04-27
+date: 2026-10-30
 signer: 
 twitter: 
 social:
@@ -39,6 +39,8 @@ features:
 
 ---
 
+**Update 2026-10-30:** The old product page is gone; KONA I now presents CryptoKona on its [blockchain page](https://www.konai.com/product/blockchain). The Android companion app is no longer on Google Play.
+
 Kona I Co., Ltd. is a South Korean company involved in the manufacture of various electronic cards. Among its products include: 
 
 - Fingerprint Card
@@ -50,7 +52,7 @@ Kona I Co., Ltd. is a South Korean company involved in the manufacture of variou
 
 ## Product Description 
 
-The CryptoKona is a multi-currency card type [hardware wallet](https://www.konai.com/business/cards/card): 
+The CryptoKona is a multi-currency card type [hardware wallet](https://www.konai.com/business/cards/card#deadLink): 
 
 > It is equipped with IC chips with international security CC EAL6 + certification to provide the highest level of security performance, and it is possible to manage cryptocurrency more safely through strong user authentication such as fingerprint authentication or PIN input.
 

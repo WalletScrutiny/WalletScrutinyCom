@@ -21,7 +21,7 @@ icon: bluenio.niocard.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-05-10
+date: 2026-10-30
 signer: 
 twitter: bluenio
 social: 

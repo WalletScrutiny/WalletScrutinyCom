@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Qompass
 providerWebsite: 
-website: https://qompass.io/
+website: https://web.archive.org/web/20220124061610/https://qompass.io/
 shop: 
 country: HK
 price: 
@@ -21,7 +21,7 @@ icon: qompass.card.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-05-04
+date: 2026-10-30
 signer: 
 twitter: QompassMarkets
 social:

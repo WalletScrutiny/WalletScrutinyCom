@@ -4,20 +4,22 @@ appId: com.ridgeiron
 authors:
 - danny
 icon: com.ridgeiron.webp
-date: 2022-05-17
+date: 2026-10-30
 released: 2019-01-25
 twitter: blockchainiron
 social:
 - https://www.facebook.com/RidgeIronGear/
 provider: Ridge Iron
 providerWebsite: http://ridgeiron.com/
-shop: http://ridgeiron.com/cart/
+shop: http://ridgeiron.com/cart/#deadLink
 country: US
 price: 145USD
-meta: ok
+meta: discontinued
 verdict: plainkey
 
 ---
+
+**Update 2026-10-30:** The vault no longer appears to be for sale. [ridgeiron.com](http://ridgeiron.com/) now presents autonomy systems for land, sea and air, and its old cart page returns 404. [blockchainiron.com](http://blockchainiron.com/) still describes the Crypto Coin Vault, but it has no shop: its only purchase link goes to the 2019 Kickstarter, and its footer reads "Copyright © 2019".
 
 The provider's name is Ridge Iron (Blockchain Iron). The product is also referenced as Crypto Coin Vault on the same page. They successfully funded their [Kickstarter campaign](https://www.kickstarter.com/projects/1173199625/cold-storage-wallet-for-bitcoin-and-cryptocurrenci/) in 2019. They raised $19,665 out of their target goal of $18,000. 
 

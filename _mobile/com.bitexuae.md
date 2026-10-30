@@ -1,7 +1,7 @@
 ---
 wsId: Bitex
 title: Bitex - Crypto Exchange
-date: 2022-04-25
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitex.com#deadLink
@@ -36,6 +36,8 @@ iphone:
   developerName: Trade Bit Commercial Brokers LLC
 
 ---
+
+**⚠️ Warning:** Bitex appears to be gone. bitex.com no longer serves the exchange, bitexuae.com now shows only casino link spam, and [Trustpilot](https://www.trustpilot.com/review/www.bitexuae.com) says the company website has closed.
 
 ## Android
 

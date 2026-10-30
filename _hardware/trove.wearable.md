@@ -21,7 +21,7 @@ icon: trove.wearable.webp
 bugbounty: 
 meta: obsolete
 verdict: noita
-date: 2022-04-27
+date: 2026-10-30
 signer: 
 twitter: layer_design
 social:

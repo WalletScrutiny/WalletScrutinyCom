@@ -19,9 +19,9 @@ price: 24USD
 repository: 
 icon: bcmint.physicalbitcoins.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: prefilled
-date: 2022-05-19
+date: 2026-10-30
 signer: 
 twitter: 
 social:
@@ -29,6 +29,8 @@ social:
 features: 
 
 ---
+
+**⚠️ Warning:** BCmint appears to be gone. [bcmint.com](https://bcmint.com/) is now a domain listed for sale at HugeDomains, so the product page linked here no longer exists.
 
 ## Background
 

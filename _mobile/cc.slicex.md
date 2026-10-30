@@ -1,6 +1,6 @@
 ---
 title: Slicecoin wallet
-date: 2022-04-25
+date: 2026-10-30
 website: https://slicex.cc/
 redirect_from:
 - /android/cc.slicex/

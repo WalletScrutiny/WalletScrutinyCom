@@ -21,7 +21,7 @@ icon: bitark.tinkey.webp
 bugbounty: 
 meta: defunct
 verdict: noita
-date: 2022-05-17
+date: 2026-10-30
 signer: 
 twitter: officialtinkey
 social:

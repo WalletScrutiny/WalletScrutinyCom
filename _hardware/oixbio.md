@@ -19,9 +19,9 @@ price:
 repository: 
 icon: oixbio.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2022-04-11
+date: 2026-10-30
 signer: 
 twitter: OiXGlobal
 social:
@@ -32,6 +32,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** OiX Global appears to be gone. On 2026-10-30 oix.global no longer resolved; the [last archived copy is from September 2022](https://web.archive.org/web/20220929132439/https://oix.global/).
 
 **⚠️ Note:** Crunchbase lists [OiX Global's](https://www.crunchbase.com/organization/oix-open-investment-exchange) founding date to be July 16, 2017. OiX Global also did an ISO (Initial Securities Offerings) which are similar to ICOs, except that they are "more regulated".
 

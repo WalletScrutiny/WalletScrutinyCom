@@ -4,7 +4,7 @@ appId: bitcoinpaperwallet.treasurechest
 authors:
 - danny
 icon: bitcoinpaperwallet.treasurechest.webp
-date: 2022-05-18
+date: 2026-10-30
 website: https://blog.flo.cx/2014/02/bitcoin-paper-wallet-treasure-chest/
 repository: https://github.com/piperwallet/Piper
 twitter: flowolf

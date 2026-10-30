@@ -26,7 +26,7 @@ icon: bithdwatch1.webp
 bugbounty: 
 meta: discontinued
 verdict: sourceavailable
-date: 2022-04-18
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
