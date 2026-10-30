@@ -78,6 +78,15 @@ body.dark .dp-panel {
   .dp-tiles {
     grid-template-columns: 1fr;
   }
+
+  // the platform box around the step is frame enough: no second box between it and the tiles
+  .dp-panel,
+  body.dark .dp-panel {
+    border: 0;
+    border-radius: 0;
+    background: none;
+    padding: 0;
+  }
 }
 
 .dp-tile {
@@ -1056,6 +1065,37 @@ a.dp-signer {
   code {
     font-size: inherit;
   }
+}
+
+.dp-note-text {
+  margin: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  overflow: hidden;
+
+  &.dp-note-text--open {
+    display: block;
+    overflow: visible;
+  }
+}
+
+.dp-note-more {
+  appearance: none;
+  border: 0;
+  background: none;
+  padding: 0;
+  margin-top: 4px;
+  font: inherit;
+  font-weight: 600;
+  color: #1f6f86;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+body.dark .dp-note-more {
+  color: #8fd0e3;
 }
 
 .dp-actions {

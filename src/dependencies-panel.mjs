@@ -816,7 +816,16 @@ function howToRead(model) {
       ? `, and ${d.integrityChangedAtSameVersion.length} changed content at the same version (${d.integrityChangedAtSameVersion.join(', ')}). `
       : ', none changed content at the same version. ');
   }
-  return el('div', { className: 'dp-note' }, parts);
+  // three lines, then "Read more": in full it is taller than a phone screen
+  const text = el('p', { className: 'dp-note-text', id: `dp-note-${Math.random().toString(36).slice(2, 8)}` }, parts);
+  const more = el('button', { type: 'button', className: 'dp-note-more', 'aria-controls': text.id, 'aria-expanded': 'false' }, 'Read more');
+  more.addEventListener('click', () => {
+    const open = more.getAttribute('aria-expanded') !== 'true';
+    text.classList.toggle('dp-note-text--open', open);
+    more.setAttribute('aria-expanded', String(open));
+    more.textContent = open ? 'Read less' : 'Read more';
+  });
+  return el('div', { className: 'dp-note' }, [text, more]);
 }
 
 function actions(model, { appId, base, fetchImpl }) {
