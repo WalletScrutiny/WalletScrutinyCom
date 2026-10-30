@@ -4,7 +4,7 @@ appId: bitmain.safeprime
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2023-04-06
 updated: 2016-10-13
 version: 
 binaries: 
@@ -12,16 +12,16 @@ dimensions:
 weight: 
 provider: Bitmain
 providerWebsite: https://bitmain.com
-website: https://file12.bitmain.com/shop-product/firmware/SafePrime%20FAQs%2013102016.pdf
+website: https://web.archive.org/web/20240223033826/https://file12.bitmain.com/shop-product/firmware/SafePrime%20FAQs%2013102016.pdf
 shop: 
 country: CN
 price: 
 repository: 
 icon: bitmain.safeprime.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: plainkey
-date: 2023-04-06
+date: 2026-10-30
 signer: 
 twitter: BITMAINtech
 social:
@@ -32,6 +32,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** We mark the SafePrime discontinued instead of defunct. Bitmain no longer sells it and its own copy of the FAQ is gone, but the [MultiBit for SafePrime software](https://www.antminer-firmware.eu/bitmain-tools/safeprime-hd-wallet/) can still be downloaded from a third-party site, and the 24-word recovery phrase works in any BIP39 wallet. The FAQ links below now point to an archived copy.
 
 ## Product Description 
 
@@ -45,7 +47,7 @@ This is still available online as of 2023-04-06.
 > 
 > NOTE: You must connect the wallet before running the software. If you run the software before connecting your device then you must re-connect your SafePrime device after ending the software program on your PC. If you still experience some issues, try restarting your PC.
 
-## From the [SafePrime FAQ](https://file12.bitmain.com/shop-product/firmware/SafePrime%20FAQs%2013102016.pdf)
+## From the [SafePrime FAQ](https://web.archive.org/web/20240223033826/https://file12.bitmain.com/shop-product/firmware/SafePrime%20FAQs%2013102016.pdf)
 
 > Q. What if I lose my SafePrime wallet?
 > 
@@ -74,7 +76,7 @@ As the user manual indicates, the device has to be connected to a desktop Window
 
 The device has a touchscreen interface. 
 
-There was no specification on how the private keys can be generated. However this is how it can be [factory reset](https://file12.bitmain.com/shop-product/firmware/SafePrime%20FAQs%2013102016.pdf): 
+There was no specification on how the private keys can be generated. However this is how it can be [factory reset](https://web.archive.org/web/20240223033826/https://file12.bitmain.com/shop-product/firmware/SafePrime%20FAQs%2013102016.pdf): 
 
 > Q. How can I restore my SafePrime wallet’s bitcoins using the 24-word phrase?
 >

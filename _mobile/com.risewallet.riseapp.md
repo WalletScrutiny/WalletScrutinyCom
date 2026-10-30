@@ -1,6 +1,6 @@
 ---
 title: Well Wallet
-date: 2023-04-16
+date: 2026-10-30
 authors:
 - danny
 website: https://wellwallet.ca/
@@ -32,6 +32,8 @@ iphone:
   verdict: nosource
 
 ---
+
+**⚠️ Warning:** Bitcoin Well retired the Well Wallet in 2023 and asked users to move their recovery phrase to another wallet ([Bitcoin Well blog](https://bitcoinwell.com/blog/how-to-change-mobile-wallets)). The wellwallet.ca site now forwards to bitcoinwell.com, which no longer offers a wallet of its own.
 
 ## Android
 

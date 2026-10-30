@@ -1,6 +1,6 @@
 ---
 title: 'Deribit: BTC Options & Futures'
-date: 2023-03-31
+date: 2026-10-30
 authors:
 - danny
 website: https://www.deribit.com
@@ -41,6 +41,8 @@ iphone:
   developerName: Sentillia B.V.
 
 ---
+
+**Update 2026-10-30:** Coinbase bought Deribit; the deal closed in August 2025 ([The Block](https://www.theblock.co/post/366957/coinbase-completes-2-9-billion-cash-and-stock-acquisition-of-deribit)).
 
 ## Android
 

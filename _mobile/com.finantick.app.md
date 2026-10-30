@@ -1,7 +1,7 @@
 ---
 title: MCI Investments
-date: 2023-04-16
-website: https://www.mciinvestments.com
+date: 2026-10-30
+website: https://www.mciinvestments.com#deadLink
 redirect_from:
 - /android/com.finantick.app/
 android:

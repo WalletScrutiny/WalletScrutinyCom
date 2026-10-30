@@ -1,6 +1,6 @@
 ---
 title: Vex Block Wallet
-date: 2023-04-20
+date: 2026-10-30
 authors:
 - danny
 website: https://web.archive.org/web/20200805051007/http://vexblock.co/

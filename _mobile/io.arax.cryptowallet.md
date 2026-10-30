@@ -1,6 +1,6 @@
 ---
 title: 'COSS Wallet: Crypto One Stop Solution'
-date: 2023-04-15
+date: 2026-10-30
 redirect_from:
 - /android/io.arax.cryptowallet/
 android:

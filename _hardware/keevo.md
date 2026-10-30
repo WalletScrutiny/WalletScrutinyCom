@@ -5,7 +5,7 @@ authors:
 - danny
 - kiwilamb
 released: 2020-10-01
-discontinued: 
+discontinued: 2026-10-30
 updated: 
 version: 
 binaries: 
@@ -23,9 +23,9 @@ price: 299USD
 repository: 
 icon: keevo.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: nosource
-date: 2023-04-04
+date: 2026-10-30
 signer: 
 twitter: keevowallet
 social:
@@ -34,6 +34,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** The Keevo Model 1 is no longer for sale. Both versions, Standard and Founders Edition, are marked sold out on the [Keevo product page](https://www.keevowallet.com/products/keevo-model-1-crypto-hardware-bitcoin-wallet-cold-storage), so we mark it discontinued. Its seed phrase can still be restored in other wallets, so coins on a Keevo stay reachable.
 
 ## Updated Review 2023-04-04
 

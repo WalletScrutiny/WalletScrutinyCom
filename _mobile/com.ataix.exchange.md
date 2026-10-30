@@ -1,6 +1,6 @@
 ---
 title: ATAIX – Bitcoin Crypto Exchang
-date: 2023-04-16
+date: 2026-10-30
 authors:
 - danny
 website: https://ataix.com

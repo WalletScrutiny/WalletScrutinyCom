@@ -1,6 +1,6 @@
 ---
 title: 'YANT Wallet : Bitcoin Ethereum'
-date: 2023-03-31
+date: 2026-10-30
 authors:
 - danny
 website: https://www.gbih.org#deadLink

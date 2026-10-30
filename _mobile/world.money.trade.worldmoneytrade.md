@@ -1,6 +1,6 @@
 ---
 title: World Money Trade
-date: 2023-04-18
+date: 2026-10-30
 authors:
 - danny
 website: https://worldmoneytrade.com#deadLink

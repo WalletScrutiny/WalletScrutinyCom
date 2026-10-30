@@ -1,9 +1,9 @@
 ---
 title: Bitcoin Faucet
-date: 2023-04-18
+date: 2026-10-30
 authors:
 - danny
-website: http://bitcoinfaucet.promo-miner.com/
+website: https://web.archive.org/web/20250403001121/http://www.bitcoinfaucet.promo-miner.com/
 redirect_from:
 - /android/ps.bitcoinfaucet.app/
 android:

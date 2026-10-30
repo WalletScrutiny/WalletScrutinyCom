@@ -1,6 +1,6 @@
 ---
 title: Genbit
-date: 2023-04-19
+date: 2026-10-30
 authors:
 - danny
 website: https://web.archive.org/web/20250624214402/https://genbit.com.br/

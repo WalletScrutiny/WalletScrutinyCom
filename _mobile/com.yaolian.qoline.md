@@ -1,9 +1,9 @@
 ---
 title: SalletOne Live
-date: 2023-04-16
+date: 2026-10-30
 authors:
 - danny
-website: https://www.salletone.com
+website: https://web.archive.org/web/20230922053524/https://salletone.com/
 twitter: salletone
 social:
 - https://www.facebook.com/salletone
@@ -36,6 +36,8 @@ iphone:
   developerName: sallet .Inc
 
 ---
+
+**Update 2026-10-30:** The SalletOne website no longer loads ([archived copy](https://web.archive.org/web/20230922053524/https://salletone.com/)), and the hardware wallet this app works with is now listed as defunct.
 
 ## Android
 

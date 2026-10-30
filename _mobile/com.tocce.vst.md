@@ -1,6 +1,6 @@
 ---
 title: VSTMEX - Buy Bitcoin & Crypto
-date: 2023-04-12
+date: 2026-10-30
 authors:
 - danny
 website: https://www.vstmex.com#deadLink
@@ -60,7 +60,7 @@ iphone:
 
 This app has many negative reviews and scam allegations on social networks. The homepage is no longer online and the app simply shows the splash screen [(Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1646005334757249024). 
 
-We'll mark this app as defunct and **custodial**, as the app description states on the [archived homepage](https://vstmex.com):
+We'll mark this app as defunct and **custodial**, as the app description states on the [archived homepage](https://web.archive.org/web/20220812113943/https://vstmex.com/):
  
 > - The use of cold wallets to storage important assets
 > - Two-factor authentication
