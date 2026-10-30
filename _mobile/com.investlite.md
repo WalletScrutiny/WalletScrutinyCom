@@ -15,7 +15,7 @@ android:
   version: 1.5.78-investlite
   reviews: 100
   icon: com.investlite.webp
-  meta: defunct
+  meta: removed
   verdict: nosendreceive
 
 ---

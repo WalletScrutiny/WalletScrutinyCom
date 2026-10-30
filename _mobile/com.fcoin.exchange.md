@@ -12,7 +12,7 @@ android:
   version: 1.14.1
   reviews: 8
   icon: com.fcoin.exchange.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

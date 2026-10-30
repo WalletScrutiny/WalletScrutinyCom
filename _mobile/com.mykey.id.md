@@ -10,7 +10,7 @@ android:
   version: 3.5.0
   reviews: 82
   icon: com.mykey.id.webp
-  meta: defunct
+  meta: removed
   verdict: wip
 
 ---

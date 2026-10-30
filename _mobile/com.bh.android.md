@@ -17,7 +17,7 @@ android:
   version: 4.2.2
   reviews: 21
   icon: com.bh.android.webp
-  meta: defunct
+  meta: removed
   verdict: wip
 iphone:
   appId: io.bhex.app
@@ -27,7 +27,7 @@ iphone:
   version: 4.1.2
   reviews: 35
   icon: io.bhex.app.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

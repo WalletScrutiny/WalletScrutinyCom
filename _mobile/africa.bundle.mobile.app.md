@@ -16,7 +16,7 @@ android:
   version: 4.6.9
   reviews: 371
   icon: africa.bundle.mobile.app.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
   developerName: BundleAfrica
 iphone:
@@ -27,7 +27,7 @@ iphone:
   version: 3.0.0
   reviews: 208
   icon: com.bundlewallet.mobileApp.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

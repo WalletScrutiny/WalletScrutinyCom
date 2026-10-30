@@ -14,7 +14,7 @@ android:
   version: '1.0'
   reviews: 63
   icon: com.burtar.wallet.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

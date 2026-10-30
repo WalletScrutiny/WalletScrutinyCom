@@ -15,7 +15,7 @@ android:
   version: '1.1'
   reviews: 42
   icon: info.mysecurewallet.wallet.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

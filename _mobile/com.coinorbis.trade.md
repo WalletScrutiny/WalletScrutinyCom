@@ -11,7 +11,7 @@ android:
   version: 2.0.0
   reviews: 1
   icon: com.coinorbis.trade.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

@@ -18,7 +18,7 @@ android:
   version: 5.6.0
   reviews: 433
   icon: africa.bitkoin.buycoins.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 iphone:
   appId: africa.bitkoin.buycoins
@@ -28,7 +28,7 @@ iphone:
   version: 5.6.0
   reviews: 46
   icon: africa.bitkoin.buycoins.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

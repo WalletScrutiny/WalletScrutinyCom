@@ -14,7 +14,7 @@ android:
   version: '1.355'
   reviews: 525
   icon: com.citowise.wallet.webp
-  meta: defunct
+  meta: removed
   verdict: nosource
 
 ---

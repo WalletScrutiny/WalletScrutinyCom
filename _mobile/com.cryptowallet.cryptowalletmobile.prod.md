@@ -22,7 +22,7 @@ android:
   version: 1.11.10
   reviews: 7
   icon: com.cryptowallet.cryptowalletmobile.prod.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 iphone:
   appId: com.cryptowallet.cryptowalletmobile.prod
@@ -32,7 +32,7 @@ iphone:
   version: 1.11.4
   reviews: 3
   icon: com.cryptowallet.cryptowalletmobile.prod.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

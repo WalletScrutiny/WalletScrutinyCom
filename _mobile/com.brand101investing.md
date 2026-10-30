@@ -21,7 +21,7 @@ android:
   version: 1.5.78-brand101investing
   reviews: 209
   icon: com.brand101investing.webp
-  meta: defunct
+  meta: removed
   verdict: nosendreceive
 iphone:
   appId: com.101investing
@@ -30,7 +30,7 @@ iphone:
   updated: 2021-08-25
   version: 1.68.10
   icon: com.101investing.webp
-  meta: defunct
+  meta: removed
   verdict: nosendreceive
 
 ---

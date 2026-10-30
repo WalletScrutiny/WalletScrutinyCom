@@ -22,7 +22,7 @@ android:
   version: 1.1.52
   reviews: 17
   icon: net.bitbay.bitcoin.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
   developerName: BB Trade Estonia
 iphone:

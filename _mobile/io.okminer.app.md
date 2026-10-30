@@ -14,7 +14,7 @@ android:
   version: 1.2.8
   reviews: 117
   icon: io.okminer.app.webp
-  meta: defunct
+  meta: removed
   verdict: wip
 
 ---

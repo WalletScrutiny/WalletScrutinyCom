@@ -11,7 +11,7 @@ android:
   updated: 2020-08-20
   version: 1.0.6
   icon: com.ctower.mobile.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

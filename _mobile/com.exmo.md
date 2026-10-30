@@ -24,7 +24,7 @@ android:
   version: 3.88.1
   reviews: 96
   icon: com.exmo.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
   developerName: Exmo Poland Sp. z o.o.
 iphone:
@@ -36,7 +36,7 @@ iphone:
   version: 2.28.27
   reviews: 86
   icon: com.exmo.enfins.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
   developerName: EXMO EXCHANGE LTD
 

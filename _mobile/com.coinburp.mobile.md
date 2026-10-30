@@ -19,7 +19,7 @@ android:
   updated: 2022-01-05
   version: 1.0.15
   icon: com.coinburp.mobile.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 iphone:
   appId: com.coinburp.mobile
@@ -29,7 +29,7 @@ iphone:
   version: 1.0.16
   reviews: 5
   icon: com.coinburp.mobile.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

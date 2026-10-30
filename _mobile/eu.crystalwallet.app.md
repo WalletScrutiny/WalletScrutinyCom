@@ -18,7 +18,7 @@ android:
   version: '1.77'
   reviews: 9
   icon: eu.crystalwallet.app.webp
-  meta: defunct
+  meta: removed
   verdict: nosource
 iphone:
   appId: eu.crystalwallet.app
@@ -28,7 +28,7 @@ iphone:
   version: '1.78'
   reviews: 6
   icon: eu.crystalwallet.app.webp
-  meta: defunct
+  meta: removed
   verdict: nosource
 
 ---

@@ -14,7 +14,7 @@ android:
   version: 1.2.18
   reviews: 38
   icon: com.duedex.app.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

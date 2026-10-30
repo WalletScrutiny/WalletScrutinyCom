@@ -11,7 +11,7 @@ android:
   updated: 2019-05-03
   version: 1.25.251
   icon: com.bokka.ex.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
   developerName: Bokka
 

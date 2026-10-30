@@ -13,7 +13,7 @@ android:
   version: '1.47'
   reviews: 200
   icon: com.app.mystarwallet.webp
-  meta: defunct
+  meta: removed
   verdict: wip
 
 ---

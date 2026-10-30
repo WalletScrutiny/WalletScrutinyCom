@@ -17,7 +17,7 @@ android:
   version: 1.25.0
   reviews: 5
   icon: com.atomex.android.webp
-  meta: defunct
+  meta: removed
   verdict: nosource
   developerName: Atomex
 iphone:
@@ -28,7 +28,7 @@ iphone:
   version: '1.24'
   reviews: 11
   icon: com.atomex.ios.webp
-  meta: defunct
+  meta: removed
   verdict: nosource
   developerName: Atomex OÜ
 

@@ -21,7 +21,7 @@ android:
   version: 3.4.1
   reviews: 47
   icon: com.bideskcom.app.webp
-  meta: defunct
+  meta: removed
   verdict: wip
 iphone:
   appId: com.bideskexchange.app
@@ -31,7 +31,7 @@ iphone:
   version: 3.1.2
   reviews: 12
   icon: com.bideskexchange.app.webp
-  meta: defunct
+  meta: removed
   verdict: wip
 
 ---

@@ -16,7 +16,7 @@ android:
   updated: 2019-01-17
   version: 1.6.1
   icon: io.coiny.android.webp
-  meta: defunct
+  meta: removed
   verdict: wip
 
 ---

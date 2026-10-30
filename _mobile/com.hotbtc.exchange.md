@@ -11,7 +11,7 @@ android:
   version: 1.1.0
   reviews: 19
   icon: com.hotbtc.exchange.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

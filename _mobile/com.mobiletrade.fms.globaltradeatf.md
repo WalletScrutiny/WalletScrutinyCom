@@ -21,7 +21,7 @@ android:
   version: 1.5.78-mobiletrade.fms.globaltradeatf
   reviews: 318
   icon: com.mobiletrade.fms.globaltradeatf.webp
-  meta: defunct
+  meta: removed
   verdict: nosendreceive
 iphone:
   appId: com.tradeatf.global
@@ -30,7 +30,7 @@ iphone:
   updated: 2021-11-26
   version: 1.69.13
   icon: com.tradeatf.global.webp
-  meta: defunct
+  meta: removed
   verdict: nosendreceive
 
 ---

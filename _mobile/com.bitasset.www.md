@@ -14,7 +14,7 @@ android:
   version: 3.4.12
   reviews: 29
   icon: com.bitasset.www.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

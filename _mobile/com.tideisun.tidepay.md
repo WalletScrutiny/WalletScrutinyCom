@@ -20,7 +20,7 @@ android:
   updated: 2021-07-20
   version: 2.1.3
   icon: com.tideisun.tidepay.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 iphone:
   appId: com.tideisun.tidepay
@@ -30,7 +30,7 @@ iphone:
   version: 4.0.5
   reviews: 3
   icon: com.tideisun.tidepay.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
   developerName: TIDENET LIMITED
 

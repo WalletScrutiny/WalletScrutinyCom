@@ -21,7 +21,7 @@ android:
   version: 1.4.0
   reviews: 43
   icon: com.flare.webp
-  meta: defunct
+  meta: removed
   verdict: nosource
   developerName: flarewallet.io
 iphone:
@@ -32,7 +32,7 @@ iphone:
   version: 1.4.0
   reviews: 36
   icon: org.flarewallet.flare.webp
-  meta: defunct
+  meta: removed
   verdict: nosource
 
 ---

@@ -16,7 +16,7 @@ android:
   updated: 2022-03-31
   version: v8.5-5457-b9fe16886
   icon: com.ubankfx.forex.webp
-  meta: defunct
+  meta: removed
   verdict: nosendreceive
 iphone:
   appId: com.ubankfx.forex
@@ -25,7 +25,7 @@ iphone:
   updated: 2020-09-22
   version: 6.24.3790
   icon: com.ubankfx.forex.webp
-  meta: defunct
+  meta: removed
   verdict: nosendreceive
 
 ---

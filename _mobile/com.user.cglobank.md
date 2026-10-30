@@ -14,7 +14,7 @@ android:
   version: '16'
   reviews: 15
   icon: com.user.cglobank.webp
-  meta: defunct
+  meta: removed
   verdict: wip
 
 ---

@@ -13,7 +13,7 @@ android:
   updated: 2018-09-23
   version: '1.2'
   icon: com.murextrivium.walletapp.webp
-  meta: defunct
+  meta: removed
   verdict: wip
 
 ---

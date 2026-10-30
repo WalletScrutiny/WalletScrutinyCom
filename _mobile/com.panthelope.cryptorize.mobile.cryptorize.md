@@ -11,7 +11,7 @@ android:
   version: 2.0.0
   reviews: 22
   icon: com.panthelope.cryptorize.mobile.cryptorize.webp
-  meta: defunct
+  meta: removed
   verdict: wip
 
 ---

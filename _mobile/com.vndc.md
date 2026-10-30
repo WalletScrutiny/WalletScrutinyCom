@@ -19,7 +19,7 @@ android:
   version: 6.4.7
   reviews: 1467
   icon: com.vndc.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
   developerName: ONUS FINANCE UAB
 iphone:
@@ -30,7 +30,7 @@ iphone:
   version: 6.0.7
   reviews: 1327
   icon: com.vndc.app.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
   developerName: ONUS Finance UAB
 

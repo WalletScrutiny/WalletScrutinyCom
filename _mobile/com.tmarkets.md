@@ -18,7 +18,7 @@ android:
   updated: 2021-12-01
   version: 1.5.78-tmarkets
   icon: com.tmarkets.webp
-  meta: defunct
+  meta: removed
   verdict: nosendreceive
   developerName: GCB LTD
 iphone:
@@ -30,7 +30,7 @@ iphone:
   version: 1.69.13
   reviews: 2
   icon: com.gcb.T1.webp
-  meta: defunct
+  meta: removed
   verdict: nosendreceive
 
 ---

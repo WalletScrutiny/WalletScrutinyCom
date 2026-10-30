@@ -14,7 +14,7 @@ android:
   version: '1.2'
   reviews: 3
   icon: com.bitcoin.wallet.cryptopuce.webp
-  meta: defunct
+  meta: removed
   verdict: nosource
 
 ---

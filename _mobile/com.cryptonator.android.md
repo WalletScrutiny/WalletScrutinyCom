@@ -17,7 +17,7 @@ android:
   version: '4.2'
   reviews: 139
   icon: com.cryptonator.android.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 iphone:
   appId: com.cryptonator.ios
@@ -27,7 +27,7 @@ iphone:
   version: 4.1.4
   reviews: 26
   icon: com.cryptonator.ios.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

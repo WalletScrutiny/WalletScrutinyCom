@@ -21,7 +21,7 @@ android:
   version: 2.7.0
   reviews: 11
   icon: com.lxd.java_websocketclient.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 iphone:
   appId: coinflex.com.appc
@@ -31,7 +31,7 @@ iphone:
   version: 2.7.0
   reviews: 8
   icon: coinflex.com.appc.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

@@ -22,7 +22,7 @@ android:
   version: 4.1.6
   reviews: 461
   icon: com.coinbene.manbiwang.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 iphone:
   appId: br.com.coinbene
@@ -32,7 +32,7 @@ iphone:
   version: 4.8.6
   reviews: 46
   icon: br.com.coinbene.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

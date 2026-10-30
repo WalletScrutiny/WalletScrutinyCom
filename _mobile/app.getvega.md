@@ -15,7 +15,7 @@ android:
   updated: 2019-05-22
   version: Varies with device
   icon: app.getvega.webp
-  meta: defunct
+  meta: removed
   verdict: wip
 
 ---

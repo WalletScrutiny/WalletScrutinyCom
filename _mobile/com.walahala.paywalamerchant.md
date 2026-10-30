@@ -11,7 +11,7 @@ android:
   updated: 2020-07-23
   version: '1.5'
   icon: com.walahala.paywalamerchant.webp
-  meta: defunct
+  meta: removed
   verdict: wip
 
 ---

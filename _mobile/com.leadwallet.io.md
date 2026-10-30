@@ -17,7 +17,7 @@ android:
   updated: 2021-08-14
   version: Varies with device
   icon: com.leadwallet.io.webp
-  meta: defunct
+  meta: removed
   verdict: nosource
 
 ---

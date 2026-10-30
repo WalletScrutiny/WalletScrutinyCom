@@ -13,7 +13,7 @@ android:
   updated: 2021-02-20
   version: 2.1.2
   icon: io.s3.wallet.webp
-  meta: defunct
+  meta: removed
   verdict: wip
   developerName: S3 Global Technology Ltd
 

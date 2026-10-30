@@ -14,7 +14,7 @@ android:
   version: 1.8.0
   reviews: 10
   icon: com.anxbtc.android.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
   developerName: ANX
 

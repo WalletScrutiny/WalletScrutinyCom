@@ -16,7 +16,7 @@ android:
   updated: 2020-12-02
   version: '1.0'
   icon: com.FrancExchange.webp
-  meta: defunct
+  meta: removed
   verdict: wip
   developerName: Franc IT Solutions
 iphone:
@@ -27,7 +27,7 @@ iphone:
   version: '1.0'
   reviews: 1
   icon: com.FrancExchange.webp
-  meta: defunct
+  meta: removed
   verdict: wip
 
 ---

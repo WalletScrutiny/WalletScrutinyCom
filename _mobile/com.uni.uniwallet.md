@@ -11,7 +11,7 @@ android:
   version: 7.0.4
   reviews: 23
   icon: com.uni.uniwallet.webp
-  meta: defunct
+  meta: removed
   verdict: wip
 
 ---

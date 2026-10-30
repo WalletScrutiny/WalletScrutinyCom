@@ -11,7 +11,7 @@ android:
   updated: 2020-01-17
   version: 2.1.3
   icon: co.satoshiwallet.app.webp
-  meta: defunct
+  meta: removed
   verdict: sourceavailable
   repository: https://github.com/SatoshiWallet/ui
 

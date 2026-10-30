@@ -17,7 +17,7 @@ android:
   version: 1.0.5
   reviews: 2
   icon: com.fiboda.app.webp
-  meta: defunct
+  meta: removed
   verdict: nosendreceive
 iphone:
   appId: com.fiboda.Fiboda
@@ -27,7 +27,7 @@ iphone:
   version: 1.1.0
   reviews: 5
   icon: com.fiboda.Fiboda.webp
-  meta: defunct
+  meta: removed
   verdict: nosendreceive
 
 ---

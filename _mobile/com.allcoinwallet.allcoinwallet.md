@@ -14,7 +14,7 @@ android:
   version: 1.2.22
   reviews: 1
   icon: com.allcoinwallet.allcoinwallet.webp
-  meta: defunct
+  meta: removed
   verdict: wip
   developerName: All Coin Wallet
 

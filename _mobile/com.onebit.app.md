@@ -17,7 +17,7 @@ android:
   version: 3.25.1
   reviews: 575
   icon: com.onebit.app.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

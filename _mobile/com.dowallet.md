@@ -16,7 +16,7 @@ android:
   version: 1.1.41
   reviews: 88
   icon: com.dowallet.webp
-  meta: defunct
+  meta: removed
   verdict: nosource
   developerName: Wallex, Inc.
 iphone:
@@ -27,7 +27,7 @@ iphone:
   version: 1.1.39
   reviews: 225
   icon: com.dowallet.dowallet.webp
-  meta: defunct
+  meta: removed
   verdict: nosource
 
 ---

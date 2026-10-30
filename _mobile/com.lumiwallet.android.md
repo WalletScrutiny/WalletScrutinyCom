@@ -21,7 +21,7 @@ android:
   version: 4.1.6
   reviews: 247
   icon: com.lumiwallet.android.webp
-  meta: defunct
+  meta: removed
   verdict: nosource
   developerName: Raias Llc
 iphone:
@@ -32,7 +32,7 @@ iphone:
   version: 3.10.2
   reviews: 3449
   icon: com.lumiwallet.HD.webp
-  meta: defunct
+  meta: removed
   verdict: nosource
 
 ---

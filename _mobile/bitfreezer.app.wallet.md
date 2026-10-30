@@ -17,7 +17,7 @@ android:
   version: 1.0.16
   reviews: 22
   icon: bitfreezer.app.wallet.webp
-  meta: defunct
+  meta: removed
   verdict: nosource
 
 ---

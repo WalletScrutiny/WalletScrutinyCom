@@ -17,7 +17,7 @@ android:
   updated: 2019-06-01
   version: Varies with device
   icon: com.shango.webp
-  meta: defunct
+  meta: removed
   verdict: nosource
 
 ---

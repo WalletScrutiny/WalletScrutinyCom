@@ -15,7 +15,7 @@ android:
   version: '1.0'
   reviews: 31
   icon: com.yes.yeswallet.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

@@ -18,7 +18,7 @@ android:
   version: 2.4.7
   reviews: 947
   icon: io.bitmax.exchange.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

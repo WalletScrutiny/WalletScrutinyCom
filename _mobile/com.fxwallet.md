@@ -17,7 +17,7 @@ android:
   version: '5.0'
   reviews: 17
   icon: com.fxwallet.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

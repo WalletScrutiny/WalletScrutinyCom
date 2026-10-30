@@ -18,7 +18,7 @@ android:
   version: 1.0.6
   reviews: 4
   icon: com.umifi.app.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 iphone:
   appId: com.umifi.app
@@ -28,7 +28,7 @@ iphone:
   version: 1.0.6
   reviews: 1
   icon: com.umifi.app.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

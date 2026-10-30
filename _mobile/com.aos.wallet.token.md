@@ -14,7 +14,7 @@ android:
   version: 2.0.22
   reviews: 154
   icon: com.aos.wallet.token.webp
-  meta: defunct
+  meta: removed
   verdict: nosource
 
 ---

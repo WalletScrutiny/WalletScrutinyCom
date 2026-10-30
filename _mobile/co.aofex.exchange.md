@@ -20,7 +20,7 @@ android:
   version: 3.0.3
   reviews: 333
   icon: co.aofex.exchange.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 iphone:
   appId: com.aofex.exchange1
@@ -30,7 +30,7 @@ iphone:
   version: 3.0.9
   reviews: 129
   icon: com.aofex.exchange1.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

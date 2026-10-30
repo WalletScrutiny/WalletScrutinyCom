@@ -14,7 +14,7 @@ android:
   version: '1.13'
   reviews: 4
   icon: com.cybertronchain.coinibt.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
   developerName: CyberTronChain (CTC)
 

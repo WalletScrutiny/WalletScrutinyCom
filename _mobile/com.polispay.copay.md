@@ -18,7 +18,7 @@ android:
   version: 8.9.3
   reviews: 78
   icon: com.polispay.copay.webp
-  meta: defunct
+  meta: removed
   verdict: nosource
 iphone:
   appId: com.polispay.polispay
@@ -28,7 +28,7 @@ iphone:
   version: 8.9.3
   reviews: 7
   icon: com.polispay.polispay.webp
-  meta: defunct
+  meta: removed
   verdict: nosource
 
 ---

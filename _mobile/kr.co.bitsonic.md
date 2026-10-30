@@ -14,7 +14,7 @@ android:
   version: 1.9.6
   reviews: 3
   icon: kr.co.bitsonic.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
   developerName: bitsonic
 

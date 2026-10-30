@@ -14,7 +14,7 @@ android:
   version: 1.0.0.11
   reviews: 11
   icon: com.pons.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

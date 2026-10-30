@@ -14,7 +14,7 @@ android:
   version: 3.2.5
   reviews: 1214
   icon: com.cmcm.blockchain.bitcoin.ethereum.safewallet.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

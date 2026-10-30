@@ -14,7 +14,7 @@ android:
   version: '1.2'
   reviews: 60
   icon: com.aegiswallet.webp
-  meta: defunct
+  meta: removed
   verdict: wip
   repository: https://github.com/bsimic0001/AegisWallet
 

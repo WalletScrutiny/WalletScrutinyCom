@@ -10,7 +10,7 @@ android:
   updated: 2019-10-15
   version: Varies with device
   icon: co.nayuta.wallet.webp
-  meta: defunct
+  meta: removed
   verdict: wip
 
 ---

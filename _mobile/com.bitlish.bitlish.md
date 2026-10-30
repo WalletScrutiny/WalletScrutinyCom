@@ -18,7 +18,7 @@ android:
   version: 2.0.10
   reviews: 177
   icon: com.bitlish.bitlish.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

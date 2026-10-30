@@ -14,7 +14,7 @@ android:
   version: '1.3'
   reviews: 66
   icon: com.finzo.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

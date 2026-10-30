@@ -20,7 +20,7 @@ android:
   version: 1.3.5
   reviews: 4
   icon: com.bhex.wallet.webp
-  meta: defunct
+  meta: removed
   verdict: nosource
 iphone:
   appId: com.bluehelix.wallet.ios
@@ -30,7 +30,7 @@ iphone:
   version: 1.3.4
   reviews: 1
   icon: com.bluehelix.wallet.ios.webp
-  meta: defunct
+  meta: removed
   verdict: nosource
 
 ---

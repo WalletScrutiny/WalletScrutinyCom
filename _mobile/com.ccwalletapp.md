@@ -21,7 +21,7 @@ android:
   version: 1.3.1
   reviews: 70
   icon: com.ccwalletapp.png
-  meta: defunct
+  meta: removed
   verdict: sourceavailable
   developerName: CoinCasso OU
   repository: https://github.com/coincasso/ccwallet
@@ -33,7 +33,7 @@ iphone:
   version: '1.1'
   reviews: 17
   icon: ccx.wallet.webp
-  meta: defunct
+  meta: removed
   verdict: sourceavailable
   repository: https://github.com/coincasso/ccwallet
 

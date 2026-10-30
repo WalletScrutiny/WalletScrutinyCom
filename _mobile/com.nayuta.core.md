@@ -13,7 +13,7 @@ android:
   updated: 2021-12-16
   version: Varies with device
   icon: com.nayuta.core.webp
-  meta: defunct
+  meta: removed
   verdict: nosource
   repository: https://github.com/nayutaco/NayutaCore
 

@@ -13,7 +13,7 @@ android:
   updated: 2017-12-08
   version: 1.1.9
   icon: com.ddengle.bts.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
   developerName: 유빗
 

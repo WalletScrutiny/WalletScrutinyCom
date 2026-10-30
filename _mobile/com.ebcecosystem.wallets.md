@@ -16,7 +16,7 @@ android:
   version: 0.0.7
   reviews: 61
   icon: com.ebcecosystem.wallets.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

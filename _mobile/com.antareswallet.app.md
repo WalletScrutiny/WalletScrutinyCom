@@ -16,7 +16,7 @@ android:
   updated: 2021-03-22
   version: 0.9.5+205
   icon: com.antareswallet.app.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
   developerName: Online Invest
 iphone:
@@ -26,7 +26,7 @@ iphone:
   updated: 2021-03-23
   version: '1.2'
   icon: com.antareswallet.app.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

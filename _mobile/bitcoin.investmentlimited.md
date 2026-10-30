@@ -14,7 +14,7 @@ android:
   version: '9.0'
   reviews: 46
   icon: bitcoin.investmentlimited.webp
-  meta: defunct
+  meta: removed
   verdict: wip
 
 ---

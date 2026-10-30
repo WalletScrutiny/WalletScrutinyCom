@@ -15,7 +15,7 @@ android:
   version: 1.0.1
   reviews: 14
   icon: folgory.folgory.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

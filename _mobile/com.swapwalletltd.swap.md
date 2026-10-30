@@ -14,7 +14,7 @@ android:
   version: Varies with device
   reviews: 2065
   icon: com.swapwalletltd.swap.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 iphone:
   appId: com.swap.wallet
@@ -24,7 +24,7 @@ iphone:
   version: 2.9.0
   reviews: 30
   icon: com.swap.wallet.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

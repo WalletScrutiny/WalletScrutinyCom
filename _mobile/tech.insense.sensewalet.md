@@ -19,7 +19,7 @@ android:
   version: 0.0068beta
   reviews: 15
   icon: tech.insense.sensewalet.webp
-  meta: defunct
+  meta: removed
   verdict: nosource
 iphone:
   appId: com.iwallet.iwallet
@@ -29,7 +29,7 @@ iphone:
   version: '2.35'
   reviews: 46
   icon: com.iwallet.iwallet.webp
-  meta: defunct
+  meta: removed
   verdict: nosource
 
 ---

@@ -14,7 +14,7 @@ android:
   version: 2.8.4
   reviews: 713
   icon: com.jex.trade.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

@@ -11,7 +11,7 @@ android:
   updated: 2022-02-15
   version: 1.1.5
   icon: com.ctower.wallet.webp
-  meta: defunct
+  meta: removed
   verdict: wip
 
 ---

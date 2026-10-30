@@ -19,7 +19,7 @@ android:
   version: 1.2.6.0
   reviews: 31
   icon: com.xzen.wallet.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

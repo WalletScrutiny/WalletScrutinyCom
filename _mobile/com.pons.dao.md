@@ -13,7 +13,7 @@ android:
   updated: 2021-09-18
   version: 1.0.0.20
   icon: com.pons.dao.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
   developerName: DAO Consensus
 

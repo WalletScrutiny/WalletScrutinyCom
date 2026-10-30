@@ -21,7 +21,7 @@ android:
   version: 4.9.1
   reviews: 17
   icon: com.biki.bikicoin.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 iphone:
   appId: com.bikipro.exchange
@@ -31,7 +31,7 @@ iphone:
   version: 4.9.2
   reviews: 16
   icon: com.bikipro.exchange.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
 
 ---

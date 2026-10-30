@@ -18,7 +18,7 @@ iphone:
   version: 2.9.3
   reviews: 10
   icon: com.kcw.kcash.webp
-  meta: defunct
+  meta: removed
   verdict: nosource
 
 ---

@@ -11,7 +11,7 @@ android:
   updated: 2021-03-26
   version: 5.84.10
   icon: xchange_coins.com.webp
-  meta: defunct
+  meta: removed
   verdict: wip
 
 ---

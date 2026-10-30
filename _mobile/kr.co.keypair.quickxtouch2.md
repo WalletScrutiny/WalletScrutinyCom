@@ -11,7 +11,7 @@ android:
   updated: 2019-12-27
   version: 1.0.0.60
   icon: kr.co.keypair.quickxtouch2.webp
-  meta: defunct
+  meta: removed
   verdict: wip
 
 ---
