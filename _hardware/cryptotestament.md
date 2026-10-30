@@ -11,7 +11,7 @@ binaries:
 dimensions: 
 weight: 
 provider: Tom Falardeau-Leclerc
-providerWebsite: http://www.cryptotestament.com
+providerWebsite: http://www.cryptotestament.com#deadLink
 website: https://www.kickstarter.com/projects/1033670017/cryptotestament
 shop: 
 country: CA
@@ -19,7 +19,7 @@ price:
 repository: 
 icon: cryptotestament.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
 date: 2026-10-30
 signer: 
@@ -29,6 +29,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Crypto Testament is gone: its domain is for sale, and the device never shipped.
 
 ## Background
 

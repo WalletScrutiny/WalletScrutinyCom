@@ -12,14 +12,14 @@ dimensions:
 weight: 
 provider: SpartaCard Pty.
 providerWebsite: 
-website: https://www.spartacard.com
+website: https://web.archive.org/web/20190103000803/https://www.spartacard.com/
 shop: https://www.indiegogo.com/projects/spartacard-transactional-crypto-hardware-wallet#/
 country: AU
 price: 99USD
 repository: 
 icon: spartacard.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
 date: 2026-10-30
 signer: 
@@ -31,6 +31,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** SpartaCard is gone: spartacard.com is for sale, and the card never shipped.
 
 ## Product Description
 

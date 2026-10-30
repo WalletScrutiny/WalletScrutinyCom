@@ -19,7 +19,7 @@ price:
 repository: 
 icon: kash.vault1.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
 date: 2026-10-30
 signer: 
@@ -30,6 +30,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Kash is gone, and the Kash Vault 1 never shipped.
 
 **⚠️ Warning:** Third party websites have listed this project as having held an ICO on April 8, 2018. The homepage is now inaccessible and there were no archived versions in archive.org. Most information about this device is now only available through [Medium.](https://medium.com/kash-hardware-wallet/announcing-the-kash-token-sale-3b4c4251e3e4)
 

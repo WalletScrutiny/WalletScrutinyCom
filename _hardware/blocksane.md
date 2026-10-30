@@ -22,7 +22,7 @@ price: 150USD
 repository: 
 icon: blocksane.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
 date: 2026-10-30
 signer: 
@@ -32,6 +32,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Blocksane is gone: blocksane.com is for sale, and the wallet never shipped.
 
 ## Description 
 

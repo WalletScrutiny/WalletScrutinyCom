@@ -19,7 +19,7 @@ price:
 repository: 
 icon: 
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
 date: 2026-10-30
 signer: 
@@ -29,6 +29,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** The Black Card team is gone, and the Black Card never shipped.
 
 {{ page.title }} is another cancelled project. Here is its [Kickstarter page.](https://www.kickstarter.com/projects/blackcard/black-card-online-privacy-simplified/description) The campaign itself had been suspended by Kickstarter over 6 years ago. [The product website](http://www.blackcard.tech/) also has gone defunct.
 

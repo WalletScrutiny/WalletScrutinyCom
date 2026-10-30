@@ -19,7 +19,7 @@ price:
 repository: 
 icon: gizadevice.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
 date: 2026-10-30
 signer: 
@@ -29,6 +29,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Giza is gone, and the Giza Device never shipped. gizadevice.com now leads to an unrelated gambling site.
 
 Giza was an ICO scam which reportedly made off with 2 million dollars, complete with [a fake COO.](https://drive.google.com/file/d/1EpGo0dS3nZbyutL3fN-m1dqZl768Y8Ix/view) These events took place in early 2018. 
 

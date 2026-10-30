@@ -19,7 +19,7 @@ price:
 repository: 
 icon: signatur.vault.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
 date: 2026-10-30
 signer: 
@@ -30,6 +30,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Signatur is gone, and the Vault never shipped. signatur.co now belongs to an unrelated email signature service.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8jRKIfgXf3I?start=1300" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

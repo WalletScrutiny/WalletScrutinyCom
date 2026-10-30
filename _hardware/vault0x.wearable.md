@@ -19,7 +19,7 @@ price:
 repository: 
 icon: vault0x.wearable.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
 date: 2026-10-30
 signer: 
@@ -31,6 +31,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Vault0x is gone, and the wearable wallet never shipped.
 
 ## Product Description
 

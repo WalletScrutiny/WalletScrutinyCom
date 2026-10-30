@@ -38,6 +38,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** CoinEx is closing. Spot trading ended on 2026-09-29, and [withdrawals close for good on 2026-12-22](https://decrypt.co/378324/coinex-shutting-down). Withdraw any funds before then.
+
 ## Android
 
 The description on Google Play starts not so promising:

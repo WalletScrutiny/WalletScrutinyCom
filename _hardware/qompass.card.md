@@ -19,7 +19,7 @@ price:
 repository: 
 icon: qompass.card.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
 date: 2026-10-30
 signer: 
@@ -30,6 +30,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Qompass is gone, and the Qompass Card never shipped.
 
 **⚠️ Note:** Qompass held a token sale sometime in 2018. They claim to have [reached their softcap of $2,000,000](https://twitter.com/QompassMarkets/status/999675258218008576). Their [last tweet](https://twitter.com/QompassMarkets/status/995717627921158144) was made on May 14, 2018.
 

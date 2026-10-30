@@ -19,7 +19,7 @@ price: 10USD
 repository: 
 icon: kaching.cards.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
 date: 2026-10-30
 signer: 
@@ -29,6 +29,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** KaChing is gone: in 2021 its owner offered backers a refund and closed the company, and the cards never shipped.
 
 This Bitcoin SV project launched an [indiegogo fundraiser in 2019](https://www.indiegogo.com/projects/kaching-secure-bitcoin-wallet/#/). It was later on [acquired by Abendum](https://twitter.com/KaChingCards/status/1295740470967115776).
 

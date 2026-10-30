@@ -19,7 +19,7 @@ price:
 repository: 
 icon: everusworld.hwallet.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
 date: 2026-10-30
 signer: 
@@ -33,6 +33,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Everus is gone, and its hardware wallet never shipped.
 
 ## Background 
 

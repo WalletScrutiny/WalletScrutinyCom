@@ -19,7 +19,7 @@ price:
 repository: 
 icon: eib.ai.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
 date: 2026-10-30
 signer: 
@@ -33,6 +33,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** EIB is gone: eib.ai is a parked domain, and the hardware wallet never shipped.
 
 **⚠️ Warning:** First [launched](https://bitcointalk.org/index.php?topic=4363233.0) on May 30, 2018, the project held an ICO. EIB is an ERC-223 token on the Ethereum Network. The site is inaccessible for us. Most social media content ceased posting content in 2019. 
 

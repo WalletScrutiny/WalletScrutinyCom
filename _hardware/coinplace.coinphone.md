@@ -12,14 +12,14 @@ dimensions:
 weight: 
 provider: CoinPlace and Just5
 providerWebsite: 
-website: http://www.coinphone.io
+website: https://web.archive.org/web/20180305095211/http://www.coinphone.io:80/
 shop: 
 country: RU
 price: 99EUR
 repository: 
 icon: coinplace.coinphone.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
 date: 2026-10-30
 signer: 
@@ -30,6 +30,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** CoinPlace is gone, and the CoinPhone never shipped. coinplace.pro now hosts an unrelated crypto casino review site.
 
 **⚠️ Warning:** The {{ page.title }} is the product of a collaboration between CoinPlace.Pro and Just5.com. As of today April 11, 2022, CoinPlace.pro's primary domain is [no longer accessible](https://www.isitdownrightnow.com/coinplace.pro.html). Just5.com on the other hand, has ceased showing links to the CoinPhone. There were also numerous complaints on [Bitcointalk](https://bitcointalk.org/index.php?topic=5093526.0) and [TrustPilot.](https://www.trustpilot.com/review/coinplace.pro) CoinPlace also held an ICO with a roadmap that ended on December 2018. The primary domain for the CoinPhone, [coinphone.io](http://www.coinphone.io) was only archived in 2018.
 

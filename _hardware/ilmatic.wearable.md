@@ -12,14 +12,14 @@ dimensions:
 weight: 
 provider: ilmatic
 providerWebsite: 
-website: http://ilmatic.com
+website: https://web.archive.org/web/20191221181732/http://ilmatic.com:80/
 shop: 
 country: US
 price: 250USD
 repository: 
 icon: ilmatic.wearable.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
 date: 2026-10-30
 signer: 
@@ -29,6 +29,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** ilmatic is gone, and the ilmatic PRO never shipped. ilmatic.com now leads to Tamez Labs, a different company run by ilmatic's CEO.
 
 The website ilmatic.com [used to feature](https://ilmatic.com) a crypto smart watch "ilmatic PRO" but has since been updated and no longer has information on this product. It now redirects [to a website](https://tamez.vc#deadLink) concerning the company's CEO, Danny Tamez.
 
