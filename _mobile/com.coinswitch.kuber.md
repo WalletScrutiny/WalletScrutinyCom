@@ -1,7 +1,7 @@
 ---
 wsId: CoinSwitch
 title: Buy Bitcoin and Crypto app
-date: 2021-10-21
+date: 2026-10-30
 authors:
 - danny
 website: https://coinswitch.co
@@ -42,6 +42,15 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** CoinSwitch now accepts some crypto deposits but still sends
+none out. Its [deposit page](https://coinswitch.co/pro/crypto-deposit) for CoinSwitch PRO,
+which the app offers as a mode ("Switch to PRO within CoinSwitch"), allows deposits "only
+from your own self custody wallet or from your wallet on any exchange" and says "We do not
+support crypto withdrawals at this time". The only way out is to sell for INR. Like
+{% include walletLink.html wallet='android/com.weareblox.app' verdict='true' %}, this app can take bitcoin in but never send it, so
+the verdict {% include verdictBadge.html verdict="nosendreceive" type='short' %} stays. The terms link below is dead; it now points to
+an archived copy.
+
 ## App Description
 
 CoinSwitch Kuber is a crypto trading platform.
@@ -63,7 +72,7 @@ From [CoinSwitch's FAQ:](https://coinswitch.co/faq#desktopsecondInnerOne)
 
 > *What's the cryptocurrency wallet address?* CoinSwitch **doesn’t provide wallet addresses and never stores user deposits.** To exchange cryptocurrencies, you need to have a cryptocurrency wallet address.
 
-From Terms and Conditions, [Activities Prohibited on the Platform:](https://coinswitch.co/kuber-terms)
+From Terms and Conditions, [Activities Prohibited on the Platform:](https://web.archive.org/web/20211019091623/https://coinswitch.co/kuber-terms)
 
 >  In the event of any suspicious or large transactions being undertaken by You, CoinSwitch shall have the right but not the obligation to verify such activity by sharing Your IP address and other KYC details with the relevant authority, and if required, suspend the transactions or freeze your access.
 
@@ -87,5 +96,7 @@ You **cannot send or receive assets on this platform.**
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still in the Indian App Store. See the Android section.
 
 {% include copyFromAndroid.html %}

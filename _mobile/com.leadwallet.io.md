@@ -1,6 +1,6 @@
 ---
 title: Lead Wallet (BETA) - Store & Swap Cryptocurrencies
-date: 2021-10-30
+date: 2026-10-30
 authors:
 - leo
 website: https://www.leadwallet.io
@@ -17,10 +17,14 @@ android:
   updated: 2021-08-14
   version: Varies with device
   icon: com.leadwallet.io.webp
-  meta: removed
+  meta: defunct
   verdict: nosource
 
 ---
+
+**⚠️ Warning:** Lead Wallet is defunct. The provider put the project on hold indefinitely in September 2022.
+
+**Update 2026-10-30:** In an ["Important community update"](https://leadwallet.medium.com/important-community-update-5d09549f76f9) of September 20, 2022, the team announced that the project was "on Hold Indefinitely". That is also the newest post on its [X account](https://x.com/leadwallet). The successor app {% include walletLink.html wallet='android/com.leadWallet' verdict='true' %} is gone from both stores as well. leadwallet.io now redirects to an unrelated Vietnamese football streaming site. The last push to the [GitHub organization](https://github.com/leadwallet) was in April 2022. We still found no source code for this app, so the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 **Update 2021-10-23**: This app is no more.
 

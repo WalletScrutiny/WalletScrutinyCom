@@ -1,7 +1,7 @@
 ---
 wsId: mona
 title: 'Crypto.com: Trade Every Market'
-date: 2021-10-24
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -49,6 +49,15 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The Crypto.com App is still
+{% include verdictBadge.html verdict="custodial" type='short' %}. Its help
+center [says](https://help.crypto.com/en/articles/1360622-does-crypto-com-hold-private-keys-to-the-cryptocurrency-wallets)
+"we hold the private keys, just like Coinbase and the majority of the exchanges"
+and points users who want their own keys to Crypto.com Onchain. That
+self-custodial wallet, formerly the DeFi Wallet, is
+[now called Ult](https://crypto.com/en/onchain) and is listed separately as
+{% include walletLink.html wallet='android/com.defi.wallet' verdict='true' %}.
+
 **EDIT 2021-09-14**
 Crypto.com (co.mona.android) is featured on the official site. This is the official app.
 
@@ -81,6 +90,9 @@ their website:
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still listed in the US App Store and is
+the same custodial app. The verdict still holds; see the Android section.
 
 {% include copyFromAndroid.html %}
 

@@ -1,7 +1,7 @@
 ---
 wsId: WiseBitcoin
 title: Batonex
-date: 2021-10-19
+date: 2026-10-30
 authors:
 - danny
 website: https://www.batonex.com
@@ -37,6 +37,13 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Wisebitcoin
+[renamed itself Batonex](https://x.com/batonex_global/status/1619964245759918080) in
+January 2023, and the wisebitcoin.com links below are dead. The app is still on Google
+Play as Batonex. From our location, [batonex.com](https://www.batonex.com) only shows a
+notice that Batonex "no longer provides crypto trading in your country/region". We found
+nothing that changes the custody picture, so the verdict {% include verdictBadge.html verdict="custodial" type='short' %} stays.
 
 ## App Description
 
@@ -76,5 +83,8 @@ All evidences point to a **custodial** service whose app **cannot be verified**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is gone from the App Store in Iraq, the US, Korea, China and
+the other countries we tried. See the Android section.
 
 {% include copyFromAndroid.html %}

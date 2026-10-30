@@ -1,7 +1,7 @@
 ---
 wsId: cryptocomexchange
 title: Crypto.com Exchange
-date: 2021-10-24
+date: 2026-10-30
 authors:
 - danny
 - leo
@@ -44,6 +44,14 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** Crypto.com Exchange is still a
+[centralized exchange](https://crypto.com/exchange) and still
+{% include verdictBadge.html verdict="custodial" type='short' %}. The help
+article quoted below is still up and still says "we hold the private keys". The
+"Crypto.com DeFi Wallet" mentioned below became Crypto.com Onchain and is
+[now called Ult](https://crypto.com/en/onchain); it is listed as
+{% include walletLink.html wallet='android/com.defi.wallet' verdict='true' %}.
+
 **EDIT 2021-09-14**
 This exchange app (com.crypto.exchange) is featured on the official site.
 
@@ -77,5 +85,8 @@ their website:
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still listed in the New Zealand App
+Store and is the same exchange. The verdict still holds; see the Android section.
 
 {% include copyFromAndroid.html %}

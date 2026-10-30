@@ -1,7 +1,7 @@
 ---
 wsId: VNDCPro
 title: 'ONUS: Buy Bitcoin,ETH & Crypto'
-date: 2021-10-10
+date: 2026-10-30
 authors:
 - danny
 website: https://goonus.io
@@ -19,7 +19,7 @@ android:
   version: 6.4.7
   reviews: 1467
   icon: com.vndc.webp
-  meta: removed
+  meta: defunct
   verdict: custodial
   developerName: ONUS FINANCE UAB
 iphone:
@@ -30,13 +30,17 @@ iphone:
   version: 6.0.7
   reviews: 1327
   icon: com.vndc.app.webp
-  meta: removed
+  meta: defunct
   verdict: custodial
   developerName: ONUS Finance UAB
 
 ---
 
+**⚠️ Warning:** ONUS went offline on March 20, 2026, users lost access to the funds held on the platform, and Vietnamese police detained several people linked to it in an alleged token fraud case ([VnExpress](https://e.vnexpress.net/news/tech/tech-news/singapore-headquartered-onus-crypto-exchange-crashes-5053459.html), [Cointelegraph](https://cointelegraph.com/news/vietnam-arrests-onus-linked-suspects-crypto-fraud-probe)).
+
 ## Android
+
+**Update 2026-10-30:** The provider is gone. Both apps are off the stores, goonus.io fails with a Cloudflare SSL error, onus.io is a parked GoDaddy domain and vndc.io now hosts an unrelated login page. On March 20, 2026 the app stopped letting users log in ([VnExpress](https://e.vnexpress.net/news/tech/tech-news/singapore-headquartered-onus-crypto-exchange-crashes-5053459.html)). The strategic investor HVA Group said withdrawals were impossible because authorities had confiscated devices ([Longbridge/TechNode](https://longbridge.com/news/280128868)). Days later the Ministry of Public Security detained ONUS-linked suspects, among them Vuong Le Vinh Nhan (Eric Vuong), whom VnExpress names as the founder, alleging the group manipulated the prices of the VNDC, ONUS and HNG tokens it sold through the platform ([Cointelegraph](https://cointelegraph.com/news/vietnam-arrests-onus-linked-suspects-crypto-fraud-probe)). The frozen balances confirm the {% include verdictBadge.html verdict="custodial" type='short' %} verdict. The listing is now marked defunct.
 
 ## App Description
 

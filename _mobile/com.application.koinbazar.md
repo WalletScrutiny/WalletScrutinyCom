@@ -1,7 +1,7 @@
 ---
 wsId: koinbazar
 title: 'KoinBX: Indian Crypto Exchange'
-date: 2021-10-04
+date: 2026-10-30
 authors:
 - danny
 website: https://koinbx.com/
@@ -44,6 +44,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** Koin Bazar is now KoinBX, at [koinbx.com](https://koinbx.com/). The old terms page is gone. The current [Terms of Use](https://koinbx.com/legal?tab=terms-and-use) say that after sign-up "you will have a default Wallet in your account dashboard", and that KoinBX "reserves the right to seize, suspend, or delete user accounts and funds". KoinBX describes itself as [FIU-registered in India](https://www.manilatimes.net/2026/06/04/tmt-newswire/globenewswire/koinbx-fiu-registered-and-trusted-by-15-million-users-drives-accessible-crypto-trading-in-india/2358516). Both apps are still listed. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+
 ### App Description
 
 INR (Indian Rupee) deposit and withdrawal as well as trading cryptocurrencies such as BTC, ETH, XRP and more are available.
@@ -54,7 +56,7 @@ Like most custodial services, sign up is available on the app as well as the web
 
 #### Terms and Conditions
 
-Section 9 of the [Terms and Conditions](https://www.koinbazar.com/terms-conditions) confirms that this is a custodial service.
+Section 9 of the [Terms and Conditions](https://web.archive.org/web/20211025195501/https://www.koinbazar.com/terms-conditions) confirms that this is a custodial service.
 
 >YOU ACKNOWLEDGE THAT OUR DECISION TO TAKE CERTAIN ACTIONS, INCLUDING LIMITING ACCESS TO, SUSPENDING, OR **CLOSING YOUR ACCOUNT OR WALLET**, MAY BE BASED ON CONFIDENTIAL CRITERIA THAT ARE ESSENTIAL TO OUR RISK MANAGEMENT AND SECURITY PROTOCOLS. YOU AGREE THAT KOIN BAZAR IS UNDER NO OBLIGATION TO DISCLOSE THE DETAILS OF ITS RISK MANAGEMENT AND SECURITY PROCEDURES TO YOU.
 
