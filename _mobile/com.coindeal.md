@@ -1,5 +1,4 @@
 ---
-wsId: CoinDeal
 title: CoinDeal - Bitcoin Buy & Sell
 date: 2023-05-10
 authors:

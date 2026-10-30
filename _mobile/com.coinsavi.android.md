@@ -1,5 +1,4 @@
 ---
-wsId: coinsavi
 title: 'CoinSavi: Buy Bitcoin & Crypto'
 date: 2025-11-13
 authors:
@@ -52,4 +51,4 @@ The service requires user registration and operates entirely as a **custodial** 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

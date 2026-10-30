@@ -1,5 +1,4 @@
 ---
-wsId: exscudo
 title: 'Fintap: BTC, ETH Crypto Wallet'
 date: 2021-04-24
 authors:

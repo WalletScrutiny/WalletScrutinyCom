@@ -1,5 +1,4 @@
 ---
-wsId: oduwaTrustWallet
 title: Oduwa Trust Wallet
 date: 2024-08-26
 authors:
@@ -62,4 +61,4 @@ Even though this app is **source-available**, the repository has not been update
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

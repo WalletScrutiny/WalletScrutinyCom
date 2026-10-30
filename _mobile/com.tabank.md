@@ -1,5 +1,4 @@
 ---
-wsId: tabank
 title: 'Tabank: Tabus Crypto Ecosystem'
 date: 2024-07-05
 authors:
@@ -59,4 +58,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

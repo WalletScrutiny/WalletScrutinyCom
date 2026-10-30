@@ -1,5 +1,4 @@
 ---
-wsId: walletVerse
 title: 'Wallet Verse: DeFi, Buy Crypto'
 date: 2025-12-31
 authors:
@@ -67,7 +66,7 @@ We did not find any claims regarding source-availability and a search for the Ap
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="buyWithCC" quote="Buy Crypto with Visa, Mastercard or local payment providers." source="Store" %}
 

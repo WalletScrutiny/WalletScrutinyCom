@@ -1,5 +1,4 @@
 ---
-wsId: enjin
 title: 'Enjin: Crypto & NFT Wallet'
 date: 2023-01-17
 authors:

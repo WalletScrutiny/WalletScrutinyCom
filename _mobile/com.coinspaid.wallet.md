@@ -1,5 +1,4 @@
 ---
-wsId: coinspaidWallet
 title: Coinspaid Wallet
 date: 2024-02-05
 authors:
@@ -64,4 +63,4 @@ This is a **custodial** provider with a **non-verifiable** app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

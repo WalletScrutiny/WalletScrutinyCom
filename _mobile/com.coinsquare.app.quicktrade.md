@@ -1,5 +1,4 @@
 ---
-wsId: coinsquare
 title: 'Coinsquare: Buy Bitcoin Canada'
 date: 2024-09-07
 authors:
@@ -64,7 +63,7 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="we now offer well over 3,000 trading pairs with more digital assets being added regularly" source="Store description" comment="The app supports trading between multiple cryptocurrencies including Bitcoin and many altcoins." %}
 

@@ -1,5 +1,4 @@
 ---
-wsId: Hexa2
 title: Bitcoin Tribe
 date: 2025-03-11
 authors:
@@ -79,4 +78,4 @@ An issue has been opened at [https://github.com/bithyve/bitcointribe/issues/2544
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

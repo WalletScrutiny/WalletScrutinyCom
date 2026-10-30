@@ -1,5 +1,4 @@
 ---
-wsId: breez
 title: 'Breez: Lightning Client & POS'
 date: 2026-01-14
 authors:
@@ -35,9 +34,10 @@ android:
   updated: 2025-01-14
   version: VARY
   icon: com.breez.client.webp
+  playStore: removed
   alternativeStores:
   - zapstore
-  meta: removed
+  meta: ok
   verdict: sourceavailable
   developerName: Breez Development LTD
   repository: https://github.com/breez/breezmobile
@@ -276,7 +276,7 @@ An issue has been opened at [https://github.com/breez/breezmobile/issues/247](ht
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Breez is a non-custodial Lightning Network client which makes paying in bitcoin a seamless experience. With Breez, anyone can send or receive small payments in bitcoin." source="Store" %}
 

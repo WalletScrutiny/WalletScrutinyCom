@@ -1,5 +1,4 @@
 ---
-wsId: Trade360
 title: Trade360
 date: 2023-08-25
 authors:
@@ -80,4 +79,4 @@ Our verdict for this app is that it **cannot send or receive bitcoins**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

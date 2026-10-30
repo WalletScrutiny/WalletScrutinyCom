@@ -1,5 +1,4 @@
 ---
-wsId: voyager
 title: Voyager
 date: 2023-09-04
 authors:

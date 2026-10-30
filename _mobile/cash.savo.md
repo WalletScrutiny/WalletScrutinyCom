@@ -1,5 +1,4 @@
 ---
-wsId: savo
 title: 'SAVO: All-In-One Wallet'
 date: 2026-09-04
 authors:

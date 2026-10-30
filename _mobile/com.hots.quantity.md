@@ -1,5 +1,4 @@
 ---
-wsId: hotscoin
 title: HotsCoin - More Than 100× Gem
 date: 2024-07-05
 authors:
@@ -58,4 +57,4 @@ These signify that this is a **custodial** provider which makes the app, non-ver
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

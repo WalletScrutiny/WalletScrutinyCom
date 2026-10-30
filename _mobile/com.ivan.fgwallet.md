@@ -1,5 +1,4 @@
 ---
-wsId: ivanFGWallet
 title: FG Wallet
 date: 2022-06-30
 authors:
@@ -57,4 +56,4 @@ We were **not able to find links to a repository**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

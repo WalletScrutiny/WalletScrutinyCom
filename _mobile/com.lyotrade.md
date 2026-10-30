@@ -1,5 +1,4 @@
 ---
-wsId: lyoTrade
 title: LYO TRADE Crypto BTC Exchange
 date: 2023-10-16
 authors:
@@ -66,4 +65,4 @@ This app is from the same provider as the following products:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

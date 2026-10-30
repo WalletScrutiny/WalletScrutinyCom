@@ -1,5 +1,4 @@
 ---
-wsId: eidoo
 title: 'Eidoo: Bitcoin and Ethereum Wallet and Exchange'
 date: 2023-01-02
 authors:

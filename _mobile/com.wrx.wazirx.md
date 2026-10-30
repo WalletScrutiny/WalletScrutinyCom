@@ -1,5 +1,4 @@
 ---
-wsId: wazirx
 title: 'WazirX: Buy Bitcoin & Crypto'
 date: 2021-08-09
 authors:

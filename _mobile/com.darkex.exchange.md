@@ -1,5 +1,4 @@
 ---
-wsId: darkexExchange
 title: Darkex Crypto & Exchange
 date: 2025-11-14
 authors:
@@ -56,4 +55,4 @@ This is a centralized and **custodial** exchange.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

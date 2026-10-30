@@ -1,5 +1,4 @@
 ---
-wsId: Fiboda
 title: Fiboda - Copy trading Platform
 date: 2022-01-15
 authors:
@@ -58,4 +57,4 @@ Due to this platform being created for traders who conduct CFD transactions, use
 
 **Update 2022-01-15**: This app is not on the Store anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

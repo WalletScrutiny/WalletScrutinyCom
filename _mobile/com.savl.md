@@ -1,5 +1,4 @@
 ---
-wsId: Savl
 title: 'UnityWallet: Crypto & Bitcoin'
 date: 2021-09-11
 authors:
@@ -73,7 +72,7 @@ This wallet is a self custodial wallet, but without the source code for the wall
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="UnityWallet защищает активы с помощью шифрования AES-512, фразы восстановления из 24 слов и биометрической PIN-аутентификации." source="Store description" %}
 

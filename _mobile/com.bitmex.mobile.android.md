@@ -1,5 +1,4 @@
 ---
-wsId: BitMEXOld
 title: BitMEX
 date: 2022-02-10
 authors:
@@ -69,4 +68,4 @@ By most indications including security mechanisms, regulatory compliances and it
 
 **Update 2022-02-02**: This app is not in store anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

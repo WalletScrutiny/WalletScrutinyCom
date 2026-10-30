@@ -1,5 +1,4 @@
 ---
-wsId: unicoinDCXTrader
 title: Unicoin DCX Trader
 date: 2024-04-03
 authors:
@@ -78,4 +77,4 @@ Although no clear-cut language was used to describe a custodial service, the not
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

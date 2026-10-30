@@ -1,5 +1,4 @@
 ---
-wsId: walletV
 title: Wallet V - AI Agent Trading
 date: 2026-02-27
 authors:
@@ -57,4 +56,4 @@ However, no claims regarding source-availability has been made. This app is **no
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

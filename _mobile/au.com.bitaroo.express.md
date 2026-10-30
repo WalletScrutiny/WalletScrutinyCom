@@ -1,5 +1,4 @@
 ---
-wsId: bitarooexpress
 title: Bitaroo Express - Buy Bitcoin
 date: 2024-09-05
 authors:
@@ -62,7 +61,7 @@ The Bitaroo Vault mentioned here is a **custodial** storage solution. It's unlik
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="It supports both on-chain transactions and the Lightning Network, giving you speed and flexibility." source="Store" %}
 

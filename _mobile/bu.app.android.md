@@ -1,5 +1,4 @@
 ---
-wsId: bitunix
 title: 'Bitunix Pro: Buy BTC & Crypto'
 date: 2024-09-06
 authors:
@@ -71,7 +70,7 @@ Notwithstanding the branding and domain inconsistency, this is a **custodial** a
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Trade spot and futures markets with Bitcoin, Ethereum, and leading altcoins, supported by deep liquidity and advanced trading tools." source="Store description" %}
 

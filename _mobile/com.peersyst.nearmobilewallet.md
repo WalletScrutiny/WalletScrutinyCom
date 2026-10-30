@@ -1,5 +1,4 @@
 ---
-wsId: nearMobileCrypto
 title: NEAR Mobile - Crypto Wallet
 date: 2025-11-26
 authors:
@@ -80,7 +79,7 @@ And since the private key is not of Bitcoin, we can conclude that this is **not 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="We have also included biometric authentication and PIN protection for peace of mind" source="Store description" %}
 

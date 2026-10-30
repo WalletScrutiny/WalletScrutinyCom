@@ -1,5 +1,4 @@
 ---
-wsId: ShuffleHPX
 title: 'Shuffle: Crypto Payment Wallet'
 date: 2023-01-30
 authors:
@@ -61,4 +60,4 @@ There is no indication that this product's source code is available.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: dcoin
 title: Dcoin - Bitcoin Exchange
 date: 2023-08-04
 authors:
@@ -53,4 +52,4 @@ With no features allowing access to private keys and no documentation, this app 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

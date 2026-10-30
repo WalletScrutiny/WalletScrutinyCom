@@ -1,5 +1,4 @@
 ---
-wsId: coinCRED
 title: CoinCRED IN
 date: 2025-05-30
 authors:
@@ -75,4 +74,4 @@ This app is **custodial** and as such, **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

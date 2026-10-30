@@ -1,5 +1,4 @@
 ---
-wsId: globe
 title: 'Globe: Crypto Exchange'
 date: 2026-05-27
 authors:
@@ -67,4 +66,4 @@ in the terms or app description. Investigation stops here.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

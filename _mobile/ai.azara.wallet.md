@@ -1,5 +1,4 @@
 ---
-wsId: azara
 title: 'Azara Crypto & Bitcoin Wallet:'
 date: 2023-01-11
 authors:

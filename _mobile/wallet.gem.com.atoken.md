@@ -1,5 +1,4 @@
 ---
-wsId: ATokenWallet
 title: ATokenWallet
 date: 2022-01-15
 authors:

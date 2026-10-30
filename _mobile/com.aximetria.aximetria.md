@@ -1,5 +1,4 @@
 ---
-wsId: Aximetria
 title: Aximetria - your Swiss crypto account
 date: 2023-09-28
 authors:
@@ -122,4 +121,4 @@ Regulated, AML-compliant, with KYC-requirements and different user tiers, this i
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

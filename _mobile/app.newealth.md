@@ -1,5 +1,4 @@
 ---
-wsId: newealth
 title: newealth
 date: 2024-04-03
 website: https://newealth.app#deadLink

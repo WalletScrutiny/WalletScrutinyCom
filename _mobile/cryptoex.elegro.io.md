@@ -1,5 +1,4 @@
 ---
-wsId: elegroExchange
 title: 'elegro Exchange - Bitcoin and '
 date: 2023-07-03
 authors:
@@ -94,4 +93,4 @@ So far we are not even sure it is a wallet ... Please check back later.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

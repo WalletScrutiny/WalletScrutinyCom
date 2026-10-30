@@ -1,5 +1,4 @@
 ---
-wsId: anycoinCZ
 title: 'Anycoin: crypto exchange'
 date: 2023-05-03
 authors:
@@ -88,7 +87,7 @@ This is a **custodial** provider.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Receive and send BTC payments using the Lightning Network quickly and from anywhere. Take advantage of advanced functionality like LNURL, LN ALIAS, Donate page or Streamlabs integration." source="Store" %}
 

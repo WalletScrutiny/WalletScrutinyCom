@@ -1,5 +1,4 @@
 ---
-wsId: zedPayExchange
 title: Zed-Pay
 date: 2023-08-16
 authors:
@@ -83,4 +82,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

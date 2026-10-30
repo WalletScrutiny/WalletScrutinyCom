@@ -1,5 +1,4 @@
 ---
-wsId: LumiWallet
 title: Lumi Crypto Bitcoin Wallet
 date: 2021-06-16
 authors:

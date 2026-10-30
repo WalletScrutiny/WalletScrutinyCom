@@ -1,5 +1,4 @@
 ---
-wsId: lcxExchange
 title: Buy Bitcoin & Crypto - LCX
 date: 2022-06-22
 authors:
@@ -57,4 +56,4 @@ This is evidently a **custodial** provider and therefore the app is **not verifi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

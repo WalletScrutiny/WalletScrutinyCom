@@ -1,5 +1,4 @@
 ---
-wsId: dhanuX
 title: DhanuX
 date: 2023-09-04
 authors:
@@ -59,4 +58,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

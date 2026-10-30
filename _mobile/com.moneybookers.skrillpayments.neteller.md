@@ -1,5 +1,4 @@
 ---
-wsId: neteller
 title: Neteller – Fast Payments
 date: 2024-09-07
 authors:
@@ -63,4 +62,4 @@ Although, no mention of cold storage, private keys or seeds are found in the app
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

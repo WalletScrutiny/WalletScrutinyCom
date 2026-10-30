@@ -1,5 +1,4 @@
 ---
-wsId: bitoshiAfrica
 title: 'Bitoshi: Buy & Sell Crypto'
 date: 2023-11-01
 authors:
@@ -61,4 +60,4 @@ This marks it as a **custodial** platform with a non-verifiable app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

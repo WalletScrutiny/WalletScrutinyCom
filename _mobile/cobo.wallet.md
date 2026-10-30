@@ -1,5 +1,4 @@
 ---
-wsId: cobowallet
 title: Cobo Wallet
 date: 2021-10-01
 authors:
@@ -83,7 +82,7 @@ verdict has to be: this wallet is **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="hd" quote="Hierarchical Deterministic (HD) Wallet Take full control of your digital assets and private keys for maximum safety Easily import your mnemonic seeds from other wallets you may own" source="Store description" %}
 

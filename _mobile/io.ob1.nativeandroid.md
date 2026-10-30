@@ -1,5 +1,4 @@
 ---
-wsId: Haven
 title: Haven - Private Shopping
 date: 2021-01-15
 website: https://gethaven.app

@@ -1,5 +1,4 @@
 ---
-wsId: webAuthProton
 title: WebAuth
 date: 2023-07-06
 authors:
@@ -73,4 +72,4 @@ No changes in the availability of the source is found. This app is still **not s
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

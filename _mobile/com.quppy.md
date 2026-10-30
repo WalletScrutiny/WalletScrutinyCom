@@ -1,5 +1,4 @@
 ---
-wsId: Quppy
 title: 'Quppy: Bitcoin Сrypto wallet'
 date: 2020-12-01
 authors:

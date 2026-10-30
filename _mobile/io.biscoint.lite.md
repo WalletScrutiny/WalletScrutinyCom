@@ -1,5 +1,4 @@
 ---
-wsId: biscoint
 title: 'BityBank: Bitcoin e Crypto'
 date: 2023-03-02
 authors:
@@ -126,4 +125,4 @@ Tentatively, we will label this service as a platform that **does not allow send
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

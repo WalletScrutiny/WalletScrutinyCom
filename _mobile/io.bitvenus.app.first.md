@@ -1,5 +1,4 @@
 ---
-wsId: bitVenusBVOX
 title: 'BVOX: Trade BTC, ETH & Crypto'
 date: 2025-12-27
 authors:
@@ -55,7 +54,7 @@ This is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Support for over 100 cryptocurrencies, including Bitcoin (BTC), Ethereum (ETH), Litecoin (LTC), Polkadot (DOT), Bitcoin Cash (BCH), Shiba Inu (SHIB), Dogecoin (DOGE), TRON (TRX), Uniswap (UNI), Ripple (XRP), Polygon (MATIC), Filecoin (FIL), SUI, Lido DAO (LDO), TON, PEPE, Solana (SOL), and more, ensuring a wide range of investment opportunities." source="Store" %}
 

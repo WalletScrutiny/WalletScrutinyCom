@@ -1,5 +1,4 @@
 ---
-wsId: RocketByChiji
 title: Rocket by Chiji14xchange - buy
 date: 2023-08-04
 authors:
@@ -80,4 +79,4 @@ This confirms that the provider is in control of the keys, making this app **cus
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

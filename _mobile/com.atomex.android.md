@@ -1,5 +1,4 @@
 ---
-wsId: atomex
 title: Atomex - Crypto Wallet & DEX
 date: 2022-02-25
 authors:

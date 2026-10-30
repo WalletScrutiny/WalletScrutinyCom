@@ -47,6 +47,8 @@
   {%- assign custody_verdict = page.android.verdict -%}
 {%- endif -%}
 {%- assign custody_state = 'self' -%}
+{%- assign has_alert_feature = false -%}
+{%- for f in page.features -%}{%- if site.data.features[f].alert -%}{%- assign has_alert_feature = true -%}{%- endif -%}{%- endfor -%}
 {%- if custody_platform == 'hardware' or custody_platform == 'bearer' -%}
   {%- if custody_verdict == 'prefilled' -%}{%- assign custody_state = 'prefilled' -%}{%- endif -%}
 {%- else -%}
@@ -58,7 +60,7 @@
     {%- assign custody_state = 'not-evaluated' -%}
   {%- elsif custody_verdict == 'custodial' -%}
     {%- assign custody_state = 'custodial' -%}
-  {%- elsif page.features contains 'cashu' or page.features contains 'fedimint' or page.features contains 'liquid' -%}
+  {%- elsif has_alert_feature -%}
     {%- assign custody_state = 'mixed' -%}
   {%- endif -%}
 {%- endif -%}
@@ -183,16 +185,16 @@
       {%- if source_state == 'not-evaluated' -%}
         <span class="secondary-text">Not evaluated — our review stopped at an earlier step.</span>
       {%- elsif repo_android != '' and repo_iphone != '' and repo_android != repo_iphone -%}
-        {%- assign host = repo_android | replace: "https://", "" | split: "/" | first | split: "." | first -%}
-        <span class="secondary-text">Android:</span> <a href="{{ repo_android }}" target="_blank" rel="noopener noreferrer" class="capitalise">{{ host }}</a><br>
-        {%- assign host = repo_iphone | replace: "https://", "" | split: "/" | first | split: "." | first -%}
-        <span class="secondary-text">iPhone:</span> <a href="{{ repo_iphone }}" target="_blank" rel="noopener noreferrer" class="capitalise">{{ host }}</a>
+        {%- assign host = repo_android | replace: "https://", "" | replace: "http://", "" | split: "/" | first | split: "." | first -%}
+        <span class="secondary-text">Android:</span> {% if repo_android contains ".onion" %}{% include review/torSourcePill.html url=repo_android %}{% else %}<a href="{{ repo_android }}" target="_blank" rel="noopener noreferrer" class="capitalise">{{ host }}</a>{% endif %}<br>
+        {%- assign host = repo_iphone | replace: "https://", "" | replace: "http://", "" | split: "/" | first | split: "." | first -%}
+        <span class="secondary-text">iPhone:</span> {% if repo_iphone contains ".onion" %}{% include review/torSourcePill.html url=repo_iphone %}{% else %}<a href="{{ repo_iphone }}" target="_blank" rel="noopener noreferrer" class="capitalise">{{ host }}</a>{% endif %}
       {%- else -%}
         {%- assign repo = repo_android -%}
         {%- if repo == '' -%}{%- assign repo = repo_iphone -%}{%- endif -%}
         {%- if repo == '' -%}{%- assign repo = repo_root -%}{%- endif -%}
-        {%- assign host = repo | replace: "https://", "" | split: "/" | first | split: "." | first -%}
-        Public on <a href="{{ repo }}" target="_blank" rel="noopener noreferrer" class="capitalise">{{ host }}</a>
+        {%- assign host = repo | replace: "https://", "" | replace: "http://", "" | split: "/" | first | split: "." | first -%}
+        Public on {% if repo contains ".onion" %}{% include review/torSourcePill.html url=repo %}{% else %}<a href="{{ repo }}" target="_blank" rel="noopener noreferrer" class="capitalise">{{ host }}</a>{% endif %}
       {%- endif -%}
     </dd>
   </div>

@@ -1,5 +1,4 @@
 ---
-wsId: AnchorUSD
 title: Anchor - Buy Bitcoin and Ether
 date: 2021-10-01
 authors:
@@ -57,4 +56,4 @@ Verdict: It is **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

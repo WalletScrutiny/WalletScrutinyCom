@@ -1,5 +1,4 @@
 ---
-wsId: vastCryptoBank
 title: Vast Bank Mobile
 date: 2024-03-02
 authors:
@@ -56,4 +55,4 @@ Vast bank is a [federally regulated bank](https://www.vast.bank/crypto-banking-i
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

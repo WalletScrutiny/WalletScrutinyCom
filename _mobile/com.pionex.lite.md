@@ -1,5 +1,4 @@
 ---
-wsId: PionexLite
 title: Pionex - Buy Bitcoin & Ethereum
 date: 2024-10-07
 authors:
@@ -98,4 +97,4 @@ This app is **custodial** and **not verifiable.**
 
 **Update 2022-03-17**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

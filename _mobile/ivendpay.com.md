@@ -1,5 +1,4 @@
 ---
-wsId: ivendPayPOS
 title: ivendPay POS
 date: 2024-08-31
 authors:
@@ -71,4 +70,4 @@ This means that this service is **custodial** and the app is **non-verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

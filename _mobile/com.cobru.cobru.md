@@ -1,5 +1,4 @@
 ---
-wsId: cobru
 title: Cobru
 date: 2024-07-05
 authors:
@@ -100,4 +99,4 @@ We were not able to successfully register with the service after installation. T
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: bit4you
 title: bit4you
 date: 2023-09-28
 authors:
@@ -62,4 +61,4 @@ We were not able to find private key backup or importation functions.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

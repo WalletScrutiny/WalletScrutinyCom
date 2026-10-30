@@ -1,5 +1,4 @@
 ---
-wsId: Ibandirect
 title: Coincardi
 date: 2026-02-02
 authors:
@@ -61,4 +60,4 @@ Cryptocurrency withdrawals, deposits and storage are possible within the app, wi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

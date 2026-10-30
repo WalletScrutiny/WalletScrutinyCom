@@ -1,5 +1,4 @@
 ---
-wsId: vegaWallet
 title: VegaWallet
 date: 2023-06-21
 authors:
@@ -57,4 +56,4 @@ So they state intent to publish the wallet's source code but as far as we can se
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

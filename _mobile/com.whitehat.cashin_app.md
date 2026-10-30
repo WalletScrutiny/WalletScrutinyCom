@@ -1,5 +1,4 @@
 ---
-wsId: cashInCryptoNaira
 title: 'Cash-in: Crypto to naira app'
 date: 2024-09-24
 authors:
@@ -74,4 +73,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

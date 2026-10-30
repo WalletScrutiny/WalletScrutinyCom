@@ -1,5 +1,4 @@
 ---
-wsId: dsdaqGlobal
 title: DsdaqGlobal
 date: 2023-08-25
 authors:
@@ -56,4 +55,4 @@ The app description from Google Play indicates that cold storage is used. This e
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

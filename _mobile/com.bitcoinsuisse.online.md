@@ -1,5 +1,4 @@
 ---
-wsId: BitcoinSuisse
 title: 'Bitcoin Suisse: Crypto Natives'
 date: 2021-11-22
 authors:
@@ -68,7 +67,7 @@ As a regulated entity, Bitcoinsuisse has many of the hallmarks of a **custodial*
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Convenient Login Use Touch or Face ID to log in to your account just like you unlock your phone." source="Website" %}
 

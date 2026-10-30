@@ -1,5 +1,4 @@
 ---
-wsId: nizaBuyBTC
 title: 'Niza: Buy BTC, ETH & +500'
 date: 2026-05-05
 authors:
@@ -56,4 +55,4 @@ The application does not publish source code, does not claim self-custody, and o
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

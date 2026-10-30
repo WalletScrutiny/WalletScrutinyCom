@@ -1,5 +1,4 @@
 ---
-wsId: Belfrics
 title: Belfrics – CryptoCurrency
 date: 2023-08-04
 authors:
@@ -70,4 +69,4 @@ The service is **custodial** and therefore the app **cannot be verified**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

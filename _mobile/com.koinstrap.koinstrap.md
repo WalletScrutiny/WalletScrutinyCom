@@ -1,5 +1,4 @@
 ---
-wsId: Koinstrap
 title: 'Koinstrap: Buy & Sell BTC, ETH'
 date: 2025-11-26
 authors:
@@ -80,4 +79,4 @@ This, along with a termination clause that gives Koinstrap the power to complete
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

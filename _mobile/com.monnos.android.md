@@ -1,5 +1,4 @@
 ---
-wsId: monnos
 title: Monnos | Buy Bitcoin & Crypto
 date: 2025-10-15
 authors:
@@ -68,4 +67,4 @@ Verdict is **custodial** and therefore, **not verifiable**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

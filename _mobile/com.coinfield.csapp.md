@@ -1,5 +1,4 @@
 ---
-wsId: CoinsField
 title: CoinField
 date: 2023-09-28
 authors:
@@ -72,4 +71,4 @@ This app is **custodial** therefore **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

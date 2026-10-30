@@ -1,5 +1,4 @@
 ---
-wsId: bitclover
 title: BITCLOVER
 date: 2022-05-31
 authors:
@@ -79,4 +78,4 @@ Verdict is **defunct**.
 
 **Update 2022-05-08**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

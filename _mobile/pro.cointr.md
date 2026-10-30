@@ -1,5 +1,4 @@
 ---
-wsId: coinTRPro
 title: 'CoinTR Pro: Buy Bitcoin Crypto'
 date: 2024-09-16
 authors:
@@ -109,4 +108,4 @@ This is a **custodial** app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

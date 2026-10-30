@@ -1,5 +1,4 @@
 ---
-wsId: ejara
 title: Ejara Crypto
 date: 2023-02-21
 authors:
@@ -64,4 +63,4 @@ It had a repository but they were unrelated to the Android or iOS apps.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

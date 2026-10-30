@@ -1,5 +1,4 @@
 ---
-wsId: aceEwallet
 title: ACE eWallet
 date: 2023-11-02
 authors:
@@ -57,4 +56,4 @@ This is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: dtsWallet
 title: DTS wallet
 date: 2024-03-02
 authors:
@@ -49,4 +48,4 @@ As the description states, this is a **custodial** service. This is also corrobo
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

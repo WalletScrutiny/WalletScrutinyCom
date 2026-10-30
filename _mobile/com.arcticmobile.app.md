@@ -1,5 +1,4 @@
 ---
-wsId: arcticCryptoWallet
 title: 'Arctic: Crypto Bitcoin Wallet'
 date: 2025-07-14
 authors:
@@ -75,4 +74,4 @@ With Arctic Wallet, you can send, receive and store your crypto safely and secur
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

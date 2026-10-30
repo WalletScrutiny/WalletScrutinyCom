@@ -1,5 +1,4 @@
 ---
-wsId: sezameWallet
 title: Sezame Wallet
 date: 2026-05-04
 authors:
@@ -140,4 +139,4 @@ The scale of divergence (914,043-line raw diff) is inconsistent with a three-ver
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

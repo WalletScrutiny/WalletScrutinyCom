@@ -1,5 +1,4 @@
 ---
-wsId: vestoApp
 title: Vesto
 date: 2024-04-17
 authors:
@@ -56,4 +55,4 @@ The provider states this in the homepage:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

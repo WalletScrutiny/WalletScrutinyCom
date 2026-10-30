@@ -1,5 +1,4 @@
 ---
-wsId: getcoinsWallet
 title: GetCoins Wallet
 date: 2024-11-12
 authors:
@@ -53,4 +52,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

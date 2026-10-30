@@ -1,5 +1,4 @@
 ---
-wsId: DeltaExchange
 title: 'Delta Exchange: Crypto Trading'
 date: 2021-10-08
 authors:
@@ -72,4 +71,4 @@ Verdict is **custodial** and thus, **not verifiable**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: bousechanj
 title: Bous Echanj
 date: 2023-09-04
 authors:
@@ -58,4 +57,4 @@ User asset segregation into hot and cold wallets as a security mechanism, implie
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

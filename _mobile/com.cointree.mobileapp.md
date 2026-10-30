@@ -1,5 +1,4 @@
 ---
-wsId: cointreeMobile
 title: Cointree - Buy Bitcoin Easily
 date: 2025-03-14
 authors:
@@ -60,4 +59,4 @@ This explicitly tells us that this is a **custodial** service with a **non-verif
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

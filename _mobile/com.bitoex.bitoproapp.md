@@ -1,5 +1,4 @@
 ---
-wsId: bitopro
 title: BitoPro Crypto Exchange
 date: 2023-12-19
 authors:
@@ -56,4 +55,4 @@ Verdict is **custodial** and thus **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: bravePay
 title: 'BravePay: buy&pay with crypto'
 date: 2024-11-22
 authors:
@@ -68,4 +67,4 @@ This is enough to say that this service is **custodial** and thus, **not-verifia
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

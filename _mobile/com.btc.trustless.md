@@ -1,5 +1,4 @@
 ---
-wsId: com.btc.trustless
 title: Trustless
 date: 2026-02-03
 authors:
@@ -10,6 +9,8 @@ twitter: https://x.com/Trustlessbtc
 social:
 - https://github.com/TrustlessWallet
 appCountry: it
+features:
+- spark
 redirect_from:
 - /android/com.btc.trustless/
 - /iphone/com.btc.trustless/
@@ -21,7 +22,8 @@ android:
   version: 2.0.0
   reviews: 0
   icon: com.btc.trustless.webp
-  meta: removed
+  playStore: removed
+  meta: ok
   verdict: custodial
   developerName: pechen987
   repository: https://github.com/TrustlessWallet/Trustless

@@ -1,5 +1,4 @@
 ---
-wsId: cextorExchange
 title: Moneque
 date: 2025-11-13
 authors:

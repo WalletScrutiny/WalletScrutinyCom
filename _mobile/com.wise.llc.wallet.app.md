@@ -1,5 +1,4 @@
 ---
-wsId: WiseWinWallet
 title: Win Wallet
 date: 2022-05-31
 authors:
@@ -63,4 +62,4 @@ This is a **self-custodial** app, meaning that you are in control of the keys. O
 
 **Update 2022-04-24**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

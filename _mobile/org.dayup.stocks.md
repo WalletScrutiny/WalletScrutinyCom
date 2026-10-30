@@ -1,5 +1,4 @@
 ---
-wsId: webull
 title: 'Webull: Investing & Trading'
 date: 2021-08-10
 authors:

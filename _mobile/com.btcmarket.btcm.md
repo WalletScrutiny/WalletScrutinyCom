@@ -1,5 +1,4 @@
 ---
-wsId: btcmarkets
 title: BTC Markets
 date: 2023-04-20
 authors:
@@ -62,7 +61,7 @@ As a cryptocurrency exchange with user-account management and use of cold wallet
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Enjoy quick and secure on-going access to your account using 6-digit PIN, or your device's inbuilt biometric security." source="Store" %}
 

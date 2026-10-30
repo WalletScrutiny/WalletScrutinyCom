@@ -1,5 +1,4 @@
 ---
-wsId: iwallet
 title: iWallet - blockchain wallet for Bitcoin, Ethereum
 date: 2021-11-16
 authors:
@@ -67,4 +66,4 @@ verify it, we remain with the verdict: **not verifiable**.
 
 
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

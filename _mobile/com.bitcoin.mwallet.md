@@ -1,5 +1,4 @@
 ---
-wsId: mwallet
 title: 'Bitcoin.com: Crypto Wallet'
 date: 2021-05-20
 authors:

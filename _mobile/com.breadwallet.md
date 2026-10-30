@@ -1,5 +1,4 @@
 ---
-wsId: BRDBitcoin
 title: BRD Bitcoin Wallet Bitcoin BTC
 date: 2025-04-01
 authors:
@@ -151,6 +150,6 @@ An issue has been opened at [https://github.com/breadwallet/brd-mobile/issues/13
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 An issue has been opened at [https://github.com/breadwallet/brd-mobile/issues/13](https://github.com/breadwallet/brd-mobile/issues/13)

@@ -1,5 +1,4 @@
 ---
-wsId: STASISStablecoinWallet
 title: STASIS Stablecoin Wallet
 date: 2024-12-08
 authors:

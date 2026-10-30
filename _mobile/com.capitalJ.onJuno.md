@@ -1,5 +1,4 @@
 ---
-wsId: junoFinance
 title: Juno - Buy Bitcoin & Litecoin
 date: 2024-12-23
 authors:
@@ -72,4 +71,4 @@ A reference to crypto is available in its iOS app page.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

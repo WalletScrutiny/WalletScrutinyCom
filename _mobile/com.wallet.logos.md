@@ -1,5 +1,4 @@
 ---
-wsId: LogosDVWallet
 title: Dives Wallet (DABI)
 date: 2024-10-24
 authors:
@@ -63,4 +62,4 @@ DV Wallet's code is not up for review and there's nothing on the website on how 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

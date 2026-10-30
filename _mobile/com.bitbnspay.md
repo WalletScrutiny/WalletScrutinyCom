@@ -1,5 +1,4 @@
 ---
-wsId: bitbnsPay
 title: Bitbns Pay - Crypto trading, 0
 date: 2026-01-16
 authors:
@@ -60,4 +59,4 @@ This makes it a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

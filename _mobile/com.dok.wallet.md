@@ -1,5 +1,4 @@
 ---
-wsId: DokWallet
 title: Dok Wallet
 date: 2023-10-03
 authors:
@@ -109,7 +108,7 @@ DokWallet **does not refer to the project as an open-source project** in its web
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="hd" quote="Most modern Bitcoin wallets, like Dok Wallet, use Hierarchical Deterministic (HD) technology. This means they automatically generate a new receiving address for each incoming transaction." source="Website" %}
 

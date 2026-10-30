@@ -1,5 +1,4 @@
 ---
-wsId: bitlo
 title: 'Bitlo: Bitcoin & Crypto'
 date: 2023-02-08
 authors:
@@ -54,4 +53,4 @@ As a cryptocurrency exchange that stores coins in cold storage on behalf of cust
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

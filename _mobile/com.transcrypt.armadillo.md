@@ -1,5 +1,4 @@
 ---
-wsId: Tizer
 title: Tizer Wallet
 date: 2023-04-16
 authors:
@@ -71,4 +70,4 @@ This app is **non-custodial,** but with no source to back it up, it is **not ver
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

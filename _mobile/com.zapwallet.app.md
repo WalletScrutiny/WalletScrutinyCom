@@ -1,5 +1,4 @@
 ---
-wsId: zapWalletNG
 title: Zap Wallet - Send Crypto Fast
 date: 2025-12-26
 authors:
@@ -68,4 +67,4 @@ We marked this as a custodial service and contacted the provider via this [x.com
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

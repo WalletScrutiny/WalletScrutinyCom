@@ -1,5 +1,4 @@
 ---
-wsId: KeyWalletTouch
 title: KeyWallet Touch - CryptoWallet
 date: 2024-07-17
 authors:
@@ -84,7 +83,7 @@ Bitcoin wallet and thus **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="hd" quote="Fully complied with HD(Hierarchical Deterministic) wallet" source="Store" %}
 

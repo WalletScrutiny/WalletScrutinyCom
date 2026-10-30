@@ -1,5 +1,4 @@
 ---
-wsId: orangeXBitcoin
 title: 'OrangeX: Buy Bitcoin & Crypto'
 date: 2026-01-23
 authors:
@@ -62,7 +61,7 @@ This is a **custodial app.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Trade the most popular cryptos, such as Bitcoin (BTC), Ethereum (ETH), Dogecoin (DOGE), Shiba Inu (SHIB), Ripple (XRP), Tron (TRX), etc., almost instantaneously." source="Store description" %}
 

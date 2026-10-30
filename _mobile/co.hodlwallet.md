@@ -1,5 +1,4 @@
 ---
-wsId: hodl
 title: 'HODL Wallet : Bitcoin Wallet'
 date: 2024-05-07
 authors:

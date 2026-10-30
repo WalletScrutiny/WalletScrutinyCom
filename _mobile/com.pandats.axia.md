@@ -1,5 +1,4 @@
 ---
-wsId: AxiaInvestments
 title: Axia Trade
 date: 2024-10-07
 authors:
@@ -53,4 +52,4 @@ Like most forex trading apps, this service only allows the trading of cryptocurr
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

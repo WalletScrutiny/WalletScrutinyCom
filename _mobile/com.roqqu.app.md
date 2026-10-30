@@ -1,5 +1,4 @@
 ---
-wsId: roqqu
 title: 'Roqqu: Buy & Sell Crypto'
 date: 2021-04-16
 authors:

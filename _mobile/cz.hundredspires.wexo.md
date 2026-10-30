@@ -1,5 +1,4 @@
 ---
-wsId: wexoCrypto
 title: 'WEXO: Bitcoin & Crypto Wallet'
 date: 2025-11-26
 authors:
@@ -56,4 +55,4 @@ The terms in [Section 1.1](https://wexopay.com/legal/Terms_&_Conditions_EN.pdf) 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

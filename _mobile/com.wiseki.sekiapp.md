@@ -1,5 +1,4 @@
 ---
-wsId: sekiappCrypto
 title: 'SekiApp: Buy and Sell Giftcard'
 date: 2023-08-14
 authors:
@@ -84,4 +83,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

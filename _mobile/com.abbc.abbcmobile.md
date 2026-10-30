@@ -1,5 +1,4 @@
 ---
-wsId: AladdinWallet
 title: Aladdin Wallet
 date: 2024-09-10
 authors:
@@ -58,4 +57,4 @@ Unfortunately as there is no source code, this app is **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

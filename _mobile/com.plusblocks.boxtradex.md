@@ -1,5 +1,4 @@
 ---
-wsId: boxTradexExchange
 title: BOXVERSE
 date: 2025-11-05
 authors:
@@ -71,4 +70,4 @@ Currently, the BTC deposit/withdraw functions are marked with 'Suspension' on ou
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

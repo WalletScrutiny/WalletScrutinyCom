@@ -1,5 +1,4 @@
 ---
-wsId: coinpanion
 title: Coinpanion
 date: 2024-02-05
 authors:
@@ -58,4 +57,4 @@ On their website, they claim to have the goal to bring "crypto ETFs" to the mark
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

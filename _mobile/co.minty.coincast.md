@@ -1,5 +1,4 @@
 ---
-wsId: coincastCrypto
 title: Coincast — Send Crypto
 date: 2024-04-28
 authors:
@@ -62,4 +61,4 @@ Nowhere on Coincast's website is it stated that the wallet is open-source.  We [
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

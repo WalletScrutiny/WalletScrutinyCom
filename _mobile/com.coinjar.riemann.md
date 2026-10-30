@@ -1,5 +1,4 @@
 ---
-wsId: CoinJar
 title: 'CoinJar: Buy Bitcoin & Crypto'
 date: 2021-09-15
 authors:
@@ -64,4 +63,4 @@ This confirms that CoinJar is in charge of the funds. This app is **custodial** 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

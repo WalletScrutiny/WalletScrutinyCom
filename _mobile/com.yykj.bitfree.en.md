@@ -1,5 +1,4 @@
 ---
-wsId: bitFree
 title: BitFree
 date: 2025-01-15
 authors:
@@ -71,4 +70,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

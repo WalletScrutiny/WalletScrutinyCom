@@ -1,5 +1,4 @@
 ---
-wsId: aquaWallet
 title: AQUA Wallet
 date: 2024-01-05
 authors:
@@ -168,4 +167,4 @@ An issue has been opened at [https://github.com/AquaWallet/aqua-wallet/issues/9]
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

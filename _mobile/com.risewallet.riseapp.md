@@ -1,5 +1,4 @@
 ---
-wsId: RiseWallet
 title: Well Wallet
 date: 2023-04-16
 authors:
@@ -60,4 +59,4 @@ There's no information if the source code is available and no Github account eit
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: iSunOne
 title: iSunOne – Spend Cryptos and Tokens in a Card
 date: 2022-04-07
 authors:
@@ -68,4 +67,4 @@ This app is a financial app merged with a Bitcoin wallet, staking, interest paym
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

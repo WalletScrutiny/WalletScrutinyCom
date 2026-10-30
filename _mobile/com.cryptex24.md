@@ -1,5 +1,4 @@
 ---
-wsId: cryptex24
 title: Cryptex24
 date: 2025-03-19
 authors:
@@ -53,4 +52,4 @@ Cryptex24 is a cryptocurrency exchange
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

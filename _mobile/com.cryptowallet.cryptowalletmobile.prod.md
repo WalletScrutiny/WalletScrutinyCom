@@ -1,5 +1,4 @@
 ---
-wsId: CWExchangeAndCard
 title: CryptoWallet | Exchange & Card
 date: 2021-11-22
 authors:
@@ -92,4 +91,4 @@ response from the dev team.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

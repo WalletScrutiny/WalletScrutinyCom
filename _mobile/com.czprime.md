@@ -1,5 +1,4 @@
 ---
-wsId: CoinZoom
 title: 'CoinZoom Pro: Buy, Sell Crypto'
 date: 2023-12-19
 authors:

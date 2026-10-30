@@ -1,5 +1,4 @@
 ---
-wsId: ibtcex
 title: iBTCex
 date: 2023-08-16
 authors:
@@ -76,4 +75,4 @@ As such, this is a **custodial** platform.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

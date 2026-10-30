@@ -1,5 +1,4 @@
 ---
-wsId: coinRivet
 title: Coin Rivet
 date: 2024-04-02
 authors:
@@ -69,4 +68,4 @@ As an exchange, the provider hosts the accounts of the user which contain the wa
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

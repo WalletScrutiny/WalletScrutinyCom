@@ -1,5 +1,4 @@
 ---
-wsId: BinanceUS
 title: 'Binance.US: Buy BTC & Crypto'
 date: 2020-11-17
 authors:

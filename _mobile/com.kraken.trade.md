@@ -1,5 +1,4 @@
 ---
-wsId: krakent
 title: 'Kraken Pro: Advanced Trading'
 date: 2020-05-29
 authors:

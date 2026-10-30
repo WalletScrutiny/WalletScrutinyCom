@@ -1,5 +1,4 @@
 ---
-wsId: whitebit
 title: WhiteBIT – buy & sell bitcoin
 date: 2021-09-10
 authors:
@@ -57,4 +56,4 @@ Cold storage for the securing user funds is employed and this further indicates 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

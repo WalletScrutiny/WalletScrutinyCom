@@ -1,5 +1,4 @@
 ---
-wsId: mnCoinHub
 title: Coinhub
 date: 2022-02-21
 authors:
@@ -109,4 +108,4 @@ This is most notably expressed in 3.2.6:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

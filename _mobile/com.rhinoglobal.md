@@ -1,5 +1,4 @@
 ---
-wsId: rhinoBitcoin
 title: 'Rhino Bitcoin: Buy BTC, 0 Fees'
 date: 2026-05-19
 authors:
@@ -70,4 +69,4 @@ As a result, Rhino Bitcoin is classified as **custodial**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

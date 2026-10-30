@@ -1,5 +1,4 @@
 ---
-wsId: oslMobile
 title: 'OSL HK: Buy Bitcoin & Crypto'
 date: 2025-02-28
 authors:
@@ -78,4 +77,4 @@ There is a high-probability that the apps mentioned above are indeed also owned 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

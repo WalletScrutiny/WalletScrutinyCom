@@ -1,5 +1,4 @@
 ---
-wsId: pallapay
 title: Pallapay Wallet
 date: 2022-05-31
 authors:
@@ -63,4 +62,4 @@ Pallapay **does not claim to be an Open Source project**.
 
 **Update 2022-04-30**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

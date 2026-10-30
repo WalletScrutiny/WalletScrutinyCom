@@ -1,5 +1,4 @@
 ---
-wsId: BitcoinWalletBitBucks
 title: Bitcoin Wallet BitBucks
 date: 2025-09-03
 authors:

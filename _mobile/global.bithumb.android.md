@@ -1,5 +1,4 @@
 ---
-wsId: bitthumbglobal
 title: BitGlobal (formerly Bithumb Gl
 date: 2023-03-21
 authors:
@@ -73,4 +72,4 @@ Verdict: **Custodial** and **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

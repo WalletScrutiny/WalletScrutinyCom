@@ -1,5 +1,4 @@
 ---
-wsId: flits
 title: 'Flits: Passive income wallet'
 date: 2025-02-13
 authors:

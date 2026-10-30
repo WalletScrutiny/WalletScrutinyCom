@@ -1,5 +1,4 @@
 ---
-wsId: IQWalletCryptoWallet
 title: IQ Wallet - Crypto Wallet
 date: 2023-01-02
 authors:
@@ -70,4 +69,4 @@ The app is clearly self-custodial with the ability to send and receive BTC. Its 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

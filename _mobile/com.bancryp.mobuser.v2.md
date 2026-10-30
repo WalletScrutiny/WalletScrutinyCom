@@ -1,5 +1,4 @@
 ---
-wsId: bancrypV2
 title: Bancryp
 date: 2025-02-26
 authors:
@@ -67,4 +66,4 @@ We'll update the information here as soon as we have the necessary information. 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

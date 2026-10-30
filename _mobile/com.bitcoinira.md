@@ -1,5 +1,4 @@
 ---
-wsId: BitcoinIRA
 title: 'BitcoinIRA: Buy & Sell Crypto'
 date: 2021-10-18
 authors:
@@ -76,7 +75,7 @@ As Bitgo still acts as a custodian to your funds, keeping them in **cold storage
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Buy, sell or swap digital assets in your IRA or Roth IRA wherever and whenever you choose - Trade 60+ cryptos: Bitcoin, Ethereum, Ripple, Litecoin and more" source="Store" %}
 

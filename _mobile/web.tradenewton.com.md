@@ -1,5 +1,4 @@
 ---
-wsId: newtonCryptoCanada
 title: Newton - Trade Crypto Canada
 date: 2026-01-05
 authors:
@@ -63,4 +62,4 @@ To quote from their FAQ:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

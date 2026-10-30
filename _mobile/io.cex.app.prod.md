@@ -1,5 +1,4 @@
 ---
-wsId: cex
 title: 'CEX.IO: Trade & Buy Crypto'
 date: 2021-04-16
 authors:

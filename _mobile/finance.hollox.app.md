@@ -1,5 +1,4 @@
 ---
-wsId: holloxWallet
 title: 'Hollox: Crypto, Naira & Loans'
 date: 2025-04-01
 authors:
@@ -62,4 +61,4 @@ Although we could not find explicit evidence in its terms or on the website that
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

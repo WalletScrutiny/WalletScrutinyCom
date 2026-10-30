@@ -1,5 +1,4 @@
 ---
-wsId: kleverK5FinanceCrypto
 title: 'Klever Wallet: Crypto,DeFi,BTC'
 date: 2023-07-11
 authors:
@@ -87,7 +86,7 @@ Although klever has an extensive organization page on GitHub, its Android reposi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Bitcoin Lightning Wallet for Payments Pay in seconds with Bitcoin Lightning. Klever Wallet lets you use BTC with low fees, making it the ideal Bitcoin Lightning wallet for micropayments and transfers." source="Store description" %}
 

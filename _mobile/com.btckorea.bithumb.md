@@ -1,5 +1,4 @@
 ---
-wsId: bithumbko
 title: Bithumb
 date: 2021-02-19
 authors:

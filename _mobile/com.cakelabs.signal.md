@@ -1,5 +1,4 @@
 ---
-wsId: radarChat
 title: 'Radar: Chat & Bitcoin'
 date: 2026-07-08
 authors:

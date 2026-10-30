@@ -1,5 +1,4 @@
 ---
-wsId: coinOneKr
 title: '코인원: 수수료 무료 바우처 지급, 12년 보안 무사고'
 date: 2021-08-21
 authors:
@@ -55,6 +54,6 @@ As it's an exchange and there's nothing to suggest otherwise, it is safe to conc
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="앱 간편 로그인 시 생체인식을 사용합니다." source="Store" %}

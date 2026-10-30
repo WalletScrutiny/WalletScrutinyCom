@@ -1,5 +1,4 @@
 ---
-wsId: NakitCoins
 title: Nakitcoins
 date: 2022-10-21
 authors:
@@ -64,4 +63,4 @@ In the case of this app, the user is not in charge of the keys. This app is **cu
 
 **Update 2022-10-21**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

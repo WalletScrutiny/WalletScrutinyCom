@@ -1,5 +1,4 @@
 ---
-wsId: Bitex
 title: Bitex - Crypto Exchange
 date: 2022-04-25
 authors:
@@ -92,4 +91,4 @@ Bitex has the ability to terminate your account, meaning that it is able to hold
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

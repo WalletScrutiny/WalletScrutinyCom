@@ -1,5 +1,4 @@
 ---
-wsId: jubiter
 title: JuBiter Wallet 2.0 - Secure Ha
 date: 2023-01-02
 authors:
@@ -64,4 +63,4 @@ This means they claim it's self-custodial but absent public source code it is
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

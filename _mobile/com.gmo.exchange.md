@@ -1,5 +1,4 @@
 ---
-wsId: ZcomEx
 title: Z.com EX - Buy/Sell Bitcoin
 date: 2021-11-08
 authors:
@@ -74,4 +73,4 @@ This is a **custodial** app and thus **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

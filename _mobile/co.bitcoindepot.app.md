@@ -1,5 +1,4 @@
 ---
-wsId: bitcoindepot
 title: Bitcoin Depot
 date: 2021-11-08
 authors:
@@ -86,6 +85,6 @@ Due to the information we have collected thus far, it is apparent that private k
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="buyWithCC" quote="Buy Online: Buy bitcoin in only a few steps in our app with your credit or debit card" source="Store" %}

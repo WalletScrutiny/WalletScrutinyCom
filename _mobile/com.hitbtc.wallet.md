@@ -1,5 +1,4 @@
 ---
-wsId: HitBTCWallet
 title: HitBTC altcoin crypto wallet
 date: 2021-11-15
 authors:
@@ -70,4 +69,4 @@ HitBTC is primarily a cryptocurrency exchange. They may have their own reasons f
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

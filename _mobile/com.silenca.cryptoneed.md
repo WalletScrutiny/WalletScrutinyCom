@@ -1,5 +1,4 @@
 ---
-wsId: Cryptoneed
 title: 'Cryptoneed: универсальный криптокошелек и обменник'
 date: 2023-01-02
 authors:
@@ -53,4 +52,4 @@ This is a self-custodial app. There were also no links on their homepage pointin
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

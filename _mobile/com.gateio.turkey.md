@@ -1,5 +1,4 @@
 ---
-wsId: gateTRBitcoin
 title: 'Gate.TR: Bitcoin ve Kripto'
 date: 2026-01-23
 authors:
@@ -59,4 +58,4 @@ This is a **custodial** platform.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

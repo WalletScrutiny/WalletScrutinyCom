@@ -1,5 +1,4 @@
 ---
-wsId: palwallet
 title: 'PalWallet: Self-Custody Wallet'
 date: 2025-11-26
 authors:
@@ -69,4 +68,4 @@ This is particularly concerning since their [terms of service](https://palwallet
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

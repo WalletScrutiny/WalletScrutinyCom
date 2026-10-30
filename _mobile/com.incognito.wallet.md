@@ -1,5 +1,4 @@
 ---
-wsId: incognito
 title: Incognito Bitcoin Wallet
 date: 2024-05-18
 authors:
@@ -60,4 +59,4 @@ An issue has been opened at [https://github.com/incognitochain/incognito-wallet/
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

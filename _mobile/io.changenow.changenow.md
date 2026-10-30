@@ -1,5 +1,4 @@
 ---
-wsId: ChangeNOW
 title: 'Crypto exchange: USDT, Bitcoin'
 date: 2024-07-13
 authors:

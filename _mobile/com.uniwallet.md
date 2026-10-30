@@ -1,5 +1,4 @@
 ---
-wsId: uniwallet
 title: 'UniWallet: Buy Bitcoin, Crypto'
 date: 2025-12-24
 authors:
@@ -61,7 +60,7 @@ Our [tests](https://x.com/BitcoinWalletz/status/2003711808914489580) show that t
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="buyWithCC" quote="UniWallet has partnered with the world's biggest 3rd party crypto payment processors to give you global on/off-ramp functionality. Anywhere in the world, you can easily and securely buy crypto with your credit card or sell crypto for fiat directly into your bank account" source="Store" %}
 

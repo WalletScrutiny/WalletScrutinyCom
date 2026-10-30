@@ -1,5 +1,4 @@
 ---
-wsId: coinomoCrypto
 title: Coinomo - Gateway to Crypto
 date: 2024-04-19
 authors:
@@ -55,4 +54,4 @@ This makes the service **custodial** and the app **non-verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

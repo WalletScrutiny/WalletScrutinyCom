@@ -1,5 +1,4 @@
 ---
-wsId: dCent
 title: DCENT Wallet - Secure Crypto
 date: 2022-01-10
 authors:
@@ -88,7 +87,7 @@ Our verdict: This 'wallet' claims to be non-custodial, however with no source co
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="지문인식 콜드월렛 연동: EAL5+ 보안칩 기반 생체 인증" source="Store description" %}
 

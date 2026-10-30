@@ -1,5 +1,4 @@
 ---
-wsId: nyeCoin
 title: NYE Coin
 date: 2022-06-23
 authors:
@@ -70,4 +69,4 @@ With the roadmap ending in 2019, a [GitHub account](https://github.com/nyecoin) 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

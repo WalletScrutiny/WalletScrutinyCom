@@ -38,7 +38,7 @@
     "webpack-shell-plugin-next": "^2.3.3"
   },
   "scripts": {
-    "test": "node --test --test-reporter=spec \"test/unit/**/*.test.mjs\"",
+    "test": "node --test --test-reporter=./test/summary-reporter.mjs \"test/unit/**/*.test.mjs\"",
     "test:all": "npm test && npm run test:e2e",
     "build:e2e": "node scripts/build-e2e.mjs",
     "test:e2e": "playwright test",

@@ -1,5 +1,4 @@
 ---
-wsId: bitpocketBTC
 title: BitPocket - BTC/LN Wallet
 date: 2025-11-12
 authors:
@@ -52,7 +51,7 @@ Seed phrases were provided. We verified that both Lightning and Bitcoin support 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Manage both Bitcoin + Lightning Network assets in one place." source="Store" %}
 

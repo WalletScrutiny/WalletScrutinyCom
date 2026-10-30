@@ -1,5 +1,4 @@
 ---
-wsId: sbivctrade
 title: 旧バージョン：SBI VCTRADE mobile 暗号資産
 date: 2023-02-26
 authors:
@@ -79,4 +78,4 @@ Verdict: **Custodial**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

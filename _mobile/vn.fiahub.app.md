@@ -1,5 +1,4 @@
 ---
-wsId: Fiahub
 title: Fiahub - Mua bán Bitcoin, USDT
 date: 2022-07-13
 authors:
@@ -52,4 +51,4 @@ Cold wallets are often an indication of a custodial offering. As there is no oth
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

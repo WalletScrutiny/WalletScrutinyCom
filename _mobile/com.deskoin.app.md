@@ -1,5 +1,4 @@
 ---
-wsId: deskoin
 title: Deskoin - Investir en cryptos
 date: 2026-04-20
 authors:
@@ -60,4 +59,4 @@ Deskoin is a **custodial cryptocurrency exchange**. Users do not control private
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: ShapeShift
 title: 'ShapeShift: Crypto Platform'
 date: 2025-07-28
 authors:

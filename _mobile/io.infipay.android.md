@@ -1,5 +1,4 @@
 ---
-wsId: InfiPay
 title: InfiPay
 date: 2023-06-21
 authors:
@@ -83,4 +82,4 @@ Bitcoin wallet features that are locked in prior to ID verification is a good in
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

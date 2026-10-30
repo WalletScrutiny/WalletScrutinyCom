@@ -1,5 +1,4 @@
 ---
-wsId: Bitmama
 title: Bitmama-Buy, Sell, Earn Crypto
 date: 2025-12-15
 authors:
@@ -81,4 +80,4 @@ We were not able to locate any information pertaining to seed, private key or mn
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

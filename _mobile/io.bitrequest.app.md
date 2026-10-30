@@ -1,5 +1,4 @@
 ---
-wsId: bitrequest
 title: Bitrequest
 date: 2026-05-05
 authors:
@@ -61,4 +60,4 @@ This app can generate Bitcoin receiving addresses, but it **cannot send Bitcoin*
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

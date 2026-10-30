@@ -1,5 +1,4 @@
 ---
-wsId: coincola
 title: CoinCola - P2P Buy & Sell BTC
 date: 2020-12-03
 authors:

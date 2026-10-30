@@ -1,5 +1,4 @@
 ---
-wsId: Paxful
 title: 'Paxful: Buy BTC, USDT, ETH'
 date: 2024-12-08
 authors:
@@ -71,4 +70,4 @@ Our verdict thus is: **not verifiable** and probably custodial.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

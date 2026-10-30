@@ -1,5 +1,4 @@
 ---
-wsId: Robinhood
 title: 'Robinhood: Trading & Investing'
 date: 2021-09-15
 authors:
@@ -59,4 +58,4 @@ It is currently **not possible to send or receive BTC** to and from your account
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

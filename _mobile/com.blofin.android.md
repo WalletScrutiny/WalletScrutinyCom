@@ -1,5 +1,4 @@
 ---
-wsId: blofin
 title: 'BloFin: Trade Crypto & Bitcoin'
 date: 2023-03-29
 authors:
@@ -50,4 +49,4 @@ We installed the app and found that we could only withdraw or deposit USDT. Howe
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

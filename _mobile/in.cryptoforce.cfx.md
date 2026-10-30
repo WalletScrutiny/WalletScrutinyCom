@@ -1,5 +1,4 @@
 ---
-wsId: cryptoforceTrade
 title: Cryptoforce:Trade|Stake Crypto
 date: 2023-08-18
 authors:
@@ -60,4 +59,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

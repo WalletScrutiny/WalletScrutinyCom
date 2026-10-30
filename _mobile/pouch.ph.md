@@ -1,5 +1,4 @@
 ---
-wsId: pouchPh
 title: POUCH - Buy & Sell Bitcoin
 date: 2022-06-22
 authors:
@@ -59,4 +58,4 @@ As stated in the Google Play app description, it is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: BullWallet
 title: BULL WALLET
 date: 2023-01-11
 authors:
@@ -60,4 +59,4 @@ Despite its provision of a Github repository, we were not able to find the sourc
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: bitfy
 title: Bitfy SuperApp de Criptomoedas
 date: 2025-02-04
 authors:
@@ -81,4 +80,4 @@ While keeping all this in mind this app is still classifiable as a **non-custodi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

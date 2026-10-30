@@ -1,5 +1,4 @@
 ---
-wsId: bitcointerminal.zondapay
 title: zondacrypto pay terminal
 date: 2026-02-02
 authors:

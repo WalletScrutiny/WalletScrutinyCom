@@ -6,7 +6,7 @@
   "main": "index.mjs",
   "scripts": {
     "start": "node index.mjs",
-    "test": "node --test test/*.test.mjs"
+    "test": "node --test --test-reporter=../../test/summary-reporter.mjs test/*.test.mjs"
   },
   "dependencies": {
     "@nodesecure/js-x-ray": "^15.2.0",

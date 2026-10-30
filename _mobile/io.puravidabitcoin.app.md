@@ -1,5 +1,4 @@
 ---
-wsId: puraVidaBitcoin
 title: Pura Vida Bitcoin
 date: 2026-05-05
 authors:
@@ -68,4 +67,4 @@ This app supports Bitcoin and Lightning, but it is explicitly described as **cus
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

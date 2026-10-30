@@ -1,5 +1,4 @@
 ---
-wsId: bitpaytrading
 title: zondacrypto - crypto exchange
 date: 2021-05-25
 authors:

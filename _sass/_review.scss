@@ -298,6 +298,20 @@ $review-section-gap: var(--review-section-gap);
   }
 }
 
+// Tor-purple variant for a source repository on a Tor onion service
+// (_includes/review/torSourcePill.html).
+.app-facts-badge--tor {
+  border-color: var(--tor-purple);
+  background: color-mix(in srgb, var(--tor-purple) 10%, transparent);
+  color: var(--tor-purple);
+
+  &:hover,
+  &:focus-visible {
+    background: var(--tor-purple);
+    color: var(--permanent-white);
+  }
+}
+
 .app-facts-dialog {
   max-width: min(32rem, calc(100vw - 2rem));
   padding: 0;
@@ -323,6 +337,22 @@ $review-section-gap: var(--review-section-gap);
     p {
       margin: 0;
     }
+  }
+
+  &__address {
+    display: block;
+    margin: 0.75rem 0;
+    padding: 0.5rem 0.65rem;
+    border: 1px solid var(--neutral-4);
+    border-radius: $border-radius;
+    word-break: break-all;
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
   }
 
   &__close {
@@ -733,47 +763,6 @@ $review-section-gap: var(--review-section-gap);
   }
 }
 
-.see-also-container {
-  display: grid;
-  gap: 10px;
-  margin-top: 60px;
-  &::before {
-    content: "See also";
-    font-size: $font-lg;
-    font-weight: 500;
-    margin-bottom: 2px;
-    position: relative;
-  }
-  .also-for a {
-    color: var(--text);
-    text-decoration: none;
-    display: grid;
-    grid-template: auto / auto auto 1fr;
-    text-align: right;
-    background-image: linear-gradient(var(--wallet-low-contrast), var(--wallet-low-contrast));
-    background-color: var(--neutral-6);
-    font-size: $font-sm;
-    padding: 10px 20px 10px 10px;
-    border-radius: 10px;
-    gap: 10px;
-    @media (max-width: 500px) {
-      text-align: left;
-      grid-template: auto auto / 25px 1fr;
-    }
-    :last-child {
-      @media (max-width: 500px) {
-        grid-column: 2/3;
-        grid-row: 2/3;
-        text-align: right;
-      }
-    }
-    &:hover {
-      :nth-child(2) {
-        text-decoration: underline;
-      }
-    }
-  }
-}
 .warn {
   color: var(--orange);
 }

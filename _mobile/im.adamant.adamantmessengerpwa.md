@@ -1,5 +1,4 @@
 ---
-wsId: adamanyMessenger
 title: ADAMANT Messenger
 date: 2024-09-18
 authors:
@@ -74,4 +73,4 @@ An issue has been opened at [https://github.com/Adamant-im/adamant-im/issues/666
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

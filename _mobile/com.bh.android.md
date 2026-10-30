@@ -1,5 +1,4 @@
 ---
-wsId: bhexExchange
 title: BHEX
 date: 2021-11-08
 authors:
@@ -40,4 +39,4 @@ The service made an announcement [**regarding the closing of its services.**](ht
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

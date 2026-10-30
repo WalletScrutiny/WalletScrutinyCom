@@ -1,5 +1,4 @@
 ---
-wsId: gleecExchange
 title: Gleec BTC
 date: 2024-11-28
 authors:
@@ -62,4 +61,4 @@ This is a **custodial service**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

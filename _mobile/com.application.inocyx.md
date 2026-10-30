@@ -1,5 +1,4 @@
 ---
-wsId: inocyx
 title: 'Inocyx: Buy & Trade Crypto'
 date: 2023-11-01
 authors:
@@ -72,7 +71,7 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Discover and trade over 120 coins." source="Store" %}
 

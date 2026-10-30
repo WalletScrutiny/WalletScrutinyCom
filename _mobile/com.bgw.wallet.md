@@ -1,5 +1,4 @@
 ---
-wsId: bgWallet
 title: WalletGo - Licensed Crypto App
 date: 2025-08-18
 authors:
@@ -62,4 +61,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -22,7 +22,7 @@ const stats = {
 };
 
 const category = 'android';
-const headers = ('wsId title altTitle authors users appId bitcoinOrgId alternativeStores ' +
+const headers = ('title altTitle authors users appId bitcoinOrgId alternativeStores ' +
                 'playStore appCountry released updated version reviews website repository ' +
                 'icon bugbounty meta verdict signer twitter social ' +
                 'social redirect_from developerName builds features').split(' ');
@@ -60,7 +60,10 @@ function refreshFile (fileName, content, markRemoved) {
     }
 
     const metaCtx = metaUpdateContext(mobile, 'android');
-    const isDefunctOrRemoved = 'defunct,removed'.includes(android.meta);
+    // `playStore: removed` keeps the Play delisting known while removedCheck.mjs keeps the
+    // app `meta: ok` because another channel still ships it.
+    const delistedFromPlay = android.playStore === 'removed' || android.meta === 'removed';
+    const isDefunctOrRemoved = android.meta === 'defunct' || delistedFromPlay;
     const shouldCheckDefunctOrRemoved = isDefunctOrRemoved && helper.removedCheckDue;
     const defunctKey = mobileDefunctKey(slug || path.basename(fileName, '.md'));
 
@@ -72,6 +75,7 @@ function refreshFile (fileName, content, markRemoved) {
           country: appCountry
         }).then(app => {
           updateFromApp(android, app, mobile, appCountry);
+          delete android.playStore;
           if (android.meta === 'removed') {
             android.meta = 'ok';
             metaCtx.date = new Date();
@@ -89,10 +93,12 @@ function refreshFile (fileName, content, markRemoved) {
         }, (err) => {
           if (`${err}`.search(/404/) > -1) {
             if (android.meta === 'defunct' || markRemoved) {
+              // removedCheck.mjs turns this back to ok if another channel still ships it.
+              android.playStore = 'removed';
               android.meta = 'removed';
               metaCtx.date = new Date();
               writeMobileFile(filePath, mobile, body);
-            } else if (android.meta !== 'removed') {
+            } else if (!delistedFromPlay) {
               helper.addRemovedIfNew(defunctKey);
             }
           } else {

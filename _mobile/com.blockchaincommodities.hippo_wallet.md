@@ -1,5 +1,4 @@
 ---
-wsId: hippoCrypto
 title: 'Hippo Wallet: Crypto Wallet'
 date: 2024-07-24
 authors:
@@ -72,6 +71,6 @@ No change has been noted regarding the availability for this app's source code.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="you can enable Touch ID to access the crypto storage without having to type the password every time" source="Store" %}

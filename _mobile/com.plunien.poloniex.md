@@ -1,5 +1,4 @@
 ---
-wsId: Poloniex
 title: Poloniex Crypto Exchange
 date: 2020-05-29
 authors:

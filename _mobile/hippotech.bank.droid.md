@@ -1,5 +1,4 @@
 ---
-wsId: ziglu
 title: Ziglu. Money, done differently
 date: 2023-12-15
 authors:
@@ -61,4 +60,4 @@ This is a **custodial** platform.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

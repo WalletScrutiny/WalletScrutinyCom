@@ -1,5 +1,4 @@
 ---
-wsId: TaurosExchange
 title: 'Tauros: Bitcoin exchange'
 date: 2023-06-21
 authors:
@@ -61,4 +60,4 @@ As this app is custodial, it is **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

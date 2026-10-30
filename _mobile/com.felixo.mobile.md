@@ -1,5 +1,4 @@
 ---
-wsId: felixoExchange
 title: Felixo | Bitcoin ETH AVAX CHZ
 date: 2025-02-26
 authors:
@@ -60,4 +59,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

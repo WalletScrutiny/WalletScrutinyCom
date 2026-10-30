@@ -1,5 +1,4 @@
 ---
-wsId: TeroxxWallet
 title: Teroxx
 date: 2021-11-15
 authors:
@@ -59,4 +58,4 @@ This is a **custodial** service which makes the app **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

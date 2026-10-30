@@ -1,5 +1,4 @@
 ---
-wsId: gcmasiapro
 title: GCMAsia Pro
 date: 2025-06-11
 authors:

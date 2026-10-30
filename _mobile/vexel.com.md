@@ -1,5 +1,4 @@
 ---
-wsId: vexelcom
 title: Vexel.com
 date: 2025-02-26
 authors:
@@ -73,4 +72,4 @@ Verdict: This is a **custodial** offering and thus **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

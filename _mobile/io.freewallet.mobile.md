@@ -1,5 +1,4 @@
 ---
-wsId: FreeWalletIO
 title: FreeWallet
 date: 2021-10-01
 authors:

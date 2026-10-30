@@ -1,5 +1,4 @@
 ---
-wsId: internetMoneyWallet
 title: 'Internet Money: Crypto Wallet'
 date: 2025-11-18
 authors:
@@ -59,7 +58,7 @@ Our tests show that this app is **not source-available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="segwit" quote="Support for various Bitcoin account types: Native Segwit, Taproot, Nested Segwit and Legacy accounts!" source="Store description" %}
 

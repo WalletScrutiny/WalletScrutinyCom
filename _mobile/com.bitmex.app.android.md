@@ -1,5 +1,4 @@
 ---
-wsId: bitMEXNew
 title: 'BitMEX: Buy Bitcoin & Crypto'
 date: 2023-03-29
 authors:
@@ -53,4 +52,4 @@ It has a [Custody Statement](https://www.bitmex.com/custody-statement)
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

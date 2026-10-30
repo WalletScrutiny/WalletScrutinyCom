@@ -1,5 +1,4 @@
 ---
-wsId: freedXCrypto
 title: 'Freedx: Buy & Sell Crypto'
 date: 2026-01-16
 authors:
@@ -54,4 +53,4 @@ The use of cold storage makes this a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

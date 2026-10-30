@@ -1,5 +1,4 @@
 ---
-wsId: earnbit
 title: 'EarnBIT: Buy & Exchange Crypto'
 date: 2026-05-27
 authors:
@@ -63,4 +62,4 @@ description. Investigation stops here.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

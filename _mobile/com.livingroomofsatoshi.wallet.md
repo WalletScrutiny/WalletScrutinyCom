@@ -1,5 +1,4 @@
 ---
-wsId: WalletofSatoshi
 title: Wallet of Satoshi
 date: 2024-10-07
 authors:
@@ -13,6 +12,7 @@ features:
 - ln
 - buyWithCC
 - nfc
+- spark
 redirect_from:
 - /walletofsatoshi/
 - /com.livingroomofsatoshi.wallet/

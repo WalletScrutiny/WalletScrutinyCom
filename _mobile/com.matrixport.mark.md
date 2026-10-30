@@ -1,5 +1,4 @@
 ---
-wsId: matrixport
 title: BIT - Buy US Stocks & Crypto
 date: 2021-09-15
 authors:
@@ -62,4 +61,4 @@ This cryptocurrency finance app is **custodial** and thus, **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

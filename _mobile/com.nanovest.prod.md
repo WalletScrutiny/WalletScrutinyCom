@@ -1,5 +1,4 @@
 ---
-wsId: nanovestio
 title: Nanovest-Bitcoin US Stock Gold
 date: 2024-09-03
 authors:
@@ -65,4 +64,4 @@ Since the control of the private keys reside with the provider, this is a **cust
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: yibiExchange
 title: YIBI - Buy Bitcoin Instantly
 date: 2024-08-19
 authors:
@@ -69,4 +68,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

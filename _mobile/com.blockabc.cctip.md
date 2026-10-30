@@ -1,5 +1,4 @@
 ---
-wsId: blockabcCCtip
 title: Cwallet - Secure Crypto Wallet
 date: 2022-06-28
 authors:
@@ -53,4 +52,4 @@ We downloaded the app and registered. We found support for a BTC wallet which ca
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

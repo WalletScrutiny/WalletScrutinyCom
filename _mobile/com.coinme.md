@@ -1,5 +1,4 @@
 ---
-wsId: coinme
 title: 'Coinme: Buy Bitcoin & Crypto'
 date: 2021-10-01
 authors:
@@ -69,7 +68,7 @@ Section 7.1 of Coinme's [Terms and Conditions](https://coinme.com/legal/) strong
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Easily buy and sell crypto with popular assets like Bitcoin (BTC), Solana (SOL), Dogecoin (DOGE), Ethereum (ETH), and more." source="Store description" %}
 

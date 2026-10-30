@@ -1,5 +1,4 @@
 ---
-wsId: swtWallet
 title: SWT Wallet
 date: 2026-05-05
 authors:
@@ -58,4 +57,4 @@ This app supports self-custodial Bitcoin use, but the mobile app **source code i
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

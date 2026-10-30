@@ -1,5 +1,4 @@
 ---
-wsId: DotWallet
 title: DotWallet - Manage Your Crypto and Dapp Assets
 date: 2023-01-02
 authors:
@@ -58,4 +57,4 @@ As it describes itself, it is a self-custodial bitcoin wallet that supports BSV,
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

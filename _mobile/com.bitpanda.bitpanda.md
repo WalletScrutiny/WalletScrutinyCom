@@ -1,5 +1,4 @@
 ---
-wsId: bitpandaBitcoin
 title: 'Bitpanda: Buy Crypto & Stocks'
 date: 2023-07-29
 authors:
@@ -66,7 +65,7 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Kaufe, verkaufe und tausche über 650 Kryptos – darunter Bitcoin, Ethereum, SOL, XRP, DOGE, ADA, SHIB und mehr." source="Store" %}
 

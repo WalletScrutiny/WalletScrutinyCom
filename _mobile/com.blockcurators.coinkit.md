@@ -1,5 +1,4 @@
 ---
-wsId: coinkit
 title: CoinKit
 date: 2023-12-21
 authors:
@@ -73,4 +72,4 @@ As this app is currently undergoing changes, we will continue to mark it as a wo
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

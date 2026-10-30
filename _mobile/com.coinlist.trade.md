@@ -1,5 +1,4 @@
 ---
-wsId: CoinList
 title: CoinList
 date: 2023-01-02
 authors:
@@ -60,4 +59,4 @@ App is **custodial** and thus **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

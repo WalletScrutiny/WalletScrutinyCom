@@ -1,5 +1,4 @@
 ---
-wsId: deGate
 title: 'DeGate Wallet: Crypto & Web3'
 date: 2026-05-27
 authors:
@@ -60,4 +59,4 @@ However, the [degatedev](https://github.com/degatedev) GitHub organization has 3
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

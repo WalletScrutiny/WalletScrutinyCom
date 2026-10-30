@@ -1,5 +1,4 @@
 ---
-wsId: SkyeWallet
 title: 'Skye Wallet: Buy Bitcoin Fast'
 date: 2024-04-25
 authors:
@@ -58,4 +57,4 @@ This is a **custodial** offering, which makes the app **not-verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

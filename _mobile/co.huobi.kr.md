@@ -1,5 +1,4 @@
 ---
-wsId: huobi_kr
 title: 후오비 코리아 - 가상자산 거래소(비트코인, 이더리움)
 date: 2024-02-05
 authors:

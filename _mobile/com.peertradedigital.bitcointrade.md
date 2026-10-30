@@ -1,5 +1,4 @@
 ---
-wsId: bitcointrade
 title: Ripio Trade
 date: 2024-07-05
 authors:
@@ -59,4 +58,4 @@ Additionally, [here is information](https://bitcointrade.zendesk.com/hc/pt-br/ar
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

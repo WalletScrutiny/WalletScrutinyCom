@@ -1,5 +1,4 @@
 ---
-wsId: blockchainWallet
 title: 'Blockchain Wallet: Buy BTC'
 date: 2021-07-15
 authors:
@@ -80,4 +79,4 @@ An issue has been opened at [https://github.com/blockchain/blockchain-wallet-v4-
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

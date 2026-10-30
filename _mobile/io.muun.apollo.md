@@ -1,5 +1,4 @@
 ---
-wsId: muun
 title: 'Muun: Bitcoin Lightning Wallet'
 date: 2021-07-30
 authors:

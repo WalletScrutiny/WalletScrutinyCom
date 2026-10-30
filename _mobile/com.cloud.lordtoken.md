@@ -1,5 +1,4 @@
 ---
-wsId: lordtokenExchange
 title: LordToken Exchange
 date: 2023-09-28
 authors:
@@ -60,4 +59,4 @@ They also define "Custody", as the service of hosting digital assets on the plat
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

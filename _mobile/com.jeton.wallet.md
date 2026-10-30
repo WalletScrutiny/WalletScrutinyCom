@@ -1,5 +1,4 @@
 ---
-wsId: jeton
 title: Jeton Wallet
 date: 2025-02-13
 authors:

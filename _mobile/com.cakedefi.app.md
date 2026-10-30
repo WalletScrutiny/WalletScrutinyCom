@@ -1,5 +1,4 @@
 ---
-wsId: CakeDeFi
 title: Bake
 date: 2026-04-13
 authors:
@@ -100,4 +99,4 @@ It is apparent that despite expectations for a DeFi solution, the app is actuall
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

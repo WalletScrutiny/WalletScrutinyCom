@@ -1,5 +1,4 @@
 ---
-wsId: fountainPodcasts
 title: 'Fountain: Podcasts & Music'
 date: 2023-06-23
 authors:
@@ -66,7 +65,7 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Support your favourite podcasts and music artists directly by sending a payment from the player" source="Store description" %}
 

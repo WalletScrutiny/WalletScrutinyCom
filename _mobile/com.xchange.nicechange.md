@@ -1,5 +1,4 @@
 ---
-wsId: nicechange
 title: Биткоин-обменник – NiceChange
 date: 2025-01-15
 authors:
@@ -65,4 +64,4 @@ A bitcoin wallet can be replenished and funds can be withdrawn. The service prov
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

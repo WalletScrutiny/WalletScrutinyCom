@@ -1,5 +1,4 @@
 ---
-wsId: vynxPay
 title: VynkPay | Crypto Payments App
 date: 2024-05-07
 authors:
@@ -57,4 +56,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

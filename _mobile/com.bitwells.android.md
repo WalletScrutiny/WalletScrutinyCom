@@ -1,5 +1,4 @@
 ---
-wsId: Bitwells
 title: Bitwells - Easy Bitcoin/Crypto Futures Trading
 date: 2022-10-21
 authors:
@@ -76,4 +75,4 @@ As a futures trading platform and even without KYC, this app is centralized with
 
 **Update 2022-10-21**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

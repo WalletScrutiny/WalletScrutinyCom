@@ -1,5 +1,4 @@
 ---
-wsId: tapbitCrypto
 title: Tapbit - Buy Bitcoin & Crypto
 date: 2023-07-01
 authors:
@@ -61,4 +60,4 @@ Platform Security - 24h compensation for users’ losses which is caused by plat
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

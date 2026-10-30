@@ -1,5 +1,4 @@
 ---
-wsId: gorilaInvest
 title: 'Gorila: investimentos com IA'
 date: 2022-06-24
 authors:
@@ -57,4 +56,4 @@ Furthermore, there are no mentions of a bitcoin wallet or seed phrases. If crypt
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

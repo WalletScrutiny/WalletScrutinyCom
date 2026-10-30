@@ -1,5 +1,4 @@
 ---
-wsId: mycelium
 title: 'Mycelium Wallet: Bitcoin&USDT'
 date: 2026-05-27
 authors:

@@ -1,5 +1,4 @@
 ---
-wsId: iMeMessenger
 title: 'iMe: Telegram AI Messenger'
 date: 2024-09-07
 authors:
@@ -67,4 +66,4 @@ An issue has been opened at [https://github.com/imemessenger/iMe-Android/issues/
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

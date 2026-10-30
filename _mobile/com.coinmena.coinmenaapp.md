@@ -1,5 +1,4 @@
 ---
-wsId: CoinMENA
 title: 'CoinMENA: Buy Bitcoin Now'
 date: 2021-11-10
 authors:
@@ -73,4 +72,4 @@ This **custodial** service signifies that the app **cannot be verified**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

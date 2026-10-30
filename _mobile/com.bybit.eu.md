@@ -1,5 +1,4 @@
 ---
-wsId: bybitEU
 title: 'Bybit.eu: Buy Bitcoin & Crypto'
 date: 2025-11-13
 authors:
@@ -59,7 +58,7 @@ This app is **custodial.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="buyWithCC" quote="Credit and debit cards" source="Store" comment="Store description explicitly lists credit and debit cards as payment methods for buying Bitcoin." %}
 

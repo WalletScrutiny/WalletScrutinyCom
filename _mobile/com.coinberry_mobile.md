@@ -1,5 +1,4 @@
 ---
-wsId: CoinBerry
 title: 'Coinberry: Buy and Sell Crypto'
 date: 2023-08-16
 authors:
@@ -56,4 +55,4 @@ As Coinberry is **custodial** it is therefore **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

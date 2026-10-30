@@ -1,5 +1,4 @@
 ---
-wsId: coinWebApp
 title: Coinweb Wallet
 date: 2024-04-10
 authors:
@@ -58,7 +57,7 @@ The app is an accounts based, email registration required multi-coin wallet. It 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="buyWithCC" quote="We provide an easy entry to digital assets by allowing you to buy crypto using traditional banking methods such as credit card payments." source="Store" %}
 

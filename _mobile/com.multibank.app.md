@@ -1,5 +1,4 @@
 ---
-wsId: multibankBTC
 title: 'mb.io: Crypto Trading & Wallet'
 date: 2025-11-20
 authors:
@@ -67,4 +66,4 @@ The service uses [cold storage](https://multibank.io/support/faq/privacy-and-sec
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

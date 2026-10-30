@@ -1,5 +1,4 @@
 ---
-wsId: BTCEX
 title: 'BTCEX: Trade Bitcoin & Crypto'
 date: 2023-08-04
 authors:
@@ -71,4 +70,4 @@ Nowhere else on the website is it mentioned that the user has access to the priv
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

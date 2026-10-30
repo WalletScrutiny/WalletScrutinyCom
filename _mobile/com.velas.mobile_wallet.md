@@ -1,5 +1,4 @@
 ---
-wsId: VelasWallet
 title: Velas Wallet
 date: 2025-06-09
 authors:
@@ -96,4 +95,4 @@ This app is self-custodial. We are trying to find out if it is reproducible [her
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

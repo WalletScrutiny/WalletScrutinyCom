@@ -1,5 +1,4 @@
 ---
-wsId: powerTrade
 title: PowerTrade
 date: 2026-01-14
 authors:
@@ -58,4 +57,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: coinbasepro
 title: 'Coinbase Pro: Trade BTC, ETH'
 date: 2023-11-02
 authors:

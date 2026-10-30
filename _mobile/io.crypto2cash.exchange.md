@@ -1,5 +1,4 @@
 ---
-wsId: crypto2cash
 title: Crypto2Cash
 date: 2023-06-13
 authors:
@@ -61,4 +60,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

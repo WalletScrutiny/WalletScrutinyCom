@@ -1,5 +1,4 @@
 ---
-wsId: coincheck
 title: Coincheck
 date: 2026-09-03
 authors:

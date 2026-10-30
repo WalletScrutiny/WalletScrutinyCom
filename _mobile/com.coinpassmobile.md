@@ -1,5 +1,4 @@
 ---
-wsId: coinpassMobile
 title: 'coinpass.com: Buy BTC & more'
 date: 2023-12-14
 authors:
@@ -59,4 +58,4 @@ Coinpass has **custody** of the users' assets as stated in its [terms:](https://
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

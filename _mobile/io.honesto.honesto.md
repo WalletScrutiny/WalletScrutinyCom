@@ -1,5 +1,4 @@
 ---
-wsId: honestoTrading
 title: Honesto - Trading App
 date: 2023-07-21
 authors:
@@ -51,4 +50,4 @@ The description states that digital assets are in the **custody** of InCore Bank
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: narkasaExchange
 title: 'Bybit TR: Bitcoin ve Kripto'
 date: 2024-04-03
 authors:
@@ -58,4 +57,4 @@ The app cannot be installed anymore because it required an older version of Andr
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

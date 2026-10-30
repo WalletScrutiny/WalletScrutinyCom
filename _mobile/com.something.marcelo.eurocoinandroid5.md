@@ -1,5 +1,4 @@
 ---
-wsId: eurocoinPay
 title: EurocoinPay
 date: 2023-06-29
 authors:
@@ -72,4 +71,4 @@ We conclude that this is enough to warrant a **custodial** verdict.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

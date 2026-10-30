@@ -1,5 +1,4 @@
 ---
-wsId: Tokenize
 title: Tokenize Xchange
 date: 2025-11-05
 authors:
@@ -77,4 +76,4 @@ This app is clearly **custodial** and as a result, is **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

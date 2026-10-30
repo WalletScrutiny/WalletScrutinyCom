@@ -1,5 +1,4 @@
 ---
-wsId: LiquidPro
 title: Liquid - Buy Bitcoin & Crypto
 date: 2023-01-02
 authors:
@@ -66,4 +65,4 @@ This app is clearly **custodial** and thus **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

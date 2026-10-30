@@ -1,5 +1,4 @@
 ---
-wsId: cryptoXpress
 title: 'CryptoXpress: Crypto Super App'
 date: 2023-04-21
 authors:
@@ -74,4 +73,4 @@ We've also mailed them to verify whether unlocking KYC will give access to a Bit
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

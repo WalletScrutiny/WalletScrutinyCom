@@ -1,5 +1,4 @@
 ---
-wsId: btcFreeWallet
 title: Bitcoin Wallet - BTC Exchange
 date: 2023-01-02
 authors:
@@ -53,4 +52,4 @@ Our verdict: This app is **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

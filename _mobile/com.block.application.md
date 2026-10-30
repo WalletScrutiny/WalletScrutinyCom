@@ -1,5 +1,4 @@
 ---
-wsId: uollarCrypto
 title: 'Uollar: Earn Bitcoin & Crypto'
 date: 2025-01-06
 authors:
@@ -71,4 +70,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

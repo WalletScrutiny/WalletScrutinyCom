@@ -1,5 +1,4 @@
 ---
-wsId: maraWallet
 title: Mara Wallet
 date: 2024-07-05
 authors:
@@ -79,4 +78,4 @@ Mara is backed by Coinbase ventures and FTX [Alameda Research](https://fortune.c
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: RioWallet
 title: 'RioWallet: Web3 Crypto Wallet'
 date: 2023-04-16
 authors:
@@ -72,4 +71,4 @@ Due to this app providing users with the means to back up their wallets with the
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

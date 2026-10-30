@@ -1,5 +1,4 @@
 ---
-wsId: bitberry
 title: Bitberry - Safe crypto Wallet
 date: 2025-02-26
 authors:
@@ -58,4 +57,4 @@ This app is custodial and therefore **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

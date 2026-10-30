@@ -1,5 +1,4 @@
 ---
-wsId: CrystalWallet
 title: Crystal Wallet
 date: 2022-03-09
 authors:
@@ -59,4 +58,4 @@ We couldn't find a link to their source code and neither did searching the appID
 
 **Update 2022-03-02**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

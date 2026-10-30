@@ -1,5 +1,4 @@
 ---
-wsId: BTSE
 title: 'BTSE: Buy Bitcoin & Crypto'
 date: 2021-11-15
 authors:
@@ -62,4 +61,4 @@ This cryptocurrency exchange is a custodial service with the ability to suspend 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

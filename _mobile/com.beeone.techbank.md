@@ -1,5 +1,4 @@
 ---
-wsId: techbankBeeone
 title: TechBank
 date: 2022-04-07
 authors:

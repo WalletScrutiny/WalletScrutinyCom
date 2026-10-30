@@ -1,5 +1,4 @@
 ---
-wsId: evercoin
 title: 'Evercoin: Bitcoin, Ripple, ETH'
 date: 2023-01-02
 authors:

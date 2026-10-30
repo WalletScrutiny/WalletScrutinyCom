@@ -1,5 +1,4 @@
 ---
-wsId: braavosWallet
 title: 'Braavos: BTC & Starknet Wallet'
 date: 2025-11-03
 authors:
@@ -57,7 +56,7 @@ A search on GitHub shows their [organization](https://github.com/orgs/myBraavos)
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="seamless Lightning payments" source="Store description" %}
 

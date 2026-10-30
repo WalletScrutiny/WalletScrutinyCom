@@ -1,5 +1,4 @@
 ---
-wsId: vsolidusnova
 title: Nova Wallet
 date: 2025-03-14
 authors:
@@ -63,4 +62,4 @@ Verdict: No source available for review makes this app **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

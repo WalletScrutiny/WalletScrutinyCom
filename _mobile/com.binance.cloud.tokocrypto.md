@@ -1,5 +1,4 @@
 ---
-wsId: tokocrypto
 title: 'Tokocrypto: Buy Bitcoin Crypto'
 date: 2021-08-21
 authors:
@@ -51,4 +50,4 @@ LEARN, BUY, SELL AND INVEST BITCOIN AND CRYPTO ASSETS EASILY AND SAFELY.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

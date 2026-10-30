@@ -1,5 +1,4 @@
 ---
-wsId: azasendBitcoin
 title: 'Azasend: Buy, Sell Bitcoin'
 date: 2025-11-12
 authors:
@@ -54,4 +53,4 @@ This is a **custodial** app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

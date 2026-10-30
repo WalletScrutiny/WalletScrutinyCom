@@ -1,5 +1,4 @@
 ---
-wsId: bytehub
 title: ByteHub
 date: 2023-09-15
 authors:

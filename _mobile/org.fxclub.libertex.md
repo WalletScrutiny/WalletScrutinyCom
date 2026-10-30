@@ -1,5 +1,4 @@
 ---
-wsId: libertex
 title: 'Libertex: Trade & Invest'
 date: 2021-08-09
 authors:
@@ -64,4 +63,4 @@ Interestingly enough, there's [an app](https://play.google.com/store/apps/detail
 
 **Update 2022-02-09**: This app is no more.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

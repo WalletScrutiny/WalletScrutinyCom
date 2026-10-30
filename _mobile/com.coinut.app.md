@@ -1,5 +1,4 @@
 ---
-wsId: CoinutExchange
 title: COINUT Digital Assets Wallet
 date: 2025-05-26
 authors:
@@ -60,4 +59,4 @@ As it is unknown who controls the private keys, Coinut is more than likely to be
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

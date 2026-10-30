@@ -1,5 +1,4 @@
 ---
-wsId: hebeWallet
 title: Hebe Wallet
 date: 2023-08-25
 authors:
@@ -51,4 +50,4 @@ so it's not custodial but we can't find any source code. This app is
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: nunchuk
 title: Nunchuk Bitcoin Wallet
 date: 2023-01-06
 authors:
@@ -90,7 +89,7 @@ An issue has been opened at [https://github.com/nunchuk-io/nunchuk-android/issue
 This product's version for Android is now source-available and we are waiting
 for source for the iPhone version.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="segwit" quote="Future-Proof Architecture: Built on advanced standards (Native Segwit, Miniscript) that minimize data exposure and provide practical resistance against long-term threats." source="Store description" %}
 

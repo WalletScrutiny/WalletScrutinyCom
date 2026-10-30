@@ -1,5 +1,4 @@
 ---
-wsId: Bexplus
 title: Bitcoin Wallet for Margin Trading - Bexplus App
 date: 2023-01-02
 authors:

@@ -1,5 +1,4 @@
 ---
-wsId: Mercuryo
 title: Mercuryo Bitcoin Cryptowallet
 date: 2024-10-07
 authors:

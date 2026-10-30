@@ -1,5 +1,4 @@
 ---
-wsId: spatium
 title: Spatium MPC Crypto Wallet
 date: 2025-01-27
 authors:
@@ -97,4 +96,4 @@ As this app **does not have publicly available source code** it is **not verifia
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

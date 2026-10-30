@@ -1,5 +1,4 @@
 ---
-wsId: DexTrade
 title: Dex-Trade
 date: 2025-05-14
 authors:
@@ -81,4 +80,4 @@ This app is **custodial** and thus **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

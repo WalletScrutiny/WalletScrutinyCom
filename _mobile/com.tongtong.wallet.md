@@ -1,5 +1,4 @@
 ---
-wsId: etomato
 title: Tomato Wallet(구 통통지갑)
 date: 2023-04-12
 authors:
@@ -78,4 +77,4 @@ However, the app does not make any claims that its source is publicly available.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

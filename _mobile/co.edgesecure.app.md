@@ -1,5 +1,4 @@
 ---
-wsId: edge
 title: Edge - Bitcoin & Crypto Wallet
 bitcoinOrgId: edgewallet
 date: 2022-03-13
@@ -74,7 +73,7 @@ An issue has been opened at [https://github.com/EdgeApp/edge-react-gui/issues/17
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="hd" quote="Hierarchical Deterministic (HD) Wallets – Automatically changes addresses per transaction for additional security and privacy" source="Store description" %}
 

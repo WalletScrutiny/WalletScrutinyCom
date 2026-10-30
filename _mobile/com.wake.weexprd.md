@@ -1,5 +1,4 @@
 ---
-wsId: weexTrade
 title: WEEX - Buy Bitcoin & Crypto
 date: 2023-08-17
 authors:
@@ -65,7 +64,7 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="buyWithCC" quote="Buy crypto via Apple Pay, Google Pay, Visa, Mastercard, bank transfers, and global fiat on-ramps" source="Store" %}
 

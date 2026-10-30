@@ -1,5 +1,4 @@
 ---
-wsId: zeusln
 title: ZEUS Wallet
 date: 2023-12-30
 authors:

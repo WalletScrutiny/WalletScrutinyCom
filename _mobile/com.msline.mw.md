@@ -1,5 +1,4 @@
 ---
-wsId: masterWallet
 title: MasterWallet
 date: 2023-08-16
 authors:
@@ -82,4 +81,4 @@ Based on these findings we will be marking this as a **custodial** provider unle
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

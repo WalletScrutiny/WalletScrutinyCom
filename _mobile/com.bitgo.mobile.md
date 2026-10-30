@@ -1,5 +1,4 @@
 ---
-wsId: bitGo
 title: BitGo
 date: 2025-04-14
 authors:
@@ -139,4 +138,4 @@ One may argue that there are options for the user to provide his own keys. That 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

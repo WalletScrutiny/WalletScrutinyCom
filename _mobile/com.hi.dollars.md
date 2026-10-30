@@ -1,5 +1,4 @@
 ---
-wsId: hidollars
 title: Hi:Easy-to-Use Crypto Neobank
 date: 2025-03-17
 authors:
@@ -72,4 +71,4 @@ This wallet is **custodial.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

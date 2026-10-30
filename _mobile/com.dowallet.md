@@ -1,5 +1,4 @@
 ---
-wsId: dowallet
 title: 'DoWallet: Bitcoin Wallet. A Se'
 date: 2022-03-24
 authors:

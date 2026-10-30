@@ -1,5 +1,4 @@
 ---
-wsId: Bitstamp
 title: 'Bitstamp by Robinhood: Buy BTC'
 date: 2020-05-29
 authors:

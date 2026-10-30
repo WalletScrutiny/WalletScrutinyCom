@@ -1,5 +1,4 @@
 ---
-wsId: bitcointradingcapital
 title: Bitcoin trading - Capital·com
 date: 2024-02-08
 authors:
@@ -86,4 +85,4 @@ The presence of CFDs indicate an inability to send and receive bitcoins.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,5 +1,4 @@
 ---
-wsId: ownbit
 title: 'Ownbit: MultiSig & Cold Wallet'
 date: 2021-10-01
 authors:
@@ -81,7 +80,7 @@ thus **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="multiSig" quote="Multisig Security: Manage funds with team or personal multi-signature." source="Store" %}
 

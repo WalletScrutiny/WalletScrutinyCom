@@ -1,5 +1,4 @@
 ---
-wsId: thorWalletDeFi
 title: THORWallet - Crypto Wallet
 date: 2023-06-30
 authors:
@@ -76,7 +75,7 @@ No change has been noted regarding this app's source availability.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Cross-Chain Swaps: Trade native BTC, ETH, SOL, and other major assets across chains with zero intermediaries. No wrapping. No bridges. Pure DeFi, how it was meant to be." source="Store description" %}
 

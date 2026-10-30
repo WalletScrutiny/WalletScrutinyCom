@@ -1,5 +1,4 @@
 ---
-wsId: coinmetro
 title: 'Coinmetro: Buy BTC ETH SOL XRP'
 date: 2021-10-04
 authors:
@@ -85,4 +84,4 @@ Coinmetro is a **custodial** service and **not verifiable**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

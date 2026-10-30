@@ -1,5 +1,4 @@
 ---
-wsId: coinTraderMobile
 title: Shift Platform
 date: 2023-12-19
 authors:
@@ -67,4 +66,4 @@ Although there was some initial confusion about the addresses and the lack of a 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

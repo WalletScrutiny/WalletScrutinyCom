@@ -1,5 +1,4 @@
 ---
-wsId: coreCryptoWallet
 title: Core Wallet | Crypto Made Easy
 date: 2023-07-02
 authors:
@@ -78,4 +77,4 @@ That being said, I have not been able to find the repository for the Android app
 
 ## iPhone
 
-% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

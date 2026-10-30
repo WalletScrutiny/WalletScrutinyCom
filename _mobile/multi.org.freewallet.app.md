@@ -1,5 +1,4 @@
 ---
-wsId: mwfreewallet
 title: Freewallet MultiWallet Classic
 date: 2023-01-02
 authors:
@@ -51,4 +50,4 @@ Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

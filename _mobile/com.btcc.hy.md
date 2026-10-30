@@ -1,5 +1,4 @@
 ---
-wsId: btcc
 title: BTCC - Trade Bitcoin & Crypto
 date: 2021-09-17
 authors:
@@ -61,4 +60,4 @@ Interestingly, this exchange also trades in [cryptocurrency CFDs](https://www.bt
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

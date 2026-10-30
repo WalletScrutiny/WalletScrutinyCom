@@ -1,5 +1,4 @@
 ---
-wsId: Moonstake
 title: 'Moonstake Wallet: Coin Staking'
 date: 2021-10-01
 authors:
@@ -65,4 +64,4 @@ However, until then as there is no link to any repository in the official websit
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

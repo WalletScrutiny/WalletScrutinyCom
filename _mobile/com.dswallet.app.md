@@ -1,5 +1,4 @@
 ---
-wsId: digitalShield
 title: 'Digital Shield: Crypto Wallet'
 date: 2026-05-01
 authors:
@@ -65,4 +64,4 @@ This app is **not source-available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

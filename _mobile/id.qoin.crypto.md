@@ -1,5 +1,4 @@
 ---
-wsId: qoinPayID
 title: Qoinpay
 date: 2026-02-02
 authors:
@@ -81,4 +80,4 @@ Nothing changed much regarding the source availability of this project.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

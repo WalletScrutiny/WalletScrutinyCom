@@ -1,5 +1,4 @@
 ---
-wsId: sofiBank
 title: 'SoFi: Bank, Invest & Crypto'
 date: 2026-01-23
 authors:
@@ -62,4 +61,4 @@ So, not only is this app a custodial one, but **can only receive, and not send**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

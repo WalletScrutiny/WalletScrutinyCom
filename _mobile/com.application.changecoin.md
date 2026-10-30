@@ -1,5 +1,4 @@
 ---
-wsId: changecoins
 title: Changecoins
 date: 2024-10-03
 authors:
@@ -69,4 +68,4 @@ Changecoins may claim that it is not a custodial service. However, it doesn't pr
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
