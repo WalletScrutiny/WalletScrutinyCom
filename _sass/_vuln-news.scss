@@ -14,8 +14,15 @@
     color: var(--neutral-2);
   }
 
+  &__filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 24px;
+  }
+
   &__filter {
     display: inline-flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 8px;
     font-size: $font-sm;
@@ -28,6 +35,13 @@
       border: 1px solid var(--neutral-5);
       border-radius: 8px;
       padding: 4px 8px;
+    }
+
+    label {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      cursor: pointer;
     }
   }
 
