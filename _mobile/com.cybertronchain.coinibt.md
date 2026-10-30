@@ -1,6 +1,6 @@
 ---
 title: 코인아이비티 (CoinIBT)
-date: 2021-11-10
+date: 2026-10-30
 authors:
 - danny
 website: http://www.coinibt.io#deadLink
@@ -14,11 +14,15 @@ android:
   version: '1.13'
   reviews: 4
   icon: com.cybertronchain.coinibt.webp
-  meta: removed
-  verdict: wip
+  meta: defunct
+  verdict: custodial
   developerName: CyberTronChain (CTC)
 
 ---
+
+**⚠️ Warning:** CoinIBT looks gone. On 2026-10-30 coinibt.io no longer resolved and the app was off Google Play.
+
+**Update 2026-10-30:** The app is still gone from Google Play, and the Wayback Machine has no copy of its store page. An [archived copy of coinibt.io](https://web.archive.org/web/20210903113756/https://www.coinibt.io/) from September 2021 shows the "COIN IBT Exchange" with "Asset Withdrawal" and "Asset Inquiry" pages, and the notice quoted below says the exchange stores and manages its customers' assets. That is a custodial exchange, so the verdict changes from wip to {% include verdictBadge.html verdict="custodial" type='short' %}. By [March 2025](https://web.archive.org/web/20250331185115/https://coinibt.io/) the domain carried a Vietnamese gambling site, and today it no longer resolves. We mark the listing defunct.
 
 ## App Description
 

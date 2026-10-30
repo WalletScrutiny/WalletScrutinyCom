@@ -1,6 +1,6 @@
 ---
 title: P2P Options - Peer to Peer Tra
-date: 2021-11-22
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -17,6 +17,8 @@ android:
   developerName: P2P Options
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play. The Wayback Machine has no archived copy of its store page, and the listing never named a website we could check, so the verdict stays {% include verdictBadge.html verdict="wip" type='short' %}.
 
 ## App Description
 

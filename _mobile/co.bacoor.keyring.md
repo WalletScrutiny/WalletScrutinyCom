@@ -1,7 +1,7 @@
 ---
 wsId: keyring
 title: Ethereum Wallet - KEYRING PRO
-date: 2021-11-17
+date: 2026-10-30
 authors:
 - danny
 website: https://keyring.app
@@ -19,7 +19,7 @@ android:
   reviews: 4
   icon: co.bacoor.keyring.webp
   meta: ok
-  verdict: nosource
+  verdict: nobtc
   developerName: bacoor inc.
 iphone:
   appId: co.bacoor.keyring
@@ -31,12 +31,14 @@ iphone:
   reviews: 11
   icon: co.bacoor.keyring.webp
   meta: ok
-  verdict: nosource
+  verdict: nobtc
   developerName: bacoor Inc.
 
 ---
 
 ## Android
+
+**Update 2026-10-30:** KEYRING PRO no longer handles Bitcoin. The current Google Play description calls it "a self-custodial Ethereum wallet and EVM wallet built for DeFi users" and lists only Ethereum and EVM networks. The app is now also open source: bacoor published it as [KEYRINGPRO on GitHub](https://github.com/bacoor-hb/KEYRINGPRO) under GPL-3.0 in July 2026, with a v6.3.0 tag matching the current store version. Its README lists "23 built-in networks", all EVM, and the code treats Bitcoin and Solana as ["LEGACY display-only chains"](https://github.com/bacoor-hb/KEYRINGPRO/blob/main/src/Common/legacyChainKey.js): "V2 never signs on these chains", it only shows the old private key so users can import it elsewhere. A wallet that cannot send Bitcoin gets the verdict {% include verdictBadge.html verdict="nobtc" type='short' %}. We did not check whether the published code builds the store app.
 
 ## Updated Review 2024-07-17
 
@@ -87,5 +89,7 @@ This wallet is **self-custodial.** With no link to a Github account or mention o
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is the same KEYRING PRO, version 6.3.0. Its App Store description calls it "a self-custodial Ethereum wallet" for "Ethereum and EVM-compatible networks" and does not mention Bitcoin, and the same [repository](https://github.com/bacoor-hb/KEYRINGPRO) contains the iOS project. It too gets the verdict {% include verdictBadge.html verdict="nobtc" type='short' %}.
 
 {% include copyFromAndroid.html %}

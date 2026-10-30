@@ -1,6 +1,6 @@
 ---
 title: Global Crypto Trading
-date: 2021-11-04
+date: 2026-10-30
 authors:
 - danny
 website: https://sites.google.com/view/globlacryptotrading/home
@@ -18,6 +18,8 @@ android:
   developerName: Global Crypto Team
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play, and we found no archived copy of its store page. Its free [Google Sites page](https://sites.google.com/view/globlacryptotrading/home) still exists, titled "Globla Crypto Trading" with only a privacy policy, and the listing names no other contact. It stays {% include verdictBadge.html verdict="wip" type='short' %}.
 
 ⚠️ **WARNING** ⚠️ 
 1. Many negative reviews have been made regarding this app. 

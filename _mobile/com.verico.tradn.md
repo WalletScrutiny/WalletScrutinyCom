@@ -1,6 +1,6 @@
 ---
 title: Tradn - Buy Bitcoins with Trus
-date: 2021-11-15
+date: 2026-10-30
 authors:
 - danny
 website: https://tradn.io#deadLink
@@ -18,6 +18,8 @@ android:
   developerName: Verico International Co., Ltd.
 
 ---
+
+**Update 2026-10-30:** Tradn is still gone from Google Play, and the Wayback Machine has no archived copy of its store page. tradn.io now redirects to an unrelated gambling site, so do not follow the old website link. The successor app is still on Google Play and still {% include verdictBadge.html verdict="custodial" type='short' %}: {% include walletLink.html wallet='android/com.xrex.mobile' verdict='true' %}. We found nothing about how Tradn itself held funds, so it stays {% include verdictBadge.html verdict="wip" type='short' %}.
 
 Once you open the app, the user is shown a letter by Wayne Huang who is the CEO of XREX.
 
@@ -52,4 +54,4 @@ This is further reflected in XRex's [Twitter Post](https://mobile.twitter.com/xr
 
 ## Verdict
 
-Since Tradn now encourages users to download and use the [XRex app](https://walletscrutiny.com/android/com.xrex.mobile/), Tradn is **no longer working**.
+Since Tradn now encourages users to download and use the XRex app linked above, Tradn is **no longer working**.

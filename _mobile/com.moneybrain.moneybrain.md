@@ -1,7 +1,7 @@
 ---
 wsId: Moneybrain
 title: Moneybrain Financial SuperApp
-date: 2021-11-22
+date: 2026-10-30
 authors:
 - danny
 website: https://www.moneybrain.com
@@ -42,6 +42,15 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The app is listed on Google Play. On 2022-05-30 the FCA refused
+Moneybrain's application to be registered as a cryptoasset exchange provider and a custodian wallet provider,
+because it had published "misleading marketing and promotional material" about its BiPS tokens, and on 2022-09-22 the Upper Tribunal refused to
+suspend that decision
+([Upper Tribunal decision](https://assets.publishing.service.gov.uk/media/639080d7d3bf7f32887a69b6/Moneybrain_Ltd_v_FCA_suspension_hearing_decision.pdf)).
+The [website](https://www.moneybrain.com) now says "Moneybrain Global Ltd is registered with The Jersey
+Financial Services Commission as a Virtual Asset Services Provider" and still describes a "crypto wallet and
+payment platform". We found no self-custody option, so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+
 ## App Description
 
 > Moneybrain is the first global App to provide access to a full reserve Peer to Peer digital loans and mortgage platform; FCA regulated JustUs. In addition, the Moneybrain App also provides access to the world's first global equity crowdfunding platform Koodoo.
@@ -72,6 +81,9 @@ We conclude that this is a **custodial** app and as such, **not verifiable.**
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still listed (version 3.16.2, 2026-05-25). The findings
+above apply to it as well; the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include copyFromAndroid.html %}
 

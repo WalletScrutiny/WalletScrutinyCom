@@ -1,6 +1,6 @@
 ---
 title: OKpro-Bitcoin & Crypto currency information
-date: 2021-11-10
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -16,5 +16,7 @@ android:
   verdict: wip
 
 ---
+
+**Update 2026-10-30:** The app is still gone from Google Play. We found no archived copy of its store page, and the listing names no website or developer we could follow up on, so it stays {% include verdictBadge.html verdict="wip" type='short' %}.
 
 **Update 2021-10-18**: This app is no more.

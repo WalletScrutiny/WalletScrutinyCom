@@ -1,6 +1,6 @@
 ---
 title: DAO Wallet
-date: 2021-11-30
+date: 2026-10-30
 authors:
 - danny
 twitter: daoconsensus
@@ -13,11 +13,15 @@ android:
   updated: 2021-09-18
   version: 1.0.0.20
   icon: com.pons.dao.webp
-  meta: removed
-  verdict: wip
+  meta: defunct
+  verdict: custodial
   developerName: DAO Consensus
 
 ---
+
+**⚠️ Warning:** DAO Consensus looks gone. On 2026-10-30 its websites no longer worked and the app was off Google Play.
+
+**Update 2026-10-30:** This app ran on Crypterium's platform. The [archived store page](https://web.archive.org/web/20220907020449/https://play.google.com/store/apps/details?id=com.pons.dao) of September 2022 still carries the description copied from {% include walletLink.html wallet='android/com.crypterium' verdict='true' %}, including "Order and manage your prepaid Crypterium Card", and its privacy policy link points to Crypterium's own privacy policy on crypterium.com. The developer contact is reg@daoconsensus.ru. Like the Crypterium white-label apps {% include walletLink.html wallet='android/com.dreambit' verdict='true' %} and {% include walletLink.html wallet='android/com.pons' verdict='true' %}, we now classify it as {% include verdictBadge.html verdict="custodial" type='short' %} instead of {% include verdictBadge.html verdict="wip" type='short' %}. The app is still gone from Google Play. daoconsensus.ru no longer resolves, [daoconsensus.com](https://daoconsensus.com) shows only an empty directory listing, and the posts that the [@daoconsensus](https://x.com/daoconsensus) account on X shows to logged-out visitors date from mid-2021. We mark the listing defunct.
 
 <div class="alertBox"><div>
 

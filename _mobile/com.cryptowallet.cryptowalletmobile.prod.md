@@ -1,7 +1,7 @@
 ---
 wsId: CWExchangeAndCard
 title: CryptoWallet | Exchange & Card
-date: 2021-11-22
+date: 2026-10-30
 authors:
 - danny
 website: https://cryptowallet.com/
@@ -22,7 +22,7 @@ android:
   version: 1.11.10
   reviews: 7
   icon: com.cryptowallet.cryptowalletmobile.prod.webp
-  meta: removed
+  meta: defunct
   verdict: custodial
 iphone:
   appId: com.cryptowallet.cryptowalletmobile.prod
@@ -32,12 +32,21 @@ iphone:
   version: 1.11.4
   reviews: 3
   icon: com.cryptowallet.cryptowalletmobile.prod.webp
-  meta: removed
-  verdict: wip
+  meta: defunct
+  verdict: custodial
 
 ---
 
+**⚠️ Warning:** CryptoWallet.com has closed. In April 2025 the domain led to a
+[closing notice](https://web.archive.org/web/20250419233825/http://206.189.103.36/) that says "CryptoWallet.com
+is closing its operations, including all crypto wallet activities" and asks customers with funds to "submit a
+withdrawal request". On 2026-10-30 [cryptowallet.com](https://cryptowallet.com/) was a parked domain offered
+for sale.
+
 ## Android
+
+**Update 2026-10-30:** The app is still gone from Google Play. The closing notice confirms that the
+provider held its customers' funds, so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include review/bitgo.md %}
 
@@ -91,5 +100,11 @@ response from the dev team.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is gone from the App Store. It was the same CryptoWallet app,
+and both the [archived 2021 website](https://web.archive.org/web/20211120121143/https://cryptowallet.com/)
+("CryptoWallet is secured by BitGo" with "multi-signature cold storage") and the closing notice, which has
+customers request withdrawals of their funds, show the provider held the coins. We change the verdict from
+{% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include copyFromAndroid.html %}

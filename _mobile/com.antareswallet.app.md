@@ -1,7 +1,7 @@
 ---
 wsId: AntaresWallet
 title: Antares Wallet
-date: 2021-11-08
+date: 2026-10-30
 authors:
 - danny
 website: https://antareswallet.com#deadLink
@@ -16,8 +16,8 @@ android:
   updated: 2021-03-22
   version: 0.9.5+205
   icon: com.antareswallet.app.webp
-  meta: removed
-  verdict: wip
+  meta: defunct
+  verdict: custodial
   developerName: Online Invest
 iphone:
   appId: com.antareswallet.app
@@ -26,12 +26,16 @@ iphone:
   updated: 2021-03-23
   version: '1.2'
   icon: com.antareswallet.app.webp
-  meta: removed
-  verdict: wip
+  meta: defunct
+  verdict: custodial
 
 ---
 
+**⚠️ Warning:** The provider appears to be gone. Both apps are off the stores and antareswallet.com no longer resolves.
+
 ## Android
+
+**Update 2026-10-30:** The app is still gone from Google Play, and we found no archived copy of its store page. The domain antareswallet.com no longer resolves, so we mark the provider defunct. The store description quoted below says you can "regain access to your account even if you lose your phone or forget your private keys". An [archived copy of its App Store page](https://web.archive.org/web/20210320013211/https://apps.apple.com/app/id1549506189) has the same text and adds that "most of the assets are stored in offline blockchain storage", with daily and weekly transaction limits. The provider held the coins, so we change the verdict from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ⚠️ **Warning:** This wallet's domain is not listed on its Google Play app. Many users have also reported having negative experience with this wallet. Many of its social media presences have also been scrubbed. A domain which bears the same name as the app, antareswallet.com, now returns a 404. 
 
@@ -75,5 +79,7 @@ This app is **no longer working.**
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still gone from the App Store. Its [archived App Store page](https://web.archive.org/web/20210320013211/https://apps.apple.com/app/id1549506189) is the evidence for the change from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}, see the Android section.
 
 {% include copyFromAndroid.html %}

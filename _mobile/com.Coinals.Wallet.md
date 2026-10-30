@@ -1,6 +1,6 @@
 ---
 title: Coinals:Wallet
-date: 2021-11-22
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -12,11 +12,18 @@ android:
   updated: 2021-04-23
   version: 1.0.0
   icon: com.Coinals.Wallet.webp
-  meta: removed
+  meta: defunct
   verdict: wip
   developerName: COINALS_INC
 
 ---
+
+**⚠️ Warning:** Coinals appears to be gone. On 2026-10-30 coinals.com no longer resolved in DNS, and the
+[Wayback Machine](https://web.archive.org/web/2023*/coinals.com) has nothing but redirects for it after
+June 2023.
+
+**Update 2026-10-30:** The app is still gone from Google Play, and the Wayback Machine holds no copy of its
+store page, so we have no evidence for a verdict and keep it at {% include verdictBadge.html verdict="wip" type='short' %}.
 
 ## App Description
 

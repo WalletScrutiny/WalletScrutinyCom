@@ -1,7 +1,7 @@
 ---
 wsId: flitaa
 title: 'Flitaa: your crypto wallet'
-date: 2021-11-03
+date: 2026-10-30
 authors:
 - danny
 website: https://flitaa.com
@@ -41,6 +41,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** Flitaa was [acquired by the Nigerian exchange Roqqu](https://innovation-village.com/nigerian-crypto-exchange-roqqu-acquires-kenyas-flitaa-to-accelerate-east-african-expansion/) in July 2025. Roqqu said Flitaa's operations would be fully integrated into its own platform. The Flitaa app is still in the store but has had no update since June 2025, and [flitaa.com](https://flitaa.com) still promotes it. Roqqu is listed here as {% include walletLink.html wallet='android/com.roqqu.app' verdict='true' %}. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+
 ## App Description
 
 Flitaa's description claims that it is an:
@@ -54,7 +56,7 @@ There is no mention of private keys in the description, with Flitaa saying that 
 
 ## The Site
 
-There is no mention of private keys anywhere, or any way to backup the cryptocurrency wallets. However, as this [tutorial]((https://help.flitaa.com/article/how-to-buy-crypto-on-flitaa)) says, it is possible to buy, send, and hold cryptocurrencies with this app.
+There is no mention of private keys anywhere, or any way to backup the cryptocurrency wallets. However, as this [tutorial](https://help.flitaa.com/article/how-to-buy-crypto-on-flitaa#deadLink) says, it is possible to buy, send, and hold cryptocurrencies with this app.
 
 We tried to sign up through the site, however the registration form only accepted numbers from Ghana, Kenya, and Nigeria.
 
@@ -68,5 +70,7 @@ All signs point to this being a **custodial** app and thus it is **not verifiabl
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still in the Nigerian App Store, also without an update since June 2025. Flitaa now belongs to Roqqu ({% include walletLink.html wallet='iphone/com.roqqu.ios' verdict='true' %}), see the Android section. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include copyFromAndroid.html %}

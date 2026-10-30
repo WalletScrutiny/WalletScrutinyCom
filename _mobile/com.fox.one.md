@@ -1,10 +1,10 @@
 ---
 wsId: FoxOne
 title: FoxOne - BTC,ETH,EOS,Cosmos exchange & wallet
-date: 2021-11-11
+date: 2026-10-30
 authors:
 - danny
-website: https://www.fox.one/#&deadLink
+website: https://fox.one
 appCountry: us
 redirect_from:
 - /android/com.fox.one/
@@ -18,7 +18,7 @@ android:
   reviews: 90
   icon: com.fox.one.webp
   meta: removed
-  verdict: wip
+  verdict: custodial
 iphone:
   appId: one.fox.foxapp
   idd: 1384089079
@@ -28,13 +28,15 @@ iphone:
   reviews: 198
   icon: one.fox.foxapp.webp
   meta: removed
-  verdict: wip
+  verdict: custodial
 
 ---
 
 ## Android
 
-**Note:** The homepage listed for the site is no longer working.
+**Update 2026-10-30:** Fox.ONE shut the app down, and it was custodial. [fox.one](https://fox.one) now says the team "made the difficult decision to discontinue the “Fox.ONE” App as of January 1, 2024", and that users with "an unspent balance in your “Fox.ONE” account" had to move it to Mixin Messenger before then. The [migration guide](https://fox.one/migrate) tells users to log in, bind a Mixin Messenger account and "withdraw your asset balance in the app wallet". An [archived Play store page from November 2020](https://web.archive.org/web/20201107232358/https://play.google.com/store/apps/details?id=com.fox.one) says "Create a free account" and that "Your cryptocurrency assets are stored in MIXIN distributed DAG network wallet of FoxOne". These are the provider's account balances, not keys held by the user, so we change the verdict from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}. The app is still gone from Google Play.
+
+**Note 2021-11-11:** The homepage listed at the time, www.fox.one, was not working.
 
 ## App Description
 
@@ -61,5 +63,7 @@ All indications point to an app that is **no longer working.**
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The app is still gone from the App Store. The shutdown notice and migration guide cover the iOS app too, so the iPhone verdict also changes from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include copyFromAndroid.html %}

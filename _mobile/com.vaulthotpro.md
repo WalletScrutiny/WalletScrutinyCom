@@ -1,7 +1,7 @@
 ---
 wsId: CoboVault
 title: Cobo Vault
-date: 2021-11-17
+date: 2026-10-30
 authors:
 - danny
 website: https://cobo.com/
@@ -40,6 +40,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The app is still gone from Google Play and the App Store, and the Wayback Machine has no archived copy of its Play store page. Cobo itself is still in business, but [cobo.com](https://www.cobo.com/) now sells custody and wallet infrastructure to businesses. The Cobo Vault line lives on as Keystone, already listed as {% include walletLink.html wallet='android/com.keystone.mobile' verdict='true' %}. The repository linked here, [cobo-vault-cold](https://github.com/CoboVault/cobo-vault-cold), calls itself the "Cobo Vault v2 android application" and its README describes the air-gapped hardware wallet, so it does not look like the source of this phone app. It was last updated in April 2021. With no app to examine, the verdict stays {% include verdictBadge.html verdict="wip" type='short' %}.
 
 **Update 2022-01-03:** Cobo Vault has been deprecated in favor of {% include walletLink.html wallet='android/com.keystone.mobile' verdict='true' %}
 

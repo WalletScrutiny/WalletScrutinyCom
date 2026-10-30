@@ -1,7 +1,7 @@
 ---
 wsId: HitBTCWallet
 title: HitBTC altcoin crypto wallet
-date: 2021-11-15
+date: 2026-10-30
 authors:
 - danny
 website: https://hitbtc.com/wallet
@@ -41,6 +41,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The app is still {% include verdictBadge.html verdict="custodial" type='short' %}. The current Play description talks of "full control", but it lists a KYC process, password, PIN and 2FA as the security features, and never mentions a seed phrase or private key. A HitBTC user [reported $100,000 frozen for six months](https://forklog.com/en/investor-reports-100000-blocked-on-hitbtc/) in 2025, with inactivity fees charged on the blocked balance. hitbtc.com blocks visitors from restricted regions, so we could not re-read the terms.
+
 ## App Description
 
 This is the wallet and companion app to: 
@@ -69,5 +71,7 @@ HitBTC is primarily a cryptocurrency exchange. They may have their own reasons f
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is [still listed in Australia](https://itunes.apple.com/lookup?id=1580572986&country=au), but its last update was version 1.3.8 on 2022-12-20. The verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include copyFromAndroid.html %}
