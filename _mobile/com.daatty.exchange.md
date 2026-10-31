@@ -1,6 +1,6 @@
 ---
 title: DAATTY EXCHANGE
-date: 2024-07-05
+date: 2026-10-30
 website: https://daattyexchange.com#deadLink
 redirect_from:
 - /android/com.daatty.exchange/

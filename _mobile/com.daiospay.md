@@ -1,7 +1,7 @@
 ---
 title: DaiosPay
-date: 2024-07-05
-website: https://daios.io/
+date: 2026-10-30
+website: https://daios.io/#deadLink
 redirect_from:
 - /android/com.daiospay/
 android:

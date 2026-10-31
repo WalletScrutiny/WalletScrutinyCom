@@ -1,6 +1,6 @@
 ---
 title: SMART SYSTEMS
-date: 2024-07-05
+date: 2026-10-30
 website: http://goforsage.com/app#deadLink
 redirect_from:
 - /android/com.ebfourapp.android5e8639832c006/

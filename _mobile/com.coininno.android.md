@@ -1,9 +1,9 @@
 ---
 title: Coininno | کوینینو
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
-website: https://coininno.com/
+website: https://coininno.com/#deadLink
 twitter: myCoininno
 social:
 - https://www.linkedin.com/company/coininno/about
@@ -24,6 +24,8 @@ android:
   developerName: Coininno
 
 ---
+
+**⚠️ Warning:** Coininno has stopped operating. Iranian review sites [Iran Broker](https://iranbroker.net/exchange/coininno/) and [Arzex](https://arzex.io/exchanges/coininno/) report that the exchange no longer offers its services, and its website no longer loads.
 
 ## App Description from Google Play
 
@@ -53,7 +55,7 @@ android:
   - Change passcode
   - Anti-Phishing code
   - Two-step authentication
-- The site's [terms](https://coininno.com/terms) include provisions like:
+- The site's [terms](https://web.archive.org/web/20231203031715/https://coininno.com/terms) include provisions like:
   - Transaction limits
   - Withdrawals have to be requested
   - Cold-storage is utilized

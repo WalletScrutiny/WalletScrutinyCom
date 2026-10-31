@@ -1,6 +1,6 @@
 ---
 title: Safcoin
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: http://www.safcoin.co.za
@@ -23,6 +23,9 @@ android:
   developerName: SAFCOIN
 
 ---
+
+**⚠️ Warning:** The Safcoin exchange looks gone. Its site safcoin.africa now shows an unrelated casino page, and [safcoin.co.za](https://safcoin.co.za) only announces that the SAFCOIN token is moving to Solana and tells holders to use the Phantom wallet.
+
 
 ## App Description from Google Play
 

@@ -1,6 +1,6 @@
 ---
 title: Klickl Wallet
-date: 2024-07-05
+date: 2026-10-30
 website: https://www.proof.la/
 redirect_from:
 - /android/com.idcg.idcw.dz/

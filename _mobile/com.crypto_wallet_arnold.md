@@ -1,6 +1,6 @@
 ---
 title: 'Pocket: Crypto Wallet'
-date: 2024-07-05
+date: 2026-10-30
 website: http://www.otomation.tech#deadLink
 redirect_from:
 - /android/com.crypto_wallet_arnold/

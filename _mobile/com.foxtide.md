@@ -1,6 +1,6 @@
 ---
 title: FOXTIDE
-date: 2024-07-05
+date: 2026-10-30
 website: https://www.digitide.us/foxtide#deadLink
 redirect_from:
 - /android/com.foxtide/

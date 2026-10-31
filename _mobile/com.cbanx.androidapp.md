@@ -1,7 +1,7 @@
 ---
 title: CBANX - Cryptocurrency Exchang
-date: 2024-07-05
-website: https://www.cbanx.com
+date: 2026-10-30
+website: https://www.cbanx.com#deadLink
 redirect_from:
 - /android/com.cbanx.androidapp/
 android:

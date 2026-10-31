@@ -15,16 +15,16 @@ dimensions:
 weight: 65
 provider: Asic Vault
 providerWebsite: 
-website: https://asicvault.io/
-shop: https://asicvault.io/preorder/reserve-mark-ii.html
+website: https://asicvault.io/#deadLink
+shop: https://asicvault.io/preorder/reserve-mark-ii.html#deadLink
 country: EE
 price: 
 repository: https://github.com/AsicVault/asicvault-hardware
 icon: asicvault.webp
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: vapor
-date: 2024-05-29
+date: 2026-10-30
 signer: 
 twitter: AsicVault
 social:
@@ -34,6 +34,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Asic Vault appears to be gone. On 2026-10-30 asicvault.io still did not load, the [GitHub repository](https://github.com/AsicVault/asicvault-hardware) has had no change since January 2021, and the device was never delivered. We mark this vaporware as defunct.
 
 There are [multiple](https://bitcointalk.org/index.php?topic=5341381.0) [posts](https://bitcointalk.org/index.php?topic=5186716.0) [on bitcointalk.org](https://bitcointalk.org/index.php?topic=2706485.msg43306498#msg43306498) concerning suspicious activity and dishonesty surrounding "Asic Vault" and its history.
 

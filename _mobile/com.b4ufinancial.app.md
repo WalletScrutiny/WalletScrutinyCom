@@ -1,6 +1,6 @@
 ---
 title: B4U Financial
-date: 2024-07-05
+date: 2026-10-30
 website: https://b4ufinancial.com
 redirect_from:
 - /android/com.b4ufinancial.app/

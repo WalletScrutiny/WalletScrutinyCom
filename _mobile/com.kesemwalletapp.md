@@ -1,7 +1,7 @@
 ---
 title: 'Kesem - Secured Crypto Wallet '
-date: 2024-07-05
-website: https://www.kesem.io
+date: 2026-10-30
+website: https://www.kesem.io#deadLink
 redirect_from:
 - /android/com.kesemwalletapp/
 android:
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**⚠️ Warning:** Kesem's website no longer loads. The last archived copy is from [April 2025](https://web.archive.org/web/20250403075810/https://kesem.io/).

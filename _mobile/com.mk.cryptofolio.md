@@ -1,6 +1,6 @@
 ---
 title: Altcoin Bitcoin Trade
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - leo
 website: http://www.thecryptofolioapp.com#deadLink

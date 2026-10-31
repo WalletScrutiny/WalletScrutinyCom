@@ -1,7 +1,7 @@
 ---
 title: CBX.one
-date: 2024-07-05
-website: https://www.cbx.one
+date: 2026-10-30
+website: https://www.cbx.one#deadLink
 redirect_from:
 - /android/com.cbx.api/
 android:
