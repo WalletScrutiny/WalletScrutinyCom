@@ -1,6 +1,6 @@
 ---
 title: Nanovest-Bitcoin US Stock Gold
-date: 2024-09-03
+date: 2026-10-30
 authors:
 - danny
 website: https://nanovest.zendesk.com/hc/en-us

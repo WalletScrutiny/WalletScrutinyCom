@@ -1,6 +1,6 @@
 ---
 title: Quadency - Crypto Platform
-date: 2024-08-07
+date: 2026-10-30
 authors:
 - danny
 website: https://quadency.com
@@ -37,6 +37,8 @@ iphone:
   developerName: Quadency Inc
 
 ---
+
+**Update 2026-10-30:** Quadency renamed itself [Quad Terminal](https://github.com/quadency) and quadency.com now forwards to [quadterminal.com](https://quadterminal.com/). Both Quadency apps are gone from the stores and we found no Quad Terminal app.
 
 ## Android
 

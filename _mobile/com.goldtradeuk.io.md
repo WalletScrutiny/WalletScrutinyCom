@@ -1,7 +1,7 @@
 ---
 title: Goldtradeuk
-date: 2024-09-06
-website: https://goldtradeuk.com/
+date: 2026-10-30
+website: https://goldtradeuk.com/#deadLink
 redirect_from:
 - /android/com.goldtradeuk.io/
 android:

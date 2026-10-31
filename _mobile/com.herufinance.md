@@ -1,6 +1,6 @@
 ---
 title: Heru Finance
-date: 2024-07-30
+date: 2026-10-30
 website: https://heru.finance#deadLink
 redirect_from:
 - /android/com.herufinance/

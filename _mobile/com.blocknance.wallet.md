@@ -1,6 +1,6 @@
 ---
 title: 'Blocknance: Blockchain Wallet'
-date: 2024-07-25
+date: 2026-10-30
 authors:
 - danny
 website: https://blockchain.com.do

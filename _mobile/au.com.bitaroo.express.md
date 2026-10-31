@@ -1,6 +1,6 @@
 ---
 title: Bitaroo Express - Buy Bitcoin
-date: 2024-09-05
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitaroo.com.au
@@ -40,6 +40,8 @@ iphone:
   developerName: Bitaroo
 
 ---
+
+**Update 2026-10-30:** The app now has two optional self-custody features next to the custodial exchange account: the Bitaroo Wallet, a hot wallet whose 12-word recovery phrase is created on the phone and never leaves it ([Bitaroo](https://www.bitaroo.com.au/bitaroo-wallet/)), and Bitaroo Guardian, a 2-of-3 multisig wallet where the user holds two keys and Bitaroo the third ([Bitaroo](https://www.bitaroo.com.au/)). Buying, selling and Lightning still happen in the custodial account, so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## Android
 

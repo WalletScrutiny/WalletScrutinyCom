@@ -1,6 +1,6 @@
 ---
 title: GoldexPlus
-date: 2024-07-25
+date: 2026-10-30
 website: https://goldexplus.com#deadLink
 redirect_from:
 - /android/com.denxpro.plus/

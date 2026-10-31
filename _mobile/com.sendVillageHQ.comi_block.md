@@ -1,6 +1,6 @@
 ---
 title: 'ComiBlock: Invest Confidently'
-date: 2024-08-21
+date: 2026-10-30
 website: https://comiblock.com#deadLink
 redirect_from:
 - /android/com.sendVillageHQ.comi_block/

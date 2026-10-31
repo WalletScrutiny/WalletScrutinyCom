@@ -1,6 +1,6 @@
 ---
 title: NuWallet
-date: 2024-08-07
+date: 2026-10-30
 redirect_from:
 - /android/com.numiner.nuwallet/
 android:

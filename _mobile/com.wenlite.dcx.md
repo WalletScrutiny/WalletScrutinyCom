@@ -1,6 +1,6 @@
 ---
 title: WenLite
-date: 2024-08-17
+date: 2026-10-30
 website: http://www.wenlite.io
 redirect_from:
 - /android/com.wenlite.dcx/

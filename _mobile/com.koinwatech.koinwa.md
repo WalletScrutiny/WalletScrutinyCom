@@ -1,6 +1,6 @@
 ---
 title: 'Koinwa: Buy, Sell, Loan Crypto'
-date: 2024-07-30
+date: 2026-10-30
 authors:
 - danny
 website: https://koinwa.com#deadLink

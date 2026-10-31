@@ -1,6 +1,6 @@
 ---
 title: SereCoin
-date: 2024-07-25
+date: 2026-10-30
 redirect_from:
 - /android/com.wallet.serecoin/
 android:

@@ -1,6 +1,6 @@
 ---
 title: IFCL Business Cypto App
-date: 2024-08-13
+date: 2026-10-30
 website: https://www.ifclbusinesscryptoapp.com#deadLink
 redirect_from:
 - /android/com.app.imanifamilycapitallimited/

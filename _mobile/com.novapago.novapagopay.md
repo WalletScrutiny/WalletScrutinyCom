@@ -1,6 +1,6 @@
 ---
 title: Novapago Pay
-date: 2024-09-06
+date: 2026-10-30
 website: https://novapago.com
 redirect_from:
 - /android/com.novapago.novapagopay/

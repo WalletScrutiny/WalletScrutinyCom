@@ -1,6 +1,6 @@
 ---
 title: MasterBitExpress BTC Wallet
-date: 2024-08-19
+date: 2026-10-30
 website: https://www.masterbitexpress.com
 redirect_from:
 - /android/com.masterbitexpress.wallet/

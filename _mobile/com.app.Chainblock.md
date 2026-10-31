@@ -1,6 +1,6 @@
 ---
 title: Chainblock
-date: 2024-08-31
+date: 2026-10-30
 website: https://chainblock.it/flash/
 redirect_from:
 - /android/com.app.Chainblock/
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**Update 2026-10-30:** The [Chainblock Flash page](https://chainblock.it/flash/) no longer offers crypto purchases. It now only says, in Italian, that Chainblock has taken a break and will be back later with news. In [January 2025](https://web.archive.org/web/20250123142347/https://chainblock.it/flash/) it still sold crypto.

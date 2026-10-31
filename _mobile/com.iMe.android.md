@@ -1,6 +1,6 @@
 ---
 title: 'iMe: Telegram AI Messenger'
-date: 2024-09-07
+date: 2026-10-30
 authors:
 - danny
 website: https://www.imem.app

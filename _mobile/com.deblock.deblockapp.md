@@ -1,6 +1,6 @@
 ---
 title: Deblock - Banking app
-date: 2024-09-06
+date: 2026-10-30
 authors:
 - danny
 website: https://deblock.com/
@@ -36,6 +36,8 @@ iphone:
 
 ---
 
+**Update 2026-10-30:** Deblock has changed how it describes its key setup. Its [self-custody page](https://deblock.com/en/self-custody) now says the phone creates the seed phrase, Deblock stores it only as an encrypted recovery package, and the seed phrase can be exported from the settings at any time; the server key shard described below is gone from the site. The key that decrypts the package is kept "via email, your cloud account, and a trusted escrow", so people other than the user can still rebuild the wallet, and the app is still closed source. We keep the {% include verdictBadge.html verdict="custodial" type='short' %} verdict for now.
+
 ## Android
 
 ## App Description from Google Play
@@ -54,7 +56,7 @@ iphone:
 
 Deblock is a France-based app that claims to offer an alternative self-custodial security system. Instead of the user memorizing a seed phrase, this app generates two "shards" of a key: one generated on the user's device and the other on Deblock's servers. Both parts are then encrypted and "backed up".
 
-As stated on the [official website:](https://deblock.com/en-FR/best-non-custodial-wallets-in-the-world)
+As stated on the [official website:](https://web.archive.org/web/20260122125045/https://deblock.com/en-FR/best-non-custodial-wallets-in-the-world)
 
 > Your shard of the key (2) <br>
     - Generated upon signup on your device. <br>

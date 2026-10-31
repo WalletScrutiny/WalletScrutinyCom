@@ -1,6 +1,6 @@
 ---
 title: YIBI - Buy Bitcoin Instantly
-date: 2024-08-19
+date: 2026-10-30
 authors:
 - danny
 website: https://yibi.co

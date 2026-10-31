@@ -1,6 +1,6 @@
 ---
 title: LocalCoinSwap
-date: 2024-09-08
+date: 2026-10-30
 website: https://localcoinswap.com
 twitter: Localcoinswap_
 social:

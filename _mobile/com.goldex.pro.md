@@ -1,7 +1,7 @@
 ---
 title: Goldex Exchange
-date: 2024-07-25
-website: https://goldexco.in
+date: 2026-10-30
+website: https://goldexco.in#deadLink
 redirect_from:
 - /android/com.goldex.pro/
 android:

@@ -1,6 +1,6 @@
 ---
 title: 'OBRinvest:  Online Trading'
-date: 2024-08-15
+date: 2026-10-30
 authors:
 - danny
 website: https://www.obrinvest.com#deadLink
@@ -30,6 +30,8 @@ iphone:
   developerName: OBR Investment Ltd
 
 ---
+
+**⚠️ Warning:** OBRinvest has stopped operating. The Cyprus regulator CySEC [withdrew the licence of OBR Investments Ltd](https://fxnewsgroup.com/forex-news/regulatory/cysec-withdraws-license-of-obr-investments/) on 9 February 2026 after the company gave it up, and the OBRinvest website no longer loads.
 
 ## Android
 
