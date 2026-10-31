@@ -1,6 +1,6 @@
 ---
 title: QR Watch-Only Wallet
-date: 2024-05-18
+date: 2026-10-30
 website: https://keyst.one/
 redirect_from:
 - /android/cv.companion/

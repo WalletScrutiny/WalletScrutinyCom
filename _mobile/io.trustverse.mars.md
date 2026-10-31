@@ -1,16 +1,16 @@
 ---
 title: MarS
-date: 2024-05-18
+date: 2026-10-30
 authors:
 - danny
-website: http://www.trustverse.io
+website: http://www.trustverse.io#deadLink
 twitter: TrustVerse
 social:
 - https://www.facebook.com/trustverseofficial
 - https://t.me/trustverse_officialchannel
 - https://www.instagram.com/trustverse_official
 - https://trustverse-official.medium.com
-- https://www.trustverse.io
+- https://www.trustverse.io#deadLink
 redirect_from:
 - /android/io.trustverse.mars/
 - /iphone/io.trustverse.mars/
@@ -38,6 +38,8 @@ iphone:
   developerName: trustverse
 
 ---
+
+**⚠️ Warning:** The TrustVerse website no longer loads, the team has not posted on its [Medium blog](https://trustverse-official.medium.com) since March 2023, and its TRV token has had no market data since May 2025 ([CoinLore](https://www.coinlore.com/coin/trustverse)). The project appears to be abandoned.
 
 ## Android
 

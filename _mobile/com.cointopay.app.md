@@ -1,6 +1,6 @@
 ---
 title: Cointopay wallet
-date: 2024-05-24
+date: 2026-10-30
 authors:
 - danny
 website: https://cointopay.com

@@ -1,6 +1,6 @@
 ---
 title: Logistic Pro Trade
-date: 2024-05-07
+date: 2026-10-30
 website: https://logisticprotrade.com#deadLink
 redirect_from:
 - /android/com.logisticprotrade.droidapp/

@@ -1,6 +1,6 @@
 ---
 title: Trade6ix - Buy & Trade Crypto
-date: 2024-05-24
+date: 2026-10-30
 website: https://trade6ix.com
 redirect_from:
 - /android/com.devoioapps.trade6ix/
@@ -18,3 +18,4 @@ android:
 
 ---
 
+**⚠️ Warning:** Trade6ix looks gone. The [archived site from June 2025](https://web.archive.org/web/20250612124305/https://trade6ix.com/) still advertised "The Swiss Crypto Trading platform", but [trade6ix.com](https://trade6ix.com) now only shows a notice from Trade6ix GmbH that it does no business, has never run a trading platform, and warns about fake sites using its name.

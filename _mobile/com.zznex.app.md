@@ -1,6 +1,6 @@
 ---
 title: ZZNEX BOT
-date: 2024-05-18
+date: 2026-10-30
 website: https://zznex.in#deadLink
 redirect_from:
 - /android/com.zznex.app/

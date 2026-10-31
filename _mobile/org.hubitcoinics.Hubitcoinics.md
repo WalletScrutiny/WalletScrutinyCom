@@ -1,6 +1,6 @@
 ---
 title: HubitCoinics:Buy & Sell Crypto
-date: 2024-05-07
+date: 2026-10-30
 website: https://web.archive.org/web/20240925161635/https://www.hubitcoinics.org/
 redirect_from:
 - /android/org.hubitcoinics.Hubitcoinics/

@@ -1,6 +1,6 @@
 ---
 title: Leveraged for BitMEX
-date: 2024-05-07
+date: 2026-10-30
 website: http://leveragedapp.io#deadLink
 redirect_from:
 - /android/io.leveragedapp.leveraged/

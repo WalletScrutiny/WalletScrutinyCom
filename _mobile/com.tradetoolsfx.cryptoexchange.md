@@ -1,6 +1,6 @@
 ---
 title: Crypto Exchange
-date: 2024-05-07
+date: 2026-10-30
 website: http://www.tradetoolsfx.com
 redirect_from:
 - /android/com.tradetoolsfx.cryptoexchange/

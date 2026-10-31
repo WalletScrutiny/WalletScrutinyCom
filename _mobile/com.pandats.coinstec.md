@@ -1,7 +1,7 @@
 ---
 title: Coinstec - Buy & sell Bitcoin,
-date: 2024-05-07
-website: http://www.coinstec.com
+date: 2026-10-30
+website: https://web.archive.org/web/20181113182046/https://www.coinstec.com/
 redirect_from:
 - /android/com.pandats.coinstec/
 android:

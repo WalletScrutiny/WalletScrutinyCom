@@ -1,7 +1,7 @@
 ---
 title: StakeSeeker
-date: 2024-05-07
-website: https://stakeseeker.com/
+date: 2026-10-30
+website: https://stakeseeker.com/#deadLink
 redirect_from:
 - /android/com.btcs.stakeseeker/
 android:
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**⚠️ Warning:** BTCS shut down the StakeSeeker platform, announced on 2024-12-27 ([Coinspeaker](https://www.coinspeaker.com/btcs-shifts-focus-to-ethereum-infrastructure-discontinues-stakeseeker-platform/)). The StakeSeeker website no longer loads.

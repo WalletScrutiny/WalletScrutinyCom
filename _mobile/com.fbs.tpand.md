@@ -1,6 +1,6 @@
 ---
 title: FBS Trader — Trading Platform
-date: 2024-05-18
+date: 2026-10-30
 authors:
 - danny
 website: https://fbs.com/

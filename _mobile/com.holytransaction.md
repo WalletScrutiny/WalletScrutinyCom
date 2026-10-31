@@ -1,6 +1,6 @@
 ---
 title: HolyTransaction - Crypto Walle
-date: 2024-05-07
+date: 2026-10-30
 website: https://holytransaction.com
 redirect_from:
 - /android/com.holytransaction/

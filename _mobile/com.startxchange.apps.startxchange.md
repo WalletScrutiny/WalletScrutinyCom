@@ -1,6 +1,6 @@
 ---
 title: StartXchange
-date: 2024-05-18
+date: 2026-10-30
 website: https://startxchange.com.gh#deadLink
 redirect_from:
 - /android/com.startxchange.apps.startxchange/
