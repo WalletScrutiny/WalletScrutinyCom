@@ -1,7 +1,7 @@
 ---
 title: UZURA WALLET
-date: 2024-04-03
-website: https://www.uzuras.net/
+date: 2026-10-30
+website: https://www.uzuras.net/#deadLink
 redirect_from:
 - /android/net.uzuras.uzuras/
 android:

@@ -1,6 +1,6 @@
 ---
 title: Trade Crypto
-date: 2024-04-19
+date: 2026-10-30
 website: http://www.tradecrypto.asia#deadLink
 redirect_from:
 - /android/com.app.tradecrypto/

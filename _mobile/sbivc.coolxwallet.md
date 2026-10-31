@@ -1,7 +1,7 @@
 ---
 title: Cool X Wallet
-date: 2024-04-03
-website: https://www.sbicxw.com/
+date: 2026-10-30
+website: https://www.sbicxw.com/#deadLink
 redirect_from:
 - /android/sbivc.coolxwallet/
 android:

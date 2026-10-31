@@ -1,6 +1,6 @@
 ---
 title: Bispex-일상을바꾸는 투자  소액재테크
-date: 2024-04-03
+date: 2026-10-30
 redirect_from:
 - /android/kr.co.coin5.ba/
 android:

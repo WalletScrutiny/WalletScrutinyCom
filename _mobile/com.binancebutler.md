@@ -1,6 +1,6 @@
 ---
 title: Butler for Binance
-date: 2024-04-19
+date: 2026-10-30
 website: https://binance-butler.github.io
 redirect_from:
 - /android/com.binancebutler/

@@ -1,7 +1,7 @@
 ---
 title: bitjeem - Dubai's Premier Digi
-date: 2024-04-19
-website: https://bitjeem.com
+date: 2026-10-30
+website: https://bitjeem.com#deadLink
 redirect_from:
 - /android/com.bitjeem.android/
 android:

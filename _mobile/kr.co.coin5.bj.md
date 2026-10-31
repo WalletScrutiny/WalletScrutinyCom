@@ -1,6 +1,6 @@
 ---
 title: 비스펙스- 비트코인 마진거래 소액투자
-date: 2024-04-03
+date: 2026-10-30
 redirect_from:
 - /android/kr.co.coin5.bj/
 android:

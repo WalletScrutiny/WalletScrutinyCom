@@ -1,7 +1,7 @@
 ---
 title: BetaFunds - The Smart Beta Ind
-date: 2024-04-19
-website: https://betafunds.com
+date: 2026-10-30
+website: https://betafunds.com#deadLink
 redirect_from:
 - /android/com.BetaFunds/
 android:

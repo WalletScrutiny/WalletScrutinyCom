@@ -1,6 +1,6 @@
 ---
 title: NEENOTE
-date: 2024-04-03
+date: 2026-10-30
 website: https://web.archive.org/web/20250227125010/http://www.neenote.net/
 redirect_from:
 - /android/net.neenote.wallet/

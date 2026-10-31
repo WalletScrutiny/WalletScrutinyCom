@@ -1,6 +1,6 @@
 ---
 title: KeepMySeed
-date: 2024-04-19
+date: 2026-10-30
 website: https://keepmyseed.com#deadLink
 redirect_from:
 - /android/com.KeepMySeed.nfc/

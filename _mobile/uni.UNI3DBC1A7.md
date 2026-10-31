@@ -1,6 +1,6 @@
 ---
 title: 3F Wallet
-date: 2024-04-03
+date: 2026-10-30
 website: https://3fwallet.com#deadLink
 redirect_from:
 - /android/uni.UNI3DBC1A7/

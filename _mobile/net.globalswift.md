@@ -1,6 +1,6 @@
 ---
 title: Globalswift.net
-date: 2024-04-03
+date: 2026-10-30
 website: https://globalswift.net
 redirect_from:
 - /android/net.globalswift/

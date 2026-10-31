@@ -1,7 +1,7 @@
 ---
 title: Bizonex
-date: 2024-04-19
-website: https://bizonex.com/
+date: 2026-10-30
+website: https://bizonex.com/#deadLink
 redirect_from:
 - /android/com.app.bizonex/
 android:

@@ -1,6 +1,6 @@
 ---
 title: BitSwap
-date: 2024-04-19
+date: 2026-10-30
 website: https://bitswapltd.com#deadLink
 redirect_from:
 - /android/com.bitswapltd.android/

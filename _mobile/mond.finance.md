@@ -1,6 +1,6 @@
 ---
 title: Mond
-date: 2024-04-03
+date: 2026-10-30
 website: https://web.archive.org/web/20240822030647/https://mond.finance/
 redirect_from:
 - /android/mond.finance/

@@ -1,7 +1,7 @@
 ---
 title: MercadoCriptoGlobal
-date: 2024-04-19
-website: https://www.mercadocriptoglobal.com/
+date: 2026-10-30
+website: https://web.archive.org/web/20180714104554/http://www.mercadocriptoglobal.com/
 redirect_from:
 - /android/ar.com.mercadocriptoglobal.app/
 android:

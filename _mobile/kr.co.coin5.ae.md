@@ -1,6 +1,6 @@
 ---
 title: BISPEX재테크-소액투자 비트코인
-date: 2024-04-03
+date: 2026-10-30
 redirect_from:
 - /android/kr.co.coin5.ae/
 android:

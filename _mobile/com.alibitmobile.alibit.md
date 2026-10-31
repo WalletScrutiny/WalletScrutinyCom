@@ -1,6 +1,6 @@
 ---
 title: 'Alibit: First B2B Bitcoin Mark'
-date: 2024-04-19
+date: 2026-10-30
 website: https://alibit.tech#deadLink
 redirect_from:
 - /android/com.alibitmobile.alibit/

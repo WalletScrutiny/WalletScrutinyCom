@@ -1,7 +1,7 @@
 ---
 title: Lndroid.Wallet Testnet
-date: 2024-04-03
-website: https://lndroid.org
+date: 2026-10-30
+website: https://web.archive.org/web/20201021154533/http://lndroid.org/
 redirect_from:
 - /android/org.lndroid.wallet.testnet/
 android:

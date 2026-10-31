@@ -1,7 +1,7 @@
 ---
 title: The OPC
-date: 2024-04-19
-website: http://www.theonepercentcommunity.com
+date: 2026-10-30
+website: https://web.archive.org/web/20240426095632/https://theonepercentcommunity.com/
 redirect_from:
 - /android/appgiftertreeonepercentcommunitycom.wpapp/
 android:

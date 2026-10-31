@@ -1,6 +1,6 @@
 ---
 title: 'Bitfairex: Digital Assets Mark'
-date: 2024-04-19
+date: 2026-10-30
 website: https://bitfairex.com#deadLink
 redirect_from:
 - /android/com.bitfairex/

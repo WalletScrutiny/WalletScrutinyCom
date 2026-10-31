@@ -1,6 +1,6 @@
 ---
 title: BISPEX플랫폼- 비트코인마진거래 분석
-date: 2024-04-03
+date: 2026-10-30
 redirect_from:
 - /android/kr.co.coin5.bg/
 android:

@@ -1,6 +1,6 @@
 ---
 title: Dispurse - Get paid in crypto
-date: 2024-04-19
+date: 2026-10-30
 website: https://dispurseapp.com#deadLink
 redirect_from:
 - /android/com.AppInstitute.d3952/

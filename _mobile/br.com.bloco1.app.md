@@ -1,6 +1,6 @@
 ---
 title: Bloco1 - Crypto Exchange
-date: 2024-04-19
+date: 2026-10-30
 website: https://www.bloco1.com.br#deadLink
 redirect_from:
 - /android/br.com.bloco1.app/
