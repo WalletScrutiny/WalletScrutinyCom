@@ -1,6 +1,6 @@
 ---
 title: 'LATOKEN: Trade Any Crypto'
-date: 2026-02-02
+date: 2026-10-30
 authors:
 - danny
 website: http://latoken.com

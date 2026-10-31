@@ -1,6 +1,6 @@
 ---
 title: PAYEER
-date: 2026-01-28
+date: 2026-10-30
 authors:
 - danny
 website: https://payeer.com#deadLink
@@ -21,6 +21,8 @@ android:
   developerName: Payeer Official
 
 ---
+
+**⚠️ Warning:** PAYEER shut down after the EU added it to a transaction ban in its 19th sanctions package of October 2025. It asked users to withdraw their funds by 5 January 2026, and users reported frozen balances ([FinTelegram](https://fintelegram.com/payeer-sanctions-fallout-frozen-balances-wind-down-deadlines-and-a-growing-trail-of-complaints/)). The website no longer loads.
 
 Taken from the Play Store description:
 > Exchange Fiat and Cryptocurrencies on Trade Platform or Convert automatically, Fund up your account with VISA and MasterCard, Make payments worldwide between more than 20.000.000 PAYEER accounts from 127 countries of the world!

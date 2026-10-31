@@ -1,6 +1,6 @@
 ---
 title: DSC Wallet
-date: 2026-01-14
+date: 2026-10-30
 website: https://truewallet.dev/
 redirect_from:
 - /android/com.truewallet.app/

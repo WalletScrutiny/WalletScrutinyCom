@@ -1,7 +1,7 @@
 ---
 title: 'Monswallet: Crypto Game Wallet'
-date: 2026-01-14
-website: https://support.monsterra.io/
+date: 2026-10-30
+website: https://web.archive.org/web/20250316091033/https://support.monsterra.io/
 redirect_from:
 - /android/com.crescentshine.monswallet/
 android:

@@ -1,6 +1,6 @@
 ---
 title: WethioX
-date: 2026-02-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.wethiox.io/landing
@@ -22,7 +22,7 @@ android:
   version: 2.3.3
   reviews: 4
   icon: com.exchange.wethio.io.webp
-  meta: obsolete
+  meta: defunct
   verdict: custodial
   developerName: Karim Ahmed BENABDELKADER
 iphone:
@@ -34,11 +34,13 @@ iphone:
   version: 3.0.6
   reviews: 4
   icon: com.wethio.io.wethioX.webp
-  meta: obsolete
+  meta: defunct
   verdict: custodial
   developerName: Applinum
 
 ---
+
+**⚠️ Warning:** WethioX looks gone. Its website [wethiox.io](https://www.wethiox.io/#deadLink) no longer loads (last archived on [2026-03-13](https://web.archive.org/web/20260313141808/https://www.wethiox.io/)), the domain of the parent project [wethio.io](https://wethio.io/) now shows a gambling site, and the [X account](https://x.com/WethioX) and [blog](https://wethio.medium.com/) have been silent since early 2024. The apps have not been updated since 2022 and 2023.
 
 ## Android
 
@@ -46,7 +48,7 @@ iphone:
 
 > We become the best place to trade crypto online by providing excellent services, low-cost transaction fees, flexible funding options, and high-grade security standards. With WethioX, you can buy, sell, and trade digital currencies on the go with confidence and trust.
 
-## Description from the [website](https://www.wethiox.io/landing)
+## Description from the [website](https://web.archive.org/web/20260313131620/https://www.wethiox.io/landing)
 
 > **Easy to use and custodial**
 

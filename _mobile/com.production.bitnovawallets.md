@@ -1,6 +1,6 @@
 ---
 title: 'Bitnova : ETH, SOL, BTC Wallet'
-date: 2026-01-14
+date: 2026-10-30
 appCountry: us
 redirect_from:
 - /iphone/com.production.bitnovawallets/

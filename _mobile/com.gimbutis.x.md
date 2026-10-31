@@ -1,6 +1,6 @@
 ---
 title: Gimbutis X
-date: 2026-01-14
+date: 2026-10-30
 website: https://gimbutiscoin.com/
 redirect_from:
 - /android/com.gimbutis.x/

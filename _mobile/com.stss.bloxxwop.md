@@ -1,6 +1,6 @@
 ---
 title: Language Translator Pro
-date: 2026-02-02
+date: 2026-10-30
 redirect_from:
 - /android/com.stss.bloxxwop/
 android:

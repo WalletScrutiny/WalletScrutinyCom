@@ -1,6 +1,6 @@
 ---
 title: 'Mynt: Bitcoin, ETH, SOL e mais'
-date: 2026-01-15
+date: 2026-10-30
 authors:
 - danny
 twitter: myntcrypto

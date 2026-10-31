@@ -1,6 +1,6 @@
 ---
 title: MaxWallet
-date: 2026-01-14
+date: 2026-10-30
 authors:
 - danny
 website: https://maxwallet.cc/contact-us

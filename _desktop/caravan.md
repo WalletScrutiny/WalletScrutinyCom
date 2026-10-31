@@ -16,7 +16,7 @@ icon: caravan.webp
 bugbounty: 
 meta: deprecated
 verdict: sourceavailable
-date: 2026-01-20
+date: 2026-10-30
 twitter: unchainedcap
 social: 
 builds: 

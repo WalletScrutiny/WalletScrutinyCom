@@ -1,6 +1,6 @@
 ---
 title: CoinUp.io-Buy Crypto,Eth,DOGE
-date: 2026-01-14
+date: 2026-10-30
 website: https://www.coinup.io/
 appCountry: us
 redirect_from:

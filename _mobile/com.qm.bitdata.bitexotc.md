@@ -1,9 +1,9 @@
 ---
 title: BitDATA Exchange (BitEx)
-date: 2026-02-02
+date: 2026-10-30
 authors:
 - danny
-website: https://www.bitex.sg/
+website: https://web.archive.org/web/20250424012015/https://www.bitex.sg/
 twitter: BitDATAExchange
 social:
 - https://www.linkedin.com/company/bitdataexchange
@@ -36,6 +36,8 @@ iphone:
 
 ---
 
+**Update 2026-10-30:** The BitDATA exchange is gone from its website: bitex.sg showed the exchange until at least [April 2025](https://web.archive.org/web/20250424012015/https://www.bitex.sg/) and now presents an unrelated anti-money-laundering technology service ([bitex.sg](https://www.bitex.sg/)). We found no shutdown notice from BitDATA. The Android app is gone from Google Play, and the iPhone app was last updated in October 2024.
+
 ## Android
 
 ## App Description from Google Play
@@ -55,7 +57,7 @@ iphone:
 ## Analysis
 
 - This is a cryptocurrency exchange with KYC
-- According to the [website:](https://www.bitex.sg/)
+- According to the [website:](https://web.archive.org/web/20250424012015/https://www.bitex.sg/)
   > BitEx Custody offers a secure and robust institutional-grade cryptocurrency custody platform that is both regulated and compliant.
 
 Although "cold-wallets" were not explicitly stated, the provider itself describes its service as **custodial**. This makes the app **non-verifiable**.

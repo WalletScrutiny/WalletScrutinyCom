@@ -1,6 +1,6 @@
 ---
 title: 'Base8: Stack SATs Trade Crypto'
-date: 2026-01-14
+date: 2026-10-30
 website: https://base8.app/
 redirect_from:
 - /android/com.base8/

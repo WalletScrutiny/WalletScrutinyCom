@@ -1,6 +1,6 @@
 ---
 title: 'Breez: Lightning Client & POS'
-date: 2026-01-14
+date: 2026-10-30
 authors:
 - leo
 - emanuel
@@ -38,9 +38,9 @@ android:
   alternativeStores:
   - zapstore
   meta: ok
-  verdict: sourceavailable
+  verdict: nosource
   developerName: Breez Development LTD
-  repository: https://github.com/breez/breezmobile
+  repository: https://github.com/breez/breezmobile#deadLink
 iphone:
   appId: technology.breez.client
   idd: '1463604142'
@@ -51,19 +51,23 @@ iphone:
   reviews: 42
   icon: technology.breez.client.webp
   meta: stale
-  verdict: sourceavailable
+  verdict: nosource
   developerName: BREEZ DEVELOPMENT LTD
-  repository: https://github.com/breez/breezmobile
+  repository: https://github.com/breez/breezmobile#deadLink
 
 ---
 
+**⚠️ Warning:** Breez has retired this app. It is gone from the App Store and Google Play, Breez closed its Lightning channels with the app's users from its side, and Breez now offers a [desktop recovery tool](https://github.com/breez/breez-mobile-recovery) to move the funds from an app backup to a bitcoin address.
+
+**Update 2026-10-30:** The app's source code repository is gone from GitHub ([last archived copy](https://web.archive.org/web/20260327084323/https://github.com/breez/breezmobile), March 2026), so the app is now {% include verdictBadge.html verdict="nosource" type='short' %}.
+
 ## Android
 
-{% include featureEvidence.html feature="bip158spv" source="[README](https://github.com/breez/breezmobile#readme)" quote="Neutrino on Android" %}
-{% include featureEvidence.html feature="TOR" source="[README](https://github.com/breez/breezmobile#readme)" quote="Tor support (Android)" %}
-{% include featureEvidence.html feature="buyWithCC" source="[README](https://github.com/breez/breezmobile#readme)" quote="Adding funds via credit card" %}
-{% include featureEvidence.html feature="fingerprint" source="[README](https://github.com/breez/breezmobile#readme)" quote="Biometric login" %}
-{% include featureEvidence.html feature="nfc" source="[README](https://github.com/breez/breezmobile#readme)" quote="NFC checkout" %}
+{% include featureEvidence.html feature="bip158spv" source="[README](https://web.archive.org/web/20260327084323/https://github.com/breez/breezmobile)" quote="Neutrino on Android" %}
+{% include featureEvidence.html feature="TOR" source="[README](https://web.archive.org/web/20260327084323/https://github.com/breez/breezmobile)" quote="Tor support (Android)" %}
+{% include featureEvidence.html feature="buyWithCC" source="[README](https://web.archive.org/web/20260327084323/https://github.com/breez/breezmobile)" quote="Adding funds via credit card" %}
+{% include featureEvidence.html feature="fingerprint" source="[README](https://web.archive.org/web/20260327084323/https://github.com/breez/breezmobile)" quote="Biometric login" %}
+{% include featureEvidence.html feature="nfc" source="[README](https://web.archive.org/web/20260327084323/https://github.com/breez/breezmobile)" quote="NFC checkout" %}
 
 **Update: 2024-07-24** 
 
@@ -169,7 +173,7 @@ So building this project needs a lot of modifications that makes it hard to revi
 build the project using
 [this Dockerfile](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/container/com.breez.client)
 which is based on the
-[Dockerfile provided by Emanuel](https://github.com/breez/breezmobile/issues/247#issuecomment-1207317752).
+[Dockerfile provided by Emanuel](https://github.com/breez/breezmobile/issues/247#issuecomment-1207317752#deadLink).
 
 Now it's time to build the image and get a diff:
 
@@ -220,7 +224,7 @@ So they are non-custodial and provide source code. More work for us :)
 That's certainly inspiring more confidence than other apps with 2 months of
 track record claiming to be the best in the world. :)
 
-Well, in terms of [Build Instructions](https://github.com/breez/breezmobile#build)
+Well, in terms of [Build Instructions](https://web.archive.org/web/20260327084323/https://github.com/breez/breezmobile#build)
 the app is lacking.
 
 ```
@@ -270,7 +274,7 @@ Had there been a `0.8`... in the breez project, we would have had a clue
 where to go next but absent that, there is no hope of reproducing the app. For
 now our verdict is: **not verifiable**.
 
-An issue has been opened at [https://github.com/breez/breezmobile/issues/247](https://github.com/breez/breezmobile/issues/247)
+An issue has been opened at [https://github.com/breez/breezmobile/issues/247](https://web.archive.org/web/20210617131413/https://github.com/breez/breezmobile/issues/247)
 
 ---
 
@@ -292,4 +296,4 @@ The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="customNode" quote="Support 3rd-party LSPs" source="README" %}
 
-An issue has been opened at [https://github.com/breez/breezmobile/issues/247](https://github.com/breez/breezmobile/issues/247)
+An issue has been opened at [https://github.com/breez/breezmobile/issues/247](https://web.archive.org/web/20210617131413/https://github.com/breez/breezmobile/issues/247)

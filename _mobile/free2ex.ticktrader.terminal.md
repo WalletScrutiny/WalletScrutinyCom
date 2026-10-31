@@ -1,6 +1,6 @@
 ---
 title: 'FREE2EX Trade: Crypto & Stocks'
-date: 2026-01-14
+date: 2026-10-30
 website: https://www.free2ex.com
 redirect_from:
 - /android/free2ex.ticktrader.terminal/

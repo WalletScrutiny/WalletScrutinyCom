@@ -1,6 +1,6 @@
 ---
 title: ABCC Wallet
-date: 2026-01-14
+date: 2026-10-30
 website: https://abcc-plus.com/
 redirect_from:
 - /android/com.unicoin.dcx.limited.abcc.wallet/

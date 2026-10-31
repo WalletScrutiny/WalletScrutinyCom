@@ -1,7 +1,7 @@
 ---
 title: XI Wallet - Crypto Wallet
-date: 2026-01-14
-website: https://xetaai.io
+date: 2026-10-30
+website: https://xetaai.io#deadLink
 redirect_from:
 - /android/com.xetaai.xiwallet/
 android:
@@ -18,3 +18,4 @@ android:
 
 ---
 
+**⚠️ Warning:** The XetaAI website has been defaced and now shows gambling spam. The [last archived copy that still presents the XI Wallet](https://web.archive.org/web/20260210211555/https://xetaai.io/) is from February 2026.

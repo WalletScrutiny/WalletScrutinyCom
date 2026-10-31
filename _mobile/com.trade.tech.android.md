@@ -1,6 +1,6 @@
 ---
 title: Finalto
-date: 2026-02-02
+date: 2026-10-30
 website: https://www.finalto.com/
 redirect_from:
 - /android/com.trade.tech.android/

@@ -1,6 +1,6 @@
 ---
 title: 'Gate.TR: Bitcoin ve Kripto'
-date: 2026-01-23
+date: 2026-10-30
 authors:
 - danny
 website: https://gate.com.tr/

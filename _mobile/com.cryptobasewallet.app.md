@@ -1,6 +1,6 @@
 ---
 title: Cryptobase Wallet
-date: 2026-02-02
+date: 2026-10-30
 website: https://cryptobaseatm.com
 redirect_from:
 - /android/com.cryptobasewallet.app/
