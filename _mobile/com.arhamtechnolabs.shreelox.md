@@ -1,6 +1,6 @@
 ---
 title: SHREELOX Crypto Exchange
-date: 2024-11-29
+date: 2026-10-30
 website: https://www.shreelox.com#deadLink
 redirect_from:
 - /android/com.arhamtechnolabs.shreelox/

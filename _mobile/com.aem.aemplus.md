@@ -1,6 +1,6 @@
 ---
 title: AEM+ | Multi Crypto Wallet
-date: 2024-12-04
+date: 2026-10-30
 website: https://www.aemalgorithm.io/aem-plus/main
 redirect_from:
 - /android/com.aem.aemplus/
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**Update 2026-10-30:** The provider's [AEM+ page](https://www.aemalgorithm.io/aem-plus/main) now points to a newer Android app, "AEM Plus" by AEM Algorithm, which replaces this removed one.

@@ -1,6 +1,6 @@
 ---
 title: 증권통 가상화폐(코인원)
-date: 2024-11-12
+date: 2026-10-30
 authors:
 - danny
 website: http://stocktong.io

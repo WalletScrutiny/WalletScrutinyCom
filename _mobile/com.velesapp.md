@@ -1,6 +1,6 @@
 ---
 title: 'Veles: Crypto Trading Bots'
-date: 2024-10-28
+date: 2026-10-30
 website: https://veles.finance/
 redirect_from:
 - /android/com.velesapp/

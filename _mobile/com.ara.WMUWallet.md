@@ -1,6 +1,6 @@
 ---
 title: WMUWallet
-date: 2024-11-29
+date: 2026-10-30
 redirect_from:
 - /android/com.ara.WMUWallet/
 android:

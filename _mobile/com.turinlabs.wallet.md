@@ -1,6 +1,6 @@
 ---
 title: TurinWallet
-date: 2024-11-19
+date: 2026-10-30
 website: https://www.turinlabs.com/turinwallet#deadLink
 redirect_from:
 - /android/com.turinlabs.wallet/

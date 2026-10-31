@@ -1,6 +1,6 @@
 ---
 title: 'Aries: Trade. Invest.'
-date: 2024-11-21
+date: 2026-10-30
 authors:
 - danny
 website: https://tradearies.com
@@ -26,6 +26,7 @@ android:
 iphone:
   appId: com.tradearies.ariestrading
   idd: 1554894180
+  appCountry: us
   released: 2021-06-29
   updated: 2024-08-14
   version: 3.7.6

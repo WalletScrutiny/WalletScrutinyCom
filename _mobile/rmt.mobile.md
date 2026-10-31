@@ -1,6 +1,6 @@
 ---
 title: RMT
-date: 2024-11-07
+date: 2026-10-30
 redirect_from:
 - /android/rmt.mobile/
 android:

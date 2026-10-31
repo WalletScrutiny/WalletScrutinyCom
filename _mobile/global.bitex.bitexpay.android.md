@@ -1,6 +1,6 @@
 ---
 title: BitexPay
-date: 2024-11-22
+date: 2026-10-30
 website: https://www.ezbitex.io/en_US#deadLink
 redirect_from:
 - /android/global.bitex.bitexpay.android/

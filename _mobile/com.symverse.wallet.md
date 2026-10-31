@@ -1,6 +1,6 @@
 ---
 title: SymWallet(SymVerse)
-date: 2024-11-12
+date: 2026-10-30
 website: https://symverse.com
 redirect_from:
 - /android/com.symverse.wallet/

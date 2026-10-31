@@ -1,6 +1,6 @@
 ---
 title: Bitkap
-date: 2024-12-04
+date: 2026-10-30
 authors:
 - danny
 website: https://bitkap.africa

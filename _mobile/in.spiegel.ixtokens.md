@@ -1,6 +1,6 @@
 ---
 title: IXTokens
-date: 2024-11-22
+date: 2026-10-30
 website: https://ixtokens.com/
 redirect_from:
 - /android/in.spiegel.ixtokens/

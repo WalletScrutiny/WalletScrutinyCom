@@ -1,6 +1,6 @@
 ---
 title: That's it by Wirebit
-date: 2024-11-30
+date: 2026-10-30
 website: https://wirebit.com/
 redirect_from:
 - /android/com.wirebitapppv/

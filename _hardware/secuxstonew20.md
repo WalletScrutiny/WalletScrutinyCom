@@ -25,7 +25,7 @@ icon: secuxstonew20.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2024-11-01
+date: 2026-10-30
 signer: 
 twitter: SecuXwallet
 social:

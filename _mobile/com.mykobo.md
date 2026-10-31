@@ -1,6 +1,6 @@
 ---
 title: 'MYKOBO: Buy, Sell, Use EURC'
-date: 2024-11-07
+date: 2026-10-30
 website: https://www.mykobo.co
 redirect_from:
 - /android/com.mykobo/

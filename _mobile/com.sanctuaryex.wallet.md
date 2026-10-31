@@ -1,6 +1,6 @@
 ---
 title: Sanctuary Wallet
-date: 2024-12-04
+date: 2026-10-30
 redirect_from:
 - /android/com.sanctuaryex.wallet/
 android:

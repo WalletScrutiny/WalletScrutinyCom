@@ -1,6 +1,6 @@
 ---
 title: Kryptrx Exchange
-date: 2024-11-29
+date: 2026-10-30
 redirect_from:
 - /android/com.kryptrx.app/
 android:

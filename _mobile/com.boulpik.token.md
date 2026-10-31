@@ -1,6 +1,6 @@
 ---
 title: Boulpik Crypto Wallet
-date: 2024-10-28
+date: 2026-10-30
 redirect_from:
 - /android/com.boulpik.token/
 android:

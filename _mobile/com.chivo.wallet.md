@@ -1,6 +1,6 @@
 ---
 title: Chivo Wallet
-date: 2024-11-29
+date: 2026-10-30
 authors:
 - danny
 - leo
@@ -40,6 +40,8 @@ iphone:
   developerName: Gobierno de El Salvador
 
 ---
+
+**Update 2026-10-30:** Chivo is no longer run by the government. Under its December 2024 deal with the IMF, El Salvador agreed to sell or shut the wallet ([CoinDesk](https://www.coindesk.com/policy/2024/12/19/el-salvador-to-shut-or-sell-chivo-crypto-wallet-as-part-of-3-5-b-imf-deal)). In October 2026 the government and the payments company Linguard Labs announced that Linguard now holds a majority stake and controls Chivo, with the state as a minority shareholder; users keep their accounts and balances ([The Rio Times](https://www.riotimesonline.com/el-salvador-chivo-wallet-sale-free-remittances-2026/)).
 
 ## Android
 

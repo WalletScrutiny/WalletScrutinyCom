@@ -5,7 +5,7 @@ authors:
 - kiwilamb
 - leo
 released: 
-discontinued: 
+discontinued: 2023-01-10
 updated: 
 version: 
 binaries: 
@@ -23,9 +23,9 @@ price: 49.99EUR
 repository: 
 icon: archossafetmini.webp
 bugbounty: 
-meta: obsolete
+meta: discontinued
 verdict: nosource
-date: 2024-12-08
+date: 2026-10-30
 signer: 
 twitter: ARCHOS
 social:
@@ -35,6 +35,12 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** The {{ page.title }} is discontinued: its
+[shop page](https://web.archive.org/web/20230110084407/https://shop.archos.com/fr/hardware-wallets/588-archos-safe-t-mini-0690590037069.html)
+was gone by January 2023. Devices already sold can still be used with
+[Electrum](https://github.com/spesmilo/electrum/tree/master/electrum/plugins/safe_t),
+which supports the Safe-T mini.
 
 **Update 2024-12-08:** The shop doesn't show the product anymore. The Twitter account
 is inactive ever since. This product is at the very least obsolete.

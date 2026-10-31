@@ -1,6 +1,6 @@
 ---
 title: TimeX
-date: 2024-11-29
+date: 2026-10-30
 authors:
 - danny
 website: http://timex.io
@@ -37,6 +37,8 @@ iphone:
   developerName: Chrono.tech
 
 ---
+
+**⚠️ Warning:** The TimeX exchange appears to be offline. Since at least June 2026 its website shows only the notice ["TimeX is currently unavailable"](https://web.archive.org/web/20260607174433/https://timex.io/unavailable.html), and both apps are gone from the stores.
 
 ## Android
 

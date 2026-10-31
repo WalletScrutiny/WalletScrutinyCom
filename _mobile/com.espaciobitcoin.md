@@ -1,6 +1,6 @@
 ---
 title: Espacio Bitcoin Wallet
-date: 2024-10-31
+date: 2026-10-30
 website: https://www.espacioculturalbitcoin.com/
 redirect_from:
 - /android/com.espaciobitcoin/

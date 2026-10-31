@@ -1,9 +1,9 @@
 ---
 title: deVere Crypto
-date: 2024-11-29
+date: 2026-10-30
 authors:
 - danny
-website: http://www.devere-crypto.com
+website: https://web.archive.org/web/20260114223348/https://devere-crypto.com/
 twitter: deveregroup
 social:
 - https://www.facebook.com/deVere-Crypto-196359191107070
@@ -36,6 +36,8 @@ iphone:
   developerName: DEVERE GROUP LIMITED
 
 ---
+
+**Update 2026-10-30:** The deVere Crypto website now forwards to [WealthTech Crypto](https://www.wealthtechcrypto.com/), an exchange that says it "emerged after a major transformation". The links to the old deVere site below point to archived copies.
 
 ## Android
 
@@ -91,11 +93,11 @@ The Frequently Asked Questions has a tab on security where it states that deVere
 
 ## Verdict
 
-From [23. Deposits and withdrawals:](https://www.devere-crypto.com/faq)
+From [23. Deposits and withdrawals:](https://web.archive.org/web/20221208023001/https://devere-crypto.com/faq)
 
 > You may initiate a transfer from your bank account to fund your Wallet through the banking facility found on the FIAT section in the deVere Crypto app. Fees may apply to deposits and withdrawals from your Currency Wallet. All fees will be clearly disclosed in your account. For deposits, deVere Crypto will credit your Wallet a corresponding amount of Fiat Currency after funds are delivered to deVere Investment, typically within two to three business days after you authorise a deposit. For withdrawals, deVere Investment will immediately debit your Wallet when you authorise a withdrawal and funds will typically settle to you within two to three business days. Bank fees are netted out of transfers to or from deVere Investment. We will not process a transfer if associated bank fees exceed the value of the transfer.
 
-The [FAQ](https://devere-crypto.com/faq) states you can send digital coins to other users:
+The [FAQ](https://web.archive.org/web/20221208023001/https://devere-crypto.com/faq) states you can send digital coins to other users:
 
 > Yes, the app allows you to send to, as well as receive digital coins from other deVere Crypto users.
 
