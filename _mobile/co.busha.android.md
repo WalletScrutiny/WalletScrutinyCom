@@ -1,6 +1,6 @@
 ---
 title: 'Busha: Make your money better!'
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - leo
 website: https://busha.co
@@ -27,6 +27,7 @@ android:
 iphone:
   appId: co.busha.apple
   idd: '1450373493'
+  appCountry: ng
   released: 2019-02-03
   updated: 2026-05-11
   version: 10.1.9

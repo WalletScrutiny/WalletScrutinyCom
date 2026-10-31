@@ -1,6 +1,6 @@
 ---
 title: TradePal - Wallet & Swap
-date: 2024-02-05
+date: 2026-10-30
 website: http://app.tradepal.finance#deadLink
 redirect_from:
 - /android/finance.tradepal.app/

@@ -1,9 +1,9 @@
 ---
 title: BitAnex Wallet
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
-website: http://bitanex.com
+website: http://bitanex.com#deadLink
 redirect_from:
 - /android/org.bitanex.bitanex/
 android:

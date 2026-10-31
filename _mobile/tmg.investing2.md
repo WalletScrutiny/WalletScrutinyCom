@@ -1,6 +1,6 @@
 ---
 title: Gol Signals USA
-date: 2024-02-05
+date: 2026-10-30
 website: https://web.archive.org/web/20220208202705/https://tmginvesting.com/
 redirect_from:
 - /android/tmg.investing2/

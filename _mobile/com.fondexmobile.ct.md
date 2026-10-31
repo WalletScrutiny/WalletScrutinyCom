@@ -1,9 +1,9 @@
 ---
 title: Fondex cTrader
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - danny
-website: http://www.fondex.com
+website: http://www.fondex.com#deadLink
 social:
 - https://www.linkedin.com/company/fondex-trading
 - https://www.facebook.com/fondexglobal
@@ -35,6 +35,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** Fondex is gone. Its operator TopFX ended the Fondex brand on 30 December 2022 and sent clients to TopFX ([archived notice](https://web.archive.org/web/20230129073204/https://fondex.com/)). The Fondex website no longer loads.
+
 ## Android
 
 ## App Description
@@ -48,7 +50,7 @@ It also states that it is "fully regulated by CySEC" and has segregated client f
 
 Fondex does use CFDs in trading, as seen in the FAQs:
 
-> [When trading CFDs, you don’t own any financial instrument; your profit/loss depends on the price movement.](https://fondex.com/en/faq/trading)
+> [When trading CFDs, you don’t own any financial instrument; your profit/loss depends on the price movement.](https://web.archive.org/web/20221128223124/https://fondex.com/en/faq/trading)
 
 ## The App
 Fondex is a trading app. We installed it to view its features, although we couldn't find a way to deposit or withdraw bitcoin.

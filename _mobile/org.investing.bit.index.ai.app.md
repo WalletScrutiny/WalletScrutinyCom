@@ -1,6 +1,6 @@
 ---
 title: Bit Index AI
-date: 2024-02-05
+date: 2026-10-30
 redirect_from:
 - /android/org.investing.bit.index.ai.app/
 android:

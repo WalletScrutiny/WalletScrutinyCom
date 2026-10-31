@@ -1,7 +1,7 @@
 ---
 title: Paapaasi
-date: 2024-03-02
-website: https://paapaasi.com
+date: 2026-10-30
+website: https://paapaasi.com#deadLink
 redirect_from:
 - /android/com.paapaasi/
 android:

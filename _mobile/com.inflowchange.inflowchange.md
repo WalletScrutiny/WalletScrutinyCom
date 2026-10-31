@@ -1,10 +1,10 @@
 ---
 title: 'Inflowchange: Sell Bitcoin'
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - danny
-website: https://inflowchange.com
-twitter: inflowchange
+website: https://www.inflowbit.com
+twitter: inflowbit
 social:
 - https://www.tiktok.com/@inflowchange
 - https://www.instagram.com/inflowchange
@@ -27,6 +27,8 @@ android:
 
 ---
 
+**Update 2026-10-30:** Inflowchange is now called InflowBit. The old inflowchange.com site no longer loads, and this app is gone from Google Play. The same developer, Paychatik Ltd., now offers "InflowBit: Buy & Sell Bitcoin" on Google Play, linked from [inflowbit.com](https://www.inflowbit.com). Its FAQ still says the in-app wallet can only receive crypto to sell it for cash, not send it.
+
 ## App Description
 
 > Inflowchange is a Cryptocurrency Exchange to Sell Bitcoin in Nigeria 🇳🇬, Sell Bitcoin in Ukraine 🇺🇦 at high rates and earn rewards 💰 every month.
@@ -35,7 +37,7 @@ This app's main function is to serve as a cryptocurrency exchange.
 
 ## Analysis
 
-According to the [FAQ](https://inflowchange.com/), the "wallet" has certain limitations:
+According to the [FAQ](https://inflowchange.com/#deadLink), the "wallet" has certain limitations:
 
 > **Can I send and receive crypto with my inflowchange crypto wallet?**
 > No, you can’t. Your Inflowchange crypto wallet purpose is to only receive or deposit crypto currency in your account to enable you convert/exchange it to cash whenever convenient for you without the hassles of copying long addresses.

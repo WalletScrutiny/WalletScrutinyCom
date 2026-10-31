@@ -1,6 +1,6 @@
 ---
 title: Bit Alpha
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -17,6 +17,8 @@ android:
   developerName: NADIM BHUTTA
 
 ---
+
+**⚠️ Warning:** The bit-alpha.com site that hosted the privacy policy no longer loads. The app is no longer on Google Play.
 
 ## App Description from Google Play
 

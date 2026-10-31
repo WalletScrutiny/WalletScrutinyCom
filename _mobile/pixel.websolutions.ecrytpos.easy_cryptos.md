@@ -1,6 +1,6 @@
 ---
 title: EasyCryptos
-date: 2024-02-05
+date: 2026-10-30
 website: https://easycryptos.io#deadLink
 redirect_from:
 - /android/pixel.websolutions.ecrytpos.easy_cryptos/

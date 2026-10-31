@@ -1,9 +1,9 @@
 ---
 title: Capixal Mobile Trading App
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - danny
-website: https://www.capixal.com/
+website: https://www.capixal.com/#deadLink
 redirect_from:
 - /android/com.capixal/
 android:
@@ -17,6 +17,8 @@ android:
   developerName: IFC Investments
 
 ---
+
+**⚠️ Warning:** Capixal is gone. Its operator, IFC Investments Cyprus, closed all open trades on 9 May 2022 and gave up its Cyprus licence in September 2022 ([LeapRate](https://www.leaprate.com/forex/regulations/cysec-withdraws-cif-licence-of-ifc-investments/), [FX News Group](https://fxnewsgroup.com/forex-news/regulatory/cysec-withdraws-cif-authorisation-of-ifc-investments-cyprus-ltd/)). The capixal.com domain now shows an unrelated gambling site.
 
 ## App Description from Google Play 
 
@@ -34,6 +36,6 @@ Trade 350+ asset financial derivatives, including Forex pairs, stocks, commoditi
 - The app traded in Bitcoin CFDs with the motto: 
 
 > Expand your trading horizons with Bitcoin CFDs
-- One can find the [withdrawal and fee rates on this](https://capixal-fo-content.s3-eu-west-1.amazonaws.com/Content/Documents/costs_and_charges.pdf) archived version of the site.
+- One can find the [withdrawal and fee rates on this](https://web.archive.org/web/20220401205155/https://capixal-fo-content.s3-eu-west-1.amazonaws.com/Content/Documents/costs_and_charges.pdf) archived version of the site.
 
 - With CFDs, this app cannot **send/receive bitcoins**.

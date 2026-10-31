@@ -1,6 +1,6 @@
 ---
 title: Bitcoin.me
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 website: https://bitcoin.me
@@ -36,6 +36,8 @@ iphone:
   developerName: Klever Exchange
 
 ---
+
+**Update 2026-10-30:** Bitcoin.me, the renamed Klever Exchange, is closing its exchange and moving to a self-custody DeFi platform. Since [February 2026](https://bitcoin.me/blog/legacy-exchange) trading and deposits are permanently disabled, and the [old exchange site](https://cex.bitcoin.me) only allows withdrawals.
 
 ## Android
 

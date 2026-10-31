@@ -1,6 +1,6 @@
 ---
 title: 'Flashift - Exchange crypto at '
-date: 2024-03-02
+date: 2026-10-30
 website: https://flashift.app
 redirect_from:
 - /android/com.flashift.flashift/

@@ -1,6 +1,6 @@
 ---
 title: SolidusX Trading
-date: 2024-03-02
+date: 2026-10-30
 website: https://solidusx.com#deadLink
 redirect_from:
 - /android/com.solidus.x/

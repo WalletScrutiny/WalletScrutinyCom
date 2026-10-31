@@ -1,6 +1,6 @@
 ---
 title: Investments - Capital·com
-date: 2024-02-22
+date: 2026-10-30
 authors:
 - danny
 - leo

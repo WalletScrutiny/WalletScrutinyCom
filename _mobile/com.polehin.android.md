@@ -1,6 +1,6 @@
 ---
 title: 'Bitcoin Wallet: BTC, ETH & BNB'
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - leo
 website: https://coinbox.org

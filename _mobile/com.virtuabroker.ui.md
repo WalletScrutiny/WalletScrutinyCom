@@ -1,6 +1,6 @@
 ---
 title: VirtuaBroker
-date: 2024-02-14
+date: 2026-10-30
 website: https://virtuabroker.com
 redirect_from:
 - /android/com.virtuabroker.ui/
