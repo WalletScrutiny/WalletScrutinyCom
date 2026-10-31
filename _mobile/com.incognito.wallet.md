@@ -1,6 +1,6 @@
 ---
 title: Incognito Bitcoin Wallet
-date: 2024-05-18
+date: 2026-10-30
 authors:
 - leo
 website: https://incognito.org#deadLink
@@ -35,6 +35,8 @@ iphone:
   repository: https://github.com/incognitochain/incognito-wallet#deadLink
 
 ---
+
+**⚠️ Warning:** Incognito has shut down. On 2024-04-26 the team [announced the sunset of Incognito](https://web.archive.org/web/20240525185158/https://we.incognito.org/t/sunsetting-incognito/22563) and asked users to withdraw their coins within 30 days. Both apps are gone from the stores and the wallet repository has been removed from GitHub.
 
 ## Android
 

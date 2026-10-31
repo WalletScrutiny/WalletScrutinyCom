@@ -1,7 +1,7 @@
 ---
 title: Invictus Capital Beta
-date: 2024-03-02
-website: https://invictuscapital.com
+date: 2026-10-30
+website: https://invictuscapital.com#deadLink
 redirect_from:
 - /android/com.invictuscapital.app/
 android:
@@ -16,3 +16,4 @@ android:
 
 ---
 
+**⚠️ Warning:** Invictus Capital is gone. It suspended its crypto funds in 2022 after losses in the Terra collapse and the Celsius freeze, and its parent company went into liquidation ([Cayman Compass](https://www.caymancompass.com/2022/07/11/application-to-put-liquidation-of-failed-crypto-funds-under-court-supervision/)). Its website invictuscapital.com now only shows a domain-for-sale page.

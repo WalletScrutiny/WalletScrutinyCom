@@ -1,10 +1,10 @@
 ---
 title: Bitcoin Wallet for Margin Trading - Bexplus App
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
-website: http://www.bexplus.com
+website: http://www.bexplus.com#deadLink
 twitter: BexplusExchange
 social:
 - https://www.reddit.com/r/Bexplus
@@ -33,6 +33,8 @@ iphone:
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** Bexplus is gone. On July 18, 2022 it [announced that it would "stop service"](https://web.archive.org/web/20220719235618/https://www.bexplus.com/) and gave users 24 hours to close their positions and withdraw their funds ([Web3 is Going Just Great](https://www.web3isgoinggreat.com/?id=bexplus-crypto-exchange-closes-gives-users-only-24-hours-to-withdraw-funds)). Its website no longer loads.
 
 ## Android
 

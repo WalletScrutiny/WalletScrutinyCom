@@ -1,6 +1,6 @@
 ---
 title: LocalBitcoins
-date: 2023-04-16
+date: 2026-10-30
 authors:
 - danny
 website: https://www.localbitcoins.com
@@ -36,6 +36,8 @@ iphone:
   developerName: LocalBitcoins Ltd
 
 ---
+
+**⚠️ Warning:** LocalBitcoins closed its trading service in February 2023: it stopped sign-ups on 9 February and trading and the wallet on 16 February ([Blockworks](https://blockworks.com/news/localbitcoins-to-shut-down)). Its [website](https://localbitcoins.com/) still lets former customers log in to withdraw remaining funds.
 
 ## Android
 

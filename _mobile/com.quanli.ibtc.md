@@ -1,9 +1,9 @@
 ---
 title: iBTCex
-date: 2023-08-16
+date: 2026-10-30
 authors:
 - danny
-website: https://ibtc.com.hk
+website: https://ibtc.com.hk#deadLink
 social:
 - https://www.instagram.com/ibtcex
 - http://t.me/ibtc_official
@@ -36,6 +36,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** iBTCEX stopped operating in Hong Kong on 31 May 2024, after withdrawing its licence application with the Hong Kong regulator. Its [farewell notice](https://web.archive.org/web/20241225054617/https://ibtc.com.hk/) pointed users to a partner exchange, and the website no longer loads ([Cointelegraph](https://cointelegraph.com/news/hong-kong-crypto-exchange-license-withdrawal-gatehk)).
+
 ## Android
 
 ## App Description from Google Play
@@ -44,7 +46,7 @@ iphone:
 >
 > Security - The security of user information and digital assets is our first priority. The majority of the digital assets are stored in offline cold wallets.
 
-## [Terms](https://ibtc.com.hk/knowledge-base/terms-and-conditions/) 
+## [Terms](https://web.archive.org/web/20241207001326/https://ibtc.com.hk/knowledge-base/terms-and-conditions/) 
 
 Translated from Chinese using Google Translate
 
@@ -52,11 +54,11 @@ Translated from Chinese using Google Translate
 >
 > For self services trading, you deposit fiat currency or Digital Assets to us, **the balance would be reflected at our website after we confirmed the receipt of funds;** you complete the trading at our website and withdraw the balance at our website if needed.
 
-This [section](https://ibtc.com.hk/knowledge-base/%e5%b9%b3%e5%8f%b0%e8%b2%bb%e7%94%a8%e6%9b%b4%e6%96%b0/) describes transaction handling fee page for Bitcoin transactions.
+This [section](https://web.archive.org/web/20240417145213/https://ibtc.com.hk/knowledge-base/%E5%B9%B3%E5%8F%B0%E8%B2%BB%E7%94%A8%E6%9B%B4%E6%96%B0/) describes transaction handling fee page for Bitcoin transactions.
 
-This update [indicates](https://ibtc.com.hk/knowledge-base/12%e6%9c%8815%e6%97%a5-btc-%e9%8c%a2%e5%8c%85%e7%b6%ad%e8%ad%b7%e5%ae%8c%e6%88%90/) that maintenance has been performed on BTC wallets hosted on the platform. 
+This update [indicates](https://web.archive.org/web/20231207105748/https://ibtc.com.hk/knowledge-base/12%E6%9C%8815%E6%97%A5-btc-%E9%8C%A2%E5%8C%85%E7%B6%AD%E8%AD%B7%E5%AE%8C%E6%88%90/) that maintenance has been performed on BTC wallets hosted on the platform. 
 
-This [section](https://ibtc.com.hk/knowledge-base/platformfees2021/) is about other platform fees.
+This [section](https://web.archive.org/web/20240417161837/https://ibtc.com.hk/knowledge-base/platformfees2021/) is about other platform fees.
 
 ## Analysis 
 

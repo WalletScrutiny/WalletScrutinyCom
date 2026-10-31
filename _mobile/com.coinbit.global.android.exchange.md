@@ -1,9 +1,9 @@
 ---
 title: 코인빗 - 비트코인 거래소 (이더리움,비트코인캐시)
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
-website: https://www.coinbit.co.kr/
+website: https://www.coinbit.co.kr/#deadLink
 redirect_from:
 - /android/com.coinbit.global.android.exchange/
 android:
@@ -17,6 +17,8 @@ android:
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** Coinbit closed its exchange. It [announced on 2023-11-17](https://xangle.io/insight/events/6556ff5f6439923ba198b392) that deposits would end on 2023-11-24 and trading and withdrawals on 2023-12-29 ([Dealsite](https://dealsite.co.kr/articles/113305/094044)). The website no longer loads.
 
 This is a Korea based centralized cryptocurrency exchange
 

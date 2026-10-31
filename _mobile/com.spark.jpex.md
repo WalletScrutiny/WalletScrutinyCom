@@ -1,9 +1,9 @@
 ---
 title: JPEX Exchange
-date: 2024-04-03
+date: 2026-10-30
 authors:
 - danny
-website: http://jp-ex.io
+website: https://web.archive.org/web/20230802063031/https://jp-ex.io/
 twitter: ExchangeJpex
 social:
 - https://www.facebook.com/JPEX-Japan-Exchange-100535999063470
@@ -34,6 +34,8 @@ iphone:
   developerName: JP-EX CRYPTO ASSET PLATFORM PTY LTD
 
 ---
+
+**⚠️ Warning:** JPEX is gone. It froze withdrawals in September 2023 after Hong Kong's securities regulator [warned that it was operating without a licence](https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/corporate-news/doc?refNo=23PR104). More than 2,500 customers were affected and at least 36 people were arrested ([Skadden](https://www.skadden.com/insights/publications/2023/11/jpex-and-hong-kongs-tightened-regulatory-controls)). Its website is gone and both apps are no longer in the stores.
 
 ## Android
 

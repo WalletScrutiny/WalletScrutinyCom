@@ -1,6 +1,6 @@
 ---
 title: 'ForexTB: Online Trading'
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 website: https://www.forextb.com/eu/
@@ -32,6 +32,8 @@ iphone:
   developerName: Forex TB Limited
 
 ---
+
+**⚠️ Warning:** Forex TB Limited has stopped trading. Its [website](https://www.forextb.com/eu/) now says it has asked CySEC to cancel its licence, has ceased operations and takes no new clients; existing clients are told to close positions and withdraw their balances. CySEC lists the licence as [under examination for voluntary renunciation](https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/72455/).
 
 ## Android
 

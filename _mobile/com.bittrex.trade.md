@@ -1,6 +1,6 @@
 ---
 title: Bittrex | Buy Bitcoin & Crypto
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - leo
 website: https://global.bittrex.com
@@ -34,6 +34,8 @@ iphone:
   developerName: Bittrex, Inc.
 
 ---
+
+**⚠️ Warning:** Bittrex is shut down. Bittrex, Inc. closed its US exchange on 2023-04-30 and [filed for Chapter 11 bankruptcy](https://decrypt.co/139368/american-crypto-exchange-bittrex-files-for-chapter-11-bankruptcy) on 2023-05-08. [Bittrex Global](https://bittrexglobal.com/) then wound down too: trading has ended and its Liechtenstein and Bermuda companies are in liquidation.
 
 ## Android
 

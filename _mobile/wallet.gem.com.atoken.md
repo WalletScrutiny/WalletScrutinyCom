@@ -1,6 +1,6 @@
 ---
 title: ATokenWallet
-date: 2022-01-15
+date: 2026-10-30
 authors:
 - kiwilamb
 website: https://www.atoken.com
@@ -32,6 +32,10 @@ iphone:
   verdict: nosource
 
 ---
+
+**⚠️ Warning:** AToken stopped operating on 24 December 2021, as announced in the pinned "AToken Stop Operation Announcement" on its [X account](https://x.com/ATokenOfficial). Funds are only recoverable with your own backup of the mnemonic or private keys.
+
+**Update 2026-10-30:** The [X account](https://x.com/ATokenOfficial) announcement also told users to move their coins to another wallet, and [atoken.com](https://www.atoken.com) now hosts an unrelated Bitcoin casino guide.
 
 ## Android
 

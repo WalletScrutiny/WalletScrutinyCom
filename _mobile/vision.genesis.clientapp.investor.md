@@ -1,6 +1,6 @@
 ---
 title: Genesis Vision
-date: 2023-09-04
+date: 2026-10-30
 authors:
 - danny
 website: https://genesis.vision
@@ -39,6 +39,8 @@ iphone:
   repository: https://github.com/GenesisVision/android-client
 
 ---
+
+**⚠️ Warning:** Genesis Vision suspended its services in November 2022. In October 2026 an unrelated company, GVT Ltd, [announced](https://genesis.vision/) that it bought the software and plans a relaunch, but there is no app yet.
 
 ## Android
 

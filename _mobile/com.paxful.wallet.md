@@ -1,6 +1,6 @@
 ---
 title: 'Paxful: Buy BTC, USDT, ETH'
-date: 2024-12-08
+date: 2026-10-30
 authors:
 - leo
 website: https://Paxful.com
@@ -42,6 +42,8 @@ iphone:
   developerName: Paxful Inc
 
 ---
+
+**⚠️ Warning:** Paxful has shut down. On October 1, 2025 it announced that it would wind down all operations by November 1, 2025 and asked users to withdraw their balances ([announcement](https://web.archive.org/web/20260502170645/https://paxful.com/blog/paxful-closure-announcement)).
 
 ## Android
 

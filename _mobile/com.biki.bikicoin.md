@@ -1,6 +1,6 @@
 ---
 title: BiKi App
-date: 2022-03-07
+date: 2026-10-30
 authors:
 - danny
 website: https://www.biki.com#deadLink
@@ -34,6 +34,10 @@ iphone:
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** BiKi has shut down. It closed its exchange at the end of November 2021.
+
+**Update 2026-10-30:** The provider is gone, for both apps. BiKi [closed its operations on 30 November 2021](https://www.cryptowisser.com/exchange/biki/), citing regulation, and its websites biki.com and biki.cc are gone, so the agreement links below are dead too.
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: 'LYO WALLET: NFTs & Crypto'
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - danny
 website: https://wallet.lyofi.com#deadLink
@@ -37,6 +37,8 @@ iphone:
   developerName: DIGILYO APP LTD
 
 ---
+
+**⚠️ Warning:** LYOPAY, the company behind this wallet, has officially ceased operations, according to a notice on [its website](https://lyopay.com).
 
 ## Android
 

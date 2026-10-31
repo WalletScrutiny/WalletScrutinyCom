@@ -1,6 +1,6 @@
 ---
 title: tZERO Crypto - Buy, Sell, Grow
-date: 2023-04-16
+date: 2026-10-30
 authors:
 - danny
 website: http://www.tzero.com/crypto-app#deadLink
@@ -31,6 +31,8 @@ iphone:
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** tZERO shut the tZERO Crypto app down on March 6, 2023, and asked users to withdraw their coins before that date ([CoinDesk](https://www.coindesk.com/business/2023/02/03/tzero-to-sunset-tzero-crypto-app-amid-regulatory-challenges)).
 
 ## Android
 

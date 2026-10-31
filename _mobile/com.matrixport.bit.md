@@ -1,6 +1,6 @@
 ---
 title: 'BIT.com: Buy BTC & ETH 、Meme'
-date: 2026-04-13
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bit.com
@@ -24,6 +24,8 @@ android:
 
 ---
 
+**⚠️ Warning:** Bit.com [shut down its exchange](https://web.archive.org/web/20260216183403/https://helpcenter.bitexch.io/en/articles/13242121-follow-up-announcement-on-business-adjustment-and-user-asset-migration) in early 2026: trading stopped on 31 January and the last day to withdraw was 31 March 2026. Users were pointed to Matrixport, which [renamed itself BIT](https://www.bit.com/bit-formerly-matrixport) in March 2026 and now uses the bit.com address for its own platform.
+
 Bit.com comes from the [same providers](https://play.google.com/store/apps/developer?id=Matrixport) of {% include walletLink.html wallet='android/com.matrixport.mark' verdict='true' %}
 
 ## App Description
@@ -45,7 +47,7 @@ What the description says about the app's security:
 
 ### User Agreement
 
-From the [Terms of Agreement](https://www.bit.com/enUserAgreement) - 7.1, **Termination**:
+From the [Terms of Agreement](https://www.bit.com/enUserAgreement#deadLink) - 7.1, **Termination**:
 
 > You acknowledge and agree that BIT.COM **shall have the right to limit or suspend your access to the Platform and/or the Website, freeze your Account and/or the Balance** if (1) we suspect that you have violated any applicable laws and regulations, these Terms, the Trading Product Rules or other policies, procedures, or rules announced by the Company; (2) we are required to do so by a subpoena, court order, or other government order; (3) the Account is subject to or related to a pending litigation, investigation, and/or governmental proceeding; or (4) we notice and suspect that there are some unusual or unauthorized activities involved with the Account.
 

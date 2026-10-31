@@ -1,6 +1,6 @@
 ---
 title: 'Lykke: Buy. Sell. Invest.'
-date: 2025-03-11
+date: 2026-10-30
 authors:
 - leo
 website: https://lykke.com#deadLink
@@ -37,6 +37,8 @@ iphone:
   developerName: Lykke Corp
 
 ---
+
+**⚠️ Warning:** Lykke is gone. After a hack in June 2024 it stopped withdrawals, ended trading on 6 December 2024, and a UK court put Lykke Corp UK into liquidation in 2025 ([CFAAR](https://www.cfaar.io/insights/blog-lykke-successful-appointment-of-provisional-liquidators-and-liquidation-of-uk-cryptocurrency-exchange/), [Insolvency Insider](https://insolvency-insider.co.uk/p/lykke-corp-uk-provisional-liquidation)).
 
 ## Android
 

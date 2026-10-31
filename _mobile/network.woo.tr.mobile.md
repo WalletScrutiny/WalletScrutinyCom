@@ -1,7 +1,7 @@
 ---
 title: 'WOOTR: Trade Bitcoin, Altcoins'
-date: 2023-08-04
-website: https://wootr.com/
+date: 2026-10-30
+website: https://wootr.com/#deadLink
 redirect_from:
 - /android/network.woo.tr.mobile/
 android:
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**⚠️ Warning:** WOOTR, the Turkish exchange of WOO Network, is winding down. Its operator KRNS Bilişim ve Ticaret AŞ is on the Turkish capital markets regulator's list of crypto firms that declared liquidation ([Son Dakika, November 2024](https://www.sondakika.com/kripto-para/haber-spk-listeyi-guncelledi-faaliyet-izni-icin-18103430/)), and wootr.com is now a parked domain.

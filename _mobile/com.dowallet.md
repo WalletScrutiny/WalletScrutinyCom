@@ -1,6 +1,6 @@
 ---
 title: 'DoWallet: Bitcoin Wallet. A Se'
-date: 2022-03-24
+date: 2026-10-30
 authors:
 - leo
 website: https://www.dowallet.app#deadLink
@@ -30,6 +30,10 @@ iphone:
   verdict: nosource
 
 ---
+
+**⚠️ Warning:** DoWallet shut down on 17 September 2024.
+
+**Update 2026-10-30:** DoWallet [shut down](https://web.archive.org/web/20241230001443/https://dowallet.app/) on 17 September 2024, both apps with it, and users were told to recover their wallets "using their 12 word recovery phrases" in other wallets.
 
 ## Android
 

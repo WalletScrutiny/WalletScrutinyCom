@@ -1,6 +1,6 @@
 ---
 title: 'Spot: bitcoin & crypto wallet'
-date: 2025-05-30
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -37,6 +37,8 @@ iphone:
   developerName: Spot
 
 ---
+
+**⚠️ Warning:** Spot shut down on April 30, 2024, as its [website announced](https://web.archive.org/web/20240414082643/https://www.spot-wallet.com/). The website no longer loads.
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: BKEX-Global
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 website: http://www.bkex.vip#deadLink
@@ -33,6 +33,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** BKEX never reopened withdrawals. By late 2023 its website, app and customer support were gone and its social accounts abandoned, with customer funds still locked ([DailyCoin](https://dailycoin.com/bkex-crypto-exchange-investigation/)). Its help center, which held the withdrawal notice quoted below, is gone too.
+
 ## Android
 
 ## App Description from Google Play
@@ -44,7 +46,7 @@ iphone:
 ## Analysis 
 
 - The app description describes the use of cold wallets for the cryptocurrency exchange. This is a **custodial** provider.
-- This is made more evident with this [announcement:](https://bkex.zendesk.com/hc/en-us/articles/19022106904729-BKEX-Announcement-on-Suspension-of-Withdrawals) 
+- This is made more evident with this [announcement:](https://web.archive.org/web/20240619003652/https://bkex.zendesk.com/hc/en-us/articles/19022106904729-BKEX-Announcement-on-Suspension-of-Withdrawals) 
 
 > Recently, the platform users' funds were involved in 'money laundering' and BKEX is currently cooperating with the police to collect evidence, for which we will suspend withdrawals to cooperate with the work.
 >

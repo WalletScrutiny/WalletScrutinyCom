@@ -1,6 +1,6 @@
 ---
 title: Tomya  Güvenli Kripto Yatırımı
-date: 2025-02-04
+date: 2026-10-30
 authors:
 - danny
 website: https://www.tomya.com/
@@ -32,6 +32,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** Tomya has stopped all trading and services and is being wound up. Its [official notice of 31 March 2026](https://www.tomya.com/) says the company chose liquidation after new Turkish rules required a licence from the Capital Markets Board, and that user balances will be returned through the liquidation process.
+
 ## Android
 
 ## App Description from Google Play 
@@ -42,7 +44,7 @@ iphone:
 >
 > You can create an account in minutes. By depositing TL into your account, you can easily and securely trade Bitcoin (BTC) as well as other existing cryptocurrencies.
 
-### [Terms](https://www.tomya.com/kullanici-sozlesmesi) 
+### [Terms](https://web.archive.org/web/20260306052756/https://tomya.com/kullanici-sozlesmesi) 
 
 - The app has a termination clause with the power to suspend the user's account and access. 
 - The app also has KYC and ID-verification procedures

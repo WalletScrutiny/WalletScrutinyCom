@@ -1,9 +1,9 @@
 ---
 title: Crypto wallet - Raido
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
-website: https://raidofinance.eu/
+website: https://raidofinance.eu/#deadLink
 twitter: financialraido
 appCountry: us
 redirect_from:
@@ -32,6 +32,8 @@ iphone:
   developerName: Raidofinance OU
 
 ---
+
+**⚠️ Warning:** Raido Finance has shut down. In September 2023 RAIDOFINANCE OÜ gave up its Estonian crypto licence and stopped all crypto services from October 1, 2023, promising to return customer funds ([notice on its website, archived](https://web.archive.org/web/20260307155146/https://raidofinance.eu/)). The website no longer loads.
 
 ## Android
 

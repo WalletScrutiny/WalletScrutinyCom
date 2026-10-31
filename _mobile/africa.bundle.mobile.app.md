@@ -1,6 +1,6 @@
 ---
 title: Bundle - Cash & Crypto Wallet
-date: 2021-09-08
+date: 2026-10-30
 authors:
 - kiwilamb
 website: https://bundle.africa
@@ -30,6 +30,8 @@ iphone:
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** Bundle is gone. It [announced on 2023-07-20](https://cointelegraph.com/news/nigerian-social-payments-app-shuts-down-crypto-exchange-services) that it would close its exchange and asked users to withdraw their assets, and [Wikipedia](https://en.wikipedia.org/wiki/Bundle_Africa) lists the company as defunct since September 2023. bundle.africa now only says the page is gone, and the [Internet Archive](https://web.archive.org/web/20260131180643/http://www.bundle.africa/) showed it as a domain for sale in January 2026.
 
 ## Android
 

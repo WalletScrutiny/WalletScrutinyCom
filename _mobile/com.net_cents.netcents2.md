@@ -1,6 +1,6 @@
 ---
 title: NetCents Cryptocurrency Wallet
-date: 2023-01-11
+date: 2026-10-30
 authors:
 - danny
 website: http://www.net-cents.com
@@ -36,6 +36,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** NetCents [closed its exchange on January 17, 2023](https://finance.yahoo.com/news/netcents-technology-streamlines-operations-focusing-143000357.html) to focus on merchant payments, and its website no longer loads.
+
 ## Android
 
 ## App Description
@@ -66,11 +68,11 @@ There is a bitcoin wallet ([screenshot](https://twitter.com/BitcoinWalletz/statu
 
 Before any of those options can be unlocked the user has to verify his identity.
 
-[Withdrawing to another wallet](https://support.net-cents.com/hc/en-us/articles/360000219107-Withdrawing-Cryptocurrencies-to-an-External-User) is possible.
+[Withdrawing to another wallet](https://web.archive.org/web/20220527113730/https://support.net-cents.com/hc/en-us/articles/360000219107-Withdrawing-Cryptocurrencies-to-an-External-User) is possible.
 
 ## Verdict
 
-This app is a full-featured payment solution that contains a bitcoin wallet. It is however, highly controlled by NetCents as exhibited in their [Terms](https://net-cents.com/terms).
+This app is a full-featured payment solution that contains a bitcoin wallet. It is however, highly controlled by NetCents as exhibited in their [Terms](https://web.archive.org/web/20220523212246/https://net-cents.com/terms).
 
 The service is **custodial**, which means that the **app cannot be verified**.
 

@@ -1,9 +1,9 @@
 ---
 title: 'Zipmex: Buy Bitcoin & Crypto'
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - danny
-website: https://zipmex.co.th/
+website: https://web.archive.org/web/20210314021058/https://zipmex.co.th/
 twitter: ZipmexTH
 social:
 - https://www.facebook.com/ZipmexThailand
@@ -36,6 +36,8 @@ iphone:
   developerName: Zipmex
 
 ---
+
+**⚠️ Warning:** The Zipmex exchange is gone. It [paused withdrawals in July 2022](https://techcrunch.com/2022/07/20/zipmex-pauses-withdrawals-until-further-notice/), and Thailand [revoked its exchange and broker licences](https://cointelegraph.com/news/thailand-sec-zipmex-license) in May 2024. Its Thai website no longer loads.
 
 ## Android
 

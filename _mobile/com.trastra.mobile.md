@@ -1,6 +1,6 @@
 ---
 title: 'TRASTRA: Crypto Card & Wallet'
-date: 2025-05-14
+date: 2026-10-30
 authors:
 - danny
 website: https://trastra.com/
@@ -37,6 +37,8 @@ iphone:
   developerName: Trastra Limited
 
 ---
+
+**⚠️ Warning:** TRASTRA's EU operator Trastra EU, UAB went bankrupt. Lithuania's company register lists it as being [liquidated due to bankruptcy since September 17, 2026](https://www.visalietuva.lt/imone/trastra-eu-uab). Both apps are gone from the stores.
 
 ## Android
 

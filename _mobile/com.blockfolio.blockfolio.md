@@ -1,6 +1,6 @@
 ---
 title: FTX - Buy Crypto, Stocks, ETFs
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - leo
 website: https://www.blockfolio.com#deadLink
@@ -37,6 +37,8 @@ iphone:
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** FTX collapsed and filed for bankruptcy in November 2022 ([Wikipedia](https://en.wikipedia.org/wiki/Bankruptcy_of_FTX)). The exchange is gone and its website now only leads to the [creditor claims portal](https://claims.ftx.com/).
 
 ## Android
 
