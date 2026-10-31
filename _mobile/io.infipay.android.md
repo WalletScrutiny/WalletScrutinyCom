@@ -33,7 +33,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** InfiPay looks gone. [www.infipay.io](https://web.archive.org/web/20220813003120/https://www.infipay.io/) no longer loads, and infipay.io now forwards to [Infipay Tech](https://infipay.tech/), a payment-processing company that offers no crypto wallet or InfiPay app.
+**Update 2026-10-30:** InfiPay looks gone. [www.infipay.io](https://web.archive.org/web/20220813003120/https://www.infipay.io/) no longer loads, and infipay.io now forwards to [Infipay Tech](https://infipay.tech/), a payment-processing company that offers no crypto wallet or InfiPay app.
 
 ## Android
 

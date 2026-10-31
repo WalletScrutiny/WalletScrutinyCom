@@ -18,7 +18,7 @@ android:
 
 ---
 
-**⚠️ Warning:** This provider is gone. The app is no longer on Google Play and
+**Update 2026-10-30:** This provider is gone. The app is no longer on Google Play and
 its website murexbitcoinsolutions.com is gone. The
 [Internet Archive](https://web.archive.org/web/20180621234612/http://murexbitcoinsolutions.com/)
 holds the old site, with its last captures from early 2022.

@@ -34,7 +34,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Stratum appears to be gone. The stratum.hk website no longer shows the exchange, and [CoinGecko](https://www.coingecko.com/en/exchanges/stratum-exchange) lists the site as offline since October 2024.
+**Update 2026-10-30:** Stratum appears to be gone. The stratum.hk website no longer shows the exchange, and [CoinGecko](https://www.coingecko.com/en/exchanges/stratum-exchange) lists the site as offline since October 2024.
 
 ## Android
 

@@ -35,7 +35,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Sonitix looks gone. Both apps are no longer in the stores, and the sonitixexchange.in website no longer loads; its last [archived copy](https://web.archive.org/web/20220306143809/https://sonitixexchange.in/) is from March 2022.
+**Update 2026-10-30:** Sonitix looks gone. Both apps are no longer in the stores, and the sonitixexchange.in website no longer loads; its last [archived copy](https://web.archive.org/web/20220306143809/https://sonitixexchange.in/) is from March 2022.
 
 ## Android
 

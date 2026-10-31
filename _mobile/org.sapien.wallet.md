@@ -34,7 +34,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Both apps are gone from the stores and the Sapien Wallet website now forwards to an unrelated site. The provider appears to be gone.
+**Update 2026-10-30:** Both apps are gone from the stores and the Sapien Wallet website now forwards to an unrelated site. The provider appears to be gone.
 
 ## Android
 

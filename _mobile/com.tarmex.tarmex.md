@@ -27,7 +27,7 @@ android:
 
 ---
 
-**⚠️ Warning:** Tarmex appears to be gone. Its tarmex.io domain has shown a [parking page](https://web.archive.org/web/20251010055232/https://tarmex.io/) since at least October 2025; the [last archived copy of the exchange site](https://web.archive.org/web/20231102012359/https://tarmex.io/) is from November 2023. The app is no longer on Google Play.
+**Update 2026-10-30:** Tarmex appears to be gone. Its tarmex.io domain has shown a [parking page](https://web.archive.org/web/20251010055232/https://tarmex.io/) since at least October 2025; the [last archived copy of the exchange site](https://web.archive.org/web/20231102012359/https://tarmex.io/) is from November 2023. The app is no longer on Google Play.
 
 ## App Description from Google Play
 

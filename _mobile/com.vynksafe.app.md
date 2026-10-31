@@ -36,7 +36,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** VYNKSAFE appears to be gone. Both apps are out of the stores, the [VYNKSAFE website](https://vynksafe.com#deadLink) no longer loads, the VYNK Chain site (vynkchain.org) is now a parked page, and the Telegram channel is gone.
+**Update 2026-10-30:** VYNKSAFE appears to be gone. Both apps are out of the stores, the [VYNKSAFE website](https://vynksafe.com#deadLink) no longer loads, the VYNK Chain site (vynkchain.org) is now a parked page, and the Telegram channel is gone.
 
 ## Android
 

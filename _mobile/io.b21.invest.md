@@ -36,7 +36,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** B21 appears to be gone. Its website b21.io is now a parked domain page, and the last real version of the site is [in the Wayback Machine](https://web.archive.org/web/20221204100015/https://www.b21.io/).
+**Update 2026-10-30:** B21 appears to be gone. Its website b21.io is now a parked domain page, and the last real version of the site is [in the Wayback Machine](https://web.archive.org/web/20221204100015/https://www.b21.io/).
 
 ## Android
 

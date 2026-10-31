@@ -17,4 +17,4 @@ android:
 
 ---
 
-**⚠️ Warning:** Blockfort appears to be gone. Its website showed a parked page in 2024 and no longer loads, and the UK company Blockfort Ltd was [dissolved on 2025-08-05](https://find-and-update.company-information.service.gov.uk/company/12166695). Our link points to an [archived copy of the site](https://web.archive.org/web/20210620190745/http://www.blockfort.co.uk/) from 2021.
+**Update 2026-10-30:** Blockfort appears to be gone. Its website showed a parked page in 2024 and no longer loads, and the UK company Blockfort Ltd was [dissolved on 2025-08-05](https://find-and-update.company-information.service.gov.uk/company/12166695). Our link points to an [archived copy of the site](https://web.archive.org/web/20210620190745/http://www.blockfort.co.uk/) from 2021.

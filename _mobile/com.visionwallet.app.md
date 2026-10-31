@@ -20,7 +20,7 @@ android:
 
 ---
 
-**⚠️ Warning:** VisionWallet looks gone. visionwallet.com now shows an unrelated app for storing photos of cards and documents, plus unrelated blog posts. The crypto wallet's site survives only in the [archive](https://web.archive.org/web/20210620184417/https://visionwallet.com/en/).
+**Update 2026-10-30:** VisionWallet looks gone. visionwallet.com now shows an unrelated app for storing photos of cards and documents, plus unrelated blog posts. The crypto wallet's site survives only in the [archive](https://web.archive.org/web/20210620184417/https://visionwallet.com/en/).
 
 > Passive funds accumulation (interest on the account balance)
 

@@ -28,7 +28,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** This provider appears to be gone. The app is still missing from
+**Update 2026-10-30:** This provider appears to be gone. The app is still missing from
 both stores, and on 2026-10-30 the domain swapwallet.com was still registered
 but pointed to no server. We found no other website, social account or support channel for it.
 

@@ -23,7 +23,7 @@ android:
 
 ---
 
-**⚠️ Warning:** Exchaino has shut down. It merged with Bit24, an Iranian exchange from the same company, and user accounts and funds were moved to [bit24.cash](https://bit24.cash/) ([IranBroker](https://iranbroker.net/exchange/exchaino/)). The exchaino.com website now shows only "page not found".
+**Update 2026-10-30:** Exchaino has shut down. It merged with Bit24, an Iranian exchange from the same company, and user accounts and funds were moved to [bit24.cash](https://bit24.cash/) ([IranBroker](https://iranbroker.net/exchange/exchaino/)). The exchaino.com website now shows only "page not found".
 
 ## App Description from Google Play 
 

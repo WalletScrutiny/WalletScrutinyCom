@@ -35,7 +35,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** The Vircap website now forwards to an unrelated Vietnamese football results site, and both apps are gone from the stores.
+**Update 2026-10-30:** The Vircap website now forwards to an unrelated Vietnamese football results site, and both apps are gone from the stores.
 
 ## Android
 

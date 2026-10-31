@@ -34,7 +34,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Payiza's [website](https://web.archive.org/web/20240423135810/https://payizadlt.com/) no longer loads, and both apps are gone from the stores.
+**Update 2026-10-30:** Payiza's [website](https://web.archive.org/web/20240423135810/https://payizadlt.com/) no longer loads, and both apps are gone from the stores.
 
 ## Android
 

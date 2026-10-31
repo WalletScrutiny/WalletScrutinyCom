@@ -35,7 +35,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** The provider appears to be gone. The [website](https://web.archive.org/web/20221203052609/https://watt.me/) is now a parked domain and the [Telegram channel](https://t.me/s/watt_me) has been silent since December 2022.
+**Update 2026-10-30:** The provider appears to be gone. The [website](https://web.archive.org/web/20221203052609/https://watt.me/) is now a parked domain and the [Telegram channel](https://t.me/s/watt_me) has been silent since December 2022.
 
 ## Android
 

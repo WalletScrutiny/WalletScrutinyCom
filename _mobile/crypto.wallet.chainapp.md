@@ -32,7 +32,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Both Bull App apps are gone from the stores, and getbull.app no longer loads; the last [archived copy of the site](https://web.archive.org/web/20240302200916/https://getbull.app/) is from March 2024. The provider appears to be gone.
+**Update 2026-10-30:** Both Bull App apps are gone from the stores, and getbull.app no longer loads; the last [archived copy of the site](https://web.archive.org/web/20240302200916/https://getbull.app/) is from March 2024. The provider appears to be gone.
 
 ## Android
 

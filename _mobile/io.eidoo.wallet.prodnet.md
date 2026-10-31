@@ -37,7 +37,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** This provider is gone. The app is no longer in either store, and
+**Update 2026-10-30:** This provider is gone. The app is no longer in either store, and
 the eidoo.io domain had expired by
 [February 2024](https://web.archive.org/web/20240214221956/https://eidoo.io/); the
 site now shows an unrelated forex broker list. The last

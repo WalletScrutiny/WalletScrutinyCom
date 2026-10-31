@@ -38,7 +38,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** xBank [renamed itself PumpX](https://medium.com/@pumpx_io/pumpx-next-level-of-xbank-from-lending-to-multichain-consumer-liquidity-67ecce68aa2a) and turned into an NFT lending service; by [September 2024](https://web.archive.org/web/20240901090302/https://xbank.plus/) xbank.plus showed PumpX. On 2026-10-30 xbank.plus no longer loads and pumpx.io leads to an unrelated site.
+**Update 2026-10-30:** xBank [renamed itself PumpX](https://medium.com/@pumpx_io/pumpx-next-level-of-xbank-from-lending-to-multichain-consumer-liquidity-67ecce68aa2a) and turned into an NFT lending service; by [September 2024](https://web.archive.org/web/20240901090302/https://xbank.plus/) xbank.plus showed PumpX. On 2026-10-30 xbank.plus no longer loads and pumpx.io leads to an unrelated site.
 
 ## Android
 

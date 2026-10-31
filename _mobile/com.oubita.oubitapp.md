@@ -16,4 +16,4 @@ android:
 
 ---
 
-**⚠️ Warning:** Oubita appears to be gone. Its website oubita.com no longer loads; by 2025 it showed unrelated content, and our link points to the [last archived Oubita site](https://web.archive.org/web/20231201153838/https://www.oubita.com/) from December 2023.
+**Update 2026-10-30:** Oubita appears to be gone. Its website oubita.com no longer loads; by 2025 it showed unrelated content, and our link points to the [last archived Oubita site](https://web.archive.org/web/20231201153838/https://www.oubita.com/) from December 2023.

@@ -17,4 +17,4 @@ android:
 
 ---
 
-**⚠️ Warning:** TENT appears to be gone. Both of its websites, tent.app and tent.com, are now domains offered for sale ([archived tent.app, February 2026](https://web.archive.org/web/20260211205919/https://tent.app/)).
+**Update 2026-10-30:** TENT appears to be gone. Both of its websites, tent.app and tent.com, are now domains offered for sale ([archived tent.app, February 2026](https://web.archive.org/web/20260211205919/https://tent.app/)).

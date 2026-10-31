@@ -17,4 +17,4 @@ android:
 
 ---
 
-**⚠️ Warning:** NEWCHANGE.IO appears to be gone. The exchange site was [still up in October 2024](https://web.archive.org/web/20241015031953/https://newchange.io/), but newchange.io now shows only an empty file listing.
+**Update 2026-10-30:** NEWCHANGE.IO appears to be gone. The exchange site was [still up in October 2024](https://web.archive.org/web/20241015031953/https://newchange.io/), but newchange.io now shows only an empty file listing.

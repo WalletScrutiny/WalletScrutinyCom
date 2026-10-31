@@ -39,7 +39,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** The TrustVerse website no longer loads, the team has not posted on its [Medium blog](https://trustverse-official.medium.com) since March 2023, and its TRV token has had no market data since May 2025 ([CoinLore](https://www.coinlore.com/coin/trustverse)). The project appears to be abandoned.
+**Update 2026-10-30:** The TrustVerse website no longer loads, the team has not posted on its [Medium blog](https://trustverse-official.medium.com) since March 2023, and its TRV token has had no market data since May 2025 ([CoinLore](https://www.coinlore.com/coin/trustverse)). The project appears to be abandoned.
 
 ## Android
 

@@ -35,7 +35,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** X Infinity appears to be gone. Both apps are no longer in the stores, and its website was last archived as the X Infinity wallet in [June 2023](https://web.archive.org/web/20230604110623/https://www.xinfinity.io/); by May 2024 it showed an empty server page, and the domain now hosts an unrelated gambling site, so do not follow its links.
+**Update 2026-10-30:** X Infinity appears to be gone. Both apps are no longer in the stores, and its website was last archived as the X Infinity wallet in [June 2023](https://web.archive.org/web/20230604110623/https://www.xinfinity.io/); by May 2024 it showed an empty server page, and the domain now hosts an unrelated gambling site, so do not follow its links.
 
 ## Android
 

@@ -17,4 +17,4 @@ android:
 
 ---
 
-**⚠️ Warning:** Kozjin appears to be gone. Its domain kozjin.io now hosts an unrelated football streaming site, and the last [archived copy of the Kozjin site](https://web.archive.org/web/20201102045938/https://kozjin.io/) is from November 2020.
+**Update 2026-10-30:** Kozjin appears to be gone. Its domain kozjin.io now hosts an unrelated football streaming site, and the last [archived copy of the Kozjin site](https://web.archive.org/web/20201102045938/https://kozjin.io/) is from November 2020.

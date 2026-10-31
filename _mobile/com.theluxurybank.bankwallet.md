@@ -17,4 +17,4 @@ android:
 
 ---
 
-**⚠️ Warning:** The Luxury Bank looks gone. The [last archived site](https://web.archive.org/web/20240614211417/http://theluxurybank.com/) is from June 2024; since January 2025 theluxurybank.com has shown only a parked page.
+**Update 2026-10-30:** The Luxury Bank looks gone. The [last archived site](https://web.archive.org/web/20240614211417/http://theluxurybank.com/) is from June 2024; since January 2025 theluxurybank.com has shown only a parked page.

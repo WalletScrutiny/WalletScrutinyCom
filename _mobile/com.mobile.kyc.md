@@ -38,7 +38,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** The KYC Coin website kyccoin.io now shows an unrelated slot-gambling page, and both apps are gone from the stores. The project looks abandoned.
+**Update 2026-10-30:** The KYC Coin website kyccoin.io now shows an unrelated slot-gambling page, and both apps are gone from the stores. The project looks abandoned.
 
 ## Android
 

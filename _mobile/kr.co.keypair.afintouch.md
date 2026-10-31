@@ -20,7 +20,7 @@ android:
 
 ---
 
-**⚠️ Warning:** The AFIN website now shows an unrelated gambling site. The last archived copy with AFIN content is [from January 2025](https://web.archive.org/web/20250123084922/https://www.afincoin.io/).
+**Update 2026-10-30:** The AFIN website now shows an unrelated gambling site. The last archived copy with AFIN content is [from January 2025](https://web.archive.org/web/20250123084922/https://www.afincoin.io/).
 
 <!-- nosource -->
 As far as we can see, this is the same as

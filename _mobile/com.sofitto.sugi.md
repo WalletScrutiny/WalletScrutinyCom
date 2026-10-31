@@ -17,4 +17,4 @@ android:
 
 ---
 
-**⚠️ Warning:** Sugi (Sofitto NV) appears to be gone. The sugi.io domain was taken over by mid-2025 and now hosts an unrelated spam site; the [last archived copy of the Sugi site is from December 2024](https://web.archive.org/web/20241203135332/https://sugi.io/). See also the {% include walletLink.html wallet='hardware/sugi' verdict='true' %} card.
+**Update 2026-10-30:** Sugi (Sofitto NV) appears to be gone. The sugi.io domain was taken over by mid-2025 and now hosts an unrelated spam site; the [last archived copy of the Sugi site is from December 2024](https://web.archive.org/web/20241203135332/https://sugi.io/). See also the {% include walletLink.html wallet='hardware/sugi' verdict='true' %} card.

@@ -17,4 +17,4 @@ android:
 
 ---
 
-**⚠️ Warning:** SendThe.Cash looks gone. The [last archived SendThe.Cash site](https://web.archive.org/web/20250410115038/http://sendthe.cash/) is from April 2025; on 2026-10-30 the site showed only a default hosting page.
+**Update 2026-10-30:** SendThe.Cash looks gone. The [last archived SendThe.Cash site](https://web.archive.org/web/20250410115038/http://sendthe.cash/) is from April 2025; on 2026-10-30 the site showed only a default hosting page.

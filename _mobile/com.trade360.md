@@ -38,7 +38,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Trade360 looks gone. Its site no longer loads (last
+**Update 2026-10-30:** Trade360 looks gone. Its site no longer loads (last
 [archived in January 2024](https://web.archive.org/web/20240125145117/https://www.trade360.com/)),
 and the Cyprus regulator lists its operator Crowd Tech Ltd's licence as
 ["under examination for voluntary renunciation"](https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37636/).

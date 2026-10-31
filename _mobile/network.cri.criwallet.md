@@ -38,7 +38,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** COSMETA appears to be gone. Its website [cos-in.com](https://web.archive.org/web/20221206213117/https://cos-in.com/) now shows an unrelated blog, and cosmeta.us no longer loads.
+**Update 2026-10-30:** COSMETA appears to be gone. Its website [cos-in.com](https://web.archive.org/web/20221206213117/https://cos-in.com/) now shows an unrelated blog, and cosmeta.us no longer loads.
 
 ## Android
 

@@ -35,7 +35,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Tbit looks gone. Both apps are gone from the stores, and tbitex.com now only offers the domain for sale.
+**Update 2026-10-30:** Tbit looks gone. Both apps are gone from the stores, and tbitex.com now only offers the domain for sale.
 
 ## Android
 

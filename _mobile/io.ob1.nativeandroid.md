@@ -35,7 +35,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Haven and its developer OB1 are gone. Haven was to "stop
+**Update 2026-10-30:** Haven and its developer OB1 are gone. Haven was to "stop
 working on October 1" 2020
 ([Decrypt](https://decrypt.co/43028/decentralized-marketplace-openbazaar-to-close-unless-community-donates)),
 and on 2021-01-04 OB1 announced it "would cease supporting the marketplace's

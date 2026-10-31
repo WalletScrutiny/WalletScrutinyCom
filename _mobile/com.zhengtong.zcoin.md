@@ -29,7 +29,7 @@ android:
 
 ---
 
-**⚠️ Warning:** ZT appears to be gone. Its ztb.im website showed a [domain parking page](https://web.archive.org/web/20251124071238/https://www.ztb.im/) by November 2025 and now no longer loads, and ztbzh.net, which hosted its registration agreement, is a domain for sale. The app is no longer on Google Play.
+**Update 2026-10-30:** ZT appears to be gone. Its ztb.im website showed a [domain parking page](https://web.archive.org/web/20251124071238/https://www.ztb.im/) by November 2025 and now no longer loads, and ztbzh.net, which hosted its registration agreement, is a domain for sale. The app is no longer on Google Play.
 
 ## App Description from Google Play
 

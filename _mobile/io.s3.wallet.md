@@ -19,7 +19,7 @@ android:
 
 ---
 
-**⚠️ Warning:** S3 Wallet is defunct. The app is gone from Google Play and its website no longer exists.
+**Update 2026-10-30:** S3 Wallet is defunct. The app is gone from Google Play and its website no longer exists.
 
 ## App Description
 

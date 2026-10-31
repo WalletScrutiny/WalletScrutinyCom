@@ -32,8 +32,6 @@ iphone:
 
 ---
 
-**⚠️ Warning:** UmiFi appears to be gone. Its domain is for sale and its help center is closed.
-
 **Update 2026-10-30:** [umifi.com](http://www.umifi.com) now leads to a HugeDomains page that sells the domain, and its [Zendesk help center](https://umificom.zendesk.com/), which the analysis below cites, is closed.
 
 ## Android

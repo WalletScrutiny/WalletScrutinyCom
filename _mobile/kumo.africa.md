@@ -17,4 +17,4 @@ android:
 
 ---
 
-**⚠️ Warning:** Kumo appears to be gone. Its website and blog no longer load; the last archived copy of the site is from [July 2025](https://web.archive.org/web/20250710133755/https://kumo.africa/).
+**Update 2026-10-30:** Kumo appears to be gone. Its website and blog no longer load; the last archived copy of the site is from [July 2025](https://web.archive.org/web/20250710133755/https://kumo.africa/).

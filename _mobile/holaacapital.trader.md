@@ -17,5 +17,5 @@ android:
 
 ---
 
-**⚠️ Warning:** HolaCapital appears to be gone. Since at least December 2024 its website shows only an empty file listing ([archive](https://web.archive.org/web/20241209114220/https://holacapital.ae/)); the [last archived HolaCapital site](https://web.archive.org/web/20240420202253/https://holacapital.ae/) is from April 2024.
+**Update 2026-10-30:** HolaCapital appears to be gone. Since at least December 2024 its website shows only an empty file listing ([archive](https://web.archive.org/web/20241209114220/https://holacapital.ae/)); the [last archived HolaCapital site](https://web.archive.org/web/20240420202253/https://holacapital.ae/) is from April 2024.
 

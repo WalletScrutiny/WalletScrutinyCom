@@ -36,7 +36,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Both Polyx apps are gone from the stores, and the Polyx wallet site and polyx.net no longer load. The provider appears to be gone.
+**Update 2026-10-30:** Both Polyx apps are gone from the stores, and the Polyx wallet site and polyx.net no longer load. The provider appears to be gone.
 
 ## Android
 

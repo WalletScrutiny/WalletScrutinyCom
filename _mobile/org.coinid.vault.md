@@ -39,7 +39,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** COINiD has stopped development and taken its blockchain servers offline, so the COINiD apps can no longer show balances or send transactions. Its [migration guide](https://coinid.org) explains how to restore the 12-word recovery phrase in another wallet.
+**Update 2026-10-30:** COINiD has stopped development and taken its blockchain servers offline, so the COINiD apps can no longer show balances or send transactions. Its [migration guide](https://coinid.org) explains how to restore the 12-word recovery phrase in another wallet.
 
 ## Android
 

@@ -33,7 +33,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** GWallet appears to be gone. Its website no longer loads; the [last archived copy of the GWallet site](https://web.archive.org/web/20251006021632/https://gwallet.tech/) is from October 2025. The Android app has had no update since March 2023, and the iPhone app is gone from the App Store.
+**Update 2026-10-30:** GWallet appears to be gone. Its website no longer loads; the [last archived copy of the GWallet site](https://web.archive.org/web/20251006021632/https://gwallet.tech/) is from October 2025. The Android app has had no update since March 2023, and the iPhone app is gone from the App Store.
 
 ## Android
 

@@ -37,7 +37,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Tradefada looks gone. Both apps are gone from the stores, and tradefada.com no longer loads.
+**Update 2026-10-30:** Tradefada looks gone. Both apps are gone from the stores, and tradefada.com no longer loads.
 
 ## Android
 

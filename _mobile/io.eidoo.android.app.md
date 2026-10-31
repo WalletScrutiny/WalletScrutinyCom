@@ -36,7 +36,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Eidoo appears to be gone. Its website no longer loads ([last working capture](https://web.archive.org/web/20231028031808/https://eidoo.app/)), its help desk is gone, and the old eidoo.io domain now shows an unrelated site. Both apps are no longer in the stores.
+**Update 2026-10-30:** Eidoo appears to be gone. Its website no longer loads ([last working capture](https://web.archive.org/web/20231028031808/https://eidoo.app/)), its help desk is gone, and the old eidoo.io domain now shows an unrelated site. Both apps are no longer in the stores.
 
 ## Android
 

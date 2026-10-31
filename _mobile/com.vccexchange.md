@@ -34,7 +34,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** VCC Exchange appears to be gone. Its website no longer loads, its [X account](https://twitter.com/VCCExchange#deadLink) is gone, both apps are no longer in the stores, and [CoinMarketCap](https://coinmarketcap.com/exchanges/vcc-exchange/) no longer tracks its trading volume.
+**Update 2026-10-30:** VCC Exchange appears to be gone. Its website no longer loads, its [X account](https://twitter.com/VCCExchange#deadLink) is gone, both apps are no longer in the stores, and [CoinMarketCap](https://coinmarketcap.com/exchanges/vcc-exchange/) no longer tracks its trading volume.
 
 ## Android
 

@@ -39,7 +39,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** ZB.com stopped deposits and withdrawals in August 2022, then lost $4.8 million from its hot wallet ([The Block](https://www.theblock.co/post/161275/crypto-exchange-zb-com-loses-4-8-million-after-halting-client-withdrawals)). The exchange never reopened and its website no longer loads.
+**Update 2026-10-30:** ZB.com stopped deposits and withdrawals in August 2022, then lost $4.8 million from its hot wallet ([The Block](https://www.theblock.co/post/161275/crypto-exchange-zb-com-loses-4-8-million-after-halting-client-withdrawals)). The exchange never reopened and its website no longer loads.
 
 ## Android
 

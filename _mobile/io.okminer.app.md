@@ -19,7 +19,7 @@ android:
 
 ---
 
-**⚠️ Warning:** The provider appears to be gone. The app is off Google Play and its website is gone.
+**Update 2026-10-30:** The provider appears to be gone. The app is off Google Play and its website is gone.
 
 ## Updated Verdict 2021-10-29
 

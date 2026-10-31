@@ -20,7 +20,7 @@ android:
 
 ---
 
-**⚠️ Warning:** The SIRIN LABS website has not loaded since mid-2023 ([last working copy](https://web.archive.org/web/20230704175319/https://sirinlabs.com/)), and the {% include walletLink.html wallet='hardware/finney' verdict='true' %} phone this app was made for is listed as defunct.
+**Update 2026-10-30:** The SIRIN LABS website has not loaded since mid-2023 ([last working copy](https://web.archive.org/web/20230704175319/https://sirinlabs.com/)), and the {% include walletLink.html wallet='hardware/finney' verdict='true' %} phone this app was made for is listed as defunct.
 
 ## App Description from Google Play 
 

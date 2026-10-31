@@ -24,7 +24,7 @@ android:
 
 ---
 
-**⚠️ Warning:** RahaExchange appears to be gone. The app is no longer in the store, and its website no longer loads; the [last archived copy](https://web.archive.org/web/20240131051105/https://rahaexchange.com/) is from early 2024.
+**Update 2026-10-30:** RahaExchange appears to be gone. The app is no longer in the store, and its website no longer loads; the [last archived copy](https://web.archive.org/web/20240131051105/https://rahaexchange.com/) is from early 2024.
 
 {{ page.title }} is an Arabic cryptocurrency trading app. According to the description, users are able to send and receive many different cryptocurrencies including BTC, ETH, XRP, LTC, and BCH.
 

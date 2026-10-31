@@ -17,6 +17,6 @@ android:
 
 ---
 
-**⚠️ Warning:** Einstein Exchange is gone. The British Columbia Securities Commission took control of it in November 2019, after customers could not get their money out ([BCSC](https://www.bcsc.bc.ca/about/media-room/news-releases/2019/68-bcsc-acts-to-protect-customers-of-einstein-exchange-cryptoasset-trading-platform)), and its website no longer loads.
+**Update 2026-10-30:** Einstein Exchange is gone. The British Columbia Securities Commission took control of it in November 2019, after customers could not get their money out ([BCSC](https://www.bcsc.bc.ca/about/media-room/news-releases/2019/68-bcsc-acts-to-protect-customers-of-einstein-exchange-cryptoasset-trading-platform)), and its website no longer loads.
 
 **Update 2022-05-19**: This app is not available anymore.

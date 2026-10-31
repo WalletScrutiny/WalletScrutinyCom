@@ -34,7 +34,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Paritex appears to be gone. Its website showed only a "maintenance" page from [October 2022](https://web.archive.org/web/20221006164053/https://paritex.com/) until [early 2026](https://web.archive.org/web/20260201061213/https://paritex.com/), and now it no longer loads.
+**Update 2026-10-30:** Paritex appears to be gone. Its website showed only a "maintenance" page from [October 2022](https://web.archive.org/web/20221006164053/https://paritex.com/) until [early 2026](https://web.archive.org/web/20260201061213/https://paritex.com/), and now it no longer loads.
 
 ## Android
 

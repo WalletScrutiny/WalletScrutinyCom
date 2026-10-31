@@ -36,7 +36,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** United Exchange appears to be gone. Its website was last archived as a working exchange in [November 2024](https://web.archive.org/web/20241111202138/https://unitedexchange.in/), by [August 2025](https://web.archive.org/web/20250824221345/https://unitedexchange.in/) the domain was a parked page, and the old unitedexchange.io address now leads to an unrelated sports streaming site.
+**Update 2026-10-30:** United Exchange appears to be gone. Its website was last archived as a working exchange in [November 2024](https://web.archive.org/web/20241111202138/https://unitedexchange.in/), by [August 2025](https://web.archive.org/web/20250824221345/https://unitedexchange.in/) the domain was a parked page, and the old unitedexchange.io address now leads to an unrelated sports streaming site.
 
 ## Android
 

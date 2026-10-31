@@ -37,7 +37,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** LYOTRADE has shut down. Since January 2024 its website said that "LYOTRADE's work ends" after December 2023 and that accounts and funds were moved to a new exchange run by a new team ([archived](https://web.archive.org/web/20240112171553/https://lyotrade.com/)). The website no longer loads.
+**Update 2026-10-30:** LYOTRADE has shut down. Since January 2024 its website said that "LYOTRADE's work ends" after December 2023 and that accounts and funds were moved to a new exchange run by a new team ([archived](https://web.archive.org/web/20240112171553/https://lyotrade.com/)). The website no longer loads.
 
 ## Android
 

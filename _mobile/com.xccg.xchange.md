@@ -37,7 +37,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Xchange appears to be gone. Its website xchange.ltd is now a domain for sale, and its [Telegram channel](https://t.me/Xchange_official) now advertises unrelated accounts for sale.
+**Update 2026-10-30:** Xchange appears to be gone. Its website xchange.ltd is now a domain for sale, and its [Telegram channel](https://t.me/Xchange_official) now advertises unrelated accounts for sale.
 
 ## Android
 

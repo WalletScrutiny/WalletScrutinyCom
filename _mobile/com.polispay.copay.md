@@ -32,8 +32,6 @@ iphone:
 
 ---
 
-**⚠️ Warning:** PolisPay appears to be out of business. Its domain is parked for sale and its X account no longer exists.
-
 **Update 2026-10-30:** www.polispay.com now redirects to a [GoDaddy page offering the domain for sale](https://www.polispay.com), and the [PolisPay X account](https://x.com/PolisPay) no longer exists.
 
 ## Android

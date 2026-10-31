@@ -46,7 +46,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** The Zap project has ended. Both the [Android](https://github.com/LN-Zap/zap-android) and the [iPhone](https://github.com/LN-Zap/zap-iOS) repositories were archived on 2023-11-17, and [zaphq.io](http://zaphq.io) now redirects to Strike.
+**Update 2026-10-30:** The Zap project has ended. Both the [Android](https://github.com/LN-Zap/zap-android) and the [iPhone](https://github.com/LN-Zap/zap-iOS) repositories were archived on 2023-11-17, and [zaphq.io](http://zaphq.io) now redirects to Strike.
 
 ## Android
 

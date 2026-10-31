@@ -17,4 +17,4 @@ android:
 
 ---
 
-**⚠️ Warning:** Egiby appears to be gone. Its website egiby.com is now a [HugeDomains sale page](https://www.hugedomains.com/domain_profile.cfm?d=egiby.com) for the domain; the [last archived Egiby site](https://web.archive.org/web/20220127210449/https://egiby.com/) is from January 2022.
+**Update 2026-10-30:** Egiby appears to be gone. Its website egiby.com is now a [HugeDomains sale page](https://www.hugedomains.com/domain_profile.cfm?d=egiby.com) for the domain; the [last archived Egiby site](https://web.archive.org/web/20220127210449/https://egiby.com/) is from January 2022.

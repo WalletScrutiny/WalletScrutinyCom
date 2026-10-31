@@ -19,8 +19,6 @@ android:
 
 ---
 
-**⚠️ Warning:** Crypto Global Bank looks gone. Its website is gone and the app is off Google Play.
-
 **Update 2026-10-30:** The provider is gone. Its website [cglobank.com](https://cglobank.com#deadLink) is gone.
 
 **WARNING:** There are several factors that make this app appear highly suspicious. We urge users to exercise caution among apps like these.

@@ -35,7 +35,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Midas Protocol appears to be gone. Both apps are off the stores, and its website now shows an unrelated crypto casino page ([archive, March 2026](https://web.archive.org/web/20260320072156/https://midasprotocol.io/)); the wallet's own site survives only in the [archive](https://web.archive.org/web/20211209092347/https://midasprotocol.io/).
+**Update 2026-10-30:** Midas Protocol appears to be gone. Both apps are off the stores, and its website now shows an unrelated crypto casino page ([archive, March 2026](https://web.archive.org/web/20260320072156/https://midasprotocol.io/)); the wallet's own site survives only in the [archive](https://web.archive.org/web/20211209092347/https://midasprotocol.io/).
 
 ## Android
 

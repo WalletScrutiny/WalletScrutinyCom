@@ -34,8 +34,6 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Global TradeATF appears to be gone. Both apps are off the stores, its website domain is for sale, and South Africa's financial regulator warned against it in 2021.
-
 **Update 2026-10-30:** global.tradeatf.com now forwards to a GoDaddy page offering the domain for sale.
 
 ## Android

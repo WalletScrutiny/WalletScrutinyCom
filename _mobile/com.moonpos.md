@@ -17,4 +17,4 @@ android:
 
 ---
 
-**⚠️ Warning:** MoonPos appears to be gone. Its website has been a domain-for-sale page [since at least August 2025](https://web.archive.org/web/20250818093736/https://www.moonposapp.com/); the [last archived MoonPos page](https://web.archive.org/web/20250405054145/https://www.moonposapp.com/) is from April 2025.
+**Update 2026-10-30:** MoonPos appears to be gone. Its website has been a domain-for-sale page [since at least August 2025](https://web.archive.org/web/20250818093736/https://www.moonposapp.com/); the [last archived MoonPos page](https://web.archive.org/web/20250405054145/https://www.moonposapp.com/) is from April 2025.

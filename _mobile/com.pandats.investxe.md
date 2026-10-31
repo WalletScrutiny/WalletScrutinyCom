@@ -19,7 +19,7 @@ android:
 
 ---
 
-**⚠️ Warning:** InvestXE looks gone. Its website was replaced by a domain parking page
+**Update 2026-10-30:** InvestXE looks gone. Its website was replaced by a domain parking page
 [by March 2023](https://web.archive.org/web/20230329071205/https://investxe.com/) and the
 domain has been [offered for sale](https://web.archive.org/web/20230926025005/https://investxe.com/) since.
 

@@ -36,7 +36,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Tabank appears to be gone. Neither tabank.org nor its app site web.tabus.co loads any more; the [last archived tabank.org page](https://web.archive.org/web/20250523091042/https://tabank.org/) is from May 2025.
+**Update 2026-10-30:** Tabank appears to be gone. Neither tabank.org nor its app site web.tabus.co loads any more; the [last archived tabank.org page](https://web.archive.org/web/20250523091042/https://tabank.org/) is from May 2025.
 
 ## Android
 

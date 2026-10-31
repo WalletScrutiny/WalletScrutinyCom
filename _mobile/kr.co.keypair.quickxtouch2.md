@@ -16,6 +16,6 @@ android:
 
 ---
 
-**⚠️ Warning:** QuickX appears to be gone. Its websites are dead or parked.
+**Update 2026-10-30:** QuickX appears to be gone. Its websites are dead or parked.
 
 **Update 2022-02-20**: This app is not available anymore.

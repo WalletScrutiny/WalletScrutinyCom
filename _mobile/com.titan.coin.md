@@ -37,7 +37,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** The provider appears to be gone. The Titan Projects website now shows an unrelated gambling site ([archived original](https://web.archive.org/web/20220101121034/https://titanprojects.co/)), and Titan Coin has had no price data since February 2024 ([CoinLore](https://www.coinlore.com/coin/titan-coin)).
+**Update 2026-10-30:** The provider appears to be gone. The Titan Projects website now shows an unrelated gambling site ([archived original](https://web.archive.org/web/20220101121034/https://titanprojects.co/)), and Titan Coin has had no price data since February 2024 ([CoinLore](https://www.coinlore.com/coin/titan-coin)).
 
 ## Android
 

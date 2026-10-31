@@ -17,4 +17,4 @@ android:
 
 ---
 
-**⚠️ Warning:** Krypto Kafe appears to be gone. Its website kryptokafe.com no longer shows the product; the [last archived Krypto Kafe site](https://web.archive.org/web/20221129172936/https://kryptokafe.com/) is from November 2022.
+**Update 2026-10-30:** Krypto Kafe appears to be gone. Its website kryptokafe.com no longer shows the product; the [last archived Krypto Kafe site](https://web.archive.org/web/20221129172936/https://kryptokafe.com/) is from November 2022.

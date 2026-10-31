@@ -23,7 +23,7 @@ android:
 
 ---
 
-**⚠️ Warning:** ProBit Korea is shut down. Its operator Oceans [closed the exchange on 2024-03-16](https://www.ceoscoredaily.com/page/view/2024021613005535180) and kept a withdrawal-only service running until 2024-06-16 ([etoday](https://www.etoday.co.kr/news/view/2331633)).
+**Update 2026-10-30:** ProBit Korea is shut down. Its operator Oceans [closed the exchange on 2024-03-16](https://www.ceoscoredaily.com/page/view/2024021613005535180) and kept a withdrawal-only service running until 2024-06-16 ([etoday](https://www.etoday.co.kr/news/view/2331633)).
 
 This app appears to be a Korean crypto exchange:
 

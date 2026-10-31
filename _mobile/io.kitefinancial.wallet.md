@@ -38,8 +38,6 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Kite Financial appears to be gone. Its website now forwards to an unrelated gambling site.
-
 **Update 2026-10-30:** The kitefinancial.io website still showed Kite Financial in [March 2026](https://web.archive.org/web/20260306211418/https://www.kitefinancial.io/), but it now forwards to an unrelated Vietnamese gambling site.
 
 ## Android

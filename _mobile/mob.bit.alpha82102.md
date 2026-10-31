@@ -18,7 +18,7 @@ android:
 
 ---
 
-**⚠️ Warning:** The bit-alpha.com site that hosted the privacy policy no longer loads. The app is no longer on Google Play.
+**Update 2026-10-30:** The bit-alpha.com site that hosted the privacy policy no longer loads. The app is no longer on Google Play.
 
 ## App Description from Google Play
 

@@ -40,7 +40,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** COINiD is no longer developed and its servers are offline, so the apps can no longer show balances or send transactions. The [COINiD website](https://coinid.org) now only has [migration guides](https://github.com/COINiD/migration-guide-website) for moving funds to another wallet with the 12-word recovery phrase.
+**Update 2026-10-30:** COINiD is no longer developed and its servers are offline, so the apps can no longer show balances or send transactions. The [COINiD website](https://coinid.org) now only has [migration guides](https://github.com/COINiD/migration-guide-website) for moving funds to another wallet with the 12-word recovery phrase.
 
 ## Android
 

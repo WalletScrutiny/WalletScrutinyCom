@@ -35,7 +35,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** The Black Wall Street appears to be gone. Both apps are out of the stores, and since at least May 2026 the website shows an [unrelated page](https://web.archive.org/web/20260518195853/https://theblackwallstreet.com/) instead of the product. Its custody partner Prime Trust [filed for bankruptcy](https://cryptonews.com/news/prime-trust-crypto-custodian-enters-chapter-11-bankruptcy-amid-prolonged-crypto-winter/) in August 2023.
+**Update 2026-10-30:** The Black Wall Street appears to be gone. Both apps are out of the stores, and since at least May 2026 the website shows an [unrelated page](https://web.archive.org/web/20260518195853/https://theblackwallstreet.com/) instead of the product. Its custody partner Prime Trust [filed for bankruptcy](https://cryptonews.com/news/prime-trust-crypto-custodian-enters-chapter-11-bankruptcy-amid-prolonged-crypto-winter/) in August 2023.
 
 ## Android
 

@@ -39,7 +39,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Jaxx Liberty was retired on 27 March 2023; Jaxx asked users to move their 12-word backup phrase to a compatible wallet like Edge or Exodus ([Jaxx on X](https://x.com/jaxx_io/status/1638640127206457346)). The Jaxx website now forwards to Edge ({% include walletLink.html wallet='android/co.edgesecure.app' verdict='true' %}).
+**Update 2026-10-30:** Jaxx Liberty was retired on 27 March 2023; Jaxx asked users to move their 12-word backup phrase to a compatible wallet like Edge or Exodus ([Jaxx on X](https://x.com/jaxx_io/status/1638640127206457346)). The Jaxx website now forwards to Edge ({% include walletLink.html wallet='android/co.edgesecure.app' verdict='true' %}).
 
 ## Android
 

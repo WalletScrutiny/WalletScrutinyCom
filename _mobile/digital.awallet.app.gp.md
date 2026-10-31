@@ -22,7 +22,7 @@ android:
 
 ---
 
-**⚠️ Warning:** The AWallet website is gone; its domain is now offered for sale. We link an [archived copy](https://web.archive.org/web/20241010051036/https://awallet.digital/) instead.
+**Update 2026-10-30:** The AWallet website is gone; its domain is now offered for sale. We link an [archived copy](https://web.archive.org/web/20241010051036/https://awallet.digital/) instead.
 
 ## Update 2024-07-22
 

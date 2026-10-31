@@ -37,7 +37,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** QPocket appears to be gone. Both apps are off the stores, and qpocket.io is now an empty placeholder page; our link points to an [archived copy](https://web.archive.org/web/20221229135635/https://qpocket.io/) from 2022.
+**Update 2026-10-30:** QPocket appears to be gone. Both apps are off the stores, and qpocket.io is now an empty placeholder page; our link points to an [archived copy](https://web.archive.org/web/20221229135635/https://qpocket.io/) from 2022.
 
 ## Android
 

@@ -18,7 +18,7 @@ android:
 
 ---
 
-**⚠️ Warning:** Five Star Exchange appears to be gone. Its website now leads to an unrelated online casino ([archived April 2025](https://web.archive.org/web/20250417202505/https://fivestarexchange.in/)).
+**Update 2026-10-30:** Five Star Exchange appears to be gone. Its website now leads to an unrelated online casino ([archived April 2025](https://web.archive.org/web/20250417202505/https://fivestarexchange.in/)).
 
 ## App Description from Google Play 
 

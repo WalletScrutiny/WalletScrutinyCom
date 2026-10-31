@@ -18,4 +18,4 @@ android:
 
 ---
 
-**⚠️ Warning:** Koinex is shut down. It [permanently disabled trading on 2019-06-27](https://www.medianama.com/2019/06/223-crypto-exchange-koinex-shuts-down-after-months-of-uncertainty-and-disruption/) and asked users to withdraw their funds by 2019-07-15.
+**Update 2026-10-30:** Koinex is shut down. It [permanently disabled trading on 2019-06-27](https://www.medianama.com/2019/06/223-crypto-exchange-koinex-shuts-down-after-months-of-uncertainty-and-disruption/) and asked users to withdraw their funds by 2019-07-15.

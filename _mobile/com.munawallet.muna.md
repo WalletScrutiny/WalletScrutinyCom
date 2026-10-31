@@ -35,7 +35,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Muna appears to be gone. Both apps are no longer in the stores, and its website, which still described the app [in August 2025](https://web.archive.org/web/20250807164813/https://www.muna.app/), now only offers the domain for sale.
+**Update 2026-10-30:** Muna appears to be gone. Both apps are no longer in the stores, and its website, which still described the app [in August 2025](https://web.archive.org/web/20250807164813/https://www.muna.app/), now only offers the domain for sale.
 
 ## Android
 

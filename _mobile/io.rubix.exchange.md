@@ -17,5 +17,5 @@ android:
 
 ---
 
-**⚠️ Warning:** The Rubix exchange appears to be gone. Its website now shows an unrelated crypto casino page ([archived February 2025](https://web.archive.org/web/20250206174906/https://rubix.io/)); the [last archived Rubix site](https://web.archive.org/web/20240810081757/https://rubix.io/) is from August 2024.
+**Update 2026-10-30:** The Rubix exchange appears to be gone. Its website now shows an unrelated crypto casino page ([archived February 2025](https://web.archive.org/web/20250206174906/https://rubix.io/)); the [last archived Rubix site](https://web.archive.org/web/20240810081757/https://rubix.io/) is from August 2024.
 

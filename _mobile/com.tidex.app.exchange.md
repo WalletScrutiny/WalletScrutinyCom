@@ -40,7 +40,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Tidex appears to be gone. Its website tidex.com now shows an unrelated Vietnamese football streaming site ([archived May 2025](https://web.archive.org/web/20250515084205/https://tidex.com/)), and its [Telegram news channel](https://t.me/s/Tidex_News) has been silent since August 2024. We found no official notice.
+**Update 2026-10-30:** Tidex appears to be gone. Its website tidex.com now shows an unrelated Vietnamese football streaming site ([archived May 2025](https://web.archive.org/web/20250515084205/https://tidex.com/)), and its [Telegram news channel](https://t.me/s/Tidex_News) has been silent since August 2024. We found no official notice.
 
 ## Android
 

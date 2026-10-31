@@ -33,7 +33,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** STEX is gone. On 2023-06-04 its website showed only a
+**Update 2026-10-30:** STEX is gone. On 2023-06-04 its website showed only a
 ["Force Majeure statement"](https://web.archive.org/web/20230604041902/https://stex.com/)
 saying it had suffered data loss and could not continue any business operations.
 stex.com now shows an unrelated page.

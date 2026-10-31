@@ -33,7 +33,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** NakitCoins appears to be gone. Its website no longer loads; the [last archived copy, from September 2024](https://web.archive.org/web/20240914094707/https://www.nakitcoins.com/), still showed its cash exchange offices in Turkey.
+**Update 2026-10-30:** NakitCoins appears to be gone. Its website no longer loads; the [last archived copy, from September 2024](https://web.archive.org/web/20240914094707/https://www.nakitcoins.com/), still showed its cash exchange offices in Turkey.
 
 ## Android
 

@@ -32,7 +32,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Cryptoneed looks gone. Both apps are gone from the stores, and the website no longer loads. Its last working copy is from [September 2022](https://web.archive.org/web/20220919172909/https://cryptoneed.pro/).
+**Update 2026-10-30:** Cryptoneed looks gone. Both apps are gone from the stores, and the website no longer loads. Its last working copy is from [September 2022](https://web.archive.org/web/20220919172909/https://cryptoneed.pro/).
 
 ## Android
 

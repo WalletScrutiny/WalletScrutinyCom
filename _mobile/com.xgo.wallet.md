@@ -36,7 +36,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** XGo appears to be gone. Both apps have left the stores, the XGo website now only shows a "Domain for sale" page (it still showed the XGo service [in June 2026](https://web.archive.org/web/20260613123619/https://xgo.com/)), and the support site with the terms no longer loads. We found no official closure notice.
+**Update 2026-10-30:** XGo appears to be gone. Both apps have left the stores, the XGo website now only shows a "Domain for sale" page (it still showed the XGo service [in June 2026](https://web.archive.org/web/20260613123619/https://xgo.com/)), and the support site with the terms no longer loads. We found no official closure notice.
 
 ## Android
 

@@ -16,6 +16,6 @@ android:
 
 ---
 
-**⚠️ Warning:** The provider of XCHANGE-COINS appears to be gone. Its website is gone.
+**Update 2026-10-30:** The provider of XCHANGE-COINS appears to be gone. Its website is gone.
 
 **Update 2022-03-23**: This app is not available anymore.

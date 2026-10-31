@@ -17,5 +17,5 @@ android:
 
 ---
 
-**⚠️ Warning:** Coinbag appears to be gone. Its website no longer loads; the [last archived Coinbag site](https://web.archive.org/web/20240418181417/https://coinbag.me/) is from April 2024.
+**Update 2026-10-30:** Coinbag appears to be gone. Its website no longer loads; the [last archived Coinbag site](https://web.archive.org/web/20240418181417/https://coinbag.me/) is from April 2024.
 

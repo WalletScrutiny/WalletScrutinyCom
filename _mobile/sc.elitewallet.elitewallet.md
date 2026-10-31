@@ -37,7 +37,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Elite Wallet appears to be gone. Both apps are out of the stores, the website no longer loads, the [source repository](https://web.archive.org/web/20250316083801/https://github.com/Elite-Labs/EliteWallet) has been removed from GitHub, and the Telegram link now points to an unrelated account.
+**Update 2026-10-30:** Elite Wallet appears to be gone. Both apps are out of the stores, the website no longer loads, the [source repository](https://web.archive.org/web/20250316083801/https://github.com/Elite-Labs/EliteWallet) has been removed from GitHub, and the Telegram link now points to an unrelated account.
 
 ## Android
 

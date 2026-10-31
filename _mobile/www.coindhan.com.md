@@ -40,7 +40,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** CoinDhan appears to be gone. Its website no longer loads (the [last archived copy](https://web.archive.org/web/20250619100819/https://www.coindhan.com/) is from June 2025), and its [Telegram channel](https://t.me/s/coindhan) has been silent since May 2024.
+**Update 2026-10-30:** CoinDhan appears to be gone. Its website no longer loads (the [last archived copy](https://web.archive.org/web/20250619100819/https://www.coindhan.com/) is from June 2025), and its [Telegram channel](https://t.me/s/coindhan) has been silent since May 2024.
 
 ## Android
 

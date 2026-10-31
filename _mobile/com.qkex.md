@@ -21,7 +21,7 @@ android:
 
 ---
 
-**⚠️ Warning:** QKEx appears to be gone. Its website, qkex.com, no longer loads.
+**Update 2026-10-30:** QKEx appears to be gone. Its website, qkex.com, no longer loads.
 
 ## App Description from Google Play
 

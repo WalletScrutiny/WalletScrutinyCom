@@ -23,7 +23,7 @@ android:
 
 ---
 
-**⚠️ Warning:** Chiliz closed this exchange, which it later ran as ChilizX; [chiliz.net](https://www.chiliz.net) now only explains how remaining users can request their funds through a support form.
+**Update 2026-10-30:** Chiliz closed this exchange, which it later ran as ChilizX; [chiliz.net](https://www.chiliz.net) now only explains how remaining users can request their funds through a support form.
 
 **Update 2022-04-01**: This app is not available anymore.
 

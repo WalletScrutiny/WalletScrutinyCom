@@ -21,7 +21,7 @@ android:
 
 ---
 
-**⚠️ Warning:** Coiny appears to be out of business. Its website is gone and its X account has not posted since 2020.
+**Update 2026-10-30:** Coiny appears to be out of business. Its website is gone and its X account has not posted since 2020.
 
 ## App Description
 

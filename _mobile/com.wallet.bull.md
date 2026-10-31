@@ -36,7 +36,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** The Bull Finance website is gone. Its domain now shows an [unrelated casino page](https://web.archive.org/web/20260207194021/https://bullcoin.finance/), and the GitHub account has had no activity since 2021.
+**Update 2026-10-30:** The Bull Finance website is gone. Its domain now shows an [unrelated casino page](https://web.archive.org/web/20260207194021/https://bullcoin.finance/), and the GitHub account has had no activity since 2021.
 
 ## Android
 

@@ -20,7 +20,7 @@ android:
 
 ---
 
-**⚠️ Warning:** CPay appears to be gone. Its website is now a domain-for-sale page.
+**Update 2026-10-30:** CPay appears to be gone. Its website is now a domain-for-sale page.
 
 ## App Description from Google Play
 

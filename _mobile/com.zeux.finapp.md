@@ -36,7 +36,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Zeux appears to have shut down its payments app. The zeux.com website now advertises an unrelated IT services business, and the company behind the app, Zeux Ltd, renamed itself Zeux IT Services Ltd in January 2024 ([Companies House](https://find-and-update.company-information.service.gov.uk/company/11073443)). The [archived website from October 2021](https://web.archive.org/web/20211021051054/https://www.zeux.com/) still shows the app.
+**Update 2026-10-30:** Zeux appears to have shut down its payments app. The zeux.com website now advertises an unrelated IT services business, and the company behind the app, Zeux Ltd, renamed itself Zeux IT Services Ltd in January 2024 ([Companies House](https://find-and-update.company-information.service.gov.uk/company/11073443)). The [archived website from October 2021](https://web.archive.org/web/20211021051054/https://www.zeux.com/) still shows the app.
 
 ## Android
 

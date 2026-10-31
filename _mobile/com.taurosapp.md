@@ -40,7 +40,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Tauros is gone. The exchange
+**Update 2026-10-30:** Tauros is gone. The exchange
 [announced its closure on 2023-04-10](https://fintechfuturo.com/tauros-crypto/)
 and let users withdraw their funds until 2023-08-15. Its website no longer loads.
 

@@ -17,4 +17,4 @@ android:
 
 ---
 
-**⚠️ Warning:** Payscript looks gone. The [last archived Payscript site](https://web.archive.org/web/20250329080639/https://payscript.io/) is from March 2025; on 2026-10-30 payscript.io showed only a default hosting page.
+**Update 2026-10-30:** Payscript looks gone. The [last archived Payscript site](https://web.archive.org/web/20250329080639/https://payscript.io/) is from March 2025; on 2026-10-30 payscript.io showed only a default hosting page.

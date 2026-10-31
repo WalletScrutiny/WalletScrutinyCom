@@ -37,7 +37,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Bitfortip looks gone. Its site was last
+**Update 2026-10-30:** Bitfortip looks gone. Its site was last
 [archived as Bitfortip](https://web.archive.org/web/20250118125630/https://bitfortip.com/)
 in January 2025; by February 2025 it showed a
 [parking page](https://web.archive.org/web/20250223104724/https://bitfortip.com/),

@@ -20,7 +20,7 @@ android:
 
 ---
 
-**⚠️ Warning:** BMG's website no longer loads; the last working copy in the [Wayback Machine](https://web.archive.org/web/20230419205451/https://www.bmgcrypto.us/index.html) is from 2023. The app is no longer on Google Play.
+**Update 2026-10-30:** BMG's website no longer loads; the last working copy in the [Wayback Machine](https://web.archive.org/web/20230419205451/https://www.bmgcrypto.us/index.html) is from 2023. The app is no longer on Google Play.
 
 ## App Description from Google Play 
 

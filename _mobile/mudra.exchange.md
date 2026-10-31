@@ -39,7 +39,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** The Mudra Exchange website now shows only a domain parking page, so the exchange appears to be gone. It still showed the exchange in [December 2025](https://web.archive.org/web/20251209180643/http://mudra.exchange/). Both apps were already removed from the stores.
+**Update 2026-10-30:** The Mudra Exchange website now shows only a domain parking page, so the exchange appears to be gone. It still showed the exchange in [December 2025](https://web.archive.org/web/20251209180643/http://mudra.exchange/). Both apps were already removed from the stores.
 
 ## Android
 

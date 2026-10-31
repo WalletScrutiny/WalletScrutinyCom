@@ -33,7 +33,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** iWallet is defunct. The app is gone from both stores and the provider's website no longer works.
+**Update 2026-10-30:** iWallet is defunct. The app is gone from both stores and the provider's website no longer works.
 
 ## Android
 

@@ -17,4 +17,4 @@ android:
 
 ---
 
-**⚠️ Warning:** Bizblocks is gone. Its website was still up [in March 2023](https://web.archive.org/web/20230326083932/http://bizblocks.io/), but now sends visitors to unrelated shopping and gambling sites.
+**Update 2026-10-30:** Bizblocks is gone. Its website was still up [in March 2023](https://web.archive.org/web/20230326083932/http://bizblocks.io/), but now sends visitors to unrelated shopping and gambling sites.

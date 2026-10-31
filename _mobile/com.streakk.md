@@ -40,7 +40,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Streakk is gone. It [rebranded as Earn World](https://behindmlm.com/companies/streakk-ponzi-scheme-rebrands-as-earn-world/), France's AMF put Streakk on its blacklist in January 2024, and Earn World [collapsed in July 2024](https://decripto.org/en/earn-world-and-streakk-the-100-million-crypto-scam-funds-and-founder-disappear/) when its founder deleted the site and social profiles. Neither website loads any more.
+**Update 2026-10-30:** Streakk is gone. It [rebranded as Earn World](https://behindmlm.com/companies/streakk-ponzi-scheme-rebrands-as-earn-world/), France's AMF put Streakk on its blacklist in January 2024, and Earn World [collapsed in July 2024](https://decripto.org/en/earn-world-and-streakk-the-100-million-crypto-scam-funds-and-founder-disappear/) when its founder deleted the site and social profiles. Neither website loads any more.
 
 ## Android
 

@@ -29,7 +29,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** This provider looks gone. Its website now leads to an unrelated site, ubfx.com leads to an ad site, and both apps are gone from the stores.
+**Update 2026-10-30:** This provider looks gone. Its website now leads to an unrelated site, ubfx.com leads to an ad site, and both apps are gone from the stores.
 
 ## Android
 

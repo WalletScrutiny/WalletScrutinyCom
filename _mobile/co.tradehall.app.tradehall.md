@@ -36,7 +36,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Tradehall's website no longer loads; the [last archived copy](https://web.archive.org/web/20250425083328/https://tradehall.co/) is from April 2025.
+**Update 2026-10-30:** Tradehall's website no longer loads; the [last archived copy](https://web.archive.org/web/20250425083328/https://tradehall.co/) is from April 2025.
 
 ## Android
 

@@ -33,7 +33,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Zipwallet appears to be gone. Its website no longer loads and the Android app is no longer on Google Play. The iPhone app is still in the App Store, but it has not been updated since February 2022.
+**Update 2026-10-30:** Zipwallet appears to be gone. Its website no longer loads and the Android app is no longer on Google Play. The iPhone app is still in the App Store, but it has not been updated since February 2022.
 
 ## Android
 

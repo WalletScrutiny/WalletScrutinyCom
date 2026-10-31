@@ -38,7 +38,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Infinito Wallet has shut down. Its old website now belongs to Gem Wallet, an unrelated project, and [says the Infinito project closed](https://web.archive.org/web/20260919070801/https://infinitowallet.io/). Funds can still be recovered by importing the recovery phrase into another wallet.
+**Update 2026-10-30:** Infinito Wallet has shut down. Its old website now belongs to Gem Wallet, an unrelated project, and [says the Infinito project closed](https://web.archive.org/web/20260919070801/https://infinitowallet.io/). Funds can still be recovered by importing the recovery phrase into another wallet.
 
 ## Android
 

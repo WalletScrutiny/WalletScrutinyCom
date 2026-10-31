@@ -34,7 +34,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Stibits appears to be gone. Both apps are no longer in the stores, and the [Stibits website](https://web.archive.org/web/20230519162248/https://stibits.com/) no longer loads: its domain has expired and now shows a parking page.
+**Update 2026-10-30:** Stibits appears to be gone. Both apps are no longer in the stores, and the [Stibits website](https://web.archive.org/web/20230519162248/https://stibits.com/) no longer loads: its domain has expired and now shows a parking page.
 
 ## Android
 

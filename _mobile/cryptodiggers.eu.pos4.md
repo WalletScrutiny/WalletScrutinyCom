@@ -17,4 +17,4 @@ android:
 
 ---
 
-**⚠️ Warning:** CryptoDiggers looks gone. Its payment site [cdpay.eu](https://web.archive.org/web/20251213095419/http://cdpay.eu/) and [cryptodiggers.eu](https://web.archive.org/web/20251118133203/http://cryptodiggers.eu/) were last archived in late 2025; on 2026-10-30 cryptodiggers.eu no longer loaded and cdpay.eu showed an unrelated generic article.
+**Update 2026-10-30:** CryptoDiggers looks gone. Its payment site [cdpay.eu](https://web.archive.org/web/20251213095419/http://cdpay.eu/) and [cryptodiggers.eu](https://web.archive.org/web/20251118133203/http://cryptodiggers.eu/) were last archived in late 2025; on 2026-10-30 cryptodiggers.eu no longer loaded and cdpay.eu showed an unrelated generic article.

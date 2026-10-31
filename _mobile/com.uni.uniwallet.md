@@ -16,5 +16,5 @@ android:
 
 ---
 
-**⚠️ Warning:** The provider appears to be out of business. Its website is gone.
+**Update 2026-10-30:** The provider appears to be out of business. Its website is gone.
 

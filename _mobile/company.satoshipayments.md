@@ -25,7 +25,7 @@ android:
 
 ---
 
-**⚠️ Warning:** Satoshi Payments looks gone. The app is gone from Google Play, and satoshipayments.company no longer loads.
+**Update 2026-10-30:** Satoshi Payments looks gone. The app is gone from Google Play, and satoshipayments.company no longer loads.
 
 Note that this app shares similarities with {% include walletLink.html wallet='android/com.livingroomofsatoshi.wallet' verdict='true' %} and they both run on the Lightning network. They are not affiliated products.
 ## App Description from Google Play

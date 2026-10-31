@@ -17,4 +17,4 @@ android:
 
 ---
 
-**⚠️ Warning:** Senti Pay appears to be gone. Its website no longer loads; the last working copy in the Wayback Machine is from [November 2024](https://web.archive.org/web/20241109104401/https://www.sentipaywallet.com/).
+**Update 2026-10-30:** Senti Pay appears to be gone. Its website no longer loads; the last working copy in the Wayback Machine is from [November 2024](https://web.archive.org/web/20241109104401/https://www.sentipaywallet.com/).

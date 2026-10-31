@@ -36,7 +36,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** VegaWallet looks gone. Its website no longer loads; the last [archived copy](https://web.archive.org/web/20241008161926/https://www.vegawallet.com) is from October 2024.
+**Update 2026-10-30:** VegaWallet looks gone. Its website no longer loads; the last [archived copy](https://web.archive.org/web/20241008161926/https://www.vegawallet.com) is from October 2024.
 
 ## Android
 

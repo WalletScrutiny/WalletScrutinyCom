@@ -36,7 +36,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Paytomat appears to be gone. Its domain now carries generic crypto news articles with no wallet download, its GitHub account is gone, and the [last archived copy of the real Paytomat site is from January 2022](https://web.archive.org/web/20220125042531/https://paytomat.com/en/).
+**Update 2026-10-30:** Paytomat appears to be gone. Its domain now carries generic crypto news articles with no wallet download, its GitHub account is gone, and the [last archived copy of the real Paytomat site is from January 2022](https://web.archive.org/web/20220125042531/https://paytomat.com/en/).
 
 ## Android
 

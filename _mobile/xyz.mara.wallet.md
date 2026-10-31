@@ -41,7 +41,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Mara no longer exists. By April 2024 the company had run out of money and told its users to move to its new Jara app ([TechCabal](https://techcabal.com/2024/07/01/mara-blew-16-million-in-2022-as-the-leadership-fell-apart/)), which we list as {% include walletLink.html wallet='android/xyz.getjara' verdict='true' %}.
+**Update 2026-10-30:** Mara no longer exists. By April 2024 the company had run out of money and told its users to move to its new Jara app ([TechCabal](https://techcabal.com/2024/07/01/mara-blew-16-million-in-2022-as-the-leadership-fell-apart/)), which we list as {% include walletLink.html wallet='android/xyz.getjara' verdict='true' %}.
 
 ## Android
 

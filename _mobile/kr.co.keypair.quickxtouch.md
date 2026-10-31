@@ -26,8 +26,6 @@ android:
 <div class="alertBox"><div>There are reports that this company is involved in Ponzi schemes. Furthermore, it claims to be licensed by the MFSA (Malta Financial Services Authority), when in fact, <a href="https://www.mfsa.mt/news-item/mfsa-warning-quickx-ltd-cnexchange-unlicensed-entity/">they are not</a>. 
  </div> </div>
 
-**⚠️ Warning:** QuickX appears to be gone. Its websites are dead or parked.
-
 **Update 2026-10-30:** The provider is gone. quickx.io now shows a GoDaddy parking page and the quickxtouch.com website is gone.
 
 **Update 2022-02-20**: This app is not available anymore.

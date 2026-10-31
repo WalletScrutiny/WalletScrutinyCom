@@ -19,7 +19,7 @@ android:
 
 ---
 
-**⚠️ Warning:** Sinance looks gone. On 2026-10-30 sinance.net showed only a
+**Update 2026-10-30:** Sinance looks gone. On 2026-10-30 sinance.net showed only a
 placeholder page from a domain seller, and the app is no longer on Google Play.
 
 ## App Description from Google Play 

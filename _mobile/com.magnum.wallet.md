@@ -23,7 +23,7 @@ android:
 
 ---
 
-**⚠️ Warning:** Magnum Wallet appears to be gone. Its domain expired in 2022 ([archived](https://web.archive.org/web/20220810114228/https://magnumwallet.co/)) and now forwards to an unrelated site that lists other wallets.
+**Update 2026-10-30:** Magnum Wallet appears to be gone. Its domain expired in 2022 ([archived](https://web.archive.org/web/20220810114228/https://magnumwallet.co/)) and now forwards to an unrelated site that lists other wallets.
 
 In the app's description we read:
 

@@ -32,7 +32,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Okasan Online [ended its crypto CFD service](https://www.okasan-online.co.jp/information/2024/0322a/) in 2024. New trades stopped on 2024-06-19, open positions had to be closed by 2024-09-13 and the last withdrawals were on 2024-09-16.
+**Update 2026-10-30:** Okasan Online [ended its crypto CFD service](https://www.okasan-online.co.jp/information/2024/0322a/) in 2024. New trades stopped on 2024-06-19, open positions had to be closed by 2024-09-13 and the last withdrawals were on 2024-09-16.
 
 ## Android
 

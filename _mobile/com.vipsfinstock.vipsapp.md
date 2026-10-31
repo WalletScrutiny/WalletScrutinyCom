@@ -40,7 +40,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** VIPS Finstock looks gone. Both apps are no longer in the stores, and since at least January 2024 vipsfinstock.com no longer shows the exchange; the [Internet Archive](https://web.archive.org/web/20240523022609/https://vipsfinstock.com/) shows a parked domain, and today it hosts an unrelated list of trading platforms. We found no shutdown notice.
+**Update 2026-10-30:** VIPS Finstock looks gone. Both apps are no longer in the stores, and since at least January 2024 vipsfinstock.com no longer shows the exchange; the [Internet Archive](https://web.archive.org/web/20240523022609/https://vipsfinstock.com/) shows a parked domain, and today it hosts an unrelated list of trading platforms. We found no shutdown notice.
 
 ## Android
 

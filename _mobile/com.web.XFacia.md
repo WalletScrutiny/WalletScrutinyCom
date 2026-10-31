@@ -37,7 +37,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Xfacia appears to have shut down. Its website no longer loads, both apps are gone from the stores, and its [Telegram channel](https://t.me/s/XfaciaXchange) has had no post since May 2023.
+**Update 2026-10-30:** Xfacia appears to have shut down. Its website no longer loads, both apps are gone from the stores, and its [Telegram channel](https://t.me/s/XfaciaXchange) has had no post since May 2023.
 
 ## Android
 

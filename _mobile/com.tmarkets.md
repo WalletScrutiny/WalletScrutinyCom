@@ -34,7 +34,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** T1Markets appears to be out of business. Its website is gone and its X account has not posted since 2021.
+**Update 2026-10-30:** T1Markets appears to be out of business. Its website is gone and its X account has not posted since 2021.
 
 ## Android
 

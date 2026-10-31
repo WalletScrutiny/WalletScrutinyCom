@@ -38,7 +38,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Mayex looks gone. Its website stopped loading in early 2025 and the domain now only shows a parking page; both apps are gone from the stores.
+**Update 2026-10-30:** Mayex looks gone. Its website stopped loading in early 2025 and the domain now only shows a parking page; both apps are gone from the stores.
 
 ## Android
 

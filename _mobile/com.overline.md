@@ -38,7 +38,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Overline appears to be gone. Both apps are no longer in the stores, and its website overline.network no longer loads: the [last working archived copy](https://web.archive.org/web/20250223125119/https://overline.network/) is from February 2025, and every capture since late March 2025 shows the site down.
+**Update 2026-10-30:** Overline appears to be gone. Both apps are no longer in the stores, and its website overline.network no longer loads: the [last working archived copy](https://web.archive.org/web/20250223125119/https://overline.network/) is from February 2025, and every capture since late March 2025 shows the site down.
 
 ## Android
 

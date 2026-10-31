@@ -33,7 +33,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Bitcoin Well retired the Well Wallet in 2023 and asked users to move their recovery phrase to another wallet ([Bitcoin Well blog](https://bitcoinwell.com/blog/how-to-change-mobile-wallets)). The wellwallet.ca site now forwards to bitcoinwell.com, which no longer offers a wallet of its own.
+**Update 2026-10-30:** Bitcoin Well retired the Well Wallet in 2023 and asked users to move their recovery phrase to another wallet ([Bitcoin Well blog](https://bitcoinwell.com/blog/how-to-change-mobile-wallets)). The wellwallet.ca site now forwards to bitcoinwell.com, which no longer offers a wallet of its own.
 
 ## Android
 

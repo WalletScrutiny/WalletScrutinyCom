@@ -20,7 +20,6 @@ android:
 
 ---
 
-**⚠️ Warning:** This provider is gone. The app is no longer on Google Play, and
 its website yeswallet.io is gone.
 
 **Update 2026-10-30:** The provider is gone, and so is its website yeswallet.io.
