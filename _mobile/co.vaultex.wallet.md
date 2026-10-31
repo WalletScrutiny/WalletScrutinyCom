@@ -1,9 +1,9 @@
 ---
 title: Vaultex | Web3 wallet
-date: 2026-04-13
+date: 2026-10-30
 authors:
 - danny
-website: https://vaultex.co/
+website: https://web.archive.org/web/20250908002240/https://vaultex.co/
 redirect_from:
 - /android/co.vaultex.wallet/
 - /iphone/co.vaultex.wallet/
@@ -15,7 +15,7 @@ android:
   updated: 2024-05-20
   version: '1.0'
   icon: co.vaultex.wallet.webp
-  meta: obsolete
+  meta: defunct
   verdict: custodial
   developerName: Vaultex Ltd
 iphone:
@@ -32,6 +32,8 @@ iphone:
   developerName: Vaultex Ltd
 
 ---
+
+**⚠️ Warning:** The provider appears to be gone. The [Vaultex website](https://web.archive.org/web/20250908002240/https://vaultex.co/) no longer loads, the iPhone app is no longer in the App Store, the Android app has not been updated since May 2024, and the [Vaultex account on X](https://x.com/vaultex_wallet) shows no posts.
 
 ## Android
 

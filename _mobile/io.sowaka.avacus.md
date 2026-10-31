@@ -1,6 +1,6 @@
 ---
 title: Avacus Web3
-date: 2026-02-20
+date: 2026-10-30
 website: https://avacus.cc
 redirect_from:
 - /android/io.sowaka.avacus/

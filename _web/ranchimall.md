@@ -5,7 +5,7 @@ authors:
 - danny
 released: 2019-09-27
 discontinued: 
-updated: 2024-07-11
+updated: 2026-10-16
 version: 
 binaries: 
 provider: RanchiMall
@@ -16,12 +16,14 @@ icon:
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2026-04-14
+date: 2026-10-30
 twitter: 
 social: 
 features: 
 
 ---
+
+**Update 2026-10-30:** The project is active again: a [commit on 2026-10-16](https://github.com/ranchimall/btcwallet/commit/5ba1a41dc4ec45b71335f278880a866b2bce4ab7) reworked how signed transactions are broadcast (several providers instead of one). The verdict is unchanged.
 
 ## App Description
 
@@ -33,4 +35,4 @@ There is no installable binary. The repository is the deployable artifact: stati
 
 The app loads at least one dependency from an external CDN (`unpkg.com/uhtml@3.0.1`) at runtime, meaning the code executing in the browser is not solely what is committed to the repository. The pre-minified `.min.js` files also have no documented build provenance (no minifier config or lock file), making it impossible to verify whether they match the unminified `.js` counterparts also present in the repository.
 
-The project has been inactive since July 2024.
+The project was inactive from July 2024 until October 2026.

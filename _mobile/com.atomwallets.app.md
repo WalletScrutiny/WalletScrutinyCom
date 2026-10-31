@@ -1,6 +1,6 @@
 ---
 title: 'Atom: Crypto & USDT Wallet'
-date: 2026-03-05
+date: 2026-10-30
 authors:
 - danny
 website: https://atomwallets.com

@@ -1,6 +1,6 @@
 ---
 title: Trustless
-date: 2026-02-03
+date: 2026-10-30
 authors:
 - Pechen987 https://github.com/Pechen987
 - danny
@@ -42,6 +42,8 @@ iphone:
   repository: https://github.com/TrustlessWallet/Trustless
 
 ---
+
+**Update 2026-10-30:** Since release 3.2.2 the project no longer calls the Lightning balance non-custodial: its [README](https://github.com/TrustlessWallet/Trustless/blob/3.2.2/README.md) now says withdrawing it "currently requires the cooperative uptime of the routing servers". The development branch adds a last-resort [unilateral exit](https://github.com/TrustlessWallet/Trustless/blob/26f5b9991697867f7ebf17447d5a811fdbea0f72/docs/unilateral-exit.md) on Breez SDK 0.26.1, but no release ships it yet; the newest is [3.2.3](https://github.com/TrustlessWallet/Trustless/releases/tag/3.2.3) from October 10.
 
 ## App Description
 

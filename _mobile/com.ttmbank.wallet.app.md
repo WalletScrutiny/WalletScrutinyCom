@@ -1,9 +1,9 @@
 ---
 title: MDAO Wallet
-date: 2026-04-20
+date: 2026-10-30
 authors:
 - danny
-website: https://ttmwallet.io
+website: https://web.archive.org/web/20260118050545/https://ttmwallet.io/
 twitter: 0xMarsDAO
 social:
 - https://www.youtube.com/@MarsDAO
@@ -25,6 +25,8 @@ android:
   developerName: MDAO Wallet
 
 ---
+
+**Update 2026-10-30:** The ttmwallet.io website no longer loads; the last [archived copy](https://web.archive.org/web/20260118050545/https://ttmwallet.io/) is from January 2026. MarsDAO still points to this app in its [documentation](https://docs.daomars.com/f.a.q/mdao-wallet). The KeyWallet card it pairs with is now listed as discontinued: {% include walletLink.html wallet='hardware/ttmcard' verdict='true' %}.
 
 ## App Description from Google Play 
 

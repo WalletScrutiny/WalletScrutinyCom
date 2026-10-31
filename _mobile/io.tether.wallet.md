@@ -1,6 +1,6 @@
 ---
 title: 'Tether Wallet: USDT & Bitcoin'
-date: 2026-04-20
+date: 2026-10-30
 authors:
 - danny
 website: https://wallet.tether.io/support/

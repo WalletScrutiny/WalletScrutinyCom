@@ -21,7 +21,7 @@ icon: walt.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-date: 2026-02-27
+date: 2026-10-30
 signer: 
 twitter: Angainor15
 social: 

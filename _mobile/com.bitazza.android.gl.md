@@ -1,6 +1,6 @@
 ---
 title: 'Bitazza: Buy & Trade Crypto'
-date: 2026-04-13
+date: 2026-10-30
 authors:
 - danny
 website: http://bitazza.com/

@@ -1,6 +1,6 @@
 ---
 title: AXACTPAY
-date: 2026-03-18
+date: 2026-10-30
 website: https://www.axactpay.net#deadLink
 redirect_from:
 - /android/com.Queper.AXACTPAY/

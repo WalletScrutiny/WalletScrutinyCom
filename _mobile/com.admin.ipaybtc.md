@@ -1,6 +1,6 @@
 ---
 title: IpayBTC
-date: 2026-04-28
+date: 2026-10-30
 appCountry: us
 redirect_from:
 - /iphone/com.admin.ipaybtc/

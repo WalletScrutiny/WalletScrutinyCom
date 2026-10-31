@@ -1,6 +1,6 @@
 ---
 title: Deskoin - Investir en cryptos
-date: 2026-04-20
+date: 2026-10-30
 authors:
 - danny
 website: https://www.deskoin.com/
