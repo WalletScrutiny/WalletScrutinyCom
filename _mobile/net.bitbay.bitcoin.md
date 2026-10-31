@@ -1,9 +1,9 @@
 ---
 title: zondacrypto - crypto exchange
-date: 2021-05-25
+date: 2026-10-30
 authors:
 - leo
-website: https://zondacrypto.com
+website: https://zondacrypto.com#deadLink
 twitter: BitBay
 social:
 - https://www.linkedin.com/company/bitbay
@@ -33,17 +33,26 @@ iphone:
   version: 1.4.16
   reviews: 3
   icon: com.bitbay.BitBayTrading.webp
-  meta: ok
+  meta: defunct
   verdict: custodial
   developerName: BitBay Sp. z o.o.
 
 ---
 
+**⚠️ Warning:** zondacrypto, formerly BitBay, has collapsed. It
+[froze withdrawals in April 2026](https://www.magnussonlaw.com/ee/zondacrypto-collapse/),
+Estonia revoked the license of its operator on 2026-06-29, and on 2026-08-27
+the Harju County Court
+[declared BB Trade Estonia OÜ bankrupt](https://bankier.pl/wiadomosc/Wierzyciele-Zondacrypto-czekaja-na-rozliczenie-Syndyk-ma-tysiace-zgloszen-9219569.html).
+Its website no longer loads.
+
+**Update 2026-10-30:** Customers of the bankrupt exchange behind both apps can now only file claims with the bankruptcy trustee.
+
 ## Android
 
 This app's description loses no word on who holds the keys to your coins. Their
 website is mainly about the exchange and not about the mobile appp but there is
-[a site about that](https://bitbay.net/en/mobile), too. There they only talk
+[a site about that](https://web.archive.org/web/20210613183010/https://bitbay.net/en/mobile), too. There they only talk
 about exchange features, too and lose no word about who holds the keys which
 probably means this app is a custodial offering and therefore **not verifiable**.
 
@@ -53,6 +62,6 @@ probably means this app is a custodial offering and therefore **not verifiable**
 
 This app's description loses no word on who holds the keys to your coins. Their
 website is mainly about the exchange and not about the mobile appp but there is
-[a site about that](https://bitbay.net/en/mobile), too. There they only talk
+[a site about that](https://web.archive.org/web/20210613183010/https://bitbay.net/en/mobile), too. There they only talk
 about exchange features, too and lose no word about who holds the keys which
 probably means this app is a custodial offering and therefore **not verifiable**.

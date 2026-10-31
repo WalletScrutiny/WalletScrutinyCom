@@ -19,9 +19,9 @@ price:
 repository: 
 icon: 
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2022-05-04
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -29,6 +29,10 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** BitSB appears to be gone. Its domain is a parking page.
+
+**Update 2026-10-30:** BitSB never showed a wallet and the provider is gone, so we mark it defunct. On 2026-10-30 bitsb.org only redirected to a GoDaddy parking page.
 
 The older version of BitSB's website contains mentions of "Hardware Miners and Wallets." Searching for the "wallet" online doesn't return any relevant results.
 

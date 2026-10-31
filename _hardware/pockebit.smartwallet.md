@@ -13,16 +13,16 @@ dimensions:
 weight: 
 provider: Pockebit
 providerWebsite: 
-website: https://pockebit.com/
+website: https://web.archive.org/web/20181226144130/https://pockebit.com/
 shop: 
 country: JP
 price: 
 repository: 
 icon: pockebit.smartwallet.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2023-09-29
+date: 2026-10-30
 signer: 
 twitter: 
 social:
@@ -32,6 +32,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Pockebit appears to be gone and the wallet never shipped. Its [site](https://web.archive.org/web/20181226144130/https://pockebit.com/) no longer loads and the domain is up for sale.
 
 ## Product Background
 

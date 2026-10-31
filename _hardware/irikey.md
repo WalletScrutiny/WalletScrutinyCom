@@ -4,7 +4,7 @@ appId: irikey
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2022-03-09
 updated: 
 version: 
 binaries: 
@@ -12,16 +12,16 @@ dimensions:
 weight: 
 provider: Iritech, Inc
 providerWebsite: https://www.iritech.com/
-website: https://www.iritech.com/news-events/news/irikey-%E2%80%93-iris-based-secure-id-management-blockchain-applications#deadLink
+website: https://iritech.com/irikey-iris-recognition-secure-id-management-for-blockchain-applications/
 shop: 
 country: 
 price: 
 repository: 
 icon: irikey.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: nosource
-date: 2022-03-23
+date: 2026-10-30
 signer: 
 twitter: IriTechInc
 social:
@@ -32,11 +32,13 @@ features:
 
 ---
 
+**Update 2026-10-30:** IriTech is still in business, but IriKey seems to be abandoned, so we change the meta from defunct to discontinued. IriKey is not among the [hardware products](https://iritech.com/products/hardware/) any more, and the [IriKey announcement from 2019](https://iritech.com/irikey-iris-recognition-secure-id-management-for-blockchain-applications/) moved to a new address (the links on this page now point there).
+
 While Iritech's social media still looks to be active, there is little recent information online concerning their bitcoin hardware product. They are primarily a biometrics company. Listed relevant videos and articles all come from 2018-2019. Additionally, we found it odd there does not seem to be any clear link to any store for this hardware wallet.
 
 IriKey is said to be a hardware wallet that utilizes iris biometrics. [Here is a video](https://www.youtube.com/watch?v=X1it12CVWzc) demonstrating this product's functions.
 
-The providers state that IriKey does not utilize seed phrases. From [its article:](https://www.iritech.com/news-events/news/irikey-%E2%80%93-iris-based-secure-id-management-blockchain-applications#deadLink)
+The providers state that IriKey does not utilize seed phrases. From [its article:](https://iritech.com/irikey-iris-recognition-secure-id-management-for-blockchain-applications/)
 
 > IriKey has a built-in NIR iris camera and on-board iris software that is used to “mix” (or “lock”) the wallet’s secret seed with its owner’s iris data. Once the so-called “iris locked seed” is generated (i.e., the mixture is done), the original seed and iris data will be forensically deleted for security purposes. The original seed can be retrieved from the locked seed if and only if a newly captured iris image is determined to be from the same eye used in locking the seed. That way, it will only take the owner an iris scan to login to IriKey (no PIN needed) or recover their assets in case the device is lost or stolen, given that the locked seed has been backed up in advance.
 

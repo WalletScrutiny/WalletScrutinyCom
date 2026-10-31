@@ -22,9 +22,9 @@ price: 27000JPY
 repository: 
 icon: morix.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: plainkey
-date: 2022-02-18
+date: 2026-10-30
 signer: 
 twitter: MoriXjp
 social: 
@@ -32,6 +32,10 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** MoriX ended the Wallet Card service on 2025-06-01, and the card no longer works.
+
+**Update 2026-10-30:** MoriX shut down the Wallet Card service on 2025-06-01, saying in its [service end notice of 2025-05-07](https://morixjp.com/morix-wallet-card-%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e7%b5%82%e4%ba%86%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/) (Japanese) that a major outside service it relied on was ending. The companion app {% include walletLink.html wallet='android/com.morix.wallet' verdict='true' %} is gone from Google Play. We mark the card defunct.
 
 ## Advertised Features
 

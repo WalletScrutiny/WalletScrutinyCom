@@ -4,7 +4,7 @@ appId: tangemnote
 authors:
 - danny
 released: 2020-03-25
-discontinued: 
+discontinued: 2024-12-12
 updated: 
 version: 
 binaries: 
@@ -22,9 +22,9 @@ price: 19.90USD
 repository: 
 icon: tangemnote.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: noita
-date: 2025-02-06
+date: 2026-10-30
 signer: 
 twitter: Tangem
 social:
@@ -36,6 +36,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** We now mark the Tangem Note discontinued instead of defunct. Tangem no longer sells it (its [shop page](https://web.archive.org/web/20241212033456/https://shop.tangem.com/products/tangem-note) was gone by December 2024), but cards already sold still work: the current {% include walletLink.html wallet='android/com.tangem.wallet' verdict='true' %} app still recognizes Tangem Note cards in its [source code](https://github.com/tangem/tangem-app-android/blob/master/domain/card/src/main/kotlin/com/tangem/domain/card/TangemCardTypesResolver.kt).
 
 ## Update 2025-02-06
 

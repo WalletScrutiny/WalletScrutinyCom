@@ -4,7 +4,7 @@ appId: idemia.bchain
 authors:
 - danny
 released: 2018-06-15
-discontinued: 
+discontinued: 2026-10-30
 updated: 
 version: 
 binaries: 
@@ -12,16 +12,16 @@ dimensions:
 weight: 
 provider: IDEMIA
 providerWebsite: https://www.idemia.com/
-website: https://www.idemia.com/card-based-crypto-hardware-wallet
+website: https://web.archive.org/web/20260216174136/https://www.idemia.com/card-based-crypto-hardware-wallet/
 shop: https://www.idemia.com/contact/?product=10013
 country: FR
 price: 
 repository: 
 icon: idemia.bchain.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: plainkey
-date: 2023-02-09
+date: 2026-10-30
 signer: 
 twitter: idemiagroup
 social:
@@ -30,6 +30,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** IDEMIA no longer offers B.CHAIN, so we mark it discontinued. The [product page](https://web.archive.org/web/20260216174136/https://www.idemia.com/card-based-crypto-hardware-wallet/) was still online in February 2026 but now sends visitors to IDEMIA's general payment page, and a search of the IDEMIA site only finds a [2018 news item](https://www.idemia.com/news/idemia-recognized-2018-payforum-revolutionizing-use-bank-cards-and-payment-methods-fcode-and-bchain-2018-03-22/) about it. The card was sold through wallet providers, and its seed is a standard BIP39 phrase.
 
 ## Product Description 
 
@@ -40,7 +42,7 @@ features:
 > - Restore a lost (or stolen) wallet: In case the B.CHAIN card gets lost or stolen, the user stays safe. Without proper authentication, the crypto wallet remains locked and the user can restore all their cryptos and accounts in a new card using their BIP39-compliant passphrase and the B.CHAIN quick restore mechanism.
 > - Once protected within the secure element of the B.CHAIN crypto hardware wallet, the private keys always remain under the full control of the user. Every crypto transfer will require the B.CHAIN holder to authenticate with the fingerprint sensor embedded in the biometric card body or with a PIN code.
 
-From their [website.](https://www.idemia.com/card-based-crypto-hardware-wallet)
+From their [website.](https://web.archive.org/web/20260216174136/https://www.idemia.com/card-based-crypto-hardware-wallet/)
 
 ## Analysis 
 

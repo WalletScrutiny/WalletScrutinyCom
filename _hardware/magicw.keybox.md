@@ -4,7 +4,7 @@ appId: magicw.keybox
 authors:
 - danny
 released: 2018-11-01
-discontinued: 
+discontinued: 2026-07-13
 updated: 2018-11-22
 version: 0.3.0
 binaries: https://github.com/KeyboxWallet/keyboxd/releases
@@ -12,16 +12,16 @@ dimensions:
 weight: 
 provider: Magictime Technology Pte.Ltd.
 providerWebsite: 
-website: https://keybox.magicw.net
-shop: https://keybox.magicw.net/buyen.html
+website: https://web.archive.org/web/20230326093036/https://keybox.magicw.net/indexen.html
+shop: https://web.archive.org/web/20230602062632/https://keybox.magicw.net/buyen.html
 country: CN
 price: 999 CNY
 repository: https://github.com/KeyboxWallet/keyboxd
 icon: magicw.keybox.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: nosource
-date: 2023-03-03
+date: 2026-10-30
 signer: 
 twitter: 
 social:
@@ -32,11 +32,13 @@ features:
 
 ---
 
+**Update 2026-10-30:** The Keybox is no longer sold and its website no longer loads. The [last archived copy of the site is from September 2024](https://web.archive.org/web/20240907102928/https://keybox.magicw.net/), and by [July 2026](https://web.archive.org/web/20260713101011/http://magicw.net/) the magicw.net domain only showed a registrar placeholder. The device uses a standard BIP39 recovery phrase, and the [companion software on GitHub](https://github.com/KeyboxWallet) has not changed since 2020.
+
 ## Updated Verdict 2023-04-06 
 
 As per [Leo](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/merge_requests/398#note_1342685484), the repository available is of the companion app and bridge software. In the interim, we'll assign a verdict reflecting that the firmware is not publicly available, until further notice. 
 
-## Product Description from {{ page.title }} [web page](https://keybox.magicw.net/indexen.html#hdTech)
+## Product Description from {{ page.title }} [web page](https://web.archive.org/web/20230326093036/https://keybox.magicw.net/indexen.html#hdTech)
 
 > The hardware wallet itself acts as a signature agent, and the underlying signature parts of different blockchains are uniformly processed; no advanced semantics are included.
 >
@@ -81,7 +83,7 @@ As per [Leo](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/merge_request
 
 ## Analysis 
 
-The provider [claims](https://keybox.magicw.net/indexen.html) that:
+The provider [claims](https://web.archive.org/web/20230326093036/https://keybox.magicw.net/indexen.html) that:
 
 > 1.私钥永不触网
 > 即使您的PC或手机被黑,

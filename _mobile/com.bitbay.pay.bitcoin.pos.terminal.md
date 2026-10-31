@@ -1,9 +1,9 @@
 ---
 title: zondacrypto pay terminal
-date: 2026-02-02
+date: 2026-10-30
 authors:
 - danny
-website: https://zondaglobal.com/pay
+website: https://web.archive.org/web/20251011064129/https://zondaglobal.com/pay
 twitter: zondaglobal
 social:
 - https://www.linkedin.com/company/zondaglobal/
@@ -19,11 +19,13 @@ android:
   updated: 2023-11-07
   version: 1.7.3(59)
   icon: com.bitbay.pay.bitcoin.pos.terminal.webp
-  meta: obsolete
+  meta: defunct
   verdict: custodial
   developerName: BB Trade Estonia
 
 ---
+
+**⚠️ Warning:** zondacrypto has collapsed. The exchange froze withdrawals in April 2026 and took its website down on 23 April 2026. Estonia revoked the license of the operator, BB Trade Estonia, on 29 June 2026, and a bankruptcy case opened on 6 July 2026 ([Magnusson](https://www.magnussonlaw.com/ee/zondacrypto-collapse/), [Cryptopolitan](https://www.cryptopolitan.com/zondacrypto-collapses-as-executives-vanish-and-users-lose-access-to-funds/)). The zondaglobal.com site is now a domain for sale. This terminal app depends on that service and can no longer be used.
 
 ## App Description 
 
@@ -44,4 +46,4 @@ Bitcoin Terminal - Zonda Pay is a Point of Sale system that accepts cryptocurren
 
 ## Verdict
 
-It mentions in the help section that [cryptocurrency deposits and withdrawals can be made](https://zondaglobal.com/en/helpdesk/zonda-pay/deposits-and-withdrawals). This is available on the web application accessible via their [web form](https://app.paywithzonda.com#deadLink). However, we were not able to test this on the app itself as we kept getting QR code errors. Assuming the documentation is accurate, the ability to pay using the Zonda Pay PoS app using cryptocurrencies, and the ability to receive the same also qualifies this PoS app as a wallet. Its centralized nature, with no evidence for private key backup and restore make this service **custodial**.
+It mentions in the help section that [cryptocurrency deposits and withdrawals can be made](https://web.archive.org/web/20230130053650/https://zondaglobal.com/en/helpdesk/zonda-pay/deposits-and-withdrawals). This is available on the web application accessible via their [web form](https://app.paywithzonda.com#deadLink). However, we were not able to test this on the app itself as we kept getting QR code errors. Assuming the documentation is accurate, the ability to pay using the Zonda Pay PoS app using cryptocurrencies, and the ability to receive the same also qualifies this PoS app as a wallet. Its centralized nature, with no evidence for private key backup and restore make this service **custodial**.

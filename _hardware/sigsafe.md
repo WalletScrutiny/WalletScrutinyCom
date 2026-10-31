@@ -19,9 +19,9 @@ price: 8USD
 repository: 
 icon: sigsafe.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2022-04-11
+date: 2026-10-30
 signer: 
 twitter: PeterRizun
 social: 
@@ -29,6 +29,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** SigSafe is gone: sigsafe.com is for sale, and the device never shipped.
 
 This device uses NFC (Near Field Communication) technology to sign bitcoin transactions. It was announced in 2014 via [bitcointalk.org](https://bitcointalk.org/index.php?topic=610453.0), although its domain is now no longer online.
 

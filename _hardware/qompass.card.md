@@ -12,16 +12,16 @@ dimensions:
 weight: 
 provider: Qompass
 providerWebsite: 
-website: https://qompass.io/
+website: https://web.archive.org/web/20220124061610/https://qompass.io/
 shop: 
 country: HK
 price: 
 repository: 
 icon: qompass.card.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2022-05-04
+date: 2026-10-30
 signer: 
 twitter: QompassMarkets
 social:
@@ -30,6 +30,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Qompass is gone, and the Qompass Card never shipped.
 
 **⚠️ Note:** Qompass held a token sale sometime in 2018. They claim to have [reached their softcap of $2,000,000](https://twitter.com/QompassMarkets/status/999675258218008576). Their [last tweet](https://twitter.com/QompassMarkets/status/995717627921158144) was made on May 14, 2018.
 

@@ -4,7 +4,7 @@ appId: mycelium.entropy
 authors:
 - danny
 released: 2015-03-03
-discontinued: 
+discontinued: 2026-10-30
 updated: 2015-11-24
 version: '1.1'
 binaries: https://mycelium.com/download/entropy/me-1.1.bin
@@ -22,9 +22,9 @@ price: 29.99USD
 repository: 
 icon: mycelium.entropy.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: plainkey
-date: 2024-11-15
+date: 2026-10-30
 signer: 
 twitter: MyceliumCom
 social:
@@ -34,6 +34,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** The [Amazon listing](https://www.amazon.com/gp/product/B00WIRLGH4/) says the Mycelium Entropy is currently unavailable, so we list it as discontinued. A device you already own still works without Mycelium, because it makes paper wallets on its own, and the [firmware](https://mycelium.com/download/entropy/me-1.1.bin) and [user manual](https://mycelium.com/assets/entropy/me.html) are still online.
 
 ## Background 
 

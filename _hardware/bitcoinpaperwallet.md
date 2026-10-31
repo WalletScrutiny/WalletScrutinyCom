@@ -5,7 +5,7 @@ authors:
 - danny
 - leo
 released: 2013-04-14
-discontinued: 
+discontinued: 2025-12-01
 updated: 2017-09-22
 version: 
 binaries: 
@@ -20,9 +20,9 @@ price:
 repository: https://github.com/cantonbecker/bitcoinpaperwallet
 icon: bitcoinpaperwallet.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: plainkey
-date: 2022-05-04
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -30,6 +30,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** BitcoinPaperWallet.com has shut down, so we mark it discontinued. Its [website](https://bitcoinpaperwallet.com/) now says the service "has been permanently discontinued" as of December 2025 and points users to bitaddress.org and to sweeping existing paper wallets into Electrum.
 
 <div class="alertBox"><div>
 <p>There are credible scam accusations about this product! The Brave browser

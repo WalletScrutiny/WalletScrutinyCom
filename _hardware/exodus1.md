@@ -6,7 +6,7 @@ authors:
 - leo
 - danny
 released: 2018-10-23
-discontinued: 
+discontinued: 2021-11-22
 updated: 
 version: 
 binaries: 
@@ -21,9 +21,9 @@ price:
 repository: 
 icon: exodus1.webp
 bugbounty: https://www.htcexodus.com/mea-en/bounty-program/
-meta: defunct
+meta: discontinued
 verdict: nosource
-date: 2021-11-26
+date: 2026-10-30
 signer: 
 twitter: htcexodus
 social:
@@ -35,11 +35,13 @@ features:
 
 ---
 
+**Update 2026-10-30:** [htcexodus.com](https://www.htcexodus.com/us/cryptophone/exodus1/) now redirects to HTC's main website. The Ledger Donjon report linked below now leads to a missing page, so the link points to an archived copy.
+
 The HTC Exodus 1 Cryptophone is not comparable to other hardware wallets such as Trezor or Ledger Nano because it is in essence, still a smartphone.
 
 [Here is a video review](https://www.youtube.com/watch?v=PR5PkTa1ags) of this product.
 
-In 2019, security researchers [discovered and reported](https://donjon.ledger.com/Stealing-all-HTC-Exodus-users/) a security problem with this product. It has since been patched.
+In 2019, security researchers [discovered and reported](https://web.archive.org/web/20220128055252/https://donjon.ledger.com/Stealing-all-HTC-Exodus-users/) a security problem with this product. It has since been patched.
 
 ## Private keys can be created offline - ✔️
 
@@ -85,4 +87,4 @@ It also claims to store the full bitcoin ledger (which is currently around the a
 
 The app did not advertise itself as an open-source offering.
 
-We cannot find any official shop on the HTC website for {{ page.title }}, with the social media account's last post dating back to December 2020. Even the GitHub account's repos has had no updates since 2019. Until further update, this app is classified as **defunct.**
+We cannot find any official shop on the HTC website for {{ page.title }}, with the social media account's last post dating back to December 2020. Even the GitHub account's repos has had no updates since 2019. Until further update, this device is classified as **discontinued.**

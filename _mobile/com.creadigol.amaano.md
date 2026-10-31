@@ -1,6 +1,6 @@
 ---
 title: amaano
-date: 2023-03-21
+date: 2026-10-30
 website: https://amaano.com/
 redirect_from:
 - /android/com.creadigol.amaano/
@@ -11,7 +11,7 @@ android:
   updated: 2026-03-30
   version: 1.6.2
   icon: com.creadigol.amaano.webp
-  meta: defunct
+  meta: ok
   verdict: wip
   developerName: amaano
 

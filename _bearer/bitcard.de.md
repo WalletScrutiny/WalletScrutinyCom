@@ -4,7 +4,7 @@ appId: bitcard.de
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2018-12-27
 updated: 
 version: 
 binaries: 
@@ -19,9 +19,9 @@ price: 1USD
 repository: 
 icon: bitcard.de.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: prefilled
-date: 2022-05-19
+date: 2026-10-30
 signer: 
 twitter: 
 social: 

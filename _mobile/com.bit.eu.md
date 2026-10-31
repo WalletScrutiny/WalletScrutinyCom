@@ -1,9 +1,9 @@
 ---
 title: Biteeu
-date: 2025-02-26
+date: 2026-10-30
 authors:
 - danny
-website: http://www.biteeu.com
+website: http://www.biteeu.com#deadLink
 twitter: BiteeuExchange
 social:
 - https://www.linkedin.com/company/biteeu
@@ -20,7 +20,7 @@ android:
   updated: 2023-10-03
   version: 1.12.3
   icon: com.bit.eu.webp
-  meta: obsolete
+  meta: defunct
   verdict: custodial
   developerName: INTEBIX LTD
 iphone:
@@ -37,6 +37,8 @@ iphone:
   developerName: BITEEU LTD
 
 ---
+
+**⚠️ Warning:** Biteeu appears to be gone. Since at least April 2024 its homepage only said that ["the exchange is currently unavailable" for technical maintenance](https://web.archive.org/web/20240406002305/https://biteeu.com/), and now the site no longer loads at all. The iPhone app is gone from the App Store.
 
 ## Android
 

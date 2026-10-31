@@ -1,9 +1,9 @@
 ---
 title: 'Element Wallet: Chat & Pay'
-date: 2026-04-13
+date: 2026-10-30
 authors:
 - danny
-website: https://www.elementwallet.com/
+website: https://web.archive.org/web/20251213193631/https://www.elementwallet.com/
 redirect_from:
 - /android/com.corewallet.element.app/
 - /iphone/Element-com.elementwallet.app/
@@ -16,7 +16,7 @@ android:
   version: 1.13.0
   reviews: 328
   icon: com.corewallet.element.app.webp
-  meta: stale
+  meta: defunct
   verdict: nosource
   developerName: Element Wallet Inc
 iphone:
@@ -28,11 +28,15 @@ iphone:
   version: 1.13.0
   reviews: 177
   icon: Element-com.elementwallet.app.webp
-  meta: stale
+  meta: defunct
   verdict: nosource
   developerName: Core Wallet Inc
 
 ---
+
+**⚠️ Warning:** Element Wallet has shut down. Its website no longer loads, and the team told users to [back up their seed phrase and import it into another Core-compatible wallet by Thursday, January 22, 2026](https://x.com/elementwallet), when its temporary access window ended. Do not keep funds in this app.
+
+**Update 2026-10-30:** Element Wallet closed in January 2026 (see the warning above), so we mark both apps as defunct even though they are still listed in the stores.
 
 ## Android
 

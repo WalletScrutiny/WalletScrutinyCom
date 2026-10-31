@@ -19,9 +19,9 @@ price:
 repository: 
 icon: youba.wallet.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: noita
-date: 2024-10-23
+date: 2026-10-30
 signer: 
 twitter: yooba_io
 social: 
@@ -29,6 +29,10 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Yooba appears to be gone. youba.io now only offers the domain for sale, and we found no youba app in either store.
+
+**Update 2026-10-30:** The card needs the youba app to create its key, and the provider is gone, so we mark it defunct.
 
 ## Update 2024-10-23
 

@@ -4,7 +4,7 @@ appId: icoldwallet
 authors:
 - danny
 released: 2021-12-06
-discontinued: 
+discontinued: 2025-07-11
 updated: 
 version: 
 binaries: 
@@ -22,9 +22,9 @@ price: 38.99USD
 repository: 
 icon: icoldwallet.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: noita
-date: 2022-03-11
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -33,11 +33,13 @@ features:
 
 ---
 
+**Update 2026-10-30:** This device is no longer sold: the [Amazon listing](https://www.amazon.com/dp/B09MQ8CWJ9/) says "Currently unavailable", and the companion app {% include walletLink.html wallet='iphone/com.idiskk.wallet.usb' verdict='true' %} has been removed from the App Store. We mark the device discontinued.
+
 ## General Overview 
 
 The original company is named Shenzhen Feitianxia Technology Co, Ltd. It is also known as [idiskk](http://idiskk.com/idiskk_new/about/?53.html). The product listings on Amazon.com are under the brand ySky or Jostart. However, we believe these are produced by the same company: Feitianxia Technology Co, Ltd. 
 
-iColdWallet is the [mobile iOS app](https://apps.apple.com/nz/app/icoldwallet/id1585595473) referenced in both ySky and Jostart. It also references Feitianxia Technology Co, Ltd.
+iColdWallet is the mobile iOS app {% include walletLink.html wallet='iphone/com.idiskk.wallet.usb' verdict='true' %} referenced in both ySky and Jostart. It also references Feitianxia Technology Co, Ltd.
 
 ## Product Description 
 

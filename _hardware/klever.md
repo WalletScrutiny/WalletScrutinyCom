@@ -4,7 +4,7 @@ appId: klever
 authors:
 - danny
 released: 2021-12-17
-discontinued: 
+discontinued: 2026-10-30
 updated: 
 version: 
 binaries: 
@@ -19,9 +19,9 @@ price: 199USD
 repository: 
 icon: klever.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: noita
-date: 2022-02-18
+date: 2026-10-30
 signer: 
 twitter: klever_io
 social:
@@ -31,6 +31,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** KleverSafe can no longer be bought: kleversafe.io now redirects to [klever.io/kleversafe](https://klever.io/kleversafe/), which says "KleverSafe units are currently sold out", so we mark the device discontinued. The K4 app linked below has left Google Play; its successor is {% include walletLink.html wallet='android/finance.klever.bitcoin.wallet' verdict='true' %}.
 
 Klever is a company with many [development goals](https://web.archive.org/web/20230201032825/https://klever.finance/roadmap/) in mind. It's projects include smart phone wallets, crypto debit cards, its own blockchain, a cryptocurrency exchange and the Klever Hardware wallet which concluded its Pre-Sale in the 4th quarter of 2021. They claim that the Pre-Sale sold out. 
 

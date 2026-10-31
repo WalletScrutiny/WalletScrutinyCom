@@ -19,9 +19,9 @@ price:
 repository: 
 icon: afripay.afriwallet.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2022-05-03
+date: 2026-10-30
 signer: 
 twitter: afripay_io
 social:
@@ -30,6 +30,10 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Afripay appears to be gone. Its website no longer loads.
+
+**Update 2026-10-30:** The wallet never shipped and the provider is gone, so we mark it defunct. Neither afripay.io nor docs.afripay.io loads any more.
 
 As of the date of this review, this product's official website [is down.](https://www.isitdownrightnow.com/docs.afripay.io.html)
 

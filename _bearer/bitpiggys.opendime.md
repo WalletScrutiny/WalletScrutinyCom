@@ -4,24 +4,24 @@ appId: bitpiggys.opendime
 authors:
 - danny
 released: 2019-07-16
-discontinued: 
+discontinued: 2022-11-11
 updated: 
 version: 
 binaries: 
 dimensions: 
 weight: 
 provider: Bitpiggys
-providerWebsite: https://www.bitpiggys.com
+providerWebsite: https://web.archive.org/web/20220518153314/https://www.bitpiggys.com/
 website: 
-shop: https://www.bitpiggys.com/online-store
+shop: https://web.archive.org/web/20220518153314/https://www.bitpiggys.com/
 country: 
 price: 
 repository: 
 icon: bitpiggys.opendime.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: sealed-plainkey
-date: 2022-11-11
+date: 2026-10-30
 signer: 
 twitter: bitpiggys
 social:
@@ -29,6 +29,10 @@ social:
 features: 
 
 ---
+
+**Update 2026-10-30:** The bitpiggys.com site now shows unrelated crypto articles, and the piggy bank
+is no longer sold ([last shop page in the archive](https://web.archive.org/web/20220518153314/https://www.bitpiggys.com/)). The Opendime inside still works
+without Bitpiggys, so we list the product as discontinued rather than defunct.
 
 ## Product Description 
 

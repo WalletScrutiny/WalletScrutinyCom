@@ -5,7 +5,7 @@ authors:
 - kiwilamb
 - danny
 released: 
-discontinued: 
+discontinued: 2024-04-13
 updated: 2019-01-27
 version: '1.2'
 binaries: 
@@ -16,16 +16,16 @@ dimensions:
 weight: 8.5
 provider: BrilliantTS
 providerWebsite: https://web.archive.org/web/20251212225619/https://brilliantts.com/
-website: https://fuzeway.com/collections/fuzew-products
-shop: https://fuzeway.com/products/fuzew-hardware-wallet
+website: https://fuzeway.com/collections/fuzew-products#deadLink
+shop: https://fuzeway.com/products/fuzew-hardware-wallet#deadLink
 country: KP
 price: 99USD
 repository: 
 icon: fuzew.webp
 bugbounty: 
-meta: obsolete
+meta: discontinued
 verdict: nosource
-date: 2021-12-03
+date: 2026-10-30
 signer: 
 twitter: w_fuze
 social:
@@ -35,11 +35,15 @@ features:
 
 ---
 
+**⚠️ Warning:** BrilliantTS, the maker of FuzeW, appears to be gone. Its website domain has expired and the FuzeW shop no longer exists.
+
+**Update 2026-10-30:** We now mark this device discontinued instead of obsolete, as BrilliantTS no longer sells or supports it. fuzeway.com, which hosted the shop, is gone, and by [March 2026](https://web.archive.org/web/20260313233412/https://brilliantts.com/) the BrilliantTS domain showed the registrar's "This domain name has expired" page; brilliantts.com and fuzew.com are now gone too.
+
 FuzeW refers to itself as a "wireless cryptocurrency hardware wallet."  It resembles a credit card, although it has both a screen and buttons.
 
 It has a companion app for Android: {% include walletLinkArchived.html wallet='android/com.brilliantts.fuzew' %}
 
-From the [blog:](https://fuzew.com/blogs/news/best-wallet-for-storing-dash-fuzew)
+From the [blog:](https://web.archive.org/web/20211023175207/https://fuzew.com/blogs/news/best-wallet-for-storing-dash-fuzew)
 
 > Security-Convenience compatible crypto wallet: <br>
 FuzeW - Secure as Ledger, Easy and Convenient as a mobile "Hot" wallet

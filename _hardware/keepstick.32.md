@@ -4,7 +4,7 @@ appId: keepstick.32
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2024-03-01
 updated: 
 version: 
 binaries: 
@@ -22,9 +22,9 @@ price: 69GBP
 repository: 
 icon: keepstick.32.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: nosource
-date: 2022-05-03
+date: 2026-10-30
 signer: 
 twitter: keep_stick
 social:
@@ -35,6 +35,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** The Keep Stick 32 can no longer be bought: the [shop](https://keepstick.com/collections/all) lists it as "Sold out", so we mark it discontinued.
 
 ## Product Description 
 

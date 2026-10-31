@@ -4,7 +4,7 @@ appId: coincorner.boltcard
 authors:
 - danny
 released: 2022-05-17
-discontinued: 
+discontinued: 2026-10-30
 updated: 
 version: 
 binaries: 
@@ -12,16 +12,16 @@ dimensions:
 weight: 
 provider: CoinCorner
 providerWebsite: https://www.coincorner.com/
-website: https://www.coincorner.com/theboltcard
-shop: https://www.coincorner.com/BuyTheBoltCard
+website: https://web.archive.org/web/20260514111628/https://www.coincorner.com/theboltcard
+shop: https://web.archive.org/web/20260614105418/https://www.coincorner.com/buytheboltcard
 country: UK
 price: £4.99
 repository: 
 icon: coincorner.boltcard.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: noita
-date: 2022-11-25
+date: 2026-10-30
 signer: 
 twitter: CoinCorner
 social:
@@ -35,6 +35,8 @@ features:
 - nfc
 
 ---
+
+**Update 2026-10-30:** CoinCorner has stopped selling the Bolt Card. Its [support page](https://support.coincorner.com/hc/en-us/articles/5600580995346-The-Bolt-Card) says it is "temporarily no longer supporting the Bolt Card": existing cards still work, but purchases are disabled, and the card pages now lead to the CoinCorner homepage. The shop was still selling the card in [June 2026](https://web.archive.org/web/20260614105418/https://www.coincorner.com/buytheboltcard).
 
 ## Updated Review 2022-11-25
 
@@ -66,7 +68,7 @@ This means that the device depends on the merchant's payment terminal.
 ## Old Review
 
 
-From the FAQ on the official [Coin Corner](https://www.coincorner.com/TheBoltCard) website:
+From the FAQ on the official [Coin Corner](https://web.archive.org/web/20260514111628/https://www.coincorner.com/theboltcard) website:
 
 > **How does The Bolt Card work?** </ br>
 > Using a standard NFC card, the Bitcoin Lightning Network and LNURL, The Bolt Card enables a user to simply tap their card on a point of sale device displaying a Lightning invoice and the Lightning payment is made in the background. This transaction is carried out over the Bitcoin Lightning Network with not a single legacy payment system used.

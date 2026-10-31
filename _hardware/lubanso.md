@@ -4,7 +4,7 @@ appId: lubanso
 authors:
 - danny
 released: 2018-10-12
-discontinued: 
+discontinued: 2026-10-16
 updated: 
 version: 
 binaries: 
@@ -22,9 +22,9 @@ price: 898 JPY
 repository: 
 icon: lubanso.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: nosource
-date: 2023-03-03
+date: 2026-10-30
 signer: 
 twitter: lubanso
 social:
@@ -38,7 +38,9 @@ features:
 
 ---
 
-## Product Description from [Website](https://www.lubanso.com/x1)
+**Update 2026-10-30:** LUBANSO is shutting down. A [notice dated 2026-10-16](https://www.lubanso.com/) says the X1 service runs until 2026-12-31 and asks users to move their coins before then; buyers from 2026 can ask for a refund until 2026-11-30. The X1 shop page now only shows this notice. The X1 uses a standard BIP39 recovery phrase, so the coins can be restored in other wallets.
+
+## Product Description from [Website](https://web.archive.org/web/20250905222604/https://www.lubanso.com/x1)
 
 > - Operating System: LBTOS
 > - Bank grade secure chip: EAL 4+

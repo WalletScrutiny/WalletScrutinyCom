@@ -4,7 +4,7 @@ appId: balletcryptopure
 authors:
 - danny
 released: 2021-09-19
-discontinued: 
+discontinued: 2025-07-15
 updated: 
 version: 
 binaries: 
@@ -14,17 +14,17 @@ dimensions:
 - 1.2
 weight: 35
 provider: Ballet
-providerWebsite: https://www.balletcrypto.com
-website: https://www.balletcrypto.com/en/pure/
+providerWebsite: https://www.ballet.com
+website: https://www.ballet.com/en/pure/#deadLink
 shop: https://web.archive.org/web/20220522192445/https://store.balletcrypto.com/collections/ballet/products/2021-pure-bitcoin-signature-set
 country: US
 price: 499USD
 repository: 
 icon: balletcryptopure.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: sealed-plainkey
-date: 2022-03-23
+date: 2026-10-30
 signer: 
 twitter: BalletCrypto
 social:
@@ -33,6 +33,8 @@ social:
 features: 
 
 ---
+
+**Update 2026-10-30:** The PURE series is no longer sold. Ballet moved to [ballet.com](https://www.ballet.com/), and its [store](https://store.ballet.com/) lists only REAL cards, coins and gift cards; the PURE product page returns "page not found". We mark it discontinued.
 
 Similar to the Casascius coins but built to be the same size as a credit card, Ballet Crypto Pure is the next iteration of Ballet's physical bitcoin product series. It comes in denominations of 0.1, 0.025, 0.01 or 0.005 BTC. It comes in stainless steel, 24K gold-plated or plastic. Both the public address and the private keys are physically located on the card. The manufacturer assures that they [do not keep records](https://www.balletcrypto.com/en/2FKG/) of the private keys through their **Two-Factor Key Generation** (2FKG) production process:
 
