@@ -1,6 +1,6 @@
 ---
 title: BitcoLi Lightning wallet
-date: 2025-06-18
+date: 2026-10-30
 authors:
 - danny
 website: https://BitcoLi.com
@@ -32,6 +32,8 @@ iphone:
   developerName: Jaroslav Bruzek
 
 ---
+
+**⚠️ Warning:** BitcoLi has shut down. Since at least [June 2025](https://web.archive.org/web/20250618154923/https://bitcoli.com/en/) its [website](https://bitcoli.com/en/) says the team closed the wallet because of new EU rules and asks users to move their funds to another wallet. Both apps are gone from the stores.
 
 ## Android
 

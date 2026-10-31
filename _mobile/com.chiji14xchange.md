@@ -1,9 +1,9 @@
 ---
 title: Rocket by Chiji14xchange - buy
-date: 2023-08-04
+date: 2026-10-30
 authors:
 - danny
-website: https://chiji14xchange.com
+website: https://chiji14xchange.com#deadLink
 twitter: myrocketapp
 social:
 - https://www.facebook.com/myrocketapp
@@ -36,11 +36,13 @@ iphone:
 
 ---
 
+**⚠️ Warning:** The Chiji14xchange website no longer loads. Its domain has been [parked since late 2024](https://web.archive.org/web/20241210023233/https://chiji14xchange.com/), and both apps are gone from the stores.
+
 ## Android
 
 **Update 2022-01-05**
 
-We found new information to validate our verdict via [Rocket's Terms page](https://test.chiji14xchange.com/terms/):
+We found new information to validate our verdict via [Rocket's Terms page](https://web.archive.org/web/20220526234221/https://test.chiji14xchange.com/terms/):
 
 > **Section 3. Hosted Digital Currency Wallet**
 >
@@ -69,7 +71,7 @@ Here is their word on Rocket's involvement:
 
 Customers can add their bank account and use fiat to buy BTC from the listings of other users. The platform can also be used to pay bills.
 
-From the [terms & conditions](https://chiji14xchange.com/terms):
+From the [terms & conditions](https://web.archive.org/web/20230519073159/https://chiji14xchange.com/terms/):
 
 > Chiji14xchange securely stores all Digital Currency private keys in our control in a combination of online and offline storage. 
 

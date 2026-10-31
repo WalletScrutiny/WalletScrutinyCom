@@ -1,6 +1,6 @@
 ---
 title: DhanuX
-date: 2023-09-04
+date: 2026-10-30
 authors:
 - danny
 website: https://www.dhanu.org#deadLink
@@ -31,6 +31,8 @@ iphone:
   developerName: DHANU INNOVATIVE INFORMATION TECHNOLOGY NETWORK SERVICES CO.
 
 ---
+
+**⚠️ Warning:** DhanuX looks gone. Both apps left the stores, and [dhanux.com](https://dhanux.com/) now shows only a placeholder page that says "Transforming Digital Futures", with no exchange and no login.
 
 ## Android
 

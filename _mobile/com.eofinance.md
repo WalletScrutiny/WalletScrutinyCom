@@ -1,6 +1,6 @@
 ---
 title: 'EO.Finance: Buy and Sell Bitco'
-date: 2023-01-02
+date: 2026-10-30
 website: https://eo.finance
 redirect_from:
 - /android/com.eofinance/
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**⚠️ Warning:** EO.Finance has shut down. [Its website](https://eo.finance) says "we have permanently closed our business operations", and it already said so in [May 2024](https://web.archive.org/web/20240516151432/https://eo.finance/).

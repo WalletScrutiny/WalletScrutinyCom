@@ -1,6 +1,6 @@
 ---
 title: SafeWallet - Buy Bitcoin/ETH/USDT, Crypto Wallet
-date: 2020-03-20
+date: 2026-10-30
 website: https://safewallet.cmcmbc.com#deadLink
 redirect_from:
 - /com.cmcm.blockchain.bitcoin.ethereum.safewallet/
@@ -18,6 +18,12 @@ android:
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** This provider appears to be gone. The app has been missing from
+Google Play since at least March 2020, and its website safewallet.cmcmbc.com has
+been a blank page since 2021, as the
+[Internet Archive](https://web.archive.org/web/2021/http://safewallet.cmcmbc.com/)
+shows.
 
 This app disappeared from Google Play! While this might be an
 accident, it sure is not inducing much confidence. We also checked their Twitter

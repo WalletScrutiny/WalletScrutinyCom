@@ -1,9 +1,9 @@
 ---
 title: Coinsbit - Crypto Exchange
-date: 2025-02-26
+date: 2026-10-30
 authors:
 - danny
-website: https://coinsbit.io/
+website: https://web.archive.org/web/20240809100420/https://coinsbit.io/
 twitter: c0insbit
 social:
 - https://t.me/coinsbit_chat
@@ -22,6 +22,8 @@ android:
   developerName: Coinsbit
 
 ---
+
+**⚠️ Warning:** Coinsbit looks gone. The Internet Archive last shows the exchange on coinsbit.io in [August 2024](https://web.archive.org/web/20240809100420/https://coinsbit.io/); by [October 2025](https://web.archive.org/web/20251011043311/https://coinsbit.io/) the domain was parked for sale, and today it shows an unrelated casino advertising page.
 
 ## App Description from Google Play
 

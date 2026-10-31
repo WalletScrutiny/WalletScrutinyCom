@@ -1,6 +1,6 @@
 ---
 title: Vega - Lightning Wallet
-date: 2021-08-09
+date: 2026-10-30
 authors:
 - leo
 website: https://getvega.app#deadLink
@@ -19,6 +19,11 @@ android:
   verdict: wip
 
 ---
+
+**⚠️ Warning:** This provider is gone. The app is no longer on Google Play and
+its website getvega.app no longer loads. In 2023 the
+[Internet Archive](https://web.archive.org/web/20230810114332/https://getvega.app/)
+showed only "Future home of Vega" there.
 
 With the website down and the last tweet more than a year ago stating
 

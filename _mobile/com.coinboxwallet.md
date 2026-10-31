@@ -1,9 +1,9 @@
 ---
 title: 'CBFI: Coins & Tokens Wallet'
-date: 2024-12-23
+date: 2026-10-30
 authors:
 - danny
-website: https://coinboxfinance.com/
+website: https://web.archive.org/web/20230830165009/https://coinboxfinance.com/
 redirect_from:
 - /android/com.coinboxwallet/
 android:
@@ -18,6 +18,8 @@ android:
   developerName: CoinBox Finance Ecosystem
 
 ---
+
+**⚠️ Warning:** CoinBox Finance appears to be gone. Its website no longer loads; the [last archived CoinBox Finance site](https://web.archive.org/web/20230830165009/https://coinboxfinance.com/) is from August 2023.
 
 ## App Description from Google Play
 

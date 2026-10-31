@@ -1,6 +1,6 @@
 ---
 title: 'Instantcoins: sell bitcoin in '
-date: 2022-02-16
+date: 2026-10-30
 authors:
 - danny
 website: https://instantcoins.ng#deadLink
@@ -34,6 +34,8 @@ iphone:
   verdict: nosendreceive
 
 ---
+
+**⚠️ Warning:** Instantcoins appears to be gone. Its domain now points to a link shortener's placeholder page.
 
 ## Android
 

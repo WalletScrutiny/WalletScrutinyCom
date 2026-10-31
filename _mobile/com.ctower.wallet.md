@@ -1,6 +1,6 @@
 ---
 title: CrossTower Wallet
-date: 2022-03-24
+date: 2026-10-30
 website: https://crosstower.com#deadLink
 redirect_from:
 - /android/com.ctower.wallet/
@@ -15,5 +15,9 @@ android:
   verdict: wip
 
 ---
+
+**⚠️ Warning:** CrossTower appears to be gone. Its website is gone, and its Bermuda exchange was wound up in January 2024.
+
+**Update 2026-10-30:** The crosstower.com website is gone, and [CrossTower Bermuda was wound up](https://www.royalgazette.com/international-business/business/article/20240123/crosstower-bermuda-is-latest-crypto-casualty/) by the Supreme Court of Bermuda in January 2024 because it could not pay its debts.
 
 **Update 2022-03-11**: This app is not available anymore.

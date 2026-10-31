@@ -1,9 +1,9 @@
 ---
 title: CS9
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
-website: https://cs9.io
+website: https://cs9.io#deadLink
 redirect_from:
 - /android/com.csesg.cs9/
 android:
@@ -19,11 +19,13 @@ android:
 
 ---
 
+**⚠️ Warning:** The CS9 website no longer loads, and we found no sign that the provider is still active.
+
 ## App Description from Google Play 
 
 > Support many Crypto: ETH, BTC, CSE, USDT, BNB, ... Allow your to send and receive via address or Scan QR code
 
-### [Terms](https://cs9.io/terms) 
+### [Terms](https://cs9.io/terms#deadLink) 
 
 > CS9 maintains full custody of the Digital Assets, funds and User data/information which may be turned over to governmental authorities in the event of CS9 Accounts’ suspension/closure arising from fraud investigations, investigations of violation of law or violation of these Terms.
 

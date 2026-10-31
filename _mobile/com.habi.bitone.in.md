@@ -1,10 +1,10 @@
 ---
 title: BitOne
-date: 2023-08-16
+date: 2026-10-30
 authors:
 - danny
 social:
-- https://www.bitone.trade
+- https://www.bitone.trade#deadLink
 redirect_from:
 - /android/com.habi.bitone.in/
 android:
@@ -18,6 +18,8 @@ android:
   developerName: BitOne
 
 ---
+
+**⚠️ Warning:** BitOne looks gone. The app is no longer on Google Play and its website no longer loads.
 
 ## App Description from Google Play 
 

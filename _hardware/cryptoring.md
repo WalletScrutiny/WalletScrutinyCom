@@ -21,7 +21,7 @@ icon: cryptoring.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2021-08-01
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -29,6 +29,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** The provider appears to be out of business. Its domain no longer exists.
 
 The [provider's website](https://cryptoring.io) is inaccessible.
 We believe this hardware wallet was likely never produced and is now considered defunct.

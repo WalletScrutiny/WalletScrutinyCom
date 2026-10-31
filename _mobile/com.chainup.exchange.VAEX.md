@@ -1,9 +1,9 @@
 ---
 title: VAEX
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
-website: https://vaex.tech/
+website: https://vaex.tech/#deadLink
 twitter: VaexExchange
 social:
 - https://www.instagram.com/vaex2022/
@@ -23,6 +23,8 @@ android:
   developerName: VAEX
 
 ---
+
+**⚠️ Warning:** VAEX appears to be gone. Its website was a [parked domain by November 2024](https://web.archive.org/web/20241107005005/https://vaex.tech/) and now shows an unrelated page that is not the exchange.
 
 ## App Description from Website 
 

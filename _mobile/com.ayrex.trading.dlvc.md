@@ -1,9 +1,9 @@
 ---
 title: AyrexTrading
-date: 2023-09-15
+date: 2026-10-30
 authors:
 - danny
-website: https://www.ayrextrading.com
+website: https://www.ayrextrading.com#deadLink
 redirect_from:
 - /android/com.ayrex.trading.dlvc/
 android:
@@ -18,6 +18,8 @@ android:
   developerName: Charu Prakash
 
 ---
+
+**⚠️ Warning:** The provider appears to be gone. The Ayrex website still advertised mining farms in [March 2025](https://web.archive.org/web/20250312035540/http://ayrextrading.com/), showed an unrelated lottery page by [July 2025](https://web.archive.org/web/20250711002823/http://ayrextrading.com/), and no longer loads today.
 
 ## App Description from Google Play 
 

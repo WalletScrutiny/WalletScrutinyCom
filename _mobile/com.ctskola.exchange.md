@@ -1,9 +1,9 @@
 ---
 title: CTSKOLA EXCHANGE
-date: 2023-09-04
+date: 2026-10-30
 authors:
 - danny
-website: https://ctskola.com
+website: https://ctskola.com#deadLink
 twitter: CtsKola
 social:
 - https://t.me/+ubgDH4F2B-ZiMDVl
@@ -24,6 +24,8 @@ android:
 
 ---
 
+**⚠️ Warning:** CTSKOLA looks gone. The app left Google Play, and ctskola.com now only shows a parked domain page, as it has [since at least October 2025](https://web.archive.org/web/20251013082043/https://ctskola.com/). The linked terms are gone too.
+
 ## App Description from Google Play
 
 > Simple and safe. Bitcoin In over 163 countries around the world, CTSKOLA offers the simplest way to invest and trade in Bitcoin. With its sleek, user-friendly mobile trading experience, the CTSKOLA app for Android is the choice of 3 million traders worldwide. It provides access to a safe crypto exchange platform for users on the go.
@@ -40,5 +42,5 @@ android:
 
 ## Analysis 
 
-- The [terms and conditions](https://ctskola.com/termsandconditions.pdf) for the service, describe both the account and the addresses associated with the user's funds as a "Custody Address".
+- The [terms and conditions](https://ctskola.com/termsandconditions.pdf#deadLink) for the service, describe both the account and the addresses associated with the user's funds as a "Custody Address".
 - Most cryptocurrency exchanges that hosts user accounts on servers and offer multicurrency digital asset storage and exchange services, are **custodial** providers. This means they hold the private keys for the wallets. This is reflected by the fact that when users can't login to their platform, they simply cannot access their funds. The app is **non-verifiable**.

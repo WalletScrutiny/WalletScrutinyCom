@@ -1,6 +1,6 @@
 ---
 title: 'MoneyPipe: HD Bitcoin Wallet'
-date: 2022-05-31
+date: 2026-10-30
 authors:
 - danny
 website: https://moneypipe.com#deadLink
@@ -33,6 +33,8 @@ iphone:
   verdict: nosource
 
 ---
+
+**⚠️ Warning:** MoneyPipe appears to be gone. Both apps are gone from the stores and the moneypipe.com domain is up for sale.
 
 ## Android
 

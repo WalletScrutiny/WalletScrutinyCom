@@ -1,6 +1,6 @@
 ---
 title: 'InvestLite: Forex & Stocks for Online Trading'
-date: 2022-01-31
+date: 2026-10-30
 authors:
 - danny
 website: https://www.investlite.com/
@@ -19,6 +19,10 @@ android:
   verdict: nosendreceive
 
 ---
+
+**⚠️ Warning:** InvestLite appears to be gone. Its domain registration has expired.
+
+**Update 2026-10-30:** The provider is gone: [investlite.com](https://www.investlite.com/) now shows a Namecheap "Domain registration has expired" page.
 
 **Update 2022-01-16**: This app is not available anymore.
 

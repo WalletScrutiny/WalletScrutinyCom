@@ -1,9 +1,9 @@
 ---
 title: NF35 - Buy Crypto Securely
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
-website: https://nf35.com/#/
+website: https://web.archive.org/web/20211219011821/https://nf35.com/
 redirect_from:
 - /android/cn.com.zlct.nf/
 android:
@@ -21,6 +21,8 @@ android:
 <div class="alertBox"><div>
 ⚠️ Warning: Several users have reported that this app will eventually prevent users from withdrawing their funds. The word "scam" was used several times both in its Google Play Page and in its <a href="https://www.youtube.com/watch?v=5GU-NCeCcgw">YouTube comments</a>.
 </div></div>
+
+**⚠️ Warning:** The provider is gone. Its website [nf35.com](https://nf35.com/#deadLink) now only shows a parking page, and the links here point to an [archived copy](https://web.archive.org/web/20211219011821/https://nf35.com/).
 
 ## App Description
 
@@ -44,7 +46,7 @@ The app supports BTC and can send and receive. We were not able to find an optio
 
 ## Verdict
 
-Without an option to backup the Bitcoin wallet and a passing mention of using ["Cold Purse"](https://nf35.com/) as:
+Without an option to backup the Bitcoin wallet and a passing mention of using ["Cold Purse"](https://web.archive.org/web/20211219011821/https://nf35.com/) as:
 
 > Relying on the "cold" equipment to ensure the security of the private key of digital currency, the use of two-dimensional code communication to keep the private key away from the network, thus avoiding the risk of being stolen by hackers.
 

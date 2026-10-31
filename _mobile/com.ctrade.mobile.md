@@ -1,6 +1,6 @@
 ---
 title: C-Trade
-date: 2023-01-30
+date: 2026-10-30
 authors:
 - danny
 website: https://www.c-trade.com/
@@ -33,6 +33,8 @@ iphone:
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** C-Trade no longer runs its exchange. Its [website](https://www.c-trade.com/) has not changed since 2022 and now only says that C-Trade is "developing a brand new platform" and asks customers to contact support. The app is gone from both stores.
 
 ## Android
 

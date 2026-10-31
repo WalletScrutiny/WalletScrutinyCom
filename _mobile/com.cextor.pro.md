@@ -1,9 +1,9 @@
 ---
 title: Moneque
-date: 2025-11-13
+date: 2026-10-30
 authors:
 - danny
-website: https://www.cextor.com
+website: https://www.cextor.com#deadLink
 redirect_from:
 - /android/com.cextor.pro/
 android:
@@ -20,6 +20,8 @@ android:
   developerName: CEXTOR
 
 ---
+
+**⚠️ Warning:** Cextor appears to be gone. Its website now shows only a hosting provider's "account suspended" page instead of the exchange (last [archived working copy](https://web.archive.org/web/20251216095407/https://www.cextor.com/) from December 2025), and the app is gone from Google Play.
 
 ## App Description
 

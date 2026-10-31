@@ -1,7 +1,7 @@
 ---
 title: Wampum1st Anonymous Dapp
-date: 2026-01-14
-website: http://wampum1st.com
+date: 2026-10-30
+website: https://web.archive.org/web/20250523153317/https://wampum1st.com/
 appCountry: us
 redirect_from:
 - /iphone/com.itm.ww.Todaysapp/
@@ -20,3 +20,4 @@ iphone:
 
 ---
 
+**⚠️ Warning:** The app is gone from the App Store, and the Wampum1st website now sends visitors to an unrelated news portal. The website link above points to an archived copy from May 2025.

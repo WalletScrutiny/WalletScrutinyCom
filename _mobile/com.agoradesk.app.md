@@ -1,6 +1,6 @@
 ---
 title: 'AgoraDesk: buy BTC anonymously'
-date: 2025-03-14
+date: 2026-10-30
 authors:
 - danny
 website: https://agoradesk.com
@@ -23,7 +23,7 @@ android:
   verdict: custodial
   developerName: LocalMonero / AgoraDesk
   repository: https://github.com/AgoraDesk-LocalMonero/agoradesk-app-foss
-  bugbounty: https://agoradesk.com/security-bounty-whitehat
+  bugbounty: https://web.archive.org/web/20240329012552/https://agoradesk.com/security-bounty-whitehat
 iphone:
   appId: com.agoradesk.app
   idd: '1617601678'
@@ -39,6 +39,8 @@ iphone:
   repository: https://github.com/AgoraDesk-LocalMonero/agoradesk-app-foss
 
 ---
+
+**⚠️ Warning:** AgoraDesk is gone. It [stopped new sign-ups on 2024-05-07 and new trades a week later](https://www.nobsbitcoin.com/agoradesk-localmonero-shutting-down/), asked users to withdraw their arbitration bond funds before 2024-11-07, and [agoradesk.com](https://agoradesk.com) now only says the platform has been taken offline.
 
 ## Android
 
@@ -60,14 +62,14 @@ How it Works:
 - The app did not provide seed phrases.
 - There is a Bech32 BTC address that can send and receive.
 - There was no option to back up the private keys from the settings.
-- The platform has this clause in their [terms:](https://agoradesk.com/terms)
+- The platform has this clause in their [terms:](https://web.archive.org/web/20240330065435/https://agoradesk.com/terms)
   > If we find your account to pose a high risk to AgoraDesk or our customers we will consider you in breach of these terms of service and may temporarily limit your account and freeze your cryptocurrency arbitration bond and fee wallet in accordance with these terms of service. We do not have any bank accounts that hold users' funds, nor do we facilitate or escrow any local currency payments between buyers and sellers. Trades are settled between unhosted wallets and accounts that directly belong to the trade parties.
-- Trades can be between two parties with their own self-hosted wallets. [(More information here)](https://agoradesk.com/how-to-buy-cryptocurrency)
+- Trades can be between two parties with their own self-hosted wallets. [(More information here)](https://web.archive.org/web/20240415180920/https://agoradesk.com/how-to-buy-cryptocurrency)
 - As mentioned before, the app does have its own wallet.
-- Digging [further:](https://agoradesk.com/faq#how-to-receive)
+- Digging [further:](https://web.archive.org/web/2024/https://agoradesk.com/faq#how-to-receive)
   > In order to sell cryptocurrencies on AgoraDesk you'll first need to send some coins for the arbitration bond to your AgoraDesk wallet. To do that you'll need a AgoraDesk account, access to coins in another wallet and you need to know your AgoraDesk receiving address.
 - Thus, we conclude our findings. The wallet provided in the app is the AgoraDesk wallet. It also serves as the wallet for the arbitration bond mentioned above.
-- As some sort of facilitator for trades, it is necessary for AgoraDesk to have control over this wallet and thus, the private keys. This is for [disputes:](https://agoradesk.com/faq#protection)
+- As some sort of facilitator for trades, it is necessary for AgoraDesk to have control over this wallet and thus, the private keys. This is for [disputes:](https://web.archive.org/web/2024/https://agoradesk.com/faq#protection)
   > This means that if the seller runs away with your money and does not finalize the trade, **AgoraDesk support can direct the cryptocurrency held in the arbitration bond to you.** 
 - The AgoraDesk wallet therefore has to be **custodial**.
 

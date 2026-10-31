@@ -1,6 +1,6 @@
 ---
 title: 'Cabital: Crypto for all'
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.cabital.com#deadLink
@@ -22,6 +22,8 @@ android:
 
 ---
 
+**⚠️ Warning:** Cabital looks gone. Its website already showed only an error page by [May 2024](https://web.archive.org/web/20240524105901/https://www.cabital.com/), and cabital.com is now a parked domain. We found no shutdown notice.
+
 ## App Description
 
 > Discover a new way to invest in crypto securely without being subjected to the volatility that comes with it. Our platform offers interest-yielding cryptocurrency accounts with stable rates. Whether you are a crypto beginner or an experienced trader, Cabital is suitable for everyone who wants to invest in crypto and make money. We offer high-yield saving products designed around popular cryptocurrencies such as Bitcoin (BTC), Ethereum (ETH) and Tether (USDT).
@@ -29,7 +31,7 @@ android:
 
 ## The Site
 
-From [Terms of Service,](https://faq.cabital.com/s/article/Terms-of-Service) 3.10:
+From [Terms of Service,](https://web.archive.org/web/20211024184548/https://faq.cabital.com/s/article/Terms-of-Service) 3.10:
 
 > We may, in our sole discretion, refuse to open an Account for you, or suspend or terminate any Account (including any duplicate accounts) or suspend or terminate any trading of any digital currencies in your Account.
 

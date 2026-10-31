@@ -1,9 +1,9 @@
 ---
 title: AfrBTC:Sell Gift Cards& Redeem
-date: 2025-07-08
+date: 2026-10-30
 authors:
 - danny
-website: https://www.afrbtc.com
+website: https://www.afrbtc.com#deadLink
 redirect_from:
 - /android/com.afrbtcapp/
 android:
@@ -20,6 +20,8 @@ android:
   developerName: GiftCards Team
 
 ---
+
+**⚠️ Warning:** AfrBTC appears to be gone. Its [website](https://web.archive.org/web/20251118170539/https://www.afrbtc.com/) and the privacy policy linked from Google Play no longer load; the last archived copy is from November 2025. The app is still on Google Play but has not been updated since July 2024.
 
 ## App Description from Google Play
 
