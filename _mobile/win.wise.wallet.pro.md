@@ -1,6 +1,6 @@
 ---
 title: Win Wallet Pro
-date: 2024-04-26
+date: 2026-10-30
 website: https://wise.win#deadLink
 redirect_from:
 - /android/win.wise.wallet.pro/

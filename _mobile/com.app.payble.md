@@ -1,6 +1,6 @@
 ---
 title: 페이블(Payble)
-date: 2024-04-26
+date: 2026-10-30
 authors:
 - danny
 website: http://payble.io

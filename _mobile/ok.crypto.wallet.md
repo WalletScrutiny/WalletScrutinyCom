@@ -1,6 +1,6 @@
 ---
 title: OK Wallet-Bitcoin & Altcoin Cr
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/ok.crypto.wallet/
 android:

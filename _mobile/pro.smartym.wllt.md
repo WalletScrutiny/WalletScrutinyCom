@@ -1,6 +1,6 @@
 ---
 title: WLLT
-date: 2024-04-19
+date: 2026-10-30
 website: https://smartym.pro
 redirect_from:
 - /android/pro.smartym.wllt/

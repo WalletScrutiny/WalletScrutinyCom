@@ -1,6 +1,6 @@
 ---
 title: Bitcaps - Digital Assets Excha
-date: 2024-05-07
+date: 2026-10-30
 website: https://www.ini.bitcaps.club#deadLink
 redirect_from:
 - /android/com.bitcaps/

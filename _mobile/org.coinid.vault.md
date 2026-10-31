@@ -1,6 +1,6 @@
 ---
 title: COINiD Vault
-date: 2024-04-19
+date: 2026-10-30
 authors:
 - leo
 website: https://coinid.org
@@ -38,6 +38,8 @@ iphone:
   repository: https://github.com/COINiD/COINiDVault
 
 ---
+
+**⚠️ Warning:** COINiD has stopped development and taken its blockchain servers offline, so the COINiD apps can no longer show balances or send transactions. Its [migration guide](https://coinid.org) explains how to restore the 12-word recovery phrase in another wallet.
 
 ## Android
 

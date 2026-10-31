@@ -1,6 +1,6 @@
 ---
 title: 'Crypto Wallet: Store and Trade'
-date: 2024-04-26
+date: 2026-10-30
 redirect_from:
 - /android/com.xufagroup.cryptowallet/
 android:

@@ -1,6 +1,6 @@
 ---
 title: SprintBank
-date: 2024-04-19
+date: 2026-10-30
 website: https://web.archive.org/web/20250325054816/http://sprint-bank.com/
 redirect_from:
 - /android/quasar.sprint.bank.app/

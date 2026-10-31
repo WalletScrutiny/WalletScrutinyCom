@@ -1,6 +1,6 @@
 ---
 title: LocalBit - buy/sell/lend coin(
-date: 2024-04-26
+date: 2026-10-30
 redirect_from:
 - /android/com.main.lbwallet/
 android:

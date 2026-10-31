@@ -1,6 +1,6 @@
 ---
 title: ATMopen
-date: 2024-04-19
+date: 2026-10-30
 website: https://web.archive.org/web/20220628051134/http://www.atmopen.com/
 redirect_from:
 - /android/org.snowcorp.login/

@@ -9,14 +9,14 @@ updated: 2023-02-23
 version: 
 binaries: 
 provider: Panteam Ltd.
-providerWebsite: http://panteam.net
+providerWebsite: http://panteam.net#deadLink
 website: 
 repository: https://github.com/panteam-net/pt.BTC
 icon: 
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-date: 2024-04-25
+date: 2026-10-30
 twitter: 
 social: 
 builds: 

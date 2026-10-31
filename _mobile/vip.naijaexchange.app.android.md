@@ -1,6 +1,6 @@
 ---
 title: naijaexchange
-date: 2024-04-19
+date: 2026-10-30
 website: https://naijaexchange.vip
 redirect_from:
 - /android/vip.naijaexchange.app.android/

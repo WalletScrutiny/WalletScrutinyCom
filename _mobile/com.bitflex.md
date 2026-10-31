@@ -1,7 +1,7 @@
 ---
 title: BITFLEX
-date: 2024-05-07
-website: https://bit-flex.com/
+date: 2026-10-30
+website: https://bit-flex.com/#deadLink
 redirect_from:
 - /android/com.bitflex/
 android:

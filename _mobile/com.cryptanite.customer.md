@@ -1,7 +1,7 @@
 ---
 title: Cryptanite
-date: 2024-04-26
-website: http://cryptanite.com
+date: 2026-10-30
+website: http://cryptanite.com#deadLink
 redirect_from:
 - /android/com.cryptanite.customer/
 android:

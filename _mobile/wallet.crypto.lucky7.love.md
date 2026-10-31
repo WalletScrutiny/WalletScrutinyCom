@@ -1,7 +1,7 @@
 ---
 title: Lucky7
-date: 2024-04-19
-website: https://www.lucky7.love
+date: 2026-10-30
+website: https://www.lucky7.love#deadLink
 redirect_from:
 - /android/wallet.crypto.lucky7.love/
 android:

@@ -1,6 +1,6 @@
 ---
 title: TechPay Exchange - Cryptocurre
-date: 2024-04-26
+date: 2026-10-30
 authors:
 - danny
 website: https://techpay.io/

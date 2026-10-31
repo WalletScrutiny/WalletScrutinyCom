@@ -1,6 +1,6 @@
 ---
 title: Coincast — Send Crypto
-date: 2024-04-28
+date: 2026-10-30
 authors:
 - danny
 website: https://coincast.app
