@@ -1,9 +1,9 @@
 ---
 title: Lio App
-date: 2024-04-26
+date: 2026-10-30
 authors:
 - danny
-website: https://www.lio-coin.eu/
+website: https://web.archive.org/web/20240425052637/https://lio-coin.eu/
 redirect_from:
 - /android/com.liowallet.app/
 android:
@@ -18,6 +18,8 @@ android:
   developerName: LIOCoin
 
 ---
+
+**⚠️ Warning:** LioCoin's website is gone. Since at least July 2024 the domain shows a parking page, and by mid-2026 it was [for sale](https://web.archive.org/web/20260608024311/http://lio-coin.eu/). The link above points to the [last archived copy](https://web.archive.org/web/20240425052637/https://lio-coin.eu/) of the old site. The project's [GitHub repository](https://github.com/liocoin/liocoin001) has had no commits since July 2018.
 
 ## App Description from Google Play 
 

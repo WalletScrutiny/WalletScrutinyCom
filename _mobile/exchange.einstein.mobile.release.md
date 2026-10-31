@@ -1,7 +1,7 @@
 ---
 title: Einstein Convert - Safe and Secure Bitcoin Wallet
-date: 2022-05-31
-website: http://einstein.exchange
+date: 2026-10-30
+website: http://einstein.exchange#deadLink
 redirect_from:
 - /android/exchange.einstein.mobile.release/
 android:
@@ -16,5 +16,7 @@ android:
   verdict: wip
 
 ---
+
+**⚠️ Warning:** Einstein Exchange is gone. The British Columbia Securities Commission took control of it in November 2019, after customers could not get their money out ([BCSC](https://www.bcsc.bc.ca/about/media-room/news-releases/2019/68-bcsc-acts-to-protect-customers-of-einstein-exchange-cryptoasset-trading-platform)), and its website no longer loads.
 
 **Update 2022-05-19**: This app is not available anymore.

@@ -1,9 +1,9 @@
 ---
 title: Sapien Wallet
-date: 2025-02-26
+date: 2026-10-30
 authors:
 - danny
-website: https://sapienwallet.com/
+website: https://sapienwallet.com/#deadLink
 social:
 - https://www.facebook.com/SapienWallet
 appCountry: us
@@ -33,6 +33,8 @@ iphone:
   developerName: SEIPIEN TEKHNOLODZHIS, TOV
 
 ---
+
+**⚠️ Warning:** Both apps are gone from the stores and the Sapien Wallet website now forwards to an unrelated site. The provider appears to be gone.
 
 ## Android
 

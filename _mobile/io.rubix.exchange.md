@@ -1,7 +1,7 @@
 ---
 title: Rubix Wallet
-date: 2024-12-08
-website: https://rubix.io
+date: 2026-10-30
+website: https://web.archive.org/web/20240810081757/https://rubix.io/
 redirect_from:
 - /android/io.rubix.exchange/
 android:
@@ -16,4 +16,6 @@ android:
   developerName: 'Rubix: Buy, Sell, and Trade Crypto'
 
 ---
+
+**⚠️ Warning:** The Rubix exchange appears to be gone. Its website now shows an unrelated crypto casino page ([archived February 2025](https://web.archive.org/web/20250206174906/https://rubix.io/)); the [last archived Rubix site](https://web.archive.org/web/20240810081757/https://rubix.io/) is from August 2024.
 

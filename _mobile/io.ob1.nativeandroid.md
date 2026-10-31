@@ -1,6 +1,6 @@
 ---
 title: Haven - Private Shopping
-date: 2021-01-15
+date: 2026-10-30
 website: https://gethaven.app
 twitter: HavenPrivacy
 social:
@@ -34,6 +34,14 @@ iphone:
   repository: https://github.com/OpenBazaar/haven
 
 ---
+
+**⚠️ Warning:** Haven and its developer OB1 are gone. Haven was to "stop
+working on October 1" 2020
+([Decrypt](https://decrypt.co/43028/decentralized-marketplace-openbazaar-to-close-unless-community-donates)),
+and on 2021-01-04 OB1 announced it "would cease supporting the marketplace's
+wallets, APIs, search engine and website"
+([CoinDesk](https://www.coindesk.com/business/2021/07/15/openbazaar-co-founder-explains-why-web-3s-answer-to-ebay-folded-its-tents)).
+The domain gethaven.app now hosts an unrelated Thai-language blog.
 
 ## Android
 

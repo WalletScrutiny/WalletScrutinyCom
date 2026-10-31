@@ -1,9 +1,9 @@
 ---
 title: Midas Crypto Wallet
-date: 2024-04-26
+date: 2026-10-30
 authors:
 - kiwilamb
-website: https://midasprotocol.io
+website: https://midasprotocol.io#deadLink
 twitter: MidasProtocol
 social:
 - https://www.facebook.com/midasprotocol.io
@@ -35,9 +35,11 @@ iphone:
 
 ---
 
+**⚠️ Warning:** Midas Protocol appears to be gone. Both apps are off the stores, and its website now shows an unrelated crypto casino page ([archive, March 2026](https://web.archive.org/web/20260320072156/https://midasprotocol.io/)); the wallet's own site survives only in the [archive](https://web.archive.org/web/20211209092347/https://midasprotocol.io/).
+
 ## Android
 
-No statements regarding private key managment can be found on the [providers website](https://midasprotocol.io/) or [Support section](https://support.midasprotocol.io/hc/en-us).
+No statements regarding private key managment can be found on the [providers website](https://web.archive.org/web/20211209092347/https://midasprotocol.io/) or [Support section](https://support.midasprotocol.io/hc/en-us#deadLink).
 It would be prudent to assume the private keys are under the control of the provider.
 
 
@@ -47,7 +49,7 @@ Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.
 
 ## iPhone
 
-No statements regarding private key managment can be found on the [providers website](https://midasprotocol.io/) or [Support section](https://support.midasprotocol.io/hc/en-us).
+No statements regarding private key managment can be found on the [providers website](https://web.archive.org/web/20211209092347/https://midasprotocol.io/) or [Support section](https://support.midasprotocol.io/hc/en-us#deadLink).
 It would be prudent to assume the private keys are under the control of the provider.
 
 

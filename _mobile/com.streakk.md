@@ -1,16 +1,16 @@
 ---
 title: Earn World
-date: 2024-10-08
+date: 2026-10-30
 authors:
 - danny
-website: https://odbdrwodqyzixyxti.earn.world/
+website: https://odbdrwodqyzixyxti.earn.world/#deadLink
 twitter: streakkofficial
 social:
 - https://www.facebook.com/profile.php?id=100082035586084
 - https://www.youtube.com/channel/UCoUO11LtezWh-HmuNUe0WbA
 - https://t.me/streakkofficial
 - https://medium.com/@streakkofficial
-- https://streakk.io
+- https://streakk.io#deadLink
 redirect_from:
 - /android/com.streakk/
 - /iphone/com.streakk.wallet/
@@ -39,6 +39,8 @@ iphone:
   developerName: Streakk Technologies Trading
 
 ---
+
+**⚠️ Warning:** Streakk is gone. It [rebranded as Earn World](https://behindmlm.com/companies/streakk-ponzi-scheme-rebrands-as-earn-world/), France's AMF put Streakk on its blacklist in January 2024, and Earn World [collapsed in July 2024](https://decripto.org/en/earn-world-and-streakk-the-100-million-crypto-scam-funds-and-founder-disappear/) when its founder deleted the site and social profiles. Neither website loads any more.
 
 ## Android
 

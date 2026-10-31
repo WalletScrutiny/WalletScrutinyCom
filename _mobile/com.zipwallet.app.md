@@ -1,9 +1,9 @@
 ---
 title: Zipwallet-Buy Btc with Paypal
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
-website: https://zipwalletpay.com
+website: https://zipwalletpay.com#deadLink
 appCountry: us
 redirect_from:
 - /android/com.zipwallet.app/
@@ -33,6 +33,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** Zipwallet appears to be gone. Its website no longer loads and the Android app is no longer on Google Play. The iPhone app is still in the App Store, but it has not been updated since February 2022.
+
 ## Android
 
 **Updated Information**
@@ -54,7 +56,7 @@ We downloaded the app and was able to locate the BTC wallet. However, the privat
 
 When we tried to share our BTC address from the wallet, no QR code was generated and the BTC address would only appear visually once it has already been shared to the receiving party. 
 
-A huge chunk of its short [User Agreement](https://zipwalletpay.com/agreement) is focused on prohibited entities including businesses.
+A huge chunk of its short [User Agreement](https://web.archive.org/web/20250115113725/https://zipwalletpay.com/agreement) is focused on prohibited entities including businesses.
 
 As there is a capability to send and receive Bitcoins with an entity that has the power to  that , we determine this app to be **custodial** and thus, **not verifiable**.
 

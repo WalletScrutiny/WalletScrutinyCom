@@ -1,9 +1,9 @@
 ---
 title: 'Mudra Exchange: Buy BTC, ETH'
-date: 2025-09-12
+date: 2026-10-30
 authors:
 - danny
-website: http://mudra.exchange/
+website: http://mudra.exchange/#deadLink
 twitter: mudraex
 social:
 - https://www.linkedin.com/company/mudraex
@@ -39,6 +39,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** The Mudra Exchange website now shows only a domain parking page, so the exchange appears to be gone. It still showed the exchange in [December 2025](https://web.archive.org/web/20251209180643/http://mudra.exchange/). Both apps were already removed from the stores.
+
 ## Android
 
 ## App Description from Google Play
@@ -49,7 +51,7 @@ This is a cryptocurrency exchange that functions similar with {% include walletL
 
 ## Analysis 
 
-The [terms](http://mudra.exchange/terms) specify:
+The [terms](https://web.archive.org/web/20220927234541/https://www.mudra.exchange/terms) specify:
 
 > Mudra Exchange shall have the right but not the obligation to verify such activity by sharing Your IP address and other KYC details with the relevant authority, and if required, suspend the transactions or freeze your access.
 

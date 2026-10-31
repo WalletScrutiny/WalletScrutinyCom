@@ -1,9 +1,9 @@
 ---
 title: Eidoo
-date: 2024-04-26
+date: 2026-10-30
 authors:
 - danny
-website: https://eidoo.app/
+website: https://eidoo.app/#deadLink
 twitter: eidoo_io
 social:
 - https://t.me/eidoocryptoworld
@@ -36,6 +36,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** Eidoo appears to be gone. Its website no longer loads ([last working capture](https://web.archive.org/web/20231028031808/https://eidoo.app/)), its help desk is gone, and the old eidoo.io domain now shows an unrelated site. Both apps are no longer in the stores.
+
 ## Android
 
 This version of the Eidoo App is described as version 2. The previous versions were:
@@ -50,7 +52,7 @@ This version of the Eidoo App is described as version 2. The previous versions w
 - NFT Dashboard
 - Quick Actions
 
-Version 2 was [announced](https://helpdesk.eidoo.io/hc/en-us/articles/7886897307025-Eidoo-v2-announcement) on Eidoo's helpdesk page. There, v1 is considered obsolete. 
+Version 2 was [announced](https://web.archive.org/web/20230607113922/https://helpdesk.eidoo.io/hc/en-us/articles/7886897307025-Eidoo-v2-announcement) on Eidoo's helpdesk page. There, v1 is considered obsolete. 
 
 Eidoo's homepage is currently inaccessible because of an SSL misconfiguration. Based on the announcements in the official Twitter account and the helpdesk documents, the version 2 and version 1 apps are indeed, related. 
 

@@ -1,9 +1,9 @@
 ---
 title: NPAS Wallet 엔파스월렛
-date: 2026-02-02
+date: 2026-10-30
 authors:
 - danny
-website: https://www.npasglobal.com/
+website: https://web.archive.org/web/20250429133006/https://npasglobal.com/
 twitter: OCL890
 social:
 - https://t.me/npasglobal
@@ -21,6 +21,8 @@ android:
   developerName: NPAS Wallet
 
 ---
+
+**⚠️ Warning:** NPAS looks gone. Its website no longer loads and has shown nothing since mid-2025; the [last archived copy](https://web.archive.org/web/20250429133006/https://npasglobal.com/) is from April 2025. The app is no longer on Google Play.
 
 ## App Description from Google Play
 

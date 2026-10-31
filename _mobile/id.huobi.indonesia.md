@@ -1,9 +1,9 @@
 ---
 title: Huobi  Indonesia
-date: 2023-10-16
+date: 2026-10-30
 authors:
 - danny
-website: http://www.huobi.com.co
+website: http://www.huobi.com.co#deadLink
 redirect_from:
 - /android/id.huobi.indonesia/
 android:
@@ -18,6 +18,8 @@ android:
   developerName: huobi indonesia info
 
 ---
+
+**⚠️ Warning:** Huobi Indonesia is gone. Its website huobi.com.co has shown only a domain parking page since at least December 2024 ([archived](https://web.archive.org/web/20241213094321/http://www.huobi.com.co/)) and no longer shows the exchange.
 
 Note: We're in the process of verifying with Huobi whether Huobi Indonesia is a legitimate app. We contacted them via email.
 

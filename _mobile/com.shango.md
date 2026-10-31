@@ -1,9 +1,9 @@
 ---
 title: Shango Lightning Wallet
-date: 2021-07-16
+date: 2026-10-30
 authors:
 - leo
-website: http://www.shangoapp.com
+website: http://www.shangoapp.com#deadLink
 twitter: shangoapp
 social:
 - https://www.facebook.com/shangoapp
@@ -21,6 +21,10 @@ android:
   verdict: nosource
 
 ---
+
+**⚠️ Warning:** Shango appears to be out of business. Do not expect support for this app.
+
+**Update 2026-10-30:** Shango appears to be out of business. the website www.shangoapp.com no longer loads, and both the [Shango X account](https://x.com/shangoapp) and the [GitHub repository](https://github.com/neogeno/shango-lightning-wallet) have been silent since June 2019.
 
 **Update 2021-07-16**: This app is not available on the Play Store. Given our
 findings below, we don't expect it to come back.

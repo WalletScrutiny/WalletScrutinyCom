@@ -1,6 +1,6 @@
 ---
 title: 'T1Markets: Online Trading on F'
-date: 2021-12-22
+date: 2026-10-30
 authors:
 - danny
 website: https://www.t1markets.com
@@ -33,6 +33,8 @@ iphone:
   verdict: nosendreceive
 
 ---
+
+**⚠️ Warning:** T1Markets appears to be out of business. Its website is gone and its X account has not posted since 2021.
 
 ## Android
 

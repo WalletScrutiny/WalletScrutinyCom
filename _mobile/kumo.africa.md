@@ -1,7 +1,7 @@
 ---
 title: Kumo
-date: 2024-12-31
-website: https://kumo.africa
+date: 2026-10-30
+website: https://web.archive.org/web/20250710133755/https://kumo.africa/
 redirect_from:
 - /android/kumo.africa/
 android:
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**⚠️ Warning:** Kumo appears to be gone. Its website and blog no longer load; the last archived copy of the site is from [July 2025](https://web.archive.org/web/20250710133755/https://kumo.africa/).

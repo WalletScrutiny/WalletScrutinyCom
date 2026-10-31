@@ -1,9 +1,9 @@
 ---
 title: Zeux - Payments & Investing
-date: 2022-10-21
+date: 2026-10-30
 authors:
 - danny
-website: https://www.zeux.com
+website: https://web.archive.org/web/20211021051054/https://www.zeux.com/
 twitter: ZeuxApp
 social:
 - https://www.linkedin.com/company/zeux
@@ -36,6 +36,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** Zeux appears to have shut down its payments app. The zeux.com website now advertises an unrelated IT services business, and the company behind the app, Zeux Ltd, renamed itself Zeux IT Services Ltd in January 2024 ([Companies House](https://find-and-update.company-information.service.gov.uk/company/11073443)). The [archived website from October 2021](https://web.archive.org/web/20211021051054/https://www.zeux.com/) still shows the app.
+
 ## Android
 
 **Updated Analysis 2022-01-06**
@@ -46,7 +48,7 @@ The iOS version of the app is also accessible and was last updated on 2021-11-09
 
 **Additional Information About Zeux's Crypto Wallet**
 
-Under its [Terms and Conditions](https://www.zeux.com/terms):
+Under its [Terms and Conditions](https://www.zeux.com/terms#deadLink):
 
 > Section 16.3 In order to convert cryptocurrency into fiat currency, cryptocurrency will need to be sent to the unique wallet address created for you in your Zeux account; or fiat currency will need to be sent to your Zeux account.
 >
@@ -66,7 +68,7 @@ We downloaded the app, and tried registering a UK number but it gave out an erro
 
 > "We currently do not accept new registrations"
 
-We checked the Zeux [Terms and Conditions](https://www.zeux.com/terms-conditions/) to gather more information:
+We checked the Zeux [Terms and Conditions](https://www.zeux.com/terms-conditions/#deadLink) to gather more information:
 
 In section 12.3 "Payment via funds converted from cryptocurrency", it mentions
 

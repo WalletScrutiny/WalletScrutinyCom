@@ -1,7 +1,7 @@
 ---
 title: The Luxury Wallet
-date: 2024-04-19
-website: https://theluxurybank.com
+date: 2026-10-30
+website: https://theluxurybank.com#deadLink
 redirect_from:
 - /android/com.theluxurybank.bankwallet/
 android:
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**⚠️ Warning:** The Luxury Bank looks gone. The [last archived site](https://web.archive.org/web/20240614211417/http://theluxurybank.com/) is from June 2024; since January 2025 theluxurybank.com has shown only a parked page.

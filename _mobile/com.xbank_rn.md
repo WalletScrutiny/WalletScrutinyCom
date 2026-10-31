@@ -1,9 +1,9 @@
 ---
 title: xBank
-date: 2024-09-25
+date: 2026-10-30
 authors:
 - danny
-website: https://xbank.plus
+website: https://xbank.plus#deadLink
 twitter: xBank_Official
 social:
 - https://discord.com/invite/PGBVwcaeQE#deadLink
@@ -38,6 +38,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** xBank [renamed itself PumpX](https://medium.com/@pumpx_io/pumpx-next-level-of-xbank-from-lending-to-multichain-consumer-liquidity-67ecce68aa2a) and turned into an NFT lending service; by [September 2024](https://web.archive.org/web/20240901090302/https://xbank.plus/) xbank.plus showed PumpX. On 2026-10-30 xbank.plus no longer loads and pumpx.io leads to an unrelated site.
+
 ## Android
 
 ## App Description from Google Play 
@@ -48,7 +50,7 @@ iphone:
 
 ## Analysis 
 
-- [Section 5.1 of terms](https://xbank.plus/terms-of-service/en#_Toc93706707), **explicitly indicates that the platform offers a custodial wallet**.
+- [Section 5.1 of terms](https://web.archive.org/web/20240914204733/https://xbank.plus/terms-of-service/en#_Toc93706707), **explicitly indicates that the platform offers a custodial wallet**.
 - Curiously, the product documentation states that it is non-custodial.
 - We tried to register, but the app automatically closes after inputting the last digit of the email verification OTP. 
 - Since we cannot use the app properly, we would have to go by the Terms and Conditions - which is the legal document that takes effect once the user signs up for the service.

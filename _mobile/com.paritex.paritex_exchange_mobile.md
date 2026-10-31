@@ -1,9 +1,9 @@
 ---
 title: Paritex Exchange
-date: 2023-04-16
+date: 2026-10-30
 authors:
 - danny
-website: https://paritex.com/
+website: https://paritex.com/#deadLink
 twitter: paritexexchange
 appCountry: tr
 redirect_from:
@@ -34,6 +34,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** Paritex appears to be gone. Its website showed only a "maintenance" page from [October 2022](https://web.archive.org/web/20221006164053/https://paritex.com/) until [early 2026](https://web.archive.org/web/20260201061213/https://paritex.com/), and now it no longer loads.
+
 ## Android
 
 ## App Description
@@ -42,7 +44,7 @@ Paritex is a cryptocurrency exchange.
 
 ## The Site
 
-### [Legal](https://paritex.com/legal)
+### [Legal](https://paritex.com/legal#deadLink)
 
 > Paritex has the exclusive authority to stop and cancel transactions that are suspicious or that constitute a crime and to block assets. 
 

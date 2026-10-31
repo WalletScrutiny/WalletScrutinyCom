@@ -1,6 +1,6 @@
 ---
 title: S3 Wallet
-date: 2021-11-15
+date: 2026-10-30
 authors:
 - danny
 website: https://s3wallet.io#deadLink
@@ -18,6 +18,8 @@ android:
   developerName: S3 Global Technology Ltd
 
 ---
+
+**⚠️ Warning:** S3 Wallet is defunct. The app is gone from Google Play and its website no longer exists.
 
 ## App Description
 
