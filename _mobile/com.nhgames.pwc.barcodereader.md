@@ -1,6 +1,6 @@
 ---
 title: Paper Wallet Checker
-date: 2021-06-10
+date: 2026-10-30
 redirect_from:
 - /android/com.nhgames.pwc.barcodereader/
 android:

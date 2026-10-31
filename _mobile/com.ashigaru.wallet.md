@@ -1,6 +1,6 @@
 ---
 title: Ashigaru
-date: 2026-10-10
+date: 2026-10-30
 authors:
 - danny
 website: https://ashigaru.rs

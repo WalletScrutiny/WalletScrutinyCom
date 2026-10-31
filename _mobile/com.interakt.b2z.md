@@ -1,6 +1,6 @@
 ---
 title: B2Z Wallet
-date: 2026-02-20
+date: 2026-10-30
 authors:
 - danny
 website: https://www.b2z.exchange/en/home

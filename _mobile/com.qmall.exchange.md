@@ -1,6 +1,6 @@
 ---
 title: Qmall APP
-date: 2025-07-28
+date: 2026-10-30
 authors:
 - danny
 website: https://qmall.io/

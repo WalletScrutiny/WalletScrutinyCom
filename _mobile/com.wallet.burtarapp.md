@@ -1,6 +1,6 @@
 ---
 title: Burtar wallet - Trade crypto
-date: 2023-09-28
+date: 2026-10-30
 website: https://burtar.com#deadLink
 redirect_from:
 - /android/com.wallet.burtarapp/

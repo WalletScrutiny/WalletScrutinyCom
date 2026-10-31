@@ -24,7 +24,7 @@ icon: balletcrypto.bitcoinblock.webp
 bugbounty: 
 meta: ok
 verdict: prefilled
-date: 2022-05-18
+date: 2026-10-30
 signer: 
 twitter: BalletCrypto
 social:

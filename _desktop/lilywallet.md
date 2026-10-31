@@ -16,7 +16,7 @@ icon: lilywallet.webp
 bugbounty: 
 meta: stale
 verdict: sourceavailable
-date: 2025-05-19
+date: 2026-10-30
 twitter: LilyWallet
 social: 
 builds: 

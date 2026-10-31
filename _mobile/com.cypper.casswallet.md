@@ -1,6 +1,6 @@
 ---
 title: CASS Decentralize Exchanger
-date: 2024-04-26
+date: 2026-10-30
 website: http://www.cashlesstoken.com#deadLink
 redirect_from:
 - /android/com.cypper.casswallet/

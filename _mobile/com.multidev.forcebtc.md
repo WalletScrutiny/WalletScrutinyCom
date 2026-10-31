@@ -1,6 +1,6 @@
 ---
 title: ForceBTC - Blockchain Wallet and Exchanger
-date: 2022-01-31
+date: 2026-10-30
 redirect_from:
 - /android/com.multidev.forcebtc/
 android:

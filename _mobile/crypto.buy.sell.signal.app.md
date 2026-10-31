@@ -1,6 +1,6 @@
 ---
 title: Crypto Buy Sell Signal App
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/crypto.buy.sell.signal.app/
 android:

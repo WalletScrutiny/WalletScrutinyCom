@@ -1,6 +1,6 @@
 ---
 title: P.CASH
-date: 2024-09-12
+date: 2026-10-30
 authors:
 - danny
 website: https://p.cash/

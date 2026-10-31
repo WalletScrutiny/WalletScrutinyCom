@@ -1,6 +1,6 @@
 ---
 title: FX24Gold
-date: 2024-04-03
+date: 2026-10-30
 website: https://www.fx24gold.com#deadLink
 redirect_from:
 - /android/com.pandats.fx24gold/

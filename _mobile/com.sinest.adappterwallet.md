@@ -1,6 +1,6 @@
 ---
 title: 'Adappter Wallet : BTC, ETH'
-date: 2026-02-20
+date: 2026-10-30
 website: http://adappterwallet.io
 redirect_from:
 - /android/com.sinest.adappterwallet/

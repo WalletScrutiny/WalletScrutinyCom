@@ -25,7 +25,7 @@ icon: quantum.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-12-20
+date: 2026-10-30
 signer: 
 twitter: 
 social:

@@ -1,6 +1,6 @@
 ---
 title: 'BTU Exchange : Achat de bitcoi'
-date: 2024-04-03
+date: 2026-10-30
 website: https://btu-protocol.com/trading#deadLink
 redirect_from:
 - /android/com.btuprotocol.btu_exchange/

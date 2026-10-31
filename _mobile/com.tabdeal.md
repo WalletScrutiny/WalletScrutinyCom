@@ -1,6 +1,6 @@
 ---
 title: Tabdeal
-date: 2023-07-08
+date: 2026-10-30
 authors:
 - danny
 website: https://tabdeal.org

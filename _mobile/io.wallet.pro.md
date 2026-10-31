@@ -1,6 +1,6 @@
 ---
 title: wallet.io Pro—Multisig Wallet (BTC, ETH, EOS...)
-date: 2022-02-16
+date: 2026-10-30
 authors:
 - danny
 website: https://wallet.io/

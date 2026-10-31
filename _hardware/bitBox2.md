@@ -29,7 +29,7 @@ icon: bitBox2.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-07-18
+date: 2026-10-30
 signer: 
 twitter: ShiftCryptoHQ
 social:

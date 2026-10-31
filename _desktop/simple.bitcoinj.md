@@ -16,7 +16,7 @@ icon: simple.bitcoinj.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2025-10-06
+date: 2026-10-30
 twitter: 
 social: 
 builds: 

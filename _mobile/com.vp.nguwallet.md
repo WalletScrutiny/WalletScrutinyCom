@@ -1,6 +1,6 @@
 ---
 title: NguWallet
-date: 2024-08-31
+date: 2026-10-30
 website: https://www.nguwallet.com#deadLink
 redirect_from:
 - /android/com.vp.nguwallet/

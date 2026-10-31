@@ -25,7 +25,7 @@ icon: bitfiwallet.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-date: 2024-08-12
+date: 2026-10-30
 signer: 
 twitter: thebitfi
 social:

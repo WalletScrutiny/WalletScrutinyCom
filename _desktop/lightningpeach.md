@@ -16,7 +16,7 @@ icon: lightningpeach.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-date: 2024-05-08
+date: 2026-10-30
 twitter: lightningpeach
 social:
 - https://www.facebook.com/Bitfury

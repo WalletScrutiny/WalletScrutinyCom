@@ -1,6 +1,6 @@
 ---
 title: BinexHosting
-date: 2024-05-18
+date: 2026-10-30
 website: http://binexhosting.com#deadLink
 redirect_from:
 - /android/com.cryptex.www.binexhosting/

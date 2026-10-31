@@ -1,6 +1,6 @@
 ---
 title: EletroWallet
-date: 2024-02-05
+date: 2026-10-30
 website: https://eletrowallet.com#deadLink
 redirect_from:
 - /android/com.eletrowallet.loja/

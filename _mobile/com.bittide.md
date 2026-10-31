@@ -1,6 +1,6 @@
 ---
 title: BITTIDE
-date: 2024-05-07
+date: 2026-10-30
 website: https://www.digitide.us/bittide#deadLink
 redirect_from:
 - /android/com.bittide/

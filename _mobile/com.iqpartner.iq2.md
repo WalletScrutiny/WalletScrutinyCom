@@ -1,6 +1,6 @@
 ---
 title: All About IQ Option
-date: 2023-12-19
+date: 2026-10-30
 redirect_from:
 - /android/com.iqpartner.iq2/
 android:

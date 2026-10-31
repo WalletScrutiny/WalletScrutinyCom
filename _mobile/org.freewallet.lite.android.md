@@ -1,6 +1,6 @@
 ---
 title: Lite HD Wallet – Your Coin Base
-date: 2021-05-25
+date: 2026-10-30
 authors:
 - leo
 website: https://freewallet.org

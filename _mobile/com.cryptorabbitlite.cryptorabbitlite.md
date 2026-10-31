@@ -1,6 +1,6 @@
 ---
 title: CryptoRabbt! New Free Cryptocu
-date: 2024-05-07
+date: 2026-10-30
 redirect_from:
 - /android/com.cryptorabbitlite.cryptorabbitlite/
 android:

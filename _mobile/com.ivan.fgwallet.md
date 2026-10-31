@@ -1,6 +1,6 @@
 ---
 title: FG Wallet
-date: 2022-06-30
+date: 2026-10-30
 authors:
 - danny
 website: http://www.srsfc.com

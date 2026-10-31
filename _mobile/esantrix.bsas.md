@@ -1,6 +1,6 @@
 ---
 title: ESXCoin Criptomoneda
-date: 2024-02-05
+date: 2026-10-30
 website: https://santiagocelentano.wixsite.com/esantrix#deadLink
 redirect_from:
 - /android/esantrix.bsas/

@@ -1,6 +1,6 @@
 ---
 title: TrueDEX - Trading Unleashed
-date: 2024-08-23
+date: 2026-10-30
 authors:
 - danny
 website: https://tdex.network

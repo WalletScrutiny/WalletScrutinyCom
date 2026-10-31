@@ -1,6 +1,6 @@
 ---
 title: ZenaPay
-date: 2025-07-03
+date: 2026-10-30
 authors:
 - danny
 website: https://www.zenapay.com/Product#ZenaPayWallet

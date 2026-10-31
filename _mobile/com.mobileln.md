@@ -1,6 +1,6 @@
 ---
 title: Mobile LN
-date: 2021-04-30
+date: 2026-10-30
 authors:
 - kiwilamb
 redirect_from:

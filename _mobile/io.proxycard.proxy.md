@@ -1,6 +1,6 @@
 ---
 title: Proxy | Secure Cryptocurrency Storage & Chat
-date: 2021-12-05
+date: 2026-10-30
 redirect_from:
 - /android/io.proxycard.proxy/
 android:

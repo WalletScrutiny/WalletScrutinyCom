@@ -1,6 +1,6 @@
 ---
 title: GCMAsia Pro
-date: 2025-06-11
+date: 2026-10-30
 authors:
 - danny
 website: https://www.gcmasia.com

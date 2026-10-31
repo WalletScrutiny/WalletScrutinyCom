@@ -1,6 +1,6 @@
 ---
 title: 'Bitso: Save and invest easily'
-date: 2021-05-25
+date: 2026-10-30
 authors:
 - leo
 website: https://bitso.com/app

@@ -1,6 +1,6 @@
 ---
 title: 스케치월렛 (SKETCH WALLET)
-date: 2024-07-22
+date: 2026-10-30
 authors:
 - danny
 website: https://auth.sketchwallet.io:28446/sketch/conditions

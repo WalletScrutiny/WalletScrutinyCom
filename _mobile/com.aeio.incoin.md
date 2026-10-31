@@ -1,6 +1,6 @@
 ---
 title: iNcoin
-date: 2023-06-21
+date: 2026-10-30
 redirect_from:
 - /android/com.aeio.incoin/
 android:

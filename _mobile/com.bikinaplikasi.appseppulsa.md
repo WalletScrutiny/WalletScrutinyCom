@@ -1,6 +1,6 @@
 ---
 title: Seppulsa
-date: 2023-04-20
+date: 2026-10-30
 website: https://seppulsa.com
 redirect_from:
 - /android/com.bikinaplikasi.appseppulsa/

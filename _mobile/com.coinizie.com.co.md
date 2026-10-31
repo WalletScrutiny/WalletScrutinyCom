@@ -1,6 +1,6 @@
 ---
 title: Coinizie
-date: 2023-08-25
+date: 2026-10-30
 website: https://www.coinizie.com#deadLink
 redirect_from:
 - /android/com.coinizie.com.co/

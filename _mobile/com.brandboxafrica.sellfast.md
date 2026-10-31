@@ -1,6 +1,6 @@
 ---
 title: SellfastPayfast
-date: 2024-07-05
+date: 2026-10-30
 website: https://sellfastpayfast.com
 redirect_from:
 - /android/com.brandboxafrica.sellfast/

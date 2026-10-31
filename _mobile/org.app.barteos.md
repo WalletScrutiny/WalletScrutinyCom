@@ -1,6 +1,6 @@
 ---
 title: Barteos
-date: 2026-05-21
+date: 2026-10-30
 website: https://barteos.org
 redirect_from:
 - /android/org.app.barteos/

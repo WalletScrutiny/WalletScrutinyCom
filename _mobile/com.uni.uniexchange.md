@@ -1,6 +1,6 @@
 ---
 title: 유니익스체인지, UNIEXCHANGE
-date: 2021-10-30
+date: 2026-10-30
 authors:
 - leo
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: Artery Wallet
-date: 2021-11-16
+date: 2026-10-30
 authors:
 - danny
 website: https://artery.network/

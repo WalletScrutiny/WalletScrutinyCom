@@ -1,6 +1,6 @@
 ---
 title: Keyex.io - Buy BTC, ETH
-date: 2023-06-03
+date: 2026-10-30
 website: https://www.keyex.io
 redirect_from:
 - /android/com.keyex.io.crypto/

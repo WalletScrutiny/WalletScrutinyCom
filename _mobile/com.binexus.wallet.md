@@ -1,6 +1,6 @@
 ---
 title: Binexus  Wallet
-date: 2024-05-07
+date: 2026-10-30
 website: http://www.binexus.co#deadLink
 redirect_from:
 - /android/com.binexus.wallet/

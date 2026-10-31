@@ -1,6 +1,6 @@
 ---
 title: Brasil Bitcoin
-date: 2021-09-10
+date: 2026-10-30
 authors:
 - danny
 website: https://brasilbitcoin.com.br

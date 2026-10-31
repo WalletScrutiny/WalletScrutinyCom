@@ -1,6 +1,6 @@
 ---
 title: Coin Rivet
-date: 2024-03-02
+date: 2026-10-30
 website: https://coinrivet.com/
 redirect_from:
 - /android/com.luxon.coinrivet/

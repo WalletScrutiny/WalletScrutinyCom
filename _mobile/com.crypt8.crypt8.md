@@ -1,6 +1,6 @@
 ---
 title: Crypt8
-date: 2024-12-04
+date: 2026-10-30
 website: https://crypt8.com#deadLink
 redirect_from:
 - /android/com.crypt8.crypt8/

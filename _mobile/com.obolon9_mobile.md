@@ -1,6 +1,6 @@
 ---
 title: Obolon9
-date: 2024-03-02
+date: 2026-10-30
 website: http://obolon9.com#deadLink
 redirect_from:
 - /android/com.obolon9_mobile/

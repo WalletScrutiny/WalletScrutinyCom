@@ -1,6 +1,6 @@
 ---
 title: Capricoin Copay
-date: 2025-08-04
+date: 2026-10-30
 website: https://www.capricoin.org/
 redirect_from:
 - /android/org.capricoin.copay/

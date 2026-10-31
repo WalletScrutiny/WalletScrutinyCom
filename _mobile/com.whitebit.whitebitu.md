@@ -1,6 +1,6 @@
 ---
 title: WhiteBIT U (Beta)
-date: 2023-08-04
+date: 2026-10-30
 website: https://whitebit.com/
 redirect_from:
 - /android/com.whitebit.whitebitu/

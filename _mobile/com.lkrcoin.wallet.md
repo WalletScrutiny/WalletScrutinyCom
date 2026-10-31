@@ -1,6 +1,6 @@
 ---
 title: Wallet LKRcoin - Bitcoin - Lit
-date: 2024-07-05
+date: 2026-10-30
 website: http://lkrcoin.io#deadLink
 redirect_from:
 - /android/com.lkrcoin.wallet/

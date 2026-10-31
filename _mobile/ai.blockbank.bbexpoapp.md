@@ -1,6 +1,6 @@
 ---
 title: Pairs
-date: 2025-04-01
+date: 2026-10-30
 authors:
 - danny
 website: https://pairs.xyz

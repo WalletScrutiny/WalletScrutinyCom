@@ -1,6 +1,6 @@
 ---
 title: BW Exchange
-date: 2023-04-21
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bwex.vip#deadLink

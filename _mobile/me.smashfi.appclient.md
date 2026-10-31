@@ -1,6 +1,6 @@
 ---
 title: 'SmashFi: Bitcoin Self-Custody'
-date: 2025-11-10
+date: 2026-10-30
 website: https://smashfi.me
 redirect_from:
 - /android/me.smashfi.appclient/

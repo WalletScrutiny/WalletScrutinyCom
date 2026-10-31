@@ -1,6 +1,6 @@
 ---
 title: Koinzaar Crypto Wallet
-date: 2023-01-30
+date: 2026-10-30
 website: https://www.koinzaar.com#deadLink
 redirect_from:
 - /android/com.koinzaar.app/

@@ -1,6 +1,6 @@
 ---
 title: BitDefender - smart wallet
-date: 2024-06-17
+date: 2026-10-30
 redirect_from:
 - /android/com.primitives.bitdefender.release/
 android:

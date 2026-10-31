@@ -1,6 +1,6 @@
 ---
 title: cryptMi I Miles
-date: 2025-11-05
+date: 2026-10-30
 website: https://cryptmi.com
 redirect_from:
 - /android/com.milesblue.milesblue/

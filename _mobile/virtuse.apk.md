@@ -1,6 +1,6 @@
 ---
 title: Virtuse
-date: 2023-04-16
+date: 2026-10-30
 website: https://virtuse.com/
 redirect_from:
 - /android/virtuse.apk/

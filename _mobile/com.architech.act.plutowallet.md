@@ -1,6 +1,6 @@
 ---
 title: Pluto - High Secure Crypto Wal
-date: 2024-04-19
+date: 2026-10-30
 website: https://www.act-tech.io#deadLink
 redirect_from:
 - /android/com.architech.act.plutowallet/

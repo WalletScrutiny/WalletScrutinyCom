@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Testnet Wallet
-date: 2023-09-28
+date: 2026-10-30
 website: https://bitcoin-wallet.flycricket.io/
 redirect_from:
 - /android/com.bitcoin.wallet.btc.testnet/

@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Trading
-date: 2022-03-24
+date: 2026-10-30
 website: https://bitcoin-trading.global#deadLink
 redirect_from:
 - /android/com.kevinpetters.bitcointrading/

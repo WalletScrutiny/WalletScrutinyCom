@@ -1,6 +1,6 @@
 ---
 title: Asimony - Safe Crypto Wallet
-date: 2024-10-28
+date: 2026-10-30
 authors:
 - danny
 redirect_from:

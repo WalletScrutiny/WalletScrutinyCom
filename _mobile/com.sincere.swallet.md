@@ -1,6 +1,6 @@
 ---
 title: S-Wallet
-date: 2025-04-11
+date: 2026-10-30
 authors:
 - danny
 website: https://s-wallet.ai

@@ -1,6 +1,6 @@
 ---
 title: 'Hollox: Crypto, Naira & Loans'
-date: 2025-04-01
+date: 2026-10-30
 authors:
 - danny
 website: https://hollox.finance/

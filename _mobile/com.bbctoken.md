@@ -1,6 +1,6 @@
 ---
 title: 'BBC Token : Big Blockchain Com'
-date: 2024-04-26
+date: 2026-10-30
 website: http://bbctoken.app#deadLink
 redirect_from:
 - /android/com.bbctoken/

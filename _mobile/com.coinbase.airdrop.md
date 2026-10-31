@@ -1,6 +1,6 @@
 ---
 title: Coinbase Airdrop - Free YFI, DOT & Aave
-date: 2021-08-31
+date: 2026-10-30
 authors:
 - leo
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: BitValve - P2P Crypto Exchange
-date: 2021-11-03
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitvalve.com

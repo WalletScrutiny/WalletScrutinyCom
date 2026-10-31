@@ -1,6 +1,6 @@
 ---
 title: TRDC WALLET-SWAP & COINS DATA
-date: 2025-08-04
+date: 2026-10-30
 website: https://trdctoken.com
 redirect_from:
 - /android/com.trdc.token/

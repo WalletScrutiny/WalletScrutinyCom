@@ -1,6 +1,6 @@
 ---
 title: Seed Generator
-date: 2024-08-31
+date: 2026-10-30
 redirect_from:
 - /android/com.companyname.seedgenerator/
 android:

@@ -1,6 +1,6 @@
 ---
 title: 'XT.com: Buy Bitcoin & Ethereum'
-date: 2022-07-31
+date: 2026-10-30
 authors:
 - danny
 website: http://www.xt.com

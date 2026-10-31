@@ -1,6 +1,6 @@
 ---
 title: TechBank Dwallet
-date: 2026-02-02
+date: 2026-10-30
 authors:
 - danny
 website: https://techbank.finance/

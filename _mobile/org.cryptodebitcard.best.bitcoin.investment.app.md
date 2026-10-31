@@ -1,6 +1,6 @@
 ---
 title: Best Bitcoin Investment App
-date: 2021-09-23
+date: 2026-10-30
 redirect_from:
 - /android/org.cryptodebitcard.best.bitcoin.investment.app/
 android:

@@ -1,6 +1,6 @@
 ---
 title: HitBTC altcoin crypto wallet
-date: 2021-11-15
+date: 2026-10-30
 authors:
 - danny
 website: https://hitbtc.com/wallet

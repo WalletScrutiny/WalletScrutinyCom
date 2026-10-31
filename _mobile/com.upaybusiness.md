@@ -1,6 +1,6 @@
 ---
 title: UPAY - Business
-date: 2023-12-19
+date: 2026-10-30
 website: http://upay.company#deadLink
 redirect_from:
 - /android/com.upaybusiness/

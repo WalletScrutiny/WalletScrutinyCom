@@ -1,6 +1,6 @@
 ---
 title: Bitop Exchange：Bitcoin Crypto
-date: 2025-11-13
+date: 2026-10-30
 authors:
 - danny
 website: http://www.bitop.com

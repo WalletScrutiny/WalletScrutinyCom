@@ -1,6 +1,6 @@
 ---
 title: FlowOS
-date: 2024-07-05
+date: 2026-10-30
 website: https://www.lacero.io/flowos/
 redirect_from:
 - /android/gaikagroup.com.lacero.release/

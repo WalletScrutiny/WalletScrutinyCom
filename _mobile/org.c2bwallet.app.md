@@ -1,6 +1,6 @@
 ---
 title: Cash2Bitcoin Wallet
-date: 2025-11-13
+date: 2026-10-30
 authors:
 - danny
 website: https://cash2bitcoin.com/

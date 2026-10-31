@@ -1,6 +1,6 @@
 ---
 title: Ztrader Altcoin/bitcoin Trader
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/org.cryptobrowser.ztrader.altcoin.bitcoin.trader/
 android:

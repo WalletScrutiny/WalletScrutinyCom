@@ -1,6 +1,6 @@
 ---
 title: Excoinge
-date: 2024-02-05
+date: 2026-10-30
 website: https://www.excoinge.com#deadLink
 redirect_from:
 - /android/excoinge.excoinge/

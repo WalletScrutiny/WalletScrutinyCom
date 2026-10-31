@@ -1,6 +1,6 @@
 ---
 title: 'GIGEX: Invest Tokenized Assets'
-date: 2024-07-22
+date: 2026-10-30
 redirect_from:
 - /android/io.gigexchage.crypto/
 android:

@@ -1,6 +1,6 @@
 ---
 title: 'Kinvo: Acompanhe investimentos'
-date: 2022-06-23
+date: 2026-10-30
 authors:
 - danny
 website: http://www.kinvo.com.br

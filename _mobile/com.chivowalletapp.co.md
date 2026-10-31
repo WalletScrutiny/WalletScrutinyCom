@@ -1,6 +1,6 @@
 ---
 title: Chivo Wallet
-date: 2021-08-21
+date: 2026-10-30
 authors:
 - leo
 redirect_from:

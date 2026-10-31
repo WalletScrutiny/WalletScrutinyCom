@@ -1,6 +1,6 @@
 ---
 title: LogiTron
-date: 2024-04-03
+date: 2026-10-30
 redirect_from:
 - /android/com.hustay.swing.d53f6367573fc4fcf858e808481838a50/
 android:

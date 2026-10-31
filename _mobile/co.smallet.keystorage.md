@@ -1,6 +1,6 @@
 ---
 title: Smallet Key Vault
-date: 2024-10-03
+date: 2026-10-30
 website: http://smallet.co#deadLink
 redirect_from:
 - /android/co.smallet.keystorage/

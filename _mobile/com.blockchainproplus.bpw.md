@@ -1,6 +1,6 @@
 ---
 title: Blockchain Plus Wallet v2
-date: 2021-07-02
+date: 2026-10-30
 redirect_from:
 - /android/com.blockchainproplus.bpw/
 android:

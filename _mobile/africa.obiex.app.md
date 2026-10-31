@@ -1,6 +1,6 @@
 ---
 title: Obiex - Swap, Buy & Sell BTC
-date: 2022-08-01
+date: 2026-10-30
 authors:
 - danny
 website: https://obiex.finance/

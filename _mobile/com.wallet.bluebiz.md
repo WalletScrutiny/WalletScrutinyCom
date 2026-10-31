@@ -1,6 +1,6 @@
 ---
 title: BlueBiz
-date: 2024-02-05
+date: 2026-10-30
 website: https://bluebiz.opensecu.com#deadLink
 redirect_from:
 - /android/com.wallet.bluebiz/

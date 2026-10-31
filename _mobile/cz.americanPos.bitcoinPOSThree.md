@@ -1,6 +1,6 @@
 ---
 title: BitcoinPOS - cash register
-date: 2026-07-24
+date: 2026-10-30
 website: https://bitcoinpos.americanposllc.com/
 appCountry: us
 redirect_from:

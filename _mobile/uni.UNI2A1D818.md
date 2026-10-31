@@ -1,6 +1,6 @@
 ---
 title: Muskbot 4.0
-date: 2023-08-05
+date: 2026-10-30
 authors:
 - danny
 website: https://web.archive.org/web/20220111124040/http://muskbot.io/

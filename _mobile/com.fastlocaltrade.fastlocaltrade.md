@@ -1,6 +1,6 @@
 ---
 title: Fast Local Trade
-date: 2024-02-05
+date: 2026-10-30
 redirect_from:
 - /android/com.fastlocaltrade.fastlocaltrade/
 android:

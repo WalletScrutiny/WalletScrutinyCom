@@ -1,6 +1,6 @@
 ---
 title: Name Generator
-date: 2026-03-11
+date: 2026-10-30
 website: https://kswappay.com#deadLink
 redirect_from:
 - /android/com.archgroup.kswappay/

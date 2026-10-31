@@ -1,6 +1,6 @@
 ---
 title: IM Card
-date: 2025-09-29
+date: 2026-10-30
 website: https://imtechng.com
 redirect_from:
 - /android/com.im.tech.imcard/

@@ -1,6 +1,6 @@
 ---
 title: 'Revolut X: Buy Bitcoin, Crypto'
-date: 2025-05-19
+date: 2026-10-30
 authors:
 - danny
 website: https://www.revolut.com/revolut-x/

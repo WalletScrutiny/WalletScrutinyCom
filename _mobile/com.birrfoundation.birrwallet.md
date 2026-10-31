@@ -1,6 +1,6 @@
 ---
 title: BirrOS
-date: 2026-09-15
+date: 2026-10-30
 website: https://birr.foundation
 redirect_from:
 - /android/com.birrfoundation.birrwallet/

@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Secure Atm
-date: 2024-04-26
+date: 2026-10-30
 redirect_from:
 - /android/com.btcatm.btcatm/
 android:

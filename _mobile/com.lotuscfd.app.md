@@ -1,6 +1,6 @@
 ---
 title: LOTUSCFD - Online Trading App
-date: 2024-04-19
+date: 2026-10-30
 website: https://www.lotuscfd.com#deadLink
 redirect_from:
 - /android/com.lotuscfd.app/

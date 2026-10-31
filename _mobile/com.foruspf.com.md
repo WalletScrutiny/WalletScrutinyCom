@@ -1,6 +1,6 @@
 ---
 title: Forus Platform
-date: 2024-02-05
+date: 2026-10-30
 website: https://foruspf.com
 redirect_from:
 - /android/com.foruspf.com/

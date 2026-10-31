@@ -1,6 +1,6 @@
 ---
 title: BISPEX서비스-비트코인 마진거래  비트코인렌트 암호
-date: 2024-04-03
+date: 2026-10-30
 redirect_from:
 - /android/kr.co.coin5.bf/
 android:

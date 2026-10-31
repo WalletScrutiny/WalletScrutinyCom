@@ -1,6 +1,6 @@
 ---
 title: 'Apex: Buy, Sell & Trade Crypto'
-date: 2026-01-14
+date: 2026-10-30
 website: https://apexnetwork.ng
 appCountry: us
 redirect_from:

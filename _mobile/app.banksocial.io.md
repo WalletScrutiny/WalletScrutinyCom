@@ -1,6 +1,6 @@
 ---
 title: BankSocial
-date: 2026-07-22
+date: 2026-10-30
 website: https://www.banksocial.io
 redirect_from:
 - /android/app.banksocial.io/

@@ -1,6 +1,6 @@
 ---
 title: Velas Wallet
-date: 2025-06-09
+date: 2026-10-30
 authors:
 - danny
 - emanuel

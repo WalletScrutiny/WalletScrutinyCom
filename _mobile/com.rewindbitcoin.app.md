@@ -1,6 +1,6 @@
 ---
 title: Rewind Bitcoin
-date: 2025-11-10
+date: 2026-10-30
 website: https://rewindbitcoin.com
 redirect_from:
 - /android/com.rewindbitcoin.app/

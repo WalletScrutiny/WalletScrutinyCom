@@ -1,6 +1,6 @@
 ---
 title: Bitload4u
-date: 2024-04-26
+date: 2026-10-30
 website: https://www.bitload4u.com
 redirect_from:
 - /android/com.bitload4u.user/

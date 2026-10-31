@@ -1,6 +1,6 @@
 ---
 title: 24BITBANK EXCHANGE
-date: 2024-04-19
+date: 2026-10-30
 website: https://24bitbank.io/
 redirect_from:
 - /android/com.bitbankiosdnge.app/

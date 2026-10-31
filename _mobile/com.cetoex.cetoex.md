@@ -1,6 +1,6 @@
 ---
 title: 'CetoEX : Buy & Sell Crypto'
-date: 2024-09-08
+date: 2026-10-30
 authors:
 - danny
 website: https://cetoex.com

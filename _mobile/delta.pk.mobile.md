@@ -1,6 +1,6 @@
 ---
 title: Delta Trading – FX&Shares CFDs
-date: 2023-08-30
+date: 2026-10-30
 authors:
 - danny
 website: https://www.deltastock.com/english/platforms/delta_trading-mobile.asp

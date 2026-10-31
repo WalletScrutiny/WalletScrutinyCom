@@ -1,6 +1,6 @@
 ---
 title: STIWallet
-date: 2024-11-12
+date: 2026-10-30
 website: http://stiwallet.com#deadLink
 redirect_from:
 - /android/com.stiwallet/

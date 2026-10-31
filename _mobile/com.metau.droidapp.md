@@ -1,6 +1,6 @@
 ---
 title: MetaU Crypto
-date: 2024-04-19
+date: 2026-10-30
 website: https://www.metauco.com#deadLink
 redirect_from:
 - /android/com.metau.droidapp/

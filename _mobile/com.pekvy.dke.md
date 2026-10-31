@@ -1,6 +1,6 @@
 ---
 title: MyViTRX
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/com.pekvy.dke/
 android:

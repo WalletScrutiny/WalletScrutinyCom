@@ -1,6 +1,6 @@
 ---
 title: HashPort Wallet
-date: 2026-09-04
+date: 2026-10-30
 website: https://wallet.hashport.com/
 appCountry: jp
 redirect_from:

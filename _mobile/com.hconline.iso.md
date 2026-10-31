@@ -1,6 +1,6 @@
 ---
 title: Start Wallet(EOS, BTC, ETH, TR
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 website: https://www.starteos.io#deadLink

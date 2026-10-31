@@ -1,6 +1,6 @@
 ---
 title: 비스펙스원터치-실시간차트분석 가상화폐소득쉐어서비스
-date: 2024-04-03
+date: 2026-10-30
 redirect_from:
 - /android/kr.co.coin5.aj/
 android:

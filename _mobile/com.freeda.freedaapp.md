@@ -1,6 +1,6 @@
 ---
 title: Freeda Wallet - Trade Crypto
-date: 2023-01-30
+date: 2026-10-30
 authors:
 - danny
 website: https://www.freeda.io#deadLink

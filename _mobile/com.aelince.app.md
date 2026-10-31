@@ -1,6 +1,6 @@
 ---
 title: Aelince
-date: 2023-08-28
+date: 2026-10-30
 authors:
 - danny
 website: https://aelince.com#deadLink

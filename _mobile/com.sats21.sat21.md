@@ -1,6 +1,6 @@
 ---
 title: SATS.CC
-date: 2024-04-03
+date: 2026-10-30
 redirect_from:
 - /android/com.sats21.sat21/
 android:

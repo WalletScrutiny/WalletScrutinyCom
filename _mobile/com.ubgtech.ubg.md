@@ -1,6 +1,6 @@
 ---
 title: UBG Trade
-date: 2024-02-05
+date: 2026-10-30
 website: https://ubgtech.my#deadLink
 redirect_from:
 - /android/com.ubgtech.ubg/

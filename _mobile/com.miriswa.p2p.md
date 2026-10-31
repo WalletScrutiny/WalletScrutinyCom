@@ -1,6 +1,6 @@
 ---
 title: 'MirisWallet: P2P & BTC Wallet'
-date: 2023-08-16
+date: 2026-10-30
 website: https://p2p.miriswa.com#deadLink
 redirect_from:
 - /android/com.miriswa.p2p/

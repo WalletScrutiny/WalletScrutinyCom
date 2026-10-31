@@ -1,6 +1,6 @@
 ---
 title: 'B I N A N C E : Trade cryptocurrency (Binance)'
-date: 2021-09-02
+date: 2026-10-30
 redirect_from:
 - /android/com.trustdx.binance/
 android:

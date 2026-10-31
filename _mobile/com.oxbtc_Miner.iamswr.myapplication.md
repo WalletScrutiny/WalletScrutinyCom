@@ -1,6 +1,6 @@
 ---
 title: OXBTC-Mine Bitcoin, Ethereum & more
-date: 2022-01-02
+date: 2026-10-30
 authors:
 - danny
 redirect_from:

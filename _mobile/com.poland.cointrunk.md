@@ -1,6 +1,6 @@
 ---
 title: CoinTrunk
-date: 2023-01-02
+date: 2026-10-30
 website: http://cointrunk.net#deadLink
 redirect_from:
 - /android/com.poland.cointrunk/

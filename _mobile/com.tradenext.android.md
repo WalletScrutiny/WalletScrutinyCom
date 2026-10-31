@@ -1,6 +1,6 @@
 ---
 title: TradeNext
-date: 2023-09-04
+date: 2026-10-30
 website: https://tradenext.com
 redirect_from:
 - /android/com.tradenext.android/

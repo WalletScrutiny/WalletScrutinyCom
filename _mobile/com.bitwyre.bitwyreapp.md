@@ -1,6 +1,6 @@
 ---
 title: Bitwyre
-date: 2023-09-04
+date: 2026-10-30
 website: https://bitwyre.com
 redirect_from:
 - /android/com.bitwyre.bitwyreapp/

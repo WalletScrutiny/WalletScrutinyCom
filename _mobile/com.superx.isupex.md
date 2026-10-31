@@ -1,6 +1,6 @@
 ---
 title: ISUPEX- Buy and sell bitcoin
-date: 2023-01-02
+date: 2026-10-30
 website: https://www.isupex.com#deadLink
 redirect_from:
 - /android/com.superx.isupex/

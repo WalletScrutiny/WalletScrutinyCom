@@ -1,6 +1,6 @@
 ---
 title: Light Bitcoin Wallet
-date: 2023-01-02
+date: 2026-10-30
 website: https://github.com/ilyapr/bitcoin-wallet-android
 redirect_from:
 - /android/com.bitzhash.wallet.bitcoin/

@@ -1,6 +1,6 @@
 ---
 title: Zinary
-date: 2025-05-14
+date: 2026-10-30
 website: https://zinary.com
 redirect_from:
 - /android/com.zinary.apps/

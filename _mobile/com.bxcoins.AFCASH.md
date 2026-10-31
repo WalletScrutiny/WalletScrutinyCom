@@ -1,6 +1,6 @@
 ---
 title: AFCASH WALLET
-date: 2022-01-31
+date: 2026-10-30
 redirect_from:
 - /android/com.bxcoins.AFCASH/
 android:

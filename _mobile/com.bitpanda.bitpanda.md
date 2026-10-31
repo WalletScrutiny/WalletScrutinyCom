@@ -1,6 +1,6 @@
 ---
 title: 'Bitpanda: Buy Crypto & Stocks'
-date: 2023-07-29
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitpanda.com

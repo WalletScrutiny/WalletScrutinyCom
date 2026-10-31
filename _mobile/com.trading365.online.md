@@ -1,6 +1,6 @@
 ---
 title: Trading 365—Forex, Crypto, Gol
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/com.trading365.online/
 android:

@@ -1,6 +1,6 @@
 ---
 title: DFX BTC Taro Wallet
-date: 2026-01-03
+date: 2026-10-30
 authors:
 - danny
 website: https://dfx.swiss/

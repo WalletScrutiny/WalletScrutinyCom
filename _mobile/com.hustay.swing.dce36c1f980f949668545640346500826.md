@@ -1,6 +1,6 @@
 ---
 title: 골드클래스지갑 (goldcalss wallet)
-date: 2024-07-05
+date: 2026-10-30
 redirect_from:
 - /android/com.hustay.swing.dce36c1f980f949668545640346500826/
 android:

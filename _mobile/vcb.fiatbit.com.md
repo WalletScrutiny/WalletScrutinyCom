@@ -1,6 +1,6 @@
 ---
 title: 'FiatBit: Crypto & Global remit'
-date: 2023-08-16
+date: 2026-10-30
 website: https://www.fiatbit.com#deadLink
 redirect_from:
 - /android/vcb.fiatbit.com/

@@ -1,6 +1,6 @@
 ---
 title: 'FlashEx: Trade Bitcoin Securely'
-date: 2021-11-26
+date: 2026-10-30
 redirect_from:
 - /android/me.flashex.app.a/
 android:

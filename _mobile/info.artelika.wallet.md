@@ -1,6 +1,6 @@
 ---
 title: Artelika crypto wallet
-date: 2024-04-19
+date: 2026-10-30
 website: http://artelika.com#deadLink
 redirect_from:
 - /android/info.artelika.wallet/

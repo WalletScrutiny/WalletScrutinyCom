@@ -1,6 +1,6 @@
 ---
 title: Coinzo
-date: 2023-03-30
+date: 2026-10-30
 authors:
 - danny
 website: https://www.coinzo.com

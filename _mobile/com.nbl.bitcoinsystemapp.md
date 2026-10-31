@@ -1,6 +1,6 @@
 ---
 title: Bitcoin System App - Passive Crypto Trading
-date: 2021-08-20
+date: 2026-10-30
 redirect_from:
 - /android/com.nbl.bitcoinsystemapp/
 android:

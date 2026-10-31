@@ -1,6 +1,6 @@
 ---
 title: 'Bitcoin Wallet : BTC,ETH,USD'
-date: 2026-09-14
+date: 2026-10-30
 website: https://xcryptowallet.org
 iphone:
   appId: app.replit.xcryptowallet

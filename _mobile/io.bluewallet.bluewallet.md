@@ -1,7 +1,7 @@
 ---
 title: BlueWallet Bitcoin Wallet
 bitcoinOrgId: bluewallet
-date: 2023-12-30
+date: 2026-10-30
 authors:
 - emanuel
 - Mohammad Rafigh

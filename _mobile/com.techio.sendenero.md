@@ -1,6 +1,6 @@
 ---
 title: Sendenero
-date: 2024-04-26
+date: 2026-10-30
 website: https://sendenero.com
 redirect_from:
 - /android/com.techio.sendenero/

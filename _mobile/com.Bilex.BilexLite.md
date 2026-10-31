@@ -1,6 +1,6 @@
 ---
 title: Bilex
-date: 2024-04-19
+date: 2026-10-30
 website: http://bilex.org#deadLink
 redirect_from:
 - /android/com.Bilex.BilexLite/

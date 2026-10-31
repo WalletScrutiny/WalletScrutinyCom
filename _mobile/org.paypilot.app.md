@@ -1,6 +1,6 @@
 ---
 title: PayPilot Crypto Wallet & Card
-date: 2026-01-14
+date: 2026-10-30
 website: https://www.paypilot.org
 redirect_from:
 - /android/org.paypilot.app/

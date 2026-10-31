@@ -1,6 +1,6 @@
 ---
 title: Coinpurse
-date: 2026-01-14
+date: 2026-10-30
 website: https://generalbytes.com
 redirect_from:
 - /android/cz.coin/

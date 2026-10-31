@@ -1,6 +1,6 @@
 ---
 title: Bitnuk
-date: 2024-04-03
+date: 2026-10-30
 website: https://bitnuk.com/
 redirect_from:
 - /android/com.isun.ag.bitnuk/

@@ -16,7 +16,7 @@ icon: wavesdex.webp
 bugbounty: 
 meta: deprecated
 verdict: sourceavailable
-date: 2025-04-12
+date: 2026-10-30
 twitter: 
 social: 
 builds: 

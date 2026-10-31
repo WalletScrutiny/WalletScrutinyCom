@@ -1,6 +1,6 @@
 ---
 title: CryptoPlatz Vault
-date: 2024-04-19
+date: 2026-10-30
 website: https://www.cryptoplatz.ch#deadLink
 redirect_from:
 - /android/com.cryptoplatz.app/

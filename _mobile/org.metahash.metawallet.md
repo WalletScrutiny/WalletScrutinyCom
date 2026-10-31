@@ -1,6 +1,6 @@
 ---
 title: '#MetaWallet Beta'
-date: 2024-05-07
+date: 2026-10-30
 website: http://metahash.org
 redirect_from:
 - /android/org.metahash.metawallet/

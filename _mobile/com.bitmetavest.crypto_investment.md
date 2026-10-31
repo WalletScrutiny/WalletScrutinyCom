@@ -1,6 +1,6 @@
 ---
 title: 'Bit Metavest: Invest in Crypto'
-date: 2023-11-02
+date: 2026-10-30
 website: https://bitmetavest.com/en#deadLink
 redirect_from:
 - /android/com.bitmetavest.crypto_investment/

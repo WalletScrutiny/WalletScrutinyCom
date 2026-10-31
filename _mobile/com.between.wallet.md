@@ -1,6 +1,6 @@
 ---
 title: Between Wallet
-date: 2026-01-16
+date: 2026-10-30
 authors:
 - danny
 website: https://betweenbits.io/

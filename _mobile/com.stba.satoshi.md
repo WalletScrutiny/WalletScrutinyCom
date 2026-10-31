@@ -1,6 +1,6 @@
 ---
 title: Satoshi | The Bitcoin App
-date: 2024-12-17
+date: 2026-10-30
 website: https://satoshi.money/
 appCountry: us
 redirect_from:

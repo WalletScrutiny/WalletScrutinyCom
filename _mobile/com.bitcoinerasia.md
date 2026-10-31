@@ -1,6 +1,6 @@
 ---
 title: Bitcoiner Asia
-date: 2026-03-18
+date: 2026-10-30
 website: http://bitcoiner.asia
 redirect_from:
 - /android/com.bitcoinerasia/

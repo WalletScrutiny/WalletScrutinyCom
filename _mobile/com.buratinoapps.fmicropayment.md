@@ -1,6 +1,6 @@
 ---
 title: FaucetPay Micro Wallet
-date: 2023-04-21
+date: 2026-10-30
 website: https://xmonitoring.ru#deadLink
 redirect_from:
 - /android/com.buratinoapps.fmicropayment/

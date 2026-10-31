@@ -1,6 +1,6 @@
 ---
 title: CBC WALLET
-date: 2023-11-02
+date: 2026-10-30
 website: https://web.archive.org/web/20240524125438/https://cryptoboxcoin.com/
 redirect_from:
 - /android/cbc.wallet/

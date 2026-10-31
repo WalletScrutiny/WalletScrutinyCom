@@ -1,6 +1,6 @@
 ---
 title: StormProfit - Passive income w
-date: 2023-05-10
+date: 2026-10-30
 website: https://stormprofit.trade#deadLink
 redirect_from:
 - /android/com.stormprofit.stormprofit/

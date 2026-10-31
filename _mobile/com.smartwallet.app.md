@@ -1,6 +1,6 @@
 ---
 title: 'Echooo : Crypto AA Wallet&DeFi'
-date: 2026-01-28
+date: 2026-10-30
 authors:
 - danny
 website: https://www.echooo.xyz/

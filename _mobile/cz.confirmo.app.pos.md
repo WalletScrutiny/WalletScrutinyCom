@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Lightning POS
-date: 2026-05-13
+date: 2026-10-30
 website: https://confirmo.net
 redirect_from:
 - /android/cz.confirmo.app.pos/

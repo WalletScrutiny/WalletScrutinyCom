@@ -1,6 +1,6 @@
 ---
 title: Trupay wallet
-date: 2024-07-05
+date: 2026-10-30
 website: http://trupay.finance#deadLink
 redirect_from:
 - /android/wallet.trupay.finance/

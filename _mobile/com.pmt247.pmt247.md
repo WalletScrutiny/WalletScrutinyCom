@@ -1,6 +1,6 @@
 ---
 title: PMT247
-date: 2024-02-05
+date: 2026-10-30
 website: https://www.pmt247.com#deadLink
 redirect_from:
 - /android/com.pmt247.pmt247/

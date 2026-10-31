@@ -1,6 +1,6 @@
 ---
 title: 'Coinpay: Buy & Send Bitcoin Fa'
-date: 2023-01-11
+date: 2026-10-30
 authors:
 - leo
 - danny

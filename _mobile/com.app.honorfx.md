@@ -1,6 +1,6 @@
 ---
 title: HonorFX
-date: 2023-05-17
+date: 2026-10-30
 website: https://honorfx.com/
 redirect_from:
 - /android/com.app.honorfx/

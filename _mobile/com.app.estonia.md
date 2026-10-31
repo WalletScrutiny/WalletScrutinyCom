@@ -1,6 +1,6 @@
 ---
 title: Bitay | Easy Exchange
-date: 2023-08-16
+date: 2026-10-30
 website: https://www.bitayglobal.com#deadLink
 redirect_from:
 - /android/com.app.estonia/

@@ -1,6 +1,6 @@
 ---
 title: Accredited Wallet
-date: 2024-05-18
+date: 2026-10-30
 redirect_from:
 - /android/cloud.accredited.wallet/
 android:

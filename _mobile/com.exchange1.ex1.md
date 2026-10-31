@@ -1,6 +1,6 @@
 ---
 title: eXchange1:Trade Crypto Futures
-date: 2026-05-27
+date: 2026-10-30
 authors:
 - danny
 website: https://www.exchange1.com

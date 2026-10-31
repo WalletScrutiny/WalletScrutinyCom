@@ -1,6 +1,6 @@
 ---
 title: TOMI Web3 SuperApp
-date: 2023-07-19
+date: 2026-10-30
 authors:
 - danny
 website: https://tomi.com

@@ -1,6 +1,6 @@
 ---
 title: Eizzy BTC
-date: 2022-04-07
+date: 2026-10-30
 website: https://eizzybtc.com#deadLink
 redirect_from:
 - /android/com.app.eizzybtc/

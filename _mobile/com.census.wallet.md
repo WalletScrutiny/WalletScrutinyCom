@@ -1,6 +1,6 @@
 ---
 title: Census Wallet
-date: 2024-04-19
+date: 2026-10-30
 website: https://www.census.cx#deadLink
 redirect_from:
 - /android/com.census.wallet/

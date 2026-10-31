@@ -1,6 +1,6 @@
 ---
 title: 'Swaps: buy BTC, USDT crypto. Tether, bitcoin store'
-date: 2022-02-16
+date: 2026-10-30
 authors:
 - danny
 redirect_from:

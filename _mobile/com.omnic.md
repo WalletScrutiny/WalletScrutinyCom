@@ -1,6 +1,6 @@
 ---
 title: OmniC+
-date: 2023-05-17
+date: 2026-10-30
 website: http://omnic.website/innovation#deadLink
 redirect_from:
 - /android/com.omnic/

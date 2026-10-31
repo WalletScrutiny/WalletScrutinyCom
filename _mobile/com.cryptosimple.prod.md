@@ -1,6 +1,6 @@
 ---
 title: CryptoSimple
-date: 2025-02-13
+date: 2026-10-30
 website: https://cryptosimple.app
 redirect_from:
 - /android/com.cryptosimple.prod/

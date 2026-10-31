@@ -1,6 +1,6 @@
 ---
 title: CoinRabbit BTC & Crypto Wallet
-date: 2026-05-27
+date: 2026-10-30
 authors:
 - danny
 website: https://coinrabbit.io/

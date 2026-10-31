@@ -1,6 +1,6 @@
 ---
 title: 'Enjin: Crypto & NFT Wallet'
-date: 2023-01-17
+date: 2026-10-30
 authors:
 - leo
 - danny

@@ -1,6 +1,6 @@
 ---
 title: miningt
-date: 2023-06-02
+date: 2026-10-30
 authors:
 - danny
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: Crypto Coin Invest
-date: 2021-09-23
+date: 2026-10-30
 redirect_from:
 - /android/net.fxbitcoinsoft.crypto.coin.invest/
 android:

@@ -22,7 +22,7 @@ icon: littleshell.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2023-03-23
+date: 2026-10-30
 signer: 
 twitter: CCELittleshell
 social: 

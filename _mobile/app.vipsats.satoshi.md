@@ -1,6 +1,6 @@
 ---
 title: Satoshi Bitcoin Lightning
-date: 2023-12-02
+date: 2026-10-30
 authors:
 - danny
 website: https://vipsats.app

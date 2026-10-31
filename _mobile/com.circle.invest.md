@@ -1,6 +1,6 @@
 ---
 title: 'Circle Invest: Buy & sell Bitc'
-date: 2024-09-16
+date: 2026-10-30
 authors:
 - danny
 website: https://invest.circle.com

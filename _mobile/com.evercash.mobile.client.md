@@ -1,6 +1,6 @@
 ---
 title: Evercash
-date: 2025-02-26
+date: 2026-10-30
 redirect_from:
 - /android/com.evercash.mobile.client/
 android:

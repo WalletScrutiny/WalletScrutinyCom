@@ -1,6 +1,6 @@
 ---
 title: 'Coinbase: Buy Crypto & Stocks'
-date: 2021-10-12
+date: 2026-10-30
 authors:
 - leo
 website: https://coinbase.com/

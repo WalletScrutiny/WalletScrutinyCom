@@ -1,6 +1,6 @@
 ---
 title: Bibox:Bitcoin, Crypto Exchange
-date: 2022-02-10
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bibox.com

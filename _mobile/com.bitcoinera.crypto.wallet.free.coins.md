@@ -1,6 +1,6 @@
 ---
 title: Crypto Wallet Free Coins
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/com.bitcoinera.crypto.wallet.free.coins/
 android:

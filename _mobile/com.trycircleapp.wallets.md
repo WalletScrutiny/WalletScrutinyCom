@@ -1,6 +1,6 @@
 ---
 title: The Circle App Wallets
-date: 2023-12-13
+date: 2026-10-30
 authors:
 - danny
 website: https://trycircleapp.com

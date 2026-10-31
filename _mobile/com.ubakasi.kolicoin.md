@@ -1,6 +1,6 @@
 ---
 title: kolicoin - Buy & Sell Bitcoin
-date: 2023-12-19
+date: 2026-10-30
 website: https://kolicoin.com#deadLink
 redirect_from:
 - /android/com.ubakasi.kolicoin/

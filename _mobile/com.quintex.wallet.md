@@ -1,6 +1,6 @@
 ---
 title: Quintex Network
-date: 2024-02-05
+date: 2026-10-30
 website: https://quintex.io#deadLink
 redirect_from:
 - /android/com.quintex.wallet/

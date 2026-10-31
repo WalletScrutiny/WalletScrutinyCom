@@ -1,6 +1,6 @@
 ---
 title: 오아시스 거래소
-date: 2024-08-07
+date: 2026-10-30
 redirect_from:
 - /android/com.oasisexcflutter.app/
 android:

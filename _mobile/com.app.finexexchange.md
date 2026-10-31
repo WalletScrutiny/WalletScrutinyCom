@@ -1,6 +1,6 @@
 ---
 title: Finex
-date: 2024-12-23
+date: 2026-10-30
 website: https://finexchanges.com
 redirect_from:
 - /android/com.app.finexexchange/

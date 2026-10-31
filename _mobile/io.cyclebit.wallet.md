@@ -1,6 +1,6 @@
 ---
 title: Cycle Wallet
-date: 2023-11-02
+date: 2026-10-30
 website: http://cyclebit.io
 redirect_from:
 - /android/io.cyclebit.wallet/

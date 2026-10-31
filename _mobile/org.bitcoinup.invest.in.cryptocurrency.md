@@ -1,6 +1,6 @@
 ---
 title: Invest In Cryptocurrency
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/org.bitcoinup.invest.in.cryptocurrency/
 android:

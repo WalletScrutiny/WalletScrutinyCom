@@ -1,6 +1,6 @@
 ---
 title: Alpac Wallet
-date: 2023-01-02
+date: 2026-10-30
 website: https://web.archive.org/web/20220818022448/http://ritstoken.com/
 redirect_from:
 - /android/ru.ritsflight.com/

@@ -1,6 +1,6 @@
 ---
 title: EBCoin Wallet (BitCoin, Ethereum, CryptoCurrency)
-date: 2021-10-18
+date: 2026-10-30
 redirect_from:
 - /android/com.eximbay.ebcoinwallet.gcm/
 android:

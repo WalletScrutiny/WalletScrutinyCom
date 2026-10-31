@@ -16,7 +16,7 @@ icon: ergvein.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-date: 2024-05-08
+date: 2026-10-30
 twitter: hxr_team
 social:
 - https://www.facebook.com/hxr.team/

@@ -1,6 +1,6 @@
 ---
 title: 'BravePro: cryptocurrency store'
-date: 2025-10-15
+date: 2026-10-30
 website: https://www.bravepay.net/
 redirect_from:
 - /android/com.bravecorporation.bravepro/

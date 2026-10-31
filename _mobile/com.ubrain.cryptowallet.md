@@ -1,6 +1,6 @@
 ---
 title: Crypto Wallet
-date: 2025-04-09
+date: 2026-10-30
 redirect_from:
 - /android/com.ubrain.cryptowallet/
 android:

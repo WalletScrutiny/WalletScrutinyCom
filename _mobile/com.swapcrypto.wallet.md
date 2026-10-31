@@ -1,6 +1,6 @@
 ---
 title: Swap Crypto Exchange Wallet
-date: 2025-02-13
+date: 2026-10-30
 website: https://swapcrypto.ca#deadLink
 redirect_from:
 - /android/com.swapcrypto.wallet/

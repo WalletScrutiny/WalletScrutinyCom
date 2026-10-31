@@ -1,6 +1,6 @@
 ---
 title: Xcoinance
-date: 2024-12-31
+date: 2026-10-30
 redirect_from:
 - /android/chukstem.xcoinance/
 android:

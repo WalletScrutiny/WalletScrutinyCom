@@ -1,6 +1,6 @@
 ---
 title: CoinsHut (beta)
-date: 2023-11-02
+date: 2026-10-30
 website: https://coinshut.africa#deadLink
 redirect_from:
 - /android/com.coinshut.coinshut/

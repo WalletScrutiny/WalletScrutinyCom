@@ -1,6 +1,6 @@
 ---
 title: 'Blockchain Wallet: Buy BTC'
-date: 2021-07-15
+date: 2026-10-30
 authors:
 - leo
 - danny

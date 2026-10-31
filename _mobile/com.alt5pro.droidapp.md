@@ -1,6 +1,6 @@
 ---
 title: Alt 5 Pro
-date: 2024-11-15
+date: 2026-10-30
 authors:
 - danny
 website: http://alt5pro.com

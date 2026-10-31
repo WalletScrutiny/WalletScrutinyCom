@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Invest Uk
-date: 2021-09-23
+date: 2026-10-30
 redirect_from:
 - /android/com.balletcrypto.bitcoin.invest.uk/
 android:

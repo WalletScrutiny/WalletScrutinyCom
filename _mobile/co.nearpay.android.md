@@ -1,6 +1,6 @@
 ---
 title: 'NearPay: crypto wallet & card'
-date: 2024-03-02
+date: 2026-10-30
 website: https://nearpay.co#deadLink
 redirect_from:
 - /android/co.nearpay.android/

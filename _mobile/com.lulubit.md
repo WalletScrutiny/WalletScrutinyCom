@@ -1,6 +1,6 @@
 ---
 title: 'Lulubit: Compra Bitcoin Cripto'
-date: 2025-11-19
+date: 2026-10-30
 authors:
 - danny
 website: https://lulubit.app

@@ -1,6 +1,6 @@
 ---
 title: yiToken Wallet - BTC, ETH, DOT
-date: 2024-09-18
+date: 2026-10-30
 website: https://yitoken.im#deadLink
 redirect_from:
 - /android/im.yitoken.app.g2/

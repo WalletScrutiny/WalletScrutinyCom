@@ -24,7 +24,7 @@ icon: coldlar.ultra.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2024-12-16
+date: 2026-10-30
 signer: 
 twitter: Coldlar
 social: 

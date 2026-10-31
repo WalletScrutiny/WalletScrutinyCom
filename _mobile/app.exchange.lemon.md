@@ -1,6 +1,6 @@
 ---
 title: LemonEx
-date: 2024-04-19
+date: 2026-10-30
 website: https://lemonexchange.africa#deadLink
 redirect_from:
 - /android/app.exchange.lemon/

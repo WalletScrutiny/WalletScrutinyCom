@@ -1,6 +1,6 @@
 ---
 title: 'Wyretrade: Invest in Stocks, E'
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - danny
 website: https://wyretrade.com#deadLink

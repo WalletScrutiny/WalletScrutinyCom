@@ -1,6 +1,6 @@
 ---
 title: Chainge Finance
-date: 2025-06-20
+date: 2026-10-30
 authors:
 - danny
 website: https://chainge.finance#deadLink

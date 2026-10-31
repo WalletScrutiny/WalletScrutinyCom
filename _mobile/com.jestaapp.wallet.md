@@ -1,6 +1,6 @@
 ---
 title: Jesta wallet - Trade crypto
-date: 2023-07-18
+date: 2026-10-30
 authors:
 - danny
 website: https://burtar.com#deadLink

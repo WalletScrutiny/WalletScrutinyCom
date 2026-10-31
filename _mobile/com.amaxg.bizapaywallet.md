@@ -1,6 +1,6 @@
 ---
 title: BizaPAY Wallet - 암호화폐 지갑
-date: 2026-01-16
+date: 2026-10-30
 authors:
 - danny
 website: https://iron-sturgeon-db2.notion.site/BizaPAY-Wallet-f7fa49ebb4c64eb3817fe2360b54fa6a?pvs=4

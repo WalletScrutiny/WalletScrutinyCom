@@ -1,6 +1,6 @@
 ---
 title: BotTrade
-date: 2025-06-18
+date: 2026-10-30
 website: https://bot.trade
 redirect_from:
 - /android/trade.bot.app/

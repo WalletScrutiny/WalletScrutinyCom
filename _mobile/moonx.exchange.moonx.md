@@ -1,6 +1,6 @@
 ---
 title: MoonX - Crypto Trading Platfor
-date: 2024-04-03
+date: 2026-10-30
 website: https://web.archive.org/web/20241111010507/http://moonx.pro/
 redirect_from:
 - /android/moonx.exchange.moonx/

@@ -1,6 +1,6 @@
 ---
 title: Radius Wallet
-date: 2025-04-22
+date: 2026-10-30
 website: https://radiuswallet.com#deadLink
 redirect_from:
 - /android/com.radiuswallet/

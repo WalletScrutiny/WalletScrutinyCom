@@ -1,6 +1,6 @@
 ---
 title: Coins Wallet for bitcoin and l
-date: 2024-12-23
+date: 2026-10-30
 authors:
 - leo
 website: http://firstdaotrust.com#deadLink

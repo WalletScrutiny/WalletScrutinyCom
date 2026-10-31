@@ -1,6 +1,6 @@
 ---
 title: iCashwallet
-date: 2024-02-05
+date: 2026-10-30
 website: https://icashweb.com/
 redirect_from:
 - /android/com.wiCashwallet_12832409/

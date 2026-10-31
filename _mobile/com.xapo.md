@@ -1,6 +1,6 @@
 ---
 title: Xapo
-date: 2021-08-06
+date: 2026-10-30
 authors:
 - leo
 website: https://xapo.com

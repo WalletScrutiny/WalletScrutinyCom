@@ -1,6 +1,6 @@
 ---
 title: OX Mining
-date: 2025-04-09
+date: 2026-10-30
 authors:
 - danny
 website: https://www.oxbtc.com

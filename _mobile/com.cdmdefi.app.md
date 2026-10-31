@@ -1,6 +1,6 @@
 ---
 title: CDM DeFi
-date: 2023-03-21
+date: 2026-10-30
 redirect_from:
 - /android/com.cdmdefi.app/
 android:

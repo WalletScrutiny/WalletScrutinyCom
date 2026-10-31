@@ -1,6 +1,6 @@
 ---
 title: 'SafeSenda: Crypto to Naira'
-date: 2023-06-21
+date: 2026-10-30
 website: https://safesenda.com
 redirect_from:
 - /android/com.safesenda/

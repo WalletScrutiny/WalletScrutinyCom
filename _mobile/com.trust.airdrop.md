@@ -1,6 +1,6 @@
 ---
 title: Trust Airdrop - YFI, DOGE & LTC
-date: 2021-09-16
+date: 2026-10-30
 redirect_from:
 - /android/com.trust.airdrop/
 android:

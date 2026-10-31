@@ -3,7 +3,7 @@ title: Cryobrick Compass
 appId: cryobrick.compass
 authors:
 - danny
-date: 2026-04-20
+date: 2026-10-30
 released: 2026-04-03
 website: https://www.cryobrick.com
 github: https://github.com/cryobrick/compass

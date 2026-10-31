@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Invest 2021
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/net.cryptocurrencersltd.bitcoin.invest.latest/
 android:

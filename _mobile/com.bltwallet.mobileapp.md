@@ -1,6 +1,6 @@
 ---
 title: BLT Wallet
-date: 2023-01-30
+date: 2026-10-30
 website: https://bitlivenow.com/
 redirect_from:
 - /android/com.bltwallet.mobileapp/

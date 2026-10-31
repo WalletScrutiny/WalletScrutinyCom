@@ -1,6 +1,6 @@
 ---
 title: Denryu Wallet
-date: 2024-05-18
+date: 2026-10-30
 authors:
 - kiwilamb
 website: https://denryu.hashhub.tokyo#deadLink

@@ -1,6 +1,6 @@
 ---
 title: Jaxx Liberty Wallet
-date: 2021-12-05
+date: 2026-10-30
 authors:
 - leo
 redirect_from:

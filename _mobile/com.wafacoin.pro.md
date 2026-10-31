@@ -1,6 +1,6 @@
 ---
 title: Wafa
-date: 2023-09-15
+date: 2026-10-30
 redirect_from:
 - /android/com.wafacoin.pro/
 android:

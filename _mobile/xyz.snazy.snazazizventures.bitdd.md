@@ -1,6 +1,6 @@
 ---
 title: BITDD
-date: 2024-02-05
+date: 2026-10-30
 website: https://bitdd.co
 redirect_from:
 - /android/xyz.snazy.snazazizventures.bitdd/

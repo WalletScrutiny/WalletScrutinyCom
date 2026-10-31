@@ -1,6 +1,6 @@
 ---
 title: BTCBOX Trading
-date: 2023-10-16
+date: 2026-10-30
 website: https://www.btcbox.com.br
 redirect_from:
 - /android/br.btcbox.platform/

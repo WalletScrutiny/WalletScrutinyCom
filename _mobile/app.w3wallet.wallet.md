@@ -1,6 +1,6 @@
 ---
 title: 'W3 Wallet: Manage Crypto'
-date: 2026-04-28
+date: 2026-10-30
 website: https://w3wallet.app
 appCountry: us
 redirect_from:

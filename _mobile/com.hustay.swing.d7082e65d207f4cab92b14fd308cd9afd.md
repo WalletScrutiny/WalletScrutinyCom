@@ -1,6 +1,6 @@
 ---
 title: 싱싱코인
-date: 2023-05-10
+date: 2026-10-30
 redirect_from:
 - /android/com.hustay.swing.d7082e65d207f4cab92b14fd308cd9afd/
 android:

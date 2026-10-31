@@ -1,6 +1,6 @@
 ---
 title: satoshiBot
-date: 2022-01-15
+date: 2026-10-30
 redirect_from:
 - /android/bitcoin.bot.finaladstest/
 android:

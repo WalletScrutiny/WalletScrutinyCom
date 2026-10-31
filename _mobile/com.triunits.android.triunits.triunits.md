@@ -1,6 +1,6 @@
 ---
 title: Triunits
-date: 2024-11-19
+date: 2026-10-30
 website: https://triunits.com
 redirect_from:
 - /android/com.triunits.android.triunits.triunits/

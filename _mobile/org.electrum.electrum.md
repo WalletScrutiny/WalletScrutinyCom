@@ -1,7 +1,7 @@
 ---
 title: Electrum Bitcoin Wallet
 bitcoinOrgId: electrum
-date: 2025-08-11
+date: 2026-10-30
 authors:
 - leo
 - Mohammad Rafigh

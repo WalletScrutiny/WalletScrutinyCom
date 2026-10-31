@@ -1,6 +1,6 @@
 ---
 title: 'BTC DEX: Buy Crypto & Bitcoin'
-date: 2026-01-14
+date: 2026-10-30
 website: https://www.btcdex.app/bitcoin/faq#contact
 redirect_from:
 - /android/com.btcdex.app/

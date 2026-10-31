@@ -1,6 +1,6 @@
 ---
 title: BXB-Virtual contract BTC&NFT
-date: 2023-08-05
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bxb.io#deadLink

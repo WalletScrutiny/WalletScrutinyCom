@@ -1,6 +1,6 @@
 ---
 title: Elevation Markets - Investment
-date: 2023-12-19
+date: 2026-10-30
 website: https://elevation-markets.com#deadLink
 redirect_from:
 - /android/em.elevationmarkets/

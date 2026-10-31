@@ -1,6 +1,6 @@
 ---
 title: chiba - trade cryptocurrency
-date: 2023-05-17
+date: 2026-10-30
 authors:
 - danny
 website: https://chiba.exchange#deadLink

@@ -1,6 +1,6 @@
 ---
 title: Sold wallet
-date: 2023-11-02
+date: 2026-10-30
 website: https://solidus-vc.io#deadLink
 redirect_from:
 - /android/com.sold.wallet/

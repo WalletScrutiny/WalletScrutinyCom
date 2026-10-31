@@ -1,6 +1,6 @@
 ---
 title: 小米XM：BTC、ETH、USDT & 加密货币交易平台
-date: 2024-04-19
+date: 2026-10-30
 website: https://xm.im#deadLink
 redirect_from:
 - /android/com.chainup.exchange.XM/

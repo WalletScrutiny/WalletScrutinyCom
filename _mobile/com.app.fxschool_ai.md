@@ -1,6 +1,6 @@
 ---
 title: Hikmah - ইসলামিক কুইজ MCQ গেম
-date: 2024-07-30
+date: 2026-10-30
 website: https://www.hikmahbd.com/
 redirect_from:
 - /android/com.app.fxschool_ai/

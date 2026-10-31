@@ -1,6 +1,6 @@
 ---
 title: 'RuieBit: Bitcoin Wallet - BTC'
-date: 2026-01-14
+date: 2026-10-30
 appCountry: us
 redirect_from:
 - /iphone/com.ruiebit.bitcoinapp/

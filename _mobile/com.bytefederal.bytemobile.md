@@ -1,6 +1,6 @@
 ---
 title: ByteWallet - Buy Bitcoin
-date: 2026-01-14
+date: 2026-10-30
 authors:
 - danny
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Wallet Bahasa Malaysia
-date: 2021-12-05
+date: 2026-10-30
 redirect_from:
 - /android/com.bitcoin.dompets/
 android:

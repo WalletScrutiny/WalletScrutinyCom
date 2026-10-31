@@ -1,6 +1,6 @@
 ---
 title: 'Bekonta: Buy & Sell Crypto'
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 website: https://bekonta.com

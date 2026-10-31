@@ -1,6 +1,6 @@
 ---
 title: BTCintraTrade
-date: 2024-04-19
+date: 2026-10-30
 website: https://btcintratrade.com/
 redirect_from:
 - /android/com.btcintra.app/

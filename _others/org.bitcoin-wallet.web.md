@@ -5,7 +5,7 @@ subtype: web
 authors:
 - danny
 icon: org.bitcoin-wallet.web.webp
-date: 2024-05-10
+date: 2026-10-30
 website: https://bitcoin-wallet.org
 meta: ok
 verdict: wip

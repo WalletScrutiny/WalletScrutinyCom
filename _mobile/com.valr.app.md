@@ -1,6 +1,6 @@
 ---
 title: VALR Crypto Exchange & Wallet
-date: 2021-04-13
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo

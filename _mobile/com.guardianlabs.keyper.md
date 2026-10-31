@@ -1,6 +1,6 @@
 ---
 title: Guardian Keyper
-date: 2026-05-21
+date: 2026-10-30
 website: https://myguardian.network/
 redirect_from:
 - /android/com.guardianlabs.keyper/

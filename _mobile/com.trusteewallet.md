@@ -1,6 +1,6 @@
 ---
 title: Trustee | crypto & btc wallet
-date: 2026-03-23
+date: 2026-10-30
 authors:
 - leo
 - danny

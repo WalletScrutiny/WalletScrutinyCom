@@ -1,6 +1,6 @@
 ---
 title: United Network Crypto Wallet
-date: 2025-11-10
+date: 2026-10-30
 website: https://united.network
 redirect_from:
 - /android/united.network/

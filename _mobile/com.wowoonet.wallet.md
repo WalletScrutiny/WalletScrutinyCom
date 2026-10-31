@@ -1,6 +1,6 @@
 ---
 title: WowooWallet
-date: 2023-05-03
+date: 2026-10-30
 redirect_from:
 - /android/com.wowoonet.wallet/
 android:

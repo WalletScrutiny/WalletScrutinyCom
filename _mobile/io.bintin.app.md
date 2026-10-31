@@ -1,6 +1,6 @@
 ---
 title: Bintin
-date: 2024-04-03
+date: 2026-10-30
 website: https://bintin.io
 redirect_from:
 - /android/io.bintin.app/

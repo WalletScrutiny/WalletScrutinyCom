@@ -1,6 +1,6 @@
 ---
 title: BIB
-date: 2024-12-23
+date: 2026-10-30
 twitter: bib_exchange
 social:
 - https://www.bibvip.com

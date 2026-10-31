@@ -1,6 +1,6 @@
 ---
 title: Zap Wallet - Send Crypto Fast
-date: 2025-12-26
+date: 2026-10-30
 authors:
 - danny
 website: https://zap.africa

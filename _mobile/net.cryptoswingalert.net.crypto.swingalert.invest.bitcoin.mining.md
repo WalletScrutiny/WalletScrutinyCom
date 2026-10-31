@@ -1,6 +1,6 @@
 ---
 title: Invest Bitcoin Mining
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/net.cryptoswingalert.net.crypto.swingalert.invest.bitcoin.mining/
 android:

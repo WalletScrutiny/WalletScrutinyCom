@@ -1,6 +1,6 @@
 ---
 title: 'HOLD: Pay & Split with Friends'
-date: 2026-09-16
+date: 2026-10-30
 authors:
 - danny
 website: https://www.hihodl.xyz

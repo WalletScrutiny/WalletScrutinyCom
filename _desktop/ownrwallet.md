@@ -16,7 +16,7 @@ icon: ownrwallet.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2024-04-25
+date: 2026-10-30
 twitter: ownrwallet
 social: 
 builds: 

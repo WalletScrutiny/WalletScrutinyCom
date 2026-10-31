@@ -1,6 +1,6 @@
 ---
 title: PinUrCoin Cryptocurrency Exchange and Wallet
-date: 2021-10-15
+date: 2026-10-30
 redirect_from:
 - /android/pinurcoin.android/
 android:

@@ -1,6 +1,6 @@
 ---
 title: Mobile Wallet Manager
-date: 2021-10-15
+date: 2026-10-30
 redirect_from:
 - /android/com.tro.zor/
 android:

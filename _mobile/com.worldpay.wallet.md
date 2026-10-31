@@ -1,6 +1,6 @@
 ---
 title: WorldPay
-date: 2024-09-25
+date: 2026-10-30
 website: https://wc-s.com/wallet#deadLink
 redirect_from:
 - /android/com.worldpay.wallet/

@@ -1,6 +1,6 @@
 ---
 title: 'Nebeus: Crypto Finance'
-date: 2023-02-25
+date: 2026-10-30
 authors:
 - danny
 website: https://nebeus.com

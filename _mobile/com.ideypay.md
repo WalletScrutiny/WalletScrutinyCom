@@ -1,6 +1,6 @@
 ---
 title: 'iDeyPay: Buy and Sell Bitcoin '
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
 website: https://ideypay.com

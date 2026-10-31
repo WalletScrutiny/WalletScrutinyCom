@@ -1,6 +1,6 @@
 ---
 title: Wire Wallet
-date: 2021-12-29
+date: 2026-10-30
 redirect_from:
 - /android/com.wire.wirewalletapp/
 android:

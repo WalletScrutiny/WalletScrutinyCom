@@ -1,6 +1,6 @@
 ---
 title: Blockchain Wallet
-date: 2021-02-17
+date: 2026-10-30
 redirect_from:
 - /com.andreys.blockchainwallet/
 - /android/com.andreys.blockchainwallet/

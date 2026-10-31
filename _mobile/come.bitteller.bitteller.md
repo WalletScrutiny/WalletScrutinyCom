@@ -1,6 +1,6 @@
 ---
 title: Bit Teller
-date: 2024-04-03
+date: 2026-10-30
 website: https://bit-teller.com
 redirect_from:
 - /android/come.bitteller.bitteller/

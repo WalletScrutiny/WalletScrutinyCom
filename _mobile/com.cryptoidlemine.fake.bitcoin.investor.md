@@ -1,6 +1,6 @@
 ---
 title: Fake Bitcoin Investor
-date: 2021-09-18
+date: 2026-10-30
 redirect_from:
 - /android/com.cryptoidlemine.fake.bitcoin.investor/
 android:

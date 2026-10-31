@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Cloud - BTC Cloud Mining
-date: 2021-09-23
+date: 2026-10-30
 redirect_from:
 - /android/com.bitcoinmining.android786/
 android:

@@ -1,6 +1,6 @@
 ---
 title: 'Delta Exchange: Crypto Options'
-date: 2025-11-14
+date: 2026-10-30
 authors:
 - danny
 website: https://india.delta.exchange

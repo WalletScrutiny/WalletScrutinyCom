@@ -1,6 +1,6 @@
 ---
 title: UPay Wallet
-date: 2026-01-23
+date: 2026-10-30
 authors:
 - danny
 twitter: UPayOfficial_EN

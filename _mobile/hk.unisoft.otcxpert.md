@@ -1,6 +1,6 @@
 ---
 title: OTCXPERT - 專業級數位錢包及交易平台
-date: 2023-09-28
+date: 2026-10-30
 website: https://otcxpert.com/
 redirect_from:
 - /android/hk.unisoft.otcxpert/

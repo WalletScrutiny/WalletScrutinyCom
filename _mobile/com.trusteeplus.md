@@ -1,6 +1,6 @@
 ---
 title: Trustee Plus | Wallet & Card
-date: 2026-02-20
+date: 2026-10-30
 authors:
 - danny
 website: https://trusteeglobal.com

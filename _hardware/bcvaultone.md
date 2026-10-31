@@ -25,7 +25,7 @@ icon: bcvaultone.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-12-10
+date: 2026-10-30
 signer: 
 twitter: bc_vault
 social:

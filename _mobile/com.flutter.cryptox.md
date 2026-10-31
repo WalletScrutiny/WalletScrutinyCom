@@ -1,6 +1,6 @@
 ---
 title: Cryptox Flutter Template
-date: 2024-07-05
+date: 2026-10-30
 website: https://opuslab.works/apps/crypto-nft
 redirect_from:
 - /android/com.flutter.cryptox/

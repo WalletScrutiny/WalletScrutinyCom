@@ -1,6 +1,6 @@
 ---
 title: Oduwa Trust Wallet
-date: 2024-08-26
+date: 2026-10-30
 authors:
 - danny
 website: https://www.oduwacoin.io/

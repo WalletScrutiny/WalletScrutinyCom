@@ -1,6 +1,6 @@
 ---
 title: Betadeal - Buy & Sell Bitcoin, Ethereum
-date: 2022-02-16
+date: 2026-10-30
 authors:
 - danny
 website: https://betadeal.net#deadLink

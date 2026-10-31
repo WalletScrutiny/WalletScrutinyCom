@@ -1,6 +1,6 @@
 ---
 title: BitHappy - The Bitcoin Browser
-date: 2024-04-19
+date: 2026-10-30
 website: http://bithappy.co.uk#deadLink
 redirect_from:
 - /android/com.bithappy.browser.v1/

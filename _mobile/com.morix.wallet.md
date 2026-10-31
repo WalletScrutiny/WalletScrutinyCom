@@ -1,6 +1,6 @@
 ---
 title: MoriX Wallet
-date: 2024-10-10
+date: 2026-10-30
 authors:
 - danny
 website: https://morixjp.com/contact

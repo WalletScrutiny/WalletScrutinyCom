@@ -1,6 +1,6 @@
 ---
 title: KDEX
-date: 2023-08-16
+date: 2026-10-30
 website: http://demo.kdex.vip/#&deadLink
 redirect_from:
 - /android/vip.kdex.app/

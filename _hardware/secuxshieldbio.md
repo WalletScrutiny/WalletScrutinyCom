@@ -24,7 +24,7 @@ icon: secuxshieldbio.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2024-09-03
+date: 2026-10-30
 signer: 
 twitter: SecuXwallet
 social:

@@ -1,6 +1,6 @@
 ---
 title: N26 — Love your bank
-date: 2025-10-17
+date: 2026-10-30
 authors:
 - danny
 website: https://n26.com/?utm_source=appstore&utm_medium=description

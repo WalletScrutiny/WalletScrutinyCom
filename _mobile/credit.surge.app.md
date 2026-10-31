@@ -1,6 +1,6 @@
 ---
 title: Surge Credit
-date: 2026-06-09
+date: 2026-10-30
 website: https://www.surge.credit/
 redirect_from:
 - /iphone/credit.surge.app/

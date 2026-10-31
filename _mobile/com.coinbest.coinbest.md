@@ -1,6 +1,6 @@
 ---
 title: 暗号資産取引ならOSL Japan
-date: 2025-02-24
+date: 2026-10-30
 authors:
 - danny
 website: https://osl.com/jp

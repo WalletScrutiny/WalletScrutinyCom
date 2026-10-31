@@ -1,6 +1,6 @@
 ---
 title: DitoBanx Wallet Personas
-date: 2026-02-25
+date: 2026-10-30
 authors:
 - danny
 website: https://ditobanx.com/

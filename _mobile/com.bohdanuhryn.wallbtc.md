@@ -1,6 +1,6 @@
 ---
 title: WallBTC кошелек и обменник кри
-date: 2024-07-05
+date: 2026-10-30
 website: http://wallbtc.com
 redirect_from:
 - /android/com.bohdanuhryn.wallbtc/

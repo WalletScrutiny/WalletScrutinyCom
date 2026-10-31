@@ -1,6 +1,6 @@
 ---
 title: 'CoinCollect wallet: We Make Crypto Easy'
-date: 2022-01-15
+date: 2026-10-30
 authors:
 - danny
 website: https://coincollect.cc/

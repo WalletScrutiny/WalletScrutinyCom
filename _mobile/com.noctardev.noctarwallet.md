@@ -1,6 +1,6 @@
 ---
 title: Noctar Wallet
-date: 2026-09-14
+date: 2026-10-30
 iphone:
   appId: com.noctardev.noctarwallet
   idd: '6752936301'

@@ -1,6 +1,6 @@
 ---
 title: '아워페이 월렛 : OurPay Wallet'
-date: 2023-12-19
+date: 2026-10-30
 redirect_from:
 - /android/com.ourpaywallet/
 android:

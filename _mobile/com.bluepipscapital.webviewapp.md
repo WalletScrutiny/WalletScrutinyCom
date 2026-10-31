@@ -1,6 +1,6 @@
 ---
 title: BluePips Capital
-date: 2023-11-02
+date: 2026-10-30
 website: https://www.bluepips.co#deadLink
 redirect_from:
 - /android/com.bluepipscapital.webviewapp/

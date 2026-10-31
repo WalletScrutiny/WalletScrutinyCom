@@ -1,6 +1,6 @@
 ---
 title: 'ECD Wallet: Buy BTC & ETH'
-date: 2026-01-03
+date: 2026-10-30
 authors:
 - danny
 website: https://ecd.rs/

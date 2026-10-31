@@ -1,6 +1,6 @@
 ---
 title: 'Inocyx: Buy & Trade Crypto'
-date: 2023-11-01
+date: 2026-10-30
 authors:
 - danny
 website: https://inocyx.com/

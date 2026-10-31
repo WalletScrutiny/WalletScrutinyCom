@@ -1,6 +1,6 @@
 ---
 title: Flutter Cryptowallet
-date: 2024-09-08
+date: 2026-10-30
 website: https://interestinate.com
 redirect_from:
 - /android/com.interestinate.flutter_cryptowallet/

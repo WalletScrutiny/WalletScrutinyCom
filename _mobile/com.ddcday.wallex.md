@@ -1,6 +1,6 @@
 ---
 title: Copay Wallet Mobile
-date: 2021-11-26
+date: 2026-10-30
 authors:
 - leo
 redirect_from:

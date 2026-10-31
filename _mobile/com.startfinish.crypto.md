@@ -1,6 +1,6 @@
 ---
 title: Crypto Start
-date: 2021-11-16
+date: 2026-10-30
 redirect_from:
 - /android/com.startfinish.crypto/
 android:

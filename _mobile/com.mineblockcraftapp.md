@@ -1,6 +1,6 @@
 ---
 title: 'Mine Block Craft - Blockchain '
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/com.mineblockcraftapp/
 android:

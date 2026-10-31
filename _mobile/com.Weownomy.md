@@ -1,6 +1,6 @@
 ---
 title: Weownomy Pay
-date: 2023-07-28
+date: 2026-10-30
 authors:
 - danny
 redirect_from:

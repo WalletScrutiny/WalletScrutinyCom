@@ -21,7 +21,7 @@ icon: scallop.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2024-10-22
+date: 2026-10-30
 signer: 
 twitter: ScallopDefiBank
 social:

@@ -1,6 +1,6 @@
 ---
 title: Moneybrain Financial SuperApp
-date: 2021-11-22
+date: 2026-10-30
 authors:
 - danny
 website: https://www.moneybrain.com

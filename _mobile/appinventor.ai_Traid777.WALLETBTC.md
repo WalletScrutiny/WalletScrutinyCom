@@ -1,6 +1,6 @@
 ---
 title: Bitcoin wallet - Qantum
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/appinventor.ai_Traid777.WALLETBTC/
 android:

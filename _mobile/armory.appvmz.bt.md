@@ -1,6 +1,6 @@
 ---
 title: Ja­xx lib­erty
-date: 2023-01-11
+date: 2026-10-30
 redirect_from:
 - /android/armory.appvmz.bt/
 android:

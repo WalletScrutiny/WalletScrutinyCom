@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Wallet Market
-date: 2024-11-04
+date: 2026-10-30
 authors:
 - danny
 website: https://wallet-markets.web.app

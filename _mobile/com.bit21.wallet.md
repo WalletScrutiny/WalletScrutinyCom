@@ -1,6 +1,6 @@
 ---
 title: 'bit21: Bitcoin Wallet'
-date: 2026-10-13
+date: 2026-10-30
 authors:
 - danny
 website: https://bit21.app

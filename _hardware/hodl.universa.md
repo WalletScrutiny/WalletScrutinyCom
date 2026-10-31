@@ -21,7 +21,7 @@ icon: hodl.universa.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-29
+date: 2026-10-30
 signer: 
 twitter: Universa_News
 social:

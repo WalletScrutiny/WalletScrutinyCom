@@ -1,6 +1,6 @@
 ---
 title: Xbond — Crypto Exchange
-date: 2024-07-05
+date: 2026-10-30
 website: https://xbond.io
 redirect_from:
 - /android/io.xbond.droidapp/

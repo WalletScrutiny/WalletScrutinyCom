@@ -1,6 +1,6 @@
 ---
 title: TraderBit - Crypto coin trader
-date: 2024-07-05
+date: 2026-10-30
 website: https://julienfer.github.io/app#deadLink
 redirect_from:
 - /android/julfer.com.multitrader/

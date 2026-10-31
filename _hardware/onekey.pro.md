@@ -25,7 +25,7 @@ icon: onekey.pro.webp
 bugbounty: https://github.com/OneKeyHQ/app-monorepo/blob/onekey/docs/BUG_RULES.md
 meta: ok
 verdict: sourceavailable
-date: 2025-09-10
+date: 2026-10-30
 signer: 
 twitter: OneKeyHQ
 social:

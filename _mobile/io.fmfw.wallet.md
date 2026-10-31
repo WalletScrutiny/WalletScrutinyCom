@@ -1,6 +1,6 @@
 ---
 title: 'FMFW.io Wallet: Buy Bitcoin'
-date: 2024-03-02
+date: 2026-10-30
 website: https://fmfw.io
 redirect_from:
 - /android/io.fmfw.wallet/

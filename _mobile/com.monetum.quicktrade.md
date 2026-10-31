@@ -1,6 +1,6 @@
 ---
 title: Monetum Quick Trade
-date: 2025-03-14
+date: 2026-10-30
 website: https://monetum.com/quick-trade
 redirect_from:
 - /android/com.monetum.quicktrade/

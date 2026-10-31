@@ -1,6 +1,6 @@
 ---
 title: Jackocoins -  Sell BTC, ETH, U
-date: 2024-10-23
+date: 2026-10-30
 authors:
 - danny
 website: https://www.jackocoins.com/

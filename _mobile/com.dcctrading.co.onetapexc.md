@@ -1,6 +1,6 @@
 ---
 title: Mood Journal
-date: 2026-05-21
+date: 2026-10-30
 website: https://onetapexc.com#deadLink
 redirect_from:
 - /android/com.dcctrading.co.onetapexc/

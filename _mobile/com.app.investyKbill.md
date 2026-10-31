@@ -1,6 +1,6 @@
 ---
 title: green-wallet -invest in profitable assets
-date: 2021-11-26
+date: 2026-10-30
 redirect_from:
 - /android/com.app.investyKbill/
 android:

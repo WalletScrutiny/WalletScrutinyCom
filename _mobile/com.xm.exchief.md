@@ -1,6 +1,6 @@
 ---
 title: Exchief
-date: 2023-01-30
+date: 2026-10-30
 redirect_from:
 - /android/com.xm.exchief/
 android:

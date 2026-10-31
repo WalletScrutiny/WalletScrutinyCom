@@ -1,6 +1,6 @@
 ---
 title: 'Utapp: Crypto Wallet & Card'
-date: 2025-12-24
+date: 2026-10-30
 authors:
 - danny
 twitter: utorgcom

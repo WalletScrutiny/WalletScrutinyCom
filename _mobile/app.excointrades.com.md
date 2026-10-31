@@ -1,6 +1,6 @@
 ---
 title: Rocket Trade EX
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 website: https://web.excoin.cloud#deadLink

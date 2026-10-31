@@ -1,6 +1,6 @@
 ---
 title: Defix Wallet
-date: 2023-01-11
+date: 2026-10-30
 website: https://www.defixwallet.io#deadLink
 redirect_from:
 - /android/com.defixwallet/

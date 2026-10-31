@@ -1,6 +1,6 @@
 ---
 title: Cosmostation Interchain Wallet
-date: 2023-01-03
+date: 2026-10-30
 authors:
 - danny
 website: https://cosmostation.io

@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Profits real calculator
-date: 2021-10-03
+date: 2026-10-30
 redirect_from:
 - /android/btc.profits.calculator/
 android:

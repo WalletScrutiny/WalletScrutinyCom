@@ -1,6 +1,6 @@
 ---
 title: Buy Crypto With Bank Account
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/com.cryptojournal.buy.crypto.with.bank.account/
 android:

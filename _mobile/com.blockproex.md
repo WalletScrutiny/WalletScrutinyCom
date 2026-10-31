@@ -1,6 +1,6 @@
 ---
 title: BlockProEx - Buy BTC, ETH, TRX
-date: 2024-10-31
+date: 2026-10-30
 redirect_from:
 - /android/com.blockproex/
 android:

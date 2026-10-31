@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Wallet India Free
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/org.cryptosignals.bitcoin.wallet.india.free/
 android:

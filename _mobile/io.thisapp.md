@@ -1,6 +1,6 @@
 ---
 title: thisAppBudget
-date: 2025-02-26
+date: 2026-10-30
 website: https://thisapp.io
 redirect_from:
 - /android/io.thisapp/

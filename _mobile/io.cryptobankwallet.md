@@ -1,6 +1,6 @@
 ---
 title: CryptoBank
-date: 2024-04-19
+date: 2026-10-30
 website: http://www.gexpay.com
 redirect_from:
 - /android/io.cryptobankwallet/

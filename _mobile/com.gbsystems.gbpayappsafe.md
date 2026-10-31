@@ -1,6 +1,6 @@
 ---
 title: GBPay Safe Client
-date: 2024-04-19
+date: 2026-10-30
 website: https://www.gbpay.cc/et#deadLink
 redirect_from:
 - /android/com.gbsystems.gbpayappsafe/

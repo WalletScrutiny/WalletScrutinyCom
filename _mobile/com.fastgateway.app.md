@@ -1,6 +1,6 @@
 ---
 title: 'FGS: Buy & Sell Crypto P2P'
-date: 2023-01-02
+date: 2026-10-30
 website: https://fast-gateway.com/
 redirect_from:
 - /android/com.fastgateway.app/

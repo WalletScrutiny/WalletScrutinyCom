@@ -1,6 +1,6 @@
 ---
 title: ICNCDE Pro—Trading & Investing
-date: 2023-08-04
+date: 2026-10-30
 website: http://www.icncde.com#deadLink
 redirect_from:
 - /android/com.dssj.currencytradinggoogle/

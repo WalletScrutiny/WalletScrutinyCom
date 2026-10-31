@@ -1,6 +1,6 @@
 ---
 title: 'OKX Wallet: Portal to Web3'
-date: 2025-11-20
+date: 2026-10-30
 authors:
 - danny
 twitter: wallet

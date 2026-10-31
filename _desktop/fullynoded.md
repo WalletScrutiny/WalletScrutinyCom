@@ -16,7 +16,7 @@ icon: fullynoded.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2024-04-25
+date: 2026-10-30
 twitter: FullyNoded
 social: 
 builds: 

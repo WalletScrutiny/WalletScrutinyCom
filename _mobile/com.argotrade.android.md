@@ -1,6 +1,6 @@
 ---
 title: ArgoTrade
-date: 2025-02-26
+date: 2026-10-30
 authors:
 - danny
 redirect_from:

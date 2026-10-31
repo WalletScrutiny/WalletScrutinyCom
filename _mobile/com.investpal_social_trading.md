@@ -1,6 +1,6 @@
 ---
 title: InvestPal- Social Investing
-date: 2024-07-05
+date: 2026-10-30
 website: https://investpal.io
 redirect_from:
 - /android/com.investpal_social_trading/

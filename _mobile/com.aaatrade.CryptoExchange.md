@@ -1,6 +1,6 @@
 ---
 title: CryptoExchanger-CryptoExchange
-date: 2023-09-04
+date: 2026-10-30
 website: https://www.aaatrade.com#deadLink
 redirect_from:
 - /android/com.aaatrade.CryptoExchange/

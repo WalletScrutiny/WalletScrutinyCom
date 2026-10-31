@@ -1,6 +1,6 @@
 ---
 title: BCheck Wallet
-date: 2024-05-07
+date: 2026-10-30
 website: http://www.bitchk.com
 redirect_from:
 - /android/com.bitchk.bitchk/

@@ -1,6 +1,6 @@
 ---
 title: 'YouHodler: BTC & Crypto Wallet'
-date: 2020-06-20
+date: 2026-10-30
 authors:
 - leo
 website: https://youhodler.com

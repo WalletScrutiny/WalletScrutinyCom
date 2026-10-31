@@ -21,7 +21,7 @@ icon: coinpass.bio.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-11-26
+date: 2026-10-30
 signer: 
 twitter: FEITIAN_Tech
 social:

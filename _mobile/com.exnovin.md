@@ -1,6 +1,6 @@
 ---
 title: خرید و فروش ارزدیجیتال اکسنوین
-date: 2025-01-27
+date: 2026-10-30
 authors:
 - danny
 website: https://exnovin.net

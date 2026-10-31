@@ -1,6 +1,6 @@
 ---
 title: 'Onyze Wallet: Full Security fo'
-date: 2024-04-03
+date: 2026-10-30
 website: https://onyze.com/
 redirect_from:
 - /android/com.onyze.wallet/

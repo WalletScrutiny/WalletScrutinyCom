@@ -1,6 +1,6 @@
 ---
 title: 'Cxihub: Trade Bitcoin/Crypto'
-date: 2024-04-19
+date: 2026-10-30
 website: https://cxihub.com#deadLink
 redirect_from:
 - /android/com.cxihub.cxihubapp/

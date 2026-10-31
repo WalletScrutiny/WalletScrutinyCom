@@ -1,6 +1,6 @@
 ---
 title: UnifiedPurse - Receive,Exchang
-date: 2024-04-26
+date: 2026-10-30
 website: https://unifiedpurse.com
 redirect_from:
 - /android/com.unifiedpurse.app/

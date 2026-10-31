@@ -1,6 +1,6 @@
 ---
 title: KamWallet
-date: 2024-08-17
+date: 2026-10-30
 redirect_from:
 - /android/com.wallet.kmpaywallet_android/
 android:

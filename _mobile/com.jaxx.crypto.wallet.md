@@ -1,6 +1,6 @@
 ---
 title: 'Ja­xx Lib­erty: Crypto Wallet'
-date: 2021-10-30
+date: 2026-10-30
 authors:
 - leo
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: Nature
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/uni.UNICB29B91/
 android:

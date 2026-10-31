@@ -1,6 +1,6 @@
 ---
 title: 코인통
-date: 2021-08-01
+date: 2026-10-30
 authors:
 - danny
 website: http://cointong.io/

@@ -1,6 +1,6 @@
 ---
 title: Pleiades Crypto Wallet
-date: 2023-08-25
+date: 2026-10-30
 website: https://www.pleiades.finance#deadLink
 redirect_from:
 - /android/com.pleiades.wallet/

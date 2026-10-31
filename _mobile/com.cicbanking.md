@@ -1,6 +1,6 @@
 ---
 title: CICBANKING
-date: 2023-06-21
+date: 2026-10-30
 website: https://cicbanking.com#deadLink
 redirect_from:
 - /android/com.cicbanking/

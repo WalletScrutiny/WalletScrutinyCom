@@ -1,6 +1,6 @@
 ---
 title: BitRoyal Exchange
-date: 2024-04-03
+date: 2026-10-30
 website: https://bitroyalexchange.com#deadLink
 redirect_from:
 - /android/com.bitroyal.bitroyalapp/

@@ -1,6 +1,6 @@
 ---
 title: SecuX EvPay
-date: 2026-05-21
+date: 2026-10-30
 website: https://www.secuxtech.com
 redirect_from:
 - /android/com.secuxtech.mysecuxpay/

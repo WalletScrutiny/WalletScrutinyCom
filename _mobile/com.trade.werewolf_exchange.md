@@ -1,6 +1,6 @@
 ---
 title: Werewolf Exchange
-date: 2023-09-15
+date: 2026-10-30
 redirect_from:
 - /android/com.trade.werewolf_exchange/
 android:

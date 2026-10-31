@@ -1,6 +1,6 @@
 ---
 title: Coinsclone Wallet - Demo
-date: 2024-05-07
+date: 2026-10-30
 website: https://www.coinsclone.com/
 redirect_from:
 - /android/com.ccwallet.app/

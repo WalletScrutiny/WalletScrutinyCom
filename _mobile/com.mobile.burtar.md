@@ -1,6 +1,6 @@
 ---
 title: 'Burtar wallet: Buy, Sell & Swap Bitcoin & Crypto'
-date: 2022-05-31
+date: 2026-10-30
 authors:
 - leo
 website: https://burtar.com#deadLink

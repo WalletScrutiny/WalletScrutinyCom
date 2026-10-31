@@ -1,6 +1,6 @@
 ---
 title: Crypto Coin
-date: 2024-07-05
+date: 2026-10-30
 website: https://a1in1.com#deadLink
 redirect_from:
 - /android/com.a1in1.crypto_coin/

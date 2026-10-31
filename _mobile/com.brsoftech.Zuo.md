@@ -1,6 +1,6 @@
 ---
 title: Zuo
-date: 2023-04-16
+date: 2026-10-30
 website: http://zuobox.com#deadLink
 redirect_from:
 - /android/com.brsoftech.Zuo/

@@ -1,6 +1,6 @@
 ---
 title: 'SAVOX: Buy & Sell Bitcoin, Eth'
-date: 2023-11-02
+date: 2026-10-30
 website: https://savox.io#deadLink
 redirect_from:
 - /android/io.savox.app/

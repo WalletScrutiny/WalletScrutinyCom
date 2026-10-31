@@ -1,6 +1,6 @@
 ---
 title: 'MB | Mercado Bitcoin: criptos'
-date: 2021-08-21
+date: 2026-10-30
 authors:
 - danny
 website: http://www.mercadobitcoin.com.br

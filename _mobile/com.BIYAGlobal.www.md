@@ -1,6 +1,6 @@
 ---
 title: BiyaPay-Remit, Trade, NoFreeze
-date: 2023-07-01
+date: 2026-10-30
 authors:
 - danny
 website: https://cn.biyapay.com/

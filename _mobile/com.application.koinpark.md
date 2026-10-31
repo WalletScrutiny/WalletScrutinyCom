@@ -1,6 +1,6 @@
 ---
 title: 'Koinpark: Buy Bitcoin & Crypto'
-date: 2023-07-29
+date: 2026-10-30
 authors:
 - danny
 website: https://www.koinpark.com/

@@ -1,6 +1,6 @@
 ---
 title: Bitfire--新火集团旗下数字资产私行级管家
-date: 2025-12-31
+date: 2026-10-30
 redirect_from:
 - /android/com.sinohope.pro/
 android:

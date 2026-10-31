@@ -1,6 +1,6 @@
 ---
 title: B4U Global
-date: 2024-04-19
+date: 2026-10-30
 website: https://s4782b2ec.app-ads-txt.com
 redirect_from:
 - /android/com.wB4UGLOBAL_1/

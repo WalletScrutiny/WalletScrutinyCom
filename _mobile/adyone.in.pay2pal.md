@@ -1,6 +1,6 @@
 ---
 title: PAY2PAL
-date: 2023-09-28
+date: 2026-10-30
 website: https://pay2pal.io#deadLink
 redirect_from:
 - /android/adyone.in.pay2pal/

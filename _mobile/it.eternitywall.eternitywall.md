@@ -1,6 +1,6 @@
 ---
 title: Eternity Wall
-date: 2024-04-19
+date: 2026-10-30
 website: http://eternitywall.it
 redirect_from:
 - /android/it.eternitywall.eternitywall/

@@ -1,6 +1,6 @@
 ---
 title: 'GoSats: Gold and BTC Rewards'
-date: 2023-02-13
+date: 2026-10-30
 authors:
 - danny
 website: https://gosats.io

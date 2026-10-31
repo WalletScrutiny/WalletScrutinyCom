@@ -1,6 +1,6 @@
 ---
 title: Viennox Crypto Exchange
-date: 2024-03-02
+date: 2026-10-30
 website: https://viennox.com#deadLink
 redirect_from:
 - /android/com.app.viennoxexchange/

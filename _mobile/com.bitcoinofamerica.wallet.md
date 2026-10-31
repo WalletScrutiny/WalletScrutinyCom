@@ -1,6 +1,6 @@
 ---
 title: Bitcoin of America Wallet
-date: 2022-02-16
+date: 2026-10-30
 authors:
 - leo
 website: https://www.bitcoinofamerica.org

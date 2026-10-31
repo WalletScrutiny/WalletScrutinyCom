@@ -1,6 +1,6 @@
 ---
 title: ABiTPay
-date: 2023-04-20
+date: 2026-10-30
 redirect_from:
 - /android/com.abitnetwork.abitpay/
 android:

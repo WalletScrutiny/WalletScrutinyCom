@@ -16,7 +16,7 @@ icon: brave.browser.webp
 bugbounty: https://hackerone.com/brave
 meta: ok
 verdict: sourceavailable
-date: 2025-12-31
+date: 2026-10-30
 twitter: brave
 social:
 - https://www.reddit.com/r/brave_browser

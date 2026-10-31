@@ -1,6 +1,6 @@
 ---
 title: DroidFlyer
-date: 2026-02-02
+date: 2026-10-30
 website: https://github.com/unhappychoice/DroidFlyer
 redirect_from:
 - /android/com.unhappychoice.droidflyer/

@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Mining 2021 - Cloud Mining BTC Wallet
-date: 2021-08-13
+date: 2026-10-30
 redirect_from:
 - /android/com.cloudmining.mineresp/
 android:

@@ -1,6 +1,6 @@
 ---
 title: Bit.Eu
-date: 2024-07-05
+date: 2026-10-30
 website: https://bit.eu
 redirect_from:
 - /android/com.Bit.Eu/

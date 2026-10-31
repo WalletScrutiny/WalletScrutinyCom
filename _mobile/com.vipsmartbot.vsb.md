@@ -1,6 +1,6 @@
 ---
 title: Smart Bot
-date: 2023-06-10
+date: 2026-10-30
 authors:
 - danny
 website: https://www.vipsmartbot.com#deadLink

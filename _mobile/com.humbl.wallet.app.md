@@ -1,6 +1,6 @@
 ---
 title: TAP Wallet
-date: 2025-10-03
+date: 2026-10-30
 authors:
 - danny
 website: https://tapwallet.com/

@@ -1,6 +1,6 @@
 ---
 title: KoinKoin Exchange
-date: 2024-01-18
+date: 2026-10-30
 authors:
 - danny
 website: https://koinkoin.io/

@@ -1,6 +1,6 @@
 ---
 title: Kryptiva
-date: 2024-08-17
+date: 2026-10-30
 redirect_from:
 - /android/app.kryptiva/
 android:

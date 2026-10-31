@@ -1,6 +1,6 @@
 ---
 title: 'WalletConnect : best Crypto Bitcoin Wallet'
-date: 2021-09-16
+date: 2026-10-30
 redirect_from:
 - /android/com.walletconnect.walletair/
 android:

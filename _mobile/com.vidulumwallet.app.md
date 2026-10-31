@@ -1,6 +1,6 @@
 ---
 title: Vidulum - Crypto Web Wallet
-date: 2024-12-15
+date: 2026-10-30
 authors:
 - leo
 - danny

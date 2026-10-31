@@ -1,6 +1,6 @@
 ---
 title: OnePago
-date: 2023-08-16
+date: 2026-10-30
 website: https://www.onepago.com#deadLink
 redirect_from:
 - /android/com.onepago.app/

@@ -1,6 +1,6 @@
 ---
 title: CryptoMerchant POS
-date: 2024-12-23
+date: 2026-10-30
 website: https://www.cryptomerchant.eu
 redirect_from:
 - /android/eu.cryptomerchant.pos/

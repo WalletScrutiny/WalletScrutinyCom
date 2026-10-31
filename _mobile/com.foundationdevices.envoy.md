@@ -1,6 +1,6 @@
 ---
 title: Envoy
-date: 2026-07-23
+date: 2026-10-30
 authors:
 - danny
 - keraliss

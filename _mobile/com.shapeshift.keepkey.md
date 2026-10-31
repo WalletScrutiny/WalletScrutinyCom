@@ -1,6 +1,6 @@
 ---
 title: KeepKey by ShapeShift
-date: 2024-07-05
+date: 2026-10-30
 website: https://keepkey.com
 redirect_from:
 - /android/com.shapeshift.keepkey/

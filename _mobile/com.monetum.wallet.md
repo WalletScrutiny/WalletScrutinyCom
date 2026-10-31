@@ -1,6 +1,6 @@
 ---
 title: Monetum Wallet
-date: 2024-08-31
+date: 2026-10-30
 website: https://monetum.com
 redirect_from:
 - /android/com.monetum.wallet/

@@ -1,6 +1,6 @@
 ---
 title: 中币ZB-Buy Bitcoin, ETH, Crypto
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/com.zbbtc.app/
 android:

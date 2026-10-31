@@ -1,6 +1,6 @@
 ---
 title: 'SMDEX : Buy BTC & Other Crypto'
-date: 2023-08-05
+date: 2026-10-30
 authors:
 - danny
 website: https://smdex.io#deadLink

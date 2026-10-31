@@ -1,6 +1,6 @@
 ---
 title: Newton - Trade Crypto Canada
-date: 2026-01-05
+date: 2026-10-30
 authors:
 - danny
 website: https://newton.co

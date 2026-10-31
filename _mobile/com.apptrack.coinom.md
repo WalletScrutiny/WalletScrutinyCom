@@ -1,6 +1,6 @@
 ---
 title: 'Coinom Wallet : Bitcoin Ethereum Altcoins Tokens'
-date: 2021-07-30
+date: 2026-10-30
 authors:
 - emanuel
 - leo

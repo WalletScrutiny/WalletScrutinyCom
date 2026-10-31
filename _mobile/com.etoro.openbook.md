@@ -1,6 +1,6 @@
 ---
 title: 'etoro: Trade. Invest. Connect.'
-date: 2021-04-02
+date: 2026-10-30
 authors:
 - leo
 website: https://www.etoro.com/

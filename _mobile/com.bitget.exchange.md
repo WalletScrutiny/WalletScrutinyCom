@@ -1,6 +1,6 @@
 ---
 title: Bitget - Buy & Sell Crypto
-date: 2021-09-17
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitget.com/

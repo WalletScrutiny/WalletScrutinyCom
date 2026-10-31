@@ -1,6 +1,6 @@
 ---
 title: Ligex Exchange
-date: 2024-04-03
+date: 2026-10-30
 website: https://ligex.exchange#deadLink
 redirect_from:
 - /android/com.ligex/

@@ -1,6 +1,6 @@
 ---
 title: Crypto Wallet UI - Flutter App
-date: 2026-01-08
+date: 2026-10-30
 website: https://www.raininfotech.in
 redirect_from:
 - /android/com.rain.cryptoui/

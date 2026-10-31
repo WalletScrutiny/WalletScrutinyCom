@@ -1,6 +1,6 @@
 ---
 title: (Fake) Crypto.com - Buy Bitcoin Now
-date: 2021-08-26
+date: 2026-10-30
 authors:
 - leo
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: 'Exodus: Crypto & Payments'
-date: 2021-01-23
+date: 2026-10-30
 authors:
 - leo
 - danny

@@ -1,6 +1,6 @@
 ---
 title: MyCryptoCoin Wallet
-date: 2024-05-07
+date: 2026-10-30
 website: https://www.imsofnet.com#deadLink
 redirect_from:
 - /android/com.imsofnet.apps.mycryptocoinwallet/

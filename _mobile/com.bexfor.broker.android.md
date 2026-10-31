@@ -1,6 +1,6 @@
 ---
 title: BEXFOR
-date: 2023-01-02
+date: 2026-10-30
 website: https://www.bexfor.com#deadLink
 redirect_from:
 - /android/com.bexfor.broker.android/

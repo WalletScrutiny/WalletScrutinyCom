@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Investment Guide
-date: 2021-09-28
+date: 2026-10-30
 redirect_from:
 - /android/org.cryptodebitcard.bitcoin.investment.guide/
 android:

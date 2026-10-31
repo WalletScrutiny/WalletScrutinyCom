@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Coin Invest
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/net.tradingbitcoin.bitcoin.coin.invest/
 android:

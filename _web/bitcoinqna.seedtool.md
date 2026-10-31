@@ -16,7 +16,7 @@ icon:
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-04-23
+date: 2026-10-30
 twitter: BitcoinQ_A
 social: 
 features: 

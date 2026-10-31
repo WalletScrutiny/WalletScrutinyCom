@@ -1,6 +1,6 @@
 ---
 title: Fenix Wallet
-date: 2021-07-18
+date: 2026-10-30
 redirect_from:
 - /android/com.fenixcoin.wallet/
 android:

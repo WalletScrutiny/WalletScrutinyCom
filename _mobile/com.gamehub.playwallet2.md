@@ -1,6 +1,6 @@
 ---
 title: PlayWallet
-date: 2023-05-25
+date: 2026-10-30
 authors:
 - danny
 website: http://www.playwallet.io#deadLink

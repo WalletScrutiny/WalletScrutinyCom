@@ -1,6 +1,6 @@
 ---
 title: 'Pulpal: Exchange'
-date: 2024-12-23
+date: 2026-10-30
 website: https://pulpal.ir
 redirect_from:
 - /android/ir.pulpal.app/

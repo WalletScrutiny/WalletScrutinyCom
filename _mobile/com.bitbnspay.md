@@ -1,6 +1,6 @@
 ---
 title: Bitbns Pay - Crypto trading, 0
-date: 2026-01-16
+date: 2026-10-30
 authors:
 - danny
 twitter: bitbns

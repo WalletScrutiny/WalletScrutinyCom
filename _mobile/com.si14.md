@@ -1,6 +1,6 @@
 ---
 title: Si14 Crypto Wallet
-date: 2025-12-08
+date: 2026-10-30
 authors:
 - danny
 website: https://si14cw.com

@@ -1,6 +1,6 @@
 ---
 title: Coinnor
-date: 2024-04-03
+date: 2026-10-30
 website: https://bluedrive.ro
 redirect_from:
 - /android/io.cordova.coinnormobile1/

@@ -1,6 +1,6 @@
 ---
 title: Local Bitcoin Trader Wallet
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/net.cryptoanalysis.local.bitcoin.trader.wallet/
 android:

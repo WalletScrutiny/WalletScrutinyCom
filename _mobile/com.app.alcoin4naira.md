@@ -1,6 +1,6 @@
 ---
 title: Alcoin4naira
-date: 2023-05-30
+date: 2026-10-30
 website: https://albit.live#deadLink
 redirect_from:
 - /android/com.app.alcoin4naira/

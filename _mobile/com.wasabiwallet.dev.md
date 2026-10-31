@@ -1,6 +1,6 @@
 ---
 title: WasabiWallet
-date: 2021-04-09
+date: 2026-10-30
 authors:
 - danny
 redirect_from:

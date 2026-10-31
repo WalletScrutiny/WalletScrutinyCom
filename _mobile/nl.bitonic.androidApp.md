@@ -1,6 +1,6 @@
 ---
 title: 'Bitonic: buy & store bitcoin'
-date: 2026-01-03
+date: 2026-10-30
 authors:
 - danny
 website: https://bitonic.nl

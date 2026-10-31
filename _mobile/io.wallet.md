@@ -1,6 +1,6 @@
 ---
 title: wallet.io—Multi-Chain (BTC, ETH, EOS, Cosmos ...)
-date: 2022-02-25
+date: 2026-10-30
 authors:
 - danny
 website: https://wallet.io

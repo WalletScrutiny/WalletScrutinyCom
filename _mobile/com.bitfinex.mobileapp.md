@@ -1,6 +1,6 @@
 ---
 title: 'Bitfinex: Trade Digital Assets'
-date: 2021-05-31
+date: 2026-10-30
 authors:
 - leo
 website: https://www.bitfinex.com

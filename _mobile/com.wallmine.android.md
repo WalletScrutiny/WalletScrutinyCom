@@ -1,6 +1,6 @@
 ---
 title: 'wallmine: Stock Market Investi'
-date: 2024-07-05
+date: 2026-10-30
 website: https://wallmine.com
 redirect_from:
 - /android/com.wallmine.android/

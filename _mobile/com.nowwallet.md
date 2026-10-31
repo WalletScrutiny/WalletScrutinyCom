@@ -1,6 +1,6 @@
 ---
 title: 'NOW Wallet: Buy & Store Crypto'
-date: 2023-04-08
+date: 2026-10-30
 authors:
 - danny
 website: https://walletnow.app

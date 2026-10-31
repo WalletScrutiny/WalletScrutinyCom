@@ -1,6 +1,6 @@
 ---
 title: BitStash Wallet - Multi Crypto
-date: 2024-02-05
+date: 2026-10-30
 website: https://payments.bitstash.co#deadLink
 redirect_from:
 - /android/app.odapplications.bitstashwallet/

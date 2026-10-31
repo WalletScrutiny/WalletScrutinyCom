@@ -1,6 +1,6 @@
 ---
 title: 'Coin-DC: Bitcoin, cryptocurrency investment app'
-date: 2021-09-02
+date: 2026-10-30
 redirect_from:
 - /android/latoken.kucoin.trustapp.zebpay.coinmarketcap.coindcx/
 android:

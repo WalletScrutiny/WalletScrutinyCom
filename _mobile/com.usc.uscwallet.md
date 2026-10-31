@@ -1,6 +1,6 @@
 ---
 title: 유성 P2P 거래소
-date: 2023-11-02
+date: 2026-10-30
 website: https://useongcoin.com#deadLink
 redirect_from:
 - /android/com.usc.uscwallet/

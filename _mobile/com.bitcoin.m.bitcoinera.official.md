@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Era Official
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/com.bitcoin.m.bitcoinera.official/
 android:

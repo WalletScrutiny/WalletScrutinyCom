@@ -1,6 +1,6 @@
 ---
 title: Icynote
-date: 2026-01-14
+date: 2026-10-30
 website: https://icynote.ch
 redirect_from:
 - /android/ch.digitaladmin.icynote/

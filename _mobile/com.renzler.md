@@ -1,6 +1,6 @@
 ---
 title: Renzler - Crypto App & Bot
-date: 2023-05-30
+date: 2026-10-30
 website: https://renzler.one#deadLink
 redirect_from:
 - /android/com.renzler/

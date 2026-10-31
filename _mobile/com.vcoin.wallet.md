@@ -1,6 +1,6 @@
 ---
 title: VCoin - Crypto Wallet
-date: 2025-07-03
+date: 2026-10-30
 website: https://vcoin.com
 redirect_from:
 - /android/com.vcoin.wallet/

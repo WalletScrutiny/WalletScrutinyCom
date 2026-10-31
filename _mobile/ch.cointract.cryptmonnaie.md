@@ -1,6 +1,6 @@
 ---
 title: Cryptmonnaie
-date: 2023-04-16
+date: 2026-10-30
 website: https://cointract.ch
 redirect_from:
 - /android/ch.cointract.cryptmonnaie/

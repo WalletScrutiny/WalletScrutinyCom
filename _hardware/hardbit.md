@@ -24,7 +24,7 @@ icon: hardbit.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2022-02-17
+date: 2026-10-30
 signer: 
 twitter: 
 social:

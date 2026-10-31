@@ -1,6 +1,6 @@
 ---
 title: ai crypto trade
-date: 2024-11-15
+date: 2026-10-30
 redirect_from:
 - /android/com.pockan.aicryptotrade/
 android:

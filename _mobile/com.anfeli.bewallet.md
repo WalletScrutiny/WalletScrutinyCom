@@ -1,6 +1,6 @@
 ---
 title: beWallet
-date: 2024-05-07
+date: 2026-10-30
 website: http://www.anfeli.com
 redirect_from:
 - /android/com.anfeli.bewallet/

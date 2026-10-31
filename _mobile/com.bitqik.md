@@ -1,6 +1,6 @@
 ---
 title: bitqik
-date: 2024-10-07
+date: 2026-10-30
 authors:
 - danny
 website: https://bitqik.com/

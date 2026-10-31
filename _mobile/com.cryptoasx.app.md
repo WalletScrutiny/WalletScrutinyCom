@@ -1,6 +1,6 @@
 ---
 title: Cryptoasx
-date: 2023-04-16
+date: 2026-10-30
 website: https://www.cryptoasx.com#deadLink
 redirect_from:
 - /android/com.cryptoasx.app/

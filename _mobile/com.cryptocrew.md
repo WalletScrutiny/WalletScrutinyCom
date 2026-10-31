@@ -1,6 +1,6 @@
 ---
 title: CRYPTO CREW
-date: 2024-05-07
+date: 2026-10-30
 website: http://goforsage.com/app#deadLink
 redirect_from:
 - /android/com.cryptocrew/

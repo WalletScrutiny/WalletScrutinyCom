@@ -1,6 +1,6 @@
 ---
 title: HMCWalletPro
-date: 2023-06-03
+date: 2026-10-30
 redirect_from:
 - /android/com.hammermining.walletpro/
 android:

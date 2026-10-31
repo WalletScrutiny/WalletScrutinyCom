@@ -1,6 +1,6 @@
 ---
 title: 'olizx india''s crypto currency '
-date: 2023-11-02
+date: 2026-10-30
 redirect_from:
 - /android/com.olizx.app/
 android:

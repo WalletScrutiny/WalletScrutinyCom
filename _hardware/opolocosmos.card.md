@@ -21,7 +21,7 @@ icon: opolocosmos.card.webp
 bugbounty: 
 meta: ok
 verdict: plainkey
-date: 2023-02-28
+date: 2026-10-30
 signer: 
 twitter: opolowallet
 social: 

@@ -1,6 +1,6 @@
 ---
 title: 'Gi Next: Crypto Trading App'
-date: 2023-05-10
+date: 2026-10-30
 website: https://ginexttradingcorp.com#deadLink
 redirect_from:
 - /android/com.wiztecbd.e_next_trading/

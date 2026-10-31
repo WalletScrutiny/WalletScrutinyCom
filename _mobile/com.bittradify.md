@@ -1,6 +1,6 @@
 ---
 title: Bit Tradify
-date: 2024-05-07
+date: 2026-10-30
 website: https://www.bittradify.com#deadLink
 redirect_from:
 - /android/com.bittradify/

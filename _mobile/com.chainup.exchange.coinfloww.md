@@ -1,6 +1,6 @@
 ---
 title: CoinFloww
-date: 2023-10-16
+date: 2026-10-30
 website: https://coinfloww.com
 redirect_from:
 - /android/com.chainup.exchange.coinfloww/

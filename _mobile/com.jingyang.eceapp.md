@@ -1,6 +1,6 @@
 ---
 title: ECE LIMITED
-date: 2025-02-13
+date: 2026-10-30
 redirect_from:
 - /android/com.jingyang.eceapp/
 android:

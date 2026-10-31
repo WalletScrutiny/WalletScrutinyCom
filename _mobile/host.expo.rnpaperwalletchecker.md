@@ -1,6 +1,6 @@
 ---
 title: Paper Wallets Checker
-date: 2021-11-10
+date: 2026-10-30
 redirect_from:
 - /android/host.expo.rnpaperwalletchecker/
 android:

@@ -1,6 +1,6 @@
 ---
 title: AIRWALLET - Secure Cryptocurre
-date: 2023-05-10
+date: 2026-10-30
 authors:
 - danny
 website: https://www.airwalletofficial.com

@@ -1,6 +1,6 @@
 ---
 title: Antalpha
-date: 2023-06-03
+date: 2026-10-30
 redirect_from:
 - /android/cloud.antalpha.app/
 android:

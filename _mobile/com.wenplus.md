@@ -1,6 +1,6 @@
 ---
 title: WenPlus
-date: 2025-02-28
+date: 2026-10-30
 redirect_from:
 - /android/com.wenplus/
 android:

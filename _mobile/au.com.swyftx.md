@@ -1,6 +1,6 @@
 ---
 title: 'Swyftx: Buy Bitcoin, ETH & SOL'
-date: 2025-11-11
+date: 2026-10-30
 authors:
 - danny
 website: https://swyftx.com/

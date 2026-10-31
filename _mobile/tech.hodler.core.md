@@ -1,6 +1,6 @@
 ---
 title: HODLER Open Source Multi-Asset
-date: 2024-04-26
+date: 2026-10-30
 authors:
 - leo
 website: https://web.archive.org/web/20250822122845/https://hodler.tech/

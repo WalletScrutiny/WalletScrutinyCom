@@ -1,6 +1,6 @@
 ---
 title: Zima Bank
-date: 2024-05-18
+date: 2026-10-30
 redirect_from:
 - /android/com.ebanq.zima/
 android:

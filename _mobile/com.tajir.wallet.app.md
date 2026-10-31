@@ -1,6 +1,6 @@
 ---
 title: Tajir Wallet
-date: 2026-07-21
+date: 2026-10-30
 website: https://tajirwallet.io/
 redirect_from:
 - /android/com.tajir.wallet.app/

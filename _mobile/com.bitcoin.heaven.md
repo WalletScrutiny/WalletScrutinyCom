@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Heave
-date: 2021-12-22
+date: 2026-10-30
 redirect_from:
 - /android/com.bitcoin.heaven/
 android:

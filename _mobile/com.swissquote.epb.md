@@ -1,6 +1,6 @@
 ---
 title: Swissquote Robo-Advisor
-date: 2024-03-02
+date: 2026-10-30
 website: https://www.swissquote.com/robo-advisory#deadLink
 redirect_from:
 - /android/com.swissquote.epb/

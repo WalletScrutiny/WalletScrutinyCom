@@ -21,7 +21,7 @@ icon: tjwallet.w1.webp
 bugbounty: 
 meta: ok
 verdict: plainkey
-date: 2022-05-03
+date: 2026-10-30
 signer: 
 twitter: TJ_Wallet
 social:

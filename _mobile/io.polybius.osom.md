@@ -1,6 +1,6 @@
 ---
 title: OSOM Finance
-date: 2023-04-15
+date: 2026-10-30
 authors:
 - danny
 website: https://osom.finance

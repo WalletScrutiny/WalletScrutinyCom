@@ -1,6 +1,6 @@
 ---
 title: Blockchain24.pro
-date: 2025-06-18
+date: 2026-10-30
 website: https://blockchain24.pro
 redirect_from:
 - /android/ru.devroom.blockchain24/

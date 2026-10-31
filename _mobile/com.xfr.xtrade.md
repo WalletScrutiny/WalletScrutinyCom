@@ -1,6 +1,6 @@
 ---
 title: 'Xtrade: Forex, Stocks & CFDs'
-date: 2023-11-17
+date: 2026-10-30
 authors:
 - danny
 website: http://www.xtrade.com

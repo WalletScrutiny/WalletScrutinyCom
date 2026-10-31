@@ -1,6 +1,6 @@
 ---
 title: USFCX_US Foundry Cryptocurrenc
-date: 2024-02-05
+date: 2026-10-30
 website: https://usfcx.com#deadLink
 redirect_from:
 - /android/com.usfcx.wallet/

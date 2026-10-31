@@ -1,6 +1,6 @@
 ---
 title: CryptoTrader
-date: 2024-04-19
+date: 2026-10-30
 website: http://www.nwsoft.co.kr
 redirect_from:
 - /android/nwsoft.com.cryptotrader/

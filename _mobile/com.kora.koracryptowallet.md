@@ -1,6 +1,6 @@
 ---
 title: Kora
-date: 2024-02-05
+date: 2026-10-30
 website: https://koracryptowallet.web.app
 redirect_from:
 - /android/com.kora.koracryptowallet/

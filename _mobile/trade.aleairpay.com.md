@@ -1,6 +1,6 @@
 ---
 title: AleAirPay
-date: 2024-08-04
+date: 2026-10-30
 website: https://web.archive.org/web/20240430163439/https://trade.aleairpay.com/
 redirect_from:
 - /android/trade.aleairpay.com/

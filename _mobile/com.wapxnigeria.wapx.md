@@ -1,6 +1,6 @@
 ---
 title: Wapx - Buy & Sell Giftcards
-date: 2024-04-19
+date: 2026-10-30
 website: https://wapxnigeria.com/
 redirect_from:
 - /android/com.wapxnigeria.wapx/

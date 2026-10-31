@@ -1,6 +1,6 @@
 ---
 title: Econobit
-date: 2025-11-05
+date: 2026-10-30
 redirect_from:
 - /android/com.econobit.app/
 android:

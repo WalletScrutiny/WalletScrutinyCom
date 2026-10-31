@@ -1,6 +1,6 @@
 ---
 title: BitalGo Multi Wallet
-date: 2023-04-20
+date: 2026-10-30
 website: https://www.bitalgopayment.com#deadLink
 redirect_from:
 - /android/com.bitalgopayment.android/

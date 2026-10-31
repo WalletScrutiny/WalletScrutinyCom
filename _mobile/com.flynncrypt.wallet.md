@@ -1,6 +1,6 @@
 ---
 title: FlynnCrypt wallet
-date: 2024-04-03
+date: 2026-10-30
 website: http://flynncrypt.com#deadLink
 redirect_from:
 - /android/com.flynncrypt.wallet/

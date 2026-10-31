@@ -1,6 +1,6 @@
 ---
 title: Coffee Wallet
-date: 2024-07-03
+date: 2026-10-30
 authors:
 - danny
 - emanuel

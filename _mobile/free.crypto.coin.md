@@ -1,6 +1,6 @@
 ---
 title: Free Crypto Coin & Airdrops
-date: 2023-04-15
+date: 2026-10-30
 authors:
 - danny
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: BizzCoin Wallet
-date: 2022-04-25
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bizzcoin.com#deadLink

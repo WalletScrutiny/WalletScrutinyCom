@@ -1,6 +1,6 @@
 ---
 title: Coinsafe - Never Lose Your Cry
-date: 2024-04-19
+date: 2026-10-30
 website: https://getcoinsafe.app#deadLink
 redirect_from:
 - /android/app.getcoinsafe.android/

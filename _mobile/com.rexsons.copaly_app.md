@@ -1,6 +1,6 @@
 ---
 title: 'Copaly: P2P .Bitcoin & Utility'
-date: 2026-05-19
+date: 2026-10-30
 authors:
 - danny
 website: https://copaly.com

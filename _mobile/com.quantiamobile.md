@@ -1,6 +1,6 @@
 ---
 title: Quantia.io
-date: 2024-04-19
+date: 2026-10-30
 website: https://quantia.io
 redirect_from:
 - /android/com.quantiamobile/

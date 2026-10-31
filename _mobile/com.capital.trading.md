@@ -1,6 +1,6 @@
 ---
 title: Trading app by Capital·com
-date: 2024-02-08
+date: 2026-10-30
 authors:
 - danny
 website: https://capital.com

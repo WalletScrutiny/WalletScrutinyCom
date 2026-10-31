@@ -1,6 +1,6 @@
 ---
 title: BnBex Exchange
-date: 2023-01-02
+date: 2026-10-30
 website: https://www.bnbex.co#deadLink
 redirect_from:
 - /android/co.bnbex.n.broker.android/
