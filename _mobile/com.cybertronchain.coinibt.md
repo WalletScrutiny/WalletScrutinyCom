@@ -20,8 +20,6 @@ android:
 
 ---
 
-**⚠️ Warning:** CoinIBT looks gone. The coinibt.io website is gone and the app is off Google Play.
-
 **Update 2026-10-30:** An [archived copy of coinibt.io](https://web.archive.org/web/20210903113756/https://www.coinibt.io/) from September 2021 shows the "COIN IBT Exchange" with "Asset Withdrawal" and "Asset Inquiry" pages, and the notice quoted below says the exchange stores and manages its customers' assets. The verdict changes from wip to {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## App Description

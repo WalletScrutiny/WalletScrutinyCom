@@ -11,6 +11,8 @@ social:
 - https://www.facebook.com/swaptobe
 redirect_from:
 - /android/com.companyname.swaptobe/
+- /iphone/com.pionechain.pionewallet/
+- /mobile/com.pionechain.pionewallet/
 android:
   appId: com.companyname.swaptobe
   users: 100000
@@ -23,10 +25,24 @@ android:
   meta: ok
   verdict: nobtc
   developerName: PIONE GLOBAL
+iphone:
+  appId: com.pionechain.pionewallet
+  idd: '6738914833'
+  appCountry: us
+  released: 2025-03-07
+  updated: 2026-03-26
+  version: 1.2.5
+  reviews: 5
+  icon: com.pionechain.pionewallet.webp
+  meta: ok
+  verdict: nobtc
+  developerName: Pionechain
 
 ---
 
-**Update 2026-10-30:** Swap Tobe is now Pione Wallet. The app description now says it is a self-managed wallet where you control your private keys, and it lists PioneChain, Ethereum, Solana, BNB Chain and Polygon, but not Bitcoin. The [Pione Wallet FAQ](https://pionewallet.com/) says it supports EVM chains and that "future updates may include non-EVM chains like Bitcoin". Without Bitcoin support this app is now {% include verdictBadge.html verdict="nobtc" type='short' %}. The iPhone version is listed separately as {% include walletLink.html wallet='iphone/com.pionechain.pionewallet' verdict='true' %}. The analysis below describes the old Swap Tobe exchange app.
+{% include review/externalResearchAlert.html url="https://kek.lol/research/appstore-wallets/#app-6738914833" author="overtorment" severity="high" finding="HotUpdater auto-installs JS whose only check is a server SHA-256. A hardcoded GitHub PAT fetches a remote send blocklist." %}
+
+**Update 2026-10-30:** Swap Tobe is now Pione Wallet. The app description now says it is a self-managed wallet where you control your private keys, and it lists PioneChain, Ethereum, Solana, BNB Chain and Polygon, but not Bitcoin. The [Pione Wallet FAQ](https://pionewallet.com/) says it supports EVM chains and that "future updates may include non-EVM chains like Bitcoin". The iPhone app, Pione Wallet by Pionechain, is the same wallet, so we merged its separate listing into this one. Without Bitcoin support both apps are now {% include verdictBadge.html verdict="nobtc" type='short' %}. The analysis below describes the old Swap Tobe exchange app.
 
 ## App Description
 

@@ -36,7 +36,6 @@ iphone:
 
 ---
 
-**⚠️ Warning:** CryptoWallet.com has closed. In April 2025 the domain led to a
 [closing notice](https://web.archive.org/web/20250419233825/http://206.189.103.36/) that says "CryptoWallet.com
 is closing its operations, including all crypto wallet activities" and asks customers with funds to "submit a
 withdrawal request". Now the [cryptowallet.com](https://cryptowallet.com/) domain is offered for sale.
@@ -96,6 +95,6 @@ response from the dev team.
 
 ## iPhone
 
-**Update 2026-10-30:** The [archived 2021 website](https://web.archive.org/web/20211120121143/https://cryptowallet.com/) ("CryptoWallet is secured by BitGo" with "multi-signature cold storage") and the closing notice, which has customers request withdrawals of their funds, show the provider held the coins. We change the verdict from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** The [archived 2021 website](https://web.archive.org/web/20211120121143/https://cryptowallet.com/) ("CryptoWallet is secured by BitGo" with "multi-signature cold storage") and the closing notice, which has customers request withdrawals of their funds, show the provider held the coins. It gets the verdict {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 The Android analysis above applies to the iPhone app too.

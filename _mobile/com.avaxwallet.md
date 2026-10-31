@@ -44,7 +44,7 @@ iphone:
 
 ---
 
-**Update 2026-10-30:** Ava Labs has published the source code of both apps under a restrictive "Limited Ecosystem License". The actively maintained repository [ava-labs/core-mobile](https://github.com/ava-labs/core-mobile) contains the Android app (`com.avaxwallet`) and the iPhone app (`org.avalabs.corewallet`). The code has been public since at least [August 2024](https://web.archive.org/web/20240816005458/https://github.com/ava-labs/core-mobile). We have not tried to reproduce the builds, so the verdict changes from {% include verdictBadge.html verdict="nosource" type='short' %} to {% include verdictBadge.html verdict="sourceavailable" type='short' %}.
+**Update 2026-10-30:** Ava Labs has published the source code of both apps under a restrictive "Limited Ecosystem License". The actively maintained repository [ava-labs/core-mobile](https://github.com/ava-labs/core-mobile) contains the Android app (`com.avaxwallet`) and the iPhone app (`org.avalabs.corewallet`). The code has been public since at least [August 2024](https://web.archive.org/web/20240816005458/https://github.com/ava-labs/core-mobile). The verdict changes from {% include verdictBadge.html verdict="nosource" type='short' %} to {% include verdictBadge.html verdict="sourceavailable" type='short' %}. As this wallet turns out to be source-available, we can look into reproducibility next.
 
 ## Android
 

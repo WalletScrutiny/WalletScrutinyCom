@@ -30,9 +30,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** The provider appears to be gone. Both apps are off the stores and the antareswallet.com website is gone.
-
-**Update 2026-10-30:** The provider is gone, and so is its website antareswallet.com. An [archived copy of its App Store page](https://web.archive.org/web/20210320013211/https://apps.apple.com/app/id1549506189) says "most of the assets are stored in offline blockchain storage", and the Google Play description quoted below says you can recover your account even if you forget your private keys, so we change the verdict of both apps from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** The provider is gone, and so is its website antareswallet.com. An [archived copy of its App Store page](https://web.archive.org/web/20210320013211/https://apps.apple.com/app/id1549506189) says "most of the assets are stored in offline blockchain storage", and the Google Play description quoted below says you can recover your account even if you forget your private keys, so both apps get the verdict {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## Android
 

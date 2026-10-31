@@ -16,8 +16,6 @@ android:
 
 ---
 
-**⚠️ Warning:** CrossTower appears to be gone. Its website is gone, and its Bermuda exchange was wound up in January 2024.
-
-**Update 2026-10-30:** [CrossTower Bermuda was wound up](https://www.royalgazette.com/international-business/business/article/20240123/crosstower-bermuda-is-latest-crypto-casualty/) by the Supreme Court of Bermuda in January 2024 because it could not pay its debts. The app's [archived store page](https://web.archive.org/web/20210622152617/https://play.google.com/store/apps/details?id=com.ctower.mobile) describes an exchange app with "highly protected cold storage to keep your Bitcoins SAFU", like CrossTower's Indian app {% include walletLink.html wallet='android/com.crosstower.india' verdict='true' %}, so we change the verdict from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** [CrossTower Bermuda was wound up](https://www.royalgazette.com/international-business/business/article/20240123/crosstower-bermuda-is-latest-crypto-casualty/) by the Supreme Court of Bermuda in January 2024 because it could not pay its debts. The app's [archived store page](https://web.archive.org/web/20210622152617/https://play.google.com/store/apps/details?id=com.ctower.mobile) describes an exchange app with "highly protected cold storage to keep your Bitcoins SAFU", like CrossTower's Indian app {% include walletLink.html wallet='android/com.crosstower.india' verdict='true' %}, so it gets the verdict {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 **Update 2022-03-09**: This app is not available anymore.

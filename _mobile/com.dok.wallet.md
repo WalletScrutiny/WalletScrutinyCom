@@ -43,7 +43,7 @@ iphone:
 
 ---
 
-**Update 2026-10-30:** Dok Wallet now calls itself open source on its [website](https://dokwallet.com/) and has published the code of both apps under the GPL-3.0 in [KM-opensource-crypto-wallet/mobile_app](https://github.com/KM-opensource-crypto-wallet/mobile_app), which builds the app ID `com.dok.wallet`. The repository was created in April 2025. We have not tried to reproduce the builds, so the verdict changes from {% include verdictBadge.html verdict="nosource" type='short' %} to {% include verdictBadge.html verdict="sourceavailable" type='short' %}.
+**Update 2026-10-30:** Dok Wallet now calls itself open source on its [website](https://dokwallet.com/) and has published the code of both apps under the GPL-3.0 in [KM-opensource-crypto-wallet/mobile_app](https://github.com/KM-opensource-crypto-wallet/mobile_app), which builds the app ID `com.dok.wallet`. The repository was created in April 2025. The verdict changes from {% include verdictBadge.html verdict="nosource" type='short' %} to {% include verdictBadge.html verdict="sourceavailable" type='short' %}. As this wallet turns out to be source-available, we can look into reproducibility next.
 
 ## Android
 

@@ -31,7 +31,7 @@ iphone:
 
 ---
 
-**Update 2026-10-30:** Fox.ONE shut both apps down, and they were custodial. [fox.one](https://fox.one) now says the team "made the difficult decision to discontinue the “Fox.ONE” App as of January 1, 2024", and users had to move "an unspent balance in your “Fox.ONE” account" to Mixin Messenger before then. An [archived Play store page from November 2020](https://web.archive.org/web/20201107232358/https://play.google.com/store/apps/details?id=com.fox.one) says "Your cryptocurrency assets are stored in MIXIN distributed DAG network wallet of FoxOne", and the shutdown notice covers the iOS app too, so we change the verdict of both apps from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** Fox.ONE shut both apps down, and they were custodial. [fox.one](https://fox.one) now says the team "made the difficult decision to discontinue the “Fox.ONE” App as of January 1, 2024", and users had to move "an unspent balance in your “Fox.ONE” account" to Mixin Messenger before then. An [archived Play store page from November 2020](https://web.archive.org/web/20201107232358/https://play.google.com/store/apps/details?id=com.fox.one) says "Your cryptocurrency assets are stored in MIXIN distributed DAG network wallet of FoxOne", and the shutdown notice covers the iOS app too, so both apps get the verdict {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## Android
 

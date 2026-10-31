@@ -16,6 +16,4 @@ android:
 
 ---
 
-**⚠️ Warning:** UnicornX is gone. Its website unicornx.exchange now only offers the expired domain for sale.
-
-**Update 2026-10-30:** An [archived Play store page from November 2020](https://web.archive.org/web/20201129092541/https://play.google.com/store/apps/details?id=com.unicornx.exchange) describes a "digital asset trading" exchange that keeps funds in its own "hard wallets" and "hot wallets". That is a centralized exchange holding its users' coins, so we change the verdict from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** An [archived Play store page from November 2020](https://web.archive.org/web/20201129092541/https://play.google.com/store/apps/details?id=com.unicornx.exchange) describes a "digital asset trading" exchange that keeps funds in its own "hard wallets" and "hot wallets". That is a centralized exchange holding its users' coins, so it gets the verdict {% include verdictBadge.html verdict="custodial" type='short' %}.

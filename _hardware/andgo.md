@@ -30,7 +30,7 @@ features:
 
 ---
 
-**Update 2026-10-30:** The AndGo hardware wallet exists, but only as an enterprise product, so we change the verdict from vapor to {% include verdictBadge.html verdict="wip" type='short' %}, as we did for the B2B {% include walletLink.html wallet='hardware/gk8.coldvault' verdict='true' %}. A [May 2026 press release](https://prtimes.jp/main/html/rd/p/000000006.000040358.html) (in Japanese) calls the "AndGo Wallet" an enterprise hardware wallet that AndGo develops and manufactures and that crypto exchanges and large companies use. We found no consumer shop and no price.
+**Update 2026-10-30:** The AndGo hardware wallet exists, but only as an enterprise product, so it is no longer {% include verdictBadge.html verdict="vapor" type='short' %} and gets no verdict, as we did for the B2B {% include walletLink.html wallet='hardware/gk8.coldvault' verdict='true' %}. A [May 2026 press release](https://prtimes.jp/main/html/rd/p/000000006.000040358.html) (in Japanese) calls the "AndGo Wallet" an enterprise hardware wallet that AndGo develops and manufactures and that crypto exchanges and large companies use. We found no consumer shop and no price.
 
 ## 2022-02-18
 

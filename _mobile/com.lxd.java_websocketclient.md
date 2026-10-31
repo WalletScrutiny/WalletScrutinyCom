@@ -35,7 +35,6 @@ iphone:
 
 ---
 
-**⚠️ Warning:** CoinFLEX is gone. It halted withdrawals in June 2022 and its assets went to the new
 exchange OPNX in a restructuring
 ([Cointelegraph](https://cointelegraph.com/news/coinflex-restructuring-approved-in-seychelles-as-rebranding-reportedly-continues)).
 OPNX told customers on 2024-02-02 that it would "cease operations and shut down in February 2024"
@@ -49,7 +48,7 @@ flexUSD" and "Withdraw and deposit funds at anytime". The iPhone app was the sam
 exchange client, and the
 [archived security page](https://web.archive.org/web/20211130053447/https://coinflex.com/security/) says
 "CoinFLEX operates with a 99% cold storage policy, with up to only 1% stored in a secure hot wallet".
-That is a custodial exchange, and we change the verdict of both apps from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
+That is a custodial exchange, and both apps get the verdict {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## Android
 

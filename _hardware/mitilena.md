@@ -30,7 +30,7 @@ features:
 
 ---
 
-**Update 2026-10-30:** Mitilena now sells NFC cards on its [store](https://mitilena-store.com/), "just a 'deaf' memory chip holding your encrypted text". The phone reads the key from the card, decrypts it and signs, so the card never signs anything, as with the {% include walletLink.html wallet='hardware/onekey.lite' verdict='true' %}. We change the verdict from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="plainkey" type='short' %}.
+**Update 2026-10-30:** Mitilena now sells NFC cards on its [store](https://mitilena-store.com/), "just a 'deaf' memory chip holding your encrypted text". The phone reads the key from the card, decrypts it and signs, so the card never signs anything, as with the {% include walletLink.html wallet='hardware/onekey.lite' verdict='true' %}. It gets the verdict {% include verdictBadge.html verdict="plainkey" type='short' %}.
 
 **⚠️ Note:** From the wordings in the product description, the Mitilena "hardware" wallet can be "downloaded" and installed on a USB flash drive, desktop computer or a mobile phone. We can find no spefications for the "hardware wallet". Please see analysis below for further information.
 

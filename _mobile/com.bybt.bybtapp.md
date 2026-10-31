@@ -1,12 +1,15 @@
 ---
-title: Bybt
+title: CoinGlass - Global Market Data
 date: 2026-10-30
 authors:
 - danny
-website: https://www.bybt.com/
-twitter: bybt_com
+website: https://www.coinglass.com
+twitter: coinglass_com
+appCountry: us
 redirect_from:
 - /android/com.bybt.bybtapp/
+- /iphone/com.xiandanxiaohai.Bybt/
+- /mobile/com.xiandanxiaohai.Bybt/
 android:
   appId: com.bybt.bybtapp
   users: 10000
@@ -17,10 +20,22 @@ android:
   icon: com.bybt.bybtapp.webp
   meta: removed
   verdict: nowallet
+iphone:
+  appId: com.xiandanxiaohai.Bybt
+  idd: 1522250001
+  appCountry: us
+  released: 2020-07-08
+  updated: 2026-10-01
+  version: 2.8.1
+  reviews: 5840
+  icon: com.xiandanxiaohai.Bybt.webp
+  meta: ok
+  verdict: nowallet
+  developerName: DerivLab Limited
 
 ---
 
-**Update 2026-10-30:** This app was never a wallet, and Bybt is now [CoinGlass](https://www.coinglass.com). An [archived Play store page from September 2021](https://web.archive.org/web/20210928202237/http://play.google.com/store/apps/details?id=com.bybt.bybtapp) describes it as a platform "where you can find the Bitcoin Liquidation Data, bitcoin longs vs shorts ratio and actively compare funding rates for crypto futures", with no wallet or trading. The rebrand removed the resemblance to {% include walletLink.html wallet='android/com.bybit.app' verdict='true' %} behind the earlier {% include verdictBadge.html verdict="fake" type='short' %} verdict, so, as for the iPhone app {% include walletLink.html wallet='iphone/com.xiandanxiaohai.Bybt' verdict='true' %}, we now give it the verdict {% include verdictBadge.html verdict="nowallet" type='short' %}.
+**Update 2026-10-30:** This app was never a wallet, and Bybt is now [CoinGlass](https://www.coinglass.com). An [archived Play store page from September 2021](https://web.archive.org/web/20210928202237/http://play.google.com/store/apps/details?id=com.bybt.bybtapp) describes it as a platform "where you can find the Bitcoin Liquidation Data, bitcoin longs vs shorts ratio and actively compare funding rates for crypto futures", with no wallet or trading. The rebrand removed the resemblance to {% include walletLink.html wallet='android/com.bybit.app' verdict='true' %} behind the earlier {% include verdictBadge.html verdict="fake" type='short' %} verdict, so both apps now get the verdict {% include verdictBadge.html verdict="nowallet" type='short' %}. The iPhone app is the same app under its new name, so we merged its separate listing into this one. Its App Store description calls it "an all-in-one global market data and analytics platform" and mentions no deposits, balances or trading.
 
 **Update 2022-01-04**: The new app coinglass does not have a bitcoin wallet and seems to have a general cryptocurrency information dashboard with cryptocurrency prices and charts.
 
