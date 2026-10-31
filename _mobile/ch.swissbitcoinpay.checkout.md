@@ -1,6 +1,6 @@
 ---
 title: Swiss Bitcoin Pay
-date: 2026-07-21
+date: 2026-10-30
 authors:
 - danny
 - keraliss

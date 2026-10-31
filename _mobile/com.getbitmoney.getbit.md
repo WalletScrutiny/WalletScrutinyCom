@@ -1,6 +1,6 @@
 ---
 title: GetBit
-date: 2026-05-27
+date: 2026-10-30
 authors:
 - danny
 website: https://www.getbit.money

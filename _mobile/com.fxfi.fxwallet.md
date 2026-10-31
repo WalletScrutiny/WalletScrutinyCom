@@ -1,6 +1,6 @@
 ---
 title: FxWallet
-date: 2026-07-23
+date: 2026-10-30
 website: https://www.fxwallet.com
 appCountry: us
 redirect_from:

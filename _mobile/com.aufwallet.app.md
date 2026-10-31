@@ -1,6 +1,6 @@
 ---
 title: 'AufWallet: Web3 Wallet'
-date: 2026-05-05
+date: 2026-10-30
 redirect_from:
 - /android/com.aufwallet.app/
 android:

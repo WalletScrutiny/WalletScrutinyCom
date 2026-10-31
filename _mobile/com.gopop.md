@@ -1,6 +1,6 @@
 ---
 title: Pop
-date: 2026-05-05
+date: 2026-10-30
 website: https://www.gopop.app
 redirect_from:
 - /android/com.gopop/

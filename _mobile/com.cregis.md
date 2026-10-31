@@ -1,6 +1,6 @@
 ---
 title: Cregis:BTC, ETH Wallet & Pay
-date: 2026-07-21
+date: 2026-10-30
 authors:
 - danny
 website: https://www.cregis.com

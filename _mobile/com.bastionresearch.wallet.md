@@ -1,6 +1,6 @@
 ---
 title: Bastion Wallet
-date: 2026-07-23
+date: 2026-10-30
 website: https://bastionwallet.app
 appCountry: us
 redirect_from:

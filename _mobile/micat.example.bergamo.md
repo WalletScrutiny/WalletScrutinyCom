@@ -1,6 +1,6 @@
 ---
 title: Amadis
-date: 2026-05-21
+date: 2026-10-30
 redirect_from:
 - /android/micat.example.bergamo/
 android:

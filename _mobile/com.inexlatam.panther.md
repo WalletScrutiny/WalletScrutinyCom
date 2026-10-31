@@ -1,6 +1,6 @@
 ---
 title: 'Panther: Crypto Wallet'
-date: 2026-05-20
+date: 2026-10-30
 authors:
 - danny
 website: https://mypanther.io
@@ -37,6 +37,8 @@ iphone:
   developerName: Veltrix Technologies OU
 
 ---
+
+**Update 2026-10-30:** Panther Wallet has been replaced by a new app, "Panther +" (Android `com.pantherwallet.plus`, iPhone id `6800844161`), from the same company, Veltrix Technologies OÜ. This app is no longer in Google Play or the App Store, and the [Panther website](https://mypanther.io/en/) now links only to the new app.
 
 ## Android
 

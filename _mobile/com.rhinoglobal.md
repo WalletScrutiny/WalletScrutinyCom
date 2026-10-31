@@ -1,6 +1,6 @@
 ---
 title: 'Rhino Bitcoin: Buy BTC, 0 Fees'
-date: 2026-05-19
+date: 2026-10-30
 authors:
 - danny
 website: https://www.rhinobitcoin.com/

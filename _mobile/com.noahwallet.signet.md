@@ -1,6 +1,6 @@
 ---
 title: Noah (Signet)
-date: 2026-05-28
+date: 2026-10-30
 authors:
 - danny
 redirect_from:

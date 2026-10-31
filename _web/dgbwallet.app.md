@@ -16,7 +16,7 @@ icon: dgbwallet.app.webp
 bugbounty:
 meta: ok
 verdict: nobtc
-date: 2026-04-29
+date: 2026-10-30
 twitter: 
 social: 
 features: 

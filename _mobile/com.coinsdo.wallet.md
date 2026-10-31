@@ -1,6 +1,6 @@
 ---
 title: 'CoinWallet: BTC USDT Wallet'
-date: 2026-07-23
+date: 2026-10-30
 authors:
 - danny
 website: https://www.coinsdo.com

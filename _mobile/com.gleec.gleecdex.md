@@ -1,6 +1,6 @@
 ---
 title: GleecDEX
-date: 2026-05-21
+date: 2026-10-30
 website: https://gleecbtc.com/
 redirect_from:
 - /android/com.gleec.gleecdex/

@@ -1,6 +1,6 @@
 ---
 title: 'Niza: Buy BTC, ETH & +500'
-date: 2026-05-05
+date: 2026-10-30
 authors:
 - danny
 website: https://niza.io

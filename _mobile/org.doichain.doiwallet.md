@@ -1,6 +1,6 @@
 ---
 title: DoiWallet
-date: 2026-05-21
+date: 2026-10-30
 redirect_from:
 - /android/org.doichain.doiwallet/
 android:

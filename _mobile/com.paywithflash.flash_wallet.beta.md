@@ -1,6 +1,6 @@
 ---
 title: 'Flash: Bitcoin Wallet (Beta)'
-date: 2026-05-20
+date: 2026-10-30
 authors:
 - danny
 website: https://paywithflash.com
@@ -18,6 +18,8 @@ android:
   developerName: Flash Lightning Solutions
 
 ---
+
+**Update 2026-10-30:** Flash's [website](https://paywithflash.com/) no longer offers the wallet. It now sells bookkeeping and reporting software for Bitcoin miners, and the wallet page and the documentation site are gone. The beta app is still on Google Play, last updated in December 2025.
 
 ## App Description
 
@@ -85,9 +87,9 @@ For our purposes, the stronger verdict is **nosource**.
 Sources:
 
 - [Google Play listing](https://play.google.com/store/apps/details?id=com.paywithflash.flash_wallet.beta)
-- [Flash Wallet website](https://paywithflash.com/wallet/)
-- [Flash documentation](https://docs.paywithflash.com/)
-- [Connect Your Wallet documentation](https://docs.paywithflash.com/getting-started/connect-your-wallet)
+- [Flash Wallet website](https://web.archive.org/web/20251115022211/https://paywithflash.com/wallet/) (archived)
+- [Flash documentation](https://web.archive.org/web/20260613002420/https://docs.paywithflash.com/) (archived)
+- [Connect Your Wallet documentation](https://web.archive.org/web/20260613000257/https://docs.paywithflash.com/getting-started/connect-your-wallet) (archived)
 - [Flash custody article](https://paywithflash.com/flash-wallet-self-custodial/)
 - [Flash Wallet beta article](https://paywithflash.com/flash-wallet-beta-is-here-a-new-era-for-bitcoin-powered-businesses/)
 - [GitHub code search for exact beta app id](https://github.com/search?q=%22com.paywithflash.flash_wallet.beta%22&type=code)

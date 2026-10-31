@@ -1,7 +1,7 @@
 ---
 title: Universal – Crypto Wallet
-date: 2026-05-21
-website: https://unitechcapital.net
+date: 2026-10-30
+website: https://unitechcapital.net#deadLink
 redirect_from:
 - /android/com.koub.wallet/
 android:

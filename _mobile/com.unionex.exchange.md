@@ -1,9 +1,9 @@
 ---
 title: 'UnionEx: Buy Bitcoin & Crypto'
-date: 2026-05-05
+date: 2026-10-30
 authors:
 - danny
-website: https://unionex.com/
+website: https://unionex.com/#deadLink
 twitter: UnionExGlobal
 social:
 - https://linktr.ee/unionex
@@ -38,6 +38,8 @@ iphone:
   developerName: ALPHABYTE TECHNOLOGY LTD
 
 ---
+
+**Update 2026-10-30:** The UnionEx website no longer loads ([last archived copy](https://web.archive.org/web/20260612015720/http://unionex.com/), June 2026). Both apps have had no update since March 2026 and the [X account](https://x.com/UnionExGlobal) has been quiet since February 2026. We found no shutdown notice.
 
 ## Android
 

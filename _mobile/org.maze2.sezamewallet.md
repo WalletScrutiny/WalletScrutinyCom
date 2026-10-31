@@ -1,6 +1,6 @@
 ---
 title: Sezame Wallet
-date: 2026-05-04
+date: 2026-10-30
 authors:
 - danny
 website: https://sezame.app

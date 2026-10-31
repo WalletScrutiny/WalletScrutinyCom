@@ -1,6 +1,6 @@
 ---
 title: BudgetCoinz Bitcoin Wallet
-date: 2026-05-02
+date: 2026-10-30
 authors:
 - danny
 website: https://budgetcoinz.com
