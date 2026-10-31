@@ -37,7 +37,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** StormGain has shut down. On 13 January 2025 it moved its active customers' accounts and balances to YouHodler ({% include walletLink.html wallet='android/com.youhodler.youhodler' verdict='true' %}), and [stormgain.com](https://stormgain.com/) now says the platform is "permanently discontinued". The Android app is still in Google Play.
+**Update 2026-10-30:** StormGain has shut down. On 13 January 2025 it moved its active customers' accounts and balances to YouHodler ({% include walletLink.html wallet='android/com.youhodler.youhodler' verdict='true' %}), and [stormgain.com](https://stormgain.com/) now says the platform is "permanently discontinued". The Android app is still in Google Play.
 
 ## Android
 

@@ -34,7 +34,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Buycoins Pro is shut down. Its parent company Helicarrier [closed the exchange](https://www.mariblock.com/helicarrier-shuts-crypto-trading-platform-buycoins-pro/) in early 2024 and gave users three months to withdraw. The site now only says "This service has been suspended by its owner".
+**Update 2026-10-30:** Buycoins Pro is shut down. Its parent company Helicarrier [closed the exchange](https://www.mariblock.com/helicarrier-shuts-crypto-trading-platform-buycoins-pro/) in early 2024 and gave users three months to withdraw. The site now only says "This service has been suspended by its owner".
 
 ## Android
 

@@ -39,7 +39,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Felixo has shut down. The Turkish Capital Markets Board lists Felixo Teknoloji ve Yazılım AŞ among the [crypto service providers in liquidation](https://spk.gov.tr/kurumlar/kripto-varlik-hizmet-saglayicilar/tasfiye-surecinde-olanlar-listesi), and its website no longer loads. The Android app is gone from Google Play.
+**Update 2026-10-30:** Felixo has shut down. The Turkish Capital Markets Board lists Felixo Teknoloji ve Yazılım AŞ among the [crypto service providers in liquidation](https://spk.gov.tr/kurumlar/kripto-varlik-hizmet-saglayicilar/tasfiye-surecinde-olanlar-listesi), and its website no longer loads. The Android app is gone from Google Play.
 
 ## Android
 

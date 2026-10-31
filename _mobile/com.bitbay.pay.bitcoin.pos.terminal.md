@@ -25,7 +25,7 @@ android:
 
 ---
 
-**⚠️ Warning:** zondacrypto has collapsed. The exchange froze withdrawals in April 2026 and took its website down on 23 April 2026. Estonia revoked the license of the operator, BB Trade Estonia, on 29 June 2026, and a bankruptcy case opened on 6 July 2026 ([Magnusson](https://www.magnussonlaw.com/ee/zondacrypto-collapse/), [Cryptopolitan](https://www.cryptopolitan.com/zondacrypto-collapses-as-executives-vanish-and-users-lose-access-to-funds/)). The zondaglobal.com site is now a domain for sale. This terminal app depends on that service and can no longer be used.
+**Update 2026-10-30:** zondacrypto has collapsed. The exchange froze withdrawals in April 2026 and took its website down on 23 April 2026. Estonia revoked the license of the operator, BB Trade Estonia, on 29 June 2026, and a bankruptcy case opened on 6 July 2026 ([Magnusson](https://www.magnussonlaw.com/ee/zondacrypto-collapse/), [Cryptopolitan](https://www.cryptopolitan.com/zondacrypto-collapses-as-executives-vanish-and-users-lose-access-to-funds/)). The zondaglobal.com site is now a domain for sale. This terminal app depends on that service and can no longer be used.
 
 ## App Description 
 

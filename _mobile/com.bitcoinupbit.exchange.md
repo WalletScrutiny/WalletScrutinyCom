@@ -18,4 +18,4 @@ android:
 
 ---
 
-**⚠️ Warning:** BitcoinUpBit appears to be gone. Its website bitcoinupbit.com is now a domain for sale, while the app, last updated in April 2023, is still listed on Google Play.
+**Update 2026-10-30:** BitcoinUpBit appears to be gone. Its website bitcoinupbit.com is now a domain for sale, while the app, last updated in April 2023, is still listed on Google Play.

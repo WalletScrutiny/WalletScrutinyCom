@@ -37,7 +37,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** NYE Coin's website now redirects to an unrelated site, and both apps are gone from the stores.
+**Update 2026-10-30:** NYE Coin's website now redirects to an unrelated site, and both apps are gone from the stores.
 
 ## Android
 

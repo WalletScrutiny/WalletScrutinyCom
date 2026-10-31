@@ -40,7 +40,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** WethioX looks gone. Its website [wethiox.io](https://www.wethiox.io/#deadLink) no longer loads (last archived on [2026-03-13](https://web.archive.org/web/20260313141808/https://www.wethiox.io/)), the domain of the parent project [wethio.io](https://wethio.io/) now shows a gambling site, and the [X account](https://x.com/WethioX) and [blog](https://wethio.medium.com/) have been silent since early 2024. The apps have not been updated since 2022 and 2023.
+**Update 2026-10-30:** WethioX looks gone. Its website [wethiox.io](https://www.wethiox.io/#deadLink) no longer loads (last archived on [2026-03-13](https://web.archive.org/web/20260313141808/https://www.wethiox.io/)), the domain of the parent project [wethio.io](https://wethio.io/) now shows a gambling site, and the [X account](https://x.com/WethioX) and [blog](https://wethio.medium.com/) have been silent since early 2024. The apps have not been updated since 2022 and 2023.
 
 ## Android
 

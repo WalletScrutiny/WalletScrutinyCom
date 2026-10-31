@@ -30,7 +30,7 @@ features:
 
 ---
 
-**⚠️ Warning:** This provider is gone. Its website is a domain for sale and its only shop is closed, so the coin is no longer sold. Coins already made still work: their keys are ones the owner generated and printed with the open source walletgenerator.net code, as described below.
+**Update 2026-10-30:** This provider is gone. Its website is a domain for sale and its only shop is closed, so the coin is no longer sold. Coins already made still work: their keys are ones the owner generated and printed with the open source walletgenerator.net code, as described below.
 
 ## Product Description 
 

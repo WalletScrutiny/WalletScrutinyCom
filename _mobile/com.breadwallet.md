@@ -40,7 +40,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** BRD is gone. In March 2022 the provider asked users to [move their funds to Coinbase Wallet](https://web.archive.org/web/20220628214735/https://brd.com/brd-joins-coinbase), the website [stopped loading in 2023](https://web.archive.org/web/20231024213407/https://brd.com/), and brd.com is now a domain for sale. The Android app is gone from Google Play. The iPhone app is still listed, but it was last updated in March 2022 and the BRD servers it relies on no longer work.
+**Update 2026-10-30:** BRD is gone. In March 2022 the provider asked users to [move their funds to Coinbase Wallet](https://web.archive.org/web/20220628214735/https://brd.com/brd-joins-coinbase), the website [stopped loading in 2023](https://web.archive.org/web/20231024213407/https://brd.com/), and brd.com is now a domain for sale. The Android app is gone from Google Play. The iPhone app is still listed, but it was last updated in March 2022 and the BRD servers it relies on no longer work.
 
 ## Android
 

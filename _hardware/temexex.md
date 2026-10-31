@@ -34,8 +34,6 @@ features:
 
 ---
 
-**⚠️ Warning:** Temexe appears to be out of business. Its domain was sold and now hosts an unrelated site, and the device is no longer sold or supported. Its product listing says a wallet can be restored from its recovery phrase "on a new hardware wallet of any brand" ([listing copy](https://www.desertcart.us/products/202328247-temexe-x-cryptocurrency-hardware-wallet-for-bitcoin-ethereum-erc20-token)).
-
 **Update 2026-10-30:** temexe.com [was offered for sale in December 2021](https://web.archive.org/web/20211226234041/http://temexe.com/) and today hosts an unrelated Portuguese fitness site.
 
 The [provider's website](https://temexe.com/) is inaccessible and we consider it discontinued.

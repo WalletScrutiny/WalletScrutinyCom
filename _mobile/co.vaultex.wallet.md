@@ -33,7 +33,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** The provider appears to be gone. The [Vaultex website](https://web.archive.org/web/20250908002240/https://vaultex.co/) no longer loads, the iPhone app is no longer in the App Store, the Android app has not been updated since May 2024, and the [Vaultex account on X](https://x.com/vaultex_wallet) shows no posts.
+**Update 2026-10-30:** The provider appears to be gone. The [Vaultex website](https://web.archive.org/web/20250908002240/https://vaultex.co/) no longer loads, the iPhone app is no longer in the App Store, the Android app has not been updated since May 2024, and the [Vaultex account on X](https://x.com/vaultex_wallet) shows no posts.
 
 ## Android
 
