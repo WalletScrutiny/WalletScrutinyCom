@@ -1,7 +1,7 @@
 ---
 title: Scalpex - digital assets tradi
-date: 2024-04-19
-website: https://scalpex.com
+date: 2026-10-30
+website: https://scalpex.com#deadLink
 redirect_from:
 - /android/com.scalpex.mobile/
 android:

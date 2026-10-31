@@ -1,7 +1,7 @@
 ---
 title: SendThe.Cash
-date: 2024-04-19
-website: https://www.sendthe.cash/
+date: 2026-10-30
+website: https://www.sendthe.cash/#deadLink
 redirect_from:
 - /android/com.sendthe.cash/
 android:
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**⚠️ Warning:** SendThe.Cash looks gone. The [last archived SendThe.Cash site](https://web.archive.org/web/20250410115038/http://sendthe.cash/) is from April 2025; on 2026-10-30 the site showed only a default hosting page.

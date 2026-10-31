@@ -1,6 +1,6 @@
 ---
 title: Trade4FastPay
-date: 2024-04-19
+date: 2026-10-30
 website: https://trade4fastpay.com#deadLink
 redirect_from:
 - /android/com.trade4fastpay.trade4fastpay/

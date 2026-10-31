@@ -1,6 +1,6 @@
 ---
 title: ZabTech Ads Based Exchange - D
-date: 2024-04-19
+date: 2026-10-30
 website: https://www.zabtechnologies.net/
 redirect_from:
 - /android/com.zab.lbc.app/

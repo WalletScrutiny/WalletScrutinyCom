@@ -1,6 +1,6 @@
 ---
 title: Praise
-date: 2024-04-19
+date: 2026-10-30
 website: http://praise.pe.kr#deadLink
 redirect_from:
 - /android/com.pluto.praise/

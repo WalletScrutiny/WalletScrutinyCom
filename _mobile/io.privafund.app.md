@@ -1,7 +1,7 @@
 ---
 title: Privafund
-date: 2024-04-19
-website: https://privafund.io/
+date: 2026-10-30
+website: https://privafund.io/#deadLink
 redirect_from:
 - /android/io.privafund.app/
 android:

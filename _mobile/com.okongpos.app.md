@@ -1,6 +1,6 @@
 ---
 title: 'POS기반 암호화폐 결제기 - Okong POS to '
-date: 2024-04-19
+date: 2026-10-30
 website: http://www.okongpos.com#deadLink
 redirect_from:
 - /android/com.okongpos.app/

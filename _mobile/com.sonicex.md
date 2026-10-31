@@ -1,7 +1,7 @@
 ---
 title: SONICEX
-date: 2024-04-19
-website: https://www.sonicex.com/welcome
+date: 2026-10-30
+website: https://www.sonicex.com/welcome#deadLink
 redirect_from:
 - /android/com.sonicex/
 android:

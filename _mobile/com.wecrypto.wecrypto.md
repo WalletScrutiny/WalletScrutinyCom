@@ -1,6 +1,6 @@
 ---
 title: 'WeCrypto: The Future of Digita'
-date: 2024-04-19
+date: 2026-10-30
 website: http://wecrypto.net#deadLink
 redirect_from:
 - /android/com.wecrypto.wecrypto/

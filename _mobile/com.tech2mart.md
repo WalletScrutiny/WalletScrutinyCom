@@ -1,6 +1,6 @@
 ---
 title: Tech2Mart
-date: 2024-04-19
+date: 2026-10-30
 website: http://tech2mart.com#deadLink
 redirect_from:
 - /android/com.tech2mart/

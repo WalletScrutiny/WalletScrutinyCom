@@ -1,6 +1,6 @@
 ---
 title: Smart Bit
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/com.smart.bit/
 android:

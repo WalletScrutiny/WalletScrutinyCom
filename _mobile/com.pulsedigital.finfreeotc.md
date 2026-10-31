@@ -1,7 +1,7 @@
 ---
 title: FinFreeOTC
-date: 2024-04-19
-website: https://finfreeotc.com
+date: 2026-10-30
+website: https://finfreeotc.com#deadLink
 redirect_from:
 - /android/com.pulsedigital.finfreeotc/
 android:

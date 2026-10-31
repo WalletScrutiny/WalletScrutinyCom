@@ -1,7 +1,7 @@
 ---
 title: MyPw App
-date: 2024-04-19
-website: https://blockchaindev.my/
+date: 2026-10-30
+website: https://blockchaindev.my/#deadLink
 redirect_from:
 - /android/com.mypw.app/
 android:

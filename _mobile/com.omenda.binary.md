@@ -1,7 +1,7 @@
 ---
 title: Omenda
-date: 2024-04-19
-website: https://omenda.com
+date: 2026-10-30
+website: https://omenda.com#deadLink
 redirect_from:
 - /android/com.omenda.binary/
 android:

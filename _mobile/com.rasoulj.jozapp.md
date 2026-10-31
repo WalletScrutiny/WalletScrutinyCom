@@ -1,7 +1,7 @@
 ---
 title: BahBahan Wallet
-date: 2024-04-19
-website: https://nonamewallet.com
+date: 2026-10-30
+website: https://nonamewallet.com#deadLink
 redirect_from:
 - /android/com.rasoulj.jozapp/
 android:

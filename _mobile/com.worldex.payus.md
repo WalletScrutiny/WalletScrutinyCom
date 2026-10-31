@@ -1,7 +1,7 @@
 ---
 title: PayUs POS
-date: 2024-04-19
-website: https://payus.io/
+date: 2026-10-30
+website: https://payus.io/#deadLink
 redirect_from:
 - /android/com.worldex.payus/
 android:

@@ -1,6 +1,6 @@
 ---
 title: 'QL Exchange: Demo'
-date: 2024-04-19
+date: 2026-10-30
 website: http://qilinlab.com
 redirect_from:
 - /android/com.qlexchange/
