@@ -14,7 +14,7 @@ website: https://guarda.com
 repository: https://github.com/guardaco/guarda-desktop-releases
 icon: guarda.webp
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 date: 2026-10-30
 twitter: GuardaWallet
@@ -24,7 +24,7 @@ features:
 
 ---
 
-**Update 2026-10-30:** Guarda is maintaining its desktop wallet again: version 1.1.0 came out in June 2025 and [version 1.1.1](https://github.com/guardaco/guarda-desktop-releases/releases/tag/v1.1.1) in September 2025, and [guarda.com/desktop](https://guarda.com/desktop/) offers it for macOS, Windows and Linux. The app is no longer obsolete. The [v1.1.1 source archive](https://github.com/guardaco/guarda-desktop-releases/archive/refs/tags/v1.1.1.zip) is still empty, so it stays {% include verdictBadge.html verdict="nosource" type='short' %}.
+**Update 2026-10-30:** Guarda revived its desktop wallet in 2025: version 1.1.0 came out in June 2025 and [version 1.1.1](https://github.com/guardaco/guarda-desktop-releases/releases/tag/v1.1.1) in September 2025, and [guarda.com/desktop](https://guarda.com/desktop/) offers it for macOS, Windows and Linux. Its last release is more than a year old, so it is stale rather than obsolete. The [v1.1.1 source archive](https://github.com/guardaco/guarda-desktop-releases/archive/refs/tags/v1.1.1.zip) is still empty, so it stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 ## Related to:
 
