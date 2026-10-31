@@ -1,6 +1,6 @@
 ---
 title: KUNA - buy & sell crypto, BTC
-date: 2025-04-22
+date: 2026-10-30
 authors:
 - danny
 website: https://kuna.io/
@@ -37,13 +37,17 @@ iphone:
 
 ---
 
+**⚠️ Warning:** Kuna shut down. The platform stopped operating on March 31, 2025, and the last day to withdraw funds was March 28, 2025 ([Kuna shutdown notice](https://kuna.io/)).
+
+**Update 2026-10-30:** Before the shutdown, Kuna delisted all coins and converted the remaining balances to USDC ([Kuna shutdown notice](https://kuna.io/)). Both apps are gone from the stores.
+
 ## Android
 
 The Kuna suite of services is not just the app that we're currently describing. This is the description on its Google Play page:
 
 > Kuna - the mobile app for purchasing, selling and storing cryptocurrency
 
-The Kuna [User Agreement](https://kuna.io/legal/user-agreement) further elaborates:
+The Kuna [User Agreement](https://web.archive.org/web/20220929071044/https://kuna.io/legal/user-agreement) further elaborates:
 
 > "KUNA" refers to an ecosystem comprising KUNA websites (whose domain names include but are not limited to kuna.io), mobile applications, clients, applets and other applications that are developed to offer KUNA Services, and includes independently-operated platforms, websites and clients within the ecosystem (e.g. КUNA.IO, Kuna Labs Business Inc, KUNAWALLET OÜ, KUNA IP and payment gateways)
 

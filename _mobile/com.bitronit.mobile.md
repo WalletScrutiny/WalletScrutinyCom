@@ -1,7 +1,7 @@
 ---
 title: Bitronit
-date: 2024-04-03
-website: https://www.bitronit.com
+date: 2026-10-30
+website: https://www.bitronit.com#deadLink
 redirect_from:
 - /android/com.bitronit.mobile/
 android:
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**⚠️ Warning:** Bitronit is shutting down. Turkey's Capital Markets Board lists Bitronit Yüksek Teknoloji AŞ among the crypto providers [in liquidation](https://spk.gov.tr/kurumlar/kripto-varlik-hizmet-saglayicilar/tasfiye-surecinde-olanlar-listesi), and bitronit.com is now offered for sale.

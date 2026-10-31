@@ -1,6 +1,6 @@
 ---
 title: Mutiny Wallet
-date: 2025-01-27
+date: 2026-10-30
 authors:
 - danny
 website: https://mutinywallet.com#deadLink
@@ -35,6 +35,8 @@ iphone:
   repository: https://github.com/MutinyWallet/mutiny-web
 
 ---
+
+**⚠️ Warning:** Mutiny Wallet shut down as announced. The apps were pulled from both stores, and the company now builds unrelated privacy products ([timeline](https://blog.mutinywallet.com/mutiny-timeline/)). The [source repository](https://github.com/MutinyWallet/mutiny-web) is archived.
 
 ## Android
 

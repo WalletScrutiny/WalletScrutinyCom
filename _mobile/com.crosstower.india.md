@@ -1,6 +1,6 @@
 ---
 title: CrossTower
-date: 2023-08-04
+date: 2026-10-30
 authors:
 - danny
 website: https://www.crosstower.com#deadLink
@@ -39,11 +39,13 @@ iphone:
 
 ---
 
+**⚠️ Warning:** CrossTower is gone. Its Bermuda exchange was [wound up in January 2024](https://www.royalgazette.com/international-business/business/article/20240123/crosstower-bermuda-is-latest-crypto-casualty/) because it could not pay its debts, and the court heard that the US parent was being wound up too. The CrossTower website no longer loads, and crosstower.in now shows an unrelated site.
+
 ## Android
 
 This service is a digital asset exchange that originates from India. KYC is required in order to deposit and withdraw. KYC procedures require Indian residents' PAN (Permanent Account Number). 
 
-Section 5.6 from the [Terms and Conditions](https://crosstower.com/terms-of-use-privacy#deadLink) reads:
+Section 5.6 from the [Terms and Conditions](https://web.archive.org/web/20221208124103/https://crosstower.com/terms-of-use-privacy/) reads:
 
 > CrossTower securely stores all Digital Asset private keys in our control in a combination of online and offline storage. As a result, it may be necessary for CrossTower to retrieve certain information from offline storage in order to facilitate a Digital Asset Transaction in accordance with your instructions, which may delay the initiation or crediting of such Digital Asset Transaction for a period of time, which period of time may be significant. You acknowledge and agree that a Digital Asset Transaction facilitated by CrossTower may be delayed for this reason.
 

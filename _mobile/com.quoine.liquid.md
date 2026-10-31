@@ -1,6 +1,6 @@
 ---
 title: Liquid - Buy Bitcoin & Crypto
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.liquid.com
@@ -35,6 +35,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** FTX bought Liquid in 2022, and when FTX went bankrupt in November 2022 Liquid [stopped all withdrawals](https://www.coindesk.com/business/2022/11/15/liquid-global-crypto-exchange-bailed-out-by-ftx-halts-withdrawals) and then all trading. The [Liquid website](https://www.liquid.com) now only sends customers to the FTX claims portal.
+
 ## Android
 
 ## App Description
@@ -47,7 +49,7 @@ Liquid Pro is a **licensed exchange**, as quoted below:
 > Liquid was the first cryptocurrency exchange licensed to operate in Japan, and we are embarking on becoming one of the first licensed operators in Singapore.
 
 ## The Site
-[From About Us: Security Measures](liquid.com/company/#company-security):
+[From About Us: Security Measures](https://web.archive.org/web/20221118102307/https://www.liquid.com/company/#company-security):
 
 > We manage digital assets using a combination of cold wallet & Multi-party computation (MPC) technology.
 

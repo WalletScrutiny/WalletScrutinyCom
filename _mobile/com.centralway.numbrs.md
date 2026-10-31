@@ -1,6 +1,6 @@
 ---
 title: Numbrs - Bitcoin Account
-date: 2024-03-02
+date: 2026-10-30
 website: https://www.numbrs.com#deadLink
 redirect_from:
 - /android/com.centralway.numbrs/
@@ -17,6 +17,8 @@ android:
   developerName: Numbrs Personal Finance AG
 
 ---
+
+**⚠️ Warning:** Numbrs is gone. According to the [Swiss commercial register](https://zg.chregister.ch/cr-portal/auszug/zefix.xhtml?uid=CHE-422.744.016&lang=de&shabdatum=20250702), Numbrs Personal Finance AG renamed itself Self-Custody AG in June 2024 and was merged into Saidler & Co. Vault AG and deleted on 2025-07-02. numbrs.com forwards to selfcustody.net, which by July 2025 [showed an unrelated hardware wallet shop](https://web.archive.org/web/20250709154613/https://www.selfcustody.net/) and no longer loads.
 
 Numbrs is a Swiss-based self-custodial wallet.
 

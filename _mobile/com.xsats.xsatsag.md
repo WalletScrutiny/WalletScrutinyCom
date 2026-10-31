@@ -1,7 +1,7 @@
 ---
 title: xsats - save bitcoin
-date: 2024-04-19
-website: https://xsats.com
+date: 2026-10-30
+website: https://web.archive.org/web/20250117073051/https://xsats.com/
 redirect_from:
 - /android/com.xsats.xsatsag/
 android:
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**⚠️ Warning:** xsats no longer offers its bitcoin service. Until January 2025 [its website](https://web.archive.org/web/20250117073051/https://xsats.com/) said "buy and secure bitcoin"; since then [xsats.com](https://xsats.com) only announces heating hardware as "coming soon".

@@ -1,7 +1,7 @@
 ---
 title: Rapidz Checkout
-date: 2026-03-18
-website: https://www.rapidz.io/
+date: 2026-10-30
+website: https://www.rapidz.io/#deadLink
 redirect_from:
 - /android/io.rapidz.rapidzcheckout/
 android:
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**⚠️ Warning:** Rapidz Pay Inc. [announced](https://x.com/Rapidz_io/status/2060332283962507528) that it ceased its services and operations on 26 May 2026. The website no longer loads.

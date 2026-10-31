@@ -1,6 +1,6 @@
 ---
 title: 'Celsius: Buy and Earn Crypto'
-date: 2024-04-03
+date: 2026-10-30
 authors:
 - leo
 website: https://celsius.network
@@ -36,6 +36,8 @@ iphone:
   developerName: Celsius Network
 
 ---
+
+**⚠️ Warning:** Celsius went bankrupt in 2022 and shut down its mobile and web apps on February 29, 2024 while winding down its business. Creditors are paid through the bankruptcy case, not through the app ([celsius.network](https://celsius.network), [case details](https://cases.stretto.com/celsius)).
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: 'ONUS: Buy Bitcoin,ETH & Crypto'
-date: 2021-10-10
+date: 2026-10-30
 authors:
 - danny
 website: https://goonus.io
@@ -35,7 +35,11 @@ iphone:
 
 ---
 
+**⚠️ Warning:** ONUS went offline on March 20, 2026, users lost access to the funds held on the platform, and Vietnamese police detained several people linked to it in an alleged token fraud case ([VnExpress](https://e.vnexpress.net/news/tech/tech-news/singapore-headquartered-onus-crypto-exchange-crashes-5053459.html), [Cointelegraph](https://cointelegraph.com/news/vietnam-arrests-onus-linked-suspects-crypto-fraud-probe)).
+
 ## Android
+
+**Update 2026-10-30:** The provider is gone. On March 20, 2026 the app stopped letting users log in ([VnExpress](https://e.vnexpress.net/news/tech/tech-news/singapore-headquartered-onus-crypto-exchange-crashes-5053459.html)), and the strategic investor HVA Group said withdrawals were impossible because authorities had confiscated devices ([Longbridge/TechNode](https://longbridge.com/news/280128868)).
 
 ## App Description
 

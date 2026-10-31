@@ -1,10 +1,10 @@
 ---
 title: ezDeFi - Crypto & Bitcoin Wall
-date: 2023-09-04
+date: 2026-10-30
 authors:
 - leo
 - danny
-website: https://ezdefi.com/
+website: https://ezdefi.com/#deadLink
 twitter: ezDeFi
 social:
 - https://www.facebook.com/ezdefi
@@ -35,6 +35,8 @@ iphone:
   developerName: EZDEFI DECENTRALIZED APPS
 
 ---
+
+**⚠️ Warning:** ezDeFi is gone. LaunchZone [renamed it LZ Wallet in 2021](https://web.archive.org/web/20210726023157/https://launchzone.org/docs/roadmap-update-announcement/), and LZ Finance later dissolved and closed all its apps (see {% include walletLink.html wallet='android/com.launchzone.lzwallet' verdict='true' %}). ezdefi.com is now a domain for sale.
 
 ## Android
 

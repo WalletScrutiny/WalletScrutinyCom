@@ -1,9 +1,9 @@
 ---
 title: '2gether: Buying Bitcoin'
-date: 2023-08-04
+date: 2026-10-30
 authors:
 - danny
-website: https://www.2gether.global
+website: https://www.2gether.global#deadLink
 twitter: 2gether_global
 redirect_from:
 - /android/com.twogetherbank.app/
@@ -18,6 +18,8 @@ android:
   developerName: 2gether global
 
 ---
+
+**⚠️ Warning:** 2gether shut down in July 2022. It told users to withdraw by July 20 or have their coins sold, while its website and app had stopped working ([The Block](https://www.theblock.co/post/156673/spanish-crypto-platform-2gether-closes-unexpectedly-rtve)). The old domain now belongs to an unrelated casino software company.
 
 <div class="alertBox"><div>There are numerous scam allegations when searching for the app's name and "scam" on twitter and Google.
 </div> </div>

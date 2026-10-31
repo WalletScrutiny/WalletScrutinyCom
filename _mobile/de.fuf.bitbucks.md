@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Wallet BitBucks
-date: 2025-09-03
+date: 2026-10-30
 authors:
 - leo
 website: https://www.bitbucks.io/
@@ -38,6 +38,8 @@ iphone:
   developerName: FUF // Frank und Freunde
 
 ---
+
+**⚠️ Warning:** Both apps are gone from the stores, and the BitBucks website now shows an empty page. The last working copy of the site is from [April 2026](https://web.archive.org/web/20260420084713/https://www.bitbucks.io/). We found no shutdown notice.
 
 ## Android
 

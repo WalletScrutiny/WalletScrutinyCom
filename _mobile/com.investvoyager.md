@@ -1,6 +1,6 @@
 ---
 title: Voyager
-date: 2023-09-04
+date: 2026-10-30
 authors:
 - leo
 website: https://www.investvoyager.com/
@@ -37,6 +37,8 @@ iphone:
   developerName: Voyager Digital, LLC
 
 ---
+
+**⚠️ Warning:** Voyager is gone. It [suspended trading, deposits and withdrawals on July 1, 2022 and filed for bankruptcy on July 5, 2022](https://en.wikipedia.org/wiki/Voyager_Digital). Its [website](https://www.investvoyager.com/) now only informs creditors about the bankruptcy wind-down.
 
 ## Android
 

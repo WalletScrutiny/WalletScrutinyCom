@@ -1,6 +1,6 @@
 ---
 title: META 1 Wallet
-date: 2025-01-09
+date: 2026-10-30
 authors:
 - danny
 website: https://meta-exchange.vision/home#deadLink
@@ -40,6 +40,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** META 1 was a fraud. Its websites are gone, and in April 2026 the project's trustee Robert Dunlap was sentenced to 23 years in prison for selling the "Meta-1 Coin" with false claims of gold and art backing ([IRS press release](https://www.irs.gov/compliance/criminal-investigation/texas-man-who-orchestrated-20-million-cryptocurrency-scam-sentenced-to-23-years-in-prison), [Cointelegraph](https://cointelegraph.com/news/meta-1-coin-fraud-robert-dunlap-23-years-sentence)).
+
 ## Android
 
 ## App Description from Google Play
@@ -52,7 +54,7 @@ iphone:
 - After email verification the app asked us to have our face photographed.
 - We were uncomfortable with this so did not proceed. Interestingly, they justify this:
   > Our decentralized exchange has no KYC requirements other than you must be a living breathing human. META Exchange also does not allow corporations or fictional entities to use the platform, creating a truly freedom-centered, focused human platform that is for the human by the human.
-- The [terms](https://meta1coin.vision/terms-and-conditions) somehow have some political undertones:
+- The [terms](https://web.archive.org/web/20240715055624/https://meta1coin.vision/terms-and-conditions) somehow have some political undertones:
   > As members, we affirm our belief in the original 1787 Constitution for the United States of America. We believe that the First Amendment of the original 1787 Constitution for the United States of America guarantees our members the rights of free speech, petition, assembly, and the right to gather together for the lawful purpose of advising and helping one another in asserting our rights under the Federal and State Constitutions and Statutes. 
 - We tried to sign-in via the web app, and it asked for the same verification - a facial photograph.
 - We can see from this [help document](https://support.meta1coin.vision/hc/en-us/articles/16567681846555-How-to-buy-META-1-coin#deadLink) a screenshot which shows an option to deposit or send Bitcoin.

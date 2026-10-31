@@ -1,6 +1,6 @@
 ---
 title: Coinzix
-date: 2025-02-04
+date: 2026-10-30
 authors:
 - danny
 website: https://www.coinzix.com
@@ -37,6 +37,8 @@ iphone:
   developerName: COINZIX S.R.L.
 
 ---
+
+**⚠️ Warning:** Coinzix closed its exchange. In 2024 its homepage said that "due to regulatory issues imposed by MICA" the centralized exchange would be suspended and asked users to withdraw all funds by July 30, 2024 ([Internet Archive](https://web.archive.org/web/20241016020826/https://coinzix.com/)). Since November 2024 coinzix.com only forwards to a DeFi swap page.
 
 ## Android
 

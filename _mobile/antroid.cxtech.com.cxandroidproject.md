@@ -1,9 +1,9 @@
 ---
 title: DX.Exchange - Buy&Sell Bitcoin
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
-website: https://dx.exchange
+website: https://dx.exchange#deadLink
 redirect_from:
 - /android/antroid.cxtech.com.cxandroidproject/
 android:
@@ -18,5 +18,7 @@ android:
   developerName: COINS MARKETPLACE TECHNOLOGIES OU
 
 ---
+
+**⚠️ Warning:** DX.Exchange [shut down in November 2019](https://www.theblock.co/news/markets/2019-11-04-nasdaq-powered-crypto-platform-dx-exchange-shuts-down-on-lookout-for-merger-or-acquisition-45672), and the company that ran it [went through bankruptcy proceedings](https://www.theblock.co/news/markets/2019-11-25-nasdaq-powered-dx-exchange-is-going-through-bankruptcy-proceedings-just-weeks-after-shutting-down-48293). The dx.exchange domain now shows an unrelated gambling site.
 
 The app's listed homepage is no longer available online. The app itself can no longer be installed as it requires an older version of Android. It was last updated in 2019, therefore this app is **obsolete**.

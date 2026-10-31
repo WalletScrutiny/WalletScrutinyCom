@@ -1,9 +1,9 @@
 ---
 title: CYBAVO Wallet
-date: 2024-04-03
+date: 2026-10-30
 authors:
 - danny
-website: https://www.cybavo.com/
+website: https://www.cybavo.com/#deadLink
 redirect_from:
 - /android/com.cybavo.btc.wallet/
 android:
@@ -18,6 +18,8 @@ android:
   developerName: CYBAVO Inc.
 
 ---
+
+**⚠️ Warning:** CYBAVO's website no longer loads. Circle [agreed to buy CYBAVO in 2022](https://www.circle.com/pressroom/circle-signs-definitive-agreement-to-acquire-crypto-infrastructure-platform-cybavo), and the CYBAVO site [forwarded to Circle](https://web.archive.org/web/20260902111121/https://www.cybavo.com/) until at least September 2026.
 
 ## App Description from Google Play 
 

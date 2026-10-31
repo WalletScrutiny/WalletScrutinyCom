@@ -1,6 +1,6 @@
 ---
 title: easyBitcoin
-date: 2025-11-10
+date: 2026-10-30
 authors:
 - danny
 website: https://easybitcoin.app/
@@ -38,6 +38,8 @@ iphone:
   developerName: Uphold HQ Inc.
 
 ---
+
+**⚠️ Warning:** easyBitcoin is shutting down. A notice on its [website](https://easybitcoin.app/) says the service will be sunset on November 30, 2026; customers with a balance are told to follow the instructions sent by email, and accounts with a zero balance have already been closed.
 
 ## Android
 

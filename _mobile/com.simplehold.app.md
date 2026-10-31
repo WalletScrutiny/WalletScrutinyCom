@@ -1,9 +1,9 @@
 ---
 title: SimpleHold - Crypto Wallet
-date: 2023-09-28
+date: 2026-10-30
 authors:
 - danny
-website: https://simplehold.io/
+website: https://simplehold.io/#deadLink
 twitter: SimpleHold
 social:
 - https://t.me/simplehold_io
@@ -34,6 +34,8 @@ iphone:
   developerName: Simple Swap LTD
 
 ---
+
+**⚠️ Warning:** SimpleHold has closed. The team [announced](https://notum.ai/simplehold) that it is shutting SimpleHold down and moving to Notum, a portfolio management platform. Both apps are gone from the stores and the simplehold.io website no longer loads.
 
 ## Android
 

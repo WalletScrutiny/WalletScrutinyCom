@@ -1,6 +1,6 @@
 ---
 title: BYKEP - Bitcoin for everyone
-date: 2023-04-16
+date: 2026-10-30
 authors:
 - danny
 website: https://bykep.com#deadLink
@@ -22,6 +22,8 @@ android:
   developerName: BYKEP
 
 ---
+
+**⚠️ Warning:** BYKEP is gone. The French regulator struck it from its register of crypto providers on 27 September 2022 after a theft of about 300,000 euros in client assets ([Cryptoast](https://cryptoast.fr/amf-radiation-psan/)), and a Paris court put the company into liquidation on 13 October 2022 ([Pappers](https://www.pappers.fr/entreprise/bykep-834983330)).
 
 ### Google Play
 In the description, BYKEP advertises buying crypto by credit card or transfer.

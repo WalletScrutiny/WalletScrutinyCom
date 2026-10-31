@@ -1,6 +1,6 @@
 ---
 title: Nayuta Wallet
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: https://nayuta.co/nayuta-wallet-2022/
@@ -34,6 +34,9 @@ iphone:
   repository: https://github.com/nayutaco/NayutaWalletApp
 
 ---
+
+**⚠️ Warning:** The provider is gone. Nayuta Inc. announced on 2024-09-13 that it was closing its business and would shut down its Lightning service node three months later ([No BS Bitcoin](https://www.nobsbitcoin.com/nayuta-wallet-is-shutting-down/), [NEW ECONOMY](https://www.neweconomy.jp/posts/417563)). The [Nayuta Wallet page](https://nayuta.co/nayuta-wallet-2022/) now says the service has been terminated and points users to a [channel close and refund guide](https://github.com/nayutaco/Support/wiki/Nayuta-Wallet-2022-Close). The [source repository](https://github.com/nayutaco/NayutaWalletApp) is archived.
+
 
 ## Android
 

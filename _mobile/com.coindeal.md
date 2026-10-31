@@ -1,6 +1,6 @@
 ---
 title: CoinDeal - Bitcoin Buy & Sell
-date: 2023-05-10
+date: 2026-10-30
 authors:
 - kiwilamb
 website: https://coindeal.com#deadLink
@@ -34,6 +34,8 @@ iphone:
   developerName: CoinDeal Limited
 
 ---
+
+**⚠️ Warning:** CoinDeal closed to retail clients on 2023-02-19 and told users to withdraw their funds ([Cryptowisser](https://www.cryptowisser.com/exchange/coindeal/)). Its website no longer loads.
 
 ## Android
 

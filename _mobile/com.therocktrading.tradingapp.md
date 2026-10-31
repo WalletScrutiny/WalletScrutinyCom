@@ -1,9 +1,9 @@
 ---
 title: TheRockTrading
-date: 2023-07-21
+date: 2026-10-30
 authors:
 - danny
-website: https://www.therocktrading.com
+website: https://web.archive.org/web/20220124203720/https://www.therocktrading.com/
 twitter: therocktrading
 redirect_from:
 - /android/com.therocktrading.tradingapp/
@@ -32,6 +32,13 @@ iphone:
   developerName: The Rock Trading Srl
 
 ---
+
+**⚠️ Warning:** The Rock Trading S.r.l. stopped operating in February 2023 and has been [in judicial liquidation](https://www.boccadutri.com/bankruptcy-of-the-rock-trading-how-to-recover-lost-cryptocurrencies/) since April 2023.
+
+**Update 2026-10-30:** The old domain therocktrading.com now hosts an
+[unrelated comparison site](https://www.therocktrading.com/) that says it has no link to the exchange,
+so the website link above points to the
+[archived exchange site](https://web.archive.org/web/20220124203720/https://www.therocktrading.com/).
 
 ## Android
 

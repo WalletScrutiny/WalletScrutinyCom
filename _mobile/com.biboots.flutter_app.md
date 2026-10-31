@@ -1,9 +1,9 @@
 ---
 title: Fairdesk Go:Trade Bitcoin, ETH
-date: 2024-12-23
+date: 2026-10-30
 authors:
 - danny
-website: https://www.fairdesk.com/
+website: https://www.fairdesk.com/#deadLink
 twitter: FairdeskGlobal
 social:
 - https://www.reddit.com/user/Fairdesk_Official
@@ -37,6 +37,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** Fairdesk has shut down. It closed all trading on October 17, 2024 and the whole platform on November 30, 2024 ([announcement](https://www.prnewswire.com/news-releases/fairdesk-cryptocurrency-exchange-announces-permanent-closure-of-platform-by-november-30-2024-302273838.html)). Its website now shows a parked domain.
+
 ## Android
 
 ## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.biboots.flutter_app)
@@ -48,7 +50,7 @@ iphone:
 
 ## Analysis 
 
-The exchange provides for the ability to [deposit](https://www.fairdesk.com/article/How-to-deposit) and [withdraw Bitcoin](https://www.fairdesk.com/article/How-to-withdraw-cash), as well as other cryptocurrencies. 
+The exchange provides for the ability to [deposit](https://www.fairdesk.com/article/How-to-deposit#deadLink) and [withdraw Bitcoin](https://www.fairdesk.com/article/How-to-withdraw-cash#deadLink), as well as other cryptocurrencies. 
 
 As an exchange that hosts users funds in cold wallets, this is a good indicator for its **custodial** nature.
 

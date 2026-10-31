@@ -1,6 +1,6 @@
 ---
 title: iSunOne – Spend Cryptos and Tokens in a Card
-date: 2022-04-07
+date: 2026-10-30
 authors:
 - danny
 website: https://isun.one
@@ -34,6 +34,10 @@ iphone:
   developerName: TIDENET LIMITED
 
 ---
+
+**⚠️ Warning:** iSunOne has shut down. Its website says it ceased operations in 2025.
+
+**Update 2026-10-30:** iSunOne is gone. Its [website](https://isun.one) now carries only a notice that "Operations ceased in 2025", and the [terms page](https://isun.one/tnc#deadLink) quoted below is gone. The iPhone app is gone from the App Store as well.
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: ProfitTradingApp for FTX
-date: 2024-04-19
+date: 2026-10-30
 authors:
 - danny
 website: https://profittradingapp.com/
@@ -22,6 +22,8 @@ android:
   developerName: ProfitTradingApp
 
 ---
+
+**⚠️ Warning:** FTX, the exchange this app traded on, collapsed and filed for bankruptcy in November 2022 ([Wikipedia](https://en.wikipedia.org/wiki/Bankruptcy_of_FTX)), so this app no longer works.
 
 The provider [ProfitTradingApp](https://play.google.com/store/apps/dev?id=6470884744111312194) features a list of apps:
 
