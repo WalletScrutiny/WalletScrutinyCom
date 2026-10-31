@@ -54,13 +54,23 @@ export function otherChannels (android, githubShips) {
   return { channels, known: channels.length > 0 || githubShips !== null };
 }
 
+/** Below this many Play installs an app is `fewusers`, as in helperPlayStore. */
+export const FEW_USERS = 1000;
+
 /**
  * The `meta` a Play-delisted app should have, or null to leave it unchanged.
- * Only moves between `removed` and the other states; any other meta (fewusers,
- * obsolete, ...) is kept while another channel still ships.
+ * Moves between `removed`, `ok` and `fewusers`; any other meta (obsolete, ...) is
+ * kept while another channel still ships. The last Play install count decides
+ * between `ok` and `fewusers`, as no other channel reports one.
  */
 export function nextMeta (android, { channels, known }) {
   if (!known) return null;
-  if (channels.length > 0) return android.meta === 'removed' ? 'ok' : null;
+  if (channels.length > 0) {
+    const fewUsers = android.users != null && android.users < FEW_USERS;
+    const shipped = fewUsers ? 'fewusers' : 'ok';
+    if (android.meta === 'removed') return shipped;
+    if (android.meta === 'ok' && fewUsers) return 'fewusers';
+    return null;
+  }
   return android.meta === 'removed' ? null : 'removed';
 }
