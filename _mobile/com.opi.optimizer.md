@@ -1,7 +1,7 @@
 ---
 title: Optimizer Exchange
-date: 2026-04-13
-website: https://opermizer.zone
+date: 2026-10-30
+website: https://opermizer.zone#deadLink
 redirect_from:
 - /android/com.opi.optimizer/
 android:

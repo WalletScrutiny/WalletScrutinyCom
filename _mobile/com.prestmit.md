@@ -1,9 +1,9 @@
 ---
 title: 'Prestmit: Gift Cards & Crypto'
-date: 2021-11-02
+date: 2026-10-30
 authors:
 - danny
-website: https://staging.prestmit.com
+website: https://prestmit.io
 twitter: prestmit
 social:
 - https://www.facebook.com/prestmit

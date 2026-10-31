@@ -1,7 +1,7 @@
 ---
 title: Bitkoex
-date: 2024-11-12
-website: https://www.bitkoex.com/
+date: 2026-10-30
+website: https://www.bitkoex.com/#deadLink
 redirect_from:
 - /android/com.bitkoex/
 android:
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**Update 2026-10-30:** The Bitkoex website now shows an unrelated Chinese site instead of the exchange.

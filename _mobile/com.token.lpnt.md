@@ -1,9 +1,9 @@
 ---
 title: LPNT - Crypto Wallet
-date: 2025-02-26
+date: 2026-10-30
 authors:
 - danny
-website: https://www.lpntoken.io
+website: https://www.lpntoken.io#deadLink
 twitter: officialLPNT
 social:
 - https://www.linkedin.com/company/official-lpnt
@@ -32,7 +32,7 @@ From the description:
 
 It also seems to support its own LPN token (LPNT).
 ### The Site
-The website's main focus appears to be on the LPNT. However, [there is a whitepaper](https://lpntoken.io/assets/lpnt-io/images/whitepaper-lpntoken.pdf) that contains some information on the app:
+The website's main focus appears to be on the LPNT. However, [there is a whitepaper](https://web.archive.org/web/20250306140033/https://lpntoken.io/assets/lpnt-io/images/whitepaper-lpntoken.pdf) that contains some information on the app:
 
 > LPNT wallet is a decentralized application that allows users to do the following without requesting their personal information:
 > - Protection of your cryptocurrencies for free.

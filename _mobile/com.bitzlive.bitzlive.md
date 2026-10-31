@@ -1,7 +1,7 @@
 ---
 title: Bitzlive - Crypto Exchange
-date: 2024-04-03
-website: https://bitzlive.com
+date: 2026-10-30
+website: https://bitzlive.com#deadLink
 redirect_from:
 - /android/com.bitzlive.bitzlive/
 android:

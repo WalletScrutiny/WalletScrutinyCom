@@ -1,9 +1,9 @@
 ---
 title: Aladdin Pro
-date: 2024-09-10
+date: 2026-10-30
 authors:
 - danny
-website: http://abbcpayment.com
+website: http://abbcpayment.com#deadLink
 twitter: abbcfoundation
 social:
 - https://www.linkedin.com/company/abbcfoundation
@@ -39,7 +39,7 @@ iphone:
 
 ## Android
 
-Note that this app is not the same as Aladdin Wallet. [From the Aladdin Wallet website:](https://aladdinmc.com/)
+Note that this app is not the same as Aladdin Wallet. [From the Aladdin Wallet website:](https://web.archive.org/web/20240918052451/https://aladdinmc.com/)
 
 > Aladdin Wallet has developed two wallet services. Aladdin Wallet is a non-custodial wallet that allows users to have full control of their accounts while the Aladdin Pro Wallet is a digital wallet with multi-layer protection that enhances transparency and defense against malicious hackers.
 
@@ -50,7 +50,7 @@ From its Google Play page:
 
 Note that there are two Alladin wallets currently on Google Play: Alladin Pro and Alladin Wallet. Both are made by ABBC Payment Services Provider. 
 
-Even though wallets can be restored via mnemonic phrase, additional layers for security indicate that it is really a custodial wallet. This is proven in page 29 of the [Alladin Pro User Manual](https://abbccoin.com/Aladdin_Pro_Wallet_Manual_English-v2.pdf) which shows that transactions have to be approved or rejected by Alladin Pro Wallet admins.
+Even though wallets can be restored via mnemonic phrase, additional layers for security indicate that it is really a custodial wallet. This is proven in page 29 of the [Alladin Pro User Manual](https://web.archive.org/web/20221021121010/https://abbccoin.com/Aladdin_Pro_Wallet_Manual_English-v2.pdf) which shows that transactions have to be approved or rejected by Alladin Pro Wallet admins.
 
 This app is **custodial** and thus **not verifiable**.
 

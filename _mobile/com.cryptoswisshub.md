@@ -1,7 +1,7 @@
 ---
 title: Crypto Swiss Hub
-date: 2024-08-07
-website: https://www.cryptoswisshub.com/
+date: 2026-10-30
+website: https://www.cryptoswisshub.com/#deadLink
 redirect_from:
 - /android/com.cryptoswisshub/
 android:

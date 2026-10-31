@@ -1,7 +1,7 @@
 ---
 title: NExTouch
-date: 2024-10-19
-website: http://www.eunex.co
+date: 2026-10-30
+website: https://web.archive.org/web/20190629092704/http://www.eunex.co/
 redirect_from:
 - /android/kr.co.keypair.nextouch/
 android:

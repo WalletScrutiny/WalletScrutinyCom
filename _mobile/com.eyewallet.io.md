@@ -1,9 +1,9 @@
 ---
 title: Eyewallet Crypto
-date: 2023-05-25
+date: 2026-10-30
 authors:
 - danny
-website: https://eyewallet.com
+website: https://eyewallet.com#deadLink
 redirect_from:
 - /android/com.eyewallet.io/
 android:

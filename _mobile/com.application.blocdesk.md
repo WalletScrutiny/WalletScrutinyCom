@@ -1,7 +1,7 @@
 ---
 title: VelcomEx - The Leading P2P Cry
-date: 2024-05-07
-website: https://www.velcomex.com
+date: 2026-10-30
+website: https://www.velcomex.com#deadLink
 redirect_from:
 - /android/com.application.blocdesk/
 android:

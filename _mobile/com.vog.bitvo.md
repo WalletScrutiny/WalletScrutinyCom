@@ -1,6 +1,6 @@
 ---
 title: Bitvo
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: https://bitvo.com#deadLink
@@ -36,6 +36,8 @@ iphone:
   developerName: Bitvo
 
 ---
+
+**Update 2026-10-30:** Bitvo no longer runs an exchange. In November 2023 Bitbuy bought Bitvo's client accounts and the bitvo.com domain and moved the customers to its own platform ([BetaKit](https://betakit.com/wonderfi-owned-bitbuy-acquires-customers-of-fellow-regulated-canadian-crypto-exchange-bitvo/)). Bitbuy is also {% include verdictBadge.html verdict="custodial" type='short' %}: {% include walletLink.html wallet='android/com.bitbuy.mobileApp' verdict='true' %}
 
 ## Android
 

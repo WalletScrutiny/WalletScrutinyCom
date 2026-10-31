@@ -24,7 +24,7 @@ icon: uduncoldt1.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-03-11
+date: 2026-10-30
 signer: 
 twitter: UdunWallet
 social:
@@ -38,6 +38,8 @@ features:
 - camera
 
 ---
+
+**Update 2026-10-30:** Udun rebranded as Cregis on 2023-03-20, according to its [Chinese hardware page](https://www.uduncloud.com/products/hardware-pack). The [English hardware page](https://www.uduncloud.com/en/products/hardware) now calls the device "Udun PRO", and the [Cregis website](https://www.cregis.com/) lists no hardware wallet.
 
 We found that this product looks to be very similar to {% include walletLink.html wallet='hardware/ellipaltitan' verdict='true' %}.
 Like Ellipal, it resembles a mobile phone with a screen display and button.

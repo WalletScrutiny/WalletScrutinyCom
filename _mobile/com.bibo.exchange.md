@@ -1,7 +1,7 @@
 ---
 title: Bibo Exchange
-date: 2023-08-04
-website: https://www.bibo.gold
+date: 2026-10-30
+website: https://www.bibo.gold#deadLink
 twitter: biboexchange
 redirect_from:
 - /android/com.bibo.exchange/

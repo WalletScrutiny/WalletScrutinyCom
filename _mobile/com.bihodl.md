@@ -1,7 +1,7 @@
 ---
 title: BiHODL
-date: 2023-08-04
-website: https://bihodl.com
+date: 2026-10-30
+website: https://bihodl.com#deadLink
 redirect_from:
 - /android/com.bihodl/
 android:

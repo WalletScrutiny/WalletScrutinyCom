@@ -1,6 +1,6 @@
 ---
 title: TronWallet
-date: 2021-01-15
+date: 2026-10-30
 website: https://www.tronwallet.me
 redirect_from:
 - /com.tronwallet2/
@@ -16,6 +16,8 @@ android:
   verdict: nosource
 
 ---
+
+**Update 2026-10-30:** The first Klever app, {% include walletLink.html wallet='android/cash.klever.blockchain.wallet' verdict='true' %}, is itself removed now, and Klever's current wallet is {% include walletLink.html wallet='android/finance.klever.bitcoin.wallet' verdict='true' %}. The old website tronwallet.me no longer serves a working page.
 
 The wallet is not listed on Google Play anymore and as their website forwards
 the visitor to the

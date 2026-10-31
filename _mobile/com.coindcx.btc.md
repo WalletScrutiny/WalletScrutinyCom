@@ -1,6 +1,6 @@
 ---
 title: 'CoinDCX: Bitcoin Crypto App'
-date: 2021-08-27
+date: 2026-10-30
 authors:
 - danny
 website: https://coindcx.com/
@@ -37,6 +37,8 @@ iphone:
   developerName: CoinDCX Official
 
 ---
+
+**Update 2026-10-30:** In October 2024 CoinDCX added a "Web3 Mode" to both apps, an MPC wallet secured with two-factor authentication instead of a seed phrase, to which users can move funds out of the exchange ([The Crypto Times](https://www.cryptotimes.io/2024/10/30/coindcx-launches-custody-feature-for-safer-crypto-storage/)). The exchange account is still custodial.
 
 ## Android
 

@@ -1,7 +1,7 @@
 ---
 title: NonaDirect
-date: 2024-05-10
-website: https://easybill.com.ng
+date: 2026-10-30
+website: https://easybill.com.ng#deadLink
 redirect_from:
 - /android/com.nonadirect/
 android:

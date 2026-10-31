@@ -1,6 +1,6 @@
 ---
 title: BTC6X Exchange
-date: 2024-09-26
+date: 2026-10-30
 authors:
 - danny
 website: https://btc6x.com
@@ -23,6 +23,8 @@ android:
   developerName: ZeroCash
 
 ---
+
+**Update 2026-10-30:** BTC6X now calls itself PURCOW Exchange. The [btc6x.com](https://btc6x.com) site shows the PURCOW brand, and the exchange's [blog](https://medium.com/@purcow.io) runs under the new name. It is still a custodial exchange; we found no PURCOW app in the stores.
 
 ## App Description from [Google Play](https://play.google.com/store/apps/details?id=exchange.btc6x.com) 
 

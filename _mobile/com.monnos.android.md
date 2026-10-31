@@ -1,6 +1,6 @@
 ---
 title: Monnos | Buy Bitcoin & Crypto
-date: 2025-10-15
+date: 2026-10-30
 authors:
 - danny
 website: https://monnos.com
@@ -37,6 +37,8 @@ iphone:
   developerName: KRYEG SOLUCOES DIGITAIS EIRELI
 
 ---
+
+**Update 2026-10-30:** Monnos has stopped operating. Since 29 August 2025 [its website](https://monnos.com) shows only a notice that its operations are interrupted because one of its custody partners restricted access to the assets it held, and that no solution has been found yet.
 
 ## Android
 

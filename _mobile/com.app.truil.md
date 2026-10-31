@@ -1,7 +1,7 @@
 ---
 title: TRUEiL
-date: 2023-11-02
-website: https://trueil.com
+date: 2026-10-30
+website: https://trueil.com#deadLink
 redirect_from:
 - /android/com.app.truil/
 android:

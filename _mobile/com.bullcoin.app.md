@@ -1,7 +1,7 @@
 ---
 title: Bulltrade
-date: 2024-04-19
-website: https://bull-trade.net
+date: 2026-10-30
+website: https://bull-trade.net#deadLink
 redirect_from:
 - /android/com.bullcoin.app/
 android:

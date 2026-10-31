@@ -1,7 +1,7 @@
 ---
 title: Easy Exchange Pro
-date: 2023-05-10
-website: https://easyexchangepro.com/
+date: 2026-10-30
+website: https://easyexchangepro.com/#deadLink
 redirect_from:
 - /android/com.application.easyexchangrpro/
 android:

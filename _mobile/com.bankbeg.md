@@ -1,7 +1,7 @@
 ---
 title: BankBeg
-date: 2024-05-18
-website: https://www.bankbeg.com
+date: 2026-10-30
+website: https://web.archive.org/web/20211215004411/https://bankbeg.com/
 redirect_from:
 - /android/com.bankbeg/
 android:

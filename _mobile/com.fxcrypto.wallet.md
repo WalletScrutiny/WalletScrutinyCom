@@ -1,9 +1,9 @@
 ---
 title: 'FX Crypto (FXC) - Forex Robot '
-date: 2023-05-25
+date: 2026-10-30
 authors:
 - danny
-website: https://forexrobottraders.com/
+website: https://forexrobottraders.com/#deadLink
 redirect_from:
 - /android/com.fxcrypto.wallet/
 android:

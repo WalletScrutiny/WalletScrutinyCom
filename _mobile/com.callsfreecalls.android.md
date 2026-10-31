@@ -1,6 +1,6 @@
 ---
 title: CFC Wallet - Earn Free,Hold or Buy BTC/ETH/CRAD
-date: 2021-08-21
+date: 2026-10-30
 authors:
 - danny
 website: https://cfc.io#deadLink
@@ -21,6 +21,8 @@ android:
   verdict: wip
 
 ---
+
+**Update 2026-10-30:** The [cfc_io](https://x.com/cfc_io) account on X, linked above, is no longer suspended and now calls itself "Earn online | Only real methods".
 
 Its Google Play description is: 
 

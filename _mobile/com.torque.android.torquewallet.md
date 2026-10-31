@@ -1,9 +1,9 @@
 ---
 title: Torque Wallet
-date: 2023-04-12
+date: 2026-10-30
 authors:
 - danny
-website: https://torque.asia/home/terms-and-conditions
+website: https://web.archive.org/web/20210615131456/https://torque.asia/home/terms-and-conditions
 redirect_from:
 - /android/com.torque.android.torquewallet/
 android:

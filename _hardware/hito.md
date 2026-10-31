@@ -17,7 +17,7 @@ weight: 41
 provider: HITO Lab GmbH
 providerWebsite: https://hito.xyz/
 website: https://hito.xyz/
-shop: https://shop.hito.xyz/products/hito-bitcoin-edition-beta
+shop: https://web.archive.org/web/20260713130633/https://shop.hito.xyz/products/hito-bitcoin-edition-beta
 country: US
 price: 150 USD
 repository: 
@@ -25,7 +25,7 @@ icon: hito.webp
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2025-10-03
+date: 2026-10-30
 signer: 
 twitter: hito_xyz
 social:
@@ -35,6 +35,10 @@ builds:
 features: 
 
 ---
+
+## Update 2026-10-30
+
+Hito's shop no longer loads, although the [website](https://hito.xyz/) still links to it with a "Buy now" button. The [last archived copy of the shop page](https://web.archive.org/web/20260713130633/https://shop.hito.xyz/products/hito-bitcoin-edition-beta) from July 2026 still showed the device sold out.
 
 ## Update 2025-10-03
 

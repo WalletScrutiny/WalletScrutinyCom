@@ -1,7 +1,7 @@
 ---
 title: 'Wonder Wallet: Crypto & Web3'
-date: 2026-03-11
-website: https://labs.wonder.fi
+date: 2026-10-30
+website: https://web.archive.org/web/20251117045345/https://labs.wonder.fi/
 redirect_from:
 - /android/fi.wonder.labs.wallet/
 android:
@@ -18,3 +18,4 @@ android:
 
 ---
 
+**Update 2026-10-30:** The [WonderFi Labs website](https://web.archive.org/web/20251117045345/https://labs.wonder.fi/) that presented Wonder Wallet no longer loads, and [Robinhood completed its acquisition of WonderFi](https://www.wonder.fi/press-release/robinhood-completes-acquisition-of-wonderfi) on June 1, 2026. The app is still listed but has not been updated since March 2025.

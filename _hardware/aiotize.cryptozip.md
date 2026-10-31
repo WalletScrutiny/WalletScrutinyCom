@@ -11,7 +11,7 @@ binaries:
 dimensions: 
 weight: 
 provider: Aiotize
-providerWebsite: https://aiotize.com/
+providerWebsite: https://web.archive.org/web/20260608164248/https://www.aiotize.com/
 website: 
 shop: 
 country: IN
@@ -21,7 +21,7 @@ icon: aiotize.cryptozip.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2026-02-27
+date: 2026-10-30
 signer: 
 twitter: aiotize
 social: 
@@ -29,6 +29,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** The Aiotize website no longer loads. Its [last archived version](https://web.archive.org/web/20260608164248/https://www.aiotize.com/) from June 2026 only offers drone and logistics services and does not mention the CryptoZip or any wallet.
 
 ## Background 
 

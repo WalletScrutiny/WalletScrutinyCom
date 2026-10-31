@@ -1,6 +1,6 @@
 ---
 title: ActPass Wallet
-date: 2023-11-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.actpass.com
@@ -57,5 +57,7 @@ iphone:
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** This iPhone app is no longer in the App Store. The same group now publishes "ActPass: Seraph Wallet" (bundle ID `com.actoz.tech`, by Artal Internet FZ-LLC), which is not listed here yet.
 
 The Android analysis above applies to the iPhone app too.

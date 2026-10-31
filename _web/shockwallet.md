@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2022-11-17
 discontinued: 
-updated: 2025-02-21
-version: .0.0.19-beta
+updated: 2026-06-10
+version: 0.0.28-beta
 binaries: 
 provider: ShockNet
 providerWebsite: 
@@ -16,7 +16,7 @@ icon: shockwallet.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-06-10
+date: 2026-10-30
 twitter: shockbtc
 social: 
 features: 

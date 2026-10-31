@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2020-12-07
 discontinued: 
-updated: 2023-03-21
-version: 0.17.2
+updated: 2025-10-08
+version: 0.18.9
 binaries: 
 dimensions: 
 weight: 
@@ -21,7 +21,7 @@ icon: io.gridplus.lattice1.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-06-22
+date: 2026-10-30
 signer: 
 twitter: gridplus
 social:

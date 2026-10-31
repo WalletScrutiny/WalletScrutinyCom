@@ -1,7 +1,7 @@
 ---
 title: Inout Blockchain AltExchanger
-date: 2025-02-13
-website: http://inout-blockchain-altexchanger.demo.inoutscripts.net/
+date: 2026-10-30
+website: http://inout-blockchain-altexchanger.demo.inoutscripts.net/#deadLink
 redirect_from:
 - /android/net.inoutscripts.demo.inoutblockchainaltexchanger/
 android:

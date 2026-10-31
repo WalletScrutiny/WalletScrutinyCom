@@ -1,6 +1,6 @@
 ---
 title: Debifi
-date: 2026-06-09
+date: 2026-10-30
 website: https://debifi.com
 android:
   appId: com.wagmi.debifi.android.mainnet
@@ -27,6 +27,8 @@ iphone:
   developerName: GMI SOFT LIMITED
 
 ---
+
+**Update 2026-10-30:** The public source repository `gitlab.com/debifi-public/debifi-app` mentioned below is gone. It was public in May 2026 ([archived copy](https://web.archive.org/web/20260521213202/https://gitlab.com/debifi-public/debifi-app)), but the page is no longer public, and the [debifi-public group](https://gitlab.com/debifi-public) now lists no projects. The verdict is unchanged.
 
 ## App Description
 

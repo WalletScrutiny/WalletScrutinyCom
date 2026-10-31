@@ -16,12 +16,12 @@ website:
 shop: 
 country: 
 price: 
-repository: https://github.com/littledivy/arienai
+repository: https://github.com/AppliedEM/bitboard
 icon: appliedem.bitboard.diy.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-date: 2026-02-27
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -29,6 +29,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** The repository link pointed to an unrelated Arweave hardware wallet. We replaced it with the actual [Bitboard repository](https://github.com/AppliedEM/bitboard), which still has no changes since March 2018.
 
 **Warning:** Provider indicates that project is a work-in-progress, users should use at their own risk.
 

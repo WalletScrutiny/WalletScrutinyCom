@@ -5,8 +5,8 @@ authors:
 - danny
 released: 
 discontinued: 
-updated: 2026-08-25
-version: 0.4.0
+updated: 2026-10-29
+version: 0.4.1
 binaries: https://github.com/frostsnap/frostsnap/releases
 dimensions:
 - 34
@@ -24,7 +24,7 @@ icon: frostsnap.webp
 bugbounty: https://github.com/frostsnap/frostsnap/blob/master/SECURITY.md
 meta: ok
 verdict: sourceavailable
-date: 2026-08-27
+date: 2026-10-30
 signer: 
 twitter: FrostsnapTech
 social: 

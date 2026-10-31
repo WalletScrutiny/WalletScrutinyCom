@@ -1,6 +1,6 @@
 ---
 title: Multi Invest - Investments
-date: 2025-02-18
+date: 2026-10-30
 authors:
 - danny
 website: http://multi.ua
@@ -30,6 +30,8 @@ iphone:
   developerName: Treeum Holdings LTD
 
 ---
+
+**Update 2026-10-30:** [multi.ua](https://multi.ua) no longer offers Multi Invest. The same developer, Treeum, now uses it for a different app called "multi" with currency exchange, loans and insurance, and no crypto features.
 
 ## Android
 

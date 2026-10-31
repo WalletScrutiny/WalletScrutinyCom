@@ -1,7 +1,7 @@
 ---
 title: MiniChange
-date: 2023-12-19
-website: https://minichange.me/
+date: 2026-10-30
+website: https://minichange.me/#deadLink
 redirect_from:
 - /android/me.minichange.app/
 android:

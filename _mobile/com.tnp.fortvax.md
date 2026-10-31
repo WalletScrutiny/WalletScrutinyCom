@@ -1,7 +1,7 @@
 ---
 title: Fortvax cold wallet
-date: 2022-07-31
-website: https://stage-fortvax-landing.goldalles.com/
+date: 2026-10-30
+website: https://stage-fortvax-landing.goldalles.com/#deadLink
 redirect_from:
 - /android/com.tnp.fortvax/
 android:

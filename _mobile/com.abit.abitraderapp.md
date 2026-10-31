@@ -1,7 +1,7 @@
 ---
 title: ABiTraderApp
-date: 2023-01-02
-website: https://abitnetwork.com
+date: 2026-10-30
+website: https://abitnetwork.com#deadLink
 redirect_from:
 - /android/com.abit.abitraderapp/
 android:

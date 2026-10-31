@@ -1,6 +1,6 @@
 ---
 title: 'Metal Pay: Buy Bitcoin and ETH'
-date: 2021-10-21
+date: 2026-10-30
 authors:
 - danny
 website: https://metalpay.com
@@ -40,6 +40,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The custodian changed. Metal Pay's [terms](https://www.metalpay.com/terms), last updated 2026-10-01, say all digital assets are held "under the custody of the Digital Asset Custodian", named as Fireblocks; Synapse and Evolve Bank, quoted below, are no longer mentioned.
 
 ## App Description
 

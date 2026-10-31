@@ -1,6 +1,6 @@
 ---
 title: ONTO Cross-chain Crypto Wallet
-date: 2021-09-15
+date: 2026-10-30
 authors:
 - danny
 website: https://onto.app/
@@ -43,6 +43,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The `ONTO` repository we linked as the source is gone; the [ONTO-Data-Wallet](https://github.com/ONTO-Data-Wallet) organisation now holds only SDKs and wallet adapters. The help-centre page below moved to [docs.onto.app](https://docs.onto.app/guides/wallet-management/wallet-backup).
+
 ## Update 2024-07-15
 
 Nothing new changed with regards to the availability of this app's source code. It is still not available. 
@@ -55,7 +57,7 @@ The Google Play description:
 
 Given that it refers to itself as a **decentralized** wallet, this likely means that it is a **self-custodial** wallet. As our policy is "don't trust, verify" we will still try to verify this.
 
-In the official website's help center, [we find a page on how to export ONT ID Wallet](https://ontology-1.gitbook.io/onto/guides/wallet-management/wallet-backup).
+In the official website's help center, [we find a page on how to export ONT ID Wallet](https://docs.onto.app/guides/wallet-management/wallet-backup).
 
 Users may choose to export their 12-word mnemonic phrase. [It is also possible to import and export single-chain wallets](https://ontology-1.gitbook.io/onto/guides/wallet-management/import-export-switch-or-delete-single-chain-wallet#import-single-chain-wallet) provided the users have access to the mnemonic phrases.
 

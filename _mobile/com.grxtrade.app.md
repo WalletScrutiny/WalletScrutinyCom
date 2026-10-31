@@ -1,7 +1,7 @@
 ---
 title: GRX Trade
-date: 2023-08-04
-website: https://www.growdex.com/
+date: 2026-10-30
+website: https://www.growdex.com/#deadLink
 redirect_from:
 - /android/com.grxtrade.app/
 android:

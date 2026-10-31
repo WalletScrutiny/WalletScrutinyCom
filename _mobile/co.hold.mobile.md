@@ -1,6 +1,6 @@
 ---
 title: HOLD — Buy Bitcoin & Crypto
-date: 2023-05-10
+date: 2026-10-30
 authors:
 - leo
 website: https://hold.io
@@ -36,6 +36,8 @@ iphone:
   developerName: Hold
 
 ---
+
+**Update 2026-10-30:** The HOLD app is gone from both stores, and hold.io now forwards to [xMoney](https://www.xmoney.com/). HOLD became [part of Utrust](https://holdhq.medium.com/exciting-news-hold-is-now-part-of-utrust-20aa5e6f461a) in 2021, and Utrust has since [renamed itself xMoney](https://www.kucoin.com/announcement/en-kucoin-supports-the-utrust-utk-rebranding-20231118), a payments company that does not offer the HOLD app.
 
 ## Android
 

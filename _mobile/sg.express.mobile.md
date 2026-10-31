@@ -1,9 +1,9 @@
 ---
 title: 'StormGain Express: Digital Currency Marketplace'
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
-website: https://stormgainexpress.com/
+website: https://web.archive.org/web/20220819233533/https://stormgainexpress.com/
 redirect_from:
 - /android/sg.express.mobile/
 android:
@@ -35,7 +35,7 @@ We downloaded and installed the Stormgain Express app on Blue Stacks.
 
 ### The Site
 
-As of the time this review was made, the only legal document pertaining to this service is a [Privacy Policy](https://stormgainexpress.com/privacy-policy.pdf) and a Cookie Policy.
+As of the time this review was made, the only legal document pertaining to this service is a [Privacy Policy](https://web.archive.org/web/20220820001515/https://stormgainexpress.com/privacy-policy.pdf) and a Cookie Policy.
 
 It lists its features:
 

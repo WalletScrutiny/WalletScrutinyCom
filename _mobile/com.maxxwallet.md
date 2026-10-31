@@ -1,9 +1,9 @@
 ---
 title: Bitcoin Wallet - MaxWallet
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - leo
-website: http://bitcoinwalletcoin.com
+website: http://bitcoinwalletcoin.com#deadLink
 redirect_from:
 - /com.maxxwallet/
 - /android/com.maxxwallet/

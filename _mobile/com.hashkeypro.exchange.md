@@ -1,6 +1,6 @@
 ---
 title: HashKey Exchange
-date: 2025-11-18
+date: 2026-10-30
 authors:
 - danny
 website: https://www.hashkey.com/
@@ -56,5 +56,7 @@ As a licensed and regulated virtual asset exchange in Hong Kong, HashKey Exchang
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** This iPhone app is HashKey Global, not HashKey Exchange. HashKey [shut the HashKey Global app down on 2026-09-01](https://help.hashkey.com/hc/zh-cn/articles/29794574548124) and moved its users and their assets into the HashKey Exchange app, which it [relaunched as its single flagship app](https://group.hashkey.com/en/newsroom/hashkey-exchange-launches-new-flagship-crypto-trading-app) in July 2026.
 
 The Android analysis above applies to the iPhone app too.

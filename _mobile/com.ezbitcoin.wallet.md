@@ -1,7 +1,7 @@
 ---
 title: EZ Bitcoin
-date: 2024-04-03
-website: http://cc-communications.net/
+date: 2026-10-30
+website: http://cc-communications.net/#deadLink
 redirect_from:
 - /android/com.ezbitcoin.wallet/
 android:

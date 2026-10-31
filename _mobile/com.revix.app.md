@@ -1,6 +1,6 @@
 ---
 title: Altify - Invest in Alts
-date: 2023-07-09
+date: 2026-10-30
 authors:
 - danny
 website: https://altify.app
@@ -45,6 +45,8 @@ iphone:
 
 ---
 
+**Update 2026-10-30:** Revix [merged with Coinpanion and BitFund](https://www.altify.app/revix) and the app is now called Altify; the old Revix terms link now leads to that merger page, so we link an archived copy below. Altify's [Terms](https://www.altify.app/legal/terms) and [website](https://www.altify.app/) describe crypto custody with Fireblocks, so the app stays {% include verdictBadge.html verdict="custodial" type='short' %}.
+
 ## Android
 
 ## App Description from Google Play
@@ -64,7 +66,7 @@ iphone:
 
 ## Analysis
 
-As the description and [Terms](https://revix.com/legal/terms-of-service) state, this is a **custodial** provider.
+As the description and [Terms](https://web.archive.org/web/20230628174144/https://revix.com/legal/terms-of-service) state, this is a **custodial** provider.
 
 ---
 

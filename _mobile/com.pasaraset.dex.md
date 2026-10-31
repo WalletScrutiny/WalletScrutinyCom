@@ -1,7 +1,7 @@
 ---
 title: Pasaraset Exchange
-date: 2024-04-03
-website: https://pasaraset.com
+date: 2026-10-30
+website: https://pasaraset.com#deadLink
 redirect_from:
 - /android/com.pasaraset.dex/
 android:

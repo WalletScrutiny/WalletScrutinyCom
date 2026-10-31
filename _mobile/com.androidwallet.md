@@ -1,9 +1,9 @@
 ---
 title: dCipher Crypto Wallet
-date: 2024-04-26
+date: 2026-10-30
 authors:
 - danny
-website: https://www.dcipher.io
+website: https://www.dcipher.io#deadLink
 twitter: dCipher_io
 redirect_from:
 - /android/com.androidwallet/

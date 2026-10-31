@@ -1,6 +1,6 @@
 ---
 title: 'Coinbase Pro: Trade BTC, ETH'
-date: 2023-11-02
+date: 2026-10-30
 authors:
 - leo
 website: http://pro.coinbase.com/
@@ -36,6 +36,12 @@ iphone:
   developerName: Coinbase, Inc.
 
 ---
+
+**Update 2026-10-30:** Coinbase shut Coinbase Pro down in late 2023 and moved its users and their
+balances to Advanced Trade inside the main Coinbase app
+([Coinbase blog](https://www.coinbase.com/blog/hello-advanced-trade-goodbye-coinbase-pro)). The Pro apps are gone
+from both stores. For the successor see
+{% include walletLink.html wallet='android/com.coinbase.android' verdict='true' %}.
 
 ## Android
 

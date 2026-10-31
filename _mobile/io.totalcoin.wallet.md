@@ -1,6 +1,6 @@
 ---
 title: Totalcoin - Buy & Sell Bitcoin
-date: 2021-05-24
+date: 2026-10-30
 authors:
 - leo
 website: http://totalcoin.io
@@ -50,6 +50,8 @@ As such it is **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** Contrary to the 2022 note below, the app is still listed in the Indian App Store, but its last update was on 2023-03-11.
 
 **Update 2022-04-14**: This app is not available anymore.
 

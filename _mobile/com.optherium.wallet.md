@@ -1,14 +1,14 @@
 ---
 title: VivexPay
-date: 2023-05-31
+date: 2026-10-30
 authors:
 - danny
-website: https://vivuspay.io
+website: https://vivuspay.io#deadLink
 twitter: optherium
 social:
 - https://optherium.com
 - https://www.youtube.com/c/OptheriumLabs
-- https://t.me/optherium_club
+- https://t.me/optherium_club#deadLink
 redirect_from:
 - /android/com.optherium.wallet/
 android:
@@ -24,6 +24,8 @@ android:
   developerName: Optherium Labs
 
 ---
+
+**Update 2026-10-30:** [optherium.com](https://optherium.com) now forwards to [Omniwire](https://omniwire.com/), a US payments company from the same group (its [brand manual](https://assetseco.optherium.com/external/Omniwire_BrandManual_2024.pdf) is hosted by Optherium), which does not offer this wallet. The old listed website vivuspay.io now leads to an unrelated gambling site.
 
 ## App Description from Google Play
 

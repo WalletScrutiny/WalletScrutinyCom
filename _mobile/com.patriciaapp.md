@@ -1,9 +1,9 @@
 ---
 title: Patricia
-date: 2023-09-28
+date: 2026-10-30
 authors:
 - danny
-website: https://mypatricia.co
+website: https://mypatricia.co#deadLink
 twitter: PatriciaSwitch
 social:
 - https://www.facebook.com/patricia.com.ng
@@ -38,6 +38,8 @@ iphone:
   developerName: Patricia Technologies UAB
 
 ---
+
+**Update 2026-10-30:** After a hack in May 2023, Patricia froze withdrawals and in August 2023 converted customers' bitcoin, naira and dollar balances into its own Patricia Token, which cannot be withdrawn ([Mariblock](https://www.mariblock.com/stories/patricia-fails-to-meet-repayment-deadline), [Techpoint Africa](https://techpoint.africa/insight/patricia-customer-fund-crisis/)). Repayments started in stages in December 2024 and were still ongoing in 2026 ([The Nxt Box](https://www.thenxtbox.com/news/patricia-technologies-built-africa%E2%80%99s-crypto-payment-system-but-a-security-breach-reshaped-its-growth)). The website mypatricia.co has not loaded since at least January 2026.
 
 ## Android
 

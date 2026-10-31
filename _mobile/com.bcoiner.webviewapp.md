@@ -1,6 +1,6 @@
 ---
 title: Bcoiner - Free Bitcoin Wallet
-date: 2021-06-23
+date: 2026-10-30
 website: https://bcoiner.com
 redirect_from:
 - /bcoiner/
@@ -19,6 +19,8 @@ android:
   verdict: nosource
 
 ---
+
+**Update 2026-10-30:** The domain [bcoiner.com](https://www.bcoiner.com/) now shows a new landing page that claims a "self-custody wallet" and 78 million users, but names no company and offers no app or source code.
 
 **Update 2021-06-24**: This app is back on Google Play but given the app is the
 one app we got most support requests about, from people that believe it's a

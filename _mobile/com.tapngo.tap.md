@@ -1,6 +1,6 @@
 ---
 title: "Tap - Mobile Finance\_"
-date: 2021-09-11
+date: 2026-10-30
 authors:
 - danny
 website: https://www.withtap.com
@@ -43,7 +43,7 @@ iphone:
 
 This country specific app is not available in some jurisdictions so we were not able to download the app. 
 
-We have to rely on the [Terms and Conditions](https://www.tap.global/terms-and-conditions#deadLink) page to be able to ascertain the nature of this service.
+We have to rely on the [Terms and Conditions](https://terms.withtap.com/terms/generally_applicable_terms/GB) page to be able to ascertain the nature of this service.
 
 Under Section 3.4 of the Terms and Conditions page:
 

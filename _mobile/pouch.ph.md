@@ -1,9 +1,9 @@
 ---
 title: POUCH - Buy & Sell Bitcoin
-date: 2022-06-22
+date: 2026-10-30
 authors:
 - danny
-website: https://pouch.ph
+website: https://pouchph.com
 features:
 - ln
 redirect_from:

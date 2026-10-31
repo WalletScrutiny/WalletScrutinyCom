@@ -1,6 +1,6 @@
 ---
 title: Zaif‐ビットコイン取引・購入なら暗号資産交換所Zaif
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: https://zaif.jp
@@ -34,6 +34,8 @@ iphone:
   developerName: FCCE
 
 ---
+
+**Update 2026-10-30:** Zaif replaced this app with a new one from Zaif Inc., `jp.zaif.zaifapp` on Android and iPhone, which [zaif.jp](https://zaif.jp) now links to. We have not reviewed the new app yet.
 
 ## Android
 

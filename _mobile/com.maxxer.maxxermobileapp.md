@@ -1,7 +1,7 @@
 ---
 title: maxxer
-date: 2024-04-19
-website: https://www.maxxer.com
+date: 2026-10-30
+website: https://www.maxxer.com#deadLink
 redirect_from:
 - /android/com.maxxer.maxxermobileapp/
 android:

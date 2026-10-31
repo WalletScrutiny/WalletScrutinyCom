@@ -1,7 +1,7 @@
 ---
 title: Skywallet
-date: 2022-05-31
-website: https://skywallet.net
+date: 2026-10-30
+website: https://skywallet.net#deadLink
 redirect_from:
 - /android/skywallet.net/
 android:

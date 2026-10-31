@@ -1,6 +1,6 @@
 ---
 title: ByteX - Trade, Borrow & Earn
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - danny
 website: https://bytex.io/
@@ -39,6 +39,8 @@ iphone:
   developerName: ByteX Financial LTD.
 
 ---
+
+**Update 2026-10-30:** ByteX dropped the zero-collateral loans described below. Both apps are now called "ByteX OTC: Buy & Sell Crypto" and describe a trading desk for crypto-fiat pairs, and [bytex.io](https://bytex.io/) now offers payments and liquidity services to businesses. It is still a trading account run by ByteX, so it stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## Android
 

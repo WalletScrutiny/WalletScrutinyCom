@@ -1,7 +1,7 @@
 ---
 title: Elquirex
-date: 2024-04-19
-website: https://elquirex.net/
+date: 2026-10-30
+website: https://elquirex.net/#deadLink
 redirect_from:
 - /android/net.elquirex.elquirexapplication/
 android:

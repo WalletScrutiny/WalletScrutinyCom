@@ -1,7 +1,7 @@
 ---
 title: TTNEX
-date: 2023-12-19
-website: https://ttnex.io
+date: 2026-10-30
+website: https://ttnex.io#deadLink
 redirect_from:
 - /android/com.ttnex.exchange/
 android:

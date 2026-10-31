@@ -1,6 +1,6 @@
 ---
 title: 'Swan Bitcoin: Buy & Save'
-date: 2023-07-17
+date: 2026-10-30
 authors:
 - danny
 website: https://www.swanbitcoin.com
@@ -40,6 +40,8 @@ iphone:
   developerName: Swan Bitcoin
 
 ---
+
+**Update 2026-10-30:** Swan's [security page](https://www.swanbitcoin.com/security/) no longer names Fortress; Bitcoin is now held with a regulated custodian that depends on the account type and location. Swan also offers Swan Vault, a 2-of-3 multisig with the user's own hardware keys, but bitcoin bought in the app sits with the custodian until withdrawn, so the app stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## Android
 

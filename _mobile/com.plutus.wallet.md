@@ -1,6 +1,6 @@
 ---
 title: 'Abra: Buy & Trade BTC & Crypto'
-date: 2026-01-08
+date: 2026-10-30
 authors:
 - leo
 website: https://www.abra.com/
@@ -39,6 +39,8 @@ iphone:
   developerName: Plutus Financial
 
 ---
+
+**Update 2026-10-30:** Abra now sells wealth management to institutions and private clients, and its [website](https://www.abra.com/) links to a new iPhone app by the same company, "Abra Financial", instead of this one.
 
 ## Android
 

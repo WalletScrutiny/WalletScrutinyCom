@@ -1,6 +1,6 @@
 ---
 title: ByteHub
-date: 2023-09-15
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bytetrade.io/
@@ -35,6 +35,8 @@ iphone:
   developerName: BYTETRADE(HK) LIMITED
 
 ---
+
+**Update 2026-10-30:** ByteTrade no longer offers a wallet. bytetrade.io now forwards to [ByteTrade Lab](https://www.bytetradelab.io/), which builds AI infrastructure (Olares) and does not mention ByteHub or the BTON chain, and byte-trade.com no longer loads.
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: ProfitTradingApp For Binance
-date: 2021-09-20
+date: 2026-10-30
 authors:
 - danny
 website: https://profittradingapp.com?utm_source=binance_gp
@@ -23,6 +23,10 @@ android:
   developerName: ProfitTradingApp
 
 ---
+
+**Update 2026-10-30:** The "stale" note below is outdated: the app was updated in July 2026. The current store description says
+the API keys "are encrypted and securely stored locally on your device and are
+never transmitted to our servers", but the app is closed source, so we cannot check this.
 
 The provider [ProfitTradingApp](https://play.google.com/store/apps/dev?id=6470884744111312194) features a list of apps:
 

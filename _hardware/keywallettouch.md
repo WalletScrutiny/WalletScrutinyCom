@@ -15,7 +15,7 @@ dimensions:
 - 0.8
 weight: 5.4
 provider: 
-providerWebsite: http://www.keywallet.co.kr
+providerWebsite: http://www.keywallet.co.kr#deadLink
 website: 
 shop: 
 country: 
@@ -25,7 +25,7 @@ icon: keywallettouch.webp
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2023-02-07
+date: 2026-10-30
 signer: 
 twitter: keywallet
 social:
@@ -39,6 +39,8 @@ features:
 
 ---
 
+**Update 2026-10-30:** The KeyWallet website now shows a blank page. The companion app is still updated (latest release July 2026), so the card can still be used.
+
 ## Companion Apps
 
 Here are our reviews of {{ page.title }}'s companion apps.
@@ -49,7 +51,7 @@ Here are our reviews of {{ page.title }}'s companion apps.
 
 ## Analysis 
 
-According to the [site's technical specifications](http://www.keywallet.co.kr), this product is CC EAL 5+ and FIDO certified. It resembles a credit card in appearance and is meant to connect with an external device with NFC.
+According to the [site's technical specifications](http://www.keywallet.co.kr#deadLink), this product is CC EAL 5+ and FIDO certified. It resembles a credit card in appearance and is meant to connect with an external device with NFC.
 
 As shown in [this video](https://youtu.be/0ePgzZmz9ws?t=22), the companion app is responsible for making transactions but it depends on the card to sign them. The card signs whatever the non-verifiable companion app asks to sign.
 

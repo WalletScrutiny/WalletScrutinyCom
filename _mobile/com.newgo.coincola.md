@@ -1,6 +1,6 @@
 ---
 title: CoinCola - P2P Buy & Sell BTC
-date: 2020-12-03
+date: 2026-10-30
 authors:
 - leo
 website: https://www.coincola.com
@@ -49,6 +49,8 @@ is **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** CoinCola's [website](https://www.coincola.com/) now links to a different iPhone app, "CoinCola Pro", which we have not reviewed yet.
 
 > SAFE AND SECURE<br>
   Our team uses bank-level encryption, cold storage and SSL for the highest

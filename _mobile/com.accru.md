@@ -1,6 +1,6 @@
 ---
 title: AQRU
-date: 2024-11-07
+date: 2026-10-30
 authors:
 - danny
 website: https://aqru.io/
@@ -36,6 +36,8 @@ iphone:
   developerName: Accru Finance
 
 ---
+
+**Update 2026-10-30:** The AQRU website now forwards to [Mosaic](https://www.mosaic.ky/), a Cayman Islands corporate-finance platform that does not mention AQRU or this app; the last archived [AQRU homepage](https://web.archive.org/web/20260521172015/https://aqru.io/) is from May 2026. AQRU had already limited the app to accounts of at least US$250,000 and offboarded smaller customers in February 2023 ([announcement](https://www.aquis.eu/stock-exchange/announcements/3924210)).
 
 ## Android
 

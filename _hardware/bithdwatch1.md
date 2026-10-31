@@ -6,7 +6,7 @@ authors:
 - danny
 - leo
 released: 2017-12-30
-discontinued: 
+discontinued: 2021-12-11
 updated: 2021-12-14
 version: v4.1.8
 binaries: https://github.com/bithd/bithd-mcu/releases/
@@ -26,7 +26,7 @@ icon: bithdwatch1.webp
 bugbounty: 
 meta: discontinued
 verdict: sourceavailable
-date: 2022-04-18
+date: 2026-10-30
 signer: 
 twitter: 
 social: 

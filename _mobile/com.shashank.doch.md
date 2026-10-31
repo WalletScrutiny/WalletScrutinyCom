@@ -1,9 +1,9 @@
 ---
 title: DOCH
-date: 2023-06-02
+date: 2026-10-30
 authors:
 - danny
-website: https://dochcoin.com/
+website: https://dochcoin.com/#deadLink
 redirect_from:
 - /android/com.shashank.doch/
 android:
@@ -18,6 +18,8 @@ android:
   developerName: DOCH LLC
 
 ---
+
+**Update 2026-10-30:** The domain dochcoin.com now shows an unrelated crypto news blog with no wallet or app.
 
 ## App Description from Google Play 
 

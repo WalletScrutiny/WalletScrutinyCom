@@ -1,6 +1,6 @@
 ---
 title: SparkPoint Crypto Wallet
-date: 2024-08-31
+date: 2026-10-30
 authors:
 - leo
 - emanuel
@@ -39,6 +39,8 @@ iphone:
   developerName: SparkPoint Technologies, Inc.
 
 ---
+
+**Update 2026-10-30:** SparkPoint's website now promotes Sparky, an AI investing assistant, and no longer mentions the wallet app [(website)](https://sparkpoint.io/).
 
 ## Android
 

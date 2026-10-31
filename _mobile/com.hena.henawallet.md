@@ -1,7 +1,7 @@
 ---
 title: HENA WALLET
-date: 2024-09-03
-website: http://www.hena.io
+date: 2026-10-30
+website: https://web.archive.org/web/20200608141119/http://hena.io/
 redirect_from:
 - /android/com.hena.henawallet/
 android:

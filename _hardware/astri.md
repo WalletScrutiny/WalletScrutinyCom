@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Hong Kong Applied Science and Technology Research Institute
 providerWebsite: https://www.astri.org
-website: https://www.astri.org/tdprojects/communication/
+website: https://web.archive.org/web/20240527024351/https://www.astri.org/tdprojects/communication/
 shop: 
 country: HK
 price: 
@@ -21,7 +21,7 @@ icon:
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-11
+date: 2026-10-30
 signer: 
 twitter: 
 social:
@@ -34,7 +34,7 @@ features:
 
 ## Product Description 
 
-From [ASTRI's website](https://www.astri.org/tdprojects/communication/):
+From [ASTRI's website](https://web.archive.org/web/20240527024351/https://www.astri.org/tdprojects/communication/):
 
 > The group has developed a mobile crypto-currency hardware wallet for storing private keys and signing transactions within the device. Special algorithms are developed to prevent malicious attacks and allow keys recovery if the wallet is lost.
 

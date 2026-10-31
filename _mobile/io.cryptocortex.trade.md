@@ -1,7 +1,7 @@
 ---
 title: CryptoCortex
-date: 2024-04-19
-website: https://cryptocortex.io/
+date: 2026-10-30
+website: https://cryptocortex.io/#deadLink
 redirect_from:
 - /android/io.cryptocortex.trade/
 android:

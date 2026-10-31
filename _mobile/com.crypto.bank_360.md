@@ -1,7 +1,7 @@
 ---
 title: CryptoCash360
-date: 2023-12-19
-website: https://cryptocash-360.com
+date: 2026-10-30
+website: https://cryptocash-360.com#deadLink
 redirect_from:
 - /android/com.crypto.bank_360/
 android:

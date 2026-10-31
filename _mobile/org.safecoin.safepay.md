@@ -1,9 +1,9 @@
 ---
 title: SafePay
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
-website: https://safepay.safecoin.org
+website: https://safepay.safecoin.org#deadLink
 twitter: safecoin
 social:
 - https://www.facebook.com/safecoins/

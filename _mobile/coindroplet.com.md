@@ -1,7 +1,7 @@
 ---
 title: 'Coin Droplet: BTC & ETH Wallet'
-date: 2024-11-25
-website: https://www.coindroplet.com
+date: 2026-10-30
+website: https://www.coindroplet.com#deadLink
 redirect_from:
 - /android/coindroplet.com/
 android:

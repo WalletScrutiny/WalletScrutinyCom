@@ -1,9 +1,9 @@
 ---
 title: Neo Trade
-date: 2023-06-10
+date: 2026-10-30
 authors:
 - danny
-website: http://neo-forex.com/
+website: http://neo-forex.com/#deadLink
 redirect_from:
 - /android/com.world.bestinfo/
 android:

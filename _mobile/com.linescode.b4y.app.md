@@ -1,7 +1,7 @@
 ---
 title: Bank4YOU
-date: 2023-01-02
-website: https://www.bank4you.life
+date: 2026-10-30
+website: https://www.bank4you.life#deadLink
 redirect_from:
 - /android/com.linescode.b4y.app/
 android:

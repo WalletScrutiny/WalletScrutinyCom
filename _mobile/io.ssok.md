@@ -1,7 +1,7 @@
 ---
 title: SSOK WALLET (쏙 월렛)
-date: 2023-12-19
-website: http://ssok.info/
+date: 2026-10-30
+website: http://ssok.info/#deadLink
 redirect_from:
 - /android/io.ssok/
 android:

@@ -1,9 +1,9 @@
 ---
 title: 'Zabira: Buy BTC, ETH & Crypto'
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
-website: https://www.zabira.ng
+website: https://www.zabira.com
 twitter: thezabira
 social:
 - https://www.facebook.com/thezabira
@@ -37,6 +37,8 @@ iphone:
   developerName: Zabira Technologies
 
 ---
+
+**Update 2026-10-30:** This app is gone from both stores. Zabira moved its website to [zabira.com](https://www.zabira.com/), and offers a new app there, "Zabira: Buy Crypto & Gift Card" (`dev.app.grizab.ng`, released 2024). We have not reviewed the new app yet.
 
 ## Android
 

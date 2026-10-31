@@ -1,7 +1,7 @@
 ---
 title: BackPacker
-date: 2024-07-05
-website: https://wallet.backpackercoin.com/
+date: 2026-10-30
+website: https://wallet.backpackercoin.com/#deadLink
 redirect_from:
 - /android/com.wallet.backpacker/
 android:

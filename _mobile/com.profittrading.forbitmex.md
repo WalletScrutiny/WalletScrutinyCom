@@ -1,6 +1,6 @@
 ---
 title: ProfitTradingApp for BitMEX
-date: 2024-09-13
+date: 2026-10-30
 authors:
 - danny
 website: https://profittradingapp.com?utm_source=bitmex_gp
@@ -23,6 +23,8 @@ android:
   developerName: ProfitTradingApp
 
 ---
+
+**Update 2026-10-30:** BitMEX, the only exchange this app works with, [stopped trading and deposits on 2026-09-23](https://www.coindesk.com/business/2026/09/23/bitmex-shuts-down-trading-after-11-years-leaves-withdrawals-open). Users can still log in on the BitMEX website to withdraw, but this app can no longer trade there.
 
 The provider [ProfitTradingApp](https://play.google.com/store/apps/dev?id=6470884744111312194) features a list of apps:
 

@@ -1,7 +1,7 @@
 ---
 title: LinkDaDa
-date: 2023-01-02
-website: https://www.linkdada.com/
+date: 2026-10-30
+website: https://www.linkdada.com/#deadLink
 redirect_from:
 - /android/com.linkdada.application/
 android:

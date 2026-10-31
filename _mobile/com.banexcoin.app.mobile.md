@@ -1,6 +1,6 @@
 ---
 title: Banexcoin
-date: 2023-08-04
+date: 2026-10-30
 authors:
 - danny
 website: https://banexcoin.com
@@ -25,7 +25,7 @@ android:
 iphone:
   appId: com.banexcoin.app.mobile
   idd: '1583296115'
-  appCountry: us
+  appCountry: pe
   released: 2022-02-15
   updated: 2022-10-18
   version: 1.1.103

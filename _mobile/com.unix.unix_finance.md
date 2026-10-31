@@ -1,7 +1,7 @@
 ---
 title: Unix finance
-date: 2024-04-19
-website: https://unix.finance
+date: 2026-10-30
+website: https://unix.finance#deadLink
 redirect_from:
 - /android/com.unix.unix_finance/
 android:

@@ -1,7 +1,7 @@
 ---
 title: Phoenix - LN Bitcoin wallet
 bitcoinOrgId: phoenix
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -46,7 +46,7 @@ iphone:
   meta: ok
   verdict: sourceavailable
   developerName: ACINQ
-  repository: https://github.com/ACINQ/phoenix-kmm
+  repository: https://github.com/ACINQ/phoenix
 
 ---
 
@@ -63,6 +63,8 @@ An issue has been opened at [https://github.com/ACINQ/phoenix/issues/112](https:
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone code moved into the main [Phoenix repository](https://github.com/ACINQ/phoenix) (folder `phoenix-ios`); the old [phoenix-kmm repository](https://github.com/ACINQ/phoenix-kmm) is archived, so we now link the main one.
 
 {% include featureEvidence.html feature="foss" source="[App Store](https://apps.apple.com/app/co.acinq.phoenix)" quote="Phoenix is a non-custodial wallet, and is fully open source." %}
 

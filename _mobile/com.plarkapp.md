@@ -1,7 +1,7 @@
 ---
 title: Plark
-date: 2024-04-19
-website: https://plark.io
+date: 2026-10-30
+website: https://plark.io#deadLink
 redirect_from:
 - /android/com.plarkapp/
 android:

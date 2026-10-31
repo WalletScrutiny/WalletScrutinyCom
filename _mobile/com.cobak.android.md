@@ -1,6 +1,6 @@
 ---
 title: Cobak - Crypto Community App
-date: 2025-03-29
+date: 2026-10-30
 authors:
 - danny
 website: https://cobak.co.kr/
@@ -35,6 +35,8 @@ iphone:
   developerName: COBAK CO., LTD.
 
 ---
+
+**Update 2026-10-30:** Cobak replaced this app with a new app of the same name from the same company (see [cobak.co.kr](https://cobak.co.kr/)). According to its store description, the new app's built-in wallet supports only Ethereum and Polygon.
 
 ## Android
 

@@ -1,7 +1,7 @@
 ---
 title: BCP24
-date: 2024-05-07
-website: http://ex.bcp24.io
+date: 2026-10-30
+website: http://ex.bcp24.io#deadLink
 redirect_from:
 - /android/webApp.exchange.bcp24/
 android:

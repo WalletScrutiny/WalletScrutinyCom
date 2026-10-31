@@ -1,9 +1,9 @@
 ---
 title: Dollar Buy Sell
-date: 2026-02-02
+date: 2026-10-30
 authors:
 - danny
-website: http://www.echangerbd.com/
+website: https://web.archive.org/web/20200811105037/http://www.echangerbd.com/
 redirect_from:
 - /android/www.echangerbd.com/
 android:

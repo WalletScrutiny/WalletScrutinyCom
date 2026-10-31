@@ -1,6 +1,6 @@
 ---
 title: ATX - Buy Bitcoin Securely
-date: 2023-02-13
+date: 2026-10-30
 authors:
 - danny
 website: https://atx.com.vn/
@@ -36,6 +36,6 @@ We were able to locate the BTC wallet. However,
 there were no options to backup the seed. Seed creation was also not initiated 
 when the app was opened. Other cryptocurrencies are also present. Users can buy or sell cryptocurrencies on the platform. 
 
-It was also possible to [deposit/withdraw](https://attlas.io/en/support/articles?categoryId=10958159737497&articleId=11346887512345) via the wallets platform.
+It was also possible to [deposit/withdraw](https://attlas.io/en/support/articles?categoryId=10958159737497&articleId=11346887512345#deadLink) via the wallets platform.
 
 This app is **custodial**.

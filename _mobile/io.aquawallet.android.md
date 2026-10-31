@@ -1,10 +1,10 @@
 ---
 title: AQUA Wallet
-date: 2024-01-05
+date: 2026-10-30
 authors:
 - danny
 - keraliss
-website: https://aquawallet.io
+website: https://aqua.net
 twitter: AquaBitcoin
 social:
 - https://www.instagram.com/aquabitcoin

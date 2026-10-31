@@ -1,9 +1,9 @@
 ---
 title: اشري بيع و شراء العملات الالكت
-date: 2023-05-23
+date: 2026-10-30
 authors:
 - danny
-website: https://algeriahost.com
+website: https://algeriahost.com#deadLink
 redirect_from:
 - /android/com.echri.dz/
 android:

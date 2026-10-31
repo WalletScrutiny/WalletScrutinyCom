@@ -1,6 +1,6 @@
 ---
 title: Yb mobile client
-date: 2025-05-14
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -19,7 +19,7 @@ android:
 
 ---
 
-Yobit.net is already a [controversial cryptocurrency exchange](https://cointelegraph.com/news/crypto-exchange-yobit-starts-pump-scheme-on-random-coins) known for advertising pump and dumps. It has a TrustPilot rating of [1.5 stars](https://www.trustpilot.com/review/yobit.net).
+Yobit.net is already a [controversial cryptocurrency exchange](https://web.archive.org/web/20231206011243/https://cointelegraph.com/news/crypto-exchange-yobit-starts-pump-scheme-on-random-coins) known for advertising pump and dumps. It has a TrustPilot rating of [1.5 stars](https://www.trustpilot.com/review/yobit.net).
 
 We inquired with YoBit.net's presumed twitter account to ask about the url of their [official app](https://twitter.com/BitcoinWalletz/status/1644533209693319173). 
 

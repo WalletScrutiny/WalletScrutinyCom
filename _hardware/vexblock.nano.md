@@ -21,7 +21,7 @@ icon: vexblock.nano.webp
 bugbounty: 
 meta: defunct
 verdict: noita
-date: 2022-05-19
+date: 2026-10-30
 signer: 
 twitter: Vexblock
 social:
@@ -33,15 +33,17 @@ features:
 
 **⚠️ Warning:** This project has been described as a scam online. It has an associated token (VBO).
 
+**Update 2026-10-30:** The related Android app is no longer on Google Play ([last archived store page, August 2022](https://web.archive.org/web/20220819165428/https://play.google.com/store/apps/details?id=co.vexblock.android)).
+
 ## Product Description
 
 This wallet has the form factor of a USB EMV card. It has a similar appearance with {% include walletLink.html wallet='hardware/bitfreezer' verdict='true' %}. 
 
-It has a related [Android app](https://play.google.com/store/apps/details?id=co.vexblock.android) that is still available via Google Play, although we don't know if it is a companion app to the hardware wallet. 
+It has a related Android app, {% include walletLink.html wallet='android/co.vexblock.android' verdict='true' %}, that was still available via Google Play at the time, although we don't know if it is a companion app to the hardware wallet. 
 
 One of the reviews for the mobile app is this: 
 
-> [Johnny Begood](https://play.google.com/store/apps/details?id=co.vexblock.android&hl=en&gl=US&reviewId=gp%3AAOqpTOFGjWVYzxJQW_QaTYrDtRzoTr-GqfrGFkWDfOSYuLRolenfg9vPhil-nR2jx8gTmBwecXoiAD9KVdo_p4k)<br>
+> [Johnny Begood](https://web.archive.org/web/20220819165428/https://play.google.com/store/apps/details?id=co.vexblock.android)<br>
   ★☆☆☆☆ October 8, 2019 <br>
        Scam App. Avoid at all costs. Transactions are not recorded on the Blockchain! Huge red flag. Plus you don't get the private keys. Remember not your keys = not your crypto. Fair better and safer apps out there. Use this at your peril!
 

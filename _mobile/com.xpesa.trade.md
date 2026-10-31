@@ -1,9 +1,9 @@
 ---
 title: Xpesa
-date: 2023-06-11
+date: 2026-10-30
 authors:
 - danny
-website: https://xpesa.io/
+website: https://xpesa.io/#deadLink
 redirect_from:
 - /android/com.xpesa.trade/
 android:

@@ -1,7 +1,7 @@
 ---
 title: Tanga
-date: 2024-07-05
-website: https://tanga.uz/
+date: 2026-10-30
+website: https://tanga.uz/#deadLink
 redirect_from:
 - /android/uz.tanga.app/
 android:

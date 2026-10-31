@@ -1,6 +1,6 @@
 ---
 title: Tweetoshi - Twitter & Bitcoin
-date: 2026-01-14
+date: 2026-10-30
 website: https://tweetoshi.com
 redirect_from:
 - /android/com.tweetoshi.client/
@@ -18,4 +18,6 @@ android:
   developerName: Tweetoshi
 
 ---
+
+**Update 2026-10-30:** The team behind Tweetoshi moved on to Openvibe, a social app for Mastodon, Bluesky and Nostr, and tweetoshi.com now forwards to the Openvibe website ([TechCrunch](https://techcrunch.com/2024/07/09/openvibe-combines-mastodon-bluesky-and-nostr-into-one-social-app)). Tweetoshi itself was last updated in February 2023.
 

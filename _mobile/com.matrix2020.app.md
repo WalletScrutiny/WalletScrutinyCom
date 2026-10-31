@@ -1,7 +1,7 @@
 ---
 title: Matrix Exchange
-date: 2023-08-25
-website: https://matrix2020.com
+date: 2026-10-30
+website: https://matrix2020.com#deadLink
 redirect_from:
 - /android/com.matrix2020.app/
 android:

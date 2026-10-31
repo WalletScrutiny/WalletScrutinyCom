@@ -1,9 +1,9 @@
 ---
 title: 'BRICS Pay Wallet: Crypto&DeFi'
-date: 2026-03-05
+date: 2026-10-30
 authors:
 - danny
-website: https://www.brics-pay.com/BRICS-Pay-Retail
+website: https://www.brics-pay.com/BRICS-Pay-Wallet.html
 redirect_from:
 - /android/com.brics/
 - /iphone/com.bricspay/

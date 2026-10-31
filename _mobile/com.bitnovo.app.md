@@ -1,6 +1,6 @@
 ---
 title: Bitnovo - Crypto Wallet
-date: 2022-02-10
+date: 2026-10-30
 authors:
 - leo
 website: http://www.bitnovo.com
@@ -33,6 +33,8 @@ iphone:
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** Bitnovo now offers a [self-custodial "Bitnovo Wallet"](https://www.bitnovo.com/wallet), the apps {% include walletLink.html wallet='android/com.bitnovo.Wallet' verdict='true' %} and {% include walletLink.html wallet='iphone/com.bitnovo.Wallet' verdict='true' %}, which we review separately.
 
 ## Android
 

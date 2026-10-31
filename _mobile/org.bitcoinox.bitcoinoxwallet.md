@@ -1,6 +1,6 @@
 ---
 title: Bitcoin OX Crypto Wallet
-date: 2025-12-18
+date: 2026-10-30
 authors:
 - leo
 website: https://bitcoinox.com
@@ -25,6 +25,8 @@ android:
   developerName: GNUAPP UNIPESSOAL LDA
 
 ---
+
+**Update 2026-10-30:** The website bitcoinox.com no longer describes this wallet. It still showed the Bitcoin OX wallet [in June 2026](https://web.archive.org/web/20260612105347/https://bitcoinox.com/), but [now](https://web.archive.org/web/20261012033209/https://bitcoinox.com/) belongs to BITCOINOX PAYMENTS LTD., a software development company that says it does not offer crypto custody.
 
 > Safety
 > 

@@ -1,6 +1,6 @@
 ---
 title: Indodax Crypto Simple & Secure
-date: 2021-05-31
+date: 2026-10-30
 authors:
 - leo
 website: http://indodax.com
@@ -23,6 +23,7 @@ android:
 iphone:
   appId: id.co.bitcoin.Bitcoin-Trading-Platform
   idd: 1349104693
+  appCountry: id
   released: 2018-03-29
   updated: 2022-06-29
   version: 3.3.6

@@ -1,6 +1,6 @@
 ---
 title: Quidax - Buy Bitcoin & Crypto
-date: 2025-08-09
+date: 2026-10-30
 authors:
 - danny
 website: https://quidax.io
@@ -36,6 +36,8 @@ iphone:
   developerName: Quidax Technologies
 
 ---
+
+**Update 2026-10-30:** This app is gone from both stores. Quidax now offers {% include walletLink.html wallet='android/io.quidax.app' verdict='true' %} and {% include walletLink.html wallet='iphone/io.quidax.pro' verdict='true' %} instead.
 
 ## Android
 

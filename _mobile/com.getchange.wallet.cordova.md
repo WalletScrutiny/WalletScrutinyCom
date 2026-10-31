@@ -1,6 +1,6 @@
 ---
 title: 'Change: Invest & Trade'
-date: 2020-05-29
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -66,5 +66,7 @@ which means it is a custodial service and thus **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The app is back in the Dutch App Store, with version 30.68.3 from 2026-10-29.
 
 The Android analysis above applies to the iPhone app too.

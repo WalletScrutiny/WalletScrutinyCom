@@ -1,6 +1,6 @@
 ---
 title: MAX Exchange - Buy Bitcoin
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - danny
 website: https://max.maicoin.com
@@ -26,6 +26,7 @@ android:
 iphone:
   appId: com.maicoin.max
   idd: 1370837255
+  appCountry: tw
   released: 2018-07-04
   updated: 2022-10-26
   version: 7.0.0

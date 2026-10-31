@@ -1,7 +1,7 @@
 ---
 title: DentroPay
-date: 2024-02-05
-website: https://dentrocoin.com
+date: 2026-10-30
+website: https://web.archive.org/web/20230203162238/https://www.dentrocoin.com/
 redirect_from:
 - /android/xyz.appmaker.mevpis/
 android:

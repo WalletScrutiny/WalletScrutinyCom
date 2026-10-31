@@ -1,7 +1,7 @@
 ---
 title: Billetera Fibanca
-date: 2024-02-05
-website: https://fibanca.com
+date: 2026-10-30
+website: https://fibanca.com#deadLink
 redirect_from:
 - /android/ve.com.fibanca.walletweb/
 android:

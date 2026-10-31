@@ -1,9 +1,9 @@
 ---
 title: LynKey
-date: 2025-02-28
+date: 2026-10-30
 authors:
 - danny
-website: https://lynkey.com/
+website: https://lynkey.com/#deadLink
 twitter: LynKey_
 social:
 - https://www.facebook.com/Lynkeytoken
@@ -11,7 +11,7 @@ social:
 - https://www.youtube.com/channel/UCH1a6zb0lnkt69rMLFdN4zg
 - https://www.instagram.com/lynkey__
 - https://t.me/LynKeychat
-- https://lynkey.com
+- https://lynkey.com#deadLink
 redirect_from:
 - /android/vn.beedu.blockchain/
 - /iphone/vn.beedu.blockchain/

@@ -21,7 +21,7 @@ icon: noID.cards.webp
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2024-01-05
+date: 2026-10-30
 signer: 
 twitter: noidcards
 social:
@@ -32,6 +32,8 @@ features:
 - nfc
 
 ---
+
+**Update 2026-10-30:** The noID.cards companion app has been gone from Google Play since April 2024, although the [noID.cards website](https://noid.cards/) still sells the card and still tells buyers to manage it with that app. Per the same FAQ, the card also works with other Bolt Card setups such as LNbits after a reset.
 
 We have reviewed this product's companion app: {% include walletLink.html wallet='android/com.noid.cards' verdict='true' %}
 

@@ -1,6 +1,6 @@
 ---
 title: Oasis Exchange - Digital Asset BTC ETH Trading
-date: 2023-01-02
+date: 2026-10-30
 website: https://oasisexc.com/
 redirect_from:
 - /android/com.oasisexc.app/
@@ -16,3 +16,4 @@ android:
 
 ---
 
+**Update 2026-10-30:** Oasis Exchange still runs and its [website](https://oasisexc.com/) now links to a new app, "오아시스 거래소" by GuardianHoldings (Oasis-exc), released in 2024. That app is not listed here yet.

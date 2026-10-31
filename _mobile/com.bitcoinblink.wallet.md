@@ -1,7 +1,7 @@
 ---
 title: BitcoinBlink
-date: 2023-12-19
-website: https://bitcoinblink.com/
+date: 2026-10-30
+website: https://bitcoinblink.com/#deadLink
 redirect_from:
 - /android/com.bitcoinblink.wallet/
 android:

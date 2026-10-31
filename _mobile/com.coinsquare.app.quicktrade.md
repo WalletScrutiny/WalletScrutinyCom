@@ -1,6 +1,6 @@
 ---
 title: 'Coinsquare: Buy Bitcoin Canada'
-date: 2024-09-07
+date: 2026-10-30
 authors:
 - danny
 website: https://coinsquare.com
@@ -43,6 +43,8 @@ iphone:
   developerName: Coinsquare Ltd.
 
 ---
+
+**Update 2026-10-30:** Robinhood bought Coinsquare's owner WonderFi on 1 June 2026 and invites Coinsquare users to continue in the Robinhood app, {% include walletLink.html wallet='android/com.robinhood.android' verdict='true' %} ([The Block](https://www.theblock.co/post/403279/robinhood-closes-wonderfi-acquisition-canada)).
 
 ## Android
 

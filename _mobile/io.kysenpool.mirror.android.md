@@ -1,6 +1,6 @@
 ---
 title: Mirror Wallet
-date: 2021-10-22
+date: 2026-10-30
 authors:
 - danny
 website: https://www.kysenpool.io/en/
@@ -18,6 +18,8 @@ android:
   verdict: nosendreceive
 
 ---
+
+**Update 2026-10-30:** The protocol this app was built for no longer works. After the UST collapse, Band Protocol stopped serving price feeds to Terra Classic, including Mirror, on 26 August 2022, saying ["without price feed support, the protocol will no longer function"](https://coinpaprika.com/education/tokenized-stocks-failed-twice/).
 
 **Update 2021-10-14**: This app is no more available.
 

@@ -1,7 +1,7 @@
 ---
 title: 'Aurora: CryptoWallet'
-date: 2024-04-19
-website: https://aurorawallet.app
+date: 2026-10-30
+website: https://aurorawallet.app#deadLink
 redirect_from:
 - /android/com.aurora.aurorawallet/
 android:

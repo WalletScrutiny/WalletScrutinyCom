@@ -1,7 +1,7 @@
 ---
 title: 'Toropal: Send Money'
-date: 2024-04-19
-website: https://www.toropal.com#deadLink
+date: 2026-10-30
+website: https://www.toropal.com
 redirect_from:
 - /android/com.app.toropal/
 android:

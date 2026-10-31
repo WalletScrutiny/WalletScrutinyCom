@@ -1,6 +1,6 @@
 ---
 title: 'BtcTurk | Bitcoin: Birikim Yap'
-date: 2025-11-05
+date: 2026-10-30
 authors:
 - danny
 website: https://www.btcturk.com
@@ -36,6 +36,8 @@ iphone:
   developerName: BTCTURK KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI
 
 ---
+
+**Update 2026-10-30:** BtcTurk has closed this app for now, as its [app page](https://bitcoin.btcturk.com/) says, and the app is gone from both stores. BtcTurk says it will come back with new savings features; until then it sends users to its exchange app {% include walletLink.html wallet='android/com.btcturk.pro' verdict='true' %} to buy, sell and withdraw bitcoin.
 
 ## Android
 

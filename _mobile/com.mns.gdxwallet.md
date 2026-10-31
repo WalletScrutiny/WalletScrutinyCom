@@ -1,7 +1,7 @@
 ---
 title: GDX Wallet
-date: 2024-04-19
-website: http://gdxwallet.com/
+date: 2026-10-30
+website: http://gdxwallet.com/#deadLink
 redirect_from:
 - /android/com.mns.gdxwallet/
 android:

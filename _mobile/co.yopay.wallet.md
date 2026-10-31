@@ -1,7 +1,7 @@
 ---
 title: YoPay Wallet
-date: 2024-04-03
-website: https://yopay.co
+date: 2026-10-30
+website: https://yopay.co#deadLink
 redirect_from:
 - /android/co.yopay.wallet/
 android:

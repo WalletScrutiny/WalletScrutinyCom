@@ -1,6 +1,6 @@
 ---
 title: MOVO - Send to Spend
-date: 2023-08-16
+date: 2026-10-30
 authors:
 - danny
 website: http://movo.cash
@@ -38,6 +38,8 @@ iphone:
   developerName: MovoCash, Inc.
 
 ---
+
+**Update 2026-10-30:** MOVO no longer offers crypto. The MOVO Chain page is gone, and neither the [MOVO website](https://movo.cash/) nor the current app description mentions crypto any more; MOVO now presents itself as a fintech account whose funds are held at Herring Bank. The app still cannot send or receive bitcoin, so the verdict stays {% include verdictBadge.html verdict="nosendreceive" type='short' %}.
 
 ## Android
 

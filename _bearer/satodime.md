@@ -16,8 +16,8 @@ dimensions:
 weight: 5
 provider: Satochip SRL
 providerWebsite: https://satochip.io
-website: https://satodime.io/
-shop: https://satochip.io/product/satodime-original#deadLink
+website: https://satochip.io/product/satodime/
+shop: https://satochip.io/product/satodime/
 country: BE
 price: 25EUR
 repository: https://github.com/Toporin/Satodime-Tool
@@ -25,7 +25,7 @@ icon: satodime.webp
 bugbounty: 
 meta: ok
 verdict: sealed-plainkey
-date: 2022-03-23
+date: 2026-10-30
 signer: 
 twitter: satochipwallet
 social:
@@ -36,6 +36,8 @@ social:
 features: 
 
 ---
+
+**Update 2026-10-30:** Satodime is now sold on the [Satochip shop](https://satochip.io/product/satodime/); the old satodime.io site no longer loads. Satochip now also publishes an [open-source Android app](https://github.com/Toporin/Satodime-Android) for the card.
 
 Link to companion app: {% include walletLinkArchived.html wallet='android/org.satochip.satodimeapp' %}
 

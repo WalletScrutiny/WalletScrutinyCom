@@ -1,6 +1,6 @@
 ---
 title: 'Deepcoin: Buy Bitcoin & Crypto'
-date: 2023-02-10
+date: 2026-10-30
 authors:
 - danny
 website: https://www.deepcoin.com
@@ -40,7 +40,7 @@ iphone:
 
 This is a cryptocurrency trading platform. 
 
-It has a [termination clause](https://www.deepcoin.com/en/helpcenter/articles/360048193911):
+It has a [termination clause](https://www.deepcoin.com/en/helpcenter/articles/360048193911#deadLink):
 
 > 4） The Company may suspend or terminate your account or use of the Service, or the processing of any digital asset transaction, at any time if it determines in its sole discretion that you have violated this Agreement or that its provision or your use of the Service in your jurisdiction is unlawful. 
 

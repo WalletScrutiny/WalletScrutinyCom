@@ -17,7 +17,7 @@ icon: armory.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-date: 2024-04-24
+date: 2026-10-30
 twitter: armory
 social:
 - mailto:contact@bitcoinarmory.com
@@ -38,6 +38,8 @@ features:
 {% include featureEvidence.html feature="multiAccount" source="[README](https://github.com/goatpig/BitcoinArmory#readme)" quote="Manage multiple wallets (deterministic and watching-only)" %}
 {% include featureEvidence.html feature="ownFullNode" source="[README](https://github.com/goatpig/BitcoinArmory#readme)" quote="it relies on on the Satoshi client to securely connect to peers, validate blockchain data, and broadcast transactions" %}
 {% include featureEvidence.html feature="companion" source="[Website](https://www.bitcoinarmory.com)" quote="Everything needed to create transactions can be managed from an online computer with a watching only wallet" %}
+
+**Update 2026-10-30:** Armory is being developed again. [Version 0.97 RC1](https://github.com/goatpig/BitcoinArmory/releases/tag/0.97-RC1), a test release for modern operating systems with a new wallet format, came out on 2026-05-20, and the [repository](https://github.com/goatpig/BitcoinArmory) was still being updated in October 2026. The last stable release is still 0.96.5 from 2018.
 
 ## App Description
 

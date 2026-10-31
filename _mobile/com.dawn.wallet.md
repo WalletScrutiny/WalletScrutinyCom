@@ -1,7 +1,7 @@
 ---
 title: Dawn Wallet
-date: 2024-04-19
-website: https://dawn.org
+date: 2026-10-30
+website: https://dawn.org#deadLink
 redirect_from:
 - /android/com.dawn.wallet/
 android:

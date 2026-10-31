@@ -1,6 +1,6 @@
 ---
 title: 'Yellow Card: Buy & Sell Crypto'
-date: 2021-04-13
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
@@ -38,6 +38,12 @@ iphone:
   developerName: Yellow Card Financial, Inc
 
 ---
+
+**Update 2026-10-30:** Yellow Card
+[discontinued this retail app](https://yellowcard.io/blog/yellow-card-s-next-chapter-focusing-exclusively-on-b2b-stablecoin-infrastructure)
+on both platforms. December 31, 2025 was "the final day to process withdrawals through the app", with "final access ending on
+January 1, 2026". The app is still listed on Google Play, and the App Store still lists it in Nigeria, but do
+not send coins to it.
 
 ## Android
 

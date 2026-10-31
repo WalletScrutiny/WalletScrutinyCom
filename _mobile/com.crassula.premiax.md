@@ -1,7 +1,7 @@
 ---
 title: PremiaX
-date: 2023-11-02
-website: https://www.premiax.com/
+date: 2026-10-30
+website: https://www.premiax.com/#deadLink
 redirect_from:
 - /android/com.crassula.premiax/
 android:

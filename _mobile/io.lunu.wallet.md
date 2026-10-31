@@ -1,7 +1,7 @@
 ---
 title: Lunu Wallet
-date: 2024-04-19
-website: https://wallet.lunu.io
+date: 2026-10-30
+website: https://wallet.lunu.io#deadLink
 redirect_from:
 - /android/io.lunu.wallet/
 android:

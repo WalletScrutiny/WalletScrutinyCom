@@ -1,7 +1,7 @@
 ---
 title: 365 Emoney ®
-date: 2023-12-19
-website: https://365emoney.com
+date: 2026-10-30
+website: https://365emoney.com#deadLink
 redirect_from:
 - /android/com.emoney_365/
 android:

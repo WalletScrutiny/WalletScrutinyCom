@@ -1,7 +1,7 @@
 ---
 title: Trubi Wallet
-date: 2024-02-05
-website: https://www.trubi.io
+date: 2026-10-30
+website: https://www.trubi.io#deadLink
 redirect_from:
 - /android/io.trubi.android/
 android:

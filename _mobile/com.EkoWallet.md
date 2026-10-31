@@ -1,7 +1,7 @@
 ---
 title: Eko Wallet - Bitcoin Wallet
-date: 2024-08-02
-website: https://ekowallet.com
+date: 2026-10-30
+website: https://ekowallet.com#deadLink
 redirect_from:
 - /android/com.EkoWallet/
 android:

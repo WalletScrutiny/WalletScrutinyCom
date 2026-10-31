@@ -1,7 +1,7 @@
 ---
 title: DAS Wallet
-date: 2024-02-05
-website: https://stamining.com
+date: 2026-10-30
+website: https://stamining.com#deadLink
 redirect_from:
 - /android/com.dashwallet/
 android:

@@ -1,6 +1,6 @@
 ---
 title: 'Breet: Sell Bitcoins in Nigeria'
-date: 2021-09-23
+date: 2026-10-30
 redirect_from:
 - /android/com.breet.app/
 android:
@@ -15,5 +15,7 @@ android:
   verdict: wip
 
 ---
+
+**Update 2026-10-30:** Breet's current app is listed separately as {% include walletLink.html wallet='android/com.app.breet' verdict='true' %}.
 
 **Update 2021-09-13**: This app is not on the Play Store anymore.

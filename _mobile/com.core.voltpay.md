@@ -1,7 +1,7 @@
 ---
 title: VoltPay
-date: 2024-02-05
-website: https://voltpay.app
+date: 2026-10-30
+website: https://voltpay.app#deadLink
 redirect_from:
 - /android/com.core.voltpay/
 android:

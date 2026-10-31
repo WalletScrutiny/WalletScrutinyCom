@@ -24,7 +24,7 @@ icon: cyclebit.tangem.card.webp
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2022-11-03
+date: 2026-10-30
 signer: 
 twitter: Cycle_bit
 social:
@@ -37,13 +37,15 @@ features:
 
 ---
 
+**Update 2026-10-30:** The Cycle Wallet companion app is no longer on Google Play; the iPhone app is still available.
+
 ## Product Description 
 
 > Cycle Card is a 'cold storage' wallet with high-grade hardware protection, developed by Tangem. Non-retrievable private keys prohibit the replication of the card and assets stored on it
 
 > Each Cycle Card is bound to a one-off depersonalized wallet address on the blockchain without any personal accounts or private servers. Backed by 100% uptime and an unblockable P2P network of all blockchain nodes.
 
-It can be paired with the Cycle Wallet which is available in [Android](https://play.google.com/store/apps/details?id=io.cyclebit.wallet) and [iOS](https://apps.apple.com/us/app/cycle-wallet/id1533957295)
+It can be paired with the Cycle Wallet which is available in [Android](https://play.google.com/store/apps/details?id=io.cyclebit.wallet#deadLink) and [iOS](https://apps.apple.com/us/app/cycle-wallet/id1533957295)
 
 ## Analysis 
 

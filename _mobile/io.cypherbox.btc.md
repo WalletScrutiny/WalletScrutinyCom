@@ -1,6 +1,6 @@
 ---
 title: Cypher Box
-date: 2026-02-02
+date: 2026-10-30
 authors:
 - danny
 website: https://cypherbox.io
@@ -20,7 +20,7 @@ android:
   meta: fewusers
   verdict: wip
   developerName: Cypher Box LLC
-  repository: https://github.com/Bamskki/Cypher-Box
+  repository: https://github.com/CypherBoxLLC/Cypher-Box
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: ReactCoin
-date: 2024-04-03
-website: http://reactsoft.net
+date: 2026-10-30
+website: http://reactsoft.net#deadLink
 redirect_from:
 - /android/net.reactsoft.reactcoin/
 android:

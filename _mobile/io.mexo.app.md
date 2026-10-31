@@ -1,9 +1,9 @@
 ---
 title: 'TruBit Pro: Crypto Exchange'
-date: 2021-10-04
+date: 2026-10-30
 authors:
 - danny
-website: http://www.mexo.io
+website: https://www.trubit.com
 twitter: mexo_io
 social:
 - https://www.linkedin.com/company/mexoio
@@ -27,6 +27,7 @@ android:
 iphone:
   appId: com.kmoh.mexo
   idd: 1555609032
+  appCountry: mx
   released: 2021-03-01
   updated: 2026-01-12
   version: 3.7.13
@@ -37,6 +38,8 @@ iphone:
   developerName: TruBit Ltd.
 
 ---
+
+**Update 2026-10-30:** Mexo renamed itself TruBit Pro on [October 3, 2022](https://academy.trubit.com/a-partir-del-3-de-octubre-mexo-sera-trubit-pro), and both apps now carry that name. mexo.io now redirects to [trubit.com](https://www.trubit.com/new/), and the old blog post cited below is gone.
 
 ## Android
 

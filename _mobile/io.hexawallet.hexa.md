@@ -1,6 +1,6 @@
 ---
 title: Legacy Hexa (do not download)
-date: 2021-12-29
+date: 2026-10-30
 authors:
 - leo
 website: https://hexawallet.io
@@ -37,6 +37,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** [hexawallet.io](https://hexawallet.io) is now a domain-for-sale page. The successor {% include walletLink.html wallet='android/io.hexawallet.hexa2' verdict='true' %} is gone too; BitHyve's current wallet is {% include walletLink.html wallet='android/io.hexawallet.bitcoinkeeper' verdict='true' %}.
 
 {% include featureEvidence.html feature="foss" source="[License](https://github.com/bithyve/hexa/blob/master/LICENSE)" quote="MIT License" %}
 

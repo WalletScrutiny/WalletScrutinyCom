@@ -1,10 +1,10 @@
 ---
 title: Monarch Wallet
-date: 2024-07-13
+date: 2026-10-30
 authors:
 - leo
 - danny
-website: http://splashfactory.com
+website: https://monarchwallet.com
 twitter: Monarchtoken
 social:
 - https://www.linkedin.com/company/monarchtoken
@@ -41,6 +41,8 @@ iphone:
 
 ---
 
+**Update 2026-10-30:** The shutdown applies to both apps. The iPhone app is no longer in the App Store either, and [monarchwallet.com](https://monarchwallet.com) still says wallet services ended on July 1, 2024 and asks users to move their seed to another wallet. The old splashfactory.com address now shows an unrelated gambling site.
+
 ## Android
 
 ## Update 2024-07-13
@@ -60,7 +62,7 @@ Verdict: As the product is now officially announced to be discontinued, we belie
 This app appears to have been created for Monarch Tokens but it also features a
 Bitcoin wallet.
 
-Their website according to Google Play is [splashfactory.com](http://splashfactory.com/) but there is
+Their website according to Google Play is [splashfactory.com](http://splashfactory.com/#deadLink) but there is
 no information there and we found [monarchwallet.com](https://monarchwallet.com) to likely be their
 website.
 
@@ -87,7 +89,7 @@ This app appears to have been created for Monarch Tokens but it also features a
 Bitcoin wallet.
 
 On the App Store listing there is no official website mentioned but their
-support i at [http://splashfactory.com](http://splashfactory.com/) but there is
+support i at [http://splashfactory.com](http://splashfactory.com/#deadLink) but there is
 no information there and we found [monarchwallet.com](https://monarchwallet.com)
 to likely be their website.
 

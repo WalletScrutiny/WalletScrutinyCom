@@ -1,7 +1,7 @@
 ---
 title: USDT Option
-date: 2023-06-21
-website: https://www.usdtoption.com
+date: 2026-10-30
+website: https://www.usdtoption.com#deadLink
 redirect_from:
 - /android/com.usdtoption.www/
 android:

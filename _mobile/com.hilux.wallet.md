@@ -1,7 +1,7 @@
 ---
 title: Hilux Multiwallet
-date: 2024-03-02
-website: http://www.hiluxcoin.com
+date: 2026-10-30
+website: https://web.archive.org/web/20250107121454/https://hiluxcoin.com/
 redirect_from:
 - /android/com.hilux.wallet/
 android:

@@ -1,7 +1,7 @@
 ---
 title: Syarpa
-date: 2025-02-13
-website: https://syarpa.com/
+date: 2026-10-30
+website: https://syarpa.com/#deadLink
 redirect_from:
 - /android/com.syarpa.app/
 android:

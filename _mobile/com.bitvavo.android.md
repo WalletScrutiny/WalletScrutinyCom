@@ -1,6 +1,6 @@
 ---
 title: Bitvavo | Buy Bitcoin & Crypto
-date: 2021-09-03
+date: 2026-10-30
 authors:
 - danny
 website: https://bitvavo.com/
@@ -35,6 +35,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The two support links below are dead; the current [private keys article](https://support.bitvavo.com/hc/en-us/articles/4405186019729-Where-can-I-find-the-private-keys-of-my-hosted-wallet) lives in the new help center.
 
 > Buy Bitcoin, Ethereum, and other cryptocurrencies within minutes and store them in your integrated Bitvavo wallet.
 

@@ -1,7 +1,7 @@
 ---
 title: BitBlaze
-date: 2024-05-18
-website: http://bitblaze.co
+date: 2026-10-30
+website: http://bitblaze.co#deadLink
 redirect_from:
 - /android/com.cloud.bitblaze/
 android:

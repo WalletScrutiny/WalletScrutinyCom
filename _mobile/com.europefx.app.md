@@ -1,9 +1,9 @@
 ---
 title: eFXGO! by EuropeFX
-date: 2023-08-02
+date: 2026-10-30
 authors:
 - danny
-website: https://europefx.com
+website: https://europefx.com#deadLink
 redirect_from:
 - /android/com.europefx.app/
 android:

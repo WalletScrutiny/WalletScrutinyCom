@@ -1,9 +1,9 @@
 ---
 title: NodaWallet
-date: 2024-11-30
+date: 2026-10-30
 authors:
 - danny
-website: https://nodawallet.com
+website: https://nodawallet.com#deadLink
 twitter: DexNodaWallett
 social:
 - https://www.linkedin.com/company/noda-project-8b4a251b3
@@ -25,13 +25,15 @@ android:
 
 ---
 
+**Update 2026-10-30:** The NodaWallet website no longer loads; its last archived capture is from [October 2020](https://web.archive.org/web/20201003063310/https://nodawallet.com/). The [GitHub repository](https://github.com/nodawallet/NodaWallet-Android) still has no commits after 2020.
+
 ## App Description
 
 From the description:
 
 > NodaWallet is a universal cryptocurrency storage application. Protect, manage and exchange your assets! it is an easy-to-use multi-cryptocurrency wallet that can connect and trade through decentralized exchanges (Binance Dex. KyberSwap. MyEtherWallet) where you can easily buy any crypto asset.
 
-NodaWallet claims to be a decentralized app, with the [user in charge of the keys](https://noda.gitbook.io/noda-project/noda-project-ecosystem-1/1.-nodawallet-cryptocurrency-wallet#1a79).
+NodaWallet claims to be a decentralized app, with the [user in charge of the keys](https://noda.gitbook.io/noda-project/noda-project-ecosystem-1/1.-nodawallet-cryptocurrency-wallet#deadLink).
 
 ## The Site
 

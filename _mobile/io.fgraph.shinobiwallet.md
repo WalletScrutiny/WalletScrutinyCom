@@ -1,9 +1,9 @@
 ---
 title: Shinobi Wallet · DeFi & Web3
-date: 2026-02-20
+date: 2026-10-30
 authors:
 - danny
-website: https://mirai.finance/
+website: https://mirai.finance/#deadLink
 twitter: shinobi_wallet
 social:
 - https://discord.com/invite/fg5fFwYYgt
@@ -37,6 +37,8 @@ iphone:
   developerName: RISE LLC.
 
 ---
+
+**Update 2026-10-30:** The provider's website mirai.finance no longer loads ([last archived copy, January 2026](https://web.archive.org/web/20260124142748/http://mirai.finance/)). Both apps are still in the stores but have not been updated since March 2024.
 
 ## Android
 

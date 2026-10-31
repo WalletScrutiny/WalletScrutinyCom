@@ -1,6 +1,6 @@
 ---
 title: Blockchain.com Exchange
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: https://www.blockchain.com
@@ -36,6 +36,8 @@ iphone:
 
 ---
 
+**Update 2026-10-30:** Blockchain.com has folded the Exchange into its main app. The [Exchange site](https://exchange.blockchain.com/) now asks users to log in to the {% include walletLink.html wallet='android/piuk.blockchain.android' verdict='true' %} and move their funds there. Both Exchange apps are gone from the stores.
+
 ## Android
 
 ## App Description 
@@ -44,11 +46,11 @@ iphone:
 > - Links with your bank account
 > - Syncs between desktop and mobile
 > - Provides the lowest fees in crypto
-From the [Play Store](https://play.google.com/store/apps/details?id=com.blockchain.exchange)
+From the [Play Store](https://play.google.com/store/apps/details?id=com.blockchain.exchange#deadLink)
 
 ## Analysis 
 
-The company [noted](https://support.blockchain.com/hc/en-us/articles/4417087807380-Custodial-vs-Non-Custodial-What-s-the-difference-): 
+The company [noted](https://web.archive.org/web/20230704174452/https://support.blockchain.com/hc/en-us/articles/4417087807380-Custodial-vs-Non-Custodial-What-s-the-difference-): 
 
 > In the case of custodial wallets, a third party manages the private key. With a non-custodial wallet, the user retains this control. This distinction comes up in the popular crypto community phrase: “Not your keys, not your crypto.”
 >

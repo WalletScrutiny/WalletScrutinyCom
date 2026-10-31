@@ -1,7 +1,7 @@
 ---
 title: WalletOne
-date: 2024-05-07
-website: https://walletone.io
+date: 2026-10-30
+website: https://web.archive.org/web/20220518182922/https://walletone.io/
 redirect_from:
 - /android/com.walletone/
 android:

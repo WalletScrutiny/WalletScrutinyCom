@@ -1,7 +1,7 @@
 ---
 title: 'MCS (Web): Your Crypto Futures'
-date: 2024-03-02
-website: https://mycoinstory.com
+date: 2026-10-30
+website: https://mycoinstory.com#deadLink
 redirect_from:
 - /android/com.mycoinstory.twa/
 android:

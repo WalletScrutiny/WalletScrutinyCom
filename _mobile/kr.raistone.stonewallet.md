@@ -1,7 +1,7 @@
 ---
 title: Stone-M Wallet
-date: 2024-04-19
-website: http://www.raistone.kr
+date: 2026-10-30
+website: http://www.raistone.kr#deadLink
 redirect_from:
 - /android/kr.raistone.stonewallet/
 android:

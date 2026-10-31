@@ -1,6 +1,6 @@
 ---
 title: Emercoin Secure Wallet
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: https://emercoin.com
@@ -37,6 +37,8 @@ Lightweight, as it does not need storing the blockchain.
 > You can also use the wallet with your own Electrum servers.
 
 ## Analysis 
+
+**Update 2026-10-30:** The source code is public after all: [emcsec/emcsec-android](https://github.com/emcsec/emcsec-android) is the Android app under GPL-3.0 with the same app ID. Its code stops at version 1.2, while the last Google Play release was 1.2.1, so we keep the verdict.
 
 - We were able to install the app
 - Emercoin and BTC wallets are available

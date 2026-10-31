@@ -1,6 +1,6 @@
 ---
 title: 'Proton Wallet: Secure Bitcoin'
-date: 2025-05-20
+date: 2026-10-30
 authors:
 - danny
 website: https://proton.me
@@ -49,6 +49,8 @@ iphone:
   repository: https://github.com/ProtonWallet/flutter-app
 
 ---
+
+**Update 2026-10-30:** Proton has since published the app code for versions 1.3.2 to 1.3.5 (tags up to `v1.3.5+126`) on [GitHub](https://github.com/ProtonWallet/flutter-app/tags). The andromeda library is still missing: these releases point to andromeda versions on Proton's private server that are not in the [public copy](https://github.com/ProtonWallet/andromeda), so the app still cannot be built from public code.
 
 ## Android
 

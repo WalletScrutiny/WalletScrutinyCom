@@ -1,6 +1,6 @@
 ---
 title: 'ELLIPAL: Crypto Wallet'
-date: 2021-12-03
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -50,9 +50,11 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** ELLIPAL's blog post quoted below is gone from its website, so we now link [an archived copy](https://web.archive.org/web/20250916221029/https://www.ellipal.com/blogs/news/how-much-does-open-source-contribute-to-security).
+
 ## Update 2024-07-17
 
-This article confirms that Ellipal is a [closed source](https://www.ellipal.com/blogs/news/how-much-does-open-source-contribute-to-security) product.
+This article confirms that Ellipal is a [closed source](https://web.archive.org/web/20250916221029/https://www.ellipal.com/blogs/news/how-much-does-open-source-contribute-to-security) product.
 
 >  "ELLIPAL allows Private keys import to overcome any worries originating from being closed source."
 

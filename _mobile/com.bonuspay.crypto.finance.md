@@ -1,6 +1,6 @@
 ---
 title: 'BonusPay: Trade & Swap BTC'
-date: 2024-07-05
+date: 2026-10-30
 website: https://bonuspay.io
 redirect_from:
 - /android/com.bonuspay.crypto.finance/
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**Update 2026-10-30:** [bonuspay.io](https://bonuspay.io) now forwards to [Bpayex](https://bpayex.com/), a Nigerian crypto trading and bill payment service whose logo files still carry the BonusPay name.

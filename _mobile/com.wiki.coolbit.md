@@ -1,7 +1,7 @@
 ---
 title: CoolBit
-date: 2023-01-02
-website: http://www.coolbit.com
+date: 2026-10-30
+website: http://www.coolbit.com#deadLink
 redirect_from:
 - /android/com.wiki.coolbit/
 android:

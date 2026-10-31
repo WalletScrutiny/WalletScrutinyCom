@@ -1,7 +1,7 @@
 ---
 title: Quanta Pay
-date: 2024-04-19
-website: https://www.quantapay.com
+date: 2026-10-30
+website: https://www.quantapay.com#deadLink
 redirect_from:
 - /android/com.quanta.qiksa/
 android:

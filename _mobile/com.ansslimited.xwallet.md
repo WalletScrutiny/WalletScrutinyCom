@@ -1,7 +1,7 @@
 ---
 title: X-Wallet by ANSS Limited
-date: 2025-09-23
-website: https://x-wallet.io
+date: 2026-10-30
+website: https://x-wallet.io#deadLink
 redirect_from:
 - /android/com.ansslimited.xwallet/
 android:

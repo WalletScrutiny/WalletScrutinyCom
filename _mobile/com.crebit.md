@@ -1,7 +1,7 @@
 ---
 title: Crebit
-date: 2024-07-05
-website: https://crebit.io/
+date: 2026-10-30
+website: https://crebit.io/#deadLink
 redirect_from:
 - /android/com.crebit/
 android:

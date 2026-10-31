@@ -1,7 +1,7 @@
 ---
 title: Wallex Custody
-date: 2023-01-02
-website: https://www.wallexcustody.com/
+date: 2026-10-30
+website: https://www.wallexcustody.com/#deadLink
 redirect_from:
 - /android/com.ebanq.wallexcustody/
 android:

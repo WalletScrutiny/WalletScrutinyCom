@@ -1,7 +1,7 @@
 ---
 title: Bastionpay
-date: 2023-04-20
-website: http://www.bastionpay.com
+date: 2026-10-30
+website: http://www.bastionpay.com#deadLink
 redirect_from:
 - /android/com.bastionpay.bastionpay/
 android:

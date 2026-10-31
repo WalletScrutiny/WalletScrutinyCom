@@ -1,7 +1,7 @@
 ---
 title: Chascom
-date: 2024-02-05
-website: https://chascom.tech
+date: 2026-10-30
+website: https://chascom.tech#deadLink
 redirect_from:
 - /android/com.maocular.chascom/
 android:

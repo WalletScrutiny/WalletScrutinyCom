@@ -4,7 +4,7 @@ appId: trezor.lightnite
 authors:
 - danny
 released: 2020-09-08
-discontinued: 
+discontinued: 2022-05-19
 updated: 
 version: 
 binaries: 
@@ -24,7 +24,7 @@ icon: trezor.lightnite.webp
 bugbounty: 
 meta: discontinued
 verdict: wip
-date: 2022-05-19
+date: 2026-10-30
 signer: 
 twitter: lightnitegame
 social: 
@@ -33,7 +33,7 @@ features:
 
 ---
 
-The Trezor LIGHTNITE is a branded, limited-edition version of the {% include walletLink.html wallet='hardware/trezorT' verdict='true' %} as part of a [premium bundle](https://blog.lightnite.io/trezor-partnership/) for the Light Nite gaming community. It was the result of a partnership with Trezor.
+The Trezor LIGHTNITE is a branded, limited-edition version of the {% include walletLink.html wallet='hardware/trezorT' verdict='true' %} as part of a [premium bundle](https://web.archive.org/web/20240614162124/https://blog.lightnite.io/trezor-partnership/) for the Light Nite gaming community. It was the result of a partnership with Trezor.
 
 On September 8, 2020, the providers posted [a tweet](https://twitter.com/lightnitegame/status/1303323744073584642) promoting the product. They linked a website where users could purchase the product. This site's [archived copy](https://web.archive.org/web/20201113073033/http://trezor.lightnite.io/) reveals that there were only 50 units for sale. This gives us cause to assume that the units were all sold out, meaning that Trezor LIGHTNITE is no longer available for purchase and thus can be qualified as **discontinued**.
 

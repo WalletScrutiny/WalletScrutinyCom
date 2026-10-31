@@ -1,6 +1,6 @@
 ---
 title: Vauld.com
-date: 2024-09-03
+date: 2026-10-30
 authors:
 - kiwilamb
 website: https://vauld.com
@@ -37,6 +37,8 @@ iphone:
   developerName: DEFI TECHNOLOGIES PTE. LTD.
 
 ---
+
+**Update 2026-10-30:** Vauld stopped withdrawals in July 2022 and is being wound down under a Singapore court scheme; it no longer runs as an exchange. Creditors get partial repayments through the scheme manager, and token withdrawals from the Vauld platform have been [suspended indefinitely since 30 June 2025](https://support.vauld.com/en/articles/11768488-important-update-temporary-suspension-of-withdrawals-from-30-june-2025) ([all restructuring notices](https://support.vauld.com/en/collections/2888465-vauld-restructuring-announcements-and-faqs)).
 
 ## Android
 

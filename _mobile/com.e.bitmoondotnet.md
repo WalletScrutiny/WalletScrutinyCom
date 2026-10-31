@@ -1,9 +1,9 @@
 ---
 title: 'Sàn giao dịch Bitcoin và tiền '
-date: 2023-04-22
+date: 2026-10-30
 authors:
 - danny
-website: https://bitmoon.net
+website: https://bitmoon.net#deadLink
 redirect_from:
 - /android/com.e.bitmoondotnet/
 android:

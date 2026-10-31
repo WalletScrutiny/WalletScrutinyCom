@@ -1,7 +1,7 @@
 ---
 title: HiFast - Cash & Crypto Wallet
-date: 2024-10-03
-website: https://hifast.io
+date: 2026-10-30
+website: https://hifast.io#deadLink
 redirect_from:
 - /android/com.hifasthq.hifast/
 android:

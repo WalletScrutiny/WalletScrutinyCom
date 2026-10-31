@@ -1,7 +1,7 @@
 ---
 title: HyperW
-date: 2023-01-02
-website: http://hyperw.com
+date: 2026-10-30
+website: http://hyperw.com#deadLink
 redirect_from:
 - /android/com.legend.hyperw/
 android:

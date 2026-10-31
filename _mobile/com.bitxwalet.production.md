@@ -1,6 +1,6 @@
 ---
 title: 'SatPak : Bitcoin Wallet'
-date: 2026-01-14
+date: 2026-10-30
 website: https://satpak.io
 appCountry: us
 redirect_from:
@@ -21,6 +21,8 @@ iphone:
 ---
 
 {% include review/externalResearchAlert.html url="https://kek.lol/research/appstore-wallets/#app-6752948564" author="overtorment" severity="critical" finding="CofferWalletClient POSTs mnemonic and WIF to satpak.dev. Supabase also gets connect keys and import-as-you-type drafts." %}
+
+**Update 2026-10-30:** VeraBit is now called SatPak, and its new website [satpak.io](https://satpak.io) is live. The site calls the wallet [open source](https://satpak.io/open-source/), but the [SatPak organisation on GitHub](https://github.com/satpak) has no public repositories, so the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 ## App Description
 

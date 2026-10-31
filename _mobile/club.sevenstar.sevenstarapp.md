@@ -1,7 +1,7 @@
 ---
 title: 7StarPay
-date: 2023-12-19
-website: https://7StarPay.com
+date: 2026-10-30
+website: https://7StarPay.com#deadLink
 redirect_from:
 - /android/club.sevenstar.sevenstarapp/
 android:

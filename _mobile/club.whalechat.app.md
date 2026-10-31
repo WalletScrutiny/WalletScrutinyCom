@@ -1,7 +1,7 @@
 ---
 title: WhaleChat Messenger
-date: 2024-04-03
-website: https://www.whalechat.app
+date: 2026-10-30
+website: https://www.whalechat.app#deadLink
 redirect_from:
 - /android/club.whalechat.app/
 android:

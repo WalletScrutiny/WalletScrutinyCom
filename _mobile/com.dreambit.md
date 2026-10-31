@@ -1,9 +1,9 @@
 ---
 title: Dreambit
-date: 2023-09-04
+date: 2026-10-30
 authors:
 - danny
-website: http://www.dreambit.com
+website: http://www.dreambit.com#deadLink
 appCountry: lv
 redirect_from:
 - /android/com.dreambit/

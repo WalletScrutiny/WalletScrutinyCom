@@ -1,7 +1,7 @@
 ---
 title: Bincap — bitcoin exchange and wallet
-date: 2023-01-02
-website: https://bincap.io
+date: 2026-10-30
+website: https://bincap.io#deadLink
 redirect_from:
 - /android/io.bincap.exchange/
 android:

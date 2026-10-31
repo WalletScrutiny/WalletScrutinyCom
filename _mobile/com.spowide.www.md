@@ -1,9 +1,9 @@
 ---
 title: 스포와이드
-date: 2023-05-03
+date: 2026-10-30
 authors:
 - danny
-website: http://spowide.com
+website: http://spowide.com#deadLink
 redirect_from:
 - /android/com.spowide.www/
 android:

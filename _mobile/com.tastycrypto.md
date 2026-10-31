@@ -1,6 +1,6 @@
 ---
 title: 'tastycrypto: Crypto Wallet'
-date: 2025-12-16
+date: 2026-10-30
 authors:
 - danny
 website: https://www.tastycrypto.com/
@@ -43,6 +43,8 @@ iphone:
   developerName: Tasty
 
 ---
+
+**Update 2026-10-30:** tastytrade has closed the separate tastycrypto wallet app, as [CryptoSlate's tastytrade review](https://cryptoslate.com/brokers/tastytrade-review/) reports, and both store listings are gone. The [tastycrypto website](https://web.archive.org/web/20261021224146/https://www.tastycrypto.com/download/) still showed download buttons in October 2026.
 
 ## Android
 

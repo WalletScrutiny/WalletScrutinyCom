@@ -1,6 +1,6 @@
 ---
 title: CoinKit
-date: 2023-12-21
+date: 2026-10-30
 authors:
 - danny
 website: https://coinkit.de#deadLink
@@ -33,6 +33,8 @@ iphone:
   developerName: BLOCKCURATORS GMBH
 
 ---
+
+**Update 2026-10-30:** The CoinKit website is gone and has not loaded since early 2025 ([last archived copy](http://web.archive.org/web/20241225181224/https://coinkit.de/)). Blockcurators GmbH now presents itself as an app development studio and no longer mentions CoinKit on [its website](https://blockcurators.com). The iPhone app is still listed but has not been updated since 2021.
 
 ## Android
 

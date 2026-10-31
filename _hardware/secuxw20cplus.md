@@ -15,16 +15,16 @@ dimensions:
 weight: 200
 provider: SecuX Technology Inc.
 providerWebsite: https://secuxtech.com
-website: https://secuxtech.com/products/secux-w20c-plus#deadLink
-shop: https://secuxtech.com/products/secux-w20c-plus#deadLink
+website: https://secuxtech.com/pages/all-products
+shop: https://secuxtech.com/products/secux-w20-series
 country: TW
-price: 119USD
+price: 99USD
 repository: https://github.com/secuxtech/SecuXMCU
 icon: secuxw20cplus.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2025-03-20
+date: 2026-10-30
 signer: 
 twitter: SecuXwallet
 social:

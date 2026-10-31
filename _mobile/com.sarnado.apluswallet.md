@@ -1,7 +1,7 @@
 ---
 title: APlus Wallet
-date: 2023-12-19
-website: https://apluswallet.com
+date: 2026-10-30
+website: https://apluswallet.com#deadLink
 redirect_from:
 - /android/com.sarnado.apluswallet/
 android:

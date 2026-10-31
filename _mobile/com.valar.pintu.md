@@ -1,6 +1,6 @@
 ---
 title: Pintu Trading Crypto & Futures
-date: 2021-08-27
+date: 2026-10-30
 authors:
 - danny
 website: https://pintu.co.id/
@@ -36,12 +36,13 @@ iphone:
   icon: com.valar.pintu.webp
   meta: removed
   verdict: custodial
+  appCountry: id
 
 ---
 
 ## Android
 
-Found in the [FAQ:](https://pintu.co.id/en/faq/private-keys)
+Found in the [FAQ:](https://pintu.co.id/en/faq/private-keys#deadLink)
 > **Do I hold a Private Key?**<br>
   Pintu is a custodial crypto exchange, which means Pintu acts as a custodian/keeper of the users’ private keys.  Therefore, Pintu doesn’t share private keys with its users.
 
@@ -55,7 +56,9 @@ Pintu is **custodial** and **not verifiable.**
 
 ## iPhone
 
-Found in the [FAQ:](https://pintu.co.id/en/faq/private-keys)
+**Update 2026-10-30:** The iPhone app is still in the Indonesian App Store.
+
+Found in the [FAQ:](https://pintu.co.id/en/faq/private-keys#deadLink)
 > **Do I hold a Private Key?**<br>
   Pintu is a custodial crypto exchange, which means Pintu acts as a custodian/keeper of the users’ private keys.  Therefore, Pintu doesn’t share private keys with its users.
 

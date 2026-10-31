@@ -1,7 +1,7 @@
 ---
 title: SpaceLink - Crypto Exchange
-date: 2026-02-20
-website: https://spacelink.exchange
+date: 2026-10-30
+website: https://spacelink.exchange#deadLink
 redirect_from:
 - /android/com.spacelink.exchange/
 android:

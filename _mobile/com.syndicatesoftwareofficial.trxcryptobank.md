@@ -1,7 +1,7 @@
 ---
 title: Trxcryptobank
-date: 2024-02-05
-website: https://trxcryptobank.com/
+date: 2026-10-30
+website: https://trxcryptobank.com/#deadLink
 redirect_from:
 - /android/com.syndicatesoftwareofficial.trxcryptobank/
 android:

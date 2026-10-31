@@ -1,6 +1,6 @@
 ---
 title: Dex-Trade
-date: 2025-05-14
+date: 2026-10-30
 authors:
 - danny
 website: https://dex-trade.com
@@ -40,6 +40,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The app is gone from Google Play again. The last [archived store page](https://web.archive.org/web/20251205164016/https://play.google.com/store/apps/details?id=com.dextrade.android&pcampaignid=web_share) showing it is from December 2025. The exchange itself still runs and posts [announcements](https://dex-trade.com/news/announcements/1).
 
 **Update 2025-08-28**
 

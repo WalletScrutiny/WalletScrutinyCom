@@ -1,6 +1,6 @@
 ---
 title: 'Slavi: DeFi Crypto Wallet'
-date: 2025-05-30
+date: 2026-10-30
 authors:
 - danny
 - keraliss
@@ -43,6 +43,8 @@ iphone:
   repository: https://github.com/SlvLabs/slavi-wallet
 
 ---
+
+**Update 2026-10-30:** The Slavi website is gone: slavi.io now shows a domain parking page. The [last archived copy of the Slavi site](https://web.archive.org/web/20260606143745/https://slavi.io/) is from June 2026.
 
 ## Android
 

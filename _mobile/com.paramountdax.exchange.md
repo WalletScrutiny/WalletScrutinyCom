@@ -1,7 +1,7 @@
 ---
 title: ParamountDax
-date: 2024-07-05
-website: https://www.paramountdax.com
+date: 2026-10-30
+website: https://www.paramountdax.com#deadLink
 redirect_from:
 - /android/com.paramountdax.exchange/
 android:

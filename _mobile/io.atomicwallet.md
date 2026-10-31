@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Wallet Crypto Ethereum
-date: 2023-11-22
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -119,6 +119,8 @@ Verdict: This wallet is **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is available in the App Store again, so the 2022 note below is out of date. The Android analysis still applies to it.
 
 **Update 2022-01-02**: This app is no more available.
 

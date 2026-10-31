@@ -1,6 +1,6 @@
 ---
 title: MaiCoin - Buy Bitcoin & Crypto
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - danny
 website: https://maicoin.com
@@ -26,6 +26,7 @@ android:
 iphone:
   appId: com.maicoin.maicoin
   idd: 1439583926
+  appCountry: tw
   released: 2018-12-20
   updated: 2022-04-12
   version: 4.0.0
@@ -57,5 +58,7 @@ As the keys are on the side of the providers that means this app is **custodial*
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is missing from the US App Store but is still listed in Taiwan as "MaiCoin - 買賣比特幣", so we set the store country to Taiwan.
 
 The Android analysis above applies to the iPhone app too.

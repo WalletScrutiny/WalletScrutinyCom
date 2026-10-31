@@ -1,6 +1,6 @@
 ---
 title: Globiance
-date: 2025-02-13
+date: 2026-10-30
 authors:
 - danny
 website: https://globiance.com
@@ -39,6 +39,8 @@ iphone:
   developerName: Globiance Holdings Limited
 
 ---
+
+**Update 2026-10-30:** Globiance's own [transparency page](https://globiance.com/transparency.html) says it is still refunding users after a 2024 security incident: as of 2026-10-30 it reports 90.10% of users refunded (65.96% in Japan, 91.30% in the EU). Both apps are gone from the stores.
 
 ## Android
 

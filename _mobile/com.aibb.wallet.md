@@ -1,6 +1,6 @@
 ---
 title: BlockBank V1
-date: 2021-11-10
+date: 2026-10-30
 authors:
 - danny
 website: https://web.archive.org/web/20240713055326/https://blockbank.ai/
@@ -34,7 +34,11 @@ iphone:
 
 ---
 
+**Update 2026-10-30:** BlockBank's website has closed: [blockbank.ai](https://blockbank.ai#deadLink) is gone, and [Trustpilot](https://www.trustpilot.com/review/blockbank.ai) notes that the company's website has closed.
+
 ## Android
+
+**Update 2026-10-30:** The V2 app, {% include walletLink.html wallet='android/ai.blockbank.bbexpoapp' verdict='true' %}, is now called Pairs and is also gone from Google Play.
 
 ## Updated Review 2023-04-05 
 

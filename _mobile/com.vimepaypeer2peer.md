@@ -1,7 +1,7 @@
 ---
 title: Vimepay
-date: 2023-01-02
-website: http://vimepay.com
+date: 2026-10-30
+website: http://vimepay.com#deadLink
 redirect_from:
 - /android/com.vimepaypeer2peer/
 android:

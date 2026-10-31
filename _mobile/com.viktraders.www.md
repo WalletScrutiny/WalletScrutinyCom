@@ -1,7 +1,7 @@
 ---
 title: Viktraders
-date: 2023-05-03
-website: http://www.viktraders.com
+date: 2026-10-30
+website: http://www.viktraders.com#deadLink
 redirect_from:
 - /android/com.viktraders.www/
 android:

@@ -1,7 +1,7 @@
 ---
 title: WhatAShot
-date: 2023-12-19
-website: https://whatashot.io/
+date: 2026-10-30
+website: https://whatashot.io/#deadLink
 redirect_from:
 - /android/com.web.whatashot/
 android:

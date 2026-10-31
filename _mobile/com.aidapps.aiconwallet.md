@@ -1,9 +1,9 @@
 ---
 title: 에이콘 월렛
-date: 2023-06-21
+date: 2026-10-30
 authors:
 - danny
-website: https://www.aicon.online/
+website: https://www.aicon.online/#deadLink
 twitter: AiconOfficial
 redirect_from:
 - /android/com.aidapps.aiconwallet/

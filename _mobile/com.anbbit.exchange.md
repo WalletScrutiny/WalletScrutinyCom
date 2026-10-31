@@ -1,7 +1,7 @@
 ---
 title: Anbbit - Buy & Sell Bitcoin
-date: 2023-08-04
-website: https://anbbit.com
+date: 2026-10-30
+website: https://anbbit.com#deadLink
 redirect_from:
 - /android/com.anbbit.exchange/
 android:

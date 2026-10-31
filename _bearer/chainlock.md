@@ -13,15 +13,15 @@ weight:
 provider: YOUNIQX
 providerWebsite: https://www.youniqx.com/en/
 website: https://youniqx.com/en/chainlock-cold-offline-wallet/
-shop: https://www.cardwallet.com/en/product/card-wallet-bitcoin/
-country: 
-price: 
+shop: https://shop.bitcoin.wien/products/card-wallet
+country: AT
+price: 40EUR
 repository: 
 icon: chainlock.webp
 bugbounty: 
 meta: ok
 verdict: prefilled
-date: 2022-03-23
+date: 2026-10-30
 signer: 
 twitter: youniqx
 social:
@@ -30,6 +30,8 @@ social:
 features: 
 
 ---
+
+**Update 2026-10-30:** Our shop link pointed to Coinfinity's {% include walletLink.html wallet='bearer/coinfinitycardwallet' verdict='true' %}, which is a different product. It now points to the Vienna shop bitcoin.wien, which [sells the Chainlock card](https://shop.bitcoin.wien/products/card-wallet).
 
 Chainlock is a card wallet that can be kept or passed on from one user to another. It also advertises that it is "100% offline"
 

@@ -1,10 +1,10 @@
 ---
 title: HPX :Wallet Crypto & Card
-date: 2023-05-30
+date: 2026-10-30
 authors:
 - leo
 - danny
-website: https://hyperpay.tech
+website: https://www.hpx.com
 twitter: HyperPay_tech
 social:
 - https://www.facebook.com/hyperpayofficial
@@ -38,6 +38,8 @@ iphone:
   developerName: CIPHERBC PTE. LTD.
 
 ---
+
+**Update 2026-10-30:** HyperPay now calls itself HPX. The old site hyperpay.tech forwards to [hpx.com](https://www.hpx.com/en), which presents the wallet together with futures trading, swaps and crypto cards.
 
 ## Android
 

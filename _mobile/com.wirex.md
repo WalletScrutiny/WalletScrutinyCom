@@ -1,6 +1,6 @@
 ---
 title: 'Wirex: All-In-One Crypto App'
-date: 2021-08-21
+date: 2026-10-30
 authors:
 - danny
 website: https://wirexapp.com
@@ -37,6 +37,8 @@ iphone:
   developerName: Wirex Limited
 
 ---
+
+**Update 2026-10-30:** Wirex has replaced both apps. Since [2026-09-30 the legacy Wirex app no longer supports transactions or other account services](https://help.wirexapp.com/article/wirex-one-upgrade-faq-1685); users are asked to move to the new Wirex One app, which Wirex describes as self-custodial, and to claim their balances there. Wirex One is in the UK App Store, published by Wirex Limited. It is not yet listed here.
 
 ## Android
 

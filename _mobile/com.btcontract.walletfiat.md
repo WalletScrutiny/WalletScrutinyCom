@@ -1,6 +1,6 @@
 ---
 title: Valet
-date: 2025-03-14
+date: 2026-10-30
 website: https://standardsats.github.io
 redirect_from:
 - /android/com.btcontract.walletfiat/
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**Update 2026-10-30:** Valet continues under a new app ID, `finance.valet`, which the developers switched to [in November 2024](https://github.com/standardsats/valet/commit/7a364e2). The [project page](https://github.com/standardsats/valet) now offers it through F-Droid and its GitHub releases.

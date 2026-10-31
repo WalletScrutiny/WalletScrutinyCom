@@ -1,7 +1,7 @@
 ---
 title: Lndroid.Messenger Testnet
-date: 2023-11-02
-website: https://lndroid.org
+date: 2026-10-30
+website: https://web.archive.org/web/20210512024517/http://lndroid.org/
 redirect_from:
 - /android/org.lndroid.messenger.testnet/
 android:

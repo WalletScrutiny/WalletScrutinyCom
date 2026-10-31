@@ -1,7 +1,7 @@
 ---
 title: Smartrader
-date: 2024-05-07
-website: https://launch.smartrader.io/
+date: 2026-10-30
+website: https://launch.smartrader.io/#deadLink
 redirect_from:
 - /android/io.smartrader.smartapp/
 android:

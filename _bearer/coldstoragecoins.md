@@ -15,8 +15,8 @@ dimensions:
 weight: 40
 provider: Rearden Metals Pte Ltd
 providerWebsite: https://web.archive.org/web/20220309165215/https://reardenmetals.sg/
-website: https://coldstoragecoins.com#deadLink
-shop: https://checkout.square.site/buy/LNFSKRHZPZLG3ESNBYQ6HHA6
+website: https://blockchainmint.com/
+shop: https://blockchainmint.com/products
 country: SG
 price: 24.95USD
 repository: 
@@ -24,7 +24,7 @@ icon: coldstoragecoins.webp
 bugbounty: 
 meta: ok
 verdict: prefilled
-date: 2022-03-23
+date: 2026-10-30
 signer: 
 twitter: coldstoragecoin
 social:
@@ -35,6 +35,8 @@ social:
 features: 
 
 ---
+
+**Update 2026-10-30:** Cold Storage Coins are now sold under the Blockchain Mint name: coldstoragecoins.com redirects to [blockchainmint.com](https://blockchainmint.com/). The companion app is listed on Google Play again, as "Blockchain Mint".
 
 Comes with a partner-tracker app {% include walletLinkArchived.html wallet='android/com.coldstoragecoins' %} 
 

@@ -17,7 +17,7 @@ weight: 103
 provider: Yanssie HK Limited
 providerWebsite: https://keyst.one/
 website: https://keyst.one/
-shop: https://keyst.one/shop/products/keystone-3pro
+shop: https://shop.keyst.one/products/keystone-3-pro
 country: HK
 price: 129USD
 repository: https://github.com/KeystoneHQ/keystone3-firmware
@@ -25,7 +25,7 @@ icon: keystone3.pro.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2026-10-27
+date: 2026-10-30
 signer: 6853ffd1706faed1468e677621b2ef1ccf053dff4f9b22e7ba5b12a978e1eb37
 twitter: KeystoneForBTC
 social:

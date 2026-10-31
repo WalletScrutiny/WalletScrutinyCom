@@ -16,7 +16,7 @@ icon: cashu.me.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2026-02-09
+date: 2026-10-30
 twitter: CashuBTC
 social:
 - https://t.me/CashuBTC
@@ -45,4 +45,4 @@ Cashu.me is built with Vue.js and TypeScript. As a web wallet, it stores tokens 
 
 **Important privacy note**: Cashu provides strong privacy for transactions through blind signatures, but the mint operator has custody of the underlying Bitcoin. Users must trust the mint to redeem their tokens.
 
-{% include featureEvidence.html feature="foss" quote="quasar build -m pwa" source="GitHub README" comment="The repository is publicly available on GitHub. However, the License file returned 404: Not Found, so FOSS cannot be confirmed per rules." %}
+{% include featureEvidence.html feature="foss" quote="quasar build -m pwa" source="GitHub README" comment="The repository is publicly available on GitHub under the MIT license (LICENSE.md)." %}

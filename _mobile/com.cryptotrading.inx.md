@@ -1,6 +1,6 @@
 ---
 title: INX Buy & Trade Crypto
-date: 2023-06-30
+date: 2026-10-30
 authors:
 - danny
 website: https://www.inx.co
@@ -43,6 +43,8 @@ iphone:
 
 ---
 
+**Update 2026-10-30:** INX now belongs to Republic, which [closed the acquisition on November 10, 2025](https://www.sec.gov/Archives/edgar/data/1725882/000121390025108107/ea026479001ex99-1_inxlim.htm). Both INX apps are gone from the stores, and [inx.co](https://www.inx.co) now presents INX as a trading platform on Republic, reached through the website.
+
 ## Android
 
 ## App Description from Google Play
@@ -54,7 +56,7 @@ INX Crypto allows listing and trading of cryptocurrencies with full regulatory c
 
 ## Analysis
 
-- In its [General Terms](https://www.inx.co/legal/general-terms/), under Wallets, INX states that they have no control over wallets. Control over user funds is governed by a third-party which it does not mention.
+- In its [General Terms](https://web.archive.org/web/20250120202635/https://www.inx.co/legal/general-terms/), under Wallets, INX states that they have no control over wallets. Control over user funds is governed by a third-party which it does not mention.
 - In INX's [EDGAR](https://www.sec.gov/Archives/edgar/data/1725882/000121390020023202/ea125858-424b1_inxlimited.htm) filing with the US Securities and Exchange Commission, it is stated:
 
 > INX Digital receives custody services for cryptocurrencies held on behalf of the clients of our INX Digital trading platform from BitGo Trust Company, Inc., a trust company duly organized and chartered in South Dakota, as the custodian (“BitGo Trust”). BitGo Trust describes itself as a “qualified custodian” as defined in Rule 206(4)-2 promulgated under the Investment Advisers Act of 1940. We believe that BitGo Trust, together with its affiliate BitGo Inc., a multi-signature hot wallet service, which we refer to collectively as BitGo, is a leading provider of custody and wallet services for cryptocurrency trading, with the ability to support both “hot” and “cold” storage with a high degree of electronic and physical security, as well as transaction processing and reporting. See “Business—Overview—INX Digital Trading Platform.”

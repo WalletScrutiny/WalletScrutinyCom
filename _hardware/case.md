@@ -12,9 +12,9 @@ binaries:
 dimensions: 
 weight: 
 provider: CryptoLabs
-providerWebsite: https://choosecase.com
-website: https://choosecase.com
-shop: https://choosecase.com
+providerWebsite: https://choosecase.com#deadLink
+website: https://choosecase.com#deadLink
+shop: https://choosecase.com#deadLink
 country: US
 price: 
 repository: 
@@ -22,7 +22,7 @@ icon: case.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2024-01-04
+date: 2026-10-30
 signer: 
 twitter: CaseWallet
 social:
@@ -41,6 +41,6 @@ There are a numnber of reasons why this verdict is defunct.
 The provider website states the hardware wallet is "soldout".
 Last post on Twitter September 2017.
 Last post on facebook August 2017.
-The [providers website](https://choosecase.com) secure SSL certificate is no longer valid and expired on 12/05/2018.
+The [providers website](https://choosecase.com#deadLink) secure SSL certificate is no longer valid and expired on 12/05/2018.
 
 Also found a post on a [wordpress blog](https://choosecase.wordpress.com/), that states the wallet is discontinued Nov 2017.

@@ -1,6 +1,6 @@
 ---
 title: 'Alfacash: Bitcoin DeFi Wallet'
-date: 2024-08-07
+date: 2026-10-30
 website: https://wallet.alfa.cash/
 redirect_from:
 - /android/com.alfacash.alfacashier.alfacash/
@@ -16,4 +16,6 @@ android:
   developerName: Alfa East Ltd.
 
 ---
+
+**Update 2026-10-30:** Alfacash says on its wallet page that the app stopped working on August 5, 2024 [(notice)](https://wallet.alfa.cash/).
 

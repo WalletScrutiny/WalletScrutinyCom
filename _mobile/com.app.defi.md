@@ -1,9 +1,9 @@
 ---
 title: LATOKEN DeFi Crypto Wallet
-date: 2024-09-16
+date: 2026-10-30
 authors:
 - danny
-website: https://lachain.io
+website: https://lachain.io#deadLink
 redirect_from:
 - /android/com.app.defi/
 android:

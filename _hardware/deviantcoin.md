@@ -21,7 +21,7 @@ icon: deviantcoin.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-11
+date: 2026-10-30
 signer: 
 twitter: DeviantCoin
 social:
@@ -32,6 +32,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** deviantcoin.io now only shows a Cloudflare "Suspected Phishing" warning. The [last archived copy of the hardware wallet page](https://web.archive.org/web/20260518035511/https://deviantcoin.io/hardware-wallet/) is from May 2026.
 
 ## Overview
 

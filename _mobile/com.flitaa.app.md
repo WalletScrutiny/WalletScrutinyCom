@@ -1,6 +1,6 @@
 ---
 title: 'Flitaa: your crypto wallet'
-date: 2021-11-03
+date: 2026-10-30
 authors:
 - danny
 website: https://flitaa.com
@@ -38,6 +38,8 @@ iphone:
 
 ---
 
+**Update 2026-10-30:** Flitaa was [acquired by the Nigerian exchange Roqqu](https://innovation-village.com/nigerian-crypto-exchange-roqqu-acquires-kenyas-flitaa-to-accelerate-east-african-expansion/) in July 2025, which said Flitaa's operations would be fully integrated into its own platform. Roqqu is listed here as {% include walletLink.html wallet='android/com.roqqu.app' verdict='true' %} and {% include walletLink.html wallet='iphone/com.roqqu.ios' verdict='true' %}.
+
 ## Android
 
 ## App Description
@@ -53,7 +55,7 @@ There is no mention of private keys in the description, with Flitaa saying that 
 
 ## The Site
 
-There is no mention of private keys anywhere, or any way to backup the cryptocurrency wallets. However, as this [tutorial]((https://help.flitaa.com/article/how-to-buy-crypto-on-flitaa)) says, it is possible to buy, send, and hold cryptocurrencies with this app.
+There is no mention of private keys anywhere, or any way to backup the cryptocurrency wallets. However, as this [tutorial](https://help.flitaa.com/article/how-to-buy-crypto-on-flitaa#deadLink) says, it is possible to buy, send, and hold cryptocurrencies with this app.
 
 We tried to sign up through the site, however the registration form only accepted numbers from Ghana, Kenya, and Nigeria.
 

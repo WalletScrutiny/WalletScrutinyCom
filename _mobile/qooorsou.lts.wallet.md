@@ -1,7 +1,7 @@
 ---
 title: Wallet
-date: 2023-12-19
-website: https://wp.k8s.df.org.ua
+date: 2026-10-30
+website: https://wp.k8s.df.org.ua#deadLink
 redirect_from:
 - /android/qooorsou.lts.wallet/
 android:

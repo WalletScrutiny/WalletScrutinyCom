@@ -1,6 +1,6 @@
 ---
 title: 'CryptoXpress: Crypto Super App'
-date: 2023-04-21
+date: 2026-10-30
 authors:
 - danny
 website: https://cryptoxpress.com
@@ -35,6 +35,8 @@ iphone:
   developerName: cryptoxpress
 
 ---
+
+**Update 2026-10-30:** The store descriptions now also promise "CryptoXpress decentralized wallets" in which you "retain custody of your own assets"; the [2023 Play listing](https://web.archive.org/web/20230529121347/https://play.google.com/store/apps/details?id=com.cryptoxpressmobile) did not mention them. We did not test whether they hold Bitcoin.
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: 'Nash: Trade & Invest in Crypto'
-date: 2024-07-15
+date: 2026-10-30
 authors:
 - kiwilamb
 - danny
@@ -52,6 +52,8 @@ Our verdict: As there is no source code to be found anywhere, this wallet is at 
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The app is back in the App Store, as "Nash: Spend, save & invest", in Germany and France, though not in the US store. The 2022 note below is out of date.
 
 **Update 2022-10-21**: This app is not available anymore.
 

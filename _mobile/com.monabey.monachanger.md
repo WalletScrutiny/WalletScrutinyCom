@@ -1,7 +1,7 @@
 ---
 title: Mona-bey – Р2Р Обменник ВTС, к
-date: 2023-08-16
-website: https://monabey.com
+date: 2026-10-30
+website: https://monabey.com#deadLink
 redirect_from:
 - /android/com.monabey.monachanger/
 android:
