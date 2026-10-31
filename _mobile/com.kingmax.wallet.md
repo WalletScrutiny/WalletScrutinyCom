@@ -1,6 +1,6 @@
 ---
 title: SecSycript Card
-date: 2025-04-01
+date: 2026-10-30
 website: http://www.kingmax.com
 redirect_from:
 - /android/com.kingmax.wallet/

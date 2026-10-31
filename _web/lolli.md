@@ -16,7 +16,7 @@ icon: lolli.webp
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2025-04-12
+date: 2026-10-30
 twitter: trylolli
 social:
 - https://discord.com/invite/RWTSNXHAnq

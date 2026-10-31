@@ -1,6 +1,6 @@
 ---
 title: BitWallet - Buy & Sell Bitcoin
-date: 2025-06-18
+date: 2026-10-30
 authors:
 - leo
 website: https://www.bitwallet.org
@@ -36,6 +36,8 @@ iphone:
   developerName: BitWallet, Inc.
 
 ---
+
+**Update 2026-10-30:** Both apps are gone from the stores, and [BitWallet's website](https://bitwallet.org/) no longer offers an app. It now only advertises an OTC desk for trades from $25,000 up, run by the same Houston company.
 
 ## Android
 

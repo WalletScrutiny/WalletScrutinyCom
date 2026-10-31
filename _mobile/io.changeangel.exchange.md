@@ -1,6 +1,6 @@
 ---
 title: Changeangel - Crypto Exchange
-date: 2025-05-30
+date: 2026-10-30
 website: https://changeangel.io
 redirect_from:
 - /android/io.changeangel.exchange/
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**Update 2026-10-30:** The app is gone from Google Play, and the [ChangeAngel website](https://changeangel.io) now only says the exchange "is coming back" and asks visitors to sign up for news of its return.

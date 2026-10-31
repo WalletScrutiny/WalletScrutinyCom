@@ -1,6 +1,6 @@
 ---
 title: 'Flash: Rewards & Payments'
-date: 2025-06-13
+date: 2026-10-30
 authors:
 - danny
 website: https://getflash.io
@@ -12,7 +12,7 @@ social:
 - https://www.linkedin.com/company/getflash-io
 features:
 - foss
-- liquid
+- spark
 - ln
 - nfc
 - buyWithCC
@@ -47,6 +47,8 @@ iphone:
   repository: https://github.com/lnflash/flash-mobile
 
 ---
+
+**Update 2026-10-30:** Flash's self-custodial Bitcoin wallet now runs on Spark instead of Liquid. The source code tagged for version 0.8.0 uses only the [Breez SDK for Spark](https://github.com/lnflash/flash-mobile/blob/android/v0.8.0/package.json), and the [README](https://github.com/lnflash/flash-mobile/blob/android/v0.8.0/README.md) no longer mentions Liquid.
 
 ## Android
 
@@ -106,14 +108,14 @@ The app supported both Bitcoin and lightning. We tested this and was provided wi
 
 {% include featureEvidence.html feature="nfc" quote="Receive Bitcoin via NFC technology, making transactions as simple as a tap with devices like bolt cards or rings" source="Store" %}
 
-{% include featureEvidence.html feature="liquid" quote="Seamless integration with Liquid sidechain functionality" source="GitHub README" %}
+{% include featureEvidence.html feature="spark" quote="Flash leverages the Breez SDK - Spark (@breeztech/breez-sdk-spark-react-native) to provide advanced Lightning Network functionality." source="[GitHub README](https://github.com/lnflash/flash-mobile/blob/android/v0.8.0/README.md)" %}
 
 ---
 
 ## iPhone
 
 {% include featureEvidence.html feature="buyWithCC" source="[Website](https://getflash.io)" quote="Buy Bitcoin" %}
-{% include featureEvidence.html feature="liquid" source="[README](https://github.com/lnflash/flash-mobile#readme)" quote="Seamless integration with Liquid sidechain functionality" %}
+{% include featureEvidence.html feature="spark" source="[README](https://github.com/lnflash/flash-mobile#readme)" quote="Flash leverages the Breez SDK - Spark (@breeztech/breez-sdk-spark-react-native) to provide advanced Lightning Network functionality." %}
 
 The Android analysis above applies to the iPhone app too.
 

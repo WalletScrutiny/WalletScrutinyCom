@@ -1,6 +1,6 @@
 ---
 title: 'AnkerPay: Blockchain Crypto Wa'
-date: 2025-06-09
+date: 2026-10-30
 authors:
 - leo
 - danny

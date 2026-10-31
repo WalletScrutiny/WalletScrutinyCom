@@ -16,15 +16,16 @@ icon: exodus.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2025-04-25
+date: 2026-10-30
 twitter: exodus_io
 social:
 - https://www.facebook.com/exodus.io
 builds: 
-features:
-- ln
+features: 
 
 ---
+
+**Update 2026-10-30:** Exodus [ended Lightning support](https://www.exodus.com/support/en/articles/8598830-lightning-in-exodus-support-ends-may-30-2025) on May 30, 2025, so we removed the Lightning feature from this listing.
 
 ## App Description
 

@@ -1,7 +1,7 @@
 ---
 title: HoBu
-date: 2025-05-30
-website: http://hobutrading.com
+date: 2026-10-30
+website: http://hobutrading.com#deadLink
 redirect_from:
 - /android/jaytesrac.com.hobu_app/
 android:

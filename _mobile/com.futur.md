@@ -1,6 +1,6 @@
 ---
 title: Futur
-date: 2025-05-30
+date: 2026-10-30
 redirect_from:
 - /android/com.futur/
 android:

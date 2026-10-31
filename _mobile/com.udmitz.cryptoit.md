@@ -1,6 +1,6 @@
 ---
 title: Cryptoit - Mock Trade Crypto
-date: 2025-04-01
+date: 2026-10-30
 redirect_from:
 - /android/com.udmitz.cryptoit/
 android:

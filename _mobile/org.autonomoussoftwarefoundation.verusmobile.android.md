@@ -1,6 +1,6 @@
 ---
 title: Verus Mobile
-date: 2025-04-24
+date: 2026-10-30
 authors:
 - danny
 website: https://verus.io/

@@ -1,6 +1,6 @@
 ---
 title: 'FROST Wallet: Buy BTC & Crypto'
-date: 2025-06-20
+date: 2026-10-30
 authors:
 - danny
 website: https://frostwallet.cc
@@ -35,6 +35,8 @@ iphone:
   developerName: Trustpool DOO
 
 ---
+
+**Update 2026-10-30:** Both apps are gone from the stores. The [FROST Wallet website](https://frostwallet.cc/) now links to a new "FROST Wallet 2" app by Trustpool, which replaces this one.
 
 ## Android
 

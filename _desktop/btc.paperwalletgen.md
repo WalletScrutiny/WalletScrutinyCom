@@ -16,7 +16,7 @@ icon: btc.paperwalletgen.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-date: 2025-05-09
+date: 2026-10-30
 twitter: 
 social: 
 builds: 

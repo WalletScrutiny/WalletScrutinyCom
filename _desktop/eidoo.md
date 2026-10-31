@@ -16,7 +16,7 @@ icon: eidoo.webp
 bugbounty: 
 meta: defunct
 verdict: nosource
-date: 2025-04-15
+date: 2026-10-30
 twitter: eidoo_io
 social: 
 builds: 

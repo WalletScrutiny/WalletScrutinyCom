@@ -1,9 +1,9 @@
 ---
 title: Probos Wallet
-date: 2025-05-30
+date: 2026-10-30
 authors:
 - danny
-website: https://probos.io/
+website: https://probos.io/#deadLink
 twitter: probos_wallet
 social:
 - https://t.me/probos_info
@@ -36,6 +36,8 @@ iphone:
   developerName: ELEPHANTSLAB LP
 
 ---
+
+**Update 2026-10-30:** The Probos website no longer loads; the [last archived copy](https://web.archive.org/web/20250330033532/https://probos.io/) is from March 2025. Both apps are gone from the stores. The developer, ElephantsLab, still shows Probos in its [portfolio](https://elephantslab.com/probos/), but that page only links to the dead website.
 
 ## Android
 

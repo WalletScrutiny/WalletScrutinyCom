@@ -1,9 +1,9 @@
 ---
 title: BRD Bitcoin Wallet Bitcoin BTC
-date: 2025-04-01
+date: 2026-10-30
 authors:
 - leo
-website: https://brd.com
+website: https://brd.com#deadLink
 twitter: BRDHQ
 social:
 - https://www.linkedin.com/company/brdhq
@@ -33,12 +33,14 @@ iphone:
   version: 4.18.0
   reviews: 12160
   icon: org.voisine.breadwallet.webp
-  meta: obsolete
+  meta: defunct
   verdict: nosource
   developerName: breadwallet LLC
   repository: https://github.com/breadwallet/brd-mobile
 
 ---
+
+**⚠️ Warning:** BRD is gone. In March 2022 the provider asked users to [move their funds to Coinbase Wallet](https://web.archive.org/web/20220628214735/https://brd.com/brd-joins-coinbase), the website [stopped loading in 2023](https://web.archive.org/web/20231024213407/https://brd.com/), and brd.com is now a domain for sale. The Android app is gone from Google Play. The iPhone app is still listed, but it was last updated in March 2022 and the BRD servers it relies on no longer work.
 
 ## Android
 
@@ -48,7 +50,7 @@ the provider has not reacted to our enquiry to do so. This product is
 
 **Update 2022-04-07**: This product's provider appears to be partnering with
 [Coinbase](https://www.coinbase.com) and with their latest update they now
-[encourage and help their users to migrate](https://brd.com/brd-joins-coinbase)
+[encourage and help their users to migrate](https://web.archive.org/web/20220628214735/https://brd.com/brd-joins-coinbase)
 to [Coinbase Wallet](https://www.coinbase.com/wallet), a browser extension based
 self-custodial wallet. The article is not (yet) talking about {{ page.title }}
 being in sunset mode or obsolete but some consolidation appears to be going on.

@@ -1,6 +1,6 @@
 ---
 title: 'UNi.Global: Web3 APP & Card'
-date: 2025-04-22
+date: 2026-10-30
 website: https://uni.global
 redirect_from:
 - /android/uni.global.mcdc_client_app/
