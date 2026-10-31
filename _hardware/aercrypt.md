@@ -14,17 +14,17 @@ dimensions:
 - 20
 weight: 
 provider: Aerify.Digital
-providerWebsite: https://aerify.digital/
-website: https://aercrypt.net/
-shop: https://aercrypt.net/store
+providerWebsite: https://aerify.digital/#deadLink
+website: https://aercrypt.net/#deadLink
+shop: https://aercrypt.net/store#deadLink
 country: 
 price: 
 repository: 
 icon: aercrypt.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2025-10-03
+date: 2026-10-30
 signer: 
 twitter: AerCrypt
 social: 
@@ -32,6 +32,10 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** The provider is gone and the device was never delivered.
+
+**Update 2026-10-30:** The AerCrypt website now only shows a "Suspended" page, and the provider's site, [aerify.digital](https://aerify.digital/#deadLink), no longer loads. The [archived store page](https://web.archive.org/web/20240414223505/https://aercrypt.net/store) already showed the shop closed in 2024. The promised device never shipped, so we mark this vaporware as **defunct**.
 
 ## Product Update 2025-10-03
 
@@ -74,7 +78,7 @@ The provider claimed at the start of 2024 that they would be releasing within th
 
 ## Verdict
 
-While the project has reached its funding goal, [the shop is closed and](https://aercrypt.net/store) the homepage states that development is underway. 
+While the project has reached its funding goal, [the shop is closed and](https://web.archive.org/web/20240414223505/https://aercrypt.net/store) the homepage states that development is underway. 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thank you <a href="https://twitter.com/hashtag/metrix?src=hash&amp;ref_src=twsrc%5Etfw">#metrix</a>!! The campaign is now over and we have reached our funding goal 🥳<br>Development plan details and roadmap to be published on the site soon; Stay tuned! <a href="https://t.co/n2zVGObJgF">pic.twitter.com/n2zVGObJgF</a></p>&mdash; AerCrypt (@AerCrypt) <a href="https://twitter.com/AerCrypt/status/1480061848191918084?ref_src=twsrc%5Etfw">January 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

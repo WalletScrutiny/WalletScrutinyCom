@@ -1,6 +1,6 @@
 ---
 title: Indian Lovely
-date: 2025-10-15
+date: 2026-10-30
 website: https://indialovely.finance#deadLink
 redirect_from:
 - /android/com.finance.lovelyindian/

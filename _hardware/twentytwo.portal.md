@@ -4,7 +4,7 @@ appId: twentytwo.portal
 authors:
 - danny
 released: 2024-06-08
-discontinued: 
+discontinued: 2024-09-20
 updated: 2025-02-12
 version: fw-v0.3.4
 binaries: 
@@ -15,16 +15,16 @@ dimensions:
 weight: 30
 provider: TwentyTwo Devices
 providerWebsite: 
-website: https://twenty-two.xyz/
-shop: https://store.twenty-two.xyz/
+website: https://web.archive.org/web/20260329094424/https://twenty-two.xyz/
+shop: https://web.archive.org/web/20260329094437/https://store.twenty-two.xyz/
 country: IT
 price: 89 EUR
 repository: https://github.com/TwentyTwoHW/portal-software
 icon: twentytwo.portal.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: sourceavailable
-date: 2025-10-03
+date: 2026-10-30
 signer: 
 twitter: TwentyTwoHW
 social:
@@ -38,6 +38,8 @@ features:
 - segwit
 
 ---
+
+**Update 2026-10-30:** The Portal is no longer sold. The TwentyTwo shop now says "This store is unavailable" and the website no longer loads; the [archived shop page](https://web.archive.org/web/20240920103759/https://store.twenty-two.xyz/) already showed the device as sold out in September 2024, and the last firmware release is [fw-v0.3.4 from February 2025](https://github.com/TwentyTwoHW/portal-software/releases/tag/fw-v0.3.4). The device still works without the company, with its standard seed and companion apps such as Nunchuk, so we mark it as discontinued.
 
 ## Updates 2024-10-23
 

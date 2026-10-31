@@ -1,6 +1,6 @@
 ---
 title: 'Bybit.eu: Buy Bitcoin & Crypto'
-date: 2025-11-13
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bybit.eu/help-center

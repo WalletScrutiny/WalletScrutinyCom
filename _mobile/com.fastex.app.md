@@ -1,6 +1,6 @@
 ---
 title: 'Fastex: Buy Bitcoin & Crypto'
-date: 2025-11-14
+date: 2026-10-30
 authors:
 - danny
 website: https://www.fastex.com/
@@ -34,11 +34,13 @@ iphone:
   version: 1.41.0
   reviews: 248
   icon: com.fastex.fastexapp.webp
-  meta: stale
+  meta: defunct
   verdict: custodial
   developerName: FastEX Europe
 
 ---
+
+**⚠️ Warning:** The Fastex exchange has shut down. Its website showed a [service termination notice](https://web.archive.org/web/20260217014958/https://fastex.com/) asking users to withdraw all assets before operations halted on 2026-04-01 ([news report](https://gamblersconnect.com/news/crypto/fastex-exchange-service-termination-april-deadline/)), and the site no longer loads. The Android app is gone from Google Play.
 
 ## Android
 
@@ -54,7 +56,7 @@ Identity verification, custodial account balances, and multi-asset management ar
 
 ## Analysis 
 
-The terms [state that:](https://www.fastex.com/terms-and-conditions)
+The terms [state that:](https://web.archive.org/web/20260120125613/https://www.fastex.com/terms-and-conditions)
 
 > “Fastex Services” means the services offered by us to you through the Platform which include the receipt & transmission of orders, execution of orders on behalf of other persons, custodian or nominee services, placing of virtual financial assets, the operation of a VFA exchange and transfer services as detailed in the relevant Costa Rica legislation.
 

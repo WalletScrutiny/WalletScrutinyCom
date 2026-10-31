@@ -1,6 +1,6 @@
 ---
 title: 'Braavos: BTC & Starknet Wallet'
-date: 2025-11-03
+date: 2026-10-30
 authors:
 - danny
 website: https://braavos.app/

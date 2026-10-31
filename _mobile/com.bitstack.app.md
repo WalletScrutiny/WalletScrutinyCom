@@ -1,6 +1,6 @@
 ---
 title: Bitstack - Buy & Sell Bitcoin
-date: 2025-11-13
+date: 2026-10-30
 authors:
 - danny
 website: https://bitstack-app.com
@@ -11,6 +11,7 @@ redirect_from:
 android:
   appId: com.bitstack.app
   users: 500000
+  appCountry: fr
   updated: 2026-05-02
   version: 3.8.5
   icon: com.bitstack.app.webp

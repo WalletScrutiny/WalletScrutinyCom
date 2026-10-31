@@ -1,9 +1,9 @@
 ---
 title: 'Gekkard: Banking Alternative'
-date: 2025-10-10
+date: 2026-10-30
 authors:
 - danny
-website: https://gekkoin.com/index.html
+website: https://gekkoin.com/index.html#deadLink
 social:
 - https://www.facebook.com/gekkoin.official
 appCountry: mt
@@ -37,6 +37,8 @@ iphone:
 
 ---
 
+**Update 2026-10-30:** The Gekkoin website and the Gekkard website no longer load. Both were last archived in March 2026 ([Gekkoin](https://web.archive.org/web/20260308155014/https://gekkoin.com/), [Gekkard](https://web.archive.org/web/20260306143037/https://gekkard.com/)). The app is still in both stores, and its store description still offers bitcoin through Gekkoin.
+
 ## Android
 
 ## App Description
@@ -57,7 +59,7 @@ At the end of the description, there is a note saying that 'Gekkoin' is:
 
 ## The Site
 
-From [Terms and Conditions, 10.1:](https://gekkoin.com/source/GeneralTermsandConditions.pdf)
+From [Terms and Conditions, 10.1:](https://web.archive.org/web/20240205171911/https://gekkoin.com/source/GeneralTermsandConditions.pdf)
 
 > If we suspect that fraudulent activity is being conducted on your User Account, you acknowledge that for the purpose of protecting you we have the right to temporarily suspend your User Account in order to prevent further or continuing the unauthorized activity.
 

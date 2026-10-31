@@ -1,6 +1,6 @@
 ---
 title: KEEPSER
-date: 2025-11-05
+date: 2026-10-30
 authors:
 - danny
 website: https://web.archive.org/web/20210918112918/https://www.keepser.io/

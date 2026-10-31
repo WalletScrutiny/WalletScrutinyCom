@@ -1,9 +1,9 @@
 ---
 title: 'Cold Wallet: Crypto Wallet App'
-date: 2025-11-12
+date: 2026-10-30
 authors:
 - danny
-website: https://coldwallet.com/
+website: https://coldwallet.com/#deadLink
 twitter: coldwalletapp
 redirect_from:
 - /android/com.PlusWallet/
@@ -36,6 +36,8 @@ iphone:
 ---
 
 {% include review/externalResearchAlert.html url="https://kek.lol/research/appstore-wallets/#app-6467651848" author="overtorment" severity="critical" finding="WalletMain automatically RSA-wraps and POSTs the mnemonic when the backend says the secret is not saved." %}
+
+**Update 2026-10-30:** The website coldwallet.com, which the Google Play listing still names, is now a "domain for sale" page. The iPhone app is gone from the App Store.
 
 ## Android
 

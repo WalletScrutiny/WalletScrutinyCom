@@ -1,6 +1,6 @@
 ---
 title: HOT — Bitcoin & Crypto Wallet
-date: 2025-11-11
+date: 2026-10-30
 authors:
 - danny
 website: https://hot-labs.org/privacypolicy
