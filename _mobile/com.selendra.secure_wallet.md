@@ -8,6 +8,7 @@ social:
 - https://www.linkedin.com/company/selendrachain
 redirect_from:
 - /android/com.selendra.secure_wallet/
+- /iphone/com.selendra.secure.wallet/
 android:
   appId: com.selendra.secure_wallet
   users: 10000
@@ -15,15 +16,27 @@ android:
   updated: 2024-04-29
   version: 1.0.0
   reviews: 4
-  repository: https://github.com/bitriel/bitriel-wallet
   icon: com.selendra.secure_wallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: KOOMPI
+  repository: https://github.com/bitriel/bitriel-wallet
+iphone:
+  appId: com.selendra.secure.wallet
+  idd: '6499311851'
+  appCountry: kh
+  released: 2024-04-28
+  updated: 2024-04-28
+  version: 1.0.0
+  reviews: 0
+  icon: com.selendra.secure.wallet.webp
+  meta: ok
+  verdict: sourceavailable
+  developerName: KOOMPI CO., LTD.
 
 ---
 
-**Update 2026-10-30:** The app is back on Google Play as "Bitriel: digital wallet" by KOOMPI, so it is no longer defunct. The repository we reviewed, [bitriel/bitriel-wallet](https://github.com/bitriel/bitriel-wallet), was archived in December 2023. Newer code for the same app ID lives in [bitriel/bitriel-monorepo](https://github.com/bitriel/bitriel-monorepo), which has no license file.
+**Update 2026-10-30:** The app is back on Google Play as "Bitriel: digital wallet" by KOOMPI, so it is no longer defunct. The repository we reviewed, [bitriel/bitriel-wallet](https://github.com/bitriel/bitriel-wallet), was archived in December 2023. Newer code for the same app ID lives in [bitriel/bitriel-monorepo](https://github.com/bitriel/bitriel-monorepo), which has no license file. The iPhone app, Bitriel by KOOMPI, is the same wallet and the monorepo holds its mobile app code, so we added it to this listing with the same verdict.
 
 **Update 2022-02-26**: This app is not available anymore.
 
