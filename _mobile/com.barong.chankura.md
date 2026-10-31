@@ -1,7 +1,7 @@
 ---
 title: Chankura
-date: 2024-05-07
-website: https://chankura.com
+date: 2026-10-30
+website: https://web.archive.org/web/20210918232601/https://chankura.com/
 redirect_from:
 - /android/com.barong.chankura/
 android:

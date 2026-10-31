@@ -1,6 +1,6 @@
 ---
 title: BitcoinPoint
-date: 2021-11-17
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitcoinpoint.com/
@@ -35,6 +35,8 @@ iphone:
   developerName: BCP Technologies Ltd
 
 ---
+
+**Update 2026-10-30:** BitcoinPoint is now [BCP Markets](https://www.bcp.markets/) by BCP Technologies Ltd, and the iPhone app is now called BCP Markets. The Android successor {% include walletLink.html wallet='android/com.bitcoinpoint.uk' verdict='true' %} is gone from Google Play too.
 
 ## Android
 

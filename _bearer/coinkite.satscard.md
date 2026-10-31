@@ -15,16 +15,16 @@ dimensions:
 weight: 
 provider: Coinkite
 providerWebsite: https://coinkite.com/
-website: https://getsatscard.com/
+website: https://satscard.com/
 shop: https://store.coinkite.com/store/satscard
 country: CA
-price: 6.99 USD
+price: 12.99 USD
 repository: 
 icon: coinkite.satscard.webp
 bugbounty: 
 meta: ok
 verdict: sealed-plainkey
-date: 2023-08-03
+date: 2026-10-30
 signer: 
 twitter: SATSCARD
 social:

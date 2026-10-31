@@ -1,7 +1,7 @@
 ---
 title: Adara Bitcoin & Crypto Trading
-date: 2023-09-28
-website: https://adara.io/
+date: 2026-10-30
+website: https://adara.io/#deadLink
 redirect_from:
 - /android/io.adara.client/
 android:

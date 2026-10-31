@@ -1,7 +1,7 @@
 ---
 title: Altcoin Wallet. Your coins pro
-date: 2024-07-05
-website: https://altcoin-wallet.online/
+date: 2026-10-30
+website: https://altcoin-wallet.online/#deadLink
 redirect_from:
 - /android/com.altcoin.wallet/
 android:

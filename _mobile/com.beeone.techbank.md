@@ -1,6 +1,6 @@
 ---
 title: TechBank
-date: 2022-04-07
+date: 2026-10-30
 authors:
 - leo
 website: https://techbank.finance/
@@ -33,6 +33,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The app is gone from Google Play again.
 
 There are multiple apps in our list with a similar name of 'TechBank'.  
 

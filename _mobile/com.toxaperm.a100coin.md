@@ -1,7 +1,7 @@
 ---
 title: 100coin
-date: 2024-04-19
-website: https://100coin.ru
+date: 2026-10-30
+website: https://100coin.ru#deadLink
 redirect_from:
 - /android/com.toxaperm.a100coin/
 android:

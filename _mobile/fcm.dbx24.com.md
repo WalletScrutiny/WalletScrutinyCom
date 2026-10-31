@@ -1,7 +1,7 @@
 ---
 title: DBX 거래소
-date: 2024-04-26
-website: https://dbx24.com
+date: 2026-10-30
+website: https://dbx24.com#deadLink
 redirect_from:
 - /android/fcm.dbx24.com/
 android:

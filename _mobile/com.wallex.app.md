@@ -1,7 +1,7 @@
 ---
 title: Smart Custody
-date: 2025-03-19
-website: https://wallet.wallex.global/
+date: 2026-10-30
+website: https://wallet.wallex.global/#deadLink
 redirect_from:
 - /android/com.wallex.app/
 android:

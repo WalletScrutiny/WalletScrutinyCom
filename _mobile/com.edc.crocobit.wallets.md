@@ -1,7 +1,7 @@
 ---
 title: Crocobit Wallet
-date: 2023-09-15
-website: http://crocobit.net
+date: 2026-10-30
+website: http://crocobit.net#deadLink
 redirect_from:
 - /android/com.edc.crocobit.wallets/
 android:

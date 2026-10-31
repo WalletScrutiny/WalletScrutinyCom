@@ -1,7 +1,7 @@
 ---
 title: Virtual Coin Market
-date: 2024-04-03
-website: https://www.okanuysal.com/
+date: 2026-10-30
+website: https://okanuysal.com/
 redirect_from:
 - /android/cointrade.uysal.development.cointradesimulation/
 android:

@@ -1,6 +1,6 @@
 ---
 title: Blixt Wallet
-date: 2022-02-07
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -29,6 +29,8 @@ android:
   repository: https://github.com/BlixtWallet/blixt-wallet
 
 ---
+
+**Update 2026-10-30:** The code has moved to [github.com/smolcars/blixt-wallet](https://github.com/smolcars/blixt-wallet); the old BlixtWallet address redirects there.
 
 **Update 2022-02-07**: This wallet recently reached 1000 downloads on Play
 Store, so now it's time to see if it reproducible ...

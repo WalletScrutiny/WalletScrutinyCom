@@ -1,9 +1,9 @@
 ---
 title: CoinCRED IN
-date: 2025-05-30
+date: 2026-10-30
 authors:
 - danny
-website: https://coincred.org/
+website: https://coincredin.com/
 twitter: CoinCRED_
 social:
 - https://www.facebook.com/CoinCRED.Official/
@@ -37,6 +37,8 @@ iphone:
   developerName: CoinCRED
 
 ---
+
+**Update 2026-10-30:** CoinCRED's old website coincred.org no longer loads. The exchange now runs at [coincredin.com](https://coincredin.com/), which is also the address the Android app's privacy policy points to.
 
 ## Android
 

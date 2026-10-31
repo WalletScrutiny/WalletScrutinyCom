@@ -1,9 +1,9 @@
 ---
 title: DigiCOX
-date: 2023-04-22
+date: 2026-10-30
 authors:
 - danny
-website: https://digicox.com
+website: https://digicox.com#deadLink
 redirect_from:
 - /android/com.digicox.mobile/
 android:

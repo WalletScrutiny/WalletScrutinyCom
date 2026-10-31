@@ -1,9 +1,9 @@
 ---
 title: 'Open Wallet: BTC & ETH Wallet'
-date: 2025-11-14
+date: 2026-10-30
 authors:
 - danny
-website: https://openwallet.finance/
+website: https://openwallet.finance/#deadLink
 twitter: openwallet_com
 redirect_from:
 - /android/com.finverselabs.openwallet/
@@ -34,6 +34,8 @@ iphone:
   developerName: Finverse Labs
 
 ---
+
+**Update 2026-10-30:** The website no longer loads. In 2026 openwallet.finance forwarded to openwallet.com ([archive](https://web.archive.org/web/20260619185029/https://openwallet.finance/)), and openwallet.com now shows only an empty hosting page. The iPhone app is gone from the App Store; the Android app is still listed.
 
 ## Android
 
@@ -76,7 +78,7 @@ R1Dk4kZRVrYEVBgSsYB4QdEnOerT8E6AuZxH0dYTyBhRckMpwTfuTtQR
 
 We learned that this was a `EC P-256 (secp256r1) PKCS#8 key` and not the standard Bitcoin `raw 32-byte secp256k1`
 
-In their [terms](https://openwallet.finance/terms-conditions/), they describe themselves as non-custodial:
+In their [terms](https://web.archive.org/web/20250514105625/https://openwallet.finance/terms-conditions/), they describe themselves as non-custodial:
 
 > 14.3.5
 > OpenWallet does not, and will never, have custody or direct control over the funds, cryptocurrencies, or cryptographic tokens of End Users at any point.

@@ -1,6 +1,6 @@
 ---
 title: Bitnob
-date: 2021-10-07
+date: 2026-10-30
 authors:
 - danny
 website: https://bitnob.com
@@ -63,6 +63,8 @@ This app is primarily a method to save or invest in Bitcoin. Thus, its interface
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is available again in the US App Store.
 
 **Update 2022-01-15**: This app is not on the Store anymore.
 

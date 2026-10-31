@@ -1,7 +1,7 @@
 ---
 title: Duende
-date: 2024-07-19
-website: https://duende.me
+date: 2026-10-30
+website: https://duende.me#deadLink
 redirect_from:
 - /android/com.Duende.Duende/
 android:

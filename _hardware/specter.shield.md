@@ -13,7 +13,7 @@ weight:
 provider: Specter Solutions
 providerWebsite: https://specter.solutions
 website: 
-shop: https://specter.solutions/shop/specter-shield
+shop: https://specter.solutions/vendors
 country: 
 price: 350 EUR
 repository: https://github.com/cryptoadvance/specter-diy
@@ -21,7 +21,7 @@ icon: specter.shield.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2026-02-27
+date: 2026-10-30
 signer: 
 twitter: specterwallet
 social:
@@ -35,6 +35,8 @@ features:
 - secEl
 
 ---
+
+**Update 2026-10-30:** Specter no longer runs its own shop; the old Specter Shield shop page is gone. The [Specter website](https://specter.solutions/hardware) now sends buyers to [third-party vendors](https://specter.solutions/vendors) that sell the Shield preassembled or as parts, and the [firmware](https://github.com/cryptoadvance/specter-diy/releases) is still maintained (v1.10.5, September 2026).
 
 ## Product Description 
 

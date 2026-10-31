@@ -1,7 +1,7 @@
 ---
 title: CHP Wallet
-date: 2023-01-02
-website: https://www.suncapital.lk
+date: 2026-10-30
+website: https://www.suncapital.lk#deadLink
 redirect_from:
 - /android/lk.suncapital.chp/
 android:

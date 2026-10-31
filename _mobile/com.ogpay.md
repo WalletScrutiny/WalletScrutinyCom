@@ -1,6 +1,6 @@
 ---
 title: OGPay Business
-date: 2021-11-15
+date: 2026-10-30
 authors:
 - danny
 website: https://www.ogpaywallet.com
@@ -36,6 +36,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The app is now called OGPay Business. Its current Play and App Store descriptions talk only about business payments and a VISA debit card and no longer mention crypto.
 
 ## App Description
 

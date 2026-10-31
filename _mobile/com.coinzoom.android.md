@@ -1,6 +1,6 @@
 ---
 title: CoinZoom Buy, Spend, Send BTC
-date: 2023-03-30
+date: 2026-10-30
 authors:
 - danny
 website: https://www.coinzoom.com
@@ -62,9 +62,9 @@ Both have the same basic functions, but the Pro version has more features:
 |Limit orders| |**X**|
 |Stop orders| |**X**|
 
-To find out more, visit CoinZoom's [Support Page](https://support.coinzoom.com/support/solutions/articles/43000664330-coinzoom-app-compared-with-coinzoom-pro)
+To find out more, visit CoinZoom's [Support Page](https://web.archive.org/web/20230325205724/https://support.coinzoom.com/support/solutions/articles/43000664330-coinzoom-app-compared-with-coinzoom-pro)
 
-## App [Trust and Safety](https://www.coinzoom.com/trust-and-safety/) 
+## App [Trust and Safety](https://web.archive.org/web/20230328113503/https://www.coinzoom.com/trust-and-safety/) 
 
 > Layered security for access
 > All access to our platform requires multi-factor authentication (MFA) and user action is always tied back to an individual. To provide an enhanced security model, all user access and commands to the servers containing customer data are logged and monitored by CoinZoom’s security team.

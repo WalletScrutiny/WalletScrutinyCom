@@ -16,7 +16,7 @@ icon: jaxxliberty.webp
 bugbounty: 
 meta: defunct
 verdict: nosource
-date: 2025-04-23
+date: 2026-10-30
 twitter: jaxx_io
 social: 
 builds: 
@@ -26,7 +26,7 @@ features:
 
 ## Analysis
 
-Jaxx Liberty, developed by Decentral Inc., was officially discontinued on March 27, 2023, as announced in their [official blog post](https://blog.jaxx.io/sunsetting-jaxx-liberty-what-you-need-to-know). The wallet's website (jaxx.io) now redirects to Edge Wallet ({% include walletLink.html wallet='android/co.edgesecure.app' verdict='true' %}), which was recommended as one of the primary migration options alongside Exodus Wallet.
+Jaxx Liberty, developed by Decentral Inc., was officially discontinued on March 27, 2023, as announced in their [official blog post](https://web.archive.org/web/20251109152049/https://blog.jaxx.io/sunsetting-jaxx-liberty-what-you-need-to-know/). The wallet's website (jaxx.io) now redirects to Edge Wallet ({% include walletLink.html wallet='android/co.edgesecure.app' verdict='true' %}), which was recommended as one of the primary migration options alongside Exodus Wallet.
 
 The migration process relied on users' 12-word backup phrases, allowing them to restore their wallets in the new environment while maintaining control of their private keys.
 

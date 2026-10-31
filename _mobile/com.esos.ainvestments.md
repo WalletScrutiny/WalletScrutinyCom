@@ -1,7 +1,7 @@
 ---
 title: AInvestments - Online Trading
-date: 2023-09-28
-website: https://www.ainvestments.com/
+date: 2026-10-30
+website: https://www.ainvestments.com/#deadLink
 redirect_from:
 - /android/com.esos.ainvestments/
 android:

@@ -1,6 +1,6 @@
 ---
 title: Cofinex.io Buy BTC, ETH, LTC
-date: 2023-08-04
+date: 2026-10-30
 authors:
 - danny
 website: https://cofinex.io
@@ -34,6 +34,8 @@ iphone:
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** Cofinex now offers a new app, "Cofinex: Buy Crypto, Stocks" (`io.cofinex.cofinex_mobile_app` on Android, and an iPhone app released in January 2026), linked from [cofinex.io](https://cofinex.io/en). It is not listed here yet.
 
 ## Android
 

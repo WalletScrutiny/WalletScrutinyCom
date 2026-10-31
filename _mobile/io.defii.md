@@ -1,7 +1,7 @@
 ---
 title: Defii
-date: 2024-02-05
-website: https://defii.app/
+date: 2026-10-30
+website: https://web.archive.org/web/20210504041353/https://defii.app/
 redirect_from:
 - /android/io.defii/
 android:

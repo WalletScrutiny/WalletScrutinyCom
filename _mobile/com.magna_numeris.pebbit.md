@@ -1,7 +1,7 @@
 ---
 title: Pebbit
-date: 2024-02-05
-website: https://pebbit.app
+date: 2026-10-30
+website: https://pebbit.app#deadLink
 redirect_from:
 - /android/com.magna_numeris.pebbit/
 android:

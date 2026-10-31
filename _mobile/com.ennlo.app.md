@@ -1,7 +1,7 @@
 ---
 title: Ennlo
-date: 2024-02-05
-website: https://ennlo.com
+date: 2026-10-30
+website: https://ennlo.com#deadLink
 redirect_from:
 - /android/com.ennlo.app/
 android:

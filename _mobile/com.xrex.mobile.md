@@ -1,6 +1,6 @@
 ---
 title: XREX:Buy Crypto,Bitcoin & USDT
-date: 2021-11-15
+date: 2026-10-30
 authors:
 - danny
 website: https://xrex.io/
@@ -25,7 +25,7 @@ android:
 iphone:
   appId: com.xrex.mobile
   idd: 1482096895
-  appCountry: in
+  appCountry: tw
   released: 2020-02-19
   updated: 2025-07-31
   version: 2.1.668

@@ -8,8 +8,8 @@ authors:
 - danny
 released: 2014-08-01
 discontinued: 
-updated: 2026-06-05
-version: 7.14.1
+updated: 2026-10-16
+version: 7.14.3
 binaries: https://github.com/keepkey/keepkey-firmware/releases
 dimensions:
 - 38
@@ -18,16 +18,16 @@ dimensions:
 weight: 54
 provider: 
 providerWebsite: 
-website: https://shapeshift.com
-shop: https://shapeshift.com/keepkey#deadLink
+website: https://keepkey.com
+shop: https://keepkey.com/store
 country: US
-price: 49USD
+price: 59.95USD
 repository: https://github.com/keepkey/keepkey-firmware
 icon: keepKey.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2024-05-10
+date: 2026-10-30
 signer: 
 twitter: ShapeShift
 social:

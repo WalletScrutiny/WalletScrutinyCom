@@ -1,6 +1,6 @@
 ---
 title: Investing&Trading
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.liteforex.com
@@ -35,6 +35,8 @@ iphone:
   developerName: Liteforex (Europe) Limited
 
 ---
+
+**Update 2026-10-30:** LiteForex now operates as LiteFinance, and liteforex.com redirects to [litefinance.org](https://www.litefinance.org/). Its current app is {% include walletLink.html wallet='android/com.litefinance.cabinet' verdict='true' %}.
 
 > LiteForex: Investments and Trading is a high-tech Forex app developed by LiteForex specialists that has the most user-friendly interface for online trading and investing on financial markets. 
 

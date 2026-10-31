@@ -1,6 +1,6 @@
 ---
 title: 'Bitkit: Bitcoin Wallet'
-date: 2024-12-25
+date: 2026-10-30
 authors:
 - danny
 - basantagoswami
@@ -35,7 +35,7 @@ android:
   meta: ok
   verdict: sourceavailable
   developerName: Synonym
-  repository: https://github.com/synonymdev/bitkit
+  repository: https://github.com/synonymdev/bitkit-android
 iphone:
   appId: to.bitkit
   idd: '6502440655'
@@ -54,6 +54,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The Android source code now lives in [synonymdev/bitkit-android](https://github.com/synonymdev/bitkit-android). The old [synonymdev/bitkit](https://github.com/synonymdev/bitkit) repository is now only an index pointing to the app repositories, and the old React Native app moved to the archived [synonymdev/bitkit-react-native](https://github.com/synonymdev/bitkit-react-native), so we updated the links.
+
 ## App Description
 
 Bitkit is a native Android Bitcoin and Lightning wallet developed by Synonym, built in Kotlin with Jetpack Compose and backed by `ldk-node` (LDK-based Lightning) and `bitkit-core` Rust bindings distributed as GitHub Packages. It supports on-chain HD wallets with BIP39 seed backup, self-custodial Lightning channels, and Bech32/SegWit addresses. The app uses a multi-flavor Gradle build (dev/tnet/mainnetRelease) with Firebase and Hilt dependency injection.
@@ -68,7 +70,7 @@ This app is **source-available**.
 
 {% include featureEvidence.html feature="segwit" quote="The app has a Bech32 BTC address" source="Analysis" %}
 
-An issue has been opened at [https://github.com/synonymdev/bitkit/issues/2414#deadLink](https://github.com/synonymdev/bitkit/issues/2414#deadLink)
+An issue has been opened at [https://github.com/synonymdev/bitkit-react-native/issues/2414](https://github.com/synonymdev/bitkit-react-native/issues/2414)
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: BitDATA Pro - Buy & Sell BTC
-date: 2021-08-08
+date: 2026-10-30
 website: https://www.bitdata.site
 redirect_from:
 - /android/com.qm.bitdata.pro/
@@ -17,4 +17,3 @@ android:
   developerName: BitDATA FINTECH Co., Limited
 
 ---
-

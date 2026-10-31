@@ -1,6 +1,6 @@
 ---
 title: UGLYCASH
-date: 2023-07-01
+date: 2026-10-30
 authors:
 - danny
 website: https://uglycash.app/
@@ -24,6 +24,8 @@ android:
   developerName: Best Friend Finance, LLC
 
 ---
+
+**Update 2026-10-30:** The Reserve app is now called UGLYCASH, a name chosen to set it apart from the Reserve Protocol. In August 2026 it returned to Venezuela under the new name, and old Reserve accounts carry over with their balances ([La Verdad](https://laverdad.com/reserve-retorna-al-mercado-venezolano-bajo-la-marca-uglycash/), [Arepa Tecnológica](https://arepatecnologica.com/uglycash-venezuela-reserve-regreso/)).
 
 ## App Description from Google Play
 

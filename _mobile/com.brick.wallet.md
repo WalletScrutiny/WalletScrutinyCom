@@ -1,7 +1,7 @@
 ---
 title: Brick Wallet
-date: 2023-01-02
-website: https://brick.global
+date: 2026-10-30
+website: https://web.archive.org/web/20220110104338/https://brick.global/
 redirect_from:
 - /android/com.brick.wallet/
 android:

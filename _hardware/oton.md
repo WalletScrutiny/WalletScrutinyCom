@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: OTON Technology Limited / Plazma Premier
 providerWebsite: https://oton.org
-website: https://www.oton.technology/
+website: https://www.oton.technology/#deadLink
 shop: https://oton.club/purchase#deadLink
 country: SC
 price: 
@@ -21,7 +21,7 @@ icon: oton.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2024-10-22
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -29,6 +29,10 @@ builds:
 features: 
 
 ---
+
+## Update 2026-10-30
+
+The product site [oton.technology](https://www.oton.technology/#deadLink) is gone; it now shows a hosting placeholder. OTON still runs a web wallet login at [wallet.oton.org](https://wallet.oton.org/), but we found no sign that the hardware wallet ever shipped.
 
 ## Update 2024-10-22
 
@@ -46,7 +50,7 @@ The project also has three primary domains: oton.technology, oton.market and oto
 
 There are some documents that were cached by Google Cache, but otherwise are not available to download by clicking directly: 
 
-- [OTON Wallet Pre-Order Terms and Conditions](https://webcache.googleusercontent.com/search?q=cache:frRhJUd5OVAJ:https://wallet.oton.technology/docs/pre-order-terms-and-conditions.pdf)
+- [OTON Wallet Pre-Order Terms and Conditions](https://webcache.googleusercontent.com/search?q=cache:frRhJUd5OVAJ:https://wallet.oton.technology/docs/pre-order-terms-and-conditions.pdf#deadLink)
 
 - [OTON Terms and Conditions](https://www.oton.technology/OtonTechnology_TermsAndConditions.pdf#deadLink)
 

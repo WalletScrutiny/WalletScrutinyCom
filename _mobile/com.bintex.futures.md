@@ -1,7 +1,7 @@
 ---
 title: Bintex Wallet
-date: 2023-01-02
-website: https://bintexfutures.com
+date: 2026-10-30
+website: https://bintexfutures.com#deadLink
 redirect_from:
 - /android/com.bintex.futures/
 android:

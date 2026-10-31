@@ -1,9 +1,9 @@
 ---
 title: ivendPay POS
-date: 2024-08-31
+date: 2026-10-30
 authors:
 - danny
-website: https://ivendpay.com
+website: https://web.archive.org/web/20260606202212/https://ivpay.io/
 twitter: ivendpay
 social:
 - https://www.linkedin.com/company/ivendpay
@@ -37,6 +37,8 @@ iphone:
 
 ---
 
+**Update 2026-10-30:** ivendPay now calls itself IVPAY. Since at least December 2024, ivendpay.com forwarded to [ivpay.io](https://web.archive.org/web/20260606202212/https://ivpay.io/), and the iPhone app is now named IVPAY. Neither ivendpay.com nor ivpay.io loads any more, so the website link above points to an archived copy from June 2026.
+
 ## Android
 
 ## App Description from Google Play
@@ -54,7 +56,7 @@ iphone:
 
 1. Once we installed the app, we were told to login to ivendPay
 2. The app is primarily marketed to merchants who wish to accept various cryptocurrencies. Once paired with a bluetooth printer, the merchant can then issue receipts.
-3. We took a look at its [terms and conditions](https://ivendpay.com/terms/)
+3. We took a look at its [terms and conditions](https://web.archive.org/web/20240910172153/https://ivendpay.com/terms/)
 
 Section 1.1.1.f:
 

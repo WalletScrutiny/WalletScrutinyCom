@@ -1,9 +1,9 @@
 ---
 title: Dexfin Wallet
-date: 2024-08-07
+date: 2026-10-30
 authors:
 - danny
-website: https://www.dexfin.com
+website: https://www.dexfin.com#deadLink
 twitter: https://twitter.com/dexfinexchange
 social:
 - https://www.linkedin.com/company/dexfin

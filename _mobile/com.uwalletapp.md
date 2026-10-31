@@ -1,6 +1,6 @@
 ---
 title: Utrust Wallet
-date: 2021-01-23
+date: 2026-10-30
 website: https://utrust.com
 twitter: utrust
 social:
@@ -21,6 +21,8 @@ android:
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** Utrust [rebranded to xMoney](https://www.coincarp.com/events/utrust-rebranding-to-xmoney/) in 2023, and utrust.com now redirects to [xMoney](https://www.xmoney.com/).
 
 **Update:** This app is not available on Google Play anymore
 

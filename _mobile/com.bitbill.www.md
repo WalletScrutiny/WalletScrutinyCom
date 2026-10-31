@@ -1,6 +1,6 @@
 ---
 title: 'Ownbit: MultiSig & Cold Wallet'
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -39,6 +39,8 @@ iphone:
   developerName: BITTOOL PTE. LTD.
 
 ---
+
+**Update 2026-10-30:** On 2026-10-26 Ownbit published the part of its code that touches private keys as [bitbill/ownbit-app-50](https://github.com/bitbill/ownbit-app-50) under the MIT license. It covers both apps; the iOS key handling comes as a Swift package. Its README says that "the user interface and the code that talks to Ownbit's servers are not part of it", so nobody can build either app from source and the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 ## Android
 

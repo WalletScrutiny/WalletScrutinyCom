@@ -1,6 +1,6 @@
 ---
 title: PlatinX Indian Crypto Exchange
-date: 2025-02-04
+date: 2026-10-30
 website: https://platinx.exchange/
 redirect_from:
 - /android/com.platinx.exchange.flutter_platinx_exchange/
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**Update 2026-10-30:** This app is gone from Google Play, but PlatinX still runs its exchange, and its [website](https://platinx.exchange/) now links to a newer PlatinX app for Android and iPhone that replaced this one.

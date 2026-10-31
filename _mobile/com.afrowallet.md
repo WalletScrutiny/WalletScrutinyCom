@@ -1,7 +1,7 @@
 ---
 title: AFRO WALLET
-date: 2024-04-03
-website: https://afrofoundation.com/
+date: 2026-10-30
+website: https://web.archive.org/web/20221130203541/https://afrofoundation.com/
 redirect_from:
 - /android/com.afrowallet/
 android:

@@ -16,7 +16,7 @@ weight:
 provider: Excelsecu Data Technology Co., Ltd
 providerWebsite: https://www.excelsecu.com/
 website: 
-shop: https://www.excelsecu.com/productdetail/esecucarddispl.html
+shop: https://www.excelsecu.com/productdetail/esecucards300.html
 country: CN
 price: 85USD
 repository: 
@@ -24,7 +24,7 @@ icon: esecucards300.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-03-23
+date: 2026-10-30
 signer: 
 twitter: 
 social:

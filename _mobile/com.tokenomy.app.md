@@ -1,6 +1,6 @@
 ---
 title: Tokenomy
-date: 2024-05-07
+date: 2026-10-30
 authors:
 - danny
 website: https://www.tokenomy.com
@@ -36,6 +36,8 @@ iphone:
   developerName: Tennet technologies Inc.
 
 ---
+
+**Update 2026-10-30:** Tokenomy no longer runs the exchange, Earn and Loan service this app was for. Per Tokenomy's LinkedIn profile, quoted by [Cryptowisser](https://www.cryptowisser.com/exchange/tokenomy/), the business was rebranded as [CAMP Investment](https://www.campinvestment.com) on 2023-12-08, which now serves institutional investors. The [Tokenomy website](https://tokenomy.com) is now a token launchpad for TEN holders.
 
 ## Android
 

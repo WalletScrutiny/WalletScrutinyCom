@@ -1,7 +1,7 @@
 ---
 title: Touch Social
-date: 2024-07-05
-website: https://touchsocial.xyz
+date: 2026-10-30
+website: https://touchsocial.xyz#deadLink
 redirect_from:
 - /android/xyz.touchsocial.app/
 android:

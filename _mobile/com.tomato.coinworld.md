@@ -1,7 +1,7 @@
 ---
 title: 코인나라 (TDPay) - coinnara
-date: 2024-04-24
-website: http://swmakekr.com/html/index.html
+date: 2026-10-30
+website: http://swmakekr.com/html/index.html#deadLink
 redirect_from:
 - /android/com.tomato.coinworld/
 android:

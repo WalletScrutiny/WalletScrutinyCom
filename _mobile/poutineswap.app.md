@@ -1,7 +1,7 @@
 ---
 title: PoutineSwap
-date: 2024-04-19
-website: https://poutineswap.com
+date: 2026-10-30
+website: https://poutineswap.com#deadLink
 redirect_from:
 - /android/poutineswap.app/
 android:

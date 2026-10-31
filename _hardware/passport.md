@@ -7,7 +7,7 @@ authors:
 - '@sethforprivacy'
 - leo
 released: 2020-07-01
-discontinued: 
+discontinued: 2022-03-10
 updated: 2024-02-21
 version: v2.3.0
 binaries: https://github.com/Foundation-Devices/passport2/releases
@@ -27,7 +27,7 @@ icon: passport.webp
 bugbounty: https://foundationdevices.com/security/
 meta: discontinued
 verdict: sourceavailable
-date: 2024-04-18
+date: 2026-10-30
 signer: 
 twitter: FOUNDATIONdvcs
 social:

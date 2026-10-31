@@ -1,7 +1,7 @@
 ---
 title: Dart Africa
-date: 2023-06-21
-website: https://dartafrica.io
+date: 2026-10-30
+website: https://dartafrica.io#deadLink
 redirect_from:
 - /android/com.dartafrica/
 android:

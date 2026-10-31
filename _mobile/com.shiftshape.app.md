@@ -1,6 +1,6 @@
 ---
 title: Portis - Multi Blockchain Wallet
-date: 2021-08-31
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -17,6 +17,8 @@ android:
   verdict: wip
 
 ---
+
+**Update 2026-10-30:** Portis shut down: its help center says the service was [completely discontinued on 2025-06-20](https://portis.zendesk.com/hc/en-us/articles/35727224803604-Portis-Shutdown), and portis.io now redirects to kraken.com. Contrary to the note below, the similar {% include walletLink.html wallet='android/com.shiftshape.wallet' verdict='true' %} is listed as {% include verdictBadge.html verdict="wip" type='short' %}, not as defunct.
 
 **Update 2021-08-23**: This app is no more on Play Store. Some time ago
 we marked as {% include verdictBadge.html verdict="defunct" type='short' %} a

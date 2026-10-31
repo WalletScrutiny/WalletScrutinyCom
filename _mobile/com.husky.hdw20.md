@@ -1,7 +1,7 @@
 ---
 title: Husky HDW20 Hardware Wallet
-date: 2023-12-19
-website: https://www.huskywallet.com/
+date: 2026-10-30
+website: https://www.huskywallet.com/#deadLink
 redirect_from:
 - /android/com.husky.hdw20/
 - /iphone/com.husky.hdw20/

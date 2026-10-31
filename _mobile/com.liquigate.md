@@ -1,7 +1,7 @@
 ---
 title: Bitcoin Cashback Shopping onli
-date: 2023-12-19
-website: https://www.liquigate.com
+date: 2026-10-30
+website: https://www.liquigate.com#deadLink
 redirect_from:
 - /android/com.liquigate/
 android:

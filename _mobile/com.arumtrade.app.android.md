@@ -1,14 +1,14 @@
 ---
 title: Arum Trade — Investing  & Trad
-date: 2024-04-03
+date: 2026-10-30
 authors:
 - danny
-website: https://arumtrade.com
+website: https://arumtrade.com#deadLink
 twitter: ArumTrade
 social:
 - https://www.facebook.com/arumtrade
 - https://www.instagram.com/arum_trade
-- https://arumtrade.com/en
+- https://arumtrade.com/en#deadLink
 redirect_from:
 - /android/com.arumtrade.app.android/
 android:

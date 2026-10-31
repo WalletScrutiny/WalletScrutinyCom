@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Wallet - Airbitz
-date: 2021-10-19
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -40,6 +40,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The registration of [airbitz.co](http://airbitz.co/) has expired and the domain shows a Namecheap parking page.
 
 *Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/4858b0b76e8e8e7fe6c60e2e3af81360a79bed91/_android/com.airbitz.md)*
 

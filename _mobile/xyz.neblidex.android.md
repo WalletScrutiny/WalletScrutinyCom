@@ -1,7 +1,7 @@
 ---
 title: NebliDex
-date: 2024-04-19
-website: https://www.neblidex.xyz
+date: 2026-10-30
+website: https://www.neblidex.xyz#deadLink
 redirect_from:
 - /android/xyz.neblidex.android/
 android:

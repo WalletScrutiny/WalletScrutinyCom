@@ -1,7 +1,7 @@
 ---
 title: InstaFx
-date: 2024-12-04
-website: https://instfx.com/
+date: 2026-10-30
+website: https://instfx.com/#deadLink
 redirect_from:
 - /android/com.web.instafx/
 android:
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**Update 2026-10-30:** The InstaFx website domain is now for sale.

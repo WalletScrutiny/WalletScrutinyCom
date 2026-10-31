@@ -15,17 +15,17 @@ dimensions:
 - 1.2
 weight: 35
 provider: Ballet
-providerWebsite: https://www.balletcrypto.com
-website: https://www.balletcrypto.com/en/real/
-shop: https://www.balletcrypto.com/en/buy/
+providerWebsite: https://www.ballet.com
+website: https://www.ballet.com/en/real/
+shop: https://store.ballet.com/products/ballet-wallet
 country: US
-price: 35USD
+price: 49USD
 repository: 
 icon: balletcryptoreal.webp
 bugbounty: 
 meta: ok
 verdict: sealed-plainkey
-date: 2022-03-23
+date: 2026-10-30
 signer: 
 twitter: BalletCrypto
 social:

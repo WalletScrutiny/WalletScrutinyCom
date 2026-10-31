@@ -1,6 +1,6 @@
 ---
 title: Zoomex-BTC, ETH Crypto Trading
-date: 2023-07-01
+date: 2026-10-30
 authors:
 - danny
 twitter: zoomexofficial
@@ -35,6 +35,8 @@ iphone:
   developerName: Octochain Fintech Limited
 
 ---
+
+**Update 2026-10-30:** Both Zoomex apps are gone from the stores. The [Zoomex exchange](https://www.zoomex.com) still runs, and the same provider now publishes the lighter {% include walletLink.html wallet='android/co.zmex.app' verdict='true' %} app, which is also {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## Android
 

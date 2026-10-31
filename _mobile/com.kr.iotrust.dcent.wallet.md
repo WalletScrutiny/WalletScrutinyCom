@@ -1,6 +1,6 @@
 ---
 title: DCENT Wallet - Secure Crypto
-date: 2022-01-10
+date: 2026-10-30
 authors:
 - kiwilamb
 - danny
@@ -45,6 +45,9 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The provider
+[renamed itself from D'CENT to DCENT](https://store.dcentwallet.com/blogs/post/dcent-is-now-dcent).
 
 ## Update 2024-07-15
 

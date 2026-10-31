@@ -12,9 +12,9 @@ binaries:
 dimensions: 
 weight: 
 provider: Sirin Labs
-providerWebsite: https://sirinlabs.com/
-website: https://sirinlabs.com/
-shop: https://shop.sirinlabs.com/products/finney
+providerWebsite: https://sirinlabs.com/#deadLink
+website: https://sirinlabs.com/#deadLink
+shop: https://shop.sirinlabs.com/products/finney#deadLink
 country: UK
 price: 999USD
 repository: 
@@ -22,7 +22,7 @@ icon: finney.webp
 bugbounty: 
 meta: defunct
 verdict: nosource
-date: 2025-03-19
+date: 2026-10-30
 signer: 
 twitter: SIRINLABS
 social:
@@ -43,13 +43,13 @@ product as defunct.
 
 This app comes from the same providers as {% include walletLinkArchived.html wallet='hardware/sirinv3' %}
 
-From [the product page:](https://shop.sirinlabs.com/products/finney)
+From [the product page:](https://web.archive.org/web/20230930132158/https://shop.sirinlabs.com/products/finney)
 
 > State-of-the-art ultra secured Blockchain smartphone. <br />
 The FINNEY™ is powered by SIRIN OS™ which includes an outstanding Security Suite Layer, Embedded Cold Storage Wallet, Token Conversion Center and the best of DApp nation featured on Sirin's dCENTER.
 
 
-On the support page, there is [information](https://shop.sirinlabs.com/pages/support) about the mnemonic.
+On the support page, there is [information](https://web.archive.org/web/20230923181156/https://shop.sirinlabs.com/pages/support/) about the mnemonic.
 
 > The recovery seed contains a sequence of 24 word– - uniquely and securely generated inside your wallet when you first set it up.
 
@@ -75,7 +75,7 @@ The [whitepaper](https://cryptorating.eu/whitepapers/SIRIN-LABS/SIRINLABS_-_Whit
 
 ## Private keys can be created offline - ❓
 
-The user guide can be downloaded [here.](https://docs.sirinlabs.com/FINNEY-GUIDE.pdf) Initialization involves pulling out or sliding up the “Safe Screen” to begin the initialization process. The FINNEY Wallet app is then installed as well as the firmware. A wallet is then generated with a 24-word seed phrase. The seed phrases are displayed on the Safe Screen and the user can then verify it. 
+The user guide can be downloaded [here.](https://web.archive.org/web/20210416154418/https://docs.sirinlabs.com/FINNEY-GUIDE.pdf) Initialization involves pulling out or sliding up the “Safe Screen” to begin the initialization process. The FINNEY Wallet app is then installed as well as the firmware. A wallet is then generated with a 24-word seed phrase. The seed phrases are displayed on the Safe Screen and the user can then verify it. 
 
 The user guide then mentions syncing the FINNEY wallet app.
 

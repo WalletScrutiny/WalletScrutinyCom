@@ -1,7 +1,7 @@
 ---
 title: TenetX
-date: 2024-04-19
-website: https://tenetx.io
+date: 2026-10-30
+website: https://tenetx.io#deadLink
 redirect_from:
 - /android/io.shdigital.tenetx.android/
 android:

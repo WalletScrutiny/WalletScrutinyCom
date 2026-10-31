@@ -1,9 +1,9 @@
 ---
 title: Bit7Pay Bitcoin and Other Cryp
-date: 2023-05-04
+date: 2026-10-30
 authors:
 - danny
-website: http://bit7pay.com
+website: http://bit7pay.com#deadLink
 twitter: bit7pay
 redirect_from:
 - /android/bit7pay.com.bit7pay/

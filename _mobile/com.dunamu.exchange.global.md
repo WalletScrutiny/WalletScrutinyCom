@@ -1,6 +1,6 @@
 ---
 title: Upbit (Global)
-date: 2021-10-10
+date: 2026-10-30
 authors:
 - danny
 website: https://www.dunamu.com
@@ -27,6 +27,7 @@ android:
 iphone:
   appId: com.dunamu.upbit.global
   idd: 1439527412
+  appCountry: sg
   released: 2018-11-06
   updated: 2022-11-16
   version: 1.7.20
@@ -74,5 +75,7 @@ This is a **custodial** app, and therefore **not verifiable.**
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app ("Upbit Global") is not in the US App Store but is available in the Singapore App Store, so we set its store country to Singapore.
 
 The Android analysis above applies to the iPhone app too.

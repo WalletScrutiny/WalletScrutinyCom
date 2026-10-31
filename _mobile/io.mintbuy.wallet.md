@@ -1,7 +1,7 @@
 ---
 title: Mint Wallet
-date: 2024-04-03
-website: https://mintmoney.org
+date: 2026-10-30
+website: https://mintmoney.org#deadLink
 redirect_from:
 - /android/io.mintbuy.wallet/
 android:

@@ -1,7 +1,7 @@
 ---
 title: OctoWallet Manager
-date: 2024-04-03
-website: http://www.octowallet.com
+date: 2026-10-30
+website: http://www.octowallet.com#deadLink
 redirect_from:
 - /android/com.octowallet.manager/
 android:

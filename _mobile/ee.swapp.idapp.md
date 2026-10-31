@@ -1,9 +1,9 @@
 ---
 title: SwappID
-date: 2023-07-31
+date: 2026-10-30
 authors:
 - danny
-website: https://swapp.ee
+website: https://swapp.ee#deadLink
 redirect_from:
 - /android/ee.swapp.idapp/
 android:

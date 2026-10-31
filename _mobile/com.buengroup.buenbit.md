@@ -1,6 +1,6 @@
 ---
 title: 'Buenbit by Nexo: Invierte bien'
-date: 2023-12-14
+date: 2026-10-30
 authors:
 - danny
 website: https://www.buenbit.com
@@ -33,6 +33,8 @@ iphone:
   developerName: Buenbit
 
 ---
+
+**Update 2026-10-30:** Nexo bought Buenbit in December 2025 ([Business Wire](https://www.businesswire.com/news/home/20251211358777/en)). Buenbit accounts moved to Nexo in April and May 2026 and were then closed ([Buenbit](https://buenbit.substack.com/p/buenbit-se-integra-a-nexo-el-1-de)). Both Buenbit apps are gone, and buenbit.com now opens the Nexo website. Former users continue in {% include walletLink.html wallet='android/com.nexowallet' verdict='true' %}.
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: ZamWallet Crypto, DeFi, Invest
-date: 2025-02-26
+date: 2026-10-30
 authors:
 - danny
 website: http://zam.io
@@ -62,14 +62,14 @@ The wallet has its own token $ZAM.
 
 ## The Site
 
-### [Terms and Conditions (PDF)](https://zam.io/docs/debe5b38c66e212ac7afddf8293af433.pdf)
+### [Terms and Conditions (PDF)](https://web.archive.org/web/20221221110225/https://zam.io/docs/debe5b38c66e212ac7afddf8293af433.pdf)
 
 > The User acknowledges that the Company may restrict User access to the Website in the form of service termination or service suspension, or otherwise the prohibition of the User from entering the Website or
 accessing any contents of the Website.
 
 There is no mention of private key, mnemonics or seed-phrases.
 
-### [AML/KYC (PDF)](https://zam.io/docs/AML_Policy_zam.io.pdf)
+### [AML/KYC (PDF)](https://web.archive.org/web/20220207141038/https://zam.io/docs/AML_Policy_zam.io.pdf)
 
 Zam files SARs (Suspicious Activity/Currency Transaction Reports).
 
@@ -79,7 +79,7 @@ Zam files SARs (Suspicious Activity/Currency Transaction Reports).
 
 ### Documentation is available for the self-custodial Zam DeFi wallet
 
-Details about Zam's self-custodial version 'DeFi Wallet' is available on this [page](https://docs.zam.io/ecosystem/zam.io-zamwallet/defi-wallet).
+Details about Zam's self-custodial version 'DeFi Wallet' is available on this [page](https://web.archive.org/web/20260520012053/https://docs.zam.io/ecosystem/zam.io-zamwallet/defi-wallet).
 
 ## The App
 

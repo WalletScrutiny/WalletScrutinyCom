@@ -1,6 +1,6 @@
 ---
 title: 'Coinhako: Buy Bitcoin & Crypto'
-date: 2021-04-23
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
@@ -42,6 +42,8 @@ iphone:
   developerName: CoinHako
 
 ---
+
+**Update 2026-10-30:** In July 2026 Japan's SBI Holdings [took a majority stake](https://www.theblock.co/news/deals/2026-07-17-sbi-holdings-completes-majority-acquisition-of-singapore-crypto-platform-coinhako-following-mas-approval-408761) in Coinhako after approval by Singapore's MAS.
 
 ## Android
 

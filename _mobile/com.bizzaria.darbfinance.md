@@ -1,7 +1,7 @@
 ---
 title: Darb Finance
-date: 2023-12-19
-website: https://darbfinance.com
+date: 2026-10-30
+website: https://darbfinance.com#deadLink
 redirect_from:
 - /android/com.bizzaria.darbfinance/
 android:

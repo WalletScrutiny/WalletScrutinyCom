@@ -1,7 +1,7 @@
 ---
 title: mahcard
-date: 2023-11-02
-website: https://mahcard.co
+date: 2026-10-30
+website: https://mahcard.co#deadLink
 redirect_from:
 - /android/com.mahcard.mahcardapp/
 android:

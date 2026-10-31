@@ -1,6 +1,6 @@
 ---
 title: Cobo Wallet
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - leo
 website: https://cobo.com
@@ -43,6 +43,8 @@ iphone:
   developerName: Cobo Global Limited
 
 ---
+
+**Update 2026-10-30:** Cobo is shutting down both apps. Its [announcement of 2026-10-15](https://www.cobo.com/zh/post/Cobo-Wallet-2026-10-15-1406) says the Cobo Wallet App stops service on 2026-12-01 (UTC+8), and users must move all assets out before then.
 
 ## Android
 

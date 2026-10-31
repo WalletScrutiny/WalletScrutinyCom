@@ -1,6 +1,6 @@
 ---
 title: 'Bitwala: Crypto Wallet & Card'
-date: 2024-07-17
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitwala.com
@@ -34,6 +34,8 @@ iphone:
   developerName: Bitwala
 
 ---
+
+**Update 2026-10-30:** Bitwala (Nuri) went insolvent in 2022 and relaunched in late 2023 with Striga as its banking partner ([The Paypers](https://thepaypers.com/crypto-web3-and-cbdc/news/bitwala-relaunches-via-partnership-with-striga)). The app is now a wallet without a seed phrase that uses multi-party computation (MPC) instead of the BitGo vault described below ([Bitwala](https://bitwala.com/wallet)). We found no source code for the new app ([GitHub](https://github.com/orgs/bitwala/repositories)).
 
 ## Android
 
@@ -81,13 +83,13 @@ From the site description:
 
 The app is complicated as it offers both custodial and non-custodial wallets. 
 
-It identifies its non-custodial wallets as ["Vaults"](https://nuri.com/how-to/wallet/)
+It identifies its non-custodial wallets as ["Vaults"](https://web.archive.org/web/20210730162115/https://nuri.com/how-to/wallet/)
 
 > The Bitcoin (BTC) VAult is available on both web and mobile devices and is a multi-signature non-custodial wallet. A multi-signature protocol, available for Bitcoin acts as a built-in additional security factor. The wallet is backed up with two seed phrases, which let you recover and access your bitcoin in case you lose access to your Nuri account. Under no circumstances, Nuri or anyone else can access or control your funds or transactions.
 
 More information on the distinction between [Nuri Wallets vs Vaults](https://support.nuri.com/hc/en-gb/articles/360022033460-Wallets-Vaults-What-s-the-difference-#deadLink)
 
-Nuri also has a [risk and disclosure page](https://nuri.com/uploads/Nuri_Bitcoin_Interest_Account_Risk_Warning_EN_b93582385c.pdf)
+Nuri also has a [risk and disclosure page](https://web.archive.org/web/20220714170923/https://nuri.com/uploads/Nuri_Bitcoin_Interest_Account_Risk_Warning_EN_b93582385c.pdf)
 
 > Investors cannot verify whether Celsius Network conducts business activities that will enable it to service the claims of investors from the Bitcoin Interest Account in the future.The business activities carried out by Celsius Network may result in further risks for Nuri investors.
 

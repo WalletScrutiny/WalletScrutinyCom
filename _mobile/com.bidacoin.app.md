@@ -1,7 +1,7 @@
 ---
 title: Bidacoin
-date: 2023-08-04
-website: https://bidacoin.io/#/
+date: 2026-10-30
+website: https://bidacoin.io/#deadLink
 redirect_from:
 - /android/com.bidacoin.app/
 android:

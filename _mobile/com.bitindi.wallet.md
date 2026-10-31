@@ -1,7 +1,7 @@
 ---
 title: Bitindi Wallet
-date: 2024-04-03
-website: https://bitindi.com
+date: 2026-10-30
+website: https://bitindi.com#deadLink
 redirect_from:
 - /android/com.bitindi.wallet/
 android:

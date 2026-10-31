@@ -1,7 +1,7 @@
 ---
 title: ExxBank
-date: 2024-04-03
-website: https://exxbank.com/
+date: 2026-10-30
+website: https://exxbank.com/#deadLink
 redirect_from:
 - /android/com.equuslabs.sample/
 android:

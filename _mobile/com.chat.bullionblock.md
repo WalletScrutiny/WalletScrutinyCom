@@ -1,7 +1,7 @@
 ---
 title: BullionBlock
-date: 2024-02-05
-website: https://bullionblock.ltd
+date: 2026-10-30
+website: https://bullionblock.ltd#deadLink
 redirect_from:
 - /android/com.chat.bullionblock/
 android:

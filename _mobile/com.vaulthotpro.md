@@ -1,6 +1,6 @@
 ---
 title: Cobo Vault
-date: 2021-11-17
+date: 2026-10-30
 authors:
 - danny
 website: https://cobo.com/
@@ -39,6 +39,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The repository linked here, [cobo-vault-cold](https://github.com/CoboVault/cobo-vault-cold), calls itself the "Cobo Vault v2 android application" and describes the air-gapped hardware wallet, so it does not look like the source of this phone app.
 
 **Update 2022-01-03:** Cobo Vault has been deprecated in favor of {% include walletLink.html wallet='android/com.keystone.mobile' verdict='true' %}
 

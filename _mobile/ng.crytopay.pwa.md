@@ -1,7 +1,7 @@
 ---
 title: Cryptopay.ng | Buy, Sell & Exc
-date: 2024-05-07
-website: https://cryptopay.ng/
+date: 2026-10-30
+website: https://cryptopay.ng/#deadLink
 redirect_from:
 - /android/ng.crytopay.pwa/
 android:

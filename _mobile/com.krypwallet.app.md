@@ -1,7 +1,7 @@
 ---
 title: Kryp Wallet
-date: 2024-04-19
-website: http://159.65.248.120/
+date: 2026-10-30
+website: http://159.65.248.120/#deadLink
 redirect_from:
 - /android/com.krypwallet.app/
 android:

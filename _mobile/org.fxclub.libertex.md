@@ -1,6 +1,6 @@
 ---
 title: 'Libertex: Trade & Invest'
-date: 2021-08-09
+date: 2026-10-30
 authors:
 - danny
 website: https://libertex.org
@@ -36,6 +36,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The old links below to the CFD specification and the support article no longer open; libertex.org now redirects to [libertex.com](https://libertex.com/).
+
 **Updated Analysis 2022-01-04**: 
 
 This is a [Cryptocurrency CFD](https://libertex.org/cfd-specification) (Contracts for Differences) trading platform. We are changing the verdict to reflect this.
@@ -60,6 +62,8 @@ Interestingly enough, there's [an app](https://play.google.com/store/apps/detail
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** Libertex International Company Limited now publishes a different iPhone app, "Libertex: Opera Forex y Crypto", which we have not reviewed.
 
 **Update 2022-02-09**: This app is no more.
 

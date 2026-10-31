@@ -1,6 +1,6 @@
 ---
 title: Биткоин-обменник – NiceChange
-date: 2025-01-15
+date: 2026-10-30
 authors:
 - danny
 website: https://nicechange.net/
@@ -31,6 +31,8 @@ iphone:
   developerName: XChangeCapitalGroup
 
 ---
+
+**Update 2026-10-30:** NiceChange now runs as NicexChanger on [nicexchanger.cc](https://nicexchanger.cc/), and nicechange.net forwards there. According to [this review](https://profinvestment.com/nicechange/), the service moved to the new domain after its servers were seized in September 2024.
 
 ## Android
 

@@ -1,7 +1,7 @@
 ---
 title: CoinwayPAY
-date: 2024-04-19
-website: https://coinwaypay.com/
+date: 2026-10-30
+website: https://coinwaypay.com/#deadLink
 redirect_from:
 - /android/at.coinway.coinwaypay/
 android:

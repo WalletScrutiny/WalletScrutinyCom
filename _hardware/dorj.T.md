@@ -12,8 +12,8 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: https://mydorj.com/
-shop: https://mydorj.com/?page_id=367
+website: https://dorj.io/
+shop: https://dorj.io/product/dorjt/
 country: IR
 price: 
 repository: 
@@ -21,7 +21,7 @@ icon: dorj.T.webp
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2023-04-06
+date: 2026-10-30
 signer: 
 twitter: dorjwa
 social:
@@ -31,7 +31,9 @@ features:
 
 ---
 
-## Product Description taken from the [Dorj T page](https://mydorj.com/?page_id=367)
+**Update 2026-10-30:** The old site mydorj.com no longer loads. Dorj now sells from [dorj.io](https://dorj.io/), where the [Dorj T](https://dorj.io/product/dorjt/) is still in stock.
+
+## Product Description taken from the [Dorj T page](https://dorj.io/product/dorjt/)
 
 *Note: Some portions of this review was translated from Persian using Google Translate, some segments don't make sense so there were some portions that were heavily editorialized according to how we understood it. Some errors may be present.
 

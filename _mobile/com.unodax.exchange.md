@@ -1,6 +1,6 @@
 ---
 title: Unodax Exchange
-date: 2022-04-07
+date: 2026-10-30
 authors:
 - danny
 website: https://www.unodax.com
@@ -34,6 +34,8 @@ iphone:
   developerName: Unocoin Technologies Private Limited
 
 ---
+
+**Update 2026-10-30:** Unodax no longer exists as a separate exchange. [unodax.com](https://www.unodax.com) now redirects to [Unocoin](https://unocoin.com/in/), the Indian exchange that ran it, and the FAQ page quoted below no longer loads. Unocoin's own apps are {% include walletLink.html wallet='android/com.unocoin.unocoinwallet' verdict='true' %} and {% include walletLink.html wallet='iphone/com.unocoin.mainapp.production' verdict='true' %}.
 
 ## Android
 

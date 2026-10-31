@@ -21,7 +21,7 @@ icon: gk8.coldvault.webp
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2022-04-04
+date: 2026-10-30
 signer: 
 twitter: gk8_security
 social:
@@ -31,6 +31,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** GK8 now belongs to Galaxy Digital, which [completed the purchase of GK8 in February 2023](https://siliconangle.com/2023/02/24/galaxy-digital-finalizes-44m-acquisition-crypto-self-custody-platform-gk8/) after the bankruptcy of its previous owner Celsius. [gk8.io](https://www.gk8.io/) now redirects to [Galaxy's custody infrastructure page](https://www.galaxy.com/infrastructure/custody).
 
 ## Updated Review 2023-04-28
 

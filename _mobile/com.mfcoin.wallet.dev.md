@@ -1,7 +1,7 @@
 ---
 title: MFCoin wallet
-date: 2024-04-26
-website: http://mfcoin.net
+date: 2026-10-30
+website: https://web.archive.org/web/20251001072349/http://mfcoin.net/
 twitter: MFC_tech
 social:
 - https://www.linkedin.com/company/groups/13539593
@@ -20,6 +20,8 @@ android:
   developerName: FREELAND AGREEMENT LTD.
 
 ---
+
+**Update 2026-10-30:** The MFCoin website no longer shows MFCoin. Since late 2025 it only links to Mr. Freeman video channels, so we now link an [archived copy](https://web.archive.org/web/20251001072349/http://mfcoin.net/). The [source repository](https://github.com/MFrcoin/android-wallet) is still online but has had no changes since December 2020.
 
 > * Native support for bitcoin and most major altcoins
 > * Your private keys never leave your device. Strong wallet encryption and

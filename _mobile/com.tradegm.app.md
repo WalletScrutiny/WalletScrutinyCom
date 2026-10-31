@@ -1,7 +1,7 @@
 ---
 title: TradeGM
-date: 2023-08-16
-website: https://tradegm.eu/
+date: 2026-10-30
+website: https://tradegm.eu/#deadLink
 redirect_from:
 - /android/com.tradegm.app/
 android:

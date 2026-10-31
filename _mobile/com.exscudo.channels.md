@@ -1,6 +1,6 @@
 ---
 title: 'Fintap: BTC, ETH Crypto Wallet'
-date: 2021-04-24
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
@@ -42,6 +42,8 @@ iphone:
   developerName: Exscudo OU
 
 ---
+
+**Update 2026-10-30:** The self-custody claims quoted below are gone from both the Play Store and the App Store descriptions, which now say nothing about who holds the keys.
 
 ## Android
 

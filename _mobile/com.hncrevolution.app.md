@@ -1,7 +1,7 @@
 ---
 title: HNC Revolution
-date: 2024-02-05
-website: https://hnc-revolution.com/
+date: 2026-10-30
+website: https://hnc-revolution.com/#deadLink
 redirect_from:
 - /android/com.hncrevolution.app/
 android:

@@ -1,7 +1,7 @@
 ---
 title: QuasarK - Crypto Wallet
-date: 2026-03-11
-website: https://quasark.io/
+date: 2026-10-30
+website: https://web.archive.org/web/20250215005622/https://quasark.io/
 redirect_from:
 - /android/com.milkywayapps.cryptowallet/
 android:
@@ -18,3 +18,4 @@ android:
 
 ---
 
+**Update 2026-10-30:** The website quasark.io now shows an unrelated Vietnamese betting site.

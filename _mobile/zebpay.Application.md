@@ -1,6 +1,6 @@
 ---
 title: 'ZebPay: Bitcoin & Crypto App'
-date: 2020-05-29
+date: 2026-10-30
 authors:
 - leo
 website: https://www.zebpay.com
@@ -8,8 +8,6 @@ twitter: zebpay
 social:
 - https://www.linkedin.com/company/zebpay
 - https://www.facebook.com/zebpay
-features:
-- foss
 redirect_from:
 - /zebpay.Application/
 - /posts/zebpay.Application/
@@ -29,6 +27,8 @@ android:
 
 ---
 
+**Update 2026-10-30:** We removed the "FOSS" feature tag: it came without any evidence, and we found no public source code for this app on GitHub.
+
 In the description at Google Play we read:
 
 > We use industry leading practice of maintaining the majority of customer
@@ -37,5 +37,3 @@ In the description at Google Play we read:
 This app is an interface for an exchange and as such, only a window into what
 you have in your account at that exchange. As a custodial wallet or bitcoin
 bank it is **not verifiable**.
-
-{% include featureEvidence.html feature="foss" comment="(no justification provided by LLM)" %}

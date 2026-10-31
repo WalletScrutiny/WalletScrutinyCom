@@ -1,7 +1,7 @@
 ---
 title: SimplyKeeper
-date: 2024-04-26
-website: https://webdevelopers.store/
+date: 2026-10-30
+website: https://web.archive.org/web/20220528231418/https://webdevelopers.store/
 redirect_from:
 - /android/com.invest4you/
 android:

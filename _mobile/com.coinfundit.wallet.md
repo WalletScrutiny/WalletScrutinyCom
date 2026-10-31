@@ -1,7 +1,7 @@
 ---
 title: CoinFundIt.com
-date: 2024-04-19
-website: https://coinfundit.com
+date: 2026-10-30
+website: https://coinfundit.com#deadLink
 redirect_from:
 - /android/com.coinfundit.wallet/
 android:

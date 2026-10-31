@@ -1,9 +1,9 @@
 ---
 title: Cryptopower Wallet
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
-website: https://cryptopower.dev/
+website: https://cryptopower.dev/#deadLink
 redirect_from:
 - /android/com.dreacotdigital.cryptopower.mainnet/
 android:

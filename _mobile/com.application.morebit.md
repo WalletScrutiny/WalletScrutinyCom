@@ -1,7 +1,7 @@
 ---
 title: MoreBit
-date: 2023-12-19
-website: http://morebit.io
+date: 2026-10-30
+website: http://morebit.io#deadLink
 redirect_from:
 - /android/com.application.morebit/
 android:

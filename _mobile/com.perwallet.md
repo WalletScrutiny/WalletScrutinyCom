@@ -1,7 +1,7 @@
 ---
 title: PER Wallet
-date: 2024-02-05
-website: https://www.perproject.io/
+date: 2026-10-30
+website: https://www.perproject.io/#deadLink
 redirect_from:
 - /android/com.perwallet/
 android:

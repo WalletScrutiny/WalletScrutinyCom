@@ -1,7 +1,7 @@
 ---
 title: Arcmarket
-date: 2024-04-03
-website: https://arcmarket.capital
+date: 2026-10-30
+website: https://arcmarket.capital#deadLink
 redirect_from:
 - /android/com.arc.capital.arcmarket/
 android:

@@ -1,6 +1,6 @@
 ---
 title: Pallapay Wallet
-date: 2022-05-31
+date: 2026-10-30
 authors:
 - danny
 website: https://www.pallapay.com/
@@ -35,6 +35,8 @@ iphone:
   verdict: nosource
 
 ---
+
+**Update 2026-10-30:** Pallapay now offers a crypto card and the custodial {% include walletLink.html wallet='iphone/com.pallapay.application' verdict='true' %} app instead of this wallet ([pallapay.com](https://www.pallapay.com/)).
 
 ## Android
 

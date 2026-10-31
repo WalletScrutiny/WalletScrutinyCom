@@ -1,6 +1,6 @@
 ---
 title: 'Netcoins: Buy Crypto Easily'
-date: 2025-11-20
+date: 2026-10-30
 authors:
 - danny
 website: https://www.netcoins.com
@@ -14,7 +14,7 @@ redirect_from:
 android:
   appId: com.netcoins.app
   users: 100000
-  appCountry: us
+  appCountry: ca
   released: 2022-12-10
   updated: 2026-05-05
   version: 5.13.0
@@ -26,7 +26,7 @@ android:
 iphone:
   appId: com.netcoins.app
   idd: '1571344881'
-  appCountry: us
+  appCountry: ca
   released: 2021-08-10
   updated: 2026-01-07
   version: 5.8.1

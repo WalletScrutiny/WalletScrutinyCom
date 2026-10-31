@@ -1,9 +1,9 @@
 ---
 title: Gleec BTC
-date: 2024-11-28
+date: 2026-10-30
 authors:
 - danny
-website: https://gleecbtc.com/
+website: https://exchange.gleec.com
 twitter: GleecOfficial
 social:
 - https://www.facebook.com/gleecofficial

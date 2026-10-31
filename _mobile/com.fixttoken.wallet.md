@@ -1,7 +1,7 @@
 ---
 title: Fixttoken - Fixt token Smart W
-date: 2023-12-19
-website: https://app.fixttoken.com/
+date: 2026-10-30
+website: https://app.fixttoken.com/#deadLink
 redirect_from:
 - /android/com.fixttoken.wallet/
 android:

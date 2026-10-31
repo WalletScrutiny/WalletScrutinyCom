@@ -1,7 +1,7 @@
 ---
 title: Crypto Exchanges
-date: 2023-12-31
-website: https://cryptooriented.com
+date: 2026-10-30
+website: https://cryptooriented.com#deadLink
 redirect_from:
 - /android/com.cryptooriented.exchanges/
 android:

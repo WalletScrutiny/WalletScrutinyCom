@@ -18,13 +18,13 @@ providerWebsite: https://www.franckmuller.com/
 website: https://franckmullerencrypto.com/
 shop: https://franckmullerencrypto.com/product/franck-muller-41mm-free-the-money-free-the-world/
 country: 
-price: 12000CHF
+price: 12500CHF
 repository: 
 icon: vanguard.encrypto.webp
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2022-04-04
+date: 2026-10-30
 signer: 
 twitter: FranckMullerBTC
 social:

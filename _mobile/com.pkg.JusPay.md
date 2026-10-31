@@ -1,9 +1,9 @@
 ---
 title: Jus Pay
-date: 2023-05-31
+date: 2026-10-30
 authors:
 - danny
-website: https://juspay.app
+website: https://juspay.app#deadLink
 redirect_from:
 - /android/com.pkg.JusPay/
 android:

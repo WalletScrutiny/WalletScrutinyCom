@@ -1,7 +1,7 @@
 ---
 title: xINVESTOR
-date: 2024-04-03
-website: http://xinvestor.com/
+date: 2026-10-30
+website: http://xinvestor.com/#deadLink
 redirect_from:
 - /android/com.chainup.exchange.xinvestor/
 android:

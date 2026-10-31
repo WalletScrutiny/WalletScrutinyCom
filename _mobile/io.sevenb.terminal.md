@@ -1,9 +1,9 @@
 ---
 title: '7b: BTC Wallet. Buy Dogecoin'
-date: 2024-07-30
+date: 2026-10-30
 authors:
 - danny
-website: https://sevenb.io/
+website: https://web.archive.org/web/20241009160350/https://sevenb.io/
 twitter: sevenb_roker
 social:
 - https://www.facebook.com/SevenBbroker
@@ -23,6 +23,8 @@ android:
   developerName: Stash Tech Solutions Limited
 
 ---
+
+**Update 2026-10-30:** The [7b website](https://sevenb.io/) now offers custom software development and IT consulting instead of the broker, so the link above points to an [archived copy from October 2024](https://web.archive.org/web/20241009160350/https://sevenb.io/).
 
 ## App Description
 

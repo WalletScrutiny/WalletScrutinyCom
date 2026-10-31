@@ -1,6 +1,6 @@
 ---
 title: 'Wota: Amplify Your Crypto'
-date: 2026-05-05
+date: 2026-10-30
 authors:
 - danny
 website: https://enterwota.com
@@ -36,6 +36,8 @@ iphone:
   developerName: WOTA LTD
 
 ---
+
+**Update 2026-10-30:** The [WOTA website](https://enterwota.com) now shows only a maintenance notice ("We're upgrading WOTA") and no longer describes the investment service.
 
 ## Android
 

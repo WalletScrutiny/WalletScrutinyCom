@@ -1,6 +1,6 @@
 ---
 title: 'Flash: Bitcoin Wallet'
-date: 2026-05-20
+date: 2026-10-30
 authors:
 - danny
 website: https://paywithflash.com
@@ -32,6 +32,8 @@ iphone:
   developerName: Flash Lightning Solutions Inc.
 
 ---
+
+**Update 2026-10-30:** Flash's [website](https://paywithflash.com/) no longer offers the wallet. It now sells bookkeeping and reporting software for Bitcoin miners, and the wallet page and the documentation site are gone. Both apps are still in the stores; the last updates were in October 2025 (iPhone) and December 2025 (Android).
 
 ## Android
 
@@ -92,8 +94,8 @@ For our purposes, the stronger verdict is **nosource**.
 
 Sources:
 
-- [Flash documentation](https://docs.paywithflash.com/)
-- [Connect Your Wallet documentation](https://docs.paywithflash.com/getting-started/connect-your-wallet)
+- [Flash documentation](https://web.archive.org/web/20260613002420/https://docs.paywithflash.com/) (archived)
+- [Connect Your Wallet documentation](https://web.archive.org/web/20260613000257/https://docs.paywithflash.com/getting-started/connect-your-wallet) (archived)
 - [Flash custody article](https://paywithflash.com/flash-wallet-self-custodial/)
 - [Flash Wallet beta article](https://paywithflash.com/flash-wallet-beta-is-here-a-new-era-for-bitcoin-powered-businesses/)
 - [Stacker News test report](https://stacker.news/items/1060779?commentId=1060853)

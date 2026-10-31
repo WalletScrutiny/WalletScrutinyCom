@@ -15,16 +15,16 @@ dimensions:
 weight: 
 provider: eSignus Security Solutions, S.L.
 providerWebsite: https://www.esignus.com/
-website: https://www.esignus.com/hashwallet
-shop: https://shop.esignus.com/products/hashwallet-link-cobalt
+website: https://www.gethashwallet.com/
+shop: https://www.gethashwallet.com/buy
 country: ES
-price: 95 USD
+price: 149EUR
 repository: 
 icon: esignus.hashwallet.link.webp
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2022-11-08
+date: 2026-10-30
 signer: 
 twitter: esignus
 social:
@@ -39,11 +39,13 @@ features:
 
 ---
 
+**Update 2026-10-30:** eSignus no longer sells the card under the HashWallet Link name, and its old shop is gone. The same card now appears to be sold as "Hashwallet All in One" for €149 on [gethashwallet.com](https://www.gethashwallet.com/), whose shop still lists the backup card for it.
+
 ## Product Description 
 
 The HashWallet Link is included in the latest update for a different product, the {% include walletLink.html wallet='hardware/hashwallet' verdict='true' %} indiegogo project. There are production and shipping delays with the [HashWallet Indiegogo](https://www.indiegogo.com/projects/hashwallet-the-most-secure-hardware-wallet#/updates/all).
 
-The [Hashwallet Link](https://shop.esignus.com/products/hashwallet-link-cobalt) has two versions, Silver and Cobalt. Apart from the significant difference in price, they are [technically similar](https://t.me/hashwallet/14077).
+The [Hashwallet Link](https://web.archive.org/web/20230930201029/https://shop.esignus.com/products/hashwallet-link-cobalt) has two versions, Silver and Cobalt. Apart from the significant difference in price, they are [technically similar](https://t.me/hashwallet/14077).
 
 - NFC-enabled
 - It is claimed that it is BIP-39 compliant, however, **12-24 seed phrases are not provided.**

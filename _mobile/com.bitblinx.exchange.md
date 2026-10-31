@@ -1,7 +1,7 @@
 ---
 title: 'BITBLINX - Bitcoin Exchange & '
-date: 2024-07-05
-website: https://bitblinx.com
+date: 2026-10-30
+website: https://bitblinx.com#deadLink
 redirect_from:
 - /android/com.bitblinx.exchange/
 android:

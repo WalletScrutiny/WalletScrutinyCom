@@ -1,7 +1,7 @@
 ---
 title: Quras Wallet＋
-date: 2024-05-18
-website: https://quraswallet.org
+date: 2026-10-30
+website: https://quraswallet.org#deadLink
 redirect_from:
 - /android/io.quras.plus/
 android:

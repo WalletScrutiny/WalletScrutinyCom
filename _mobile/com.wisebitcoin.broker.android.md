@@ -1,6 +1,6 @@
 ---
 title: Batonex
-date: 2021-10-19
+date: 2026-10-30
 authors:
 - danny
 website: https://www.batonex.com
@@ -36,6 +36,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Wisebitcoin [renamed itself Batonex](https://x.com/batonex_global/status/1619964245759918080) in January 2023, and the wisebitcoin.com links below are dead. The app is on Google Play as Batonex.
 
 ## App Description
 

@@ -1,7 +1,7 @@
 ---
 title: DigiDinar
-date: 2024-04-19
-website: https://www.digidinar.com
+date: 2026-10-30
+website: https://web.archive.org/web/20210305105604/https://www.digidinar.com/
 redirect_from:
 - /android/com.application.digidinar/
 android:

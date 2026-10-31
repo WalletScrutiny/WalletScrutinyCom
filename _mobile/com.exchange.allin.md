@@ -1,6 +1,6 @@
 ---
 title: AllinX：Exchange& Crypto BTC
-date: 2025-11-14
+date: 2026-10-30
 authors:
 - danny
 website: https://www.allinx.io
@@ -33,6 +33,8 @@ iphone:
 
 ---
 
+**Update 2026-10-30:** AllinX has rebranded as NEX. The allinx.io site now shows the [NEX exchange](https://www.n-exchange.io), which says it took over users and operations of the former AllinX platform, and the iPhone app is now called "NEX: Exchange & Crypto BTC".
+
 ## Android
 
 ## App Description
@@ -49,7 +51,7 @@ The platform’s “Tri-Core” system (RWA, derivatives, smart asset management
 
 Registered successfully and [located the Bitcoin wallet](https://x.com/BitcoinWalletz/status/1989250752200777988), but no option offered access to the private keys.
 
-The [terms](https://support.allinx.io/en/articles/11757472-all-inx-terms-of-use) bear signs that this is a **custodial** service:
+The [terms](https://support.allinx.io/en/articles/11757472-all-inx-terms-of-use#deadLink) bear signs that this is a **custodial** service:
 
 > Restricting accounts, freezing assets, or liquidating open positions.
 

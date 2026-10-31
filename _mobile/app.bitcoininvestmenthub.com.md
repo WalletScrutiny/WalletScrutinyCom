@@ -1,9 +1,9 @@
 ---
 title: Bitcoin Investment & Crypto Hu
-date: 2023-04-19
+date: 2026-10-30
 authors:
 - danny
-website: https://bitcoininvestmenthub.com/
+website: https://web.archive.org/web/20200525133707/https://bitcoininvestmenthub.com/
 redirect_from:
 - /android/app.bitcoininvestmenthub.com/
 android:

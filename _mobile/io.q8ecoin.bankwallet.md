@@ -1,7 +1,7 @@
 ---
 title: KuwaitiCoin
-date: 2024-07-05
-website: https://q8ecoin.com
+date: 2026-10-30
+website: https://q8ecoin.com#deadLink
 redirect_from:
 - /android/io.q8ecoin.bankwallet/
 android:

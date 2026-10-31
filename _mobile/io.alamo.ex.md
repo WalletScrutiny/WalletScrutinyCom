@@ -1,7 +1,7 @@
 ---
 title: Alamo Trading
-date: 2023-09-28
-website: https://www.alamotrading.io/
+date: 2026-10-30
+website: https://www.alamotrading.io/#deadLink
 redirect_from:
 - /android/io.alamo.ex/
 android:

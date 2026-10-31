@@ -1,7 +1,7 @@
 ---
 title: Brastoken
-date: 2024-04-26
-website: https://brastoken.com/
+date: 2026-10-30
+website: https://brastoken.com/#deadLink
 redirect_from:
 - /android/wallet.brastoken.com/
 android:

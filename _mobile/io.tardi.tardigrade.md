@@ -1,7 +1,7 @@
 ---
 title: 'Keywa: Crypto for Institution'
-date: 2024-03-02
-website: https://keywa.io
+date: 2026-10-30
+website: https://keywa.io#deadLink
 redirect_from:
 - /android/io.tardi.tardigrade/
 android:

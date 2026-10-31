@@ -1,7 +1,7 @@
 ---
 title: Easy Pro (Exchange)
-date: 2025-01-09
-website: https://easyexchangepro.com
+date: 2026-10-30
+website: https://easyexchangepro.com#deadLink
 redirect_from:
 - /android/easyexchangepro.com.easy_pro/
 android:
@@ -16,3 +16,4 @@ android:
 
 ---
 
+**Update 2026-10-30:** The EasyExchangePro website now shows only a parked-domain page.

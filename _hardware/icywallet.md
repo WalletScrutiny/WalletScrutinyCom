@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: NeatNik LLC (Adam Newbold)
 providerWebsite: 
-website: https://icywallet.com
+website: https://web.archive.org/web/20200924053708/https://icywallet.com/
 shop: 
 country: US
 price: 
@@ -21,7 +21,7 @@ icon: icywallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-27
+date: 2026-10-30
 signer: 
 twitter: neatnikllc
 social: 
@@ -30,13 +30,15 @@ features:
 
 ---
 
+**Update 2026-10-30:** The domain icywallet.com now hosts an unrelated gambling site, so we link to the [archived project page](https://web.archive.org/web/20200924053708/https://icywallet.com/) instead.
+
 **Note:** The recorded repository for this is [this Web Archive link](https://web.archive.org/web/20201113132658/https://github.com/neatnik/icywallet). Currently it is 404.
 
 ## Product Description 
 
 > IcyWallet is a Bitcoin cold storage wallet that doesn’t require sight. It aims to be the simplest and most secure Bitcoin cold storage solution with a total emphasis on accessibility. Just plug in headphones and a keyboard, or a refreshable braille display, and get going.
 
-From the [IcyWallet GitHub page archive](https://icywallet.com): 
+From the [IcyWallet GitHub page archive](https://web.archive.org/web/20200924053708/https://icywallet.com/): 
 
 > IcyWallet is a cold storage solution, emphasizing safe storage of Bitcoin in the most accessible way possible.
 >

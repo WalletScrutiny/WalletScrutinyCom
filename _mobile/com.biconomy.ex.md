@@ -1,6 +1,6 @@
 ---
 title: Biconomy-Buy Bitcoin & Crypto
-date: 2023-02-15
+date: 2026-10-30
 authors:
 - danny
 website: https://www.biconomy.com
@@ -39,6 +39,8 @@ iphone:
   developerName: Biconomy Ltd.
 
 ---
+
+**Update 2026-10-30:** The Nasdaq-listed company Datavault AI said on October 26, 2026 that it has been unable to withdraw about 818 BTC from its Biconomy account since June 2026. Biconomy did not answer press questions about it ([CoinDesk](https://www.coindesk.com/markets/2026/10/28/bitcoin-treasury-datavault-ai-plunges-50-after-firm-says-it-can-t-access-its-btc), [The Block](https://www.theblock.co/news/business/2026-10-27-datavault-ai-stock-plummets-bitcoin-deal-431962)).
 
 ## Android
 

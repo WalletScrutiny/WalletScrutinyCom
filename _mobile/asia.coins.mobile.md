@@ -1,6 +1,6 @@
 ---
 title: 'Coins: Buy Crypto & Pay Wallet'
-date: 2020-10-12
+date: 2026-10-30
 authors:
 - leo
 website: https://coins.ph
@@ -30,6 +30,7 @@ android:
 iphone:
   appId: gctp.Coins
   idd: 972324049
+  appCountry: ph
   released: 2015-04-04
   updated: 2022-06-30
   version: 3.4.2

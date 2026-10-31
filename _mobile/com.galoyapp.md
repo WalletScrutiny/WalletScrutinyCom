@@ -1,6 +1,6 @@
 ---
 title: Blink (Bitcoin Wallet)
-date: 2023-10-20
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -32,7 +32,7 @@ android:
   meta: ok
   verdict: custodial
   developerName: Blink El Salvador S.A. de C.V.
-  repository: https://github.com/GaloyMoney/galoy-mobile
+  repository: https://github.com/blinkbitcoin/blink-mobile
 iphone:
   appId: io.galoy.bitcoinbeach
   idd: '1531383905'
@@ -45,9 +45,11 @@ iphone:
   meta: ok
   verdict: custodial
   developerName: Blink El Salvador Sociedad Anonima de Capital Variable
-  repository: https://github.com/GaloyMoney/galoy-mobile
+  repository: https://github.com/blinkbitcoin/blink-mobile
 
 ---
+
+**Update 2026-10-30:** Since June 2026 the app also offers [non-custodial accounts](https://www.blink.sv/blog/non-custodial-accounts-in-blink-wallet) on the Spark protocol, with a 12-word recovery phrase that only the user holds. Custodial accounts remain, so the app stays {% include verdictBadge.html verdict="custodial" type='short' %} for now.
 
 ## Android
 

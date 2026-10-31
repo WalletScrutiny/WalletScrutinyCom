@@ -1,7 +1,7 @@
 ---
 title: Bitplicity Bitcoin Wallet - Bu
-date: 2024-04-19
-website: https://Bitplicity.com
+date: 2026-10-30
+website: https://Bitplicity.com#deadLink
 redirect_from:
 - /android/com.Bitplicity.Bitplicityapp/
 android:

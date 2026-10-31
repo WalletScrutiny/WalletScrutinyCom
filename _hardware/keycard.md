@@ -19,13 +19,13 @@ providerWebsite: https://keycard.tech
 website: https://keycard.tech
 shop: https://get.keycard.tech/
 country: 
-price: 24.9EUR
-repository: https://github.com/status-im/status-keycard
+price: 29EUR
+repository: https://github.com/keycard-tech/status-keycard
 icon: keycard.webp
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2022-03-23
+date: 2026-10-30
 signer: 
 twitter: Keycard_
 social: 

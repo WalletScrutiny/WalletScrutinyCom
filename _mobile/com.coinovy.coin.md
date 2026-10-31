@@ -1,7 +1,7 @@
 ---
 title: 'Coinovy: Bitcoin Crypto Wallet'
-date: 2023-01-02
-website: https://coinovy.com/
+date: 2026-10-30
+website: https://coinovy.com/#deadLink
 redirect_from:
 - /android/com.coinovy.coin/
 android:

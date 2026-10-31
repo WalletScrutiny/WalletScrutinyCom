@@ -1,6 +1,6 @@
 ---
 title: Binarium
-date: 2021-09-03
+date: 2026-10-30
 authors:
 - danny
 website: http://binarium.support
@@ -22,6 +22,9 @@ android:
   developerName: Binarium LTD
 
 ---
+
+**Update 2026-10-30:** The FAQ link below now lands on the
+[binarium.com](https://binarium.com/) home page.
 
 Binarium is a mobile trading app where the user tries to predict
 the movement of an asset and earn if the prediction is correct.

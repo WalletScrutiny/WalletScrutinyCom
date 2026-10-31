@@ -1,7 +1,7 @@
 ---
 title: PaykoriCrypto
-date: 2024-04-03
-website: https://paykoricrypto.com
+date: 2026-10-30
+website: https://paykoricrypto.com#deadLink
 redirect_from:
 - /android/com.paykoricrypto.app/
 android:

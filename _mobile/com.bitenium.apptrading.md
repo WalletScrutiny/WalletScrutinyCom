@@ -1,7 +1,7 @@
 ---
 title: Bitenium Crypto Exchange
-date: 2024-04-03
-website: https://bitenium.com/
+date: 2026-10-30
+website: https://bitenium.com/#deadLink
 redirect_from:
 - /android/com.bitenium.apptrading/
 android:

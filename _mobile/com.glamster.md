@@ -1,9 +1,9 @@
 ---
 title: Glamster | The Smart Messenger
-date: 2025-03-17
+date: 2026-10-30
 authors:
 - danny
-website: https://glamster.me
+website: https://glamster.me#deadLink
 redirect_from:
 - /android/com.glamster/
 - /iphone/com.glamster/

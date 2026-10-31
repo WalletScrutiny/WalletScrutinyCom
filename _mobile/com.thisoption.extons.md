@@ -1,7 +1,7 @@
 ---
 title: Extons
-date: 2024-05-18
-website: https://extons.io/
+date: 2026-10-30
+website: https://extons.io/#deadLink
 redirect_from:
 - /android/com.thisoption.extons/
 android:

@@ -16,13 +16,13 @@ providerWebsite:
 website: https://zerotrace.org
 shop: https://zerotrace.org/product/zerotracepen/
 country: US
-price: 97USD
+price: 99USD
 repository: 
 icon: zerotrace.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-03-08
+date: 2026-10-30
 signer: 
 twitter: 
 social:

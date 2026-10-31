@@ -1,9 +1,9 @@
 ---
 title: IMMUNE Messenger
-date: 2023-04-15
+date: 2026-10-30
 authors:
 - danny
-website: https://imm.app/
+website: https://immune.im/
 redirect_from:
 - /android/im.immune.app/
 - /iphone/im.immune.app/
@@ -32,6 +32,8 @@ iphone:
   developerName: IMM Money Messenger Limited
 
 ---
+
+**Update 2026-10-30:** The old domain imm.app is now up for sale. The project's site moved to [immune.im](https://immune.im/), which still describes the messenger with a built-in wallet and is the site named in the app's store listings. We still found no source code.
 
 ## Android
 

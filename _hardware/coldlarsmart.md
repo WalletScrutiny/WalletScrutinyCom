@@ -5,7 +5,7 @@ authors:
 - kiwilamb
 - danny
 released: 
-discontinued: 
+discontinued: 2022-11-26
 updated: 
 version: 
 binaries: 
@@ -22,7 +22,7 @@ icon: coldlarsmart.webp
 bugbounty: 
 meta: discontinued
 verdict: wip
-date: 2024-12-09
+date: 2026-10-30
 signer: 
 twitter: Coldlar
 social: 

@@ -1,7 +1,7 @@
 ---
 title: Snark Wallet
-date: 2024-04-19
-website: https://snarkwallet.app/
+date: 2026-10-30
+website: https://snarkwallet.app/#deadLink
 redirect_from:
 - /android/com.snark.wallet/
 android:

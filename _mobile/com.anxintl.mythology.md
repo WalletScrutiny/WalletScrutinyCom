@@ -1,9 +1,9 @@
 ---
 title: DICE Wallet
-date: 2023-08-07
+date: 2026-10-30
 authors:
 - danny
-website: https://www.mydicewallet.com
+website: https://www.mydicewallet.com#deadLink
 redirect_from:
 - /android/com.anxintl.mythology/
 android:

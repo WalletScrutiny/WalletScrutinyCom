@@ -1,7 +1,7 @@
 ---
 title: PrestoPay Business
-date: 2023-03-21
-website: https://prestopayments.eu/
+date: 2026-10-30
+website: https://web.archive.org/web/20241208185652/https://prestopayments.eu/
 redirect_from:
 - /android/prestopaybusiness.eu/
 android:

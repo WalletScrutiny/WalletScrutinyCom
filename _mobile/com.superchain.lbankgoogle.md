@@ -1,6 +1,6 @@
 ---
 title: LBank - Buy Bitcoin & Crypto
-date: 2021-10-21
+date: 2026-10-30
 authors:
 - danny
 website: https://www.lbank.com
@@ -40,6 +40,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The old help center at support.lbank.site no longer loads, so the links below are dead. The current terms are the [LBank User Service Agreement](https://www.lbank.com/support/articles/21436496711705).
 
 ## App Description
 

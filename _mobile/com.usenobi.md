@@ -1,6 +1,6 @@
 ---
 title: 'NOBI: Own Bitcoin & Crypto'
-date: 2023-04-12
+date: 2026-10-30
 authors:
 - danny
 website: https://usenobi.com
@@ -41,6 +41,8 @@ iphone:
 
 ---
 
+**Update 2026-10-30:** Both apps are gone from the stores. In July 2026 Bybit bought a majority stake in the company behind NOBI and rebranded it as Bybit Indonesia ([Cointelegraph](https://cointelegraph.com/news/crypto-exchange-bybit-launches-in-indonesia-after-nobi-acquisition)). The [NOBI website](https://usenobi.com) now presents NOBI as an infrastructure firm and lists Bybit Indonesia as one of its businesses.
+
 ## Android
 
 ## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.usenobi) 
@@ -51,7 +53,7 @@ iphone:
 
 > We partner with trustworthy and credible partners to produce the most optimum result. Additionally, we employ multi-layers of security measurements in the app, including two-factor authentication (2FA), PIN code, and account verification, so your account is totally secure.
 
-### [Terms](https://usenobi.com/en/terms/#) 
+### [Terms](https://web.archive.org/web/20230924075727/https://usenobi.com/en/terms/) 
 
 > NOBI is authorized to monitor your account in the context of preventing criminal acts regulated by law.
 >

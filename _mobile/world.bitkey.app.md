@@ -1,6 +1,6 @@
 ---
 title: Bitkey - Bitcoin Wallet
-date: 2024-03-14
+date: 2026-10-30
 authors:
 - danny
 website: https://bitkey.world
@@ -64,7 +64,7 @@ This is the **companion app** to the {% include walletLink.html wallet='hardware
 
 <hr>
 
-[**Release Notes**](https://bitkey.world/en-US/releases)
+[**Release Notes**](https://bitkey.world/releases)
 
 # Verified Builds
 

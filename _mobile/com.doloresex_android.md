@@ -1,7 +1,7 @@
 ---
 title: IX
-date: 2023-08-04
-website: https://ix.com
+date: 2026-10-30
+website: https://ix.com#deadLink
 redirect_from:
 - /android/com.doloresex_android/
 android:

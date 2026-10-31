@@ -1,6 +1,6 @@
 ---
 title: 'Coinme: Buy Bitcoin & Crypto'
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.coinme.com
@@ -56,7 +56,7 @@ In Coinme's [How to Page](https://coinme.com/how-to/):
 >**What is Coinme?**<br>
 Coinme is a _licensed_ and _regulated_ digital currency exchange and wallet provider. That means we help everyday people get access to bitcoin and cryptocurrency. Coinme powers a large network of physical locations where users can buy and sell bitcoin with cash.
 
-Coinme's [Legal Terms indicate that they hold the private keys](https://coinme.com/legal/)
+Coinme's [Legal Terms indicate that they hold the private keys](https://coinme.com/legal/) (that page now only links to the [current terms](https://help.coinme.com/en/articles/9039676-terms-of-service))
 
 > **7.1 Private Keys; Storage of Tokens.** Coinme will retain the private keys for any Tokens in the Hosted Wallet, for which private keys are necessary in order to transfer any Tokens out of the Hosted Wallet. Coinme will use the private keys in order to affect the transfers initiated using your Coinme Account. Tokens shown as being held in your Hosted Wallet may be in the Hosted Wallet based on internal ledgers and records maintained by Coinme, but customer Tokens may be held in pooled accounts controlled by Coinme on the public distributed ledger for the applicable Token (“Blockchain”).
 

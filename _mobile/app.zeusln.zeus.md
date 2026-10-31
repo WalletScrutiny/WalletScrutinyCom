@@ -1,6 +1,6 @@
 ---
 title: ZEUS Wallet
-date: 2023-12-30
+date: 2026-10-30
 authors:
 - leo
 - mohammad
@@ -95,6 +95,8 @@ This app is a bit special as it does not hold your private keys but neither is
 it custodial. It remote-controls your lightning node that you can run for
 example at home. So it is a wallet in that you can use it to send and receive
 Bitcoins.
+
+**Update 2026-10-30:** ZEUS no longer only remote-controls a node. Since [v0.8.0](https://github.com/ZeusLN/zeus/releases/tag/v0.8.0) (December 2023) it can also run an embedded LND node on the phone, and in that mode the app holds your keys itself.
 
 ## Android
 

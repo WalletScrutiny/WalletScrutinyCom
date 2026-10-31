@@ -1,7 +1,7 @@
 ---
 title: Shifupay
-date: 2023-12-19
-website: https://shifupay.net
+date: 2026-10-30
+website: https://shifupay.net#deadLink
 redirect_from:
 - /android/com.shifupay.shifupay/
 android:

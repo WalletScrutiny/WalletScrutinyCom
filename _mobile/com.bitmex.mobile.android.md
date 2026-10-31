@@ -1,6 +1,6 @@
 ---
 title: BitMEX
-date: 2022-02-10
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitmex.com/
@@ -33,6 +33,8 @@ iphone:
 
 ---
 
+**Update 2026-10-30:** BitMEX has closed. It [announced the closure](https://www.bitmex.com/blog/bitmex-closure) on 23 July 2026, and [trading ceased on 23 September 2026](https://www.bitmex.com/wind-down); users can still log in only to withdraw. The newer apps are gone too: {% include walletLink.html wallet='android/com.bitmex.app.android' verdict='true' %} from Google Play and {% include walletLink.html wallet='iphone/com.bitmex.app.ios' verdict='true' %} from the App Store.
+
 ## Android
 
 **Update 2022-02-02**: This app is not in store anymore.
@@ -45,7 +47,7 @@ The platform allows for 100x leverage.
 
 ## The Site
 
-[BitMex Security](https://www.bitmex.com/security) features a comprehensive outline for the platforms measures:
+[BitMex Security](https://web.archive.org/web/20230127175927/https://www.bitmex.com/security) features a comprehensive outline for the platforms measures:
 
 ### Wallet Security
 > BitMEX runs a first-of-its-kind multisignature deposit and withdrawal scheme. All BitMEX addresses are multisignature and all storage is kept offline.

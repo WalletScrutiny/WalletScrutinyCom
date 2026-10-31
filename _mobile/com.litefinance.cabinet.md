@@ -1,9 +1,9 @@
 ---
 title: LiteFinance mobile trading
-date: 2023-02-10
+date: 2026-10-30
 authors:
 - danny
-website: https://www.liteforex.eu
+website: https://www.litefinance.org
 twitter: litefinanceeng
 redirect_from:
 - /android/com.litefinance.cabinet/

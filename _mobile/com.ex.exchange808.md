@@ -1,9 +1,9 @@
 ---
 title: 808 Exchange
-date: 2023-01-11
+date: 2026-10-30
 authors:
 - danny
-website: https://808exchange.net
+website: https://808exchange.net#deadLink
 twitter: 808TA_
 redirect_from:
 - /android/com.ex.exchange808/
@@ -44,7 +44,7 @@ Notably, some of the 5* reviews are very suspicious. Some users report having pr
 
 ## The Site
 
-The site does not have that much information concerning the exchange. The Privacy Policy is just [a PDF file](https://808exchange.net/Privacy_Policy.pdf) and cannot be found through the website.
+The site does not have that much information concerning the exchange. The Privacy Policy is just [a PDF file](https://808exchange.net/Privacy_Policy.pdf#deadLink) and cannot be found through the website.
 
 ## The App
 

@@ -17,16 +17,16 @@ dimensions:
 weight: 36
 provider: IOTrust
 providerWebsite: https://iotrust.kr/
-website: https://dcentwallet.com/products/BiometricWallet
-shop: https://dcentwallet.com/Shop/detail/b15125cd52814be19a3f0edf54c8bc17
+website: https://store.dcentwallet.com/products/biometric-wallet
+shop: https://store.dcentwallet.com/products/biometric-wallet
 country: KP
-price: 119USD
+price: 109USD
 repository: 
 icon: dcentbiometric.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2025-03-19
+date: 2026-10-30
 signer: 
 twitter: DCENTwallets
 social:

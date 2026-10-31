@@ -21,7 +21,7 @@ icon: xzen.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2021-07-10
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -29,5 +29,7 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** xzen.io now only shows an error page, so the support notice below is gone too.
 
 The provider's [website states](https://xzen.io/) that this hardware wallet is no longer supported.

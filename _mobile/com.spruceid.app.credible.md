@@ -1,7 +1,7 @@
 ---
 title: Credible
-date: 2024-04-03
-website: https://spruceid.dev/docs/credible
+date: 2026-10-30
+website: https://web.archive.org/web/20220702025504/https://spruceid.dev/docs/credible/
 redirect_from:
 - /android/com.spruceid.app.credible/
 android:

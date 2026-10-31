@@ -1,7 +1,7 @@
 ---
 title: XLiquidus
-date: 2025-04-09
-website: https://www.xliquidus.com/
+date: 2026-10-30
+website: https://web.archive.org/web/20240523190159/https://www.xliquidus.com/
 redirect_from:
 - /android/com.usscyber.xliquiduss.app/
 android:

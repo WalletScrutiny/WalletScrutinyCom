@@ -1,9 +1,9 @@
 ---
 title: JetFinex
-date: 2023-05-13
+date: 2026-10-30
 authors:
 - danny
-website: https://jetfinex.com/
+website: https://jetfinex.com/#deadLink
 redirect_from:
 - /android/com.btcckorea/
 android:

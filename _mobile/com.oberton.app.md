@@ -1,12 +1,12 @@
 ---
 title: Oberton Wallet
-date: 2024-09-06
+date: 2026-10-30
 authors:
 - danny
 website: https://bytehub.io
 twitter: EverspaceWallet
 social:
-- https://everspace.app
+- https://everspace.app#deadLink
 features:
 - fingerprint
 - multiSig

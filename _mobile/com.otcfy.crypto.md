@@ -1,7 +1,7 @@
 ---
 title: 'OTCFY: Buy Crypto & Bitcoin'
-date: 2024-04-03
-website: https://www.otcfy.com/
+date: 2026-10-30
+website: https://www.otcfy.com/#deadLink
 redirect_from:
 - /android/com.otcfy.crypto/
 android:

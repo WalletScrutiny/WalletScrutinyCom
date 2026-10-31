@@ -1,7 +1,7 @@
 ---
 title: World Of Wallet
-date: 2023-01-02
-website: https://worldofwallet.io
+date: 2026-10-30
+website: https://worldofwallet.io#deadLink
 redirect_from:
 - /android/io.worldofwallet/
 android:

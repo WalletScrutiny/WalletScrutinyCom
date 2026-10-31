@@ -1,7 +1,7 @@
 ---
 title: Scurdex Wallet
-date: 2025-01-09
-website: https://scurdexcapital.com
+date: 2026-10-30
+website: https://scurdexcapital.com#deadLink
 redirect_from:
 - /android/com.nichie.curdex/
 android:

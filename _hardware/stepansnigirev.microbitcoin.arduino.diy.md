@@ -21,7 +21,7 @@ icon: stepansnigirev.microbitcoin.arduino.diy.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2026-02-27
+date: 2026-10-30
 signer: 
 twitter: stepansnigirev
 social:
@@ -76,4 +76,4 @@ Anyone who's looking to understand Bitcoin better would benefit from partaking i
 
 {% include featureEvidence.html feature="segwit" quote="Derives native segwit account (bip-84) for tesnet" source="GitHub README" %}
 
-{% include featureEvidence.html feature="foss" quote="We use elliptic curve implementation from trezor-crypto." source="GitHub README" comment="CANNOT confirm — License file returns 404: Not Found. FOSS cannot be confirmed without a valid license file." %}
+{% include featureEvidence.html feature="foss" quote="MIT License Copyright (c) 2019 Stepan Snigirev Permission is hereby granted, free of charge, to any person obtaining a copy of this software" source="[LICENSE file](https://github.com/micro-bitcoin/uBitcoin/blob/master/LICENSE)" comment="The repository carries an MIT license." %}

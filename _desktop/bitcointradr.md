@@ -10,13 +10,13 @@ version:
 binaries: 
 provider: Apptastic! LLC
 providerWebsite: http://apptastic.mobi/
-website: https://apps.microsoft.com/detail/9wzdncrdkdjf
+website: https://apps.microsoft.com/detail/9wzdncrdkdjf#deadLink
 repository: https://github.com/jodoglevy/BitcoinTradr
 icon: 
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-date: 2024-04-24
+date: 2026-10-30
 twitter: 
 social: 
 builds: 
@@ -24,3 +24,4 @@ features:
 
 ---
 
+**Update 2026-10-30:** The app's Microsoft Store page is gone, so it can no longer be installed from there. Its source code is still on [GitHub](https://github.com/JAL9302/BitcoinTradr), unchanged since 2014.

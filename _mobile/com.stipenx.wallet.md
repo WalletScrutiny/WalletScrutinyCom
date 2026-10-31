@@ -1,7 +1,7 @@
 ---
 title: 'StipenX - Official Stipendium '
-date: 2024-04-03
-website: http://www.stipend.com
+date: 2026-10-30
+website: http://www.stipend.com#deadLink
 redirect_from:
 - /android/com.stipenx.wallet/
 android:

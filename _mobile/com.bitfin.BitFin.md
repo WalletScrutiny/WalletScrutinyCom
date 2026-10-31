@@ -1,7 +1,7 @@
 ---
 title: 'BitFin - Buy And Sell Digital '
-date: 2024-04-03
-website: https://bitfin.io
+date: 2026-10-30
+website: https://bitfin.io#deadLink
 redirect_from:
 - /android/com.bitfin.BitFin/
 android:

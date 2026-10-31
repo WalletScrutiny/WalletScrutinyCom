@@ -1,10 +1,10 @@
 ---
 title: 'COCA: Crypto Card & Wallet'
-date: 2022-01-10
+date: 2026-10-30
 authors:
 - danny
-website: https://wirexapp.com/wirex-wallet#deadLink
-twitter: wirexapp
+website: https://www.coca.xyz/
+twitter: coca_card
 social:
 - https://github.com/wirexapp
 features:
@@ -41,6 +41,8 @@ iphone:
   developerName: CCA LABS - FZCO
 
 ---
+
+**Update 2026-10-30:** This app, which we reviewed as the Wirex Wallet, is now called COCA in both stores. The publisher is CCA LABS, shown as CCA LABS - FZCO on the App Store. The [COCA website](https://www.coca.xyz/) links to this app ID on both stores. It is not the legacy Wirex app, {% include walletLink.html wallet='android/com.wirex' verdict='true' %}, which [stopped supporting transactions on 2026-09-30](https://help.wirexapp.com/article/wirex-one-upgrade-faq-1685), and not its successor Wirex One (com.wirexapp.one).
 
 ## Android
 

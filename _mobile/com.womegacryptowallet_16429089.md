@@ -1,7 +1,7 @@
 ---
 title: Omega:Bitcoin & crypto wallet
-date: 2025-03-14
-website: https://findhereall.com
+date: 2026-10-30
+website: https://findhereall.com#deadLink
 redirect_from:
 - /android/com.womegacryptowallet_16429089/
 android:

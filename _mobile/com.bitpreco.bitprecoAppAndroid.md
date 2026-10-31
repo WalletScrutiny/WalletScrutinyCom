@@ -1,6 +1,6 @@
 ---
 title: Bitypreço
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - danny
 website: https://bitpreco.com/
@@ -36,6 +36,8 @@ iphone:
   developerName: BitPreço
 
 ---
+
+**Update 2026-10-30:** Bity, the company behind Bitypreço, is closing its exchange ([closure notice](https://www.bity.com.br/encerramento/)). It stopped taking new users on 2026-10-02; crypto can be bought, sold and withdrawn until 2026-11-25, after which any crypto left in an account is converted to reais, which can still be withdrawn.
 
 ## Android
 

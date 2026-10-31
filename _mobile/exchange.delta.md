@@ -1,9 +1,9 @@
 ---
 title: 'Delta Exchange: Crypto Trading'
-date: 2021-10-08
+date: 2026-10-30
 authors:
 - danny
-website: https://delta.exchange
+website: https://global.delta.exchange
 twitter: Delta_Exchange
 social:
 - https://www.facebook.com/deltaexchg
@@ -39,6 +39,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** delta.exchange now shows Delta Exchange India, a separate INR product listed here as {% include walletLink.html wallet='android/com.deltaexchangeindia' verdict='true' %}. This app is the global exchange at [global.delta.exchange](https://global.delta.exchange/), so we updated the terms links below to the global site.
+
 ## App Description
 
 By all indications, this app looks like a centralized cryptocurrency exchange.
@@ -51,7 +53,7 @@ It also features Robo Trading.
 
 ## The Site
 
-The Site's [Terms of Use](https://www.delta.exchange/terms-of-use) has clear language about the termination of accounts.
+The Site's [Terms of Use](https://global.delta.exchange/terms-of-use) has clear language about the termination of accounts.
 
 > Suspension or Termination of Services and Account: We may, at Our discretion and without liability to You, with or without prior notice and at any time, temporarily suspend or permanently terminate Your access to all or a portion of any Services.
 
@@ -63,7 +65,7 @@ We downloaded the app and registered. Once we have confirmed the OTP, we are bro
 
 ## Verdict
 
-We have sufficient reason to believe that the app is custodial primarily due to _1. its nature as an exchange, 2. its regulatory compliances including identity verification, 3. provisions in its [Terms of Use](https://www.delta.exchange/terms-of-use) concerning the unilateral termination of user accounts and subsequent freezing of funds._
+We have sufficient reason to believe that the app is custodial primarily due to _1. its nature as an exchange, 2. its regulatory compliances including identity verification, 3. provisions in its [Terms of Use](https://global.delta.exchange/terms-of-use) concerning the unilateral termination of user accounts and subsequent freezing of funds._
 
 Verdict is **custodial** and thus, **not verifiable**
 

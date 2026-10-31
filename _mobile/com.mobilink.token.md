@@ -1,6 +1,6 @@
 ---
 title: Mobilink Wallet
-date: 2023-05-30
+date: 2026-10-30
 authors:
 - danny
 website: https://mobilinktoken.com/
@@ -35,7 +35,7 @@ android:
 
 > Technical issue
 
-- The new website also [details](https://mobilinktoken.com/index.php/faq/) a change in management: 
+- The new website also [details](https://web.archive.org/web/20260218083409/https://mobilinktoken.com/index.php/faq/) a change in management: 
 
 > What happened to Mobilink’s Telegram and lack of communication?
 >

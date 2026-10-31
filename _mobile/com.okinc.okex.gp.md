@@ -1,6 +1,6 @@
 ---
 title: 'OKX: Buy Bitcoin BTC & Crypto'
-date: 2020-05-29
+date: 2026-10-30
 authors:
 - leo
 website: https://www.okx.com/
@@ -39,6 +39,8 @@ iphone:
   developerName: OKX Inc.
 
 ---
+
+**Update 2026-10-30:** Both apps now have an "Exchange / Web3" switch that opens a non-custodial Web3 Wallet with its own keys and separate assets ([help page](https://www.okx.com/en-us/help/understanding-the-link-between-okx-and-web3-wallets)). OKX also ships that wallet as a standalone app, {% include walletLink.html wallet='android/com.okx.wallet' verdict='true' %}. The exchange part is still custodial.
 
 ## Android
 

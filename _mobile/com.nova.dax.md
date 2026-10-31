@@ -1,6 +1,6 @@
 ---
 title: NovaDAX - Buy & Sell Bitcoin
-date: 2026-07-24
+date: 2026-10-30
 authors:
 - danny
 website: https://www.novadax.com
@@ -37,6 +37,8 @@ iphone:
   developerName: NOVADAX BRASIL PAGAMENTOS LTDA
 
 ---
+
+**Update 2026-10-30:** The window for withdrawing crypto has closed: NovaDAX's [1 July notice](https://www.novadax.com.br/suporte/An%C3%BAncios/detail/article/900056-An%C3%BAncio-Transa%C3%A7%C3%B5es-Encerradas-a-Partir-de-1%C2%BA-de-Julho) gave 31 August 2026 as the last day. According to the provider's [FAQ](https://www.novadax.com.br/suporte/d%C3%BAvidas_frequentes/detail/article/900054-Descontinua%C3%A7%C3%A3o-da-Plataforma-NovaDAX), coins left on the platform are sold for BRL, and the BRL can still be withdrawn. Since 22 October, its [announcements](https://www.novadax.com.br/suporte/An%C3%BAncios) point users to suporte@novadax.com for help.
 
 ## App Description
 

@@ -1,6 +1,6 @@
 ---
 title: 'Choice: Bitcoin in your IRA'
-date: 2023-12-15
+date: 2026-10-30
 authors:
 - danny
 website: https://www.choiceapp.io/
@@ -38,6 +38,8 @@ iphone:
   developerName: Choice Holdings Incorporated
 
 ---
+
+**Update 2026-10-30:** Kingdom Trust, the company behind Choice, merged with Digital Trust in 2024, and Digital Trust is now the custodian for all Choice accounts ([Choice support](https://support.choiceapp.io/en/articles/5643365-what-is-choice-kingdom-trust-digital-trust-and-how-are-they-related)).
 
 ## Android
 

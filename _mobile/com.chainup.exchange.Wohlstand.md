@@ -1,7 +1,7 @@
 ---
 title: Wohlstand Crypto Exchange
-date: 2023-08-04
-website: https://wohlstandcex.com
+date: 2026-10-30
+website: https://wohlstandcex.com#deadLink
 redirect_from:
 - /android/com.chainup.exchange.Wohlstand/
 android:

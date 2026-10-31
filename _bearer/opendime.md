@@ -18,13 +18,13 @@ providerWebsite:
 website: https://opendime.com/
 shop: https://store.coinkite.com/store/opendime
 country: CA
-price: 49USD (3 pack)
+price: 69USD (3 pack)
 repository: 
 icon: opendime.webp
 bugbounty: 
 meta: ok
 verdict: sealed-plainkey
-date: 2022-10-31
+date: 2026-10-30
 signer: 
 twitter: COLDCARDwallet
 social:

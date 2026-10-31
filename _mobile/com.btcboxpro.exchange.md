@@ -1,7 +1,7 @@
 ---
 title: BTCBOX Pro
-date: 2023-01-02
-website: http://www.btcboxpro.com/
+date: 2026-10-30
+website: http://www.btcboxpro.com/#deadLink
 redirect_from:
 - /android/com.btcboxpro.exchange/
 android:

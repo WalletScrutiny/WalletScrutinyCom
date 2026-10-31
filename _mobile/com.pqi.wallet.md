@@ -1,7 +1,7 @@
 ---
 title: PQI Crypto Wallet
-date: 2025-02-26
-website: http://gb.pqigroup.com/driver.aspx?mnuid=1415&modid=166
+date: 2026-10-30
+website: http://gb.pqigroup.com/driver.aspx?mnuid=1415&modid=166#deadLink
 redirect_from:
 - /android/com.pqi.wallet/
 android:

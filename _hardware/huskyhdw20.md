@@ -15,8 +15,8 @@ dimensions:
 weight: 200
 provider: Embedded Agency LLC
 providerWebsite: https://embedded.agency/
-website: https://www.huskywallet.com/
-shop: https://www.huskywallet.com/shop/
+website: https://web.archive.org/web/20240315121644/https://www.huskywallet.com/
+shop: https://web.archive.org/web/20230329031957/https://www.huskywallet.com/shop/
 country: CA
 price: 129USD
 repository: 
@@ -24,7 +24,7 @@ icon: huskyhdw20.webp
 bugbounty: 
 meta: defunct
 verdict: nosource
-date: 2025-02-06
+date: 2026-10-30
 signer: 
 twitter: 
 social:
@@ -33,6 +33,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** The huskywallet.com domain is now offered for sale on HugeDomains, so the Husky website is gone. The links on this page now point to archived copies.
 
 ## Update 2025-02-06
 

@@ -1,9 +1,9 @@
 ---
 title: 'Ghost Wallet: Crypto Bitcoin'
-date: 2026-04-23
+date: 2026-10-30
 authors:
 - danny
-website: https://test.ghostpoket.pro
+website: https://ghostwallet.io
 twitter: Ghost_Wallet_
 social:
 - https://www.instagram.com/ghost.wallet

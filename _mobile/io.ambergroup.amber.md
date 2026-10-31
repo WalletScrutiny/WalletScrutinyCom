@@ -1,6 +1,6 @@
 ---
 title: Amber Premium Global
-date: 2021-09-11
+date: 2026-10-30
 authors:
 - danny
 website: https://www.ambr.io/global
@@ -40,6 +40,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** A banner on Amber's [website](https://www.ambr.io/global/terms) says that effective 30 October 2026 Amber Premium accounts are moved to "WhaleFin Wallet", with holdings unchanged.
+
 The app is a crypto investment app that allows users to: 
 
 - Have attractive yield on major crypto assets
@@ -48,7 +50,7 @@ The app is a crypto investment app that allows users to:
 
 We downloaded the app and registered with the service. Using the app requires identity verification from the very beginning. It is possible to [deposit/withdraw bitcoin](https://support.ambergroup.io/hc/en-us/articles/900000933006-How-to-make-a-withdrawal-)
 
-As part of its [Terms](https://www.ambergroup.io/terms)
+As part of its [Terms](https://www.ambr.io/global/protocol/detail?code=Tos_001)
 
 > We may store Digital Currency you deposit for use of the Services in a “hot wallet”, “cold wallet” or other storage methods at our sole discretion. We shall record your ownership of your Digital Currency in our records.
 

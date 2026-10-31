@@ -1,6 +1,6 @@
 ---
 title: Buy Bitcoin and Crypto app
-date: 2021-10-21
+date: 2026-10-30
 authors:
 - danny
 website: https://coinswitch.co
@@ -41,6 +41,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** CoinSwitch PRO, a mode in the app, now accepts some crypto deposits, but its [deposit page](https://coinswitch.co/pro/crypto-deposit) says "We do not support crypto withdrawals at this time". The terms link below is dead; it now points to an archived copy.
+
 ## App Description
 
 CoinSwitch Kuber is a crypto trading platform.
@@ -62,7 +64,7 @@ From [CoinSwitch's FAQ:](https://coinswitch.co/faq#desktopsecondInnerOne)
 
 > *What's the cryptocurrency wallet address?* CoinSwitch **doesn’t provide wallet addresses and never stores user deposits.** To exchange cryptocurrencies, you need to have a cryptocurrency wallet address.
 
-From Terms and Conditions, [Activities Prohibited on the Platform:](https://coinswitch.co/kuber-terms)
+From Terms and Conditions, [Activities Prohibited on the Platform:](https://web.archive.org/web/20211019091623/https://coinswitch.co/kuber-terms)
 
 >  In the event of any suspicious or large transactions being undertaken by You, CoinSwitch shall have the right but not the obligation to verify such activity by sharing Your IP address and other KYC details with the relevant authority, and if required, suspend the transactions or freeze your access.
 

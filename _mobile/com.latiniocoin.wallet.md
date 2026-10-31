@@ -1,7 +1,7 @@
 ---
 title: Wallet Latinio LTN Android v1.
-date: 2024-02-05
-website: https://latinio.io/
+date: 2026-10-30
+website: https://latinio.io/#deadLink
 redirect_from:
 - /android/com.latiniocoin.wallet/
 android:

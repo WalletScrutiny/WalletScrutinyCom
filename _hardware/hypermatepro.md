@@ -26,7 +26,7 @@ icon: hypermatepro.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-12-12
+date: 2026-10-30
 signer: 
 twitter: HyperPay_tech
 social:
@@ -41,6 +41,8 @@ features:
 - segwit
 
 ---
+
+**Update 2026-10-30:** HyperPay has rebranded as HPX: hyperpay.tech now redirects to [hpx.com](https://www.hpx.com/en), and the companion app {% include walletLink.html wallet='android/com.legendwd.hyperpayW' verdict='true' %} is now called "HPX". The [old HyperMate Pro page](https://hyperpay.tech/hypermatepro/pro) now lands on an HPX "Page not found".
 
 This hardware wallet is paired with {% include walletLink.html wallet='android/com.legendwd.hyperpayW' verdict='true' %}
 

@@ -1,7 +1,7 @@
 ---
 title: UnirealWallet
-date: 2023-06-21
-website: https://unirealchain.com/
+date: 2026-10-30
+website: https://unirealchain.com/#deadLink
 redirect_from:
 - /android/com.unirealchain.wallet/
 android:

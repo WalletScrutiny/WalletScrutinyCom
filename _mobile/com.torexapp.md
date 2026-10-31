@@ -1,9 +1,9 @@
 ---
 title: Torex
-date: 2023-06-03
+date: 2026-10-30
 authors:
 - danny
-website: https://torex.one/ru/
+website: https://torex.one/ru/#deadLink
 redirect_from:
 - /android/com.torexapp/
 android:
@@ -26,7 +26,7 @@ android:
 ## Analysis
 
 - The website is no longer online 
-- [Archives](https://torex.one)
+- [Archives](https://web.archive.org/web/20200813104451/https://torex.one/)
 - The app was last updated in 2020 
 - When we tried to register it gave an error: 
 

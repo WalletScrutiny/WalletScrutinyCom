@@ -1,7 +1,7 @@
 ---
 title: EPO Cash
-date: 2024-02-05
-website: https://www.epocash.com
+date: 2026-10-30
+website: https://www.epocash.com#deadLink
 redirect_from:
 - /android/com.epocash.epocash/
 android:

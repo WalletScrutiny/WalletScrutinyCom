@@ -1,6 +1,6 @@
 ---
 title: Obsidiam
-date: 2025-05-30
+date: 2026-10-30
 authors:
 - danny
 website: https://obsidiam.com/
@@ -37,6 +37,8 @@ iphone:
   developerName: Obsidiam
 
 ---
+
+**Update 2026-10-30:** Both apps are gone from the stores, and the [Obsidiam website](https://www.obsidiam.com/) now offers only an FX and USDT payment platform for companies, with no consumer app.
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: BittAPI
-date: 2021-08-17
+date: 2026-10-30
 website: http://bittapi.oblade.net
 redirect_from:
 - /android/net.benoitbasset.bittapi/
@@ -19,3 +19,4 @@ android:
 
 ---
 
+**Update 2026-10-30:** The app was an unofficial client for the Bittrex exchange, and Bittrex Global stopped all trading on December 4, 2023 ([Decrypt](https://decrypt.co/206761/crypto-bittrex-global-shuts-down-sec)), so the app has nothing left to connect to.

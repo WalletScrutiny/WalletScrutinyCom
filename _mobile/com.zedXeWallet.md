@@ -1,6 +1,6 @@
 ---
 title: ZedXe Wallet
-date: 2023-06-12
+date: 2026-10-30
 authors:
 - danny
 website: https://www.zedxe.com
@@ -28,6 +28,8 @@ android:
 ---
 
 ⚠️ **Warning**: there are some [allegations](https://bitcointalk.org/index.php?action=printpage;topic=5050117.0) on BitcoinTalk.org
+
+**Update 2026-10-30:** The ZedXe website no longer offers the wallet. It now advertises an unrelated market-signals dashboard with a waitlist ([zedxe.com](https://zedxe.com/)).
 
 ## App Description from Google Play
 

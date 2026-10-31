@@ -1,6 +1,6 @@
 ---
 title: HashKey Me - Your Web3 Wallet
-date: 2024-04-03
+date: 2026-10-30
 authors:
 - danny
 website: https://me.hashkey.com#deadLink
@@ -50,7 +50,7 @@ iphone:
 
 ## Analysis 
 
-### HashKey Me [Announces Rebranding](https://www.hashkey.com/en/newsroom/web3-did-wallet-hashkey-me-announces-rebranding)
+### HashKey Me [Announces Rebranding](https://web.archive.org/web/20230127063152/https://www.hashkey.com/en/newsroom/web3-did-wallet-hashkey-me-announces-rebranding)
 
 - The app cannot be installed in Android Emulator API 27 and 29
 - It also cannot be installed on our mobile device

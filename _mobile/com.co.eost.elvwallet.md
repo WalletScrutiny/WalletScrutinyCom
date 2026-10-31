@@ -1,7 +1,7 @@
 ---
 title: Eleven
-date: 2024-04-03
-website: https://e-leven.io/
+date: 2026-10-30
+website: https://web.archive.org/web/20230603035656/https://e-leven.io/
 redirect_from:
 - /android/com.co.eost.elvwallet/
 android:

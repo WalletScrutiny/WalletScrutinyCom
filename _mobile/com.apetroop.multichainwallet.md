@@ -1,7 +1,7 @@
 ---
 title: Global Token Wallet
-date: 2023-06-21
-website: https://globaltoken.vip
+date: 2026-10-30
+website: https://globaltoken.vip#deadLink
 redirect_from:
 - /android/com.apetroop.multichainwallet/
 android:

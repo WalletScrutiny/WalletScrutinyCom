@@ -1,7 +1,7 @@
 ---
 title: Baba moni - Bitcoin & USDollar
-date: 2023-12-19
-website: https://baba-moni.co
+date: 2026-10-30
+website: https://baba-moni.co#deadLink
 redirect_from:
 - /android/com.babamoni.trust.bitcoin/
 android:

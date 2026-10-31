@@ -1,9 +1,9 @@
 ---
 title: BmKoin Wallet
-date: 2023-05-31
+date: 2026-10-30
 authors:
 - danny
-website: https://bmkoin.org/
+website: https://bmkoin.org/#deadLink
 social:
 - https://www.youtube.com/channel/UC9hIY0-u6Lt1f1NHIt7VF_w
 - https://www.instagram.com/Bmkoin
@@ -22,6 +22,8 @@ android:
   developerName: Bmkoin Digital Technology LLP
 
 ---
+
+**Update 2026-10-30:** The provider's domain bmkoin.org now shows an unrelated Indonesian gaming page.
 
 ## App Description from Google Play 
 >

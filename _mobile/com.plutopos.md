@@ -1,7 +1,7 @@
 ---
 title: PlutoPOS
-date: 2024-04-03
-website: https://www.spartanhill.com/pluto-crypto-pos/
+date: 2026-10-30
+website: https://www.spartanhill.com/pluto-crypto-pos/#deadLink
 redirect_from:
 - /android/com.plutopos/
 android:

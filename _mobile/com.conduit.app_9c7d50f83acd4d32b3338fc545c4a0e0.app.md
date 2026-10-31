@@ -1,7 +1,7 @@
 ---
 title: MoolaBit
-date: 2024-04-19
-website: https://moolabit.com
+date: 2026-10-30
+website: https://moolabit.com#deadLink
 redirect_from:
 - /android/com.conduit.app_9c7d50f83acd4d32b3338fc545c4a0e0.app/
 android:

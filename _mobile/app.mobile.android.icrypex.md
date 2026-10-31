@@ -1,6 +1,6 @@
 ---
 title: 'ICRYPEX TR: Bitcoin, Kripto Al'
-date: 2022-06-24
+date: 2026-10-30
 authors:
 - danny
 website: https://www.icrypex.com.tr/
@@ -39,6 +39,8 @@ iphone:
   developerName: ICRYPEX BILISIM ANONIM SIRKETI
 
 ---
+
+**Update 2026-10-30:** ICRYPEX is being wound down. Turkey's Capital Markets Board ordered its liquidation on 2026-08-27, and the company is now on the board's [list of providers in liquidation](https://spk.gov.tr/kurumlar/kripto-varlik-hizmet-saglayicilar/tasfiye-surecinde-olanlar-listesi). Customers cannot send their coins to another wallet: the crypto is [converted to Turkish lira and paid to a bank account](https://www.fintekwins.com/icrypexte-musteri-varliklarinin-cekim-sureci-basladi/), only as far as the company's assets allow, and the [ICRYPEX website](https://www.icrypex.com.tr/) says the first round of these withdrawals is still being processed.
 
 ## Android
 

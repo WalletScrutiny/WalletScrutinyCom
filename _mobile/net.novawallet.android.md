@@ -1,9 +1,9 @@
 ---
 title: Nova Wallet
-date: 2025-03-14
+date: 2026-10-30
 authors:
 - danny
-website: http://www.vsolidus.com/
+website: https://novawallet.co.uk
 twitter: solidus_v
 social:
 - https://www.facebook.com/vsolidus
@@ -38,6 +38,8 @@ iphone:
   developerName: NOVA COIN LIMITED
 
 ---
+
+**Update 2026-10-30:** Nova Wallet has been replaced by Solidus Wallet from the same team, which accepts old Nova Wallet recovery phrases. For now Solidus is a [web wallet](https://vsolidus.co.uk/wallet/); its phone apps are "in review" according to [novawallet.co.uk](https://novawallet.co.uk/). The old website www.vsolidus.com no longer loads.
 
 ## Android
 

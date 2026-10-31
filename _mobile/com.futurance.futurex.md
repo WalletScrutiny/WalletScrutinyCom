@@ -1,6 +1,6 @@
 ---
 title: 'Fexobit: Kripto Para|BTC|ETH'
-date: 2023-07-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.fexobit.com/
@@ -39,6 +39,8 @@ iphone:
   developerName: FUTURANCE KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI
 
 ---
+
+**Update 2026-10-30:** In August 2026 İş Yatırım, the investment arm of Türkiye İş Bankası, bought Futurance, the company behind Fexobit ([Yeniçağ](https://www.yenicaggazetesi.com/is-yatirimdan-dev-kripto-hamlesi-fexobitin-cati-sirketi-futurance-36-milyon-dolara-satin-alindi-1061532h.htm)). Fexobit keeps running under its own name.
 
 ## Android
 

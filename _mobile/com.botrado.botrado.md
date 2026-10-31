@@ -1,7 +1,7 @@
 ---
 title: Botrado
-date: 2024-04-19
-website: https://botrado.com
+date: 2026-10-30
+website: https://botrado.com#deadLink
 redirect_from:
 - /android/com.botrado.botrado/
 android:

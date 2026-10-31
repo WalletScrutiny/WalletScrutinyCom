@@ -1,7 +1,7 @@
 ---
 title: zapX
-date: 2024-07-05
-website: https://zap.exchange
+date: 2026-10-30
+website: https://zap.exchange#deadLink
 redirect_from:
 - /android/com.app.conv5049zapx/
 android:

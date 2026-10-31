@@ -1,6 +1,6 @@
 ---
 title: 'BitOasis: Buy Bitcoin & Crypto'
-date: 2021-09-15
+date: 2026-10-30
 authors:
 - danny
 website: https://bitoasis.net/
@@ -44,6 +44,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** BitOasis was [acquired by the Indian exchange CoinDCX](https://www.financemagnates.com/cryptocurrency/bitoasis-secures-crypto-license-from-vara-following-coindcx-acquisition/) in 2024, and its [website](https://bitoasis.net/en/home) now presents it as "BitOasis by CoinDCX". The multi-signature answer we quote below is no longer in the [FAQ](https://bitoasis.net/en/page/faq).
 
 {% include review/bitgo.md %}
 

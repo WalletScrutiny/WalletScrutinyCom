@@ -1,6 +1,6 @@
 ---
 title: Bitcoin India Wallet & Exchange
-date: 2021-09-19
+date: 2026-10-30
 authors:
 - leo
 website: https://www.bitcoin-india.org
@@ -36,6 +36,11 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The provider's
+[download page](https://www.bitcoin-india.org/en/downloads) now points to a
+different Android app,
+{% include walletLink.html wallet='android/org.bitcoinindia.Btciapp' verdict='true' %}.
 
 **Update 2021-09-17**: This app is no more.
 

@@ -1,6 +1,6 @@
 ---
 title: Kurepay Wallet
-date: 2021-07-15
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -17,6 +17,8 @@ android:
   verdict: wip
 
 ---
+
+**Update 2026-10-30:** In November 2021 KurePay [announced it would stop serving Nigerian users](https://www.coindesk.com/policy/2021/11/23/nigerian-payments-app-reportedly-suspending-operations-due-to-government-crackdown-on-crypto) because of the central bank's crackdown on crypto. Today [kurepay.com](https://www.kurepay.com/) offers card processing and invoicing for merchants, and its homepage mentions no crypto wallet.
 
 This app is no more. Our update script didn't get any data from Play Store since
 some days now, so we assume we won't get a chance to review it as it was not

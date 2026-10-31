@@ -6,7 +6,7 @@ authors:
 - danny
 - leo
 released: 2019-03-08
-discontinued: 
+discontinued: 2022-11-25
 updated: 2022-12-07
 version: v4.2.0
 binaries: https://github.com/bithd/bithd-mcu/releases/
@@ -26,7 +26,7 @@ icon: bithdrazor.webp
 bugbounty: 
 meta: discontinued
 verdict: sourceavailable
-date: 2022-11-25
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -48,7 +48,7 @@ features:
 
 ## Update 2022-11-25
 
-The product's buy link goes to [Amazon.](https://www.amazon.com/BITHD-Cryptocurrency-Hardware-Wallet-Pocket/dp/B07QKF867S/ref=sr_1_4?m=A1Q5WMBAZ5F5MU&marketplaceID=ATVPDKIKX0DER&qid=1578887523&s=merchant-items&sr=1-4) It is indicated there that the product is "unavailable."
+The product's buy link goes to [Amazon.](https://web.archive.org/web/20241212072711/https://www.amazon.com/BITHD-Cryptocurrency-Hardware-Wallet-Pocket/dp/B07QKF867S/ref=sr_1_4?m=A1Q5WMBAZ5F5MU&marketplaceID=ATVPDKIKX0DER&qid=1578887523&s=merchant-items&sr=1-4) It is indicated there that the product is "unavailable."
 
 ## Previous Verdict
 

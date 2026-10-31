@@ -1,6 +1,6 @@
 ---
 title: 'KoinBX: Indian Crypto Exchange'
-date: 2021-10-04
+date: 2026-10-30
 authors:
 - danny
 website: https://koinbx.com/
@@ -43,6 +43,8 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** Koin Bazar is now KoinBX, at [koinbx.com](https://koinbx.com/). The old terms page is gone, so the link below points to an archived copy.
+
 ### App Description
 
 INR (Indian Rupee) deposit and withdrawal as well as trading cryptocurrencies such as BTC, ETH, XRP and more are available.
@@ -53,7 +55,7 @@ Like most custodial services, sign up is available on the app as well as the web
 
 #### Terms and Conditions
 
-Section 9 of the [Terms and Conditions](https://www.koinbazar.com/terms-conditions) confirms that this is a custodial service.
+Section 9 of the [Terms and Conditions](https://web.archive.org/web/20211025195501/https://www.koinbazar.com/terms-conditions) confirms that this is a custodial service.
 
 >YOU ACKNOWLEDGE THAT OUR DECISION TO TAKE CERTAIN ACTIONS, INCLUDING LIMITING ACCESS TO, SUSPENDING, OR **CLOSING YOUR ACCOUNT OR WALLET**, MAY BE BASED ON CONFIDENTIAL CRITERIA THAT ARE ESSENTIAL TO OUR RISK MANAGEMENT AND SECURITY PROTOCOLS. YOU AGREE THAT KOIN BAZAR IS UNDER NO OBLIGATION TO DISCLOSE THE DETAILS OF ITS RISK MANAGEMENT AND SECURITY PROCEDURES TO YOU.
 

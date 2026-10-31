@@ -1,6 +1,6 @@
 ---
 title: 'WOW EARN: BTC & Crypto Wallet'
-date: 2023-07-09
+date: 2026-10-30
 authors:
 - danny
 website: https://wowearn.com/
@@ -39,6 +39,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** This Android app is gone from Google Play. The [WOW EARN website](https://wowearn.com/) now points Android users to a new app, "WOW EARN: Web3 Wallet & Chat" (app ID `com.wowchat.wallet`), which we have not reviewed yet.
 
 ## Update 2024-07-24
 

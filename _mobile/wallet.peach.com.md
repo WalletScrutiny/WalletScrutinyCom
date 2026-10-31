@@ -1,7 +1,7 @@
 ---
 title: Peach Wallet
-date: 2024-04-03
-website: https://peachwallet.com
+date: 2026-10-30
+website: https://peachwallet.com#deadLink
 redirect_from:
 - /android/wallet.peach.com/
 android:

@@ -1,7 +1,7 @@
 ---
 title: Bachex
-date: 2024-02-05
-website: https://bachex.com
+date: 2026-10-30
+website: https://bachex.com#deadLink
 redirect_from:
 - /android/com.bachex_android/
 android:

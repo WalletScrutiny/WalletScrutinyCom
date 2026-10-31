@@ -1,10 +1,10 @@
 ---
 title: 'BitKey: Bitcoin Wallet'
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 social:
-- https://bitkey.app
+- https://bitkey.app#deadLink
 appCountry: us
 redirect_from:
 - /iphone/com.studytodo.bitkey/

@@ -1,6 +1,6 @@
 ---
 title: 'Easy Crypto Wallet: Buy BTC'
-date: 2025-11-20
+date: 2026-10-30
 authors:
 - danny
 website: https://easycrypto.com/
@@ -37,6 +37,8 @@ iphone:
   developerName: Dott Enterprises Ltd.
 
 ---
+
+**Update 2026-10-30:** The Easy Crypto Wallet is closing down. Easy Crypto stopped trading in New Zealand on 30 March 2026 and the wallet app began cutting services, so users must move their coins to Swyftx or another wallet themselves ([Swyftx migration guide](https://support.swyftx.com/en/articles/13680571-migrate-your-assets-from-easy-crypto-wallet-to-swyftx), [cryptocurrency.org.nz](https://cryptocurrency.org.nz/news/easy-crypto-closes-operations-after-eight-years)).
 
 ## Android
 

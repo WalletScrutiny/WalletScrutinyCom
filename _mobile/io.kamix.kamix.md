@@ -1,9 +1,9 @@
 ---
 title: Kamix
-date: 2025-08-18
+date: 2026-10-30
 authors:
 - danny
-website: https://kamix.io
+website: https://kamix.io#deadLink
 twitter: KamixApp
 social:
 - https://www.linkedin.com/company/kamixapp
@@ -37,6 +37,8 @@ iphone:
   developerName: Kamix
 
 ---
+
+**Update 2026-10-30:** The Kamix website no longer loads; the [last archived copy](https://web.archive.org/web/20260118195342/https://kamix.io/) is from January 2026. The Android app is still listed but has not been updated since April 2025, and the iPhone app is gone from the App Store.
 
 ## Android
 

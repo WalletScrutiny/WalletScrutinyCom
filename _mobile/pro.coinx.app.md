@@ -1,7 +1,7 @@
 ---
 title: CoinX.pro
-date: 2023-11-02
-website: https://www.coinx.pro/index
+date: 2026-10-30
+website: https://www.coinx.pro/index#deadLink
 redirect_from:
 - /android/pro.coinx.app/
 android:

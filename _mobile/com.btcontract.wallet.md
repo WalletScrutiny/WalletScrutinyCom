@@ -1,6 +1,6 @@
 ---
 title: 'SBW: Simple Bitcoin Wallet'
-date: 2024-11-22
+date: 2026-10-30
 authors:
 - leo
 - emanuel
@@ -28,6 +28,8 @@ android:
 
 <div class="alertBox"><div>⚠️ Warning: This app is no longer in the control of the original developer. It may have undergone changes in provenance. ⚠️
  </div> </div>
+
+**Update 2026-10-30:** SBW is no longer on F-Droid either. F-Droid archived the app in July 2026 and stopped publishing it ([fdroiddata commit](https://gitlab.com/fdroid/fdroiddata/-/commit/d273367ab050d7c9591764d60b473024197ea937)).
 
 One of the earliest Bitcoin Lightning wallets on Google Play, SBW launched in 2015 and amassed over 100,000 downloads. Its build was consistently reproducible across multiple verified versions. In November 2024, however, the app quietly disappeared from the Play Store — though it remains accessible on F-Droid.
 

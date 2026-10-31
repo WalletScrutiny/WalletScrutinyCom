@@ -1,7 +1,7 @@
 ---
 title: 'Byte Exchange: Bitcoin │Crypto'
-date: 2024-03-02
-website: https://bytedex.io
+date: 2026-10-30
+website: https://bytedex.io#deadLink
 redirect_from:
 - /android/io.bytedex.mobile/
 android:

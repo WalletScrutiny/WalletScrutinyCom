@@ -1,6 +1,6 @@
 ---
 title: Anchor - Buy Bitcoin and Ether
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.tryanchor.com
@@ -36,6 +36,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The old anchorusd.com help center and terms links below now only redirect to the [tryanchor.com](https://tryanchor.com/) homepage.
 
 AnchorUSD claims to be a stock and crypto investment app. 
 

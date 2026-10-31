@@ -1,7 +1,7 @@
 ---
 title: OMC Wallet
-date: 2023-01-02
-website: https://omc-group.co/
+date: 2026-10-30
+website: https://omc-group.co/#deadLink
 redirect_from:
 - /android/com.omc.wallet/
 android:

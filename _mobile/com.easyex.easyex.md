@@ -1,7 +1,7 @@
 ---
 title: Bitandpay
-date: 2023-08-16
-website: https://www.bitandpay.com
+date: 2026-10-30
+website: https://www.bitandpay.com#deadLink
 redirect_from:
 - /android/com.easyex.easyex/
 android:

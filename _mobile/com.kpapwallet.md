@@ -1,7 +1,7 @@
 ---
 title: 'K-PAP Wallet : 케이팝 월렛'
-date: 2023-12-19
-website: http://k-pap.com/
+date: 2026-10-30
+website: http://k-pap.com/#deadLink
 redirect_from:
 - /android/com.kpapwallet/
 android:

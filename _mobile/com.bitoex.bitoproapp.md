@@ -1,6 +1,6 @@
 ---
 title: BitoPro Crypto Exchange
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitopro.com
@@ -35,6 +35,8 @@ iphone:
   developerName: BitoEX
 
 ---
+
+**Update 2026-10-30:** BitoPro replaced this app with a new one, {% include walletLink.html wallet='android/com.bitoex.bitopronew' verdict='true' %}, released in August 2023 on Android and in October 2023 on iPhone. This older app is no longer in either store.
 
 ## Android
 

@@ -1,7 +1,7 @@
 ---
 title: King Crypto
-date: 2024-02-05
-website: https://kingcrypto.exchange/
+date: 2026-10-30
+website: https://kingcrypto.exchange/#deadLink
 redirect_from:
 - /android/com.kingcrypto.android/
 android:

@@ -1,6 +1,6 @@
 ---
 title: 'CoinMENA: Buy Bitcoin Now'
-date: 2021-11-10
+date: 2026-10-30
 authors:
 - danny
 website: http://coinmena.com
@@ -40,6 +40,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** [Paribu acquired CoinMENA](https://www.prnewswire.co.uk/news-releases/paribu-has-acquired-coinmena-menas-largest-local-crypto-exchange-in-a-transaction-valued-at-up-to-usd-240-million-302633561.html) in December 2025.
 
 ## App Description
 

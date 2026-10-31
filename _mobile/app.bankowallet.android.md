@@ -1,9 +1,9 @@
 ---
 title: Banko Wallet - Bitcoin, ETH, T
-date: 2023-05-10
+date: 2026-10-30
 authors:
 - danny
-website: http://www.bankowallet.com
+website: https://web.archive.org/web/20220121014909/http://www.bankowallet.com/
 twitter: BankoWallet1
 social:
 - mailto:support@bankowallet.com
@@ -37,6 +37,8 @@ iphone:
   developerName: BITROCK PTE. LTD.
 
 ---
+
+**Update 2026-10-30:** The Banko Wallet website now shows an unrelated loan page, so the link above points to an [archived copy from January 2022](https://web.archive.org/web/20220121014909/http://www.bankowallet.com/).
 
 ## Android
 

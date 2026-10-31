@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: http://www.eliptibox.com/
+website: https://web.archive.org/web/20160113082304/http://www.eliptibox.com/
 shop: 
 country: 
 price: 
@@ -21,7 +21,7 @@ icon: eliptibox.webp
 bugbounty: 
 meta: obsolete
 verdict: vapor
-date: 2024-05-29
+date: 2026-10-30
 signer: 
 twitter: 
 social: 

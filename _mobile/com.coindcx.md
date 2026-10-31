@@ -1,6 +1,6 @@
 ---
 title: CoinDCX Pro:Trade BTC & Crypto
-date: 2026-03-18
+date: 2026-10-30
 authors:
 - danny
 website: https://coindcx.com
@@ -23,6 +23,8 @@ android:
   developerName: CoinDCX Official
 
 ---
+
+**Update 2026-10-30:** CoinDCX [discontinued the CoinDCX Pro app in October 2023](https://web.archive.org/web/20250517071143/https://coindcx.com/blog/announcements/coindcx-evolves-unified-trading-experience-in-a-single-app/) and moved its trading features into a "Pro mode" of the main app, {% include walletLink.html wallet='android/com.coindcx.btc' verdict='true' %}, which took over users' funds and history.
 
 From their [Terms and Conditions PDF](https://coindcx.com/assets/pdf/User%20Terms%20and%20Conditions.pdf):
 

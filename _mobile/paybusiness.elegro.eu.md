@@ -1,9 +1,9 @@
 ---
 title: elegro Business online banking
-date: 2026-05-05
+date: 2026-10-30
 authors:
 - danny
-website: https://business.elegro.eu/elegro-business-wallet
+website: https://elegro.eu/business
 twitter: elegro_eu
 social:
 - https://www.linkedin.com/company/niko-technologies-ou
@@ -38,6 +38,8 @@ iphone:
   developerName: Niko Technologies
 
 ---
+
+**Update 2026-10-30:** The old business.elegro.eu site no longer loads. The business wallet is now presented on [elegro.eu/business](https://elegro.eu/business), which still offers fiat and crypto wallets.
 
 ## Android
 

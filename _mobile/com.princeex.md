@@ -1,7 +1,7 @@
 ---
 title: Prince Exchange
-date: 2024-04-19
-website: https://princeex.com/
+date: 2026-10-30
+website: https://princeex.com/#deadLink
 redirect_from:
 - /android/com.princeex/
 android:

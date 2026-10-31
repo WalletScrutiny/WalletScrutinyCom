@@ -1,6 +1,6 @@
 ---
 title: 디지털엑스 - 디지털자산 거래소
-date: 2021-09-10
+date: 2026-10-30
 authors:
 - danny
 website: https://digitalx.miraeasset.com/
@@ -33,6 +33,8 @@ iphone:
   developerName: Digital X Co., Ltd.
 
 ---
+
+**Update 2026-10-30:** Korbit is now called Digital X, and both apps carry the new name. Mirae Asset took a 97.15% stake and [renamed the exchange in July 2026](https://crypto.news/south-koreas-korbit-becomes-digital-x-under-mirae-asset-ownership/), and korbit.co.kr now redirects to [digitalx.miraeasset.com](https://digitalx.miraeasset.com/).
 
 ## Android
 

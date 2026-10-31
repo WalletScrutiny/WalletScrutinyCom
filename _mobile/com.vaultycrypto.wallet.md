@@ -1,7 +1,7 @@
 ---
 title: Vaulty Wallet for you
-date: 2024-09-16
-website: http://www.vaulty.pro
+date: 2026-10-30
+website: http://www.vaulty.pro#deadLink
 redirect_from:
 - /android/com.vaultycrypto.wallet/
 android:
