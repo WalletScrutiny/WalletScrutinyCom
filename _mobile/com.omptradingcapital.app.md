@@ -1,6 +1,6 @@
 ---
 title: OMP Trading Capital
-date: 2024-04-03
+date: 2026-10-30
 website: https://omptrading.capital#deadLink
 redirect_from:
 - /android/com.omptradingcapital.app/

@@ -1,7 +1,7 @@
 ---
 title: Crypto Investment Simulation
-date: 2024-04-03
-website: https://www.kuffstudios.com
+date: 2026-10-30
+website: https://www.kuffstudios.com#deadLink
 redirect_from:
 - /android/com.kuffgames.cryptoinvestinggame/
 android:

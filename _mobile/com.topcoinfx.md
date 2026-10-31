@@ -1,7 +1,7 @@
 ---
 title: TCFX Wallet
-date: 2024-04-03
-website: http://topcoinfx.com
+date: 2026-10-30
+website: http://topcoinfx.com#deadLink
 redirect_from:
 - /android/com.topcoinfx/
 android:

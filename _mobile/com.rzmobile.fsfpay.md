@@ -1,6 +1,6 @@
 ---
 title: Cryptocurrency Payment Gateway
-date: 2024-04-03
+date: 2026-10-30
 website: https://www.fsfpay.com
 redirect_from:
 - /android/com.rzmobile.fsfpay/

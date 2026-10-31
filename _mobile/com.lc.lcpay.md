@@ -1,7 +1,7 @@
 ---
 title: LC Pay
-date: 2024-04-03
-website: https://www.lcpay.io/
+date: 2026-10-30
+website: https://www.lcpay.io/#deadLink
 redirect_from:
 - /android/com.lc.lcpay/
 android:

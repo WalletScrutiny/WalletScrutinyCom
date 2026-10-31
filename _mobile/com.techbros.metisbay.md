@@ -1,6 +1,6 @@
 ---
 title: Metisbay
-date: 2024-04-03
+date: 2026-10-30
 website: https://metisbay.com#deadLink
 redirect_from:
 - /android/com.techbros.metisbay/

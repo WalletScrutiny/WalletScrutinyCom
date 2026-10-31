@@ -1,7 +1,7 @@
 ---
 title: Qume -  Crypto Derivatives Exc
-date: 2024-04-03
-website: http://www.qume.io
+date: 2026-10-30
+website: http://www.qume.io#deadLink
 redirect_from:
 - /android/com.qume.app/
 android:

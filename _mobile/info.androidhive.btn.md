@@ -1,7 +1,7 @@
 ---
 title: BitStone
-date: 2024-04-03
-website: https://bitstone.org
+date: 2026-10-30
+website: https://bitstone.org#deadLink
 redirect_from:
 - /android/info.androidhive.btn/
 android:

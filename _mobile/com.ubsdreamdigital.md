@@ -1,7 +1,7 @@
 ---
 title: Dream Digital
-date: 2024-04-03
-website: https://universalbordersolutions.com/
+date: 2026-10-30
+website: https://universalbordersolutions.com/#deadLink
 redirect_from:
 - /android/com.ubsdreamdigital/
 android:

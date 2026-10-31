@@ -1,6 +1,6 @@
 ---
 title: Flamer Swap
-date: 2024-04-03
+date: 2026-10-30
 website: https://swap.flamer.life#deadLink
 redirect_from:
 - /android/com.flamer.swap/

@@ -1,6 +1,6 @@
 ---
 title: Kryptonio.com - Bitcoin & Cryp
-date: 2024-04-03
+date: 2026-10-30
 website: https://kryptonio.com#deadLink
 redirect_from:
 - /android/com.kryptonio/

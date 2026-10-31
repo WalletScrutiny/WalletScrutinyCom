@@ -1,6 +1,6 @@
 ---
 title: ProfitTradingApp for BinanceUS
-date: 2024-04-03
+date: 2026-10-30
 authors:
 - danny
 website: https://profittradingapp.com/

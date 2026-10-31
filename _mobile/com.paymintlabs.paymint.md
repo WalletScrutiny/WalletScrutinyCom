@@ -1,6 +1,6 @@
 ---
 title: Paymint - Secure Bitcoin Walle
-date: 2024-04-03
+date: 2026-10-30
 authors:
 - leo
 twitter: paymint_wallet

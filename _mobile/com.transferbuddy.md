@@ -1,6 +1,6 @@
 ---
 title: TransferBuddy Money Transfer
-date: 2024-04-03
+date: 2026-10-30
 website: https://transferbuddy.org#deadLink
 redirect_from:
 - /android/com.transferbuddy/

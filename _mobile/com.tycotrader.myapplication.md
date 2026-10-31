@@ -1,7 +1,7 @@
 ---
 title: 'TycoTrader - Trade in Forex & '
-date: 2024-04-03
-website: http://tycotrader.com
+date: 2026-10-30
+website: http://tycotrader.com#deadLink
 redirect_from:
 - /android/com.tycotrader.myapplication/
 android:

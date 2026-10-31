@@ -1,6 +1,6 @@
 ---
 title: TabaniX - P2P Crypto Exchange
-date: 2024-04-03
+date: 2026-10-30
 redirect_from:
 - /android/com.tabanix.tade/
 android:

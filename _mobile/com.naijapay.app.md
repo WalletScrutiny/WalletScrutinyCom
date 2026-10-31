@@ -1,6 +1,6 @@
 ---
 title: Naijapay
-date: 2024-04-03
+date: 2026-10-30
 website: https://naijapay.io#deadLink
 redirect_from:
 - /android/com.naijapay.app/

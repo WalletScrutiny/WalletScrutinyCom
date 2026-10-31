@@ -1,6 +1,6 @@
 ---
 title: Panzer Wallet
-date: 2024-04-03
+date: 2026-10-30
 redirect_from:
 - /android/com.panzertech.swipe/
 android:

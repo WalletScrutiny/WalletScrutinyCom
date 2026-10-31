@@ -1,7 +1,7 @@
 ---
 title: ESCB Wallet
-date: 2024-04-03
-website: https://escrowblock.net
+date: 2026-10-30
+website: https://escrowblock.net#deadLink
 redirect_from:
 - /android/com.idmid9e01m0afjvnmq1wu/
 android:

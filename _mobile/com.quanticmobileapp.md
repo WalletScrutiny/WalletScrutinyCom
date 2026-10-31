@@ -1,6 +1,6 @@
 ---
 title: Quantic Mobile – Forex, CFDs o
-date: 2024-04-03
+date: 2026-10-30
 website: http://quan-tic.com#deadLink
 redirect_from:
 - /android/com.quanticmobileapp/

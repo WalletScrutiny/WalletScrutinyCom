@@ -1,7 +1,7 @@
 ---
 title: NTC Wallet
-date: 2024-04-03
-website: https://wallet.ntcrypto.net
+date: 2026-10-30
+website: https://web.archive.org/web/20231203231728/https://wallet.ntcrypto.net/
 redirect_from:
 - /android/com.wallet.ntc/
 android:

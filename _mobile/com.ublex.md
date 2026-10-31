@@ -1,7 +1,7 @@
 ---
 title: 'UBLEX : Cryptocurrency Exchang'
-date: 2024-04-03
-website: https://www.ublex.com/
+date: 2026-10-30
+website: https://www.ublex.com/#deadLink
 redirect_from:
 - /android/com.ublex/
 android:
