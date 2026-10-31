@@ -1,6 +1,6 @@
 ---
 title: Bixter
-date: 2025-01-09
+date: 2026-10-30
 website: https://bixter.org/
 redirect_from:
 - /android/org.bixter.twa/

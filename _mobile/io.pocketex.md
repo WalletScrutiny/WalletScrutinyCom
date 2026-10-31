@@ -1,6 +1,6 @@
 ---
 title: Pocket Exchange
-date: 2025-01-15
+date: 2026-10-30
 website: https://pocketexchange.io
 redirect_from:
 - /android/io.pocketex/

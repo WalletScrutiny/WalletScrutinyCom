@@ -1,6 +1,6 @@
 ---
 title: iHave
-date: 2024-12-08
+date: 2026-10-30
 website: https://dapp.satt.io/
 redirect_from:
 - /android/us.atayen.ihave/

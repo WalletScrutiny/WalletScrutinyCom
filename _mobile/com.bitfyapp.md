@@ -1,9 +1,9 @@
 ---
 title: Bitfy SuperApp de Criptomoedas
-date: 2025-02-04
+date: 2026-10-30
 authors:
 - danny
-website: https://blockchainwebservices.com.br
+website: https://web.archive.org/web/20241212052429/https://blockchainwebservices.com.br/
 twitter: bitfyapp
 social:
 - https://www.facebook.com/bitfyapp
@@ -35,6 +35,8 @@ iphone:
   developerName: WARP INTERMEDIACOES E SERVICOS DE PAGAMENTO LTDA
 
 ---
+
+**⚠️ Warning:** Bitfy appears to be gone. Both apps are out of the stores, bitfy.app is a parked domain, and blockchainwebservices.com.br, the company's site after its [2024 rebrand to BWS](https://web.archive.org/web/20241212052429/https://blockchainwebservices.com.br/), now shows an unrelated blog.
 
 ## Android
 

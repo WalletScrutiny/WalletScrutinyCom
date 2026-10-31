@@ -5,7 +5,7 @@ authors:
 - kiwilamb
 - leo
 released: 
-discontinued: 
+discontinued: 2020-11-08
 updated: 
 version: 
 binaries: 
@@ -25,7 +25,7 @@ icon: lockbox.webp
 bugbounty: 
 meta: discontinued
 verdict: nosource
-date: 2024-12-08
+date: 2026-10-30
 signer: 
 twitter: blockchain
 social:
@@ -36,11 +36,13 @@ features:
 
 ---
 
+**Update 2026-10-30:** Blockchain.com stopped selling the Lockbox. Its shop page said "Lockbox sales have momentarily halted" at least since [November 2020](https://web.archive.org/web/20201108002855/https://www.blockchain.com/lockbox), and the page is gone since 2022.
+
 **Update 2024-12-08:** The support page link mentioned below is now defunct and there is no hint at this product still existing but if it's a Ledger, it probably will still work as such ...
 
 This hardware wallet is a rebrand of a {% include walletLink.html wallet='hardware/ledgerNanoS' verdict=true %}.
 
-It seems this hardware wallet is discontinued but it still has support pages available on [blockchain.com](https://support.blockchain.com/hc/en-us/categories/360001092591-Lockbox).
+It seems this hardware wallet is discontinued but it still has support pages available on [blockchain.com](https://web.archive.org/web/20211208215041/https://support.blockchain.com/hc/en-us/categories/360001092591-Lockbox).
 
 The product might be {% include verdictBadge.html verdict='stale' type='short' %}
 or even {% include verdictBadge.html verdict='obsolete' type='short' %} but we

@@ -1,6 +1,6 @@
 ---
 title: BIP-39 Crypto seed backup
-date: 2024-12-23
+date: 2026-10-30
 website: https://github.com/openMolNike/Crypto-Apps
 redirect_from:
 - /android/com.molnike.crypto.backup/

@@ -1,6 +1,6 @@
 ---
 title: ixWallet 2.0
-date: 2024-12-08
+date: 2026-10-30
 website: http://daemtech.com/
 redirect_from:
 - /android/com.ixwallet.app/

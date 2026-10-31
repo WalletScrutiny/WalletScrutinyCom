@@ -1,6 +1,6 @@
 ---
 title: ODDS - Blockchain Wallet
-date: 2025-01-15
+date: 2026-10-30
 redirect_from:
 - /android/com.project.odds/
 android:

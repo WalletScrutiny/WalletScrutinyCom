@@ -37,7 +37,7 @@ iphone:
 
 ---
 
-**Update 2026-10-30:** The SalletOne website no longer loads ([archived copy](https://web.archive.org/web/20230922053524/https://salletone.com/)), and the hardware wallet this app works with is now listed as defunct.
+**Update 2026-10-30:** The SalletOne website no longer loads ([archived copy](https://web.archive.org/web/20230922053524/https://salletone.com/)), and the hardware wallet this app works with is no longer sold.
 
 ## Android
 

@@ -1,9 +1,9 @@
 ---
 title: Ychanger – обмен криптовалют
-date: 2025-01-15
+date: 2026-10-30
 authors:
 - danny
-website: https://ychanger.org/
+website: https://ychanger.org/#deadLink
 redirect_from:
 - /android/com.xchange.ychanger/
 - /iphone/com.xchange.ychanger/
@@ -32,6 +32,8 @@ iphone:
 
 ---
 
+**Update 2026-10-30:** The ychanger.org website no longer loads, and ychanger.net, where the terms were, now shows an unrelated gambling site. [BestChange](https://www.bestchange.com/ychanger-exchanger.html) lists the exchanger as unavailable.
+
 ## Android
 
 ## App Description from Google Play 
@@ -41,7 +43,7 @@ iphone:
 ## Analysis 
 
 - [Screenshots](https://twitter.com/BitcoinWalletz/status/1667475586548219906)
-- [Section 3.3 of the Terms](https://ychanger.net/en/rules/) details all the ways the platform can exercise control over transactions, including freezing user funds and suspension. More telling is the ability of the provider to **block the user** from using the app. 
+- [Section 3.3 of the Terms](https://ychanger.net/en/rules/#deadLink) details all the ways the platform can exercise control over transactions, including freezing user funds and suspension. More telling is the ability of the provider to **block the user** from using the app. 
 - We did not find the option to backup private keys 
 - This is a **custodial service**.
 

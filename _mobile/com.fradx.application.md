@@ -1,6 +1,6 @@
 ---
 title: FradX - Bitcoin, Crypto Mutual
-date: 2025-01-09
+date: 2026-10-30
 redirect_from:
 - /android/com.fradx.application/
 android:

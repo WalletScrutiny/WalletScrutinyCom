@@ -1,6 +1,6 @@
 ---
 title: STASIS Stablecoin Wallet
-date: 2024-12-08
+date: 2026-10-30
 authors:
 - leo
 website: https://stasis.net

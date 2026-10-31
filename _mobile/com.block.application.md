@@ -1,6 +1,6 @@
 ---
 title: 'Uollar: Earn Bitcoin & Crypto'
-date: 2025-01-06
+date: 2026-10-30
 authors:
 - danny
 website: http://uollar.io/policy

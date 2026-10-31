@@ -1,6 +1,6 @@
 ---
 title: 'Treasure: Crypto & BTC Wallet'
-date: 2025-01-29
+date: 2026-10-30
 authors:
 - danny
 website: https://treasurewallet.co
@@ -25,6 +25,8 @@ android:
   developerName: IT Work
 
 ---
+
+**Update 2026-10-30:** The provider's website [treasurewallet.co](https://treasurewallet.co#deadLink) no longer loads, and the app has had no update since February 2023.
 
 ## App Description from Google Play
 

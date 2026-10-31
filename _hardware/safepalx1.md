@@ -15,8 +15,8 @@ dimensions:
 weight: 
 provider: SafePal
 providerWebsite: https://www.safepal.io
-website: https://shop.safepal.io/products/safepal-hardware-wallet-s1-bitcoin-wallet
-shop: https://shop.safepal.io/products/safepal-hardware-wallet-s1-bitcoin-wallet
+website: https://www.safepal.com/en/store/x1
+shop: https://www.safepal.com/en/store/x1
 country: CH
 price: 69.99USD
 repository: https://github.com/SafePalWallet/safepal-x1
@@ -24,7 +24,7 @@ icon: safepalx1.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2024-12-08
+date: 2026-10-30
 signer: 
 twitter: iSafePal
 social:
@@ -39,6 +39,8 @@ features:
 - secEl
 
 ---
+
+**Update 2026-10-30:** SafePal now adds each firmware release to the [repository](https://github.com/SafePalWallet/safepal-x1), up to V1.0.34 in October 2026. In August 2025 it [answered and closed our issue](https://github.com/SafePalWallet/safepal-x1/issues/1#issuecomment-3219050958): it publishes only the "business and security logic" of the firmware, does not provide the full build chain, and the device refuses self-built firmware. The firmware still cannot be built from this code, so it stays **not source-available**.
 
 **Update 2024-12-08:** While a code repository does show recent activity, issues do not get addressed by the provider, including no build instructions or confirmation that this repository is indeed what they claim to be the source of the hardware wallet's firmware.
 

@@ -1,6 +1,6 @@
 ---
 title: XCritical
-date: 2025-01-15
+date: 2026-10-30
 authors:
 - danny
 website: https://xcritical.com/

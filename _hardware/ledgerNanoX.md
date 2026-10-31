@@ -24,7 +24,7 @@ icon: ledgerNanoX.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2024-12-08
+date: 2026-10-30
 signer: 
 twitter: Ledger
 social:

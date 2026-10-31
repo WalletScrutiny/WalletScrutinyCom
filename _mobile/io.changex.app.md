@@ -1,6 +1,6 @@
 ---
 title: 'ChangeX: Buy & Earn Crypto'
-date: 2025-02-04
+date: 2026-10-30
 authors:
 - danny
 website: https://changex.io/
@@ -42,6 +42,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Changex has replaced this Android app with a new app, Changex 3.0, from the same company (Olympus Capital AD). This listing covers the old app, which is gone from Google Play.
 
 ## Update 2024-07-24
 
