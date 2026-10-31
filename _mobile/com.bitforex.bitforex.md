@@ -1,6 +1,6 @@
 ---
 title: BitForex
-date: 2025-02-28
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitforex.com
@@ -19,6 +19,10 @@ android:
   developerName: BITFOREX LTD.
 
 ---
+
+**⚠️ Warning:** BitForex stopped trading, deposits and new sign-ups. Its website now only shows liquidation notices and lets verified users withdraw.
+
+**Update 2026-10-30:** BitForex went offline in February 2024 after large outflows, and Hong Kong's regulator [warned the public of suspected fraud](https://apps.sfc.hk/edistributionWeb/gateway/EN/news-and-announcements/news/doc?refNo=24PR40). Withdrawals reopened in July 2024 for users who pass KYC, with trading and deposits still suspended ([CoinDesk](https://www.coindesk.com/business/2024/07/19/bitforex-to-open-for-withdrawals-following-chinese-police-investigation)). The [BitForex website](https://www.bitforex.com/) now charges a 5% monthly fee on balances not withdrawn by December 25, 2025, and says the mobile app is unavailable.
 
 <div class="alertBox"><div>
 We suspect that this custodial exchange has bought 5-star reviews. At the same time, there are multiple negative reviews concerning the app's technical problems. As always, we urge users to stay cautious around such apps.
@@ -50,7 +54,7 @@ From the homepage:
 
 It does not clarify what these technical measures are, or who is involved in the maintenance teams.
 
-From the [Terms and Conditions](https://event.bitforex.com/en/Terms.html):
+From the [Terms and Conditions](https://web.archive.org/web/20250422164046/https://event.bitforex.com/en/Terms.html):
 
 > If there is suspicious activity related to your Account, we have right to request additional information from you, including authenticating documents, and to freeze any transactions pending our review. We will then conduct an investigation and determine whether to unfreeze the account or permanently close it. During the investigation, deposits, withdrawals, and trading will be disabled. If we decide to close the account, the user will be allowed to withdraw all legally-owned funds.
 

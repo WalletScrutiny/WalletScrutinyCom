@@ -1,7 +1,7 @@
 ---
 title: VIV.com
-date: 2025-02-13
-website: https://www.viv.com#deadLink
+date: 2026-10-30
+website: https://www.viv.com
 redirect_from:
 - /android/com.uecent.viv/
 android:

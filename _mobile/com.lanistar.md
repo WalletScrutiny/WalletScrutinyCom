@@ -1,6 +1,6 @@
 ---
 title: Lanistar
-date: 2025-03-11
+date: 2026-10-30
 authors:
 - danny
 website: https://www.lanistar.com#deadLink
@@ -35,6 +35,8 @@ iphone:
   developerName: Lanistar Limited
 
 ---
+
+**⚠️ Warning:** Lanistar Limited, the UK company behind this app, was [ordered to be wound up](https://www.thegazette.co.uk/notice/4860749) by the High Court on 2 April 2025 and is in [compulsory liquidation](https://find-and-update.company-information.service.gov.uk/company/12091938/insolvency). Its website no longer loads and both apps are gone from the stores.
 
 ## Android
 

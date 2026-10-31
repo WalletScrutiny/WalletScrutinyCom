@@ -1,9 +1,9 @@
 ---
 title: Forex Broker
-date: 2025-02-13
+date: 2026-10-30
 authors:
 - danny
-website: https://www.knightgames.co
+website: https://www.knightgames.co#deadLink
 redirect_from:
 - /android/com.bucdev.bestforexbroker/
 android:

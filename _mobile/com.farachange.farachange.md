@@ -1,6 +1,6 @@
 ---
 title: 'فراچنج: صرافی ارز دیجیتال'
-date: 2025-03-11
+date: 2026-10-30
 authors:
 - danny
 redirect_from:

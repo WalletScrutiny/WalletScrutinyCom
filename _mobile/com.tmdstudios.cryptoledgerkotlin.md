@@ -1,6 +1,6 @@
 ---
 title: Crypto Ledger
-date: 2025-02-13
+date: 2026-10-30
 website: https://tmdstudios.wordpress.com/
 redirect_from:
 - /android/com.tmdstudios.cryptoledgerkotlin/

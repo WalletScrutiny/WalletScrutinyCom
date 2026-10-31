@@ -1,6 +1,6 @@
 ---
 title: XFUN Wallet
-date: 2025-03-14
+date: 2026-10-30
 authors:
 - danny
 website: https://xfun.io#deadLink

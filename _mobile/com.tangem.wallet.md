@@ -1,6 +1,6 @@
 ---
 title: Tangem - Hardware Wallet
-date: 2025-03-21
+date: 2026-10-30
 authors:
 - leo
 - danny

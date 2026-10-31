@@ -1,9 +1,9 @@
 ---
 title: Exbito
-date: 2025-02-28
+date: 2026-10-30
 authors:
 - danny
-website: https://exbito.com
+website: https://exbito.com#deadLink
 twitter: ExbitoMarket
 social:
 - https://t.me/exbitomarket
@@ -32,7 +32,7 @@ android:
 ## Analysis 
 
 - With some difficulty we managed to register via the web app. 
-- We saw a BTC wallet, but before the address was shown, we were required to perform ID verification. There is documentation to support the ability to deposit Bitcoin. This is supported by the [FAQ](https://exbito.com/help/faq/).
-- This is a centralized cryptocurrency exchange and clause 3 of the [terms](https://exbito.com/terms-and-conditions/), slightly indicates that assets are secured by the provider. 
+- We saw a BTC wallet, but before the address was shown, we were required to perform ID verification. There is documentation to support the ability to deposit Bitcoin. This is supported by the [FAQ](https://exbito.com/help/faq/#deadLink).
+- This is a centralized cryptocurrency exchange and clause 3 of the [terms](https://exbito.com/terms-and-conditions/#deadLink), slightly indicates that assets are secured by the provider. 
 - We were not able to find any option to back up the private keys nor were we given the mnemonics during sign up. 
 - Although there is no explicit mention of using cold-storage or how the platform treats the private keys, all indications point to a **custodial** provider.

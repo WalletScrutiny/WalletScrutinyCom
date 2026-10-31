@@ -1,6 +1,6 @@
 ---
 title: Cryptex24
-date: 2025-03-19
+date: 2026-10-30
 authors:
 - danny
 website: https://www.cryptex24.io#deadLink
@@ -30,6 +30,8 @@ iphone:
   developerName: C24 WORLD LTD
 
 ---
+
+**⚠️ Warning:** The Cryptex24 website no longer loads, and the [last archived copy of it is from April 2025](https://web.archive.org/web/20250407162742/https://www.cryptex24.io/). Both apps are gone from the stores.
 
 ## Android
 

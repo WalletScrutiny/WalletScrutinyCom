@@ -1,6 +1,6 @@
 ---
 title: 'CoinUnited: Trade BTC & Stocks'
-date: 2025-03-19
+date: 2026-10-30
 authors:
 - danny
 website: https://coinunited.io/

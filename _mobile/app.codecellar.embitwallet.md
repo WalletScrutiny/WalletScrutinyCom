@@ -1,6 +1,6 @@
 ---
 title: 'Embit: Bitcoin Wallet, Testnet'
-date: 2025-03-11
+date: 2026-10-30
 redirect_from:
 - /android/app.codecellar.embitwallet/
 android:

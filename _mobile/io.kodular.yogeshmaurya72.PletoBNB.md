@@ -1,6 +1,6 @@
 ---
 title: PLETOBNB
-date: 2025-02-13
+date: 2026-10-30
 website: https://www.pletobnb.io#deadLink
 redirect_from:
 - /android/io.kodular.yogeshmaurya72.PletoBNB/
