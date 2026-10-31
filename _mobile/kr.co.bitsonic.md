@@ -1,6 +1,6 @@
 ---
 title: Bitsonic (Crypto Corrency, Exc
-date: 2021-10-13
+date: 2026-10-30
 authors:
 - danny
 website: http://bitsonic.co.kr
@@ -15,10 +15,14 @@ android:
   reviews: 3
   icon: kr.co.bitsonic.webp
   meta: removed
-  verdict: wip
+  verdict: custodial
   developerName: bitsonic
 
 ---
+
+**⚠️ Warning:** The Bitsonic exchange is gone. Users had filed a criminal complaint against its CEO over unpaid withdrawals ([Seoul Economic Daily](https://www.sedaily.com/article/13143852)), and bitsonic.co.kr now hosts an unrelated guide to other exchanges.
+
+**Update 2026-10-30:** The exchange is gone. In July 2021 Bitsonic suspended service "for renewal", two months after users accused its CEO of fraud over about 6.16 billion won they could not withdraw ([Seoul Economic Daily](https://www.sedaily.com/article/13143852)). Its [archived Play listing](http://web.archive.org/web/20221023220930/https://play.google.com/store/apps/details?id=kr.co.bitsonic) describes an exchange with "KRW and Crypto currency withdrawals", so the verdict is now {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## Verdict
 

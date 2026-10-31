@@ -1,9 +1,9 @@
 ---
 title: FoxOne - BTC,ETH,EOS,Cosmos exchange & wallet
-date: 2021-11-11
+date: 2026-10-30
 authors:
 - danny
-website: https://www.fox.one/#&deadLink
+website: https://fox.one
 appCountry: us
 redirect_from:
 - /android/com.fox.one/
@@ -17,7 +17,7 @@ android:
   reviews: 90
   icon: com.fox.one.webp
   meta: removed
-  verdict: wip
+  verdict: custodial
 iphone:
   appId: one.fox.foxapp
   idd: 1384089079
@@ -27,13 +27,15 @@ iphone:
   reviews: 198
   icon: one.fox.foxapp.webp
   meta: removed
-  verdict: wip
+  verdict: custodial
 
 ---
 
+**Update 2026-10-30:** Fox.ONE shut both apps down, and they were custodial. [fox.one](https://fox.one) now says the team "made the difficult decision to discontinue the “Fox.ONE” App as of January 1, 2024", and users had to move "an unspent balance in your “Fox.ONE” account" to Mixin Messenger before then. An [archived Play store page from November 2020](https://web.archive.org/web/20201107232358/https://play.google.com/store/apps/details?id=com.fox.one) says "Your cryptocurrency assets are stored in MIXIN distributed DAG network wallet of FoxOne", and the shutdown notice covers the iOS app too, so we change the verdict of both apps from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
+
 ## Android
 
-**Note:** The homepage listed for the site is no longer working.
+**Note 2021-11-11:** The homepage listed at the time, www.fox.one, was not working.
 
 ## App Description
 

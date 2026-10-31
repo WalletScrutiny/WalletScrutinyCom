@@ -1,6 +1,6 @@
 ---
 title: XchangeOn
-date: 2023-07-29
+date: 2026-10-30
 authors:
 - danny
 website: https://www.xchangeon.io/
@@ -16,10 +16,12 @@ android:
   reviews: 12
   icon: com.xchangeonio.webp
   meta: defunct
-  verdict: wip
+  verdict: custodial
   developerName: Xchangeon
 
 ---
+
+**Update 2026-10-30:** XchangeOn is back online. Since at least May 2024 its website again runs a crypto exchange, now advertised as the "first CEX to feature arbitrage trading", where users deposit by card, bank transfer or crypto and withdraw to their own wallet ([archived website, October 2026](https://web.archive.org/web/20261009113541/https://xchangeon.io/)), and the app is still in Google Play. Funds sit on the exchange, so the app is {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## App Description from Google Play
 

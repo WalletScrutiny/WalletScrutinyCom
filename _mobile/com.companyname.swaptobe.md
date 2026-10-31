@@ -1,6 +1,6 @@
 ---
 title: PioneWallet | RWA Tokenization
-date: 2024-11-29
+date: 2026-10-30
 authors:
 - danny
 website: https://pionechain.com
@@ -21,10 +21,12 @@ android:
   reviews: 17
   icon: com.companyname.swaptobe.webp
   meta: ok
-  verdict: custodial
+  verdict: nobtc
   developerName: PIONE GLOBAL
 
 ---
+
+**Update 2026-10-30:** Swap Tobe is now Pione Wallet. The app description now says it is a self-managed wallet where you control your private keys, and it lists PioneChain, Ethereum, Solana, BNB Chain and Polygon, but not Bitcoin. The [Pione Wallet FAQ](https://pionewallet.com/) says it supports EVM chains and that "future updates may include non-EVM chains like Bitcoin". Without Bitcoin support this app is now {% include verdictBadge.html verdict="nobtc" type='short' %}. The iPhone version is listed separately as {% include walletLink.html wallet='iphone/com.pionechain.pionewallet' verdict='true' %}. The analysis below describes the old Swap Tobe exchange app.
 
 ## App Description
 
@@ -38,7 +40,7 @@ Swap Tobe supports a variety of tokens including BTC.
 
 ## The Site
 
-The [Trading Policy](https://swaptobe.com/LegalPolicy) states that the company is capable of suspending user accounts or freezing their remaining balances:
+The [Trading Policy](https://web.archive.org/web/20240522195412/https://swaptobe.com/LegalPolicy) states that the company is capable of suspending user accounts or freezing their remaining balances:
 
 >  4. In SwapToBe, we highly evaluate integrity, fairness, and respect. Any shreds of evidence of scams, spamming, inappropriate language use or blunder exploitation will result in a permanent account suspension and freeze your total amount of remaining balances if no explicit reason is given. You are required to ultimately settle old transactions before you can use the service again. Please consider your language when communicating with other members or the SwapToBe support team.
 

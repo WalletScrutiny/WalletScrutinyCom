@@ -1,6 +1,6 @@
 ---
 title: goodcryptoX trading terminal
-date: 2021-08-10
+date: 2026-10-30
 authors:
 - leo
 website: https://goodcrypto.app
@@ -22,10 +22,12 @@ android:
   reviews: 155
   icon: app.goodcrypto.webp
   meta: ok
-  verdict: nosendreceive
+  verdict: nobtc
   developerName: GoodCrypto.App
 
 ---
+
+**Update 2026-10-30:** The app is now goodcryptoX. Its new [built-in wallet](https://docs.goodcrypto.app/wallets/built-in-wallet) covers only EVM chains and Solana; Bitcoin addresses can only be added for [read-only tracking](https://docs.goodcrypto.app/goodcryptox-2.0/supported-blockchains). It is a wallet, but not for Bitcoin, so the verdict changes from {% include verdictBadge.html verdict="nosendreceive" type='short' %} to {% include verdictBadge.html verdict="nobtc" type='short' %}.
 
 This app allows you to connect to accounts on trading platforms and does not
 work as a wallet as such. We assume that you cannot receive Bitcoins to and send

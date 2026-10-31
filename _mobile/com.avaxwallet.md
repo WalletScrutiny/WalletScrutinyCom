@@ -1,6 +1,6 @@
 ---
 title: Core Wallet | Crypto Made Easy
-date: 2023-07-02
+date: 2026-10-30
 authors:
 - danny
 website: http://core.app
@@ -23,9 +23,10 @@ android:
   updated: 2026-10-05
   version: 1.0.40
   reviews: 137
+  repository: https://github.com/ava-labs/core-mobile
   icon: com.avaxwallet.webp
   meta: ok
-  verdict: nosource
+  verdict: sourceavailable
   developerName: Ava Labs, Inc.
 iphone:
   appId: org.avalabs.corewallet
@@ -35,12 +36,15 @@ iphone:
   updated: 2026-10-07
   version: 1.0.40
   reviews: 175
+  repository: https://github.com/ava-labs/core-mobile
   icon: org.avalabs.corewallet.webp
   meta: ok
-  verdict: nosource
+  verdict: sourceavailable
   developerName: Ava Labs, Incorporated
 
 ---
+
+**Update 2026-10-30:** Ava Labs has published the source code of both apps under a restrictive "Limited Ecosystem License". The actively maintained repository [ava-labs/core-mobile](https://github.com/ava-labs/core-mobile) contains the Android app (`com.avaxwallet`) and the iPhone app (`org.avalabs.corewallet`). The code has been public since at least [August 2024](https://web.archive.org/web/20240816005458/https://github.com/ava-labs/core-mobile). We have not tried to reproduce the builds, so the verdict changes from {% include verdictBadge.html verdict="nosource" type='short' %} to {% include verdictBadge.html verdict="sourceavailable" type='short' %}.
 
 ## Android
 

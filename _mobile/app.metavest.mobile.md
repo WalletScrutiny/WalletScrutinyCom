@@ -1,6 +1,6 @@
 ---
 title: 'Metavest: AI Portfolio Agent'
-date: 2023-08-08
+date: 2026-10-30
 authors:
 - danny
 website: https://metavest.app/
@@ -24,7 +24,7 @@ android:
   version: 3.4.0
   icon: app.metavest.mobile.webp
   meta: stale
-  verdict: custodial
+  verdict: nowallet
   developerName: Metavest
 iphone:
   appId: app.metavest.client
@@ -36,10 +36,12 @@ iphone:
   reviews: 0
   icon: app.metavest.client.webp
   meta: stale
-  verdict: custodial
+  verdict: nowallet
   developerName: Metavest Limited
 
 ---
+
+**Update 2026-10-30:** Metavest is no longer a wallet. It turned into an AI portfolio tracker that [syncs your exchanges and wallets](https://metavest.app/) with "read only access", and the current store description says "We never hold your funds. All data connections are read-only via API keys or wallet addresses." Both apps are now {% include verdictBadge.html verdict="nowallet" type='short' %}. The analysis below describes the older custodial app.
 
 ## Android
 

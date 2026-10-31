@@ -1,6 +1,6 @@
 ---
 title: Hightop
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
 website: https://hightop.com/
@@ -33,10 +33,12 @@ iphone:
   reviews: 56
   icon: com.genesisblock.GenesisBlock.webp
   meta: ok
-  verdict: custodial
+  verdict: nobtc
   developerName: Genesis Block
 
 ---
+
+**Update 2026-10-30:** Genesis Block renamed itself Hightop ([Utah Business](https://www.utahbusiness.com/archive/2022/04/07/hightop-is-making-the-crypto-wallet-easier/)) and the FDIC-insured banking with BitGo custody described below is gone. [Hightop](https://www.hightop.com/) is now an app for paying with AI agents, built on smart contract wallets on Base, an Ethereum Layer 2, with USDC as its main asset ([glossary](https://www.hightop.com/docs/resources/glossary)).
 
 ## Android
 
@@ -93,5 +95,7 @@ Bitcoin related apps with lending services are usually **custodial** services. T
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is now Hightop Finance and runs only on Base: deposits are USDC on Base, and every transaction settles there ([agent API guide](https://api.hightop.com/v1/agent/skill.md)). Bitcoin is at most a wrapped token on Base, not real BTC, so the app is now {% include verdictBadge.html verdict="nobtc" type='short' %}.
 
 The Android analysis above applies to the iPhone app too.

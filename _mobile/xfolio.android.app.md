@@ -1,6 +1,6 @@
 ---
 title: xFolio - bitcoin, ethereum, altcoin crypto tracker
-date: 2022-01-31
+date: 2026-10-30
 redirect_from:
 - /android/xfolio.android.app/
 android:
@@ -12,8 +12,10 @@ android:
   reviews: 10
   icon: xfolio.android.app.webp
   meta: removed
-  verdict: wip
+  verdict: nowallet
 
 ---
+
+**Update 2026-10-30:** Its [archived store page](https://web.archive.org/web/20210116011515/https://play.google.com/store/apps/details?id=xfolio.android.app) from January 2021 described a portfolio tracker that reads balances from the blockchain addresses and exchange accounts you enter. It never held coins, so it is {% include verdictBadge.html verdict="nowallet" type='short' %}, like {% include walletLinkArchived.html wallet='android/com.coinstats.crypto.portfolio' %}.
 
 **Update 2022-01-20**: This app is not available anymore.

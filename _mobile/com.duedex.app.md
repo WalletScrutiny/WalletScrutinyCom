@@ -1,6 +1,6 @@
 ---
 title: DueDEX
-date: 2021-11-08
+date: 2026-10-30
 authors:
 - danny
 website: http://www.duedex.com#deadLink
@@ -15,9 +15,13 @@ android:
   reviews: 38
   icon: com.duedex.app.webp
   meta: removed
-  verdict: wip
+  verdict: custodial
 
 ---
+
+**⚠️ Warning:** DueDEX retired in July 2021, according to its own notice quoted below. The app is gone from Google Play and duedex.com no longer serves a site.
+
+**Update 2026-10-30:** An [archived copy of its store page](https://web.archive.org/web/20210113172014/https://play.google.com/store/apps/details?id=com.duedex.app) describes a derivatives exchange with a "multi-sig cold wallet; no hot wallet involved" and "withdrawals reviewed & paid out 3 times a day". The exchange held the coins, so we change the verdict from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 **NOTE: DueDEX has retired.**
 
