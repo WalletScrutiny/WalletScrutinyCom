@@ -22,6 +22,18 @@ android:
   meta: ok
   verdict: nosendreceive
   developerName: TapSwap
+iphone:
+  appId: io.tapswap.converter
+  idd: '6449744817'
+  appCountry: ke
+  released: '2025-04-14T07:00:00Z'
+  updated: 2026-01-12
+  version: 3.12.14
+  reviews: 18
+  icon: io.tapswap.converter.webp
+  meta: ok
+  verdict: custodial
+  developerName: TapSwap Kenya
 
 ---
 
@@ -44,3 +56,7 @@ In the [FAQs,](https://tapswap.io/faqs/) "Can I transfer cash or Bitcoin from on
 As with most custodial entities, [TapSwap is also capable of terminating your access to their services. (17. Suspension;Termination)](https://tapswap.io/terms-of-service/)
 
 This qualifies TapSwap to a custodial verdict, which also makes it **nonverifiable**. However, because sending and receiving bitcoin is locked behind a Pro account, and Pro accounts have purportedly not yet been implemented, we instead assign this app with the "no sending and receiving" verdict.
+
+## iPhone
+
+The iPhone app, published by TapSwap Kenya Limited, describes TapSwap as "the easy, secure, and reliable way to buy, sell, swap, send and receive crypto in Africa & beyond". Sending is no longer limited to a future Pro account: TapSwap's [terms](https://tapswap.io/terms-of-service/) let users "withdraw your Digital Assets by instructing TapSwap to debit the applicable Digital Asset from your TapSwap Account and transferring the Digital Assets to an External Account", and for bitcoin also over "the Lightning Network". The same terms say: "All Digital Assets held in your TapSwap Account are custodial assets held by TapSwap for your benefit". The iPhone app is therefore {% include verdictBadge.html verdict="custodial" type='short' %}.
