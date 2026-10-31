@@ -24,7 +24,7 @@ icon: passportprime.webp
 bugbounty: https://foundation.xyz/security/
 meta: ok
 verdict: sourceavailable
-date: 2026-10-23
+date: 2026-10-30
 signer: 
 twitter: FOUNDATIONdvcs
 social:

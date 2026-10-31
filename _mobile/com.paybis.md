@@ -1,6 +1,6 @@
 ---
 title: Crypto & Bitcoin Wallet Paybis
-date: 2026-07-24
+date: 2026-10-30
 website: https://paybis.com/contacts/
 appCountry: us
 redirect_from:

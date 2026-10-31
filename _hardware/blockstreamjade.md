@@ -28,7 +28,7 @@ icon: blockstreamjade.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2026-10-23
+date: 2026-10-30
 signer: 
 twitter: Blockstream
 social:

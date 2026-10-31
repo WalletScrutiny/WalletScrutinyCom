@@ -1,6 +1,6 @@
 ---
 title: Bitkru
-date: 2026-09-14
+date: 2026-10-30
 iphone:
   appId: com.production.BitcoinWallet
   idd: '6749847943'

@@ -16,7 +16,7 @@ icon: bron.webp
 bugbounty: https://bugbounty.bron.org/rewards-desktop
 meta: ok
 verdict: custodial
-date: 2026-10-20
+date: 2026-10-30
 twitter: BronWallet
 social:
 - https://t.me/bronwallet

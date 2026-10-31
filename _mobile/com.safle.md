@@ -1,6 +1,6 @@
 ---
 title: Safle - Web3 Wallet
-date: 2026-07-24
+date: 2026-10-30
 website: https://safle.com/
 appCountry: us
 redirect_from:

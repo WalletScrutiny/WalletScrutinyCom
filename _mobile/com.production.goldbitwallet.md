@@ -1,6 +1,6 @@
 ---
 title: GoldBit wallet
-date: 2026-09-14
+date: 2026-10-30
 iphone:
   appId: com.production.goldbitwallet
   idd: '6755364451'

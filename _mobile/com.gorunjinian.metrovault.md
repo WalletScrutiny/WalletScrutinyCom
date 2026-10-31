@@ -1,6 +1,6 @@
 ---
 title: MetroVault
-date: 2026-07-28
+date: 2026-10-30
 authors:
 - danny
 website: https://metrovault.app

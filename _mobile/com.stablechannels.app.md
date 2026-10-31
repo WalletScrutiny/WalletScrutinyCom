@@ -1,6 +1,6 @@
 ---
 title: Stable Channels Bitcoin Wallet
-date: 2026-10-23
+date: 2026-10-30
 website: https://stablechannels.com
 android:
   appId: com.stablechannels.app

@@ -1,6 +1,6 @@
 ---
 title: Manna Bitcoin Wallet
-date: 2026-10-15
+date: 2026-10-30
 authors:
 - danny
 website: http://mannabitcoin.com/

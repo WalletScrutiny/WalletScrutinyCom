@@ -1,6 +1,6 @@
 ---
 title: Pione Wallet
-date: 2026-09-14
+date: 2026-10-30
 website: https://pionewallet.com
 iphone:
   appId: com.pionechain.pionewallet
