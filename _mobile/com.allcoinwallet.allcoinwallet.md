@@ -20,7 +20,7 @@ android:
 
 ---
 
-**⚠️ Warning:** This provider is gone. The app is no longer on Google Play and
+**Update 2026-10-30:** This provider is gone. The app is no longer on Google Play and
 on 2026-10-30 allcoinwallet.com redirected to a GoDaddy page offering the domain
 for sale.
 

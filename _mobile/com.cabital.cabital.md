@@ -22,7 +22,7 @@ android:
 
 ---
 
-**⚠️ Warning:** Cabital looks gone. Its website already showed only an error page by [May 2024](https://web.archive.org/web/20240524105901/https://www.cabital.com/), and cabital.com is now a parked domain. We found no shutdown notice.
+**Update 2026-10-30:** Cabital looks gone. Its website already showed only an error page by [May 2024](https://web.archive.org/web/20240524105901/https://www.cabital.com/), and cabital.com is now a parked domain. We found no shutdown notice.
 
 ## App Description
 

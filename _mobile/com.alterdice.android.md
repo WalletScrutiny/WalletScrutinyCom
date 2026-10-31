@@ -25,7 +25,7 @@ android:
 
 ---
 
-**⚠️ Warning:** Alterdice appears to be gone. Its website no longer loads (the [last archived copy](https://web.archive.org/web/20250418130523/https://alterdice.com/) is from 2025), and its [Telegram channel](https://t.me/s/alterdice_channel_eng) has been silent since January 2023.
+**Update 2026-10-30:** Alterdice appears to be gone. Its website no longer loads (the [last archived copy](https://web.archive.org/web/20250418130523/https://alterdice.com/) is from 2025), and its [Telegram channel](https://t.me/s/alterdice_channel_eng) has been silent since January 2023.
 
 ## App Description from Google Play 
 

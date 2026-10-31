@@ -37,7 +37,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Faswet looks gone. Both store apps are removed, the [faswet.com](https://web.archive.org/web/2026/https://faswet.com/) site showed only a parked-domain page in 2026 and no longer loads, and the emetenjoy.com domain of the Emet group now hosts an unrelated Chinese gossip site.
+**Update 2026-10-30:** Faswet looks gone. Both store apps are removed, the [faswet.com](https://web.archive.org/web/2026/https://faswet.com/) site showed only a parked-domain page in 2026 and no longer loads, and the emetenjoy.com domain of the Emet group now hosts an unrelated Chinese gossip site.
 
 ## Android
 

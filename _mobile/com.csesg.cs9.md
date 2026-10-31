@@ -19,7 +19,7 @@ android:
 
 ---
 
-**⚠️ Warning:** The CS9 website no longer loads, and we found no sign that the provider is still active.
+**Update 2026-10-30:** The CS9 website no longer loads, and we found no sign that the provider is still active.
 
 ## App Description from Google Play 
 

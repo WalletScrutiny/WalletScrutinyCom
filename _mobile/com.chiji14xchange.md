@@ -36,7 +36,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** The Chiji14xchange website no longer loads. Its domain has been [parked since late 2024](https://web.archive.org/web/20241210023233/https://chiji14xchange.com/), and both apps are gone from the stores.
+**Update 2026-10-30:** The Chiji14xchange website no longer loads. Its domain has been [parked since late 2024](https://web.archive.org/web/20241210023233/https://chiji14xchange.com/), and both apps are gone from the stores.
 
 ## Android
 

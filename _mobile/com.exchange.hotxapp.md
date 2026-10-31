@@ -32,7 +32,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** HotX looks gone. Its website no longer loads (last [archived in January 2025](https://web.archive.org/web/20250115170549/https://hotx.pro/)), the site of its operator Metasigns no longer loads either, and both apps were removed from the stores.
+**Update 2026-10-30:** HotX looks gone. Its website no longer loads (last [archived in January 2025](https://web.archive.org/web/20250115170549/https://hotx.pro/)), the site of its operator Metasigns no longer loads either, and both apps were removed from the stores.
 
 ## Android
 

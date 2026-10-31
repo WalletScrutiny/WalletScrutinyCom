@@ -23,7 +23,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Kcash appears to be gone. The app is off the App Store and the kcash.com website is gone.
+**Update 2026-10-30:** Kcash appears to be gone. The app is off the App Store and the kcash.com website is gone.
 
 **Update 2022-03-28**: This app is not available anymore.
 

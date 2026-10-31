@@ -19,7 +19,7 @@ android:
 
 ---
 
-**⚠️ Warning:** Huobi Labuan appears to be gone. Its [website](https://www.huobilbn.com) now only shows a "Coming soon" page, and Huobi itself [renamed to HTX](https://en.wikipedia.org/wiki/HTX_%28cryptocurrency_exchange%29) in 2023.
+**Update 2026-10-30:** Huobi Labuan appears to be gone. Its [website](https://www.huobilbn.com) now only shows a "Coming soon" page, and Huobi itself [renamed to HTX](https://en.wikipedia.org/wiki/HTX_%28cryptocurrency_exchange%29) in 2023.
 
 We were not able to determine whether this was a fake of {% include walletLink.html wallet='android/pro.huobi' verdict='true' %} since the app is no longer on Google Play store as of 2023-04-07. 
 

@@ -32,7 +32,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Digital Money looks gone. Both apps are off the stores, and its site dmexchange.com no longer loads; the [last archived copy](https://web.archive.org/web/20231004172251/https://dmexchange.com/) is from October 2023.
+**Update 2026-10-30:** Digital Money looks gone. Both apps are off the stores, and its site dmexchange.com no longer loads; the [last archived copy](https://web.archive.org/web/20231004172251/https://dmexchange.com/) is from October 2023.
 
 ## Android
 

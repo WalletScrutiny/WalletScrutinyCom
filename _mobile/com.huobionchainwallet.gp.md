@@ -24,7 +24,7 @@ android:
 
 ---
 
-**⚠️ Warning:** iToken looks gone. [itoken.com](https://www.itoken.com/)
+**Update 2026-10-30:** iToken looks gone. [itoken.com](https://www.itoken.com/)
 only shows an error page (the
 [last archived copy](https://web.archive.org/web/20250220161901/https://www.itoken.com/)
 is from 2025-02-20), the support site support.huobiwallet.io no longer loads, and

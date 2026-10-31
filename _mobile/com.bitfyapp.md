@@ -36,7 +36,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Bitfy appears to be gone. Both apps are out of the stores, bitfy.app is a parked domain, and blockchainwebservices.com.br, the company's site after its [2024 rebrand to BWS](https://web.archive.org/web/20241212052429/https://blockchainwebservices.com.br/), now shows an unrelated blog.
+**Update 2026-10-30:** Bitfy appears to be gone. Both apps are out of the stores, bitfy.app is a parked domain, and blockchainwebservices.com.br, the company's site after its [2024 rebrand to BWS](https://web.archive.org/web/20241212052429/https://blockchainwebservices.com.br/), now shows an unrelated blog.
 
 ## Android
 

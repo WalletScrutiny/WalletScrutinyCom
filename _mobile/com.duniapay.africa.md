@@ -36,7 +36,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Dunia is gone. Its old website duniapay.net now belongs to an unrelated tech blog, and the app is no longer in either store.
+**Update 2026-10-30:** Dunia is gone. Its old website duniapay.net now belongs to an unrelated tech blog, and the app is no longer in either store.
 
 ## Android
 

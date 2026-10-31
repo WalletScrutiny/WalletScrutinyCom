@@ -18,6 +18,6 @@ android:
 
 ---
 
-**⚠️ Warning:** Fuzionx appears to be gone. Its website fuzionx.io now forwards to an unrelated Vietnamese betting site.
+**Update 2026-10-30:** Fuzionx appears to be gone. Its website fuzionx.io now forwards to an unrelated Vietnamese betting site.
 
 This app is no longer on Google Play (404).

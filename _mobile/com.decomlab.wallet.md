@@ -34,7 +34,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Moon Wallet is gone. Its website now shows a parked domain page, and the app is no longer in either store.
+**Update 2026-10-30:** Moon Wallet is gone. Its website now shows a parked domain page, and the app is no longer in either store.
 
 ## Android
 

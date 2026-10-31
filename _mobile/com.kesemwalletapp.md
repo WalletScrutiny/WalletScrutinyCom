@@ -17,4 +17,4 @@ android:
 
 ---
 
-**⚠️ Warning:** Kesem's website no longer loads. The last archived copy is from [April 2025](https://web.archive.org/web/20250403075810/https://kesem.io/).
+**Update 2026-10-30:** Kesem's website no longer loads. The last archived copy is from [April 2025](https://web.archive.org/web/20250403075810/https://kesem.io/).

@@ -34,7 +34,7 @@ features:
 
 ---
 
-**⚠️ Warning:** BEPAL appears to be out of business. Its website and code have been dead for years.
+**Update 2026-10-30:** BEPAL appears to be out of business. Its website and code have been dead for years.
 
 Launched 3 years ago, the website now displays "Website is under maintenance" and "Actively cooperate with the latest industry regulatory policies". 
 

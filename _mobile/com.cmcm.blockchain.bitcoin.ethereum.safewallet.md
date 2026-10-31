@@ -19,7 +19,7 @@ android:
 
 ---
 
-**⚠️ Warning:** This provider appears to be gone. The app has been missing from
+**Update 2026-10-30:** This provider appears to be gone. The app has been missing from
 Google Play since at least March 2020, and its website safewallet.cmcmbc.com has
 been a blank page since 2021, as the
 [Internet Archive](https://web.archive.org/web/2021/http://safewallet.cmcmbc.com/)

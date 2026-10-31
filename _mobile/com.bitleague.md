@@ -37,7 +37,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** BitLeague looks gone. Its website and help center no longer load; the last [archived copy of the website](https://web.archive.org/web/20250627045916/https://www.bitleague.com/) is from June 2025.
+**Update 2026-10-30:** BitLeague looks gone. Its website and help center no longer load; the last [archived copy of the website](https://web.archive.org/web/20250627045916/https://www.bitleague.com/) is from June 2025.
 
 ## Android
 

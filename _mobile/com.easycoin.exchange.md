@@ -38,7 +38,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** EasyCoins appears to be gone. The easycoins.com site no longer loads, and its [X account](https://x.com/EasyCoinsCrypto) has posted nothing since 2023.
+**Update 2026-10-30:** EasyCoins appears to be gone. The easycoins.com site no longer loads, and its [X account](https://x.com/EasyCoinsCrypto) has posted nothing since 2023.
 
 ## Android
 

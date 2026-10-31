@@ -36,7 +36,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Hawex appears to be gone. hawexdao.com no longer loads, hawex.com now shows an unrelated gambling site, and the [Telegram channel](https://t.me/s/hawex) has been silent since December 2024.
+**Update 2026-10-30:** Hawex appears to be gone. hawexdao.com no longer loads, hawex.com now shows an unrelated gambling site, and the [Telegram channel](https://t.me/s/hawex) has been silent since December 2024.
 
 ## Android
 

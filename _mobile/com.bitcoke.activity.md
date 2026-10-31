@@ -20,7 +20,7 @@ android:
 
 ---
 
-**⚠️ Warning:** BitCoke appears to be gone. Its website no longer loads, and there is no sign that the withdrawals it [suspended in November 2022](https://pandaily.com/hong-kong-based-crypto-exchange-bitcoke-suspends-withdrawals-due-to-investigation-of-financial-officer/) ever resumed.
+**Update 2026-10-30:** BitCoke appears to be gone. Its website no longer loads, and there is no sign that the withdrawals it [suspended in November 2022](https://pandaily.com/hong-kong-based-crypto-exchange-bitcoke-suspends-withdrawals-due-to-investigation-of-financial-officer/) ever resumed.
 
 ## App Description from Google Play 
 

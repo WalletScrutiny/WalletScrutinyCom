@@ -34,7 +34,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Volt looks gone. Both apps are off the stores, by September 2023 [volt.id](https://web.archive.org/web/20230921094340/https://www.volt.id/) showed an unrelated page instead of the wallet, and the site no longer loads.
+**Update 2026-10-30:** Volt looks gone. Both apps are off the stores, by September 2023 [volt.id](https://web.archive.org/web/20230921094340/https://www.volt.id/) showed an unrelated page instead of the wallet, and the site no longer loads.
 
 ## Android
 

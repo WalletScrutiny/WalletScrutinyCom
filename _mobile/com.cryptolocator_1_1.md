@@ -16,4 +16,4 @@ android:
 
 ---
 
-**⚠️ Warning:** Cryptolocator appears to be gone. Its website cryptolocator.com now only shows a domain-for-sale page; the [last archived Cryptolocator site](https://web.archive.org/web/20200314104511/https://cryptolocator.com/) is from March 2020.
+**Update 2026-10-30:** Cryptolocator appears to be gone. Its website cryptolocator.com now only shows a domain-for-sale page; the [last archived Cryptolocator site](https://web.archive.org/web/20200314104511/https://cryptolocator.com/) is from March 2020.

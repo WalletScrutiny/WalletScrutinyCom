@@ -19,7 +19,7 @@ android:
 
 ---
 
-**⚠️ Warning:** The provider appears to be gone. The Ayrex website still advertised mining farms in [March 2025](https://web.archive.org/web/20250312035540/http://ayrextrading.com/), showed an unrelated lottery page by [July 2025](https://web.archive.org/web/20250711002823/http://ayrextrading.com/), and no longer loads today.
+**Update 2026-10-30:** The provider appears to be gone. The Ayrex website still advertised mining farms in [March 2025](https://web.archive.org/web/20250312035540/http://ayrextrading.com/), showed an unrelated lottery page by [July 2025](https://web.archive.org/web/20250711002823/http://ayrextrading.com/), and no longer loads today.
 
 ## App Description from Google Play 
 

@@ -16,6 +16,6 @@ android:
 
 ---
 
-**⚠️ Warning:** Babel Finance is gone. It stopped all customer withdrawals in June 2022 after
+**Update 2026-10-30:** Babel Finance is gone. It stopped all customer withdrawals in June 2022 after
 [losing over $280 million of customer funds in trading](https://www.theblock.co/post/160230/babel-finance-crypto-lost-280-million-proprietary-trading-restructuring),
 and its website now only shows a domain parking page.

@@ -40,7 +40,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** AgoraDesk is gone. It [stopped new sign-ups on 2024-05-07 and new trades a week later](https://www.nobsbitcoin.com/agoradesk-localmonero-shutting-down/), asked users to withdraw their arbitration bond funds before 2024-11-07, and [agoradesk.com](https://agoradesk.com) now only says the platform has been taken offline.
+**Update 2026-10-30:** AgoraDesk is gone. It [stopped new sign-ups on 2024-05-07 and new trades a week later](https://www.nobsbitcoin.com/agoradesk-localmonero-shutting-down/), asked users to withdraw their arbitration bond funds before 2024-11-07, and [agoradesk.com](https://agoradesk.com) now only says the platform has been taken offline.
 
 ## Android
 

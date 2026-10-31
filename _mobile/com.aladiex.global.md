@@ -22,7 +22,7 @@ android:
 
 ---
 
-**⚠️ Warning:** AladiEx appears to be gone. Its website now forwards to a page offering the [aladiex.com domain for sale](https://www.hugedomains.com/domain_profile.cfm?d=aladiex.com), and the exchange site was [last archived in January 2022](https://web.archive.org/web/20220116101543/https://aladiex.com/).
+**Update 2026-10-30:** AladiEx appears to be gone. Its website now forwards to a page offering the [aladiex.com domain for sale](https://www.hugedomains.com/domain_profile.cfm?d=aladiex.com), and the exchange site was [last archived in January 2022](https://web.archive.org/web/20220116101543/https://aladiex.com/).
 
 ## App Description
 

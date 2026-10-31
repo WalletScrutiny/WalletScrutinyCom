@@ -17,4 +17,4 @@ android:
 
 ---
 
-**⚠️ Warning:** Ciclex appears to be gone. Its website went offline in early 2022, and ciclex.com now belongs to an unrelated gym software. Our link points to the [last archived Ciclex site](https://web.archive.org/web/20220126054157/https://ciclex.com/) from January 2022.
+**Update 2026-10-30:** Ciclex appears to be gone. Its website went offline in early 2022, and ciclex.com now belongs to an unrelated gym software. Our link points to the [last archived Ciclex site](https://web.archive.org/web/20220126054157/https://ciclex.com/) from January 2022.

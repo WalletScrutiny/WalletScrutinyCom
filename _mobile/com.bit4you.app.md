@@ -38,7 +38,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** bit4you is gone. It suspended all operations in April 2023 after its partner CoinLoan, which held most of its customers' bitcoin, halted activity ([Cointelegraph](https://cointelegraph.com/news/belgian-crypto-platform-bit4you-suspends-operations-after-coinloan-halts-activity)), and its website now says the exchange "has permanently shut down" ([bit4you.io](https://www.bit4you.io)).
+**Update 2026-10-30:** bit4you is gone. It suspended all operations in April 2023 after its partner CoinLoan, which held most of its customers' bitcoin, halted activity ([Cointelegraph](https://cointelegraph.com/news/belgian-crypto-platform-bit4you-suspends-operations-after-coinloan-halts-activity)), and its website now says the exchange "has permanently shut down" ([bit4you.io](https://www.bit4you.io)).
 
 ## Android
 

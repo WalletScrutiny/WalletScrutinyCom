@@ -23,7 +23,7 @@ android:
 
 ---
 
-**⚠️ Warning:** Betconix appears to be gone. Since at least May 2023 betconix.com no longer shows the exchange: the Internet Archive shows a [parked domain](https://web.archive.org/web/20230503105323/https://betconix.com/), and today it hosts an unrelated casino review site. The [last archived exchange site](https://web.archive.org/web/20230112044905/https://betconix.com/) is from January 2023. We found no shutdown notice.
+**Update 2026-10-30:** Betconix appears to be gone. Since at least May 2023 betconix.com no longer shows the exchange: the Internet Archive shows a [parked domain](https://web.archive.org/web/20230503105323/https://betconix.com/), and today it hosts an unrelated casino review site. The [last archived exchange site](https://web.archive.org/web/20230112044905/https://betconix.com/) is from January 2023. We found no shutdown notice.
 
 ## App Description
 

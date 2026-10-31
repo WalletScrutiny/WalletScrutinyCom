@@ -22,7 +22,7 @@ android:
 
 ---
 
-**⚠️ Warning:** BuyCoins looks gone. On 2026-10-30
+**Update 2026-10-30:** BuyCoins looks gone. On 2026-10-30
 [buycoins.africa](https://buycoins.africa/) showed only "This service has been
 suspended by its owner". Its parent company Helicarrier
 [shut its Buycoins Pro exchange](https://www.mariblock.com/helicarrier-shuts-crypto-trading-platform-buycoins-pro/)

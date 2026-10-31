@@ -24,7 +24,7 @@ android:
 
 ---
 
-**⚠️ Warning:** VAEX appears to be gone. Its website was a [parked domain by November 2024](https://web.archive.org/web/20241107005005/https://vaex.tech/) and now shows an unrelated page that is not the exchange.
+**Update 2026-10-30:** VAEX appears to be gone. Its website was a [parked domain by November 2024](https://web.archive.org/web/20241107005005/https://vaex.tech/) and now shows an unrelated page that is not the exchange.
 
 ## App Description from Website 
 

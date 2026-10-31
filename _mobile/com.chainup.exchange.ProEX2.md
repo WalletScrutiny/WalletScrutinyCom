@@ -24,7 +24,7 @@ android:
 
 ---
 
-**⚠️ Warning:** ProEX appears to be gone. Its website and help center no longer load; the [last archived copy of the exchange](https://web.archive.org/web/20240224061421/https://proex.io/zh_CN/) is from February 2024, after which the domain showed only a blank page and then a parking redirect. The app is no longer on Google Play.
+**Update 2026-10-30:** ProEX appears to be gone. Its website and help center no longer load; the [last archived copy of the exchange](https://web.archive.org/web/20240224061421/https://proex.io/zh_CN/) is from February 2024, after which the domain showed only a blank page and then a parking redirect. The app is no longer on Google Play.
 
 ## App Description from Google Play 
 

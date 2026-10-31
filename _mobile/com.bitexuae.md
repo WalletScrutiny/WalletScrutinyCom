@@ -36,7 +36,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Bitex appears to be gone. bitex.com no longer serves the exchange, bitexuae.com now shows only casino link spam, and [Trustpilot](https://www.trustpilot.com/review/www.bitexuae.com) says the company website has closed.
+**Update 2026-10-30:** Bitex appears to be gone. bitex.com no longer serves the exchange, bitexuae.com now shows only casino link spam, and [Trustpilot](https://www.trustpilot.com/review/www.bitexuae.com) says the company website has closed.
 
 ## Android
 

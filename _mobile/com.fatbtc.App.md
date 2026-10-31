@@ -34,7 +34,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** FatBTC appears to be gone. Its website stopped loading in late 2024 ([last working snapshot, September 2024](https://web.archive.org/web/20240903030705/https://fatbtc.com/)), and by August 2026 the domain showed an unrelated headphone deals site ([snapshot](https://web.archive.org/web/20260821062137/https://fatbtc.com/)). Both apps are gone from the stores.
+**Update 2026-10-30:** FatBTC appears to be gone. Its website stopped loading in late 2024 ([last working snapshot, September 2024](https://web.archive.org/web/20240903030705/https://fatbtc.com/)), and by August 2026 the domain showed an unrelated headphone deals site ([snapshot](https://web.archive.org/web/20260821062137/https://fatbtc.com/)). Both apps are gone from the stores.
 
 ## Android
 

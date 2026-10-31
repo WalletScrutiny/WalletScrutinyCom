@@ -34,8 +34,6 @@ iphone:
 
 ---
 
-**⚠️ Warning:** AOFEX appears to be gone. Its websites are down, and users reported that they could not withdraw their funds when it shut.
-
 **Update 2026-10-30:** AOFEX has shut down, for both apps. aofex.co is gone, aofex.com no longer loads, and [Cryptowisser](https://www.cryptowisser.com/exchange/aofex/) lists the exchange as dead since January 2022; [CaptainAltcoin](https://captainaltcoin.com/aofex-review/) calls the shutdown a rug pull.
 
 ## Android

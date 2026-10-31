@@ -23,7 +23,7 @@ android:
 
 ---
 
-**⚠️ Warning:** AcornBit appears to be gone. Its website stopped working by December 2023 ([archived](https://web.archive.org/web/20231204032109/https://acornbit.com/)) and the domain is now offered for sale.
+**Update 2026-10-30:** AcornBit appears to be gone. Its website stopped working by December 2023 ([archived](https://web.archive.org/web/20231204032109/https://acornbit.com/)) and the domain is now offered for sale.
 
 ## Updated Review 2023-05-04
 

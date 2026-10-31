@@ -35,7 +35,7 @@ features:
 
 ---
 
-**⚠️ Warning:** This project is gone. Its website and its successor site no longer exist.
+**Update 2026-10-30:** This project is gone. Its website and its successor site no longer exist.
 
 ## Product Description 
 

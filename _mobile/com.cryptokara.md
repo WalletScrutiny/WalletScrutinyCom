@@ -33,7 +33,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** CryptoKara's website is gone: the domain is [now for sale](https://www.hugedomains.com/domain_profile.cfm?d=cryptokara.com). The last [archived copy](https://web.archive.org/web/20241113022658/https://www.cryptokara.com/) is from November 2024, and both apps are gone from the stores.
+**Update 2026-10-30:** CryptoKara's website is gone: the domain is [now for sale](https://www.hugedomains.com/domain_profile.cfm?d=cryptokara.com). The last [archived copy](https://web.archive.org/web/20241113022658/https://www.cryptokara.com/) is from November 2024, and both apps are gone from the stores.
 
 ## Android
 

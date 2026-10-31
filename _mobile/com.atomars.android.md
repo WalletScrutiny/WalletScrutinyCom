@@ -24,7 +24,7 @@ android:
 
 ---
 
-**⚠️ Warning:** Atomars is gone. The website no longer loads (its last archived capture in [March 2025](https://web.archive.org/web/20250318203904/https://atomars.com/) shows only a hosting placeholder page), and trackers list the exchange as inactive, with withdrawals stopped since 2021 ([Cryptowisser](https://www.cryptowisser.com/exchange/atomars/)).
+**Update 2026-10-30:** Atomars is gone. The website no longer loads (its last archived capture in [March 2025](https://web.archive.org/web/20250318203904/https://atomars.com/) shows only a hosting placeholder page), and trackers list the exchange as inactive, with withdrawals stopped since 2021 ([Cryptowisser](https://www.cryptowisser.com/exchange/atomars/)).
 
 ## App Description from Google Play 
 

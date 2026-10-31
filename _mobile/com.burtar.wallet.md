@@ -19,7 +19,7 @@ android:
 
 ---
 
-**⚠️ Warning:** Burtar appears to be gone. Its website is now a domain parking page.
+**Update 2026-10-30:** Burtar appears to be gone. Its website is now a domain parking page.
 
 **Update 2022-02-18**: This app is not on the Store anymore.
 

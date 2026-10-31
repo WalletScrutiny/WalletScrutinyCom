@@ -20,7 +20,7 @@ android:
 
 ---
 
-**⚠️ Warning:** The BitShield website is gone. Since 2025 its domain shows an unrelated casino page; the [last archived BitShield page](https://web.archive.org/web/20221210014013/https://bitshieldwallet.com/) is from December 2022.
+**Update 2026-10-30:** The BitShield website is gone. Since 2025 its domain shows an unrelated casino page; the [last archived BitShield page](https://web.archive.org/web/20221210014013/https://bitshieldwallet.com/) is from December 2022.
 
 In this app's description we read:
 

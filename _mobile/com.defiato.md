@@ -35,7 +35,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** DeFiato appears to be gone. Both apps are gone from the stores, and its website, blog and web app no longer load, nor does the site of its parent project Beowulf. The last archived copy of the [website](https://web.archive.org/web/20250619091048/https://defiato.com/) is from June 2025.
+**Update 2026-10-30:** DeFiato appears to be gone. Both apps are gone from the stores, and its website, blog and web app no longer load, nor does the site of its parent project Beowulf. The last archived copy of the [website](https://web.archive.org/web/20250619091048/https://defiato.com/) is from June 2025.
 
 ## Android
 

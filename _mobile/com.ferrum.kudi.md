@@ -24,7 +24,7 @@ android:
 
 ---
 
-**⚠️ Warning:** First Kudi is gone. Its website now shows an unrelated Thai bitcoin casino page dated March 2025; the [last archived First Kudi site](https://web.archive.org/web/20240802235407/https://firstkudi.com/) is from August 2024.
+**Update 2026-10-30:** First Kudi is gone. Its website now shows an unrelated Thai bitcoin casino page dated March 2025; the [last archived First Kudi site](https://web.archive.org/web/20240802235407/https://firstkudi.com/) is from August 2024.
 
 ## App Description from [Google Play Store](https://play.google.com/store/apps/details?id=com.ferrum.kudi)
 

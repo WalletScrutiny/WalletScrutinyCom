@@ -19,7 +19,7 @@ android:
 
 ---
 
-**⚠️ Warning:** BitOne looks gone. The app is no longer on Google Play and its website no longer loads.
+**Update 2026-10-30:** BitOne looks gone. The app is no longer on Google Play and its website no longer loads.
 
 ## App Description from Google Play 
 

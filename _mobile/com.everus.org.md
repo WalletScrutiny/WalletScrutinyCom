@@ -23,7 +23,7 @@ android:
 
 ---
 
-**⚠️ Warning:** Everus appears to be gone. Its website is now a domain parking page, and by [February 2025](https://web.archive.org/web/20250206204705/https://www.everus.org/) it already showed an unrelated company's page.
+**Update 2026-10-30:** Everus appears to be gone. Its website is now a domain parking page, and by [February 2025](https://web.archive.org/web/20250206204705/https://www.everus.org/) it already showed an unrelated company's page.
 
 The Privacy Policy linked on Google Play and the app's sign-in page redirects back to the website homepage.
 

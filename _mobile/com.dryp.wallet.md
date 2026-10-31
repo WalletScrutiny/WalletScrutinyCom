@@ -17,4 +17,4 @@ android:
 
 ---
 
-**⚠️ Warning:** The DRYP crypto wallet site is gone. Its domain [drypwallet.com](https://www.drypwallet.com/) now shows a payments app funded from a bank account, with no crypto features; the original wallet site survives only in an [archived copy from March 2022](https://web.archive.org/web/20220309044945/https://drypwallet.com/).
+**Update 2026-10-30:** The DRYP crypto wallet site is gone. Its domain [drypwallet.com](https://www.drypwallet.com/) now shows a payments app funded from a bank account, with no crypto features; the original wallet site survives only in an [archived copy from March 2022](https://web.archive.org/web/20220309044945/https://drypwallet.com/).

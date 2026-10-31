@@ -17,4 +17,4 @@ android:
 
 ---
 
-**⚠️ Warning:** EO.Finance has shut down. [Its website](https://eo.finance) says "we have permanently closed our business operations", and it already said so in [May 2024](https://web.archive.org/web/20240516151432/https://eo.finance/).
+**Update 2026-10-30:** EO.Finance has shut down. [Its website](https://eo.finance) says "we have permanently closed our business operations", and it already said so in [May 2024](https://web.archive.org/web/20240516151432/https://eo.finance/).

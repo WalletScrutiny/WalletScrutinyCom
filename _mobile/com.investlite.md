@@ -20,8 +20,6 @@ android:
 
 ---
 
-**⚠️ Warning:** InvestLite appears to be gone. Its domain registration has expired.
-
 **Update 2026-10-30:** The provider is gone: [investlite.com](https://www.investlite.com/) now shows a Namecheap "Domain registration has expired" page.
 
 **Update 2022-01-16**: This app is not available anymore.

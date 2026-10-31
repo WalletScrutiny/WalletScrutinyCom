@@ -33,7 +33,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Both apps are gone from the stores, and the provider looks gone too: the coincardi.com site no longer loads ([last archived in February 2025](https://web.archive.org/web/20250228134745/https://coincardi.com/)), and the old ibandirect.com domain is now up for sale.
+**Update 2026-10-30:** Both apps are gone from the stores, and the provider looks gone too: the coincardi.com site no longer loads ([last archived in February 2025](https://web.archive.org/web/20250228134745/https://coincardi.com/)), and the old ibandirect.com domain is now up for sale.
 
 ## Android
 

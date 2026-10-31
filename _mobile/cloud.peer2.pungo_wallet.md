@@ -18,7 +18,6 @@ android:
 
 ---
 
-**⚠️ Warning:** This provider is gone. Its website
 pungowallet.com no longer loads, and pungo.io shows
 an old company page that says "We are going for good", padded with casino
 advertising.

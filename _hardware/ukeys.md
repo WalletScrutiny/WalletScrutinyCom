@@ -32,8 +32,6 @@ features:
 
 ---
 
-**⚠️ Warning:** This provider is gone. Its domain now hosts an unrelated blog.
-
 **Update 2026-10-30:** [unikeys.io](https://unikeys.io/) now hosts an unrelated WordPress blog, so the website field points to the [last archived copy of the real site, from December 2019](https://web.archive.org/web/20191206134113/https://www.unikeys.io/).
 
 In a Medium article from 2018, {{ page.title }} [describes itself as a biometric hardware wallet company.](https://medium.com/@UnikeysTeam/we-are-unikeys-the-world-firsts-biometric-hardware-wallet-company-in-cryptocurrency-6563e7dcc73a)

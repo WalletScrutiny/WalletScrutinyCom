@@ -37,8 +37,6 @@ iphone:
 
 ---
 
-**⚠️ Warning:** The Coingrig website is gone; [the domain is parked](https://web.archive.org/web/20250906230758/https://coingrig.com/). Both apps are gone from the stores.
-
 **Update 2026-10-30:** Coingrig published the source for version 1.3.11 in [May 2023](https://github.com/coingrig/coingrig-wallet/releases/tag/v1.3.11) and closed [issue 22](https://github.com/coingrig/coingrig-wallet/issues/22).
 
 ## Android

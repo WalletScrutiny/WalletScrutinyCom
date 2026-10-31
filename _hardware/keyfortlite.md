@@ -30,6 +30,6 @@ features:
 
 ---
 
-**⚠️ Warning:** KeyFort appears to be out of business. Its domain no longer exists.
+**Update 2026-10-30:** KeyFort appears to be out of business. Its domain no longer exists.
 
 The [provider's website](https://www.keyfort.io/) is inaccessible and we considered it defunct.

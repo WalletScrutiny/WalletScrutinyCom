@@ -30,6 +30,6 @@ features:
 
 ---
 
-**⚠️ Warning:** Pi Wallet appears to be out of business. Its domain has changed hands.
+**Update 2026-10-30:** Pi Wallet appears to be out of business. Its domain has changed hands.
 
 The [provider's website](https://www.pi-wallet.com) is inaccessible and we considered it defunct.

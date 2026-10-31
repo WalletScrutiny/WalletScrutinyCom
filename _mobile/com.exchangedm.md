@@ -24,7 +24,7 @@ android:
 
 ---
 
-**⚠️ Warning:** The Digital Money website no longer loads, and the [last archived copy of it is from October 2023](https://web.archive.org/web/20231004172251/https://dmexchange.com/). The app is no longer on Google Play.
+**Update 2026-10-30:** The Digital Money website no longer loads, and the [last archived copy of it is from October 2023](https://web.archive.org/web/20231004172251/https://dmexchange.com/). The app is no longer on Google Play.
 
 ## App Description from Google Play
 

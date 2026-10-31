@@ -34,7 +34,7 @@ features:
 
 ---
 
-**⚠️ Warning:** BEPAL appears to be out of business. Its website and code have been dead for years.
+**Update 2026-10-30:** BEPAL appears to be out of business. Its website and code have been dead for years.
 
 The Bepal PRO S' website is [no longer online](https://twitter.com/BitcoinWalletz/status/1466331090105233408).
 

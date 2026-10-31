@@ -32,7 +32,6 @@ iphone:
 
 ---
 
-**⚠️ Warning:** BuyCoins looks gone. On 2026-10-30
 [buycoins.africa](https://buycoins.africa/) showed only "This service has been
 suspended by its owner", and the [buycoins_africa](https://x.com/buycoins_africa)
 account on X no longer exists. Its parent company Helicarrier

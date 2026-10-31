@@ -20,4 +20,4 @@ iphone:
 
 ---
 
-**⚠️ Warning:** The app is gone from the App Store, and the Wampum1st website now sends visitors to an unrelated news portal. The website link above points to an archived copy from May 2025.
+**Update 2026-10-30:** The app is gone from the App Store, and the Wampum1st website now sends visitors to an unrelated news portal. The website link above points to an archived copy from May 2025.

@@ -17,4 +17,4 @@ android:
 
 ---
 
-**⚠️ Warning:** The provider looks gone. The app is no longer on Google Play, and the [purchasa.com](https://web.archive.org/web/2025/https://purchasa.com/) website showed only an error page from December 2024 and is now a parked domain.
+**Update 2026-10-30:** The provider looks gone. The app is no longer on Google Play, and the [purchasa.com](https://web.archive.org/web/2025/https://purchasa.com/) website showed only an error page from December 2024 and is now a parked domain.

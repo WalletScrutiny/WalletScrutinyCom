@@ -36,7 +36,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** HaggleX looks gone. Both apps are no longer in the stores, and hagglex.com now only forwards to a GoDaddy page offering the domain for sale. The non-custodial wallet the whitepaper promised never got a listing here.
+**Update 2026-10-30:** HaggleX looks gone. Both apps are no longer in the stores, and hagglex.com now only forwards to a GoDaddy page offering the domain for sale. The non-custodial wallet the whitepaper promised never got a listing here.
 
 ## Android
 

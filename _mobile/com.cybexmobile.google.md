@@ -17,4 +17,4 @@ android:
 
 ---
 
-**⚠️ Warning:** Cybex is gone. Its website cybex.io has been a [parked domain since at least August 2025](https://web.archive.org/web/20250806061142/http://cybex.io/) and is now offered for sale.
+**Update 2026-10-30:** Cybex is gone. Its website cybex.io has been a [parked domain since at least August 2025](https://web.archive.org/web/20250806061142/http://cybex.io/) and is now offered for sale.

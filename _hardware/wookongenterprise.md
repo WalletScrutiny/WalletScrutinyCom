@@ -33,7 +33,7 @@ features:
 
 ---
 
-**⚠️ Warning:** WOOKONG, the provider of this device, appears to be gone.
+**Update 2026-10-30:** WOOKONG, the provider of this device, appears to be gone.
 
 The website is [no longer working](https://twitter.com/BitcoinWalletz/status/1477479861031616517).
 

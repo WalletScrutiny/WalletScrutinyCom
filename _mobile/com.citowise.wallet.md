@@ -19,7 +19,7 @@ android:
 
 ---
 
-**⚠️ Warning:** This provider is gone. The app is no longer on Google Play.
+**Update 2026-10-30:** This provider is gone. The app is no longer on Google Play.
 On 2026-10-30 citowise.com answered again, but with a copy of the old page,
 marked "2016 - 2020", that now carries links to betting and casino articles.
 We found no sign of a maintained wallet.

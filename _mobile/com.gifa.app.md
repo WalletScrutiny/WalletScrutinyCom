@@ -17,4 +17,4 @@ android:
 
 ---
 
-**⚠️ Warning:** GIFA Exchange appears to be gone. Its domain gifatoken.com is now for sale, and the last [archived copy of the exchange site](https://web.archive.org/web/20230205044320/http://gifatoken.com/) is from February 2023.
+**Update 2026-10-30:** GIFA Exchange appears to be gone. Its domain gifatoken.com is now for sale, and the last [archived copy of the exchange site](https://web.archive.org/web/20230205044320/http://gifatoken.com/) is from February 2023.

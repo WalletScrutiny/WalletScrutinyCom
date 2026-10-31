@@ -38,7 +38,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Spatium appears to be gone. Its website and web wallet no longer load; the last archived copy of the site is from [April 2025](https://web.archive.org/web/20250404155959/https://www.spatium.net/). Both apps are gone from the stores.
+**Update 2026-10-30:** Spatium appears to be gone. Its website and web wallet no longer load; the last archived copy of the site is from [April 2025](https://web.archive.org/web/20250404155959/https://www.spatium.net/). Both apps are gone from the stores.
 
 ## Android
 

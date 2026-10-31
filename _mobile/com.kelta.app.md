@@ -31,7 +31,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Both apps are gone from the stores, and the kelta.com domain is now [for sale](https://web.archive.org/web/20260713034736/http://kelta.com/).
+**Update 2026-10-30:** Both apps are gone from the stores, and the kelta.com domain is now [for sale](https://web.archive.org/web/20260713034736/http://kelta.com/).
 
 ## Android
 

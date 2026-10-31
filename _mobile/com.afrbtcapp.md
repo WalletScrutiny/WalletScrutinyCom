@@ -21,7 +21,7 @@ android:
 
 ---
 
-**⚠️ Warning:** AfrBTC appears to be gone. Its [website](https://web.archive.org/web/20251118170539/https://www.afrbtc.com/) and the privacy policy linked from Google Play no longer load; the last archived copy is from November 2025. The app is still on Google Play but has not been updated since July 2024.
+**Update 2026-10-30:** AfrBTC appears to be gone. Its [website](https://web.archive.org/web/20251118170539/https://www.afrbtc.com/) and the privacy policy linked from Google Play no longer load; the last archived copy is from November 2025. The app is still on Google Play but has not been updated since July 2024.
 
 ## App Description from Google Play
 

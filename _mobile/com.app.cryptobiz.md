@@ -20,7 +20,7 @@ android:
 
 ---
 
-**⚠️ Warning:** Cryptobiz appears to be gone. The app is no longer on Google Play, and its web address now shows an unrelated forex broker comparison page instead of the exchange ([the exchange as archived in 2023](https://web.archive.org/web/20230321220224/https://www.cryptobiz.exchange/terms-and-condition)).
+**Update 2026-10-30:** Cryptobiz appears to be gone. The app is no longer on Google Play, and its web address now shows an unrelated forex broker comparison page instead of the exchange ([the exchange as archived in 2023](https://web.archive.org/web/20230321220224/https://www.cryptobiz.exchange/terms-and-condition)).
 
 <div class="alertBox"><div>Some users on Google Play Reviews have reported not being able to access their funds since 2022.
 </div> </div>

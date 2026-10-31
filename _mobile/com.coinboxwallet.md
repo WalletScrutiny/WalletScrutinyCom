@@ -19,7 +19,7 @@ android:
 
 ---
 
-**⚠️ Warning:** CoinBox Finance appears to be gone. Its website no longer loads; the [last archived CoinBox Finance site](https://web.archive.org/web/20230830165009/https://coinboxfinance.com/) is from August 2023.
+**Update 2026-10-30:** CoinBox Finance appears to be gone. Its website no longer loads; the [last archived CoinBox Finance site](https://web.archive.org/web/20230830165009/https://coinboxfinance.com/) is from August 2023.
 
 ## App Description from Google Play
 

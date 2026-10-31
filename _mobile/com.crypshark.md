@@ -19,7 +19,7 @@ android:
 
 ---
 
-**⚠️ Warning:** The Crypshark website is gone and the domain is now for sale. The last archived copy of the exchange site is from [November 2024](https://web.archive.org/web/20241108211537/https://crypshark.com/).
+**Update 2026-10-30:** The Crypshark website is gone and the domain is now for sale. The last archived copy of the exchange site is from [November 2024](https://web.archive.org/web/20241108211537/https://crypshark.com/).
 
 ## App Description from Google Play
 

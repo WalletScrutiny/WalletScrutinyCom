@@ -21,7 +21,7 @@ android:
 
 ---
 
-**⚠️ Warning:** Coinhub appears to be gone. Its website coinhub.org now forwards to an unrelated gambling site, and [its GitHub account](https://github.com/CoinhubOfficial) still has no repositories.
+**Update 2026-10-30:** Coinhub appears to be gone. Its website coinhub.org now forwards to an unrelated gambling site, and [its GitHub account](https://github.com/CoinhubOfficial) still has no repositories.
 
 ## Notes on similar apps 
 

@@ -34,7 +34,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Both apps are gone from the stores, and the [Bitwells website](https://www.bitwells.com#deadLink) no longer loads.
+**Update 2026-10-30:** Both apps are gone from the stores, and the [Bitwells website](https://www.bitwells.com#deadLink) no longer loads.
 
 ## Android
 

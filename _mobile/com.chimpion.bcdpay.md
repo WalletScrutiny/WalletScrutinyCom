@@ -25,7 +25,7 @@ android:
 
 ---
 
-**⚠️ Warning:** The Chimpion website is gone. Since at least November 2025 the domain only leads to a domain-for-sale page ([last archived site, November 2023](https://web.archive.org/web/20231128165411/https://www.chimpion.io/)).
+**Update 2026-10-30:** The Chimpion website is gone. Since at least November 2025 the domain only leads to a domain-for-sale page ([last archived site, November 2023](https://web.archive.org/web/20231128165411/https://www.chimpion.io/)).
 
 ## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.chimpion.bcdpay)
 

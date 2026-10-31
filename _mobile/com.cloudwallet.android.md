@@ -20,7 +20,7 @@ android:
 
 ---
 
-**⚠️ Warning:** Cloud Token is gone. Its [website](https://cloudtokenwallet.com/) no longer shows the wallet; it now carries an unrelated article about crypto exchanges.
+**Update 2026-10-30:** Cloud Token is gone. Its [website](https://cloudtokenwallet.com/) no longer shows the wallet; it now carries an unrelated article about crypto exchanges.
 
 ## App Description
 

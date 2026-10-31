@@ -20,7 +20,6 @@ android:
 
 ---
 
-**⚠️ Warning:** This provider is gone. The app is no longer on Google Play, and
 its website aegisbtc.com no longer loads. In 2024 the
 [Internet Archive](https://web.archive.org/web/20240522004757/https://aegisbtc.com/)
 showed it as an expired, parked domain.

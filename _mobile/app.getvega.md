@@ -20,7 +20,7 @@ android:
 
 ---
 
-**⚠️ Warning:** This provider is gone. The app is no longer on Google Play and
+**Update 2026-10-30:** This provider is gone. The app is no longer on Google Play and
 its website getvega.app no longer loads. In 2023 the
 [Internet Archive](https://web.archive.org/web/20230810114332/https://getvega.app/)
 showed only "Future home of Vega" there.

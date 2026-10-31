@@ -37,7 +37,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Both apps are gone from the stores, and [bytesmix.com](https://www.bytesmix.com) now only advertises AI consulting. The coin wallet described below is no longer offered there.
+**Update 2026-10-30:** Both apps are gone from the stores, and [bytesmix.com](https://www.bytesmix.com) now only advertises AI consulting. The coin wallet described below is no longer offered there.
 
 ## Android
 

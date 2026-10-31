@@ -19,7 +19,7 @@ android:
 
 ---
 
-**⚠️ Warning:** Amir Capital appears to be gone. Its amir.capital domain was a parked page by mid-2025 and now hosts an unrelated casino site; the [last archived copy of the Amir Capital site is from June 2024](https://web.archive.org/web/20240623122552/https://amir.capital/). The app is no longer on Google Play.
+**Update 2026-10-30:** Amir Capital appears to be gone. Its amir.capital domain was a parked page by mid-2025 and now hosts an unrelated casino site; the [last archived copy of the Amir Capital site is from June 2024](https://web.archive.org/web/20240623122552/https://amir.capital/). The app is no longer on Google Play.
 
 ### Google Play
 

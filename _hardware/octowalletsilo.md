@@ -34,7 +34,7 @@ features:
 
 ---
 
-**⚠️ Warning:** This provider is gone. Its website is a domain for sale and its shop no longer loads.
+**Update 2026-10-30:** This provider is gone. Its website is a domain for sale and its shop no longer loads.
 
 The last twitter post of the Octowallet was made on [March 1, 2019.](https://twitter.com/OctoWallet/status/1079365807707086848). The first working prototype was shown on twitter on [August 3, 2018.](https://twitter.com/OctoWallet/status/1025206431505502208). The Youtube video linked-to on the tweet is now removed. 
 

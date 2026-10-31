@@ -24,7 +24,7 @@ android:
 
 ---
 
-**⚠️ Warning:** CTSKOLA looks gone. The app left Google Play, and ctskola.com now only shows a parked domain page, as it has [since at least October 2025](https://web.archive.org/web/20251013082043/https://ctskola.com/). The linked terms are gone too.
+**Update 2026-10-30:** CTSKOLA looks gone. The app left Google Play, and ctskola.com now only shows a parked domain page, as it has [since at least October 2025](https://web.archive.org/web/20251013082043/https://ctskola.com/). The linked terms are gone too.
 
 ## App Description from Google Play
 

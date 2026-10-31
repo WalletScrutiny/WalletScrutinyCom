@@ -34,7 +34,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** MoneyPipe appears to be gone. Both apps are gone from the stores and the moneypipe.com domain is up for sale.
+**Update 2026-10-30:** MoneyPipe appears to be gone. Both apps are gone from the stores and the moneypipe.com domain is up for sale.
 
 ## Android
 

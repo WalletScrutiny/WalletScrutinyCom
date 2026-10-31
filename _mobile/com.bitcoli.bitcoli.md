@@ -33,7 +33,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** BitcoLi has shut down. Since at least [June 2025](https://web.archive.org/web/20250618154923/https://bitcoli.com/en/) its [website](https://bitcoli.com/en/) says the team closed the wallet because of new EU rules and asks users to move their funds to another wallet. Both apps are gone from the stores.
+**Update 2026-10-30:** BitcoLi has shut down. Since at least [June 2025](https://web.archive.org/web/20250618154923/https://bitcoli.com/en/) its [website](https://bitcoli.com/en/) says the team closed the wallet because of new EU rules and asks users to move their funds to another wallet. Both apps are gone from the stores.
 
 ## Android
 

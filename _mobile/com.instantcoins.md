@@ -35,7 +35,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Instantcoins appears to be gone. Its domain now points to a link shortener's placeholder page.
+**Update 2026-10-30:** Instantcoins appears to be gone. Its domain now points to a link shortener's placeholder page.
 
 ## Android
 

@@ -35,7 +35,7 @@ features:
 
 ---
 
-**⚠️ Warning:** This provider is gone. Its website is a parking page and its app is no longer on Google Play.
+**Update 2026-10-30:** This provider is gone. Its website is a parking page and its app is no longer on Google Play.
 
 Its website is [no longer online](https://bitfreezer.app/). The accompanying Android app {% include walletLink.html wallet='android/bitfreezer.app.wallet' verdict='true' %} is also no longer on Google Play. We were also not able to locate links to its public source code.
 

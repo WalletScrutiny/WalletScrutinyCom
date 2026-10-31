@@ -38,7 +38,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** The provider is gone. CoinCasso, the Estonian exchange behind
+**Update 2026-10-30:** The provider is gone. CoinCasso, the Estonian exchange behind
 CCWallet, is listed as dead in the
 [Cryptowisser exchange graveyard](https://www.cryptowisser.com/exchange/coincasso/)
 since March 2023, coincasso.com no longer loads, and ccwalletapp.com is gone.

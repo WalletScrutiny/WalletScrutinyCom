@@ -17,4 +17,4 @@ android:
 
 ---
 
-**⚠️ Warning:** Beaconiex appears to be gone. Its domain beaconiex.com is now for sale, and the last [archived copy of the exchange site](https://web.archive.org/web/20250330064425/https://beaconiex.com/) is from March 2025.
+**Update 2026-10-30:** Beaconiex appears to be gone. Its domain beaconiex.com is now for sale, and the last [archived copy of the exchange site](https://web.archive.org/web/20250330064425/https://beaconiex.com/) is from March 2025.

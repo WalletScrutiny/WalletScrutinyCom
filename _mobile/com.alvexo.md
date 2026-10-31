@@ -37,7 +37,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Alvexo looks gone. Its EU operator VPR Safe Financial Group gave up its Cyprus investment firm licence, which CySEC withdrew on 2025-09-29 ([CySEC](https://www.cysec.gov.cy/en-GB/public-info/decisions/100693/), [Finance Magnates](https://www.financemagnates.com/forex/cysec-confirms-license-withdrawal-of-vpr-safe-financial-operator-of-cfd-broker-alvexo/)), and the Alvexo website no longer loads.
+**Update 2026-10-30:** Alvexo looks gone. Its EU operator VPR Safe Financial Group gave up its Cyprus investment firm licence, which CySEC withdrew on 2025-09-29 ([CySEC](https://www.cysec.gov.cy/en-GB/public-info/decisions/100693/), [Finance Magnates](https://www.financemagnates.com/forex/cysec-confirms-license-withdrawal-of-vpr-safe-financial-operator-of-cfd-broker-alvexo/)), and the Alvexo website no longer loads.
 
 ## Android
 

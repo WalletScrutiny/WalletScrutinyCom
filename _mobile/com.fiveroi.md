@@ -21,8 +21,6 @@ android:
 
 ---
 
-**⚠️ Warning:** The 5ROI Global exchange is closed. Its old account portal says it only records what 5ROI Global still owed its customers as of June 2022 and is not an active exchange ([v1.5roi.com](https://v1.5roi.com)).
-
 ⚠️ Warning: Some users have alleged on [twitter](https://twitter.com/ict_yass/status/1446626244901093377?lang=en) that their funds were lost on this platform.
 
 **Update 2026-10-30:** The [5roi.com](https://www.5roi.com) site loads again, but now runs a Vietnamese practice-trading platform with free virtual money that takes no deposits. The old exchange accounts only exist in the [read-only portal](https://v1.5roi.com) mentioned above.

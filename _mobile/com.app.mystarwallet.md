@@ -18,8 +18,6 @@ android:
 
 ---
 
-**⚠️ Warning:** MyStarWallet and its provider GrafSound appear to be out of business. None of their websites load anymore.
-
 **Update 2026-10-30:** The provider is gone. The contact websites stargramglobal.net and kmscom.com no longer load, and neither does grafsound.com, the site of the GrafSound music platform behind the app. btcmanager.com is down as well, so the press release below now links to its [archived copy](https://web.archive.org/web/20211022004953/https://btcmanager.com/blockchain-music-streaming-platform-grafsound-sound-world/).
 
 The app has no listed website. It describes itself as an app that has a Bitcoin, Ethereum as well as ERC-20 wallets. 

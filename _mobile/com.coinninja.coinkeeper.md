@@ -29,8 +29,6 @@ android:
 
 ---
 
-**⚠️ Warning:** DropBit and its maker Coin Ninja are out of business. Do not use this app.
-
 **Update 2026-10-30:** The provider is gone. dropbit.app now serves an unrelated casino page, so we marked the website link dead, and coinninja.com redirects to a placeholder page.
 
 {% include featureEvidence.html feature="foss" source="[License](https://github.com/coinninjadev/dropbit-android/blob/master/LICENSE)" quote="MIT License" %}

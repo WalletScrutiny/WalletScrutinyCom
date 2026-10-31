@@ -30,7 +30,7 @@ features:
 
 ---
 
-**⚠️ Warning:** The provider appears to be out of business. Its domain no longer exists.
+**Update 2026-10-30:** The provider appears to be out of business. Its domain no longer exists.
 
 The [provider's website](https://cryptoring.io) is inaccessible.
 We believe this hardware wallet was likely never produced and is now considered defunct.

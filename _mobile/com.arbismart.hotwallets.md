@@ -31,7 +31,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** The provider appears to be gone. The ArbiSmart website no longer loads (it was [last archived in November 2025](https://web.archive.org/web/20251119215358/https://arbismart.com/)) and both apps are gone from the stores.
+**Update 2026-10-30:** The provider appears to be gone. The ArbiSmart website no longer loads (it was [last archived in November 2025](https://web.archive.org/web/20251119215358/https://arbismart.com/)) and both apps are gone from the stores.
 
 ## Android
 

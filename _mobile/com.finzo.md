@@ -19,8 +19,6 @@ android:
 
 ---
 
-**⚠️ Warning:** Finzo Markets looks gone. On 2026-10-30 its website was a parked domain and the app was off Google Play.
-
 **Update 2026-10-30:** Finzo Markets looks gone: [finzomarkets.com](https://finzomarkets.com/) and the [deposits page](https://finzomarkets.com/deposits.html) quoted below now show only a Hostinger "Parked Domain" page.
 
 **Update 2021-11-11**: This app is not on Play Store anymore.

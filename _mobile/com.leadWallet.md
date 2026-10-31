@@ -37,7 +37,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Lead Wallet is defunct. The team [put the project on hold indefinitely](https://leadwallet.medium.com/important-community-update-5d09549f76f9) on September 20, 2022, its website now redirects to an unrelated football streaming site, and the [leadwallet-core](https://github.com/leadwallet/leadwallet-core#deadLink) repository is gone.
+**Update 2026-10-30:** Lead Wallet is defunct. The team [put the project on hold indefinitely](https://leadwallet.medium.com/important-community-update-5d09549f76f9) on September 20, 2022, its website now redirects to an unrelated football streaming site, and the [leadwallet-core](https://github.com/leadwallet/leadwallet-core#deadLink) repository is gone.
 
 ## Android
 

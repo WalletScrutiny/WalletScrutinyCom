@@ -36,7 +36,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Hebe Wallet is shut down. In September 2023 the provider posted
+**Update 2026-10-30:** Hebe Wallet is shut down. In September 2023 the provider posted
 "Sorry, we have completely stopped the wallet business" and asked users who
 cannot withdraw to email hebeblock@gmail.com
 ([notice on GitHub](https://github.com/HebePlatform/HebeCore/releases/tag/1.0.6)).

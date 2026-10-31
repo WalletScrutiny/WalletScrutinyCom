@@ -30,6 +30,6 @@ features:
 
 ---
 
-**⚠️ Warning:** The provider appears to be out of business. Its website has been offline since 2021.
+**Update 2026-10-30:** The provider appears to be out of business. Its website has been offline since 2021.
 
 The [provider's website](https://nfcwalletcard.com#deadLink) is inaccessible and we considered it defunct.

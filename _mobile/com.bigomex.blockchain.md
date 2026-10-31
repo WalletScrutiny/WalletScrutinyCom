@@ -25,7 +25,7 @@ android:
 
 ---
 
-**⚠️ Warning:** BigoMex appears to have closed. Its website stopped loading in January 2023 without any notice ([Cryptowisser](https://www.cryptowisser.com/exchange/bigomex/)), and the domain no longer leads to the exchange.
+**Update 2026-10-30:** BigoMex appears to have closed. Its website stopped loading in January 2023 without any notice ([Cryptowisser](https://www.cryptowisser.com/exchange/bigomex/)), and the domain no longer leads to the exchange.
 
 ## App Description
 

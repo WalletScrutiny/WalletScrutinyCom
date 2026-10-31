@@ -22,7 +22,7 @@ android:
 ⚠️ Warning: Several users have reported that this app will eventually prevent users from withdrawing their funds. The word "scam" was used several times both in its Google Play Page and in its <a href="https://www.youtube.com/watch?v=5GU-NCeCcgw">YouTube comments</a>.
 </div></div>
 
-**⚠️ Warning:** The provider is gone. Its website [nf35.com](https://nf35.com/#deadLink) now only shows a parking page, and the links here point to an [archived copy](https://web.archive.org/web/20211219011821/https://nf35.com/).
+**Update 2026-10-30:** The provider is gone. Its website [nf35.com](https://nf35.com/#deadLink) now only shows a parking page, and the links here point to an [archived copy](https://web.archive.org/web/20211219011821/https://nf35.com/).
 
 ## App Description
 

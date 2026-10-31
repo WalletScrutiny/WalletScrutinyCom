@@ -36,7 +36,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** Hoo is gone. It suspended withdrawals in June 2022 and by December 2022 had [deleted its website with user funds still locked](https://crypto.news/hoo-exchange-deletes-website-users-funds-locked-up/). Both apps are no longer in the stores.
+**Update 2026-10-30:** Hoo is gone. It suspended withdrawals in June 2022 and by December 2022 had [deleted its website with user funds still locked](https://crypto.news/hoo-exchange-deletes-website-users-funds-locked-up/). Both apps are no longer in the stores.
 
 ## Android
 

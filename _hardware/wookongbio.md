@@ -34,6 +34,6 @@ features:
 
 ---
 
-**⚠️ Warning:** WOOKONG appears to be out of business. Its website has been gone for years.
+**Update 2026-10-30:** WOOKONG appears to be out of business. Its website has been gone for years.
 
 The website is [no longer working](https://twitter.com/BitcoinWalletz/status/1466946290546143232).

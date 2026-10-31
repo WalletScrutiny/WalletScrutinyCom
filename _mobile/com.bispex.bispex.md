@@ -19,7 +19,7 @@ android:
 
 ---
 
-**⚠️ Warning:** Bispex appears to be gone. Its website has not loaded since mid-2024 ([last archived version, September 2023](https://web.archive.org/web/20230923071133/https://www.bispex.com)).
+**Update 2026-10-30:** Bispex appears to be gone. Its website has not loaded since mid-2024 ([last archived version, September 2023](https://web.archive.org/web/20230923071133/https://www.bispex.com)).
 
 ## App Description from Google Play 
 

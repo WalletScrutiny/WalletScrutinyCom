@@ -27,7 +27,7 @@ android:
 
 ---
 
-**⚠️ Warning:** OpenEx appears to be gone. Its website, openex.xyz, is now a domain [offered for sale](https://forsale.godaddy.com/forsale/openex.xyz).
+**Update 2026-10-30:** OpenEx appears to be gone. Its website, openex.xyz, is now a domain [offered for sale](https://forsale.godaddy.com/forsale/openex.xyz).
 
 ## App Description from Google Play
 
