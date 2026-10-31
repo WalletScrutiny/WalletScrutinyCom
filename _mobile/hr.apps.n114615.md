@@ -1,6 +1,6 @@
 ---
 title: CortBit Exchange
-date: 2024-07-05
+date: 2026-10-30
 redirect_from:
 - /android/hr.apps.n114615/
 android:

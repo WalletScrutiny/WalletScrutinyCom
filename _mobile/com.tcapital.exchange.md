@@ -1,6 +1,6 @@
 ---
 title: Tcapex
-date: 2024-07-05
+date: 2026-10-30
 website: https://ex.tcapex.com#deadLink
 redirect_from:
 - /android/com.tcapital.exchange/

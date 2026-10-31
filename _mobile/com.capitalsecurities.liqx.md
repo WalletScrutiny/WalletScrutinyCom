@@ -1,6 +1,6 @@
 ---
 title: 'LiquidityX: CFD Online Trading'
-date: 2024-07-22
+date: 2026-10-30
 authors:
 - danny
 website: https://www.liquidityx.com/eu/
@@ -30,6 +30,8 @@ iphone:
   developerName: Capital Securities S.A.
 
 ---
+
+**⚠️ Warning:** LiquidityX is closed. The Greek regulator revoked the licence of its operator Capital Securities S.A., and in a [December 2024 notice](http://www.hcmc.gr/aweb/files/warnings/files/13.12.2024_Warning.pdf) warned former LiquidityX customers about fake fund-recovery firms.
 
 ## Android
 

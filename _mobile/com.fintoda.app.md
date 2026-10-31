@@ -1,6 +1,6 @@
 ---
 title: Fintoda Wallet
-date: 2024-07-24
+date: 2026-10-30
 authors:
 - danny
 website: https://fintoda.com

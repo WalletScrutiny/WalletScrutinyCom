@@ -1,6 +1,6 @@
 ---
 title: lite Wallet
-date: 2024-07-19
+date: 2026-10-30
 authors:
 - bit-aloo
 redirect_from:

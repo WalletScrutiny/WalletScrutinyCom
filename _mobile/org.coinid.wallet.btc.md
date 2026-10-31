@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Wallet for COINiD
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -39,6 +39,8 @@ iphone:
   repository: https://github.com/COINiD/COINiDWallet
 
 ---
+
+**⚠️ Warning:** COINiD is no longer developed and its servers are offline, so the apps can no longer show balances or send transactions. The [COINiD website](https://coinid.org) now only has [migration guides](https://github.com/COINiD/migration-guide-website) for moving funds to another wallet with the 12-word recovery phrase.
 
 ## Android
 

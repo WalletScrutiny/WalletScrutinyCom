@@ -1,7 +1,7 @@
 ---
 title: Medooza wallet- Best Crypto wa
-date: 2024-07-05
-website: https://medooza.io
+date: 2026-10-30
+website: https://web.archive.org/web/20210126210147/https://medooza.io/
 redirect_from:
 - /android/io.crypto.wallet.bitcoin.ethereum.medooza.wallet/
 android:

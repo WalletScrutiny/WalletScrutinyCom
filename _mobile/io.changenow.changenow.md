@@ -1,6 +1,6 @@
 ---
 title: 'Crypto exchange: USDT, Bitcoin'
-date: 2024-07-13
+date: 2026-10-30
 authors:
 - leo
 - danny

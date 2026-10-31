@@ -1,6 +1,6 @@
 ---
 title: Icynote
-date: 2024-07-14
+date: 2026-10-30
 authors:
 - danny
 website: https://icynote.ch
@@ -18,5 +18,7 @@ android:
   developerName: Martin Demierre
 
 ---
+
+**Update 2026-10-30:** Icynote later published a new Android app, {% include walletLink.html wallet='android/ch.digitaladmin.icynote' verdict='true' %}, from Digital Admin Sàrl; it is also no longer in Google Play. The [Icynote downloads page](https://icynote.ch/downloads) still links this old app.
 
 This is the companion app to the bearer token: {% include walletLink.html wallet='bearer/icynote' verdict='true' %}

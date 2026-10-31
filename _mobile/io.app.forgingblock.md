@@ -1,6 +1,6 @@
 ---
 title: ForgingBlock POS
-date: 2024-07-05
+date: 2026-10-30
 website: https://forgingblock.io
 redirect_from:
 - /android/io.app.forgingblock/

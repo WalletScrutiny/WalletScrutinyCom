@@ -1,7 +1,7 @@
 ---
 title: Walletprizm
-date: 2024-07-05
-website: https://walletprizm.com/
+date: 2026-10-30
+website: https://walletprizm.com/#deadLink
 redirect_from:
 - /android/com.walletprizm.walletpizm/
 android:

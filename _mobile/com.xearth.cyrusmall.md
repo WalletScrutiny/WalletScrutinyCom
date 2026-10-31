@@ -1,6 +1,6 @@
 ---
 title: Cyrus mall
-date: 2024-07-05
+date: 2026-10-30
 website: https://cyrus-mall.com#deadLink
 redirect_from:
 - /android/com.xearth.cyrusmall/

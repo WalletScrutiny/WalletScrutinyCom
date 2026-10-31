@@ -4,7 +4,7 @@ appId: kingmax.secsycript.card.x1
 authors:
 - danny
 released: 2022-06-25
-discontinued: 
+discontinued: 2026-06-12
 updated: 
 version: 
 binaries: 
@@ -15,16 +15,16 @@ dimensions:
 weight: 
 provider: KingMax
 providerWebsite: 
-website: http://www.kingmax.com.tw/
+website: https://web.archive.org/web/20250709184219/http://www.kingmax.com/en-global/product/product/Model/SecSycript_Card_X1
 shop: https://shopee.tw/product/170046947/12184393166
 country: TW
 price: 2550 NTD
 repository: 
 icon: kingmax.secsycript.card.x1.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: nosource
-date: 2024-07-15
+date: 2026-10-30
 signer: 
 twitter: KINGMAX_tweet
 social:
@@ -35,6 +35,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** KingMax no longer sells the SecSycript Card X1, so we mark it discontinued. Its [product page](https://web.archive.org/web/20250709184219/http://www.kingmax.com/en-global/product/product/Model/SecSycript_Card_X1) was still up in July 2025, but it is gone now, and since at least June 2026 the [redesigned KingMax website](https://www.kingmax.com/) lists only storage and memory products. The card uses a standard 12-word seed and its companion app is still available, so it can still be used.
 
 ## Update 2024-07-15
 

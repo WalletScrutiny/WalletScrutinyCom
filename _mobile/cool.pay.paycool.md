@@ -1,6 +1,6 @@
 ---
 title: Pay.cool
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: https://pay.cool
@@ -33,6 +33,8 @@ iphone:
   developerName: Exchangily LLC
 
 ---
+
+**Update 2026-10-30:** Exchangily LLC replaced this app with a successor, Pay.Cool+, released in February 2024 for Android and iPhone. [pay.cool](https://pay.cool) still describes the same Pay.Cool payment and rewards system.
 
 ## Android
 

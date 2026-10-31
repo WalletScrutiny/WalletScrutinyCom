@@ -1,10 +1,10 @@
 ---
 title: KeyWallet Touch - CryptoWallet
-date: 2024-07-17
+date: 2026-10-30
 authors:
 - leo
 - danny
-website: http://keywallet.co.kr/en/
+website: https://www.keypair.co.kr/blockchain/keywallet
 twitter: quickxprotocol
 social:
 - https://www.linkedin.com/company/quickx
@@ -44,6 +44,8 @@ iphone:
 
 ---
 
+**Update 2026-10-30:** The old KeyWallet website is now an empty page, and afinkeywallet.io now shows an unrelated gambling site. Keypair presents KeyWallet Touch on its [own website](https://www.keypair.co.kr/blockchain/keywallet).
+
 ## Android
 
 **Update 2024-07-17**
@@ -74,7 +76,7 @@ translate reads:
 
 > This is to inform you that the "service period has expired" for this site .
 
-There is another website though: [afinkeywallet.io](https://afinkeywallet.io)
+There is another website though: [afinkeywallet.io](https://web.archive.org/web/20221129071257/https://afinkeywallet.io/)
 
 So in the best of cases this is a functioning closed source self-custodial
 Bitcoin wallet and thus **not verifiable**.

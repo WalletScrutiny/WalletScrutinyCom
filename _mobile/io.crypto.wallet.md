@@ -1,6 +1,6 @@
 ---
 title: CryptoWallet - Bittrex and Bin
-date: 2024-07-05
+date: 2026-10-30
 redirect_from:
 - /android/io.crypto.wallet/
 android:

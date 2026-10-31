@@ -1,6 +1,6 @@
 ---
 title: CRYPTO-TRADER
-date: 2024-07-05
+date: 2026-10-30
 website: https://web.archive.org/web/20240415210021/https://www.pipxplosion.com/
 redirect_from:
 - /android/org.nativescript.cryptotrader/

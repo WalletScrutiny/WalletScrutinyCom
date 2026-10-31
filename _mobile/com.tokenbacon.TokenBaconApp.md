@@ -1,7 +1,7 @@
 ---
 title: TokenBacon digital tokens wall
-date: 2024-07-05
-website: https://tokenbacon.com
+date: 2026-10-30
+website: https://web.archive.org/web/20201223102711/https://tokenbacon.com/
 redirect_from:
 - /android/com.tokenbacon.TokenBaconApp/
 android:

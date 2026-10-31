@@ -1,6 +1,6 @@
 ---
 title: 'Richamster: Crypto Exchange'
-date: 2024-07-14
+date: 2026-10-30
 authors:
 - danny
 website: https://richamster.com/

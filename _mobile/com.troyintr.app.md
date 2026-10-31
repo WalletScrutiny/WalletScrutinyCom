@@ -1,7 +1,7 @@
 ---
 title: Troyin
-date: 2024-07-05
-website: https://www.troyin.com/
+date: 2026-10-30
+website: https://www.troyin.com/#deadLink
 redirect_from:
 - /android/com.troyintr.app/
 android:

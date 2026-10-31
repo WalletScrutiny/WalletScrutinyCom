@@ -1,9 +1,9 @@
 ---
 title: 'OpenEx : Buy Btc & Crypto'
-date: 2024-07-22
+date: 2026-10-30
 authors:
 - danny
-website: https://www.openex.xyz
+website: https://www.openex.xyz#deadLink
 twitter: openex_hq
 social:
 - http://discord.gg/openex#deadLink
@@ -27,6 +27,8 @@ android:
 
 ---
 
+**⚠️ Warning:** OpenEx appears to be gone. Its website, openex.xyz, is now a domain [offered for sale](https://forsale.godaddy.com/forsale/openex.xyz).
+
 ## App Description from Google Play
 
   > OpenEx is a beginner-friendly exchange with an original model. We are building a new encryto world, we are building an exchange for everyone and everything. We are bringing the freedom, the freedom of controling their property and selves to more people.
@@ -35,5 +37,5 @@ android:
 
 ## Analysis 
 
-- The [terms](https://www.openex.xyz/about/terms) explicitly state that it maintains full control of user accounts.
+- The [terms](https://www.openex.xyz/about/terms#deadLink) explicitly state that it maintains full control of user accounts.
 - As such this is a **custodial** app that is **not-verifiable**.
