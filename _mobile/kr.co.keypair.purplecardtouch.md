@@ -1,6 +1,6 @@
 ---
 title: Purple Touch
-date: 2024-09-21
+date: 2026-10-30
 website: http://www.banco.id
 redirect_from:
 - /android/kr.co.keypair.purplecardtouch/

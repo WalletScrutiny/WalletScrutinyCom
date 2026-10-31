@@ -1,6 +1,6 @@
 ---
 title: Crypto Economy
-date: 2024-10-23
+date: 2026-10-30
 website: https://openturnkey.com#deadLink
 redirect_from:
 - /android/com.cyphereco.openturnkey/

@@ -22,9 +22,9 @@ price:
 repository: 
 icon: hodllabs.vault.e.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2024-10-21
+date: 2026-10-30
 signer: 
 twitter: hodllabs
 social:
@@ -37,6 +37,10 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Hodllabs appears to be gone. Its website no longer loads, and there is no sign the Vault E ever shipped.
+
+**Update 2026-10-30:** The device never shipped and the provider is gone, so we mark it defunct.
 
 ## Update 2024-10-21
 

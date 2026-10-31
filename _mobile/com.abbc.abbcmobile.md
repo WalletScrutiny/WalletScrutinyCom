@@ -1,9 +1,9 @@
 ---
 title: Aladdin Wallet
-date: 2024-09-10
+date: 2026-10-30
 authors:
 - danny
-website: http://abbcpayment.com
+website: http://abbcpayment.com#deadLink
 twitter: abbcfoundation
 social:
 - https://www.facebook.com/abbcfoundation/

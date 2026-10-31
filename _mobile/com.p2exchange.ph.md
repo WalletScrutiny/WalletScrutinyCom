@@ -1,6 +1,6 @@
 ---
 title: 'P2Exchange: Buy RON & MATIC'
-date: 2024-09-21
+date: 2026-10-30
 redirect_from:
 - /android/com.p2exchange.ph/
 android:

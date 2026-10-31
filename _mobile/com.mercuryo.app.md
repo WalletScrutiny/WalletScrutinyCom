@@ -1,6 +1,6 @@
 ---
 title: Mercuryo Bitcoin Cryptowallet
-date: 2024-10-07
+date: 2026-10-30
 authors:
 - leo
 website: https://mercuryo.io
@@ -15,6 +15,7 @@ redirect_from:
 - /iphone/com.mercuryo.app/
 android:
   appId: com.mercuryo.app
+  appCountry: de
   users: 100000
   released: 2019-09-03
   updated: 2025-11-11

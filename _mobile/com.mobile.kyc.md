@@ -1,9 +1,9 @@
 ---
 title: KYCC Wallet
-date: 2024-10-23
+date: 2026-10-30
 authors:
 - danny
-website: https://kyccoin.io
+website: https://kyccoin.io#deadLink
 twitter: kyc_coin
 social:
 - https://www.linkedin.com/company/kyccoin
@@ -37,6 +37,8 @@ iphone:
   developerName: KYC&AML Ltd
 
 ---
+
+**⚠️ Warning:** The KYC Coin website kyccoin.io now shows an unrelated slot-gambling page, and both apps are gone from the stores. The project looks abandoned.
 
 ## Android
 

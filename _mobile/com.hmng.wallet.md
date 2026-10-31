@@ -1,6 +1,6 @@
 ---
 title: 'HMNG: Bitcoin & Crypto Wallet'
-date: 2024-10-06
+date: 2026-10-30
 website: https://www.hummingbirdbsc.org/
 redirect_from:
 - /android/com.hmng.wallet/

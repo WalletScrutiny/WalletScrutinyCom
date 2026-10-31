@@ -1,9 +1,9 @@
 ---
 title: 'Tradefada: Bitcoin Exchange'
-date: 2024-10-02
+date: 2026-10-30
 authors:
 - danny
-website: https://tradefada.com
+website: https://tradefada.com#deadLink
 twitter: tradefada
 social:
 - https://www.facebook.com/Tradefada01
@@ -36,6 +36,8 @@ iphone:
   developerName: Tradefada LLC
 
 ---
+
+**⚠️ Warning:** Tradefada looks gone. Both apps are gone from the stores, and tradefada.com no longer loads.
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: ارز هشت | صرافی ارز دیجیتال
-date: 2024-10-23
+date: 2026-10-30
 authors:
 - danny
 website: https://Arz8.com

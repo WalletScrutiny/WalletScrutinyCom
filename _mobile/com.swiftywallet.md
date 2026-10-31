@@ -1,6 +1,6 @@
 ---
 title: Swifty Wallet
-date: 2024-10-03
+date: 2026-10-30
 website: https://www.swifty.global/
 redirect_from:
 - /android/com.swiftywallet/

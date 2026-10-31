@@ -1,7 +1,7 @@
 ---
 title: NiXPAY
-date: 2024-09-16
-website: https://www.nixblock.com/
+date: 2026-10-30
+website: https://www.nixblock.com/#deadLink
 redirect_from:
 - /android/kr.co.keypair.nixtouch/
 android:

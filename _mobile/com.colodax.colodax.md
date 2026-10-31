@@ -1,6 +1,6 @@
 ---
 title: Colodax - Bitcoin Exchange
-date: 2024-10-19
+date: 2026-10-30
 authors:
 - danny
 website: https://colodax.com#deadLink
@@ -35,6 +35,10 @@ iphone:
   developerName: Ganyt Solutions LLC
 
 ---
+
+**⚠️ Warning:** Colodax is gone.
+
+**Update 2026-10-30:** Colodax announced in November 2024 that it was ending all exchange services ([archived notice](https://web.archive.org/web/20241103192955/https://colodax.freshdesk.com/support/solutions/articles/47001267813-shutdown-announcement-termination-of-exchange-services)). Its website no longer loads.
 
 ## Android
 
