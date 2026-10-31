@@ -1,6 +1,6 @@
 ---
 title: Miracle Pos
-date: 2025-12-15
+date: 2026-10-30
 website: https://miraclecash.com
 redirect_from:
 - /android/com.ofinans.miraclepos/

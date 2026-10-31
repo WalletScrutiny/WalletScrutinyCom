@@ -1,9 +1,9 @@
 ---
 title: 'Zapit: Web3 Wallet'
-date: 2026-01-02
+date: 2026-10-30
 authors:
 - danny
-website: http://zapit.io
+website: https://web.archive.org/web/20260913145208/https://zapit.io/
 twitter: zapit_io
 social:
 - https://www.linkedin.com/company/zapit-io
@@ -37,6 +37,8 @@ iphone:
   developerName: Zapit Limited
 
 ---
+
+**Update 2026-10-30:** The Zapit website is gone: zapit.io now forwards to an unrelated football streaming site. The [last archived Zapit page](https://web.archive.org/web/20260913145208/https://zapit.io/) is from September 2026. The Android app has not been updated since August 2025 and the iPhone app is no longer in the App Store.
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: StreamMerchant
-date: 2025-12-15
+date: 2026-10-30
 website: https://www.secuxtech.com
 redirect_from:
 - /android/com.secuxtech.merchanttool/

@@ -1,6 +1,6 @@
 ---
 title: 'WEXO: Bitcoin & Crypto Wallet'
-date: 2025-11-26
+date: 2026-10-30
 authors:
 - danny
 website: https://wexopay.com
@@ -39,6 +39,8 @@ iphone:
 
 ---
 
+**Update 2026-10-30:** WEXO dropped its crypto wallet. Both apps are gone, and the [WEXO website](https://wexopay.com/en) now promotes only a new shopping cashback app, which has no crypto features. The terms linked below now open the homepage, so we link an [archived copy](https://web.archive.org/web/20230721185818/https://www.wexopay.com/legal/Terms_&_Conditions_EN.pdf).
+
 ## Android
 
 ## App Description from Google Play
@@ -49,7 +51,7 @@ iphone:
 
 The homepage and [other pages](https://wexopay.com/wallet#deadLink) describe Bitcoin support.
 
-The terms in [Section 1.1](https://wexopay.com/legal/Terms_&_Conditions_EN.pdf) indicate that  it is a **custodial** service.
+The terms in [Section 1.1](https://web.archive.org/web/20230721185818/https://www.wexopay.com/legal/Terms_&_Conditions_EN.pdf) indicate that  it is a **custodial** service.
 
 ---
 

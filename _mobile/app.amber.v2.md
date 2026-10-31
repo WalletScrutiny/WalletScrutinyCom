@@ -1,6 +1,6 @@
 ---
 title: AmberWallet
-date: 2026-01-14
+date: 2026-10-30
 website: http://amber.app/
 appCountry: us
 redirect_from:

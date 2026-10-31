@@ -1,6 +1,6 @@
 ---
 title: Newmoney AI Wallet
-date: 2025-11-20
+date: 2026-10-30
 authors:
 - danny
 website: https://newmoney.ai/

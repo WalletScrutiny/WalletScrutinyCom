@@ -1,6 +1,6 @@
 ---
 title: 'Rumble Wallet: Buy Crypto, BTC'
-date: 2026-01-12
+date: 2026-10-30
 authors:
 - danny
 website: https://wallet.rumble.com

@@ -1,6 +1,6 @@
 ---
 title: Robinhood Crypto, Bitcoin, ETH
-date: 2025-12-08
+date: 2026-10-30
 authors:
 - danny
 website: https://robinhood.com/eu/en/about/crypto/
