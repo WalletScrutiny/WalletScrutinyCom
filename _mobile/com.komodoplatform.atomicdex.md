@@ -1,11 +1,11 @@
 ---
 title: Komodo Mobile Crypto Wallet
-date: 2025-08-04
+date: 2026-10-30
 authors:
 - danny
 - leo
 - keraliss
-website: https://atomicdex.io
+website: https://komodoplatform.com/en/
 twitter: KomodoPlatform
 social:
 - https://discord.com/invite/3rzDPAr#deadLink
@@ -30,6 +30,8 @@ android:
   repository: https://github.com/KomodoPlatform/komodo-wallet-mobile
 
 ---
+
+**Update 2026-10-30:** Gleec [bought Komodo's DeFi business](https://finance.yahoo.com/news/gleec-buys-komodo-cross-chain-130000055.html) in December 2025. Komodo Wallet now continues as [Gleec Wallet](https://komodoplatform.com/en/blog/gleec-wallet-0-9-4-0-9-6/), which ships as an update to {% include walletLink.html wallet='android/com.gleec.gleecdex' verdict='true' %}, and the [repository](https://github.com/GLEECBTC/komodo-wallet-mobile) of this app moved to Gleec. atomicdex.io now shows an unrelated site, so we point the website to komodoplatform.com.
 
 {% include featureEvidence.html feature="foss" source="[License](https://github.com/KomodoPlatform/komodo-wallet-mobile/blob/master/LICENSE)" quote="MIT License" %}
 

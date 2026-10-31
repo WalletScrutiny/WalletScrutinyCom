@@ -1,6 +1,6 @@
 ---
 title: Dello Crypto
-date: 2025-08-21
+date: 2026-10-30
 website: http://www.premicesoft.com
 redirect_from:
 - /android/com.premicesoft.tablet/

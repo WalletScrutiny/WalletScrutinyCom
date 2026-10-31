@@ -1,6 +1,6 @@
 ---
 title: Bitoket
-date: 2025-08-04
+date: 2026-10-30
 website: https://bitoket.com
 redirect_from:
 - /android/com.bitoket.app/

@@ -1,6 +1,6 @@
 ---
 title: KeyEx - Kripto Al-Sat BTC,ETH
-date: 2025-09-03
+date: 2026-10-30
 website: https://www.keyex.com.tr#deadLink
 redirect_from:
 - /android/com.keyex.crypto/

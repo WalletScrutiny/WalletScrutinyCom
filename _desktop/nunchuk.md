@@ -16,7 +16,7 @@ icon: nunchuk.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-09-23
+date: 2026-10-30
 twitter: nunchuk_io
 social:
 - https://nunchukio.slack.com/join/shared_invite/zt-xqdlvl5g-xKKohQu_R7IUo7_np8rVaw#/shared-invite/email

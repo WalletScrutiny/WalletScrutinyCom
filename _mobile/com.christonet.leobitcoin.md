@@ -1,7 +1,7 @@
 ---
 title: Leo Bitcoin
-date: 2025-07-08
-website: https://leobitcoin.com/
+date: 2026-10-30
+website: https://leobitcoin.com/#deadLink
 redirect_from:
 - /android/com.christonet.leobitcoin/
 android:

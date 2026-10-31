@@ -1,6 +1,6 @@
 ---
 title: Metau - multi currency wallet
-date: 2025-09-09
+date: 2026-10-30
 redirect_from:
 - /android/metau.eu/
 android:

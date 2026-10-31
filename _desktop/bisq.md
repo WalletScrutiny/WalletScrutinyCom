@@ -16,7 +16,7 @@ icon: bisq.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-08-25
+date: 2026-10-30
 twitter: bisq_network
 social: 
 builds:

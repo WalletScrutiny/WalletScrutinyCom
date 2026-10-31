@@ -1,6 +1,6 @@
 ---
 title: 'Dzengi: Инвестиции в токены'
-date: 2025-07-18
+date: 2026-10-30
 authors:
 - danny
 website: https://dzengi.com/

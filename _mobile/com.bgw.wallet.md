@@ -1,9 +1,9 @@
 ---
 title: WalletGo - Licensed Crypto App
-date: 2025-08-18
+date: 2026-10-30
 authors:
 - danny
-website: https://walletgo.ai/
+website: https://walletgo.ai/#deadLink
 twitter: BG_Wallet
 social:
 - https://www.facebook.com/bgwallet
@@ -39,6 +39,8 @@ iphone:
 
 ---
 
+**Update 2026-10-30:** The provider's website walletgo.ai no longer loads, and the custody agreement linked below is gone too.
+
 ## Android
 
 ## App Description from Google Play 
@@ -53,7 +55,7 @@ iphone:
 
 ## Analysis 
 
-- The provider has a [PDF agreement](https://bgw-document.s3.ap-southeast-1.amazonaws.com/Custody_Agreement_en.pdf) for a custody agreement where in section 1.1 the user agrees that the provider becomes the custodian of user's funds.
+- The provider has a [PDF agreement](https://bgw-document.s3.ap-southeast-1.amazonaws.com/Custody_Agreement_en.pdf#deadLink) for a custody agreement where in section 1.1 the user agrees that the provider becomes the custodian of user's funds.
 - Registration was done via email. We were not able to find any option to display, backup or restore the private keys.
 - This is a **custodial** provider which makes the app **not verifiable**.
 

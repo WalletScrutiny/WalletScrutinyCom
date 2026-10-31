@@ -1,6 +1,6 @@
 ---
 title: Alby Go
-date: 2025-09-09
+date: 2026-10-30
 authors:
 - danny
 website: https://getalby.com/

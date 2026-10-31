@@ -1,6 +1,6 @@
 ---
 title: CoinCorner - Checkout
-date: 2025-09-17
+date: 2026-10-30
 authors:
 - danny
 website: https://coincorner.com/checkout

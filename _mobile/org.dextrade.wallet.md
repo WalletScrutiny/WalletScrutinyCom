@@ -1,6 +1,6 @@
 ---
 title: DexTrade
-date: 2025-08-28
+date: 2026-10-30
 authors:
 - danny
 website: https://dextrade.com/

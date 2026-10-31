@@ -1,6 +1,6 @@
 ---
 title: Squirrel Wallet
-date: 2025-09-24
+date: 2026-10-30
 authors:
 - danny
 website: https://squirrel-wallet.gitbook.io

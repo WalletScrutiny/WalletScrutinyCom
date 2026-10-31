@@ -10,13 +10,13 @@ version: '0.1'
 binaries: 
 provider: 
 providerWebsite: 
-website: https://mercurywallet.com/
+website: https://mercurywallet.com/#deadLink
 repository: https://github.com/layer2tech/mercury-wallet#deadLink
 icon: mercurywallet.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2025-10-02
+date: 2026-10-30
 twitter: mercury_wallet
 social: 
 builds: 

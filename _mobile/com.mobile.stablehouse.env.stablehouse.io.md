@@ -1,6 +1,6 @@
 ---
 title: 'Stablehouse: Bitcoin & Crypto'
-date: 2025-07-03
+date: 2026-10-30
 website: https://www.stablehouse.com
 redirect_from:
 - /android/com.mobile.stablehouse.env.stablehouse.io/
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**Update 2026-10-30:** The app is still gone from the store. Stablehouse was [acquired by XBTO](https://www.theblock.co/news/business/2023-08-10-crypto-firm-xbto-acquires-digital-asset-trading-firm-stablehouse-244026) in 2023, and [its website](https://www.stablehouse.com) now only says "Stablehouse is now XBTO" and points users to XBTO.

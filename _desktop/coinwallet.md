@@ -16,7 +16,7 @@ icon: coinwallet.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-09-11
+date: 2026-10-30
 twitter: CoinAppWallet
 social:
 - https://www.facebook.com/coinappwallet/
