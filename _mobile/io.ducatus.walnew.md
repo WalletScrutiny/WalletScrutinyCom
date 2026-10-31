@@ -6,6 +6,7 @@ authors:
 website: https://ducatus.net/
 redirect_from:
 - /android/io.ducatus.walnew/
+- /iphone/io.ducatus.ducatuswalletios/
 android:
   appId: io.ducatus.walnew
   users: 10000
@@ -18,10 +19,22 @@ android:
   meta: ok
   verdict: nosource
   developerName: Ducatus Commerce
+iphone:
+  appId: io.ducatus.ducatuswalletios
+  idd: '1489722627'
+  appCountry: us
+  released: 2019-12-04
+  updated: 2026-10-22
+  version: 3.13.11
+  reviews: 5
+  icon: io.ducatus.ducatuswalletios.webp
+  meta: ok
+  verdict: nosource
+  developerName: Denarius
 
 ---
 
-**Update 2026-10-30:** The provider's [DucatusX/ducatus-copay](https://github.com/DucatusX/ducatus-copay) repository, a fork of Copay (now {% include walletLink.html wallet='android/com.bitpay.wallet' verdict='true' %}), uses this app's ID in its [app config](https://github.com/DucatusX/ducatus-copay/blob/master/app-template/walnew/appConfig.json) and says "all private keys are stored locally". It stops at version 2.17.26 from December 2023, while Google Play has version 3.13.10, so we change the verdict from custodial to {% include verdictBadge.html verdict="nosource" type='short' %}. The website we listed, ducatus.net, no longer shows a Ducatus page.
+**Update 2026-10-30:** The provider's [DucatusX/ducatus-copay](https://github.com/DucatusX/ducatus-copay) repository, a fork of Copay (now {% include walletLink.html wallet='android/com.bitpay.wallet' verdict='true' %}), uses this app's ID in its [app config](https://github.com/DucatusX/ducatus-copay/blob/master/app-template/walnew/appConfig.json) and says "all private keys are stored locally". It stops at version 2.17.26 from December 2023, while Google Play has version 3.13.10, so we change the verdict from custodial to {% include verdictBadge.html verdict="nosource" type='short' %}. The website we listed, ducatus.net, no longer shows a Ducatus page. The iPhone app, Ducatus Wallet 3.0 (published by Denarius Consultancy Pte Ltd), is the same wallet at the same version line, so we added it to this listing. Its code is not public either, so it gets the same verdict.
 
 This app supports Bitcoin:
 

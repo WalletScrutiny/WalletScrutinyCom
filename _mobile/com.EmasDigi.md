@@ -6,6 +6,7 @@ authors:
 website: https://pluang.com
 redirect_from:
 - /android/com.EmasDigi/
+- /iphone/com.EmasDigi/
 android:
   appId: com.EmasDigi
   users: 5000000
@@ -18,10 +19,22 @@ android:
   meta: ok
   verdict: custodial
   developerName: pluang
+iphone:
+  appId: com.EmasDigi
+  idd: '1341588054'
+  appCountry: id
+  released: 2018-02-06
+  updated: 2026-10-28
+  version: 7.7.7
+  reviews: 13108
+  icon: com.EmasDigi.webp
+  meta: ok
+  verdict: custodial
+  developerName: PT Bumi Santosa Cemerlang
 
 ---
 
-**Update 2026-10-30:** Pluang now lets users send and receive Bitcoin, so we
+**Update 2026-10-30:** Pluang now lets users send and receive Bitcoin, so we The iPhone app, Pluang by PT Bumi Santosa Cemerlang, is the same app, so we added it to this listing with the same verdict.
 change the verdict from {% include verdictBadge.html verdict="nosendreceive" type='short' %}
 to {% include verdictBadge.html verdict="custodial" type='short' %}.
 [Crypto Send](https://pluang.com/en/faq/crypto/crypto-send/apa-itu-crypto-send-di-pluang)
