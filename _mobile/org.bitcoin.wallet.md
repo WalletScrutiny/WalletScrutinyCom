@@ -1,6 +1,6 @@
 ---
 title: 'Bitcoin Wallet: by Bitcoin.org'
-date: 2021-06-16
+date: 2026-10-30
 authors:
 - emanuel
 - leo

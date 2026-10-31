@@ -1,6 +1,6 @@
 ---
 title: Etherio
-date: 2023-10-16
+date: 2026-10-30
 website: https://etherio.org
 redirect_from:
 - /android/etherio.wallet.com/

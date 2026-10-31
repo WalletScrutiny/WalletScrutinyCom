@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Buyer
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/com.wBitcoinBuyer_15485198/
 android:

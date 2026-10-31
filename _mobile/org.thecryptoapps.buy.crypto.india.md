@@ -1,6 +1,6 @@
 ---
 title: Buy Crypto India
-date: 2021-09-28
+date: 2026-10-30
 redirect_from:
 - /android/org.thecryptoapps.buy.crypto.india/
 android:

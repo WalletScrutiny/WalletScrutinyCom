@@ -1,6 +1,6 @@
 ---
 title: Heat Wallet
-date: 2026-05-21
+date: 2026-10-30
 redirect_from:
 - /android/com.heatwallet.heat_app/
 android:

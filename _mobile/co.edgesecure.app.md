@@ -1,7 +1,7 @@
 ---
 title: Edge - Bitcoin & Crypto Wallet
 bitcoinOrgId: edgewallet
-date: 2022-03-13
+date: 2026-10-30
 authors:
 - leo
 - emanuel

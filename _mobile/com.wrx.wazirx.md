@@ -1,6 +1,6 @@
 ---
 title: 'WazirX: Buy Bitcoin & Crypto'
-date: 2021-08-09
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo

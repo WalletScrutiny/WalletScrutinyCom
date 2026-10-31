@@ -1,6 +1,6 @@
 ---
 title: BCoin
-date: 2021-11-16
+date: 2026-10-30
 redirect_from:
 - /android/sg.bcoin.app/
 android:

@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Lightning POS
-date: 2024-04-26
+date: 2026-10-30
 authors:
 - danny
 website: http://confirmo.net

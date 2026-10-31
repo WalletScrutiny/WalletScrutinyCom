@@ -1,6 +1,6 @@
 ---
 title: BitCoinPay Trade
-date: 2025-07-01
+date: 2026-10-30
 website: https://bitcoinpay.trade
 redirect_from:
 - /android/com.bitcoinpay/

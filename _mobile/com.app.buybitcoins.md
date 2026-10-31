@@ -1,6 +1,6 @@
 ---
 title: BuyBitcoins.App - Peer2Peer Bi
-date: 2023-12-19
+date: 2026-10-30
 website: https://mobapibbc.buybitcoins.app#deadLink
 redirect_from:
 - /android/com.app.buybitcoins/

@@ -1,6 +1,6 @@
 ---
 title: Ditepayhub
-date: 2023-08-04
+date: 2026-10-30
 website: https://ditepayhub.com.ng#deadLink
 redirect_from:
 - /android/com.ditepayhub.app/

@@ -1,6 +1,6 @@
 ---
 title: FYB-SG Mobile
-date: 2024-04-03
+date: 2026-10-30
 website: https://www.fybsg.com#deadLink
 redirect_from:
 - /android/com.fybsg.fybmobile/

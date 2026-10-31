@@ -1,6 +1,6 @@
 ---
 title: Buy & Sell Cryptocurrency
-date: 2026-01-28
+date: 2026-10-30
 redirect_from:
 - /android/com.hrghazali.buyandsellcryptocurrencyapp/
 android:

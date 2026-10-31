@@ -1,6 +1,6 @@
 ---
 title: Burency - BTC, Crypto
-date: 2023-06-29
+date: 2026-10-30
 authors:
 - danny
 website: https://www.burency.com#deadLink

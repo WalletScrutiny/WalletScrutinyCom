@@ -1,6 +1,6 @@
 ---
 title: 'Begin: Bitcoin Cardano Solana'
-date: 2025-04-22
+date: 2026-10-30
 authors:
 - danny
 website: https://begin.is

@@ -1,6 +1,6 @@
 ---
 title: SUWORLD-Blockchain, SUCON, CoinMarket, SNS, Wallet
-date: 2022-05-31
+date: 2026-10-30
 website: https://web.archive.org/web/20250129180741/https://suworld.net/
 redirect_from:
 - /android/org.sucon.suworld/

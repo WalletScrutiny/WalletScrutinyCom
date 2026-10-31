@@ -1,6 +1,6 @@
 ---
 title: CryptoBuy - Bitcoin & Many
-date: 2026-01-14
+date: 2026-10-30
 authors:
 - danny
 website: http://cryptobuy.ae

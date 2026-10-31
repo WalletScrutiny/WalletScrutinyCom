@@ -1,6 +1,6 @@
 ---
 title: 'Pi42: Crypto Futures & Options'
-date: 2025-11-26
+date: 2026-10-30
 authors:
 - danny
 website: https://pi42.exchange/

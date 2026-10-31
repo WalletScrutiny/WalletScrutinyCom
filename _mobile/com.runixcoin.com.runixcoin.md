@@ -1,6 +1,6 @@
 ---
 title: Runixcoin - Buy Cryptocurrency
-date: 2024-04-03
+date: 2026-10-30
 website: https://www.runixcoin.com#deadLink
 redirect_from:
 - /android/com.runixcoin.com.runixcoin/

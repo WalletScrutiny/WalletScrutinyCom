@@ -1,6 +1,6 @@
 ---
 title: 'FXPortal - Crypto Forex Stock '
-date: 2024-04-19
+date: 2026-10-30
 website: https://story3app.web.app/
 redirect_from:
 - /android/fx.compt.crypto/

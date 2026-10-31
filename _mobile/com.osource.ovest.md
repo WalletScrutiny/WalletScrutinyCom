@@ -1,6 +1,6 @@
 ---
 title: OVest
-date: 2024-09-10
+date: 2026-10-30
 website: https://myovest.com#deadLink
 redirect_from:
 - /android/com.osource.ovest/

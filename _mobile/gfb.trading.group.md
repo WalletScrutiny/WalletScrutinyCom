@@ -1,6 +1,6 @@
 ---
 title: GFB Trading Group
-date: 2024-04-19
+date: 2026-10-30
 website: https://gfbtrading-group.com#deadLink
 redirect_from:
 - /android/gfb.trading.group/

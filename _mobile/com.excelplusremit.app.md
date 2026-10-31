@@ -1,6 +1,6 @@
 ---
 title: Excel Plus Remit
-date: 2024-04-19
+date: 2026-10-30
 website: https://excelplusremit.com/
 redirect_from:
 - /android/com.excelplusremit.app/

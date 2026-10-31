@@ -1,6 +1,6 @@
 ---
 title: 'Toobit: Buy BTC, ETH & Crypto'
-date: 2025-12-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.toobit.com

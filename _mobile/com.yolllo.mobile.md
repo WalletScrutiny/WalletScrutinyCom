@@ -1,6 +1,6 @@
 ---
 title: AvaPay Wallet
-date: 2024-09-08
+date: 2026-10-30
 website: https://avapayltd.com#deadLink
 redirect_from:
 - /android/com.yolllo.mobile/

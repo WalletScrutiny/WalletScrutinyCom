@@ -1,6 +1,6 @@
 ---
 title: FXVC - Trade Stocks & Crypto
-date: 2021-11-01
+date: 2026-10-30
 redirect_from:
 - /android/com.finovation.fxvc/
 android:

@@ -1,6 +1,6 @@
 ---
 title: eesty -Smart Wallet
-date: 2023-08-16
+date: 2026-10-30
 authors:
 - danny
 website: https://www.eesty.ee#deadLink

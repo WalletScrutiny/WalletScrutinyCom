@@ -1,6 +1,6 @@
 ---
 title: 'Bemnex: BTC ETH crypto wallet'
-date: 2023-08-04
+date: 2026-10-30
 website: https://Bemnex.com
 redirect_from:
 - /android/com.bemnex/

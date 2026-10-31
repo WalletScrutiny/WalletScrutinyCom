@@ -1,6 +1,6 @@
 ---
 title: AutoCrypto Buyer
-date: 2024-12-15
+date: 2026-10-30
 website: https://forintfinance.com/
 redirect_from:
 - /android/com.swappy.autocrypto/

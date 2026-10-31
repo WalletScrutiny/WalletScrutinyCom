@@ -1,6 +1,6 @@
 ---
 title: BORABIT
-date: 2023-08-16
+date: 2026-10-30
 redirect_from:
 - /android/com.borabit.mobileapp/
 android:

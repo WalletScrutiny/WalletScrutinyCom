@@ -1,6 +1,6 @@
 ---
 title: Baviera Capital Exchange
-date: 2024-11-22
+date: 2026-10-30
 redirect_from:
 - /android/com.baviera.capital/
 android:

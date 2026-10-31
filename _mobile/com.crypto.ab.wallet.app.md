@@ -1,6 +1,6 @@
 ---
 title: 'Crypto Wallet: Buy Bitcoin BTC'
-date: 2024-09-04
+date: 2026-10-30
 authors:
 - danny
 website: https://alicebob.com/

@@ -16,7 +16,7 @@ icon: adamant.im.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-08-02
+date: 2026-10-30
 twitter: adamant_im
 social: 
 builds:

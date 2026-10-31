@@ -1,6 +1,6 @@
 ---
 title: Hovi P2P Exchange
-date: 2024-04-03
+date: 2026-10-30
 website: https://p2p.hovii.app#deadLink
 redirect_from:
 - /android/app.hovii.p2p/

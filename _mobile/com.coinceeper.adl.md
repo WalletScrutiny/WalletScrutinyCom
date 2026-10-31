@@ -1,6 +1,6 @@
 ---
 title: Coinceeper - Crypto wallet
-date: 2026-07-21
+date: 2026-10-30
 website: https://coinceeper.com/
 redirect_from:
 - /android/com.coinceeper.adl/

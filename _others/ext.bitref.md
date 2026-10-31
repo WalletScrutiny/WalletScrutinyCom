@@ -4,7 +4,7 @@ appId: ext.bitref
 authors:
 - danny
 icon: ext.bitref.webp
-date: 2024-05-09
+date: 2026-10-30
 released: 2017-03-28
 updated: 2020-06-08
 version: 3.1.3

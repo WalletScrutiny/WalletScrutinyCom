@@ -1,6 +1,6 @@
 ---
 title: XTB Online Investing
-date: 2021-08-21
+date: 2026-10-30
 authors:
 - danny
 website: http://www.xtb.com

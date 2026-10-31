@@ -1,6 +1,6 @@
 ---
 title: Metropuli
-date: 2025-08-18
+date: 2026-10-30
 website: https://asyasoftware.ge
 redirect_from:
 - /android/com.asyasoftware.metropuli/

@@ -24,7 +24,7 @@ icon: axiomcrypto.webp
 bugbounty: 
 meta: ok
 verdict: prefilled
-date: 2022-03-23
+date: 2026-10-30
 signer: 
 twitter: 
 social: 

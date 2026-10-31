@@ -1,6 +1,6 @@
 ---
 title: AIS-X Exchange
-date: 2024-02-05
+date: 2026-10-30
 website: https://ais-ex.com#deadLink
 redirect_from:
 - /android/com.aisx/

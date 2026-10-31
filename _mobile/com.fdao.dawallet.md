@@ -1,6 +1,6 @@
 ---
 title: DAO Wallet Bitcoin-Crypto Fiat
-date: 2024-02-05
+date: 2026-10-30
 website: https://fdao.vn#deadLink
 redirect_from:
 - /android/com.fdao.dawallet/

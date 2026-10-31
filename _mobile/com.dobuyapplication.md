@@ -1,6 +1,6 @@
 ---
 title: dobuy
-date: 2024-05-07
+date: 2026-10-30
 authors:
 - danny
 website: https://dobuy.site#deadLink

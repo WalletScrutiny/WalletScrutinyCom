@@ -1,6 +1,6 @@
 ---
 title: 'SimpleFX: Crypto Trading App'
-date: 2021-10-13
+date: 2026-10-30
 authors:
 - danny
 website: https://simplefx.com

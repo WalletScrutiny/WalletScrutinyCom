@@ -1,6 +1,6 @@
 ---
 title: ChainX Vault
-date: 2026-01-14
+date: 2026-10-30
 website: https://chainxglobal.ltd
 redirect_from:
 - /android/ltd.chainxglobal.wallet/

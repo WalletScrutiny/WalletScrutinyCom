@@ -1,6 +1,6 @@
 ---
 title: Joy DC
-date: 2024-07-05
+date: 2026-10-30
 website: https://www.creativecodez.com
 redirect_from:
 - /android/com.joydc.app/

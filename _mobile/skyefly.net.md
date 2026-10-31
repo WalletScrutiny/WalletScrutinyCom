@@ -1,6 +1,6 @@
 ---
 title: Skyefly
-date: 2024-05-07
+date: 2026-10-30
 website: https://skyefly.net#deadLink
 redirect_from:
 - /android/skyefly.net/

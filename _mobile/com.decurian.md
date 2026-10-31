@@ -1,6 +1,6 @@
 ---
 title: Decurian Wallet
-date: 2024-04-19
+date: 2026-10-30
 website: https://decurian.com#deadLink
 redirect_from:
 - /android/com.decurian/

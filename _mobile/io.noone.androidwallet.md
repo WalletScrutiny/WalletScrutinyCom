@@ -1,6 +1,6 @@
 ---
 title: Noone Crypto Wallet
-date: 2023-07-24
+date: 2026-10-30
 authors:
 - danny
 website: https://noone.io

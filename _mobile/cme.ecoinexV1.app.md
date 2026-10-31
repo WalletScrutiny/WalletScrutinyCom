@@ -1,6 +1,6 @@
 ---
 title: ECOINEX - 암호화폐(비트코인,이더리움) 거래소
-date: 2021-10-22
+date: 2026-10-30
 redirect_from:
 - /android/cme.ecoinexV1.app/
 android:

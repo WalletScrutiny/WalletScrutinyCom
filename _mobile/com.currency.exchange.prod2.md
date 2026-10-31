@@ -1,6 +1,6 @@
 ---
 title: 'Dzengi: Buy BTC & Crypto'
-date: 2024-01-23
+date: 2026-10-30
 authors:
 - leo
 - danny

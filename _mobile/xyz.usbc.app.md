@@ -1,6 +1,6 @@
 ---
 title: USBC Mobile Crypto Wallet
-date: 2026-02-02
+date: 2026-10-30
 website: https://www.usbc.xyz
 redirect_from:
 - /android/xyz.usbc.app/

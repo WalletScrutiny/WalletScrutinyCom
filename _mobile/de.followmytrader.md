@@ -1,6 +1,6 @@
 ---
 title: Follow MyMoney
-date: 2023-04-13
+date: 2026-10-30
 authors:
 - danny
 website: https://followmymoney.de

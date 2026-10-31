@@ -1,6 +1,6 @@
 ---
 title: Fortuvest
-date: 2024-02-05
+date: 2026-10-30
 website: https://www.fortuvest.io#deadLink
 redirect_from:
 - /android/io.fortuvest.fortuvest/

@@ -1,6 +1,6 @@
 ---
 title: Rigel Wallet
-date: 2024-04-19
+date: 2026-10-30
 website: https://web.archive.org/web/20250918015556/https://rigel.finance/
 redirect_from:
 - /android/rigel.finance.bankwallet/

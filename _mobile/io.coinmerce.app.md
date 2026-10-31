@@ -1,6 +1,6 @@
 ---
 title: Coinmerce - Buy Bitcoin
-date: 2023-04-15
+date: 2026-10-30
 authors:
 - danny
 website: https://coinmerce.io/

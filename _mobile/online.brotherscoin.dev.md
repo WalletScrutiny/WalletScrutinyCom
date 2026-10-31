@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Bank
-date: 2021-09-08
+date: 2026-10-30
 redirect_from:
 - /android/online.brotherscoin.dev/
 android:

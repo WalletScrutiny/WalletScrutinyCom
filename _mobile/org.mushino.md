@@ -1,6 +1,6 @@
 ---
 title: Mushino
-date: 2023-08-04
+date: 2026-10-30
 website: https://web.archive.org/web/20220819191059/https://mushino.com/
 redirect_from:
 - /android/org.mushino/

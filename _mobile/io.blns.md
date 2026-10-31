@@ -1,6 +1,6 @@
 ---
 title: balns
-date: 2026-04-28
+date: 2026-10-30
 website: https://blns.io
 redirect_from:
 - /android/io.blns/

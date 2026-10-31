@@ -1,6 +1,6 @@
 ---
 title: Dsdaq - Trade stock, gold, oil
-date: 2023-08-25
+date: 2026-10-30
 authors:
 - danny
 website: https://dsdaq.com#deadLink

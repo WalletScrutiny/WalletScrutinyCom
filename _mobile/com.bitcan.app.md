@@ -1,6 +1,6 @@
 ---
 title: 'BitKan: Trade Bitcoin & Crypto'
-date: 2021-10-21
+date: 2026-10-30
 authors:
 - danny
 website: http://www.bitkan.com

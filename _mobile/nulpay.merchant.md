@@ -1,6 +1,6 @@
 ---
 title: NulPay - Merchant
-date: 2026-03-18
+date: 2026-10-30
 website: https://nulpay.com
 redirect_from:
 - /android/nulpay.merchant/

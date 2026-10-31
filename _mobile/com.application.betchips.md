@@ -1,6 +1,6 @@
 ---
 title: BETC Crypto Wallet App
-date: 2024-04-03
+date: 2026-10-30
 website: http://thebetc.com#deadLink
 redirect_from:
 - /android/com.application.betchips/

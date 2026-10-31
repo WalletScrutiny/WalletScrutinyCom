@@ -1,6 +1,6 @@
 ---
 title: Crypto Wallet
-date: 2024-07-05
+date: 2026-10-30
 redirect_from:
 - /android/com.skgcryptocurrencyapp/
 android:

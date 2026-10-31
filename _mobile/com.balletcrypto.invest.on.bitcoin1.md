@@ -1,6 +1,6 @@
 ---
 title: Invest On Bitcoin
-date: 2021-09-23
+date: 2026-10-30
 redirect_from:
 - /android/com.balletcrypto.invest.on.bitcoin1/
 android:

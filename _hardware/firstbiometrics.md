@@ -21,7 +21,7 @@ icon: firstbiometrics.webp
 bugbounty: 
 meta: stale
 verdict: vapor
-date: 2024-10-18
+date: 2026-10-30
 signer: 
 twitter: FIRSTBiometrics
 social:

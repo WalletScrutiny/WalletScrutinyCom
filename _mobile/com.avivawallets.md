@@ -1,6 +1,6 @@
 ---
 title: Aviva Wallet
-date: 2024-11-12
+date: 2026-10-30
 website: https://avivawallets.com#deadLink
 redirect_from:
 - /android/com.avivawallets/

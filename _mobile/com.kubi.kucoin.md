@@ -1,6 +1,6 @@
 ---
 title: 'KuCoin: Buy Bitcoin & Crypto'
-date: 2021-02-09
+date: 2026-10-30
 authors:
 - leo
 website: https://www.kucoin.com

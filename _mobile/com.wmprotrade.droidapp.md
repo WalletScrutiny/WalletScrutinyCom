@@ -1,6 +1,6 @@
 ---
 title: WM Pro Trade
-date: 2023-12-19
+date: 2026-10-30
 website: https://wmprotrade.com#deadLink
 redirect_from:
 - /android/com.wmprotrade.droidapp/

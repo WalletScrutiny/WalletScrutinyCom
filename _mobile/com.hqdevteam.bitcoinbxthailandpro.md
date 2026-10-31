@@ -1,6 +1,6 @@
 ---
 title: Bitcoin BX Thailand PRO
-date: 2022-01-15
+date: 2026-10-30
 redirect_from:
 - /android/com.hqdevteam.bitcoinbxthailandpro/
 android:

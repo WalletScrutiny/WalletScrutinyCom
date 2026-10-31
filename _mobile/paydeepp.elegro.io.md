@@ -1,6 +1,6 @@
 ---
 title: 'Elegro: multi-currency wallet'
-date: 2020-12-14
+date: 2026-10-30
 authors:
 - leo
 website: https://elegro.eu/

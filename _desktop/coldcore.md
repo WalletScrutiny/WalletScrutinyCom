@@ -16,7 +16,7 @@ icon:
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2024-12-07
+date: 2026-10-30
 twitter: 
 social: 
 builds: 

@@ -1,6 +1,6 @@
 ---
 title: Bitvirya - cryptocurrency exch
-date: 2023-12-19
+date: 2026-10-30
 website: https://bitvirya.com#deadLink
 redirect_from:
 - /android/com.bitvirya.app/

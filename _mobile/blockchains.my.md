@@ -1,6 +1,6 @@
 ---
 title: Blockchains.My
-date: 2022-01-15
+date: 2026-10-30
 redirect_from:
 - /android/blockchains.my/
 android:

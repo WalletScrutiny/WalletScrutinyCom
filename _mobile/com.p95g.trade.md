@@ -1,6 +1,6 @@
 ---
 title: Virgo Trade
-date: 2024-04-19
+date: 2026-10-30
 website: https://www.p95g.com#deadLink
 redirect_from:
 - /android/com.p95g.trade/

@@ -1,6 +1,6 @@
 ---
 title: LocalBitcoin
-date: 2021-09-16
+date: 2026-10-30
 authors:
 - leo
 redirect_from:

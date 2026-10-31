@@ -1,6 +1,6 @@
 ---
 title: Cryptosa - Kripto Para Borsası
-date: 2024-04-03
+date: 2026-10-30
 website: https://cryptosa.com#deadLink
 redirect_from:
 - /android/com.cryptosa/

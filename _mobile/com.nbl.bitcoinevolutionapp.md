@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Evolution App - Crypto Trading Made Simple
-date: 2021-08-20
+date: 2026-10-30
 redirect_from:
 - /android/com.nbl.bitcoinevolutionapp/
 android:

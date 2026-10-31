@@ -1,6 +1,6 @@
 ---
 title: ADAMANT Messenger
-date: 2024-09-18
+date: 2026-10-30
 authors:
 - danny
 website: https://adamant.im

@@ -1,6 +1,6 @@
 ---
 title: CAPITALIKA®
-date: 2025-11-05
+date: 2026-10-30
 authors:
 - danny
 website: https://capitalika.com/

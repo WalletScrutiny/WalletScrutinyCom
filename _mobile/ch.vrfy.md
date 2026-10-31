@@ -1,6 +1,6 @@
 ---
 title: KONG
-date: 2024-04-03
+date: 2026-10-30
 website: https://kong.cash
 redirect_from:
 - /android/ch.vrfy/

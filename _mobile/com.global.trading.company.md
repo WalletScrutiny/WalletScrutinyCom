@@ -1,6 +1,6 @@
 ---
 title: Global Crypto Trading
-date: 2021-11-04
+date: 2026-10-30
 authors:
 - danny
 website: https://sites.google.com/view/globlacryptotrading/home

@@ -1,6 +1,6 @@
 ---
 title: Flixpay
-date: 2023-04-29
+date: 2026-10-30
 website: https://flixpay.io#deadLink
 redirect_from:
 - /android/com.redot.flixpay/

@@ -24,7 +24,7 @@ icon: bitkey2026.webp
 bugbounty: https://support.bitkey.world/hc/en-us/articles/19812055576852-How-do-I-report-potential-security-issues
 meta: ok
 verdict: nosource
-date: 2026-04-30
+date: 2026-10-30
 signer: 
 twitter: Bitkey
 social:

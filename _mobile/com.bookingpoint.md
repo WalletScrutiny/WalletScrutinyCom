@@ -1,6 +1,6 @@
 ---
 title: 부킹포인트 월렛  BOOKING POINT WALLET
-date: 2024-04-03
+date: 2026-10-30
 website: http://www.bookingpoint.vip#deadLink
 redirect_from:
 - /android/com.bookingpoint/

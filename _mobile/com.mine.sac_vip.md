@@ -1,6 +1,6 @@
 ---
 title: Doctor Memory
-date: 2026-04-13
+date: 2026-10-30
 website: https://www.sac-mine.vip
 redirect_from:
 - /android/com.mine.sac_vip/

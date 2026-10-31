@@ -1,6 +1,6 @@
 ---
 title: GES Wallets
-date: 2024-04-19
+date: 2026-10-30
 website: https://portaltest.gesgame.io#deadLink
 redirect_from:
 - /android/com.geswallet.start/

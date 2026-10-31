@@ -1,6 +1,6 @@
 ---
 title: MaskEX Crypto & Privacy Wallet
-date: 2025-06-05
+date: 2026-10-30
 authors:
 - danny
 website: https://maskex.com/

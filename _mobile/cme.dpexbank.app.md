@@ -1,6 +1,6 @@
 ---
 title: dpexbank
-date: 2023-12-19
+date: 2026-10-30
 website: http://www.dpexbank.com#deadLink
 redirect_from:
 - /android/cme.dpexbank.app/

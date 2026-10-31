@@ -1,6 +1,6 @@
 ---
 title: Roy crypto wallet 100% secure
-date: 2023-01-02
+date: 2026-10-30
 website: https://www.roywallet.app#deadLink
 redirect_from:
 - /android/com.httpsarearn.arearn.com.roywallet/

@@ -1,6 +1,6 @@
 ---
 title: 'Bridge Wallet: Bitcoin, crypto'
-date: 2022-01-10
+date: 2026-10-30
 authors:
 - leo
 - danny

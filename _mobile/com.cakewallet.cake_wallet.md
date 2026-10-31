@@ -1,6 +1,6 @@
 ---
 title: 'Cake Wallet: Crypto, Made Easy'
-date: 2022-11-02
+date: 2026-10-30
 authors:
 - leo
 - keraliss

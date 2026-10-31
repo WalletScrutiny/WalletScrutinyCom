@@ -1,6 +1,6 @@
 ---
 title: Endopay
-date: 2024-04-19
+date: 2026-10-30
 website: https://endopay.com
 redirect_from:
 - /android/com.endopay.app/

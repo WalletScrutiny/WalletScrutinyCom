@@ -1,6 +1,6 @@
 ---
 title: BISPEX마진거래소- 비트코인 마진거래 ,가상화폐 소
-date: 2024-04-03
+date: 2026-10-30
 redirect_from:
 - /android/kr.co.coin5.bd/
 android:

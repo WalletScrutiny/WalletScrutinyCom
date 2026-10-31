@@ -1,6 +1,6 @@
 ---
 title: Capex
-date: 2025-03-29
+date: 2026-10-30
 authors:
 - danny
 website: https://www.capex.com

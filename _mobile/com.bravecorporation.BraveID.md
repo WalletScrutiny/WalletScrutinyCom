@@ -1,6 +1,6 @@
 ---
 title: 'BravePay: buy&pay with crypto'
-date: 2024-11-22
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bravepay.net/

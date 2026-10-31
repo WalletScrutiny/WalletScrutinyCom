@@ -1,6 +1,6 @@
 ---
 title: 'Bitsa: Reloadable Prepaid Card'
-date: 2021-11-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitsacard.com

@@ -1,6 +1,6 @@
 ---
 title: Aidwallet
-date: 2023-01-30
+date: 2026-10-30
 redirect_from:
 - /android/com.aidbit.highapp/
 android:

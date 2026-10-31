@@ -1,6 +1,6 @@
 ---
 title: YEON WALLET
-date: 2024-10-28
+date: 2026-10-30
 redirect_from:
 - /android/app.yeonwallet/
 android:

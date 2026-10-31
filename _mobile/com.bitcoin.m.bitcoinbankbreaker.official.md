@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Bank Breaker Official
-date: 2023-09-28
+date: 2026-10-30
 redirect_from:
 - /android/com.bitcoin.m.bitcoinbankbreaker.official/
 android:

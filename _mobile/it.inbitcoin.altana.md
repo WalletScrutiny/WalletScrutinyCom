@@ -1,6 +1,6 @@
 ---
 title: Altana - Bitcoin Wallet
-date: 2024-11-04
+date: 2026-10-30
 authors:
 - emanuel
 - leo

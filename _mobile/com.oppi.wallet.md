@@ -1,6 +1,6 @@
 ---
 title: 'Oppi: Crypto Wallet & Card'
-date: 2025-11-20
+date: 2026-10-30
 authors:
 - danny
 website: https://oppiwallet.com/en

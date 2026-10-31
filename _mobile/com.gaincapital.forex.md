@@ -1,6 +1,6 @@
 ---
 title: FOREX.com Forex & CFD Trading
-date: 2021-10-16
+date: 2026-10-30
 authors:
 - danny
 website: https://www.forex.com

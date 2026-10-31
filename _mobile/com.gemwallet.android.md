@@ -1,6 +1,6 @@
 ---
 title: 'Gem Wallet: Bitcoin, USDT, BNB'
-date: 2026-07-23
+date: 2026-10-30
 authors:
 - danny
 website: https://gemwallet.com

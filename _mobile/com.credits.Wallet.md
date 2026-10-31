@@ -1,6 +1,6 @@
 ---
 title: Credits.com. Buy and Sell BTC.
-date: 2023-07-02
+date: 2026-10-30
 authors:
 - danny
 website: https://credits.com/contacts.html

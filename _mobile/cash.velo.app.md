@@ -1,6 +1,6 @@
 ---
 title: 'VELO: Bitcoin & USDT Wallet'
-date: 2026-07-21
+date: 2026-10-30
 website: https://velo.cash
 redirect_from:
 - /android/cash.velo.app/

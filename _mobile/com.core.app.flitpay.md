@@ -1,6 +1,6 @@
 ---
 title: 'Flitpay: Crypto Trading App'
-date: 2021-09-30
+date: 2026-10-30
 authors:
 - danny
 website: https://www.flitpay.com/

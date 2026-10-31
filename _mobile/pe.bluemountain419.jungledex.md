@@ -1,6 +1,6 @@
 ---
 title: JungleDEX Wallet (Bitcoin,Ethe
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/pe.bluemountain419.jungledex/
 android:

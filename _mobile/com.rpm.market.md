@@ -1,6 +1,6 @@
 ---
 title: RPM Market
-date: 2024-04-19
+date: 2026-10-30
 website: http://rpm.market#deadLink
 redirect_from:
 - /android/com.rpm.market/

@@ -1,6 +1,6 @@
 ---
 title: HitAPI
-date: 2021-08-17
+date: 2026-10-30
 website: http://hitapi.oblade.net
 redirect_from:
 - /android/net.benoitbasset.hitapi/

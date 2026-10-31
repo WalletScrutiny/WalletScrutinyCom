@@ -1,6 +1,6 @@
 ---
 title: Binary Exchange
-date: 2022-02-16
+date: 2026-10-30
 website: https://www.binary-exchange.com#deadLink
 redirect_from:
 - /android/com.binary.exchange/

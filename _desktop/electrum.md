@@ -17,7 +17,7 @@ icon: electrum.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-08-24
+date: 2026-10-30
 twitter: ElectrumWallet
 social: 
 builds:

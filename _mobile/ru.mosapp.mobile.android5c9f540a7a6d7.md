@@ -1,6 +1,6 @@
 ---
 title: Покупка и продажа биткоинов
-date: 2024-11-12
+date: 2026-10-30
 redirect_from:
 - /android/ru.mosapp.mobile.android5c9f540a7a6d7/
 android:

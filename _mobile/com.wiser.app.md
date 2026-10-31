@@ -1,6 +1,6 @@
 ---
 title: 'DeStreet: DeFi & Crypto'
-date: 2024-08-15
+date: 2026-10-30
 website: https://destreet.co#deadLink
 redirect_from:
 - /android/com.wiser.app/

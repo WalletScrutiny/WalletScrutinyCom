@@ -1,6 +1,6 @@
 ---
 title: 'ICONOMI: Buy Bitcoin & Crypto'
-date: 2021-10-04
+date: 2026-10-30
 authors:
 - danny
 website: https://www.iconomi.com

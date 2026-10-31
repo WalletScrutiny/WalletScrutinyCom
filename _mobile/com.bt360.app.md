@@ -1,6 +1,6 @@
 ---
 title: BT360 - Your Digital Wallet
-date: 2023-11-02
+date: 2026-10-30
 website: https://bt360pro.com#deadLink
 redirect_from:
 - /android/com.bt360.app/

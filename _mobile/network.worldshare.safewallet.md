@@ -1,6 +1,6 @@
 ---
 title: Safe Wallet
-date: 2024-02-05
+date: 2026-10-30
 website: https://worldshare.network#deadLink
 redirect_from:
 - /android/network.worldshare.safewallet/

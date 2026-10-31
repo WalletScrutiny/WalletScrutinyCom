@@ -1,6 +1,6 @@
 ---
 title: Wallet V - AI Agent Trading
-date: 2026-02-27
+date: 2026-10-30
 authors:
 - danny
 website: https://walletv.io

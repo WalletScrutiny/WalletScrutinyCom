@@ -1,6 +1,6 @@
 ---
 title: Cryptocurrency Wallet App 2022
-date: 2023-08-04
+date: 2026-10-30
 website: https://mikodes.com
 redirect_from:
 - /android/com.mikodesx.cryptowallet/

@@ -1,6 +1,6 @@
 ---
 title: BE Custody
-date: 2023-12-15
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitpanda.com/en/enterprise/products/custody

@@ -1,6 +1,6 @@
 ---
 title: 'Bitlo: Bitcoin & Crypto'
-date: 2023-02-08
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitlo.com/

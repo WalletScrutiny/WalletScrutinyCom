@@ -1,6 +1,6 @@
 ---
 title: 'BITDD: Bitcoin Crypto Exchange'
-date: 2026-05-21
+date: 2026-10-30
 website: https://la-colinares.github.io/portfolio/
 redirect_from:
 - /android/com.vestbag.bitdd/

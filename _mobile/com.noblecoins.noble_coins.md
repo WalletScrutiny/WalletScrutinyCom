@@ -1,6 +1,6 @@
 ---
 title: Noblecoins
-date: 2024-02-05
+date: 2026-10-30
 website: https://www.noblecoins.net#deadLink
 redirect_from:
 - /android/com.noblecoins.noble_coins/

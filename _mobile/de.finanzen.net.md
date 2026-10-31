@@ -1,6 +1,6 @@
 ---
 title: Börse & Aktien - finanzen.net
-date: 2022-06-23
+date: 2026-10-30
 authors:
 - danny
 website: http://www.finanzen.net/apps

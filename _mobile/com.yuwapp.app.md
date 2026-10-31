@@ -1,6 +1,6 @@
 ---
 title: YUW!
-date: 2024-05-18
+date: 2026-10-30
 website: https://yuwapp.com#deadLink
 redirect_from:
 - /android/com.yuwapp.app/

@@ -26,7 +26,7 @@ icon: prokeyoptimum.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2024-10-18
+date: 2026-10-30
 signer: 
 twitter: 
 social:

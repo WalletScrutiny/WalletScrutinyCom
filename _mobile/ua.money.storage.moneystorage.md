@@ -1,6 +1,6 @@
 ---
 title: Money Storage
-date: 2025-05-14
+date: 2026-10-30
 authors:
 - danny
 redirect_from:

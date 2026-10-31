@@ -1,6 +1,6 @@
 ---
 title: LMAX Digital Trading
-date: 2023-04-04
+date: 2026-10-30
 authors:
 - danny
 website: http://www.lmax.com/mobile

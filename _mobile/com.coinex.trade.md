@@ -1,6 +1,6 @@
 ---
 title: 'CoinEx: Buy Bitcoin & Crypto'
-date: 2026-01-14
+date: 2026-10-30
 website: https://www.coinex.com/
 appCountry: us
 redirect_from:

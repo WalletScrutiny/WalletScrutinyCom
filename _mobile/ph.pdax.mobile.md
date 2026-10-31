@@ -1,6 +1,6 @@
 ---
 title: PDAX - Make your money move
-date: 2021-09-03
+date: 2026-10-30
 authors:
 - danny
 website: https://pdax.ph

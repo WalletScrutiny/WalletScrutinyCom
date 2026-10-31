@@ -1,6 +1,6 @@
 ---
 title: CryptoNest Wallet
-date: 2024-11-22
+date: 2026-10-30
 redirect_from:
 - /android/io.cryptonest.bankwallet/
 android:

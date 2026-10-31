@@ -1,6 +1,6 @@
 ---
 title: 'Trading Apps, Cryptocurrency, '
-date: 2024-02-05
+date: 2026-10-30
 redirect_from:
 - /android/bitcoin.ethereum.ripple.cryptocurrency.crypter/
 android:

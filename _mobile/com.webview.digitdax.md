@@ -1,6 +1,6 @@
 ---
 title: FlashLexiconn
-date: 2026-04-13
+date: 2026-10-30
 redirect_from:
 - /android/com.webview.digitdax/
 android:

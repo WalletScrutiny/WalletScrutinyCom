@@ -25,7 +25,7 @@ icon: safepals1.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2025-12-23
+date: 2026-10-30
 signer: 
 twitter: iSafePal
 social: 

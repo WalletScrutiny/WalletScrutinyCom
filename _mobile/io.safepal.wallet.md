@@ -1,6 +1,6 @@
 ---
 title: 'SafePal: Crypto Wallet BTC NFT'
-date: 2021-04-26
+date: 2026-10-30
 authors:
 - leo
 - danny

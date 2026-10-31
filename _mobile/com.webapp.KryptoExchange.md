@@ -1,6 +1,6 @@
 ---
 title: Krypto Exchange - Trade easily
-date: 2024-05-07
+date: 2026-10-30
 website: http://xexxchange.com#deadLink
 redirect_from:
 - /android/com.webapp.KryptoExchange/

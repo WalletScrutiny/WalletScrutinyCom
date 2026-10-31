@@ -1,6 +1,6 @@
 ---
 title: Jaxx Liberty:New Wallet BTC ETH
-date: 2021-08-23
+date: 2026-10-30
 authors:
 - emanuel
 - leo

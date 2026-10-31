@@ -17,7 +17,7 @@ icon: blockstreamgreen.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-08-06
+date: 2026-10-30
 twitter: Blockstream
 social: 
 builds:

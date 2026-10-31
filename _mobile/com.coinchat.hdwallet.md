@@ -1,6 +1,6 @@
 ---
 title: Coinchat 冷钱包
-date: 2024-04-03
+date: 2026-10-30
 authors:
 - danny
 website: http://www.coinchat.im#deadLink

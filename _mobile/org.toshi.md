@@ -1,6 +1,6 @@
 ---
 title: 'Coinbase Wallet: Trade to Win'
-date: 2021-01-04
+date: 2026-10-30
 authors:
 - leo
 - danny

@@ -1,6 +1,6 @@
 ---
 title: 'Maxbit: Buy Bitcoin & Crypto'
-date: 2025-11-19
+date: 2026-10-30
 authors:
 - danny
 website: https://www.maxbit.com

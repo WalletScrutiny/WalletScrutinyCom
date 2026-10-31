@@ -1,6 +1,6 @@
 ---
 title: Crypto.com Exchange
-date: 2021-10-24
+date: 2026-10-30
 authors:
 - danny
 - leo

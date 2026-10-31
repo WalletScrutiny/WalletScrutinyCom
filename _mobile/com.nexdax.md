@@ -1,6 +1,6 @@
 ---
 title: NexDAX
-date: 2023-08-19
+date: 2026-10-30
 authors:
 - danny
 website: https://nexdax.com

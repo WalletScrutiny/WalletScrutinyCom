@@ -1,6 +1,6 @@
 ---
 title: Gimibits
-date: 2023-08-04
+date: 2026-10-30
 website: https://gimibits.com#deadLink
 redirect_from:
 - /android/com.blocknomic.gimibits/

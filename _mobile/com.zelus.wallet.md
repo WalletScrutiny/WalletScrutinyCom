@@ -1,6 +1,6 @@
 ---
 title: 'Zelus Wallet: Crypto & NFTs'
-date: 2025-12-26
+date: 2026-10-30
 authors:
 - danny
 website: https://zelus.io/

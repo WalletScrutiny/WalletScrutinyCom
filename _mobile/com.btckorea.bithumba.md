@@ -1,6 +1,6 @@
 ---
 title: 빗썸 트레이더
-date: 2021-08-04
+date: 2026-10-30
 authors:
 - leo
 website: https://www.bithumb.com

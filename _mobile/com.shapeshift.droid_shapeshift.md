@@ -1,6 +1,6 @@
 ---
 title: 'ShapeShift: Crypto Platform'
-date: 2025-07-28
+date: 2026-10-30
 authors:
 - leo
 - danny

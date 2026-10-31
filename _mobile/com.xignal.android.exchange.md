@@ -1,6 +1,6 @@
 ---
 title: Xignalex
-date: 2024-04-19
+date: 2026-10-30
 website: https://xignalex.com#deadLink
 redirect_from:
 - /android/com.xignal.android.exchange/

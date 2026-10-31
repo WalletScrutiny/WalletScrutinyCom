@@ -1,6 +1,6 @@
 ---
 title: AInvesting - CFD trading
-date: 2025-12-18
+date: 2026-10-30
 authors:
 - danny
 website: http://www.uptrend.bg

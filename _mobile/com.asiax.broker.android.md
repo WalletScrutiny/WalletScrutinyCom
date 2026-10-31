@@ -1,6 +1,6 @@
 ---
 title: ASIA EXCHANGE- Buy Sell & Stake Crypto
-date: 2021-11-30
+date: 2026-10-30
 redirect_from:
 - /android/com.asiax.broker.android/
 android:

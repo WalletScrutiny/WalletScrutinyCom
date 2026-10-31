@@ -1,6 +1,6 @@
 ---
 title: BitDa Cryptocurrency Wallet
-date: 2026-01-14
+date: 2026-10-30
 redirect_from:
 - /android/com.bitda.wallet/
 android:

@@ -1,6 +1,6 @@
 ---
 title: Browallted
-date: 2023-10-16
+date: 2026-10-30
 website: https://browallted.com#deadLink
 redirect_from:
 - /android/com.browallted.comlogin.php/

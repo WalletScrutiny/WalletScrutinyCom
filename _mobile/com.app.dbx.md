@@ -1,6 +1,6 @@
 ---
 title: Dibix
-date: 2026-09-14
+date: 2026-10-30
 website: https://dibix.org/ru/Dibix
 iphone:
   appId: com.app.dbx

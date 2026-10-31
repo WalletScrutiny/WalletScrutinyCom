@@ -1,6 +1,6 @@
 ---
 title: Berry Wallet - Store Crypto
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - danny
 website: https://wallet.berrychain.io#deadLink

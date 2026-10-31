@@ -1,6 +1,6 @@
 ---
 title: FinanceX - Crypto Trading with
-date: 2024-04-03
+date: 2026-10-30
 authors:
 - danny
 website: http://www.financex.io#deadLink

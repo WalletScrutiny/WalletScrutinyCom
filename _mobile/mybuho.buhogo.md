@@ -1,6 +1,6 @@
 ---
 title: BuhoGO
-date: 2026-01-14
+date: 2026-10-30
 redirect_from:
 - /android/mybuho.buhogo/
 android:

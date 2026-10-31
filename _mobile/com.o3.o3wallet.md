@@ -1,6 +1,6 @@
 ---
 title: O3 Wallet
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: https://o3.network#deadLink

@@ -1,6 +1,6 @@
 ---
 title: NetCents Merchant Gateway
-date: 2025-07-21
+date: 2026-10-30
 website: http://www.net-cents.com
 redirect_from:
 - /android/com.netcents.merchantterminal/

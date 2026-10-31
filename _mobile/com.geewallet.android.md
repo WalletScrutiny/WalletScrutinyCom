@@ -1,6 +1,6 @@
 ---
 title: geewallet
-date: 2025-02-28
+date: 2026-10-30
 website: http://github.com/knocte/geewallet
 redirect_from:
 - /android/com.geewallet.android/

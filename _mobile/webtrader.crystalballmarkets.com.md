@@ -1,6 +1,6 @@
 ---
 title: Crystal Ball Markets MT7
-date: 2024-08-28
+date: 2026-10-30
 authors:
 - danny
 website: https://crystalballmarkets.com/

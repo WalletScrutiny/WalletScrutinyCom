@@ -1,6 +1,6 @@
 ---
 title: 'Rezor : Crypto Wallet'
-date: 2025-12-08
+date: 2026-10-30
 authors:
 - danny
 twitter: rezor_official

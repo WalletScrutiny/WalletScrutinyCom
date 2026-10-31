@@ -1,6 +1,6 @@
 ---
 title: Inigma BTC/ETH Smart Wallet
-date: 2024-04-19
+date: 2026-10-30
 website: https://www.inigmasys.com#deadLink
 redirect_from:
 - /android/com.inigma.wallet/

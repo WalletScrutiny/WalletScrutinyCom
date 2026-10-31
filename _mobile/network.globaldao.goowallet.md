@@ -1,6 +1,6 @@
 ---
 title: goo! Rewards - Recompensas, pu
-date: 2024-02-05
+date: 2026-10-30
 website: https://web.archive.org/web/20230304212439/http://goorewards.com/
 redirect_from:
 - /android/network.globaldao.goowallet/

@@ -1,6 +1,6 @@
 ---
 title: 'Zengo: Crypto & Bitcoin Wallet'
-date: 2020-04-27
+date: 2026-10-30
 authors:
 - leo
 - emanuel

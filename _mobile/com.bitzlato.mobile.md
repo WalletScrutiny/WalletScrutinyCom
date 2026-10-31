@@ -1,6 +1,6 @@
 ---
 title: Bitzlato
-date: 2023-07-20
+date: 2026-10-30
 authors:
 - danny
 website: https://bitzlato.com/

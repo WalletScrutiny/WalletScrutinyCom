@@ -1,6 +1,6 @@
 ---
 title: 플라이빗 Flybit -신뢰할 수 있는 가상자산 거래소
-date: 2021-09-30
+date: 2026-10-30
 authors:
 - danny
 website: https://flybit.com

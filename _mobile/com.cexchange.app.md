@@ -1,6 +1,6 @@
 ---
 title: 'c-Exchange: Buy & Sell Crypto'
-date: 2025-11-26
+date: 2026-10-30
 authors:
 - danny
 website: https://c-exchange.com/

@@ -1,6 +1,6 @@
 ---
 title: GalaxyCustody
-date: 2022-07-31
+date: 2026-10-30
 website: https://www.gk8.io/contact-us/
 redirect_from:
 - /android/com.gk8.network/

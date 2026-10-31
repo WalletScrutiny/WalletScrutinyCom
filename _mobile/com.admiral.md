@@ -1,6 +1,6 @@
 ---
 title: Admiral Option
-date: 2023-02-03
+date: 2026-10-30
 authors:
 - danny
 website: https://admiraloption.com#deadLink

@@ -1,6 +1,6 @@
 ---
 title: M Global
-date: 2024-02-05
+date: 2026-10-30
 website: https://www.mineglobed.com#deadLink
 redirect_from:
 - /android/com.ronbd.mGlobal/

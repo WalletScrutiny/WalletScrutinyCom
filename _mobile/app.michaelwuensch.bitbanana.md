@@ -1,6 +1,6 @@
 ---
 title: 'BitBanana: Bitcoin & Lightning'
-date: 2025-03-19
+date: 2026-10-30
 authors:
 - danny
 - keraliss

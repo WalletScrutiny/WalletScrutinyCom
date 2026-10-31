@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Pay
-date: 2024-09-24
+date: 2026-10-30
 website: http://Bitcoin.org
 redirect_from:
 - /com.bitcoininc.bitcoinpay/

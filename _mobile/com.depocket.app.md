@@ -1,6 +1,6 @@
 ---
 title: DePocket
-date: 2024-04-19
+date: 2026-10-30
 website: https://depocket.com/
 redirect_from:
 - /android/com.depocket.app/

@@ -1,6 +1,6 @@
 ---
 title: Crypto Invest
-date: 2021-08-13
+date: 2026-10-30
 redirect_from:
 - /android/com.cryptowallet.crypto.invest/
 android:

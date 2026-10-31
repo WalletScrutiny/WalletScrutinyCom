@@ -1,6 +1,6 @@
 ---
 title: I stock hunter-finance saham wallet&bursa anywhere
-date: 2023-01-02
+date: 2026-10-30
 website: https://www.top1groups.com#deadLink
 redirect_from:
 - /android/com.top1.group.international.android/

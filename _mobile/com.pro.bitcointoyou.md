@@ -1,6 +1,6 @@
 ---
 title: Bitcointoyou Pro
-date: 2025-02-18
+date: 2026-10-30
 authors:
 - kiwilamb
 website: https://www.bitcointoyou.com

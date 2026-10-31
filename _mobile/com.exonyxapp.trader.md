@@ -1,6 +1,6 @@
 ---
 title: Exonyx | اکس اونیکس
-date: 2023-06-21
+date: 2026-10-30
 authors:
 - danny
 website: https://exonyx.ir#deadLink

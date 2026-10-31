@@ -1,6 +1,6 @@
 ---
 title: 'PRO exchange: trade Bitcoin'
-date: 2026-01-14
+date: 2026-10-30
 authors:
 - danny
 website: https://pro.changelly.com/

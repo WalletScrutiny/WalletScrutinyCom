@@ -23,7 +23,7 @@ icon: seedsigner.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-06-30
+date: 2026-10-30
 signer: 
 twitter: SeedSigner
 social:

@@ -1,6 +1,6 @@
 ---
 title: Profxmining
-date: 2024-07-14
+date: 2026-10-30
 website: https://profxmining.com#deadLink
 redirect_from:
 - /android/com.profx.mining/

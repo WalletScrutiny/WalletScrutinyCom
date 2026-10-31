@@ -1,6 +1,6 @@
 ---
 title: FlashTrade - Bitcoin, BCH, ETH, LTC on GDAX
-date: 2021-11-26
+date: 2026-10-30
 redirect_from:
 - /android/co.ocdigital.flashtrade/
 android:

@@ -1,6 +1,6 @@
 ---
 title: BISPEX거래소-비스팩스 수익률분석 트레이딩
-date: 2024-04-03
+date: 2026-10-30
 redirect_from:
 - /android/kr.co.coin5.bc/
 android:

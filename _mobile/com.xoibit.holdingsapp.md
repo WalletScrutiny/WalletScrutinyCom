@@ -1,6 +1,6 @@
 ---
 title: 'Xoibit: Trade BTC & Crypto'
-date: 2026-01-26
+date: 2026-10-30
 authors:
 - danny
 website: https://xoibit.com

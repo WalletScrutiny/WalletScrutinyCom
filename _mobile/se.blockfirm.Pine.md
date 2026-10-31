@@ -1,6 +1,6 @@
 ---
 title: Pine – Bitcoin Wallet
-date: 2024-07-10
+date: 2026-10-30
 website: https://pine.pm
 redirect_from:
 - /iphone/se.blockfirm.Pine/

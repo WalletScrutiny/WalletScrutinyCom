@@ -1,6 +1,6 @@
 ---
 title: UnicornTrading
-date: 2024-04-19
+date: 2026-10-30
 website: https://first-union.com#deadLink
 redirect_from:
 - /android/com.firstunion.uncwallet/

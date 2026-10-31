@@ -1,6 +1,6 @@
 ---
 title: OX Wallet Secure
-date: 2026-01-14
+date: 2026-10-30
 authors:
 - danny
 website: https://oxwallet.app

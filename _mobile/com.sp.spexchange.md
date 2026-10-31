@@ -1,6 +1,6 @@
 ---
 title: SPexchange
-date: 2024-04-03
+date: 2026-10-30
 website: https://spexchange.io#deadLink
 redirect_from:
 - /android/com.sp.spexchange/

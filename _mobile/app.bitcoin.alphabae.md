@@ -1,6 +1,6 @@
 ---
 title: AlphaBae
-date: 2024-05-07
+date: 2026-10-30
 redirect_from:
 - /android/app.bitcoin.alphabae/
 android:

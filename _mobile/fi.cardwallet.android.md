@@ -1,6 +1,6 @@
 ---
 title: CWallet - ADA Crypto Wallet
-date: 2023-09-28
+date: 2026-10-30
 authors:
 - danny
 website: https://cwallet.finance/

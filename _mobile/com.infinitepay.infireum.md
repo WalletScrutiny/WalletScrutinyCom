@@ -1,6 +1,6 @@
 ---
 title: Infireum - Universal Wallet
-date: 2023-08-04
+date: 2026-10-30
 website: https://infireum.com
 redirect_from:
 - /android/com.infinitepay.infireum/

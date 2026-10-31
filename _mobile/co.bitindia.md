@@ -1,6 +1,6 @@
 ---
 title: Bitindia
-date: 2021-10-18
+date: 2026-10-30
 redirect_from:
 - /android/co.bitindia/
 android:

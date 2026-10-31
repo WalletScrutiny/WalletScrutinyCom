@@ -1,6 +1,6 @@
 ---
 title: Swiftxchange
-date: 2024-04-03
+date: 2026-10-30
 website: https://www.swiftxchange.com.ng#deadLink
 redirect_from:
 - /android/com.tradedigitals.swiftxchange/

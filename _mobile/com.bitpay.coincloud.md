@@ -1,6 +1,6 @@
 ---
 title: 'Coin Cloud: Wallet 1.5'
-date: 2023-08-29
+date: 2026-10-30
 authors:
 - kiwilamb
 website: https://www.coin.cloud#deadLink

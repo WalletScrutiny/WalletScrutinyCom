@@ -4,7 +4,7 @@ appId: rddl
 authors:
 - danny
 icon: rddl.webp
-date: 2024-01-05
+date: 2026-10-30
 website: https://www.rddl.io/
 twitter: RDDLNetwork
 social:

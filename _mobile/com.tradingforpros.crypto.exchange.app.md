@@ -1,6 +1,6 @@
 ---
 title: Crypto Exchange App
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/com.tradingforpros.crypto.exchange.app/
 android:

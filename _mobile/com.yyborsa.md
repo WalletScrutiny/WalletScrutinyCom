@@ -1,6 +1,6 @@
 ---
 title: 7/24 Borsa
-date: 2024-05-07
+date: 2026-10-30
 website: https://724borsa.com#deadLink
 redirect_from:
 - /android/com.yyborsa/

@@ -1,6 +1,6 @@
 ---
 title: Wampum-1st-Anonymous
-date: 2024-10-31
+date: 2026-10-30
 website: http://www.wampum1st.com#deadLink
 redirect_from:
 - /android/com.itm.ww/

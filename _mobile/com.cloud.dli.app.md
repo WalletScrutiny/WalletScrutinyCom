@@ -1,6 +1,6 @@
 ---
 title: BolsaDX
-date: 2024-10-28
+date: 2026-10-30
 website: https://bolsadx.lat#deadLink
 redirect_from:
 - /android/com.cloud.dli.app/

@@ -1,6 +1,6 @@
 ---
 title: Invest On Bitcoin
-date: 2021-09-23
+date: 2026-10-30
 redirect_from:
 - /android/net.crypto.swingalert.invest.on.bitcoin/
 android:

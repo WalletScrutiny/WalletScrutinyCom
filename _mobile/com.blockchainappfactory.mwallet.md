@@ -1,6 +1,6 @@
 ---
 title: M Wallet
-date: 2023-05-13
+date: 2026-10-30
 authors:
 - danny
 website: https://mwallet.step.holdings#deadLink

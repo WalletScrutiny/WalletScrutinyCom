@@ -1,6 +1,6 @@
 ---
 title: Dompet Bitcoin Indonesia
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - leo
 website: https://www.indodax.com/

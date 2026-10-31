@@ -1,6 +1,6 @@
 ---
 title: Hopex Crypto Exchange  汇贝交易平台 - 加密货币交易应用程序
-date: 2023-01-02
+date: 2026-10-30
 website: https://www.hopex.com#deadLink
 redirect_from:
 - /android/com.hopex.app/

@@ -1,6 +1,6 @@
 ---
 title: 'SuperEx: Trade Crypto & BTC'
-date: 2026-07-24
+date: 2026-10-30
 authors:
 - danny
 website: https://www.superex.com

@@ -1,6 +1,6 @@
 ---
 title: MONEX TRADER CRYPTO　暗号資産CFD取引
-date: 2025-11-05
+date: 2026-10-30
 authors:
 - danny
 website: http://www.monex.co.jp/

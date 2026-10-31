@@ -1,6 +1,6 @@
 ---
 title: BTC Markets
-date: 2023-04-20
+date: 2026-10-30
 authors:
 - danny
 website: https://btcmarkets.net

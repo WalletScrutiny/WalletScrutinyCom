@@ -1,6 +1,6 @@
 ---
 title: FERRARIPAY
-date: 2023-12-19
+date: 2026-10-30
 website: https://ferrari-pay.com#deadLink
 redirect_from:
 - /android/com.ferraripay/

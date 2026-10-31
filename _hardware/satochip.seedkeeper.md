@@ -24,7 +24,7 @@ icon: satochip.seedkeeper.webp
 bugbounty: 
 meta: ok
 verdict: plainkey
-date: 2025-02-06
+date: 2026-10-30
 signer: 
 twitter: satochipwallet
 social:

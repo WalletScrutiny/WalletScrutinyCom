@@ -1,6 +1,6 @@
 ---
 title: BOP - Bitcoin On Paper
-date: 2026-05-21
+date: 2026-10-30
 website: https://github.com/ejfhp
 redirect_from:
 - /android/com.ejfhp.bitonpaper/

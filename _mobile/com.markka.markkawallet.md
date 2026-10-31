@@ -1,6 +1,6 @@
 ---
 title: Markka.com Wallet
-date: 2026-05-21
+date: 2026-10-30
 website: https://markka.com
 redirect_from:
 - /android/com.markka.markkawallet/

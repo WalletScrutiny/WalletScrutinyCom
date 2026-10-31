@@ -1,6 +1,6 @@
 ---
 title: Flash Wallet
-date: 2025-11-14
+date: 2026-10-30
 authors:
 - danny
 website: https://flash-wallet.app/

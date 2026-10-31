@@ -16,7 +16,7 @@ icon: lightning.app.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-date: 2024-04-25
+date: 2026-10-30
 twitter: lightning
 social: 
 builds: 

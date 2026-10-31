@@ -1,6 +1,6 @@
 ---
 title: BitsBlockchain
-date: 2024-04-19
+date: 2026-10-30
 website: https://www.bitsblockchain.net/
 redirect_from:
 - /android/bitsblockchain.net/

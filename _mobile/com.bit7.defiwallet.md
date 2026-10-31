@@ -1,6 +1,6 @@
 ---
 title: 'DeXoo: Crypto DeFi wallet'
-date: 2024-02-05
+date: 2026-10-30
 website: https://www.dexoo.io#deadLink
 redirect_from:
 - /android/com.bit7.defiwallet/

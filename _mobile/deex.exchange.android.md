@@ -1,6 +1,6 @@
 ---
 title: Deex Exchange
-date: 2023-06-12
+date: 2026-10-30
 authors:
 - danny
 website: https://deex.exchange#deadLink

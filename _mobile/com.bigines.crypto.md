@@ -1,6 +1,6 @@
 ---
 title: Bigines
-date: 2024-09-01
+date: 2026-10-30
 website: https://bigines.com
 redirect_from:
 - /android/com.bigines.crypto/

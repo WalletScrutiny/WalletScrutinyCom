@@ -1,6 +1,6 @@
 ---
 title: Canada eCoin
-date: 2024-11-30
+date: 2026-10-30
 website: https://ecoincore.com
 redirect_from:
 - /android/org.canadaecoin.moonshine/

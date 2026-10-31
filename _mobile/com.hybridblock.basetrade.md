@@ -1,6 +1,6 @@
 ---
 title: BaseTrade
-date: 2023-12-19
+date: 2026-10-30
 website: https://basetrade.io#deadLink
 redirect_from:
 - /android/com.hybridblock.basetrade/

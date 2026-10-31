@@ -1,6 +1,6 @@
 ---
 title: Private Wallet
-date: 2023-08-04
+date: 2026-10-30
 website: https://private-wallet.net#deadLink
 redirect_from:
 - /android/com.privated.wallet/

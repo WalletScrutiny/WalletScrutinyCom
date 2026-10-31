@@ -1,6 +1,6 @@
 ---
 title: Bitdd.com - Buy BTC, ETH
-date: 2023-05-10
+date: 2026-10-30
 redirect_from:
 - /android/com.bitdd.appoo/
 android:

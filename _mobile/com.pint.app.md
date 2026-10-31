@@ -1,6 +1,6 @@
 ---
 title: PINT Wallet & P2P Marketplace for Bitcoin Ethereum
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitfia.io

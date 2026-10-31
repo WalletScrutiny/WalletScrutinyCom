@@ -1,6 +1,6 @@
 ---
 title: Bitexen Global
-date: 2023-09-06
+date: 2026-10-30
 authors:
 - danny
 website: https://global.bitexen.com/

@@ -1,6 +1,6 @@
 ---
 title: WebMoney Crypto
-date: 2022-03-24
+date: 2026-10-30
 redirect_from:
 - /android/domain2.com.moneym/
 android:

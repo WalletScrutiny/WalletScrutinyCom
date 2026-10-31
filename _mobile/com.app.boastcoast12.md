@@ -1,6 +1,6 @@
 ---
 title: BoastCoast
-date: 2026-02-02
+date: 2026-10-30
 website: https://boastcoast.com
 redirect_from:
 - /android/com.app.boastcoast12/

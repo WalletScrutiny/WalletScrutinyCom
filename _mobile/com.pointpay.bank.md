@@ -1,6 +1,6 @@
 ---
 title: 'PointPay: Crypto Wallet App'
-date: 2021-04-27
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo

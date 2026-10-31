@@ -1,6 +1,6 @@
 ---
 title: ForumPay
-date: 2025-11-26
+date: 2026-10-30
 website: https://forumpay.com/
 redirect_from:
 - /android/com.forumpay/

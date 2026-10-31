@@ -1,6 +1,6 @@
 ---
 title: 'BNS: Crypto Trading Exchange'
-date: 2026-04-13
+date: 2026-10-30
 authors:
 - danny
 website: https://bitbns.com/

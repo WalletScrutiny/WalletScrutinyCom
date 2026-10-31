@@ -1,6 +1,6 @@
 ---
 title: 'MetaMask: Trade Crypto'
-date: 2025-12-16
+date: 2026-10-30
 authors:
 - leo
 - danny

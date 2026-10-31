@@ -1,6 +1,6 @@
 ---
 title: Bithumb
-date: 2021-02-19
+date: 2026-10-30
 authors:
 - leo
 website: http://www.bithumb.com/

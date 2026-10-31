@@ -1,6 +1,6 @@
 ---
 title: 'Bitocto: Buy & Sell Crypto'
-date: 2025-02-26
+date: 2026-10-30
 authors:
 - danny
 website: https://bitocto.com

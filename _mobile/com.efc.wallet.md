@@ -1,6 +1,6 @@
 ---
 title: EFC Wallet
-date: 2024-02-05
+date: 2026-10-30
 website: https://minerglobal.org#deadLink
 redirect_from:
 - /android/com.efc.wallet/

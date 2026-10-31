@@ -1,6 +1,6 @@
 ---
 title: Cryptere
-date: 2024-10-19
+date: 2026-10-30
 website: https://cryptere.com#deadLink
 redirect_from:
 - /android/com.cryptere.wallet/

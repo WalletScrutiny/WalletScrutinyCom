@@ -1,6 +1,6 @@
 ---
 title: bip38decrypt
-date: 2024-04-19
+date: 2026-10-30
 website: https://github.com/mikebutrimov/bip38decrypt
 redirect_from:
 - /android/org.unhack.bip38decrypt/

@@ -1,6 +1,6 @@
 ---
 title: CoinFalcon – Buy & sell Bitcoi
-date: 2023-01-11
+date: 2026-10-30
 authors:
 - leo
 website: https://coinfalcon.com

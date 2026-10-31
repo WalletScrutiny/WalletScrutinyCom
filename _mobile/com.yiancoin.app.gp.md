@@ -1,6 +1,6 @@
 ---
 title: yiancoin
-date: 2022-04-25
+date: 2026-10-30
 redirect_from:
 - /android/com.yiancoin.app.gp/
 android:

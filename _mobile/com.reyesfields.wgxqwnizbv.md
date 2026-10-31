@@ -1,6 +1,6 @@
 ---
 title: Defi Master - BTC ETH Cryptocu
-date: 2024-12-23
+date: 2026-10-30
 redirect_from:
 - /android/com.reyesfields.wgxqwnizbv/
 android:

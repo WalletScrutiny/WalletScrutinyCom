@@ -1,6 +1,6 @@
 ---
 title: 옴니스골드공과금납부지갑(omnisgold wallet)
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/com.hustay.swing.d38f0b94477384f17ab16e5a379befccc/
 android:

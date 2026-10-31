@@ -1,6 +1,6 @@
 ---
 title: 'ETHLYTE CRYPTO: Bitcoin /Crypt'
-date: 2023-05-05
+date: 2026-10-30
 authors:
 - danny
 website: https://web.archive.org/web/20250618122124/http://ethlyte.tech/

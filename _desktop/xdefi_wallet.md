@@ -16,7 +16,7 @@ icon: xdefi_wallet.webp
 bugbounty: 
 meta: deprecated
 verdict: nosource
-date: 2024-05-09
+date: 2026-10-30
 twitter: xdefi_wallet
 social: 
 builds: 

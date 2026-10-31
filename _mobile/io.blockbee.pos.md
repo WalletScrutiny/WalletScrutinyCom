@@ -1,6 +1,6 @@
 ---
 title: BlockBee POS
-date: 2025-04-09
+date: 2026-10-30
 website: https://blockbee.io
 redirect_from:
 - /android/io.blockbee.pos/

@@ -1,6 +1,6 @@
 ---
 title: 'Trendo: Forex Trading & Broker'
-date: 2023-04-04
+date: 2026-10-30
 authors:
 - danny
 website: https://fxtrendo.com

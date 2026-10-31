@@ -1,6 +1,6 @@
 ---
 title: 'Cupcake: Security, Made Easy'
-date: 2026-01-14
+date: 2026-10-30
 website: https://cakewallet.com
 appCountry: us
 redirect_from:

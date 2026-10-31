@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Wallet Exchange - exch
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - kiwilamb
 redirect_from:

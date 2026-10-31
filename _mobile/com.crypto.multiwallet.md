@@ -1,6 +1,6 @@
 ---
 title: 'Guarda: Crypto Bitcoin Wallet'
-date: 2021-05-20
+date: 2026-10-30
 authors:
 - leo
 - danny

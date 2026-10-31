@@ -16,7 +16,7 @@ icon: desk.stackwallet.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-08-05
+date: 2026-10-30
 twitter: stack_wallet
 social:
 - https://www.youtube.com/channel/UCqCtpXsLyNIle1uOO2DU7JA

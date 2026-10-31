@@ -1,6 +1,6 @@
 ---
 title: 'One80: Crypto DeFi Wallet'
-date: 2025-11-10
+date: 2026-10-30
 website: https://one80wallet.io/
 redirect_from:
 - /android/com.one80wallet/

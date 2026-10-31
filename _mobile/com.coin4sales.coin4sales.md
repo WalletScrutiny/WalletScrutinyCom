@@ -1,6 +1,6 @@
 ---
 title: Coin4sales Wallet - Buy Bitcoi
-date: 2024-05-18
+date: 2026-10-30
 website: https://www.coin4sales.com/tos#deadLink
 redirect_from:
 - /android/com.coin4sales.coin4sales/

@@ -1,6 +1,6 @@
 ---
 title: BitCrypto
-date: 2025-02-04
+date: 2026-10-30
 website: https://harungoker.com#deadLink
 redirect_from:
 - /android/com.harungoker.bitcrypto/

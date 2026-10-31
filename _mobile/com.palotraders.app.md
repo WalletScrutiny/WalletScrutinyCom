@@ -1,6 +1,6 @@
 ---
 title: Palo Traders
-date: 2023-05-10
+date: 2026-10-30
 redirect_from:
 - /android/com.palotraders.app/
 android:

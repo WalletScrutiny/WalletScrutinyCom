@@ -1,6 +1,6 @@
 ---
 title: Maxpayz
-date: 2025-09-03
+date: 2026-10-30
 redirect_from:
 - /android/com.payz.maxpayz/
 android:

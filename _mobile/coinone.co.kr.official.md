@@ -1,6 +1,6 @@
 ---
 title: '코인원: 수수료 무료 바우처 지급, 12년 보안 무사고'
-date: 2021-08-21
+date: 2026-10-30
 authors:
 - danny
 website: https://coinone.co.kr

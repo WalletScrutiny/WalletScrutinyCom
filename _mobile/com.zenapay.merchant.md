@@ -1,6 +1,6 @@
 ---
 title: ZenaPay Merchant
-date: 2026-05-21
+date: 2026-10-30
 website: http://www.zenapay.com
 redirect_from:
 - /android/com.zenapay.merchant/

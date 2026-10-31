@@ -1,6 +1,6 @@
 ---
 title: PureWallet-CryptoWallet for BTC,BCH,ETH,TRON,IOST
-date: 2020-05-07
+date: 2026-10-30
 website: https://www.purewallet.org#deadLink
 twitter: PureWallet
 redirect_from:

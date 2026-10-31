@@ -21,7 +21,7 @@ icon: thingyfy.nxtringcrypto.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2022-05-10
+date: 2026-10-30
 signer: 
 twitter: 
 social: 

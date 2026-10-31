@@ -1,6 +1,6 @@
 ---
 title: T+ Wallet-Essential Crypto Hub
-date: 2023-06-01
+date: 2026-10-30
 authors:
 - danny
 website: https://talkapp.org

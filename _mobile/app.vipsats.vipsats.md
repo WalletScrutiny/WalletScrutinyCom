@@ -1,6 +1,6 @@
 ---
 title: Satoshi Bitcoin Wallet Vipsats
-date: 2024-08-13
+date: 2026-10-30
 website: https://vipsats.app
 redirect_from:
 - /android/app.vipsats.vipsats/

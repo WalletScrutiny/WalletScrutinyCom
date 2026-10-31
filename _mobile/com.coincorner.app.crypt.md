@@ -1,6 +1,6 @@
 ---
 title: CoinCorner
-date: 2024-10-07
+date: 2026-10-30
 authors:
 - kiwilamb
 website: https://www.coincorner.com

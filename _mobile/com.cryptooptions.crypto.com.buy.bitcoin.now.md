@@ -1,6 +1,6 @@
 ---
 title: Crypto.com - Buy Bitcoin Now
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - danny
 redirect_from:

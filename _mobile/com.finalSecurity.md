@@ -1,6 +1,6 @@
 ---
 title: Final Security
-date: 2024-04-19
+date: 2026-10-30
 website: https://final-security.com
 redirect_from:
 - /android/com.finalSecurity/

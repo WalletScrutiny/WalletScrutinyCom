@@ -1,6 +1,6 @@
 ---
 title: IQ wallet
-date: 2023-01-02
+date: 2026-10-30
 website: http://www.mob1apps.com#deadLink
 redirect_from:
 - /android/com.appsquest.tionchuantung.iqc/

@@ -1,6 +1,6 @@
 ---
 title: OTPPAY - Crypto Exchange & Mer
-date: 2023-05-26
+date: 2026-10-30
 authors:
 - danny
 website: https://www.otppay.com

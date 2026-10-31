@@ -1,6 +1,6 @@
 ---
 title: Safepay - Buy Sell Crypto
-date: 2024-12-23
+date: 2026-10-30
 authors:
 - danny
 website: https://safepay.live#deadLink

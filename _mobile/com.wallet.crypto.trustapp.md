@@ -1,6 +1,6 @@
 ---
 title: 'Trust: Crypto & Bitcoin Wallet'
-date: 2020-12-23
+date: 2026-10-30
 authors:
 - leo
 - danny

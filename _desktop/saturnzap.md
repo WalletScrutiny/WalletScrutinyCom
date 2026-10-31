@@ -16,7 +16,7 @@ icon: saturnzap.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2026-05-08
+date: 2026-10-30
 twitter: LQWDTech
 social: 
 builds: 

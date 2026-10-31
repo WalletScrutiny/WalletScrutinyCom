@@ -1,6 +1,6 @@
 ---
 title: SPEZA - Regulated Digital Asse
-date: 2024-07-05
+date: 2026-10-30
 website: https://www.speza.exchange#deadLink
 redirect_from:
 - /android/com.exchange.speza/

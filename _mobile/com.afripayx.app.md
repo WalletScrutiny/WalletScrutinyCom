@@ -1,6 +1,6 @@
 ---
 title: AfripayX
-date: 2025-02-04
+date: 2026-10-30
 redirect_from:
 - /android/com.afripayx.app/
 android:

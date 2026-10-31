@@ -1,6 +1,6 @@
 ---
 title: EPTA
-date: 2024-04-19
+date: 2026-10-30
 website: https://myeazywallet.com#deadLink
 redirect_from:
 - /android/com.application.myeazywallet/

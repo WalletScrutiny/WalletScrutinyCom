@@ -1,6 +1,6 @@
 ---
 title: 'InvesaCapital: CFD Trading App'
-date: 2025-08-24
+date: 2026-10-30
 website: https://www.invesacapital.com#deadLink
 redirect_from:
 - /android/com.imermarket.invesacapital/

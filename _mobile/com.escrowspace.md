@@ -1,6 +1,6 @@
 ---
 title: EscrowSpace. Bitcoin wallet & Deals. ICO Tracker.
-date: 2021-12-05
+date: 2026-10-30
 redirect_from:
 - /android/com.escrowspace/
 android:

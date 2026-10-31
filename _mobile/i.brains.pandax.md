@@ -1,6 +1,6 @@
 ---
 title: 'Pandar: Coins, Giftcard & Bill'
-date: 2024-09-02
+date: 2026-10-30
 authors:
 - danny
 website: https://pandar.ng

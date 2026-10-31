@@ -1,6 +1,6 @@
 ---
 title: Sky7
-date: 2023-12-19
+date: 2026-10-30
 redirect_from:
 - /android/com.sky7_bot_mobile/
 android:

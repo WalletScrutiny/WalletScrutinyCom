@@ -1,6 +1,6 @@
 ---
 title: LPEN Wallet
-date: 2024-12-23
+date: 2026-10-30
 website: https://lpenwallet.com#deadLink
 redirect_from:
 - /android/com.lpen/

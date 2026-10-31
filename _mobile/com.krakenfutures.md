@@ -1,6 +1,6 @@
 ---
 title: 'Kraken Futures: Bitcoin & Cryp'
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - leo
 - danny

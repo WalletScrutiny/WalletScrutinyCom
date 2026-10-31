@@ -1,6 +1,6 @@
 ---
 title: Tronz Wallet
-date: 2021-06-18
+date: 2026-10-30
 redirect_from:
 - /android/com.walletapp.walletapp/
 android:

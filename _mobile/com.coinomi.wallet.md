@@ -1,6 +1,6 @@
 ---
 title: 'Coinomi: Crypto Bitcoin Wallet'
-date: 2024-09-14
+date: 2026-10-30
 authors:
 - leo
 website: https://www.Coinomi.com

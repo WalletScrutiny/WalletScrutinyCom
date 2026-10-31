@@ -1,6 +1,6 @@
 ---
 title: 'Xverse Wallet: Buy Bitcoin'
-date: 2022-01-13
+date: 2026-10-30
 authors:
 - danny
 website: https://www.xverse.app/

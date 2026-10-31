@@ -1,6 +1,6 @@
 ---
 title: 'HFTrading: Forex, Bitcoin, Gol'
-date: 2024-03-02
+date: 2026-10-30
 website: https://www.hftrading.com
 redirect_from:
 - /android/com.hftrading/

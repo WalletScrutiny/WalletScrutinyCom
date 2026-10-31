@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Wallet & Vault
-date: 2021-07-15
+date: 2026-10-30
 authors:
 - leo
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: Bitcoin America - Decentralized Exchange
-date: 2022-03-07
+date: 2026-10-30
 redirect_from:
 - /android/com.btcus.pro/
 android:

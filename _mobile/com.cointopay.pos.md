@@ -1,6 +1,6 @@
 ---
 title: Cointopay POS
-date: 2025-02-26
+date: 2026-10-30
 website: https://cointopay.com
 redirect_from:
 - /android/com.cointopay.pos/

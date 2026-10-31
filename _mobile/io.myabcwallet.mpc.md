@@ -1,6 +1,6 @@
 ---
 title: ABC Wallet - Safe Web3 wallet
-date: 2025-12-27
+date: 2026-10-30
 authors:
 - danny
 website: https://myabcwallet.io

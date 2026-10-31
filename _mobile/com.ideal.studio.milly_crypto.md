@@ -1,6 +1,6 @@
 ---
 title: Milly Crypto
-date: 2024-04-26
+date: 2026-10-30
 website: https://www.millycrypto.com#deadLink
 redirect_from:
 - /android/com.ideal.studio.milly_crypto/

@@ -1,6 +1,6 @@
 ---
 title: Tomato Wallet(구 통통지갑)
-date: 2023-04-12
+date: 2026-10-30
 authors:
 - danny
 website: https://tongtongwallet.com/

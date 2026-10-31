@@ -1,6 +1,6 @@
 ---
 title: 'Ju.com : Buy BTC, DeFi & Web3'
-date: 2025-11-12
+date: 2026-10-30
 authors:
 - danny
 twitter: Jucom_Official

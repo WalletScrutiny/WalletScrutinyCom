@@ -1,6 +1,6 @@
 ---
 title: 'Jtech Trade: Bitcoin Marketplace & Crypto Wallet'
-date: 2021-11-01
+date: 2026-10-30
 redirect_from:
 - /android/com.cryptocurrency.jtechtrade/
 android:

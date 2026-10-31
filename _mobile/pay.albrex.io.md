@@ -1,6 +1,6 @@
 ---
 title: Albrex Wallet
-date: 2023-01-02
+date: 2026-10-30
 website: https://web.archive.org/web/20211206092528/https://albrex.io/
 redirect_from:
 - /android/pay.albrex.io/

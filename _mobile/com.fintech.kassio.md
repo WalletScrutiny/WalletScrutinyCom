@@ -1,6 +1,6 @@
 ---
 title: Kassio
-date: 2024-10-31
+date: 2026-10-30
 authors:
 - danny
 website: https://kassio.com

@@ -1,6 +1,6 @@
 ---
 title: BitcoinSV POS
-date: 2022-03-24
+date: 2026-10-30
 website: https://web.archive.org/web/20210410140507/https://www.strayacoin.org/index.php/strayapos/
 redirect_from:
 - /android/org.strayacoin.bsvpos/

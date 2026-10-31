@@ -1,6 +1,6 @@
 ---
 title: 'Flits: Passive income wallet'
-date: 2025-02-13
+date: 2026-10-30
 authors:
 - leo
 website: https://flitswallet.app/

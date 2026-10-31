@@ -1,6 +1,6 @@
 ---
 title: 'BoltX: NFT & Crypto Wallet'
-date: 2024-10-31
+date: 2026-10-30
 authors:
 - kiwilamb
 website: https://bolt.global/

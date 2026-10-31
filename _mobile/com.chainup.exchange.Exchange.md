@@ -1,6 +1,6 @@
 ---
 title: Scallop Exchange
-date: 2025-08-09
+date: 2026-10-30
 authors:
 - danny
 website: http://www.scallop.exchange

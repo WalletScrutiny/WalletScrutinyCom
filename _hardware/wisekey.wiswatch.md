@@ -21,7 +21,7 @@ icon: wisekey.wiswatch.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-05-03
+date: 2026-10-30
 signer: 
 twitter: WISeKey
 social:

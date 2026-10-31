@@ -1,6 +1,6 @@
 ---
 title: 고릴라비트 - 가상화폐 거래소 통합관리 - 일괄매도,유
-date: 2024-08-31
+date: 2026-10-30
 website: https://www.gorillabit.io#deadLink
 redirect_from:
 - /android/kr.co.rocketchart.gorillabit.v1/

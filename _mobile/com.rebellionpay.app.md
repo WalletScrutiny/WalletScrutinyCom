@@ -1,6 +1,6 @@
 ---
 title: Rebellion Pay
-date: 2023-12-15
+date: 2026-10-30
 authors:
 - danny
 website: https://rebellionpay.com#deadLink

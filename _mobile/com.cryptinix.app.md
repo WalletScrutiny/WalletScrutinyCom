@@ -1,6 +1,6 @@
 ---
 title: 'Cryptinix: Crypto Trading'
-date: 2025-08-21
+date: 2026-10-30
 authors:
 - danny
 website: https://cryptinix.com

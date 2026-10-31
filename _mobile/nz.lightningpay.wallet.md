@@ -1,6 +1,6 @@
 ---
 title: 'Stacked: Bitcoin Wallet NZ'
-date: 2025-11-10
+date: 2026-10-30
 website: https://stackedbitcoin.com
 redirect_from:
 - /android/nz.lightningpay.wallet/

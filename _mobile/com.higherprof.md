@@ -1,6 +1,6 @@
 ---
 title: HigherProf crypto investment
-date: 2024-11-30
+date: 2026-10-30
 website: https://higherprof.pro#deadLink
 redirect_from:
 - /android/com.higherprof/

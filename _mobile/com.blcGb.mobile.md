@@ -1,6 +1,6 @@
 ---
 title: BBLC Inc
-date: 2024-11-21
+date: 2026-10-30
 redirect_from:
 - /android/com.blcGb.mobile/
 android:

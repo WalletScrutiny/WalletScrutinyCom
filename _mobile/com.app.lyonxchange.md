@@ -1,6 +1,6 @@
 ---
 title: LyonXchange
-date: 2023-01-02
+date: 2026-10-30
 website: https://lyonxchange.com#deadLink
 redirect_from:
 - /android/com.app.lyonxchange/

@@ -1,6 +1,6 @@
 ---
 title: Vision-X Crypto
-date: 2024-03-02
+date: 2026-10-30
 website: https://test2.visionxcrypto.com#deadLink
 redirect_from:
 - /android/com.visionx_crpto/

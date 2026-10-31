@@ -1,6 +1,6 @@
 ---
 title: BTC Cloud Miner - Easy Wallet Transfer
-date: 2021-11-02
+date: 2026-10-30
 authors:
 - danny
 redirect_from:

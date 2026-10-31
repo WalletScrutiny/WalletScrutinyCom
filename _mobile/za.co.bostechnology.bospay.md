@@ -1,6 +1,6 @@
 ---
 title: BOS.Pay™️
-date: 2024-09-08
+date: 2026-10-30
 website: https://bospay.co/
 redirect_from:
 - /android/za.co.bostechnology.bospay/

@@ -1,7 +1,7 @@
 ---
 title: BULL
 bitcoinOrgId: bull
-date: 2025-01-13
+date: 2026-10-30
 authors:
 - danny
 website: http://bullbitcoin.com

@@ -1,6 +1,6 @@
 ---
 title: SpectroCoin - Buy Crypto
-date: 2020-10-12
+date: 2026-10-30
 authors:
 - leo
 website: https://spectrocoin.com

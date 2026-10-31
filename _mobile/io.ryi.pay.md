@@ -1,6 +1,6 @@
 ---
 title: 'RYIPAY: Bitcoin & Crypto'
-date: 2024-02-05
+date: 2026-10-30
 website: https://ryipay.app#deadLink
 redirect_from:
 - /android/io.ryi.pay/

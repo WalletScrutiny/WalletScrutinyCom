@@ -1,6 +1,6 @@
 ---
 title: Vivid Business and Personal
-date: 2026-07-24
+date: 2026-10-30
 authors:
 - danny
 website: https://vivid.money/

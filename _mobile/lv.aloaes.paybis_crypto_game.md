@@ -1,6 +1,6 @@
 ---
 title: Paybis Crypto wallet
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/lv.aloaes.paybis_crypto_game/
 android:

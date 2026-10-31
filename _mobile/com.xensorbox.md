@@ -1,6 +1,6 @@
 ---
 title: Xensor Box:Easy-to-use, safe c
-date: 2023-06-10
+date: 2026-10-30
 authors:
 - danny
 website: https://xensor.cc#deadLink

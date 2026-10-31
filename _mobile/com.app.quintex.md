@@ -1,6 +1,6 @@
 ---
 title: QUINTEX NETWORK
-date: 2023-08-04
+date: 2026-10-30
 website: https://quintex.io#deadLink
 redirect_from:
 - /android/com.app.quintex/

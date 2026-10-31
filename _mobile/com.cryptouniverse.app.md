@@ -1,6 +1,6 @@
 ---
 title: Crypto Universe
-date: 2024-04-03
+date: 2026-10-30
 website: http://cryptouniversep2p.com#deadLink
 redirect_from:
 - /android/com.cryptouniverse.app/

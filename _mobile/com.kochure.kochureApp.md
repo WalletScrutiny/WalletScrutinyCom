@@ -1,6 +1,6 @@
 ---
 title: 'Kochure: Buy & Sell Crypto'
-date: 2025-07-24
+date: 2026-10-30
 authors:
 - danny
 website: https://kochure.com/

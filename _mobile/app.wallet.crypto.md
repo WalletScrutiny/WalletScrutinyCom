@@ -1,6 +1,6 @@
 ---
 title: wallet.app
-date: 2025-10-15
+date: 2026-10-30
 website: https://wallet.app
 redirect_from:
 - /android/app.wallet.crypto/

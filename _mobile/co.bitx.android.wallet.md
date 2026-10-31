@@ -1,6 +1,6 @@
 ---
 title: 'Luno: Buy Bitcoin & Crypto'
-date: 2020-10-12
+date: 2026-10-30
 authors:
 - leo
 website: https://www.luno.com

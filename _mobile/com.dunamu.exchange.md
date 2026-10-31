@@ -1,6 +1,6 @@
 ---
 title: 업비트 - 국가대표 디지털 자산 거래소
-date: 2021-08-21
+date: 2026-10-30
 authors:
 - danny
 website: https://upbit.com

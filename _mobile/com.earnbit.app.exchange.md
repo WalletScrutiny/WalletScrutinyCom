@@ -1,6 +1,6 @@
 ---
 title: 'EarnBIT: Buy & Exchange Crypto'
-date: 2026-05-27
+date: 2026-10-30
 authors:
 - danny
 website: https://earnbit.com/

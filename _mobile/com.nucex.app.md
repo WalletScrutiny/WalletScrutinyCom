@@ -1,6 +1,6 @@
 ---
 title: NUCEX Trading Platform
-date: 2024-02-05
+date: 2026-10-30
 website: https://www.nucex.io#deadLink
 redirect_from:
 - /android/com.nucex.app/

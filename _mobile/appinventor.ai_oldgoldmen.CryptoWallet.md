@@ -1,6 +1,6 @@
 ---
 title: 'Multi Crypto Wallet: for Bitco'
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - leo
 redirect_from:

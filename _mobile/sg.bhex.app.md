@@ -1,6 +1,6 @@
 ---
 title: BHEXSG
-date: 2024-07-05
+date: 2026-10-30
 website: https://web.archive.org/web/20240224084937/https://www.bhex.sg:443/
 redirect_from:
 - /android/sg.bhex.app/

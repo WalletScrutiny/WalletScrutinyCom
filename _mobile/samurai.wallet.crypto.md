@@ -1,6 +1,6 @@
 ---
 title: Samourai Bitcoin Wallet
-date: 2021-09-10
+date: 2026-10-30
 authors:
 - emanuel
 - leo

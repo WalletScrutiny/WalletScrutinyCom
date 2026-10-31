@@ -1,6 +1,6 @@
 ---
 title: FAcoin
-date: 2024-04-03
+date: 2026-10-30
 website: http://facoin.info#deadLink
 redirect_from:
 - /android/com.bit.teo/

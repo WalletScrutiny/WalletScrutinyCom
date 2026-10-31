@@ -1,6 +1,6 @@
 ---
 title: NVXO Wallet Crypto, BTC Wallet
-date: 2025-11-09
+date: 2026-10-30
 website: https://www.nvxowallet.com/
 redirect_from:
 - /android/com.nvwallet.wallet/

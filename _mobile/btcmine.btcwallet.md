@@ -1,6 +1,6 @@
 ---
 title: BTC Wallet
-date: 2021-07-09
+date: 2026-10-30
 authors:
 - leo
 redirect_from:

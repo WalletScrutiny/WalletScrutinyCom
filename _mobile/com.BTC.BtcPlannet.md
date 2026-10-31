@@ -1,6 +1,6 @@
 ---
 title: BTC Plannet
-date: 2023-12-19
+date: 2026-10-30
 website: https://btcplannet.net#deadLink
 redirect_from:
 - /android/com.BTC.BtcPlannet/

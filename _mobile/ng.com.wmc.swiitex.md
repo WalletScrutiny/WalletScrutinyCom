@@ -1,6 +1,6 @@
 ---
 title: Swiitex
-date: 2024-04-03
+date: 2026-10-30
 website: https://web.archive.org/web/20250710015234/http://swiitex.com/
 redirect_from:
 - /android/ng.com.wmc.swiitex/

@@ -1,6 +1,6 @@
 ---
 title: Bigbit:Buy BTC, NFTs & Meta
-date: 2023-10-16
+date: 2026-10-30
 redirect_from:
 - /android/life.bbx.bbxpro/
 android:

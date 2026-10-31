@@ -1,6 +1,6 @@
 ---
 title: SnapBots Wallet
-date: 2024-04-03
+date: 2026-10-30
 website: https://app.snapbots.io/
 redirect_from:
 - /android/com.snapresearch.snapbotmobile/

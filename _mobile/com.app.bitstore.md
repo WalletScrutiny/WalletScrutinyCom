@@ -1,6 +1,6 @@
 ---
 title: Bitstore.tech - crypto shopping platform
-date: 2021-11-26
+date: 2026-10-30
 redirect_from:
 - /android/com.app.bitstore/
 android:

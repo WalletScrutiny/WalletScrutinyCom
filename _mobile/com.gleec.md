@@ -1,6 +1,6 @@
 ---
 title: Gleec Card Crypto-powered card
-date: 2023-05-04
+date: 2026-10-30
 authors:
 - danny
 website: http://gleec.com/

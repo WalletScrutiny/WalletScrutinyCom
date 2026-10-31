@@ -1,6 +1,6 @@
 ---
 title: Barong Xtrade
-date: 2026-03-18
+date: 2026-10-30
 website: http://Barongxtrade.com
 redirect_from:
 - /android/com.barongxtrade.users/

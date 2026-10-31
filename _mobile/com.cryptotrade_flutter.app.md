@@ -1,6 +1,6 @@
 ---
 title: Crypto Trade - Flutter
-date: 2023-12-19
+date: 2026-10-30
 website: https://mobterest.com#deadLink
 redirect_from:
 - /android/com.cryptotrade_flutter.app/

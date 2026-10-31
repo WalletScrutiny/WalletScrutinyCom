@@ -1,6 +1,6 @@
 ---
 title: Saraf - Investment Platfrom
-date: 2026-01-14
+date: 2026-10-30
 website: https://saraf.app
 redirect_from:
 - /android/com.parsa.saraf/

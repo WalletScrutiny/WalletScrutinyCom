@@ -1,6 +1,6 @@
 ---
 title: Terrabit
-date: 2023-09-15
+date: 2026-10-30
 authors:
 - danny
 website: https://terra-bit.io#deadLink

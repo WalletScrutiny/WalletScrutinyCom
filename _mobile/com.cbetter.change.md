@@ -1,6 +1,6 @@
 ---
 title: Coinbetter
-date: 2024-02-05
+date: 2026-10-30
 website: https://www.coinbetter.com#deadLink
 redirect_from:
 - /android/com.cbetter.change/

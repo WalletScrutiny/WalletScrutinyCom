@@ -1,6 +1,6 @@
 ---
 title: IndexWallet
-date: 2024-04-03
+date: 2026-10-30
 website: https://indexchain.org#deadLink
 redirect_from:
 - /android/io.horizontalsystems.indexwallet/

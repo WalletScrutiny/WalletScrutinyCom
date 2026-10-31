@@ -1,6 +1,6 @@
 ---
 title: SEADEX
-date: 2026-06-02
+date: 2026-10-30
 authors:
 - danny
 website: http://seadex.io#deadLink

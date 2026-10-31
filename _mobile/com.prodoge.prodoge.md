@@ -1,6 +1,6 @@
 ---
 title: ALX Wallet
-date: 2025-11-26
+date: 2026-10-30
 authors:
 - danny
 website: https://alxwallet.com

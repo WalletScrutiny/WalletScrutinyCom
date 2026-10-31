@@ -1,6 +1,6 @@
 ---
 title: UBS - The easy and secure way buy Cryptocurrency
-date: 2021-09-04
+date: 2026-10-30
 redirect_from:
 - /android/com.gp.ubs/
 android:

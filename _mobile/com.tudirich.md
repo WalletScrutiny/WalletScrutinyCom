@@ -1,6 +1,6 @@
 ---
 title: Tudirich
-date: 2023-08-04
+date: 2026-10-30
 website: https://tudirich.com#deadLink
 redirect_from:
 - /android/com.tudirich/

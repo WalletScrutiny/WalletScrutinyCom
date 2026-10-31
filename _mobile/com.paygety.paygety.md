@@ -1,6 +1,6 @@
 ---
 title: Paygety
-date: 2024-04-03
+date: 2026-10-30
 website: https://paygety.com#deadLink
 redirect_from:
 - /android/com.paygety.paygety/

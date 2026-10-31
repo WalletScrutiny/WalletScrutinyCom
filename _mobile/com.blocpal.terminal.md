@@ -1,6 +1,6 @@
 ---
 title: BlocPal Terminal
-date: 2024-05-07
+date: 2026-10-30
 website: http://www.blocpal.com
 redirect_from:
 - /android/com.blocpal.terminal/

@@ -1,6 +1,6 @@
 ---
 title: Invest Crypto
-date: 2021-09-23
+date: 2026-10-30
 redirect_from:
 - /android/net.advancedbitcoin.invest.crypto/
 android:

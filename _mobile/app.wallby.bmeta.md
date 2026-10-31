@@ -1,6 +1,6 @@
 ---
 title: 'Wallby: BTC, NFT & DeFi wallet'
-date: 2025-11-11
+date: 2026-10-30
 authors:
 - danny
 twitter: wallby_app

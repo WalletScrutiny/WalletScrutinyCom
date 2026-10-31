@@ -1,6 +1,6 @@
 ---
 title: OTPPAY - Merchant Payments
-date: 2023-08-04
+date: 2026-10-30
 website: https://www.otppay.com
 redirect_from:
 - /android/com.idbtec.otppaymerchant/

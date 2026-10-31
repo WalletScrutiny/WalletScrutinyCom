@@ -24,7 +24,7 @@ icon: waltonchain.bamboo.webp
 bugbounty: 
 meta: obsolete
 verdict: vapor
-date: 2022-12-07
+date: 2026-10-30
 signer: 
 twitter: Waltonchain
 social:

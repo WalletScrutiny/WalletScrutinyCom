@@ -1,6 +1,6 @@
 ---
 title: 'Rust: Bitcoin Wallet - BTC'
-date: 2023-06-21
+date: 2026-10-30
 authors:
 - leo
 website: https://altrafinance.io#deadLink

@@ -25,7 +25,7 @@ icon: mirkey.webp
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2021-12-04
+date: 2026-10-30
 signer: 
 twitter: 
 social:

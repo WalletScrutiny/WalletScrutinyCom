@@ -1,6 +1,6 @@
 ---
 title: 'CoinEx Vault: Multi-Sig Wallet'
-date: 2026-01-14
+date: 2026-10-30
 website: https://vault.coinex.com
 appCountry: us
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: 'Coconut Wallet: Bitcoin Wallet'
-date: 2026-09-03
+date: 2026-10-30
 website: https://noncelab.com
 twitter: CoconutWallet
 features:

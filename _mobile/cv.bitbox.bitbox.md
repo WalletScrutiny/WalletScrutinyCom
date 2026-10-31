@@ -1,6 +1,6 @@
 ---
 title: 'Bitbox: BTC NFTs Memes & Meta'
-date: 2024-02-05
+date: 2026-10-30
 website: https://bitbox.vc/
 redirect_from:
 - /android/cv.bitbox.bitbox/

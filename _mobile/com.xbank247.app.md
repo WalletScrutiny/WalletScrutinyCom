@@ -1,6 +1,6 @@
 ---
 title: XBank - Blockchain Bank
-date: 2023-05-03
+date: 2026-10-30
 website: https://www.xbank247.com
 redirect_from:
 - /android/com.xbank247.app/

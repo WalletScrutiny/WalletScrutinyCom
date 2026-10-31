@@ -1,6 +1,6 @@
 ---
 title: Buy Crypto with card
-date: 2023-08-04
+date: 2026-10-30
 website: http://cryptogeek.info
 redirect_from:
 - /android/app.vercel.buy_crypto.twa/

@@ -1,6 +1,6 @@
 ---
 title: DiDimessage-Make New Friends & Play Games
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
 website: https://didimessage.com#deadLink

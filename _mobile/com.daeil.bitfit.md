@@ -1,6 +1,6 @@
 ---
 title: Bitfit - 우리는 다르다! 비트핏 거래소
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/com.daeil.bitfit/
 android:

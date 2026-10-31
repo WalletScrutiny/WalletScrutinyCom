@@ -1,6 +1,6 @@
 ---
 title: Now in Crypto
-date: 2024-04-26
+date: 2026-10-30
 website: https://coinhub8899.web.app
 redirect_from:
 - /android/com.blockchain.nft.explore/

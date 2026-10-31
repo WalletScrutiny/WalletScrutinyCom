@@ -1,6 +1,6 @@
 ---
 title: Jaxx Liberty Bitcoin & Ethereum
-date: 2022-01-15
+date: 2026-10-30
 authors:
 - leo
 redirect_from:

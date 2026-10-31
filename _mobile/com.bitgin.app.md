@@ -1,6 +1,6 @@
 ---
 title: BITGIN
-date: 2024-10-28
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitgin.net/

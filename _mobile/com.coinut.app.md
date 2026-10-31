@@ -1,6 +1,6 @@
 ---
 title: COINUT Digital Assets Wallet
-date: 2025-05-26
+date: 2026-10-30
 authors:
 - danny
 website: https://coinut.com

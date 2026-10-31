@@ -1,6 +1,6 @@
 ---
 title: Nunchuk Bitcoin Wallet
-date: 2023-01-06
+date: 2026-10-30
 authors:
 - leo
 - emanuel

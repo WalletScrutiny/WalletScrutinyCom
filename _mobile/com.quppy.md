@@ -1,6 +1,6 @@
 ---
 title: 'Quppy: Bitcoin Сrypto wallet'
-date: 2020-12-01
+date: 2026-10-30
 authors:
 - leo
 website: https://quppy.com/

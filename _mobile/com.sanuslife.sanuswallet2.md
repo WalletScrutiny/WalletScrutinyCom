@@ -1,6 +1,6 @@
 ---
 title: SANUSWALLET 2.0
-date: 2025-11-05
+date: 2026-10-30
 authors:
 - danny
 website: http://www.sanuslife.com

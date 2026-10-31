@@ -1,6 +1,6 @@
 ---
 title: Gluwa
-date: 2024-12-31
+date: 2026-10-30
 authors:
 - danny
 website: https://www.gluwa.com

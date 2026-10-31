@@ -21,7 +21,7 @@ icon: myceliumcard.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-11
+date: 2026-10-30
 signer: 
 twitter: MyceliumCom
 social: 

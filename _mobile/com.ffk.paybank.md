@@ -1,6 +1,6 @@
 ---
 title: PayBank
-date: 2023-11-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.paybank.com#deadLink

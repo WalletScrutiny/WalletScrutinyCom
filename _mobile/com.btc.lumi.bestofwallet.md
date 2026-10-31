@@ -1,6 +1,6 @@
 ---
 title: Lumi Wallet ,Crypto and Bitcoin Wallet
-date: 2021-06-16
+date: 2026-10-30
 redirect_from:
 - /android/com.btc.lumi.bestofwallet/
 android:

@@ -1,6 +1,6 @@
 ---
 title: HedgerX-Buy Bitcoin & Crypto
-date: 2026-07-21
+date: 2026-10-30
 website: https://www.hedgerx.com
 redirect_from:
 - /android/com.hedgerx.exchange/

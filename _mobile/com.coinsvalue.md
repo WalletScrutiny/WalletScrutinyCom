@@ -1,6 +1,6 @@
 ---
 title: Coinsvlaue
-date: 2023-06-21
+date: 2026-10-30
 website: http://zezo.in
 redirect_from:
 - /android/com.coinsvalue/

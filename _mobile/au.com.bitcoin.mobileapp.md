@@ -1,6 +1,6 @@
 ---
 title: Bitcoin.com.au Buy Bitcoin BTC
-date: 2025-11-11
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitcoin.com.au

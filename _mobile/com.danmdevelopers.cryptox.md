@@ -1,6 +1,6 @@
 ---
 title: Crypto X Capital
-date: 2024-04-19
+date: 2026-10-30
 website: http://www.danmdevelopers.com#deadLink
 redirect_from:
 - /android/com.danmdevelopers.cryptox/

@@ -1,6 +1,6 @@
 ---
 title: Coinways
-date: 2023-01-02
+date: 2026-10-30
 website: https://coinways.io#deadLink
 redirect_from:
 - /android/com.mysurvey/

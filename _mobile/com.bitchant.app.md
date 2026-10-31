@@ -1,6 +1,6 @@
 ---
 title: Bitchant
-date: 2024-04-19
+date: 2026-10-30
 website: https://bitchant.co#deadLink
 redirect_from:
 - /android/com.bitchant.app/

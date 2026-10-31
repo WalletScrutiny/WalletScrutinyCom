@@ -1,6 +1,6 @@
 ---
 title: TRX Mining Guide
-date: 2023-01-02
+date: 2026-10-30
 website: https://mfappsprivacypolicy.blogspot.com/ads.txt
 redirect_from:
 - /android/com.minertronba.aaminingtrone/

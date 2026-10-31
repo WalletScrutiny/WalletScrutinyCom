@@ -1,6 +1,6 @@
 ---
 title: Coinsuper
-date: 2022-01-31
+date: 2026-10-30
 authors:
 - danny
 website: https://www.coinsuper.com/

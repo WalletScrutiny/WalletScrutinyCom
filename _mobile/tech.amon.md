@@ -1,6 +1,6 @@
 ---
 title: Amon
-date: 2024-08-17
+date: 2026-10-30
 authors:
 - danny
 website: https://web.archive.org/web/20231006065722/https://amon.tech/

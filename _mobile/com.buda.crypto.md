@@ -1,6 +1,6 @@
 ---
 title: Buda.com
-date: 2022-01-07
+date: 2026-10-30
 authors:
 - leo
 website: https://buda.com

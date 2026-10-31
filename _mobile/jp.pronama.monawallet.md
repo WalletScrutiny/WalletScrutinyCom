@@ -1,6 +1,6 @@
 ---
 title: MonaWallet
-date: 2021-08-17
+date: 2026-10-30
 website: https://monawallet.net
 appCountry: us
 redirect_from:

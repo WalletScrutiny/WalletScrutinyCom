@@ -1,6 +1,6 @@
 ---
 title: Paradise
-date: 2025-03-14
+date: 2026-10-30
 redirect_from:
 - /android/com.paradise.finance/
 android:

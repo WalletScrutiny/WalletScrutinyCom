@@ -1,6 +1,6 @@
 ---
 title: 'Backpack: Trade, Invest & Earn'
-date: 2026-07-21
+date: 2026-10-30
 authors:
 - danny
 website: https://backpack.app

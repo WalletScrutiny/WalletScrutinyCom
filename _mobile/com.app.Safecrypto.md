@@ -1,6 +1,6 @@
 ---
 title: Safecrypto wallet
-date: 2023-08-18
+date: 2026-10-30
 authors:
 - danny
 website: https://safecryptwallet.com#deadLink

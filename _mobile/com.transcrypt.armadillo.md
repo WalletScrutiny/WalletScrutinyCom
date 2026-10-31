@@ -1,6 +1,6 @@
 ---
 title: Tizer Wallet
-date: 2023-04-16
+date: 2026-10-30
 authors:
 - danny
 website: https://tizer.io#deadLink

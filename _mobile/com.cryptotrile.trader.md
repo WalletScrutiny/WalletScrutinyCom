@@ -1,6 +1,6 @@
 ---
 title: Cryptotrile
-date: 2024-07-05
+date: 2026-10-30
 website: https://cryptotrile.com#deadLink
 redirect_from:
 - /android/com.cryptotrile.trader/

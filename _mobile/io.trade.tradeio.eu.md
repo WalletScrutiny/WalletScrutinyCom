@@ -1,6 +1,6 @@
 ---
 title: trade.io - Smarter crypto trad
-date: 2023-05-05
+date: 2026-10-30
 authors:
 - danny
 website: http://trade.io#deadLink

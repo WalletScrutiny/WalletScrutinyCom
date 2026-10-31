@@ -1,6 +1,6 @@
 ---
 title: 'OSL HK: Buy Bitcoin & Crypto'
-date: 2025-02-28
+date: 2026-10-30
 authors:
 - danny
 website: https://osl.com

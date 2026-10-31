@@ -1,6 +1,6 @@
 ---
 title: 'Vision: Bitcoin Crypto Wallet'
-date: 2024-07-17
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo

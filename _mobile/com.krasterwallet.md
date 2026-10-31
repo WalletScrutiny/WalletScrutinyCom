@@ -1,6 +1,6 @@
 ---
 title: Kraster Wallet
-date: 2026-09-15
+date: 2026-10-30
 website: https://krasterwallet.com
 redirect_from:
 - /android/com.krasterwallet/

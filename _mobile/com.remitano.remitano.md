@@ -1,6 +1,6 @@
 ---
 title: 'Remitano: Buy & Sell Crypto'
-date: 2020-05-29
+date: 2026-10-30
 authors:
 - leo
 website: https://remitano.com

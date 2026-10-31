@@ -1,6 +1,6 @@
 ---
 title: Rock Wallet - Buy, Send & Rece
-date: 2024-04-03
+date: 2026-10-30
 website: https://web.archive.org/web/20240714160607/https://rockwallet.co.za/
 redirect_from:
 - /android/za.co.rockwallet/

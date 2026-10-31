@@ -1,6 +1,6 @@
 ---
 title: Kairos Exchange
-date: 2024-11-04
+date: 2026-10-30
 redirect_from:
 - /android/io.kisco.app.android/
 android:

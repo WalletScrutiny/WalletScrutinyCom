@@ -1,6 +1,6 @@
 ---
 title: 'Simple:  Сrypto BTC, USDC'
-date: 2023-06-13
+date: 2026-10-30
 authors:
 - danny
 website: https://simple.app/

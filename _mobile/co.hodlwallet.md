@@ -1,6 +1,6 @@
 ---
 title: 'HODL Wallet : Bitcoin Wallet'
-date: 2024-05-07
+date: 2026-10-30
 authors:
 - leo
 - danny

@@ -1,6 +1,6 @@
 ---
 title: Coin2World - BTC OTC Exchanger - ETH USDT EOS LTC
-date: 2021-10-22
+date: 2026-10-30
 redirect_from:
 - /android/com.ok.coin/
 android:

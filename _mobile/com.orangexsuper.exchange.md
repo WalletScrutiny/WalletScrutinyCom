@@ -1,6 +1,6 @@
 ---
 title: 'OrangeX: Buy Bitcoin & Crypto'
-date: 2026-01-23
+date: 2026-10-30
 authors:
 - danny
 website: https://www.orangex.com/

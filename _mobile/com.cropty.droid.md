@@ -1,6 +1,6 @@
 ---
 title: Crypto wallet – Bitcoin & USDT
-date: 2023-07-30
+date: 2026-10-30
 authors:
 - danny
 website: https://www.cropty.io/

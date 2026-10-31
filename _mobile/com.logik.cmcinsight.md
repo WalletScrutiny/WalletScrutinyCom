@@ -1,6 +1,6 @@
 ---
 title: CMC Insight
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/com.logik.cmcinsight/
 android:

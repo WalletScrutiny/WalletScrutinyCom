@@ -1,6 +1,6 @@
 ---
 title: COINVEST INVESTMENTS
-date: 2023-05-09
+date: 2026-10-30
 authors:
 - danny
 redirect_from:

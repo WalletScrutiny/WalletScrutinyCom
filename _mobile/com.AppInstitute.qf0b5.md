@@ -1,6 +1,6 @@
 ---
 title: 'Blockscart: Wallet - Exchange '
-date: 2024-04-03
+date: 2026-10-30
 website: https://blockscart.eu#deadLink
 redirect_from:
 - /android/com.AppInstitute.qf0b5/

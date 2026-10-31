@@ -1,6 +1,6 @@
 ---
 title: ZAKZAK Wallet
-date: 2024-02-05
+date: 2026-10-30
 website: https://web.archive.org/web/20250330224629/http://zakzak.me/
 redirect_from:
 - /android/me.zakzak.zakzakwallet/

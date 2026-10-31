@@ -1,6 +1,6 @@
 ---
 title: صرافی غیرمتمرکز تهران اکسچنج
-date: 2024-08-17
+date: 2026-10-30
 website: http://tehran.exchange
 redirect_from:
 - /android/com.tehranExchangeGroup.tehran_exchange/

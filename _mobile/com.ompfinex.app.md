@@ -1,6 +1,6 @@
 ---
 title: ompfinex (او ام پی فینکس)
-date: 2024-10-03
+date: 2026-10-30
 authors:
 - danny
 website: https://ompfinex.com

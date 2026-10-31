@@ -1,6 +1,6 @@
 ---
 title: DIVER Wallet
-date: 2026-02-20
+date: 2026-10-30
 redirect_from:
 - /android/com.hyerdesign.diver.wallet/
 android:

@@ -1,6 +1,6 @@
 ---
 title: ILC / BTC Wallet
-date: 2025-09-03
+date: 2026-10-30
 authors:
 - leo
 website: https://www.ilcoincrypto.com/

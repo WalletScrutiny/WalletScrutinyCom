@@ -1,6 +1,6 @@
 ---
 title: 'TIGR: Copy trading on Binance'
-date: 2024-03-02
+date: 2026-10-30
 website: https://web.archive.org/web/20250411071812/https://copy.tiger.trade/
 redirect_from:
 - /android/trade.tiger.copytrading/

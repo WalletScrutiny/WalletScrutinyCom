@@ -1,6 +1,6 @@
 ---
 title: Обменник Биткоин кошелёк
-date: 2021-10-26
+date: 2026-10-30
 authors:
 - danny
 redirect_from:

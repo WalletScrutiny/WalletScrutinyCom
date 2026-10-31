@@ -1,6 +1,6 @@
 ---
 title: Digicoins
-date: 2023-10-16
+date: 2026-10-30
 redirect_from:
 - /android/com.exchange.digicoins.cc/
 android:

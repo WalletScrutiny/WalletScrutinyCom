@@ -1,6 +1,6 @@
 ---
 title: Exodus Bitcoin & Ethereum- Crypto Exchange
-date: 2021-08-08
+date: 2026-10-30
 authors:
 - emanuel
 - leo

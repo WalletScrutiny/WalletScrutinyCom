@@ -1,6 +1,6 @@
 ---
 title: 'bitcastle: Buy & Trade Crypto'
-date: 2023-07-10
+date: 2026-10-30
 authors:
 - danny
 website: https://bitcastle.io/

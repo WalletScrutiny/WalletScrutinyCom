@@ -16,7 +16,7 @@ icon: openbazaar.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-date: 2025-04-07
+date: 2026-10-30
 twitter: openbazaar
 social: 
 builds: 

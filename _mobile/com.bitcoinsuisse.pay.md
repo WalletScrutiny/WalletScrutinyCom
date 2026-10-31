@@ -1,6 +1,6 @@
 ---
 title: WL Crypto Payments
-date: 2025-05-26
+date: 2026-10-30
 website: https://www.bitcoinsuisse.com/
 redirect_from:
 - /android/com.bitcoinsuisse.pay/

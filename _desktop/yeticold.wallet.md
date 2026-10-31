@@ -16,7 +16,7 @@ icon: yeticold.wallet.webp
 bugbounty: 
 meta: stale
 verdict: sourceavailable
-date: 2026-10-14
+date: 2026-10-30
 twitter: YetiWallet
 social: 
 builds: 

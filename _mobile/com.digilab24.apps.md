@@ -1,6 +1,6 @@
 ---
 title: CPASS
-date: 2023-09-28
+date: 2026-10-30
 authors:
 - danny
 website: https://cpass.exchange#deadLink

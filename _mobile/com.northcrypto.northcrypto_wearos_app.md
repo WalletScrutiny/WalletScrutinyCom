@@ -1,6 +1,6 @@
 ---
 title: Northcrypto WearOs
-date: 2023-01-02
+date: 2026-10-30
 website: https://www.northcrypto.com
 redirect_from:
 - /android/com.northcrypto.northcrypto_wearos_app/

@@ -16,7 +16,7 @@ icon: nixbitcoin.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-09-14
+date: 2026-10-30
 twitter: nixbitcoinorg
 social: 
 builds: 

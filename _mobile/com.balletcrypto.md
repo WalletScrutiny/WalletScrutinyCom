@@ -1,6 +1,6 @@
 ---
 title: Ballet Crypto
-date: 2021-03-11
+date: 2026-10-30
 website: https://www.ballet.com/
 twitter: BalletCrypto
 social:

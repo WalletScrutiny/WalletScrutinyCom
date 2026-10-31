@@ -1,6 +1,6 @@
 ---
 title: 'RedotPay: Crypto Card & Pay'
-date: 2026-01-23
+date: 2026-10-30
 authors:
 - danny
 website: https://www.redotpay.com

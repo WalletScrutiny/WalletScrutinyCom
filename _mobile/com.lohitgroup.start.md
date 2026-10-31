@@ -1,6 +1,6 @@
 ---
 title: Lohit Group
-date: 2023-05-30
+date: 2026-10-30
 authors:
 - danny
 website: http://lohitgroup.com#deadLink

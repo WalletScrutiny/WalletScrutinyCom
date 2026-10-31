@@ -1,6 +1,6 @@
 ---
 title: RenrenBit
-date: 2021-03-04
+date: 2026-10-30
 authors:
 - leo
 redirect_from:

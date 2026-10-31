@@ -1,6 +1,6 @@
 ---
 title: 'VXW : VXXL wallet'
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/org.vxxl.wallet/
 android:

@@ -24,7 +24,7 @@ icon: bying.k1.webp
 bugbounty: 
 meta: defunct
 verdict: vapor
-date: 2024-10-18
+date: 2026-10-30
 signer: 
 twitter: Bying_official
 social:

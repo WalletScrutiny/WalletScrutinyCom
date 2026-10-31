@@ -1,6 +1,6 @@
 ---
 title: 'Portals : Crypto Wallet Genera'
-date: 2026-02-02
+date: 2026-10-30
 authors:
 - leo
 website: https://portals.nz

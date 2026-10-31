@@ -1,6 +1,6 @@
 ---
 title: FINTOKEN :Web3 & Crypto Wallet
-date: 2026-05-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.fintoken.pro/

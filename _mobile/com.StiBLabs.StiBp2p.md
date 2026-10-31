@@ -1,6 +1,6 @@
 ---
 title: StiB P2P - Bitcoin Ethereum De
-date: 2023-04-20
+date: 2026-10-30
 authors:
 - danny
 website: http://stib.co#deadLink

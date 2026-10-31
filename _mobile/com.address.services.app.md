@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Address Services
-date: 2026-01-14
+date: 2026-10-30
 website: https://address.services
 redirect_from:
 - /android/com.address.services.app/

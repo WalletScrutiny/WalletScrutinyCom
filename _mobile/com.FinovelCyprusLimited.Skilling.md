@@ -1,6 +1,6 @@
 ---
 title: Skilling - Forex Trading App
-date: 2025-10-02
+date: 2026-10-30
 authors:
 - danny
 website: https://skilling.com/

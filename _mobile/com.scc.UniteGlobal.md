@@ -1,6 +1,6 @@
 ---
 title: UniteGlobal
-date: 2025-05-14
+date: 2026-10-30
 redirect_from:
 - /android/com.scc.UniteGlobal/
 android:

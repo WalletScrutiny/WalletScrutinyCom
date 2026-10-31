@@ -1,6 +1,6 @@
 ---
 title: ProfitTradingApp For Bybit
-date: 2023-04-29
+date: 2026-10-30
 authors:
 - danny
 website: https://profittradingapp.com?utm_source=bybit_gp

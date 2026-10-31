@@ -1,6 +1,6 @@
 ---
 title: 'EukaPay: Accept crypto get CAD'
-date: 2025-07-30
+date: 2026-10-30
 website: https://eukapay.com
 redirect_from:
 - /android/com.eukapay.pos_app/

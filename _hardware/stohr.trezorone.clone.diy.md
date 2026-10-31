@@ -21,7 +21,7 @@ icon: stohr.trezorone.clone.diy.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2026-02-27
+date: 2026-10-30
 signer: 
 twitter: _superhero1
 social: 

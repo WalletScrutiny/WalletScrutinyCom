@@ -1,6 +1,6 @@
 ---
 title: Bitrue - Buy XRP, BTC & Crypto
-date: 2020-11-17
+date: 2026-10-30
 authors:
 - leo
 website: https://www.bitrue.com/

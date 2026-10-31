@@ -1,6 +1,6 @@
 ---
 title: Hi:Easy-to-Use Crypto Neobank
-date: 2025-03-17
+date: 2026-10-30
 authors:
 - danny
 website: https://hi.com/

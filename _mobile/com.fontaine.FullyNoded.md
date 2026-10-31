@@ -1,6 +1,6 @@
 ---
 title: Fully Noded
-date: 2023-11-17
+date: 2026-10-30
 authors:
 - danny
 website: https://fullynoded.app

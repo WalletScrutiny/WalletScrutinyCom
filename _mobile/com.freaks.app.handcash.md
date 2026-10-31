@@ -1,6 +1,6 @@
 ---
 title: HandCash - Bitcoin SV Wallet (BETA)
-date: 2019-12-25
+date: 2026-10-30
 website: https://handcash.io
 twitter: handcashapp
 redirect_from:

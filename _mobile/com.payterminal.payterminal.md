@@ -1,6 +1,6 @@
 ---
 title: Payterminal
-date: 2024-07-05
+date: 2026-10-30
 website: https://payterminal.ng#deadLink
 redirect_from:
 - /android/com.payterminal.payterminal/

@@ -1,6 +1,6 @@
 ---
 title: Bitay | Bitcoin & 200+ Altcoin
-date: 2023-01-30
+date: 2026-10-30
 authors:
 - danny
 website: https://bitay.com.tr

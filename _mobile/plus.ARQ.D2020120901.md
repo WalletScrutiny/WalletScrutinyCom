@@ -1,6 +1,6 @@
 ---
 title: ARQuantify (ARQ) 加密数字资产/数字货币交易所量化交易工具
-date: 2023-01-02
+date: 2026-10-30
 website: https://www.arq.link#deadLink
 redirect_from:
 - /android/plus.ARQ.D2020120901/

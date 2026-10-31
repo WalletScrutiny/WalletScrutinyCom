@@ -1,6 +1,6 @@
 ---
 title: 'India: Crypto Exchange App'
-date: 2026-01-08
+date: 2026-10-30
 redirect_from:
 - /android/com.hrghazali.indiacryptoexchangeapp/
 android:

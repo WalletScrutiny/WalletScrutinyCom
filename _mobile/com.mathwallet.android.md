@@ -1,6 +1,6 @@
 ---
 title: MathWallet
-date: 2024-01-05
+date: 2026-10-30
 authors:
 - danny
 website: https://www.mathwallet.org/

@@ -1,6 +1,6 @@
 ---
 title: 비트포스지갑 (bitpos wallet)
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/com.hustay.swing.d8e4ae18f7a3d4b1d8efe100e44c01aa9/
 android:

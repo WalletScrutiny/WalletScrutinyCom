@@ -1,6 +1,6 @@
 ---
 title: 'PayFrequent Wallet: PayFQ, PUSD, PEUR, PINR, TOMO'
-date: 2023-01-02
+date: 2026-10-30
 website: https://web.payfrequent.com#deadLink
 redirect_from:
 - /android/com.payfrequent/

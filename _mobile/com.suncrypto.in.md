@@ -1,6 +1,6 @@
 ---
 title: 'Suncrypto: Best Crypto App'
-date: 2021-09-11
+date: 2026-10-30
 website: https://suncrypto.in
 twitter: suncryptoin
 redirect_from:

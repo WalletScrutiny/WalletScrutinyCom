@@ -1,6 +1,6 @@
 ---
 title: BCM Holdings
-date: 2024-04-03
+date: 2026-10-30
 website: https://www.bcmholdings.io#deadLink
 redirect_from:
 - /android/com.bcm.bcm_alpha_app/

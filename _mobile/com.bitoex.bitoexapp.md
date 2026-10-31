@@ -1,6 +1,6 @@
 ---
 title: BitoEX幣託-虛擬通貨錢包
-date: 2023-09-15
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitoex.com/?locale=en

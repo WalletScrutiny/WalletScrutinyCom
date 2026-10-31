@@ -1,6 +1,6 @@
 ---
 title: Pro Bitcoin Mining 2021 - BTC WALLET
-date: 2021-11-10
+date: 2026-10-30
 redirect_from:
 - /android/com.cloudminingespapp.espapp/
 android:

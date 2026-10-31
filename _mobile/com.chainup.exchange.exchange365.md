@@ -1,6 +1,6 @@
 ---
 title: 365 EX - 加密貨幣買賣交易及投資理財首選交易所
-date: 2024-04-03
+date: 2026-10-30
 website: http://www.365excoin.com#deadLink
 redirect_from:
 - /android/com.chainup.exchange.exchange365/

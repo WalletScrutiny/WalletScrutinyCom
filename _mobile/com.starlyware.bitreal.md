@@ -1,6 +1,6 @@
 ---
 title: 'Bitreal: Play and Get Bitcoin & Bitcoin Cash'
-date: 2021-10-11
+date: 2026-10-30
 redirect_from:
 - /android/com.starlyware.bitreal/
 android:

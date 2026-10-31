@@ -1,6 +1,6 @@
 ---
 title: 'Switchere: Buy & Sell Crypto'
-date: 2025-08-04
+date: 2026-10-30
 authors:
 - danny
 website: https://switchere.com/

@@ -1,6 +1,6 @@
 ---
 title: Smart Investing Blockchain Technology
-date: 2021-10-06
+date: 2026-10-30
 redirect_from:
 - /android/org.vmining.bitcoininvestingblockchaintechnology/
 android:

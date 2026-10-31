@@ -1,6 +1,6 @@
 ---
 title: Byt - A Simple Bitcoin Wallet
-date: 2024-07-14
+date: 2026-10-30
 website: https://renasnce.com
 redirect_from:
 - /android/com.renasnce.byt/

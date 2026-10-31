@@ -1,6 +1,6 @@
 ---
 title: Coinpal
-date: 2022-02-10
+date: 2026-10-30
 authors:
 - kiwilamb
 website: https://coinpal.me/

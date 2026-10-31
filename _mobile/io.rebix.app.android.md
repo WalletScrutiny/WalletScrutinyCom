@@ -1,6 +1,6 @@
 ---
 title: 'Rebix: Buy & Sell Crypto'
-date: 2023-06-21
+date: 2026-10-30
 website: https://rebix.io#deadLink
 redirect_from:
 - /android/io.rebix.app.android/

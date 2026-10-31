@@ -1,6 +1,6 @@
 ---
 title: Gin Wallet
-date: 2021-08-04
+date: 2026-10-30
 website: https://gincoin.co#deadLink
 twitter: GinBlockchain
 social:

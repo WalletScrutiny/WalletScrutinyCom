@@ -1,6 +1,6 @@
 ---
 title: NiceHash
-date: 2022-06-24
+date: 2026-10-30
 authors:
 - danny
 website: https://www.nicehash.com/my/

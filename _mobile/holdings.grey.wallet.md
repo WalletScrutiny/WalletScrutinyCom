@@ -1,6 +1,6 @@
 ---
 title: 'Grey Wallet: BTC, ETH & crypto'
-date: 2026-09-14
+date: 2026-10-30
 website: https://grey.holdings/en
 iphone:
   appId: holdings.grey.wallet

@@ -1,6 +1,6 @@
 ---
 title: Ariomex
-date: 2024-11-07
+date: 2026-10-30
 website: https://ariomex.com
 redirect_from:
 - /android/com.ariomex.app/

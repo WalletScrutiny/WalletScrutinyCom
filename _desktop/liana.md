@@ -16,7 +16,7 @@ icon: liana.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-11-07
+date: 2026-10-30
 twitter: Wizardsardine
 social:
 - https://discord.com/invite/mfu7TFbVFY

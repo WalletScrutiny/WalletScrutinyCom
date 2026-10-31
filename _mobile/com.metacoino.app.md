@@ -1,6 +1,6 @@
 ---
 title: 'Coinoverse: Buy Bitcoin & ETH'
-date: 2026-04-28
+date: 2026-10-30
 website: https://coinoverse.com
 redirect_from:
 - /android/com.metacoino.app/

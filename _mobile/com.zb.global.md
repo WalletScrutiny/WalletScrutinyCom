@@ -1,6 +1,6 @@
 ---
 title: 'ZB Pro: Buy BTC, ETH, Luna&GMT'
-date: 2023-04-13
+date: 2026-10-30
 authors:
 - danny
 website: https://www.zb.com#deadLink
