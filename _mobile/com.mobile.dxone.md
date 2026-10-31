@@ -1,7 +1,7 @@
 ---
 title: DXONE Buy your favorite crypto
-date: 2024-04-19
-website: https://www.dxone.com/
+date: 2026-10-30
+website: https://www.dxone.com/#deadLink
 redirect_from:
 - /android/com.mobile.dxone/
 android:

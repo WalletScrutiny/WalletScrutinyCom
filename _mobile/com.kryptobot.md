@@ -1,6 +1,6 @@
 ---
 title: KryptoBot
-date: 2024-04-19
+date: 2026-10-30
 website: https://kryptobot.net
 redirect_from:
 - /android/com.kryptobot/

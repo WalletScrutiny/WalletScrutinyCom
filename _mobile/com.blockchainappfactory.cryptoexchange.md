@@ -1,6 +1,6 @@
 ---
 title: 'BAF: Multicurrency Wallet & Ex'
-date: 2024-04-19
+date: 2026-10-30
 website: https://www.blockchainappfactory.com/
 redirect_from:
 - /android/com.blockchainappfactory.cryptoexchange/

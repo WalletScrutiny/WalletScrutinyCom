@@ -1,7 +1,7 @@
 ---
 title: GLOBALCTB
-date: 2024-04-19
-website: http://globalctb.com/
+date: 2026-10-30
+website: http://globalctb.com/#deadLink
 redirect_from:
 - /android/com.globalctb/
 android:

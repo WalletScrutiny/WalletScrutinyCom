@@ -1,6 +1,6 @@
 ---
 title: BCCL
-date: 2024-04-19
+date: 2026-10-30
 website: https://www.botcoinloan.blissinfosys.com#deadLink
 redirect_from:
 - /android/com.info.bccl/

@@ -1,7 +1,7 @@
 ---
 title: Eagle Robo
-date: 2024-04-19
-website: http://eaglerobo.com
+date: 2026-10-30
+website: http://eaglerobo.com#deadLink
 redirect_from:
 - /android/com.eaglerobo.android/
 android:

@@ -1,6 +1,6 @@
 ---
 title: 'BLW: Bitcoin and Lightning Wal'
-date: 2024-04-19
+date: 2026-10-30
 authors:
 - leo
 website: http://lightning-wallet.com

@@ -1,7 +1,7 @@
 ---
 title: Coinxplus
-date: 2024-04-19
-website: https://coinxplus.io/
+date: 2026-10-30
+website: https://coinxplus.io/#deadLink
 redirect_from:
 - /android/com.coinxplus/
 android:

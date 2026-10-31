@@ -1,7 +1,7 @@
 ---
 title: 'KryptoX: Buy and Sell Crypto'
-date: 2024-04-19
-website: https://www.kryptox.com
+date: 2026-10-30
+website: https://www.kryptox.com#deadLink
 redirect_from:
 - /android/com.kryptox.app/
 android:

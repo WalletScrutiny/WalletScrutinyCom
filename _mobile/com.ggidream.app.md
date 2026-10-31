@@ -1,6 +1,6 @@
 ---
 title: GOLDENGLORY
-date: 2024-04-19
+date: 2026-10-30
 website: https://www.ggidream.com#deadLink
 redirect_from:
 - /android/com.ggidream.app/
