@@ -1,6 +1,6 @@
 ---
 title: BankInMind — BIM Wallet
-date: 2024-04-03
+date: 2026-10-30
 website: https://bankinmind.com#deadLink
 redirect_from:
 - /android/com.bankinmind/

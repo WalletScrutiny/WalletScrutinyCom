@@ -1,6 +1,6 @@
 ---
 title: newealth
-date: 2024-04-03
+date: 2026-10-30
 website: https://newealth.app#deadLink
 redirect_from:
 - /android/app.newealth/

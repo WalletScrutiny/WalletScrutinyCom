@@ -1,6 +1,6 @@
 ---
 title: Bitfinix Cryptocurrency Wallet
-date: 2024-04-03
+date: 2026-10-30
 website: http://bitfinix.tech#deadLink
 redirect_from:
 - /android/com.bit.finx/

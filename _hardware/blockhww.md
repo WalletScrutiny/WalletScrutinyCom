@@ -16,7 +16,7 @@ weight: 65
 provider: Block
 providerWebsite: https://block.xyz/
 website: https://bitkey.world
-shop: https://bitkey.world/en-US/products/bitkey
+shop: https://bitkey.world/product
 country: US
 price: 150USD
 repository: https://github.com/proto-at-block/bitkey
@@ -24,7 +24,7 @@ icon: blockhww.webp
 bugbounty: https://support.bitkey.world/hc/en-us/articles/19812055576852-How-do-I-report-potential-security-issues
 meta: ok
 verdict: noita
-date: 2024-03-14
+date: 2026-10-30
 signer: 
 twitter: Bitkeyofficial
 social:
@@ -50,9 +50,9 @@ This product has a companion app: {% include walletLink.html wallet='android/wor
 
 ## Description 
 
-The Bitkey hardware device is made from [corian and stainless steel](https://bitkey.world/en-US/products/bitkey). Its security features include key handling, biometric authentication, 2 of 3 multisignature transactions, cloud backups and social recovery mechanisms. 
+The Bitkey hardware device is made from [corian and stainless steel](https://web.archive.org/web/20240313170905/https://bitkey.world/en-US/products/bitkey). Its security features include key handling, biometric authentication, 2 of 3 multisignature transactions, cloud backups and social recovery mechanisms. 
 
-Owners of the Bitkey can invite trusted contacts to assist in the recovery of their keys in the event of phone and device loss. Rather than using the seed phrase recovery model by itself, Bitkey utilizes social recovery. NFC technology is meant to ensure that transaction authentication would always involve the presence of two devices, or two private keys. The third key is [held by Square](https://bitkey.world/en-US/how-it-works) in their servers.
+Owners of the Bitkey can invite trusted contacts to assist in the recovery of their keys in the event of phone and device loss. Rather than using the seed phrase recovery model by itself, Bitkey utilizes social recovery. NFC technology is meant to ensure that transaction authentication would always involve the presence of two devices, or two private keys. The third key is [held by Square](https://web.archive.org/web/20240413011441/https://bitkey.world/en-US/how-it-works) in their servers.
 
 ### BitKey's approach to self-custody
 

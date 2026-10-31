@@ -1,6 +1,6 @@
 ---
 title: Airsoft Demo
-date: 2024-04-03
+date: 2026-10-30
 website: https://www.10fxpro.com#deadLink
 redirect_from:
 - /android/com.cfdv2.demo/

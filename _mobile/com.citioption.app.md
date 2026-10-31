@@ -1,7 +1,7 @@
 ---
 title: Citioption Alpha
-date: 2024-04-03
-website: https://citioption.com/
+date: 2026-10-30
+website: https://citioption.com/#deadLink
 redirect_from:
 - /android/com.citioption.app/
 android:

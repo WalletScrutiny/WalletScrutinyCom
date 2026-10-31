@@ -1,6 +1,6 @@
 ---
 title: subterfuge
-date: 2024-03-02
+date: 2026-10-30
 website: https://github.com/ethicnology/subterfuge
 redirect_from:
 - /android/org.ethicnology.subterfuge/

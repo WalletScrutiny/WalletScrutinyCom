@@ -1,7 +1,7 @@
 ---
 title: bobmint
-date: 2024-04-03
-website: https://bobmint.com
+date: 2026-10-30
+website: https://bobmint.com#deadLink
 redirect_from:
 - /android/com.clic.bobmint/
 android:

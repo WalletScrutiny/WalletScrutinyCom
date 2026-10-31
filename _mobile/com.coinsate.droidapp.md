@@ -1,6 +1,6 @@
 ---
 title: Coinsate
-date: 2024-04-03
+date: 2026-10-30
 website: https://trade.coinsate.com#deadLink
 redirect_from:
 - /android/com.coinsate.droidapp/

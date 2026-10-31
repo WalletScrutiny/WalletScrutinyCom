@@ -1,7 +1,7 @@
 ---
 title: Vista Money
-date: 2024-04-03
-website: https://wallet.vistamoney.cc
+date: 2026-10-30
+website: https://wallet.vistamoney.cc#deadLink
 redirect_from:
 - /android/app.vistamoney.mobilewallet/
 android:

@@ -1,6 +1,6 @@
 ---
 title: Vervet - Social Value
-date: 2024-04-03
+date: 2026-10-30
 website: https://www.vervetsystems.com#deadLink
 redirect_from:
 - /android/com.danny709.vervet/

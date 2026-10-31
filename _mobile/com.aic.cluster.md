@@ -1,7 +1,7 @@
 ---
 title: 'Cluster - Send, Save, Receive '
-date: 2024-04-03
-website: https://clusterwallet.com
+date: 2026-10-30
+website: https://clusterwallet.com#deadLink
 redirect_from:
 - /android/com.aic.cluster/
 android:

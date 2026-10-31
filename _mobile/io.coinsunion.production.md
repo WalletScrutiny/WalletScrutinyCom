@@ -1,6 +1,6 @@
 ---
 title: Coins Union
-date: 2024-03-02
+date: 2026-10-30
 redirect_from:
 - /android/io.coinsunion.production/
 android:

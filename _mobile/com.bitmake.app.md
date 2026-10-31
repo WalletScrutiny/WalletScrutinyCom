@@ -1,6 +1,6 @@
 ---
 title: BitMake:trade Crypto,Bitcoin
-date: 2024-04-03
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitmake.com#deadLink
@@ -26,6 +26,10 @@ android:
   developerName: BITMAKE TECHNOLOGY LLC
 
 ---
+
+**⚠️ Warning:** BitMake shut down on March 10, 2024.
+
+**Update 2026-10-30:** BitMake [announced on February 26, 2024](https://web.archive.org/web/20240619224626/https://help.bitmake.com/hc/en-us/articles/9103511783567-BitMake-Closure-Announcement) that it would cease all operations on March 10, 2024, and asked users to withdraw their assets by then. The app is gone from Google Play and the website no longer loads.
 
 ## App Description from Google Play
 

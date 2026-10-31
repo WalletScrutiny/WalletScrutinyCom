@@ -1,6 +1,6 @@
 ---
 title: Delio - Global Crypto Finance
-date: 2024-04-03
+date: 2026-10-30
 authors:
 - danny
 website: https://www.delio.foundation#deadLink
@@ -37,6 +37,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** Delio is gone. It [froze customer withdrawals in June 2023](https://crypto.news/south-korea-jails-delio-ceo-for-15-years-over-49m-crypto-fraud/) and a Seoul court [declared it bankrupt](https://cointelegraph.com/news/delio-bankruptcy-south-korea-ftx-impact) in November 2024, owing customers about $1.75 billion. In August 2026 its CEO was sentenced to 15 years in prison for defrauding customers. Its websites no longer load.
+
 ## Android
 
 ## App Description
@@ -57,9 +59,9 @@ We also tried using Google's search parameter, but did not find links from delio
 >
 > site: https://delio.foundation#deadLink "play.google"
 
-As described above, Delio.Foundation does link to @delio.io on Facebook. The Facebook page links to [Delio.io](https://delio.io). Delio.io links to the Google Play and ios apps.
+As described above, Delio.Foundation does link to @delio.io on Facebook. The Facebook page links to [Delio.io](https://delio.io#deadLink). Delio.io links to the Google Play and ios apps.
 
-The [terms of use can be found here.](https://delio.io/terms)
+The [terms of use can be found here.](https://web.archive.org/web/20231209081953/https://delio.io/terms)
 
 ## The App
 
@@ -69,7 +71,7 @@ It is possible to log-in via a Bithumb account.
 
 ## More Details
 
-[**Delio signs cryptocurrency custody contract with Ledger**](https://www.delio.io/investmentInfo/detail?id=280&p=0)
+[**Delio signs cryptocurrency custody contract with Ledger**](https://web.archive.org/web/20240304140736/https://delio.io/investmentInfo/detail?id=280&p=0)
 
 > In addition, Delio has completed stronger security by adding its own 'wallet owner authentication and direct withdrawal' function to the wallet.
 >
