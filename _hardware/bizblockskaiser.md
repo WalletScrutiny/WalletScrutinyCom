@@ -22,9 +22,9 @@ price:
 repository: 
 icon: bizblockskaiser.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2023-01-20
+date: 2026-10-30
 signer: 
 twitter: bizblocks7
 social:
@@ -33,6 +33,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** The Kaiser card never shipped, and Bizblocks is gone. The website was still up [in March 2023](https://web.archive.org/web/20230326083932/http://bizblocks.io/), but now sends visitors to unrelated shopping and gambling sites.
 
 ## Updated Verdict 2023-01-20
 

@@ -19,9 +19,9 @@ price: 70USD
 repository: 
 icon: evercoin.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: noita
-date: 2022-04-29
+date: 2026-10-30
 signer: 
 twitter: evercoin
 social: 
@@ -29,6 +29,10 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Evercoin appears to be gone. Its website is offline and its app is no longer in either app store.
+
+**Update 2026-10-30:** We now mark this product defunct. evercoin.com no longer responds, its [last archived copy is from July 2022](https://web.archive.org/web/20220706223758/https://www.evercoin.com/), and the companion app {% include walletLink.html wallet='android/com.evercoin' verdict='true' %} is gone from Google Play and the App Store. The YubiKey 5Ci itself is still sold by Yubico, but without the Evercoin app it holds no wallet.
 
 ## Background Information
 

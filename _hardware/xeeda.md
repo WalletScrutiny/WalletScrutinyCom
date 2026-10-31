@@ -22,9 +22,9 @@ price:
 repository: 
 icon: xeeda.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2022-04-11
+date: 2026-10-30
 signer: 
 twitter: xeedaofficial
 social:
@@ -34,6 +34,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Xeeda appears to be gone. On 2026-10-30 xeeda.io showed an unrelated football streaming site; the [last archived copy of the Xeeda website is from August 2023](https://web.archive.org/web/20230811160230/https://xeeda.io/).
 
 This hardware wallet was featured in [Forbes.com on May 18, 2018](https://www.forbes.com/sites/andrewrossow/2018/05/18/plugging-in-with-the-first-cold-wallet-device-for-your-smartphone/?sh=1bbfb5c97a28)
 

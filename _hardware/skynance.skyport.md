@@ -19,9 +19,9 @@ price:
 repository: 
 icon: skynance.skyport.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2024-10-23
+date: 2026-10-30
 signer: 
 twitter: skynanceworld
 social:
@@ -30,6 +30,10 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Skynance is gone. Its website no longer loads and its [X account](https://x.com/skynanceworld) has not posted since October 2021.
+
+**Update 2026-10-30:** The SkyPort wallet never shipped and the provider is gone, so we mark it defunct.
 
 ## Update 2024-10-23
 

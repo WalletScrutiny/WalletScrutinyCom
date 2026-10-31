@@ -5,7 +5,7 @@ authors:
 - kiwilamb
 - danny
 released: 
-discontinued: 
+discontinued: 2026-10-30
 updated: 
 version: 
 binaries: 
@@ -20,9 +20,9 @@ price: 599USD
 repository: 
 icon: corazon.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: nosource
-date: 2022-11-26
+date: 2026-10-30
 signer: 
 twitter: graysingapore
 social:
@@ -32,6 +32,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** The Corazon is no longer for sale. Every model in GRAY's [Corazon collection](https://gray.inc/collections/corazon-wallet), from the [aluminium](https://gray.inc/products/corazon-space-gray-crypto-hardware-wallet) to the [titanium](https://gray.inc/products/corazon-titanium) version, is marked sold out. It runs Trezor Model T firmware, so a device you already own still works.
 
 ## Updated Review 2022-11-26
 

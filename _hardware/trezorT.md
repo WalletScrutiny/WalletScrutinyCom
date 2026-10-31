@@ -6,7 +6,7 @@ authors:
 - Mohammad
 - danny
 released: 2018-03-01
-discontinued: 
+discontinued: 2026-01-08
 updated: 2026-09-15
 version: 2.12.5
 binaries: https://github.com/trezor/webwallet-data/tree/master/firmware/2
@@ -18,15 +18,15 @@ weight: 22
 provider: 
 providerWebsite: 
 website: https://trezor.io
-shop: https://shop.trezor.io/product/trezor-model-t
+shop: https://trezor.io/trezor-model-t
 country: CZ
 price: 159EUR
 repository: https://github.com/trezor/trezor-firmware
 icon: trezorT.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: sourceavailable
-date: 2025-09-11
+date: 2026-10-30
 signer: 
 twitter: trezor
 social:
@@ -46,6 +46,8 @@ features:
 - segwit
 
 ---
+
+**Update 2026-10-30:** Trezor stopped selling the Model T in its shop on January 8, 2026, and [the product page](https://trezor.io/trezor-model-t) now says "Discontinued" and points buyers to the {% include walletLink.html wallet='hardware/trezorSafe5' verdict='true' %}. Devices already sold keep working: Trezor [promises](https://trezor.io/other/product-updates/how-long-will-trezor-model-one-and-model-t-be-supported) feature updates until at least 2031 and critical security fixes until at least 2036.
 
 *Legacy verification [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/4161cc3ff1bce108b0a640df94af315fd435145e/_hardware/trezorT.md)*
 

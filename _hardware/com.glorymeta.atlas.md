@@ -19,9 +19,9 @@ price:
 repository: 
 icon: com.glorymeta.atlas.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2023-06-22
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -29,6 +29,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Glory Meta Industries looks gone and the Atlas never shipped. Its [site](https://web.archive.org/web/20231214162844/https://www.glorymetaindustries.com/) no longer loads.
 
 This device was only mentioned in a [2022 tweet](https://twitter.com/PopovichDmitrij/status/1563307379386912771)
 

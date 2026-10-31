@@ -1,6 +1,6 @@
 ---
 title: Magic Eden Wallet
-date: 2025-12-05
+date: 2026-10-30
 authors:
 - danny
 website: https://help.magiceden.io/en/
@@ -23,7 +23,7 @@ android:
   version: 3.3.1
   reviews: 125
   icon: com.magiceden.wallet.webp
-  meta: ok
+  meta: defunct
   verdict: nosource
   developerName: MagicEden
 iphone:
@@ -35,11 +35,13 @@ iphone:
   version: 3.3.1
   reviews: 1962
   icon: com.magiceden.wallet.webp
-  meta: ok
+  meta: defunct
   verdict: nosource
   developerName: Magic Eden
 
 ---
+
+**⚠️ Warning:** Magic Eden discontinued this wallet. Its [deprecation notice](https://web.archive.org/web/20260622131747/https://help.magiceden.io/en/articles/13885539-magic-eden-wallet-deprecation-overview) (2026-03-16) ended support on 2026-04-01, left installed apps only for exporting private keys, and planned a full shutdown of the wallet services for 2026-05-01. Users who still hold funds here should export their keys into another wallet.
 
 ## Android
 

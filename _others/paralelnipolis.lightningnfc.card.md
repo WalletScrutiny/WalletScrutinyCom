@@ -4,20 +4,24 @@ appId: paralelnipolis.lightningnfc.card
 authors:
 - danny
 icon: paralelnipolis.lightningnfc.card.webp
-date: 2023-04-28
-website: https://www.paralelnipolis.cz/en/wallet/
+date: 2026-10-30
+website: https://www.paralelnipolis.cz/en/wallet/#deadLink
 social:
 - https://www.facebook.com/vejdiven/
 provider: Paralelní Polis
 country: CZ
-meta: ok
+meta: defunct
 verdict: wip
 
 ---
 
+**⚠️ Warning:** Paralelní Polis is gone. The card can no longer be used: its wallet server is offline.
+
+**Update 2026-10-30:** The card is only a pointer to a wallet hosted by Paralelní Polis at wallet.paralelnipolis.cz, which was last archived in [December 2024](https://web.archive.org/web/20241204194027/https://wallet.paralelnipolis.cz/) and no longer loads, together with the whole paralelnipolis.cz site. Paralelní Polis stopped running its Prague space in autumn 2024, and its successor Second Culture [closed for good on 2026-03-02](https://kryptomagazin.cz/en/paralelni-polis-end-forever-2026/) ([Atlas21](https://atlas21.com/prague-paralelni-polis-hub-closes-permanently/)).
+
 ## Updated Review 2023-04-27
 
-### [How it Works](https://www.paralelnipolis.cz/en/wallet/)
+### [How it Works](https://web.archive.org/web/20250320050041/https://paralelnipolis.cz/en/wallet/)
 
 > You can find 3 different QR codes on your card. Two codes on the front (white) side are used for payments – sending and receiving. Content of these is also on your NFC badge which you can use to interact with ATMs and payment terminals.
 >

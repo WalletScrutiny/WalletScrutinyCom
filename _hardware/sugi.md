@@ -15,17 +15,17 @@ dimensions:
 - 1
 weight: 
 provider: Sugi
-providerWebsite: https://sugi.io
-website: https://sugi.io
-shop: https://sugi.io/#pricing
+providerWebsite: https://web.archive.org/web/20241203135332/https://sugi.io/
+website: https://web.archive.org/web/20241203135332/https://sugi.io/
+shop: https://sugi.io/#deadLink
 country: BE
 price: 59.9EUR
 repository: 
 icon: sugi.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: noita
-date: 2022-11-03
+date: 2026-10-30
 signer: 
 twitter: SugiCard
 social:
@@ -35,6 +35,10 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Sugi (Sofitto NV) appears to be gone. Its website now belongs to an unrelated spam site, and the apps the card works with are no longer available.
+
+**Update 2026-10-30:** We now mark this card defunct. The card needs a phone app, and the [Sugi website](https://web.archive.org/web/20241113000508/https://sugi.io/pages/wallets) named only two: {% include walletLink.html wallet='android/com.sofitto.sugi' verdict='true' %} and {% include walletLink.html wallet='android/io.infinito.wallet' verdict='true' %}. Both are gone from the app stores. The sugi.io domain was taken over by mid-2025; the [last archived copy of the Sugi site is from December 2024](https://web.archive.org/web/20241203135332/https://sugi.io/).
 
 ## Updated 2022-11-03
 

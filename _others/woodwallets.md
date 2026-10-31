@@ -4,18 +4,23 @@ appId: woodwallets
 authors:
 - danny
 icon: woodwallets.webp
-date: 2022-05-19
+date: 2026-10-30
 twitter: woodwallets
 provider: Woodwallets
-providerWebsite: https://woodwallets.io/
-shop: https://woodwallets.io/cart/
+providerWebsite: https://web.archive.org/web/20260119023153/https://woodwallets.io/
+shop: https://web.archive.org/web/20240227132215/https://woodwallets.io/cart/
 country: US
 price: 19USD
-meta: ok
+meta: discontinued
+discontinued: 2015-03-11
 verdict: prefilled
 social: 
 
 ---
+
+**⚠️ Warning:** Woodwallets is gone. Its website now leads to an unrelated trading platform.
+
+**Update 2026-10-30:** We now mark Woodwallets discontinued, as of its [goodbye post](https://web.archive.org/web/20150311030128/http://woodwallets.io:80/goodbye-woodwallets/), archived in March 2015. Wallets already made keep working, as the encrypted key is engraved on the card. Since 2026 the woodwallets.io domain leads to an unrelated trading site; the [last archived Woodwallets page is from January 2026](https://web.archive.org/web/20260119023153/https://woodwallets.io/).
 
 ## Background
 
@@ -25,7 +30,7 @@ social:
 >
 > Woodwallets is available in three versions : public address only, private key only, and double side. 
 
-Although the site is still online, the administrator had [this to say](https://woodwallets.io/goodbye-woodwallets/): 
+Although the site is still online, the administrator had [this to say](https://web.archive.org/web/20150311030128/http://woodwallets.io:80/goodbye-woodwallets/): 
 
 > TL DR; Life got in the way and  we will not able to work on Woodwallets.io with the same level of passion and dedication we used to. Instead of just running it like a boring online shop, we decided to suspend operations. If you happen to know someone who can be interested in picking up the business and run it with passion, Bitcoin accepted.
 

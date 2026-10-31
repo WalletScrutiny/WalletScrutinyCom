@@ -19,9 +19,9 @@ price: 6USD
 repository: 
 icon: crptsecure.card.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: prefilled
-date: 2022-04-27
+date: 2026-10-30
 signer: 
 twitter: crptsecure
 social:
@@ -29,6 +29,8 @@ social:
 features: 
 
 ---
+
+**⚠️ Warning:** CRPT Secure appears to be gone. Its website crptsecure.com no longer loads (the [last archived capture](https://web.archive.org/web/20240221130411/https://www.crptsecure.com/) from February 2024 shows only a login page), and its Android app is no longer on Google Play.
 
 ## Product/Service Description 
 

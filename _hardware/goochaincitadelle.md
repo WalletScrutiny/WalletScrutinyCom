@@ -19,9 +19,9 @@ price: 12€
 repository: 
 icon: goochaincitadelle.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2022-04-11
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -29,6 +29,10 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Goochain is gone, and the Citadelle never shipped.
+
+**Update 2026-10-30:** [goochain.net](https://goochain.net/#deadLink) now hosts an unrelated blog full of casino ads (seen in an [August 2025 archive copy](https://web.archive.org/web/20250820185053/https://goochain.net/)).
 
 Goochain's website is no longer available. It would appear that this service has been in existence prior to offering its Citadelle hardware wallet with the same name. Goochain was presented in October 2, 2014 as the "[Google for Bitcoin](https://bitcointalk.org/index.php?topic=808066.0)" or some sort of blockchain explorer. It made an [announcement](https://twitter.com/Goochain/status/659016578802044928) about its Citadelle hardware wallet through twitter on October 27, 2015. Further information about the wallet was discussed via a French version of [an archived page of newsbtc](https://web.archive.org/web/20171229135231/http://fr.newsbtc.com:80/presentation-du-hardware-wallet-citadelle/).
 

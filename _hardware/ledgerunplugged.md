@@ -4,7 +4,7 @@ appId: ledgerunplugged
 authors:
 - kiwilamb
 released: 
-discontinued: 
+discontinued: 2017-01-29
 updated: 
 version: 
 binaries: 
@@ -19,9 +19,9 @@ price:
 repository: 
 icon: ledgerunplugged.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: noita
-date: 2021-08-01
+date: 2026-10-30
 signer: 
 twitter: Ledger
 social:
@@ -35,7 +35,7 @@ features:
 
 ---
 
-The [provider's website has a clear statement](https://support.ledger.com/hc/en-us/articles/360010500620-Discontinued-products?docs=true) that this wallet is discontinued and we considered it defunct.
+The [provider's website has a clear statement](https://support.ledger.com/hc/en-us/articles/360010500620-Discontinued-products?docs=true) that this wallet is discontinued and we consider it discontinued.
 
 As can be seen in [this video](https://www.youtube.com/watch?v=mZhbLtPlU5I), the
 device had no screen, so transactions cannot be verified with it, defeating the

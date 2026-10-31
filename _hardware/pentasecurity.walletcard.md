@@ -4,7 +4,7 @@ appId: pentasecurity.walletcard
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2020-08-06
 updated: 
 version: 
 binaries: 
@@ -19,9 +19,9 @@ price:
 repository: 
 icon: pentasecurity.walletcard.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: noita
-date: 2022-04-04
+date: 2026-10-30
 signer: 
 twitter: pentasecsystems
 social:
@@ -34,6 +34,8 @@ features:
 - secEl
 
 ---
+
+**Update 2026-10-30:** Penta Security no longer offers this card: its [PALLET product page](https://web.archive.org/web/20191206115146/https://www.pentasecurity.com/product/pallet/) is gone and the site menu has no blockchain products, so we mark the card discontinued.
 
 ## Product Description
 

@@ -5,7 +5,7 @@ authors:
 - kiwilamb
 - leo
 released: 
-discontinued: 
+discontinued: 2017-05-31
 updated: 
 version: 
 binaries: 
@@ -20,9 +20,9 @@ price:
 repository: 
 icon: ledgerhw1.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: noita
-date: 2022-01-22
+date: 2026-10-30
 signer: 
 twitter: Ledger
 social:
@@ -37,6 +37,6 @@ features:
 ---
 
 The [provider's website has a clear statement](https://support.ledger.com/hc/en-us/articles/360010500620-Discontinued-products?docs=true)
-that this wallet is discontinued and we considered it defunct. Other than that,
+that this wallet is discontinued and we consider it discontinued. Other than that,
 it lacked a screen, so the user had no way of knowing what transaction he
 approved.

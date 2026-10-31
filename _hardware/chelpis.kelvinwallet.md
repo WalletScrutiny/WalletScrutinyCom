@@ -4,7 +4,7 @@ appId: chelpis.kelvinwallet
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2026-10-30
 updated: 
 version: 
 binaries: 
@@ -22,9 +22,9 @@ price: 3000TWD
 repository: 
 icon: chelpis.kelvinwallet.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: nosource
-date: 2022-11-25
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -33,6 +33,8 @@ features:
 - secEl
 
 ---
+
+**Update 2026-10-30:** The Kelvin Wallet is no longer sold. Its website and shop are gone (the [last archived copy](https://web.archive.org/web/20250714084324/https://www.kelvinwallet.com/) is from July 2025), and the [Chelpis website](https://www.chelpis.com/) now only offers post-quantum security services for businesses, with no mention of the wallet.
 
 ## Updated Review 2022-11-25
 

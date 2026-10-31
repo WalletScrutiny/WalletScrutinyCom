@@ -4,7 +4,7 @@ appId: trustblock
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2023-02-05
 updated: 
 version: 
 binaries: 
@@ -22,9 +22,9 @@ price: 599USD
 repository: 
 icon: trustblock.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: prefilled
-date: 2024-01-15
+date: 2026-10-30
 signer: 
 twitter: TrustBlock_Ltd
 social:
@@ -35,6 +35,8 @@ social:
 features: 
 
 ---
+
+**Update 2026-10-30:** The Trustblock kit can no longer be bought. Both finishes on the [shop page](https://www.trustblock.io/product/buy) show "Out of stock", as they already did in [February 2023](https://web.archive.org/web/20230205202454/https://www.trustblock.io/product/buy). The engraved seed works with any standard wallet, so we mark it as discontinued.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7d7ugUkvFb4?si=KTsO6p1s4355UxqG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

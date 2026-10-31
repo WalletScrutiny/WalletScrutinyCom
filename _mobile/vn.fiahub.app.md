@@ -1,6 +1,6 @@
 ---
 title: Fiahub - Mua bán Bitcoin, USDT
-date: 2022-07-13
+date: 2026-10-30
 authors:
 - danny
 website: http://www.fiahub.com
@@ -20,7 +20,7 @@ android:
   updated: 2025-08-25
   version: 2.20.5
   icon: vn.fiahub.app.webp
-  meta: stale
+  meta: defunct
   verdict: custodial
   developerName: DIGITEX PTE LTD
 iphone:
@@ -36,6 +36,8 @@ iphone:
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** Fiahub [stopped operating](https://www.fiahub.com/letter) in Vietnam on 2026-07-31. It says it will come back once the law allows it; support is by email only.
 
 ## Android
 

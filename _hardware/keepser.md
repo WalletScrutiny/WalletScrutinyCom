@@ -4,7 +4,7 @@ appId: keepser
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2024-12-08
 updated: 
 version: 
 binaries: 
@@ -15,16 +15,16 @@ dimensions:
 weight: 
 provider: Keepser Group
 providerWebsite: 
-website: https://www.keepser.com/
-shop: https://www.keepser.com/shop
+website: https://freemindtronic.com/keepser/
+shop: https://web.archive.org/web/20241011142245/https://www.keepser.com/shop
 country: AD
 price: 149EUR
 repository: 
 icon: keepser.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: plainkey
-date: 2023-12-14
+date: 2026-10-30
 signer: 
 twitter: keepser
 social:
@@ -39,12 +39,14 @@ features:
 
 ---
 
+**Update 2026-10-30:** The Keepser card is no longer sold. By December 2024 the Keepser shop was gone and keepser.com showed only a [placeholder page](https://web.archive.org/web/20241208002449/https://www.keepser.com/); it now leads to a [Keepser page](https://freemindtronic.com/keepser/) of its technology maker Freemindtronic, whose shop does not list the card. The companion app is gone from Google Play, but Freemindtronic still offers it for [direct download](https://freemindtronic.com/support/download/), so existing cards can still be used.
+
 - It works with a companion app {% include walletLink.html wallet='android/com.KeepserGroup.Keepser' verdict='true' %}
 - The app is geo-restricted, and requires NFC capability.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8NUle2y6w3A?si=GorfesfovQ3EzZRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-- [User Manual - PDF](https://www.keepser.com/pub/media/wysiwyg/manuals/Keepser-Cold-Wallet-User-Manual-EN.pdf)
+- [User Manual - PDF](https://web.archive.org/web/20241104045449/https://www.keepser.com/pub/media/wysiwyg/manuals/Keepser-Cold-Wallet-User-Manual-EN.pdf)
 
 ## Updated Review 2023-12-14
 
@@ -64,7 +66,7 @@ and,
 
 > Store, manage, share and exchange your cryptocurrencies with just a tap (Only Pro and Pro+ models)
 
-We sent them a query via their website's [contact form](https://www.keepser.com/contact/index/), but for the meanwhile, mark this as **not a wallet**: 
+We sent them a query via their website's [contact form](https://www.keepser.com/contact/index/#deadLink), but for the meanwhile, mark this as **not a wallet**: 
 
 > Hello, 
 >

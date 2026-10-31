@@ -5,7 +5,7 @@ authors:
 - kiwilamb
 - danny
 released: 2018-04-01
-discontinued: 
+discontinued: 2021-04-19
 updated: 
 version: 
 binaries: 
@@ -16,16 +16,16 @@ dimensions:
 weight: 
 provider: ECOMI Technologies PTE
 providerWebsite: https://www.ecomi.com/
-website: https://securewallet.shop/
-shop: https://securewallet.shop/products/secure-wallet
+website: https://securewallet.shop/#deadLink
+shop: https://securewallet.shop/products/secure-wallet#deadLink
 country: SG
 price: 199USD
 repository: 
 icon: securewallet.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: plainkey
-date: 2021-12-08
+date: 2026-10-30
 signer: 
 twitter: ecomi_
 social:
@@ -35,6 +35,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** The Secure Wallet is no longer sold, so we mark it discontinued. Its shop domain [securewallet.shop](https://securewallet.shop/#deadLink) now shows a domain-parking page, and the [ECOMI homepage](https://www.ecomi.com/) no longer mentions the hardware wallet.
 
 **NOTE:** Secure Wallet is temporarily sold out.
 
@@ -56,7 +58,7 @@ Here's another [third-party video review](https://youtu.be/fdUjZPOfyTw?t=267) de
 
 ## Private keys are not shared - ❓
 
-ECOMI [claims](https://securewallet.shop/pages/wallet-features) that the Secure Wallet itself never connects directly to the internet.
+ECOMI [claims](https://securewallet.shop/pages/wallet-features#deadLink) that the Secure Wallet itself never connects directly to the internet.
 
 > Unlike app or web-based wallets, the Secure Wallet is a piece of physical hardware that is never connected directly to the Internet. Instead, the Secure Wallet wirelessy connects through a paired Android or Apple device.
 >

@@ -5,7 +5,7 @@ authors:
 - danny
 - mohammad
 released: 2020-12-08
-discontinued: 
+discontinued: 2024-03-28
 updated: 2021-10-16
 version: 3.10.0
 binaries: 
@@ -14,15 +14,15 @@ weight:
 provider: Bixin
 providerWebsite: 
 website: https://onekey.so/
-shop: https://shop.onekey.so/products/onekey-mini-hardware-wallet?variant=41169098178722
+shop: https://web.archive.org/web/20230128165918/https://shop.onekey.so/products/onekey-mini-hardware-wallet
 country: SG
 price: 48USD
 repository: https://github.com/OneKeyHQ/firmware
 icon: onekeymini.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: sourceavailable
-date: 2025-05-16
+date: 2026-10-30
 signer: 
 twitter: onekeyhq
 social:
@@ -33,6 +33,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** OneKey no longer sells the Mini. Its product page showed it as [sold out at least since March 2024](https://web.archive.org/web/20240328031308/https://onekey.so/products/onekey-mini-hardware-wallet) and now just leads to the [OneKey homepage](https://onekey.so/), which offers only newer devices. A Mini you already own keeps working, as it uses a standard recovery phrase.
 
 **Update 2023-07-12**: We followed the steps that provider sent to us and ran a script which is based on their
 [Github actions](https://github.com/OneKeyHQ/firmware/blob/touch/.github/workflows/build-mini.yml).

@@ -5,7 +5,7 @@ bitcoinOrgId: ledgernanos
 authors:
 - leo
 released: 
-discontinued: 
+discontinued: 2022-09-16
 updated: 
 version: 
 binaries: 
@@ -17,15 +17,15 @@ weight: 16.2
 provider: 
 providerWebsite: 
 website: https://www.ledger.com/
-shop: https://shop.ledger.com/products/ledger-nano-s
+shop: https://web.archive.org/web/20220808202636/https://shop.ledger.com/products/ledger-nano-s
 country: FR
 price: 45999CLP
 repository: https://github.com/LedgerHQ/app-bitcoin
 icon: ledgerNanoS.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: nosource
-date: 2024-12-08
+date: 2026-10-30
 signer: 
 twitter: Ledger
 social:
@@ -39,6 +39,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** Ledger stopped selling the Nano S in 2022; since at least September 2022 its shop page leads to the {% include walletLink.html wallet='hardware/ledger.nano.splus' verdict='true' %} ([Wayback](https://web.archive.org/web/20220916213919/https://shop.ledger.com/products/ledger-nano-s)). In mid 2025 Ledger also ended software updates and new apps for the Nano S, but existing devices still work ([Blockworks](https://blockworks.com/news/ledger-nano-s-support-ending), [Ledger](https://x.com/Ledger/status/1947301117571784847)).
 
 **Update 2024-12-08:** Ledger has not changed their take on source availability.
 

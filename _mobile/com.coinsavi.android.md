@@ -1,6 +1,6 @@
 ---
 title: 'CoinSavi: Buy Bitcoin & Crypto'
-date: 2025-11-13
+date: 2026-10-30
 authors:
 - danny
 website: https://coinsavi.com
@@ -17,7 +17,7 @@ android:
   version: 0.70.8
   reviews: 39
   icon: com.coinsavi.android.webp
-  meta: ok
+  meta: defunct
   verdict: custodial
   developerName: Coin Savi
 iphone:
@@ -34,6 +34,8 @@ iphone:
   developerName: SAVILABS PTE. LTD.
 
 ---
+
+**⚠️ Warning:** CoinSavi has shut down. Its [closure notice](https://coinsavi.com/announcement/) closed all orders on 2026-09-23 and ended all services on 2026-09-26; users had to withdraw before then. The iPhone app is gone from the App Store.
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: Bananatok - Web 3 Messenger
-date: 2022-06-27
+date: 2026-10-30
 authors:
 - danny
 website: http://www.bananatok.com
@@ -33,11 +33,13 @@ iphone:
   version: 5.0.4
   reviews: 265
   icon: com.xiangjiao.tg.webp
-  meta: defunct
+  meta: removed
   verdict: custodial
   developerName: Zoo Holdings Limited
 
 ---
+
+**⚠️ Warning:** Bananatok looks gone. Its website no longer loads, and the app is no longer in Google Play or the App Store.
 
 ## Android
 

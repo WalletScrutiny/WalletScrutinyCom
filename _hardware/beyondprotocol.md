@@ -11,17 +11,17 @@ binaries:
 dimensions: 
 weight: 
 provider: Beyond Protocol, Inc.
-providerWebsite: https://beyond.link/
-website: https://beyond.link/beyond-protocol-wallet.html
-shop: https://beyond.link/preorder.html
+providerWebsite: https://beyond.link/#deadLink
+website: https://web.archive.org/web/20240422002310/https://beyond.link/beyond-protocol-wallet.html
+shop: https://beyond.link/preorder.html#deadLink
 country: US
 price: 
 repository: 
 icon: beyondprotocol.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2024-10-18
+date: 2026-10-30
 signer: 
 twitter: beyondprotocol1
 social:
@@ -35,6 +35,10 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Beyond Protocol appears to be gone. Its website no longer loads, and there is no sign the wallet ever shipped.
+
+**Update 2026-10-30:** The wallet never shipped and the provider is gone, so we mark it defunct.
 
 ## Update 2024-10-18
 
@@ -60,7 +64,7 @@ From [Bitcointalk:](https://bitcointalk.org/index.php?topic=5331942.0)
 
 ## Background 
 
-The [Beyond Protocol Hardware Wallet](https://beyond.link/beyond-protocol-wallet.html)
+The [Beyond Protocol Hardware Wallet](https://web.archive.org/web/20240422002310/https://beyond.link/beyond-protocol-wallet.html)
 
 > The Beyond Protocol Wallet enables autonomous blockchain transactions for the next generation of mobility solutions and beyond, through secure and simple wireless identity, authentication, and payments. Turn on the new, secure form of wireless machine-to-machine communication. The future starts here.
 

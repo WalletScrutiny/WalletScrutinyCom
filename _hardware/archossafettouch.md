@@ -5,7 +5,7 @@ authors:
 - kiwilamb
 - leo
 released: 2019-03-31
-discontinued: 
+discontinued: 2024-07-19
 updated: 2019-12-18
 version: 1.2.5
 binaries: 
@@ -13,16 +13,16 @@ dimensions:
 weight: 
 provider: Archos
 providerWebsite: https://www.archos.com/
-website: https://www.archos.com/nz/products/crypto/archos_safettouch/index.html#deadLink
+website: https://web.archive.org/web/20190917194820/https://www.archos.com/gb/products/crypto/archos_safettouch/index.html
 shop: https://web.archive.org/web/20210830194711/https://shop.archos.com/gb/hardware-wallets/719-archos-safe-t-touch-0690590037359.html
 country: FR
 price: 129.99EUR
 repository: 
 icon: archossafettouch.webp
 bugbounty: 
-meta: obsolete
+meta: discontinued
 verdict: nosource
-date: 2024-12-08
+date: 2026-10-30
 signer: 
 twitter: ARCHOS
 social:
@@ -32,6 +32,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** The Safe-T Touch is no longer sold. Its Archos shop page is gone [at least since July 2024](https://web.archive.org/web/20240719233851/https://shop.archos.com/us/hardware-wallet/719-archos-safe-t-touch-0690590037359.html), and the companion app it needs to reach the internet over Bluetooth is no longer in Google Play.
 
 **Update 2024-12-08:** The shop doesn't show the product anymore. The Twitter account
 is inactive ever since. This product is at the very least obsolete.
@@ -50,7 +52,7 @@ verifiable review:
 
 This companion app was last updated 2019-12-18, almost two years ago as of now.
 
-The firmware [is available as download](https://www.archos.com/nz/products/crypto/archos_safettouch/index.html#deadLink):
+The firmware [is available as download](https://web.archive.org/web/20190917194820/https://www.archos.com/gb/products/crypto/archos_safettouch/index.html):
 
 > Download firmware v1.2.5 for your ARCHOS SafeT touch (Windows compatible only) 
 

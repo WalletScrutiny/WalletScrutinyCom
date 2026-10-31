@@ -22,9 +22,9 @@ price:
 repository: 
 icon: itbxwallet.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2022-04-11
+date: 2026-10-30
 signer: 
 twitter: ITBiometrics
 social:
@@ -33,6 +33,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** ITBiometrics appears to be gone. On 2026-10-30 itbiometrics.com no longer served a page; the [last archived copy is from August 2024](https://web.archive.org/web/20240825220345/https://itbiometrics.com/).
 
 The company ITBiometrics™ was founded on March 3, 2018 in Los Angeles, California. Announcements of their ITBX Fingerprint bitcoin wallet was first made on October 11, 2018 via [Businesswire](https://www.businesswire.com/news/home/20181011005838/en/ITBiometrics%E2%84%A2-Brings-the-Latest-Innovation-in-Crypto-Wallet-Security-to-Money2020), a Berkshire Hathaway company. 
 

@@ -4,7 +4,7 @@ appId: blackbird
 authors:
 - danny
 released: 2018-05-11
-discontinued: 
+discontinued: 2019-09-09
 updated: 
 version: 
 binaries: 
@@ -12,16 +12,16 @@ dimensions:
 weight: 
 provider: AmmbrTech, Inc.
 providerWebsite: 
-website: https://blackbirdwallet.io/
+website: https://web.archive.org/web/20190331080727/https://blackbirdwallet.io/
 shop: 
 country: LU
 price: 
 repository: 
 icon: blackbird.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: nosource
-date: 2022-04-04
+date: 2026-10-30
 signer: 
 twitter: blackbirdwallet
 social:

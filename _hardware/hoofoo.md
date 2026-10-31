@@ -12,16 +12,16 @@ dimensions:
 weight: 
 provider: HooFoo Inc
 providerWebsite: https://web.archive.org/web/20221212183201/https://hoofoo.io/
-website: https://hoofoo.io/products/hoofoo-hardware-wallet?variant=13765070225526
-shop: https://hoofoo.io/products/hoofoo-hardware-wallet?variant=13765070225526
+website: https://hoofoo.io/products/hoofoo-hardware-wallet?variant=13765070225526#deadLink
+shop: https://hoofoo.io/products/hoofoo-hardware-wallet?variant=13765070225526#deadLink
 country: US
 price: 289USD
 repository: 
 icon: hoofoo.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2024-10-21
+date: 2026-10-30
 signer: 
 twitter: hoofoowallet
 social: 
@@ -29,6 +29,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** HooFoo never shipped the wallet and the company is gone: its website no longer loads ([last archived version, December 2022](https://web.archive.org/web/20221212183201/https://hoofoo.io/)). We now mark it **defunct**.
 
 ## Updated Review 2024-10-21
 

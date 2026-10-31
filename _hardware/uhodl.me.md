@@ -12,16 +12,16 @@ dimensions:
 weight: 
 provider: Artem Krotov
 providerWebsite: 
-website: https://uhodl.me/
+website: https://web.archive.org/web/20250323182928/https://uhodl.me/
 shop: 
 country: CH
 price: 219 USD
 repository: 
 icon: uhodl.me.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2023-03-08
+date: 2026-10-30
 signer: 
 twitter: uhodl
 social:
@@ -33,7 +33,9 @@ features:
 
 ---
 
-## Product Description from [Website](https://uhodl.me/)
+**⚠️ Warning:** U-Hodl is gone and the device never shipped. Until at least March 2025 the [website](https://web.archive.org/web/20250323182928/https://uhodl.me/) still only offered launch updates and pre-orders; the uhodl.me address now shows an unrelated gambling site.
+
+## Product Description from [Website](https://web.archive.org/web/20250323182928/https://uhodl.me/)
 
 > ### Tightly packed with security systems and cutting-edge technologies
 > 

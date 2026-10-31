@@ -9,7 +9,7 @@ authors:
 - danny
 - keraliss
 released: 2022-03-10
-discontinued: 
+discontinued: 2026-03-26
 updated: 2025-12-12
 version: 2.3.11
 binaries: https://github.com/Foundation-Devices/passport2/releases
@@ -21,15 +21,15 @@ weight: 128
 provider: 
 providerWebsite: 
 website: https://foundationdevices.com/
-shop: https://foundationdevices.com/passport/
+shop: https://web.archive.org/web/20240303060808/https://foundationdevices.com/passport/
 country: US
 price: 199USD
 repository: https://github.com/Foundation-Devices/passport2
 icon: passportb2.webp
 bugbounty: https://foundationdevices.com/security/
-meta: ok
+meta: discontinued
 verdict: sourceavailable
-date: 2025-08-08
+date: 2026-10-30
 signer: 
 twitter: FOUNDATIONdvcs
 social:
@@ -52,6 +52,8 @@ features:
 - secEl
 
 ---
+
+**Update 2026-10-30:** Foundation no longer sells this Passport, now called Passport Core. Its [March 26, 2026 announcement](https://foundation.xyz/blog/from-qr-air-gapping-to-quantumlink-what-comes-next) says it is "no longer for sale" but stays fully supported, and the [FAQ](https://docs.foundation.xyz/faq/home/) promises continued firmware updates. The successor is the {% include walletLink.html wallet='hardware/passportprime' verdict='true' %}.
 
 ## Background 
 

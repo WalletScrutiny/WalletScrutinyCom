@@ -5,7 +5,7 @@ authors:
 - kiwilamb
 - danny
 released: 
-discontinued: 
+discontinued: 2023-12-06
 updated: 
 version: 
 binaries: 
@@ -14,15 +14,15 @@ weight:
 provider: ELLIPAL Limited
 providerWebsite: https://www.ellipal.com
 website: https://www.ellipal.com/pages/coldwallet
-shop: https://www.ellipal.com/products/ellipal-titan
+shop: https://web.archive.org/web/20230929134709/https://www.ellipal.com/products/ellipal-titan
 country: HK
 price: 139USD
 repository: 
 icon: ellipaltitan.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: nosource
-date: 2025-03-19
+date: 2026-10-30
 signer: 
 twitter: ellipalwallet
 social:
@@ -35,6 +35,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** The original ELLIPAL Titan is no longer sold. Its shop page has offered the [ELLIPAL Titan 2.0](https://www.ellipal.com/products/ellipal-titan) instead since at least [December 2023](https://web.archive.org/web/20231206201623/https://www.ellipal.com/products/ellipal-titan); the [last archived page for the original](https://web.archive.org/web/20230929134709/https://www.ellipal.com/products/ellipal-titan) is from September 2023. Existing devices still work with the ELLIPAL app.
 
 Ellipal claims to go beyond being a hardware wallet. It describes itself as an "Air-gapped cold storage hardware wallet" with no possibility of connecting to the Internet at all. It is also described as having anti-tampering and anti-disassembly features. The makers claim that the "chip will delete every data when it detects a breach". 
 

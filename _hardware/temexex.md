@@ -4,7 +4,7 @@ appId: temexex
 authors:
 - kiwilamb
 released: 
-discontinued: 
+discontinued: 2020-08-14
 updated: 
 version: 
 binaries: 
@@ -22,9 +22,9 @@ price:
 repository: 
 icon: temexex.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: wip
-date: 2021-08-01
+date: 2026-10-30
 signer: 
 twitter: 
 social:
@@ -34,4 +34,6 @@ features:
 
 ---
 
-The [provider's website](https://temexe.com/) is inaccessible and we considered it defunct.
+**Update 2026-10-30:** temexe.com [was offered for sale in December 2021](https://web.archive.org/web/20211226234041/http://temexe.com/) and today hosts an unrelated Portuguese fitness site.
+
+The [provider's website](https://temexe.com/) is inaccessible and we consider it discontinued.

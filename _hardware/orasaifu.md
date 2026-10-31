@@ -14,7 +14,7 @@ dimensions:
 - 4.5
 weight: 65
 provider: OraSaifu Inc.
-providerWebsite: https://orasaifu.io
+providerWebsite: https://orasaifu.io#deadLink
 website: 
 shop: 
 country: 
@@ -22,9 +22,9 @@ price:
 repository: 
 icon: orasaifu.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2022-04-11
+date: 2026-10-30
 signer: 
 twitter: OrasaifuWallet
 social:
@@ -34,13 +34,15 @@ features:
 
 ---
 
+**⚠️ Warning:** OraSaifu appears to be gone. On 2026-10-30 orasaifu.io redirected to an unrelated site.
+
 The now unavailable IndieGogo page for this product stated:
 
 > "OraSaifu: First All In One Smart Wallet" is under review. It is not accepting contributions.
 
 [Here](https://web.archive.org/web/20190117180758/https://www.indiegogo.com/projects/orasaifu-first-all-in-one-smart-wallet#/) is a link to an archived version of its page.
 
-[Orasaifu.io](https://www.orasaifu.io/) is also down.
+Orasaifu.io is also down.
 
 A [Reddit post from April 2019](https://www.reddit.com/r/Bitcoin/comments/bh6u0k/indiegogo_project_refunded_their_backers_in/) stated that OraSaifu was planning on refunding their backers with BTC as the project had failed.
 
