@@ -1,9 +1,9 @@
 ---
 title: GWallet
-date: 2025-02-26
+date: 2026-10-30
 authors:
 - danny
-website: https://gwallet.tech/
+website: https://web.archive.org/web/20251006021632/https://gwallet.tech/
 appCountry: be
 redirect_from:
 - /android/gwallet.tech/
@@ -33,6 +33,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** GWallet appears to be gone. Its website no longer loads; the [last archived copy of the GWallet site](https://web.archive.org/web/20251006021632/https://gwallet.tech/) is from October 2025. The Android app has had no update since March 2023, and the iPhone app is gone from the App Store.
+
 ## Android
 
 ## App Description
@@ -47,7 +49,7 @@ The service includes:
 - P2P Exchange
 - Zakat Feature
 
-### [FAQs](https://gwallet.tech/faqs)
+### [FAQs](https://web.archive.org/web/20221208003154/https://gwallet.tech/faqs)
 
 > A keystore wallet file is a file that stores our secret key in encrypted form. You get to choose a password to encrypt the file with. This way, if a hacker gets your file, they would still need the password that you chose in order to access your wallet. This means, that if you choose a strong password, you can more safely back the file up in the cloud without worrying about hacks. When you login to Gwallet, you will be asked for your keystore file AND your password. You should back up both of these pieces of information (as GWallet does NOT store your keystore wallet file or your password). If you are worried about accessing your private key if you use this method, don't worry. You can see your secret key once you log in at Wallet > Profile > Advanced. However, please be sure you really want to access your secret key. Understand, you already have your secret key in your keystore file but in a third-party audited, securely encrypted form. Once you have your secret key, you will have to protect it!
 

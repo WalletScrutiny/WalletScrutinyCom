@@ -24,7 +24,7 @@ icon: bitfreezer.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2022-02-18
+date: 2026-10-30
 signer: 
 twitter: thebitfreezer
 social:
@@ -35,7 +35,9 @@ features:
 
 ---
 
-Its website is [no longer online](https://bitfreezer.app/). The accompanying Android app on Google Play is also [no longer available](https://play.google.com/store/apps/details?id=bitfreezer.app.wallet). We were also not able to locate links to its public source code.
+**⚠️ Warning:** This provider is gone. Its website is a parking page and its app is no longer on Google Play.
+
+Its website is [no longer online](https://bitfreezer.app/). The accompanying Android app {% include walletLink.html wallet='android/bitfreezer.app.wallet' verdict='true' %} is also no longer on Google Play. We were also not able to locate links to its public source code.
 
 ## Setup Procedures
 

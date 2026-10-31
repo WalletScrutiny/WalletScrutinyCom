@@ -1,9 +1,9 @@
 ---
 title: WATT ME
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
-website: https://watt.me
+website: https://web.archive.org/web/20221203052609/https://watt.me/
 twitter: watt_me_token
 social:
 - https://t.me/watt_me
@@ -34,6 +34,8 @@ iphone:
   developerName: Wise Win LTD
 
 ---
+
+**⚠️ Warning:** The provider appears to be gone. The [website](https://web.archive.org/web/20221203052609/https://watt.me/) is now a parked domain and the [Telegram channel](https://t.me/s/watt_me) has been silent since December 2022.
 
 ## Android
 

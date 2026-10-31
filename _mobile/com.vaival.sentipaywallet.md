@@ -1,7 +1,7 @@
 ---
 title: SENTI PAY
-date: 2023-01-02
-website: http://www.sentipaywallet.com
+date: 2026-10-30
+website: http://www.sentipaywallet.com#deadLink
 redirect_from:
 - /android/com.vaival.sentipaywallet/
 android:
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**⚠️ Warning:** Senti Pay appears to be gone. Its website no longer loads; the last working copy in the Wayback Machine is from [November 2024](https://web.archive.org/web/20241109104401/https://www.sentipaywallet.com/).

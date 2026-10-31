@@ -1,6 +1,6 @@
 ---
 title: 스마일빗 Smile-Bit Buy&Sell Crypto
-date: 2025-03-17
+date: 2026-10-30
 authors:
 - danny
 website: https://smile-bit.com#deadLink
@@ -18,6 +18,8 @@ android:
   developerName: SMI-HK.LLC
 
 ---
+
+**⚠️ Warning:** Smile-Bit appears to be gone. Its smile-bit.com domain showed a [parking page](https://web.archive.org/web/20250713171553/http://smile-bit.com/) by July 2025; the [last archived copy of the Smile-Bit site](https://web.archive.org/web/20230725040131/https://www.smile-bit.com/) is from July 2023. The app is no longer on Google Play.
 
 ## App Description from Google Play 
 

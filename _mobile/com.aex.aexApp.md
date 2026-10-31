@@ -1,7 +1,7 @@
 ---
 title: AEX Global:Buy Crypto &Bitcoin
-date: 2023-06-21
-website: https://www.aex.com
+date: 2026-10-30
+website: https://www.aex.com#deadLink
 redirect_from:
 - /android/com.aex.aexApp/
 android:
@@ -18,3 +18,4 @@ android:
 
 ---
 
+**⚠️ Warning:** AEX is gone. The exchange [limited withdrawals after a bank run](https://www.web3isgoinggreat.com/single/aex-crypto-exchange-limits-withdrawals-after-a-bank-run) in June 2022 and [suspended its services for a police investigation](https://www.web3isgoinggreat.com/?id=police-shut-down-the-aex-crypto-exchange) on 2022-07-17. Its site aex.com now shows a domain parking page.

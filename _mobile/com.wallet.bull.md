@@ -1,6 +1,6 @@
 ---
 title: BULL WALLET
-date: 2023-01-11
+date: 2026-10-30
 authors:
 - danny
 website: https://bullcoin.finance/
@@ -36,10 +36,12 @@ iphone:
 
 ---
 
+**⚠️ Warning:** The Bull Finance website is gone. Its domain now shows an [unrelated casino page](https://web.archive.org/web/20260207194021/https://bullcoin.finance/), and the GitHub account has had no activity since 2021.
+
 ## Android
 
 ### Official Website
-In the [Privacy Policy](https://bullcoin.finance/privacy) Bull Finance claims to be decentralized:
+In the [Privacy Policy](https://web.archive.org/web/20220122230259/https://bullcoin.finance/privacy) Bull Finance claims to be decentralized:
 
 > Bull Finance is an open and decentralized financial ecological network. Bull Finance combines Polkadot's cross-chain collaboration technology and the Substrate modular development framework to provide one-click development solutions for participants in the open financial ecological network and provide the underlying protocol standards for the open financial ecological network.
 

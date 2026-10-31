@@ -1,6 +1,6 @@
 ---
 title: Swap Wallet - BTC, Bitcoin wallet
-date: 2020-12-28
+date: 2026-10-30
 website: http://swapwallet.com#deadLink
 redirect_from:
 - /com.swapwalletltd.swap/
@@ -27,6 +27,10 @@ iphone:
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** This provider appears to be gone. The app is still missing from
+both stores, and on 2026-10-30 the domain swapwallet.com was still registered
+but pointed to no server. We found no other website, social account or support channel for it.
 
 ## Android
 

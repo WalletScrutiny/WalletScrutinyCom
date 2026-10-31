@@ -1,7 +1,7 @@
 ---
 title: 'DropBit: Bitcoin Wallet'
-date: 2021-07-21
-website: https://dropbit.app
+date: 2026-10-30
+website: https://dropbit.app#deadLink
 twitter: dropbitapp
 social:
 - https://www.facebook.com/DropBit-2094204254174419
@@ -28,6 +28,10 @@ android:
   repository: https://github.com/coinninjadev/dropbit-android
 
 ---
+
+**⚠️ Warning:** DropBit and its maker Coin Ninja are out of business. Do not use this app.
+
+**Update 2026-10-30:** The provider is gone. dropbit.app now serves an unrelated casino page, so we marked the website link dead, and coinninja.com redirects to a placeholder page.
 
 {% include featureEvidence.html feature="foss" source="[License](https://github.com/coinninjadev/dropbit-android/blob/master/LICENSE)" quote="MIT License" %}
 

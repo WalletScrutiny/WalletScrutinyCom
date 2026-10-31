@@ -19,9 +19,9 @@ price:
 repository: 
 icon: bimoneychn.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2022-05-19
+date: 2026-10-30
 signer: 
 twitter: BiMoneyCHN
 social: 
@@ -29,6 +29,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** BiMoney is gone, and the BiMoneyCHN hardware wallet never shipped.
 
 ## Background 
 

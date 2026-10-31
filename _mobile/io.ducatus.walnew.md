@@ -1,6 +1,6 @@
 ---
 title: Ducatus Wallet
-date: 2021-04-11
+date: 2026-10-30
 authors:
 - leo
 website: https://ducatus.net/
@@ -16,10 +16,12 @@ android:
   reviews: 8
   icon: io.ducatus.walnew.webp
   meta: ok
-  verdict: custodial
+  verdict: nosource
   developerName: Ducatus Commerce
 
 ---
+
+**Update 2026-10-30:** The provider's [DucatusX/ducatus-copay](https://github.com/DucatusX/ducatus-copay) repository, a fork of Copay (now {% include walletLink.html wallet='android/com.bitpay.wallet' verdict='true' %}), uses this app's ID in its [app config](https://github.com/DucatusX/ducatus-copay/blob/master/app-template/walnew/appConfig.json) and says "all private keys are stored locally". It stops at version 2.17.26 from December 2023, while Google Play has version 3.13.10, so we change the verdict from custodial to {% include verdictBadge.html verdict="nosource" type='short' %}. The website we listed, ducatus.net, no longer shows a Ducatus page.
 
 This app supports Bitcoin:
 

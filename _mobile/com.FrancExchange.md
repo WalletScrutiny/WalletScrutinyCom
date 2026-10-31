@@ -1,6 +1,6 @@
 ---
 title: Franc Exchange
-date: 2021-10-24
+date: 2026-10-30
 authors:
 - danny
 website: https://trade.francexchange.com/
@@ -31,7 +31,18 @@ iphone:
 
 ---
 
+**⚠️ Warning:** Franc Exchange is gone. On 2026-10-30 both
+trade.francexchange.com and francexchange.com redirected to a
+[HugeDomains sale page](https://www.hugedomains.com/domain_profile.cfm?d=francexchange.com)
+for the domain. Indian press reporting on the Morris Coin case names a
+["Coimbatore based cryptocurrency exchange, 'Franc exchange'"](https://www.businesstoday.in/crypto/story/ed-arrests-kerala-man-allegedly-involved-in-morris-coin-scam-327542-2022-03-28)
+as the place where the Morris Coin tokens were supposed to be listed; according
+to the same report they never were.
+
 ## Android
+
+**Update 2026-10-30:** The provider is gone. Its website now redirects to a
+[domain sale page](https://www.hugedomains.com/domain_profile.cfm?d=francexchange.com).
 
 **⚠️ Warning ⚠️** 
 

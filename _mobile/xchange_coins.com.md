@@ -1,6 +1,6 @@
 ---
 title: XCHANGE-COINS Cryptocurrency Exchange
-date: 2022-04-07
+date: 2026-10-30
 website: https://www.xchange-coins.com#deadLink
 redirect_from:
 - /android/xchange_coins.com/
@@ -15,5 +15,7 @@ android:
   verdict: wip
 
 ---
+
+**⚠️ Warning:** The provider of XCHANGE-COINS appears to be gone. Its website is gone.
 
 **Update 2022-03-23**: This app is not available anymore.

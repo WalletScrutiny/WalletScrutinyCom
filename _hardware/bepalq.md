@@ -25,7 +25,7 @@ icon: bepalq.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2021-12-04
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -33,6 +33,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** BEPAL appears to be out of business. Its website and code have been dead for years.
 
 Launched 3 years ago, the website now displays "Website is under maintenance" and "Actively cooperate with the latest industry regulatory policies". 
 

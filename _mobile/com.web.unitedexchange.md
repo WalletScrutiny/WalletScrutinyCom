@@ -1,9 +1,9 @@
 ---
 title: UnitedExchange
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
-website: https://unitedexchange.io/
+website: https://unitedexchange.io/#deadLink
 twitter: exchange_united
 social:
 - https://www.facebook.com/UnitedExchange.io
@@ -36,6 +36,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** United Exchange appears to be gone. Its website was last archived as a working exchange in [November 2024](https://web.archive.org/web/20241111202138/https://unitedexchange.in/), by [August 2025](https://web.archive.org/web/20250824221345/https://unitedexchange.in/) the domain was a parked page, and the old unitedexchange.io address now leads to an unrelated sports streaming site.
+
 ## Android
 
 ## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.web.unitedexchange) 
@@ -44,13 +46,13 @@ iphone:
 
 This is a cryptocurrency exchange. 
 
-### [User Agreement](https://unitedexchange.in/user-agreement)
+### [User Agreement](https://web.archive.org/web/20221126093704/https://unitedexchange.in/user-agreement)
 
 > 5.12. United Exchange is a mediator site for buying and selling cryptocurrency. Through the site, users buy or sell cryptocurrencies by auctioning or tendering to each other. The prices that are generated on the site are determined by the buyers and sellers, not by United Exchange. United Exchange cannot be held responsible for any damages or loss caused to users due to changes in prices. The User undertakes not to be involved in any application/take any recourse against United Exchange in this respect. If the User does not comply with this condition, the User will be responsible for any attorney fees paid by the United Exchange. 
 
 ## Analysis 
 
-The platform has a [termination clause:]((https://unitedexchange.in/user-agreement)) 
+The platform has a [termination clause:](https://web.archive.org/web/20221126093704/https://unitedexchange.in/user-agreement) 
 
 > **"...the Company has the right to terminate the contract unilaterally, and to cancel, revoke or suspend the User's account without any notice. Because of these reasons, United Exchange will not be responsible for any damages arising from these circumstances."**
 

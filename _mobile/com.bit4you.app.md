@@ -1,6 +1,6 @@
 ---
 title: bit4you
-date: 2023-09-28
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bit4you.io
@@ -38,6 +38,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** bit4you is gone. It suspended all operations in April 2023 after its partner CoinLoan, which held most of its customers' bitcoin, halted activity ([Cointelegraph](https://cointelegraph.com/news/belgian-crypto-platform-bit4you-suspends-operations-after-coinloan-halts-activity)), and its website now says the exchange "has permanently shut down" ([bit4you.io](https://www.bit4you.io)).
+
 ## Android
 
 > bit4you is an European crypto assets exchange platform, facilitating the first step into the crypto world. Buy and sell your favorite crypto assets on a nice and easy way with bit4you. Once you feel comfortable with the crypto trading on your demo account, you can easily switch to real funds within the same account.
@@ -46,12 +48,12 @@ bit4you is an exchange platform.
 
 > Unless otherwise provided by law, BIT4YOU may decide to terminate an account without having to give reasons, notice, formalities or indemnities to the client and will not be required to send any notification of refusal to the CLIENT but may According to its assessment, immediately close or suspend the CLIENT's wallet (or) and consistently refuse all exchange orders[...]
 
-[From Terms and Conditions, section 24.](https://www.bit4you.io/terms-and-conditions) It is capable of suspending a customer's wallet.
+[From Terms and Conditions, section 24.](https://web.archive.org/web/20230504221222/https://www.bit4you.io/terms-and-conditions) It is capable of suspending a customer's wallet.
 
 ## Support 
 
-- [How to send crypto](https://academy.bit4you.io/how-to-send-crypto-assets-to-another-wallet/)
-- [From the Terms and Conditions](https://www.bit4you.io/terms-and-conditions)
+- [How to send crypto](https://academy.bit4you.io/how-to-send-crypto-assets-to-another-wallet/#deadLink)
+- [From the Terms and Conditions](https://web.archive.org/web/20230504221222/https://www.bit4you.io/terms-and-conditions)
 
 > The CUSTOMER may receive CRYPTOASSETS in his CRYPTOASSETS WALLET whose address is generated and accessible via the WEBSITE or the APPLICATION.
 

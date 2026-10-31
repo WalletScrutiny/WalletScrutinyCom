@@ -1,6 +1,6 @@
 ---
 title: Buycoins - The easiest way to buy & sell crypto
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
 website: https://buycoins.africa
@@ -21,6 +21,12 @@ android:
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** BuyCoins looks gone. On 2026-10-30
+[buycoins.africa](https://buycoins.africa/) showed only "This service has been
+suspended by its owner". Its parent company Helicarrier
+[shut its Buycoins Pro exchange](https://www.mariblock.com/helicarrier-shuts-crypto-trading-platform-buycoins-pro/)
+in early 2024, and its [founders had left by 2025](https://techpoint.africa/news/buycoins-helicarrier-founders-quit/).
 
 ## Update 2021-10-08
 
@@ -85,7 +91,7 @@ The features are described:
 
 ### Terms of Service
 
-The [Terms](https://buycoins.africa/terms) specify the site's power to freeze the assets of the user in section 5.4, 
+The [Terms](https://web.archive.org/web/20221203052637/https://buycoins.africa/terms) specify the site's power to freeze the assets of the user in section 5.4, 
 
 > We reserve the right to **cancel and/or suspend your Buycoins Account and/or block transactions or freeze funds immediately and without notice if we determine, in our sole discretion**, that your Account is associated with a Prohibited Use and/or a Prohibited Business.
 

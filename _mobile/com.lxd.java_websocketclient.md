@@ -1,6 +1,6 @@
 ---
 title: CoinFLEX
-date: 2021-11-22
+date: 2026-10-30
 authors:
 - danny
 website: https://coinflex.com/home#deadLink
@@ -21,7 +21,7 @@ android:
   reviews: 11
   icon: com.lxd.java_websocketclient.webp
   meta: removed
-  verdict: wip
+  verdict: custodial
 iphone:
   appId: coinflex.com.appc
   idd: '1499932851'
@@ -31,9 +31,25 @@ iphone:
   reviews: 8
   icon: coinflex.com.appc.webp
   meta: removed
-  verdict: wip
+  verdict: custodial
 
 ---
+
+**⚠️ Warning:** CoinFLEX is gone. It halted withdrawals in June 2022 and its assets went to the new
+exchange OPNX in a restructuring
+([Cointelegraph](https://cointelegraph.com/news/coinflex-restructuring-approved-in-seychelles-as-rebranding-reportedly-continues)).
+OPNX told customers on 2024-02-02 that it would "cease operations and shut down in February 2024"
+([Decrypt](https://decrypt.co/215346/opnx-the-crypto-exchange-from-bankrupt-three-arrows-capital-is-shutting-down)).
+The coinflex.com website is gone.
+
+**Update 2026-10-30:** An
+[archived copy of its store page](https://web.archive.org/web/20230202000800/https://play.google.com/store/apps/details?id=com.lxd.java_websocketclient)
+from February 2023 describes an exchange app to "Buy, Sell & Trade", "Earn interest 3 times a day with
+flexUSD" and "Withdraw and deposit funds at anytime". The iPhone app was the same CoinFLEX
+exchange client, and the
+[archived security page](https://web.archive.org/web/20211130053447/https://coinflex.com/security/) says
+"CoinFLEX operates with a 99% cold storage policy, with up to only 1% stored in a secure hot wallet".
+That is a custodial exchange, and we change the verdict of both apps from {% include verdictBadge.html verdict="wip" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## Android
 
@@ -63,7 +79,7 @@ They also have account suspension powers
 
 > Section 2.9.2 We reserve the right to suspend or revoke your access to the Platform at any time without prior notice to you. If we suspend your profile, your Account or terminate your access to the Platform, then we may also close any open orders and administer a Close Out of any outstanding repayments of Leverage Funding at that time.
 
-## [Security](https://coinflex.com/security#deadLink)
+## [Security](https://web.archive.org/web/20211130053447/https://coinflex.com/security/)
 
 CoinFlex has a 99% cold-storage policy.
 

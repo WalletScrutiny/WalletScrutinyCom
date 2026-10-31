@@ -4,7 +4,7 @@ appId: blackmetal
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2024-03-02
 updated: 
 version: 
 binaries: 
@@ -19,15 +19,17 @@ price: 25EUR
 repository: 
 icon: blackmetal.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: prefilled
-date: 2022-03-23
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
 features: 
 
 ---
+
+**⚠️ Warning:** The Crypto Cards shop is gone and the cards are no longer sold. The cryptocards.store website is gone. Cards already made carry their keys printed on the steel, so they do not depend on the shop.
 
 ## Product Description 
 

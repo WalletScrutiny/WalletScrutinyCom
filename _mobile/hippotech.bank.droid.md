@@ -1,6 +1,6 @@
 ---
 title: Ziglu. Money, done differently
-date: 2023-12-15
+date: 2026-10-30
 authors:
 - danny
 website: https://www.ziglu.io
@@ -20,7 +20,7 @@ android:
   updated: 2025-11-01
   version: '3.75'
   icon: hippotech.bank.droid.webp
-  meta: ok
+  meta: defunct
   verdict: custodial
   developerName: Ziglu
 iphone:
@@ -37,6 +37,10 @@ iphone:
   developerName: Ziglu Limited
 
 ---
+
+**⚠️ Warning:** Ziglu is insolvent and in special administration since 2025-07-07. It stopped all payments and crypto activities in June 2025.
+
+**Update 2026-10-30:** In June 2025 Ziglu agreed with the UK regulator to stop its payment and crypto services, and on 7 July 2025 it entered special administration with RSM as administrators ([FCA](https://www.fca.org.uk/news/news-stories/ziglu-limited-enters-special-administration)). The administrators found a shortfall of about $2.7 million in customer funds ([Bitcoin.com News](https://news.bitcoin.com/collapsed-uk-crypto-firm-ziglu-reveals-2-7m-shortfall-imperiling-investors/)), and the FCA warns that crypto holdings were not safeguarded, so customers may not get them back. The iPhone app is gone from the App Store.
 
 ## Android
 

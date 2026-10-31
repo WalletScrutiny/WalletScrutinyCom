@@ -1,6 +1,6 @@
 ---
 title: Dok Wallet
-date: 2023-10-03
+date: 2026-10-30
 authors:
 - danny
 website: https://dokwallet.com/
@@ -22,9 +22,10 @@ android:
   updated: 2026-10-10
   version: '3.33'
   reviews: 15
+  repository: https://github.com/KM-opensource-crypto-wallet/mobile_app
   icon: com.dok.wallet.webp
   meta: ok
-  verdict: nosource
+  verdict: sourceavailable
   developerName: Dok wallet
 iphone:
   appId: com.dok.wallet
@@ -34,12 +35,15 @@ iphone:
   updated: 2026-10-10
   version: '2.53'
   reviews: 2
+  repository: https://github.com/KM-opensource-crypto-wallet/mobile_app
   icon: com.dok.wallet.webp
   meta: ok
-  verdict: nosource
+  verdict: sourceavailable
   developerName: Moreover4u2 Ltd
 
 ---
+
+**Update 2026-10-30:** Dok Wallet now calls itself open source on its [website](https://dokwallet.com/) and has published the code of both apps under the GPL-3.0 in [KM-opensource-crypto-wallet/mobile_app](https://github.com/KM-opensource-crypto-wallet/mobile_app), which builds the app ID `com.dok.wallet`. The repository was created in April 2025. We have not tried to reproduce the builds, so the verdict changes from {% include verdictBadge.html verdict="nosource" type='short' %} to {% include verdictBadge.html verdict="sourceavailable" type='short' %}.
 
 ## Android
 

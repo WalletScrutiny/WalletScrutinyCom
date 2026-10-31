@@ -1,6 +1,6 @@
 ---
 title: All Coin Wallet
-date: 2021-08-09
+date: 2026-10-30
 authors:
 - danny
 website: http://www.allcoinwallet.com
@@ -19,6 +19,10 @@ android:
   developerName: All Coin Wallet
 
 ---
+
+**⚠️ Warning:** This provider is gone. The app is no longer on Google Play and
+on 2026-10-30 allcoinwallet.com redirected to a GoDaddy page offering the domain
+for sale.
 
 Unfortunately, it's hard to get any additional info on this wallet. While the app links to a [website](http://www.allcoinwallet.com) on its Google Play page, it appears to be inaccessible and returns an nxdomain error. There's no information on the developers either.
 

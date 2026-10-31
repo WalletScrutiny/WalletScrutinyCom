@@ -1,9 +1,9 @@
 ---
 title: CforCoins
-date: 2023-04-12
+date: 2026-10-30
 authors:
 - danny
-website: http://www.cforcoins.com
+website: https://web.archive.org/web/20210413094450/http://www.cforcoins.com/
 twitter: CoinsCfor
 social:
 - https://www.instagram.com/cforcoins/
@@ -21,6 +21,8 @@ android:
   developerName: CforCoins
 
 ---
+
+**⚠️ Warning:** The cforcoins.com domain lapsed and now shows a different exchange site that is not the Indian rupee exchange reviewed here. Do not use it. The [old site is archived](https://web.archive.org/web/20210413094450/http://www.cforcoins.com/); in July 2025 the domain showed only a [registrar page](https://web.archive.org/web/20250711004523/https://www.cforcoins.com/).
 
 The app's website is no longer online.
 

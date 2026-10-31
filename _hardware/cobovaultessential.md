@@ -6,7 +6,7 @@ authors:
 - danny
 - leo
 released: 2018-03-01
-discontinued: 
+discontinued: 2023-09-03
 updated: 2021-11-11
 version: B-2.5
 binaries: 
@@ -21,9 +21,9 @@ price: 119USD
 repository: https://github.com/KeystoneHQ/Keystone-cold-app
 icon: cobovaultessential.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: nosource
-date: 2022-02-18
+date: 2026-10-30
 signer: 
 twitter: KeystoneWallet
 social: 
@@ -37,6 +37,8 @@ features:
 
 ---
 
+**Update 2026-10-30:** Keystone no longer sells this device: its [shop product page](https://shop.keyst.one/products/keystone-essential#deadLink) is gone, and [Keystone's website](https://keyst.one/) lists the {% include walletLink.html wallet='hardware/keystone3.pro' verdict='true' %} as its only hardware wallet. We mark the device discontinued. The Medium article quoted below is gone, so the link now points to an archived copy.
+
 **Note:** Cobovault has been renamed to Keystone, previous products were known as Cobovault Essential, Cobovault Pro and Cobovault Ultimate.
 
 This hardware wallet has a companion app: {% include walletLink.html wallet='android/com.keystone.mobile' verdict='true' %}
@@ -47,7 +49,7 @@ Keystone resembles a smartphone and has a 4" touchscreen.
 
 ## Private keys can be created offline - ✔️
 
-[From Keystone's article on Medium:](https://blog.keyst.one/keystone-product-design-principles-cd833bc11125)
+[From Keystone's article on Medium:](https://web.archive.org/web/20250506081535/https://blog.keyst.one/keystone-product-design-principles-cd833bc11125)
 
 > Hardware wallets isolate your private keys from the internet because physical attacks cost significantly more than remote attacks. In terms of how air-gapped your hardware wallet is and how costly it is for a hacker to steal your assets, it’s crucial how the hardware wallet connects to a companion app. Using QR codes or microSD cards for data transmission has significant advantages for air-gapping your keys compared to USB and Bluetooth, which have larger attack surfaces because they are interactive connections.
 

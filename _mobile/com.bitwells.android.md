@@ -1,9 +1,9 @@
 ---
 title: Bitwells - Easy Bitcoin/Crypto Futures Trading
-date: 2022-10-21
+date: 2026-10-30
 authors:
 - danny
-website: https://www.bitwells.com
+website: https://www.bitwells.com#deadLink
 twitter: bitwells
 social:
 - https://www.facebook.com/Bitwells
@@ -33,6 +33,8 @@ iphone:
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** Both apps are gone from the stores, and the [Bitwells website](https://www.bitwells.com#deadLink) no longer loads.
 
 ## Android
 

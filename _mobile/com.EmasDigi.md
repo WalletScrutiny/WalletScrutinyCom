@@ -1,6 +1,6 @@
 ---
 title: Pluang:Trading Stocks & Crypto
-date: 2021-08-21
+date: 2026-10-30
 authors:
 - danny
 website: https://pluang.com
@@ -16,10 +16,23 @@ android:
   reviews: 123
   icon: com.EmasDigi.webp
   meta: ok
-  verdict: nosendreceive
+  verdict: custodial
   developerName: pluang
 
 ---
+
+**Update 2026-10-30:** Pluang now lets users send and receive Bitcoin, so we
+change the verdict from {% include verdictBadge.html verdict="nosendreceive" type='short' %}
+to {% include verdictBadge.html verdict="custodial" type='short' %}.
+[Crypto Send](https://pluang.com/en/faq/crypto/crypto-send/apa-itu-crypto-send-di-pluang)
+moves "your Bitcoin, USDT, or other coin" out of the Pluang account to another
+user or to an external wallet address, and
+[Crypto Receive](https://pluang.com/en/faq/crypto/crypto-receive/apa-itu-crypto-receive-di-pluang)
+accepts coins from an exchange or a self-custody wallet at a Pluang-generated
+deposit address. The coins sit with a custodian:
+[Pluang's FAQ](https://pluang.com/faq/Other%20Issues%20%28General%29/About%20Pluang%20%28General%29/Pencatatan-Transaksi-dan-Mitra-Kustodian)
+names Indonesian Coin Custodian, with 70% in cold wallets. The text below is
+from 2021, when withdrawals were only possible in Rupiah.
 
 EmasDigi has since renamed itself "Pluang"
 

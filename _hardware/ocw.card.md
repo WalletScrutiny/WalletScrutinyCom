@@ -19,9 +19,9 @@ price:
 repository: 
 icon: ocw.card.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: noita
-date: 2023-04-05
+date: 2026-10-30
 signer: 
 twitter: ocwallet
 social:
@@ -35,6 +35,8 @@ features:
 - secEl
 
 ---
+
+**Update 2026-10-30:** The card works only with the {% include walletLink.html wallet='android/com.ocw.onlinecoldwallet' verdict='true' %} app, which has been removed from Google Play, and the [OCW website](https://www.onlinecoldwallet.com/) still offers no other download and no way to buy the card. We mark the card defunct.
 
 ## Updated Review 2023-04-05
 

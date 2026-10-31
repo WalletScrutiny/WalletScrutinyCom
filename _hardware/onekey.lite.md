@@ -4,7 +4,7 @@ appId: onekey.lite
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2026-01-02
 updated: 
 version: 
 binaries: 
@@ -13,15 +13,15 @@ weight:
 provider: OneKey
 providerWebsite: 
 website: https://onekey.so/
-shop: https://onekey.so/products/onekey-lite-hardware-wallet/
+shop: https://web.archive.org/web/20251230101654/https://onekey.so/products/onekey-lite-hardware-wallet/
 country: HK
 price: 19.99 USD
 repository: 
 icon: onekey.lite.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: plainkey
-date: 2023-03-01
+date: 2026-10-30
 signer: 
 twitter: OneKeyHQ
 social:
@@ -30,6 +30,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** OneKey no longer sells the Lite. Its shop page was [still selling it in December 2025](https://web.archive.org/web/20251230101654/https://onekey.so/products/onekey-lite-hardware-wallet/), and since January 2026 the same address leads to the [OneKey SeedCard](https://onekey.so/products/onekey-seed-card/), a backup card that works with the OneKey Pro only.
 
 Paired with: {% include walletLink.html wallet='android/so.onekey.app.wallet' verdict='true' %}
 

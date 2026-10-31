@@ -19,9 +19,9 @@ price:
 repository: 
 icon: meek.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2023-03-10
+date: 2026-10-30
 signer: 
 twitter: cjdcosta
 social: 
@@ -29,6 +29,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Meek is gone and the device never shipped. The meek.io address is now a domain listed for sale.
 
 ## Product Description from [Archive of Meek.io](https://web.archive.org/web/20130920065737/http://meek.io/)
 

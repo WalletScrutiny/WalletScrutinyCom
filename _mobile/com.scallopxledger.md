@@ -1,6 +1,6 @@
 ---
 title: E Money Network
-date: 2025-01-27
+date: 2026-10-30
 authors:
 - danny
 website: https://emoney.io/
@@ -39,6 +39,8 @@ iphone:
   developerName: Scallop Group
 
 ---
+
+**Update 2026-10-30:** Scallop renamed the app E Money Network, and its store description now calls it "a non-custodial wallet" with "your crypto, your keys", next to the KYC it still requires ([E Money](https://emoney.io/)). We have not yet checked whether the app now offers a backup phrase. The old Scallop help pages now sit behind a login.
 
 ## Android
 
@@ -98,11 +100,11 @@ The provider currently has these products
 - The Google Play text seems to describe a hardware wallet and a software wallet. But it isn't definitely clear since it described both items in the same sentence. The next step for us would be to look at its Help pages, if available.
 - This [video](https://www.youtube.com/watch?v=b0qdWYxw-3o) shows us that the app supports multi-currency wallets.
 - Scallop offers a complex service which integrates hardware wallets, crypto wallets, IBAN accounts, debit cards, fiat on and off-ramps, and hardware wallets. 
-- You can find a more specific overview of all its services on this [page](https://learn.scallopx.com/scallop/what-is-scallop)
+- You can find a more specific overview of all its services on this [page](https://web.archive.org/web/20250421051101/https://learn.scallopx.com/scallop/what-is-scallop)
 - We did not see any tutorial on how to use the app to secure the user's private keys. 
 - Then we see this:
   > Hardware wallet - Store and trade your crypto using Scallop cold wallets, Scallop cold/hot storage are insured by our partners against loss by up to $100 million
-- With no access to this closed system that is restricted to a specific geography, we can only base our analysis on the available information - or its absence. Noticeably absent are any tutorials regarding [mnemonic phrase in its 'learn' portal.](https://learn.scallopx.com/scallop/what-is-scallop?q=mnemonic). 
+- With no access to this closed system that is restricted to a specific geography, we can only base our analysis on the available information - or its absence. Noticeably absent are any tutorials regarding [mnemonic phrase in its 'learn' portal.](https://learn.scallopx.com/scallop/what-is-scallop?q=mnemonic#deadLink). 
 - Based on this we can then describe this particular app as a **custodial** service, and is therefore **non-verifiable**.
 
 ---

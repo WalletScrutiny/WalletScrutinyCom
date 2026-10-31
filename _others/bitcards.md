@@ -4,7 +4,7 @@ appId: bitcards
 authors:
 - danny
 icon: bitcards.webp
-date: 2022-05-17
+date: 2026-10-30
 website: https://bitcards.com/
 twitter: Bitcard_US
 social:
@@ -14,10 +14,12 @@ social:
 provider: Bitcoin Solutions, Inc
 shop: https://www.cardcash.com/buy-gift-cards/discount-bitcoin-cards
 country: US
-meta: ok
+meta: defunct
 verdict: custodial
 
 ---
+
+**⚠️ Warning:** BitCard appears to be gone. Since early 2025, bitcards.com shows only a GoDaddy "Launching Soon" placeholder with no redemption or login page ([last BitCard snapshot, October 2024](https://web.archive.org/web/20241010111107/https://bitcards.com/), [placeholder, March 2025](https://web.archive.org/web/20250320150816/https://bitcards.com/)). The redemption platform described below is offline, and we found no successor site.
 
 ## Background 
 

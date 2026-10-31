@@ -1,9 +1,9 @@
 ---
 title: GoArbit
-date: 2023-02-01
+date: 2026-10-30
 authors:
 - danny
-website: https://goarbit.com/
+website: https://goarbit.com/#deadLink
 redirect_from:
 - /android/com.goarbit.goarbit/
 android:
@@ -19,6 +19,8 @@ android:
   developerName: GoArbit Inc
 
 ---
+
+**⚠️ Warning:** GoArbit appears to be gone. Its old domain goarbit.com now shows an unrelated Indonesian gambling site.
 
 The app seems to be dysfunctional. We installed it and the first screen advises us to update the app, with no other method to bypass the update reminder. However, the app was last updated on August 2021. 
 

@@ -1,6 +1,6 @@
 ---
 title: Citadel.one Super App
-date: 2024-07-17
+date: 2026-10-30
 authors:
 - danny
 website: https://citadel.one/
@@ -27,7 +27,7 @@ android:
   version: 2.13.2
   reviews: 15
   icon: one.citadel.mobile.webp
-  meta: ok
+  meta: defunct
   verdict: nosource
   developerName: Citadel.one
 iphone:
@@ -44,6 +44,8 @@ iphone:
   developerName: Citadel.one LTD
 
 ---
+
+**⚠️ Warning:** Citadel.one has shut down. A notice on [citadel.one](https://citadel.one/) says the platform would close permanently on February 27, 2026 and the app would no longer be available after that date. It asks users to back up their wallets so they can restore them elsewhere. The iPhone app is gone from the App Store; the Android app is still listed on Google Play.
 
 ## Android
 

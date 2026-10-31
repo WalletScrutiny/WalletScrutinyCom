@@ -12,16 +12,16 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: https://sidera.io/
+website: https://sidera.io/#deadLink
 shop: 
 country: 
 price: 
 repository: 
 icon: sidera.smartbit.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2022-04-11
+date: 2026-10-30
 signer: 
 twitter: 
 social:
@@ -30,6 +30,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Sidera appears to be gone. On 2026-10-30 sidera.io was a domain for sale.
 
 **⚠️ Note:** Sidera held an ICO with [some concerns](https://bitcointalk.org/index.php?topic=5062167.0) arising from the bitcointalk community.
 

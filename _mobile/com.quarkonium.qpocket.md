@@ -1,9 +1,9 @@
 ---
 title: 'QPocket: ETH TRON QKC Crypto W'
-date: 2022-12-26
+date: 2026-10-30
 authors:
 - danny
-website: https://www.qpocket.io/
+website: https://web.archive.org/web/20221229135635/https://qpocket.io/
 twitter: qPocket_wallet
 appCountry: us
 redirect_from:
@@ -36,6 +36,8 @@ iphone:
   repository: https://github.com/QuarkChain/QPocket-Android
 
 ---
+
+**⚠️ Warning:** QPocket appears to be gone. Both apps are off the stores, and qpocket.io is now an empty placeholder page; our link points to an [archived copy](https://web.archive.org/web/20221229135635/https://qpocket.io/) from 2022.
 
 ## Android
 

@@ -4,7 +4,7 @@ appId: slimtech.cryptolite
 authors:
 - danny
 released: 2018-01-03
-discontinued: 
+discontinued: 2018-11-20
 updated: 
 version: 
 binaries: 
@@ -12,16 +12,16 @@ dimensions:
 weight: 
 provider: slimTECH Gear Co
 providerWebsite: 
-website: https://www.slimtechgear.com
+website: https://www.slimtechgear.com#deadLink
 shop: https://shop.mashable.com/sales/slimtech-cryptolite-cold-storage-wallet-silver
 country: US
 price: 89.99USD
 repository: 
 icon: slimtech.cryptolite.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: noita
-date: 2022-04-04
+date: 2026-10-30
 signer: 
 twitter: SlimTechGearCo
 social:
@@ -31,6 +31,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** This provider is gone. Its website is a parking page and the card is no longer sold. Cards that were delivered still hold their keys, which sit on a rewritable NFC chip, much like a paper wallet (see the quote below).
 
 **⚠️ Note:** Some users have complained on social media that they were not able to receive their devices.
 

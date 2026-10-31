@@ -1,9 +1,9 @@
 ---
 title: 'Polyx Crypto Wallet: BTC, ETH'
-date: 2023-11-02
+date: 2026-10-30
 authors:
 - danny
-website: https://wallet.polyx.net
+website: https://wallet.polyx.net#deadLink
 twitter: Polyxchange
 social:
 - https://www.facebook.com/Polyxchange
@@ -36,6 +36,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** Both Polyx apps are gone from the stores, and the Polyx wallet site and polyx.net no longer load. The provider appears to be gone.
+
 ## Android
 
 ## App Description from Google Play 
@@ -49,7 +51,7 @@ iphone:
 
 ## Documents
 
-[Section 9.2.](https://polyx.net/public/docs/EN_Polyx_Terms_site.pdf) pertains to all intellectual property assets owned by the company.
+[Section 9.2.](https://web.archive.org/web/20220811141316/https://polyx.net/public/docs/EN_Polyx_Terms_site.pdf) pertains to all intellectual property assets owned by the company.
 
 ## Analysis 
 

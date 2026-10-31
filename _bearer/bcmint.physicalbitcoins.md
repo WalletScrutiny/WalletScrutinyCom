@@ -4,7 +4,7 @@ appId: bcmint.physicalbitcoins
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2026-01-25
 updated: 
 version: 
 binaries: 
@@ -19,9 +19,9 @@ price: 24USD
 repository: 
 icon: bcmint.physicalbitcoins.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: prefilled
-date: 2022-05-19
+date: 2026-10-30
 signer: 
 twitter: 
 social:
@@ -29,6 +29,8 @@ social:
 features: 
 
 ---
+
+**⚠️ Warning:** BCmint appears to be gone and no longer sells these coins. [bcmint.com](https://bcmint.com/) is now a domain listed for sale at HugeDomains, so the product page linked here no longer exists. Coins already sold carry their private key under the hologram, so they can still be redeemed with any wallet that imports a private key.
 
 ## Background
 

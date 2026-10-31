@@ -1,6 +1,6 @@
 ---
 title: DigiFinex- Crypto Exchange
-date: 2020-11-28
+date: 2026-10-30
 authors:
 - leo
 website: https://www.digifinex.com/
@@ -33,7 +33,7 @@ iphone:
   version: 2026.01.28
   reviews: 60
   icon: com.digifinex.app.webp
-  meta: defunct
+  meta: ok
   verdict: custodial
   developerName: DIGIFINEX PTE.LTD.
 
@@ -50,6 +50,10 @@ claims to the contrary, we have to assume this is a custodial offering and thus
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The app is back on the App Store, under the same App Store
+ID, updated in October 2026, so the note below is outdated and we no longer
+mark it defunct.
 
 **Update 2022-10-21**: This app is not available anymore.
 

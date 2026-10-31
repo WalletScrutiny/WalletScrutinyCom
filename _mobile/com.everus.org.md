@@ -1,9 +1,9 @@
 ---
 title: Everus
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
-website: https://www.everus.org
+website: https://www.everus.org#deadLink
 twitter: everusworld
 social:
 - https://www.linkedin.com/company/everusworld
@@ -22,6 +22,8 @@ android:
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** Everus appears to be gone. Its website is now a domain parking page, and by [February 2025](https://web.archive.org/web/20250206204705/https://www.everus.org/) it already showed an unrelated company's page.
 
 The Privacy Policy linked on Google Play and the app's sign-in page redirects back to the website homepage.
 

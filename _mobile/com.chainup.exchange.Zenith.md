@@ -1,9 +1,9 @@
 ---
 title: Fuzionx
-date: 2023-04-21
+date: 2026-10-30
 authors:
 - danny
-website: https://fuzionx.io
+website: https://fuzionx.io#deadLink
 redirect_from:
 - /android/com.chainup.exchange.Zenith/
 android:
@@ -17,5 +17,7 @@ android:
   verdict: wip
 
 ---
+
+**⚠️ Warning:** Fuzionx appears to be gone. Its website fuzionx.io now forwards to an unrelated Vietnamese betting site.
 
 This app is no longer on Google Play (404).

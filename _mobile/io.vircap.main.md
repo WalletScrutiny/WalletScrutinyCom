@@ -1,6 +1,6 @@
 ---
 title: Vircap
-date: 2024-11-04
+date: 2026-10-30
 authors:
 - danny
 website: https://vircap.io#deadLink
@@ -34,6 +34,8 @@ iphone:
   developerName: Vircap LLC
 
 ---
+
+**⚠️ Warning:** The Vircap website now forwards to an unrelated Vietnamese football results site, and both apps are gone from the stores.
 
 ## Android
 

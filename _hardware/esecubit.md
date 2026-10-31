@@ -21,7 +21,7 @@ icon: esecubit.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2021-07-16
+date: 2026-10-30
 signer: 
 twitter: 
 social:
@@ -30,6 +30,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** EsecuBit appears to be out of business. Its website is down and its code has not changed since 2021.
 
 This hardware wallet looks to be defunct, the provider’s [main site is not accessible](https://web.archive.org/web/20200516203434/https://www.esecubit.com/).
 

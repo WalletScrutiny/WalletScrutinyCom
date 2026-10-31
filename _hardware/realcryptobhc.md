@@ -4,7 +4,7 @@ appId: realcryptobhc
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2022-03-16
 updated: 
 version: 
 binaries: 
@@ -19,9 +19,9 @@ price:
 repository: 
 icon: realcryptobhc.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: plainkey
-date: 2022-03-23
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -29,6 +29,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** This provider is gone. Its website is a domain for sale and its only shop is closed, so the coin is no longer sold. Coins already made still work: their keys are ones the owner generated and printed with the open source walletgenerator.net code, as described below.
 
 ## Product Description 
 
@@ -55,4 +57,4 @@ The site suggests that users encrypt the private keys:
 
 It's unclear how this coin is more secure than a regular paper wallet. The keys may not be prefilled as you're meant to print them yourself but somebody could still steal the coin and easily remove the sticker, thus gaining access to your keys.
 
-{{ page.title }} is also listed as out-of-stock on the online stores selling this product. We're assuming that it is now **discontinued or defunct.**
+{{ page.title }} is also listed as out-of-stock on the online stores selling this product. We're assuming that it is now **discontinued.**

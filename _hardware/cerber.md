@@ -5,7 +5,7 @@ authors:
 - kiwilamb
 - danny
 released: 
-discontinued: 
+discontinued: 2022-06-08
 updated: 
 version: 
 binaries: 
@@ -15,17 +15,17 @@ dimensions:
 - 4
 weight: 12
 provider: Cerber Money Security
-providerWebsite: https://web.archive.org/web/20250617171050/https://cerberwallet.ru/
-website: https://web.archive.org/web/20250617171050/https://cerberwallet.ru/
-shop: https://web.archive.org/web/20250617171050/https://cerberwallet.ru/
+providerWebsite: https://web.archive.org/web/20211220061627/https://cerberwallet.ru/
+website: https://web.archive.org/web/20211220061627/https://cerberwallet.ru/
+shop: https://web.archive.org/web/20211220061627/https://cerberwallet.ru/
 country: RU
 price: 3500RUB
 repository: 
 icon: cerber.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: wip
-date: 2022-11-25
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -33,6 +33,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** cerberwallet.ru is now a casino site, so our links now point to an [archived copy of the wallet site](https://web.archive.org/web/20211220061627/https://cerberwallet.ru/) from 2021. The wallet is no longer sold, but its keys can be restored from the 24-word BIP39 backup in other wallets, so we now list it as discontinued instead of defunct.
 
 ## Updated Review 2022-11-25
 

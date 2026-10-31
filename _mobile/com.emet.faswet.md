@@ -1,9 +1,9 @@
 ---
 title: Faswet
-date: 2024-10-28
+date: 2026-10-30
 authors:
 - danny
-website: https://faswet.com
+website: https://faswet.com#deadLink
 twitter: emet_group_eng
 social:
 - https://www.instagram.com/emetbusinessgroupeng
@@ -37,6 +37,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** Faswet looks gone. Both store apps are removed, the [faswet.com](https://web.archive.org/web/2026/https://faswet.com/) site showed only a parked-domain page in 2026 and no longer loads, and the emetenjoy.com domain of the Emet group now hosts an unrelated Chinese gossip site.
+
 ## Android
 
 ## App Description from Google Play 
@@ -59,7 +61,7 @@ iphone:
 >
 > Buy and sell with the fiat currency of your country.
 
-## [Terms](https://emetenjoy.com/term/termuso/Website_terms_of_use.pdf) 
+## [Terms](https://emetenjoy.com/term/termuso/Website_terms_of_use.pdf#deadLink) 
 
 > You can exchange, buy and sell cryptocurrencies, in addition to serving as a wallet for all your crypto assets and, as if that was not enough, you can stay updated with the main cryptocurrencies market prices. 
 
@@ -75,14 +77,14 @@ iphone:
 
 ## Analysis 
 
-When we clicked on the terms and conditions prior to registration, it opened a browser page [here](emetenjoy.com/us/terms)
+When we clicked on the terms and conditions prior to registration, it opened a browser page [here](https://emetenjoy.com/us/terms#deadLink)
 
 It had a list of several legal documents.
 
 The Faswet terms and conditions is bundled with several other services and thus, legal documents. These companies include: XVFIVE, CASH2P, CASH2PR, DIN-DOM, SHOXEN, AILEWUX, FASWET and EMETENJOY.
 
 - The verification email did not arrive promptly.
-- We emailed them at support@emetbg.com, info@emetbusinessgroup.com, and, through their [webform](https://emetenjoy.com/us/contact).
+- We emailed them at support@emetbg.com, info@emetbusinessgroup.com, and, through their [webform](https://emetenjoy.com/us/contact#deadLink).
 - We'll keep this as a work-in-progress until further information is available.
 
 ---

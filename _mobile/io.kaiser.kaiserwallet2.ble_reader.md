@@ -1,6 +1,6 @@
 ---
 title: KaiserWallet2 BLE - Cold walle
-date: 2024-09-10
+date: 2026-10-30
 website: https://bizblocks.io
 redirect_from:
 - /android/io.kaiser.kaiserwallet2.ble_reader/
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**⚠️ Warning:** Bizblocks is gone. Its website was still up [in March 2023](https://web.archive.org/web/20230326083932/http://bizblocks.io/), but now sends visitors to unrelated shopping and gambling sites.

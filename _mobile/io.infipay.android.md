@@ -1,9 +1,9 @@
 ---
 title: InfiPay
-date: 2023-06-21
+date: 2026-10-30
 authors:
 - danny
-website: http://www.infipay.io/
+website: https://web.archive.org/web/20220813003120/https://www.infipay.io/
 appCountry: in
 redirect_from:
 - /android/io.infipay.android/
@@ -33,6 +33,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** InfiPay looks gone. [www.infipay.io](https://web.archive.org/web/20220813003120/https://www.infipay.io/) no longer loads, and infipay.io now forwards to [Infipay Tech](https://infipay.tech/), a payment-processing company that offers no crypto wallet or InfiPay app.
+
 ## Android
 
 {% include review/bitgo.md %}
@@ -60,7 +62,7 @@ Secure customer authentication and user-focused features, such as freezing your 
 >
 > Currently Available Coins – BTC, ETH, BCH, LTC and XRP
 
-### [Terms and Conditions](https://www.infipay.io/terms-conditions/)
+### [Terms and Conditions](https://web.archive.org/web/20220812233646/https://www.infipay.io/terms-conditions/)
 
 > InfiPay **maintains full custody of the funds** and User data/information which may be given to governmental authorities in the event of Account suspension/closure arising from fraud investigations, violation of law investigations or violation of these Terms.
 

@@ -1,6 +1,6 @@
 ---
 title: 'Cryptoneed: универсальный криптокошелек и обменник'
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.cryptoneed.pro#deadLink
@@ -31,6 +31,8 @@ iphone:
   verdict: nosource
 
 ---
+
+**⚠️ Warning:** Cryptoneed looks gone. Both apps are gone from the stores, and the website no longer loads. Its last working copy is from [September 2022](https://web.archive.org/web/20220919172909/https://cryptoneed.pro/).
 
 ## Android
 

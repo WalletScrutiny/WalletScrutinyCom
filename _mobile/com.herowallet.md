@@ -1,7 +1,7 @@
 ---
 title: Hero - Crypto & Bitcoin Wallet
-date: 2024-11-29
-website: https://purchasa.com/
+date: 2026-10-30
+website: https://purchasa.com/#deadLink
 redirect_from:
 - /android/com.herowallet/
 android:
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**⚠️ Warning:** The provider looks gone. The app is no longer on Google Play, and the [purchasa.com](https://web.archive.org/web/2025/https://purchasa.com/) website showed only an error page from December 2024 and is now a parked domain.

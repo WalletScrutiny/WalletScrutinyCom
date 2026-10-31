@@ -1,9 +1,9 @@
 ---
 title: DOEX
-date: 2024-09-26
+date: 2026-10-30
 authors:
 - danny
-website: http://www.doex.com
+website: http://www.doex.com#deadLink
 twitter: Doex888
 social:
 - https://www.doex.com/
@@ -23,6 +23,8 @@ android:
   developerName: ETERNA BEAUTY LLC
 
 ---
+
+**⚠️ Warning:** Doex appears to be gone. Since mid-2025 its website only shows a parking page for the domain ([archived on 2025-06-01](https://web.archive.org/web/20250601085241/https://www.doex.com/)).
 
 ## App Description from Google Play
 

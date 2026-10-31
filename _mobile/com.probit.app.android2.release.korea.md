@@ -1,6 +1,6 @@
 ---
 title: 프로비트 - 가상자산 거래소 (비트코인,이더리움,리플)
-date: 2024-05-07
+date: 2026-10-30
 authors:
 - danny
 website: https://www.probit.kr#deadLink
@@ -22,6 +22,8 @@ android:
   developerName: Oceans Inc
 
 ---
+
+**⚠️ Warning:** ProBit Korea is shut down. Its operator Oceans [closed the exchange on 2024-03-16](https://www.ceoscoredaily.com/page/view/2024021613005535180) and kept a withdrawal-only service running until 2024-06-16 ([etoday](https://www.etoday.co.kr/news/view/2331633)).
 
 This app appears to be a Korean crypto exchange:
 

@@ -1,6 +1,6 @@
 ---
 title: OK Miner
-date: 2021-11-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.okminer.io#deadLink
@@ -18,6 +18,8 @@ android:
   verdict: wip
 
 ---
+
+**⚠️ Warning:** The provider appears to be gone. The app is off Google Play and its website is gone.
 
 ## Updated Verdict 2021-10-29
 

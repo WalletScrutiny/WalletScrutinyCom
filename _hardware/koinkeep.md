@@ -19,9 +19,9 @@ price: 100USD
 repository: https://github.com/KoinKeep/BitcoinSpoon
 icon: koinkeep.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: noita
-date: 2022-05-19
+date: 2026-10-30
 signer: 
 twitter: KoinKeep
 social: 
@@ -29,6 +29,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** KoinKeep is gone and the device can no longer be used. Its iPhone companion app, which holds one of the keys and talks to the device, is no longer in the App Store (it was there in [November 2020](https://web.archive.org/web/20201125200044/https://apps.apple.com/us/app/koinkeep/id1492540597)), and [koinkeep.com](https://koinkeep.com#deadLink) no longer loads. The app's code was never published; the [KoinKeep GitHub account](https://github.com/KoinKeep) only holds a Bitcoin library and GateKeeper.
 
 ## Product Description 
 
@@ -81,7 +83,7 @@ Multi-sig
 - Using online block explorers decreases privacy, because their servers can track you.
 - KoinKeep’s phone app has a built-in basic block explorer, which shows all transactions relevant to your wallet.
 
-{{ page.title }} has a [companion app](https://apps.apple.com/us/app/koinkeep/id1492540597) in the Apple Store.
+{{ page.title }} has a [companion app](https://web.archive.org/web/20201125200044/https://apps.apple.com/us/app/koinkeep/id1492540597) in the Apple Store.
 
 ## Analysis 
 

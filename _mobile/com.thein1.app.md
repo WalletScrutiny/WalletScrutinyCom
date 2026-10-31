@@ -1,6 +1,6 @@
 ---
 title: 'IN1: Digital Crypto Wallet App'
-date: 2025-12-16
+date: 2026-10-30
 authors:
 - danny
 website: https://www.in1.io
@@ -36,6 +36,8 @@ iphone:
   developerName: IN1 HOLDING LIMITED
 
 ---
+
+**⚠️ Warning:** The IN1 app is shut down. IN1 told its users in the app that it was leaving Europe and would close access to the app on 2026-05-29, and asked them to withdraw their funds before then ([UA.News](https://ua.news/en/all-news/in1-pripiniaie-robotu-v-evropi-kliientiv-zaklikali-terminovo-vivesti-koshti)). The app is gone from both stores, and [in1.io](https://www.in1.io/) now only sells financial infrastructure to other companies.
 
 ## Android
 

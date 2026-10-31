@@ -6,7 +6,7 @@ authors:
 - leo
 - danny
 released: 
-discontinued: 
+discontinued: 2024-04-16
 updated: 2022-02-08
 version: 2.12.0
 binaries: 
@@ -16,17 +16,17 @@ dimensions:
 - 8.2
 weight: 11
 provider: KASSE USA (HyundaiPay)
-providerWebsite: https://kasseusa.com
-website: https://kasseusa.com/kasse-hk-1000-cryptocurrency-hardware-wallet/
-shop: https://kasseusa.com/kasse-hk-1000-cryptocurrency-hardware-wallet/
+providerWebsite: https://kasseusa.com#deadLink
+website: https://web.archive.org/web/20220516090430/https://kasseusa.com/kasse-hk-1000-cryptocurrency-hardware-wallet/
+shop: https://kasseusa.com/kasse-hk-1000-cryptocurrency-hardware-wallet/#deadLink
 country: US
 price: 42.95USD
 repository: 
 icon: kasse.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: nosource
-date: 2023-02-13
+date: 2026-10-30
 signer: 
 twitter: KasseUSA
 social:
@@ -39,9 +39,11 @@ features:
 
 ---
 
+**Update 2026-10-30:** KASSE USA is gone, so we mark the {{ page.title }} discontinued. By April 2024 kasseusa.com was a [parked domain](https://web.archive.org/web/20240416183601/https://kasseusa.com/) that was later [offered for sale](https://web.archive.org/web/20240718121045/https://kasseusa.com/), and it now sends visitors to an unrelated gambling site. The device still works with other wallets through its standard BIP39 seed.
+
 Here's a link to the official YouTube channel's [Setup Overview.](https://www.youtube.com/watch?v=1Gq9GhM1nZw) As demonstrated in the video, this device has a screen, buttons, and a secure element with a true random number generator. 
 
-The [desktop software](https://kasseusa.com/software/) for managing the {{ page.title }} is currently available for both Windows and MacOS. 
+The [desktop software](https://web.archive.org/web/20221207163207/https://kasseusa.com/software/) for managing the {{ page.title }} is currently available for both Windows and MacOS. 
 
 ## Verdict
 

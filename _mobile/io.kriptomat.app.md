@@ -1,6 +1,6 @@
 ---
 title: 'Kriptomat: Invest & Buy Crypto'
-date: 2021-09-23
+date: 2026-10-30
 authors:
 - danny
 website: https://kriptomat.io
@@ -37,7 +37,11 @@ iphone:
 
 ---
 
+**⚠️ Warning:** Kriptomat shut down. Its regulated services ended on 30 June 2026 and app access ended on 1 September 2026 ([Kriptomat wind-down page](https://kriptomat.io/wind-down/)).
+
 ## Android
+
+**Update 2026-10-30:** Kriptomat is closed. It [announced its wind-down](https://kriptomat.io/kriptomat-to-wind-down-operations-by-30-june-2026-and-what-comes-next-for-our-customers/) on 19 May 2026; trading stopped on 30 June 2026, the platform was read-only until 1 September 2026, and leftover balances are now paid out by manual request, with crypto going only to Kraken ([wind-down page](https://kriptomat.io/wind-down/)). The help-centre article about private keys quoted below is gone, and Kriptomat recommends {% include walletLink.html wallet='android/com.kraken.invest.app' verdict='true' %} as the place to move to.
 
 A cursory look at the app's website indicates a centralized custodial buy, sell and store service that is managed by a private company based in Estonia. We would be looking deeper by perusing its legal documents and compliances.
 

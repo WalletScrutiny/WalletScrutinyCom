@@ -1,6 +1,6 @@
 ---
 title: 'ZB Pro: Buy BTC, ETH, Doge'
-date: 2023-09-28
+date: 2026-10-30
 authors:
 - danny
 twitter: ZBexchange
@@ -38,6 +38,8 @@ iphone:
   developerName: ZB NETWORK PTE. LTD.
 
 ---
+
+**⚠️ Warning:** ZB.com stopped deposits and withdrawals in August 2022, then lost $4.8 million from its hot wallet ([The Block](https://www.theblock.co/post/161275/crypto-exchange-zb-com-loses-4-8-million-after-halting-client-withdrawals)). The exchange never reopened and its website no longer loads.
 
 ## Android
 

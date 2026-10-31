@@ -1,7 +1,7 @@
 ---
 title: 'TENT: Bitcoin & Crypto Wallet'
-date: 2024-11-07
-website: https://tent.app
+date: 2026-10-30
+website: https://tent.app#deadLink
 redirect_from:
 - /android/com.tent.app/
 android:
@@ -17,3 +17,4 @@ android:
 
 ---
 
+**⚠️ Warning:** TENT appears to be gone. Both of its websites, tent.app and tent.com, are now domains offered for sale ([archived tent.app, February 2026](https://web.archive.org/web/20260211205919/https://tent.app/)).

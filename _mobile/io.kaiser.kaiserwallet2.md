@@ -1,9 +1,9 @@
 ---
 title: KaiserWallet2 - Cold wallet, H
-date: 2023-08-08
+date: 2026-10-30
 authors:
 - danny
-website: https://bizblocks.io
+website: https://web.archive.org/web/20230326083932/http://bizblocks.io/
 redirect_from:
 - /android/io.kaiser.kaiserwallet2/
 android:
@@ -18,6 +18,8 @@ android:
   developerName: Bizblocks
 
 ---
+
+**⚠️ Warning:** Bizblocks is gone. Its website was still up [in March 2023](https://web.archive.org/web/20230326083932/http://bizblocks.io/), but now sends visitors to unrelated shopping and gambling sites.
 
 This is the companion app to the {% include walletLink.html wallet='hardware/bizblockskaiser' verdict='true' %}
 

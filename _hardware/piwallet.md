@@ -21,7 +21,7 @@ icon: piwallet.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2021-08-01
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -29,5 +29,7 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Pi Wallet appears to be out of business. Its domain has changed hands.
 
 The [provider's website](https://www.pi-wallet.com) is inaccessible and we considered it defunct.

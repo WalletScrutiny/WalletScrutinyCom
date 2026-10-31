@@ -4,7 +4,7 @@ appId: pentasecurity.damokms
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2025-09-10
 updated: 
 version: 
 binaries: 
@@ -19,9 +19,9 @@ price:
 repository: 
 icon: pentasecurity.damokms.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: nosource
-date: 2022-04-04
+date: 2026-10-30
 signer: 
 twitter: pentasecsystems
 social:
@@ -31,6 +31,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** Penta Security no longer offers this cold wallet, so we mark it discontinued. The PALLET line from its [product page archived in December 2019](https://web.archive.org/web/20191206115146/https://www.pentasecurity.com/product/pallet/) is gone from its site, and today's [D.AMO KMS](https://www.pentasecurity.com/product/kms/) is an enterprise key management system, not a crypto wallet.
 
 **Note:** Penta Security Systems has multiple domains related to their business: pentasecurity.co.kr, pentasecurity.co.jp, and pentasecurity.com. Penta Security Systems is Korea-based. Penta Security is the parent company of Amo Labs. Amo Labs is connected to a "reverse ICO" for the AMO token. It is self-described as:
 

@@ -4,7 +4,7 @@ appId: cryptocoins.walletcard
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2023-04-06
 updated: 
 version: 
 binaries: 
@@ -15,22 +15,24 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: https://www.cryptocoinswalletcards.com#deadLink
+website: https://web.archive.org/web/20231203064754/https://cryptocoinwalletcards.com/
 shop: https://web.archive.org/web/20231203073211/https://www.cryptocoinwalletcards.com/shop/bitcoin/green-walking-lizard-monster-burning-forest-phuj-bitcoin-wallet-card/
 country: US
 price: 5 USD
 repository: 
 icon: cryptocoins.walletcard.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: prefilled
-date: 2023-04-06
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
 features: 
 
 ---
+
+**Update 2026-10-30:** These cards are no longer sold. The shop was [still open in December 2023](https://web.archive.org/web/20231203064754/https://cryptocoinwalletcards.com/), but its domain now hosts a crypto security guide with no shop. The private key is printed on the card, so a card you own still works without the seller; we mark it discontinued instead of defunct.
 
 This item is pretty straightfoward. It's a card with the public key in its front and the private key at the back. The private key is hidden with a seal which could be scratched off when needed. 
 

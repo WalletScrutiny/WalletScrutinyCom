@@ -1,6 +1,6 @@
 ---
 title: CoinBurp - Buy and Sell Bitcoin. Crypto Wallet.
-date: 2022-04-07
+date: 2026-10-30
 authors:
 - kiwilamb
 website: https://www.coinburp.com
@@ -32,6 +32,10 @@ iphone:
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** CoinBurp appears to be gone. Its website redirected to another service in 2022 and is now a domain parking page.
+
+**Update 2026-10-30:** The provider is gone, for both apps. By [October 2022](https://web.archive.org/web/20221023034708/https://www.coinburp.com/) coinburp.com redirected to ferriswheel.finance, which no longer responds either, and today coinburp.com only loads a domain parking page. The CoinBurp help centre we cited no longer exists.
 
 ## Android
 

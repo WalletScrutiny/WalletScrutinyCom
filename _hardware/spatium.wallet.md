@@ -19,9 +19,9 @@ price:
 repository: 
 icon: spatium.wallet.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: noita
-date: 2022-05-19
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -29,6 +29,10 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Spatium appears to be gone. Its website no longer loads and its companion app is no longer in the app stores.
+
+**Update 2026-10-30:** We now mark this device defunct. The spatium.net website no longer loads ([last archived copy, April 2025](https://web.archive.org/web/20250404155959/https://www.spatium.net/)), and the {% include walletLink.html wallet='android/capital.spatium.wallet' verdict='true' %} companion app, which the device needed, is gone from Google Play and the App Store.
 
 ## Background
 

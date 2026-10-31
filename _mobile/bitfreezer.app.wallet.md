@@ -1,6 +1,6 @@
 ---
 title: BitFreezer Cold Wallet  Bitcoin Ethereum ERC20
-date: 2021-08-11
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
@@ -21,6 +21,12 @@ android:
   verdict: nosource
 
 ---
+
+**⚠️ Warning:** This provider is gone. The app is no longer on Google Play, on
+2026-10-30 bitfreezer.app showed only a GoDaddy parking page, and the last post on
+its [X account](https://x.com/TheBitFreezer) is from 2020-12-25.
+
+**Update 2026-10-30:** The provider is gone; its website and social media are dead.
 
 **Update 2021-08-03**: This app is not on Play Store anymore.
 

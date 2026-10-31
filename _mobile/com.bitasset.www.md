@@ -1,6 +1,6 @@
 ---
 title: 'BitAsset: Exchange Bitcoin & Cryptocurrency Now'
-date: 2021-11-10
+date: 2026-10-30
 authors:
 - danny
 website: https://bitasset.com#deadLink
@@ -15,9 +15,13 @@ android:
   reviews: 29
   icon: com.bitasset.www.webp
   meta: removed
-  verdict: wip
+  verdict: custodial
 
 ---
+
+**⚠️ Warning:** BitAsset looks gone. On 2026-10-30 bitasset.com showed only a hosting maintenance page and the app was off Google Play.
+
+**Update 2026-10-30:** Its [archived store page](https://web.archive.org/web/20210417122833/https://play.google.com/store/apps/details?id=com.bitasset.www) from April 2021 describes a centralized exchange with deposits in RMB, USD and Taiwan dollar and "spot and futures" trading, so the verdict changes from wip to {% include verdictBadge.html verdict="custodial" type='short' %}. The provider is gone: [bitasset.com](https://bitasset.com) now shows only a Cloudways maintenance page, and [Cryptowisser](https://www.cryptowisser.com/exchange/bitasset-exchange/) has listed the exchange as dead since July 2021.
 
 ## App Description
 

@@ -1,6 +1,6 @@
 ---
 title: Bybt
-date: 2021-11-16
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bybt.com/
@@ -16,9 +16,11 @@ android:
   reviews: 49
   icon: com.bybt.bybtapp.webp
   meta: removed
-  verdict: fake
+  verdict: nowallet
 
 ---
+
+**Update 2026-10-30:** This app was never a wallet, and Bybt is now [CoinGlass](https://www.coinglass.com). An [archived Play store page from September 2021](https://web.archive.org/web/20210928202237/http://play.google.com/store/apps/details?id=com.bybt.bybtapp) describes it as a platform "where you can find the Bitcoin Liquidation Data, bitcoin longs vs shorts ratio and actively compare funding rates for crypto futures", with no wallet or trading. The rebrand removed the resemblance to {% include walletLink.html wallet='android/com.bybit.app' verdict='true' %} behind the earlier {% include verdictBadge.html verdict="fake" type='short' %} verdict, so, as for the iPhone app {% include walletLink.html wallet='iphone/com.xiandanxiaohai.Bybt' verdict='true' %}, we now give it the verdict {% include verdictBadge.html verdict="nowallet" type='short' %}.
 
 **Update 2022-01-04**: The new app coinglass does not have a bitcoin wallet and seems to have a general cryptocurrency information dashboard with cryptocurrency prices and charts.
 

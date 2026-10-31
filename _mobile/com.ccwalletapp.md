@@ -1,6 +1,6 @@
 ---
 title: 'CCWallet: Your Bitcoin Wallet.'
-date: 2021-09-19
+date: 2026-10-30
 authors:
 - leo
 - emanuel
@@ -37,6 +37,11 @@ iphone:
   repository: https://github.com/coincasso/ccwallet
 
 ---
+
+**⚠️ Warning:** The provider is gone. CoinCasso, the Estonian exchange behind
+CCWallet, is listed as dead in the
+[Cryptowisser exchange graveyard](https://www.cryptowisser.com/exchange/coincasso/)
+since March 2023, coincasso.com no longer loads, and ccwalletapp.com is gone.
 
 ## Android
 

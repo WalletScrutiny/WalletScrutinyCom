@@ -1,6 +1,6 @@
 ---
 title: NYE Coin
-date: 2022-06-23
+date: 2026-10-30
 authors:
 - danny
 website: https://nyecoin.io#deadLink
@@ -31,11 +31,13 @@ iphone:
   version: '1.1'
   reviews: 15
   icon: com.orbitnetwork.nyecoinpublish.webp
-  meta: defunct
+  meta: removed
   verdict: nosource
   developerName: Orbit Network Inc
 
 ---
+
+**⚠️ Warning:** NYE Coin's website now redirects to an unrelated site, and both apps are gone from the stores.
 
 ## Android
 

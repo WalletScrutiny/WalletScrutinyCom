@@ -1,6 +1,6 @@
 ---
 title: Blockchain.com Wallet Pro-buy bitcoin Eth & crypto
-date: 2021-04-30
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -13,9 +13,11 @@ android:
   reviews: 194
   icon: jb.tech.blockchainpro.webp
   meta: removed
-  verdict: wip
+  verdict: fake
 
 ---
+
+**Update 2026-10-30:** We now give this app the verdict {% include verdictBadge.html verdict="fake" type='short' %}. The analysis below already shows the imitation of {% include walletLink.html wallet='android/piuk.blockchain.android' verdict='true' %}: its name, a variation of its old logo, and a provider name one letter off from Blockchain Luxembourg S.A.
 
 **Update 2021-04-30**: This app is no more and probably scammed some people as
 the original analysis below suggests.

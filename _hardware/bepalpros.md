@@ -25,7 +25,7 @@ icon: bepalpros.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2021-12-08
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -33,6 +33,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** BEPAL appears to be out of business. Its website and code have been dead for years.
 
 The Bepal PRO S' website is [no longer online](https://twitter.com/BitcoinWalletz/status/1466331090105233408).
 

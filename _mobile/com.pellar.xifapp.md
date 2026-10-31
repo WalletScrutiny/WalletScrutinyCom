@@ -1,9 +1,9 @@
 ---
 title: X Infinity
-date: 2023-08-16
+date: 2026-10-30
 authors:
 - danny
-website: http://www.xinfinity.io
+website: http://www.xinfinity.io#deadLink
 social:
 - https://www.linkedin.com/company/xinfinityholding/
 redirect_from:
@@ -35,6 +35,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** X Infinity appears to be gone. Both apps are no longer in the stores, and its website was last archived as the X Infinity wallet in [June 2023](https://web.archive.org/web/20230604110623/https://www.xinfinity.io/); by May 2024 it showed an empty server page, and the domain now hosts an unrelated gambling site, so do not follow its links.
+
 ## Android
 
 ## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.pellar.xifapp&gl=us) 
@@ -43,7 +45,7 @@ iphone:
 >
 > Through our app payment solutions, merchants have access to usable important BI and AI solutions.
 
-### [The White Paper](https://www.xinfinity.io/wp-content/uploads/X-PAY_Whitepaper%202021_ENG_v2.1.pdf) 
+### [The White Paper](https://www.xinfinity.io/wp-content/uploads/X-PAY_Whitepaper%202021_ENG_v2.1.pdf#deadLink) 
 
 > Considering also the impact of total assets on real-time conversion, we introduce a payment protocol system (i.e. bank/custody system) to solve the liquidity problem. The module manages the user's investment assets on the boundary chain through contracts, and earnings on the main chain can be obtained after a certain period of time.
 

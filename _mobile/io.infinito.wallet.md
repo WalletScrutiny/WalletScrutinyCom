@@ -1,9 +1,9 @@
 ---
 title: Infinito Wallet - Crypto Walle
-date: 2023-08-25
+date: 2026-10-30
 authors:
 - leo
-website: https://www.infinitowallet.io
+website: https://web.archive.org/web/20250114160827/https://infinitowallet.io/
 twitter: Infinito_Ltd
 social:
 - https://www.linkedin.com/company/infinitoservices
@@ -37,6 +37,8 @@ iphone:
   developerName: Infinito Solution PTE
 
 ---
+
+**⚠️ Warning:** Infinito Wallet has shut down. Its old website now belongs to Gem Wallet, an unrelated project, and [says the Infinito project closed](https://web.archive.org/web/20260919070801/https://infinitowallet.io/). Funds can still be recovered by importing the recovery phrase into another wallet.
 
 ## Android
 

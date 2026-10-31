@@ -1,9 +1,9 @@
 ---
 title: UBFX Global
-date: 2021-11-10
+date: 2026-10-30
 authors:
 - danny
-website: http://www.ubfx.co.uk
+website: http://www.ubfx.co.uk#deadLink
 appCountry: th
 redirect_from:
 - /android/com.ubankfx.forex/
@@ -28,6 +28,8 @@ iphone:
   verdict: nosendreceive
 
 ---
+
+**⚠️ Warning:** This provider looks gone. Its website now leads to an unrelated site, ubfx.com leads to an ad site, and both apps are gone from the stores.
 
 ## Android
 

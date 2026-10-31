@@ -1,9 +1,9 @@
 ---
 title: CryptoKara
-date: 2025-05-30
+date: 2026-10-30
 authors:
 - danny
-website: https://www.cryptokara.com/
+website: https://web.archive.org/web/20241113022658/https://www.cryptokara.com/
 redirect_from:
 - /android/com.cryptokara/
 - /iphone/com.cryptokara.app/
@@ -32,6 +32,8 @@ iphone:
   developerName: AUTOMATED CHAIN LIMITED
 
 ---
+
+**⚠️ Warning:** CryptoKara's website is gone: the domain is [now for sale](https://www.hugedomains.com/domain_profile.cfm?d=cryptokara.com). The last [archived copy](https://web.archive.org/web/20241113022658/https://www.cryptokara.com/) is from November 2024, and both apps are gone from the stores.
 
 ## Android
 

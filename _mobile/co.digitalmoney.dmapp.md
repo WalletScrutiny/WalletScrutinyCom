@@ -1,9 +1,9 @@
 ---
 title: Digital Money - Buy/Send/Recie
-date: 2023-06-21
+date: 2026-10-30
 authors:
 - danny
-website: https://dmexchange.com
+website: https://dmexchange.com#deadLink
 appCountry: us
 redirect_from:
 - /android/co.digitalmoney.dmapp/
@@ -31,6 +31,8 @@ iphone:
   developerName: Digital Money ltd
 
 ---
+
+**⚠️ Warning:** Digital Money looks gone. Both apps are off the stores, and its site dmexchange.com no longer loads; the [last archived copy](https://web.archive.org/web/20231004172251/https://dmexchange.com/) is from October 2023.
 
 ## Android
 

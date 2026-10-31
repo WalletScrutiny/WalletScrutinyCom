@@ -1,6 +1,6 @@
 ---
 title: BuyCoins - Buy & Sell Bitcoin, Ethereum, Litecoin
-date: 2021-04-22
+date: 2026-10-30
 authors:
 - leo
 website: https://buycoins.africa
@@ -31,6 +31,15 @@ iphone:
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** BuyCoins looks gone. On 2026-10-30
+[buycoins.africa](https://buycoins.africa/) showed only "This service has been
+suspended by its owner", and the [buycoins_africa](https://x.com/buycoins_africa)
+account on X no longer exists. Its parent company Helicarrier
+[shut its Buycoins Pro exchange](https://www.mariblock.com/helicarrier-shuts-crypto-trading-platform-buycoins-pro/)
+in early 2024, and its [founders had left by 2025](https://techpoint.africa/news/buycoins-helicarrier-founders-quit/).
+
+**Update 2026-10-30:** The apps that later replaced this one are gone too: {% include walletLink.html wallet='android/africa.buycoins.buycoinsx.basic' verdict='true' %}, which replaced the Android app on 2021-04-16, and {% include walletLink.html wallet='iphone/africa.buycoins.BuycoinsX.pro' verdict='true' %} in the App Store.
 
 ## Android
 

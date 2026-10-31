@@ -20,17 +20,21 @@ price:
 repository: 
 icon: memoryboxpro2.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: noita
-date: 2021-12-08
+date: 2026-10-30
 signer: 
-twitter: Starteos
+twitter: Starteosio
 social:
 - https://www.facebook.com/starteos.io.7
 builds: 
 features: 
 
 ---
+
+**⚠️ Warning:** Starteos, the provider of this device, appears to be gone. Its website and companion app are no longer available.
+
+**Update 2026-10-30:** Starteos looks defunct. starteos.io is gone, so neither the [website](https://www.starteos.io#deadLink) nor its app download works, and the companion app {% include walletLink.html wallet='android/com.hconline.iso' verdict='true' %} is gone from Google Play and the App Store. The listing's X handle pointed to an unrelated personal account; it now points to [Starteosio](https://x.com/Starteosio).
 
 Announced on [twitter on May 17, 2020](https://twitter.com/Starteosio/status/1129233526597902336), it was difficult to find technical information, documentation, reviews and video reviews of the product. It does however have some Chinese language videos from its official YouTube channel: 
 

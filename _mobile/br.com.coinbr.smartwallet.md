@@ -1,9 +1,9 @@
 ---
 title: SmartWallet
-date: 2023-03-21
+date: 2026-10-30
 authors:
 - danny
-website: https://stratum.hk
+website: https://stratum.hk#deadLink
 twitter: stratumhk
 social:
 - https://www.linkedin.com/company/stratumbr
@@ -33,6 +33,8 @@ iphone:
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** Stratum appears to be gone. The stratum.hk website no longer shows the exchange, and [CoinGecko](https://www.coingecko.com/en/exchanges/stratum-exchange) lists the site as offline since October 2024.
 
 ## Android
 

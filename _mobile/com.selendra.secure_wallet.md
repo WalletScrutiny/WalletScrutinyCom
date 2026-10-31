@@ -1,6 +1,6 @@
 ---
 title: 'Bitriel: digital wallet'
-date: 2022-03-07
+date: 2026-10-30
 authors:
 - danny
 website: https://bitriel.com/
@@ -15,13 +15,15 @@ android:
   updated: 2024-04-29
   version: 1.0.0
   reviews: 4
+  repository: https://github.com/bitriel/bitriel-wallet
   icon: com.selendra.secure_wallet.webp
-  meta: defunct
+  meta: ok
   verdict: sourceavailable
   developerName: KOOMPI
-  repository: https://github.com/bitriel/bitriel-wallet
 
 ---
+
+**Update 2026-10-30:** The app is back on Google Play as "Bitriel: digital wallet" by KOOMPI, so it is no longer defunct. The repository we reviewed, [bitriel/bitriel-wallet](https://github.com/bitriel/bitriel-wallet), was archived in December 2023. Newer code for the same app ID lives in [bitriel/bitriel-monorepo](https://github.com/bitriel/bitriel-monorepo), which has no license file.
 
 **Update 2022-02-26**: This app is not available anymore.
 

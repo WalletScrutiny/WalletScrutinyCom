@@ -4,7 +4,7 @@ appId: belibitcoin
 authors:
 - danny
 released: 2019-11-05
-discontinued: 
+discontinued: 2024-09-23
 updated: 
 version: 
 binaries: 
@@ -12,16 +12,16 @@ dimensions:
 weight: 
 provider: Beli-Bitcoin
 providerWebsite: 
-website: https://beli-bitcoin.co/
+website: https://beli-bitcoin.co/#deadLink
 shop: 
 country: ID
 price: 
 repository: 
 icon: belibitcoin.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: wip
-date: 2023-03-10
+date: 2026-10-30
 signer: 
 twitter: belibitcoinindo
 social:
@@ -30,6 +30,8 @@ social:
 features: 
 
 ---
+
+**⚠️ Warning:** Beli Bitcoin appears to be gone and no longer offers this card. By September 2024 its website forwarded to a P2P trading page on beli.finance, whose domain has since expired, and beli-bitcoin.co no longer loads.
 
 ## Product Description 
 

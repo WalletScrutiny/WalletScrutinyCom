@@ -1,6 +1,6 @@
 ---
 title: Bake
-date: 2026-04-13
+date: 2026-10-30
 authors:
 - danny
 website: https://bake.io
@@ -39,6 +39,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** Bake [suspended all crypto services on 15 April 2026](https://bake.io), citing the MiCA regulation. Remaining crypto balances were converted to US dollars and handed to a custodial institution for withdrawal; the apps are gone from both stores.
+
 ## Android
 
 {% include review/bitgo.md %}
@@ -62,7 +64,7 @@ The Monetary Authority of Singapore (MAS) requires us to provide this risk warni
 
 In Section 7.5, the Terms further adds that the company is not liable for any fluctuation in the market value of the supported tokens in their _custody_.
 
-In the article entitled "[How are my assets protected](https://support.cakedefi.com/hc/en-us/articles/4404022725401-How-are-my-assets-protected-)", it describes the custodial solution for Cake DeFi.
+In the article entitled "[How are my assets protected](https://web.archive.org/web/20230605172254/https://support.cakedefi.com/hc/en-us/articles/4404022725401-How-are-my-assets-protected-)", it describes the custodial solution for Cake DeFi.
 
 > Cake DeFi Wallet<br><br>
 Cake DeFi currently utilises the BitGo Custody wallet solution for all Cake DeFi user wallets, as can be seen on Cake DeFi’s ‘Balances’ page.

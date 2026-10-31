@@ -1,6 +1,6 @@
 ---
 title: XWallet
-date: 2022-12-28
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
@@ -22,7 +22,7 @@ android:
   version: 2.8.7
   reviews: 207
   icon: com.pundix.xwallet.webp
-  meta: obsolete
+  meta: defunct
   verdict: custodial
   developerName: Pundi X Labs
 iphone:
@@ -34,11 +34,15 @@ iphone:
   version: 2.9.4
   reviews: 85
   icon: com.pundix.wallet.webp
-  meta: obsolete
+  meta: defunct
   verdict: custodial
   developerName: PUNDI X LABS
 
 ---
+
+**⚠️ Warning:** Pundi X shut down XWallet on 2023-12-31. Since 2024-01-01 users can no longer withdraw their coins from it.
+
+**Update 2026-10-30:** Pundi X [decommissioned XWallet](https://support.pundix.com/hc/en-us/articles/20170594847385-Embracing-Web3-XWallet-decommissioning-and-self-custodial-wallet-support) by the end of 2023 and stopped withdrawals from 2024-01-01, even though both apps are still in the stores. Its successor is the self-custodial {% include walletLink.html wallet='android/com.pundix.functionx' verdict='true' %}.
 
 ## Android
 

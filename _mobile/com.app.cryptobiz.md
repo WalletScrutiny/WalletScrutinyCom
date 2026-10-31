@@ -1,9 +1,9 @@
 ---
 title: 'Cryptobiz: BTC, Crypto Trading'
-date: 2023-06-30
+date: 2026-10-30
 authors:
 - danny
-website: https://cryptobiz.exchange/
+website: https://cryptobiz.exchange/#deadLink
 redirect_from:
 - /android/com.app.cryptobiz/
 android:
@@ -19,6 +19,8 @@ android:
   developerName: Cryptobiz Exchange
 
 ---
+
+**⚠️ Warning:** Cryptobiz appears to be gone. The app is no longer on Google Play, and its web address now shows an unrelated forex broker comparison page instead of the exchange ([the exchange as archived in 2023](https://web.archive.org/web/20230321220224/https://www.cryptobiz.exchange/terms-and-condition)).
 
 <div class="alertBox"><div>Some users on Google Play Reviews have reported not being able to access their funds since 2022.
 </div> </div>
@@ -40,7 +42,7 @@ android:
 > Oh Oh! You are Offline! Please turn on your internet connection.
 
 - The website on the other hand, displays a Cloudflare Host error.
-- We checked for the archive of the site, and found the [Terms and Conditions](https://www.cryptobiz.exchange/terms-and-condition), where it is stated:
+- We checked for the archive of the site, and found the [Terms and Conditions](https://web.archive.org/web/20230321220224/https://www.cryptobiz.exchange/terms-and-condition), where it is stated:
 
 > the Company’s sole discretion, you have successfully opened your Account and satisfied the KYC process (as described below).
 >

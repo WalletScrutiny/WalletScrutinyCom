@@ -1,6 +1,6 @@
 ---
 title: AAX-Trade Crypto, Bitcoin, ETH
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: https://www.aax.com#deadLink
@@ -24,6 +24,8 @@ android:
   developerName: AAX
 
 ---
+
+**⚠️ Warning:** AAX stopped all withdrawals in November 2022 and never reopened; Hong Kong police later arrested two of its executives ([Cointelegraph](https://cointelegraph.com/news/aax-reiterates-withdrawal-halt-is-unrelated-to-ftx-contagion), [Cointelegraph](https://cointelegraph.com/news/56-million-moved-defunct-exchange-executives-fled-report)). The exchange and its website are gone.
 
 AAX Exchange has the following products:
 - Futures

@@ -1,6 +1,6 @@
 ---
 title: CoinsBank Mobile Wallet
-date: 2024-04-26
+date: 2026-10-30
 authors:
 - danny
 website: https://web.archive.org/web/20250325221559/https://coinsbank.com/
@@ -19,6 +19,8 @@ android:
   developerName: CoinsBank
 
 ---
+
+**⚠️ Warning:** CoinsBank appears to be gone. Its website stopped loading in September 2025, and by January 2026 the domain showed only a parking page ([archive](https://web.archive.org/web/20260124202442/http://coinsbank.com/)). [Cryptowisser](https://www.cryptowisser.com/exchange/coinsbank/) lists the exchange as permanently shut down, without an official closure notice.
 
 **2021-09-13:** We downloaded the app, but attempting to register a new account resulted in a "service is unavailable" error.
 

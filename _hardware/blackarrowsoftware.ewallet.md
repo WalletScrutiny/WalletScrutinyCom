@@ -4,7 +4,7 @@ appId: blackarrowsoftware.ewallet
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2022-03-23
 updated: 
 version: 
 binaries: 
@@ -14,17 +14,17 @@ dimensions:
 - 2.3
 weight: 7
 provider: Black Arrow Software
-providerWebsite: https://www.blackarrowsoftware.com/
+providerWebsite: https://www.blackarrowsoftware.com/#deadLink
 website: 
-shop: http://www.blackarrowsoftware.com/store/ewallet.html
+shop: https://web.archive.org/web/20191116164822/http://www.blackarrowsoftware.com/store/ewallet.html
 country: 
 price: 24.99GBP
 repository: 
 icon: blackarrowsoftware.ewallet.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: nosource
-date: 2022-04-04
+date: 2026-10-30
 signer: 
 twitter: blackarrowsoft
 social:
@@ -70,4 +70,4 @@ From [a blogpost in 2015](http://www.stellaw.info/blog/2015/3/18/black-arrow-ewa
 
 This product **does not have any source code available for review.**
 
-With the site down and the company's social media inactive, we have to assume that this product is now **defunct.** 
+With the site down and the company's social media inactive, we have to assume that this product is now **discontinued.** 

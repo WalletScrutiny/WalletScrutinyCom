@@ -12,16 +12,16 @@ dimensions:
 weight: 
 provider: EOS.CYBEX
 providerWebsite: 
-website: https://cybex.io/zh-cn/index.html
+website: https://web.archive.org/web/20190209000105/https://cybex.io/zh-cn/index.html
 shop: 
 country: CN
 price: 
 repository: 
 icon: eos.cybex.coldwalletcard.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2022-05-18
+date: 2026-10-30
 signer: 
 twitter: EOSCYBEX
 social: 
@@ -29,6 +29,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** EOS.CYBEX is gone: cybex.io is for sale, and the cold wallet card never shipped.
 
 ## Background Information
 

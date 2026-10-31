@@ -1,6 +1,6 @@
 ---
 title: 暗号資産CFD‐ 岡三オンライン
-date: 2024-10-06
+date: 2026-10-30
 authors:
 - danny
 website: https://www.okasan-online.co.jp/
@@ -31,6 +31,8 @@ iphone:
   developerName: 岡三オンライン証券株式会社
 
 ---
+
+**⚠️ Warning:** Okasan Online [ended its crypto CFD service](https://www.okasan-online.co.jp/information/2024/0322a/) in 2024. New trades stopped on 2024-06-19, open positions had to be closed by 2024-09-13 and the last withdrawals were on 2024-09-16.
 
 ## Android
 

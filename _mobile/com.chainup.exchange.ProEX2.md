@@ -1,6 +1,6 @@
 ---
 title: Pro Exchange
-date: 2025-03-14
+date: 2026-10-30
 authors:
 - danny
 social:
@@ -8,7 +8,7 @@ social:
 - https://t.me/ProExchange2
 - https://discord.com/invite/EG8rVx7qpU#deadLink
 - https://www.instagram.com/proex.io
-- https://www.proex.io
+- https://www.proex.io#deadLink
 redirect_from:
 - /android/com.chainup.exchange.ProEX2/
 android:
@@ -24,6 +24,8 @@ android:
 
 ---
 
+**⚠️ Warning:** ProEX appears to be gone. Its website and help center no longer load; the [last archived copy of the exchange](https://web.archive.org/web/20240224061421/https://proex.io/zh_CN/) is from February 2024, after which the domain showed only a blank page and then a parking redirect. The app is no longer on Google Play.
+
 ## App Description from Google Play 
 
 > ProEX is the world's leading cryptocurrency trading platform.
@@ -34,7 +36,7 @@ android:
 
 ## Analysis 
 
-From the site's [security policy:](https://proex.zendesk.com/hc/en-us/articles/900000456566-Security-Policy) 
+From the site's [security policy:](https://proex.zendesk.com/hc/en-us/articles/900000456566-Security-Policy#deadLink) 
 
 > The overwhelming majority of system funds are stored in offline, cold wallets. Only approximately 1% of blockchain assets are accessible in hot wallets for day-to-day platform operations. As an added protection, the cold wallets are not available from the platform or the platform servers. The funds in offline cold storage require manual intervention by several members of our management to access.
 

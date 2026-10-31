@@ -1,6 +1,6 @@
 ---
 title: Coinals:Wallet
-date: 2021-11-22
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -17,6 +17,10 @@ android:
   developerName: COINALS_INC
 
 ---
+
+**⚠️ Warning:** Coinals appears to be gone. Its website coinals.com no longer loads, and the
+[Wayback Machine](https://web.archive.org/web/2023*/coinals.com) has nothing but redirects for it after
+June 2023.
 
 ## App Description
 

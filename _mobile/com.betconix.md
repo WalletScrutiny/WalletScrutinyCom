@@ -1,9 +1,9 @@
 ---
 title: 'Betconix: Buy Bitcoin & Crypto'
-date: 2024-04-19
+date: 2026-10-30
 authors:
 - danny
-website: https://betconix.com/
+website: https://web.archive.org/web/20230112044905/https://betconix.com/
 twitter: betconix
 social:
 - https://www.facebook.com/GNBetconixSTOU
@@ -22,6 +22,8 @@ android:
   developerName: GN Betconix ST s.r.o.
 
 ---
+
+**⚠️ Warning:** Betconix appears to be gone. Since at least May 2023 betconix.com no longer shows the exchange: the Internet Archive shows a [parked domain](https://web.archive.org/web/20230503105323/https://betconix.com/), and today it hosts an unrelated casino review site. The [last archived exchange site](https://web.archive.org/web/20230112044905/https://betconix.com/) is from January 2023. We found no shutdown notice.
 
 ## App Description
 

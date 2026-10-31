@@ -22,9 +22,9 @@ price: 79USD
 repository: 
 icon: bitlock.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2022-05-04
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -32,6 +32,10 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** The Bitlock project appears to be gone. Its domain is for sale.
+
+**Update 2026-10-30:** Bitlock never shipped and the project is gone, so we mark it defunct. On 2026-10-30 bitlock.io redirected to a GoDaddy page offering the domain for sale.
 
 ## Background 
 

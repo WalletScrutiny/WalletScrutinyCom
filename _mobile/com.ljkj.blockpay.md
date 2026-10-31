@@ -1,9 +1,9 @@
 ---
 title: CPay
-date: 2024-10-10
+date: 2026-10-30
 authors:
 - danny
-website: http://www.cpay.finance/
+website: http://www.cpay.finance/#deadLink
 redirect_from:
 - /android/com.ljkj.blockpay/
 android:
@@ -19,6 +19,8 @@ android:
   developerName: Block Easy Tech Limited
 
 ---
+
+**⚠️ Warning:** CPay appears to be gone. Its website is now a domain-for-sale page.
 
 ## App Description from Google Play
 

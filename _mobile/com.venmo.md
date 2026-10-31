@@ -1,6 +1,6 @@
 ---
 title: Venmo
-date: 2022-04-12
+date: 2026-10-30
 authors:
 - leo
 website: https://venmo.com/
@@ -21,7 +21,7 @@ android:
   reviews: 363589
   icon: com.venmo.webp
   meta: ok
-  verdict: nosendreceive
+  verdict: custodial
   developerName: PayPal Mobile
 iphone:
   appId: net.kortina.labs.Venmo
@@ -33,10 +33,12 @@ iphone:
   reviews: 15472710
   icon: net.kortina.labs.Venmo.webp
   meta: ok
-  verdict: nosendreceive
+  verdict: custodial
   developerName: Venmo
 
 ---
+
+**Update 2026-10-30:** The verdict of both apps changes from {% include verdictBadge.html verdict="nosendreceive" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}. Venmo now lets US users transfer crypto to other Venmo and PayPal accounts and to wallets outside that network, and receive it from them ([crypto FAQ](https://help.venmo.com/cs/articles/cryptocurrency-faq-vhel141), [crypto page](https://venmo.com/about/crypto)), while the coins stay in the Venmo account. The text below predates this and its conclusion that bitcoin cannot leave Venmo is outdated.
 
 ## Android
 

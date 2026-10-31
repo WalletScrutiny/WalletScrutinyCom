@@ -1,6 +1,6 @@
 ---
 title: EBC Wallet
-date: 2021-11-10
+date: 2026-10-30
 authors:
 - leo
 website: https://ebc.eco#deadLink
@@ -20,6 +20,8 @@ android:
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** EBC Wallet looks gone. The ebc.eco website is gone and the app is off Google Play.
 
 **Update 2021-10-26**: This app is no more.
 

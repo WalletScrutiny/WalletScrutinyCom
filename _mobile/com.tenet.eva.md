@@ -1,9 +1,9 @@
 ---
 title: Eva Crypto Wallet
-date: 2025-12-16
+date: 2026-10-30
 authors:
 - danny
-website: https://tenet.org/eva
+website: https://tenet.org/eva#deadLink
 redirect_from:
 - /android/com.tenet.eva/
 android:
@@ -17,6 +17,8 @@ android:
   developerName: NETTE TECHNOLOGIES
 
 ---
+
+**⚠️ Warning:** Tenet's website no longer loads: the tenet.org domain registration has expired, and the [Eva page](https://web.archive.org/web/20241111191939/https://tenet.org/eva) survives only in the Wayback Machine.
 
 ## App Description
 

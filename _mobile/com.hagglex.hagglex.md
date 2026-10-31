@@ -1,9 +1,9 @@
 ---
 title: 'HaggleX: Buy/Sell BTC and ETH'
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
-website: http://www.hagglex.com
+website: http://www.hagglex.com#deadLink
 twitter: hagglexintl
 social:
 - https://www.linkedin.com/company/hagglex
@@ -36,13 +36,15 @@ iphone:
 
 ---
 
+**⚠️ Warning:** HaggleX looks gone. Both apps are no longer in the stores, and hagglex.com now only forwards to a GoDaddy page offering the domain for sale. The non-custodial wallet the whitepaper promised never got a listing here.
+
 ## Android
 
 The app has a short Play Store description:
 
 > With HaggleX, anyone can buy and sell BITCOIN ETHEREUM, EOS ,TRON, DASH and DOGE coin.
 
-From the [Privacy Policy:](https://hagglex.com/docs/privacy-policy.pdf)
+From the [Privacy Policy:](https://web.archive.org/web/20210508031648/https://hagglex.com/docs/privacy-policy.pdf)
 
 > **Personal information we collect**<br>
 We collect information that relates to you (“Personal Data”) in connection with your use of the Website, our Services. or otherwise in the context of our relationship with you. The types of Personal Data that we may obtain from you may include: <br> [...]
@@ -55,7 +57,7 @@ We collect information that relates to you (“Personal Data”) in connection w
 
 We downloaded the app and were able to access the BTC wallet. It has capabilities to send and receive Bitcoins via a public address or a QR code. The app however, did not generate a mnemonic or a seed phrase. There's also no option to create a backup. Furthermore, the service requires KYC and identity verification for different user levels. This is indicative of a custodial service.
 
-However it noted in [its whitepaper](https://hagglex.com/docs/hagglex-whitepaper.pdf) that it will be offering a non-custodial wallet as well as P2P trading in the near future.
+However it noted in [its whitepaper](https://web.archive.org/web/20210508032130/https://hagglex.com/docs/hagglex-whitepaper.pdf) that it will be offering a non-custodial wallet as well as P2P trading in the near future.
 
 Pending the release of their non-custodial app, this app is **custodial** and thus **not verifiable.**
 

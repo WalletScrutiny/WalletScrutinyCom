@@ -1,12 +1,12 @@
 ---
 title: Tbit
-date: 2024-09-10
+date: 2026-10-30
 authors:
 - danny
-website: https://www.tbitex.com/
+website: https://www.tbitex.com/#deadLink
 social:
 - https://www.linkedin.com/company/tbit-global
-- https://www.tbitex.com
+- https://www.tbitex.com#deadLink
 redirect_from:
 - /android/com.tbit.android/
 - /iphone/TbitApp.com/
@@ -35,6 +35,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** Tbit looks gone. Both apps are gone from the stores, and tbitex.com now only offers the domain for sale.
+
 ## Android
 
 ## App Description from Google Play 
@@ -45,7 +47,7 @@ iphone:
 
 > It has built its own hot and cold wallet system, multi-sign private keys and distributed storage which helps Tbit to avoid all the negative impacts of shared services and ensure the safety of users' funds in an all-round way.
 
-### [User Agreement (Google Cache)](https://webcache.googleusercontent.com/search?q=cache:et5HPHxNBT4J:https://www.tbitex.com/user-agreement/&cd=2&hl=en&ct=clnk&gl=ph)
+### [User Agreement (Google Cache)](https://webcache.googleusercontent.com/search?q=cache:et5HPHxNBT4J:https://www.tbitex.com/user-agreement/&cd=2&hl=en&ct=clnk&gl=ph#deadLink)
 
 ## Analysis 
 

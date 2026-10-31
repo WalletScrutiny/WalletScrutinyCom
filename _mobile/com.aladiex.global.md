@@ -1,9 +1,9 @@
 ---
 title: Aladiex
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
-website: https://aladiex.com
+website: https://aladiex.com#deadLink
 twitter: Aladiexchange
 social:
 - https://www.facebook.com/AladiEx
@@ -22,6 +22,8 @@ android:
 
 ---
 
+**⚠️ Warning:** AladiEx appears to be gone. Its website now forwards to a page offering the [aladiex.com domain for sale](https://www.hugedomains.com/domain_profile.cfm?d=aladiex.com), and the exchange site was [last archived in January 2022](https://web.archive.org/web/20220116101543/https://aladiex.com/).
+
 ## App Description
 
 AladiEx is a crypto trading platform.
@@ -34,7 +36,7 @@ It has wallet services, although it is unlikely to provide any private keys.
 
 ## The Site
 
-From the [Terms of Use](https://aladiex.com/term_of_use), Termination of Agreement:
+From the [Terms of Use](https://web.archive.org/web/20210726201017/https://aladiex.com/term_of_use), Termination of Agreement:
 
 > You agree that AladiEx shall have the right to immediately suspend your account (and any accounts beneficially owned by related entities or affiliates), freeze or lock the funds in all such accounts, and suspend your access to AladiEx for any reason including if it suspects any such accounts to be in violation of these Terms, our Privacy Policy, or any applicable laws and regulations.
 

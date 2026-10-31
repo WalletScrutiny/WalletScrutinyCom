@@ -1,9 +1,9 @@
 ---
 title: 'ZT: BTC Memes & Meta'
-date: 2025-03-11
+date: 2026-10-30
 authors:
 - danny
-website: https://www.ztb.im/
+website: https://www.ztb.im/#deadLink
 twitter: ZT_exchange
 social:
 - https://www.facebook.com/ZT.exchange
@@ -29,6 +29,8 @@ android:
 
 ---
 
+**⚠️ Warning:** ZT appears to be gone. Its ztb.im website showed a [domain parking page](https://web.archive.org/web/20251124071238/https://www.ztb.im/) by November 2025 and now no longer loads, and ztbzh.net, which hosted its registration agreement, is a domain for sale. The app is no longer on Google Play.
+
 ## App Description from Google Play
 
 > ZT Global is the most popular cryptocurrency exchange that can trade LTC, ETH against USDT pair, This is an official App of ZT Global (www.ztb.im) that provides you easy, safe and fast digital assets trading experiences.
@@ -37,6 +39,6 @@ android:
 
 - This is a cryptocurrency exchange.
 - The site previously included details about their security measures on their site, but we can no longer find this information. It is available when you Google the URL with the search term "cold". A result will appear with a cached version
-- Section 5.5 of [Registration Agreement](https://www.ztbzh.net/clause?id=228) indicates the right of the platform to suspend or terminate the services of the website at any time. This included section 5.10 which blocks the user from accessing the website. 
+- Section 5.5 of [Registration Agreement](https://www.ztbzh.net/clause?id=228#deadLink) indicates the right of the platform to suspend or terminate the services of the website at any time. This included section 5.10 which blocks the user from accessing the website. 
 - The private keys are tied with the user accounts which is controlled by the exchange.
 - This makes it a **custodial** provider.

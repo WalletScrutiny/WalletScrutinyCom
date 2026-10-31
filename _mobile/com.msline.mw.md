@@ -1,9 +1,9 @@
 ---
 title: MasterWallet
-date: 2023-08-16
+date: 2026-10-30
 authors:
 - danny
-website: http://x-widget.org/
+website: http://x-widget.org/#deadLink
 redirect_from:
 - /android/com.msline.mw/
 - /iphone/masterwallet.ai/
@@ -31,6 +31,8 @@ iphone:
   developerName: X-widget
 
 ---
+
+**⚠️ Warning:** MasterWallet appears to be gone. Both apps are no longer in the stores, the app's own site masterwallet.ai no longer loads ([last archived copy](https://web.archive.org/web/20230926114418/https://masterwallet.ai/) from September 2023), and the developer's domain x-widget.org has expired.
 
 ## Android
 

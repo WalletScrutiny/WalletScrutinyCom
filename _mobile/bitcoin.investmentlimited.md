@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Investment
-date: 2021-11-30
+date: 2026-10-30
 authors:
 - danny
 website: http://www.forexsignals99.com#deadLink
@@ -25,6 +25,8 @@ android:
 ⚠️ Warning: There are several factors concerning this app that gives us pause. We recommend exercising caution among these kinds of apps.
 
 </div></div>
+
+**⚠️ Warning:** This provider looks gone. Its website no longer loads and its apps are no longer on Google Play.
 
 ## App Description
 

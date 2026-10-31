@@ -19,9 +19,9 @@ price:
 repository: 
 icon: gildiwallet.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2022-04-27
+date: 2026-10-30
 signer: 
 twitter: GILDIWallet
 social:
@@ -30,6 +30,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Gildi is gone, and the Gildi Wallet never shipped.
 
 ## Product Description
 

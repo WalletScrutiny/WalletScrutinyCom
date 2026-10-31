@@ -1,9 +1,9 @@
 ---
 title: FatBTC
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
-website: https://www.fatbtc.com
+website: https://www.fatbtc.com#deadLink
 twitter: fatbtc
 appCountry: us
 redirect_from:
@@ -34,6 +34,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** FatBTC appears to be gone. Its website stopped loading in late 2024 ([last working snapshot, September 2024](https://web.archive.org/web/20240903030705/https://fatbtc.com/)), and by August 2026 the domain showed an unrelated headphone deals site ([snapshot](https://web.archive.org/web/20260821062137/https://fatbtc.com/)). Both apps are gone from the stores.
+
 ## Android
 
 ## App Description
@@ -47,7 +49,7 @@ There's nothing that really indicates the security of this app other than the fa
 ## The Site
 
 ### Terms of Use
-From the site's [User Agreement,](https://www.fatbtc.com/service) **【USERS’ RIGHT AND LIMITATIONS TO LICENSE USE, 4:】**
+From the site's [User Agreement,](https://web.archive.org/web/20231209121618/https://fatbtc.com/service) **【USERS’ RIGHT AND LIMITATIONS TO LICENSE USE, 4:】**
 
 > This website has the right to inquire, **freeze** or deduct the items and accounts of the user in according to the requirements of any applicable judicial organizations, administrative organizations and military organizations, including but not limited to public security organizations, procuratorial organizations, courts, customs, tax authorities and so on.
 
