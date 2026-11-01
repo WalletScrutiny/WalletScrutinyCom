@@ -1,6 +1,6 @@
 ---
 title: 'Zumo: Bitcoin & Crypto Wallet'
-date: 2025-09-09
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -38,6 +38,8 @@ iphone:
   developerName: Zumo Financial Services Limited
 
 ---
+
+**⚠️ Warning:** Zumo has closed the app. Trading in the app ended on 1 August 2025, remaining crypto in Zumo Trade was converted to GBP and paid out, and all app accounts are closed. Zumo now only sells crypto infrastructure to businesses ([Zumo](https://zumo.co.uk/closed-app/)).
 
 ## Android
 
