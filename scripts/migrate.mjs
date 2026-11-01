@@ -92,16 +92,6 @@ const migration = function (header, body, fileName, categoryHelper, options = {}
   if (header.website != null && !header.website.startsWith('http')) {
     header.website = null;
   }
-  const iconCategory = options.iconCategory || category;
-  const iconExtension = header.icon ? path.extname(header.icon) : '';
-  if (header.icon && header.appId && path.basename(header.icon, iconExtension) !== header.appId) {
-    const newIcon = `${header.appId}${iconExtension}`;
-    console.error(`# ${label}: unexpected icon ${header.icon}. Action required!
-mv images/wIcons/${iconCategory}/tiny/{${header.icon},${newIcon}}
-mv images/wIcons/${iconCategory}/small/{${header.icon},${newIcon}}
-mv images/wIcons/${iconCategory}/{${header.icon},${newIcon}}`);
-    header.icon = newIcon;
-  }
   if (header.dimensions) {
     try {
       if (header.dimensions.length !== 3) {
@@ -158,7 +148,6 @@ function migrateMobileWallets () {
         allowedHeaders: allowedPlatformKeys(helperPlayStore),
         metaCategory: 'android',
         setAppIdFromFile: false,
-        iconCategory: 'android',
       });
     }
     if (mobile.iphone) {
@@ -168,7 +157,6 @@ function migrateMobileWallets () {
         allowedHeaders: allowedPlatformKeys(helperAppStore),
         metaCategory: 'iphone',
         setAppIdFromFile: false,
-        iconCategory: 'iphone',
       });
     }
 

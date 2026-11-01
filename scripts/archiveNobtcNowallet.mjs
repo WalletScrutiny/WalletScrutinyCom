@@ -27,10 +27,11 @@ async function deleteImage(iconPath) {
   }
 }
 
-async function deleteImagesForFile(platform, icon) {
-  if (!icon?.trim()) {
+async function deleteImagesForFile(platform, appId) {
+  if (!appId?.trim()) {
     return { deleted: 0, errors: [] };
   }
+  const icon = `${appId}.webp`;
 
   const basePath = path.join('images', 'wIcons', platform);
   const imagePaths = IMAGE_SUBDIRS.map(subdir => 
@@ -199,9 +200,9 @@ async function processMobileFile(fileName) {
     let imagesDeleted = 0;
     const imageErrors = [];
     for (const storePlatform of ['android', 'iphone']) {
-      const icon = header[storePlatform]?.icon;
-      if (!icon?.trim()) continue;
-      const result = await deleteImagesForFile(storePlatform, icon);
+      const appId = header[storePlatform]?.appId;
+      if (!appId?.trim()) continue;
+      const result = await deleteImagesForFile(storePlatform, appId);
       imagesDeleted += result.deleted;
       imageErrors.push(...result.errors);
     }
@@ -251,7 +252,7 @@ async function processFile(platform, fileName) {
     }
 
     const updatedHeader = removeFields(header);
-    const imageResult = await deleteImagesForFile(platform, header.icon);
+    const imageResult = await deleteImagesForFile(platform, header.appId);
     const archiveDir = await ensureArchiveDirectory(platform);
     
     const archiveFilePath = path.join(archiveDir, fileName);
