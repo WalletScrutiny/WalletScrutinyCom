@@ -16,5 +16,7 @@ details: >
   a wallet itself.
 
 
-  The same goes for off-ramps: if you can only send bitcoin (or gift cards) in
-  to be paid out in fiat, the app never holds bitcoin you could take back out.
+  The same goes for off-ramps that hold no balance at all: bitcoin (or gift
+  cards) go in and fiat goes straight out to your bank. An off-ramp that keeps
+  your fiat until you cash out is a wallet, just not for Bitcoin. One that keeps
+  a bitcoin balance you can't send out is 'Can't send or receive bitcoins'.
