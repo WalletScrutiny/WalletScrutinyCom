@@ -26,6 +26,9 @@ details: >
   bearer item with its key printed or sealed on it. Hardware is 'defunct' when
   it cannot be used anymore, because it needs the provider's app, server or
   redemption service and those are gone.
+  The same holds for apps: an app that works without the provider's servers,
+  such as a wallet that connects to the Bitcoin network directly, does not go
+  'defunct' when its provider disappears.
 
 
   On a 'vapor' product, 'defunct' means the provider is gone, too: what was
