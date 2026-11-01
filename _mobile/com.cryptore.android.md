@@ -1,16 +1,16 @@
 ---
 title: COINLORD
-date: 2024-04-19
+date: 2026-10-30
 authors:
 - danny
-website: https://coinlord.org/
+website: https://coinlord.org/#deadLink
 twitter: coinlord_trade
 social:
 - https://www.facebook.com/coinlordtradee
 - https://www.linkedin.com/company/coinlord.trading
 - https://t.me/coinlord_official
 - https://www.instagram.com/coinlordtrade
-- https://coinlord.org
+- https://coinlord.org#deadLink
 redirect_from:
 - /android/com.cryptore.android/
 - /iphone/com.cryptore.nine99/
@@ -40,6 +40,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** COINLORD appears to have closed. Both apps are gone from the stores, the [website](https://coinlord.org/#deadLink) no longer loads (last [archived](https://web.archive.org/web/20250908214714/https://coinlord.org/) as the exchange in September 2025), and its [Telegram channel](https://t.me/s/coinlord_official) has been silent since March 2023.
+
 ## Android
 
 ## App Description from Google Play
@@ -48,7 +50,7 @@ iphone:
 
 ## Analysis
 
-- [(Link to CoinLord's Terms and Conditions)](https://coinlord.org/terms-conditions)
+- [(Link to CoinLord's Terms and Conditions)](https://web.archive.org/web/20250320215951/https://coinlord.org/terms-conditions)
 - We were able to register by using a temporary Indian phone number.
 - Once inside, we found a BTC wallet, but its public key starts with 0x:
   > 0x3c8774667713f6073949699684f0b87bb417a319
@@ -63,7 +65,7 @@ iphone:
 - Apart from this, key indicators in the terms and conditions do point to a custodial service:
   - Section 11. Ability to terminate user account and access
   - Section 12. Right to modify site's contents at any time.
-  - Limitation of users to [Indian nationals](https://coinlord.org/faq)  
+  - Limitation of users to [Indian nationals](https://web.archive.org/web/20241210014132/https://coinlord.org/faq)  
   - KYC requirement prior to withdrawal.
 
 ## Conclusion

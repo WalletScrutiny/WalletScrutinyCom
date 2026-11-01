@@ -4,15 +4,15 @@ appId: secalot
 authors:
 - kiwilamb
 released: 2018-01-01
-discontinued: 
+discontinued: 2022-01-23
 updated: 
 version: 
 binaries: 
 dimensions: 
 weight: 
 provider: 
-providerWebsite: https://www.secalot.com
-website: https://www.secalot.com/
+providerWebsite: https://web.archive.org/web/20211209130933/https://www.secalot.com/
+website: https://web.archive.org/web/20211209130933/https://www.secalot.com/
 shop: https://www.secalot.com/product/secalot-dongle#deadLink
 country: 
 price: 50EUR
@@ -21,7 +21,7 @@ icon: secalot.webp
 bugbounty: 
 meta: discontinued
 verdict: noita
-date: 2023-09-29
+date: 2026-10-30
 signer: 
 twitter: SecalotDongle
 social:
@@ -30,6 +30,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Secalot appears to be gone. Its [website](https://web.archive.org/web/20220131021556/https://www.secalot.com/cgi-sys/suspendedpage.cgi) was suspended in January 2022, later showed an unrelated VPN blog, and now no longer loads.
 
 **Edit:**
 

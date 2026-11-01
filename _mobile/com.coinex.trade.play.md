@@ -1,6 +1,6 @@
 ---
 title: 'CoinEx: Buy Bitcoin & Crypto'
-date: 2020-04-15
+date: 2026-10-30
 authors:
 - leo
 website: https://www.coinex.com/
@@ -38,6 +38,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** CoinEx is closing. Spot trading ended on 2026-09-29, and [withdrawals close for good on 2026-12-22](https://decrypt.co/378324/coinex-shutting-down). Withdraw any funds before then.
+
 ## Android
 
 The description on Google Play starts not so promising:
@@ -51,6 +53,9 @@ custodial and thus **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** CoinEx now publishes its exchange on iPhone as a new app,
+{% include walletLink.html wallet='iphone/com.coinex.trade' verdict='true' %}.
 
 **Update 2022-01-13**: This app is not available anymore.
 

@@ -1,6 +1,6 @@
 ---
 title: Conglex
-date: 2025-04-06
+date: 2026-10-30
 authors:
 - danny
 website: http://conglex.com
@@ -35,6 +35,8 @@ iphone:
   developerName: Conglex Limited
 
 ---
+
+**⚠️ Warning:** Conglex appears to be gone. Both apps are gone from the stores, and the [website](https://conglex.com#deadLink) no longer shows the product: it was still up in [January 2026](https://web.archive.org/web/20260107031212/https://conglex.com/) and now only shows a hosting placeholder.
 
 ## Android
 

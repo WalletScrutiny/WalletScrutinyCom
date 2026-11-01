@@ -1,9 +1,9 @@
 ---
 title: icewal
-date: 2025-09-03
+date: 2026-10-30
 authors:
 - danny
-website: https://www.icewal.com/
+website: https://www.icewal.com/#deadLink
 twitter: icewalofficial
 social:
 - https://www.facebook.com/icewalofficial
@@ -38,6 +38,8 @@ iphone:
   developerName: Ice Corporation
 
 ---
+
+**⚠️ Warning:** icewal appears to be abandoned. Its website and the provider's icecorp.io domain no longer load, the iPhone app is gone from the App Store, and the Android app has not been updated since January 2025. Users who kept their recovery phrase can restore it in another wallet.
 
 ## Android
 
