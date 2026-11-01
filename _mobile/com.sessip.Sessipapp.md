@@ -16,7 +16,6 @@ android:
   updated: 2022-12-10
   version: VARY
   reviews: 9
-  icon: com.sessip.Sessipapp.webp
   meta: obsolete
   verdict: custodial
   developerName: Sessip
@@ -28,7 +27,6 @@ iphone:
   updated: 2024-03-26
   version: '2.2'
   reviews: 2
-  icon: com.sessipapp.Sessip.webp
   meta: removed
   verdict: custodial
   developerName: SOCIETE IVOIRIENNE D'INVESTISSEMENT PARTICIPATIF

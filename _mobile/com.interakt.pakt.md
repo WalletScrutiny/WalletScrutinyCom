@@ -9,7 +9,6 @@ android:
   released: 2020-01-20
   updated: 2020-01-22
   version: 0.0.2
-  icon: com.interakt.pakt.webp
   meta: removed
   verdict: wip
   developerName: Interakt India

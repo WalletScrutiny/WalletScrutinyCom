@@ -10,7 +10,6 @@ android:
   released: 2022-02-11
   updated: 2022-05-22
   version: '1.5'
-  icon: com.cryp2pay.customerfinal.webp
   meta: removed
   verdict: wip
 

@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-icon: irikey.webp
 bugbounty: 
 meta: discontinued
 verdict: nosource

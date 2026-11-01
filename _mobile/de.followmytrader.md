@@ -19,7 +19,6 @@ android:
   released: 2020-03-09
   updated: 2026-08-10
   version: 3.6.1
-  icon: de.followmytrader.webp
   meta: ok
   verdict: custodial
   developerName: FELS Group GmbH
@@ -31,7 +30,6 @@ iphone:
   updated: 2025-08-28
   version: 3.6.0
   reviews: 0
-  icon: de.followmytrader.webp
   meta: stale
   verdict: custodial
   developerName: FELS Group GmbH

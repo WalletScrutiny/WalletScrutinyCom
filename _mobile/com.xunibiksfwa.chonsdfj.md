@@ -8,7 +8,6 @@ android:
   users: 100
   updated: 2021-12-28
   version: '1.0'
-  icon: com.xunibiksfwa.chonsdfj.webp
   meta: removed
   verdict: wip
 

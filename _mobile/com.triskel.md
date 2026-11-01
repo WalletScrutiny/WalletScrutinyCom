@@ -17,7 +17,6 @@ android:
   released: 2023-06-27
   updated: 2026-10-08
   version: '7.7'
-  icon: com.triskel.webp
   meta: ok
   verdict: custodial
   developerName: Triskel Capital
@@ -29,7 +28,6 @@ iphone:
   updated: 2026-10-12
   version: '4.4'
   reviews: 4
-  icon: com.triskelcapital.webp
   meta: ok
   verdict: custodial
   developerName: Triskel Trading

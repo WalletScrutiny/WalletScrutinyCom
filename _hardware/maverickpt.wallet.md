@@ -17,7 +17,6 @@ shop:
 country: PT
 price: 
 repository: 
-icon: 
 bugbounty: 
 meta: ok
 verdict: vapor

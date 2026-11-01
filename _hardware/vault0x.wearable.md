@@ -17,7 +17,6 @@ shop:
 country: IN
 price: 
 repository: 
-icon: vault0x.wearable.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

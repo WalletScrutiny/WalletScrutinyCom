@@ -10,7 +10,6 @@ android:
   released: 2021-04-13
   updated: 2021-06-18
   version: 1.4.2
-  icon: com.linkdada.application.webp
   meta: removed
   verdict: wip
 

@@ -19,7 +19,6 @@ android:
   updated: 2019-09-23
   version: 1.0.13
   reviews: 4
-  icon: com.haladinarwallet.webp
   meta: removed
   verdict: nosource
   developerName: Haladinar

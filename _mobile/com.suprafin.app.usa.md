@@ -18,7 +18,6 @@ android:
   updated: 2022-05-27
   version: 1.2.35
   reviews: 7
-  icon: com.suprafin.app.usa.webp
   meta: removed
   verdict: custodial
   developerName: SupraFin LTD
@@ -30,7 +29,6 @@ iphone:
   updated: 2022-05-29
   version: 1.2.74
   reviews: 24
-  icon: com.suprafin.usa.app.webp
   meta: removed
   verdict: custodial
   developerName: SupraFin

@@ -18,7 +18,6 @@ android:
   updated: 2022-04-20
   version: 1.9.94
   reviews: 21
-  icon: com.counos.webp
   meta: removed
   verdict: custodial
   developerName: ZeroCash
@@ -30,7 +29,6 @@ iphone:
   updated: 2023-08-09
   version: 1.9.94
   reviews: 22
-  icon: com.counos.wallet.webp
   meta: removed
   verdict: custodial
   developerName: CSC Int GmbH

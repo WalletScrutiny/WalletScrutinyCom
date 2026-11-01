@@ -23,7 +23,6 @@ shop: https://store.coinkite.com/store/coldcard
 country: CA
 price: 147.94USD
 repository: https://github.com/Coldcard/firmware
-icon: coldcardMk3.webp
 bugbounty: https://coinkite.com/responsible-disclosure
 meta: discontinued
 verdict: sourceavailable

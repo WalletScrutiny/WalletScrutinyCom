@@ -17,7 +17,6 @@ android:
   released: 2016-04-18
   updated: 2026-09-15
   version: '1.294'
-  icon: btctrade.BTCBOX.webp
   meta: ok
   verdict: custodial
   developerName: BTCボックス株式会社
@@ -29,7 +28,6 @@ iphone:
   updated: 2026-10-09
   version: '1.255'
   reviews: 16
-  icon: btctrade.btcbox.webp
   meta: ok
   verdict: custodial
   developerName: BTCBOX CO.,LTD

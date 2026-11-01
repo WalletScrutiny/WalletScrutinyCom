@@ -12,7 +12,6 @@ android:
   released: 2022-05-15
   updated: 2022-04-25
   version: 2.1.0
-  icon: com.currency.nnn.webp
   meta: removed
   verdict: wip
   developerName: nanaya

@@ -18,7 +18,6 @@ android:
   updated: 2026-02-26
   version: 25.0.0
   reviews: 118
-  icon: com.spedn.spedn.webp
   meta: defunct
   verdict: nosendreceive
   developerName: Flexa
@@ -30,7 +29,6 @@ iphone:
   updated: 2023-11-22
   version: 23.11.1
   reviews: 108
-  icon: com.spedn.spedn.webp
   meta: removed
   verdict: nosendreceive
   developerName: Flexa Inc.

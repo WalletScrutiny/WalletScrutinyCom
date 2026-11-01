@@ -9,7 +9,6 @@ android:
   released: 2019-07-28
   updated: 2019-09-08
   version: 0_43
-  icon: air.SmartTerminal4.webp
   meta: removed
   verdict: wip
   developerName: DieGOplay

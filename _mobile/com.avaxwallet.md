@@ -24,7 +24,6 @@ android:
   version: 1.0.40
   reviews: 137
   repository: https://github.com/ava-labs/core-mobile
-  icon: com.avaxwallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: Ava Labs, Inc.
@@ -37,7 +36,6 @@ iphone:
   version: 1.0.40
   reviews: 175
   repository: https://github.com/ava-labs/core-mobile
-  icon: org.avalabs.corewallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: Ava Labs, Incorporated

@@ -14,7 +14,6 @@ android:
   updated: 2022-02-10
   version: 3.4.2
   reviews: 4
-  icon: io.fchain.firefly.webp
   meta: removed
   verdict: nosource
   developerName: Firefly Services
@@ -27,7 +26,6 @@ iphone:
   updated: 2022-01-29
   version: 3.1.6
   reviews: 7
-  icon: io.fchain.Fireflyz.webp
   meta: removed
   verdict: nosource
   repository: https://github.com/fchainio/firefly#readme

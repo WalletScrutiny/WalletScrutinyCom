@@ -18,7 +18,6 @@ android:
   released: 2022-03-01
   updated: 2026-03-17
   version: 4.7.8
-  icon: com.bitazza.android.gl.webp
   meta: removed
   verdict: custodial
   developerName: Bitazza Company Limited
@@ -30,7 +29,6 @@ iphone:
   updated: 2025-12-29
   version: 3.9.26
   reviews: 188
-  icon: com.bitazza.global.ios.webp
   meta: removed
   verdict: custodial
   developerName: Bitazza Company Limited

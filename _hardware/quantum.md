@@ -21,7 +21,6 @@ shop: https://security-arts.com/order
 country: UA
 price: 49USD
 repository: 
-icon: quantum.webp
 bugbounty: 
 meta: ok
 verdict: nosource

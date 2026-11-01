@@ -19,7 +19,6 @@ android:
   updated: 2026-07-20
   version: 5.6.60
   reviews: 31
-  icon: com.yykj.bitfree.en.webp
   meta: ok
   verdict: nowallet
   developerName: ifreepanda
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-07-23
   version: 5.6.68
   reviews: 0
-  icon: com.yykj.bitfree.en.webp
   meta: ok
   verdict: nowallet
   developerName: Bitfree Limited

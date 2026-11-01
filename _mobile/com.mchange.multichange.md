@@ -10,7 +10,6 @@ android:
   updated: 2020-08-10
   version: '1.0'
   reviews: 5
-  icon: com.mchange.multichange.webp
   meta: removed
   verdict: wip
 

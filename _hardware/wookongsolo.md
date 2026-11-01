@@ -21,7 +21,6 @@ shop: https://wooko.ng/en/solo#deadLink
 country: CH
 price: 
 repository: 
-icon: wookongsolo.webp
 bugbounty: 
 meta: defunct
 verdict: wip

@@ -11,7 +11,6 @@ android:
   released: 2021-04-06
   updated: 2021-04-06
   version: 1.0.4
-  icon: com.husky.hdw20.webp
   meta: removed
   verdict: wip
   developerName: Embedded Agency LLC
@@ -23,7 +22,6 @@ iphone:
   updated: 2021-04-02
   version: 1.0.4
   reviews: 0
-  icon: com.husky.hdw20.webp
   meta: removed
   verdict: wip
   developerName: Embedded Agency LLC

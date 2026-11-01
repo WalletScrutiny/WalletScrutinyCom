@@ -34,7 +34,6 @@ android:
   updated: 2026-09-24
   version: 5.6.1
   reviews: 151
-  icon: com.greenaddress.greenbits_android_wallet.webp
   signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
   alternativeStores:
   - fdroid
@@ -51,7 +50,6 @@ iphone:
   updated: 2026-09-28
   version: 5.7.0
   reviews: 1242
-  icon: io.blockstream.green.webp
   meta: ok
   verdict: sourceavailable
   developerName: Blockstream

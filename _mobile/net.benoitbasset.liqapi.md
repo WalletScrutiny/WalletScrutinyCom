@@ -10,7 +10,6 @@ android:
   updated: 2019-01-25
   version: 1.1.1
   reviews: 3
-  icon: net.benoitbasset.liqapi.webp
   meta: removed
   verdict: wip
 

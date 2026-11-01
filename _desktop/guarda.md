@@ -12,7 +12,6 @@ provider: Guardaco LDA
 providerWebsite: 
 website: https://guarda.com
 repository: https://github.com/guardaco/guarda-desktop-releases
-icon: guarda.webp
 bugbounty: 
 meta: stale
 verdict: nosource

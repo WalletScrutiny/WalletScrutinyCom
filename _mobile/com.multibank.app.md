@@ -23,7 +23,6 @@ android:
   updated: 2026-10-13
   version: 26.0.36
   reviews: 7
-  icon: com.multibank.app.webp
   meta: ok
   verdict: custodial
   developerName: MB.IO
@@ -35,7 +34,6 @@ iphone:
   updated: 2026-09-17
   version: 26.0.23
   reviews: 33
-  icon: com.mexdigital.app.webp
   meta: ok
   verdict: custodial
   developerName: MEXBIT PTY

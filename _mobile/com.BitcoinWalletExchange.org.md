@@ -12,7 +12,6 @@ android:
   updated: 2020-10-13
   version: '1.01'
   reviews: 18
-  icon: com.BitcoinWalletExchange.org.webp
   meta: removed
   verdict: custodial
   developerName: ATMwallet

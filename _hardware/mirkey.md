@@ -21,7 +21,6 @@ shop: https://ellipticsecure.com/order.html
 country: US
 price: 49USD
 repository: 
-icon: mirkey.webp
 bugbounty: 
 meta: ok
 verdict: noita

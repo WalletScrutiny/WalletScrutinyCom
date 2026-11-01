@@ -25,7 +25,6 @@ android:
   updated: 2026-10-02
   version: 10.1.0
   reviews: 1042
-  icon: com.kr.iotrust.dcent.wallet.webp
   meta: ok
   verdict: nosource
   developerName: IoTrust Co., Ltd
@@ -37,7 +36,6 @@ iphone:
   updated: 2026-10-06
   version: 10.1.0
   reviews: 87
-  icon: kr.iotrust.dcent.webp
   meta: ok
   verdict: nosource
   developerName: IoTrust Co., Ltd

@@ -9,7 +9,6 @@ android:
   users: 500
   updated: 2024-10-28
   version: VARY
-  icon: com.goldenraven.padawanwallet.webp
   meta: removed
   verdict: wip
   developerName: GoldenRaven

@@ -16,7 +16,6 @@ android:
   updated: 2024-04-29
   version: 1.0.0
   reviews: 4
-  icon: com.selendra.secure_wallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: KOOMPI
@@ -29,7 +28,6 @@ iphone:
   updated: 2024-04-28
   version: 1.0.0
   reviews: 0
-  icon: com.selendra.secure.wallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: KOOMPI CO., LTD.

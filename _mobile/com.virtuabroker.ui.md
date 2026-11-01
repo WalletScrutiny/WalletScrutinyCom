@@ -12,7 +12,6 @@ android:
   updated: 2022-02-24
   version: 1.0.3
   reviews: 24
-  icon: com.virtuabroker.ui.webp
   meta: obsolete
   verdict: wip
   developerName: VirtuaBroker Ltd

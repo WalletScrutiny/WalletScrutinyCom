@@ -15,7 +15,6 @@ android:
   updated: 2022-07-29
   version: 3.1.2
   reviews: 1102
-  icon: com.kelta.app.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -25,7 +24,6 @@ iphone:
   updated: 2021-11-23
   version: 3.1.1
   reviews: 182
-  icon: com.kelta.webp
   meta: removed
   verdict: custodial
 

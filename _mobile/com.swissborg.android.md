@@ -20,7 +20,6 @@ android:
   updated: 2026-10-12
   version: 1.147.0
   reviews: 988
-  icon: com.swissborg.android.webp
   meta: ok
   verdict: custodial
   developerName: SwissBorg
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-10-13
   version: 1.147.0
   reviews: 2747
-  icon: com.swissborg.ios.webp
   meta: ok
   verdict: custodial
   developerName: SBorg SA

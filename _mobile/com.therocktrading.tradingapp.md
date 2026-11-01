@@ -14,7 +14,6 @@ android:
   released: 2018-10-29
   updated: 2022-07-11
   version: 1.6.1
-  icon: com.therocktrading.tradingapp.webp
   meta: removed
   verdict: custodial
   developerName: The Rock Trading
@@ -26,7 +25,6 @@ iphone:
   updated: 2022-07-12
   version: 1.6.1
   reviews: 0
-  icon: com.therocktrading.tradingapp.webp
   meta: removed
   verdict: custodial
   developerName: The Rock Trading Srl

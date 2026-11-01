@@ -17,7 +17,6 @@ android:
   updated: 2022-12-15
   version: 0.3.2
   reviews: 5
-  icon: io.sevenb.terminal.webp
   meta: removed
   verdict: custodial
   developerName: Stash Tech Solutions Limited

@@ -16,7 +16,6 @@ android:
   updated: 2025-11-17
   version: 0.70.8
   reviews: 39
-  icon: com.coinsavi.android.webp
   meta: defunct
   verdict: custodial
   developerName: Coin Savi
@@ -28,7 +27,6 @@ iphone:
   updated: 2025-11-17
   version: 0.70.8
   reviews: 545
-  icon: com.coinsavi.app.webp
   meta: ok
   verdict: custodial
   developerName: SAVILABS PTE. LTD.

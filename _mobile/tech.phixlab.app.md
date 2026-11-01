@@ -10,7 +10,6 @@ android:
   released: 2019-06-12
   updated: 2019-06-12
   version: '1.0'
-  icon: tech.phixlab.app.webp
   meta: removed
   verdict: wip
   developerName: Ijezie Emmanuel

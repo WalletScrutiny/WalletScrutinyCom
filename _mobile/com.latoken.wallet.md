@@ -18,7 +18,6 @@ android:
   updated: 2025-10-27
   version: 1.206.00
   reviews: 110
-  icon: com.latoken.wallet.webp
   meta: ok
   verdict: custodial
   developerName: LATRADE

@@ -18,7 +18,6 @@ android:
   updated: 2024-05-15
   version: 1.2.9
   reviews: 8
-  icon: com.dc.bib.lite.webp
   meta: removed
   verdict: custodial
   developerName: ebpay.net

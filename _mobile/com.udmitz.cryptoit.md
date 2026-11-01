@@ -10,7 +10,6 @@ android:
   released: 2021-06-13
   updated: 2021-06-13
   version: 1.1.1
-  icon: com.udmitz.cryptoit.webp
   meta: obsolete
   verdict: wip
   developerName: UDm developers

@@ -9,7 +9,6 @@ android:
   released: 2022-05-26
   updated: 2022-05-26
   version: '1.0'
-  icon: com.wBitcoinPrime_15557726.webp
   meta: removed
   verdict: wip
   developerName: BTC Prime

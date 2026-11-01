@@ -12,7 +12,6 @@ android:
   released: 2021-09-23
   updated: 2021-12-16
   version: 1.4.8
-  icon: uni.UNI2A1D818.webp
   meta: removed
   verdict: wip
   developerName: MUSKBOT

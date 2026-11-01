@@ -12,7 +12,6 @@ provider:
 providerWebsite: 
 website: https://ctrl.xyz/
 repository: 
-icon: xyz.ctrl.desktop.wallet.webp
 bugbounty: 
 meta: defunct
 verdict: nosource

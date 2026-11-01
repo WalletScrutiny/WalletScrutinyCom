@@ -9,7 +9,6 @@ android:
   released: 2021-06-18
   updated: 2021-06-18
   version: '1.0'
-  icon: net.hodlercrypto.bitcoin.invest.india1.webp
   meta: removed
   verdict: wip
 

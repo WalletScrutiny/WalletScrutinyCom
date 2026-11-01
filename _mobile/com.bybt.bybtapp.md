@@ -17,7 +17,6 @@ android:
   updated: 2021-10-29
   version: 1.0.1.7
   reviews: 49
-  icon: com.bybt.bybtapp.webp
   meta: removed
   verdict: nowallet
 iphone:
@@ -28,7 +27,6 @@ iphone:
   updated: 2026-10-01
   version: 2.8.1
   reviews: 5840
-  icon: com.xiandanxiaohai.Bybt.webp
   meta: ok
   verdict: nowallet
   developerName: DerivLab Limited

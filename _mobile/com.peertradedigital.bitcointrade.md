@@ -18,7 +18,6 @@ android:
   updated: 2024-05-20
   version: 3.20.4
   reviews: 4822
-  icon: com.peertradedigital.bitcointrade.webp
   meta: removed
   verdict: custodial
   developerName: PeerTrade Digital Ltda
@@ -29,7 +28,6 @@ iphone:
   updated: 2024-05-30
   version: 4.7.10
   reviews: 978
-  icon: com.root.BitcoinTrade.webp
   meta: removed
   verdict: custodial
   developerName: PeerTrade Digital

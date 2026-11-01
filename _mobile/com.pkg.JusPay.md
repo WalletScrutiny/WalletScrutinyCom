@@ -12,7 +12,6 @@ android:
   released: 2020-09-16
   updated: 2020-11-10
   version: 3.0.0
-  icon: com.pkg.JusPay.webp
   meta: removed
   verdict: wip
   developerName: Abdurahman Unia

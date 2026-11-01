@@ -18,7 +18,6 @@ android:
   updated: 2026-10-09
   version: 2.189.0
   reviews: 219
-  icon: com.xtb.xmobile2.webp
   meta: ok
   verdict: nosendreceive
   developerName: XTB S.A.

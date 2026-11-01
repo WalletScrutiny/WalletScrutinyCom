@@ -37,7 +37,6 @@ android:
   updated: 2026-10-09
   version: 13.2.3
   reviews: 40
-  icon: app.zeusln.zeus.webp
   signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
   alternativeStores:
   - zapstore
@@ -53,7 +52,6 @@ iphone:
   updated: 2026-10-12
   version: v13.2.3
   reviews: 83
-  icon: com.zeusln.zeus.webp
   meta: ok
   verdict: sourceavailable
   developerName: Atlas 21 Inc.

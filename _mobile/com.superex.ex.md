@@ -19,7 +19,6 @@ android:
   updated: 2026-09-20
   version: 2.9.68
   reviews: 255
-  icon: com.superex.ex.webp
   meta: ok
   verdict: custodial
   developerName: SUPEREX
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-09-21
   version: 2.9.41
   reviews: 181
-  icon: com.superex.ex.webp
   meta: ok
   verdict: custodial
   developerName: SUPERDAO INC

@@ -19,7 +19,6 @@ android:
   updated: 2026-10-09
   version: 4.25.4
   reviews: 310
-  icon: com.bitso.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Bitso
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-10-09
   version: 4.26.2
   reviews: 1039
-  icon: com.bitso.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Bitso SAPI de CV

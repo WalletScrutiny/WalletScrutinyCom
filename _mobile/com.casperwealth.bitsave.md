@@ -19,7 +19,6 @@ android:
   released: 2024-04-01
   updated: 2026-08-27
   version: 1.30.1
-  icon: com.casperwealth.bitsave.webp
   meta: ok
   verdict: custodial
   developerName: Casper Wealth
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-08-27
   version: 1.30.1
   reviews: 0
-  icon: com.casperwealth.bitsaveios.webp
   meta: ok
   verdict: custodial
   developerName: Casper Wealth Holdings Limited

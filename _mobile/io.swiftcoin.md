@@ -22,7 +22,6 @@ android:
   updated: 2025-09-30
   version: 3.1.10
   reviews: 2
-  icon: io.swiftcoin.webp
   meta: stale
   verdict: custodial
   developerName: Swift Coin
@@ -34,7 +33,6 @@ iphone:
   updated: 2025-10-06
   version: 3.1.10
   reviews: 9
-  icon: io.swiftcoin.webp
   meta: stale
   verdict: custodial
   developerName: Swiftcoin Ltd

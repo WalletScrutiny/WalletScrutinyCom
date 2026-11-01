@@ -10,7 +10,6 @@ android:
   released: 2020-02-27
   updated: 2020-08-11
   version: 1.2.1
-  icon: xyz.touchsocial.app.webp
   meta: removed
   verdict: wip
   developerName: Data Revolution

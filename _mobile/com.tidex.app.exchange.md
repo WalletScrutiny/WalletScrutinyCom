@@ -21,7 +21,6 @@ android:
   updated: 2024-03-08
   version: 1.0.6
   reviews: 7
-  icon: com.tidex.app.exchange.webp
   meta: removed
   verdict: custodial
   developerName: Tidex
@@ -33,7 +32,6 @@ iphone:
   updated: 2022-08-15
   version: 1.0.5
   reviews: 15
-  icon: com.tidex.exchange.app.webp
   meta: removed
   verdict: custodial
   developerName: Tidex

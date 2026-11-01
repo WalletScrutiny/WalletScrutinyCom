@@ -19,7 +19,6 @@ android:
   updated: 2022-10-17
   version: 1.0.103
   reviews: 4595
-  icon: com.coinbase.pro.webp
   meta: removed
   verdict: custodial
   developerName: Coinbase Android
@@ -30,7 +29,6 @@ iphone:
   updated: 2022-12-09
   version: 1.0.104
   reviews: 173326
-  icon: com.coinbase.pro.webp
   meta: removed
   verdict: custodial
   developerName: Coinbase, Inc.

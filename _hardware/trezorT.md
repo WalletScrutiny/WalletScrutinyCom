@@ -22,7 +22,6 @@ shop: https://trezor.io/trezor-model-t
 country: CZ
 price: 159EUR
 repository: https://github.com/trezor/trezor-firmware
-icon: trezorT.webp
 bugbounty: 
 meta: discontinued
 verdict: sourceavailable

@@ -10,7 +10,6 @@ android:
   released: 2021-05-29
   updated: 2025-10-27
   version: 2.0.1
-  icon: io.blns.webp
   meta: removed
   verdict: wip
   developerName: BLNS Ltd

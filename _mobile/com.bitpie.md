@@ -26,7 +26,6 @@ android:
   updated: 2025-05-14
   version: 5.0.191.g
   reviews: 126
-  icon: com.bitpie.webp
   meta: removed
   verdict: nosource
   developerName: getcai
@@ -38,7 +37,6 @@ iphone:
   updated: 2026-09-16
   version: 5.0.246
   reviews: 367
-  icon: com.bitpie.wallet.webp
   meta: ok
   verdict: nosource
   developerName: BITPIE HK LIMITED

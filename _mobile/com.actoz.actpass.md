@@ -15,7 +15,6 @@ android:
   updated: 2025-10-15
   version: 2.2.2
   reviews: 1
-  icon: com.actoz.actpass.webp
   meta: stale
   verdict: custodial
   developerName: ArtalGamesCasual
@@ -27,7 +26,6 @@ iphone:
   updated: 2023-10-20
   version: 1.3.0
   reviews: 1
-  icon: com.actoz.actpass.webp
   meta: removed
   verdict: custodial
   developerName: Davox Technology AG

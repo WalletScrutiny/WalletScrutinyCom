@@ -23,7 +23,6 @@ android:
   updated: 2025-09-18
   version: 1.1.0
   reviews: 2
-  icon: com.uniwallet.webp
   meta: stale
   verdict: nosource
   developerName: UniWallet Ltd.
@@ -35,7 +34,6 @@ iphone:
   updated: 2025-07-20
   version: 1.0.8
   reviews: 1
-  icon: org.uniwallet.UniWallet.webp
   meta: stale
   verdict: nosource
   developerName: UniWallet Ltd.

@@ -9,7 +9,6 @@ android:
   users: 500
   updated: 2023-04-07
   version: 1.0.18
-  icon: nagax.mobile.webp
   meta: removed
   verdict: wip
   developerName: NAGAX

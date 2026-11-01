@@ -10,7 +10,6 @@ android:
   released: 2021-07-07
   updated: 2021-08-20
   version: '1.0'
-  icon: com.hncrevolution.app.webp
   meta: removed
   verdict: wip
   developerName: Greek Team

@@ -17,7 +17,6 @@ shop: https://web.archive.org/web/20190127005059/https://www.indiegogo.com/proje
 country: CN
 price: 
 repository: 
-icon: bitcube.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

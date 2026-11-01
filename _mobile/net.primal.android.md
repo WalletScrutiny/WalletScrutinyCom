@@ -17,7 +17,6 @@ android:
   updated: 2026-09-01
   version: 3.5.27
   reviews: 35
-  icon: net.primal.android.webp
   alternativeStores:
   - zapstore
   meta: ok
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-09-03
   version: 3.5.61
   reviews: 935
-  icon: net.primal.iosapp.Primal.webp
   meta: ok
   verdict: custodial
   developerName: Primal Systems Incorporated.

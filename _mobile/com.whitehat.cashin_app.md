@@ -21,7 +21,6 @@ android:
   updated: 2026-08-22
   version: 2.1.0
   reviews: 131
-  icon: com.whitehat.cashin_app.webp
   meta: ok
   verdict: nobtc
   developerName: Macroblocs Ltd
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-09-02
   version: 2.1.0
   reviews: 1333
-  icon: com.macroblocs.cashinApp.webp
   meta: ok
   verdict: nobtc
   developerName: Macroblocs Limited

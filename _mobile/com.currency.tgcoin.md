@@ -10,7 +10,6 @@ android:
   released: 2022-05-21
   updated: 2022-05-22
   version: 2.1.2
-  icon: com.currency.tgcoin.webp
   meta: removed
   verdict: wip
   developerName: TGCoin Capital Limited

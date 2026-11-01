@@ -21,7 +21,6 @@ shop: https://securewallet.shop/products/secure-wallet#deadLink
 country: SG
 price: 199USD
 repository: 
-icon: securewallet.webp
 bugbounty: 
 meta: discontinued
 verdict: plainkey

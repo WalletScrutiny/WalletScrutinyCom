@@ -16,7 +16,6 @@ android:
   released: 2021-12-09
   updated: 2022-12-17
   version: 1.2.10
-  icon: com.cushionlabs.acornbit.dev.webp
   meta: removed
   verdict: nosendreceive
   developerName: Cushion Labs

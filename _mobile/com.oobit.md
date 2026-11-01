@@ -20,7 +20,6 @@ android:
   updated: 2026-10-08
   version: 3.4.2
   reviews: 51
-  icon: com.oobit.webp
   meta: ok
   verdict: custodial
   developerName: Oobit Technologies
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-10-09
   version: 3.4.2
   reviews: 1035
-  icon: com.oobit.webp
   meta: ok
   verdict: custodial
   developerName: Oobit Technologies

@@ -9,7 +9,6 @@ android:
   released: 2022-09-15
   updated: 2022-09-15
   version: '1.0'
-  icon: com.bitcoin.m.bitcoinera.official.webp
   meta: removed
   verdict: wip
   developerName: mobiidev

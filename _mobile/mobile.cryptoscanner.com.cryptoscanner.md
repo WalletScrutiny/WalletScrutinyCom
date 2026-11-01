@@ -11,7 +11,6 @@ android:
   updated: 2020-05-14
   version: '1.2'
   reviews: 3
-  icon: mobile.cryptoscanner.com.cryptoscanner.webp
   meta: removed
   verdict: wip
 

@@ -18,7 +18,6 @@ android:
   released: 2019-03-18
   updated: 2023-11-07
   version: 1.7.3(59)
-  icon: com.bitbay.pay.bitcoin.pos.terminal.webp
   meta: defunct
   verdict: custodial
   developerName: BB Trade Estonia

@@ -21,7 +21,6 @@ android:
   updated: 2025-11-06
   version: 6.5.19
   reviews: 480
-  icon: io.yellowcard.app.webp
   meta: ok
   verdict: custodial
   developerName: Yellow Card Financial
@@ -32,7 +31,6 @@ iphone:
   updated: 2025-09-15
   version: 6.5.15
   reviews: 56
-  icon: io.yellowcard.app.webp
   meta: removed
   verdict: custodial
   developerName: Yellow Card Financial, Inc

@@ -12,7 +12,6 @@ provider:
 providerWebsite: 
 website: 
 repository: https://github.com/hivewallet/hive-mac
-icon: 
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable

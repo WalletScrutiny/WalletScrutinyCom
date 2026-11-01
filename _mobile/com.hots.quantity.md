@@ -15,7 +15,6 @@ android:
   updated: 2024-04-02
   version: 3.20.1
   reviews: 10
-  icon: com.hots.quantity.webp
   meta: removed
   verdict: custodial
   developerName: KX Network Co., Ltd.
@@ -27,7 +26,6 @@ iphone:
   updated: 2022-07-29
   version: 1.2.0
   reviews: 8
-  icon: com.hots.quantity.webp
   meta: removed
   verdict: custodial
   developerName: 台湾凯旋网络科技

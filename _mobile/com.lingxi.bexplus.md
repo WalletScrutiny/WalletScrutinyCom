@@ -18,7 +18,6 @@ android:
   updated: 2022-06-17
   version: 2.2.1
   reviews: 1590
-  icon: com.lingxi.bexplus.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -28,7 +27,6 @@ iphone:
   updated: 2022-06-17
   version: 2.2.1
   reviews: 225
-  icon: com.mhc.bexplus.webp
   meta: removed
   verdict: custodial
 

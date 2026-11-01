@@ -10,7 +10,6 @@ android:
   released: 2019-08-05
   updated: 2020-06-20
   version: 1.2.7
-  icon: com.nextgenius.wallet.webp
   meta: removed
   verdict: wip
   developerName: NextGenius

@@ -10,7 +10,6 @@ android:
   released: 2020-04-12
   updated: 2020-05-12
   version: 1.0.8
-  icon: com.b4ufinancial.app.webp
   meta: removed
   verdict: wip
   developerName: Bitload4u

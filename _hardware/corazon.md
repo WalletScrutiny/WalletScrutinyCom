@@ -18,7 +18,6 @@ shop: https://gray.inc/products/corazon-titanium
 country: SG
 price: 599USD
 repository: 
-icon: corazon.webp
 bugbounty: 
 meta: discontinued
 verdict: nosource

@@ -12,7 +12,6 @@ android:
   updated: 2023-01-06
   version: '1.3'
   reviews: 2
-  icon: com.maarcodev.dormantbitcoin.webp
   meta: removed
   verdict: wip
   developerName: MaarcoDev

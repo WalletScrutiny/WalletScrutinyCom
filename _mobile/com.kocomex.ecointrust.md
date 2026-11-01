@@ -11,7 +11,6 @@ android:
   released: 2019-06-10
   updated: 2020-06-19
   version: '2.0'
-  icon: com.kocomex.ecointrust.webp
   meta: defunct
   verdict: wip
   developerName: KOCOMEX

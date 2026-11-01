@@ -21,7 +21,6 @@ android:
   appCountry: us
   updated: 2025-07-16
   version: 5.1.11
-  icon: app.difx.exchange.webp
   meta: stale
   verdict: custodial
   developerName: DIFX
@@ -33,7 +32,6 @@ iphone:
   updated: 2024-05-14
   version: 5.1.3
   reviews: 0
-  icon: app.difx.exchange.webp
   meta: obsolete
   verdict: custodial
   developerName: DIFX Limited

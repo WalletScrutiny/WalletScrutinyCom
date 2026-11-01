@@ -17,7 +17,6 @@ shop:
 country: EE
 price: 
 repository: 
-icon: scallop.webp
 bugbounty: 
 meta: ok
 verdict: vapor

@@ -10,7 +10,6 @@ android:
   released: 2022-03-26
   updated: 2022-07-23
   version: 0.0.4
-  icon: com.australia.tobase.webp
   meta: removed
   verdict: wip
 

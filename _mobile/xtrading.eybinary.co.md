@@ -10,7 +10,6 @@ android:
   released: 2022-09-13
   updated: 2022-09-26
   version: 1.0.0
-  icon: xtrading.eybinary.co.webp
   meta: removed
   verdict: wip
   developerName: MAGNUM TECHNOLOGIES

@@ -24,7 +24,6 @@ iphone:
   updated: 2026-04-08
   version: 0.0.62
   reviews: 0
-  icon: com.sovranbitcoin.webp
   meta: removed
   verdict: ecash
   developerName: Sovran LTD

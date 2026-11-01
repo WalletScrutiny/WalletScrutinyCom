@@ -13,7 +13,6 @@ android:
   updated: 2022-09-02
   version: 1.1.1
   reviews: 11
-  icon: com.app.Safecrypto.webp
   meta: removed
   verdict: wip
   developerName: SAFE WALL

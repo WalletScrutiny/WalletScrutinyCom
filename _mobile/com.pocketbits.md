@@ -18,7 +18,6 @@ android:
   updated: 2023-08-31
   version: 1.3.7
   reviews: 6
-  icon: com.pocketbits.webp
   meta: obsolete
   verdict: custodial
   developerName: Defacto Technologies Pvt Ltd

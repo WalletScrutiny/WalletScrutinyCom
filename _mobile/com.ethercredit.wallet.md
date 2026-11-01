@@ -10,7 +10,6 @@ android:
   updated: 2020-09-23
   version: '1.0'
   reviews: 3
-  icon: com.ethercredit.wallet.webp
   meta: removed
   verdict: wip
 

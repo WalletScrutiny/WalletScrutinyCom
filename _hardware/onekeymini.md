@@ -18,7 +18,6 @@ shop: https://web.archive.org/web/20230128165918/https://shop.onekey.so/products
 country: SG
 price: 48USD
 repository: https://github.com/OneKeyHQ/firmware
-icon: onekeymini.webp
 bugbounty: 
 meta: discontinued
 verdict: sourceavailable

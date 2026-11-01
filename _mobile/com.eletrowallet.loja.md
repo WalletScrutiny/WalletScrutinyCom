@@ -10,7 +10,6 @@ android:
   released: 2019-09-06
   updated: 2019-08-20
   version: '1.1'
-  icon: com.eletrowallet.loja.webp
   meta: removed
   verdict: wip
   developerName: EletroPay

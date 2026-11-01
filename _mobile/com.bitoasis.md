@@ -24,7 +24,6 @@ android:
   updated: 2026-10-08
   version: 4.3.8
   reviews: 672
-  icon: com.bitoasis.webp
   meta: ok
   verdict: custodial
   developerName: BitOasis
@@ -36,7 +35,6 @@ iphone:
   updated: 2026-10-12
   version: 2.4.8
   reviews: 4498
-  icon: net.bitoasis.ios.com.webp
   meta: ok
   verdict: custodial
   developerName: BitOasis Technologies FZE

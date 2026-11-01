@@ -18,7 +18,6 @@ android:
   updated: 2025-12-15
   version: 2.6.9
   reviews: 71
-  icon: com.exnovin.webp
   meta: ok
   verdict: custodial
   developerName: EX NOVIN

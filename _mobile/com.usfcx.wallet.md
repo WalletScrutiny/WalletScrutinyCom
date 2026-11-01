@@ -10,7 +10,6 @@ android:
   released: 2021-04-19
   updated: 2021-08-25
   version: '1.0'
-  icon: com.usfcx.wallet.webp
   meta: removed
   verdict: wip
   developerName: omg blockchain factory

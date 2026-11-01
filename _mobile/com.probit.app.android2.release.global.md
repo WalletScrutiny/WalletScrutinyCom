@@ -18,7 +18,6 @@ android:
   updated: 2025-11-27
   version: 1.77.3
   reviews: 361
-  icon: com.probit.app.android2.release.global.webp
   meta: removed
   verdict: custodial
   developerName: Probit Global Services Limited

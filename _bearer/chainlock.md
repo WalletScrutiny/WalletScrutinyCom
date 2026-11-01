@@ -17,7 +17,6 @@ shop: https://shop.bitcoin.wien/products/card-wallet
 country: AT
 price: 40EUR
 repository: 
-icon: chainlock.webp
 bugbounty: 
 meta: ok
 verdict: prefilled

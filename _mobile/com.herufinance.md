@@ -10,7 +10,6 @@ android:
   released: 2022-08-03
   updated: 2022-12-05
   version: 1.2.7
-  icon: com.herufinance.webp
   meta: removed
   verdict: wip
   developerName: Tykhe Block Ventures LLC

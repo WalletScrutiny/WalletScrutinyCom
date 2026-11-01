@@ -10,7 +10,6 @@ android:
   released: 2018-10-01
   updated: 2019-07-22
   version: 1.0.0.57
-  icon: kr.co.keypair.nextouch.webp
   meta: removed
   verdict: nosource
   developerName: Keypair Co., Ltd.

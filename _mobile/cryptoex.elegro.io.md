@@ -23,7 +23,6 @@ android:
   released: 2019-06-26
   updated: 2021-04-29
   version: 1.0.4
-  icon: cryptoex.elegro.io.webp
   meta: removed
   verdict: wip
   developerName: Niko Technologies
@@ -35,7 +34,6 @@ iphone:
   updated: 2021-04-30
   version: '1.4'
   reviews: 2
-  icon: cryptoex.elegro.io.webp
   meta: obsolete
   verdict: wip
   developerName: Niko Technologies

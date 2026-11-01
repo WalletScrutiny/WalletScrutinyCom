@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-icon: safewise.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

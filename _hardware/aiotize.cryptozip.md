@@ -17,7 +17,6 @@ shop:
 country: IN
 price: 
 repository: 
-icon: aiotize.cryptozip.webp
 bugbounty: 
 meta: ok
 verdict: nosource

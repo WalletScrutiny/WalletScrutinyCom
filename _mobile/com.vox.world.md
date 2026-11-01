@@ -15,7 +15,6 @@ android:
   released: 2025-07-09
   updated: 2026-10-10
   version: 2.1.1
-  icon: com.vox.world.webp
   meta: ok
   verdict: custodial
   developerName: VOOX Limited
@@ -27,7 +26,6 @@ iphone:
   updated: 2026-09-01
   version: 2.0.8
   reviews: 6
-  icon: com.voox.www.webp
   meta: removed
   verdict: custodial
   developerName: VOOX TECHNOLOGY PTE. LTD.

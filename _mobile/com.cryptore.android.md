@@ -20,7 +20,6 @@ android:
   updated: 2024-11-05
   version: 1.2.2
   reviews: 5
-  icon: com.cryptore.android.webp
   meta: removed
   verdict: custodial
   developerName: Sanatan Technologies
@@ -32,7 +31,6 @@ iphone:
   updated: 2022-07-14
   version: 1.1.8
   reviews: 17
-  icon: com.cryptore.nine99.webp
   meta: removed
   verdict: custodial
   developerName: Nine 99 Technologies LLP

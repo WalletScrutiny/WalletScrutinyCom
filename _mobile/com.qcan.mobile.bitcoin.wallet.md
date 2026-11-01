@@ -17,7 +17,6 @@ android:
   updated: 2025-08-20
   version: 0.9.007
   reviews: 12
-  icon: com.qcan.mobile.bitcoin.wallet.webp
   meta: stale
   verdict: nosource
   developerName: Qcan.com
@@ -29,7 +28,6 @@ iphone:
   updated: 2025-03-31
   version: 0.9.004
   reviews: 17
-  icon: com.qcan.qcan.webp
   meta: removed
   verdict: nosource
   developerName: Qcan International Limited

@@ -17,7 +17,6 @@ android:
   users: 10000
   updated: 2024-05-27
   version: 1.25.0
-  icon: com.xgo.wallet.webp
   meta: removed
   verdict: custodial
   developerName: XGo
@@ -29,7 +28,6 @@ iphone:
   updated: 2023-12-22
   version: 1.15.0
   reviews: 0
-  icon: com.xgo.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Exechain OU

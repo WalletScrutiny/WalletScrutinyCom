@@ -18,7 +18,6 @@ android:
   released: 2024-09-04
   updated: 2026-10-01
   version: 1.3.47
-  icon: com.dex.digitalexchangeid.webp
   meta: ok
   verdict: custodial
   developerName: PT Indonesia Digital Exchange
@@ -30,7 +29,6 @@ iphone:
   updated: 2022-10-25
   version: 1.0.92
   reviews: 1
-  icon: com.dex.digitalexchangeid.webp
   meta: removed
   verdict: custodial
 

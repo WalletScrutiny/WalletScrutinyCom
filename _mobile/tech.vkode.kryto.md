@@ -11,7 +11,6 @@ android:
   released: 2024-07-27
   updated: 2026-10-07
   version: 2.0.0
-  icon: tech.vkode.kryto.webp
   meta: fewusers
   verdict: wip
   developerName: VKode

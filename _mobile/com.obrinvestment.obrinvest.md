@@ -12,7 +12,6 @@ android:
   users: 5000
   updated: 2024-07-02
   version: 2.7.1
-  icon: com.obrinvestment.obrinvest.webp
   meta: removed
   verdict: nosendreceive
   developerName: OBRinvest
@@ -24,7 +23,6 @@ iphone:
   updated: 2024-04-04
   version: 2.6.8
   reviews: 0
-  icon: com.obrinvestment.obrinvest.webp
   meta: removed
   verdict: nosendreceive
   developerName: OBR Investment Ltd

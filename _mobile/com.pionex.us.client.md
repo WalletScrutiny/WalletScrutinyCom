@@ -18,7 +18,6 @@ android:
   updated: 2026-09-30
   version: 2.2.5
   reviews: 654
-  icon: com.pionex.us.client.webp
   meta: ok
   verdict: custodial
   developerName: Webot Global

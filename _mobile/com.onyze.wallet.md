@@ -9,7 +9,6 @@ android:
   users: 500
   updated: 2020-07-14
   version: VARY
-  icon: com.onyze.wallet.webp
   meta: removed
   verdict: wip
   developerName: Onyze

@@ -10,7 +10,6 @@ android:
   released: 2022-08-16
   updated: 2023-03-07
   version: '3.8'
-  icon: com.crypto_wallet_arnold.webp
   meta: removed
   verdict: wip
   developerName: Otomation Soft

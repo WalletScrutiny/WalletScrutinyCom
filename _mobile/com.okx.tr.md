@@ -21,7 +21,6 @@ android:
   appCountry: us
   updated: 2026-10-06
   version: 6.192.0
-  icon: com.okx.tr.webp
   meta: ok
   verdict: custodial
   developerName: OKX TR
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-10-11
   version: 6.192.0
   reviews: 2549
-  icon: com.okx.tr.webp
   meta: ok
   verdict: custodial
   developerName: OKX TR KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI

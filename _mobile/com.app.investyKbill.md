@@ -10,7 +10,6 @@ android:
   updated: 2021-08-25
   version: 1.0.13
   reviews: 7
-  icon: com.app.investyKbill.webp
   meta: removed
   verdict: wip
 

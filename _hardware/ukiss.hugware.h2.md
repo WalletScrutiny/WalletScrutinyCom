@@ -17,7 +17,6 @@ shop:
 country: SG
 price: 169 USD
 repository: 
-icon: ukiss.hugware.h2.webp
 bugbounty: 
 meta: defunct
 verdict: noita

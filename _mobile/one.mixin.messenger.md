@@ -22,7 +22,6 @@ android:
   updated: 2026-10-13
   version: 6.3.3
   reviews: 153
-  icon: one.mixin.messenger.webp
   meta: ok
   verdict: sourceavailable
   developerName: Mixin Ltd
@@ -35,7 +34,6 @@ iphone:
   updated: 2026-10-10
   version: 6.3.3
   reviews: 1156
-  icon: one.mixin.messenger.webp
   meta: ok
   verdict: sourceavailable
   developerName: Mixin Ltd

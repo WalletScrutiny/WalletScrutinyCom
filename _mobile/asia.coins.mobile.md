@@ -23,7 +23,6 @@ android:
   updated: 2026-10-13
   version: 7.9.40.1
   reviews: 551
-  icon: asia.coins.mobile.webp
   meta: ok
   verdict: custodial
   developerName: Coins Asia
@@ -35,7 +34,6 @@ iphone:
   updated: 2022-06-30
   version: 3.4.2
   reviews: 3330
-  icon: gctp.Coins.webp
   meta: removed
   verdict: custodial
 

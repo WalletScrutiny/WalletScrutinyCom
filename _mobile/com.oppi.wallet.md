@@ -22,7 +22,6 @@ android:
   updated: 2026-10-09
   version: 1.0.125
   reviews: 12
-  icon: com.oppi.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Encoin Limited
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-09-01
   version: 1.0.121
   reviews: 16
-  icon: com.oppi.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Encoin Limited

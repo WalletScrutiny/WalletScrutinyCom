@@ -9,7 +9,6 @@ android:
   released: 2022-04-04
   updated: 2022-04-04
   version: '11.0'
-  icon: com.pockan.aicryptotrade.webp
   meta: removed
   verdict: wip
   developerName: Pockan

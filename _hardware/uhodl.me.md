@@ -17,7 +17,6 @@ shop:
 country: CH
 price: 219 USD
 repository: 
-icon: uhodl.me.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

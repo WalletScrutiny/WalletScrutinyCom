@@ -18,7 +18,6 @@ android:
   updated: 2021-09-02
   version: 1.2.1
   reviews: 8
-  icon: com.decomlab.wallet.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -28,7 +27,6 @@ iphone:
   updated: 2021-08-23
   version: 1.2.1
   reviews: 8
-  icon: com.decomlab.wallet.webp
   meta: removed
   verdict: nosource
 

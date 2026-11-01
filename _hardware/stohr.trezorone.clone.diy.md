@@ -17,7 +17,6 @@ shop:
 country: DE
 price: 
 repository: 
-icon: stohr.trezorone.clone.diy.webp
 bugbounty: 
 meta: ok
 verdict: nosource

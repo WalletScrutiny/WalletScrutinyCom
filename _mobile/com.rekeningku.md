@@ -20,7 +20,6 @@ android:
   updated: 2026-09-30
   version: 4.5.16
   reviews: 50
-  icon: com.rekeningku.webp
   meta: ok
   verdict: custodial
   developerName: PT Rekeningku Dotcom Indonesia
@@ -31,7 +30,6 @@ iphone:
   updated: 2022-10-17
   version: 2.1.91
   reviews: 30
-  icon: com.rekeningku.app.webp
   meta: removed
   verdict: custodial
   appCountry: id

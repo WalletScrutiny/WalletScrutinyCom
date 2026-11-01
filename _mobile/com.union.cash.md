@@ -16,7 +16,6 @@ android:
   updated: 2025-12-25
   version: 1.4.8
   reviews: 5
-  icon: com.union.cash.webp
   meta: ok
   verdict: custodial
   developerName: Union Cash
@@ -28,7 +27,6 @@ iphone:
   updated: 2024-04-07
   version: '1.40'
   reviews: 0
-  icon: com.union.cash.webp
   meta: removed
   verdict: custodial
   developerName: Unioncash EU UAB

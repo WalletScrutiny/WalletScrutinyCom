@@ -11,7 +11,6 @@ android:
   released: 2022-11-14
   updated: 2026-10-07
   version: 1.23.0
-  icon: mobile.lmex.io.webp
   meta: fewusers
   verdict: wip
   developerName: LMEX Limited

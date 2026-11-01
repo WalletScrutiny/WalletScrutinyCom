@@ -20,7 +20,6 @@ android:
   updated: 2026-09-22
   version: 2.40.0
   reviews: 57557
-  icon: com.binance.cloud.tokocrypto.webp
   meta: ok
   verdict: custodial
   developerName: Tokocrypto
@@ -32,7 +31,6 @@ iphone:
   updated: 2022-10-15
   version: 1.10.0
   reviews: 1
-  icon: com.binanceCloudtoko.binance.webp
   meta: removed
   verdict: custodial
 

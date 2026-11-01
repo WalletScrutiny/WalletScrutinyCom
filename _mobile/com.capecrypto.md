@@ -22,7 +22,6 @@ android:
   released: 2022-04-25
   updated: 2026-05-19
   version: 4.1.6
-  icon: com.capecrypto.webp
   meta: ok
   verdict: custodial
   developerName: Cape Crypto
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-05-20
   version: 4.1.6
   reviews: 9
-  icon: com.capecrypto.ios.webp
   meta: ok
   verdict: custodial
   developerName: Cape Crypto Pty Ltd

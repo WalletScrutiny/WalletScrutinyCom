@@ -20,7 +20,6 @@ shop: https://asicvault.io/preorder/reserve-mark-ii.html#deadLink
 country: EE
 price: 
 repository: https://github.com/AsicVault/asicvault-hardware
-icon: asicvault.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

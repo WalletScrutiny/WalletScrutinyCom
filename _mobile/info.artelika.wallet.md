@@ -10,7 +10,6 @@ android:
   released: 2022-02-07
   updated: 2023-07-10
   version: 1.0.7
-  icon: info.artelika.wallet.webp
   meta: removed
   verdict: wip
   developerName: Artelika LLC

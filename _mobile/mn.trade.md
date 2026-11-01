@@ -18,7 +18,6 @@ android:
   updated: 2026-04-02
   version: 3.1.6
   reviews: 13
-  icon: mn.trade.webp
   meta: ok
   verdict: custodial
   developerName: Digital Exchange Mongolia LLC
@@ -30,7 +29,6 @@ iphone:
   updated: 2023-04-25
   version: 3.0.8
   reviews: 29
-  icon: mn.trade.webp
   meta: removed
   verdict: custodial
   developerName: Digital Exchange Mongolia LLC

@@ -11,7 +11,6 @@ android:
   updated: 2019-07-15
   version: 1.1.0
   reviews: 77
-  icon: com.phonegap.Zloadr.webp
   meta: removed
   verdict: wip
 

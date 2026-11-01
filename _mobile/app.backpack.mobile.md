@@ -15,7 +15,6 @@ android:
   updated: 2026-10-12
   version: 2.89.2
   reviews: 74
-  icon: app.backpack.mobile.webp
   meta: ok
   verdict: custodial
   developerName: Backpack App
@@ -27,7 +26,6 @@ iphone:
   updated: 2026-10-13
   version: 2.89.2
   reviews: 236
-  icon: app.backpack.mobile.webp
   meta: ok
   verdict: custodial
   developerName: Backpack Technologies Ltd.

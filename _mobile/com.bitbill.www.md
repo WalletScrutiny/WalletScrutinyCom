@@ -21,7 +21,6 @@ android:
   updated: 2026-09-20
   version: 4.67.2
   reviews: 13
-  icon: com.bitbill.www.webp
   meta: ok
   verdict: nosource
   developerName: ownbit
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-10-05
   version: 5.0.0
   reviews: 138
-  icon: com.bitbill.wallet.webp
   meta: ok
   verdict: nosource
   developerName: BITTOOL PTE. LTD.

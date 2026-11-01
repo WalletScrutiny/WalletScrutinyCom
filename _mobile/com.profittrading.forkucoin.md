@@ -17,7 +17,6 @@ android:
   updated: 2026-03-25
   version: 8.1.1
   reviews: 21
-  icon: com.profittrading.forkucoin.webp
   meta: ok
   verdict: custodial
   developerName: ProfitTradingApp

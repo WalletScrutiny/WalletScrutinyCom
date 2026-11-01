@@ -16,7 +16,6 @@ android:
   released: 2023-07-16
   updated: 2024-08-23
   version: 3.0.12
-  icon: com.greencryptox.exchange.webp
   meta: obsolete
   verdict: custodial
   developerName: AOWS Business Services Pvt Ltd
@@ -28,7 +27,6 @@ iphone:
   updated: 2024-08-14
   version: 3.6.4
   reviews: 2
-  icon: com.greencryptox.exchange.webp
   meta: removed
   verdict: custodial
   developerName: AOWS BUSINESS SERVICES PRIVATE LIMITED

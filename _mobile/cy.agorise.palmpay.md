@@ -12,7 +12,6 @@ android:
   users: 10000
   updated: 2022-01-20
   version: VARY
-  icon: cy.agorise.palmpay.webp
   meta: removed
   verdict: nosource
   developerName: Agorise, Ltd.

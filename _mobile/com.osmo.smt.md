@@ -26,7 +26,6 @@ android:
   updated: 2026-07-03
   version: 4.9.19
   reviews: 45
-  icon: com.osmo.smt.webp
   meta: removed
   verdict: custodial
   developerName: osmo
@@ -38,7 +37,6 @@ iphone:
   updated: 2026-10-12
   version: 4.9.22
   reviews: 185
-  icon: com.osmowallet.app.webp
   meta: ok
   verdict: custodial
   developerName: Hodl Group Inc.

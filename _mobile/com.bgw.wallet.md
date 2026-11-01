@@ -20,7 +20,6 @@ android:
   released: 2022-07-14
   updated: 2025-01-09
   version: 0.3.8
-  icon: com.bgw.wallet.webp
   meta: stale
   verdict: custodial
   developerName: Wellto Go
@@ -32,7 +31,6 @@ iphone:
   updated: 2024-06-11
   version: 0.3.7
   reviews: 0
-  icon: io.bgwallet.bgw.webp
   meta: removed
   verdict: custodial
   developerName: BG Technologies Limited

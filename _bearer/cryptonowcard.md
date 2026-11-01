@@ -17,7 +17,6 @@ shop: https://www.cryptonow.net/en-ch/find-retailer
 country: CH
 price: 
 repository: 
-icon: cryptonowcard.webp
 bugbounty: 
 meta: ok
 verdict: prefilled

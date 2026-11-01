@@ -9,7 +9,6 @@ android:
   users: 100
   updated: 2020-09-16
   version: VARY
-  icon: com.neb.showmelove.webp
   meta: removed
   verdict: wip
   developerName: Nebs Inc

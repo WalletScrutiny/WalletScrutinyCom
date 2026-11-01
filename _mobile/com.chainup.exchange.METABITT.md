@@ -12,7 +12,6 @@ android:
   released: 2022-12-30
   updated: 2023-01-17
   version: 5.6.5
-  icon: com.chainup.exchange.METABITT.webp
   meta: removed
   verdict: custodial
   developerName: KKOrange

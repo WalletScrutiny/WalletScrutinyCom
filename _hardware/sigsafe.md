@@ -17,7 +17,6 @@ shop:
 country: 
 price: 8USD
 repository: 
-icon: sigsafe.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

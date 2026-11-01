@@ -11,7 +11,6 @@ android:
   released: 2021-04-23
   updated: 2021-04-23
   version: 1.0.0
-  icon: com.Coinals.Wallet.webp
   meta: removed
   verdict: wip
   developerName: COINALS_INC

@@ -10,7 +10,6 @@ android:
   updated: 2019-03-21
   version: 1.0.0
   reviews: 4
-  icon: host.expo.rnpaperwalletchecker.webp
   meta: removed
   verdict: wip
 

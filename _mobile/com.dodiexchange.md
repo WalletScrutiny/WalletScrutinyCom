@@ -9,7 +9,6 @@ android:
   released: 2022-01-21
   updated: 2022-01-21
   version: '1.0'
-  icon: com.dodiexchange.webp
   meta: removed
   verdict: wip
   developerName: isaac andrews

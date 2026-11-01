@@ -12,7 +12,6 @@ android:
   released: 2021-11-30
   updated: 2022-09-08
   version: 1.0.4
-  icon: com.launchzone.lzwallet.webp
   meta: removed
   verdict: wip
   developerName: LaunchZone

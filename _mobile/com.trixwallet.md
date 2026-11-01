@@ -9,7 +9,6 @@ android:
   released: 2021-12-20
   updated: 2021-12-20
   version: 1.0.0
-  icon: com.trixwallet.webp
   meta: removed
   verdict: wip
   developerName: 5Star Inn Company

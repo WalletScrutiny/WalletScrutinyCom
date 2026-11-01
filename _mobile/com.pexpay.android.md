@@ -20,7 +20,6 @@ android:
   updated: 2023-06-15
   version: 1.19.0
   reviews: 8
-  icon: com.pexpay.android.webp
   meta: removed
   verdict: custodial
   developerName: Pexpay
@@ -32,7 +31,6 @@ iphone:
   updated: 2023-06-16
   version: 1.19.0
   reviews: 16
-  icon: com.peaceful.pexpay.app.ios.webp
   meta: removed
   verdict: custodial
   developerName: PEACEFUL INTERNATIONAL LIMITED

@@ -9,7 +9,6 @@ android:
   released: 2021-06-16
   updated: 2021-06-17
   version: '1.0'
-  icon: buyor.sell.crypto.jpg
   meta: removed
   verdict: wip
 

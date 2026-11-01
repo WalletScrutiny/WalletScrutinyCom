@@ -18,7 +18,6 @@ android:
   released: 2021-05-24
   updated: 2026-02-11
   version: 2.1.6
-  icon: com.nebeus.android.webp
   meta: ok
   verdict: custodial
   developerName: Rintral Trading SL
@@ -30,7 +29,6 @@ iphone:
   updated: 2026-02-11
   version: 2.1.4
   reviews: 0
-  icon: com.nebeus.appmobile.webp
   meta: ok
   verdict: custodial
   developerName: Nebeus

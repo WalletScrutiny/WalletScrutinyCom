@@ -17,7 +17,6 @@ shop: http://tinkey.io/#/shop&deadLink
 country: CN
 price: 
 repository: 
-icon: bitark.tinkey.webp
 bugbounty: 
 meta: defunct
 verdict: noita

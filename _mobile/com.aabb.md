@@ -16,7 +16,6 @@ android:
   updated: 2023-06-30
   version: 1.0.1271
   reviews: 32
-  icon: com.aabb.webp
   meta: removed
   verdict: nosource
   developerName: AABB Gold Token
@@ -27,7 +26,6 @@ iphone:
   updated: 2024-03-04
   version: 1.0.265
   reviews: 99
-  icon: com.aabb.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Asia Broadband, Inc.

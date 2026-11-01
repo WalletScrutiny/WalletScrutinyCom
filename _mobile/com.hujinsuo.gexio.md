@@ -10,7 +10,6 @@ android:
   updated: 2022-05-09
   version: 1.4.2
   reviews: 5
-  icon: com.hujinsuo.gexio.webp
   meta: removed
   verdict: wip
 

@@ -16,7 +16,6 @@ android:
   users: 10000
   updated: 2021-08-14
   version: Varies with device
-  icon: com.leadwallet.io.webp
   meta: removed
   verdict: nosource
 

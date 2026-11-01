@@ -15,7 +15,6 @@ android:
   updated: 2026-09-21
   version: 3.13.10
   reviews: 8
-  icon: io.ducatus.walnew.webp
   meta: ok
   verdict: nosource
   developerName: Ducatus Commerce
@@ -27,7 +26,6 @@ iphone:
   updated: 2026-10-22
   version: 3.13.11
   reviews: 5
-  icon: io.ducatus.ducatuswalletios.webp
   meta: ok
   verdict: nosource
   developerName: Denarius

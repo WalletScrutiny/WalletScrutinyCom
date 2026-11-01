@@ -20,7 +20,6 @@ android:
   updated: 2026-09-15
   version: 3.18.0
   reviews: 3357
-  icon: com.rainmanagement.rain.webp
   meta: ok
   verdict: custodial
   developerName: Rain Trading
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-09-17
   version: 3.18.0
   reviews: 2957
-  icon: com.rainmanagement.rain.webp
   meta: ok
   verdict: custodial
   developerName: Rain Management

@@ -10,7 +10,6 @@ android:
   released: 2019-08-12
   updated: 2020-02-11
   version: '2.5'
-  icon: com.topcoinfx.webp
   meta: removed
   verdict: wip
   developerName: TopcoinGlobal

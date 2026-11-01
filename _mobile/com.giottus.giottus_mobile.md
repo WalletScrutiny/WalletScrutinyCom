@@ -19,7 +19,6 @@ android:
   updated: 2026-09-19
   version: 3.0.55
   reviews: 26
-  icon: com.giottus.giottus_mobile.webp
   meta: ok
   verdict: custodial
   developerName: Giottus Technologies Private Limited
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-09-21
   version: 3.0.55
   reviews: 1122
-  icon: com.giottus.app.webp
   meta: ok
   verdict: custodial
   developerName: giottus

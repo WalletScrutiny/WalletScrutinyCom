@@ -18,7 +18,6 @@ android:
   updated: 2020-03-18
   version: 2.4.9
   reviews: 5
-  icon: org.cryptonex.android.webp
   meta: removed
   verdict: custodial
   developerName: Cryptonex LP

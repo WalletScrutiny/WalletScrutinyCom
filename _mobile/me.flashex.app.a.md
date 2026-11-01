@@ -9,7 +9,6 @@ android:
   released: 2020-08-25
   updated: 2020-08-26
   version: 1.0.2
-  icon: me.flashex.app.a.webp
   meta: removed
   verdict: wip
 

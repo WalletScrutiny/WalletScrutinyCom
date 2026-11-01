@@ -112,7 +112,7 @@ function generateAndAppendWalletTiles(workingArray, pageNo, platformFilter) {
     badgesHtml += `
     <a class="AppDisplayCard item ${wallet.folder} ${wallet.meta} ${domClass}" href="${url}">
       <div class="tile-head">
-        <img src="${wallet.icon ? `/images/wIcons/${wallet.iconFolder || wallet.folder}/small/${wallet.icon}` : '/images/noimg.svg'}" class="app_logo" alt="Wallet Logo">
+        <img src="${wallet.icon ? `/images/wIcons/${wallet.iconFolder || wallet.folder}/small/${wallet.icon}` : '/images/noimg.svg'}" onerror="this.onerror=null;this.src='/images/noimg.svg'" class="app_logo" alt="Wallet Logo">
         <h3>${wallet.altTitle || wallet.title}</h3>
         <span class="platform tile-view-only">${icon}<span> ${getWalletListCategory(wallet, tileHeadPlatform)}</span></span>
       </div>

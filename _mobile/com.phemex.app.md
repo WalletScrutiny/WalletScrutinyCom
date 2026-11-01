@@ -24,7 +24,6 @@ android:
   updated: 2026-07-23
   version: 5.22.0
   reviews: 1467
-  icon: com.phemex.app.webp
   meta: removed
   verdict: custodial
   developerName: Leading Magic Limited
@@ -36,7 +35,6 @@ iphone:
   updated: 2026-09-28
   version: 5.28.0
   reviews: 2772
-  icon: com.phemex.submit.webp
   meta: ok
   verdict: custodial
   developerName: Leading Magic Limited

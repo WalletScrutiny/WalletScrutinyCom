@@ -11,7 +11,6 @@ android:
   users: 1000
   updated: 2022-01-11
   version: 1.7.0
-  icon: com.orbitgtm.webp
   meta: removed
   verdict: wip
   developerName: OrbitDevelopers

@@ -10,7 +10,6 @@ android:
   released: 2020-07-08
   updated: 2021-02-06
   version: 3.4.8
-  icon: it.baloo.bitcoinpeople.webp
   meta: removed
   verdict: wip
   developerName: BTCP S.r.l.

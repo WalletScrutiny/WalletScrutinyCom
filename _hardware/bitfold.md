@@ -17,7 +17,6 @@ shop:
 country: CH
 price: 
 repository: 
-icon: bitfold.webp
 bugbounty: 
 meta: ok
 verdict: unreleased

@@ -16,7 +16,6 @@ android:
   updated: 2022-10-21
   version: 2.4.0
   reviews: 30
-  icon: bitmesh.volt.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Volt Wallet
@@ -27,7 +26,6 @@ iphone:
   updated: 2022-07-18
   version: 2.3.9
   reviews: 55
-  icon: com.laxoWallet.webp
   meta: removed
   verdict: custodial
   developerName: Hangzhou YunSuanDuanDian Technology Co.,Ltd

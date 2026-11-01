@@ -20,7 +20,6 @@ shop: https://aercrypt.net/store#deadLink
 country: 
 price: 
 repository: 
-icon: aercrypt.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

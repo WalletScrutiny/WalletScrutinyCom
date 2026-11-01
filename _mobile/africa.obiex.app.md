@@ -22,7 +22,6 @@ android:
   updated: 2026-10-11
   version: 4.1.23
   reviews: 31
-  icon: africa.obiex.app.webp
   meta: ok
   verdict: custodial
   developerName: Obiex Africa Ltd.
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-10-13
   version: 4.1.23
   reviews: 722
-  icon: africa.obiex.app.webp
   meta: ok
   verdict: custodial
   developerName: Paylot technologies Ltd

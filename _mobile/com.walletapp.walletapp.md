@@ -10,7 +10,6 @@ android:
   updated: 2021-01-28
   version: 1.0.14
   reviews: 46
-  icon: com.walletapp.walletapp.webp
   meta: removed
   verdict: wip
 

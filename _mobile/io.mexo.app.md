@@ -20,7 +20,6 @@ android:
   updated: 2026-04-06
   version: 3.7.15
   reviews: 18
-  icon: io.mexo.app.webp
   meta: ok
   verdict: custodial
   developerName: TruBit Ltd
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-01-12
   version: 3.7.13
   reviews: 135
-  icon: com.kmoh.mexo.webp
   meta: removed
   verdict: custodial
   developerName: TruBit Ltd.

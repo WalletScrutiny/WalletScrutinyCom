@@ -15,7 +15,6 @@ android:
   released: 2019-10-19
   updated: 2019-10-29
   version: 1.9.2
-  icon: com.airwalletofficial.air_wallet.webp
   meta: removed
   verdict: wip
   developerName: AWTech Blockchain Solutions

@@ -10,7 +10,6 @@ android:
   released: 2021-03-17
   updated: 2021-05-17
   version: 3.0.0.0
-  icon: com.remibit.wallet.twa.webp
   meta: removed
   verdict: wip
   developerName: RemiBit

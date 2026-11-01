@@ -16,7 +16,6 @@ android:
   updated: 2021-04-27
   version: 12.0.13
   reviews: 22
-  icon: com.profittrading.forbittrex.webp
   meta: removed
   verdict: custodial
   developerName: ProfitTradingApp

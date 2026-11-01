@@ -11,7 +11,6 @@ android:
   released: 2022-01-24
   updated: 2025-08-31
   version: 4.1.8
-  icon: uni.global.mcdc_client_app.webp
   meta: stale
   verdict: wip
   developerName: UNi.Global

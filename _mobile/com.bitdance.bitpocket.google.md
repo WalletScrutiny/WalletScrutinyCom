@@ -18,7 +18,6 @@ android:
   released: 2025-08-22
   updated: 2026-09-23
   version: 1.4.4
-  icon: com.bitdance.bitpocket.google.webp
   meta: ok
   verdict: nosource
   developerName: Bitdance
@@ -30,7 +29,6 @@ iphone:
   updated: 2026-10-13
   version: 1.4.4
   reviews: 1
-  icon: com.bitdance.bitpocket.webp
   meta: ok
   verdict: nosource
   developerName: BITDANCE HK LIMITED

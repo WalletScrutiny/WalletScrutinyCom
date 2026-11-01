@@ -17,7 +17,6 @@ android:
   released: 2018-10-09
   updated: 2019-07-17
   version: 1.0.0.57
-  icon: kr.co.keypair.quickxtouch.webp
   meta: removed
   verdict: wip
 

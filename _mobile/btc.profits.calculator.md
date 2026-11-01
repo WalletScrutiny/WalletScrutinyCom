@@ -10,7 +10,6 @@ android:
   updated: 2019-11-07
   version: '1.0'
   reviews: 24
-  icon: btc.profits.calculator.webp
   meta: removed
   verdict: wip
 

@@ -10,7 +10,6 @@ android:
   released: 2019-10-26
   updated: 2019-12-24
   version: '1.01'
-  icon: com.KeepMySeed.nfc.webp
   meta: removed
   verdict: wip
   developerName: KosmoRanger

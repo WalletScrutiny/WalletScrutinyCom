@@ -13,7 +13,6 @@ android:
   released: 2019-06-20
   updated: 2022-06-20
   version: 2.3.3
-  icon: com.msline.mw.webp
   meta: removed
   verdict: custodial
   developerName: x-widget
@@ -25,7 +24,6 @@ iphone:
   updated: 2022-05-17
   version: 2.2.4
   reviews: 0
-  icon: masterwallet.ai.webp
   meta: removed
   verdict: custodial
   developerName: X-widget

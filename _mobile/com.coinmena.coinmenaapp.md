@@ -20,7 +20,6 @@ android:
   updated: 2026-09-06
   version: 3.8.1
   reviews: 54
-  icon: com.coinmena.coinmenaapp.webp
   meta: ok
   verdict: custodial
   developerName: CoinMENA
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-09-07
   version: 3.8.1
   reviews: 23
-  icon: com.coinmena.coinmenaapp.webp
   meta: ok
   verdict: custodial
   developerName: CoinMENA

@@ -18,7 +18,6 @@ android:
   appCountry: us
   updated: 2026-08-17
   version: '2.26'
-  icon: com.bitexenglobal.exchangeapp.webp
   meta: ok
   verdict: custodial
   developerName: Bitexen Teknoloji A.Ş.
@@ -30,7 +29,6 @@ iphone:
   updated: 2026-08-07
   version: '2.33'
   reviews: 1
-  icon: com.bitexenglobal.exchangeapp.webp
   meta: ok
   verdict: custodial
   developerName: Bitexen Europe UAB

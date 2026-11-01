@@ -11,7 +11,6 @@ android:
   updated: 2018-05-31
   version: '3.0'
   reviews: 2
-  icon: m.justescrow.io.webp
   meta: removed
   verdict: wip
   developerName: Just ESCROW

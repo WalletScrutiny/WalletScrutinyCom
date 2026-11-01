@@ -13,7 +13,6 @@ android:
   released: 2020-12-30
   updated: 2021-03-02
   version: 1.0.4.210302
-  icon: com.terracredit.pro.webp
   meta: removed
   verdict: nosource
   developerName: The Terra Foundation

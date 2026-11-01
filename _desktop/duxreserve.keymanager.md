@@ -12,7 +12,6 @@ provider:
 providerWebsite: 
 website: https://duxreserve.com
 repository: 
-icon: duxreserve.keymanager.webp
 bugbounty: 
 meta: ok
 verdict: vapor

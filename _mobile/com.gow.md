@@ -10,7 +10,6 @@ android:
   released: 2021-11-14
   updated: 2021-12-29
   version: '1.12'
-  icon: com.gow.webp
   meta: removed
   verdict: wip
 

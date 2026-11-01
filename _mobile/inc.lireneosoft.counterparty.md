@@ -18,7 +18,6 @@ android:
   updated: 2019-06-14
   version: 2.5.4
   reviews: 31
-  icon: inc.lireneosoft.counterparty.webp
   meta: removed
   verdict: nosource
   developerName: IndieSquare Inc.
@@ -30,7 +29,6 @@ iphone:
   updated: 2021-08-17
   version: '1.255'
   reviews: 1
-  icon: inc.lireneosoft.counterparty.webp
   meta: removed
   verdict: nosource
   developerName: IndieSquare Inc.

@@ -21,7 +21,6 @@ android:
   updated: 2023-07-05
   version: 1.4.50
   reviews: 9
-  icon: com.btcex.exchange.webp
   meta: removed
   verdict: custodial
   developerName: BTCEX
@@ -33,7 +32,6 @@ iphone:
   updated: 2023-06-21
   version: 1.4.4
   reviews: 0
-  icon: com.btcex.appstore.webp
   meta: removed
   verdict: custodial
   developerName: BTCEX EXCHANGE LIMITED

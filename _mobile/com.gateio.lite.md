@@ -20,7 +20,6 @@ android:
   updated: 2023-08-30
   version: 2.0.1
   reviews: 9
-  icon: com.gateio.lite.webp
   meta: removed
   verdict: custodial
   developerName: Gate Global, Corp.
@@ -32,7 +31,6 @@ iphone:
   updated: 2022-12-13
   version: 3.10.2
   reviews: 29
-  icon: com.gateio.GateLite.webp
   meta: removed
   verdict: custodial
   developerName: Gate Technology Incorporated

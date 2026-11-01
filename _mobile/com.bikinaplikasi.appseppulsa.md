@@ -10,7 +10,6 @@ android:
   released: 2020-07-06
   updated: 2020-09-15
   version: '21.0'
-  icon: com.bikinaplikasi.appseppulsa.webp
   meta: removed
   verdict: wip
 

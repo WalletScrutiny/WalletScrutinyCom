@@ -17,7 +17,6 @@ android:
   updated: 2020-10-19
   version: 3.0.6
   reviews: 9
-  icon: com.ferrum.kudi.webp
   meta: removed
   verdict: custodial
   developerName: Ferrum Network

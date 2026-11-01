@@ -13,7 +13,6 @@ android:
   updated: 2021-01-27
   version: '3.3'
   reviews: 9
-  icon: com.swissy.webp
   meta: removed
   verdict: wip
 

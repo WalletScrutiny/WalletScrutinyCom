@@ -21,7 +21,6 @@ android:
   updated: 2026-10-09
   version: 26.1009.0
   reviews: 8661
-  icon: com.gemini.android.app.webp
   meta: ok
   verdict: custodial
   developerName: Gemini Space Station, Inc.
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-10-12
   version: 26.1009.0
   reviews: 109908
-  icon: com.gemini.ios.webp
   meta: ok
   verdict: custodial
   developerName: Gemini Trust Company, LLC

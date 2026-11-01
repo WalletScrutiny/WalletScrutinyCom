@@ -10,7 +10,6 @@ android:
   updated: 2021-06-18
   version: '1.0'
   reviews: 13
-  icon: com.cloudmining.mineresp.webp
   meta: removed
   verdict: wip
 

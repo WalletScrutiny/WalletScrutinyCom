@@ -16,7 +16,6 @@ android:
   updated: 2023-02-23
   version: 1.2.4
   reviews: 14
-  icon: com.exir.mobile.webp
   meta: removed
   verdict: custodial
   developerName: EXIR

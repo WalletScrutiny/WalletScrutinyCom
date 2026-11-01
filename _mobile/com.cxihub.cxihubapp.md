@@ -10,7 +10,6 @@ android:
   released: 2022-01-03
   updated: 2022-01-08
   version: '1.1'
-  icon: com.cxihub.cxihubapp.webp
   meta: removed
   verdict: wip
   developerName: Cxihub

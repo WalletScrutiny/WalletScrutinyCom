@@ -12,7 +12,6 @@ android:
   released: 2019-12-19
   updated: 2022-06-20
   version: 2.2.9
-  icon: com.trex.exchange.webp
   meta: removed
   verdict: wip
   developerName: T-Rex Global Enterprise

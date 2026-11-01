@@ -19,7 +19,6 @@ android:
   updated: 2026-07-01
   version: 5.5.25
   reviews: 448
-  icon: com.foxwallet.play.webp
   meta: ok
   verdict: nosource
   developerName: FoxWallet
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-07-02
   version: 5.5.25
   reviews: 84
-  icon: com.foxwallet.app.webp
   meta: ok
   verdict: nosource
   developerName: BlockHill Tech Limited

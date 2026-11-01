@@ -10,7 +10,6 @@ android:
   released: 2019-01-12
   updated: 2021-07-05
   version: 1.0.7
-  icon: br.com.bloco1.app.webp
   meta: removed
   verdict: wip
   developerName: Bloco1 Serviços Digitais LTDA

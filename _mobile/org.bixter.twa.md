@@ -10,7 +10,6 @@ android:
   released: 2020-12-19
   updated: 2020-12-07
   version: '1'
-  icon: org.bixter.twa.webp
   meta: removed
   verdict: wip
   developerName: BIXTER.ORG

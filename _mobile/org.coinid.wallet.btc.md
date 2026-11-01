@@ -20,7 +20,6 @@ android:
   updated: 2021-02-20
   version: 1.8.0
   reviews: 5
-  icon: org.coinid.wallet.btc.webp
   meta: removed
   verdict: sourceavailable
   developerName: COINiD Group
@@ -32,7 +31,6 @@ iphone:
   updated: 2022-11-19
   version: 1.8.2
   reviews: 24
-  icon: org.coinid.wallet.btc.webp
   meta: removed
   verdict: sourceavailable
   developerName: COINiD Group

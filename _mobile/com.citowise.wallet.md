@@ -13,7 +13,6 @@ android:
   updated: 2019-12-25
   version: '1.355'
   reviews: 525
-  icon: com.citowise.wallet.webp
   meta: removed
   verdict: nosource
 

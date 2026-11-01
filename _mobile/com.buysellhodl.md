@@ -15,7 +15,6 @@ android:
   updated: 2019-10-11
   version: 1.12.7
   reviews: 71
-  icon: com.buysellhodl.webp
   meta: removed
   verdict: wip
 

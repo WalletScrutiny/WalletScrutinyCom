@@ -10,7 +10,6 @@ android:
   released: 2018-12-21
   updated: 2020-11-23
   version: '2.1'
-  icon: com.supremexchange.webp
   meta: removed
   verdict: wip
   developerName: Kripter Kommunications

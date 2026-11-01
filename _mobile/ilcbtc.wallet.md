@@ -19,7 +19,6 @@ android:
   released: 2018-02-27
   updated: 2025-08-29
   version: '4.35'
-  icon: ilcbtc.wallet.webp
   meta: stale
   verdict: custodial
   developerName: ILCOIN Dev Team

@@ -10,7 +10,6 @@ android:
   released: 2020-05-02
   updated: 2020-05-02
   version: 1.0.0
-  icon: com.superx.isupex.webp
   meta: removed
   verdict: wip
 

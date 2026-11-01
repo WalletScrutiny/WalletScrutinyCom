@@ -18,7 +18,6 @@ android:
   released: 2021-09-28
   updated: 2022-10-14
   version: 0.21.17
-  icon: io.horizontalsystems.erium.webp
   meta: removed
   verdict: nosource
   developerName: Devblockex
@@ -30,7 +29,6 @@ iphone:
   updated: 2022-09-25
   version: 1.1.0
   reviews: 0
-  icon: io.horizontalsystems.erium.webp
   meta: removed
   verdict: nosource
   developerName: Erium LLC

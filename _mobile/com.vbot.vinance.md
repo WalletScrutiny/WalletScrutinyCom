@@ -10,7 +10,6 @@ android:
   released: 2022-02-03
   updated: 2022-02-04
   version: 1.0.0
-  icon: com.vbot.vinance.webp
   meta: removed
   verdict: wip
   developerName: VBot Solutions Limited

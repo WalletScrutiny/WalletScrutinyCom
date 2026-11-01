@@ -26,7 +26,6 @@ android:
   released: 2023-02-10
   updated: 2026-10-08
   version: 0.61.0
-  icon: cash.p.terminal.webp
   alternativeStores:
   - fdroid
   - zapstore

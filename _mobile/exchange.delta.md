@@ -18,7 +18,6 @@ android:
   released: 2021-05-07
   updated: 2026-04-21
   version: 1.13.0
-  icon: exchange.delta.webp
   meta: removed
   verdict: custodial
   developerName: Delta Exchange
@@ -30,7 +29,6 @@ iphone:
   updated: 2023-07-18
   version: 1.8.1
   reviews: 0
-  icon: exchange.delta.app.webp
   meta: removed
   verdict: custodial
   developerName: Bit Protocol Ltd.

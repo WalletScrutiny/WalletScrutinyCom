@@ -11,7 +11,6 @@ android:
   updated: 2022-09-01
   version: '2.0'
   reviews: 7
-  icon: com.wallet.burtarapp.webp
   meta: removed
   verdict: wip
   developerName: GGTC GLOBAL

@@ -17,7 +17,6 @@ shop:
 country: HK
 price: 
 repository: 
-icon: thingyfy.nxtringcrypto.webp
 bugbounty: 
 meta: defunct
 verdict: wip

@@ -26,7 +26,6 @@ android:
   updated: 2025-12-10
   version: 2.3.0
   reviews: 4
-  icon: com.defexa.wallet.webp
   meta: ok
   verdict: nosource
   developerName: FPS Global LTD
@@ -38,7 +37,6 @@ iphone:
   updated: 2025-12-17
   version: 2.4.0
   reviews: 0
-  icon: com.defexa.CryptoWallet-Defexa.webp
   meta: ok
   verdict: nosource
   developerName: FPS Global LTD

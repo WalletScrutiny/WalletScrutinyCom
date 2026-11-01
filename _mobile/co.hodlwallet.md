@@ -25,7 +25,6 @@ android:
   updated: 2020-05-18
   version: 3.3.5
   reviews: 51
-  icon: co.hodlwallet.webp
   meta: removed
   verdict: sourceavailable
   developerName: Hodl Wallet INC
@@ -37,7 +36,6 @@ iphone:
   updated: 2023-07-13
   version: '1.13'
   reviews: 138
-  icon: co.hodlwallet.webp
   meta: removed
   verdict: sourceavailable
   developerName: Hodl Wallet Inc

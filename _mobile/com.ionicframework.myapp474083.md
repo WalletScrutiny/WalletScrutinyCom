@@ -10,7 +10,6 @@ android:
   updated: 2018-10-22
   version: 2.0.13
   reviews: 174
-  icon: com.ionicframework.myapp474083.webp
   meta: removed
   verdict: wip
 

@@ -13,7 +13,6 @@ android:
   updated: 2020-09-15
   version: 1.0.9.5489
   reviews: 5
-  icon: com.sirinlabs.os.wallet.webp
   meta: removed
   verdict: wip
   developerName: SIRIN LABS

@@ -10,7 +10,6 @@ android:
   released: 2019-11-06
   updated: 2020-02-11
   version: '1.1'
-  icon: com.tetrazus.webp
   meta: removed
   verdict: wip
   developerName: Tetrazus

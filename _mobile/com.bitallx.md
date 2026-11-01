@@ -9,7 +9,6 @@ android:
   released: 2021-12-09
   updated: 2022-01-15
   version: '1.4'
-  icon: com.bitallx.webp
   meta: removed
   verdict: wip
   developerName: Bitallx

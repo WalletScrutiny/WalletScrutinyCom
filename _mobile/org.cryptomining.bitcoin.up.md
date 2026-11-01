@@ -9,7 +9,6 @@ android:
   released: 2021-07-21
   updated: 2021-07-21
   version: '1.0'
-  icon: org.cryptomining.bitcoin.up.webp
   meta: removed
   verdict: wip
 

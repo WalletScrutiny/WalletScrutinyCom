@@ -17,7 +17,6 @@ iphone:
   updated: 2021-11-28
   version: 2.9.3
   reviews: 10
-  icon: com.kcw.kcash.webp
   meta: removed
   verdict: nosource
 

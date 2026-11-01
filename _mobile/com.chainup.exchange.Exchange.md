@@ -17,7 +17,6 @@ android:
   updated: 2022-09-30
   version: 5.4.12
   reviews: 9
-  icon: com.chainup.exchange.Exchange.webp
   meta: removed
   verdict: custodial
   developerName: Scallop
@@ -29,7 +28,6 @@ iphone:
   updated: 2022-08-16
   version: 1.0.2
   reviews: 10
-  icon: com.scallop.exchange.SCLPExchange.webp
   meta: removed
   verdict: custodial
   developerName: Scallop Group

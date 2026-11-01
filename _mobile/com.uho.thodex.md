@@ -11,7 +11,6 @@ android:
   updated: 2020-08-18
   version: 1.0.10
   reviews: 56
-  icon: com.uho.thodex.webp
   meta: removed
   verdict: wip
   developerName: Thodex Inc

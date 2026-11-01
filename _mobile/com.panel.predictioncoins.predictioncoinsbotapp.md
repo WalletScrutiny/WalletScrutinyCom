@@ -11,7 +11,6 @@ android:
   updated: 2019-03-16
   version: '1'
   reviews: 3
-  icon: com.panel.predictioncoins.predictioncoinsbotapp.webp
   meta: removed
   verdict: wip
 

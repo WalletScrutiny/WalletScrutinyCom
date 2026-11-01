@@ -10,7 +10,6 @@ android:
   released: 2020-10-25
   updated: 2020-10-25
   version: '1.0'
-  icon: com.daatty.exchange.webp
   meta: removed
   verdict: wip
   developerName: Daatty

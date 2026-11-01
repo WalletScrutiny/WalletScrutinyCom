@@ -18,7 +18,6 @@ android:
   updated: 2023-08-09
   version: 3.8.8
   reviews: 752
-  icon: co.huobi.kr.webp
   meta: removed
   verdict: custodial
   developerName: Hb-korea
@@ -30,7 +29,6 @@ iphone:
   updated: 2023-08-03
   version: 3.8.8
   reviews: 273
-  icon: com.huobi.kr.webp
   meta: removed
   verdict: custodial
   developerName: Huobi Korea

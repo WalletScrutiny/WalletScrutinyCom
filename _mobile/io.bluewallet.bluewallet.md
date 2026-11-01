@@ -39,7 +39,6 @@ android:
   updated: 2026-10-04
   version: 8.0.2
   reviews: 389
-  icon: io.bluewallet.bluewallet.webp
   signer: 42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f
   alternativeStores:
   - zapstore
@@ -55,7 +54,6 @@ iphone:
   updated: 2026-10-05
   version: 8.0.2
   reviews: 857
-  icon: io.bluewallet.bluewallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: Bluewallet Services, S. R. L.

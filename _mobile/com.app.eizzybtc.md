@@ -10,7 +10,6 @@ android:
   released: 2020-11-18
   updated: 2020-11-19
   version: 1.0.0
-  icon: com.app.eizzybtc.webp
   meta: removed
   verdict: wip
 

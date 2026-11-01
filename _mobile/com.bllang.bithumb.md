@@ -10,7 +10,6 @@ android:
   updated: 2017-12-16
   version: 1.3.13
   reviews: 15
-  icon: com.bllang.bithumb.webp
   meta: removed
   verdict: wip
 

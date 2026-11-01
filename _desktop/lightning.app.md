@@ -12,7 +12,6 @@ provider: Lightning Labs
 providerWebsite: https://lightning.engineering
 website: 
 repository: https://github.com/lightninglabs/lightning-app
-icon: lightning.app.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable

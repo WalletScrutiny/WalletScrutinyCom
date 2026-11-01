@@ -18,7 +18,6 @@ android:
   updated: 2022-07-20
   version: 22.7.3.644
   reviews: 11575
-  icon: com.zipmex.webp
   meta: removed
   verdict: custodial
   developerName: Zipmex
@@ -30,7 +29,6 @@ iphone:
   updated: 2023-01-23
   version: 23.0.0
   reviews: 127
-  icon: com.zipmex.app.webp
   meta: removed
   verdict: custodial
   developerName: Zipmex

@@ -21,7 +21,6 @@ android:
   updated: 2025-10-07
   version: 1.42.2
   reviews: 12
-  icon: com.fastex.app.webp
   meta: removed
   verdict: custodial
   developerName: Fastex Europe
@@ -33,7 +32,6 @@ iphone:
   updated: 2025-09-08
   version: 1.41.0
   reviews: 248
-  icon: com.fastex.fastexapp.webp
   meta: defunct
   verdict: custodial
   developerName: FastEX Europe

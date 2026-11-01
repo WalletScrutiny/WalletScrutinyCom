@@ -20,7 +20,6 @@ android:
   updated: 2023-04-02
   version: '3.27'
   reviews: 2
-  icon: com.crosstower.india.webp
   meta: removed
   verdict: custodial
   developerName: Crosstower
@@ -32,7 +31,6 @@ iphone:
   updated: 2022-12-03
   version: '3.26'
   reviews: 3
-  icon: com.crosstower.trading.webp
   meta: removed
   verdict: custodial
   developerName: Crosstower India

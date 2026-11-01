@@ -9,7 +9,6 @@ android:
   users: 100
   updated: 2023-03-09
   version: 1.1.2
-  icon: io.mamorucrypto.app.webp
   meta: removed
   verdict: wip
 

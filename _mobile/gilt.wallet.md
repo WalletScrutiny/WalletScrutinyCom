@@ -10,7 +10,6 @@ android:
   released: 2020-10-12
   updated: 2020-10-12
   version: '9.8'
-  icon: gilt.wallet.webp
   meta: removed
   verdict: wip
   developerName: Xmewe

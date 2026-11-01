@@ -19,7 +19,6 @@ android:
   updated: 2023-03-29
   version: 1.9.80
   reviews: 9
-  icon: com.mayex.trading.webp
   meta: removed
   verdict: custodial
   developerName: Mayex
@@ -31,7 +30,6 @@ iphone:
   updated: 2023-04-11
   version: 1.9.8
   reviews: 5
-  icon: com.mayex.trading.webp
   meta: removed
   verdict: custodial
   developerName: MAYEX LIMITED

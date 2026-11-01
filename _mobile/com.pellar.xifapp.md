@@ -16,7 +16,6 @@ android:
   updated: 2021-06-15
   version: 5.3.7
   reviews: 4
-  icon: com.pellar.xifapp.webp
   meta: removed
   verdict: custodial
   developerName: X INFINITY
@@ -28,7 +27,6 @@ iphone:
   updated: 2021-06-15
   version: 5.2.2b270
   reviews: 1
-  icon: app.xif.com.webp
   meta: removed
   verdict: custodial
   developerName: X-Inifinity

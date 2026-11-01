@@ -20,7 +20,6 @@ shop: https://www.safepal.com/en/store/x1
 country: CH
 price: 69.99USD
 repository: https://github.com/SafePalWallet/safepal-x1
-icon: safepalx1.webp
 bugbounty: 
 meta: ok
 verdict: nosource

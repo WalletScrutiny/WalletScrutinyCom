@@ -16,7 +16,6 @@ android:
   released: 2021-09-22
   updated: 2022-06-14
   version: 2.1.3
-  icon: com.xchaino.webp
   meta: removed
   verdict: custodial
   developerName: Bit24

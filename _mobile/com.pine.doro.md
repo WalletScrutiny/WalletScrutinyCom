@@ -10,7 +10,6 @@ android:
   updated: 2021-05-05
   version: '1.1'
   reviews: 34
-  icon: com.pine.doro.webp
   meta: removed
   verdict: wip
 

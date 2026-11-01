@@ -18,7 +18,6 @@ android:
   released: 2025-06-09
   updated: 2026-10-01
   version: 1.1.2
-  icon: com.app.degate.webp
   meta: ok
   verdict: nosource
   developerName: DeGate Inc.
@@ -30,7 +29,6 @@ iphone:
   updated: 2026-10-05
   version: 1.1.2
   reviews: 8
-  icon: com.app.degate.webp
   meta: ok
   verdict: nosource
   developerName: DeGate Inc.

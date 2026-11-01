@@ -16,7 +16,6 @@ android:
   updated: 2026-10-13
   version: 3.18.1
   reviews: 3
-  icon: com.getmidas.crypto.webp
   meta: ok
   verdict: custodial
   developerName: Midas Finansal Teknolojiler
@@ -28,7 +27,6 @@ iphone:
   updated: 2026-10-08
   version: 3.18.0
   reviews: 2980
-  icon: com.midas.crypto.webp
   meta: ok
   verdict: custodial
   developerName: MIDAS FINANSAL TEKNOLOJILER AS

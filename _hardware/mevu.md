@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-icon: mevu.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

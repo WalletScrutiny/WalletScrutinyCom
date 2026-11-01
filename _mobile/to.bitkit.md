@@ -28,7 +28,6 @@ android:
   updated: 2026-10-13
   version: 2.5.1
   reviews: 3
-  icon: to.bitkit.webp
   signer: 422ae8e4c9b4f1288efb27df173e31cadfd7134d61fa5357eb5ed9eae83c75a7
   alternativeStores:
   - zapstore
@@ -44,7 +43,6 @@ iphone:
   updated: 2026-09-23
   version: 2.5.0
   reviews: 10
-  icon: to.bitkit.webp
   meta: ok
   verdict: sourceavailable
   developerName: Synonym Software Ltd

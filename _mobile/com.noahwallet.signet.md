@@ -11,7 +11,6 @@ android:
   appCountry: us
   updated: 2026-10-12
   version: VARY
-  icon: com.noahwallet.signet.webp
   meta: fewusers
   verdict: sourceavailable
   developerName: Hampus Sjöberg

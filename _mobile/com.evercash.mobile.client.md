@@ -9,7 +9,6 @@ android:
   released: 2022-07-23
   updated: 2023-12-04
   version: 3.0.0-a46a024b
-  icon: com.evercash.mobile.client.webp
   meta: removed
   verdict: wip
   developerName: Parcent

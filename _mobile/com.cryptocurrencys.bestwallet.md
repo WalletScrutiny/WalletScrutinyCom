@@ -7,7 +7,6 @@ android:
   appId: com.cryptocurrencys.bestwallet
   users: 0
   updated: 2021-12-30
-  icon: com.cryptocurrencys.bestwallet.webp
   meta: removed
   verdict: wip
 

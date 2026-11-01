@@ -16,7 +16,6 @@ android:
   updated: 2022-04-14
   version: 1.7.0
   reviews: 15
-  icon: com.risewallet.riseapp.webp
   meta: removed
   verdict: nosource
   developerName: Bitcoin Well
@@ -27,7 +26,6 @@ iphone:
   updated: 2023-02-24
   version: 1.8.3
   reviews: 31
-  icon: com.risewallet.riseapp.webp
   meta: removed
   verdict: nosource
 

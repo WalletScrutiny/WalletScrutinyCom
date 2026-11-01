@@ -9,7 +9,6 @@ android:
   released: 2022-04-14
   updated: 2022-04-14
   version: '1'
-  icon: com.bitmove.webp
   meta: removed
   verdict: wip
   developerName: Bitmove Team

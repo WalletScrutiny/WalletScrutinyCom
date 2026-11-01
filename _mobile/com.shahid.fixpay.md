@@ -10,7 +10,6 @@ android:
   released: 2021-10-05
   updated: 2021-10-05
   version: '3.0'
-  icon: com.shahid.fixpay.webp
   meta: removed
   verdict: wip
   developerName: RingMe Trading

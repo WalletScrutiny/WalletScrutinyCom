@@ -19,7 +19,6 @@ android:
   updated: 2026-06-25
   version: 1.13.12
   reviews: 19
-  icon: com.llc.bitcastle.webp
   meta: ok
   verdict: custodial
   developerName: bitcastle Limited
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-04-22
   version: 1.12.14
   reviews: 0
-  icon: com.llc.bitcastle.webp
   meta: ok
   verdict: custodial
   developerName: bitcastle LLC

@@ -11,7 +11,6 @@ android:
   updated: 2020-08-11
   version: 1.2.5
   reviews: 135
-  icon: com.bitpay.checkout.webp
   meta: removed
   verdict: nowallet
 iphone:
@@ -22,7 +21,6 @@ iphone:
   updated: 2020-08-12
   version: 1.2.5
   reviews: 11
-  icon: com.bitpay.checkout.webp
   meta: defunct
   verdict: nowallet
   developerName: BitPay, Inc.

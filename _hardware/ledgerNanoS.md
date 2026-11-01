@@ -21,7 +21,6 @@ shop: https://web.archive.org/web/20220808202636/https://shop.ledger.com/product
 country: FR
 price: 45999CLP
 repository: https://github.com/LedgerHQ/app-bitcoin
-icon: ledgerNanoS.webp
 bugbounty: 
 meta: discontinued
 verdict: nosource

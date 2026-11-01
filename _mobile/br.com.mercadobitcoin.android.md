@@ -18,7 +18,6 @@ android:
   updated: 2026-10-09
   version: 2.132.0
   reviews: 73
-  icon: br.com.mercadobitcoin.android.webp
   meta: ok
   verdict: custodial
   developerName: MERCADO BITCOIN SERVICOS DIGITAIS LTDA

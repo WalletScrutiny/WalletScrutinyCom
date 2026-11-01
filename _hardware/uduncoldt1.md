@@ -20,7 +20,6 @@ shop:
 country: 
 price: 
 repository: 
-icon: uduncoldt1.webp
 bugbounty: 
 meta: ok
 verdict: nosource

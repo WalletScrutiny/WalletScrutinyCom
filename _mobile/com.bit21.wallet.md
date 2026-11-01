@@ -11,7 +11,6 @@ android:
   released: 2026-06-21
   updated: 2026-06-21
   version: 1.0.0
-  icon: com.bit21.wallet.webp
   meta: fewusers
   verdict: wip
   developerName: Bit21 Technologies

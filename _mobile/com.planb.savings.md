@@ -9,7 +9,6 @@ android:
   released: 2020-07-08
   updated: 2020-07-13
   version: 0.0.2
-  icon: com.planb.savings.webp
   meta: removed
   verdict: wip
   developerName: Leorio

@@ -17,7 +17,6 @@ shop:
 country: RU
 price: 99EUR
 repository: 
-icon: coinplace.coinphone.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

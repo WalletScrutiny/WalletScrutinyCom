@@ -16,7 +16,6 @@ android:
   released: 2022-06-01
   updated: 2022-06-01
   version: '1.0'
-  icon: io.vesto.app.webp
   meta: removed
   verdict: nosource
   developerName: Vesto Apps
@@ -28,7 +27,6 @@ iphone:
   updated: 2022-04-26
   version: 1.0.1
   reviews: 0
-  icon: io.vesto.app.webp
   meta: obsolete
   verdict: nosource
   developerName: Vesto LLC

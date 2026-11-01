@@ -9,7 +9,6 @@ android:
   released: 2022-03-22
   updated: 2022-11-26
   version: 1.2.8
-  icon: com.lianghua.webp
   meta: removed
   verdict: wip
   developerName: UNIQUANT TECHNOLOGY INC.

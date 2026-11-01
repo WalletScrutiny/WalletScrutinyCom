@@ -18,7 +18,6 @@ android:
   updated: 2019-06-30
   version: '3.0'
   reviews: 4
-  icon: existv2.com.webp
   meta: removed
   verdict: nosource
   developerName: New York Exchange Coin
@@ -30,7 +29,6 @@ iphone:
   updated: 2019-07-30
   version: '1.1'
   reviews: 15
-  icon: com.orbitnetwork.nyecoinpublish.webp
   meta: removed
   verdict: nosource
   developerName: Orbit Network Inc

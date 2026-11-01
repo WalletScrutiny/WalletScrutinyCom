@@ -10,7 +10,6 @@ android:
   updated: 2022-05-29
   version: '1.1'
   reviews: 300
-  icon: com.coin.base.webp
   meta: removed
   verdict: wip
 

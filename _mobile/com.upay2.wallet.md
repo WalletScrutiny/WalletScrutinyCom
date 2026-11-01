@@ -19,7 +19,6 @@ android:
   updated: 2026-01-13
   version: 1.0.6
   reviews: 5
-  icon: com.upay2.wallet.webp
   meta: removed
   verdict: custodial
   developerName: UPay
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-07-07
   version: 1.0.7
   reviews: 7
-  icon: com.upay2.wallet.webp
   meta: ok
   verdict: custodial
   developerName: UPay Technology LTD.

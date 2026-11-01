@@ -21,7 +21,6 @@ shop: https://www.cardwallet.com/en/product/card-wallet-bitcoin/
 country: AT
 price: 39.9EUR
 repository: 
-icon: coinfinitycardwallet.webp
 bugbounty: 
 meta: ok
 verdict: prefilled

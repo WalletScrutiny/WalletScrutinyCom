@@ -10,7 +10,6 @@ android:
   released: 2020-03-13
   updated: 2020-10-09
   version: 1.0.4
-  icon: me.flyp.mobile.webp
   meta: removed
   verdict: wip
   developerName: HolyTransaction Android

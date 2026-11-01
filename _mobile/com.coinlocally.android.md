@@ -19,7 +19,6 @@ android:
   updated: 2026-05-21
   version: 5.1.1
   reviews: 78
-  icon: com.coinlocally.android.webp
   meta: ok
   verdict: custodial
   developerName: Coinlocally Official
@@ -31,7 +30,6 @@ iphone:
   updated: 2025-12-12
   version: 3.1.6
   reviews: 135
-  icon: com.coinlocally.app.webp
   meta: ok
   verdict: custodial
   developerName: Coinlocally

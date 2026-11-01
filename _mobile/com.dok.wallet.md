@@ -23,7 +23,6 @@ android:
   version: '3.33'
   reviews: 15
   repository: https://github.com/KM-opensource-crypto-wallet/mobile_app
-  icon: com.dok.wallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: Dok wallet
@@ -36,7 +35,6 @@ iphone:
   version: '2.53'
   reviews: 2
   repository: https://github.com/KM-opensource-crypto-wallet/mobile_app
-  icon: com.dok.wallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: Moreover4u2 Ltd

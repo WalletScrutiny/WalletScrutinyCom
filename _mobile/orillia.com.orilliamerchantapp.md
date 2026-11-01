@@ -10,7 +10,6 @@ android:
   released: 2015-06-03
   updated: 2015-06-03
   version: '0.18'
-  icon: orillia.com.orilliamerchantapp.webp
   meta: removed
   verdict: wip
   developerName: Orillia BVBA

@@ -22,7 +22,6 @@ android:
   updated: 2026-09-14
   version: 2.8.0
   reviews: 47
-  icon: com.rumble.rumblewallet.webp
   meta: ok
   verdict: nosource
   developerName: Rumble Inc
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-09-15
   version: 2.7.0
   reviews: 225
-  icon: com.rumble.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Rumble Inc.

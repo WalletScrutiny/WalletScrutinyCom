@@ -21,7 +21,6 @@ android:
   updated: 2026-10-09
   version: 30.16.0
   reviews: 14174
-  icon: org.toshi.webp
   meta: ok
   verdict: nosource
   developerName: Coinbase Wallet
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-10-12
   version: '30.16'
   reviews: 161387
-  icon: org.toshi.distribution.webp
   meta: ok
   verdict: nosource
   developerName: Coinbase Wallet

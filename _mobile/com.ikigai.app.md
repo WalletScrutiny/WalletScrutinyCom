@@ -9,7 +9,6 @@ android:
   released: 2022-02-08
   updated: 2022-02-08
   version: '1.0'
-  icon: com.ikigai.app.webp
   meta: removed
   verdict: wip
   developerName: Viktor Alfredson

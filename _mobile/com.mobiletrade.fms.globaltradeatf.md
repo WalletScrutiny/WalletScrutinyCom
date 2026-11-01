@@ -19,7 +19,6 @@ android:
   updated: 2021-11-22
   version: 1.5.78-mobiletrade.fms.globaltradeatf
   reviews: 318
-  icon: com.mobiletrade.fms.globaltradeatf.webp
   meta: removed
   verdict: nosendreceive
 iphone:
@@ -28,7 +27,6 @@ iphone:
   released: 2020-07-29
   updated: 2021-11-26
   version: 1.69.13
-  icon: com.tradeatf.global.webp
   meta: removed
   verdict: nosendreceive
 

@@ -21,7 +21,6 @@ android:
   released: 2022-05-13
   updated: 2023-05-30
   version: 1.7.0
-  icon: com.cloud.lordtoken.webp
   meta: removed
   verdict: custodial
   developerName: LORD SERVICES
@@ -33,7 +32,6 @@ iphone:
   updated: 2022-12-14
   version: 1.1.0
   reviews: 0
-  icon: com.cloud.lordtoken.webp
   meta: removed
   verdict: custodial
   developerName: LORD SERVICES

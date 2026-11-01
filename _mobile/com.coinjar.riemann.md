@@ -20,7 +20,6 @@ android:
   updated: 2026-10-12
   version: 3.69.0
   reviews: 1188
-  icon: com.coinjar.riemann.webp
   meta: ok
   verdict: custodial
   developerName: CoinJar
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-09-15
   version: 3.68.0
   reviews: 15264
-  icon: com.coinjar.mobius.webp
   meta: ok
   verdict: custodial
   developerName: CoinJar Pty Ltd

@@ -20,7 +20,6 @@ shop: https://weidian.com/item.html?itemID=2622692395
 country: 
 price: 
 repository: 
-icon: bying.k1.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

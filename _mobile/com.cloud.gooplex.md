@@ -10,7 +10,6 @@ android:
   released: 2020-12-28
   updated: 2021-10-20
   version: 1.2.0
-  icon: com.cloud.gooplex.webp
   meta: removed
   verdict: wip
 

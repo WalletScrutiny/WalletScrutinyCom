@@ -10,7 +10,6 @@ android:
   released: 2022-04-11
   updated: 2023-12-06
   version: 3.3.5
-  icon: com.necen.coinpara.react.webp
   meta: removed
   verdict: wip
   developerName: Necen Teknoloji

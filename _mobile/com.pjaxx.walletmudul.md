@@ -13,7 +13,6 @@ android:
   released: 2021-07-05
   updated: 2021-07-05
   version: '1'
-  icon: com.pjaxx.walletmudul.webp
   meta: removed
   verdict: fake
 

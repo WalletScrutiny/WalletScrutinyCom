@@ -13,7 +13,6 @@ android:
   updated: 2021-05-17
   version: 1.0.2
   reviews: 6
-  icon: com.bitsmoney.mobile.webp
   meta: removed
   verdict: wip
   developerName: Bits Money Ltd.

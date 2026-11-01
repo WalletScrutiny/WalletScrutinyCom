@@ -17,7 +17,6 @@ shop:
 country: CN
 price: 
 repository: https://github.com/wangganggithub/btczen_public
-icon: btczen.smartcard.webp
 bugbounty: 
 meta: ok
 verdict: vapor

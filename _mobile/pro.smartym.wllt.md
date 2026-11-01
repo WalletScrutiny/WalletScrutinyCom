@@ -10,7 +10,6 @@ android:
   released: 2019-03-19
   updated: 2019-03-21
   version: '1.1'
-  icon: pro.smartym.wllt.webp
   meta: removed
   verdict: wip
   developerName: Smartym Pro

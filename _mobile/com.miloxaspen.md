@@ -10,7 +10,6 @@ android:
   released: 2022-02-08
   updated: 2022-03-16
   version: '1.0'
-  icon: com.miloxaspen.webp
   meta: removed
   verdict: wip
 

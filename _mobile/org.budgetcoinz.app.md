@@ -14,7 +14,6 @@ android:
   released: 2024-02-29
   updated: 2025-12-25
   version: 1.8.0
-  icon: org.budgetcoinz.app.webp
   meta: ok
   verdict: nosource
   developerName: BudgetCoinz
@@ -26,7 +25,6 @@ iphone:
   updated: 2026-01-14
   version: 1.6.0
   reviews: 4
-  icon: org.budgetcoinz.app.webp
   meta: ok
   verdict: nosource
   developerName: BudgetCoinz LLC

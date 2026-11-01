@@ -10,7 +10,6 @@ android:
   released: 2020-07-25
   updated: 2020-07-25
   version: 2.3.9
-  icon: com.rosifynigeria.rosify.webp
   meta: removed
   verdict: wip
 

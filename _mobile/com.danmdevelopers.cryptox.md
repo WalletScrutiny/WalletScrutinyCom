@@ -10,7 +10,6 @@ android:
   released: 2021-05-01
   updated: 2021-05-01
   version: '1.0'
-  icon: com.danmdevelopers.cryptox.webp
   meta: removed
   verdict: wip
   developerName: Daniel Nicolalde

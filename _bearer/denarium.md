@@ -17,7 +17,6 @@ shop:
 country: FI
 price: 
 repository: 
-icon: denarium.webp
 bugbounty: 
 meta: discontinued
 verdict: prefilled

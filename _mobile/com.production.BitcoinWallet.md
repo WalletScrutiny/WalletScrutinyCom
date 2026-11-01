@@ -9,7 +9,6 @@ iphone:
   updated: 2026-09-29
   version: 28.28.40
   reviews: 85
-  icon: com.production.BitcoinWallet.webp
   meta: ok
   verdict: wip
   developerName: NWAY OO WATHAN TRADING COMPANY LIMITED

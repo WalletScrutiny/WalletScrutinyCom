@@ -3,7 +3,6 @@ title: Chaintuts ubitaddr
 appId: chaintuts.ubitaddr
 authors:
 - danny
-icon: chaintuts.ubitaddr.webp
 date: 2026-10-30
 released: 2019-08-12
 updated: 2020-05-01

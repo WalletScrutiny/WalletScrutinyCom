@@ -10,7 +10,6 @@ android:
   released: 2021-12-10
   updated: 2021-12-10
   version: '1.0'
-  icon: com.eagleo.exchange.webp
   meta: removed
   verdict: wip
   developerName: Eagleo

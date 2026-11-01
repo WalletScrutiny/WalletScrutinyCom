@@ -19,7 +19,6 @@ android:
   updated: 2022-09-22
   version: 4.7.79
   reviews: 84
-  icon: com.hoo.qianbao.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -29,7 +28,6 @@ iphone:
   updated: 2022-09-15
   version: 4.6.96
   reviews: 148
-  icon: cn.maolian.hufu.app.standard.webp
   meta: removed
   verdict: custodial
   developerName: Hoo Technology Limited

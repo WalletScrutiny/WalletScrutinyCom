@@ -9,7 +9,6 @@ android:
   released: 2023-03-29
   updated: 2023-03-30
   version: '1.0'
-  icon: alpha.dex.cotokencrypto.webp
   meta: removed
   verdict: wip
   developerName: Riley Thomas Swanston

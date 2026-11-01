@@ -17,7 +17,6 @@ android:
   released: 2022-05-31
   updated: 2024-02-05
   version: '2.6'
-  icon: com.vynksafe.app.webp
   meta: removed
   verdict: custodial
   developerName: VYNK GROUP AE
@@ -29,7 +28,6 @@ iphone:
   updated: 2023-10-25
   version: '1.4'
   reviews: 3
-  icon: com.pixels.vynksafe.webp
   meta: removed
   verdict: custodial
   developerName: VYNK BLOCK TECHNOLOGIES PRIVATE LIMITED

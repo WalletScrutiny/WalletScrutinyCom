@@ -16,7 +16,6 @@ android:
   updated: 2022-12-12
   version: '1.8'
   reviews: 8
-  icon: com.berrywallet.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Ahmad soft

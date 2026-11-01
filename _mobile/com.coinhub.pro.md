@@ -18,7 +18,6 @@ android:
   updated: 2026-10-06
   version: 3.1.10
   reviews: 10
-  icon: com.coinhub.pro.webp
   meta: ok
   verdict: custodial
   developerName: CoinHUB
@@ -30,7 +29,6 @@ iphone:
   updated: 2023-04-19
   version: 1.3.3
   reviews: 11
-  icon: mn.coinhub.coinhub.webp
   meta: removed
   verdict: custodial
   developerName: CoinHUB

@@ -18,7 +18,6 @@ android:
   released: 2018-05-23
   updated: 2021-07-20
   version: 2.1.3
-  icon: com.tideisun.tidepay.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -28,7 +27,6 @@ iphone:
   updated: 2024-10-08
   version: 4.0.5
   reviews: 3
-  icon: com.tideisun.tidepay.webp
   meta: removed
   verdict: custodial
   developerName: TIDENET LIMITED

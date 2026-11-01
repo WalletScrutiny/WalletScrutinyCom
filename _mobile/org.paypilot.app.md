@@ -10,7 +10,6 @@ android:
   appCountry: us
   updated: 2026-09-30
   version: 1.9.3
-  icon: org.paypilot.app.webp
   meta: ok
   verdict: wip
   developerName: PayPilot

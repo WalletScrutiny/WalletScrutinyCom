@@ -18,7 +18,6 @@ android:
   updated: 2026-08-05
   version: 4.1.0
   reviews: 5
-  icon: xyz.ctrl.wallet.webp
   meta: defunct
   verdict: nosource
   developerName: EMURGO Fintech Inc.
@@ -30,7 +29,6 @@ iphone:
   updated: 2026-06-08
   version: 3.3.2
   reviews: 9
-  icon: xyz.ctrl.wallet.webp
   meta: removed
   verdict: nosource
   developerName: EMURGO Co., Ltd

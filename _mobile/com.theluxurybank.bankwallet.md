@@ -10,7 +10,6 @@ android:
   released: 2020-11-22
   updated: 2020-11-22
   version: 0.16.3
-  icon: com.theluxurybank.bankwallet.webp
   meta: removed
   verdict: wip
   developerName: The Luxury Network LTD

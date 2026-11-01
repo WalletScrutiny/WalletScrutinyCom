@@ -12,7 +12,6 @@ android:
   released: 2016-07-08
   updated: 2017-10-20
   version: 1.1.8
-  icon: at.bitpocket.pos.webp
   meta: removed
   verdict: wip
   developerName: Beyond IT OG

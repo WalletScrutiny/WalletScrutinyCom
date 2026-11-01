@@ -10,7 +10,6 @@ android:
   released: 2020-04-17
   updated: 2020-12-16
   version: 1.0.2
-  icon: com.finalSecurity.webp
   meta: removed
   verdict: wip
   developerName: Final Security

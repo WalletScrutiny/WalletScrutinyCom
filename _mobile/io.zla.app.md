@@ -11,7 +11,6 @@ android:
   updated: 2019-12-12
   version: 2.6.3
   reviews: 45
-  icon: io.zla.app.webp
   meta: removed
   verdict: wip
   developerName: ZLA PTE LTD

@@ -19,7 +19,6 @@ iphone:
   updated: 2024-01-10
   version: 6.1.5
   reviews: 965
-  icon: com.buyhatke.2018.BitBnS.webp
   meta: defunct
   verdict: custodial
   developerName: Buyhatke Internet Private Limited

@@ -14,7 +14,6 @@ android:
   updated: 2021-11-02
   version: 1.28.125
   reviews: 25
-  icon: com.swapoolabs.swapoo.webp
   meta: removed
   verdict: wip
 iphone:
@@ -24,7 +23,6 @@ iphone:
   updated: 2021-10-27
   version: 1.45.30
   reviews: 1
-  icon: com.swapoolabs.swapoowallet.webp
   meta: removed
   verdict: wip
 

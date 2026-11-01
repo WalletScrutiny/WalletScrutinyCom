@@ -10,7 +10,6 @@ android:
   released: 2019-10-15
   updated: 2019-10-15
   version: '2.1'
-  icon: com.tcws.wallet.webp
   meta: removed
   verdict: wip
 

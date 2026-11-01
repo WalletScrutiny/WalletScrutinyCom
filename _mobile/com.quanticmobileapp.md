@@ -10,7 +10,6 @@ android:
   released: 2021-02-16
   updated: 2022-09-08
   version: 2.0.37
-  icon: com.quanticmobileapp.webp
   meta: removed
   verdict: wip
   developerName: Quantic Venture Limited

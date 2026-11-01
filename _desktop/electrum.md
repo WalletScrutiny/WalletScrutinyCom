@@ -13,7 +13,6 @@ provider: Thomas Voegtlin
 providerWebsite: 
 website: https://electrum.org/
 repository: https://github.com/spesmilo/electrum
-icon: electrum.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

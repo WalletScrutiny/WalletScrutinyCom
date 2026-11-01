@@ -20,7 +20,6 @@ android:
   updated: 2026-10-09
   version: 4.01.01
   reviews: 88
-  icon: zebpay.Application.webp
   meta: ok
   verdict: custodial
   developerName: ZebPay

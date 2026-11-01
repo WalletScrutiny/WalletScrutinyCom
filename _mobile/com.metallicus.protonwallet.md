@@ -20,7 +20,6 @@ android:
   updated: 2021-10-21
   version: 1.5.20
   reviews: 82
-  icon: com.metallicus.protonwallet.webp
   meta: removed
   verdict: nosource
   developerName: Metallicus Inc.
@@ -31,7 +30,6 @@ iphone:
   updated: 2021-12-09
   version: 1.1.20
   reviews: 251
-  icon: com.metallicus.proton.webp
   meta: removed
   verdict: nosource
 

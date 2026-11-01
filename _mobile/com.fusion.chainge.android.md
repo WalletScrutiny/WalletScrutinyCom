@@ -19,7 +19,6 @@ android:
   updated: 2024-10-17
   version: 0.8.1
   reviews: 63
-  icon: com.fusion.chainge.android.webp
   meta: removed
   verdict: nosource
   developerName: Chainge
@@ -31,7 +30,6 @@ iphone:
   updated: 2024-10-14
   version: 0.8.3
   reviews: 88
-  icon: com.chainge.finance.app.webp
   meta: removed
   verdict: nosource
   developerName: Chainge Tech Limited

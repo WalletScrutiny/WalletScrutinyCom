@@ -10,7 +10,6 @@ android:
   released: 2020-12-21
   updated: 2021-02-02
   version: 1.0.2
-  icon: com.coinsliberty.wallet.webp
   meta: removed
   verdict: wip
   developerName: Captiva Cay Platforms

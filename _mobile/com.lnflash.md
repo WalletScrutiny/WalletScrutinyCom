@@ -27,7 +27,6 @@ android:
   released: 2024-01-07
   updated: 2026-10-08
   version: 0.8.0
-  icon: com.lnflash.webp
   meta: ok
   verdict: sourceavailable
   developerName: Island Bitcoin
@@ -40,7 +39,6 @@ iphone:
   updated: 2026-10-09
   version: 0.8.0
   reviews: 0
-  icon: com.lnflash.webp
   meta: ok
   verdict: sourceavailable
   developerName: Island Bitcoin

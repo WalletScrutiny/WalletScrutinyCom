@@ -13,7 +13,6 @@ android:
   released: 2022-02-27
   updated: 2023-07-14
   version: 1.0.33
-  icon: com.exchange.hotxapp.webp
   meta: removed
   verdict: custodial
   developerName: Metasigns
@@ -25,7 +24,6 @@ iphone:
   updated: 2023-11-12
   version: 1.0.19
   reviews: 2
-  icon: com.metasigns.hotx.webp
   meta: removed
   verdict: custodial
   developerName: METASIGNS INC.

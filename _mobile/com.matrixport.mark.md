@@ -20,7 +20,6 @@ android:
   updated: 2026-10-01
   version: 3.9.15
   reviews: 888
-  icon: com.matrixport.mark.webp
   meta: ok
   verdict: custodial
   developerName: MATRIX TECH PTE. LTD
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-10-01
   version: 4.8.00
   reviews: 61
-  icon: com.matrixport.mark.webp
   meta: ok
   verdict: custodial
   developerName: Matrixport Technologies Ltd

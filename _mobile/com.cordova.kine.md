@@ -8,7 +8,6 @@ android:
   users: 100
   updated: 2021-07-12
   version: 1.0.9
-  icon: com.cordova.kine.webp
   meta: removed
   verdict: wip
 

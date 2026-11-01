@@ -17,7 +17,6 @@ android:
   updated: 2022-02-16
   version: 12.02.18
   reviews: 101
-  icon: com.bitpay.coincloud.webp
   meta: removed
   verdict: nosource
   developerName: Coin Cloud
@@ -28,7 +27,6 @@ iphone:
   updated: 2022-02-16
   version: 1.9.6
   reviews: 162
-  icon: com.bitpay.coincloud.webp
   meta: removed
   verdict: nosource
 

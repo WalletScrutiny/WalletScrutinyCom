@@ -15,7 +15,6 @@ android:
   released: 2020-07-21
   updated: 2023-02-07
   version: 3.0.1
-  icon: com.bitrah.pos.webp
   meta: obsolete
   verdict: custodial
   developerName: Ernyka Co

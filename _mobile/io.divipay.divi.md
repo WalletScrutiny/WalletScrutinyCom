@@ -20,7 +20,6 @@ android:
   updated: 2024-04-22
   version: 2.2.01218
   reviews: 13
-  icon: io.divipay.divi.webp
   meta: removed
   verdict: nosource
   developerName: Divi Labs
@@ -31,7 +30,6 @@ iphone:
   updated: 2023-09-03
   version: 2.2.01215
   reviews: 28
-  icon: io.divipay.divi.webp
   meta: removed
   verdict: nosource
   developerName: Qbito Technologies S.A.

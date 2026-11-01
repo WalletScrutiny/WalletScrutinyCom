@@ -20,7 +20,6 @@ android:
   updated: 2026-10-12
   version: 4.0.1
   reviews: 1366
-  icon: com.peersyst.nearmobilewallet.webp
   meta: ok
   verdict: custodial
   developerName: Peersyst Technology
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-07-20
   version: 3.11.0
   reviews: 840
-  icon: com.peersyst.nearmobilewallet.webp
   meta: ok
   verdict: custodial
   developerName: Peersyst

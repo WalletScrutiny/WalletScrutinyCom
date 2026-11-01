@@ -16,7 +16,6 @@ android:
   updated: 2026-04-08
   version: 5.7.9
   reviews: 74
-  icon: com.PlusWallet.webp
   meta: ok
   verdict: nosource
   developerName: Seekjazz Ventures Limited
@@ -28,7 +27,6 @@ iphone:
   updated: 2026-04-09
   version: '3.13'
   reviews: 41
-  icon: com.PlusWallet.webp
   meta: ok
   verdict: nosource
   developerName: Seekjazz Ventures Limited

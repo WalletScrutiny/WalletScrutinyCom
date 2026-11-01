@@ -24,7 +24,6 @@ android:
   updated: 2026-10-10
   version: 3.48.1
   reviews: 6951
-  icon: com.binance.us.webp
   meta: ok
   verdict: custodial
   developerName: Binance.US
@@ -36,7 +35,6 @@ iphone:
   updated: 2026-10-13
   version: 3.49.0
   reviews: 111062
-  icon: us.binance.fiat.webp
   meta: ok
   verdict: custodial
   developerName: BAM Trading Services, Inc.

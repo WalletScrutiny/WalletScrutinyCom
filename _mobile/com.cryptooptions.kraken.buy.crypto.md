@@ -9,7 +9,6 @@ android:
   released: 2021-07-24
   updated: 2021-07-24
   version: '1.0'
-  icon: com.cryptooptions.kraken.buy.crypto.webp
   meta: removed
   verdict: wip
 

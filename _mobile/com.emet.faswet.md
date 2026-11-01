@@ -18,7 +18,6 @@ android:
   released: 2020-06-08
   updated: 2021-07-14
   version: 1.9.2
-  icon: com.emet.faswet.webp
   meta: removed
   verdict: wip
   developerName: EBG Malta Business Group
@@ -30,7 +29,6 @@ iphone:
   updated: 2021-07-14
   version: 2.9.7
   reviews: 2
-  icon: com.emet.faswet.webp
   meta: removed
   verdict: wip
   developerName: EBG MALTA BUSINESS GROUP LIMITED

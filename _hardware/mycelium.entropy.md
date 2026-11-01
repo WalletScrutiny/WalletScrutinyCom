@@ -20,7 +20,6 @@ shop: https://www.amazon.com/gp/product/B00WIRLGH4/
 country: UK
 price: 29.99USD
 repository: 
-icon: mycelium.entropy.webp
 bugbounty: 
 meta: discontinued
 verdict: plainkey

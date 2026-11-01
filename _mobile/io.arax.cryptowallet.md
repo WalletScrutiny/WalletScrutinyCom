@@ -10,7 +10,6 @@ android:
   updated: 2019-11-25
   version: Varies with device
   reviews: 156
-  icon: io.arax.cryptowallet.webp
   meta: removed
   verdict: wip
 

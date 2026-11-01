@@ -16,7 +16,6 @@ android:
   released: 2020-04-15
   updated: 2021-04-27
   version: 1.0.31
-  icon: com.silenca.cryptoneed.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -26,7 +25,6 @@ iphone:
   updated: 2021-05-02
   version: 1.0.31
   reviews: 0
-  icon: com.cryptoneedpro.webp
   meta: removed
   verdict: nosource
 

@@ -9,7 +9,6 @@ android:
   released: 2021-06-22
   updated: 2021-06-22
   version: '1.0'
-  icon: net.cryptomarketcap.invest.crypto.webp
   meta: removed
   verdict: wip
 

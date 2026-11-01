@@ -21,7 +21,6 @@ shop: https://onekey.so/products/onekey-touch-hardware-wallet/
 country: SG
 price: 249 USD
 repository: https://github.com/OneKeyHQ/firmware
-icon: onekey.touch.webp
 bugbounty: 
 meta: discontinued
 verdict: sourceavailable

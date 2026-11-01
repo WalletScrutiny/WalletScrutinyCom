@@ -17,7 +17,6 @@ shop:
 country: US
 price: 20USD
 repository: 
-icon: papersafe.satoshinote.webp
 bugbounty: 
 meta: discontinued
 verdict: prefilled

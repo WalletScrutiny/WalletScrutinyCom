@@ -14,7 +14,6 @@ android:
   released: 2021-02-12
   updated: 2022-02-15
   version: 1.4.9
-  icon: co.digitalmoney.dmapp.webp
   meta: removed
   verdict: nosource
   developerName: Digital Money Ltd
@@ -25,7 +24,6 @@ iphone:
   updated: 2022-02-16
   version: 1.4.1
   reviews: 2
-  icon: co.digitalmoney.dmapp.webp
   meta: removed
   verdict: nosource
   developerName: Digital Money ltd

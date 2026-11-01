@@ -15,7 +15,6 @@ android:
   updated: 2021-06-29
   version: 1.1.1075
   reviews: 38
-  icon: com.cexchangenex.cexchangenex.webp
   meta: removed
   verdict: custodial
   developerName: Cexchangenex
@@ -26,7 +25,6 @@ iphone:
   updated: 2021-06-30
   version: 1.1.1075
   reviews: 5
-  icon: com.cexchangenex.cexchangenex.webp
   meta: removed
   verdict: custodial
 

@@ -11,7 +11,6 @@ android:
   updated: 2020-09-21
   version: 2.1.38
   reviews: 8
-  icon: com.reactivespace.tyslinmulticoinwallet.webp
   meta: removed
   verdict: wip
   developerName: Tyslin Blockchain

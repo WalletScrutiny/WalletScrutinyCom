@@ -17,7 +17,6 @@ shop:
 country: ID
 price: 
 repository: 
-icon: belibitcoin.webp
 bugbounty: 
 meta: discontinued
 verdict: wip

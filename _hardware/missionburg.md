@@ -17,7 +17,6 @@ shop:
 country: CN
 price: 
 repository: 
-icon: missionburg.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

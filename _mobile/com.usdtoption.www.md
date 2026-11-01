@@ -11,7 +11,6 @@ android:
   updated: 2020-05-10
   version: 1.1.1
   reviews: 14
-  icon: com.usdtoption.www.webp
   meta: removed
   verdict: wip
   developerName: USDT OPTION

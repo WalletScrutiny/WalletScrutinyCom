@@ -10,7 +10,6 @@ android:
   released: 2020-02-11
   updated: 2020-07-29
   version: 1.0.6
-  icon: com.aisx.webp
   meta: removed
   verdict: wip
   developerName: Vnext

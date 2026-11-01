@@ -19,7 +19,6 @@ android:
   updated: 2021-03-13
   version: 0.4.8
   reviews: 61
-  icon: com.lightning.walletapp.webp
   meta: removed
   verdict: nosource
   developerName: anton kumaigorodski

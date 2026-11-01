@@ -271,7 +271,6 @@ async function processCard(cardJob) {
           meta: fm.android?.meta || fm.iphone?.meta || fm.meta,
           platform: 'mobile',
           appId: fm.android?.appId || fm.iphone?.appId || slug,
-          icon: fm.android?.icon || fm.iphone?.icon,
         }
       : { ...fm, platform };
 
@@ -292,13 +291,11 @@ async function processCard(cardJob) {
     }
 
     let iconImagePath = fallbackIcon;
-    if (data.icon) {
-      const iconPlatform = platform === 'mobile'
-        ? (fm.android?.icon ? 'android' : 'iphone')
-        : platform;
-      const proposedPath = path.join('images', 'wIcons', iconPlatform, data.icon);
-      if (fs.existsSync(proposedPath)) iconImagePath = proposedPath;
-    }
+    const iconPlatform = platform === 'mobile'
+      ? (fm.android?.appId ? 'android' : 'iphone')
+      : platform;
+    const proposedPath = path.join('images', 'wIcons', iconPlatform, `${data.appId}.webp`);
+    if (fs.existsSync(proposedPath)) iconImagePath = proposedPath;
     const iconImage = await loadImage(iconImagePath);
     
     const canvas = await drawOnCanvas(data, iconImage);

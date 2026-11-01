@@ -20,7 +20,6 @@ shop: https://bepal.pro/bepal-touch#deadLink
 country: CH
 price: 159CNY
 repository: 
-icon: bepaltouch.webp
 bugbounty: 
 meta: defunct
 verdict: noita

@@ -12,7 +12,6 @@ android:
   appCountry: us
   updated: 2023-10-04
   version: VARY
-  icon: app.wallby.bmeta.webp
   meta: obsolete
   verdict: nosource
   developerName: Bcademy

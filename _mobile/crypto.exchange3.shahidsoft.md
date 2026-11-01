@@ -9,7 +9,6 @@ android:
   released: 2021-07-12
   updated: 2021-07-12
   version: 1.0.2
-  icon: crypto.exchange3.shahidsoft.webp
   meta: removed
   verdict: wip
   developerName: shahid soft

@@ -19,7 +19,6 @@ android:
   updated: 2025-04-18
   version: 4.6.5
   reviews: 100
-  icon: com.margex.margex_mobile.webp
   meta: removed
   verdict: custodial
   developerName: Margex
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-09-30
   version: 5.2.3
   reviews: 594
-  icon: com.margex.mobile.webp
   meta: ok
   verdict: custodial
   developerName: Margex Trading Solutions LTD

@@ -12,7 +12,6 @@ android:
   released: 2019-04-03
   updated: 2021-08-04
   version: 2.2.0
-  icon: com.velic.mts.vex.webp
   meta: removed
   verdict: wip
   developerName: VELIC Services

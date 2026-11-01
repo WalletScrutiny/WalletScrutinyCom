@@ -10,7 +10,6 @@ android:
   users: 1000
   updated: 2022-09-01
   version: 1.0.8
-  icon: com.asymony.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Ehijihu

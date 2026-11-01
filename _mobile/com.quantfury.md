@@ -16,7 +16,6 @@ android:
   updated: 2026-09-28
   version: v1.98.2.26436
   reviews: 23
-  icon: com.quantfury.webp
   meta: ok
   verdict: custodial
   developerName: Quantfury Trading Limited
@@ -28,7 +27,6 @@ iphone:
   updated: 2026-10-01
   version: 1.98.1
   reviews: 85
-  icon: com.quantfury.webp
   meta: ok
   verdict: custodial
   developerName: Quantfury Ltd

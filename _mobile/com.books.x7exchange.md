@@ -17,7 +17,6 @@ android:
   released: 2022-01-02
   updated: 2023-01-12
   version: '2.3'
-  icon: com.books.x7exchange.webp
   meta: removed
   verdict: custodial
   developerName: X7 Exchange

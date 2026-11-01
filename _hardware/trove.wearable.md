@@ -17,7 +17,6 @@ shop:
 country: GB
 price: 
 repository: 
-icon: trove.wearable.webp
 bugbounty: 
 meta: obsolete
 verdict: noita

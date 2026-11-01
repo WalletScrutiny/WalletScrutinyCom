@@ -18,7 +18,6 @@ android:
   version: 1.3.1
   reviews: 3
   repository: https://web.archive.org/web/20250316083801/https://github.com/Elite-Labs/EliteWallet
-  icon: sc.elitewallet.elitewallet.webp
   meta: removed
   verdict: sourceavailable
   developerName: Elite Lab
@@ -30,7 +29,6 @@ iphone:
   updated: 2023-06-04
   version: 1.1.7
   reviews: 1
-  icon: sc.elitewallet.elite-wallet.webp
   meta: removed
   verdict: wip
   developerName: Elite Lab

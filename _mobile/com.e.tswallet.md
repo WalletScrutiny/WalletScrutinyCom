@@ -10,7 +10,6 @@ android:
   updated: 2021-07-20
   version: '1.0'
   reviews: 3
-  icon: com.e.tswallet.webp
   meta: removed
   verdict: wip
 

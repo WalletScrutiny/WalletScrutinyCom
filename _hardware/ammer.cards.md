@@ -17,7 +17,6 @@ shop: https://ammer.cards/shop
 country: CH
 price: 59 CHF
 repository: 
-icon: ammer.cards.webp
 bugbounty: 
 meta: ok
 verdict: noita

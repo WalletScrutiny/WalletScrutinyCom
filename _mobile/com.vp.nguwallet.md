@@ -10,7 +10,6 @@ android:
   released: 2022-05-04
   updated: 2022-05-09
   version: 1.0.2
-  icon: com.vp.nguwallet.webp
   meta: removed
   verdict: wip
   developerName: UnchainedCoders

@@ -10,7 +10,6 @@ android:
   updated: 2021-02-21
   version: '2.5'
   reviews: 10
-  icon: swapitway.sw.webp
   meta: removed
   verdict: wip
 

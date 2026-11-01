@@ -19,7 +19,6 @@ android:
   updated: 2025-02-08
   version: 1.3.13
   reviews: 26
-  icon: com.uxuy.webp
   meta: removed
   verdict: custodial
   developerName: UXUY Limited
@@ -31,7 +30,6 @@ iphone:
   updated: 2025-02-08
   version: 1.3.13
   reviews: 18
-  icon: com.uxuy.webp
   meta: removed
   verdict: custodial
   developerName: UXUY Limited

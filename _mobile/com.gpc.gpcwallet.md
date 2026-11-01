@@ -10,7 +10,6 @@ android:
   released: 2020-07-14
   updated: 2020-08-05
   version: '1.6'
-  icon: com.gpc.gpcwallet.webp
   meta: removed
   verdict: wip
   developerName: RedBo

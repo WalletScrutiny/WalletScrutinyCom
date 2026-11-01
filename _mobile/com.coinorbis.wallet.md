@@ -10,7 +10,6 @@ android:
   updated: 2019-01-25
   version: 1.2.1
   reviews: 3
-  icon: com.coinorbis.wallet.webp
   meta: removed
   verdict: wip
 

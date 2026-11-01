@@ -19,7 +19,6 @@ android:
   updated: 2023-05-16
   version: 3.3.19
   reviews: 2
-  icon: com.flutter.litebit.webp
   meta: removed
   verdict: custodial
   developerName: 2525 Ventures BV
@@ -30,7 +29,6 @@ iphone:
   updated: 2022-12-23
   version: 3.1.17
   reviews: 10
-  icon: com.litebit.app.webp
   meta: removed
   verdict: custodial
 

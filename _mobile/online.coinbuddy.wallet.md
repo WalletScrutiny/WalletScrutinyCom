@@ -10,7 +10,6 @@ android:
   released: 2022-05-12
   updated: 2022-05-20
   version: 1.5.0
-  icon: online.coinbuddy.wallet.webp
   meta: removed
   verdict: wip
 

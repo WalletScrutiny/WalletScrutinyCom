@@ -17,7 +17,6 @@ android:
   released: 2021-09-20
   updated: 2026-02-04
   version: 1.40.37
-  icon: com.cryptoxpressmobile.webp
   meta: ok
   verdict: custodial
   developerName: CryptoXpress
@@ -29,7 +28,6 @@ iphone:
   updated: 2026-02-12
   version: 1.0.43
   reviews: 22
-  icon: com.cryptoxpress.mobile.webp
   meta: ok
   verdict: custodial
   developerName: cryptoxpress

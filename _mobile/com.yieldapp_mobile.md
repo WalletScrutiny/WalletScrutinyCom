@@ -19,7 +19,6 @@ android:
   updated: 2024-05-31
   version: '24.0527'
   reviews: 14
-  icon: com.yieldapp_mobile.webp
   meta: removed
   verdict: custodial
   developerName: Yield App
@@ -31,7 +30,6 @@ iphone:
   updated: 2024-05-31
   version: '24.0527'
   reviews: 39
-  icon: app.yield.webp
   meta: removed
   verdict: custodial
   developerName: Yield App

@@ -17,7 +17,6 @@ shop:
 country: CH
 price: 
 repository: 
-icon: securosys.primusblockchain.hsm.webp
 bugbounty: 
 meta: ok
 verdict: nosource

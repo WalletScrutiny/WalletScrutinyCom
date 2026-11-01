@@ -10,7 +10,6 @@ android:
   updated: 2022-10-14
   version: 9.5.21
   reviews: 108
-  icon: huolongluo.byw.webp
   meta: removed
   verdict: wip
 

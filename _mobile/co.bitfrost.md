@@ -9,7 +9,6 @@ android:
   released: 2022-05-12
   updated: 2022-06-02
   version: '1.0'
-  icon: co.bitfrost.webp
   meta: removed
   verdict: wip
   developerName: Bitfrost Wallet

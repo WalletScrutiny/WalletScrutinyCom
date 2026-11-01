@@ -17,7 +17,6 @@ android:
   appCountry: us
   updated: 2021-08-25
   version: 1.5.69-roinvesting
-  icon: com.roinvesting.webp
   meta: removed
   verdict: nosendreceive
   developerName: Royal Forex Limited
@@ -29,7 +28,6 @@ iphone:
   updated: 2021-08-23
   version: 1.68.10
   reviews: 1
-  icon: com.roinvesting.webp
   meta: removed
   verdict: nosendreceive
 

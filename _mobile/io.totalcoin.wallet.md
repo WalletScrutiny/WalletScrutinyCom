@@ -21,7 +21,6 @@ android:
   updated: 2026-10-08
   version: 5.8.7.3436
   reviews: 68
-  icon: io.totalcoin.wallet.webp
   meta: ok
   verdict: custodial
   developerName: TOTALCOIN TRADING LTD
@@ -33,7 +32,6 @@ iphone:
   updated: 2023-03-11
   version: 5.6.2
   reviews: 4
-  icon: io.totalcoin.wallet.webp
   meta: obsolete
   verdict: custodial
   developerName: TChain Trading doo

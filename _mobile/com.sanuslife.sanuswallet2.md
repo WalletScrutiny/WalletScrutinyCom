@@ -19,7 +19,6 @@ android:
   updated: 2023-11-07
   version: 2.1.17
   reviews: 1
-  icon: com.sanuslife.sanuswallet2.webp
   meta: obsolete
   verdict: nosource
   developerName: SANUSLIFE INTERNATIONAL

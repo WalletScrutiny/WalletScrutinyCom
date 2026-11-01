@@ -20,7 +20,6 @@ shop: https://blockchainmint.com/products
 country: SG
 price: 24.95USD
 repository: 
-icon: coldstoragecoins.webp
 bugbounty: 
 meta: ok
 verdict: prefilled

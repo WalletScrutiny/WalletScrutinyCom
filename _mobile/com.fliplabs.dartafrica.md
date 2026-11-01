@@ -14,7 +14,6 @@ android:
   released: 2023-05-24
   updated: 2024-02-29
   version: 1.1.0
-  icon: com.fliplabs.dartafrica.webp
   meta: obsolete
   verdict: custodial
   developerName: FLIP Labs

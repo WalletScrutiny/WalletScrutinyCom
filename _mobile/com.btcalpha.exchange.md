@@ -19,7 +19,6 @@ android:
   updated: 2022-08-08
   version: 1.11.2
   reviews: 3
-  icon: com.btcalpha.exchange.webp
   meta: removed
   verdict: custodial
   developerName: BTC-Alpha LTD
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-04-24
   version: 2.1.1
   reviews: 4
-  icon: com.btc-alpha.webp
   meta: ok
   verdict: custodial
   developerName: ALPHACOM

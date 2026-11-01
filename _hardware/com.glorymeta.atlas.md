@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-icon: com.glorymeta.atlas.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

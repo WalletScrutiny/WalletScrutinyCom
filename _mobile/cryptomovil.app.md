@@ -10,7 +10,6 @@ android:
   released: 2022-09-15
   updated: 2022-10-04
   version: '1.4'
-  icon: cryptomovil.app.webp
   meta: removed
   verdict: wip
   developerName: Jesús Cabrera

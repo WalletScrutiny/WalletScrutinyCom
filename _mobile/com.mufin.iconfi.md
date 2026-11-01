@@ -15,7 +15,6 @@ android:
   updated: 2026-10-08
   version: 1.2.10
   reviews: 27
-  icon: com.mufin.iconfi.webp
   meta: ok
   verdict: custodial
   developerName: GROW3

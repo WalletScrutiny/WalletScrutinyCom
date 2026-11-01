@@ -20,7 +20,6 @@ android:
   updated: 2021-10-25
   version: 3.9.9
   reviews: 23
-  icon: com.pumapay.pumawallet.webp
   meta: removed
   verdict: nosource
   developerName: Decentralized Vision Ltd
@@ -31,7 +30,6 @@ iphone:
   updated: 2021-10-25
   version: '2.102'
   reviews: 17
-  icon: com.pumapay.pumawallet.webp
   meta: removed
   verdict: nosource
   developerName: Decentralized Vision Limited

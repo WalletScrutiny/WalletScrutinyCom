@@ -10,7 +10,6 @@ android:
   released: 2021-02-19
   updated: 2022-05-18
   version: 1.0.8
-  icon: com.parabolus.kryptokafe.webp
   meta: removed
   verdict: wip
   developerName: Parabolus Inc

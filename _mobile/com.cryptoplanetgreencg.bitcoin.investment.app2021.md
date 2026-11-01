@@ -9,7 +9,6 @@ android:
   released: 2021-07-28
   updated: 2021-07-28
   version: '1.0'
-  icon: com.cryptoplanetgreencg.bitcoin.investment.app2021.webp
   meta: removed
   verdict: wip
 

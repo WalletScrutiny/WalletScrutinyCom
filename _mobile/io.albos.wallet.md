@@ -15,7 +15,6 @@ android:
   released: 2019-07-01
   updated: 2026-03-04
   version: 2.5.1
-  icon: io.albos.wallet.webp
   meta: fewusers
   verdict: custodial
   developerName: ALBOS AND MARE PARTNERS OÜ
@@ -27,7 +26,6 @@ iphone:
   updated: 2024-07-05
   version: 2.1.17
   reviews: 1
-  icon: com.albos.wallet.webp
   meta: obsolete
   verdict: custodial
   developerName: ALBOS & MARE PARTNERS

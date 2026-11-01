@@ -10,7 +10,6 @@ android:
   released: 2021-09-23
   updated: 2021-10-08
   version: '1.2'
-  icon: com.gempay.webp
   meta: removed
   verdict: wip
   developerName: GemVault Fintech (PVT) Ltd.

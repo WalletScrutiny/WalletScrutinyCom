@@ -20,7 +20,6 @@ shop: https://ds.pro/product/detail
 country: HK
 price: 199USD
 repository: 
-icon: digitalshieldpro.webp
 bugbounty: 
 meta: ok
 verdict: nosource

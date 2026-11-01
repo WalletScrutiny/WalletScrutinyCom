@@ -15,7 +15,6 @@ android:
   updated: 2021-12-17
   version: 1.1.9
   reviews: 16
-  icon: com.pionex.lite.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -26,7 +25,6 @@ iphone:
   updated: 2026-09-30
   version: 2.2.5
   reviews: 1215
-  icon: com.pionex.lite.appstore.webp
   meta: ok
   verdict: custodial
   developerName: PIONEX PTE. LTD.

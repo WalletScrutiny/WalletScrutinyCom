@@ -14,7 +14,6 @@ android:
   updated: 2022-01-25
   version: 1.1.6
   reviews: 29
-  icon: com.perfectcrypto.perfect_crypto.webp
   meta: removed
   verdict: custodial
   developerName: Perfect Crypto

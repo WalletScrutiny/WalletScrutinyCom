@@ -19,7 +19,6 @@ android:
   updated: 2025-02-04
   version: 5.0.9
   reviews: 14
-  icon: com.trastra.mobile.webp
   meta: removed
   verdict: custodial
   developerName: TRASTRA Limited
@@ -31,7 +30,6 @@ iphone:
   updated: 2025-02-06
   version: 5.0.9
   reviews: 2
-  icon: com.trastra.mobile.webp
   meta: removed
   verdict: custodial
   developerName: Trastra Limited

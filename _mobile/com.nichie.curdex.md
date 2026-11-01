@@ -10,7 +10,6 @@ android:
   released: 2020-09-23
   updated: 2024-03-31
   version: 5.02.0
-  icon: com.nichie.curdex.webp
   meta: removed
   verdict: wip
   developerName: Nichie Systems

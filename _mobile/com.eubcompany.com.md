@@ -10,7 +10,6 @@ android:
   released: 2021-12-04
   updated: 2021-12-04
   version: '1.1'
-  icon: com.eubcompany.com.webp
   meta: removed
   verdict: wip
   developerName: NetBusinessForum

@@ -15,7 +15,6 @@ android:
   released: 2020-06-11
   updated: 2020-07-23
   version: 1.2.0
-  icon: com.profittrading.forokex.webp
   meta: removed
   verdict: wip
   developerName: ProfitTradingApp

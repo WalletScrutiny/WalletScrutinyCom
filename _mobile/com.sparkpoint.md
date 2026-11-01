@@ -22,7 +22,6 @@ android:
   updated: 2023-08-24
   version: 12.1.1
   reviews: 67
-  icon: com.sparkpoint.webp
   meta: removed
   verdict: nosource
   developerName: SparkPoint Technologies Inc.
@@ -33,7 +32,6 @@ iphone:
   updated: 2023-04-13
   version: 12.1.0
   reviews: 16
-  icon: io.sparkpoint.ios.wallet.webp
   meta: removed
   verdict: nosource
   developerName: SparkPoint Technologies, Inc.

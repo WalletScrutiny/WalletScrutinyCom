@@ -13,7 +13,6 @@ android:
   released: 2019-06-26
   updated: 2019-08-17
   version: '1.4'
-  icon: com.mobilink.token.webp
   meta: removed
   verdict: wip
   developerName: B2GO APPS

@@ -21,7 +21,6 @@ android:
   updated: 2026-10-09
   version: 17.6.0
   reviews: 5
-  icon: com.syfe.webp
   meta: ok
   verdict: nosendreceive
   developerName: Syfe
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-10-12
   version: 17.6.0
   reviews: 671
-  icon: com.syfe.webp
   meta: ok
   verdict: nosendreceive
   developerName: Syfe Pte. Ltd.

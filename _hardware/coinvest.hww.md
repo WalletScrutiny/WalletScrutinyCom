@@ -17,7 +17,6 @@ shop:
 country: US
 price: 
 repository: 
-icon: coinvest.hww.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

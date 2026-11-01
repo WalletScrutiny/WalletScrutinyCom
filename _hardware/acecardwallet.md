@@ -20,7 +20,6 @@ shop:
 country: SK
 price: 
 repository: 
-icon: acecardwallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor

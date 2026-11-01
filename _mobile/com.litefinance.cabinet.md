@@ -16,7 +16,6 @@ android:
   updated: 2026-09-17
   version: v2.1.2038-cabinet-release
   reviews: 95
-  icon: com.litefinance.cabinet.webp
   meta: ok
   verdict: custodial
   developerName: LITEFOREX (EUROPE) LTD
@@ -28,7 +27,6 @@ iphone:
   updated: 2026-08-26
   version: 3.1.16
   reviews: 153
-  icon: com.litefinance.cabinet.webp
   meta: ok
   verdict: custodial
   developerName: Liteforex (Europe) Limited

@@ -16,7 +16,6 @@ android:
   updated: 2021-08-07
   version: VARY
   reviews: 3
-  icon: com.profittrading.forhitbtc.webp
   meta: removed
   verdict: custodial
   developerName: ProfitTradingApp

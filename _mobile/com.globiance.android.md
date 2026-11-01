@@ -21,7 +21,6 @@ android:
   updated: 2024-06-27
   version: '2.07'
   reviews: 45
-  icon: com.globiance.android.webp
   meta: removed
   verdict: custodial
   developerName: Globiance Group
@@ -33,7 +32,6 @@ iphone:
   updated: 2024-07-05
   version: '2.07'
   reviews: 86
-  icon: com.globiance.iosapp.webp
   meta: removed
   verdict: custodial
   developerName: Globiance Holdings Limited

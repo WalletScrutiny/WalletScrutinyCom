@@ -10,7 +10,6 @@ android:
   released: 2022-07-27
   updated: 2022-07-27
   version: 1.0.0
-  icon: com.pandats.milleniumone.webp
   meta: removed
   verdict: wip
   developerName: AppBlet

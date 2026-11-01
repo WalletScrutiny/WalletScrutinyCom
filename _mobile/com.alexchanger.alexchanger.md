@@ -11,7 +11,6 @@ android:
   updated: 2020-06-12
   version: '1.0'
   reviews: 26
-  icon: com.alexchanger.alexchanger.webp
   meta: removed
   verdict: wip
   developerName: Tahwiil

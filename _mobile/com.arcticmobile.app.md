@@ -21,7 +21,6 @@ android:
   updated: 2024-07-17
   version: '1.35'
   reviews: 1
-  icon: com.arcticmobile.app.webp
   meta: obsolete
   verdict: nosource
   developerName: ARCTIC SOFTWARE OÜ
@@ -33,7 +32,6 @@ iphone:
   updated: 2024-07-17
   version: '1.35'
   reviews: 6
-  icon: com.arcticmobile.app.webp
   meta: removed
   verdict: nosource
   developerName: Arctic Software OU

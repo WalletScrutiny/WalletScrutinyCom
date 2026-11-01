@@ -22,7 +22,6 @@ android:
   updated: 2026-10-13
   version: 5.30.0
   reviews: 28
-  icon: casa.keymaster.webp
   meta: ok
   verdict: nosource
   developerName: Casa, Inc
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-10-13
   version: 5.30.0
   reviews: 1250
-  icon: com.casa.vault.webp
   meta: ok
   verdict: nosource
   developerName: Casa Inc.

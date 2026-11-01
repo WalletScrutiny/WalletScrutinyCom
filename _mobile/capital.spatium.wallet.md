@@ -20,7 +20,6 @@ android:
   released: 2018-08-31
   updated: 2024-02-22
   version: 3.2.5
-  icon: capital.spatium.wallet.webp
   meta: removed
   verdict: nosource
   developerName: CaspianTechnologies
@@ -31,7 +30,6 @@ iphone:
   updated: 2024-02-23
   version: 3.2.5
   reviews: 26
-  icon: capital.spatium.wallet.webp
   meta: removed
   verdict: nosource
   developerName: CaspianTechnologies

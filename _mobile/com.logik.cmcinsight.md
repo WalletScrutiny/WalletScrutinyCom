@@ -9,7 +9,6 @@ android:
   released: 2020-11-02
   updated: 2020-11-02
   version: 1.0.1
-  icon: com.logik.cmcinsight.webp
   meta: removed
   verdict: wip
   developerName: Babatunde Dallas

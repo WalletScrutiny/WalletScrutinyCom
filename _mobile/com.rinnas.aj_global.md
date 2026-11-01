@@ -18,7 +18,6 @@ android:
   updated: 2025-03-24
   version: 2.3.0
   reviews: 13
-  icon: com.rinnas.aj_global.webp
   meta: removed
   verdict: custodial
   developerName: AJ Trust Merchants Global Limited
@@ -30,7 +29,6 @@ iphone:
   updated: 2025-02-01
   version: 2.2.0
   reviews: 37
-  icon: com.rinnas.ajGlobal.webp
   meta: removed
   verdict: custodial
   developerName: AJ TRUST MERCHANTS GLOBAL LIMITED

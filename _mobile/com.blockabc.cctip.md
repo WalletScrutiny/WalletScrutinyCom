@@ -18,7 +18,6 @@ android:
   updated: 2026-07-03
   version: 5.4.3
   reviews: 541
-  icon: com.blockabc.cctip.webp
   meta: removed
   verdict: custodial
   developerName: Cwallet
@@ -30,7 +29,6 @@ iphone:
   updated: 2022-12-24
   version: 2.3.3
   reviews: 0
-  icon: com.wallet.cctip.webp
   meta: removed
   verdict: custodial
 

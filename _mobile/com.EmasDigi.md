@@ -15,7 +15,6 @@ android:
   updated: 2026-10-13
   version: 7.7.1
   reviews: 123
-  icon: com.EmasDigi.webp
   meta: ok
   verdict: custodial
   developerName: pluang
@@ -27,7 +26,6 @@ iphone:
   updated: 2026-10-28
   version: 7.7.7
   reviews: 13108
-  icon: com.EmasDigi.webp
   meta: ok
   verdict: custodial
   developerName: PT Bumi Santosa Cemerlang

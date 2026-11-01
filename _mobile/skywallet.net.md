@@ -10,7 +10,6 @@ android:
   released: 2020-05-11
   updated: 2020-05-11
   version: 1.0.3
-  icon: skywallet.net.webp
   meta: removed
   verdict: wip
 

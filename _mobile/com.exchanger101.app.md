@@ -14,7 +14,6 @@ android:
   updated: 2026-02-26
   version: 1.49.3
   reviews: 7
-  icon: com.exchanger101.app.webp
   meta: ok
   verdict: custodial
   developerName: exchanger company

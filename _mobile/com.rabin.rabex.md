@@ -19,7 +19,6 @@ android:
   updated: 2026-09-15
   version: 2.10.0-Rabex
   reviews: 10
-  icon: com.rabin.rabex.webp
   meta: ok
   verdict: custodial
   developerName: Rabex Team

@@ -26,7 +26,6 @@ android:
   updated: 2026-09-17
   version: 2.7.3
   reviews: 16
-  icon: com.cypherstack.stackwallet.webp
   alternativeStores:
   - zapstore
   meta: ok
@@ -41,7 +40,6 @@ iphone:
   updated: 2026-09-16
   version: 2.7.3
   reviews: 27
-  icon: com.cypherstack.stackwallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: Cypher Stack LLC

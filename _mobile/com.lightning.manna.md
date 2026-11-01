@@ -18,7 +18,6 @@ android:
   updated: 2026-10-07
   version: 1.2.33
   reviews: 8
-  icon: com.lightning.manna.webp
   meta: fewusers
   verdict: custodial
   developerName: Manna Bitcoin
@@ -30,7 +29,6 @@ iphone:
   updated: 2026-10-09
   version: 1.2.33
   reviews: 12
-  icon: com.lightning.manna.webp
   meta: ok
   verdict: custodial
   developerName: Manna Open Economy LLC

@@ -17,7 +17,6 @@ android:
   updated: 2026-08-07
   version: 1.08.1124
   reviews: 41
-  icon: app.pagosalinstante.com.webp
   meta: ok
   verdict: custodial
   developerName: PAI Exchange

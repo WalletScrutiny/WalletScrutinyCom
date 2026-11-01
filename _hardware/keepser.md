@@ -20,7 +20,6 @@ shop: https://web.archive.org/web/20241011142245/https://www.keepser.com/shop
 country: AD
 price: 149EUR
 repository: 
-icon: keepser.webp
 bugbounty: 
 meta: discontinued
 verdict: plainkey

@@ -10,7 +10,6 @@ android:
   released: 2021-01-04
   updated: 2021-02-04
   version: '1.5'
-  icon: com.paypack.company.webp
   meta: removed
   verdict: wip
   developerName: Ajamba

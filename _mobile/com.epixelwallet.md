@@ -9,7 +9,6 @@ android:
   released: 2019-11-20
   updated: 2020-01-07
   version: 1.3.1
-  icon: com.epixelwallet.webp
   meta: removed
   verdict: wip
   developerName: Epixel Solutions Pvt Ltd

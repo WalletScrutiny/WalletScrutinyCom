@@ -11,7 +11,6 @@ android:
   released: 2022-08-22
   updated: 2025-12-03
   version: 2.0.5
-  icon: ammer.pay.webp
   meta: fewusers
   verdict: wip
   developerName: Ammer Technologies AG

@@ -20,7 +20,6 @@ shop:
 country: US
 price: 
 repository: 
-icon: itbxwallet.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

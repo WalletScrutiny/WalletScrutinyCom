@@ -20,7 +20,6 @@ android:
   updated: 2026-05-26
   version: 3.7.5
   reviews: 76
-  icon: com.ascendex.exchange.webp
   meta: removed
   verdict: custodial
   developerName: AscendEX
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-01-08
   version: 3.6.4
   reviews: 173
-  icon: io.bitmax.bitmax.webp
   meta: defunct
   verdict: custodial
   developerName: Beijing Bsht Network Technology Co. Ltd.

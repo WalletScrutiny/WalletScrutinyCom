@@ -12,7 +12,6 @@ android:
   released: 2019-08-29
   updated: 2019-10-23
   version: 8.0.8
-  icon: com.btcwallet.webp
   meta: removed
   verdict: wip
   developerName: Luna blockchain wallet

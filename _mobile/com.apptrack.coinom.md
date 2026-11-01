@@ -13,7 +13,6 @@ android:
   released: 2021-05-25
   updated: 2021-05-25
   version: 1.0.12
-  icon: com.apptrack.coinom.webp
   meta: removed
   verdict: fake
 

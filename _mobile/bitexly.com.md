@@ -10,7 +10,6 @@ android:
   released: 2020-05-09
   updated: 2020-05-09
   version: 5.129.20
-  icon: bitexly.com.webp
   meta: removed
   verdict: wip
   developerName: UCOM Technologies

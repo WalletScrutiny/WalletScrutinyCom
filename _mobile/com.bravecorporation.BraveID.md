@@ -19,7 +19,6 @@ android:
   updated: 2023-11-28
   version: 1.0.22
   reviews: 6
-  icon: com.bravecorporation.BraveID.webp
   meta: removed
   verdict: custodial
   developerName: BravePay
@@ -31,7 +30,6 @@ iphone:
   updated: 2023-10-26
   version: 1.7.1
   reviews: 5
-  icon: com.brave-corporation.brave-pay.webp
   meta: removed
   verdict: custodial
   developerName: Brave Corporation

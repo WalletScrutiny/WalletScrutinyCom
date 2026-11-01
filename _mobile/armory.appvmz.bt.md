@@ -9,7 +9,6 @@ android:
   released: 2022-06-07
   updated: 2022-06-08
   version: '1.8'
-  icon: armory.appvmz.bt.webp
   meta: removed
   verdict: wip
 

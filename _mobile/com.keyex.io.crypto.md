@@ -11,7 +11,6 @@ android:
   released: 2023-02-15
   updated: 2026-09-02
   version: 1.1.41
-  icon: com.keyex.io.crypto.webp
   meta: fewusers
   verdict: wip
   developerName: Keyex Limited

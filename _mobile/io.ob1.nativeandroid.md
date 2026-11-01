@@ -17,7 +17,6 @@ android:
   updated: 2020-09-27
   version: 1.3.7
   reviews: 173
-  icon: io.ob1.nativeandroid.webp
   meta: removed
   verdict: sourceavailable
   repository: https://github.com/OpenBazaar/haven
@@ -28,7 +27,6 @@ iphone:
   updated: 2020-09-28
   version: 1.3.8
   reviews: 188
-  icon: io.ob1.native-ios.webp
   meta: removed
   verdict: sourceavailable
   repository: https://github.com/OpenBazaar/haven

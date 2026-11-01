@@ -16,7 +16,6 @@ android:
   updated: 2025-01-11
   version: 2.4.8
   reviews: 6
-  icon: com.arzypto.my.webp
   meta: removed
   verdict: custodial
   developerName: Arzypto

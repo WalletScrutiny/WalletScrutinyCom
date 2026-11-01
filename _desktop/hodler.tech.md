@@ -12,7 +12,6 @@ provider:
 providerWebsite: 
 website: 
 repository: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet
-icon: hodler.tech.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable

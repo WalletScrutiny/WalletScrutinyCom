@@ -19,7 +19,6 @@ android:
   released: 2020-06-30
   updated: 2024-02-08
   version: '4.4'
-  icon: com.vynkpay.webp
   meta: removed
   verdict: custodial
   developerName: VYNK GROUP AE
@@ -31,7 +30,6 @@ iphone:
   updated: 2024-02-12
   version: '1.5'
   reviews: 0
-  icon: com.pixels.vynkpay.webp
   meta: removed
   verdict: custodial
   developerName: VYNK BLOCK TECHNOLOGIES PRIVATE LIMITED

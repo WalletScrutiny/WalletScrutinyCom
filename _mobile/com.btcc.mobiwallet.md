@@ -18,7 +18,6 @@ android:
   updated: 2021-05-20
   version: 2.32.2
   reviews: 19
-  icon: com.btcc.mobiwallet.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -29,7 +28,6 @@ iphone:
   updated: 2023-05-02
   version: 2.36.3
   reviews: 0
-  icon: me.mobi.app.webp
   meta: obsolete
   verdict: custodial
   developerName: Mobi Me Limited

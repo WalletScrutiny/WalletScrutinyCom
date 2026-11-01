@@ -10,7 +10,6 @@ android:
   released: 2020-02-08
   updated: 2020-02-09
   version: '1.1'
-  icon: com.pseudozach.pushln.webp
   meta: removed
   verdict: wip
   developerName: Pseudozach

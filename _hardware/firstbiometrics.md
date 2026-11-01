@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-icon: firstbiometrics.webp
 bugbounty: 
 meta: stale
 verdict: vapor

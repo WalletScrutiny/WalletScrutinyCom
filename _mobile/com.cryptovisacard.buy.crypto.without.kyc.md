@@ -9,7 +9,6 @@ android:
   released: 2021-07-26
   updated: 2021-07-26
   version: '1.0'
-  icon: com.cryptovisacard.buy.crypto.without.kyc.webp
   meta: removed
   verdict: wip
 

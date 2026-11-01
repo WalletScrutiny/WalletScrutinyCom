@@ -12,7 +12,6 @@ android:
   released: 2021-07-07
   updated: 2021-07-07
   version: '1.0'
-  icon: com.cryptojournal.crypto.com.buy.bitcoin.webp
   meta: removed
   verdict: fake
 

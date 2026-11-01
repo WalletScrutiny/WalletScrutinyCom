@@ -12,7 +12,6 @@ provider: MaxWallet
 providerWebsite: https://maxwallet.cc
 website: https://maxwallet.cc
 repository: 
-icon: maxwallet.webp
 bugbounty: 
 meta: ok
 verdict: nosource

@@ -19,7 +19,6 @@ android:
   updated: 2023-03-06
   version: 1.6.0
   reviews: 5
-  icon: com.quadency.app.webp
   meta: removed
   verdict: custodial
   developerName: Quadency
@@ -31,7 +30,6 @@ iphone:
   updated: 2023-03-12
   version: 1.6.0
   reviews: 24
-  icon: com.quadency.app.webp
   meta: removed
   verdict: custodial
   developerName: Quadency Inc

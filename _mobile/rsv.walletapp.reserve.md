@@ -18,7 +18,6 @@ android:
   updated: 2026-07-01
   version: 3.2.2
   reviews: 538
-  icon: rsv.walletapp.reserve.webp
   meta: ok
   verdict: custodial
   developerName: Best Friend Finance, LLC

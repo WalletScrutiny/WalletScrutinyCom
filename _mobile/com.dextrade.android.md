@@ -20,7 +20,6 @@ android:
   updated: 2023-05-10
   version: 1.3.0
   reviews: 28
-  icon: com.dextrade.android.webp
   meta: obsolete
   verdict: custodial
   developerName: Dex-Trade
@@ -32,7 +31,6 @@ iphone:
   updated: 2023-05-11
   version: 2.1.9
   reviews: 20
-  icon: com.dex-trade.ios.webp
   meta: removed
   verdict: custodial
   developerName: Dex-trade

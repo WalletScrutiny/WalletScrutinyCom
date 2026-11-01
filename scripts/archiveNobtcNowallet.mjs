@@ -1,5 +1,6 @@
 // This script scans markdown files in _mobile, _hardware, bearer, _desktop and _others
-// directories, identifies files with verdict "nobtc" or "nowallet", then archives them
+// directories, identifies files with verdict "nobtc" or "nowallet" (for _mobile: on every
+// store platform the listing has), then archives them
 // by deleting their images, removing specified fields, and moving to _archived.
 
 import fs from 'fs/promises';
@@ -27,10 +28,11 @@ async function deleteImage(iconPath) {
   }
 }
 
-async function deleteImagesForFile(platform, icon) {
-  if (!icon?.trim()) {
+async function deleteImagesForFile(platform, appId) {
+  if (!appId?.trim()) {
     return { deleted: 0, errors: [] };
   }
+  const icon = `${appId}.webp`;
 
   const basePath = path.join('images', 'wIcons', platform);
   const imagePaths = IMAGE_SUBDIRS.map(subdir => 
@@ -94,6 +96,18 @@ function buildArchivedMobileHeader(mobile) {
     }
   }
   return archived;
+}
+
+/**
+ * A unified _mobile listing is archived only when every store platform it has is
+ * nobtc/nowallet. A nobtc iPhone app next to a custodial Android app stays listed.
+ */
+function shouldArchiveMobile(mobile) {
+  const storeVerdicts = ['android', 'iphone']
+    .filter(storePlatform => mobile[storePlatform])
+    .map(storePlatform => mobile[storePlatform].verdict);
+  const verdicts = storeVerdicts.length > 0 ? storeVerdicts : [mobile.verdict];
+  return verdicts.every(verdict => TARGET_VERDICTS.includes(verdict));
 }
 
 async function ensureArchiveDirectory(platform) {
@@ -187,10 +201,7 @@ async function processMobileFile(fileName) {
     const content = helper.loadFromFile(filePath);
     const { header, body } = content;
 
-    const matchesTarget = TARGET_VERDICTS.includes(header.verdict) ||
-      TARGET_VERDICTS.includes(header.android?.verdict) ||
-      TARGET_VERDICTS.includes(header.iphone?.verdict);
-    if (!matchesTarget) {
+    if (!shouldArchiveMobile(header)) {
       return { processed: false, reason: 'verdict does not match' };
     }
 
@@ -199,9 +210,9 @@ async function processMobileFile(fileName) {
     let imagesDeleted = 0;
     const imageErrors = [];
     for (const storePlatform of ['android', 'iphone']) {
-      const icon = header[storePlatform]?.icon;
-      if (!icon?.trim()) continue;
-      const result = await deleteImagesForFile(storePlatform, icon);
+      const appId = header[storePlatform]?.appId;
+      if (!appId?.trim()) continue;
+      const result = await deleteImagesForFile(storePlatform, appId);
       imagesDeleted += result.deleted;
       imageErrors.push(...result.errors);
     }
@@ -251,7 +262,7 @@ async function processFile(platform, fileName) {
     }
 
     const updatedHeader = removeFields(header);
-    const imageResult = await deleteImagesForFile(platform, header.icon);
+    const imageResult = await deleteImagesForFile(platform, header.appId);
     const archiveDir = await ensureArchiveDirectory(platform);
     
     const archiveFilePath = path.join(archiveDir, fileName);
@@ -360,7 +371,7 @@ async function main() {
   console.log('\nArchive process completed.');
 }
 
-export { buildArchivedMobileHeader, pickStoreField };
+export { buildArchivedMobileHeader, pickStoreField, shouldArchiveMobile };
 
 const isArchiveNobtcCli =
   process.argv[1] &&

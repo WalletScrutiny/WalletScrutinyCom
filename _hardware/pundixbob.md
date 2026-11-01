@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-icon: pundixbob.webp
 bugbounty: 
 meta: ok
 verdict: vapor

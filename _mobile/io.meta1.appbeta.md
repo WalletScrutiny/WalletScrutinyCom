@@ -19,7 +19,6 @@ android:
   updated: 2024-05-20
   version: 2.0.3
   reviews: 2
-  icon: io.meta1.appbeta.webp
   meta: removed
   verdict: nosource
   developerName: META 1 Coin
@@ -32,7 +31,6 @@ iphone:
   updated: 2023-10-25
   version: 2.1.9
   reviews: 4
-  icon: io.meta1.appbeta.webp
   meta: removed
   verdict: wip
   developerName: Meta Vault Association, LLC

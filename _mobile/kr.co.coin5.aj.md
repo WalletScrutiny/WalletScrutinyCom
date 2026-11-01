@@ -9,7 +9,6 @@ android:
   released: 2020-07-05
   updated: 2020-07-05
   version: '1.0'
-  icon: kr.co.coin5.aj.webp
   meta: removed
   verdict: wip
   developerName: BISPEX

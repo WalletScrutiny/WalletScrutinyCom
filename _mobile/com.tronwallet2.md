@@ -11,7 +11,6 @@ android:
   updated: 2020-07-23
   version: 3.4.5
   reviews: 4748
-  icon: com.tronwallet2.webp
   meta: removed
   verdict: nosource
 

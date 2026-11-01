@@ -12,7 +12,6 @@ android:
   released: 2021-10-11
   updated: 2021-10-12
   version: '1.0'
-  icon: com.jaxx.crypto.wallet.webp
   meta: removed
   verdict: fake
 

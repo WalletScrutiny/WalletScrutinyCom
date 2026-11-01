@@ -10,7 +10,6 @@ android:
   released: 2022-12-23
   updated: 2022-12-23
   version: '0.8'
-  icon: com.aurora.aurorawallet.webp
   meta: removed
   verdict: wip
   developerName: AuroraWallet

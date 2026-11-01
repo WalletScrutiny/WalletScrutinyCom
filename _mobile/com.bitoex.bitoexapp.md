@@ -16,7 +16,6 @@ android:
   released: 2019-11-18
   updated: 2019-11-19
   version: 1.0.0
-  icon: com.bitoex.bitoexapp.webp
   meta: removed
   verdict: wip
   developerName: BITOEX TECHNOLOGY LIMITED TAIWAN BRANCH
@@ -28,7 +27,6 @@ iphone:
   updated: 2020-03-12
   version: 1.0.1
   reviews: 86
-  icon: com.bitoex.bitoexapp.webp
   meta: removed
   verdict: wip
   developerName: BitoEX

@@ -20,7 +20,6 @@ android:
   updated: 2026-09-18
   version: 3.1.21
   reviews: 4
-  icon: com.satang.pro.webp
   meta: ok
   verdict: custodial
   developerName: Orbix Trade Co., Ltd.
@@ -32,7 +31,6 @@ iphone:
   updated: 2023-10-19
   version: 1.6.0
   reviews: 6
-  icon: com.satang-pro.ios.webp
   meta: removed
   verdict: custodial
   developerName: Satang Corporation Co., Ltd.

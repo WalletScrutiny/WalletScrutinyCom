@@ -18,7 +18,6 @@ android:
   updated: 2023-04-28
   version: 4.24.14
   reviews: 593
-  icon: cash.klever.blockchain.wallet.webp
   meta: removed
   verdict: nosource
   developerName: 'Klever Wallet: Bitcoin, Ethereum, TRX & Crypto'
@@ -29,7 +28,6 @@ iphone:
   updated: 2023-04-19
   version: 4.24.14
   reviews: 524
-  icon: cash.klever.blockchain.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Klever Exchange

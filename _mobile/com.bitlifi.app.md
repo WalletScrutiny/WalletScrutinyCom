@@ -20,7 +20,6 @@ android:
   released: 2023-05-04
   updated: 2026-08-19
   version: 1.11.22
-  icon: com.bitlifi.app.webp
   meta: ok
   verdict: custodial
   developerName: MP Developers s.r.o.
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-08-22
   version: 1.11.21
   reviews: 0
-  icon: com.bitlifi.app.webp
   meta: ok
   verdict: custodial
   developerName: MP Developers s.r.o.

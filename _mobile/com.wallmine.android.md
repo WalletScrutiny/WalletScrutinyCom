@@ -11,7 +11,6 @@ android:
   updated: 2020-07-29
   version: 1.1.10
   reviews: 9
-  icon: com.wallmine.android.webp
   meta: removed
   verdict: wip
   developerName: HODL s.r.o.

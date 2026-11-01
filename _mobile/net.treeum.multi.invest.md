@@ -12,7 +12,6 @@ android:
   users: 1000
   updated: 2022-09-01
   version: 1.0.31
-  icon: net.treeum.multi.invest.webp
   meta: removed
   verdict: wip
   developerName: Treeum Holdings Limited
@@ -24,7 +23,6 @@ iphone:
   updated: 2024-06-08
   version: 1.0.31
   reviews: 0
-  icon: net.treeum.multi.invest.webp
   meta: removed
   verdict: wip
   developerName: Treeum Holdings LTD

@@ -10,7 +10,6 @@ android:
   released: 2022-05-25
   updated: 2022-05-25
   version: 1.0.0
-  icon: com.app.bitayindia.webp
   meta: removed
   verdict: wip
 

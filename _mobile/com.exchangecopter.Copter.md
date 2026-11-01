@@ -17,7 +17,6 @@ android:
   released: 2021-12-09
   updated: 2022-09-16
   version: 1.5.7
-  icon: com.exchangecopter.Copter.webp
   meta: removed
   verdict: custodial
   developerName: Copter S.A
@@ -29,7 +28,6 @@ iphone:
   updated: 2022-09-19
   version: 1.5.7
   reviews: 1
-  icon: com.exchangecopter.Copter.webp
   meta: removed
   verdict: custodial
   developerName: Copter SA

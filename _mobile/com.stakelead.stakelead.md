@@ -10,7 +10,6 @@ android:
   released: 2022-06-04
   updated: 2022-06-04
   version: '1.0'
-  icon: com.stakelead.stakelead.webp
   meta: removed
   verdict: wip
   developerName: PROYA INT.

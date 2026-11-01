@@ -15,7 +15,6 @@ android:
   updated: 2022-10-18
   version: VARY
   reviews: 206
-  icon: com.payeer.webp
   meta: removed
   verdict: custodial
   developerName: Payeer Official
