@@ -14,7 +14,6 @@ android:
   updated: 2022-05-18
   version: 4.3.4
   reviews: 24
-  icon: com.fiveroi.webp
   meta: removed
   verdict: custodial
   developerName: 5ROI Global

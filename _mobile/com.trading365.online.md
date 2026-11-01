@@ -9,7 +9,6 @@ android:
   released: 2019-08-29
   updated: 2019-08-29
   version: 1.5.2
-  icon: com.trading365.online.webp
   meta: removed
   verdict: wip
   developerName: trading365pro

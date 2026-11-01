@@ -19,7 +19,6 @@ android:
   updated: 2023-08-07
   version: 1.5.3
   reviews: 46
-  icon: io.klever.secure.exchange.webp
   meta: removed
   verdict: custodial
   developerName: 'Klever Wallet: Bitcoin, Ethereum, TRX & Crypto'
@@ -30,7 +29,6 @@ iphone:
   updated: 2023-05-02
   version: 1.8.1
   reviews: 59
-  icon: io.klever.secure.exchange.webp
   meta: removed
   verdict: custodial
   developerName: Klever Exchange

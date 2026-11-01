@@ -9,7 +9,6 @@ android:
   released: 2017-09-27
   updated: 2017-09-27
   version: 1.0.1
-  icon: com.mavrlast.cryptochange.webp
   meta: removed
   verdict: wip
   developerName: Rob Clerc

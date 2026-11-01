@@ -22,7 +22,6 @@ android:
   updated: 2026-10-12
   version: 6.78.0
   reviews: 3252
-  icon: com.mexcpro.client.webp
   meta: ok
   verdict: custodial
   developerName: MEXC Ltd
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-10-13
   version: 6.78.1
   reviews: 8468
-  icon: mobile.mexcglobal.www.webp
   meta: ok
   verdict: custodial
   developerName: Onechain Technology Ltd

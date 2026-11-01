@@ -14,7 +14,6 @@ android:
   updated: 2025-11-25
   version: 1.1.0
   reviews: 4
-  icon: com.cakewallet.cupcake.webp
   meta: ok
   verdict: sourceavailable
   developerName: Cake Labs
@@ -27,7 +26,6 @@ iphone:
   updated: 2025-12-03
   version: 1.1.1
   reviews: 11
-  icon: com.cakewallet.cupcake.webp
   meta: ok
   verdict: sourceavailable
   developerName: Cake Technologies, LLC

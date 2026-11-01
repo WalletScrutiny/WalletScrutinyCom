@@ -18,7 +18,6 @@ android:
   updated: 2026-05-05
   version: 5.1.80
   reviews: 2
-  icon: com.mobiletradingpartners.lmaxdigital.webp
   meta: ok
   verdict: custodial
   developerName: LMAX Digital Broker Limited
@@ -30,7 +29,6 @@ iphone:
   updated: 2026-08-13
   version: 5.1.96
   reviews: 0
-  icon: com.mobiletradingpartners.lmaxdigital.webp
   meta: ok
   verdict: custodial
   developerName: LMAX DIGITAL EXCHANGE LIMITED

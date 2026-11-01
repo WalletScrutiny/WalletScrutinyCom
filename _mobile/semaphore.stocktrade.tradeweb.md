@@ -12,7 +12,6 @@ android:
   released: 2018-01-22
   updated: 2020-08-28
   version: 4.1.1.15
-  icon: semaphore.stocktrade.tradeweb.webp
   meta: removed
   verdict: wip
   developerName: Tomato Group

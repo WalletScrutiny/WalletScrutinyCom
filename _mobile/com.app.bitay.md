@@ -19,7 +19,6 @@ android:
   updated: 2023-11-21
   version: 3.1.29
   reviews: 11
-  icon: com.app.bitay.webp
   meta: obsolete
   verdict: custodial
   developerName: Bitay Technology
@@ -30,7 +29,6 @@ iphone:
   updated: 2022-11-25
   version: 3.1.9
   reviews: 8
-  icon: com.app.Bitay.webp
   meta: removed
   verdict: custodial
 

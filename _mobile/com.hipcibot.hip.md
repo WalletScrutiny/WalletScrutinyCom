@@ -10,7 +10,6 @@ android:
   released: 2021-03-01
   updated: 2021-03-01
   version: 0.0.1
-  icon: com.hipcibot.hip.webp
   meta: removed
   verdict: wip
   developerName: Smart Crypto Studio

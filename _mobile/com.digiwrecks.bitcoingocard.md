@@ -10,7 +10,6 @@ android:
   released: 2022-02-01
   updated: 2026-08-15
   version: 1.1.9
-  icon: com.digiwrecks.bitcoingocard.webp
   meta: fewusers
   verdict: wip
   developerName: Die SW-Factory GmbH

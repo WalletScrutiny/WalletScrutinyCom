@@ -10,7 +10,6 @@ android:
   released: 2020-06-01
   updated: 2020-06-08
   version: V0.2.1
-  icon: org.yancaitech.porter.webp
   meta: removed
   verdict: wip
   developerName: yancaitech

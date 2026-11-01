@@ -16,7 +16,6 @@ android:
   updated: 2025-02-18
   version: 3.9.40_googleplay
   reviews: 674
-  icon: com.trendo.android.webp
   meta: removed
   verdict: custodial
   developerName: Trendo Forex
@@ -28,7 +27,6 @@ iphone:
   updated: 2026-10-13
   version: 5.1.51
   reviews: 104
-  icon: ios.m3.Trendo.webp
   meta: ok
   verdict: custodial
   developerName: Trendo LLC

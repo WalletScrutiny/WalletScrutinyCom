@@ -23,7 +23,6 @@ shop: https://keepkey.com/store
 country: US
 price: 59.95USD
 repository: https://github.com/keepkey/keepkey-firmware
-icon: keepKey.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

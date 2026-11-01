@@ -18,7 +18,6 @@ shop: https://web.archive.org/web/20210830194711/https://shop.archos.com/gb/hard
 country: FR
 price: 129.99EUR
 repository: 
-icon: archossafettouch.webp
 bugbounty: 
 meta: discontinued
 verdict: nosource

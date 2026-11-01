@@ -10,7 +10,6 @@ android:
   released: 2022-03-24
   updated: 2022-09-08
   version: '1.1'
-  icon: com.international.fhow.webp
   meta: removed
   verdict: wip
 

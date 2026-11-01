@@ -17,7 +17,6 @@ shop: https://web.archive.org/web/20260614105418/https://www.coincorner.com/buyt
 country: UK
 price: £4.99
 repository: 
-icon: coincorner.boltcard.webp
 bugbounty: 
 meta: discontinued
 verdict: noita

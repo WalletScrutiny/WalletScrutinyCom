@@ -11,7 +11,6 @@ android:
   released: 2022-01-27
   updated: 2022-01-27
   version: 1.0.0
-  icon: com.sonikchain.sonidex.webp
   meta: obsolete
   verdict: wip
   developerName: Evegram Inc.

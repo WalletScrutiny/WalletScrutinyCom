@@ -23,7 +23,6 @@ android:
   updated: 2026-10-08
   version: 2.261008.1
   reviews: 562
-  icon: com.bitcoinira.webp
   meta: ok
   verdict: custodial
   developerName: BitcoinIRA
@@ -35,7 +34,6 @@ iphone:
   updated: 2026-10-06
   version: 2.261005.1
   reviews: 1217
-  icon: com.bitcoinira.webp
   meta: ok
   verdict: custodial
   developerName: BitcoinIRA

@@ -14,7 +14,6 @@ android:
   released: 2026-07-10
   updated: 2026-09-28
   version: 3.11.23
-  icon: co.zmex.app.webp
   meta: ok
   verdict: custodial
   developerName: Zoomex
@@ -26,7 +25,6 @@ iphone:
   updated: 2026-09-29
   version: 3.11.23
   reviews: 65
-  icon: com.zmexglobal.app.webp
   meta: ok
   verdict: custodial
   developerName: zmex fintech limited

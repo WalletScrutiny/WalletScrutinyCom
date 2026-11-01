@@ -20,7 +20,6 @@ shop: https://www.quickxtouch.com/product/quickx-touch-card#deadLink
 country: MT
 price: 149USD
 repository: 
-icon: quickxtouch.webp
 bugbounty: 
 meta: discontinued
 verdict: noita

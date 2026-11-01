@@ -18,7 +18,6 @@ android:
   updated: 2022-03-18
   version: 2.13.15
   reviews: 15
-  icon: coinsquare.io.coinsquare.webp
   meta: removed
   verdict: custodial
 

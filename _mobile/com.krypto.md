@@ -14,7 +14,6 @@ android:
   updated: 2022-06-17
   version: '8.5'
   reviews: 19
-  icon: com.krypto.webp
   meta: removed
   verdict: custodial
   developerName: Connect Pvt Ltd

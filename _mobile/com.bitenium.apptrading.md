@@ -10,7 +10,6 @@ android:
   released: 2021-08-15
   updated: 2022-07-19
   version: 1.0.6
-  icon: com.bitenium.apptrading.webp
   meta: removed
   verdict: wip
   developerName: Bitenium Exchange LLC

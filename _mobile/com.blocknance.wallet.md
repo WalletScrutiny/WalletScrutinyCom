@@ -20,7 +20,6 @@ android:
   updated: 2023-03-14
   version: '1.1'
   reviews: 3
-  icon: com.blocknance.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Blocknance Financial International SRL
@@ -32,7 +31,6 @@ iphone:
   updated: 2023-03-01
   version: 1.0.2
   reviews: 1
-  icon: org.reactjs.native.example.blocknance.webp
   meta: removed
   verdict: nosource
   developerName: Blocknance Financial International SRL

@@ -10,7 +10,6 @@ android:
   released: 2020-11-05
   updated: 2023-08-23
   version: '3.8'
-  icon: com.usdg.wallet.webp
   meta: removed
   verdict: wip
   developerName: Lead Capital

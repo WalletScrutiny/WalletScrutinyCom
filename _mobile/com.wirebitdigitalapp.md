@@ -17,7 +17,6 @@ android:
   released: 2021-08-20
   updated: 2023-09-27
   version: 1.12.4
-  icon: com.wirebitdigitalapp.webp
   meta: removed
   verdict: custodial
   developerName: Wirebit S.A. de C.V.
@@ -29,7 +28,6 @@ iphone:
   updated: 2023-08-24
   version: 1.12.3
   reviews: 0
-  icon: wirebit.digital.app.webp
   meta: removed
   verdict: custodial
   developerName: Wirebit S.A. de C.V.

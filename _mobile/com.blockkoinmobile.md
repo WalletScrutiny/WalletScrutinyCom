@@ -10,7 +10,6 @@ android:
   released: 2020-08-17
   updated: 2023-07-26
   version: 1.6.12
-  icon: com.blockkoinmobile.webp
   meta: removed
   verdict: wip
   developerName: Blockkoin Exchange Ltd

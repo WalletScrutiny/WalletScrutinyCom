@@ -10,7 +10,6 @@ android:
   updated: 2021-09-20
   version: '1.0'
   reviews: 14
-  icon: com.rter.zorc.webp
   meta: removed
   verdict: wip
 

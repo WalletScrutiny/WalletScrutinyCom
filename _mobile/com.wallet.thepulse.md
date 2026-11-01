@@ -14,7 +14,6 @@ android:
   updated: 2026-07-07
   version: 5.3.9
   reviews: 24
-  icon: com.wallet.thepulse.webp
   meta: ok
   verdict: wip
   developerName: THE PULSE WALLET
@@ -26,7 +25,6 @@ iphone:
   updated: 2026-07-07
   version: 5.3.8
   reviews: 26
-  icon: ios.wallet.pulse.webp
   meta: ok
   verdict: wip
   developerName: MMC Wallet

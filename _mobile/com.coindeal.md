@@ -17,7 +17,6 @@ android:
   released: 2019-11-04
   updated: 2020-08-18
   version: 1.0.8
-  icon: com.coindeal.webp
   meta: removed
   verdict: custodial
   developerName: CoinDeal Limited
@@ -28,7 +27,6 @@ iphone:
   updated: 2020-08-18
   version: 1.0.6
   reviews: 1
-  icon: pl.icoindeal.CoinDeal.webp
   meta: removed
   verdict: custodial
   developerName: CoinDeal Limited

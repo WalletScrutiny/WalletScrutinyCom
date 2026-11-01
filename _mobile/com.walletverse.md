@@ -27,7 +27,6 @@ android:
   updated: 2026-09-24
   version: 1.18.4
   reviews: 21
-  icon: com.walletverse.webp
   meta: ok
   verdict: nosource
   developerName: ilink Ltd.
@@ -39,7 +38,6 @@ iphone:
   updated: 2026-09-29
   version: 1.18.4
   reviews: 43
-  icon: ilink.walletverse.webp
   meta: ok
   verdict: nosource
   developerName: ilink Ltd.

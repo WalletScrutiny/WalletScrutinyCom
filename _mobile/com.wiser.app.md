@@ -9,7 +9,6 @@ android:
   users: 100
   updated: 2023-01-06
   version: VARY
-  icon: com.wiser.app.webp
   meta: removed
   verdict: wip
   developerName: Factory Technologies Pvt Ltd.

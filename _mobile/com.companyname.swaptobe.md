@@ -19,7 +19,6 @@ android:
   updated: 2026-03-18
   version: '6.0'
   reviews: 17
-  icon: com.companyname.swaptobe.webp
   meta: ok
   verdict: custodial
   developerName: PIONE GLOBAL

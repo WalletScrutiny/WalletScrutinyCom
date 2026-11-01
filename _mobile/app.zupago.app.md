@@ -15,7 +15,6 @@ android:
   updated: 2024-05-16
   version: 2.0.2
   reviews: 22
-  icon: app.zupago.app.webp
   meta: removed
   verdict: custodial
   developerName: ViZO
@@ -27,7 +26,6 @@ iphone:
   updated: 2024-11-26
   version: 1.0.70
   reviews: 52
-  icon: app.zupago.zp.webp
   meta: removed
   verdict: custodial
   developerName: VIZO TECHNOLOGY LIMITED

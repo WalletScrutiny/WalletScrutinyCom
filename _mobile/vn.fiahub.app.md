@@ -19,7 +19,6 @@ android:
   released: 2019-10-11
   updated: 2025-08-25
   version: 2.20.5
-  icon: vn.fiahub.app.webp
   meta: defunct
   verdict: custodial
   developerName: DIGITEX PTE LTD
@@ -31,7 +30,6 @@ iphone:
   updated: 2022-12-12
   version: 2.17.7
   reviews: 2
-  icon: bit.coin.Coindess.webp
   meta: removed
   verdict: custodial
 

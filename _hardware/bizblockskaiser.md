@@ -20,7 +20,6 @@ shop: https://bizblocks.io/buy
 country: KR
 price: 
 repository: 
-icon: bizblockskaiser.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

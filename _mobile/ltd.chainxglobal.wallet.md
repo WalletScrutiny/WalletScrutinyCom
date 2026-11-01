@@ -12,7 +12,6 @@ android:
   released: 2025-09-10
   updated: 2026-07-04
   version: 2.0.2
-  icon: ltd.chainxglobal.wallet.webp
   meta: fewusers
   verdict: wip
   developerName: Chain X Global
@@ -24,7 +23,6 @@ iphone:
   updated: 2026-07-06
   version: 2.0.2
   reviews: 8
-  icon: ltd.chainxglobal.wallet.webp
   meta: ok
   verdict: wip
   developerName: ChainX Global

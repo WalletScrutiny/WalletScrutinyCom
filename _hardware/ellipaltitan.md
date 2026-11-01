@@ -18,7 +18,6 @@ shop: https://web.archive.org/web/20230929134709/https://www.ellipal.com/product
 country: HK
 price: 139USD
 repository: 
-icon: ellipaltitan.webp
 bugbounty: 
 meta: discontinued
 verdict: nosource

@@ -10,7 +10,6 @@ android:
   released: 2022-04-28
   updated: 2022-06-08
   version: 1.3.0
-  icon: com.plutopos.webp
   meta: removed
   verdict: wip
   developerName: Spartan Hill

@@ -19,7 +19,6 @@ android:
   updated: 2026-10-07
   version: 2.0.16
   reviews: 10
-  icon: com.vent.app.webp
   meta: ok
   verdict: custodial
   developerName: Vent Comm & Tech LTD
@@ -31,7 +30,6 @@ iphone:
   updated: 2024-02-21
   version: 1.8.4
   reviews: 58
-  icon: com.ventafrica.app.webp
   meta: removed
   verdict: custodial
   developerName: Vent Africa

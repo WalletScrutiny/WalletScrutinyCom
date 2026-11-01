@@ -10,7 +10,6 @@ android:
   released: 2022-08-25
   updated: 2022-08-25
   version: 1.0.0
-  icon: trade.aleairpay.com.webp
   meta: removed
   verdict: wip
   developerName: AleAirPay

@@ -9,7 +9,6 @@ android:
   released: 2021-06-16
   updated: 2021-06-17
   version: '1.0'
-  icon: crypto.buy.sell.signal.app.webp
   meta: removed
   verdict: wip
 

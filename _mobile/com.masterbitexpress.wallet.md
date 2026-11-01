@@ -11,7 +11,6 @@ android:
   released: 2018-04-21
   updated: 2025-10-31
   version: 1.1.1.93
-  icon: com.masterbitexpress.wallet.webp
   meta: fewusers
   verdict: wip
   developerName: FollowMe Developments

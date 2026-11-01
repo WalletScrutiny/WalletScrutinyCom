@@ -19,7 +19,6 @@ android:
   updated: 2026-10-07
   version: 16.5.2
   reviews: 1383
-  icon: com.kyriakosalexandrou.coinmarketcap.webp
   meta: ok
   verdict: nosource
   developerName: Newtechincubator.com
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-10-09
   version: 16.5.2
   reviews: 618
-  icon: com.programonks.CoinMarketApp.webp
   meta: ok
   verdict: nosource
   developerName: CORTEX AG

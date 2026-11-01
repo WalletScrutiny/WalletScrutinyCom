@@ -18,7 +18,6 @@ android:
   released: 2019-10-02
   updated: 2022-03-29
   version: 3.0.9
-  icon: com.duniapay.africa.webp
   meta: removed
   verdict: custodial
   developerName: Dunia
@@ -30,7 +29,6 @@ iphone:
   updated: 2022-04-10
   version: 3.0.0
   reviews: 11
-  icon: com.duniapay.africa.webp
   meta: removed
   verdict: custodial
 

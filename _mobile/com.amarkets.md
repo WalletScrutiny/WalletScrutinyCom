@@ -19,7 +19,6 @@ android:
   updated: 2026-10-06
   version: 2.1.150
   reviews: 232
-  icon: com.amarkets.webp
   meta: ok
   verdict: nosendreceive
   developerName: AMarkets LLC
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-05-25
   version: 1.4.174
   reviews: 3042
-  icon: amarkets.app.webp
   meta: ok
   verdict: nosendreceive
   developerName: AMarkets Ltd.

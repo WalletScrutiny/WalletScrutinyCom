@@ -9,7 +9,6 @@ android:
   released: 2022-01-14
   updated: 2022-01-27
   version: 1.1.1
-  icon: com.trillionb.app.webp
   meta: removed
   verdict: wip
   developerName: Trillion Bot Asia

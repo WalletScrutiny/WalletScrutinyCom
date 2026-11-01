@@ -10,7 +10,6 @@ android:
   released: 2018-11-02
   updated: 2019-10-04
   version: 1.0.22
-  icon: com.linescode.b4y.app.webp
   meta: removed
   verdict: wip
 

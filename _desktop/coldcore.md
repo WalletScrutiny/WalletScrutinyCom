@@ -12,7 +12,6 @@ provider: JamesOB
 providerWebsite: 
 website: 
 repository: https://github.com/jamesob/coldcore
-icon: 
 bugbounty: 
 meta: ok
 verdict: sourceavailable

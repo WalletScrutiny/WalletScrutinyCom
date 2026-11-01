@@ -18,7 +18,6 @@ android:
   updated: 2023-03-11
   version: 1.0.0.0
   reviews: 8
-  icon: com.localcoinswap.twa.webp
   meta: removed
   verdict: nosource
   developerName: LocalCoinSwap

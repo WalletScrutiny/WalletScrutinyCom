@@ -18,7 +18,6 @@ android:
   updated: 2021-12-10
   version: 3.0.0
   reviews: 235
-  icon: com.theblockchain.coinus.wallet.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -28,7 +27,6 @@ iphone:
   updated: 2022-01-03
   version: 2.9.0
   reviews: 0
-  icon: com.theblockchain.coinus.wallet.webp
   meta: removed
   verdict: nosource
 

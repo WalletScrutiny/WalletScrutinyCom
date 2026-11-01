@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-icon: realcryptobhc.webp
 bugbounty: 
 meta: discontinued
 verdict: plainkey

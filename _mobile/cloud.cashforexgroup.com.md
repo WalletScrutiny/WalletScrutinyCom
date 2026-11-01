@@ -9,7 +9,6 @@ android:
   released: 2022-04-30
   updated: 2022-05-01
   version: '1.0'
-  icon: cloud.cashforexgroup.com.webp
   meta: removed
   verdict: wip
 

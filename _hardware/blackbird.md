@@ -17,7 +17,6 @@ shop:
 country: LU
 price: 
 repository: 
-icon: blackbird.webp
 bugbounty: 
 meta: discontinued
 verdict: nosource

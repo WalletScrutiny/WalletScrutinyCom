@@ -26,7 +26,6 @@ android:
   updated: 2026-09-29
   version: 8.12.0
   reviews: 6755
-  icon: io.metamask.webp
   alternativeStores:
   - zapstore
   meta: ok
@@ -41,7 +40,6 @@ iphone:
   updated: 2026-09-29
   version: 8.13.0
   reviews: 76477
-  icon: io.metamask.MetaMask.webp
   meta: ok
   verdict: sourceavailable
   developerName: MetaMask

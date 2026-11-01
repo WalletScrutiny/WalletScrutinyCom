@@ -15,7 +15,6 @@ android:
   updated: 2022-08-21
   version: 1.4.15
   reviews: 76
-  icon: com.hodlnaut.mobile.webp
   meta: removed
   verdict: custodial
   developerName: Hodlnaut

@@ -11,7 +11,6 @@ android:
   updated: 2019-12-05
   version: '10.0'
   reviews: 7
-  icon: appgiftertreeonepercentcommunitycom.wpapp.webp
   meta: removed
   verdict: wip
   developerName: OPCGifter

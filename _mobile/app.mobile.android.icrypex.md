@@ -21,7 +21,6 @@ android:
   updated: 2025-07-03
   version: '21.2'
   reviews: 10
-  icon: app.mobile.android.icrypex.webp
   meta: stale
   verdict: custodial
   developerName: ICRYPEX KRİPTO VARLIK ALIM SATIM PLATFORMU A.Ş.
@@ -33,7 +32,6 @@ iphone:
   updated: 2024-09-25
   version: '4.1'
   reviews: 1
-  icon: com.icrypex.mobile.webp
   meta: removed
   verdict: custodial
   developerName: ICRYPEX BILISIM ANONIM SIRKETI

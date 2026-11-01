@@ -20,7 +20,6 @@ shop: https://secuxtech.com/products/shield-bio
 country: TW
 price: 149 USD
 repository: 
-icon: secuxshieldbio.webp
 bugbounty: 
 meta: ok
 verdict: nosource

@@ -10,7 +10,6 @@ android:
   released: 2021-08-18
   updated: 2021-11-18
   version: 1.2.4
-  icon: com.naryex.webp
   meta: removed
   verdict: wip
 

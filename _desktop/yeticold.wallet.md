@@ -12,7 +12,6 @@ provider: JWWeatherman
 providerWebsite: 
 website: https://yeticold.com
 repository: https://github.com/JWWeatherman/yeticold
-icon: yeticold.wallet.webp
 bugbounty: 
 meta: stale
 verdict: sourceavailable

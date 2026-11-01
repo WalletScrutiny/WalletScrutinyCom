@@ -23,7 +23,6 @@ android:
   updated: 2026-06-12
   version: 5.7.19
   reviews: 7
-  icon: io.bitvenus.app.first.webp
   meta: ok
   verdict: custodial
   developerName: Bitvenus Technology Ltd.
@@ -35,7 +34,6 @@ iphone:
   updated: 2026-06-16
   version: 5.7.14
   reviews: 13
-  icon: com.bitvenus.exchange.webp
   meta: ok
   verdict: custodial
   developerName: BV Global Technology Ltd.

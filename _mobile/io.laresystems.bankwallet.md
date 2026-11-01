@@ -10,7 +10,6 @@ android:
   released: 2022-03-07
   updated: 2022-03-20
   version: 1.0.3
-  icon: io.laresystems.bankwallet.webp
   meta: removed
   verdict: wip
   developerName: Lare Wallet

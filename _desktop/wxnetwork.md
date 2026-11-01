@@ -12,7 +12,6 @@ provider: WX Network
 providerWebsite: https://wx.network
 website: https://wx.network
 repository: 
-icon: wxnetwork.webp
 bugbounty: 
 meta: ok
 verdict: nosource

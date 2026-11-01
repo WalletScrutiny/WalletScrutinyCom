@@ -9,7 +9,6 @@ android:
   released: 2020-12-23
   updated: 2021-02-05
   version: '1.1'
-  icon: com.JavaWallet.webp
   meta: removed
   verdict: wip
   developerName: Java wallet Technologies

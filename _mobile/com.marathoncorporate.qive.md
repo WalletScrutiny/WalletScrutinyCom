@@ -10,7 +10,6 @@ android:
   released: 2020-03-02
   updated: 2020-03-31
   version: 1.0.4
-  icon: com.marathoncorporate.qive.webp
   meta: removed
   verdict: wip
   developerName: Marathon Corporate Services Ltd

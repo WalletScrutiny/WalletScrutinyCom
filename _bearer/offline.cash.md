@@ -17,7 +17,6 @@ shop:
 country: US
 price: 
 repository: 
-icon: offline.cash.webp
 bugbounty: 
 meta: ok
 verdict: unreleased

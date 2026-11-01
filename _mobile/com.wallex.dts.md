@@ -13,7 +13,6 @@ android:
   released: 2023-01-05
   updated: 2023-08-07
   version: 1.3.34
-  icon: com.wallex.dts.webp
   meta: removed
   verdict: custodial
   developerName: DTS Wallet
@@ -25,7 +24,6 @@ iphone:
   updated: 2023-03-10
   version: '1.1'
   reviews: 11
-  icon: com.wallex.dts.webp
   meta: removed
   verdict: custodial
   developerName: Mio Payments Inc.

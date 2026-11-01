@@ -10,7 +10,6 @@ android:
   released: 2020-06-13
   updated: 2021-01-26
   version: '2.3'
-  icon: com.kozwallet.webp
   meta: removed
   verdict: wip
   developerName: Webist Pro Sdn Bhd

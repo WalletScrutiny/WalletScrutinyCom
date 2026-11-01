@@ -20,7 +20,6 @@ android:
   updated: 2026-08-17
   version: 4.10.7
   reviews: 128
-  icon: com.github.ontio.onto.webp
   meta: ok
   verdict: nosource
   developerName: Ontology Foundation Ltd.
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-08-20
   version: 4.10.7
   reviews: 87
-  icon: com.ontology.foundation.onto.webp
   meta: ok
   verdict: nosource
   developerName: Ontology Foundation

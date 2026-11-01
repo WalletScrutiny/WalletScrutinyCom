@@ -16,7 +16,6 @@ android:
   updated: 2022-10-30
   version: 1.0.69
   reviews: 7
-  icon: com.ideypay.webp
   meta: removed
   verdict: custodial
 

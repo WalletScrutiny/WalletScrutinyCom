@@ -14,7 +14,6 @@ android:
   released: 2020-03-22
   updated: 2023-02-17
   version: 1.2.4
-  icon: jp.co.rakuten.wallet.leverage.webp
   meta: removed
   verdict: custodial
   developerName: Rakuten Wallet
@@ -26,7 +25,6 @@ iphone:
   updated: 2023-02-22
   version: 1.2.4
   reviews: 61
-  icon: jp.co.rakuten.wallet.leverage.webp
   meta: removed
   verdict: custodial
   developerName: Rakuten Wallet, Inc.

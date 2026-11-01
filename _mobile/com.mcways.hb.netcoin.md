@@ -10,7 +10,6 @@ android:
   released: 2018-05-31
   updated: 2018-06-04
   version: 1.0.1
-  icon: com.mcways.hb.netcoin.webp
   meta: removed
   verdict: wip
   developerName: Mcways Infotech

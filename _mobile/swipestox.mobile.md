@@ -19,7 +19,6 @@ android:
   updated: 2026-10-05
   version: 8.0.481
   reviews: 201
-  icon: swipestox.mobile.webp
   meta: ok
   verdict: nosendreceive
   developerName: NAGA Markets Ltd.
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-10-09
   version: 9.8.10
   reviews: 87
-  icon: com.swipestox.app.webp
   meta: ok
   verdict: nosendreceive
   developerName: NAGA Markets Ltd.

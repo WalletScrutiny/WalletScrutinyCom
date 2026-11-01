@@ -3,7 +3,6 @@ title: BitSafeCard
 appId: bitsafe.card
 authors:
 - danny
-icon: bitsafe.card.webp
 date: 2026-10-30
 released: 2021-12-28
 discontinued: 2023-10-12

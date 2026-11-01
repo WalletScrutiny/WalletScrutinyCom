@@ -12,7 +12,6 @@ android:
   updated: 2021-06-24
   version: '1.0'
   reviews: 202
-  icon: com.btccloudminer.easy.webp
   meta: removed
   verdict: wip
 

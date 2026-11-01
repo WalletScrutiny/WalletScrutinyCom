@@ -22,7 +22,6 @@ android:
   updated: 2026-09-08
   version: 4.12.0
   reviews: 16
-  icon: im.adamant.adamantmessengerpwa.webp
   meta: ok
   verdict: sourceavailable
   developerName: ADAMANT Foundation
@@ -35,7 +34,6 @@ iphone:
   updated: 2025-09-13
   version: 3.10.1
   reviews: 18
-  icon: im.adamant.adamant-messenger.webp
   meta: stale
   verdict: sourceavailable
   developerName: ADAMANT TECH LABS LP

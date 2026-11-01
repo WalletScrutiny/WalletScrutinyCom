@@ -14,7 +14,6 @@ android:
   updated: 2023-04-24
   version: 15.2.0
   reviews: 11
-  icon: com.getcoins.gcwallet2.webp
   meta: removed
   verdict: nosource
   developerName: GetCoins
@@ -26,7 +25,6 @@ iphone:
   updated: 2025-05-05
   version: 15.4.0
   reviews: 16
-  icon: com.getcoins.gcwallet.webp
   meta: removed
   verdict: nosource
   developerName: Evergreen ATM LLC

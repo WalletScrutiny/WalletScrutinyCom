@@ -19,7 +19,6 @@ android:
   updated: 2026-06-25
   version: 0.8.9
   reviews: 4
-  icon: com.inexlatam.panther.webp
   meta: ok
   verdict: custodial
   developerName: Veltrix Technologies OÜ
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-07-01
   version: 0.8.9 (2049)
   reviews: 0
-  icon: com.inexlatam.panther.webp
   meta: ok
   verdict: custodial
   developerName: Veltrix Technologies OU

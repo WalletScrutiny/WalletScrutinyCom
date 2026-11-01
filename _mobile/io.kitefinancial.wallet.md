@@ -19,7 +19,6 @@ android:
   updated: 2023-12-07
   version: 2.3.0
   reviews: 4
-  icon: io.kitefinancial.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Kite Financial (Kite Tech Ltd UK)
@@ -31,7 +30,6 @@ iphone:
   updated: 2022-10-04
   version: 2.2.7
   reviews: 34
-  icon: io.kitefinancial.bitcoin.webp
   meta: obsolete
   verdict: custodial
   developerName: Kite Tech Limited

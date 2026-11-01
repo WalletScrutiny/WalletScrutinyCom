@@ -16,7 +16,6 @@ android:
   released: 2021-04-27
   updated: 2023-10-20
   version: 1.51.2
-  icon: vexel.com.webp
   meta: removed
   verdict: custodial
   developerName: VEXEL LP
@@ -28,7 +27,6 @@ iphone:
   updated: 2022-10-19
   version: '1.20'
   reviews: 2
-  icon: com.vexel.webp
   meta: obsolete
   verdict: custodial
   developerName: Vexel

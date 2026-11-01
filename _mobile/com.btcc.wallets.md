@@ -16,7 +16,6 @@ android:
   updated: 2026-08-20
   version: 3.5.45
   reviews: 19
-  icon: com.btcc.wallets.webp
   meta: ok
   verdict: custodial
   developerName: BTCC WALLET
@@ -28,7 +27,6 @@ iphone:
   updated: 2026-08-24
   version: 3.5.45
   reviews: 33
-  icon: com.btcc.wallets.webp
   meta: ok
   verdict: custodial
   developerName: BTCC UK Limited

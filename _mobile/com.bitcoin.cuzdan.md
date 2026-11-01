@@ -12,7 +12,6 @@ iphone:
   updated: 2019-01-21
   version: '1.1'
   reviews: 1
-  icon: com.bitcoin.cuzdan.webp
   meta: removed
   verdict: wip
 

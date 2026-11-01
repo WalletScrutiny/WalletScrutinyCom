@@ -15,7 +15,6 @@ android:
   updated: 2026-09-27
   version: 7.5.3
   reviews: 271
-  icon: co.okex.app.webp
   meta: ok
   verdict: custodial
   developerName: Technical team

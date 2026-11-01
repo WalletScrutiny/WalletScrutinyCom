@@ -15,7 +15,6 @@ android:
   updated: 2023-12-15
   version: 5.9.1_push_v2
   reviews: 10
-  icon: com.chainup.exchange.Burency.webp
   meta: removed
   verdict: custodial
   developerName: Burency Global

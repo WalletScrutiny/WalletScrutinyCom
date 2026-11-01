@@ -10,7 +10,6 @@ android:
   released: 2021-12-12
   updated: 2021-12-23
   version: 1.0.4
-  icon: quasar.sprint.bank.app.webp
   meta: removed
   verdict: wip
   developerName: Джон Альварес

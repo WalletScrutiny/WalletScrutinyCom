@@ -9,7 +9,6 @@ android:
   released: 2020-08-03
   updated: 2020-08-12
   version: '1.1'
-  icon: com.application.bitzdeal.webp
   meta: removed
   verdict: wip
   developerName: Blu & MNB Technologies

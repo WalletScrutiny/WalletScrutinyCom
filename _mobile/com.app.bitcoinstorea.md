@@ -10,7 +10,6 @@ android:
   released: 2021-08-01
   updated: 2021-08-01
   version: '1.0'
-  icon: com.app.bitcoinstorea.webp
   meta: removed
   verdict: wip
 

@@ -17,7 +17,6 @@ shop: https://web.archive.org/web/20250515212227/https://www.goldlinks.one/list.
 country: SG
 price: 
 repository: 
-icon: goldlinks.one.webp
 bugbounty: 
 meta: defunct
 verdict: plainkey

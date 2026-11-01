@@ -9,7 +9,6 @@ android:
   released: 2022-03-29
   updated: 2024-02-01
   version: 1.0.6
-  icon: com.project.odds.webp
   meta: removed
   verdict: wip
   developerName: ODDS Technology Limited

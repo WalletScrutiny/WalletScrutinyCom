@@ -10,7 +10,6 @@ android:
   released: 2020-05-23
   updated: 2020-05-25
   version: 4.4.7
-  icon: com.chainup.exchange.index.webp
   meta: removed
   verdict: wip
   developerName: G1store

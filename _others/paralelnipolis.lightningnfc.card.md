@@ -3,7 +3,6 @@ title: Paralelní Polis Lightning NFC Card
 appId: paralelnipolis.lightningnfc.card
 authors:
 - danny
-icon: paralelnipolis.lightningnfc.card.webp
 date: 2026-10-30
 website: https://www.paralelnipolis.cz/en/wallet/#deadLink
 social:

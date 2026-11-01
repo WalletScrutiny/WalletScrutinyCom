@@ -13,7 +13,6 @@ iphone:
   updated: 2026-06-19
   version: 4.15.0
   reviews: 5743
-  icon: com.coinex.trade.webp
   meta: removed
   verdict: wip
   developerName: Coinex Global Limited

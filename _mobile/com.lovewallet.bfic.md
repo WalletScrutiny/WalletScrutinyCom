@@ -10,7 +10,6 @@ android:
   released: 2022-04-12
   updated: 2022-04-13
   version: '1.0'
-  icon: com.lovewallet.bfic.webp
   meta: removed
   verdict: wip
 

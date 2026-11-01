@@ -10,7 +10,6 @@ android:
   updated: 2021-12-10
   version: '1.0'
   reviews: 25
-  icon: com.bitopapps.fanhukj.webp
   meta: removed
   verdict: wip
 

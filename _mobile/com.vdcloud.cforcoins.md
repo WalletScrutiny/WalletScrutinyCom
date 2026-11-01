@@ -15,7 +15,6 @@ android:
   released: 2018-05-13
   updated: 2020-05-13
   version: 2.7.0
-  icon: com.vdcloud.cforcoins.webp
   meta: removed
   verdict: custodial
   developerName: CforCoins

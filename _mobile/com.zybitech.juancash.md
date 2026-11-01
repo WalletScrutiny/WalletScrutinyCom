@@ -21,7 +21,6 @@ android:
   updated: 2024-08-05
   version: V2.0.3
   reviews: 3
-  icon: com.zybitech.juancash.webp
   meta: defunct
   verdict: custodial
   developerName: Zybi Tech Inc
@@ -33,7 +32,6 @@ iphone:
   updated: 2025-06-23
   version: 2.0.4
   reviews: 58
-  icon: com.zybitechinc.juanworld.webp
   meta: stale
   verdict: custodial
   developerName: ZYBI TECH, INC.

@@ -19,7 +19,6 @@ android:
   updated: 2020-07-29
   version: 1.3.1
   reviews: 70
-  icon: com.ccwalletapp.png
   meta: removed
   verdict: sourceavailable
   developerName: CoinCasso OU
@@ -31,7 +30,6 @@ iphone:
   updated: 2020-07-30
   version: '1.1'
   reviews: 17
-  icon: ccx.wallet.webp
   meta: removed
   verdict: sourceavailable
   repository: https://github.com/coincasso/ccwallet

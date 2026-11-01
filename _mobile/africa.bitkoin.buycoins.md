@@ -16,7 +16,6 @@ android:
   updated: 2021-04-16
   version: 5.6.0
   reviews: 433
-  icon: africa.bitkoin.buycoins.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -26,7 +25,6 @@ iphone:
   updated: 2021-04-17
   version: 5.6.0
   reviews: 46
-  icon: africa.bitkoin.buycoins.webp
   meta: removed
   verdict: custodial
 

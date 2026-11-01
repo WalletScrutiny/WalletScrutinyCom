@@ -10,7 +10,6 @@ android:
   released: 2020-09-08
   updated: 2022-08-24
   version: 1.3.12
-  icon: io.lunu.wallet.webp
   meta: removed
   verdict: wip
   developerName: Lunu Solutions GmbH

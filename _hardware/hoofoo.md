@@ -17,7 +17,6 @@ shop: https://hoofoo.io/products/hoofoo-hardware-wallet?variant=13765070225526#d
 country: US
 price: 289USD
 repository: 
-icon: hoofoo.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

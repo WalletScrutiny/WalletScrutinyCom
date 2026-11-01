@@ -22,7 +22,6 @@ android:
   updated: 2026-09-22
   version: 1.32.52
   reviews: 1
-  icon: cz.anycoin.mobile.webp
   meta: ok
   verdict: custodial
   developerName: MP Developers s.r.o.
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-10-12
   version: 1.32.57
   reviews: 97
-  icon: cz.anycoin.mobile.webp
   meta: ok
   verdict: custodial
   developerName: MP Developers s.r.o.

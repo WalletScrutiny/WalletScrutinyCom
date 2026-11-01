@@ -20,7 +20,6 @@ android:
   updated: 2026-03-27
   version: 4.4.0
   reviews: 71
-  icon: com.io.coinstore.webp
   meta: removed
   verdict: custodial
   developerName: CS- Coinstore
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-09-19
   version: 5.2.0
   reviews: 101
-  icon: com.coinstore.sg.webp
   meta: removed
   verdict: custodial
   developerName: COINSTORE PTE. LTD.

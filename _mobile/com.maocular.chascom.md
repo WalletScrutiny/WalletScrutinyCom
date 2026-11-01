@@ -10,7 +10,6 @@ android:
   released: 2022-05-05
   updated: 2022-05-05
   version: 1.0.0
-  icon: com.maocular.chascom.webp
   meta: removed
   verdict: wip
   developerName: Chascom

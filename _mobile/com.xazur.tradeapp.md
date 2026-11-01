@@ -9,7 +9,6 @@ android:
   users: 10
   updated: 2023-06-14
   version: 61.6.1
-  icon: com.xazur.tradeapp.webp
   meta: removed
   verdict: wip
   developerName: Xazur Digital

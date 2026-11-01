@@ -9,7 +9,6 @@ android:
   released: 2021-10-22
   updated: 2021-10-22
   version: 1.0.0
-  icon: com.suzaishu.universex.webp
   meta: removed
   verdict: wip
 

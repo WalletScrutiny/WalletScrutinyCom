@@ -10,7 +10,6 @@ android:
   released: 2021-11-01
   updated: 2021-11-01
   version: 1.0.0
-  icon: com.cloud.bitfirst.webp
   meta: removed
   verdict: wip
 

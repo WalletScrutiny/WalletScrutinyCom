@@ -13,7 +13,6 @@ android:
   updated: 2021-06-28
   version: '16'
   reviews: 15
-  icon: com.user.cglobank.webp
   meta: removed
   verdict: wip
 

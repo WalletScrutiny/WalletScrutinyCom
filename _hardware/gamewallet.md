@@ -20,7 +20,6 @@ shop:
 country: 
 price: 
 repository: https://github.com/UseKeyp/gamewallet
-icon: gamewallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor

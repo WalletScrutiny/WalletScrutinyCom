@@ -9,7 +9,6 @@ android:
   updated: 2021-02-23
   version: 1.0.1
   reviews: 14
-  icon: com.nbl.bitcoinbankapp.webp
   meta: removed
   verdict: wip
 

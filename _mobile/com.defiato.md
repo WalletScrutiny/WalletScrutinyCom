@@ -16,7 +16,6 @@ android:
   updated: 2023-01-18
   version: 1.2.9
   reviews: 5
-  icon: com.defiato.webp
   meta: removed
   verdict: custodial
   developerName: Beowulf Network Inc
@@ -28,7 +27,6 @@ iphone:
   updated: 2022-12-30
   version: 1.2.8
   reviews: 2
-  icon: com.defiato.webp
   meta: removed
   verdict: custodial
   developerName: Beowulf Network Inc

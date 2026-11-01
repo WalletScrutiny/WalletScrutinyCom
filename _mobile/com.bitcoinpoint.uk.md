@@ -10,7 +10,6 @@ android:
   released: 2022-04-28
   updated: 2023-10-08
   version: 6.4.6
-  icon: com.bitcoinpoint.uk.webp
   meta: removed
   verdict: wip
   developerName: BCP Technologies

@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: https://github.com/hynek-jina/lotes
-icon: 
 bugbounty: 
 meta: ok
 verdict: unreleased

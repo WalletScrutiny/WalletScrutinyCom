@@ -20,7 +20,6 @@ shop:
 country: US
 price: 10 USD to 20 USD / month (subscription)
 repository: 
-icon: bitfreezer.webp
 bugbounty: 
 meta: defunct
 verdict: wip

@@ -16,7 +16,6 @@ android:
   updated: 2026-08-06
   version: 4.3.6
   reviews: 3551
-  icon: com.bitwala.app.webp
   meta: ok
   verdict: nosource
   developerName: Bitwala
@@ -28,7 +27,6 @@ iphone:
   updated: 2026-08-07
   version: 4.3.6
   reviews: 4100
-  icon: com.bitwala.app.webp
   meta: ok
   verdict: nosource
   developerName: Bitwala

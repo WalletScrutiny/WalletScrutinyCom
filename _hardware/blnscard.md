@@ -17,7 +17,6 @@ shop: https://web.archive.org/web/20211202004340/http://18.158.244.64/waiting-li
 country: CH
 price: 
 repository: 
-icon: blnscard.webp
 bugbounty: 
 meta: ok
 verdict: vapor

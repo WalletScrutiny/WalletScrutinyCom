@@ -16,7 +16,6 @@ android:
   released: 2021-07-14
   updated: 2021-08-10
   version: 1.0.7
-  icon: com.lunespay.webp
   meta: removed
   verdict: nosource
   developerName: Lunes Platform

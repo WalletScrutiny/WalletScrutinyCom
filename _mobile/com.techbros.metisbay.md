@@ -10,7 +10,6 @@ android:
   released: 2020-12-18
   updated: 2021-01-12
   version: 1.0.1
-  icon: com.techbros.metisbay.webp
   meta: removed
   verdict: wip
   developerName: MetisBay

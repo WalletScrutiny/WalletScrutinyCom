@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-icon: icecase.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

@@ -13,7 +13,6 @@ android:
   updated: 2022-03-17
   version: '1.0'
   reviews: 7
-  icon: ee.swapp.idapp.webp
   meta: removed
   verdict: wip
   developerName: Marble Harp Technologies Inc

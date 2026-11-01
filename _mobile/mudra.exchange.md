@@ -20,7 +20,6 @@ android:
   released: 2022-02-04
   updated: 2024-05-24
   version: 1.4.21
-  icon: mudra.exchange.webp
   meta: removed
   verdict: custodial
   developerName: Mudra.Exchange
@@ -32,7 +31,6 @@ iphone:
   updated: 2024-05-25
   version: '1.6'
   reviews: 1
-  icon: app.mudraexchange.webp
   meta: removed
   verdict: custodial
   developerName: OCTOPUS INDUSTRIES INDIA PRIVATE LIMITED

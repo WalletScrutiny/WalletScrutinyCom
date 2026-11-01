@@ -10,7 +10,6 @@ android:
   released: 2021-03-25
   updated: 2021-03-25
   version: '1.06'
-  icon: cme.dpexbank.app.webp
   meta: removed
   verdict: wip
   developerName: nicolas moore

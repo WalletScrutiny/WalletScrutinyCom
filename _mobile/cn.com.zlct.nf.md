@@ -12,7 +12,6 @@ android:
   released: 2021-06-10
   updated: 2021-08-30
   version: 2.1.3
-  icon: cn.com.zlct.nf.webp
   meta: removed
   verdict: custodial
 

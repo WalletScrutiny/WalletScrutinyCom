@@ -20,7 +20,6 @@ shop: https://franckmullerencrypto.com/product/franck-muller-41mm-free-the-money
 country: 
 price: 12500CHF
 repository: 
-icon: vanguard.encrypto.webp
 bugbounty: 
 meta: ok
 verdict: noita

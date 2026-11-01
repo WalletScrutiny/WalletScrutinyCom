@@ -22,7 +22,6 @@ android:
   updated: 2025-08-18
   version: 6.2.0
   reviews: 14
-  icon: ventures.aag.metaone.webp
   meta: stale
   verdict: custodial
   developerName: ACHIP & ACHAIR GUILD VENTURES PTE. LTD.
@@ -34,7 +33,6 @@ iphone:
   updated: 2025-01-24
   version: 6.1.0
   reviews: 55
-  icon: com.aag.metaone.webp
   meta: removed
   verdict: custodial
   developerName: ACHIP & ACHAIR GUILD VENTURES PTE. LTD.

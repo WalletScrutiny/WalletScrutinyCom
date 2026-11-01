@@ -16,7 +16,6 @@ android:
   appCountry: us
   updated: 2025-08-06
   version: 1.3.0
-  icon: com.frt.globe.webp
   meta: stale
   verdict: custodial
   developerName: Globe Exchange
@@ -28,7 +27,6 @@ iphone:
   updated: 2023-03-14
   version: 1.0.14
   reviews: 0
-  icon: com.globeDerivativeTrading.globe.prod.webp
   meta: removed
   verdict: custodial
   developerName: Globe Derivative Trading Limited

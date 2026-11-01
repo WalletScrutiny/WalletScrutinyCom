@@ -16,7 +16,6 @@ android:
   updated: 2021-10-13
   version: '1.2'
   reviews: 186
-  icon: com.iqpandroidinterface.webp
   meta: removed
   verdict: obfuscated
 iphone:
@@ -26,7 +25,6 @@ iphone:
   updated: 2021-10-19
   version: '1.3'
   reviews: 3
-  icon: com.xtmcapital.iqwallet.webp
   meta: removed
   verdict: obfuscated
   developerName: XTM Capital Ltd

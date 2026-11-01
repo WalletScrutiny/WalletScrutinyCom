@@ -19,7 +19,6 @@ shop:
 country: US
 price: 244USD
 repository: 
-icon: exodus1s.webp
 bugbounty: 
 meta: discontinued
 verdict: nosource

@@ -9,7 +9,6 @@ android:
   released: 2021-05-31
   updated: 2021-05-31
   version: 1.0.0
-  icon: com.ironfx.exchange.webp
   meta: removed
   verdict: wip
   developerName: Notesco Limited

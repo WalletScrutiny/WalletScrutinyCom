@@ -19,7 +19,6 @@ android:
   updated: 2021-07-21
   version: 4.9.1
   reviews: 17
-  icon: com.biki.bikicoin.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -29,7 +28,6 @@ iphone:
   updated: 2021-07-22
   version: 4.9.2
   reviews: 16
-  icon: com.bikipro.exchange.webp
   meta: removed
   verdict: custodial
 

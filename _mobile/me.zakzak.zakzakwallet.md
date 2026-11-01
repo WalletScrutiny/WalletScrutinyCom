@@ -10,7 +10,6 @@ android:
   released: 2019-04-01
   updated: 2020-06-10
   version: '2.3'
-  icon: me.zakzak.zakzakwallet.webp
   meta: removed
   verdict: wip
   developerName: zakzak

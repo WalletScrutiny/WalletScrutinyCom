@@ -9,7 +9,6 @@ android:
   released: 2021-07-24
   updated: 2023-02-27
   version: 1.0.2
-  icon: com.hrghazali.buyandsellcryptocurrencyapp.webp
   meta: removed
   verdict: wip
   developerName: Islamic Books Urdu

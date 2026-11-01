@@ -12,7 +12,6 @@ provider: GhostWallet Global
 providerWebsite: 
 website: https://ghostwallet.io/Wallet
 repository: 
-icon: 
 bugbounty: 
 meta: ok
 verdict: nosource

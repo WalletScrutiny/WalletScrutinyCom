@@ -18,7 +18,6 @@ shop:
 country: 
 price: 
 repository: https://github.com/cantonbecker/bitcoinpaperwallet
-icon: bitcoinpaperwallet.webp
 bugbounty: 
 meta: discontinued
 verdict: plainkey

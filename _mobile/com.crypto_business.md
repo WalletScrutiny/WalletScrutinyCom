@@ -10,7 +10,6 @@ android:
   released: 2021-10-08
   updated: 2021-10-14
   version: '3.0'
-  icon: com.crypto_business.webp
   meta: removed
   verdict: wip
   developerName: The Cyber World

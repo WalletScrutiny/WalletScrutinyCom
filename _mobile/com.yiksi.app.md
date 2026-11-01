@@ -10,7 +10,6 @@ android:
   released: 2022-06-11
   updated: 2022-12-08
   version: 2.2.12
-  icon: com.yiksi.app.webp
   meta: removed
   verdict: wip
   developerName: Yiksi

@@ -18,7 +18,6 @@ android:
   updated: 2025-12-04
   version: 1.19.0
   reviews: 74
-  icon: com.coincatch.exchange.webp
   meta: removed
   verdict: custodial
   developerName: Linkbase Technology Limited
@@ -30,7 +29,6 @@ iphone:
   updated: 2025-12-10
   version: 1.19.0
   reviews: 172
-  icon: com.coincatch.global.webp
   meta: removed
   verdict: custodial
   developerName: Linkbase Technology Limited

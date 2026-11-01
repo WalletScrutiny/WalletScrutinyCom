@@ -19,7 +19,6 @@ android:
   released: 2022-06-15
   updated: 2024-12-26
   version: 1.24.0
-  icon: com.kickex.android.webp
   meta: removed
   verdict: custodial
   developerName: LLC KICK ECOSYSTEM GLOBAL
@@ -31,7 +30,6 @@ iphone:
   updated: 2024-09-15
   version: 1.9.7
   reviews: 5
-  icon: com.kickex.webp
   meta: removed
   verdict: custodial
   developerName: KICK ECOSYSTEM GLOBAL

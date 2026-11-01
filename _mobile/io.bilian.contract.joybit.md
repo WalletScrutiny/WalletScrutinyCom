@@ -10,7 +10,6 @@ android:
   released: 2022-07-04
   updated: 2022-07-08
   version: 1.0.1
-  icon: io.bilian.contract.joybit.webp
   meta: removed
   verdict: wip
   developerName: JOYBIT

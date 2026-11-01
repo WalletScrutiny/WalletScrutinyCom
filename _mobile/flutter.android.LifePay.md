@@ -21,7 +21,6 @@ android:
   released: 2022-09-21
   updated: 2025-08-25
   version: 2.4.8
-  icon: flutter.android.LifePay.webp
   alternativeStores:
   - zapstore
   meta: defunct
@@ -35,7 +34,6 @@ iphone:
   updated: 2025-08-07
   version: 2.4.7
   reviews: 0
-  icon: com.prominentwiselimited.lifpay.webp
   meta: stale
   verdict: custodial
   developerName: PROMINENTWISE LIMITED

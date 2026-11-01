@@ -22,7 +22,6 @@ android:
   updated: 2023-10-19
   version: 2.0.1
   reviews: 146
-  icon: xyz.mara.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Jara Wallet
@@ -34,7 +33,6 @@ iphone:
   updated: 2023-07-26
   version: 1.5.2
   reviews: 798
-  icon: xyz.mara.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Coinmara Inc

@@ -19,7 +19,6 @@ android:
   updated: 2026-09-17
   version: 4.11.0
   reviews: 11058
-  icon: cn.com.vau.webp
   meta: ok
   verdict: nosendreceive
   developerName: Vantage Global Prime PTY LTD
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-09-20
   version: 4.11.0
   reviews: 110
-  icon: com.vttech.VantageFX.webp
   meta: ok
   verdict: nosendreceive
   developerName: Vantage Global Prime PTY LTD

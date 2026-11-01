@@ -10,7 +10,6 @@ android:
   released: 2019-08-06
   updated: 2019-08-06
   version: 0.4.0
-  icon: io.melis.testlite.webp
   meta: removed
   verdict: wip
   developerName: Melis

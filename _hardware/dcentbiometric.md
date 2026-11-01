@@ -22,7 +22,6 @@ shop: https://store.dcentwallet.com/products/biometric-wallet
 country: KP
 price: 109USD
 repository: 
-icon: dcentbiometric.webp
 bugbounty: 
 meta: ok
 verdict: nosource

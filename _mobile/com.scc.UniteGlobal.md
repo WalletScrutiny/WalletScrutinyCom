@@ -9,7 +9,6 @@ android:
   released: 2019-08-08
   updated: 2019-08-08
   version: '1.0'
-  icon: com.scc.UniteGlobal.webp
   meta: removed
   verdict: wip
   developerName: SCC Co., Ltd.

@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-icon: skynance.skyport.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

@@ -22,7 +22,6 @@ android:
   updated: 2026-02-04
   version: 7.20.1
   reviews: 76
-  icon: com.bitfinex.mobileapp.webp
   meta: ok
   verdict: custodial
   developerName: Bitfinex
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-07-16
   version: 7.23.1
   reviews: 173
-  icon: com.bitfinex.bfxprod.webp
   meta: ok
   verdict: custodial
   developerName: Bitfinex

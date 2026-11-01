@@ -19,7 +19,6 @@ android:
   updated: 2026-09-09
   version: 1.5.8
   reviews: 261
-  icon: fm.fountain.apps.webp
   alternativeStores:
   - zapstore
   meta: ok
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-10-07
   version: 1.5.9
   reviews: 2
-  icon: fm.fountain.apps.webp
   meta: ok
   verdict: custodial
   developerName: Fountain Labs Ltd.

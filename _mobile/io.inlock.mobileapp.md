@@ -19,7 +19,6 @@ android:
   updated: 2023-04-01
   version: 2.1.1
   reviews: 6
-  icon: io.inlock.mobileapp.webp
   meta: removed
   verdict: custodial
   developerName: Variance HODLING Kft.
@@ -30,7 +29,6 @@ iphone:
   updated: 2022-11-08
   version: 2.1.0
   reviews: 6
-  icon: io.inlock.mobileapp.webp
   meta: removed
   verdict: custodial
   developerName: Variance HODLING Ltd

@@ -12,7 +12,6 @@ android:
   released: 2022-10-25
   updated: 2022-11-21
   version: '1.1'
-  icon: com.aelince.app.webp
   meta: removed
   verdict: wip
   developerName: Aelince Technologies

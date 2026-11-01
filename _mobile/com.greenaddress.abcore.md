@@ -16,7 +16,6 @@ android:
   users: 1000
   updated: 2019-10-16
   version: VARY
-  icon: com.greenaddress.abcore.webp
   playStore: removed
   alternativeStores:
   - fdroid

@@ -14,7 +14,6 @@ android:
   released: 2018-10-01
   updated: 2026-10-08
   version: 8.0.2
-  icon: com.rehivewallet.webp
   meta: ok
   verdict: custodial
   developerName: Rehive
@@ -26,7 +25,6 @@ iphone:
   updated: 2026-10-08
   version: 8.0.2
   reviews: 4
-  icon: com.rehive.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Rehive

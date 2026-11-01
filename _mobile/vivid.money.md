@@ -20,7 +20,6 @@ android:
   updated: 2026-10-13
   version: 4.49.0
   reviews: 8
-  icon: vivid.money.webp
   meta: ok
   verdict: nosendreceive
   developerName: Vivid Money GmbH
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-10-14
   version: 4.49.0
   reviews: 17
-  icon: com.vivid.money.webp
   meta: ok
   verdict: nosendreceive
   developerName: Vivid Money GmbH

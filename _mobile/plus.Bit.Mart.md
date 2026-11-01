@@ -9,7 +9,6 @@ android:
   released: 2022-07-23
   updated: 2023-06-13
   version: 1.0.0
-  icon: plus.Bit.Mart.webp
   meta: removed
   verdict: wip
   developerName: Eckles, Maurice John

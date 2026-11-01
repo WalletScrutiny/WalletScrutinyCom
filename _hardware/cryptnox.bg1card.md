@@ -17,7 +17,6 @@ shop: https://shop.cryptnox.com/
 country: CH
 price: 49CHF
 repository: https://github.com/Cryptnox-Software/cryptnoxpro
-icon: cryptnox.bg1card.webp
 bugbounty: 
 meta: ok
 verdict: noita

@@ -16,7 +16,6 @@ android:
   updated: 2026-09-30
   version: 6.3.0
   reviews: 4
-  icon: co.bacoor.keyring.webp
   meta: ok
   verdict: nosource
   developerName: bacoor inc.
@@ -28,7 +27,6 @@ iphone:
   updated: 2026-10-01
   version: 6.3.0
   reviews: 11
-  icon: co.bacoor.keyring.webp
   meta: ok
   verdict: nosource
   developerName: bacoor Inc.

@@ -12,7 +12,6 @@ android:
   released: 2018-08-31
   updated: 2020-09-04
   version: 2.1.6
-  icon: com.xpesa.trade.webp
   meta: removed
   verdict: wip
   developerName: Xpesa Limited

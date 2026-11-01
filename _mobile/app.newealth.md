@@ -11,7 +11,6 @@ android:
   released: 2021-01-06
   updated: 2021-04-16
   version: 1.2.1
-  icon: app.newealth.webp
   meta: removed
   verdict: wip
   developerName: newealth
@@ -23,7 +22,6 @@ iphone:
   updated: 2021-04-17
   version: 1.2.1
   reviews: 0
-  icon: app.newealth.webp
   meta: removed
   verdict: wip
   developerName: Newealth (Pty) Ltd

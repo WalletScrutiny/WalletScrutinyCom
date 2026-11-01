@@ -21,7 +21,6 @@ android:
   updated: 2023-07-07
   version: 2.8.7
   reviews: 207
-  icon: com.pundix.xwallet.webp
   meta: defunct
   verdict: custodial
   developerName: Pundi X Labs
@@ -33,7 +32,6 @@ iphone:
   updated: 2020-12-29
   version: 2.9.4
   reviews: 85
-  icon: com.pundix.wallet.webp
   meta: defunct
   verdict: custodial
   developerName: PUNDI X LABS

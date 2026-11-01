@@ -15,7 +15,6 @@ android:
   updated: 2022-02-15
   version: 4.9.11
   reviews: 43
-  icon: com.beeone.techbank.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -25,7 +24,6 @@ iphone:
   updated: 2024-01-12
   version: 1.0.62
   reviews: 25
-  icon: com.Techbank.Beeone.webp
   meta: removed
   verdict: custodial
   developerName: BEE INTERNATIONAL CONSULTANCY PRIVATE LIMITED

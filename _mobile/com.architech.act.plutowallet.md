@@ -10,7 +10,6 @@ android:
   released: 2019-03-26
   updated: 2019-04-19
   version: '1.1'
-  icon: com.architech.act.plutowallet.webp
   meta: removed
   verdict: wip
   developerName: ARMADILLO CYBER TECH Co.Ltd

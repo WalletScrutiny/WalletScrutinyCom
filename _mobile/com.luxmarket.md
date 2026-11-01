@@ -9,7 +9,6 @@ android:
   released: 2021-01-11
   updated: 2021-11-07
   version: 1.0.3
-  icon: com.luxmarket.webp
   meta: removed
   verdict: wip
   developerName: Xomelia

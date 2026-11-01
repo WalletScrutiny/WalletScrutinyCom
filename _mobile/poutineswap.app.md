@@ -10,7 +10,6 @@ android:
   released: 2022-01-06
   updated: 2022-02-04
   version: 1.0.2
-  icon: poutineswap.app.webp
   meta: removed
   verdict: wip
   developerName: Poutineswap

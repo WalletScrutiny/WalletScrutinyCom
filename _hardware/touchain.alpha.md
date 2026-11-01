@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-icon: touchain.alpha.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

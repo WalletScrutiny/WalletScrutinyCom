@@ -23,7 +23,6 @@ android:
   updated: 2026-05-22
   version: 4.7.9
   reviews: 6
-  icon: io.rapidz.rapidzpay.webp
   meta: removed
   verdict: custodial
   developerName: Rapidz Pay Inc
@@ -35,7 +34,6 @@ iphone:
   updated: 2026-02-01
   version: 4.4.3
   reviews: 2
-  icon: io.rapidz.rapidzpayios.webp
   meta: removed
   verdict: custodial
   developerName: UAB Rapidz Pay

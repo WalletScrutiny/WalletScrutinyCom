@@ -17,7 +17,6 @@ shop:
 country: CA
 price: 
 repository: 
-icon: jaxxicecube.webp
 bugbounty: 
 meta: ok
 verdict: vapor

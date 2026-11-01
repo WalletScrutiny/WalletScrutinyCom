@@ -18,7 +18,6 @@ android:
   updated: 2022-06-27
   version: 1.5.10
   reviews: 3
-  icon: com.hebeblock.hebewallet.webp
   meta: removed
   verdict: nosource
   developerName: HebeBlock
@@ -29,7 +28,6 @@ iphone:
   updated: 2022-06-28
   version: 1.5.0
   reviews: 12
-  icon: com.hebeblock.hebewallet.webp
   meta: removed
   verdict: nosource
   developerName: Hebeblock Co., Ltd.

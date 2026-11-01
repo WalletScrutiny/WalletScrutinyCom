@@ -10,7 +10,6 @@ android:
   released: 2020-12-13
   updated: 2021-01-18
   version: 1.0.1
-  icon: com.secuxtech.spaymerchanttool.webp
   meta: removed
   verdict: wip
   developerName: SecuX

@@ -17,7 +17,6 @@ android:
   updated: 2026-04-23
   version: 3.11.12
   reviews: 49
-  icon: co.zoomex.app.webp
   meta: removed
   verdict: custodial
   developerName: Zoomex
@@ -29,7 +28,6 @@ iphone:
   updated: 2024-07-01
   version: 3.7.11
   reviews: 24
-  icon: co.zoomex.app.webp
   meta: removed
   verdict: custodial
   developerName: Octochain Fintech Limited

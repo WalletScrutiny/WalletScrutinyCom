@@ -18,7 +18,6 @@ android:
   released: 2018-04-04
   updated: 2022-03-10
   version: 2.5.8
-  icon: com.unodax.exchange.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -28,7 +27,6 @@ iphone:
   updated: 2021-06-23
   version: 1.3.4
   reviews: 0
-  icon: com.unodax.exchange.webp
   meta: removed
   verdict: custodial
   developerName: Unocoin Technologies Private Limited

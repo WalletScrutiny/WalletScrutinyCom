@@ -12,7 +12,6 @@ android:
   updated: 2024-12-16
   version: 1.0.15
   reviews: 16
-  icon: xyz.getjara.webp
   meta: stale
   verdict: wip
   developerName: Jara Team

@@ -12,7 +12,6 @@ android:
   updated: 2019-02-14
   version: 5.3.5
   reviews: 7
-  icon: com.uni.uniexchange.webp
   meta: removed
   verdict: wip
 

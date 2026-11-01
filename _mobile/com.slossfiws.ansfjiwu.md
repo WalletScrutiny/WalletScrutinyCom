@@ -9,7 +9,6 @@ android:
   released: 2022-03-24
   updated: 2022-03-24
   version: '2.1'
-  icon: com.slossfiws.ansfjiwu.webp
   meta: removed
   verdict: wip
 

@@ -12,7 +12,6 @@ provider:
 providerWebsite: 
 website: https://atomicwallet.io/
 repository: 
-icon: atomic.webp
 bugbounty: 
 meta: ok
 verdict: nosource

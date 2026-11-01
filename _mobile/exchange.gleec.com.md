@@ -18,7 +18,6 @@ android:
   released: 2021-02-17
   updated: 2026-02-17
   version: 1.41.0
-  icon: exchange.gleec.com.webp
   meta: ok
   verdict: custodial
   developerName: Gleec Pay OU
@@ -30,7 +29,6 @@ iphone:
   updated: 2026-09-08
   version: 1.45.0
   reviews: 0
-  icon: dev.com.gleecexchange.app.webp
   meta: ok
   verdict: custodial
   developerName: Gleec-BTC OU

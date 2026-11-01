@@ -9,7 +9,6 @@ android:
   released: 2022-04-08
   updated: 2022-05-12
   version: '1.23'
-  icon: com.myneogroup.neotrade.webp
   meta: removed
   verdict: wip
 

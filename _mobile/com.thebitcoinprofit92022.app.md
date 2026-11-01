@@ -9,7 +9,6 @@ android:
   released: 2022-07-25
   updated: 2022-07-25
   version: '1.0'
-  icon: com.thebitcoinprofit92022.app.webp
   meta: removed
   verdict: wip
   developerName: SHIVRAM

@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-icon: keywalletclassic.webp
 bugbounty: 
 meta: discontinued
 verdict: wip

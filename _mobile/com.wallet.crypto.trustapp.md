@@ -24,7 +24,6 @@ android:
   updated: 2026-10-13
   version: 26.41.13
   reviews: 21584
-  icon: com.wallet.crypto.trustapp.webp
   meta: ok
   verdict: nosource
   developerName: DApps Platform, Inc.
@@ -36,7 +35,6 @@ iphone:
   updated: 2026-10-13
   version: 26.41.13
   reviews: 199120
-  icon: com.sixdays.trust.webp
   meta: ok
   verdict: nosource
   developerName: DApps Platform Software Services Ltd.

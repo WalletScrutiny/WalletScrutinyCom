@@ -19,7 +19,6 @@ android:
   updated: 2025-09-26
   version: 2.1.0
   reviews: 5106
-  icon: com.mobillium.btcturk.webp
   meta: removed
   verdict: custodial
   developerName: BTCTURK KRIPTO VARLIK ALIM SATIM PLATFORMU
@@ -30,7 +29,6 @@ iphone:
   updated: 2025-09-29
   version: 2.1.0
   reviews: 26309
-  icon: com.mobillium.btcturk.webp
   meta: removed
   verdict: custodial
   developerName: BTCTURK KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI

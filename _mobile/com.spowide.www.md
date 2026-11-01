@@ -12,7 +12,6 @@ android:
   released: 2019-10-17
   updated: 2020-01-30
   version: 1.0.4
-  icon: com.spowide.www.webp
   meta: removed
   verdict: wip
   developerName: spowide

@@ -12,7 +12,6 @@ provider: Nix Bitcoin
 providerWebsite: 
 website: https://nixbitcoin.org/
 repository: https://github.com/fort-nix/nix-bitcoin
-icon: nixbitcoin.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

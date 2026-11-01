@@ -21,7 +21,6 @@ android:
   updated: 2026-05-12
   version: 2.0.0
   reviews: 0
-  icon: com.btc.trustless.webp
   playStore: removed
   meta: ok
   verdict: custodial
@@ -35,7 +34,6 @@ iphone:
   updated: 2026-10-10
   version: 3.2.3
   reviews: 1
-  icon: com.btc.trustless.webp
   meta: fewusers
   verdict: custodial
   developerName: Igor Kruglov

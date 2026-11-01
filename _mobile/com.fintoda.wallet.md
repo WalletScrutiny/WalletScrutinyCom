@@ -8,7 +8,6 @@ android:
   users: 10
   updated: 2021-08-02
   version: Varies with device
-  icon: com.fintoda.wallet.webp
   meta: removed
   verdict: wip
 

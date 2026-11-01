@@ -11,7 +11,6 @@ android:
   released: 2021-04-16
   updated: 2021-05-24
   version: 1.0.8
-  icon: com.p2pchallenger.webp
   meta: removed
   verdict: wip
   developerName: P2P Options

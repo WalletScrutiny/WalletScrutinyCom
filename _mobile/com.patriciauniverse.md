@@ -20,7 +20,6 @@ android:
   updated: 2023-11-20
   version: '1.2'
   reviews: 23
-  icon: com.patriciauniverse.webp
   meta: removed
   verdict: custodial
   developerName: Patricia Technologies
@@ -32,7 +31,6 @@ iphone:
   updated: 2023-11-21
   version: '1.2'
   reviews: 107
-  icon: com.patriciauniverse.app.webp
   meta: removed
   verdict: custodial
   developerName: Patricia Technologies Limited

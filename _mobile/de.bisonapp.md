@@ -19,7 +19,6 @@ android:
   updated: 2026-09-25
   version: 5.6.0
   reviews: 3
-  icon: de.bisonapp.webp
   meta: ok
   verdict: custodial
   developerName: Boerse Stuttgart Digital Broker GmbH
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-09-30
   version: 5.6.0
   reviews: 2
-  icon: com.bisonapp.bison.webp
   meta: ok
   verdict: custodial
   developerName: Boerse Stuttgart Digital Broker GmbH

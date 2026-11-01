@@ -10,7 +10,6 @@ android:
   updated: 2018-05-03
   version: 1.0.89
   reviews: 38
-  icon: io.proxycard.proxy.webp
   meta: removed
   verdict: wip
 

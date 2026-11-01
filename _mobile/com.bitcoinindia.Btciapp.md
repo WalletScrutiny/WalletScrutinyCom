@@ -19,7 +19,6 @@ android:
   updated: 2021-07-29
   version: 3.1.45
   reviews: 963
-  icon: com.bitcoinindia.Btciapp.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -29,7 +28,6 @@ iphone:
   updated: 2021-07-30
   version: 3.1.45
   reviews: 1
-  icon: com.bitcoinindia.Btciapp.webp
   meta: removed
   verdict: custodial
 

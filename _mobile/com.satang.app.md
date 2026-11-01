@@ -10,7 +10,6 @@ android:
   released: 2019-08-07
   updated: 2021-02-18
   version: 1.5.3
-  icon: com.satang.app.webp
   meta: removed
   verdict: wip
   developerName: Satang Corporation

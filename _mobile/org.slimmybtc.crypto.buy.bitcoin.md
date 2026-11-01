@@ -9,7 +9,6 @@ android:
   released: 2021-07-18
   updated: 2021-07-18
   version: '1.0'
-  icon: org.slimmybtc.crypto.buy.bitcoin.webp
   meta: removed
   verdict: wip
 

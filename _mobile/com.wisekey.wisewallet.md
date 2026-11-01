@@ -10,7 +10,6 @@ android:
   released: 2018-04-23
   updated: 2020-10-28
   version: 1.1.1
-  icon: com.wisekey.wisewallet.webp
   meta: removed
   verdict: wip
   developerName: WISeKey

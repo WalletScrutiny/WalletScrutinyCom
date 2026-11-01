@@ -19,7 +19,6 @@ android:
   updated: 2026-10-09
   version: 5.72.0
   reviews: 479635
-  icon: com.squareup.cash.webp
   meta: ok
   verdict: custodial
   developerName: Block, Inc.
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-10-13
   version: 5.73.0
   reviews: 8753378
-  icon: com.squareup.cash.webp
   meta: ok
   verdict: custodial
   developerName: Block, Inc.

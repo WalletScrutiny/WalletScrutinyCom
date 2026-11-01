@@ -22,7 +22,6 @@ android:
   updated: 2026-09-24
   version: 10.7.1
   reviews: 7
-  icon: com.credits.Wallet.webp
   meta: ok
   verdict: custodial
   developerName: SECURITY AND EXCHANGE INTERNATIONAL CO INC.
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-10-12
   version: 3.5.0
   reviews: 0
-  icon: com.credits.CryptoWallet.webp
   meta: ok
   verdict: custodial
   developerName: SECURITY AND EXCHANGE INTERNATIONAL CO INC.

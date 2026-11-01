@@ -14,7 +14,6 @@ android:
   updated: 2021-04-12
   version: '1.28'
   reviews: 1287
-  icon: com.bitshield.bitshieldwallet.webp
   meta: removed
   verdict: nosource
 

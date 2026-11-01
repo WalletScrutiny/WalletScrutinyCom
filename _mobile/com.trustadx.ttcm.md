@@ -9,7 +9,6 @@ android:
   released: 2022-02-11
   updated: 2022-02-13
   version: '2.0'
-  icon: com.trustadx.ttcm.webp
   meta: removed
   verdict: wip
 

@@ -10,7 +10,6 @@ android:
   released: 2021-05-14
   updated: 2021-05-21
   version: '1.1'
-  icon: com.gatepos.webp
   meta: removed
   verdict: wip
   developerName: IT Mercury Cash

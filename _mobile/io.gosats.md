@@ -16,7 +16,6 @@ android:
   updated: 2026-10-07
   version: 3.1.5
   reviews: 5
-  icon: io.gosats.webp
   meta: ok
   verdict: custodial
   developerName: Saffron Technologies Pte Ltd
@@ -28,7 +27,6 @@ iphone:
   updated: 2026-10-08
   version: 3.1.5
   reviews: 949
-  icon: io.gosats.webp
   meta: ok
   verdict: custodial
   developerName: Saffron Technologies Pte Ltd

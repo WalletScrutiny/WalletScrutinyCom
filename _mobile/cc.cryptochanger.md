@@ -10,7 +10,6 @@ android:
   updated: 2018-02-19
   version: '0.4'
   reviews: 20
-  icon: cc.cryptochanger.webp
   meta: removed
   verdict: wip
 

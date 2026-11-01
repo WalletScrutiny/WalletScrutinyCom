@@ -20,7 +20,6 @@ shop: https://axiomcrypto.com/index.php/shop/
 country: US
 price: 5.99USD
 repository: 
-icon: axiomcrypto.webp
 bugbounty: 
 meta: ok
 verdict: prefilled

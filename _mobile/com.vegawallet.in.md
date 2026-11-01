@@ -18,7 +18,6 @@ android:
   updated: 2020-07-02
   version: 3.2.3
   reviews: 5
-  icon: com.vegawallet.in.webp
   meta: removed
   verdict: nosource
   developerName: Vegawallet
@@ -29,7 +28,6 @@ iphone:
   updated: 2020-11-06
   version: '3.3'
   reviews: 9
-  icon: com.vegawallet.in.webp
   meta: removed
   verdict: nosource
   developerName: VegaWallet

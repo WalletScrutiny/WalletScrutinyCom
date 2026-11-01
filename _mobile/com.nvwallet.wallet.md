@@ -11,7 +11,6 @@ android:
   released: 2024-12-27
   updated: 2026-04-18
   version: 0.1.1
-  icon: com.nvwallet.wallet.webp
   meta: ok
   verdict: wip
   developerName: Aegea Holdings

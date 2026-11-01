@@ -22,7 +22,6 @@ android:
   updated: 2025-03-19
   version: '3.45'
   reviews: 12
-  icon: com.buyucoinApp.buyucoin.webp
   meta: stale
   verdict: custodial
   developerName: Iblock Technologies Private Limited
@@ -34,7 +33,6 @@ iphone:
   updated: 2023-02-13
   version: '1.33'
   reviews: 958
-  icon: com.buyucoin.webp
   meta: obsolete
   verdict: custodial
   developerName: iBlock Technologies Private Limited

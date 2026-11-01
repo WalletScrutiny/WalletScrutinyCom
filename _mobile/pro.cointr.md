@@ -22,7 +22,6 @@ android:
   updated: 2024-07-27
   version: 2.4.13
   reviews: 56
-  icon: pro.cointr.webp
   meta: removed
   verdict: custodial
   developerName: CoinTR pro
@@ -34,7 +33,6 @@ iphone:
   updated: 2024-08-21
   version: 2.4.14
   reviews: 14
-  icon: vip.trcoin.global.webp
   meta: removed
   verdict: custodial
   developerName: CoinTR

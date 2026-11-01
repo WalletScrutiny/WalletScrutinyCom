@@ -19,7 +19,6 @@ android:
   updated: 2022-06-27
   version: 5.2.0
   reviews: 1750
-  icon: network.celsius.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Celsius Network Crypto Wallet
@@ -30,7 +29,6 @@ iphone:
   updated: 2023-09-08
   version: v5.2.0
   reviews: 2518
-  icon: network.celsius.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Celsius Network

@@ -15,7 +15,6 @@ android:
   updated: 2026-09-28
   version: 1.3.6
   reviews: 27
-  icon: io.noah.pro.webp
   meta: ok
   verdict: custodial
   developerName: bitradex

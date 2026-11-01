@@ -22,7 +22,6 @@ shop: https://web.archive.org/web/20211026011641/https://shop.hyperpay.tech/coll
 country: HK
 price: 229USD
 repository: https://github.com/hyperpayorg/hardwallet
-icon: hypermatepro.webp
 bugbounty: 
 meta: ok
 verdict: nosource

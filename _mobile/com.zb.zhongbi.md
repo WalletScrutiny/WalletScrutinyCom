@@ -13,7 +13,6 @@ android:
   updated: 2021-03-05
   version: 1.1.4
   reviews: 100
-  icon: com.zb.zhongbi.webp
   meta: removed
   verdict: wip
 

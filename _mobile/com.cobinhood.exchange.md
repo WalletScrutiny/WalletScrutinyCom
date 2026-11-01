@@ -15,7 +15,6 @@ android:
   updated: 2019-04-29
   version: 3.50.1
   reviews: 118
-  icon: com.cobinhood.exchange.webp
   meta: removed
   verdict: custodial
   developerName: COBINHOOD, Ltd.

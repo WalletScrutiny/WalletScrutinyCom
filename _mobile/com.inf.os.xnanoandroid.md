@@ -10,7 +10,6 @@ android:
   released: 2020-12-04
   updated: 2020-10-08
   version: '4.0'
-  icon: com.inf.os.xnanoandroid.webp
   meta: removed
   verdict: wip
   developerName: XB Soluções Digitais

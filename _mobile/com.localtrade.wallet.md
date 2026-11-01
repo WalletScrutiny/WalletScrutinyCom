@@ -10,7 +10,6 @@ android:
   released: 2022-05-18
   updated: 2022-06-29
   version: '1.2'
-  icon: com.localtrade.wallet.webp
   meta: removed
   verdict: wip
 

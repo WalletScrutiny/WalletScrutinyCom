@@ -12,7 +12,6 @@ android:
   released: 2020-11-07
   updated: 2020-11-07
   version: 0.0.1
-  icon: com.digibot99.dgb.webp
   meta: removed
   verdict: wip
   developerName: Smart Crypto Studio

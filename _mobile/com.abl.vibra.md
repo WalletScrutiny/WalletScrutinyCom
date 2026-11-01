@@ -19,7 +19,6 @@ android:
   updated: 2023-06-29
   version: 1.6.90
   reviews: 5
-  icon: com.abl.vibra.webp
   meta: removed
   verdict: custodial
   developerName: Vibra Africa
@@ -31,7 +30,6 @@ iphone:
   updated: 2023-06-16
   version: 1.6.82
   reviews: 31
-  icon: com.abl.vibra.webp
   meta: removed
   verdict: custodial
   developerName: ABL Management Limited

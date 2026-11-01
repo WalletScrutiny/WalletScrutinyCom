@@ -24,7 +24,6 @@ android:
   updated: 2026-02-12
   version: 1.15.0
   reviews: 213
-  icon: app.frwt.wallet.webp
   meta: ok
   verdict: nosource
   developerName: FRWLT LLC - Non-Custodial Wallet

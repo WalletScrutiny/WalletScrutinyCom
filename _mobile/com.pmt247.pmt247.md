@@ -10,7 +10,6 @@ android:
   released: 2019-10-02
   updated: 2019-10-02
   version: 1.0.1
-  icon: com.pmt247.pmt247.webp
   meta: removed
   verdict: wip
   developerName: PMT247

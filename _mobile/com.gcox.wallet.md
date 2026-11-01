@@ -12,7 +12,6 @@ android:
   released: 2018-11-05
   updated: 2020-10-29
   version: 1.0.6
-  icon: com.gcox.wallet.webp
   meta: removed
   verdict: wip
   developerName: GCOX

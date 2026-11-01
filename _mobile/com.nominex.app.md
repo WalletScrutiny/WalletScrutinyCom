@@ -19,7 +19,6 @@ android:
   updated: 2021-12-13
   version: 1.4.0
   reviews: 38
-  icon: com.nominex.app.webp
   meta: removed
   verdict: custodial
   developerName: Nominex Ltd.
@@ -30,7 +29,6 @@ iphone:
   updated: 2022-06-23
   version: 1.4.1
   reviews: 32
-  icon: com.nominex.app.webp
   meta: removed
   verdict: custodial
   developerName: Nominex Limited

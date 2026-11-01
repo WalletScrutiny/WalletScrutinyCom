@@ -21,7 +21,6 @@ android:
   updated: 2025-08-06
   version: 1.4.10
   reviews: 57
-  icon: com.pilab.pockie.webp
   meta: stale
   verdict: nosource
   developerName: PiLab Technology
@@ -33,7 +32,6 @@ iphone:
   updated: 2025-08-11
   version: 1.4.10
   reviews: 10
-  icon: com.pilab.pockie.webp
   meta: stale
   verdict: nosource
   developerName: PiLab Co.,Ltd

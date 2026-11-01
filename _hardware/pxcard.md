@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-icon: pxcard.webp
 bugbounty: 
 meta: discontinued
 verdict: noita

@@ -20,7 +20,6 @@ android:
   updated: 2026-10-13
   version: '1.80'
   reviews: 2
-  icon: com.revolut.revolutx.webp
   meta: ok
   verdict: custodial
   developerName: Revolut Ltd
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-10-07
   version: '1.80'
   reviews: 3127
-  icon: com.revolut.revolutx.webp
   meta: ok
   verdict: custodial
   developerName: Revolut Ltd

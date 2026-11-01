@@ -17,7 +17,6 @@ iphone:
   updated: 2020-11-11
   version: 1.6.4
   reviews: 0
-  icon: com.extolab.extowallet.webp
   meta: removed
   verdict: nosource
 

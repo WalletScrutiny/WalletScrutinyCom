@@ -13,7 +13,6 @@ android:
   updated: 2022-12-19
   version: '42.5'
   reviews: 33
-  icon: com.app.cryptobiz.webp
   meta: removed
   verdict: custodial
   developerName: Cryptobiz Exchange

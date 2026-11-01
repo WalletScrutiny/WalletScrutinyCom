@@ -26,7 +26,6 @@ android:
   updated: 2026-05-15
   version: 1.8.7
   reviews: 5
-  icon: org.ecoinwallet.webp
   meta: ok
   verdict: nosource
   developerName: Ecoin Ecosystem LTDA

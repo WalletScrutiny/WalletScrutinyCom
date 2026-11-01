@@ -17,7 +17,6 @@ shop:
 country: US
 price: 
 repository: https://github.com/joltwallet/jolt_wallet
-icon: jolt.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

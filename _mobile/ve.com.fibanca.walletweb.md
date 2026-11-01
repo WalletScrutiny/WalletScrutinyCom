@@ -10,7 +10,6 @@ android:
   released: 2019-06-28
   updated: 2019-06-28
   version: '1.1'
-  icon: ve.com.fibanca.walletweb.webp
   meta: removed
   verdict: wip
   developerName: Fibanca

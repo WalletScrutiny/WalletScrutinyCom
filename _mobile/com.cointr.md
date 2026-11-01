@@ -21,7 +21,6 @@ android:
   updated: 2026-09-27
   version: 3.38.1
   reviews: 8
-  icon: com.cointr.webp
   meta: ok
   verdict: custodial
   developerName: CoinTR
@@ -33,7 +32,6 @@ iphone:
   updated: 2023-11-28
   version: 2.1.1
   reviews: 4
-  icon: com.cointr.webp
   meta: removed
   verdict: custodial
   developerName: COINTR FINTECH FINANSAL DANISMANLIK LIMITED SIRKETI

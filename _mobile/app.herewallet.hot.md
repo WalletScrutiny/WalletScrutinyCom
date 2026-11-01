@@ -24,7 +24,6 @@ android:
   updated: 2025-06-15
   version: '1.0'
   reviews: 70
-  icon: app.herewallet.hot.webp
   meta: stale
   verdict: nosource
   developerName: HERE Wallet
@@ -36,7 +35,6 @@ iphone:
   updated: 2026-01-15
   version: 1.0.3
   reviews: 47
-  icon: app.here.dev.wallet.webp
   meta: ok
   verdict: nosource
   developerName: HERE Wallet, Inc

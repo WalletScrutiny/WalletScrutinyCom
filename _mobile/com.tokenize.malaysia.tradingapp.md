@@ -17,7 +17,6 @@ android:
   updated: 2021-06-23
   version: 1.15.2
   reviews: 87
-  icon: com.tokenize.malaysia.tradingapp.webp
   meta: removed
   verdict: custodial
 

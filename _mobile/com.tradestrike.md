@@ -31,7 +31,6 @@ android:
   updated: 2025-11-13
   version: 4.2.8
   reviews: 26
-  icon: com.tradestrike.webp
   meta: ok
   verdict: nosource
   developerName: TradestrikeBVI
@@ -43,7 +42,6 @@ iphone:
   updated: 2025-11-17
   version: '20.04'
   reviews: 234
-  icon: com.strikeXWallet.webp
   meta: ok
   verdict: nosource
   developerName: StrikeXWallet

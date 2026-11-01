@@ -10,7 +10,6 @@ android:
   released: 2021-05-12
   updated: 2021-05-12
   version: '1.0'
-  icon: com.app.conv5049zapx.webp
   meta: removed
   verdict: wip
   developerName: zapX

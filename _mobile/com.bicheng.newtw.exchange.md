@@ -10,7 +10,6 @@ android:
   released: 2020-06-04
   updated: 2021-03-02
   version: 1.2.1
-  icon: com.bicheng.newtw.exchange.webp
   meta: removed
   verdict: wip
   developerName: BI CHENG TECHNOLOGY CO., LTD.

@@ -19,7 +19,6 @@ android:
   updated: 2022-03-18
   version: 4.18.0
   reviews: 1433
-  icon: com.breadwallet.webp
   meta: removed
   verdict: nosource
   developerName: breadwallet
@@ -32,7 +31,6 @@ iphone:
   updated: 2022-03-23
   version: 4.18.0
   reviews: 12160
-  icon: org.voisine.breadwallet.webp
   meta: defunct
   verdict: nosource
   developerName: breadwallet LLC

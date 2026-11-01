@@ -9,7 +9,6 @@ android:
   released: 2019-04-07
   updated: 2019-11-15
   version: 1.0.9
-  icon: com.cryptorabbit.cryptorabbit.webp
   meta: removed
   verdict: wip
   developerName: sat.ldt12.12

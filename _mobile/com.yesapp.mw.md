@@ -13,7 +13,6 @@ android:
   released: 2022-10-11
   updated: 2023-03-05
   version: 11.3.10
-  icon: com.yesapp.mw.webp
   meta: removed
   verdict: custodial
   developerName: MW KOP

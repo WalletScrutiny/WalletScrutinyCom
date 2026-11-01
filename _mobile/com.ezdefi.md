@@ -18,7 +18,6 @@ android:
   updated: 2021-09-08
   version: 0.3.9
   reviews: 13
-  icon: com.ezdefi.webp
   meta: removed
   verdict: nosource
   developerName: LaunchZone
@@ -29,7 +28,6 @@ iphone:
   updated: 2022-01-17
   version: 0.4.1
   reviews: 19
-  icon: com.ezdefi.nexty.webp
   meta: removed
   verdict: nosource
   developerName: EZDEFI DECENTRALIZED APPS

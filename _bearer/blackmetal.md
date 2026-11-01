@@ -17,7 +17,6 @@ shop: https://cryptocards.store/product/metal-crypto-wallet#deadLink
 country: NL
 price: 25EUR
 repository: 
-icon: blackmetal.webp
 bugbounty: 
 meta: discontinued
 verdict: prefilled

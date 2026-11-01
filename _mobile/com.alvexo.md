@@ -18,7 +18,6 @@ android:
   updated: 2023-11-07
   version: 3.0.188
   reviews: 21
-  icon: com.alvexo.webp
   meta: removed
   verdict: nosendreceive
   developerName: Alvexo
@@ -30,7 +29,6 @@ iphone:
   updated: 2023-10-03
   version: 3.3.118
   reviews: 1
-  icon: com.alvexo.mobile.tt.webp
   meta: removed
   verdict: nosendreceive
   developerName: Alvexo

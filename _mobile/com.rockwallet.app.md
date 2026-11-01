@@ -23,7 +23,6 @@ android:
   updated: 2025-09-08
   version: 5.17.8
   reviews: 288
-  icon: com.rockwallet.app.webp
   meta: removed
   verdict: nosource
   developerName: RockWallet
@@ -36,7 +35,6 @@ iphone:
   updated: 2025-09-15
   version: 5.17.8
   reviews: 801
-  icon: com.rockwallet.app.webp
   meta: removed
   verdict: sourceavailable
   developerName: RockWallet, LLC

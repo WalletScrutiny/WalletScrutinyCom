@@ -21,7 +21,6 @@ android:
   updated: 2021-11-08
   version: 3.6.3
   reviews: 97
-  icon: io.eidoo.wallet.prodnet.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -31,7 +30,6 @@ iphone:
   updated: 2021-11-08
   version: 3.6.3
   reviews: 78
-  icon: io.eidoo.wallet.prodnet.webp
   meta: removed
   verdict: nosource
 

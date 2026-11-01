@@ -13,7 +13,6 @@ android:
   updated: 2021-03-10
   version: 1.9.3
   reviews: 121
-  icon: com.admiral.webp
   meta: removed
   verdict: wip
   developerName: Admiral Option Limited

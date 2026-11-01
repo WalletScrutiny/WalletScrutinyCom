@@ -11,7 +11,6 @@ android:
   released: 2019-10-22
   updated: 2020-07-31
   version: 1.16.0
-  icon: com.QuickX.webp
   meta: removed
   verdict: wip
 

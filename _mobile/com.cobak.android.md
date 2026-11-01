@@ -18,7 +18,6 @@ android:
   released: 2018-03-08
   updated: 2024-08-28
   version: 1.43.48
-  icon: com.cobak.android.webp
   meta: removed
   verdict: custodial
   developerName: 코박
@@ -29,7 +28,6 @@ iphone:
   updated: 2025-02-07
   version: 1.8.36
   reviews: 17
-  icon: co.cobak.cobak.webp
   meta: removed
   verdict: custodial
   developerName: COBAK CO., LTD.

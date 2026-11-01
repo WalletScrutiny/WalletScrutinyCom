@@ -12,7 +12,6 @@ provider: Panteam Ltd.
 providerWebsite: http://panteam.net#deadLink
 website: 
 repository: https://github.com/panteam-net/pt.BTC
-icon: 
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable

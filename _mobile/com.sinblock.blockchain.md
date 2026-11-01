@@ -19,7 +19,6 @@ android:
   updated: 2026-01-26
   version: 1.0.5
   reviews: 8
-  icon: com.sinblock.blockchain.webp
   meta: removed
   verdict: custodial
   developerName: Acebitx PTE.LTD.

@@ -10,7 +10,6 @@ android:
   released: 2021-11-10
   updated: 2021-11-10
   version: 1.0.0
-  icon: com.cryptohome.android.ab.webp
   meta: removed
   verdict: wip
   developerName: The cryptohome

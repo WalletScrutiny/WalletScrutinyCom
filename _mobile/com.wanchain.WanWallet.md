@@ -20,7 +20,6 @@ android:
   updated: 2021-04-25
   version: '5.0'
   reviews: 11
-  icon: com.wanchain.WanWallet.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -31,7 +30,6 @@ iphone:
   updated: 2022-07-27
   version: '6.0'
   reviews: 24
-  icon: org.wanchain.WanWallet.webp
   meta: removed
   verdict: nosource
   developerName: Wanchain LTD

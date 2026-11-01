@@ -15,7 +15,6 @@ android:
   updated: 2021-05-26
   version: 1.3.1
   reviews: 63
-  icon: com.bbx.bmtc.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -24,7 +23,6 @@ iphone:
   released: 2020-12-01
   updated: 2021-05-27
   version: 1.3.1
-  icon: com.bbx.bbx.webp
   meta: removed
   verdict: custodial
 

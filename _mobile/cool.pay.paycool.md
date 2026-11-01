@@ -15,7 +15,6 @@ android:
   updated: 2024-03-04
   version: 2.5.163
   reviews: 3
-  icon: cool.pay.paycool.webp
   meta: removed
   verdict: custodial
   developerName: Exchangily LLC
@@ -27,7 +26,6 @@ iphone:
   updated: 2024-03-05
   version: 2.5.163
   reviews: 16
-  icon: cool.pay.paycool.webp
   meta: removed
   verdict: custodial
   developerName: Exchangily LLC

@@ -16,7 +16,6 @@ android:
   updated: 2021-08-07
   version: VARY
   reviews: 11
-  icon: com.profittrading.forkraken.webp
   meta: removed
   verdict: custodial
   developerName: ProfitTradingApp

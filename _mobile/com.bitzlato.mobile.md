@@ -12,7 +12,6 @@ android:
   users: 10000
   updated: 2023-01-12
   version: 5.5.2
-  icon: com.bitzlato.mobile.webp
   meta: removed
   verdict: wip
   developerName: Bitzlato ltd.
@@ -24,7 +23,6 @@ iphone:
   updated: 2023-01-13
   version: 5.5.2
   reviews: 0
-  icon: com.bitzlato.mobile.webp
   meta: removed
   verdict: wip
   developerName: BITZLATO LIMITED

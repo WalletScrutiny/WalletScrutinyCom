@@ -18,7 +18,6 @@ android:
   updated: 2023-04-11
   version: 1.4.33
   reviews: 1606
-  icon: io.hotbit.shouyi.webp
   meta: removed
   verdict: custodial
   developerName: Hotbit Technology Limited
@@ -29,7 +28,6 @@ iphone:
   updated: 2022-10-12
   version: 1.4.13
   reviews: 718
-  icon: io.chainbase.global.webp
   meta: removed
   verdict: custodial
   developerName: Chainbase Co.,Ltd.

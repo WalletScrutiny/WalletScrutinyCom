@@ -20,7 +20,6 @@ android:
   released: 2022-02-17
   updated: 2024-11-16
   version: 1.1.41
-  icon: com.sonicwallet.webp
   meta: removed
   verdict: nosource
   developerName: Sonic Inc
@@ -32,7 +31,6 @@ iphone:
   updated: 2023-12-12
   version: '3.2'
   reviews: 2
-  icon: com.sonicwallet.webp
   meta: removed
   verdict: nosource
   developerName: Sonic Wallet

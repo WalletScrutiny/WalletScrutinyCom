@@ -21,7 +21,6 @@ android:
   updated: 2026-05-13
   version: 6.8.2
   reviews: 173
-  icon: com.newgo.coincola.webp
   meta: removed
   verdict: custodial
   developerName: CoinCola Limited
@@ -32,7 +31,6 @@ iphone:
   updated: 2022-07-01
   version: 4.8.13
   reviews: 245
-  icon: com.coincola.beta.webp
   meta: removed
   verdict: custodial
 

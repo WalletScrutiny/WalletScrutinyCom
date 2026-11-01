@@ -10,7 +10,6 @@ android:
   released: 2020-05-05
   updated: 2020-05-05
   version: v1.0.6
-  icon: com.iqcash.wallet.webp
   meta: removed
   verdict: wip
 

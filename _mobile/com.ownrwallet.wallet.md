@@ -21,7 +21,6 @@ android:
   updated: 2026-09-19
   version: 2.2.3
   reviews: 106
-  icon: com.ownrwallet.wallet.webp
   meta: ok
   verdict: nosource
   developerName: OWNR WALLET OU
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-06-25
   version: 2.2.0
   reviews: 115
-  icon: com.ownrwallet.wallet.webp
   meta: ok
   verdict: nosource
   developerName: OWNR WALLET OU

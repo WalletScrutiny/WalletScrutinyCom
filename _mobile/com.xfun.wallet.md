@@ -19,7 +19,6 @@ android:
   updated: 2024-04-24
   version: 2.0.4
   reviews: 12
-  icon: com.xfun.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Funtech Ltd
@@ -31,7 +30,6 @@ iphone:
   updated: 2023-07-20
   version: 2.0.1
   reviews: 3
-  icon: com.xfun.wallet.webp
   meta: obsolete
   verdict: nosource
   developerName: XFUN

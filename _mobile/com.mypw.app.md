@@ -10,7 +10,6 @@ android:
   released: 2019-07-22
   updated: 2019-08-12
   version: 1.0.7
-  icon: com.mypw.app.webp
   meta: removed
   verdict: wip
   developerName: Blockchain Dev

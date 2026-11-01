@@ -9,7 +9,6 @@ android:
   released: 2021-09-01
   updated: 2021-09-01
   version: 5.3.10
-  icon: com.startfinish.crypto.webp
   meta: removed
   verdict: wip
 

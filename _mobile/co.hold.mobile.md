@@ -19,7 +19,6 @@ android:
   updated: 2022-07-26
   version: 3.15.1
   reviews: 9
-  icon: co.hold.mobile.webp
   meta: removed
   verdict: custodial
   developerName: HOLD Platform Limited
@@ -30,7 +29,6 @@ iphone:
   updated: 2022-07-26
   version: 3.15.1
   reviews: 21
-  icon: co.hold.mobile.webp
   meta: removed
   verdict: custodial
   developerName: Hold

@@ -12,7 +12,6 @@ provider:
 providerWebsite: 
 website: https://openbazaar.org
 repository: https://github.com/OpenBazaar/openbazaar-desktop
-icon: openbazaar.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable

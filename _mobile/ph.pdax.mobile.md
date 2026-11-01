@@ -20,7 +20,6 @@ android:
   updated: 2026-10-08
   version: 14.15.4
   reviews: 3759
-  icon: ph.pdax.mobile.webp
   meta: ok
   verdict: custodial
   developerName: PDAX (Philippine Digital Asset Exchange)
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-09-27
   version: 14.15.1
   reviews: 1058
-  icon: ph.pdax.mobile.webp
   meta: ok
   verdict: custodial
   developerName: Philippine Digital Asset Exchange (PDAX), Inc.

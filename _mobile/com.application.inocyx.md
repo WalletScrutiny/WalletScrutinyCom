@@ -25,7 +25,6 @@ android:
   released: 2022-11-16
   updated: 2026-08-24
   version: 1.80.84
-  icon: com.application.inocyx.webp
   meta: ok
   verdict: custodial
   developerName: INOCYX
@@ -37,7 +36,6 @@ iphone:
   updated: 2026-08-25
   version: '6.0'
   reviews: 17
-  icon: com.app.Inocyx.webp
   meta: ok
   verdict: custodial
   developerName: Inocyx technologies private limited

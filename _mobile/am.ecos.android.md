@@ -19,7 +19,6 @@ android:
   updated: 2026-10-02
   version: 3.4.4
   reviews: 335
-  icon: am.ecos.android.webp
   meta: ok
   verdict: custodial
   developerName: ECOS CJSC
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-10-05
   version: 3.4.4
   reviews: 304
-  icon: am.ecos.ios.production.webp
   meta: ok
   verdict: custodial
   developerName: Ecos am

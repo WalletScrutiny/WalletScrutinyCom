@@ -15,7 +15,6 @@ android:
   users: 1000
   updated: 2021-05-11
   version: Varies with device
-  icon: com.lastbit.lite.webp
   meta: removed
   verdict: custodial
 

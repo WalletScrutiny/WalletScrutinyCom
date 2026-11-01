@@ -17,7 +17,6 @@ android:
   updated: 2025-08-14
   version: 1.68.0
   reviews: 64
-  icon: me.cryptopay.android.webp
   meta: removed
   verdict: custodial
   developerName: Cryptopay Ltd
@@ -28,7 +27,6 @@ iphone:
   updated: 2025-08-18
   version: 1.79.1
   reviews: 340
-  icon: me.cryptopay.app.webp
   meta: removed
   verdict: custodial
   developerName: Cryptopay

@@ -9,7 +9,6 @@ android:
   released: 2021-10-03
   updated: 2021-10-03
   version: '1.0'
-  icon: com.galax.vap.webp
   meta: removed
   verdict: wip
   developerName: daniel oliver

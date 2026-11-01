@@ -18,7 +18,6 @@ android:
   updated: 2022-10-31
   version: 3.3.7
   reviews: 89
-  icon: com.aax.exchange.webp
   meta: removed
   verdict: custodial
   developerName: AAX

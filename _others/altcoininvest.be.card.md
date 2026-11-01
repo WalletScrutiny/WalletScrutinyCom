@@ -3,7 +3,6 @@ title: AltcoinInvest.Be Card
 appId: altcoininvest.be.card
 authors:
 - danny
-icon: altcoininvest.be.card.webp
 date: 2026-10-30
 website: https://www.kickstarter.com/projects/1363677689/simple-yet-brilliant-safe-multi-crypto-currency-co#
 provider: Frederic Exelmans

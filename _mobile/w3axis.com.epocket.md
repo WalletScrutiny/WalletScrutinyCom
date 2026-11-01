@@ -19,7 +19,6 @@ android:
   updated: 2026-10-01
   version: '3.62'
   reviews: 2
-  icon: w3axis.com.epocket.webp
   meta: ok
   verdict: custodial
   developerName: e-Pocket Pty Ltd
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-10-13
   version: 3.4.12
   reviews: 40
-  icon: com.live.epocket.webp
   meta: ok
   verdict: custodial
   developerName: e-Pocket Pty Ltd

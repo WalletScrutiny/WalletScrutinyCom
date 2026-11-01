@@ -21,7 +21,6 @@ android:
   updated: 2026-03-20
   version: 10.0.96
   reviews: 62
-  icon: com.coinw.win.webp
   meta: removed
   verdict: custodial
   developerName: CoinW.SGP
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-09-20
   version: 10.1.33
   reviews: 126
-  icon: com.coinwapp.legend.webp
   meta: ok
   verdict: custodial
   developerName: COINW SP Z O O

@@ -17,7 +17,6 @@ shop:
 country: US
 price: 499CHF
 repository: 
-icon: wisekey.wiswatch.webp
 bugbounty: 
 meta: ok
 verdict: vapor

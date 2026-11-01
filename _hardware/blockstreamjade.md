@@ -24,7 +24,6 @@ shop: https://store.blockstream.com/products/blockstream-jade-hardware-wallet
 country: CA
 price: 79USD
 repository: https://github.com/Blockstream/jade
-icon: blockstreamjade.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

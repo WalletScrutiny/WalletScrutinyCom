@@ -20,7 +20,6 @@ shop: https://secuxtech.com/products/secux-w20-series
 country: TW
 price: 99USD
 repository: https://github.com/secuxtech/SecuXMCU
-icon: secuxw20cplus.webp
 bugbounty: 
 meta: ok
 verdict: nosource

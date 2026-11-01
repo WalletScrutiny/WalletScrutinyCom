@@ -10,7 +10,6 @@ android:
   released: 2022-01-07
   updated: 2022-11-30
   version: '1.8'
-  icon: me.coinbag.webp
   meta: removed
   verdict: wip
   developerName: TechPay

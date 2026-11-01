@@ -3,7 +3,6 @@ title: Liquality Chrome Extension
 appId: ext.liquality
 authors:
 - danny
-icon: ext.liquality.webp
 date: 2026-10-30
 released: 2020-04-09
 updated: 2023-06-01

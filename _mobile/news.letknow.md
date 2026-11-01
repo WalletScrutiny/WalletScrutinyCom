@@ -10,7 +10,6 @@ android:
   released: 2018-04-27
   updated: 2020-01-13
   version: '0.7'
-  icon: news.letknow.webp
   meta: removed
   verdict: wip
 

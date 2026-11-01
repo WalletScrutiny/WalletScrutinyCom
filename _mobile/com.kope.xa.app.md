@@ -9,7 +9,6 @@ android:
   released: 2023-04-21
   updated: 2023-04-22
   version: '1.0'
-  icon: com.kope.xa.app.webp
   meta: removed
   verdict: wip
   developerName: Venners   Vernon Shaw

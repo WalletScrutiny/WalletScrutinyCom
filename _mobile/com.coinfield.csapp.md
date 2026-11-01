@@ -19,7 +19,6 @@ android:
   updated: 2022-12-19
   version: 3.1.5
   reviews: 118
-  icon: com.coinfield.csapp.webp
   meta: removed
   verdict: custodial
   developerName: CoinField
@@ -30,7 +29,6 @@ iphone:
   updated: 2022-12-20
   version: 3.1.5
   reviews: 555
-  icon: com.coinfield.csapp.webp
   meta: removed
   verdict: custodial
   developerName: MANTICORE LABS OÜ

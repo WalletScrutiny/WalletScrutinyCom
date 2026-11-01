@@ -12,7 +12,6 @@ android:
   updated: 2018-12-08
   version: Varies with device
   reviews: 2
-  icon: org.zupago.pe.webp
   meta: removed
   verdict: wip
 

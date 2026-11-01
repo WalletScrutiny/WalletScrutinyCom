@@ -22,7 +22,6 @@ android:
   updated: 2026-10-01
   version: 3.106.0
   reviews: 191
-  icon: com.valar.pintu.webp
   meta: ok
   verdict: custodial
   developerName: Pintu Crypto
@@ -33,7 +32,6 @@ iphone:
   updated: 2022-10-31
   version: 3.22.0
   reviews: 58
-  icon: com.valar.pintu.webp
   meta: removed
   verdict: custodial
   appCountry: id

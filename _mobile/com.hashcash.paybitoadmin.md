@@ -9,7 +9,6 @@ android:
   released: 2022-06-16
   updated: 2023-05-12
   version: 1.0.11
-  icon: com.hashcash.paybitoadmin.webp
   meta: removed
   verdict: wip
   developerName: Hashcash Consultants LLC

@@ -10,7 +10,6 @@ android:
   released: 2022-03-07
   updated: 2022-05-25
   version: '1.0'
-  icon: com.swiftywallet.webp
   meta: removed
   verdict: wip
   developerName: Swifty Global

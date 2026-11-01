@@ -12,7 +12,6 @@ android:
   released: 2021-01-07
   updated: 2022-07-06
   version: 1.2.1
-  icon: com.sinance.exchange.webp
   meta: removed
   verdict: wip
   developerName: Sinance Developer

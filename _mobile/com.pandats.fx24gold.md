@@ -10,7 +10,6 @@ android:
   released: 2020-12-17
   updated: 2020-12-23
   version: 1.0.2
-  icon: com.pandats.fx24gold.webp
   meta: removed
   verdict: wip
   developerName: F24Pro

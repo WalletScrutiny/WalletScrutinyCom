@@ -10,7 +10,6 @@ android:
   released: 2022-11-13
   updated: 2025-11-10
   version: '3.0'
-  icon: com.archgroup.kswappay.webp
   meta: removed
   verdict: wip
   developerName: Kswap Limited

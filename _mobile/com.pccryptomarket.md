@@ -12,7 +12,6 @@ android:
   released: 2019-08-18
   updated: 2019-08-31
   version: '1.2'
-  icon: com.pccryptomarket.webp
   meta: removed
   verdict: wip
   developerName: PC Crypto Market

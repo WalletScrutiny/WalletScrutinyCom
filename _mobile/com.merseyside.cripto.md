@@ -12,7 +12,6 @@ android:
   updated: 2021-02-12
   version: '1.34'
   reviews: 3
-  icon: com.merseyside.cripto.webp
   meta: removed
   verdict: fake
   developerName: Mersey Software

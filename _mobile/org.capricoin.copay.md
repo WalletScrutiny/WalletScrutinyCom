@@ -10,7 +10,6 @@ android:
   released: 2020-05-14
   updated: 2020-07-06
   version: 5.5.5
-  icon: org.capricoin.copay.webp
   meta: removed
   verdict: wip
   developerName: Programio DMCC LLC

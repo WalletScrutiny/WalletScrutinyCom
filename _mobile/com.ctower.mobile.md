@@ -10,7 +10,6 @@ android:
   released: 2020-07-17
   updated: 2020-08-20
   version: 1.0.6
-  icon: com.ctower.mobile.webp
   meta: removed
   verdict: wip
 

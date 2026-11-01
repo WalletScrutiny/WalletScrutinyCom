@@ -20,7 +20,6 @@ android:
   released: 2022-04-11
   updated: 2025-07-24
   version: 1.3.90
-  icon: com.yibiexchange.app.webp
   meta: removed
   verdict: custodial
   developerName: YIBI
@@ -32,7 +31,6 @@ iphone:
   updated: 2024-05-14
   version: 1.1.9
   reviews: 3
-  icon: com.yibi.webp
   meta: removed
   verdict: custodial
   developerName: YIBI LTD

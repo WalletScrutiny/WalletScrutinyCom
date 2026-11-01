@@ -18,7 +18,6 @@ shop:
 country: JP
 price: 
 repository: 
-icon: pockebit.smartwallet.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

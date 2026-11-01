@@ -10,7 +10,6 @@ android:
   released: 2022-03-29
   updated: 2022-06-22
   version: 2.4.6
-  icon: com.application.easyexchangrpro.webp
   meta: removed
   verdict: wip
   developerName: EasyExchangePro

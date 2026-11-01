@@ -10,7 +10,6 @@ android:
   updated: 2022-09-12
   version: '1.4'
   reviews: 2
-  icon: com.boulpik.token.webp
   meta: removed
   verdict: wip
   developerName: Boulpik Trading LLC

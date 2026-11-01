@@ -12,7 +12,6 @@ android:
   released: 2019-10-02
   updated: 2022-11-28
   version: 1.24.74
-  icon: io.polybius.osom.webp
   meta: removed
   verdict: wip
   developerName: Polybius Tech OÜ

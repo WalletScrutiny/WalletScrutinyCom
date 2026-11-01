@@ -9,7 +9,6 @@ android:
   released: 2022-07-20
   updated: 2022-07-20
   version: '1.0'
-  icon: com.skgcryptocurrencyapp.webp
   meta: removed
   verdict: wip
   developerName: Swatantra kumar goswami

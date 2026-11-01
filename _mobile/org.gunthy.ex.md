@@ -10,7 +10,6 @@ android:
   released: 2021-01-12
   updated: 2021-01-14
   version: 1.26.0
-  icon: org.gunthy.ex.webp
   meta: removed
   verdict: wip
   developerName: Gunthy LTD

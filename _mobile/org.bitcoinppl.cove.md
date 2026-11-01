@@ -14,7 +14,6 @@ android:
   released: 2026-02-12
   updated: 2026-07-15
   version: 1.3.0
-  icon: org.bitcoinppl.cove.webp
   alternativeStores:
   - zapstore
   meta: fewusers
@@ -28,7 +27,6 @@ iphone:
   updated: 2026-07-16
   version: 1.3.0
   reviews: 23
-  icon: org.bitcoinppl.cove.webp
   meta: ok
   verdict: wip
   developerName: InfraOps LLC

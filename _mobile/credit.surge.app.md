@@ -12,7 +12,6 @@ android:
   updated: 2026-10-05
   version: 1.0.15
   reviews: 5
-  icon: credit.surge.app.webp
   meta: ok
   verdict: custodial
   developerName: Amby, Inc.
@@ -24,7 +23,6 @@ iphone:
   updated: 2026-10-10
   version: 1.0.15
   reviews: 5
-  icon: credit.surge.app.webp
   meta: ok
   verdict: custodial
   developerName: Surge Credit

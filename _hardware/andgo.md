@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-icon: andgo.webp
 bugbounty: 
 meta: ok
 verdict: vapor

@@ -22,7 +22,6 @@ android:
   updated: 2024-01-23
   version: 2.9.8
   reviews: 7
-  icon: io.changex.app.webp
   meta: removed
   verdict: nosource
   developerName: ChangeX
@@ -34,7 +33,6 @@ iphone:
   updated: 2023-12-20
   version: 2.10.1
   reviews: 11
-  icon: io.changex.app.webp
   meta: obsolete
   verdict: nosource
   developerName: Olympus Capital AD

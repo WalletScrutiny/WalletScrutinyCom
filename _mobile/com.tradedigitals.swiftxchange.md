@@ -10,7 +10,6 @@ android:
   released: 2021-09-16
   updated: 2021-09-16
   version: '1.0'
-  icon: com.tradedigitals.swiftxchange.webp
   meta: removed
   verdict: wip
   developerName: Awootech

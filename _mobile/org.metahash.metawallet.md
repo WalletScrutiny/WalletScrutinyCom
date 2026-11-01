@@ -9,7 +9,6 @@ android:
   users: 1000
   updated: 2018-11-14
   version: VARY
-  icon: org.metahash.metawallet.webp
   meta: removed
   verdict: wip
   developerName: MetaHash AG

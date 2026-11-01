@@ -12,7 +12,6 @@ provider: Lolli, Inc.
 providerWebsite: 
 website: https://www.lolli.com
 repository: 
-icon: lolli.webp
 bugbounty: 
 meta: ok
 verdict: custodial

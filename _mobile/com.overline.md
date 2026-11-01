@@ -19,7 +19,6 @@ android:
   updated: 2021-09-16
   version: '1.1'
   reviews: 4
-  icon: com.overline.webp
   meta: removed
   verdict: nosource
   developerName: American Centurion Group, Inc.
@@ -31,7 +30,6 @@ iphone:
   updated: 2022-01-08
   version: '1.17'
   reviews: 10
-  icon: com.americancenturiongroup.borderless.webp
   meta: removed
   verdict: nosource
   developerName: American Centurion Group, Inc.

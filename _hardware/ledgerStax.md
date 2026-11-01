@@ -20,7 +20,6 @@ shop: https://shop.ledger.com/products/ledger-stax
 country: FR
 price: 360USD
 repository: 
-icon: ledgerStax.webp
 bugbounty: 
 meta: ok
 verdict: nosource

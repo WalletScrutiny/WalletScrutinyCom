@@ -10,7 +10,6 @@ android:
   updated: 2018-08-10
   version: 1.1.1
   reviews: 9
-  icon: com.cmlatte.bitpre.webp
   meta: removed
   verdict: wip
 

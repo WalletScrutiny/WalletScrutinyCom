@@ -16,7 +16,6 @@ android:
   appCountry: us
   updated: 2026-09-03
   version: 3.0.10
-  icon: io.chainex.app.webp
   meta: ok
   verdict: custodial
   developerName: Lunatech (Pty) Ltd

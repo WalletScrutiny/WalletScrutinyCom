@@ -19,7 +19,6 @@ android:
   updated: 2023-03-09
   version: 12.9.24
   reviews: 44
-  icon: com.coincloud.walletpreview.webp
   meta: removed
   verdict: nosource
   developerName: Coin Cloud
@@ -31,7 +30,6 @@ iphone:
   updated: 2022-08-25
   version: 12.9.27
   reviews: 50
-  icon: com.coincloud.walletpreview.webp
   meta: removed
   verdict: nosource
   developerName: Coin Cloud

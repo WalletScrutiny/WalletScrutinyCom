@@ -18,7 +18,6 @@ android:
   released: 2020-03-23
   updated: 2022-02-16
   version: '1.9'
-  icon: com.alt5pro.droidapp.webp
   meta: removed
   verdict: custodial
   developerName: Alt 5 Pro

@@ -19,7 +19,6 @@ android:
   updated: 2022-09-27
   version: 1.2.5
   reviews: 1
-  icon: com.phemex.turkey.webp
   meta: removed
   verdict: custodial
   developerName: Phemex TR
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-05-28
   version: 5.19.0
   reviews: 36
-  icon: com.phemex.tr.webp
   meta: ok
   verdict: custodial
   developerName: PHEMEX TURKEY TEKNOLOJİ LİMİTED ŞİRKETİ

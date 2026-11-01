@@ -10,7 +10,6 @@ android:
   released: 2020-12-12
   updated: 2020-12-12
   version: '1.0'
-  icon: com.omptradingcapital.app.webp
   meta: removed
   verdict: wip
   developerName: OMP Trading Capital

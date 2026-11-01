@@ -12,7 +12,6 @@ provider: Foundation Devices
 providerWebsite: 
 website: https://bitcoiner.guide/seed/
 repository: https://github.com/BitcoinQnA/seedtool
-icon: 
 bugbounty: 
 meta: ok
 verdict: sourceavailable

@@ -12,7 +12,6 @@ android:
   updated: 2023-10-26
   version: 1.1.4
   reviews: 10
-  icon: com.milesblue.milesblue.webp
   meta: obsolete
   verdict: wip
   developerName: Miles.Blue Inc

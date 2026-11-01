@@ -20,7 +20,6 @@ android:
   updated: 2026-10-09
   version: 5.0.1
   reviews: 5034
-  icon: com.kubi.kucoin.webp
   meta: ok
   verdict: custodial
   developerName: Kugame Global Limited
@@ -31,7 +30,6 @@ iphone:
   updated: 2024-05-20
   version: 3.109.0
   reviews: 26462
-  icon: com.kucoin.KuCoin.iOS.webp
   meta: removed
   verdict: custodial
   developerName: Kucoin Technology Co.,Ltd.

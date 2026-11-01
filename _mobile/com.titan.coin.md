@@ -19,7 +19,6 @@ android:
   updated: 2021-12-22
   version: 2.51.0
   reviews: 6
-  icon: com.titan.coin.webp
   meta: removed
   verdict: custodial
   developerName: TitanProjects
@@ -30,7 +29,6 @@ iphone:
   updated: 2021-12-23
   version: 1.28.0
   reviews: 3
-  icon: com.coin.titan.webp
   meta: removed
   verdict: custodial
   developerName: Enfetter Technologies Services Private Limited

@@ -11,7 +11,6 @@ android:
   released: 2022-05-12
   updated: 2022-05-20
   version: '2.0'
-  icon: com.nonadirect.webp
   meta: obsolete
   verdict: wip
   developerName: EasyBill Power Network

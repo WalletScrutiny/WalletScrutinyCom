@@ -20,7 +20,6 @@ android:
   released: 2019-10-17
   updated: 2026-05-23
   version: 3.16.2-retail
-  icon: com.moneybrain.moneybrain.webp
   meta: removed
   verdict: custodial
   developerName: Moneybrain LTD
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-05-25
   version: 3.16.2
   reviews: 10
-  icon: com.moneybrain.moneybrain.webp
   meta: ok
   verdict: custodial
   developerName: Moneybrain LTD

@@ -19,7 +19,6 @@ android:
   updated: 2026-09-25
   version: 6.1.38
   reviews: 720
-  icon: com.bitrue.currency.exchange.webp
   meta: ok
   verdict: custodial
   developerName: Bitrue Support
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-09-28
   version: 6.1.38
   reviews: 1124
-  icon: com.cmcm.currency.exchange.webp
   meta: ok
   verdict: custodial
   developerName: StraLink Innovations Technologies Limitada

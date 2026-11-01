@@ -10,7 +10,6 @@ android:
   released: 2017-08-19
   updated: 2017-10-23
   version: '5.0'
-  icon: kr.coinprice.coinprice.webp
   meta: removed
   verdict: wip
   developerName: Edmund.J

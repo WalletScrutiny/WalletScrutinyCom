@@ -10,7 +10,6 @@ android:
   released: 2022-01-09
   updated: 2022-05-04
   version: '1.86'
-  icon: com.mns.gdxwallet.webp
   meta: removed
   verdict: wip
   developerName: GDX

@@ -26,7 +26,6 @@ shop: https://shop.cypherock.com/
 country: IN
 price: 199USD
 repository: https://github.com/Cypherock/x1_wallet_firmware
-icon: cypherockx1.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

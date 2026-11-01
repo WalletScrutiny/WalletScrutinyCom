@@ -20,7 +20,6 @@ shop: https://www.gethashwallet.com/buy
 country: ES
 price: 149EUR
 repository: 
-icon: esignus.hashwallet.link.webp
 bugbounty: 
 meta: ok
 verdict: noita

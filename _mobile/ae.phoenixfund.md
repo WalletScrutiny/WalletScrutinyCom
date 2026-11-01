@@ -14,7 +14,6 @@ android:
   released: 2021-01-29
   updated: 2022-04-12
   version: 1.1.4
-  icon: ae.phoenixfund.webp
   meta: removed
   verdict: wip
   developerName: PLAN A WEB DESIGN

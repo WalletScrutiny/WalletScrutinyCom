@@ -8,7 +8,6 @@ android:
   users: 10
   updated: 2019-06-18
   version: VARY
-  icon: quanterall.com.cryptoexchange.webp
   meta: removed
   verdict: wip
   developerName: Quanterall

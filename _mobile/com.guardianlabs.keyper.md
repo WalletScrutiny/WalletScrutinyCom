@@ -11,7 +11,6 @@ android:
   released: 2022-08-06
   updated: 2024-11-05
   version: 2.3.0
-  icon: com.guardianlabs.keyper.webp
   meta: removed
   verdict: wip
   developerName: Guardian Labs

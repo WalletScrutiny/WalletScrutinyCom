@@ -10,7 +10,6 @@ android:
   updated: 2021-10-09
   version: 1.2.6
   reviews: 3
-  icon: com.abitnetwork.abitpay.webp
   meta: removed
   verdict: wip
 

@@ -18,7 +18,6 @@ android:
   appCountry: us
   updated: 2026-05-06
   version: 1.7.0
-  icon: com.app.freedx.prod.webp
   meta: removed
   verdict: custodial
   developerName: Freedx
@@ -30,7 +29,6 @@ iphone:
   updated: 2026-04-15
   version: 1.6.0
   reviews: 2
-  icon: com.freedx.app.prod.webp
   meta: removed
   verdict: custodial
   developerName: Freedx

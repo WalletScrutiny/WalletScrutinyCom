@@ -10,7 +10,6 @@ android:
   released: 2022-06-05
   updated: 2022-06-16
   version: '1.3'
-  icon: skeleton.skeletonwallet.webp
   meta: removed
   verdict: wip
   developerName: Defiskeleton

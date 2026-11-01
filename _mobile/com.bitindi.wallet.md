@@ -10,7 +10,6 @@ android:
   released: 2022-09-28
   updated: 2022-09-29
   version: 0.1.0
-  icon: com.bitindi.wallet.webp
   meta: removed
   verdict: wip
   developerName: Bitindi Blockchain

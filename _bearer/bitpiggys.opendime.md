@@ -17,7 +17,6 @@ shop: https://web.archive.org/web/20220518153314/https://www.bitpiggys.com/
 country: 
 price: 
 repository: 
-icon: bitpiggys.opendime.webp
 bugbounty: 
 meta: discontinued
 verdict: sealed-plainkey

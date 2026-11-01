@@ -14,7 +14,6 @@ android:
   released: 2020-05-12
   updated: 2022-02-10
   version: 1.2.6
-  icon: com.application.changecoin.webp
   meta: removed
   verdict: custodial
   developerName: Changecoins
@@ -25,7 +24,6 @@ iphone:
   updated: 2022-02-18
   version: 1.2.6
   reviews: 2
-  icon: pay.changecoins.webp
   meta: removed
   verdict: custodial
   developerName: Changecoins

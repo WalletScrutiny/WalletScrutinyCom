@@ -11,7 +11,6 @@ android:
   released: 2023-01-11
   updated: 2023-03-09
   version: '0.6'
-  icon: com.molnike.crypto.simplesign.webp
   meta: obsolete
   verdict: wip
   developerName: Mol Nike

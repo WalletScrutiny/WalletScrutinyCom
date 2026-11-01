@@ -14,7 +14,6 @@ android:
   released: 2024-05-20
   updated: 2024-05-20
   version: '1.0'
-  icon: co.vaultex.wallet.webp
   meta: defunct
   verdict: custodial
   developerName: Vaultex Ltd
@@ -26,7 +25,6 @@ iphone:
   updated: 2024-08-14
   version: '1.1'
   reviews: 0
-  icon: co.vaultex.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Vaultex Ltd

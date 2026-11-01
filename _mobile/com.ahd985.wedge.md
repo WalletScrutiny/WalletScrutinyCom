@@ -19,7 +19,6 @@ android:
   updated: 2023-04-04
   version: 1.4.3
   reviews: 19
-  icon: com.ahd985.wedge.webp
   meta: removed
   verdict: custodial
   developerName: Wedge Financial, Inc.
@@ -31,7 +30,6 @@ iphone:
   updated: 2023-04-19
   version: 1.4.3
   reviews: 59
-  icon: com.ahd985.wedge.webp
   meta: removed
   verdict: custodial
   developerName: Wedge Financial, Inc

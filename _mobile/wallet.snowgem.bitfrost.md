@@ -10,7 +10,6 @@ android:
   updated: 2021-07-30
   version: 0.1.9-3
   reviews: 56
-  icon: wallet.snowgem.bitfrost.webp
   meta: removed
   verdict: wip
 

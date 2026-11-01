@@ -19,7 +19,6 @@ android:
   updated: 2021-06-20
   version: '2.6'
   reviews: 3
-  icon: com.rishabh.bitfortip.webp
   meta: removed
   verdict: custodial
   developerName: Bitfortip
@@ -30,7 +29,6 @@ iphone:
   updated: 2021-08-20
   version: 2.0.1
   reviews: 1
-  icon: com.bitfortip.bitfortipapp.webp
   meta: removed
   verdict: custodial
   developerName: BITFORTIP PTY LTD

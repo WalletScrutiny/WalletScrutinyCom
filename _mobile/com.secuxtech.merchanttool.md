@@ -11,7 +11,6 @@ android:
   released: 2020-05-22
   updated: 2023-12-19
   version: 2.2.1
-  icon: com.secuxtech.merchanttool.webp
   meta: obsolete
   verdict: wip
   developerName: SecuX

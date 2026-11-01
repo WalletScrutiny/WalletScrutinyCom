@@ -10,7 +10,6 @@ android:
   released: 2021-11-07
   updated: 2021-11-22
   version: 1.0.6
-  icon: com.matinex.matinex.webp
   meta: removed
   verdict: wip
   developerName: Sonny Asgari

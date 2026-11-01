@@ -26,7 +26,6 @@ android:
   released: 2022-08-08
   updated: 2026-08-27
   version: 3.3.1
-  icon: com.revix.app.webp
   meta: ok
   verdict: custodial
   developerName: ALTIFY GROUP LIMITED
@@ -38,7 +37,6 @@ iphone:
   updated: 2026-08-03
   version: 3.3.0
   reviews: 72
-  icon: com.revix.mobile.webp
   meta: ok
   verdict: custodial
   developerName: ALTIFY GROUP LIMITED

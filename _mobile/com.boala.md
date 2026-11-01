@@ -9,7 +9,6 @@ android:
   released: 2021-07-06
   updated: 2021-07-06
   version: '1.0'
-  icon: com.boala.webp
   meta: removed
   verdict: wip
   developerName: AladiEx Global Holdings Limited

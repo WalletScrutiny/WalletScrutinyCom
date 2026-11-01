@@ -9,7 +9,6 @@ android:
   released: 2020-09-19
   updated: 2020-11-17
   version: 1.1.6
-  icon: com.amaswallet.webp
   meta: removed
   verdict: wip
   developerName: AMAS COIN

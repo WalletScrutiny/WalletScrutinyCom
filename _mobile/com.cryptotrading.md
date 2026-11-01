@@ -9,7 +9,6 @@ android:
   released: 2021-03-13
   updated: 2021-07-08
   version: 1.0.4
-  icon: com.cryptotrading.webp
   meta: removed
   verdict: wip
 

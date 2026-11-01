@@ -19,7 +19,6 @@ android:
   updated: 2026-08-20
   version: 1.2.9
   reviews: 3
-  icon: prod.walletv.virgo.webp
   meta: ok
   verdict: nosource
   developerName: Wallet V
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-08-27
   version: 1.2.9
   reviews: 6
-  icon: prod.walletv.virgo.webp
   meta: ok
   verdict: nosource
   developerName: Virgo Web3 Labs

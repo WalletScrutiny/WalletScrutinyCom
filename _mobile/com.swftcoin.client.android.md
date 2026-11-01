@@ -20,7 +20,6 @@ android:
   updated: 2023-02-08
   version: 5.19.23
   reviews: 146
-  icon: com.swftcoin.client.android.webp
   meta: removed
   verdict: custodial
   developerName: GooCoin
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-10-06
   version: 6.10.8
   reviews: 23
-  icon: com.SwftBlockChain.client.webp
   meta: ok
   verdict: custodial
   developerName: Smart Worldwide Financial Technology Inc.

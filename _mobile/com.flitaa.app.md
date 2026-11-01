@@ -19,7 +19,6 @@ android:
   updated: 2025-06-13
   version: 1.51.8
   reviews: 571
-  icon: com.flitaa.app.webp
   meta: stale
   verdict: custodial
   developerName: FLITBASE Apps
@@ -31,7 +30,6 @@ iphone:
   updated: 2025-06-13
   version: 1.51.8
   reviews: 73
-  icon: com.flitaa.webp
   meta: stale
   verdict: custodial
   developerName: FLITBASE

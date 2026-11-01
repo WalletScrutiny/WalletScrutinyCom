@@ -9,7 +9,6 @@ android:
   released: 2021-04-17
   updated: 2021-04-17
   version: '1.0'
-  icon: app.co.swisstrustexchange.webp
   meta: removed
   verdict: wip
   developerName: Lawrence Granville

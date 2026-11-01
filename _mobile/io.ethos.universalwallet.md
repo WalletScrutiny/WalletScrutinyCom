@@ -16,7 +16,6 @@ android:
   updated: 2019-12-05
   version: 2.0.5
   reviews: 193
-  icon: io.ethos.universalwallet.webp
   meta: removed
   verdict: nosource
   developerName: Ethos.io PTE LTD
@@ -27,7 +26,6 @@ iphone:
   updated: 2019-11-22
   version: 2.0.5
   reviews: 302
-  icon: io.ethos.universalwallet.webp
   meta: removed
   verdict: nosource
 

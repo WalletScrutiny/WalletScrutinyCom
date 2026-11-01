@@ -22,7 +22,6 @@ android:
   updated: 2026-07-28
   version: 4.50.0
   reviews: 17
-  icon: app.coinhubatm.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Coinhub Bitcoin Wallet
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-09-08
   version: 4.50.0
   reviews: 18
-  icon: app.coinhubatm.wallet.webp
   meta: ok
   verdict: nosource
   developerName: CHB Holdings LLC

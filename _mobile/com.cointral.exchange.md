@@ -19,7 +19,6 @@ android:
   updated: 2021-08-18
   version: 1.3.6
   reviews: 77
-  icon: com.cointral.exchange.webp
   meta: removed
   verdict: custodial
   developerName: Blockchain Lab Yazılım
@@ -30,7 +29,6 @@ iphone:
   updated: 2021-08-18
   version: 1.3.6
   reviews: 0
-  icon: com.cointral.exchange.webp
   meta: removed
   verdict: custodial
 

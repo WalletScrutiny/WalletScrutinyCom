@@ -18,7 +18,6 @@ android:
   updated: 2022-01-26
   version: 1.0.2
   reviews: 5
-  icon: com.chain.zconprotocol.webp
   meta: removed
   verdict: custodial
   developerName: KCNET CO.,LTD

@@ -18,7 +18,6 @@ android:
   updated: 2025-01-29
   version: '13.0'
   reviews: 439
-  icon: com.crypterium.webp
   meta: removed
   verdict: custodial
   developerName: UAB Choise Servises
@@ -29,7 +28,6 @@ iphone:
   updated: 2025-01-31
   version: '13.0'
   reviews: 933
-  icon: com.Crypterium.Crypterium.webp
   meta: removed
   verdict: custodial
   developerName: Crypterium AS

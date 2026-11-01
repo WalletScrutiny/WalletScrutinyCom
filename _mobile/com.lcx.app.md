@@ -19,7 +19,6 @@ android:
   updated: 2026-08-25
   version: 2.6.0
   reviews: 39
-  icon: com.lcx.app.webp
   meta: ok
   verdict: custodial
   developerName: LCX.com
@@ -31,7 +30,6 @@ iphone:
   updated: 2024-09-17
   version: 2.5.3
   reviews: 18
-  icon: com.lcx.app.webp
   meta: removed
   verdict: custodial
   developerName: LCX AG

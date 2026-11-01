@@ -19,7 +19,6 @@ android:
   updated: 2023-07-07
   version: 1.0.76
   reviews: 32
-  icon: com.easycoin.exchange.webp
   meta: removed
   verdict: custodial
   developerName: EasyCoins
@@ -31,7 +30,6 @@ iphone:
   updated: 2023-07-10
   version: 1.0.78
   reviews: 1
-  icon: com.easycoin.exchange.webp
   meta: removed
   verdict: custodial
   developerName: Easycoin Labs Private Limited

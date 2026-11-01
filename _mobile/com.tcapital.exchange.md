@@ -10,7 +10,6 @@ android:
   released: 2020-12-10
   updated: 2021-03-27
   version: 1.1.5
-  icon: com.tcapital.exchange.webp
   meta: removed
   verdict: wip
   developerName: TECHNOLOGY CAPITAL HOLDINGS, LLC

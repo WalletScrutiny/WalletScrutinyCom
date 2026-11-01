@@ -10,7 +10,6 @@ android:
   released: 2022-07-22
   updated: 2023-01-20
   version: 1.3.1
-  icon: co.newton.newtonus.webp
   meta: removed
   verdict: wip
   developerName: Newton USA Inc.

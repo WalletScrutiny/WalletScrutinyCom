@@ -12,7 +12,6 @@ android:
   updated: 2022-10-17
   version: 2.1.2
   reviews: 4
-  icon: com.hanryubank.fnsWallet.webp
   meta: removed
   verdict: wip
   developerName: Ticket Land

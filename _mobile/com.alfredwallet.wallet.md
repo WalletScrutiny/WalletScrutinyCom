@@ -15,7 +15,6 @@ android:
   released: 2021-08-12
   updated: 2023-08-23
   version: '1.18'
-  icon: com.alfredwallet.wallet.webp
   meta: removed
   verdict: nosource
   developerName: PRO DIGITAL
@@ -27,7 +26,6 @@ iphone:
   updated: 2023-06-27
   version: '1.15'
   reviews: 0
-  icon: com.AlfredWallet.webp
   meta: removed
   verdict: nosource
   developerName: PRO DIGITAL INNOVATIONS INC

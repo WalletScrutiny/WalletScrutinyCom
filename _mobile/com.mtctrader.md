@@ -10,7 +10,6 @@ android:
   released: 2022-02-07
   updated: 2022-02-07
   version: '1.1'
-  icon: com.mtctrader.webp
   meta: removed
   verdict: wip
   developerName: TechXSpace

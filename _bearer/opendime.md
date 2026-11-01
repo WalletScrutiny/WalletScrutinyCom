@@ -20,7 +20,6 @@ shop: https://store.coinkite.com/store/opendime
 country: CA
 price: 69USD (3 pack)
 repository: 
-icon: opendime.webp
 bugbounty: 
 meta: ok
 verdict: sealed-plainkey

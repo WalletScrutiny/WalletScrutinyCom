@@ -22,7 +22,6 @@ android:
   updated: 2026-10-01
   version: 3.11.14
   reviews: 2220
-  icon: com.coinspot.app.webp
   meta: ok
   verdict: custodial
   developerName: CoinSpot
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-10-04
   version: 3.11.14
   reviews: 45617
-  icon: com.coinspot.app.webp
   meta: ok
   verdict: custodial
   developerName: CoinSpot

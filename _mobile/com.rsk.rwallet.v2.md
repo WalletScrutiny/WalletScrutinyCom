@@ -20,7 +20,6 @@ android:
   released: 2021-04-27
   updated: 2021-06-30
   version: 2.0.1
-  icon: com.rsk.rwallet.v2.webp
   meta: removed
   verdict: sourceavailable
   developerName: IoV Labs
@@ -32,7 +31,6 @@ iphone:
   updated: 2021-07-01
   version: 2.0.1
   reviews: 5
-  icon: com.rsk.rwallet.reactnative.webp
   meta: removed
   verdict: sourceavailable
   developerName: IOV Labs S.A

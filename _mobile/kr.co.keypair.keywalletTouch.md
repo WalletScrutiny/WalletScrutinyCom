@@ -25,7 +25,6 @@ android:
   updated: 2026-07-13
   version: 3.0.60
   reviews: 16
-  icon: kr.co.keypair.keywalletTouch.webp
   meta: ok
   verdict: nosource
   developerName: Keypair Co., Ltd.
@@ -37,7 +36,6 @@ iphone:
   updated: 2026-07-13
   version: 3.0.60
   reviews: 0
-  icon: kr.co.keypair.keywalletTouchiOS.webp
   meta: ok
   verdict: nosource
   developerName: Keypair

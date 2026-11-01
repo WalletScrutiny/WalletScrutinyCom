@@ -17,7 +17,6 @@ android:
   released: 2020-05-27
   updated: 2023-05-05
   version: 6.0.7
-  icon: com.beecrypt.beecrypthd.webp
   meta: removed
   verdict: nosource
   developerName: MadCats
@@ -28,7 +27,6 @@ iphone:
   updated: 2022-02-12
   version: 3.9.1
   reviews: 1
-  icon: com.beecrypt.beecrypthd.webp
   meta: removed
   verdict: nosource
 

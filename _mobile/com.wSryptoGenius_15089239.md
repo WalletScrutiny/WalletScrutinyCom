@@ -9,7 +9,6 @@ android:
   released: 2022-01-27
   updated: 2022-01-27
   version: '1.0'
-  icon: com.wSryptoGenius_15089239.webp
   meta: removed
   verdict: wip
 

@@ -14,7 +14,6 @@ android:
   released: 2023-08-08
   updated: 2026-02-26
   version: 1.52.9
-  icon: com.bitoex.bitopronew.webp
   meta: removed
   verdict: custodial
   developerName: BitoPro Technology CO., LTD.
@@ -26,7 +25,6 @@ iphone:
   updated: 2026-09-29
   version: 1.67.11
   reviews: 5192
-  icon: com.bitoex.bitopronew.webp
   meta: ok
   verdict: custodial
   developerName: BitoPro Technology Co., Ltd.

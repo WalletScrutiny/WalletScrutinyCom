@@ -20,7 +20,6 @@ android:
   updated: 2022-12-13
   version: 4.3.3
   reviews: 143
-  icon: com.movocash.movo.webp
   meta: removed
   verdict: nosendreceive
   developerName: MovoCash, Inc.
@@ -32,7 +31,6 @@ iphone:
   updated: 2022-12-09
   version: 4.3.2
   reviews: 400
-  icon: com.movocash.movo.webp
   meta: removed
   verdict: nosendreceive
   developerName: MovoCash, Inc.

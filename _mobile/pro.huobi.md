@@ -23,7 +23,6 @@ android:
   updated: 2026-09-29
   version: 11.38.1
   reviews: 543
-  icon: pro.huobi.webp
   meta: ok
   verdict: custodial
   developerName: Huobi
@@ -35,7 +34,6 @@ iphone:
   updated: 2026-05-25
   version: 11.20.1
   reviews: 1427
-  icon: com.huobi.appStoreHuobiSystem.webp
   meta: removed
   verdict: custodial
   developerName: SAFE GLORY UAB

@@ -13,7 +13,6 @@ android:
   released: 2021-07-21
   updated: 2021-07-21
   version: '0.92'
-  icon: com.edhnbus.wxcgr.webp
   meta: removed
   verdict: fake
 

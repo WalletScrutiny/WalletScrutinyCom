@@ -21,7 +21,6 @@ android:
   updated: 2026-08-14
   version: 4.19.0
   reviews: 879
-  icon: com.coinex.trade.play.webp
   meta: ok
   verdict: custodial
   developerName: ViaBTC
@@ -32,7 +31,6 @@ iphone:
   updated: 2022-01-01
   version: 3.5.0
   reviews: 2032
-  icon: com.viabtc.trader.webp
   meta: removed
   verdict: custodial
 

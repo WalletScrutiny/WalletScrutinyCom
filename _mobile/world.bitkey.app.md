@@ -26,7 +26,6 @@ android:
   updated: 2026-10-08
   version: 2026.16.0 (1)
   reviews: 32
-  icon: world.bitkey.app.webp
   signer: c0d0f9da7158cde788d0281e9ebd07034178165584d635f7ce17f77c037d961a
   alternativeStores:
   - zapstore
@@ -44,7 +43,6 @@ iphone:
   updated: 2026-10-13
   version: 2026.16.0
   reviews: 137
-  icon: world.bitkey.app.webp
   meta: ok
   verdict: sourceavailable
   developerName: Block, Inc.

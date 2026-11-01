@@ -20,7 +20,6 @@ android:
   updated: 2026-09-29
   version: 1.1.60
   reviews: 38
-  icon: com.valr.app.webp
   meta: ok
   verdict: custodial
   developerName: VALR
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-09-30
   version: 1.1.60
   reviews: 2
-  icon: com.valr.mobile.webp
   meta: ok
   verdict: custodial
   developerName: VALR Pty Ltd

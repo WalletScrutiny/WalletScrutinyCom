@@ -19,7 +19,6 @@ android:
   updated: 2026-08-27
   version: 1.45.6
   reviews: 5713
-  icon: io.atomicwallet.webp
   meta: ok
   verdict: obfuscated
   developerName: Atomic Wallet
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-08-14
   version: 1.45.4
   reviews: 18958
-  icon: atomicwallet.webp
   meta: ok
   verdict: obfuscated
   developerName: ATOMIC PROTOCOL SYSTEMS OÜ

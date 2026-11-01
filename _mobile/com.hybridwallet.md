@@ -9,7 +9,6 @@ android:
   released: 2022-04-25
   updated: 2022-05-12
   version: 1.0.2
-  icon: com.hybridwallet.webp
   meta: removed
   verdict: wip
   developerName: Dehghan Muhammad

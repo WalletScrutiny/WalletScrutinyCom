@@ -16,7 +16,6 @@ iphone:
   updated: 2026-08-11
   version: 1.0.5
   reviews: 17
-  icon: com.cakelabs.signal.webp
   meta: ok
   verdict: custodial
   developerName: Radar Chat

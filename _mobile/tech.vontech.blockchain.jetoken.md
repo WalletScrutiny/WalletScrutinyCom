@@ -10,7 +10,6 @@ android:
   updated: 2019-06-21
   version: 1.0.12
   reviews: 12
-  icon: tech.vontech.blockchain.jetoken.webp
   meta: removed
   verdict: wip
 

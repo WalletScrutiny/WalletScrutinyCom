@@ -10,7 +10,6 @@ android:
   released: 2022-07-13
   updated: 2022-07-13
   version: '3.4'
-  icon: com.browallted.comlogin.php.webp
   meta: removed
   verdict: wip
   developerName: Browallted

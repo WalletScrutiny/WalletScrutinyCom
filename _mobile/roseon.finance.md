@@ -19,7 +19,6 @@ android:
   updated: 2024-10-31
   version: 2.4.41
   reviews: 63
-  icon: roseon.finance.webp
   meta: removed
   verdict: custodial
   developerName: Roseon Finance
@@ -30,7 +29,6 @@ iphone:
   updated: 2024-10-15
   version: 2.4.39
   reviews: 40
-  icon: com.roseon.finance.production.webp
   meta: removed
   verdict: custodial
   developerName: MYBITOK OU

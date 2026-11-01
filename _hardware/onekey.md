@@ -23,7 +23,6 @@ shop: https://web.archive.org/web/20240224091815/https://onekey.so/products/onek
 country: SG
 price: 42USD
 repository: https://github.com/OneKeyHQ/firmware
-icon: onekey.webp
 bugbounty: 
 meta: discontinued
 verdict: sourceavailable

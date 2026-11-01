@@ -10,7 +10,6 @@ android:
   released: 2022-03-04
   updated: 2024-01-21
   version: '1.0'
-  icon: com.app.fxschool_ai.webp
   meta: removed
   verdict: wip
   developerName: Asir Intasir Shaiket - AsirFx

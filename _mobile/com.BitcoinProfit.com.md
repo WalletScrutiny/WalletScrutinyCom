@@ -11,7 +11,6 @@ android:
   released: 2022-06-18
   updated: 2022-06-18
   version: '1.0'
-  icon: com.BitcoinProfit.com.webp
   meta: removed
   verdict: wip
   developerName: devswipe

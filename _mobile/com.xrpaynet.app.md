@@ -26,7 +26,6 @@ android:
   updated: 2025-12-16
   version: 5.0.5.prod
   reviews: 45
-  icon: com.xrpaynet.app.webp
   meta: ok
   verdict: nosource
   developerName: XRPayNet
@@ -38,7 +37,6 @@ iphone:
   updated: 2025-12-17
   version: 5.0.5+377
   reviews: 30
-  icon: com.xrpaynet.app.webp
   meta: ok
   verdict: nosource
   developerName: XRPAYNET GLOBAL LIMITED

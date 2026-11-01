@@ -17,7 +17,6 @@ android:
   released: 2021-03-30
   updated: 2022-03-29
   version: 2.2.0
-  icon: com.nakitcoins.wallet.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -27,7 +26,6 @@ iphone:
   updated: 2022-04-03
   version: 2.2.0
   reviews: 2
-  icon: com.nakitcoins.wallet.webp
   meta: removed
   verdict: custodial
 

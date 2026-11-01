@@ -10,7 +10,6 @@ android:
   updated: 2019-01-24
   version: 1.0.4
   reviews: 261
-  icon: com.iqfinex.webp
   meta: removed
   verdict: wip
 

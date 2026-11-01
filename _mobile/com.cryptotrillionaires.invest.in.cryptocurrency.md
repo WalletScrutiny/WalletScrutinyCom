@@ -9,7 +9,6 @@ android:
   released: 2021-07-17
   updated: 2021-07-17
   version: '1.0'
-  icon: com.cryptotrillionaires.invest.in.cryptocurrency.webp
   meta: removed
   verdict: wip
 

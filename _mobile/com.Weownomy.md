@@ -12,7 +12,6 @@ android:
   updated: 2022-08-01
   version: 1.0.4
   reviews: 67
-  icon: com.Weownomy.webp
   meta: removed
   verdict: wip
   developerName: Weownomy Platform

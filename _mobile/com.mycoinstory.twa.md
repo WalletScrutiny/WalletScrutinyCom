@@ -10,7 +10,6 @@ android:
   released: 2021-02-22
   updated: 2021-02-23
   version: '2'
-  icon: com.mycoinstory.twa.webp
   meta: removed
   verdict: wip
   developerName: MKT Partners Ltd.

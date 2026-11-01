@@ -24,7 +24,6 @@ android:
   updated: 2026-09-10
   version: 12.53.3
   reviews: 10929
-  icon: io.cex.app.prod.webp
   meta: ok
   verdict: custodial
   developerName: CEX.IO
@@ -36,7 +35,6 @@ iphone:
   updated: 2026-09-30
   version: 12.55.2
   reviews: 12856
-  icon: io.cex.app.webp
   meta: ok
   verdict: custodial
   developerName: CEX.IO LTD

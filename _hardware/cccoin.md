@@ -17,7 +17,6 @@ shop: https://web.archive.org/web/20221130001103/https://www.rhy.zone/hardwallet
 country: SG
 price: 160USDT
 repository: 
-icon: cccoin.webp
 bugbounty: 
 meta: discontinued
 verdict: wip

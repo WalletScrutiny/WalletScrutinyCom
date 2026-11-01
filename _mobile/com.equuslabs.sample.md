@@ -10,7 +10,6 @@ android:
   released: 2020-07-04
   updated: 2020-07-04
   version: 1.0.0
-  icon: com.equuslabs.sample.webp
   meta: removed
   verdict: wip
   developerName: JDK Tecnologia

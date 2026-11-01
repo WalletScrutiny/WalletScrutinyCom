@@ -18,7 +18,6 @@ android:
   released: 2020-07-24
   updated: 2024-05-29
   version: 6.0.20
-  icon: com.kikitrade.webp
   meta: removed
   verdict: custodial
   developerName: Kikitrade Technologies Limited
@@ -29,7 +28,6 @@ iphone:
   updated: 2023-01-12
   version: 5.0.02
   reviews: 10
-  icon: org.evg.kikitrade.webp
   meta: removed
   verdict: custodial
 

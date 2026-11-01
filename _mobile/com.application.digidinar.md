@@ -9,7 +9,6 @@ android:
   users: 500
   updated: 2021-03-02
   version: VARY
-  icon: com.application.digidinar.webp
   meta: removed
   verdict: wip
   developerName: DigiDinar

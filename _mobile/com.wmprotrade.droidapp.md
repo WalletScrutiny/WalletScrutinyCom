@@ -10,7 +10,6 @@ android:
   released: 2020-05-17
   updated: 2021-02-06
   version: '1.2'
-  icon: com.wmprotrade.droidapp.webp
   meta: removed
   verdict: wip
   developerName: Alt 5 Pro

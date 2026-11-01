@@ -18,7 +18,6 @@ android:
   updated: 2026-10-06
   version: 11.7.0
   reviews: 33
-  icon: ge.mobility.emoney.webp
   meta: ok
   verdict: custodial
   developerName: eMoney Georgia
@@ -30,7 +29,6 @@ iphone:
   updated: 2026-10-12
   version: 11.7.0
   reviews: 10
-  icon: ge.smatex.eMoney.webp
   meta: ok
   verdict: custodial
   developerName: eMoney

@@ -11,7 +11,6 @@ android:
   released: 2019-11-08
   updated: 2021-04-22
   version: 1.1.3
-  icon: com.wallet.online.webp
   meta: removed
   verdict: custodial
 

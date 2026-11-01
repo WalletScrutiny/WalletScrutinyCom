@@ -10,7 +10,6 @@ android:
   released: 2018-06-01
   updated: 2019-01-04
   version: '1.1'
-  icon: com.appsquest.tionchuantung.iqc.webp
   meta: removed
   verdict: wip
 

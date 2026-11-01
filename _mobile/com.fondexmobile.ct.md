@@ -17,7 +17,6 @@ android:
   released: 2017-11-02
   updated: 2023-09-15
   version: 4.8.54452
-  icon: com.fondexmobile.ct.webp
   meta: removed
   verdict: nosendreceive
   developerName: Fondex
@@ -28,7 +27,6 @@ iphone:
   updated: 2022-12-14
   version: 4.6.54384
   reviews: 2
-  icon: com.fondexmobile.ct.webp
   meta: removed
   verdict: nosendreceive
   developerName: TopFX

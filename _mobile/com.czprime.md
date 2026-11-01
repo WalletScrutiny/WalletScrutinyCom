@@ -19,7 +19,6 @@ android:
   updated: 2024-02-14
   version: 1.5.69
   reviews: 418
-  icon: com.czprime.webp
   meta: removed
   verdict: custodial
   developerName: CoinZoom
@@ -30,7 +29,6 @@ iphone:
   updated: 2023-06-23
   version: 1.2.0
   reviews: 163
-  icon: com.ios.coinzoom.webp
   meta: removed
   verdict: custodial
   developerName: CoinZoom

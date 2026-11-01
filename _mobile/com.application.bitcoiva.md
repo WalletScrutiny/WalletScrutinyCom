@@ -17,7 +17,6 @@ android:
   updated: 2026-09-25
   version: 1.68.3
   reviews: 5
-  icon: com.application.bitcoiva.webp
   meta: ok
   verdict: custodial
   developerName: Bitcoiva

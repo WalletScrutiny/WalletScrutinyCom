@@ -17,7 +17,6 @@ android:
   updated: 2021-03-31
   version: 1.0.2
   reviews: 4
-  icon: com.bityard.us2.webp
   meta: removed
   verdict: custodial
 

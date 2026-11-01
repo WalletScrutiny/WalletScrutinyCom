@@ -12,7 +12,6 @@ provider: KomodoPlatform
 providerWebsite: https://komodoplatform.com/
 website: https://web.archive.org/web/20241231212400/https://atomicdex.io/
 repository: https://github.com/GLEECBTC/komodo-wallet-desktop
-icon: atomicdex.webp
 bugbounty: 
 meta: deprecated
 verdict: sourceavailable

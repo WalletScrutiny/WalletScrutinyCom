@@ -21,7 +21,6 @@ shop: https://shop.ngrave.io/
 country: BE
 price: 398EUR
 repository: https://web.archive.org/web/20230626071638/https://github.com/ngraveio/zero-firmware
-icon: ngravezero.webp
 bugbounty: 
 meta: ok
 verdict: nosource

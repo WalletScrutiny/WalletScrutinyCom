@@ -21,7 +21,6 @@ android:
   updated: 2026-06-13
   version: 7.3.2
   reviews: 216
-  icon: com.app.breet.webp
   meta: ok
   verdict: nosendreceive
   developerName: Inbreetic Technologies Limited
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-10-06
   version: 7.3.0
   reviews: 1251
-  icon: com.app.breet.webp
   meta: ok
   verdict: nosendreceive
   developerName: BREET TECHNOLOGIES LIMITED

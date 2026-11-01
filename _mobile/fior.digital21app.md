@@ -18,7 +18,6 @@ android:
   appCountry: us
   updated: 2026-10-06
   version: 2.2.20
-  icon: fior.digital21app.webp
   meta: ok
   verdict: custodial
   developerName: FIOR Digital GmbH
@@ -30,7 +29,6 @@ iphone:
   updated: 2026-10-08
   version: 2.2.20
   reviews: 2
-  icon: digital.fior.21app.webp
   meta: ok
   verdict: custodial
   developerName: FIOR Digital GmbH

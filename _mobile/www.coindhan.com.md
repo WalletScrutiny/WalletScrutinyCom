@@ -21,7 +21,6 @@ android:
   released: 2021-09-05
   updated: 2024-04-07
   version: '1.0'
-  icon: www.coindhan.com.webp
   meta: removed
   verdict: custodial
   developerName: Wollfish Labs Private Limited
@@ -33,7 +32,6 @@ iphone:
   updated: 2024-05-16
   version: '1.33'
   reviews: 20
-  icon: www.coindhan.com.webp
   meta: removed
   verdict: custodial
   developerName: Wollfish Labs Private Limited

@@ -12,7 +12,6 @@ provider: Apptastic! LLC
 providerWebsite: http://apptastic.mobi/
 website: https://apps.microsoft.com/detail/9wzdncrdkdjf#deadLink
 repository: https://github.com/jodoglevy/BitcoinTradr
-icon: 
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable

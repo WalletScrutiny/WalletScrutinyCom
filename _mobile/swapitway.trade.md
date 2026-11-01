@@ -17,7 +17,6 @@ android:
   updated: 2025-06-17
   version: '5'
   reviews: 49
-  icon: swapitway.trade.webp
   meta: stale
   verdict: custodial
   developerName: Nairance Limited

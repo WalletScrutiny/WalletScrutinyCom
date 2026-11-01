@@ -20,7 +20,6 @@ shop:
 country: US
 price: 
 repository: 
-icon: casascius.webp
 bugbounty: 
 meta: discontinued
 verdict: sealed-plainkey

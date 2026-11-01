@@ -11,7 +11,6 @@ android:
   updated: 2019-11-20
   version: v3.0.3
   reviews: 101
-  icon: com.bastionpay.bastionpay.webp
   meta: removed
   verdict: wip
 

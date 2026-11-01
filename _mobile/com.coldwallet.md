@@ -9,7 +9,6 @@ android:
   released: 2019-06-06
   updated: 2019-06-15
   version: 1.2.8.1
-  icon: com.coldwallet.webp
   meta: removed
   verdict: wip
   developerName: BKC Group

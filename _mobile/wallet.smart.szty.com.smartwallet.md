@@ -11,7 +11,6 @@ android:
   updated: 2021-11-15
   version: 2.31.0
   reviews: 2
-  icon: wallet.smart.szty.com.smartwallet.webp
   meta: removed
   verdict: wip
 

@@ -9,7 +9,6 @@ android:
   released: 2022-04-15
   updated: 2022-04-15
   version: '1'
-  icon: com.buybitcoin.traidercrypto.webp
   meta: removed
   verdict: wip
 

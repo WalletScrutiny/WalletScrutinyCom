@@ -15,7 +15,6 @@ android:
   released: 2021-02-16
   updated: 2023-03-07
   version: 1.2.6
-  icon: gwallet.tech.webp
   meta: obsolete
   verdict: nosource
   developerName: GWALLETGLOBAL OÜ
@@ -26,7 +25,6 @@ iphone:
   updated: 2023-03-08
   version: 1.2.7
   reviews: 0
-  icon: gwallet.tech.webp
   meta: removed
   verdict: nosource
   developerName: Gwalletglobal OU

@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: https://github.com/Kevingislason/abacus_wallet
-icon: kevingislason.abacus.diy.webp
 bugbounty: 
 meta: stale
 verdict: sourceavailable

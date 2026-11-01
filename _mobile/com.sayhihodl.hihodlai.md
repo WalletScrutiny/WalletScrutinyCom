@@ -15,7 +15,6 @@ android:
   released: 2026-05-28
   updated: 2026-10-08
   version: 1.8.1
-  icon: com.sayhihodl.hihodlai.webp
   meta: fewusers
   verdict: custodial
   developerName: HIHODL Technologies OU
@@ -27,7 +26,6 @@ iphone:
   updated: 2026-10-10
   version: 1.8.1
   reviews: 1
-  icon: com.sayhihodl.hihodlyes.webp
   meta: ok
   verdict: custodial
   developerName: HIHODL Technologies OU

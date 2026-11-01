@@ -21,7 +21,6 @@ shop: https://web.archive.org/web/20211220061627/https://cerberwallet.ru/
 country: RU
 price: 3500RUB
 repository: 
-icon: cerber.webp
 bugbounty: 
 meta: discontinued
 verdict: wip

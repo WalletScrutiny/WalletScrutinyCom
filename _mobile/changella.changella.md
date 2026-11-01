@@ -10,7 +10,6 @@ android:
   released: 2022-06-08
   updated: 2023-08-20
   version: 1.0.0
-  icon: changella.changella.webp
   meta: removed
   verdict: wip
   developerName: Changella

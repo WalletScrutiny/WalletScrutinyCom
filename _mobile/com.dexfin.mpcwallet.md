@@ -20,7 +20,6 @@ android:
   released: 2023-02-01
   updated: 2023-02-01
   version: 0.2.7
-  icon: com.dexfin.mpcwallet.webp
   meta: removed
   verdict: nosource
   developerName: DEXFIN
@@ -32,7 +31,6 @@ iphone:
   updated: 2023-03-29
   version: 1.0.2
   reviews: 3
-  icon: com.dexfin.mpcwallet.webp
   meta: removed
   verdict: nosource
   developerName: DEXFIN

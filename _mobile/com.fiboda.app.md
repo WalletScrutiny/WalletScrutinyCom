@@ -15,7 +15,6 @@ android:
   updated: 2021-07-08
   version: 1.0.5
   reviews: 2
-  icon: com.fiboda.app.webp
   meta: removed
   verdict: nosendreceive
 iphone:
@@ -25,7 +24,6 @@ iphone:
   updated: 2021-07-09
   version: 1.1.0
   reviews: 5
-  icon: com.fiboda.Fiboda.webp
   meta: removed
   verdict: nosendreceive
 

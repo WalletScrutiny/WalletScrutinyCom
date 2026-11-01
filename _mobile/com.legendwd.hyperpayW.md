@@ -21,7 +21,6 @@ android:
   updated: 2026-09-30
   version: 5.6.260202
   reviews: 193
-  icon: com.legendwd.hyperpayW.webp
   meta: ok
   verdict: nosource
   developerName: CIPHER BC PTE. LTD.
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-01-19
   version: 5.6.160900
   reviews: 131
-  icon: com.legendwd.hyperpay.webp
   meta: defunct
   verdict: obfuscated
   developerName: CIPHERBC PTE. LTD.

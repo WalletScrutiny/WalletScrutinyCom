@@ -19,7 +19,6 @@ android:
   updated: 2026-10-11
   version: 2.246.0
   reviews: 13183
-  icon: com.wealthsimple.trade.webp
   meta: ok
   verdict: nosendreceive
   developerName: Wealthsimple
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-10-10
   version: 2.247.0
   reviews: 129911
-  icon: com.wealthsimple.trade.webp
   meta: ok
   verdict: nosendreceive
   developerName: Wealthsimple

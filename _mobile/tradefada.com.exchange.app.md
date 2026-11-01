@@ -18,7 +18,6 @@ android:
   users: 1000
   updated: 2023-10-26
   version: 3.3.0
-  icon: tradefada.com.exchange.app.webp
   meta: removed
   verdict: custodial
   developerName: Tradefada Global
@@ -30,7 +29,6 @@ iphone:
   updated: 2021-11-04
   version: 1.3.13
   reviews: 2
-  icon: dev.com.tradefada.app.webp
   meta: removed
   verdict: custodial
   developerName: Tradefada LLC

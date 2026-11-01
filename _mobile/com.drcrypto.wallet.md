@@ -12,7 +12,6 @@ android:
   updated: 2021-10-21
   version: 2.0.5
   reviews: 64
-  icon: com.drcrypto.wallet.webp
   meta: removed
   verdict: wip
 

@@ -17,7 +17,6 @@ shop:
 country: US
 price: 
 repository: 
-icon: bitbills.webp
 bugbounty: 
 meta: discontinued
 verdict: prefilled

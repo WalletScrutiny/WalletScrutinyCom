@@ -11,7 +11,6 @@ android:
   released: 2023-01-10
   updated: 2025-10-16
   version: 2.1.9
-  icon: com.ninja.ninjapay.me.webp
   meta: removed
   verdict: wip
   developerName: Ninjapay

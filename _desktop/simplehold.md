@@ -12,7 +12,6 @@ provider:
 providerWebsite: 
 website: https://web.archive.org/web/20230415193251/https://simplehold.io/
 repository: 
-icon: simplehold.webp
 bugbounty: 
 meta: defunct
 verdict: nosource

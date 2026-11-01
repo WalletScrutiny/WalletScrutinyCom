@@ -20,7 +20,6 @@ android:
   released: 2025-10-03
   updated: 2026-10-06
   version: 0.7.70
-  icon: io.rayyo.webp
   meta: ok
   verdict: nosource
   developerName: Montebit
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-10-07
   version: 0.7.70
   reviews: 36
-  icon: io.rayyo.webp
   meta: ok
   verdict: nosource
   developerName: Montebit

@@ -22,7 +22,6 @@ android:
   updated: 2026-10-12
   version: 3.21.6
   reviews: 17217
-  icon: com.binance.dev.webp
   meta: ok
   verdict: custodial
   developerName: Binance Inc.
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-10-12
   version: 3.22.0
   reviews: 54065
-  icon: com.czzhao.binance.webp
   meta: ok
   verdict: custodial
   developerName: Binance Switzerland AG

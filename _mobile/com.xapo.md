@@ -21,7 +21,6 @@ android:
   updated: 2021-07-20
   version: '5.34'
   reviews: 21922
-  icon: com.xapo.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -31,7 +30,6 @@ iphone:
   updated: 2021-07-20
   version: 6.12.0
   reviews: 149
-  icon: com.iphone.XapoApp.webp
   meta: removed
   verdict: custodial
 

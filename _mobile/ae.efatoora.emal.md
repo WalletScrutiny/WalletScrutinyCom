@@ -14,7 +14,6 @@ android:
   released: 2018-07-16
   updated: 2020-01-02
   version: '3.2'
-  icon: ae.efatoora.emal.webp
   meta: removed
   verdict: wip
   developerName: eFatoora

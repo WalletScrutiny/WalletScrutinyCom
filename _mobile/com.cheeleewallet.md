@@ -15,7 +15,6 @@ android:
   updated: 2023-11-02
   version: 1.2.1
   reviews: 53
-  icon: com.cheeleewallet.webp
   meta: obsolete
   verdict: custodial
   developerName: Cheelee Wallet
@@ -27,7 +26,6 @@ iphone:
   updated: 2024-03-05
   version: 1.2.2
   reviews: 6
-  icon: io.cheeleewallet.app.webp
   meta: obsolete
   verdict: custodial
   developerName: Service Solutions Pro s.r.o.

@@ -19,7 +19,6 @@ android:
   updated: 2026-05-05
   version: 5.13.0
   reviews: 15
-  icon: com.netcoins.app.webp
   meta: removed
   verdict: custodial
   developerName: Netcoins Inc
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-01-07
   version: 5.8.1
   reviews: 80
-  icon: com.netcoins.app.webp
   meta: removed
   verdict: custodial
   developerName: Netcoins

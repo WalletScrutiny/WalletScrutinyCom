@@ -10,7 +10,6 @@ android:
   released: 2019-08-09
   updated: 2020-07-16
   version: '2.0'
-  icon: moonx.exchange.moonx.webp
   meta: removed
   verdict: wip
   developerName: MoonX Technologies Ltd

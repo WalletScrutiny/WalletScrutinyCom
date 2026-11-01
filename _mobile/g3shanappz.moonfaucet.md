@@ -10,7 +10,6 @@ android:
   updated: 2020-06-29
   version: '9.8'
   reviews: 295
-  icon: g3shanappz.moonfaucet.webp
   meta: removed
   verdict: wip
 

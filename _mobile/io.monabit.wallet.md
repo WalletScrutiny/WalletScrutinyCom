@@ -20,7 +20,6 @@ android:
   updated: 2026-05-13
   version: 4.5.3
   reviews: 3
-  icon: io.monabit.wallet.webp
   meta: ok
   verdict: nosource
   developerName: MonaBit
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-05-14
   version: '4.5'
   reviews: 0
-  icon: io.monabit.app.webp
   meta: ok
   verdict: nosource
   developerName: Monabit S.A.S

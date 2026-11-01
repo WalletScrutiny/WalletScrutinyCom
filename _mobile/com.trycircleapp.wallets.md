@@ -14,7 +14,6 @@ android:
   released: 2020-12-29
   updated: 2021-12-10
   version: '7.0'
-  icon: com.trycircleapp.wallets.webp
   meta: removed
   verdict: nosource
   developerName: Rioni Marketing Management LLC
@@ -26,7 +25,6 @@ iphone:
   updated: 2021-12-11
   version: '2.1'
   reviews: 0
-  icon: com.thecirclewalletapp.webp
   meta: obsolete
   verdict: nosource
   developerName: Rioni Marketing Management LLC

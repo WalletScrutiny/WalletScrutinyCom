@@ -19,7 +19,6 @@ android:
   updated: 2019-05-16
   version: 1.0.4
   reviews: 6
-  icon: com.javvy.webp
   meta: removed
   verdict: wip
   developerName: Javvy Technologies Ltd

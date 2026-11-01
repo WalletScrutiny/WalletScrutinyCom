@@ -10,7 +10,6 @@ android:
   released: 2020-03-24
   updated: 2020-03-24
   version: '1.0'
-  icon: com.suremining.app.webp
   meta: removed
   verdict: wip
   developerName: Kryptiva

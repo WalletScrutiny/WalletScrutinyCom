@@ -14,7 +14,6 @@ android:
   updated: 2026-01-09
   version: 4.8.2
   reviews: 11
-  icon: com.bixin.bixin_android.webp
   meta: ok
   verdict: custodial
   developerName: Bixin.com

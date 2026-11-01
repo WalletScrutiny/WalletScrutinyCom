@@ -9,7 +9,6 @@ android:
   released: 2021-06-21
   updated: 2021-06-21
   version: '1.0'
-  icon: net.tradingbitcoin.invest.in.bitcoin.webp
   meta: removed
   verdict: wip
 

@@ -15,7 +15,6 @@ android:
   users: 10000
   updated: 2023-07-24
   version: 2.2.16
-  icon: com.bottlepay.webp
   meta: removed
   verdict: custodial
   developerName: Bottlepay Ltd.
@@ -27,7 +26,6 @@ iphone:
   updated: 2023-06-08
   version: 2.2.15
   reviews: 305
-  icon: com.bottlepay.webp
   meta: removed
   verdict: custodial
   developerName: Bottlepay Limited

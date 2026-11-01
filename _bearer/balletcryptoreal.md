@@ -21,7 +21,6 @@ shop: https://store.ballet.com/products/ballet-wallet
 country: US
 price: 49USD
 repository: 
-icon: balletcryptoreal.webp
 bugbounty: 
 meta: ok
 verdict: sealed-plainkey

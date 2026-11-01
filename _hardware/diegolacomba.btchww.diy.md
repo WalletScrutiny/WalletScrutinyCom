@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: https://github.com/diegolacomba/BTC-Hardware-Wallet
-icon: diegolacomba.btchww.diy.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

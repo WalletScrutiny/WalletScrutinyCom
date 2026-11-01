@@ -10,7 +10,6 @@ android:
   released: 2022-05-19
   updated: 2022-05-19
   version: '1.0'
-  icon: com.arhamtechnolabs.shreelox.webp
   meta: removed
   verdict: wip
   developerName: Arham Technolabs

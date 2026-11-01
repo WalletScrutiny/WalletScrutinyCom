@@ -10,7 +10,6 @@ android:
   released: 2022-11-04
   updated: 2023-05-04
   version: 1.2.1
-  icon: com.tmc.wallet.webp
   meta: removed
   verdict: wip
   developerName: TMC The Members Club

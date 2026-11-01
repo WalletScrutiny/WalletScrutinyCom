@@ -18,7 +18,6 @@ android:
   updated: 2024-08-21
   version: 2.5.13
   reviews: 23
-  icon: com.blockin.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Poolin Singapore - Make the Most of Crypto Assets
@@ -29,7 +28,6 @@ iphone:
   updated: 2023-03-01
   version: 2.5.6
   reviews: 41
-  icon: com.poolinwallet.blockinwallet.webp
   meta: removed
   verdict: custodial
   developerName: POOLIN TECHNOLOGY PTE.LTD.

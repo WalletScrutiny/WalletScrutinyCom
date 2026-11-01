@@ -19,7 +19,6 @@ android:
   updated: 2024-11-11
   version: 2.30.2
   reviews: 7
-  icon: com.cfdglobal.android.webp
   meta: removed
   verdict: nosendreceive
   developerName: Key Way Investments Ltd
@@ -31,7 +30,6 @@ iphone:
   updated: 2024-11-13
   version: '1.51'
   reviews: 7
-  icon: com.trader.brands.cfdglobal.webp
   meta: removed
   verdict: nosendreceive
   developerName: Key Way Investment Ltd

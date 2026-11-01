@@ -17,7 +17,6 @@ shop:
 country: US
 price: 159USD
 repository: 
-icon: bitstash.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

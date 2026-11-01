@@ -18,7 +18,6 @@ android:
   released: 2023-03-06
   updated: 2025-08-27
   version: 2.5.3
-  icon: com.suniwallet.app.webp
   meta: removed
   verdict: custodial
   developerName: Suni Wallet Corp
@@ -30,7 +29,6 @@ iphone:
   updated: 2025-08-29
   version: 2.5.3
   reviews: 21
-  icon: com.suniwallet.app.webp
   meta: removed
   verdict: custodial
   developerName: SUNI WALLET LLC

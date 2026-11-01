@@ -11,7 +11,6 @@ android:
   released: 2022-02-14
   updated: 2026-03-30
   version: 1.6.2
-  icon: com.creadigol.amaano.webp
   meta: ok
   verdict: wip
   developerName: amaano
@@ -23,7 +22,6 @@ iphone:
   updated: 2026-10-05
   version: 3.7.48
   reviews: 28
-  icon: com.amaano.amaano.webp
   meta: ok
   verdict: wip
   developerName: Amaano

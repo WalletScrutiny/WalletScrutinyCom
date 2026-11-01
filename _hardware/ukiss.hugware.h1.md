@@ -17,7 +17,6 @@ shop: https://www.ukiss.io/launch-bundle#deadLink
 country: SG
 price: 169USD
 repository: 
-icon: ukiss.hugware.h1.webp
 bugbounty: 
 meta: defunct
 verdict: noita

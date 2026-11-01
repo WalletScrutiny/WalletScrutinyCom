@@ -10,7 +10,6 @@ android:
   released: 2020-10-28
   updated: 2020-11-02
   version: 1.0.0
-  icon: com.barong.chankura.webp
   meta: removed
   verdict: wip
   developerName: Omniverse

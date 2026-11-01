@@ -20,7 +20,6 @@ android:
   released: 2025-08-27
   updated: 2026-02-27
   version: 1.2.5
-  icon: com.unionex.exchange.webp
   meta: fewusers
   verdict: custodial
   developerName: UnionEx
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-03-02
   version: 1.2.5
   reviews: 1
-  icon: com.unionex.coin.webp
   meta: ok
   verdict: custodial
   developerName: ALPHABYTE TECHNOLOGY LTD

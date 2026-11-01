@@ -19,7 +19,6 @@ android:
   updated: 2025-03-06
   version: 3.4.11
   reviews: 131
-  icon: com.hxg.wallet.webp
   meta: removed
   verdict: nosource
   developerName: WOW EARN Wallet
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-06-25
   version: 3.6.8
   reviews: 85
-  icon: com.ULLA.wallet.WalletForiOS.webp
   meta: ok
   verdict: nosource
   developerName: WOW EARN TECHNOLOGY DMCC

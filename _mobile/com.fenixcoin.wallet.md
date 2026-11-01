@@ -9,7 +9,6 @@ android:
   released: 2018-04-09
   updated: 2018-04-09
   version: v1.0.1
-  icon: com.fenixcoin.wallet.webp
   meta: removed
   verdict: wip
 

@@ -10,7 +10,6 @@ android:
   released: 2021-10-02
   updated: 2022-05-05
   version: '2.0'
-  icon: com.cis.motacoin.webp
   meta: removed
   verdict: wip
 

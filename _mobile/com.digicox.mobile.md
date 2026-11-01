@@ -13,7 +13,6 @@ android:
   updated: 2021-07-13
   version: '1.0'
   reviews: 4
-  icon: com.digicox.mobile.webp
   meta: removed
   verdict: wip
   developerName: DigiCOX Limited

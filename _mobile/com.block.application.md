@@ -18,7 +18,6 @@ android:
   updated: 2023-01-13
   version: 2.4.40
   reviews: 5
-  icon: com.block.application.webp
   meta: obsolete
   verdict: custodial
   developerName: UOLLAR PTY LTD
@@ -30,7 +29,6 @@ iphone:
   updated: 2023-01-13
   version: 2.4.40
   reviews: 1
-  icon: com.lh2424.uollar.webp
   meta: removed
   verdict: custodial
   developerName: UOLLAR PTY LTD

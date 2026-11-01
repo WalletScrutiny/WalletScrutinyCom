@@ -29,7 +29,6 @@ android:
   updated: 2026-09-24
   version: 5.0.0
   reviews: 568
-  icon: com.ellipal.wallet.webp
   meta: ok
   verdict: nosource
   developerName: ellipal
@@ -41,7 +40,6 @@ iphone:
   updated: 2026-09-25
   version: 5.0.0
   reviews: 2958
-  icon: com.Ellipal.Ellipal.webp
   meta: ok
   verdict: nosource
   developerName: Ellipal

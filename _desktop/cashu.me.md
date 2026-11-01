@@ -12,7 +12,6 @@ provider: Cashu
 providerWebsite: https://cashu.space
 website: https://cashu.me
 repository: https://github.com/cashubtc/cashu.me
-icon: cashu.me.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

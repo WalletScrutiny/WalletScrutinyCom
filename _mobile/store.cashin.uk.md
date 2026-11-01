@@ -18,7 +18,6 @@ android:
   updated: 2022-02-10
   version: 4.5.0
   reviews: 28
-  icon: store.cashin.uk.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -29,7 +28,6 @@ iphone:
   updated: 2025-07-21
   version: '8.4'
   reviews: 1
-  icon: com.cashin.store.webp
   meta: stale
   verdict: custodial
   developerName: BCP Technologies Ltd

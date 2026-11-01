@@ -10,7 +10,6 @@ android:
   released: 2020-02-22
   updated: 2020-07-12
   version: '2.0'
-  icon: com.tazminsho.app.webp
   meta: removed
   verdict: wip
   developerName: TazminSho Team

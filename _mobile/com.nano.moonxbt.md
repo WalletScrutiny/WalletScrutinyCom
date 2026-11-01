@@ -19,7 +19,6 @@ android:
   updated: 2023-01-11
   version: 5.4.3
   reviews: 23
-  icon: com.nano.moonxbt.webp
   meta: removed
   verdict: custodial
   developerName: NANO TRADE GLOBAL TECHNOLOGY LIMITED
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-10-10
   version: 6.26.0
   reviews: 20
-  icon: com.nano.moonxbt.webp
   meta: ok
   verdict: custodial
   developerName: NANO TRADE GLOBAL

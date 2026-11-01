@@ -12,7 +12,6 @@ android:
   updated: 2022-05-31
   version: '1.0'
   reviews: 2
-  icon: com.app.boastcoast12.webp
   meta: removed
   verdict: wip
   developerName: BoastCoast.com
