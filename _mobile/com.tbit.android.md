@@ -6,7 +6,6 @@ authors:
 website: https://www.tbitex.com/
 social:
 - https://www.linkedin.com/company/tbit-global
-- https://www.tbitex.com
 redirect_from:
 - /android/com.tbit.android/
 - /iphone/TbitApp.com/

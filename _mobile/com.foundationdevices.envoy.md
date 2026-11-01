@@ -11,7 +11,6 @@ social:
 - https://www.youtube.com/@foundationdevices
 - https://www.reddit.com/r/FoundationDevices
 - https://t.me/foundationdevices
-- https://foundationdevices.com
 features:
 - TOR
 - companion

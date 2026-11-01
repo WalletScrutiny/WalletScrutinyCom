@@ -3,12 +3,12 @@ title: Pro Exchange
 date: 2026-10-30
 authors:
 - danny
+website: https://www.proex.io#deadLink
 social:
 - https://www.facebook.com/b.c.proex
 - https://t.me/ProExchange2
 - https://discord.com/invite/EG8rVx7qpU#deadLink
 - https://www.instagram.com/proex.io
-- https://www.proex.io#deadLink
 redirect_from:
 - /android/com.chainup.exchange.ProEX2/
 android:

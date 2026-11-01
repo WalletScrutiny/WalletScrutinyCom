@@ -10,7 +10,6 @@ social:
 - https://www.linkedin.com/company/sonicwallet
 - https://www.instagram.com/sonicwallet
 - https://www.youtube.com/channel/UCilya9JzFKcTxk1wOPIyH2A
-- https://www.sonicwallet.com
 redirect_from:
 - /android/com.sonicwallet/
 - /iphone/com.sonicwallet/

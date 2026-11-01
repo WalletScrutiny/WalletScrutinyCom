@@ -6,7 +6,6 @@ authors:
 website: http://www.doex.com
 twitter: Doex888
 social:
-- https://www.doex.com/
 - https://t.me/DoexOfficial888
 - https://www.youtube.com/channel/UCsLBiU-tsyhzcFAf19lBZqQ
 redirect_from:

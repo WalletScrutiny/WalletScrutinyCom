@@ -9,7 +9,6 @@ social:
 - https://www.linkedin.com/company/bitoshiafrica
 - https://www.instagram.com/bitoshi.africa
 - https://t.me/+c4ek89XILkc2OTk8
-- https://bitoshi.africa
 redirect_from:
 - /android/com.bitoshi/
 - /iphone/com.bitoshi/

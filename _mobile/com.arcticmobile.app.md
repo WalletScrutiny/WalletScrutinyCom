@@ -10,7 +10,6 @@ social:
 - https://www.linkedin.com/company/arctic-wallet
 - https://www.facebook.com/arcticwallet
 - https://medium.com/@marketing_43986
-- https://arcticwallet.io
 redirect_from:
 - /android/com.arcticmobile.app/
 - /iphone/com.arcticmobile.app/

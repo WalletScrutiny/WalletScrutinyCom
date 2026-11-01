@@ -3,8 +3,7 @@ title: BMG INT
 date: 2024-02-05
 authors:
 - danny
-social:
-- https://www.bmgcrypto.us
+website: https://www.bmgcrypto.us
 redirect_from:
 - /android/com.yesapp.mw/
 android:

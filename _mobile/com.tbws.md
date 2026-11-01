@@ -4,8 +4,6 @@ date: 2024-07-25
 authors:
 - danny
 website: https://theblackwallstreet.com
-social:
-- https://theblackwallstreet.com
 redirect_from:
 - /android/com.tbws/
 - /iphone/com.tbws1.app/

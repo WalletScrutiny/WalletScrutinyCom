@@ -8,7 +8,6 @@ twitter: AQRU_Official
 social:
 - https://www.linkedin.com/company/get-aqru
 - https://t.me/AQRU_Official
-- https://aqru.io
 redirect_from:
 - /android/com.accru/
 - /iphone/org.reactjs.native.example.AccruApp/

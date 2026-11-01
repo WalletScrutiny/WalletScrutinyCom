@@ -7,7 +7,6 @@ website: https://www.tradehall.co#deadLink
 social:
 - https://www.facebook.com/Tradehall.co
 - https://www.instagram.com/tradehall_ltd
-- https://www.tradehall.co#deadLink
 redirect_from:
 - /android/co.tradehall.app.tradehall/
 - /iphone/co.tradehall.app.tradehall/

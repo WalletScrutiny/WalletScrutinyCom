@@ -6,7 +6,6 @@ authors:
 website: https://fintoda.com
 social:
 - https://t.me/joinchat/0XnTfyBrU-tiOTNi
-- https://fintoda.com
 redirect_from:
 - /android/com.fintoda.app/
 - /iphone/com.fintoda.app/

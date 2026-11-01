@@ -8,7 +8,6 @@ twitter: ArumTrade
 social:
 - https://www.facebook.com/arumtrade
 - https://www.instagram.com/arum_trade
-- https://arumtrade.com/en#deadLink
 redirect_from:
 - /android/com.arumtrade.app.android/
 android:

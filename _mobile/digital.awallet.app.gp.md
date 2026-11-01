@@ -4,8 +4,6 @@ date: 2024-12-31
 authors:
 - danny
 website: https://awallet.digital
-social:
-- https://awallet.digital/
 redirect_from:
 - /android/digital.awallet.app.gp/
 android:

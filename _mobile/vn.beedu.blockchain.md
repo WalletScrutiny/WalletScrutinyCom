@@ -11,7 +11,6 @@ social:
 - https://www.youtube.com/channel/UCH1a6zb0lnkt69rMLFdN4zg
 - https://www.instagram.com/lynkey__
 - https://t.me/LynKeychat
-- https://lynkey.com#deadLink
 redirect_from:
 - /android/vn.beedu.blockchain/
 - /iphone/vn.beedu.blockchain/

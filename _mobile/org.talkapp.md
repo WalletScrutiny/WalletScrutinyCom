@@ -4,8 +4,6 @@ date: 2026-10-30
 authors:
 - danny
 website: https://talkapp.org
-social:
-- https://talkapp.org
 features:
 - hd
 redirect_from:
