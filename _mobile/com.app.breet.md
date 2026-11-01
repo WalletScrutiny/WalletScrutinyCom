@@ -1,6 +1,6 @@
 ---
 title: Breet - Buy, Swap, Sell Crypto
-date: 2026-10-30
+date: 2026-11-01
 authors:
 - danny
 website: https://breet.app
@@ -22,7 +22,7 @@ android:
   version: 7.3.2
   reviews: 216
   meta: ok
-  verdict: nosendreceive
+  verdict: nobtc
   developerName: Inbreetic Technologies Limited
 iphone:
   appId: com.app.breet
@@ -33,10 +33,11 @@ iphone:
   version: 7.3.0
   reviews: 1251
   meta: ok
-  verdict: nosendreceive
+  verdict: nobtc
   developerName: BREET TECHNOLOGIES LIMITED
 
 ---
+**Update 2026-11-01:** Breet converts bitcoin you send in to a naira or cedi "cash wallet", which you then withdraw to a bank. It holds your money, but not as bitcoin, and you can't take bitcoin back out. That makes it {% include verdictBadge.html verdict="nobtc" type='short' %}, the verdict we give off-ramps that keep a fiat balance.
 
 ## Android
 

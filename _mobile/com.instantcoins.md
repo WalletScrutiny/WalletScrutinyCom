@@ -1,6 +1,6 @@
 ---
 title: 'Instantcoins: sell bitcoin in '
-date: 2026-10-30
+date: 2026-11-01
 authors:
 - danny
 website: https://instantcoins.ng#deadLink
@@ -19,7 +19,7 @@ android:
   version: 1.0.6
   reviews: 161
   meta: removed
-  verdict: nosendreceive
+  verdict: nowallet
   developerName: instantcoins technologies
 iphone:
   appId: com.instantcoins
@@ -29,9 +29,10 @@ iphone:
   version: 1.0.5
   reviews: 26
   meta: removed
-  verdict: nosendreceive
+  verdict: nowallet
 
 ---
+**Update 2026-11-01:** Instantcoins sells bitcoin you send in and pays the naira straight to your bank account, so it never holds a balance. That makes it {% include verdictBadge.html verdict="nowallet" type='short' %}, the verdict we give off-ramps that hold no balance.
 
 **Update 2026-10-30:** Instantcoins appears to be gone. Its domain now points to a link shortener's placeholder page.
 

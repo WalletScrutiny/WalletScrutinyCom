@@ -1,6 +1,6 @@
 ---
 title: 'Prestmit: Gift Cards & Crypto'
-date: 2026-10-30
+date: 2026-11-01
 authors:
 - danny
 website: https://prestmit.io
@@ -20,7 +20,7 @@ android:
   version: 7.2.498
   reviews: 890
   meta: ok
-  verdict: nosendreceive
+  verdict: nobtc
   developerName: Prestmit
 iphone:
   appId: com.prestmit.app
@@ -31,10 +31,11 @@ iphone:
   version: 7.2.498
   reviews: 7409
   meta: ok
-  verdict: nosendreceive
+  verdict: nobtc
   developerName: Prestmit Technologies LTD.
 
 ---
+**Update 2026-11-01:** Prestmit adds bitcoin you receive to your naira balance, which you then withdraw to a bank. It holds your money, but not as bitcoin, and you can't take bitcoin back out. That makes it {% include verdictBadge.html verdict="nobtc" type='short' %}, the verdict we give off-ramps that keep a fiat balance.
 
 ## Android
 
