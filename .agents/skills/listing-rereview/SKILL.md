@@ -5,8 +5,7 @@ description: Re-review existing WalletScrutiny listings (_mobile, _desktop, _har
 
 # Re-reviewing WalletScrutiny listings
 
-These rules come from Leo's review of the 2026-10-30 full re-review (!1862, !1870, !1882,
-!1895, !1896). Each one was a correction there. Follow them from the first file, not after
+Each rule here was a review correction once. Follow them from the first file, not after
 the review notes come in.
 
 The verdict and meta definitions are in `_data/verdicts/*.yml`. !1884 adds the
@@ -30,8 +29,12 @@ files as the authority and keep this skill in line with them.
    - **The other platform.** For an Android-only listing, search the App Store for the same
      app, and the other way round (see Coverage).
 3. Set `date:` to the review date, then make the edits below.
-4. Before you change a verdict, grep for similar products and match their verdicts. A change
-   on one platform does not imply the other.
+4. Decide the verdict from the definitions in `_data/verdicts/*.yml` and the rules below, not
+   by surveying similar listings; there are thousands. A change on one platform does not
+   imply the other.
+5. If the definitions leave a case open, or two readings are possible, make them clearer in
+   the yml file in a separate MR, then apply them (that is how !1884 came about).
+6. If you find a bug in a script on the way, fix it in a separate MR.
 
 ## What to write
 
@@ -81,12 +84,18 @@ files as the authority and keep this skill in line with them.
   TradeStation). Show the evidence for both halves.
 - A wallet for other coins that only watches BTC addresses is `nobtc`. `nowallet` is for
   products that hold no coins at all.
-- Products that do the same thing get the same verdict. Off-ramps were filed inconsistently
-  as `nowallet` and `nosendreceive`, so grep for the neighbours before you choose.
-- **Self-custody inside a custodial product.** An exchange with an optional in-app wallet
-  stays `custodial` by default. A self-custodial account can qualify when the app clearly
-  marks it as such (Bull Bitcoin's self-custody-first design). A Spark "self-custody" wallet
-  only counts if the app lets you do the unilateral exit yourself, which few do.
+- **Off-ramps are `nowallet`.** An app where you send bitcoin in and get fiat out (or gift
+  cards in, fiat out) never holds bitcoin you can take back out, so it fails the wallet test.
+  `nosendreceive` is for products that hold your bitcoin but do not let you send or receive
+  it.
+- **Custodial and self-custodial accounts in one product.** The product counts as
+  self-custodial when the custodial accounts are clearly marked as custodial. Usually the
+  self-custodial ones are marked too, but a product marketed as self-custodial with the
+  custodial exception marked is fine (Bull Bitcoin). An exchange that added an optional
+  wallet stays `custodial`. A Spark "self-custody" account only counts if the app lets you
+  do the unilateral exit yourself, which few do.
+- For an app that looks like a copycat or scam, list every red flag you find, check whether
+  it is `fake`, and add a warning when the flags add up.
 - `wip` stubs with evidence (an archived store page, an archived site, a successor already
   listed) get a real verdict, `fake` included. Without evidence they stay `wip`.
 - `sourceavailable` needs a per-platform `repository:` right after `reviews:`. If the
@@ -98,6 +107,9 @@ files as the authority and keep this skill in line with them.
 - `removed` overrules `defunct`. An app that left the store stays `removed`, and the warning
   says the provider is gone. `defunct` is for apps still listed and for non-store products.
   Check App Store removal yourself in more than one country before you call it listed.
+- `defunct` needs the app to depend on the provider's servers. A wallet that runs without
+  them cannot go defunct when its maker disappears (Schildbach's Bitcoin Wallet left Play but
+  lives on elsewhere).
 - Keep meta and text in agreement. If the update says a provider is back online, the meta
   goes back to `ok` too (XchangeOn said "back online" but stayed `defunct`).
 - **Hardware, bearer and other non-store products.** `defunct` only when the product cannot be
@@ -122,14 +134,16 @@ files as the authority and keep this skill in line with them.
   `iphone:` block, add `redirect_from` entries `/iphone/<iphoneAppId>/` and
   `/mobile/<iphone-file>/`, and delete the iPhone file. The MEXC merge (0042afa190) is the
   model.
-- Every Android-only listing: look for the iPhone app and add it. If the provider is gone
-  but the app is still in the App Store, add it as `defunct`.
+- Every Android-only listing: look for the iPhone app and add it. If it is still in the App
+  Store but depends on a provider that is gone, it is `defunct`.
 - New wallets you find on the way, such as successor apps or a rebrand's new app ID, get
-  added as listings. Do not just mention "an app we do not list yet". Put them in their own
-  MR (like !1889).
+  added as listings. Do not just mention "an app we do not list yet".
+- The other store's app and any new wallet go into the same MR as the review that found
+  them.
+- A hardware or bearer product with a companion app: link the app's listing with
+  `walletLink.html`, and add the app if we do not list it.
 - Mark dead links in the files you touch with `#deadLink`, or replace them with a Wayback URL
-  when one exists. `scripts/checkUrls.mjs` does this at scale, but it still scans
-  `_android`/`_iphone`, so it skips `_mobile`.
+  when one exists. `scripts/checkUrls.mjs` does this at scale.
 - Each platform keeps its own icon from its own store. Do not edit icons.
 
 ## Markup
@@ -141,20 +155,18 @@ files as the authority and keep this skill in line with them.
   target exists first, for example `grep -l '^  appId: <id>$' _mobile/*.md`.
 - No Play or App Store links in prose; the template already shows them.
 - The platform heading is `## iPhone`, not `## iOS`.
-- Never start a line with `{%` inside a list or quote unless the neighbouring lines do.
 
 ## Shipping
 
-- Keep each MR under 300 changed files, since GitLab review breaks above that.
-- For a large pass, split by how much review a file needs:
-  1. date bump only,
+- For a large pass, work in batches of 100 listings and split by how much review a file
+  needs:
+  1. date bump only, in one MR however large,
   2. corrections without a warning, verdict or meta change,
   3. warnings backed by a notice, regulator, court record or press,
   4. verdict and meta changes, warnings that rest only on a dead site, and your judgment
      calls. This is where review time goes.
 
-  List every file with its change in the MR description, and name each judgment call
-  separately so the reviewer can find it.
-- Before pushing, run `npm test` and the Jekyll build for the touched pages.
+  Keep MRs 2 to 4 under 300 changed files each, since GitLab review breaks above that.
+- Run `npm test` and the Jekyll build once, when all re-reviews are in, not per batch or MR.
 - After the last MR is merged, report per-platform before/after counts of verdicts and metas
   over the whole pass.
