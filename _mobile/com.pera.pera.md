@@ -32,7 +32,7 @@ iphone:
 
 ## App Description
 
-Pera is a Nigerian app for trading crypto and gift cards, paying bills (airtime, data, electricity, cable TV) and shopping in the "Pera Shop". Its website, [perahq.com](https://perahq.com/), names the operator as Pera Technologies LTD (RC:7897661). The Play description promises to "Buy and sell Bitcoin, Ethereum, BNB, Litecoin, Dogecoin, Shiba Inu, Solana, Cardano, and more" and says "Your assets are protected by SAFC (Secure Asset Fund for Clients)". The app replaces the earlier Pera app, {% include walletLink.html wallet='android/com.ewebmeta.ewebmeta' verdict='true' %}. Both list pera.cx as their website and use the same support address, support@pera.cx, and Pera's [support page](https://perahq.com/support.html) still links to the "eweb-meta" LinkedIn page. The pera.cx domain no longer resolves.
+Pera is a Nigerian app for trading crypto and gift cards, paying bills (airtime, data, electricity, cable TV) and shopping in the "Pera Shop". Its website, [perahq.com](https://perahq.com/), names the operator as Pera Technologies LTD (RC:7897661). The Play description promises to "Buy and sell Bitcoin, Ethereum, BNB, Litecoin, Dogecoin, Shiba Inu, Solana, Cardano, and more" and says "Your assets are protected by SAFC (Secure Asset Fund for Clients)". The app replaces the earlier Pera app, {% include walletLink.html wallet='android/com.ewebmeta.ewebmeta' verdict='true' %}. Both list pera.cx as their website and use the same support address, support@pera.cx, and Pera's [support page](https://perahq.com/support.html) still links to the "eweb-meta" LinkedIn page. The old pera.cx site no longer loads.
 
 ## Analysis
 

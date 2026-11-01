@@ -33,7 +33,7 @@ iphone:
 
 ---
 
-**Update 2026-10-30:** Zaif replaced this app with a new one from Zaif Inc., `jp.zaif.zaifapp` on Android and iPhone, which [zaif.jp](https://zaif.jp) now links to. We have not reviewed the new app yet.
+**Update 2026-10-30:** Zaif replaced this app with a new one from Zaif Inc. for Android and iPhone, which [zaif.jp](https://zaif.jp) now links to: {% include walletLink.html wallet='android/jp.zaif.zaifapp' verdict='true' %}.
 
 ## Android
 

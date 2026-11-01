@@ -13,7 +13,7 @@ android:
   version: 1.2.10
   icon: jp.co.rakuten.wallet.leverage.exchange.webp
   meta: ok
-  verdict: nosendreceive
+  verdict: nobtc
   developerName: Rakuten Wallet
 iphone:
   appId: jp.co.rakuten.wallet.leverage.exchange
@@ -25,7 +25,7 @@ iphone:
   reviews: 46
   icon: jp.co.rakuten.wallet.leverage.exchange.webp
   meta: ok
-  verdict: nosendreceive
+  verdict: nobtc
   developerName: Rakuten Wallet, Inc.
 
 ---
@@ -39,11 +39,11 @@ Rakuten Wallet's older margin app is {% include walletLink.html wallet='android/
 ## Analysis
 
 - **Bitcoin support.** Rakuten Wallet's [取引概要](https://web.archive.org/web/20250306143319/https://www.rakuten-wallet.co.jp/service/overview.html) ("Trading overview", March 2025) lists BTC/JPY among the pairs of the "証拠金取引（取引所）" (margin trading, exchange) service.
-- **Sending and receiving.** Rakuten Wallet's explainer [証拠金取引とは？](https://web.archive.org/web/20221129190639/https://www.rakuten-wallet.co.jp/start/leverage.html) ("What is margin trading?") says: "現物取引では代金と暗号資産を交換します。証拠金取引ではこの交換を行いません。その代わりどこかの時点で反対売買をして、差額を円建てで決済します。" ("In spot trading, money is exchanged for crypto assets. Margin trading does not make this exchange. Instead, at some point you make an offsetting trade and the difference is settled in yen.") The trading overview gives the spot service's "取引受渡日" (delivery date) as "約定日と同日" ("same day as the trade"), and for the margin exchange it gives only "-". The app trades contracts on the bitcoin price. No bitcoin is delivered into it, so it has nothing to send or receive. Sending and receiving coins happens in Rakuten Wallet's spot account. rakuten-wallet.co.jp returned HTTP 403 to us, so we cited archived copies.
+- **No bitcoin in the account.** Rakuten Wallet's explainer [証拠金取引とは？](https://web.archive.org/web/20221129190639/https://www.rakuten-wallet.co.jp/start/leverage.html) ("What is margin trading?") says: "現物取引では代金と暗号資産を交換します。証拠金取引ではこの交換を行いません。その代わりどこかの時点で反対売買をして、差額を円建てで決済します。" ("In spot trading, money is exchanged for crypto assets. Margin trading does not make this exchange. Instead, at some point you make an offsetting trade and the difference is settled in yen.") The trading overview gives the spot service's "取引受渡日" (delivery date) as "約定日と同日" ("same day as the trade"), and for the margin exchange it gives only "-". The app trades contracts on the bitcoin price. No bitcoin is delivered into it, so it has nothing to send or receive. Sending and receiving coins happens in Rakuten Wallet's spot account.
 - **Custody.** The funds in the margin account are held by Rakuten Wallet. Rakuten Wallet is the counterparty of a derivative, and the same explainer warns of "契約の相手方、楽天ウォレットの倒産リスク" ("the bankruptcy risk of the counterparty, Rakuten Wallet").
 
-We list other Japanese crypto margin and CFD apps the same way, for example {% include walletLink.html wallet='android/jp.co.okasan_online.okasanonline.crypto.prd' verdict='true' %} and {% include walletLink.html wallet='android/jp.co.moneypartners.CryptoTrade' verdict='true' %}. Our older listing of Rakuten Wallet's previous margin app predates this analysis.
+Our older listing of Rakuten Wallet's previous margin app predates this analysis.
 
-This app settles bitcoin price contracts in yen and cannot send or receive bitcoin, so it is {% include verdictBadge.html verdict="nosendreceive" type='short' %}. The same applies to the iPhone app, which comes from the same provider and connects to the same account.
+This app settles bitcoin price contracts in yen. Yen goes in and yen comes out, but the account never holds bitcoin, so it is a wallet, just not for Bitcoin: {% include verdictBadge.html verdict="nobtc" type='short' %}. The same applies to the iPhone app, which comes from the same provider and connects to the same account.
 
-**Can't send or receive bitcoins**
+**A wallet but not for Bitcoin**

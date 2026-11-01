@@ -33,7 +33,7 @@ iphone:
 
 ---
 
-**Update 2026-10-30:** Cofinex now offers a new app, "Cofinex: Buy Crypto, Stocks" (`io.cofinex.cofinex_mobile_app` on Android, and an iPhone app released in January 2026), linked from [cofinex.io](https://cofinex.io/en). It is not listed here yet.
+**Update 2026-10-30:** Cofinex now offers a new app for Android and iPhone, linked from [cofinex.io](https://cofinex.io/en): {% include walletLink.html wallet='android/io.cofinex.cofinex_mobile_app' verdict='true' %}.
 
 ## Android
 

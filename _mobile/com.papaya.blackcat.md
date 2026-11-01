@@ -33,7 +33,7 @@ iphone:
 
 ## App Description
 
-This is ";blackcat", the rebuilt app of the Malta e-money institution Papaya Ltd. It replaces the company's earlier app, {% include walletLink.html wallet='android/com.papaya.blackcatcard' verdict='true' %}. According to a [press release from March 2026](https://www.financexmagazine.com/post/european-fintech-blackcat-launches-multi-wallet-app-combining-euro-and-crypto-accounts-completing-r), Blackcat "launched a completely rebuilt mobile app based on a multi-wallet architecture that combines euro accounts and crypto services in a single interface". The launch came with "a formal rebrand that retires the Blackcatcard name". The app offers a euro IBAN, payment cards, SEPA transfers and a rewards program. The App Store description also lists "integrated crypto wallets" and says "An integrated crypto exchange and custodial crypto wallets are provided by MANERIO Sp. z o.o." The Play description does not mention crypto.
+This is ";blackcat", the rebuilt app of the Malta e-money institution Papaya Ltd. It replaces the company's earlier app, {% include walletLink.html wallet='android/com.papaya.blackcatcard' verdict='true' %}. According to a [press release from March 2026](https://www.financexmagazine.com/post/european-fintech-blackcat-launches-multi-wallet-app-combining-euro-and-crypto-accounts-completing-r), Blackcat "launched a completely rebuilt mobile app based on a multi-wallet architecture that combines euro accounts and crypto services in a single interface". The launch came with "a formal rebrand that retires the Blackcatcard name". The app offers a euro IBAN, payment cards, SEPA transfers and a rewards program. The App Store description also lists "integrated crypto wallets" and says "An integrated crypto exchange and custodial crypto wallets are provided by MANERIO Sp. z o.o." The Play description mentions crypto only once, as something to "Track stocks, crypto, and investments effortlessly".
 
 ## Analysis
 
@@ -41,7 +41,7 @@ This is ";blackcat", the rebuilt app of the Malta e-money institution Papaya Ltd
 - **Sending and receiving.** The App Store description lists "crypto wallet transfers", and maner.io says external crypto transfers are limited to "€2000 EUR per transaction and per day and €10000 EUR per month". Blackcat's [terms](https://blackcat.app/terms-conditions) list "a transfer to a crypto-asset address or crypto Wallet operated by a virtual asset service provider (VASP) or crypto-asset service provider (CASP)" among the transfer types.
 - **Custody.** The App Store description says the crypto wallets are "custodial crypto wallets ... provided by MANERIO Sp. z o.o.". The terms treat them as "Linked Wallets or Crypto Wallets" held with a third-party VASP or CASP, whose balance "reflects the information received from the corresponding third-party institution or provider". The user never holds the keys.
 
-We could not confirm that the crypto service is offered in the Android app. Its store description no longer mentions crypto, and the website hides its crypto sections. If it is offered, it is the same custodial service as on iPhone.
+We could not confirm that the crypto service is offered in the Android app. Its store description only mentions tracking crypto, and the website hides its crypto sections. If it is offered, it is the same custodial service as on iPhone.
 
 Bitcoin in ;blackcat is held by Blackcat's partner MANERIO, so the app is {% include verdictBadge.html verdict="custodial" type='short' %}, like the app it replaces.
 

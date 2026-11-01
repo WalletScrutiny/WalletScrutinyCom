@@ -54,6 +54,6 @@ iphone:
 
 ## iPhone
 
-**Update 2026-10-30:** This iPhone app is no longer in the App Store. The same group now publishes "ActPass: Seraph Wallet" (bundle ID `com.actoz.tech`, by Artal Internet FZ-LLC), which is not listed here yet.
+**Update 2026-10-30:** This iPhone app is no longer in the App Store. The same group now publishes {% include walletLink.html wallet='iphone/com.actoz.tech' verdict='true' %}, by Artal Internet FZ-LLC.
 
 The Android analysis above applies to the iPhone app too.

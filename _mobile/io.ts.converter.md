@@ -36,7 +36,7 @@ iphone:
 
 ---
 
-**Update 2026-10-30:** TapSwap now lets users send and receive bitcoin: its [website](https://tapswap.io) advertises "Buy, sell, send and receive crypto", and its [terms](https://tapswap.io/terms-of-service/) allow withdrawals to external accounts, including over Lightning. The same terms say "All Digital Assets held in your TapSwap Account are custodial assets held by TapSwap", so the app is now {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** TapSwap now lets users send and receive bitcoin, and since 2025 it also has an iPhone app, published by TapSwap Kenya Limited. Its [website](https://tapswap.io) advertises "Buy, sell, send and receive crypto", and its [terms](https://tapswap.io/terms-of-service/) allow withdrawals to external accounts, including over Lightning. The same terms say "All Digital Assets held in your TapSwap Account are custodial assets held by TapSwap", so both apps are now {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## App Description
 
@@ -57,7 +57,3 @@ In the [FAQs,](https://tapswap.io/faqs/) "Can I transfer cash or Bitcoin from on
 As with most custodial entities, [TapSwap is also capable of terminating your access to their services. (17. Suspension;Termination)](https://tapswap.io/terms-of-service/)
 
 This qualifies TapSwap to a custodial verdict, which also makes it **nonverifiable**. However, because sending and receiving bitcoin is locked behind a Pro account, and Pro accounts have purportedly not yet been implemented, we instead assign this app with the "no sending and receiving" verdict.
-
-## iPhone
-
-The iPhone app, published by TapSwap Kenya Limited, describes TapSwap as "the easy, secure, and reliable way to buy, sell, swap, send and receive crypto in Africa & beyond". Sending is no longer limited to a future Pro account: TapSwap's [terms](https://tapswap.io/terms-of-service/) let users "withdraw your Digital Assets by instructing TapSwap to debit the applicable Digital Asset from your TapSwap Account and transferring the Digital Assets to an External Account", and for bitcoin also over "the Lightning Network". The same terms say: "All Digital Assets held in your TapSwap Account are custodial assets held by TapSwap for your benefit". The iPhone app is therefore {% include verdictBadge.html verdict="custodial" type='short' %}.

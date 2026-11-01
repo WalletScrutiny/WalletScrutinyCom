@@ -10,7 +10,6 @@ social:
 - https://medium.com/@wowearn2023
 redirect_from:
 - /android/com.hxg.wallet/
-- /iphone/com.ULLA.wallet.WalletForiOS/
 android:
   appId: com.hxg.wallet
   users: 100000
@@ -21,23 +20,11 @@ android:
   meta: removed
   verdict: nosource
   developerName: WOW EARN Wallet
-iphone:
-  appId: com.ULLA.wallet.WalletForiOS
-  idd: '6443434220'
-  appCountry: us
-  released: 2022-10-19
-  updated: 2026-06-25
-  version: 3.6.8
-  reviews: 85
-  meta: ok
-  verdict: nosource
-  developerName: WOW EARN TECHNOLOGY DMCC
-
 ---
 
 ## Android
 
-**Update 2026-10-30:** This Android app is gone from Google Play. The [WOW EARN website](https://wowearn.com/) now points Android users to a new app, "WOW EARN: Web3 Wallet & Chat" (app ID `com.wowchat.wallet`), which we have not reviewed yet.
+**Update 2026-10-30:** This Android app is gone from Google Play. The [WOW EARN website](https://wowearn.com/) now points Android users to a new app, {% include walletLink.html wallet='android/com.wowchat.wallet' verdict='true' %}. The iPhone app, which used to share this listing, is now listed with that new Android app.
 
 ## Update 2024-07-24
 
@@ -58,9 +45,3 @@ There has been no progress in making the app's source code accessible.
 - We searched for the app Id in [GitHub Code](https://github.com/search?q=com.hxg.wallet&type=code), but did not find anything.
 - The provider also doesn't say whether the project was source-available or not. They do have a [GitHub organization account](https://github.com/web32023), but with sparse repositories.
 - This app is **not source-available**.
-
----
-
-## iPhone
-
-The Android analysis above applies to the iPhone app too.

@@ -29,7 +29,7 @@ iphone:
 
 ---
 
-**⚠️ Warning:** In June 2023 the German regulator BaFin warned that Blackfort Tech Estonia OÜ offers banking or financial services through blackfort.exchange without a licence, as [BehindMLM reported](https://behindmlm.com/companies/blackfort-wallet-securities-fraud-warning-from-germany/). The same site says the company is "operated by persons unknown". Its [2022 review](https://behindmlm.com/mlm-reviews/blackfort-wallet-review-bxn-token-nodes-ponzi/) calls BlackFort's token investment scheme a Ponzi scheme and reports that "BlackFort Wallet pays affiliates 10% of funds invested in BXN tokens". The wallet is closed source, so its self-custody claim cannot be checked.
+**⚠️ Warning:** In June 2023 the German regulator BaFin [warned](https://web.archive.org/web/20230925024607/https://www.bafin.de/SharedDocs/Veroeffentlichungen/DE/Verbrauchermitteilung/unerlaubte/2023/meldung_2023_06_29_blackfort_exchange.html) that Blackfort Tech Estonia OÜ offers banking or financial services through blackfort.exchange without a licence. [BehindMLM](https://behindmlm.com/companies/blackfort-wallet-securities-fraud-warning-from-germany/) says the company is "operated by persons unknown", and its [2022 review](https://behindmlm.com/mlm-reviews/blackfort-wallet-review-bxn-token-nodes-ponzi/) calls BlackFort's token investment scheme a Ponzi scheme and reports that "BlackFort Wallet pays affiliates 10% of funds invested in BXN tokens". The wallet is closed source, so its self-custody claim cannot be checked.
 
 ## App Description
 

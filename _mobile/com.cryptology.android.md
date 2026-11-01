@@ -34,7 +34,7 @@ iphone:
 
 ---
 
-**Update 2026-10-30:** Cryptology has rebranded as Tothemoon. Since early 2025 [cryptology.com](https://cryptology.com/) forwards to [tothemoon.com](https://tothemoon.com/), which promotes a new app, "Tothemoon: Buy & Trade BTC" (`com.cryptology.flutter` on Android, `com.cryptology.go` on iPhone), from the same Cypher group. That new app is not reviewed here yet.
+**Update 2026-10-30:** Cryptology has rebranded as Tothemoon. Since early 2025 [cryptology.com](https://cryptology.com/) forwards to [tothemoon.com](https://tothemoon.com/), which promotes a new app from the same Cypher group: {% include walletLink.html wallet='android/com.cryptology.flutter' verdict='true' %}.
 
 ## Android
 

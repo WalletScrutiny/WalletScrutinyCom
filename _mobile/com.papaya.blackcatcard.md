@@ -33,7 +33,7 @@ iphone:
 
 ---
 
-**Update 2026-10-30:** The provider renamed itself Blackcat and [launched a rebuilt app](https://www.financexmagazine.com/post/european-fintech-blackcat-launches-multi-wallet-app-combining-euro-and-crypto-accounts-completing-r), ";blackcat", whose crypto services come from "a separately licensed European partner". That new app has its own app ID and is not listed here yet.
+**Update 2026-10-30:** The provider renamed itself Blackcat and [launched a rebuilt app](https://www.financexmagazine.com/post/european-fintech-blackcat-launches-multi-wallet-app-combining-euro-and-crypto-accounts-completing-r), ";blackcat", whose crypto services come from "a separately licensed European partner". That new app is {% include walletLink.html wallet='android/com.papaya.blackcat' verdict='true' %}.
 
 ## Android
 
@@ -94,6 +94,6 @@ We assume that DigiNord provides the cryptocurrency services and BlackCatCard in
 
 ## iPhone
 
-**Update 2026-10-30:** This app is gone from the App Store. The new ";blackcat" app from the same developer, Papaya Ltd, has been there since 2025-06-17.
+**Update 2026-10-30:** This app is gone from the App Store. The new ";blackcat" app from the same developer, Papaya Ltd, has been there since 2025-06-17. It is listed as {% include walletLink.html wallet='android/com.papaya.blackcat' verdict='true' %}.
 
 The Android analysis above applies to the iPhone app too.
