@@ -1,6 +1,6 @@
 ---
 title: 'Inflowchange: Sell Bitcoin'
-date: 2026-11-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.inflowbit.com
@@ -20,13 +20,11 @@ android:
   released: 2023-02-17
   updated: 2023-06-25
   version: '1.8'
-  icon: com.inflowchange.inflowchange.webp
   meta: removed
-  verdict: nowallet
+  verdict: nosendreceive
   developerName: Paychatik Ltd.
 
 ---
-**Update 2026-11-01:** Inflowchange is an off-ramp: bitcoin sent to it is sold for fiat, and there is no way to take bitcoin back out. That makes it {% include verdictBadge.html verdict="nowallet" type='short' %}, the verdict we give all off-ramps.
 
 **Update 2026-10-30:** Inflowchange is now called InflowBit. The old inflowchange.com site no longer loads, and this app is gone from Google Play. The same developer, Paychatik Ltd., now offers "InflowBit: Buy & Sell Bitcoin" on Google Play, linked from [inflowbit.com](https://www.inflowbit.com). Its FAQ still says the in-app wallet can only receive crypto to sell it for cash, not send it.
 

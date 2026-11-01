@@ -19,11 +19,11 @@ android:
   reviews: 6
   icon: com.coinstick.myapp.webp
   meta: ok
-  verdict: nowallet
+  verdict: nobtc
   developerName: Coinstick
 
 ---
-**Update 2026-11-01:** Coinstick is an off-ramp: bitcoin sent to it is sold for fiat, and there is no way to take bitcoin back out. That makes it {% include verdictBadge.html verdict="nowallet" type='short' %}, the verdict we give all off-ramps.
+**Update 2026-11-01:** Coinstick keeps your balance in naira and sells bitcoin you deposit for naira right away. It holds your money, but not as bitcoin, and you can't take bitcoin back out. That makes it {% include verdictBadge.html verdict="nobtc" type='short' %}, the verdict we give off-ramps that keep a fiat balance.
 
 **Update 2026-10-30:** Coinstick's [website](https://www.coinstick.co/crypto-to-wallet) now advertises a "crypto wallet" with a dedicated Bitcoin deposit address per account. Its own steps describe deposits being detected and sold for naira right away, like {% include walletLink.html wallet='android/com.app.breet' verdict='true' %}, and we found no way to send Bitcoin out, so we keep this app as {% include verdictBadge.html verdict="nosendreceive" type='short' %} until we can test the new wallet.
 

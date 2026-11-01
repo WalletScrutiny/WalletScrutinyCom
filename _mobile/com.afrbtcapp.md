@@ -16,11 +16,11 @@ android:
   reviews: 139
   icon: com.afrbtcapp.webp
   meta: obsolete
-  verdict: nowallet
+  verdict: nobtc
   developerName: GiftCards Team
 
 ---
-**Update 2026-11-01:** AfrBTC is an off-ramp: bitcoin sent to it is sold for fiat, and there is no way to take bitcoin back out. That makes it {% include verdictBadge.html verdict="nowallet" type='short' %}, the verdict we give all off-ramps.
+**Update 2026-11-01:** AfrBTC converts bitcoin you send in to its naira "fiat wallet", which you then cash out. It holds your money, but not as bitcoin, and you can't take bitcoin back out. That makes it {% include verdictBadge.html verdict="nobtc" type='short' %}, the verdict we give off-ramps that keep a fiat balance.
 
 **Update 2026-10-30:** AfrBTC appears to be gone. Its [website](https://web.archive.org/web/20251118170539/https://www.afrbtc.com/) and the privacy policy linked from Google Play no longer load; the last archived copy is from November 2025. The app is still on Google Play but has not been updated since July 2024.
 

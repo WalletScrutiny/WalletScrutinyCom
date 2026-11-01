@@ -21,7 +21,7 @@ android:
   reviews: 890
   icon: com.prestmit.webp
   meta: ok
-  verdict: nowallet
+  verdict: nobtc
   developerName: Prestmit
 iphone:
   appId: com.prestmit.app
@@ -33,11 +33,11 @@ iphone:
   reviews: 7409
   icon: com.prestmit.app.webp
   meta: ok
-  verdict: nowallet
+  verdict: nobtc
   developerName: Prestmit Technologies LTD.
 
 ---
-**Update 2026-11-01:** Prestmit is an off-ramp: bitcoin sent to it is sold for fiat, and there is no way to take bitcoin back out. That makes it {% include verdictBadge.html verdict="nowallet" type='short' %}, the verdict we give all off-ramps.
+**Update 2026-11-01:** Prestmit adds bitcoin you receive to your naira balance, which you then withdraw to a bank. It holds your money, but not as bitcoin, and you can't take bitcoin back out. That makes it {% include verdictBadge.html verdict="nobtc" type='short' %}, the verdict we give off-ramps that keep a fiat balance.
 
 ## Android
 

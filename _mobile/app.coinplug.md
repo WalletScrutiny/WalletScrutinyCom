@@ -20,7 +20,7 @@ android:
   reviews: 5
   icon: app.coinplug.webp
   meta: stale
-  verdict: nowallet
+  verdict: nobtc
   developerName: CoinPlug Digitals LTD
 iphone:
   appId: app.coinplug.ng
@@ -32,11 +32,11 @@ iphone:
   reviews: 14
   icon: app.coinplug.ng.webp
   meta: stale
-  verdict: nowallet
+  verdict: nobtc
   developerName: COINPLUG LTD
 
 ---
-**Update 2026-11-01:** CoinPlug is an off-ramp: bitcoin sent to it is sold for fiat, and there is no way to take bitcoin back out. That makes it {% include verdictBadge.html verdict="nowallet" type='short' %}, the verdict we give all off-ramps.
+**Update 2026-11-01:** CoinPlug credits bitcoin you deposit to your account as fiat, which you then ask to have paid out to a Nigerian bank. It holds your money, but not as bitcoin, and you can't take bitcoin back out. That makes it {% include verdictBadge.html verdict="nobtc" type='short' %}, the verdict we give off-ramps that keep a fiat balance.
 
 ## Android
 
