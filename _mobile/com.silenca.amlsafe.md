@@ -1,6 +1,6 @@
 ---
 title: Safe3 - Crypto Wallet
-date: 2021-04-11
+date: 2026-10-30
 authors:
 - leo
 website: https://safe3.app/
@@ -20,7 +20,7 @@ android:
   reviews: 2
   icon: com.silenca.amlsafe.webp
   meta: ok
-  verdict: custodial
+  verdict: nosource
   developerName: Avelot Limited
 iphone:
   appId: com.avelot.amlsafe
@@ -32,10 +32,18 @@ iphone:
   reviews: 51
   icon: com.avelot.amlsafe.webp
   meta: ok
-  verdict: custodial
+  verdict: nosource
   developerName: Avelot Limited
 
 ---
+
+**Update 2026-10-30:** AMLSafe is now called Safe3. The [website](https://safe3.app/) and the
+app descriptions now call it a "Non-custodial wallet", and the
+[terms of use](https://safe3.app/terms-of-use) say Safe3 "does not
+receive or store your Wallet password, encrypted private key, unencrypted private
+key, or mnemonic (backup) phrase". We found no source code for the app, so we
+change the verdict of both apps from custodial to
+{% include verdictBadge.html verdict="nosource" type='short' %}.
 
 ## Android
 

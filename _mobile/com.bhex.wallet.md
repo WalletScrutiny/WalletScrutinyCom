@@ -1,6 +1,6 @@
 ---
 title: Bluehelix Wallet
-date: 2022-03-16
+date: 2026-10-30
 authors:
 - danny
 - emanuel
@@ -20,7 +20,7 @@ android:
   reviews: 4
   icon: com.bhex.wallet.webp
   meta: removed
-  verdict: wip
+  verdict: nosource
 iphone:
   appId: com.bluehelix.wallet.ios
   idd: 1535791362
@@ -30,9 +30,11 @@ iphone:
   reviews: 1
   icon: com.bluehelix.wallet.ios.webp
   meta: removed
-  verdict: wip
+  verdict: nosource
 
 ---
+
+**Update 2026-10-30:** The provider is gone, and with it the code we were waiting on, so both apps get the verdict {% include verdictBadge.html verdict="nosource" type='short' %}. bhexchain.com now forwards to a GoDaddy "domain for sale" page, and the [bluehelix-chain GitHub account](https://github.com/bluehelix-chain) no longer exists. Our 2021 test below showed a self-custodial wallet.
 
 ## Android
 

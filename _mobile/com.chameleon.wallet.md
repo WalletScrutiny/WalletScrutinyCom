@@ -1,6 +1,6 @@
 ---
 title: Chameleon Pay
-date: 2020-12-08
+date: 2026-10-30
 website: https://www.chainzilla.io
 twitter: chainzillaio
 social:
@@ -18,9 +18,16 @@ android:
   reviews: 61
   icon: com.chameleon.wallet.webp
   meta: removed
-  verdict: wip
+  verdict: nosource
 
 ---
+
+**Update 2026-10-30:** We now assign a real verdict:
+{% include verdictBadge.html verdict="nosource" type='short' %}. An
+[archived copy of its store page](http://web.archive.org/web/20190512043905/https://play.google.com/store/apps/details?id=com.chameleon.wallet)
+from May 2019 says "Non-Custodial" and "Your private keys never leave your
+device", and ChainZilla's [GitHub](https://github.com/ChainZilla) has no app
+source, only a [server list for Chameleon Pay](https://github.com/ChainZilla/chamspv).
 
 **Update:** The app is not available on Google Play anymore.
 

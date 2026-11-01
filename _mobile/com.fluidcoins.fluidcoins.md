@@ -1,6 +1,6 @@
 ---
 title: Fluidcoins
-date: 2021-11-26
+date: 2026-10-30
 redirect_from:
 - /android/com.fluidcoins.fluidcoins/
 android:
@@ -11,8 +11,10 @@ android:
   version: 0.7.8
   icon: com.fluidcoins.fluidcoins.webp
   meta: removed
-  verdict: wip
+  verdict: custodial
 
 ---
+
+**Update 2026-10-30:** The [archived store page from May 2021](https://web.archive.org/web/20210517133513/https://play.google.com/store/apps/details?id=com.fluidcoins.fluidcoins) told users to "secure your cryptocurrencies in our secure wallet", so we now list it as {% include verdictBadge.html verdict="custodial" type='short' %}. The company was [acquired by Blockfinex](https://techpoint.africa/2023/02/16/blockfinex-acquires-fluidcoins/) in February 2023.
 
 **Update 2021-11-16**: This app is not on Play Store anymore.

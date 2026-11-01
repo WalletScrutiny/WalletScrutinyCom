@@ -1,6 +1,6 @@
 ---
 title: 'Giottus: Crypto Investing App'
-date: 2024-07-15
+date: 2026-10-30
 authors:
 - danny
 website: https://www.giottus.com
@@ -33,7 +33,7 @@ iphone:
   reviews: 1122
   icon: com.giottus.app.webp
   meta: ok
-  verdict: nosource
+  verdict: custodial
   developerName: giottus
 
 ---
@@ -74,5 +74,7 @@ Security information
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** We change this app's verdict from {% include verdictBadge.html verdict="nosource" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}. The iPhone app uses the same Giottus account, and the [Terms](https://www.giottus.com/docs/termsandconditions.html) still say Giottus keeps the private keys in its control.
 
 The Android analysis above applies to the iPhone app too.

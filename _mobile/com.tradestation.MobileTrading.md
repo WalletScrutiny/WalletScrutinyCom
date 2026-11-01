@@ -1,6 +1,6 @@
 ---
 title: 'TradeStation: Trade & Invest'
-date: 2021-10-10
+date: 2026-10-30
 authors:
 - danny
 website: http://tradestation.com/contact-us/
@@ -21,7 +21,7 @@ android:
   reviews: 2069
   icon: com.tradestation.MobileTrading.webp
   meta: ok
-  verdict: custodial
+  verdict: nobtc
   developerName: TradeStation Technologies
 iphone:
   appId: com.tradestation.MobileTrading
@@ -33,12 +33,14 @@ iphone:
   reviews: 18346
   icon: com.tradestation.MobileTrading.webp
   meta: ok
-  verdict: custodial
+  verdict: nobtc
   developerName: TradeStation Technologies
 
 ---
 
 ## Android
+
+**Update 2026-10-30:** TradeStation no longer offers spot bitcoin: its crypto subsidiary TradeStation Crypto permanently suspended all trading and withdrawals on February 22, 2024 ([Benzinga](https://www.benzinga.com/markets/cryptocurrency/24/01/36679407/tradestation-crypto-bows-out-of-spot-cryptocurrency-trading-what-investors-need-to-know)), and the old crypto page now redirects to the general [FAQ](https://www.tradestation.com/faqs/). The app still holds a brokerage account you can fund and withdraw from, but no bitcoin, so the verdict changes from {% include verdictBadge.html verdict="custodial" type='short' %} to {% include verdictBadge.html verdict="nobtc" type='short' %}. The text below describes the app as it was in 2021.
 
 {% include review/bitgo.md %}
 

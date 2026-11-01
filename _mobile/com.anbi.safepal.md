@@ -1,6 +1,6 @@
 ---
 title: SafePal - Crypto Wallet BTC
-date: 2021-01-15
+date: 2026-10-30
 website: https://www.safepal.io/
 twitter: iSafePal
 redirect_from:
@@ -15,9 +15,11 @@ iphone:
   reviews: 19
   icon: com.anbi.safepal.webp
   meta: removed
-  verdict: wip
+  verdict: nosource
 
 ---
+
+**Update 2026-10-30:** SafePal's current iPhone app, by SAFEPAL LTD., is {% include walletLink.html wallet='iphone/walletapp.safepal.io' verdict='true' %}, released on 2021-01-11, less than two weeks after this app's last update. As SafePal has not published the full source of its app (their [safepal-app](https://github.com/SafePalWallet/safepal-app) repository is a "Core Version"), we give this predecessor the same verdict: {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 This app appears to have disappeared from the App Store but
 

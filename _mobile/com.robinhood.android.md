@@ -1,6 +1,6 @@
 ---
 title: 'Robinhood: Trading & Investing'
-date: 2021-09-15
+date: 2026-10-30
 authors:
 - danny
 website: https://robinhood.com/
@@ -22,7 +22,7 @@ android:
   reviews: 270214
   icon: com.robinhood.android.webp
   meta: ok
-  verdict: nosendreceive
+  verdict: custodial
   developerName: Robinhood
 iphone:
   appId: com.robinhood.release.Robinhood
@@ -34,16 +34,18 @@ iphone:
   reviews: 4880284
   icon: com.robinhood.release.Robinhood.webp
   meta: ok
-  verdict: nosendreceive
+  verdict: custodial
   developerName: Robinhood Markets, Inc.
 
 ---
+
+**Update 2026-10-30:** Robinhood now lets you send and receive bitcoin ([crypto transfers](https://robinhood.com/us/en/support/articles/crypto-transfers/)), but the coins stay in a Robinhood account; the same page suggests moving them to "an external self-custody wallet, like Robinhood Wallet" ({% include walletLink.html wallet='android/com.robinhood.gateway' verdict='true' %}, {% include walletLink.html wallet='iphone/com.robinhood.release.Gateway' verdict='true' %}). So we change the verdict of both apps from {% include verdictBadge.html verdict="nosendreceive" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}. The FAQ we quote below is gone.
 
 ## Android
 
 From the self-description, Robinhood is an investment and trading app. It is possible to buy and sell cryptocurrencies, including Bitcoin. 
 
-Taken from [the FAQ:](https://robinhood.com/us/en/support/articles/Answers-to-top-questions/)
+Taken from [the FAQ:](https://robinhood.com/us/en/support/articles/Answers-to-top-questions/#deadLink)
 
 > You can secure access to your mobile app using TouchID, FaceID, or a custom PIN code. We also offer two-factor authentication with an external authenticator app or via SMS.
 

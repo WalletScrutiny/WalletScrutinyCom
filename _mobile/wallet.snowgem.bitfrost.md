@@ -1,6 +1,6 @@
 ---
 title: TENT Wallet
-date: 2021-11-01
+date: 2026-10-30
 redirect_from:
 - /android/wallet.snowgem.bitfrost/
 android:
@@ -12,8 +12,10 @@ android:
   reviews: 56
   icon: wallet.snowgem.bitfrost.webp
   meta: removed
-  verdict: wip
+  verdict: nosource
 
 ---
+
+**Update 2026-10-30:** Its [archived store page](http://web.archive.org/web/20210714045220/https://play.google.com/store/apps/details?id=wallet.snowgem.bitfrost) from July 2021 described TENT Wallet as a "multi-asset, non-custodial" wallet where "private keys never leave your device", but the [TENTMobileWallet](https://github.com/TENTOfficial/TENTMobileWallet) repository holds only a README, so it is {% include verdictBadge.html verdict="nosource" type='short' %}. tent.app is now for sale and snowgem.org is a parked domain.
 
 **Update 2021-10-25**: This app is no more.

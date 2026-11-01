@@ -1,6 +1,6 @@
 ---
 title: BitFree
-date: 2025-01-15
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitfree.us/#contact
@@ -21,7 +21,7 @@ android:
   reviews: 31
   icon: com.yykj.bitfree.en.webp
   meta: ok
-  verdict: custodial
+  verdict: nowallet
   developerName: ifreepanda
 iphone:
   appId: com.yykj.bitfree.en
@@ -33,10 +33,12 @@ iphone:
   reviews: 0
   icon: com.yykj.bitfree.en.webp
   meta: ok
-  verdict: custodial
+  verdict: nowallet
   developerName: Bitfree Limited
 
 ---
+
+**Update 2026-10-30:** BitFree is now only a prepaid card app and "not an exchange". Its [website](https://www.bitfree.us/) says supported digital assets "may be used only for prepaid card top-up requests" and "cannot be traded, transferred to other users, or withdrawn as cryptocurrency within the app"; a partner converts them and issues the card. You can send bitcoin in to top up the card but never get bitcoin out again, so this is not a wallet and both apps change from {% include verdictBadge.html verdict="custodial" type='short' %} to {% include verdictBadge.html verdict="nowallet" type='short' %}. The analysis below describes the old app, which still had a bitcoin wallet.
 
 ## Android
 
@@ -48,7 +50,7 @@ iphone:
 >
 > Fast and convenient: Topping up with US dollars account using digital assets.
 
-## App Description from Website [About Page](https://bitfree.us/about)
+## App Description from Website [About Page](https://web.archive.org/web/20220526084424/https://bitfree.us/about)
 
 > Bitfree is a leading global **digital asset management service platform** under the umbrella of Bitfree Inc.
 >
@@ -62,7 +64,7 @@ iphone:
 - Bitcoin is supported, and it has both deposit and withdrawal functions. 
 - We could not find any option to backup the private keys. 
 - There are also 'staking' and 'mining' options.
-- There is also an option to Apply or Activate a card [(More info on card)](https://bitfree.us/faq)
+- There is also an option to Apply or Activate a card [(More info on card)](https://web.archive.org/web/20241212031944/https://www.bitfree.us/faq)
 - The absence of any option to backup the private keys means that this is a **custodial** app which ties the wallet to a user account.
 
 ---

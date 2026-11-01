@@ -1,6 +1,6 @@
 ---
 title: DAO BANK
-date: 2021-11-22
+date: 2026-10-30
 authors:
 - danny
 website: http://pons.group#deadLink
@@ -15,9 +15,11 @@ android:
   reviews: 11
   icon: com.pons.webp
   meta: removed
-  verdict: wip
+  verdict: custodial
 
 ---
+
+**Update 2026-10-30:** This app was a white-label version of {% include walletLink.html wallet='android/com.crypterium' verdict='true' %}: the [archived store page](https://web.archive.org/web/20230422144451/https://play.google.com/store/apps/details?id=com.pons) calls it "the PONS App, in partnership with Crypterium" and gives support@crypterium.com as a contact. Like the other Crypterium white-label app {% include walletLink.html wallet='android/com.dreambit' verdict='true' %}, we now classify it as {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 <div class="alertBox"><div>
 <p>⚠️ Warning: This app is very similar to:</p>

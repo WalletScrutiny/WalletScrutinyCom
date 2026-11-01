@@ -1,6 +1,6 @@
 ---
 title: 'Lava: Bitcoin Finance'
-date: 2025-05-22
+date: 2026-10-30
 authors:
 - danny
 website: https://lava.xyz
@@ -18,7 +18,7 @@ android:
   reviews: 29
   icon: com.lavamobile.webp
   meta: ok
-  verdict: nosource
+  verdict: custodial
   developerName: Lava Global Inc.
 iphone:
   appId: xyz.lava.mobile
@@ -30,10 +30,12 @@ iphone:
   reviews: 178
   icon: xyz.lava.mobile.webp
   meta: ok
-  verdict: nosource
+  verdict: custodial
   developerName: Lava Global Inc.
 
 ---
+
+**Update 2026-10-30:** Lava no longer gives users their own keys. Its FAQ says that funds are secured "using custodians and cold storage via distributed key management", with keys "held across multiple geographically distributed entities", and that users log in with only an email and a passkey ([security FAQ](https://www.lava.xyz/faq/what-security-infrastructure-does-lava-use), [funds FAQ](https://www.lava.xyz/faq/how-are-my-funds-secured-in-lava)). The app description no longer calls Lava self-custodial either. We now list both apps as {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: CryptoWallet | Exchange & Card
-date: 2021-11-22
+date: 2026-10-30
 authors:
 - danny
 website: https://cryptowallet.com/
@@ -32,9 +32,13 @@ iphone:
   reviews: 3
   icon: com.cryptowallet.cryptowalletmobile.prod.webp
   meta: removed
-  verdict: wip
+  verdict: custodial
 
 ---
+
+[closing notice](https://web.archive.org/web/20250419233825/http://206.189.103.36/) that says "CryptoWallet.com
+is closing its operations, including all crypto wallet activities" and asks customers with funds to "submit a
+withdrawal request". Now the [cryptowallet.com](https://cryptowallet.com/) domain is offered for sale.
 
 ## Android
 
@@ -90,5 +94,7 @@ response from the dev team.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The [archived 2021 website](https://web.archive.org/web/20211120121143/https://cryptowallet.com/) ("CryptoWallet is secured by BitGo" with "multi-signature cold storage") and the closing notice, which has customers request withdrawals of their funds, show the provider held the coins. It gets the verdict {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 The Android analysis above applies to the iPhone app too.
