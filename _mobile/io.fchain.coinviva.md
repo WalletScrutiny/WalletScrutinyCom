@@ -1,6 +1,6 @@
 ---
 title: Coinviva Exchange -Bitcoin & F
-date: 2023-10-16
+date: 2026-10-30
 website: http://www.coinviva.com
 redirect_from:
 - /android/io.fchain.coinviva/
@@ -10,7 +10,6 @@ android:
   released: 2020-02-21
   updated: 2020-08-17
   version: 1.1.0
-  icon: io.fchain.coinviva.webp
   meta: removed
   verdict: wip
   developerName: Point95 Global

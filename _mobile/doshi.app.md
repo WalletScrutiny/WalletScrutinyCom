@@ -1,6 +1,6 @@
 ---
 title: Do* Wallet
-date: 2024-09-08
+date: 2026-10-30
 authors:
 - danny
 website: https://www.doshi.app
@@ -17,7 +17,6 @@ android:
   updated: 2023-11-17
   version: 1.0.130
   reviews: 3
-  icon: doshi.app.webp
   meta: removed
   verdict: nosource
   developerName: Doshi
@@ -29,7 +28,6 @@ iphone:
   updated: 2023-05-31
   version: 1.0.130
   reviews: 16
-  icon: doshi.app.webp
   meta: removed
   verdict: nosource
   developerName: Doshi App Limited

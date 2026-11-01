@@ -1,7 +1,7 @@
 ---
 title: 'OTCFY: Buy Crypto & Bitcoin'
-date: 2024-04-03
-website: https://www.otcfy.com/
+date: 2026-10-30
+website: https://www.otcfy.com/#deadLink
 redirect_from:
 - /android/com.otcfy.crypto/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2022-12-29
   updated: 2022-12-30
   version: '2.0'
-  icon: com.otcfy.crypto.webp
   meta: removed
   verdict: wip
   developerName: ANYPE Tech. Pvt. Ltd.

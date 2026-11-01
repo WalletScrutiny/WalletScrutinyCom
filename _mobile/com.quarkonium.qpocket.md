@@ -1,9 +1,9 @@
 ---
 title: 'QPocket: ETH TRON QKC Crypto W'
-date: 2022-12-26
+date: 2026-10-30
 authors:
 - danny
-website: https://www.qpocket.io/
+website: https://web.archive.org/web/20221229135635/https://qpocket.io/
 twitter: qPocket_wallet
 appCountry: us
 redirect_from:
@@ -16,7 +16,6 @@ android:
   updated: 2022-12-22
   version: 5.5.0
   reviews: 4
-  icon: com.quarkonium.qpocket.webp
   meta: removed
   verdict: nosource
   developerName: QUARKONIUM PTE. LTD.
@@ -29,13 +28,14 @@ iphone:
   updated: 2020-12-02
   version: 5.4.0
   reviews: 22
-  icon: com.quarkchain.qpocket.webp
   meta: removed
   verdict: nosource
   developerName: QuarkChain Inc
   repository: https://github.com/QuarkChain/QPocket-Android
 
 ---
+
+**Update 2026-10-30:** QPocket appears to be gone. Both apps are off the stores, and qpocket.io is now an empty placeholder page; our link points to an [archived copy](https://web.archive.org/web/20221229135635/https://qpocket.io/) from 2022.
 
 ## Android
 

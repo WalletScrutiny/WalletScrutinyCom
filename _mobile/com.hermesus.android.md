@@ -1,9 +1,9 @@
 ---
 title: Hermesus Exchange
-date: 2024-11-07
+date: 2026-10-30
 authors:
 - danny
-website: https://hermesus.com
+website: https://hermesus.com#deadLink
 twitter: hermesus_us
 redirect_from:
 - /android/com.hermesus.android/
@@ -13,12 +13,13 @@ android:
   released: 2022-04-17
   updated: 2022-04-17
   version: '1.1'
-  icon: com.hermesus.android.webp
   meta: removed
   verdict: custodial
   developerName: Hermesus Development
 
 ---
+
+**Update 2026-10-30:** Hermesus appears to be out of business. Its website showed only an empty server placeholder from 2025 on ([last capture with the exchange](https://web.archive.org/web/20231208063935/https://hermesus.com/), December 2023) and no longer loads, and [PitchBook](https://pitchbook.com/profiles/company/470952-73) lists the company as out of business.
 
 ## App Description from Google Play 
 

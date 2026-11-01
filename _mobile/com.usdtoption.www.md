@@ -1,7 +1,7 @@
 ---
 title: USDT Option
-date: 2023-06-21
-website: https://www.usdtoption.com
+date: 2026-10-30
+website: https://www.usdtoption.com#deadLink
 redirect_from:
 - /android/com.usdtoption.www/
 android:
@@ -11,7 +11,6 @@ android:
   updated: 2020-05-10
   version: 1.1.1
   reviews: 14
-  icon: com.usdtoption.www.webp
   meta: removed
   verdict: wip
   developerName: USDT OPTION

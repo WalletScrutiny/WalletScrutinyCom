@@ -1,6 +1,6 @@
 ---
 title: 'YANT Wallet : Bitcoin Ethereum'
-date: 2023-03-31
+date: 2026-10-30
 authors:
 - danny
 website: https://www.gbih.org#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2019-02-26
   updated: 2019-09-24
   version: 1.1.28
-  icon: com.gbih.yantwallet.webp
   meta: removed
   verdict: wip
   developerName: GBIH  LIMITED

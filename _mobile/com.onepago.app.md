@@ -1,6 +1,6 @@
 ---
 title: OnePago
-date: 2023-08-16
+date: 2026-10-30
 website: https://www.onepago.com#deadLink
 redirect_from:
 - /android/com.onepago.app/
@@ -10,7 +10,6 @@ android:
   released: 2022-02-03
   updated: 2022-05-17
   version: 1.3.0
-  icon: com.onepago.app.webp
   meta: removed
   verdict: wip
   developerName: OnePago

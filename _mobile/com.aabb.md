@@ -1,6 +1,6 @@
 ---
 title: AABB Wallet
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: https://aabbgoldtoken.com#deadLink
@@ -16,7 +16,6 @@ android:
   updated: 2023-06-30
   version: 1.0.1271
   reviews: 32
-  icon: com.aabb.webp
   meta: removed
   verdict: nosource
   developerName: AABB Gold Token
@@ -27,12 +26,13 @@ iphone:
   updated: 2024-03-04
   version: 1.0.265
   reviews: 99
-  icon: com.aabb.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Asia Broadband, Inc.
 
 ---
+
+**Update 2026-10-30:** Asia Broadband renamed its next-generation AABB Wallet before launch ([January 2026 update](https://www.stocktitan.net/news/AABB/asia-broadband-corporate-update-2026-precious-metals-rally-fuels-bzw38i4uv9fk.html)) and released it in February 2026 as the GoldAxis Wallet, a new app that replaces this one ([press release](https://www.globenewswire.com/news-release/2026/02/19/3241025/0/en/asia-broadband-announces-silver-backed-token-pre-registration-now-open-and-launch-of-new-goldaxis-wallet.html)). The aabbgoldtoken.com site is now only an old copy of the former page.
 
 ## Android
 

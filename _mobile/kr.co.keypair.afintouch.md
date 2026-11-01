@@ -1,6 +1,6 @@
 ---
 title: AFIN Touch
-date: 2024-09-08
+date: 2026-10-30
 website: https://www.afincoin.io/
 twitter: AfinCoin
 social:
@@ -13,12 +13,13 @@ android:
   released: 2018-10-04
   updated: 2019-12-27
   version: 1.0.0.60
-  icon: kr.co.keypair.afintouch.webp
   meta: removed
   verdict: wip
   developerName: Keypair Co., Ltd.
 
 ---
+
+**Update 2026-10-30:** The AFIN website now shows an unrelated gambling site. The last archived copy with AFIN content is [from January 2025](https://web.archive.org/web/20250123084922/https://www.afincoin.io/).
 
 <!-- nosource -->
 As far as we can see, this is the same as

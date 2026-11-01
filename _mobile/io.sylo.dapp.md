@@ -1,6 +1,6 @@
 ---
 title: Sylo - Smart Wallet & Messenge
-date: 2025-02-04
+date: 2026-10-30
 authors:
 - leo
 website: http://www.sylo.io
@@ -21,7 +21,6 @@ android:
   updated: 2022-10-27
   version: 4.0.14
   reviews: 46
-  icon: io.sylo.dapp.webp
   meta: removed
   verdict: nosource
   developerName: Sylo Licensing Limited
@@ -32,7 +31,6 @@ iphone:
   updated: 2022-11-10
   version: 4.0.14
   reviews: 82
-  icon: io.sylo.dapp.webp
   meta: removed
   verdict: nosource
   developerName: Sylo Licensing Limited

@@ -1,6 +1,6 @@
 ---
 title: 'Crypment: Crypto Asset Manager'
-date: 2024-04-03
+date: 2026-10-30
 redirect_from:
 - /android/com.crypment/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-01-27
   updated: 2021-10-22
   version: 1.2.0
-  icon: com.crypment.webp
   meta: removed
   verdict: wip
   developerName: Saeid Saberi

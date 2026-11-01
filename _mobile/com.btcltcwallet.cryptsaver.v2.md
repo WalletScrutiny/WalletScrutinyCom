@@ -1,6 +1,6 @@
 ---
 title: Crypt Saver
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/com.btcltcwallet.cryptsaver.v2/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-10-09
   updated: 2020-10-09
   version: '1.0'
-  icon: com.btcltcwallet.cryptsaver.v2.webp
   meta: removed
   verdict: wip
   developerName: Ezze Soft House

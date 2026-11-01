@@ -1,6 +1,6 @@
 ---
 title: Cex-Trade
-date: 2023-07-02
+date: 2026-10-30
 authors:
 - danny
 website: https://cex-trade.io
@@ -13,7 +13,6 @@ android:
   updated: 2022-07-10
   version: '1.1'
   reviews: 7
-  icon: app.cex_trade.io.webp
   meta: removed
   verdict: fake
   developerName: Cex-Trade

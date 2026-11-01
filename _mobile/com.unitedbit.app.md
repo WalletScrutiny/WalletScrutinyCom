@@ -1,7 +1,7 @@
 ---
 title: UNITEDBIT
-date: 2024-02-05
-website: https://unitedbit.com/
+date: 2026-10-30
+website: https://unitedbit.com/#deadLink
 redirect_from:
 - /android/com.unitedbit.app/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-10-07
   updated: 2022-04-19
   version: 1.1.7
-  icon: com.unitedbit.app.webp
   meta: removed
   verdict: wip
   developerName: UNITEDBIT

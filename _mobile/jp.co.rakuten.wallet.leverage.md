@@ -1,6 +1,6 @@
 ---
 title: 証拠金取引（レバレッジ）アプリ　楽天ウォレットPro
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: https://www.rakuten-wallet.co.jp/
@@ -14,7 +14,6 @@ android:
   released: 2020-03-22
   updated: 2023-02-17
   version: 1.2.4
-  icon: jp.co.rakuten.wallet.leverage.webp
   meta: removed
   verdict: custodial
   developerName: Rakuten Wallet
@@ -26,12 +25,13 @@ iphone:
   updated: 2023-02-22
   version: 1.2.4
   reviews: 61
-  icon: jp.co.rakuten.wallet.leverage.webp
   meta: removed
   verdict: custodial
   developerName: Rakuten Wallet, Inc.
 
 ---
+
+**Update 2026-10-30:** This app is gone from both stores. Rakuten Wallet now offers margin trading in a newer app, and on 14 October 2026 it launched a new "Rakuten Wallet" app that merges margin and spot trading ([CoinPost](https://coinpost.jp/?p=743139)). Neither of the new apps is listed here yet; the spot trading app is {% include walletLink.html wallet='android/jp.co.rakuten.wallet.crypto' verdict='true' %}.
 
 ## Android
 

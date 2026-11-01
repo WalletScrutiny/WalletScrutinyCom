@@ -1,9 +1,9 @@
 ---
 title: Flare Wallet
-date: 2022-04-07
+date: 2026-10-30
 authors:
 - leo
-website: https://flarewallet.io
+website: https://flarewallet.io#deadLink
 twitter: flarewallet
 social:
 - https://www.facebook.com/FlareWallet
@@ -19,7 +19,6 @@ android:
   updated: 2021-03-13
   version: 1.4.0
   reviews: 43
-  icon: com.flare.webp
   meta: removed
   verdict: nosource
   developerName: flarewallet.io
@@ -30,11 +29,12 @@ iphone:
   updated: 2021-03-13
   version: 1.4.0
   reviews: 36
-  icon: org.flarewallet.flare.webp
   meta: removed
   verdict: nosource
 
 ---
+
+**Update 2026-10-30:** The provider is gone, for both apps. The Wayback Machine last saved the [Flare Wallet website](https://web.archive.org/web/20220315025051/https://flarewallet.io/) in March 2022; by [September 2024](https://web.archive.org/web/20240906090821/https://flarewallet.io/) the domain served a gambling site, and today it does not answer at all.
 
 ## Android
 

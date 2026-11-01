@@ -1,6 +1,6 @@
 ---
 title: SALLSC
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/cn.com.mlt.sallsc/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-11-21
   updated: 2021-12-08
   version: 1.0.6
-  icon: cn.com.mlt.sallsc.webp
   meta: removed
   verdict: wip
 

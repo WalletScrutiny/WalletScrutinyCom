@@ -1,9 +1,9 @@
 ---
 title: 'Lead Wallet – Swap, Multisend '
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
-website: https://leadwallet.io
+website: https://leadwallet.io#deadLink
 twitter: leadwallet
 social:
 - https://www.linkedin.com/company/leadwallet
@@ -19,7 +19,6 @@ android:
   updated: 2022-07-30
   version: 1.0.39
   reviews: 54
-  icon: com.leadWallet.webp
   meta: removed
   verdict: nosource
   repository: https://github.com/leadwallet/leadwallet-core#deadLink
@@ -30,18 +29,19 @@ iphone:
   updated: 2022-04-15
   version: 1.0.32
   reviews: 19
-  icon: com.leadWallet.webp
   meta: removed
   verdict: nosource
   repository: https://github.com/leadwallet/leadwallet-core#deadLink
 
 ---
 
+**Update 2026-10-30:** Lead Wallet is defunct. The team [put the project on hold indefinitely](https://leadwallet.medium.com/important-community-update-5d09549f76f9) on September 20, 2022, its website now redirects to an unrelated football streaming site, and the [leadwallet-core](https://github.com/leadwallet/leadwallet-core#deadLink) repository is gone.
+
 ## Android
 
 This app is not to be confused with its BETA version, {% include walletLink.html wallet='android/com.leadwallet.io' verdict='true' %} 
 
-As seen on the [wallet page](https://leadwallet.io/wallet), the Beta version will be **discontinued.**
+As seen on the [wallet page](https://web.archive.org/web/20211129074314/https://leadwallet.io/wallet), the Beta version will be **discontinued.**
 
 > The beta version of Lead Wallet App will be discontinued shortly, kindly download our mainnet app...
 
@@ -51,7 +51,7 @@ As seen on the [wallet page](https://leadwallet.io/wallet), the Beta version wil
 
 ## The Site
 
-### [The Terms of Service (PDF)](https://leadwallet.io/pdf/Terms%20of%20Service.pdf)
+### [The Terms of Service (PDF)](https://web.archive.org/web/20210808220423/https://www.leadwallet.io/pdf/Terms%20of%20Service.pdf)
 
 > With our services, you can generate and save the private master key that only corresponds to the wallet and must be used in conjunction with the wallet to authorize you to access the wallet. We do not store any data in our server, and all encrypted backup of certain information about the wallet is stored on the user side. You are solely responsible for the security of your private primary key and any backup mnemonic security associated with your wallet.
 
@@ -61,7 +61,7 @@ We downloaded the app. It offers two choices: create a wallet or import a wallet
 
 ## Verdict
 
-The Github repository has been provided for this app. However, there is no appID, Android build instructions, or any Android app source code. Unless there is any further clarification, the closest repository may be (https://github.com/leadwallet/leadwallet-core). But then again, the title for this repository is "LeadWallet Core API" and again, does not have build instructions.
+The Github repository has been provided for this app. However, there is no appID, Android build instructions, or any Android app source code. Unless there is any further clarification, the closest repository may be [leadwallet-core](https://github.com/leadwallet/leadwallet-core#deadLink). But then again, the title for this repository is "LeadWallet Core API" and again, does not have build instructions.
 
 ---
 

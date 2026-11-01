@@ -1,6 +1,6 @@
 ---
 title: Kuantist | Bitcoin ve Kripto
-date: 2026-04-20
+date: 2026-10-30
 authors:
 - danny
 website: https://www.kuantist.com/
@@ -19,7 +19,6 @@ android:
   released: 2024-07-18
   updated: 2026-10-05
   version: 1.0.63
-  icon: com.kuantist.app.webp
   meta: ok
   verdict: custodial
   developerName: KUANTİST TEKNOLOJİ ANONİM ŞİRKETİ
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-10-07
   version: 1.0.63
   reviews: 38
-  icon: com.kuantist.webp
   meta: ok
   verdict: custodial
   developerName: Kuantist

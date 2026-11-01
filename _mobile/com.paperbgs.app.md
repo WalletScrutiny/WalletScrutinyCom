@@ -1,7 +1,7 @@
 ---
 title: PaperBGS
-date: 2024-04-03
-website: https://paperbgs.com/
+date: 2026-10-30
+website: https://web.archive.org/web/20220407220815/https://paperbgs.com/
 redirect_from:
 - /android/com.paperbgs.app/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-02-04
   updated: 2021-02-04
   version: '1.9'
-  icon: com.paperbgs.app.webp
   meta: removed
   verdict: wip
   developerName: PaperBGS

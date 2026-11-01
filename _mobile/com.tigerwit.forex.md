@@ -1,6 +1,6 @@
 ---
 title: TigerWit – Forex Trading &More
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: https://www.tigerwit.com#deadLink
@@ -15,12 +15,13 @@ android:
   released: 2018-01-24
   updated: 2023-04-12
   version: 6.1.5
-  icon: com.tigerwit.forex.webp
   meta: removed
   verdict: nosendreceive
   developerName: TigerWit Limited
 
 ---
+
+**⚠️ Warning:** TigerWit has stopped trading. In 2023 Investor Limited took over the business, renamed it Calico Capital and dropped the TigerWit brand, and the TigerWit website is gone ([WikiFX](https://www.wikifx.com/en/newsdetail/202309065384505639.html)).
 
 The TigerWit app cannot send and receive actual BTC as it only allows buying CFDs (Contracts for Differences).
 

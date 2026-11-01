@@ -1,6 +1,6 @@
 ---
 title: Elevation Markets - Investment
-date: 2023-12-19
+date: 2026-10-30
 website: https://elevation-markets.com#deadLink
 redirect_from:
 - /android/em.elevationmarkets/
@@ -10,7 +10,6 @@ android:
   released: 2021-12-21
   updated: 2021-12-22
   version: 1.0.1
-  icon: em.elevationmarkets.webp
   meta: removed
   verdict: wip
   developerName: GWD Tech

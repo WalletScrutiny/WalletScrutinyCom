@@ -1,6 +1,6 @@
 ---
 title: My Сrypto Wallet USDT/BTC/ETH
-date: 2023-07-10
+date: 2026-10-30
 authors:
 - danny
 website: https://qwertynetworks.com
@@ -12,7 +12,6 @@ android:
   released: 2022-08-10
   updated: 2022-09-02
   version: '1.1'
-  icon: com.qwertynetworks.webp
   meta: removed
   verdict: wip
   developerName: Qwerty Networks

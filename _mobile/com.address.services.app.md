@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Address Services
-date: 2026-01-14
+date: 2026-10-30
 website: https://address.services
 redirect_from:
 - /android/com.address.services.app/
@@ -10,7 +10,6 @@ android:
   appCountry: us
   updated: 2025-07-24
   version: VARY
-  icon: com.address.services.app.webp
   meta: stale
   verdict: wip
   developerName: OnTab Inc.

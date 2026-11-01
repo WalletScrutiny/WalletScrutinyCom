@@ -1,7 +1,7 @@
 ---
 title: 'OtcFY: Buy Crypto & Bitcoin'
-date: 2023-01-02
-website: https://www.otcfy.com
+date: 2026-10-30
+website: https://www.otcfy.com#deadLink
 redirect_from:
 - /android/com.crypto.otcfy/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2022-04-15
   updated: 2022-04-15
   version: '1.0'
-  icon: com.crypto.otcfy.webp
   meta: removed
   verdict: wip
 

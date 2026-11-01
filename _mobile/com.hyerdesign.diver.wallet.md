@@ -1,6 +1,6 @@
 ---
 title: DIVER Wallet
-date: 2026-02-20
+date: 2026-10-30
 redirect_from:
 - /android/com.hyerdesign.diver.wallet/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2023-10-04
   updated: 2024-12-09
   version: 1.6.0
-  icon: com.hyerdesign.diver.wallet.webp
   meta: removed
   verdict: wip
   developerName: Bigant Diver Limited

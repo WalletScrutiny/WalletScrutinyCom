@@ -1,6 +1,6 @@
 ---
 title: Coinpurse
-date: 2026-01-14
+date: 2026-10-30
 website: https://generalbytes.com
 redirect_from:
 - /android/cz.coin/
@@ -11,7 +11,6 @@ android:
   released: 2025-10-01
   updated: 2026-09-21
   version: 1.7.5
-  icon: cz.coin.webp
   meta: fewusers
   verdict: wip
   developerName: GENERAL BYTES

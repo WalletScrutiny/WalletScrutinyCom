@@ -1,6 +1,6 @@
 ---
 title: Noone Crypto Wallet
-date: 2023-07-24
+date: 2026-10-30
 authors:
 - danny
 website: https://noone.io
@@ -20,7 +20,6 @@ android:
   updated: 2026-02-12
   version: 1.32.0
   reviews: 311
-  icon: io.noone.androidwallet.webp
   meta: ok
   verdict: nosource
   developerName: Raias Llc
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-08-18
   version: 1.33.0
   reviews: 176
-  icon: io.noone.ioswallet.webp
   meta: ok
   verdict: nosource
   developerName: NO ONE FZCO

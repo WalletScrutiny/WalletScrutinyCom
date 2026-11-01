@@ -1,6 +1,6 @@
 ---
 title: BitSecure
-date: 2023-08-04
+date: 2026-10-30
 website: https://web.archive.org/web/20190703222321/http://fincryptglobal.com/
 redirect_from:
 - /android/bitsafe.bitsafe_app/
@@ -10,7 +10,6 @@ android:
   released: 2017-07-28
   updated: 2017-11-28
   version: '1.7'
-  icon: bitsafe.bitsafe_app.webp
   meta: removed
   verdict: wip
   developerName: FINCRYPT GLOBAL LIMITED

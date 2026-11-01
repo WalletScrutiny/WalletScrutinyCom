@@ -1,6 +1,6 @@
 ---
 title: 'Funex: Crypto & Bitcoin Wallet'
-date: 2024-10-23
+date: 2026-10-30
 authors:
 - danny
 website: https://funexcoin.com/
@@ -9,7 +9,6 @@ social:
 - https://www.facebook.com/officialfunexcoin
 - https://t.me/Funex_official
 - https://www.youtube.com/c/FunexClub
-- https://funexcoin.com
 redirect_from:
 - /android/com.funex.coin/
 - /iphone/com.funex.coin/
@@ -20,7 +19,6 @@ android:
   released: 2022-02-18
   updated: 2025-10-30
   version: 1.0.37
-  icon: com.funex.coin.webp
   meta: ok
   verdict: custodial
   developerName: Funex Coin
@@ -32,7 +30,6 @@ iphone:
   updated: 2025-01-04
   version: 1.0.26
   reviews: 0
-  icon: com.funex.coin.webp
   meta: removed
   verdict: custodial
   developerName: FUNEX BLOCKCHAIN SERVICES PRIVATE LIMITED

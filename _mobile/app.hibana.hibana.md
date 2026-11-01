@@ -1,6 +1,6 @@
 ---
 title: Hibana Wallet
-date: 2021-11-26
+date: 2026-10-30
 authors:
 - kiwilamb
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2018-12-11
   updated: 2018-12-11
   version: '0.1'
-  icon: app.hibana.hibana.webp
   meta: removed
   verdict: wip
 

@@ -1,6 +1,6 @@
 ---
 title: DDT Wallet
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: https://www.ddtwallet.com#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2019-10-07
   updated: 2020-03-24
   version: 1.1.2
-  icon: com.ddt.ddtmobile.webp
   meta: removed
   verdict: nosource
   developerName: DeepDive Digital Technologies International Inc.

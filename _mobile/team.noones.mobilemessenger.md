@@ -1,6 +1,6 @@
 ---
 title: 'NoOnes: Buy Bitcoin & Crypto'
-date: 2023-07-30
+date: 2026-10-30
 authors:
 - danny
 website: https://noones.com/
@@ -20,7 +20,6 @@ android:
   updated: 2026-05-29
   version: 1.27.0
   reviews: 160
-  icon: team.noones.mobilemessenger.webp
   meta: ok
   verdict: custodial
   developerName: Eaton Consulting
@@ -32,12 +31,15 @@ iphone:
   updated: 2024-09-18
   version: 1.5.7
   reviews: 17
-  icon: com.noones.marketplace.webp
   meta: removed
   verdict: custodial
   developerName: Eaton Consulting FZE
 
 ---
+
+**⚠️ Warning:** NoOnes is shutting down. Since 21 August 2026 it only lets customers withdraw their remaining funds ([NoOnes wind-down notice](https://help.noones.com/portal/en/kb/articles/an-important-update-noones-is-winding-down)).
+
+**Update 2026-10-30:** NoOnes announced that it is winding down because of sanctions it could not get lifted. Swap, Lightning and new sign-ups closed in the week of 17 August 2026, the P2P marketplace closed on 21 August 2026, and the platform is now withdrawal-only, with Bitcoin going out over the regular Bitcoin network ([NoOnes](https://help.noones.com/portal/en/kb/articles/an-important-update-noones-is-winding-down), [CryptoSlate](https://cryptoslate.com/users-warned-to-pull-funds-immediately-as-eu-sanctions-force-crypto-platform-into-withdrawal-only-mode/)).
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: IQFinex Wallet
-date: 2021-10-22
+date: 2026-10-30
 redirect_from:
 - /android/com.iqfinex/
 android:
@@ -10,7 +10,6 @@ android:
   updated: 2019-01-24
   version: 1.0.4
   reviews: 261
-  icon: com.iqfinex.webp
   meta: removed
   verdict: wip
 

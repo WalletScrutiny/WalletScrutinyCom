@@ -1,7 +1,7 @@
 ---
 title: FMX Trade
-date: 2023-01-02
-website: https://fmx.trade
+date: 2026-10-30
+website: https://fmx.trade#deadLink
 redirect_from:
 - /android/fmx.trade.cryptocurrency.exchange.finance/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-05-24
   updated: 2021-05-25
   version: 2.1.0
-  icon: fmx.trade.cryptocurrency.exchange.finance.webp
   meta: removed
   verdict: wip
 

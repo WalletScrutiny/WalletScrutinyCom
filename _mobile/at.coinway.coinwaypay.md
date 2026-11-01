@@ -1,7 +1,7 @@
 ---
 title: CoinwayPAY
-date: 2024-04-19
-website: https://coinwaypay.com/
+date: 2026-10-30
+website: https://coinwaypay.com/#deadLink
 redirect_from:
 - /android/at.coinway.coinwaypay/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2019-02-06
   updated: 2021-10-11
   version: 1.4.0
-  icon: at.coinway.coinwaypay.webp
   meta: removed
   verdict: wip
   developerName: Dos Coinway GmbH

@@ -1,6 +1,6 @@
 ---
 title: Hurbito - Buy & Sell Bitcoin I
-date: 2024-02-05
+date: 2026-10-30
 website: https://hurbito.com#deadLink
 redirect_from:
 - /android/com.hurbito.app/
@@ -10,7 +10,6 @@ android:
   released: 2021-01-20
   updated: 2021-01-20
   version: '1.5'
-  icon: com.hurbito.app.webp
   meta: removed
   verdict: wip
   developerName: Cobirto Global Company Ltd.

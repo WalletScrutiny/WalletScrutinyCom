@@ -1,6 +1,6 @@
 ---
 title: FlamingoX Crypto Exchange
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/com.chainup.exchange.FlamingoX/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-04-13
   updated: 2022-04-13
   version: 5.3.6
-  icon: com.chainup.exchange.FlamingoX.webp
   meta: removed
   verdict: wip
 

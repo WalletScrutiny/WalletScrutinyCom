@@ -1,6 +1,6 @@
 ---
 title: CoinPayments - Crypto Wallet
-date: 2025-02-28
+date: 2026-10-30
 authors:
 - leo
 website: https://www.coinpayments.net/
@@ -20,7 +20,6 @@ android:
   updated: 2024-12-18
   version: VARY
   reviews: 128
-  icon: net.coinpayments.coinpaymentsapp.webp
   meta: removed
   verdict: custodial
   developerName: Coinpayments Inc
@@ -31,7 +30,6 @@ iphone:
   updated: 2024-12-18
   version: 2.4.8
   reviews: 52
-  icon: net.coinpayments.coinpaymentsapp.webp
   meta: removed
   verdict: custodial
   developerName: CoinPayments Inc
@@ -43,7 +41,7 @@ iphone:
 The description is not very clear but sounds a bit like this app is custodial.
 
 Their website is mainly about payment integrations for merchants but also has a
-[page dedicated to the mobile apps](https://www.coinpayments.net/apps) which is
+[page dedicated to the mobile apps](https://web.archive.org/web/20241107083730/https://www.coinpayments.net/apps) which is
 not very detailed but our guess for now is that
 
 > Now you can easily access your CoinPayments account to send and receive coins,
@@ -62,7 +60,7 @@ Our verdict: **not verifiable**.
 The description is not very clear but sounds a bit like this app is custodial.
 
 Their website is mainly about payment integrations for merchants but also has a
-[page dedicated to the mobile apps](https://www.coinpayments.net/apps) which is
+[page dedicated to the mobile apps](https://web.archive.org/web/20241107083730/https://www.coinpayments.net/apps) which is
 not very detailed but our guess for now is that
 
 > Now you can easily access your CoinPayments account to send and receive coins,

@@ -1,6 +1,6 @@
 ---
 title: UKCOIN
-date: 2023-06-07
+date: 2026-10-30
 authors:
 - danny
 website: https://ukcoin.money#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2020-07-16
   updated: 2020-07-16
   version: 1.0.0
-  icon: com.ukcoin.wallet.webp
   meta: removed
   verdict: wip
   developerName: UKCOIN

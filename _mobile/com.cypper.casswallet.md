@@ -1,6 +1,6 @@
 ---
 title: CASS Decentralize Exchanger
-date: 2024-04-26
+date: 2026-10-30
 website: http://www.cashlesstoken.com#deadLink
 redirect_from:
 - /android/com.cypper.casswallet/
@@ -10,7 +10,6 @@ android:
   released: 2019-10-29
   updated: 2019-12-07
   version: 2.0.7.6
-  icon: com.cypper.casswallet.webp
   meta: removed
   verdict: wip
   developerName: Chrixtopher Design

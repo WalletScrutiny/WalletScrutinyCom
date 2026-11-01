@@ -17,11 +17,10 @@ shop: https://store.coinkite.com/store/tapsigner
 country: CA
 price: 39.99USD
 repository: https://github.com/coinkite/coinkite-tap-proto
-icon: coinkite.tapsigner.webp
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2023-02-13
+date: 2026-10-30
 signer: 
 twitter: TAPSIGNER
 social:
@@ -63,7 +62,7 @@ Like its aforementioned sibling, SATSCARD, this device features a **RF blocking 
 
 Similar to our concerns about the SATSCARD, this still begs the question as to how much damage a malicious "sneaky RF reader" can cause.
 
-According to the FAQ, the card can be used with {% include walletLink.html wallet='android/io.nunchuk.android' %}. Here is a link to a [tutorial](youtube.com/watch?v=wTX-wZGGDsE) on how to set it up.
+According to the FAQ, the card can be used with {% include walletLink.html wallet='android/io.nunchuk.android' %}. Here is a link to a [tutorial](https://www.youtube.com/watch?v=wTX-wZGGDsE) on how to set it up.
  
 ## Analysis 
 

@@ -1,6 +1,6 @@
 ---
 title: Hamrasta Cryptocurrency Market
-date: 2023-08-07
+date: 2026-10-30
 authors:
 - danny
 website: https://hamrasta.com/hamrastamarket#deadLink
@@ -13,7 +13,6 @@ android:
   updated: 2020-08-03
   version: '2.7'
   reviews: 7
-  icon: com.hamrasta.hwallet.webp
   meta: removed
   verdict: wip
   developerName: Hamrasta

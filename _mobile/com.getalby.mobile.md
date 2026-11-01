@@ -1,6 +1,6 @@
 ---
 title: Alby Go
-date: 2025-09-09
+date: 2026-10-30
 authors:
 - danny
 website: https://getalby.com/
@@ -24,7 +24,6 @@ android:
   updated: 2026-08-17
   version: 2.1.0
   reviews: 24
-  icon: com.getalby.mobile.webp
   alternativeStores:
   - zapstore
   meta: ok
@@ -39,7 +38,6 @@ iphone:
   updated: 2026-08-20
   version: 2.1.0
   reviews: 25
-  icon: com.getalby.mobile.webp
   meta: ok
   verdict: sourceavailable
   developerName: Alby Inc.

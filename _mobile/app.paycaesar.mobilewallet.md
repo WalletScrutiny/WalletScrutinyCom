@@ -1,6 +1,6 @@
 ---
 title: Pay Caesar
-date: 2024-04-19
+date: 2026-10-30
 website: https://aurilia.io/
 redirect_from:
 - /android/app.paycaesar.mobilewallet/
@@ -10,7 +10,6 @@ android:
   released: 2020-09-08
   updated: 2021-07-07
   version: 1.0.2
-  icon: app.paycaesar.mobilewallet.webp
   meta: removed
   verdict: wip
   developerName: Pay Caesar Limited

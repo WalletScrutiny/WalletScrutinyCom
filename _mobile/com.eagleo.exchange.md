@@ -1,7 +1,7 @@
 ---
 title: Eagleoxchange
-date: 2023-08-16
-website: https://eagleoxchange.com/
+date: 2026-10-30
+website: https://eagleoxchange.com/#deadLink
 redirect_from:
 - /android/com.eagleo.exchange/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-12-10
   updated: 2021-12-10
   version: '1.0'
-  icon: com.eagleo.exchange.webp
   meta: removed
   verdict: wip
   developerName: Eagleo

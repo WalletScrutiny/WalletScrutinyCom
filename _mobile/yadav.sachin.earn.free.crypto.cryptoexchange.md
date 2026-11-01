@@ -1,6 +1,6 @@
 ---
 title: Crypto Exchange - Trade Crypto
-date: 2024-12-31
+date: 2026-10-30
 redirect_from:
 - /android/yadav.sachin.earn.free.crypto.cryptoexchange/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2022-08-25
   updated: 2023-01-07
   version: '3.0'
-  icon: yadav.sachin.earn.free.crypto.cryptoexchange.webp
   meta: obsolete
   verdict: wip
   developerName: Trinity Dev

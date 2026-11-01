@@ -1,9 +1,9 @@
 ---
 title: InvestXE.com  - Live Bitcoin A
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
-website: https://investxe.com
+website: https://investxe.com#deadLink
 redirect_from:
 - /android/com.pandats.investxe/
 android:
@@ -12,12 +12,15 @@ android:
   released: 2020-12-09
   updated: 2021-06-10
   version: 1.0.3
-  icon: com.pandats.investxe.webp
   meta: removed
   verdict: custodial
   developerName: InvestXE
 
 ---
+
+**Update 2026-10-30:** InvestXE looks gone. Its website was replaced by a domain parking page
+[by March 2023](https://web.archive.org/web/20230329071205/https://investxe.com/) and the
+domain has been [offered for sale](https://web.archive.org/web/20230926025005/https://investxe.com/) since.
 
 ## App Description
 
@@ -25,7 +28,7 @@ android:
 
 ## The Site
 
-From the [Terms of Service, 2.13](https://investxe.com/legal/terms-and-conditions):
+From the [Terms of Service, 2.13](https://web.archive.org/web/20211006012444/https://investxe.com/legal/terms-and-conditions):
 
 > In the event you create a Log-In, open an Account, and gain access to the Services without our permission, we reserve the right to immediately suspend or terminate your use of the Website as we deem appropriate, as well as suspend or terminate any pending Orders or Transactions.
 

@@ -1,6 +1,6 @@
 ---
 title: 'BlockFi: Buy and trade crypto'
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: https://blockfi.com/
@@ -19,7 +19,6 @@ android:
   updated: 2023-10-04
   version: 6.2.0
   reviews: 1544
-  icon: com.blockfi.mobile.webp
   meta: removed
   verdict: custodial
   developerName: BlockFi
@@ -30,12 +29,13 @@ iphone:
   updated: 2023-10-10
   version: 5.12.15
   reviews: 1295
-  icon: com.blockfi.mobile.webp
   meta: removed
-  verdict: wip
+  verdict: custodial
   developerName: BlockFi
 
 ---
+
+**Update 2026-10-30:** BlockFi [shut down its web platform on 31 May 2024](https://blockfi.com/blockfi-platform-shutdown/) and now pays out the remaining funds of its bankruptcy estate [through Coinbase](https://blockfi.com/blockfi-coinbase-distribution-partnership/). Both apps are gone from the stores. The iPhone app was the same custodial BlockFi service as the Android app, so it gets the verdict {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 {% include review/bitgo.md %}
 

@@ -1,6 +1,6 @@
 ---
 title: Coins Union
-date: 2024-03-02
+date: 2026-10-30
 redirect_from:
 - /android/io.coinsunion.production/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-10-20
   updated: 2022-01-18
   version: 1.4.4
-  icon: io.coinsunion.production.webp
   meta: removed
   verdict: wip
   developerName: Coins Union

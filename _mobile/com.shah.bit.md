@@ -1,6 +1,6 @@
 ---
 title: ShahBiT
-date: 2024-12-31
+date: 2026-10-30
 redirect_from:
 - /android/com.shah.bit/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-08-17
   updated: 2022-08-25
   version: '8.2'
-  icon: com.shah.bit.webp
   meta: removed
   verdict: wip
   developerName: Shah of crypto

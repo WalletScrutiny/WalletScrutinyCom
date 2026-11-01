@@ -13,11 +13,10 @@ provider:
 providerWebsite: 
 website: https://bitpay.com/
 repository: https://github.com/bitpay/wallet
-icon: bitpay.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-date: 2026-01-20
+date: 2026-10-30
 twitter: BitPay
 social:
 - https://www.linkedin.com/company/bitpay-inc-

@@ -1,9 +1,9 @@
 ---
 title: RahaExchange Trader
-date: 2023-05-17
+date: 2026-10-30
 authors:
 - danny
-website: https://rahaexchange.com
+website: https://web.archive.org/web/20240131051105/https://rahaexchange.com/
 twitter: rahaexchange
 social:
 - https://www.aparat.com/rahaexchange
@@ -17,12 +17,13 @@ android:
   updated: 2022-09-01
   version: '1.007'
   reviews: 5
-  icon: com.rahaexchange.app.webp
   meta: removed
   verdict: custodial
   developerName: RahaPay
 
 ---
+
+**Update 2026-10-30:** RahaExchange appears to be gone. The app is no longer in the store, and its website no longer loads; the [last archived copy](https://web.archive.org/web/20240131051105/https://rahaexchange.com/) is from early 2024.
 
 {{ page.title }} is an Arabic cryptocurrency trading app. According to the description, users are able to send and receive many different cryptocurrencies including BTC, ETH, XRP, LTC, and BCH.
 

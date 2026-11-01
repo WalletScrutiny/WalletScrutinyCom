@@ -1,6 +1,6 @@
 ---
 title: AFCASH WALLET
-date: 2022-01-31
+date: 2026-10-30
 redirect_from:
 - /android/com.bxcoins.AFCASH/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-02-19
   updated: 2021-02-20
   version: 1.0.0
-  icon: com.bxcoins.AFCASH.webp
   meta: removed
   verdict: wip
 

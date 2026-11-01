@@ -1,6 +1,6 @@
 ---
 title: KICKEX SECURELY CRYPTOCURRENCY
-date: 2024-11-29
+date: 2026-10-30
 authors:
 - danny
 website: https://kickex.com/en
@@ -9,7 +9,6 @@ social:
 - https://www.facebook.com/kickex.official
 - https://t.me/KickICO
 - https://kickecosystem.medium.com
-- https://kickex.com
 redirect_from:
 - /android/com.kickex.android/
 - /iphone/com.kickex/
@@ -19,7 +18,6 @@ android:
   released: 2022-06-15
   updated: 2024-12-26
   version: 1.24.0
-  icon: com.kickex.android.webp
   meta: removed
   verdict: custodial
   developerName: LLC KICK ECOSYSTEM GLOBAL
@@ -31,12 +29,17 @@ iphone:
   updated: 2024-09-15
   version: 1.9.7
   reviews: 5
-  icon: com.kickex.webp
   meta: removed
   verdict: custodial
   developerName: KICK ECOSYSTEM GLOBAL
 
 ---
+
+**⚠️ Warning:** KickEX is gone. In late 2025 its website announced
+["hibernation mode"](https://web.archive.org/web/20251112125546/https://kickex.com/)
+because it never got a license in El Salvador, and said users who asked for a refund had
+been paid back. By February 2026 the site showed only "This service has been suspended".
+Both apps are no longer in the stores.
 
 ## Android
 

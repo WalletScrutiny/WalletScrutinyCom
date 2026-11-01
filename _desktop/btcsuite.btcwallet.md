@@ -12,11 +12,10 @@ provider:
 providerWebsite: 
 website: 
 repository: https://github.com/btcsuite/btcwallet
-icon: 
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-09-16
+date: 2026-10-30
 twitter: 
 social: 
 builds: 

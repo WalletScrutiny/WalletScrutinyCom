@@ -1,6 +1,6 @@
 ---
 title: Robinhood Crypto, Bitcoin, ETH
-date: 2025-12-08
+date: 2026-10-30
 authors:
 - danny
 website: https://robinhood.com/eu/en/about/crypto/
@@ -19,7 +19,6 @@ android:
   appCountry: us
   updated: 2026-10-09
   version: 2026.40.1
-  icon: com.robinhood.global.webp
   meta: ok
   verdict: custodial
   developerName: Robinhood
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-10-13
   version: 2026.42.0
   reviews: 320
-  icon: com.robinhood.release.RobinhoodGlobal.webp
   meta: ok
   verdict: custodial
   developerName: Robinhood Markets, Inc.

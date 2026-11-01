@@ -1,6 +1,6 @@
 ---
 title: 'UNi.Global: Web3 APP & Card'
-date: 2025-04-22
+date: 2026-10-30
 website: https://uni.global
 redirect_from:
 - /android/uni.global.mcdc_client_app/
@@ -11,7 +11,6 @@ android:
   released: 2022-01-24
   updated: 2025-08-31
   version: 4.1.8
-  icon: uni.global.mcdc_client_app.webp
   meta: stale
   verdict: wip
   developerName: UNi.Global

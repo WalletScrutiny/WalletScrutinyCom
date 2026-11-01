@@ -1,6 +1,6 @@
 ---
 title: SPEZA - Regulated Digital Asse
-date: 2024-07-05
+date: 2026-10-30
 website: https://www.speza.exchange#deadLink
 redirect_from:
 - /android/com.exchange.speza/
@@ -10,7 +10,6 @@ android:
   released: 2019-08-07
   updated: 2019-12-21
   version: 0.1.2
-  icon: com.exchange.speza.webp
   meta: removed
   verdict: wip
   developerName: SPEZA Inc

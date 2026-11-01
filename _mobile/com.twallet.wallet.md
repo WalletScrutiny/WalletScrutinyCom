@@ -1,6 +1,6 @@
 ---
 title: TSC Asset
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/com.twallet.wallet/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-07-13
   updated: 2021-07-13
   version: 0.22.0
-  icon: com.twallet.wallet.webp
   meta: removed
   verdict: wip
   developerName: clambiz

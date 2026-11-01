@@ -1,6 +1,6 @@
 ---
 title: Abono Cripto
-date: 2024-02-05
+date: 2026-10-30
 website: https://abonocripto.com.ar#deadLink
 redirect_from:
 - /android/com.mundocripto.app/
@@ -10,7 +10,6 @@ android:
   released: 2022-05-11
   updated: 2022-07-13
   version: 1.0.19
-  icon: com.mundocripto.app.webp
   meta: removed
   verdict: wip
   developerName: Abono cripto

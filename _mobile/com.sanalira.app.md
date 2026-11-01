@@ -1,15 +1,14 @@
 ---
 title: Sanalira
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
-website: https://www.sanalira.com
+website: https://www.sanalira.com#deadLink
 twitter: sanaliracom
 social:
 - https://www.facebook.com/sanaliracom
 - https://www.instagram.com/sanaliracom
 - https://www.linkedin.com/company/sanalira
-- https://www.sanalira.com
 redirect_from:
 - /android/com.sanalira.app/
 - /iphone/com.sanalira.app/
@@ -19,7 +18,6 @@ android:
   released: 2022-01-28
   updated: 2022-06-14
   version: 1.0.32
-  icon: com.sanalira.app.webp
   meta: removed
   verdict: custodial
   developerName: SANALİRA
@@ -31,12 +29,13 @@ iphone:
   updated: 2022-06-14
   version: 1.0.32
   reviews: 37
-  icon: com.sanalira.app.webp
   meta: removed
   verdict: custodial
   developerName: Sanalira
 
 ---
+
+**Update 2026-10-30:** The Sanalira website has been gone since November 2024 ([Wayback Machine](https://web.archive.org/web/20241009193620/https://sanalira.com/) has the last working copy from October 2024).
 
 ## Android
 

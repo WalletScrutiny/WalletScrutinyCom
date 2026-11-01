@@ -1,6 +1,6 @@
 ---
 title: PlasmaPay - cryptocurrency wallet and DeFi app
-date: 2021-11-17
+date: 2026-10-30
 authors:
 - danny
 website: https://plasmapay.com#deadLink
@@ -20,7 +20,6 @@ android:
   updated: 2021-10-07
   version: 2.0.4
   reviews: 17
-  icon: com.plasmapay.androidapp.webp
   meta: removed
   verdict: wip
 iphone:
@@ -30,7 +29,6 @@ iphone:
   updated: 2023-06-08
   version: v3.1.8
   reviews: 2
-  icon: com.plasmaalliance.PlasmaPay.webp
   meta: defunct
   verdict: wip
   developerName: Plasma Alliance OÜ
@@ -38,6 +36,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The plasmapay.com website is gone; its [last archived copy is from September 2024](https://web.archive.org/web/20240915224157/https://plasmapay.com/).
 
 ## App Description
 

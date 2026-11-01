@@ -1,7 +1,7 @@
 ---
 title: MeliWallet
-date: 2023-01-02
-website: https://meliora.finance/
+date: 2026-10-30
+website: https://meliora.finance/#deadLink
 redirect_from:
 - /android/com.meliWallet/
 android:
@@ -11,7 +11,6 @@ android:
   updated: 2022-04-11
   version: '2.1'
   reviews: 3
-  icon: com.meliWallet.webp
   meta: removed
   verdict: wip
 

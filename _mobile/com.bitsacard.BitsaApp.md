@@ -1,6 +1,6 @@
 ---
 title: 'Bitsa: Reloadable Prepaid Card'
-date: 2021-11-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitsacard.com
@@ -19,7 +19,6 @@ android:
   updated: 2026-09-29
   version: 3.0.31
   reviews: 10
-  icon: com.bitsacard.BitsaApp.webp
   meta: ok
   verdict: nosendreceive
   developerName: bitsacard
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-09-30
   version: 3.0.31
   reviews: 120
-  icon: com.bitsacard.BitsaApp.webp
   meta: ok
   verdict: nosendreceive
   developerName: BITSA

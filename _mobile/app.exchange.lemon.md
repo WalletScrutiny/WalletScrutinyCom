@@ -1,6 +1,6 @@
 ---
 title: LemonEx
-date: 2024-04-19
+date: 2026-10-30
 website: https://lemonexchange.africa#deadLink
 redirect_from:
 - /android/app.exchange.lemon/
@@ -10,7 +10,6 @@ android:
   released: 2022-11-16
   updated: 2022-11-16
   version: 1.0.0
-  icon: app.exchange.lemon.webp
   meta: removed
   verdict: wip
   developerName: LemonExchange

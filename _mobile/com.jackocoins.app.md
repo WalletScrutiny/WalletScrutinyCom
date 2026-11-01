@@ -1,6 +1,6 @@
 ---
 title: Jackocoins -  Sell BTC, ETH, U
-date: 2024-10-23
+date: 2026-10-30
 authors:
 - danny
 website: https://www.jackocoins.com/
@@ -16,7 +16,6 @@ android:
   updated: 2023-12-06
   version: 2.0.2
   reviews: 26
-  icon: com.jackocoins.app.webp
   meta: removed
   verdict: nosendreceive
   developerName: Jackocoins

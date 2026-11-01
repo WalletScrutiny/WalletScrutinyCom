@@ -1,6 +1,6 @@
 ---
 title: ASIA EXCHANGE- Buy Sell & Stake Crypto
-date: 2021-11-30
+date: 2026-10-30
 redirect_from:
 - /android/com.asiax.broker.android/
 android:
@@ -10,7 +10,6 @@ android:
   updated: 2021-05-14
   version: 4.0.2
   reviews: 3
-  icon: com.asiax.broker.android.webp
   meta: removed
   verdict: wip
 

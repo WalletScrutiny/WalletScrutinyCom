@@ -1,6 +1,6 @@
 ---
 title: Ripio App | Crypto Wallet
-date: 2020-03-28
+date: 2026-10-30
 authors:
 - leo
 website: https://ripio.com
@@ -22,7 +22,6 @@ android:
   updated: 2026-07-02
   version: 7.0.1
   reviews: 178
-  icon: com.ripio.android.webp
   meta: removed
   verdict: custodial
   developerName: Ripio Holding

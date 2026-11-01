@@ -1,6 +1,6 @@
 ---
 title: 뉴드림이엑스-거래소(암호화폐, 비트코인,비트코인캐시,이
-date: 2023-04-29
+date: 2026-10-30
 authors:
 - danny
 website: https://nd-exk.com#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2018-10-10
   updated: 2020-04-02
   version: '1.1'
-  icon: com.ndex.web.webp
   meta: removed
   verdict: wip
   developerName: ND-EX

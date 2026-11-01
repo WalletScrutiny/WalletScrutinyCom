@@ -1,6 +1,6 @@
 ---
 title: N195
-date: 2024-04-26
+date: 2026-10-30
 redirect_from:
 - /android/org.n195.app/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2019-07-01
   updated: 2019-07-01
   version: 1.0.1
-  icon: org.n195.app.webp
   meta: removed
   verdict: wip
   developerName: URCC PTE. LTD

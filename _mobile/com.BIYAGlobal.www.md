@@ -1,6 +1,6 @@
 ---
 title: BiyaPay-Remit, Trade, NoFreeze
-date: 2023-07-01
+date: 2026-10-30
 authors:
 - danny
 website: https://cn.biyapay.com/
@@ -17,7 +17,6 @@ android:
   updated: 2026-10-12
   version: 3.1.000
   reviews: 17
-  icon: com.BIYAGlobal.www.webp
   meta: ok
   verdict: custodial
   developerName: Biya Global
@@ -29,7 +28,6 @@ iphone:
   updated: 2026-10-13
   version: 3.1.000
   reviews: 0
-  icon: com.BiyaGlobal.Biya.webp
   meta: ok
   verdict: custodial
   developerName: BIYA GLOBAL LLC

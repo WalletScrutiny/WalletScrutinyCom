@@ -1,6 +1,6 @@
 ---
 title: EPTA
-date: 2024-04-19
+date: 2026-10-30
 website: https://myeazywallet.com#deadLink
 redirect_from:
 - /android/com.application.myeazywallet/
@@ -10,7 +10,6 @@ android:
   released: 2021-04-01
   updated: 2022-10-10
   version: 1.0.3
-  icon: com.application.myeazywallet.webp
   meta: removed
   verdict: wip
   developerName: Eazy Technology Solutions Sdn Bhd

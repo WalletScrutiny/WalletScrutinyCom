@@ -1,6 +1,6 @@
 ---
 title: Noctar Wallet
-date: 2026-09-14
+date: 2026-10-30
 iphone:
   appId: com.noctardev.noctarwallet
   idd: '6752936301'
@@ -9,7 +9,6 @@ iphone:
   updated: 2026-01-07
   version: '1.3'
   reviews: 2
-  icon: com.noctardev.noctarwallet.webp
   meta: ok
   verdict: wip
   developerName: POKOWAVE LIMITED

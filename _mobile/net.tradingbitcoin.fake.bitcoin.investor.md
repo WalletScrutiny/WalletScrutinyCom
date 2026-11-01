@@ -1,6 +1,6 @@
 ---
 title: Fake Bitcoin Investor
-date: 2021-09-16
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -12,7 +12,6 @@ android:
   updated: 2021-06-21
   version: '1.0'
   reviews: 3
-  icon: net.tradingbitcoin.fake.bitcoin.investor.webp
   meta: removed
   verdict: wip
 

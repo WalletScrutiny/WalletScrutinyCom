@@ -1,6 +1,6 @@
 ---
 title: UniMe - Privacy Messaging
-date: 2023-03-21
+date: 2026-10-30
 website: https://web.archive.org/web/20240807052643/http://about.unime.world/
 redirect_from:
 - /android/org.unime.securesms/
@@ -11,7 +11,6 @@ android:
   updated: 2022-11-01
   version: 4.3.0
   reviews: 19
-  icon: org.unime.securesms.webp
   meta: removed
   verdict: wip
 

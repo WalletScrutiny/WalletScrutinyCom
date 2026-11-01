@@ -1,6 +1,6 @@
 ---
 title: ProfitTradingApp for Huobi
-date: 2024-04-19
+date: 2026-10-30
 authors:
 - danny
 website: https://profittradingapp.com/
@@ -15,7 +15,6 @@ android:
   released: 2018-11-21
   updated: 2021-12-03
   version: 3.0.2
-  icon: com.profittrading.forhuobi.webp
   meta: removed
   verdict: custodial
   developerName: ProfitTradingApp

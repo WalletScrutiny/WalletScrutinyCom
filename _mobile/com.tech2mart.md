@@ -1,6 +1,6 @@
 ---
 title: Tech2Mart
-date: 2024-04-19
+date: 2026-10-30
 website: http://tech2mart.com#deadLink
 redirect_from:
 - /android/com.tech2mart/
@@ -10,7 +10,6 @@ android:
   released: 2020-04-23
   updated: 2020-04-23
   version: '1.0'
-  icon: com.tech2mart.webp
   meta: removed
   verdict: wip
   developerName: T2m - tech2mart

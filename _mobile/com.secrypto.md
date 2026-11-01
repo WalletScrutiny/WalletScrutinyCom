@@ -1,6 +1,6 @@
 ---
 title: Secrypto-Bitcoin, ETH, EOS
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - kiwilamb
 website: https://www.secrypto.io#deadLink
@@ -13,7 +13,6 @@ android:
   updated: 2019-02-26
   version: '1.28'
   reviews: 21
-  icon: com.secrypto.webp
   meta: removed
   verdict: nosource
 

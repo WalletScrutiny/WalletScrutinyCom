@@ -1,6 +1,6 @@
 ---
 title: BTC Markets
-date: 2023-04-20
+date: 2026-10-30
 authors:
 - danny
 website: https://btcmarkets.net
@@ -24,7 +24,6 @@ android:
   updated: 2026-09-30
   version: 1.15.0
   reviews: 2
-  icon: com.btcmarket.btcm.webp
   meta: ok
   verdict: custodial
   developerName: BTC Markets Pty Ltd
@@ -36,7 +35,6 @@ iphone:
   updated: 2026-10-08
   version: 1.16.1
   reviews: 306
-  icon: com.btcmarkets.btcm.webp
   meta: ok
   verdict: custodial
   developerName: BTC Markets

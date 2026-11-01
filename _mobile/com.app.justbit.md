@@ -1,6 +1,6 @@
 ---
 title: JustBit - Crypto Exchange
-date: 2023-09-06
+date: 2026-10-30
 authors:
 - danny
 website: https://justbit.in#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2022-06-24
   updated: 2022-10-20
   version: 1.1.0
-  icon: com.app.justbit.webp
   meta: removed
   verdict: wip
   developerName: IMSelf Community

@@ -1,6 +1,6 @@
 ---
 title: KONG
-date: 2024-04-03
+date: 2026-10-30
 website: https://kong.cash
 redirect_from:
 - /android/ch.vrfy/
@@ -10,7 +10,6 @@ android:
   released: 2019-10-03
   updated: 2022-06-17
   version: 2.0.2
-  icon: ch.vrfy.webp
   meta: removed
   verdict: wip
   developerName: Airtime Network, Inc.

@@ -12,11 +12,10 @@ provider: ACINQ
 providerWebsite: https://acinq.co/
 website: https://phoenix.acinq.co/server
 repository: https://github.com/ACINQ/phoenixd
-icon: phoenixd.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2026-01-01
+date: 2026-10-30
 twitter: acinq_co
 social: 
 builds: 

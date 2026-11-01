@@ -1,6 +1,6 @@
 ---
 title: رابکس ، خرید ارز دیجیتال
-date: 2023-08-08
+date: 2026-10-30
 authors:
 - danny
 website: https://rabex.ir
@@ -19,7 +19,6 @@ android:
   updated: 2026-09-15
   version: 2.10.0-Rabex
   reviews: 10
-  icon: com.rabin.rabex.webp
   meta: ok
   verdict: custodial
   developerName: Rabex Team

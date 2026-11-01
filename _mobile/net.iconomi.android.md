@@ -1,6 +1,6 @@
 ---
 title: 'ICONOMI: Buy Bitcoin & Crypto'
-date: 2021-10-04
+date: 2026-10-30
 authors:
 - danny
 website: https://www.iconomi.com
@@ -21,7 +21,6 @@ android:
   updated: 2026-10-05
   version: 4.1.7
   reviews: 172
-  icon: net.iconomi.android.webp
   meta: ok
   verdict: custodial
   developerName: ICONOMI
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-10-03
   version: 4.1.7
   reviews: 85
-  icon: net.iconomi.iconomi.webp
   meta: ok
   verdict: custodial
   developerName: ICONOMI LTD

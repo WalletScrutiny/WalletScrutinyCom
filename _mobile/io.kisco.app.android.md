@@ -1,6 +1,6 @@
 ---
 title: Kairos Exchange
-date: 2024-11-04
+date: 2026-10-30
 redirect_from:
 - /android/io.kisco.app.android/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-12-23
   updated: 2021-01-19
   version: 1.0.7
-  icon: io.kisco.app.android.webp
   meta: removed
   verdict: wip
   developerName: 키스톤랩

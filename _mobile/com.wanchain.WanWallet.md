@@ -1,6 +1,6 @@
 ---
 title: WanWallet
-date: 2022-04-07
+date: 2026-10-30
 authors:
 - danny
 website: https://www.wanchain.org
@@ -20,7 +20,6 @@ android:
   updated: 2021-04-25
   version: '5.0'
   reviews: 11
-  icon: com.wanchain.WanWallet.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -31,12 +30,13 @@ iphone:
   updated: 2022-07-27
   version: '6.0'
   reviews: 24
-  icon: org.wanchain.WanWallet.webp
   meta: removed
   verdict: nosource
   developerName: Wanchain LTD
 
 ---
+
+**Update 2026-10-30:** Wanchain has dropped WanWallet mobile: its [wallets page](https://www.wanchain.org/wanwallet) now sends mobile users to MetaMask, {% include walletLink.html wallet='android/io.metamask' verdict='true' %} and {% include walletLink.html wallet='iphone/io.metamask.MetaMask' verdict='true' %}. The desktop wallet repository linked below is gone ([archived copy](https://web.archive.org/web/20241222163811/https://github.com/wanchain/wan-wallet-desktop)).
 
 ## Android
 

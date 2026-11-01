@@ -1,9 +1,9 @@
 ---
 title: JuanCash - Buy Load, Pay Bills
-date: 2025-08-01
+date: 2026-10-30
 authors:
 - danny
-website: https://www.juancash.com/
+website: https://www.juancash.com/#deadLink
 twitter: JuanCashPH
 social:
 - https://www.linkedin.com/company/juancash/
@@ -21,8 +21,7 @@ android:
   updated: 2024-08-05
   version: V2.0.3
   reviews: 3
-  icon: com.zybitech.juancash.webp
-  meta: obsolete
+  meta: defunct
   verdict: custodial
   developerName: Zybi Tech Inc
 iphone:
@@ -33,12 +32,13 @@ iphone:
   updated: 2025-06-23
   version: 2.0.4
   reviews: 58
-  icon: com.zybitechinc.juanworld.webp
   meta: stale
   verdict: custodial
   developerName: ZYBI TECH, INC.
 
 ---
+
+**⚠️ Warning:** JuanCash has lost its licence. The Philippine central bank [revoked](https://www.bsp.gov.ph/Regulations/Issuances/2026/CL-2026-013.pdf) Zybi Tech's e-money licence and cancelled its registrations as a crypto exchange and payment operator; the decision became final in February 2026 and was published on March 17, 2026. The JuanCash website now leads to an unrelated gambling site, and the iPhone app is gone from the App Store.
 
 ## Android
 
@@ -58,7 +58,7 @@ iphone:
   - Maybank (Other banks)
   - E-money
 - Cryptocurrency transactions are possible once additional KYC-procedures are verified.
-- The [terms](https://www.juancash.com/legal/juanexchangeterms.html) specify that all virtual currencies held by JuanCash in behalf of the user is **custodial**.
+- The [terms](https://web.archive.org/web/20210920055408/https://juancash.com/legal/juanexchangeterms.html) specify that all virtual currencies held by JuanCash in behalf of the user is **custodial**.
 
 ---
 

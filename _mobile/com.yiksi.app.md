@@ -1,6 +1,6 @@
 ---
 title: Yiksi
-date: 2024-05-18
+date: 2026-10-30
 website: https://yiksi.com/
 redirect_from:
 - /android/com.yiksi.app/
@@ -10,7 +10,6 @@ android:
   released: 2022-06-11
   updated: 2022-12-08
   version: 2.2.12
-  icon: com.yiksi.app.webp
   meta: removed
   verdict: wip
   developerName: Yiksi

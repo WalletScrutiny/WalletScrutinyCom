@@ -1,6 +1,6 @@
 ---
 title: Nine
-date: 2023-08-16
+date: 2026-10-30
 redirect_from:
 - /android/com.nine/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-07-20
   updated: 2020-10-08
   version: 1.0.7
-  icon: com.nine.webp
   meta: removed
   verdict: wip
   developerName: Nine Develpoer Team

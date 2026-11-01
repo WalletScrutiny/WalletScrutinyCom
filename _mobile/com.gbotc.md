@@ -1,6 +1,6 @@
 ---
 title: GB Pro
-date: 2023-01-02
+date: 2026-10-30
 website: https://genesisblockhk.com/
 redirect_from:
 - /android/com.gbotc/
@@ -10,7 +10,6 @@ android:
   released: 2021-07-19
   updated: 2022-06-01
   version: 1.0.5
-  icon: com.gbotc.webp
   meta: removed
   verdict: wip
 

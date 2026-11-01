@@ -1,7 +1,7 @@
 ---
 title: AntWallet
-date: 2024-09-03
-website: https://antwallet.io
+date: 2026-10-30
+website: https://antwallet.io#deadLink
 redirect_from:
 - /android/io.antwallet/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-11-15
   updated: 2021-11-23
   version: 1.0.2
-  icon: io.antwallet.webp
   meta: removed
   verdict: wip
   developerName: Golden Horizon Technologies Pte Ltd

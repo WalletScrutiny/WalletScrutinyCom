@@ -1,6 +1,6 @@
 ---
 title: 'VIBRA Wallet: Buy BTC and ETH'
-date: 2023-09-04
+date: 2026-10-30
 authors:
 - danny
 website: https://www.vibra.one#deadLink
@@ -19,7 +19,6 @@ android:
   updated: 2023-06-29
   version: 1.6.90
   reviews: 5
-  icon: com.abl.vibra.webp
   meta: removed
   verdict: custodial
   developerName: Vibra Africa
@@ -31,12 +30,13 @@ iphone:
   updated: 2023-06-16
   version: 1.6.82
   reviews: 31
-  icon: com.abl.vibra.webp
   meta: removed
   verdict: custodial
   developerName: ABL Management Limited
 
 ---
+
+**⚠️ Warning:** Vibra is gone. The pan-African exchange [shut down in Nigeria, Kenya and Ghana](https://bitcoinke.io/2023/10/vibra-shuts-down/) in October 2023, and its website no longer loads.
 
 ## Android
 

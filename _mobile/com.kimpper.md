@@ -1,6 +1,6 @@
 ---
 title: 'Kimpper: Borrow&Invest Crypto'
-date: 2023-01-30
+date: 2026-10-30
 website: https://www.kimpper.com#deadLink
 redirect_from:
 - /android/com.kimpper/
@@ -10,7 +10,6 @@ android:
   released: 2021-12-22
   updated: 2022-11-11
   version: 1.1.8
-  icon: com.kimpper.webp
   meta: removed
   verdict: wip
 

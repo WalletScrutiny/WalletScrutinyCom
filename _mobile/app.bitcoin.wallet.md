@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Wallet
-date: 2023-01-02
+date: 2026-10-30
 website: https://bitcoin.flarfly.com#deadLink
 redirect_from:
 - /android/app.bitcoin.wallet/
@@ -11,7 +11,6 @@ android:
   updated: 2021-11-02
   version: '10.00'
   reviews: 1
-  icon: app.bitcoin.wallet.webp
   meta: removed
   verdict: wip
 

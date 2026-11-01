@@ -1,6 +1,6 @@
 ---
 title: Crystal Wallet
-date: 2022-03-09
+date: 2026-10-30
 authors:
 - danny
 website: https://crystalwallet.eu#deadLink
@@ -16,7 +16,6 @@ android:
   updated: 2021-10-21
   version: '1.77'
   reviews: 9
-  icon: eu.crystalwallet.app.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -26,13 +25,14 @@ iphone:
   updated: 2021-10-23
   version: '1.78'
   reviews: 6
-  icon: eu.crystalwallet.app.webp
   meta: removed
   verdict: nosource
 
 ---
 
 ## Android
+
+**Update 2026-10-30:** The provider is gone: the crystalwallet.eu website is gone, and by [April 2025](https://web.archive.org/web/20250403080435/https://crystalwallet.eu/) it only led to a parked-domain page.
 
 **Update 2022-03-02**: This app is not available anymore.
 

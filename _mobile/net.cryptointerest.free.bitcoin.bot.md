@@ -1,6 +1,6 @@
 ---
 title: Free Bitcoin Bot
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/net.cryptointerest.free.bitcoin.bot/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-07-06
   updated: 2021-07-06
   version: '1.0'
-  icon: net.cryptointerest.free.bitcoin.bot.webp
   meta: removed
   verdict: wip
 

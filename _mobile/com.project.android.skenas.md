@@ -1,9 +1,9 @@
 ---
 title: نیکات | پلتفرم سرمایه‌گذاری در
-date: 2023-08-05
+date: 2026-10-30
 authors:
 - danny
-website: https://skenas.app/
+website: https://web.archive.org/web/20220629043337/https://skenas.app/
 redirect_from:
 - /android/com.project.android.skenas/
 android:
@@ -13,7 +13,6 @@ android:
   updated: 2021-12-18
   version: 8.0.2
   reviews: 6
-  icon: com.project.android.skenas.webp
   meta: removed
   verdict: wip
   developerName: Nikaat Corp

@@ -1,6 +1,6 @@
 ---
 title: Dello Crypto
-date: 2025-08-21
+date: 2026-10-30
 website: http://www.premicesoft.com
 redirect_from:
 - /android/com.premicesoft.tablet/
@@ -10,7 +10,6 @@ android:
   released: 2022-06-16
   updated: 2023-01-04
   version: 1.2.0
-  icon: com.premicesoft.tablet.webp
   meta: removed
   verdict: wip
   developerName: Premicesoft

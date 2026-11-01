@@ -1,6 +1,6 @@
 ---
 title: 오아시스 거래소
-date: 2024-08-07
+date: 2026-10-30
 redirect_from:
 - /android/com.oasisexcflutter.app/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-07-17
   updated: 2024-02-15
   version: 2.3.21
-  icon: com.oasisexcflutter.app.webp
   meta: removed
   verdict: wip
   developerName: Oasis Exchange

@@ -1,6 +1,6 @@
 ---
 title: HW (deprecated)
-date: 2023-11-25
+date: 2026-10-30
 redirect_from:
 - /android/com.heatwallet.heat_wallet/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-11-24
   updated: 2021-11-24
   version: 1.0.38
-  icon: com.heatwallet.heat_wallet.webp
   meta: obsolete
   verdict: wip
   developerName: Tulipfox-Tech

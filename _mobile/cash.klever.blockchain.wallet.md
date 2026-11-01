@@ -1,6 +1,6 @@
 ---
 title: K4 Wallet
-date: 2023-08-04
+date: 2026-10-30
 authors:
 - leo
 website: https://klever.org/
@@ -18,7 +18,6 @@ android:
   updated: 2023-04-28
   version: 4.24.14
   reviews: 593
-  icon: cash.klever.blockchain.wallet.webp
   meta: removed
   verdict: nosource
   developerName: 'Klever Wallet: Bitcoin, Ethereum, TRX & Crypto'
@@ -29,12 +28,13 @@ iphone:
   updated: 2023-04-19
   version: 4.24.14
   reviews: 524
-  icon: cash.klever.blockchain.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Klever Exchange
 
 ---
+
+**Update 2026-10-30:** Klever now offers its wallet as a new app, {% include walletLink.html wallet='android/finance.klever.bitcoin.wallet' verdict='true' %}, also on {% include walletLink.html wallet='iphone/finance.klever.bitcoin.wallet' verdict='true' %}.
 
 ## Android
 

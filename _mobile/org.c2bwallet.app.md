@@ -1,6 +1,6 @@
 ---
 title: Cash2Bitcoin Wallet
-date: 2025-11-13
+date: 2026-10-30
 authors:
 - danny
 website: https://cash2bitcoin.com/
@@ -15,7 +15,6 @@ android:
   released: 2024-07-25
   updated: 2025-12-25
   version: 1.5.0
-  icon: org.c2bwallet.app.webp
   meta: ok
   verdict: nosource
   developerName: Cash2Bitcoin
@@ -27,7 +26,6 @@ iphone:
   updated: 2026-01-14
   version: 1.6.0
   reviews: 13
-  icon: org.c2bwallet.app.webp
   meta: ok
   verdict: nosource
   developerName: Cash2Bitcoin

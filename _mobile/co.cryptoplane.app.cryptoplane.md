@@ -1,6 +1,6 @@
 ---
 title: Crypto Plane
-date: 2023-08-04
+date: 2026-10-30
 website: https://crypto-plane.com#deadLink
 redirect_from:
 - /android/co.cryptoplane.app.cryptoplane/
@@ -10,7 +10,6 @@ android:
   released: 2021-09-11
   updated: 2021-10-07
   version: 1.0.5
-  icon: co.cryptoplane.app.cryptoplane.webp
   meta: removed
   verdict: wip
   developerName: Crypto Plane Ltd

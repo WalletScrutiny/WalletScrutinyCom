@@ -1,6 +1,6 @@
 ---
 title: Bitzet - 비트제트 코인 선물거래소 비트젯
-date: 2025-04-01
+date: 2026-10-30
 website: https://bitzet.com
 redirect_from:
 - /android/com.chainup.exchange.BKX/
@@ -11,7 +11,6 @@ android:
   released: 2022-01-14
   updated: 2022-09-19
   version: 5.5.0_push_v2
-  icon: com.chainup.exchange.BKX.webp
   meta: obsolete
   verdict: wip
   developerName: GUDAX LLC

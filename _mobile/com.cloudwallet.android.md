@@ -1,6 +1,6 @@
 ---
 title: Cloud 2.0
-date: 2023-03-29
+date: 2026-10-30
 authors:
 - danny
 website: https://cloudtokenwallet.com/
@@ -13,12 +13,13 @@ android:
   updated: 2020-01-22
   version: 2.0.16
   reviews: 176
-  icon: com.cloudwallet.android.webp
   meta: removed
   verdict: wip
   developerName: Cloud Technology & Investments
 
 ---
+
+**Update 2026-10-30:** Cloud Token is gone. Its [website](https://cloudtokenwallet.com/) no longer shows the wallet; it now carries an unrelated article about crypto exchanges.
 
 ## App Description
 

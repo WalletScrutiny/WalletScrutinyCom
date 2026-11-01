@@ -1,6 +1,6 @@
 ---
 title: 'Bitcoin Blockchain: Crypto Wal'
-date: 2023-11-02
+date: 2026-10-30
 redirect_from:
 - /android/com.bitcoinblockchain.suyd/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-02-10
   updated: 2021-03-06
   version: 1.0.0
-  icon: com.bitcoinblockchain.suyd.webp
   meta: removed
   verdict: wip
   developerName: Bitcoin Blockchain

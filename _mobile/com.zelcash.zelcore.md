@@ -1,6 +1,6 @@
 ---
 title: Zelcore - Crypto Wallet
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -26,7 +26,6 @@ android:
   updated: 2026-09-25
   version: 8.38.0
   reviews: 140
-  icon: com.zelcash.zelcore.webp
   meta: ok
   verdict: nosource
   developerName: Influx Technologies USA
@@ -38,7 +37,6 @@ iphone:
   updated: 2026-10-02
   version: v8.38.1
   reviews: 24
-  icon: com.zelcash.zelcore.webp
   meta: ok
   verdict: nosource
   developerName: Influx Technologies Limited

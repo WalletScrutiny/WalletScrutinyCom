@@ -1,6 +1,6 @@
 ---
 title: 'TRASTRA: Crypto Card & Wallet'
-date: 2025-05-14
+date: 2026-10-30
 authors:
 - danny
 website: https://trastra.com/
@@ -19,7 +19,6 @@ android:
   updated: 2025-02-04
   version: 5.0.9
   reviews: 14
-  icon: com.trastra.mobile.webp
   meta: removed
   verdict: custodial
   developerName: TRASTRA Limited
@@ -31,12 +30,13 @@ iphone:
   updated: 2025-02-06
   version: 5.0.9
   reviews: 2
-  icon: com.trastra.mobile.webp
   meta: removed
   verdict: custodial
   developerName: Trastra Limited
 
 ---
+
+**⚠️ Warning:** TRASTRA's EU operator Trastra EU, UAB went bankrupt. Lithuania's company register lists it as being [liquidated due to bankruptcy since September 17, 2026](https://www.visalietuva.lt/imone/trastra-eu-uab). Both apps are gone from the stores.
 
 ## Android
 

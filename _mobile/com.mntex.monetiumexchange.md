@@ -1,6 +1,6 @@
 ---
 title: Monetium Exchange
-date: 2024-02-05
+date: 2026-10-30
 website: https://mntex.io#deadLink
 redirect_from:
 - /android/com.mntex.monetiumexchange/
@@ -10,7 +10,6 @@ android:
   released: 2020-11-03
   updated: 2020-11-17
   version: 1.0.1
-  icon: com.mntex.monetiumexchange.webp
   meta: removed
   verdict: wip
   developerName: 모네티움

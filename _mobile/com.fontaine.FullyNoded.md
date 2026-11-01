@@ -1,6 +1,6 @@
 ---
 title: Fully Noded
-date: 2023-11-17
+date: 2026-10-30
 authors:
 - danny
 website: https://fullynoded.app
@@ -25,7 +25,6 @@ iphone:
   updated: 2026-09-03
   version: 2.3.4
   reviews: 50
-  icon: com.fontaine.FullyNoded.webp
   meta: ok
   verdict: sourceavailable
   developerName: Denton LLC

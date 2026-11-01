@@ -1,6 +1,6 @@
 ---
 title: Cryptobase Wallet
-date: 2026-02-02
+date: 2026-10-30
 website: https://cryptobaseatm.com
 redirect_from:
 - /android/com.cryptobasewallet.app/
@@ -10,7 +10,6 @@ android:
   released: 2024-10-10
   updated: 2025-03-14
   version: 4.23.0
-  icon: com.cryptobasewallet.app.webp
   meta: removed
   verdict: wip
   developerName: Cryptobase, LLC

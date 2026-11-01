@@ -1,6 +1,6 @@
 ---
 title: Melis Bitcoin, Bitcoin Cash, L
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - leo
 website: https://www.melis.io
@@ -21,7 +21,6 @@ android:
   released: 2017-01-30
   updated: 2021-09-30
   version: 1.6.24
-  icon: io.melis.clientwallet.webp
   meta: removed
   verdict: sourceavailable
   developerName: Melis
@@ -33,7 +32,6 @@ iphone:
   updated: 2021-05-08
   version: 1.6.21
   reviews: 0
-  icon: io.melis.clientwallet.webp
   meta: removed
   verdict: sourceavailable
   developerName: Melis s.r.l.

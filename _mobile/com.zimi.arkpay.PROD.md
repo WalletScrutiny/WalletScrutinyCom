@@ -1,9 +1,9 @@
 ---
 title: ArkPay - BTC ETH Wallet
-date: 2025-05-30
+date: 2026-10-30
 authors:
 - danny
-website: https://www.arkpay.site/
+website: https://web.archive.org/web/20250612215830/https://www.arkpay.site/
 redirect_from:
 - /android/com.zimi.arkpay.PROD/
 - /iphone/com.zimi.arkpay/
@@ -13,7 +13,6 @@ android:
   released: 2020-06-03
   updated: 2024-12-16
   version: 2.15.0
-  icon: com.zimi.arkpay.PROD.webp
   meta: removed
   verdict: custodial
   developerName: ZIMI
@@ -25,12 +24,13 @@ iphone:
   updated: 2024-12-30
   version: 2.14.0
   reviews: 9
-  icon: com.zimi.arkpay.webp
   meta: stale
   verdict: custodial
   developerName: Zimi
 
 ---
+
+**Update 2026-10-30:** ArkPay's website no longer loads; the last [archived copy](https://web.archive.org/web/20250612215830/https://www.arkpay.site/) is from June 2025. The iPhone app is still listed in Taiwan, but it has not been updated since December 2024.
 
 ## Android
 

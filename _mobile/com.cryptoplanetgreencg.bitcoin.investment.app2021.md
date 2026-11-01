@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Investment App2021
-date: 2021-09-25
+date: 2026-10-30
 redirect_from:
 - /android/com.cryptoplanetgreencg.bitcoin.investment.app2021/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-07-28
   updated: 2021-07-28
   version: '1.0'
-  icon: com.cryptoplanetgreencg.bitcoin.investment.app2021.webp
   meta: removed
   verdict: wip
 

@@ -1,6 +1,6 @@
 ---
 title: VCB
-date: 2023-08-04
+date: 2026-10-30
 website: http://www.vcb.com/
 redirect_from:
 - /android/com.coldlar.vcb/
@@ -10,7 +10,6 @@ android:
   released: 2021-04-05
   updated: 2021-09-22
   version: 2.3.0
-  icon: com.coldlar.vcb.webp
   meta: removed
   verdict: wip
   developerName: VCB Information Technology PTY Ltd

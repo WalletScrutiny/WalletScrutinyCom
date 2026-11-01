@@ -1,6 +1,6 @@
 ---
 title: Alexchanger
-date: 2024-07-05
+date: 2026-10-30
 website: https://alexchanger.com/
 redirect_from:
 - /android/com.alexchanger.alexchanger/
@@ -11,7 +11,6 @@ android:
   updated: 2020-06-12
   version: '1.0'
   reviews: 26
-  icon: com.alexchanger.alexchanger.webp
   meta: removed
   verdict: wip
   developerName: Tahwiil

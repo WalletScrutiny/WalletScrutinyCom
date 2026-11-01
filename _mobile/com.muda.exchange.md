@@ -1,6 +1,6 @@
 ---
 title: MUDA
-date: 2024-04-26
+date: 2026-10-30
 authors:
 - danny
 website: https://www.muda.exchange#deadLink
@@ -16,7 +16,6 @@ android:
   released: 2022-05-04
   updated: 2023-12-06
   version: '1.0'
-  icon: com.muda.exchange.webp
   meta: removed
   verdict: custodial
   developerName: Muda Exchange
@@ -28,7 +27,6 @@ iphone:
   updated: 2023-12-06
   version: '2.1'
   reviews: 0
-  icon: com.muda.exchange.webp
   meta: removed
   verdict: custodial
   developerName: Muda ventures limited

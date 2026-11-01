@@ -1,6 +1,6 @@
 ---
 title: LVL - The Money App
-date: 2023-01-11
+date: 2026-10-30
 authors:
 - danny
 website: https://web.archive.org/web/20250910205356/http://lvl.co/
@@ -19,7 +19,6 @@ android:
   updated: 2021-09-09
   version: 1.0.5
   reviews: 62
-  icon: co.lvl.firstapp.webp
   meta: removed
   verdict: custodial
   developerName: Samsa Technologies Inc.
@@ -30,11 +29,12 @@ iphone:
   updated: 2021-09-13
   version: 1.0.5
   reviews: 369
-  icon: co.lvl.firstapp.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** LVL shut down in August 2022 because it could not raise more funding. It told customers to withdraw all funds before August 30, 2022 and pulled its apps from both stores ([BTC Times](https://btctimes.com/lvl-banking-apps-quiet-restructuring)).
 
 ## Android
 

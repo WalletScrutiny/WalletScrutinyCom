@@ -1,6 +1,6 @@
 ---
 title: Coinsher - Buy BTC & Crypto
-date: 2026-05-27
+date: 2026-10-30
 authors:
 - danny
 website: https://www.coinsher.com/
@@ -17,7 +17,6 @@ android:
   updated: 2025-12-27
   version: 1.5.2
   reviews: 9
-  icon: com.coinsher.coinsherapp.webp
   meta: ok
   verdict: custodial
   developerName: Solidray

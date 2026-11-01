@@ -1,6 +1,6 @@
 ---
 title: LOTUSCFD - Online Trading App
-date: 2024-04-19
+date: 2026-10-30
 website: https://www.lotuscfd.com#deadLink
 redirect_from:
 - /android/com.lotuscfd.app/
@@ -10,7 +10,6 @@ android:
   released: 2019-09-28
   updated: 2019-09-25
   version: 1.0.14
-  icon: com.lotuscfd.app.webp
   meta: removed
   verdict: wip
   developerName: CITFRIX

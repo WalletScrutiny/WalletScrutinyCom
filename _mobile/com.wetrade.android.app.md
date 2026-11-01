@@ -1,6 +1,6 @@
 ---
 title: weTrade
-date: 2023-08-25
+date: 2026-10-30
 website: https://www.wetrade.app#deadLink
 redirect_from:
 - /android/com.wetrade.android.app/
@@ -10,7 +10,6 @@ android:
   released: 2022-05-11
   updated: 2022-12-23
   version: '1.1'
-  icon: com.wetrade.android.app.webp
   meta: removed
   verdict: wip
   developerName: weTrade

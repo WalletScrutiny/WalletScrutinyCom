@@ -1,6 +1,6 @@
 ---
 title: 'Koinstrap: Buy & Sell BTC, ETH'
-date: 2025-11-26
+date: 2026-10-30
 authors:
 - danny
 website: https://koinstrap.com
@@ -18,18 +18,17 @@ android:
   released: 2020-08-28
   updated: 2026-09-05
   version: 4.1.10
-  icon: com.koinstrap.koinstrap.webp
   meta: ok
   verdict: custodial
   developerName: Koinstrap, Inc
 iphone:
   appId: com.koinstrap.koinstrap
   idd: 1527922541
+  appCountry: ng
   released: 2020-08-31
   updated: 2023-11-27
   version: 3.3.7
   reviews: 34
-  icon: com.koinstrap.koinstrap.webp
   meta: removed
   verdict: custodial
   developerName: Koinstrap, Inc.
@@ -68,7 +67,7 @@ We were not able to register. Looks like the app is only availabe in Nigeria.
 
 ## Verdict
 
-In the [FAQ section](https://koinstrap.com/faqs) of their website, they noted that they secure the funds of their users via offline storage:
+In the [FAQ section](https://web.archive.org/web/20250616145753/https://koinstrap.com/faqs) of their website, they noted that they secure the funds of their users via offline storage:
 
 > **Is Koinstrap very secured?**<br>
 We may wish to inform you that all the digital currencies on our website are fully secured and are being stored in an offline vault.

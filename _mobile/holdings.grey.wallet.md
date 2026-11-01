@@ -1,6 +1,6 @@
 ---
 title: 'Grey Wallet: BTC, ETH & crypto'
-date: 2026-09-14
+date: 2026-10-30
 website: https://grey.holdings/en
 iphone:
   appId: holdings.grey.wallet
@@ -10,7 +10,6 @@ iphone:
   updated: 2026-09-21
   version: 1.0.9
   reviews: 1
-  icon: holdings.grey.wallet.webp
   meta: ok
   verdict: wip
   developerName: AirJIT Inc.

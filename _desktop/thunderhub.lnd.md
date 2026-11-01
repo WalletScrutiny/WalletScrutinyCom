@@ -12,11 +12,10 @@ provider: Thunderhub
 providerWebsite: 
 website: https://www.thunderhub.io
 repository: https://github.com/apotdevin/thunderhub
-icon: thunderhub.lnd.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-09-08
+date: 2026-10-30
 twitter: thunderhubio
 social: 
 builds: 

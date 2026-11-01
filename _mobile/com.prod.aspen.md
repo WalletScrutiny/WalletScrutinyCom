@@ -1,6 +1,6 @@
 ---
 title: Aspen Digital
-date: 2025-08-29
+date: 2026-10-30
 authors:
 - danny
 website: https://www.aspendigital.co/
@@ -13,7 +13,6 @@ android:
   released: 2022-06-28
   updated: 2025-09-22
   version: 2.1.20
-  icon: com.prod.aspen.webp
   meta: removed
   verdict: custodial
   developerName: Aspen Digital

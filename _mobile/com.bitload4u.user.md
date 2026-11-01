@@ -1,6 +1,6 @@
 ---
 title: Bitload4u
-date: 2024-04-26
+date: 2026-10-30
 website: https://www.bitload4u.com
 redirect_from:
 - /android/com.bitload4u.user/
@@ -10,7 +10,6 @@ android:
   released: 2017-10-29
   updated: 2019-08-27
   version: 2.1.5
-  icon: com.bitload4u.user.webp
   meta: removed
   verdict: wip
   developerName: Bitload4u

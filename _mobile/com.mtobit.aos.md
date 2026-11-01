@@ -1,9 +1,9 @@
 ---
 title: Mtobit
-date: 2023-05-30
+date: 2026-10-30
 authors:
 - danny
-website: https://mtobit.com
+website: https://mtobit.com#deadLink
 redirect_from:
 - /android/com.mtobit.aos/
 android:
@@ -12,7 +12,6 @@ android:
   released: 2020-02-22
   updated: 2020-09-29
   version: 1.1.6
-  icon: com.mtobit.aos.webp
   meta: removed
   verdict: wip
   developerName: mtobit

@@ -1,6 +1,6 @@
 ---
 title: ATMopen
-date: 2024-04-19
+date: 2026-10-30
 website: https://web.archive.org/web/20220628051134/http://www.atmopen.com/
 redirect_from:
 - /android/org.snowcorp.login/
@@ -10,7 +10,6 @@ android:
   released: 2019-04-23
   updated: 2019-06-20
   version: '1.2'
-  icon: org.snowcorp.login.webp
   meta: removed
   verdict: wip
   developerName: Corporación Lemez. C.A.

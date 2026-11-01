@@ -1,6 +1,6 @@
 ---
 title: CRIPTOHUB - CHBR
-date: 2023-05-17
+date: 2026-10-30
 authors:
 - danny
 website: https://dashboard.criptohub.com.br#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2019-07-30
   updated: 2019-10-10
   version: 1.0.6
-  icon: com.criptohub.webp
   meta: removed
   verdict: wip
   developerName: CriptoHub

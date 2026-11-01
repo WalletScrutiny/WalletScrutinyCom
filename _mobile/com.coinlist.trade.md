@@ -1,6 +1,6 @@
 ---
 title: CoinList
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
 website: https://coinlist.co/
@@ -18,7 +18,6 @@ android:
   updated: 2021-12-06
   version: 2.0.8
   reviews: 193
-  icon: com.coinlist.trade.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -28,7 +27,6 @@ iphone:
   updated: 2021-11-24
   version: 2.0.4
   reviews: 144
-  icon: com.coinlist.trade.webp
   meta: removed
   verdict: custodial
 

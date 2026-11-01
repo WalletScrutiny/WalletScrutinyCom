@@ -1,6 +1,6 @@
 ---
 title: Matinex
-date: 2024-04-03
+date: 2026-10-30
 website: https://web.archive.org/web/20221120043914/https://matinex.com/
 redirect_from:
 - /android/com.matinex.matinex/
@@ -10,7 +10,6 @@ android:
   released: 2021-11-07
   updated: 2021-11-22
   version: 1.0.6
-  icon: com.matinex.matinex.webp
   meta: removed
   verdict: wip
   developerName: Sonny Asgari

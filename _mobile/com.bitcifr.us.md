@@ -1,6 +1,6 @@
 ---
 title: BitCIFR
-date: 2024-02-05
+date: 2026-10-30
 redirect_from:
 - /android/com.bitcifr.us/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2023-04-10
   updated: 2023-04-10
   version: '1.0'
-  icon: com.bitcifr.us.webp
   meta: removed
   verdict: wip
   developerName: Everett Michael Jr Lucas-jones

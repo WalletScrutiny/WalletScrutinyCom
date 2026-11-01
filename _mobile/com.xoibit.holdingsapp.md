@@ -1,6 +1,6 @@
 ---
 title: 'Xoibit: Trade BTC & Crypto'
-date: 2026-01-26
+date: 2026-10-30
 authors:
 - danny
 website: https://xoibit.com
@@ -13,7 +13,6 @@ android:
   released: 2025-07-05
   updated: 2026-07-23
   version: 1.0.19
-  icon: com.xoibit.holdingsapp.webp
   meta: ok
   verdict: custodial
   developerName: Xoibit

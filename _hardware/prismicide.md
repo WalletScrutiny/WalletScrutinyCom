@@ -15,16 +15,15 @@ dimensions:
 weight: 
 provider: PRISMicide
 providerWebsite: 
-website: http://www.prismicide.com
+website: https://web.archive.org/web/20160110122424/http://prismicide.com/
 shop: https://www.indiegogo.com/projects/prismicide-world-s-most-secure-bitcoin-hardware-wallet-and-anti-prism-platform#/
 country: FR
 price: 
 repository: 
-icon: prismicide.webp
 bugbounty: 
 meta: defunct
 verdict: nosource
-date: 2022-04-04
+date: 2026-10-30
 signer: 
 twitter: Prismicide
 social:
@@ -34,6 +33,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** This project is gone. Its website and its successor site no longer exist.
 
 ## Product Description 
 

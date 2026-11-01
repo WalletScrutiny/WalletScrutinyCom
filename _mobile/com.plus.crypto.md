@@ -1,6 +1,6 @@
 ---
 title: Plus Crypto
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/com.plus.crypto/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2023-01-26
   updated: 2023-05-21
   version: 1.0.0
-  icon: com.plus.crypto.webp
   meta: removed
   verdict: wip
   developerName: Plus365Crypto

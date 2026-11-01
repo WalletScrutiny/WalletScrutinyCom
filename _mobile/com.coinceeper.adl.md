@@ -1,6 +1,6 @@
 ---
 title: Coinceeper - Crypto wallet
-date: 2026-07-21
+date: 2026-10-30
 website: https://coinceeper.com/
 redirect_from:
 - /android/com.coinceeper.adl/
@@ -12,7 +12,6 @@ android:
   released: 2025-08-19
   updated: 2026-09-22
   version: 1.0.70
-  icon: com.coinceeper.adl.webp
   meta: ok
   verdict: nosource
   developerName: Taparam
@@ -25,7 +24,6 @@ iphone:
   updated: 2026-07-13
   version: 1.0.56
   reviews: 0
-  icon: com.coinceeper.adl.webp
   meta: ok
   verdict: nosource
   developerName: TAPARAM ELIPTIK TEKNOLOJI VE YAZILIM ANONIM SIRKETI

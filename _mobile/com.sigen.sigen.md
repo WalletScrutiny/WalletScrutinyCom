@@ -1,6 +1,6 @@
 ---
 title: SIGEN.pro
-date: 2025-05-30
+date: 2026-10-30
 authors:
 - danny
 website: https://sigen.pro#deadLink
@@ -18,7 +18,6 @@ android:
   updated: 2025-04-17
   version: 2.9.56
   reviews: 6263
-  icon: com.sigen.sigen.webp
   meta: removed
   verdict: custodial
   developerName: Lergen Style LLP
@@ -29,7 +28,6 @@ iphone:
   updated: 2025-07-03
   version: 2.9.63
   reviews: 3663
-  icon: com.sigen.sigenapp.webp
   meta: removed
   verdict: custodial
   developerName: Lergen Style LP

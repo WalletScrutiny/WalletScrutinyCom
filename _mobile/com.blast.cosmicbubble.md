@@ -1,6 +1,6 @@
 ---
 title: bkingexchange
-date: 2026-07-22
+date: 2026-10-30
 website: https://www.bikingex.com
 redirect_from:
 - /android/com.blast.cosmicbubble/
@@ -12,7 +12,6 @@ android:
   released: 2026-02-19
   updated: 2026-06-04
   version: 3.8.7
-  icon: com.blast.cosmicbubble.webp
   meta: removed
   verdict: custodial
   developerName: Cyberdoc Solutions
@@ -24,7 +23,6 @@ iphone:
   updated: 2026-07-28
   version: 3.8.8
   reviews: 36
-  icon: com.BKExchange.appstore.webp
   meta: ok
   verdict: custodial
   developerName: JUU INC

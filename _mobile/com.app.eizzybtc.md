@@ -1,6 +1,6 @@
 ---
 title: Eizzy BTC
-date: 2022-04-07
+date: 2026-10-30
 website: https://eizzybtc.com#deadLink
 redirect_from:
 - /android/com.app.eizzybtc/
@@ -10,7 +10,6 @@ android:
   released: 2020-11-18
   updated: 2020-11-19
   version: 1.0.0
-  icon: com.app.eizzybtc.webp
   meta: removed
   verdict: wip
 

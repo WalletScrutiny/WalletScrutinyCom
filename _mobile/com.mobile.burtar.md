@@ -1,6 +1,6 @@
 ---
 title: 'Burtar wallet: Buy, Sell & Swap Bitcoin & Crypto'
-date: 2022-05-31
+date: 2026-10-30
 authors:
 - leo
 website: https://burtar.com#deadLink
@@ -13,7 +13,6 @@ android:
   updated: 2021-06-26
   version: '1.0'
   reviews: 8
-  icon: com.mobile.burtar.webp
   meta: removed
   verdict: wip
 

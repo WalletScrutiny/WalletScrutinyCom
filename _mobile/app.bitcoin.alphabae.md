@@ -1,6 +1,6 @@
 ---
 title: AlphaBae
-date: 2024-05-07
+date: 2026-10-30
 redirect_from:
 - /android/app.bitcoin.alphabae/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-10-19
   updated: 2021-07-10
   version: 1.1.34
-  icon: app.bitcoin.alphabae.webp
   meta: removed
   verdict: wip
   developerName: developerYaanis

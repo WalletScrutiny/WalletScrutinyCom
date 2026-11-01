@@ -1,6 +1,6 @@
 ---
 title: 24CFD - Online Trading Platfor
-date: 2023-12-19
+date: 2026-10-30
 website: https://www.24cfd.com#deadLink
 redirect_from:
 - /android/com.twentyfourcfd/
@@ -10,7 +10,6 @@ android:
   released: 2019-09-25
   updated: 2019-09-25
   version: 1.0.14
-  icon: com.twentyfourcfd.webp
   meta: removed
   verdict: wip
   developerName: CITFRIX

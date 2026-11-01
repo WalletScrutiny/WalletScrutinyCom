@@ -17,11 +17,10 @@ shop:
 country: 
 price: 200USD
 repository: 
-icon: mighty.coldwallet.webp
 bugbounty: 
 meta: defunct
 verdict: nosource
-date: 2022-05-17
+date: 2026-10-30
 signer: 
 twitter: mightywalletc
 social: 

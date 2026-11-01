@@ -1,7 +1,7 @@
 ---
 title: 7StarPay
-date: 2023-12-19
-website: https://7StarPay.com
+date: 2026-10-30
+website: https://7StarPay.com#deadLink
 redirect_from:
 - /android/club.sevenstar.sevenstarapp/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-08-31
   updated: 2022-05-31
   version: 2.1.48
-  icon: club.sevenstar.sevenstarapp.webp
   meta: removed
   verdict: wip
   developerName: Exchangily LLC

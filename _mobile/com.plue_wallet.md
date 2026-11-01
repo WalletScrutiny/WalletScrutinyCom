@@ -1,6 +1,6 @@
 ---
 title: Plue Wallet
-date: 2024-04-19
+date: 2026-10-30
 website: http://www.plue.io#deadLink
 redirect_from:
 - /android/com.plue_wallet/
@@ -10,7 +10,6 @@ android:
   released: 2019-04-01
   updated: 2021-08-04
   version: 2.4.2
-  icon: com.plue_wallet.webp
   meta: removed
   verdict: wip
   developerName: Plue Wallet

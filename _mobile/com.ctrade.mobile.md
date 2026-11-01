@@ -1,6 +1,6 @@
 ---
 title: C-Trade
-date: 2023-01-30
+date: 2026-10-30
 authors:
 - danny
 website: https://www.c-trade.com/
@@ -17,7 +17,6 @@ android:
   released: 2020-12-19
   updated: 2022-08-02
   version: 1.2.2
-  icon: com.ctrade.mobile.webp
   meta: removed
   verdict: custodial
   developerName: C-Trade Global Limited
@@ -28,11 +27,12 @@ iphone:
   updated: 2022-08-03
   version: 1.2.2
   reviews: 17
-  icon: com.ctrade.mobile.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** C-Trade no longer runs its exchange. Its [website](https://www.c-trade.com/) has not changed since 2022 and now only says that C-Trade is "developing a brand new platform" and asks customers to contact support. The app is gone from both stores.
 
 ## Android
 

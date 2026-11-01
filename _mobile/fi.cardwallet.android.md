@@ -1,6 +1,6 @@
 ---
 title: CWallet - ADA Crypto Wallet
-date: 2023-09-28
+date: 2026-10-30
 authors:
 - danny
 website: https://cwallet.finance/
@@ -15,7 +15,6 @@ android:
   released: 2021-08-31
   updated: 2023-07-11
   version: '1.12'
-  icon: fi.cardwallet.android.webp
   meta: removed
   verdict: nosource
   developerName: CWallet
@@ -26,7 +25,6 @@ iphone:
   updated: 2022-03-23
   version: '2.2'
   reviews: 1
-  icon: fi.cardwallet.webp
   meta: removed
   verdict: nosource
   developerName: CardSoft OU

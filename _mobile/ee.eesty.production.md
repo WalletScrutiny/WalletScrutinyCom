@@ -1,6 +1,6 @@
 ---
 title: eesty -Smart Wallet
-date: 2023-08-16
+date: 2026-10-30
 authors:
 - danny
 website: https://www.eesty.ee#deadLink
@@ -14,7 +14,6 @@ iphone:
   updated: 2019-07-03
   version: '3.0'
   reviews: 8
-  icon: ee.eesty.production.webp
   meta: removed
   verdict: nosource
   developerName: blockhive

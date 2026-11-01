@@ -1,6 +1,6 @@
 ---
 title: Assero Wallet
-date: 2024-02-05
+date: 2026-10-30
 website: https://www.asserosapphiremoney.com#deadLink
 redirect_from:
 - /android/com.assero.asserowallet/
@@ -10,7 +10,6 @@ android:
   released: 2020-06-01
   updated: 2020-07-13
   version: '1.9'
-  icon: com.assero.asserowallet.webp
   meta: removed
   verdict: wip
   developerName: Assero Group

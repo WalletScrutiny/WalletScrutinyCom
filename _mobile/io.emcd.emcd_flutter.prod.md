@@ -1,6 +1,6 @@
 ---
 title: EMCD Coinhold — Crypto Wallet
-date: 2023-07-07
+date: 2026-10-30
 authors:
 - danny
 website: https://emcd.io/ru
@@ -21,7 +21,6 @@ android:
   updated: 2026-10-09
   version: 2.43.0
   reviews: 36
-  icon: io.emcd.emcd_flutter.prod.webp
   meta: ok
   verdict: custodial
   developerName: EMCD Tech Limited
@@ -33,7 +32,6 @@ iphone:
   updated: 2024-09-24
   version: 2.5.0
   reviews: 0
-  icon: io.emcd.app.webp
   meta: removed
   verdict: custodial
   developerName: Emcd Tech Limited

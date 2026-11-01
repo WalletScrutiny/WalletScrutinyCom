@@ -1,6 +1,6 @@
 ---
 title: 'Zap: Bitcoin Lightning Wallet'
-date: 2022-04-25
+date: 2026-10-30
 authors:
 - leo
 website: https://web.archive.org/web/20200627113118/https://zap.jackmallers.com/
@@ -27,7 +27,6 @@ android:
   users: 10000
   updated: 2023-04-16
   version: VARY
-  icon: zapsolutions.zap.webp
   meta: removed
   verdict: sourceavailable
   developerName: LN OSS
@@ -39,12 +38,13 @@ iphone:
   updated: 2020-08-03
   version: 0.5.2
   reviews: 63
-  icon: com.jackmallers.zap.webp
   meta: removed
   verdict: sourceavailable
   repository: https://github.com/LN-Zap/zap-iOS
 
 ---
+
+**Update 2026-10-30:** The Zap project has ended. Both the [Android](https://github.com/LN-Zap/zap-android) and the [iPhone](https://github.com/LN-Zap/zap-iOS) repositories were archived on 2023-11-17, and [zaphq.io](http://zaphq.io) now redirects to Strike.
 
 ## Android
 

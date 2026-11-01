@@ -1,6 +1,6 @@
 ---
 title: Orillia Merchant
-date: 2024-04-19
+date: 2026-10-30
 website: http://www.orillia.be
 redirect_from:
 - /android/orillia.com.orilliamerchantapp/
@@ -10,7 +10,6 @@ android:
   released: 2015-06-03
   updated: 2015-06-03
   version: '0.18'
-  icon: orillia.com.orilliamerchantapp.webp
   meta: removed
   verdict: wip
   developerName: Orillia BVBA

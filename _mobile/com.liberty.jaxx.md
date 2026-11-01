@@ -1,6 +1,6 @@
 ---
 title: Jaxx Liberty - Trade Crypto
-date: 2023-04-16
+date: 2026-10-30
 authors:
 - leo
 website: https://jaxx.io
@@ -21,7 +21,6 @@ android:
   updated: 2022-06-15
   version: 3.0.0
   reviews: 428
-  icon: com.liberty.jaxx.webp
   meta: removed
   verdict: nosource
   developerName: Decentral Inc.
@@ -32,12 +31,13 @@ iphone:
   updated: 2022-06-20
   version: 3.0.0
   reviews: 1566
-  icon: com.liberty.jaxx.webp
   meta: removed
   verdict: nosource
   developerName: Decentral Inc.
 
 ---
+
+**Update 2026-10-30:** Jaxx Liberty was retired on 27 March 2023; Jaxx asked users to move their 12-word backup phrase to a compatible wallet like Edge or Exodus ([Jaxx on X](https://x.com/jaxx_io/status/1638640127206457346)). The Jaxx website now forwards to Edge ({% include walletLink.html wallet='android/co.edgesecure.app' verdict='true' %}).
 
 ## Android
 

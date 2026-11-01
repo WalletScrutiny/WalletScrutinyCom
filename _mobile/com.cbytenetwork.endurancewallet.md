@@ -1,6 +1,6 @@
 ---
 title: Endurance Wallet
-date: 2024-02-05
+date: 2026-10-30
 website: https://cbyte.network#deadLink
 redirect_from:
 - /android/com.cbytenetwork.endurancewallet/
@@ -10,7 +10,6 @@ android:
   released: 2023-02-27
   updated: 2023-02-27
   version: 0.01.0
-  icon: com.cbytenetwork.endurancewallet.webp
   meta: removed
   verdict: wip
   developerName: CBYTE Network

@@ -1,6 +1,6 @@
 ---
 title: BTC BCH ETH Wallet
-date: 2023-08-16
+date: 2026-10-30
 website: https://web.archive.org/web/20240419054942/http://www.btcbcheth.net/
 redirect_from:
 - /android/com.BTC.BTC_BCH/
@@ -11,7 +11,6 @@ android:
   updated: 2022-07-21
   version: 1.2.3
   reviews: 1
-  icon: com.BTC.BTC_BCH.webp
   meta: removed
   verdict: wip
   developerName: Qalab Abbas

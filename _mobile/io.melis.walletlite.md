@@ -1,6 +1,6 @@
 ---
 title: Melis Lite
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - leo
 website: https://www.melis.io
@@ -14,7 +14,6 @@ android:
   released: 2019-06-03
   updated: 2019-06-03
   version: 0.4.0
-  icon: io.melis.walletlite.webp
   meta: removed
   verdict: wip
   developerName: Melis

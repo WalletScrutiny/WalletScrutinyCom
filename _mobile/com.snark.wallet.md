@@ -1,7 +1,7 @@
 ---
 title: Snark Wallet
-date: 2024-04-19
-website: https://snarkwallet.app/
+date: 2026-10-30
+website: https://snarkwallet.app/#deadLink
 redirect_from:
 - /android/com.snark.wallet/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2019-09-25
   updated: 2020-02-05
   version: 0.1.0
-  icon: com.snark.wallet.webp
   meta: removed
   verdict: wip
   developerName: Sound Fintech Solutions

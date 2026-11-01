@@ -1,6 +1,6 @@
 ---
 title: BTCTrade
-date: 2023-04-16
+date: 2026-10-30
 authors:
 - danny
 website: https://web.archive.org/web/20090828171643/http://multipi.net:80/
@@ -12,7 +12,6 @@ android:
   released: 2017-01-30
   updated: 2018-09-05
   version: '1.5'
-  icon: multico.in.btctrade.webp
   meta: removed
   verdict: wip
   developerName: Smmarat

@@ -1,6 +1,6 @@
 ---
 title: CoinCorner
-date: 2024-10-07
+date: 2026-10-30
 authors:
 - kiwilamb
 website: https://www.coincorner.com
@@ -21,7 +21,6 @@ android:
   updated: 2025-10-10
   version: 5.2.3
   reviews: 5
-  icon: com.coincorner.app.crypt.webp
   meta: removed
   verdict: custodial
   developerName: CoinCorner Ltd
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-10-08
   version: 5.2.11
   reviews: 309
-  icon: com.coincorner.app.crypt.webp
   meta: ok
   verdict: custodial
   developerName: CoinCorner Ltd

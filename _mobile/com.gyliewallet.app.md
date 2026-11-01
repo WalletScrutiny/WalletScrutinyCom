@@ -1,6 +1,6 @@
 ---
 title: GYLIE- Crypto wallet
-date: 2023-08-04
+date: 2026-10-30
 website: http://www.saveure.com
 redirect_from:
 - /android/com.gyliewallet.app/
@@ -10,7 +10,6 @@ android:
   released: 2021-08-08
   updated: 2022-01-12
   version: 1.0.4
-  icon: com.gyliewallet.app.webp
   meta: removed
   verdict: wip
   developerName: SAVEURE LLC

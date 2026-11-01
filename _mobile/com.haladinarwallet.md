@@ -1,12 +1,11 @@
 ---
 title: Haladinar HDN wallet
-date: 2024-04-19
+date: 2026-10-30
 authors:
 - danny
 website: https://haladinar.io
 twitter: haladinar
 social:
-- http://haladinar.io/hdn/index.html
 - https://facebook.com/haladinar.io
 - https://github.com/haladinar
 - https://t.me/haladinar
@@ -20,7 +19,6 @@ android:
   updated: 2019-09-23
   version: 1.0.13
   reviews: 4
-  icon: com.haladinarwallet.webp
   meta: removed
   verdict: nosource
   developerName: Haladinar

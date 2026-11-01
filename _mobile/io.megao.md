@@ -1,6 +1,6 @@
 ---
 title: MegaO
-date: 2024-04-19
+date: 2026-10-30
 website: https://megao.io#deadLink
 redirect_from:
 - /android/io.megao/
@@ -10,7 +10,6 @@ android:
   released: 2021-12-07
   updated: 2022-04-07
   version: 1.0.4
-  icon: io.megao.webp
   meta: removed
   verdict: wip
   developerName: MEGAO LTD

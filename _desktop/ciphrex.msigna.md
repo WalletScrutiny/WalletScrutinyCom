@@ -12,11 +12,10 @@ provider: Ciphrex
 providerWebsite: https://web.archive.org/web/20170905112722/https://ciphrex.com/
 website: 
 repository: https://github.com/ciphrex/mSIGNA
-icon: ciphrex.msigna.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-date: 2025-04-25
+date: 2026-10-30
 twitter: ciphrex
 social:
 - https://www.linkedin.com/company/ciphrex-llc/

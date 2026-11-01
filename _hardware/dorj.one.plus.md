@@ -12,16 +12,15 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: https://mydorj.com/
+website: https://dorj.io/
 shop: https://dorj.io/product/dorjoneplus/
 country: IR
 price: 
 repository: 
-icon: dorj.one.plus.webp
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2023-04-06
+date: 2026-10-30
 signer: 
 twitter: dorjwa
 social:
@@ -30,6 +29,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** The old site mydorj.com no longer loads. Dorj now sells from [dorj.io](https://dorj.io/), where the [Dorj One Plus](https://dorj.io/product/dorjoneplus/) is still in stock.
 
 ## Product Description taken from the Dorj homepage
 

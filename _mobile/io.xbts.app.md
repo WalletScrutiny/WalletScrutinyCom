@@ -1,6 +1,6 @@
 ---
 title: 'XBTS: Crypto wallet and DeFi'
-date: 2025-02-26
+date: 2026-10-30
 authors:
 - danny
 website: https://app.xbts.io
@@ -15,7 +15,6 @@ android:
   updated: 2022-08-17
   version: 0.1.29
   reviews: 4
-  icon: io.xbts.app.webp
   meta: removed
   verdict: wip
   developerName: TechnoL0g

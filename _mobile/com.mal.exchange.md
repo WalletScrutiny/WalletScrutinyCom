@@ -1,6 +1,6 @@
 ---
 title: 'Mal.io: Bitcoin,Trade Crypto'
-date: 2023-07-11
+date: 2026-10-30
 authors:
 - danny
 website: https://mal.io/
@@ -20,7 +20,6 @@ android:
   updated: 2026-07-21
   version: 1.0.57
   reviews: 34
-  icon: com.mal.exchange.webp
   meta: removed
   verdict: custodial
   developerName: MAL finance مال
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-07-23
   version: 1.9.0
   reviews: 4
-  icon: io.mal.exchange.webp
   meta: ok
   verdict: custodial
   developerName: Mal Network Limited

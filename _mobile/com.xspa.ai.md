@@ -1,6 +1,6 @@
 ---
 title: 'XSPA: Crypto Wallet'
-date: 2025-12-26
+date: 2026-10-30
 authors:
 - danny
 website: https://xspa.ai/
@@ -21,7 +21,6 @@ android:
   updated: 2026-08-07
   version: 1.0.25
   reviews: 7
-  icon: com.xspa.ai.webp
   meta: ok
   verdict: nosource
   developerName: XSPA
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-08-10
   version: 1.0.17
   reviews: 11
-  icon: com.xspa.ai.webp
   meta: ok
   verdict: nosource
   developerName: XSPA

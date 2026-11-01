@@ -1,6 +1,6 @@
 ---
 title: BitFex - Exchange
-date: 2023-09-04
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2023-02-12
   updated: 2023-08-04
   version: 1.1.3
-  icon: com.bitfex.io.webp
   meta: removed
   verdict: custodial
   developerName: BitFex

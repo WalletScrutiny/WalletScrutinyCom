@@ -1,6 +1,6 @@
 ---
 title: 'Internet Money: Crypto Wallet'
-date: 2025-11-18
+date: 2026-10-30
 authors:
 - danny
 website: https://internetmoney.io/
@@ -20,7 +20,6 @@ android:
   updated: 2026-09-17
   version: '4.1'
   reviews: 89
-  icon: com.internetmoneywallet.app.webp
   meta: ok
   verdict: nosource
   developerName: Internet Money
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-09-17
   version: '4.1'
   reviews: 193
-  icon: com.internetmoneywallet.app.webp
   meta: ok
   verdict: nosource
   developerName: Decentralized Innovations, LLC

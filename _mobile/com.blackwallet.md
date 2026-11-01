@@ -1,6 +1,6 @@
 ---
 title: Black Wallet
-date: 2023-08-04
+date: 2026-10-30
 website: https://blackproject.tech#deadLink
 redirect_from:
 - /android/com.blackwallet/
@@ -11,7 +11,6 @@ android:
   updated: 2023-05-02
   version: '1.1'
   reviews: 4
-  icon: com.blackwallet.webp
   meta: removed
   verdict: wip
   developerName: WAPCENTR.COM

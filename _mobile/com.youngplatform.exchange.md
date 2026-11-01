@@ -1,6 +1,6 @@
 ---
 title: 'Young Platform: Cash & Crypto'
-date: 2025-12-26
+date: 2026-10-30
 authors:
 - danny
 website: https://exchange.youngplatform.com
@@ -18,7 +18,6 @@ android:
   appCountry: us
   updated: 2026-10-12
   version: 5.13.0
-  icon: com.youngplatform.exchange.webp
   meta: ok
   verdict: custodial
   developerName: Young Platform S.p.a
@@ -30,7 +29,6 @@ iphone:
   updated: 2026-10-06
   version: 5.13.0
   reviews: 1100
-  icon: com.youngplatform.exchange.webp
   meta: ok
   verdict: custodial
   developerName: Young Agency S.R.L

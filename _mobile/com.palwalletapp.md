@@ -1,6 +1,6 @@
 ---
 title: 'PalWallet: Self-Custody Wallet'
-date: 2025-11-26
+date: 2026-10-30
 authors:
 - danny
 website: https://palwallet.com
@@ -15,7 +15,6 @@ android:
   released: 2023-03-20
   updated: 2026-10-05
   version: 1.0.54
-  icon: com.palwalletapp.webp
   meta: ok
   verdict: custodial
   developerName: PalWallet LTD
@@ -27,7 +26,6 @@ iphone:
   updated: 2026-10-08
   version: 1.0.54
   reviews: 4
-  icon: com.app.palwalletprod.webp
   meta: ok
   verdict: custodial
   developerName: PalWallet Limited

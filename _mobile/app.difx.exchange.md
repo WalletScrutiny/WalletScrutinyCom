@@ -1,6 +1,6 @@
 ---
 title: 'DIFX Exchange : Buy Crypto'
-date: 2023-06-29
+date: 2026-10-30
 authors:
 - danny
 website: https://app.difx.com
@@ -21,7 +21,6 @@ android:
   appCountry: us
   updated: 2025-07-16
   version: 5.1.11
-  icon: app.difx.exchange.webp
   meta: stale
   verdict: custodial
   developerName: DIFX
@@ -33,12 +32,13 @@ iphone:
   updated: 2024-05-14
   version: 5.1.3
   reviews: 0
-  icon: app.difx.exchange.webp
   meta: obsolete
   verdict: custodial
   developerName: DIFX Limited
 
 ---
+
+**Update 2026-10-30:** The DIFX website, which still worked in [September 2026](https://web.archive.org/web/20260903022339/https://digitalfinancialexchange.com/en), has shown only "Under maintenance!" since at least [October 8, 2026](https://web.archive.org/web/20261008155223/https://digitalfinancialexchange.com/). We found no announcement from DIFX explaining it.
 
 ## Android
 

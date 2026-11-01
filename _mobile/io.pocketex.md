@@ -1,6 +1,6 @@
 ---
 title: Pocket Exchange
-date: 2025-01-15
+date: 2026-10-30
 website: https://pocketexchange.io
 redirect_from:
 - /android/io.pocketex/
@@ -10,7 +10,6 @@ android:
   released: 2022-05-18
   updated: 2023-08-25
   version: 1.0.1
-  icon: io.pocketex.webp
   meta: removed
   verdict: wip
   developerName: Hilotech

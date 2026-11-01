@@ -1,6 +1,6 @@
 ---
 title: SunX
-date: 2023-05-23
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2021-09-06
   updated: 2021-09-17
   version: '1.04'
-  icon: com.digitalcrypto.xchange.webp
   meta: removed
   verdict: wip
   developerName: Sunway Trading Company

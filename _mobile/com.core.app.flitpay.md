@@ -1,6 +1,6 @@
 ---
 title: 'Flitpay: Crypto Trading App'
-date: 2021-09-30
+date: 2026-10-30
 authors:
 - danny
 website: https://www.flitpay.com/
@@ -18,7 +18,6 @@ android:
   updated: 2026-09-16
   version: 2.1.11
   reviews: 2932
-  icon: com.core.app.flitpay.webp
   meta: ok
   verdict: custodial
   developerName: FLITPAY PVT LTD
@@ -30,7 +29,6 @@ iphone:
   updated: 2026-09-19
   version: 2.1.1
   reviews: 136
-  icon: com.core.ios.flitpay.webp
   meta: ok
   verdict: custodial
   developerName: FLITPAY PVT LTD

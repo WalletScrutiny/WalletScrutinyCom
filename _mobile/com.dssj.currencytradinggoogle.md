@@ -1,6 +1,6 @@
 ---
 title: ICNCDE Pro—Trading & Investing
-date: 2023-08-04
+date: 2026-10-30
 website: http://www.icncde.com#deadLink
 redirect_from:
 - /android/com.dssj.currencytradinggoogle/
@@ -11,7 +11,6 @@ android:
   updated: 2021-03-11
   version: 1.4.1
   reviews: 7
-  icon: com.dssj.currencytradinggoogle.webp
   meta: removed
   verdict: wip
   developerName: DSSJDEV

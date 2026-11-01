@@ -1,6 +1,6 @@
 ---
 title: Inanomo
-date: 2023-05-26
+date: 2026-10-30
 authors:
 - danny
 website: https://inanomo.com/
@@ -15,7 +15,6 @@ android:
   released: 2021-04-06
   updated: 2022-08-23
   version: 1.1.0
-  icon: com.inanomo.market.webp
   meta: removed
   verdict: custodial
   developerName: Inanomo Technologies LLC

@@ -1,6 +1,6 @@
 ---
 title: Binary Exchange
-date: 2022-02-16
+date: 2026-10-30
 website: https://www.binary-exchange.com#deadLink
 redirect_from:
 - /android/com.binary.exchange/
@@ -10,7 +10,6 @@ android:
   released: 2020-08-19
   updated: 2020-09-27
   version: 4.0.0
-  icon: com.binary.exchange.webp
   meta: removed
   verdict: wip
 

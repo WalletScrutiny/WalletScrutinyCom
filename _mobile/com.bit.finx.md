@@ -1,6 +1,6 @@
 ---
 title: Bitfinix Cryptocurrency Wallet
-date: 2024-04-03
+date: 2026-10-30
 website: http://bitfinix.tech#deadLink
 redirect_from:
 - /android/com.bit.finx/
@@ -10,7 +10,6 @@ android:
   released: 2022-01-19
   updated: 2022-02-17
   version: 1.0.0
-  icon: com.bit.finx.webp
   meta: removed
   verdict: wip
   developerName: Bitfinix

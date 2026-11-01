@@ -1,7 +1,7 @@
 ---
 title: ExxBank
-date: 2024-04-03
-website: https://exxbank.com/
+date: 2026-10-30
+website: https://exxbank.com/#deadLink
 redirect_from:
 - /android/com.equuslabs.sample/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2020-07-04
   updated: 2020-07-04
   version: 1.0.0
-  icon: com.equuslabs.sample.webp
   meta: removed
   verdict: wip
   developerName: JDK Tecnologia

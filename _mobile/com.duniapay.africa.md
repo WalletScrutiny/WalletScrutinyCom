@@ -1,9 +1,9 @@
 ---
 title: Dunia
-date: 2023-01-30
+date: 2026-10-30
 authors:
 - danny
-website: https://www.duniapay.net
+website: https://www.duniapay.net#deadLink
 twitter: dunia_pay
 social:
 - https://www.linkedin.com/company/dunia-payment/
@@ -18,7 +18,6 @@ android:
   released: 2019-10-02
   updated: 2022-03-29
   version: 3.0.9
-  icon: com.duniapay.africa.webp
   meta: removed
   verdict: custodial
   developerName: Dunia
@@ -30,11 +29,12 @@ iphone:
   updated: 2022-04-10
   version: 3.0.0
   reviews: 11
-  icon: com.duniapay.africa.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** Dunia is gone. Its old website duniapay.net now belongs to an unrelated tech blog, and the app is no longer in either store.
 
 ## Android
 

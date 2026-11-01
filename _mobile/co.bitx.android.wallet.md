@@ -1,6 +1,6 @@
 ---
 title: 'Luno: Buy Bitcoin & Crypto'
-date: 2020-10-12
+date: 2026-10-30
 authors:
 - leo
 website: https://www.luno.com
@@ -23,7 +23,6 @@ android:
   updated: 2026-10-14
   version: 8.118.3
   reviews: 1413
-  icon: co.bitx.android.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Luno Group Holdings Ltd
@@ -35,7 +34,6 @@ iphone:
   updated: 2026-10-12
   version: 8.118.1
   reviews: 3697
-  icon: za.co.Bitx.webp
   meta: ok
   verdict: custodial
   developerName: Luno Pte Ltd

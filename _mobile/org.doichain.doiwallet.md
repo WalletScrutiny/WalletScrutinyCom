@@ -1,6 +1,6 @@
 ---
 title: DoiWallet
-date: 2026-05-21
+date: 2026-10-30
 redirect_from:
 - /android/org.doichain.doiwallet/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2022-05-01
   updated: 2024-12-03
   version: 7.0.4
-  icon: org.doichain.doiwallet.webp
   meta: stale
   verdict: wip
   developerName: WEBanizerAG

@@ -1,6 +1,6 @@
 ---
 title: Split Rewards
-date: 2026-01-06
+date: 2026-10-30
 authors:
 - danny
 website: https://www.split-loyalty.com
@@ -15,12 +15,13 @@ iphone:
   updated: 2026-06-24
   version: 4.4.4
   reviews: 3
-  icon: com.splitloyalty.app.Split-Rewards.webp
   meta: removed
   verdict: nosource
   developerName: Feed Incorporated
 
 ---
+
+**⚠️ Warning:** The app is no longer in the App Store, and Split's website now only shows a "service suspended" page. The [last archived copy](https://web.archive.org/web/20260618104731/https://www.split-loyalty.com/User-agreement) of its terms is from June 2026.
 
 ## App Description
 
@@ -36,7 +37,7 @@ Split is a self-custodial Bitcoin Lightning (Spark) wallet for iOS that enables 
 
 ## Analysis
 
-According to its [Terms of Service](https://www.split-loyalty.com/User-agreement):
+According to its [Terms of Service](https://web.archive.org/web/20260315231019/https://www.split-loyalty.com/User-agreement):
 
 > Split does not hold private keys, custody bitcoin, control wallets, or guarantee payment routing or completion. You are solely responsible for your wallet software, private keys, and verifying payment details before authorizing any transaction. Split cannot recover lost wallet keys or reverse Lightning payments.
 

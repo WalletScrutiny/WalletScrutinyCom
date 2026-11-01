@@ -1,9 +1,9 @@
 ---
 title: BitShield Wallet - Btc Wallet
-date: 2023-03-21
+date: 2026-10-30
 authors:
 - leo
-website: https://bitshieldwallet.com
+website: https://bitshieldwallet.com#deadLink
 redirect_from:
 - /com.bitshield.bitshieldwallet/
 - /android/com.bitshield.bitshieldwallet/
@@ -14,11 +14,12 @@ android:
   updated: 2021-04-12
   version: '1.28'
   reviews: 1287
-  icon: com.bitshield.bitshieldwallet.webp
   meta: removed
   verdict: nosource
 
 ---
+
+**Update 2026-10-30:** The BitShield website is gone. Since 2025 its domain shows an unrelated casino page; the [last archived BitShield page](https://web.archive.org/web/20221210014013/https://bitshieldwallet.com/) is from December 2022.
 
 In this app's description we read:
 

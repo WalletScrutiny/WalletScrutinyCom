@@ -1,6 +1,6 @@
 ---
 title: BitMate
-date: 2023-08-16
+date: 2026-10-30
 website: https://bitmate.io#deadLink
 redirect_from:
 - /android/com.bitmate.wallet/
@@ -10,7 +10,6 @@ android:
   released: 2021-09-30
   updated: 2021-10-13
   version: 9120.10.10
-  icon: com.bitmate.wallet.webp
   meta: removed
   verdict: wip
   developerName: Bitmate

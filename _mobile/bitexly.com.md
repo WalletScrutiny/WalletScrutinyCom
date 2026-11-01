@@ -1,6 +1,6 @@
 ---
 title: Bitexly
-date: 2024-04-19
+date: 2026-10-30
 website: https://bitexly.com
 redirect_from:
 - /android/bitexly.com/
@@ -10,7 +10,6 @@ android:
   released: 2020-05-09
   updated: 2020-05-09
   version: 5.129.20
-  icon: bitexly.com.webp
   meta: removed
   verdict: wip
   developerName: UCOM Technologies

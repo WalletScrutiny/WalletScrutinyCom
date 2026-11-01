@@ -1,6 +1,6 @@
 ---
 title: Bitcnex Exchange
-date: 2024-02-05
+date: 2026-10-30
 redirect_from:
 - /android/com.exchange.bitcnex/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2019-04-19
   updated: 2019-04-19
   version: '1.1'
-  icon: com.exchange.bitcnex.webp
   meta: removed
   verdict: wip
   developerName: Bitcnex Exchange

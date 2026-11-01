@@ -1,6 +1,6 @@
 ---
 title: Talosec
-date: 2024-04-03
+date: 2026-10-30
 website: http://talosec.io#deadLink
 redirect_from:
 - /android/com.blocksecurity.talosec/
@@ -10,7 +10,6 @@ android:
   released: 2020-05-28
   updated: 2020-06-14
   version: 2.0.0
-  icon: com.blocksecurity.talosec.webp
   meta: removed
   verdict: wip
   developerName: Block Security Limited

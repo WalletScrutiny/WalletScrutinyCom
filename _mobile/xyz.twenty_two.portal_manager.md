@@ -1,6 +1,6 @@
 ---
 title: Portal Wallet Manager
-date: 2026-05-21
+date: 2026-10-30
 authors:
 - danny
 website: https://twenty-two.xyz/
@@ -16,7 +16,6 @@ android:
   appCountry: us
   updated: 2025-05-14
   version: VARY
-  icon: xyz.twenty_two.portal_manager.webp
   meta: stale
   verdict: wip
   developerName: Portal Technologies Inc

@@ -1,6 +1,6 @@
 ---
 title: 'Ourbit: Buy Bitcoin & Crypto'
-date: 2025-11-26
+date: 2026-10-30
 authors:
 - danny
 website: https://www.ourbit.com
@@ -20,7 +20,6 @@ android:
   updated: 2026-06-22
   version: 1.21.3
   reviews: 64
-  icon: com.ourbit.client.webp
   meta: removed
   verdict: custodial
   developerName: Ourbit
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-10-12
   version: 1.26.1
   reviews: 238
-  icon: com.ourbit.www.webp
   meta: ok
   verdict: custodial
   developerName: Ourbit Holdings Ltd

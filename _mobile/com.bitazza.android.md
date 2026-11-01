@@ -1,6 +1,6 @@
 ---
 title: 'Bitazza TH: Buy & Trade Crypto'
-date: 2021-09-03
+date: 2026-10-30
 authors:
 - danny
 website: http://bitazza.com/
@@ -20,7 +20,6 @@ android:
   updated: 2026-10-05
   version: 4.12.4
   reviews: 2529
-  icon: com.bitazza.android.webp
   meta: ok
   verdict: custodial
   developerName: Bitazza Company Limited
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-10-14
   version: 5.2.4
   reviews: 2655
-  icon: com.bitazza.ios.webp
   meta: ok
   verdict: custodial
   developerName: Bitazza Company Limited

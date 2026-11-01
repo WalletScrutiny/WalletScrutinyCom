@@ -1,9 +1,9 @@
 ---
 title: SafePay
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
-website: https://safepay.safecoin.org
+website: https://safepay.safecoin.org#deadLink
 twitter: safecoin
 social:
 - https://www.facebook.com/safecoins/
@@ -19,7 +19,6 @@ android:
   updated: 2020-08-14
   version: 7.2.8
   reviews: 5
-  icon: org.safecoin.safepay.webp
   meta: removed
   verdict: nosource
   developerName: SafeCoin

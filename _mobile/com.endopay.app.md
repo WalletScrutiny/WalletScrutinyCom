@@ -1,6 +1,6 @@
 ---
 title: Endopay
-date: 2024-04-19
+date: 2026-10-30
 website: https://endopay.com
 redirect_from:
 - /android/com.endopay.app/
@@ -10,7 +10,6 @@ android:
   released: 2018-01-13
   updated: 2020-04-26
   version: 4.3.0
-  icon: com.endopay.app.webp
   meta: removed
   verdict: wip
   developerName: EMBLEM INVESTMENT LTD

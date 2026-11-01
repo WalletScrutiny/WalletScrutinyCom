@@ -1,6 +1,6 @@
 ---
 title: 'PRO exchange: trade Bitcoin'
-date: 2026-01-14
+date: 2026-10-30
 authors:
 - danny
 website: https://pro.changelly.com/
@@ -17,7 +17,6 @@ android:
   released: 2020-07-03
   updated: 2025-01-15
   version: 3.3.3
-  icon: com.pro.changelly.webp
   meta: stale
   verdict: custodial
   developerName: PRO – Cryptocurrency Trading Platform

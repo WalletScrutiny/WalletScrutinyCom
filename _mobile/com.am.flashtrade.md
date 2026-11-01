@@ -1,6 +1,6 @@
 ---
 title: FLASHTRADE
-date: 2023-01-02
+date: 2026-10-30
 website: https://www.flashtrade.club#deadLink
 redirect_from:
 - /android/com.am.flashtrade/
@@ -10,7 +10,6 @@ android:
   released: 2020-10-13
   updated: 2020-10-13
   version: '1.0'
-  icon: com.am.flashtrade.webp
   meta: removed
   verdict: wip
 

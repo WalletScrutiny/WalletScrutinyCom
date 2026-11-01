@@ -1,6 +1,6 @@
 ---
 title: GodSend
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/com.godsend.app/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-01-24
   updated: 2022-02-21
   version: 1.0.8
-  icon: com.godsend.app.webp
   meta: removed
   verdict: wip
   developerName: Godsend Vip

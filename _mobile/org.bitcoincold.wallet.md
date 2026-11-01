@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Cold
-date: 2024-05-07
+date: 2026-10-30
 redirect_from:
 - /android/org.bitcoincold.wallet/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2017-08-23
   updated: 2017-08-23
   version: 1.4.5
-  icon: org.bitcoincold.wallet.webp
   meta: removed
   verdict: wip
   developerName: Michael Wittmann

@@ -1,7 +1,7 @@
 ---
 title: Universal – Crypto Wallet
-date: 2026-05-21
-website: https://unitechcapital.net
+date: 2026-10-30
+website: https://unitechcapital.net#deadLink
 redirect_from:
 - /android/com.koub.wallet/
 android:
@@ -11,7 +11,6 @@ android:
   released: 2025-01-09
   updated: 2025-01-09
   version: 1.0.0
-  icon: com.koub.wallet.webp
   meta: stale
   verdict: wip
   developerName: BFour Production

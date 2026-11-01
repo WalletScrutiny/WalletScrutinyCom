@@ -1,7 +1,7 @@
 ---
 title: CBX.one
-date: 2024-07-05
-website: https://www.cbx.one
+date: 2026-10-30
+website: https://www.cbx.one#deadLink
 redirect_from:
 - /android/com.cbx.api/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2018-12-05
   updated: 2021-01-25
   version: 2.2.5
-  icon: com.cbx.api.webp
   meta: removed
   verdict: wip
   developerName: CBX

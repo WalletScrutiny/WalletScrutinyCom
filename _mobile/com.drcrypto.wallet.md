@@ -1,6 +1,6 @@
 ---
 title: 'BitSmart: Bitcoin, Ethereum, Blockchain Wallet'
-date: 2021-11-10
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -12,7 +12,6 @@ android:
   updated: 2021-10-21
   version: 2.0.5
   reviews: 64
-  icon: com.drcrypto.wallet.webp
   meta: removed
   verdict: wip
 

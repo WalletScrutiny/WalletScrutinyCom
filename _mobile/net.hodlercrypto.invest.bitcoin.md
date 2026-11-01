@@ -1,6 +1,6 @@
 ---
 title: Invest Bitcoin
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/net.hodlercrypto.invest.bitcoin/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-18
   updated: 2021-06-18
   version: '1.0'
-  icon: net.hodlercrypto.invest.bitcoin.webp
   meta: removed
   verdict: wip
 

@@ -1,9 +1,9 @@
 ---
 title: 'Pera: Crypto & Gift Cards'
-date: 2023-08-25
+date: 2026-10-30
 authors:
 - danny
-website: https://pera.cx
+website: https://perahq.com
 redirect_from:
 - /android/com.ewebmeta.ewebmeta/
 android:
@@ -12,12 +12,13 @@ android:
   released: 2022-03-13
   updated: 2023-07-06
   version: 2.0.0
-  icon: com.ewebmeta.ewebmeta.webp
   meta: removed
   verdict: custodial
   developerName: Pera Digital Services
 
 ---
+
+**Update 2026-10-30:** Pera's old website pera.cx is gone; the provider now runs [perahq.com](https://perahq.com), which links to a new app, "Pera: Crypto, GiftCards & Shop", that replaces this one and is not listed here yet.
 
 ## App Description from Google Play 
 

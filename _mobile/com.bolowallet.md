@@ -1,6 +1,6 @@
 ---
 title: BoloWallet - Crypto Wallet Tha
-date: 2023-12-19
+date: 2026-10-30
 redirect_from:
 - /android/com.bolowallet/
 android:
@@ -8,7 +8,6 @@ android:
   users: 100
   updated: 2019-12-12
   version: VARY
-  icon: com.bolowallet.webp
   meta: removed
   verdict: wip
   developerName: BWallet Team

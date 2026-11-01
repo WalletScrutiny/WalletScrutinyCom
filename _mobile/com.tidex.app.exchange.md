@@ -1,9 +1,9 @@
 ---
 title: Tidex
-date: 2024-09-10
+date: 2026-10-30
 authors:
 - danny
-website: https://tidex.com
+website: https://web.archive.org/web/20241003015850/https://tidex.com/
 twitter: Tidex_Exchange
 social:
 - https://www.facebook.com/TidexExchange
@@ -21,7 +21,6 @@ android:
   updated: 2024-03-08
   version: 1.0.6
   reviews: 7
-  icon: com.tidex.app.exchange.webp
   meta: removed
   verdict: custodial
   developerName: Tidex
@@ -33,12 +32,13 @@ iphone:
   updated: 2022-08-15
   version: 1.0.5
   reviews: 15
-  icon: com.tidex.exchange.app.webp
   meta: removed
   verdict: custodial
   developerName: Tidex
 
 ---
+
+**Update 2026-10-30:** Tidex appears to be gone. Its website tidex.com now shows an unrelated Vietnamese football streaming site ([archived May 2025](https://web.archive.org/web/20250515084205/https://tidex.com/)), and its [Telegram news channel](https://t.me/s/Tidex_News) has been silent since August 2024. We found no official notice.
 
 ## Android
 
@@ -53,7 +53,7 @@ iphone:
 - We successfully registered and signed in. 
 - We found a legacy BTC address with deposit and withdraw functions.
 - Since this is a centralized exchange, the mnemonic phrase was not given during app initialization. There was also no option to back up the private keys from the settings.
-- They utilize [cold-storage](https://tidex.com/about-us) in the storage of user funds.
+- They utilize [cold-storage](https://web.archive.org/web/2024/https://tidex.com/about-us) in the storage of user funds.
 - This is the primary indicator of a **custodial** provider.
 
 ---

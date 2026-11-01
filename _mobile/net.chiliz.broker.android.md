@@ -1,6 +1,6 @@
 ---
 title: Chiliz Exchange
-date: 2022-04-25
+date: 2026-10-30
 authors:
 - danny
 website: https://www.chiliz.net
@@ -16,12 +16,13 @@ android:
   updated: 2023-12-14
   version: 5.12.1
   reviews: 5
-  icon: net.chiliz.broker.android.webp
   meta: removed
   verdict: custodial
   developerName: Mediarex Enterprises Limited
 
 ---
+
+**Update 2026-10-30:** Chiliz closed this exchange, which it later ran as ChilizX; [chiliz.net](https://www.chiliz.net) now only explains how remaining users can request their funds through a support form.
 
 **Update 2022-04-01**: This app is not available anymore.
 

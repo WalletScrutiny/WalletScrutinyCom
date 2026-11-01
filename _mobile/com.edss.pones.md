@@ -1,6 +1,6 @@
 ---
 title: MX exchange - buying & sell Bitcoin
-date: 2021-12-22
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -12,7 +12,6 @@ android:
   updated: 2021-04-29
   version: '1.0'
   reviews: 16
-  icon: com.edss.pones.webp
   meta: removed
   verdict: fake
 

@@ -1,6 +1,6 @@
 ---
 title: ZedXe Wallet
-date: 2023-06-12
+date: 2026-10-30
 authors:
 - danny
 website: https://www.zedxe.com
@@ -20,7 +20,6 @@ android:
   released: 2020-05-07
   updated: 2020-06-11
   version: '1.8'
-  icon: com.zedXeWallet.webp
   meta: removed
   verdict: nosource
   developerName: Zuf Info Tech, LDA
@@ -28,6 +27,8 @@ android:
 ---
 
 ⚠️ **Warning**: there are some [allegations](https://bitcointalk.org/index.php?action=printpage;topic=5050117.0) on BitcoinTalk.org
+
+**Update 2026-10-30:** The ZedXe website no longer offers the wallet. It now advertises an unrelated market-signals dashboard with a waitlist ([zedxe.com](https://zedxe.com/)).
 
 ## App Description from Google Play
 

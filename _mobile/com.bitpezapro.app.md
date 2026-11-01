@@ -1,6 +1,6 @@
 ---
 title: 'Bekonta: Buy & Sell Crypto'
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 website: https://bekonta.com
@@ -18,7 +18,6 @@ android:
   released: 2020-02-09
   updated: 2022-09-26
   version: 1.0.3
-  icon: com.bitpezapro.app.webp
   meta: obsolete
   verdict: custodial
   developerName: Describe Innovations
@@ -29,7 +28,6 @@ iphone:
   updated: 2021-09-16
   version: 1.0.0
   reviews: 0
-  icon: com.bekonta.app.webp
   meta: removed
   verdict: custodial
   developerName: Bitpeza Technology Limited

@@ -1,6 +1,6 @@
 ---
 title: HSL Wallet
-date: 2026-05-21
+date: 2026-10-30
 website: http://www.hamilton-systems.io
 redirect_from:
 - /android/com.hslwallet/
@@ -11,7 +11,6 @@ android:
   released: 2021-08-04
   updated: 2026-08-03
   version: 7.14.84
-  icon: com.hslwallet.webp
   meta: fewusers
   verdict: wip
   developerName: Hamilton Systems

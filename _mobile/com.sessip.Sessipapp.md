@@ -1,9 +1,9 @@
 ---
 title: Sessip
-date: 2024-11-30
+date: 2026-10-30
 authors:
 - danny
-website: https://sessip.com
+website: https://web.archive.org/web/20221212161615/https://sessip.com/
 twitter: sessipapp
 redirect_from:
 - /android/com.sessip.Sessipapp/
@@ -16,7 +16,6 @@ android:
   updated: 2022-12-10
   version: VARY
   reviews: 9
-  icon: com.sessip.Sessipapp.webp
   meta: obsolete
   verdict: custodial
   developerName: Sessip
@@ -28,12 +27,13 @@ iphone:
   updated: 2024-03-26
   version: '2.2'
   reviews: 2
-  icon: com.sessipapp.Sessip.webp
   meta: removed
   verdict: custodial
   developerName: SOCIETE IVOIRIENNE D'INVESTISSEMENT PARTICIPATIF
 
 ---
+
+**Update 2026-10-30:** The Sessip website no longer loads, so the link above points to an [archived copy from December 2022](https://web.archive.org/web/20221212161615/https://sessip.com/). The iPhone app is gone from the App Store.
 
 ## Android
 

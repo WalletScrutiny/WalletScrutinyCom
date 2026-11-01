@@ -1,6 +1,6 @@
 ---
 title: TrillionB
-date: 2024-02-05
+date: 2026-10-30
 redirect_from:
 - /android/com.trillionb.app/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-01-14
   updated: 2022-01-27
   version: 1.1.1
-  icon: com.trillionb.app.webp
   meta: removed
   verdict: wip
   developerName: Trillion Bot Asia

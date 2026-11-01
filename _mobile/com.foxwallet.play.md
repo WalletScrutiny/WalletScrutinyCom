@@ -1,6 +1,6 @@
 ---
 title: FoxWallet- Secure Crypto Asset
-date: 2025-07-21
+date: 2026-10-30
 authors:
 - danny
 website: https://www.foxwallet.com
@@ -19,7 +19,6 @@ android:
   updated: 2026-07-01
   version: 5.5.25
   reviews: 448
-  icon: com.foxwallet.play.webp
   meta: ok
   verdict: nosource
   developerName: FoxWallet
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-07-02
   version: 5.5.25
   reviews: 84
-  icon: com.foxwallet.app.webp
   meta: ok
   verdict: nosource
   developerName: BlockHill Tech Limited

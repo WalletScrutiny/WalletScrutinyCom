@@ -1,7 +1,7 @@
 ---
 title: SONICEX
-date: 2024-04-19
-website: https://www.sonicex.com/welcome
+date: 2026-10-30
+website: https://www.sonicex.com/welcome#deadLink
 redirect_from:
 - /android/com.sonicex/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2019-08-05
   updated: 2020-04-15
   version: '1.6'
-  icon: com.sonicex.webp
   meta: removed
   verdict: wip
   developerName: SONICX FOUNDATION

@@ -1,6 +1,6 @@
 ---
 title: IXX
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/com.ixxgoogle_android/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-09-23
   updated: 2021-11-16
   version: 2.3.1
-  icon: com.ixxgoogle_android.webp
   meta: removed
   verdict: wip
   developerName: IXX

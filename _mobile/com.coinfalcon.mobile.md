@@ -1,6 +1,6 @@
 ---
 title: CoinFalcon – Buy & sell Bitcoi
-date: 2023-01-11
+date: 2026-10-30
 authors:
 - leo
 website: https://coinfalcon.com
@@ -18,7 +18,6 @@ android:
   updated: 2022-02-07
   version: 2.11.14
   reviews: 9
-  icon: com.coinfalcon.mobile.webp
   meta: removed
   verdict: custodial
   developerName: CoinFalcon
@@ -29,7 +28,6 @@ iphone:
   updated: 2022-02-02
   version: 2.1.14
   reviews: 16
-  icon: com.coinfalcon.mobile.webp
   meta: removed
   verdict: custodial
 

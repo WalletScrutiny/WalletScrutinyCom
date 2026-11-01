@@ -1,6 +1,6 @@
 ---
 title: 'Pocket: Crypto Wallet'
-date: 2024-07-05
+date: 2026-10-30
 website: http://www.otomation.tech#deadLink
 redirect_from:
 - /android/com.crypto_wallet_arnold/
@@ -10,7 +10,6 @@ android:
   released: 2022-08-16
   updated: 2023-03-07
   version: '3.8'
-  icon: com.crypto_wallet_arnold.webp
   meta: removed
   verdict: wip
   developerName: Otomation Soft

@@ -1,11 +1,10 @@
 ---
 title: ROVI - Simplest Safest Trading
-date: 2026-02-02
+date: 2026-10-30
 authors:
 - danny
+website: https://rovi.network
 twitter: rovi_protocol
-social:
-- https://rovi.network
 redirect_from:
 - /android/com.money91/
 android:
@@ -15,7 +14,6 @@ android:
   updated: 2024-08-26
   version: 3.2.20-Rovi Trading-rovi-genesis-month-
   reviews: 136
-  icon: com.money91.webp
   meta: removed
   verdict: wip
   developerName: Roviri International Pte Ltd

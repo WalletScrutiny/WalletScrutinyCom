@@ -1,7 +1,7 @@
 ---
 title: Viktraders
-date: 2023-05-03
-website: http://www.viktraders.com
+date: 2026-10-30
+website: http://www.viktraders.com#deadLink
 redirect_from:
 - /android/com.viktraders.www/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2019-06-24
   updated: 2019-06-25
   version: 1.0.0
-  icon: com.viktraders.www.webp
   meta: removed
   verdict: wip
 

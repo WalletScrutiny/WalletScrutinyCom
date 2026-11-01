@@ -1,7 +1,7 @@
 ---
 title: Trade99
-date: 2024-04-19
-website: https://www.trade99.com
+date: 2026-10-30
+website: https://www.trade99.com#deadLink
 redirect_from:
 - /android/com.pandats.trade99/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2019-07-02
   updated: 2020-10-01
   version: 1.0.4
-  icon: com.pandats.trade99.webp
   meta: removed
   verdict: wip
   developerName: Trade99

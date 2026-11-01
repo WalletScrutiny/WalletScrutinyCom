@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Trader Francais
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/net.cryptoanalysis.bitcoin.trader.francais/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-28
   updated: 2021-06-28
   version: '1.0'
-  icon: net.cryptoanalysis.bitcoin.trader.francais.webp
   meta: removed
   verdict: wip
 

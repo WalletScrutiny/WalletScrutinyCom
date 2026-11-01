@@ -1,6 +1,6 @@
 ---
 title: Trade Crypto
-date: 2024-04-19
+date: 2026-10-30
 website: http://www.tradecrypto.asia#deadLink
 redirect_from:
 - /android/com.app.tradecrypto/
@@ -10,7 +10,6 @@ android:
   released: 2021-06-26
   updated: 2021-08-03
   version: 1.0.6
-  icon: com.app.tradecrypto.webp
   meta: removed
   verdict: wip
   developerName: Trade Crypto

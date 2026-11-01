@@ -1,6 +1,6 @@
 ---
 title: 'ECD Wallet: Buy BTC & ETH'
-date: 2026-01-03
+date: 2026-10-30
 authors:
 - danny
 website: https://ecd.rs/
@@ -20,7 +20,6 @@ android:
   released: 2024-10-22
   updated: 2026-09-26
   version: 1.4.102
-  icon: rs.ecd.ecd.webp
   meta: ok
   verdict: custodial
   developerName: ECD.RS
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-09-26
   version: 1.2.63
   reviews: 123
-  icon: rs.ecd.ECD.webp
   meta: ok
   verdict: custodial
   developerName: MCM 965

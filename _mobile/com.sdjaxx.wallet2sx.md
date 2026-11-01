@@ -1,6 +1,6 @@
 ---
 title: Jaxx Liberty Wallet
-date: 2021-12-05
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -12,7 +12,6 @@ android:
   released: 2021-09-10
   updated: 2021-09-11
   version: '1'
-  icon: com.sdjaxx.wallet2sx.webp
   meta: removed
   verdict: fake
 

@@ -1,6 +1,6 @@
 ---
 title: Z.com EX - Buy/Sell Bitcoin
-date: 2021-11-08
+date: 2026-10-30
 authors:
 - danny
 website: https://ex.z.com/
@@ -19,7 +19,6 @@ android:
   updated: 2026-09-27
   version: 3.3.0
   reviews: 34
-  icon: com.gmo.exchange.webp
   meta: ok
   verdict: custodial
   developerName: GMO-Z.com Cryptonomics Ltd. Thailand
@@ -31,12 +30,13 @@ iphone:
   updated: 2026-10-07
   version: 3.3.0
   reviews: 31
-  icon: com.gmo.exchange.webp
   meta: ok
   verdict: custodial
   developerName: GMO-Z.Com Cryptonomics (Thailand) Co.,Ltd
 
 ---
+
+**Update 2026-10-30:** Z.com EX, and with it both apps, is changing owners. GMO Internet [disclosed the sale](https://internet.gmo/en/ir/pdf/irlibrary/gmointernet_e_disclose_20260924.pdf) of GMO-Z.com Cryptonomics (Thailand) to BTGT Management (Thailand), scheduled for October 31, 2026, and [Bitget announced](https://bitpinas.com/business/bitget-thailand-gmo-z-com-cryptonomics) that this is its vehicle. The deal still needs approval from the Thai SEC.
 
 ## Android
 

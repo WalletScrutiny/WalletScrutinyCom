@@ -1,6 +1,6 @@
 ---
 title: 'Blockchain Wallet: Buy BTC'
-date: 2021-07-15
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -30,7 +30,6 @@ android:
   updated: 2026-10-08
   version: 202609.4.6
   reviews: 6377
-  icon: piuk.blockchain.android.webp
   signer: 87a6e89e2e45848c1ddc43021e95812aae70b0b54c6c320c71db4dff83f7b6a0
   meta: ok
   verdict: nosource
@@ -45,7 +44,6 @@ iphone:
   updated: 2026-10-12
   version: 202610.2.0
   reviews: 184162
-  icon: com.rainydayapps.Blockchain.webp
   meta: ok
   verdict: nosource
   developerName: Blockchain

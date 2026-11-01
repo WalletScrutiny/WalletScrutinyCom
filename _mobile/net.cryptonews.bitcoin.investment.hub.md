@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Investment Hub
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/net.cryptonews.bitcoin.investment.hub/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-07-19
   updated: 2021-07-19
   version: '1.0'
-  icon: net.cryptonews.bitcoin.investment.hub.webp
   meta: removed
   verdict: wip
 

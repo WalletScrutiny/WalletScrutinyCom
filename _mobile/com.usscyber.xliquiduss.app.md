@@ -1,7 +1,7 @@
 ---
 title: XLiquidus
-date: 2025-04-09
-website: https://www.xliquidus.com/
+date: 2026-10-30
+website: https://web.archive.org/web/20240523190159/https://www.xliquidus.com/
 redirect_from:
 - /android/com.usscyber.xliquiduss.app/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2022-10-23
   updated: 2024-01-15
   version: 1.0.11
-  icon: com.usscyber.xliquiduss.app.webp
   meta: removed
   verdict: wip
   developerName: UssCyber Inc.

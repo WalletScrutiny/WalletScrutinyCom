@@ -1,6 +1,6 @@
 ---
 title: Sonitix Exchange
-date: 2023-09-15
+date: 2026-10-30
 authors:
 - danny
 website: https://sonitixexchange.in#deadLink
@@ -16,7 +16,6 @@ android:
   released: 2022-03-05
   updated: 2024-04-03
   version: 2.0.46
-  icon: com.sonitix_mobility.webp
   meta: removed
   verdict: custodial
   developerName: Sonitix
@@ -28,12 +27,13 @@ iphone:
   updated: 2022-11-16
   version: '1.4'
   reviews: 24
-  icon: org.sonitix-private-limited-sonitix-mobility.webp
   meta: defunct
   verdict: custodial
   developerName: Sonitix Private Limited
 
 ---
+
+**Update 2026-10-30:** Sonitix looks gone. Both apps are no longer in the stores, and the sonitixexchange.in website no longer loads; its last [archived copy](https://web.archive.org/web/20220306143809/https://sonitixexchange.in/) is from March 2022.
 
 ## Android
 

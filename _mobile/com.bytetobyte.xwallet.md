@@ -1,6 +1,6 @@
 ---
 title: 'Bitcoin Wallet : Urchin (BETA)'
-date: 2023-01-02
+date: 2026-10-30
 website: https://ehanoc.github.io/xwallet#deadLink
 redirect_from:
 - /android/com.bytetobyte.xwallet/
@@ -10,7 +10,6 @@ android:
   released: 2017-04-27
   updated: 2017-09-03
   version: 0.3.1-beta
-  icon: com.bytetobyte.xwallet.webp
   meta: removed
   verdict: wip
 

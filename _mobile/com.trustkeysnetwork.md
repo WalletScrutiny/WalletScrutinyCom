@@ -1,6 +1,6 @@
 ---
 title: TrustKeys Web3 SocialFi
-date: 2021-11-10
+date: 2026-10-30
 authors:
 - danny
 website: https://trustkeys.network
@@ -19,7 +19,6 @@ android:
   updated: 2024-10-22
   version: 2.4.3
   reviews: 25
-  icon: com.trustkeysnetwork.webp
   meta: obsolete
   verdict: nosource
   developerName: TrustKeys Finance
@@ -30,7 +29,6 @@ iphone:
   updated: 2021-09-06
   version: 1.0.0
   reviews: 4
-  icon: org.openstars.tkblockchain.webp
   meta: removed
   verdict: nosource
 

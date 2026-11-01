@@ -1,9 +1,9 @@
 ---
 title: 'XcelPay: Crypto Bitcoin Wallet'
-date: 2026-04-20
+date: 2026-10-30
 authors:
 - leo
-website: http://www.xcelpay.io
+website: http://www.xcelpay.io#deadLink
 twitter: XcelPayWallet
 social:
 - https://www.linkedin.com/company/in/xcelpaywallet
@@ -23,7 +23,6 @@ android:
   updated: 2025-04-22
   version: 2.91.0
   reviews: 82
-  icon: com.XcelTrip.XcelPay.webp
   meta: stale
   verdict: custodial
   developerName: XcelTrip LLC
@@ -35,12 +34,13 @@ iphone:
   updated: 2025-04-23
   version: 2.91.0
   reviews: 64
-  icon: com.xcelpay.wallet.webp
   meta: stale
   verdict: custodial
   developerName: XcelPay Limited
 
 ---
+
+**Update 2026-10-30:** The provider's website no longer loads; the last [archived copy](https://web.archive.org/web/20251024093228/https://xcelpay.io/) is from October 2025. The sister travel site xceltrip.com is gone as well, and the iPhone app is no longer in the App Store. The Android app is still listed but has not been updated since April 2025.
 
 ## Android
 

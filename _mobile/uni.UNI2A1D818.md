@@ -1,6 +1,6 @@
 ---
 title: Muskbot 4.0
-date: 2023-08-05
+date: 2026-10-30
 authors:
 - danny
 website: https://web.archive.org/web/20220111124040/http://muskbot.io/
@@ -12,7 +12,6 @@ android:
   released: 2021-09-23
   updated: 2021-12-16
   version: 1.4.8
-  icon: uni.UNI2A1D818.webp
   meta: removed
   verdict: wip
   developerName: MUSKBOT

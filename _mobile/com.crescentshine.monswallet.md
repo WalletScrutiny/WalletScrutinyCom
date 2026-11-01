@@ -1,7 +1,7 @@
 ---
 title: 'Monswallet: Crypto Game Wallet'
-date: 2026-01-14
-website: https://support.monsterra.io/
+date: 2026-10-30
+website: https://web.archive.org/web/20250316091033/https://support.monsterra.io/
 redirect_from:
 - /android/com.crescentshine.monswallet/
 android:
@@ -12,7 +12,6 @@ android:
   updated: 2023-08-29
   version: 1.0.1
   reviews: 3
-  icon: com.crescentshine.monswallet.webp
   meta: obsolete
   verdict: wip
   developerName: Crescent Shine - OLD

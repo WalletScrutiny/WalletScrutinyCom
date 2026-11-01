@@ -1,6 +1,6 @@
 ---
 title: FxWallet
-date: 2026-07-23
+date: 2026-10-30
 website: https://www.fxwallet.com
 appCountry: us
 redirect_from:
@@ -14,7 +14,6 @@ android:
   updated: 2026-10-02
   version: 3.3.0
   reviews: 4
-  icon: com.fxfi.fxwallet.webp
   meta: ok
   verdict: nosource
   developerName: ECHOINFI PTE. LTD.
@@ -26,7 +25,6 @@ iphone:
   updated: 2026-10-02
   version: 3.3.0
   reviews: 29
-  icon: com.fxfi.fxwallet.webp
   meta: ok
   verdict: nosource
   developerName: DXP COMPUTING POWER FOUNDATION PTE. LTD.

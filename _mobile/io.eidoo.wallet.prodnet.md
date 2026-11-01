@@ -1,9 +1,9 @@
 ---
 title: 'Eidoo: Bitcoin and Ethereum Wallet and Exchange'
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - leo
-website: https://eidoo.io
+website: https://web.archive.org/web/20220809023145/https://eidoo.io/
 twitter: eidoo_io
 social:
 - https://www.linkedin.com/company/eidoo
@@ -21,7 +21,6 @@ android:
   updated: 2021-11-08
   version: 3.6.3
   reviews: 97
-  icon: io.eidoo.wallet.prodnet.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -31,11 +30,17 @@ iphone:
   updated: 2021-11-08
   version: 3.6.3
   reviews: 78
-  icon: io.eidoo.wallet.prodnet.webp
   meta: removed
   verdict: nosource
 
 ---
+
+**Update 2026-10-30:** This provider is gone. The app is no longer in either store, and
+the eidoo.io domain had expired by
+[February 2024](https://web.archive.org/web/20240214221956/https://eidoo.io/); the
+site now shows an unrelated forex broker list. The last
+[archived Eidoo site](https://web.archive.org/web/20220809023145/https://eidoo.io/)
+is from August 2022.
 
 ## Android
 

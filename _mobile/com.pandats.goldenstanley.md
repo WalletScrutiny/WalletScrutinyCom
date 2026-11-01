@@ -1,6 +1,6 @@
 ---
 title: Golden Stanley
-date: 2023-01-02
+date: 2026-10-30
 website: https://goldenstanley.com#deadLink
 redirect_from:
 - /android/com.pandats.goldenstanley/
@@ -10,7 +10,6 @@ android:
   released: 2020-11-02
   updated: 2020-12-02
   version: 1.0.4
-  icon: com.pandats.goldenstanley.webp
   meta: removed
   verdict: wip
 

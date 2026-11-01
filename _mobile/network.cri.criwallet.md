@@ -1,9 +1,9 @@
 ---
 title: CRI Wallet
-date: 2024-12-15
+date: 2026-10-30
 authors:
 - danny
-website: https://cos-in.com
+website: https://web.archive.org/web/20221206213117/https://cos-in.com/
 twitter: Cri_Vivranium
 social:
 - https://www.facebook.com/cosmeta.us
@@ -19,7 +19,6 @@ android:
   updated: 2022-07-31
   version: 2.0.0
   reviews: 14
-  icon: network.cri.criwallet.webp
   meta: removed
   verdict: custodial
   developerName: COSMETA, INC.
@@ -31,12 +30,13 @@ iphone:
   updated: 2022-09-15
   version: 2.0.0
   reviews: 14
-  icon: network.cri.criwallet.webp
   meta: removed
   verdict: custodial
   developerName: COSMETA Inc.
 
 ---
+
+**Update 2026-10-30:** COSMETA appears to be gone. Its website [cos-in.com](https://web.archive.org/web/20221206213117/https://cos-in.com/) now shows an unrelated blog, and cosmeta.us no longer loads.
 
 ## Android
 

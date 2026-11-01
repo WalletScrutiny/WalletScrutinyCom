@@ -17,11 +17,10 @@ shop:
 country: 
 price: 
 repository: https://github.com/DIYbitcoin/kiss-signer
-icon: diybitcoin.kisssigner.diy.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2026-10-05
+date: 2026-10-30
 signer: 
 twitter: KISS_signer
 social:

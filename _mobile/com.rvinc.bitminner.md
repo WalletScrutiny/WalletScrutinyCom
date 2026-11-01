@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Chivo -  Chivo Bitcoin
-date: 2021-11-10
+date: 2026-10-30
 redirect_from:
 - /android/com.rvinc.bitminner/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-09-28
   updated: 2021-09-28
   version: '1.0'
-  icon: com.rvinc.bitminner.webp
   meta: removed
   verdict: fake
 

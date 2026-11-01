@@ -1,6 +1,6 @@
 ---
 title: 2cash - Money for Everyone
-date: 2024-11-04
+date: 2026-10-30
 authors:
 - danny
 website: http://www.2cash.io
@@ -19,7 +19,6 @@ android:
   updated: 2024-04-28
   version: 2.1.00
   reviews: 2
-  icon: com.voicapps.app2cash.webp
   meta: removed
   verdict: custodial
   developerName: VOIC
@@ -30,7 +29,6 @@ iphone:
   updated: 2022-04-01
   version: 2.0.2
   reviews: 1
-  icon: com.voicapps.app2cash-ios.webp
   meta: removed
   verdict: custodial
 

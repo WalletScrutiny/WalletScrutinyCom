@@ -1,6 +1,6 @@
 ---
 title: GIT MOBILE APP
-date: 2023-01-02
+date: 2026-10-30
 website: https://www.liyeplimalcryptoinvestments.com#deadLink
 redirect_from:
 - /android/com.uticit.git/
@@ -10,7 +10,6 @@ android:
   released: 2021-10-22
   updated: 2021-12-01
   version: 1.0.9
-  icon: com.uticit.git.webp
   meta: removed
   verdict: wip
 

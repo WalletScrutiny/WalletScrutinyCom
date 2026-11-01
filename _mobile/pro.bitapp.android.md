@@ -1,6 +1,6 @@
 ---
 title: PureWallet-CryptoWallet for BTC,BCH,ETH,TRON,IOST
-date: 2020-05-07
+date: 2026-10-30
 website: https://www.purewallet.org#deadLink
 twitter: PureWallet
 redirect_from:
@@ -14,7 +14,6 @@ android:
   updated: 2019-10-11
   version: v2.6.0
   reviews: 24
-  icon: pro.bitapp.android.webp
   meta: removed
   verdict: wip
 

@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Investment Service
-date: 2024-02-05
+date: 2026-10-30
 redirect_from:
 - /android/com.bitfxservice.bitfxservice/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2019-10-08
   updated: 2019-10-08
   version: '1.0'
-  icon: com.bitfxservice.bitfxservice.webp
   meta: removed
   verdict: wip
   developerName: Bit Globe

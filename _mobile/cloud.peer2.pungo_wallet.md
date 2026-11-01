@@ -1,6 +1,6 @@
 ---
 title: Pungo App
-date: 2021-06-02
+date: 2026-10-30
 authors:
 - leo
 website: https://pungowallet.com#deadLink
@@ -12,11 +12,16 @@ android:
   updated: 2021-04-08
   version: '1.33'
   reviews: 10
-  icon: cloud.peer2.pungo_wallet.webp
   meta: removed
   verdict: nosource
 
 ---
+
+pungowallet.com no longer loads, and pungo.io shows
+an old company page that says "We are going for good", padded with casino
+advertising.
+
+**Update 2026-10-30:** The provider is gone; its website pungowallet.com no longer loads.
 
 **Update 2021-06-02**: Their website is gone. Their Play Store listing is gone.
 We assume this wallet is no more.

@@ -1,6 +1,6 @@
 ---
 title: 'Cryptology: Blockchain Wallet'
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: https://cryptology.com/
@@ -18,7 +18,6 @@ android:
   updated: 2024-01-17
   version: 3.19.0
   reviews: 3
-  icon: com.cryptology.android.webp
   meta: removed
   verdict: custodial
   developerName: Cypher OÜ
@@ -29,12 +28,13 @@ iphone:
   updated: 2022-09-23
   version: 3.15.3
   reviews: 6
-  icon: com.cryptology.ios.webp
   meta: removed
   verdict: custodial
   developerName: Cypher OU
 
 ---
+
+**Update 2026-10-30:** Cryptology has rebranded as Tothemoon. Since early 2025 [cryptology.com](https://cryptology.com/) forwards to [tothemoon.com](https://tothemoon.com/), which promotes a new app, "Tothemoon: Buy & Trade BTC" (`com.cryptology.flutter` on Android, `com.cryptology.go` on iPhone), from the same Cypher group. That new app is not reviewed here yet.
 
 ## Android
 

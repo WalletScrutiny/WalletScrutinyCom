@@ -1,6 +1,6 @@
 ---
 title: 'Spot: bitcoin & crypto wallet'
-date: 2025-05-30
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -20,7 +20,6 @@ android:
   updated: 2024-02-06
   version: 4.88.4
   reviews: 514
-  icon: com.spot.spot.webp
   meta: removed
   verdict: nosource
   developerName: Spot crypto wallet
@@ -31,12 +30,13 @@ iphone:
   updated: 2024-04-30
   version: '5.25'
   reviews: 6989
-  icon: tech.spotapp.spot.webp
   meta: removed
   verdict: nosource
   developerName: Spot
 
 ---
+
+**⚠️ Warning:** Spot shut down on April 30, 2024, as its [website announced](https://web.archive.org/web/20240414082643/https://www.spot-wallet.com/). The website no longer loads.
 
 ## Android
 

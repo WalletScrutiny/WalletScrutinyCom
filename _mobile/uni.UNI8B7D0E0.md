@@ -1,6 +1,6 @@
 ---
 title: 'Vitatoken: Buy Crypto Funds'
-date: 2023-08-04
+date: 2026-10-30
 website: https://www.vitatoken.io/
 redirect_from:
 - /android/uni.UNI8B7D0E0/
@@ -11,7 +11,6 @@ android:
   updated: 2022-11-22
   version: 1.2.5
   reviews: 2
-  icon: uni.UNI8B7D0E0.webp
   meta: removed
   verdict: wip
   developerName: Vitatoken

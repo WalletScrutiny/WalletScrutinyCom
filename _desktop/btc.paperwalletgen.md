@@ -12,11 +12,10 @@ provider:
 providerWebsite: 
 website: https://chromewebstore.google.com/detail/ncncnbgglmejlbnhoangkekhigfdioeg
 repository: https://github.com/chandler-stimson/bitcoin-paper-wallet
-icon: btc.paperwalletgen.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-date: 2025-05-09
+date: 2026-10-30
 twitter: 
 social: 
 builds: 

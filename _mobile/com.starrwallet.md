@@ -1,6 +1,6 @@
 ---
 title: Starr Bitcoin Lightning Wallet
-date: 2026-10-13
+date: 2026-10-30
 authors:
 - danny
 website: https://starr.app
@@ -13,7 +13,6 @@ android:
   released: 2026-04-22
   updated: 2026-09-16
   version: 2.1.0
-  icon: com.starrwallet.webp
   meta: ok
   verdict: wip
   developerName: CoinSpace
@@ -25,7 +24,6 @@ iphone:
   updated: 2026-09-17
   version: 2.1.0
   reviews: 2
-  icon: com.starwallet.webp
   meta: ok
   verdict: wip
   developerName: CoinSpace

@@ -1,9 +1,9 @@
 ---
 title: eFXGO! by EuropeFX
-date: 2023-08-02
+date: 2026-10-30
 authors:
 - danny
-website: https://europefx.com
+website: https://europefx.com#deadLink
 redirect_from:
 - /android/com.europefx.app/
 android:
@@ -11,7 +11,6 @@ android:
   users: 5000
   updated: 2021-09-14
   version: '9.65'
-  icon: com.europefx.app.webp
   meta: removed
   verdict: nosendreceive
   developerName: Technologies maxiflex

@@ -1,6 +1,6 @@
 ---
 title: 'Tabank: Tabus Crypto Ecosystem'
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: https://web.tabus.co/
@@ -17,7 +17,6 @@ android:
   released: 2021-08-20
   updated: 2022-02-14
   version: 1.3.7
-  icon: com.tabank.webp
   meta: removed
   verdict: wip
   developerName: Tabank Holding Pte. Ltd.
@@ -29,12 +28,13 @@ iphone:
   updated: 2022-02-28
   version: 1.3.5
   reviews: 24
-  icon: com.tabank.webp
   meta: removed
   verdict: wip
   developerName: TABANK HOLDING PTE. LTD.
 
 ---
+
+**Update 2026-10-30:** Tabank appears to be gone. Neither tabank.org nor its app site web.tabus.co loads any more; the [last archived tabank.org page](https://web.archive.org/web/20250523091042/https://tabank.org/) is from May 2025.
 
 ## Android
 
@@ -50,7 +50,7 @@ iphone:
 - The app seems to heavily promote NFTs on its social media channels.
 - Access to the wallet requires registration. 
 - We did not receive the confirmation email
-- Oddly, the app's [terms](https://web.tabus.co/terms) did not contain references to "wallets", "bitcoin" or "cryptocurrencies"
+- Oddly, the app's [terms](https://web.tabus.co/terms#deadLink) did not contain references to "wallets", "bitcoin" or "cryptocurrencies"
 - We [tweeted](https://twitter.com/BitcoinWalletz/status/1664881907320909824) them to inquire about the status of the app. We also emailed them at admin@tabank.org 
 - This app is very likely to be defunct, but since the last update was just last year, we'll give them time to respond. For now, we'll keep the status of this app as a work-in-progress.
 

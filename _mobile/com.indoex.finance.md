@@ -1,6 +1,6 @@
 ---
 title: IndoEx
-date: 2025-05-30
+date: 2026-10-30
 authors:
 - danny
 website: https://international.indoex.io
@@ -9,7 +9,6 @@ social:
 - https://www.linkedin.com/company/indoex-exchange
 - https://t.me/Indoex
 - https://www.facebook.com/Indoex.official
-- https://international.indoex.io
 redirect_from:
 - /android/com.indoex.finance/
 - /iphone/com.indoex.dev/
@@ -21,7 +20,6 @@ android:
   updated: 2024-11-30
   version: 1.0.40
   reviews: 4
-  icon: com.indoex.finance.webp
   meta: stale
   verdict: custodial
   developerName: IndoEx
@@ -33,7 +31,6 @@ iphone:
   updated: 2023-05-02
   version: '1.2'
   reviews: 4
-  icon: com.indoex.dev.webp
   meta: removed
   verdict: custodial
   developerName: IndoEx Solutions Ltd

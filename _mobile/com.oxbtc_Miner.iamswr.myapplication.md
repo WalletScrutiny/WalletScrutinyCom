@@ -1,6 +1,6 @@
 ---
 title: OXBTC-Mine Bitcoin, Ethereum & more
-date: 2022-01-02
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -12,7 +12,6 @@ android:
   updated: 2021-09-14
   version: 2.1.0
   reviews: 28
-  icon: com.oxbtc_Miner.iamswr.myapplication.webp
   meta: removed
   verdict: custodial
 

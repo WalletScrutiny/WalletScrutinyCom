@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Era App - Smart Crypto Trading (Official)
-date: 2021-08-20
+date: 2026-10-30
 redirect_from:
 - /android/com.nbl.bitcoineraapp/
 android:
@@ -9,7 +9,6 @@ android:
   updated: 2021-02-10
   version: 1.0.1
   reviews: 39
-  icon: com.nbl.bitcoineraapp.webp
   meta: removed
   verdict: wip
 

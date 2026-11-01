@@ -17,11 +17,10 @@ shop:
 country: 
 price: 
 repository: 
-icon: nfcwalletcard.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2021-08-01
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -29,5 +28,7 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** The provider appears to be out of business. Its website has been offline since 2021.
 
 The [provider's website](https://nfcwalletcard.com#deadLink) is inaccessible and we considered it defunct.

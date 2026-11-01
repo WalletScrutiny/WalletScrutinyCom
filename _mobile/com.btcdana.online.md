@@ -1,6 +1,6 @@
 ---
 title: BtcDana - Investing & Income
-date: 2025-11-17
+date: 2026-10-30
 authors:
 - danny
 website: https://www.btcdana.com/
@@ -14,7 +14,6 @@ android:
   updated: 2026-09-15
   version: 2.15.0
   reviews: 174
-  icon: com.btcdana.online.webp
   meta: ok
   verdict: nosendreceive
   developerName: DanaByte Trading

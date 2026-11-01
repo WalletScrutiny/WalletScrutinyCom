@@ -1,6 +1,6 @@
 ---
 title: Crypto Buy Bitcoin
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/net.advancedbitcoin.crypto.buy.bitcoin/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-24
   updated: 2021-06-24
   version: '1.0'
-  icon: net.advancedbitcoin.crypto.buy.bitcoin.webp
   meta: removed
   verdict: wip
 

@@ -1,6 +1,6 @@
 ---
 title: Invest in Cryptocurrency
-date: 2024-03-02
+date: 2026-10-30
 redirect_from:
 - /android/com.mke.investcrypto/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-04-25
   updated: 2020-04-25
   version: '1.0'
-  icon: com.mke.investcrypto.webp
   meta: removed
   verdict: wip
   developerName: Elie Muhiya

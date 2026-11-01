@@ -1,6 +1,6 @@
 ---
 title: ABStocks
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: https://abstocks.com#deadLink
@@ -16,7 +16,6 @@ android:
   released: 2021-08-30
   updated: 2022-02-07
   version: 1.6.106
-  icon: com.abstocks.webp
   meta: removed
   verdict: wip
   developerName: ABStocks.com

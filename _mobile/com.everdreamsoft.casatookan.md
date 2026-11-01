@@ -1,6 +1,6 @@
 ---
 title: Casa Tookan wallet
-date: 2024-12-15
+date: 2026-10-30
 authors:
 - danny
 website: http://everdreamsoft.com
@@ -19,7 +19,6 @@ android:
   updated: 2025-08-26
   version: 1.2.4
   reviews: 6
-  icon: com.everdreamsoft.casatookan.webp
   meta: stale
   verdict: nosource
   developerName: EverdreamSoft

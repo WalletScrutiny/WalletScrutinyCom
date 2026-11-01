@@ -1,6 +1,6 @@
 ---
 title: Ondawa Bot
-date: 2023-01-30
+date: 2026-10-30
 redirect_from:
 - /android/com.botlnw.bot/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-11-29
   updated: 2022-07-18
   version: 2.1.7
-  icon: com.botlnw.bot.webp
   meta: removed
   verdict: wip
 

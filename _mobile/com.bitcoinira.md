@@ -1,6 +1,6 @@
 ---
 title: 'BitcoinIRA: Buy & Sell Crypto'
-date: 2021-10-18
+date: 2026-10-30
 authors:
 - danny
 website: https://bitcoinira.com/
@@ -23,7 +23,6 @@ android:
   updated: 2026-10-08
   version: 2.261008.1
   reviews: 562
-  icon: com.bitcoinira.webp
   meta: ok
   verdict: custodial
   developerName: BitcoinIRA
@@ -35,7 +34,6 @@ iphone:
   updated: 2026-10-06
   version: 2.261005.1
   reviews: 1217
-  icon: com.bitcoinira.webp
   meta: ok
   verdict: custodial
   developerName: BitcoinIRA

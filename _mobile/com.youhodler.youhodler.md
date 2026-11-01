@@ -1,6 +1,6 @@
 ---
 title: 'YouHodler: BTC & Crypto Wallet'
-date: 2020-06-20
+date: 2026-10-30
 authors:
 - leo
 website: https://youhodler.com
@@ -21,7 +21,6 @@ android:
   updated: 2026-07-28
   version: 9.0.0
   reviews: 114
-  icon: com.youhodler.youhodler.webp
   meta: ok
   verdict: custodial
   developerName: YouHodler
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-08-25
   version: 9.0.1
   reviews: 11
-  icon: com.youhodler.youhodler.webp
   meta: ok
   verdict: custodial
   developerName: YouHodler

@@ -1,6 +1,6 @@
 ---
 title: '10101'
-date: 2025-05-30
+date: 2026-10-30
 authors:
 - danny
 - keraliss
@@ -13,7 +13,6 @@ android:
   users: 500
   updated: 2024-11-13
   version: VARY
-  icon: finance.get10101.app.webp
   meta: removed
   verdict: wip
   developerName: '10101'

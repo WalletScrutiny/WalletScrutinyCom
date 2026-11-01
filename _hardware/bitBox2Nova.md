@@ -21,11 +21,10 @@ shop: https://bitbox.swiss/shop/
 country: CH
 price: 175EUR
 repository: https://github.com/BitBoxSwiss/bitbox02-firmware
-icon: bitBox2Nova.webp
 bugbounty: https://bitbox.swiss/bug-bounty-program/
 meta: ok
 verdict: sourceavailable
-date: 2025-07-18
+date: 2026-10-30
 signer: 
 twitter: BitBoxSwiss
 social:

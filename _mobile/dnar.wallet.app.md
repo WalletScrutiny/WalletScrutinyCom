@@ -1,6 +1,6 @@
 ---
 title: Dnar
-date: 2023-07-02
+date: 2026-10-30
 authors:
 - danny
 website: https://dnar.io
@@ -16,12 +16,13 @@ android:
   updated: 2025-07-31
   version: '4.0'
   reviews: 11
-  icon: dnar.wallet.app.webp
   meta: defunct
   verdict: wip
   developerName: Dnar
 
 ---
+
+**Update 2026-10-30:** Dnar's [website](https://dnar.io) loads again and now presents Dnar as a service for banks and businesses that converts stablecoins into local currency. The app is still on Google Play, was updated in July 2025, and its description still offers buying, selling and sending Bitcoin.
 
 ## Updated Review 2023-07-25
 

@@ -1,6 +1,6 @@
 ---
 title: OmniC+
-date: 2023-05-17
+date: 2026-10-30
 website: http://omnic.website/innovation#deadLink
 redirect_from:
 - /android/com.omnic/
@@ -10,7 +10,6 @@ android:
   released: 2019-09-03
   updated: 2021-05-04
   version: 1.0.81
-  icon: com.omnic.webp
   meta: removed
   verdict: wip
   developerName: AIO Synergy Holdings Bhd

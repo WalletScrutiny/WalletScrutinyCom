@@ -1,6 +1,6 @@
 ---
 title: 'C r y p t o G T : Trade cryptocurrency (cryptogt)'
-date: 2021-09-02
+date: 2026-10-30
 redirect_from:
 - /android/com.trustdx.cryptogt/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-07-02
   updated: 2021-08-13
   version: '3.0'
-  icon: com.trustdx.cryptogt.webp
   meta: removed
   verdict: fake
 

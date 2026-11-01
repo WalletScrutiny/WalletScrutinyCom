@@ -1,6 +1,6 @@
 ---
 title: Invest Crypto
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/net.fxbitcoinsoft.invest.crypto/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-07-18
   updated: 2021-07-18
   version: '1.0'
-  icon: net.fxbitcoinsoft.invest.crypto.webp
   meta: removed
   verdict: wip
 

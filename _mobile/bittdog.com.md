@@ -1,6 +1,6 @@
 ---
 title: Bittdog
-date: 2024-02-05
+date: 2026-10-30
 redirect_from:
 - /android/bittdog.com/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-03-22
   updated: 2022-03-30
   version: 1.0.2
-  icon: bittdog.com.webp
   meta: removed
   verdict: wip
   developerName: Kate Jason

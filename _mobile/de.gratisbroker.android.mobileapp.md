@@ -1,6 +1,6 @@
 ---
 title: finanzen.net zero Aktien & ETF
-date: 2023-03-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.finanzen.net/zero
@@ -19,7 +19,6 @@ android:
   updated: 2026-10-09
   version: 5.21.2
   reviews: 8
-  icon: de.gratisbroker.android.mobileapp.webp
   meta: ok
   verdict: nosendreceive
   developerName: finanzen.net zero GmbH
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-10-13
   version: 5.21.2
   reviews: 27208
-  icon: de.gratisbroker.ios.mobileapp.webp
   meta: ok
   verdict: nosendreceive
   developerName: finanzen.net zero GmbH

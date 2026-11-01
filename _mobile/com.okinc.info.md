@@ -1,6 +1,6 @@
 ---
 title: OKEx Information
-date: 2022-04-25
+date: 2026-10-30
 redirect_from:
 - /android/com.okinc.info/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-05-25
   updated: 2020-07-05
   version: 1.9.18
-  icon: com.okinc.info.webp
   meta: removed
   verdict: wip
 

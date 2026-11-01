@@ -1,6 +1,6 @@
 ---
 title: Erichsaigon
-date: 2023-11-02
+date: 2026-10-30
 website: https://www.erichsaigon.com#deadLink
 redirect_from:
 - /android/com.erichsaigon/
@@ -10,7 +10,6 @@ android:
   released: 2020-01-06
   updated: 2020-01-25
   version: '1.3'
-  icon: com.erichsaigon.webp
   meta: removed
   verdict: wip
   developerName: Erich Saigon Trading LLc

@@ -1,6 +1,6 @@
 ---
 title: 빗썸 트레이더
-date: 2021-08-04
+date: 2026-10-30
 authors:
 - leo
 website: https://www.bithumb.com
@@ -14,7 +14,6 @@ android:
   updated: 2021-04-20
   version: 1.1.1
   reviews: 311
-  icon: com.btckorea.bithumba.webp
   meta: removed
   verdict: custodial
 

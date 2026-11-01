@@ -1,6 +1,6 @@
 ---
 title: Ethos Universal Wallet
-date: 2022-10-21
+date: 2026-10-30
 website: https://www.ethos.io/
 twitter: ethos_io
 social:
@@ -16,7 +16,6 @@ android:
   updated: 2019-12-05
   version: 2.0.5
   reviews: 193
-  icon: io.ethos.universalwallet.webp
   meta: removed
   verdict: nosource
   developerName: Ethos.io PTE LTD
@@ -27,11 +26,12 @@ iphone:
   updated: 2019-11-22
   version: 2.0.5
   reviews: 302
-  icon: io.ethos.universalwallet.webp
   meta: removed
   verdict: nosource
 
 ---
+
+**Update 2026-10-30:** Ethos now offers a successor app, {% include walletLink.html wallet='android/com.ethos2.prod' verdict='true' %}, from the same developer. The [Ethos website](https://www.ethos.io/) points to it.
 
 ## Android
 

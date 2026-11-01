@@ -1,6 +1,6 @@
 ---
 title: NuWallet
-date: 2024-08-07
+date: 2026-10-30
 redirect_from:
 - /android/com.numiner.nuwallet/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-05-23
   updated: 2023-04-18
   version: 7.0.0
-  icon: com.numiner.nuwallet.webp
   meta: removed
   verdict: wip
   developerName: dadteach

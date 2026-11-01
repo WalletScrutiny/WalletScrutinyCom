@@ -12,11 +12,10 @@ provider:
 providerWebsite: 
 website: 
 repository: https://github.com/Overtorment/cli-cold-wallet
-icon: 
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-date: 2025-06-03
+date: 2026-10-30
 twitter: 
 social: 
 builds: 

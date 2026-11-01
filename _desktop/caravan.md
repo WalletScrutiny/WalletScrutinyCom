@@ -12,11 +12,10 @@ provider: Unchained Capital
 providerWebsite: https://unchained.com/
 website: https://unchained-capital.github.io/caravan/
 repository: https://github.com/unchained-capital/caravan
-icon: caravan.webp
 bugbounty: 
 meta: deprecated
 verdict: sourceavailable
-date: 2026-01-20
+date: 2026-10-30
 twitter: unchainedcap
 social: 
 builds: 

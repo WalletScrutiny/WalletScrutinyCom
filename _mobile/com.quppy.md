@@ -1,6 +1,6 @@
 ---
 title: 'Quppy: Bitcoin Сrypto wallet'
-date: 2020-12-01
+date: 2026-10-30
 authors:
 - leo
 website: https://quppy.com/
@@ -20,7 +20,6 @@ android:
   updated: 2026-02-07
   version: 2.0.149
   reviews: 42
-  icon: com.quppy.webp
   meta: removed
   verdict: custodial
   developerName: Quppy Europe OU
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-07-11
   version: 2.1.3
   reviews: 3
-  icon: com.quppy.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Quppy Europe OU

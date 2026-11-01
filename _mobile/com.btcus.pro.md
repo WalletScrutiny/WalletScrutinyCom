@@ -1,6 +1,6 @@
 ---
 title: Bitcoin America - Decentralized Exchange
-date: 2022-03-07
+date: 2026-10-30
 redirect_from:
 - /android/com.btcus.pro/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-03-30
   updated: 2021-03-30
   version: 1.0.3.210330
-  icon: com.btcus.pro.webp
   meta: removed
   verdict: wip
 

@@ -1,6 +1,6 @@
 ---
 title: Rolbeet
-date: 2023-01-02
+date: 2026-10-30
 website: http://rolbeetservices.com#deadLink
 redirect_from:
 - /android/com.rolbeet.app/
@@ -10,7 +10,6 @@ android:
   released: 2020-06-04
   updated: 2020-10-28
   version: 1.4.0
-  icon: com.rolbeet.app.webp
   meta: removed
   verdict: wip
 

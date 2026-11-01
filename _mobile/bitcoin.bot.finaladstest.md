@@ -1,6 +1,6 @@
 ---
 title: satoshiBot
-date: 2022-01-15
+date: 2026-10-30
 redirect_from:
 - /android/bitcoin.bot.finaladstest/
 android:
@@ -10,7 +10,6 @@ android:
   updated: 2020-10-17
   version: '1.0'
   reviews: 6
-  icon: bitcoin.bot.finaladstest.webp
   meta: removed
   verdict: wip
 

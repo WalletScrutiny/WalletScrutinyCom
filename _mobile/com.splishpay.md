@@ -1,6 +1,6 @@
 ---
 title: SplishPay
-date: 2024-04-03
+date: 2026-10-30
 website: https://splishpay.com/
 redirect_from:
 - /android/com.splishpay/
@@ -10,7 +10,6 @@ android:
   released: 2021-07-28
   updated: 2022-02-13
   version: '2.2'
-  icon: com.splishpay.webp
   meta: removed
   verdict: wip
   developerName: Splishpay

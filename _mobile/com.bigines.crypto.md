@@ -1,6 +1,6 @@
 ---
 title: Bigines
-date: 2024-09-01
+date: 2026-10-30
 website: https://bigines.com
 redirect_from:
 - /android/com.bigines.crypto/
@@ -10,7 +10,6 @@ android:
   released: 2022-02-14
   updated: 2023-01-12
   version: 2.1.2
-  icon: com.bigines.crypto.webp
   meta: removed
   verdict: wip
   developerName: Bigines Yazılım ve Ticaret A.Ş

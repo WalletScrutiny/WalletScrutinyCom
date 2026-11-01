@@ -1,6 +1,6 @@
 ---
 title: TokenRobot
-date: 2023-04-20
+date: 2026-10-30
 website: http://www.tokenrobot.net#deadLink
 redirect_from:
 - /android/com.australia.tokenRobot/
@@ -10,7 +10,6 @@ android:
   released: 2022-03-31
   updated: 2022-03-31
   version: 0.0.1
-  icon: com.australia.tokenRobot.webp
   meta: removed
   verdict: wip
 

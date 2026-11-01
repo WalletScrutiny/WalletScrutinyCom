@@ -1,6 +1,6 @@
 ---
 title: 'Fountain: Podcasts & Music'
-date: 2023-06-23
+date: 2026-10-30
 authors:
 - danny
 website: https://www.fountain.fm
@@ -19,7 +19,6 @@ android:
   updated: 2026-09-09
   version: 1.5.8
   reviews: 261
-  icon: fm.fountain.apps.webp
   alternativeStores:
   - zapstore
   meta: ok
@@ -33,12 +32,13 @@ iphone:
   updated: 2026-10-07
   version: 1.5.9
   reviews: 2
-  icon: fm.fountain.apps.webp
   meta: ok
   verdict: custodial
   developerName: Fountain Labs Ltd.
 
 ---
+
+**Update 2026-10-30:** Since [version 1.4.0](https://blog.fountain.fm/p/1-4) (December 2025), Fountain can also send and receive through an external Lightning wallet connected with Nostr Wallet Connect. The built-in Fountain wallet is still custodial, with a 600,000 sat balance limit unless you pass KYC with ZEBEDEE ([FAQ](https://fountain.fm/faq/wallet-limits)).
 
 ## Android
 
@@ -51,7 +51,7 @@ iphone:
 - Fountain is a podcast app that rewards listeners and podcasters for performing actions on the app. 
 - [Transactions](https://support.fountain.fm/category/51-your-account-wallet) are measured in Satoshis or sats. 
 - The user can top-up using USD which then get converted to BTC/sats. 
-- [Withdrawal](https://support.fountain.fm/category/24-withdrawals) is [possible when](https://support.fountain.fm/article/14-how-do-i-unlock-withdrawals):
+- [Withdrawal](https://web.archive.org/web/20260119142101/https://support.fountain.fm/category/24-withdrawals) is [possible when](https://support.fountain.fm/article/14-how-do-i-unlock-withdrawals):
 
      > Withdrawals are automatically unlocked for you after some time of daily listening to podcasts. You don't have to do anything extra on your end. 
      >

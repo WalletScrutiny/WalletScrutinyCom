@@ -1,6 +1,6 @@
 ---
 title: 'Freedx: Buy & Sell Crypto'
-date: 2026-01-16
+date: 2026-10-30
 authors:
 - danny
 website: https://freedx.com/
@@ -18,7 +18,6 @@ android:
   appCountry: us
   updated: 2026-05-06
   version: 1.7.0
-  icon: com.app.freedx.prod.webp
   meta: removed
   verdict: custodial
   developerName: Freedx
@@ -30,12 +29,13 @@ iphone:
   updated: 2026-04-15
   version: 1.6.0
   reviews: 2
-  icon: com.freedx.app.prod.webp
   meta: removed
   verdict: custodial
   developerName: Freedx
 
 ---
+
+**Update 2026-10-30:** Both apps are gone from the stores. Freedx replaced them with a new app, "Freedx: Buy & Sell Crypto App" (com.freedx.cexmobile), released in June 2026, and its [website](https://freedx.com/) now links only to that one.
 
 ## Android
 

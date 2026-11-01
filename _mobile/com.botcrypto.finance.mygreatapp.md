@@ -1,6 +1,6 @@
 ---
 title: All Crypto Trading Bot
-date: 2023-03-21
+date: 2026-10-30
 website: https://botcrypto.mygreat.app#deadLink
 redirect_from:
 - /android/com.botcrypto.finance.mygreatapp/
@@ -10,7 +10,6 @@ android:
   released: 2022-03-22
   updated: 2022-03-23
   version: '1.0'
-  icon: com.botcrypto.finance.mygreatapp.webp
   meta: removed
   verdict: wip
 

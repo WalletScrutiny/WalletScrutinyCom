@@ -1,6 +1,6 @@
 ---
 title: 'Polynance: Crypto Trading Tool'
-date: 2023-01-02
+date: 2026-10-30
 website: https://www.polynance.com#deadLink
 redirect_from:
 - /android/com.polynance/
@@ -10,7 +10,6 @@ android:
   released: 2019-07-26
   updated: 2019-10-15
   version: '1.3'
-  icon: com.polynance.webp
   meta: removed
   verdict: wip
 

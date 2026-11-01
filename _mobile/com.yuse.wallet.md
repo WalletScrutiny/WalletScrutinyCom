@@ -1,9 +1,9 @@
 ---
 title: 'Yuse: Bitcoin & Crypto Wallet'
-date: 2024-09-04
+date: 2026-10-30
 authors:
 - danny
-website: https://yusetoken.io/
+website: https://web.archive.org/web/20260710131609/https://yusetoken.io/
 twitter: YuseToken
 social:
 - https://www.facebook.com/yusetoken
@@ -22,7 +22,6 @@ android:
   released: 2023-05-19
   updated: 2025-07-02
   version: 80.0.0
-  icon: com.yuse.wallet.webp
   meta: stale
   verdict: nosource
   developerName: Web3 Innovations
@@ -34,12 +33,13 @@ iphone:
   updated: 2024-12-11
   version: 4.0.8
   reviews: 6
-  icon: io.yusewallet.webp
   meta: removed
   verdict: nosource
   developerName: YUSEWallet
 
 ---
+
+**Update 2026-10-30:** The yusetoken.io website, which the Google Play listing still names, now shows an unrelated football streaming site, so the link above points to an [archived copy from July 2026](https://web.archive.org/web/20260710131609/https://yusetoken.io/).
 
 ## Android
 
@@ -55,7 +55,7 @@ From the app's description page:
 
 > We support a wide range of popular cryptocurrencies, including Bitcoin, Ethereum, Ripple, and more, giving you the freedom to manage multiple assets from a single wallet. Rest assured, your diverse holdings are safe within our trustworthy crypto wallet.
 
-Here [is a page](https://yusetoken.io/decoding-security-the-power-of-12-word-phrases-in-defi-wallets/) on Yuse Wallet's official site that walks through the process of working with the user's "12-word phrase". 
+Here [is a page](https://web.archive.org/web/20250811211001/https://yusetoken.io/decoding-security-the-power-of-12-word-phrases-in-defi-wallets/) on Yuse Wallet's official site that walks through the process of working with the user's "12-word phrase". 
 
 Upon installing this app to test for ourselves, we find that users are allowed to create or restore existing wallets. The app has support for multiple networks including BTC and Ethereum. 
 

@@ -8,6 +8,11 @@ question: Is the product still for sale?
 details: >
   Providers may discontinue sales of hardware but still support its use
   with firmware updates.
+
+
+  Discontinued hardware may also have lost its provider altogether. As long as
+  the device still works without the provider, for example with a standard seed
+  or third-party apps, it stays 'discontinued' rather than 'defunct'.
     
   We continue reviews of discontinued products as they often have a
   substantial user base for many more years.

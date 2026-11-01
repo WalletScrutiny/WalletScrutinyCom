@@ -1,6 +1,6 @@
 ---
 title: Bithesap - Bitcoin & Altcoin A
-date: 2023-04-20
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bithesap.com
@@ -12,7 +12,6 @@ android:
   released: 2018-08-03
   updated: 2019-05-08
   version: '1.3'
-  icon: com.bithesap.app.webp
   meta: removed
   verdict: wip
   developerName: Online People

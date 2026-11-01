@@ -1,6 +1,6 @@
 ---
 title: Exchanger101:Coins,Giftcard,Da
-date: 2023-05-24
+date: 2026-10-30
 authors:
 - danny
 website: https://exchanger101.com
@@ -14,7 +14,6 @@ android:
   updated: 2026-02-26
   version: 1.49.3
   reviews: 7
-  icon: com.exchanger101.app.webp
   meta: ok
   verdict: custodial
   developerName: exchanger company

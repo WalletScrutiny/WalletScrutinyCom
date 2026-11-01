@@ -1,11 +1,11 @@
 ---
 title: Tapbit - Buy Bitcoin & Crypto
-date: 2023-07-01
+date: 2026-10-30
 authors:
 - danny
+website: https://www.tapbit.com
 twitter: tapbitglobal
 social:
-- https://www.tapbit.com
 - https://www.linkedin.com/company/tapbit
 - https://www.facebook.com/Tapbitglobal
 - https://www.reddit.com/user/tapbit
@@ -21,7 +21,6 @@ android:
   updated: 2026-08-25
   version: 4.4.3
   reviews: 32
-  icon: com.tapbit.android.webp
   meta: ok
   verdict: custodial
   developerName: Tapbit LLC
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-08-23
   version: 4.4.3
   reviews: 52
-  icon: com.billance.cn.webp
   meta: ok
   verdict: custodial
   developerName: Tapbit LLC

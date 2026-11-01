@@ -1,7 +1,7 @@
 ---
 title: Amanpuri
-date: 2024-02-05
-website: https://amanpuri.io
+date: 2026-10-30
+website: https://amanpuri.io#deadLink
 redirect_from:
 - /android/com.amanpuriexchange/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2020-01-15
   updated: 2020-10-02
   version: '1.1'
-  icon: com.amanpuriexchange.webp
   meta: removed
   verdict: wip
   developerName: AMANPURI CO., LTD.

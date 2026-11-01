@@ -1,6 +1,6 @@
 ---
 title: Zypto Crypto & Bitcoin Wallet
-date: 2025-12-26
+date: 2026-10-30
 authors:
 - danny
 website: https://zypto.com
@@ -26,7 +26,6 @@ android:
   updated: 2026-08-29
   version: 1.29.0
   reviews: 43
-  icon: com.zypto.webp
   meta: ok
   verdict: nosource
   developerName: Zypto
@@ -38,7 +37,6 @@ iphone:
   updated: 2026-09-07
   version: 1.29.0
   reviews: 56
-  icon: com.zypto.zypto.webp
   meta: ok
   verdict: nosource
   developerName: Zypto SP Z O O

@@ -1,6 +1,6 @@
 ---
 title: Bitfury
-date: 2024-04-19
+date: 2026-10-30
 website: https://bitfury.com
 redirect_from:
 - /android/com.bit.fury/
@@ -10,7 +10,6 @@ android:
   released: 2022-10-17
   updated: 2023-02-26
   version: '1.4'
-  icon: com.bit.fury.webp
   meta: removed
   verdict: wip
   developerName: Bitfury

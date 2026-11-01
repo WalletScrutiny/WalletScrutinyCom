@@ -1,6 +1,6 @@
 ---
 title: Paygety
-date: 2024-04-03
+date: 2026-10-30
 website: https://paygety.com#deadLink
 redirect_from:
 - /android/com.paygety.paygety/
@@ -10,7 +10,6 @@ android:
   released: 2018-06-04
   updated: 2018-10-31
   version: 1.5.5
-  icon: com.paygety.paygety.webp
   meta: removed
   verdict: wip
   developerName: Paygety OU

@@ -1,6 +1,6 @@
 ---
 title: Bitotal
-date: 2024-04-19
+date: 2026-10-30
 website: https://bitotal.com
 redirect_from:
 - /android/com.app.bitotal/
@@ -10,7 +10,6 @@ android:
   released: 2021-11-27
   updated: 2021-11-27
   version: '1.0'
-  icon: com.app.bitotal.webp
   meta: removed
   verdict: wip
   developerName: RAFVARONE LTD

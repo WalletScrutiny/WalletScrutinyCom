@@ -1,6 +1,6 @@
 ---
 title: GGP Wallet
-date: 2025-11-18
+date: 2026-10-30
 authors:
 - danny
 website: https://ggp.gg/
@@ -23,7 +23,6 @@ android:
   updated: 2026-06-09
   version: 1.5.9
   reviews: 16
-  icon: com.ggp__wallet.webp
   meta: ok
   verdict: nosource
   developerName: Planet 9 Group Corporation
@@ -35,7 +34,6 @@ iphone:
   updated: 2026-06-11
   version: 1.5.6
   reviews: 10
-  icon: wallet.ggp.webp
   meta: ok
   verdict: nosource
   developerName: Planet 9 Corp.

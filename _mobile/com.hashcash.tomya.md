@@ -1,6 +1,6 @@
 ---
 title: Tomya
-date: 2024-02-05
+date: 2026-10-30
 redirect_from:
 - /android/com.hashcash.tomya/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-04-28
   updated: 2020-06-20
   version: 1.0.2
-  icon: com.hashcash.tomya.webp
   meta: removed
   verdict: wip
   developerName: TOMYA TECHNOLOGY AS

@@ -1,6 +1,6 @@
 ---
 title: Coffee Wallet
-date: 2024-07-03
+date: 2026-10-30
 authors:
 - danny
 - emanuel
@@ -23,7 +23,6 @@ android:
   updated: 2022-07-13
   version: '0.22'
   reviews: 7
-  icon: coffee.software.coffeewallet.webp
   meta: obsolete
   verdict: sourceavailable
   developerName: Coffee  Software

@@ -1,6 +1,6 @@
 ---
 title: Krypterz
-date: 2023-08-30
+date: 2026-10-30
 authors:
 - danny
 website: https://www.krypterz.com#deadLink
@@ -17,7 +17,6 @@ android:
   released: 2022-03-29
   updated: 2023-05-22
   version: 1.5.0
-  icon: com.app.exchangejl.webp
   meta: removed
   verdict: wip
   developerName: Krypterz Exchange

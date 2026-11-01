@@ -1,9 +1,9 @@
 ---
 title: SwappID
-date: 2023-07-31
+date: 2026-10-30
 authors:
 - danny
-website: https://swapp.ee
+website: https://swapp.ee#deadLink
 redirect_from:
 - /android/ee.swapp.idapp/
 android:
@@ -13,7 +13,6 @@ android:
   updated: 2022-03-17
   version: '1.0'
   reviews: 7
-  icon: ee.swapp.idapp.webp
   meta: removed
   verdict: wip
   developerName: Marble Harp Technologies Inc

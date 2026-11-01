@@ -1,7 +1,7 @@
 ---
 title: TCFX Wallet
-date: 2024-04-03
-website: http://topcoinfx.com
+date: 2026-10-30
+website: http://topcoinfx.com#deadLink
 redirect_from:
 - /android/com.topcoinfx/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2019-08-12
   updated: 2020-02-11
   version: '2.5'
-  icon: com.topcoinfx.webp
   meta: removed
   verdict: wip
   developerName: TopcoinGlobal

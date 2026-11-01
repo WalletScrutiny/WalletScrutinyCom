@@ -1,6 +1,6 @@
 ---
 title: WillTrade - Trading For All
-date: 2021-11-10
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -13,7 +13,6 @@ android:
   updated: 2026-09-10
   version: 1.3.53
   reviews: 22
-  icon: com.willtrade.trading.webp
   meta: ok
   verdict: custodial
   developerName: TradeWill Global

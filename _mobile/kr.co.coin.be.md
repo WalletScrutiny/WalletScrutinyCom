@@ -1,6 +1,6 @@
 ---
 title: 가상화폐쉐어서비스-올인비트,비트코인,가상화폐,암호화폐,
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/kr.co.coin.be/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-02-22
   updated: 2020-02-23
   version: '1.0'
-  icon: kr.co.coin.be.webp
   meta: removed
   verdict: wip
   developerName: 앱스토리 컴퍼니

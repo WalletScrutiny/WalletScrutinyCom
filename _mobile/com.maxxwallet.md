@@ -1,9 +1,9 @@
 ---
 title: Bitcoin Wallet - MaxWallet
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - leo
-website: http://bitcoinwalletcoin.com
+website: http://bitcoinwalletcoin.com#deadLink
 redirect_from:
 - /com.maxxwallet/
 - /android/com.maxxwallet/
@@ -13,7 +13,6 @@ android:
   released: 2019-03-25
   updated: 2019-06-12
   version: 3.7.3
-  icon: com.maxxwallet.webp
   meta: removed
   verdict: nosource
   developerName: MAX Wallet , Tov

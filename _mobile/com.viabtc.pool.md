@@ -1,6 +1,6 @@
 ---
 title: ViaBTC-Crypto Mining Pool
-date: 2022-06-24
+date: 2026-10-30
 authors:
 - danny
 website: https://www.viabtc.com/
@@ -19,7 +19,6 @@ android:
   updated: 2026-10-13
   version: 3.18.0
   reviews: 257
-  icon: com.viabtc.pool.webp
   meta: ok
   verdict: custodial
   developerName: ViaBTC
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-10-13
   version: 3.18.0
   reviews: 15
-  icon: com.viabtc.pool2.webp
   meta: ok
   verdict: custodial
   developerName: Viabtc Technology Limited

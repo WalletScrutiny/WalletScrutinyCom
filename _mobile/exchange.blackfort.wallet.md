@@ -1,6 +1,6 @@
 ---
 title: BlackFort Wallet & Exchange
-date: 2023-08-16
+date: 2026-10-30
 authors:
 - danny
 website: https://blackfort.exchange
@@ -20,7 +20,6 @@ android:
   updated: 2021-10-27
   version: 1.3.18
   reviews: 53
-  icon: exchange.blackfort.wallet.webp
   meta: obsolete
   verdict: nosource
   developerName: Blackfort Technologies LLC
@@ -31,12 +30,13 @@ iphone:
   updated: 2021-10-27
   version: '1.8'
   reviews: 0
-  icon: exchange.blackfort.wallet.webp
   meta: removed
   verdict: nosource
   developerName: BlackFort
 
 ---
+
+**Update 2026-10-30:** BlackFort has replaced this app with a new "BlackFort Wallet" for Android, iPhone and Chrome, which [its website](https://blackfort.com/wallet) now links instead. We have not reviewed the new app yet. This Android app has not been updated since October 2021 and the iPhone app is no longer in the App Store.
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: Xenios Markets
-date: 2024-04-03
+date: 2026-10-30
 website: https://www.xeniosmarkets.com#deadLink
 redirect_from:
 - /android/com.xeniosmarkets/
@@ -9,7 +9,6 @@ android:
   users: 50
   updated: 2022-01-24
   version: VARY
-  icon: com.xeniosmarkets.webp
   meta: removed
   verdict: wip
   developerName: Xenios Project

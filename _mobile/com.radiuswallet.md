@@ -1,6 +1,6 @@
 ---
 title: Radius Wallet
-date: 2025-04-22
+date: 2026-10-30
 website: https://radiuswallet.com#deadLink
 redirect_from:
 - /android/com.radiuswallet/
@@ -10,7 +10,6 @@ android:
   released: 2022-05-06
   updated: 2023-02-03
   version: 1.4.1
-  icon: com.radiuswallet.webp
   meta: removed
   verdict: wip
   developerName: Creative Labs Limited

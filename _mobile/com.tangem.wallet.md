@@ -1,6 +1,6 @@
 ---
 title: Tangem - Hardware Wallet
-date: 2025-03-21
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -25,7 +25,6 @@ android:
   updated: 2026-10-09
   version: 6.3.4
   reviews: 1933
-  icon: com.tangem.wallet.webp
   signer: 6e19822814d3498163b2e911196bca85dab25a0267aae5739dde15acb2736002
   meta: ok
   verdict: sourceavailable
@@ -39,7 +38,6 @@ iphone:
   updated: 2026-10-12
   version: '6.4'
   reviews: 24863
-  icon: com.tangem.Tangem.webp
   meta: ok
   verdict: nosource
   developerName: Tangem AG

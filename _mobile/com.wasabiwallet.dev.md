@@ -1,6 +1,6 @@
 ---
 title: WasabiWallet
-date: 2021-04-09
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -13,7 +13,6 @@ android:
   updated: 2020-12-01
   version: '2.0'
   reviews: 14
-  icon: com.wasabiwallet.dev.webp
   meta: removed
   verdict: fake
 

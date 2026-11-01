@@ -1,6 +1,6 @@
 ---
 title: Coinweb Wallet
-date: 2024-04-10
+date: 2026-10-30
 authors:
 - danny
 website: https://coinweb.io
@@ -22,7 +22,6 @@ android:
   updated: 2026-09-30
   version: 1.3.3
   reviews: 4
-  icon: com.coinwebapp.webp
   meta: ok
   verdict: nosource
   developerName: Coinweb
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-10-01
   version: 1.3.3
   reviews: 4
-  icon: io.coinweb.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Coinweb

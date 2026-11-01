@@ -1,6 +1,6 @@
 ---
 title: Coinzo
-date: 2023-03-30
+date: 2026-10-30
 authors:
 - danny
 website: https://www.coinzo.com
@@ -12,7 +12,6 @@ android:
   released: 2021-02-24
   updated: 2021-05-11
   version: 1.0.1
-  icon: com.coinzo.app.webp
   meta: removed
   verdict: wip
   developerName: Coinzo

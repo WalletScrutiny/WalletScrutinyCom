@@ -1,9 +1,9 @@
 ---
 title: Satoshi - Bitcoin Wallet
-date: 2024-09-16
+date: 2026-10-30
 authors:
 - danny
-website: https://satoshipayments.company
+website: https://satoshipayments.company#deadLink
 twitter: satoshipayments
 social:
 - https://www.facebook.com/satoshipayments
@@ -18,12 +18,13 @@ android:
   updated: 2024-04-06
   version: 0.1.7
   reviews: 4
-  icon: company.satoshipayments.webp
   meta: removed
   verdict: custodial
   developerName: Satoshi Payments
 
 ---
+
+**Update 2026-10-30:** Satoshi Payments looks gone. The app is gone from Google Play, and satoshipayments.company no longer loads.
 
 Note that this app shares similarities with {% include walletLink.html wallet='android/com.livingroomofsatoshi.wallet' verdict='true' %} and they both run on the Lightning network. They are not affiliated products.
 ## App Description from Google Play

@@ -1,6 +1,6 @@
 ---
 title: Tagcash Wallet
-date: 2023-05-10
+date: 2026-10-30
 authors:
 - danny
 website: http://tagcash.com
@@ -15,7 +15,6 @@ android:
   released: 2016-10-19
   updated: 2022-10-30
   version: 8.0.4
-  icon: com.tagcash.webp
   meta: removed
   verdict: custodial
   developerName: Tagcash Ltd

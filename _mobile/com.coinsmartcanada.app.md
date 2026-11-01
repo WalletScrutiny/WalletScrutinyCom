@@ -1,6 +1,6 @@
 ---
 title: Coinsmart Canada
-date: 2023-01-30
+date: 2026-10-30
 redirect_from:
 - /android/com.coinsmartcanada.app/
 android:
@@ -8,7 +8,6 @@ android:
   users: 1000
   updated: 2022-06-06
   version: 1.1.77
-  icon: com.coinsmartcanada.app.webp
   meta: removed
   verdict: wip
 

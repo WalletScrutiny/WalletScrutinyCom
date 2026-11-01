@@ -1,9 +1,9 @@
 ---
 title: 'Coinhub: Multi-Chain Wallet'
-date: 2025-03-14
+date: 2026-10-30
 authors:
 - leo
-website: https://www.coinhub.org
+website: https://www.coinhub.org#deadLink
 twitter: Coinhub_Wallet
 redirect_from:
 - /android/com.coinhub.wallet/
@@ -14,12 +14,13 @@ android:
   updated: 2023-05-18
   version: 2.7.9
   reviews: 31
-  icon: com.coinhub.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Coinhub
 
 ---
+
+**Update 2026-10-30:** Coinhub appears to be gone. Its website coinhub.org now forwards to an unrelated gambling site, and [its GitHub account](https://github.com/CoinhubOfficial) still has no repositories.
 
 ## Notes on similar apps 
 
@@ -57,7 +58,7 @@ On the Store they say:
   Solana、MATIC、AVAX、FTM 、HECO and other 20+ public chains.
 
 so they claim to be non-custodial wallet that also supports BTC but on
-[their website](https://www.coinhub.org/) they also claim:
+[their website](https://web.archive.org/web/2022/https://www.coinhub.org/) they also claim:
 
 > **Truly Open Source**<br>
   Forever Responsible to Guarantee the Secure

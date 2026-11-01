@@ -1,6 +1,6 @@
 ---
 title: BTM White Label Wallet
-date: 2023-03-21
+date: 2026-10-30
 website: https://www.blockchaintmhub.io
 redirect_from:
 - /android/btm.wlw/
@@ -10,7 +10,6 @@ android:
   released: 2018-10-25
   updated: 2018-11-28
   version: 1.0.1
-  icon: btm.wlw.webp
   meta: removed
   verdict: wip
 

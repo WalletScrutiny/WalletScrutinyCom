@@ -1,6 +1,6 @@
 ---
 title: 'Blockscart: Wallet - Exchange '
-date: 2024-04-03
+date: 2026-10-30
 website: https://blockscart.eu#deadLink
 redirect_from:
 - /android/com.AppInstitute.qf0b5/
@@ -10,7 +10,6 @@ android:
   released: 2018-10-04
   updated: 2018-10-12
   version: 1.0.0
-  icon: com.AppInstitute.qf0b5.webp
   meta: removed
   verdict: wip
   developerName: BlockApps

@@ -1,6 +1,6 @@
 ---
 title: Safecoin Wallet
-date: 2023-01-30
+date: 2026-10-30
 website: https://safecoin.org
 redirect_from:
 - /android/org.safecoin.safecoinwallet/
@@ -10,7 +10,6 @@ android:
   released: 2018-07-10
   updated: 2019-03-18
   version: 0.0.6
-  icon: org.safecoin.safecoinwallet.webp
   meta: removed
   verdict: wip
 

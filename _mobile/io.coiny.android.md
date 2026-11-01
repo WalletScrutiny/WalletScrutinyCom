@@ -1,6 +1,6 @@
 ---
 title: Coiny
-date: 2022-01-13
+date: 2026-10-30
 authors:
 - danny
 website: https://coiny.io#deadLink
@@ -15,11 +15,12 @@ android:
   released: 2018-04-11
   updated: 2019-01-17
   version: 1.6.1
-  icon: io.coiny.android.webp
   meta: removed
   verdict: wip
 
 ---
+
+**Update 2026-10-30:** Coiny appears to be out of business. Its website is gone and its X account has not posted since 2020.
 
 ## App Description
 

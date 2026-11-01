@@ -1,6 +1,6 @@
 ---
 title: 'TX Markets: Buy Oil, Gold'
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/com.etrade.txtrade/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-10-23
   updated: 2022-10-24
   version: '1.0'
-  icon: com.etrade.txtrade.webp
   meta: removed
   verdict: wip
   developerName: VOIGHTMANN,SCOTT J

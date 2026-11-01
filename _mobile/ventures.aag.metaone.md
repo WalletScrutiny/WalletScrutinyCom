@@ -1,9 +1,9 @@
 ---
 title: Saakuru  App
-date: 2025-09-23
+date: 2026-10-30
 authors:
 - danny
-website: https://getmeta.one/
+website: https://getmeta.one/#deadLink
 twitter: aag_ventures
 social:
 - https://www.linkedin.com/company/aag-ventures
@@ -22,7 +22,6 @@ android:
   updated: 2025-08-18
   version: 6.2.0
   reviews: 14
-  icon: ventures.aag.metaone.webp
   meta: stale
   verdict: custodial
   developerName: ACHIP & ACHAIR GUILD VENTURES PTE. LTD.
@@ -34,12 +33,13 @@ iphone:
   updated: 2025-01-24
   version: 6.1.0
   reviews: 55
-  icon: com.aag.metaone.webp
   meta: removed
   verdict: custodial
   developerName: ACHIP & ACHAIR GUILD VENTURES PTE. LTD.
 
 ---
+
+**Update 2026-10-30:** The app is being shut down. Its Google Play description now reads only "App is being discontinued. Contact support for more information.", the iPhone app is gone from the App Store, and the old MetaOne website no longer loads. The company site of [Saakuru Labs](https://www.saakuru.com/) now presents an AI company incubator and no longer mentions a wallet.
 
 ## Android
 

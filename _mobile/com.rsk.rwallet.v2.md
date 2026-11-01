@@ -1,6 +1,6 @@
 ---
 title: RWallet
-date: 2023-05-17
+date: 2026-10-30
 authors:
 - danny
 - leo
@@ -20,7 +20,6 @@ android:
   released: 2021-04-27
   updated: 2021-06-30
   version: 2.0.1
-  icon: com.rsk.rwallet.v2.webp
   meta: removed
   verdict: sourceavailable
   developerName: IoV Labs
@@ -32,13 +31,14 @@ iphone:
   updated: 2021-07-01
   version: 2.0.1
   reviews: 5
-  icon: com.rsk.rwallet.reactnative.webp
   meta: removed
   verdict: sourceavailable
   developerName: IOV Labs S.A
   repository: https://github.com/rsksmart/rwallet
 
 ---
+
+**Update 2026-10-30:** RWallet is discontinued. Both apps are no longer in the stores, and the [GitHub repository](https://github.com/rsksmart/rwallet) is archived (read-only), with its last change in July 2023. IOV Labs is now called [RootstockLabs](https://www.rootstocklabs.com/).
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: AsianBitcoins - Making Bitcoin
-date: 2023-05-05
+date: 2026-10-30
 authors:
 - danny
 website: https://asianbitcoins.org#deadLink
@@ -13,7 +13,6 @@ android:
   updated: 2020-08-11
   version: 1.0.0
   reviews: 113
-  icon: io.asianbitcoins.asianbitcoins.webp
   meta: removed
   verdict: wip
   developerName: MAK International Inc, USA

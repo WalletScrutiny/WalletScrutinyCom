@@ -1,6 +1,6 @@
 ---
 title: 'Onyze Wallet: Full Security fo'
-date: 2024-04-03
+date: 2026-10-30
 website: https://onyze.com/
 redirect_from:
 - /android/com.onyze.wallet/
@@ -9,7 +9,6 @@ android:
   users: 500
   updated: 2020-07-14
   version: VARY
-  icon: com.onyze.wallet.webp
   meta: removed
   verdict: wip
   developerName: Onyze

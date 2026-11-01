@@ -1,9 +1,9 @@
 ---
 title: 'Coingrig: Digital Wallet'
-date: 2023-08-04
+date: 2026-10-30
 authors:
 - danny
-website: https://coingrig.com
+website: https://coingrig.com#deadLink
 twitter: coingrig
 social:
 - https://www.linkedin.com/company/coingrig/
@@ -16,7 +16,6 @@ android:
   released: 2021-11-05
   updated: 2022-06-22
   version: 1.3.11
-  icon: com.coingrig.webp
   meta: removed
   verdict: wip
   developerName: Qubevo
@@ -29,13 +28,14 @@ iphone:
   updated: 2022-06-22
   version: 1.3.11
   reviews: 0
-  icon: com.coingrig.app.webp
   meta: removed
   verdict: wip
   developerName: Qubevo
   repository: https://github.com/coingrig/coingrig-wallet
 
 ---
+
+**Update 2026-10-30:** Coingrig published the source for version 1.3.11 in [May 2023](https://github.com/coingrig/coingrig-wallet/releases/tag/v1.3.11) and closed [issue 22](https://github.com/coingrig/coingrig-wallet/issues/22).
 
 ## Android
 

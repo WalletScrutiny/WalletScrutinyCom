@@ -1,6 +1,6 @@
 ---
 title: ATEX
-date: 2023-01-30
+date: 2026-10-30
 redirect_from:
 - /android/com.etherenmbean.app/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-06-01
   updated: 2022-08-30
   version: 11.6.6
-  icon: com.etherenmbean.app.webp
   meta: removed
   verdict: wip
 

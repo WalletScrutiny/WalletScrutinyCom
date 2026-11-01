@@ -1,6 +1,6 @@
 ---
 title: GMAP
-date: 2023-01-02
+date: 2026-10-30
 website: https://mapgbc.com
 redirect_from:
 - /android/kr.co.gbckorea.map/
@@ -10,7 +10,6 @@ android:
   released: 2020-04-08
   updated: 2020-06-17
   version: '1.6'
-  icon: kr.co.gbckorea.map.webp
   meta: removed
   verdict: wip
 

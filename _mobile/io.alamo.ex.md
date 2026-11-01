@@ -1,7 +1,7 @@
 ---
 title: Alamo Trading
-date: 2023-09-28
-website: https://www.alamotrading.io/
+date: 2026-10-30
+website: https://www.alamotrading.io/#deadLink
 redirect_from:
 - /android/io.alamo.ex/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2022-08-12
   updated: 2022-08-23
   version: 1.0.3
-  icon: io.alamo.ex.webp
   meta: removed
   verdict: wip
   developerName: Alamo trading

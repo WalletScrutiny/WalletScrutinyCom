@@ -1,6 +1,6 @@
 ---
 title: XTRM
-date: 2024-04-03
+date: 2026-10-30
 redirect_from:
 - /android/com.xtrm.world/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-02-16
   updated: 2020-06-09
   version: 1.2.6
-  icon: com.xtrm.world.webp
   meta: removed
   verdict: wip
   developerName: XTRM World

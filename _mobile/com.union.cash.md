@@ -1,9 +1,9 @@
 ---
 title: Union.cash
-date: 2023-11-17
+date: 2026-10-30
 authors:
 - danny
-website: http://www.union.cash/
+website: https://union.cash/
 twitter: unioncash_eu
 redirect_from:
 - /android/com.union.cash/
@@ -16,7 +16,6 @@ android:
   updated: 2025-12-25
   version: 1.4.8
   reviews: 5
-  icon: com.union.cash.webp
   meta: ok
   verdict: custodial
   developerName: Union Cash
@@ -28,12 +27,13 @@ iphone:
   updated: 2024-04-07
   version: '1.40'
   reviews: 0
-  icon: com.union.cash.webp
   meta: removed
   verdict: custodial
   developerName: Unioncash EU UAB
 
 ---
+
+**Update 2026-10-30:** The Unioncash website now presents the company as a B2B IT and software provider and no longer mentions the wallet or any crypto service ([website](https://union.cash/), [the site in 2022](http://web.archive.org/web/20220725054803/https://union.cash/)). The iPhone app is gone from the App Store; the Android app is still listed.
 
 ## Android
 

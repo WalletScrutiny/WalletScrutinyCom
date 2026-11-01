@@ -1,6 +1,6 @@
 ---
 title: C2CX Exchange
-date: 2023-05-26
+date: 2026-10-30
 authors:
 - danny
 website: https://www.c2cx.com
@@ -13,7 +13,6 @@ android:
   released: 2018-08-23
   updated: 2021-03-22
   version: '3.0'
-  icon: com.hypertherm.app.webp
   meta: removed
   verdict: wip
   developerName: itkx

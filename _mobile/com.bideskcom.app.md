@@ -1,6 +1,6 @@
 ---
 title: Bidesk App - Crypto Trading
-date: 2021-08-08
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bidesk.com/
@@ -19,7 +19,6 @@ android:
   updated: 2021-03-27
   version: 3.4.1
   reviews: 47
-  icon: com.bideskcom.app.webp
   meta: removed
   verdict: wip
 iphone:
@@ -29,13 +28,16 @@ iphone:
   updated: 2021-03-28
   version: 3.1.2
   reviews: 12
-  icon: com.bideskexchange.app.webp
   meta: removed
   verdict: wip
 
 ---
 
+**⚠️ Warning:** Bidesk shut down in 2021. Its website no longer loads and both apps are gone from the stores.
+
 ## Android
+
+**Update 2026-10-30:** Bidesk [announced on 29 September 2021](https://www.cryptowisser.com/exchange/bidesk/) that it would permanently cease operations, citing pressure from Chinese regulators. Its website [bidesk.com](https://www.bidesk.com/#deadLink) no longer loads.
 
 **Update 2021-10-22:** The service is shutting down. 
 

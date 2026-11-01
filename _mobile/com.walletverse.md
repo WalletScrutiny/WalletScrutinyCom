@@ -1,6 +1,6 @@
 ---
 title: 'Wallet Verse: DeFi, Buy Crypto'
-date: 2025-12-31
+date: 2026-10-30
 authors:
 - danny
 website: https://walletverse.io/
@@ -27,7 +27,6 @@ android:
   updated: 2026-09-24
   version: 1.18.4
   reviews: 21
-  icon: com.walletverse.webp
   meta: ok
   verdict: nosource
   developerName: ilink Ltd.
@@ -39,7 +38,6 @@ iphone:
   updated: 2026-09-29
   version: 1.18.4
   reviews: 43
-  icon: ilink.walletverse.webp
   meta: ok
   verdict: nosource
   developerName: ilink Ltd.

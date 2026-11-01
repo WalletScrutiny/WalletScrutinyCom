@@ -1,6 +1,6 @@
 ---
 title: Coinzium
-date: 2024-02-05
+date: 2026-10-30
 redirect_from:
 - /android/com.coinzium.app/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-11-19
   updated: 2021-11-19
   version: '1.0'
-  icon: com.coinzium.app.webp
   meta: removed
   verdict: wip
   developerName: Immutech Company

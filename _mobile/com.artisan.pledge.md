@@ -1,6 +1,6 @@
 ---
 title: DFunds
-date: 2025-11-12
+date: 2026-10-30
 authors:
 - danny
 website: https://www.assure.pro
@@ -14,7 +14,6 @@ android:
   updated: 2026-09-30
   version: 2.1.0
   reviews: 7
-  icon: com.artisan.pledge.webp
   meta: ok
   verdict: nosource
   developerName: CRYPASSURE PTE. LTD.

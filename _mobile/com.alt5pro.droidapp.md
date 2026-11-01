@@ -1,6 +1,6 @@
 ---
 title: Alt 5 Pro
-date: 2024-11-15
+date: 2026-10-30
 authors:
 - danny
 website: http://alt5pro.com
@@ -18,7 +18,6 @@ android:
   released: 2020-03-23
   updated: 2022-02-16
   version: '1.9'
-  icon: com.alt5pro.droidapp.webp
   meta: removed
   verdict: custodial
   developerName: Alt 5 Pro

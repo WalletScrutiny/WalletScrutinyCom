@@ -1,6 +1,6 @@
 ---
 title: EYbinary
-date: 2024-02-05
+date: 2026-10-30
 website: https://eybinary.xtrading.co#deadLink
 redirect_from:
 - /android/xtrading.eybinary.co/
@@ -10,7 +10,6 @@ android:
   released: 2022-09-13
   updated: 2022-09-26
   version: 1.0.0
-  icon: xtrading.eybinary.co.webp
   meta: removed
   verdict: wip
   developerName: MAGNUM TECHNOLOGIES

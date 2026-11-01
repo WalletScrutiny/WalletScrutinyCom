@@ -1,11 +1,11 @@
 ---
 title: کیف پول من
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
+website: https://kifpool.me
 twitter: Kifpoolme
 social:
-- https://kifpool.me
 - https://www.linkedin.com/company/kifpool-me
 - https://www.instagram.com/kifpool.me
 - https://www.youtube.com/channel/UCo75FkojuSwonSKN5nVVEvQ
@@ -18,7 +18,6 @@ android:
   updated: 2022-12-11
   version: '1.7'
   reviews: 10
-  icon: kifpool.me.webp
   meta: removed
   verdict: custodial
   developerName: zipboomlak

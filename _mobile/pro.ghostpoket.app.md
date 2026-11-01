@@ -1,9 +1,9 @@
 ---
 title: 'Ghost Wallet: Crypto Bitcoin'
-date: 2026-04-23
+date: 2026-10-30
 authors:
 - danny
-website: https://test.ghostpoket.pro
+website: https://ghostwallet.io
 twitter: Ghost_Wallet_
 social:
 - https://www.instagram.com/ghost.wallet
@@ -16,7 +16,6 @@ android:
   released: 2025-06-21
   updated: 2026-01-15
   version: 1.1.5
-  icon: pro.ghostpoket.app.webp
   meta: ok
   verdict: nosource
   developerName: GhostWallet Global

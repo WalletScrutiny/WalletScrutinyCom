@@ -1,9 +1,9 @@
 ---
 title: Publet
-date: 2023-06-02
+date: 2026-10-30
 authors:
 - danny
-website: https://www.publet.io/
+website: https://web.archive.org/web/20211208182155/https://www.publet.io/
 redirect_from:
 - /android/com.publet/
 android:
@@ -12,12 +12,13 @@ android:
   released: 2020-06-11
   updated: 2020-11-20
   version: '1.9'
-  icon: com.publet.webp
   meta: removed
   verdict: wip
   developerName: Publet Pte. Ltd.
 
 ---
+
+**Update 2026-10-30:** The publet.io website is gone; the website link now points to its [December 2021 copy](https://web.archive.org/web/20211208182155/https://www.publet.io/) in the Wayback Machine.
 
 ## App Description from Google Play 
 

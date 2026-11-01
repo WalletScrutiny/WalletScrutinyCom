@@ -1,6 +1,6 @@
 ---
 title: Quidax -  Buy Bitcoin & Crypto
-date: 2026-01-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.quidax.io/
@@ -23,7 +23,6 @@ android:
   updated: 2026-09-19
   version: 1.3.2
   reviews: 14
-  icon: io.quidax.app.webp
   meta: ok
   verdict: custodial
   developerName: Quidax Technologies
@@ -35,7 +34,6 @@ iphone:
   updated: 2026-09-28
   version: 1.1.20
   reviews: 613
-  icon: io.quidax.pro.webp
   meta: ok
   verdict: custodial
   developerName: Quidax Technologies

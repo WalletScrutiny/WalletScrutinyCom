@@ -12,11 +12,10 @@ provider:
 providerWebsite: 
 website: https://www.zaphq.io
 repository: https://github.com/LN-Zap/zap-desktop
-icon: zap.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-date: 2024-04-25
+date: 2026-10-30
 twitter: ln_zap
 social: 
 builds: 

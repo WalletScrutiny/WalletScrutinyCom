@@ -1,9 +1,9 @@
 ---
 title: Alterdice
-date: 2024-09-10
+date: 2026-10-30
 authors:
 - danny
-website: https://alterdice.com
+website: https://web.archive.org/web/20250418130523/https://alterdice.com/
 twitter: alterdicecom
 social:
 - https://t.me/alterdice_channel_eng
@@ -18,18 +18,19 @@ android:
   released: 2018-09-24
   updated: 2018-11-22
   version: 1.3.7
-  icon: com.alterdice.android.webp
   meta: removed
   verdict: custodial
   developerName: Alterdice Developers
 
 ---
 
+**Update 2026-10-30:** Alterdice appears to be gone. Its website no longer loads (the [last archived copy](https://web.archive.org/web/20250418130523/https://alterdice.com/) is from 2025), and its [Telegram channel](https://t.me/s/alterdice_channel_eng) has been silent since January 2023.
+
 ## App Description from Google Play 
 
 > Alterdice is a comprehensive financial platform for the majority of leading cryptocurrencies, such as Bitcoin, Ethereum, Litecoin, XRP, NEO and + 45 more coins.
 
-### [Security](https://alterdice.com/page/security)
+### [Security](https://web.archive.org/web/20240917230933/https://alterdice.com/page/security)
 
 > Cryptocurrency repository
 >

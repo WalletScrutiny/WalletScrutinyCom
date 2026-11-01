@@ -1,9 +1,9 @@
 ---
 title: BitGlobal (formerly Bithumb Gl
-date: 2023-03-21
+date: 2026-10-30
 authors:
 - danny
-website: https://www.bithumb.pro
+website: https://www.bithumb.pro#deadLink
 twitter: BithumbGlobal
 social:
 - https://www.linkedin.com/company/bithumbglobal
@@ -20,7 +20,6 @@ android:
   updated: 2022-09-13
   version: 2.6.25
   reviews: 78
-  icon: global.bithumb.android.webp
   meta: removed
   verdict: custodial
   developerName: Bithumb Global Holdings Limited
@@ -31,11 +30,12 @@ iphone:
   updated: 2022-04-03
   version: 2.6.5
   reviews: 77
-  icon: pro.bithumb.global.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** BitGlobal disappeared in August 2023 without notice, and users could no longer get their coins out ([Coin Edition](https://coinedition.com/bitglobals-abrupt-disappearance-underscores-crypto-market-risks/)). Its websites no longer load.
 
 ## Android
 

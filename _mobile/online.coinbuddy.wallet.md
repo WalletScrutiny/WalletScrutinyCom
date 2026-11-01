@@ -1,6 +1,6 @@
 ---
 title: CoinBuddy Wallet
-date: 2023-01-02
+date: 2026-10-30
 website: http://coinbuddy.online#deadLink
 redirect_from:
 - /android/online.coinbuddy.wallet/
@@ -10,7 +10,6 @@ android:
   released: 2022-05-12
   updated: 2022-05-20
   version: 1.5.0
-  icon: online.coinbuddy.wallet.webp
   meta: removed
   verdict: wip
 

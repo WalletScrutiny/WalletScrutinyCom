@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Wallet
-date: 2021-05-11
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -12,7 +12,6 @@ android:
   updated: 2021-03-13
   version: '1.0'
   reviews: 27
-  icon: best.bitcoin.wallet.btc.price.buy.cryptocurrency.webp
   meta: removed
   verdict: wip
 

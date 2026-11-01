@@ -1,6 +1,6 @@
 ---
 title: THORWallet - Crypto Wallet
-date: 2023-06-30
+date: 2026-10-30
 authors:
 - danny
 website: http://thorwallet.org
@@ -25,7 +25,6 @@ android:
   updated: 2026-10-01
   version: 3.12.0
   reviews: 40
-  icon: defisuisse.thorwallet.webp
   meta: ok
   verdict: nosource
   developerName: EMM Ventures AG
@@ -37,7 +36,6 @@ iphone:
   updated: 2026-10-02
   version: 3.12.0
   reviews: 39
-  icon: defisuisseag.thorwallet.webp
   meta: ok
   verdict: nosource
   developerName: DeFi Suisse AG

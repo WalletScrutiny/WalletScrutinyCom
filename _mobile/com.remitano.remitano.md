@@ -1,6 +1,6 @@
 ---
 title: 'Remitano: Buy & Sell Crypto'
-date: 2020-05-29
+date: 2026-10-30
 authors:
 - leo
 website: https://remitano.com
@@ -23,7 +23,6 @@ android:
   updated: 2026-10-04
   version: 9.5.0
   reviews: 515
-  icon: com.remitano.remitano.webp
   meta: ok
   verdict: custodial
   developerName: Remitano
@@ -35,7 +34,6 @@ iphone:
   updated: 2026-10-05
   version: 9.5.0
   reviews: 379
-  icon: com.remitano.remitano.webp
   meta: ok
   verdict: custodial
   developerName: REMITANO PTY. LTD.

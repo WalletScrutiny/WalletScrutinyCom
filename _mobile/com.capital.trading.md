@@ -1,6 +1,6 @@
 ---
 title: Trading app by Capital·com
-date: 2024-02-08
+date: 2026-10-30
 authors:
 - danny
 website: https://capital.com
@@ -22,7 +22,6 @@ android:
   updated: 2026-10-12
   version: 3.53.0
   reviews: 38
-  icon: com.capital.trading.webp
   meta: ok
   verdict: nosendreceive
   developerName: Capital Com SV Investments Limited
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-10-02
   version: 3.52.0
   reviews: 328
-  icon: com.capital.trading.webp
   meta: ok
   verdict: nosendreceive
   developerName: Capital Com SV Investments Limited

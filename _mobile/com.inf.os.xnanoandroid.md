@@ -1,6 +1,6 @@
 ---
 title: xNANO | Compre e Venda Bitcoin
-date: 2023-05-30
+date: 2026-10-30
 website: http://xnano.com.br#deadLink
 redirect_from:
 - /android/com.inf.os.xnanoandroid/
@@ -10,7 +10,6 @@ android:
   released: 2020-12-04
   updated: 2020-10-08
   version: '4.0'
-  icon: com.inf.os.xnanoandroid.webp
   meta: removed
   verdict: wip
   developerName: XB Soluções Digitais

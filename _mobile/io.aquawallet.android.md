@@ -1,10 +1,10 @@
 ---
 title: AQUA Wallet
-date: 2024-01-05
+date: 2026-10-30
 authors:
 - danny
 - keraliss
-website: https://aquawallet.io
+website: https://aqua.net
 twitter: AquaBitcoin
 social:
 - https://www.instagram.com/aquabitcoin
@@ -27,7 +27,6 @@ android:
   updated: 2026-09-29
   version: 0.5.4
   reviews: 21
-  icon: io.aquawallet.android.webp
   alternativeStores:
   - zapstore
   meta: ok
@@ -42,7 +41,6 @@ iphone:
   updated: 2026-10-01
   version: 0.5.4
   reviews: 77
-  icon: io.aquawallet.ios.webp
   meta: ok
   verdict: nosource
   developerName: Jan3 LLC

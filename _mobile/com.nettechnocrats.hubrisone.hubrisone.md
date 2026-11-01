@@ -1,6 +1,6 @@
 ---
 title: HubrisOne
-date: 2024-05-07
+date: 2026-10-30
 website: http://www.hubrisone.com
 redirect_from:
 - /android/com.nettechnocrats.hubrisone.hubrisone/
@@ -11,7 +11,6 @@ android:
   updated: 2020-10-29
   version: 2.1.6
   reviews: 8
-  icon: com.nettechnocrats.hubrisone.hubrisone.webp
   meta: removed
   verdict: wip
   developerName: HubrisOne Technologies

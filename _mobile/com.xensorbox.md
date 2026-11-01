@@ -1,6 +1,6 @@
 ---
 title: Xensor Box:Easy-to-use, safe c
-date: 2023-06-10
+date: 2026-10-30
 authors:
 - danny
 website: https://xensor.cc#deadLink
@@ -13,7 +13,6 @@ android:
   released: 2019-09-27
   updated: 2019-12-02
   version: 1.3.6
-  icon: com.xensorbox.webp
   meta: removed
   verdict: wip
   developerName: xenix studio

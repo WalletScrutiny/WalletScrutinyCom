@@ -1,6 +1,6 @@
 ---
 title: BitPocket
-date: 2024-04-19
+date: 2026-10-30
 authors:
 - kiwilamb
 website: http://bitpocket.at
@@ -12,7 +12,6 @@ android:
   released: 2016-07-08
   updated: 2017-10-20
   version: 1.1.8
-  icon: at.bitpocket.pos.webp
   meta: removed
   verdict: wip
   developerName: Beyond IT OG

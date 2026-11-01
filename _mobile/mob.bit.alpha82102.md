@@ -1,6 +1,6 @@
 ---
 title: Bit Alpha
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,12 +11,13 @@ android:
   released: 2022-08-19
   updated: 2022-08-19
   version: '1.0'
-  icon: mob.bit.alpha82102.webp
   meta: removed
   verdict: nosendreceive
   developerName: NADIM BHUTTA
 
 ---
+
+**Update 2026-10-30:** The bit-alpha.com site that hosted the privacy policy no longer loads. The app is no longer on Google Play.
 
 ## App Description from Google Play
 

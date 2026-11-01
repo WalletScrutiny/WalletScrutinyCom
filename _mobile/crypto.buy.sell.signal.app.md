@@ -1,6 +1,6 @@
 ---
 title: Crypto Buy Sell Signal App
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/crypto.buy.sell.signal.app/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-16
   updated: 2021-06-17
   version: '1.0'
-  icon: crypto.buy.sell.signal.app.webp
   meta: removed
   verdict: wip
 

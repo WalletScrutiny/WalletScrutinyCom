@@ -1,6 +1,6 @@
 ---
 title: Praise
-date: 2024-04-19
+date: 2026-10-30
 website: http://praise.pe.kr#deadLink
 redirect_from:
 - /android/com.pluto.praise/
@@ -10,7 +10,6 @@ android:
   released: 2021-06-23
   updated: 2021-07-01
   version: '1.4'
-  icon: com.pluto.praise.webp
   meta: removed
   verdict: wip
   developerName: PRAISE Company

@@ -1,6 +1,6 @@
 ---
 title: Sonic Wallet
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 website: https://www.sonicwallet.com
@@ -10,7 +10,6 @@ social:
 - https://www.linkedin.com/company/sonicwallet
 - https://www.instagram.com/sonicwallet
 - https://www.youtube.com/channel/UCilya9JzFKcTxk1wOPIyH2A
-- https://www.sonicwallet.com
 redirect_from:
 - /android/com.sonicwallet/
 - /iphone/com.sonicwallet/
@@ -20,7 +19,6 @@ android:
   released: 2022-02-17
   updated: 2024-11-16
   version: 1.1.41
-  icon: com.sonicwallet.webp
   meta: removed
   verdict: nosource
   developerName: Sonic Inc
@@ -32,7 +30,6 @@ iphone:
   updated: 2023-12-12
   version: '3.2'
   reviews: 2
-  icon: com.sonicwallet.webp
   meta: removed
   verdict: nosource
   developerName: Sonic Wallet

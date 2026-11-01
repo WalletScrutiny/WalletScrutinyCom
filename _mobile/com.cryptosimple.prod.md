@@ -1,6 +1,6 @@
 ---
 title: CryptoSimple
-date: 2025-02-13
+date: 2026-10-30
 website: https://cryptosimple.app
 redirect_from:
 - /android/com.cryptosimple.prod/
@@ -10,7 +10,6 @@ android:
   released: 2022-06-01
   updated: 2022-12-08
   version: 1.0.12
-  icon: com.cryptosimple.prod.webp
   meta: removed
   verdict: wip
   developerName: CryptoSimple

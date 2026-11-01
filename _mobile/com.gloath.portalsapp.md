@@ -1,6 +1,6 @@
 ---
 title: 'Portals : Crypto Wallet Genera'
-date: 2026-02-02
+date: 2026-10-30
 authors:
 - leo
 website: https://portals.nz
@@ -15,7 +15,6 @@ android:
   updated: 2020-12-20
   version: 0.0.4a
   reviews: 24
-  icon: com.gloath.portalsapp.webp
   meta: obsolete
   verdict: nosource
   developerName: Gloath

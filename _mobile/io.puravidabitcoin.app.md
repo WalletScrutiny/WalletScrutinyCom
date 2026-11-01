@@ -1,6 +1,6 @@
 ---
 title: Pura Vida Bitcoin
-date: 2026-05-05
+date: 2026-10-30
 authors:
 - danny
 website: https://puravidabitcoin.io
@@ -22,7 +22,6 @@ android:
   updated: 2026-10-05
   version: 2.6.1
   reviews: 1
-  icon: io.puravidabitcoin.app.webp
   meta: fewusers
   verdict: custodial
   developerName: Pura Vida Technologies
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-10-06
   version: 2.6.1
   reviews: 27
-  icon: io.puravidabitcoin.app.webp
   meta: ok
   verdict: custodial
   developerName: Pura Vida Technologies S.A.

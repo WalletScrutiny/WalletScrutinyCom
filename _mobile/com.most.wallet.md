@@ -1,6 +1,6 @@
 ---
 title: MOST Wallet
-date: 2024-07-20
+date: 2026-10-30
 authors:
 - danny
 website: https://scitechnologyinc.com/mostwallet
@@ -13,7 +13,6 @@ android:
   released: 2022-02-04
   updated: 2026-10-05
   version: 1.9.2
-  icon: com.most.wallet.webp
   meta: ok
   verdict: nosource
   developerName: SCI Technology Inc DE

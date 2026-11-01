@@ -1,6 +1,6 @@
 ---
 title: 'SpecterSolutions: Open Wallet'
-date: 2023-09-04
+date: 2026-10-30
 authors:
 - danny
 website: https://specterproduct.cc/assets/spectrum-privacy-policy.txt#deadLink
@@ -13,7 +13,6 @@ android:
   released: 2022-12-15
   updated: 2023-03-18
   version: 2.19.3
-  icon: com.decentralized.earth.webp
   meta: removed
   verdict: fake
   developerName: sресtrum, l.l.С.

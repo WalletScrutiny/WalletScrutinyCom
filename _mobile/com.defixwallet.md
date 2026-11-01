@@ -1,6 +1,6 @@
 ---
 title: Defix Wallet
-date: 2023-01-11
+date: 2026-10-30
 website: https://www.defixwallet.io#deadLink
 redirect_from:
 - /android/com.defixwallet/
@@ -10,7 +10,6 @@ android:
   released: 2021-09-22
   updated: 2022-12-12
   version: '2.1'
-  icon: com.defixwallet.webp
   meta: removed
   verdict: wip
 

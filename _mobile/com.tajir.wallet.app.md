@@ -1,6 +1,6 @@
 ---
 title: Tajir Wallet
-date: 2026-07-21
+date: 2026-10-30
 website: https://tajirwallet.io/
 redirect_from:
 - /android/com.tajir.wallet.app/
@@ -13,7 +13,6 @@ android:
   updated: 2026-10-13
   version: 2.4.64
   reviews: 4
-  icon: com.tajir.wallet.app.webp
   meta: ok
   verdict: nosource
   developerName: Tajir Web3 LTD
@@ -25,7 +24,6 @@ iphone:
   updated: 2026-10-12
   version: 2.4.62
   reviews: 7
-  icon: com.tajir.wallet.app.webp
   meta: ok
   verdict: nosource
   developerName: Tajir Holding Ltd

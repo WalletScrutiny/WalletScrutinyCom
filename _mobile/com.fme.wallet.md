@@ -1,9 +1,9 @@
 ---
 title: FME Wallet
-date: 2023-05-25
+date: 2026-10-30
 authors:
 - danny
-website: https://wallet.fmetoken.io
+website: https://wallet.fmetoken.io#deadLink
 redirect_from:
 - /android/com.fme.wallet/
 android:
@@ -12,7 +12,6 @@ android:
   released: 2020-04-26
   updated: 2020-06-22
   version: 1.0.0
-  icon: com.fme.wallet.webp
   meta: removed
   verdict: wip
   developerName: fmetoken.io

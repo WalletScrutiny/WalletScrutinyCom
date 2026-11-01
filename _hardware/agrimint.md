@@ -17,11 +17,10 @@ shop:
 country: BG
 price: 
 repository: https://github.com/agrimint/hardwareWallet
-icon: agrimint.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2024-10-18
+date: 2026-10-30
 signer: 
 twitter: radoystoyanov
 social: 

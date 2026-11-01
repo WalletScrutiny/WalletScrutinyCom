@@ -1,6 +1,6 @@
 ---
 title: VTN Wallet
-date: 2023-05-06
+date: 2026-10-30
 authors:
 - danny
 website: https://web.archive.org/web/20240722011202/https://vrontonode.org/
@@ -12,7 +12,6 @@ android:
   released: 2019-11-29
   updated: 2019-11-29
   version: '1.0'
-  icon: org.vrontonode.wallet.webp
   meta: removed
   verdict: wip
   developerName: VRONTO NODE & VRONTO TECH

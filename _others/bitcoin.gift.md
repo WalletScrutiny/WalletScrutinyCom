@@ -3,8 +3,7 @@ title: Bitcoin-Gift.com
 appId: bitcoin.gift
 authors:
 - danny
-icon: bitcoin.gift.webp
-date: 2022-05-17
+date: 2026-10-30
 website: https://bitcoin-gift.com/
 provider: Bitcoin-Gift Shop
 shop: https://bitcoin-gift.com/shop/bitcoin-crypto-card/

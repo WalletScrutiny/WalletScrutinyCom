@@ -1,6 +1,6 @@
 ---
 title: Eliux
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/co.eliex.andrapp/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-04-14
   updated: 2022-04-15
   version: '1.0'
-  icon: co.eliex.andrapp.webp
   meta: removed
   verdict: wip
 

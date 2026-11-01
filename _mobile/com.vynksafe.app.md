@@ -1,13 +1,13 @@
 ---
 title: VYNKSAFE
-date: 2024-05-07
+date: 2026-10-30
 authors:
 - danny
 website: https://vynksafe.com#deadLink
 twitter: vynkgroup
 social:
 - https://www.linkedin.com/in/vynkchain-community-59b283208
-- https://t.me/VYNKCHAIN
+- https://t.me/VYNKCHAIN#deadLink
 redirect_from:
 - /android/com.vynksafe.app/
 - /iphone/com.pixels.vynksafe/
@@ -17,7 +17,6 @@ android:
   released: 2022-05-31
   updated: 2024-02-05
   version: '2.6'
-  icon: com.vynksafe.app.webp
   meta: removed
   verdict: custodial
   developerName: VYNK GROUP AE
@@ -29,12 +28,13 @@ iphone:
   updated: 2023-10-25
   version: '1.4'
   reviews: 3
-  icon: com.pixels.vynksafe.webp
   meta: removed
   verdict: custodial
   developerName: VYNK BLOCK TECHNOLOGIES PRIVATE LIMITED
 
 ---
+
+**Update 2026-10-30:** VYNKSAFE appears to be gone. Both apps are out of the stores, the [VYNKSAFE website](https://vynksafe.com#deadLink) no longer loads, the VYNK Chain site (vynkchain.org) is now a parked page, and the Telegram channel is gone.
 
 ## Android
 

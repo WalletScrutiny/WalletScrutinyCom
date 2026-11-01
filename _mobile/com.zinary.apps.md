@@ -1,6 +1,6 @@
 ---
 title: Zinary
-date: 2025-05-14
+date: 2026-10-30
 website: https://zinary.com
 redirect_from:
 - /android/com.zinary.apps/
@@ -10,7 +10,6 @@ android:
   released: 2024-03-11
   updated: 2024-03-11
   version: 0.28.7
-  icon: com.zinary.apps.webp
   meta: removed
   verdict: wip
   developerName: Zinary Analytica Limited

@@ -1,9 +1,9 @@
 ---
 title: 'خرید بیت کوین و ارزدیجیتال: اک'
-date: 2023-09-15
+date: 2026-10-30
 authors:
 - danny
-website: https://exchaino.com
+website: https://exchaino.com#deadLink
 twitter: exchaino
 social:
 - https://www.instagram.com/myexchaino
@@ -16,12 +16,13 @@ android:
   released: 2021-09-22
   updated: 2022-06-14
   version: 2.1.3
-  icon: com.xchaino.webp
   meta: removed
   verdict: custodial
   developerName: Bit24
 
 ---
+
+**Update 2026-10-30:** Exchaino has shut down. It merged with Bit24, an Iranian exchange from the same company, and user accounts and funds were moved to [bit24.cash](https://bit24.cash/) ([IranBroker](https://iranbroker.net/exchange/exchaino/)). The exchaino.com website now shows only "page not found".
 
 ## App Description from Google Play 
 

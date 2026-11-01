@@ -1,6 +1,6 @@
 ---
 title: cyclebas
-date: 2023-01-30
+date: 2026-10-30
 website: https://www.cyclebas.com#deadLink
 redirect_from:
 - /android/com.cyclebas/
@@ -11,7 +11,6 @@ android:
   updated: 2022-10-06
   version: 3.0.16
   reviews: 93
-  icon: com.cyclebas.webp
   meta: removed
   verdict: wip
 

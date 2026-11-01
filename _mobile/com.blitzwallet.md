@@ -1,6 +1,6 @@
 ---
 title: 'Blitz: Simple Bitcoin Wallet'
-date: 2025-11-03
+date: 2026-10-30
 authors:
 - danny
 website: https://blitzwalletapp.com/
@@ -24,7 +24,6 @@ android:
   released: 2025-09-29
   updated: 2026-08-29
   version: 0.7.15
-  icon: com.blitzwallet.webp
   alternativeStores:
   - zapstore
   meta: ok

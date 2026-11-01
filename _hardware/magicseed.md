@@ -17,11 +17,10 @@ shop:
 country: 
 price: 
 repository: 
-icon: magicseed.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-27
+date: 2026-10-30
 signer: 
 twitter: 
 social:

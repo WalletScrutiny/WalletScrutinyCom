@@ -1,6 +1,6 @@
 ---
 title: Metropuli
-date: 2025-08-18
+date: 2026-10-30
 website: https://asyasoftware.ge
 redirect_from:
 - /android/com.asyasoftware.metropuli/
@@ -11,7 +11,6 @@ android:
   released: 2022-03-09
   updated: 2023-08-22
   version: 1.0.3
-  icon: com.asyasoftware.metropuli.webp
   meta: obsolete
   verdict: wip
   developerName: Asya Software JSC

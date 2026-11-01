@@ -1,6 +1,6 @@
 ---
 title: Eron Wallet Dapp
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/com.eron.eronwallet/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-07-20
   updated: 2022-07-20
   version: 3.40.91
-  icon: com.eron.eronwallet.webp
   meta: removed
   verdict: wip
   developerName: Eron Project and Development SRL

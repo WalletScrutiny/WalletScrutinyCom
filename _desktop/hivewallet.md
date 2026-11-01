@@ -12,11 +12,10 @@ provider:
 providerWebsite: 
 website: 
 repository: https://github.com/hivewallet/hive-mac
-icon: 
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-date: 2024-04-25
+date: 2026-10-30
 twitter: hive_mac
 social: 
 builds: 

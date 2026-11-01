@@ -1,6 +1,6 @@
 ---
 title: E-Mpesa Exchange
-date: 2023-05-30
+date: 2026-10-30
 website: https://e-mpesaexchange.com/
 redirect_from:
 - /android/com.empesa.e_mpesaexchange/
@@ -10,7 +10,6 @@ android:
   released: 2020-02-28
   updated: 2020-02-28
   version: '1.1'
-  icon: com.empesa.e_mpesaexchange.webp
   meta: removed
   verdict: wip
   developerName: BH Enterprises

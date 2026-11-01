@@ -1,6 +1,6 @@
 ---
 title: 'Evercoin: Bitcoin, Ripple, ETH'
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - leo
 website: https://evercoin.com#deadLink
@@ -17,7 +17,6 @@ android:
   updated: 2020-11-22
   version: 2.8.8
   reviews: 59
-  icon: com.evercoin.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -27,7 +26,6 @@ iphone:
   updated: 2020-11-30
   version: 1.9.5
   reviews: 2742
-  icon: com.evercoinInc.evercoin.webp
   meta: removed
   verdict: nosource
 

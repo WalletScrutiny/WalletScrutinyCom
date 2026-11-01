@@ -1,6 +1,6 @@
 ---
 title: Crypto Coin Invest
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/net.bitcoinforall.crypto.coin.invest/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-17
   updated: 2021-06-17
   version: '1.0'
-  icon: net.bitcoinforall.crypto.coin.invest.webp
   meta: removed
   verdict: wip
 

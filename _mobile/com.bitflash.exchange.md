@@ -1,6 +1,6 @@
 ---
 title: Bitflash Exchange
-date: 2023-03-29
+date: 2026-10-30
 authors:
 - danny
 website: https://bitflash.io
@@ -12,7 +12,6 @@ android:
   released: 2022-04-07
   updated: 2022-04-28
   version: '4.0'
-  icon: com.bitflash.exchange.webp
   meta: removed
   verdict: wip
   developerName: Bitflash Cryptocurrency Exchange

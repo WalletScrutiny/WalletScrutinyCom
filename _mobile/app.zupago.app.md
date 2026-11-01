@@ -1,6 +1,6 @@
 ---
 title: ViZO
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: https://vizo.app
@@ -15,7 +15,6 @@ android:
   updated: 2024-05-16
   version: 2.0.2
   reviews: 22
-  icon: app.zupago.app.webp
   meta: removed
   verdict: custodial
   developerName: ViZO
@@ -27,7 +26,6 @@ iphone:
   updated: 2024-11-26
   version: 1.0.70
   reviews: 52
-  icon: app.zupago.zp.webp
   meta: removed
   verdict: custodial
   developerName: VIZO TECHNOLOGY LIMITED
@@ -58,7 +56,7 @@ They also mention the use of cold storage.
 
 ## The Site
 
-In Terms of Service, [Termination of Account:](https://zupago.app/terms-of-service)
+In Terms of Service, [Termination of Account:](https://web.archive.org/web/20231207235058/https://zupago.app/terms-of-service)
 
 > ZuPago reserves the right to restrict, suspend or terminate your ZuPago Account at our discretion if we suspect that you have failed to comply with these Terms, pose an unacceptable fraud risk to us, or if you provide any false, incomplete, inaccurate or misleading information. We will not be liable to you for any losses that you incur in connection with our closure or suspension of your account. 
 

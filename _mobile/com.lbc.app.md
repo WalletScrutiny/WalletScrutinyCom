@@ -1,6 +1,6 @@
 ---
 title: 'Coinsclone Ads Based Exchange '
-date: 2024-04-26
+date: 2026-10-30
 website: https://www.coinsclone.com/
 redirect_from:
 - /android/com.lbc.app/
@@ -10,7 +10,6 @@ android:
   released: 2020-06-25
   updated: 2020-08-07
   version: 1.0.0
-  icon: com.lbc.app.webp
   meta: removed
   verdict: wip
   developerName: Coins Clone

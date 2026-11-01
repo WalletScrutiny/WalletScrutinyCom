@@ -1,7 +1,7 @@
 ---
 title: InstaFx
-date: 2024-12-04
-website: https://instfx.com/
+date: 2026-10-30
+website: https://instfx.com/#deadLink
 redirect_from:
 - /android/com.web.instafx/
 android:
@@ -10,10 +10,10 @@ android:
   released: 2021-10-29
   updated: 2021-12-30
   version: '1.4'
-  icon: com.web.instafx.webp
   meta: removed
   verdict: wip
   developerName: InstaFx
 
 ---
 
+**Update 2026-10-30:** The InstaFx website domain is now for sale.

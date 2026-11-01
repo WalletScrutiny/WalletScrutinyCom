@@ -1,6 +1,6 @@
 ---
 title: 'Safeheron: Crypto MPC Wallet'
-date: 2025-08-28
+date: 2026-10-30
 authors:
 - danny
 twitter: Safeheron
@@ -16,7 +16,6 @@ android:
   released: 2022-07-17
   updated: 2026-09-23
   version: 1.7.0
-  icon: com.safeheron.app.sg.webp
   meta: ok
   verdict: custodial
   developerName: Safeheron

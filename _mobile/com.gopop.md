@@ -1,6 +1,6 @@
 ---
 title: Pop
-date: 2026-05-05
+date: 2026-10-30
 website: https://www.gopop.app
 redirect_from:
 - /android/com.gopop/
@@ -10,7 +10,6 @@ android:
   released: 2022-08-01
   updated: 2023-10-05
   version: 3.0.2
-  icon: com.gopop.webp
   meta: removed
   verdict: wip
   developerName: Darwin ID E.A.S

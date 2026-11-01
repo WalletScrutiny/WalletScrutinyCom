@@ -1,6 +1,6 @@
 ---
 title: Forus Platform
-date: 2024-02-05
+date: 2026-10-30
 website: https://foruspf.com
 redirect_from:
 - /android/com.foruspf.com/
@@ -10,7 +10,6 @@ android:
   released: 2022-06-02
   updated: 2022-07-19
   version: '2.2'
-  icon: com.foruspf.com.webp
   meta: removed
   verdict: wip
   developerName: Forus Platform

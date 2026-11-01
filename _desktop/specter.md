@@ -13,11 +13,10 @@ provider: Crypto Advance GmbH
 providerWebsite: 
 website: https://specter.solutions
 repository: https://github.com/cryptoadvance/specter-desktop
-icon: specter.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2024-04-25
+date: 2026-10-30
 twitter: SpecterWallet
 social: 
 builds: 

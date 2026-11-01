@@ -1,6 +1,6 @@
 ---
 title: Börse & Aktien - finanzen.net
-date: 2022-06-23
+date: 2026-10-30
 authors:
 - danny
 website: http://www.finanzen.net/apps
@@ -19,7 +19,6 @@ android:
   updated: 2026-09-18
   version: 5.9.9
   reviews: 64
-  icon: de.finanzen.net.webp
   meta: ok
   verdict: nosendreceive
   developerName: finanzen.net GmbH
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-08-03
   version: 8.3.4
   reviews: 288
-  icon: de.smarthouse.finanzen.webp
   meta: ok
   verdict: nosendreceive
   developerName: finanzen.net GmbH

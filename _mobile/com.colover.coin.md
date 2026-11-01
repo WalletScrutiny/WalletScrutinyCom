@@ -1,11 +1,9 @@
 ---
 title: 코러버 - 전 세계 최초 하이브리드 암호화폐 거래소
-date: 2023-04-21
+date: 2026-10-30
 authors:
 - danny
-website: http://www.colover.com/
-social:
-- https://web.archive.org/web/20191004081856/http://www.colover.com/
+website: http://www.colover.com/#deadLink
 redirect_from:
 - /android/com.colover.coin/
 android:
@@ -14,7 +12,6 @@ android:
   released: 2018-09-18
   updated: 2019-03-11
   version: 1.13.0
-  icon: com.colover.coin.webp
   meta: removed
   verdict: wip
   developerName: (주)코러버

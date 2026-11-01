@@ -1,7 +1,7 @@
 ---
 title: Bot Binance Auto | Altcoin, Bi
-date: 2023-01-02
-website: https://predictioncoins.com
+date: 2026-10-30
+website: https://predictioncoins.com#deadLink
 redirect_from:
 - /android/com.panel.predictioncoins.predictioncoinsbotapp/
 android:
@@ -11,7 +11,6 @@ android:
   updated: 2019-03-16
   version: '1'
   reviews: 3
-  icon: com.panel.predictioncoins.predictioncoinsbotapp.webp
   meta: removed
   verdict: wip
 

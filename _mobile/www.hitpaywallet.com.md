@@ -1,6 +1,6 @@
 ---
 title: HitPay
-date: 2024-05-18
+date: 2026-10-30
 website: https://web.archive.org/web/20200204184428/https://www.hitpaywallet.com/
 redirect_from:
 - /android/www.hitpaywallet.com/
@@ -10,7 +10,6 @@ android:
   released: 2019-12-21
   updated: 2020-01-27
   version: '1.17'
-  icon: www.hitpaywallet.com.webp
   meta: removed
   verdict: wip
   developerName: HitPay Payment Solutions Ltd.

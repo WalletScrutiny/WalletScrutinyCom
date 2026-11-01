@@ -17,11 +17,10 @@ shop: https://www.getarculus.com/products/cold-storage-wallet/
 country: IN
 price: 99USD
 repository: 
-icon: arculus.webp
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2022-11-17
+date: 2026-10-30
 signer: 
 twitter: thisisarculus
 social:

@@ -1,6 +1,6 @@
 ---
 title: Dove Wallet
-date: 2022-05-31
+date: 2026-10-30
 authors:
 - danny
 website: https://dovewallet.com
@@ -17,7 +17,6 @@ android:
   updated: 2020-12-23
   version: 1.0.6
   reviews: 5
-  icon: com.dovewallet.app.webp
   meta: removed
   verdict: custodial
 

@@ -1,6 +1,6 @@
 ---
 title: Genbit
-date: 2023-04-19
+date: 2026-10-30
 authors:
 - danny
 website: https://web.archive.org/web/20250624214402/https://genbit.com.br/
@@ -12,7 +12,6 @@ android:
   released: 2019-11-10
   updated: 2019-11-16
   version: '1.2'
-  icon: br.com.treepart.genbit.webp
   meta: removed
   verdict: wip
   developerName: TreePart HDN

@@ -1,6 +1,6 @@
 ---
 title: RightBTC
-date: 2023-08-16
+date: 2026-10-30
 website: https://www.rightbtc.com#deadLink
 redirect_from:
 - /android/rightbtc.app/
@@ -10,7 +10,6 @@ android:
   released: 2020-04-02
   updated: 2020-08-07
   version: 2.1.0
-  icon: rightbtc.app.webp
   meta: removed
   verdict: wip
   developerName: ViewFin

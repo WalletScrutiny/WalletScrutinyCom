@@ -1,6 +1,6 @@
 ---
 title: Five Star Exchange
-date: 2024-05-18
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,12 +11,13 @@ android:
   released: 2020-08-26
   updated: 2020-08-27
   version: '1.0'
-  icon: skill.techespo.fivestarexchange.webp
   meta: removed
   verdict: custodial
   developerName: Pingulkars Technology Solutions Private Limited
 
 ---
+
+**Update 2026-10-30:** Five Star Exchange appears to be gone. Its website now leads to an unrelated online casino ([archived April 2025](https://web.archive.org/web/20250417202505/https://fivestarexchange.in/)).
 
 ## App Description from Google Play 
 
@@ -30,6 +31,6 @@ android:
 >
 > The webpage at https://mobile.fiverstarexchange.in#deadLink could not be loaded because: net::ERR_CONNECTION_TIMED_OUT
 
-We took a look at the [archived copy of the site](https://www.fivestarexchange.in), and it said that assets are held in cold-storage 
+We took a look at the [archived copy of the site](https://web.archive.org/web/20210123075045/https://fivestarexchange.in/), and it said that assets are held in cold-storage 
 - We [tweeted](https://twitter.com/BitcoinWalletz/status/1654725978634203139) them to know the status of their app, as their twitter account still seems to be posting in 2023. 
 - For now, we'll mark this as **custodial**, unless new information comes along proving that it is in fact, defunct.

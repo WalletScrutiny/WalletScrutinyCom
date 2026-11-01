@@ -1,6 +1,6 @@
 ---
 title: 'Bittime: Buy Bitcoin & Crypto'
-date: 2025-11-13
+date: 2026-10-30
 authors:
 - danny
 website: http://www.bittime.com
@@ -15,7 +15,6 @@ android:
   released: 2022-09-23
   updated: 2026-10-04
   version: 2.0.24
-  icon: com.bittime.currency.exchange.webp
   meta: ok
   verdict: custodial
   developerName: Bittime Exchanges
@@ -27,7 +26,6 @@ iphone:
   updated: 2026-10-06
   version: 2.0.24
   reviews: 446
-  icon: com.bittime.currency.exchange.webp
   meta: ok
   verdict: custodial
   developerName: PT. UTAMA ASET DIGITAL INDONESIA

@@ -1,10 +1,9 @@
 ---
 title: Pulsar Platform LTD
-date: 2023-06-02
+date: 2026-10-30
 authors:
 - danny
-social:
-- https://pulsarbank.com#deadLink
+website: https://pulsarbank.com#deadLink
 redirect_from:
 - /android/com.pulsarbank/
 android:
@@ -13,7 +12,6 @@ android:
   released: 2021-04-28
   updated: 2021-04-28
   version: 1.0.2
-  icon: com.pulsarbank.webp
   meta: removed
   verdict: wip
   developerName: Pulsar Platform LTD

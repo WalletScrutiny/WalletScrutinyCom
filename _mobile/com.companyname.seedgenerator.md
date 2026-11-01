@@ -1,6 +1,6 @@
 ---
 title: Seed Generator
-date: 2024-08-31
+date: 2026-10-30
 redirect_from:
 - /android/com.companyname.seedgenerator/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-12-11
   updated: 2022-12-12
   version: 1.0.0
-  icon: com.companyname.seedgenerator.webp
   meta: removed
   verdict: wip
   developerName: by Wabi Sabik

@@ -1,6 +1,6 @@
 ---
 title: CB Global
-date: 2023-01-02
+date: 2026-10-30
 website: https://www.coinbene.com#deadLink
 redirect_from:
 - /android/com.mingyue.liuli/
@@ -10,7 +10,6 @@ android:
   released: 2021-06-04
   updated: 2021-08-20
   version: 4.2.2
-  icon: com.mingyue.liuli.webp
   meta: removed
   verdict: wip
 

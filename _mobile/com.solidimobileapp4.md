@@ -1,6 +1,6 @@
 ---
 title: Solidi- Buy BTC, ETH instantly
-date: 2023-12-19
+date: 2026-10-30
 website: https://solidi.co
 redirect_from:
 - /android/com.solidimobileapp4/
@@ -10,7 +10,6 @@ android:
   released: 2023-01-26
   updated: 2023-01-26
   version: '1.0'
-  icon: com.solidimobileapp4.webp
   meta: removed
   verdict: wip
   developerName: Solidi Crypto Exchange

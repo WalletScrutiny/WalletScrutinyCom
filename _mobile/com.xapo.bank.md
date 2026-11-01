@@ -1,6 +1,6 @@
 ---
 title: 'Xapo Bank: Save in BTC & USD'
-date: 2021-08-06
+date: 2026-10-30
 authors:
 - danny
 website: https://www.xapobank.com/
@@ -24,7 +24,6 @@ android:
   updated: 2026-10-07
   version: 11.33.0
   reviews: 43
-  icon: com.xapo.bank.webp
   meta: ok
   verdict: custodial
   developerName: Xapo
@@ -36,7 +35,6 @@ iphone:
   updated: 2026-10-08
   version: 11.33.0
   reviews: 4
-  icon: com.xapo.bank.webp
   meta: ok
   verdict: custodial
   developerName: Xapo Holdings Limited

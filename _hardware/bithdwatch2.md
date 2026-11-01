@@ -6,7 +6,7 @@ authors:
 - danny
 - leo
 released: 2019-01-18
-discontinued: 
+discontinued: 2023-02-11
 updated: 2022-12-07
 version: v4.2.0
 binaries: https://github.com/bithd/bithd-mcu/releases/
@@ -22,11 +22,10 @@ shop: https://bithd.com/BITHD-watch-2.html#deadLink
 country: CN
 price: 
 repository: https://github.com/bithd/bithd-mcu
-icon: bithdwatch2.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: sourceavailable
-date: 2024-08-06
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -34,6 +33,10 @@ builds:
 features: 
 
 ---
+
+## Update 2026-10-30
+
+The watch is discontinued rather than defunct. BITHD [stopped selling](https://bitpie.zendesk.com/hc/en-001/articles/10034317527567-Announcement-Regarding-the-Adjustment-of-BITHD-Hardware-Wallet-Sales) all its hardware wallets on February 11, 2023, but a watch you already own still works: its companion wallet {% include walletLink.html wallet='iphone/com.bitpie.wallet' verdict='true' %} is still maintained.
 
 ## Update 2024-08-20
 

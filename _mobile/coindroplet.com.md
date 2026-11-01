@@ -1,7 +1,7 @@
 ---
 title: 'Coin Droplet: BTC & ETH Wallet'
-date: 2024-11-25
-website: https://www.coindroplet.com
+date: 2026-10-30
+website: https://www.coindroplet.com#deadLink
 redirect_from:
 - /android/coindroplet.com/
 android:
@@ -11,7 +11,6 @@ android:
   released: 2022-09-29
   updated: 2022-12-05
   version: '1.6'
-  icon: coindroplet.com.webp
   meta: obsolete
   verdict: wip
   developerName: Value Sports Network, llc

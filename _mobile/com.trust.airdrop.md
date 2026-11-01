@@ -1,6 +1,6 @@
 ---
 title: Trust Airdrop - YFI, DOGE & LTC
-date: 2021-09-16
+date: 2026-10-30
 redirect_from:
 - /android/com.trust.airdrop/
 android:
@@ -10,7 +10,6 @@ android:
   updated: 2021-07-22
   version: '2.0'
   reviews: 2
-  icon: com.trust.airdrop.webp
   meta: removed
   verdict: wip
 

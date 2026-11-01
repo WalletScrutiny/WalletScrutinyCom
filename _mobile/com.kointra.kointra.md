@@ -1,6 +1,6 @@
 ---
 title: Kointra - Crypto Exchange
-date: 2023-10-06
+date: 2026-10-30
 authors:
 - danny
 website: http://www.kointra.com
@@ -17,7 +17,6 @@ android:
   released: 2019-01-25
   updated: 2026-04-09
   version: 3.5.8
-  icon: com.kointra.kointra.webp
   meta: removed
   verdict: custodial
   developerName: Kointra Bilişim ve Teknoloji A.Ş.
@@ -29,12 +28,13 @@ iphone:
   updated: 2026-03-18
   version: 3.5.7(2)
   reviews: 32
-  icon: com.kointra.Kointra.V1.0.webp
   meta: removed
   verdict: custodial
   developerName: Kointra A.S
 
 ---
+
+**Update 2026-10-30:** Kointra renamed itself Tera Kripto, and kointra.com now forwards to terakripto.com ([fintech.tr](https://fintech.tr/sirketler/tera-kripto)). On 28 October 2026 Turkey's Capital Markets Board moved Tera Kripto from its list of active crypto platforms to its list of firms in liquidation, which will not continue as crypto service providers ([FintekWins](https://www.fintekwins.com/destek-kripto-ve-tera-kripto-tasfiye-listesine-gecti/)). Both apps are gone from the stores.
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: Tips Binance Bitcoin Market
-date: 2023-09-15
+date: 2026-10-30
 authors:
 - danny
 website: https://markouscraff.blogspot.com/
@@ -12,7 +12,6 @@ android:
   released: 2021-11-10
   updated: 2022-09-09
   version: 1.0.1
-  icon: nuyandsellitcoin.marketplayceguidebinnace.webp
   meta: removed
   verdict: fake
   developerName: Lil99Campbell

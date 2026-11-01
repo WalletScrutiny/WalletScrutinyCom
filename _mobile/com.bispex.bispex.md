@@ -1,9 +1,9 @@
 ---
 title: BISPEX(비스펙스)
-date: 2024-09-25
+date: 2026-10-30
 authors:
 - danny
-website: https://www.bispex.com/
+website: https://web.archive.org/web/20230923071133/https://www.bispex.com
 redirect_from:
 - /android/com.bispex.bispex/
 android:
@@ -12,12 +12,13 @@ android:
   released: 2019-12-04
   updated: 2020-04-14
   version: 1.1.1
-  icon: com.bispex.bispex.webp
   meta: removed
   verdict: custodial
   developerName: bispex
 
 ---
+
+**Update 2026-10-30:** Bispex appears to be gone. Its website has not loaded since mid-2024 ([last archived version, September 2023](https://web.archive.org/web/20230923071133/https://www.bispex.com)).
 
 ## App Description from Google Play 
 

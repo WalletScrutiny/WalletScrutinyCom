@@ -1,6 +1,6 @@
 ---
 title: Futur
-date: 2025-05-30
+date: 2026-10-30
 redirect_from:
 - /android/com.futur/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-06-09
   updated: 2022-06-09
   version: '1.0'
-  icon: com.futur.webp
   meta: removed
   verdict: wip
   developerName: Appcinking

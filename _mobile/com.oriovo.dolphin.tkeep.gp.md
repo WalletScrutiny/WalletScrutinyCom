@@ -1,6 +1,6 @@
 ---
 title: Tkeep
-date: 2023-08-16
+date: 2026-10-30
 website: https://tkeep.io#deadLink
 redirect_from:
 - /android/com.oriovo.dolphin.tkeep.gp/
@@ -10,7 +10,6 @@ android:
   released: 2021-05-17
   updated: 2021-09-08
   version: 1.2.3
-  icon: com.oriovo.dolphin.tkeep.gp.webp
   meta: removed
   verdict: wip
   developerName: BQEX Inc.

@@ -1,6 +1,6 @@
 ---
 title: bunq
-date: 2025-08-28
+date: 2026-10-30
 authors:
 - danny
 website: http://www.bunq.com
@@ -21,7 +21,6 @@ android:
   updated: 2026-10-13
   version: 32.2.2
   reviews: 238
-  icon: com.bunq.android.webp
   meta: ok
   verdict: nosendreceive
   developerName: bunq
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-10-08
   version: 32.2.0
   reviews: 15396
-  icon: com.bunq.ios.webp
   meta: ok
   verdict: nosendreceive
   developerName: bunq

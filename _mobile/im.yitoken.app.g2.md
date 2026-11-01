@@ -1,6 +1,6 @@
 ---
 title: yiToken Wallet - BTC, ETH, DOT
-date: 2024-09-18
+date: 2026-10-30
 website: https://yitoken.im#deadLink
 redirect_from:
 - /android/im.yitoken.app.g2/
@@ -10,7 +10,6 @@ android:
   released: 2021-06-15
   updated: 2023-08-24
   version: 1.3.5
-  icon: im.yitoken.app.g2.webp
   meta: removed
   verdict: wip
   developerName: YiToken Labs

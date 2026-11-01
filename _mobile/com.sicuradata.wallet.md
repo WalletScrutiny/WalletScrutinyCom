@@ -1,6 +1,6 @@
 ---
 title: SicuraPay
-date: 2023-05-03
+date: 2026-10-30
 authors:
 - danny
 website: https://sicuradata.com#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2020-09-15
   updated: 2020-11-07
   version: 0.31.0
-  icon: com.sicuradata.wallet.webp
   meta: removed
   verdict: wip
   developerName: SICURADATA, INC

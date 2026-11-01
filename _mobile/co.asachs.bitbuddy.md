@@ -1,9 +1,9 @@
 ---
 title: BitBuddy –Buy & Sell Bitcoin
-date: 2023-05-10
+date: 2026-10-30
 authors:
 - danny
-website: https://bitbuddy.app
+website: https://bitbuddy.app#deadLink
 redirect_from:
 - /android/co.asachs.bitbuddy/
 android:
@@ -12,7 +12,6 @@ android:
   released: 2019-09-19
   updated: 2020-09-28
   version: 2.0.1
-  icon: co.asachs.bitbuddy.webp
   meta: removed
   verdict: wip
   developerName: BitBuddy

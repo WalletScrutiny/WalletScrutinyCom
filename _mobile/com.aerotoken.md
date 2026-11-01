@@ -1,7 +1,7 @@
 ---
 title: Aerotoken
-date: 2023-01-02
-website: https://aerotoken.org/
+date: 2026-10-30
+website: https://aerotoken.org/#deadLink
 redirect_from:
 - /android/com.aerotoken/
 android:
@@ -9,7 +9,6 @@ android:
   users: 100
   updated: 2020-05-26
   version: VARY
-  icon: com.aerotoken.webp
   meta: removed
   verdict: wip
 

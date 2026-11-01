@@ -1,6 +1,6 @@
 ---
 title: Moolre
-date: 2024-07-30
+date: 2026-10-30
 authors:
 - danny
 website: https://moolre.com
@@ -18,7 +18,6 @@ android:
   updated: 2024-01-26
   version: 3.5.21
   reviews: 14
-  icon: com.moolre.moolreandroid.webp
   meta: removed
   verdict: custodial
   developerName: Moolre Inc
@@ -30,12 +29,13 @@ iphone:
   updated: 2024-06-21
   version: 3.5.0
   reviews: 26
-  icon: com.moolre.moolreios.webp
   meta: removed
   verdict: custodial
   developerName: Moolre Inc
 
 ---
+
+**Update 2026-10-30:** Moolre has dropped its consumer wallet. Its [website](https://moolre.com) now sells a payments platform for businesses (collections, payouts, USSD, bulk SMS) and no longer mentions bitcoin or crypto, while in [August 2024](https://web.archive.org/web/20240822024633/https://moolre.com/) it still advertised the personal e-wallet. Both apps are gone from the stores.
 
 ## Android
 

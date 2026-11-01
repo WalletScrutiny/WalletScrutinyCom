@@ -1,7 +1,7 @@
 ---
 title: BitBlaze
-date: 2024-05-18
-website: http://bitblaze.co
+date: 2026-10-30
+website: http://bitblaze.co#deadLink
 redirect_from:
 - /android/com.cloud.bitblaze/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2022-10-28
   updated: 2023-02-23
   version: 1.0.6
-  icon: com.cloud.bitblaze.webp
   meta: removed
   verdict: wip
   developerName: BitBlaze App

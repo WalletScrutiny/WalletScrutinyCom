@@ -1,6 +1,6 @@
 ---
 title: B4U Global Official
-date: 2023-05-03
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2021-01-04
   updated: 2021-01-22
   version: 1.0.3
-  icon: com.OnlineBusness.b4uglobal.webp
   meta: removed
   verdict: wip
   developerName: Intelli Logics

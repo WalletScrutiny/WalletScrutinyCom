@@ -1,9 +1,9 @@
 ---
 title: 스포와이드
-date: 2023-05-03
+date: 2026-10-30
 authors:
 - danny
-website: http://spowide.com
+website: http://spowide.com#deadLink
 redirect_from:
 - /android/com.spowide.www/
 android:
@@ -12,7 +12,6 @@ android:
   released: 2019-10-17
   updated: 2020-01-30
   version: 1.0.4
-  icon: com.spowide.www.webp
   meta: removed
   verdict: wip
   developerName: spowide

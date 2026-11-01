@@ -1,6 +1,6 @@
 ---
 title: Photon-Wallet
-date: 2024-02-05
+date: 2026-10-30
 redirect_from:
 - /android/com.photonwallet/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2018-06-22
   updated: 2018-06-22
   version: '1.0'
-  icon: com.photonwallet.webp
   meta: removed
   verdict: wip
   developerName: Transpire IT service PVT LTD

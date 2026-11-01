@@ -1,6 +1,6 @@
 ---
 title: Smart Bitcoin Investment
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/com.cryptoearningapps.smart.bitcoin.investment/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-29
   updated: 2021-06-29
   version: '1.0'
-  icon: com.cryptoearningapps.smart.bitcoin.investment.webp
   meta: removed
   verdict: wip
 

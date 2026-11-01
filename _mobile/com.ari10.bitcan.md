@@ -1,6 +1,6 @@
 ---
 title: Ari10 Crypto Exchange
-date: 2023-09-07
+date: 2026-10-30
 authors:
 - danny
 website: https://ari10.com
@@ -22,7 +22,6 @@ android:
   released: 2022-06-14
   updated: 2026-02-11
   version: 2.10.3
-  icon: com.ari10.bitcan.webp
   meta: removed
   verdict: custodial
   developerName: ARI10
@@ -34,12 +33,13 @@ iphone:
   updated: 2026-01-29
   version: 2.10.2
   reviews: 165
-  icon: com.ari10.bitcan.webp
   meta: removed
   verdict: custodial
   developerName: BITCAN sp. z o.o.
 
 ---
+
+**⚠️ Warning:** ARI10 stopped its services on July 1, 2026, [according to its website](https://ari10.com/en). The team now runs [RGLTD](https://rgltd.com/), which sells crypto services to businesses rather than to consumers ([announcement](https://ari10.com/en/blog/meet-rgltd---the-next-chapter-for-digital-assets)).
 
 ## Android
 

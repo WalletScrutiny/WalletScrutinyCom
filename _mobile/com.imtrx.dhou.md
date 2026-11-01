@@ -1,6 +1,6 @@
 ---
 title: marmetal
-date: 2023-06-21
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2022-04-11
   updated: 2022-09-13
   version: '1.2'
-  icon: com.imtrx.dhou.webp
   meta: removed
   verdict: wip
   developerName: g83ohv

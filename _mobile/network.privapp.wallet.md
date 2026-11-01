@@ -1,6 +1,6 @@
 ---
 title: My Wallpaper
-date: 2026-03-23
+date: 2026-10-30
 authors:
 - danny
 website: https://privapp.network/
@@ -22,7 +22,6 @@ android:
   updated: 2025-03-24
   version: '2.0'
   reviews: 20
-  icon: network.privapp.wallet.webp
   meta: stale
   verdict: nosource
   developerName: Privapp Network

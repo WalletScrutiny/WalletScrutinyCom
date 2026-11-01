@@ -1,6 +1,6 @@
 ---
 title: BTCintraTrade
-date: 2024-04-19
+date: 2026-10-30
 website: https://btcintratrade.com/
 redirect_from:
 - /android/com.btcintra.app/
@@ -10,7 +10,6 @@ android:
   released: 2021-11-03
   updated: 2021-12-15
   version: '1.0'
-  icon: com.btcintra.app.webp
   meta: removed
   verdict: wip
   developerName: Pyra Square Capital

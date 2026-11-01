@@ -1,6 +1,6 @@
 ---
 title: Keplr - Crypto Wallet
-date: 2025-07-21
+date: 2026-10-30
 authors:
 - danny
 website: https://keplr.app
@@ -16,11 +16,10 @@ android:
   updated: 2026-09-21
   version: 2.1.221
   reviews: 208
-  icon: com.chainapsis.keplr.webp
   meta: ok
   verdict: nosource
   developerName: Team Keplr
-  repository: https://github.com/chainapsis/keplr-wallet
+  repository: https://github.com/chainapsis/keplr-wallet#deadLink
 iphone:
   appId: com.chainapsis.keplrwallet
   idd: '1567851089'
@@ -29,13 +28,14 @@ iphone:
   updated: 2026-09-21
   version: 2.1.221
   reviews: 273
-  icon: com.chainapsis.keplrwallet.webp
   meta: ok
   verdict: nosource
   developerName: Space Explorers Inc.
-  repository: https://github.com/chainapsis/keplr-wallet
+  repository: https://github.com/chainapsis/keplr-wallet#deadLink
 
 ---
+
+**Update 2026-10-30:** Keplr's [GitHub repository](https://web.archive.org/web/20260526061245/https://github.com/chainapsis/keplr-wallet), which held the browser extension, is gone. It was still online in May 2026. It never held the code of the mobile apps.
 
 ## Android
 
@@ -49,9 +49,9 @@ Keplr is a self-custodial, multichain crypto wallet for Android designed to supp
 
 ## Analysis
 
-After a comprehensive review of the official Keplr Wallet repository, we found no source code or build instructions for the Android app. The repository focuses on the browser extension and related JavaScript/TypeScript packages. Searches for Android, mobile, React Native, or Gradle files yielded no results, and attempts to initialize git submodules failed due to inaccessible private repositories. As a result, the Keplr Android app is **not source available** at the time of testing. For further details and to track any updates, see our public inquiry: [GitHub Issue #1554](https://github.com/chainapsis/keplr-wallet/issues/1554).
+After a comprehensive review of the official Keplr Wallet repository, we found no source code or build instructions for the Android app. The repository focuses on the browser extension and related JavaScript/TypeScript packages. Searches for Android, mobile, React Native, or Gradle files yielded no results, and attempts to initialize git submodules failed due to inaccessible private repositories. As a result, the Keplr Android app is **not source available** at the time of testing. For further details and to track any updates, see our public inquiry: [GitHub Issue #1554](https://web.archive.org/web/20250721030717/https://github.com/chainapsis/keplr-wallet/issues/1554).
 
-An issue has been opened at [https://github.com/chainapsis/keplr-wallet/issues/1554](https://github.com/chainapsis/keplr-wallet/issues/1554)
+An issue has been opened at [https://github.com/chainapsis/keplr-wallet/issues/1554](https://web.archive.org/web/20250721030717/https://github.com/chainapsis/keplr-wallet/issues/1554)
 
 ---
 

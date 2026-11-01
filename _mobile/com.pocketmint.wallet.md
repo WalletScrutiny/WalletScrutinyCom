@@ -1,6 +1,6 @@
 ---
 title: PocketMint Wallet
-date: 2026-05-20
+date: 2026-10-30
 authors:
 - danny
 website: http://pocketmint.ai
@@ -15,7 +15,6 @@ android:
   updated: 2026-09-11
   version: 2.0.0
   reviews: 8
-  icon: com.pocketmint.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Pocketmint Solutions LLC
@@ -27,7 +26,6 @@ iphone:
   updated: 2026-09-13
   version: 2.0.0
   reviews: 5
-  icon: ai.pocketmint.webp
   meta: ok
   verdict: custodial
   developerName: Pocketmint Solutions

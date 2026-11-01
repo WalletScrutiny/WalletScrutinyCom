@@ -1,6 +1,6 @@
 ---
 title: BitSwap
-date: 2024-04-19
+date: 2026-10-30
 website: https://bitswapltd.com#deadLink
 redirect_from:
 - /android/com.bitswapltd.android/
@@ -10,7 +10,6 @@ android:
   released: 2022-05-18
   updated: 2022-05-18
   version: '1.0'
-  icon: com.bitswapltd.android.webp
   meta: removed
   verdict: wip
   developerName: Maksatov Daniyar

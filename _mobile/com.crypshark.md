@@ -1,9 +1,9 @@
 ---
 title: Crypshark Fincity Wallet - Buy
-date: 2023-08-04
+date: 2026-10-30
 authors:
 - danny
-website: https://crypshark.com/
+website: https://crypshark.com/#deadLink
 redirect_from:
 - /android/com.crypshark/
 android:
@@ -12,12 +12,13 @@ android:
   released: 2021-05-20
   updated: 2022-07-19
   version: 1.0.0.39-cryptoshark
-  icon: com.crypshark.webp
   meta: removed
   verdict: custodial
   developerName: FINCITY
 
 ---
+
+**Update 2026-10-30:** The Crypshark website is gone and the domain is now for sale. The last archived copy of the exchange site is from [November 2024](https://web.archive.org/web/20241108211537/https://crypshark.com/).
 
 ## App Description from Google Play
 

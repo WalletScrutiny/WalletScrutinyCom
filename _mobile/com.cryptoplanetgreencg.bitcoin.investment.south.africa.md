@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Investment South Africa
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/com.cryptoplanetgreencg.bitcoin.investment.south.africa/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-07-28
   updated: 2021-07-28
   version: '1.0'
-  icon: com.cryptoplanetgreencg.bitcoin.investment.south.africa.webp
   meta: removed
   verdict: wip
 

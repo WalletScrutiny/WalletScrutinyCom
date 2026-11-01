@@ -17,11 +17,10 @@ shop:
 country: CH
 price: 
 repository: 
-icon: bitfold.webp
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2025-10-03
+date: 2026-10-30
 signer: 
 twitter: Bitfold
 social:

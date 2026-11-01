@@ -1,6 +1,6 @@
 ---
 title: Bizonbit
-date: 2024-02-05
+date: 2026-10-30
 website: https://www.bizonbit.com#deadLink
 redirect_from:
 - /android/com.bizonbit/
@@ -10,7 +10,6 @@ android:
   released: 2020-02-09
   updated: 2020-03-28
   version: 1.0.3
-  icon: com.bizonbit.webp
   meta: removed
   verdict: wip
   developerName: ‌BizOnBit

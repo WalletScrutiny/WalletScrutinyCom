@@ -1,6 +1,6 @@
 ---
 title: Krptic Wallet
-date: 2023-08-04
+date: 2026-10-30
 website: https://www.krptic.com
 redirect_from:
 - /android/com.krptic/
@@ -10,7 +10,6 @@ android:
   released: 2021-08-13
   updated: 2025-08-31
   version: 4.2.2
-  icon: com.krptic.webp
   meta: defunct
   verdict: wip
   developerName: Finnovant

@@ -4,8 +4,7 @@ appId: cc.swiftcash.web
 subtype: web
 authors:
 - danny
-icon: cc.swiftcash.web.webp
-date: 2024-05-10
+date: 2026-10-30
 website: https://wallet.swiftcash.cc
 twitter: swiftcashcc
 meta: ok

@@ -1,9 +1,9 @@
 ---
 title: 'Bybit TR: Bitcoin ve Kripto'
-date: 2024-04-03
+date: 2026-10-30
 authors:
 - danny
-website: https://narkasa.com
+website: https://www.bybit.tr
 twitter: narkasacom
 social:
 - https://www.facebook.com/narkasacom
@@ -19,7 +19,6 @@ android:
   released: 2020-10-30
   updated: 2026-09-05
   version: 5.21.0
-  icon: org.narkasa.webp
   meta: ok
   verdict: custodial
   developerName: Bybit TR
@@ -31,12 +30,13 @@ iphone:
   updated: 2021-04-11
   version: '1.27'
   reviews: 0
-  icon: org.narkasa.webp
   meta: removed
   verdict: custodial
   developerName: Narkasa Yazılım ve Ticaret A.Ş.
 
 ---
+
+**Update 2026-10-30:** In June 2024 Bybit [rebranded Narkasa as Bybit Türkiye](https://invezz.com/news/2024/06/28/bybit-rebrands-narkasa-as-bybit-turkiye-unveiling-upgraded-platform-for-turkish-crypto-market/), run by the same Turkish company. The app is now called Bybit TR and is maintained again, so the note below that it cannot be installed is outdated. The old narkasa.com site no longer loads; the exchange now lives at [bybit.tr](https://www.bybit.tr). It is still {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: 'One80: Crypto DeFi Wallet'
-date: 2025-11-10
+date: 2026-10-30
 website: https://one80wallet.io/
 redirect_from:
 - /android/com.one80wallet/
@@ -11,7 +11,6 @@ android:
   released: 2025-06-20
   updated: 2026-07-23
   version: 1.0.13
-  icon: com.one80wallet.webp
   meta: fewusers
   verdict: wip
   developerName: One80

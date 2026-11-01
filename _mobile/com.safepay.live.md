@@ -1,6 +1,6 @@
 ---
 title: Safepay - Buy Sell Crypto
-date: 2024-12-23
+date: 2026-10-30
 authors:
 - danny
 website: https://safepay.live#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2021-11-12
   updated: 2022-03-30
   version: 3.0.0
-  icon: com.safepay.live.webp
   meta: removed
   verdict: wip
   developerName: safepay

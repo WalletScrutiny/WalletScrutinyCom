@@ -1,6 +1,6 @@
 ---
 title: LAQIRA Exchange
-date: 2025-02-26
+date: 2026-10-30
 authors:
 - danny
 website: https://laqira.com/
@@ -18,7 +18,6 @@ android:
   released: 2023-02-09
   updated: 2023-03-03
   version: 3.2.2
-  icon: com.laqira.exchange.webp
   meta: obsolete
   verdict: wip
   developerName: Laqira Protocol

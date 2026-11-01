@@ -1,6 +1,6 @@
 ---
 title: Money Plant
-date: 2024-03-02
+date: 2026-10-30
 redirect_from:
 - /android/com.web.moneyplant/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-04-26
   updated: 2022-06-14
   version: '1.2'
-  icon: com.web.moneyplant.webp
   meta: removed
   verdict: wip
   developerName: Anirudh1

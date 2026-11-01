@@ -1,6 +1,6 @@
 ---
 title: DsdaqGlobal
-date: 2023-08-25
+date: 2026-10-30
 authors:
 - danny
 website: https://dsdaq.com#deadLink
@@ -14,7 +14,6 @@ android:
   released: 2021-10-26
   updated: 2022-07-18
   version: 5.4.1_push_v2
-  icon: com.chainup.exchange.DsdaqGlobal.webp
   meta: removed
   verdict: custodial
   developerName: Dsdaq Market Ltd.
@@ -26,7 +25,6 @@ iphone:
   updated: 2022-01-14
   version: 5.3.2
   reviews: 0
-  icon: com.new.dsdaq.global.webp
   meta: removed
   verdict: custodial
   developerName: Dsdaq Market Ltd.

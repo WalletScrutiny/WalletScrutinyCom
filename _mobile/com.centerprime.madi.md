@@ -1,6 +1,6 @@
 ---
 title: MADI
-date: 2024-04-19
+date: 2026-10-30
 website: https://centerprime.tech#deadLink
 redirect_from:
 - /android/com.centerprime.madi/
@@ -10,7 +10,6 @@ android:
   released: 2021-05-17
   updated: 2021-06-02
   version: 1.0.2
-  icon: com.centerprime.madi.webp
   meta: removed
   verdict: wip
   developerName: CenterPrime Ltd

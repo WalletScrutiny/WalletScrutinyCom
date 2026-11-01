@@ -1,6 +1,6 @@
 ---
 title: Legatow
-date: 2023-06-03
+date: 2026-10-30
 authors:
 - danny
 website: https://www.legatow.com#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2018-07-04
   updated: 2019-01-30
   version: 1.0.3
-  icon: com.tempow.legatow.webp
   meta: removed
   verdict: wip
   developerName: Tempow Project

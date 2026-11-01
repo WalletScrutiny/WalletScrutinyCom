@@ -1,6 +1,6 @@
 ---
 title: Crypto.com Wallet Bitcoin & Ethereum
-date: 2021-11-10
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -12,7 +12,6 @@ android:
   released: 2021-09-10
   updated: 2021-09-10
   version: '1'
-  icon: com.frefcrypto.wallet6.webp
   meta: removed
   verdict: fake
 

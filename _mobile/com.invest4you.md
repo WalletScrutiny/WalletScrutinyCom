@@ -1,7 +1,7 @@
 ---
 title: SimplyKeeper
-date: 2024-04-26
-website: https://webdevelopers.store/
+date: 2026-10-30
+website: https://web.archive.org/web/20220528231418/https://webdevelopers.store/
 redirect_from:
 - /android/com.invest4you/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-06-16
   updated: 2021-06-16
   version: '1.0'
-  icon: com.invest4you.webp
   meta: removed
   verdict: wip
   developerName: SimplyLab Inc.

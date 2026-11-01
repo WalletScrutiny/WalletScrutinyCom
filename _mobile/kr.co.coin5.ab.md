@@ -1,6 +1,6 @@
 ---
 title: BISPEX마진거래-소액투자 비트코인 렌트 모의투자 재
-date: 2024-04-03
+date: 2026-10-30
 redirect_from:
 - /android/kr.co.coin5.ab/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-06-09
   updated: 2020-06-09
   version: '1.0'
-  icon: kr.co.coin5.ab.webp
   meta: removed
   verdict: wip
   developerName: BISPEX

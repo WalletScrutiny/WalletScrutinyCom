@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Jungle
-date: 2023-10-20
+date: 2026-10-30
 authors:
 - danny
 website: https://bitcoinjungle.app
@@ -23,7 +23,6 @@ android:
   updated: 2026-05-24
   version: 1.4.8
   reviews: 2
-  icon: app.bitcoinjungle.mobile.webp
   alternativeStores:
   - zapstore
   meta: ok
@@ -38,7 +37,6 @@ iphone:
   updated: 2026-05-28
   version: 1.4.8
   reviews: 18
-  icon: app.bitcoinjungle.ios.webp
   meta: ok
   verdict: custodial
   developerName: Bitcoin Jungle LLC

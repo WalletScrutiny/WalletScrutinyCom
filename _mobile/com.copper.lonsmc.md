@@ -1,6 +1,6 @@
 ---
 title: Copper INT
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/com.copper.lonsmc/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-12-29
   updated: 2022-12-29
   version: '1.1'
-  icon: com.copper.lonsmc.webp
   meta: removed
   verdict: wip
   developerName: Stephanie Bronte

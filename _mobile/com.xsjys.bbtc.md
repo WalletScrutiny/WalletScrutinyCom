@@ -1,6 +1,6 @@
 ---
 title: CDEX - Crypto & Forex & CFDs
-date: 2024-07-19
+date: 2026-10-30
 authors:
 - danny
 website: https://www.cd-ex.com/index#deadLink
@@ -15,7 +15,6 @@ android:
   released: 2022-03-01
   updated: 2023-11-07
   version: 1.5.6
-  icon: com.xsjys.bbtc.webp
   meta: removed
   verdict: nosendreceive
   developerName: CDEX

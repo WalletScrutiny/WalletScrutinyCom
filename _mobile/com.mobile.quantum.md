@@ -1,6 +1,6 @@
 ---
 title: Quan2um
-date: 2023-05-30
+date: 2026-10-30
 authors:
 - danny
 website: https://quan2um.com
@@ -14,7 +14,6 @@ android:
   updated: 2025-10-02
   version: 1.0.8
   reviews: 1
-  icon: com.mobile.quantum.webp
   meta: removed
   verdict: custodial
   developerName: Quan2um

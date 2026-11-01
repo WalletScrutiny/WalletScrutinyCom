@@ -1,7 +1,7 @@
 ---
 title: 바이맥스(BIMAX) - 세계 최초 정액제 암호화폐 거
-date: 2023-11-02
-website: https://www.bimax.io/
+date: 2026-10-30
+website: https://www.bimax.io/#deadLink
 redirect_from:
 - /android/kr.co.binaries.bimaxbeta/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2018-10-01
   updated: 2018-10-02
   version: 1.0.6
-  icon: kr.co.binaries.bimaxbeta.webp
   meta: removed
   verdict: wip
   developerName: Binaries

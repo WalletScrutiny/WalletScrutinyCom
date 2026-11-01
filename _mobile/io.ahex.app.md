@@ -1,6 +1,6 @@
 ---
 title: AHEX
-date: 2023-09-15
+date: 2026-10-30
 redirect_from:
 - /android/io.ahex.app/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-06-23
   updated: 2022-06-23
   version: 1.0.3
-  icon: io.ahex.app.webp
   meta: removed
   verdict: wip
   developerName: Alen Jiang

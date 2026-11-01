@@ -1,6 +1,6 @@
 ---
 title: 'Wota: Amplify Your Crypto'
-date: 2026-05-05
+date: 2026-10-30
 authors:
 - danny
 website: https://enterwota.com
@@ -18,7 +18,6 @@ android:
   released: 2021-01-11
   updated: 2025-08-31
   version: 1.5.0
-  icon: com.wota.app.webp
   meta: stale
   verdict: custodial
   developerName: WOTA LTD
@@ -30,12 +29,13 @@ iphone:
   updated: 2023-05-01
   version: 1.3.1
   reviews: 0
-  icon: com.enterwota.app.webp
   meta: obsolete
   verdict: custodial
   developerName: WOTA LTD
 
 ---
+
+**Update 2026-10-30:** The [WOTA website](https://enterwota.com) now shows only a maintenance notice ("We're upgrading WOTA") and no longer describes the investment service.
 
 ## Android
 

@@ -1,9 +1,9 @@
 ---
 title: JetFinex
-date: 2023-05-13
+date: 2026-10-30
 authors:
 - danny
-website: https://jetfinex.com/
+website: https://jetfinex.com/#deadLink
 redirect_from:
 - /android/com.btcckorea/
 android:
@@ -12,7 +12,6 @@ android:
   released: 2019-01-22
   updated: 2019-07-01
   version: 1.0.19
-  icon: com.btcckorea.webp
   meta: removed
   verdict: wip
   developerName: BTCC KOREA

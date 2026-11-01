@@ -1,6 +1,6 @@
 ---
 title: 'FREE2EX Trade: Crypto & Stocks'
-date: 2026-01-14
+date: 2026-10-30
 website: https://www.free2ex.com
 redirect_from:
 - /android/free2ex.ticktrader.terminal/
@@ -12,7 +12,6 @@ android:
   updated: 2024-10-07
   version: 4.10.4.7877 (2024.09.20)
   reviews: 26
-  icon: free2ex.ticktrader.terminal.webp
   meta: obsolete
   verdict: wip
   developerName: FREE2EX Platform

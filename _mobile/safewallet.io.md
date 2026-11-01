@@ -1,6 +1,6 @@
 ---
 title: AmGen Wallet
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: https://amgenwallet.com#deadLink
@@ -16,7 +16,6 @@ android:
   released: 2022-03-29
   updated: 2023-10-19
   version: 1.0.15
-  icon: safewallet.io.webp
   meta: removed
   verdict: wip
   developerName: AmgenWallet

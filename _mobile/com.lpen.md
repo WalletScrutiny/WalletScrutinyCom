@@ -1,6 +1,6 @@
 ---
 title: LPEN Wallet
-date: 2024-12-23
+date: 2026-10-30
 website: https://lpenwallet.com#deadLink
 redirect_from:
 - /android/com.lpen/
@@ -10,7 +10,6 @@ android:
   released: 2022-04-01
   updated: 2022-04-15
   version: 1.0.1260
-  icon: com.lpen.webp
   meta: removed
   verdict: wip
   developerName: LPEN

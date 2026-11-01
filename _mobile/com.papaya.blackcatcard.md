@@ -1,6 +1,6 @@
 ---
 title: Blackcatcard
-date: 2021-09-03
+date: 2026-10-30
 authors:
 - danny
 website: https://blackcatcard.com
@@ -16,7 +16,6 @@ android:
   updated: 2026-03-02
   version: 1.3.14
   reviews: 2289
-  icon: com.papaya.blackcatcard.webp
   meta: ok
   verdict: custodial
   developerName: PAPAYA LTD
@@ -28,12 +27,13 @@ iphone:
   updated: 2025-11-27
   version: 1.3.7
   reviews: 33
-  icon: com.papaya.blackcatcard.webp
   meta: ok
   verdict: custodial
   developerName: Papaya Ltd
 
 ---
+
+**Update 2026-10-30:** The provider renamed itself Blackcat and [launched a rebuilt app](https://www.financexmagazine.com/post/european-fintech-blackcat-launches-multi-wallet-app-combining-euro-and-crypto-accounts-completing-r), ";blackcat", whose crypto services come from "a separately licensed European partner". That new app has its own app ID and is not listed here yet.
 
 ## Android
 
@@ -93,5 +93,7 @@ We assume that DigiNord provides the cryptocurrency services and BlackCatCard in
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** This app is gone from the App Store. The new ";blackcat" app from the same developer, Papaya Ltd, has been there since 2025-06-17.
 
 The Android analysis above applies to the iPhone app too.

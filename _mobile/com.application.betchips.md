@@ -1,6 +1,6 @@
 ---
 title: BETC Crypto Wallet App
-date: 2024-04-03
+date: 2026-10-30
 website: http://thebetc.com#deadLink
 redirect_from:
 - /android/com.application.betchips/
@@ -10,7 +10,6 @@ android:
   released: 2020-03-20
   updated: 2020-04-24
   version: '1.4'
-  icon: com.application.betchips.webp
   meta: removed
   verdict: wip
   developerName: Shri Rudra

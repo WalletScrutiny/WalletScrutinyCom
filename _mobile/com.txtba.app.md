@@ -1,10 +1,9 @@
 ---
 title: TXTBA
-date: 2023-06-07
+date: 2026-10-30
 authors:
 - danny
-social:
-- https://txtba.com
+website: https://txtba.com#deadLink
 redirect_from:
 - /android/com.txtba.app/
 android:
@@ -13,7 +12,6 @@ android:
   released: 2021-12-21
   updated: 2022-10-20
   version: 1.2.10
-  icon: com.txtba.app.webp
   meta: removed
   verdict: wip
   developerName: Txtba

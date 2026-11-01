@@ -12,22 +12,23 @@ dimensions:
 weight: 
 provider: Polymerbit Ltd.
 providerWebsite: 
-website: https://polymerbit.ch#deadLink
+website: https://www.polymerbit.com/
 shop: https://www.polymerbit.com/shop
 country: UK
 price: 20USD
 repository: 
-icon: polymerbit.webp
 bugbounty: 
 meta: ok
 verdict: prefilled
-date: 2022-03-23
+date: 2026-10-30
 signer: 
 twitter: polymerbit
 social: 
 features: 
 
 ---
+
+**Update 2026-10-30:** Polymerbit moved to [polymerbit.com](https://www.polymerbit.com/); the old polymerbit.ch website is gone.
 
 ## Product Description
 

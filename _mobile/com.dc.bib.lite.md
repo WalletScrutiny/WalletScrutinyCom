@@ -1,9 +1,9 @@
 ---
 title: BIB
-date: 2024-12-23
+date: 2026-10-30
+website: https://www.bibvip.com
 twitter: bib_exchange
 social:
-- https://www.bibvip.com
 - https://www.linkedin.com/company/bibexchangeofficial
 - https://www.facebook.com/bibexchangeofficial
 - https://www.instagram.com/bib_chinese
@@ -18,7 +18,6 @@ android:
   updated: 2024-05-15
   version: 1.2.9
   reviews: 8
-  icon: com.dc.bib.lite.webp
   meta: removed
   verdict: custodial
   developerName: ebpay.net

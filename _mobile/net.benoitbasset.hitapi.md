@@ -1,6 +1,6 @@
 ---
 title: HitAPI
-date: 2021-08-17
+date: 2026-10-30
 website: http://hitapi.oblade.net
 redirect_from:
 - /android/net.benoitbasset.hitapi/
@@ -12,7 +12,6 @@ android:
   updated: 2019-05-07
   version: 1.3.0
   reviews: 6
-  icon: net.benoitbasset.hitapi.webp
   meta: removed
   verdict: wip
   developerName: Oblade

@@ -1,6 +1,6 @@
 ---
 title: NetLink
-date: 2023-01-02
+date: 2026-10-30
 website: http://netlink.exchange#deadLink
 redirect_from:
 - /android/com.netlink.exchange/
@@ -10,7 +10,6 @@ android:
   released: 2019-08-27
   updated: 2019-08-27
   version: 1.0.0
-  icon: com.netlink.exchange.webp
   meta: removed
   verdict: wip
 

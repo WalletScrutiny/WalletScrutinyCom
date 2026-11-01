@@ -1,6 +1,6 @@
 ---
 title: Roy crypto wallet 100% secure
-date: 2023-01-02
+date: 2026-10-30
 website: https://www.roywallet.app#deadLink
 redirect_from:
 - /android/com.httpsarearn.arearn.com.roywallet/
@@ -10,7 +10,6 @@ android:
   released: 2021-10-22
   updated: 2021-10-22
   version: '1.0'
-  icon: com.httpsarearn.arearn.com.roywallet.webp
   meta: removed
   verdict: wip
 

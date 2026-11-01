@@ -1,6 +1,6 @@
 ---
 title: cWallet
-date: 2024-10-31
+date: 2026-10-30
 redirect_from:
 - /android/jha.cwallet/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-01-03
   updated: 2023-06-30
   version: 1.0.5
-  icon: jha.cwallet.webp
   meta: removed
   verdict: wip
   developerName: JimHeApps

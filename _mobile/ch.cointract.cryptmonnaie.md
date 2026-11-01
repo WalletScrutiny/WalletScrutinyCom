@@ -1,6 +1,6 @@
 ---
 title: Cryptmonnaie
-date: 2023-04-16
+date: 2026-10-30
 website: https://cointract.ch
 redirect_from:
 - /android/ch.cointract.cryptmonnaie/
@@ -10,7 +10,6 @@ android:
   released: 2021-07-05
   updated: 2022-02-14
   version: 2.0.28
-  icon: ch.cointract.cryptmonnaie.webp
   meta: removed
   verdict: wip
   developerName: Cointract AG

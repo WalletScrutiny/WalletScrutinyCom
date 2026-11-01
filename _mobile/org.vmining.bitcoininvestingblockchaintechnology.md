@@ -1,6 +1,6 @@
 ---
 title: Smart Investing Blockchain Technology
-date: 2021-10-06
+date: 2026-10-30
 redirect_from:
 - /android/org.vmining.bitcoininvestingblockchaintechnology/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-11-12
   updated: 2020-11-12
   version: '1.0'
-  icon: org.vmining.bitcoininvestingblockchaintechnology.webp
   meta: removed
   verdict: wip
 

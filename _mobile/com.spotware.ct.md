@@ -1,6 +1,6 @@
 ---
 title: 'cTrader: CFD Trading & Charts'
-date: 2023-07-01
+date: 2026-10-30
 authors:
 - danny
 website: https://ctrader.com/forum
@@ -20,7 +20,6 @@ android:
   updated: 2026-10-13
   version: 5.11.110
   reviews: 398
-  icon: com.spotware.ct.webp
   meta: ok
   verdict: nosendreceive
   developerName: Spotware
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-10-06
   version: 5.11.110
   reviews: 835
-  icon: com.spotware.ct.webp
   meta: ok
   verdict: nosendreceive
   developerName: Spotware

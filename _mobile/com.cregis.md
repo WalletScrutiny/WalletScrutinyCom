@@ -1,6 +1,6 @@
 ---
 title: Cregis:BTC, ETH Wallet & Pay
-date: 2026-07-21
+date: 2026-10-30
 authors:
 - danny
 website: https://www.cregis.com
@@ -15,7 +15,6 @@ android:
   released: 2023-04-05
   updated: 2026-09-08
   version: 3.8.0
-  icon: com.cregis.webp
   meta: ok
   verdict: custodial
   developerName: Cregis
@@ -27,7 +26,6 @@ iphone:
   updated: 2026-09-12
   version: 3.8.0
   reviews: 5
-  icon: com.cregis.webp
   meta: ok
   verdict: custodial
   developerName: Cregis Technology Limited

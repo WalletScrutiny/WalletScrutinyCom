@@ -1,6 +1,6 @@
 ---
 title: Noblecoins
-date: 2024-02-05
+date: 2026-10-30
 website: https://www.noblecoins.net#deadLink
 redirect_from:
 - /android/com.noblecoins.noble_coins/
@@ -10,7 +10,6 @@ android:
   released: 2021-12-01
   updated: 2022-08-12
   version: 2.0.0
-  icon: com.noblecoins.noble_coins.webp
   meta: removed
   verdict: wip
   developerName: Devglobals Technology

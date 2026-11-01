@@ -1,6 +1,6 @@
 ---
 title: Koinone - Licensed Cryptocurrency Exchange
-date: 2021-12-05
+date: 2026-10-30
 redirect_from:
 - /android/net.koinone.app/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2018-07-26
   updated: 2018-07-26
   version: '1.0'
-  icon: net.koinone.app.webp
   meta: removed
   verdict: wip
 

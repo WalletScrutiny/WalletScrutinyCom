@@ -1,6 +1,6 @@
 ---
 title: Bibox:Bitcoin, Crypto Exchange
-date: 2022-02-10
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bibox.com
@@ -19,7 +19,6 @@ android:
   updated: 2021-11-04
   version: 4.8.5
   reviews: 579
-  icon: com.bibox.www.bibox.webp
   meta: removed
   verdict: custodial
 

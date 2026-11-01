@@ -1,6 +1,6 @@
 ---
 title: 'Ajaib Kripto: Buy BTC & Crypto'
-date: 2024-09-06
+date: 2026-10-30
 authors:
 - danny
 website: https://kripto.ajaib.co.id/
@@ -15,7 +15,6 @@ android:
   updated: 2026-10-07
   version: 2.107.0
   reviews: 40
-  icon: coin.ajaib.co.id.webp
   meta: ok
   verdict: custodial
   developerName: Ajaib Technologies
@@ -27,7 +26,6 @@ iphone:
   updated: 2026-10-07
   version: 2.108.0
   reviews: 4510
-  icon: id.ajaib-coin.co.webp
   meta: ok
   verdict: custodial
   developerName: Ajaib Technologies Corporation

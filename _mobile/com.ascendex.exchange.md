@@ -1,6 +1,6 @@
 ---
 title: 'AscendEX: Buy & Sell Crypto'
-date: 2021-05-12
+date: 2026-10-30
 authors:
 - leo
 - kiwilamb
@@ -20,7 +20,6 @@ android:
   updated: 2026-05-26
   version: 3.7.5
   reviews: 76
-  icon: com.ascendex.exchange.webp
   meta: removed
   verdict: custodial
   developerName: AscendEX
@@ -31,12 +30,18 @@ iphone:
   updated: 2026-01-08
   version: 3.6.4
   reviews: 173
-  icon: io.bitmax.bitmax.webp
   meta: defunct
   verdict: custodial
   developerName: Beijing Bsht Network Technology Co. Ltd.
 
 ---
+
+**⚠️ Warning:** AscendEX is shut down. The exchange
+[ceased operations on 2026-07-01](https://thedefiant.io/news/cefi/ascendex-halts-operations-freezes-automated-withdrawals)
+and moved all withdrawals to manual review. Its
+[website](https://ascendexannouncement.com/) now only announces a claims portal.
+The company says it is exploring a rescue while preparing for a formal
+insolvency process, and gives no timetable for withdrawals.
 
 ## Android
 

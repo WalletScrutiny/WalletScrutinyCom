@@ -17,11 +17,10 @@ shop:
 country: 
 price: 
 repository: 
-icon: justsafe.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2023-02-24
+date: 2026-10-30
 signer: 
 twitter: Justsafe3
 social:

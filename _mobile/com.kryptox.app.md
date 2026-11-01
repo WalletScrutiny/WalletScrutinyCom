@@ -1,7 +1,7 @@
 ---
 title: 'KryptoX: Buy and Sell Crypto'
-date: 2024-04-19
-website: https://www.kryptox.com
+date: 2026-10-30
+website: https://www.kryptox.com#deadLink
 redirect_from:
 - /android/com.kryptox.app/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-04-21
   updated: 2021-05-07
   version: '1.8'
-  icon: com.kryptox.app.webp
   meta: removed
   verdict: wip
   developerName: KryptoX

@@ -1,6 +1,6 @@
 ---
 title: Timebitex - Crypto Trading
-date: 2024-02-05
+date: 2026-10-30
 redirect_from:
 - /android/com.timebit.exchange/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-02-18
   updated: 2022-01-07
   version: 1.0.5
-  icon: com.timebit.exchange.webp
   meta: removed
   verdict: wip
   developerName: Timebit pte. Ltd.

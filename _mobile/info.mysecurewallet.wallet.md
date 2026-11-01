@@ -1,6 +1,6 @@
 ---
 title: Bitcoin wallet
-date: 2022-01-15
+date: 2026-10-30
 authors:
 - leo
 - emanuel
@@ -14,11 +14,12 @@ android:
   updated: 2019-11-02
   version: '1.1'
   reviews: 42
-  icon: info.mysecurewallet.wallet.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** The provider is gone. The website mysecurewallet.info, which the app's code uses as its server, is gone.
 
 **Update 2022-01-15**: This app is not on the Store anymore.
 

@@ -1,6 +1,6 @@
 ---
 title: 'Busha: Make your money better!'
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - leo
 website: https://busha.co
@@ -20,18 +20,17 @@ android:
   updated: 2026-10-05
   version: 10.1.16
   reviews: 212
-  icon: co.busha.android.webp
   meta: ok
   verdict: custodial
   developerName: Busha, Inc.
 iphone:
   appId: co.busha.apple
   idd: '1450373493'
+  appCountry: ng
   released: 2019-02-03
   updated: 2026-05-11
   version: 10.1.9
   reviews: 2469
-  icon: co.busha.apple.webp
   meta: removed
   verdict: custodial
   developerName: Busha Digital

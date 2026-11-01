@@ -1,9 +1,9 @@
 ---
 title: SalletOne Live
-date: 2023-04-16
+date: 2026-10-30
 authors:
 - danny
-website: https://www.salletone.com
+website: https://web.archive.org/web/20230922053524/https://salletone.com/
 twitter: salletone
 social:
 - https://www.facebook.com/salletone
@@ -18,7 +18,6 @@ android:
   released: 2021-07-14
   updated: 2024-02-19
   version: 1.9.26
-  icon: com.yaolian.qoline.webp
   meta: obsolete
   verdict: wip
   developerName: V-byte
@@ -30,12 +29,13 @@ iphone:
   updated: 2023-03-13
   version: 2.0.2
   reviews: 2
-  icon: com.sallet.walletBit.webp
   meta: removed
   verdict: wip
   developerName: sallet .Inc
 
 ---
+
+**Update 2026-10-30:** The SalletOne website no longer loads ([archived copy](https://web.archive.org/web/20230922053524/https://salletone.com/)), and the hardware wallet this app works with is no longer sold.
 
 ## Android
 

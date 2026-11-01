@@ -17,11 +17,10 @@ shop:
 country: CA
 price: 
 repository: 
-icon: nymiband.webp
 bugbounty: 
 meta: defunct
 verdict: vapor
-date: 2024-10-22
+date: 2026-10-30
 signer: 
 twitter: 
 social: 

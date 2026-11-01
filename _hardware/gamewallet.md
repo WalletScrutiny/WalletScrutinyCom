@@ -20,11 +20,10 @@ shop:
 country: 
 price: 
 repository: https://github.com/UseKeyp/gamewallet
-icon: gamewallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2024-10-21
+date: 2026-10-30
 signer: 
 twitter: CupOJoseph
 social:

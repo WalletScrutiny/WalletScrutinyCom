@@ -1,6 +1,6 @@
 ---
 title: StormProfit - Passive income w
-date: 2023-05-10
+date: 2026-10-30
 website: https://stormprofit.trade#deadLink
 redirect_from:
 - /android/com.stormprofit.stormprofit/
@@ -11,7 +11,6 @@ android:
   updated: 2021-09-17
   version: '1.0'
   reviews: 4
-  icon: com.stormprofit.stormprofit.webp
   meta: removed
   verdict: wip
   developerName: StormProfit

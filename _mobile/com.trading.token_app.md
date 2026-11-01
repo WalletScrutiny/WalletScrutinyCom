@@ -1,6 +1,6 @@
 ---
 title: TT - easier trading your token
-date: 2023-09-15
+date: 2026-10-30
 website: https://exchange.tradingtoken.io#deadLink
 redirect_from:
 - /android/com.trading.token_app/
@@ -10,7 +10,6 @@ android:
   released: 2022-04-11
   updated: 2022-04-14
   version: 1.0.0
-  icon: com.trading.token_app.webp
   meta: removed
   verdict: wip
   developerName: Trading Token Team

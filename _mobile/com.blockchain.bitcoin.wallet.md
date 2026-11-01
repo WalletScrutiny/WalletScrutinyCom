@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Cold Wallet
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - leo
 website: https://coinhub8899.web.app
@@ -14,7 +14,6 @@ android:
   updated: 2023-08-26
   version: 2.0.2
   reviews: 65
-  icon: com.blockchain.bitcoin.wallet.webp
   meta: removed
   verdict: fake
   developerName: InvoVN Solutions

@@ -1,6 +1,6 @@
 ---
 title: Joy DC
-date: 2024-07-05
+date: 2026-10-30
 website: https://www.creativecodez.com
 redirect_from:
 - /android/com.joydc.app/
@@ -10,7 +10,6 @@ android:
   released: 2020-01-24
   updated: 2020-02-02
   version: 1.0.7
-  icon: com.joydc.app.webp
   meta: removed
   verdict: wip
   developerName: Creativecodez

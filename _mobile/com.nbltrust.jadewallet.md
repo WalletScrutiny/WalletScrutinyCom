@@ -1,6 +1,6 @@
 ---
 title: Jade Wallet - Bitcoin & DeFi
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 appCountry: us
@@ -13,12 +13,13 @@ iphone:
   updated: 2023-06-13
   version: 1.27.8
   reviews: 3
-  icon: com.nbltrust.jadewallet.webp
   meta: removed
   verdict: custodial
   developerName: Tuolian (Shanghai) Co., Ltd.
 
 ---
+
+**Update 2026-10-30:** The Jade Wallet website ([archived](https://web.archive.org/web/20240806194923/https://www.jadewallet.io/)) was last captured in August 2024 and no longer loads, and neither does the site of its developer [NBLTrust](https://web.archive.org/web/20230202215420/https://www.nbltrust.com/). The provider appears to be gone.
 
 The app's name is similar to Blockstream's {% include walletLink.html wallet='hardware/blockstreamjade' verdict='true' %}. 
 

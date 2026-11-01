@@ -1,6 +1,6 @@
 ---
 title: AntWallet
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/com.bastionpay.antwallet/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2019-09-23
   updated: 2019-10-09
   version: v1.0.2
-  icon: com.bastionpay.antwallet.webp
   meta: removed
   verdict: wip
 

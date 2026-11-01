@@ -1,6 +1,6 @@
 ---
 title: Libertypool | Invest In Crypto
-date: 2024-07-05
+date: 2026-10-30
 website: https://libertypool.com/
 redirect_from:
 - /android/com.libertypool.lpx/
@@ -10,7 +10,6 @@ android:
   released: 2020-01-01
   updated: 2020-01-01
   version: '1.0'
-  icon: com.libertypool.lpx.webp
   meta: removed
   verdict: wip
   developerName: Libertypool

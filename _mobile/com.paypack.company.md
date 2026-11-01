@@ -1,6 +1,6 @@
 ---
 title: Paypack Company
-date: 2024-05-07
+date: 2026-10-30
 website: https://paypack.company#deadLink
 redirect_from:
 - /android/com.paypack.company/
@@ -10,7 +10,6 @@ android:
   released: 2021-01-04
   updated: 2021-02-04
   version: '1.5'
-  icon: com.paypack.company.webp
   meta: removed
   verdict: wip
   developerName: Ajamba

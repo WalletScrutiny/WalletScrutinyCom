@@ -1,6 +1,6 @@
 ---
 title: 'wallmine: Stock Market Investi'
-date: 2024-07-05
+date: 2026-10-30
 website: https://wallmine.com
 redirect_from:
 - /android/com.wallmine.android/
@@ -11,7 +11,6 @@ android:
   updated: 2020-07-29
   version: 1.1.10
   reviews: 9
-  icon: com.wallmine.android.webp
   meta: removed
   verdict: wip
   developerName: HODL s.r.o.

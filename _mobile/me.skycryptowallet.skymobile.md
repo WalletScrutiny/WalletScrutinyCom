@@ -1,6 +1,6 @@
 ---
 title: Sky Crypto Wallet
-date: 2026-05-05
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,7 +11,6 @@ android:
   appCountry: us
   updated: 2026-01-27
   version: 1.54.0
-  icon: me.skycryptowallet.skymobile.webp
   meta: ok
   verdict: custodial
   developerName: Revens

@@ -1,6 +1,6 @@
 ---
 title: VANCE Crypto Exchange
-date: 2024-04-03
+date: 2026-10-30
 website: https://vancetoken.us#deadLink
 redirect_from:
 - /android/com.vance.wallet/
@@ -10,7 +10,6 @@ android:
   released: 2022-02-25
   updated: 2022-02-25
   version: 0.21.0
-  icon: com.vance.wallet.webp
   meta: removed
   verdict: wip
   developerName: EVANCE Tech Inc.

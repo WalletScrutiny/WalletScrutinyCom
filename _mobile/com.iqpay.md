@@ -1,6 +1,6 @@
 ---
 title: IQPay
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/com.iqpay/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-03-22
   updated: 2021-03-22
   version: 1.0.0
-  icon: com.iqpay.webp
   meta: removed
   verdict: wip
 

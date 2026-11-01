@@ -1,6 +1,6 @@
 ---
 title: 'PointPay: Crypto Wallet App'
-date: 2021-04-27
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
@@ -23,7 +23,6 @@ android:
   updated: 2026-04-07
   version: 8.8.81
   reviews: 135
-  icon: com.pointpay.bank.webp
   meta: removed
   verdict: custodial
   developerName: Point Pay OÜ
@@ -35,7 +34,6 @@ iphone:
   updated: 2026-09-25
   version: 8.8.96
   reviews: 695
-  icon: com.pointpayio.PointPayBank.webp
   meta: ok
   verdict: custodial
   developerName: Point Pay LTD

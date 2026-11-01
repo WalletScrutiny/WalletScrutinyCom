@@ -20,11 +20,10 @@ shop:
 country: 
 price: 85GBP
 repository: 
-icon: pixel3a.samourai.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2026-02-27
+date: 2026-10-30
 signer: 
 twitter: 
 social:

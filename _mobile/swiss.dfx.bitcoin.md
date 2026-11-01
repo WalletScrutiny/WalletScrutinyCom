@@ -1,6 +1,6 @@
 ---
 title: DFX BTC Taro Wallet
-date: 2026-01-03
+date: 2026-10-30
 authors:
 - danny
 website: https://dfx.swiss/
@@ -24,7 +24,6 @@ android:
   released: 2023-09-25
   updated: 2026-09-04
   version: 2.0.27
-  icon: swiss.dfx.bitcoin.webp
   meta: ok
   verdict: sourceavailable
   developerName: DFX AG
@@ -37,7 +36,6 @@ iphone:
   updated: 2026-07-16
   version: 2.0.18
   reviews: 0
-  icon: swiss.dfx.bitcoin.webp
   meta: ok
   verdict: sourceavailable
   developerName: DFX AG

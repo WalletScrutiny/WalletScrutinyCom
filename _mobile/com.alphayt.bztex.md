@@ -1,6 +1,6 @@
 ---
 title: BZTex
-date: 2023-08-04
+date: 2026-10-30
 website: https://www.bztex.co#deadLink
 redirect_from:
 - /android/com.alphayt.bztex/
@@ -10,7 +10,6 @@ android:
   released: 2022-02-18
   updated: 2022-04-28
   version: 1.1.9
-  icon: com.alphayt.bztex.webp
   meta: removed
   verdict: wip
   developerName: BZTEX

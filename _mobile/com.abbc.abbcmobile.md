@@ -1,9 +1,9 @@
 ---
 title: Aladdin Wallet
-date: 2024-09-10
+date: 2026-10-30
 authors:
 - danny
-website: http://abbcpayment.com
+website: http://abbcpayment.com#deadLink
 twitter: abbcfoundation
 social:
 - https://www.facebook.com/abbcfoundation/
@@ -22,7 +22,6 @@ android:
   updated: 2023-07-02
   version: 1.3.4
   reviews: 7
-  icon: com.abbc.abbcmobile.webp
   meta: removed
   verdict: nosource
   developerName: ABBC PAYMENT SERVICES PROVIDER
@@ -34,7 +33,6 @@ iphone:
   updated: 2020-02-12
   version: 1.3.3
   reviews: 1
-  icon: com.abbc.wallet.webp
   meta: removed
   verdict: nosource
   developerName: MC ABBC IT SOLUTION

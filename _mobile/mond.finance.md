@@ -1,6 +1,6 @@
 ---
 title: Mond
-date: 2024-04-03
+date: 2026-10-30
 website: https://web.archive.org/web/20240822030647/https://mond.finance/
 redirect_from:
 - /android/mond.finance/
@@ -10,7 +10,6 @@ android:
   released: 2022-08-26
   updated: 2022-09-13
   version: 1.1.1
-  icon: mond.finance.webp
   meta: removed
   verdict: wip
   developerName: Mond Finance Tecnologia LTDA

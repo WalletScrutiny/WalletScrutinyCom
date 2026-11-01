@@ -1,9 +1,9 @@
 ---
 title: 'Neutron: LN Bitcoin Wallet'
-date: 2025-12-31
+date: 2026-10-30
 authors:
 - danny
-website: https://neutron.me/app
+website: https://neutron.me/app#deadLink
 twitter: neutron__me
 social:
 - https://www.instagram.com/neutronpay
@@ -20,7 +20,6 @@ android:
   users: 100000
   updated: 2026-03-09
   version: 3.5.0
-  icon: neutronpay.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Neutronpay Inc.
@@ -32,12 +31,13 @@ iphone:
   updated: 2025-10-30
   version: 3.3.0
   reviews: 18
-  icon: neutronpay.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Neutronpay Inc.
 
 ---
+
+**Update 2026-10-30:** The Neutron app is no longer available on Google Play or the App Store. In early 2026 Neutron relaunched its website as [Bitcoin and Lightning payment infrastructure for AI agents and developers](https://web.archive.org/web/20260415153928/https://neutron.me/); today its pages no longer load, while its [developer docs](https://docs.neutron.me/) are still online.
 
 ## Android
 

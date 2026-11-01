@@ -1,6 +1,6 @@
 ---
 title: 'Mudrex : Bitcoin & Crypto App'
-date: 2024-09-07
+date: 2026-10-30
 authors:
 - danny
 website: https://mudrex.com/
@@ -21,7 +21,6 @@ android:
   updated: 2026-10-03
   version: '13.31'
   reviews: 4
-  icon: com.mudrexmobile.webp
   meta: ok
   verdict: custodial
   developerName: Mudrex Inc.
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-10-07
   version: '9.09'
   reviews: 5691
-  icon: com.mudrex.ios.webp
   meta: ok
   verdict: custodial
   developerName: Mudrex

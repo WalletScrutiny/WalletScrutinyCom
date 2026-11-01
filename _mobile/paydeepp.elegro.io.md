@@ -1,6 +1,6 @@
 ---
 title: 'Elegro: multi-currency wallet'
-date: 2020-12-14
+date: 2026-10-30
 authors:
 - leo
 website: https://elegro.eu/
@@ -19,7 +19,6 @@ android:
   updated: 2026-07-01
   version: 5.5.6
   reviews: 1
-  icon: paydeepp.elegro.io.webp
   meta: ok
   verdict: custodial
   developerName: Niko Technologies

@@ -1,6 +1,6 @@
 ---
 title: IXTokens
-date: 2024-11-22
+date: 2026-10-30
 website: https://ixtokens.com/
 redirect_from:
 - /android/in.spiegel.ixtokens/
@@ -10,7 +10,6 @@ android:
   released: 2021-07-21
   updated: 2021-11-29
   version: 2.0.1
-  icon: in.spiegel.ixtokens.webp
   meta: removed
   verdict: wip
   developerName: CapCan Limited

@@ -1,6 +1,6 @@
 ---
 title: SALT Crypto Loans
-date: 2021-10-07
+date: 2026-10-30
 authors:
 - danny
 website: https://saltlending.com
@@ -20,7 +20,6 @@ android:
   updated: 2026-09-10
   version: 2.20.120
   reviews: 46
-  icon: com.saltlending.mobile.webp
   meta: ok
   verdict: custodial
   developerName: SALT Blockchain, Inc.
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-09-11
   version: 2.20.120
   reviews: 26
-  icon: com.saltlending.mobile.webp
   meta: ok
   verdict: custodial
   developerName: Salt Blockchain Inc.

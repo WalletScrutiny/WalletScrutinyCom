@@ -1,6 +1,6 @@
 ---
 title: 新币交易平台 - 加密货币交易应用程序
-date: 2023-08-04
+date: 2026-10-30
 website: https://www.xinbipro.com#deadLink
 redirect_from:
 - /android/com.exchange.XinBi/
@@ -10,7 +10,6 @@ android:
   released: 2019-09-23
   updated: 2020-01-14
   version: 4.0.8
-  icon: com.exchange.XinBi.webp
   meta: removed
   verdict: wip
   developerName: XinBiPro

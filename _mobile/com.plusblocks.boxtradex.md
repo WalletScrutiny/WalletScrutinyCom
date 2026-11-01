@@ -1,6 +1,6 @@
 ---
 title: BOXVERSE
-date: 2025-11-05
+date: 2026-10-30
 authors:
 - danny
 website: https://www.boxtradex.io/
@@ -18,7 +18,6 @@ android:
   updated: 2024-10-30
   version: 2.0.1
   reviews: 6
-  icon: com.plusblocks.boxtradex.webp
   meta: stale
   verdict: custodial
   developerName: PlusBlocks Technology Ltd.
@@ -30,12 +29,13 @@ iphone:
   updated: 2024-11-07
   version: 2.0.1
   reviews: 0
-  icon: com.plusblocks.exchange.webp
   meta: stale
   verdict: custodial
   developerName: PlusBlocks Technology Limited
 
 ---
+
+**Update 2026-10-30:** The [website](https://boxtradex.io/) no longer offers an exchange. It now advertises "BOXVERSE AI", AI software for businesses, and both apps have not been updated since late 2024.
 
 ## Android
 

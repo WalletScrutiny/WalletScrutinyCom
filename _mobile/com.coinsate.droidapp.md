@@ -1,6 +1,6 @@
 ---
 title: Coinsate
-date: 2024-04-03
+date: 2026-10-30
 website: https://trade.coinsate.com#deadLink
 redirect_from:
 - /android/com.coinsate.droidapp/
@@ -10,7 +10,6 @@ android:
   released: 2022-05-13
   updated: 2023-08-16
   version: 1.4.5
-  icon: com.coinsate.droidapp.webp
   meta: removed
   verdict: wip
   developerName: Coinsate Dev Team

@@ -1,6 +1,6 @@
 ---
 title: Yuh - Your app. Your money.
-date: 2023-03-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.yuh.com
@@ -18,7 +18,6 @@ android:
   updated: 2026-10-07
   version: 1.47.0
   reviews: 4
-  icon: com.yuh.webp
   meta: ok
   verdict: nosendreceive
   developerName: Swissquote Mobile
@@ -30,12 +29,13 @@ iphone:
   updated: 2026-10-12
   version: 1.45.1
   reviews: 22819
-  icon: com.swissquote.Yuh.webp
   meta: ok
   verdict: nosendreceive
   developerName: Swissquote
 
 ---
+
+**Update 2026-10-30:** Yuh is no longer a joint venture. In July 2025 [PostFinance sold its 50% stake to Swissquote](https://www.postfinance.ch/en/about-us/media/newsroom/postfinance-yuh-swissquote.html), which now owns Yuh outright; the app keeps its name.
 
 ## Android
 

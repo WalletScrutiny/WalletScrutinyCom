@@ -1,6 +1,6 @@
 ---
 title: Hitek
-date: 2023-12-19
+date: 2026-10-30
 redirect_from:
 - /android/com.hitek.wallet/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2018-03-28
   updated: 2018-03-28
   version: v5.0.0
-  icon: com.hitek.wallet.webp
   meta: removed
   verdict: wip
   developerName: Nextgen IT Services

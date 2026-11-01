@@ -1,6 +1,6 @@
 ---
 title: Private Wallet
-date: 2023-08-04
+date: 2026-10-30
 website: https://private-wallet.net#deadLink
 redirect_from:
 - /android/com.privated.wallet/
@@ -11,7 +11,6 @@ android:
   updated: 2023-04-15
   version: '1.1'
   reviews: 9
-  icon: com.privated.wallet.webp
   meta: removed
   verdict: wip
   developerName: Private Wallet

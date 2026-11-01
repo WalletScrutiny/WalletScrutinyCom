@@ -12,11 +12,10 @@ provider:
 providerWebsite: 
 website: https://duxreserve.com
 repository: 
-icon: duxreserve.keymanager.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2025-10-06
+date: 2026-10-30
 twitter: DuxReserve
 social:
 - https://linkedin.com/company/duxreserve

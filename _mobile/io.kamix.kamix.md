@@ -1,9 +1,9 @@
 ---
 title: Kamix
-date: 2025-08-18
+date: 2026-10-30
 authors:
 - danny
-website: https://kamix.io
+website: https://kamix.io#deadLink
 twitter: KamixApp
 social:
 - https://www.linkedin.com/company/kamixapp
@@ -19,7 +19,6 @@ android:
   released: 2019-03-14
   updated: 2025-04-25
   version: 3.0.336
-  icon: io.kamix.kamix.webp
   meta: stale
   verdict: custodial
   developerName: Kamix R&D
@@ -31,12 +30,13 @@ iphone:
   updated: 2025-04-27
   version: '2.8'
   reviews: 10
-  icon: io.kamix.app.webp
   meta: removed
   verdict: custodial
   developerName: Kamix
 
 ---
+
+**Update 2026-10-30:** The Kamix website no longer loads; the [last archived copy](https://web.archive.org/web/20260118195342/https://kamix.io/) is from January 2026. The Android app is still listed but has not been updated since April 2025, and the iPhone app is gone from the App Store.
 
 ## Android
 

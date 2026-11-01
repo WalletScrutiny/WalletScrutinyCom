@@ -1,6 +1,6 @@
 ---
 title: Elia Wallet
-date: 2024-03-02
+date: 2026-10-30
 redirect_from:
 - /android/com.bonsystem.chain.eliac/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-03-25
   updated: 2022-04-05
   version: 1.0.3
-  icon: com.bonsystem.chain.eliac.webp
   meta: removed
   verdict: wip
   developerName: c&hsoft

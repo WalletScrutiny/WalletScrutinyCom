@@ -1,9 +1,9 @@
 ---
 title: Xpesa
-date: 2023-06-11
+date: 2026-10-30
 authors:
 - danny
-website: https://xpesa.io/
+website: https://xpesa.io/#deadLink
 redirect_from:
 - /android/com.xpesa.trade/
 android:
@@ -12,7 +12,6 @@ android:
   released: 2018-08-31
   updated: 2020-09-04
   version: 2.1.6
-  icon: com.xpesa.trade.webp
   meta: removed
   verdict: wip
   developerName: Xpesa Limited

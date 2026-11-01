@@ -1,6 +1,6 @@
 ---
 title: Monetum Wallet
-date: 2024-08-31
+date: 2026-10-30
 website: https://monetum.com
 redirect_from:
 - /android/com.monetum.wallet/
@@ -11,7 +11,6 @@ android:
   released: 2022-08-05
   updated: 2022-09-07
   version: 7.1.4
-  icon: com.monetum.wallet.webp
   meta: obsolete
   verdict: wip
   developerName: Monetum Mobile

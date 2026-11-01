@@ -1,6 +1,6 @@
 ---
 title: Crypto Bot
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/net.bitcoinheroes.crypto.bot/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-15
   updated: 2021-06-15
   version: '1.0'
-  icon: net.bitcoinheroes.crypto.bot.webp
   meta: removed
   verdict: wip
 

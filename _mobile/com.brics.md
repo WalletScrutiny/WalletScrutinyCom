@@ -1,9 +1,9 @@
 ---
 title: 'BRICS Pay Wallet: Crypto&DeFi'
-date: 2026-03-05
+date: 2026-10-30
 authors:
 - danny
-website: https://www.brics-pay.com/BRICS-Pay-Retail
+website: https://www.brics-pay.com/BRICS-Pay-Wallet.html
 redirect_from:
 - /android/com.brics/
 - /iphone/com.bricspay/
@@ -13,7 +13,6 @@ android:
   appCountry: us
   updated: 2026-03-25
   version: 0.0.11
-  icon: com.brics.webp
   meta: ok
   verdict: nosource
   developerName: NB PAY FZCO
@@ -25,7 +24,6 @@ iphone:
   updated: 2026-03-12
   version: 0.0.15
   reviews: 0
-  icon: com.bricspay.webp
   meta: ok
   verdict: nosource
   developerName: NB PAY FZCO Dubai Silicon Oasis, DDP, Building A1, Dubai, UAE.

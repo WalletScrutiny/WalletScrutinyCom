@@ -1,6 +1,6 @@
 ---
 title: Coinhub
-date: 2022-02-21
+date: 2026-10-30
 authors:
 - danny
 website: https://coinhub.mn/
@@ -18,19 +18,17 @@ android:
   updated: 2026-10-06
   version: 3.1.10
   reviews: 10
-  icon: com.coinhub.pro.webp
   meta: ok
   verdict: custodial
   developerName: CoinHUB
 iphone:
   appId: mn.coinhub.coinhub
   idd: '1585102002'
-  appCountry: us
+  appCountry: mn
   released: 2021-09-23
   updated: 2023-04-19
   version: 1.3.3
   reviews: 11
-  icon: mn.coinhub.coinhub.webp
   meta: removed
   verdict: custodial
   developerName: CoinHUB

@@ -1,6 +1,6 @@
 ---
 title: BitEclipse Mobile
-date: 2024-04-19
+date: 2026-10-30
 website: https://biteclipse.com/query
 redirect_from:
 - /android/com.tdtc.vtrade.biteclipse/
@@ -10,7 +10,6 @@ android:
   released: 2019-11-20
   updated: 2021-07-03
   version: 1.0.6
-  icon: com.tdtc.vtrade.biteclipse.webp
   meta: removed
   verdict: wip
   developerName: BitEclipse

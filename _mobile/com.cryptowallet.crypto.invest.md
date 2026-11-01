@@ -1,6 +1,6 @@
 ---
 title: Crypto Invest
-date: 2021-08-13
+date: 2026-10-30
 redirect_from:
 - /android/com.cryptowallet.crypto.invest/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-21
   updated: 2021-06-21
   version: '1.0'
-  icon: com.cryptowallet.crypto.invest.webp
   meta: removed
   verdict: wip
 

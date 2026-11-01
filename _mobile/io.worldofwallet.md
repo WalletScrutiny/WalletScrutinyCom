@@ -1,7 +1,7 @@
 ---
 title: World Of Wallet
-date: 2023-01-02
-website: https://worldofwallet.io
+date: 2026-10-30
+website: https://worldofwallet.io#deadLink
 redirect_from:
 - /android/io.worldofwallet/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2022-04-16
   updated: 2022-04-16
   version: 1.3.8
-  icon: io.worldofwallet.webp
   meta: removed
   verdict: wip
 

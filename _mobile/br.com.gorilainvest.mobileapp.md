@@ -1,6 +1,6 @@
 ---
 title: 'Gorila: investimentos com IA'
-date: 2022-06-24
+date: 2026-10-30
 authors:
 - danny
 website: https://gorila.com.br
@@ -21,7 +21,6 @@ android:
   updated: 2026-10-07
   version: 8.12.0
   reviews: 25
-  icon: br.com.gorilainvest.mobileapp.webp
   meta: ok
   verdict: nosendreceive
   developerName: Gorila - gestão de carteira de investimentos
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-10-09
   version: 8.12.0
   reviews: 234
-  icon: br.com.gorilainvest.mobileapp.webp
   meta: ok
   verdict: nosendreceive
   developerName: GORILA DESENVOLVIMENTO CUSTOMIZACAO SOFTWARES INVESTIMENTO LTDA

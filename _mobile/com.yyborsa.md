@@ -1,6 +1,6 @@
 ---
 title: 7/24 Borsa
-date: 2024-05-07
+date: 2026-10-30
 website: https://724borsa.com#deadLink
 redirect_from:
 - /android/com.yyborsa/
@@ -10,7 +10,6 @@ android:
   released: 2021-08-20
   updated: 2021-08-20
   version: 1.0.0
-  icon: com.yyborsa.webp
   meta: removed
   verdict: wip
   developerName: Aksoyhlc

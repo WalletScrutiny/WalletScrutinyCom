@@ -1,6 +1,6 @@
 ---
 title: Rocket Trade EX
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 website: https://web.excoin.cloud#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2022-03-28
   updated: 2023-02-13
   version: 1.1.3
-  icon: app.excointrades.com.webp
   meta: removed
   verdict: nosendreceive
   developerName: rocket trade Limited

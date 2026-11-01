@@ -1,6 +1,6 @@
 ---
 title: CoinFLEX.US - Home of flexUSD
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/com.cf.vtus/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-04-26
   updated: 2023-03-08
   version: 1.0.13
-  icon: com.cf.vtus.webp
   meta: removed
   verdict: wip
   developerName: CoinFLEX

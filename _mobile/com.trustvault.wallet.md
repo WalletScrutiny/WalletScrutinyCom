@@ -1,6 +1,6 @@
 ---
 title: Trust Vault Crypto Web3 Wallet
-date: 2026-07-21
+date: 2026-10-30
 website: http://trustvault-app.com
 redirect_from:
 - /android/com.trustvault.wallet/
@@ -11,7 +11,6 @@ android:
   released: 2025-12-08
   updated: 2026-02-02
   version: 1.0.0
-  icon: com.trustvault.wallet.webp
   meta: ok
   verdict: fake
   developerName: UNREAL VENTURES LLC

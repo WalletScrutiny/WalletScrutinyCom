@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Win - Scratch Bitcoin
-date: 2023-01-02
+date: 2026-10-30
 website: https://t91a3kzq.app-adstxt.dev/app-ads.txt#deadLink
 redirect_from:
 - /android/com.app.bitcoinstorea/
@@ -10,7 +10,6 @@ android:
   released: 2021-08-01
   updated: 2021-08-01
   version: '1.0'
-  icon: com.app.bitcoinstorea.webp
   meta: removed
   verdict: wip
 

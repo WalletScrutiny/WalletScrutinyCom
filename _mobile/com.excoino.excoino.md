@@ -1,6 +1,6 @@
 ---
 title: excoino | اکسکوینو
-date: 2021-08-21
+date: 2026-10-30
 authors:
 - danny
 website: https://www.excoino.com/
@@ -17,7 +17,6 @@ android:
   updated: 2026-01-05
   version: 9.70.0
   reviews: 253
-  icon: com.excoino.excoino.webp
   meta: ok
   verdict: custodial
   developerName: Ernyka Co

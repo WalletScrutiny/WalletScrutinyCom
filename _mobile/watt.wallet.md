@@ -1,9 +1,9 @@
 ---
 title: WATT ME
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
-website: https://watt.me
+website: https://web.archive.org/web/20221203052609/https://watt.me/
 twitter: watt_me_token
 social:
 - https://t.me/watt_me
@@ -16,7 +16,6 @@ android:
   released: 2021-11-29
   updated: 2022-06-11
   version: 1.28.0
-  icon: watt.wallet.webp
   meta: removed
   verdict: nosource
   developerName: wise.win
@@ -28,12 +27,13 @@ iphone:
   updated: 2022-06-12
   version: '1.29'
   reviews: 56
-  icon: watt.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Wise Win LTD
 
 ---
+
+**Update 2026-10-30:** The provider appears to be gone. The [website](https://web.archive.org/web/20221203052609/https://watt.me/) is now a parked domain and the [Telegram channel](https://t.me/s/watt_me) has been silent since December 2022.
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: Samourai Wallet
-date: 2024-04-26
+date: 2026-10-30
 authors:
 - emanuel
 - Mohammad Rafigh
@@ -16,7 +16,6 @@ android:
   users: 100000
   updated: 2024-03-29
   version: VARY
-  icon: com.samourai.wallet.webp
   signer: 6ab9471c21d2cddd628172975cff8ba23584da41c6962df074eb56e4ef08d990
   meta: removed
   verdict: sourceavailable
@@ -25,9 +24,11 @@ android:
 
 ---
 
-**Note:** This project is now maintained at [code.samourai.io/wallet/samourai-wallet-android](https://code.samourai.io/wallet/samourai-wallet-android).
+**⚠️ Warning:** Samourai Wallet is gone. Its founders [pleaded guilty](https://www.justice.gov/usao-sdny/pr/founders-samourai-wallet-cryptocurrency-mixing-service-plead-guilty) in July 2025 and were [sentenced to five and four years in prison](https://www.justice.gov/usao-sdny/pr/founders-samourai-wallet-cryptocurrency-mixing-service-sentenced-five-and-four-years-prison) in November 2025. The project's own code server is gone too. A community fork continues the code: {% include walletLink.html wallet='android/com.ashigaru.wallet' verdict='true' %}.
 
-**Update 2024-04-29**: As of this date, {{ page.title }} has been taken down from Google Play Store. The website [has been seized by the US government](http://www.samouraiwallet.com). For more information detailing the founders' arrest, here is the article from the website of the [United States Attorney's Office.](https://www.justice.gov/usao-sdny/pr/founders-and-ceo-cryptocurrency-mixing-service-arrested-and-charged-money-laundering)
+**Note:** This project is now maintained at [code.samourai.io/wallet/samourai-wallet-android](https://web.archive.org/web/20240324135044/https://code.samourai.io/wallet/samourai-wallet-android).
+
+**Update 2024-04-29**: As of this date, {{ page.title }} has been taken down from Google Play Store. The website [has been seized by the US government](https://web.archive.org/web/20240428014817/https://www.samouraiwallet.com/). For more information detailing the founders' arrest, here is the article from the website of the [United States Attorney's Office.](https://www.justice.gov/usao-sdny/pr/founders-and-ceo-cryptocurrency-mixing-service-arrested-and-charged-money-laundering)
 
 Because of Samourai Wallet's removal, users may find that their funds *appear* to have gone to zero. This is likely due to the servers going offline. Don't panic, as your coins are still there. However it is best to restore your backup to another wallet.
 
@@ -48,7 +49,7 @@ Below are some step-by-step instructions on how to import a Samourai Wallet into
 
 **Update 2024-04-05**: The provider did not tag their release but the relevant
 `versionCode` was set in
-[this commit](https://code.samourai.io/wallet/samourai-wallet-android/-/commit/64d464e7f616999aa6d64a20b9e3874a0f047f32)
+[this commit](https://code.samourai.io/wallet/samourai-wallet-android/-/commit/64d464e7f616999aa6d64a20b9e3874a0f047f32#deadLink)
 and compiling that gives us this result:
 
 ```

@@ -1,6 +1,6 @@
 ---
 title: CDEX
-date: 2024-07-19
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2022-05-24
   updated: 2023-06-07
   version: 1.5.0
-  icon: com.xsjys.bbtc.cdex.webp
   meta: removed
   verdict: wip
   developerName: CD-Exgroup

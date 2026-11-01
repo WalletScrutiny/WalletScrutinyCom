@@ -1,6 +1,6 @@
 ---
 title: Mobile Bitcoin Wallet
-date: 2025-04-09
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -17,18 +17,17 @@ android:
   updated: 2025-08-20
   version: 0.9.007
   reviews: 12
-  icon: com.qcan.mobile.bitcoin.wallet.webp
   meta: stale
   verdict: nosource
   developerName: Qcan.com
 iphone:
   appId: com.qcan.qcan
   idd: 1179360399
+  appCountry: hk
   released: 2017-08-07
   updated: 2025-03-31
   version: 0.9.004
   reviews: 17
-  icon: com.qcan.qcan.webp
   meta: removed
   verdict: nosource
   developerName: Qcan International Limited

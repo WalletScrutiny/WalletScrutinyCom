@@ -1,6 +1,6 @@
 ---
 title: Chaucha Trader Pro
-date: 2023-01-30
+date: 2026-10-30
 website: https://chauchatraderpro.cl#deadLink
 redirect_from:
 - /android/com.panterozo.chauchatraderpro/
@@ -10,7 +10,6 @@ android:
   released: 2018-01-19
   updated: 2022-07-31
   version: 4.3.1
-  icon: com.panterozo.chauchatraderpro.webp
   meta: removed
   verdict: wip
 

@@ -1,9 +1,9 @@
 ---
 title: VELIC
-date: 2023-05-03
+date: 2026-10-30
 authors:
 - danny
-website: http://www.velic.io
+website: http://www.velic.io#deadLink
 redirect_from:
 - /android/com.velic.mts.vex/
 android:
@@ -12,14 +12,13 @@ android:
   released: 2019-04-03
   updated: 2021-08-04
   version: 2.2.0
-  icon: com.velic.mts.vex.webp
   meta: removed
   verdict: wip
   developerName: VELIC Services
 
 ---
 
-## A note on {{ page.title }}'s [website](http://velic.io/) 
+## A note on {{ page.title }}'s [website](https://web.archive.org/web/20230602042835/http://velic.io/) 
 
 > **[Notice] Closing of VELIC Exchange Business**
 >

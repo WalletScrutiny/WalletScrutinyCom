@@ -1,6 +1,6 @@
 ---
 title: LineChain
-date: 2023-08-25
+date: 2026-10-30
 authors:
 - danny
 website: https://linechain.io#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2022-03-31
   updated: 2023-01-12
   version: 12.0.0
-  icon: com.wallet.line.webp
   meta: removed
   verdict: wip
   developerName: Linechain Crypto Technology

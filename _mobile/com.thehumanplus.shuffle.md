@@ -1,9 +1,9 @@
 ---
 title: 'Shuffle: Crypto Payment Wallet'
-date: 2023-01-30
+date: 2026-10-30
 authors:
 - danny
-website: https://www.hupayx.com/
+website: http://www.hupayx.com/
 twitter: hupayx
 social:
 - https://medium.com/@hupayx
@@ -18,7 +18,6 @@ android:
   released: 2020-04-06
   updated: 2025-11-06
   version: 2.0.3
-  icon: com.thehumanplus.shuffle.webp
   meta: ok
   verdict: custodial
   developerName: HUPAYX
@@ -30,8 +29,7 @@ iphone:
   updated: 2023-12-06
   version: 2.0.1
   reviews: 16
-  icon: humanplus.hupay-master-iOS.webp
-  meta: defunct
+  meta: ok
   verdict: custodial
   developerName: The Humanplus Inc.
 

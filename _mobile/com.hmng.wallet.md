@@ -1,6 +1,6 @@
 ---
 title: 'HMNG: Bitcoin & Crypto Wallet'
-date: 2024-10-06
+date: 2026-10-30
 website: https://www.hummingbirdbsc.org/
 redirect_from:
 - /android/com.hmng.wallet/
@@ -11,7 +11,6 @@ android:
   updated: 2022-08-31
   version: 1.0.8
   reviews: 7
-  icon: com.hmng.wallet.webp
   meta: removed
   verdict: wip
   developerName: HMNG Development

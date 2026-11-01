@@ -1,6 +1,6 @@
 ---
 title: ABC Wallet - Crypto, Bitcoin Wallet
-date: 2021-04-13
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -10,11 +10,12 @@ android:
   users: 1000
   updated: 2020-06-17
   version: 1.7.2
-  icon: com.blockabc.abcwallet.webp
   meta: removed
   verdict: obfuscated
 
 ---
+
+**Update 2026-10-30:** The domain [blockabc.com](https://www.blockabc.com/) now redirects to a GoDaddy domain-for-sale page.
 
 **Update 2021-04-13**: The app cannot be found on Google Play anymore. We assume
 it was a scam as can be seen in our original review below:

@@ -1,6 +1,6 @@
 ---
 title: The Kyros mobile app
-date: 2024-04-19
+date: 2026-10-30
 authors:
 - danny
 website: https://kyros.team#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2020-09-02
   updated: 2022-02-07
   version: 3.2.0
-  icon: com.excdev.kyros.webp
   meta: removed
   verdict: nosource
   developerName: Kyros Managment Ltd.

@@ -1,6 +1,6 @@
 ---
 title: GBBIT Bitcoin Wallet India
-date: 2023-05-03
+date: 2026-10-30
 authors:
 - danny
 website: https://www.gbbit.com
@@ -12,7 +12,6 @@ android:
   released: 2017-12-11
   updated: 2020-05-07
   version: '10.61'
-  icon: gbbit.app.wallet.webp
   meta: removed
   verdict: wip
   developerName: GBBIT Technologies Private Limited

@@ -1,6 +1,6 @@
 ---
 title: CIEx
-date: 2025-05-30
+date: 2026-10-30
 authors:
 - danny
 website: https://centurioninvest.com/
@@ -11,7 +11,6 @@ social:
 - https://www.facebook.com/CenturionInvest
 - https://www.linkedin.com/company/centurioninvest
 - https://www.instagram.com/centurioninvest
-- https://centurioninvest.com
 redirect_from:
 - /android/com.exchange.Ciexv2/
 - /iphone/com.centurion.exchange/
@@ -23,7 +22,6 @@ android:
   updated: 2025-09-09
   version: 6.5.4
   reviews: 4
-  icon: com.exchange.Ciexv2.webp
   meta: stale
   verdict: custodial
   developerName: Centurion Exchange
@@ -35,7 +33,6 @@ iphone:
   updated: 2024-06-11
   version: '6'
   reviews: 0
-  icon: com.centurion.exchange.webp
   meta: obsolete
   verdict: custodial
   developerName: Centurioninvest OU

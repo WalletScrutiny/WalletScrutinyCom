@@ -1,6 +1,6 @@
 ---
 title: ProfitTradingApp for Coinbase
-date: 2024-04-19
+date: 2026-10-30
 authors:
 - danny
 website: https://profittradingapp.com/
@@ -16,7 +16,6 @@ android:
   updated: 2021-05-16
   version: VARY
   reviews: 27
-  icon: com.profittrading.forcoinbase.webp
   meta: removed
   verdict: custodial
   developerName: ProfitTradingApp

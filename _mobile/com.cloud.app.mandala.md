@@ -1,6 +1,6 @@
 ---
 title: Mandala Exchange
-date: 2023-05-17
+date: 2026-10-30
 authors:
 - danny
 website: https://mandala.exchange
@@ -19,7 +19,6 @@ android:
   updated: 2022-12-01
   version: 1.2.0
   reviews: 25
-  icon: com.cloud.app.mandala.webp
   meta: removed
   verdict: custodial
   developerName: MandalaEx
@@ -30,7 +29,6 @@ iphone:
   updated: 2021-07-15
   version: 1.0.1
   reviews: 56
-  icon: com.cloud.mandala.webp
   meta: removed
   verdict: custodial
   developerName: Mandala Acquisition

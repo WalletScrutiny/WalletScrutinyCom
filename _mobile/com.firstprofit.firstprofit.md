@@ -1,6 +1,6 @@
 ---
 title: Firstprofit
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/com.firstprofit.firstprofit/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-08-31
   updated: 2020-09-25
   version: '2.1'
-  icon: com.firstprofit.firstprofit.webp
   meta: removed
   verdict: wip
 

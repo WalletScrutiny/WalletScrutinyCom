@@ -1,6 +1,6 @@
 ---
 title: Artelika crypto wallet
-date: 2024-04-19
+date: 2026-10-30
 website: http://artelika.com#deadLink
 redirect_from:
 - /android/info.artelika.wallet/
@@ -10,7 +10,6 @@ android:
   released: 2022-02-07
   updated: 2023-07-10
   version: 1.0.7
-  icon: info.artelika.wallet.webp
   meta: removed
   verdict: wip
   developerName: Artelika LLC

@@ -1,6 +1,6 @@
 ---
 title: FFFEX Exchange
-date: 2023-05-11
+date: 2026-10-30
 authors:
 - danny
 website: https://main.fffex.co#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2019-06-16
   updated: 2019-11-24
   version: 2.0.3
-  icon: com.app.fffex.webp
   meta: removed
   verdict: wip
   developerName: FFFEX

@@ -1,6 +1,6 @@
 ---
 title: DhanuX
-date: 2023-09-04
+date: 2026-10-30
 authors:
 - danny
 website: https://www.dhanu.org#deadLink
@@ -13,7 +13,6 @@ android:
   released: 2022-03-02
   updated: 2023-01-12
   version: '4.2'
-  icon: com.cryptoex.dhanux.webp
   meta: removed
   verdict: custodial
   developerName: dhanux
@@ -25,12 +24,13 @@ iphone:
   updated: 2023-01-14
   version: 1.6.1
   reviews: 0
-  icon: com.dhanuX.webp
   meta: removed
   verdict: custodial
   developerName: DHANU INNOVATIVE INFORMATION TECHNOLOGY NETWORK SERVICES CO.
 
 ---
+
+**Update 2026-10-30:** DhanuX looks gone. Both apps left the stores, and [dhanux.com](https://dhanux.com/) now shows only a placeholder page that says "Transforming Digital Futures", with no exchange and no login.
 
 ## Android
 

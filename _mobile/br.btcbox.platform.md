@@ -1,6 +1,6 @@
 ---
 title: BTCBOX Trading
-date: 2023-10-16
+date: 2026-10-30
 website: https://www.btcbox.com.br
 redirect_from:
 - /android/br.btcbox.platform/
@@ -10,7 +10,6 @@ android:
   released: 2021-09-30
   updated: 2021-09-30
   version: '1.0'
-  icon: br.btcbox.platform.webp
   meta: removed
   verdict: wip
   developerName: M&C Inovação

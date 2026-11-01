@@ -1,6 +1,6 @@
 ---
 title: Delta Trading – FX&Shares CFDs
-date: 2023-08-30
+date: 2026-10-30
 authors:
 - danny
 website: https://www.deltastock.com/english/platforms/delta_trading-mobile.asp
@@ -20,7 +20,6 @@ android:
   updated: 2026-06-05
   version: 5.9.14
   reviews: 59
-  icon: delta.pk.mobile.webp
   meta: ok
   verdict: nosendreceive
   developerName: Deltastock AD
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-01-24
   version: 5.9.8
   reviews: 16
-  icon: com.dfmarkets.DTMobile.webp
   meta: ok
   verdict: nosendreceive
   developerName: DELTASTOCK AD

@@ -1,6 +1,6 @@
 ---
 title: CDM DeFi
-date: 2023-03-21
+date: 2026-10-30
 redirect_from:
 - /android/com.cdmdefi.app/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-12-31
   updated: 2021-12-31
   version: '1.3'
-  icon: com.cdmdefi.app.webp
   meta: removed
   verdict: wip
 

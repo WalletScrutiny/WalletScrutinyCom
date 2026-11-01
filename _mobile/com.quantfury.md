@@ -1,6 +1,6 @@
 ---
 title: 'Quantfury: Trading & Investing'
-date: 2021-11-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.quantfury.com/
@@ -16,7 +16,6 @@ android:
   updated: 2026-09-28
   version: v1.98.2.26436
   reviews: 23
-  icon: com.quantfury.webp
   meta: ok
   verdict: custodial
   developerName: Quantfury Trading Limited
@@ -28,7 +27,6 @@ iphone:
   updated: 2026-10-01
   version: 1.98.1
   reviews: 85
-  icon: com.quantfury.webp
   meta: ok
   verdict: custodial
   developerName: Quantfury Ltd
@@ -36,6 +34,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The terms PDF and support pages quoted below no longer load. The help center now describes [funding a Cash Account from an external wallet](https://help.quantfury.com/en/articles/6619537-how-to-fund-cash-account) and [withdrawing to an external wallet](https://help.quantfury.com/en/articles/6619557-withdraw-funds-from-spot-wallet).
 
 Description from the site: 
 

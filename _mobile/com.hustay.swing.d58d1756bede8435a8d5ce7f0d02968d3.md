@@ -1,6 +1,6 @@
 ---
 title: QNN 지갑 (qnnwallet wallet )
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/com.hustay.swing.d58d1756bede8435a8d5ce7f0d02968d3/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-10-12
   updated: 2021-10-13
   version: '0.3'
-  icon: com.hustay.swing.d58d1756bede8435a8d5ce7f0d02968d3.webp
   meta: removed
   verdict: wip
   developerName: jeongsu jeong

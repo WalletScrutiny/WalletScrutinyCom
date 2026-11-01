@@ -1,6 +1,6 @@
 ---
 title: PinUrCoin Cryptocurrency Exchange and Wallet
-date: 2021-10-15
+date: 2026-10-30
 redirect_from:
 - /android/pinurcoin.android/
 android:
@@ -10,7 +10,6 @@ android:
   updated: 2018-03-09
   version: '1.1'
   reviews: 13
-  icon: pinurcoin.android.webp
   meta: removed
   verdict: wip
 

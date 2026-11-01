@@ -1,6 +1,6 @@
 ---
 title: HitBTC cryptocurrency exchange
-date: 2020-05-29
+date: 2026-10-30
 authors:
 - leo
 website: https://hitbtc.com/
@@ -20,7 +20,6 @@ android:
   updated: 2025-10-10
   version: 3.3.5
   reviews: 5
-  icon: com.hittechsexpertlimited.hitbtc.webp
   meta: removed
   verdict: custodial
   developerName: HitBTC Exchange

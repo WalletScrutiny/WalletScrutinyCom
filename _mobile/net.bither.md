@@ -1,7 +1,7 @@
 ---
 title: Bither - Bitcoin Wallet
 bitcoinOrgId: bither
-date: 2025-06-11
+date: 2026-10-30
 authors:
 - leo
 - emanuel
@@ -17,7 +17,6 @@ android:
   updated: 2024-11-21
   version: 2.1.7
   reviews: 30
-  icon: net.bither.webp
   meta: removed
   verdict: obfuscated
   developerName: getcai
@@ -30,7 +29,6 @@ iphone:
   updated: 2026-09-04
   version: 2.1.5
   reviews: 62
-  icon: net.bither.webp
   meta: ok
   verdict: obfuscated
   developerName: BITHER Limited

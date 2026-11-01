@@ -1,6 +1,6 @@
 ---
 title: 'FameEX: Buy Bitcoin & Crypto'
-date: 2023-04-16
+date: 2026-10-30
 authors:
 - danny
 website: https://www.fameex.com
@@ -18,7 +18,6 @@ android:
   updated: 2024-10-21
   version: 3.5.9
   reviews: 15
-  icon: com.app.fameex.webp
   meta: removed
   verdict: custodial
   developerName: FAMEEX INTERNATIONAL PTY LTD
@@ -29,12 +28,13 @@ iphone:
   updated: 2022-12-24
   version: 2.13.17
   reviews: 112
-  icon: com.front.fameex.webp
   meta: removed
   verdict: custodial
   developerName: FAMEEX FOUNDATION LTD.
 
 ---
+
+**Update 2026-10-30:** FameEX still runs its exchange at [fameex.com](https://www.fameex.com/en-US) and now offers new apps under different IDs: `com.trade.view.fame` on Android (FAMEEX INTERNATIONAL PTY LTD) and `info.fame.ex.app` on iPhone (FameX Ltd, released August 2025), both linked from its [download page](https://www.fameex.com/en-US/download). They are not reviewed here yet.
 
 ## Android
 

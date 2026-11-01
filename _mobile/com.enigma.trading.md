@@ -1,6 +1,6 @@
 ---
 title: 'BFX Standard: Crypto & Forex'
-date: 2023-01-02
+date: 2026-10-30
 website: https://bfxstandard.com/
 redirect_from:
 - /android/com.enigma.trading/
@@ -10,7 +10,6 @@ android:
   released: 2022-04-27
   updated: 2022-09-29
   version: 1.1.8
-  icon: com.enigma.trading.webp
   meta: removed
   verdict: wip
 

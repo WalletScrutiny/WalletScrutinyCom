@@ -1,6 +1,6 @@
 ---
 title: Unido
-date: 2025-07-24
+date: 2026-10-30
 authors:
 - danny
 website: https://unido.us/
@@ -22,7 +22,6 @@ android:
   released: 2019-02-15
   updated: 2025-01-17
   version: 4.5.1
-  icon: com.worldwebms.multisigwallet.webp
   meta: removed
   verdict: nosource
   developerName: WorldWeb Group Pty Ltd
@@ -34,7 +33,6 @@ iphone:
   updated: 2023-12-15
   version: 4.5.0
   reviews: 9
-  icon: com.worldwebms.MultiPAC.webp
   meta: removed
   verdict: nosource
   developerName: WorldWeb Management Services Pty Ltd

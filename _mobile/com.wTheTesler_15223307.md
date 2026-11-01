@@ -1,6 +1,6 @@
 ---
 title: The Tesler
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/com.wTheTesler_15223307/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-02-24
   updated: 2022-02-24
   version: '1.0'
-  icon: com.wTheTesler_15223307.webp
   meta: removed
   verdict: wip
 

@@ -1,9 +1,9 @@
 ---
 title: easyMarkets Online Trading
-date: 2021-09-10
+date: 2026-10-30
 authors:
 - danny
-website: https://www.easymarkets.com/
+website: https://www.easy-markets.com/
 twitter: easymarkets
 social:
 - https://www.linkedin.com/company/easymarkets
@@ -19,7 +19,6 @@ android:
   updated: 2026-09-23
   version: 3.4.3
   reviews: 41
-  icon: giniapps.easymarkets.com.webp
   meta: ok
   verdict: custodial
   developerName: easyMarkets
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-08-27
   version: 6.4.6
   reviews: 228
-  icon: com.easyforex.trading.webp
   meta: ok
   verdict: custodial
   developerName: Blue Capital Markets Limited
@@ -39,6 +37,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The easymarkets.com website is gone; the broker now runs at [easy-markets.com](https://www.easy-markets.com/). The links below to the Bitcoin account page and the 2021 client agreement are dead.
 
 At the onset, it would appear that it is a general investment site which trades shares, indices, metals, forex, commodities and cryptocurrencies.
 

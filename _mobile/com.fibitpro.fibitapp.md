@@ -1,15 +1,14 @@
 ---
 title: Fibit Pro
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
-website: https://fibitpro.com
+website: https://fibitpro.com#deadLink
 twitter: fibitpro
 social:
 - https://www.linkedin.com/company/fibits
 - https://www.facebook.com/fibitproexchange
 - https://telegram.org/fibitpro
-- https://fibitpro.com
 redirect_from:
 - /android/com.fibitpro.fibitapp/
 - /iphone/com.fibit.ios/
@@ -20,7 +19,6 @@ android:
   updated: 2023-10-23
   version: 0.9.1
   reviews: 61
-  icon: com.fibitpro.fibitapp.webp
   meta: removed
   verdict: custodial
   developerName: Fibit Infotech Pvt. Ltd.
@@ -32,12 +30,13 @@ iphone:
   updated: 2023-09-08
   version: 1.1.3
   reviews: 10
-  icon: com.fibit.ios.webp
   meta: removed
   verdict: custodial
   developerName: Fibit Infotech Pvt. Ltd.
 
 ---
+
+**Update 2026-10-30:** The fibitpro.com website no longer shows the exchange: the domain now carries an unrelated gambling page. The exchange site was [last archived in December 2025](https://web.archive.org/web/20251216215247/https://fibitpro.com/). We found no official notice about what happened to Fibit Pro or its users' funds.
 
 ## Android
 
@@ -47,7 +46,7 @@ iphone:
 
 ## Analysis 
 
-- According to the [terms](https://fibitpro.com/terms), upon signing up, the user will be provided with a wallet that is subject to the agreement.
+- According to the [terms](https://fibitpro.com/terms#deadLink), upon signing up, the user will be provided with a wallet that is subject to the agreement.
 - The provider may suspend accounts and wallets at any time for reasons given in the terms.
 - There is a BTC wallet but with a notice that deposits are currently suspended. 
 - The mnemonic phrase was not given during registration. 

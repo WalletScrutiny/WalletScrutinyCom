@@ -1,6 +1,6 @@
 ---
 title: Relampago
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: https://relampago.bigsun.xyz#deadLink
@@ -11,7 +11,6 @@ android:
   users: 100
   updated: 2019-12-03
   version: VARY
-  icon: xyz.bigsun.relampago.webp
   meta: removed
   verdict: wip
   developerName: fiatjaf

@@ -1,6 +1,6 @@
 ---
 title: 'Swaps: buy BTC, USDT crypto. Tether, bitcoin store'
-date: 2022-02-16
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2021-04-14
   updated: 2021-05-13
   version: '3.0'
-  icon: com.mitin.app.sw.webp
   meta: removed
   verdict: custodial
 

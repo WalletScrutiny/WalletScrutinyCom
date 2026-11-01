@@ -1,6 +1,6 @@
 ---
 title: Bittrade
-date: 2024-09-18
+date: 2026-10-30
 website: https://www.bittrade.biz#deadLink
 redirect_from:
 - /android/com.app.bittrade/
@@ -10,7 +10,6 @@ android:
   released: 2022-02-28
   updated: 2022-03-01
   version: '1.0'
-  icon: com.app.bittrade.webp
   meta: removed
   verdict: wip
   developerName: AAROTA SOFT TECH

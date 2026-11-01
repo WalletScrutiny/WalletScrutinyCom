@@ -1,6 +1,6 @@
 ---
 title: ASIC Wallet
-date: 2024-02-05
+date: 2026-10-30
 redirect_from:
 - /android/wallet.crypto.asiccoinpro/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-11-01
   updated: 2021-11-01
   version: '1.0'
-  icon: wallet.crypto.asiccoinpro.webp
   meta: removed
   verdict: wip
   developerName: ASIC wallet

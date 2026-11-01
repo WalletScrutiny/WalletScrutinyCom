@@ -1,6 +1,6 @@
 ---
 title: Buy Crypto Nz
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/buy.crypto.nz/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-16
   updated: 2021-06-16
   version: '1.0'
-  icon: buy.crypto.nz.webp
   meta: removed
   verdict: wip
 

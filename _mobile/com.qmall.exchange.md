@@ -1,6 +1,6 @@
 ---
 title: Qmall APP
-date: 2025-07-28
+date: 2026-10-30
 authors:
 - danny
 website: https://qmall.io/
@@ -20,7 +20,6 @@ android:
   updated: 2024-07-31
   version: 1.1.59
   reviews: 3
-  icon: com.qmall.exchange.webp
   meta: obsolete
   verdict: custodial
   developerName: Prof-IT Blockchain Limited
@@ -32,7 +31,6 @@ iphone:
   updated: 2024-08-01
   version: 1.1.59
   reviews: 9
-  icon: com.profit.qmall.exchange.webp
   meta: removed
   verdict: custodial
   developerName: QMALL Exchange

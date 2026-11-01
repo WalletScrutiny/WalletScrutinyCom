@@ -1,6 +1,6 @@
 ---
 title: 'SupraFin: Crypto ETH Investing'
-date: 2024-07-25
+date: 2026-10-30
 authors:
 - danny
 website: https://suprafin.io/
@@ -18,7 +18,6 @@ android:
   updated: 2022-05-27
   version: 1.2.35
   reviews: 7
-  icon: com.suprafin.app.usa.webp
   meta: removed
   verdict: custodial
   developerName: SupraFin LTD
@@ -30,12 +29,13 @@ iphone:
   updated: 2022-05-29
   version: 1.2.74
   reviews: 24
-  icon: com.suprafin.usa.app.webp
   meta: removed
   verdict: custodial
   developerName: SupraFin
 
 ---
+
+**Update 2026-10-30:** SupraFin now sells AI risk ratings for crypto to banks and wealth managers and no longer offers the consumer app [(website)](https://suprafin.io/).
 
 ## Android
 

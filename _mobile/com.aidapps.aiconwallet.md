@@ -1,9 +1,9 @@
 ---
 title: 에이콘 월렛
-date: 2023-06-21
+date: 2026-10-30
 authors:
 - danny
-website: https://www.aicon.online/
+website: https://www.aicon.online/#deadLink
 twitter: AiconOfficial
 redirect_from:
 - /android/com.aidapps.aiconwallet/
@@ -13,7 +13,6 @@ android:
   released: 2020-10-05
   updated: 2021-03-04
   version: 1.0.1
-  icon: com.aidapps.aiconwallet.webp
   meta: removed
   verdict: wip
   developerName: AI-dapps

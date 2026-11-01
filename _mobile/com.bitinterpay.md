@@ -1,6 +1,6 @@
 ---
 title: BitInterPay
-date: 2024-05-18
+date: 2026-10-30
 website: https://bitinterpay.com
 redirect_from:
 - /android/com.bitinterpay/
@@ -10,7 +10,6 @@ android:
   released: 2020-08-26
   updated: 2020-09-17
   version: '1.0'
-  icon: com.bitinterpay.webp
   meta: removed
   verdict: wip
   developerName: Bitinterpay OÜ

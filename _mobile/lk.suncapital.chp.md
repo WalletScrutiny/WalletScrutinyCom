@@ -1,7 +1,7 @@
 ---
 title: CHP Wallet
-date: 2023-01-02
-website: https://www.suncapital.lk
+date: 2026-10-30
+website: https://www.suncapital.lk#deadLink
 redirect_from:
 - /android/lk.suncapital.chp/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2020-11-02
   updated: 2021-09-22
   version: 1.0.10
-  icon: lk.suncapital.chp.webp
   meta: removed
   verdict: wip
   developerName: Sun Capital International

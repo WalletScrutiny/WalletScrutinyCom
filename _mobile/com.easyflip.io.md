@@ -1,6 +1,6 @@
 ---
 title: EasyFlip
-date: 2023-12-19
+date: 2026-10-30
 website: https://easyflip.io#deadLink
 redirect_from:
 - /android/com.easyflip.io/
@@ -10,7 +10,6 @@ android:
   released: 2022-07-11
   updated: 2022-12-04
   version: 1.0.1
-  icon: com.easyflip.io.webp
   meta: removed
   verdict: wip
   developerName: EasyFlip

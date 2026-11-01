@@ -1,6 +1,6 @@
 ---
 title: GFB Trading Group
-date: 2024-04-19
+date: 2026-10-30
 website: https://gfbtrading-group.com#deadLink
 redirect_from:
 - /android/gfb.trading.group/
@@ -10,7 +10,6 @@ android:
   released: 2020-02-14
   updated: 2020-02-18
   version: '1.1'
-  icon: gfb.trading.group.webp
   meta: removed
   verdict: wip
   developerName: GFB Trading Group

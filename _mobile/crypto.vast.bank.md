@@ -1,6 +1,6 @@
 ---
 title: Vast Bank Mobile
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.vast.bank
@@ -18,7 +18,6 @@ android:
   updated: 2023-12-18
   version: 1.7.15
   reviews: 69
-  icon: crypto.vast.bank.webp
   meta: removed
   verdict: custodial
   developerName: Vast Bank
@@ -30,12 +29,13 @@ iphone:
   updated: 2024-01-03
   version: 1.7.15
   reviews: 83
-  icon: crypto.vast.bank.webp
   meta: removed
   verdict: custodial
   developerName: Vast Bank N.A.
 
 ---
+
+**Update 2026-10-30:** Vast Bank shut this app down on January 31, 2024 and left crypto altogether. Customers' crypto was sold and their crypto accounts closed ([Cointelegraph](https://cointelegraph.com/news/first-us-bank-customers-keep-cryptocurrency-checking-account-exits-crypto), [FinTech Futures](https://www.fintechfutures.com/digital-banking/vast-bank-exits-cryptocurrency-market-closes-crypto-banking-mobile-app)). The bank itself still runs as a regular bank.
 
 ## Android
 

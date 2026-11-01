@@ -1,6 +1,6 @@
 ---
 title: Transaction
-date: 2023-04-12
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2022-03-27
   updated: 2022-09-05
   version: '1.3'
-  icon: com.trxglobal.owgkf.webp
   meta: removed
   verdict: wip
   developerName: hiu390hf

@@ -1,6 +1,6 @@
 ---
 title: 'BTCC Lite: Trade BTC & ETH'
-date: 2023-08-23
+date: 2026-10-30
 authors:
 - danny
 website: https://h5.btpiccdn.com/en-US/article/Customer_Service2
@@ -21,7 +21,6 @@ android:
   updated: 2026-08-24
   version: 3.5.45
   reviews: 88
-  icon: com.btcc.BTCCReactNative.webp
   meta: ok
   verdict: custodial
   developerName: BTCC international
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-08-27
   version: 3.5.45
   reviews: 193
-  icon: com.btcc.BTCCReactNative.webp
   meta: ok
   verdict: custodial
   developerName: BTCC Limited

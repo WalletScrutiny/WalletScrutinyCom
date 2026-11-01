@@ -1,6 +1,6 @@
 ---
 title: 'MyMoneyMachine: Crypto Robots'
-date: 2024-09-21
+date: 2026-10-30
 redirect_from:
 - /android/com.mymoneymachine.app/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-04-19
   updated: 2022-08-05
   version: '1.4'
-  icon: com.mymoneymachine.app.webp
   meta: removed
   verdict: wip
   developerName: MyMoneyMachine

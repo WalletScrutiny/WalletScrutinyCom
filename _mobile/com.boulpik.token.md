@@ -1,6 +1,6 @@
 ---
 title: Boulpik Crypto Wallet
-date: 2024-10-28
+date: 2026-10-30
 redirect_from:
 - /android/com.boulpik.token/
 android:
@@ -10,7 +10,6 @@ android:
   updated: 2022-09-12
   version: '1.4'
   reviews: 2
-  icon: com.boulpik.token.webp
   meta: removed
   verdict: wip
   developerName: Boulpik Trading LLC

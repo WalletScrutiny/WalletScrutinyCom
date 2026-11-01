@@ -1,6 +1,6 @@
 ---
 title: Mobilink Wallet
-date: 2023-05-30
+date: 2026-10-30
 authors:
 - danny
 website: https://mobilinktoken.com/
@@ -13,7 +13,6 @@ android:
   released: 2019-06-26
   updated: 2019-08-17
   version: '1.4'
-  icon: com.mobilink.token.webp
   meta: removed
   verdict: wip
   developerName: B2GO APPS
@@ -35,7 +34,7 @@ android:
 
 > Technical issue
 
-- The new website also [details](https://mobilinktoken.com/index.php/faq/) a change in management: 
+- The new website also [details](https://web.archive.org/web/20260218083409/https://mobilinktoken.com/index.php/faq/) a change in management: 
 
 > What happened to Mobilink’s Telegram and lack of communication?
 >

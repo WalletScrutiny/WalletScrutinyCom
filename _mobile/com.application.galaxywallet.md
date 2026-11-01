@@ -1,7 +1,7 @@
 ---
 title: Galaxy Wallet
-date: 2023-01-02
-website: http://www.bluekeymarket.com
+date: 2026-10-30
+website: http://www.bluekeymarket.com#deadLink
 redirect_from:
 - /android/com.application.galaxywallet/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2019-12-09
   updated: 2020-05-19
   version: '1.2'
-  icon: com.application.galaxywallet.webp
   meta: removed
   verdict: wip
 

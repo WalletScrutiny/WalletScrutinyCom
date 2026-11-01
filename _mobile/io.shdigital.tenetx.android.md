@@ -1,7 +1,7 @@
 ---
 title: TenetX
-date: 2024-04-19
-website: https://tenetx.io
+date: 2026-10-30
+website: https://tenetx.io#deadLink
 redirect_from:
 - /android/io.shdigital.tenetx.android/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2022-07-09
   updated: 2022-12-28
   version: 1.0.19
-  icon: io.shdigital.tenetx.android.webp
   meta: removed
   verdict: wip
   developerName: SHDigital

@@ -1,6 +1,6 @@
 ---
 title: Fluency - The Global Cryptoban
-date: 2023-05-31
+date: 2026-10-30
 authors:
 - danny
 website: https://www.fluencybank.com#deadLink
@@ -13,7 +13,6 @@ android:
   updated: 2020-04-29
   version: 1.0.0
   reviews: 8
-  icon: com.nbdu.fluency_bank.webp
   meta: removed
   verdict: custodial
   developerName: Fluency App Ltd.

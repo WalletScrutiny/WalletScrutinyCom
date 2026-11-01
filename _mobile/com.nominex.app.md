@@ -1,6 +1,6 @@
 ---
 title: 'Nominex: Cryptocurrency tradin'
-date: 2023-09-04
+date: 2026-10-30
 authors:
 - danny
 website: https://nominex.io/defi-nmx
@@ -19,7 +19,6 @@ android:
   updated: 2021-12-13
   version: 1.4.0
   reviews: 38
-  icon: com.nominex.app.webp
   meta: removed
   verdict: custodial
   developerName: Nominex Ltd.
@@ -30,12 +29,13 @@ iphone:
   updated: 2022-06-23
   version: 1.4.1
   reviews: 32
-  icon: com.nominex.app.webp
   meta: removed
   verdict: custodial
   developerName: Nominex Limited
 
 ---
+
+**⚠️ Warning:** Nominex is shut down. It [announced its closure](https://nominex.io/sunset), stopped trading on December 24, 2024 and disabled all user accounts on April 9, 2025. Its [website](https://nominex.io/) says Nominex Limited was dissolved on October 21, 2025.
 
 ## Android
 

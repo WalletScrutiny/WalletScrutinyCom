@@ -1,6 +1,6 @@
 ---
 title: 'Ult: Trade Stocks & Crypto'
-date: 2021-10-24
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -29,7 +29,6 @@ android:
   updated: 2026-10-09
   version: 3.0.2
   reviews: 3833
-  icon: com.defi.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Cronos Technologies Limited
@@ -41,12 +40,13 @@ iphone:
   updated: 2026-10-12
   version: 3.0.2
   reviews: 22496
-  icon: com.defi.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Cronos Technologies Limited
 
 ---
+
+**Update 2026-10-30:** The app formerly known as Crypto.com Onchain is now called "Ult" and comes from Cronos Labs ([ult.trade](https://ult.trade/)), on Android and on iPhone. The old wallet lives on inside it, next to a new trading mode for crypto, tokenized stocks, perpetual futures and sports predictions.
 
 ## Android
 

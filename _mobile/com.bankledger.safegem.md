@@ -1,6 +1,6 @@
 ---
 title: 安宝
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/com.bankledger.safegem/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2019-08-15
   updated: 2019-08-20
   version: 1.2.0
-  icon: com.bankledger.safegem.webp
   meta: removed
   verdict: wip
   developerName: 银链团队

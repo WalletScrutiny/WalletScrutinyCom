@@ -1,6 +1,6 @@
 ---
 title: Satoshi Bot
-date: 2025-02-04
+date: 2026-10-30
 redirect_from:
 - /android/www.satoshibot.org/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-05-20
   updated: 2022-05-20
   version: 1.0.0
-  icon: www.satoshibot.org.webp
   meta: removed
   verdict: wip
   developerName: NFT Beast

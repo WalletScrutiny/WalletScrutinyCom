@@ -1,9 +1,9 @@
 ---
 title: PumaPay Blockchain wallet - Bu
-date: 2024-05-18
+date: 2026-10-30
 authors:
 - leo
-website: http://pumapay.io
+website: http://pumapay.io#deadLink
 twitter: PumaPay
 social:
 - https://www.linkedin.com/company/decentralized-vision
@@ -20,7 +20,6 @@ android:
   updated: 2021-10-25
   version: 3.9.9
   reviews: 23
-  icon: com.pumapay.pumawallet.webp
   meta: removed
   verdict: nosource
   developerName: Decentralized Vision Ltd
@@ -31,12 +30,13 @@ iphone:
   updated: 2021-10-25
   version: '2.102'
   reviews: 17
-  icon: com.pumapay.pumawallet.webp
   meta: removed
   verdict: nosource
   developerName: Decentralized Vision Limited
 
 ---
+
+**Update 2026-10-30:** PumaPay discontinued this mobile wallet. With PumaPay V3.0 users connect through browser wallets like MetaMask, and the provider announced the app would be dropped ([press release](https://coincheckup.com/blog/pumapay-v3-0-alpha-is-now-ready-on-testnet/)). The PumaPay website no longer loads.
 
 ## Android
 

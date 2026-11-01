@@ -1,7 +1,7 @@
 ---
 title: beyond wallet
-date: 2024-07-05
-website: https://www.mybeyondwallet.com
+date: 2026-10-30
+website: https://www.mybeyondwallet.com#deadLink
 redirect_from:
 - /android/com.beyondwallet.app/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-01-11
   updated: 2023-10-19
   version: VARY
-  icon: com.beyondwallet.app.webp
   meta: removed
   verdict: wip
   developerName: Frictionless Money LLC

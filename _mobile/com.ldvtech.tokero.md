@@ -1,9 +1,9 @@
 ---
 title: TOKERO
-date: 2023-04-28
+date: 2026-10-30
 authors:
 - danny
-website: https://web.tokero.com
+website: https://exchange.tokero.com
 twitter: tokeroexchange
 social:
 - https://www.facebook.com/TokeroExchange/
@@ -20,7 +20,6 @@ android:
   updated: 2025-04-18
   version: 4.5.3
   reviews: 5
-  icon: com.ldvtech.tokero.webp
   meta: removed
   verdict: custodial
   developerName: Globe Monnaie SRL
@@ -32,12 +31,13 @@ iphone:
   updated: 2025-04-22
   version: '4.5'
   reviews: 25
-  icon: com.ldvtech.tokero.webp
   meta: removed
   verdict: custodial
   developerName: Globe Monnaie SRL
 
 ---
+
+**Update 2026-10-30:** The TOKERO app is no longer in either store. Tokero still runs its exchange on the [website](https://exchange.tokero.com/en/), where BTC can be bought, sold and withdrawn. Its main site [tokero.com](https://tokero.com/en/) is now a social network, and its new TOKERO SocialFi app is a social app without a wallet.
 
 ## Android
 

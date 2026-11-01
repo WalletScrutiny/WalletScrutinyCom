@@ -1,6 +1,6 @@
 ---
 title: Crypto Swap Crypto Exchange
-date: 2021-11-16
+date: 2026-10-30
 redirect_from:
 - /android/com.kptech.pezz.cryptoswap/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2019-03-25
   updated: 2019-05-31
   version: '1.8'
-  icon: com.kptech.pezz.cryptoswap.webp
   meta: removed
   verdict: wip
 

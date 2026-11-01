@@ -1,6 +1,6 @@
 ---
 title: تهران رمز ارز
-date: 2023-05-09
+date: 2026-10-30
 authors:
 - danny
 website: https://tehranramzarz.com
@@ -12,7 +12,6 @@ android:
   released: 2019-10-05
   updated: 2019-11-11
   version: '1.1'
-  icon: app.xpay.tehranramzarz.webp
   meta: removed
   verdict: wip
   developerName: charset

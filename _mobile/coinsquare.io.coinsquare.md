@@ -1,6 +1,6 @@
 ---
 title: Coinsquare
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - leo
 website: http://coinsquare.com
@@ -18,11 +18,12 @@ android:
   updated: 2022-03-18
   version: 2.13.15
   reviews: 15
-  icon: coinsquare.io.coinsquare.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** Coinsquare now offers its exchange in the app {% include walletLink.html wallet='android/com.coinsquare.app.quicktrade' verdict='true' %}. [Robinhood bought WonderFi](https://robinhood.com/us/en/newsroom/robinhood-enters-canada-completes-acquisition-wonderfi/), the owner of Coinsquare, and plans to move Coinsquare customers to the Robinhood app.
 
 This is the interface for an exchange. In the description we read:
 

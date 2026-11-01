@@ -1,6 +1,6 @@
 ---
 title: PowerTrade
-date: 2026-01-14
+date: 2026-10-30
 authors:
 - danny
 website: https://power.trade/
@@ -15,7 +15,6 @@ android:
   released: 2021-07-27
   updated: 2025-12-11
   version: 3.2.1
-  icon: com.pt.powertrade.webp
   meta: ok
   verdict: custodial
   developerName: PowerTrade
@@ -27,7 +26,6 @@ iphone:
   updated: 2024-01-19
   version: 3.0.8
   reviews: 1
-  icon: com.pt.powertrade.webp
   meta: removed
   verdict: custodial
   developerName: Power Trade

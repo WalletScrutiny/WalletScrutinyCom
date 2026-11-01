@@ -1,6 +1,6 @@
 ---
 title: MeeyWallet
-date: 2024-05-07
+date: 2026-10-30
 authors:
 - danny
 website: https://meeyinvest.com
@@ -12,7 +12,6 @@ android:
   released: 2020-03-23
   updated: 2020-07-13
   version: '7.0'
-  icon: com.org.meeyinvest.webp
   meta: removed
   verdict: wip
   developerName: MEEY INVEST GLOBAL PTE. LTD

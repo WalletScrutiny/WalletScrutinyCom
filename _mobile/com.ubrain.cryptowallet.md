@@ -1,6 +1,6 @@
 ---
 title: Crypto Wallet
-date: 2025-04-09
+date: 2026-10-30
 redirect_from:
 - /android/com.ubrain.cryptowallet/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2022-04-22
   updated: 2023-04-18
   version: '1.1'
-  icon: com.ubrain.cryptowallet.webp
   meta: removed
   verdict: wip
   developerName: Mitul Bhadeshiya

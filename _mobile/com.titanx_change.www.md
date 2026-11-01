@@ -1,6 +1,6 @@
 ---
 title: TitanXchange
-date: 2024-02-05
+date: 2026-10-30
 website: https://titan-xchange.com#deadLink
 redirect_from:
 - /android/com.titanx_change.www/
@@ -10,7 +10,6 @@ android:
   released: 2022-10-19
   updated: 2023-07-24
   version: 1.4.3
-  icon: com.titanx_change.www.webp
   meta: removed
   verdict: wip
   developerName: SRA Technologies Limited

@@ -1,6 +1,6 @@
 ---
 title: Make Money
-date: 2023-01-02
+date: 2026-10-30
 website: https://combaijialesfvbwe.xyz#deadLink
 redirect_from:
 - /android/com.international.fhow/
@@ -10,7 +10,6 @@ android:
   released: 2022-03-24
   updated: 2022-09-08
   version: '1.1'
-  icon: com.international.fhow.webp
   meta: removed
   verdict: wip
 

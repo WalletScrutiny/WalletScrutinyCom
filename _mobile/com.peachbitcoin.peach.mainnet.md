@@ -1,6 +1,6 @@
 ---
 title: Peach Bitcoin
-date: 2025-11-26
+date: 2026-10-30
 authors:
 - danny
 website: https://peachbitcoin.com
@@ -24,7 +24,6 @@ android:
   appCountry: us
   updated: 2026-09-17
   version: 0.69.0
-  icon: com.peachbitcoin.peach.mainnet.webp
   alternativeStores:
   - zapstore
   meta: ok

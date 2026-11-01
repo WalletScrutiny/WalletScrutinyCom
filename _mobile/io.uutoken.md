@@ -1,6 +1,6 @@
 ---
 title: UUToken
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/io.uutoken/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-12-08
   updated: 2022-12-14
   version: 1.0.0
-  icon: io.uutoken.webp
   meta: removed
   verdict: wip
   developerName: DIGITAL FINANCE TRADER INC.

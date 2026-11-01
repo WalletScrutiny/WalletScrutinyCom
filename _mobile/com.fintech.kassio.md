@@ -1,6 +1,6 @@
 ---
 title: Kassio
-date: 2024-10-31
+date: 2026-10-30
 authors:
 - danny
 website: https://kassio.com
@@ -19,7 +19,6 @@ android:
   released: 2022-02-18
   updated: 2023-10-27
   version: 3.1.1
-  icon: com.fintech.kassio.webp
   meta: removed
   verdict: custodial
   developerName: Digital Pung ApS
@@ -31,7 +30,6 @@ iphone:
   updated: 2023-10-27
   version: 1.1.2
   reviews: 12
-  icon: com.Kassio.webp
   meta: removed
   verdict: custodial
   developerName: Digital Pung ApS

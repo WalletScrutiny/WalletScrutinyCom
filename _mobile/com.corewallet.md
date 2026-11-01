@@ -1,7 +1,7 @@
 ---
 title: CORE MultiChain Crypto Wallet
-date: 2023-08-16
-website: https://wallet.coremultichain.com/
+date: 2026-10-30
+website: https://wallet.coremultichain.com/#deadLink
 redirect_from:
 - /android/com.corewallet/
 android:
@@ -11,7 +11,6 @@ android:
   updated: 2023-02-01
   version: 1.0.0
   reviews: 1
-  icon: com.corewallet.webp
   meta: removed
   verdict: wip
   developerName: CORE Technology

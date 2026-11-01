@@ -17,11 +17,10 @@ shop:
 country: 
 price: 
 repository: https://github.com/hynek-jina/lotes
-icon: 
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2023-12-08
+date: 2026-10-30
 signer: 
 twitter: 
 social: 

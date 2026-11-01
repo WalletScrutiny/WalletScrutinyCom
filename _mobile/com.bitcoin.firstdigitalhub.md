@@ -1,6 +1,6 @@
 ---
 title: Bitcoin
-date: 2021-09-04
+date: 2026-10-30
 redirect_from:
 - /android/com.bitcoin.firstdigitalhub/
 android:
@@ -10,7 +10,6 @@ android:
   updated: 2021-05-15
   version: 1.9.3.0.13
   reviews: 148
-  icon: com.bitcoin.firstdigitalhub.webp
   meta: removed
   verdict: wip
 

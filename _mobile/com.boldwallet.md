@@ -1,6 +1,6 @@
 ---
 title: Bold Bitcoin Wallet
-date: 2026-01-14
+date: 2026-10-30
 website: https://boldbitcoinwallet.com
 redirect_from:
 - /android/com.boldwallet/
@@ -11,7 +11,6 @@ android:
   released: 2025-07-15
   updated: 2026-09-28
   version: 4.1.0
-  icon: com.boldwallet.webp
   alternativeStores:
   - zapstore
   meta: fewusers

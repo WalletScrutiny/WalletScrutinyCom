@@ -1,6 +1,6 @@
 ---
 title: Coin Wallet - Bitcoin & Crypto
-date: 2023-04-22
+date: 2026-10-30
 authors:
 - leo
 website: https://coin.space
@@ -29,7 +29,6 @@ android:
   updated: 2026-09-29
   version: 6.30.0
   reviews: 112
-  icon: com.coinspace.app.webp
   meta: ok
   verdict: sourceavailable
   developerName: CoinSpace
@@ -43,7 +42,6 @@ iphone:
   updated: 2026-09-30
   version: 6.30.0
   reviews: 506
-  icon: com.coinspace.wallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: CoinSpace

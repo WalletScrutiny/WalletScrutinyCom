@@ -1,6 +1,6 @@
 ---
 title: Yieldz Wallet
-date: 2026-09-14
+date: 2026-10-30
 website: https://www.yieldz.net
 android:
   appId: com.yieldz.wallet
@@ -9,7 +9,6 @@ android:
   released: 2026-03-12
   updated: 2026-10-05
   version: 3.0.3
-  icon: com.yieldz.wallet.webp
   meta: fewusers
   verdict: wip
   developerName: Yieldz Holding
@@ -21,7 +20,6 @@ iphone:
   updated: 2026-10-02
   version: 2.0.0
   reviews: 0
-  icon: com.yieldz.wallet.webp
   meta: ok
   verdict: wip
   developerName: Yieldz, Inc.

@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Bank Breaker Official
-date: 2023-09-28
+date: 2026-10-30
 redirect_from:
 - /android/com.bitcoin.m.bitcoinbankbreaker.official/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-09-07
   updated: 2022-09-07
   version: '1.0'
-  icon: com.bitcoin.m.bitcoinbankbreaker.official.webp
   meta: removed
   verdict: wip
   developerName: JIRARI Rol

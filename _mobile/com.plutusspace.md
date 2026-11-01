@@ -1,6 +1,6 @@
 ---
 title: Обменник криптовалют Plutus
-date: 2024-02-05
+date: 2026-10-30
 website: https://plutus.space#deadLink
 redirect_from:
 - /android/com.plutusspace/
@@ -10,7 +10,6 @@ android:
   released: 2022-01-22
   updated: 2022-01-22
   version: '1.0'
-  icon: com.plutusspace.webp
   meta: removed
   verdict: wip
   developerName: Plutus Space LLC

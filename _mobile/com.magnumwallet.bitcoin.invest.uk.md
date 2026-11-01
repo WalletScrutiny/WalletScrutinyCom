@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Invest Uk
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/com.magnumwallet.bitcoin.invest.uk/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-07-18
   updated: 2021-07-18
   version: '1.0'
-  icon: com.magnumwallet.bitcoin.invest.uk.webp
   meta: removed
   verdict: wip
 

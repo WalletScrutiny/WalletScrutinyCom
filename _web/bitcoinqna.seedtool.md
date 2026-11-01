@@ -12,11 +12,10 @@ provider: Foundation Devices
 providerWebsite: 
 website: https://bitcoiner.guide/seed/
 repository: https://github.com/BitcoinQnA/seedtool
-icon: 
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-04-23
+date: 2026-10-30
 twitter: BitcoinQ_A
 social: 
 features: 

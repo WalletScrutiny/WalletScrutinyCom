@@ -1,7 +1,7 @@
 ---
 title: GRX Trade
-date: 2023-08-04
-website: https://www.growdex.com/
+date: 2026-10-30
+website: https://www.growdex.com/#deadLink
 redirect_from:
 - /android/com.grxtrade.app/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2020-02-14
   updated: 2020-11-30
   version: 0.7.4
-  icon: com.grxtrade.app.webp
   meta: removed
   verdict: wip
   developerName: Growdex

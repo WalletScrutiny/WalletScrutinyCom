@@ -1,6 +1,6 @@
 ---
 title: Exnovin اکسنوین | بازار رمزارز
-date: 2021-09-15
+date: 2026-10-30
 authors:
 - danny
 website: https://exnovin.io
@@ -18,12 +18,13 @@ android:
   updated: 2025-10-20
   version: 3.5.9
   reviews: 24
-  icon: io.exnovin.app.webp
   meta: ok
   verdict: custodial
   developerName: EX NOVIN
 
 ---
+
+**Update 2026-10-30:** This app is gone from Google Play in every country we tried, including Iran. [exnovin.io](https://exnovin.io/) still links to this appId and offers a direct APK download.
 
 There are two apps with the same name of {% include walletLink.html wallet='android/com.exnovin' verdict='true' %}. Both appear to be created by the same developer [Team App E](https://play.google.com/store/apps/developer?id=Team+App+E). Both are Iranian. However, both have different website domains. This specific app links to [exnovin.io](https://exnovin.io).
 

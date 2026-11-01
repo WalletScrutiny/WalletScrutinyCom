@@ -1,6 +1,6 @@
 ---
 title: DeFi Bitcoin Wallets
-date: 2022-03-24
+date: 2026-10-30
 redirect_from:
 - /android/com.cryptowallet.defi/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-08-08
   updated: 2021-08-08
   version: 0.21.4
-  icon: com.cryptowallet.defi.webp
   meta: removed
   verdict: wip
 

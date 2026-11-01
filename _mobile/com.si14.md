@@ -1,6 +1,6 @@
 ---
 title: Si14 Crypto Wallet
-date: 2025-12-08
+date: 2026-10-30
 authors:
 - danny
 website: https://si14cw.com
@@ -21,7 +21,6 @@ android:
   released: 2025-05-05
   updated: 2026-05-15
   version: 1.2.7
-  icon: com.si14.webp
   meta: ok
   verdict: nosource
   developerName: SMRT wallets
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-07-24
   version: 1.2.7
   reviews: 3
-  icon: com.si14wallet.webp
   meta: ok
   verdict: nosource
   developerName: Si14 AG

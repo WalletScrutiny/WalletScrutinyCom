@@ -1,6 +1,6 @@
 ---
 title: Bit Teller
-date: 2024-04-03
+date: 2026-10-30
 website: https://bit-teller.com
 redirect_from:
 - /android/come.bitteller.bitteller/
@@ -10,7 +10,6 @@ android:
   released: 2021-12-30
   updated: 2021-12-31
   version: 1.0.0
-  icon: come.bitteller.bitteller.webp
   meta: removed
   verdict: wip
   developerName: Djokhar

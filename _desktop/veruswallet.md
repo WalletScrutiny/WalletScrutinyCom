@@ -12,11 +12,10 @@ provider:
 providerWebsite: 
 website: https://verus.io
 repository: https://github.com/VerusCoin/Verus-Desktop
-icon: veruswallet.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-09-25
+date: 2026-10-30
 twitter: veruscoin
 social: 
 builds: 

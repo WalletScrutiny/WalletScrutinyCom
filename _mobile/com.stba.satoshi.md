@@ -1,6 +1,6 @@
 ---
 title: Satoshi | The Bitcoin App
-date: 2024-12-17
+date: 2026-10-30
 website: https://satoshi.money/
 appCountry: us
 redirect_from:
@@ -12,7 +12,6 @@ iphone:
   updated: 2025-08-30
   version: 1.0.16
   reviews: 38
-  icon: com.stba.satoshi.webp
   meta: removed
   verdict: wip
   developerName: Satoshi

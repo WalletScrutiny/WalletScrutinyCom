@@ -1,6 +1,6 @@
 ---
 title: 'Black Box Algorithm Builder - '
-date: 2024-03-02
+date: 2026-10-30
 website: https://www.youtube.com/c/CryptoCrasher/live
 redirect_from:
 - /android/com.blackbox.tradingbot/
@@ -9,7 +9,6 @@ android:
   users: 1000
   updated: 2019-09-11
   version: VARY
-  icon: com.blackbox.tradingbot.webp
   meta: removed
   verdict: wip
   developerName: Black Box Apps

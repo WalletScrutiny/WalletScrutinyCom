@@ -1,6 +1,6 @@
 ---
 title: F1EX
-date: 2021-10-15
+date: 2026-10-30
 redirect_from:
 - /android/com.foxone.exchange/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2019-03-18
   updated: 2019-05-20
   version: 1.6.2
-  icon: com.foxone.exchange.webp
   meta: removed
   verdict: wip
 

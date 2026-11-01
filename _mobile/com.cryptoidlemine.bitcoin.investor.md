@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Invest
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/com.cryptoidlemine.bitcoin.investor/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-07-20
   updated: 2021-07-20
   version: '1.0'
-  icon: com.cryptoidlemine.bitcoin.investor.webp
   meta: removed
   verdict: wip
 

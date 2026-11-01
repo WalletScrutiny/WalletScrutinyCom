@@ -12,11 +12,10 @@ provider: Michael Hrenka
 providerWebsite: 
 website: https://app.bitboard-wallet.com
 repository: https://github.com/Radivis/bitboard-pwa-wallet
-icon: bitboard.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2026-04-29
+date: 2026-10-30
 twitter: RadiVis
 social: 
 features: 

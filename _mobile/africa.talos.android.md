@@ -1,6 +1,6 @@
 ---
 title: Talos
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 website: https://talos.africa#deadLink
@@ -18,7 +18,6 @@ android:
   released: 2021-07-04
   updated: 2022-05-27
   version: 2.2.5
-  icon: africa.talos.android.webp
   meta: removed
   verdict: custodial
   developerName: Talos Africa

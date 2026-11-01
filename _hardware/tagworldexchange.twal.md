@@ -17,11 +17,10 @@ shop:
 country: UK
 price: 
 repository: 
-icon: tagworldexchange.twal.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-05-04
+date: 2026-10-30
 signer: 
 twitter: TWEXInfo
 social:

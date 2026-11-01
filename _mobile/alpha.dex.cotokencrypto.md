@@ -1,6 +1,6 @@
 ---
 title: Cotoken
-date: 2024-02-05
+date: 2026-10-30
 redirect_from:
 - /android/alpha.dex.cotokencrypto/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2023-03-29
   updated: 2023-03-30
   version: '1.0'
-  icon: alpha.dex.cotokencrypto.webp
   meta: removed
   verdict: wip
   developerName: Riley Thomas Swanston

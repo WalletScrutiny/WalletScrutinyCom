@@ -1,6 +1,6 @@
 ---
 title: Samourai Bitcoin Wallet
-date: 2021-09-10
+date: 2026-10-30
 authors:
 - emanuel
 - leo
@@ -13,7 +13,6 @@ android:
   released: 2021-07-31
   updated: 2021-08-01
   version: '9.8'
-  icon: samurai.wallet.crypto.webp
   meta: removed
   verdict: fake
 

@@ -1,6 +1,6 @@
 ---
 title: ProfitTradingApp For KuCoin
-date: 2021-09-20
+date: 2026-10-30
 authors:
 - danny
 website: https://profittradingapp.com?utm_source=kucoin_gp
@@ -17,12 +17,13 @@ android:
   updated: 2026-03-25
   version: 8.1.1
   reviews: 21
-  icon: com.profittrading.forkucoin.webp
   meta: ok
   verdict: custodial
   developerName: ProfitTradingApp
 
 ---
+
+**Update 2026-10-30:** The current store description says the API keys "are encrypted and securely stored locally on your device and are never transmitted to our servers". The app is closed source, so we cannot check this.
 
 The provider [ProfitTradingApp](https://play.google.com/store/apps/dev?id=6470884744111312194) features a list of apps:
 

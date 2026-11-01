@@ -3,8 +3,7 @@ title: Cyclebit Point of Sale
 appId: cyclebit.pos
 authors:
 - danny
-icon: cyclebit.pos.webp
-date: 2022-04-29
+date: 2026-10-30
 website: https://www.cyclebit.io/
 twitter: Cycle_bit
 social:

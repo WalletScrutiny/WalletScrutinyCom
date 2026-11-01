@@ -1,6 +1,6 @@
 ---
 title: Melis Lite Testnet
-date: 2024-02-05
+date: 2026-10-30
 website: https://www.melis.io
 redirect_from:
 - /android/io.melis.testlite/
@@ -10,7 +10,6 @@ android:
   released: 2019-08-06
   updated: 2019-08-06
   version: 0.4.0
-  icon: io.melis.testlite.webp
   meta: removed
   verdict: wip
   developerName: Melis

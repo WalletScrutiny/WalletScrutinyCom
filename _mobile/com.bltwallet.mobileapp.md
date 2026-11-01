@@ -1,6 +1,6 @@
 ---
 title: BLT Wallet
-date: 2023-01-30
+date: 2026-10-30
 website: https://bitlivenow.com/
 redirect_from:
 - /android/com.bltwallet.mobileapp/
@@ -10,7 +10,6 @@ android:
   released: 2021-12-24
   updated: 2022-02-01
   version: '2.5'
-  icon: com.bltwallet.mobileapp.webp
   meta: removed
   verdict: wip
 

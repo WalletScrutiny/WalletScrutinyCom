@@ -1,6 +1,6 @@
 ---
 title: CoinTiger-Crypto Exchange
-date: 2022-01-15
+date: 2026-10-30
 authors:
 - danny
 website: https://www.cointiger.com#deadLink
@@ -19,7 +19,6 @@ android:
   updated: 2023-07-03
   version: 5.13.2
   reviews: 156
-  icon: com.cointiger.ex.webp
   meta: removed
   verdict: custodial
   developerName: CoinTiger Inc.
@@ -30,11 +29,12 @@ iphone:
   updated: 2020-06-23
   version: 5.0.6
   reviews: 96
-  icon: com.cointiger.ex.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** The exchange behind both apps looks shut down. Since [July 2024](https://web.archive.org/web/20240717202031/https://www.cointiger.com/), cointiger.com only shows an error, and CoinMarketCap's [exchange page](https://coinmarketcap.com/exchanges/cointiger/#deadLink) is gone.
 
 ## Android
 

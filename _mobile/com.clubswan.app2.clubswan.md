@@ -1,9 +1,9 @@
 ---
 title: 'Club Swan: Lifestyle & Finance'
-date: 2023-09-04
+date: 2026-10-30
 authors:
 - danny
-website: https://clubswan.com
+website: https://clubswan.com#deadLink
 twitter: clubswanapp
 social:
 - https://www.instagram.com/official_clubswan_app/
@@ -18,7 +18,6 @@ android:
   released: 2021-10-12
   updated: 2021-11-10
   version: 2.3.0
-  icon: com.clubswan.app2.clubswan.webp
   meta: removed
   verdict: custodial
   developerName: AU Card Ltd
@@ -30,12 +29,13 @@ iphone:
   updated: 2021-12-16
   version: 2.4.0
   reviews: 1
-  icon: com.clubswan.app2.Clubswan.webp
   meta: removed
   verdict: custodial
   developerName: AU CARD LIMITED
 
 ---
+
+**⚠️ Warning:** Club Swan is gone. On 2023-08-08 the UK regulator barred its card and account provider Nvayo from issuing e-money, and Nvayo [entered special administration](https://www.fca.org.uk/news/news-stories/nvayo-limited-enters-special-administration) on 2025-02-10. The clubswan.com site now only shows an error.
 
 ## Android
 

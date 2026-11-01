@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Investment
-date: 2021-11-30
+date: 2026-10-30
 authors:
 - danny
 website: http://www.forexsignals99.com#deadLink
@@ -13,7 +13,6 @@ android:
   updated: 2021-08-04
   version: '9.0'
   reviews: 46
-  icon: bitcoin.investmentlimited.webp
   meta: removed
   verdict: wip
 
@@ -25,6 +24,8 @@ android:
 ⚠️ Warning: There are several factors concerning this app that gives us pause. We recommend exercising caution among these kinds of apps.
 
 </div></div>
+
+**Update 2026-10-30:** This provider looks gone. Its website no longer loads and its apps are no longer on Google Play.
 
 ## App Description
 

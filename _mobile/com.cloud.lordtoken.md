@@ -1,9 +1,9 @@
 ---
 title: LordToken Exchange
-date: 2023-09-28
+date: 2026-10-30
 authors:
 - danny
-website: https://lordtoken.com
+website: https://lordtoken.com#deadLink
 twitter: lordtoken_off
 social:
 - https://www.linkedin.com/company/lordtoken-pro
@@ -21,7 +21,6 @@ android:
   released: 2022-05-13
   updated: 2023-05-30
   version: 1.7.0
-  icon: com.cloud.lordtoken.webp
   meta: removed
   verdict: custodial
   developerName: LORD SERVICES
@@ -33,12 +32,13 @@ iphone:
   updated: 2022-12-14
   version: 1.1.0
   reviews: 0
-  icon: com.cloud.lordtoken.webp
   meta: removed
   verdict: custodial
   developerName: LORD SERVICES
 
 ---
+
+**⚠️ Warning:** The LordToken exchange is gone. After Binance Cloud, which held its customers' coins, ended its service, LordToken stopped trading in September 2023 and closed the exchange on September 22, 2023, telling users to withdraw everything; the company moved on as Davensi ([LordToken news, archived](https://web.archive.org/web/20231001125406/https://lordtoken.com/en/news)). The lordtoken.com website no longer shows the exchange.
 
 ## Android
 

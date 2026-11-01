@@ -1,7 +1,7 @@
 ---
 title: X-Wallet by ANSS Limited
-date: 2025-09-23
-website: https://x-wallet.io
+date: 2026-10-30
+website: https://x-wallet.io#deadLink
 redirect_from:
 - /android/com.ansslimited.xwallet/
 android:
@@ -11,7 +11,6 @@ android:
   released: 2021-06-28
   updated: 2025-10-01
   version: 1.1.16
-  icon: com.ansslimited.xwallet.webp
   meta: stale
   verdict: wip
   developerName: AN-SystemStyle Limited

@@ -1,6 +1,6 @@
 ---
 title: V Wallet
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/com.vwallet.vwallet/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-12-13
   updated: 2021-12-14
   version: 1.0.1
-  icon: com.vwallet.vwallet.webp
   meta: removed
   verdict: wip
   developerName: VICTORIA TOKEN

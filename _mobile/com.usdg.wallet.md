@@ -1,6 +1,6 @@
 ---
 title: BESTLA
-date: 2024-04-03
+date: 2026-10-30
 website: https://www.bestla.io#deadLink
 redirect_from:
 - /android/com.usdg.wallet/
@@ -10,7 +10,6 @@ android:
   released: 2020-11-05
   updated: 2023-08-23
   version: '3.8'
-  icon: com.usdg.wallet.webp
   meta: removed
   verdict: wip
   developerName: Lead Capital

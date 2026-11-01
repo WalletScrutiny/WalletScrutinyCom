@@ -1,6 +1,6 @@
 ---
 title: 'OneKey: Bitcoin & Stocks'
-date: 2025-07-21
+date: 2026-10-30
 authors:
 - danny
 website: https://onekey.so
@@ -28,7 +28,6 @@ android:
   updated: 2026-10-10
   version: 6.6.1
   reviews: 100
-  icon: so.onekey.app.wallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: ONEKEY LIMITED
@@ -41,7 +40,6 @@ iphone:
   updated: 2026-10-10
   version: 6.6.1
   reviews: 680
-  icon: so.onekey.wallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: ONEKEY LIMITED

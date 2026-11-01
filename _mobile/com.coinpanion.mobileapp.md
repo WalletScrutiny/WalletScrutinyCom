@@ -1,6 +1,6 @@
 ---
 title: Coinpanion
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 website: https://coinpanion.com
@@ -16,7 +16,6 @@ android:
   released: 2021-02-26
   updated: 2023-07-27
   version: 4.4.7
-  icon: com.coinpanion.mobileapp.webp
   meta: removed
   verdict: nosendreceive
   developerName: Coinpanion
@@ -28,12 +27,13 @@ iphone:
   updated: 2023-07-31
   version: 4.4.7
   reviews: 1
-  icon: com.coinpanion.mobileappios.webp
   meta: removed
   verdict: nosendreceive
   developerName: Revix UK Ltd
 
 ---
+
+**Update 2026-10-30:** Coinpanion [merged with Revix and BitFund in 2023 to form Altify](https://www.altify.app/coinpanion), and coinpanion.com now leads to that merger page. Both Coinpanion apps are gone from the stores; the successor app is Altify ({% include walletLink.html wallet='android/com.revix.app' verdict='true' %}, {% include walletLink.html wallet='iphone/com.revix.mobile' verdict='true' %}).
 
 ## Android
 

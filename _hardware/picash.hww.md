@@ -20,11 +20,10 @@ shop:
 country: UK
 price: 24.99 EUR
 repository: 
-icon: picash.hww.webp
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2023-02-09
+date: 2026-10-30
 signer: 
 twitter: ilinkeds
 social:

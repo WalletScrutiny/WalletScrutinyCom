@@ -1,6 +1,6 @@
 ---
 title: Swipe Wallet
-date: 2021-07-06
+date: 2026-10-30
 authors:
 - leo
 website: https://swipe.io
@@ -18,7 +18,6 @@ android:
   updated: 2021-05-13
   version: '1.901'
   reviews: 1110
-  icon: com.swipe.wallet.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -28,7 +27,6 @@ iphone:
   updated: 2021-05-07
   version: '1.900'
   reviews: 939
-  icon: com.swipe.wallet.webp
   meta: removed
   verdict: custodial
 

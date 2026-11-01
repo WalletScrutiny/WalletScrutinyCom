@@ -1,6 +1,6 @@
 ---
 title: IQ wallet
-date: 2023-01-02
+date: 2026-10-30
 website: http://www.mob1apps.com#deadLink
 redirect_from:
 - /android/com.appsquest.tionchuantung.iqc/
@@ -10,7 +10,6 @@ android:
   released: 2018-06-01
   updated: 2019-01-04
   version: '1.1'
-  icon: com.appsquest.tionchuantung.iqc.webp
   meta: removed
   verdict: wip
 

@@ -1,6 +1,6 @@
 ---
 title: Peer2BTC
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: http://peer2btc.com/
@@ -12,7 +12,6 @@ android:
   released: 2021-03-25
   updated: 2022-04-20
   version: '2.6'
-  icon: com.mlm.application.webp
   meta: removed
   verdict: wip
   developerName: SR Corporation

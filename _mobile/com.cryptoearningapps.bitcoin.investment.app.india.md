@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Investment App India
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/com.cryptoearningapps.bitcoin.investment.app.india/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-29
   updated: 2021-06-29
   version: '1.0'
-  icon: com.cryptoearningapps.bitcoin.investment.app.india.webp
   meta: removed
   verdict: wip
 

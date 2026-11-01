@@ -1,6 +1,6 @@
 ---
 title: CoinCorner - Checkout
-date: 2025-09-17
+date: 2026-10-30
 authors:
 - danny
 website: https://coincorner.com/checkout
@@ -14,7 +14,6 @@ android:
   released: 2022-09-29
   updated: 2025-09-15
   version: 2.7.0
-  icon: com.coincorner.checkout.webp
   meta: stale
   verdict: custodial
   developerName: CoinCorner Ltd
@@ -26,7 +25,6 @@ iphone:
   updated: 2026-03-26
   version: 2.1.0
   reviews: 0
-  icon: com.coincorner.checkout.webp
   meta: ok
   verdict: custodial
   developerName: CoinCorner Ltd

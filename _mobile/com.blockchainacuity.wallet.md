@@ -1,6 +1,6 @@
 ---
 title: Quick Coins Wallet
-date: 2021-12-05
+date: 2026-10-30
 redirect_from:
 - /android/com.blockchainacuity.wallet/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2018-08-01
   updated: 2018-08-01
   version: '5.37'
-  icon: com.blockchainacuity.wallet.webp
   meta: removed
   verdict: wip
 

@@ -1,6 +1,6 @@
 ---
 title: 'SoFi: Bank, Invest & Crypto'
-date: 2026-01-23
+date: 2026-10-30
 authors:
 - danny
 website: https://www.sofi.com
@@ -16,9 +16,8 @@ android:
   updated: 2026-10-09
   version: 3.116.0
   reviews: 21519
-  icon: com.sofi.mobile.webp
   meta: ok
-  verdict: nosendreceive
+  verdict: custodial
   developerName: Social Finance, LLC
 iphone:
   appId: com.sofi.mobile
@@ -28,12 +27,13 @@ iphone:
   updated: 2026-10-09
   version: 3.117.0
   reviews: 385429
-  icon: com.sofi.mobile.webp
   meta: ok
-  verdict: nosendreceive
+  verdict: custodial
   developerName: Social Finance, LLC
 
 ---
+
+**Update 2026-10-30:** SoFi now lets users [send their crypto, including Bitcoin, to external wallets](https://support.sofi.com/hc/en-us/articles/am-i-able-to-transfer-my-crypto-to-an-external-wallet) ([how to send](https://support.sofi.com/hc/en-us/articles/how-do-i-send-crypto-from-my-sofi-account)). The app can now send and receive, but SoFi still holds the coins, so it is {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## Android
 

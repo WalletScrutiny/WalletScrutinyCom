@@ -1,6 +1,6 @@
 ---
 title: B2Z Wallet
-date: 2026-02-20
+date: 2026-10-30
 authors:
 - danny
 website: https://www.b2z.exchange/en/home
@@ -17,7 +17,6 @@ android:
   released: 2022-04-12
   updated: 2026-08-17
   version: 1.16.0
-  icon: com.interakt.b2z.webp
   meta: ok
   verdict: custodial
   developerName: Interakt India

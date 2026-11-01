@@ -1,6 +1,6 @@
 ---
 title: BTC TRADE ONLINE
-date: 2023-01-02
+date: 2026-10-30
 website: http://www.btctradeonline.com#deadLink
 redirect_from:
 - /android/com.trade.btctradelink/
@@ -10,7 +10,6 @@ android:
   released: 2019-07-27
   updated: 2019-07-27
   version: '1.0'
-  icon: com.trade.btctradelink.webp
   meta: removed
   verdict: wip
 

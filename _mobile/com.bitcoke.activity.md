@@ -1,9 +1,9 @@
 ---
 title: BitCoke
-date: 2023-03-09
+date: 2026-10-30
 authors:
 - danny
-website: https://www.bitcoke.com
+website: https://www.bitcoke.com#deadLink
 twitter: BitCokedotcom
 redirect_from:
 - /android/com.bitcoke.activity/
@@ -13,12 +13,13 @@ android:
   released: 2022-02-13
   updated: 2022-10-07
   version: 7.0.0.3
-  icon: com.bitcoke.activity.webp
   meta: removed
   verdict: custodial
   developerName: Bitcoke
 
 ---
+
+**Update 2026-10-30:** BitCoke appears to be gone. Its website no longer loads, and there is no sign that the withdrawals it [suspended in November 2022](https://pandaily.com/hong-kong-based-crypto-exchange-bitcoke-suspends-withdrawals-due-to-investigation-of-financial-officer/) ever resumed.
 
 ## App Description from Google Play 
 

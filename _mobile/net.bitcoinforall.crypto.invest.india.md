@@ -1,6 +1,6 @@
 ---
 title: Crypto Invest India
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/net.bitcoinforall.crypto.invest.india/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-17
   updated: 2021-06-17
   version: '1.0'
-  icon: net.bitcoinforall.crypto.invest.india.webp
   meta: removed
   verdict: wip
 

@@ -1,6 +1,6 @@
 ---
 title: CryptoWallet App Lite 2021
-date: 2023-08-04
+date: 2026-10-30
 website: https://mikodes.com
 redirect_from:
 - /android/com.mikodes.cryptowallerlite/
@@ -10,7 +10,6 @@ android:
   released: 2021-12-08
   updated: 2021-12-08
   version: 1.0.1
-  icon: com.mikodes.cryptowallerlite.webp
   meta: removed
   verdict: wip
   developerName: Mikodes Team

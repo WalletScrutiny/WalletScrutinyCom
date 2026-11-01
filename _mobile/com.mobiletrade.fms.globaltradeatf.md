@@ -1,6 +1,6 @@
 ---
 title: Global TradeATF Online Trading | Forex and Stocks
-date: 2022-03-07
+date: 2026-10-30
 authors:
 - danny
 website: https://global.tradeatf.com#deadLink
@@ -19,7 +19,6 @@ android:
   updated: 2021-11-22
   version: 1.5.78-mobiletrade.fms.globaltradeatf
   reviews: 318
-  icon: com.mobiletrade.fms.globaltradeatf.webp
   meta: removed
   verdict: nosendreceive
 iphone:
@@ -28,11 +27,12 @@ iphone:
   released: 2020-07-29
   updated: 2021-11-26
   version: 1.69.13
-  icon: com.tradeatf.global.webp
   meta: removed
   verdict: nosendreceive
 
 ---
+
+**Update 2026-10-30:** global.tradeatf.com now forwards to a GoDaddy page offering the domain for sale.
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: 'BITDD: Bitcoin Crypto Exchange'
-date: 2026-05-21
+date: 2026-10-30
 website: https://la-colinares.github.io/portfolio/
 redirect_from:
 - /android/com.vestbag.bitdd/
@@ -11,7 +11,6 @@ android:
   released: 2022-11-02
   updated: 2024-09-21
   version: 1.0.1
-  icon: com.vestbag.bitdd.webp
   meta: obsolete
   verdict: wip
   developerName: LA Colinares

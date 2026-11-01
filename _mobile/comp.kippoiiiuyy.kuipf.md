@@ -1,6 +1,6 @@
 ---
 title: Upistic
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/comp.kippoiiiuyy.kuipf/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-11-29
   updated: 2021-11-29
   version: '1.0'
-  icon: comp.kippoiiiuyy.kuipf.webp
   meta: removed
   verdict: wip
   developerName: Botrel Apps

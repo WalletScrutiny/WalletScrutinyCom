@@ -1,6 +1,6 @@
 ---
 title: 'Yield App : Bitcoin Wallet'
-date: 2024-07-22
+date: 2026-10-30
 authors:
 - danny
 website: https://yield.app
@@ -19,7 +19,6 @@ android:
   updated: 2024-05-31
   version: '24.0527'
   reviews: 14
-  icon: com.yieldapp_mobile.webp
   meta: removed
   verdict: custodial
   developerName: Yield App
@@ -31,12 +30,13 @@ iphone:
   updated: 2024-05-31
   version: '24.0527'
   reviews: 39
-  icon: app.yield.webp
   meta: removed
   verdict: custodial
   developerName: Yield App
 
 ---
+
+**⚠️ Warning:** Yield App Limited went into insolvent liquidation on 1 July 2024, with Cork Gully appointed as liquidators. [Its website](https://yield.app) now shows only the liquidation notice, and the app is gone from both stores.
 
 ## Android
 

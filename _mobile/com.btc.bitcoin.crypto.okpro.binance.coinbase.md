@@ -1,6 +1,6 @@
 ---
 title: OKpro-Bitcoin & Crypto currency information
-date: 2021-11-10
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2021-09-13
   updated: 2021-09-13
   version: '1.0'
-  icon: com.btc.bitcoin.crypto.okpro.binance.coinbase.webp
   meta: removed
   verdict: wip
 

@@ -1,6 +1,6 @@
 ---
 title: CryptoSaver
-date: 2023-12-19
+date: 2026-10-30
 redirect_from:
 - /android/com.cryptosaver.app/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-10-20
   updated: 2021-01-15
   version: 1.0.36
-  icon: com.cryptosaver.app.webp
   meta: removed
   verdict: wip
   developerName: Colciar and Buda LTD

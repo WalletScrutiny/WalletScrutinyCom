@@ -1,6 +1,6 @@
 ---
 title: Crypto Genius
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/com.wSryptoGenius_15089239/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-01-27
   updated: 2022-01-27
   version: '1.0'
-  icon: com.wSryptoGenius_15089239.webp
   meta: removed
   verdict: wip
 

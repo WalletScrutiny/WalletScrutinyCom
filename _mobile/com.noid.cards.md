@@ -1,6 +1,6 @@
 ---
 title: noID.cards
-date: 2024-04-19
+date: 2026-10-30
 authors:
 - danny
 website: https://noid.cards/
@@ -14,7 +14,6 @@ android:
   users: 1
   updated: 2023-03-26
   version: VARY
-  icon: com.noid.cards.webp
   meta: removed
   verdict: wip
   developerName: noID.cards

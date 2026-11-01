@@ -1,6 +1,6 @@
 ---
 title: BLOX Crypto & Bitcoin Trading
-date: 2023-07-20
+date: 2026-10-30
 authors:
 - danny
 website: https://weareblox.com
@@ -20,7 +20,6 @@ android:
   appCountry: us
   updated: 2026-09-24
   version: 6.9.0
-  icon: com.weareblox.app.webp
   meta: ok
   verdict: nosendreceive
   developerName: BLOX (Weareblox) - bitcoin & other crypto currency
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-10-06
   version: 6.9.0
   reviews: 5680
-  icon: com.weareblox.app.webp
   meta: ok
   verdict: nosendreceive
   developerName: Blox B.V.

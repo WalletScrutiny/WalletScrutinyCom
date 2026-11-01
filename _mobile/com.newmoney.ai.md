@@ -1,6 +1,6 @@
 ---
 title: Newmoney AI Wallet
-date: 2025-11-20
+date: 2026-10-30
 authors:
 - danny
 website: https://newmoney.ai/
@@ -23,7 +23,6 @@ android:
   updated: 2025-08-15
   version: 1.8.10
   reviews: 10
-  icon: com.newmoney.ai.webp
   meta: stale
   verdict: custodial
   developerName: NewmoneyAI
@@ -35,7 +34,6 @@ iphone:
   updated: 2025-08-16
   version: 1.9.14
   reviews: 8
-  icon: com.newmoney.ai.webp
   meta: removed
   verdict: custodial
   developerName: Newmoney AI Wallet

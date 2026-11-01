@@ -1,6 +1,6 @@
 ---
 title: Obtccoin：Trade BTC & Crypto
-date: 2023-07-11
+date: 2026-10-30
 authors:
 - danny
 website: https://www.obtccoin.com
@@ -12,7 +12,6 @@ android:
   released: 2022-06-28
   updated: 2022-12-30
   version: 1.3.5
-  icon: com.obtccoin.int.webp
   meta: removed
   verdict: wip
   developerName: OBTCCOIN

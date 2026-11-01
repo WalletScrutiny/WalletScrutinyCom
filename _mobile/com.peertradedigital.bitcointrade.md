@@ -1,6 +1,6 @@
 ---
 title: Ripio Trade
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: http://www.bitcointrade.com.br
@@ -18,7 +18,6 @@ android:
   updated: 2024-05-20
   version: 3.20.4
   reviews: 4822
-  icon: com.peertradedigital.bitcointrade.webp
   meta: removed
   verdict: custodial
   developerName: PeerTrade Digital Ltda
@@ -29,12 +28,13 @@ iphone:
   updated: 2024-05-30
   version: 4.7.10
   reviews: 978
-  icon: com.root.BitcoinTrade.webp
   meta: removed
   verdict: custodial
   developerName: PeerTrade Digital
 
 ---
+
+**Update 2026-10-30:** Ripio has shut down the Ripio Trade app (formerly BitcoinTrade) and moved its users and balances into its main app, {% include walletLink.html wallet='android/com.ripio.android' verdict='true' %}, where users log in with their old Ripio Trade credentials ([Ripio guide, November 2024](https://web.archive.org/web/20250120224428/https://launchpad-br.ripio.com/blog/guia-ripio-tudo-o-que-voce-precisa-saber-sobre-a-transicao-do-app-da-ripio-trade-para-o-app-da-ripio)). The old bitcointrade.com.br website now forwards to Ripio's wallet page.
 
 ## Android
 

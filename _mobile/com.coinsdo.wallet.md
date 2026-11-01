@@ -1,6 +1,6 @@
 ---
 title: 'CoinWallet: BTC USDT Wallet'
-date: 2026-07-23
+date: 2026-10-30
 authors:
 - danny
 website: https://www.coinsdo.com
@@ -21,7 +21,6 @@ android:
   updated: 2026-07-29
   version: 2.0.30
   reviews: 120
-  icon: com.coinsdo.wallet.webp
   meta: ok
   verdict: nosource
   developerName: COINSDO
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-08-12
   version: 2.0.30
   reviews: 82
-  icon: com.coinsdo.coinsdowallet.webp
   meta: ok
   verdict: nosource
   developerName: Tecstation Pte Ltd

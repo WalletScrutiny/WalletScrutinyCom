@@ -1,6 +1,6 @@
 ---
 title: H3x
-date: 2024-04-19
+date: 2026-10-30
 website: http://h3plex.com#deadLink
 redirect_from:
 - /android/com.h3blockchain.h3blockchain/
@@ -10,7 +10,6 @@ android:
   released: 2019-08-21
   updated: 2019-08-21
   version: '1.0'
-  icon: com.h3blockchain.h3blockchain.webp
   meta: removed
   verdict: wip
   developerName: H3PLEX TECHNOLOGIES PVT LTD

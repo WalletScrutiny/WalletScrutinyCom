@@ -1,6 +1,6 @@
 ---
 title: EttaWallet
-date: 2024-11-07
+date: 2026-10-30
 authors:
 - danny
 website: https://ettawallet.app#deadLink
@@ -14,7 +14,6 @@ android:
   users: 10
   updated: 2023-09-06
   version: VARY
-  icon: com.ettaln.webp
   meta: removed
   verdict: wip
   developerName: Rukundo

@@ -1,6 +1,6 @@
 ---
 title: 'Stack: Buy & Sell Bitcoin'
-date: 2026-01-14
+date: 2026-10-30
 website: https://stackatm.com/
 redirect_from:
 - /android/com.stackatm.app/
@@ -12,7 +12,6 @@ android:
   updated: 2026-09-02
   version: 1.14.0
   reviews: 4
-  icon: com.stackatm.app.webp
   meta: ok
   verdict: wip
   developerName: Kalbas, Inc.

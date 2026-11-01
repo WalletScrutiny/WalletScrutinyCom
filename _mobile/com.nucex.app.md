@@ -1,6 +1,6 @@
 ---
 title: NUCEX Trading Platform
-date: 2024-02-05
+date: 2026-10-30
 website: https://www.nucex.io#deadLink
 redirect_from:
 - /android/com.nucex.app/
@@ -10,7 +10,6 @@ android:
   released: 2019-05-20
   updated: 2019-05-23
   version: 1.0.3
-  icon: com.nucex.app.webp
   meta: removed
   verdict: wip
   developerName: Nusantara Crypto Exchange

@@ -1,6 +1,6 @@
 ---
 title: Money Storage
-date: 2025-05-14
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -12,7 +12,6 @@ android:
   updated: 2024-02-01
   version: 2.1.0
   reviews: 3
-  icon: ua.money.storage.moneystorage.webp
   meta: removed
   verdict: custodial
   developerName: Bitsofta

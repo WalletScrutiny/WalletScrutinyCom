@@ -1,6 +1,6 @@
 ---
 title: Smart Trade Terminal
-date: 2024-05-07
+date: 2026-10-30
 redirect_from:
 - /android/air.SmartTerminal4/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2019-07-28
   updated: 2019-09-08
   version: 0_43
-  icon: air.SmartTerminal4.webp
   meta: removed
   verdict: wip
   developerName: DieGOplay

@@ -1,6 +1,6 @@
 ---
 title: Claimer Box Multi Coins in One
-date: 2023-01-30
+date: 2026-10-30
 redirect_from:
 - /android/com.g3shanappz.claimerbox/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-06-19
   updated: 2020-06-19
   version: '1.1'
-  icon: com.g3shanappz.claimerbox.webp
   meta: removed
   verdict: wip
 

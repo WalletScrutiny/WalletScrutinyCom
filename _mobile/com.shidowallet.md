@@ -1,6 +1,6 @@
 ---
 title: Shido Wallet | DeFi Crypto
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - danny
 website: https://shido.io
@@ -23,7 +23,6 @@ android:
   updated: 2023-07-28
   version: '1.8'
   reviews: 36
-  icon: com.shidowallet.webp
   meta: removed
   verdict: nosource
   developerName: Shido Finance
@@ -35,12 +34,13 @@ iphone:
   updated: 2023-07-31
   version: '2.7'
   reviews: 55
-  icon: com.shido.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Shido Finance
 
 ---
+
+**Update 2026-10-30:** Shido Finance replaced this wallet with a rebuilt "Shido App V2" in December 2024 ([announcement](https://web.archive.org/web/20260714164415/https://www.shido.news/post/new-shido-app-v2-is-now-launched)). We have not reviewed the new app yet.
 
 ## Android
 

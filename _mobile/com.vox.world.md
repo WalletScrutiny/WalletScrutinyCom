@@ -1,8 +1,9 @@
 ---
 title: 'x.me Exchange: Buy BTC&Crypto'
-date: 2026-01-26
+date: 2026-10-30
 authors:
 - danny
+website: https://www.x.me
 twitter: VOOX_Global
 redirect_from:
 - /android/com.vox.world/
@@ -14,7 +15,6 @@ android:
   released: 2025-07-09
   updated: 2026-10-10
   version: 2.1.1
-  icon: com.vox.world.webp
   meta: ok
   verdict: custodial
   developerName: VOOX Limited
@@ -26,12 +26,13 @@ iphone:
   updated: 2026-09-01
   version: 2.0.8
   reviews: 6
-  icon: com.voox.www.webp
   meta: removed
   verdict: custodial
   developerName: VOOX TECHNOLOGY PTE. LTD.
 
 ---
+
+**Update 2026-10-30:** VOOX now runs as x.me. Since at least July 2026 voox.com has sent visitors to [x.me](https://www.x.me) ([archived redirect](https://web.archive.org/web/20260720175620/https://www.voox.com/)), and both apps are now called x.me. It is still a centralized exchange, so the verdict does not change.
 
 ## Android
 

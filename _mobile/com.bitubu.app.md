@@ -1,6 +1,6 @@
 ---
 title: 'BitUBU: Buy-Sell Bitcoin'
-date: 2023-08-04
+date: 2026-10-30
 website: https://bitubu.com#deadLink
 redirect_from:
 - /android/com.bitubu.app/
@@ -10,7 +10,6 @@ android:
   released: 2020-04-19
   updated: 2023-01-19
   version: 1.1.4
-  icon: com.bitubu.app.webp
   meta: removed
   verdict: wip
   developerName: Bitubu

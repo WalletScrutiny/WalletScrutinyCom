@@ -1,7 +1,7 @@
 ---
 title: Trxcryptobank
-date: 2024-02-05
-website: https://trxcryptobank.com/
+date: 2026-10-30
+website: https://trxcryptobank.com/#deadLink
 redirect_from:
 - /android/com.syndicatesoftwareofficial.trxcryptobank/
 android:
@@ -11,7 +11,6 @@ android:
   updated: 2019-08-07
   version: '1.0'
   reviews: 1
-  icon: com.syndicatesoftwareofficial.trxcryptobank.webp
   meta: removed
   verdict: wip
   developerName: TrxcryptoBank

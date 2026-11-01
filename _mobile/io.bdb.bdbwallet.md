@@ -1,6 +1,6 @@
 ---
 title: BDB Hyperchain MultiWallet
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/io.bdb.bdbwallet/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-11-05
   updated: 2021-02-17
   version: 1.1.3
-  icon: io.bdb.bdbwallet.webp
   meta: removed
   verdict: wip
 

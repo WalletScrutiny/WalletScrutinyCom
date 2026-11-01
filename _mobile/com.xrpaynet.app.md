@@ -1,12 +1,11 @@
 ---
 title: Volta Wallet
-date: 2023-07-07
+date: 2026-10-30
 authors:
 - danny
-website: https://xrpaynet.com
+website: https://web.archive.org/web/20260911122028/https://xrpaynet.com/
 twitter: XRPayNet
 social:
-- https://xrpaynet.com
 - https://www.linkedin.com/company/xrpaynet
 - https://www.facebook.com/XRPayNet-107640621785961
 - https://t.me/XRPayNetChat
@@ -26,7 +25,6 @@ android:
   updated: 2025-12-16
   version: 5.0.5.prod
   reviews: 45
-  icon: com.xrpaynet.app.webp
   meta: ok
   verdict: nosource
   developerName: XRPayNet
@@ -38,12 +36,13 @@ iphone:
   updated: 2025-12-17
   version: 5.0.5+377
   reviews: 30
-  icon: com.xrpaynet.app.webp
   meta: ok
   verdict: nosource
   developerName: XRPAYNET GLOBAL LIMITED
 
 ---
+
+**Update 2026-10-30:** The XRPayNet website now forwards to an unrelated savings-account forum. The [last archived copy](https://web.archive.org/web/20260911122028/https://xrpaynet.com/) from September 2026 still shows XRPayNet. Both apps are still listed.
 
 ## Android
 

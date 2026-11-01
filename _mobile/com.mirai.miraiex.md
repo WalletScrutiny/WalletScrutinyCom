@@ -1,6 +1,6 @@
 ---
 title: Firi - Buy Bitcoin & Ethereum
-date: 2025-11-19
+date: 2026-10-30
 authors:
 - danny
 website: https://firi.com
@@ -18,7 +18,6 @@ android:
   appCountry: us
   updated: 2026-09-25
   version: 4.0.3
-  icon: com.mirai.miraiex.webp
   meta: ok
   verdict: custodial
   developerName: Firi
@@ -30,7 +29,6 @@ iphone:
   updated: 2026-09-25
   version: 4.0.3
   reviews: 10310
-  icon: com.mirai.miraiex.webp
   meta: ok
   verdict: custodial
   developerName: Firi AS

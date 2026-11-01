@@ -16,15 +16,14 @@ weight: 45.2
 provider: BitHD
 providerWebsite: https://bithd.com
 website: https://bithd.com/BITHD-Razor-Pro.html#deadLink
-shop: https://shop91729164.m.youzan.com/wscgoods/detail/36d2b34v2wj3o6t
+shop: https://shop91729164.m.youzan.com/wscgoods/detail/36d2b34v2wj3o6t#deadLink
 country: CN
 price: 69.99 USD
 repository: 
-icon: bithdrazorpro.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-11-23
+date: 2026-10-30
 signer: 
 twitter: bitpiewallet
 social: 

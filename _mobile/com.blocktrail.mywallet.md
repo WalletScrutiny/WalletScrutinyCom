@@ -1,6 +1,6 @@
 ---
 title: BTC.com - Bitcoin Wallet
-date: 2021-12-29
+date: 2026-10-30
 website: https://btc.com
 twitter: btccom_official
 social:
@@ -20,7 +20,6 @@ android:
   updated: 2019-04-03
   version: 4.4.7
   reviews: 3928
-  icon: com.blocktrail.mywallet.webp
   meta: removed
   verdict: sourceavailable
   repository: https://github.com/blocktrail/blocktrail-wallet
@@ -31,12 +30,13 @@ iphone:
   updated: 2019-04-13
   version: 4.4.9
   reviews: 424
-  icon: com.blocktrail.mywallet.webp
   meta: removed
   verdict: sourceavailable
   repository: https://github.com/blocktrail/blocktrail-wallet
 
 ---
+
+**Update 2026-10-30:** The wallet.btc.com website is gone, and the [btc.com](https://btc.com/) home page now advertises AI computing futures and GPU resources instead of a wallet.
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: Capitual - Multiple Currencies
-date: 2025-02-04
+date: 2026-10-30
 authors:
 - danny
 website: https://capitual.com
@@ -20,7 +20,6 @@ android:
   updated: 2023-10-05
   version: 3.44.6
   reviews: 6
-  icon: com.capitual.webp
   meta: removed
   verdict: custodial
   developerName: Capitual
@@ -32,12 +31,13 @@ iphone:
   updated: 2023-09-07
   version: 3.44.0
   reviews: 8
-  icon: com.capitual.webp
   meta: removed
   verdict: custodial
   developerName: Capitual
 
 ---
+
+**Update 2026-10-30:** Capitual's [website](https://capitual.com) now only offers blockchain and payment services to institutions. It no longer mentions the personal multi-currency account these apps gave access to.
 
 ## Android
 

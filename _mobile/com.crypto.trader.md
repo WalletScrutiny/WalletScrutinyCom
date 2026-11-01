@@ -1,6 +1,6 @@
 ---
 title: INX - Crypto Trading
-date: 2021-11-16
+date: 2026-10-30
 redirect_from:
 - /android/com.crypto.trader/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-09-29
   updated: 2021-09-29
   version: 1.0.3
-  icon: com.crypto.trader.webp
   meta: removed
   verdict: wip
 

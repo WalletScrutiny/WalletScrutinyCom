@@ -1,6 +1,6 @@
 ---
 title: Gooplex
-date: 2023-01-02
+date: 2026-10-30
 website: http://info.gooplex.com.br#deadLink
 redirect_from:
 - /android/com.cloud.gooplex/
@@ -10,7 +10,6 @@ android:
   released: 2020-12-28
   updated: 2021-10-20
   version: 1.2.0
-  icon: com.cloud.gooplex.webp
   meta: removed
   verdict: wip
 

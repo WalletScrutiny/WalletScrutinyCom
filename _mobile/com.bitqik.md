@@ -1,6 +1,6 @@
 ---
 title: bitqik
-date: 2024-10-07
+date: 2026-10-30
 authors:
 - danny
 website: https://bitqik.com/
@@ -22,7 +22,6 @@ android:
   updated: 2026-09-17
   version: 3.12.0
   reviews: 3
-  icon: com.bitqik.webp
   meta: ok
   verdict: custodial
   developerName: bitqik
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-05-15
   version: 3.7.0
   reviews: 1
-  icon: com.bitqik.webp
   meta: removed
   verdict: custodial
   developerName: BITQIK SOLE CO.,LTD

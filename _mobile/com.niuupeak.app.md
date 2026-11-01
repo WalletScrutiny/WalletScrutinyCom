@@ -1,6 +1,6 @@
 ---
 title: Niuupeak
-date: 2023-05-31
+date: 2026-10-30
 authors:
 - danny
 website: https://niuupeak.com#deadLink
@@ -13,7 +13,6 @@ android:
   released: 2020-07-02
   updated: 2020-07-02
   version: '1.0'
-  icon: com.niuupeak.app.webp
   meta: removed
   verdict: wip
   developerName: Coins Deal

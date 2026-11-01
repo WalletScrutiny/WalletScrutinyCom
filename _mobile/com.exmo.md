@@ -1,6 +1,6 @@
 ---
 title: 'EXMO.com: Trade & Hold Crypto'
-date: 2021-04-21
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
@@ -22,7 +22,6 @@ android:
   updated: 2026-07-02
   version: 3.88.1
   reviews: 96
-  icon: com.exmo.webp
   meta: removed
   verdict: custodial
   developerName: Exmo Poland Sp. z o.o.
@@ -34,16 +33,28 @@ iphone:
   updated: 2026-05-25
   version: 2.28.27
   reviews: 86
-  icon: com.exmo.enfins.webp
   meta: removed
   verdict: custodial
   developerName: EXMO EXCHANGE LTD
 
 ---
 
+**⚠️ Warning:** EXMO is closing. On 2026-05-26 the UK
+[added EXMO Exchange Limited to its Russia sanctions list](https://www.financemagnates.com/cryptocurrency/exmo-pulls-the-plug-sanctioned-crypto-exchange-winds-down-leaves-users-holding-iou-tokens/),
+and on 2026-07-14 EXMO [announced an orderly wind-down](https://exmowithdrawals.com/blog/en/notifications/exmo-com-is-closing-please-initiate-withdrawal-from-your-account).
+Registrations and deposits are closed and trades can only be closed.
+EXMO says 29.4% of what it owes users cannot be returned, due to its 2020 hot
+wallet hack and to assets frozen after the sanctions, and it cut every balance by
+that share. [exmo.com](https://exmo.com/) now redirects to a withdrawals-only site.
+
+**Update 2026-10-30:** Both apps belong to the exchange that is
+[winding down](https://exmowithdrawals.com/blog/en/notifications/exmo-com-is-closing-please-initiate-withdrawal-from-your-account).
+EXMO says part of its users' coins were stolen in 2020 or are now frozen by
+third-party custodians, so it cannot pay out every balance in full.
+
 ## Android
 
-The Exmo [support FAQ](https://info.exmo.com/en/faq/) states under "Where are my EXMO funds kept?"
+The Exmo [support FAQ](https://info.exmo.com/en/faq/#deadLink) states under "Where are my EXMO funds kept?"
 
 > Users cryptocurrency funds are stored on the exchange’s crypto wallets: cold and hot vaults.
 
@@ -59,7 +70,7 @@ Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.
 
 ## iPhone
 
-The Exmo [support FAQ](https://info.exmo.com/en/faq/) states under "Where are my
+The Exmo [support FAQ](https://info.exmo.com/en/faq/#deadLink) states under "Where are my
 EXMO funds kept?"
 
 > Users cryptocurrency funds are stored on the exchange’s crypto wallets: cold

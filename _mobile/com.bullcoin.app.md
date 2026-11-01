@@ -1,7 +1,7 @@
 ---
 title: Bulltrade
-date: 2024-04-19
-website: https://bull-trade.net
+date: 2026-10-30
+website: https://bull-trade.net#deadLink
 redirect_from:
 - /android/com.bullcoin.app/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-02-22
   updated: 2023-07-11
   version: 1.2.2
-  icon: com.bullcoin.app.webp
   meta: removed
   verdict: wip
   developerName: Lotus Bro

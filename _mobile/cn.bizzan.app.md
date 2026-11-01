@@ -1,6 +1,6 @@
 ---
 title: ANYCION
-date: 2023-06-21
+date: 2026-10-30
 redirect_from:
 - /android/cn.bizzan.app/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-09-03
   updated: 2020-11-09
   version: 1.0.6
-  icon: cn.bizzan.app.webp
   meta: removed
   verdict: wip
   developerName: 祥云科技有限公司

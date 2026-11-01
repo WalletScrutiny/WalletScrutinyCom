@@ -1,7 +1,7 @@
 ---
 title: BackPacker
-date: 2024-04-03
-website: https://wallet.backpackercoin.com/
+date: 2026-10-30
+website: https://wallet.backpackercoin.com/#deadLink
 redirect_from:
 - /android/com.backpacker.wallet/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2019-11-16
   updated: 2019-11-20
   version: 1.0.1
-  icon: com.backpacker.wallet.webp
   meta: removed
   verdict: wip
   developerName: BPC coin

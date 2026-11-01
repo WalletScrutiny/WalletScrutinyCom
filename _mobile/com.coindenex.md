@@ -1,6 +1,6 @@
 ---
 title: Coindenex
-date: 2023-01-02
+date: 2026-10-30
 website: https://coindenex.com#deadLink
 redirect_from:
 - /android/com.coindenex/
@@ -10,7 +10,6 @@ android:
   released: 2021-05-02
   updated: 2021-05-02
   version: '2.0'
-  icon: com.coindenex.webp
   meta: removed
   verdict: wip
 

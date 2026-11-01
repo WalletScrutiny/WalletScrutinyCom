@@ -1,6 +1,6 @@
 ---
 title: 'FarhadMarket - Cryptocurrency '
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 website: https://farhadmarket.com#deadLink
@@ -13,7 +13,6 @@ android:
   updated: 2021-12-05
   version: 1.9.124
   reviews: 14
-  icon: com.farhadmarket.app.webp
   meta: removed
   verdict: custodial
   developerName: Exbito

@@ -1,6 +1,6 @@
 ---
 title: The Bitcoin Profit App
-date: 2024-02-05
+date: 2026-10-30
 redirect_from:
 - /android/com.thebitcoinprofit92022.app/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-07-25
   updated: 2022-07-25
   version: '1.0'
-  icon: com.thebitcoinprofit92022.app.webp
   meta: removed
   verdict: wip
   developerName: SHIVRAM

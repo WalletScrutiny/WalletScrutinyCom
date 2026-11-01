@@ -1,6 +1,6 @@
 ---
 title: Crypto Investing
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/org.cryptoleaders.crypto.investing/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-15
   updated: 2021-06-15
   version: '1.0'
-  icon: org.cryptoleaders.crypto.investing.webp
   meta: removed
   verdict: wip
 

@@ -1,6 +1,6 @@
 ---
 title: Truste Wallet Buy & Exchange D
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/app.truste.wallet/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-07-01
   updated: 2021-07-01
   version: 1.2.0
-  icon: app.truste.wallet.webp
   meta: removed
   verdict: wip
 

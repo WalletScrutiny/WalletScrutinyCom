@@ -1,7 +1,7 @@
 ---
 title: Tyslin Exchange
-date: 2024-05-18
-website: https://tyslin.com/
+date: 2026-10-30
+website: https://tyslin.com/#deadLink
 redirect_from:
 - /android/com.reactivespace.tyslinmulticoinwallet/
 android:
@@ -11,7 +11,6 @@ android:
   updated: 2020-09-21
   version: 2.1.38
   reviews: 8
-  icon: com.reactivespace.tyslinmulticoinwallet.webp
   meta: removed
   verdict: wip
   developerName: Tyslin Blockchain

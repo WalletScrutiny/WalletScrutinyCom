@@ -1,6 +1,6 @@
 ---
 title: iFOREX Crypto online trading
-date: 2024-11-12
+date: 2026-10-30
 authors:
 - danny
 website: https://www.iforexcrypto.com
@@ -16,7 +16,6 @@ android:
   users: 1000
   updated: 2024-06-18
   version: 2.1.50
-  icon: iforexcrypto.clients.android.webp
   meta: removed
   verdict: nosendreceive
   developerName: Formula Investments House LTD
@@ -28,7 +27,6 @@ iphone:
   updated: 2023-11-22
   version: 3.1.23
   reviews: 0
-  icon: com.bootleg.iforexCryptoWrapper.webp
   meta: removed
   verdict: nosendreceive
   developerName: Formula Investment House Ltd.

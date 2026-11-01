@@ -1,6 +1,6 @@
 ---
 title: lite Wallet
-date: 2024-07-19
+date: 2026-10-30
 authors:
 - bit-aloo
 redirect_from:
@@ -10,7 +10,6 @@ android:
   released: 2022-03-29
   updated: 2022-06-28
   version: 1.1.1
-  icon: com.litewallet.app.webp
   meta: removed
   verdict: nosource
   repository: https://github.com/META-1-Official/litewallet-native#deadLink

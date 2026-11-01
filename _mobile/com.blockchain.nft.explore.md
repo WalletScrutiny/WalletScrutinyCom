@@ -1,6 +1,6 @@
 ---
 title: Now in Crypto
-date: 2024-04-26
+date: 2026-10-30
 website: https://coinhub8899.web.app
 redirect_from:
 - /android/com.blockchain.nft.explore/
@@ -10,7 +10,6 @@ android:
   released: 2022-12-17
   updated: 2022-12-18
   version: 1.0.7
-  icon: com.blockchain.nft.explore.webp
   meta: removed
   verdict: wip
   developerName: InvoVN Solutions

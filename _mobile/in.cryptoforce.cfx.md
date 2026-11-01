@@ -1,6 +1,6 @@
 ---
 title: Cryptoforce:Trade|Stake Crypto
-date: 2023-08-18
+date: 2026-10-30
 authors:
 - danny
 website: https://cryptoforce.in
@@ -21,7 +21,6 @@ android:
   released: 2022-09-27
   updated: 2025-04-01
   version: 2.0.0
-  icon: in.cryptoforce.cfx.webp
   meta: stale
   verdict: custodial
   developerName: 'CryptoForce: Bitcoin & Cryptocurrency Investment'
@@ -33,7 +32,6 @@ iphone:
   updated: 2025-04-02
   version: v2.0.0
   reviews: 17
-  icon: in.cryptoforce.cfx.webp
   meta: removed
   verdict: custodial
   developerName: 'CryptoForce: Bitcoin & Cryptocurrency Investment'

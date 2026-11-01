@@ -1,6 +1,6 @@
 ---
 title: Javvy
-date: 2023-05-26
+date: 2026-10-30
 authors:
 - danny
 website: https://javvy.com
@@ -19,7 +19,6 @@ android:
   updated: 2019-05-16
   version: 1.0.4
   reviews: 6
-  icon: com.javvy.webp
   meta: removed
   verdict: wip
   developerName: Javvy Technologies Ltd

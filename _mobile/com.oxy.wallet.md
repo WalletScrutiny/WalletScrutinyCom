@@ -1,6 +1,6 @@
 ---
 title: Oxy Wallet
-date: 2024-03-02
+date: 2026-10-30
 website: https://oxystarter.io#deadLink
 redirect_from:
 - /android/com.oxy.wallet/
@@ -10,7 +10,6 @@ android:
   released: 2021-06-18
   updated: 2021-06-18
   version: 0.21.3
-  icon: com.oxy.wallet.webp
   meta: removed
   verdict: wip
   developerName: Oxystarter Team

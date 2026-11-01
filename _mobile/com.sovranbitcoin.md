@@ -1,6 +1,6 @@
 ---
 title: Sovran
-date: 2025-11-03
+date: 2026-10-30
 authors:
 - danny
 website: https://sovran.money
@@ -24,7 +24,6 @@ iphone:
   updated: 2026-04-08
   version: 0.0.62
   reviews: 0
-  icon: com.sovranbitcoin.webp
   meta: removed
   verdict: ecash
   developerName: Sovran LTD

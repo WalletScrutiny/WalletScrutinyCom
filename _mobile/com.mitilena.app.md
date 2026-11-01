@@ -1,6 +1,6 @@
 ---
 title: Mitilena Wallet
-date: 2026-09-14
+date: 2026-10-30
 website: https://mitilena.com
 android:
   appId: com.mitilena.app
@@ -9,7 +9,6 @@ android:
   released: 2025-02-08
   updated: 2026-09-12
   version: '1.112'
-  icon: com.mitilena.app.webp
   meta: fewusers
   verdict: wip
   developerName: Mitilena Wallet
@@ -21,7 +20,6 @@ iphone:
   updated: 2026-09-13
   version: 5.1.6
   reviews: 0
-  icon: com.mitilena.app.webp
   meta: ok
   verdict: wip
   developerName: Mitilena s.r.o.

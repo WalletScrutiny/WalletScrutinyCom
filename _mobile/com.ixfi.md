@@ -1,9 +1,9 @@
 ---
 title: IXFI
-date: 2023-07-08
+date: 2026-10-30
 authors:
 - danny
-website: https://ixfi.com
+website: https://ixfi.com#deadLink
 twitter: ixfiexchange
 social:
 - https://www.linkedin.com/company/ixfiexchange
@@ -24,8 +24,7 @@ android:
   updated: 2025-11-21
   version: 1.10.20
   reviews: 61
-  icon: com.ixfi.webp
-  meta: ok
+  meta: defunct
   verdict: custodial
   developerName: IXFI Crypto World
 iphone:
@@ -36,12 +35,13 @@ iphone:
   updated: 2025-11-24
   version: 1.7.43
   reviews: 99
-  icon: com.ixfi.app.webp
   meta: removed
   verdict: custodial
   developerName: IXFI Crypto World UAB
 
 ---
+
+**⚠️ Warning:** IXFI [announced on July 24, 2026](https://x.com/ixfiexchange) that it is permanently discontinuing the IXFI Exchange. The website no longer loads.
 
 ## Android
 

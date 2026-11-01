@@ -1,6 +1,6 @@
 ---
 title: 'Flits: Passive income wallet'
-date: 2025-02-13
+date: 2026-10-30
 authors:
 - leo
 website: https://flitswallet.app/
@@ -17,7 +17,6 @@ android:
   updated: 2021-02-09
   version: '4.4'
   reviews: 71
-  icon: app.flitsnode.flits.webp
   meta: removed
   verdict: nosource
   developerName: Decenomy
@@ -28,7 +27,6 @@ iphone:
   updated: 2021-02-09
   version: '4.4'
   reviews: 73
-  icon: app.flitsnode.flits.webp
   meta: removed
   verdict: nosource
   developerName: Klimatas B.V.

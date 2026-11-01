@@ -1,6 +1,6 @@
 ---
 title: 8U EXCHANGE
-date: 2023-06-07
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2022-04-08
   updated: 2022-04-09
   version: '1.0'
-  icon: com.u8ex.app22.webp
   meta: removed
   verdict: wip
   developerName: Georgette Roy

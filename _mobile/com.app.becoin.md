@@ -1,6 +1,6 @@
 ---
 title: Becoin
-date: 2025-02-13
+date: 2026-10-30
 website: https://becoin.exchange#deadLink
 redirect_from:
 - /android/com.app.becoin/
@@ -10,7 +10,6 @@ android:
   released: 2022-10-01
   updated: 2022-10-01
   version: '1.0'
-  icon: com.app.becoin.webp
   meta: removed
   verdict: wip
   developerName: LGA SOFT USA

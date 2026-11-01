@@ -1,6 +1,6 @@
 ---
 title: MoriX Wallet
-date: 2024-10-10
+date: 2026-10-30
 authors:
 - danny
 website: https://morixjp.com/contact
@@ -13,7 +13,6 @@ android:
   released: 2020-07-15
   updated: 2023-01-17
   version: v2.0.11
-  icon: com.morix.wallet.webp
   meta: removed
   verdict: wip
   developerName: MoriX Co., Ltd.

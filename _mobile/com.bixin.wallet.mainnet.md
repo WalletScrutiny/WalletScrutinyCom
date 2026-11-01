@@ -1,6 +1,6 @@
 ---
 title: OneKey - Safe Crypto Wallet
-date: 2022-03-07
+date: 2026-10-30
 authors:
 - danny
 - leo
@@ -19,7 +19,6 @@ android:
   updated: 2022-02-15
   version: 2.12.3
   reviews: 10
-  icon: com.bixin.wallet.mainnet.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -29,11 +28,12 @@ iphone:
   updated: 2021-11-19
   version: 2.12.2
   reviews: 18
-  icon: com.onekey.wallet.webp
   meta: removed
   verdict: nosource
 
 ---
+
+**Update 2026-10-30:** OneKey's successor apps are {% include walletLink.html wallet='android/so.onekey.app.wallet' verdict='true' %} and {% include walletLink.html wallet='iphone/so.onekey.wallet' verdict='true' %}, with their source in the [app-monorepo](https://github.com/OneKeyHQ/app-monorepo) repository.
 
 ## Android
 

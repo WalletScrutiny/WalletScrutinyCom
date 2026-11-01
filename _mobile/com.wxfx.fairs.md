@@ -1,6 +1,6 @@
 ---
 title: BitBank
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/com.wxfx.fairs/
 android:
@@ -10,7 +10,6 @@ android:
   updated: 2022-07-21
   version: 1.2.9
   reviews: 7
-  icon: com.wxfx.fairs.webp
   meta: removed
   verdict: wip
 

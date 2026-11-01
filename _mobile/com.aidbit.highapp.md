@@ -1,6 +1,6 @@
 ---
 title: Aidwallet
-date: 2023-01-30
+date: 2026-10-30
 redirect_from:
 - /android/com.aidbit.highapp/
 android:
@@ -10,7 +10,6 @@ android:
   updated: 2022-02-23
   version: 1.2.4
   reviews: 29
-  icon: com.aidbit.highapp.webp
   meta: removed
   verdict: wip
 

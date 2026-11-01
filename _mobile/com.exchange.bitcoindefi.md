@@ -1,7 +1,7 @@
 ---
 title: BitcoinDeFi
-date: 2024-04-19
-website: https://exchange.bitcoindefi.eu
+date: 2026-10-30
+website: https://exchange.bitcoindefi.eu#deadLink
 redirect_from:
 - /android/com.exchange.bitcoindefi/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-08-26
   updated: 2021-08-26
   version: 1.0.0
-  icon: com.exchange.bitcoindefi.webp
   meta: removed
   verdict: wip
   developerName: Stacey Herrin

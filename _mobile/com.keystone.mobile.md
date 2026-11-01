@@ -1,6 +1,6 @@
 ---
 title: Keystone Hardware Wallet
-date: 2025-03-29
+date: 2026-10-30
 authors:
 - danny
 website: https://keyst.one/
@@ -17,7 +17,6 @@ android:
   updated: 2024-07-19
   version: 1.4.0
   reviews: 12
-  icon: com.keystone.mobile.webp
   meta: removed
   verdict: nosource
   developerName: Yanssie HK Limited
@@ -29,12 +28,13 @@ iphone:
   updated: 2024-07-22
   version: 1.4.0
   reviews: 36
-  icon: keystone.mobile.webp
   meta: obsolete
   verdict: nosource
   developerName: YANSSIE HK LIMITED
 
 ---
+
+**Update 2026-10-30:** Keystone now promotes a new companion app, Keystone Nexus, for its current device, the Keystone 3 Pro ([keyst.one/nexus](https://keyst.one/nexus)). The Keystone Hardware Wallet app reviewed here was last updated in July 2024.
 
 ## Android
 

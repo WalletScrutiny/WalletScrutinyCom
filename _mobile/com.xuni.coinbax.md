@@ -1,6 +1,6 @@
 ---
 title: CoinBaxa
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/com.xuni.coinbax/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-10-14
   updated: 2021-10-14
   version: '1.0'
-  icon: com.xuni.coinbax.webp
   meta: removed
   verdict: wip
 

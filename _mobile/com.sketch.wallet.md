@@ -1,6 +1,6 @@
 ---
 title: 스케치월렛 (SKETCH WALLET)
-date: 2024-07-22
+date: 2026-10-30
 authors:
 - danny
 website: https://auth.sketchwallet.io:28446/sketch/conditions
@@ -13,7 +13,6 @@ android:
   released: 2021-07-28
   updated: 2026-01-16
   version: 2.2.8
-  icon: com.sketch.wallet.webp
   meta: ok
   verdict: nosource
   developerName: 앱관리자

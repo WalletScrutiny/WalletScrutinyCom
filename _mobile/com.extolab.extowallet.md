@@ -1,6 +1,6 @@
 ---
 title: ExtoWallet
-date: 2022-10-21
+date: 2026-10-30
 authors:
 - danny
 website: https://extowallet.com
@@ -17,11 +17,12 @@ iphone:
   updated: 2020-11-11
   version: 1.6.4
   reviews: 0
-  icon: com.extolab.extowallet.webp
   meta: removed
   verdict: nosource
 
 ---
+
+**Update 2026-10-30:** The [ExtoWallet website](https://www.extowallet.com/) now says ExtoWallet was a research and development project that is "not available commercially", so the card this app was made for is no longer sold.
 
 **Update 2022-10-21**: This app is not available anymore.
 

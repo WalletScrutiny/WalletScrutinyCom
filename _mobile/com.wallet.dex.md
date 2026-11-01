@@ -1,6 +1,6 @@
 ---
 title: Dex Crypto Wallet & Exchange
-date: 2024-07-30
+date: 2026-10-30
 authors:
 - danny
 website: https://dexwallet.info#deadLink
@@ -17,7 +17,6 @@ android:
   updated: 2023-02-08
   version: 1.3.1
   reviews: 12
-  icon: com.wallet.dex.webp
   meta: removed
   verdict: wip
   developerName: DexWallet Pvt. Limited

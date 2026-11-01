@@ -1,6 +1,6 @@
 ---
 title: 'Bite: Bitcoin Wallet - BTC'
-date: 2023-08-25
+date: 2026-10-30
 authors:
 - danny
 website: https://bitefinance.net#deadLink
@@ -15,7 +15,6 @@ android:
   updated: 2023-06-01
   version: 3.04.28
   reviews: 33
-  icon: com.bitcoinwallet.btclun.webp
   meta: removed
   verdict: nosource
   developerName: Bit Crypto Services

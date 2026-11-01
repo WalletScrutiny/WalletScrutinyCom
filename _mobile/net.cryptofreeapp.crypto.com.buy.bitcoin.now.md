@@ -1,6 +1,6 @@
 ---
 title: (Fake) Crypto.com - Buy Bitcoin Now
-date: 2021-08-26
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -12,7 +12,6 @@ android:
   released: 2021-07-28
   updated: 2021-07-28
   version: '1.0'
-  icon: net.cryptofreeapp.crypto.com.buy.bitcoin.now.webp
   meta: removed
   verdict: fake
 

@@ -15,16 +15,15 @@ dimensions:
 weight: 23
 provider: 
 providerWebsite: http://dorj.io/
-website: https://mydorj.com
-shop: https://www.datisnetwork.com/shop/dorj-one
+website: https://dorj.io/
+shop: https://dorj.io/product/dorjone/
 country: IR
 price: 
 repository: 
-icon: dorj.one.webp
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2023-04-01
+date: 2026-10-30
 signer: 
 twitter: dorjwa
 social:
@@ -33,6 +32,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** The old site mydorj.com no longer loads, and the third-party shop we linked has the Dorj One out of stock. Dorj now sells from [dorj.io](https://dorj.io/), where the [Dorj One](https://dorj.io/product/dorjone/) is still in stock.
 
 ## Product Description taken from the Dorj homepage
 

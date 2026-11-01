@@ -1,6 +1,6 @@
 ---
 title: Invest On Bitcoin
-date: 2021-09-23
+date: 2026-10-30
 redirect_from:
 - /android/com.balletcrypto.invest.on.bitcoin1/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-20
   updated: 2021-06-20
   version: '1.0'
-  icon: com.balletcrypto.invest.on.bitcoin1.webp
   meta: removed
   verdict: wip
 

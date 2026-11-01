@@ -1,9 +1,9 @@
 ---
 title: EasyCoins
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
-website: https://www.easycoins.com/
+website: https://www.easycoins.com/#deadLink
 twitter: EasyCoinsCrypto
 social:
 - https://www.instagram.com/easycoinscryptoglobal/
@@ -19,7 +19,6 @@ android:
   updated: 2023-07-07
   version: 1.0.76
   reviews: 32
-  icon: com.easycoin.exchange.webp
   meta: removed
   verdict: custodial
   developerName: EasyCoins
@@ -31,12 +30,13 @@ iphone:
   updated: 2023-07-10
   version: 1.0.78
   reviews: 1
-  icon: com.easycoin.exchange.webp
   meta: removed
   verdict: custodial
   developerName: Easycoin Labs Private Limited
 
 ---
+
+**Update 2026-10-30:** EasyCoins appears to be gone. The easycoins.com site no longer loads, and its [X account](https://x.com/EasyCoinsCrypto) has posted nothing since 2023.
 
 ## Android
 
@@ -48,7 +48,7 @@ iphone:
 
 Like most exchanges, this platforms has a robust KYC platform and supports multiple-cryptocurrencies including Bitcoin. We were not able to find provisions for backing up seed phrases or the private key. 
 
-### [Terms](https://www.easycoins.com/en/helpCenter/detail/4554368233103)
+### [Terms](https://www.easycoins.com/en/helpCenter/detail/4554368233103#deadLink)
 
 > 4. The Company may suspend or terminate your account or use of the Service, or the processing of any digital asset transaction, at any time if it determines in its sole discretion that you have violated this Agreement or that its provision or your use of the Service in your jurisdiction is unlawful. 
 

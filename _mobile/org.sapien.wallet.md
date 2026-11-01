@@ -1,9 +1,9 @@
 ---
 title: Sapien Wallet
-date: 2025-02-26
+date: 2026-10-30
 authors:
 - danny
-website: https://sapienwallet.com/
+website: https://sapienwallet.com/#deadLink
 social:
 - https://www.facebook.com/SapienWallet
 appCountry: us
@@ -16,7 +16,6 @@ android:
   released: 2021-06-24
   updated: 2024-06-20
   version: 1.88.0
-  icon: org.sapien.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Sapien Wallet
@@ -27,12 +26,13 @@ iphone:
   updated: 2024-03-15
   version: '1.27'
   reviews: 2
-  icon: com.sapien.sapienwallet.webp
   meta: removed
   verdict: nosource
   developerName: SEIPIEN TEKHNOLODZHIS, TOV
 
 ---
+
+**Update 2026-10-30:** Both apps are gone from the stores and the Sapien Wallet website now forwards to an unrelated site. The provider appears to be gone.
 
 ## Android
 

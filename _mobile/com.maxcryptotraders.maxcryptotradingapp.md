@@ -1,9 +1,9 @@
 ---
 title: Max Crypto Trading
-date: 2023-08-05
+date: 2026-10-30
 authors:
 - danny
-website: https://maxcryptotraders.com/
+website: https://web.archive.org/web/20220701081616/https://maxcryptotraders.com/
 redirect_from:
 - /android/com.maxcryptotraders.maxcryptotradingapp/
 android:
@@ -12,7 +12,6 @@ android:
   released: 2022-06-06
   updated: 2022-06-06
   version: 1.0.0
-  icon: com.maxcryptotraders.maxcryptotradingapp.webp
   meta: removed
   verdict: wip
   developerName: Max Crypto Traders

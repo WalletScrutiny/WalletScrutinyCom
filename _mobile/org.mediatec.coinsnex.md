@@ -1,7 +1,7 @@
 ---
 title: Coinsnex
-date: 2024-04-19
-website: http://www.mediatec.org
+date: 2026-10-30
+website: http://www.mediatec.org#deadLink
 redirect_from:
 - /android/org.mediatec.coinsnex/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2018-07-19
   updated: 2018-07-19
   version: 1.0.0
-  icon: org.mediatec.coinsnex.webp
   meta: removed
   verdict: wip
   developerName: Mediatec Software

@@ -1,7 +1,7 @@
 ---
 title: 'Mooncod: Crypto Bitcoin Wallet'
-date: 2024-04-03
-website: https://mooncod.com
+date: 2026-10-30
+website: https://mooncod.com#deadLink
 redirect_from:
 - /android/com.mooncod.wallet/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2022-09-02
   updated: 2022-11-08
   version: 7.0.1
-  icon: com.mooncod.wallet.webp
   meta: removed
   verdict: wip
   developerName: Mooncod

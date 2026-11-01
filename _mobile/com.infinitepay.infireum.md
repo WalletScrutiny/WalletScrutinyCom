@@ -1,6 +1,6 @@
 ---
 title: Infireum - Universal Wallet
-date: 2023-08-04
+date: 2026-10-30
 website: https://infireum.com
 redirect_from:
 - /android/com.infinitepay.infireum/
@@ -10,7 +10,6 @@ android:
   released: 2020-03-23
   updated: 2020-09-01
   version: 1.0.6
-  icon: com.infinitepay.infireum.webp
   meta: removed
   verdict: wip
   developerName: InfinitePay Limited

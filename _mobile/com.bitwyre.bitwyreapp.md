@@ -1,6 +1,6 @@
 ---
 title: Bitwyre
-date: 2023-09-04
+date: 2026-10-30
 website: https://bitwyre.com
 redirect_from:
 - /android/com.bitwyre.bitwyreapp/
@@ -10,7 +10,6 @@ android:
   released: 2022-02-21
   updated: 2022-04-02
   version: 0.0.4
-  icon: com.bitwyre.bitwyreapp.webp
   meta: removed
   verdict: wip
   developerName: Bitwyre

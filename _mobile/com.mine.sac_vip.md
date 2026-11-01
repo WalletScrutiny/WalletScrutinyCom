@@ -1,6 +1,6 @@
 ---
 title: Doctor Memory
-date: 2026-04-13
+date: 2026-10-30
 website: https://www.sac-mine.vip
 redirect_from:
 - /android/com.mine.sac_vip/
@@ -10,7 +10,6 @@ android:
   released: 2021-09-24
   updated: 2025-02-20
   version: '1.2'
-  icon: com.mine.sac_vip.webp
   meta: removed
   verdict: wip
   developerName: War of the Gods

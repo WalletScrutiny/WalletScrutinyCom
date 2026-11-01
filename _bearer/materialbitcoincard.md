@@ -20,11 +20,10 @@ shop: https://materialbitcoin.com/en/product/material-bitcoin-standard/
 country: ES
 price: 89USD
 repository: 
-icon: materialbitcoincard.webp
 bugbounty: 
 meta: ok
 verdict: prefilled
-date: 2023-09-29
+date: 2026-10-30
 signer: 
 twitter: materialbitcoin
 social:

@@ -1,6 +1,6 @@
 ---
 title: 楽天ウォレットの暗号資産取引アプリ
-date: 2023-07-29
+date: 2026-10-30
 authors:
 - danny
 website: https://www.rakuten-wallet.co.jp/
@@ -14,7 +14,6 @@ android:
   appCountry: us
   updated: 2026-09-15
   version: 1.7.1
-  icon: jp.co.rakuten.wallet.crypto.webp
   meta: ok
   verdict: custodial
   developerName: Rakuten Wallet
@@ -26,12 +25,13 @@ iphone:
   updated: 2026-10-14
   version: 1.7.4
   reviews: 10046
-  icon: jp.co.rakuten.wallet.crypto.webp
   meta: ok
   verdict: custodial
   developerName: Rakuten Wallet, Inc.
 
 ---
+
+**Update 2026-10-30:** Rakuten Wallet has a successor app. On 14 October 2026 it launched a new "Rakuten Wallet" app that merges this app with its margin trading app, Android first and iPhone later, and it plans to close this app around early 2027 ([CoinPost](https://coinpost.jp/?p=743139), [Impress Watch](https://www.watch.impress.co.jp/docs/news/2148485.html)). The new app comes from the same exchange and is not listed here yet.
 
 ## Android
 

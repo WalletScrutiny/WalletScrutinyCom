@@ -1,6 +1,6 @@
 ---
 title: 'TokenPocket: Crypto & Bitcoin'
-date: 2026-07-23
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -21,7 +21,6 @@ android:
   updated: 2026-09-24
   version: 2.29.0
   reviews: 634
-  icon: vip.mytokenpocket.webp
   meta: ok
   verdict: obfuscated
   developerName: TP Global Ltd
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-09-25
   version: 2.30.0
   reviews: 740
-  icon: com.global.wallet.ios.webp
   meta: ok
   verdict: obfuscated
   developerName: TP Global Ltd

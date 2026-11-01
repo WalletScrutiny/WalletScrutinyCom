@@ -1,6 +1,6 @@
 ---
 title: 'HFTrading: Forex, Bitcoin, Gol'
-date: 2024-03-02
+date: 2026-10-30
 website: https://www.hftrading.com
 redirect_from:
 - /android/com.hftrading/
@@ -10,7 +10,6 @@ android:
   released: 2021-03-10
   updated: 2021-08-25
   version: 1.5.69-hftrading
-  icon: com.hftrading.webp
   meta: removed
   verdict: wip
   developerName: CTRL Investments Ltd

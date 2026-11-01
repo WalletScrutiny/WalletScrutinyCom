@@ -1,6 +1,6 @@
 ---
 title: Kcash-Crypto Wallet
-date: 2022-04-07
+date: 2026-10-30
 authors:
 - danny
 website: https://web.archive.org/web/20220826010753/https://kcash.com/
@@ -17,11 +17,12 @@ iphone:
   updated: 2021-11-28
   version: 2.9.3
   reviews: 10
-  icon: com.kcw.kcash.webp
   meta: removed
   verdict: nosource
 
 ---
+
+**Update 2026-10-30:** Kcash appears to be gone. The app is off the App Store and the kcash.com website is gone.
 
 **Update 2022-03-28**: This app is not available anymore.
 

@@ -1,6 +1,6 @@
 ---
 title: Monetum Quick Trade
-date: 2025-03-14
+date: 2026-10-30
 website: https://monetum.com/quick-trade
 redirect_from:
 - /android/com.monetum.quicktrade/
@@ -10,7 +10,6 @@ android:
   appCountry: us
   updated: 2023-03-24
   version: 1.7.0
-  icon: com.monetum.quicktrade.webp
   meta: obsolete
   verdict: wip
   developerName: Monetum Mobile

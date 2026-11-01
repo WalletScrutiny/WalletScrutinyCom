@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Wallet Exchange - exch
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - kiwilamb
 redirect_from:
@@ -12,7 +12,6 @@ android:
   updated: 2020-10-13
   version: '1.01'
   reviews: 18
-  icon: com.BitcoinWalletExchange.org.webp
   meta: removed
   verdict: custodial
   developerName: ATMwallet

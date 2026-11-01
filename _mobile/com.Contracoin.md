@@ -1,6 +1,6 @@
 ---
 title: Contracoin Wallet
-date: 2024-04-19
+date: 2026-10-30
 authors:
 - danny
 website: https://contracoin.network/
@@ -12,7 +12,6 @@ android:
   released: 2020-11-19
   updated: 2020-11-19
   version: '1.00'
-  icon: com.Contracoin.webp
   meta: removed
   verdict: wip
   developerName: Contracoin

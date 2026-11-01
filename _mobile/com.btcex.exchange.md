@@ -1,6 +1,6 @@
 ---
 title: 'BTCEX: Trade Bitcoin & Crypto'
-date: 2023-08-04
+date: 2026-10-30
 authors:
 - danny
 website: https://www.btcex.com#deadLink
@@ -21,7 +21,6 @@ android:
   updated: 2023-07-05
   version: 1.4.50
   reviews: 9
-  icon: com.btcex.exchange.webp
   meta: removed
   verdict: custodial
   developerName: BTCEX
@@ -33,12 +32,13 @@ iphone:
   updated: 2023-06-21
   version: 1.4.4
   reviews: 0
-  icon: com.btcex.appstore.webp
   meta: removed
   verdict: custodial
   developerName: BTCEX EXCHANGE LIMITED
 
 ---
+
+**⚠️ Warning:** BTCEX is shut down. The exchange [announced its closure](https://web.archive.org/web/20230621134626/https://support.btcex.com/hc/en-us/articles/15440758749847-BTCEX-Trading-Platform-Closure-and-Refund-Process) on June 21, 2023, stopped trading on July 5, 2023 and closed logins on July 20, 2023, after which withdrawals had to go through customer service. The website no longer loads.
 
 ## Android
 

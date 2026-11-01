@@ -1,6 +1,6 @@
 ---
 title: RMT
-date: 2024-11-07
+date: 2026-10-30
 redirect_from:
 - /android/rmt.mobile/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-05-19
   updated: 2020-05-19
   version: 1.0.3
-  icon: rmt.mobile.webp
   meta: removed
   verdict: wip
   developerName: RMTKOR

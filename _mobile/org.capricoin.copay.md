@@ -1,6 +1,6 @@
 ---
 title: Capricoin Copay
-date: 2025-08-04
+date: 2026-10-30
 website: https://www.capricoin.org/
 redirect_from:
 - /android/org.capricoin.copay/
@@ -10,7 +10,6 @@ android:
   released: 2020-05-14
   updated: 2020-07-06
   version: 5.5.5
-  icon: org.capricoin.copay.webp
   meta: removed
   verdict: wip
   developerName: Programio DMCC LLC

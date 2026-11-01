@@ -1,6 +1,6 @@
 ---
 title: RuufPay Crypto Pay Swap Wallet
-date: 2024-10-23
+date: 2026-10-30
 authors:
 - danny
 website: https://ruufpay.app
@@ -9,7 +9,6 @@ social:
 - https://www.linkedin.com/company/ruufpay
 - https://www.facebook.com/ruufpay
 - https://www.instagram.com/ruufpay/
-- https://ruufpay.app
 - https://www.instagram.com/ruufpay
 redirect_from:
 - /android/com.ruufpay.ruufpaymobileapp/
@@ -22,7 +21,6 @@ android:
   updated: 2026-06-04
   version: 3.2.0
   reviews: 11
-  icon: com.ruufpay.ruufpaymobileapp.webp
   meta: ok
   verdict: nosource
   developerName: RuufPay
@@ -34,7 +32,6 @@ iphone:
   updated: 2025-08-28
   version: 3.1.0
   reviews: 20
-  icon: app.ruufpay.ruufpay.webp
   meta: removed
   verdict: nosource
   developerName: RuufPay

@@ -1,6 +1,6 @@
 ---
 title: 'Coin98: Trade Crypto & Stocks'
-date: 2022-01-10
+date: 2026-10-30
 authors:
 - kiwilamb
 - danny
@@ -20,7 +20,6 @@ android:
   updated: 2026-10-14
   version: 16.15.4
   reviews: 260
-  icon: coin98.crypto.finance.media.webp
   meta: ok
   verdict: nosource
   developerName: COIN98 WALLET LTD
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-10-14
   version: 16.15.4
   reviews: 658
-  icon: coin98.crypto.finance.insights.webp
   meta: ok
   verdict: nosource
   developerName: COIN98 WALLET LTD
@@ -40,6 +38,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The app is now marketed as the "Coin98 Super Wallet" ([website](https://coin98.com/)).
 
 The [Coin98 website](https://coin98.app/) claims to be a wallet from their description...
 

@@ -1,6 +1,6 @@
 ---
 title: Servicoin - Crypto Wallet
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 website: https://www.mysrvcoin.com/index.php#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2021-07-31
   updated: 2021-07-31
   version: 0.21.0
-  icon: com.servicoin.wallet.webp
   meta: removed
   verdict: custodial
   developerName: My Services Shop Inc.

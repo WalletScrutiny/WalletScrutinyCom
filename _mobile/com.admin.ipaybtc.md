@@ -1,6 +1,6 @@
 ---
 title: IpayBTC
-date: 2026-04-28
+date: 2026-10-30
 appCountry: us
 redirect_from:
 - /iphone/com.admin.ipaybtc/
@@ -11,7 +11,6 @@ iphone:
   updated: 2025-11-18
   version: 3.1.4
   reviews: 8
-  icon: com.admin.ipaybtc.webp
   meta: removed
   verdict: wip
   developerName: ipayBTC Technologies Inc

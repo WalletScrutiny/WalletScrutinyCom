@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Wallet Market
-date: 2024-11-04
+date: 2026-10-30
 authors:
 - danny
 website: https://wallet-markets.web.app
@@ -13,7 +13,6 @@ android:
   updated: 2022-04-10
   version: 0.3.7
   reviews: 15
-  icon: com.bitcoin.bankwallet.webp
   meta: removed
   verdict: wip
   developerName: Oriental Thang Long

@@ -1,6 +1,6 @@
 ---
 title: 'Ja­xx Lib­erty: Crypto Wallet'
-date: 2021-10-22
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -12,7 +12,6 @@ android:
   released: 2021-08-30
   updated: 2021-08-31
   version: '12.003'
-  icon: jax.wallet.liberty.webp
   meta: removed
   verdict: fake
 

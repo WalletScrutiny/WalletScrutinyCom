@@ -1,6 +1,6 @@
 ---
 title: HC Inv
-date: 2024-04-03
+date: 2026-10-30
 redirect_from:
 - /android/io.hccapital.hcinv/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-05-28
   updated: 2021-06-03
   version: 1.1.2
-  icon: io.hccapital.hcinv.webp
   meta: removed
   verdict: wip
   developerName: BuenBitcoin

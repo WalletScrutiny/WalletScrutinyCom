@@ -1,9 +1,9 @@
 ---
 title: Leap Wallet
-date: 2025-11-09
+date: 2026-10-30
 authors:
 - danny
-website: https://www.leapwallet.io/mobile
+website: https://web.archive.org/web/20260113194032/https://www.leapwallet.io/mobile
 twitter: leap_cosmos
 social:
 - https://www.reddit.com/user/Leap_Wallet
@@ -18,7 +18,6 @@ android:
   updated: 2026-03-27
   version: 0.77.0
   reviews: 99
-  icon: io.leapwallet.cosmos.webp
   meta: removed
   verdict: nosource
   developerName: Leap Wallet
@@ -30,12 +29,13 @@ iphone:
   updated: 2026-04-01
   version: 0.77.0
   reviews: 1136
-  icon: com.LeapCosmosWallet.webp
   meta: removed
   verdict: nosource
   developerName: Hyphen Labs Ltd.
 
 ---
+
+**⚠️ Warning:** Leap Wallet shut down all its products, including both mobile apps, on May 28, 2026 ([Crowdfund Insider](https://www.crowdfundinsider.com/2026/04/271130-cosmos-ecosystem-focused-leap-wallet-to-shut-down-operations/), [Crypto Briefing](https://cryptobriefing.com/leap-wallet-cease-operation-migrate-users/)). The website is gone; users were told to move their recovery phrase to another wallet.
 
 ## Android
 

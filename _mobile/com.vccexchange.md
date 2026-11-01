@@ -1,9 +1,9 @@
 ---
 title: VCC Exchange
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
-website: https://vcc.exchange/
+website: https://vcc.exchange/#deadLink
 twitter: VCCExchange
 social:
 - https://www.facebook.com/vccexchange
@@ -17,7 +17,6 @@ android:
   updated: 2021-10-06
   version: 3.18.0
   reviews: 37
-  icon: com.vccexchange.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -28,11 +27,12 @@ iphone:
   updated: 2021-10-06
   version: 3.18.0
   reviews: 4
-  icon: exchange.vcce.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** VCC Exchange appears to be gone. Its website no longer loads, its [X account](https://twitter.com/VCCExchange#deadLink) is gone, both apps are no longer in the stores, and [CoinMarketCap](https://coinmarketcap.com/exchanges/vcc-exchange/) no longer tracks its trading volume.
 
 ## Android
 
@@ -50,7 +50,7 @@ We tried to register with the app but did not receive the confirmation email. It
 
 Exchanges are almost always likely to be a **custodial** service. 
 
-We did find a third-party [article](https://azcoinnews.com/why-did-vcc-exchange-stop-providing-services-to-vietnamese-users.html) indicating that the service provider has terminated its services to Vietnam. If this is true universally, it would only be a matter of time when the service goes completely offline.
+We did find a third-party [article](https://web.archive.org/web/20231204234334/https://azcoinnews.com/why-did-vcc-exchange-stop-providing-services-to-vietnamese-users.html) indicating that the service provider has terminated its services to Vietnam. If this is true universally, it would only be a matter of time when the service goes completely offline.
 
 ---
 

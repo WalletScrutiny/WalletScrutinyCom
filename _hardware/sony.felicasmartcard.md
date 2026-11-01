@@ -20,11 +20,10 @@ shop:
 country: 
 price: 
 repository: 
-icon: sony.felicasmartcard.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2023-09-30
+date: 2026-10-30
 signer: 
 twitter: 
 social: 

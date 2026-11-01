@@ -1,6 +1,6 @@
 ---
 title: PalmPay - Crypto Point of Sale
-date: 2024-11-30
+date: 2026-10-30
 authors:
 - danny
 website: http://www.PalmPay.io
@@ -12,7 +12,6 @@ android:
   users: 10000
   updated: 2022-01-20
   version: VARY
-  icon: cy.agorise.palmpay.webp
   meta: removed
   verdict: nosource
   developerName: Agorise, Ltd.

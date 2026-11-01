@@ -1,6 +1,6 @@
 ---
 title: 'Monetaria: P2P Crypto Exchange'
-date: 2023-08-16
+date: 2026-10-30
 website: https://sharuvan.com
 redirect_from:
 - /android/com.sharuvan.monetaria/
@@ -10,7 +10,6 @@ android:
   released: 2021-12-26
   updated: 2021-12-23
   version: 1.0.2
-  icon: com.sharuvan.monetaria.webp
   meta: removed
   verdict: wip
   developerName: Ahmed Sharuvan

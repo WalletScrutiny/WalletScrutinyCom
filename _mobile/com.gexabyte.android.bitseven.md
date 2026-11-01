@@ -1,6 +1,6 @@
 ---
 title: BitSeven Wallet
-date: 2024-04-26
+date: 2026-10-30
 website: https://bit7wallet.com#deadLink
 redirect_from:
 - /android/com.gexabyte.android.bitseven/
@@ -9,7 +9,6 @@ android:
   users: 50
   updated: 2021-10-18
   version: VARY
-  icon: com.gexabyte.android.bitseven.webp
   meta: removed
   verdict: wip
   developerName: TeсhСulture

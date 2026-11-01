@@ -1,6 +1,6 @@
 ---
 title: 'Coinmama: Crypto Wallet App'
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: https://www.coinmama.com/
@@ -20,7 +20,6 @@ android:
   updated: 2023-12-13
   version: 1.03.02
   reviews: 18
-  icon: com.coinmama.webp
   meta: removed
   verdict: nosource
   developerName: Coinmama
@@ -32,7 +31,6 @@ iphone:
   updated: 2023-04-18
   version: 1.3.0
   reviews: 28
-  icon: com.coinmama.coinmama.webp
   meta: removed
   verdict: nosource
   developerName: Cmama Limited

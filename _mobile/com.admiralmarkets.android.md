@@ -1,6 +1,6 @@
 ---
 title: Admirals・Stocks trading
-date: 2021-10-16
+date: 2026-10-30
 authors:
 - danny
 website: https://www.admiralmarkets.com
@@ -19,7 +19,6 @@ android:
   updated: 2026-09-29
   version: 1.14.1
   reviews: 4
-  icon: com.admiralmarkets.android.webp
   meta: ok
   verdict: nosendreceive
   developerName: Admiral Markets
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-10-06
   version: 5.66.1
   reviews: 3
-  icon: com.admiralmarkets.tradersroom.webp
   meta: ok
   verdict: nosendreceive
   developerName: Admiral Markets AS

@@ -1,6 +1,6 @@
 ---
 title: Margex – Up to 100x Leverage
-date: 2023-07-08
+date: 2026-10-30
 authors:
 - danny
 website: https://margex.com
@@ -9,7 +9,6 @@ social:
 - https://www.facebook.com/margexcom
 - https://www.youtube.com/c/margex
 - https://t.me/margex_official
-- https://margex.com
 redirect_from:
 - /android/com.margex.margex_mobile/
 - /iphone/com.margex.mobile/
@@ -20,7 +19,6 @@ android:
   updated: 2025-04-18
   version: 4.6.5
   reviews: 100
-  icon: com.margex.margex_mobile.webp
   meta: removed
   verdict: custodial
   developerName: Margex
@@ -32,7 +30,6 @@ iphone:
   updated: 2026-09-30
   version: 5.2.3
   reviews: 594
-  icon: com.margex.mobile.webp
   meta: ok
   verdict: custodial
   developerName: Margex Trading Solutions LTD
@@ -40,6 +37,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** This Android app is gone from Google Play. The [Margex website](https://margex.com) now links to a different Android app, "Margex - Easiest Way to Crypto" (appId `com.mxm.mobileapp`, developer MX Dev Studio), which we have not reviewed yet.
 
 ## App Description from Google Play
 

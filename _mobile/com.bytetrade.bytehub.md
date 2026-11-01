@@ -1,6 +1,6 @@
 ---
 title: ByteHub
-date: 2023-09-15
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bytetrade.io/
@@ -18,7 +18,6 @@ android:
   updated: 2021-09-09
   version: 1.4.3.210909
   reviews: 1302
-  icon: com.bytetrade.bytehub.webp
   meta: removed
   verdict: nosource
   developerName: Bytetrade
@@ -29,12 +28,13 @@ iphone:
   updated: 2021-01-16
   version: 1.1.210116
   reviews: 4
-  icon: com.bytetrade.bytehub.webp
   meta: removed
   verdict: nosource
   developerName: BYTETRADE(HK) LIMITED
 
 ---
+
+**Update 2026-10-30:** ByteTrade no longer offers a wallet. bytetrade.io now forwards to [ByteTrade Lab](https://www.bytetradelab.io/), which builds AI infrastructure (Olares) and does not mention ByteHub or the BTON chain, and byte-trade.com no longer loads.
 
 ## Android
 

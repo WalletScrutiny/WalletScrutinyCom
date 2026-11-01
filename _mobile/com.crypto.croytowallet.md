@@ -1,9 +1,9 @@
 ---
 title: iMX
-date: 2026-02-02
+date: 2026-10-30
 authors:
 - danny
-website: https://imxapp.io/
+website: https://imxapp.io/#deadLink
 social:
 - https://www.facebook.com/profile.php?id=100075743690970
 - https://www.instagram.com/imxapp/
@@ -17,7 +17,6 @@ android:
   released: 2021-02-16
   updated: 2025-10-10
   version: 13.2.10
-  icon: com.crypto.croytowallet.webp
   meta: stale
   verdict: nosource
   developerName: Smart IoT Technology Co. Ltd
@@ -29,12 +28,13 @@ iphone:
   updated: 2024-04-09
   version: 1.7.3
   reviews: 1
-  icon: global.imxchange.iMX.webp
   meta: obsolete
   verdict: nosource
   developerName: I M SMART IMT (Thailand) COMPANY LIMITED
 
 ---
+
+**Update 2026-10-30:** The iMX website no longer loads ([last archived copy](https://web.archive.org/web/20250305040913/https://imxapp.io/), March 2025) and the iPhone app is gone from the App Store. The Android app is still listed but was last updated in October 2025.
 
 ## Android
 

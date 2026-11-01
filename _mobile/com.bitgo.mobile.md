@@ -1,6 +1,6 @@
 ---
 title: BitGo
-date: 2025-04-14
+date: 2026-10-30
 authors:
 - danny
 website: https://bitgo.com
@@ -18,7 +18,6 @@ android:
   updated: 2023-01-19
   version: 1.7.0
   reviews: 6
-  icon: com.bitgo.mobile.webp
   meta: removed
   verdict: custodial
   developerName: BitGo, Inc
@@ -30,7 +29,6 @@ iphone:
   updated: 2026-10-02
   version: 2.3.4
   reviews: 16
-  icon: com.bitgo.mobile.webp
   meta: ok
   verdict: custodial
   developerName: BitGo

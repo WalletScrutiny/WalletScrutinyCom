@@ -1,6 +1,6 @@
 ---
 title: TrueDEX - Trading Unleashed
-date: 2024-08-23
+date: 2026-10-30
 authors:
 - danny
 website: https://tdex.network
@@ -15,7 +15,6 @@ android:
   released: 2021-07-05
   updated: 2023-06-12
   version: 1.3.1
-  icon: io.sevenlabs.app.webp
   meta: removed
   verdict: wip
   developerName: Seven Labs LTD
@@ -27,7 +26,6 @@ iphone:
   updated: 2023-09-10
   version: 2.0.0
   reviews: 3
-  icon: io.sevenlabs.app.webp
   meta: removed
   verdict: wip
   developerName: Seven Labs Limited

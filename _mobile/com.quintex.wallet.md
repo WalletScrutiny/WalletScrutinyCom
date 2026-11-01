@@ -1,6 +1,6 @@
 ---
 title: Quintex Network
-date: 2024-02-05
+date: 2026-10-30
 website: https://quintex.io#deadLink
 redirect_from:
 - /android/com.quintex.wallet/
@@ -10,7 +10,6 @@ android:
   released: 2022-05-12
   updated: 2022-05-28
   version: 1.0.0
-  icon: com.quintex.wallet.webp
   meta: removed
   verdict: wip
   developerName: QUINTEX AI

@@ -1,6 +1,6 @@
 ---
 title: CCUSD
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/us.dt777.com/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-04-20
   updated: 2022-04-20
   version: 1.0.9
-  icon: us.dt777.com.webp
   meta: removed
   verdict: wip
   developerName: CCUSD

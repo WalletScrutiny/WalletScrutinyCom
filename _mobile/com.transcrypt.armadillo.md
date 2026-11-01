@@ -1,6 +1,6 @@
 ---
 title: Tizer Wallet
-date: 2023-04-16
+date: 2026-10-30
 authors:
 - danny
 website: https://tizer.io#deadLink
@@ -19,7 +19,6 @@ android:
   updated: 2022-03-09
   version: 2.08.9
   reviews: 20
-  icon: com.transcrypt.armadillo.webp
   meta: removed
   verdict: nosource
   developerName: TizerWallet OÜ
@@ -30,7 +29,6 @@ iphone:
   updated: 2022-04-07
   version: 2.09.3
   reviews: 23
-  icon: com.tsrpay.transcrypt.webp
   meta: removed
   verdict: nosource
   developerName: TizerWallet OU

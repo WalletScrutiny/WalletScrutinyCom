@@ -1,6 +1,6 @@
 ---
 title: PINT Wallet & P2P Marketplace for Bitcoin Ethereum
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitfia.io
@@ -16,7 +16,6 @@ android:
   updated: 2021-03-06
   version: 2.0.32
   reviews: 10
-  icon: com.pint.app.webp
   meta: removed
   verdict: nosource
 

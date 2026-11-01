@@ -1,6 +1,6 @@
 ---
 title: 'Uphold: Trade crypto & stocks'
-date: 2020-10-12
+date: 2026-10-30
 authors:
 - leo
 website: https://uphold.com
@@ -24,7 +24,6 @@ android:
   updated: 2026-10-09
   version: 6.110.1
   reviews: 8405
-  icon: com.uphold.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Uphold
@@ -36,7 +35,6 @@ iphone:
   updated: 2026-10-09
   version: 6.110.1
   reviews: 90832
-  icon: com.uphold.wallet.ios.webp
   meta: ok
   verdict: custodial
   developerName: Uphold HQ Inc.

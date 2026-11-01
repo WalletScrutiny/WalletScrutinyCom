@@ -17,11 +17,10 @@ shop: https://shop.lnbits.com/product/lnbits-bitcoin-hardware-wallet
 country: UK
 price: 20 GBP
 repository: https://github.com/lnbits/hardware-wallet
-icon: arcbtc.lnbits.hww.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2026-02-27
+date: 2026-10-30
 signer: 
 twitter: arcbtc
 social: 

@@ -1,9 +1,9 @@
 ---
 title: VisionWallet — Crypto & Bitcoi
-date: 2023-06-21
+date: 2026-10-30
 authors:
 - leo
-website: https://visionwallet.com/en/
+website: https://web.archive.org/web/20210620184417/https://visionwallet.com/en/
 redirect_from:
 - /com.visionwallet.app/
 - /android/com.visionwallet.app/
@@ -13,12 +13,13 @@ android:
   released: 2020-09-07
   updated: 2020-11-05
   version: 1.3.2
-  icon: com.visionwallet.app.webp
   meta: removed
   verdict: custodial
   developerName: VISION WALLET LTD
 
 ---
+
+**Update 2026-10-30:** VisionWallet looks gone. visionwallet.com now shows an unrelated app for storing photos of cards and documents, plus unrelated blog posts. The crypto wallet's site survives only in the [archive](https://web.archive.org/web/20210620184417/https://visionwallet.com/en/).
 
 > Passive funds accumulation (interest on the account balance)
 

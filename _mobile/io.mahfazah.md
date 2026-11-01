@@ -1,6 +1,6 @@
 ---
 title: Mahfazah | محفظة بيتكوين
-date: 2023-06-21
+date: 2026-10-30
 website: http://www.cryptocurrencysolutions.io#deadLink
 redirect_from:
 - /android/io.mahfazah/
@@ -10,7 +10,6 @@ android:
   released: 2018-09-19
   updated: 2018-11-22
   version: 1.2.6
-  icon: io.mahfazah.webp
   meta: removed
   verdict: wip
   developerName: Cryptocurrency Solutions OU

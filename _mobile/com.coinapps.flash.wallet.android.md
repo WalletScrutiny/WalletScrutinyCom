@@ -1,6 +1,6 @@
 ---
 title: FLASH Wallet
-date: 2021-10-15
+date: 2026-10-30
 redirect_from:
 - /android/com.coinapps.flash.wallet.android/
 android:
@@ -10,7 +10,6 @@ android:
   updated: 2020-07-23
   version: 2.4.1
   reviews: 25
-  icon: com.coinapps.flash.wallet.android.webp
   meta: removed
   verdict: wip
 

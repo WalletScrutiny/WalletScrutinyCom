@@ -1,9 +1,9 @@
 ---
 title: IQTrade - Trade Bitcoin & Gold
-date: 2025-04-22
+date: 2026-10-30
 authors:
 - danny
-website: https://www.iq-trading.com
+website: https://www.iqglobal-trade.com
 twitter: iqtradegroup
 social:
 - https://www.youtube.com/@IQTradeGlobal#deadLink
@@ -18,12 +18,13 @@ android:
   updated: 2025-03-17
   version: 3.2.2
   reviews: 20
-  icon: com.iqtrade.ex.app.webp
   meta: removed
   verdict: custodial
   developerName: I&Q Financial LLC
 
 ---
+
+**Update 2026-10-30:** IQTrade now trades as IQ Global: the old iq-trading.com site forwards to [iqglobal-trade.com](https://www.iqglobal-trade.com/), which offers trading through MetaTrader 5 instead of its own app.
 
 The registration process seems to be broken for this app/website. We tried inputting our mobile number and it kept issuing an error "Incorrect format"
 We tried several combinations both on the mobile app and on the website. On both occasions it issued the same error. 
@@ -36,7 +37,7 @@ We used a VPN to connect a Japanese server and the app informed us that our regi
 
 ## Analysis 
 
-We tried to look for documentation but it was sparse. We did find however, that it allowed users to [deposit cryptocurrencies](https://www.iq-trading.com/help/detail?id=783906019314245600)
+We tried to look for documentation but it was sparse. We did find however, that it allowed users to [deposit cryptocurrencies](https://www.iq-trading.com/help/detail?id=783906019314245600#deadLink)
 
 Their user policy does not have a lot of information about the actual service, but it did cite:
 

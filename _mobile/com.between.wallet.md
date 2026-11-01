@@ -1,6 +1,6 @@
 ---
 title: Between Wallet
-date: 2026-01-16
+date: 2026-10-30
 authors:
 - danny
 website: https://betweenbits.io/
@@ -16,7 +16,6 @@ android:
   released: 2025-04-22
   updated: 2026-07-22
   version: 1.2.2
-  icon: com.between.wallet.webp
   meta: ok
   verdict: nosource
   developerName: BetweenBits Inc.

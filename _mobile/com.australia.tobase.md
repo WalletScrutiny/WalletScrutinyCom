@@ -1,6 +1,6 @@
 ---
 title: tobase
-date: 2023-01-02
+date: 2026-10-30
 website: https://www.tobases.com#deadLink
 redirect_from:
 - /android/com.australia.tobase/
@@ -10,7 +10,6 @@ android:
   released: 2022-03-26
   updated: 2022-07-23
   version: 0.0.4
-  icon: com.australia.tobase.webp
   meta: removed
   verdict: wip
 

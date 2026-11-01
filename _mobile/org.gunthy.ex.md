@@ -1,6 +1,6 @@
 ---
 title: GUNTHY
-date: 2024-03-02
+date: 2026-10-30
 website: https://gunthy.org
 redirect_from:
 - /android/org.gunthy.ex/
@@ -10,7 +10,6 @@ android:
   released: 2021-01-12
   updated: 2021-01-14
   version: 1.26.0
-  icon: org.gunthy.ex.webp
   meta: removed
   verdict: wip
   developerName: Gunthy LTD

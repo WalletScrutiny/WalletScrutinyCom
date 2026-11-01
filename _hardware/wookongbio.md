@@ -21,11 +21,10 @@ shop: https://wooko.ng/en/bio#deadLink
 country: CH
 price: 1099CNY
 repository: 
-icon: wookongbio.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2021-12-04
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -33,5 +32,7 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** WOOKONG appears to be out of business. Its website has been gone for years.
 
 The website is [no longer working](https://twitter.com/BitcoinWalletz/status/1466946290546143232).

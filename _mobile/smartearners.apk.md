@@ -1,6 +1,6 @@
 ---
 title: SmartEarners
-date: 2024-04-19
+date: 2026-10-30
 website: https://teamsmartearners.com#deadLink
 redirect_from:
 - /android/smartearners.apk/
@@ -10,7 +10,6 @@ android:
   released: 2022-08-11
   updated: 2022-08-11
   version: '9.8'
-  icon: smartearners.apk.webp
   meta: removed
   verdict: wip
   developerName: FOYCAL SYSTEMS

@@ -1,9 +1,9 @@
 ---
 title: Cryptopower Wallet
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
-website: https://cryptopower.dev/
+website: https://cryptopower.dev/#deadLink
 redirect_from:
 - /android/com.dreacotdigital.cryptopower.mainnet/
 android:
@@ -13,7 +13,6 @@ android:
   released: 2024-01-20
   updated: 2025-08-19
   version: 2.1.1
-  icon: com.dreacotdigital.cryptopower.mainnet.webp
   meta: stale
   verdict: wip
   developerName: Dreacot Digital Limited

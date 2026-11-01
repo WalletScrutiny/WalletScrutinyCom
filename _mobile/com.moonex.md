@@ -1,6 +1,6 @@
 ---
 title: MoonEX
-date: 2024-04-03
+date: 2026-10-30
 redirect_from:
 - /android/com.moonex/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-08-18
   updated: 2020-08-18
   version: '1.0'
-  icon: com.moonex.webp
   meta: removed
   verdict: wip
   developerName: MOONEX Corp.

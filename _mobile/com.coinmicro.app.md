@@ -1,6 +1,6 @@
 ---
 title: CoinMicro
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/com.coinmicro.app/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-07-12
   updated: 2022-10-21
   version: 1.0.23
-  icon: com.coinmicro.app.webp
   meta: removed
   verdict: wip
   developerName: CoinMicro

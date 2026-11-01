@@ -1,6 +1,6 @@
 ---
 title: PC Crypto Market
-date: 2023-05-31
+date: 2026-10-30
 authors:
 - danny
 website: https://www.pccryptomarket.com#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2019-08-18
   updated: 2019-08-31
   version: '1.2'
-  icon: com.pccryptomarket.webp
   meta: removed
   verdict: wip
   developerName: PC Crypto Market

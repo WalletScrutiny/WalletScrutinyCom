@@ -1,6 +1,6 @@
 ---
 title: Crypto Wallet Guard - Offline
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/co.crypto.wallet.guard/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-05-07
   updated: 2021-05-07
   version: '1.1'
-  icon: co.crypto.wallet.guard.webp
   meta: removed
   verdict: wip
   developerName: Mashinz

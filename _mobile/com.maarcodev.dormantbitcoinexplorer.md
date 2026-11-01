@@ -1,6 +1,6 @@
 ---
 title: Dormant Bitcoin Explorer
-date: 2023-05-09
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -12,7 +12,6 @@ android:
   updated: 2023-01-06
   version: '1.5'
   reviews: 3
-  icon: com.maarcodev.dormantbitcoinexplorer.webp
   meta: removed
   verdict: wip
   developerName: MaarcoDev

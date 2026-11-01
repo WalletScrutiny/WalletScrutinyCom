@@ -1,7 +1,7 @@
 ---
 title: CoinFundIt.com
-date: 2024-04-19
-website: https://coinfundit.com
+date: 2026-10-30
+website: https://coinfundit.com#deadLink
 redirect_from:
 - /android/com.coinfundit.wallet/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2022-03-17
   updated: 2023-03-12
   version: 1.0.4
-  icon: com.coinfundit.wallet.webp
   meta: removed
   verdict: wip
   developerName: CoinFundIt.com

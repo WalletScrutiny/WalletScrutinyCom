@@ -1,6 +1,6 @@
 ---
 title: DiDimessage-Make New Friends & Play Games
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
 website: https://didimessage.com#deadLink
@@ -16,7 +16,6 @@ android:
   updated: 2022-05-26
   version: 1.16.0
   reviews: 14
-  icon: com.didi.message.webp
   meta: removed
   verdict: custodial
 

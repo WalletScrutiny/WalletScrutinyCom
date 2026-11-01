@@ -17,11 +17,10 @@ shop:
 country: CN
 price: 
 repository: 
-icon: holder.wallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2023-03-03
+date: 2026-10-30
 signer: 
 twitter: 
 social: 

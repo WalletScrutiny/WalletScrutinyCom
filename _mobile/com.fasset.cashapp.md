@@ -1,6 +1,6 @@
 ---
 title: 'Fasset: Global Digital Bank'
-date: 2023-07-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.fasset.io/
@@ -21,7 +21,6 @@ android:
   updated: 2026-09-27
   version: '6.11'
   reviews: 69
-  icon: com.fasset.cashapp.webp
   meta: ok
   verdict: custodial
   developerName: Fasset Labuan Limited
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-10-06
   version: '4.21'
   reviews: 59
-  icon: com.fasset.cashapp.webp
   meta: ok
   verdict: custodial
   developerName: Fasset Ltd.

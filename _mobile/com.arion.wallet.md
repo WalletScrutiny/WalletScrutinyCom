@@ -1,7 +1,7 @@
 ---
 title: Arion Wallet
-date: 2023-01-02
-website: https://www.arioncoin.com
+date: 2026-10-30
+website: https://www.arioncoin.com#deadLink
 redirect_from:
 - /android/com.arion.wallet/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2019-10-10
   updated: 2019-10-10
   version: v1.0.1
-  icon: com.arion.wallet.webp
   meta: removed
   verdict: wip
 

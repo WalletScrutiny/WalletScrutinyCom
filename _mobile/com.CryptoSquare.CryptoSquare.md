@@ -1,6 +1,6 @@
 ---
 title: Crypto Square
-date: 2024-03-02
+date: 2026-10-30
 redirect_from:
 - /android/com.CryptoSquare.CryptoSquare/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-08-16
   updated: 2021-08-16
   version: '1.0'
-  icon: com.CryptoSquare.CryptoSquare.webp
   meta: removed
   verdict: wip
   developerName: Warn Wilson Jr.

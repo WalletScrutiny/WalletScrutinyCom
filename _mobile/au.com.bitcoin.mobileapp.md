@@ -1,6 +1,6 @@
 ---
 title: Bitcoin.com.au Buy Bitcoin BTC
-date: 2025-11-11
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitcoin.com.au
@@ -18,7 +18,6 @@ android:
   appCountry: us
   updated: 2026-09-27
   version: 17.0.1
-  icon: au.com.bitcoin.mobileapp.webp
   meta: ok
   verdict: custodial
   developerName: bitcoin.com.au
@@ -30,7 +29,6 @@ iphone:
   updated: 2026-09-27
   version: 17.0.1
   reviews: 1422
-  icon: au.com.bitcoin.mobileapp.webp
   meta: ok
   verdict: custodial
   developerName: Bitcoin.com.au

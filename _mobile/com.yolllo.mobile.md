@@ -1,6 +1,6 @@
 ---
 title: AvaPay Wallet
-date: 2024-09-08
+date: 2026-10-30
 website: https://avapayltd.com#deadLink
 redirect_from:
 - /android/com.yolllo.mobile/
@@ -10,7 +10,6 @@ android:
   released: 2022-04-29
   updated: 2022-06-23
   version: '1.0'
-  icon: com.yolllo.mobile.webp
   meta: removed
   verdict: wip
   developerName: AVAPAY LTD

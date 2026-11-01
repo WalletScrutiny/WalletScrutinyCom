@@ -1,6 +1,6 @@
 ---
 title: Сhoise.com
-date: 2026-01-28
+date: 2026-10-30
 authors:
 - leo
 website: https://choise.com
@@ -18,7 +18,6 @@ android:
   updated: 2025-01-29
   version: '13.0'
   reviews: 439
-  icon: com.crypterium.webp
   meta: removed
   verdict: custodial
   developerName: UAB Choise Servises
@@ -29,12 +28,13 @@ iphone:
   updated: 2025-01-31
   version: '13.0'
   reviews: 933
-  icon: com.Crypterium.Crypterium.webp
   meta: removed
   verdict: custodial
   developerName: Crypterium AS
 
 ---
+
+**⚠️ Warning:** Choise.com (formerly Crypterium) appears to be gone. Its Lithuanian operator UAB Choise Services [entered voluntary liquidation in April 2025](https://fintelegram.com/compliance-analysis-the-russian-crypto-scheme-choise-in-liquidation/), customers have to file claims with the liquidator, and [choise.com](https://choise.com) now shows only a support email address.
 
 ## Android
 

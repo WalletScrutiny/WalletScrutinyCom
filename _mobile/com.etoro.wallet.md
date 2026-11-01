@@ -1,6 +1,6 @@
 ---
 title: eToro Money
-date: 2021-04-21
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
@@ -20,7 +20,6 @@ android:
   updated: 2026-02-09
   version: 104.0.0
   reviews: 152
-  icon: com.etoro.wallet.webp
   meta: removed
   verdict: custodial
   developerName: eToroX
@@ -31,12 +30,17 @@ iphone:
   updated: 2026-02-12
   version: 104.0.0
   reviews: 181
-  icon: com.etoro.wallet.webp
   meta: removed
   verdict: custodial
   developerName: eToro
 
 ---
+
+**Update 2026-10-30:** eToro's help centre says
+the [eToro Money app features have moved to the eToro platform](https://help.etoro.com/s/article/eToro-Money-app-features-have-moved-to-the-eToro-platform?language=en_GB):
+the crypto wallet now sits in the Wallet tab of
+{% include walletLink.html wallet='android/com.etoro.openbook' verdict='true' %} and
+{% include walletLink.html wallet='iphone/com.etoro.openbook' verdict='true' %}.
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: BirrOS
-date: 2026-09-15
+date: 2026-10-30
 website: https://birr.foundation
 redirect_from:
 - /android/com.birrfoundation.birrwallet/
@@ -13,7 +13,6 @@ android:
   released: 2026-07-10
   updated: 2026-09-27
   version: 2.5.5
-  icon: com.birrfoundation.birrwallet.webp
   meta: fewusers
   verdict: wip
   developerName: Birrfoundation
@@ -25,7 +24,6 @@ iphone:
   updated: 2026-09-11
   version: 2.5.4
   reviews: 2
-  icon: com.birrfoundation.birrnetwork.webp
   meta: ok
   verdict: wip
   developerName: Ermiyas Asfaw

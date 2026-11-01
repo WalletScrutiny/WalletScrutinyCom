@@ -1,9 +1,9 @@
 ---
 title: BIT - Buy US Stocks & Crypto
-date: 2021-09-15
+date: 2026-10-30
 authors:
 - danny
-website: https://invest.matrixport.com
+website: https://www.bit.com
 twitter: realMatrixport
 social:
 - https://www.linkedin.com/company/matrixport
@@ -20,7 +20,6 @@ android:
   updated: 2026-10-01
   version: 3.9.15
   reviews: 888
-  icon: com.matrixport.mark.webp
   meta: ok
   verdict: custodial
   developerName: MATRIX TECH PTE. LTD
@@ -32,12 +31,13 @@ iphone:
   updated: 2026-10-01
   version: 4.8.00
   reviews: 61
-  icon: com.matrixport.mark.webp
   meta: ok
   verdict: custodial
   developerName: Matrixport Technologies Ltd
 
 ---
+
+**Update 2026-10-30:** Matrixport [rebranded as BIT](https://www.bit.com/pressroom/matrixport-rebrands-as-bit) on 20 March 2026, and both apps are now branded BIT. Its old websites now redirect to [bit.com](https://www.bit.com/). BIT says "client accounts, products and services remain the same, and legal entities and contractual arrangements are unchanged".
 
 ## Android
 

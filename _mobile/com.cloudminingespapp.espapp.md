@@ -1,6 +1,6 @@
 ---
 title: Pro Bitcoin Mining 2021 - BTC WALLET
-date: 2021-11-10
+date: 2026-10-30
 redirect_from:
 - /android/com.cloudminingespapp.espapp/
 android:
@@ -10,7 +10,6 @@ android:
   updated: 2021-09-08
   version: '1.0'
   reviews: 13
-  icon: com.cloudminingespapp.espapp.webp
   meta: removed
   verdict: wip
 

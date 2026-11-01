@@ -1,6 +1,6 @@
 ---
 title: Theya – Bitcoin Wallet
-date: 2026-05-05
+date: 2026-10-30
 authors:
 - danny
 website: https://www.theya.us/
@@ -19,7 +19,6 @@ iphone:
   updated: 2025-03-16
   version: '1.46'
   reviews: 34
-  icon: com.theya.customerapp.webp
   meta: stale
   verdict: wip
   developerName: Theya Inc.

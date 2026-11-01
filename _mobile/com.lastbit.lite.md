@@ -1,6 +1,6 @@
 ---
 title: Lastbit Lite
-date: 2022-04-25
+date: 2026-10-30
 authors:
 - danny
 website: https://lastbit.io/
@@ -15,11 +15,12 @@ android:
   users: 1000
   updated: 2021-05-11
   version: Varies with device
-  icon: com.lastbit.lite.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** Lastbit no longer offers this app. In 2022 its team [announced Striga](https://web.archive.org/web/20220331210754/https://striga.com/blog/announcing-striga-from-lastbit/), payments infrastructure for businesses, and [lastbit.io](https://lastbit.io/) now redirects to striga.com.
 
 **Update 2022-04-01**: This app is not available anymore.
 

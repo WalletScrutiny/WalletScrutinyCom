@@ -56,10 +56,11 @@ layout: default
 
     <div class="page__inner-wrap">
       <div class="app-summary-grid">
-        {% if page.android.icon %}
-          <img src="/images/wIcons/android/{{ page.android.icon }}" class="app_logo_big" alt="Wallet Logo">
-        {% elsif page.iphone.icon %}
-          <img src="/images/wIcons/iphone/{{ page.iphone.icon }}" class="app_logo_big" alt="Wallet Logo">
+        {%- comment -%} Icons are named after the store appId, android first; onerror shows noimg.svg where there is none. {%- endcomment -%}
+        {% if page.android.appId %}
+          <img src="/images/wIcons/android/{{ page.android.appId }}.webp" onerror="this.onerror=null;this.src='{{ site.baseurl }}/images/noimg.svg'" class="app_logo_big" alt="Wallet Logo">
+        {% elsif page.iphone.appId %}
+          <img src="/images/wIcons/iphone/{{ page.iphone.appId }}.webp" onerror="this.onerror=null;this.src='{{ site.baseurl }}/images/noimg.svg'" class="app_logo_big" alt="Wallet Logo">
         {% else %}
           <img src="{{ site.baseurl }}/images/noimg.svg" class="app_logo_big" alt="Wallet Logo">
         {% endif %}

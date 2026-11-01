@@ -1,6 +1,6 @@
 ---
 title: 'Suncrypto: Best Crypto App'
-date: 2021-09-11
+date: 2026-10-30
 website: https://suncrypto.in
 twitter: suncryptoin
 redirect_from:
@@ -13,7 +13,6 @@ android:
   updated: 2026-08-25
   version: 5.10.5
   reviews: 275
-  icon: com.suncrypto.in.webp
   meta: ok
   verdict: custodial
   developerName: SunCrypto

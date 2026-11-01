@@ -1,11 +1,10 @@
 ---
 title: LEO12 Exchange
-date: 2024-11-30
+date: 2026-10-30
 authors:
 - danny
+website: https://www.leo12.com#deadLink
 twitter: LEO12_EXCHANGE
-social:
-- https://www.leo12.com#deadLink
 redirect_from:
 - /android/com.tigerandpartners.leo_react_native/
 - /iphone/com.tigerandpartners.Leo/
@@ -15,7 +14,6 @@ android:
   released: 2022-06-14
   updated: 2024-09-02
   version: 2.1.6
-  icon: com.tigerandpartners.leo_react_native.webp
   meta: removed
   verdict: custodial
   developerName: Tiger and Partners Pty
@@ -27,7 +25,6 @@ iphone:
   updated: 2023-06-20
   version: 2.0.7
   reviews: 0
-  icon: com.tigerandpartners.Leo.webp
   meta: removed
   verdict: custodial
   developerName: TIGER AND PARTNERS

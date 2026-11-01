@@ -1,10 +1,9 @@
 ---
 title: Trade Bit
-date: 2023-05-31
+date: 2026-10-30
 authors:
 - danny
-social:
-- https://tradebit.in#deadLink
+website: https://tradebit.in#deadLink
 redirect_from:
 - /android/com.onlybit.wallet/
 android:
@@ -13,7 +12,6 @@ android:
   released: 2020-11-13
   updated: 2021-02-08
   version: '1.4'
-  icon: com.onlybit.wallet.webp
   meta: removed
   verdict: wip
   developerName: trade bit

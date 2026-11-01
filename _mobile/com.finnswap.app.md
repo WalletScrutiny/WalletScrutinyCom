@@ -1,6 +1,6 @@
 ---
 title: Finn Wallet
-date: 2023-08-16
+date: 2026-10-30
 website: https://finn.exchange#deadLink
 redirect_from:
 - /android/com.finnswap.app/
@@ -10,7 +10,6 @@ android:
   released: 2022-03-14
   updated: 2022-03-14
   version: '1.0'
-  icon: com.finnswap.app.webp
   meta: removed
   verdict: wip
   developerName: Limewheels.com

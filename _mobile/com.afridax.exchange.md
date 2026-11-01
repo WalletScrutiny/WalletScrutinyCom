@@ -1,6 +1,6 @@
 ---
 title: 'AFRIDAX: Buy Bitcoin & Crypto'
-date: 2025-11-12
+date: 2026-10-30
 authors:
 - danny
 website: https://afridax.com
@@ -14,7 +14,6 @@ android:
   appCountry: us
   updated: 2026-07-13
   version: 1.3.2
-  icon: com.afridax.exchange.webp
   meta: ok
   verdict: custodial
   developerName: ExoGroup
@@ -26,7 +25,6 @@ iphone:
   updated: 2026-07-16
   version: 1.3.2
   reviews: 8
-  icon: com.afridax.exchange.webp
   meta: ok
   verdict: custodial
   developerName: AFRIDAX

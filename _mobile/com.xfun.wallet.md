@@ -1,6 +1,6 @@
 ---
 title: XFUN Wallet
-date: 2025-03-14
+date: 2026-10-30
 authors:
 - danny
 website: https://xfun.io#deadLink
@@ -8,7 +8,6 @@ twitter: FUNtoken_io
 social:
 - https://t.me/officialFUNToken
 - https://discord.com/invite/e7vfgKbEKU
-- https://xfun.io#deadLink
 redirect_from:
 - /android/com.xfun.wallet/
 - /iphone/com.xfun.wallet/
@@ -19,7 +18,6 @@ android:
   updated: 2024-04-24
   version: 2.0.4
   reviews: 12
-  icon: com.xfun.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Funtech Ltd
@@ -31,7 +29,6 @@ iphone:
   updated: 2023-07-20
   version: 2.0.1
   reviews: 3
-  icon: com.xfun.wallet.webp
   meta: obsolete
   verdict: nosource
   developerName: XFUN

@@ -1,6 +1,6 @@
 ---
 title: Coinchat 冷钱包
-date: 2024-04-03
+date: 2026-10-30
 authors:
 - danny
 website: http://www.coinchat.im#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2018-10-14
   updated: 2018-10-15
   version: '0.9'
-  icon: com.coinchat.hdwallet.webp
   meta: removed
   verdict: nosource
   developerName: Biliao Foundation Ltd.

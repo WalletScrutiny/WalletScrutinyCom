@@ -1,6 +1,6 @@
 ---
 title: Universe Coin
-date: 2024-04-19
+date: 2026-10-30
 website: https://universecoin.io
 redirect_from:
 - /android/com.universecoincellphone/
@@ -10,7 +10,6 @@ android:
   released: 2019-12-12
   updated: 2020-08-10
   version: '4.0'
-  icon: com.universecoincellphone.webp
   meta: removed
   verdict: wip
   developerName: Lattitudemundi

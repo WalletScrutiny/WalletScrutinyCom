@@ -1,6 +1,6 @@
 ---
 title: TrustNE Wallet
-date: 2026-05-02
+date: 2026-10-30
 authors:
 - danny
 website: https://trustne.io/
@@ -14,7 +14,6 @@ android:
   released: 2025-07-02
   updated: 2026-02-12
   version: 1.0.13
-  icon: com.trust_fresh.webp
   meta: removed
   verdict: nosource
   developerName: NewEra Education Center
@@ -26,7 +25,6 @@ iphone:
   updated: 2026-02-05
   version: 1.0.4
   reviews: 0
-  icon: com.trustfresh.webp
   meta: removed
   verdict: nosource
   developerName: Metgen Solution LTD

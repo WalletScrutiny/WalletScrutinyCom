@@ -1,6 +1,6 @@
 ---
 title: Ruyi Wallet
-date: 2023-01-02
+date: 2026-10-30
 website: https://www.ruyiwallet.com#deadLink
 redirect_from:
 - /android/com.ruyiwallet.app/
@@ -11,7 +11,6 @@ android:
   updated: 2022-07-22
   version: 2.3.82
   reviews: 4
-  icon: com.ruyiwallet.app.webp
   meta: removed
   verdict: wip
 

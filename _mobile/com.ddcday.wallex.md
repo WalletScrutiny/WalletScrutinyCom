@@ -1,6 +1,6 @@
 ---
 title: Copay Wallet Mobile
-date: 2021-11-26
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -13,7 +13,6 @@ android:
   updated: 2021-09-09
   version: '1'
   reviews: 8
-  icon: com.ddcday.wallex.webp
   meta: removed
   verdict: fake
 

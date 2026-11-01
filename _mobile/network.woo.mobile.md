@@ -1,6 +1,6 @@
 ---
 title: 'WOO X: Smart Crypto Trading'
-date: 2023-04-15
+date: 2026-10-30
 authors:
 - danny
 website: https://woox.io/
@@ -19,7 +19,6 @@ android:
   updated: 2026-10-01
   version: 3.66.6
   reviews: 10
-  icon: network.woo.mobile.webp
   meta: ok
   verdict: custodial
   developerName: WOOTECH Limited
@@ -31,12 +30,13 @@ iphone:
   updated: 2026-08-17
   version: 3.66.2
   reviews: 7
-  icon: network.woo.mobile.webp
   meta: ok
   verdict: custodial
   developerName: Wootech Limited
 
 ---
+
+**Update 2026-10-30:** WOO X has a new operator. In October 2025 WOO Network handed the exchange to the private equity fund FusionX Digital, saying accounts and assets would carry over ([WOO X announcement](https://x.com/_WOO_X/status/1978369178546426281), [The Crypto Times](https://www.cryptotimes.io/2026/09/07/zachxbt-flags-woo-x-over-withdrawals-stuck-for-up-to-3-days/)). It remains a {% include verdictBadge.html verdict="custodial" type='short' %} exchange.
 
 ## Android
 

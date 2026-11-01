@@ -1,7 +1,7 @@
 ---
 title: Privafund
-date: 2024-04-19
-website: https://privafund.io/
+date: 2026-10-30
+website: https://privafund.io/#deadLink
 redirect_from:
 - /android/io.privafund.app/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-04-30
   updated: 2021-06-15
   version: 1.0.6
-  icon: io.privafund.app.webp
   meta: removed
   verdict: wip
   developerName: privafund

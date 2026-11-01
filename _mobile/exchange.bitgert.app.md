@@ -1,6 +1,6 @@
 ---
 title: Bitgert Exchange
-date: 2026-02-02
+date: 2026-10-30
 authors:
 - danny
 website: https://bitgert.exchange
@@ -18,7 +18,6 @@ android:
   updated: 2025-02-06
   version: '1.0'
   reviews: 31
-  icon: exchange.bitgert.app.webp
   meta: stale
   verdict: custodial
   developerName: Bitgert Technologies Ltd

@@ -12,11 +12,10 @@ provider: MaxWallet
 providerWebsite: https://maxwallet.cc
 website: https://maxwallet.cc
 repository: 
-icon: maxwallet.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2026-04-24
+date: 2026-10-30
 twitter: MaxWalletEN
 social:
 - https://t.me/maxwalletapp

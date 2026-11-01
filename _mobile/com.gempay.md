@@ -1,6 +1,6 @@
 ---
 title: GemPay POS
-date: 2023-08-04
+date: 2026-10-30
 website: https://gempay.io#deadLink
 redirect_from:
 - /android/com.gempay/
@@ -10,7 +10,6 @@ android:
   released: 2021-09-23
   updated: 2021-10-08
   version: '1.2'
-  icon: com.gempay.webp
   meta: removed
   verdict: wip
   developerName: GemVault Fintech (PVT) Ltd.

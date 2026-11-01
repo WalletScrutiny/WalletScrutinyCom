@@ -1,7 +1,7 @@
 ---
 title: DXONE Buy your favorite crypto
-date: 2024-04-19
-website: https://www.dxone.com/
+date: 2026-10-30
+website: https://www.dxone.com/#deadLink
 redirect_from:
 - /android/com.mobile.dxone/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2022-07-27
   updated: 2022-09-27
   version: 1.0.9
-  icon: com.mobile.dxone.webp
   meta: removed
   verdict: wip
   developerName: DXone Ltd.

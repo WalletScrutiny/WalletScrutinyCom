@@ -1,6 +1,6 @@
 ---
 title: 'Spark Wallet: Earn Rewards'
-date: 2025-08-18
+date: 2026-10-30
 authors:
 - danny
 website: https://sparkwallet.io/
@@ -15,7 +15,6 @@ android:
   updated: 2023-12-07
   version: '3.3'
   reviews: 5
-  icon: io.sparkwallet.webp
   meta: removed
   verdict: custodial
   developerName: LumaSoft, LLC
@@ -27,12 +26,13 @@ iphone:
   updated: 2023-12-13
   version: '3.2'
   reviews: 10
-  icon: io.sparkwallet.webp
   meta: removed
   verdict: custodial
   developerName: Lumasoft, LLC
 
 ---
+
+**⚠️ Warning:** Spark Wallet is discontinued. Both apps are gone from the stores, and [sparkwallet.io](https://sparkwallet.io/), which [used to present the wallet](https://web.archive.org/web/20230603074747/https://sparkwallet.io/), now leads to SafePayRewards, a gift-card rewards service with no Bitcoin wallet.
 
 ## Android
 

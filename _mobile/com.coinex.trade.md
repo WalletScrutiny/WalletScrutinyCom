@@ -1,6 +1,6 @@
 ---
 title: 'CoinEx: Buy Bitcoin & Crypto'
-date: 2026-01-14
+date: 2026-10-30
 website: https://www.coinex.com/
 appCountry: us
 redirect_from:
@@ -13,7 +13,6 @@ iphone:
   updated: 2026-06-19
   version: 4.15.0
   reviews: 5743
-  icon: com.coinex.trade.webp
   meta: removed
   verdict: wip
   developerName: Coinex Global Limited

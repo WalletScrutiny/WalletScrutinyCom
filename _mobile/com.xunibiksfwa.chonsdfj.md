@@ -1,6 +1,6 @@
 ---
 title: BFX-bitcoin crypto trading
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/com.xunibiksfwa.chonsdfj/
 android:
@@ -8,7 +8,6 @@ android:
   users: 100
   updated: 2021-12-28
   version: '1.0'
-  icon: com.xunibiksfwa.chonsdfj.webp
   meta: removed
   verdict: wip
 

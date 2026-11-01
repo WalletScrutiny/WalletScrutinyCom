@@ -1,6 +1,6 @@
 ---
 title: Envoy
-date: 2026-07-23
+date: 2026-10-30
 authors:
 - danny
 - keraliss
@@ -11,7 +11,6 @@ social:
 - https://www.youtube.com/@foundationdevices
 - https://www.reddit.com/r/FoundationDevices
 - https://t.me/foundationdevices
-- https://foundationdevices.com
 features:
 - TOR
 - companion
@@ -29,7 +28,6 @@ android:
   updated: 2026-09-30
   version: 2.3.5
   reviews: 6
-  icon: com.foundationdevices.envoy.webp
   alternativeStores:
   - zapstore
   meta: ok
@@ -44,7 +42,6 @@ iphone:
   updated: 2026-09-30
   version: 2.3.5
   reviews: 30
-  icon: com.foundationdevices.envoy.webp
   meta: ok
   verdict: sourceavailable
   developerName: Foundation Devices, Inc.

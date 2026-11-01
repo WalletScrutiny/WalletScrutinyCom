@@ -1,6 +1,6 @@
 ---
 title: JOYBIT
-date: 2023-10-16
+date: 2026-10-30
 website: https://www.joybit.io/#&deadLink
 redirect_from:
 - /android/io.bilian.contract.joybit/
@@ -10,7 +10,6 @@ android:
   released: 2022-07-04
   updated: 2022-07-08
   version: 1.0.1
-  icon: io.bilian.contract.joybit.webp
   meta: removed
   verdict: wip
   developerName: JOYBIT

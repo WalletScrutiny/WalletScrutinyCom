@@ -1,6 +1,6 @@
 ---
 title: Ztrader Altcoin/bitcoin Trader
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/org.cryptobrowser.ztrader.altcoin.bitcoin.trader/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-28
   updated: 2021-06-29
   version: '1.0'
-  icon: org.cryptobrowser.ztrader.altcoin.bitcoin.trader.webp
   meta: removed
   verdict: wip
 

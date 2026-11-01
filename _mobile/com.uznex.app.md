@@ -1,6 +1,6 @@
 ---
 title: UZNEX - Crypto Exchange
-date: 2024-12-15
+date: 2026-10-30
 authors:
 - danny
 website: https://uznex.com
@@ -12,12 +12,13 @@ android:
   released: 2020-04-28
   updated: 2024-02-19
   version: 2.0.0
-  icon: com.uznex.app.webp
   meta: removed
   verdict: custodial
   developerName: UZNEX
 
 ---
+
+**⚠️ Warning:** UZNEX has closed. In May 2026 Uzbekistan's regulator revoked its exchange license at the company's own request, and customers were told to claim refunds of their funds and crypto ([Gazeta.uz](https://www.gazeta.uz/en/2026/05/29/uznex/)).
 
 ## App Description from [Terms](https://uznex.com/term)
 

@@ -1,6 +1,6 @@
 ---
 title: Miracle Pos
-date: 2025-12-15
+date: 2026-10-30
 website: https://miraclecash.com
 redirect_from:
 - /android/com.ofinans.miraclepos/
@@ -10,7 +10,6 @@ android:
   released: 2022-04-30
   updated: 2024-11-15
   version: 2.0.8
-  icon: com.ofinans.miraclepos.webp
   meta: removed
   verdict: wip
   developerName: Ofinans App

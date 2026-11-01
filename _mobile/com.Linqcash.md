@@ -1,7 +1,7 @@
 ---
 title: LinqCash
-date: 2024-04-19
-website: https://www.linqcash.com/
+date: 2026-10-30
+website: https://www.linqcash.com/#deadLink
 redirect_from:
 - /android/com.Linqcash/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2020-04-28
   updated: 2020-05-18
   version: 0.0.2
-  icon: com.Linqcash.webp
   meta: removed
   verdict: wip
   developerName: Linqcash

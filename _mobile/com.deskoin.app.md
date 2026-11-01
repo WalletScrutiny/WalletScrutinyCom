@@ -1,6 +1,6 @@
 ---
 title: Deskoin - Investir en cryptos
-date: 2026-04-20
+date: 2026-10-30
 authors:
 - danny
 website: https://www.deskoin.com/
@@ -16,7 +16,6 @@ android:
   appCountry: us
   updated: 2026-08-20
   version: 7.8.18
-  icon: com.deskoin.app.webp
   meta: ok
   verdict: custodial
   developerName: Deskoin
@@ -28,7 +27,6 @@ iphone:
   updated: 2026-08-20
   version: 7.8.18
   reviews: 404
-  icon: com.deskoin.app.webp
   meta: ok
   verdict: custodial
   developerName: Deskoin

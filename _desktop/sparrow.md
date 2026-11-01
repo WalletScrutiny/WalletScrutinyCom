@@ -13,11 +13,10 @@ provider: Craig Raw
 providerWebsite: 
 website: https://www.sparrowwallet.com
 repository: https://github.com/sparrowwallet/sparrow
-icon: sparrow.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-06-10
+date: 2026-10-30
 twitter: SparrowWallet
 social: 
 builds:

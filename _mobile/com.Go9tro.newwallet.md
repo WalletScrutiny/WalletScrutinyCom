@@ -1,6 +1,6 @@
 ---
 title: go9tro wallet
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/com.Go9tro.newwallet/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-10-24
   updated: 2020-10-24
   version: '0.6'
-  icon: com.Go9tro.newwallet.webp
   meta: removed
   verdict: wip
 

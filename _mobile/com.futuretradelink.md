@@ -1,6 +1,6 @@
 ---
 title: Future Trade Link
-date: 2021-11-10
+date: 2026-10-30
 authors:
 - danny
 website: https://futuretradelink.com/
@@ -12,7 +12,6 @@ android:
   released: 2021-07-19
   updated: 2021-08-03
   version: '1.3'
-  icon: com.futuretradelink.webp
   meta: removed
   verdict: wip
   developerName: Future Trade Link

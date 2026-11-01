@@ -1,6 +1,6 @@
 ---
 title: Push LN
-date: 2024-04-03
+date: 2026-10-30
 website: https://kriptode.com
 redirect_from:
 - /android/com.pseudozach.pushln/
@@ -10,7 +10,6 @@ android:
   released: 2020-02-08
   updated: 2020-02-09
   version: '1.1'
-  icon: com.pseudozach.pushln.webp
   meta: removed
   verdict: wip
   developerName: Pseudozach

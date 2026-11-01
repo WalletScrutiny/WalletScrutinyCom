@@ -1,6 +1,6 @@
 ---
 title: CryptoExchanger-CryptoExchange
-date: 2023-09-04
+date: 2026-10-30
 website: https://www.aaatrade.com#deadLink
 redirect_from:
 - /android/com.aaatrade.CryptoExchange/
@@ -10,7 +10,6 @@ android:
   released: 2018-09-20
   updated: 2021-03-19
   version: 1.2.5
-  icon: com.aaatrade.CryptoExchange.webp
   meta: removed
   verdict: wip
   developerName: AAATrade

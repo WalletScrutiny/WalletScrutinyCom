@@ -1,6 +1,6 @@
 ---
 title: InvestPal- Social Investing
-date: 2024-07-05
+date: 2026-10-30
 website: https://investpal.io
 redirect_from:
 - /android/com.investpal_social_trading/
@@ -10,7 +10,6 @@ android:
   released: 2021-04-06
   updated: 2021-04-14
   version: 1.0.1
-  icon: com.investpal_social_trading.webp
   meta: removed
   verdict: wip
   developerName: InvestPal FinTech

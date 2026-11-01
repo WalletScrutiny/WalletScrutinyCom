@@ -1,9 +1,9 @@
 ---
 title: 'CoinTR Pro: Buy Bitcoin Crypto'
-date: 2024-09-16
+date: 2026-10-30
 authors:
 - danny
-website: https://www.cointr.pro
+website: https://www.cointr.pro#deadLink
 twitter: CoinTRpro
 social:
 - https://t.me/CoinTRPro
@@ -11,7 +11,6 @@ social:
 - https://www.facebook.com/profile.php?id=100083113521452
 - https://www.youtube.com/channel/UCU2wOPdZ9mT2g3S2_wQcQQw
 - https://medium.com/@cointrbtc
-- https://www.cointr.pro
 redirect_from:
 - /android/pro.cointr/
 - /iphone/vip.trcoin.global/
@@ -22,7 +21,6 @@ android:
   updated: 2024-07-27
   version: 2.4.13
   reviews: 56
-  icon: pro.cointr.webp
   meta: removed
   verdict: custodial
   developerName: CoinTR pro
@@ -34,12 +32,13 @@ iphone:
   updated: 2024-08-21
   version: 2.4.14
   reviews: 14
-  icon: vip.trcoin.global.webp
   meta: removed
   verdict: custodial
   developerName: CoinTR
 
 ---
+
+**⚠️ Warning:** CoinTR Pro shut down all services on August 20, 2024, to comply with Turkey's new crypto law ([announcement](https://www.coincarp.com/exchange/announcement/cointr-pro-service-termination-announcement/)). Turkish users were sent to {% include walletLink.html wallet='android/com.cointr' verdict='true' %}. The cointr.pro website no longer loads.
 
 ## Android
 

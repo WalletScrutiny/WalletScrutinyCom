@@ -1,6 +1,6 @@
 ---
 title: 'Utapp: Crypto Wallet & Card'
-date: 2025-12-24
+date: 2026-10-30
 authors:
 - danny
 twitter: utorgcom
@@ -15,7 +15,6 @@ android:
   released: 2023-06-02
   updated: 2026-10-06
   version: 3.4.1
-  icon: com.utorg.webp
   meta: ok
   verdict: nosource
   developerName: UTORG LABS HOLDING LTD

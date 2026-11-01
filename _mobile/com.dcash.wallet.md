@@ -1,6 +1,6 @@
 ---
 title: RenrenBit
-date: 2021-03-04
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -11,7 +11,6 @@ android:
   updated: 2020-07-27
   version: 1.7.6
   reviews: 2
-  icon: com.dcash.wallet.webp
   meta: removed
   verdict: wip
 

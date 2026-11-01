@@ -1,6 +1,6 @@
 ---
 title: 'iDeyPay: Buy and Sell Bitcoin '
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
 website: https://ideypay.com
@@ -16,7 +16,6 @@ android:
   updated: 2022-10-30
   version: 1.0.69
   reviews: 7
-  icon: com.ideypay.webp
   meta: removed
   verdict: custodial
 

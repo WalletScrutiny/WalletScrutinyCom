@@ -1,6 +1,6 @@
 ---
 title: ProfitTradingApp for Bittrex
-date: 2024-04-19
+date: 2026-10-30
 authors:
 - danny
 website: https://profittradingapp.com/
@@ -16,12 +16,13 @@ android:
   updated: 2021-04-27
   version: 12.0.13
   reviews: 22
-  icon: com.profittrading.forbittrex.webp
   meta: removed
   verdict: custodial
   developerName: ProfitTradingApp
 
 ---
+
+**⚠️ Warning:** Bittrex, the exchange this app works with, is shut down. Bittrex, Inc. closed its US exchange on 2023-04-30 and [filed for Chapter 11 bankruptcy](https://decrypt.co/139368/american-crypto-exchange-bittrex-files-for-chapter-11-bankruptcy), and [Bittrex Global](https://bittrexglobal.com/) is in liquidation too.
 
 2021-09-17 Update:
 

@@ -1,6 +1,6 @@
 ---
 title: Eclair Mobile (EOL)
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -21,7 +21,6 @@ android:
   updated: 2022-03-01
   version: 0.4.18
   reviews: 42
-  icon: fr.acinq.eclair.wallet.mainnet2.webp
   meta: removed
   verdict: sourceavailable
   developerName: ACINQ

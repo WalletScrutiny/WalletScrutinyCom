@@ -1,6 +1,6 @@
 ---
 title: Bitpapa - Bitcoin, USDT wallet
-date: 2024-04-26
+date: 2026-10-30
 authors:
 - leo
 website: https://bitpapa.com
@@ -16,7 +16,6 @@ android:
   updated: 2024-01-22
   version: 1.12.3
   reviews: 40
-  icon: com.bitpapa.webp
   meta: removed
   verdict: custodial
   developerName: Bitpapa

@@ -1,9 +1,9 @@
 ---
 title: WizzWallet
-date: 2025-11-03
+date: 2026-10-30
 authors:
 - danny
-website: https://wizzwallet.io
+website: https://wizz.cash
 twitter: wizzwallet
 social:
 - https://discord.com/invite/H7hzuDj2d6
@@ -21,7 +21,6 @@ android:
   released: 2023-07-10
   updated: 2025-10-13
   version: 1.9.11
-  icon: com.astrox.wizz.webp
   meta: stale
   verdict: nosource
   developerName: AstroX Network
@@ -33,12 +32,13 @@ iphone:
   updated: 2025-10-15
   version: 1.9.11
   reviews: 16
-  icon: com.astrox.wizz.webp
   meta: stale
   verdict: nosource
   developerName: AstroX Network
 
 ---
+
+**Update 2026-10-30:** The old website wizzwallet.io is now a parked domain. The wallet's site is [wizz.cash](https://wizz.cash), with documentation at [docs.wizz.cash](https://docs.wizz.cash/wizz-wallet).
 
 ## Android
 

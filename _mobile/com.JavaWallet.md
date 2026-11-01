@@ -1,6 +1,6 @@
 ---
 title: Java Wallet
-date: 2024-02-05
+date: 2026-10-30
 redirect_from:
 - /android/com.JavaWallet/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-12-23
   updated: 2021-02-05
   version: '1.1'
-  icon: com.JavaWallet.webp
   meta: removed
   verdict: wip
   developerName: Java wallet Technologies

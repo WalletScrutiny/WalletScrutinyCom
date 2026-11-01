@@ -1,6 +1,6 @@
 ---
 title: Dex Wallet
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2022-08-15
   updated: 2022-08-15
   version: 1.0.8
-  icon: com.dex.appwallet.webp
   meta: removed
   verdict: nosource
   developerName: appstoreafrica

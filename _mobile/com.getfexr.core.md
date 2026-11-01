@@ -1,6 +1,6 @@
 ---
 title: Fexr Wallet for Self-Custody
-date: 2025-02-13
+date: 2026-10-30
 website: https://fexr.io
 redirect_from:
 - /android/com.getfexr.core/
@@ -11,7 +11,6 @@ android:
   released: 2022-06-08
   updated: 2026-10-08
   version: 3.7.1
-  icon: com.getfexr.core.webp
   meta: fewusers
   verdict: wip
   developerName: Fexr

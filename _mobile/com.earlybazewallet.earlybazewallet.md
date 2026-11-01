@@ -1,6 +1,6 @@
 ---
 title: EarlyBaze Wallet
-date: 2024-07-05
+date: 2026-10-30
 website: http://eazyblaze.com#deadLink
 redirect_from:
 - /android/com.earlybazewallet.earlybazewallet/
@@ -10,7 +10,6 @@ android:
   released: 2022-06-06
   updated: 2022-12-15
   version: 1.0.1
-  icon: com.earlybazewallet.earlybazewallet.webp
   meta: removed
   verdict: wip
   developerName: Pejul Technologies

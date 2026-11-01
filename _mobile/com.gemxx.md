@@ -1,6 +1,6 @@
 ---
 title: GEMXX Wallet
-date: 2023-01-02
+date: 2026-10-30
 website: https://ammolitetoken.com
 redirect_from:
 - /android/com.gemxx/
@@ -10,7 +10,6 @@ android:
   released: 2021-10-30
   updated: 2022-05-11
   version: 1.0.1260
-  icon: com.gemxx.webp
   meta: removed
   verdict: wip
 

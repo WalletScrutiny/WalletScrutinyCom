@@ -1,6 +1,6 @@
 ---
 title: OTPPAY - Merchant Payments
-date: 2023-08-04
+date: 2026-10-30
 website: https://www.otppay.com
 redirect_from:
 - /android/com.idbtec.otppaymerchant/
@@ -10,7 +10,6 @@ android:
   released: 2018-12-05
   updated: 2019-06-18
   version: '1.4'
-  icon: com.idbtec.otppaymerchant.webp
   meta: removed
   verdict: wip
   developerName: Otppay OU

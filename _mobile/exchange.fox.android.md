@@ -1,6 +1,6 @@
 ---
 title: fox.exchange Cryptocurrency Ex
-date: 2023-05-03
+date: 2026-10-30
 authors:
 - danny
 website: https://fox.exchange#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2019-06-11
   updated: 2020-04-20
   version: 1.5.1
-  icon: exchange.fox.android.webp
   meta: removed
   verdict: wip
   developerName: Fox Exchange

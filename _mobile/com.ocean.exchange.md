@@ -1,6 +1,6 @@
 ---
 title: OceanEx
-date: 2024-10-08
+date: 2026-10-30
 authors:
 - danny
 website: https://oceanex.pro
@@ -19,7 +19,6 @@ android:
   updated: 2023-08-24
   version: 2.0.4
   reviews: 15
-  icon: com.ocean.exchange.webp
   meta: removed
   verdict: custodial
   developerName: OceanEx Limited
@@ -31,12 +30,13 @@ iphone:
   updated: 2022-10-19
   version: 1.5.4
   reviews: 0
-  icon: pro.oceanex.exapp.webp
   meta: obsolete
   verdict: custodial
   developerName: OceanEx Limited
 
 ---
+
+**⚠️ Warning:** OceanEx has shut down. On 2025-12-04 it told users by email that trading would end on 2025-12-05 and withdrawals would stay open until 2025-12-31 ([Cryptowisser](https://www.cryptowisser.com/exchange/oceanex/)). Its website now only shows a notice that OceanEx has "officially ceased its operations" and asks remaining users to file a withdrawal ticket ([OceanEx](https://oceanex.pro/)).
 
 ## Android
 

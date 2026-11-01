@@ -1,6 +1,6 @@
 ---
 title: Xchange Monster
-date: 2023-08-19
+date: 2026-10-30
 authors:
 - danny
 website: https://prod.xchangemonster.com#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2022-05-04
   updated: 2022-08-24
   version: '1.7'
-  icon: com.xchangemonster.webp
   meta: removed
   verdict: wip
   developerName: XchangeMonsterMobile

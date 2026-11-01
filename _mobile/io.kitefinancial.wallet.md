@@ -1,9 +1,9 @@
 ---
 title: Kite Financial  Wallet
-date: 2024-07-10
+date: 2026-10-30
 authors:
 - danny
-website: https://kitefinancial.io
+website: https://kitefinancial.io#deadLink
 twitter: kite_financial
 social:
 - https://www.facebook.com/kitefinancial
@@ -19,7 +19,6 @@ android:
   updated: 2023-12-07
   version: 2.3.0
   reviews: 4
-  icon: io.kitefinancial.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Kite Financial (Kite Tech Ltd UK)
@@ -31,12 +30,13 @@ iphone:
   updated: 2022-10-04
   version: 2.2.7
   reviews: 34
-  icon: io.kitefinancial.bitcoin.webp
   meta: obsolete
   verdict: custodial
   developerName: Kite Tech Limited
 
 ---
+
+**Update 2026-10-30:** The kitefinancial.io website still showed Kite Financial in [March 2026](https://web.archive.org/web/20260306211418/https://www.kitefinancial.io/), but it now forwards to an unrelated Vietnamese gambling site.
 
 ## Android
 
@@ -52,7 +52,7 @@ According to {{ page.title }}'s Terms of Service,
 
 Most services that provide *usage tiers*, indicate a a centralized account management system. The more a user verifies, the more features an app or service may offer. Clearly, **not a non-custodial feature**. 
 
-This, together with [legal compliance measures](https://www.kitefinancial.io/legal-compliance) are also clues to the type of service they have. 
+This, together with [legal compliance measures](https://web.archive.org/web/20241101191624/https://www.kitefinancial.io/legal-compliance/) are also clues to the type of service they have. 
 
 Finally, the strongest proof that this is a **custodial** service is the non-provisioning of the seed phrases. The app **cannot be verified**.
 

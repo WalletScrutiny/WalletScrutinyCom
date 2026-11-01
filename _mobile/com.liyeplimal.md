@@ -1,6 +1,6 @@
 ---
 title: Limo Official App
-date: 2023-08-05
+date: 2026-10-30
 authors:
 - danny
 twitter: gcct2017
@@ -13,7 +13,6 @@ android:
   updated: 2021-11-17
   version: '1.18'
   reviews: 7
-  icon: com.liyeplimal.webp
   meta: removed
   verdict: wip
   developerName: GIT Dev

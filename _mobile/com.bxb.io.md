@@ -1,6 +1,6 @@
 ---
 title: BXB-Virtual contract BTC&NFT
-date: 2023-08-05
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bxb.io#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2021-09-09
   updated: 2022-03-11
   version: 1.2.19
-  icon: com.bxb.io.webp
   meta: removed
   verdict: wip
   developerName: Teko Ecommerce Sdn Bhd

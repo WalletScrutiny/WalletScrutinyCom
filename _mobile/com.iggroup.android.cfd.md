@@ -1,6 +1,6 @@
 ---
 title: IG Trading Platform
-date: 2022-06-23
+date: 2026-10-30
 authors:
 - danny
 website: https://www.ig.com
@@ -20,7 +20,6 @@ android:
   updated: 2026-10-07
   version: 26.10.5
   reviews: 12
-  icon: com.iggroup.android.cfd.webp
   meta: ok
   verdict: nosendreceive
   developerName: IG Group
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-10-09
   version: 10.3690.0
   reviews: 3026
-  icon: com.igmarkets.ideal.webp
   meta: ok
   verdict: nosendreceive
   developerName: IG Group

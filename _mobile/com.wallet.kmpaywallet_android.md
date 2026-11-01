@@ -1,6 +1,6 @@
 ---
 title: KamWallet
-date: 2024-08-17
+date: 2026-10-30
 redirect_from:
 - /android/com.wallet.kmpaywallet_android/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-03-07
   updated: 2022-03-07
   version: '1.0'
-  icon: com.wallet.kmpaywallet_android.webp
   meta: removed
   verdict: wip
   developerName: Kampay Factory

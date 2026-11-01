@@ -1,6 +1,6 @@
 ---
 title: TAP Wallet
-date: 2025-10-03
+date: 2026-10-30
 authors:
 - danny
 website: https://tapwallet.com/
@@ -20,7 +20,6 @@ android:
   updated: 2026-05-09
   version: 1.0.94
   reviews: 48
-  icon: com.humbl.wallet.app.webp
   meta: ok
   verdict: nosource
   developerName: TAP, Inc.
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-04-23
   version: 2.0.5
   reviews: 490
-  icon: com.humbl.wallet.webp
   meta: ok
   verdict: nosource
   developerName: HUMBL

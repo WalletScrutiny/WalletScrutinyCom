@@ -1,9 +1,9 @@
 ---
 title: Stratum Advanced Wallet
-date: 2023-03-21
+date: 2026-10-30
 authors:
 - danny
-website: https://www.stratum.hk/
+website: https://www.stratum.hk/#deadLink
 twitter: stratumhk
 social:
 - https://www.linkedin.com/company/stratumbr
@@ -18,7 +18,6 @@ android:
   released: 2020-05-29
   updated: 2021-03-18
   version: 1.6.9
-  icon: com.modelxv64.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -28,11 +27,12 @@ iphone:
   updated: 2021-03-17
   version: 1.6.9
   reviews: 0
-  icon: saw.stratumadvancedwallet.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** Stratum appears to be gone. The stratum.hk website no longer shows the exchange, and [CoinGecko](https://www.coingecko.com/en/exchanges/stratum-exchange) lists the site as offline since October 2024.
 
 ## Android
 

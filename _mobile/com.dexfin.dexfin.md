@@ -1,9 +1,9 @@
 ---
 title: DEXFIN
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
-website: https://www.dexfin.com
+website: https://www.dexfin.com#deadLink
 redirect_from:
 - /android/com.dexfin.dexfin/
 android:
@@ -12,7 +12,6 @@ android:
   released: 2021-05-24
   updated: 2021-11-30
   version: 1.0.1
-  icon: com.dexfin.dexfin.webp
   meta: removed
   verdict: wip
   developerName: DEXFIN

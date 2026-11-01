@@ -1,6 +1,6 @@
 ---
 title: SEADEX
-date: 2026-06-02
+date: 2026-10-30
 authors:
 - danny
 website: http://seadex.io#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2018-08-11
   updated: 2018-09-05
   version: 1.2.0
-  icon: com.seadex.seadex.webp
   meta: removed
   verdict: wip
   developerName: Southeast Asia Digital Exchange

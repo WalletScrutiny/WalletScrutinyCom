@@ -12,11 +12,10 @@ provider:
 providerWebsite: 
 website: https://bitmarket.network/
 repository: https://github.com/BitMarketNetwork/client-desktop
-icon: bitmarket.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-date: 2025-04-22
+date: 2026-10-30
 twitter: 
 social: 
 builds: 

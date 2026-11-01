@@ -1,6 +1,6 @@
 ---
 title: 'Dzengi: Инвестиции в токены'
-date: 2025-07-18
+date: 2026-10-30
 authors:
 - danny
 website: https://dzengi.com/
@@ -15,7 +15,6 @@ android:
   updated: 2026-08-13
   version: 2.22.2
   reviews: 310
-  icon: com.currency.exchange.investsmart.webp
   meta: ok
   verdict: custodial
   developerName: Dzengi.com
@@ -27,7 +26,6 @@ iphone:
   updated: 2022-11-18
   version: 1.32.0
   reviews: 23
-  icon: com.currency.exchange.investsmart.webp
   meta: removed
   verdict: custodial
   developerName: DZ INVESTMENTS POLAND Sp.z.o.o

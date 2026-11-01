@@ -17,11 +17,10 @@ shop:
 country: 
 price: 
 repository: https://github.com/ngburke/polly
-icon: 
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-05-27
+date: 2026-10-30
 signer: 
 twitter: 
 social: 

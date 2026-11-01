@@ -1,6 +1,6 @@
 ---
 title: Xignalex
-date: 2024-04-19
+date: 2026-10-30
 website: https://xignalex.com#deadLink
 redirect_from:
 - /android/com.xignal.android.exchange/
@@ -10,7 +10,6 @@ android:
   released: 2022-04-04
   updated: 2022-04-05
   version: 1.0.6
-  icon: com.xignal.android.exchange.webp
   meta: removed
   verdict: wip
   developerName: xignal

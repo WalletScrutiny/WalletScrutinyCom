@@ -1,6 +1,6 @@
 ---
 title: Coincheck
-date: 2026-09-03
+date: 2026-10-30
 authors:
 - danny
 website: https://coincheck.com
@@ -19,7 +19,6 @@ android:
   updated: 2026-10-13
   version: 4.21.3
   reviews: 13
-  icon: jp.coincheck.android.webp
   meta: ok
   verdict: custodial
   developerName: Coincheck
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-10-14
   version: 5.0.2
   reviews: 109850
-  icon: jp.coincheck.ios.webp
   meta: ok
   verdict: custodial
   developerName: Coincheck, Inc.

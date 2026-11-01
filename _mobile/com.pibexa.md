@@ -1,6 +1,6 @@
 ---
 title: Pibexa
-date: 2023-12-19
+date: 2026-10-30
 website: https://pibexa.com#deadLink
 redirect_from:
 - /android/com.pibexa/
@@ -9,7 +9,6 @@ android:
   users: 100
   updated: 2020-08-26
   version: 0.6.2
-  icon: com.pibexa.webp
   meta: removed
   verdict: wip
   developerName: Pibexa

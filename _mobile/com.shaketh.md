@@ -1,6 +1,6 @@
 ---
 title: 'Shakepay: Buy Bitcoin Canada'
-date: 2020-05-29
+date: 2026-10-30
 authors:
 - leo
 website: https://shakepay.com
@@ -20,7 +20,6 @@ android:
   updated: 2026-10-07
   version: 4.22.1
   reviews: 21
-  icon: com.shaketh.webp
   meta: ok
   verdict: custodial
   developerName: Shakepay

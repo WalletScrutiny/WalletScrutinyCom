@@ -1,6 +1,6 @@
 ---
 title: Amadis
-date: 2026-05-21
+date: 2026-10-30
 redirect_from:
 - /android/micat.example.bergamo/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2022-09-16
   updated: 2024-08-14
   version: '1.0'
-  icon: micat.example.bergamo.webp
   meta: removed
   verdict: wip
   developerName: entropia
