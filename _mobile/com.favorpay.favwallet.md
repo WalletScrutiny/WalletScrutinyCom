@@ -10,7 +10,6 @@ android:
   released: 2020-12-14
   updated: 2022-01-20
   version: '20220120'
-  icon: com.favorpay.favwallet.webp
   meta: removed
   verdict: wip
   developerName: FAVORPAY TEAM

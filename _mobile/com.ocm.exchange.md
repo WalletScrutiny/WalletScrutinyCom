@@ -10,7 +10,6 @@ android:
   released: 2022-02-22
   updated: 2022-03-22
   version: '1.01'
-  icon: com.ocm.exchange.webp
   meta: removed
   verdict: wip
   developerName: OCMX

@@ -18,7 +18,6 @@ android:
   users: 50000
   updated: 2022-10-31
   version: VARY
-  icon: com.zeniq.wallet.webp
   meta: removed
   verdict: nosource
   developerName: ZENIQ Technologies FZ LLC

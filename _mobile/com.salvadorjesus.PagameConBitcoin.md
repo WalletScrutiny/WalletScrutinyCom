@@ -11,7 +11,6 @@ android:
   released: 2018-01-24
   updated: 2020-03-06
   version: 2.2.3.1
-  icon: com.salvadorjesus.PagameConBitcoin.webp
   meta: obsolete
   verdict: nowallet
   developerName: Salvador Jesús Romero

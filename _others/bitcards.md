@@ -3,7 +3,6 @@ title: BitCard®️
 appId: bitcards
 authors:
 - danny
-icon: bitcards.webp
 date: 2026-10-30
 website: https://bitcards.com/
 twitter: Bitcard_US

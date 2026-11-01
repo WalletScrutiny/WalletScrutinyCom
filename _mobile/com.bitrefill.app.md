@@ -21,7 +21,6 @@ android:
   updated: 2026-10-03
   version: 8.1.0
   reviews: 292
-  icon: com.bitrefill.app.webp
   meta: ok
   verdict: nowallet
   developerName: Bitrefill
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-10-09
   version: 8.1.0
   reviews: 492
-  icon: com.bitrefill.bitrefill.webp
   meta: ok
   verdict: nowallet
   developerName: Bitrefill

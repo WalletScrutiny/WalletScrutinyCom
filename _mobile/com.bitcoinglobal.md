@@ -19,7 +19,6 @@ android:
   updated: 2025-08-05
   version: 2.13.0
   reviews: 5
-  icon: com.bitcoinglobal.webp
   meta: removed
   verdict: custodial
   developerName: Bitcoin Global Ex
@@ -30,7 +29,6 @@ iphone:
   updated: 2023-04-24
   version: 2.12.0
   reviews: 60
-  icon: com.global.bitcoin.webp
   meta: removed
   verdict: custodial
   developerName: Bitcoin Global

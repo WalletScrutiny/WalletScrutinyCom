@@ -10,7 +10,6 @@ android:
   released: 2022-02-19
   updated: 2022-03-29
   version: '10.03'
-  icon: com.ajaxcash.ajc.webp
   meta: removed
   verdict: wip
   developerName: Ajax Fintech Limited

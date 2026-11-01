@@ -11,7 +11,6 @@ android:
   updated: 2021-02-01
   version: '1.3'
   reviews: 69
-  icon: jb.tech.bitpiewallet.webp
   meta: removed
   verdict: fake
 

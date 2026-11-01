@@ -19,7 +19,6 @@ android:
   released: 2019-07-22
   updated: 2020-06-29
   version: 1.3.17851
-  icon: app.bankowallet.android.webp
   meta: removed
   verdict: wip
   developerName: BITROCK
@@ -31,7 +30,6 @@ iphone:
   updated: 2020-09-08
   version: 1.5.6
   reviews: 5
-  icon: app.banko.ios.webp
   meta: removed
   verdict: wip
   developerName: BITROCK PTE. LTD.

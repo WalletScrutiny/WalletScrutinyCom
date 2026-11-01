@@ -19,7 +19,6 @@ android:
   updated: 2026-09-29
   version: '1.270'
   reviews: 39
-  icon: com.gaincapital.forex.webp
   meta: ok
   verdict: nosendreceive
   developerName: GAIN Capital Group, LLC
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-10-05
   version: 1.270.8196
   reviews: 265
-  icon: com.gaincapital.forex.webp
   meta: ok
   verdict: nosendreceive
   developerName: GAIN Capital Group LLC

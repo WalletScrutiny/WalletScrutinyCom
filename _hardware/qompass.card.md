@@ -17,7 +17,6 @@ shop:
 country: HK
 price: 
 repository: 
-icon: qompass.card.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

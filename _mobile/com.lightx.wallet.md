@@ -10,7 +10,6 @@ android:
   released: 2023-02-11
   updated: 2023-03-26
   version: '1.4'
-  icon: com.lightx.wallet.webp
   meta: removed
   verdict: wip
   developerName: BTC Defi

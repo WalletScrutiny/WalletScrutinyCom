@@ -23,7 +23,6 @@ android:
   updated: 2024-05-03
   version: 1.0.23
   reviews: 8
-  icon: io.balancenetwork.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Balance Network Ltd
@@ -35,7 +34,6 @@ iphone:
   updated: 2024-05-03
   version: 1.1.2
   reviews: 10
-  icon: com.reacnative.js.balancenetwork.wallet.webp
   meta: removed
   verdict: nosource
   developerName: BALANCE NETWORK SP ZOO

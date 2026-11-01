@@ -16,7 +16,6 @@ android:
   updated: 2021-09-17
   version: 1.0.10
   reviews: 84
-  icon: com.gcbuying.app.webp
   meta: removed
   verdict: custodial
   developerName: GCBUYING
@@ -28,7 +27,6 @@ iphone:
   updated: 2026-09-26
   version: 1.5.0
   reviews: 171
-  icon: com.GCBuying.GCBuying.webp
   meta: ok
   verdict: custodial
   developerName: GCBuying Technology

@@ -10,7 +10,6 @@ android:
   released: 2021-07-28
   updated: 2022-02-13
   version: '2.2'
-  icon: com.splishpay.webp
   meta: removed
   verdict: wip
   developerName: Splishpay

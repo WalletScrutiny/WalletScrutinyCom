@@ -19,7 +19,6 @@ android:
   updated: 2022-10-24
   version: 1.18.3.1
   reviews: 36
-  icon: com.quoine.liquid.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -29,7 +28,6 @@ iphone:
   updated: 2022-08-30
   version: 1.18.4
   reviews: 29
-  icon: com.quoine.liquid.production.webp
   meta: removed
   verdict: custodial
 

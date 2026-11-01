@@ -20,7 +20,6 @@ shop:
 country: DE
 price: 
 repository: 
-icon: bitcoinwalletcards.webp
 bugbounty: 
 meta: discontinued
 verdict: prefilled

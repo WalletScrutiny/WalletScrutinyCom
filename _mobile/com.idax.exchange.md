@@ -16,7 +16,6 @@ android:
   updated: 2022-09-27
   version: 5.5.0_push_v2
   reviews: 6
-  icon: com.idax.exchange.webp
   meta: removed
   verdict: custodial
   developerName: Ard Financial Group
@@ -28,7 +27,6 @@ iphone:
   updated: 2023-04-27
   version: 1.1.2
   reviews: 2
-  icon: com.idax.exchange.webp
   meta: removed
   verdict: custodial
   developerName: Ard Financial Group

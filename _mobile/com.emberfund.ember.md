@@ -19,7 +19,6 @@ android:
   updated: 2026-10-13
   version: '40.0'
   reviews: 2768
-  icon: com.emberfund.ember.webp
   meta: ok
   verdict: nosource
   developerName: Ember Fund Inc
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-10-13
   version: '41.0'
   reviews: 19610
-  icon: com.emberfund.ember.webp
   meta: ok
   verdict: nosource
   developerName: Ember Fund LLC

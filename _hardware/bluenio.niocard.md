@@ -17,7 +17,6 @@ shop:
 country: UK
 price: 59.99 GBP
 repository: 
-icon: bluenio.niocard.webp
 bugbounty: 
 meta: ok
 verdict: vapor

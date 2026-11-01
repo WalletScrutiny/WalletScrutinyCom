@@ -23,7 +23,6 @@ android:
   updated: 2026-04-09
   version: 2.6.2
   reviews: 49
-  icon: com.babb.app.webp
   meta: ok
   verdict: custodial
   developerName: BABB
@@ -35,7 +34,6 @@ iphone:
   updated: 2026-04-13
   version: 2.5.4
   reviews: 86
-  icon: com.babbltd.babb-ios.webp
   meta: ok
   verdict: custodial
   developerName: BABB Ltd

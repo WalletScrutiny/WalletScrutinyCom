@@ -19,7 +19,6 @@ android:
   updated: 2026-04-03
   version: 3.6.3
   reviews: 42
-  icon: com.nova.dax.webp
   meta: deprecated
   verdict: custodial
   developerName: NOVADAX BRASIL PAGAMENTOS LTDA
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-04-10
   version: 3.6.4
   reviews: 2717
-  icon: com.nova.dax.webp
   meta: deprecated
   verdict: custodial
   developerName: NOVADAX BRASIL PAGAMENTOS LTDA

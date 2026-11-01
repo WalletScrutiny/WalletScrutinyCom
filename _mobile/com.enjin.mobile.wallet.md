@@ -28,7 +28,6 @@ android:
   updated: 2026-08-06
   version: 3.6.7
   reviews: 1087
-  icon: com.enjin.mobile.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Enjin Pte. Ltd.
@@ -40,7 +39,6 @@ iphone:
   updated: 2026-09-21
   version: 3.6.2
   reviews: 1358
-  icon: com.enjin.mobile.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Enjin PTE LTD

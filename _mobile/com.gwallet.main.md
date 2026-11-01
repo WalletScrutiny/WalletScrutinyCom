@@ -10,7 +10,6 @@ android:
   released: 2021-08-11
   updated: 2022-07-22
   version: '1.06'
-  icon: com.gwallet.main.webp
   meta: removed
   verdict: wip
   developerName: TH Jun

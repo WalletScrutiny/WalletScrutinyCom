@@ -28,7 +28,6 @@ android:
   updated: 2026-10-13
   version: '1.74'
   reviews: 37
-  icon: com.mtpelerin.bridge.webp
   meta: ok
   verdict: nosource
   developerName: Mt Pelerin Group SA
@@ -40,7 +39,6 @@ iphone:
   updated: 2026-09-30
   version: '1.73'
   reviews: 87
-  icon: com.mtpelerin.bridge.webp
   meta: ok
   verdict: nosource
   developerName: Mt Pelerin

@@ -9,7 +9,6 @@ android:
   users: 100
   updated: 2020-12-18
   version: '1.5'
-  icon: com.tradegm.app.webp
   meta: removed
   verdict: wip
   developerName: eBrókerház Zrt.

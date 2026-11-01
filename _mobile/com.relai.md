@@ -19,7 +19,6 @@ android:
   appCountry: us
   updated: 2026-10-02
   version: 3.20.1
-  icon: com.relai.webp
   meta: ok
   verdict: nosource
   developerName: Relai
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-10-03
   version: 3.20.1
   reviews: 3533
-  icon: ch.relai.relai.webp
   meta: ok
   verdict: nosource
   developerName: Relai App GmbH

@@ -19,7 +19,6 @@ android:
   updated: 2026-10-01
   version: 3.66.6
   reviews: 10
-  icon: network.woo.mobile.webp
   meta: ok
   verdict: custodial
   developerName: WOOTECH Limited
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-08-17
   version: 3.66.2
   reviews: 7
-  icon: network.woo.mobile.webp
   meta: ok
   verdict: custodial
   developerName: Wootech Limited

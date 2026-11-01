@@ -18,7 +18,6 @@ android:
   updated: 2021-09-09
   version: 1.4.3.210909
   reviews: 1302
-  icon: com.bytetrade.bytehub.webp
   meta: removed
   verdict: nosource
   developerName: Bytetrade
@@ -29,7 +28,6 @@ iphone:
   updated: 2021-01-16
   version: 1.1.210116
   reviews: 4
-  icon: com.bytetrade.bytehub.webp
   meta: removed
   verdict: nosource
   developerName: BYTETRADE(HK) LIMITED

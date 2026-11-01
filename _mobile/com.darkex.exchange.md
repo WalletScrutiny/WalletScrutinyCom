@@ -14,7 +14,6 @@ android:
   appCountry: us
   updated: 2026-06-26
   version: 7.1.2
-  icon: com.darkex.exchange.webp
   meta: ok
   verdict: custodial
   developerName: DarkEx
@@ -26,7 +25,6 @@ iphone:
   updated: 2026-06-30
   version: 7.1.2
   reviews: 13
-  icon: com.darkex.darkex.webp
   meta: ok
   verdict: custodial
   developerName: Darkex Exchange LLC

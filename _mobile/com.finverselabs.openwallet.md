@@ -16,7 +16,6 @@ android:
   updated: 2026-06-25
   version: 2026.6.36
   reviews: 9
-  icon: com.finverselabs.openwallet.webp
   meta: ok
   verdict: custodial
   developerName: FinVerse Labs FZ-LLC
@@ -28,7 +27,6 @@ iphone:
   updated: 2026-08-11
   version: '1.57'
   reviews: 39
-  icon: com.finverse-labs.openwallet-mainnet.webp
   meta: removed
   verdict: custodial
   developerName: Finverse Labs

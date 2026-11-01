@@ -10,7 +10,6 @@ android:
   released: 2020-01-07
   updated: 2020-01-08
   version: 1.0.3
-  icon: com.bonsystem.gone.appwallet.webp
   meta: removed
   verdict: wip
   developerName: GONE Chain

@@ -19,7 +19,6 @@ android:
   updated: 2026-10-01
   version: 18.0.1
   reviews: 25
-  icon: io.nash.app.webp
   meta: ok
   verdict: nosource
   developerName: nash.io
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-10-06
   version: 18.0.1
   reviews: 106
-  icon: io.nash.app.webp
   meta: ok
   verdict: nosource
   developerName: Neon Exchange AG

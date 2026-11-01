@@ -20,7 +20,6 @@ shop:
 country: CN
 price: 90 USD
 repository: https://github.com/WaltonChain/BambooWallet
-icon: waltonchain.bamboo.webp
 bugbounty: 
 meta: obsolete
 verdict: vapor

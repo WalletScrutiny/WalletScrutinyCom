@@ -19,7 +19,6 @@ android:
   released: 2020-05-27
   updated: 2022-11-22
   version: 2.4.0G
-  icon: io.trustverse.mars.webp
   meta: removed
   verdict: nosource
   developerName: TrustVerse(DigiFinance)
@@ -31,7 +30,6 @@ iphone:
   updated: 2022-11-24
   version: 2.0.1
   reviews: 3
-  icon: io.trustverse.mars.webp
   meta: removed
   verdict: nosource
   developerName: trustverse

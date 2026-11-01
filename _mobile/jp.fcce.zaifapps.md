@@ -17,7 +17,6 @@ android:
   released: 2020-05-07
   updated: 2023-10-05
   version: 1.1.23
-  icon: jp.fcce.zaifapps.webp
   meta: removed
   verdict: custodial
   developerName: 株式会社Ｚａｉｆ
@@ -28,7 +27,6 @@ iphone:
   updated: 2023-08-16
   version: 1.1.22
   reviews: 0
-  icon: jp.fcce.zaifapps.webp
   meta: removed
   verdict: custodial
   developerName: FCCE

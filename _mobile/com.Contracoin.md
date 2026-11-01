@@ -12,7 +12,6 @@ android:
   released: 2020-11-19
   updated: 2020-11-19
   version: '1.00'
-  icon: com.Contracoin.webp
   meta: removed
   verdict: wip
   developerName: Contracoin

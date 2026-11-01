@@ -19,7 +19,6 @@ android:
   updated: 2026-10-13
   version: 2.457.2
   reviews: 1128429
-  icon: com.mercadopago.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Mercado Libre
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-10-09
   version: 2.457.1
   reviews: 2507791
-  icon: com.mercadopago.MercadoPago.webp
   meta: ok
   verdict: custodial
   developerName: MercadoLibre

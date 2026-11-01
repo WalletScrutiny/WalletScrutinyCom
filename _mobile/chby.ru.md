@@ -10,7 +10,6 @@ android:
   updated: 2020-01-13
   version: 1.0.5
   reviews: 7
-  icon: chby.ru.webp
   meta: removed
   verdict: nowallet
 

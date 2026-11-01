@@ -17,7 +17,6 @@ shop:
 country: BG
 price: 
 repository: https://github.com/agrimint/hardwareWallet
-icon: agrimint.webp
 bugbounty: 
 meta: ok
 verdict: vapor

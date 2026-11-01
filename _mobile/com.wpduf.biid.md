@@ -9,7 +9,6 @@ android:
   released: 2022-05-12
   updated: 2022-05-24
   version: 1.0.1
-  icon: com.wpduf.biid.webp
   meta: removed
   verdict: wip
 

@@ -11,7 +11,6 @@ android:
   updated: 2022-04-12
   version: '2.3'
   reviews: 7
-  icon: com.veroxai.webp
   meta: removed
   verdict: wip
 

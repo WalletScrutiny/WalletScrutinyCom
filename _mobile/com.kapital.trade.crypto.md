@@ -18,7 +18,6 @@ android:
   updated: 2026-10-12
   version: 3.54.0
   reviews: 32
-  icon: com.kapital.trade.crypto.webp
   meta: ok
   verdict: nosendreceive
   developerName: Capital.com BG
@@ -30,7 +29,6 @@ iphone:
   updated: 2026-10-13
   version: 3.54.0
   reviews: 822
-  icon: com.kapital.trade.crypto.webp
   meta: ok
   verdict: nosendreceive
   developerName: CAPITAL BULGARIA

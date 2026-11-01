@@ -10,7 +10,6 @@ android:
   released: 2019-06-23
   updated: 2019-06-24
   version: '1.0'
-  icon: com.crebit.webp
   meta: removed
   verdict: wip
   developerName: TIDENET LIMITED

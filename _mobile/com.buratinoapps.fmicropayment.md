@@ -10,7 +10,6 @@ android:
   released: 2022-05-06
   updated: 2022-07-11
   version: '1.6'
-  icon: com.buratinoapps.fmicropayment.webp
   meta: removed
   verdict: wip
 

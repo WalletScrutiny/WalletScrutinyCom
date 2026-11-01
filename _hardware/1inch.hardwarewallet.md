@@ -20,7 +20,6 @@ shop:
 country: 
 price: 
 repository: 
-icon: 1inch.hardwarewallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor

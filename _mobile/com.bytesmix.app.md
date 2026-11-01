@@ -18,7 +18,6 @@ android:
   updated: 2023-09-29
   version: 2.4.7
   reviews: 276
-  icon: com.bytesmix.app.webp
   meta: removed
   verdict: custodial
   developerName: Bytesmix
@@ -30,7 +29,6 @@ iphone:
   updated: 2023-05-01
   version: 2.6.3
   reviews: 9
-  icon: bytesmix.live.co.kr.webp
   meta: removed
   verdict: custodial
   developerName: Bytesmix corp

@@ -13,7 +13,6 @@ android:
   released: 2017-04-18
   updated: 2024-09-15
   version: VARY
-  icon: it.inbitcoin.altana.webp
   meta: removed
   verdict: nosource
   developerName: inbitcoin

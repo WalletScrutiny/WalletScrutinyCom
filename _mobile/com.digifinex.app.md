@@ -21,7 +21,6 @@ android:
   updated: 2026-09-18
   version: 2026.08.18
   reviews: 108
-  icon: com.digifinex.app.webp
   meta: ok
   verdict: custodial
   developerName: DigiFinex
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-02-02
   version: 2026.01.28
   reviews: 60
-  icon: com.digifinex.app.webp
   meta: ok
   verdict: custodial
   developerName: DIGIFINEX PTE.LTD.

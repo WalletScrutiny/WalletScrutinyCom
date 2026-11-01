@@ -20,7 +20,6 @@ android:
   updated: 2023-10-05
   version: 3.44.6
   reviews: 6
-  icon: com.capitual.webp
   meta: removed
   verdict: custodial
   developerName: Capitual
@@ -32,7 +31,6 @@ iphone:
   updated: 2023-09-07
   version: 3.44.0
   reviews: 8
-  icon: com.capitual.webp
   meta: removed
   verdict: custodial
   developerName: Capitual

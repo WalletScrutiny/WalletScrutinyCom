@@ -17,7 +17,6 @@ shop: https://shop.ledger.com/pages/ledger-atom
 country: FR
 price: 849USD
 repository: 
-icon: ledgerAtom.webp
 bugbounty: 
 meta: ok
 verdict: unreleased

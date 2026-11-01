@@ -20,7 +20,6 @@ shop: https://www.cyclebit.io/card
 country: SE
 price: 
 repository: 
-icon: cyclebit.tangem.card.webp
 bugbounty: 
 meta: ok
 verdict: noita

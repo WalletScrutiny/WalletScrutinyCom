@@ -15,7 +15,6 @@ android:
   updated: 2021-10-26
   version: 2.4.9
   reviews: 31
-  icon: co.id.dompet.btc.indonesia.webp
   meta: removed
   verdict: custodial
 

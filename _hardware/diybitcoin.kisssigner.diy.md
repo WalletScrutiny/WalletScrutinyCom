@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: https://github.com/DIYbitcoin/kiss-signer
-icon: diybitcoin.kisssigner.diy.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

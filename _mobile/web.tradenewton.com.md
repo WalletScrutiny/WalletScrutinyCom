@@ -21,7 +21,6 @@ android:
   updated: 2026-10-06
   version: 2.23.6
   reviews: 4
-  icon: web.tradenewton.com.webp
   meta: ok
   verdict: custodial
   developerName: Newton Crypto Ltd
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-10-08
   version: 2.23.6
   reviews: 24474
-  icon: co.newton.newtonios.webp
   meta: ok
   verdict: custodial
   developerName: Newton Crypto Ltd.

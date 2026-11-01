@@ -18,7 +18,6 @@ android:
   updated: 2024-10-21
   version: 3.5.9
   reviews: 15
-  icon: com.app.fameex.webp
   meta: removed
   verdict: custodial
   developerName: FAMEEX INTERNATIONAL PTY LTD
@@ -29,7 +28,6 @@ iphone:
   updated: 2022-12-24
   version: 2.13.17
   reviews: 112
-  icon: com.front.fameex.webp
   meta: removed
   verdict: custodial
   developerName: FAMEEX FOUNDATION LTD.

@@ -15,7 +15,6 @@ android:
   updated: 2019-01-30
   version: 0.0.7
   reviews: 61
-  icon: com.ebcecosystem.wallets.webp
   meta: removed
   verdict: custodial
 

@@ -31,7 +31,6 @@ android:
   appCountry: us
   updated: 2025-01-14
   version: VARY
-  icon: com.breez.client.webp
   playStore: removed
   alternativeStores:
   - zapstore
@@ -47,7 +46,6 @@ iphone:
   updated: 2025-01-14
   version: 1.1.21
   reviews: 42
-  icon: technology.breez.client.webp
   meta: stale
   verdict: nosource
   developerName: BREEZ DEVELOPMENT LTD

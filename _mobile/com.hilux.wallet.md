@@ -11,7 +11,6 @@ android:
   updated: 2019-12-04
   version: v2.70
   reviews: 4
-  icon: com.hilux.wallet.webp
   meta: removed
   verdict: wip
   developerName: Hilux Infrastructures

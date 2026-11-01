@@ -25,7 +25,6 @@ android:
   updated: 2026-03-18
   version: 1.52.3
   reviews: 61
-  icon: com.trusteewallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: BlockSoft Lab
@@ -38,7 +37,6 @@ iphone:
   updated: 2026-03-19
   version: 1.52.3
   reviews: 0
-  icon: com.trusteewallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: BLOCKSOFTLAB INC

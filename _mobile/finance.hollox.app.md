@@ -19,7 +19,6 @@ android:
   updated: 2026-08-14
   version: 12.5.0
   reviews: 8
-  icon: finance.hollox.app.webp
   meta: ok
   verdict: custodial
   developerName: XOXO TECHNOLOGIES LIMITED
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-08-25
   version: 12.5.0
   reviews: 31
-  icon: finance.hollox.webp
   meta: ok
   verdict: custodial
   developerName: XOXO TECHNOLOGIES LIMITED

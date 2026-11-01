@@ -12,7 +12,6 @@ android:
   updated: 2021-06-10
   version: '1.47'
   reviews: 200
-  icon: com.app.mystarwallet.webp
   meta: removed
   verdict: wip
 

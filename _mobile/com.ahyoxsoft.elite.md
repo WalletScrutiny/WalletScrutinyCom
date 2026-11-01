@@ -9,7 +9,6 @@ android:
   released: 2020-06-15
   updated: 2020-08-06
   version: '1.0'
-  icon: com.ahyoxsoft.elite.webp
   meta: removed
   verdict: wip
   developerName: Akanbi Peter

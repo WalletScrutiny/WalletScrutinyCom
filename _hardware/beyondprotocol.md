@@ -17,7 +17,6 @@ shop: https://beyond.link/preorder.html#deadLink
 country: US
 price: 
 repository: 
-icon: beyondprotocol.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

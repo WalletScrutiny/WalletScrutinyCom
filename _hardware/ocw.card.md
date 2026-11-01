@@ -17,7 +17,6 @@ shop:
 country: US
 price: 
 repository: 
-icon: ocw.card.webp
 bugbounty: 
 meta: defunct
 verdict: noita

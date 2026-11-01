@@ -9,7 +9,6 @@ android:
   released: 2020-04-08
   updated: 2020-07-30
   version: 1.0.9
-  icon: com.ttchain.poseidon.webp
   meta: removed
   verdict: wip
   developerName: Poseidon202066

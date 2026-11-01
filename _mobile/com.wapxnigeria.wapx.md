@@ -10,7 +10,6 @@ android:
   released: 2022-09-29
   updated: 2022-11-03
   version: 1.1.7
-  icon: com.wapxnigeria.wapx.webp
   meta: removed
   verdict: wip
   developerName: Wapxnigeria Technologies

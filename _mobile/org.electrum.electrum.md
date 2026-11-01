@@ -26,7 +26,6 @@ android:
   updated: 2026-09-13
   version: 4.8.2
   reviews: 368
-  icon: org.electrum.electrum.webp
   alternativeStores:
   - fdroid
   - zapstore

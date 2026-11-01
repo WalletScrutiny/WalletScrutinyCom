@@ -25,7 +25,6 @@ android:
   updated: 2026-10-13
   version: 4.25.0
   reviews: 63
-  icon: com.viabtc.wallet.webp
   meta: ok
   verdict: nosource
   developerName: ViaBTC
@@ -37,7 +36,6 @@ iphone:
   updated: 2026-10-14
   version: 4.25.0
   reviews: 54
-  icon: com.viabtc.ViaWallet.webp
   meta: ok
   verdict: nosource
   developerName: Viabtc Technology Limited

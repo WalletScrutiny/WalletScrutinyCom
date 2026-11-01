@@ -9,7 +9,6 @@ android:
   released: 2021-06-01
   updated: 2021-06-02
   version: '1.1'
-  icon: latoken.kucoin.trustapp.zebpay.coinmarketcap.coindcx.webp
   meta: removed
   verdict: wip
 

@@ -21,7 +21,6 @@ android:
   updated: 2023-06-06
   version: 0.9.6
   reviews: 2
-  icon: com.coinspaid.wallet.webp
   meta: removed
   verdict: custodial
   developerName: CoinsPaid
@@ -33,7 +32,6 @@ iphone:
   updated: 2023-06-06
   version: 0.9.6
   reviews: 0
-  icon: com.coinspaid.wallet.webp
   meta: removed
   verdict: custodial
   developerName: CoinsPaid

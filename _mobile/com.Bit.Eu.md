@@ -10,7 +10,6 @@ android:
   released: 2019-03-14
   updated: 2019-03-14
   version: '1.0'
-  icon: com.Bit.Eu.webp
   meta: removed
   verdict: wip
   developerName: Snow Media

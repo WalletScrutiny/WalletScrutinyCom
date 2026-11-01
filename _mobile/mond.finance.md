@@ -10,7 +10,6 @@ android:
   released: 2022-08-26
   updated: 2022-09-13
   version: 1.1.1
-  icon: mond.finance.webp
   meta: removed
   verdict: wip
   developerName: Mond Finance Tecnologia LTDA

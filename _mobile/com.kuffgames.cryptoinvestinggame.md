@@ -10,7 +10,6 @@ android:
   released: 2021-07-08
   updated: 2021-07-31
   version: '1.1'
-  icon: com.kuffgames.cryptoinvestinggame.webp
   meta: removed
   verdict: wip
   developerName: Paff Studios

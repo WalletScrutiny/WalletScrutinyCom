@@ -13,7 +13,6 @@ iphone:
   updated: 2023-11-29
   version: 1.0.4
   reviews: 19
-  icon: com.idiskk.wallet.usb.webp
   meta: removed
   verdict: nosource
   developerName: Shenzhen Feitianxia Technology Co, Ltd.

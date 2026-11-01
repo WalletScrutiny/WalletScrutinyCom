@@ -20,7 +20,6 @@ android:
   updated: 2025-12-05
   version: 5.3.3
   reviews: 1385
-  icon: com.bitbuy.mobileApp.webp
   meta: ok
   verdict: custodial
   developerName: WF - Bitbuy
@@ -32,7 +31,6 @@ iphone:
   updated: 2025-12-08
   version: 5.3.3
   reviews: 7378
-  icon: com.bitbuy.mobileApp.webp
   meta: ok
   verdict: custodial
   developerName: Bitbuy Inc

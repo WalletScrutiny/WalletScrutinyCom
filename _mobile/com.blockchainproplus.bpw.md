@@ -10,7 +10,6 @@ android:
   updated: 2021-04-23
   version: 1.1.1
   reviews: 29
-  icon: com.blockchainproplus.bpw.webp
   meta: removed
   verdict: obfuscated
 

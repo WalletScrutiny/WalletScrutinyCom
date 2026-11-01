@@ -10,7 +10,6 @@ android:
   released: 2022-07-22
   updated: 2024-03-09
   version: 0.6.4
-  icon: org.canadaecoin.moonshine.webp
   meta: removed
   verdict: wip
   developerName: Jason Zvaniga

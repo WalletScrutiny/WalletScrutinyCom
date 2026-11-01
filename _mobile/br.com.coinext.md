@@ -21,7 +21,6 @@ android:
   updated: 2026-09-14
   version: 2.49.1
   reviews: 7
-  icon: br.com.coinext.webp
   meta: defunct
   verdict: custodial
   developerName: Coinext Serviços Digitais Ltda.
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-09-15
   version: 2.49.1
   reviews: 5162
-  icon: br.com.coinext.Coinext.webp
   meta: defunct
   verdict: custodial
   developerName: Coinext

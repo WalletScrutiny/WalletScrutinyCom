@@ -12,7 +12,6 @@ android:
   updated: 2024-02-01
   version: 2.1.0
   reviews: 3
-  icon: ua.money.storage.moneystorage.webp
   meta: removed
   verdict: custodial
   developerName: Bitsofta

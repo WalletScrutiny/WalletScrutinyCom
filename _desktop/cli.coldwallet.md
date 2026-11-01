@@ -12,7 +12,6 @@ provider:
 providerWebsite: 
 website: 
 repository: https://github.com/Overtorment/cli-cold-wallet
-icon: 
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable

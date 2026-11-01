@@ -18,7 +18,6 @@ android:
   appCountry: us
   updated: 2026-10-09
   version: VARY
-  icon: com.minibits_wallet.webp
   alternativeStores:
   - zapstore
   meta: ok

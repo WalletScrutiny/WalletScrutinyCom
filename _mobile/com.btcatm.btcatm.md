@@ -9,7 +9,6 @@ android:
   released: 2022-06-08
   updated: 2023-07-28
   version: 1.0.9
-  icon: com.btcatm.btcatm.webp
   meta: removed
   verdict: wip
   developerName: Bitcoin Secure Atm

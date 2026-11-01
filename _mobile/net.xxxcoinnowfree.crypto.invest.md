@@ -9,7 +9,6 @@ android:
   released: 2021-07-22
   updated: 2021-07-22
   version: '1.0'
-  icon: net.xxxcoinnowfree.crypto.invest.webp
   meta: removed
   verdict: wip
 

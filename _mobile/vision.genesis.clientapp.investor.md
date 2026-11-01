@@ -20,7 +20,6 @@ android:
   updated: 2022-03-16
   version: 2.7.7
   reviews: 25
-  icon: vision.genesis.clientapp.investor.webp
   meta: removed
   verdict: custodial
   developerName: Genesis Vision
@@ -32,7 +31,6 @@ iphone:
   updated: 2022-11-14
   version: 2.4.0
   reviews: 145
-  icon: vision.genesis.ios.investor.webp
   meta: removed
   verdict: custodial
   developerName: Genesis Vision

@@ -12,7 +12,6 @@ android:
   released: 2017-06-26
   updated: 2017-06-26
   version: 1.0.0
-  icon: com.tradersinc.buybitcoin.webp
   meta: removed
   verdict: wip
   developerName: Tradersinc

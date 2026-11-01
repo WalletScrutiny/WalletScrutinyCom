@@ -10,7 +10,6 @@ android:
   released: 2021-09-30
   updated: 2022-08-29
   version: 1.3.9
-  icon: com.thorapp.flutterthor.webp
   meta: removed
   verdict: wip
   developerName: Thorbot

@@ -10,7 +10,6 @@ android:
   released: 2021-02-21
   updated: 2021-03-28
   version: 1.0.6
-  icon: com.visionx_crpto.webp
   meta: removed
   verdict: wip
   developerName: VISION-X LIMITED

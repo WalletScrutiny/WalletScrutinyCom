@@ -10,7 +10,6 @@ android:
   released: 2018-09-09
   updated: 2018-09-10
   version: 1.0.4
-  icon: com.bitcointrainee.br.webp
   meta: removed
   verdict: wip
   developerName: Fearn Apps

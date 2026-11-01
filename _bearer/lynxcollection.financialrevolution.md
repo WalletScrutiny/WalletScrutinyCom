@@ -17,7 +17,6 @@ shop: https://lynxartcollection.com/collections/crypto-wallets/products/financia
 country: US
 price: 79USD
 repository: 
-icon: lynxcollection.financialrevolution.webp
 bugbounty: 
 meta: discontinued
 verdict: sealed-plainkey

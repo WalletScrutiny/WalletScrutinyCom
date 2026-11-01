@@ -11,7 +11,6 @@ android:
   released: 2022-09-29
   updated: 2022-12-05
   version: '1.6'
-  icon: coindroplet.com.webp
   meta: obsolete
   verdict: wip
   developerName: Value Sports Network, llc

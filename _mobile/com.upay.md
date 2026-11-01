@@ -12,7 +12,6 @@ android:
   released: 2020-07-13
   updated: 2021-01-07
   version: '1.1'
-  icon: com.upay.webp
   meta: removed
   verdict: wip
   developerName: The Value Group Inc.

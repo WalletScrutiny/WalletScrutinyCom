@@ -10,7 +10,6 @@ android:
   released: 2022-10-10
   updated: 2023-06-13
   version: 2.0.70
-  icon: com.tradehub360.webp
   meta: removed
   verdict: wip
   developerName: 360TradeHub  Limited

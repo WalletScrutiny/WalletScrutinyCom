@@ -9,7 +9,6 @@ android:
   users: 500
   updated: 2022-11-07
   version: '1.0'
-  icon: com.cryptoswisshub.webp
   meta: removed
   verdict: wip
   developerName: Crypto Swiss Hub

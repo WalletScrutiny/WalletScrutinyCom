@@ -18,7 +18,6 @@ android:
   updated: 2026-10-01
   version: 1.160.0
   reviews: 3310
-  icon: com.chippercash.webp
   meta: ok
   verdict: custodial
   developerName: Critical Ideas, Inc.

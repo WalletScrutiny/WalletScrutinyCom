@@ -17,7 +17,6 @@ shop:
 country: MY
 price: 
 repository: 
-icon: everusworld.hwallet.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

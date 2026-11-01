@@ -15,7 +15,6 @@ android:
   users: 5000
   updated: 2023-06-05
   version: 1.3.12
-  icon: com.doubleace.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Maxi Anchor SDN BHD
@@ -27,7 +26,6 @@ iphone:
   updated: 2023-06-07
   version: 1.3.12
   reviews: 0
-  icon: com.finance.acewallet.webp
   meta: removed
   verdict: custodial
   developerName: Maxi Anchor Capital Limited

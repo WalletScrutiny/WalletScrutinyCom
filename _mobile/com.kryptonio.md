@@ -9,7 +9,6 @@ android:
   users: 100
   updated: 2021-07-03
   version: VARY
-  icon: com.kryptonio.webp
   meta: removed
   verdict: wip
   developerName: Kryptonio

@@ -12,7 +12,6 @@ android:
   released: 2019-05-18
   updated: 2020-01-18
   version: 4.0.1
-  icon: com.echri.dz.webp
   meta: removed
   verdict: wip
   developerName: AlgeriaHost

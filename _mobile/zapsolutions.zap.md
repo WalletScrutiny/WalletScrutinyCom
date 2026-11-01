@@ -27,7 +27,6 @@ android:
   users: 10000
   updated: 2023-04-16
   version: VARY
-  icon: zapsolutions.zap.webp
   meta: removed
   verdict: sourceavailable
   developerName: LN OSS
@@ -39,7 +38,6 @@ iphone:
   updated: 2020-08-03
   version: 0.5.2
   reviews: 63
-  icon: com.jackmallers.zap.webp
   meta: removed
   verdict: sourceavailable
   repository: https://github.com/LN-Zap/zap-iOS

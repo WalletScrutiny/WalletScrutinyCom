@@ -15,7 +15,6 @@ android:
   updated: 2025-10-21
   version: 1.7.4
   reviews: 14
-  icon: com.safle.webp
   meta: defunct
   verdict: wip
   developerName: Safle
@@ -27,7 +26,6 @@ iphone:
   updated: 2025-11-12
   version: 1.7.4
   reviews: 4
-  icon: com.safle.safle-mobile.webp
   meta: defunct
   verdict: wip
   developerName: JUPITER INNOVATIONS LIMITED

@@ -9,7 +9,6 @@ android:
   released: 2021-12-13
   updated: 2022-03-21
   version: 1.0.17
-  icon: exchange.sustain.webp
   meta: removed
   verdict: wip
   developerName: Sustain Exchange

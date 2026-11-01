@@ -20,7 +20,6 @@ android:
   updated: 2026-10-13
   version: 4.2.82
   reviews: 13
-  icon: bipa.app.bipa.webp
   meta: ok
   verdict: custodial
   developerName: Bipa
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-10-10
   version: 4.3.0
   reviews: 9577
-  icon: bipa.app.Bipa.webp
   meta: ok
   verdict: custodial
   developerName: Bipa Ltda

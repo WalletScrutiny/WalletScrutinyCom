@@ -10,7 +10,6 @@ android:
   released: 2021-01-28
   updated: 2021-02-17
   version: '1.2'
-  icon: com.transferbuddy.webp
   meta: removed
   verdict: wip
   developerName: TransferBuddy

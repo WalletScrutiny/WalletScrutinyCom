@@ -701,7 +701,7 @@ function makeCompactResultsHTML (wallet, lazyLoad, platformFilter) {
 
   const url = wallet.archived ? '/archived/?appId=' + wallet.appId + '&platform=' + wallet.folder : analysisUrl;
   return `<a class="result-pl-inner ${wallet.meta}" onclick="window.location.href = '${url}';" href="${url}">` +
-    `<div class="icon-wrapper"><img src="${basePath}/images/${wallet.icon ? `wIcons/${getWalletIconFolder(wallet)}/small/${wallet.icon}` : 'noimg.svg'}" class="wallet-icon"${lazyLoad ? ' loading="lazy"' : ''}></div>` +
+    `<div class="icon-wrapper"><img src="${basePath}/images/${wallet.icon ? `wIcons/${getWalletIconFolder(wallet)}/small/${wallet.icon}` : 'noimg.svg'}" onerror="this.onerror=null;this.src='${basePath}/images/noimg.svg'" class="wallet-icon"${lazyLoad ? ' loading="lazy"' : ''}></div>` +
     `<span class="result-title-wrapper"><span>${wallet.altTitle || wallet.title}</span>` +
     `<small><span class="category">${faCollection}&nbsp;<span> ${getWalletListCategory(wallet, platformFilter)}</span></span></small></span>` +
     statsHTML +

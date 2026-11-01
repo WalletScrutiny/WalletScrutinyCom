@@ -10,7 +10,6 @@ android:
   released: 2022-10-15
   updated: 2023-11-15
   version: 1.0.3
-  icon: com.hifasthq.hifast.webp
   meta: removed
   verdict: wip
   developerName: HiFast

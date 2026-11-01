@@ -21,7 +21,6 @@ shop: https://web.archive.org/web/20260713130633/https://shop.hito.xyz/products/
 country: US
 price: 150 USD
 repository: 
-icon: hito.webp
 bugbounty: 
 meta: ok
 verdict: wip

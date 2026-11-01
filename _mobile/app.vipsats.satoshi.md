@@ -15,7 +15,6 @@ android:
   updated: 2023-08-20
   version: 1.3.1
   reviews: 4
-  icon: app.vipsats.satoshi.webp
   meta: removed
   verdict: wip
   developerName: Vipsats
@@ -27,7 +26,6 @@ iphone:
   updated: 2024-10-29
   version: 1.4.2
   reviews: 0
-  icon: app.vipsats.satos.webp
   meta: stale
   verdict: wip
   developerName: VIPSATS.APP

@@ -17,7 +17,6 @@ shop:
 country: KR
 price: 
 repository: 
-icon: pentasecurity.walletcard.webp
 bugbounty: 
 meta: discontinued
 verdict: noita

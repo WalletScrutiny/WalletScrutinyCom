@@ -12,7 +12,6 @@ provider:
 providerWebsite: 
 website: https://coinapp.io/
 repository: https://github.com/coinapp-io/desktop
-icon: coinapp.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable

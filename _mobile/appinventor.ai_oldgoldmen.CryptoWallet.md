@@ -12,7 +12,6 @@ android:
   updated: 2021-02-23
   version: '3.0'
   reviews: 4
-  icon: appinventor.ai_oldgoldmen.CryptoWallet.webp
   meta: removed
   verdict: nosource
   developerName: FinSec

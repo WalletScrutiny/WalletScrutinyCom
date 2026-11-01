@@ -9,7 +9,6 @@ android:
   released: 2022-05-03
   updated: 2022-05-03
   version: '1.0'
-  icon: com.beonwise.myapp.webp
   meta: removed
   verdict: wip
 

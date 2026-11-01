@@ -15,7 +15,6 @@ android:
   updated: 2022-01-30
   version: '4.2'
   reviews: 139
-  icon: com.cryptonator.android.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -25,7 +24,6 @@ iphone:
   updated: 2021-01-27
   version: 4.1.4
   reviews: 26
-  icon: com.cryptonator.ios.webp
   meta: removed
   verdict: custodial
 

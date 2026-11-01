@@ -9,7 +9,6 @@ android:
   released: 2021-10-08
   updated: 2021-10-16
   version: 1.0.12
-  icon: com.era.crest9.webp
   meta: removed
   verdict: wip
   developerName: Crest9 Tech

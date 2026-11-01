@@ -3,7 +3,6 @@ title: The Bitcoin Box
 appId: thebitcoinbox
 authors:
 - danny
-icon: thebitcoinbox.webp
 date: 2026-10-30
 discontinued: 2016-11-01
 provider: Jan Vornberger

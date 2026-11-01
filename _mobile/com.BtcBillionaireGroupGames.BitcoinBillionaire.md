@@ -9,7 +9,6 @@ android:
   released: 2022-03-21
   updated: 2022-03-21
   version: '0.1'
-  icon: com.BtcBillionaireGroupGames.BitcoinBillionaire.webp
   meta: removed
   verdict: wip
 

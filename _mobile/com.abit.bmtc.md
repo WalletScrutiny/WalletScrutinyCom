@@ -15,7 +15,6 @@ android:
   released: 2020-03-03
   updated: 2021-04-25
   version: 2.3.2
-  icon: com.abit.bmtc.webp
   meta: removed
   verdict: custodial
   developerName: Abit Technology
@@ -25,7 +24,6 @@ iphone:
   released: 2020-07-28
   updated: 2021-06-29
   version: 2.3.2
-  icon: com.abit.abit.webp
   meta: removed
   verdict: custodial
 

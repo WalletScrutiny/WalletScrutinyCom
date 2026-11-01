@@ -19,7 +19,6 @@ shop:
 country: CH
 price: 119USD
 repository: https://github.com/KeystoneHQ/Keystone-cold-app
-icon: cobovaultessential.webp
 bugbounty: 
 meta: discontinued
 verdict: nosource

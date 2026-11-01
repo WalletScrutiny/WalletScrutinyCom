@@ -19,7 +19,6 @@ android:
   released: 2020-10-02
   updated: 2023-08-10
   version: '1.1'
-  icon: com.lyopay.webp
   meta: removed
   verdict: custodial
   developerName: DIGILYO APP LTD
@@ -30,7 +29,6 @@ iphone:
   updated: 2023-05-23
   version: '8.17'
   reviews: 0
-  icon: com.LYOPAY.LYOPAY.webp
   meta: removed
   verdict: custodial
   developerName: DIGILYO APP LTD

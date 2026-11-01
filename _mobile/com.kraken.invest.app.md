@@ -24,7 +24,6 @@ android:
   updated: 2026-10-12
   version: 3.85.1
   reviews: 8600
-  icon: com.kraken.invest.app.webp
   meta: ok
   verdict: custodial
   developerName: Payward, Inc.
@@ -36,7 +35,6 @@ iphone:
   updated: 2026-10-13
   version: 3.85.1
   reviews: 35720
-  icon: com.kraken.invest.app.webp
   meta: ok
   verdict: custodial
   developerName: Kraken

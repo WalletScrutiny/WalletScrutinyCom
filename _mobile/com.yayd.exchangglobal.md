@@ -14,7 +14,6 @@ android:
   updated: 2023-05-23
   version: 7.30.2
   reviews: 50
-  icon: com.yayd.exchangglobal.webp
   meta: removed
   verdict: custodial
   developerName: DevYian
@@ -26,7 +25,6 @@ iphone:
   updated: 2023-05-23
   version: 7.30.1
   reviews: 286
-  icon: com.bkex.exchange.webp
   meta: removed
   verdict: custodial
   developerName: Intellefund Finance Limited

@@ -10,7 +10,6 @@ android:
   released: 2022-03-11
   updated: 2022-08-16
   version: 1.1.10
-  icon: com.safesenda.webp
   meta: removed
   verdict: wip
   developerName: Safesenda App

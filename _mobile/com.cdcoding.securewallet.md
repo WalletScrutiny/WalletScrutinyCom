@@ -10,7 +10,6 @@ android:
   released: 2024-07-05
   updated: 2026-01-11
   version: 1.2.1
-  icon: com.cdcoding.securewallet.webp
   meta: fewusers
   verdict: wip
   developerName: Christophe Da Costa

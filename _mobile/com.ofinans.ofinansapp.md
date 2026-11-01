@@ -18,7 +18,6 @@ android:
   updated: 2025-08-28
   version: 2.1.3
   reviews: 3
-  icon: com.ofinans.ofinansapp.webp
   meta: removed
   verdict: custodial
   developerName: Ofinans App

@@ -9,7 +9,6 @@ android:
   users: 100
   updated: 2023-07-27
   version: 2.1.0
-  icon: com.oubita.oubitapp.webp
   meta: removed
   verdict: wip
   developerName: Oubita

@@ -17,7 +17,6 @@ shop:
 country: CA
 price: 
 repository: 
-icon: cryptotestament.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

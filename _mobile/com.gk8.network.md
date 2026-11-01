@@ -11,7 +11,6 @@ android:
   released: 2021-09-01
   updated: 2026-10-01
   version: 20.0.1
-  icon: com.gk8.network.webp
   meta: fewusers
   verdict: wip
   developerName: GalaxyInfra

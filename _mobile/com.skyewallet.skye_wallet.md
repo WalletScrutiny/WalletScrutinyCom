@@ -17,7 +17,6 @@ android:
   updated: 2025-11-23
   version: 2.15.3
   reviews: 21
-  icon: com.skyewallet.skye_wallet.webp
   meta: ok
   verdict: custodial
   developerName: Skye Innovation Technology
@@ -28,7 +27,6 @@ iphone:
   updated: 2025-07-02
   version: 2.14.3
   reviews: 39
-  icon: com.skyewallet.app.webp
   meta: removed
   verdict: custodial
   developerName: Skye Innovation Technology Limited

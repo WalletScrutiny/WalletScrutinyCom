@@ -13,7 +13,6 @@ android:
   updated: 2026-10-18
   version: 1.1.538
   reviews: 6
-  icon: org.bron.mobile.webp
   meta: ok
   verdict: custodial
   developerName: Bron Foundation
@@ -25,7 +24,6 @@ iphone:
   updated: 2026-10-17
   version: 1.1.538
   reviews: 35
-  icon: org.bron.mobile.webp
   meta: ok
   verdict: custodial
   developerName: Bron Foundation

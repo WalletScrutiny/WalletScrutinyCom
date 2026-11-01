@@ -16,7 +16,6 @@ android:
   released: 2022-08-02
   updated: 2023-03-02
   version: 1.0.14
-  icon: co.tradehall.app.tradehall.webp
   meta: removed
   verdict: nosendreceive
   developerName: Tradehall Pte Ltd
@@ -28,7 +27,6 @@ iphone:
   updated: 2023-03-10
   version: 1.0.14
   reviews: 4
-  icon: co.tradehall.app.tradehall.webp
   meta: removed
   verdict: nosendreceive
   developerName: Tradehall Pty Ltd

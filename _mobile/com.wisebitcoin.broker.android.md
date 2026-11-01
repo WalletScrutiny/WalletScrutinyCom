@@ -16,7 +16,6 @@ android:
   updated: 2026-07-22
   version: 5.8.4
   reviews: 128
-  icon: com.wisebitcoin.broker.android.webp
   meta: ok
   verdict: custodial
   developerName: Batonex
@@ -28,7 +27,6 @@ iphone:
   updated: 2022-11-24
   version: 3.9.0
   reviews: 0
-  icon: com.wisebitcoin.broker.iostest.webp
   meta: removed
   verdict: custodial
   developerName: WISEBTC INC

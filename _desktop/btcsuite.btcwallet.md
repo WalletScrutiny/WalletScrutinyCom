@@ -12,7 +12,6 @@ provider:
 providerWebsite: 
 website: 
 repository: https://github.com/btcsuite/btcwallet
-icon: 
 bugbounty: 
 meta: ok
 verdict: sourceavailable

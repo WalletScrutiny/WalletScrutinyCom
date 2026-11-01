@@ -19,7 +19,6 @@ android:
   updated: 2021-03-27
   version: 3.4.1
   reviews: 47
-  icon: com.bideskcom.app.webp
   meta: removed
   verdict: wip
 iphone:
@@ -29,7 +28,6 @@ iphone:
   updated: 2021-03-28
   version: 3.1.2
   reviews: 12
-  icon: com.bideskexchange.app.webp
   meta: removed
   verdict: wip
 

@@ -20,7 +20,6 @@ shop: https://web.archive.org/web/20230329031957/https://www.huskywallet.com/sho
 country: CA
 price: 129USD
 repository: 
-icon: huskyhdw20.webp
 bugbounty: 
 meta: defunct
 verdict: nosource

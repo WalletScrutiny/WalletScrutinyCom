@@ -18,7 +18,6 @@ android:
   updated: 2026-03-04
   version: 8.0.0
   reviews: 44
-  icon: webtrader.crystalballmarkets.com.webp
   meta: ok
   verdict: nosendreceive
   developerName: Crystal Ball Markets
@@ -30,7 +29,6 @@ iphone:
   updated: 2022-12-19
   version: '1.1'
   reviews: 0
-  icon: com.crystalballmarkets.mobiustrader7.webp
   meta: obsolete
   verdict: nosendreceive
   developerName: Crystal Ball Markets LLC

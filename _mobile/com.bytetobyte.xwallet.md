@@ -10,7 +10,6 @@ android:
   released: 2017-04-27
   updated: 2017-09-03
   version: 0.3.1-beta
-  icon: com.bytetobyte.xwallet.webp
   meta: removed
   verdict: wip
 

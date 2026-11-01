@@ -10,7 +10,6 @@ android:
   released: 2020-06-06
   updated: 2020-10-14
   version: '1.3'
-  icon: com.chat.bullionblock.webp
   meta: removed
   verdict: wip
   developerName: BullionBlock

@@ -10,7 +10,6 @@ android:
   released: 2021-11-08
   updated: 2021-11-08
   version: 1.0.0
-  icon: com.easywallet.android.webp
   meta: removed
   verdict: wip
 

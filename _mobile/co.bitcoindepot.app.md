@@ -20,7 +20,6 @@ android:
   updated: 2026-03-04
   version: 4.2.2
   reviews: 270
-  icon: co.bitcoindepot.app.webp
   meta: removed
   verdict: nosource
   developerName: Bitcoin Depot
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-03-04
   version: 4.2.2
   reviews: 1354
-  icon: com.cashtocrypto.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Bitcoin Depot

@@ -17,7 +17,6 @@ shop:
 country: CZ
 price: 
 repository: 
-icon: bitnotes.webp
 bugbounty: 
 meta: ok
 verdict: vapor

@@ -20,7 +20,6 @@ android:
   updated: 2026-07-17
   version: 6.1.0
   reviews: 195
-  icon: money.terra.station.webp
   meta: ok
   verdict: nosource
   developerName: Vulti Holdings Ltd.
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-07-16
   version: 6.1.0
   reviews: 267
-  icon: money.terra.station.webp
   meta: ok
   verdict: nosource
   developerName: Vulti Holdings Limited

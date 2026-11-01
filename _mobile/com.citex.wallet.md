@@ -9,7 +9,6 @@ android:
   released: 2019-11-09
   updated: 2020-02-08
   version: '1.3'
-  icon: com.citex.wallet.webp
   meta: removed
   verdict: wip
   developerName: CITEX Platform

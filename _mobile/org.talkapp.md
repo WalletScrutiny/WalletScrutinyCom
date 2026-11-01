@@ -16,7 +16,6 @@ android:
   released: 2021-01-05
   updated: 2026-02-05
   version: 3.2.0
-  icon: org.talkapp.webp
   meta: ok
   verdict: nosource
   developerName: Bull.B Technology Limited
@@ -28,7 +27,6 @@ iphone:
   updated: 2026-02-27
   version: 3.2.0
   reviews: 169
-  icon: org.talkapp.webp
   meta: ok
   verdict: nosource
   developerName: BULL.B TECHNOLOGY LIMITED

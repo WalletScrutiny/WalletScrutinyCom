@@ -12,7 +12,6 @@ android:
   released: 2021-08-03
   updated: 2024-03-21
   version: 3.23.3.01
-  icon: capital.amir.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Amir Capital

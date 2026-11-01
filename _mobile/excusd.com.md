@@ -10,7 +10,6 @@ android:
   updated: 2021-04-06
   version: '1.0'
   reviews: 4
-  icon: excusd.com.webp
   meta: removed
   verdict: wip
 

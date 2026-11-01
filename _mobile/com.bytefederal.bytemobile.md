@@ -13,7 +13,6 @@ android:
   updated: 2026-01-25
   version: 1.13.0
   reviews: 21
-  icon: com.bytefederal.bytemobile.webp
   meta: ok
   verdict: nosource
   developerName: Byte Federal, Inc

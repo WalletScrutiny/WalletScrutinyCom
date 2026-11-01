@@ -22,7 +22,6 @@ shop: https://shop.hyperpay.tech/products/crypto-hardware-wallet-hypermate-g#dea
 country: HK
 price: 129USD
 repository: https://github.com/hyperpayorg/hardwallet
-icon: hypermateg.webp
 bugbounty: 
 meta: discontinued
 verdict: nosource

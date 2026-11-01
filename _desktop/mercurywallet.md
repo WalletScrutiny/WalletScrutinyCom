@@ -12,7 +12,6 @@ provider:
 providerWebsite: 
 website: https://mercurywallet.com/#deadLink
 repository: https://github.com/layer2tech/mercury-wallet#deadLink
-icon: mercurywallet.webp
 bugbounty: 
 meta: defunct
 verdict: wip

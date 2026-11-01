@@ -10,7 +10,6 @@ android:
   released: 2020-10-30
   updated: 2021-04-06
   version: 1.5.2
-  icon: com.bitcaps.webp
   meta: removed
   verdict: wip
   developerName: Bitcaps

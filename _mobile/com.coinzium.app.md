@@ -9,7 +9,6 @@ android:
   released: 2021-11-19
   updated: 2021-11-19
   version: '1.0'
-  icon: com.coinzium.app.webp
   meta: removed
   verdict: wip
   developerName: Immutech Company

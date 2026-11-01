@@ -16,7 +16,6 @@ android:
   released: 2021-11-05
   updated: 2022-06-22
   version: 1.3.11
-  icon: com.coingrig.webp
   meta: removed
   verdict: wip
   developerName: Qubevo
@@ -29,7 +28,6 @@ iphone:
   updated: 2022-06-22
   version: 1.3.11
   reviews: 0
-  icon: com.coingrig.app.webp
   meta: removed
   verdict: wip
   developerName: Qubevo

@@ -20,7 +20,6 @@ android:
   updated: 2024-12-18
   version: VARY
   reviews: 128
-  icon: net.coinpayments.coinpaymentsapp.webp
   meta: removed
   verdict: custodial
   developerName: Coinpayments Inc
@@ -31,7 +30,6 @@ iphone:
   updated: 2024-12-18
   version: 2.4.8
   reviews: 52
-  icon: net.coinpayments.coinpaymentsapp.webp
   meta: removed
   verdict: custodial
   developerName: CoinPayments Inc

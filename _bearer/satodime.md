@@ -21,7 +21,6 @@ shop: https://satochip.io/product/satodime/
 country: BE
 price: 25EUR
 repository: https://github.com/Toporin/Satodime-Tool
-icon: satodime.webp
 bugbounty: 
 meta: ok
 verdict: sealed-plainkey

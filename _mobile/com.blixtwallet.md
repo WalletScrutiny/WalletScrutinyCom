@@ -20,7 +20,6 @@ android:
   appCountry: us
   updated: 2026-02-18
   version: VARY
-  icon: com.blixtwallet.webp
   alternativeStores:
   - zapstore
   meta: ok

@@ -12,7 +12,6 @@ provider: RanchiMall
 providerWebsite: 
 website: https://ranchimall.github.io/btcwallet/
 repository: https://github.com/ranchimall/btcwallet
-icon: 
 bugbounty: 
 meta: ok
 verdict: sourceavailable

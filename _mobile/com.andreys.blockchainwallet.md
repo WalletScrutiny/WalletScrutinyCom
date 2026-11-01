@@ -10,7 +10,6 @@ android:
   updated: 2020-08-30
   version: '21'
   reviews: 362
-  icon: com.andreys.blockchainwallet.webp
   meta: removed
   verdict: wip
 

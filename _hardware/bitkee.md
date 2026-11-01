@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-icon: bitkee.webp
 bugbounty: 
 meta: discontinued
 verdict: wip

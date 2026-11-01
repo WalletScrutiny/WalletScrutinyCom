@@ -10,7 +10,6 @@ android:
   released: 2020-07-05
   updated: 2020-07-05
   version: '1.2'
-  icon: com.theawesomeapps.android.kwik.webp
   meta: removed
   verdict: wip
   developerName: Kwik Coin

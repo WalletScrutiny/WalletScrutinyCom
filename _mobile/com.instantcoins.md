@@ -18,7 +18,6 @@ android:
   updated: 2021-04-05
   version: 1.0.6
   reviews: 161
-  icon: com.instantcoins.webp
   meta: removed
   verdict: nosendreceive
   developerName: instantcoins technologies
@@ -29,7 +28,6 @@ iphone:
   updated: 2021-04-16
   version: 1.0.5
   reviews: 26
-  icon: com.instantcoins.webp
   meta: removed
   verdict: nosendreceive
 

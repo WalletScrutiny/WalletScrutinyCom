@@ -17,7 +17,6 @@ android:
   updated: 2026-07-26
   version: 8.3.1
   reviews: 8
-  icon: com.profittrading.forbitmex.webp
   meta: ok
   verdict: custodial
   developerName: ProfitTradingApp

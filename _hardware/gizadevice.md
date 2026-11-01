@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-icon: gizadevice.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

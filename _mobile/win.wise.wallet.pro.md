@@ -10,7 +10,6 @@ android:
   released: 2021-08-13
   updated: 2021-10-14
   version: '1.46'
-  icon: win.wise.wallet.pro.webp
   meta: removed
   verdict: wip
   developerName: wise.win

@@ -3,7 +3,6 @@ title: Joy ID
 appId: app.joy.id
 authors:
 - danny
-icon: app.joy.id.webp
 date: 2026-10-30
 website: https://app.joy.id
 provider: Nervina Labs

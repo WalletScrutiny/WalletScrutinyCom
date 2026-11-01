@@ -12,7 +12,6 @@ provider: Atomex OÜ
 providerWebsite: https://atomex.me
 website: 
 repository: 
-icon: atomex.webp
 bugbounty: 
 meta: defunct
 verdict: nosource

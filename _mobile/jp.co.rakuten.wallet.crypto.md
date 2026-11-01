@@ -14,7 +14,6 @@ android:
   appCountry: us
   updated: 2026-09-15
   version: 1.7.1
-  icon: jp.co.rakuten.wallet.crypto.webp
   meta: ok
   verdict: custodial
   developerName: Rakuten Wallet
@@ -26,7 +25,6 @@ iphone:
   updated: 2026-10-14
   version: 1.7.4
   reviews: 10046
-  icon: jp.co.rakuten.wallet.crypto.webp
   meta: ok
   verdict: custodial
   developerName: Rakuten Wallet, Inc.

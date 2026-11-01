@@ -20,7 +20,6 @@ android:
   updated: 2025-01-28
   version: 2.0.20
   reviews: 4
-  icon: com.capitalika.exhange.webp
   meta: stale
   verdict: custodial
   developerName: CAPITALIKA®
@@ -32,7 +31,6 @@ iphone:
   updated: 2024-10-29
   version: 1.2.1
   reviews: 7
-  icon: com.capitalika.exchange.webp
   meta: stale
   verdict: custodial
   developerName: Capitalika

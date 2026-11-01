@@ -18,7 +18,6 @@ android:
   released: 2018-12-17
   updated: 2026-02-20
   version: 7.8.0
-  icon: io.kriptomat.app.webp
   meta: removed
   verdict: custodial
   developerName: Kriptomat
@@ -30,7 +29,6 @@ iphone:
   updated: 2026-02-24
   version: 7.8.0
   reviews: 94
-  icon: io.kriptomat.app.webp
   meta: removed
   verdict: custodial
   developerName: FintechX OU

@@ -20,7 +20,6 @@ android:
   updated: 2026-09-30
   version: 8.39.1
   reviews: 7274
-  icon: com.gateio.gateio.webp
   meta: ok
   verdict: custodial
   developerName: Gate.com
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-04-30
   version: 8.18.5
   reviews: 1424
-  icon: com.gateio.app.gateio-app.webp
   meta: removed
   verdict: custodial
   developerName: GATE GLOBAL UAB

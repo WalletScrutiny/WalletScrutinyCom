@@ -9,7 +9,6 @@ android:
   released: 2021-07-17
   updated: 2021-07-27
   version: 1.00.6
-  icon: com.ara.WMUWallet.webp
   meta: removed
   verdict: wip
   developerName: SCC Co., Ltd.

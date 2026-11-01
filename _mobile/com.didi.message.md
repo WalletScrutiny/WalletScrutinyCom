@@ -16,7 +16,6 @@ android:
   updated: 2022-05-26
   version: 1.16.0
   reviews: 14
-  icon: com.didi.message.webp
   meta: removed
   verdict: custodial
 

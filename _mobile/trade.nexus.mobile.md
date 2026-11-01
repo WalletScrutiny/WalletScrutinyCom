@@ -9,7 +9,6 @@ android:
   released: 2021-09-21
   updated: 2022-10-07
   version: 1.0.8
-  icon: trade.nexus.mobile.webp
   meta: removed
   verdict: wip
   developerName: Nexus Markets LLC

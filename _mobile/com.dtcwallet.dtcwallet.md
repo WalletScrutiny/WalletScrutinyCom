@@ -9,7 +9,6 @@ android:
   released: 2020-04-20
   updated: 2020-04-20
   version: 1.9.20
-  icon: com.dtcwallet.dtcwallet.webp
   meta: removed
   verdict: wip
   developerName: Digital Treasures Center

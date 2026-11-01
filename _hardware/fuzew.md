@@ -21,7 +21,6 @@ shop: https://fuzeway.com/products/fuzew-hardware-wallet#deadLink
 country: KP
 price: 99USD
 repository: 
-icon: fuzew.webp
 bugbounty: 
 meta: discontinued
 verdict: nosource

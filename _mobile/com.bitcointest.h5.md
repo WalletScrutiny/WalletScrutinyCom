@@ -10,7 +10,6 @@ android:
   updated: 2021-09-03
   version: '5.5'
   reviews: 388
-  icon: com.bitcointest.h5.webp
   meta: removed
   verdict: fake
 

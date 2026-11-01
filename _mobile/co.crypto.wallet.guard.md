@@ -9,7 +9,6 @@ android:
   released: 2021-05-07
   updated: 2021-05-07
   version: '1.1'
-  icon: co.crypto.wallet.guard.webp
   meta: removed
   verdict: wip
   developerName: Mashinz

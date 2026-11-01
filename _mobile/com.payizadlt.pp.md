@@ -17,7 +17,6 @@ android:
   released: 2021-03-02
   updated: 2021-04-17
   version: '8.0'
-  icon: com.payizadlt.pp.webp
   meta: removed
   verdict: custodial
   developerName: Payiza tech
@@ -28,7 +27,6 @@ iphone:
   updated: 2021-06-02
   version: '1.0'
   reviews: 0
-  icon: com.payiza.dlt.webp
   meta: removed
   verdict: custodial
 

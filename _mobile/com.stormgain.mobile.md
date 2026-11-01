@@ -19,7 +19,6 @@ android:
   updated: 2024-08-07
   version: 1.52.1
   reviews: 961
-  icon: com.stormgain.mobile.webp
   meta: defunct
   verdict: custodial
   developerName: Stormgain LLC
@@ -30,7 +29,6 @@ iphone:
   updated: 2023-06-13
   version: 1.33.0
   reviews: 1173
-  icon: com.stormgain.mobile.webp
   meta: removed
   verdict: custodial
   developerName: Stormgain Limited

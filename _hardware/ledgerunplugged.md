@@ -17,7 +17,6 @@ shop:
 country: FR
 price: 
 repository: 
-icon: ledgerunplugged.webp
 bugbounty: 
 meta: discontinued
 verdict: noita

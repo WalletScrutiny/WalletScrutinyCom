@@ -9,7 +9,6 @@ android:
   released: 2022-10-13
   updated: 2022-10-13
   version: '1.0'
-  icon: com.bitcoinbuyerapppro.com.webp
   meta: removed
   verdict: wip
   developerName: kendev pro

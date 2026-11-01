@@ -10,7 +10,6 @@ android:
   released: 2022-04-27
   updated: 2022-09-29
   version: 1.1.8
-  icon: com.enigma.trading.webp
   meta: removed
   verdict: wip
 

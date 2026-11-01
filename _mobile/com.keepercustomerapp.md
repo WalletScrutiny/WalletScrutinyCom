@@ -12,7 +12,6 @@ android:
   released: 2019-02-25
   updated: 2023-02-17
   version: 3.8.4
-  icon: com.keepercustomerapp.webp
   meta: removed
   verdict: custodial
   developerName: TiOSPay

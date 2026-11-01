@@ -17,7 +17,6 @@ android:
   released: 2022-07-06
   updated: 2024-06-18
   version: 3.0.1
-  icon: org.nativescript.knakenhybridapp.webp
   meta: removed
   verdict: custodial
   developerName: Knaken
@@ -29,7 +28,6 @@ iphone:
   updated: 2026-05-15
   version: 5.11.1
   reviews: 245
-  icon: nl.knaken.ios.webp
   meta: removed
   verdict: custodial
   developerName: Knaken Cryptohandel B.V.

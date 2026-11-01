@@ -20,7 +20,6 @@ android:
   updated: 2026-10-04
   version: 7.4.3
   reviews: 155
-  icon: com.tabdeal.webp
   meta: ok
   verdict: custodial
   developerName: Tabdeal Platform

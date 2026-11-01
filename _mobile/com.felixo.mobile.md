@@ -20,7 +20,6 @@ android:
   updated: 2022-08-22
   version: 2.0.0
   reviews: 9
-  icon: com.felixo.mobile.webp
   meta: removed
   verdict: custodial
   developerName: Felixo Teknoloji ve Yazılım A.Ş.
@@ -32,7 +31,6 @@ iphone:
   updated: 2022-08-23
   version: 2.0.0
   reviews: 5
-  icon: com.felixo.mobile.webp
   meta: defunct
   verdict: custodial
   developerName: FELIXO TEKNOLOJI VE YAZILIM ANONIM SIRKETI

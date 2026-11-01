@@ -20,7 +20,6 @@ shop:
 country: 
 price: 
 repository: 
-icon: orasaifu.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

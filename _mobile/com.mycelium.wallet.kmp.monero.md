@@ -9,7 +9,6 @@ android:
   released: Aug 11, 2026
   updated: 2026-10-23
   version: 1.2.45
-  icon: com.mycelium.wallet.kmp.monero.webp
   meta: fewusers
   verdict: wip
   developerName: Mycelium Developers

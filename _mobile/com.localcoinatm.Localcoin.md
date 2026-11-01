@@ -11,7 +11,6 @@ android:
   updated: 2020-10-26
   version: '2.0'
   reviews: 5
-  icon: com.localcoinatm.Localcoin.webp
   meta: removed
   verdict: wip
   developerName: Localcoin

@@ -21,7 +21,6 @@ android:
   updated: 2026-03-18
   version: '6.0'
   reviews: 17
-  icon: com.companyname.swaptobe.webp
   meta: ok
   verdict: nobtc
   developerName: PIONE GLOBAL
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-03-26
   version: 1.2.5
   reviews: 5
-  icon: com.pionechain.pionewallet.webp
   meta: ok
   verdict: nobtc
   developerName: Pionechain

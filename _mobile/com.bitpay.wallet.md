@@ -29,7 +29,6 @@ android:
   updated: 2026-09-22
   version: 14.47.3
   reviews: 2319
-  icon: com.bitpay.wallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: BitPay, Inc.
@@ -43,7 +42,6 @@ iphone:
   updated: 2026-09-24
   version: 14.47.3
   reviews: 3672
-  icon: com.bitpay.wallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: BitPay, Inc.

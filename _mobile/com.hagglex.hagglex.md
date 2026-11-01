@@ -19,7 +19,6 @@ android:
   updated: 2021-11-26
   version: 1.1.2
   reviews: 90
-  icon: com.hagglex.hagglex.webp
   meta: removed
   verdict: custodial
   developerName: Hagglex Limited
@@ -30,7 +29,6 @@ iphone:
   updated: 2021-11-27
   version: 1.1.2
   reviews: 107
-  icon: com.hagglex.webp
   meta: removed
   verdict: custodial
 

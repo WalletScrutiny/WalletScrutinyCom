@@ -12,7 +12,6 @@ android:
   released: 2018-10-14
   updated: 2018-10-15
   version: '0.9'
-  icon: com.coinchat.hdwallet.webp
   meta: removed
   verdict: nosource
   developerName: Biliao Foundation Ltd.

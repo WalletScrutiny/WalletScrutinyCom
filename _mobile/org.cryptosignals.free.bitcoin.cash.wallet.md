@@ -9,7 +9,6 @@ android:
   released: 2021-06-19
   updated: 2021-06-19
   version: '1.0'
-  icon: org.cryptosignals.free.bitcoin.cash.wallet.webp
   meta: removed
   verdict: wip
 

@@ -26,7 +26,6 @@ android:
   updated: 2026-10-07
   version: 1.3.3
   reviews: 33
-  icon: me.proton.wallet.android.webp
   signer: dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853
   alternativeStores:
   - zapstore
@@ -42,7 +41,6 @@ iphone:
   updated: 2026-08-27
   version: 1.3.3
   reviews: 265
-  icon: me.proton.wallet.ios.webp
   meta: ok
   verdict: nosource
   developerName: Proton AG

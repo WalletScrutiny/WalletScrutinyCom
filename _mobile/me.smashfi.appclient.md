@@ -11,7 +11,6 @@ android:
   released: 2025-04-02
   updated: 2025-11-12
   version: 1.0.4
-  icon: me.smashfi.appclient.webp
   meta: fewusers
   verdict: wip
   developerName: SmashFi

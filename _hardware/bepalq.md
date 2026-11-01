@@ -21,7 +21,6 @@ shop: https://bepal.pro/bepal-q?type=Bepal%20Q#deadLink
 country: CH
 price: 598CNY
 repository: 
-icon: bepalq.webp
 bugbounty: 
 meta: defunct
 verdict: wip

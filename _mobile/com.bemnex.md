@@ -10,7 +10,6 @@ android:
   released: 2022-01-14
   updated: 2022-04-08
   version: 2.0.0
-  icon: com.bemnex.webp
   meta: removed
   verdict: wip
   developerName: Bemnex technologies

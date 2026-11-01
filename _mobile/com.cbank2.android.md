@@ -9,7 +9,6 @@ android:
   released: 2021-09-01
   updated: 2021-10-07
   version: '2.9'
-  icon: com.cbank2.android.webp
   meta: removed
   verdict: wip
   developerName: CBNK

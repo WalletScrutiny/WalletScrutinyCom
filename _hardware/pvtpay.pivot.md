@@ -17,7 +17,6 @@ shop: https://www.indiegogo.com/projects/pvt-pay-the-rise-of-the-pivot/coming_so
 country: DE
 price: 
 repository: 
-icon: pvtpay.pivot.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

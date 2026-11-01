@@ -13,7 +13,6 @@ android:
   updated: 2021-12-18
   version: 8.0.2
   reviews: 6
-  icon: com.project.android.skenas.webp
   meta: removed
   verdict: wip
   developerName: Nikaat Corp

@@ -10,7 +10,6 @@ android:
   released: 2023-01-08
   updated: 2023-02-28
   version: '0.4'
-  icon: com.molnike.crypto.backup.webp
   meta: removed
   verdict: wip
   developerName: Mol Nike

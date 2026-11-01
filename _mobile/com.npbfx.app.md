@@ -14,7 +14,6 @@ android:
   released: 2022-05-04
   updated: 2026-09-29
   version: 1.15.2
-  icon: com.npbfx.app.webp
   meta: ok
   verdict: nosendreceive
   developerName: NMarkets Limited
@@ -26,7 +25,6 @@ iphone:
   updated: 2025-11-14
   version: 1.15.1
   reviews: 0
-  icon: com.npbfx.app.webp
   meta: ok
   verdict: nosendreceive
   developerName: NMarkets Limited

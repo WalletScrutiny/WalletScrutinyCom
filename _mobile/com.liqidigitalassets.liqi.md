@@ -19,7 +19,6 @@ android:
   released: 2022-08-08
   updated: 2023-03-13
   version: 1.2.6
-  icon: com.liqidigitalassets.liqi.webp
   meta: removed
   verdict: custodial
   developerName: LIQI DIGITAL ASSETS
@@ -31,7 +30,6 @@ iphone:
   updated: 2023-03-11
   version: 1.2.6
   reviews: 5
-  icon: com.liqidigitalassets.liqi.webp
   meta: removed
   verdict: custodial
   developerName: LIQI DIGITAL ASSETS LTDA

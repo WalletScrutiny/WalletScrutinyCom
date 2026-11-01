@@ -19,7 +19,6 @@ android:
   updated: 2021-03-22
   version: 2.2.6
   reviews: 19
-  icon: com.vaulthotpro.webp
   meta: removed
   verdict: wip
   repository: https://github.com/CoboVault/cobo-vault-cold
@@ -30,7 +29,6 @@ iphone:
   updated: 2022-02-12
   version: 2.2.7
   reviews: 12
-  icon: cobo.vault.hot.re.webp
   meta: defunct
   verdict: wip
   developerName: Cobo Global Limited

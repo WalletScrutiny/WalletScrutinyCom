@@ -14,7 +14,6 @@ iphone:
   updated: 2024-01-07
   version: 1.0.7
   reviews: 9
-  icon: com.bitcoin.wirlpool.webp
   meta: removed
   verdict: fake
   developerName: CONTRACTOR-ADVERTISING INC

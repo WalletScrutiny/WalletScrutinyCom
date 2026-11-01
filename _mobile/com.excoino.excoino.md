@@ -17,7 +17,6 @@ android:
   updated: 2026-01-05
   version: 9.70.0
   reviews: 253
-  icon: com.excoino.excoino.webp
   meta: ok
   verdict: custodial
   developerName: Ernyka Co

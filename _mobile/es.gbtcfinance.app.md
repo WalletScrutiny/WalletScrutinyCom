@@ -19,7 +19,6 @@ android:
   released: 2025-02-11
   updated: 2026-02-26
   version: '1.16'
-  icon: es.gbtcfinance.app.webp
   meta: ok
   verdict: custodial
   developerName: GBTC FINANCE
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-03-02
   version: '1.03'
   reviews: 5
-  icon: com.gbtc.finance.webp
   meta: removed
   verdict: custodial
   developerName: GBTC FINANCE S.L.

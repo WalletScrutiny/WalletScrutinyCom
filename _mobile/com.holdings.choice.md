@@ -20,7 +20,6 @@ android:
   updated: 2026-09-11
   version: 2.28.0
   reviews: 31
-  icon: com.holdings.choice.webp
   meta: ok
   verdict: custodial
   developerName: Choice IRA
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-09-12
   version: 2.28.0
   reviews: 1496
-  icon: com.holdings.choice.webp
   meta: ok
   verdict: custodial
   developerName: Choice Holdings Incorporated

@@ -15,7 +15,6 @@ android:
   appCountry: us
   updated: 2026-05-05
   version: 1.1.4
-  icon: com.exchange1.ex1.webp
   meta: ok
   verdict: custodial
   developerName: Web 3 Utility Platform UAB
@@ -27,7 +26,6 @@ iphone:
   updated: 2026-05-05
   version: 1.1.3
   reviews: 3
-  icon: com.exchange1.exapp.webp
   meta: ok
   verdict: custodial
   developerName: Web 3 Utility Platform UAB

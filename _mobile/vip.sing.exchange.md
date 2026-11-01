@@ -18,7 +18,6 @@ android:
   updated: 2026-09-24
   version: 4.3.3.42
   reviews: 3
-  icon: vip.sing.exchange.webp
   meta: ok
   verdict: custodial
   developerName: StarEx
@@ -30,7 +29,6 @@ iphone:
   updated: 2026-10-09
   version: 4.3.55
   reviews: 13
-  icon: vip.sing.exchange.webp
   meta: ok
   verdict: custodial
   developerName: STAR EXCHANGE INTERNATIONAL PTE. LTD.

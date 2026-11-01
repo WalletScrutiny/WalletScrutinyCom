@@ -10,7 +10,6 @@ android:
   appCountry: us
   updated: 2025-07-24
   version: VARY
-  icon: com.address.services.app.webp
   meta: stale
   verdict: wip
   developerName: OnTab Inc.

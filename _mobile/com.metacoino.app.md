@@ -10,7 +10,6 @@ android:
   released: 2023-10-04
   updated: 2025-07-02
   version: 3.5.9
-  icon: com.metacoino.app.webp
   meta: removed
   verdict: wip
   developerName: Coinoverse Team

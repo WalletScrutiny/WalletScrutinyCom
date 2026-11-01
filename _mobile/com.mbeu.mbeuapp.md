@@ -19,7 +19,6 @@ android:
   appCountry: us
   updated: 2026-09-24
   version: 2.7.2
-  icon: com.mbeu.mbeuapp.webp
   meta: ok
   verdict: custodial
   developerName: Smart Token Lda
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-09-24
   version: 2.7.2
   reviews: 53
-  icon: com.mbeu.mbeuapp.webp
   meta: ok
   verdict: custodial
   developerName: Smart Token, Lda

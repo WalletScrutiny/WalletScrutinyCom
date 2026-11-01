@@ -13,7 +13,6 @@ android:
   updated: 2021-09-09
   version: '1'
   reviews: 8
-  icon: com.ddcday.wallex.webp
   meta: removed
   verdict: fake
 

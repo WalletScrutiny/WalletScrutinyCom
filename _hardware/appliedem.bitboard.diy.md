@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: https://github.com/AppliedEM/bitboard
-icon: appliedem.bitboard.diy.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable

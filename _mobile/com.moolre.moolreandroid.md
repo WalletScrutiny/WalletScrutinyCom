@@ -18,7 +18,6 @@ android:
   updated: 2024-01-26
   version: 3.5.21
   reviews: 14
-  icon: com.moolre.moolreandroid.webp
   meta: removed
   verdict: custodial
   developerName: Moolre Inc
@@ -30,7 +29,6 @@ iphone:
   updated: 2024-06-21
   version: 3.5.0
   reviews: 26
-  icon: com.moolre.moolreios.webp
   meta: removed
   verdict: custodial
   developerName: Moolre Inc

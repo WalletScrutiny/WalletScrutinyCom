@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-icon: kash.vault1.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

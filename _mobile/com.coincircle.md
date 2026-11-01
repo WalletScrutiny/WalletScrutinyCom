@@ -20,7 +20,6 @@ android:
   updated: 2024-02-29
   version: 1.3.3.10300
   reviews: 245
-  icon: com.coincircle.webp
   meta: obsolete
   verdict: nosource
   developerName: CoinCircle, Inc.
@@ -32,7 +31,6 @@ iphone:
   updated: 2022-01-21
   version: 1.1.1
   reviews: 630
-  icon: com.coincircle.app.webp
   meta: obsolete
   verdict: nosource
   developerName: Coincircle, Inc

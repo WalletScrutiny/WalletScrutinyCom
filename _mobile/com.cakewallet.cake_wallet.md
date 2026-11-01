@@ -36,7 +36,6 @@ android:
   updated: 2026-10-12
   version: 6.4.6
   reviews: 676
-  icon: com.cakewallet.cake_wallet.webp
   alternativeStores:
   - zapstore
   meta: ok
@@ -51,7 +50,6 @@ iphone:
   updated: 2026-10-13
   version: 6.5.0
   reviews: 4214
-  icon: com.fotolockr.cakewallet.webp
   meta: ok
   verdict: custodial
   developerName: Cake Technologies, LLC

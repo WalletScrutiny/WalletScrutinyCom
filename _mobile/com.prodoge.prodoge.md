@@ -15,7 +15,6 @@ android:
   updated: 2025-05-05
   version: '3.36'
   reviews: 5
-  icon: com.prodoge.prodoge.webp
   meta: stale
   verdict: nosource
   developerName: ALXWallet.com
@@ -27,7 +26,6 @@ iphone:
   updated: 2024-11-15
   version: '3.35'
   reviews: 0
-  icon: com.prodoge.prodoge.webp
   meta: stale
   verdict: nosource
   developerName: 1FX LLC

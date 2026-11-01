@@ -24,7 +24,6 @@ android:
   updated: 2026-08-28
   version: 4.0.6-prd.10
   reviews: 50
-  icon: com.exscudo.channels.webp
   meta: ok
   verdict: nosource
   developerName: NIMERA LTD
@@ -36,7 +35,6 @@ iphone:
   updated: 2026-09-01
   version: 4.0.8
   reviews: 55
-  icon: com.exscudo.channels.webp
   meta: ok
   verdict: nosource
   developerName: Exscudo OU

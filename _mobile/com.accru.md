@@ -17,7 +17,6 @@ android:
   released: 2021-11-01
   updated: 2023-01-10
   version: 1.0.201
-  icon: com.accru.webp
   meta: removed
   verdict: custodial
   developerName: AQRU
@@ -29,7 +28,6 @@ iphone:
   updated: 2023-01-10
   version: 1.0.201
   reviews: 0
-  icon: org.reactjs.native.example.AccruApp.webp
   meta: removed
   verdict: custodial
   developerName: Accru Finance

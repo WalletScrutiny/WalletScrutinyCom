@@ -10,7 +10,6 @@ android:
   released: 2023-04-23
   updated: 2023-04-23
   version: 1.0.0
-  icon: com.cryptostone.ewallet.webp
   meta: removed
   verdict: wip
   developerName: Kashi developer

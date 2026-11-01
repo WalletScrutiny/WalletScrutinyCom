@@ -15,7 +15,6 @@ android:
   updated: 2020-11-16
   version: 1.0.12
   reviews: 36
-  icon: com.savechange.hodlit.webp
   meta: removed
   verdict: custodial
   developerName: Hodlit
@@ -27,7 +26,6 @@ iphone:
   updated: 2020-11-16
   version: 1.0.12
   reviews: 37
-  icon: com.savechange.hodlit.webp
   meta: removed
   verdict: custodial
   developerName: Hodlit

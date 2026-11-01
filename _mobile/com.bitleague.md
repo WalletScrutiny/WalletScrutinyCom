@@ -19,7 +19,6 @@ android:
   updated: 2021-05-14
   version: 2.15.2
   reviews: 132
-  icon: com.bitleague.webp
   meta: removed
   verdict: custodial
   developerName: BITLEAGUE LLC
@@ -30,7 +29,6 @@ iphone:
   updated: 2021-05-14
   version: '2.15'
   reviews: 23
-  icon: com.bit.leagues.webp
   meta: removed
   verdict: custodial
   developerName: BITLEAGUE LLC

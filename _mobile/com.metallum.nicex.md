@@ -17,7 +17,6 @@ android:
   users: 10000
   updated: 2024-08-27
   version: 2.3.5
-  icon: com.metallum.nicex.webp
   meta: removed
   verdict: custodial
   developerName: H-BIT d.o.o.
@@ -29,7 +28,6 @@ iphone:
   updated: 2024-04-25
   version: 1.5.2
   reviews: 1
-  icon: com.nicehash.NiceX.webp
   meta: removed
   verdict: custodial
   developerName: H-BIT, d.o.o.

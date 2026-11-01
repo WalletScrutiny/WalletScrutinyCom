@@ -12,7 +12,6 @@ android:
   updated: 2020-04-13
   version: 1.3.1
   reviews: 8
-  icon: com.satsapp.webp
   meta: removed
   verdict: wip
 

@@ -10,7 +10,6 @@ android:
   released: 2022-02-18
   updated: 2022-02-18
   version: 1.0.3
-  icon: com.logmethod.hsr.webp
   meta: removed
   verdict: wip
   developerName: HaloStar

@@ -12,7 +12,6 @@ android:
   released: 2020-11-13
   updated: 2021-02-08
   version: '1.4'
-  icon: com.onlybit.wallet.webp
   meta: removed
   verdict: wip
   developerName: trade bit

@@ -10,7 +10,6 @@ android:
   released: 2023-02-01
   updated: 2023-02-01
   version: '1.0'
-  icon: com.distwallet.app.webp
   meta: removed
   verdict: wip
   developerName: PROYA INT.

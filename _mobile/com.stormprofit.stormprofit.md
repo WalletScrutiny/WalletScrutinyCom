@@ -11,7 +11,6 @@ android:
   updated: 2021-09-17
   version: '1.0'
   reviews: 4
-  icon: com.stormprofit.stormprofit.webp
   meta: removed
   verdict: wip
   developerName: StormProfit

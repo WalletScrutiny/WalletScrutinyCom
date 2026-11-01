@@ -18,7 +18,6 @@ android:
   released: 2020-11-19
   updated: 2022-04-26
   version: 2.7.0
-  icon: com.jubiter.app.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -29,7 +28,6 @@ iphone:
   updated: 2022-04-26
   version: 2.7.0
   reviews: 0
-  icon: com.feitian.jubiterwallet.webp
   meta: obsolete
   verdict: nosource
   developerName: FEITIAN Technologies Co.,Ltd.

@@ -18,7 +18,6 @@ android:
   released: 2022-01-28
   updated: 2022-06-14
   version: 1.0.32
-  icon: com.sanalira.app.webp
   meta: removed
   verdict: custodial
   developerName: SANALİRA
@@ -30,7 +29,6 @@ iphone:
   updated: 2022-06-14
   version: 1.0.32
   reviews: 37
-  icon: com.sanalira.app.webp
   meta: removed
   verdict: custodial
   developerName: Sanalira

@@ -9,7 +9,6 @@ android:
   released: 2019-08-21
   updated: 2019-08-21
   version: '1.0'
-  icon: io.biqihuo.webp
   meta: removed
   verdict: wip
   developerName: HappyEX

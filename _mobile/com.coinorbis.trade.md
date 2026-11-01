@@ -10,7 +10,6 @@ android:
   updated: 2018-11-22
   version: 2.0.0
   reviews: 1
-  icon: com.coinorbis.trade.webp
   meta: removed
   verdict: custodial
 

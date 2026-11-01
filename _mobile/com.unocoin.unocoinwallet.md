@@ -25,7 +25,6 @@ android:
   updated: 2026-10-10
   version: 5.3.45
   reviews: 55
-  icon: com.unocoin.unocoinwallet.webp
   meta: ok
   verdict: custodial
   developerName: Unocoin Technologies
@@ -37,7 +36,6 @@ iphone:
   updated: 2026-10-09
   version: 6.2.83
   reviews: 1720
-  icon: com.unocoin.mainapp.production.webp
   meta: ok
   verdict: custodial
   developerName: Unocoin Technologies Private Limited

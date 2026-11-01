@@ -21,7 +21,6 @@ shop: https://trezor.io/trezor-model-one
 country: CZ
 price: 49EUR
 repository: https://github.com/trezor/trezor-firmware
-icon: trezorOne.webp
 bugbounty: https://trezor.io/security
 meta: discontinued
 verdict: sourceavailable

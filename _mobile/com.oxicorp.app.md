@@ -12,7 +12,6 @@ android:
   released: 2020-05-09
   updated: 2021-01-26
   version: 6.0.1
-  icon: com.oxicorp.app.webp
   meta: removed
   verdict: wip
   developerName: OXI Corporation

@@ -25,7 +25,7 @@ const stats = {
 const category = 'iphone';
 const headers = ('title altTitle authors appId bitcoinOrgId appCountry idd released ' +
                 'updated version reviews website repository ' +
-                'icon bugbounty meta verdict signer ' +
+                'bugbounty meta verdict signer ' +
                 'twitter social features developerName').split(' ');
 
 async function refreshAll (ids, markRemoved) {
@@ -73,10 +73,7 @@ function refreshFile (fileName, content, markRemoved) {
         }
         const iconKey = appId || slug;
         const iconPath = `images/wIcons/iphone/${iconKey}`;
-        helper.downloadImageFile(`${appData.icon}`, iconPath, iconExtension => {
-          if (iconExtension && appId) {
-            iphone.icon = `${appId}.${iconExtension}`;
-          }
+        helper.downloadImageFile(`${appData.icon}`, iconPath, () => {
           stats.updated++;
           writeMobileFile(filePath, mobile, body);
           stats.remaining--;

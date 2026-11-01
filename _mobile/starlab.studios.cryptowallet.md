@@ -13,7 +13,6 @@ android:
   released: 2021-06-01
   updated: 2024-01-30
   version: '10.0'
-  icon: starlab.studios.cryptowallet.webp
   meta: removed
   verdict: fake
   developerName: Seven Labs AI Apps

@@ -21,7 +21,6 @@ android:
   released: 2022-07-06
   updated: 2025-07-27
   version: 3.4.0
-  icon: app.metavest.mobile.webp
   meta: stale
   verdict: nowallet
   developerName: Metavest
@@ -33,7 +32,6 @@ iphone:
   updated: 2025-07-22
   version: 3.4.0
   reviews: 0
-  icon: app.metavest.client.webp
   meta: stale
   verdict: nowallet
   developerName: Metavest Limited

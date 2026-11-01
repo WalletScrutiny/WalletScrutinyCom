@@ -10,7 +10,6 @@ android:
   released: 2020-04-23
   updated: 2020-05-09
   version: '1.2'
-  icon: com.foxtide.webp
   meta: removed
   verdict: wip
   developerName: DIGITIDE, LLC

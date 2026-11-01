@@ -12,7 +12,6 @@ provider:
 providerWebsite: 
 website: https://bither.net
 repository: https://github.com/bither/bither-desktop-java
-icon: bither.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable

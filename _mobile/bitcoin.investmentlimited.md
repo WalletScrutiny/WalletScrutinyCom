@@ -13,7 +13,6 @@ android:
   updated: 2021-08-04
   version: '9.0'
   reviews: 46
-  icon: bitcoin.investmentlimited.webp
   meta: removed
   verdict: wip
 

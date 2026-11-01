@@ -12,7 +12,6 @@ android:
   released: 2020-05-07
   updated: 2024-07-16
   version: 1.0.0
-  icon: com.gioexchange.app.webp
   meta: defunct
   verdict: wip
   developerName: ANGELS
@@ -24,7 +23,6 @@ iphone:
   updated: 2024-06-19
   version: 2.7.3
   reviews: 0
-  icon: com.gioexchange.app.webp
   meta: defunct
   verdict: wip
   developerName: Gio Exchange

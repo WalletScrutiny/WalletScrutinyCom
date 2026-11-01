@@ -18,7 +18,6 @@ android:
   updated: 2024-05-28
   version: 1.1.39
   reviews: 12
-  icon: com.agoradesk.app.webp
   meta: removed
   verdict: custodial
   developerName: LocalMonero / AgoraDesk
@@ -32,7 +31,6 @@ iphone:
   updated: 2024-05-30
   version: 1.1.39
   reviews: 20
-  icon: com.agoradesk.app.webp
   meta: removed
   verdict: custodial
   developerName: Blue Sunday Limited

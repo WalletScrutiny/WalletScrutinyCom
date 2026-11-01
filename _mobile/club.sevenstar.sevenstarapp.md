@@ -10,7 +10,6 @@ android:
   released: 2021-08-31
   updated: 2022-05-31
   version: 2.1.48
-  icon: club.sevenstar.sevenstarapp.webp
   meta: removed
   verdict: wip
   developerName: Exchangily LLC

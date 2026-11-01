@@ -19,7 +19,6 @@ android:
   updated: 2022-09-14
   version: 1.1.0
   reviews: 23
-  icon: org.guapcoin.multiwallet.webp
   meta: removed
   verdict: nosource
   developerName: She Interactive, LLC
@@ -31,7 +30,6 @@ iphone:
   updated: 2022-09-24
   version: 1.1.3
   reviews: 48
-  icon: org.guapcoin.multiwallet.webp
   meta: removed
   verdict: nosource
   developerName: Guap Coin, LLC

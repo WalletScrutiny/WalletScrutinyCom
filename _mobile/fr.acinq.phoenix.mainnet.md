@@ -26,7 +26,6 @@ android:
   updated: 2026-10-02
   version: 2.8.4
   reviews: 11
-  icon: fr.acinq.phoenix.mainnet.webp
   signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
   alternativeStores:
   - zapstore
@@ -42,7 +41,6 @@ iphone:
   updated: 2026-10-06
   version: 2.8.4
   reviews: 21
-  icon: co.acinq.phoenix.webp
   meta: ok
   verdict: sourceavailable
   developerName: ACINQ

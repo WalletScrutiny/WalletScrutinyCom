@@ -20,7 +20,6 @@ android:
   updated: 2026-10-07
   version: 3.1.229
   reviews: 402
-  icon: com.metallicus.metalapp.production.webp
   meta: ok
   verdict: custodial
   developerName: Metallicus Inc.
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-10-08
   version: 3.1.227
   reviews: 4325
-  icon: com.metallicus.metalpay.webp
   meta: ok
   verdict: custodial
   developerName: Metallicus, Inc.

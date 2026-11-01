@@ -10,7 +10,6 @@ android:
   released: 2020-01-11
   updated: 2021-02-17
   version: 2.3.1
-  icon: com.wallet.backpacker.webp
   meta: removed
   verdict: wip
   developerName: BackPacker Coin

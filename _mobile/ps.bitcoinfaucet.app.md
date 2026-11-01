@@ -13,7 +13,6 @@ android:
   updated: 2022-02-17
   version: 1.29b
   reviews: 366
-  icon: ps.bitcoinfaucet.app.webp
   meta: removed
   verdict: wip
 

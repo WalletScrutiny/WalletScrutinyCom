@@ -21,7 +21,6 @@ shop: https://sugi.io/#deadLink
 country: BE
 price: 59.9EUR
 repository: 
-icon: sugi.webp
 bugbounty: 
 meta: defunct
 verdict: noita

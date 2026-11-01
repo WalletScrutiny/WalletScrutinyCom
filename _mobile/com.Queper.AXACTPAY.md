@@ -10,7 +10,6 @@ android:
   released: 2020-07-08
   updated: 2023-01-10
   version: 1.0.3
-  icon: com.Queper.AXACTPAY.webp
   meta: removed
   verdict: wip
   developerName: Pinomz Technologies

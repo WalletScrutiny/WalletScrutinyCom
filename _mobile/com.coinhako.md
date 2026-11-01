@@ -24,7 +24,6 @@ android:
   updated: 2026-10-01
   version: 5.33.0
   reviews: 22
-  icon: com.coinhako.webp
   meta: ok
   verdict: custodial
   developerName: Coinhako
@@ -36,7 +35,6 @@ iphone:
   updated: 2026-10-05
   version: 5.33.0
   reviews: 31
-  icon: com.coinhako.app.webp
   meta: ok
   verdict: custodial
   developerName: CoinHako

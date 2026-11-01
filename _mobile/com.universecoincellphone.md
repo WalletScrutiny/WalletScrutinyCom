@@ -10,7 +10,6 @@ android:
   released: 2019-12-12
   updated: 2020-08-10
   version: '4.0'
-  icon: com.universecoincellphone.webp
   meta: removed
   verdict: wip
   developerName: Lattitudemundi

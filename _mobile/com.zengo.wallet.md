@@ -20,7 +20,6 @@ android:
   updated: 2026-10-05
   version: 10.2.1
   reviews: 607
-  icon: com.zengo.wallet.webp
   meta: ok
   verdict: nosource
   developerName: ZenGo
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-10-05
   version: 10.2.1
   reviews: 4397
-  icon: kzencorp.mobile.ios.webp
   meta: ok
   verdict: nosource
   developerName: ZenGo Ltd.

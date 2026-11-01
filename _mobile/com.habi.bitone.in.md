@@ -11,7 +11,6 @@ android:
   users: 1000
   updated: 2021-05-14
   version: 1.3.9
-  icon: com.habi.bitone.in.webp
   meta: removed
   verdict: custodial
   developerName: BitOne

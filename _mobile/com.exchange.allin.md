@@ -14,7 +14,6 @@ android:
   appCountry: us
   updated: 2026-04-17
   version: 1.2.2
-  icon: com.exchange.allin.webp
   meta: removed
   verdict: custodial
   developerName: Allin Exchange
@@ -26,7 +25,6 @@ iphone:
   updated: 2026-06-07
   version: 1.2.5
   reviews: 3
-  icon: com.allin.exchange.appStore.webp
   meta: removed
   verdict: custodial
   developerName: TOP LINE DIGITAL MARKETING (PVT) LTD

@@ -20,7 +20,6 @@ android:
   updated: 2024-09-09
   version: 1.4.9
   reviews: 10
-  icon: com.tatspace.webp
   meta: obsolete
   verdict: custodial
   developerName: Own the Earth LLC
@@ -32,7 +31,6 @@ iphone:
   updated: 2024-01-06
   version: 1.17.6
   reviews: 63
-  icon: com.tatspaceapp.webp
   meta: obsolete
   verdict: custodial
   developerName: TATSPACE

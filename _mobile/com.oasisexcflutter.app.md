@@ -9,7 +9,6 @@ android:
   released: 2022-07-17
   updated: 2024-02-15
   version: 2.3.21
-  icon: com.oasisexcflutter.app.webp
   meta: removed
   verdict: wip
   developerName: Oasis Exchange

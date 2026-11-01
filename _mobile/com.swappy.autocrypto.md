@@ -10,7 +10,6 @@ android:
   released: 2022-05-20
   updated: 2022-06-02
   version: 0.0.10
-  icon: com.swappy.autocrypto.webp
   meta: removed
   verdict: wip
   developerName: Forint Finance ltd

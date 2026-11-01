@@ -13,7 +13,6 @@ android:
   released: 2020-06-03
   updated: 2024-12-16
   version: 2.15.0
-  icon: com.zimi.arkpay.PROD.webp
   meta: removed
   verdict: custodial
   developerName: ZIMI
@@ -25,7 +24,6 @@ iphone:
   updated: 2024-12-30
   version: 2.14.0
   reviews: 9
-  icon: com.zimi.arkpay.webp
   meta: stale
   verdict: custodial
   developerName: Zimi

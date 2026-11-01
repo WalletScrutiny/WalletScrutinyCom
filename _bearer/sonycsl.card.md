@@ -17,7 +17,6 @@ shop:
 country: JP
 price: 
 repository: 
-icon: 
 bugbounty: 
 meta: ok
 verdict: vapor

@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-icon: io.quickx.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

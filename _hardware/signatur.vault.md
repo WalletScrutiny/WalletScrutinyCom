@@ -17,7 +17,6 @@ shop:
 country: IE
 price: 
 repository: 
-icon: signatur.vault.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

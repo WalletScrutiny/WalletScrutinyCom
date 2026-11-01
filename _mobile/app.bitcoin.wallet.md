@@ -11,7 +11,6 @@ android:
   updated: 2021-11-02
   version: '10.00'
   reviews: 1
-  icon: app.bitcoin.wallet.webp
   meta: removed
   verdict: wip
 

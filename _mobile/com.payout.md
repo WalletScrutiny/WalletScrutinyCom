@@ -10,7 +10,6 @@ android:
   released: 2020-01-14
   updated: 2020-10-16
   version: '2.6'
-  icon: com.payout.webp
   meta: removed
   verdict: wip
   developerName: Goey Tecnologia Ltda

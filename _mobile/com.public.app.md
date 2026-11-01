@@ -22,7 +22,6 @@ android:
   updated: 2026-10-08
   version: 3.267.0
   reviews: 9586
-  icon: com.public.app.webp
   meta: ok
   verdict: custodial
   developerName: Public Holdings, Inc.
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-10-08
   version: 5.7.0
   reviews: 85436
-  icon: com.t3securities.matador.webp
   meta: ok
   verdict: custodial
   developerName: Open to the Public Investing, Inc.

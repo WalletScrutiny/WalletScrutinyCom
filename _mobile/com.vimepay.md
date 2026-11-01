@@ -10,7 +10,6 @@ android:
   released: 2021-09-18
   updated: 2021-09-18
   version: 1.0.0
-  icon: com.vimepay.webp
   meta: removed
   verdict: wip
   developerName: Vimepay

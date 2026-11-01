@@ -20,7 +20,6 @@ shop: https://web.archive.org/web/20191116164822/http://www.blackarrowsoftware.c
 country: 
 price: 24.99GBP
 repository: 
-icon: blackarrowsoftware.ewallet.webp
 bugbounty: 
 meta: discontinued
 verdict: nosource

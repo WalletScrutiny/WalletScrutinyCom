@@ -10,7 +10,6 @@ android:
   released: 2019-08-27
   updated: 2019-08-27
   version: 1.0.0
-  icon: com.cryptosa.webp
   meta: removed
   verdict: wip
   developerName: Fintech Bilgi Teknolojileri Yazilim Ve Ticaret A.Ş

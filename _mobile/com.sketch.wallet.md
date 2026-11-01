@@ -13,7 +13,6 @@ android:
   released: 2021-07-28
   updated: 2026-01-16
   version: 2.2.8
-  icon: com.sketch.wallet.webp
   meta: ok
   verdict: nosource
   developerName: 앱관리자

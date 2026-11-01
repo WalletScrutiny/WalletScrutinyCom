@@ -17,7 +17,6 @@ shop: https://wooko.ng/en/blue#deadLink
 country: CH
 price: 
 repository: 
-icon: wookongblue.webp
 bugbounty: 
 meta: defunct
 verdict: wip

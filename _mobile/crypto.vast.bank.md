@@ -18,7 +18,6 @@ android:
   updated: 2023-12-18
   version: 1.7.15
   reviews: 69
-  icon: crypto.vast.bank.webp
   meta: removed
   verdict: custodial
   developerName: Vast Bank
@@ -30,7 +29,6 @@ iphone:
   updated: 2024-01-03
   version: 1.7.15
   reviews: 83
-  icon: crypto.vast.bank.webp
   meta: removed
   verdict: custodial
   developerName: Vast Bank N.A.

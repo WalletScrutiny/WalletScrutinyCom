@@ -13,7 +13,6 @@ android:
   updated: 2020-12-30
   version: 3.5.4
   reviews: 9
-  icon: com.CoinsBank.CoinsBank.webp
   meta: removed
   verdict: custodial
   developerName: CoinsBank

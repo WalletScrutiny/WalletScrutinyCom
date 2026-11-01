@@ -10,7 +10,6 @@ android:
   released: 2022-04-23
   updated: 2022-04-23
   version: '9.8'
-  icon: bitcoin.bank2.webp
   meta: removed
   verdict: wip
 

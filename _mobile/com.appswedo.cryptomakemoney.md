@@ -10,7 +10,6 @@ android:
   released: 2021-05-19
   updated: 2021-05-19
   version: '1.11'
-  icon: com.appswedo.cryptomakemoney.webp
   meta: removed
   verdict: wip
   developerName: AppsWeDo

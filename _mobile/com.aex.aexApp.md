@@ -12,7 +12,6 @@ android:
   updated: 2022-09-21
   version: 3.36.4
   reviews: 11
-  icon: com.aex.aexApp.webp
   meta: removed
   verdict: wip
   developerName: AEX
@@ -24,7 +23,6 @@ iphone:
   updated: 2022-09-23
   version: 3.36.3
   reviews: 13
-  icon: com.aex.aexApp.webp
   meta: defunct
   verdict: wip
   developerName: Bit World Investments Limited

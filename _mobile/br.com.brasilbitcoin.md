@@ -19,7 +19,6 @@ android:
   updated: 2026-09-30
   version: 5.1.0
   reviews: 5671
-  icon: br.com.brasilbitcoin.webp
   meta: ok
   verdict: custodial
   developerName: Brasil Bitcoin
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-09-15
   version: 5.0.07
   reviews: 2293
-  icon: br.com.brasilbitcoin.run.webp
   meta: ok
   verdict: custodial
   developerName: Brasil Bitcoin Servicos Digitais LTDA

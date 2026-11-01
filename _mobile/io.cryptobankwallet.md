@@ -10,7 +10,6 @@ android:
   released: 2020-12-10
   updated: 2020-12-10
   version: 0.12.0
-  icon: io.cryptobankwallet.webp
   meta: removed
   verdict: wip
   developerName: GexPay

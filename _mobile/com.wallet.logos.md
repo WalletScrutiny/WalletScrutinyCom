@@ -14,7 +14,6 @@ android:
   released: 2020-09-16
   updated: 2026-05-15
   version: 0.4.4
-  icon: com.wallet.logos.webp
   meta: ok
   verdict: custodial
   developerName: Logos Foundation PTE. LTD.
@@ -26,7 +25,6 @@ iphone:
   updated: 2025-02-26
   version: v0.2.6
   reviews: 2
-  icon: com.wallet.logos.webp
   meta: removed
   verdict: custodial
   developerName: LOGOS FOUNDATION PTE. LTD.

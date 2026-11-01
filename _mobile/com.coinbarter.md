@@ -9,7 +9,6 @@ android:
   released: 2022-06-30
   updated: 2022-06-30
   version: '1.0'
-  icon: com.coinbarter.webp
   meta: removed
   verdict: wip
   developerName: Coin Barter

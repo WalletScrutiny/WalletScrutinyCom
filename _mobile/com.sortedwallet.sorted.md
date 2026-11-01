@@ -15,7 +15,6 @@ android:
   updated: 2026-10-06
   version: 1.0.26
   reviews: 3
-  icon: com.sortedwallet.sorted.webp
   meta: ok
   verdict: nosource
   developerName: Sors Technology Limited

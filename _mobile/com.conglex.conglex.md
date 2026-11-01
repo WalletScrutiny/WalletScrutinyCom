@@ -17,7 +17,6 @@ android:
   released: 2022-05-12
   updated: 2025-08-14
   version: 2.0.4
-  icon: com.conglex.conglex.webp
   meta: removed
   verdict: custodial
   developerName: Conglex Developers
@@ -29,7 +28,6 @@ iphone:
   updated: 2025-09-03
   version: 2.0.4
   reviews: 0
-  icon: com.conglex.mobile.webp
   meta: removed
   verdict: custodial
   developerName: Conglex Limited

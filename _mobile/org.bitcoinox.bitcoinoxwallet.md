@@ -19,7 +19,6 @@ android:
   updated: 2024-12-22
   version: 2.8.8
   reviews: 5
-  icon: org.bitcoinox.bitcoinoxwallet.webp
   meta: stale
   verdict: nosource
   developerName: GNUAPP UNIPESSOAL LDA

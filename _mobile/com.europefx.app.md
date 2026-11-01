@@ -11,7 +11,6 @@ android:
   users: 5000
   updated: 2021-09-14
   version: '9.65'
-  icon: com.europefx.app.webp
   meta: removed
   verdict: nosendreceive
   developerName: Technologies maxiflex

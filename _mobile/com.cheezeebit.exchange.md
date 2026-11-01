@@ -12,7 +12,6 @@ android:
   appCountry: us
   updated: 2026-10-12
   version: 1.5.5.1
-  icon: com.cheezeebit.exchange.webp
   meta: ok
   verdict: custodial
   developerName: zBit Global

@@ -10,7 +10,6 @@ android:
   released: 2022-01-16
   updated: 2022-03-03
   version: 1.0.9
-  icon: com.sp.spexchange.webp
   meta: removed
   verdict: wip
   developerName: SPexchange

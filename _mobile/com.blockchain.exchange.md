@@ -17,7 +17,6 @@ android:
   updated: 2023-10-08
   version: 202310.1.1
   reviews: 44
-  icon: com.blockchain.exchange.webp
   meta: removed
   verdict: custodial
   developerName: Blockchain Luxembourg S.A.
@@ -29,7 +28,6 @@ iphone:
   updated: 2024-02-15
   version: 202401.1.1
   reviews: 167
-  icon: com.blockchain.exchangeapp.webp
   meta: removed
   verdict: custodial
   developerName: Blockchain

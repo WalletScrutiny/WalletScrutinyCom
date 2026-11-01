@@ -20,7 +20,6 @@ android:
   released: 2024-06-29
   updated: 2025-11-26
   version: 2.4.2
-  icon: com.cypherstack.stackduo.webp
   meta: fewusers
   verdict: sourceavailable
   developerName: Cypher Stack Team
@@ -33,7 +32,6 @@ iphone:
   updated: 2025-11-27
   version: 2.4.2
   reviews: 7
-  icon: com.cypherstack.stackduo.webp
   meta: ok
   verdict: sourceavailable
   developerName: Cypher Stack LLC

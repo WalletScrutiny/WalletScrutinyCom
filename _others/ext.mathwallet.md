@@ -3,7 +3,6 @@ title: MathWallet Extension for Chrome
 appId: ext.mathwallet
 authors:
 - danny
-icon: ext.mathwallet.webp
 date: 2026-10-30
 released: 2020-07-15
 updated: 2024-04-24

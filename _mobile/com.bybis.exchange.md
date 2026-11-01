@@ -17,7 +17,6 @@ android:
   users: 5000
   updated: 2023-07-12
   version: '1.13'
-  icon: com.bybis.exchange.webp
   meta: removed
   verdict: custodial
   developerName: ByBIS Limited

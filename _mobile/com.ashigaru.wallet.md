@@ -18,7 +18,6 @@ android:
   updated: 2025-03-03
   version: 1.1.1
   reviews: 0
-  icon: com.ashigaru.wallet.webp
   signer: 968a3056882d0800da04f73c60a85fb85156dba23d3b9b15937cae224ee72e2d
   playStore: false
   meta: stale

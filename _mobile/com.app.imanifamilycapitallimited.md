@@ -10,7 +10,6 @@ android:
   released: 2021-06-04
   updated: 2021-11-19
   version: '1.0'
-  icon: com.app.imanifamilycapitallimited.webp
   meta: removed
   verdict: wip
   developerName: Imani Family Capital Limited

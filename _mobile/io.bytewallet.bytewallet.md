@@ -25,7 +25,6 @@ android:
   updated: 2026-09-24
   version: VARY
   reviews: 54
-  icon: io.bytewallet.bytewallet.webp
   meta: ok
   verdict: nosource
   developerName: Byte Federal, Inc
@@ -37,7 +36,6 @@ iphone:
   updated: 2026-09-25
   version: 1.7.0.7
   reviews: 47
-  icon: com.bytefederal.bytewallet.webp
   meta: ok
   verdict: nosource
   developerName: Byte Federal, Inc.

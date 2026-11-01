@@ -10,7 +10,6 @@ android:
   released: 2021-07-01
   updated: 2021-07-08
   version: '4'
-  icon: com.gmail.planetabank1.myproject.webp
   meta: removed
   verdict: wip
   developerName: Planeta Bank

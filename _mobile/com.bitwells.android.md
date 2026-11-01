@@ -18,7 +18,6 @@ android:
   updated: 2022-05-09
   version: 1.0.7
   reviews: 1261
-  icon: com.bitwells.android.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -28,7 +27,6 @@ iphone:
   updated: 2022-04-12
   version: 1.0.6
   reviews: 9
-  icon: com.bitwells.ios.webp
   meta: removed
   verdict: custodial
 

@@ -24,7 +24,6 @@ android:
   appCountry: us
   updated: 2024-12-15
   version: 0.4.1
-  icon: com.mojitowallet.webp
   meta: stale
   verdict: sourceavailable
   developerName: RBB SRL
@@ -37,7 +36,6 @@ iphone:
   updated: 2024-12-24
   version: 0.4.2
   reviews: 10
-  icon: com.mojitowallet.webp
   meta: stale
   verdict: sourceavailable
   developerName: RBB SRL

@@ -23,7 +23,6 @@ android:
   updated: 2026-10-01
   version: 2.5.10.0.0.0.fp.gps
   reviews: 1751
-  icon: com.app.speedwallet.webp
   meta: ok
   verdict: custodial
   developerName: Speed1 Inc
@@ -35,7 +34,6 @@ iphone:
   updated: 2026-10-13
   version: 1.13.24
   reviews: 1248
-  icon: com.app.speed1.webp
   meta: ok
   verdict: custodial
   developerName: Speed1 - FZCO

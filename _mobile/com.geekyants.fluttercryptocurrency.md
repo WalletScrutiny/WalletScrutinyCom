@@ -10,7 +10,6 @@ android:
   released: 2020-04-30
   updated: 2020-04-30
   version: 1.0.0
-  icon: com.geekyants.fluttercryptocurrency.webp
   meta: removed
   verdict: wip
   developerName: GeekyAnts

@@ -12,7 +12,6 @@ android:
   released: 2021-04-28
   updated: 2021-04-28
   version: 1.0.2
-  icon: com.pulsarbank.webp
   meta: removed
   verdict: wip
   developerName: Pulsar Platform LTD

@@ -9,7 +9,6 @@ android:
   released: 2021-04-22
   updated: 2021-06-08
   version: 1.0.4
-  icon: com.main.lbwallet.webp
   meta: removed
   verdict: wip
   developerName: Giftcoin Developer

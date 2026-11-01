@@ -17,7 +17,6 @@ shop:
 country: CN
 price: 
 repository: 
-icon: confluxnetwork.bsim.webp
 bugbounty: 
 meta: ok
 verdict: vapor

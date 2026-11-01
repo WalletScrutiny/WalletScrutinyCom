@@ -11,7 +11,6 @@ android:
   released: 2022-06-21
   updated: 2026-02-19
   version: 1.0.5
-  icon: com.sinest.adappterwallet.webp
   meta: fewusers
   verdict: wip
   developerName: SHINEST Corporation

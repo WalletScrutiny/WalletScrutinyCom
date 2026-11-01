@@ -9,7 +9,6 @@ android:
   released: 2021-06-17
   updated: 2021-06-17
   version: '1.0'
-  icon: net.bitcoinforall.crypto.coin.invest.webp
   meta: removed
   verdict: wip
 

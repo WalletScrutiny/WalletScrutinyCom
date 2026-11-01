@@ -10,7 +10,6 @@ android:
   released: 2021-07-21
   updated: 2021-11-29
   version: 2.0.1
-  icon: in.spiegel.ixtokens.webp
   meta: removed
   verdict: wip
   developerName: CapCan Limited

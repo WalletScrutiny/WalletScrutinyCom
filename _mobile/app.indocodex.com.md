@@ -18,7 +18,6 @@ android:
   released: 2020-06-23
   updated: 2021-05-18
   version: 1.1.7
-  icon: app.indocodex.com.webp
   meta: removed
   verdict: wip
   developerName: Indocodex - Rajacoin

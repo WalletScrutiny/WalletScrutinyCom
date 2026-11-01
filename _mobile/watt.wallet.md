@@ -16,7 +16,6 @@ android:
   released: 2021-11-29
   updated: 2022-06-11
   version: 1.28.0
-  icon: watt.wallet.webp
   meta: removed
   verdict: nosource
   developerName: wise.win
@@ -28,7 +27,6 @@ iphone:
   updated: 2022-06-12
   version: '1.29'
   reviews: 56
-  icon: watt.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Wise Win LTD

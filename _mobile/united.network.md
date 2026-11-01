@@ -11,7 +11,6 @@ android:
   released: 2025-04-14
   updated: 2026-08-07
   version: 1.0.13
-  icon: united.network.webp
   meta: fewusers
   verdict: wip
   developerName: Trend IT Services LLC

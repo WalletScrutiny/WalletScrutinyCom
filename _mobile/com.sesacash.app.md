@@ -10,7 +10,6 @@ android:
   released: 2020-03-15
   updated: 2020-03-15
   version: '1.0'
-  icon: com.sesacash.app.webp
   meta: removed
   verdict: wip
   developerName: Sesacash

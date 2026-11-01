@@ -16,7 +16,6 @@ android:
   updated: 2026-10-07
   version: 3.26.0
   reviews: 29
-  icon: com.lavamobile.webp
   meta: ok
   verdict: custodial
   developerName: Lava Global Inc.
@@ -28,7 +27,6 @@ iphone:
   updated: 2026-10-07
   version: 3.26.0
   reviews: 178
-  icon: xyz.lava.mobile.webp
   meta: ok
   verdict: custodial
   developerName: Lava Global Inc.

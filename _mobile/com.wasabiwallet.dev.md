@@ -13,7 +13,6 @@ android:
   updated: 2020-12-01
   version: '2.0'
   reviews: 14
-  icon: com.wasabiwallet.dev.webp
   meta: removed
   verdict: fake
 

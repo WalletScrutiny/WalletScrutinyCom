@@ -17,7 +17,6 @@ shop:
 country: RU
 price: 400XCW
 repository: 
-icon: cryptowatch.webp
 bugbounty: 
 meta: defunct
 verdict: vapor

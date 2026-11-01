@@ -10,7 +10,6 @@ android:
   released: 2022-08-21
   updated: 2022-08-22
   version: '1.0'
-  icon: net.globalswift.webp
   meta: removed
   verdict: wip
   developerName: Globals

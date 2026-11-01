@@ -17,7 +17,6 @@ shop:
 country: US
 price: 
 repository: 
-icon: icywallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor

@@ -10,7 +10,6 @@ android:
   released: 2021-11-24
   updated: 2022-01-02
   version: 1.0.0
-  icon: jaytesrac.com.hobu_app.webp
   meta: removed
   verdict: wip
   developerName: Tesseract Trading Pty Ltd

@@ -20,7 +20,6 @@ android:
   updated: 2026-10-09
   version: 3.48.0
   reviews: 6404
-  icon: br.com.foxbit.foxbitandroid.webp
   meta: ok
   verdict: custodial
   developerName: Foxbit
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-10-13
   version: 3.49.0
   reviews: 5551
-  icon: br.com.foxbit.webp
   meta: ok
   verdict: custodial
   developerName: Foxbit

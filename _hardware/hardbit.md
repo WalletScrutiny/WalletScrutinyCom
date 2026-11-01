@@ -20,7 +20,6 @@ shop:
 country: 
 price: 
 repository: 
-icon: hardbit.webp
 bugbounty: 
 meta: defunct
 verdict: wip

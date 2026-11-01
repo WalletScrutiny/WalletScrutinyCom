@@ -10,7 +10,6 @@ android:
   released: 2022-09-02
   updated: 2022-11-08
   version: 7.0.1
-  icon: com.mooncod.wallet.webp
   meta: removed
   verdict: wip
   developerName: Mooncod

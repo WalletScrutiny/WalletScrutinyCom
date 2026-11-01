@@ -18,7 +18,6 @@ shop: https://choosecase.com#deadLink
 country: US
 price: 
 repository: 
-icon: case.webp
 bugbounty: 
 meta: defunct
 verdict: wip

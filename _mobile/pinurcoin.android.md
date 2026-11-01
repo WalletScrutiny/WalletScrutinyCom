@@ -10,7 +10,6 @@ android:
   updated: 2018-03-09
   version: '1.1'
   reviews: 13
-  icon: pinurcoin.android.webp
   meta: removed
   verdict: wip
 

@@ -9,7 +9,6 @@ android:
   released: 2022-04-26
   updated: 2023-03-08
   version: 1.0.13
-  icon: com.cf.vtus.webp
   meta: removed
   verdict: wip
   developerName: CoinFLEX

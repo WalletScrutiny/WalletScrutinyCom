@@ -3,7 +3,6 @@ title: Pey PoS
 appId: pey.pos
 authors:
 - danny
-icon: pey.pos.webp
 date: 2026-10-30
 twitter: PEY
 social:

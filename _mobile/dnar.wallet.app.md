@@ -16,7 +16,6 @@ android:
   updated: 2025-07-31
   version: '4.0'
   reviews: 11
-  icon: dnar.wallet.app.webp
   meta: defunct
   verdict: wip
   developerName: Dnar

@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: https://github.com/NewEconoLab/NeoDun
-icon: neodun.nel.webp
 bugbounty: 
 meta: ok
 verdict: vapor

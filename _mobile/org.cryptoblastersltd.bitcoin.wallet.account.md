@@ -9,7 +9,6 @@ android:
   released: 2021-06-18
   updated: 2021-06-18
   version: '1.0'
-  icon: org.cryptoblastersltd.bitcoin.wallet.account.webp
   meta: removed
   verdict: wip
 

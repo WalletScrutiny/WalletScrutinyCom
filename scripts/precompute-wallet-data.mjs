@@ -131,37 +131,32 @@ function calculateWalletScore(verdict, platform) {
   return { count, total: criteria.length };
 }
 
+/** Icons are named after the listing: images/wIcons/<platform>/<appId>.webp. */
+function iconName(appId) {
+  return appId ? `${appId}.webp` : '';
+}
+
 /**
- * Resolve icon/title for walletLink.html (matches Liquid logic in _includes/walletLink.html).
+ * Resolve icon/title for walletLink.html. The icon comes from the store the
+ * link points at, else from android, else from iphone.
  */
 function resolveMobileWalletLinkDisplay(wallet, linkPlatform) {
   const android = wallet.android || {};
   const iphone = wallet.iphone || {};
-  let icon_platform = linkPlatform;
-  let icon_name = null;
-  let link_title = null;
+  let store = null;
+  if (linkPlatform === 'iphone' && iphone.appId) store = 'iphone';
+  else if (android.appId) store = 'android';
+  else if (iphone.appId) store = 'iphone';
 
-  if (linkPlatform === 'iphone' && iphone.icon) {
-    icon_platform = 'iphone';
-    icon_name = iphone.icon;
-    link_title = iphone.altTitle || wallet.title;
-  } else if (linkPlatform === 'android' && android.icon) {
-    icon_platform = 'android';
-    icon_name = android.icon;
-    link_title = android.altTitle || wallet.title;
-  } else if (android.icon) {
-    icon_platform = 'android';
-    icon_name = android.icon;
-    link_title = android.altTitle || wallet.title;
-  } else if (iphone.icon) {
-    icon_platform = 'iphone';
-    icon_name = iphone.icon;
-    link_title = iphone.altTitle || wallet.title;
-  } else {
-    link_title = wallet.title;
+  if (!store) {
+    return { icon_platform: linkPlatform, icon_name: null, link_title: wallet.title };
   }
-
-  return { icon_platform, icon_name, link_title };
+  const block = store === 'android' ? android : iphone;
+  return {
+    icon_platform: store,
+    icon_name: iconName(block.appId),
+    link_title: block.altTitle || wallet.title,
+  };
 }
 
 function buildWalletLinkEntry(wallet, linkPlatform, icon_platform, icon_name, link_title, url) {
@@ -228,7 +223,7 @@ function buildWalletLinksIndex(allWallets) {
         wallet,
         platform,
         platform,
-        wallet.icon || '',
+        iconName(appId),
         wallet.altTitle || wallet.title,
         url
       );
@@ -383,7 +378,6 @@ function loadMobileWallets() {
     const iphone = frontmatter.iphone || {};
     const storePlatform = android.appId ? 'android' : (iphone.appId ? 'iphone' : 'android');
     const storeAppId = android.appId || iphone.appId || slug;
-    const iconFolder = android.icon ? 'android' : (iphone.icon ? 'iphone' : storePlatform);
 
     const listingMeta = listingMetaForMobile(frontmatter, storePlatform);
     const combinedMeta = combineMobileMeta(android, iphone);
@@ -395,10 +389,10 @@ function loadMobileWallets() {
       appId: slug,
       storeAppId,
       storePlatform,
-      iconFolder,
+      iconFolder: storePlatform,
       hasAndroid: Boolean(android.appId),
       hasIphone: Boolean(iphone.appId),
-      icon: android.icon || iphone.icon || '',
+      icon: (android.appId || iphone.appId) ? iconName(storeAppId) : '',
       altTitle: android.altTitle || iphone.altTitle || '',
       users: Math.max(Number(android.users) || 0, Number(iphone.users) || 0),
       reviews: Math.max(Number(android.reviews) || 0, Number(iphone.reviews) || 0),
@@ -523,7 +517,7 @@ for (const platform of productPlatforms) {
     const app = {
       appId: wallet.appId || '',
       title: wallet.title || '',
-      icon: wallet.icon || '',
+      icon: isMobile ? (wallet.icon || '') : iconName(wallet.appId),
       meta: wallet.meta || '',
       verdict: primaryVerdict,
       score: compactScore(score),

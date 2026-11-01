@@ -10,7 +10,6 @@ android:
   released: 2020-02-05
   updated: 2020-03-03
   version: 1.1.5
-  icon: com.application.blocdesk.webp
   meta: removed
   verdict: wip
   developerName: VelcomEx

@@ -17,7 +17,6 @@ android:
   updated: 2023-08-29
   version: 1.22.4
   reviews: 653
-  icon: com.bittrex.trade.webp
   meta: removed
   verdict: custodial
   developerName: Bittrex, Inc.
@@ -28,7 +27,6 @@ iphone:
   updated: 2023-04-05
   version: 1.22.0
   reviews: 4357
-  icon: com.bittrex.trade.webp
   meta: removed
   verdict: custodial
   developerName: Bittrex, Inc.

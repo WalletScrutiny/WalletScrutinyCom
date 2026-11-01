@@ -9,7 +9,6 @@ android:
   released: 2021-12-15
   updated: 2021-12-16
   version: 1.1.4
-  icon: com.galaxy.exchange.webp
   meta: removed
   verdict: wip
 

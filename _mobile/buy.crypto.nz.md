@@ -9,7 +9,6 @@ android:
   released: 2021-06-16
   updated: 2021-06-16
   version: '1.0'
-  icon: buy.crypto.nz.webp
   meta: removed
   verdict: wip
 

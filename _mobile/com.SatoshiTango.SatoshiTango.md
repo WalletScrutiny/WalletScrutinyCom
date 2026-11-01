@@ -20,7 +20,6 @@ android:
   updated: 2026-08-28
   version: 5.14.0
   reviews: 45
-  icon: com.SatoshiTango.SatoshiTango.webp
   meta: ok
   verdict: custodial
   developerName: Satoshi Tango
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-08-28
   version: 5.14.0
   reviews: 2
-  icon: com.SatoshiTango.SatoshiTango.webp
   meta: ok
   verdict: custodial
   developerName: Satoshi Tango

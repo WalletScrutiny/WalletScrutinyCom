@@ -10,7 +10,6 @@ android:
   released: 2019-07-27
   updated: 2019-07-27
   version: '1.0'
-  icon: com.trade.btctradelink.webp
   meta: removed
   verdict: wip
 

@@ -10,7 +10,6 @@ android:
   updated: 2020-07-23
   version: 2.4.1
   reviews: 25
-  icon: com.coinapps.flash.wallet.android.webp
   meta: removed
   verdict: wip
 

@@ -15,7 +15,6 @@ android:
   updated: 2023-01-30
   version: 2.0.10733
   reviews: 137
-  icon: com.tzero.webp
   meta: removed
   verdict: custodial
   developerName: tZERO Crypto
@@ -26,7 +25,6 @@ iphone:
   updated: 2022-11-29
   version: 2.0.20
   reviews: 724
-  icon: com.tzero.tzerocrypto.webp
   meta: removed
   verdict: custodial
 

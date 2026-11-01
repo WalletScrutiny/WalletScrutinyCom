@@ -20,7 +20,6 @@ shop: https://shop.ledger.com/products/ledger-flex/graphite
 country: FR
 price: 207EUR
 repository: 
-icon: ledgerFlex.webp
 bugbounty: 
 meta: ok
 verdict: nosource

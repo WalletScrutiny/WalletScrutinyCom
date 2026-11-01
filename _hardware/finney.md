@@ -18,7 +18,6 @@ shop: https://shop.sirinlabs.com/products/finney#deadLink
 country: UK
 price: 999USD
 repository: 
-icon: finney.webp
 bugbounty: 
 meta: defunct
 verdict: nosource

@@ -10,7 +10,6 @@ android:
   released: 2019-06-28
   updated: 2019-06-28
   version: 0.1.0
-  icon: site.globex.bankwallet.webp
   meta: removed
   verdict: wip
   developerName: Globex Ltd.

@@ -10,7 +10,6 @@ android:
   released: 2022-06-02
   updated: 2022-07-19
   version: '2.2'
-  icon: com.foruspf.com.webp
   meta: removed
   verdict: wip
   developerName: Forus Platform

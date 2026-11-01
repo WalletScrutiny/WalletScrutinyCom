@@ -16,7 +16,6 @@ android:
   updated: 2026-04-05
   version: 1.22.11
   reviews: 849
-  icon: app.anchors.anchorusd.webp
   meta: removed
   verdict: custodial
   developerName: Anchor US LLC
@@ -28,7 +27,6 @@ iphone:
   updated: 2026-07-22
   version: 1.23.3
   reviews: 5316
-  icon: app.anchors.anchorusd.webp
   meta: ok
   verdict: custodial
   developerName: Anchor US LLC

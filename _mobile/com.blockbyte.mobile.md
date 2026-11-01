@@ -9,7 +9,6 @@ android:
   released: 2021-04-05
   updated: 2021-04-05
   version: 2.0.0
-  icon: com.blockbyte.mobile.webp
   meta: removed
   verdict: wip
   developerName: slmaicon

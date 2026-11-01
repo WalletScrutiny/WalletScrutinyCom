@@ -10,7 +10,6 @@ android:
   released: 2020-10-06
   updated: 2020-10-06
   version: '2.0'
-  icon: prince.darlington.DashWallet.webp
   meta: removed
   verdict: wip
 

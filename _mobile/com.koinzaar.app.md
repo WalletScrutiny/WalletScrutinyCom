@@ -10,7 +10,6 @@ android:
   released: 2020-01-13
   updated: 2020-01-24
   version: '1.5'
-  icon: com.koinzaar.app.webp
   meta: removed
   verdict: wip
 

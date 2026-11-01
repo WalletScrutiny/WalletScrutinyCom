@@ -10,7 +10,6 @@ android:
   released: 2020-12-10
   updated: 2021-07-19
   version: 1.16.0
-  icon: mx.goi.goimwallet.webp
   meta: removed
   verdict: wip
   developerName: Connect GOI

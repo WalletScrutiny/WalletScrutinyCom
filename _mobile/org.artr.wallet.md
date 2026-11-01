@@ -15,7 +15,6 @@ android:
   updated: 2022-09-27
   version: '1.8'
   reviews: 1008
-  icon: org.artr.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Artery Network Corporation
@@ -27,7 +26,6 @@ iphone:
   updated: 2021-10-04
   version: '1.7'
   reviews: 1165
-  icon: network.artery.network.webp
   meta: removed
   verdict: nosource
   repository: https://github.com/arterynetwork/artr

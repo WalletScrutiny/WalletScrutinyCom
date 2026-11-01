@@ -19,7 +19,6 @@ android:
   updated: 2021-11-04
   version: 4.8.5
   reviews: 579
-  icon: com.bibox.www.bibox.webp
   meta: removed
   verdict: custodial
 

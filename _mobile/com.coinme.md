@@ -22,7 +22,6 @@ android:
   updated: 2026-10-02
   version: 3.4.5
   reviews: 1169
-  icon: com.coinme.webp
   meta: ok
   verdict: custodial
   developerName: Coinme
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-10-06
   version: 3.4.5
   reviews: 6633
-  icon: com.coinme.CoinMe.webp
   meta: ok
   verdict: custodial
   developerName: Coinme Inc.

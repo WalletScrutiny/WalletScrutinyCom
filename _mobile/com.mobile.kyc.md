@@ -19,7 +19,6 @@ android:
   updated: 2022-10-28
   version: 1.1.0
   reviews: 1
-  icon: com.mobile.kyc.webp
   meta: removed
   verdict: nosource
   developerName: KYC&AML Ltd
@@ -31,7 +30,6 @@ iphone:
   updated: 2022-11-02
   version: 1.1.0
   reviews: 0
-  icon: com.mobile.kyc.webp
   meta: removed
   verdict: nosource
   developerName: KYC&AML Ltd

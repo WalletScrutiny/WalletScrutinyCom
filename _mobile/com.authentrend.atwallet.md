@@ -12,7 +12,6 @@ android:
   released: 2020-07-13
   updated: 2023-09-28
   version: v2.0.12
-  icon: com.authentrend.atwallet.webp
   meta: defunct
   verdict: wip
   developerName: AuthenTrend Technology Inc.
@@ -24,7 +23,6 @@ iphone:
   updated: 2025-05-23
   version: 2.0.13
   reviews: 2
-  icon: com.authentrend.atwallet-ios.webp
   meta: defunct
   verdict: wip
   developerName: AuthenTrend Technology Inc.

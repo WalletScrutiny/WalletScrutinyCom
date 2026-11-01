@@ -9,7 +9,6 @@ android:
   released: 2020-05-14
   updated: 2020-05-14
   version: '1.0'
-  icon: com.silenca.expresswallet.webp
   meta: removed
   verdict: wip
   developerName: Learn & Solve

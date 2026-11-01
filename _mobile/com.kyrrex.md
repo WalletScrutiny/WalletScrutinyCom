@@ -20,7 +20,6 @@ android:
   appCountry: us
   updated: 2026-04-24
   version: production/v4.2.62
-  icon: com.kyrrex.webp
   meta: removed
   verdict: custodial
   developerName: Kyrrex
@@ -32,7 +31,6 @@ iphone:
   updated: 2023-02-28
   version: 4.0.6
   reviews: 15
-  icon: com.kyrrex.app.webp
   meta: removed
   verdict: custodial
   developerName: Kyrrex Limited

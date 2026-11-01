@@ -10,7 +10,6 @@ android:
   released: 2021-11-25
   updated: 2022-11-09
   version: 1.0.9
-  icon: com.paramountdax.exchange.webp
   meta: removed
   verdict: wip
   developerName: ParamountDax OU

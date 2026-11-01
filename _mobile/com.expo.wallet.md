@@ -11,7 +11,6 @@ android:
   users: 1000
   updated: 2021-02-18
   version: 1.0.15
-  icon: com.expo.wallet.webp
   meta: removed
   verdict: wip
   developerName: EXPO R&M

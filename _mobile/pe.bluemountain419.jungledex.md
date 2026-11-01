@@ -9,7 +9,6 @@ android:
   released: 2020-02-11
   updated: 2020-02-20
   version: 1.0.2
-  icon: pe.bluemountain419.jungledex.webp
   meta: removed
   verdict: wip
   developerName: bluemountain419

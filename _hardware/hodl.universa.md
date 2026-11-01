@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-icon: hodl.universa.webp
 bugbounty: 
 meta: ok
 verdict: vapor

@@ -10,7 +10,6 @@ android:
   released: 2020-05-30
   updated: 2021-10-09
   version: '2.2'
-  icon: com.ajeipay.webp
   meta: removed
   verdict: wip
   developerName: AjeiPay

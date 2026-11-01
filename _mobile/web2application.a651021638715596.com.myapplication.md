@@ -10,7 +10,6 @@ android:
   released: 2021-12-07
   updated: 2021-12-07
   version: '5.0'
-  icon: web2application.a651021638715596.com.myapplication.webp
   meta: removed
   verdict: wip
   developerName: newchange.io

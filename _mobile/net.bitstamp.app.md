@@ -23,7 +23,6 @@ android:
   updated: 2026-09-24
   version: 4.18.1
   reviews: 678
-  icon: net.bitstamp.app.webp
   meta: ok
   verdict: custodial
   developerName: Bitstamp
@@ -35,7 +34,6 @@ iphone:
   updated: 2026-09-24
   version: '4.18'
   reviews: 7478
-  icon: net.bitstamp.webp
   meta: ok
   verdict: custodial
   developerName: Bitstamp Ltd.

@@ -9,7 +9,6 @@ android:
   users: 10
   updated: 2022-08-01
   version: VARY
-  icon: com.app.irxauj.cn.webp
   meta: removed
   verdict: wip
   developerName: MEME Lab

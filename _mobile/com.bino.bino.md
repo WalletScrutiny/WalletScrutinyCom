@@ -10,7 +10,6 @@ android:
   released: 2021-08-21
   updated: 2021-08-21
   version: '1.0'
-  icon: com.bino.bino.webp
   meta: removed
   verdict: wip
   developerName: BinoAI

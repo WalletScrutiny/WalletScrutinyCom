@@ -21,7 +21,6 @@ android:
   updated: 2023-09-26
   version: '3.7'
   reviews: 2
-  icon: com.streakk.webp
   meta: removed
   verdict: nosource
   developerName: Streakk Technologies
@@ -33,7 +32,6 @@ iphone:
   updated: 2023-09-27
   version: '2.6'
   reviews: 9
-  icon: com.streakk.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Streakk Technologies Trading

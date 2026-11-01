@@ -9,7 +9,6 @@ android:
   released: Jul 30, 2026
   updated: 2026-10-14
   version: 0.9.9
-  icon: com.stablechannels.app.webp
   meta: fewusers
   verdict: wip
   developerName: Stable Channels

@@ -10,7 +10,6 @@ android:
   released: 2022-05-23
   updated: 2022-05-27
   version: 1.0.3
-  icon: com.newbit.wallet.webp
   meta: removed
   verdict: wip
   developerName: Newbit Limited

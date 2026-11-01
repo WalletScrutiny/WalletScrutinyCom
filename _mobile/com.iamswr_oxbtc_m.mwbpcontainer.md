@@ -14,7 +14,6 @@ android:
   updated: 2021-08-24
   version: 1.3.8
   reviews: 9
-  icon: com.iamswr_oxbtc_m.mwbpcontainer.webp
   meta: removed
   verdict: custodial
   developerName: HALLEY TECHNOLOGIES PTE. ltd.

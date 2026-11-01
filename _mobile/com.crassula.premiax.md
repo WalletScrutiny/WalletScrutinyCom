@@ -10,7 +10,6 @@ android:
   released: 2022-05-26
   updated: 2023-08-28
   version: '1.1'
-  icon: com.crassula.premiax.webp
   meta: removed
   verdict: wip
   developerName: Fripro OÜ

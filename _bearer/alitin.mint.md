@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-icon: alitin.mint.webp
 bugbounty: 
 meta: discontinued
 verdict: prefilled

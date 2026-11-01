@@ -12,7 +12,6 @@ android:
   users: 1000
   updated: 2023-05-24
   version: 2.2.2
-  icon: com.bitgin.app.webp
   meta: removed
   verdict: custodial
   developerName: BITGIN.NET
@@ -24,7 +23,6 @@ iphone:
   updated: 2023-05-30
   version: 2.2.2
   reviews: 19
-  icon: net.bitgin.webp
   meta: removed
   verdict: custodial
   developerName: 畢竟科技股份有限公司

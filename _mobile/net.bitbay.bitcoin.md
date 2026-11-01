@@ -20,7 +20,6 @@ android:
   updated: 2025-11-03
   version: 1.1.52
   reviews: 17
-  icon: net.bitbay.bitcoin.webp
   meta: removed
   verdict: custodial
   developerName: BB Trade Estonia
@@ -32,7 +31,6 @@ iphone:
   updated: 2025-10-21
   version: 1.4.16
   reviews: 3
-  icon: com.bitbay.BitBayTrading.webp
   meta: defunct
   verdict: custodial
   developerName: BitBay Sp. z o.o.

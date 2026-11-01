@@ -20,7 +20,6 @@ android:
   updated: 2023-08-30
   version: 4.00.05.003
   reviews: 2
-  icon: com.huobionchainwallet.itokenhd.webp
   meta: removed
   verdict: nosource
   developerName: BlazekTech Internet Technology Service Limited
@@ -31,7 +30,6 @@ iphone:
   updated: 2023-06-15
   version: 3.3.6
   reviews: 136
-  icon: com.walletdev.onchainwallet.webp
   meta: removed
   verdict: nosource
   developerName: BlazekTech Internet Technology Service Limited

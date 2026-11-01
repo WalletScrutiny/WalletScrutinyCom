@@ -16,7 +16,6 @@ android:
   released: 2021-08-26
   updated: 2026-05-25
   version: 1.7.11
-  icon: com.fintoda.app.webp
   meta: ok
   verdict: nosource
   developerName: FINTODA LLC
@@ -28,7 +27,6 @@ iphone:
   updated: 2026-05-28
   version: 1.7.11
   reviews: 0
-  icon: com.fintoda.app.webp
   meta: ok
   verdict: nosource
   developerName: FINTODA LLC

@@ -9,7 +9,6 @@ android:
   released: 2022-02-02
   updated: 2022-02-02
   version: '1.0'
-  icon: com.wBitcoinTrader_15119149.webp
   meta: removed
   verdict: wip
 

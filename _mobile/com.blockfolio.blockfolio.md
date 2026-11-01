@@ -22,7 +22,6 @@ android:
   updated: 2022-11-01
   version: 4.12.5
   reviews: 11863
-  icon: com.blockfolio.blockfolio.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -32,7 +31,6 @@ iphone:
   updated: 2022-06-02
   version: 4.10.1
   reviews: 54939
-  icon: com.blockfolio.blockfolio.webp
   meta: removed
   verdict: custodial
 

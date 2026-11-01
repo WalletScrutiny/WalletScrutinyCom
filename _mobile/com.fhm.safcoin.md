@@ -17,7 +17,6 @@ android:
   released: 2018-12-13
   updated: 2022-03-30
   version: 2.0.5
-  icon: com.fhm.safcoin.webp
   meta: removed
   verdict: custodial
   developerName: SAFCOIN

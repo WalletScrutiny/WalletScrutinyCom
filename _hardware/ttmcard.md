@@ -17,7 +17,6 @@ shop: https://web.archive.org/web/20251205021823/https://ttmwallet.io/order.html
 country: 
 price: 70USD
 repository: 
-icon: ttmcard.webp
 bugbounty: 
 meta: discontinued
 verdict: noita

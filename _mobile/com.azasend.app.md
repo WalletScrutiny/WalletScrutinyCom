@@ -16,7 +16,6 @@ android:
   updated: 2025-11-03
   version: 3.9.1
   reviews: 76
-  icon: com.azasend.app.webp
   meta: ok
   verdict: custodial
   developerName: Azasend Sp
@@ -28,7 +27,6 @@ iphone:
   updated: 2025-11-06
   version: 3.9.1
   reviews: 9
-  icon: com.azasend.app.webp
   meta: ok
   verdict: custodial
   developerName: Azasend Ltd

@@ -21,7 +21,6 @@ android:
   appCountry: us
   updated: 2026-10-01
   version: 3.19.0-coinpass
-  icon: com.coinpassmobile.webp
   meta: ok
   verdict: custodial
   developerName: Oanda Coinpass Limited
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-10-13
   version: 3.18.0
   reviews: 18
-  icon: com.coinpasslimited.coinpassinstant.webp
   meta: ok
   verdict: custodial
   developerName: Oanda Coinpass Limited

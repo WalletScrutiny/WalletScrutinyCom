@@ -10,7 +10,6 @@ android:
   released: 2021-05-13
   updated: 2021-07-23
   version: 1.1.7
-  icon: finance.deus.deus_mobile.webp
   meta: removed
   verdict: wip
 

@@ -16,7 +16,6 @@ android:
   updated: 2022-02-18
   version: 2.1.0
   reviews: 6
-  icon: kr.co.citex.citexclient.webp
   meta: removed
   verdict: custodial
 

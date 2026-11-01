@@ -21,7 +21,6 @@ android:
   updated: 2026-09-17
   version: 2.4.18
   reviews: 164
-  icon: com.biconomy.ex.webp
   meta: ok
   verdict: custodial
   developerName: Biconomy Global
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-09-15
   version: 2.4.11
   reviews: 151
-  icon: com.biconomy.Innovation.webp
   meta: ok
   verdict: custodial
   developerName: Biconomy Ltd.

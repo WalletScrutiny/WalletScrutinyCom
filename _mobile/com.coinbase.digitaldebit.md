@@ -10,7 +10,6 @@ android:
   released: 2019-11-12
   updated: 2019-11-12
   version: 3.0.3
-  icon: com.coinbase.digitaldebit.webp
   meta: removed
   verdict: wip
   developerName: Digital Debit Group

@@ -17,7 +17,6 @@ shop:
 country: US
 price: 
 repository: 
-icon: 
 bugbounty: 
 meta: defunct
 verdict: vapor

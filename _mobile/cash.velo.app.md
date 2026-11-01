@@ -12,7 +12,6 @@ android:
   released: 2025-12-16
   updated: 2026-01-02
   version: 1.0.8
-  icon: cash.velo.app.webp
   meta: ok
   verdict: nosource
   developerName: Monica.cash
@@ -24,7 +23,6 @@ iphone:
   updated: 2026-01-02
   version: 1.0.6
   reviews: 2
-  icon: cash.velo.app.webp
   meta: ok
   verdict: nosource
   developerName: Monica technologies limited

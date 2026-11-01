@@ -10,7 +10,6 @@ android:
   released: 2021-01-19
   updated: 2022-01-21
   version: 3.0.3
-  icon: io.quras.plus.webp
   meta: removed
   verdict: wip
   developerName: Evo Tech Co., Ltd

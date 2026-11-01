@@ -12,7 +12,6 @@ android:
   released: 2019-02-25
   updated: 2019-10-02
   version: 1.3.12
-  icon: antroid.cxtech.com.cxandroidproject.webp
   meta: removed
   verdict: wip
   developerName: COINS MARKETPLACE TECHNOLOGIES OU

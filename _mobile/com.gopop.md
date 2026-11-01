@@ -10,7 +10,6 @@ android:
   released: 2022-08-01
   updated: 2023-10-05
   version: 3.0.2
-  icon: com.gopop.webp
   meta: removed
   verdict: wip
   developerName: Darwin ID E.A.S

@@ -10,7 +10,6 @@ android:
   released: 2021-12-08
   updated: 2021-12-08
   version: 1.0.1
-  icon: com.mikodes.cryptowallerlite.webp
   meta: removed
   verdict: wip
   developerName: Mikodes Team

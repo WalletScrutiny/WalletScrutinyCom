@@ -18,7 +18,6 @@ android:
   released: 2020-08-31
   updated: 2023-12-06
   version: 1.3.24
-  icon: com.nobillio.coinbaazar.webp
   meta: obsolete
   verdict: custodial
   developerName: Coinbaazar Exchange Team
@@ -30,7 +29,6 @@ iphone:
   updated: 2023-12-19
   version: 1.2.5.1
   reviews: 9
-  icon: com.coinbaazarDistribution.webp
   meta: obsolete
   verdict: custodial
   developerName: COINBAAZAR LLC

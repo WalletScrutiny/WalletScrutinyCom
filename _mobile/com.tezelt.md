@@ -9,7 +9,6 @@ android:
   users: 10
   updated: 2020-05-18
   version: 1.5.2
-  icon: com.tezelt.webp
   meta: removed
   verdict: wip
   developerName: TEZELT

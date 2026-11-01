@@ -19,7 +19,6 @@ android:
   updated: 2023-08-24
   version: 0.8.6
   reviews: 12
-  icon: io.ledn.app.webp
   meta: obsolete
   verdict: custodial
   developerName: Ledn
@@ -31,7 +30,6 @@ iphone:
   updated: 2023-03-26
   version: 0.8.5
   reviews: 14
-  icon: io.ledn.app.webp
   meta: removed
   verdict: custodial
   developerName: Ledn Inc.

@@ -25,7 +25,6 @@ android:
   updated: 2026-07-17
   version: 4.9.0
   reviews: 3795
-  icon: com.bitmart.bitmarket.webp
   meta: ok
   verdict: custodial
   developerName: GBM Foundation Company
@@ -37,7 +36,6 @@ iphone:
   updated: 2026-07-14
   version: 4.8.1
   reviews: 3514
-  icon: com.bitmart.exchange.webp
   meta: ok
   verdict: custodial
   developerName: GBM Foundation Company Ltd

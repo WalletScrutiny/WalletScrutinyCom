@@ -43,16 +43,14 @@
           {%- assign mobile_count = mobile_count | plus: 1 -%}
           {%- include wallet_score.html verdict=eff_verdict platform='mobile' -%}
           {%- assign mobile_slug = post.path | replace: '_mobile/', '' | replace: '.md', '' -%}
-          {%- assign mobile_icon_folder = 'android' -%}
-          {%- if post.android.icon -%}{%- assign mobile_icon_folder = 'android' -%}{%- elsif post.iphone.icon -%}{%- assign mobile_icon_folder = 'iphone' -%}{%- endif -%}
           {
             "appId": "{{ mobile_slug }}",
             "storeAppId": "{{ post.android.appId | default: post.iphone.appId }}",
             "storePlatform": "{% if post.android.appId %}android{% else %}iphone{% endif %}",
-            "iconFolder": "{{ mobile_icon_folder }}",
+            "iconFolder": "{% if post.android.appId %}android{% else %}iphone{% endif %}",
             "title": "{{ post.title | escape }}",
             "altTitle": "{{ post.android.altTitle | default: post.iphone.altTitle }}",
-            "icon": "{{ post.android.icon | default: post.iphone.icon }}",
+            "icon": "{{ post.android.appId | default: post.iphone.appId | append: '.webp' }}",
             "meta": "{{ eff_meta }}",
             "verdict": "{{ eff_verdict }}",
             "url": "{{ post.url }}",
@@ -73,7 +71,7 @@
       {
         "appId": "{{ post.appId }}",
         "title": "{{ post.title }}",
-        "icon": "{{ post.icon }}",
+        "icon": "{{ post.appId | append: '.webp' }}",
         "meta": "{{ post.meta }}",
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
@@ -93,7 +91,7 @@
       {
         "appId": "{{ post.appId }}",
         "title": "{{ post.title }}",
-        "icon": "{{ post.icon }}",
+        "icon": "{{ post.appId | append: '.webp' }}",
         "meta": "{{ post.meta }}",
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
@@ -113,7 +111,7 @@
       {
         "appId": "{{ post.appId }}",
         "title": "{{ post.title | escape }}",
-        "icon": "{{ post.icon }}",
+        "icon": "{{ post.appId | append: '.webp' }}",
         "meta": "{{ post.meta }}",
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
@@ -132,7 +130,7 @@
       {
         "appId": "{{ post.appId }}",
         "title": "{{ post.title | escape }}",
-        "icon": "{{ post.icon }}",
+        "icon": "{{ post.appId | append: '.webp' }}",
         "url": "{{ post.url }}"
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}

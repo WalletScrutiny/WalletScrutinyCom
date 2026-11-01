@@ -22,7 +22,6 @@ shop: https://www.bitlox.com/products/bitlox-ultimate
 country: HK
 price: 148USD
 repository: https://github.com/BitLox/bitlox-firmware
-icon: bitloxultimate.webp
 bugbounty: 
 meta: discontinued
 verdict: sourceavailable

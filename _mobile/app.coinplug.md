@@ -18,7 +18,6 @@ android:
   updated: 2025-07-07
   version: 2.1.1
   reviews: 5
-  icon: app.coinplug.webp
   meta: stale
   verdict: nosendreceive
   developerName: CoinPlug Digitals LTD
@@ -30,7 +29,6 @@ iphone:
   updated: 2025-07-09
   version: 2.1.1
   reviews: 14
-  icon: app.coinplug.ng.webp
   meta: stale
   verdict: nosendreceive
   developerName: COINPLUG LTD

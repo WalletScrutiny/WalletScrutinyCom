@@ -9,7 +9,6 @@ android:
   released: 2022-12-01
   updated: 2022-12-01
   version: '1.0'
-  icon: com.plus.bumpt.app.webp
   meta: removed
   verdict: wip
   developerName: BILAL  H BUTT

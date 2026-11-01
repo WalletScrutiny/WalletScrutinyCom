@@ -14,7 +14,6 @@ android:
   updated: 2022-08-04
   version: 2.0.22
   reviews: 11
-  icon: com.ex.exchange808.webp
   meta: removed
   verdict: custodial
 

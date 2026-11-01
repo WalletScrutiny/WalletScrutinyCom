@@ -14,7 +14,6 @@ android:
   updated: 2026-04-03
   version: 1.1.7
   reviews: 12
-  icon: com.xchangeonio.webp
   meta: ok
   verdict: custodial
   developerName: Xchangeon

@@ -17,7 +17,6 @@ android:
   released: 2021-02-16
   updated: 2025-10-10
   version: 13.2.10
-  icon: com.crypto.croytowallet.webp
   meta: stale
   verdict: nosource
   developerName: Smart IoT Technology Co. Ltd
@@ -29,7 +28,6 @@ iphone:
   updated: 2024-04-09
   version: 1.7.3
   reviews: 1
-  icon: global.imxchange.iMX.webp
   meta: obsolete
   verdict: nosource
   developerName: I M SMART IMT (Thailand) COMPANY LIMITED

@@ -10,7 +10,6 @@ android:
   released: 2020-09-11
   updated: 2020-09-11
   version: '9.0'
-  icon: com.coinizie.com.co.webp
   meta: removed
   verdict: wip
   developerName: Coinizie

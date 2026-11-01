@@ -13,7 +13,7 @@ const category = 'desktop';
 const folder = `_${category}/`;
 const headers = ('title appId bitcoinOrgId authors released discontinued updated version ' +
                 'binaries provider providerWebsite website ' +
-                'repository icon bugbounty meta ' +
+                'repository bugbounty meta ' +
                 'verdict date twitter social builds features').split(' ');
 
 async function refreshAll () {

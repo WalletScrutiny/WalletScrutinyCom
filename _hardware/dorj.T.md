@@ -17,7 +17,6 @@ shop: https://dorj.io/product/dorjt/
 country: IR
 price: 
 repository: 
-icon: dorj.T.webp
 bugbounty: 
 meta: ok
 verdict: wip

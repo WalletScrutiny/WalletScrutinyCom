@@ -20,7 +20,6 @@ android:
   updated: 2023-07-13
   version: 4.0.0
   reviews: 8249
-  icon: com.investvoyager.webp
   meta: removed
   verdict: custodial
   developerName: Voyager Digital, LLC
@@ -31,7 +30,6 @@ iphone:
   updated: 2023-07-13
   version: 3.2.33
   reviews: 102802
-  icon: com.investvoyager.voyager-ios.webp
   meta: removed
   verdict: custodial
   developerName: Voyager Digital, LLC

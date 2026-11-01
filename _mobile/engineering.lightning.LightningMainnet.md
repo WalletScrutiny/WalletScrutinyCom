@@ -12,7 +12,6 @@ android:
   users: 1000
   updated: 2020-10-02
   version: Varies with device
-  icon: engineering.lightning.LightningMainnet.webp
   meta: removed
   verdict: sourceavailable
   repository: https://github.com/lightninglabs/lightning-app

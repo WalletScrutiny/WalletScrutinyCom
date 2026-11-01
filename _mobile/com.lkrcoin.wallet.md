@@ -10,7 +10,6 @@ android:
   released: 2019-01-19
   updated: 2019-01-19
   version: v1.0.0
-  icon: com.lkrcoin.wallet.webp
   meta: removed
   verdict: wip
   developerName: Ziwanda Tech, C.A.

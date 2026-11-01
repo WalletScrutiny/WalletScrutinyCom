@@ -9,7 +9,6 @@ android:
   released: 2021-12-09
   updated: 2021-12-09
   version: 1.0.0
-  icon: com.refyzsfiefa.zsfiefaad.webp
   meta: removed
   verdict: wip
   developerName: RefyzsFiefa

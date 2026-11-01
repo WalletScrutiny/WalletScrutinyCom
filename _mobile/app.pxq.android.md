@@ -14,7 +14,6 @@ android:
   updated: 2024-03-17
   version: 1.1.2
   reviews: 4
-  icon: app.pxq.android.webp
   meta: removed
   verdict: nosource
   developerName: PXQ Group
@@ -26,7 +25,6 @@ iphone:
   updated: 2023-07-25
   version: 1.0.3
   reviews: 0
-  icon: app.pxq.ios.webp
   meta: removed
   verdict: nosource
   developerName: PXQ

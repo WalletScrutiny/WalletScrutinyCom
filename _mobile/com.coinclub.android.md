@@ -11,7 +11,6 @@ android:
   updated: 2019-02-20
   version: 1.6.7
   reviews: 57
-  icon: com.coinclub.android.webp
   meta: removed
   verdict: wip
 

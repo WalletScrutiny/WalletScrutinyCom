@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: https://github.com/DenisDx/openHW
-icon: denisdx.openhw.diy.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable

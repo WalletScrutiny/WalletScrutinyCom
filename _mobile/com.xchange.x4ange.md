@@ -12,7 +12,6 @@ android:
   released: 2021-06-21
   updated: 2024-08-04
   version: 4.1.1
-  icon: com.xchange.x4ange.webp
   meta: removed
   verdict: custodial
   developerName: XchangeCapitalGroup OU

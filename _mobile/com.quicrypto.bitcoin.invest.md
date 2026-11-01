@@ -9,7 +9,6 @@ android:
   released: 2021-06-24
   updated: 2021-06-24
   version: '1.0'
-  icon: com.quicrypto.bitcoin.invest.webp
   meta: removed
   verdict: wip
 

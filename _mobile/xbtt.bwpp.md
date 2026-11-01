@@ -9,7 +9,6 @@ android:
   released: 2022-04-27
   updated: 2022-04-27
   version: '3'
-  icon: xbtt.bwpp.webp
   meta: removed
   verdict: wip
 

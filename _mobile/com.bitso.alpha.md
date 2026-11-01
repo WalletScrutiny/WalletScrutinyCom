@@ -18,7 +18,6 @@ android:
   updated: 2026-09-25
   version: 1.55.0
   reviews: 609
-  icon: com.bitso.alpha.webp
   meta: ok
   verdict: custodial
   developerName: Bitso

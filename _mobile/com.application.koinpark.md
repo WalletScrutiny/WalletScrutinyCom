@@ -24,7 +24,6 @@ android:
   updated: 2026-05-14
   version: '1.75'
   reviews: 12
-  icon: com.application.koinpark.webp
   meta: ok
   verdict: custodial
   developerName: Koinpark Private Limited
@@ -36,7 +35,6 @@ iphone:
   updated: 2026-04-06
   version: '5.9'
   reviews: 80
-  icon: com.app.KoinParkios.webp
   meta: ok
   verdict: custodial
   developerName: KOIN PARK PRIVATE LIMITED

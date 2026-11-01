@@ -10,7 +10,6 @@ android:
   released: 2019-07-01
   updated: 2019-07-02
   version: 1.0.0
-  icon: com.cryptotrade_flutter.app.webp
   meta: removed
   verdict: wip
   developerName: Mobterest

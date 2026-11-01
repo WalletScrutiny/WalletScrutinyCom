@@ -10,7 +10,6 @@ android:
   released: 2021-04-06
   updated: 2021-04-14
   version: 1.0.1
-  icon: com.investpal_social_trading.webp
   meta: removed
   verdict: wip
   developerName: InvestPal FinTech

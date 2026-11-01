@@ -10,7 +10,6 @@ android:
   released: 2020-03-15
   updated: 2022-02-15
   version: 1.1.38
-  icon: com.omc.wallet.webp
   meta: removed
   verdict: wip
 

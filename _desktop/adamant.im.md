@@ -12,7 +12,6 @@ provider: Adamant
 providerWebsite: 
 website: https://adamant.im/
 repository: https://github.com/Adamant-im/adamant-im
-icon: adamant.im.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

@@ -14,7 +14,6 @@ android:
   appCountry: fr
   updated: 2026-05-02
   version: 3.8.5
-  icon: com.bitstack.app.webp
   meta: removed
   verdict: custodial
   developerName: Bitstack
@@ -26,7 +25,6 @@ iphone:
   updated: 2026-10-01
   version: 4.3.0
   reviews: 189
-  icon: com.bitstack.app.webp
   meta: ok
   verdict: custodial
   developerName: Bitstack Digital Assets SAS

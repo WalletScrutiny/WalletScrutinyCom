@@ -10,7 +10,6 @@ android:
   released: 2020-10-16
   updated: 2020-12-31
   version: 1.1.2
-  icon: com.anbbit.exchange.webp
   meta: removed
   verdict: wip
   developerName: Anbbit.com

@@ -19,7 +19,6 @@ android:
   updated: 2026-09-30
   version: 7.2.3
   reviews: 76
-  icon: com.xfr.xtrade.webp
   meta: ok
   verdict: custodial
   developerName: XTRADE
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-10-04
   version: 7.2.3
   reviews: 28
-  icon: com.triviologic.xtrader.webp
   meta: ok
   verdict: custodial
   developerName: XTRADE EUROPE LTD

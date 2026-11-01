@@ -20,7 +20,6 @@ android:
   updated: 2026-10-09
   version: 26.10.7
   reviews: 8732
-  icon: exodusmovement.exodus.webp
   meta: ok
   verdict: nosource
   developerName: Exodus Movement, Inc.
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-10-07
   version: 26.10.7
   reviews: 37568
-  icon: exodus-movement.exodus.webp
   meta: ok
   verdict: nosource
   developerName: Exodus Movement, Inc.

@@ -19,7 +19,6 @@ android:
   updated: 2026-09-23
   version: 3.6.6
   reviews: 42
-  icon: com.bitbarg.app.webp
   meta: ok
   verdict: nosendreceive
   developerName: Bitbarg

@@ -21,7 +21,6 @@ shop: https://salletone.com/?r=front/product&S_ID=20210520114827&ID=994#deadLink
 country: CN
 price: 100USD
 repository: https://github.com/SalletOne/sallet-one-cold
-icon: sallet.one.webp
 bugbounty: 
 meta: discontinued
 verdict: sourceavailable

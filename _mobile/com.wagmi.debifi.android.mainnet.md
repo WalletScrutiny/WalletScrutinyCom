@@ -9,7 +9,6 @@ android:
   released: 2024-03-21
   updated: 2026-10-12
   version: 0.20.4-prod-mainnet
-  icon: com.wagmi.debifi.android.mainnet.webp
   meta: ok
   verdict: custodial
   developerName: Debifi
@@ -21,7 +20,6 @@ iphone:
   updated: 2026-09-10
   version: 0.21.0
   reviews: 3
-  icon: com.debifi.ios.webp
   meta: ok
   verdict: custodial
   developerName: GMI SOFT LIMITED

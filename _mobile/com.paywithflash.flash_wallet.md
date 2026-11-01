@@ -14,7 +14,6 @@ android:
   released: 2025-07-22
   updated: 2025-12-30
   version: 1.0.16
-  icon: com.paywithflash.flash_wallet.webp
   meta: ok
   verdict: nosource
   developerName: Flash Lightning Solutions
@@ -26,7 +25,6 @@ iphone:
   updated: 2025-10-16
   version: 1.0.12
   reviews: 1
-  icon: com.paywithflash.flashWallet.webp
   meta: stale
   verdict: nosource
   developerName: Flash Lightning Solutions Inc.

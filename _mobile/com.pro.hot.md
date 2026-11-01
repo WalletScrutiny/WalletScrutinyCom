@@ -14,7 +14,6 @@ android:
   updated: 2026-04-09
   version: 6.1.3
   reviews: 32
-  icon: com.pro.hot.webp
   meta: ok
   verdict: custodial
   developerName: Hotcoin
@@ -26,7 +25,6 @@ iphone:
   updated: 2026-09-21
   version: 6.2.0
   reviews: 35
-  icon: hotbglobal.hcoin.www.webp
   meta: ok
   verdict: custodial
   developerName: HOTBGLOBAL FINANCE LIMITED

@@ -13,7 +13,6 @@ android:
   updated: 2021-08-13
   version: 1.2.1
   reviews: 44
-  icon: io.kysenpool.mirror.android.webp
   meta: removed
   verdict: nosendreceive
 

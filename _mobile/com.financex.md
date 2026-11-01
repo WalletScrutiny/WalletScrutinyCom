@@ -12,7 +12,6 @@ android:
   released: 2019-01-15
   updated: 2020-01-13
   version: 1.3.12
-  icon: com.financex.webp
   meta: removed
   verdict: custodial
   developerName: FinanceX

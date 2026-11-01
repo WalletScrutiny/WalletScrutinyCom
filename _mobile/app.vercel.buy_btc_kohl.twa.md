@@ -9,7 +9,6 @@ android:
   released: 2023-03-20
   updated: 2023-03-20
   version: '1'
-  icon: app.vercel.buy_btc_kohl.twa.webp
   meta: removed
   verdict: wip
   developerName: Geek Family

@@ -10,7 +10,6 @@ android:
   released: 2022-05-13
   updated: 2024-06-03
   version: 2.7.00
-  icon: com.wallex.app.webp
   meta: removed
   verdict: wip
   developerName: WallexCUSTODY

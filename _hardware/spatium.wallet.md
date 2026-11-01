@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-icon: spatium.wallet.webp
 bugbounty: 
 meta: defunct
 verdict: noita

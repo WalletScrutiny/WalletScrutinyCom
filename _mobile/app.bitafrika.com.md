@@ -19,7 +19,6 @@ android:
   updated: 2026-09-14
   version: 5.2.1
   reviews: 185
-  icon: app.bitafrika.com.webp
   meta: ok
   verdict: custodial
   developerName: BITAFRIKA LTD
@@ -31,7 +30,6 @@ iphone:
   updated: 2023-02-21
   version: 4.2.0
   reviews: 635
-  icon: app.bitafrika.com.webp
   meta: removed
   verdict: custodial
 

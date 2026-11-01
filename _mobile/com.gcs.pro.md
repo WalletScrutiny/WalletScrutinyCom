@@ -8,7 +8,6 @@ android:
   users: 100
   updated: 2022-05-09
   version: 1.0.4.220509
-  icon: com.gcs.pro.webp
   meta: removed
   verdict: wip
   developerName: GCEX

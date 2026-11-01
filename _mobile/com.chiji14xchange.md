@@ -18,7 +18,6 @@ android:
   updated: 2021-05-22
   version: 3.0.5
   reviews: 948
-  icon: com.chiji14xchange.webp
   meta: removed
   verdict: custodial
   developerName: Chiji14xchange
@@ -29,7 +28,6 @@ iphone:
   updated: 2022-03-01
   version: 3.0.0
   reviews: 297
-  icon: com.chiji14xchange-.webp
   meta: removed
   verdict: custodial
   developerName: CHIJI14XCHANGE

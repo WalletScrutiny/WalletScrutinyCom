@@ -9,7 +9,6 @@ android:
   released: 2021-06-24
   updated: 2021-06-24
   version: '1.0'
-  icon: net.advancedbitcoin.crypto.invest.simulator.webp
   meta: removed
   verdict: wip
 

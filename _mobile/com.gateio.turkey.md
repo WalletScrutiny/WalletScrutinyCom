@@ -16,7 +16,6 @@ android:
   appCountry: us
   updated: 2026-09-23
   version: 7.28.0
-  icon: com.gateio.turkey.webp
   meta: ok
   verdict: custodial
   developerName: Gate.com
@@ -28,7 +27,6 @@ iphone:
   updated: 2025-09-04
   version: 6.15.28
   reviews: 628
-  icon: com.gateio.GateTR.webp
   meta: stale
   verdict: custodial
   developerName: Gate Teknoloji Anonim Sirketi

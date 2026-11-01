@@ -17,7 +17,6 @@ shop: https://web.archive.org/web/20251230101654/https://onekey.so/products/onek
 country: HK
 price: 19.99 USD
 repository: 
-icon: onekey.lite.webp
 bugbounty: 
 meta: discontinued
 verdict: plainkey

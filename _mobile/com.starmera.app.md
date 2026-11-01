@@ -10,7 +10,6 @@ android:
   released: 2022-11-17
   updated: 2023-03-15
   version: 1.2.0
-  icon: com.starmera.app.webp
   meta: removed
   verdict: wip
   developerName: Starmera

@@ -11,7 +11,6 @@ android:
   updated: 2020-01-21
   version: v1.6
   reviews: 11
-  icon: com.altcoin.wallet.webp
   meta: removed
   verdict: wip
   developerName: Altcoin Wallet

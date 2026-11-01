@@ -10,7 +10,6 @@ android:
   released: 2017-11-17
   updated: 2017-11-29
   version: 3.8.8
-  icon: com.bitchk.bitchk.webp
   meta: removed
   verdict: wip
   developerName: ETRA Co., Ltd.

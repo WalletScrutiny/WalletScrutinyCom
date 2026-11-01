@@ -10,7 +10,6 @@ android:
   released: 2020-03-23
   updated: 2020-03-23
   version: 0.1.3
-  icon: org.lndroid.messenger.testnet.webp
   meta: removed
   verdict: wip
   developerName: Artur Briugeman

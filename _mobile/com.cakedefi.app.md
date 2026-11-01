@@ -20,7 +20,6 @@ android:
   updated: 2025-04-09
   version: 7.4.0
   reviews: 196
-  icon: com.cakedefi.app.webp
   meta: removed
   verdict: custodial
   developerName: Bake
@@ -32,7 +31,6 @@ iphone:
   updated: 2025-04-14
   version: 7.4.0
   reviews: 0
-  icon: com.cakedefi.app.webp
   meta: removed
   verdict: custodial
   developerName: GS Fintech UAB

@@ -21,7 +21,6 @@ shop: https://wooko.ng/en/bio#deadLink
 country: CH
 price: 1099CNY
 repository: 
-icon: wookongbio.webp
 bugbounty: 
 meta: defunct
 verdict: wip

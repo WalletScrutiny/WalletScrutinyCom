@@ -10,7 +10,6 @@ android:
   released: 2021-03-10
   updated: 2021-03-10
   version: 1.0.0
-  icon: com.nastokenwalet.com.webp
   meta: removed
   verdict: wip
   developerName: Nasprofits Llc

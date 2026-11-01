@@ -25,7 +25,6 @@ android:
   updated: 2025-09-04
   version: 5.19.17
   reviews: 65
-  icon: cobo.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Cobo Global Ltd - Crypto Wallet for BTC, ETH
@@ -37,7 +36,6 @@ iphone:
   updated: 2026-07-16
   version: 5.19.19
   reviews: 6
-  icon: cobo.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Cobo Global Limited
