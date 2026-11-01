@@ -3,8 +3,7 @@ title: iiToken
 date: 2026-10-30
 authors:
 - danny
-social:
-- https://im-token.farm#deadLink
+website: https://im-token.farm#deadLink
 redirect_from:
 - /android/com.ittoken.app22/
 android:

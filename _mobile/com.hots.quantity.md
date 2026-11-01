@@ -3,9 +3,8 @@ title: HotsCoin - More Than 100× Gem
 date: 2026-10-30
 authors:
 - danny
+website: https://hotscoin.com
 twitter: hotscoin
-social:
-- https://hotscoin.com
 redirect_from:
 - /android/com.hots.quantity/
 - /iphone/com.hots.quantity/

@@ -8,7 +8,6 @@ twitter: FUNtoken_io
 social:
 - https://t.me/officialFUNToken
 - https://discord.com/invite/e7vfgKbEKU
-- https://xfun.io#deadLink
 redirect_from:
 - /android/com.xfun.wallet/
 - /iphone/com.xfun.wallet/

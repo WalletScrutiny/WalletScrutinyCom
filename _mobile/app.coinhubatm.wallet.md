@@ -10,7 +10,6 @@ social:
 - https://www.instagram.com/coinhubusa
 - https://www.facebook.com/coinhubusa
 - https://www.youtube.com/channel/UCPxfH3hg9CSd7BtCGcalyRg
-- https://coinhubatm.com
 redirect_from:
 - /android/app.coinhubatm.wallet/
 - /iphone/app.coinhubatm.wallet/

@@ -3,9 +3,9 @@ title: کیف پول من
 date: 2026-10-30
 authors:
 - danny
+website: https://kifpool.me
 twitter: Kifpoolme
 social:
-- https://kifpool.me
 - https://www.linkedin.com/company/kifpool-me
 - https://www.instagram.com/kifpool.me
 - https://www.youtube.com/channel/UCo75FkojuSwonSKN5nVVEvQ

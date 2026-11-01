@@ -3,8 +3,7 @@ title: TXTBA
 date: 2026-10-30
 authors:
 - danny
-social:
-- https://txtba.com#deadLink
+website: https://txtba.com#deadLink
 redirect_from:
 - /android/com.txtba.app/
 android:

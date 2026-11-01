@@ -9,7 +9,6 @@ social:
 - https://www.facebook.com/icewalofficial
 - https://www.linkedin.com/company/icecorp
 - https://www.instagram.com/icewalofficial
-- https://www.icewal.com#deadLink
 redirect_from:
 - /android/com.icecorp.wallet/
 - /iphone/com.icecorp.wallet/

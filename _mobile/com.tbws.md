@@ -4,8 +4,6 @@ date: 2026-10-30
 authors:
 - danny
 website: https://theblackwallstreet.com#deadLink
-social:
-- https://theblackwallstreet.com#deadLink
 redirect_from:
 - /android/com.tbws/
 - /iphone/com.tbws1.app/

@@ -8,7 +8,6 @@ twitter: XchangeO
 social:
 - https://vk.com/xchange_cc
 - https://t.me/Xchange_official
-- https://xchange.ltd
 redirect_from:
 - /android/com.xccg.xchange/
 - /iphone/com.xchangecapital.xchange/
