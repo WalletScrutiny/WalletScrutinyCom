@@ -3,9 +3,9 @@ title: Zoomex-BTC, ETH Crypto Trading
 date: 2026-10-30
 authors:
 - danny
+website: https://www.zoomex.com
 twitter: zoomexofficial
 social:
-- https://www.zoomex.com
 - https://t.me/zoomex_com
 redirect_from:
 - /android/co.zoomex.app/

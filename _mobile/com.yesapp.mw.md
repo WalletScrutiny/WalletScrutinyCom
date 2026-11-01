@@ -3,8 +3,7 @@ title: BMG INT
 date: 2026-10-30
 authors:
 - danny
-social:
-- https://web.archive.org/web/20230419205451/https://www.bmgcrypto.us/index.html
+website: https://web.archive.org/web/20230419205451/https://www.bmgcrypto.us/index.html
 redirect_from:
 - /android/com.yesapp.mw/
 android:

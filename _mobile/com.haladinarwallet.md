@@ -6,7 +6,6 @@ authors:
 website: https://haladinar.io
 twitter: haladinar
 social:
-- http://haladinar.io/hdn/index.html
 - https://facebook.com/haladinar.io
 - https://github.com/haladinar
 - https://t.me/haladinar

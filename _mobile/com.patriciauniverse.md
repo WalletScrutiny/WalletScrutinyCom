@@ -9,7 +9,6 @@ social:
 - https://www.instagram.com/welcometopatricia
 - https://www.facebook.com/patricia.com.ng
 - https://www.youtube.com/channel/UCxfeniM2_FGIFcXSWa4Y_sA
-- https://mypatricia.co#deadLink
 redirect_from:
 - /android/com.patriciauniverse/
 - /iphone/com.patriciauniverse.app/

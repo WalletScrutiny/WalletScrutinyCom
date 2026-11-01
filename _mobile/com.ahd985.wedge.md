@@ -8,7 +8,6 @@ twitter: wedgefinancial
 social:
 - https://www.linkedin.com/company/wedgefinancial
 - https://www.facebook.com/wedgefinancial
-- https://wedge.us
 redirect_from:
 - /android/com.ahd985.wedge/
 - /iphone/com.ahd985.wedge/

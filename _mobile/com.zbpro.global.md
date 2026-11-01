@@ -3,9 +3,9 @@ title: 'ZB Pro: Buy BTC, ETH, Doge'
 date: 2026-10-30
 authors:
 - danny
+website: https://zb.com#deadLink
 twitter: ZBexchange
 social:
-- https://zb.com#deadLink
 - https://t.me/ZB_English
 - https://www.facebook.com/ZBexchange
 - https://zbhk.medium.com

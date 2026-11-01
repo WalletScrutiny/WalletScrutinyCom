@@ -10,7 +10,6 @@ social:
 - https://t.me/trustverse_officialchannel
 - https://www.instagram.com/trustverse_official
 - https://trustverse-official.medium.com
-- https://www.trustverse.io#deadLink
 redirect_from:
 - /android/io.trustverse.mars/
 - /iphone/io.trustverse.mars/

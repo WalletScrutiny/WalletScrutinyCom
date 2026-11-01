@@ -6,7 +6,6 @@ authors:
 website: https://www.wethiox.io/landing
 twitter: wethiox
 social:
-- https://www.wethiox.io
 - https://www.facebook.com/WethioX/about
 - https://t.me/joinchat/VvLjmtVVAVJiMTQ0
 - https://wethio.medium.com/

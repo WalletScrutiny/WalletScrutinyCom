@@ -3,9 +3,9 @@ title: Rubycoin wallet
 date: 2026-10-30
 authors:
 - danny
+website: https://rubycointrade.com#deadLink
 twitter: RubyCoinDAO
 social:
-- https://rubycointrade.com#deadLink
 - https://www.facebook.com/people/Ruby-Coin/100083273028384
 - https://www.instagram.com/rubycoindao
 - https://t.me/rubycoindao

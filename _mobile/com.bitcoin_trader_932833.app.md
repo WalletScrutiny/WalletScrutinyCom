@@ -3,8 +3,7 @@ title: The Bitcoin Trader App
 date: 2026-10-30
 authors:
 - danny
-social:
-- https://the-bitcoin-traderapp.cyou#deadLink
+website: https://the-bitcoin-traderapp.cyou#deadLink
 redirect_from:
 - /android/com.bitcoin_trader_932833.app/
 android:

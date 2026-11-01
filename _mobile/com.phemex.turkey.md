@@ -4,8 +4,6 @@ date: 2026-10-30
 authors:
 - danny
 website: https://phemex.com.tr#deadLink
-social:
-- https://phemex.com.tr#deadLink
 features:
 - buyWithCC
 - tradeAlts

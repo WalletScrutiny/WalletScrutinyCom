@@ -10,7 +10,6 @@ social:
 - https://www.youtube.com/c/GateioCrypto
 - https://discord.com/invite/QZWFkuQvzP
 - https://www.instagram.com/gateioglobal
-- https://gate.io
 redirect_from:
 - /android/com.gateio.lite/
 - /iphone/com.gateio.GateLite/

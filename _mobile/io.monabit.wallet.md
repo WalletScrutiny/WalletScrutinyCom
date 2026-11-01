@@ -8,7 +8,6 @@ social:
 - https://www.instagram.com/monabit.io
 - https://www.facebook.com/monabitapp
 - https://www.youtube.com/channel/UC2oFxYscQFtbVp-nvczEddQ
-- https://monabit.io
 redirect_from:
 - /android/io.monabit.wallet/
 - /iphone/io.monabit.app/

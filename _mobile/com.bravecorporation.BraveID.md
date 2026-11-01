@@ -9,7 +9,6 @@ social:
 - https://www.linkedin.com/company/brave-corporation
 - https://www.facebook.com/BraveCorporation
 - https://www.youtube.com/@bravepayofficial
-- https://www.bravepay.net
 redirect_from:
 - /android/com.bravecorporation.BraveID/
 - /iphone/com.brave-corporation.brave-pay/

@@ -7,7 +7,6 @@ website: https://icmarkets.com
 twitter: IC_Markets
 social:
 - https://www.linkedin.com/company/icmarkets
-- https://icmarkets.com
 redirect_from:
 - /android/com.icmarkets.mobileapp/
 - /iphone/com.ICMarkets.ICMarkets-app/

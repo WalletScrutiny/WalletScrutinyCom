@@ -3,9 +3,9 @@ title: CoinCatch-Buy Bitcoin & Crypto
 date: 2026-10-30
 authors:
 - danny
+website: https://www.coincatch.com
 twitter: coincatchcom
 social:
-- https://www.coincatch.com
 - https://t.me/coincatch_chat_en
 - https://www.instagram.com/coincatch_official
 redirect_from:
