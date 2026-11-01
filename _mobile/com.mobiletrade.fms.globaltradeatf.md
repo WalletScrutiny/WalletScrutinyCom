@@ -1,6 +1,6 @@
 ---
 title: Global TradeATF Online Trading | Forex and Stocks
-date: 2022-03-07
+date: 2026-10-30
 authors:
 - danny
 website: https://global.tradeatf.com#deadLink
@@ -33,6 +33,8 @@ iphone:
   verdict: nosendreceive
 
 ---
+
+**Update 2026-10-30:** global.tradeatf.com now forwards to a GoDaddy page offering the domain for sale.
 
 ## Android
 

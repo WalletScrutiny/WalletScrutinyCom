@@ -4,7 +4,7 @@ appId: oresystem.coolwalletpro
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2023-11-02
 updated: 
 version: 
 binaries: 
@@ -22,9 +22,9 @@ price: 149USD
 repository: 
 icon: oresystem.coolwalletpro.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: nosource
-date: 2024-12-08
+date: 2026-10-30
 signer: 
 twitter: ORESystemNFT
 social:
@@ -36,6 +36,8 @@ features:
 - secEl
 
 ---
+
+**Update 2026-10-30:** ORE System no longer sells this card. Its [website](https://ore-system.com/) only shows a "Coming Soon" page, and has done so since at least [November 2023](https://web.archive.org/web/20231102114005/https://ore-system.com/). The card is a co-branded CoolWallet Pro, so existing cards still work with the CoolWallet app. We mark it as discontinued.
 
 **Update 2024-12-08:** This product remains available and not verifiable.
 

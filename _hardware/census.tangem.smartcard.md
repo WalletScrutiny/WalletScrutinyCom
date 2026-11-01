@@ -4,7 +4,7 @@ appId: census.tangem.smartcard
 authors:
 - danny
 released: 2020-06-19
-discontinued: 
+discontinued: 2021-06-11
 updated: 
 version: 
 binaries: 
@@ -22,9 +22,9 @@ price: 39USD
 repository: 
 icon: census.tangem.smartcard.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: noita
-date: 2022-05-03
+date: 2026-10-30
 signer: 
 twitter: 
 social:

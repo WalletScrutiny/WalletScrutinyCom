@@ -5,7 +5,7 @@ authors:
 - danny
 - leo
 released: 
-discontinued: 
+discontinued: 2025-02-05
 updated: 
 version: 
 binaries: 
@@ -16,16 +16,16 @@ dimensions:
 weight: 138
 provider: Sallet One
 providerWebsite: 
-website: https://salletone.com/
-shop: https://salletone.com/?r=front/product&S_ID=20210520114827&ID=994
+website: https://web.archive.org/web/20230922053524/https://salletone.com/
+shop: https://salletone.com/?r=front/product&S_ID=20210520114827&ID=994#deadLink
 country: CN
 price: 100USD
 repository: https://github.com/SalletOne/sallet-one-cold
 icon: sallet.one.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: sourceavailable
-date: 2025-02-05
+date: 2026-10-30
 signer: 
 twitter: SalletOne
 social:
@@ -46,6 +46,8 @@ features:
 {% include featureEvidence.html feature="hd" source="[README](https://github.com/SalletOne/sallet-one-cold#readme)" quote="Customize standard mnemonic" %}
 {% include featureEvidence.html feature="foss" source="[License](https://github.com/SalletOne/sallet-one-cold/blob/master/LICENSE)" quote="Apache License Version 2.0" %}
 
+**Update 2026-10-30:** We now list the Sallet One as discontinued rather than defunct. It is no longer sold, as the [website](https://web.archive.org/web/20230922053524/https://salletone.com/) is gone, but the device still works: it uses a standard mnemonic ([README](https://github.com/SalletOne/sallet-one-cold#readme)) and its Android companion app {% include walletLink.html wallet='android/com.yaolian.qoline' verdict='true' %} is still available.
+
 ## Update 2025-02-05
 
 The website has been offline since 2023. The repositories last update was also made in 2023.
@@ -58,7 +60,7 @@ The update instructions tell users to download firmware updates via the website.
 
 This hardware wallet requires a companion app: {% include walletLink.html wallet='android/com.yaolian.qoline' verdict='true' %} downloadable via Google Play or the Apple store.
 
-The [user manual](https://salletone.com/?r=front/news&S_ID=20210427140342) describes the procedure once a user unboxes his Sallet One device.
+The [user manual](https://salletone.com/?r=front/news&S_ID=20210427140342#deadLink) describes the procedure once a user unboxes his Sallet One device.
 
 1. Password setting
 2. Mnemonic phrase generation
@@ -73,20 +75,20 @@ The [user manual](https://salletone.com/?r=front/news&S_ID=20210427140342) descr
 
 ## Private keys can be created offline - ✔️
 
-From the [Terms of Use](https://salletone.com/?r=front/showcontent&S_ID=20210508101749)
+From the [Terms of Use](https://salletone.com/?r=front/showcontent&S_ID=20210508101749#deadLink)
 
 > "Cold wallet" refers to a wallet product that stores private keys of digital assets and never connects to the Internet. Sallet one cold wallet is a hardware wallet, which is used to generate mnemonic words randomly, and private keys of different currencies are generated from the mnemonic words. In the end, the private key generates the public key, and finally the public key generates the asset address to realize the safe storage of digital assets.
 
 
 ## Private keys are not shared - ✔️
 
-From the [SalletOne User Service Protocol](https://salletone.com/?r=front/showcontent&S_ID=20210526160843)
+From the [SalletOne User Service Protocol](https://salletone.com/?r=front/showcontent&S_ID=20210526160843#deadLink)
 
 > Article 31 The Users shall be responsible for the proper safekeeping of their mobile devices, as well as their information such as Wallet passwords, private keys, mnemonics and Keystore. The Company is not responsible for the safe-keeping of such devices or information of the Users. All risks, responsibilities, losses and expenses caused by the Users’ loss of their mobile devices, their active or passive disclosure or forgetting of their Wallet passwords, private keys, mnemonic words, Keystore, or attacks or fraud by others shall be borne exclusively by the Users.
 
 ## Device displays receive address for confirmation - ✔️
 
-Yes. This is documented in the [user manual](https://salletone.com/?r=front/news&S_ID=20210427140342).
+Yes. This is documented in the [user manual](https://salletone.com/?r=front/news&S_ID=20210427140342#deadLink).
 
 ## Interface - ✔️
 

@@ -4,7 +4,7 @@ appId: extowallet.card
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2024-03-04
 updated: 
 version: 
 binaries: 
@@ -19,9 +19,9 @@ price: 199.20USD
 repository: 
 icon: extowallet.card.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: nosource
-date: 2022-04-27
+date: 2026-10-30
 signer: 
 twitter: Exto_Labs
 social:
@@ -31,6 +31,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** The card is no longer sold. The [ExtoWallet website](https://www.extowallet.com/) now says it "was developed as a research and development project to demonstrate high security digital asset custody and not available commercially", although the [shop page](https://web.archive.org/web/20210125065733/https://www.extowallet.com/product-page/extowallet-card) listed it as in stock at $199.20 in 2021. ExtoLabs itself [still operates](https://www.extolab.com/).
 
 ## Product Description
 

@@ -11,17 +11,17 @@ binaries:
 dimensions: 
 weight: 
 provider: SafeMoon US LLC
-providerWebsite: https://safemoon.com/
-website: https://safemoon.com/products
+providerWebsite: https://safemoon.com/#deadLink
+website: https://safemoon.com/products#deadLink
 shop: 
 country: US
 price: 
 repository: 
 icon: safemoon.hwallet.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2024-10-22
+date: 2026-10-30
 signer: 
 twitter: safemoon
 social:
@@ -33,6 +33,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** The SafeMoon hardware wallet never shipped, and its maker is gone. After the bankruptcy, the SafeMoon brand went to the VGX Foundation. By May 2025 the SafeMoon products page listed only VGX wallet and exchange tools and no hardware wallet ([archive](https://web.archive.org/web/20250521212604/https://safemoon.com/products)). safemoon.com is now a parked domain for sale.
 
 ## Update 2024-10-22
 

@@ -4,7 +4,7 @@ appId: pxcard
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2023-12-06
 updated: 
 version: 
 binaries: 
@@ -12,16 +12,16 @@ dimensions:
 weight: 
 provider: FunctionX
 providerWebsite: https://www.functionx.io/home
-website: https://pxcard.io/
+website: https://web.archive.org/web/20260214225543/https://pxcard.io/
 shop: 
 country: 
 price: 
 repository: 
 icon: pxcard.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: noita
-date: 2024-10-22
+date: 2026-10-30
 signer: 
 twitter: pxcard_official
 social:
@@ -32,6 +32,8 @@ features:
 - secEl
 
 ---
+
+**Update 2026-10-30:** The p(x)Card is no longer sold. The Genesis Edition [sold out everywhere in December 2023](https://x.com/pxcard_official/status/1732403626134696382), and the product site pxcard.io is gone now ([archived version](https://web.archive.org/web/20260214225543/https://pxcard.io/)). Existing cards still work with the companion app, so we mark it discontinued.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tlhId-1wjIQ?si=tOTnn5MWJzvMMX6q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

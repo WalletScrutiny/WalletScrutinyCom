@@ -4,7 +4,7 @@ appId: square.subzero
 authors:
 - danny
 icon: square.subzero.webp
-date: 2022-05-26
+date: 2026-10-30
 released: 2018-10-23
 updated: 2022-05-03
 version: v1.0.0
@@ -16,11 +16,13 @@ provider: Square
 providerWebsite: https://squareup.com/us/en
 country: US
 bugbounty: https://bugcrowd.com/squareopensource
-meta: ok
+meta: obsolete
 verdict: wip
 social: 
 
 ---
+
+**Update 2026-10-30:** Square has archived the [Subzero repository](https://github.com/square/subzero), so it is now read-only. The last code change is from December 2024, so we mark the project obsolete.
 
 ## GitHub Description 
 

@@ -5,7 +5,7 @@ authors:
 - kiwilamb
 - danny
 released: 
-discontinued: 
+discontinued: 2025-01-14
 updated: 
 version: 
 binaries: 
@@ -23,9 +23,9 @@ price: 120USD
 repository: 
 icon: atwallet.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: plainkey
-date: 2021-12-03
+date: 2026-10-30
 signer: 
 twitter: authentrend
 social:
@@ -35,6 +35,10 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** AuthenTrend has discontinued the AT.Wallet and no longer supports it. The firmware and companion apps get no more updates or security patches.
+
+**Update 2026-10-30:** AuthenTrend has discontinued the AT.Wallet. Its [product page](https://authentrend.com/at-wallet/) says the device "has reached its End-of-Life (EOL) status and has been officially discontinued" and that the device, its firmware and the companion apps get no more updates.
 
 {{ page.title }} describes itself as
 

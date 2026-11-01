@@ -1,6 +1,6 @@
 ---
 title: Finzo Markets
-date: 2021-11-26
+date: 2026-10-30
 authors:
 - danny
 website: https://finzomarkets.com/
@@ -18,6 +18,8 @@ android:
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** Finzo Markets looks gone: [finzomarkets.com](https://finzomarkets.com/) and the [deposits page](https://finzomarkets.com/deposits.html) quoted below now show only a Hostinger "Parked Domain" page.
 
 **Update 2021-11-11**: This app is not on Play Store anymore.
 

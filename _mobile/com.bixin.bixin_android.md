@@ -1,6 +1,6 @@
 ---
 title: Bixin - Virtual Assets Trading
-date: 2022-04-25
+date: 2026-10-30
 authors:
 - danny
 website: https://bixin.com
@@ -15,11 +15,13 @@ android:
   version: 4.8.2
   reviews: 11
   icon: com.bixin.bixin_android.webp
-  meta: defunct
+  meta: ok
   verdict: custodial
   developerName: Bixin.com
 
 ---
+
+**Update 2026-10-30:** The app is back on Google Play and [bixin.com](https://www.bixin.com) is online, so the provider is not defunct and the 2022 note below is outdated. Bixin.com still describes the app as a platform to spot trade virtual assets that it secures with hot and cold wallets, so it stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 **Update 2022-04-16**: This app is not available anymore.
 

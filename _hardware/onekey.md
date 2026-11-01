@@ -7,7 +7,7 @@ authors:
 - leo
 - mohammad
 released: 2022-08-23
-discontinued: 
+discontinued: 2024-11-13
 updated: 2026-02-05
 version: 3.12.0
 binaries: 
@@ -19,15 +19,15 @@ weight: 20.5
 provider: Bixin
 providerWebsite: https://onekey.so/
 website: https://onekey.so/en-US/hardware
-shop: https://onekey.so/en-US/hardware
+shop: https://web.archive.org/web/20240224091815/https://onekey.so/products/onekey-classic-hardware-wallet/
 country: SG
 price: 42USD
 repository: https://github.com/OneKeyHQ/firmware
 icon: onekey.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: sourceavailable
-date: 2025-09-08
+date: 2026-10-30
 signer: 
 twitter: OneKeyHQ
 social:
@@ -41,6 +41,8 @@ features:
 - multiSig
 
 ---
+
+**Update 2026-10-30:** OneKey no longer sells the original Classic. Its product page showed it [sold out](https://web.archive.org/web/20241113171748/https://onekey.so/products/onekey-classic-hardware-wallet/) from November 2024 on and is now gone, and OneKey's [current lineup](https://help.onekey.so/en/articles/17673493-onekey-product-lineup-what-s-currently-available) only offers the {% include walletLink.html wallet='hardware/onekey.classic.1s' verdict='true' %} in this range. Devices already sold keep working, and the [firmware](https://github.com/OneKeyHQ/firmware) still gets releases.
 
 ## Device Description
 

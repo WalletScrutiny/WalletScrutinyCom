@@ -5,7 +5,7 @@ authors:
 - danny
 - mohammad
 released: 2022-03-08
-discontinued: 
+discontinued: 2024-11-13
 updated: 2025-11-26
 version: 4.12.0
 binaries: 
@@ -23,9 +23,9 @@ price: 249 USD
 repository: https://github.com/OneKeyHQ/firmware
 icon: onekey.touch.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: sourceavailable
-date: 2025-06-06
+date: 2026-10-30
 signer: 
 twitter: OneKeyHQ
 social:
@@ -34,6 +34,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** OneKey no longer sells the Touch. Its [product page](https://onekey.so/products/onekey-touch-hardware-wallet/) now shows the OneKey home page, which offers only newer models, and the page already showed the Touch as [sold out in November 2024](https://web.archive.org/web/20241113173718/https://onekey.so/products/onekey-touch-hardware-wallet/). Existing devices still get firmware updates: [touch/v4.12.0](https://github.com/OneKeyHQ/firmware/releases/tag/touch%2Fv4.12.0) was published in May 2026.
 
 Note from Provider:
 

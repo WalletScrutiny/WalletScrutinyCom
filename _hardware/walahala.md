@@ -22,9 +22,9 @@ price: 149USDT
 repository: 
 icon: walahala.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: noita
-date: 2022-04-04
+date: 2026-10-30
 signer: 
 twitter: walahala_dex
 social:
@@ -39,6 +39,10 @@ features:
 - multiSig
 
 ---
+
+**⚠️ Warning:** This provider is gone. Its website has been down since February 2025 and its app is no longer on Google Play.
+
+**Update 2026-10-30:** Walahala is gone, so we mark it defunct. Its website was [last archived working in January 2025](https://web.archive.org/web/20250114172736/https://walahala.com/); from February 2025 the archive only got error pages, and walahala.com now shows an empty page.
 
 **Note:** The product manufacturer - or at least someone who claims to promote Walahala's product, has been flagged in [Bitcointalk forum](https://bitcointalk.org/index.php?topic=5233706.0). Some of these include allegations of plagiarism in the Terms and Conditions, Privacy Policy and KYC policy. It is also alleged that the Owner's Manual was plagiarized from both Trezor and Ledger manuals. The product is also associated with an ICO and an exchange.
 

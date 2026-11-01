@@ -4,7 +4,7 @@ appId: quickxtouch
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2022-12-21
 updated: 
 version: 
 binaries: 
@@ -14,17 +14,17 @@ dimensions:
 - 0.8
 weight: 5.4
 provider: QuickX Touch
-providerWebsite: https://www.quickxtouch.com/
+providerWebsite: https://web.archive.org/web/20210801014756/https://www.quickxtouch.com/
 website: https://www.quickx.io#deadLink
-shop: https://www.quickxtouch.com/product/quickx-touch-card
+shop: https://www.quickxtouch.com/product/quickx-touch-card#deadLink
 country: MT
 price: 149USD
 repository: 
 icon: quickxtouch.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: noita
-date: 2022-03-23
+date: 2026-10-30
 signer: 
 twitter: quickxprotocol
 social:
@@ -40,6 +40,10 @@ features:
 - nfc
 
 ---
+
+**⚠️ Warning:** This provider is gone. Its websites are dead and its apps are no longer on Google Play.
+
+**Update 2026-10-30:** QuickX is gone, and the card can no longer be ordered or get support, so we mark it discontinued. A wallet on the card can still be restored from its backup mnemonics, and the card's maker, Keypair (the developer of both QuickX Touch apps), still lists its own {% include walletLink.html wallet='android/kr.co.keypair.keywalletTouch' %} app on Google Play. The quickxtouch.com website no longer loads; its [last archived copy, from December 2024](https://web.archive.org/web/20241202173512/https://www.quickxtouch.com/), only says the site was stopped by its administrator.
 
 <div class="alertBox"><div>There are reports that this company is involved in Ponzi schemes. Furthermore, it claims to be licensed by the MFSA (Malta Financial Services Authority), when in fact, <a href="https://www.mfsa.mt/news-item/mfsa-warning-quickx-ltd-cnexchange-unlicensed-entity/">they are not</a>. 
  </div> </div>

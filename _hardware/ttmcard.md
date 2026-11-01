@@ -4,7 +4,7 @@ appId: ttmcard
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2026-10-30
 updated: 
 version: 
 binaries: 
@@ -12,16 +12,16 @@ dimensions:
 weight: 
 provider: MARS DAO
 providerWebsite: https://daomars.com/
-website: https://ttmwallet.io/
-shop: https://ttmwallet.io/order.html
+website: https://web.archive.org/web/20260118050545/https://ttmwallet.io/
+shop: https://web.archive.org/web/20251205021823/https://ttmwallet.io/order.html
 country: 
 price: 70USD
 repository: 
 icon: ttmcard.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: noita
-date: 2024-01-08
+date: 2026-10-30
 signer: 
 twitter: 0xMarsDAO
 social:
@@ -35,6 +35,8 @@ features:
 - secEl
 
 ---
+
+**Update 2026-10-30:** The KeyWallet site and its order page no longer load; the last [archived copy](https://web.archive.org/web/20260118050545/https://ttmwallet.io/) from January 2026 still offered the card for 70 USDT. MARS DAO's [website](https://daomars.com/) no longer mentions the card, so we list it as discontinued. The companion app is still in the store, so existing cards should keep working.
 
 ## Product Description 
 

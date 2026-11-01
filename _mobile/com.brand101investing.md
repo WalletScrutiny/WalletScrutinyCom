@@ -1,6 +1,6 @@
 ---
 title: 101Investing Online Trading | Forex and Stocks
-date: 2022-04-07
+date: 2026-10-30
 authors:
 - danny
 website: https://www.101investing.com/
@@ -33,6 +33,8 @@ iphone:
   verdict: nosendreceive
 
 ---
+
+**Update 2026-10-30:** The provider is gone, for both apps. The Cyprus regulator CySEC [withdrew the licence of FXBFI Broker Financial Invest Ltd](https://www.financemagnates.com/institutional-forex/cyprus-regulator-withdraws-license-of-fxbfi-broker-amid-compliance-issues/), the operator of 101Investing, in September 2023, after the firm renounced it, and www.101investing.com now shows a Turkish online casino page instead of the broker.
 
 ## Android
 

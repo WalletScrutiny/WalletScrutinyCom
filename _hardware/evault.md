@@ -19,9 +19,9 @@ price: 62.40GBP
 repository: 
 icon: evault.webp
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: vapor
-date: 2024-05-29
+date: 2026-10-30
 signer: 
 twitter: TheEVaultCo
 social: 
@@ -29,6 +29,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** We now mark the EVault defunct instead of obsolete. It never got a working website ([archived captures](https://web.archive.org/web/2019*/evaultcompany.com) show only an error page), and the evaultcompany.com domain has since lapsed, so nobody is left to deliver the promised device.
 
 We found a YouTube channel with a tutorial with the name of "[Evault YouTube](https://www.youtube.com/channel/UCF8PitFzRAa7pUPFBwwhECw)". The channel lists evaultcompany.com as the home page for the Evault hardware wallet. There is currently no website on the domain although it has been registered on March 27, 2018. It will expire on 2024. 
 

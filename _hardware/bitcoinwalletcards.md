@@ -4,7 +4,7 @@ appId: bitcoinwalletcards
 authors:
 - danny
 released: 2017-12-06
-discontinued: 
+discontinued: 2022-05-16
 updated: 
 version: 
 binaries: 
@@ -22,9 +22,9 @@ price:
 repository: 
 icon: bitcoinwalletcards.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: prefilled
-date: 2022-05-19
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -33,7 +33,7 @@ features:
 
 ---
 
-Information about this product online is scarce, especially since it has a generic name. [The official website](https://www.bitcoinwalletcards.com/) is empty besides a header:
+Information about this product online is scarce, especially since it has a generic name. [The official website](https://web.archive.org/web/20220816185457/http://bitcoinwalletcards.com/) is empty besides a header:
 
 > PHLsystems <br />
 -one step ahead-

@@ -4,16 +4,20 @@ appId: pey.pos
 authors:
 - danny
 icon: pey.pos.webp
-date: 2024-01-15
+date: 2026-10-30
 twitter: PEY
 social:
 - https://www.facebook.com/PEYapp
 provider: Ricardo Ferrer Rivero
 providerWebsite: https://web.archive.org/web/20240906202400/https://pey.de/
-meta: ok
+meta: defunct
 verdict: vapor
 
 ---
+
+**⚠️ Warning:** The Pey project appears to be gone. Its website no longer loads and the pey.de domain is for sale.
+
+**Update 2026-10-30:** The terminal never shipped and the provider is gone, so we mark it defunct. By [December 2024](https://web.archive.org/web/20241216155253/http://pey.de/) the pey.de website had expired; the [last archived copy](https://web.archive.org/web/20240906202400/https://pey.de/) is from September 2024.
 
 ## Background 
 

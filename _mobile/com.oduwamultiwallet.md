@@ -9,7 +9,6 @@ social:
 - https://www.facebook.com/Oduwacoin
 - https://www.instagram.com/oduwacoin
 - https://telegram.im/@oduwacoinexchange
-- https://www.oduwacoin.io
 redirect_from:
 - /android/com.oduwamultiwallet/
 - /iphone/com.oduwatrustwallet.ios/

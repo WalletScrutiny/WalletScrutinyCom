@@ -14,9 +14,9 @@ website: https://ctrl.xyz/
 repository: 
 icon: xyz.ctrl.desktop.wallet.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2025-04-24
+date: 2026-10-30
 twitter: ctrl_wallet
 social:
 - https://discord.com/invite/ctrlwallet#deadLink
@@ -25,6 +25,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Ctrl Wallet is shut down. After a security exploit it [announced its closure](https://cointelegraph.com/news/ctrl-wallet-shutdown-security-exploit), and its [website](https://ctrl.xyz/) says it was permanently shut down on August 19, 2026. Users with their recovery phrase can import it into another wallet.
 
 ## Related to:
 

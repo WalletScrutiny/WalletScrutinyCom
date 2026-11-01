@@ -11,7 +11,6 @@ social:
 - https://discord.com/invite/8sex2Upn79
 - https://t.me/metavestofficial
 - https://www.instagram.com/metavestapp
-- https://metavest.app
 redirect_from:
 - /android/app.metavest.mobile/
 - /iphone/app.metavest.client/

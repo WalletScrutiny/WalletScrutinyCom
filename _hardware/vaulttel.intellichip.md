@@ -19,9 +19,9 @@ price: 98USD
 repository: 
 icon: vaulttel.intellichip.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2022-05-19
+date: 2026-10-30
 signer: 
 twitter: vaulttel
 social: 
@@ -29,6 +29,10 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Vaulttel appears to be gone. Its website now shows unrelated content.
+
+**Update 2026-10-30:** The wallet never shipped and the provider is gone, so we mark it defunct. The vaulttel.net domain now hosts an [unrelated blog post](https://vaulttel.net/) about other brands' hardware wallets.
 
 ## Background Information
 

@@ -4,7 +4,7 @@ appId: keyois.capsule
 authors:
 - danny
 released: 
-discontinued: 
+discontinued: 2022-03-30
 updated: 
 version: 
 binaries: 
@@ -19,9 +19,9 @@ price:
 repository: 
 icon: keyois.capsule.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: plainkey
-date: 2022-04-04
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -56,4 +56,4 @@ and:
 
 While the keys aren't "prefilled" the user would have still depended on external devices that aren't secure and cannot approve or make transactions. 
  
-This product is **defunct** along with the manufacturer in charge of it.
+This product is **discontinued**, and its manufacturer is gone.

@@ -19,9 +19,9 @@ price:
 repository: 
 icon: 
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2022-04-29
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -29,6 +29,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** AABT is gone: its website is offline, and there is no sign the AABT X1 ever shipped.
 
 ## Background
 

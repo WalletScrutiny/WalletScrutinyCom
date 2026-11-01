@@ -13,15 +13,15 @@ weight:
 provider: BitCube
 providerWebsite: 
 website: https://web.archive.org/web/20211127191914/http://bitcubewallet.com/
-shop: https://www.indiegogo.com/projects/bitcube-the-most-secure-convenient-bitcoin-wallet/coming_soon
+shop: https://web.archive.org/web/20190127005059/https://www.indiegogo.com/projects/bitcube-the-most-secure-convenient-bitcoin-wallet
 country: CN
 price: 
 repository: 
 icon: bitcube.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2022-04-11
+date: 2026-10-30
 signer: 
 twitter: BitCubeWallet
 social:
@@ -32,9 +32,13 @@ features:
 
 ---
 
+**⚠️ Warning:** BitCube appears to be gone. Its website no longer loads and its crowdfunding page was taken down.
+
+**Update 2026-10-30:** BitCube is gone, so we mark it defunct. The bitcubewallet.com website no longer loads; its [only archived copy is from November 2021](https://web.archive.org/web/20211127191914/http://bitcubewallet.com/). The Indiegogo campaign page now redirects to the Indiegogo homepage ([archived copy from January 2019](https://web.archive.org/web/20190127005059/https://www.indiegogo.com/projects/bitcube-the-most-secure-convenient-bitcoin-wallet)).
+
 ## Product Description 
 
-The project tried to crowdfund the development and production of its multicurrency hardware wallet through [Indiegogo](https://www.indiegogo.com/projects/bitcube-the-most-secure-convenient-bitcoin-wallet/coming_soon). Their website is no longer online. The upload date for their marketing videos are dated December 2018. 
+The project tried to crowdfund the development and production of its multicurrency hardware wallet through [Indiegogo](https://web.archive.org/web/20190127005059/https://www.indiegogo.com/projects/bitcube-the-most-secure-convenient-bitcoin-wallet). Their website is no longer online. The upload date for their marketing videos are dated December 2018. 
 
 ## Analysis
 

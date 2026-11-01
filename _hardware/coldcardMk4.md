@@ -7,7 +7,7 @@ authors:
 - mohammad
 - keraliss
 released: 2022-05-01
-discontinued: 
+discontinued: 2026-10-30
 updated: 2026-09-30
 version: 5.6.3
 binaries: https://coldcard.com/downloads/
@@ -25,9 +25,9 @@ price: 158USD
 repository: https://github.com/Coldcard/firmware
 icon: coldcardMk4.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: sourceavailable
-date: 2025-09-26
+date: 2026-10-30
 signer: 
 twitter: COLDCARDwallet
 social:
@@ -43,6 +43,8 @@ features:
 <div class="alertBox"><div>
 ⚠️ Warning (2026-08-02): Seeds generated on this device with firmware before 5.6.0 (Edge 6.6.0X) have as little as ~72 bits of entropy instead of the intended 128 and may be predictable. Updating the firmware does not repair a seed that was already created — Coinkite advises updating, generating a new seed on the fixed firmware, and moving any funds to it. Seeds are not affected by this issue alone only if at least 50 fair, independent, private dice rolls were added when the seed was created, those rolls were never recorded or otherwise exposed, and the seed words used are the ones shown after adding them. You must roll physical dice yourself and enter each result — the device does not generate the rolls for you. See <a href="https://blog.coinkite.com/coldcard-mk3-seed-generation-warning/">Coinkite's security advisory</a> and the <a href="https://coldcard.com/docs/upgrade/">official firmware update instructions</a>.
 </div> </div>
+
+**Update 2026-10-30:** Coinkite no longer sells the Mk4. Its [Mk4 page](https://coldcard.com/mk4) says owners still get firmware updates and support, and that the {% include walletLink.html wallet='hardware/coldcardMk5' verdict='true' %} replaces it.
 
 {% include featureEvidence.html feature="multiSig" source="Review" quote="More multisig wallets possible" %}
 {% include featureEvidence.html feature="secEl" source="Review" quote="Even more security, Dual SE (Secure Elements)" %}

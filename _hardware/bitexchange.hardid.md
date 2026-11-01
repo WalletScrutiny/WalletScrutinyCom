@@ -4,7 +4,7 @@ appId: bitexchange.hardid
 authors:
 - danny
 released: 2017-11-15
-discontinued: 
+discontinued: 2025-02-28
 updated: 2018-04-18
 version: 
 binaries: 
@@ -19,9 +19,9 @@ price: 149USD
 repository: https://github.com/lightningasic/BitExchange-Hardware-Wallet
 icon: bitexchange.hardid.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: plainkey
-date: 2022-04-29
+date: 2026-10-30
 signer: 
 twitter: 
 social:

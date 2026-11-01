@@ -4,18 +4,21 @@ appId: bitsafe.card
 authors:
 - danny
 icon: bitsafe.card.webp
-date: 2023-04-28
+date: 2026-10-30
 released: 2021-12-28
+discontinued: 2023-10-12
 website: https://www.bitsafecard.com#deadLink
 twitter: Bitsafecard
 provider: Bethino LLC
 shop: https://www.bitsafecard.com/en/Shop#deadLink
 country: TR
-meta: ok
+meta: discontinued
 verdict: prefilled
 social: 
 
 ---
+
+**Update 2026-10-30:** BitSafeCard is no longer sold. The website was [still up in June 2023](https://web.archive.org/web/20230604133256/https://www.bitsafecard.com/tr/Transaction/Bitcoin), showed only an access-denied page [from October 2023](https://web.archive.org/web/20231012202433/http://www.bitsafecard.com/), and no longer loads at all. The private key is printed on the card, so a card you own still works without the seller; we mark it discontinued instead of defunct.
 
 ## Updated Review 2023-04-28
 

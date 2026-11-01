@@ -22,9 +22,9 @@ price:
 repository: 
 icon: btxon.bidun.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2023-03-01
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -32,6 +32,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** Bidun never shipped and the provider is gone, so we mark it defunct. btxon.com still does not load; its [last archived copy from August 2023](https://web.archive.org/web/20230816190528/http://www.btxon.com/) is a generic company page full of unrelated ads.
 
 ## Product Description 
 

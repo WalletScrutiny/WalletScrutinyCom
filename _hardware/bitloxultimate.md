@@ -6,7 +6,7 @@ authors:
 - danny
 - leo
 released: 2015-01-01
-discontinued: 
+discontinued: 2022-05-26
 updated: 2022-04-20
 version: 67_signed
 binaries: https://github.com/BitLox/bitlox-firmware/releases/tag/v67_app
@@ -24,9 +24,9 @@ price: 148USD
 repository: https://github.com/BitLox/bitlox-firmware
 icon: bitloxultimate.webp
 bugbounty: 
-meta: obsolete
+meta: discontinued
 verdict: sourceavailable
-date: 2024-04-03
+date: 2026-10-30
 signer: 
 twitter: bitlox
 social:
@@ -35,6 +35,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** The BitLox Ultimate is no longer sold. The [BitLox shop](https://www.bitlox.com/products/bitlox-ultimate) still lists it but marks it sold out, and it has been sold out [at least since May 2022](https://web.archive.org/web/20220526084047/https://www.bitlox.com/products/bitlox-ultimate).
 
 **Update 2024-04-03**: This project did share some code but that code is from
 2017. This project is obsolete.

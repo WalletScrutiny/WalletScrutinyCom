@@ -1,7 +1,7 @@
 ---
 title: 1502 Freelancer Market Place
-date: 2023-06-03
-website: https://1502.app/
+date: 2026-10-30
+website: https://1502.app/#deadLink
 redirect_from:
 - /android/com.nosapps.android.i5o2/
 android:
@@ -18,3 +18,4 @@ android:
 
 ---
 
+**⚠️ Warning:** The 1502 website is gone; the server now says the page is no longer available. It was still online in [July 2026](https://web.archive.org/web/20260712142231/https://1502.app/).

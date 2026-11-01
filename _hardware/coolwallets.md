@@ -5,7 +5,7 @@ authors:
 - kiwilamb
 - leo
 released: 2018-01-01
-discontinued: 
+discontinued: 2025-08-24
 updated: 
 version: 
 binaries: 
@@ -16,16 +16,16 @@ dimensions:
 weight: 6
 provider: CoolBitX
 providerWebsite: https://coolbitx.com/
-website: https://www.coolwallet.io/coolwallet_s
+website: https://web.archive.org/web/20260306085103/https://www.coolwallet.io/products/coolwallet-s
 shop: https://www.coolwallet.io/product/coolwallet/
 country: TW
 price: 99USD
 repository: 
 icon: coolwallets.webp
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: plainkey
-date: 2021-12-08
+date: 2026-10-30
 signer: 
 twitter: coolwallet
 social:
@@ -34,6 +34,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** CoolBitX no longer sells the CoolWallet S, so we mark it discontinued. Its [last archived product page, from March 2026](https://web.archive.org/web/20260306085103/https://www.coolwallet.io/products/coolwallet-s), shows both variants as "Sold Out", the page is now gone, and the [CoolWallet shop](https://www.coolwallet.io/collections/coolwallet) now lists only the CoolWallet Pro and CoolWallet Go.
 
 ## Update Verdict 2021-12-08
 

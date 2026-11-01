@@ -1,7 +1,7 @@
 ---
 title: Satoshi Wallet
-date: 2026-02-02
-website: https://satoshiwalletapp.com
+date: 2026-10-30
+website: https://satoshiwalletapp.com#deadLink
 redirect_from:
 - /android/com.satoshiwallet/
 android:
@@ -18,3 +18,4 @@ android:
 
 ---
 
+**⚠️ Warning:** The Satoshi Wallet website no longer loads: its domain registration has lapsed, and the Wayback Machine has no copy of it.

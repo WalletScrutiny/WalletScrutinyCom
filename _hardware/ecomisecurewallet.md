@@ -4,7 +4,7 @@ appId: ecomisecurewallet
 authors:
 - danny
 released: 2018-05-07
-discontinued: 
+discontinued: 2021-07-24
 updated: 2024-06-20
 version: 3.0.9
 binaries: 
@@ -19,9 +19,9 @@ price: 199USD
 repository: 
 icon: ecomisecurewallet.webp
 bugbounty: 
-meta: obsolete
+meta: discontinued
 verdict: plainkey
-date: 2025-02-06
+date: 2026-10-30
 signer: 
 twitter: ecomi_
 social:
@@ -31,6 +31,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** ECOMI no longer sells the Secure Wallet. Its shop page listed it as sold out at least since [July 2021](https://web.archive.org/web/20210724133417/https://securewallet.shop/products/secure-wallet), and securewallet.shop now shows an unrelated page. The companion app is still available for Android and iPhone, so existing cards can still be used.
 
 ## Update 2025-02-06
 

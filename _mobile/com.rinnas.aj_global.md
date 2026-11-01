@@ -1,9 +1,9 @@
 ---
 title: 'AjGlobalV: Crypto And Giftcard'
-date: 2025-10-02
+date: 2026-10-30
 authors:
 - danny
-website: https://ajglobalv.com/
+website: https://ajglobalv.com/#deadLink
 twitter: ajglobalv
 social:
 - https://www.facebook.com/AJGLOBALVENTURES
@@ -37,6 +37,8 @@ iphone:
 
 ---
 
+**⚠️ Warning:** Both apps are gone from the stores, and AJ Global's website now shows an unrelated online gambling page. The last archived copy of the AJ Global site is from [September 2025](https://web.archive.org/web/20250908234606/https://ajglobalv.com/).
+
 ## Android
 
 ## App Description
@@ -59,7 +61,7 @@ The platform allows the trading of gift cards, Bitcoin and Naira.
        
 ## The Site
 
-[**The Terms and Conditions**](https://ajglobalv.com/client/terms)
+[**The Terms and Conditions**](https://ajglobalv.com/client/terms#deadLink)
 
 **Termination Clause**
 

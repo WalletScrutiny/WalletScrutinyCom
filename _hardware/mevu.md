@@ -19,9 +19,9 @@ price:
 repository: 
 icon: mevu.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2024-01-15
+date: 2026-10-30
 signer: 
 twitter: mevulab
 social: 
@@ -29,6 +29,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Mevu is gone, and its wearable wallet never shipped.
 
 This conceptually interesting hardware wallet was publicized on [Coindesk](https://www.coindesk.com/markets/2014/04/22/mevus-wearable-bitcoin-wallet-can-make-payments-with-a-gesture/) in 2014.
 

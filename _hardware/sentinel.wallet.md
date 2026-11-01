@@ -12,16 +12,16 @@ dimensions:
 weight: 
 provider: Sentinel Wallet LLC
 providerWebsite: 
-website: https://sentinelwallet.com
+website: https://web.archive.org/web/20241004051014/https://sentinelwallet.com/
 shop: 
 country: US
 price: 
 repository: 
 icon: sentinel.wallet.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2024-10-22
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -29,6 +29,10 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** The Sentinel Wallet was never released, and its site is gone.
+
+**Update 2026-10-30:** Since January 2025, sentinelwallet.com has forwarded to [Sleev](https://sleev.io/about/), a payment-card brand backed by Sentry Enterprises. The Sentinel Wallet is no longer mentioned there. The old product page survives only in the [archive](https://web.archive.org/web/20241004051014/https://sentinelwallet.com/).
 
 ## Update 2024-10-22
 

@@ -8,7 +8,6 @@ twitter: Holloxintl
 social:
 - https://www.facebook.com/holloxintl
 - https://www.instagram.com/holloxintl
-- https://hollox.finance/
 redirect_from:
 - /android/finance.hollox.app/
 - /iphone/finance.hollox/

@@ -1,9 +1,9 @@
 ---
 title: BIB
 date: 2026-10-30
+website: https://www.bibvip.com
 twitter: bib_exchange
 social:
-- https://www.bibvip.com
 - https://www.linkedin.com/company/bibexchangeofficial
 - https://www.facebook.com/bibexchangeofficial
 - https://www.instagram.com/bib_chinese

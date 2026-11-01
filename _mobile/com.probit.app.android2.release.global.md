@@ -1,6 +1,6 @@
 ---
 title: 'ProBit Global: Buy BTC, Crypto'
-date: 2026-01-28
+date: 2026-10-30
 authors:
 - leo
 website: https://www.probit.com
@@ -24,6 +24,8 @@ android:
   developerName: Probit Global Services Limited
 
 ---
+
+**⚠️ Warning:** ProBit Global has shut down. Its [website](https://www.probit.com) says all operations, including the mobile app, ended on April 1, 2026, and that balances not withdrawn by March 31, 2026 can no longer be recovered.
 
 Probit appears to also and mainly be an exchange and as we can't find claims to
 the contrary, we assume this app is a custodial offering and thus **not verifiable**.

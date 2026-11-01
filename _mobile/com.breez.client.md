@@ -9,8 +9,6 @@ authors:
 - danny
 website: http://breez.technology
 twitter: breez_tech
-social:
-- http://breez.technology
 features:
 - bip158spv
 - TOR

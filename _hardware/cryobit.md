@@ -22,9 +22,9 @@ price:
 repository: 
 icon: cryobit.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: prefilled
-date: 2022-03-11
+date: 2026-10-30
 signer: 
 twitter: cryobit
 social:

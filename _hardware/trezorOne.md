@@ -5,7 +5,7 @@ authors:
 - leo
 - Mohammad
 released: 2014-07-29
-discontinued: 
+discontinued: 2026-01-08
 updated: 2026-03-02
 version: 1.14.1
 binaries: https://github.com/trezor/webwallet-data/tree/master/firmware/1
@@ -17,15 +17,15 @@ weight: 12
 provider: 
 providerWebsite: 
 website: https://trezor.io
-shop: https://shop.trezor.io/product/trezor-one-black
+shop: https://trezor.io/trezor-model-one
 country: CZ
 price: 49EUR
 repository: https://github.com/trezor/trezor-firmware
 icon: trezorOne.webp
 bugbounty: https://trezor.io/security
-meta: ok
+meta: discontinued
 verdict: sourceavailable
-date: 2025-05-06
+date: 2026-10-30
 signer: 
 twitter: trezor
 social:
@@ -46,6 +46,8 @@ features:
 - foss
 
 ---
+
+**Update 2026-10-30:** Trezor stopped selling the Model One in its shop on January 8, 2026, and [the product page](https://trezor.io/trezor-model-one) now says "Discontinued" and points buyers to the {% include walletLink.html wallet='hardware/trezorSafe3' verdict='true' %}. Devices already sold keep working: Trezor [promises](https://trezor.io/other/product-updates/how-long-will-trezor-model-one-and-model-t-be-supported) maintenance until at least 2031 and critical security fixes until at least 2036.
 
 ## Device Description
 

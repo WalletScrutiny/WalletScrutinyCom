@@ -12,16 +12,16 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: https://theneko.io/
+website: https://theneko.io/#deadLink
 shop: 
 country: 
 price: 
 repository: 
 icon: 
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2024-10-21
+date: 2026-10-30
 signer: 
 twitter: TheNeko_io
 social:
@@ -32,6 +32,10 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** The Neko project appears to be gone. theneko.io now leads to an unrelated football streaming site.
+
+**Update 2026-10-30:** The hardware wallet never shipped and the project is gone, so we mark it defunct.
 
 ## Update 2024-10-21
 

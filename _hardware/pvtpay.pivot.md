@@ -13,15 +13,15 @@ weight:
 provider: PVT PAY
 providerWebsite: 
 website: https://pvtpay.eu#deadLink
-shop: https://www.indiegogo.com/projects/pvt-pay-the-rise-of-the-pivot/coming_soon
+shop: https://www.indiegogo.com/projects/pvt-pay-the-rise-of-the-pivot/coming_soon#deadLink
 country: DE
 price: 
 repository: 
 icon: pvtpay.pivot.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2024-10-22
+date: 2026-10-30
 signer: 
 twitter: pvt_pay
 social:
@@ -33,6 +33,10 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** PVT PAY appears to be gone. Its website no longer loads, and its Indiegogo page is gone.
+
+**Update 2026-10-30:** The Pivot never shipped and the provider is gone, so we mark it defunct.
 
 ## Update 2024-10-22
 
@@ -54,7 +58,7 @@ Since this is a new product, details are still sparse and general:
 
 ## Verdict 
 
-The [Indiegogo page](https://www.indiegogo.com/projects/pvt-pay-the-rise-of-the-pivot/coming_soon) indicates that this product is "coming soon". This hardware wallet has not yet been released but from the scarce material it looks like not featuring any screen, which would make transaction signing problematic.
+The [Indiegogo page](https://www.indiegogo.com/projects/pvt-pay-the-rise-of-the-pivot/coming_soon#deadLink) indicates that this product is "coming soon". This hardware wallet has not yet been released but from the scarce material it looks like not featuring any screen, which would make transaction signing problematic.
 
 
 

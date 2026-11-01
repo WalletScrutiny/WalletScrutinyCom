@@ -19,9 +19,9 @@ price: 350USD
 repository: 
 icon: storecold.webp
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: vapor
-date: 2024-10-23
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -29,6 +29,10 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Storecold is gone: storecold.io no longer loads, and the device never shipped.
+
+**Update 2026-10-30:** A product that never shipped from a provider that is gone is a broken promise, so we mark it defunct. The [last archived copy](https://web.archive.org/web/20220328221820/https://storecold.io/) of the site is from March 2022.
 
 ## Update 2024-10-23
 

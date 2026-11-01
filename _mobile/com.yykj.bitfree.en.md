@@ -6,7 +6,6 @@ authors:
 website: https://www.bitfree.us/#contact
 twitter: bitfree_us
 social:
-- https://bitfree.us
 - https://www.facebook.com/bitfree.official
 - https://t.me/bitfreehelp
 redirect_from:

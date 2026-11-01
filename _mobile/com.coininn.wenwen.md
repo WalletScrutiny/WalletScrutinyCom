@@ -1,9 +1,9 @@
 ---
 title: CoinInn-Trade Altcoin
-date: 2025-07-18
+date: 2026-10-30
 authors:
 - danny
-website: https://www.coininn.com
+website: https://www.coininn.com#deadLink
 twitter: coin_inn
 social:
 - https://www.linkedin.com/company/coininnwealthuab
@@ -37,6 +37,8 @@ iphone:
   developerName: CoinInn Wealth UAB
 
 ---
+
+**⚠️ Warning:** CoinInn appears to be gone. Its website no longer loads, and its Lithuanian company CoinInn Wealth UAB went into liquidation in August 2025 and was [deregistered on 2026-09-09](https://www.lursoft.lv/en/companies/lt/company/coininn-wealth-uab/305910851).
 
 ## Android
 

@@ -8,7 +8,6 @@ twitter: WOWEARNENG
 social:
 - https://t.me/wowearnen
 - https://medium.com/@wowearn2023
-- https://wowearn.com
 redirect_from:
 - /android/com.hxg.wallet/
 - /iphone/com.ULLA.wallet.WalletForiOS/

@@ -4,8 +4,9 @@ appId: cryptowizard.usbcoldwallet
 authors:
 - danny
 icon: cryptowizard.usbcoldwallet.webp
-date: 2023-09-29
+date: 2026-10-30
 released: 2022-05-02
+discontinued: 2026-10-30
 social:
 - https://www.facebook.com/profile.php?id=100046009663491
 weight: 56.7
@@ -14,10 +15,12 @@ providerWebsite: https://gurucomputers.us
 shop: https://www.amazon.com/dp/B09ZBKN6WS
 country: US
 price: 60USD
-meta: ok
+meta: discontinued
 verdict: plainkey
 
 ---
+
+**Update 2026-10-30:** The [Amazon listing](https://www.amazon.com/dp/B09ZBKN6WS) now says the stick is currently unavailable, with no word on whether it will be back, and Guru Computers' [website](https://gurucomputers.us) only forwards to an empty profile page. We mark the product discontinued.
 
 ## Product Background
 
