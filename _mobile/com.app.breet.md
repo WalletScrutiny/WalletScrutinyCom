@@ -1,6 +1,6 @@
 ---
 title: Breet - Buy, Swap, Sell Crypto
-date: 2026-10-30
+date: 2026-11-01
 authors:
 - danny
 website: https://breet.app
@@ -23,7 +23,7 @@ android:
   reviews: 216
   icon: com.app.breet.webp
   meta: ok
-  verdict: nosendreceive
+  verdict: nowallet
   developerName: Inbreetic Technologies Limited
 iphone:
   appId: com.app.breet
@@ -35,10 +35,11 @@ iphone:
   reviews: 1251
   icon: com.app.breet.webp
   meta: ok
-  verdict: nosendreceive
+  verdict: nowallet
   developerName: BREET TECHNOLOGIES LIMITED
 
 ---
+**Update 2026-11-01:** Breet is an off-ramp: bitcoin sent to it is sold for fiat, and there is no way to take bitcoin back out. That makes it {% include verdictBadge.html verdict="nowallet" type='short' %}, the verdict we give all off-ramps.
 
 ## Android
 

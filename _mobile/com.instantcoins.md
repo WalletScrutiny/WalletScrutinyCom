@@ -1,6 +1,6 @@
 ---
 title: 'Instantcoins: sell bitcoin in '
-date: 2026-10-30
+date: 2026-11-01
 authors:
 - danny
 website: https://instantcoins.ng#deadLink
@@ -20,7 +20,7 @@ android:
   reviews: 161
   icon: com.instantcoins.webp
   meta: removed
-  verdict: nosendreceive
+  verdict: nowallet
   developerName: instantcoins technologies
 iphone:
   appId: com.instantcoins
@@ -31,9 +31,10 @@ iphone:
   reviews: 26
   icon: com.instantcoins.webp
   meta: removed
-  verdict: nosendreceive
+  verdict: nowallet
 
 ---
+**Update 2026-11-01:** Instantcoins is an off-ramp: bitcoin sent to it is sold for fiat, and there is no way to take bitcoin back out. That makes it {% include verdictBadge.html verdict="nowallet" type='short' %}, the verdict we give all off-ramps.
 
 **Update 2026-10-30:** Instantcoins appears to be gone. Its domain now points to a link shortener's placeholder page.
 

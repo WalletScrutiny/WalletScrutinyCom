@@ -1,6 +1,6 @@
 ---
 title: 'Cash-in: Crypto to naira app'
-date: 2026-10-30
+date: 2026-11-01
 authors:
 - danny
 website: https://cash-in.app
@@ -23,7 +23,7 @@ android:
   reviews: 131
   icon: com.whitehat.cashin_app.webp
   meta: ok
-  verdict: nosendreceive
+  verdict: nowallet
   developerName: Macroblocs Ltd
 iphone:
   appId: com.macroblocs.cashinApp
@@ -35,10 +35,11 @@ iphone:
   reviews: 1333
   icon: com.macroblocs.cashinApp.webp
   meta: ok
-  verdict: nosendreceive
+  verdict: nowallet
   developerName: Macroblocs Limited
 
 ---
+**Update 2026-11-01:** Cash-in is an off-ramp: bitcoin sent to it is sold for fiat, and there is no way to take bitcoin back out. That makes it {% include verdictBadge.html verdict="nowallet" type='short' %}, the verdict we give all off-ramps.
 
 ## Android
 

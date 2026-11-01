@@ -1,6 +1,6 @@
 ---
 title: CoinPlug - Swap Crypto to Cash
-date: 2026-10-30
+date: 2026-11-01
 authors:
 - danny
 website: https://coinplug.ng
@@ -20,7 +20,7 @@ android:
   reviews: 5
   icon: app.coinplug.webp
   meta: stale
-  verdict: nosendreceive
+  verdict: nowallet
   developerName: CoinPlug Digitals LTD
 iphone:
   appId: app.coinplug.ng
@@ -32,10 +32,11 @@ iphone:
   reviews: 14
   icon: app.coinplug.ng.webp
   meta: stale
-  verdict: nosendreceive
+  verdict: nowallet
   developerName: COINPLUG LTD
 
 ---
+**Update 2026-11-01:** CoinPlug is an off-ramp: bitcoin sent to it is sold for fiat, and there is no way to take bitcoin back out. That makes it {% include verdictBadge.html verdict="nowallet" type='short' %}, the verdict we give all off-ramps.
 
 ## Android
 

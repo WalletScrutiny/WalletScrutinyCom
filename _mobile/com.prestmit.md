@@ -1,6 +1,6 @@
 ---
 title: 'Prestmit: Gift Cards & Crypto'
-date: 2026-10-30
+date: 2026-11-01
 authors:
 - danny
 website: https://prestmit.io
@@ -21,7 +21,7 @@ android:
   reviews: 890
   icon: com.prestmit.webp
   meta: ok
-  verdict: nosendreceive
+  verdict: nowallet
   developerName: Prestmit
 iphone:
   appId: com.prestmit.app
@@ -33,10 +33,11 @@ iphone:
   reviews: 7409
   icon: com.prestmit.app.webp
   meta: ok
-  verdict: nosendreceive
+  verdict: nowallet
   developerName: Prestmit Technologies LTD.
 
 ---
+**Update 2026-11-01:** Prestmit is an off-ramp: bitcoin sent to it is sold for fiat, and there is no way to take bitcoin back out. That makes it {% include verdictBadge.html verdict="nowallet" type='short' %}, the verdict we give all off-ramps.
 
 ## Android
 
