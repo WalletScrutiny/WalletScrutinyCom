@@ -1,6 +1,6 @@
 ---
 title: UmiFi-Bitcoin, Crypto Trading
-date: 2022-02-25
+date: 2026-10-30
 authors:
 - danny
 website: http://www.umifi.com
@@ -29,6 +29,8 @@ iphone:
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** [umifi.com](http://www.umifi.com) now leads to a HugeDomains page that sells the domain, and its [Zendesk help center](https://umificom.zendesk.com/), which the analysis below cites, is closed.
 
 ## Android
 

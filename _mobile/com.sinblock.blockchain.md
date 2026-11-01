@@ -1,9 +1,9 @@
 ---
 title: 'AceBitx: Trade Anytime'
 date: 2026-10-30
+website: https://www.aibit.com/
 twitter: aibitcom
 social:
-- https://www.aibit.com/
 - https://www.facebook.com/aibitcom
 - https://discord.com/invite/aibitcom#deadLink
 - https://medium.com/@aibitcom

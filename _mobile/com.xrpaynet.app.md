@@ -6,7 +6,6 @@ authors:
 website: https://web.archive.org/web/20260911122028/https://xrpaynet.com/
 twitter: XRPayNet
 social:
-- https://xrpaynet.com#deadLink
 - https://www.linkedin.com/company/xrpaynet
 - https://www.facebook.com/XRPayNet-107640621785961
 - https://t.me/XRPayNetChat

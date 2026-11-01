@@ -1,6 +1,6 @@
 ---
 title: iWallet - blockchain wallet for Bitcoin, Ethereum
-date: 2021-11-16
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -30,6 +30,8 @@ iphone:
   verdict: nosource
 
 ---
+
+**Update 2026-10-30:** iWallet is defunct. The app is gone from both stores and the provider's website no longer works.
 
 ## Android
 

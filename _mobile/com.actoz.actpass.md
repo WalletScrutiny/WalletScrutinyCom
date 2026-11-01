@@ -4,8 +4,6 @@ date: 2026-10-30
 authors:
 - danny
 website: https://www.actpass.com
-social:
-- https://www.actpass.com
 redirect_from:
 - /android/com.actoz.actpass/
 - /iphone/com.actoz.actpass/

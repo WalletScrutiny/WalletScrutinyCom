@@ -4,8 +4,6 @@ date: 2026-10-30
 authors:
 - danny
 website: https://defiato.com/#deadLink
-social:
-- https://defiato.com#deadLink
 redirect_from:
 - /android/com.defiato/
 - /iphone/com.defiato/

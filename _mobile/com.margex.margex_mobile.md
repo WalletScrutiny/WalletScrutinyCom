@@ -9,7 +9,6 @@ social:
 - https://www.facebook.com/margexcom
 - https://www.youtube.com/c/margex
 - https://t.me/margex_official
-- https://margex.com
 redirect_from:
 - /android/com.margex.margex_mobile/
 - /iphone/com.margex.mobile/

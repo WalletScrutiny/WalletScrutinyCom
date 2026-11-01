@@ -3,9 +3,8 @@ title: LEO12 Exchange
 date: 2026-10-30
 authors:
 - danny
+website: https://www.leo12.com#deadLink
 twitter: LEO12_EXCHANGE
-social:
-- https://www.leo12.com#deadLink
 redirect_from:
 - /android/com.tigerandpartners.leo_react_native/
 - /iphone/com.tigerandpartners.Leo/

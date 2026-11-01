@@ -4,8 +4,6 @@ date: 2026-10-30
 authors:
 - danny
 website: https://folgory.com#deadLink
-social:
-- https://folgory.com#deadLink
 redirect_from:
 - /android/com.app.folgory/
 android:

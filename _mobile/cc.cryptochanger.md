@@ -1,6 +1,6 @@
 ---
 title: CryptoChanger Exchange - Buy & Sell CryptoCurrency
-date: 2021-10-22
+date: 2026-10-30
 redirect_from:
 - /android/cc.cryptochanger/
 android:
@@ -11,8 +11,10 @@ android:
   version: '0.4'
   reviews: 20
   meta: removed
-  verdict: wip
+  verdict: nowallet
 
 ---
+
+**Update 2026-10-30:** Its [archived store page](http://web.archive.org/web/20210228143125/https://play.google.com/store/apps/details?id=cc.cryptochanger) from February 2021 described an instant crypto-to-crypto exchange for more than 70 coins. It is an exchange service without a wallet, so it is {% include verdictBadge.html verdict="nowallet" type='short' %}, like {% include walletLinkArchived.html wallet='android/com.exolix.app' %}.
 
 **Update 2021-10-13**: This app is no more.

@@ -6,7 +6,6 @@ authors:
 website: https://bytex.io/
 twitter: bytex_io
 social:
-- https://bytex.io
 - https://t.me/ByteX_Announcements
 - https://www.facebook.com/ByteX.official
 - https://www.youtube.com/channel/UCx4i62Sd6HNzEIqfZvRqVgg

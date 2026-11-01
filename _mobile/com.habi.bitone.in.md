@@ -3,8 +3,7 @@ title: BitOne
 date: 2026-10-30
 authors:
 - danny
-social:
-- https://www.bitone.trade#deadLink
+website: https://www.bitone.trade#deadLink
 redirect_from:
 - /android/com.habi.bitone.in/
 android:

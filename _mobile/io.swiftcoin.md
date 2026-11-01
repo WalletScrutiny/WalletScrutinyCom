@@ -11,7 +11,6 @@ social:
 - https://www.tiktok.com/@swiftcoinio
 - https://www.youtube.com/@swiftcoin
 - https://www.facebook.com/SwiftCoin.io
-- https://swiftcoin.io
 redirect_from:
 - /android/io.swiftcoin/
 - /iphone/io.swiftcoin/

@@ -3,8 +3,7 @@ title: Pulsar Platform LTD
 date: 2026-10-30
 authors:
 - danny
-social:
-- https://pulsarbank.com#deadLink
+website: https://pulsarbank.com#deadLink
 redirect_from:
 - /android/com.pulsarbank/
 android:

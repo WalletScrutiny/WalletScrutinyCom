@@ -1,9 +1,9 @@
 ---
 title: 'QuantDART: Digital Asset Investment & Management'
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
-website: https://www.quantdart.com/
+website: https://www.quantdart.com/#deadLink
 twitter: QuantDART
 social:
 - https://www.facebook.com/quantdart
@@ -30,6 +30,8 @@ iphone:
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** QuantDART appears to be gone. Its [website](https://web.archive.org/web/20240509152759/https://www.quantdart.com/) was last archived in May 2024; by late 2024 the domain showed a parking page and later a casino advert, and today the site no longer loads.
 
 ## Android
 

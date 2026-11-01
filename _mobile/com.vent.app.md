@@ -7,7 +7,6 @@ website: https://vent.africa
 twitter: ventafricaHQ
 social:
 - https://t.me/ventafrica
-- https://vent.africa
 redirect_from:
 - /android/com.vent.app/
 - /iphone/com.ventafrica.app/

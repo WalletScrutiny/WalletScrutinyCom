@@ -10,7 +10,6 @@ social:
 - https://www.linkedin.com/company/coinlord.trading
 - https://t.me/coinlord_official
 - https://www.instagram.com/coinlordtrade
-- https://coinlord.org#deadLink
 redirect_from:
 - /android/com.cryptore.android/
 - /iphone/com.cryptore.nine99/

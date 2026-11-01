@@ -1,9 +1,9 @@
 ---
 title: SNEX
-date: 2023-08-25
+date: 2026-10-30
 authors:
 - danny
-website: https://www.sinance.net
+website: https://www.sinance.net#deadLink
 redirect_from:
 - /android/com.sinance.exchange/
 android:
@@ -17,6 +17,9 @@ android:
   developerName: Sinance Developer
 
 ---
+
+**Update 2026-10-30:** Sinance looks gone. On 2026-10-30 sinance.net showed only a
+placeholder page from a domain seller, and the app is no longer on Google Play.
 
 ## App Description from Google Play 
 

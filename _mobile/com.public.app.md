@@ -1,6 +1,6 @@
 ---
 title: Public – Stocks and Options
-date: 2023-07-21
+date: 2026-10-30
 authors:
 - danny
 website: https://public.com
@@ -23,7 +23,7 @@ android:
   version: 3.267.0
   reviews: 9586
   meta: ok
-  verdict: nosendreceive
+  verdict: custodial
   developerName: Public Holdings, Inc.
 iphone:
   appId: com.t3securities.matador
@@ -34,10 +34,18 @@ iphone:
   version: 5.7.0
   reviews: 85436
   meta: ok
-  verdict: nosendreceive
+  verdict: custodial
   developerName: Open to the Public Investing, Inc.
 
 ---
+
+**Update 2026-10-30:** Public now lets users send and receive crypto, including Bitcoin.
+Since moving its crypto from Bakkt to zerohash, members outside New York can
+[transfer coins in and out](https://help.public.com/en/articles/8900850-how-do-i-transfer-crypto)
+for the [supported coins](https://help.public.com/en/articles/11987122-what-tokens-will-be-supported-with-zerohash),
+but zerohash holds them, so the app is now
+{% include verdictBadge.html verdict="custodial" type='short' %} instead of
+{% include verdictBadge.html verdict="nosendreceive" type='short' %}.
 
 ## Android
 

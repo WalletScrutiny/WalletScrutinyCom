@@ -11,7 +11,6 @@ social:
 - https://www.reddit.com/r/PrimeXBT
 - https://discord.com/invite/yEr8p72pxu#deadLink
 - https://www.youtube.com/channel/UCzH0C03Gy8uHyKr-Y59cwJg
-- https://primexbt.com
 redirect_from:
 - /android/com.primexbt.trade/
 - /iphone/primexbtcom/

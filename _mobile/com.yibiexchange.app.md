@@ -10,7 +10,6 @@ social:
 - https://officialyibi.medium.com
 - https://www.reddit.com/r/yibiOffical
 - https://www.youtube.com/@YibiOfficial/video
-- https://yibi.co
 redirect_from:
 - /android/com.yibiexchange.app/
 - /iphone/com.yibi/

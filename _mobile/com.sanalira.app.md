@@ -9,7 +9,6 @@ social:
 - https://www.facebook.com/sanaliracom
 - https://www.instagram.com/sanaliracom
 - https://www.linkedin.com/company/sanalira
-- https://www.sanalira.com#deadLink
 redirect_from:
 - /android/com.sanalira.app/
 - /iphone/com.sanalira.app/

@@ -10,7 +10,6 @@ social:
 - https://www.linkedin.com/company/coinw-exchange
 - https://medium.com/@coinwglobal23
 - https://www.instagram.com/coinw_exchange
-- https://www.coinw.com
 redirect_from:
 - /android/com.coinw.win/
 - /iphone/com.coinwapp.legend/

@@ -1,6 +1,6 @@
 ---
 title: BHEX
-date: 2021-11-08
+date: 2026-10-30
 authors:
 - danny
 website: https://bhex.co#deadLink
@@ -25,7 +25,7 @@ iphone:
   version: 4.1.2
   reviews: 35
   meta: removed
-  verdict: wip
+  verdict: custodial
 
 ---
 
@@ -36,5 +36,7 @@ The service made an announcement [**regarding the closing of its services.**](ht
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** An [archived copy of its App Store page](https://web.archive.org/web/20210619202418/https://apps.apple.com/us/app/bhex/id1441395245) calls BHEX a "cryptocurrency exchange" where "user assets are completely managed and cleared by Bluehelix decentralized technology". The exchange held its users' coins, so the iPhone app gets the verdict {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 The Android analysis above applies to the iPhone app too.

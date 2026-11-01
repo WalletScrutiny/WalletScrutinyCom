@@ -1,10 +1,9 @@
 ---
 title: BMG INT
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
-social:
-- https://www.bmgcrypto.us
+website: https://web.archive.org/web/20230419205451/https://www.bmgcrypto.us/index.html
 redirect_from:
 - /android/com.yesapp.mw/
 android:
@@ -18,6 +17,8 @@ android:
   developerName: MW KOP
 
 ---
+
+**Update 2026-10-30:** BMG's website no longer loads; the last working copy in the [Wayback Machine](https://web.archive.org/web/20230419205451/https://www.bmgcrypto.us/index.html) is from 2023. The app is no longer on Google Play.
 
 ## App Description from Google Play 
 

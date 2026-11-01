@@ -10,7 +10,6 @@ social:
 - https://discord.com/invite/RBCRGZVsQx
 - https://www.linkedin.com/in/vynkchain-community-59b283208
 - https://t.me/VYNKCHAIN
-- https://vynkpay.app#deadLink
 redirect_from:
 - /android/com.vynkpay/
 - /iphone/com.pixels.vynkpay/

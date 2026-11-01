@@ -9,7 +9,6 @@ social:
 - https://www.linkedin.com/company/indoex-exchange
 - https://t.me/Indoex
 - https://www.facebook.com/Indoex.official
-- https://international.indoex.io
 redirect_from:
 - /android/com.indoex.finance/
 - /iphone/com.indoex.dev/

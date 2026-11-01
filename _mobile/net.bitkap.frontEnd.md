@@ -9,7 +9,6 @@ social:
 - https://www.linkedin.com/company/limitlesstech237
 - https://www.facebook.com/BitkapAfrica
 - https://t.me/joinchat/UKx9cqSCN9LBbH34
-- https://bitkap.africa
 redirect_from:
 - /android/net.bitkap.frontEnd/
 - /iphone/net.bitkap.frondend/

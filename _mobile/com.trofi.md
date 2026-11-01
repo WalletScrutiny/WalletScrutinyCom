@@ -9,7 +9,6 @@ social:
 - https://www.linkedin.com/company/yieldapp
 - https://t.me/yieldapp
 - https://discord.com/invite/crwD3JgMgn#deadLink
-- https://www.trofi.group#deadLink
 redirect_from:
 - /android/com.trofi/
 - /iphone/com.yield.demosp/

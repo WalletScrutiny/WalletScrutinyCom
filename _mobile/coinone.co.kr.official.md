@@ -7,7 +7,6 @@ website: https://coinone.co.kr
 twitter: CoinoneOfficial
 social:
 - https://www.facebook.com/coinone
-- https://coinone.co.kr
 features:
 - fingerprint
 redirect_from:

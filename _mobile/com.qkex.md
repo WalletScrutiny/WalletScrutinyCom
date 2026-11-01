@@ -1,6 +1,6 @@
 ---
 title: 'QKEx: Crypto Asset Service'
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 twitter: qkexglobal
@@ -19,6 +19,8 @@ android:
   developerName: QKEx Android
 
 ---
+
+**Update 2026-10-30:** QKEx appears to be gone. Its website, qkex.com, no longer loads.
 
 ## App Description from Google Play
 

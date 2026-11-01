@@ -1,6 +1,6 @@
 ---
 title: Xchange - купить Биткоин
-date: 2024-12-23
+date: 2026-10-30
 authors:
 - danny
 website: https://xchange.ltd
@@ -8,7 +8,6 @@ twitter: XchangeO
 social:
 - https://vk.com/xchange_cc
 - https://t.me/Xchange_official
-- https://xchange.ltd
 redirect_from:
 - /android/com.xccg.xchange/
 - /iphone/com.xchangecapital.xchange/
@@ -35,6 +34,8 @@ iphone:
 
 ---
 
+**Update 2026-10-30:** Xchange appears to be gone. Its website xchange.ltd is now a domain for sale, and its [Telegram channel](https://t.me/Xchange_official) now advertises unrelated accounts for sale.
+
 ## Android
 
 ## App Description from Google Play 
@@ -49,7 +50,7 @@ iphone:
 
 ## Analysis 
 
-- The service has recently incorporated an ['Internal Balance'](https://xchange.cash/en/faq/vnutrennij-balans.html) which allows the user to store, withdraw and deposit certain cryptocurrencies.
+- The service has recently incorporated an ['Internal Balance'](https://web.archive.org/web/20240305012853/https://xchange.cash/en/faq/vnutrennij-balans.html) which allows the user to store, withdraw and deposit certain cryptocurrencies.
 - It has certain limitations though - the user has to make an exchange and cannot simply send a balance, and then subsequently withdraw it again. 
 - We assess this service to be **custodial** because of the limitations and lack of the option to backup the private keys.
 

@@ -6,7 +6,6 @@ authors:
 website: https://web.archive.org/web/20230603102041/https://vowcurrency.com/knowledge-base/
 twitter: vowcurrency
 social:
-- https://vowcurrency.com
 - https://www.linkedin.com/company/vowcurrency
 - https://www.facebook.com/Vowcurrency
 - https://t.me/joinchat/AAAAAFWTS0zBu1J9yCDp9Q

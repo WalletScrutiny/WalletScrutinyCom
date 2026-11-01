@@ -3,8 +3,7 @@ title: Trade Bit
 date: 2026-10-30
 authors:
 - danny
-social:
-- https://tradebit.in#deadLink
+website: https://tradebit.in#deadLink
 redirect_from:
 - /android/com.onlybit.wallet/
 android:

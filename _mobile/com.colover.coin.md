@@ -4,8 +4,6 @@ date: 2026-10-30
 authors:
 - danny
 website: http://www.colover.com/#deadLink
-social:
-- https://web.archive.org/web/20191004081856/http://www.colover.com/
 redirect_from:
 - /android/com.colover.coin/
 android:

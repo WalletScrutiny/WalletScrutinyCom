@@ -1,6 +1,6 @@
 ---
 title: Bitcan Bitcoin Wallet - USDT ETH BCH TRON
-date: 2021-04-30
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -12,9 +12,11 @@ android:
   version: '1.3'
   reviews: 69
   meta: removed
-  verdict: custodial
+  verdict: fake
 
 ---
+
+**Update 2026-10-30:** We now have a {% include verdictBadge.html verdict="fake" type='short' %} verdict for exactly this case, so we move this imitation of {% include walletLink.html wallet='android/com.bitpie' verdict='true' %} there from custodial.
 
 **Update 2021-04-30**: This app is no more and probably scammed some people as
 the original analysis below suggests.

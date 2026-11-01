@@ -1,6 +1,6 @@
 ---
 title: Nakitcoins
-date: 2022-10-21
+date: 2026-10-30
 authors:
 - danny
 website: https://www.nakitcoins.com#deadLink
@@ -30,6 +30,8 @@ iphone:
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** NakitCoins appears to be gone. Its website no longer loads; the [last archived copy, from September 2024](https://web.archive.org/web/20240914094707/https://www.nakitcoins.com/), still showed its cash exchange offices in Turkey.
 
 ## Android
 

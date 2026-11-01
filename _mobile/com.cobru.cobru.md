@@ -1,6 +1,6 @@
 ---
 title: Cobru
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: https://cobru.co
@@ -29,7 +29,7 @@ iphone:
   version: 4.1.14
   reviews: 2
   meta: ok
-  verdict: custodial
+  verdict: nobtc
   developerName: Cobru S.A.S.
 
 ---
@@ -97,4 +97,6 @@ We were not able to successfully register with the service after installation. T
 
 ## iPhone
 
-The Android analysis above applies to the iPhone app too.
+**Update 2026-10-30:** Cobru dropped cryptocurrencies. The App Store description no longer lists crypto among the ways to pay, top up or buy, and [cobru.co](https://www.cobru.co) now presents Cobru as a business payment platform for Colombia with no mention of crypto. It is still a wallet: the App Store description offers to top up the Cobru balance with cash or cards and to send money out to bank accounts, cash withdrawal points and other wallets. Without Bitcoin the iPhone app gets the verdict {% include verdictBadge.html verdict="nobtc" type='short' %}.
+
+Before that, the Android analysis above applied to the iPhone app too.

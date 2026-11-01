@@ -9,7 +9,6 @@ social:
 - https://www.facebook.com/kickex.official
 - https://t.me/KickICO
 - https://kickecosystem.medium.com
-- https://kickex.com
 redirect_from:
 - /android/com.kickex.android/
 - /iphone/com.kickex/

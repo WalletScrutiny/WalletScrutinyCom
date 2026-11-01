@@ -1,9 +1,9 @@
 ---
 title: Xfacia Buy BTC & Crypto
-date: 2025-03-17
+date: 2026-10-30
 authors:
 - danny
-website: http://xfacia.com/
+website: http://xfacia.com/#deadLink
 twitter: XfaciaXchange
 social:
 - https://www.facebook.com/XFACIAXCHANGE
@@ -35,9 +35,11 @@ iphone:
 
 ---
 
+**Update 2026-10-30:** Xfacia appears to have shut down. Its website no longer loads, both apps are gone from the stores, and its [Telegram channel](https://t.me/s/XfaciaXchange) has had no post since May 2023.
+
 ## Android
 
-## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.web.XFacia) 
+## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.web.XFacia#deadLink) 
 
 > Xfacia is one of the world's largest cryptocurrency-fiat exchange platforms serving millions of customers worldwide
 
@@ -45,7 +47,7 @@ iphone:
 
 > At Xfacia, you get investment in secure operations amalgamated with industry-leading security and stability.
 
-### [Terms](https://xfacia.com/terms-and-conditions)
+### [Terms](https://xfacia.com/terms-and-conditions#deadLink)
 
 > 4. THE XFACIA WALLET
 >

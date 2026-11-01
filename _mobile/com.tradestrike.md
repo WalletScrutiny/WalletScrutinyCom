@@ -12,7 +12,6 @@ social:
 - https://www.instagram.com/tradestrike.bvi
 - https://t.me/StrikeXcrypto
 - https://discord.com/invite/tradestrike
-- https://tradestrike.io/strikex-wallet
 - https://www.linkedin.com/companystrikex
 features:
 - buyWithCC

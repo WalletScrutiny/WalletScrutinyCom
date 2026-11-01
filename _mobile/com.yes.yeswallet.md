@@ -1,6 +1,6 @@
 ---
 title: Yes Wallet
-date: 2021-06-18
+date: 2026-10-30
 authors:
 - leo
 website: http://www.yeswallet.io
@@ -18,6 +18,10 @@ android:
   verdict: custodial
 
 ---
+
+its website yeswallet.io is gone.
+
+**Update 2026-10-30:** The provider is gone, and so is its website yeswallet.io.
 
 This app ~~is~~was **very likely a scam** judging by the reviews and the website being
 down and the last update being almost two years old.

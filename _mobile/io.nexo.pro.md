@@ -9,7 +9,6 @@ social:
 - https://www.reddit.com/r/Nexo
 - https://t.me/nexofinance
 - https://www.facebook.com/nexofinance
-- https://pro.nexo.com
 redirect_from:
 - /android/io.nexo.pro/
 - /iphone/com.nexo.pro/

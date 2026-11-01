@@ -3,8 +3,7 @@ title: Huione Crypto
 date: 2026-10-30
 authors:
 - danny
-social:
-- https://huionepay.com.kh#deadLink
+website: https://huionepay.com.kh#deadLink
 redirect_from:
 - /android/com.huione.crypto/
 android:

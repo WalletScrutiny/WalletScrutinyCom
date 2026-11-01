@@ -11,7 +11,6 @@ social:
 - https://www.instagram.com/inocyx
 - https://www.youtube.com/channel/UCv9OPOSaJqQAe7ljg2d5lBg
 - https://t.me/inocyxiyx
-- https://inocyx.com
 features:
 - buyWithCC
 - tradeAlts

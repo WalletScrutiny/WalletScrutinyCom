@@ -1,6 +1,6 @@
 ---
 title: SovereignWallet, Sovereign Wallet, MUI, MUI Token
-date: 2021-11-15
+date: 2026-10-30
 authors:
 - danny
 website: https://sovereignwallet.network/
@@ -20,7 +20,7 @@ android:
   version: 1.18.0
   reviews: 33
   meta: removed
-  verdict: wip
+  verdict: nosource
 iphone:
   appId: exchange.sovereignwallet.mui
   idd: 1351625320
@@ -34,6 +34,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** An [archived Play store page from November 2020](https://web.archive.org/web/20201126120840/https://play.google.com/store/apps/details?id=exchange.sovereignwallet.mui) presents it as a self-custodial Bitcoin wallet with "hierarchical deterministic (HD) key generation to have full control over all of your addresses". We found no source code for the app on GitHub, so it gets the verdict {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 **UPDATE:** Support from Telegram responded to our inquiry, saying that they currently **are no longer supporting services related to the SovereignWallet App.** This app is **defunct.**
 

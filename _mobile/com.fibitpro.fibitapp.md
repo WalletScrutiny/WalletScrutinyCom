@@ -9,7 +9,6 @@ social:
 - https://www.linkedin.com/company/fibits
 - https://www.facebook.com/fibitproexchange
 - https://telegram.org/fibitpro
-- https://fibitpro.com#deadLink
 redirect_from:
 - /android/com.fibitpro.fibitapp/
 - /iphone/com.fibit.ios/

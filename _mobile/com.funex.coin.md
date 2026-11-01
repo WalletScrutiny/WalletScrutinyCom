@@ -9,7 +9,6 @@ social:
 - https://www.facebook.com/officialfunexcoin
 - https://t.me/Funex_official
 - https://www.youtube.com/c/FunexClub
-- https://funexcoin.com
 redirect_from:
 - /android/com.funex.coin/
 - /iphone/com.funex.coin/

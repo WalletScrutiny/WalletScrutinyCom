@@ -3,9 +3,9 @@ title: Tapbit - Buy Bitcoin & Crypto
 date: 2026-10-30
 authors:
 - danny
+website: https://www.tapbit.com
 twitter: tapbitglobal
 social:
-- https://www.tapbit.com
 - https://www.linkedin.com/company/tapbit
 - https://www.facebook.com/Tapbitglobal
 - https://www.reddit.com/user/tapbit

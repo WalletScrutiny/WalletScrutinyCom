@@ -3,9 +3,9 @@ title: FinWhaleX
 date: 2026-10-30
 authors:
 - danny
+website: https://web.archive.org/web/20190915225349/https://finwhalex.com/
 twitter: finwhalex
 social:
-- https://web.archive.org/web/20190915225349/https://finwhalex.com/
 - https://www.facebook.com/FinWhaleX
 redirect_from:
 - /android/com.finwhalex/

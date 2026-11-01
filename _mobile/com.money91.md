@@ -3,9 +3,8 @@ title: ROVI - Simplest Safest Trading
 date: 2026-10-30
 authors:
 - danny
+website: https://rovi.network
 twitter: rovi_protocol
-social:
-- https://rovi.network
 redirect_from:
 - /android/com.money91/
 android:

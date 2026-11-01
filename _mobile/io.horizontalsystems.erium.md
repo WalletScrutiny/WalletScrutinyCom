@@ -9,7 +9,6 @@ social:
 - https://t.me/Erium_exchange
 - https://discord.com/invite/9nUntZeCPP
 - https://medium.com/@eriumex
-- https://erium.exchange#deadLink
 redirect_from:
 - /android/io.horizontalsystems.erium/
 - /iphone/io.horizontalsystems.erium/

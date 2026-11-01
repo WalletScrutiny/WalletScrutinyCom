@@ -1,6 +1,6 @@
 ---
 title: 'TapSwap: Your Crypto, Your Way'
-date: 2024-01-19
+date: 2026-10-30
 authors:
 - danny
 website: https://tapswap.io
@@ -19,10 +19,12 @@ android:
   version: 3.12.13
   reviews: 10
   meta: ok
-  verdict: nosendreceive
+  verdict: custodial
   developerName: TapSwap
 
 ---
+
+**Update 2026-10-30:** TapSwap now lets users send and receive bitcoin: its [website](https://tapswap.io) advertises "Buy, sell, send and receive crypto", and its [terms](https://tapswap.io/terms-of-service/) allow withdrawals to external accounts, including over Lightning. The same terms say "All Digital Assets held in your TapSwap Account are custodial assets held by TapSwap", so the app is now {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## App Description
 

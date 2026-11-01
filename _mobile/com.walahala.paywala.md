@@ -1,6 +1,6 @@
 ---
 title: PAYWALA
-date: 2022-04-07
+date: 2026-10-30
 website: https://walahala.com/payWala#deadLink
 redirect_from:
 - /android/com.walahala.paywala/
@@ -14,5 +14,7 @@ android:
   verdict: wip
 
 ---
+
+**Update 2026-10-30:** Walahala appears to be gone. Its website has been down since early 2025.
 
 **Update 2022-03-29**: This app is not available anymore.

@@ -11,7 +11,6 @@ social:
 - https://www.facebook.com/profile.php?id=100083113521452
 - https://www.youtube.com/channel/UCU2wOPdZ9mT2g3S2_wQcQQw
 - https://medium.com/@cointrbtc
-- https://www.cointr.pro#deadLink
 redirect_from:
 - /android/pro.cointr/
 - /iphone/vip.trcoin.global/

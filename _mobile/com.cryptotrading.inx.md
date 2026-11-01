@@ -12,7 +12,6 @@ social:
 - https://t.me/INXCommunity
 - https://www.reddit.com/r/INX_Ltd
 - https://discord.com/invite/A5KkK4EAV7
-- https://www.inx.co
 redirect_from:
 - /android/com.cryptotrading.inx/
 - /iphone/inx.co/

@@ -1,11 +1,9 @@
 ---
 title: The Black Wall Street
-date: 2024-07-25
+date: 2026-10-30
 authors:
 - danny
-website: https://theblackwallstreet.com
-social:
-- https://theblackwallstreet.com
+website: https://theblackwallstreet.com#deadLink
 redirect_from:
 - /android/com.tbws/
 - /iphone/com.tbws1.app/
@@ -33,6 +31,8 @@ iphone:
 
 ---
 
+**Update 2026-10-30:** The Black Wall Street appears to be gone. Both apps are out of the stores, and since at least May 2026 the website shows an [unrelated page](https://web.archive.org/web/20260518195853/https://theblackwallstreet.com/) instead of the product. Its custody partner Prime Trust [filed for bankruptcy](https://cryptonews.com/news/prime-trust-crypto-custodian-enters-chapter-11-bankruptcy-amid-prolonged-crypto-winter/) in August 2023.
+
 ## Android
 
 ## App Description from Google Play
@@ -45,7 +45,7 @@ iphone:
 
 ## Analysis
 
-- According to the [terms](https://theblackwallstreet.com/faq/terms-of-service/), illegal transactions can immediately be blocked with custody going to the provider.
+- According to the [terms](https://web.archive.org/web/20240921124706/https://theblackwallstreet.com/faq/terms-of-service/), illegal transactions can immediately be blocked with custody going to the provider.
 - [Prime Trust](https://www.primetrust.com/use-cases/custodians#deadLink) is a custodian.
 - Once we have verified our number we were able to access the dashboard of the app.
 - We initially see an 'Invest Now' button. We clicked it and the screen that followed, was a "Create custodial account and verify your identity" page.

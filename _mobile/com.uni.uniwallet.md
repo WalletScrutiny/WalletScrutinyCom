@@ -1,6 +1,6 @@
 ---
 title: UNI&PAY
-date: 2021-12-29
+date: 2026-10-30
 redirect_from:
 - /android/com.uni.uniwallet/
 android:
@@ -14,4 +14,6 @@ android:
   verdict: wip
 
 ---
+
+**Update 2026-10-30:** The provider appears to be out of business. Its website is gone.
 

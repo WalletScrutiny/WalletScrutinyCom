@@ -9,7 +9,6 @@ social:
 - https://www.linkedin.com/company/ruufpay
 - https://www.facebook.com/ruufpay
 - https://www.instagram.com/ruufpay/
-- https://ruufpay.app
 - https://www.instagram.com/ruufpay
 redirect_from:
 - /android/com.ruufpay.ruufpaymobileapp/

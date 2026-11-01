@@ -9,7 +9,6 @@ social:
 - https://www.linkedin.com/company/blocknance
 - https://www.youtube.com/channel/UCAuqZmDK1puvCH42WW-oSJg
 - https://www.facebook.com/BlocknanceATM
-- https://blockchain.com.do
 redirect_from:
 - /android/com.blocknance.wallet/
 - /iphone/org.reactjs.native.example.blocknance/

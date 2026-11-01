@@ -4,8 +4,6 @@ date: 2026-10-30
 authors:
 - danny
 website: https://alfwallet.io#deadLink
-social:
-- https://alfwallet.io#deadLink
 redirect_from:
 - /android/com.alfredwallet.wallet/
 - /iphone/com.AlfredWallet/

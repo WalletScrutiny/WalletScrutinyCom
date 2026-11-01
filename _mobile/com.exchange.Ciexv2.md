@@ -11,7 +11,6 @@ social:
 - https://www.facebook.com/CenturionInvest
 - https://www.linkedin.com/company/centurioninvest
 - https://www.instagram.com/centurioninvest
-- https://centurioninvest.com
 redirect_from:
 - /android/com.exchange.Ciexv2/
 - /iphone/com.centurion.exchange/
