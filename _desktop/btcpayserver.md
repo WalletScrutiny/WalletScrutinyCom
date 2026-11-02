@@ -43,7 +43,7 @@ Each store gets its own wallet, set up in one of three ways ([user guide](https:
 
 BTCPay Server receives and sends bitcoin, so it is a wallet. With a hot wallet, the seed and the spending happen on the server. With the other two setups, BTCPay is the receiving and watching half of a wallet whose keys live elsewhere.
 
-On a server the merchant runs, nobody but the merchant holds the keys. A store on someone else's BTCPay instance is different: whoever runs that server controls a hot wallet on it, so only use a hot wallet on a server you run yourself.
+On a server the merchant runs, nobody but the merchant holds the keys. Many merchants instead use a store on somebody else's instance: one BTCPay server can host many users and stores, and hosting providers sell exactly that. There, the operator controls the software. They can spend from any hot wallet, make the checkout show their own addresses so payments land with them even when the store is watch-only, and they run the Lightning node that receives the store's Lightning payments. Treat a store on a hosted instance as custodial, whatever verdict this page gives. The verdict, and any reproducibility result we add later, only protects you on an installation you run on your own hardware.
 
 The code is on [GitHub](https://github.com/btcpayserver/btcpayserver) under the MIT license, and releases ship as Docker images. That makes BTCPay Server {% include verdictBadge.html verdict="sourceavailable" type='short' %}, and we can look into reproducibility next. A reproducible build would not have stopped the attacks above: they abused flaws in the published code, not tampered binaries.
 

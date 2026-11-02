@@ -491,7 +491,7 @@ const platformCategories = {
   mobile: 'Mobile',
   hardware: 'Hardware Wallet',
   bearer: 'Bearer Token',
-  desktop: 'Desktop',
+  desktop: 'Desktop & Server',
   others: 'Others'
 };
 
