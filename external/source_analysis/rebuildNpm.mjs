@@ -31,6 +31,8 @@ import { CONTAINER_CLI } from './config.mjs';
 
 export const REBUILD_TIMEOUT_MS = Number(process.env.SOURCE_ANALYSIS_REBUILD_TIMEOUT_MIN || 20) * 60 * 1000;
 export const DEFAULT_NODE_MAJOR = 20;
+// The clone runs in a current image: an old Node image's git and CA list can fail on today's hosts.
+export const CLONE_IMAGE = `docker.io/library/node:22-bookworm`;
 const LOG_LIMIT = 200000;
 
 const sha256 = (buf) => createHash('sha256').update(buf).digest('hex');
@@ -55,10 +57,15 @@ export async function fetchNpmVersion(name, version, fetchImpl = fetch) {
   return npmVersionFacts(await r.json());
 }
 
-/** Node image for the publisher's Node version: its major, never below 14 (older images lack git over https); Debian 11 below Node 18, which has no newer one. */
+/**
+ * Node image for the publisher's Node version: its major (npm before 5 does
+ * not run on Node 14 and later); Debian 12 from Node 18, the major's default
+ * image below, which is all there is for the old ones. Node 0.x reads as 4.
+ */
 export function nodeImage(nodeVersion) {
-  const major = Math.max(14, Number(/^v?(\d+)/.exec(nodeVersion || '')?.[1]) || DEFAULT_NODE_MAJOR);
-  return `docker.io/library/node:${major}-${major < 18 ? 'bullseye' : 'bookworm'}`;
+  const m = /^v?(\d+)/.exec(nodeVersion || '');
+  const major = m ? Math.max(4, Number(m[1])) : DEFAULT_NODE_MAJOR;
+  return `docker.io/library/node:${major}${major >= 18 ? '-bookworm' : ''}`;
 }
 
 /**
@@ -138,6 +145,16 @@ export function compareTarballs(registryBuf, rebuiltBuf) {
     explainedOnly: (changed.length + missing.length + extra.length) > 0
       && [...missing, ...extra].every(f => f === '.npmignore') && changed.every(f => explained[f]),
   };
+}
+
+// npm's error boilerplate: the command, paths, versions, where the log is
+const NPM_NOISE = /^npm ERR! (code|errno|syscall|path|command|cwd|argv|node v|npm {1,2}v|Linux|os |A complete|If you need|Please include|Tell the author|not with npm|\s*\/|\s*$|\s+at )/;
+
+/** The line of a build log that says why it failed: the first real error, else the last line. */
+export function failureLine(log) {
+  const lines = String(log).split('\n').map(l => l.trimEnd());
+  const hit = lines.find(l => /^(Error:|fatal:|error |.*error TS\d+)/.test(l) || (/^npm ERR! /.test(l) && !NPM_NOISE.test(l)));
+  return (hit || lines.filter(l => l && !/^npm (notice|WARN)/.test(l)).pop() || '').replace(/^npm ERR! (typeerror )?/, '');
 }
 
 const REASONS = { 'line-endings': 'line endings only', 'package-json-dev-fields': 'package.json dev fields only', docs: 'docs' };
@@ -234,7 +251,11 @@ export async function rebuildNpm({ name, version, source, workRoot, fetchImpl = 
   if (!source?.repoUrl || !source?.ref) return done('failed', 'No git tag or commit for this version');
   fs.writeFileSync(logFile, `== ${name}@${version} registry sha256 ${x}\n== image ${image}\n`);
   const env = { REPO: source.repoUrl, REF: source.ref, DIR: facts.directory || '', NPMV: facts.npmVersion || '' };
-  const run = await runLogged(cli, rebuildRunArgs({ image, name: `rb-${process.pid}-${slug.replace(/[^a-zA-Z0-9.-]/g, '_')}`.slice(0, 120), workDir, outDir, env, cli }), logFile, REBUILD_TIMEOUT_MS);
+  const cname = `rb-${process.pid}-${slug.replace(/[^a-zA-Z0-9.-]/g, '_')}`.slice(0, 110);
+  const clone = await runLogged(cli, rebuildRunArgs({ image: CLONE_IMAGE, name: `${cname}-clone`, workDir, outDir, env: { ...env, PHASE: 'clone' }, cli }), logFile, REBUILD_TIMEOUT_MS);
+  const run = clone.code === 0 && !clone.timedOut
+    ? await runLogged(cli, rebuildRunArgs({ image, name: cname, workDir, outDir, env: { ...env, PHASE: 'build' }, cli }), logFile, REBUILD_TIMEOUT_MS)
+    : clone;
   const logText = fs.readFileSync(logFile, 'utf8');
   if (logText.length > LOG_LIMIT) fs.writeFileSync(logFile, logText.slice(0, LOG_LIMIT / 2) + '\n…\n' + logText.slice(-LOG_LIMIT / 2));
   const commit = /^commit ([0-9a-f]{40})/m.exec(logText)?.[1];
@@ -245,8 +266,7 @@ export async function rebuildNpm({ name, version, source, workRoot, fetchImpl = 
   if (run.timedOut) return done('failed', `Build did not finish in ${REBUILD_TIMEOUT_MS / 60000} minutes`);
   const packed = fs.readdirSync(outDir).filter(f => f.endsWith('.tgz'));
   if (run.code !== 0 || packed.length !== 1) {
-    const last = logText.trim().split('\n').filter(l => !/^npm (notice|WARN)/.test(l)).slice(-1)[0] || '';
-    return done('failed', `Build failed: ${last.slice(0, 160)}`);
+    return done('failed', `Build failed: ${failureLine(logText).slice(0, 160)}`);
   }
   const cmp = compareTarballs(registryBuf, fs.readFileSync(path.join(outDir, packed[0])));
   fs.appendFileSync(logFile, `== comparison ${JSON.stringify({ ...cmp, missing: cmp.missing.slice(0, 50), extra: cmp.extra.slice(0, 50), changed: cmp.changed.slice(0, 50) })}\n`);

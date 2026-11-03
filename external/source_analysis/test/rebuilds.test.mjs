@@ -6,7 +6,7 @@ import path from 'node:path';
 import zlib from 'node:zlib';
 import Database from 'better-sqlite3';
 import { ossRebuildPrefix, parseOssListing, listOssRebuild, rcClaims, readReproducibleCentral, importRebuildClaims, pypiName } from '../rebuildClaims.mjs';
-import { tgzFiles, compareTarballs, explainDiff, diffNote, nodeImage, npmVersionFacts, rebuildEvent, rebuildRunArgs } from '../rebuildNpm.mjs';
+import { tgzFiles, compareTarballs, explainDiff, diffNote, failureLine, nodeImage, npmVersionFacts, rebuildEvent, rebuildRunArgs } from '../rebuildNpm.mjs';
 import { rebuildCandidates } from '../rebuild-npm-cli.mjs';
 import { initDatabase, getRebuildClaims } from '../ddbbUtils.mjs';
 import { releaseRebuilds } from '../export.mjs';
@@ -155,11 +155,20 @@ describe('our npm rebuild: comparing tarballs', () => {
   });
 });
 
+describe('our npm rebuild: why a build failed', () => {
+  test('the first real error, not npm\'s boilerplate', () => {
+    assert.equal(failureLine('== npm ci\nnpm ERR! code 1\nnpm ERR! path /work/src\nError: failed to post to closure compiler\nnpm ERR! A complete log of this run can be found in:\nnpm ERR!     /x.log\n'), 'Error: failed to post to closure compiler');
+    assert.equal(failureLine('npm ERR! Linux 7\nnpm ERR! argv "node"\nnpm ERR! node v5.12.0\nnpm ERR! npm  v3.8.6\nnpm ERR! code EMISSINGARG\nnpm ERR! typeerror Error: Missing required argument #1\n'), 'Error: Missing required argument #1');
+    assert.equal(failureLine('fatal: You are not currently on a branch.\n'), 'fatal: You are not currently on a branch.');
+    assert.equal(failureLine('== packed \nmv: cannot stat \'\': No such file or directory\n'), "mv: cannot stat '': No such file or directory");
+  });
+});
+
 describe('our npm rebuild: toolchain, event, container', () => {
-  test('Node image from the publisher\'s Node version, at least 14, Debian 11 below 18', () => {
+  test('Node image from the publisher\'s Node major; Debian 12 from Node 18', () => {
     assert.equal(nodeImage('v20.11.1'), 'docker.io/library/node:20-bookworm');
-    assert.equal(nodeImage('10.16.0'), 'docker.io/library/node:14-bullseye');
-    assert.equal(nodeImage('16.1.0'), 'docker.io/library/node:16-bullseye');
+    assert.equal(nodeImage('10.16.0'), 'docker.io/library/node:10');
+    assert.equal(nodeImage('0.12.7'), 'docker.io/library/node:4');
     assert.equal(nodeImage(null), 'docker.io/library/node:20-bookworm');
   });
 
