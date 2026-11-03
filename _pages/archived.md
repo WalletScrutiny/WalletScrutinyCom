@@ -6,6 +6,18 @@ title: "Wallet Archived"
 <div id="archived-wallet-container"></div>
 
 <script>
+const archivedVerdicts = {
+{%- for v in site.data.verdicts %}{% if v[0] == 'nobtc' or v[0] == 'nowallet' %}
+  {{ v[0] | jsonify }}: { title: {{ v[1].title | jsonify }}, details: {{ v[1].details | markdownify | jsonify }} },
+{%- endif %}{% endfor %}
+};
+// "platform/appId" -> [path before archiving, last commit of that path]
+const archivedSources = {
+{%- for post in site.archived %}{% if post.archivedCommit %}{% assign folder = post.path | split: '/' %}
+  {{ folder[1] | append: '/' | append: post.appId | jsonify }}: [{{ post.archivedFrom | jsonify }}, {{ post.archivedCommit | jsonify }}],
+{%- endif %}{% endfor %}
+};
+
 window.addEventListener('allWalletsLoaded', () => {
   const urlParams = new URLSearchParams(window.location.search);
   const appId = urlParams.get('appId');
@@ -43,6 +55,15 @@ window.addEventListener('allWalletsLoaded', () => {
     reason = "of unknown reason";
   }
 
+  const explanation = archivedVerdicts[verdict];
+  const explanationHtml = explanation
+    ? `<div>${explanation.details}</div>`
+    : '';
+  const source = archivedSources[`${platform}/${appId}`];
+  const sourceHtml = source
+    ? `<p>To see more information about our old analysis, <a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/${source[1]}/${source[0]}">click here</a>.</p>`
+    : '';
+
   const html = `
     <div class="page app-review">
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
@@ -58,6 +79,8 @@ window.addEventListener('allWalletsLoaded', () => {
             <div>
               <span style="font-size: 24px;">This product has been archived by the WalletScrutiny team because <b>${reason}</b>.</span>
             </div>
+            ${explanationHtml}
+            ${sourceHtml}
           </div>
         </div>
       </article>
