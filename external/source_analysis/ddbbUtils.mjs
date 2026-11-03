@@ -175,6 +175,37 @@ export function initDatabase(dbPath = DB_PATH) {
     );
   `);
 
+  // Rung "reproduced" (rebuildClaims.mjs, rebuildNpm.mjs): who rebuilt a
+  // package version from source and got the registry's file. One row per
+  // claimant: ws (us), oss-rebuild, reproducible-central. result is
+  // reproduced | failed; sha256 is the registry file's, commit_sha the source
+  // built, event our unsigned Nostr event (ws only).
+  // rebuild_lookups records every (claimant, package) asked, with or without claims.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS package_rebuilds (
+      ecosystem TEXT NOT NULL,
+      name TEXT NOT NULL,
+      version TEXT NOT NULL,
+      claimant TEXT NOT NULL,
+      result TEXT NOT NULL,
+      artifact TEXT,
+      sha256 TEXT,
+      commit_sha TEXT,
+      url TEXT,
+      note TEXT,
+      event TEXT,
+      checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (ecosystem, name, version, claimant)
+    );
+    CREATE TABLE IF NOT EXISTS rebuild_lookups (
+      claimant TEXT NOT NULL,
+      ecosystem TEXT NOT NULL,
+      name TEXT NOT NULL,
+      checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (claimant, ecosystem, name)
+    );
+  `);
+
   // Upstream triage (upstreamTriage.mjs): the scanner ignore lists and VEX
   // documents found in a repository at one ref, one row per advisory entry;
   // upstream_triage_checked records every (repo, ref) read, with or without files.
@@ -554,6 +585,28 @@ export function saveSubmodules(db, appId, ref, commit, rows) {
 }
 
 // { commit, checkedAt, rows } of (appId, ref), or null when it has no submodules stored.
+/**
+ * Every rebuild claim (package_rebuilds) as Map `ecosystem\0name\0version` →
+ * claims, ours first. Only what the panel shows: our unsigned event rides along.
+ */
+export function getRebuildClaims(db) {
+  const out = new Map();
+  const rows = db.prepare(`SELECT * FROM package_rebuilds ORDER BY claimant = 'ws' DESC, claimant`).all();
+  for (const r of rows) {
+    const key = `${r.ecosystem}\0${r.name}\0${r.version}`;
+    if (!out.has(key)) out.set(key, []);
+    const c = { by: r.claimant, result: r.result };
+    if (r.url) c.url = r.url;
+    if (r.note) c.note = r.note;
+    if (r.claimant === 'ws') {
+      c.date = String(r.checked_at).slice(0, 10);
+      if (r.event) c.event = JSON.parse(r.event);
+    }
+    out.get(key).push(c);
+  }
+  return out;
+}
+
 export function getSubmodules(db, appId, ref) {
   const r = db.prepare('SELECT commit_sha, rows, checked_at FROM release_submodules WHERE app_id = ? AND ref = ?').get(appId, ref);
   return r ? { commit: r.commit_sha, checkedAt: r.checked_at, rows: JSON.parse(r.rows) } : null;

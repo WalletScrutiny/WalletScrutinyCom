@@ -9,6 +9,7 @@
 //   apps/<aliasId>.json                 stub {appId, alias: true} for the repository's other app ids (the iPhone record)
 //   apps/<appId>/<ref>/dependencies.json  the full resolved dependency list of one release, each row with how many products ship the package
 //   apps/<appId>/<ref>/submodules.json    the release's git submodules, when it has any
+//   apps/<appId>/<ref>/rebuilds.json      who rebuilt which of the release's dependencies from source (ours and imported claims), when anyone did
 //
 // Each file carries only what a reader uses (the wallet page's Dependencies
 // panel, signals.mjs, apk-contents-cli.mjs --deps); the database keeps the rest.
@@ -25,7 +26,7 @@ import { fileURLToPath } from 'url';
 import { groupByRepository } from './appList.mjs';
 import { hintsByApp } from './upstreamTriage.mjs';
 import { coverageForReaders, coverageByPlatform } from './plugins/lock-coverage.mjs';
-import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getEndOfLife, getSubmodules } from './ddbbUtils.mjs';
+import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getEndOfLife, getSubmodules, getRebuildClaims } from './ddbbUtils.mjs';
 
 export const SCHEMA = 1;
 const SEVERITIES = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown'];
@@ -295,9 +296,10 @@ export function exportAll(db, outDir, { onlyReproducible = false } = {}) {
   const index = { schema: SCHEMA, apps: [] };
   const counts = productCounts(db);
   const sources = packageSources(db);
+  const rebuilds = getRebuildClaims(db);
   let releases = 0;
   for (const appId of [...appIds].sort()) {
-    const app = writeAppFiles(db, tmp, appId, aliases.get(appId) || [], counts, sources, (id) => appIds.has(id));
+    const app = writeAppFiles(db, tmp, appId, aliases.get(appId) || [], counts, sources, (id) => appIds.has(id), { rebuilds });
     releases += app.releases.length;
     index.apps.push(indexEntry(app));
   }
@@ -361,9 +363,32 @@ function writeAtomic(file, content) {
   fs.renameSync(tmp, file);
 }
 
+/**
+ * The rebuild claims for one release's dependencies: rows for rebuilds.json
+ * and the counts for the release entry (packages someone reproduced, packages
+ * tried with no success, and per claimant). Null when nobody tried any.
+ */
+export function releaseRebuilds(deps, claims) {
+  const rows = [], seen = new Set();
+  const summary = { reproduced: 0, failed: 0, byClaimant: {} };
+  for (const d of deps) {
+    const key = `${d.ecosystem}\0${d.name}\0${d.dep_version}`;
+    if (seen.has(key) || !claims.has(key)) continue;
+    seen.add(key);
+    const list = claims.get(key);
+    rows.push({ ecosystem: d.ecosystem, name: d.name, version: d.dep_version, claims: list });
+    if (list.some(c => c.result === 'reproduced')) summary.reproduced++; else summary.failed++;
+    for (const c of list) {
+      const b = summary.byClaimant[c.by] ||= { reproduced: 0, failed: 0 };
+      b[c.result]++;
+    }
+  }
+  return rows.length ? { rows, summary } : null;
+}
+
 // One app's files under dir: apps/<appId>.json, a dependencies.json per
 // release, and a stub for each alias that is not exported in its own right.
-function writeAppFiles(db, dir, appId, aliases, counts, sources, isExported, { atomic = false } = {}) {
+function writeAppFiles(db, dir, appId, aliases, counts, sources, isExported, { atomic = false, rebuilds = getRebuildClaims(db) } = {}) {
   const write = atomic ? writeAtomic : (file, content) => fs.writeFileSync(file, content);
   const app = buildApp(db, appId, aliases, counts, sources);
   const appDir = path.join(dir, 'apps', safeName(appId));
@@ -371,8 +396,14 @@ function writeAppFiles(db, dir, appId, aliases, counts, sources, isExported, { a
   for (const r of app.releases) {
     const refDir = path.join(appDir, safeName(r.ref));
     fs.mkdirSync(refDir, { recursive: true });
+    const deps = getDependencies(db, appId, r.ref);
+    const rb = releaseRebuilds(deps, rebuilds);
+    if (rb) {
+      write(path.join(refDir, 'rebuilds.json'), JSON.stringify({ schema: SCHEMA, rows: rb.rows }));
+      r.rebuilds = rb.summary;
+    }
     write(path.join(refDir, 'dependencies.json'), JSON.stringify({
-      schema: SCHEMA, dependencies: getDependencies(db, appId, r.ref).map(d => ({
+      schema: SCHEMA, dependencies: deps.map(d => ({
         ecosystem: d.ecosystem, name: d.name, version: d.dep_version, lockfile: d.lockfile, tier: d.tier,
         direct: d.direct === null ? null : d.direct === 1,
         scope: scopeOfRow(d) === 'unknown' ? null : scopeOfRow(d),

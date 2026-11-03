@@ -39,6 +39,11 @@ export const DOCKER_HUB_API_BASE = 'https://hub.docker.com/v2';
 // (config/walletscrutiny-source-analysis.service).
 export const DB_PATH = process.env.SOURCE_ANALYSIS_DB_PATH || join(__dirname, 'assets.db');
 export const BACKUP_DIR = join(dirname(DB_PATH), 'backup');
+// Dependency ladder per pass (index.mjs): new package versions looked up for
+// their source repository and tag; Reproducible Central's sparse checkout
+// (rebuildClaims.mjs, about 170 MB) next to the database.
+export const IDENTITY_PER_PASS = Math.max(0, Math.floor(Number(process.env.SOURCE_ANALYSIS_IDENTITY_PER_PASS ?? 3000)) || 0);
+export const RC_DIR = process.env.SOURCE_ANALYSIS_RC_DIR || join(dirname(DB_PATH), 'reproducible-central');
 export const BACKUPS_TO_KEEP = 14; // one copy per run, older ones are deleted
 // Static JSON export written at the end of each pass (export.mjs); unset = no export
 export const EXPORT_DIR = process.env.SOURCE_ANALYSIS_EXPORT_DIR || null;

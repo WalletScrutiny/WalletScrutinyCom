@@ -7,7 +7,7 @@ import { backupDatabase, initDatabase, saveAsset, hasExistingAssets, getAnalysed
 import { runSourceCodeAnalysis, remoteHeadCommit, remoteHeadDate, analyserVersion } from './appAnalysis.mjs';
 import { recheckStoredReleases } from './recheck.mjs';
 import { pruneCache } from './containerRunner.mjs';
-import { APPS, APP_LIST_URL, DEFAULT_TEMP_DIR, CONCURRENCY, EXPORT_DIR, SCOPE, VERIFIED_PER_PASS, GONE_EOL_YEARS, DB_PATH } from './config.mjs';
+import { APPS, APP_LIST_URL, DEFAULT_TEMP_DIR, CONCURRENCY, EXPORT_DIR, SCOPE, VERIFIED_PER_PASS, GONE_EOL_YEARS, DB_PATH, IDENTITY_PER_PASS, RC_DIR } from './config.mjs';
 import { lockPathFor, waitForLock } from './runLock.mjs';
 import { loadReproducible, verifiedVersionsOf, analyseVerifiedVersions } from './reproducible.mjs';
 import { loadAppList, groupByRepository } from './appList.mjs';
@@ -350,6 +350,26 @@ try {
   } catch (error) {
     console.error('\n✗  Looking up the stored releases again failed:', error.message);
     errorCount++;
+  }
+
+  // The dependency ladder (issue 992 part G): where each new package's source
+  // lives, whether its version has a tag there, and who else rebuilt it from
+  // source. Network only, nothing built; a bounded number of new versions per
+  // pass, the rest the next pass. A failure leaves the panel's last results.
+  if (process.env.SOURCE_ANALYSIS_LADDER !== 'off') {
+    try {
+      const { resolveAll } = await import('./source-repos-cli.mjs');
+      const { checkIdentities } = await import('./identity-cli.mjs');
+      const { importRebuildClaims, syncReproducibleCentral } = await import('./rebuildClaims.mjs');
+      const repos = await resolveAll(db, { limit: IDENTITY_PER_PASS });
+      const ids = await checkIdentities(db, { limit: IDENTITY_PER_PASS });
+      let rcDir = null;
+      try { rcDir = syncReproducibleCentral(RC_DIR); } catch (error) { console.warn(`Reproducible Central: ${error.message.split('\n')[0]}`); }
+      const claims = await importRebuildClaims(db, { rcDir });
+      console.log(`Dependency ladder: ${repos.resolved} new source repositories, ${ids.versions} versions checked for a tag (${ids.byStatus['tag-found'] || 0} found), rebuild claims for ${claims.ossNames} packages asked (${claims.ossClaims} from OSS Rebuild, ${claims.rcClaims} from Reproducible Central)${claims.failed ? `, ${claims.failed} lookups failed` : ''}`);
+    } catch (error) {
+      console.warn('Dependency ladder:', error.message);
+    }
   }
 
   // Scratch dirs are deleted per repository; the shared package caches only
