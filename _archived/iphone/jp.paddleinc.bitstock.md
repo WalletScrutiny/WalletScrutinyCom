@@ -3,5 +3,7 @@ title: ビットスタート ビットコインをもらって、仮想通貨を
 appId: jp.paddleinc.bitstock
 meta: ok
 verdict: nowallet
+archivedFrom: _iphone/jp.paddleinc.bitstock.md
+archivedCommit: 7e718dd8bbbe95536e93d4ddf951cfa376aff962
 
 ---
