@@ -50,6 +50,7 @@ a timer every 6 hours:
 | package caches | `/var/cache/walletscrutiny-source-analysis/cache` (`SOURCE_ANALYSIS_CACHE_DIR`), npm/yarn/gradle/pip caches, one set per wallet under `wallets/`; past `SOURCE_ANALYSIS_CACHE_MAX_GB` (20) the least recently used wallets' caches are wiped |
 | analysis image | `ANALYSIS_IMAGE` in `config.mjs`, pinned by digest; pulled by the deploy, superseded copies removed |
 | GitHub token | `/etc/credstore.encrypted/build-server-gh-token`, handed to the process as `GITHUB_TOKEN_FILE` |
+| dependency ladder | after the wallets, each pass resolves source repositories and checks tags for up to 3000 new package versions (`SOURCE_ANALYSIS_IDENTITY_PER_PASS`) and imports OSS Rebuild and Reproducible Central rebuild claims (`rebuildClaims.mjs`; a sparse checkout of about 170 MB next to the database, `SOURCE_ANALYSIS_RC_DIR`); `SOURCE_ANALYSIS_LADDER=off` skips it. Our own rebuilds (`rebuild-npm-cli.mjs`) do not run here: they build untrusted code, see docs/dependency-check.md |
 | logs | journal: `journalctl -u walletscrutiny-source-analysis.service` |
 
 The state and cache directories are created by systemd (`StateDirectory`,

@@ -382,11 +382,41 @@ Each dependency starts at "not tested yet" and climbs:
 |---|---|---|
 | identity | we know exactly which artifact the build consumed | lockfile hash or registry version (every row today) |
 | provenance | the registry attests which source commit and build produced the artifact | npm provenance, PyPI attestations, Reproducible Central for Maven; checked automatically |
-| reproduced | we rebuilt the artifact from source and it matches | a build recording like a wallet's; one rebuild of a shared package covers every product that ships that version, so the most shared packages go first |
+| reproduced | someone rebuilt the artifact from source and it matches | our own rebuilds (npm so far) and imported claims from Google's OSS Rebuild and Reproducible Central, each shown under its claimant's name; one rebuild of a shared package covers every product that ships that version, so the most shared packages go first |
 | closed | no source | see the verdict rule below |
 
 The panel will show the level per dependency and the share per wallet.
-Rebuilding is planned per ecosystem, npm first.
+
+### Rebuilding dependencies (issue 992 part G)
+
+Who rebuilt which package version lives in `package_rebuilds`, one row per
+claimant, and reaches the panel as `rebuilds.json` per release (a tile, a
+Rebuilds tab, a pill in the tree). Nothing here changes a verdict.
+
+- **Imported claims** (`rebuildClaims.mjs`, every pass and
+  `rebuild-claims-cli.mjs`): Google's OSS Rebuild publishes a signed
+  attestation per rebuilt npm, PyPI and crates.io file, successes only;
+  Reproducible Central keeps an ok/ko verdict per Maven file. Shown as their
+  claims, with a link; we do not repeat their work.
+- **Our rebuilds** (`rebuild-npm-cli.mjs`, by hand, never on the build
+  host): the npm versions most wallets ship in the app that nobody
+  reproduced. Source from the identity check's tag or the registry's
+  gitHead; the publisher's Node major and npm version; the repository's
+  lockfile; `npm pack`; in a container with no capabilities, a read-only
+  root and limits.
+- **Match rule** (first draft, for Leo to settle): every file of the
+  registry tarball byte for byte and no file more; tar metadata and gzip
+  ignored, as OSS Rebuild does. Differences in line endings only, in docs,
+  in package.json fields that never run (scripts, devDependencies), or a
+  `.npmignore` that old npm packed are named in the result but still count
+  as failed.
+- **Publishing**: each of our results carries the Nostr event we will sign
+  (d tag `npm:<name>@<version>`, the file's sha256, status, source commit,
+  toolchain). Unsigned and unpublished until its kind number is picked.
+
+First run (2026-11-03, the 2026-10-27 database): OSS Rebuild covers 1,299 of
+17,752 npm versions, 263 crates and 82 PyPI versions; Reproducible Central
+193 Maven versions (16 failed there).
 
 **Closed-source dependency rule** (Leo, 2026-10-16): a wallet that ships a
 closed-source library is itself not open source and gets that verdict. Open
@@ -602,5 +632,5 @@ Built and on the preview today; what each still needs before a release:
    wants a schedule next to the analyser (a GitHub token makes it take
    about ten minutes).
 7. **Reproducibility of dependencies** (the "reproduced" rung of the
-   ladder): explained, not built; a pilot on the 50 most shared npm package
-   versions, starting from Google's OSS Rebuild attestations, waits for a go.
+   ladder): built (see "Rebuilding dependencies"); the match rule and the
+   event kind wait on Leo.
