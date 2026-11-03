@@ -36,7 +36,7 @@ iphone:
 
 ---
 
-**Update 2026-10-30:** This app is gone from both stores. Zabira moved its website to [zabira.com](https://www.zabira.com/), and offers a new app there, "Zabira: Buy Crypto & Gift Card" (`dev.app.grizab.ng`, released 2024). We have not reviewed the new app yet.
+**Update 2026-10-30:** This app is gone from both stores. Zabira moved its website to [zabira.com](https://www.zabira.com/), and offers a new app there, released in 2024: {% include walletLink.html wallet='android/dev.app.grizab.ng' verdict='true' %}.
 
 ## Android
 

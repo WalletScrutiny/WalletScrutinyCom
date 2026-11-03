@@ -18,7 +18,7 @@ android:
 
 ---
 
-**Update 2026-10-30:** Pera's old website pera.cx is gone; the provider now runs [perahq.com](https://perahq.com), which links to a new app, "Pera: Crypto, GiftCards & Shop", that replaces this one and is not listed here yet.
+**Update 2026-10-30:** Pera's old website pera.cx is gone; the provider now runs [perahq.com](https://perahq.com), which links to a new app that replaces this one: {% include walletLink.html wallet='android/com.pera.pera' verdict='true' %}.
 
 ## App Description from Google Play 
 

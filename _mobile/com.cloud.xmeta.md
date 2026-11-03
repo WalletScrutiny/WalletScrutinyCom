@@ -36,7 +36,7 @@ iphone:
 
 ---
 
-**Update 2026-10-30:** X-Meta now offers a new app, "X-Meta Global", from its [website](https://www.x-meta.com/mn). This older Android app has not been updated since December 2022, and the old iPhone app is gone.
+**Update 2026-10-30:** X-Meta now offers a new app from its [website](https://www.x-meta.com/mn): {% include walletLink.html wallet='android/com.xmeta.mobile' verdict='true' %}. This older Android app has not been updated since December 2022, and the old iPhone app is gone.
 
 ## Android
 

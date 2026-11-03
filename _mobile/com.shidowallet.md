@@ -40,7 +40,7 @@ iphone:
 
 ---
 
-**Update 2026-10-30:** Shido Finance replaced this wallet with a rebuilt "Shido App V2" in December 2024 ([announcement](https://web.archive.org/web/20260714164415/https://www.shido.news/post/new-shido-app-v2-is-now-launched)). We have not reviewed the new app yet.
+**Update 2026-10-30:** Shido Finance replaced this wallet with a rebuilt "Shido App V2" in December 2024 ([announcement](https://web.archive.org/web/20260714164415/https://www.shido.news/post/new-shido-app-v2-is-now-launched)): {% include walletLink.html wallet='android/com.shido.wallet' verdict='true' %}.
 
 ## Android
 

@@ -34,7 +34,7 @@ iphone:
 
 ---
 
-**Update 2026-10-30:** FameEX still runs its exchange at [fameex.com](https://www.fameex.com/en-US) and now offers new apps under different IDs: `com.trade.view.fame` on Android (FAMEEX INTERNATIONAL PTY LTD) and `info.fame.ex.app` on iPhone (FameX Ltd, released August 2025), both linked from its [download page](https://www.fameex.com/en-US/download). They are not reviewed here yet.
+**Update 2026-10-30:** FameEX still runs its exchange at [fameex.com](https://www.fameex.com/en-US) and now offers new apps for Android and iPhone, both linked from its [download page](https://www.fameex.com/en-US/download): {% include walletLink.html wallet='android/com.trade.view.fame' verdict='true' %}.
 
 ## Android
 

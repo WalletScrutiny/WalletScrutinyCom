@@ -31,7 +31,7 @@ iphone:
 
 ---
 
-**Update 2026-10-30:** This app is gone from both stores. Rakuten Wallet now offers margin trading in a newer app, and on 14 October 2026 it launched a new "Rakuten Wallet" app that merges margin and spot trading ([CoinPost](https://coinpost.jp/?p=743139)). Neither of the new apps is listed here yet; the spot trading app is {% include walletLink.html wallet='android/jp.co.rakuten.wallet.crypto' verdict='true' %}.
+**Update 2026-10-30:** This app is gone from both stores. Rakuten Wallet now offers margin trading in a newer app, {% include walletLink.html wallet='android/jp.co.rakuten.wallet.leverage.exchange' verdict='true' %}, and on 14 October 2026 it launched a new "Rakuten Wallet" app that merges margin and spot trading ([CoinPost](https://coinpost.jp/?p=743139)). That merged app is not listed here yet; the spot trading app is {% include walletLink.html wallet='android/jp.co.rakuten.wallet.crypto' verdict='true' %}.
 
 ## Android
 

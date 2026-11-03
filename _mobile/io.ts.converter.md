@@ -21,10 +21,22 @@ android:
   meta: ok
   verdict: custodial
   developerName: TapSwap
+iphone:
+  appId: io.tapswap.converter
+  idd: '6449744817'
+  appCountry: ke
+  released: '2025-04-14T07:00:00Z'
+  updated: 2026-01-12
+  version: 3.12.14
+  reviews: 18
+  icon: io.tapswap.converter.webp
+  meta: ok
+  verdict: custodial
+  developerName: TapSwap Kenya
 
 ---
 
-**Update 2026-10-30:** TapSwap now lets users send and receive bitcoin: its [website](https://tapswap.io) advertises "Buy, sell, send and receive crypto", and its [terms](https://tapswap.io/terms-of-service/) allow withdrawals to external accounts, including over Lightning. The same terms say "All Digital Assets held in your TapSwap Account are custodial assets held by TapSwap", so the app is now {% include verdictBadge.html verdict="custodial" type='short' %}.
+**Update 2026-10-30:** TapSwap now lets users send and receive bitcoin, and since 2025 it also has an iPhone app, published by TapSwap Kenya Limited. Its [website](https://tapswap.io) advertises "Buy, sell, send and receive crypto", and its [terms](https://tapswap.io/terms-of-service/) allow withdrawals to external accounts, including over Lightning. The same terms say "All Digital Assets held in your TapSwap Account are custodial assets held by TapSwap", so both apps are now {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## App Description
 
