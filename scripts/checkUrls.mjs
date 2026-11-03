@@ -32,12 +32,12 @@
 
 import fs from 'fs';
 import path from 'path';
+import { pathToFileURL } from 'url';
 import yaml from 'js-yaml';
 import helper from './helper.mjs';
 
 const PLATFORMS = [
-  { dir: '_android',  category: 'android' },
-  { dir: '_iphone',   category: 'iphone' },
+  { dir: '_mobile',   category: 'mobile' },
   { dir: '_hardware', category: 'hardware' },
   { dir: '_bearer',   category: 'bearer' },
   { dir: '_desktop',  category: 'desktop' },
@@ -46,6 +46,10 @@ const PLATFORMS = [
 
 // Frontmatter fields that contain URLs (string fields)
 const URL_FIELDS = ['website', 'repository', 'bugbounty', 'providerWebsite', 'shop'];
+
+// _mobile keeps per-store fields (repository, bugbounty) under these blocks.
+// Their refs use a dotted field name such as 'android.repository'.
+const STORE_BLOCKS = ['android', 'iphone'];
 
 // Domains where responses are unreliable (bot-blocking, auth-walls).
 // URLs on these domains are skipped entirely — never checked, never marked dead.
@@ -635,6 +639,17 @@ function collectUrls() {
         }
       }
 
+      for (const block of STORE_BLOCKS) {
+        const storeHeader = content.header[block];
+        if (!storeHeader || typeof storeHeader !== 'object') continue;
+        for (const field of URL_FIELDS) {
+          const val = storeHeader[field];
+          if (typeof val === 'string' && val.startsWith('http')) {
+            addUrl(urlMap, val, filePath, `${block}.${field}`);
+          }
+        }
+      }
+
       // Social array
       const social = content.header.social;
       if (Array.isArray(social)) {
@@ -729,8 +744,10 @@ function replaceInFile(fileData, filePath, field, index, oldUrl, newUrl) {
       }
     }
   } else {
-    if (data.header[field] === oldUrl) {
-      data.header[field] = newUrl;
+    const [block, key] = field.includes('.') ? field.split('.') : [null, field];
+    const target = block ? data.header[block] : data.header;
+    if (target && target[key] === oldUrl) {
+      target[key] = newUrl;
     }
   }
   data.dirty = true;
@@ -916,7 +933,15 @@ async function main() {
   }
 }
 
-main().catch(err => {
-  console.error('Fatal:', err);
-  process.exit(1);
-});
+export { collectUrls, replaceInFile };
+
+const isCheckUrlsCli =
+  process.argv[1] &&
+  import.meta.url === pathToFileURL(process.argv[1]).href;
+
+if (isCheckUrlsCli) {
+  main().catch(err => {
+    console.error('Fatal:', err);
+    process.exit(1);
+  });
+}
