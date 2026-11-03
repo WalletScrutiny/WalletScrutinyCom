@@ -15,10 +15,16 @@ repository: https://github.com/apotdevin/thunderhub
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2026-10-30
+date: 2026-11-03
 twitter: thunderhubio
 social: 
-builds: 
+builds:
+- arch: x86_64-linux
+  types:
+    standard:
+    - thunderhub-standard-*-amd64.tar
+    base:
+    - thunderhub-base-*-amd64.tar
 features:
 - foss
 - ln
