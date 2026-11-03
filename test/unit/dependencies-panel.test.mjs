@@ -86,8 +86,8 @@ describe('dependencies panel', () => {
     assert.equal(cleared.textContent, 'cleared');
     cleared.dispatchEvent(new window.Event('click', { bubbles: true }));
     assert.equal(number.getAttribute('aria-expanded'), 'false', 'one tip at a time');
-    assert.match(tip.textContent, /signed a statement that it does not apply to this app/);
-    assert.match(tip.textContent, /On its own it does not mean there is a problem in your app\./);
+    assert.match(tip.textContent, /signed that it does not affect this app/);
+    assert.match(tip.textContent, /nobody has checked them yet/);
     cleared.dispatchEvent(new window.Event('click', { bubbles: true }));
     assert.equal(host.querySelectorAll('tbody tr').length, 10);
     assert.equal(host.querySelector('tbody tr td a').textContent, 'GHSA-crit');

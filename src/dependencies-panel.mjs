@@ -559,9 +559,8 @@ export function decisionCell(a, { onJudge = null, freshId = null } = {}) {
 
 // What "cleared" on the severity lines means.
 export const CLEARED_TIP_LINES = [
-  'Cleared means a reviewer this site trusts looked at the report and signed a statement that it does not apply to this app.',
-  'That is either “not affected” (the app does not use the part of the package the report is about) or “fixed” (the app already has the fix). Each row below shows the reason and who signed it.',
-  'A report that is not cleared has either not been reviewed yet, or was found to apply; the Decision column says which. On its own it does not mean there is a problem in your app.',
+  'Cleared means a reviewer we trust checked the report and signed that it does not affect this app, or that the app already has the fix.',
+  'Most reports are not cleared only because nobody has checked them yet. That alone does not mean the app has a problem.',
 ];
 
 function clearedTip() {
