@@ -181,6 +181,13 @@ function tile(value, label, { tone = '', sub = null, extra = null } = {}) {
   );
 }
 
+// "0 known malware": hidden on phones, where it only takes a row.
+function malwareFreeTile(count) {
+  const t = tile(count, 'known malware', { tone: 'good' });
+  if (count === 0) t.classList.add('dp-tile--phone-hidden');
+  return t;
+}
+
 // The y axis around the counts, a little wider than their range, so a rise or
 // a drop shows instead of a flat line far above zero: round ends, about four
 // steps of 1, 2 or 5 times a power of ten, never below zero.
@@ -861,7 +868,7 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
     vulnerabilityTile(model),
     model.malware
       ? tile(model.malware, 'possible malware', { tone: 'bad', sub: 'being checked by a person; see the note above' })
-      : tile(model.malware, 'known malware', { tone: 'good' }),
+      : malwareFreeTile(model.malware),
     rebuildTile(model.rebuilds, model.packages, tile),
   );
   const rest = [

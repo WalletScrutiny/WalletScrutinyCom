@@ -79,6 +79,11 @@ body.dark .dp-panel {
     grid-template-columns: 1fr;
   }
 
+  // a zero malware count is a tile that says nothing on a phone
+  .dp-tile--phone-hidden {
+    display: none;
+  }
+
   // the platform box around the step is frame enough: no second box between it and the tiles
   .dp-panel,
   body.dark .dp-panel {
