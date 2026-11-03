@@ -61,6 +61,15 @@ describe('nextMeta', () => {
     assert.equal(nextMeta({ meta: 'removed' }, otherChannels({}, false)), null);
   });
 
+  test('an app with few Play installs that another channel ships is fewusers', () => {
+    const removed = { meta: 'removed', users: 20 };
+    assert.equal(nextMeta(removed, otherChannels(removed, true)), 'fewusers');
+    const ok = { playStore: 'removed', meta: 'ok', users: 20, alternativeStores: ['zapstore'] };
+    assert.equal(nextMeta(ok, otherChannels(ok, null)), 'fewusers');
+    const many = { playStore: 'removed', meta: 'ok', users: 1000, alternativeStores: ['zapstore'] };
+    assert.equal(nextMeta(many, otherChannels(many, null)), null);
+  });
+
   test('keeps any other meta while another channel ships', () => {
     const android = { playStore: 'removed', meta: 'fewusers', alternativeStores: ['zapstore'] };
     assert.equal(nextMeta(android, otherChannels(android, null)), null);

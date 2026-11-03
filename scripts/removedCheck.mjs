@@ -73,7 +73,7 @@ async function main () {
     rows.push({ filePath, ...loaded, android });
   }
 
-  const counts = { ok: 0, removed: 0, unknown: 0 };
+  const counts = { ok: 0, fewusers: 0, removed: 0, unknown: 0 };
   await Promise.all(rows.map((r) => limit(async () => {
     const { android, mobile } = r;
     let ships = false;
@@ -97,7 +97,7 @@ async function main () {
   const verb = dryRun ? 'would be ' : '';
   console.error(
     `\nSummary: ${rows.length} Android apps not on Google Play. ` +
-      `meta ${verb}set to ok: ${counts.ok}, to removed: ${counts.removed}, ` +
+      `meta ${verb}set to ok: ${counts.ok}, to fewusers: ${counts.fewusers}, to removed: ${counts.removed}, ` +
       `left unchanged after a failed GitHub query: ${counts.unknown}.`
   );
 }
