@@ -230,6 +230,8 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
     signals: signals ? { date: signals.date || null, exploited, withEpss: advisories.filter(a => a.epss != null).length } : null,
     diff: current.diffFrom || null,
     submodules: current.submodules || null,
+    // who rebuilt this release's dependencies from source (issue 992 part G; export.mjs releaseRebuilds)
+    rebuilds: current.rebuilds || null,
     // how much of the build the lockfiles we read cover (external/source_analysis/plugins/lock-coverage.mjs)
     // this page's app only, when the repository also builds another (iPhone files stay off the Android page)
     lockCoverage: current.lockCoverageByPlatform?.[platform] || current.lockCoverage || null,

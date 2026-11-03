@@ -7,6 +7,7 @@
 
 import { el } from './html-utils.mjs';
 import { whereLabel, SEVERITY_ORDER, SEVERITY_LABEL } from './dependencies-panel-model.mjs';
+import { rebuildBadge, rebuildKey } from './dependencies-rebuilds.mjs';
 import { buildTree, childrenOf, searchNodes, pathTo, GROUPS, UNREACHABLE_LABEL, MAX_MATCHES } from './dependencies-tree-model.mjs';
 
 const OSV_URL = 'https://osv.dev/vulnerability/';
@@ -35,7 +36,7 @@ const ID = { next: 0 };
  * The tab's content for one release. `dependencies` are dependencies.json rows,
  * `advisories` the panel model's advisories, `wallet` the heading line.
  */
-export function treeElement({ dependencies, advisories = [], wallet }) {
+export function treeElement({ dependencies, advisories = [], wallet, rebuilds = null }) {
   const tree = buildTree(dependencies, advisories);
   const expanded = new Set();
   const uid = `dpt-${ID.next++}`;
@@ -87,6 +88,7 @@ export function treeElement({ dependencies, advisories = [], wallet }) {
       el('span', { className: 'dpt-version' }, node.version),
       el('span', { className: `dp-where dp-where--${node.scope}` }, whereLabel(node.row)),
       advisoryBadge(node),
+      rebuilds ? rebuildBadge(rebuilds.get(rebuildKey(node.ecosystem, node.name, node.version))) : null,
       kids.length ? el('span', { className: 'dpt-count' }, `${kids.length} ${kids.length === 1 ? 'dependency' : 'dependencies'}`) : null,
       ambiguous ? el('span', { className: 'dpt-flag', title: 'The parent is locked at several versions in this lockfile and the file does not say which one needs this package, so it is listed under each of them.' }, 'parent version unclear') : null,
       cycle ? el('span', { className: 'dpt-flag', title: 'This package is already above on this path; expansion stops here.' }, 'cycle, not expanded') : null,

@@ -14,6 +14,7 @@ import { dependencyTriageKind, mainRelayUrl, eventRelayUrls } from './nostr-cons
 import { fetchEvents } from './nostr-client.mjs';
 import { openTriageDialog } from './dependencies-triage-form.mjs';
 import { treeElement } from './dependencies-tree.mjs';
+import { rebuildTile, rebuildsElement, rebuildIndex } from './dependencies-rebuilds.mjs';
 import { epssTrigger, tipTrigger } from './dependencies-epss-tip.mjs';
 import { showAnalysedReleases } from './build-verifications.mjs';
 
@@ -862,6 +863,7 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
     model.malware
       ? tile(model.malware, 'possible malware', { tone: 'bad', sub: 'being checked by a person; see the note above' })
       : tile(model.malware, 'known malware', { tone: 'good' }),
+    rebuildTile(model.rebuilds, model.packages, tile),
   );
   const rest = [
     treeTabs(model, advisoryTable(model, { onJudge, freshId, showAll }), { appId, base, fetchImpl, label: `${wallet} ${model.ref}` }),
@@ -1011,15 +1013,21 @@ function treeTabs(model, table, { appId, base, fetchImpl, label }) {
   const tabs = [];
   const panes = [];
   let loaded = false;
+  const dir = `${base}/apps/${safeName(appId)}/${safeName(model.ref)}`;
   const treePane = el('div', { className: 'dp-tabpanel', role: 'tabpanel', hidden: true }, el('p', { className: 'dpt-intro' }, 'Loading the dependency list…'));
+  const rebuildPane = el('div', { className: 'dp-tabpanel', role: 'tabpanel', hidden: true }, el('p', { className: 'dpt-intro' }, 'Loading the rebuild results…'));
   const tablePane = el('div', { className: 'dp-tabpanel', role: 'tabpanel' }, table || el('p', { className: 'dpt-intro' }, 'No published advisories found for this release.'));
   const select = (i) => {
     tabs.forEach((t, j) => { t.setAttribute('aria-selected', String(i === j)); t.tabIndex = i === j ? 0 : -1; panes[j].hidden = i !== j; });
-    if (i === 1 && !loaded) {
+    if (i >= 1 && !loaded) {
       loaded = true;
-      fetchJson(`${base}/apps/${safeName(appId)}/${safeName(model.ref)}/dependencies.json`, fetchImpl).then((data) => {
+      Promise.all([
+        fetchJson(`${dir}/dependencies.json`, fetchImpl),
+        model.rebuilds ? fetchJson(`${dir}/rebuilds.json`, fetchImpl).catch(() => null) : null,
+      ]).then(([data, rebuilds]) => {
         if (!data?.dependencies?.length) throw new Error('empty');
-        treePane.replaceChildren(treeElement({ dependencies: data.dependencies, advisories: model.advisories, wallet: label }));
+        treePane.replaceChildren(treeElement({ dependencies: data.dependencies, advisories: model.advisories, wallet: label, rebuilds: rebuildIndex(rebuilds) }));
+        rebuildPane.replaceChildren(rebuilds ? rebuildsElement(rebuilds, data.dependencies) : el('p', { className: 'dpt-intro' }, 'No rebuild results for this release.'));
       }).catch((error) => {
         console.warn('Dependency tree not available', error);
         loaded = false;
@@ -1027,15 +1035,17 @@ function treeTabs(model, table, { appId, base, fetchImpl, label }) {
       });
     }
   };
-  [['Advisories', tablePane], ['Dependency tree', treePane]].forEach(([name, pane], i) => {
+  const names = [['Advisories', tablePane], ['Dependency tree', treePane]];
+  if (model.rebuilds) names.push(['Rebuilds', rebuildPane]);
+  names.forEach(([name, pane], i) => {
     const tab = el('button', { type: 'button', className: 'dp-tab', role: 'tab', 'aria-selected': String(i === 0), tabindex: i === 0 ? '0' : '-1' }, name);
     tab.addEventListener('click', () => select(i));
     tab.addEventListener('keydown', (e) => {
-      if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') { const j = (i + 1) % 2; select(j); tabs[j].focus(); e.preventDefault(); }
+      if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') { const j = (i + (e.key === 'ArrowRight' ? 1 : names.length - 1)) % names.length; select(j); tabs[j].focus(); e.preventDefault(); }
     });
     tabs.push(tab); panes.push(pane);
   });
-  return el('div', { className: 'dp-tabs' }, el('div', { className: 'dp-tablist', role: 'tablist' }, tabs), tablePane, treePane);
+  return el('div', { className: 'dp-tabs' }, el('div', { className: 'dp-tablist', role: 'tablist' }, tabs), ...panes);
 }
 
 // "Your statement on GHSA-… is published (3 of 6 relays): this page shows it now, every wallet page after the next site build."

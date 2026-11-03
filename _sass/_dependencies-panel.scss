@@ -1355,3 +1355,34 @@ body.dark .dp-note-more {
     font-size: $font-xxs;
   }
 }
+
+// Rebuilt from source (src/dependencies-rebuilds.mjs): pills in the tree and
+// the Rebuilds tab. Ours and others' claims share the look; the "(their
+// claim)" label tells them apart.
+.dp-rb {
+  display: inline-block;
+  font-size: $font-xxs;
+  border-radius: 999px;
+  padding: 1px 8px;
+  border: 1px solid var(--neutral-5);
+  white-space: nowrap;
+}
+.dp-rb--reproduced { border-color: #1e8449; color: #1e8449; background: rgba(30, 132, 73, .08); }
+.dp-rb--failed { border-color: #b9770e; color: #b9770e; border-style: dashed; }
+body.dark .dp-rb--reproduced { color: #58d68d; border-color: #58d68d; }
+body.dark .dp-rb--failed { color: #f5b041; border-color: #f5b041; }
+.dp-rb-filters { flex-wrap: wrap; gap: 6px; }
+.dp-rb-filter[aria-pressed="true"] { font-weight: 700; outline: 2px solid var(--neutral-3); }
+.dp-rb-claim { margin: 2px 0 6px; }
+.dp-rb-theirs { font-size: $font-xs; color: var(--neutral-3); }
+.dp-rb-event summary { cursor: pointer; font-size: $font-xs; color: var(--neutral-2); }
+.dp-rb-event pre {
+  font-size: $font-xxs;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  max-width: 100%;
+  background: rgba(127, 127, 127, .08);
+  padding: 6px;
+  border-radius: 6px;
+}
+.dp-rb-table td { vertical-align: top; }
