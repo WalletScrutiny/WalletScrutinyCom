@@ -284,7 +284,7 @@ let verificationModalClickHandler = null;
 let verificationModalKeyHandler = null;
 let verificationModalPopstateHandler = null;
 
-const PLATFORM_LABELS = { android: 'Android', ios: 'iPhone', desktop: 'Desktop', hardware: 'Hardware' };
+const PLATFORM_LABELS = { android: 'Android', ios: 'iPhone', desktop: 'Desktop & Server', hardware: 'Hardware' };
 
 function platformLabel(platform) {
   if (!platform) {

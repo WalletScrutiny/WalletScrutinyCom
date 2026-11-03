@@ -26,7 +26,7 @@ const NOT_REPRODUCIBLE_RED = '#ef4444';
 const MAX_REPRODUCIBILITY_SQUARES = 12;
 const fallbackIcon = 'images/smallNoicon.png';
 const platformNames = {
-  android: 'Android', iphone: 'iOS', mobile: 'Mobile', hardware: 'Hardware', bearer: 'Bearer Token', desktop: 'Desktop'
+  android: 'Android', iphone: 'iOS', mobile: 'Mobile', hardware: 'Hardware', bearer: 'Bearer Token', desktop: 'Desktop & Server'
 };
 
 // Worker-specific resources (loaded once per worker)

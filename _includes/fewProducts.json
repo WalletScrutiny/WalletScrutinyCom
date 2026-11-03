@@ -103,7 +103,7 @@
     ]
   },
   "desktop": {
-    "category": "Desktop",
+    "category": "Desktop & Server",
     "apps": [ 
       {% assign desktop = site.desktop | where: 'meta', 'ok' | where: 'verdict', 'sourceavailable' | slice: 0, few_wallets_per_platform %}
       {% for post in desktop %}
