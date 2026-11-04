@@ -45,15 +45,25 @@ export function rebuildBadge(row) {
   return el('span', { className: `dp-rb dp-rb--${state}`, title: claims.map(c => `${claimWords(c)}${c.note ? ` (${c.note})` : ''}`).join('; ') }, text);
 }
 
+// n as a share of total: one decimal below 10%, never rounded to 0% or 100%.
+export function percentOf(n, total) {
+  if (!total) return '';
+  const p = (n / total) * 100;
+  if (n && p < 0.1) return '<0.1%';
+  if (n < total && p > 99.9) return '>99.9%';
+  return `${p < 10 ? Math.round(p * 10) / 10 : Math.round(p)}%`;
+}
+
 // The tile under the counts: how many of this release's dependencies someone rebuilt.
 export function rebuildTile(summary, packages, tile) {
   if (!summary) return null;
   const by = summary.byClaimant || {};
-  const parts = ORDER.filter(k => by[k]?.reproduced).map(k => `${by[k].reproduced} ${CLAIMANTS[k].short === 'us' ? 'by us' : CLAIMANTS[k].short}`);
+  const share = (n) => (packages ? ` (${percentOf(n, packages)})` : '');
+  const parts = ORDER.filter(k => by[k]?.reproduced).map(k => `${by[k].reproduced} ${CLAIMANTS[k].short === 'us' ? 'by us' : CLAIMANTS[k].short}${share(by[k].reproduced)}`);
   return tile(summary.reproduced, 'rebuilt from source', { sub: [
-    el('div', { className: 'dp-tile__line' }, `of ${packages.toLocaleString('en-US')} dependencies`),
+    el('div', { className: 'dp-tile__line' }, `${packages ? `${percentOf(summary.reproduced, packages)} ` : ''}of ${packages.toLocaleString('en-US')} dependencies`),
     parts.length ? el('div', { className: 'dp-tile__line' }, parts.join(' · ')) : null,
-    summary.failed ? el('div', { className: 'dp-tile__line dp-tile__line--muted' }, `${summary.failed} failed every rebuild tried`) : null,
+    summary.failed ? el('div', { className: 'dp-tile__line dp-tile__line--muted' }, `${summary.failed} failed every rebuild tried${share(summary.failed)}`) : null,
     el('div', { className: 'dp-tile__caveat' }, 'Others\' results are their claims, linked; we did not repeat them.'),
   ] });
 }
