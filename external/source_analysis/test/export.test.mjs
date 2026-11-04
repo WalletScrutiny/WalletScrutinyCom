@@ -312,5 +312,7 @@ test('buildApp: counts per target and advisory targets, only for a wallet on the
   const [single] = buildApp(db, 'single').releases;
   assert.equal(single.dependencies.byTarget, undefined, 'a guess alone changes nothing: electron/ still counts');
   assert.equal(single.dependencies.onlyOutside, undefined);
+  assert.deepEqual(single.dependencies.unlisted, ['electron/package-lock.json'], 'the guess is named for review');
+  assert.equal(release.dependencies.unlisted, undefined, 'everything the guess flags has a rule');
   assert.equal(single.advisories[0].targets, undefined);
 });

@@ -535,3 +535,28 @@ describe('dependencies per version', () => {
     assert.deepEqual(historyScale(167, 167), { bottom: 164, top: 170, step: 2 });
   });
 });
+
+describe('dependencies panel: which app a file belongs to (issue 994)', () => {
+  const release = (dependencies) => ({ ref: 'v1', status: 'ok', dependencies: { total: 3, direct: 1, byScope: { app: 3 }, byEcosystem: { npm: 3 }, lockfiles: [], ...dependencies }, advisories: [] });
+  const panel = (dependencies, platform) => panelElement(panelModel({ appId: 'w', releases: [release(dependencies)] }, { platform }), { appId: 'w', base: '/x', fetchImpl: async () => null });
+
+  test('a guess nobody checked is named as a guess, and the file still counts', () => {
+    const node = panel({ unlisted: ['webapp/package-lock.json'] }, 'hardware');
+    assert.match(node.querySelector('.dp-notices').textContent, /webapp\/package-lock\.json may belong to another product\. That is a guess from the name and nobody has checked it, so the file is still counted here\./);
+    assert.equal(node.querySelector('.dp-tile__value').textContent, '3');
+    assert.equal(node.querySelector('.dp-not-in-app'), null);
+  });
+
+  test('the "not in this app" line says it is not a check of the released app', () => {
+    const c = total => ({ total, direct: 0, byScope: { app: total }, byEcosystem: { npm: total } });
+    const node = panel({ byTarget: { desktop: c(1), shared: c(2) }, onlyOutside: { android: 1 } }, 'android');
+    assert.equal(node.querySelector('.dp-not-in-app').textContent, 'Not in this app: desktop app, 1 library. Sorted by file path from the wallet\'s build files; not a check of the released app.');
+  });
+
+  test('the note on how to read the panel says labels are guesses and counts can be too high', () => {
+    const text = panel({}, 'android').querySelector('.dp-note-text').textContent;
+    assert.match(text, /not a check of the released app/);
+    assert.match(text, /so the numbers can be too high/);
+    assert.match(text, /are guesses from folder names/);
+  });
+});

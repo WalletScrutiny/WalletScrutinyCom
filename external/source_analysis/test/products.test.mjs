@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { guessOfLockfile, targetOfLockfile, targetsOfLockfiles, unlistedFiles } from '../products.mjs';
+import { HAND_MADE, guessOfLockfile, targetOfLockfile, targetsOfLockfiles, unlistedFiles } from '../products.mjs';
 
 test('folder names give a guess, top folder first', () => {
   assert.equal(guessOfLockfile('electron/package-lock.json'), 'desktop');
@@ -82,4 +82,13 @@ test('targetsOfLockfiles says nothing when every file is shared', () => {
   assert.equal(targetsOfLockfiles([], 'it.airgap.vault'), undefined);
   assert.deepEqual(targetsOfLockfiles(['electron/package-lock.json', 'yarn.lock', 'android/build.gradle'], 'it.airgap.vault'), ['android', 'desktop', 'shared']);
   assert.equal(targetsOfLockfiles(['electron/package-lock.json', 'android/build.gradle'], 'not.on.the.list'), undefined);
+});
+
+test('every hand-made rule links its evidence at a pinned release', () => {
+  for (const [appId, rules] of Object.entries(HAND_MADE)) {
+    for (const [re, target, links] of rules) {
+      assert.ok(typeof target === 'string' && links?.length, `${appId} ${re}`);
+      for (const link of links) assert.match(link, /^https:\/\/github\.com\/[^/]+\/[^/]+\/blob\/(?!main\/|master\/|develop\/)/, `${appId} ${re}`);
+    }
+  }
 });

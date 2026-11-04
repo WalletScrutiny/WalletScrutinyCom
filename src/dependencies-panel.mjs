@@ -765,6 +765,10 @@ function notices(model) {
   if (model.sameRepositoryAs.length) {
     items.push(`Built from the same source repository as ${model.sameRepositoryAs.join(', ')}, which shares this analysis.`);
   }
+  if (model.unlisted?.length) {
+    const names = model.unlisted.slice(0, 3).join(', ') + (model.unlisted.length > 3 ? ` and ${model.unlisted.length - 3} more` : '');
+    items.push(`${names} may belong to another product. That is a guess from the name and nobody has checked it, so the file is still counted here.`);
+  }
   if (model.unchecked) {
     const why = model.uncheckedBreakdown.map(u => `${u.count} ${u.label}`).join(', ');
     items.push(`${model.unchecked} of the ${model.repoPackages ?? model.packages} packages${model.notInApp ? ' in this repository' : ''} could not be checked for advisories${why ? ` (${why})` : ''}; that is not the same as "no problems".`);
@@ -805,6 +809,7 @@ function howToRead(model) {
     parts.push('Under the severity, "exploited in the wild" means CISA lists the advisory as exploited somewhere, EPSS is the published probability that it gets exploited anywhere within 30 days, and "public since" is when the advisory was published; all three are about the advisory, not this wallet. ');
   }
   parts.push('We do not rank wallets by this number. ');
+  parts.push('Which app a dependency file belongs to comes from a short hand-made list, made by reading each wallet\'s build files. It is not a check of the released app. A file not on the list counts on every page, so the numbers can be too high. "Where?" labels such as "website" or "desktop app" are guesses from folder names. ');
   if (model.byScope) {
     const b = model.byScope;
     parts.push(`"Where?" says where a package ends up: ${b.app} in the app, ${b.build} in the build tooling, ${b.tests} only in tests`);
@@ -890,7 +895,7 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
     notices(model),
     flash ? el('p', { className: 'dp-flash', role: 'status' }, flash) : null,
     tiles,
-    model.notInApp ? el('p', { className: 'dp-not-in-app' }, notInAppText(model.notInApp)) : null,
+    model.notInApp ? el('p', { className: 'dp-not-in-app' }, `${notInAppText(model.notInApp)} Sorted by file path from the wallet's build files; not a check of the released app.`) : null,
     // without the tiles there is nothing to fold under
     tiles ? foldedDetails(model, rest, { expanded: expanded || showAll, onToggle }) : rest,
   );

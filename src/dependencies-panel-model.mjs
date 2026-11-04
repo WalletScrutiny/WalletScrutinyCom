@@ -301,6 +301,8 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
     // the whole repository's, for what still covers all of it: the rebuild tile, the unchecked note, the tree
     repoPackages: current.dependencies?.total ?? 0,
     notInApp: counted ? notInAppOf(current.dependencies, current.advisories || [], counted, platform) : null,
+    // files whose names suggest another product, a guess nobody has checked: they still count here
+    unlisted: current.dependencies?.unlisted || [],
     direct: dependencies?.direct ?? 0,
     // Everything the wallet does not import itself; its direct users are named per row.
     transitive: Math.max(0, (dependencies?.total ?? 0) - (dependencies?.direct ?? 0)),

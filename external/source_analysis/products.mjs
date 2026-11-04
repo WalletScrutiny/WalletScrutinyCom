@@ -27,39 +27,66 @@ const TARGET_WORDS = new Map([
 ]);
 
 // The hand-made list, by the analysed app id: the first matching rule gives a
-// file's target. Each entry was checked against the wallet's repository.
+// file's target. Each rule is [path, target, links to the evidence at a pinned
+// release]. The rules were made by reading those files, so far by AI agents;
+// nobody built the apps to confirm them, and a person should review them.
 // "mobile" is both phone apps but not the rest of the repository.
-const ANDROID_FOLDER = [/^android\//, 'android'];
-const HAND_MADE = {
-  'app.zeusln.zeus': [ANDROID_FOLDER],
-  'co.edgesecure.app': [ANDROID_FOLDER],
-  'com.foundationdevices.envoy': [ANDROID_FOLDER],
-  'im.adamant.adamantmessengerpwa': [ANDROID_FOLDER],
-  'io.bluewallet.bluewallet': [ANDROID_FOLDER],
-  'io.muun.apollo': [ANDROID_FOLDER, [/^linters\/findbugs\/check-android\.gradle$/, 'android']],
-  'fr.acinq.phoenix.mainnet': [[/^phoenix-android\//, 'android']],
-  'it.airgap.vault': [ANDROID_FOLDER, [/^electron\//, 'desktop']],
-  'keystone3.pro': [[/^external\/lvgl\/docs\//, 'docs']],
-  'bitcoin.safe': [[/flathub_flatpak\/|requirements-build[-_]mac/, 'desktop']],
-  // web/ holds the wallet libraries of every app and CI builds it for them all;
-  // phonegap/ is the Cordova wrapper of the two phone apps.
-  'com.coinspace.app': [[/^web\//, 'shared'], [/^phonegap\//, 'mobile'], [/^electron\//, 'desktop'], [/^server\//, 'server']],
-  // contrib/android reads only build-base and build-android (it pins its own PyQt6
-  // in p4a_recipes); make_appimage.sh reads hw and binaries.
+const github = (repo, ref, path) => `https://github.com/${repo}/blob/${ref}/${path}`;
+const androidFolder = (repo, ref, path = 'android/build.gradle') => [/^android\//, 'android', [github(repo, ref, path)]];
+const COIN = (path) => github('CoinSpace/CoinSpace', 'v6.31.0', path);
+const ELECTRUM = (path) => github('spesmilo/electrum', '4.8.3', path);
+const BITKEY = (path, ref = 'app/2026.16.1') => github('proto-at-block/bitkey', ref, path);
+export const HAND_MADE = {
+  'app.zeusln.zeus': [androidFolder('ZeusLN/zeus', 'v13.2.4')],
+  'co.edgesecure.app': [androidFolder('EdgeApp/edge-react-gui', 'v4.52.2')],
+  'com.foundationdevices.envoy': [androidFolder('Foundation-Devices/envoy', 'v2.3.7', 'android/app/build.gradle')],
+  'im.adamant.adamantmessengerpwa': [androidFolder('Adamant-im/adamant-im', 'v4.12.0')],
+  'io.bluewallet.bluewallet': [androidFolder('BlueWallet/BlueWallet', 'v8.0.2')],
+  'io.muun.apollo': [
+    androidFolder('muun/apollo', 'v55.12', 'android/apolloui/build.gradle'),
+    [/^linters\/findbugs\/check-android\.gradle$/, 'android', [github('muun/apollo', 'v55.12', 'linters/findbugs/check-android.gradle')]],
+  ],
+  'fr.acinq.phoenix.mainnet': [[/^phoenix-android\//, 'android', [github('ACINQ/phoenix', 'android-v2.6.2', 'phoenix-android/build.gradle.kts')]]],
+  'it.airgap.vault': [
+    androidFolder('airgap-it/airgap-vault', 'v3.35.0'),
+    [/^electron\//, 'desktop', [github('airgap-it/airgap-vault', 'v3.35.0', 'electron/package.json#L48')]],
+  ],
+  'keystone3.pro': [[/^external\/lvgl\/docs\//, 'docs', [github('KeystoneHQ/keystone3-firmware', '3.2.0', 'external/lvgl/docs/requirements.txt#L3')]]],
+  'bitcoin.safe': [[/flathub_flatpak\/|requirements-build[-_]mac/, 'desktop', [
+    github('andreasgriffin/bitcoin-safe', '2.2.1', 'tools/build_linux/flathub_flatpak/requirements-runtime.txt'),
+    github('andreasgriffin/bitcoin-safe', '2.2.1', 'tools/deterministic-build/requirements-build_mac_x86_64.txt'),
+  ]]],
+  'com.coinspace.app': [
+    // The wallet libraries of every app; CI installs and builds them for the build job.
+    [/^web\//, 'shared', [COIN('web/package.json#L30'), COIN('.github/workflows/ci.yml#L182'), COIN('.github/workflows/ci.yml#L326')]],
+    // The Cordova wrapper of the two phone apps.
+    [/^phonegap\//, 'mobile', [COIN('phonegap/package.json#L18-L19')]],
+    [/^electron\//, 'desktop', [COIN('electron/package.json#L41')]],
+    [/^server\//, 'server', [COIN('server/package.json#L43')]],
+  ],
   'org.electrum.electrum': [
-    [/requirements-build-android\.txt$/, 'android'],
-    [/requirements-(binaries-mac|binaries|build-mac|build-appimage|build-wine|hw)\.txt$/, 'desktop'],
+    [/requirements-build-android\.txt$/, 'android', [ELECTRUM('contrib/android/Dockerfile#L191-L196')]],
+    // The Android build reads only build-base and build-android, and pins its own
+    // PyQt6 in p4a_recipes; the desktop builds read these.
+    [/requirements-(binaries-mac|binaries|build-mac|build-appimage|build-wine|hw)\.txt$/, 'desktop', [
+      ELECTRUM('contrib/android/Dockerfile#L191-L196'),
+      ELECTRUM('contrib/build-linux/appimage/make_appimage.sh#L151-L153'),
+      ELECTRUM('contrib/osx/make_osx.sh#L196-L202'),
+      ELECTRUM('contrib/build-wine/build-electrum-git.sh#L45-L49'),
+    ]],
   ],
   'world.bitkey.app': [
-    // Its README: firmware is the device's, the others run the servers.
-    [/^firmware\//, 'firmware'],
-    [/^(server|terraform|datadog)\//, 'server'],
+    [/^firmware\//, 'firmware', [BITKEY('README.md#L22')]],
+    [/^server\//, 'server', [BITKEY('README.md#L24')]],
+    [/^terraform\//, 'server', [BITKEY('README.md#L25')]],
+    // Gone from the newer releases; infrastructure code for Datadog monitoring.
+    [/^datadog\//, 'server', [BITKEY('datadog/package.json#L23', 'app/2026.2.1')]],
     // One file per library, named after it, so the words in the name say nothing
     // about a target (ktor-client-darwin is an iPhone library) except these suffixes.
-    [/^app\/gradle-lock\/.*-android\.json$/, 'android'],
-    [/^app\/gradle-lock\/.*-ios(arm64|x64|simulatorarm64)\.json$/, 'iphone'],
-    // Its README: app/ holds the Android app, the iPhone app and the code they share.
-    [/^app\//, 'mobile'],
+    [/^app\/gradle-lock\/.*-android\.json$/, 'android', [BITKEY('app/gradle-lock/androidx.compose.animation:animation-android.json')]],
+    [/^app\/gradle-lock\/.*-ios(arm64|x64|simulatorarm64)\.json$/, 'iphone', [BITKEY('app/gradle-lock/co.touchlab:sqliter-driver-iosarm64.json')]],
+    // The Android app, the iPhone app and the code they share.
+    [/^app\//, 'mobile', [BITKEY('README.md#L15-L18')]],
   ],
 };
 

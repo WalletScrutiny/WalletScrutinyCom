@@ -151,6 +151,7 @@ export function summarizeRelease(db, appId, ref) {
   const vulns = getVulnerabilities(db, appId, ref);
   const submodules = summarizeSubmodules(getSubmodules(db, appId, ref));
   const byTarget = countsByTarget(deps, appId);
+  const unlisted = unlistedFiles(deps.map(d => d.lockfile), appId);
   return {
     ...(submodules ? { submodules } : {}),
     dependencies: {
@@ -158,6 +159,8 @@ export function summarizeRelease(db, appId, ref) {
       lockfiles: [...new Set(deps.map(d => d.lockfile))].sort(),
       byTarget,
       onlyOutside: byTarget ? librariesOnlyOutside(deps, appId) : undefined,
+      // files that look like another product's but nobody has checked; still counted
+      unlisted: unlisted.length ? unlisted : undefined,
     },
     vulnerabilities: {
       bySeverity: countBy(vulns, 'severity', SEVERITIES),
