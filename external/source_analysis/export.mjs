@@ -27,7 +27,7 @@ import { groupByRepository } from './appList.mjs';
 import { hintsByApp } from './upstreamTriage.mjs';
 import { coverageForReaders, coverageByPlatform } from './plugins/lock-coverage.mjs';
 import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getEndOfLife, getSubmodules, getRebuildClaims } from './ddbbUtils.mjs';
-import { productPartOf, targetOfLockfile, targetsOfLockfiles } from './products.mjs';
+import { COUNTED_TARGETS, productPartOf, targetOfLockfile, targetsOfLockfiles, unlistedFiles } from './products.mjs';
 
 export const SCHEMA = 1;
 const SEVERITIES = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown'];
@@ -115,22 +115,49 @@ function countsByTarget(deps, appId) {
   const rows = new Map();
   for (const d of deps) {
     const target = targetOfLockfile(d.lockfile, appId);
-    rows.set(target, [...(rows.get(target) || []), d]);
+    if (!rows.has(target)) rows.set(target, []);
+    rows.get(target).push(d);
   }
   if (![...rows.keys()].some(t => t !== 'shared')) return undefined;
   return Object.fromEntries([...rows].sort(([x], [y]) => x.localeCompare(y)).map(([t, r]) => [t, dependencyCounts(r)]));
+}
+
+// Per page, the libraries found only in files it does not count: the same
+// library in the app's own files and the desktop app's is in the app.
+function librariesOnlyOutside(deps, appId) {
+  const targets = deps.map(d => targetOfLockfile(d.lockfile, appId));
+  const key = d => `${d.ecosystem}:${d.name}@${d.dep_version}`;
+  return Object.fromEntries(Object.entries(COUNTED_TARGETS).map(([platform, counted]) => {
+    const inside = new Set(deps.filter((_, i) => counted.includes(targets[i])).map(key));
+    return [platform, new Set(deps.filter((d, i) => !counted.includes(targets[i]) && !inside.has(key(d))).map(key)).size];
+  }));
+}
+
+// A package's scope in each target when it differs from the row's, which is
+// the whole repository's: a build tool here can be bundled in another app.
+const SCOPE_RANK = ['app', 'build', 'tests', 'unknown'];
+function scopesOfRows(rows, appId, scope) {
+  const best = {};
+  for (const d of rows) {
+    const target = targetOfLockfile(d.lockfile, appId);
+    const s = scopeOfRow(d);
+    if (!best[target] || SCOPE_RANK.indexOf(s) < SCOPE_RANK.indexOf(best[target])) best[target] = s;
+  }
+  return Object.values(best).some(s => s !== scope) ? best : undefined;
 }
 
 export function summarizeRelease(db, appId, ref) {
   const deps = getDependencies(db, appId, ref);
   const vulns = getVulnerabilities(db, appId, ref);
   const submodules = summarizeSubmodules(getSubmodules(db, appId, ref));
+  const byTarget = countsByTarget(deps, appId);
   return {
     ...(submodules ? { submodules } : {}),
     dependencies: {
       ...dependencyCounts(deps),
       lockfiles: [...new Set(deps.map(d => d.lockfile))].sort(),
-      byTarget: countsByTarget(deps, appId),
+      byTarget,
+      onlyOutside: byTarget ? librariesOnlyOutside(deps, appId) : undefined,
     },
     vulnerabilities: {
       bySeverity: countBy(vulns, 'severity', SEVERITIES),
@@ -207,11 +234,13 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
     const r = releases[i];
     if (releasedOn.has(r.ref)) r.releasedAt = releasedOn.get(r.ref);
     const previous = releases[i + 1];
-    const lockfilesOf = new Map();
+    const rowsOf = new Map();
     for (const d of getDependencies(db, appId, r.ref)) {
       const key = `${d.ecosystem}:${d.name}@${d.dep_version}`;
-      lockfilesOf.set(key, [...(lockfilesOf.get(key) || []), d.lockfile]);
+      if (!rowsOf.has(key)) rowsOf.set(key, []);
+      rowsOf.get(key).push(d);
     }
+    const rowsOfAdvisory = v => rowsOf.get(`${v.ecosystem}:${v.name}@${v.dep_version}`) || [];
     r.advisories = getVulnerabilities(db, appId, r.ref).map(v => ({
       id: v.vuln_id, severity: v.severity, aliases: v.aliases ? v.aliases.split(' ') : [],
       summary: v.summary, ecosystem: v.ecosystem, package: v.name, version: v.dep_version,
@@ -219,8 +248,9 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
       fixed: v.fixed ? v.fixed.split(' ') : undefined,
       direct: v.direct === null ? null : v.direct === 1,
       scope: scopeOfRow(v) === 'unknown' ? null : scopeOfRow(v),
-      part: partOfLockfiles(lockfilesOf.get(`${v.ecosystem}:${v.name}@${v.dep_version}`) || []) || undefined,
-      targets: targetsOfLockfiles(lockfilesOf.get(`${v.ecosystem}:${v.name}@${v.dep_version}`) || [], appId),
+      part: partOfLockfiles(rowsOfAdvisory(v).map(d => d.lockfile)) || undefined,
+      targets: targetsOfLockfiles(rowsOfAdvisory(v).map(d => d.lockfile), appId),
+      scopes: targetsOfLockfiles(rowsOfAdvisory(v).map(d => d.lockfile), appId) ? scopesOfRows(rowsOfAdvisory(v), appId, scopeOfRow(v)) : undefined,
       dependants: dependantsOfRow(v.dependants),
       repo: sources.get(`${v.ecosystem}:${v.name}`)?.repo_url || undefined,
       products: counts.byName.get(`${v.ecosystem}:${v.name}`) || 1,
@@ -311,10 +341,13 @@ export function exportAll(db, outDir, { onlyReproducible = false } = {}) {
   const sources = packageSources(db);
   const rebuilds = getRebuildClaims(db);
   let releases = 0;
+  const unlisted = {};
   for (const appId of [...appIds].sort()) {
     const app = writeAppFiles(db, tmp, appId, aliases.get(appId) || [], counts, sources, (id) => appIds.has(id), { rebuilds });
     releases += app.releases.length;
     index.apps.push(indexEntry(app));
+    const files = unlistedFiles(app.releases.flatMap(r => r.dependencies?.lockfiles || []), appId);
+    if (files.length) unlisted[appId] = files;
   }
   writeUpstreamHints(db, tmp);
   // The APK checks (apk-contents-cli.mjs --export) are written next to the
@@ -333,7 +366,7 @@ export function exportAll(db, outDir, { onlyReproducible = false } = {}) {
   if (fs.existsSync(outDir)) fs.renameSync(outDir, previous);
   fs.renameSync(tmp, outDir);
   fs.rmSync(previous, { recursive: true, force: true });
-  return { apps: index.apps.length, releases, dir: path.resolve(outDir) };
+  return { apps: index.apps.length, releases, dir: path.resolve(outDir), unlisted };
 }
 
 /**
@@ -454,8 +487,9 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
   const db = initDatabase();
   try {
     const { SCOPE } = await import('./config.mjs');
-    const { apps, releases, dir } = exportAll(db, outDir, { onlyReproducible: SCOPE !== 'all' });
+    const { apps, releases, dir, unlisted } = exportAll(db, outDir, { onlyReproducible: SCOPE !== 'all' });
     console.log(`Exported ${apps} apps, ${releases} releases to ${dir}`);
+    for (const [appId, files] of Object.entries(unlisted)) console.log(`Counted as shared until checked (products.mjs): ${appId}: ${files.join(', ')}`);
   } finally {
     db.close();
     release();

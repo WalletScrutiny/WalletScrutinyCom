@@ -73,32 +73,42 @@ function countsOfAdvisories(rows) {
   return { bySeverity, byScope };
 }
 
-// What the page left out, biggest first: the rows of each other product's files
-// and the advisories found only outside this app. Null when nothing was.
-function notInAppOf(byTarget, rows, counted) {
-  const out = Object.entries(byTarget).filter(([target]) => !counted.includes(target)).map(([target, c]) => {
-    const hits = rows.filter(a => a.targets?.includes(target) && !inThisApp(a, counted));
-    return {
-      target,
-      label: TARGET_LABELS[target] || target,
-      libraries: c.total,
-      advisories: hits.filter(a => a.severity !== 'malicious').length,
-      malware: hits.filter(a => a.severity === 'malicious').length,
-    };
-  }).sort((x, y) => y.libraries - x.libraries);
-  return out.length ? out : null;
+// A row's scope on this page: its own in the files the page counts, not the
+// whole repository's (export.mjs scopesOfRows).
+function scopeOnPage(row, counted) {
+  if (!row.scopes) return row;
+  const here = counted.map(t => row.scopes[t]).filter(Boolean);
+  const best = ['app', 'build', 'tests', 'unknown'].find(s => here.includes(s));
+  return best ? { ...row, scope: best === 'unknown' ? null : best } : row;
 }
 
-// "Not in this app: desktop app, 338 libraries, 120 advisories; docs, 28 libraries."
+// What the page left out, once each: the other products by name, biggest first,
+// and the libraries and advisories found only there. Null when nothing was.
+function notInAppOf(dependencies, rows, counted, platform) {
+  const others = Object.entries(dependencies.byTarget).filter(([target, c]) => !counted.includes(target) && c.total > 0)
+    .sort(([, x], [, y]) => y.total - x.total);
+  const hits = rows.filter(a => !inThisApp(a, counted));
+  const libraries = dependencies.onlyOutside?.[platform] ?? 0;
+  if (!others.length || (!libraries && !hits.length)) return null;
+  return {
+    labels: others.map(([target]) => TARGET_LABELS[target] || target),
+    libraries,
+    advisories: hits.filter(a => a.severity !== 'malicious').length,
+    malware: hits.filter(a => a.severity === 'malicious').length,
+  };
+}
+
+// "Not in this app: desktop app and server, 232 libraries, 120 advisories."
 export function notInAppText(notInApp) {
+  if (!notInApp) return null;
   const count = (n, one, many) => `${n.toLocaleString('en-US')} ${n === 1 ? one : many}`;
-  const parts = (notInApp || []).map(p => [
-    p.label,
-    count(p.libraries, 'library', 'libraries'),
-    p.advisories ? count(p.advisories, 'advisory', 'advisories') : null,
-    p.malware ? `${p.malware} possible malware` : null,
-  ].filter(Boolean).join(', '));
-  return parts.length ? `Not in this app: ${parts.join('; ')}.` : null;
+  const names = notInApp.labels.length > 1 ? `${notInApp.labels.slice(0, -1).join(', ')} and ${notInApp.labels.at(-1)}` : notInApp.labels[0];
+  return `Not in this app: ${[
+    names,
+    notInApp.libraries ? count(notInApp.libraries, 'library', 'libraries') : null,
+    notInApp.advisories ? count(notInApp.advisories, 'advisory', 'advisories') : null,
+    notInApp.malware ? `${notInApp.malware} possible malware` : null,
+  ].filter(Boolean).join(', ')}.`;
 }
 
 // Where a package ends up (`whereOf`, dependency-triage.mjs): "app", "build",
@@ -261,7 +271,7 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
   const counted = current.dependencies?.byTarget ? COUNTED_TARGETS[platform] || null : null;
   const inApp = a => !counted || inThisApp(a, counted);
   const dependencies = counted ? countsOfTargets(current.dependencies.byTarget, counted) : current.dependencies;
-  const vulnerabilityCounts = counted ? countsOfAdvisories((current.advisories || []).filter(inApp)) : current.vulnerabilities;
+  const vulnerabilityCounts = counted ? countsOfAdvisories((current.advisories || []).filter(inApp).map(a => scopeOnPage(a, counted))) : current.vulnerabilities;
 
   const bySeverity = { ...Object.fromEntries(SEVERITY_ORDER.map(s => [s, 0])), ...(vulnerabilityCounts?.bySeverity || {}) };
   const malware = bySeverity.malicious;
@@ -275,7 +285,7 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
     return hints.length || inApk ? { ...a, ...(hints.length ? { upstream: hints } : {}), ...(inApk ? { inApk } : {}) } : a;
   }));
   // A shown row that names a product names this page's own: "only in the desktop app" says nothing on the desktop page.
-  const advisories = counted ? allAdvisories.filter(inApp).map(({ part, ...a }) => a) : allAdvisories;
+  const advisories = counted ? allAdvisories.filter(inApp).map(({ part, ...a }) => scopeOnPage(a, counted)) : allAdvisories;
   const triageSummary = counted ? applyTriage((current.advisories || []).filter(inApp), triage, { appIds }).summary : triaged.summary;
   const exploited = advisories.filter(a => a.exploited).length;
   const unchecked = uncheckedCount(current.osv);
@@ -290,7 +300,7 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
     packages: dependencies?.total ?? 0,
     // the whole repository's, for what still covers all of it: the rebuild tile, the unchecked note, the tree
     repoPackages: current.dependencies?.total ?? 0,
-    notInApp: counted ? notInAppOf(current.dependencies.byTarget, current.advisories || [], counted) : null,
+    notInApp: counted ? notInAppOf(current.dependencies, current.advisories || [], counted, platform) : null,
     direct: dependencies?.direct ?? 0,
     // Everything the wallet does not import itself; its direct users are named per row.
     transitive: Math.max(0, (dependencies?.total ?? 0) - (dependencies?.direct ?? 0)),
@@ -338,8 +348,11 @@ export function dependencyHistory(releases = [], currentRef = null, platform = n
     .filter(r => Number.isFinite(r.dependencies?.total) && ((r.status || 'ok') === 'ok' || r.dependencies.total > 0))
     .map((r) => {
       const c = counted && r.dependencies.byTarget ? countsOfTargets(r.dependencies.byTarget, counted) : r.dependencies;
-      return { ref: r.ref, total: c.total, direct: c.direct ?? null, current: r.ref === currentRef };
+      return { ref: r.ref, total: c.total, direct: c.direct ?? null, current: r.ref === currentRef, empty: c !== r.dependencies && !c.total };
     })
+    // A release with only other products' files says nothing about this app: no cliff to zero.
+    .filter(h => !h.empty)
+    .map(({ empty, ...h }) => h)
     .reverse();
 }
 

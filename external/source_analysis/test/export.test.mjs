@@ -73,7 +73,7 @@ test('exportAll writes index, app files and dependency lists, atomically replaci
   fs.writeFileSync(path.join(dir, 'stale.json'), '{}');
 
   const result = exportAll(db, dir, {});
-  assert.deepEqual(result, { apps: 3, releases: 3, dir });
+  assert.deepEqual(result, { apps: 3, releases: 3, dir, unlisted: {} });
   assert.ok(!fs.existsSync(path.join(dir, 'stale.json')));
   assert.ok(!fs.existsSync(`${dir}.previous`));
   assert.deepEqual(fs.readdirSync(path.dirname(dir)).filter(n => n.startsWith('.export-')), []);
@@ -280,27 +280,37 @@ test('buildApp: lock coverage per app when one repository builds both', () => {
   assert.equal(r.lockCoverageByPlatform.iphone, undefined, 'the iPhone page sees the same as the whole');
 });
 
-test('buildApp: counts per target and advisory targets, only when a repository has more than shared files', () => {
+test('buildApp: counts per target and advisory targets, only for a wallet on the hand-made list', () => {
   const db = initDatabase(':memory:');
-  const e = (name, lockfile, direct = false) => ({ ecosystem: 'npm', lockfile, name, version: '1.0.0', resolved: '', integrity: '', direct, dev: false, tier: 'hash-pinned' });
-  saveDependencies(db, 'w', 'v1', [{ ecosystem: 'npm', entries: [e('a', 'package-lock.json', true), e('b', 'electron/package-lock.json'), e('c', 'electron/package-lock.json'), e('c', 'package-lock.json'), e('d', 'android/build.gradle')] }]);
-  const f = name => ({ ecosystem: 'npm', name, version: '1.0.0', id: `GHSA-${name}`, severity: 'high', aliases: [], fixed: [], summary: '', direct: false, dev: false });
-  saveVulnerabilities(db, 'w', 'v1', { findings: [f('a'), f('b'), f('c')] });
-  recordAnalysis(db, { appId: 'w', kind: 'release', ref: 'v1', status: 'ok', analyser: 't' });
-  saveDependencies(db, 'single', 'v1', [{ ecosystem: 'npm', entries: [e('a', 'package-lock.json')] }]);
+  const id = 'it.airgap.vault';
+  const e = (name, lockfile, extra = {}) => ({ ecosystem: 'npm', lockfile, name, version: '1.0.0', resolved: '', integrity: '', direct: false, dev: false, tier: 'hash-pinned', ...extra });
+  saveDependencies(db, id, 'v1', [{ ecosystem: 'npm', entries: [
+    e('a', 'package-lock.json', { direct: true }),
+    e('b', 'electron/package-lock.json'),
+    e('c', 'electron/package-lock.json'),
+    e('c', 'package-lock.json', { dev: true }),
+    e('d', 'android/build.gradle'),
+  ] }]);
+  const f = (name, extra = {}) => ({ ecosystem: 'npm', name, version: '1.0.0', id: `GHSA-${name}`, severity: 'high', aliases: [], fixed: [], summary: '', direct: false, dev: false, ...extra });
+  saveVulnerabilities(db, id, 'v1', { findings: [f('a'), f('b'), f('c')] });
+  recordAnalysis(db, { appId: id, kind: 'release', ref: 'v1', status: 'ok', analyser: 't' });
+  saveDependencies(db, 'single', 'v1', [{ ecosystem: 'npm', entries: [e('a', 'package-lock.json'), e('b', 'electron/package-lock.json')] }]);
   saveVulnerabilities(db, 'single', 'v1', { findings: [f('a')] });
   recordAnalysis(db, { appId: 'single', kind: 'release', ref: 'v1', status: 'ok', analyser: 't' });
 
-  const [release] = buildApp(db, 'w').releases;
+  const [release] = buildApp(db, id).releases;
   assert.deepEqual(Object.keys(release.dependencies.byTarget), ['android', 'desktop', 'shared']);
   assert.equal(release.dependencies.byTarget.desktop.total, 2);
   assert.equal(release.dependencies.byTarget.shared.total, 2);
   assert.equal(release.dependencies.byTarget.shared.direct, 1);
   assert.deepEqual(release.dependencies.byTarget.desktop.byEcosystem, { npm: 2 });
-  assert.equal(release.dependencies.total, 4 + 1, 'the whole repository still adds up');
+  assert.equal(release.dependencies.total, 5, 'the whole repository still adds up');
   assert.deepEqual(release.advisories.map(a => [a.package, a.targets]), [['a', undefined], ['b', ['desktop']], ['c', ['desktop', 'shared']]]);
+  assert.deepEqual(release.dependencies.onlyOutside, { android: 1, iphone: 2, desktop: 1, hardware: 2 }, 'c is in a shared file, so it is in the app');
+  assert.deepEqual(release.advisories.find(a => a.package === 'c').scopes, { desktop: 'app', shared: 'build' });
 
   const [single] = buildApp(db, 'single').releases;
-  assert.equal(single.dependencies.byTarget, undefined, 'a single-product wallet exports as before');
+  assert.equal(single.dependencies.byTarget, undefined, 'a guess alone changes nothing: electron/ still counts');
+  assert.equal(single.dependencies.onlyOutside, undefined);
   assert.equal(single.advisories[0].targets, undefined);
 });

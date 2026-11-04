@@ -388,8 +388,9 @@ try {
     }
     try {
       const { exportAll } = await import('./export.mjs');
-      const { apps, releases, dir } = exportAll(db, EXPORT_DIR, { onlyReproducible: SCOPE !== 'all' });
+      const { apps, releases, dir, unlisted } = exportAll(db, EXPORT_DIR, { onlyReproducible: SCOPE !== 'all' });
       console.log(`\nExported ${apps} apps, ${releases} releases to ${dir}`);
+      for (const [appId, files] of Object.entries(unlisted)) console.log(`Counted as shared until checked (products.mjs): ${appId}: ${files.join(', ')}`);
       if (process.env.SOURCE_ANALYSIS_SIGNALS !== 'off') {
         // EPSS, CISA's exploited list, publication dates; a failing feed only leaves its part out
         const { buildSignals } = await import('./signals.mjs');
