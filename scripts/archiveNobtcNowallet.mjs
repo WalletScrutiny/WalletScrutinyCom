@@ -2,7 +2,10 @@
 // directories, identifies files with verdict "nobtc" or "nowallet" (for _mobile: on every
 // store platform the listing has), then archives them
 // by deleting their images, removing specified fields, and moving to _archived.
+// The archived file keeps the original body, and its header records the original path and
+// its last commit, so the archived page can show the old analysis and link to it.
 
+import { execFileSync } from 'child_process';
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath, pathToFileURL } from 'url';
@@ -55,6 +58,29 @@ async function deleteImagesForFile(platform, appId) {
   });
 
   return { deleted, errors };
+}
+
+/** Last commit that touched `filePath`, or undefined outside git or for an uncommitted file. */
+function lastCommitOf(filePath) {
+  try {
+    const sha = execFileSync('git', ['log', '-1', '--format=%H', '--', filePath], {
+      encoding: 'utf8',
+      stdio: ['ignore', 'pipe', 'ignore']
+    }).trim();
+    return sha || undefined;
+  } catch {
+    return undefined;
+  }
+}
+
+/** Points the archived header at the analysis as it was before archiving. */
+function addArchivedFrom(archivedHeader, filePath) {
+  const commit = lastCommitOf(filePath);
+  if (commit) {
+    archivedHeader.archivedFrom = filePath.split(path.sep).join('/');
+    archivedHeader.archivedCommit = commit;
+  }
+  return archivedHeader;
 }
 
 function removeFields(header) {
@@ -205,7 +231,7 @@ async function processMobileFile(fileName) {
       return { processed: false, reason: 'verdict does not match' };
     }
 
-    const updatedHeader = buildArchivedMobileHeader(header);
+    const updatedHeader = addArchivedFrom(buildArchivedMobileHeader(header), filePath);
 
     let imagesDeleted = 0;
     const imageErrors = [];
@@ -219,7 +245,7 @@ async function processMobileFile(fileName) {
 
     const archiveDir = await ensureArchiveDirectory('mobile');
     const archiveFilePath = path.join(archiveDir, fileName);
-    const updatedContent = helper.getResult(updatedHeader, '');
+    const updatedContent = helper.getResult(updatedHeader, body);
     await fs.writeFile(archiveFilePath, updatedContent, 'utf8');
 
     const slug = fileName.replace(/\.md$/, '');
@@ -261,12 +287,12 @@ async function processFile(platform, fileName) {
       return { processed: false, reason: 'verdict does not match' };
     }
 
-    const updatedHeader = removeFields(header);
+    const updatedHeader = addArchivedFrom(removeFields(header), filePath);
     const imageResult = await deleteImagesForFile(platform, header.appId);
     const archiveDir = await ensureArchiveDirectory(platform);
     
     const archiveFilePath = path.join(archiveDir, fileName);
-    const updatedContent = helper.getResult(updatedHeader, '');
+    const updatedContent = helper.getResult(updatedHeader, body);
     await fs.writeFile(archiveFilePath, updatedContent, 'utf8');
 
     const walletIdentifier = getWalletIdentifier(platform, fileName);
@@ -371,7 +397,7 @@ async function main() {
   console.log('\nArchive process completed.');
 }
 
-export { buildArchivedMobileHeader, pickStoreField, shouldArchiveMobile };
+export { addArchivedFrom, buildArchivedMobileHeader, pickStoreField, shouldArchiveMobile };
 
 const isArchiveNobtcCli =
   process.argv[1] &&

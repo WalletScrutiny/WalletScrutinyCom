@@ -3,5 +3,17 @@ title: Legacy Academy
 appId: io.legacy.academy
 meta: ok
 verdict: nobtc
+archivedFrom: _iphone/io.legacy.academy.md
+archivedCommit: 7a7d188cff669c2c4039b852db14f1bb432b664d
 
 ---
+
+## App Description
+
+Legacy Wallet is a self-custody, multi-chain cryptocurrency wallet that allows users to store, send, receive, bridge, stake, and manage tokens and NFTs across EVM-compatible blockchains including VeChain, Ethereum, Binance Smart Chain, and Polygon. Private keys are generated and stored locally on the device, and the app includes in-app token bridging, staking, and vesting features as part of the Legacy Network ecosystem.
+
+## Testing and Analysis
+
+We tested the app, but screen recording is disabled for this app and our session only returned blank images. We were able to confirm seed phrase provision. 
+
+**There is no Bitcoin support among the chain selection menu**, only VeChain, Ethereum, BSC, Polygon, and Base, are available.

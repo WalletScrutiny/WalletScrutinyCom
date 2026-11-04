@@ -3,5 +3,11 @@ title: Neo Bitcoin Wallet
 appId: com.neobitcoin.wallet
 meta: removed
 verdict: nobtc
+archivedFrom: _android/com.neobitcoin.wallet.md
+archivedCommit: 19fba48344e0c9de12317c3e65d71cce47979c4a
 
 ---
+
+Apart from not being a Bitcoin wallet (only Neo Bitcoin), this is also the
+wallet app with the lowest rating on Google Play (1.4 stars) that we have ever
+come across.

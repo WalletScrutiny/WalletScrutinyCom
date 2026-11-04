@@ -1,6 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { shouldArchiveMobile } from '../../scripts/archiveNobtcNowallet.mjs';
+import { execFileSync } from 'node:child_process';
+import { addArchivedFrom, shouldArchiveMobile } from '../../scripts/archiveNobtcNowallet.mjs';
 
 test('archives a mobile listing whose only platform is nobtc or nowallet', () => {
   assert.equal(shouldArchiveMobile({ android: { verdict: 'nobtc' } }), true);
@@ -36,4 +37,18 @@ test('falls back to the root verdict when no store platform is present', () => {
   assert.equal(shouldArchiveMobile({ verdict: 'nobtc' }), true);
   assert.equal(shouldArchiveMobile({ verdict: 'custodial' }), false);
   assert.equal(shouldArchiveMobile({}), false);
+});
+
+test('points the archived header at the last commit of the original file', () => {
+  const filePath = 'scripts/archiveNobtcNowallet.mjs';
+  const expected = execFileSync('git', ['log', '-1', '--format=%H', '--', filePath], { encoding: 'utf8' }).trim();
+  assert.deepEqual(addArchivedFrom({ verdict: 'nobtc' }, filePath), {
+    verdict: 'nobtc',
+    archivedFrom: filePath,
+    archivedCommit: expected
+  });
+});
+
+test('leaves the archived header alone for a file git never saw', () => {
+  assert.deepEqual(addArchivedFrom({ verdict: 'nobtc' }, '_mobile/never.committed.md'), { verdict: 'nobtc' });
 });
