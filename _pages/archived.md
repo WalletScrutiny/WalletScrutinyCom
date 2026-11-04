@@ -36,7 +36,6 @@ window.addEventListener('allWalletsLoaded', async () => {
     return;
   }
 
-  const iconBig = '/images/noimg.svg';
   const title = wallet.title;
   const verdict = wallet.verdict || 'unknown';
 
@@ -67,12 +66,6 @@ window.addEventListener('allWalletsLoaded', async () => {
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
         <meta itemprop="headline" content="${title}">
         <div class="page__inner-wrap">
-          <div class="app-summary-grid">
-            <img src="${iconBig}" class="app_logo_big" alt="Wallet Logo">
-            <div class="app-sum-head">
-              <h1 class="page__title -va-c" itemprop="headline">${title}</h1>
-            </div>
-          </div>
           <div class="wallet-details">
             <div>
               <span style="font-size: 24px;">This product has been archived by the WalletScrutiny team because <b>${reason}</b>.</span>
@@ -86,6 +79,11 @@ window.addEventListener('allWalletsLoaded', async () => {
   `;
 
   document.getElementById('archived-wallet-container').innerHTML = html;
+  const pageTitle = document.querySelector('.archive > h1.page__title');
+  if (pageTitle) {
+    pageTitle.innerHTML = `${title} <span class="archived-badge" style="display: inline-block; vertical-align: middle; font-size: 0.4em; font-weight: normal; background-color: #6c757d; color: #fff; border-radius: 100px; padding: 2px 12px;">Archived</span>`;
+  }
+  document.title = document.title.replace('Wallet Archived', `${title} (Archived)`);
 });
 
 if (window.wallets && window.wallets.length > 0) {
