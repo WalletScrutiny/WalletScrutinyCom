@@ -7,3 +7,14 @@ archivedFrom: _desktop/koinkeep.gatekeeper.md
 archivedCommit: 19fba48344e0c9de12317c3e65d71cce47979c4a
 
 ---
+
+## App Description from [its Repository](https://github.com/KoinKeep/GateKeeper)
+
+> GateKeeper is a tool for verifying withdrawal transactions and more. It will verify that your Bitcoin wallet is not lying or stealing from you.
+>
+> GateKeeper should be used:
+>
+> - After a withdrawal transaction is created.
+> - Before a transaction is published.
+
+This is a Bitcoin-related utility tool, but **not a wallet**.

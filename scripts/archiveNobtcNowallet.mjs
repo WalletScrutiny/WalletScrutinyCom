@@ -2,8 +2,8 @@
 // directories, identifies files with verdict "nobtc" or "nowallet" (for _mobile: on every
 // store platform the listing has), then archives them
 // by deleting their images, removing specified fields, and moving to _archived.
-// The archived header records the original path and its last commit, so the archived
-// page can link to the old analysis.
+// The archived file keeps the original body, and its header records the original path and
+// its last commit, so the archived page can show the old analysis and link to it.
 
 import { execFileSync } from 'child_process';
 import fs from 'fs/promises';
@@ -245,7 +245,7 @@ async function processMobileFile(fileName) {
 
     const archiveDir = await ensureArchiveDirectory('mobile');
     const archiveFilePath = path.join(archiveDir, fileName);
-    const updatedContent = helper.getResult(updatedHeader, '');
+    const updatedContent = helper.getResult(updatedHeader, body);
     await fs.writeFile(archiveFilePath, updatedContent, 'utf8');
 
     const slug = fileName.replace(/\.md$/, '');
@@ -292,7 +292,7 @@ async function processFile(platform, fileName) {
     const archiveDir = await ensureArchiveDirectory(platform);
     
     const archiveFilePath = path.join(archiveDir, fileName);
-    const updatedContent = helper.getResult(updatedHeader, '');
+    const updatedContent = helper.getResult(updatedHeader, body);
     await fs.writeFile(archiveFilePath, updatedContent, 'utf8');
 
     const walletIdentifier = getWalletIdentifier(platform, fileName);

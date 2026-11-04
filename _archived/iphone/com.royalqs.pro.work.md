@@ -7,3 +7,5 @@ archivedFrom: _iphone/com.royalqs.pro.work.md
 archivedCommit: 7e718dd8bbbe95536e93d4ddf951cfa376aff962
 
 ---
+
+Deposit can only be through TRC20 USDT.

@@ -7,3 +7,47 @@ archivedFrom: _android/com.bmdf.lemonbitcoinfaucet.md
 archivedCommit: 19fba48344e0c9de12317c3e65d71cce47979c4a
 
 ---
+
+## App Description from Google Play
+
+Lemon Bitcoin Faucet is a Crypto reward application. By using this app user can earn Free Bitcoin. It is also a BTC faucet. 
+
+> Our Features
+> 
+> - Simple user interface & Easy to Use
+> - Bitcoin Faucet
+>
+> How to Use this app?
+>
+> 1. User must have valid Litecoin wallet address.
+> 2. User must have to login our app by using valid Litecoin wallet address.
+> 3. After login success, users have to solve captcha for security purpose.
+> 4. Finally, users get some Free Crypto reward to their Crypto wallet.
+
+## Analysis 
+
+- The app opens with the following text:
+
+> Welcome Back
+> We Pay Instant on Faucet Pay
+> Claim 1
+> Claim 2
+> Claim 3
+>
+{Advertisement}
+
+We tapped the hamburger and these were the options:
+
+- Contact us
+- Privacy policy
+- About
+- Share
+- Rate
+- Exit
+
+### Continuation
+
+- We tapped on Claim 3 and more advertisements appeared. A 'Go to claim' button is seen between the ads.
+- A notice appears, "1 satoshi every 5 minutes".
+- Below another ad, it asked us to enter our Faucetpay email address. Beneath that was another ad.
+- This app does **not have a wallet**.

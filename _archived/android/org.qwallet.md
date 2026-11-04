@@ -7,3 +7,5 @@ archivedFrom: _android/org.qwallet.md
 archivedCommit: 19fba48344e0c9de12317c3e65d71cce47979c4a
 
 ---
+
+This obsolete app is for Ethereum only and **cannot send/receive Bitcoins**. Its homepage is also offline.

@@ -6,19 +6,14 @@ title: "Wallet Archived"
 <div id="archived-wallet-container"></div>
 
 <script>
-const archivedVerdicts = {
-{%- for v in site.data.verdicts %}{% if v[0] == 'nobtc' or v[0] == 'nowallet' %}
-  {{ v[0] | jsonify }}: { title: {{ v[1].title | jsonify }}, details: {{ v[1].details | markdownify | jsonify }} },
-{%- endif %}{% endfor %}
-};
-// "platform/appId" -> [path before archiving, last commit of that path]
+// "platform/appId" -> [rendered old body, path before archiving, last commit of that path]
 const archivedSources = {
-{%- for post in site.archived %}{% if post.archivedCommit %}{% assign folder = post.path | split: '/' %}
-  {{ folder[1] | append: '/' | append: post.appId | jsonify }}: [{{ post.archivedFrom | jsonify }}, {{ post.archivedCommit | jsonify }}],
-{%- endif %}{% endfor %}
+{%- for post in site.archived %}{% assign folder = post.path | split: '/' %}
+  {{ folder[1] | append: '/' | append: post.appId | jsonify }}: [{{ post.url | jsonify }}, {{ post.archivedFrom | jsonify }}, {{ post.archivedCommit | jsonify }}],
+{%- endfor %}
 };
 
-window.addEventListener('allWalletsLoaded', () => {
+window.addEventListener('allWalletsLoaded', async () => {
   const urlParams = new URLSearchParams(window.location.search);
   const appId = urlParams.get('appId');
   const platform = urlParams.get('platform');
@@ -55,13 +50,16 @@ window.addEventListener('allWalletsLoaded', () => {
     reason = "of unknown reason";
   }
 
-  const explanation = archivedVerdicts[verdict];
-  const explanationHtml = explanation
-    ? `<div>${explanation.details}</div>`
-    : '';
   const source = archivedSources[`${platform}/${appId}`];
-  const sourceHtml = source
-    ? `<p>To see more information about our old analysis, <a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/${source[1]}/${source[0]}">click here</a>.</p>`
+  let bodyHtml = '';
+  if (source) {
+    try {
+      const response = await fetch(source[0]);
+      if (response.ok) bodyHtml = `<div class="archived-old-analysis">${await response.text()}</div>`;
+    } catch {}
+  }
+  const sourceHtml = source && source[2]
+    ? `<p>To see more information about our old analysis, <a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/${source[2]}/${source[1]}">click here</a>.</p>`
     : '';
 
   const html = `
@@ -79,7 +77,7 @@ window.addEventListener('allWalletsLoaded', () => {
             <div>
               <span style="font-size: 24px;">This product has been archived by the WalletScrutiny team because <b>${reason}</b>.</span>
             </div>
-            ${explanationHtml}
+            ${bodyHtml}
             ${sourceHtml}
           </div>
         </div>

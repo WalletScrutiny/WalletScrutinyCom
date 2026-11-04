@@ -7,3 +7,9 @@ archivedFrom: _desktop/cash.p.terminal.desktop.md
 archivedCommit: 19fba48344e0c9de12317c3e65d71cce47979c4a
 
 ---
+
+## Analysis
+
+PirateCash Desktop is designed to be a full node for PirateCash, meaning it downloads and validates the entire history of that one chain.
+
+PirateCash Desktop is for managing PirateCash (PIRATE) coins only and does **not support Bitcoin**.

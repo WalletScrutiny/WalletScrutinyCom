@@ -7,3 +7,13 @@ archivedFrom: _android/io.trezor.suite.md
 archivedCommit: 762dd6c8180e6e9526d9ab7abf90d87fbfe535d4
 
 ---
+
+Note: The app needs a Trezor hardware wallet.
+
+## App Description from Google Play
+
+> Securely monitor your crypto account balances, track your savings, and get a new deposit address even if you don’t have your Trezor hardware wallet with you.
+
+## Analysis
+
+- The app initializes and asks us to sync. The only way to see further parts of the app is by scanning an XPUB QR code or manually entering a public key. Other than that, a Trezor device must be plugged in. This app does **not have a wallet** that generates a BTC address on its own.
