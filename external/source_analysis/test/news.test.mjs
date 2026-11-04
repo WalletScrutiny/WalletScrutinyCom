@@ -75,3 +75,21 @@ test('newsOf carries the affected ranges and fixed versions, from any release th
   const news = newsOf({ index: { apps: [{ appId: 'a.wallet' }] }, appDoc: id => docs[id], signals, now });
   assert.deepEqual([news.advisories[0].affected, news.advisories[0].fixed], [['< 1.2.0'], ['1.2.0']]);
 });
+
+test('a wallet is listed only when the advisory is in one of its apps', () => {
+  const now = new Date('2026-10-10T00:00:00Z');
+  const signals = { published: { 'GHSA-server': '2026-10-09', 'GHSA-phone': '2026-10-09', 'GHSA-both': '2026-10-09' } };
+  const row = (id, targets) => ({ id, severity: 'high', ecosystem: 'npm', package: id, version: '1.0.0', targets });
+  const releases = [{ ref: 'v1', status: 'ok', advisories: [row('GHSA-server', ['server']), row('GHSA-phone', ['android']), row('GHSA-both', ['server', 'shared'])] }];
+  const docs = {
+    phone: { aliases: [{ appId: 'phone', platform: 'android' }], releases },
+    desktop: { aliases: [{ appId: 'desktop', platform: 'desktop' }], releases },
+    bearer: { aliases: [{ appId: 'bearer', platform: 'bearer' }], releases },
+    old: { aliases: [{ appId: 'old' }], releases },
+  };
+  const news = newsOf({ index: { apps: Object.keys(docs).map(appId => ({ appId })) }, appDoc: id => docs[id], signals, now });
+  const walletsOf = id => news.advisories.find(a => a.id === id).wallets.map(w => w.appId);
+  assert.deepEqual(walletsOf('GHSA-server'), ['bearer', 'old'], 'no page says it builds the server; platforms with no list and old exports stay unfiltered');
+  assert.deepEqual(walletsOf('GHSA-phone'), ['bearer', 'old', 'phone']);
+  assert.deepEqual(walletsOf('GHSA-both'), ['bearer', 'desktop', 'old', 'phone'], 'also in a shared file');
+});

@@ -1315,6 +1315,13 @@ body.dark .dp-note-more {
   opacity: 0.7;
 }
 
+// "Not in this app: desktop app, 338 libraries, 120 advisories."
+.dp-not-in-app {
+  margin: 8px 0 0;
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
 // "Libraries pinned as git submodules": a summary line, the rows when opened
 .dp-submodules {
   margin: 12px 0;

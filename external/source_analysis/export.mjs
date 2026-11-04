@@ -27,6 +27,7 @@ import { groupByRepository } from './appList.mjs';
 import { hintsByApp } from './upstreamTriage.mjs';
 import { coverageForReaders, coverageByPlatform } from './plugins/lock-coverage.mjs';
 import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getEndOfLife, getSubmodules, getRebuildClaims } from './ddbbUtils.mjs';
+import { productPartOf, targetOfLockfile, targetsOfLockfiles } from './products.mjs';
 
 export const SCHEMA = 1;
 const SEVERITIES = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown'];
@@ -56,20 +57,7 @@ function scopeOfRow(row) {
 // extension, the docs. Its packages are not in the mobile app the wallet page
 // is about, whatever the lockfile says about dev and prod (AirGap's ejs came
 // from electron/package-lock.json). null for the main product.
-const PRODUCT_PARTS = [
-  ['desktop', /^(electron|desktop|electron-app|app-electron)$/i],
-  ['server', /^(server|backend|api|services?)$/i],
-  ['web', /^(web|website|webapp|site|landing)$/i],
-  ['extension', /^(extension|browser-extension|chrome-extension|webextension)$/i],
-  ['docs', /^(docs?|documentation)$/i],
-];
-export function productPartOf(lockfile) {
-  for (const dir of String(lockfile || '').split('/').slice(0, -1)) {
-    const hit = PRODUCT_PARTS.find(([, re]) => re.test(dir));
-    if (hit) return hit[0];
-  }
-  return null;
-}
+export { productPartOf };
 
 // The other product a row belongs to when every lockfile it comes from is that product's.
 function partOfLockfiles(lockfiles) {
@@ -110,6 +98,29 @@ function submoduleRow({ depth, ...r }) {
   return out;
 }
 
+// The counts the wallet page shows for a set of dependency rows.
+function dependencyCounts(deps) {
+  return {
+    total: deps.length,
+    direct: deps.filter(d => d.direct === 1).length,
+    // where the packages end up, from the lockfile graph: app / build / tests / unknown
+    byScope: Object.fromEntries(['app', 'build', 'tests', 'unknown'].map(s => [s, deps.filter(d => scopeOfRow(d) === s).length])),
+    byEcosystem: Object.fromEntries([...new Set(deps.map(d => d.ecosystem))].sort().map(e => [e, deps.filter(d => d.ecosystem === e).length])),
+  };
+}
+
+// The same counts per target (products.mjs), for a page that counts only its
+// own app's files; undefined when the repository has only shared files.
+function countsByTarget(deps, appId) {
+  const rows = new Map();
+  for (const d of deps) {
+    const target = targetOfLockfile(d.lockfile, appId);
+    rows.set(target, [...(rows.get(target) || []), d]);
+  }
+  if (![...rows.keys()].some(t => t !== 'shared')) return undefined;
+  return Object.fromEntries([...rows].sort(([x], [y]) => x.localeCompare(y)).map(([t, r]) => [t, dependencyCounts(r)]));
+}
+
 export function summarizeRelease(db, appId, ref) {
   const deps = getDependencies(db, appId, ref);
   const vulns = getVulnerabilities(db, appId, ref);
@@ -117,12 +128,9 @@ export function summarizeRelease(db, appId, ref) {
   return {
     ...(submodules ? { submodules } : {}),
     dependencies: {
-      total: deps.length,
-      direct: deps.filter(d => d.direct === 1).length,
-      // where the packages end up, from the lockfile graph: app / build / tests / unknown
-      byScope: Object.fromEntries(['app', 'build', 'tests', 'unknown'].map(s => [s, deps.filter(d => scopeOfRow(d) === s).length])),
-      byEcosystem: Object.fromEntries([...new Set(deps.map(d => d.ecosystem))].sort().map(e => [e, deps.filter(d => d.ecosystem === e).length])),
+      ...dependencyCounts(deps),
       lockfiles: [...new Set(deps.map(d => d.lockfile))].sort(),
+      byTarget: countsByTarget(deps, appId),
     },
     vulnerabilities: {
       bySeverity: countBy(vulns, 'severity', SEVERITIES),
@@ -212,6 +220,7 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
       direct: v.direct === null ? null : v.direct === 1,
       scope: scopeOfRow(v) === 'unknown' ? null : scopeOfRow(v),
       part: partOfLockfiles(lockfilesOf.get(`${v.ecosystem}:${v.name}@${v.dep_version}`) || []) || undefined,
+      targets: targetsOfLockfiles(lockfilesOf.get(`${v.ecosystem}:${v.name}@${v.dep_version}`) || [], appId),
       dependants: dependantsOfRow(v.dependants),
       repo: sources.get(`${v.ecosystem}:${v.name}`)?.repo_url || undefined,
       products: counts.byName.get(`${v.ecosystem}:${v.name}`) || 1,
@@ -236,7 +245,7 @@ function aliasMap(db) {
   const map = new Map();
   try {
     const { jobs } = groupByRepository(getAppList(db));
-    for (const j of jobs) map.set(j.appId, j.aliases.map(a => ({ appId: a.appId })));
+    for (const j of jobs) map.set(j.appId, j.aliases.map(a => ({ appId: a.appId, platform: a.platform })));
   } catch { /* no cached app list: aliases stay empty */ }
   return map;
 }

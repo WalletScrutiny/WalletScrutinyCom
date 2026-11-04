@@ -22,6 +22,7 @@
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { safeName } from './export.mjs';
+import { COUNTED_TARGETS } from './products.mjs';
 
 // Worst first, as plugins/osv.mjs sorts findings.
 const SEVERITY_ORDER = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown'];
@@ -42,6 +43,14 @@ function publishedDay(advisory, published) {
   return [advisory.id, ...(advisory.aliases || [])].map(id => published[id]).filter(Boolean).sort()[0] || null;
 }
 
+// The targets a wallet's pages count, or null when one of its pages has no
+// such list or the export does not say which pages it has: then nothing is filtered.
+function countedTargetsOf(doc) {
+  const platforms = (doc?.aliases || []).map(a => a.platform);
+  if (!platforms.length || platforms.some(p => !COUNTED_TARGETS[p])) return null;
+  return new Set(platforms.flatMap(p => COUNTED_TARGETS[p]));
+}
+
 /**
  * Returns { schema, date, days, since, releasesSince, advisories } where
  * advisories holds, newest first, each advisory published on or after `since`
@@ -49,6 +58,8 @@ function publishedDay(advisory, published) {
  * release published on or after `releasesSince`; or null without publication dates.
  * Each advisory also carries the package's affected ranges and fixed versions when known.
  * Each wallet: { appId, releases: [{ ref, releasedAt, newest, version, scope, direct }] }, newest first.
+ * A wallet is listed only when the advisory is in one of its apps: a match in
+ * the server or website of the same repository is not news about the wallet.
  */
 export function newsOf({ index, appDoc, signals, now = new Date(), days = NEWS_DAYS, releaseMonths = NEWS_RELEASE_MONTHS }) {
   const published = signals?.published;
@@ -63,10 +74,12 @@ export function newsOf({ index, appDoc, signals, now = new Date(), days = NEWS_D
     // Newest first; releases whose analysis failed are skipped, as the panel does.
     const working = (doc?.releases || []).filter(r => (r.status || 'ok') === 'ok');
     const releases = working.filter((r, i) => i === 0 || (r.releasedAt && r.releasedAt >= releasesSince));
+    const counted = countedTargetsOf(doc);
     for (const release of releases) {
       for (const a of release.advisories || []) {
         const day = publishedDay(a, published);
         if (!day || day < since) continue;
+        if (counted && a.targets && !a.targets.some(t => counted.has(t))) continue;
         let entry = byId.get(a.id);
         if (!entry) {
           entry = { id: a.id, aliases: a.aliases || [], published: day, severity: a.severity, summary: a.summary, ecosystem: a.ecosystem, package: a.package,

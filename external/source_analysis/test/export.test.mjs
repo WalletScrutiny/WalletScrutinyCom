@@ -279,3 +279,28 @@ test('buildApp: lock coverage per app when one repository builds both', () => {
   assert.equal(r.lockCoverageByPlatform.android.verdict, 'locked', 'the Podfile is not part of the Android app');
   assert.equal(r.lockCoverageByPlatform.iphone, undefined, 'the iPhone page sees the same as the whole');
 });
+
+test('buildApp: counts per target and advisory targets, only when a repository has more than shared files', () => {
+  const db = initDatabase(':memory:');
+  const e = (name, lockfile, direct = false) => ({ ecosystem: 'npm', lockfile, name, version: '1.0.0', resolved: '', integrity: '', direct, dev: false, tier: 'hash-pinned' });
+  saveDependencies(db, 'w', 'v1', [{ ecosystem: 'npm', entries: [e('a', 'package-lock.json', true), e('b', 'electron/package-lock.json'), e('c', 'electron/package-lock.json'), e('c', 'package-lock.json'), e('d', 'android/build.gradle')] }]);
+  const f = name => ({ ecosystem: 'npm', name, version: '1.0.0', id: `GHSA-${name}`, severity: 'high', aliases: [], fixed: [], summary: '', direct: false, dev: false });
+  saveVulnerabilities(db, 'w', 'v1', { findings: [f('a'), f('b'), f('c')] });
+  recordAnalysis(db, { appId: 'w', kind: 'release', ref: 'v1', status: 'ok', analyser: 't' });
+  saveDependencies(db, 'single', 'v1', [{ ecosystem: 'npm', entries: [e('a', 'package-lock.json')] }]);
+  saveVulnerabilities(db, 'single', 'v1', { findings: [f('a')] });
+  recordAnalysis(db, { appId: 'single', kind: 'release', ref: 'v1', status: 'ok', analyser: 't' });
+
+  const [release] = buildApp(db, 'w').releases;
+  assert.deepEqual(Object.keys(release.dependencies.byTarget), ['android', 'desktop', 'shared']);
+  assert.equal(release.dependencies.byTarget.desktop.total, 2);
+  assert.equal(release.dependencies.byTarget.shared.total, 2);
+  assert.equal(release.dependencies.byTarget.shared.direct, 1);
+  assert.deepEqual(release.dependencies.byTarget.desktop.byEcosystem, { npm: 2 });
+  assert.equal(release.dependencies.total, 4 + 1, 'the whole repository still adds up');
+  assert.deepEqual(release.advisories.map(a => [a.package, a.targets]), [['a', undefined], ['b', ['desktop']], ['c', ['desktop', 'shared']]]);
+
+  const [single] = buildApp(db, 'single').releases;
+  assert.equal(single.dependencies.byTarget, undefined, 'a single-product wallet exports as before');
+  assert.equal(single.advisories[0].targets, undefined);
+});

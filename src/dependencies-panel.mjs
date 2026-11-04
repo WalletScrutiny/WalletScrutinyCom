@@ -7,7 +7,7 @@
 import * as nip19 from 'nostr-tools/nip19';
 import { el } from './html-utils.mjs';
 import {
-  panelModel, releaseForVersion, whereOf, whereLabel, safeName, csvOf, SEVERITY_ORDER, SEVERITY_LABEL,
+  panelModel, releaseForVersion, whereOf, whereLabel, safeName, csvOf, notInAppText, SEVERITY_ORDER, SEVERITY_LABEL,
 } from './dependencies-panel-model.mjs';
 import { TRIAGE_LABEL, JUSTIFICATION_LABEL, DELETION_KIND, triageStateOf, withStatement, mergeLiveTriage, triageForApp } from './dependency-triage.mjs';
 import { dependencyTriageKind, mainRelayUrl, eventRelayUrls } from './nostr-constants.mjs';
@@ -767,7 +767,7 @@ function notices(model) {
   }
   if (model.unchecked) {
     const why = model.uncheckedBreakdown.map(u => `${u.count} ${u.label}`).join(', ');
-    items.push(`${model.unchecked} of the ${model.packages} packages could not be checked for advisories${why ? ` (${why})` : ''}; that is not the same as "no problems".`);
+    items.push(`${model.unchecked} of the ${model.repoPackages ?? model.packages} packages${model.notInApp ? ' in this repository' : ''} could not be checked for advisories${why ? ` (${why})` : ''}; that is not the same as "no problems".`);
   }
   if (model.status === 'unsupported' && model.submodules) {
     items.push('No lockfile this check reads was found in this release, so only its git submodules were checked.');
@@ -844,7 +844,7 @@ function actions(model, { appId, base, fetchImpl }) {
     csv.disabled = true;
     try {
       const data = await fetchJson(`${base}/apps/${safeName(appId)}/${safeName(model.ref)}/dependencies.json`, fetchImpl);
-      const text = csvOf(data?.dependencies || [], model.advisories);
+      const text = csvOf(data?.dependencies || [], model.allAdvisories || model.advisories);
       const url = URL.createObjectURL(new Blob([text], { type: 'text/csv' }));
       const a = el('a', { href: url, download: `${appId}-${model.ref}-dependencies.csv` });
       document.body.appendChild(a); a.click(); a.remove();
@@ -866,11 +866,11 @@ function actions(model, { appId, base, fetchImpl }) {
 // it, `onToggle(open)` hears the reader open or close it.
 export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE, fetchImpl = globalThis.fetch, onJudge = null, flash = null, freshId = null, showAll = false, trusted = [], expanded = false, onToggle = null } = {}) {
   // No lockfile was read (a C/C++ release with only submodules, or a Flutter one): zeros here would read as clean.
-  const tiles = !model.packages && (model.submodules || model.status === 'unsupported') ? null : el('div', { className: 'dp-tiles' },
+  const tiles = !model.packages && (model.submodules || model.status === 'unsupported' || model.notInApp) ? null : el('div', { className: 'dp-tiles' },
     tile(model.packages, 'dependencies', { sub: `${model.direct} direct · ${model.transitive} transitive`, extra: historyChart(model.history) }),
     vulnerabilityTile(model),
     // rebuilds before malware: the malware count is almost always 0
-    rebuildTile(model.rebuilds, model.packages, tile),
+    rebuildTile(model.rebuilds, model.repoPackages ?? model.packages, tile),
     model.malware
       ? tile(model.malware, 'possible malware', { tone: 'bad', sub: 'being checked by a person; see the note above' })
       : malwareFreeTile(model.malware),
@@ -890,6 +890,7 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
     notices(model),
     flash ? el('p', { className: 'dp-flash', role: 'status' }, flash) : null,
     tiles,
+    model.notInApp ? el('p', { className: 'dp-not-in-app' }, notInAppText(model.notInApp)) : null,
     // without the tiles there is nothing to fold under
     tiles ? foldedDetails(model, rest, { expanded: expanded || showAll, onToggle }) : rest,
   );
@@ -1019,7 +1020,7 @@ function submodulesSection(model, { appId, base, fetchImpl }) {
 // "Advisories" (the table) and "Dependency tree" tabs. The tree's file (the
 // release's full dependency list) is fetched when its tab is first opened.
 function treeTabs(model, table, { appId, base, fetchImpl, label }) {
-  if (!model.packages) return table;
+  if (!(model.repoPackages ?? model.packages)) return table;
   const tabs = [];
   const panes = [];
   let loaded = false;
@@ -1036,7 +1037,7 @@ function treeTabs(model, table, { appId, base, fetchImpl, label }) {
         model.rebuilds ? fetchJson(`${dir}/rebuilds.json`, fetchImpl).catch(() => null) : null,
       ]).then(([data, rebuilds]) => {
         if (!data?.dependencies?.length) throw new Error('empty');
-        treePane.replaceChildren(treeElement({ dependencies: data.dependencies, advisories: model.advisories, wallet: label, rebuilds: rebuildIndex(rebuilds) }));
+        treePane.replaceChildren(treeElement({ dependencies: data.dependencies, advisories: model.allAdvisories || model.advisories, wallet: label, rebuilds: rebuildIndex(rebuilds) }));
         rebuildPane.replaceChildren(rebuilds ? rebuildsElement(rebuilds, data.dependencies) : el('p', { className: 'dpt-intro' }, 'No rebuild results for this release.'));
       }).catch((error) => {
         console.warn('Dependency tree not available', error);
