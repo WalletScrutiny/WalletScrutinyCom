@@ -27,7 +27,7 @@ import { groupByRepository } from './appList.mjs';
 import { hintsByApp } from './upstreamTriage.mjs';
 import { coverageForReaders, coverageByPlatform } from './plugins/lock-coverage.mjs';
 import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getEndOfLife, getSubmodules, getRebuildClaims } from './ddbbUtils.mjs';
-import { COUNTED_TARGETS, productPartOf, targetOfLockfile, targetsOfLockfiles, unlistedFiles } from './products.mjs';
+import { COUNTED_TARGETS, partOfFile, productPartOf, targetOfLockfile, targetsOfLockfiles, unlistedFiles } from './products.mjs';
 
 export const SCHEMA = 1;
 const SEVERITIES = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown'];
@@ -60,8 +60,8 @@ function scopeOfRow(row) {
 export { productPartOf };
 
 // The other product a row belongs to when every lockfile it comes from is that product's.
-function partOfLockfiles(lockfiles) {
-  const parts = [...new Set(lockfiles.map(productPartOf))];
+function partOfLockfiles(lockfiles, appId) {
+  const parts = [...new Set(lockfiles.map(l => partOfFile(l, appId)))];
   return parts.length === 1 && parts[0] ? parts[0] : null;
 }
 
@@ -251,7 +251,7 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
       fixed: v.fixed ? v.fixed.split(' ') : undefined,
       direct: v.direct === null ? null : v.direct === 1,
       scope: scopeOfRow(v) === 'unknown' ? null : scopeOfRow(v),
-      part: partOfLockfiles(rowsOfAdvisory(v).map(d => d.lockfile)) || undefined,
+      part: partOfLockfiles(rowsOfAdvisory(v).map(d => d.lockfile), appId) || undefined,
       targets: targetsOfLockfiles(rowsOfAdvisory(v).map(d => d.lockfile), appId),
       scopes: targetsOfLockfiles(rowsOfAdvisory(v).map(d => d.lockfile), appId) ? scopesOfRows(rowsOfAdvisory(v), appId, scopeOfRow(v)) : undefined,
       dependants: dependantsOfRow(v.dependants),
@@ -456,7 +456,7 @@ function writeAppFiles(db, dir, appId, aliases, counts, sources, isExported, { a
         ecosystem: d.ecosystem, name: d.name, version: d.dep_version, lockfile: d.lockfile, tier: d.tier,
         direct: d.direct === null ? null : d.direct === 1,
         scope: scopeOfRow(d) === 'unknown' ? null : scopeOfRow(d),
-        part: productPartOf(d.lockfile) || undefined,
+        part: partOfFile(d.lockfile, appId) || undefined,
         dependants: dependantsOfRow(d.dependants),
         products: counts.byName.get(`${d.ecosystem}:${d.name}`) || 1,
         productsSameVersion: counts.byVersion.get(`${d.ecosystem}:${d.name}@${d.dep_version}`) || 1,

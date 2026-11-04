@@ -316,3 +316,20 @@ test('buildApp: counts per target and advisory targets, only for a wallet on the
   assert.equal(release.dependencies.unlisted, undefined, 'everything the guess flags has a rule');
   assert.equal(single.advisories[0].targets, undefined);
 });
+
+test('Where?: a rule that contradicts the folder guess takes the label off rows and advisories', () => {
+  const db = initDatabase(':memory:');
+  const id = 'com.coinspace.app';
+  const e = (name, lockfile) => ({ ecosystem: 'npm', lockfile, name, version: '1.0.0', resolved: '', integrity: '', direct: false, dev: false, tier: 'hash-pinned' });
+  saveDependencies(db, id, 'v1', [{ ecosystem: 'npm', entries: [e('a', 'web/package-lock.json'), e('b', 'electron/package-lock.json')] }]);
+  const f = name => ({ ecosystem: 'npm', name, version: '1.0.0', id: `GHSA-${name}`, severity: 'high', aliases: [], fixed: [], summary: '', direct: false, dev: false });
+  saveVulnerabilities(db, id, 'v1', { findings: [f('a'), f('b')] });
+  recordAnalysis(db, { appId: id, kind: 'release', ref: 'v1', status: 'ok', analyser: 't' });
+  const rows = buildApp(db, id).releases[0].advisories;
+  assert.deepEqual(rows.map(a => [a.package, a.part]), [['a', undefined], ['b', 'desktop']]);
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'sa-where-'));
+  exportAll(db, dir, {});
+  const deps = JSON.parse(fs.readFileSync(path.join(dir, 'apps', id, 'v1', 'dependencies.json'), 'utf8')).dependencies;
+  assert.deepEqual(deps.map(d => [d.name, d.part]).sort(), [['a', undefined], ['b', 'desktop']]);
+  fs.rmSync(dir, { recursive: true, force: true });
+});

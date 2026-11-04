@@ -32,23 +32,24 @@ const TARGET_WORDS = new Map([
 // nobody built the apps to confirm them, and a person should review them.
 // "mobile" is both phone apps but not the rest of the repository.
 const github = (repo, ref, path) => `https://github.com/${repo}/blob/${ref}/${path}`;
-const androidFolder = (repo, ref, path = 'android/build.gradle') => [/^android\//, 'android', [github(repo, ref, path)]];
+// The line naming the wallet's own Android app id: this folder builds the Android app.
+const androidFolder = (repo, ref, path) => [/^android\//, 'android', [github(repo, ref, path)]];
 const COIN = (path) => github('CoinSpace/CoinSpace', 'v6.31.0', path);
 const ELECTRUM = (path) => github('spesmilo/electrum', '4.8.3', path);
 const BITKEY = (path, ref = 'app/2026.16.1') => github('proto-at-block/bitkey', ref, path);
 export const HAND_MADE = {
-  'app.zeusln.zeus': [androidFolder('ZeusLN/zeus', 'v13.2.4')],
-  'co.edgesecure.app': [androidFolder('EdgeApp/edge-react-gui', 'v4.52.2')],
-  'com.foundationdevices.envoy': [androidFolder('Foundation-Devices/envoy', 'v2.3.7', 'android/app/build.gradle')],
-  'im.adamant.adamantmessengerpwa': [androidFolder('Adamant-im/adamant-im', 'v4.12.0')],
-  'io.bluewallet.bluewallet': [androidFolder('BlueWallet/BlueWallet', 'v8.0.2')],
+  'app.zeusln.zeus': [androidFolder('ZeusLN/zeus', 'v13.2.4', 'android/app/build.gradle#L99')],
+  'co.edgesecure.app': [androidFolder('EdgeApp/edge-react-gui', 'v4.52.2', 'android/app/build.gradle#L95')],
+  'com.foundationdevices.envoy': [androidFolder('Foundation-Devices/envoy', 'v2.3.7', 'android/app/build.gradle#L42')],
+  'im.adamant.adamantmessengerpwa': [androidFolder('Adamant-im/adamant-im', 'v4.12.0', 'android/app/build.gradle#L33')],
+  'io.bluewallet.bluewallet': [androidFolder('BlueWallet/BlueWallet', 'v8.0.2', 'android/app/build.gradle#L86')],
   'io.muun.apollo': [
-    androidFolder('muun/apollo', 'v55.12', 'android/apolloui/build.gradle'),
+    androidFolder('muun/apollo', 'v55.12', 'android/apolloui/build.gradle#L104'),
     [/^linters\/findbugs\/check-android\.gradle$/, 'android', [github('muun/apollo', 'v55.12', 'linters/findbugs/check-android.gradle')]],
   ],
-  'fr.acinq.phoenix.mainnet': [[/^phoenix-android\//, 'android', [github('ACINQ/phoenix', 'android-v2.6.2', 'phoenix-android/build.gradle.kts')]]],
+  'fr.acinq.phoenix.mainnet': [[/^phoenix-android\//, 'android', [github('ACINQ/phoenix', 'android-v2.6.2', 'phoenix-android/build.gradle.kts#L26')]]],
   'it.airgap.vault': [
-    androidFolder('airgap-it/airgap-vault', 'v3.35.0'),
+    androidFolder('airgap-it/airgap-vault', 'v3.35.0', 'android/app/build.gradle#L8'),
     [/^electron\//, 'desktop', [github('airgap-it/airgap-vault', 'v3.35.0', 'electron/package.json#L48')]],
   ],
   'keystone3.pro': [[/^external\/lvgl\/docs\//, 'docs', [github('KeystoneHQ/keystone3-firmware', '3.2.0', 'external/lvgl/docs/requirements.txt#L3')]]],
@@ -82,9 +83,12 @@ export const HAND_MADE = {
     // Gone from the newer releases; infrastructure code for Datadog monitoring.
     [/^datadog\//, 'server', [BITKEY('datadog/package.json#L23', 'app/2026.2.1')]],
     // One file per library, named after it, so the words in the name say nothing
-    // about a target (ktor-client-darwin is an iPhone library) except these suffixes.
-    [/^app\/gradle-lock\/.*-android\.json$/, 'android', [BITKEY('app/gradle-lock/androidx.compose.animation:animation-android.json')]],
-    [/^app\/gradle-lock\/.*-ios(arm64|x64|simulatorarm64)\.json$/, 'iphone', [BITKEY('app/gradle-lock/co.touchlab:sqliter-driver-iosarm64.json')]],
+    // about a target (ktor-client-darwin is an iPhone library) except the suffix:
+    // Kotlin Multiplatform names a library's build for one platform with it. That
+    // naming is the only evidence here, the links are examples. -jvm and -desktop
+    // fall through to "mobile", which can count a few too many on the phone pages.
+    [/^app\/gradle-lock\/.*-android\.json$/i, 'android', [BITKEY('app/gradle-lock/androidx.compose.animation:animation-android.json')]],
+    [/^app\/gradle-lock\/.*-ios(arm64|x64|simulatorarm64)\.json$/i, 'iphone', [BITKEY('app/gradle-lock/co.touchlab:sqliter-driver-iosarm64.json')]],
     // The Android app, the iPhone app and the code they share.
     [/^app\//, 'mobile', [BITKEY('README.md#L15-L18')]],
   ],
@@ -124,6 +128,16 @@ export function guessOfLockfile(lockfile) {
   }
   // "foo.txt" splits into foo and txt: harmless, no extension is a target word.
   return targetOfWords(segments.at(-1)) || 'shared';
+}
+
+// A row's `part`, the Tree's and CSV's "Where?": the folder-name guess, unless a
+// rule contradicts it (Coin Wallet's web/ is its app, not a website). It never adds
+// a label from a rule: the Tree leaves rows with a part out of its groups (issue
+// 996), so a new label would hide them there.
+export function partOfFile(lockfile, appId = null) {
+  const part = productPartOf(lockfile);
+  const rule = part && ruleFor(String(lockfile || ''), appId);
+  return rule && rule[1] !== part ? null : part;
 }
 
 // android | iphone | mobile | desktop | server | web | extension | docs | firmware | shared

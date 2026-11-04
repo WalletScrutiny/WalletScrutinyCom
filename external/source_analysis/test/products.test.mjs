@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { HAND_MADE, guessOfLockfile, targetOfLockfile, targetsOfLockfiles, unlistedFiles } from '../products.mjs';
+import { HAND_MADE, guessOfLockfile, partOfFile, targetOfLockfile, targetsOfLockfiles, unlistedFiles } from '../products.mjs';
 
 test('folder names give a guess, top folder first', () => {
   assert.equal(guessOfLockfile('electron/package-lock.json'), 'desktop');
@@ -67,6 +67,9 @@ test("Bitkey's per-library files are not read for words: only the variant suffix
   assert.equal(lock('androidx.compose.animation:animation-android'), 'android');
   assert.equal(lock('io.ktor:ktor-client-darwin-iosarm64'), 'iphone');
   assert.equal(lock('co.touchlab:sqliter-driver-iossimulatorarm64'), 'iphone');
+  assert.equal(lock('org.jetbrains.compose.components:components-resources-iosArm64'), 'iphone', 'whatever the case of the suffix');
+  assert.equal(lock('org.jetbrains.compose.components:components-resources-iosSimulatorArm64'), 'iphone');
+  assert.equal(lock('org.jetbrains.compose.components:components-resources-iosX64'), 'iphone');
   assert.equal(lock('io.ktor:ktor-client-darwin'), 'mobile');
   assert.equal(lock('org.jetbrains.skiko:skiko-awt-runtime-linux-arm64'), 'mobile');
   assert.equal(lock('androidx.activity:activity'), 'mobile');
@@ -91,4 +94,14 @@ test('every hand-made rule links its evidence at a pinned release', () => {
       for (const link of links) assert.match(link, /^https:\/\/github\.com\/[^/]+\/[^/]+\/blob\/(?!main\/|master\/|develop\/)/, `${appId} ${re}`);
     }
   }
+});
+
+test('a rule can take a wrong guess off a row, but never adds a label', () => {
+  const coin = 'com.coinspace.app';
+  assert.equal(partOfFile('web/package-lock.json', coin), null, 'its web/ is the app');
+  assert.equal(partOfFile('web/package-lock.json', 'not.on.the.list'), 'web', 'the guess stays without a rule');
+  assert.equal(partOfFile('electron/package-lock.json', coin), 'desktop', 'the rule agrees');
+  assert.equal(partOfFile('server/package-lock.json', coin), 'server');
+  assert.equal(partOfFile('contrib/requirements/requirements-hw.txt', 'org.electrum.electrum'), null, 'a new label would hide the row in the Tree');
+  assert.equal(partOfFile('firmware/requirements.txt', 'world.bitkey.app'), null);
 });
