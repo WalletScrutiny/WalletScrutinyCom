@@ -58,7 +58,7 @@ window.addEventListener('allWalletsLoaded', async () => {
     } catch {}
   }
   const sourceHtml = source && source[2]
-    ? `<p>To see more information about our old analysis, <a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/${source[2]}/${source[1]}">click here</a>.</p>`
+    ? `<p>To see the rest of the information we gathered before archiving, <a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/${source[2]}/${source[1]}">click here</a>.</p>`
     : '';
 
   const html = `
