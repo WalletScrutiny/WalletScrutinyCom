@@ -590,8 +590,8 @@ export function vulnerabilityTipLines(model) {
 }
 
 // The vulnerability tile counts every match alike, app, build and tests
-// (Leo, 2026-10-26: a build dependency can carry a backdoor too). Matches in
-// another product's lockfile from the same repository get their own line.
+// (Leo, 2026-10-26: a build dependency can carry a backdoor too). A row's `part`
+// is a guess from a folder name, so the tile does not repeat it as a fact.
 function vulnerabilityTile(model) {
   const rows = (model.advisories || []).filter(a => a.severity !== 'malicious');
   const tally = severityTally(model, rows, { explain: true });
@@ -600,9 +600,6 @@ function vulnerabilityTile(model) {
   // An incomplete package list cannot show a green "0": it is a lower bound.
   const incomplete = model.lockCoverage && model.lockCoverage.verdict !== 'locked';
   const tone = tally.worstOpen ? `sev-${tally.worstOpen}` : (incomplete ? '' : 'good');
-  const byPart = {};
-  for (const a of rows) if (a.part) byPart[a.part] = (byPart[a.part] || 0) + 1;
-  const parts = Object.entries(byPart).map(([p, n]) => `${n} of them only in the ${whereLabel({ part: p })}`);
   const distinct = new Set(rows.map(a => a.id)).size;
   // Where the matches sit, muted: the total above stays the headline.
   const sc = model.vulnerabilitiesByScope;
@@ -614,7 +611,6 @@ function vulnerabilityTile(model) {
     tally.lines,
     rows.length ? el('div', { className: 'dp-tile__line' }, `${distinct} distinct advisories`) : null,
     rows.length && split ? el('div', { className: 'dp-tile__line dp-tile__line--muted' }, split) : null,
-    parts.length ? el('div', { className: 'dp-tile__line', title: 'From lockfiles of other products in the same repository; not in this app' }, parts.join(' · ')) : null,
     rows.length ? el('div', { className: 'dp-tile__caveat' }, model.apk
       ? 'A match means a package version is listed as affected, not that the affected part is used.'
       : 'A match means a package version is listed as affected, not that the affected part is used. The released app itself was not checked for these packages.') : null,
@@ -767,7 +763,7 @@ function notices(model) {
   }
   if (model.unlisted?.length) {
     const names = model.unlisted.slice(0, 3).join(', ') + (model.unlisted.length > 3 ? ` and ${model.unlisted.length - 3} more` : '');
-    items.push(`${names} may belong to another product. That is a guess from the name and nobody has checked it, so the file is still counted here.`);
+    items.push(el('span', {}, el('b', {}, 'Unchecked guess: '), `${names} may belong to another product, judging by the name. Nobody has checked, so it is still counted here.`));
   }
   if (model.unchecked) {
     const why = model.uncheckedBreakdown.map(u => `${u.count} ${u.label}`).join(', ');

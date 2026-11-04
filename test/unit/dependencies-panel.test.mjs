@@ -542,9 +542,16 @@ describe('dependencies panel: which app a file belongs to (issue 994)', () => {
 
   test('a guess nobody checked is named as a guess, and the file still counts', () => {
     const node = panel({ unlisted: ['webapp/package-lock.json'] }, 'hardware');
-    assert.match(node.querySelector('.dp-notices').textContent, /webapp\/package-lock\.json may belong to another product\. That is a guess from the name and nobody has checked it, so the file is still counted here\./);
+    assert.match(node.querySelector('.dp-notices').textContent, /Unchecked guess: webapp\/package-lock\.json may belong to another product, judging by the name\. Nobody has checked, so it is still counted here\./);
+    assert.equal(node.querySelector('.dp-notices b').textContent, 'Unchecked guess: ');
     assert.equal(node.querySelector('.dp-tile__value').textContent, '3');
     assert.equal(node.querySelector('.dp-not-in-app'), null);
+  });
+
+  test('the advisory tile does not state a folder-name guess as fact', () => {
+    const row = { id: 'GHSA-1', severity: 'high', aliases: [], fixed: [], summary: '', ecosystem: 'npm', package: 'a', version: '1', part: 'web', scope: 'app', products: 1, productsSameVersion: 1 };
+    const node = panelElement(panelModel({ appId: 'w', releases: [{ ...release({ unlisted: ['webapp/package-lock.json'] }), advisories: [row] }] }, { platform: 'hardware' }), { appId: 'w', base: '/x', fetchImpl: async () => null });
+    assert.doesNotMatch(node.querySelector('.dp-tiles').textContent, /only in the/);
   });
 
   test('the "not in this app" line says it is not a check of the released app', () => {
