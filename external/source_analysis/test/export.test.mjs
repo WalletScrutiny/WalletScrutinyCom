@@ -174,6 +174,19 @@ test('buildApp: releases analysed later but older (backfill) still sort after ne
   assert.deepEqual(buildApp(db, 'app.b').releases.map(r => r.ref), ['v2.0.0', 'v2.0.0-rc1', 'v1.10.0', 'v1.9.0', 'v1.0.0']);
 });
 
+test('buildApp: a tag prefix with a dash in it (BitBox02) still sorts by its version', () => {
+  const db = initDatabase(':memory:');
+  const refs = ['firmware/v9.27.1', 'firmware-btc-only/v9.23.2', 'firmware-btc-only/v9.23.3', 'firmware/v9.26.1', 'firmware-btc-only/v9.25.0', 'firmware/v9.27.0', 'android-v9.26.4-rc1'];
+  for (const v of refs) {
+    saveDependencies(db, 'app.p', v, [{ ecosystem: 'npm', entries: [entry('a', '1.0.0')] }]);
+    recordAnalysis(db, { appId: 'app.p', kind: 'release', ref: v, commit: 'c', status: 'ok', appType: 'npm', analyser: 't', plugins: [], lockfiles: [], dependencies: 1, osvChecked: 1, osvSkipped: {}, vulnerabilities: 0 });
+  }
+  // the newest version was analysed first, as on beta
+  refs.forEach((v, i) => db.prepare('UPDATE analyses SET analysed_at = ? WHERE ref = ?').run(`2026-10-28 18:${String(30 + i).padStart(2, '0')}:00`, v));
+  assert.deepEqual(buildApp(db, 'app.p').releases.map(r => r.ref),
+    ['firmware/v9.27.1', 'firmware/v9.27.0', 'android-v9.26.4-rc1', 'firmware/v9.26.1', 'firmware-btc-only/v9.25.0', 'firmware-btc-only/v9.23.3', 'firmware-btc-only/v9.23.2']);
+});
+
 test('buildApp: a release carries the earliest publication day of its assets, else its tag commit day', () => {
   const db = initDatabase(':memory:');
   for (const v of ['v2.0.0', 'v1.0.0']) {

@@ -155,15 +155,19 @@ function releasesWithoutAnalysis(db, appId, analyses) {
 // without digits fall back to analysis time. Returns 0 for equal versions, so
 // the stable sort keeps their stored order.
 function compareReleasesNewestFirst(x, y) {
-  const core = r => String(r.ref).split(/[-+]/)[0].match(/\d+/g);
-  const nx = core(x), ny = core(y);
-  if (!nx || !ny) return (y.analysedAt || '').localeCompare(x.analysedAt || '');
+  // The version digits, wherever the tag puts them: "firmware-btc-only/v9.25.0"
+  // and "android-v2.8.4" have a prefix with a dash in it.
+  const version = r => String(r.ref).match(/\d+(?:\.\d+)+/) || String(r.ref).match(/\d+/);
+  const vx = version(x), vy = version(y);
+  if (!vx || !vy) return (y.analysedAt || '').localeCompare(x.analysedAt || '');
+  const nx = vx[0].split('.'), ny = vy[0].split('.');
   for (let i = 0; i < Math.max(nx.length, ny.length); i++) {
     const d = Number(ny[i] ?? -1) - Number(nx[i] ?? -1);
     if (d) return d;
   }
-  const pre = r => /[-+]?(alpha|beta|rc|pre|dev|snapshot)/i.test(String(r.ref)) ? 1 : 0;
-  return pre(x) - pre(y);
+  // only what follows the digits marks a pre-release, not the prefix
+  const pre = v => /alpha|beta|rc|pre|dev|snapshot/i.test(v.input.slice(v.index + v[0].length)) ? 1 : 0;
+  return pre(vx) - pre(vy);
 }
 
 // Everything the export says about one app.
