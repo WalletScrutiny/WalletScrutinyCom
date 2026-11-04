@@ -394,7 +394,7 @@ document.querySelector(".query-string").addEventListener("input", () => {
     // Original
     window.history.pushState('data', null, `/?platform=${platform}&page=0&query-string=${queryRaw}`);
     updateWalletGridInputOriginatingFromURL();
-  }, 500);
+  }, 150);
 });
 
 window.addEventListener('allAssetInformationLoaded', () => {
