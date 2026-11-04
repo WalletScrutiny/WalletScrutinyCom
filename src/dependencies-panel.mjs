@@ -866,10 +866,11 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
   const tiles = !model.packages && (model.submodules || model.status === 'unsupported') ? null : el('div', { className: 'dp-tiles' },
     tile(model.packages, 'dependencies', { sub: `${model.direct} direct · ${model.transitive} transitive`, extra: historyChart(model.history) }),
     vulnerabilityTile(model),
+    // rebuilds before malware: the malware count is almost always 0
+    rebuildTile(model.rebuilds, model.packages, tile),
     model.malware
       ? tile(model.malware, 'possible malware', { tone: 'bad', sub: 'being checked by a person; see the note above' })
       : malwareFreeTile(model.malware),
-    rebuildTile(model.rebuilds, model.packages, tile),
   );
   const rest = [
     treeTabs(model, advisoryTable(model, { onJudge, freshId, showAll }), { appId, base, fetchImpl, label: `${wallet} ${model.ref}` }),
