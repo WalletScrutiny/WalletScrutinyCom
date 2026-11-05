@@ -41,7 +41,7 @@ export const COUNTED_TARGETS = {
 
 export const TARGET_LABELS = {
   android: 'Android app', iphone: 'iPhone app', mobile: 'phone apps', desktop: 'desktop app',
-  server: 'server', web: 'website', extension: 'browser extension', docs: 'docs', firmware: 'firmware', tests: 'tests',
+  server: 'server', web: 'website', extension: 'browser extension', docs: 'docs', firmware: 'firmware', tests: 'tests', none: 'other files',
 };
 
 // A row without `targets` comes from shared files only.

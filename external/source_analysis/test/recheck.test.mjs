@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import { initDatabase, getDependencies, saveDependencies, saveVulnerabilities, getVulnerabilities, recordAnalysis, saveReproducibleVersions, saveEndOfLife, getEndOfLife } from '../ddbbUtils.mjs';
+import { initDatabase, saveAppList, getDependencies, saveDependencies, saveVulnerabilities, getVulnerabilities, recordAnalysis, saveReproducibleVersions, saveEndOfLife, getEndOfLife } from '../ddbbUtils.mjs';
 import { recheckStoredReleases, entryOfRow } from '../recheck.mjs';
 import { exportAll } from '../export.mjs';
 
@@ -63,6 +63,7 @@ test('recheckStoredReleases: a release analysed this pass is not looked up twice
 
 test('exportAll: a gone wallet past its end of life is left out', () => {
   const db = seeded();
+  saveAppList(db, [{ appId: 'live.wallet', platform: 'android', repository: 'https://github.com/org/live' }]);
   saveDependencies(db, 'live.wallet', 'v2.0', [{ entries: [entry('a', '1.0.0')] }]);
   recordAnalysis(db, { appId: 'live.wallet', kind: 'release', ref: 'v2.0', status: 'ok', analyser: 't' });
   saveReproducibleVersions(db, new Map([['old.wallet', [{ version: '1.0', verifiedAt: 1 }]], ['live.wallet', [{ version: '2.0', verifiedAt: 1 }]]]));

@@ -6,7 +6,7 @@ import fs from 'fs';
 import os from 'os';
 import path from 'path';
 import { initDatabase, saveDependencies, saveVulnerabilities, recordAnalysis, saveAppList, saveReproducibleVersions, saveSubmodules } from '../ddbbUtils.mjs';
-import { exportAll, exportApp, buildApp, safeName, productPartOf } from '../export.mjs';
+import { exportAll, exportApp, buildApp, loadRepositories, safeName, productPartOf } from '../export.mjs';
 
 const entry = (name, version, extra = {}) => ({ ecosystem: 'npm', lockfile: 'package-lock.json', name, version, resolved: `https://registry.npmjs.org/${name}/-/${name}-${version}.tgz`, integrity: `sha512-${name}${version}`, direct: true, dev: false, tier: 'hash-pinned', ...extra });
 
@@ -205,6 +205,7 @@ test('buildApp: a release carries the earliest publication day of its assets, el
 
 test('submodules: counted in the release summary, advisories only where the code may be in the app, rows exported per release', () => {
   const db = initDatabase(':memory:');
+  saveAppList(db, [{ appId: 'cpp.wallet', platform: 'android', repository: 'https://github.com/org/cpp-wallet' }]);
   recordAnalysis(db, { appId: 'cpp.wallet', kind: 'release', ref: 'v2', commit: 'a'.repeat(40), status: 'unsupported', analyser: 't', appType: 'unknown' });
   const rows = [
     { path: 'contrib/own', firstParty: true, scope: { status: 'assumed' }, identity: { status: 'upstream-commit' }, advisories: { status: 'none-listed', applies: [] } },
@@ -280,10 +281,23 @@ test('buildApp: lock coverage per app when one repository builds both', () => {
   assert.equal(r.lockCoverageByPlatform.iphone, undefined, 'the iPhone page sees the same as the whole');
 });
 
+test('no app list stops the export, and the last good export stays', () => {
+  const dir = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'sa-nolist-')), 'out');
+  const db = seeded();
+  exportAll(db, dir);
+  const before = fs.readFileSync(path.join(dir, 'index.json'), 'utf8');
+  const empty = initDatabase(':memory:');
+  assert.throws(() => exportAll(empty, dir), /app list is empty/);
+  assert.throws(() => exportApp(empty, dir, 'app.android'), /app list is empty/);
+  assert.equal(fs.readFileSync(path.join(dir, 'index.json'), 'utf8'), before);
+  assert.deepEqual(fs.readdirSync(path.dirname(dir)), ['out'], 'no half-made export left behind');
+});
+
 test('buildApp: counts per target and advisory targets, only for a wallet on the hand-made list', () => {
   const db = initDatabase(':memory:');
   const id = 'it.airgap.vault';
   saveAppList(db, [{ appId: id, platform: 'android', repository: 'https://github.com/airgap-it/airgap-vault' }]);
+  loadRepositories(db);
   const e = (name, lockfile, extra = {}) => ({ ecosystem: 'npm', lockfile, name, version: '1.0.0', resolved: '', integrity: '', direct: false, dev: false, tier: 'hash-pinned', ...extra });
   saveDependencies(db, id, 'v1', [{ ecosystem: 'npm', entries: [
     e('a', 'package-lock.json', { direct: true }),
@@ -322,6 +336,7 @@ test('Where?: a rule that contradicts the folder guess takes the label off rows 
   const db = initDatabase(':memory:');
   const id = 'com.coinspace.app';
   saveAppList(db, [{ appId: id, platform: 'android', repository: 'https://github.com/CoinSpace/CoinSpace' }]);
+  loadRepositories(db);
   const e = (name, lockfile) => ({ ecosystem: 'npm', lockfile, name, version: '1.0.0', resolved: '', integrity: '', direct: false, dev: false, tier: 'hash-pinned' });
   saveDependencies(db, id, 'v1', [{ ecosystem: 'npm', entries: [e('a', 'web/package-lock.json'), e('b', 'electron/package-lock.json')] }]);
   const f = name => ({ ecosystem: 'npm', name, version: '1.0.0', id: `GHSA-${name}`, severity: 'high', aliases: [], fixed: [], summary: '', direct: false, dev: false });

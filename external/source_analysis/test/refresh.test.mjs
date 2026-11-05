@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import { initDatabase, saveDependencies, saveVulnerabilities, recordAnalysis } from '../ddbbUtils.mjs';
+import { initDatabase, saveAppList, saveDependencies, saveVulnerabilities, recordAnalysis } from '../ddbbUtils.mjs';
 import { exportAll } from '../export.mjs';
 import { refreshAdvisories } from '../refresh.mjs';
 
@@ -14,6 +14,7 @@ const finding = (name, version, id, extra = {}) => ({ ecosystem: 'npm', name, ve
 
 function seeded() {
   const db = initDatabase(':memory:');
+  saveAppList(db, ['a.wallet', 'b.wallet'].map(appId => ({ appId, platform: 'android', repository: `https://github.com/org/${appId}` })));
   for (const [appId, dep] of [['a.wallet', 'left-pad'], ['b.wallet', 'is-odd']]) {
     saveDependencies(db, appId, 'v1.0', [{ entries: [entry(dep, '1.0.0')] }]);
     recordAnalysis(db, { appId, kind: 'release', ref: 'v1.0', status: 'ok', analyser: 't', vulnerabilities: 1 });

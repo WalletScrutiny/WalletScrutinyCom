@@ -37,5 +37,11 @@
         "https://github.com/CoinSpace/CoinSpace/blob/d2dff4227d37e33d22856b57e9e50bf8689d8f34/server/package.json#L43"
       ]
     }
+  ],
+  "reviewed_files": [
+    "electron/package-lock.json",
+    "phonegap/package-lock.json",
+    "server/package-lock.json",
+    "web/package-lock.json"
   ]
 }

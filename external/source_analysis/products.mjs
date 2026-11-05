@@ -32,8 +32,8 @@ const TARGET_WORDS = new Map([
 ]);
 
 // The words a rules file may use in belongs_to, and the target each one means.
-// "mobile" is both phone apps but not the rest of the repository; server, docs and
-// tests are counted on no wallet page. The README's "Which app a file belongs to" has the format.
+// "mobile" is both phone apps but not the rest of the repository; server, docs,
+// tests and "no app" are counted on no wallet page. The README's "Which app a file belongs to" has the format.
 const BELONGS_TO = {
   'all apps': 'shared',
   'both phones': 'mobile',
@@ -44,6 +44,7 @@ const BELONGS_TO = {
   server: 'server',
   docs: 'docs',
   tests: 'tests',
+  'no app': 'none',
 };
 
 // **/ is any folders or none, ** is anything, * and ? stop at a slash. Upper and
@@ -63,8 +64,9 @@ export function parseRulesFile(json, repoKey) {
   if (typeof data.release !== 'string' || !data.release) fail('needs "release"');
   if (Boolean(data.reviewed_by) !== Boolean(data.reviewed_on)) fail('needs both "reviewed_by" and "reviewed_on", or neither');
   if (data.reviewed_on && !/^\d{4}-\d{2}-\d{2}$/.test(data.reviewed_on)) fail('"reviewed_on" must be YYYY-MM-DD');
-  const known = data.known_files_without_rule ?? [];
-  if (!Array.isArray(known)) fail('"known_files_without_rule" must be a list');
+  const reviewed = data.reviewed_files ?? [];
+  if (!Array.isArray(reviewed) || reviewed.some(f => typeof f !== 'string' || !f)) fail('"reviewed_files" must be a list of file paths');
+  if (Boolean(data.reviewed_by) !== reviewed.length > 0) fail('"reviewed_by" and "reviewed_files" come together');
   if (!Array.isArray(data.rules) || !data.rules.length) fail('needs "rules"');
   const repoUrl = `https://${repoKey}/`.toLowerCase();
   const rules = data.rules.map((rule, i) => {
@@ -80,9 +82,18 @@ export function parseRulesFile(json, repoKey) {
         fail(`${where}: proof must link this repository at a full commit hash: ${link}`);
       }
     }
-    return { patterns: files.map(globToRegExp), target: BELONGS_TO[rule.belongs_to], optional: rule.optional === true };
+    return { patterns: files.map(globToRegExp), target: BELONGS_TO[rule.belongs_to] };
   });
-  return { reviewedBy: data.reviewed_by || null, reviewedOn: data.reviewed_on || null, release: data.release, known: new Set(known), rules };
+  // A narrow rule below a wide one never applies. A rule that matches no reviewed
+  // file is allowed: it can be there for another release's files.
+  rules.forEach((rule, i) => {
+    const hits = reviewed.filter(file => rule.patterns.some(re => re.test(file)));
+    const earlier = rules.slice(0, i);
+    if (hits.length && hits.every(file => earlier.some(r => r.patterns.some(re => re.test(file))))) {
+      fail(`rule ${i + 1} is hidden: earlier rules catch every reviewed file it matches`);
+    }
+  });
+  return { reviewedBy: data.reviewed_by || null, reviewedOn: data.reviewed_on || null, release: data.release, reviewedFiles: new Set(reviewed), rules };
 }
 
 // Every rules file under a folder, by repository: github.com/owner/repo, lower case.
@@ -104,14 +115,17 @@ export function loadRuleFiles(dir = fileURLToPath(new URL('./rules/', import.met
 
 const RULE_FILES = loadRuleFiles();
 
-// The repository of each analysed app id. A job is keyed by its repository's first
-// record (appList.groupByRepository); that record can change, the repository does
-// not. An id with no known repository gets no rules: every file counts, and the
-// page says so.
+// The repository of each app id. Results are stored under a repository's first
+// record (appList.groupByRepository), and that record can change, so older results
+// can sit under any of its ids: every id gets the rules. An id with no known
+// repository gets none: every file counts, and the page says so.
 const repositories = new Map();
 export function useRepositories(jobs) {
   repositories.clear();
-  for (const { appId, repoUrl } of jobs) repositories.set(appId, String(repoUrl).replace(/^https?:\/\//, '').toLowerCase());
+  for (const { appId, repoUrl, aliases = [] } of jobs) {
+    const repo = String(repoUrl).replace(/^https?:\/\//, '').toLowerCase();
+    for (const id of [appId, ...aliases.map(a => a.appId)]) repositories.set(id, repo);
+  }
 }
 
 const rulesOf = (appId) => RULE_FILES.get(repositories.get(appId));
@@ -163,7 +177,7 @@ export function partOfFile(lockfile, appId = null) {
   return rule && rule.target !== part ? null : part;
 }
 
-// android | iphone | mobile | desktop | server | web | extension | docs | firmware | tests | shared
+// android | iphone | mobile | desktop | server | web | extension | docs | firmware | tests | none | shared
 export function targetOfLockfile(lockfile, appId = null) {
   return ruleFor(String(lockfile || ''), appId)?.target || 'shared';
 }
@@ -183,9 +197,10 @@ export function targetsOfLockfiles(lockfiles, appId = null) {
 
 // What the wallet page says about a release's file sorting (the label comes from
 // the rules file, so the two can't disagree): "none" with no rules file, "pending"
-// without a person's review, "reviewed" with one. A review stops holding when a new
-// file has no rule, or a rule that isn't optional no longer matches anything: it
-// covered the old layout. filesOutside is how many files each page leaves out.
+// without a person's review, "reviewed" with one. A review covers the exact files
+// the person saw. Any other set of files is "pending", because a wide rule like
+// app/** would otherwise accept a new file nobody looked at. filesOutside is how
+// many files each page leaves out.
 export function sortingOf(lockfiles, appId) {
   const files = [...new Set(lockfiles)];
   if (!files.length) return undefined;
@@ -195,9 +210,8 @@ export function sortingOf(lockfiles, appId) {
     [platform, files.filter(f => !counted.includes(targetOfLockfile(f, appId))).length]
   )));
   if (!rules.reviewedBy) return { status: 'pending', filesOutside };
-  const newFile = files.some(f => !ruleFor(f, appId) && !rules.known.has(f));
-  const lostRule = rules.rules.some(rule => !rule.optional && !files.some(f => matches(rule, f)));
   const review = { by: rules.reviewedBy, on: rules.reviewedOn, release: rules.release };
-  if (newFile || lostRule) return { status: 'pending', changedSince: review, filesOutside };
+  const same = files.length === rules.reviewedFiles.size && files.every(f => rules.reviewedFiles.has(f));
+  if (!same) return { status: 'pending', changedSince: review, filesOutside };
   return { status: 'reviewed', ...review };
 }

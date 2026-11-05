@@ -512,32 +512,32 @@ editing its file in a merge request; the next export uses it.
       "why": "The wrapper that turns the wallet into a desktop app.",
       "proof": ["https://github.com/CoinSpace/CoinSpace/blob/d2dff4227d37e33d22856b57e9e50bf8689d8f34/electron/package.json#L41"]
     }
-  ]
+  ],
+  "reviewed_files": ["electron/package-lock.json", "phonegap/package-lock.json", "server/package-lock.json", "web/package-lock.json"]
 }
 ```
 
 | Field | Meaning |
 |---|---|
-| `reviewed_by`, `reviewed_on` | The person who checked the rules, and when. Both or neither. Leave them out until a person has checked |
+| `reviewed_by`, `reviewed_on`, `reviewed_files` | The person who checked the rules, when, and the exact dependency files they saw: `dependencies.lockfiles` of that release in the export's `apps/<id>.json`. All three or none. Leave them out until a person has checked |
 | `release` | The release the rules were written against |
-| `known_files_without_rule` | Optional. Exact paths a reviewer saw and left without a rule, so they don't end the review |
 | `files` | A pattern, or a list of them. `web/**` is everything in `web/`; `**/name.txt` is that name in any folder; `*` and `?` stop at a slash. Upper and lower case are the same |
-| `belongs_to` | One of `all apps`, `both phones`, `android`, `iphone`, `desktop`, `firmware`, `server`, `docs`, `tests`. `server`, `docs` and `tests` count on no wallet page |
+| `belongs_to` | One of `all apps`, `both phones`, `android`, `iphone`, `desktop`, `firmware`, `server`, `docs`, `tests`, `no app`. `server`, `docs`, `tests` and `no app` count on no wallet page |
 | `why` | The reason, in plain words |
 | `proof` | Links to the evidence in this repository, at a full commit hash because a tag can be moved |
-| `optional` | Optional, `true`. The rule may match nothing without ending the review, for a folder only older releases have |
 
-- **The first matching rule wins**, so a narrow rule goes above a wide one.
+- **The first matching rule wins**, so a narrow rule goes above a wide one. In a reviewed file, the tests reject a rule that earlier rules hide completely.
 - **A file with no rule counts on every page.** A rule can take libraries off a page, so a mistake here can hide them.
 - **A review only sorts files the checker already reads.** It can't add a library that's in no such file (issue 1009).
 - The tests reject a file that breaks this format.
+- **The export needs the app list.** It connects each app id to its repository, so an empty or unreadable list stops the export and the last good one stays.
 
 Each release of a wallet page says where its sorting stands:
 
 | The page says | When |
 |---|---|
-| Human-reviewed | The file names a reviewer, and the release's layout still fits |
-| Human review pending | No reviewer yet, or a new file has no rule, or a rule that isn't `optional` matches nothing. It also says how many files the rules took off that page |
+| Human-reviewed | The file names a reviewer, and the release has exactly the files in `reviewed_files` |
+| Human review pending | No reviewer yet, or the release's files differ from `reviewed_files`. It also says how many files the rules took off that page |
 | Not sorted | The repository has no rules file |
 
 "Human-reviewed" covers the sorting only. It isn't a security audit, and it doesn't prove the numbers.

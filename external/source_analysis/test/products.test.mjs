@@ -67,7 +67,7 @@ test('Bitkey: firmware, servers, and app/ for the phones', () => {
   assert.equal(targetOfLockfile('terraform/aws/firmware-signer/requirements.txt', bitkey), 'server');
   assert.equal(targetOfLockfile('datadog/package-lock.json', bitkey), 'server');
   assert.equal(targetOfLockfile('server/Cargo.lock', bitkey), 'server');
-  assert.equal(targetOfLockfile('core/Cargo.lock', bitkey), 'mobile', 'the firmware does not use core/');
+  assert.equal(targetOfLockfile('core/Cargo.lock', bitkey), 'none', 'the phones read app/rust/Cargo.lock');
   assert.equal(targetOfLockfile('app/rust/Cargo.lock', bitkey), 'mobile');
   assert.equal(targetOfLockfile('app/trailblaze-tests/gradle/verification-metadata.xml', bitkey), 'tests', 'a separate build, not the app');
 });
@@ -117,6 +117,9 @@ test('a rules file is rejected for anything the format does not allow', () => {
   broken(d => { d.rules[0].proof = [`https://github.com/x/y/blob/${'a'.repeat(40)}/a`]; }, /this repository/);
   broken(d => { d.reviewed_by = 'Danny'; }, /reviewed_on/);
   broken(d => { d.reviewed_by = 'Danny'; d.reviewed_on = 'today'; }, /YYYY-MM-DD/);
+  broken(d => { d.reviewed_by = 'Danny'; d.reviewed_on = '2026-11-05'; }, /reviewed_files/);
+  broken(d => { d.reviewed_files = ['a/x']; }, /reviewed_files/);
+  broken(d => { d.reviewed_by = 'Danny'; d.reviewed_on = '2026-11-05'; d.reviewed_files = 'a/x'; }, /reviewed_files/);
   broken(d => { delete d.release; }, /release/);
   broken(d => { d.rules = []; }, /rules/);
 });
@@ -144,13 +147,15 @@ test('the first matching rule wins', () => {
   assert.equal(targetOfLockfile('app/gradle-lock/a:b.json', 'world.bitkey.app'), 'mobile');
 });
 
-test('rules follow the repository: a new first record keeps them, an unknown id has none', () => {
+test('rules follow the repository: every id of it has them, an unknown id has none', () => {
   const coin = { repoUrl: 'https://github.com/coinspace/coinspace' };
   try {
-    useRepositories([{ appId: 'some.new.record', ...coin }]);
+    useRepositories([{ appId: 'some.new.record', aliases: [{ appId: 'some.new.record' }, { appId: 'com.coinspace.app' }], ...coin }]);
     assert.equal(targetOfLockfile('electron/package-lock.json', 'some.new.record'), 'desktop', 'repository names ignore case');
-    assert.equal(targetOfLockfile('electron/package-lock.json', 'com.coinspace.app'), 'shared', 'no longer this repository');
-    assert.deepEqual(sortingOf(['electron/package-lock.json'], 'com.coinspace.app'), { status: 'none' });
+    assert.equal(targetOfLockfile('electron/package-lock.json', 'com.coinspace.app'), 'desktop', 'results stored under the old first record keep their rules');
+    assert.equal(sortingOf(['electron/package-lock.json'], 'com.coinspace.app').status, 'pending');
+    useRepositories([{ appId: 'some.new.record', ...coin }]);
+    assert.deepEqual(sortingOf(['electron/package-lock.json'], 'com.coinspace.app'), { status: 'none' }, 'no longer this repository');
   } finally {
     useRepositories(Object.entries(REPOS).map(([appId, repo]) => ({ appId, repoUrl: `https://github.com/${repo}` })));
   }
@@ -168,19 +173,25 @@ test('the sorting label comes from the rules file', () => {
   assert.deepEqual(electrum.filesOutside, { android: 1, iphone: 1, desktop: 0, hardware: 1 });
 });
 
-test('a review stops holding when the layout changes, not when a file\'s contents do', () => {
+test('a reviewed file rejects a rule that earlier rules hide', () => {
+  const rule = (files) => ({ files, belongs_to: 'desktop', why: 'x', proof: VALID().rules[0].proof });
+  const reviewed = (rules) => ({ release: 'v1', reviewed_by: 'Danny', reviewed_on: '2026-11-05', reviewed_files: ['app/tests/x', 'app/y'], rules });
+  assert.throws(() => parse(reviewed([rule('app/**'), rule('app/tests/**')])), /rule 2 is hidden/);
+  assert.equal(parse(reviewed([rule('app/tests/**'), rule('app/**')])).rules.length, 2, 'narrow above wide is fine');
+  assert.equal(parse(reviewed([rule('app/**'), rule('terraform/**')])).rules.length, 2, 'a rule for another release\'s files is fine');
+  assert.equal(parse({ release: 'v1', rules: [rule('app/**'), rule('app/tests/**')] }).rules.length, 2, 'no reviewed files to check against');
+});
+
+test('a review covers the exact files the person saw', () => {
   const coin = 'com.coinspace.app';
   const changed = { by: 'Danny', on: '2026-11-05', release: 'v6.31.0' };
-  assert.deepEqual(sortingOf([...COIN_FILES, 'tools/package-lock.json'], coin).changedSince, changed, 'a new file with no rule');
-  assert.deepEqual(sortingOf(COIN_FILES.slice(1), coin).changedSince, changed, 'a rule that matches nothing');
-  const bitkey = ['firmware/requirements.txt', 'server/Cargo.lock', 'app/rust/Cargo.lock', 'core/Cargo.lock',
-    'app/gradle-lock/a:b-android.json', 'app/gradle-lock/a:b-iosarm64.json'];
-  assert.equal(sortingOf(bitkey, 'world.bitkey.app').status, 'reviewed', 'terraform/ and datadog/ are optional');
-  assert.equal(sortingOf([...bitkey, 'app/gradle-lock/new:lib.json'], 'world.bitkey.app').status, 'reviewed', 'a new library under an existing rule');
-  assert.equal(sortingOf([...bitkey, 'cli/Cargo.lock'], 'world.bitkey.app').status, 'pending');
-  assert.equal(sortingOf(bitkey.slice(1), 'world.bitkey.app').status, 'pending', 'firmware/ is gone');
-  const known = parse({ ...VALID(), known_files_without_rule: ['tools/Cargo.lock'] });
-  assert.ok(known.known.has('tools/Cargo.lock'));
+  assert.equal(sortingOf([...COIN_FILES].reverse(), coin).status, 'reviewed', 'the order does not matter');
+  assert.deepEqual(sortingOf([...COIN_FILES, 'tools/package-lock.json'], coin).changedSince, changed, 'a new file');
+  assert.deepEqual(sortingOf(COIN_FILES.slice(1), coin).changedSince, changed, 'a file is gone');
+  assert.deepEqual(sortingOf([...COIN_FILES, 'web/sub/package-lock.json'], coin).changedSince, changed, 'a new file under a wide rule');
+  const bitkey = [...loadRuleFiles().get('github.com/proto-at-block/bitkey').reviewedFiles];
+  assert.equal(sortingOf(bitkey, 'world.bitkey.app').status, 'reviewed');
+  assert.equal(sortingOf([...bitkey, 'app/gradle-lock/new:lib.json'], 'world.bitkey.app').status, 'pending', 'a new library under app/**');
 });
 
 test('a rule can take a wrong guess off a row, but never adds a label', () => {

@@ -213,7 +213,6 @@ function compareReleasesNewestFirst(x, y) {
 // Everything the export says about one app.
 // counts: productCounts(db), passed in by exportAll so the two queries run once per export.
 export function buildApp(db, appId, aliases = [], counts = productCounts(db), sources = packageSources(db)) {
-  loadRepositories(db);
   const analyses = getAnalyses(db, appId);
   const releases = [];
   const seen = new Set();
@@ -275,25 +274,17 @@ function indexEntry(app) {
   return { appId: app.appId };
 }
 
-// Which repository each analysed id is, for its rules file. No cached app list
-// means no rules: every file counts, and the page says "Not sorted".
-function loadRepositories(db) {
-  try {
-    useRepositories(groupByRepository(getAppList(db)).jobs);
-  } catch {
-    useRepositories([]);
-  }
-}
-
-// The app ids the site lists for each analysed id (rows are keyed by the
-// first alias of a repository, see appList.groupByRepository).
-function aliasMap(db) {
-  const map = new Map();
-  try {
-    const { jobs } = groupByRepository(getAppList(db));
-    for (const j of jobs) map.set(j.appId, j.aliases.map(a => ({ appId: a.appId, platform: a.platform })));
-  } catch { /* no cached app list: aliases stay empty */ }
-  return map;
+// Connects each app id to its repository for the file-sorting rules, and returns
+// the app ids the site lists for each analysed id (rows are keyed by the first
+// alias of a repository, see appList.groupByRepository). Without the list no rules
+// apply and every page would quietly count every file, so it stops the export:
+// the last good one stays in place.
+export function loadRepositories(db) {
+  const list = getAppList(db);
+  if (!list.length) throw new Error('The app list is empty, so no file-sorting rules can be found: not exporting');
+  const { jobs, iosOnly } = groupByRepository(list);
+  useRepositories([...jobs, ...iosOnly]);
+  return new Map(jobs.map(j => [j.appId, j.aliases.map(a => ({ appId: a.appId, platform: a.platform }))]));
 }
 
 // How many products ship each package (any version) and each exact version:
@@ -341,10 +332,10 @@ export function writeUpstreamHints(db, exportDir) {
  * Returns { apps, releases, dir }.
  */
 export function exportAll(db, outDir, { onlyReproducible = false } = {}) {
+  const aliases = loadRepositories(db);
   const parent = path.dirname(path.resolve(outDir));
   fs.mkdirSync(parent, { recursive: true });
   const tmp = fs.mkdtempSync(path.join(parent, '.export-'));
-  const aliases = aliasMap(db);
   let appIds = new Set([...listAnalysedApps(db), ...db.prepare('SELECT DISTINCT app_id FROM app_dependencies').all().map(r => r.app_id)]);
   // Out of scope (no reproducible version, reproducible.mjs, or past its end of life): the rows stay in
   // the database as supplementary data, the site does not show them.
@@ -396,7 +387,7 @@ export function exportAll(db, outDir, { onlyReproducible = false } = {}) {
  * { exported: true, releases, files } with the paths (relative to outDir) to publish.
  */
 export function exportApp(db, outDir, appId, { onlyReproducible = false, counts = productCounts(db), sources = packageSources(db) } = {}) {
-  const aliases = aliasMap(db);
+  const aliases = loadRepositories(db);
   if (onlyReproducible && !scopeFilter(db, aliases)(appId)) return { exported: false };
   const indexFile = path.join(outDir, 'index.json');
   let index = null;
