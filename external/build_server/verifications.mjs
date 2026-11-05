@@ -20,6 +20,7 @@ import {
   getScriptsToReproduce,
   findArchAndTypeForFile,
   toLegacyPlatform,
+  platformForBuildArch,
   sanitizeFilesystemSegment,
   isBuildScriptFileEvent,
   isShutdownRequested
@@ -491,6 +492,7 @@ export async function processNewReleaseVerification(verification, newWalletVersi
 
       for (const combination of buildCombinations) {
         ({ architecture, type } = combination);
+        const buildPlatform = platformForBuildArch(platform, architecture);
         const safeAppId = sanitizeFilesystemSegment(appId);
         const safeVersion = sanitizeFilesystemSegment(newWalletVersion);
         const safeFileName = sanitizeFilesystemSegment(fileName);
@@ -505,7 +507,7 @@ export async function processNewReleaseVerification(verification, newWalletVersi
           return (
             appId === getFirstTagValue(v, 'i') &&
             newWalletVersion === getFirstTagValue(v, 'version') &&
-            platform === getFirstTagValue(v, 'platform') &&
+            buildPlatform === getFirstTagValue(v, 'platform') &&
             contentDescription.includes(architecture) &&
             contentDescription.includes(type)
           );
@@ -525,7 +527,7 @@ export async function processNewReleaseVerification(verification, newWalletVersi
         await addJobToQueue({
           verification,
           appId,
-          platform,
+          platform: buildPlatform,
           newWalletVersion,
           architecture,
           type,
@@ -779,6 +781,33 @@ function readReportedHashes(value) {
   return [...new Set(hashes)];
 }
 
+// sha256 of the official binary from the "appHash:" line of the results
+// block, for scripts that do not write hashes to COMPARISON_RESULTS.yaml.
+// The block is printed to the terminal, so it is read back from the cast.
+// The last one printed wins.
+export function readCastAppHashes(castFileName) {
+  let castContent;
+  try {
+    castContent = fs.readFileSync(castFileName, 'utf8');
+  } catch {
+    return [];
+  }
+  let output = '';
+  for (const line of castContent.split('\n')) {
+    try {
+      const frame = JSON.parse(line);
+      if (Array.isArray(frame) && frame[1] === 'o' && typeof frame[2] === 'string') {
+        output += frame[2];
+      }
+    } catch {
+      // header or partial line
+    }
+  }
+  const plain = output.replace(/\x1b\[[0-9;?]*[A-Za-z]/g, '');
+  const matches = [...plain.matchAll(/^\s*appHash:\s+([0-9a-fA-F]{64})\s*$/gm)];
+  return matches.length ? [matches[matches.length - 1][1].toLowerCase()] : [];
+}
+
 export function readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type) {
   const yamlFilePath = findFileRecursively(buildDirForThisVerification, 'COMPARISON_RESULTS.yaml');
   if (yamlFilePath) {
@@ -973,6 +1002,19 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
   // compared against instead.
   if (!hashes?.length) {
     hashes = comparisonResults.hashes ?? [];
+  }
+  if (!hashes.length) {
+    hashes = readCastAppHashes(castFileName);
+  }
+  // The website files verifications under binary hashes, so one without a
+  // hash is shown nowhere.
+  if (!hashes.length) {
+    appLog.error(`No binary hash for appId=${appId}, version=${newWalletVersion}, architecture=${architecture}, type=${type}; not publishing ${verdict}`);
+    verificationsLog.info(`--- ${appId} ${newWalletVersion} | No binary hash for ${architecture ? architecture : ''} ${type ? type : ''} ${verdict}; not published`);
+    if (dbVerificationRowId !== null) {
+      updateVerificationRow(dbVerificationRowId, { endResult: 'error' });
+    }
+    return null;
   }
 
   if (!PUBLISHABLE_VERDICTS.includes(verdict)) {

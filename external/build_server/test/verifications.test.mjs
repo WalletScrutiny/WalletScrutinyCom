@@ -6,7 +6,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { Readable } from 'node:stream';
 
-import { readComparisonResults, processNewReleaseVerification, buildVerificationContent, downloadFileFromBlossom, downloadAssetFilesToDir, addJobToQueue, queue, startCompilationJob } from '../verifications.mjs';
+import { readComparisonResults, readCastAppHashes, processNewReleaseVerification, buildVerificationContent, downloadFileFromBlossom, downloadAssetFilesToDir, addJobToQueue, queue, startCompilationJob } from '../verifications.mjs';
 import { initDb, closeDb, insert, findQueuedOrErroredSimilarAttempt, findErroredAttemptForBuildScript } from '../ddbbUtils.mjs';
 import { DEBUG_APP_IDS } from '../config/config.mjs';
 import { assetBundleRegistrationKind, assetRegistrationKind } from '../nostr-constants.mjs';
@@ -169,6 +169,43 @@ describe('readComparisonResults', () => {
         hashes: []
       }
     );
+  });
+});
+
+describe('readCastAppHashes', () => {
+  const writeCast = (name, outputs) => {
+    const castFile = path.join(makeTempDir(name), 'build.cast');
+    const lines = [JSON.stringify({ version: 2, width: 80, height: 24 })];
+    outputs.forEach((text, i) => lines.push(JSON.stringify([i, 'o', text])));
+    fs.writeFileSync(castFile, lines.join('\n') + '\n');
+    return castFile;
+  };
+
+  test('reads appHash from the results block, split across frames', () => {
+    const hash = 'cd'.repeat(32);
+    const castFile = writeCast('cast-apphash', [
+      '\u001b[0;34m[INFO]\u001b[0m building\r\n',
+      '===== Begin Results =====\r\nappId:          bitcoinknots\r\nappHash:        ',
+      `${hash.toUpperCase()}\r\ncommit:         v1\r\n===== End Results =====\r\n`
+    ]);
+    assert.deepEqual(readCastAppHashes(castFile), [hash]);
+  });
+
+  test('the last appHash printed wins', () => {
+    const castFile = writeCast('cast-apphash-last', [
+      `appHash:        ${'11'.repeat(32)}\r\n`,
+      `appHash:        ${'22'.repeat(32)}\r\n`
+    ]);
+    assert.deepEqual(readCastAppHashes(castFile), ['22'.repeat(32)]);
+  });
+
+  test('returns no hash for N/A, prose, or a missing cast', () => {
+    const castFile = writeCast('cast-apphash-na', [
+      'appHash:        N/A (no official release)\r\n',
+      'appHash: sha256 of Bitcoin-Safe.deb exactly as downloaded\r\n'
+    ]);
+    assert.deepEqual(readCastAppHashes(castFile), []);
+    assert.deepEqual(readCastAppHashes(path.join(makeTempDir('cast-none'), 'missing.cast')), []);
   });
 });
 
