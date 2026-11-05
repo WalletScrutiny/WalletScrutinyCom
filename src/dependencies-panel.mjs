@@ -769,7 +769,8 @@ function notices(model) {
     const why = model.uncheckedBreakdown.map(u => `${u.count} ${u.label}`).join(', ');
     items.push(`${model.unchecked} of the ${model.repoPackages ?? model.packages} packages${model.notInApp ? ' in this repository' : ''} could not be checked for advisories${why ? ` (${why})` : ''}; that is not the same as "no problems".`);
   }
-  if (model.status === 'unsupported' && model.submodules) {
+  // "unsupported" means the app type is unknown, not that nothing was read: Bitkey has lockfiles.
+  if (model.status === 'unsupported' && model.submodules && !model.repoPackages) {
     items.push('No lockfile this check reads was found in this release, so only its git submodules were checked.');
   } else if (model.status === 'unsupported' && coverage) {
     // the coverage notice already says what was not read, in words

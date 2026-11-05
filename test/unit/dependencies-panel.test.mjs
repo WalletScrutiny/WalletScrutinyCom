@@ -337,6 +337,14 @@ describe('dependencies panel: git submodules', () => {
   // A C/C++ wallet: no lockfile the check reads, so the analysis is "unsupported", but its submodules were checked.
   const CPP = { schema: 1, appId: 'cpp.wallet', aliases: [], defaultBranch: null, releases: [{ kind: 'release', ref: '2.9.1', commit: 'f'.repeat(40), status: 'unsupported', advisories: [], submodules: SUBS }] };
 
+  test('a release with packages never says that no lockfile was found', () => {
+    // Bitkey: its app type is unknown, so "unsupported", but its lockfiles were read.
+    const counted = { total: 3, direct: 1, byScope: { app: 3 }, byEcosystem: { npm: 3 }, lockfiles: ['package-lock.json'] };
+    const app = { ...CPP, releases: [{ ...CPP.releases[0], lockfiles: ['package-lock.json'], dependencies: counted }] };
+    const node = panelElement(panelModel(app), { appId: 'cpp.wallet', base: '/x', fetchImpl: async () => null });
+    assert.doesNotMatch(node.querySelector('.dp-notices')?.textContent ?? '', /No lockfile this check reads/);
+  });
+
   test('the summary line counts what may be in the app apart from what is not', () => {
     const node = panelElement(panelModel(CPP), { appId: 'cpp.wallet', base: '/x', fetchImpl: async () => null });
     const summary = node.querySelector('.dp-submodules > summary').textContent;
