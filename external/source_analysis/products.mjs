@@ -7,7 +7,9 @@
 // are guesses and a wrong guess hides libraries that are in the app: Coin
 // Wallet's web/ folder is its phone and desktop app's code. So a file not on the
 // list counts as shared, and a guess only names it for someone to review
-// (unlistedFiles). A page may count too much until then, never too little.
+// (unlistedFiles). Without a rule, a page leans towards counting too much. It can
+// still count too little: a library in no file the checker reads is invisible,
+// as with Electrum Android's python-for-android recipes (issue 1009).
 
 // Another product built from the same repository, by folder name. A row's
 // `part` in the export (the tree's "Where?") comes from this list alone.
@@ -67,12 +69,17 @@ export const HAND_MADE = {
   ],
   'org.electrum.electrum': [
     [/requirements-build-android\.txt$/, 'android', [ELECTRUM('contrib/android/Dockerfile#L191-L196')]],
-    // The Android build reads only build-base and build-android, and pins its own
-    // PyQt6 in p4a_recipes; the desktop builds read these.
+    // The Android build reads requirements.txt, build-base and build-android, not
+    // these; the desktop builds do. Android pins its own PyQt6 and Qt in p4a_recipes,
+    // which the checker can't read yet, so they are missing from its page (issue 1009).
     [/requirements-(binaries-mac|binaries|build-mac|build-appimage|build-wine|hw)\.txt$/, 'desktop', [
       ELECTRUM('contrib/android/Dockerfile#L191-L196'),
+      ELECTRUM('contrib/make_packages.sh#L59'),
+      ELECTRUM('contrib/build-linux/appimage/make_appimage.sh#L137'),
       ELECTRUM('contrib/build-linux/appimage/make_appimage.sh#L151-L153'),
+      ELECTRUM('contrib/osx/make_osx.sh#L84'),
       ELECTRUM('contrib/osx/make_osx.sh#L196-L202'),
+      ELECTRUM('contrib/build-wine/prepare-wine.sh#L52'),
       ELECTRUM('contrib/build-wine/build-electrum-git.sh#L45-L49'),
     ]],
   ],
