@@ -198,7 +198,7 @@ describe('dependencies panel model', () => {
       assert.equal(sortingLabel(null), null);
       assert.deepEqual(sortingLabel({ status: 'none' }), { pill: 'Not sorted', text: 'Every file counted on every platform.' });
       assert.deepEqual(sortingLabel({ status: 'reviewed', by: 'Danny', on: '2026-11-05', release: 'v1' }), { pill: 'Human-reviewed', text: 'Checked by Danny on 2026-11-05, at release v1.' });
-      assert.deepEqual(sortingLabel({ status: 'pending', filesRemoved: 0 }), { pill: 'Human review pending', text: 'No person has checked these file-sorting rules yet.' });
+      assert.deepEqual(sortingLabel({ status: 'pending', filesRemoved: 0 }), { pill: 'Sorted automatically', text: 'No person has checked these file-sorting rules yet.' });
       assert.equal(sortingLabel({ status: 'pending', filesRemoved: 1 }).text, 'No person has checked these file-sorting rules yet. They took 1 file off this page.');
       assert.equal(sortingLabel({ status: 'pending', changedSince: { by: 'Danny', on: '2026-11-05', release: 'v1' }, filesRemoved: 12 }).text, "This release's files don't match what Danny reviewed at v1, so no person has checked this sorting. The rules took 12 files off this page.");
     });

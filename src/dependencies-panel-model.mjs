@@ -116,7 +116,7 @@ export function sortingLabel(sorting) {
     ? `This release's files don't match what ${sorting.changedSince.by} reviewed at ${sorting.changedSince.release}, so no person has checked this sorting.`
     : 'No person has checked these file-sorting rules yet.';
   const n = sorting.filesRemoved;
-  return { pill: 'Human review pending', text: `${why}${n ? ` ${sorting.changedSince ? 'The rules' : 'They'} took ${n === 1 ? '1 file' : `${n.toLocaleString('en-US')} files`} off this page.` : ''}` };
+  return { pill: 'Sorted automatically', text: `${why}${n ? ` ${sorting.changedSince ? 'The rules' : 'They'} took ${n === 1 ? '1 file' : `${n.toLocaleString('en-US')} files`} off this page.` : ''}` };
 }
 
 // "Not in this app: desktop app and server, 232 libraries, 120 advisories."

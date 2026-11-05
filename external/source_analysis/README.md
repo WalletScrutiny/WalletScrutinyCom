@@ -537,7 +537,7 @@ Each release of a wallet page says where its sorting stands:
 | The page says | When |
 |---|---|
 | Human-reviewed | The file names a reviewer, and the release has exactly the files in `reviewed_files` |
-| Human review pending | No reviewer yet, or the release's files differ from `reviewed_files`. It also says how many files the rules took off that page |
+| Sorted automatically | No reviewer yet, or the release's files differ from `reviewed_files`. It also says how many files the rules took off that page |
 | Not sorted | The repository has no rules file |
 
 "Human-reviewed" covers the sorting only. It isn't a security audit, and it doesn't prove the numbers.
