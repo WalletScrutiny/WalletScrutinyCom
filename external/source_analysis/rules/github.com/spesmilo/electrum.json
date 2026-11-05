@@ -2,6 +2,16 @@
   "release": "4.8.3",
   "rules": [
     {
+      "files": "contrib/android/buildozer*.spec",
+      "belongs_to": "android",
+      "why": "This spec lists what goes into the Android app and points at the recipes that pin it, such as PyQt6, Qt, OpenSSL and SQLite.",
+      "proof": [
+        "https://github.com/spesmilo/electrum/blob/b774e151de7ec1150cf5df3b846d8441e75adc50/contrib/android/buildozer_qml.spec#L73-L83",
+        "https://github.com/spesmilo/electrum/blob/b774e151de7ec1150cf5df3b846d8441e75adc50/contrib/android/buildozer_qml.spec#L239",
+        "https://github.com/spesmilo/electrum/blob/b774e151de7ec1150cf5df3b846d8441e75adc50/contrib/android/buildozer_qml.spec#L245"
+      ]
+    },
+    {
       "files": "**/requirements-build-android.txt",
       "belongs_to": "android",
       "why": "Only the Android build reads this file.",
@@ -19,7 +29,7 @@
         "**/requirements-hw.txt"
       ],
       "belongs_to": "desktop",
-      "why": "The desktop builds read these. The Android build reads requirements.txt, build-base and build-android instead. Android pins its own PyQt6 and Qt in recipes the checker can't read yet, so they are missing from its page (issue 1009).",
+      "why": "The desktop builds read these. The Android build reads requirements.txt, build-base and build-android instead. Android pins its own PyQt6 and Qt in recipes, which the buildozer spec's rule above covers.",
       "proof": [
         "https://github.com/spesmilo/electrum/blob/b774e151de7ec1150cf5df3b846d8441e75adc50/contrib/android/Dockerfile#L191-L196",
         "https://github.com/spesmilo/electrum/blob/b774e151de7ec1150cf5df3b846d8441e75adc50/contrib/make_packages.sh#L59",

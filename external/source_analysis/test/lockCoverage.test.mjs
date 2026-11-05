@@ -251,3 +251,18 @@ test('one line that downloads twice is named once', () => {
   assert.deepEqual(r.downloads.map(d => `${d.file}:${d.line}`), ['Dockerfile:16']);
   assert.equal(r.downloadPlaceCount, 1);
 });
+
+test('a buildozer spec with local recipes is a read lock, one without them is ignored', () => {
+  const spec = 'requirements = python3\np4a.local_recipes = %(source.dir)s/contrib/android/p4a_recipes/\n';
+  const manifests = findManifests(repo({
+    'contrib/android/buildozer_qml.spec': spec,
+    'other/buildozer.spec': 'requirements = python3\n',
+  }));
+  const [p4a, ...others] = manifests.filter(m => m.ecosystem === 'p4a');
+  assert.equal(others.length, 0);
+  assert.equal(p4a.lockfile, 'contrib/android/buildozer_qml.spec');
+  assert.equal(platformOf(p4a.manifest, p4a.ecosystem), 'android');
+  const coverage = lockCoverage(manifests);
+  assert.equal(coverage.verdict, 'locked');
+  assert.equal(coverage.manifests[0].read, true);
+});

@@ -9,7 +9,7 @@
 // with no rule counts as shared, and a guess only names it for someone to review
 // (unlistedFiles). Without a rule, a page leans towards counting too much. It can
 // still count too little: a library in no file the checker reads is invisible,
-// as with Electrum Android's python-for-android recipes (issue 1009).
+// as with build tools such as cargo-ndk.
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
