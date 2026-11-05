@@ -64,11 +64,14 @@ test('Electrum: the files its Android build does not read are the desktop app\'s
 test('Bitkey: firmware, servers, and app/ for the phones', () => {
   const bitkey = 'world.bitkey.app';
   assert.equal(targetOfLockfile('firmware/requirements.txt', bitkey), 'firmware');
+  assert.equal(targetOfLockfile('firmware/third-party/libew/Cargo.lock', bitkey), 'none', 'a demo program');
+  assert.equal(targetOfLockfile('firmware/tools/emulator-launcher/Cargo.lock', bitkey), 'none', 'runs the emulator on a computer');
   assert.equal(targetOfLockfile('terraform/aws/firmware-signer/requirements.txt', bitkey), 'server');
   assert.equal(targetOfLockfile('datadog/package-lock.json', bitkey), 'server');
   assert.equal(targetOfLockfile('server/Cargo.lock', bitkey), 'server');
   assert.equal(targetOfLockfile('core/Cargo.lock', bitkey), 'none', 'the phones read app/rust/Cargo.lock');
   assert.equal(targetOfLockfile('app/rust/Cargo.lock', bitkey), 'mobile');
+  assert.equal(targetOfLockfile('app/rust/bdk-ffi/Cargo.lock', bitkey), 'none', 'a workspace member: Cargo reads app/rust/Cargo.lock');
   assert.equal(targetOfLockfile('app/trailblaze-tests/gradle/verification-metadata.xml', bitkey), 'tests', 'a separate build, not the app');
 });
 

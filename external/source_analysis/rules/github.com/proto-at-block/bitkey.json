@@ -4,6 +4,18 @@
   "release": "app/2026.16.1",
   "rules": [
     {
+      "files": [
+        "firmware/third-party/libew/Cargo.lock",
+        "firmware/tools/emulator-launcher/Cargo.lock"
+      ],
+      "belongs_to": "no app",
+      "why": "A demo program (libew-demo) and a helper that starts the firmware emulator on a computer. Neither is the firmware. Read from their Cargo.toml files; the firmware was not built to confirm this.",
+      "proof": [
+        "https://github.com/proto-at-block/bitkey/blob/ca5d443f41b3a93d219b1f441b66010e4871269e/firmware/third-party/libew/Cargo.toml#L1-L9",
+        "https://github.com/proto-at-block/bitkey/blob/ca5d443f41b3a93d219b1f441b66010e4871269e/firmware/tools/emulator-launcher/Cargo.toml#L1-L9"
+      ]
+    },
+    {
       "files": "firmware/**",
       "belongs_to": "firmware",
       "why": "The code that runs on the Bitkey hardware device.",
@@ -72,6 +84,14 @@
       "proof": [
         "https://github.com/proto-at-block/bitkey/blob/ca5d443f41b3a93d219b1f441b66010e4871269e/app/trailblaze-tests/settings.gradle.kts#L6-L7",
         "https://github.com/proto-at-block/bitkey/blob/ca5d443f41b3a93d219b1f441b66010e4871269e/app/trailblaze-tests/README.md#L10"
+      ]
+    },
+    {
+      "files": "app/rust/bdk-ffi/Cargo.lock",
+      "belongs_to": "no app",
+      "why": "bdk-ffi is a member of the app/rust Cargo workspace, and Cargo reads only the workspace's own lockfile, app/rust/Cargo.lock.",
+      "proof": [
+        "https://github.com/proto-at-block/bitkey/blob/ca5d443f41b3a93d219b1f441b66010e4871269e/app/rust/Cargo.toml#L1-L6"
       ]
     },
     {
