@@ -6,12 +6,13 @@ const metaOrder = ['ok', 'discontinued', 'deprecated', 'stale', 'obsolete', 'rem
 
 // A wallet is searched as the upper-cased JSON of all its fields. Building
 // that string for every wallet on every keystroke was most of the search
-// cost, so it is built once per wallet object and kept here. matchRank and
-// matchData are search bookkeeping written onto the wallet, not wallet data.
+// cost, so it is built once per wallet object and kept here. matchRank,
+// matchData and titleMatchTier are search bookkeeping written onto the wallet,
+// not wallet data.
 let walletSearchTextCache = new WeakMap();
 
 function isSearchBookkeepingKey (key) {
-  return key === 'matchRank' || key === 'matchData';
+  return key === 'matchRank' || key === 'matchData' || key === 'titleMatchTier';
 }
 
 function getWalletSearchText (wallet) {
@@ -40,6 +41,19 @@ function warmWalletSearchTextCache (wallets) {
     if (i < wallets.length) schedule(step);
   };
   schedule(step);
+}
+
+// When no title contains the whole query, results are ranked by how much of
+// the query the title holds, so "bitcoin safe" finds "Bitcoin-Safe Desktop"
+// and "muun wallet" finds "Muun: Bitcoin Lightning Wallet" ahead of every
+// listing that merely mentions "wallet": 1 = every word, 2 = the first word,
+// 3 = some other word, 4 = none (the match is elsewhere in the listing).
+function getTitleMatchTier (titleUpper, words) {
+  const found = words.map((word) => titleUpper.indexOf(word) >= 0);
+  if (found.every(Boolean)) return 1;
+  if (found[0]) return 2;
+  if (found.some(Boolean)) return 3;
+  return 4;
 }
 
 function searchByWords(query, wallet) {
@@ -83,6 +97,11 @@ function searchByWords(query, wallet) {
       wallet.matchData = "word " + word;
       break;
     }
+  }
+  if (result) {
+    wallet.titleMatchTier = wallet.matchRank === 0
+      ? 0
+      : getTitleMatchTier(walletTitleUpper, searchTermWords.filter((word) => word.length > 0));
   }
   return result;
 }
@@ -168,6 +187,9 @@ function performSearch (wallets, query = false, platform = false) {
   }
 
   temp.sort((a, b) => {
+    if (textQuery && a.titleMatchTier !== b.titleMatchTier) {
+      return a.titleMatchTier - b.titleMatchTier;
+    }
     const aVerdict = getPrimaryWalletVerdict(a);
     const bVerdict = getPrimaryWalletVerdict(b);
     if (aVerdict !== bVerdict && aVerdict && bVerdict) {
