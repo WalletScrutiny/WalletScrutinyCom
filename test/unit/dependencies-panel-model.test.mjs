@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 
 import {
   upstreamFor,
-  panelModel, versionCore, whereLabel, whereOf, sortAdvisories, uncheckedCount, csvOf, WORST_ROWS,
+  panelModel, versionCore, whereLabel, whereOf, sortAdvisories, uncheckedCount, csvOf, csvCell, WORST_ROWS,
 } from '../../src/dependencies-panel-model.mjs';
 
 const advisory = (id, severity, extra = {}) => ({ id, severity, aliases: [], fixed: [], summary: '', ecosystem: 'npm', package: 'pkg', version: '1.0.0', direct: true, dev: false, ...extra });
@@ -112,6 +112,17 @@ describe('dependencies panel model', () => {
     assert.equal(lines[1], 'npm,pkg,1.0.0,package-lock.json,yes,app,hash-pinned,GHSA-1 GHSA-2,high,25,3,not affected undecided,"via:npm:alib: never reached, ""really""",0.0052,yes');
     assert.equal(lines[2], 'npm,"quiet, inc",2.0.0,package-lock.json,,unknown,floating,,,,,,,,', 'rows from an older export: empty product counts');
     assert.equal(lines[3], 'npm,jest,29.0.0,yarn.lock,yes,tests,hash-pinned,,,,,,,,');
+  });
+
+  test('csvCell defuses spreadsheet formulas but leaves numbers alone', () => {
+    assert.equal(csvCell('=HYPERLINK("https://evil.example","x")'), '"\'=HYPERLINK(""https://evil.example"",""x"")"');
+    for (const s of ['+1+1', '-2+3', '@SUM(A1)', '\tcmd']) assert.equal(csvCell(s), `'${s}`);
+    assert.equal(csvCell('\r=1'), `"'\r=1"`);
+    assert.equal(csvCell(-0.5), '-0.5');
+    assert.equal(csvCell('a=b'), 'a=b');
+    const decision = { status: 'not_affected', basis: [{ need: '=cmd|x', statement: { status: 'not_affected', content: 'y' } }] };
+    const row = csvOf([{ ecosystem: 'npm', name: 'pkg', version: '1.0.0', lockfile: 'l' }], [advisory('GHSA-1', 'high', { decision })]).trim().split('\n')[1];
+    assert.ok(row.includes(",'=cmd|x: y,"), row);
   });
 
   test('upstreamFor: ignore-file entries by id or alias, without the ones a statement already cites', () => {
