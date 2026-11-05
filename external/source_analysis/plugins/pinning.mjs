@@ -505,6 +505,201 @@ function analyzePip(repoPath) {
   return result;
 }
 
+/* ------------------------------ python-for-android ------------------------------ */
+
+// python-for-android builds an Android app from recipes, and they pin libraries
+// no requirements file lists (issue 1009). Recipes are Python files from the
+// wallet's repository: they are read as text and never run.
+
+// Recipes that install a PyPI package, and its name there. Every other recipe is a
+// native library (OpenSSL, Qt): its row has ecosystem p4a, which OSV can't look up,
+// so the page counts it as not checked.
+const P4A_PYPI_NAMES = {
+  cffi: 'cffi',
+  cryptography: 'cryptography',
+  packaging: 'packaging',
+  ply: 'ply',
+  pycparser: 'pycparser',
+  pycryptodomex: 'pycryptodomex',
+  pyjnius: 'pyjnius',
+  pyparsing: 'pyparsing',
+  pyqt6: 'PyQt6',
+  pyqt6sip: 'PyQt6-sip',
+  pyqt_builder: 'PyQt-builder',
+  setuptools: 'setuptools',
+  sip: 'sip',
+  six: 'six',
+  toml: 'toml',
+  tomli: 'tomli',
+};
+const P4A_SPEC = /^buildozer[^/]*\.spec$/;
+const P4A_RECIPE_NAME = /^[A-Za-z0-9_][A-Za-z0-9_.-]*$/;
+const pypiKey = name => name.toLowerCase().replace(/[-_.]+/g, '-');
+
+const withoutCommentLines = text => text.split(/\r?\n/).filter(line => !line.trimStart().startsWith('#')).join('\n');
+
+// A value of the spec's [app] section. A list can run on over indented lines.
+function p4aRequirements(spec) {
+  const lines = spec.split('\n');
+  const start = lines.findIndex(line => /^requirements\s*=/.test(line));
+  if (start < 0) return [];
+  const rest = lines.slice(start + 1);
+  const end = rest.findIndex(line => line.trim() && !/^\s/.test(line));
+  return [lines[start].replace(/^requirements\s*=/, ''), ...(end < 0 ? rest : rest.slice(0, end))]
+    .join(',').split(',').map(item => item.trim()).filter(Boolean);
+}
+
+// ['python3', ['sdl3', 'qt6']]: an inner list is python-for-android's "one of".
+function p4aDependsList(text) {
+  return [...text.matchAll(/\(([^)]*)\)|["']([^"']+)["']/g)].map(m => (
+    m[2] ?? [...m[1].matchAll(/["']([^"']+)["']/g)].map(choice => choice[1])
+  ));
+}
+
+// A recipe's own attribute overrides the assert, which only checks the class it
+// inherits from: Electrum's sqlite3 asserts 3.35.5 and sets version = "3.50.0".
+// url_version says what is downloaded, so it beats both: older OpenSSL recipes
+// keep version "1.1" and set url_version = "1.1.1w".
+export function parseP4aRecipe(raw) {
+  const text = withoutCommentLines(raw);
+  const depends = text.match(/^[ \t]+depends\s*=\s*\[([^\]]*)\]/m) ?? text.match(/^assert\s+\w+\.depends\s*==\s*\[([^\]]*)\]/m);
+  return {
+    version: text.match(/^[ \t]+url_version\s*=\s*["']([^"']+)["']/m)?.[1]
+      ?? text.match(/^[ \t]+version\s*=\s*["']([^"']+)["']/m)?.[1]
+      ?? text.match(/^assert\s+\w+\._version\s*==\s*["']([^"']+)["']/m)?.[1]
+      ?? '',
+    sha512: text.match(/^[ \t]+sha512sum\s*=\s*["']([0-9a-fA-F]+)["']/m)?.[1] ?? '',
+    depends: depends ? p4aDependsList(depends[1]) : null,
+    buildTools: [...text.matchAll(/HashPinnedDependency\(\s*package\s*=\s*["']([^"'=]+)==([^"']+)["'][\s\S]*?hashes\s*=\s*\[([^\]]*)\]/g)]
+      .map(m => ({ name: m[1], version: m[2], hashes: [...m[3].matchAll(/["']([^"']+)["']/g)].map(h => h[1]).join(' ') })),
+  };
+}
+
+// The spec and its recipes come from the wallet, so a link can't lead out of the repository.
+function readInsideRepo(repoPath, file) {
+  try {
+    const real = fs.realpathSync(file);
+    return real.startsWith(`${fs.realpathSync(repoPath)}${path.sep}`) ? fs.readFileSync(real, 'utf8') : null;
+  } catch {
+    return null;
+  }
+}
+
+function analyzeP4aSpec(repoPath, specFile, result) {
+  const spec = readInsideRepo(repoPath, specFile);
+  const setting = key => spec?.match(new RegExp(`^p4a\\.${key}\\s*=[ \\t]*(.*)$`, 'm'))?.[1].trim();
+  const localRecipes = setting('local_recipes');
+  const requirements = spec ? p4aRequirements(spec) : [];
+  if (!localRecipes || !requirements.length) return;
+
+  const lockfile = relative(repoPath, specFile);
+  const note = text => result.resolutionNotes.push(`${lockfile}: ${text}`);
+  const relativeFolder = localRecipes.replace(/^%\(source\.dir\)s\/?/, '');
+  const folder = [repoPath, path.dirname(specFile)].map(base => path.resolve(base, relativeFolder)).find(dir => fs.existsSync(dir));
+  const bootstrap = setting('bootstrap');
+
+  // Follow depends from the requirements only: a folder can hold unused recipes.
+  const nodes = new Map();
+  const queue = [];
+  const reach = (name, fields) => {
+    if (!P4A_RECIPE_NAME.test(name)) { note(`"${name}" is not a recipe name, not followed`); return null; }
+    if (!nodes.has(name)) {
+      const node = { name, direct: false, pinned: '', dependants: new Set() };
+      nodes.set(name, node);
+      queue.push(node);
+    }
+    return Object.assign(nodes.get(name), fields);
+  };
+  for (const item of requirements) {
+    const [name, pinned = ''] = item.split('==');
+    reach(name.trim(), { direct: true, pinned: pinned.trim() });
+  }
+
+  const rowName = name => P4A_PYPI_NAMES[name.toLowerCase()] ?? name;
+  const ecosystemOf = name => (P4A_PYPI_NAMES[name.toLowerCase()] ? 'pip' : 'p4a');
+  const buildTools = new Map();
+  for (const node of queue) { // grows as depends are reached
+    const raw = folder ? readInsideRepo(repoPath, path.join(folder, node.name, '__init__.py')) : null;
+    if (raw === null) {
+      node.recipe = { version: '', sha512: '', depends: [], buildTools: [] };
+      note(`${node.name} has no recipe in ${localRecipes}`);
+      continue;
+    }
+    node.recipe = parseP4aRecipe(raw);
+    if (!node.recipe.version && !node.pinned) note(`${node.name} has no version in its recipe`);
+    if (!node.recipe.depends) note(`${node.name}: its depends could not be read`);
+    for (const dependency of node.recipe.depends ?? []) {
+      let name = dependency;
+      if (Array.isArray(dependency)) {
+        name = dependency.includes(bootstrap) ? bootstrap : null;
+        if (!name) { note(`${node.name}: no bootstrap picks one of ${dependency.join(', ')}`); continue; }
+      }
+      reach(name, {})?.dependants.add(rowName(node.name));
+    }
+    for (const tool of node.recipe.buildTools) {
+      const key = `${pypiKey(tool.name)}==${tool.version}`;
+      const seen = buildTools.get(key) ?? { ...tool, dependants: new Set() };
+      seen.dependants.add(rowName(node.name));
+      buildTools.set(key, seen);
+    }
+  }
+
+  const add = (ecosystem, fields) => {
+    result.deps.total++;
+    if (fields.tier === 'hash-pinned') result.deps.hashPinned++;
+    else if (fields.tier === 'version-pinned') result.deps.versionPinned++;
+    else result.deps.unversioned++;
+    result.entries.push(makeEntry(ecosystem, lockfile, fields));
+  };
+  const recipeRows = new Set();
+  for (const node of nodes.values()) {
+    const version = node.recipe.version || node.pinned;
+    const name = rowName(node.name);
+    const tier = !version ? 'unversioned' : node.recipe.sha512 ? 'hash-pinned' : 'version-pinned';
+    recipeRows.add(`${pypiKey(name)}==${version}`);
+    add(ecosystemOf(node.name), {
+      name,
+      version,
+      integrity: node.recipe.sha512 ? `sha512:${node.recipe.sha512}` : '',
+      direct: node.direct,
+      dependants: [...node.dependants],
+      tier,
+    });
+  }
+  // A library that is also a recipe stays that recipe's one row: it isn't only a build tool.
+  for (const [key, tool] of buildTools) {
+    if (recipeRows.has(key)) continue;
+    add('pip', {
+      name: tool.name,
+      version: tool.version,
+      integrity: tool.hashes,
+      direct: false,
+      dev: true,
+      dependants: [...tool.dependants],
+      tier: tool.hashes ? 'hash-pinned' : 'version-pinned',
+    });
+  }
+  result.lockfiles.push(lockfile);
+}
+
+function analyzeP4a(repoPath) {
+  const specs = findFiles(repoPath, name => P4A_SPEC.test(name));
+  if (!specs.length) return null;
+  const result = {
+    ecosystem: 'p4a',
+    lockfiles: [],
+    deps: { total: 0, hashPinned: 0, versionPinned: 0, unversioned: 0, floating: 0 },
+    gitOrTarballDeps: [],
+    registries: [],
+    resolutionNotes: [],
+    resolutionAmbiguous: false,
+    floatingExamples: [],
+    entries: [],
+  };
+  for (const spec of specs) analyzeP4aSpec(repoPath, spec, result);
+  return result.lockfiles.length ? result : null;
+}
+
 /* --------------------------------- gradle -------------------------------- */
 
 function analyzeGradle(repoPath) {
@@ -1040,13 +1235,14 @@ export function analyzePinning(repoPath) {
   const analyses = [
     analyzeNpm(repoPath),
     analyzePip(repoPath),
+    analyzeP4a(repoPath),
     analyzeGradle(repoPath),
     analyzeCargo(repoPath),
     analyzePub(repoPath),
   ].filter(Boolean);
 
   if (!analyses.length) {
-    console.log('No supported manifest/lock files found (npm, pip, gradle, cargo, pub).');
+    console.log('No supported manifest/lock files found (npm, pip, p4a, gradle, cargo, pub).');
     return [];
   }
 

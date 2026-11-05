@@ -59,6 +59,7 @@ test('Electrum: the files its Android build does not read are the desktop app\'s
     assert.equal(targetOfLockfile(`${dir}/requirements-build-base.txt`, electrum), 'shared');
     assert.equal(targetOfLockfile(`${dir}/requirements.txt`, electrum), 'shared');
   }
+  assert.equal(targetOfLockfile('contrib/android/buildozer_qml.spec', electrum), 'android', 'recipe libraries stay off the desktop page');
 });
 
 test('Bitkey: firmware, servers, and app/ for the phones', () => {
