@@ -269,6 +269,12 @@ class OpenSSLRecipePinned(util.InheritedRecipeMixin, OpenSSLRecipe):
   assert.equal(rowNamed(rows, 'openssl').version, '1.1.1w');
 });
 
+test('p4a recipes: a pin in the spec beats the assert, not the recipe\'s own version', () => {
+  const rows = rowsOf(analyse(repository({ specText: spec('requirements = qt6==6.9.0,sqlite3==3.1.0\n') })));
+  assert.equal(rowNamed(rows, 'qt6').version, '6.9.0');
+  assert.equal(rowNamed(rows, 'sqlite3').version, '3.50.0');
+});
+
 test('p4a recipes: a recipe\'s own depends beats the assert on its base class', () => {
   const cffi = rowNamed(rowsOf(analyse()), 'cffi');
   assert.equal(cffi.version, '2.0.0');

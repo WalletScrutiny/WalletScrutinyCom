@@ -559,15 +559,17 @@ function p4aDependsList(text) {
 // A recipe's own attribute overrides the assert, which only checks the class it
 // inherits from: Electrum's sqlite3 asserts 3.35.5 and sets version = "3.50.0".
 // url_version says what is downloaded, so it beats both: older OpenSSL recipes
-// keep version "1.1" and set url_version = "1.1.1w".
+// keep version "1.1" and set url_version = "1.1.1w". A pin in the spec's
+// requirements sits between: it beats the inherited version the assert checks,
+// but not the recipe's own attribute.
 export function parseP4aRecipe(raw) {
   const text = withoutCommentLines(raw);
   const depends = text.match(/^[ \t]+depends\s*=\s*\[([^\]]*)\]/m) ?? text.match(/^assert\s+\w+\.depends\s*==\s*\[([^\]]*)\]/m);
   return {
-    version: text.match(/^[ \t]+url_version\s*=\s*["']([^"']+)["']/m)?.[1]
+    ownVersion: text.match(/^[ \t]+url_version\s*=\s*["']([^"']+)["']/m)?.[1]
       ?? text.match(/^[ \t]+version\s*=\s*["']([^"']+)["']/m)?.[1]
-      ?? text.match(/^assert\s+\w+\._version\s*==\s*["']([^"']+)["']/m)?.[1]
       ?? '',
+    assertedVersion: text.match(/^assert\s+\w+\._version\s*==\s*["']([^"']+)["']/m)?.[1] ?? '',
     sha512: text.match(/^[ \t]+sha512sum\s*=\s*["']([0-9a-fA-F]+)["']/m)?.[1] ?? '',
     depends: depends ? p4aDependsList(depends[1]) : null,
     buildTools: [...text.matchAll(/HashPinnedDependency\(\s*package\s*=\s*["']([^"'=]+)==([^"']+)["'][\s\S]*?hashes\s*=\s*\[([^\]]*)\]/g)]
@@ -621,12 +623,12 @@ function analyzeP4aSpec(repoPath, specFile, result) {
   for (const node of queue) { // grows as depends are reached
     const raw = folder ? readInsideRepo(repoPath, path.join(folder, node.name, '__init__.py')) : null;
     if (raw === null) {
-      node.recipe = { version: '', sha512: '', depends: [], buildTools: [] };
+      node.recipe = { ownVersion: '', assertedVersion: '', sha512: '', depends: [], buildTools: [] };
       note(`${node.name} has no recipe in ${localRecipes}`);
       continue;
     }
     node.recipe = parseP4aRecipe(raw);
-    if (!node.recipe.version && !node.pinned) note(`${node.name} has no version in its recipe`);
+    if (!node.recipe.ownVersion && !node.pinned && !node.recipe.assertedVersion) note(`${node.name} has no version in its recipe`);
     if (!node.recipe.depends) note(`${node.name}: its depends could not be read`);
     for (const dependency of node.recipe.depends ?? []) {
       let name = dependency;
@@ -653,7 +655,7 @@ function analyzeP4aSpec(repoPath, specFile, result) {
   };
   const recipeRows = new Set();
   for (const node of nodes.values()) {
-    const version = node.recipe.version || node.pinned;
+    const version = node.recipe.ownVersion || node.pinned || node.recipe.assertedVersion;
     const name = rowName(node.name);
     const tier = !version ? 'unversioned' : node.recipe.sha512 ? 'hash-pinned' : 'version-pinned';
     recipeRows.add(`${pypiKey(name)}==${version}`);
