@@ -26,8 +26,9 @@ export const EXPORT_BASE = (typeof window !== 'undefined' && window.WS_SOURCE_AN
 export const TRIAGE_BASE = (typeof window !== 'undefined' && window.WS_DEPENDENCY_TRIAGE_BASE) || '/api/dependency-triage';
 const TRIAGE_RELAY_WAIT_MS = 4000;
 // The CSV download is hidden until a wallet developer asks for it (Luis,
-// 2026-11-05); the code stays, set window.WS_DEPENDENCY_CSV = true to show it.
-const SHOW_CSV = typeof window !== 'undefined' && window.WS_DEPENDENCY_CSV === true;
+// 2026-11-05); the code stays, set window.WS_DEPENDENCY_CSV = true
+// to show it on the next render.
+const showCsv = () => typeof window !== 'undefined' && window.WS_DEPENDENCY_CSV === true;
 
 const OSV_URL = 'https://osv.dev/vulnerability/';
 
@@ -880,7 +881,7 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
     model.advisories.length ? trustedLine(trusted) : null,
     submodulesSection(model, { appId, base, fetchImpl }),
     howToRead(model),
-    SHOW_CSV ? actions(model, { appId, base, fetchImpl }) : null,
+    showCsv() ? actions(model, { appId, base, fetchImpl }) : null,
   ];
   return el('div', { className: 'dp-panel' },
     el('div', { className: 'dp-top' },
