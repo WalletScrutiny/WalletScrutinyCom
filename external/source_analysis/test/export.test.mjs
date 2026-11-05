@@ -6,7 +6,7 @@ import fs from 'fs';
 import os from 'os';
 import path from 'path';
 import { initDatabase, saveDependencies, saveVulnerabilities, recordAnalysis, saveAppList, saveReproducibleVersions, saveSubmodules } from '../ddbbUtils.mjs';
-import { exportAll, exportApp, buildApp, safeName, productPartOf } from '../export.mjs';
+import { exportAll, exportApp, buildApp, loadRepositories, safeName, productPartOf } from '../export.mjs';
 
 const entry = (name, version, extra = {}) => ({ ecosystem: 'npm', lockfile: 'package-lock.json', name, version, resolved: `https://registry.npmjs.org/${name}/-/${name}-${version}.tgz`, integrity: `sha512-${name}${version}`, direct: true, dev: false, tier: 'hash-pinned', ...extra });
 
@@ -52,7 +52,7 @@ test('buildApp: releases newest first with summary, advisories and diff, nothing
   const written = JSON.parse(JSON.stringify(latest));
   assert.deepEqual(Object.keys(app), ['schema', 'appId', 'aliases', 'releases']);
   assert.deepEqual(Object.keys(written), ['ref', 'commit', 'analysedAt', 'status', 'lockfiles', 'osv', 'dependencies', 'vulnerabilities', 'advisories', 'diffFrom']);
-  assert.deepEqual(Object.keys(written.dependencies), ['total', 'direct', 'byScope', 'byEcosystem', 'lockfiles']);
+  assert.deepEqual(Object.keys(written.dependencies), ['total', 'direct', 'byScope', 'byEcosystem', 'lockfiles', 'sorting']);
   assert.deepEqual(Object.keys(written.vulnerabilities), ['bySeverity', 'byScope']);
   assert.deepEqual(Object.keys(written.advisories[0]), ['id', 'severity', 'aliases', 'summary', 'ecosystem', 'package', 'version', 'fixed', 'direct', 'scope', 'dependants', 'products', 'productsSameVersion']);
 });
@@ -73,7 +73,7 @@ test('exportAll writes index, app files and dependency lists, atomically replaci
   fs.writeFileSync(path.join(dir, 'stale.json'), '{}');
 
   const result = exportAll(db, dir, {});
-  assert.deepEqual(result, { apps: 3, releases: 3, dir });
+  assert.deepEqual(result, { apps: 3, releases: 3, dir, unlisted: {} });
   assert.ok(!fs.existsSync(path.join(dir, 'stale.json')));
   assert.ok(!fs.existsSync(`${dir}.previous`));
   assert.deepEqual(fs.readdirSync(path.dirname(dir)).filter(n => n.startsWith('.export-')), []);
@@ -205,6 +205,7 @@ test('buildApp: a release carries the earliest publication day of its assets, el
 
 test('submodules: counted in the release summary, advisories only where the code may be in the app, rows exported per release', () => {
   const db = initDatabase(':memory:');
+  saveAppList(db, [{ appId: 'cpp.wallet', platform: 'android', repository: 'https://github.com/org/cpp-wallet' }]);
   recordAnalysis(db, { appId: 'cpp.wallet', kind: 'release', ref: 'v2', commit: 'a'.repeat(40), status: 'unsupported', analyser: 't', appType: 'unknown' });
   const rows = [
     { path: 'contrib/own', firstParty: true, scope: { status: 'assumed' }, identity: { status: 'upstream-commit' }, advisories: { status: 'none-listed', applies: [] } },
@@ -278,4 +279,74 @@ test('buildApp: lock coverage per app when one repository builds both', () => {
   assert.equal(r.lockCoverage.verdict, 'unknown');
   assert.equal(r.lockCoverageByPlatform.android.verdict, 'locked', 'the Podfile is not part of the Android app');
   assert.equal(r.lockCoverageByPlatform.iphone, undefined, 'the iPhone page sees the same as the whole');
+});
+
+test('no app list stops the export, and the last good export stays', () => {
+  const dir = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'sa-nolist-')), 'out');
+  const db = seeded();
+  exportAll(db, dir);
+  const before = fs.readFileSync(path.join(dir, 'index.json'), 'utf8');
+  const empty = initDatabase(':memory:');
+  assert.throws(() => exportAll(empty, dir), /app list is empty/);
+  assert.throws(() => exportApp(empty, dir, 'app.android'), /app list is empty/);
+  assert.equal(fs.readFileSync(path.join(dir, 'index.json'), 'utf8'), before);
+  assert.deepEqual(fs.readdirSync(path.dirname(dir)), ['out'], 'no half-made export left behind');
+});
+
+test('buildApp: counts per target and advisory targets, only for a wallet on the hand-made list', () => {
+  const db = initDatabase(':memory:');
+  const id = 'it.airgap.vault';
+  saveAppList(db, [{ appId: id, platform: 'android', repository: 'https://github.com/airgap-it/airgap-vault' }]);
+  loadRepositories(db);
+  const e = (name, lockfile, extra = {}) => ({ ecosystem: 'npm', lockfile, name, version: '1.0.0', resolved: '', integrity: '', direct: false, dev: false, tier: 'hash-pinned', ...extra });
+  saveDependencies(db, id, 'v1', [{ ecosystem: 'npm', entries: [
+    e('a', 'package-lock.json', { direct: true }),
+    e('b', 'electron/package-lock.json'),
+    e('c', 'electron/package-lock.json'),
+    e('c', 'package-lock.json', { dev: true }),
+    e('d', 'android/build.gradle'),
+  ] }]);
+  const f = (name, extra = {}) => ({ ecosystem: 'npm', name, version: '1.0.0', id: `GHSA-${name}`, severity: 'high', aliases: [], fixed: [], summary: '', direct: false, dev: false, ...extra });
+  saveVulnerabilities(db, id, 'v1', { findings: [f('a'), f('b'), f('c')] });
+  recordAnalysis(db, { appId: id, kind: 'release', ref: 'v1', status: 'ok', analyser: 't' });
+  saveDependencies(db, 'single', 'v1', [{ ecosystem: 'npm', entries: [e('a', 'package-lock.json'), e('b', 'electron/package-lock.json')] }]);
+  saveVulnerabilities(db, 'single', 'v1', { findings: [f('a')] });
+  recordAnalysis(db, { appId: 'single', kind: 'release', ref: 'v1', status: 'ok', analyser: 't' });
+
+  const [release] = buildApp(db, id).releases;
+  assert.deepEqual(Object.keys(release.dependencies.byTarget), ['android', 'desktop', 'shared']);
+  assert.equal(release.dependencies.byTarget.desktop.total, 2);
+  assert.equal(release.dependencies.byTarget.shared.total, 2);
+  assert.equal(release.dependencies.byTarget.shared.direct, 1);
+  assert.deepEqual(release.dependencies.byTarget.desktop.byEcosystem, { npm: 2 });
+  assert.equal(release.dependencies.total, 5, 'the whole repository still adds up');
+  assert.deepEqual(release.advisories.map(a => [a.package, a.targets]), [['a', undefined], ['b', ['desktop']], ['c', ['desktop', 'shared']]]);
+  assert.deepEqual(release.dependencies.onlyOutside, { android: 1, iphone: 2, desktop: 1, hardware: 2 }, 'c is in a shared file, so it is in the app');
+  assert.deepEqual(release.advisories.find(a => a.package === 'c').scopes, { desktop: 'app', shared: 'build' });
+
+  const [single] = buildApp(db, 'single').releases;
+  assert.equal(single.dependencies.byTarget, undefined, 'a guess alone changes nothing: electron/ still counts');
+  assert.equal(single.dependencies.onlyOutside, undefined);
+  assert.deepEqual(single.dependencies.unlisted, ['electron/package-lock.json'], 'the guess is named for review');
+  assert.equal(release.dependencies.unlisted, undefined, 'everything the guess flags has a rule');
+  assert.equal(single.advisories[0].targets, undefined);
+});
+
+test('Where?: a rule that contradicts the folder guess takes the label off rows and advisories', () => {
+  const db = initDatabase(':memory:');
+  const id = 'com.coinspace.app';
+  saveAppList(db, [{ appId: id, platform: 'android', repository: 'https://github.com/CoinSpace/CoinSpace' }]);
+  loadRepositories(db);
+  const e = (name, lockfile) => ({ ecosystem: 'npm', lockfile, name, version: '1.0.0', resolved: '', integrity: '', direct: false, dev: false, tier: 'hash-pinned' });
+  saveDependencies(db, id, 'v1', [{ ecosystem: 'npm', entries: [e('a', 'web/package-lock.json'), e('b', 'electron/package-lock.json')] }]);
+  const f = name => ({ ecosystem: 'npm', name, version: '1.0.0', id: `GHSA-${name}`, severity: 'high', aliases: [], fixed: [], summary: '', direct: false, dev: false });
+  saveVulnerabilities(db, id, 'v1', { findings: [f('a'), f('b')] });
+  recordAnalysis(db, { appId: id, kind: 'release', ref: 'v1', status: 'ok', analyser: 't' });
+  const rows = buildApp(db, id).releases[0].advisories;
+  assert.deepEqual(rows.map(a => [a.package, a.part]), [['a', undefined], ['b', 'desktop']]);
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'sa-where-'));
+  exportAll(db, dir, {});
+  const deps = JSON.parse(fs.readFileSync(path.join(dir, 'apps', id, 'v1', 'dependencies.json'), 'utf8')).dependencies;
+  assert.deepEqual(deps.map(d => [d.name, d.part]).sort(), [['a', undefined], ['b', 'desktop']]);
+  fs.rmSync(dir, { recursive: true, force: true });
 });

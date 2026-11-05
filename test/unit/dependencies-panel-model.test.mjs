@@ -3,8 +3,10 @@ import assert from 'node:assert/strict';
 
 import {
   upstreamFor,
-  panelModel, versionCore, whereLabel, whereOf, sortAdvisories, uncheckedCount, csvOf, csvCell, WORST_ROWS,
+  panelModel, versionCore, whereLabel, whereOf, sortAdvisories, uncheckedCount, csvOf, csvCell, notInAppText, sortingLabel, WORST_ROWS,
 } from '../../src/dependencies-panel-model.mjs';
+import { COUNTED_TARGETS as EXPORT_COUNTED_TARGETS } from '../../external/source_analysis/products.mjs';
+import { COUNTED_TARGETS } from '../../src/dependencies-panel-model.mjs';
 
 const advisory = (id, severity, extra = {}) => ({ id, severity, aliases: [], fixed: [], summary: '', ecosystem: 'npm', package: 'pkg', version: '1.0.0', direct: true, dev: false, ...extra });
 
@@ -136,5 +138,122 @@ describe('dependencies panel model', () => {
   test('a row from another product\'s lockfile reads as that product under "Where?"', () => {
     assert.equal(whereLabel({ part: 'desktop', scope: 'build', dev: true }), 'desktop app');
     assert.equal(whereLabel({ scope: 'build' }), 'build');
+  });
+
+  describe('counting only this page\'s app (issue 994)', () => {
+    const counts = (total, direct, scope, ecosystem = 'npm') => ({ total, direct, byScope: { app: total, build: 0, tests: 0, unknown: 0, ...scope }, byEcosystem: { [ecosystem]: total } });
+    const app = {
+      appId: 'w',
+      aliases: [{ appId: 'w', platform: 'android' }, { appId: 'w', platform: 'desktop' }],
+      releases: [{
+        ref: 'v2', status: 'ok',
+        dependencies: {
+          total: 110, direct: 12, byScope: { app: 110, build: 0, tests: 0, unknown: 0 }, byEcosystem: { npm: 90, pypi: 20 }, lockfiles: ['package-lock.json'],
+          byTarget: { android: counts(20, 2, {}, 'pypi'), desktop: counts(30, 4, {}), server: counts(10, 1, {}), shared: counts(50, 5, {}) },
+          onlyOutside: { android: 25, desktop: 22, iphone: 45, hardware: 45 },
+        },
+        vulnerabilities: { bySeverity: { high: 3, malicious: 1, critical: 1 }, byScope: { app: 5, build: 0, tests: 0, unknown: 0 } },
+        advisories: [
+          { id: 'SHARED', severity: 'high', ecosystem: 'npm', package: 'a', version: '1', scope: 'app' },
+          { id: 'ANDROID', severity: 'high', ecosystem: 'pypi', package: 'b', version: '1', scope: 'build', targets: ['android'] },
+          { id: 'DESKTOP', severity: 'critical', ecosystem: 'npm', package: 'c', version: '1', scope: 'app', part: 'desktop', targets: ['desktop'] },
+          { id: 'BOTH', severity: 'high', ecosystem: 'npm', package: 'd', version: '1', scope: 'app', targets: ['desktop', 'shared'], scopes: { desktop: 'app', shared: 'unknown' } },
+          { id: 'BAD', severity: 'malicious', ecosystem: 'npm', package: 'e', version: '1', scope: 'app', part: 'server', targets: ['server'] },
+        ],
+      }, {
+        ref: 'v1', status: 'ok',
+        dependencies: { total: 60, direct: 6, byTarget: { desktop: counts(10, 1, {}), shared: counts(50, 5, {}) } },
+      }],
+    };
+
+    test('the Android page counts Android and shared files only', () => {
+      const m = panelModel(app, { platform: 'android' });
+      assert.equal(m.packages, 70);
+      assert.equal(m.direct, 7);
+      assert.equal(m.transitive, 63);
+      assert.equal(m.repoPackages, 110);
+      assert.deepEqual(m.ecosystems.sort(), ['npm', 'pypi']);
+      assert.deepEqual(m.advisories.map(a => a.id).sort(), ['ANDROID', 'BOTH', 'SHARED']);
+      assert.equal(m.vulnerabilities, 3);
+      assert.equal(m.malware, 0, 'malware in the server is not on this page\'s tile');
+      assert.equal(m.bySeverity.critical, 0);
+      assert.deepEqual(m.vulnerabilitiesByScope, { app: 1, build: 1, tests: 0, unknown: 1 }, 'BOTH reads as its scope in the shared file');
+      assert.equal(m.triage.total, 3);
+    });
+
+    test('the desktop page counts desktop and shared, and drops its own product\'s mark', () => {
+      const m = panelModel(app, { platform: 'desktop' });
+      assert.equal(m.packages, 80);
+      assert.deepEqual(m.advisories.map(a => a.id).sort(), ['BOTH', 'DESKTOP', 'SHARED']);
+      assert.equal(m.advisories.find(a => a.id === 'DESKTOP').part, undefined);
+    });
+
+    test('the tree and CSV keep every row, as they were', () => {
+      const m = panelModel(app, { platform: 'android' });
+      assert.equal(m.allAdvisories.length, 5);
+      assert.equal(m.allAdvisories.find(a => a.id === 'DESKTOP').part, 'desktop');
+    });
+
+    test('the file-sorting label: reviewed, pending, changed since the review, not sorted', () => {
+      assert.equal(sortingLabel(null), null);
+      assert.deepEqual(sortingLabel({ status: 'none' }), { pill: 'Not sorted', text: 'Every file counted on every platform.' });
+      assert.deepEqual(sortingLabel({ status: 'reviewed', by: 'Danny', on: '2026-11-05', release: 'v1' }), { pill: 'Human-reviewed', text: 'Checked by Danny on 2026-11-05, at release v1.' });
+      assert.deepEqual(sortingLabel({ status: 'pending', filesRemoved: 0 }), { pill: 'Sorted automatically', text: 'No person has checked these file-sorting rules yet.' });
+      assert.equal(sortingLabel({ status: 'pending', filesRemoved: 1 }).text, 'No person has checked these file-sorting rules yet. They took 1 file off this page.');
+      assert.equal(sortingLabel({ status: 'pending', changedSince: { by: 'Danny', on: '2026-11-05', release: 'v1' }, filesRemoved: 12 }).text, "This release's files don't match what Danny reviewed at v1, so no person has checked this sorting. The rules took 12 files off this page.");
+    });
+
+    test('the page shows how many files its own platform leaves out', () => {
+      const sorting = { status: 'pending', filesOutside: { android: 12, desktop: 2 } };
+      const withSorting = { appId: 'w', releases: [{ ref: 'v1', dependencies: { total: 1, sorting } }] };
+      assert.equal(panelModel(withSorting, { platform: 'android' }).sorting.filesRemoved, 12);
+      assert.equal(panelModel(withSorting, { platform: 'desktop' }).sorting.filesRemoved, 2);
+      assert.equal(panelModel(withSorting, { platform: 'bearer' }).sorting.filesRemoved, 0);
+      assert.equal(panelModel({ appId: 'w', releases: [{ ref: 'v1', dependencies: { total: 1 } }] }, { platform: 'android' }).sorting, null, 'an older export has no label');
+    });
+
+    test('says what was left out, once each', () => {
+      const m = panelModel(app, { platform: 'android' });
+      assert.deepEqual(m.notInApp, { labels: ['desktop app', 'server'], libraries: 25, advisories: 1, malware: 1 });
+      assert.equal(notInAppText(m.notInApp), 'Not in this app: desktop app and server, 25 libraries, 1 advisory, 1 possible malware.');
+      assert.equal(notInAppText({ labels: ['docs'], libraries: 34, advisories: 28, malware: 0 }), 'Not in this app: docs, 34 libraries, 28 advisories.');
+      assert.equal(notInAppText(null), null);
+    });
+
+    test('a row reads with its scope in this page\'s files, not the repository\'s', () => {
+      const android = panelModel(app, { platform: 'android' });
+      assert.equal(android.advisories.find(a => a.id === 'BOTH').scope, null, 'only shared on this page');
+      const desktop = panelModel(app, { platform: 'desktop' });
+      assert.equal(desktop.advisories.find(a => a.id === 'BOTH').scope, 'app', 'bundled in the desktop app');
+      assert.equal(android.allAdvisories.find(a => a.id === 'BOTH').scope, 'app', 'the tree keeps the row as it was');
+    });
+
+    test('a release with only other products\' files draws no zero on the chart', () => {
+      const none = { ...app, releases: [app.releases[0], { ref: 'v1', status: 'ok', dependencies: { total: 9, direct: 1, byTarget: { desktop: counts(9, 1, {}) }, onlyOutside: { android: 9 } } }] };
+      assert.deepEqual(panelModel(none, { platform: 'android' }).history.map(h => h.ref), ['v2']);
+      assert.deepEqual(panelModel(none, { platform: 'desktop' }).history.map(h => h.ref), ['v1', 'v2']);
+    });
+
+    test('the site and the export keep the same list of what each page counts', () => {
+      assert.deepEqual(COUNTED_TARGETS, EXPORT_COUNTED_TARGETS);
+    });
+
+    test('the history chart counts the same files in every release', () => {
+      assert.deepEqual(panelModel(app, { platform: 'android' }).history.map(h => [h.ref, h.total]), [['v1', 50], ['v2', 70]]);
+      assert.deepEqual(panelModel(app, { platform: 'desktop' }).history.map(h => [h.ref, h.total]), [['v1', 60], ['v2', 80]]);
+    });
+
+    test('a page with no list, and an export without the counts, stay as they were', () => {
+      for (const platform of ['app', 'bearer', null]) {
+        const m = panelModel(app, { platform });
+        assert.equal(m.packages, 110, platform);
+        assert.equal(m.advisories.length, 5);
+        assert.equal(m.notInApp, null);
+        assert.equal(m.advisories.find(a => a.id === 'DESKTOP').part, 'desktop');
+      }
+      const old = { appId: 'o', releases: [{ ref: 'v1', status: 'ok', dependencies: { total: 9, direct: 1 }, vulnerabilities: { bySeverity: { high: 2 } }, advisories: [] }] };
+      const m = panelModel(old, { platform: 'android' });
+      assert.deepEqual([m.packages, m.vulnerabilities, m.notInApp], [9, 2, null]);
+    });
   });
 });

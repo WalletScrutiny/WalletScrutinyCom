@@ -304,7 +304,7 @@ describe('dependencies panel', () => {
     pick('1.1.0');
     assert.equal(host.querySelector('tbody'), null);
     assert.equal(host.querySelector('.dp-headline').textContent, 'Version 1.1.0 has not been checked for dependencies.');
-    assert.equal(host.querySelector('.dp-panel--not-analysed p:last-child').textContent, 'Checked releases: v1.4.0, v1.3.0.');
+    assert.deepEqual([...host.querySelectorAll('.dp-pick-list > *')].map(r => r.textContent), ['v1.4.0', 'v1.3.0', 'v1.0.0'], 'an unsupported release with results is listed, the failed v1.2.0 is not');
     let clicked = null;
     river.addEventListener('click', (e) => { clicked = e.target.dataset.versionKey; });
     host.querySelectorAll('.dp-pick-version')[1].click();
@@ -336,6 +336,14 @@ describe('dependencies panel: git submodules', () => {
   ];
   // A C/C++ wallet: no lockfile the check reads, so the analysis is "unsupported", but its submodules were checked.
   const CPP = { schema: 1, appId: 'cpp.wallet', aliases: [], defaultBranch: null, releases: [{ kind: 'release', ref: '2.9.1', commit: 'f'.repeat(40), status: 'unsupported', advisories: [], submodules: SUBS }] };
+
+  test('a release with packages never says that no lockfile was found', () => {
+    // Bitkey: its app type is unknown, so "unsupported", but its lockfiles were read.
+    const counted = { total: 3, direct: 1, byScope: { app: 3 }, byEcosystem: { npm: 3 }, lockfiles: ['package-lock.json'] };
+    const app = { ...CPP, releases: [{ ...CPP.releases[0], lockfiles: ['package-lock.json'], dependencies: counted }] };
+    const node = panelElement(panelModel(app), { appId: 'cpp.wallet', base: '/x', fetchImpl: async () => null });
+    assert.doesNotMatch(node.querySelector('.dp-notices')?.textContent ?? '', /No lockfile this check reads/);
+  });
 
   test('the summary line counts what may be in the app apart from what is not', () => {
     const node = panelElement(panelModel(CPP), { appId: 'cpp.wallet', base: '/x', fetchImpl: async () => null });
@@ -533,5 +541,44 @@ describe('dependencies per version', () => {
     assert.deepEqual(historyScale(1152, 2126), { bottom: 1000, top: 2500, step: 500 });
     assert.deepEqual(historyScale(115, 665), { bottom: 0, top: 800, step: 200 });
     assert.deepEqual(historyScale(167, 167), { bottom: 164, top: 170, step: 2 });
+  });
+});
+
+describe('dependencies panel: which app a file belongs to (issue 994)', () => {
+  const release = (dependencies) => ({ ref: 'v1', status: 'ok', dependencies: { total: 3, direct: 1, byScope: { app: 3 }, byEcosystem: { npm: 3 }, lockfiles: [], ...dependencies }, advisories: [] });
+  const panel = (dependencies, platform) => panelElement(panelModel({ appId: 'w', releases: [release(dependencies)] }, { platform }), { appId: 'w', base: '/x', fetchImpl: async () => null });
+
+  test('a guess nobody checked is named as a guess, and the file still counts', () => {
+    const node = panel({ unlisted: ['webapp/package-lock.json'] }, 'hardware');
+    assert.match(node.querySelector('.dp-notices').textContent, /Unchecked guess: webapp\/package-lock\.json may belong to another product, judging by the name\. Nobody has checked, so it is still counted here\./);
+    assert.equal(node.querySelector('.dp-notices b').textContent, 'Unchecked guess: ');
+    assert.equal(node.querySelector('.dp-tile__value').textContent, '3');
+    assert.equal(node.querySelector('.dp-not-in-app'), null);
+  });
+
+  test('the advisory tile does not state a folder-name guess as fact', () => {
+    const row = { id: 'GHSA-1', severity: 'high', aliases: [], fixed: [], summary: '', ecosystem: 'npm', package: 'a', version: '1', part: 'web', scope: 'app', products: 1, productsSameVersion: 1 };
+    const node = panelElement(panelModel({ appId: 'w', releases: [{ ...release({ unlisted: ['webapp/package-lock.json'] }), advisories: [row] }] }, { platform: 'hardware' }), { appId: 'w', base: '/x', fetchImpl: async () => null });
+    assert.doesNotMatch(node.querySelector('.dp-tiles').textContent, /only in the/);
+  });
+
+  test('the file-sorting label is on the page when the export has one', () => {
+    const line = panel({ sorting: { status: 'none' } }, 'android').querySelector('.dp-sorting');
+    assert.equal(line.textContent, 'File sorting: Not sorted Every file counted on every platform.');
+    assert.equal(line.querySelector('.dp-badge').textContent, 'Not sorted');
+    assert.equal(panel({}, 'android').querySelector('.dp-sorting'), null);
+  });
+
+  test('the "not in this app" line says it is not a check of the released app', () => {
+    const c = total => ({ total, direct: 0, byScope: { app: total }, byEcosystem: { npm: total } });
+    const node = panel({ byTarget: { desktop: c(1), shared: c(2) }, onlyOutside: { android: 1 } }, 'android');
+    assert.equal(node.querySelector('.dp-not-in-app').textContent, 'Not in this app: desktop app, 1 library. Sorted by file path from the wallet\'s build files; not a check of the released app.');
+  });
+
+  test('the note on how to read the panel says labels are guesses and counts can be too high', () => {
+    const text = panel({}, 'android').querySelector('.dp-note-text').textContent;
+    assert.match(text, /not a check of the released app/);
+    assert.match(text, /so the numbers can be too high/);
+    assert.match(text, /are guesses from folder names/);
   });
 });

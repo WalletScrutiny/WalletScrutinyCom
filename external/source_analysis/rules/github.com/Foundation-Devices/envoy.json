@@ -1,0 +1,13 @@
+{
+  "release": "v2.3.7",
+  "rules": [
+    {
+      "files": "android/**",
+      "belongs_to": "android",
+      "why": "This folder builds the Android app: this line names the wallet's own app id.",
+      "proof": [
+        "https://github.com/Foundation-Devices/envoy/blob/fead13a25981d78c3999b2be92d8e713f608158e/android/app/build.gradle#L42"
+      ]
+    }
+  ]
+}

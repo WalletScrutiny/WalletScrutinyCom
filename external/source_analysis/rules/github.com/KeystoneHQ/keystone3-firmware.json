@@ -1,0 +1,13 @@
+{
+  "release": "3.2.0",
+  "rules": [
+    {
+      "files": "external/lvgl/docs/**",
+      "belongs_to": "docs",
+      "why": "Tools that build the documentation of a graphics library. Not in the firmware.",
+      "proof": [
+        "https://github.com/KeystoneHQ/keystone3-firmware/blob/284f920dbf82dc7bdeab59ba6c93623776b4be0f/external/lvgl/docs/requirements.txt#L3"
+      ]
+    }
+  ]
+}

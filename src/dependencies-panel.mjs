@@ -7,7 +7,7 @@
 import * as nip19 from 'nostr-tools/nip19';
 import { el } from './html-utils.mjs';
 import {
-  panelModel, releaseForVersion, whereOf, whereLabel, safeName, csvOf, SEVERITY_ORDER, SEVERITY_LABEL,
+  panelModel, releaseForVersion, whereOf, whereLabel, safeName, csvOf, notInAppText, sortingLabel, SEVERITY_ORDER, SEVERITY_LABEL,
 } from './dependencies-panel-model.mjs';
 import { TRIAGE_LABEL, JUSTIFICATION_LABEL, DELETION_KIND, triageStateOf, withStatement, mergeLiveTriage, triageForApp } from './dependency-triage.mjs';
 import { dependencyTriageKind, mainRelayUrl, eventRelayUrls } from './nostr-constants.mjs';
@@ -590,8 +590,8 @@ export function vulnerabilityTipLines(model) {
 }
 
 // The vulnerability tile counts every match alike, app, build and tests
-// (Leo, 2026-10-26: a build dependency can carry a backdoor too). Matches in
-// another product's lockfile from the same repository get their own line.
+// (Leo, 2026-10-26: a build dependency can carry a backdoor too). A row's `part`
+// is a guess from a folder name, so the tile does not repeat it as a fact.
 function vulnerabilityTile(model) {
   const rows = (model.advisories || []).filter(a => a.severity !== 'malicious');
   const tally = severityTally(model, rows, { explain: true });
@@ -600,9 +600,6 @@ function vulnerabilityTile(model) {
   // An incomplete package list cannot show a green "0": it is a lower bound.
   const incomplete = model.lockCoverage && model.lockCoverage.verdict !== 'locked';
   const tone = tally.worstOpen ? `sev-${tally.worstOpen}` : (incomplete ? '' : 'good');
-  const byPart = {};
-  for (const a of rows) if (a.part) byPart[a.part] = (byPart[a.part] || 0) + 1;
-  const parts = Object.entries(byPart).map(([p, n]) => `${n} of them only in the ${whereLabel({ part: p })}`);
   const distinct = new Set(rows.map(a => a.id)).size;
   // Where the matches sit, muted: the total above stays the headline.
   const sc = model.vulnerabilitiesByScope;
@@ -614,7 +611,6 @@ function vulnerabilityTile(model) {
     tally.lines,
     rows.length ? el('div', { className: 'dp-tile__line' }, `${distinct} distinct advisories`) : null,
     rows.length && split ? el('div', { className: 'dp-tile__line dp-tile__line--muted' }, split) : null,
-    parts.length ? el('div', { className: 'dp-tile__line', title: 'From lockfiles of other products in the same repository; not in this app' }, parts.join(' · ')) : null,
     rows.length ? el('div', { className: 'dp-tile__caveat' }, model.apk
       ? 'A match means a package version is listed as affected, not that the affected part is used.'
       : 'A match means a package version is listed as affected, not that the affected part is used. The released app itself was not checked for these packages.') : null,
@@ -765,11 +761,16 @@ function notices(model) {
   if (model.sameRepositoryAs.length) {
     items.push(`Built from the same source repository as ${model.sameRepositoryAs.join(', ')}, which shares this analysis.`);
   }
+  if (model.unlisted?.length) {
+    const names = model.unlisted.slice(0, 3).join(', ') + (model.unlisted.length > 3 ? ` and ${model.unlisted.length - 3} more` : '');
+    items.push(el('span', {}, el('b', {}, 'Unchecked guess: '), `${names} may belong to another product, judging by the name. Nobody has checked, so it is still counted here.`));
+  }
   if (model.unchecked) {
     const why = model.uncheckedBreakdown.map(u => `${u.count} ${u.label}`).join(', ');
-    items.push(`${model.unchecked} of the ${model.packages} packages could not be checked for advisories${why ? ` (${why})` : ''}; that is not the same as "no problems".`);
+    items.push(`${model.unchecked} of the ${model.repoPackages ?? model.packages} packages${model.notInApp ? ' in this repository' : ''} could not be checked for advisories${why ? ` (${why})` : ''}; that is not the same as "no problems".`);
   }
-  if (model.status === 'unsupported' && model.submodules) {
+  // "unsupported" means the app type is unknown, not that nothing was read: Bitkey has lockfiles.
+  if (model.status === 'unsupported' && model.submodules && !model.repoPackages) {
     items.push('No lockfile this check reads was found in this release, so only its git submodules were checked.');
   } else if (model.status === 'unsupported' && coverage) {
     // the coverage notice already says what was not read, in words
@@ -805,6 +806,7 @@ function howToRead(model) {
     parts.push('Under the severity, "exploited in the wild" means CISA lists the advisory as exploited somewhere, EPSS is the published probability that it gets exploited anywhere within 30 days, and "public since" is when the advisory was published; all three are about the advisory, not this wallet. ');
   }
   parts.push('We do not rank wallets by this number. ');
+  parts.push('Which app a dependency file belongs to comes from a short hand-made list, made by reading each wallet\'s build files. It is not a check of the released app. A file not on the list counts on every page, so the numbers can be too high. "Where?" labels such as "website" or "desktop app" are guesses from folder names. ');
   if (model.byScope) {
     const b = model.byScope;
     parts.push(`"Where?" says where a package ends up: ${b.app} in the app, ${b.build} in the build tooling, ${b.tests} only in tests`);
@@ -844,7 +846,7 @@ function actions(model, { appId, base, fetchImpl }) {
     csv.disabled = true;
     try {
       const data = await fetchJson(`${base}/apps/${safeName(appId)}/${safeName(model.ref)}/dependencies.json`, fetchImpl);
-      const text = csvOf(data?.dependencies || [], model.advisories);
+      const text = csvOf(data?.dependencies || [], model.allAdvisories || model.advisories);
       const url = URL.createObjectURL(new Blob([text], { type: 'text/csv' }));
       const a = el('a', { href: url, download: `${appId}-${model.ref}-dependencies.csv` });
       document.body.appendChild(a); a.click(); a.remove();
@@ -866,11 +868,11 @@ function actions(model, { appId, base, fetchImpl }) {
 // it, `onToggle(open)` hears the reader open or close it.
 export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE, fetchImpl = globalThis.fetch, onJudge = null, flash = null, freshId = null, showAll = false, trusted = [], expanded = false, onToggle = null } = {}) {
   // No lockfile was read (a C/C++ release with only submodules, or a Flutter one): zeros here would read as clean.
-  const tiles = !model.packages && (model.submodules || model.status === 'unsupported') ? null : el('div', { className: 'dp-tiles' },
+  const tiles = !model.packages && (model.submodules || model.status === 'unsupported' || model.notInApp) ? null : el('div', { className: 'dp-tiles' },
     tile(model.packages, 'dependencies', { sub: `${model.direct} direct · ${model.transitive} transitive`, extra: historyChart(model.history) }),
     vulnerabilityTile(model),
     // rebuilds before malware: the malware count is almost always 0
-    rebuildTile(model.rebuilds, model.packages, tile),
+    rebuildTile(model.rebuilds, model.repoPackages ?? model.packages, tile),
     model.malware
       ? tile(model.malware, 'possible malware', { tone: 'bad', sub: 'being checked by a person; see the note above' })
       : malwareFreeTile(model.malware),
@@ -890,6 +892,8 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
     notices(model),
     flash ? el('p', { className: 'dp-flash', role: 'status' }, flash) : null,
     tiles,
+    sortingElement(model.sorting),
+    model.notInApp ? el('p', { className: 'dp-not-in-app' }, `${notInAppText(model.notInApp)} Sorted by file path from the wallet's build files; not a check of the released app.`) : null,
     // without the tiles there is nothing to fold under
     tiles ? foldedDetails(model, rest, { expanded: expanded || showAll, onToggle }) : rest,
   );
@@ -921,6 +925,14 @@ function foldedDetails(model, rest, { expanded, onToggle }) {
 }
 
 const plural = (n, one, many = `${one}s`) => `${n} ${n === 1 ? one : many}`;
+
+// "File sorting: [Human-reviewed] Checked by ...". One pill colour for all three, so
+// none of them reads as saying the wallet is safe.
+function sortingElement(sorting) {
+  const label = sortingLabel(sorting);
+  if (!label) return null;
+  return el('p', { className: 'dp-sorting' }, 'File sorting: ', el('span', { className: 'dp-badge' }, label.pill), ` ${label.text}`);
+}
 
 // Submodule rows (external/source_analysis/submoduleIdentity.mjs), as words.
 export function submoduleIdentityText(r) {
@@ -1019,7 +1031,7 @@ function submodulesSection(model, { appId, base, fetchImpl }) {
 // "Advisories" (the table) and "Dependency tree" tabs. The tree's file (the
 // release's full dependency list) is fetched when its tab is first opened.
 function treeTabs(model, table, { appId, base, fetchImpl, label }) {
-  if (!model.packages) return table;
+  if (!(model.repoPackages ?? model.packages)) return table;
   const tabs = [];
   const panes = [];
   let loaded = false;
@@ -1036,7 +1048,7 @@ function treeTabs(model, table, { appId, base, fetchImpl, label }) {
         model.rebuilds ? fetchJson(`${dir}/rebuilds.json`, fetchImpl).catch(() => null) : null,
       ]).then(([data, rebuilds]) => {
         if (!data?.dependencies?.length) throw new Error('empty');
-        treePane.replaceChildren(treeElement({ dependencies: data.dependencies, advisories: model.advisories, wallet: label, rebuilds: rebuildIndex(rebuilds) }));
+        treePane.replaceChildren(treeElement({ dependencies: data.dependencies, advisories: model.allAdvisories || model.advisories, wallet: label, rebuilds: rebuildIndex(rebuilds) }));
         rebuildPane.replaceChildren(rebuilds ? rebuildsElement(rebuilds, data.dependencies) : el('p', { className: 'dpt-intro' }, 'No rebuild results for this release.'));
       }).catch((error) => {
         console.warn('Dependency tree not available', error);
@@ -1076,7 +1088,7 @@ export function publishedFlash(statement, summary) {
 // river has one.
 function notAnalysedElement(version, app, platform, failed) {
   const river = typeof document !== 'undefined' ? document.getElementById(`buildVerifications-${platform}`) : null;
-  const analysed = (app.releases || []).filter(r => (r.status || 'ok') === 'ok');
+  const analysed = (app.releases || []).filter(hasAnalysis);
   const refs = analysed.map((r) => {
     const stone = river && [...river.querySelectorAll('.bv-stone[data-version-key]')]
       .find(b => releaseForVersion({ releases: [r] }, b.dataset.versionKey));
@@ -1085,14 +1097,13 @@ function notAnalysedElement(version, app, platform, failed) {
     pick.addEventListener('click', () => stone.click());
     return pick;
   });
-  const list = el('span', {});
-  refs.forEach((r, i) => { if (i) list.append(', '); list.append(r); });
+  const list = el('span', { className: 'dp-pick-list' }, refs);
   return el('div', { className: 'dp-panel dp-panel--not-analysed' },
     el('p', { className: 'dp-headline' },
       failed
         ? `The dependency check of version ${version} (${failed.ref}) failed${failed.error ? ` (${failed.error})` : ''}.`
         : `Version ${version} has not been checked for dependencies.`),
-    refs.length ? el('p', {}, analysed.length === 1 ? 'Checked: ' : 'Checked releases: ', list, '.') : null,
+    refs.length ? el('p', {}, analysed.length === 1 ? 'Checked: ' : 'Checked releases: ', list) : null,
   );
 }
 

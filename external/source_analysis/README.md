@@ -493,6 +493,55 @@ node index.mjs --githubToken ghp_xxx --app-id com.example.wallet --reanalyse
 
 On the server, use [Rerunning wallets](#rerunning-wallets) instead.
 
+## Which app a file belongs to
+
+One repository can hold an Android app, an iPhone app, a desktop app and a server.
+A wallet page counts only its own app's files. A rules file says which is which:
+`rules/<host>/<owner>/<repo>.json`, one per repository. Change a wallet's sorting by
+editing its file in a merge request; the next export uses it.
+
+```json
+{
+  "reviewed_by": "Danny",
+  "reviewed_on": "2026-11-05",
+  "release": "v6.31.0",
+  "rules": [
+    {
+      "files": "electron/**",
+      "belongs_to": "desktop",
+      "why": "The wrapper that turns the wallet into a desktop app.",
+      "proof": ["https://github.com/CoinSpace/CoinSpace/blob/d2dff4227d37e33d22856b57e9e50bf8689d8f34/electron/package.json#L41"]
+    }
+  ],
+  "reviewed_files": ["electron/package-lock.json", "phonegap/package-lock.json", "server/package-lock.json", "web/package-lock.json"]
+}
+```
+
+| Field | Meaning |
+|---|---|
+| `reviewed_by`, `reviewed_on`, `reviewed_files` | The person who checked the rules, when, and the exact dependency files they saw: `dependencies.lockfiles` of that release in the export's `apps/<id>.json`. All three or none. Leave them out until a person has checked |
+| `release` | The release the rules were written against |
+| `files` | A pattern, or a list of them. `web/**` is everything in `web/`; `**/name.txt` is that name in any folder; `*` and `?` stop at a slash. Upper and lower case are the same |
+| `belongs_to` | One of `all apps`, `both phones`, `android`, `iphone`, `desktop`, `firmware`, `server`, `docs`, `tests`, `no app`. `server`, `docs`, `tests` and `no app` count on no wallet page |
+| `why` | The reason, in plain words |
+| `proof` | Links to the evidence in this repository, at a full commit hash because a tag can be moved |
+
+- **The first matching rule wins**, so a narrow rule goes above a wide one. In a reviewed file, the tests reject a rule that earlier rules hide completely.
+- **A file with no rule counts on every page.** A rule can take libraries off a page, so a mistake here can hide them.
+- **A review only sorts files the checker already reads.** It can't add a library that's in no such file (issue 1009).
+- The tests reject a file that breaks this format.
+- **The export needs the app list.** It connects each app id to its repository, so an empty or unreadable list stops the export and the last good one stays.
+
+Each release of a wallet page says where its sorting stands:
+
+| The page says | When |
+|---|---|
+| Human-reviewed | The file names a reviewer, and the release has exactly the files in `reviewed_files` |
+| Sorted automatically | No reviewer yet, or the release's files differ from `reviewed_files`. It also says how many files the rules took off that page |
+| Not sorted | The repository has no rules file |
+
+"Human-reviewed" covers the sorting only. It isn't a security audit, and it doesn't prove the numbers.
+
 ## Configuration
 
 Extra apps that are not on the site list (for example Docker images) go in

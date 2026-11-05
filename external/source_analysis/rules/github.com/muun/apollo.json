@@ -1,0 +1,21 @@
+{
+  "release": "v55.12",
+  "rules": [
+    {
+      "files": "android/**",
+      "belongs_to": "android",
+      "why": "This folder builds the Android app: this line names the wallet's own app id.",
+      "proof": [
+        "https://github.com/muun/apollo/blob/92f7d2840de8a1cb2cd321d87abb8b9d5ae9a102/android/apolloui/build.gradle#L104"
+      ]
+    },
+    {
+      "files": "linters/findbugs/check-android.gradle",
+      "belongs_to": "android",
+      "why": "A lint setup for the Android build.",
+      "proof": [
+        "https://github.com/muun/apollo/blob/92f7d2840de8a1cb2cd321d87abb8b9d5ae9a102/linters/findbugs/check-android.gradle"
+      ]
+    }
+  ]
+}
