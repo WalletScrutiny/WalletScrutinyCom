@@ -1088,7 +1088,7 @@ export function publishedFlash(statement, summary) {
 // river has one.
 function notAnalysedElement(version, app, platform, failed) {
   const river = typeof document !== 'undefined' ? document.getElementById(`buildVerifications-${platform}`) : null;
-  const analysed = (app.releases || []).filter(r => (r.status || 'ok') === 'ok');
+  const analysed = (app.releases || []).filter(hasAnalysis);
   const refs = analysed.map((r) => {
     const stone = river && [...river.querySelectorAll('.bv-stone[data-version-key]')]
       .find(b => releaseForVersion({ releases: [r] }, b.dataset.versionKey));
@@ -1097,14 +1097,13 @@ function notAnalysedElement(version, app, platform, failed) {
     pick.addEventListener('click', () => stone.click());
     return pick;
   });
-  const list = el('span', {});
-  refs.forEach((r, i) => { if (i) list.append(', '); list.append(r); });
+  const list = el('span', { className: 'dp-pick-list' }, refs);
   return el('div', { className: 'dp-panel dp-panel--not-analysed' },
     el('p', { className: 'dp-headline' },
       failed
         ? `The dependency check of version ${version} (${failed.ref}) failed${failed.error ? ` (${failed.error})` : ''}.`
         : `Version ${version} has not been checked for dependencies.`),
-    refs.length ? el('p', {}, analysed.length === 1 ? 'Checked: ' : 'Checked releases: ', list, '.') : null,
+    refs.length ? el('p', {}, analysed.length === 1 ? 'Checked: ' : 'Checked releases: ', list) : null,
   );
 }
 
