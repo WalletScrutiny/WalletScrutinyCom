@@ -214,4 +214,34 @@ describe('createVerification', () => {
     assert.equal(typeof signedEvent.id, 'string');
     assert.equal(signedEvent.id.length, 64);
   });
+
+  test('keeps the combinations of a release build without hashes apart', async () => {
+    const dTags = [];
+    for (const [architecture, type] of [['x86_64-linux-gnu', 'tar'], ['x86_64-linux-gnu', 'deb'], ['win64', 'setup']]) {
+      const capture = captureEventAndSign();
+      await createVerification(
+        { ...baseVerificationParams, hashes: [], appId: 'sparrow', version: '2.5.6', platform: 'desktop', architecture, type },
+        { signEventFn: capture.signEventFn, publishEventFn: mockPublishSuccess() }
+      );
+      dTags.push(capture.event.tags.find(tag => tag[0] === 'd')?.[1]);
+      assert.equal(capture.event.tags.some(tag => tag[0] === 'x'), false);
+    }
+    assert.deepEqual(dTags, [
+      'sparrow:2.5.6:desktop:x86_64-linux-gnu:tar',
+      'sparrow:2.5.6:desktop:x86_64-linux-gnu:deb',
+      'sparrow:2.5.6:desktop:win64:setup',
+    ]);
+  });
+
+  test('keeps the shared key when the verification has hashes', async () => {
+    const capture = captureEventAndSign();
+    await createVerification(
+      { ...baseVerificationParams, architecture: 'x86_64-linux-gnu', type: 'tar' },
+      { signEventFn: capture.signEventFn, publishEventFn: mockPublishSuccess() }
+    );
+    assert.equal(
+      capture.event.tags.find(tag => tag[0] === 'd')?.[1],
+      getVerificationReplaceableKey('app.zeusln.zeus', '13.1.0', 'android', [HASH])
+    );
+  });
 });

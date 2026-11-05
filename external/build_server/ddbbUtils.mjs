@@ -84,6 +84,10 @@ export function insert(row) {
 
 /**
  * Find a queued or errored verification attempt with the same build inputs.
+ * Release builds (no assetKey) are also matched when they finished with a
+ * verdict: their target is the version itself, so nothing new can turn up and
+ * rebuilding it every cycle would only republish the same result. Only
+ * 'interrupted' release attempts are retried.
  * @param {Object} row - { appId, platform, version, arch, type, verificationId, buildScriptEventId, assetKey? }
  * @returns {Object|undefined}
  */
@@ -99,7 +103,8 @@ export function findQueuedOrErroredSimilarAttempt(row) {
       AND type = @type
       AND verificationId = @verificationId
       AND buildScriptEventId = @buildScriptEventId
-      AND endResult IN ('queued', 'error')
+      AND (endResult IN ('queued', 'error')
+        OR (@assetKey = '' AND endResult <> 'interrupted'))
     ORDER BY id DESC
     LIMIT 1
   `);

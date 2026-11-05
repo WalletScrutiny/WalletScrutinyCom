@@ -254,6 +254,20 @@ export async function getEventsFromEventIds(eventIds) {
   return events;
 }
 
+/**
+ * Replaceable key for a build server verification. Without hashes the shared
+ * key is only appId:version:platform, so the combinations of one release
+ * build would replace each other; the arch and type keep them apart.
+ */
+export function getBuildServerVerificationKey(appId, version, platform, hashes = [], architecture = null, type = null) {
+  const key = getVerificationReplaceableKey(appId, version, platform, hashes);
+  if (hashes?.length) {
+    return key;
+  }
+  const combination = [architecture, type].filter(Boolean).join(':');
+  return combination ? `${key}:${combination}` : key;
+}
+
 export async function createVerification({
   hashes,
   description,
@@ -265,7 +279,9 @@ export async function createVerification({
   createdAt,
   reusedFileIds = [],
   outputFiles = [],
-  basedOn = null
+  basedOn = null,
+  architecture = null,
+  type = null
 }, { signEventFn, publishEventFn } = {}) {
   const fullContent = JSON.stringify({
     description: description || '',
@@ -274,7 +290,7 @@ export async function createVerification({
 
   const tags = [
     ["status", status],
-    ["d", getVerificationReplaceableKey(appId, version, platform, hashes)],
+    ["d", getBuildServerVerificationKey(appId, version, platform, hashes, architecture, type)],
     ["i", appId],
     ["version", version],
     ["platform", platform],
