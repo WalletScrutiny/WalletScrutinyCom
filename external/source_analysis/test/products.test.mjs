@@ -1,6 +1,15 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { HAND_MADE, guessOfLockfile, partOfFile, targetOfLockfile, targetsOfLockfiles, unlistedFiles } from '../products.mjs';
+import { globToRegExp, guessOfLockfile, loadRuleFiles, parseRulesFile, partOfFile, sortingOf, targetOfLockfile, targetsOfLockfiles, unlistedFiles, useRepositories } from '../products.mjs';
+
+const REPOS = {
+  'app.zeusln.zeus': 'ZeusLN/zeus', 'co.edgesecure.app': 'EdgeApp/edge-react-gui', 'com.foundationdevices.envoy': 'Foundation-Devices/envoy',
+  'im.adamant.adamantmessengerpwa': 'Adamant-im/adamant-im', 'io.bluewallet.bluewallet': 'bluewallet/bluewallet', 'io.muun.apollo': 'muun/apollo',
+  'fr.acinq.phoenix.mainnet': 'ACINQ/phoenix', 'it.airgap.vault': 'airgap-it/airgap-vault', 'keystone3.pro': 'KeystoneHQ/keystone3-firmware',
+  'bitcoin.safe': 'andreasgriffin/bitcoin-safe', 'com.coinspace.app': 'CoinSpace/CoinSpace', 'org.electrum.electrum': 'spesmilo/electrum',
+  'world.bitkey.app': 'proto-at-block/bitkey',
+};
+useRepositories(Object.entries(REPOS).map(([appId, repo]) => ({ appId, repoUrl: `https://github.com/${repo}` })));
 
 test('folder names give a guess, top folder first', () => {
   assert.equal(guessOfLockfile('electron/package-lock.json'), 'desktop');
@@ -58,8 +67,9 @@ test('Bitkey: firmware, servers, and app/ for the phones', () => {
   assert.equal(targetOfLockfile('terraform/aws/firmware-signer/requirements.txt', bitkey), 'server');
   assert.equal(targetOfLockfile('datadog/package-lock.json', bitkey), 'server');
   assert.equal(targetOfLockfile('server/Cargo.lock', bitkey), 'server');
-  assert.equal(targetOfLockfile('core/Cargo.lock', bitkey), 'shared');
+  assert.equal(targetOfLockfile('core/Cargo.lock', bitkey), 'mobile', 'the firmware does not use core/');
   assert.equal(targetOfLockfile('app/rust/Cargo.lock', bitkey), 'mobile');
+  assert.equal(targetOfLockfile('app/trailblaze-tests/gradle/verification-metadata.xml', bitkey), 'tests', 'a separate build, not the app');
 });
 
 test("Bitkey's per-library files are not read for words: only the variant suffix counts", () => {
@@ -87,13 +97,90 @@ test('targetsOfLockfiles says nothing when every file is shared', () => {
   assert.equal(targetsOfLockfiles(['electron/package-lock.json', 'android/build.gradle'], 'not.on.the.list'), undefined);
 });
 
-test('every hand-made rule links its evidence at a pinned release', () => {
-  for (const [appId, rules] of Object.entries(HAND_MADE)) {
-    for (const [re, target, links] of rules) {
-      assert.ok(typeof target === 'string' && links?.length, `${appId} ${re}`);
-      for (const link of links) assert.match(link, /^https:\/\/github\.com\/[^/]+\/[^/]+\/blob\/(?!main\/|master\/|develop\/)/, `${appId} ${re}`);
-    }
+test('every rules file loads: fixed words, a why, and proof at a commit of its own repository', () => {
+  assert.equal(loadRuleFiles().size, 13); // parseRulesFile throws on a broken file
+});
+
+const VALID = () => ({
+  release: 'v1', rules: [{ files: 'a/**', belongs_to: 'desktop', why: 'x', proof: [`https://github.com/o/r/blob/${'a'.repeat(40)}/a#L1`] }],
+});
+const parse = (data) => parseRulesFile(JSON.stringify(data), 'github.com/o/r');
+const broken = (change, why) => assert.throws(() => { const d = VALID(); change(d); parse(d); }, why);
+
+test('a rules file is rejected for anything the format does not allow', () => {
+  assert.equal(parse(VALID()).rules[0].target, 'desktop');
+  broken(d => { d.rules[0].belongs_to = 'shared'; }, /belongs_to/);
+  broken(d => { d.rules[0].belongs_to = 'toString'; }, /belongs_to/);
+  broken(d => { delete d.rules[0].why; }, /why/);
+  broken(d => { d.rules[0].proof = []; }, /proof/);
+  broken(d => { d.rules[0].proof = ['https://github.com/o/r/blob/v1.0.0/a']; }, /commit hash/);
+  broken(d => { d.rules[0].proof = [`https://github.com/x/y/blob/${'a'.repeat(40)}/a`]; }, /this repository/);
+  broken(d => { d.reviewed_by = 'Danny'; }, /reviewed_on/);
+  broken(d => { d.reviewed_by = 'Danny'; d.reviewed_on = 'today'; }, /YYYY-MM-DD/);
+  broken(d => { delete d.release; }, /release/);
+  broken(d => { d.rules = []; }, /rules/);
+});
+
+test('both readable belongs_to words mean the code\'s target', () => {
+  const words = (word) => { const d = VALID(); d.rules[0].belongs_to = word; return parse(d).rules[0].target; };
+  assert.equal(words('all apps'), 'shared');
+  assert.equal(words('both phones'), 'mobile');
+});
+
+test('file patterns: folders, any depth, one name part', () => {
+  assert.ok(globToRegExp('web/**').test('web/a/package-lock.json'));
+  assert.ok(!globToRegExp('web/**').test('webapp/package-lock.json'));
+  assert.ok(globToRegExp('**/requirements-hw.txt').test('requirements-hw.txt'), 'no folder at all');
+  assert.ok(globToRegExp('**/requirements-hw.txt').test('contrib/deep/requirements-hw.txt'));
+  assert.ok(!globToRegExp('**/requirements-hw.txt').test('contrib/old-requirements-hw.txt'));
+  assert.ok(globToRegExp('**/requirements-build?mac*').test('tools/requirements-build_mac_x86_64.txt'));
+  assert.ok(globToRegExp('app/gradle-lock/**-iosarm64.json').test('app/gradle-lock/a:b-iosArm64.json'), 'case does not matter');
+  assert.ok(!globToRegExp('a.b').test('axb'), 'a dot is a dot');
+  assert.ok(!globToRegExp('a*').test('a/b'), 'one star stops at a slash');
+});
+
+test('the first matching rule wins', () => {
+  assert.equal(targetOfLockfile('app/gradle-lock/a:b-android.json', 'world.bitkey.app'), 'android');
+  assert.equal(targetOfLockfile('app/gradle-lock/a:b.json', 'world.bitkey.app'), 'mobile');
+});
+
+test('rules follow the repository: a new first record keeps them, an unknown id has none', () => {
+  const coin = { repoUrl: 'https://github.com/coinspace/coinspace' };
+  try {
+    useRepositories([{ appId: 'some.new.record', ...coin }]);
+    assert.equal(targetOfLockfile('electron/package-lock.json', 'some.new.record'), 'desktop', 'repository names ignore case');
+    assert.equal(targetOfLockfile('electron/package-lock.json', 'com.coinspace.app'), 'shared', 'no longer this repository');
+    assert.deepEqual(sortingOf(['electron/package-lock.json'], 'com.coinspace.app'), { status: 'none' });
+  } finally {
+    useRepositories(Object.entries(REPOS).map(([appId, repo]) => ({ appId, repoUrl: `https://github.com/${repo}` })));
   }
+});
+
+const COIN_FILES = ['web/package-lock.json', 'phonegap/package-lock.json', 'electron/package-lock.json', 'server/package-lock.json'];
+
+test('the sorting label comes from the rules file', () => {
+  assert.deepEqual(sortingOf(['package-lock.json'], 'not.on.the.list'), { status: 'none' });
+  assert.equal(sortingOf([], 'com.coinspace.app'), undefined, 'a release with no files says nothing');
+  assert.deepEqual(sortingOf(COIN_FILES, 'com.coinspace.app'), { status: 'reviewed', by: 'Danny', on: '2026-11-05', release: 'v6.31.0' });
+  const electrum = sortingOf(['contrib/deterministic-build/requirements.txt', 'contrib/deterministic-build/requirements-hw.txt'], 'org.electrum.electrum');
+  assert.equal(electrum.status, 'pending', 'no reviewer yet');
+  assert.equal(electrum.changedSince, undefined);
+  assert.deepEqual(electrum.filesOutside, { android: 1, iphone: 1, desktop: 0, hardware: 1 });
+});
+
+test('a review stops holding when the layout changes, not when a file\'s contents do', () => {
+  const coin = 'com.coinspace.app';
+  const changed = { by: 'Danny', on: '2026-11-05', release: 'v6.31.0' };
+  assert.deepEqual(sortingOf([...COIN_FILES, 'tools/package-lock.json'], coin).changedSince, changed, 'a new file with no rule');
+  assert.deepEqual(sortingOf(COIN_FILES.slice(1), coin).changedSince, changed, 'a rule that matches nothing');
+  const bitkey = ['firmware/requirements.txt', 'server/Cargo.lock', 'app/rust/Cargo.lock', 'core/Cargo.lock',
+    'app/gradle-lock/a:b-android.json', 'app/gradle-lock/a:b-iosarm64.json'];
+  assert.equal(sortingOf(bitkey, 'world.bitkey.app').status, 'reviewed', 'terraform/ and datadog/ are optional');
+  assert.equal(sortingOf([...bitkey, 'app/gradle-lock/new:lib.json'], 'world.bitkey.app').status, 'reviewed', 'a new library under an existing rule');
+  assert.equal(sortingOf([...bitkey, 'cli/Cargo.lock'], 'world.bitkey.app').status, 'pending');
+  assert.equal(sortingOf(bitkey.slice(1), 'world.bitkey.app').status, 'pending', 'firmware/ is gone');
+  const known = parse({ ...VALID(), known_files_without_rule: ['tools/Cargo.lock'] });
+  assert.ok(known.known.has('tools/Cargo.lock'));
 });
 
 test('a rule can take a wrong guess off a row, but never adds a label', () => {

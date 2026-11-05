@@ -3,13 +3,16 @@
 // website and the docs; a wallet page counts only its own app's files and the
 // shared ones.
 //
-// Only the hand-made list below takes a file off a page. Folder and file names
-// are guesses and a wrong guess hides libraries that are in the app: Coin
-// Wallet's web/ folder is its phone and desktop app's code. So a file not on the
-// list counts as shared, and a guess only names it for someone to review
+// Only a rules file (rules/<host>/<owner>/<repo>.json) takes a file off a page.
+// Folder and file names are guesses and a wrong guess hides libraries that are in
+// the app: Coin Wallet's web/ folder is its phone and desktop app's code. So a file
+// with no rule counts as shared, and a guess only names it for someone to review
 // (unlistedFiles). Without a rule, a page leans towards counting too much. It can
 // still count too little: a library in no file the checker reads is invisible,
 // as with Electrum Android's python-for-android recipes (issue 1009).
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
 // Another product built from the same repository, by folder name. A row's
 // `part` in the export (the tree's "Where?") comes from this list alone.
@@ -28,78 +31,93 @@ const TARGET_WORDS = new Map([
   ...['mac', 'macos', 'osx', 'darwin', 'windows', 'win', 'win32', 'wine', 'linux', 'appimage', 'flatpak'].map(w => [w, 'desktop']),
 ]);
 
-// The hand-made list, by the analysed app id: the first matching rule gives a
-// file's target. Each rule is [path, target, links to the evidence at a pinned
-// release]. The rules were made by reading those files, so far by AI agents;
-// nobody built the apps to confirm them, and a person should review them.
-// "mobile" is both phone apps but not the rest of the repository.
-const github = (repo, ref, path) => `https://github.com/${repo}/blob/${ref}/${path}`;
-// The line naming the wallet's own Android app id: this folder builds the Android app.
-const androidFolder = (repo, ref, path) => [/^android\//, 'android', [github(repo, ref, path)]];
-const COIN = (path) => github('CoinSpace/CoinSpace', 'v6.31.0', path);
-const ELECTRUM = (path) => github('spesmilo/electrum', '4.8.3', path);
-const BITKEY = (path, ref = 'app/2026.16.1') => github('proto-at-block/bitkey', ref, path);
-export const HAND_MADE = {
-  'app.zeusln.zeus': [androidFolder('ZeusLN/zeus', 'v13.2.4', 'android/app/build.gradle#L99')],
-  'co.edgesecure.app': [androidFolder('EdgeApp/edge-react-gui', 'v4.52.2', 'android/app/build.gradle#L95')],
-  'com.foundationdevices.envoy': [androidFolder('Foundation-Devices/envoy', 'v2.3.7', 'android/app/build.gradle#L42')],
-  'im.adamant.adamantmessengerpwa': [androidFolder('Adamant-im/adamant-im', 'v4.12.0', 'android/app/build.gradle#L33')],
-  'io.bluewallet.bluewallet': [androidFolder('BlueWallet/BlueWallet', 'v8.0.2', 'android/app/build.gradle#L86')],
-  'io.muun.apollo': [
-    androidFolder('muun/apollo', 'v55.12', 'android/apolloui/build.gradle#L104'),
-    [/^linters\/findbugs\/check-android\.gradle$/, 'android', [github('muun/apollo', 'v55.12', 'linters/findbugs/check-android.gradle')]],
-  ],
-  'fr.acinq.phoenix.mainnet': [[/^phoenix-android\//, 'android', [github('ACINQ/phoenix', 'android-v2.6.2', 'phoenix-android/build.gradle.kts#L26')]]],
-  'it.airgap.vault': [
-    androidFolder('airgap-it/airgap-vault', 'v3.35.0', 'android/app/build.gradle#L8'),
-    [/^electron\//, 'desktop', [github('airgap-it/airgap-vault', 'v3.35.0', 'electron/package.json#L48')]],
-  ],
-  'keystone3.pro': [[/^external\/lvgl\/docs\//, 'docs', [github('KeystoneHQ/keystone3-firmware', '3.2.0', 'external/lvgl/docs/requirements.txt#L3')]]],
-  'bitcoin.safe': [[/flathub_flatpak\/|requirements-build[-_]mac/, 'desktop', [
-    github('andreasgriffin/bitcoin-safe', '2.2.1', 'tools/build_linux/flathub_flatpak/requirements-runtime.txt'),
-    github('andreasgriffin/bitcoin-safe', '2.2.1', 'tools/deterministic-build/requirements-build_mac_x86_64.txt'),
-  ]]],
-  'com.coinspace.app': [
-    // The wallet libraries of every app; CI installs and builds them for the build job.
-    [/^web\//, 'shared', [COIN('web/package.json#L30'), COIN('.github/workflows/ci.yml#L182'), COIN('.github/workflows/ci.yml#L326')]],
-    // The Cordova wrapper of the two phone apps.
-    [/^phonegap\//, 'mobile', [COIN('phonegap/package.json#L18-L19')]],
-    [/^electron\//, 'desktop', [COIN('electron/package.json#L41')]],
-    [/^server\//, 'server', [COIN('server/package.json#L43')]],
-  ],
-  'org.electrum.electrum': [
-    [/requirements-build-android\.txt$/, 'android', [ELECTRUM('contrib/android/Dockerfile#L191-L196')]],
-    // The Android build reads requirements.txt, build-base and build-android, not
-    // these; the desktop builds do. Android pins its own PyQt6 and Qt in p4a_recipes,
-    // which the checker can't read yet, so they are missing from its page (issue 1009).
-    [/requirements-(binaries-mac|binaries|build-mac|build-appimage|build-wine|hw)\.txt$/, 'desktop', [
-      ELECTRUM('contrib/android/Dockerfile#L191-L196'),
-      ELECTRUM('contrib/make_packages.sh#L59'),
-      ELECTRUM('contrib/build-linux/appimage/make_appimage.sh#L137'),
-      ELECTRUM('contrib/build-linux/appimage/make_appimage.sh#L151-L153'),
-      ELECTRUM('contrib/osx/make_osx.sh#L84'),
-      ELECTRUM('contrib/osx/make_osx.sh#L196-L202'),
-      ELECTRUM('contrib/build-wine/prepare-wine.sh#L52'),
-      ELECTRUM('contrib/build-wine/build-electrum-git.sh#L45-L49'),
-    ]],
-  ],
-  'world.bitkey.app': [
-    [/^firmware\//, 'firmware', [BITKEY('README.md#L22')]],
-    [/^server\//, 'server', [BITKEY('README.md#L24')]],
-    [/^terraform\//, 'server', [BITKEY('README.md#L25')]],
-    // Gone from the newer releases; infrastructure code for Datadog monitoring.
-    [/^datadog\//, 'server', [BITKEY('datadog/package.json#L23', 'app/2026.2.1')]],
-    // One file per library, named after it, so the words in the name say nothing
-    // about a target (ktor-client-darwin is an iPhone library) except the suffix:
-    // Kotlin Multiplatform names a library's build for one platform with it. That
-    // naming is the only evidence here, the links are examples. -jvm and -desktop
-    // fall through to "mobile", which can count a few too many on the phone pages.
-    [/^app\/gradle-lock\/.*-android\.json$/i, 'android', [BITKEY('app/gradle-lock/androidx.compose.animation:animation-android.json')]],
-    [/^app\/gradle-lock\/.*-ios(arm64|x64|simulatorarm64)\.json$/i, 'iphone', [BITKEY('app/gradle-lock/co.touchlab:sqliter-driver-iosarm64.json')]],
-    // The Android app, the iPhone app and the code they share.
-    [/^app\//, 'mobile', [BITKEY('README.md#L15-L18')]],
-  ],
+// The words a rules file may use in belongs_to, and the target each one means.
+// "mobile" is both phone apps but not the rest of the repository; server, docs and
+// tests are counted on no wallet page. The README's "Which app a file belongs to" has the format.
+const BELONGS_TO = {
+  'all apps': 'shared',
+  'both phones': 'mobile',
+  android: 'android',
+  iphone: 'iphone',
+  desktop: 'desktop',
+  firmware: 'firmware',
+  server: 'server',
+  docs: 'docs',
+  tests: 'tests',
 };
+
+// **/ is any folders or none, ** is anything, * and ? stop at a slash. Upper and
+// lower case are the same: Kotlin's iosArm64 files are written both ways.
+export function globToRegExp(glob) {
+  const body = glob.split(/(\*\*\/|\*\*|\*|\?)/).map(part => ({
+    '**/': '(?:.*/)?', '**': '.*', '*': '[^/]*', '?': '[^/]',
+  }[part] ?? part.replace(/[.+^${}()|[\]\\]/g, '\\$&'))).join('');
+  return new RegExp(`^${body}$`, 'i');
+}
+
+// One parsed rules file; throws on anything the format does not allow, so a
+// mistake fails the tests instead of quietly changing a wallet's numbers.
+export function parseRulesFile(json, repoKey) {
+  const fail = (why) => { throw new Error(`rules/${repoKey}.json: ${why}`); };
+  const data = JSON.parse(json);
+  if (typeof data.release !== 'string' || !data.release) fail('needs "release"');
+  if (Boolean(data.reviewed_by) !== Boolean(data.reviewed_on)) fail('needs both "reviewed_by" and "reviewed_on", or neither');
+  if (data.reviewed_on && !/^\d{4}-\d{2}-\d{2}$/.test(data.reviewed_on)) fail('"reviewed_on" must be YYYY-MM-DD');
+  const known = data.known_files_without_rule ?? [];
+  if (!Array.isArray(known)) fail('"known_files_without_rule" must be a list');
+  if (!Array.isArray(data.rules) || !data.rules.length) fail('needs "rules"');
+  const repoUrl = `https://${repoKey}/`.toLowerCase();
+  const rules = data.rules.map((rule, i) => {
+    const where = `rule ${i + 1}`;
+    const files = [rule.files].flat();
+    if (!files.length || files.some(f => typeof f !== 'string' || !f)) fail(`${where} needs "files"`);
+    if (!Object.hasOwn(BELONGS_TO, rule.belongs_to ?? '')) fail(`${where}: "belongs_to" must be one of ${Object.keys(BELONGS_TO).join(', ')}`);
+    if (typeof rule.why !== 'string' || !rule.why) fail(`${where} needs "why"`);
+    if (!Array.isArray(rule.proof) || !rule.proof.length) fail(`${where} needs "proof"`);
+    for (const link of rule.proof) {
+      // A commit, not a tag: a tag can be moved after the review.
+      if (typeof link !== 'string' || !link.toLowerCase().startsWith(repoUrl) || !/\/blob\/[0-9a-f]{40}\//.test(link)) {
+        fail(`${where}: proof must link this repository at a full commit hash: ${link}`);
+      }
+    }
+    return { patterns: files.map(globToRegExp), target: BELONGS_TO[rule.belongs_to], optional: rule.optional === true };
+  });
+  return { reviewedBy: data.reviewed_by || null, reviewedOn: data.reviewed_on || null, release: data.release, known: new Set(known), rules };
+}
+
+// Every rules file under a folder, by repository: github.com/owner/repo, lower case.
+export function loadRuleFiles(dir = fileURLToPath(new URL('./rules/', import.meta.url))) {
+  const files = new Map();
+  const walk = (folder, prefix) => {
+    for (const entry of fs.readdirSync(folder, { withFileTypes: true })) {
+      const full = path.join(folder, entry.name);
+      if (entry.isDirectory()) walk(full, `${prefix}${entry.name}/`);
+      else if (entry.name.endsWith('.json')) {
+        const repoKey = `${prefix}${entry.name.slice(0, -'.json'.length)}`;
+        files.set(repoKey.toLowerCase(), parseRulesFile(fs.readFileSync(full, 'utf8'), repoKey));
+      }
+    }
+  };
+  if (fs.existsSync(dir)) walk(dir, '');
+  return files;
+}
+
+const RULE_FILES = loadRuleFiles();
+
+// The repository of each analysed app id. A job is keyed by its repository's first
+// record (appList.groupByRepository); that record can change, the repository does
+// not. An id with no known repository gets no rules: every file counts, and the
+// page says so.
+const repositories = new Map();
+export function useRepositories(jobs) {
+  repositories.clear();
+  for (const { appId, repoUrl } of jobs) repositories.set(appId, String(repoUrl).replace(/^https?:\/\//, '').toLowerCase());
+}
+
+const rulesOf = (appId) => RULE_FILES.get(repositories.get(appId));
+const matches = (rule, file) => rule.patterns.some(re => re.test(file));
+// The first matching rule wins, so a narrow rule goes above a wide one.
+const ruleFor = (file, appId) => rulesOf(appId)?.rules.find(rule => matches(rule, file));
 
 // The targets each page counts. Platforms not listed (bearer, others) get no
 // filter: nothing says which of a repository's files they build.
@@ -122,8 +140,6 @@ export function productPartOf(lockfile) {
   return null;
 }
 
-const ruleFor = (file, appId) => (HAND_MADE[appId] || []).find(([re]) => re.test(file));
-
 // What the file's name suggests, for review; never takes a file off a page.
 export function guessOfLockfile(lockfile) {
   const segments = String(lockfile || '').split('/');
@@ -144,15 +160,15 @@ export function guessOfLockfile(lockfile) {
 export function partOfFile(lockfile, appId = null) {
   const part = productPartOf(lockfile);
   const rule = part && ruleFor(String(lockfile || ''), appId);
-  return rule && rule[1] !== part ? null : part;
+  return rule && rule.target !== part ? null : part;
 }
 
-// android | iphone | mobile | desktop | server | web | extension | docs | firmware | shared
+// android | iphone | mobile | desktop | server | web | extension | docs | firmware | tests | shared
 export function targetOfLockfile(lockfile, appId = null) {
-  return ruleFor(String(lockfile || ''), appId)?.[1] || 'shared';
+  return ruleFor(String(lockfile || ''), appId)?.target || 'shared';
 }
 
-// The files that look like another product's but are not on the hand-made list:
+// The files that look like another product's but have no rule:
 // they count on every page until someone checks them and adds a rule.
 export function unlistedFiles(lockfiles, appId = null) {
   return [...new Set(lockfiles)].filter(f => !ruleFor(f, appId) && guessOfLockfile(f) !== 'shared').sort();
@@ -163,4 +179,25 @@ export function unlistedFiles(lockfiles, appId = null) {
 export function targetsOfLockfiles(lockfiles, appId = null) {
   const targets = [...new Set(lockfiles.map(l => targetOfLockfile(l, appId)))].sort();
   return targets.some(t => t !== 'shared') ? targets : undefined;
+}
+
+// What the wallet page says about a release's file sorting (the label comes from
+// the rules file, so the two can't disagree): "none" with no rules file, "pending"
+// without a person's review, "reviewed" with one. A review stops holding when a new
+// file has no rule, or a rule that isn't optional no longer matches anything: it
+// covered the old layout. filesOutside is how many files each page leaves out.
+export function sortingOf(lockfiles, appId) {
+  const files = [...new Set(lockfiles)];
+  if (!files.length) return undefined;
+  const rules = rulesOf(appId);
+  if (!rules) return { status: 'none' };
+  const filesOutside = Object.fromEntries(Object.entries(COUNTED_TARGETS).map(([platform, counted]) => (
+    [platform, files.filter(f => !counted.includes(targetOfLockfile(f, appId))).length]
+  )));
+  if (!rules.reviewedBy) return { status: 'pending', filesOutside };
+  const newFile = files.some(f => !ruleFor(f, appId) && !rules.known.has(f));
+  const lostRule = rules.rules.some(rule => !rule.optional && !files.some(f => matches(rule, f)));
+  const review = { by: rules.reviewedBy, on: rules.reviewedOn, release: rules.release };
+  if (newFile || lostRule) return { status: 'pending', changedSince: review, filesOutside };
+  return { status: 'reviewed', ...review };
 }

@@ -1,0 +1,21 @@
+{
+  "release": "v3.35.0",
+  "rules": [
+    {
+      "files": "android/**",
+      "belongs_to": "android",
+      "why": "This folder builds the Android app: this line names the wallet's own app id.",
+      "proof": [
+        "https://github.com/airgap-it/airgap-vault/blob/5bae09fae68f1a6d53c6f363aac2529f0bd1aad3/android/app/build.gradle#L8"
+      ]
+    },
+    {
+      "files": "electron/**",
+      "belongs_to": "desktop",
+      "why": "The wrapper that turns the wallet into a desktop app.",
+      "proof": [
+        "https://github.com/airgap-it/airgap-vault/blob/5bae09fae68f1a6d53c6f363aac2529f0bd1aad3/electron/package.json#L48"
+      ]
+    }
+  ]
+}

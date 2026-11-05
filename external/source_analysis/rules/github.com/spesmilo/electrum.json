@@ -1,0 +1,35 @@
+{
+  "release": "4.8.3",
+  "rules": [
+    {
+      "files": "**/requirements-build-android.txt",
+      "belongs_to": "android",
+      "why": "Only the Android build reads this file.",
+      "proof": [
+        "https://github.com/spesmilo/electrum/blob/b774e151de7ec1150cf5df3b846d8441e75adc50/contrib/android/Dockerfile#L191-L196"
+      ]
+    },
+    {
+      "files": [
+        "**/requirements-binaries-mac.txt",
+        "**/requirements-binaries.txt",
+        "**/requirements-build-mac.txt",
+        "**/requirements-build-appimage.txt",
+        "**/requirements-build-wine.txt",
+        "**/requirements-hw.txt"
+      ],
+      "belongs_to": "desktop",
+      "why": "The desktop builds read these. The Android build reads requirements.txt, build-base and build-android instead. Android pins its own PyQt6 and Qt in recipes the checker can't read yet, so they are missing from its page (issue 1009).",
+      "proof": [
+        "https://github.com/spesmilo/electrum/blob/b774e151de7ec1150cf5df3b846d8441e75adc50/contrib/android/Dockerfile#L191-L196",
+        "https://github.com/spesmilo/electrum/blob/b774e151de7ec1150cf5df3b846d8441e75adc50/contrib/make_packages.sh#L59",
+        "https://github.com/spesmilo/electrum/blob/b774e151de7ec1150cf5df3b846d8441e75adc50/contrib/build-linux/appimage/make_appimage.sh#L137",
+        "https://github.com/spesmilo/electrum/blob/b774e151de7ec1150cf5df3b846d8441e75adc50/contrib/build-linux/appimage/make_appimage.sh#L151-L153",
+        "https://github.com/spesmilo/electrum/blob/b774e151de7ec1150cf5df3b846d8441e75adc50/contrib/osx/make_osx.sh#L84",
+        "https://github.com/spesmilo/electrum/blob/b774e151de7ec1150cf5df3b846d8441e75adc50/contrib/osx/make_osx.sh#L196-L202",
+        "https://github.com/spesmilo/electrum/blob/b774e151de7ec1150cf5df3b846d8441e75adc50/contrib/build-wine/prepare-wine.sh#L52",
+        "https://github.com/spesmilo/electrum/blob/b774e151de7ec1150cf5df3b846d8441e75adc50/contrib/build-wine/build-electrum-git.sh#L45-L49"
+      ]
+    }
+  ]
+}

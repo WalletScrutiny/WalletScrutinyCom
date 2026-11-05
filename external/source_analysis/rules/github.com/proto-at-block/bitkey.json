@@ -1,0 +1,88 @@
+{
+  "reviewed_by": "Danny",
+  "reviewed_on": "2026-11-05",
+  "release": "app/2026.16.1",
+  "rules": [
+    {
+      "files": "firmware/**",
+      "belongs_to": "firmware",
+      "why": "The code that runs on the Bitkey hardware device.",
+      "proof": [
+        "https://github.com/proto-at-block/bitkey/blob/ca5d443f41b3a93d219b1f441b66010e4871269e/README.md#L22"
+      ]
+    },
+    {
+      "files": "server/**",
+      "belongs_to": "server",
+      "why": "Bitkey's own server. It isn't in any app.",
+      "proof": [
+        "https://github.com/proto-at-block/bitkey/blob/ca5d443f41b3a93d219b1f441b66010e4871269e/README.md#L24"
+      ]
+    },
+    {
+      "files": "terraform/**",
+      "belongs_to": "server",
+      "optional": true,
+      "why": "Bitkey's server infrastructure. It isn't in any app.",
+      "proof": [
+        "https://github.com/proto-at-block/bitkey/blob/ca5d443f41b3a93d219b1f441b66010e4871269e/README.md#L25"
+      ]
+    },
+    {
+      "files": "datadog/**",
+      "belongs_to": "server",
+      "optional": true,
+      "why": "Server monitoring code, gone from newer releases. It isn't in any app.",
+      "proof": [
+        "https://github.com/proto-at-block/bitkey/blob/d0e6ed58eeb01af48266e11126bf81e9d12a1891/datadog/package.json#L23"
+      ]
+    },
+    {
+      "files": "core/Cargo.lock",
+      "belongs_to": "both phones",
+      "why": "Shared Rust libraries that the phone apps build on. A search of the firmware source at this release found no use of core/, and our Android build compiled its code. The firmware itself was not built to confirm this.",
+      "proof": [
+        "https://github.com/proto-at-block/bitkey/blob/ca5d443f41b3a93d219b1f441b66010e4871269e/README.md#L21",
+        "https://github.com/proto-at-block/bitkey/blob/ca5d443f41b3a93d219b1f441b66010e4871269e/app/rust/Cargo.toml#L42-L43"
+      ]
+    },
+    {
+      "files": "app/gradle-lock/**-android.json",
+      "belongs_to": "android",
+      "why": "Kotlin names a library's Android build with this ending. That naming is the only evidence, and the link is an example.",
+      "proof": [
+        "https://github.com/proto-at-block/bitkey/blob/ca5d443f41b3a93d219b1f441b66010e4871269e/app/gradle-lock/androidx.compose.animation:animation-android.json"
+      ]
+    },
+    {
+      "files": [
+        "app/gradle-lock/**-iosarm64.json",
+        "app/gradle-lock/**-iosx64.json",
+        "app/gradle-lock/**-iossimulatorarm64.json"
+      ],
+      "belongs_to": "iphone",
+      "why": "Kotlin names a library's iPhone build with these endings. That naming is the only evidence, and the link is an example.",
+      "proof": [
+        "https://github.com/proto-at-block/bitkey/blob/ca5d443f41b3a93d219b1f441b66010e4871269e/app/gradle-lock/co.touchlab:sqliter-driver-iosarm64.json"
+      ]
+    },
+    {
+      "files": "app/trailblaze-tests/**",
+      "belongs_to": "tests",
+      "optional": true,
+      "why": "Bitkey's UI tests are a separate build that is not part of the app.",
+      "proof": [
+        "https://github.com/proto-at-block/bitkey/blob/ca5d443f41b3a93d219b1f441b66010e4871269e/app/trailblaze-tests/settings.gradle.kts#L6-L7",
+        "https://github.com/proto-at-block/bitkey/blob/ca5d443f41b3a93d219b1f441b66010e4871269e/app/trailblaze-tests/README.md#L10"
+      ]
+    },
+    {
+      "files": "app/**",
+      "belongs_to": "both phones",
+      "why": "The Android app, the iPhone app and the code they share. Files ending in -jvm or -desktop land here too, which can count a few too many on the phone pages.",
+      "proof": [
+        "https://github.com/proto-at-block/bitkey/blob/ca5d443f41b3a93d219b1f441b66010e4871269e/README.md#L15-L18"
+      ]
+    }
+  ]
+}

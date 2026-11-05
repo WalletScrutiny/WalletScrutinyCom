@@ -7,7 +7,7 @@
 import * as nip19 from 'nostr-tools/nip19';
 import { el } from './html-utils.mjs';
 import {
-  panelModel, releaseForVersion, whereOf, whereLabel, safeName, csvOf, notInAppText, SEVERITY_ORDER, SEVERITY_LABEL,
+  panelModel, releaseForVersion, whereOf, whereLabel, safeName, csvOf, notInAppText, sortingLabel, SEVERITY_ORDER, SEVERITY_LABEL,
 } from './dependencies-panel-model.mjs';
 import { TRIAGE_LABEL, JUSTIFICATION_LABEL, DELETION_KIND, triageStateOf, withStatement, mergeLiveTriage, triageForApp } from './dependency-triage.mjs';
 import { dependencyTriageKind, mainRelayUrl, eventRelayUrls } from './nostr-constants.mjs';
@@ -892,6 +892,7 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
     notices(model),
     flash ? el('p', { className: 'dp-flash', role: 'status' }, flash) : null,
     tiles,
+    sortingElement(model.sorting),
     model.notInApp ? el('p', { className: 'dp-not-in-app' }, `${notInAppText(model.notInApp)} Sorted by file path from the wallet's build files; not a check of the released app.`) : null,
     // without the tiles there is nothing to fold under
     tiles ? foldedDetails(model, rest, { expanded: expanded || showAll, onToggle }) : rest,
@@ -924,6 +925,14 @@ function foldedDetails(model, rest, { expanded, onToggle }) {
 }
 
 const plural = (n, one, many = `${one}s`) => `${n} ${n === 1 ? one : many}`;
+
+// "File sorting: [Human-reviewed] Checked by ...". One pill colour for all three, so
+// none of them reads as saying the wallet is safe.
+function sortingElement(sorting) {
+  const label = sortingLabel(sorting);
+  if (!label) return null;
+  return el('p', { className: 'dp-sorting' }, 'File sorting: ', el('span', { className: 'dp-badge' }, label.pill), ` ${label.text}`);
+}
 
 // Submodule rows (external/source_analysis/submoduleIdentity.mjs), as words.
 export function submoduleIdentityText(r) {

@@ -1,0 +1,13 @@
+{
+  "release": "v4.52.2",
+  "rules": [
+    {
+      "files": "android/**",
+      "belongs_to": "android",
+      "why": "This folder builds the Android app: this line names the wallet's own app id.",
+      "proof": [
+        "https://github.com/EdgeApp/edge-react-gui/blob/d6d7c403fb3c9b4ea9657753dcee8674a9cd0eec/android/app/build.gradle#L95"
+      ]
+    }
+  ]
+}

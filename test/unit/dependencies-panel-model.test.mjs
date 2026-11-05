@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 
 import {
   upstreamFor,
-  panelModel, versionCore, whereLabel, whereOf, sortAdvisories, uncheckedCount, csvOf, csvCell, notInAppText, WORST_ROWS,
+  panelModel, versionCore, whereLabel, whereOf, sortAdvisories, uncheckedCount, csvOf, csvCell, notInAppText, sortingLabel, WORST_ROWS,
 } from '../../src/dependencies-panel-model.mjs';
 import { COUNTED_TARGETS as EXPORT_COUNTED_TARGETS } from '../../external/source_analysis/products.mjs';
 import { COUNTED_TARGETS } from '../../src/dependencies-panel-model.mjs';
@@ -192,6 +192,24 @@ describe('dependencies panel model', () => {
       const m = panelModel(app, { platform: 'android' });
       assert.equal(m.allAdvisories.length, 5);
       assert.equal(m.allAdvisories.find(a => a.id === 'DESKTOP').part, 'desktop');
+    });
+
+    test('the file-sorting label: reviewed, pending, changed since the review, not sorted', () => {
+      assert.equal(sortingLabel(null), null);
+      assert.deepEqual(sortingLabel({ status: 'none' }), { pill: 'Not sorted', text: 'Every file counted on every platform.' });
+      assert.deepEqual(sortingLabel({ status: 'reviewed', by: 'Danny', on: '2026-11-05', release: 'v1' }), { pill: 'Human-reviewed', text: 'Checked by Danny on 2026-11-05, at release v1.' });
+      assert.deepEqual(sortingLabel({ status: 'pending', filesRemoved: 0 }), { pill: 'Human review pending', text: 'No person has checked these file-sorting rules yet.' });
+      assert.equal(sortingLabel({ status: 'pending', filesRemoved: 1 }).text, 'No person has checked these file-sorting rules yet. They took 1 file off this page.');
+      assert.equal(sortingLabel({ status: 'pending', changedSince: { by: 'Danny', on: '2026-11-05', release: 'v1' }, filesRemoved: 12 }).text, "This release's files don't match what Danny reviewed at v1, so no person has checked this sorting. The rules took 12 files off this page.");
+    });
+
+    test('the page shows how many files its own platform leaves out', () => {
+      const sorting = { status: 'pending', filesOutside: { android: 12, desktop: 2 } };
+      const withSorting = { appId: 'w', releases: [{ ref: 'v1', dependencies: { total: 1, sorting } }] };
+      assert.equal(panelModel(withSorting, { platform: 'android' }).sorting.filesRemoved, 12);
+      assert.equal(panelModel(withSorting, { platform: 'desktop' }).sorting.filesRemoved, 2);
+      assert.equal(panelModel(withSorting, { platform: 'bearer' }).sorting.filesRemoved, 0);
+      assert.equal(panelModel({ appId: 'w', releases: [{ ref: 'v1', dependencies: { total: 1 } }] }, { platform: 'android' }).sorting, null, 'an older export has no label');
     });
 
     test('says what was left out, once each', () => {

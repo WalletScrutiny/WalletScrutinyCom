@@ -1,0 +1,41 @@
+{
+  "reviewed_by": "Danny",
+  "reviewed_on": "2026-11-05",
+  "release": "v6.31.0",
+  "rules": [
+    {
+      "files": "web/**",
+      "belongs_to": "all apps",
+      "why": "The wallet's main code. CI installs and builds it for every app.",
+      "proof": [
+        "https://github.com/CoinSpace/CoinSpace/blob/d2dff4227d37e33d22856b57e9e50bf8689d8f34/web/package.json#L30",
+        "https://github.com/CoinSpace/CoinSpace/blob/d2dff4227d37e33d22856b57e9e50bf8689d8f34/.github/workflows/ci.yml#L182",
+        "https://github.com/CoinSpace/CoinSpace/blob/d2dff4227d37e33d22856b57e9e50bf8689d8f34/.github/workflows/ci.yml#L326"
+      ]
+    },
+    {
+      "files": "phonegap/**",
+      "belongs_to": "both phones",
+      "why": "The wrapper that turns the wallet into phone apps.",
+      "proof": [
+        "https://github.com/CoinSpace/CoinSpace/blob/d2dff4227d37e33d22856b57e9e50bf8689d8f34/phonegap/package.json#L18-L19"
+      ]
+    },
+    {
+      "files": "electron/**",
+      "belongs_to": "desktop",
+      "why": "The wrapper that turns the wallet into a desktop app.",
+      "proof": [
+        "https://github.com/CoinSpace/CoinSpace/blob/d2dff4227d37e33d22856b57e9e50bf8689d8f34/electron/package.json#L41"
+      ]
+    },
+    {
+      "files": "server/**",
+      "belongs_to": "server",
+      "why": "Coin Wallet's own server. It isn't in any app.",
+      "proof": [
+        "https://github.com/CoinSpace/CoinSpace/blob/d2dff4227d37e33d22856b57e9e50bf8689d8f34/server/package.json#L43"
+      ]
+    }
+  ]
+}

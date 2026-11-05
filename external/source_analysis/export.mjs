@@ -27,7 +27,7 @@ import { groupByRepository } from './appList.mjs';
 import { hintsByApp } from './upstreamTriage.mjs';
 import { coverageForReaders, coverageByPlatform } from './plugins/lock-coverage.mjs';
 import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getEndOfLife, getSubmodules, getRebuildClaims } from './ddbbUtils.mjs';
-import { COUNTED_TARGETS, partOfFile, productPartOf, targetOfLockfile, targetsOfLockfiles, unlistedFiles } from './products.mjs';
+import { COUNTED_TARGETS, partOfFile, productPartOf, sortingOf, targetOfLockfile, targetsOfLockfiles, unlistedFiles, useRepositories } from './products.mjs';
 
 export const SCHEMA = 1;
 const SEVERITIES = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown'];
@@ -161,6 +161,8 @@ export function summarizeRelease(db, appId, ref) {
       onlyOutside: byTarget ? librariesOnlyOutside(deps, appId) : undefined,
       // files that look like another product's but nobody has checked; still counted
       unlisted: unlisted.length ? unlisted : undefined,
+      // whether a person reviewed how this release's files were sorted (products.mjs)
+      sorting: sortingOf(deps.map(d => d.lockfile), appId),
     },
     vulnerabilities: {
       bySeverity: countBy(vulns, 'severity', SEVERITIES),
@@ -211,6 +213,7 @@ function compareReleasesNewestFirst(x, y) {
 // Everything the export says about one app.
 // counts: productCounts(db), passed in by exportAll so the two queries run once per export.
 export function buildApp(db, appId, aliases = [], counts = productCounts(db), sources = packageSources(db)) {
+  loadRepositories(db);
   const analyses = getAnalyses(db, appId);
   const releases = [];
   const seen = new Set();
@@ -270,6 +273,16 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
 
 function indexEntry(app) {
   return { appId: app.appId };
+}
+
+// Which repository each analysed id is, for its rules file. No cached app list
+// means no rules: every file counts, and the page says "Not sorted".
+function loadRepositories(db) {
+  try {
+    useRepositories(groupByRepository(getAppList(db)).jobs);
+  } catch {
+    useRepositories([]);
+  }
 }
 
 // The app ids the site lists for each analysed id (rows are keyed by the

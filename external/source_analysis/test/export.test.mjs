@@ -52,7 +52,7 @@ test('buildApp: releases newest first with summary, advisories and diff, nothing
   const written = JSON.parse(JSON.stringify(latest));
   assert.deepEqual(Object.keys(app), ['schema', 'appId', 'aliases', 'releases']);
   assert.deepEqual(Object.keys(written), ['ref', 'commit', 'analysedAt', 'status', 'lockfiles', 'osv', 'dependencies', 'vulnerabilities', 'advisories', 'diffFrom']);
-  assert.deepEqual(Object.keys(written.dependencies), ['total', 'direct', 'byScope', 'byEcosystem', 'lockfiles']);
+  assert.deepEqual(Object.keys(written.dependencies), ['total', 'direct', 'byScope', 'byEcosystem', 'lockfiles', 'sorting']);
   assert.deepEqual(Object.keys(written.vulnerabilities), ['bySeverity', 'byScope']);
   assert.deepEqual(Object.keys(written.advisories[0]), ['id', 'severity', 'aliases', 'summary', 'ecosystem', 'package', 'version', 'fixed', 'direct', 'scope', 'dependants', 'products', 'productsSameVersion']);
 });
@@ -283,6 +283,7 @@ test('buildApp: lock coverage per app when one repository builds both', () => {
 test('buildApp: counts per target and advisory targets, only for a wallet on the hand-made list', () => {
   const db = initDatabase(':memory:');
   const id = 'it.airgap.vault';
+  saveAppList(db, [{ appId: id, platform: 'android', repository: 'https://github.com/airgap-it/airgap-vault' }]);
   const e = (name, lockfile, extra = {}) => ({ ecosystem: 'npm', lockfile, name, version: '1.0.0', resolved: '', integrity: '', direct: false, dev: false, tier: 'hash-pinned', ...extra });
   saveDependencies(db, id, 'v1', [{ ecosystem: 'npm', entries: [
     e('a', 'package-lock.json', { direct: true }),
@@ -320,6 +321,7 @@ test('buildApp: counts per target and advisory targets, only for a wallet on the
 test('Where?: a rule that contradicts the folder guess takes the label off rows and advisories', () => {
   const db = initDatabase(':memory:');
   const id = 'com.coinspace.app';
+  saveAppList(db, [{ appId: id, platform: 'android', repository: 'https://github.com/CoinSpace/CoinSpace' }]);
   const e = (name, lockfile) => ({ ecosystem: 'npm', lockfile, name, version: '1.0.0', resolved: '', integrity: '', direct: false, dev: false, tier: 'hash-pinned' });
   saveDependencies(db, id, 'v1', [{ ecosystem: 'npm', entries: [e('a', 'web/package-lock.json'), e('b', 'electron/package-lock.json')] }]);
   const f = name => ({ ecosystem: 'npm', name, version: '1.0.0', id: `GHSA-${name}`, severity: 'high', aliases: [], fixed: [], summary: '', direct: false, dev: false });

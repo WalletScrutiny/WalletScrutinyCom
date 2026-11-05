@@ -41,7 +41,7 @@ export const COUNTED_TARGETS = {
 
 export const TARGET_LABELS = {
   android: 'Android app', iphone: 'iPhone app', mobile: 'phone apps', desktop: 'desktop app',
-  server: 'server', web: 'website', extension: 'browser extension', docs: 'docs', firmware: 'firmware',
+  server: 'server', web: 'website', extension: 'browser extension', docs: 'docs', firmware: 'firmware', tests: 'tests',
 };
 
 // A row without `targets` comes from shared files only.
@@ -96,6 +96,27 @@ function notInAppOf(dependencies, rows, counted, platform) {
     advisories: hits.filter(a => a.severity !== 'malicious').length,
     malware: hits.filter(a => a.severity === 'malicious').length,
   };
+}
+
+// The export's file-sorting label for this page; null for an export without one.
+function sortingOnPage(sorting, platform) {
+  if (!sorting) return null;
+  const { filesOutside, ...rest } = sorting;
+  return { ...rest, filesRemoved: filesOutside?.[platform] ?? 0 };
+}
+
+// What a reader is told about how files were sorted onto this page: a pill and the
+// sentence beside it. "Human-reviewed" is about the sorting only: it is not a
+// security audit, and not proof of the numbers.
+export function sortingLabel(sorting) {
+  if (!sorting) return null;
+  if (sorting.status === 'none') return { pill: 'Not sorted', text: 'Every file counted on every platform.' };
+  if (sorting.status === 'reviewed') return { pill: 'Human-reviewed', text: `Checked by ${sorting.by} on ${sorting.on}, at release ${sorting.release}.` };
+  const why = sorting.changedSince
+    ? `This release's files don't match what ${sorting.changedSince.by} reviewed at ${sorting.changedSince.release}, so no person has checked this sorting.`
+    : 'No person has checked these file-sorting rules yet.';
+  const n = sorting.filesRemoved;
+  return { pill: 'Human review pending', text: `${why}${n ? ` ${sorting.changedSince ? 'The rules' : 'They'} took ${n === 1 ? '1 file' : `${n.toLocaleString('en-US')} files`} off this page.` : ''}` };
 }
 
 // "Not in this app: desktop app and server, 232 libraries, 120 advisories."
@@ -301,6 +322,7 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
     // the whole repository's, for what still covers all of it: the rebuild tile, the unchecked note, the tree
     repoPackages: current.dependencies?.total ?? 0,
     notInApp: counted ? notInAppOf(current.dependencies, current.advisories || [], counted, platform) : null,
+    sorting: sortingOnPage(current.dependencies?.sorting, platform),
     // files whose names suggest another product, a guess nobody has checked: they still count here
     unlisted: current.dependencies?.unlisted || [],
     direct: dependencies?.direct ?? 0,

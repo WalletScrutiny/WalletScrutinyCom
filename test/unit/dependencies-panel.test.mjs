@@ -562,6 +562,13 @@ describe('dependencies panel: which app a file belongs to (issue 994)', () => {
     assert.doesNotMatch(node.querySelector('.dp-tiles').textContent, /only in the/);
   });
 
+  test('the file-sorting label is on the page when the export has one', () => {
+    const line = panel({ sorting: { status: 'none' } }, 'android').querySelector('.dp-sorting');
+    assert.equal(line.textContent, 'File sorting: Not sorted Every file counted on every platform.');
+    assert.equal(line.querySelector('.dp-badge').textContent, 'Not sorted');
+    assert.equal(panel({}, 'android').querySelector('.dp-sorting'), null);
+  });
+
   test('the "not in this app" line says it is not a check of the released app', () => {
     const c = total => ({ total, direct: 0, byScope: { app: total }, byEcosystem: { npm: total } });
     const node = panel({ byTarget: { desktop: c(1), shared: c(2) }, onlyOutside: { android: 1 } }, 'android');
