@@ -93,7 +93,9 @@ export function treeElement({ dependencies, advisories = [], wallet, rebuilds = 
       toggle,
       nodeLabel(node),
       el('span', { className: 'dpt-version' }, node.version),
-      el('span', { className: `dp-where dp-where--${node.scope}`, title: node.scope === 'unknown' ? WHERE_UNKNOWN_TIP : null }, whereLabel(node.row)),
+      // The group already says where its packages end up; label only a row that differs.
+      node.scope === pathIds[0].split('|g:')[1] ? null
+        : el('span', { className: `dp-where dp-where--${node.scope}`, title: node.scope === 'unknown' ? WHERE_UNKNOWN_TIP : null }, whereLabel(node.row)),
       advisoryBadge(node),
       rebuilds ? rebuildBadge(rebuilds.get(rebuildKey(node.ecosystem, node.name, node.version))) : null,
       kids.length ? el('span', { className: 'dpt-count' }, `${kids.length} ${kids.length === 1 ? 'dependency' : 'dependencies'}`) : null,
