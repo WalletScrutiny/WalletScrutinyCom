@@ -246,6 +246,14 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
       rowsOf.get(key).push(d);
     }
     const rowsOfAdvisory = v => rowsOf.get(`${v.ecosystem}:${v.name}@${v.dep_version}`) || [];
+    // The versions each package is locked at, per lockfile: a statement on a
+    // row records its direct users' (src/dependency-triage.mjs, issue 995).
+    const lockedAt = new Map();
+    for (const rows of rowsOf.values()) for (const d of rows) {
+      const key = `${d.lockfile}\0${d.ecosystem}:${d.name}`;
+      if (!lockedAt.has(key)) lockedAt.set(key, new Set());
+      lockedAt.get(key).add(d.dep_version);
+    }
     r.advisories = getVulnerabilities(db, appId, r.ref).map(v => ({
       id: v.vuln_id, severity: v.severity, aliases: v.aliases ? v.aliases.split(' ') : [],
       summary: v.summary, ecosystem: v.ecosystem, package: v.name, version: v.dep_version,
@@ -257,6 +265,7 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
       targets: targetsOfLockfiles(rowsOfAdvisory(v).map(d => d.lockfile), appId),
       scopes: targetsOfLockfiles(rowsOfAdvisory(v).map(d => d.lockfile), appId) ? scopesOfRows(rowsOfAdvisory(v), appId, scopeOfRow(v)) : undefined,
       dependants: dependantsOfRow(v.dependants),
+      dependantVersions: dependantVersionsOf(v, rowsOfAdvisory(v), lockedAt),
       repo: sources.get(`${v.ecosystem}:${v.name}`)?.repo_url || undefined,
       products: counts.byName.get(`${v.ecosystem}:${v.name}`) || 1,
       productsSameVersion: counts.byVersion.get(`${v.ecosystem}:${v.name}@${v.dep_version}`) || 1,
@@ -268,6 +277,20 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
     }
   }
   return { schema: SCHEMA, appId, aliases, releases };
+}
+
+// The versions of an advisory row's direct users in the lockfiles the
+// vulnerable package is in, `{ alib: ['1.2.0'] }`; undefined without
+// dependants or when none is locked there.
+export function dependantVersionsOf(v, rows, lockedAt) {
+  const names = dependantsOfRow(v.dependants) || [];
+  const out = {};
+  for (const name of names) {
+    const versions = new Set();
+    for (const d of rows) for (const version of lockedAt.get(`${d.lockfile}\0${v.ecosystem}:${name}`) || []) versions.add(version);
+    if (versions.size) out[name] = [...versions].sort();
+  }
+  return Object.keys(out).length ? out : undefined;
 }
 
 function indexEntry(app) {

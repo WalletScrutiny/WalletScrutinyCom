@@ -3,7 +3,7 @@ import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 import { finalizeEvent, generateSecretKey, getPublicKey } from 'nostr-tools';
 
-import { statementFields, ownStatement, publishOutcome, openTriageDialog, NO_EXTENSION_MESSAGE } from '../../src/dependencies-triage-form.mjs';
+import { statementFields, ownStatement, publishOutcome, openTriageDialog, NO_EXTENSION_MESSAGE, judgedOn } from '../../src/dependencies-triage-form.mjs';
 import { statementChoices, withStatement, triageTemplate, statementFromEvent, evidenceUrl } from '../../src/dependency-triage.mjs';
 import { renderDependenciesPanel, publishedFlash } from '../../src/dependencies-panel.mjs';
 
@@ -300,4 +300,47 @@ describe('dependency triage form', () => {
     d2.remove();
     assert.match(publishedFlash({ vulns: ['GHSA-1'] }, { successful: 1, total: 2, settles: false }), /shown under "What others say" here/);
   });
+
+  // Issue 995: what a statement is judged on comes from the row, not from what is typed.
+  test('a statement written on a row records the release, the package\'s version and the direct user\'s', async () => {
+    const row = { ...traverse, dependantVersions: { '@babel/core': ['7.23.0'] } };
+    assert.deepEqual(judgedOn(row, { via: 'npm:@babel/core', app: 'a', release: 'v3.35.0' }), { release: 'v3.35.0', packageVersion: '7.22.10', viaVersion: '7.23.0' });
+    assert.deepEqual(judgedOn(row, { via: 'npm:@babel/helpers', app: 'a', release: 'v3.35.0' }), { release: 'v3.35.0', packageVersion: '7.22.10' }, 'a direct user the row has no version for');
+    assert.deepEqual(judgedOn(row, { via: 'npm:@babel/core', release: 'v3.35.0' }), { packageVersion: '7.22.10', viaVersion: '7.23.0' }, 'a statement for every wallet names no wallet release');
+    const twin = { ...row, version: '7.20.0', dependantVersions: { '@babel/core': ['7.21.0'] } };
+    assert.deepEqual(judgedOn(row, { via: 'npm:@babel/core', app: 'a', rows: [row, twin, { ...twin, id: 'GHSA-other', version: '1.0.0' }] }), { packageVersion: '7.20.0,7.22.10', viaVersion: '7.21.0,7.23.0' }, 'every version of the package the release has for this advisory');
+
+    const app = { schema: 1, appId: 'it.airgap.vault', aliases: [{ appId: 'it.airgap.vault', platform: 'android' }], releases: [{
+      kind: 'release', ref: 'v3.35.0', status: 'ok', lockfiles: ['yarn.lock'],
+      dependencies: { total: 3, direct: 1, byEcosystem: { npm: 3 } },
+      vulnerabilities: { total: 1, bySeverity: { critical: 1 }, packages: 1 },
+      advisories: [row],
+    }] };
+    const files = { '/v/apps/it.airgap.vault.json': app, '/vt/statements.json': { schema: 1, trusted: [pk] } };
+    const fetchImpl = async (url) => (files[url] === undefined ? { ok: false, status: 404, json: async () => null } : { ok: true, status: 200, json: async () => files[url] });
+    const nostr = fakeNostr();
+    const host = document.createElement('div');
+    document.body.appendChild(host);
+    await renderDependenciesPanel({ host, appId: 'it.airgap.vault', base: '/v', triageBase: '/vt', liveEvents: async () => [], fetchImpl, nostr });
+    host.querySelector('.dp-judge').click();
+    await settled();
+    const dialog = document.querySelector('dialog.dp-dialog');
+    dialog.querySelector('input[name="subject"][value="app:it.airgap.vault"]').removeAttribute('checked');
+    const core = dialog.querySelector('input[name="subject"][value="via:npm:@babel/core"]');
+    core.checked = true;
+    core.dispatchEvent(new window.Event('change', { bubbles: true }));
+    const notAffected = dialog.querySelector('input[name="status"][value="not_affected"]');
+    notAffected.checked = true;
+    notAffected.dispatchEvent(new window.Event('change', { bubbles: true }));
+    dialog.querySelector('textarea[name="content"]').value = 'babel/core only compiles the project\'s own sources';
+    dialog.querySelector('form').dispatchEvent(new window.Event('submit', { bubbles: true, cancelable: true }));
+    await settled(8);
+
+    assert.equal(nostr.published.length, 1);
+    assert.deepEqual(nostr.published[0].tags.filter(t => ['release', 'package-version', 'via-version'].includes(t[0])), [
+      ['release', 'v3.35.0'], ['package-version', '7.22.10'], ['via-version', '7.23.0'],
+    ]);
+    host.remove();
+  });
 });
+

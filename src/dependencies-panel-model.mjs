@@ -298,7 +298,7 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
   const malware = bySeverity.malicious;
   const vulnerabilities = SEVERITY_ORDER.filter(s => s !== 'malicious').reduce((n, s) => n + bySeverity[s], 0);
   const appIds = [app.appId, ...(app.aliases || []).map(a => a.appId)].filter(Boolean);
-  const triaged = applyTriage(applySignals(current.advisories || [], signals), triage, { appIds });
+  const triaged = applyTriage(applySignals(current.advisories || [], signals), triage, { appIds, releases });
   const apkOfRelease = apk && apk.ref === current.ref ? apk : null; // an APK of another release says nothing about these rows
   const allAdvisories = sortAdvisories(triaged.advisories.map(a => {
     const hints = upstreamFor(a, upstream);
@@ -307,7 +307,7 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
   }));
   // A shown row that names a product names this page's own: "only in the desktop app" says nothing on the desktop page.
   const advisories = counted ? allAdvisories.filter(inApp).map(({ part, ...a }) => scopeOnPage(a, counted)) : allAdvisories;
-  const triageSummary = counted ? applyTriage((current.advisories || []).filter(inApp), triage, { appIds }).summary : triaged.summary;
+  const triageSummary = counted ? applyTriage((current.advisories || []).filter(inApp), triage, { appIds, releases }).summary : triaged.summary;
   const exploited = advisories.filter(a => a.exploited).length;
   const unchecked = uncheckedCount(current.osv);
 

@@ -36,7 +36,16 @@
 // publishes them with the trusted authors and the listed maintainers; the
 // wallet page adds what the relay has now (mergeTriageEvents), so a new
 // statement shows without a site build. Only trusted authors and listed
-// maintainers settle a row, the others are shown. The states and the justification labels follow VEX
+// maintainers settle a row, the others are shown.
+//
+// A statement also records what it was judged on (issue 995): the wallet
+// release (`release`), the vulnerable package's version (`package-version`)
+// and its direct user's (`via-version`). It settles a row only where both
+// versions are still the same, so a routine release that leaves them alone
+// keeps the decision and one that bumps either reopens the row, labelled
+// with the old decision (`triage.stale`). A wallet statement written before
+// these tags existed counts as made on the release that was current then
+// (statementBasis). The states and the justification labels follow VEX
 // (Vulnerability Exploitability eXchange, OpenVEX). "Where?" informs a
 // statement but never makes one. See docs/dependency-check.md, "Triage".
 
@@ -135,8 +144,11 @@ export function triageSubject({ vuln, via = null, app = null }) {
  * label (optional), `versions` of the direct user the statement holds for
  * (optional, free text), `evidence` a link to the issue, pull request or
  * code line the statement rests on (optional), `content` the reasoning in prose.
+ * What it was judged on (optional): `release` the wallet release,
+ * `packageVersion` the vulnerable package's versions and `viaVersion` the
+ * direct user's (comma-separated: a release can ship either twice).
  */
-export function triageTemplate({ vulns, pkg, via = null, app = null, status, justification = null, versions = null, evidence = null, content = '', created_at = null }) {
+export function triageTemplate({ vulns, pkg, via = null, app = null, status, justification = null, versions = null, evidence = null, content = '', created_at = null, release = null, packageVersion = null, viaVersion = null }) {
   const ids = [...new Set((vulns || []).map(text).filter(Boolean))];
   if (!ids.length) throw new Error('a statement needs at least one advisory id');
   for (const id of ids) if (!ADVISORY_ID_RE.test(id)) throw new Error(`"${id}" is not an advisory id (GHSA-…, CVE-…, MAL-…)`);
@@ -156,6 +168,9 @@ export function triageTemplate({ vulns, pkg, via = null, app = null, status, jus
   if (justification) tags.push(['justification', justification]);
   if (text(versions)) tags.push(['versions', text(versions)]);
   if (text(evidence)) tags.push(['evidence', evidenceUrl(evidence)]);
+  if (text(release)) tags.push(['release', text(release)]);
+  if (text(packageVersion)) tags.push(['package-version', text(packageVersion)]);
+  if (text(via) && text(viaVersion)) tags.push(['via-version', text(viaVersion)]);
   // The project relay stores only events it recognises as WalletScrutiny traffic (external/configs/strfry/kind-policy.py).
   tags.push(['client', 'WalletScrutiny.com'], ['c', 'walletscrutiny']);
   return {
@@ -199,7 +214,20 @@ export function statementFromEvent(event, { kind = dependencyTriageKind } = {}) 
     versions: text(tagValue(event, 'versions')) || null,
     evidence: evidenceUrl(tagValue(event, 'evidence')),
     content: typeof event.content === 'string' ? event.content : '',
+    ...judgedOnTags(event, via),
   };
+}
+
+// What the statement was judged on (issue 995), only the tags it carries.
+function judgedOnTags(event, via) {
+  const out = {};
+  const release = text(tagValue(event, 'release'));
+  const packageVersion = text(tagValue(event, 'package-version'));
+  const viaVersion = via ? text(tagValue(event, 'via-version')) : '';
+  if (release) out.release = release;
+  if (packageVersion) out.packageVersion = packageVersion;
+  if (viaVersion) out.viaVersion = viaVersion;
+  return out;
 }
 
 // Newest statement per (author, subject): an addressable event replaces its
@@ -234,6 +262,76 @@ export function statementConcerns(statement, advisory) {
   if (!statement.vulns.some(v => ids.has(v))) return false;
   if (statement.package && advisory.package && statement.package !== `${advisory.ecosystem}:${advisory.package}`) return false;
   return true;
+}
+
+// The direct user's versions on a row (["5.2.1"], two when the release
+// has it twice); empty when the export does not say.
+export function viaVersionsOf(advisory, via) {
+  const name = String(via || '').replace(/^[a-z]+:/, '');
+  const list = advisory?.dependantVersions?.[name];
+  return Array.isArray(list) ? [...new Set(list.filter(Boolean))].sort() : [];
+}
+
+const versionList = (v) => [...new Set(String(v || '').split(',').map(x => x.trim()).filter(Boolean))];
+
+// The release that was current when a statement was made: the newest one
+// published on or before its day (releases are newest first). A release
+// without a publication date counts from the day it was analysed, which is
+// no earlier. A statement older than all of them (an analysis redone since)
+// counts as made on the oldest.
+function releaseAt(releases, createdAt) {
+  const day = new Date(createdAt * 1000).toISOString().slice(0, 10);
+  return releases.find(r => {
+    const on = r?.releasedAt || (r?.analysedAt ? String(r.analysedAt).slice(0, 10) : null);
+    return on && on <= day;
+  }) || releases[releases.length - 1] || null;
+}
+
+/**
+ * What a statement was judged on, `{ release, packageVersions, viaVersions,
+ * legacy }` (lists: one version each for a statement with the tags), or
+ * null when it holds whatever the versions (a library-wide statement written
+ * before the version tags, or no releases to place it in). A wallet
+ * statement without them counts as made on the release that was current at
+ * the time (Dan, 2026-11-06), on the versions of every row of that release
+ * it concerns: a release can ship the package twice (bn.js 4 and 5).
+ * `releases` are the wallet's analysed releases, newest first.
+ */
+export function statementBasis(s, releases = []) {
+  if (s.packageVersion || s.viaVersion) {
+    return { release: s.release || null, packageVersions: versionList(s.packageVersion), viaVersions: versionList(s.viaVersion), legacy: false };
+  }
+  if (!s.app || !releases.length) return null;
+  const release = releaseAt(releases, s.created_at);
+  const rows = (release?.advisories || []).filter(a => statementConcerns(s, a));
+  return {
+    release: release?.ref || null,
+    packageVersions: [...new Set(rows.map(a => a.version).filter(Boolean))],
+    viaVersions: s.via ? [...new Set(rows.flatMap(a => viaVersionsOf(a, s.via)))].sort() : [],
+    legacy: true,
+  };
+}
+
+/**
+ * What changed on this row since the statement was judged, as
+ * `[{ what, was, now }]` (empty when it still holds): the vulnerable
+ * package's version, the direct user's. A version either side does not
+ * record is not compared. A legacy wallet statement whose release had no
+ * row it concerns cannot be checked, and is reported as `release`.
+ */
+export function versionChanges(s, advisory, releases = []) {
+  const basis = statementBasis(s, releases);
+  if (!basis) return [];
+  if (basis.legacy && !basis.packageVersions.length) return [{ what: 'release', was: basis.release, now: null }];
+  const changes = [];
+  if (basis.packageVersions.length && advisory.version && !basis.packageVersions.includes(advisory.version)) {
+    changes.push({ what: advisory.package || 'package', was: basis.packageVersions.join(', '), now: advisory.version });
+  }
+  const now = s.via ? viaVersionsOf(advisory, s.via) : [];
+  if (basis.viaVersions.length && now.some(v => !basis.viaVersions.includes(v))) {
+    changes.push({ what: s.via.replace(/^[a-z]+:/, ''), was: basis.viaVersions.join(', '), now: now.join(', ') });
+  }
+  return changes;
 }
 
 // Among several statements on one subject, the newest.
@@ -273,31 +371,43 @@ export function statementScope(s, advisory, { appIds = [], trusted = new Set(), 
  *              (statementScope), each `{ statement, scope }`: what others say;
  *              also, scope `unused`, a statement for this wallet about a
  *              direct user the release no longer has, so it stays in sight
+ *   stale      statements that would settle the row but were judged on other
+ *              versions (versionChanges), each `{ statement, release,
+ *              changes }`: the row is open again and shows the old call
  * `maintainers` maps a package reference to the pubkeys listed as its
- * maintainers; `trusted` is the set of trusted authors.
+ * maintainers; `trusted` is the set of trusted authors; `releases` the
+ * wallet's analysed releases, newest first, for statements without version
+ * tags (statementBasis).
  */
-export function resolveRow(advisory, statements = [], { appIds = [], trusted = new Set(), maintainers = {} } = {}) {
+export function resolveRow(advisory, statements = [], { appIds = [], trusted = new Set(), maintainers = {}, releases = [] } = {}) {
   const ids = appIds.filter(Boolean);
   const relevant = statements.filter(s => statementConcerns(s, advisory));
-  const settling = [];
-  const others = [];
-  for (const s of relevant) {
-    const scope = statementScope(s, advisory, { appIds: ids, trusted, maintainers });
-    if (scope) others.push({ statement: s, scope });
-    else settling.push(s);
-  }
-  const own = pick(settling.filter(s => s.app && !s.via));
-  const packageWide = pick(settling.filter(s => !s.app && !s.via));
   const eco = advisory.ecosystem || 'npm';
-
   const needs = [];
   if (advisory.direct) needs.push(`app:${ids[0] || '?'}`);
   const dependants = Array.isArray(advisory.dependants) ? advisory.dependants : null;
   for (const d of dependants || []) needs.push(`via:${eco}:${d}`);
   if (!needs.length) needs.push('package'); // no graph (gradle), or nothing in the files requires it
 
+  const settling = [];
+  const others = [];
+  const stale = [];
+  for (const s of relevant) {
+    const scope = statementScope(s, advisory, { appIds: ids, trusted, maintainers });
+    if (scope) {
+      others.push({ statement: s, scope });
+      continue;
+    }
+    // judged on other versions: the row is open again, unless the statement answers none of its needs anyway (unused, below)
+    const changes = s.via && !needs.includes(`via:${s.via}`) ? [] : versionChanges(s, advisory, releases);
+    if (changes.length) stale.push({ statement: s, release: statementBasis(s, releases)?.release || null, changes });
+    else settling.push(s);
+  }
+  const own = pick(settling.filter(s => s.app && !s.via));
+  const packageWide = pick(settling.filter(s => !s.app && !s.via));
+
   if (own) {
-    return { decision: { status: own.status, basis: [{ need: `app:${own.app}`, statement: own }] }, needs, covered: needs, others };
+    return { decision: { status: own.status, basis: [{ need: `app:${own.app}`, statement: own }] }, needs, covered: needs, others, stale };
   }
   const basis = [];
   const covered = [];
@@ -317,9 +427,9 @@ export function resolveRow(advisory, statements = [], { appIds = [], trusted = n
   const used = new Set(basis.map(b => b.statement.id));
   for (const s of settling) if (!used.has(s.id) && s.via && !needs.includes(`via:${s.via}`)) others.push({ statement: s, scope: 'unused' });
   if (covered.length === needs.length) {
-    return { decision: { status: worstOf(basis.map(b => b.statement.status)), basis }, needs, covered, others };
+    return { decision: { status: worstOf(basis.map(b => b.statement.status)), basis }, needs, covered, others, stale };
   }
-  return { decision: null, needs, covered, others, partial: basis };
+  return { decision: null, needs, covered, others, partial: basis, stale };
 }
 
 /**
@@ -328,24 +438,27 @@ export function resolveRow(advisory, statements = [], { appIds = [], trusted = n
  * every advisory and count the states. `triage` is the wallet's published
  * file: `{ trusted: [pubkeys], maintainers: { pkg: [pubkeys] }, statements:
  * [...] }`, or null when nobody has said anything yet. summary.undecided is
- * the work queue; summary.others counts rows with something others said.
+ * the work queue; summary.others counts rows with something others said,
+ * summary.stale open rows whose old decision no longer holds (they count as
+ * undecided too). `releases`: see resolveRow.
  */
-export function applyTriage(advisories = [], triage = null, { appIds = [] } = {}) {
+export function applyTriage(advisories = [], triage = null, { appIds = [], releases = [] } = {}) {
   const statements = newestStatements(triage?.statements || []);
   const trusted = new Set(triage?.trusted || []);
   const maintainers = triage?.maintainers || {};
   const summary = { total: advisories.length, decided: 0, undecided: 0, affected: 0, not_affected: 0, fixed: 0, under_investigation: 0, partial: 0, others: 0 };
   const out = advisories.map((a) => {
-    const r = resolveRow(a, statements, { appIds, trusted, maintainers });
+    const r = resolveRow(a, statements, { appIds, trusted, maintainers, releases });
     if (r.decision) {
       summary.decided += 1;
       summary[r.decision.status] += 1;
     } else {
       summary.undecided += 1;
       if (r.covered.length) summary.partial += 1;
+      if (r.stale.length) summary.stale = (summary.stale || 0) + 1; // only when some: a summary without re-checks keeps its earlier shape
     }
     if (r.others.length) summary.others += 1;
-    return { ...a, decision: r.decision, triage: { needs: r.needs, covered: r.covered, others: r.others, partial: r.partial || [] } };
+    return { ...a, decision: r.decision, triage: { needs: r.needs, covered: r.covered, others: r.others, partial: r.partial || [], ...(r.stale.length ? { stale: r.stale } : {}) } };
   });
   return { advisories: out, summary };
 }

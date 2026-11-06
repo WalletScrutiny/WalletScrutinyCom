@@ -182,6 +182,24 @@ describe('dependencies panel', () => {
     assert.match(host.querySelector('.dp-note').textContent, /2 of 13 advisories settled that way/);
   });
 
+  // Issue 995: a decision made on other versions reopens the row and shows under it.
+  test('a decision judged on other versions reopens the row, labelled with the old call, and counts as to re-check', async () => {
+    const me = 'a'.repeat(64);
+    const judged = { id: 'j1', pubkey: me, created_at: 1, d: 'GHSA-crit|via:npm:alib|app:app.android', vulns: ['GHSA-crit'], package: 'npm:pkg', via: 'npm:alib', app: 'app.android', status: 'not_affected', justification: 'vulnerable_code_not_in_execute_path', versions: null, content: '', release: 'v1.3.0', packageVersion: '0.9.0', viaVersion: '2.0.0' };
+    const app = { ...APP, releases: [{ ...APP.releases[0], advisories: APP.releases[0].advisories.map(a => (
+      a.id === 'GHSA-crit' ? { ...a, direct: false, dependants: ['alib'], dependantVersions: { alib: ['2.0.0'] } } : a)) }] };
+    const { fetchImpl } = fakeFetch({ '/x/apps/app.android.json': app, '/xt995/statements.json': { schema: 1, trusted: [me], statements: [judged] } });
+    const host = document.createElement('div');
+    const model = await renderDependenciesPanel({ host, appId: 'app.android', base: '/x', triageBase: '/xt995', liveEvents: noLive, fetchImpl, profiles: async () => new Map([[me, { name: 'Alice' }]]) });
+    await new Promise(r => setTimeout(r, 0));
+    assert.equal(model.triage.decided, 0);
+    assert.equal(model.triage.stale, 1);
+    assert.equal(host.querySelector('.dp-tile .dp-triage-line').textContent, '0 decided · 13 still to look at (1 to re-check)');
+    const cell = host.querySelector('tbody tr .dp-td-decision');
+    assert.equal(cell.querySelector('.dp-decision').textContent, 'Not assessed');
+    assert.equal(cell.querySelector('.dp-decision__why').textContent, 'previously not affected in v1.3.0 (pkg 0.9.0, now 1.0.0): vulnerable code never executed (not affected, Alice) Edit');
+  });
+
   test('signals paint "exploited in the wild" and EPSS under the severity and reorder within a severity', async () => {
     const signals = { schema: 1, date: '2026-10-16', epss: { 'CVE-A': [0.0052, 0.43], 'CVE-B': [0.3, 0.99] }, kev: { 'CVE-B': { added: '2024-01-01' } }, published: { 'GHSA-test': '2022-04-25' } };
     const app = { ...APP, releases: [{ ...APP.releases[0], advisories: APP.releases[0].advisories.map(a => (
