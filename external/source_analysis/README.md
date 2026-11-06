@@ -496,8 +496,10 @@ every release analysed before, and all of its verified versions with no
 per-pass cap. Each run replaces the stored rows of its release. A run that fails
 on a release that already has an ok result keeps that result and only notes the
 failed attempt and its error beside it (the page says "Re-check failed on
-<date>"); a release with no ok result is recorded as failed. Either way its old
-dependency rows stay in place.
+<date>"); a release with no ok result is recorded as failed. Either way nothing
+of the failed run is stored: a run's dependency, advisory and submodule rows are
+written together with its analysis, and only when every step succeeded, so its
+old rows stay in place.
 
 ```bash
 node index.mjs --githubToken ghp_xxx --app-id com.example.wallet --reanalyse
@@ -747,6 +749,9 @@ enabled plugins run first, inside the analysis container, on the checkout
 be JSON. Then the host steps run in the same order, with the same `results`
 plus `ctx.name`, `ctx.version` and `ctx.db` (set for releases only; import
 `ddbbUtils.mjs` lazily, inside `host()`, as the container cannot load it).
+A host step does not write the database itself: it pushes a function
+`(db) => …` onto `ctx.saves`, and the analysis runs them all in one transaction
+with its `analyses` row, only when no step failed.
 `requires: ['pinning']` declares that a plugin reads another one's result;
 `needsKnownAppType: true` skips it for repositories with no detected ecosystem.
 A step that throws is logged and fails the analysis (an unchanged default
