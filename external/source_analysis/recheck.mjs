@@ -35,23 +35,30 @@ export function entryOfRow(r) {
  * timeouts and retries, so `maxFailuresInARow` stops after that many failed
  * lookups in a row, and no lookup starts after `deadline` (ms since the
  * epoch). Releases not looked up keep their stored advisories, as a failed
- * lookup does; the result then also has stopped: { reason, skipped }.
+ * lookup does; the result then also has stopped: { reason, skipped, next },
+ * next being the first release not looked up. `startAt` (such a next) starts
+ * there and wraps around, so releases behind a stop get their turn in the
+ * following run: 3 releases that always fail would otherwise stop every run
+ * before the ones after them.
  */
-export async function recheckStoredReleases(db, appIds, { since = null, check = checkVulnerabilities, deliver = deliverAlerts, maxFailuresInARow = Infinity, deadline = Infinity, now = Date.now } = {}) {
+export async function recheckStoredReleases(db, appIds, { since = null, check = checkVulnerabilities, deliver = deliverAlerts, maxFailuresInARow = Infinity, deadline = Infinity, now = Date.now, startAt = null } = {}) {
   const versionsOf = db.prepare(`
     SELECT DISTINCT d.version FROM app_dependencies d
     WHERE d.app_id = ? AND NOT EXISTS (
       SELECT 1 FROM analyses a WHERE a.app_id = d.app_id AND a.kind = 'release' AND a.ref = d.version AND ? IS NOT NULL AND a.analysed_at >= ?)
     ORDER BY d.version`);
   const updateCount = db.prepare(`UPDATE analyses SET vulnerabilities = ?, osv_checked = ? WHERE app_id = ? AND kind = 'release' AND ref = ?`);
-  const todo = appIds.flatMap(appId => versionsOf.all(appId, since, since).map(({ version }) => ({ appId, version })));
+  const all = appIds.flatMap(appId => versionsOf.all(appId, since, since).map(({ version }) => ({ appId, version })));
+  // From startAt, or the release after it in this order when it is gone, then around.
+  const from = startAt ? Math.max(0, all.findIndex(r => r.appId > startAt.appId || (r.appId === startAt.appId && r.version >= startAt.version))) : 0;
+  const todo = [...all.slice(from), ...all.slice(0, from)];
   let releases = 0, failed = 0, added = 0, failedInARow = 0, stopped = null;
   const changed = new Set();
   for (const [i, { appId, version }] of todo.entries()) {
     const reason = failedInARow >= maxFailuresInARow ? `${failedInARow} OSV.dev lookups failed in a row`
       : now() >= deadline ? 'the deadline passed' : null;
     if (reason) {
-      stopped = { reason, skipped: todo.length - i };
+      stopped = { reason, skipped: todo.length - i, next: { appId, version } };
       break;
     }
     const entries = getDependencies(db, appId, version).map(entryOfRow);

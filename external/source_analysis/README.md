@@ -350,9 +350,12 @@ A pass waits while a refresh holds the lock (below), so a refresh is kept
 short even when OSV.dev stalls (issue 999). Each release whose lookup fails
 keeps its stored advisories; after 3 failures in a row, or 45 minutes, the
 refresh looks up nothing more, logs `Refresh stopped early: <reason>; <n>
-releases not looked up keep their stored advisories` and exports and uploads
-what it changed until then. `TimeoutStartSec=50min` in the service ends a run
-that still hangs.
+releases not looked up keep their stored advisories; the next run starts at
+<app> <version>` and exports and uploads what it changed until then. The next
+run starts at that release (`export.refresh-next`, next to the export) and
+wraps around, so the releases behind 3 that always fail, or behind the 45
+minutes, still get their turn. A run that looked everything up removes the
+file. `TimeoutStartSec=50min` in the service ends a run that still hangs.
 
 A failed upload is sent again by the next refresh, even when nothing changed
 since. `export.published`, next to the export directory (outside it, so it is
