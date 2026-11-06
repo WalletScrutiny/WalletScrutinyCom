@@ -89,6 +89,16 @@ describe('dependencies panel model', () => {
     assert.deepEqual(m.newerFailed, [{ ref: 'v2.0.0', status: 'failed', error: 'clone failed' }]);
   });
 
+  test('a failed re-check of the shown release is passed on beside the kept result (issue 998)', () => {
+    const rechecked = { releases: [{ ...app.releases[0], recheckFailed: { at: '2026-11-06 08:00:00', error: 'git clone timed out' } }, ...app.releases.slice(1)] };
+    const m = panelModel(rechecked);
+    assert.equal(m.ref, 'v1.4.0');
+    assert.equal(m.status, 'ok');
+    assert.deepEqual(m.recheckFailed, { at: '2026-11-06 08:00:00', error: 'git clone timed out' });
+    assert.deepEqual(m.newerFailed, []);
+    assert.equal(panelModel(app).recheckFailed, null);
+  });
+
   test('worst rows are capped', () => {
     const many = { releases: [{ ref: 'v1', advisories: Array.from({ length: 30 }, (_, i) => advisory(`GHSA-${i}`, 'low')) }] };
     assert.equal(panelModel(many).worst.length, WORST_ROWS);

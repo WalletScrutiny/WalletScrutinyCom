@@ -688,6 +688,10 @@ function headline(model) {
     el('span', {}, 'Checked release ', el('b', {}, model.ref), model.commit ? ` (source tag, commit ${model.commit})` : ' (source tag)'),
   ];
   if (model.analysedAt) bits.push(el('span', {}, 'Checked on ', el('b', {}, dateOf(model.analysedAt))));
+  if (model.recheckFailed) {
+    const f = model.recheckFailed;
+    bits.push(el('span', { className: 'dp-recheck-failed' }, 'Re-check failed on ', el('b', {}, dateOf(f.at))));
+  }
   const line = el('p', { className: 'dp-headline' });
   bits.forEach((b, i) => { if (i) line.append(' · '); line.append(b); });
   return line;
@@ -766,6 +770,10 @@ function notices(model) {
     items.push(el('span', { className: 'dp-malware' }, el('b', {}, 'Possible malware: '),
       malicious.map(a => `${a.package}@${a.version} (${a.id})`).join(', '),
       ` is listed on OSV.dev as malicious. A person is checking whether the lockfile really installs that registry package; until then this is a lead, not a finding. It matters even when only the build uses it: build code can change the app.`));
+  }
+  if (model.recheckFailed) {
+    const f = model.recheckFailed;
+    items.push(`A re-check of ${model.ref} on ${dateOf(f.at)} failed${f.error ? ` (${f.error})` : ''}; what is shown is from the check that worked${model.analysedAt ? `, on ${dateOf(model.analysedAt)}` : ''}.`);
   }
   for (const f of model.selectedVersion ? [] : model.newerFailed) {
     items.push(`The check of ${f.ref} failed${f.error ? ` (${f.error})` : ''}; showing the last release that was checked.`);

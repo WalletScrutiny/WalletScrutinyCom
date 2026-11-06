@@ -493,8 +493,11 @@ A release is analysed once, and the default branch only when it moved, so an
 analyser fix does not reach results stored before it. `--reanalyse` (needs
 `--app-id`) runs that wallet again: the default branch, the newest release and
 every release analysed before, and all of its verified versions with no
-per-pass cap. Each run replaces the stored rows of its release; a run that fails
-records the release as failed and leaves its old dependency rows in place.
+per-pass cap. Each run replaces the stored rows of its release. A run that fails
+on a release that already has an ok result keeps that result and only notes the
+failed attempt and its error beside it (the page says "Re-check failed on
+<date>"); a release with no ok result is recorded as failed. Either way its old
+dependency rows stay in place.
 
 ```bash
 node index.mjs --githubToken ghp_xxx --app-id com.example.wallet --reanalyse
