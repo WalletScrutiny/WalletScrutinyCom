@@ -346,6 +346,15 @@ to exist, and it is skipped while a pass runs, since the pass rechecks and
 exports everything when it ends. So a new advisory reaches the page within
 about an hour, or at the end of a pass that is running then.
 
+A failed upload is sent again by the next refresh, even when nothing changed
+since. `export.published`, next to the export directory (outside it, so it is
+never published), holds the newest file time of the export at the last
+upload that succeeded: the pass's full copy or a refresh's. Each refresh
+sends every export file newer than that along with its own, and only a
+successful upload moves it. Without the file (the first refresh after
+deploying this), the export as it stands counts as published and the file is
+written before anything is sent.
+
 Only one of them writes at a time. A pass (from the timer or by hand), the
 refresh and `node export.mjs` take a lock file next to the database
 (`assets.db.lock`, holding the owner's pid; `runLock.mjs`). The refresh skips
