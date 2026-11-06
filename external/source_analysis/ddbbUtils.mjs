@@ -1,6 +1,7 @@
 import Database from 'better-sqlite3';
 import { existsSync, mkdirSync, copyFileSync, readdirSync, unlinkSync } from 'fs';
-import { DB_PATH, BACKUP_DIR, BACKUPS_TO_KEEP } from './config.mjs';
+import { DB_PATH, BACKUP_DIR, BACKUPS_TO_KEEP, DEFAULT_BRANCH_REF } from './config.mjs';
+export { DEFAULT_BRANCH_REF };
 import { join, dirname } from 'path';
 
 // Backup database before processing. Keeps the newest `keep` copies.
@@ -298,6 +299,9 @@ export function initDatabase(dbPath = DB_PATH) {
       analysed_at DATETIME DEFAULT CURRENT_TIMESTAMP
     );
   `);
+  // 1 once that analysis also stored its dependency and advisory rows (under
+  // DEFAULT_BRANCH_REF); commits recorded before it did are analysed again.
+  ensureColumn(db, 'default_branch_analyses', 'rows_stored', 'INTEGER');
 
   // One row per analysis the service ran: what was looked at (commit, ref,
   // kind), by which analyser, with which outcome, and what it saw (ecosystem,
@@ -351,7 +355,7 @@ export function initDatabase(dbPath = DB_PATH) {
     SELECT d.app_id, 'release', d.version, 'ok', 'before-analyses-table', COUNT(*),
            (SELECT COUNT(*) FROM app_vulnerabilities v WHERE v.app_id = d.app_id AND v.version = d.version),
            MIN(d.created_at)
-    FROM app_dependencies d GROUP BY d.app_id, d.version;
+    FROM app_dependencies d WHERE d.version != '${DEFAULT_BRANCH_REF}' GROUP BY d.app_id, d.version;
   `);
 
   // Wallets marked for a rerun (reanalyse-cli.mjs): the next pass analyses
@@ -408,14 +412,21 @@ function decodeAnalysis(row) {
   };
 }
 
+// The default branch's commit whose rows are stored under DEFAULT_BRANCH_REF,
+// or null: never analysed, or analysed before those rows were kept.
 export function getAnalysedCommit(db, appId) {
-  const row = db.prepare('SELECT commit_sha FROM default_branch_analyses WHERE app_id = ?').get(appId);
-  return row ? row.commit_sha : null;
+  return getDefaultBranch(db, appId)?.commit ?? null;
+}
+
+// { commit, analysedAt } of the default branch analysis whose rows are stored, or null.
+export function getDefaultBranch(db, appId) {
+  const row = db.prepare('SELECT commit_sha, analysed_at FROM default_branch_analyses WHERE app_id = ? AND rows_stored = 1').get(appId);
+  return row ? { commit: row.commit_sha, analysedAt: row.analysed_at } : null;
 }
 
 export function saveAnalysedCommit(db, appId, commitSha) {
-  db.prepare(`INSERT INTO default_branch_analyses (app_id, commit_sha) VALUES (?, ?)
-    ON CONFLICT(app_id) DO UPDATE SET commit_sha = excluded.commit_sha, analysed_at = CURRENT_TIMESTAMP`).run(appId, commitSha);
+  db.prepare(`INSERT INTO default_branch_analyses (app_id, commit_sha, rows_stored) VALUES (?, ?, 1)
+    ON CONFLICT(app_id) DO UPDATE SET commit_sha = excluded.commit_sha, rows_stored = 1, analysed_at = CURRENT_TIMESTAMP`).run(appId, commitSha);
 }
 
 // Replace the cached app list with the given entries ({appId, platform, repository, gone}).

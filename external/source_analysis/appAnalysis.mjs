@@ -10,7 +10,7 @@ import path from 'path';
 import { execSync, execFile } from 'child_process';
 import { promisify } from 'util';
 import { fileURLToPath } from 'url';
-import { DEFAULT_TEMP_DIR, APP_TYPES } from './config.mjs';
+import { DEFAULT_TEMP_DIR, APP_TYPES, DEFAULT_BRANCH_REF } from './config.mjs';
 import { ensureImage, runInContainer } from './containerRunner.mjs';
 import { loadPlugins, runPlugins } from './plugins.mjs';
 // ddbbUtils (better-sqlite3, a native module) is imported lazily, by the
@@ -203,8 +203,10 @@ export async function runSourceCodeAnalysis({ name, repoUrl, version = null, inc
       await record({ status: 'failed', error: String(result.error || 'container failed'), commit: result.commit || null, appType: result.appType || null });
       return null;
     }
+    // The default branch stores its rows under DEFAULT_BRANCH_REF, so a
+    // release's advisories can say whether they are already fixed there.
     const ctx = {
-      name, version, db, repoUrl, commit: result.commit || null, repoPath: path.join(workDir, 'repo'), appType: result.appType,
+      name, version: version || DEFAULT_BRANCH_REF, db, repoUrl, commit: result.commit || null, repoPath: path.join(workDir, 'repo'), appType: result.appType,
       options: { includeTestFiles }, results: result.results || {}, failed: result.failed || [],
     };
     await runPlugins(plugins, 'host', ctx);

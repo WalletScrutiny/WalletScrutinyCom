@@ -985,6 +985,14 @@ a.dp-signer {
   margin-top: 2px;
 }
 
+.dp-master {
+  font-size: $font-xxs;
+  color: var(--success, #1e8449);
+  font-weight: 600;
+  white-space: nowrap;
+  margin-top: 2px;
+}
+
 .dp-inapk--present {
   color: var(--neutral-1);
   font-weight: 600;

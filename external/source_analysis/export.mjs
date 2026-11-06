@@ -26,7 +26,7 @@ import { fileURLToPath } from 'url';
 import { groupByRepository } from './appList.mjs';
 import { hintsByApp } from './upstreamTriage.mjs';
 import { coverageForReaders, coverageByPlatform } from './plugins/lock-coverage.mjs';
-import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getEndOfLife, getSubmodules, getRebuildClaims } from './ddbbUtils.mjs';
+import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getEndOfLife, getSubmodules, getRebuildClaims, getDefaultBranch, DEFAULT_BRANCH_REF } from './ddbbUtils.mjs';
 import { COUNTED_TARGETS, partOfFile, productPartOf, sortingOf, targetOfLockfile, targetsOfLockfiles, unlistedFiles, useRepositories } from './products.mjs';
 
 export const SCHEMA = 1;
@@ -190,7 +190,7 @@ function analysisEntry(a) {
 function releasesWithoutAnalysis(db, appId, analyses) {
   const known = new Set(analyses.filter(a => a.kind === 'release').map(a => a.ref));
   return db.prepare('SELECT DISTINCT version FROM app_dependencies WHERE app_id = ? ORDER BY created_at DESC').all(appId)
-    .map(r => r.version).filter(v => !known.has(v));
+    .map(r => r.version).filter(v => !known.has(v) && v !== DEFAULT_BRANCH_REF);
 }
 
 // Newest first by version number (v1.10.0 > v1.9.0; 1.2.0 > 1.2.0-rc1). Refs
@@ -226,6 +226,7 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
   for (const v of releasesWithoutAnalysis(db, appId, analyses)) {
     releases.push({ ref: v, commit: null, analysedAt: null, status: 'ok', ...summarizeRelease(db, appId, v) });
   }
+  const inDefaultBranch = defaultBranchCheck(db, appId);
   // Newest version first. Analysis time says nothing about it: releases added
   // later (backfill) are analysed last but are older. Equal versions keep their order.
   releases.sort(compareReleasesNewestFirst);
@@ -271,6 +272,7 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
       repo: sources.get(`${v.ecosystem}:${v.name}`)?.repo_url || undefined,
       products: counts.byName.get(`${v.ecosystem}:${v.name}`) || 1,
       productsSameVersion: counts.byVersion.get(`${v.ecosystem}:${v.name}@${v.dep_version}`) || 1,
+      inDefaultBranch: inDefaultBranch?.(v),
     }));
     if (previous) {
       const d = diffDependencies(db, appId, previous.ref, r.ref);
@@ -278,7 +280,41 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
         integrityChangedAtSameVersion: d.changed.filter(c => c.integrityChangedAtSameVersion.length).map(c => `${c.ecosystem}:${c.name}`) };
     }
   }
-  return { schema: SCHEMA, appId, aliases, releases };
+  const defaultBranch = inDefaultBranch ? getDefaultBranch(db, appId) : null;
+  return { schema: SCHEMA, appId, aliases, ...(defaultBranch ? { defaultBranch } : {}), releases };
+}
+
+// Whether a release's advisory is gone on the default branch's latest
+// analysis: { status: 'removed' } when no file read there lists the package,
+// { status: 'updated', versions } when it is there only at versions the
+// advisory does not match (its ids and aliases are not among the branch's own
+// advisories for the package), undefined while it still matches or nothing is
+// known. Null when the branch has no stored rows to compare with. The
+// branch's advisories are looked up again with the releases' (recheck.mjs),
+// so an advisory published after its analysis does not read as fixed.
+export function defaultBranchCheck(db, appId) {
+  if (!getDefaultBranch(db, appId)) return null;
+  const deps = getDependencies(db, appId, DEFAULT_BRANCH_REF);
+  if (!deps.length) return null;
+  const versions = new Map();
+  for (const d of deps) {
+    const key = `${d.ecosystem}:${d.name}`;
+    if (!versions.has(key)) versions.set(key, new Set());
+    versions.get(key).add(d.dep_version);
+  }
+  const ids = new Map();
+  for (const v of getVulnerabilities(db, appId, DEFAULT_BRANCH_REF)) {
+    const key = `${v.ecosystem}:${v.name}`;
+    if (!ids.has(key)) ids.set(key, new Set());
+    for (const id of [v.vuln_id, ...(v.aliases ? v.aliases.split(' ') : [])]) ids.get(key).add(id);
+  }
+  return (v) => {
+    const key = `${v.ecosystem}:${v.name}`;
+    if (!versions.has(key)) return { status: 'removed' };
+    const listed = ids.get(key);
+    if (listed && [v.vuln_id, ...(v.aliases ? v.aliases.split(' ') : [])].some(id => listed.has(id))) return undefined;
+    return { status: 'updated', versions: [...versions.get(key)].sort() };
+  };
 }
 
 // The versions of an advisory row's direct users in the lockfiles the
@@ -321,13 +357,15 @@ export function productCounts(db) {
   const rows = db.prepare(`
     SELECT p.ecosystem, p.name, p.version, COUNT(DISTINCT d.app_id) AS products
     FROM app_dependencies d JOIN packages p ON p.id = d.package_id
+    WHERE d.version != ?
     GROUP BY p.ecosystem, p.name, p.version
-  `).all();
+  `).all(DEFAULT_BRANCH_REF);
   const apps = db.prepare(`
     SELECT p.ecosystem, p.name, COUNT(DISTINCT d.app_id) AS products
     FROM app_dependencies d JOIN packages p ON p.id = d.package_id
+    WHERE d.version != ?
     GROUP BY p.ecosystem, p.name
-  `).all();
+  `).all(DEFAULT_BRANCH_REF);
   for (const r of apps) byName.set(`${r.ecosystem}:${r.name}`, r.products);
   for (const r of rows) byVersion.set(`${r.ecosystem}:${r.name}@${r.version}`, r.products);
   return { byName, byVersion };

@@ -292,6 +292,20 @@ describe('dependencies panel', () => {
     assert.equal(rows[0].querySelector('.dp-td-products').textContent, '7 · 2 this version');
   });
 
+  test('an advisory gone on the default branch says "Already fixed in master" under its version', () => {
+    const app = { ...APP, defaultBranch: { commit: 'abcdef1234567890', analysedAt: '2026-11-06 10:00:00' }, releases: [{ ...APP.releases[0], advisories: [
+      advisory('GHSA-1', 'high', { package: 'gone', inDefaultBranch: { status: 'removed' } }),
+      advisory('GHSA-2', 'high', { package: 'bumped', inDefaultBranch: { status: 'updated', versions: ['1.2.0'] } }),
+      advisory('GHSA-3', 'high', { package: 'still' }),
+    ] }] };
+    const rows = [...panelElement(panelModel(app), { appId: 'app.android', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl: async () => null }).querySelectorAll('tbody tr')];
+    const line = (pkg) => rows.find(r => r.dataset.package === pkg).querySelector('.dp-td-version .dp-master');
+    assert.equal(line('gone').textContent, 'Already fixed in master');
+    assert.match(line('gone').title, /abcdef1, checked 2026-11-06.*not in any file read there/);
+    assert.match(line('bumped').title, /only at 1\.2\.0/);
+    assert.equal(line('still'), null);
+  });
+
   test('a malicious package is a lead being checked, called out above everything else', () => {
     const app = { ...APP, releases: [{ ...APP.releases[0], vulnerabilities: { ...APP.releases[0].vulnerabilities, bySeverity: { ...APP.releases[0].vulnerabilities.bySeverity, malicious: 1 } },
       advisories: [advisory('MAL-2025-1', 'malicious', { package: 'evil', version: '6.6.6' }), ...APP.releases[0].advisories] }] };

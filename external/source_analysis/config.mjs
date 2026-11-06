@@ -37,6 +37,11 @@ export const DOCKER_HUB_API_BASE = 'https://hub.docker.com/v2';
 // Dev runs keep everything inside this folder; the systemd unit points the
 // service at its StateDirectory / CacheDirectory through these variables
 // (config/walletscrutiny-source-analysis.service).
+// The version key the default branch's latest analysis stores its dependency
+// and advisory rows under, next to the releases' tags: one set per app, each
+// analysis replacing the last. A git ref cannot contain ':', so no tag clashes.
+// Readers of those tables that mean releases leave it out.
+export const DEFAULT_BRANCH_REF = ':default-branch';
 export const DB_PATH = process.env.SOURCE_ANALYSIS_DB_PATH || join(__dirname, 'assets.db');
 export const BACKUP_DIR = join(dirname(DB_PATH), 'backup');
 // Dependency ladder per pass (index.mjs): new package versions looked up for

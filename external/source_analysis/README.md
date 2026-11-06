@@ -260,6 +260,15 @@ empty database therefore analyses every repository and takes hours; later
 passes analyse new releases and the default branches that moved. If a pass is
 still running when the timer fires again, that firing is skipped.
 
+The default branch's latest analysis keeps its dependency and advisory rows
+under the version key `:default-branch` (a git ref cannot contain `:`), each
+run replacing the last; the hourly re-check looks them up with the releases'.
+The export marks each release advisory the branch no longer has
+(`inDefaultBranch`: `removed`, or `updated` with the versions there), and the
+wallet page shows "Already fixed in master" under the row's version. A branch
+analysed before those rows were kept is analysed again on the next pass, moved
+or not. Readers that mean releases leave that key out.
+
 Every analysis the service runs leaves a row in the `analyses` table: app, kind
 (release or default branch), ref, commit, analyser version, status (`ok`,
 `failed`, `unsupported`), the plugins that ran, the lockfiles the pinning step

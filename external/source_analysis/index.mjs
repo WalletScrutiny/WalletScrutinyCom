@@ -68,9 +68,10 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
         redone.push(mostRecentAsset.version);
       } else {
         // No new release: analyse the default branch, unless it has not moved
-        // since the last successful analysis. A remote that cannot be reached
-        // (an .onion address, a gone host) cannot be cloned either: recorded
-        // as a failed analysis, and nothing more is tried this pass.
+        // since the last successful analysis that stored its rows. A remote
+        // that cannot be reached (an .onion address, a gone host) cannot be
+        // cloned either: recorded as a failed analysis, and nothing more is
+        // tried this pass.
         // A reachable remote without a readable HEAD analyses.
         let head = null;
         try {

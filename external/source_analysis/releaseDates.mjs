@@ -8,6 +8,7 @@
  * asked again next pass. The export reads both (export.mjs, releasedAt) for
  * the /news/ page's release-age filter.
  */
+import { DEFAULT_BRANCH_REF } from './config.mjs';
 
 const TIMEOUT_MS = 30_000;
 const CONCURRENCY = 6;
@@ -23,10 +24,10 @@ export function forgeOf(repoUrl) {
 export function undatedReleases(db) {
   return db.prepare(`
     SELECT r.app_id AS appId, r.ref AS ref, (SELECT repository FROM apps a WHERE a.app_id = r.app_id ORDER BY platform LIMIT 1) AS repository
-    FROM (SELECT app_id, ref FROM analyses WHERE kind = 'release' UNION SELECT app_id, version FROM app_dependencies) r
+    FROM (SELECT app_id, ref FROM analyses WHERE kind = 'release' UNION SELECT app_id, version FROM app_dependencies WHERE version != ?) r
     WHERE NOT EXISTS (SELECT 1 FROM assets s WHERE s.app_id = r.app_id AND s.version = r.ref AND s.published_at IS NOT NULL)
       AND NOT EXISTS (SELECT 1 FROM release_dates d WHERE d.app_id = r.app_id AND d.ref = r.ref)
-    ORDER BY r.app_id, r.ref`).all();
+    ORDER BY r.app_id, r.ref`).all(DEFAULT_BRANCH_REF);
 }
 
 // "2026-10-08" for the commit `ref` names, null when the forge does not know

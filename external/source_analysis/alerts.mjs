@@ -19,6 +19,8 @@
 // Nothing here changes a verdict; the alert asks a person to confirm the
 // finding (the registry package, not a workspace or an alias) and act.
 
+import { DEFAULT_BRANCH_REF } from './config.mjs';
+
 export const DEFAULT_ALERT_RELAYS = ['wss://relay.nostr.info/', 'wss://relay.damus.io/', 'wss://nos.lol/'];
 
 // Who is told by default: the same identities that settle dependency triage
@@ -51,7 +53,7 @@ export function ensureAlertsTable(db) {
 export function alertText(a) {
   const d = typeof a.details === 'string' ? JSON.parse(a.details || '{}') : (a.details || {});
   const lines = [
-    `WalletScrutiny dependency check: possible malware in ${a.app_id} ${a.version}`,
+    `WalletScrutiny dependency check: possible malware in ${a.app_id} ${a.version === DEFAULT_BRANCH_REF ? 'on its default branch' : a.version}`,
     `${a.subject} is listed as malicious: ${a.advisory} (https://osv.dev/vulnerability/${a.advisory})`,
   ];
   if (d.summary) lines.push(d.summary);

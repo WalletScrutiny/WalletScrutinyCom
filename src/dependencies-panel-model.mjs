@@ -355,6 +355,8 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
     submodules: current.submodules || null,
     // who rebuilt this release's dependencies from source (issue 992 part G; export.mjs releaseRebuilds)
     rebuilds: current.rebuilds || null,
+    // the default branch's latest analysis, that each advisory's inDefaultBranch compares with (export.mjs)
+    defaultBranch: app.defaultBranch || null,
     // how much of the build the lockfiles we read cover (external/source_analysis/plugins/lock-coverage.mjs)
     // this page's app only, when the repository also builds another (iPhone files stay off the Android page)
     lockCoverage: current.lockCoverageByPlatform?.[platform] || current.lockCoverage || null,

@@ -375,18 +375,30 @@ export function severityTally(model, rows = model.advisories || [], { explain = 
 
 // The ecosystem only appears when the release mixes several (npm next to
 // gradle next to pip); a wallet with one ecosystem would repeat it on every row.
-function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = null } = {}) {
+function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = null, defaultBranch = null } = {}) {
   const where = whereOf(a);
   const fresh = Boolean(freshId) && statementsOf(a).some(s => s.id === freshId);
   return el('tr', { className: fresh ? 'dp-row--fresh' : null, dataset: { advisory: a.id, package: a.package } },
     el('td', { className: 'dp-td-package', dataset: { label: 'Package' } }, ...breakableName(a.package), mixedEcosystems && a.ecosystem ? el('span', { className: 'dp-eco' }, a.ecosystem) : null, repoLine(a), viaLine(a)),
-    el('td', { className: 'dp-td-version', dataset: { label: 'Version' } }, a.version),
+    el('td', { className: 'dp-td-version', dataset: { label: 'Version' } }, a.version, fixedInMasterLine(a, defaultBranch)),
     el('td', { className: 'dp-td-advisory', dataset: { label: 'Advisory' } }, el('a', { href: `${OSV_URL}${encodeURIComponent(a.id)}`, target: '_blank', rel: 'noopener noreferrer', title: a.summary || '' }, a.id)),
     el('td', { className: 'dp-td-severity', dataset: { label: 'Severity' } }, severityCell(a)),
     el('td', { className: 'dp-td-where', dataset: { label: 'Where?' } }, el('span', { className: `dp-where dp-where--${where}` }, whereLabel(a)), inApkLine(a)),
     el('td', { className: 'dp-td-products', dataset: { label: 'Used by' } }, usedBy(a)),
     el('td', { className: 'dp-td-decision', dataset: { label: 'Decision' } }, decisionCell(a, { onJudge, freshId })),
   );
+}
+
+// Under the version: the advisory no longer matches the default branch's
+// latest analysis, because the package is gone there or only at other versions.
+export function fixedInMasterLine(a, defaultBranch = null) {
+  const x = a.inDefaultBranch;
+  if (!x || !['removed', 'updated'].includes(x.status)) return null;
+  const at = defaultBranch?.commit ? ` at ${defaultBranch.commit.slice(0, 7)}${defaultBranch.analysedAt ? `, checked ${String(defaultBranch.analysedAt).slice(0, 10)}` : ''}` : '';
+  const how = x.status === 'removed'
+    ? `the package is not in any file read there`
+    : `the package is there only at ${x.versions?.length ? x.versions.join(', ') : 'other versions'}, which this advisory does not list`;
+  return el('div', { className: 'dp-master', title: `Already fixed in master (the default branch${at}): ${how}. Not in a release yet, unless a newer version here shows it gone.` }, 'Already fixed in master');
 }
 
 // Under "Where?": what the released APK says about the package, when it was checked.
@@ -663,7 +675,7 @@ function advisoryTable(model, { onJudge = null, freshId = null, showAll = false 
   if (!model.advisories.length) return null;
   const shown = showAll ? model.advisories : model.worst;
   const rest = model.advisories.slice(shown.length);
-  const rowOptions = { mixedEcosystems: model.ecosystems.length > 1, onJudge, freshId };
+  const rowOptions = { mixedEcosystems: model.ecosystems.length > 1, onJudge, freshId, defaultBranch: model.defaultBranch };
   const body = el('tbody', {}, shown.map(a => advisoryRow(a, rowOptions)));
   const table = el('table', { className: 'dp-table' },
     el('thead', {}, el('tr', {},
