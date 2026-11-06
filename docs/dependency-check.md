@@ -114,7 +114,10 @@ version from the same author:
 | `app` | the wallet the statement is made for, and settles rows in; absent only on a maintainer's statement for every wallet |
 | `status` | `affected`, `not_affected`, `fixed`, `under_investigation` (the VEX states) |
 | `justification` | optional, an OpenVEX label such as `vulnerable_code_not_in_execute_path` |
-| `versions` | optional, the versions of the direct user the statement holds for |
+| `versions` | optional, the versions of the direct user the statement holds for (free text, not checked) |
+| `release` | the wallet release the statement was written on, filled in by the dialog; only with `app` |
+| `package-version` | the vulnerable package's versions in that release under this advisory (comma-separated: bn.js 4 and 5), filled in by the dialog |
+| `via-version` | the direct user's versions there, comma-separated, with `via` only |
 | `evidence` | optional, an http(s) link to the issue, pull request or code line the statement rests on |
 | content | the reasoning in prose |
 
@@ -127,6 +130,24 @@ and only an `app` or package-wide statement answers for it); all present
 means settled with the gravest status among them, one missing means still
 open, shown as "Not assessed" and "1 of 2 direct users assessed". Rows whose
 files record no graph need a package-wide or `app` statement.
+
+Versions, issue 995 (proposal of 2026-11-04, go-ahead 2026-11-06): a
+statement counts only where the versions it was judged on are still there.
+On a row whose `package-version` or `via-version` differs, it settles
+nothing: the row is open again, stays in the "still to look at" count
+("1 to re-check"), and shows the old call as "previously not affected in
+v3.35.0 (bn.js 5.2.2, now 5.2.1)" with its Edit button, so re-checking
+starts from it. A routine release that leaves both versions alone keeps the
+decision. This holds for every status, `affected` and `fixed` included. A
+row that another statement settles still lists the reopened one. A
+version that either the statement or the row does not record is not
+compared: the export names the direct users' versions per row
+(`dependantVersions`) only from this change on, so older exports compare the
+package's version alone. A wallet statement written before the tags counts
+as made on the release that was current at the time (the newest one
+published, or for an undated release analysed, on or before its day), on the versions of every row of that
+release it concerns (a release can ship bn.js 4 and 5). A library-wide
+statement without the tags still holds for every version.
 
 Who signed decides the weight, not whether a statement is kept:
 `_data/dependencyTriage.yml` lists the authors whose statements settle rows

@@ -57,6 +57,25 @@ test('buildApp: releases newest first with summary, advisories and diff, nothing
   assert.deepEqual(Object.keys(written.advisories[0]), ['id', 'severity', 'aliases', 'summary', 'ecosystem', 'package', 'version', 'fixed', 'direct', 'scope', 'dependants', 'products', 'productsSameVersion']);
 });
 
+// Issue 995: a statement records its direct user's version, so the row says it.
+test('buildApp: an advisory row names its direct users\' versions, from the lockfiles the package is in', () => {
+  const db = seeded();
+  saveDependencies(db, 'app.android', 'v1.2.0', [
+    { ecosystem: 'npm', entries: [entry('blib', '1.0.0', { direct: false, dependants: ['alib'] }), entry('alib', '2.0.0'), entry('clib', '1.0.0', { dependants: [] })] },
+    { ecosystem: 'npm', entries: [entry('alib', '3.0.0', { lockfile: 'desktop/package-lock.json' })] },
+  ]);
+  saveVulnerabilities(db, 'app.android', 'v1.2.0', { findings: [
+    { ecosystem: 'npm', name: 'blib', version: '1.0.0', id: 'GHSA-bbbb', aliases: [], severity: 'low', summary: 'x', fixed: [], direct: false, dev: false, dependants: ['alib'] },
+    { ecosystem: 'npm', name: 'clib', version: '1.0.0', id: 'GHSA-cccc', aliases: [], severity: 'low', summary: 'x', fixed: [], direct: true, dev: false },
+  ] });
+  recordAnalysis(db, { appId: 'app.android', kind: 'release', ref: 'v1.2.0', commit: 'c3', status: 'ok', appType: 'npm', analyser: 't', plugins: ['pinning', 'osv'], lockfiles: ['package-lock.json'], dependencies: 4, osvChecked: 4, osvSkipped: {}, vulnerabilities: 2 });
+  const latest = buildApp(db, 'app.android', [{ appId: 'app.android' }]).releases[0];
+  assert.equal(latest.ref, 'v1.2.0');
+  const byId = Object.fromEntries(latest.advisories.map(a => [a.id, a]));
+  assert.deepEqual(byId['GHSA-bbbb'].dependantVersions, { alib: ['2.0.0'] }, 'not the desktop lockfile\'s alib');
+  assert.equal(byId['GHSA-cccc'].dependantVersions, undefined, 'no direct users, no key');
+});
+
 test('a release stored before the analyses table existed is exported without provenance', () => {
   const db = seeded();
   db.prepare("DELETE FROM analyses WHERE ref = 'v1.0.0'").run();

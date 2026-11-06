@@ -14,7 +14,7 @@
 import { waitNostr } from 'nip07-awaiter';
 import { el } from './html-utils.mjs';
 import {
-  dependencyTriageKind, triageTemplate, statementFromEvent, statementChoices, statementScope, triageSubject, evidenceUrl,
+  dependencyTriageKind, triageTemplate, statementFromEvent, statementChoices, statementScope, triageSubject, evidenceUrl, viaVersionsOf,
   TRIAGE_STATUSES, TRIAGE_LABEL, TRIAGE_JUSTIFICATIONS, JUSTIFICATION_LABEL,
 } from './dependency-triage.mjs';
 import { connectNostr, ensureConnected, getUserPubkeyFromSigner, publishEvent, signEvent, nip19 } from './nostr-client.mjs';
@@ -80,6 +80,26 @@ export function statementFields(advisory, { choice, everywhere = false, status, 
   };
 }
 
+/**
+ * What a statement written on this row was judged on (issue 995), as
+ * template fields: `release` the release the row is shown for (only on a
+ * statement for this wallet, `app`), the package's versions, and the direct
+ * user's when the statement names one (`via`). `rows` are the release's
+ * rows of the same advisory: one statement answers for every version of the
+ * package the release ships (bn.js 4 and 5), as its subject has no version
+ * in it. Fields the rows do not know are left out.
+ */
+export function judgedOn(advisory, { via = null, app = null, release = null, rows = [] } = {}) {
+  const same = [advisory, ...rows.filter(r => r !== advisory && r.id === advisory.id && r.ecosystem === advisory.ecosystem && r.package === advisory.package)];
+  const out = {};
+  if (release && app) out.release = release;
+  const packageVersions = [...new Set(same.map(r => r.version).filter(Boolean))].sort();
+  if (packageVersions.length) out.packageVersion = packageVersions.join(',');
+  const viaVersions = via ? [...new Set(same.flatMap(r => viaVersionsOf(r, via)))].sort() : [];
+  if (viaVersions.length) out.viaVersion = viaVersions.join(',');
+  return out;
+}
+
 // The signer's current statement on a subject, if the wallet's file has one.
 export function ownStatement(triage, pubkey, d) {
   if (!pubkey || !triage?.statements) return null;
@@ -137,7 +157,7 @@ export function deletionTemplate(statement, { created_at = Math.floor(Date.now()
   };
 }
 
-export function openTriageDialog({ advisory, appId, triage = null, trusted = [], maintainers = {}, nostr = browserNostr(), onPublished = () => {}, onDeleted = () => {}, edit = null }) {
+export function openTriageDialog({ advisory, appId, release = null, rows = [], triage = null, trusted = [], maintainers = {}, nostr = browserNostr(), onPublished = () => {}, onDeleted = () => {}, edit = null }) {
   // Opened from a statement, possibly one made for another wallet: land on
   // the same direct user in this wallet.
   const editKey = edit ? (edit.via ? `via:${edit.via}` : edit.app ? `app:${appId}` : 'package') : null;
@@ -314,15 +334,17 @@ export function openTriageDialog({ advisory, appId, triage = null, trusted = [],
     showError(null);
     let template;
     try {
-      template = triageTemplate(statementFields(advisory, {
-        choice: choiceOf(value('subject')),
+      const choice = choiceOf(value('subject'));
+      const fields = statementFields(advisory, {
+        choice,
         everywhere: everywhere(),
         status: value('status'),
         justification: selectValue(justification),
         versions: versions.value,
         evidence: evidence.value,
         content: content.value,
-      }));
+      });
+      template = triageTemplate({ ...fields, ...judgedOn(advisory, { via: fields.via, app: fields.app, release, rows }) });
     } catch (e) {
       showError(e.message);
       return;

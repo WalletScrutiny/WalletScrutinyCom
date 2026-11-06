@@ -7,7 +7,7 @@ import { finalizeEvent, generateSecretKey, getPublicKey, nip19 } from 'nostr-too
 
 import {
   triageTemplate, triageSubject, statementFromEvent, newestStatements, resolveRow, applyTriage, statementScope,
-  dependencyTriageKind, TRIAGE_STATUSES,
+  dependencyTriageKind, TRIAGE_STATUSES, statementBasis, versionChanges,
 } from '../../src/dependency-triage.mjs';
 import { mergeLiveTriage, triageForApp } from '../../src/dependency-triage.mjs';
 import { buildTriage, acceptEvents, acceptDeletions, trustedAuthors, listedMaintainers } from '../../scripts/build-dependency-triage.mjs';
@@ -239,5 +239,82 @@ describe('dependency triage statements', () => {
       assert.equal(acceptEvents(events.filter(e => e.kind !== 5)).rejected, 0, 'every committed event is a signed, well-formed statement');
       assert.equal(acceptDeletions(deletions).length, deletions.length, 'or a signed deletion request');
     }
+  });
+});
+
+// Issue 995: a statement holds where the versions it was judged on still are.
+describe('dependency triage statements: the versions they were judged on', () => {
+  const trusted = new Set([pk]);
+  const appIds = ['it.airgap.vault'];
+  // bn.js under @ethereumjs/util, as AirGap ships it; a release with a direct user at another version
+  const bn = (version, util = '9.1.0') => ({ id: 'GHSA-378v-28hj-76wf', aliases: [], ecosystem: 'npm', package: 'bn.js', version, severity: 'moderate', direct: false, dependants: ['@ethereumjs/util'], dependantVersions: { '@ethereumjs/util': [util] } });
+  const judged = (extra = {}, created_at = 1_700_000_000) => stmt({ vulns: ['GHSA-378v-28hj-76wf'], pkg: 'npm:bn.js', via: 'npm:@ethereumjs/util', app: 'it.airgap.vault', status: 'not_affected', justification: 'vulnerable_code_not_in_execute_path', release: 'v3.35.0', packageVersion: '5.2.2', viaVersion: '9.1.0', ...extra }, sk, created_at);
+
+  test('the version tags round-trip, and the same versions in a later release keep the decision', () => {
+    const s = judged();
+    assert.deepEqual([s.release, s.packageVersion, s.viaVersion], ['v3.35.0', '5.2.2', '9.1.0']);
+    const e = signed({ vulns: ['GHSA-1'], pkg: 'npm:blib', app: 'w', status: 'fixed', packageVersion: '1.0.0', viaVersion: '2.0.0' });
+    assert.equal(e.tags.some(t => t[0] === 'via-version'), false, 'no direct user, no direct user\'s version');
+    const r = resolveRow(bn('5.2.2'), [s], { appIds, trusted });
+    assert.equal(r.decision?.status, 'not_affected');
+    assert.deepEqual(r.stale, []);
+  });
+
+  test('a bumped vulnerable package reopens the row, labelled with the old decision, and it counts as still to look at', () => {
+    const s = judged();
+    const r = resolveRow(bn('5.2.1'), [s], { appIds, trusted });
+    assert.equal(r.decision, null);
+    assert.deepEqual(r.stale.map(x => [x.release, x.changes]), [['v3.35.0', [{ what: 'bn.js', was: '5.2.2', now: '5.2.1' }]]]);
+    const { summary } = applyTriage([bn('5.2.1'), bn('5.2.2')], { trusted: [pk], statements: [s] }, { appIds });
+    assert.deepEqual([summary.decided, summary.undecided, summary.stale], [1, 1, 1]);
+    const affected = judged({ status: 'affected', justification: null });
+    assert.equal(resolveRow(bn('5.2.1'), [affected], { appIds, trusted }).decision, null, '"affected" is tied to its versions too');
+  });
+
+  test('a bumped direct user reopens the row; a row that does not say its direct user\'s version is not compared on it', () => {
+    const s = judged();
+    const r = resolveRow(bn('5.2.2', '10.0.0'), [s], { appIds, trusted });
+    assert.equal(r.decision, null);
+    assert.deepEqual(r.stale[0].changes, [{ what: '@ethereumjs/util', was: '9.1.0', now: '10.0.0' }]);
+    const { dependantVersions, ...older } = bn('5.2.2');
+    assert.equal(resolveRow(older, [s], { appIds, trusted }).decision?.status, 'not_affected', 'an export before dependantVersions');
+  });
+
+  test('a statement without versions counts as made on the release current then, on every version that release has', () => {
+    const day = (iso) => Math.floor(Date.parse(iso) / 1000);
+    const legacy = stmt({ vulns: ['GHSA-378v-28hj-76wf'], pkg: 'npm:bn.js', via: 'npm:@ethereumjs/util', app: 'it.airgap.vault', status: 'not_affected' }, sk, day('2026-10-16T10:00:00Z'));
+    const releases = [
+      { ref: 'v3.36.0', releasedAt: '2026-11-01', advisories: [bn('5.2.3')] },
+      { ref: 'v3.35.0', releasedAt: '2026-09-28', advisories: [bn('4.12.0', '7.0.0'), bn('5.2.2')] },
+      { ref: 'v3.34.0', releasedAt: '2025-08-28', advisories: [bn('5.2.1')] },
+    ];
+    assert.deepEqual(statementBasis(legacy, releases), { release: 'v3.35.0', packageVersions: ['4.12.0', '5.2.2'], viaVersions: ['7.0.0', '9.1.0'], legacy: true });
+    assert.equal(resolveRow(bn('5.2.2'), [legacy], { appIds, trusted, releases }).decision?.status, 'not_affected', 'the release it was made on');
+    assert.equal(resolveRow(bn('4.12.0', '7.0.0'), [legacy], { appIds, trusted, releases }).decision?.status, 'not_affected', 'both bn.js rows of that release');
+    const older = resolveRow(bn('5.2.1'), [legacy], { appIds, trusted, releases });
+    assert.equal(older.decision, null);
+    assert.deepEqual(older.stale.map(x => [x.release, x.changes]), [['v3.35.0', [{ what: 'bn.js', was: '4.12.0, 5.2.2', now: '5.2.1' }]]]);
+    assert.equal(resolveRow(bn('5.2.3'), [legacy], { appIds, trusted, releases }).decision, null, 'a newer release that bumped it');
+    assert.deepEqual(resolveRow(bn('5.2.1'), [legacy], { appIds, trusted }).decision?.status, 'not_affected', 'without the releases there is nothing to place it in');
+    const wide = stmt({ vulns: ['GHSA-378v-28hj-76wf'], pkg: 'npm:bn.js', via: 'npm:@ethereumjs/util', status: 'not_affected' }, sk, day('2026-10-16T10:00:00Z'));
+    assert.equal(statementBasis(wide, releases), null, 'a library-wide statement without versions is not placed in any wallet\'s release');
+    assert.deepEqual(versionChanges(legacy, bn('5.2.2'), releases), []);
+    const undated = [{ ref: 'v3.36.0', analysedAt: '2026-10-10 08:00:00', advisories: [bn('5.2.3')] }, ...releases.slice(1)];
+    assert.equal(statementBasis(legacy, undated).release, 'v3.36.0', 'a release without a publication date counts from its analysis');
+  });
+
+  test('a statement written on one bn.js row records every bn.js version of the release, so it settles both', () => {
+    const s = judged({ packageVersion: '4.12.0,5.2.2', viaVersion: '7.0.0,9.1.0' });
+    assert.equal(resolveRow(bn('5.2.2'), [s], { appIds, trusted }).decision?.status, 'not_affected');
+    assert.equal(resolveRow(bn('4.12.0', '7.0.0'), [s], { appIds, trusted }).decision?.status, 'not_affected');
+    assert.equal(resolveRow(bn('5.2.1'), [s], { appIds, trusted }).decision, null);
+  });
+
+  test('a reopened wallet call stays in sight when another statement settles the row', () => {
+    const wallet = judged({ status: 'affected', justification: null });
+    const wide = stmt({ vulns: ['GHSA-378v-28hj-76wf'], pkg: 'npm:bn.js', status: 'not_affected' });
+    const r = resolveRow(bn('5.2.1'), [wallet, wide], { appIds, trusted, maintainers: { 'npm:bn.js': [pk] } });
+    assert.equal(r.decision?.status, 'not_affected');
+    assert.deepEqual(r.stale.map(x => x.statement.status), ['affected']);
   });
 });

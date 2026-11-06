@@ -409,7 +409,7 @@ function inApkLine(a) {
 // Every statement a row's decision rests on or has collected so far, what
 // others say included.
 function statementsOf(a) {
-  return [...(a.decision?.basis || []), ...(a.triage?.partial || []), ...(a.triage?.others || [])].map(b => b.statement);
+  return [...(a.decision?.basis || []), ...(a.triage?.partial || []), ...(a.triage?.stale || []), ...(a.triage?.others || [])].map(b => b.statement);
 }
 
 // "via npm:@babel/core" / "this wallet" / "the package": what a statement's need reads as.
@@ -541,8 +541,19 @@ function upstreamLine(h) {
   );
 }
 
+// "previously not affected in v3.35.0 (bn.js 5.2.2, now 5.2.1)": a decision
+// judged on other versions than this row's (dependency-triage.mjs,
+// versionChanges), shown on the reopened row so re-checking starts from it.
+export function staleLabel({ statement: s, release, changes }) {
+  const what = changes.filter(c => c.what !== 'release').map(c => `${c.what} ${c.was}, now ${c.now}`);
+  const why = what.length ? ` (${what.join('; ')})` : ' (versions not recorded there, check again)';
+  return `previously ${TRIAGE_LABEL[s.status]}${release ? ` in ${release}` : ''}${why}`;
+}
+
 // The row's state from the statements of its direct users, each with its
 // reason; "Not assessed" while one is still missing, saying how many are in.
+// A row whose decision was made on other versions is open again, with the old one under it;
+// a row another statement settles still shows it.
 // With `onJudge`, a button opens the dialog that writes a statement for the row.
 export function decisionCell(a, { onJudge = null, freshId = null } = {}) {
   const state = triageStateOf(a);
@@ -554,9 +565,11 @@ export function decisionCell(a, { onJudge = null, freshId = null } = {}) {
     bits.push(el('span', { className: 'dp-decision dp-decision--undecided', title: 'No trusted statement settles this advisory for this wallet yet' }, 'Not assessed'));
     if (t.covered.length) bits.push(el('div', { className: 'dp-decision__why' }, `${t.covered.length} of ${t.needs.length} direct users assessed`));
     for (const b of t.partial || []) bits.push(statementLine(b, { freshId, onEdit }));
+    for (const x of t.stale || []) bits.push(statementLine({ need: null, statement: x.statement, label: staleLabel(x) }, { freshId, onEdit }));
   } else {
     bits.push(el('span', { className: `dp-decision dp-decision--${state}` }, TRIAGE_LABEL[state]));
     for (const b of d.basis) bits.push(statementLine(b, { freshId, onEdit }));
+    for (const x of t.stale || []) bits.push(statementLine({ need: null, statement: x.statement, label: staleLabel(x) }, { freshId, onEdit }));
   }
   if (t.others?.length || a.upstream?.length) bits.push(othersLine(t, { freshId, onEdit, upstream: a.upstream || [] }));
   if (onJudge) {
@@ -629,7 +642,8 @@ function triageLine(model) {
   if (t.not_affected) parts.push(`${t.not_affected} not affected`);
   if (t.fixed) parts.push(`${t.fixed} fixed`);
   if (t.under_investigation) parts.push(`${t.under_investigation} under investigation`);
-  parts.push(t.undecided ? `${t.undecided} still to look at${t.partial ? ` (${t.partial} partly)` : ''}` : 'nothing left to look at');
+  const detail = [t.partial ? `${t.partial} partly` : null, t.stale ? `${t.stale} to re-check` : null].filter(Boolean).join(', ');
+  parts.push(t.undecided ? `${t.undecided} still to look at${detail ? ` (${detail})` : ''}` : 'nothing left to look at');
   return el('div', { className: 'dp-triage-line' }, parts.join(' · '));
 }
 
@@ -1189,6 +1203,8 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
       advisory,
       edit,
       appId: analysisId,
+      release: model?.ref || null,
+      rows: model?.allAdvisories || [],
       triage,
       trusted: lists.trusted,
       maintainers: lists.maintainers,
