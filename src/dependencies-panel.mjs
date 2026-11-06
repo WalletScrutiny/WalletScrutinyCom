@@ -970,12 +970,12 @@ function foldedDetails(model, rest, { expanded, onToggle }) {
 
 const plural = (n, one, many = `${one}s`) => `${n} ${n === 1 ? one : many}`;
 
-// "File sorting: [Human-reviewed] Checked by ...". One pill colour for all three, so
+// "Which files count: [Checked by a person] A person chose ...". One pill colour for both, so
 // none of them reads as saying the wallet is safe.
 function sortingElement(sorting) {
   const label = sortingLabel(sorting);
   if (!label) return null;
-  return el('p', { className: 'dp-sorting' }, 'File sorting: ', el('span', { className: 'dp-badge' }, label.pill), ` ${label.text}`);
+  return el('p', { className: 'dp-sorting' }, 'Which files count: ', el('span', { className: 'dp-badge' }, label.pill), ` ${label.text}`);
 }
 
 // Submodule rows (external/source_analysis/submoduleIdentity.mjs), as words.

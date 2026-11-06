@@ -616,8 +616,8 @@ describe('dependencies panel: which app a file belongs to (issue 994)', () => {
 
   test('the file-sorting label is on the page when the wallet has rules', () => {
     const line = panel({ sorting: { status: 'reviewed', by: 'Danny', on: '2026-11-05', release: 'v1' } }, 'android').querySelector('.dp-sorting');
-    assert.equal(line.textContent, 'File sorting: Human-reviewed Checked by Danny on 2026-11-05, at release v1.');
-    assert.equal(line.querySelector('.dp-badge').textContent, 'Human-reviewed');
+    assert.equal(line.textContent, "Which files count: Checked by a person A person chose at release v1 which of the repository's dependency files belong to this app.");
+    assert.equal(line.querySelector('.dp-badge').textContent, 'Checked by a person');
     assert.equal(panel({ sorting: { status: 'none' } }, 'android').querySelector('.dp-sorting'), null);
     assert.equal(panel({}, 'android').querySelector('.dp-sorting'), null);
   });

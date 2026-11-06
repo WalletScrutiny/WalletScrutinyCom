@@ -106,17 +106,18 @@ function sortingOnPage(sorting, platform) {
 }
 
 // What a reader is told about how files were sorted onto this page: a pill and the
-// sentence beside it. "Human-reviewed" is about the sorting only: it is not a
+// sentence beside it. "Checked by a person" is about the sorting only: it is not a
 // security audit, and not proof of the numbers. No line for a wallet without
 // rules: nothing was taken off its page, and "not sorted" only puzzles a reader.
 export function sortingLabel(sorting) {
   if (!sorting || sorting.status === 'none') return null;
-  if (sorting.status === 'reviewed') return { pill: 'Human-reviewed', text: `Checked by ${sorting.by} on ${sorting.on}, at release ${sorting.release}.` };
+  // No reviewer's name: "a person" is all a reader needs.
+  if (sorting.status === 'reviewed') return { pill: 'Checked by a person', text: `A person chose at release ${sorting.release} which of the repository's dependency files belong to this app.` };
   const why = sorting.changedSince
-    ? `This release's files don't match what ${sorting.changedSince.by} reviewed at ${sorting.changedSince.release}, so no person has checked this sorting.`
-    : 'No person has checked these file-sorting rules yet.';
+    ? `A person checked this at release ${sorting.changedSince.release}, but this release's files differ, so rules chose which of the repository's dependency files belong to this app.`
+    : 'Rules chose which of the repository\'s dependency files belong to this app.';
   const n = sorting.filesRemoved;
-  return { pill: 'Sorted automatically', text: `${why}${n ? ` ${sorting.changedSince ? 'The rules' : 'They'} took ${n === 1 ? '1 file' : `${n.toLocaleString('en-US')} files`} off this page.` : ''}` };
+  return { pill: 'Not checked by a person', text: `${why}${n ? ` They left ${n === 1 ? '1 file' : `${n.toLocaleString('en-US')} files`} out of this page.` : ''}` };
 }
 
 // "Not in this app: desktop app and server, 232 libraries, 120 advisories."

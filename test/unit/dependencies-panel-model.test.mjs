@@ -207,10 +207,10 @@ describe('dependencies panel model', () => {
     test('the file-sorting label: reviewed, pending, changed since the review, none without rules', () => {
       assert.equal(sortingLabel(null), null);
       assert.equal(sortingLabel({ status: 'none' }), null);
-      assert.deepEqual(sortingLabel({ status: 'reviewed', by: 'Danny', on: '2026-11-05', release: 'v1' }), { pill: 'Human-reviewed', text: 'Checked by Danny on 2026-11-05, at release v1.' });
-      assert.deepEqual(sortingLabel({ status: 'pending', filesRemoved: 0 }), { pill: 'Sorted automatically', text: 'No person has checked these file-sorting rules yet.' });
-      assert.equal(sortingLabel({ status: 'pending', filesRemoved: 1 }).text, 'No person has checked these file-sorting rules yet. They took 1 file off this page.');
-      assert.equal(sortingLabel({ status: 'pending', changedSince: { by: 'Danny', on: '2026-11-05', release: 'v1' }, filesRemoved: 12 }).text, "This release's files don't match what Danny reviewed at v1, so no person has checked this sorting. The rules took 12 files off this page.");
+      assert.deepEqual(sortingLabel({ status: 'reviewed', by: 'Danny', on: '2026-11-05', release: 'v1' }), { pill: 'Checked by a person', text: "A person chose at release v1 which of the repository's dependency files belong to this app." });
+      assert.deepEqual(sortingLabel({ status: 'pending', filesRemoved: 0 }), { pill: 'Not checked by a person', text: "Rules chose which of the repository's dependency files belong to this app." });
+      assert.equal(sortingLabel({ status: 'pending', filesRemoved: 1 }).text, "Rules chose which of the repository's dependency files belong to this app. They left 1 file out of this page.");
+      assert.equal(sortingLabel({ status: 'pending', changedSince: { by: 'Danny', on: '2026-11-05', release: 'v1' }, filesRemoved: 12 }).text, "A person checked this at release v1, but this release's files differ, so rules chose which of the repository's dependency files belong to this app. They left 12 files out of this page.");
     });
 
     test('the page shows how many files its own platform leaves out', () => {
