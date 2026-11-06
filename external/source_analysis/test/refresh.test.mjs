@@ -5,10 +5,11 @@ import assert from 'node:assert/strict';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import { initDatabase, saveAppList, saveDependencies, saveVulnerabilities, recordAnalysis } from '../ddbbUtils.mjs';
+import { initDatabase, saveAppList, saveDependencies, saveVulnerabilities, getVulnerabilities, recordAnalysis } from '../ddbbUtils.mjs';
 import { exportAll } from '../export.mjs';
 import { refreshAdvisories } from '../refresh.mjs';
 import { markerPathFor, readMarker } from '../publish.mjs';
+import { tryLock, waitForLock } from '../runLock.mjs';
 
 const entry = (name, version) => ({ ecosystem: 'npm', lockfile: 'package-lock.json', name, version, resolved: `https://registry.npmjs.org/${name}/-/${name}-${version}.tgz`, integrity: `sha512-${name}${version}`, direct: true, dev: false, scope: 'app', dependants: null, tier: 'hash-pinned' });
 const finding = (name, version, id, extra = {}) => ({ ecosystem: 'npm', name, version, id, aliases: [], severity: 'high', summary: '', fixed: [], direct: true, dev: false, scope: 'app', dependants: null, ...extra });
@@ -111,5 +112,93 @@ test('refreshAdvisories: nothing new and nothing failed, no upload', async () =>
   const r = await refreshAdvisories(db, { ...opts, publish });
   assert.deepEqual([r.changed, r.retried, r.published, publishes], [[], 0, false, 1]);
   assert.equal(readMarker(markerPathFor(dir)), marker);
+  db.close();
+});
+
+// Issue 999: a stalled OSV.dev must not keep the run lock, and a pass waiting
+// for it, for one release after another.
+function manyReleases(n) {
+  const db = initDatabase(':memory:');
+  const apps = Array.from({ length: n }, (_, i) => `w${i}.wallet`);
+  saveAppList(db, apps.map(appId => ({ appId, platform: 'android', repository: `https://github.com/org/${appId}` })));
+  for (const appId of apps) {
+    saveDependencies(db, appId, 'v1.0', [{ entries: [entry(`dep-${appId}`, '1.0.0')] }]);
+    recordAnalysis(db, { appId, kind: 'release', ref: 'v1.0', status: 'ok', analyser: 't', vulnerabilities: 1 });
+    saveVulnerabilities(db, appId, 'v1.0', { findings: [finding(`dep-${appId}`, '1.0.0', `GHSA-${appId}`)] });
+  }
+  return { db, apps };
+}
+const severities = (db, apps) => apps.map(appId => getVulnerabilities(db, appId, 'v1.0').map(v => v.severity).join());
+const quiet = { log() {}, warn() {} };
+
+test('refreshAdvisories: OSV.dev stops answering, the refresh stops after 3 failures and frees the lock', async () => {
+  const { db, apps } = manyReleases(10);
+  const lock = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'sa-refresh-')), 'assets.db.lock');
+  const lines = [];
+  let lookups = 0;
+  const stalled = async () => { lookups++; await new Promise(r => setTimeout(r, 20)); return null; }; // osv.mjs gives up: null
+  // refresh-cli.mjs: take the lock, refresh, release; a pass waits meanwhile.
+  const refresh = tryLock(lock);
+  let passStarted = false;
+  const pass = waitForLock(lock, { pid: 999999, isAlive: () => true, pollMs: 5, log: quiet }).then(release => { passStarted = true; release(); });
+  const r = await refreshAdvisories(db, { check: stalled, deliver: async () => {}, log: { log: l => lines.push(l), warn() {} } });
+  refresh.release();
+  await pass;
+  assert.equal(lookups, 3, 'no lookup after the third failure in a row');
+  assert.deepEqual([r.releases, r.failed, r.stopped], [0, 3, { reason: '3 OSV.dev lookups failed in a row', skipped: 7 }]);
+  assert.deepEqual(lines, ['Refresh stopped early: 3 OSV.dev lookups failed in a row; 7 releases not looked up keep their stored advisories']);
+  assert.ok(passStarted, 'the waiting pass got the lock');
+  assert.deepEqual(severities(db, apps), apps.map(() => 'high'), 'every release keeps its stored advisories');
+  db.close();
+});
+
+test('refreshAdvisories: failures that are not in a row do not stop it', async () => {
+  const { db } = manyReleases(7);
+  let lookups = 0;
+  const flaky = async ([{ entries }]) => (++lookups % 3 === 0
+    ? { checked: 1, skipped: {}, findings: [finding(entries[0].name, '1.0.0', `GHSA-${entries[0].name.slice(4)}`)] }
+    : null);
+  const r = await refreshAdvisories(db, { check: flaky, deliver: async () => {}, log: quiet });
+  assert.deepEqual([lookups, r.releases, r.failed, 'stopped' in r], [7, 2, 5, false]);
+  db.close();
+});
+
+test('refreshAdvisories: the deadline stops the refresh; skipped releases keep their advisories, changed ones are published', async () => {
+  const { db, apps } = manyReleases(5);
+  const dir = exportedAnHourAgo(db);
+  let clock = 0;
+  const raised = async ([{ entries }]) => {
+    clock += 20 * 60 * 1000; // each lookup takes 20 minutes
+    return { checked: 1, skipped: {}, findings: [finding(entries[0].name, '1.0.0', `GHSA-${entries[0].name.slice(4)}`, { severity: 'critical' })] };
+  };
+  const lines = [];
+  const published = [];
+  const r = await refreshAdvisories(db, { exportDir: dir, onlyReproducible: false, check: raised, deliver: async () => {}, now: () => clock,
+    publish: (d, files) => { published.push(...files); return { published: true }; }, signals: async () => ({ written: false }),
+    log: { log: l => lines.push(l), warn() {} } });
+  // Lookups start at 0, 20 and 40 minutes; at 60 the 45-minute limit has passed.
+  assert.deepEqual([r.releases, r.failed, r.stopped], [3, 0, { reason: 'the deadline passed', skipped: 2 }]);
+  assert.deepEqual(lines, ['Refresh stopped early: the deadline passed; 2 releases not looked up keep their stored advisories']);
+  assert.deepEqual(severities(db, apps), ['critical', 'critical', 'critical', 'high', 'high']);
+  assert.deepEqual(r.exported, apps.slice(0, 3), 'what changed before the stop is exported');
+  assert.ok(r.published && published.includes('apps/w2.wallet.json') && !published.includes('apps/w3.wallet.json'), published.join(', '));
+  assert.ok(readMarker(markerPathFor(dir)) > Date.now() - 60 * 1000, 'the upload moved the marker (issue 997)');
+  db.close();
+});
+
+test('refreshAdvisories: OSV.dev answering, every release is looked up as before', async () => {
+  const { db, apps } = manyReleases(6);
+  let clock = 0;
+  const lookedUp = [];
+  const fine = async ([{ entries }]) => {
+    clock += 60 * 1000;
+    lookedUp.push(entries[0].name);
+    return { checked: 1, skipped: {}, findings: [finding(entries[0].name, '1.0.0', `GHSA-${entries[0].name.slice(4)}`)] };
+  };
+  const lines = [];
+  const r = await refreshAdvisories(db, { check: fine, deliver: async () => {}, now: () => clock, log: { log: l => lines.push(l), warn() {} } });
+  assert.deepEqual(lookedUp, apps.map(a => `dep-${a}`));
+  assert.deepEqual(r, { releases: 6, failed: 0, added: 0, changed: [], exported: [], published: false, retried: 0 });
+  assert.deepEqual(lines, []);
   db.close();
 });
