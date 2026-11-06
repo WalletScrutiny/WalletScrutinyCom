@@ -1207,6 +1207,13 @@ body.dark .dp-note-more {
   flex: 1 1 200px;
 }
 
+// The open list is drawn by the browser on its own (white) background, but the
+// options inherit the theme's text colour: white on white in the dark theme.
+.dpt-scope option {
+  color: var(--text);
+  background: var(--body);
+}
+
 .dpt-status {
   margin: 0;
   font-size: $font-xs;
