@@ -2,7 +2,7 @@ import './setup.mjs';
 import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { buildTree, childrenOf, searchNodes, pathTo } from '../../src/dependencies-tree-model.mjs';
+import { buildTree, childrenOf, searchNodes, pathTo, placeOf } from '../../src/dependencies-tree-model.mjs';
 import { treeElement, registryUrl } from '../../src/dependencies-tree.mjs';
 
 const dep = (name, version, extra = {}) => ({ ecosystem: 'npm', lockfile: 'yarn.lock', name, version, direct: false, scope: 'app', dependants: [], ...extra });
@@ -28,7 +28,8 @@ describe('dependency tree model', () => {
   const tree = buildTree(DEPS, [{ ecosystem: 'npm', package: 'b', version: '1.0.0', id: 'GHSA-x', severity: 'high', repo: 'https://github.com/o/b' }]);
 
   test('direct dependencies are grouped by scope', () => {
-    assert.deepEqual(tree.groups.map(g => [g.scope, g.roots.map(r => r.name)]), [['app', ['a', 'dup', 'dup']], ['build', ['tool']]]);
+    assert.deepEqual(tree.products.map(p => p.id), ['this']);
+    assert.deepEqual(tree.products[0].groups.map(g => [g.scope, g.roots.map(r => r.name)]), [['app', ['a', 'dup', 'dup']], ['build', ['tool']]]);
   });
 
   test('children come from the dependants fields, reversed', () => {
@@ -166,5 +167,122 @@ describe('dependency tree view', () => {
     assert.equal(registryUrl('gradle', 'org.x:y'), 'https://mvnrepository.com/artifact/org.x/y');
     assert.equal(registryUrl('pub', 'bdk_dart'), 'https://pub.dev/packages/bdk_dart');
     assert.equal(registryUrl('other', 'x'), null);
+  });
+});
+
+// One repository, four products (issue 996): an Android page counts the shared and phone files.
+// desktop/ is only a folder name, no rule: it counts here, as the page's numbers do.
+const PRODUCT_OF_FILE = { 'electron/yarn.lock': 'desktop', 'server/yarn.lock': 'server', 'phonegap/yarn.lock': 'mobile' };
+const productOf = row => PRODUCT_OF_FILE[row.lockfile] || 'shared';
+const ANDROID = ['shared', 'mobile', 'android'];
+const at = (lockfile, part) => (name, version, extra = {}) => dep(name, version, { lockfile, ...(part ? { part } : {}), ...extra });
+const [own, desk, srv, phone, guess] = [at('yarn.lock'), at('electron/yarn.lock', 'desktop'), at('server/yarn.lock', 'server'), at('phonegap/yarn.lock'), at('desktop/yarn.lock', 'desktop')];
+const REPO = [
+  own('lodash', '4.0.0', { direct: true }), own('lodash-es', '4.0.0', { dependants: ['lodash'] }), own('stray', '1.0.0'),
+  desk('electron', '30.0.0', { direct: true, scope: 'build' }), desk('lodash', '4.1.0', { dependants: ['electron'] }), desk('lone', '1.0.0'),
+  srv('express', '5.0.0', { direct: true }), srv('lodash', '4.2.0', { dependants: ['express'] }), srv('lodash.merge', '4.6.0', { dependants: ['express'] }),
+  phone('cordova', '12.0.0', { direct: true }), phone('lodash', '4.3.0', { dependants: ['cordova'] }),
+  guess('tauri', '2.0.0', { direct: true }),
+];
+
+describe('dependency tree split by product (issue 996)', () => {
+  const tree = buildTree(REPO, [], { productOf, counted: ANDROID });
+  const reach = (roots) => {
+    const seen = new Set();
+    const stack = [...roots];
+    while (stack.length) { const n = stack.pop(); if (seen.has(n.key)) continue; seen.add(n.key); stack.push(...n.children.map(c => c.node)); }
+    return seen;
+  };
+
+  test('this app first, then the other products, biggest first', () => {
+    assert.deepEqual(tree.products.map(p => [p.id, p.label, p.total]), [['this', 'In this app', 6], ['desktop', 'desktop app', 3], ['server', 'server', 3]]);
+  });
+
+  test('every library lands in exactly one product, and is shown there', () => {
+    const where = new Map();
+    for (const p of tree.products) {
+      const shown = reach(p.groups.flatMap(g => g.roots));
+      for (const n of p.unreachable) shown.add(n.key);
+      for (const key of shown) {
+        assert.equal(where.has(key), false, `${key} in ${where.get(key)} and ${p.id}`);
+        where.set(key, p.id);
+      }
+    }
+    assert.equal(where.size, REPO.length);
+    assert.equal(tree.products.reduce((n, p) => n + p.total, 0), REPO.length);
+  });
+
+  test('a folder-name guess is not a product: tauri stays in this app\'s app libraries', () => {
+    const own = tree.products[0];
+    assert.deepEqual(own.groups.map(g => [g.scope, g.roots.map(r => r.name)]), [['app', ['cordova', 'lodash', 'tauri']]]);
+    assert.deepEqual(tree.products[1].groups.map(g => [g.scope, g.roots.map(r => r.name)]), [['build', ['electron']]]);
+  });
+
+  test('"not reachable" is split the same way', () => {
+    assert.deepEqual(tree.products.map(p => p.unreachable.map(n => n.name)), [['stray'], ['lone'], []]);
+  });
+
+  test('without a sorting, everything is this app', () => {
+    const flat = buildTree(REPO, []);
+    assert.deepEqual(flat.products.map(p => [p.id, p.total]), [['this', REPO.length]]);
+  });
+
+  test('search counts only the places it is asked to show', () => {
+    const all = searchNodes(tree, 'lodash');
+    assert.deepEqual([all.total, all.elsewhere], [6, 3]);
+    const own = searchNodes(tree, 'lodash', place => place.product === 'this');
+    assert.deepEqual([own.total, own.elsewhere, own.matches.map(m => m.version)], [3, 0, ['4.0.0', '4.3.0', '4.0.0']]);
+    assert.deepEqual(placeOf(own.matches[1]).chain.map(n => n.name), ['cordova', 'lodash']);
+  });
+});
+
+describe('dependency tree view split by product (issue 996)', () => {
+  const open = () => treeElement({ dependencies: REPO, wallet: 'Coin v6', productOf, counted: ANDROID });
+  const find = (view, value) => {
+    const search = view.querySelector('.dpt-search');
+    search.value = value;
+    search.dispatchEvent(new window.Event('input'));
+  };
+  // The distinct packages marked as hits: the last key of each row's path.
+  const hitPackages = view => new Set([...view.querySelectorAll('.dpt-item--hit')].map(li => li.dataset.id.split('>').at(-1)));
+  const groups = view => [...view.querySelectorAll(':scope .dpt-group')].map(g => g.textContent);
+
+  test('two top branches; the other products sit under the second', () => {
+    const view = open();
+    assert.deepEqual(groups(view), ['In this app', 'Other products']);
+    view.querySelector('[data-id="p:other"] .dpt-toggle').click();
+    assert.deepEqual(groups(view), ['In this app', 'Other products', 'desktop app', 'server']);
+  });
+
+  test('the search count equals the packages it opens, and names the other products', () => {
+    const view = open();
+    find(view, 'lodash');
+    assert.match(view.querySelector('.dpt-status').textContent, /^6 matches, 3 of them in other products\./);
+    assert.equal(hitPackages(view).size, 6);
+    assert.ok(view.querySelector('[data-id="p:desktop"] .dpt-item--hit[data-package="lodash"]'));
+  });
+
+  test('the scope menu lists the new groups, and the count follows it', () => {
+    const view = open();
+    const select = view.querySelector('.dpt-scope');
+    assert.deepEqual([...select.options].map(o => o.textContent), [
+      'All scopes', 'In this app', 'In this app: App libraries', `In this app: Not reachable from a direct dependency`,
+      'Other products', 'Other products: desktop app', 'Other products: server',
+    ]);
+    find(view, 'lodash');
+    for (const [value, count] of [['p:this', 3], ['p:other', 3], ['p:server', 2], ['p:this|g:unreachable', 0]]) {
+      for (const o of select.options) o.toggleAttribute('selected', o.value === value); // linkedom: value has no setter
+      assert.equal(select.value, value);
+      select.dispatchEvent(new window.Event('change'));
+      const text = view.querySelector('.dpt-status').textContent;
+      assert.equal(hitPackages(view).size, count, `${value}: ${text}`);
+      if (count) assert.match(text, new RegExp(`^${count} matches`));
+      else assert.match(text, /No package matches "lodash" in what is shown/);
+    }
+  });
+
+  test('a repository with one product keeps the flat tree', () => {
+    const view = treeElement({ dependencies: REPO, wallet: 'One', productOf: () => 'shared', counted: ANDROID });
+    assert.deepEqual(groups(view), ['App libraries', 'Build tools', 'Not reachable from a direct dependency']);
   });
 });

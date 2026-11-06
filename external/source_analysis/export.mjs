@@ -484,6 +484,8 @@ function writeAppFiles(db, dir, appId, aliases, counts, sources, isExported, { a
         direct: d.direct === null ? null : d.direct === 1,
         scope: scopeOfRow(d) === 'unknown' ? null : scopeOfRow(d),
         part: partOfFile(d.lockfile, appId) || undefined,
+        // the product the row's file builds, as the release's byTarget counts it (the tree's "In this app", issue 996)
+        target: r.dependencies?.byTarget ? targetOfLockfile(d.lockfile, appId) : undefined,
         dependants: dependantsOfRow(d.dependants),
         products: counts.byName.get(`${d.ecosystem}:${d.name}`) || 1,
         productsSameVersion: counts.byVersion.get(`${d.ecosystem}:${d.name}@${d.dep_version}`) || 1,

@@ -1,14 +1,15 @@
 // The Dependencies panel's "Dependency tree" tab: the wallet at the top, its
 // direct dependencies grouped by where they end up (app / build / tests), each
-// package expandable to the packages it pulls in. Branches render when opened,
-// so a few thousand packages stay responsive. Source analysis of the release's
-// lockfiles, not an inspection of the installed binary; informational, not
-// part of any verdict.
+// package expandable to the packages it pulls in. A repository with other
+// products splits first into "In this app" and "Other products" (issue 996).
+// Branches render when opened, so a few thousand packages stay responsive.
+// Source analysis of the release's lockfiles, not an inspection of the
+// installed binary; informational, not part of any verdict.
 
 import { el } from './html-utils.mjs';
 import { whereLabel, SEVERITY_ORDER, SEVERITY_LABEL } from './dependencies-panel-model.mjs';
 import { rebuildBadge, rebuildKey } from './dependencies-rebuilds.mjs';
-import { buildTree, childrenOf, searchNodes, pathTo, GROUPS, UNREACHABLE_LABEL, MAX_MATCHES } from './dependencies-tree-model.mjs';
+import { buildTree, childrenOf, searchNodes, GROUPS, UNREACHABLE_LABEL, MAX_MATCHES, THIS_APP, THIS_APP_LABEL, OTHER_PRODUCTS_LABEL } from './dependencies-tree-model.mjs';
 
 const OSV_URL = 'https://osv.dev/vulnerability/';
 
@@ -34,10 +35,16 @@ const ID = { next: 0 };
 
 /**
  * The tab's content for one release. `dependencies` are dependencies.json rows,
- * `advisories` the panel model's advisories, `wallet` the heading line.
+ * `advisories` the panel model's advisories, `wallet` the heading line,
+ * `productOf` and `counted` the page's file sorting (buildTree).
  */
-export function treeElement({ dependencies, advisories = [], wallet, rebuilds = null }) {
-  const tree = buildTree(dependencies, advisories);
+export function treeElement({ dependencies, advisories = [], wallet, rebuilds = null, productOf = null, counted = null }) {
+  const tree = buildTree(dependencies, advisories, { productOf, counted });
+  // Only this app: the groups sit right under the wallet, as before issue 996.
+  const own = tree.products.find(p => p.id === THIS_APP);
+  const others = tree.products.filter(p => p.id !== THIS_APP);
+  const split = others.length > 0;
+  const groupId = (product, group) => `p:${product}|g:${group}`;
   const expanded = new Set();
   const uid = `dpt-${ID.next++}`;
   let query = '';
@@ -114,28 +121,48 @@ export function treeElement({ dependencies, advisories = [], wallet, rebuilds = 
     fresh.querySelector('.dpt-toggle')?.focus?.();
   }
 
-  function groupItem(id, label, roots) {
+  // A branch above the packages: a product or a group. `content(level)` gives its children.
+  function branchItem(id, label, count, level, content) {
     const open = expanded.has(id);
-    const li = el('li', { className: 'dpt-item dpt-item--group', role: 'treeitem', 'aria-level': '2', 'aria-expanded': String(open), tabindex: '-1', dataset: { id } });
+    const li = el('li', { className: 'dpt-item dpt-item--group', role: 'treeitem', 'aria-level': String(level), 'aria-expanded': String(open), tabindex: '-1', dataset: { id } });
     const toggle = el('button', { type: 'button', className: 'dpt-toggle', tabindex: '-1', 'aria-label': `${open ? 'Collapse' : 'Expand'} ${label}` }, open ? '−' : '+');
     toggle.addEventListener('click', (e) => { e.stopPropagation(); if (open) expanded.delete(id); else expanded.add(id); paint(); });
-    li.appendChild(el('div', { className: 'dpt-row' }, toggle, el('span', { className: 'dpt-group' }, label), el('span', { className: 'dpt-count' }, `${roots.length} ${roots.length === 1 ? 'package' : 'packages'}`)));
-    if (open) {
-      const ul = el('ul', { role: 'group', className: 'dpt-children' });
-      for (const n of roots) ul.appendChild(nodeItem(n, [id, n.key], 3));
-      li.appendChild(ul);
-    }
+    li.appendChild(el('div', { className: 'dpt-row' }, toggle, el('span', { className: 'dpt-group' }, label), el('span', { className: 'dpt-count' }, `${count} ${count === 1 ? 'package' : 'packages'}`)));
+    if (open) li.appendChild(el('ul', { role: 'group', className: 'dpt-children' }, content(level + 1)));
     return li;
   }
+
+  function groupItem(id, label, roots, level) {
+    return branchItem(id, label, roots.length, level, kids => roots.map(n => nodeItem(n, [id, n.key], kids)));
+  }
+
+  // What the scope menu keeps: everything, one group, one product, or every other product.
+  const visible = (product, group) => scope === 'all' || scope === groupId(product, group) || scope === `p:${product}`
+    || (scope === 'p:other' && product !== THIS_APP);
+
+  function groupsOf(product, level) {
+    const items = [];
+    for (const g of product.groups) {
+      if (visible(product.id, g.scope)) items.push(groupItem(groupId(product.id, g.scope), g.label, g.roots, level));
+    }
+    if (product.unreachable.length && visible(product.id, 'unreachable')) items.push(groupItem(groupId(product.id, 'unreachable'), UNREACHABLE_LABEL, product.unreachable, level));
+    return items;
+  }
+
+  const shows = product => visible(product.id, 'unreachable') || product.groups.some(g => visible(product.id, g.scope));
 
   function paint() {
     const focused = document.activeElement?.closest?.('[data-id]')?.dataset?.id;
     const items = [];
-    for (const g of tree.groups) {
-      if (scope !== 'all' && g.scope !== scope) continue;
-      items.push(groupItem(`g:${g.scope}`, g.label, g.roots));
+    if (!split) items.push(...tree.products.flatMap(p => groupsOf(p, 2)));
+    else {
+      if (own && shows(own)) items.push(branchItem(`p:${THIS_APP}`, THIS_APP_LABEL, own.total, 2, level => groupsOf(own, level)));
+      const otherShown = others.filter(shows);
+      if (otherShown.length) {
+        items.push(branchItem('p:other', OTHER_PRODUCTS_LABEL, others.reduce((n, p) => n + p.total, 0), 2,
+          level => otherShown.map(p => branchItem(`p:${p.id}`, p.label, p.total, level, inner => groupsOf(p, inner)))));
+      }
     }
-    if (tree.unreachable.length && (scope === 'all' || scope === 'unreachable')) items.push(groupItem('g:unreachable', UNREACHABLE_LABEL, tree.unreachable));
     const root = el('li', { className: 'dpt-item dpt-item--wallet', role: 'treeitem', 'aria-level': '1', 'aria-expanded': 'true', tabindex: '0' },
       el('div', { className: 'dpt-row' }, el('span', { className: 'dpt-toggle dpt-toggle--static' }, '−'), el('span', { className: 'dpt-wallet' }, wallet)),
       el('ul', { role: 'group', className: 'dpt-children' }, items));
@@ -145,33 +172,38 @@ export function treeElement({ dependencies, advisories = [], wallet, rebuilds = 
 
   // ----- controls -----
   const search = el('input', { type: 'search', className: 'dpt-search', placeholder: 'Find a package or advisory', 'aria-label': 'Find a package or advisory in the tree' });
-  const scopeSelect = el('select', { className: 'dpt-scope', 'aria-label': 'Show only' },
-    el('option', { value: 'all' }, 'All scopes'),
-    GROUPS.filter(g => tree.groups.some(x => x.scope === g.scope)).map(g => el('option', { value: g.scope }, g.label)),
-    tree.unreachable.length ? el('option', { value: 'unreachable' }, UNREACHABLE_LABEL) : null);
+  // The menu names every group this app has; another product is one entry with all its groups.
+  const groupOptions = (p, prefix) => [
+    ...GROUPS.filter(g => p.groups.some(x => x.scope === g.scope)).map(g => el('option', { value: groupId(p.id, g.scope) }, `${prefix}${g.label}`)),
+    p.unreachable.length ? el('option', { value: groupId(p.id, 'unreachable') }, `${prefix}${UNREACHABLE_LABEL}`) : null,
+  ];
+  const scopeOptions = !split ? tree.products.flatMap(p => groupOptions(p, '')) : [
+    own ? [el('option', { value: `p:${THIS_APP}` }, THIS_APP_LABEL), groupOptions(own, `${THIS_APP_LABEL}: `)] : [],
+    el('option', { value: 'p:other' }, OTHER_PRODUCTS_LABEL),
+    others.map(p => el('option', { value: `p:${p.id}` }, `${OTHER_PRODUCTS_LABEL}: ${p.label}`)),
+  ].flat(2);
+  const scopeSelect = el('select', { className: 'dpt-scope', 'aria-label': 'Show only' }, el('option', { value: 'all' }, 'All scopes'), scopeOptions);
   const collapse = el('button', { type: 'button', className: 'btn-small dpt-collapse' }, 'Collapse all');
 
   function runSearch() {
     query = search.value.trim();
     hits = new Map();
     if (!query) { status.textContent = ''; paint(); return; }
-    const { matches, truncated, total } = searchNodes(tree, query);
-    let shown = 0;
+    // Only matches in what the scope menu shows are counted: each one is opened.
+    const { matches, places, truncated, total, elsewhere } = searchNodes(tree, query, place => visible(place.product, place.group));
     for (const m of matches) {
-      const chain = pathTo(m);
-      const first = chain ? chain[0] : null;
-      const groupId = first ? `g:${first.scope}` : 'g:unreachable';
-      if (scope !== 'all' && !groupId.endsWith(scope)) continue;
+      const { product, group, chain } = places.get(m.key);
+      const id = groupId(product, group);
       hits.set(m.key, true);
-      shown += 1;
-      expanded.add(groupId);
+      if (split) expanded.add(product === THIS_APP ? `p:${THIS_APP}` : 'p:other').add(`p:${product}`);
+      expanded.add(id);
       const keys = chain ? chain.map(n => n.key) : [m.key];
       // Open every ancestor so the match is visible; the match itself stays as found.
-      for (let i = 1; i <= keys.length - 1; i++) expanded.add([groupId, ...keys.slice(0, i)].join('>'));
+      for (let i = 1; i <= keys.length - 1; i++) expanded.add([id, ...keys.slice(0, i)].join('>'));
     }
-    status.textContent = shown
-      ? `${total} ${total === 1 ? 'match' : 'matches'}${truncated ? `, showing the first ${MAX_MATCHES}` : ''}. One path to each is opened; a shared package can sit under other parents too.`
-      : `No package matches "${query}".`;
+    status.textContent = total
+      ? `${total} ${total === 1 ? 'match' : 'matches'}${elsewhere ? `, ${elsewhere} of them in other products` : ''}${truncated ? `, showing the first ${MAX_MATCHES}` : ''}. One path to each is opened; a shared package can sit under other parents too.`
+      : `No package matches "${query}"${scope === 'all' ? '' : ' in what is shown'}.`;
     paint();
     treeEl.querySelector('.dpt-item--hit')?.scrollIntoView?.({ block: 'nearest' });
   }
