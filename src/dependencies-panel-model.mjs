@@ -321,6 +321,8 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
     packages: dependencies?.total ?? 0,
     // the whole repository's, for what still covers all of it: the rebuild tile, the unchecked note, the tree
     repoPackages: current.dependencies?.total ?? 0,
+    // the products this page counts as its own app, for the tree's "In this app" (issue 996)
+    counted,
     notInApp: counted ? notInAppOf(current.dependencies, current.advisories || [], counted, platform) : null,
     sorting: sortingOnPage(current.dependencies?.sorting, platform),
     // files whose names suggest another product, a guess nobody has checked: they still count here

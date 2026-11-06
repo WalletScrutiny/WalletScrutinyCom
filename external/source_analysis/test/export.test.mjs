@@ -332,6 +332,28 @@ test('buildApp: counts per target and advisory targets, only for a wallet on the
   assert.equal(single.advisories[0].targets, undefined);
 });
 
+test('dependencies.json: each row names its product, for a wallet whose release is split by target', () => {
+  const db = initDatabase(':memory:');
+  const id = 'it.airgap.vault';
+  saveAppList(db, [{ appId: id, platform: 'android', repository: 'https://github.com/airgap-it/airgap-vault' }]);
+  loadRepositories(db);
+  const e = (name, lockfile) => ({ ecosystem: 'npm', lockfile, name, version: '1.0.0', resolved: '', integrity: '', direct: false, dev: false, tier: 'hash-pinned' });
+  saveDependencies(db, id, 'v1', [{ ecosystem: 'npm', entries: [e('a', 'package-lock.json'), e('b', 'electron/package-lock.json'), e('d', 'android/build.gradle')] }]);
+  recordAnalysis(db, { appId: id, kind: 'release', ref: 'v1', status: 'ok', analyser: 't' });
+  saveDependencies(db, 'single', 'v1', [{ ecosystem: 'npm', entries: [e('a', 'package-lock.json'), e('b', 'electron/package-lock.json')] }]);
+  recordAnalysis(db, { appId: 'single', kind: 'release', ref: 'v1', status: 'ok', analyser: 't' });
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'sa-target-'));
+  exportAll(db, dir, {});
+  const rows = appId => JSON.parse(fs.readFileSync(path.join(dir, 'apps', appId, 'v1', 'dependencies.json'), 'utf8')).dependencies;
+  const [release] = JSON.parse(fs.readFileSync(path.join(dir, 'apps', `${id}.json`), 'utf8')).releases;
+  assert.deepEqual(rows(id).map(d => [d.name, d.target]).sort(), [['a', 'shared'], ['b', 'desktop'], ['d', 'android']]);
+  for (const [target, c] of Object.entries(release.dependencies.byTarget)) {
+    assert.equal(rows(id).filter(d => d.target === target).length, c.total, `the rows of ${target} add up to its count`);
+  }
+  assert.deepEqual(rows('single').map(d => d.target), [undefined, undefined], 'a release with only shared files stays as it was');
+  fs.rmSync(dir, { recursive: true, force: true });
+});
+
 test('Where?: a rule that contradicts the folder guess takes the label off rows and advisories', () => {
   const db = initDatabase(':memory:');
   const id = 'com.coinspace.app';

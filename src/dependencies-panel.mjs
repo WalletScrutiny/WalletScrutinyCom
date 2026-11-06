@@ -1048,7 +1048,8 @@ function treeTabs(model, table, { appId, base, fetchImpl, label }) {
         model.rebuilds ? fetchJson(`${dir}/rebuilds.json`, fetchImpl).catch(() => null) : null,
       ]).then(([data, rebuilds]) => {
         if (!data?.dependencies?.length) throw new Error('empty');
-        treePane.replaceChildren(treeElement({ dependencies: data.dependencies, advisories: model.allAdvisories || model.advisories, wallet: label, rebuilds: rebuildIndex(rebuilds) }));
+        // a row's product from the export's file sorting (issue 994); none says "this app"
+        treePane.replaceChildren(treeElement({ dependencies: data.dependencies, advisories: model.allAdvisories || model.advisories, wallet: label, rebuilds: rebuildIndex(rebuilds), productOf: row => row.target ?? null, counted: model.counted }));
         rebuildPane.replaceChildren(rebuilds ? rebuildsElement(rebuilds, data.dependencies) : el('p', { className: 'dpt-intro' }, 'No rebuild results for this release.'));
       }).catch((error) => {
         console.warn('Dependency tree not available', error);

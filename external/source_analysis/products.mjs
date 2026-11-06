@@ -169,8 +169,7 @@ export function guessOfLockfile(lockfile) {
 
 // A row's `part`, the Tree's and CSV's "Where?": the folder-name guess, unless a
 // rule contradicts it (Coin Wallet's web/ is its app, not a website). It never adds
-// a label from a rule: the Tree leaves rows with a part out of its groups (issue
-// 996), so a new label would hide them there.
+// a label from a rule: the Tree's products come from a row's `target` (issue 996).
 export function partOfFile(lockfile, appId = null) {
   const part = productPartOf(lockfile);
   const rule = part && ruleFor(String(lockfile || ''), appId);
