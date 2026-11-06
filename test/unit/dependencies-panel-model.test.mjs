@@ -204,9 +204,9 @@ describe('dependencies panel model', () => {
       assert.equal(m.allAdvisories.find(a => a.id === 'DESKTOP').part, 'desktop');
     });
 
-    test('the file-sorting label: reviewed, pending, changed since the review, not sorted', () => {
+    test('the file-sorting label: reviewed, pending, changed since the review, none without rules', () => {
       assert.equal(sortingLabel(null), null);
-      assert.deepEqual(sortingLabel({ status: 'none' }), { pill: 'Not sorted', text: 'Every file counted on every platform.' });
+      assert.equal(sortingLabel({ status: 'none' }), null);
       assert.deepEqual(sortingLabel({ status: 'reviewed', by: 'Danny', on: '2026-11-05', release: 'v1' }), { pill: 'Human-reviewed', text: 'Checked by Danny on 2026-11-05, at release v1.' });
       assert.deepEqual(sortingLabel({ status: 'pending', filesRemoved: 0 }), { pill: 'Sorted automatically', text: 'No person has checked these file-sorting rules yet.' });
       assert.equal(sortingLabel({ status: 'pending', filesRemoved: 1 }).text, 'No person has checked these file-sorting rules yet. They took 1 file off this page.');

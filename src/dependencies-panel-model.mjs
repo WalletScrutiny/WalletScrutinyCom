@@ -107,10 +107,10 @@ function sortingOnPage(sorting, platform) {
 
 // What a reader is told about how files were sorted onto this page: a pill and the
 // sentence beside it. "Human-reviewed" is about the sorting only: it is not a
-// security audit, and not proof of the numbers.
+// security audit, and not proof of the numbers. No line for a wallet without
+// rules: nothing was taken off its page, and "not sorted" only puzzles a reader.
 export function sortingLabel(sorting) {
-  if (!sorting) return null;
-  if (sorting.status === 'none') return { pill: 'Not sorted', text: 'Every file counted on every platform.' };
+  if (!sorting || sorting.status === 'none') return null;
   if (sorting.status === 'reviewed') return { pill: 'Human-reviewed', text: `Checked by ${sorting.by} on ${sorting.on}, at release ${sorting.release}.` };
   const why = sorting.changedSince
     ? `This release's files don't match what ${sorting.changedSince.by} reviewed at ${sorting.changedSince.release}, so no person has checked this sorting.`

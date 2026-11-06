@@ -614,10 +614,11 @@ describe('dependencies panel: which app a file belongs to (issue 994)', () => {
     assert.doesNotMatch(node.querySelector('.dp-tiles').textContent, /only in the/);
   });
 
-  test('the file-sorting label is on the page when the export has one', () => {
-    const line = panel({ sorting: { status: 'none' } }, 'android').querySelector('.dp-sorting');
-    assert.equal(line.textContent, 'File sorting: Not sorted Every file counted on every platform.');
-    assert.equal(line.querySelector('.dp-badge').textContent, 'Not sorted');
+  test('the file-sorting label is on the page when the wallet has rules', () => {
+    const line = panel({ sorting: { status: 'reviewed', by: 'Danny', on: '2026-11-05', release: 'v1' } }, 'android').querySelector('.dp-sorting');
+    assert.equal(line.textContent, 'File sorting: Human-reviewed Checked by Danny on 2026-11-05, at release v1.');
+    assert.equal(line.querySelector('.dp-badge').textContent, 'Human-reviewed');
+    assert.equal(panel({ sorting: { status: 'none' } }, 'android').querySelector('.dp-sorting'), null);
     assert.equal(panel({}, 'android').querySelector('.dp-sorting'), null);
   });
 
