@@ -116,6 +116,26 @@ describe('dependencies panel', () => {
     assert.equal(empty.hidden, true);
   });
 
+  test('a failed re-check is noted next to the kept result, which still shows (issue 998)', async () => {
+    const rechecked = { ...APP, releases: [{ ...APP.releases[0], recheckFailed: { at: '2026-11-06 08:00:00', error: 'git clone timed out' } }] };
+    const { fetchImpl } = fakeFetch({ '/x/apps/app.android.json': rechecked });
+    const host = document.createElement('div');
+    document.body.appendChild(host);
+    await renderDependenciesPanel({ host, appId: 'app.android', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl });
+    assert.match(host.querySelector('.dp-headline').textContent, /Checked on 2026-10-01 · Re-check failed on 2026-11-06$/);
+    assert.equal(host.querySelector('.dp-recheck-failed b').textContent, '2026-11-06');
+    const notices = [...host.querySelectorAll('.dp-notices li')].map(e => e.textContent);
+    assert.ok(notices.includes('A re-check of v1.4.0 on 2026-11-06 failed (git clone timed out); what is shown is from the check that worked, on 2026-10-01.'));
+    assert.doesNotMatch(host.textContent, /ended with status/);
+    assert.deepEqual([...host.querySelectorAll('.dp-tile__value')].map(e => e.textContent), ['412', '13', '0'], 'the kept numbers stay');
+
+    const plain = document.createElement('div');
+    document.body.appendChild(plain);
+    await renderDependenciesPanel({ host: plain, appId: 'app.android', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl: fakeFetch({ '/x/apps/app.android.json': APP }).fetchImpl });
+    assert.equal(plain.querySelector('.dp-recheck-failed'), null);
+    assert.doesNotMatch(plain.textContent, /Re-check failed|A re-check of/);
+  });
+
   test('a triage file paints decisions from the direct users\' statements, keeps rows in severity order and counts the queue', async () => {
     const me = 'a'.repeat(64);
     let n = 0;

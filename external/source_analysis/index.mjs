@@ -258,7 +258,8 @@ tagConsole();
 // appStart; a failure is logged and left to the export that ends the pass.
 async function exportAndPublishApp(appId, appStart) {
   try {
-    const recorded = db.prepare('SELECT COUNT(*) AS n FROM analyses WHERE app_id = ? AND analysed_at >= ?').get(appId, appStart).n;
+    // A failed re-check that kept an ok row leaves analysed_at alone and dates only its note.
+    const recorded = db.prepare('SELECT COUNT(*) AS n FROM analyses WHERE app_id = ? AND (analysed_at >= ? OR failed_attempt_at >= ?)').get(appId, appStart, appStart).n;
     if (!recorded) return;
     const { exportApp } = await import('./export.mjs');
     const { publishFiles } = await import('./publish.mjs');

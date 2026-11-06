@@ -75,3 +75,93 @@ test('initDatabase backfills analyses rows for releases stored before the table 
   assert.equal(rows[0].commit_sha, null);
   reopened.close();
 });
+
+// Issue 998: a re-check that fails must not replace the result that worked.
+const LEFT_PAD = { ecosystem: 'npm', lockfile: 'package-lock.json', name: 'left-pad', version: '1.0.0', resolved: 'https://registry.npmjs.org/left-pad/-/left-pad-1.0.0.tgz', integrity: 'sha512-x', direct: true, dev: false, scope: 'app', dependants: null, tier: 'hash-pinned' };
+async function goodRelease(db, appId, ref) {
+  const { saveDependencies, saveVulnerabilities } = await import('../ddbbUtils.mjs');
+  saveDependencies(db, appId, ref, [{ entries: [LEFT_PAD] }]);
+  recordAnalysis(db, { appId, kind: 'release', ref, status: 'ok', analyser: 't', lockfiles: ['package-lock.json'], osvChecked: 1, vulnerabilities: 1 });
+  saveVulnerabilities(db, appId, ref, { findings: [{ ecosystem: 'npm', name: 'left-pad', version: '1.0.0', id: 'GHSA-demo', aliases: [], severity: 'high', summary: '', fixed: [], direct: true, dev: false, scope: 'app', dependants: null }] });
+}
+
+test('a failed re-check keeps the good result and notes the attempt beside it (issue 998)', async () => {
+  const { saveAppList } = await import('../ddbbUtils.mjs');
+  const { buildApp } = await import('../export.mjs');
+  const db = initDatabase(':memory:');
+  saveAppList(db, [{ appId: 'demo.wallet', platform: 'android', repository: 'https://github.com/org/demo' }]);
+  for (const ref of ['v1.0', 'v2.0']) await goodRelease(db, 'demo.wallet', ref);
+  const before = buildApp(db, 'demo.wallet').releases.find(r => r.ref === 'v2.0');
+  assert.equal(before.recheckFailed, undefined);
+
+  // what appAnalysis.mjs records when a re-check crashes
+  recordAnalysis(db, { appId: 'demo.wallet', kind: 'release', ref: 'v2.0', status: 'failed', analyser: 't', error: 'git clone timed out' });
+  const after = buildApp(db, 'demo.wallet').releases.find(r => r.ref === 'v2.0');
+  assert.equal(after.status, 'ok');
+  assert.equal(after.error, undefined);
+  assert.deepEqual(after.lockfiles, ['package-lock.json']);
+  assert.deepEqual(after.osv, { skipped: {} });
+  assert.equal(after.analysedAt, before.analysedAt);
+  assert.equal(after.recheckFailed.error, 'git clone timed out');
+  assert.match(after.recheckFailed.at, /^\d{4}-\d\d-\d\d /);
+  const { recheckFailed, ...rest } = after;
+  assert.equal(JSON.stringify(rest), JSON.stringify(before), 'apart from the note, the release exports as before');
+
+  // a re-check that works replaces the row and clears the note
+  recordAnalysis(db, { appId: 'demo.wallet', kind: 'release', ref: 'v2.0', status: 'ok', analyser: 't2', lockfiles: ['package-lock.json'], osvChecked: 1, vulnerabilities: 1 });
+  const fixed = getAnalyses(db, 'demo.wallet').find(r => r.ref === 'v2.0');
+  assert.equal(fixed.analyser, 't2');
+  assert.equal(fixed.failed_attempt_at, null);
+  assert.equal(fixed.failed_attempt_error, null);
+  assert.equal(buildApp(db, 'demo.wallet').releases.find(r => r.ref === 'v2.0').recheckFailed, undefined);
+});
+
+test('a first check that fails still records "failed", and so does one after a failed or unsupported row', () => {
+  const db = initDatabase(':memory:');
+  recordAnalysis(db, { appId: 'app.new', kind: 'release', ref: 'v1', status: 'failed', analyser: 't', error: 'clone failed' });
+  let [row] = getAnalyses(db, 'app.new');
+  assert.equal(row.status, 'failed');
+  assert.equal(row.error, 'clone failed');
+  assert.equal(row.failed_attempt_at, null);
+  recordAnalysis(db, { appId: 'app.new', kind: 'release', ref: 'v1', status: 'failed', analyser: 't', error: 'osv (timeout)' });
+  [row] = getAnalyses(db, 'app.new');
+  assert.equal(row.error, 'osv (timeout)', 'with no good row, the newest failure is the row');
+  recordAnalysis(db, { appId: 'app.flutter', kind: 'release', ref: 'v1', status: 'unsupported', analyser: 't' });
+  recordAnalysis(db, { appId: 'app.flutter', kind: 'release', ref: 'v1', status: 'failed', analyser: 't', error: 'boom' });
+  assert.equal(getAnalyses(db, 'app.flutter')[0].status, 'failed', 'only an ok row is kept');
+});
+
+test('a failed re-check leaves analysed_at and the --reanalyse order unchanged', async () => {
+  const { releasesToReanalyse, hasReleaseAnalysis } = await import('../ddbbUtils.mjs');
+  const db = initDatabase(':memory:');
+  for (const ref of ['v1', 'v2', 'v3']) recordAnalysis(db, { appId: 'app.order', kind: 'release', ref, status: 'ok', analyser: 't' });
+  const at = { v1: '2026-01-01 00:00:00', v2: '2026-02-01 00:00:00', v3: '2026-03-01 00:00:00' };
+  for (const [ref, t] of Object.entries(at)) db.prepare("UPDATE analyses SET analysed_at = ? WHERE app_id = 'app.order' AND ref = ?").run(t, ref);
+  const order = releasesToReanalyse(db, 'app.order');
+  assert.deepEqual(order, ['v3', 'v2', 'v1']);
+
+  recordAnalysis(db, { appId: 'app.order', kind: 'release', ref: 'v1', status: 'failed', analyser: 't', error: 'boom' });
+  assert.deepEqual(releasesToReanalyse(db, 'app.order'), order);
+  const v1 = getAnalyses(db, 'app.order').find(r => r.ref === 'v1');
+  assert.equal(v1.analysed_at, at.v1);
+  assert.equal(v1.failed_attempt_error, 'boom');
+  assert.equal(hasReleaseAnalysis(db, 'app.order', 'v1'), true, 'the kept ok row is not retried by the next pass');
+});
+
+test('initDatabase adds the failed-attempt columns to an older database without touching its rows', async () => {
+  const fs = await import('fs'); const os = await import('os'); const path = await import('path');
+  const file = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'sa-998-')), 'assets.db');
+  const db = initDatabase(file);
+  recordAnalysis(db, { appId: 'app.old', kind: 'release', ref: 'v1', status: 'ok', analyser: 't', dependencies: 5 });
+  db.exec('ALTER TABLE analyses DROP COLUMN failed_attempt_at');
+  db.exec('ALTER TABLE analyses DROP COLUMN failed_attempt_error');
+  const stored = db.prepare('SELECT * FROM analyses').all();
+  db.close();
+  const reopened = initDatabase(file);
+  const columns = reopened.prepare('PRAGMA table_info(analyses)').all().map(c => c.name);
+  assert.ok(columns.includes('failed_attempt_at') && columns.includes('failed_attempt_error'));
+  const rows = reopened.prepare('SELECT * FROM analyses').all();
+  assert.deepEqual(rows.map(({ failed_attempt_at, failed_attempt_error, ...r }) => r), stored);
+  assert.ok(rows.every(r => r.failed_attempt_at === null && r.failed_attempt_error === null));
+  reopened.close();
+});

@@ -317,6 +317,8 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
     analysedAt: current.analysedAt || null,
     status: current.status || 'ok',
     error: current.error || null,
+    // a later re-check of this release failed; the result shown is the earlier one that worked (issue 998)
+    recheckFailed: current.recheckFailed?.at ? { at: current.recheckFailed.at, error: current.recheckFailed.error || null } : null,
     selectedVersion: selectedVersion || null,
     packages: dependencies?.total ?? 0,
     // the whole repository's, for what still covers all of it: the rebuild tile, the unchecked note, the tree

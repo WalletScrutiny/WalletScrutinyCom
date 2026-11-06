@@ -322,10 +322,14 @@ export function initDatabase(dbPath = DB_PATH) {
       vulnerabilities INTEGER,
       lock_coverage TEXT,                        -- JSON plugins/lock-coverage.mjs result, NULL when it did not run
       analysed_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      failed_attempt_at DATETIME,                -- the last re-check that failed and left this ok row in place (issue 998)
+      failed_attempt_error TEXT,
       PRIMARY KEY (app_id, kind, ref)
     );
   `);
   ensureColumn(db, 'analyses', 'lock_coverage', 'TEXT');
+  ensureColumn(db, 'analyses', 'failed_attempt_at', 'DATETIME');
+  ensureColumn(db, 'analyses', 'failed_attempt_error', 'TEXT');
 
   // The git submodules of an analysed release with their three claims
   // (submoduleIdentity.mjs), as the walk returned them; one row per release.
@@ -363,9 +367,18 @@ export function initDatabase(dbPath = DB_PATH) {
 }
 
 // Store the outcome of one analysis (see appAnalysis.runSourceCodeAnalysis);
-// a repeat of the same (appId, kind, ref) replaces the earlier row.
+// a repeat of the same (appId, kind, ref) replaces the earlier row, except
+// that a failed one leaves an ok row in place (issue 998): it only notes the
+// attempt and its error beside it, and analysed_at stays the ok check's.
 export function recordAnalysis(db, { appId, kind, ref, commit = null, status, error = null, appType = null,
   analyser, plugins = [], lockfiles = [], dependencies = null, osvChecked = null, osvSkipped = {}, vulnerabilities = null, lockCoverage = null }) {
+  if (status === 'failed') {
+    const kept = db.prepare(`
+      UPDATE analyses SET failed_attempt_at = CURRENT_TIMESTAMP, failed_attempt_error = ?
+      WHERE app_id = ? AND kind = ? AND ref = ? AND status = 'ok'
+    `).run(error, appId, kind, ref);
+    if (kept.changes) return;
+  }
   db.prepare(`
     INSERT OR REPLACE INTO analyses
       (app_id, kind, ref, commit_sha, status, error, app_type, analyser, plugins, lockfiles,

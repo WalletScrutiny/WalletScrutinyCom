@@ -180,6 +180,8 @@ function analysisEntry(a) {
     lockCoverage: coverageForReaders(a.lock_coverage) || undefined,
     // the same, for one app's page, when the repository also builds the other app
     lockCoverageByPlatform: coverageByPlatform(a.lock_coverage),
+    // a later re-check that failed and left this result in place (issue 998)
+    recheckFailed: a.failed_attempt_at ? { at: a.failed_attempt_at, error: a.failed_attempt_error || undefined } : undefined,
   };
 }
 
