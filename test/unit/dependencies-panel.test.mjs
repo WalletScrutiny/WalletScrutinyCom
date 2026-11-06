@@ -108,7 +108,7 @@ describe('dependencies panel', () => {
     assert.doesNotMatch(host.textContent, /store version/i, 'the store version is not shown');
     assert.match(host.querySelector('.dp-note').textContent, /Since v1\.3\.0: 12 packages added, 3 removed, 40 updated, and 1 changed content at the same version \(npm:left-pad\)/);
     assert.match(host.querySelector('.dp-headline').textContent, /Checked release v1\.4\.0 \(source tag, commit a1b2c3d\) · Checked on 2026-10-01/);
-    assert.deepEqual([...host.querySelectorAll('.dp-where')].slice(0, 4).map(e => e.textContent), ['app', 'build', 'tests', '?']);
+    assert.deepEqual([...host.querySelectorAll('.dp-where')].slice(0, 4).map(e => e.textContent), ['app', 'build', 'tests', 'unknown']);
 
     const empty = document.createElement('div');
     empty.hidden = true;

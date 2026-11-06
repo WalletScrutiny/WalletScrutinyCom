@@ -7,7 +7,7 @@
 import * as nip19 from 'nostr-tools/nip19';
 import { el } from './html-utils.mjs';
 import {
-  panelModel, releaseForVersion, whereOf, whereLabel, safeName, csvOf, notInAppText, sortingLabel, SEVERITY_ORDER, SEVERITY_LABEL,
+  panelModel, releaseForVersion, whereOf, whereLabel, WHERE_UNKNOWN_TIP, safeName, csvOf, notInAppText, sortingLabel, SEVERITY_ORDER, SEVERITY_LABEL,
 } from './dependencies-panel-model.mjs';
 import { TRIAGE_LABEL, JUSTIFICATION_LABEL, DELETION_KIND, triageStateOf, withStatement, mergeLiveTriage, triageForApp } from './dependency-triage.mjs';
 import { dependencyTriageKind, mainRelayUrl, eventRelayUrls } from './nostr-constants.mjs';
@@ -375,7 +375,7 @@ export function severityTally(model, rows = model.advisories || [], { explain = 
 
 // The ecosystem only appears when the release mixes several (npm next to
 // gradle next to pip); a wallet with one ecosystem would repeat it on every row.
-function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = null, defaultBranch = null } = {}) {
+function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = null, defaultBranch = null, showWhere = true } = {}) {
   const where = whereOf(a);
   const fresh = Boolean(freshId) && statementsOf(a).some(s => s.id === freshId);
   return el('tr', { className: fresh ? 'dp-row--fresh' : null, dataset: { advisory: a.id, package: a.package } },
@@ -383,7 +383,7 @@ function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = nul
     el('td', { className: 'dp-td-version', dataset: { label: 'Version' } }, a.version, fixedInMasterLine(a, defaultBranch)),
     el('td', { className: 'dp-td-advisory', dataset: { label: 'Advisory' } }, el('a', { href: `${OSV_URL}${encodeURIComponent(a.id)}`, target: '_blank', rel: 'noopener noreferrer', title: a.summary || '' }, a.id)),
     el('td', { className: 'dp-td-severity', dataset: { label: 'Severity' } }, severityCell(a)),
-    el('td', { className: 'dp-td-where', dataset: { label: 'Where?' } }, el('span', { className: `dp-where dp-where--${where}` }, whereLabel(a)), inApkLine(a)),
+    showWhere ? el('td', { className: 'dp-td-where', dataset: { label: 'Where?' } }, el('span', { className: `dp-where dp-where--${where}`, title: where === 'unknown' ? WHERE_UNKNOWN_TIP : null }, whereLabel(a)), inApkLine(a)) : null,
     el('td', { className: 'dp-td-products', dataset: { label: 'Used by' } }, usedBy(a)),
     el('td', { className: 'dp-td-decision', dataset: { label: 'Decision' } }, decisionCell(a, { onJudge, freshId })),
   );
@@ -670,16 +670,18 @@ export function usedBy(a) {
 }
 
 // The worst rows, or every row with `showAll` (after a publish, so the judged
-// row stays in sight wherever it re-sorts to).
+// row stays in sight wherever it re-sorts to). "Where?" is left out when no
+// row has an answer for it (a Python wallet's requirements.txt says nothing).
 function advisoryTable(model, { onJudge = null, freshId = null, showAll = false } = {}) {
   if (!model.advisories.length) return null;
   const shown = showAll ? model.advisories : model.worst;
   const rest = model.advisories.slice(shown.length);
-  const rowOptions = { mixedEcosystems: model.ecosystems.length > 1, onJudge, freshId, defaultBranch: model.defaultBranch };
+  const showWhere = !allWhereUnknown(model);
+  const rowOptions = { mixedEcosystems: model.ecosystems.length > 1, onJudge, freshId, defaultBranch: model.defaultBranch, showWhere };
   const body = el('tbody', {}, shown.map(a => advisoryRow(a, rowOptions)));
   const table = el('table', { className: 'dp-table' },
     el('thead', {}, el('tr', {},
-      ['Package', 'Version', 'Advisory', 'Severity', 'Where?', 'Used by', 'Decision'].map(h => el('th', {}, h)),
+      ['Package', 'Version', 'Advisory', 'Severity', showWhere ? 'Where?' : null, 'Used by', 'Decision'].filter(Boolean).map(h => el('th', {}, h)),
     )),
     body,
   );
@@ -693,6 +695,12 @@ function advisoryTable(model, { onJudge = null, freshId = null, showAll = false 
     wrap.appendChild(more);
   }
   return wrap;
+}
+
+// No advisory row says where its package ends up. The released-APK line
+// also lives in that column, so a row with one keeps the column.
+function allWhereUnknown(model) {
+  return model.advisories?.length > 0 && model.advisories.every(a => whereOf(a) === 'unknown' && !inApkLine(a));
 }
 
 function headline(model) {
@@ -841,13 +849,15 @@ function howToRead(model) {
   }
   parts.push('We do not rank wallets by this number. ');
   parts.push('Which app a dependency file belongs to comes from a short hand-made list, made by reading each wallet\'s build files. It is not a check of the released app. A file not on the list counts on every page, so the numbers can be too high. "Where?" labels such as "website" or "desktop app" are guesses from folder names. ');
-  if (model.byScope) {
+  if (allWhereUnknown(model)) {
+    parts.push('The files do not say whether any package with an advisory ends up in the app, the build tooling or the tests, so the table has no Where? column. ');
+  } else if (model.byScope) {
     const b = model.byScope;
     parts.push(`"Where?" says where a package ends up: ${b.app} in the app, ${b.build} in the build tooling, ${b.tests} only in tests`);
-    parts.push(b.unknown ? `, and ${b.unknown} the files do not say ("?"). ` : '. ');
+    parts.push(b.unknown ? `, and ${b.unknown} the files do not say ("unknown"). ` : '. ');
     parts.push('A build or test dependency can still hurt the product (an install script runs on the developer\'s machine), so every advisory needs its own look. ');
   } else if (model.whereUnknown) {
-    parts.push(`"?" in the Where? column means the files do not say whether the package ends up in the app, the build tooling or the tests (${model.whereUnknown} packages). `);
+    parts.push(`"unknown" in the Where? column means the files do not say whether the package ends up in the app, the build tooling or the tests (${model.whereUnknown} packages). `);
   }
   parts.push('"Used by" counts how many of the wallets we have checked ship the package in any version, and how many this exact version: a package shared by many wallets is a shared risk, not a problem with this one. ');
   if (model.lockfiles.length) {

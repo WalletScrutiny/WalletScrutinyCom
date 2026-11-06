@@ -133,10 +133,13 @@ export function notInAppText(notInApp) {
 }
 
 // Where a package ends up (`whereOf`, dependency-triage.mjs): "app", "build",
-// "tests", or "?" when the files do not say.
+// "tests", or "unknown" when the files do not say.
 export function whereLabel(row) {
-  return WHERE_LABELS[whereOf(row)] || '?';
+  return WHERE_LABELS[whereOf(row)] || 'unknown';
 }
+
+// The tooltip on an "unknown" Where? label.
+export const WHERE_UNKNOWN_TIP = 'The dependency files do not record whether this package ends up in the app, the build tooling or the tests.';
 
 // The digits of a version: "android-v2.8.4" -> "2.8.4", "v1.4.0-beta1" -> "1.4.0-beta1".
 export function versionCore(s) {

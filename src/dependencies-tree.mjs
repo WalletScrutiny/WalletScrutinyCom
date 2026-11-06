@@ -7,7 +7,7 @@
 // installed binary; informational, not part of any verdict.
 
 import { el } from './html-utils.mjs';
-import { whereLabel, SEVERITY_ORDER, SEVERITY_LABEL } from './dependencies-panel-model.mjs';
+import { whereLabel, WHERE_UNKNOWN_TIP, SEVERITY_ORDER, SEVERITY_LABEL } from './dependencies-panel-model.mjs';
 import { rebuildBadge, rebuildKey } from './dependencies-rebuilds.mjs';
 import { buildTree, childrenOf, searchNodes, GROUPS, UNREACHABLE_LABEL, MAX_MATCHES, THIS_APP, THIS_APP_LABEL, OTHER_PRODUCTS_LABEL } from './dependencies-tree-model.mjs';
 
@@ -93,7 +93,7 @@ export function treeElement({ dependencies, advisories = [], wallet, rebuilds = 
       toggle,
       nodeLabel(node),
       el('span', { className: 'dpt-version' }, node.version),
-      el('span', { className: `dp-where dp-where--${node.scope}` }, whereLabel(node.row)),
+      el('span', { className: `dp-where dp-where--${node.scope}`, title: node.scope === 'unknown' ? WHERE_UNKNOWN_TIP : null }, whereLabel(node.row)),
       advisoryBadge(node),
       rebuilds ? rebuildBadge(rebuilds.get(rebuildKey(node.ecosystem, node.name, node.version))) : null,
       kids.length ? el('span', { className: 'dpt-count' }, `${kids.length} ${kids.length === 1 ? 'dependency' : 'dependencies'}`) : null,

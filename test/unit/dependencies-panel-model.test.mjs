@@ -45,7 +45,7 @@ describe('dependencies panel model', () => {
     assert.equal(whereLabel({ scope: 'app' }), 'app');
     assert.equal(whereLabel({ dev: false }), 'app');
     assert.equal(whereLabel({ dev: true }), 'build');
-    assert.equal(whereLabel({ dev: null }), '?');
+    assert.equal(whereLabel({ dev: null }), 'unknown');
     assert.equal(whereOf({ scope: 'bogus', dev: null }), 'unknown');
   });
 
