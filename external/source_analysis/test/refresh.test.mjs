@@ -8,6 +8,7 @@ import path from 'path';
 import { initDatabase, saveAppList, saveDependencies, saveVulnerabilities, recordAnalysis } from '../ddbbUtils.mjs';
 import { exportAll } from '../export.mjs';
 import { refreshAdvisories } from '../refresh.mjs';
+import { markerPathFor, readMarker } from '../publish.mjs';
 
 const entry = (name, version) => ({ ecosystem: 'npm', lockfile: 'package-lock.json', name, version, resolved: `https://registry.npmjs.org/${name}/-/${name}-${version}.tgz`, integrity: `sha512-${name}${version}`, direct: true, dev: false, scope: 'app', dependants: null, tier: 'hash-pinned' });
 const finding = (name, version, id, extra = {}) => ({ ecosystem: 'npm', name, version, id, aliases: [], severity: 'high', summary: '', fixed: [], direct: true, dev: false, scope: 'app', dependants: null, ...extra });
@@ -64,5 +65,51 @@ test('refreshAdvisories: before the first export only the database is updated', 
   const r = await refreshAdvisories(db, { exportDir: dir, onlyReproducible: false, check, deliver: async () => {},
     publish: () => { throw new Error('not reached'); } });
   assert.deepEqual([r.changed, r.exported, fs.existsSync(dir)], [['a.wallet'], [], false]);
+  db.close();
+});
+
+// The export as the last pass left it, an hour ago.
+function exportedAnHourAgo(db) {
+  const dir = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'sa-refresh-')), 'export');
+  exportAll(db, dir);
+  const then = new Date(Date.now() - 3600 * 1000);
+  const age = (d) => { for (const e of fs.readdirSync(d, { withFileTypes: true })) { const f = path.join(d, e.name); if (e.isDirectory()) age(f); fs.utimesSync(f, then, then); } };
+  age(dir);
+  return dir;
+}
+
+test('refreshAdvisories: a failed upload is sent by the next run, though nothing changed since', async () => {
+  const db = seeded();
+  const dir = exportedAnHourAgo(db);
+  const opts = { exportDir: dir, onlyReproducible: false, check, deliver: async () => {}, signals: async () => ({ written: false }), log: { log() {}, warn() {} } };
+  await assert.rejects(refreshAdvisories(db, { ...opts, publish: () => { throw new Error('rsync exited 255: connection refused'); } }), /rsync exited 255/);
+  const published = [];
+  const r = await refreshAdvisories(db, { ...opts, publish: (d, files) => { published.push(...files); return { published: true }; } });
+  assert.deepEqual(r.changed, [], 'the database already has the new severity');
+  assert.ok(r.published);
+  assert.ok(published.includes('apps/a.wallet.json') && published.includes('index.json'), published.join(', '));
+  assert.ok(!published.some(f => f.startsWith('apps/b.wallet')), 'b.wallet was published by the pass');
+  const app = JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'a.wallet.json'), 'utf8'));
+  assert.equal(app.releases[0].advisories[0].severity, 'critical');
+  let again = 0;
+  await refreshAdvisories(db, { ...opts, publish: () => { again++; return { published: true }; } });
+  assert.equal(again, 0, 'sent once, not every hour');
+  db.close();
+});
+
+test('refreshAdvisories: nothing new and nothing failed, no upload', async () => {
+  const db = seeded();
+  const dir = exportedAnHourAgo(db);
+  const opts = { exportDir: dir, onlyReproducible: false, check, deliver: async () => {}, signals: async () => ({ written: false }), log: { log() {}, warn() {} } };
+  let publishes = 0;
+  const publish = () => { publishes++; return { published: true }; };
+  await refreshAdvisories(db, { ...opts, publish });
+  assert.equal(publishes, 1, 'the changed wallet');
+  const marker = readMarker(markerPathFor(dir));
+  assert.ok(marker > Date.now() - 60 * 1000, 'the marker moved to the upload');
+  assert.ok(!fs.readdirSync(dir).some(f => f.includes('published')), 'the marker is not part of the export');
+  const r = await refreshAdvisories(db, { ...opts, publish });
+  assert.deepEqual([r.changed, r.retried, r.published, publishes], [[], 0, false, 1]);
+  assert.equal(readMarker(markerPathFor(dir)), marker);
   db.close();
 });

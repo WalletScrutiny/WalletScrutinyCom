@@ -406,9 +406,13 @@ try {
       errorCount++;
     }
     try {
-      const { publishExport } = await import('./publish.mjs');
+      const { publishExport, markerPathFor, writeMarker, newestExportFile } = await import('./publish.mjs');
       const published = publishExport(EXPORT_DIR);
-      if (published.published) console.log(`Published the export to ${published.target}`);
+      if (published.published) {
+        console.log(`Published the export to ${published.target}`);
+        // All of it is on the web host now; the hourly refresh resends from here (issue 997)
+        writeMarker(markerPathFor(EXPORT_DIR), newestExportFile(EXPORT_DIR));
+      }
     } catch (error) {
       console.error('\n✗  Publishing the export failed:', error.message);
       errorCount++;
