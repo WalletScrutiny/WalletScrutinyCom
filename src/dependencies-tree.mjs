@@ -250,6 +250,10 @@ export function treeElement({ dependencies, advisories = [], wallet, rebuilds = 
   const limits = [];
   if (tree.unreachable.length) limits.push(`${tree.unreachable.length} packages are listed under "${UNREACHABLE_LABEL}": the files name no parent for them, or the parent they name is not in the lockfile${tree.missingParents ? ` (${tree.missingParents} such references)` : ''}.`);
 
+  // A tree with a single group opens it: there is nothing to choose between.
+  const groupIds = tree.products.flatMap(p => [...p.groups.map(g => groupId(p.id, g.scope)), ...(p.unreachable.length ? [groupId(p.id, 'unreachable')] : [])]);
+  if (!split && groupIds.length === 1) expanded.add(groupIds[0]);
+
   paint();
   return el('div', { className: 'dpt' },
     el('p', { className: 'dpt-intro' },
