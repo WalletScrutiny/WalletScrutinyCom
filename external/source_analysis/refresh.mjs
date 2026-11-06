@@ -10,6 +10,16 @@
 // anything changed since: every file newer than the "published up to" marker
 // (publish.mjs, markerPathFor) goes along, and only a successful upload moves
 // the marker (issue 997).
+//
+// The refresh holds the run lock, and a pass waits for it. A stalled OSV.dev
+// fails a release only after about 93 s (osv.mjs: timeouts and retries), so
+// one release after another would keep a pass waiting for hours (issue 999).
+// The refresh stops looking up after 3 failures in a row or after 45 minutes,
+// before the next hourly run; what it changed until then is still published.
+// The next run starts at the first release it left out (export.refresh-next,
+// next to the export), so releases behind 3 that always fail, or behind the
+// 45 minutes, are still looked up every other hour.
+// The service's TimeoutStartSec ends it if a single lookup hangs beyond that.
 import fs from 'fs';
 import path from 'path';
 import { recheckStoredReleases } from './recheck.mjs';
@@ -25,10 +35,31 @@ import { buildNews } from './news.mjs';
  * how many files a failed upload had left behind. Without an export (no
  * exportDir, or no index.json yet: the first pass writes it) only the
  * database is updated. A failing upload throws, and the marker stays.
+ * A refresh that stopped early also has stopped: { reason, skipped, next }.
  */
-export async function refreshAdvisories(db, { exportDir = null, onlyReproducible = true, check, deliver, publish = publishFiles, signals = buildSignals, log = console, markerPath = exportDir && markerPathFor(exportDir) } = {}) {
+export const MAX_FAILURES_IN_A_ROW = 3;
+export const TIME_LIMIT_MS = 45 * 60 * 1000;
+export const resumePathFor = (exportDir) => `${path.resolve(exportDir)}.refresh-next`;
+
+function readResume(file) {
+  try {
+    const { appId, version } = JSON.parse(fs.readFileSync(file, 'utf8'));
+    return typeof appId === 'string' && typeof version === 'string' ? { appId, version } : null;
+  } catch {
+    return null;
+  }
+}
+
+export async function refreshAdvisories(db, { exportDir = null, onlyReproducible = true, check, deliver, publish = publishFiles, signals = buildSignals, log = console, markerPath = exportDir && markerPathFor(exportDir), maxFailuresInARow = MAX_FAILURES_IN_A_ROW, timeLimitMs = TIME_LIMIT_MS, now = Date.now, resumePath = exportDir && resumePathFor(exportDir) } = {}) {
   const apps = db.prepare('SELECT DISTINCT app_id FROM app_dependencies ORDER BY app_id').all().map(r => r.app_id);
-  const recheck = await recheckStoredReleases(db, apps, { ...(check && { check }), ...(deliver && { deliver }) });
+  const recheck = await recheckStoredReleases(db, apps, { ...(check && { check }), ...(deliver && { deliver }), maxFailuresInARow, deadline: now() + timeLimitMs, now, startAt: resumePath && readResume(resumePath) });
+  if (recheck.stopped) {
+    const { reason, skipped, next } = recheck.stopped;
+    log.log(`Refresh stopped early: ${reason}; ${skipped} releases not looked up keep their stored advisories; the next run starts at ${next.appId} ${next.version}`);
+    if (resumePath) fs.writeFileSync(resumePath, `${JSON.stringify(next)}\n`);
+  } else if (resumePath) {
+    fs.rmSync(resumePath, { force: true });
+  }
   const result = { ...recheck, exported: [], published: false, retried: 0 };
   if (!exportDir || !fs.existsSync(path.join(exportDir, 'index.json'))) return result;
   // No marker yet (the first run): the export as it stands counts as

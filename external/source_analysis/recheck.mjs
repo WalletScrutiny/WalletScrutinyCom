@@ -29,37 +29,58 @@ export function entryOfRow(r) {
  * that were not stored before and changed lists the apps whose stored
  * advisories differ afterwards in any way (new, withdrawn, or edited: a new
  * severity, fix version or summary), the ones whose files are out of date.
+ *
+ * The hourly refresh holds the run lock while this runs, and a pass waits for
+ * it (issue 999). A stalled OSV.dev fails each release only after its request
+ * timeouts and retries, so `maxFailuresInARow` stops after that many failed
+ * lookups in a row, and no lookup starts after `deadline` (ms since the
+ * epoch). Releases not looked up keep their stored advisories, as a failed
+ * lookup does; the result then also has stopped: { reason, skipped, next },
+ * next being the first release not looked up. `startAt` (such a next) starts
+ * there and wraps around, so releases behind a stop get their turn in the
+ * following run: 3 releases that always fail would otherwise stop every run
+ * before the ones after them.
  */
-export async function recheckStoredReleases(db, appIds, { since = null, check = checkVulnerabilities, deliver = deliverAlerts } = {}) {
+export async function recheckStoredReleases(db, appIds, { since = null, check = checkVulnerabilities, deliver = deliverAlerts, maxFailuresInARow = Infinity, deadline = Infinity, now = Date.now, startAt = null } = {}) {
   const versionsOf = db.prepare(`
     SELECT DISTINCT d.version FROM app_dependencies d
     WHERE d.app_id = ? AND NOT EXISTS (
       SELECT 1 FROM analyses a WHERE a.app_id = d.app_id AND a.kind = 'release' AND a.ref = d.version AND ? IS NOT NULL AND a.analysed_at >= ?)
     ORDER BY d.version`);
   const updateCount = db.prepare(`UPDATE analyses SET vulnerabilities = ?, osv_checked = ? WHERE app_id = ? AND kind = 'release' AND ref = ?`);
-  let releases = 0, failed = 0, added = 0;
+  const all = appIds.flatMap(appId => versionsOf.all(appId, since, since).map(({ version }) => ({ appId, version })));
+  // From startAt, or the release after it in this order when it is gone, then around.
+  const from = startAt ? Math.max(0, all.findIndex(r => r.appId > startAt.appId || (r.appId === startAt.appId && r.version >= startAt.version))) : 0;
+  const todo = [...all.slice(from), ...all.slice(0, from)];
+  let releases = 0, failed = 0, added = 0, failedInARow = 0, stopped = null;
   const changed = new Set();
-  for (const appId of appIds) {
-    for (const { version } of versionsOf.all(appId, since, since)) {
-      const entries = getDependencies(db, appId, version).map(entryOfRow);
-      const result = await check([{ entries }]);
-      if (!result) {
-        console.log(`  ${appId} ${version}: OSV.dev lookup failed, keeping the stored advisories`);
-        failed++;
-        continue;
-      }
-      const stored = getVulnerabilities(db, appId, version);
-      const before = new Set(stored.map(v => `${v.ecosystem}\u0000${v.name}\u0000${v.dep_version}\u0000${v.vuln_id}`));
-      const fresh = result.findings.filter(f => !before.has(`${f.ecosystem}\u0000${f.name}\u0000${f.version}\u0000${f.id}`));
-      saveVulnerabilities(db, appId, version, result);
-      updateCount.run(result.findings.length, result.checked, appId, version);
-      if (JSON.stringify(getVulnerabilities(db, appId, version)) !== JSON.stringify(stored)) changed.add(appId);
-      recordMalwareAlerts(db, appId, version, result.findings);
-      if (fresh.length) console.log(`  ${appId} ${version}: ${fresh.length} new advisories (${fresh.map(f => f.id).join(', ')})`);
-      releases++;
-      added += fresh.length;
+  for (const [i, { appId, version }] of todo.entries()) {
+    const reason = failedInARow >= maxFailuresInARow ? `${failedInARow} OSV.dev lookups failed in a row`
+      : now() >= deadline ? 'the deadline passed' : null;
+    if (reason) {
+      stopped = { reason, skipped: todo.length - i, next: { appId, version } };
+      break;
     }
+    const entries = getDependencies(db, appId, version).map(entryOfRow);
+    const result = await check([{ entries }]);
+    if (!result) {
+      console.log(`  ${appId} ${version}: OSV.dev lookup failed, keeping the stored advisories`);
+      failed++;
+      failedInARow++;
+      continue;
+    }
+    failedInARow = 0;
+    const stored = getVulnerabilities(db, appId, version);
+    const before = new Set(stored.map(v => `${v.ecosystem}\u0000${v.name}\u0000${v.dep_version}\u0000${v.vuln_id}`));
+    const fresh = result.findings.filter(f => !before.has(`${f.ecosystem}\u0000${f.name}\u0000${f.version}\u0000${f.id}`));
+    saveVulnerabilities(db, appId, version, result);
+    updateCount.run(result.findings.length, result.checked, appId, version);
+    if (JSON.stringify(getVulnerabilities(db, appId, version)) !== JSON.stringify(stored)) changed.add(appId);
+    recordMalwareAlerts(db, appId, version, result.findings);
+    if (fresh.length) console.log(`  ${appId} ${version}: ${fresh.length} new advisories (${fresh.map(f => f.id).join(', ')})`);
+    releases++;
+    added += fresh.length;
   }
   if (releases) await deliver(db);
-  return { releases, failed, added, changed: [...changed] };
+  return { releases, failed, added, changed: [...changed], ...(stopped && { stopped }) };
 }

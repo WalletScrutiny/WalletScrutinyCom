@@ -27,3 +27,7 @@ ProtectSystem=full
 # when it ends; refresh-cli.mjs exits 0 without doing anything while one holds
 # the lock next to the database (runLock.mjs), and a pass waits for this run.
 ExecStart=/usr/bin/node refresh-cli.mjs
+# refresh.mjs stops looking up after 45 minutes; this ends a run that still
+# hangs (issue 999). The lock it leaves is taken over once its pid is gone, and
+# an upload cut short is sent again by the next run (export.published).
+TimeoutStartSec=50min

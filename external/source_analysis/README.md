@@ -346,6 +346,17 @@ to exist, and it is skipped while a pass runs, since the pass rechecks and
 exports everything when it ends. So a new advisory reaches the page within
 about an hour, or at the end of a pass that is running then.
 
+A pass waits while a refresh holds the lock (below), so a refresh is kept
+short even when OSV.dev stalls (issue 999). Each release whose lookup fails
+keeps its stored advisories; after 3 failures in a row, or 45 minutes, the
+refresh looks up nothing more, logs `Refresh stopped early: <reason>; <n>
+releases not looked up keep their stored advisories; the next run starts at
+<app> <version>` and exports and uploads what it changed until then. The next
+run starts at that release (`export.refresh-next`, next to the export) and
+wraps around, so the releases behind 3 that always fail, or behind the 45
+minutes, still get their turn. A run that looked everything up removes the
+file. `TimeoutStartSec=50min` in the service ends a run that still hangs.
+
 A failed upload is sent again by the next refresh, even when nothing changed
 since. `export.published`, next to the export directory (outside it, so it is
 never published), holds the newest file time of the export at the last
@@ -359,7 +370,8 @@ Only one of them writes at a time. A pass (from the timer or by hand), the
 refresh and `node export.mjs` take a lock file next to the database
 (`assets.db.lock`, holding the owner's pid; `runLock.mjs`). The refresh skips
 when it is held; a pass and `export.mjs` wait for it, which for a refresh is
-minutes. A lock left by a killed run is taken over once its pid is gone.
+minutes, 50 at most. A pass that waits logs `Waiting for process <pid> to
+finish (<lock file>)...` once. A lock left by a killed run is taken over once its pid is gone.
 
 `scope` says where a package ends up, as far as the files say: `app` when it
 is reachable from the project's own dependencies, `build` when only from its
