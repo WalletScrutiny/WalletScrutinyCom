@@ -154,3 +154,72 @@ test('runSourceCodeAnalysis: a plugin that failed in the container fails the ana
   const result = analyseWithStubResult({ ok: true, commit: 'c'.repeat(40), appType: 'npm', results: {}, failed: [{ plugin: 'pinning', error: 'boom' }] });
   assert.equal(result, null);
 });
+
+// Two runSourceCodeAnalysis runs of release v1 on one database (issue 1011):
+// the first succeeds, then `second` changes what the second one meets
+// ('osv-fails': OSV.dev answers 400; 'crash': storing an advisory throws,
+// inside the transaction). Returns the stored rows after each run.
+function analyseTwice(second) {
+  const dir = tmp('sa-twice-');
+  const cli = path.join(dir, 'docker');
+  fs.writeFileSync(cli, `#!/usr/bin/env bash
+[ "$1" = run ] || exit 0
+for a in "$@"; do case "$a" in *:/work:rw) cp "${dir}/result.json" "\${a%:/work:rw}/result.json";; esac; done
+`);
+  fs.chmodSync(cli, 0o755);
+  const entry = (name, version) => ({ ecosystem: 'npm', lockfile: 'package-lock.json', name, version,
+    resolved: `https://registry.npmjs.org/${name}/-/${name}-${version}.tgz`, integrity: `sha512-${name}${version}`,
+    direct: true, dev: false, tier: 'hash-pinned' });
+  const result = (entries) => JSON.stringify({ ok: true, commit: 'c'.repeat(40), appType: 'npm',
+    results: { pinning: [{ entries, lockfiles: ['package-lock.json'] }] }, failed: [] });
+  const out = execFileSync('node', ['--input-type=module', '-e',
+    `import fs from 'fs';
+     const { runSourceCodeAnalysis } = await import('${path.join(here, '..', 'appAnalysis.mjs')}');
+     const { initDatabase, getDependencies, getVulnerabilities, getAnalyses } = await import('${path.join(here, '..', 'ddbbUtils.mjs')}');
+     const db = initDatabase(':memory:');
+     let osvFails = false;
+     globalThis.fetch = async (url, options) => {
+       const json = (body, status = 200) => ({ ok: status < 300, status, json: async () => body });
+       if (osvFails) return json({}, 400);
+       if (url.endsWith('/querybatch')) return json({ results: JSON.parse(options.body).queries.map(q => q.package.name === 'a' ? { vulns: [{ id: 'GHSA-a' }] } : {}) });
+       return json({ id: 'GHSA-a', summary: 'a is bad', database_specific: { severity: 'HIGH' } });
+     };
+     const snapshot = (result) => ({ result: result && result.commit,
+       dependencies: getDependencies(db, 'app', 'v1'), vulnerabilities: getVulnerabilities(db, 'app', 'v1'),
+       analyses: getAnalyses(db, 'app').map(({ status, dependencies, vulnerabilities, failed_attempt_error }) => ({ status, dependencies, vulnerabilities, failed_attempt_error })) });
+     const run = async (resultJson) => {
+       fs.writeFileSync('${dir}/result.json', resultJson);
+       return snapshot(await runSourceCodeAnalysis({ name: 'app', repoUrl: 'https://github.com/o/r', version: 'v1', db }));
+     };
+     const first = await run(${JSON.stringify(result([entry('a', '1.0.0'), entry('b', '1.0.0')]))});
+     if (${JSON.stringify(second)} === 'osv-fails') osvFails = true;
+     else db.exec("CREATE TRIGGER no_advisories BEFORE INSERT ON app_vulnerabilities BEGIN SELECT RAISE(ABORT, 'disk full'); END");
+     const after = await run(${JSON.stringify(result([entry('a', '2.0.0'), entry('c', '1.0.0')]))});
+     console.log('RESULT ' + JSON.stringify({ first, after }));`],
+    { encoding: 'utf8', cwd: path.join(here, '..'), env: {
+      ...process.env, SOURCE_ANALYSIS_CONTAINER_CLI: cli, SOURCE_ANALYSIS_TEMP_DIR: path.join(dir, 'temp'),
+      SOURCE_ANALYSIS_CACHE_DIR: path.join(dir, 'cache'),
+    } });
+  return JSON.parse(out.split('\n').find(l => l.startsWith('RESULT ')).slice(7));
+}
+
+test('runSourceCodeAnalysis: pinning succeeds, then osv fails: the stored dependency rows stay exactly as before (issue 1011)', () => {
+  const { first, after } = analyseTwice('osv-fails');
+  assert.deepEqual(first.dependencies.map(d => `${d.name}@${d.dep_version ?? d.version}`), ['a@1.0.0', 'b@1.0.0']);
+  assert.deepEqual(first.vulnerabilities.map(v => v.vuln_id), ['GHSA-a']);
+  assert.equal(after.result, null, 'the second run failed');
+  assert.deepEqual(after.dependencies, first.dependencies, 'not the new a@2.0.0, c@1.0.0');
+  assert.deepEqual(after.vulnerabilities, first.vulnerabilities);
+  assert.deepEqual(after.analyses, [{ ...first.analyses[0], failed_attempt_error: 'osv (the OSV.dev lookup failed)' }]);
+});
+
+test('runSourceCodeAnalysis: a crash inside the storing transaction rolls all of it back (issue 1011)', () => {
+  const { first, after } = analyseTwice('crash');
+  assert.equal(after.result, null, 'the crash fails the analysis');
+  assert.deepEqual(after.dependencies, first.dependencies, 'the dependency rows the transaction had already replaced are back');
+  assert.deepEqual(after.vulnerabilities, first.vulnerabilities);
+  assert.equal(after.analyses.length, 1);
+  assert.equal(after.analyses[0].status, 'ok');
+  assert.equal(after.analyses[0].dependencies, 2, 'the ok row keeps its counts, not the crashed run\'s');
+  assert.match(after.analyses[0].failed_attempt_error, /disk full/);
+});

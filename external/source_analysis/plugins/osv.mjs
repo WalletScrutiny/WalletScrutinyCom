@@ -393,18 +393,20 @@ function report(queries, skipped, findings) {
 // exact registry version, from OSV.dev, looked up from the host. A failed
 // lookup fails the analysis, so an unchanged default branch is retried next
 // pass instead of being skipped without a vulnerability result. Stored per
-// release (app_vulnerabilities); a malicious package also raises an alert
-// (alerts.mjs).
+// release (app_vulnerabilities) with the analysis; a malicious package also
+// raises an alert (alerts.mjs) right away, whatever the later steps do.
 export default {
   description: 'Test 10: known vulnerabilities (OSV.dev)',
   requires: ['pinning'],
-  async host({ name, version, db, results }) {
+  async host({ name, version, db, results, saves }) {
     const vulnerabilities = await checkVulnerabilities(results.pinning || []);
     if (!vulnerabilities) throw new Error('the OSV.dev lookup failed');
     if (db && version) {
       const { saveVulnerabilities } = await import('../ddbbUtils.mjs');
-      const stored = saveVulnerabilities(db, name, version, vulnerabilities);
-      console.log(`Stored ${stored} vulnerability rows for ${name} ${version}`);
+      saves.push((db) => {
+        const stored = saveVulnerabilities(db, name, version, vulnerabilities);
+        console.log(`Stored ${stored} vulnerability rows for ${name} ${version}`);
+      });
       // A malicious package is not a row to triage some day: record it and tell a person now.
       const { recordMalwareAlerts, deliverAlerts } = await import('../alerts.mjs');
       recordMalwareAlerts(db, name, version, vulnerabilities.findings);
