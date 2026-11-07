@@ -669,6 +669,18 @@ export function usedBy(a) {
   return el('span', {}, String(a.products), same != null ? el('span', { className: 'dp-products-sub' }, ` · ${same} this version`) : null);
 }
 
+// What each column means, opened from its header. Where? bolds its own labels.
+const bold = (text) => el('strong', {}, text);
+const HEADER_TIPS = {
+  Advisory: () => [el('p', {}, 'A published security warning for this library version. Source: OSV.dev, which gathers GitHub, PyPI, RustSec and others.')],
+  Severity: () => [el('p', {}, 'How bad the flaw is if exploited. GitHub\'s reviewed rating, or else the CVSS score. Below it: whether CISA has seen it exploited, the chance of an attack within 30 days (EPSS), and when it became public.')],
+  'Where?': () => [el('p', {},
+    'Where this library ends up: ', bold('app'), ' (inside the wallet), ', bold('build'), ' (build tools only), ', bold('tests'),
+    ' (test tools only), or another part of the repository, like the ', bold('server'), '. ', bold('Unknown'),
+    ': the project\'s files don\'t say. The line below says whether the released APK contains it.')],
+  Decision: () => [el('p', {}, 'Is this wallet affected? Answered by signed statements: affected, not affected, fixed or investigating. Anyone can add one; only reviewers WalletScrutiny trusts settle the row. \'Not assessed\' means none has yet.')],
+};
+
 // The worst rows, or every row with `showAll` (after a publish, so the judged
 // row stays in sight wherever it re-sorts to). "Where?" is left out when no
 // row has an answer for it (a Python wallet's requirements.txt says nothing).
@@ -681,7 +693,8 @@ function advisoryTable(model, { onJudge = null, freshId = null, showAll = false 
   const body = el('tbody', {}, shown.map(a => advisoryRow(a, rowOptions)));
   const table = el('table', { className: 'dp-table' },
     el('thead', {}, el('tr', {},
-      ['Package', 'Version', 'Advisory', 'Severity', showWhere ? 'Where?' : null, 'Used by', 'Decision'].filter(Boolean).map(h => el('th', {}, h)),
+      ['Package', 'Version', 'Advisory', 'Severity', showWhere ? 'Where?' : null, 'Used by', 'Decision'].filter(Boolean)
+        .map(h => el('th', {}, HEADER_TIPS[h] ? tipTrigger(h, HEADER_TIPS[h], { className: 'dp-term dp-th-term' }) : h)),
     )),
     body,
   );

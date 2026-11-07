@@ -94,6 +94,12 @@ describe('dependencies panel', () => {
     assert.equal(host.querySelector('tbody tr td a').getAttribute('href'), 'https://osv.dev/vulnerability/GHSA-crit');
     assert.equal(host.querySelector('.dp-more').textContent, 'Show all 13 advisories');
     assert.deepEqual([...host.querySelectorAll('thead th')].map(e => e.textContent), ['Package', 'Version', 'Advisory', 'Severity', 'Where?', 'Used by', 'Decision']);
+    const headerTips = [...host.querySelectorAll('thead th button')];
+    assert.deepEqual(headerTips.map(e => e.textContent), ['Advisory', 'Severity', 'Where?', 'Decision'], 'Used by has no tip');
+    headerTips[2].dispatchEvent(new window.Event('click', { bubbles: true }));
+    assert.match(host.querySelector('.dp-tip').textContent, /^Where this library ends up: app \(inside the wallet\)/);
+    assert.deepEqual([...host.querySelectorAll('.dp-tip strong')].map(e => e.textContent), ['app', 'build', 'tests', 'server', 'Unknown']);
+    headerTips[2].dispatchEvent(new window.Event('click', { bubbles: true }));
     assert.equal(host.querySelector('.dp-exposure'), null, 'the severities are counted once, in the tile');
     assert.equal(host.querySelector('.dp-tile .dp-triage-line').textContent, '0 decided · 13 still to look at');
     assert.equal(host.querySelectorAll('.dp-decision--undecided').length, 10);

@@ -891,6 +891,13 @@ details.dp-decision__others {
   margin: -6px 0;
 }
 
+// A column header keeps the header's capitals.
+.dp-th-term {
+  font-weight: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+}
+
 // What a term means, opened from .dp-epss or .dp-term. Same look as the assets table's
 // hash-hint tooltip; fixed so the table's scroll box cannot clip it.
 .dp-tip {
@@ -906,6 +913,8 @@ details.dp-decision__others {
   font-family: system-ui, sans-serif;
   font-size: $font-xxs;
   font-weight: 400; // not the bold of the tile number it opens from
+  letter-spacing: normal; // nor the spaced capitals of a table header
+  text-transform: none;
   line-height: 1.4;
   white-space: normal;
   text-align: left;
