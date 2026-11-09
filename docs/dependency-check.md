@@ -609,9 +609,11 @@ count. Launch does not wait for replies (Leo and Danny, 2026-10-26).
    build in the path. The analyser rsyncs its export, `signals.json`
    included, to the web server after every pass, and nginx serves it under
    `/api/source-analysis/` (`external/source_analysis/README.md`,
-   "Publishing the export"). Triage statements come from the relay at page
-   load, on top of the snapshot the site build publishes under
-   `/api/dependency-triage/`. Only the trusted list needs a site build.
+   "Publishing the export"). The trusted authors' and listed maintainers'
+   triage statements come from the relay at page load, on top of the
+   snapshot the site build publishes under `/api/dependency-triage/`. The
+   trusted list and everyone else's statements need a site build (issue
+   1002).
 2. Whether the panel shape above is final, so the branch can be split into
    reviewable merge requests (build-script step, analyser, panel).
 3. The platform-SDK question under the closed-source rule.
