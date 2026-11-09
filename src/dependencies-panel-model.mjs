@@ -221,12 +221,14 @@ export function uncheckedBreakdown(osv) {
 // wallet's own, or a direct user's at the shipped version. Unsigned and
 // harvested, so they only ever join "What others say". An entry whose link a
 // statement on the row already cites as evidence is left out (AirGap's own
-// file was relayed as signed statements).
+// file was relayed as signed statements), unless only an author outside the
+// trusted list cites it: anyone could, to hide the wallet's own note.
 export function upstreamFor(advisory, upstream) {
   const byId = upstream?.advisories;
   if (!byId || !advisory) return [];
   const seen = new Set();
-  const cited = new Set([...(advisory.decision?.basis || []), ...(advisory.triage?.partial || []), ...(advisory.triage?.others || [])].map(b => b.statement?.evidence).filter(Boolean));
+  const others = (advisory.triage?.others || []).filter(o => o.scope !== 'community');
+  const cited = new Set([...(advisory.decision?.basis || []), ...(advisory.triage?.partial || []), ...others].map(b => b.statement?.evidence).filter(Boolean));
   const out = [];
   for (const id of [advisory.id, ...(advisory.aliases || [])]) {
     for (const h of byId[id] || []) {

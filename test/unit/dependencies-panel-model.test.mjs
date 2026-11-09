@@ -143,6 +143,10 @@ describe('dependencies panel model', () => {
     const row = { id: 'GHSA-x', aliases: ['CVE-1'], decision: { basis: [{ statement: { evidence: url(2) } }] } };
     assert.deepEqual(upstreamFor(row, upstream).map(h => h.url), [url(1)]);
     assert.deepEqual(upstreamFor(row, null), []);
+    // an outsider citing the wallet's own note does not hide it; a trusted author's non-settling statement does
+    const others = (scope) => ({ id: 'GHSA-x', triage: { others: [{ scope, statement: { evidence: url(1) } }] } });
+    assert.deepEqual(upstreamFor(others('community'), upstream).map(h => h.url), [url(1)]);
+    assert.deepEqual(upstreamFor(others('unproven'), upstream), []);
   });
 
   test('a row from another product\'s lockfile reads as that product under "Where?"', () => {
