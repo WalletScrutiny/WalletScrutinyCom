@@ -5,11 +5,13 @@
 // the site build picks it up from there (scripts/build-dependency-triage.mjs),
 // and the panel shows it on the row at once without waiting for a build.
 //
-// Who signs decides the weight: an author on the trusted list settles rows
-// for this wallet, anyone else is shown under "What others say". Every
-// statement is made for the wallet whose page it is written on; a listed
-// maintainer of the direct user can say it holds for every wallet instead.
-// The dialog says which applies before the visitor writes.
+// Who signs and what about decide the weight (statementScope): an author on
+// the trusted list settles rows for this wallet, a listed maintainer settles
+// them with a statement about their library for every wallet, anything else
+// is shown under "What others say". Every statement is made for the wallet
+// whose page it is written on; a listed maintainer of the direct user can say
+// it holds for every wallet instead. The dialog says which applies before
+// the visitor writes, and again whenever they change the subject.
 
 import { waitNostr } from 'nip07-awaiter';
 import { el } from './html-utils.mjs';
@@ -98,6 +100,22 @@ export function judgedOn(advisory, { via = null, app = null, release = null, row
   const viaVersions = via ? [...new Set(same.flatMap(r => viaVersionsOf(r, via)))].sort() : [];
   if (viaVersions.length) out.viaVersion = viaVersions.join(',');
   return out;
+}
+
+/**
+ * What a statement on `choice` signed by `pubkey` will count for, as the
+ * dialog says it before signing: the same rule the panel applies afterwards
+ * (statementScope), so a trusted author writing about the package itself and
+ * a listed maintainer outside the trusted list are both told what happens.
+ */
+export function signerWeight(advisory, choice, { pubkey, everywhere = false, appId = null, trusted = new Set(), maintainers = {} } = {}) {
+  const via = choice.via || null;
+  const app = (everywhere && via ? null : choice.app) || null;
+  const scope = statementScope({ pubkey, via, app }, advisory, { appIds: appId ? [appId] : [], trusted, maintainers });
+  const lib = (via || choice.library || '').replace(/^[a-z]+:/, '');
+  if (scope === null) return app ? 'this statement settles the row for this wallet' : `this statement settles rows in every wallet that uses ${lib}`;
+  if (scope === 'unproven') return `shown under "What others say": a statement for every wallet settles rows only when a listed maintainer of ${lib} signs it`;
+  return 'shown under "What others say"; the site lists whose statements settle rows';
 }
 
 // The signer's current statement on a subject, if the wallet's file has one.
@@ -250,6 +268,9 @@ export function openTriageDialog({ advisory, appId, release = null, rows = [], t
       everywhereText.textContent = `I maintain ${lib}: this holds for every wallet that uses it${listed ? '' : ' (settles rows only once you are listed as its maintainer; until then it is shown as what others say)'}`;
     }
     if (choice?.via) versionsLabel.textContent = `Versions of ${choice.via.replace(/^[a-z]+:/, '')} this holds for`;
+    if (pubkey && choice) {
+      signer.textContent = `Signing as ${shortNpub(pubkey)} · ${signerWeight(advisory, choice, { pubkey, everywhere: everywhere(), appId, trusted: trustedSet, maintainers: maintainerMap })}.`;
+    }
   }
 
   const subjectKey = (choice, wide = everywhere()) => triageSubject({ vuln: advisory.id, via: choice.via || null, app: (wide && choice.via ? null : choice.app) || null });
@@ -377,10 +398,6 @@ export function openTriageDialog({ advisory, appId, release = null, rows = [], t
     try {
       if (!(await nostr.waitExtension())) throw new Error(NO_EXTENSION_MESSAGE);
       pubkey = await nostr.getPubkey();
-      const weight = trustedSet.has(pubkey)
-        ? 'your statements settle rows for this wallet'
-        : 'shown under "What others say"; the site lists whose statements settle rows';
-      signer.textContent = `Signing as ${shortNpub(pubkey)} · ${weight}.`;
       signer.dataset.pubkey = pubkey;
       publish.disabled = false;
       if (edit?.via && !edit.app && (edit.pubkey === pubkey || (maintainerMap[edit.via] || []).includes(pubkey))) setEverywhere(true);
