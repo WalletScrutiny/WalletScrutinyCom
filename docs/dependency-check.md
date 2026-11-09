@@ -168,7 +168,7 @@ Plumbing:
   authors' and listed maintainers' in a query of their own so a flood by
   others never pushes them past a relay's reply limit (issue 1002). Other
   authors' statements and deletion requests are capped at 20 per author and
-  200 in all; what the snapshot already had stays first. It merges them
+  100 in all; what the snapshot already had stays first. It merges them
   with `_data/dependencyTriageEvents.json` (the committed snapshot of every
   signed statement seen so far, verified on read, so a build without relay
   access and a relay that drops events lose nothing), keeps the newest per
@@ -176,7 +176,9 @@ Plumbing:
   `api/source-analysis/triage/<appId>.json` with the trusted list. The panel
   resolves each row from them, and asks the relays only for the trusted
   authors' and listed maintainers' newer statements; everyone else's reach
-  the wallet pages with the next site build.
+  the wallet pages with the next site build. When `statements.json` does not
+  load, the panel asks the relays for nothing (no statement could settle a
+  row) and says so in its notices.
 - Writing one on the site: "Add statement" under a row's decision opens a dialog
   (`src/dependencies-triage-form.mjs`) that asks what the statement is about
   (one of the row's direct users in this wallet, this wallet, or the package

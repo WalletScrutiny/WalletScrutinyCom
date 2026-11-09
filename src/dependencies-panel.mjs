@@ -53,16 +53,18 @@ export async function loadApp(appId, { base = EXPORT_BASE, fetchImpl = globalThi
 
 // statements.json (scripts/build-dependency-triage.mjs): every statement the
 // site build saw, its deletion requests, the trusted authors and the listed
-// maintainers; fetched once per base. Empty lists when it cannot be read.
+// maintainers; fetched once per base. Empty lists, and `failed`, when it
+// cannot be read.
 const triageCache = new Map();
 export function loadTriage({ triageBase = TRIAGE_BASE, fetchImpl = globalThis.fetch } = {}) {
   if (!triageCache.has(triageBase)) {
-    triageCache.set(triageBase, fetchJson(`${triageBase}/statements.json`, fetchImpl).then(doc => ({
-      trusted: Array.isArray(doc?.trusted) ? doc.trusted : [],
-      maintainers: doc?.maintainers && typeof doc.maintainers === 'object' ? doc.maintainers : {},
-      statements: Array.isArray(doc?.statements) ? doc.statements : [],
-      deletions: Array.isArray(doc?.deletions) ? doc.deletions : [],
-    }), () => ({ trusted: [], maintainers: {}, statements: [], deletions: [] })));
+    const failed = { trusted: [], maintainers: {}, statements: [], deletions: [], failed: true };
+    triageCache.set(triageBase, fetchJson(`${triageBase}/statements.json`, fetchImpl).then(doc => (doc && typeof doc === 'object' ? {
+      trusted: Array.isArray(doc.trusted) ? doc.trusted : [],
+      maintainers: doc.maintainers && typeof doc.maintainers === 'object' ? doc.maintainers : {},
+      statements: Array.isArray(doc.statements) ? doc.statements : [],
+      deletions: Array.isArray(doc.deletions) ? doc.deletions : [],
+    } : failed), () => failed));
   }
   return triageCache.get(triageBase);
 }
@@ -806,7 +808,7 @@ function coverageNotice(model) {
     tipTrigger('What would fix it?', () => coverageTipLines(c)));
 }
 
-function notices(model) {
+function notices(model, { triageFailed = false } = {}) {
   const items = [];
   // A package OSV lists as malicious outranks everything else on the panel:
   // it is checked by hand (the registry package, not a workspace or an alias)
@@ -816,6 +818,11 @@ function notices(model) {
     items.push(el('span', { className: 'dp-malware' }, el('b', {}, 'Possible malware: '),
       malicious.map(a => `${a.package}@${a.version} (${a.id})`).join(', '),
       ` is listed on OSV.dev as malicious. A person is checking whether the lockfile really installs that registry package; until then this is a lead, not a finding. It matters even when only the build uses it: build code can change the app.`));
+  }
+  // issue 1002: without statements.json no statement is shown and the relays are not asked
+  if (triageFailed && model.advisories?.length) {
+    items.push(el('span', { className: 'dp-triage-failed' }, el('b', {}, 'Statements not loaded: '),
+      'the list of statements on these advisories (statements.json) could not be loaded, so no decisions or "What others say" are shown, and the relays were not asked for newer ones. Reload the page to try again.'));
   }
   if (model.recheckFailed) {
     const f = model.recheckFailed;
@@ -935,8 +942,9 @@ function actions(model, { appId, base, fetchImpl }) {
 // above the table saying so, `freshId` the statement to mark, and every row
 // is shown so the judged one stays in sight wherever it re-sorts to.
 // Below the tiles everything starts folded behind one link; `expanded` opens
-// it, `onToggle(open)` hears the reader open or close it.
-export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE, fetchImpl = globalThis.fetch, onJudge = null, flash = null, freshId = null, showAll = false, trusted = [], expanded = false, onToggle = null } = {}) {
+// it, `onToggle(open)` hears the reader open or close it. `triageFailed`:
+// statements.json did not load, said in the notices.
+export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE, fetchImpl = globalThis.fetch, onJudge = null, flash = null, freshId = null, showAll = false, trusted = [], expanded = false, onToggle = null, triageFailed = false } = {}) {
   // No lockfile was read (a C/C++ release with only submodules, or a Flutter one): zeros here would read as clean.
   const tiles = !model.packages && (model.submodules || model.status === 'unsupported' || model.notInApp) ? null : el('div', { className: 'dp-tiles' },
     tile(model.packages, 'dependencies', { sub: `${model.direct} direct · ${model.transitive} transitive`, extra: historyChart(model.history) }),
@@ -959,7 +967,7 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
       headline(model),
       el('span', { className: 'dp-badge' }, 'Measurement only · not part of the verdict'),
     ),
-    notices(model),
+    notices(model, { triageFailed }),
     flash ? el('p', { className: 'dp-flash', role: 'status' }, flash) : null,
     tiles,
     sortingElement(model.sorting),
@@ -1251,7 +1259,7 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
     }
     model = panelModel(app, { release: release?.ref || null, selectedVersion: release ? selected : null, triage, signals, upstream, apk, platform, appId });
     if (!model) return null;
-    host.replaceChildren(panelElement(model, { appId: analysisId, wallet: title || analysisId, base, fetchImpl, onJudge, trusted: lists.trusted, expanded, onToggle: (open) => { expanded = open; }, ...extra }));
+    host.replaceChildren(panelElement(model, { appId: analysisId, wallet: title || analysisId, base, fetchImpl, onJudge, trusted: lists.trusted, triageFailed: Boolean(published?.failed), expanded, onToggle: (open) => { expanded = open; }, ...extra }));
     nameSigners(host, profiles === undefined ? defaultProfiles : profiles);
     return model;
   };

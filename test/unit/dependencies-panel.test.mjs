@@ -51,7 +51,7 @@ describe('dependencies panel', () => {
   });
 
   test('renderDependenciesPanel paints tiles, worst rows, notes and keeps the host hidden without data', async () => {
-    const { fetchImpl } = fakeFetch({ '/x/apps/app.android.json': APP });
+    const { fetchImpl } = fakeFetch({ '/x/apps/app.android.json': APP, '/xt/statements.json': { schema: 1, trusted: [], maintainers: {}, statements: [] } });
     const step = document.createElement('div');
     step.className = 'step dependencies-step';
     step.hidden = true;
@@ -658,6 +658,20 @@ describe('dependencies panel: whose statements the relays are asked for (issue 1
     assert.deepEqual(asked, [{ authors: [me, maintainer] }]);
   });
 
+  test('the notice shows when statements.json fails to load, and only then', async () => {
+    const liveEvents = async () => [];
+    const broken = { ...fakeFetch({ '/x/apps/app.android.json': APP }) };
+    const fetchImpl = async (url, opts) => (String(url).includes('statements.json') ? { ok: false, status: 503, json: async () => ({}) } : broken.fetchImpl(url, opts));
+    const host = document.createElement('div');
+    await renderDependenciesPanel({ host, appId: 'app.android', base: '/x', triageBase: '/xt1002-503', liveEvents, fetchImpl });
+    assert.ok(host.querySelector('.dp-triage-failed'), 'HTTP 503');
+    const fine = document.createElement('div');
+    const ok = fakeFetch({ '/x/apps/app.android.json': APP, '/xt1002-ok/statements.json': { schema: 1, trusted: [], maintainers: {}, statements: [] } });
+    await renderDependenciesPanel({ host: fine, appId: 'app.android', base: '/x', triageBase: '/xt1002-ok', liveEvents, fetchImpl: ok.fetchImpl });
+    assert.ok(fine.querySelector('.dp-table'));
+    assert.equal(fine.querySelector('.dp-triage-failed'), null, 'loaded, even with nobody trusted: no notice');
+  });
+
   test('without statements.json the page still paints, and nobody is asked for', async () => {
     const asked = [];
     const liveEvents = async (opts) => { asked.push(opts); return []; };
@@ -666,6 +680,7 @@ describe('dependencies panel: whose statements the relays are asked for (issue 1
     assert.ok(await renderDependenciesPanel({ host, appId: 'app.android', base: '/x', triageBase: '/xt1002-missing', liveEvents, fetchImpl }));
     assert.ok(host.querySelector('.dp-table'), 'the advisories still show');
     assert.deepEqual(asked, [{ authors: [] }]);
+    assert.match(host.querySelector('.dp-notices .dp-triage-failed').textContent, /^Statements not loaded: .*statements\.json.*not asked/, 'and the reader is told');
     const warn = console.warn;
     const warned = [];
     console.warn = (...args) => warned.push(args.join(' '));

@@ -52,7 +52,7 @@ export const SNAPSHOT_FILE = join('_data', 'dependencyTriageEvents.json');
 export const TRUSTED_FILE = join('_data', 'dependencyTriage.yml');
 export const TRIAGE_RELAY_URLS = [...new Set([mainRelayUrl, ...eventRelayUrls])];
 const RELAY_MAX_WAIT_MS = 15_000;
-export const OUTSIDER_LIMITS = { perAuthor: 20, total: 200 };
+export const OUTSIDER_LIMITS = { perAuthor: 20, total: 100 };
 
 export function trustedAuthors(file = TRUSTED_FILE) {
   if (!existsSync(file)) return [];
