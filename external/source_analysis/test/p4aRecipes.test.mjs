@@ -354,14 +354,14 @@ test('p4a recipes: a library that is a recipe stays one row, not a build tool', 
   assert.notEqual(setuptools.scope, 'build');
 });
 
-test('p4a recipes: PyPI libraries can be looked up, native ones say why not', () => {
+test('p4a recipes: PyPI libraries and native ones can both be looked up', () => {
   const rows = rowsOf(analyse());
   const pyqt = rowNamed(rows, 'PyQt6');
   assert.equal(pyqt.ecosystem, 'pip');
   assert.equal(uncheckableReason(pyqt), null);
   const openssl = rowNamed(rows, 'openssl');
-  assert.equal(openssl.ecosystem, 'p4a');
-  assert.equal(uncheckableReason(openssl), 'ecosystem');
+  assert.equal(openssl.ecosystem, 'native');
+  assert.equal(uncheckableReason(openssl), null);
 });
 
 test('p4a recipes: a recipe is never run', () => {

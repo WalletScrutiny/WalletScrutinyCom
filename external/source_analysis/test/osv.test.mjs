@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import { affectedRanges,
+import { affectedRanges, compareVersions, nvdMatch, nativeSource,
   buildQueries, queryName, berryResolution, checkVulnerabilities, clearAdvisoryCache, cvss3BaseScore, severityOf, uncheckableReason, scopeOfRows,
 } from '../plugins/osv.mjs';
 import { initDatabase, saveVulnerabilities, getVulnerabilities } from '../ddbbUtils.mjs';
@@ -24,7 +24,7 @@ const entry = (ecosystem, name, version, extra = {}) => ({
  * fetch stub: `vulnsByQuery` maps "<OSV ecosystem>/<name>@<version>" to advisory
  * ids, `advisories` maps an id to its record. Records every request.
  */
-function stubFetch({ vulnsByQuery = {}, advisories = {}, pageSize = Infinity, failBatch = false } = {}) {
+function stubFetch({ vulnsByQuery = {}, advisories = {}, nvd = {}, pageSize = Infinity, failBatch = false } = {}) {
   const calls = [];
   const json = (body, status = 200) => ({ ok: status < 400, status, json: async () => body });
   const fetchImpl = async (url, options) => {
@@ -34,7 +34,7 @@ function stubFetch({ vulnsByQuery = {}, advisories = {}, pageSize = Infinity, fa
       const { queries } = JSON.parse(options.body);
       return json({
         results: queries.map(q => {
-          const ids = vulnsByQuery[`${q.package.ecosystem}/${q.package.name}@${q.version}`] || [];
+          const ids = vulnsByQuery[q.commit ? `commit/${q.commit}` : `${q.package.ecosystem}/${q.package.name}@${q.version}`] || [];
           const start = q.page_token ? Number(q.page_token) : 0;
           const page = ids.slice(start, start + pageSize);
           return {
@@ -43,6 +43,10 @@ function stubFetch({ vulnsByQuery = {}, advisories = {}, pageSize = Infinity, fa
           };
         }),
       });
+    }
+    if (url.startsWith('https://services.nvd.nist.gov/')) {
+      const cves = nvd[new URL(url).searchParams.get('virtualMatchString')] || [];
+      return json({ totalResults: cves.length, vulnerabilities: cves.map(cve => ({ cve })) });
     }
     const id = decodeURIComponent(url.split('/vulns/')[1]);
     return advisories[id] ? json(advisories[id]) : json({}, 404);
@@ -226,4 +230,95 @@ test('affectedRanges: one string per range, introduced 0 is no lower bound, git 
   assert.deepEqual(affectedRanges(advisory, q), ['< 0.5.1', '>= 1.0.0, < 1.2.3', '>= 2.0.0, <= 2.1.0', '>= 3.0.0']);
   assert.deepEqual(affectedRanges({ affected: [{ package: { ecosystem: 'npm', name: 'lib' }, ranges: [range({ introduced: '0' })] }] }, q), ['all versions']);
   assert.equal(affectedRanges({ affected: [] }, q), null);
+});
+
+// An NVD CVE whose configuration lists `matches` (criteria, vulnerable, range).
+const nvdCve = (id, matches, vector = 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H') => ({
+  id,
+  vulnStatus: 'Analyzed',
+  descriptions: [{ lang: 'en', value: `${id} description` }],
+  metrics: { cvssMetricV31: [{ cvssData: { vectorString: vector } }] },
+  configurations: [{ nodes: [{ cpeMatch: matches }] }],
+});
+
+test('native libraries are named by their upstream source', () => {
+  assert.deepEqual(nativeSource(entry('native', 'openssl', '3.0.7')),
+    { repo: 'https://github.com/openssl/openssl', tag: 'openssl-3.0.7', cpe: 'openssl:openssl', version: '3.0.7' });
+  assert.equal(nativeSource(entry('native', 'libffi', 'v3.4.8')).tag, 'v3.4.8', 'a recipe\'s v prefix is not doubled');
+  assert.equal(nativeSource(entry('native', 'libffi', 'v3.4.8')).version, '3.4.8');
+  assert.deepEqual(nativeSource(entry('native', 'libzbar', 'BB05EC54EEC57F8397CB13FB9161372A281A1219')),
+    { repo: 'https://github.com/mchehab/zbar', commit: 'bb05ec54eec57f8397cb13fb9161372a281a1219' });
+  assert.equal(nativeSource(entry('pip', 'openssl', '3.0.7')), null);
+  assert.equal(uncheckableReason(entry('native', 'openssl', '3.0.7')), null);
+  assert.equal(uncheckableReason(entry('p4a', 'openssl', '3.0.7')), null, 'rows stored before the rename are checked too');
+  assert.equal(uncheckableReason(entry('native', 'android', '1.0')), 'no-upstream');
+  assert.equal(uncheckableReason(entry('native', 'openssl', '', { tier: 'unversioned' })), 'unversioned');
+});
+
+test('NVD matches: only where the product itself is vulnerable, in range', () => {
+  const cpe = 'openssl:openssl';
+  const crit = v => `cpe:2.3:a:openssl:openssl:${v}:*:*:*:*:*:*:*`;
+  assert.deepEqual(nvdMatch({ criteria: crit('*'), vulnerable: true, versionStartIncluding: '3.0.0', versionEndExcluding: '3.0.8' }, cpe, '3.0.7'),
+    [{ introduced: '3.0.0' }, { fixed: '3.0.8' }]);
+  assert.equal(nvdMatch({ criteria: crit('*'), vulnerable: true, versionStartIncluding: '3.0.0', versionEndExcluding: '3.0.8' }, cpe, '3.0.8'), null);
+  assert.equal(nvdMatch({ criteria: crit('1.1.1'), vulnerable: false }, cpe, '1.1.1'), null, 'OpenSSL as the platform an httpd runs on');
+  assert.deepEqual(nvdMatch({ criteria: crit('3.0.7'), vulnerable: true }, cpe, '3.0.7'), [{ introduced: '3.0.7' }, { last_affected: '3.0.7' }]);
+  assert.equal(nvdMatch({ criteria: 'cpe:2.3:a:openssl:openssl:3.0.7:beta1:*:*:*:*:*:*', vulnerable: true }, cpe, '3.0.7'), null);
+  assert.equal(nvdMatch({ criteria: 'cpe:2.3:a:apache:http_server:*:*:*:*:*:*:*:*', vulnerable: true }, cpe, '3.0.7'), null);
+  assert.equal(compareVersions('1.1.1w', '1.1.1'), 1);
+  assert.equal(compareVersions('6.10.2', '6.9.0'), 1);
+  assert.equal(compareVersions('3.50.0', '3.50.0'), 0);
+});
+
+test('native libraries: OSV.dev by repository and tag or commit, NVD by product, one finding per CVE', async () => {
+  const osvRecord = { id: 'CVE-2023-0286', summary: 'X.400 type confusion', severity: [{ type: 'CVSS_V3', score: 'CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H' }],
+    affected: [{ ranges: [{ type: 'GIT', repo: 'https://github.com/openssl/openssl', events: [{ introduced: '0' }, { fixed: 'abc' }] }] }] };
+  const zbar = { id: 'CVE-2026-121942', summary: 'zbar overflow', affected: [] };
+  const opensslRange = { criteria: 'cpe:2.3:a:openssl:openssl:*:*:*:*:*:*:*:*', vulnerable: true, versionStartIncluding: '3.0.0', versionEndExcluding: '3.0.8' };
+  const { fetchImpl, calls } = stubFetch({
+    vulnsByQuery: {
+      'GIT/https://github.com/openssl/openssl@openssl-3.0.7': ['CVE-2023-0286'],
+      'commit/bb05ec54eec57f8397cb13fb9161372a281a1219': ['CVE-2026-121942'],
+    },
+    advisories: { 'CVE-2023-0286': osvRecord, 'CVE-2026-121942': zbar },
+    nvd: {
+      'cpe:2.3:a:openssl:openssl:3.0.7': [
+        nvdCve('CVE-2023-0286', [opensslRange]), // OSV.dev has it too
+        nvdCve('CVE-2023-0464', [opensslRange]),
+        nvdCve('CVE-2019-0190', [{ criteria: 'cpe:2.3:a:openssl:openssl:3.0.7:*:*:*:*:*:*:*', vulnerable: false }]),
+      ],
+      'cpe:2.3:a:qt:qt:6.4.0': [nvdCve('CVE-2023-24607', [{ criteria: 'cpe:2.3:a:qt:qt:*:*:*:*:*:*:*:*', vulnerable: true, versionStartIncluding: '6.0.0', versionEndExcluding: '6.4.3' }])],
+    },
+  });
+  const result = await quiet(() => checkVulnerabilities([{ entries: [
+    entry('native', 'openssl', '3.0.7'),
+    entry('native', 'qt6', '6.4.0'),
+    entry('native', 'libzbar', 'bb05ec54eec57f8397cb13fb9161372a281a1219'),
+    entry('native', 'android', '1.0'),
+  ] }], { fetchImpl, nvdIntervalMs: 0 }));
+
+  assert.deepEqual(result.skipped, { 'no-upstream': 1 });
+  assert.equal(result.checked, 3);
+  const batch = calls.find(c => c.url.endsWith('/querybatch')).body.queries;
+  assert.deepEqual(batch.map(q => q.commit ?? `${q.package.ecosystem} ${q.package.name} ${q.version}`), [
+    'GIT https://github.com/openssl/openssl openssl-3.0.7',
+    'GIT https://github.com/qt/qtbase v6.4.0',
+    'bb05ec54eec57f8397cb13fb9161372a281a1219',
+  ]);
+  assert.equal(calls.filter(c => c.url.includes('nvd.nist.gov')).length, 2, 'a commit has no NVD version');
+  const ids = result.findings.map(f => `${f.name} ${f.id}`).sort();
+  assert.deepEqual(ids, ['libzbar CVE-2026-121942', 'openssl CVE-2023-0286', 'openssl CVE-2023-0464', 'qt6 CVE-2023-24607']);
+  const qt = result.findings.find(f => f.name === 'qt6');
+  assert.equal(qt.ecosystem, 'native');
+  assert.equal(qt.severity, 'critical');
+  assert.deepEqual(qt.fixed, ['6.4.3']);
+  assert.deepEqual(qt.affected, ['>= 6.0.0, < 6.4.3']);
+  assert.equal(qt.summary, 'CVE-2023-24607 description');
+});
+
+test('an unreachable NVD is no result, not a clean one', async () => {
+  const stub = stubFetch();
+  const fetchImpl = async (url, options) => (url.includes('nvd.nist.gov') ? { ok: false, status: 503, json: async () => ({}) } : stub.fetchImpl(url, options));
+  const result = await quiet(() => checkVulnerabilities([{ entries: [entry('native', 'openssl', '3.0.7')] }], { fetchImpl, nvdIntervalMs: 0 }));
+  assert.equal(result, null);
 });

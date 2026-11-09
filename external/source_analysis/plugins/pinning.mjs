@@ -512,8 +512,8 @@ function analyzePip(repoPath) {
 // wallet's repository: they are read as text and never run.
 
 // Recipes that install a PyPI package, and its name there. Every other recipe is a
-// native library (OpenSSL, Qt): its row has ecosystem p4a, which OSV can't look up,
-// so the page counts it as not checked.
+// native library (OpenSSL, Qt): its row has ecosystem native, and plugins/osv.mjs
+// looks it up by its upstream source (NATIVE_UPSTREAM).
 const P4A_PYPI_NAMES = {
   cffi: 'cffi',
   cryptography: 'cryptography',
@@ -618,7 +618,7 @@ function analyzeP4aSpec(repoPath, specFile, result) {
   }
 
   const rowName = name => P4A_PYPI_NAMES[name.toLowerCase()] ?? name;
-  const ecosystemOf = name => (P4A_PYPI_NAMES[name.toLowerCase()] ? 'pip' : 'p4a');
+  const ecosystemOf = name => (P4A_PYPI_NAMES[name.toLowerCase()] ? 'pip' : 'native');
   const buildTools = new Map();
   for (const node of queue) { // grows as depends are reached
     const raw = folder ? readInsideRepo(repoPath, path.join(folder, node.name, '__init__.py')) : null;

@@ -25,6 +25,7 @@ export const SKIP_REASON_LABEL = {
   'git-or-path': 'git or local path dependency',
   'no-exact-version': 'no exact version',
   ecosystem: 'ecosystem OSV.dev does not cover',
+  'no-upstream': 'native library we do not know the source repository of',
 };
 
 export const WORST_ROWS = 10;
