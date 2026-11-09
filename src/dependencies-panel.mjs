@@ -9,7 +9,7 @@ import { el } from './html-utils.mjs';
 import {
   panelModel, releaseForVersion, whereOf, whereLabel, WHERE_UNKNOWN_TIP, safeName, csvOf, notInAppText, sortingLabel, SEVERITY_ORDER, SEVERITY_LABEL,
 } from './dependencies-panel-model.mjs';
-import { TRIAGE_LABEL, JUSTIFICATION_LABEL, DELETION_KIND, triageStateOf, withStatement, mergeLiveTriage, triageForApp } from './dependency-triage.mjs';
+import { TRIAGE_LABEL, JUSTIFICATION_LABEL, DELETION_KIND, triageStateOf, withStatement, mergeLiveTriage, triageForApp, evidenceUrl } from './dependency-triage.mjs';
 import { dependencyTriageKind, mainRelayUrl, eventRelayUrls } from './nostr-constants.mjs';
 import { fetchEvents } from './nostr-client.mjs';
 import { openTriageDialog } from './dependencies-triage-form.mjs';
@@ -1024,6 +1024,14 @@ function osvLinks(ids) {
   return out;
 }
 
+// The submodule's name, linked to its repository. The URL is whatever the
+// wallet's .gitmodules says, so only an http(s) one becomes a link.
+function submoduleNameCell(r) {
+  const name = r.path.split('/').pop();
+  const href = evidenceUrl(String(r.url || '').replace(/\.git$/, ''));
+  return href ? el('a', { href, target: '_blank', rel: 'noopener noreferrer', title: r.path }, name) : el('span', { title: r.path }, name);
+}
+
 function submoduleAdvisoryCell(r) {
   const a = r.advisories;
   if (!a) return '';
@@ -1069,7 +1077,7 @@ function submodulesSection(model, { appId, base, fetchImpl }) {
         el('table', { className: 'dp-table dp-sub-table' },
           el('thead', {}, el('tr', {}, ['Library', 'Pinned at', 'What it is', 'In the app', 'Advisories'].map(h => el('th', {}, h)))),
           el('tbody', {}, data.rows.map(r => el('tr', { className: r.scope && r.scope.status !== 'assumed' ? 'dp-sub-out' : '' },
-            el('td', {}, el('a', { href: (r.url || '').replace(/\.git$/, ''), target: '_blank', rel: 'noopener noreferrer', title: r.path }, r.path.split('/').pop()),
+            el('td', {}, submoduleNameCell(r),
               el('div', { className: 'dp-via' }, r.path), r.upstream ? el('div', { className: 'dp-via' }, `fork of ${r.upstream.replace(/\.git$/, '')}`) : null),
             el('td', {}, el('code', {}, r.identity?.tag || String(r.commit).slice(0, 10))),
             el('td', {}, submoduleIdentityText(r)),
