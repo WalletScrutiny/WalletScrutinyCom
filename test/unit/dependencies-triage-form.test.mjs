@@ -3,7 +3,7 @@ import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 import { finalizeEvent, generateSecretKey, getPublicKey } from 'nostr-tools';
 
-import { statementFields, signerWeight, ownStatement, publishOutcome, openTriageDialog, NO_EXTENSION_MESSAGE, judgedOn } from '../../src/dependencies-triage-form.mjs';
+import { statementFields, ownStatement, publishOutcome, openTriageDialog, NO_EXTENSION_MESSAGE, judgedOn } from '../../src/dependencies-triage-form.mjs';
 import { statementChoices, withStatement, triageTemplate, statementFromEvent, evidenceUrl } from '../../src/dependency-triage.mjs';
 import { renderDependenciesPanel, publishedFlash } from '../../src/dependencies-panel.mjs';
 
@@ -61,36 +61,6 @@ describe('dependency triage form', () => {
     assert.throws(() => triageTemplate({ ...f, evidence: 'nope' }), /not an http\(s\) link/);
   });
 
-  test('signerWeight says what the statement counts for from the signer and the subject (issue 1005)', () => {
-    const [core, , app, pkg] = statementChoices(traverse, { appId: 'a' });
-    const other = 'e'.repeat(64);
-    const weight = (choice, { trusted = [], maintainers = {}, everywhere = false } = {}) => signerWeight(traverse, choice, { pubkey: pk, everywhere, appId: 'a', trusted: new Set(trusted), maintainers });
-    // trusted: settles what is made for this wallet, not a claim about the library
-    assert.equal(weight(app, { trusted: [pk] }), 'this statement settles the row for this wallet');
-    assert.equal(weight(core, { trusted: [pk] }), 'this statement settles the row for this wallet');
-    assert.match(weight(pkg, { trusted: [pk] }), /^shown under "What others say": .* listed maintainer of @babel\/traverse signs it$/);
-    assert.match(weight(core, { trusted: [pk], everywhere: true }), /listed maintainer of @babel\/core signs it$/);
-    // a listed maintainer outside the trusted list settles their library everywhere, not this wallet's rows
-    const maintainers = { 'npm:@babel/core': [pk], 'npm:@babel/traverse': [pk] };
-    assert.equal(weight(core, { maintainers, everywhere: true }), 'this statement settles rows in every wallet that uses @babel/core');
-    assert.equal(weight(pkg, { maintainers }), 'this statement settles rows in every wallet that uses @babel/traverse');
-    assert.match(weight(core, { maintainers }), /^shown under "What others say"; the site lists/);
-    assert.match(weight(app, { maintainers }), /^shown under "What others say"; the site lists/);
-    // neither
-    for (const c of [core, app, pkg]) assert.match(weight(c, { trusted: [other], maintainers: { 'npm:@babel/core': [other] } }), /^shown under "What others say"; the site lists/);
-  });
-
-  test('the signer line follows the chosen subject', async () => {
-    const dialog = openTriageDialog({ advisory: traverse, appId: 'it.airgap.vault', triage: { trusted: [pk], statements: [] }, nostr: fakeNostr() });
-    await settled();
-    const signer = () => dialog.querySelector('.dp-form__signer').textContent;
-    assert.match(signer(), /settles the row for this wallet\.$/);
-    for (const input of dialog.querySelectorAll('input[name="subject"]')) input.checked = input.value === 'package';
-    dialog.querySelector('input[name="subject"][value="package"]').dispatchEvent(new window.Event('change', { bubbles: true }));
-    assert.match(signer(), /What others say.*listed maintainer of @babel\/traverse signs it\.$/);
-    dialog.remove();
-  });
-
   test('ownStatement, withStatement and publishOutcome', () => {
     const s1 = { pubkey: pk, d: 'GHSA-1|package', created_at: 1 };
     const s2 = { pubkey: pk, d: 'GHSA-1|package', created_at: 2 };
@@ -126,7 +96,7 @@ describe('dependency triage form', () => {
     assert.equal(dialog.querySelector('.dp-dialog__title').textContent, 'Statement on GHSA-67hx-6x53-jw92');
     assert.deepEqual([...dialog.querySelectorAll('input[name="subject"]')].map(i => i.value), ['via:npm:@babel/core', 'via:npm:@babel/helpers', 'app:it.airgap.vault', 'package']);
     assert.equal(dialog.querySelector('input[name="subject"][value="app:it.airgap.vault"]').hasAttribute('checked'), true);
-    assert.match(dialog.querySelector('.dp-form__signer').textContent, /^Signing as npub1.* · this statement settles the row for this wallet\.$/);
+    assert.match(dialog.querySelector('.dp-form__signer').textContent, /^Signing as npub1.*settle rows for this wallet\.$/);
     assert.equal(dialog.querySelector('.dp-form__publish').disabled, false);
 
     // a statement about how @babel/core uses the package, not affected, with evidence
