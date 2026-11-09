@@ -14,8 +14,10 @@
  *                    freshness; only the two lists need a site build to change.
  *
  * Sources, merged, newest per (author, subject) wins:
- *   - the relays (dependencyTriageKind, every author: who signed decides the
- *     weight, not whether it is kept), 15 s per relay at most;
+ *   - the relays (dependencyTriageKind), 15 s per relay at most: the trusted
+ *     authors and listed maintainers in a query of their own, so a relay's
+ *     reply limit filled by others never pushes them out, and every author in
+ *     a second one (who signed decides the weight; issue 1002);
  *   - _data/dependencyTriageEvents.json, the committed snapshot of every
  *     statement seen so far, signed events verified on read, so a build
  *     without relay access still has them and a relay that drops events
@@ -26,6 +28,12 @@
  * subject (`a`, kind:pubkey:d; then every version up to the request's time).
  * Requests are kept in the snapshot too, so a relay that still serves the
  * statement does not bring it back.
+ *
+ * Other authors' statements are capped (OUTSIDER_LIMITS): the ones already
+ * in the snapshot stay, then the newest new ones, at most `perAuthor` per
+ * author and `total` in all, so a flood of statements by anyone cannot grow
+ * statements.json without limit or push out what was there before. The
+ * trusted authors and listed maintainers are never capped.
  *
  * Kept apart from /api/source-analysis/, which the analyser publishes to the
  * web server itself (external/source_analysis/publish.mjs).
@@ -44,6 +52,7 @@ export const SNAPSHOT_FILE = join('_data', 'dependencyTriageEvents.json');
 export const TRUSTED_FILE = join('_data', 'dependencyTriage.yml');
 export const TRIAGE_RELAY_URLS = [...new Set([mainRelayUrl, ...eventRelayUrls])];
 const RELAY_MAX_WAIT_MS = 15_000;
+export const OUTSIDER_LIMITS = { perAuthor: 20, total: 200 };
 
 export function trustedAuthors(file = TRUSTED_FILE) {
   if (!existsSync(file)) return [];
@@ -77,15 +86,17 @@ export function readSnapshot(file = SNAPSHOT_FILE) {
   }
 }
 
-// Every statement event from the relays; a relay that fails or stalls is skipped.
-export async function pullEvents({ relayUrls = TRIAGE_RELAY_URLS, kind = dependencyTriageKind, maxWait = RELAY_MAX_WAIT_MS, log = console } = {}) {
+// Every statement event from the relays, the trusted authors' and listed
+// maintainers' (`authors`) asked for on their own; a relay that fails or
+// stalls is skipped.
+export async function pullEvents({ relayUrls = TRIAGE_RELAY_URLS, kind = dependencyTriageKind, maxWait = RELAY_MAX_WAIT_MS, log = console, authors = insiders() } = {}) {
   const pool = new SimplePool();
+  const deletionFilter = { kinds: [DELETION_KIND], '#k': [String(kind)] };
+  const filters = [{ kinds: [kind] }, deletionFilter];
+  if (authors.length) filters.push({ kinds: [kind], authors }, { ...deletionFilter, authors });
   try {
-    const [events, deletions] = await Promise.all([
-      pool.querySync(relayUrls, { kinds: [kind] }, { maxWait }),
-      pool.querySync(relayUrls, { kinds: [DELETION_KIND], '#k': [String(kind)] }, { maxWait }),
-    ]);
-    events.push(...deletions);
+    const replies = await Promise.all(filters.map(f => pool.querySync(relayUrls, f, { maxWait })));
+    const events = [...new Map(replies.flat().map(e => [e.id, e])).values()];
     log.log(`dependency triage: ${events.length} event(s) from ${relayUrls.length} relay(s)`);
     return events;
   } catch (error) {
@@ -96,24 +107,62 @@ export async function pullEvents({ relayUrls = TRIAGE_RELAY_URLS, kind = depende
   }
 }
 
+// The trusted authors and listed maintainers, whose statements are never capped.
+export function insiders(file = TRUSTED_FILE) {
+  return [...new Set([...trustedAuthors(file), ...Object.values(listedMaintainers(file)).flat()])];
+}
+
+// A statement event's (author, subject); a deletion request is its own subject.
+const subjectOf = e => (e.kind === DELETION_KIND ? e.id : `${e.pubkey}:${e.tags.find(t => t[0] === 'd')?.[1] ?? ''}`);
+
+/**
+ * Of the merged events `kept` (statements, or deletion requests), the ones to
+ * publish: every insider's, and the other authors' within `limits`
+ * (OUTSIDER_LIMITS), those whose subject the snapshot already had first, then
+ * the newest. Returns `{ kept, dropped }`.
+ */
+export function capOutsiders(kept, { insiders: inside = [], snapshotEvents = [], limits = OUTSIDER_LIMITS } = {}) {
+  const ins = new Set(inside);
+  const known = new Set(snapshotEvents.filter(e => !ins.has(e.pubkey)).map(subjectOf));
+  const others = kept.filter(e => !ins.has(e.pubkey))
+    .sort((a, b) => Number(known.has(subjectOf(b))) - Number(known.has(subjectOf(a))) || b.created_at - a.created_at || a.id.localeCompare(b.id));
+  const perAuthor = new Map();
+  const allowed = new Set();
+  for (const e of others) {
+    if (allowed.size >= limits.total) break;
+    const n = perAuthor.get(e.pubkey) || 0;
+    if (n >= limits.perAuthor) continue;
+    perAuthor.set(e.pubkey, n + 1);
+    allowed.add(e.id);
+  }
+  return { kept: kept.filter(e => ins.has(e.pubkey) || allowed.has(e.id)), dropped: others.length - allowed.size };
+}
+
 /**
  * Merge snapshot and relay events, write statements.json, update the
  * snapshot. Pure apart from the files it is given; `events` are the relay's.
  */
-export function buildTriage({ events = [], snapshotFile = SNAPSHOT_FILE, trustedFile = TRUSTED_FILE, target = TARGET, kind = dependencyTriageKind, verify = verifyEvent, writeSnapshot = true } = {}) {
+export function buildTriage({ events = [], snapshotFile = SNAPSHOT_FILE, trustedFile = TRUSTED_FILE, target = TARGET, kind = dependencyTriageKind, verify = verifyEvent, writeSnapshot = true, limits = OUTSIDER_LIMITS } = {}) {
   const snapshotEvents = readSnapshot(snapshotFile);
   const merged = mergeTriageEvents(snapshotEvents, events, { kind, verify });
   const trusted = trustedAuthors(trustedFile);
   const maintainers = listedMaintainers(trustedFile);
-  const result = { statements: merged.statements.length, trusted: trusted.length, rejected: merged.rejected, deleted: merged.deleted, published: 0, snapshotChanged: false };
-  const toWrite = [...merged.kept, ...merged.deletions].sort((a, b) => a.created_at - b.created_at || a.id.localeCompare(b.id));
+  const inside = insiders(trustedFile);
+  const capped = capOutsiders(merged.kept, { insiders: inside, snapshotEvents, limits });
+  // deletion requests by other authors are capped the same way, on their own count
+  const cappedDeletions = capOutsiders(merged.deletions, { insiders: inside, snapshotEvents, limits });
+  const deletions = cappedDeletions.kept;
+  const keep = new Set(capped.kept.map(e => e.id));
+  const statements = merged.statements.filter(st => keep.has(st.id));
+  const result = { statements: statements.length, trusted: trusted.length, rejected: merged.rejected, deleted: merged.deleted, capped: capped.dropped + cappedDeletions.dropped, published: 0, snapshotChanged: false };
+  const toWrite = [...capped.kept, ...deletions].sort((a, b) => a.created_at - b.created_at || a.id.localeCompare(b.id));
   if (writeSnapshot && JSON.stringify(snapshotEvents.map(e => e.id).sort()) !== JSON.stringify(toWrite.map(e => e.id).sort())) {
     writeFileSync(snapshotFile, `${JSON.stringify(toWrite, null, 1)}\n`);
     result.snapshotChanged = true;
   }
   mkdirSync(target, { recursive: true });
-  writeFileSync(join(target, 'statements.json'), JSON.stringify({ schema: 1, trusted, maintainers, statements: merged.statements, deletions: merged.deletions }));
-  result.published = merged.statements.length;
+  writeFileSync(join(target, 'statements.json'), JSON.stringify({ schema: 1, trusted, maintainers, statements, deletions }));
+  result.published = statements.length;
   return result;
 }
 
@@ -121,7 +170,7 @@ async function main() {
   if (!existsSync(SITE_DIR)) throw new Error(`${SITE_DIR} does not exist; run after the Jekyll build`);
   const events = process.env.DEPENDENCY_TRIAGE_RELAYS === 'off' ? [] : await pullEvents();
   const r = buildTriage({ events });
-  console.log(`dependency triage: ${r.statements} statement(s) by any author (${r.rejected} event(s) rejected, ${r.deleted} deleted by their author), ${r.trusted} trusted author(s); ${r.published} published -> ${TARGET}${r.snapshotChanged ? `; ${SNAPSHOT_FILE} updated` : ''}`);
+  console.log(`dependency triage: ${r.statements} statement(s) by any author (${r.rejected} event(s) rejected, ${r.deleted} deleted by their author, ${r.capped} over the limit for other authors), ${r.trusted} trusted author(s); ${r.published} published -> ${TARGET}${r.snapshotChanged ? `; ${SNAPSHOT_FILE} updated` : ''}`);
 }
 
 if (process.argv[1] && import.meta.url === new URL(`file://${process.argv[1]}`).href) {

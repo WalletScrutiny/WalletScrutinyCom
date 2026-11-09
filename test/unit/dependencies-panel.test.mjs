@@ -2,7 +2,7 @@ import './setup.mjs';
 import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { loadApp, renderDependenciesPanel, panelElement, usedBy, severityTally, coverageTipLines, historyScale } from '../../src/dependencies-panel.mjs';
+import { loadApp, renderDependenciesPanel, liveTriageEvents, triageAuthors, panelElement, usedBy, severityTally, coverageTipLines, historyScale } from '../../src/dependencies-panel.mjs';
 import { panelModel, releaseForVersion } from '../../src/dependencies-panel-model.mjs';
 import { nip19 } from 'nostr-tools';
 
@@ -639,5 +639,43 @@ describe('dependencies panel: which app a file belongs to (issue 994)', () => {
     assert.match(text, /not a check of the released app/);
     assert.match(text, /so the numbers can be too high/);
     assert.match(text, /are guesses from folder names/);
+  });
+});
+
+describe('dependencies panel: whose statements the relays are asked for (issue 1002)', () => {
+  test('triageAuthors is the trusted authors and the listed maintainers, once each', () => {
+    assert.deepEqual(triageAuthors({ trusted: ['a', 'b'], maintainers: { 'npm:x': ['b', 'c'], 'npm:y': [] } }), ['a', 'b', 'c']);
+    assert.deepEqual(triageAuthors({}), []);
+  });
+
+  test('the page asks for the trusted authors and maintainers from statements.json', async () => {
+    const me = 'a'.repeat(64);
+    const maintainer = 'b'.repeat(64);
+    const asked = [];
+    const liveEvents = async (opts) => { asked.push(opts); return []; };
+    const { fetchImpl } = fakeFetch({ '/x/apps/app.android.json': APP, '/xt1002/statements.json': { schema: 1, trusted: [me], maintainers: { 'npm:pkg': [maintainer] }, statements: [] } });
+    await renderDependenciesPanel({ host: document.createElement('div'), appId: 'app.android', base: '/x', triageBase: '/xt1002', liveEvents, fetchImpl });
+    assert.deepEqual(asked, [{ authors: [me, maintainer] }]);
+  });
+
+  test('without statements.json the page still paints, and nobody is asked for', async () => {
+    const asked = [];
+    const liveEvents = async (opts) => { asked.push(opts); return []; };
+    const host = document.createElement('div');
+    const { fetchImpl } = fakeFetch({ '/x/apps/app.android.json': APP });
+    assert.ok(await renderDependenciesPanel({ host, appId: 'app.android', base: '/x', triageBase: '/xt1002-missing', liveEvents, fetchImpl }));
+    assert.ok(host.querySelector('.dp-table'), 'the advisories still show');
+    assert.deepEqual(asked, [{ authors: [] }]);
+    const warn = console.warn;
+    const warned = [];
+    console.warn = (...args) => warned.push(args.join(' '));
+    try {
+      assert.deepEqual(await liveTriageEvents({ authors: [] }), [], 'no query: an empty authors filter reads as no filter on some relays');
+      assert.deepEqual(await liveTriageEvents(), []);
+    } finally {
+      console.warn = warn;
+    }
+    assert.equal(warned.length, 2);
+    assert.match(warned[0], /not asking the relays/);
   });
 });

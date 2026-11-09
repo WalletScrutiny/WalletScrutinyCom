@@ -22,7 +22,7 @@ import { showAnalysedReleases } from './build-verifications.mjs';
 // after each pass (external/source_analysis/publish.mjs), no site build involved.
 export const EXPORT_BASE = (typeof window !== 'undefined' && window.WS_SOURCE_ANALYSIS_BASE) || '/api/source-analysis';
 // The triage statements the site build saw and the trusted list
-// (scripts/build-dependency-triage.mjs); the relay adds the newer ones.
+// (scripts/build-dependency-triage.mjs); the relay adds the trusted authors' newer ones.
 export const TRIAGE_BASE = (typeof window !== 'undefined' && window.WS_DEPENDENCY_TRIAGE_BASE) || '/api/dependency-triage';
 const TRIAGE_RELAY_WAIT_MS = 4000;
 // The CSV download is hidden until a wallet developer asks for it (Luis,
@@ -74,14 +74,27 @@ export async function loadTrusted(opts = {}) {
   return { trusted, maintainers };
 }
 
-// What the relays have now: every statement and every deletion request for
-// the statement kind (a few dozen events; the page filters per wallet). The
-// same relays the site build reads: the project relay does not accept the
-// statement kind yet. After the first paint, so a slow relay only delays the
-// repaint. [] when none answers in time.
-export async function liveTriageEvents() {
+// Whose statements the page asks the relays for (issue 1002): the trusted
+// authors and the listed maintainers from statements.json, the only ones
+// whose statements settle a row. Everyone else's arrive with the site build.
+export function triageAuthors({ trusted = [], maintainers = {} } = {}) {
+  return [...new Set([...trusted, ...Object.values(maintainers).flat()])].filter(Boolean);
+}
+
+// What the relays have now from `authors` (triageAuthors): their statements
+// and their deletion requests. The same relays the site build reads: the
+// project relay does not accept the statement kind yet. After the first
+// paint, so a slow relay only delays the repaint. [] when none answers in
+// time, and without asking when there is nobody to ask for: statements.json
+// did not load, so no statement could settle a row anyway, and some relays
+// read an empty `authors` as no filter.
+export async function liveTriageEvents({ authors = [] } = {}) {
+  if (!authors.length) {
+    console.warn('Dependencies panel: no trusted authors (statements.json not loaded); not asking the relays');
+    return [];
+  }
   try {
-    const events = await fetchEvents([{ kinds: [dependencyTriageKind] }, { kinds: [DELETION_KIND], '#k': [String(dependencyTriageKind)] }], { relayUrls: [...new Set([mainRelayUrl, ...eventRelayUrls])], maxWait: TRIAGE_RELAY_WAIT_MS });
+    const events = await fetchEvents([{ kinds: [dependencyTriageKind], authors }, { kinds: [DELETION_KIND], '#k': [String(dependencyTriageKind)], authors }], { relayUrls: [...new Set([mainRelayUrl, ...eventRelayUrls])], maxWait: TRIAGE_RELAY_WAIT_MS });
     return [...events];
   } catch (error) {
     console.warn('Dependencies panel: relay not reachable for triage statements', error);
@@ -1279,7 +1292,7 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
   // last site build shows now, a deleted one goes. A dialog the reader has open
   // keeps working on the rows it was opened from.
   if (app?.releases?.some(r => r.advisories?.length)) {
-    const events = await liveEvents();
+    const events = await liveEvents({ authors: triageAuthors(lists) });
     const merged = triageForApp(app, mergeLiveTriage(published, events));
     const ids = (t) => JSON.stringify((t?.statements || []).map(st => st.id).sort());
     if (ids(merged) !== ids(triage)) {
