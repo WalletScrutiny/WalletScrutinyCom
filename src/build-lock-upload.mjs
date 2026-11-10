@@ -64,13 +64,18 @@ export function buildLockProblem(buildLock, form, { complete = false } = {}) {
   for (const [field, formField, name] of BUILD_FIELDS) {
     const formValue = String(form?.[formField] ?? '').trim();
     if (!formValue && !complete) continue;
-    if (String(buildLock[field]) !== formValue) return anotherBuildMessage(name, buildLock[field], formValue);
+    // compared as the checker's matchBuild does: trimmed form value, any case
+    if (String(buildLock[field]).toLowerCase() !== formValue.toLowerCase()) {
+      return anotherBuildMessage(name, buildLock[field], formValue);
+    }
   }
   return null;
 }
 
+// A script calls ws-buildlock.sh when a line other than a comment names it.
 export function scriptCallsBuildLock(text) {
-  return typeof text === 'string' && text.includes('ws-buildlock.sh');
+  if (typeof text !== 'string') return false;
+  return text.split('\n').some((line) => !line.trimStart().startsWith('#') && line.includes('ws-buildlock.sh'));
 }
 
 /**

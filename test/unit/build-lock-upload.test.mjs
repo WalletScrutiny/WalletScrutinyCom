@@ -71,6 +71,14 @@ describe('refusing a build-lock', () => {
     assert.equal(buildLockProblem(header, { ...form, appId: 'com.other' }), anotherBuildMessage('app', header.appId, 'com.other'));
   });
 
+  test('case and blanks around the form value are ignored, as in the checker', () => {
+    assert.equal(buildLockProblem(header, { ...form, platform: 'Android' }), null);
+    assert.equal(buildLockProblem(header, { ...form, platform: ' ANDROID ' }, { complete: true }), null);
+    assert.equal(buildLockProblem({ ...header, platform: 'Android' }, form), null);
+    assert.equal(buildLockProblem(header, { ...form, appId: 'App.MichaelWuensch.BitBanana' }), null);
+    assert.equal(buildLockProblem(header, { ...form, platform: 'iPhone' }), anotherBuildMessage('platform', 'android', 'iPhone'));
+  });
+
   test('an empty form field is compared only on submit', () => {
     assert.equal(buildLockProblem(header, { ...form, version: '' }), null);
     assert.equal(buildLockProblem(header, { ...form, version: '' }, { complete: true }),
@@ -122,5 +130,12 @@ describe('checking on submit', () => {
     assert.equal(scriptCallsBuildLock(script), true);
     assert.equal(scriptCallsBuildLock('build-lock.json is mentioned, the script is not'), false);
     assert.equal(scriptCallsBuildLock(null), false);
+  });
+
+  test('a ws-buildlock.sh named only in a comment is not a call', () => {
+    const commentOnly = '#!/bin/sh\n  # later: call ws-buildlock.sh\n./gradlew assembleRelease\n';
+    assert.equal(scriptCallsBuildLock(commentOnly), false);
+    assert.equal(scriptCallsBuildLock(`${commentOnly}${script} # writes build-lock.json\n`), true);
+    assert.equal(buildLockSubmitProblem({ outputFiles: [cast], scripts: [commentOnly], form, status: 'reproducible' }), null);
   });
 });
