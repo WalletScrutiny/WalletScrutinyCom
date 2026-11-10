@@ -805,6 +805,7 @@ function buildLockNotices(model) {
   if (b.modules !== null) {
     const parts = [`The build downloaded ${b.modules} Gradle modules (from the verifier's build-lock.json), and they were checked for advisories too.`];
     if (b.builtNotResolved.count) parts.push(` ${b.builtNotResolved.count} of them are not in the resolved list: ${some(b.builtNotResolved)}.`);
+    if (b.descriptionsOnly.count) parts.push(` ${b.descriptionsOnly.count} downloaded descriptions without code (.pom or .module files only) were not counted: ${some(b.descriptionsOnly)}.`);
     if (b.resolvedNotBuilt.count) parts.push(` ${b.resolvedNotBuilt.count} resolved modules were never downloaded by the build: ${some(b.resolvedNotBuilt)}.`);
     items.push(parts.join(''));
   }

@@ -183,6 +183,24 @@ test('compareWithResolution: modules only the build downloaded become rows, list
   assert.equal(unresolved.added[0].dev, null);
 });
 
+test('compareWithResolution: a module downloaded only as .pom or .module becomes no row and is named; a program the build runs counts', () => {
+  const art = (name, version, ...files) => files.map(file => ({ ecosystem: 'gradle', name, version, file, sha256: createHash('sha256').update(file).digest('hex') }));
+  const modules = gradleModules([
+    ...art('com.google.guava:guava', '29.0-android', 'guava-29.0-android.pom'),
+    ...art('androidx.compose:compose-bom', '2024.06.00', 'compose-bom-2024.06.00.pom', 'compose-bom-2024.06.00.module'),
+    ...art('com.google.protobuf:protoc', '3.25.3', 'protoc-3.25.3.pom', 'protoc-3.25.3-linux-x86_64.exe'),
+    ...art('org.jetbrains.kotlinx:atomicfu', '0.23.1', 'atomicfu-0.23.1.module', 'atomicfu-0.23.1.klib'),
+    ...art('org.apache.httpcomponents:httpclient', '4.5.6', 'httpclient-4.5.6.pom', 'httpclient-4.5.6.jar'),
+    // listed: keeps its row whatever was downloaded
+    ...art('com.squareup.okhttp3:okhttp', '4.9.0', 'okhttp-4.9.0.pom'),
+  ]);
+  const { added, builtNotResolved, descriptionsOnly } = compareWithResolution(modules, pinning());
+  assert.deepEqual(descriptionsOnly, ['androidx.compose:compose-bom@2024.06.00', 'com.google.guava:guava@29.0-android']);
+  assert.deepEqual(builtNotResolved, ['com.google.protobuf:protoc@3.25.3', 'org.apache.httpcomponents:httpclient@4.5.6', 'org.jetbrains.kotlinx:atomicfu@0.23.1']);
+  assert.equal(added.length, 3);
+  assert.equal(added.find(r => r.name === 'com.google.protobuf:protoc').scope, 'build', 'protoc is a build tool, not dropped');
+});
+
 test('checkBuildLocks adds the build\'s rows to pinning, and OSV looks them up like any other row', async () => {
   const rows = pinning();
   const result = await checkBuildLocks({ locks: [ref()], misnamed: [] }, rows, { dir: tmpDir(), fetchImpl: blossom({ [FIXTURE_SHA]: FIXTURE }) });
@@ -196,6 +214,7 @@ test('checkBuildLocks adds the build\'s rows to pinning, and OSV looks them up l
     commit: '0123456789abcdef0123456789abcdef01234567', generatedAt: '2026-11-10T06:00:00Z', match: 'ok', modules: 4 }]);
   assert.deepEqual(result.platforms, { android: { modules: 4,
     builtNotResolved: { count: 2, names: ['androidx.core:core@1.13.1', 'com.android.tools.build:gradle@8.5.2'] },
+    descriptionsOnly: { count: 0, names: [] },
     resolvedNotBuilt: { count: 1, names: ['androidx.appcompat:appcompat@1.7.0'] } } });
   assert.equal(summarizeResults({ pinning: rows, 'build-lock': result }, []).buildLock, result);
 });

@@ -143,13 +143,21 @@ function mainFile(files) {
   return files.find(f => /\.(jar|aar)$/.test(f.file || '')) || files[0] || {};
 }
 
+// A file with code: a library (jar, aar, klib) or a program the build runs
+// (protoc's .exe). A .pom or .module only describes a module: parent POMs,
+// BOMs and versions Gradle read but did not pick.
+const CODE_FILE = /\.(jar|aar|klib|exe)$/i;
+const hasCode = (m) => m.files.some(f => CODE_FILE.test(f.file || ''));
+
 /**
  * The rows one platform's build adds and both differences with the gradle
  * rows the checkout gave (pinning + gradle-resolution) for that platform:
  * modules the build downloaded that no row lists at that version (they
  * become rows of `lockfile`), and modules a row lists at an exact version
  * that the build never downloaded. A module the rows already list keeps its
- * row: the build confirms it, it is not counted twice. `inPlatform` keeps
+ * row: the build confirms it, it is not counted twice. A module the build
+downloaded only descriptions of (no file with code) becomes no row: none of
+its code ships or runs; it is named in `descriptionsOnly`. `inPlatform` keeps
  * the rows of files that platform's page counts (all rows by default).
  *
  * Gradle resolution lists the release runtime classpaths ('app') and the
@@ -164,8 +172,10 @@ export function compareWithResolution(modules, pinning, { lockfile = BUILD_LOCK_
   const listed = new Set(rows.map(e => `${e.name}@${e.version}`));
   const appKnown = rows.some(e => e.scope === 'app');
   const added = [];
+  const descriptionsOnly = [];
   for (const [key, m] of modules) {
     if (listed.has(key)) continue;
+    if (!hasCode(m)) { descriptionsOnly.push(key); continue; }
     const f = mainFile(m.files);
     added.push({
       ecosystem: 'gradle',
@@ -185,7 +195,7 @@ export function compareWithResolution(modules, pinning, { lockfile = BUILD_LOCK_
     // only rows with an exact version, the ones test 10 can look up
     .filter(e => uncheckableReason(e) === null && !modules.has(`${e.name}@${e.version}`))
     .map(e => `${e.name}@${e.version}`))].sort();
-  return { added, builtNotResolved: added.map(r => `${r.name}@${r.version}`).sort(), resolvedNotBuilt: notBuilt };
+  return { added, builtNotResolved: added.map(r => `${r.name}@${r.version}`).sort(), descriptionsOnly: descriptionsOnly.sort(), resolvedNotBuilt: notBuilt };
 }
 
 // how many module names the wallet page gets per difference
@@ -209,7 +219,7 @@ export function buildLockForReaders(stored) {
     })),
     misnamed: (stored.misnamed || []).map(m => ({ name: m.name, platform: m.platform || null })),
     platforms: Object.fromEntries(Object.entries(stored.platforms || {}).map(([p, d]) => [p, {
-      modules: d.modules, builtNotResolved: diff(d.builtNotResolved), resolvedNotBuilt: diff(d.resolvedNotBuilt),
+      modules: d.modules, builtNotResolved: diff(d.builtNotResolved), descriptionsOnly: diff(d.descriptionsOnly), resolvedNotBuilt: diff(d.resolvedNotBuilt),
     }])),
   };
 }
@@ -294,9 +304,11 @@ export async function checkBuildLocks({ locks = [], misnamed = [] }, pinning, op
     platforms[platform] = {
       modules: modules.size,
       builtNotResolved: { count: diff.builtNotResolved.length, names: limited(diff.builtNotResolved) },
+      descriptionsOnly: { count: diff.descriptionsOnly.length, names: limited(diff.descriptionsOnly) },
       resolvedNotBuilt: { count: diff.resolvedNotBuilt.length, names: limited(diff.resolvedNotBuilt) },
     };
     console.log(`  ${platform}: ${modules.size} modules downloaded, ${diff.builtNotResolved.length} not in the resolved rows (added for the vulnerability check), ` +
+      `${diff.descriptionsOnly.length} more only as descriptions without code (not counted), ` +
       `${diff.resolvedNotBuilt.length} resolved modules never downloaded`);
   }
   // after every comparison, so one platform's rows are not another's resolved list

@@ -280,6 +280,11 @@ files.nostr.info under its sha256.
   platform's page only, never on another product built from the same
   repository. The differences compare with the resolved rows that page counts,
   and each page shows only its own platform's files and notices.
+- A module counts only when the build downloaded a file with code: a
+  `.jar`, `.aar`, `.klib`, or a program such as protoc's `.exe`. A module
+  the build downloaded only `.pom` or `.module` files of (parent POMs, BOMs,
+  versions Gradle read but did not pick) becomes no row; the page says how
+  many such descriptions were not counted, and names a few.
 - A module only the build downloaded is marked "build tool" when Gradle's
   resolution found the app's own modules: it is then not in the app, and
   build tools still count. Without that, its scope stays unknown.

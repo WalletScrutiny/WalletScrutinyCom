@@ -438,10 +438,10 @@ describe('dependencies panel: git submodules', () => {
 
 describe('build-lock notices', () => {
   // the export's shape (plugins/build-lock.mjs buildLockForReaders), from one Android verification's result
-  const asExport = ({ files, misnamed, modules, builtNotResolved, resolvedNotBuilt }) => ({
+  const asExport = ({ files, misnamed, modules, builtNotResolved, descriptionsOnly, resolvedNotBuilt }) => ({
     files: files.map(f => ({ platform: 'android', ...f })),
     misnamed: misnamed.map(name => ({ name, platform: 'android' })),
-    platforms: modules === null ? {} : { android: { modules, builtNotResolved, resolvedNotBuilt } },
+    platforms: modules === null ? {} : { android: { modules, builtNotResolved, descriptionsOnly, resolvedNotBuilt } },
   });
   const withLock = (buildLock) => ({ ...APP, releases: [{ ...APP.releases[0], buildLock: asExport(buildLock) }] });
   const text = (app, platform = 'android') => panelElement(panelModel(app, { platform }), { appId: 'app.android' }).querySelector('.dp-notices')?.textContent || '';
@@ -458,6 +458,14 @@ describe('build-lock notices', () => {
     assert.match(t, /The build downloaded 40 Gradle modules \(from the verifier's build-lock\.json\), and they were checked for advisories too\./);
     assert.match(t, /22 of them are not in the resolved list: androidx\.core:core@1\.13\.1, com\.android\.tools\.build:gradle@8\.5\.2 and 20 more\./);
     assert.match(t, /1 resolved modules were never downloaded by the build: androidx\.appcompat:appcompat@1\.7\.0\./);
+  });
+
+  test('descriptions without code: how many were not counted, with names; nothing when none, or in an older export', () => {
+    const t = text(withLock({ files: [USED], misnamed: [], modules: 40, builtNotResolved: { count: 1, names: ['g:jar@1.0'] },
+      descriptionsOnly: { count: 2, names: ['com.google.guava:guava@29.0-android', 'g:bom@1.0'] }, resolvedNotBuilt: none }));
+    assert.match(t, /2 downloaded descriptions without code \(\.pom or \.module files only\) were not counted: com\.google\.guava:guava@29\.0-android, g:bom@1\.0\./);
+    assert.doesNotMatch(text(withLock({ files: [USED], misnamed: [], modules: 40, builtNotResolved: none, descriptionsOnly: { count: 0, names: [] }, resolvedNotBuilt: none })), /descriptions/);
+    assert.doesNotMatch(text(withLock({ files: [USED], misnamed: [], modules: 40, builtNotResolved: none, resolvedNotBuilt: none })), /descriptions/, 'an export from before has no such field');
   });
 
   test('another build, not tied, a hash mismatch and a misnamed file each say so; nothing about modules when none was used', () => {

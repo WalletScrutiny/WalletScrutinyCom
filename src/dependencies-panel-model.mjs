@@ -111,7 +111,7 @@ function buildLockOnPage(b, platform) {
   const diff = platform ? b.platforms?.[platform] : all.length === 1 ? all[0][1] : null;
   if (!files.length && !misnamed.length && !diff) return null;
   const none = { count: 0, names: [] };
-  return { files, misnamed, modules: diff?.modules ?? null, builtNotResolved: diff?.builtNotResolved || none, resolvedNotBuilt: diff?.resolvedNotBuilt || none };
+  return { files, misnamed, modules: diff?.modules ?? null, builtNotResolved: diff?.builtNotResolved || none, descriptionsOnly: diff?.descriptionsOnly || none, resolvedNotBuilt: diff?.resolvedNotBuilt || none };
 }
 
 // The export's file-sorting label for this page; null for an export without one.
