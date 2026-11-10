@@ -201,9 +201,17 @@ bash "${workspace}/ws-buildlock.sh" --out "${workspace}/build-lock" --gradle-hom
 
 `--app-id`, `--version` and `--platform` say which build the file belongs to:
 pass them exactly as the verification will carry them (its `i`, `version` and
-`platform` tags). The script reads the commit from `--src` itself. A flag left
-out leaves its field `null` and prints a warning: the dependency checker
-won't use such a file, and the form will refuse it. An old `build-lock.json`
+`platform` tags). A flag left out leaves its field `null` and prints a
+warning: the dependency checker won't use such a file, and the form will
+refuse it.
+
+The commit comes from `--commit <sha>` when given, or else from the HEAD of
+`--src`. A script that clones the source inside the container has no checkout
+on the host, so it passes the commit it built (BitBanana's writes it to
+`commit.txt`: `--commit "$(cat commit.txt)"`). It must be the full 40-hex
+commit: a tag name or a short sha warns and leaves `commit` null. If it
+differs from the HEAD of `--src`, the script warns and keeps `--commit`. The
+commit is optional; the checker doesn't need it. An old `build-lock.json`
 in `--out` is removed before anything else, so a run that fails can't leave
 the previous build's file behind.
 
@@ -217,7 +225,7 @@ the previous build's file behind.
   app:      app.michaelwuensch.bitbanana
   version:  1.1.1
   platform: android
-  commit:   <40 hex: git rev-parse HEAD of --src>
+  commit:   <40 hex: --commit, or git rev-parse HEAD of --src>
 Keep the name build-lock.json when uploading it.
 ```
 

@@ -22,13 +22,14 @@
 # GRADLE_USER_HOME (see scripts/rb/README.md).
 #
 # The file says which build it belongs to (schema 2): the app, version and
-# platform from the flags, and the commit of --src. The dependency checker
+# platform from the flags, and the commit from --commit (or else --src). The dependency checker
 # and the verification form use a file only when all three flags were given.
 #
 # It reads files only and never changes the verdict; it exits 0 unless invoked wrongly.
 #
 # Usage: ws-buildlock.sh --out <dir> [--gradle-home <dir>]... [--src <checkout>]
-#                        [--app-id <id>] [--version <version>] [--platform <platform>] [--yaml <COMPARISON_RESULTS.yaml>]
+#                        [--app-id <id>] [--version <version>] [--platform <platform>] [--commit <sha>]
+#                        [--yaml <COMPARISON_RESULTS.yaml>]
 #   --out          where build-lock.json and the copied lockfiles are written; an
 #                  old build-lock.json there is removed first
 #   --gradle-home  a GRADLE_USER_HOME the build used (repeatable)
@@ -37,12 +38,14 @@
 #   --app-id       the app ID, as in the verification's `i` tag
 #   --version      the version, as in the verification's `version` tag
 #   --platform     the platform, as in the verification's `platform` tag (android)
+#   --commit       the full 40-hex commit the build was made from, for builds that
+#                  clone inside the container; without it, the HEAD of --src
 #   --yaml         COMPARISON_RESULTS.yaml to append a `build_lock:` block to (optional)
 set -u
 
 export WS_BUILDLOCK_VERSION="0.3.0"
 
-OUT="" SRC="" YAML="" APP_ID="" APP_VERSION="" PLATFORM=""
+OUT="" SRC="" YAML="" APP_ID="" APP_VERSION="" PLATFORM="" COMMIT_FLAG=""
 GRADLE_HOMES=()
 while [ $# -gt 0 ]; do
   case "$1" in
@@ -52,12 +55,13 @@ while [ $# -gt 0 ]; do
     --app-id) APP_ID="${2:-}"; shift 2 ;;
     --version) APP_VERSION="${2:-}"; shift 2 ;;
     --platform) PLATFORM="${2:-}"; shift 2 ;;
+    --commit) COMMIT_FLAG="${2:-}"; shift 2 ;;
     --gradle-home) GRADLE_HOMES+=("${2:-}"); shift 2 ;;
     *) echo "ws-buildlock: unknown argument $1" >&2; exit 2 ;;
   esac
 done
 if [ -z "$OUT" ] || { [ ${#GRADLE_HOMES[@]} -eq 0 ] && [ -z "$SRC" ]; }; then
-  echo "Usage: ws-buildlock.sh --out <dir> [--gradle-home <dir>]... [--src <checkout>] [--app-id <id>] [--version <version>] [--platform <platform>] [--yaml <file>]" >&2
+  echo "Usage: ws-buildlock.sh --out <dir> [--gradle-home <dir>]... [--src <checkout>] [--app-id <id>] [--version <version>] [--platform <platform>] [--commit <sha>] [--yaml <file>]" >&2
   exit 2
 fi
 # A previous run's file must not survive this one: uploaded by mistake, it
@@ -73,9 +77,23 @@ MISSING=()
 [ -n "$APP_ID" ] || MISSING+=(--app-id)
 [ -n "$APP_VERSION" ] || MISSING+=(--version)
 [ -n "$PLATFORM" ] || MISSING+=(--platform)
-COMMIT=""
+SRC_COMMIT=""
 if [ -n "$SRC" ]; then
-  COMMIT=$(git -C "$SRC" rev-parse HEAD 2>/dev/null) || COMMIT=""
+  SRC_COMMIT=$(git -C "$SRC" rev-parse HEAD 2>/dev/null) || SRC_COMMIT=""
+fi
+# --commit names the build when the checkout it came from is gone (a clone
+# inside the container); a tag or a short sha would not tie the file to it.
+COMMIT="$SRC_COMMIT"
+if [ -n "$COMMIT_FLAG" ]; then
+  if [[ "$COMMIT_FLAG" =~ ^[0-9a-fA-F]{40}$ ]]; then
+    COMMIT=$(printf '%s' "$COMMIT_FLAG" | tr 'A-F' 'a-f')
+    if [ -n "$SRC_COMMIT" ] && [ "$SRC_COMMIT" != "$COMMIT" ]; then
+      echo "[WARN] ws-buildlock: --commit $COMMIT differs from the HEAD of --src ($SRC_COMMIT); the file names --commit"
+    fi
+  else
+    COMMIT=""
+    echo "[WARN] ws-buildlock: --commit $COMMIT_FLAG is not a full 40-hex commit; the file names no commit"
+  fi
 fi
 
 ENTRIES="$OUT/.entries"
