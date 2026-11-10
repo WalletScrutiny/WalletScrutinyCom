@@ -195,8 +195,50 @@ so mount a fresh directory as `GRADLE_USER_HOME` and pass it in:
 mkdir -p "${workspace}/gradle-home"
 docker run ... -v "${workspace}/gradle-home:/gradle-home" -e GRADLE_USER_HOME=/gradle-home ...
 # after the build, fetched and hash-checked like ws-depcheck.sh:
-bash "${workspace}/ws-buildlock.sh" --out "${workspace}/build-lock" --gradle-home "${workspace}/gradle-home" --src "$SRC" --yaml "${SCRIPT_DIR}/COMPARISON_RESULTS.yaml" || true
+bash "${workspace}/ws-buildlock.sh" --out "${workspace}/build-lock" --gradle-home "${workspace}/gradle-home" --src "$SRC" \
+  --app-id "$appId" --version "$version" --platform android || true
 ```
+
+`--app-id`, `--version` and `--platform` say which build the file belongs to:
+pass them exactly as the verification will carry them (its `i`, `version` and
+`platform` tags). The script reads the commit from `--src` itself. A flag left
+out leaves its field `null` and prints a warning: the dependency checker
+won't use such a file, and the form will refuse it. An old `build-lock.json`
+in `--out` is removed before anything else, so a run that fails can't leave
+the previous build's file behind.
+
+**Uploading it.** At the end of the run the script prints the file to upload
+(it lands in the recording too):
+
+```
+=== Upload this file with the verification ===
+  file:     /home/me/wsTest/build-lock/build-lock.json
+  sha256:   <64 hex: the file's sha256>
+  app:      app.michaelwuensch.bitbanana
+  version:  1.1.1
+  platform: android
+  commit:   <40 hex: git rev-parse HEAD of --src>
+Keep the name build-lock.json when uploading it.
+```
+
+1. Take that exact file: the path printed, not an older copy from a download folder.
+2. In the verification form, drop it in the box that starts "For larger files,
+   drag & drop them here", together with the asciicast. Not in the scripts box.
+3. Its name must stay exactly `build-lock.json`; the sha256 in the published
+   event must be the one printed.
+
+The form checks the file before it publishes and refuses it with one of these
+messages:
+
+- "This build-lock.json belongs to another build: it says <field> <value in
+  the file>, this verification says <value in the form>." (the app, version
+  or platform differs)
+- "This build-lock.json doesn't say which build it belongs to. Run
+  ws-buildlock.sh 0.3.0 or later with --app-id, --version and --platform, and
+  upload the new file." (schema 1, or a field is `null`)
+- "Only one build-lock.json can go with a verification. Remove the other
+  one." (a second file)
+
 
 Like ws-depcheck, it never changes the verdict and exits 0. With `--yaml` it
 appends a `build_lock:` block (status `ok` or `empty`, the artifact count, the
