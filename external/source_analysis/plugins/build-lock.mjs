@@ -26,6 +26,7 @@ import path from 'path';
 import { createHash } from 'crypto';
 import { DEFAULT_BRANCH_REF, BUILD_LOCK_VERIFIERS } from '../config.mjs';
 import { uncheckableReason } from './osv.mjs';
+import { COUNTED_TARGETS, buildLockLockfile, targetOfLockfileInRepository } from '../products.mjs';
 
 export const BLOSSOM_SERVER = 'https://files.nostr.info';
 export const BUILD_LOCK_LOCKFILE = 'build-lock.json';
@@ -143,38 +144,46 @@ function mainFile(files) {
 }
 
 /**
- * The rows this build adds and both differences with the gradle rows the
- * checkout gave (pinning + gradle-resolution): modules the build downloaded
- * that no row lists at that version (they become rows), and modules a row
- * lists at an exact version that the build never downloaded. A module the
- * rows already list keeps its row: the build confirms it, it is not counted
- * twice.
+ * The rows one platform's build adds and both differences with the gradle
+ * rows the checkout gave (pinning + gradle-resolution) for that platform:
+ * modules the build downloaded that no row lists at that version (they
+ * become rows of `lockfile`), and modules a row lists at an exact version
+ * that the build never downloaded. A module the rows already list keeps its
+ * row: the build confirms it, it is not counted twice. `inPlatform` keeps
+ * the rows of files that platform's page counts (all rows by default).
+ *
+ * Gradle resolution lists the release runtime classpaths ('app') and the
+ * build script's classpath, so once it found the app's modules, a module
+ * only the build downloaded is a build tool (AGP's aapt2, lint, R8):
+ * 'build', which still counts (issue 1000, Leo 2026-10-26). Without
+ * resolved app rows nothing says what ships, and the scope stays unknown.
  */
-export function compareWithResolution(modules, pinning) {
-  const rows = (pinning || []).filter(a => a.ecosystem === 'gradle').flatMap(a => a.entries || []);
-  const listed = new Set(rows.filter(e => e.ecosystem === 'gradle').map(e => `${e.name}@${e.version}`));
+export function compareWithResolution(modules, pinning, { lockfile = BUILD_LOCK_LOCKFILE, inPlatform = () => true } = {}) {
+  const rows = (pinning || []).filter(a => a.ecosystem === 'gradle').flatMap(a => a.entries || [])
+    .filter(e => e.ecosystem === 'gradle' && inPlatform(e));
+  const listed = new Set(rows.map(e => `${e.name}@${e.version}`));
+  const appKnown = rows.some(e => e.scope === 'app');
   const added = [];
   for (const [key, m] of modules) {
     if (listed.has(key)) continue;
     const f = mainFile(m.files);
     added.push({
       ecosystem: 'gradle',
-      lockfile: BUILD_LOCK_LOCKFILE,
+      lockfile,
       name: m.name,
       version: m.version,
       resolved: '',
       integrity: f.sha256 ? `sha256:${f.sha256}` : '',
       direct: null,
-      // the cache does not say whether a module ships in the app or only runs the build
-      dev: null,
-      scope: null,
+      dev: appKnown ? true : null,
+      scope: appKnown ? 'build' : null,
       dependants: null,
       tier: f.sha256 ? 'hash-pinned' : 'version-pinned',
     });
   }
   const notBuilt = [...new Set(rows
     // only rows with an exact version, the ones test 10 can look up
-    .filter(e => e.ecosystem === 'gradle' && uncheckableReason(e) === null && !modules.has(`${e.name}@${e.version}`))
+    .filter(e => uncheckableReason(e) === null && !modules.has(`${e.name}@${e.version}`))
     .map(e => `${e.name}@${e.version}`))].sort();
   return { added, builtNotResolved: added.map(r => `${r.name}@${r.version}`).sort(), resolvedNotBuilt: notBuilt };
 }
@@ -184,21 +193,24 @@ const READER_LIMIT = 20;
 
 /**
  * What the wallet page shows of a stored result (analyses.build_lock): per
- * file whether it was used and why not, the misnamed names, and both
- * differences with at most READER_LIMIT names each. Null when there is none.
+ * file whether it was used and why not, the misnamed names, and per platform
+ * both differences with at most READER_LIMIT names each. Each file and name
+ * keeps its verification's platform, so a page shows only its own
+ * (src/dependencies-panel-model.mjs). Null when there is none.
  */
 export function buildLockForReaders(stored) {
   if (!stored || !Array.isArray(stored.files)) return null;
   const diff = (d) => (d ? { count: d.count, names: (d.names || []).slice(0, READER_LIMIT) } : { count: 0, names: [] });
   return {
     files: stored.files.map(f => ({
+      platform: f.platform || null,
       verifier: f.verifier || 'listed', match: f.match || null, problem: f.problem || null, differ: f.differ || null,
       schema: f.schema ?? null, commit: f.commit || null, modules: f.modules ?? null,
     })),
-    misnamed: (stored.misnamed || []).map(m => m.name),
-    modules: stored.modules ?? null,
-    builtNotResolved: diff(stored.builtNotResolved),
-    resolvedNotBuilt: diff(stored.resolvedNotBuilt),
+    misnamed: (stored.misnamed || []).map(m => ({ name: m.name, platform: m.platform || null })),
+    platforms: Object.fromEntries(Object.entries(stored.platforms || {}).map(([p, d]) => [p, {
+      modules: d.modules, builtNotResolved: diff(d.builtNotResolved), resolvedNotBuilt: diff(d.resolvedNotBuilt),
+    }])),
   };
 }
 
@@ -207,19 +219,24 @@ const limited = (list) => (list.length > LIST_LIMIT ? list.slice(0, LIST_LIMIT) 
 /**
  * Read every build-lock.json of a release and fold the usable ones into
  * pinning's result (a new gradle analysis, so test 10 checks its rows).
+ * Each platform's files are compared on their own, with the rows that
+ * platform's page counts (the rules of opts.repoUrl), and their rows are that
+ * platform's ("build-lock.json (android)", products.mjs): one app id can
+ * have an Android and an iPhone verification of the same version.
  * Returns what the analyses row keeps, or null when the release has none.
  */
 export async function checkBuildLocks({ locks = [], misnamed = [] }, pinning, opts = {}) {
   if (!locks.length && !misnamed.length) return null;
   console.log('\n--- Test 7d: the build\'s own download list (build-lock.json) ---');
   const files = [];
-  const modules = new Map();
+  // platform -> group:artifact@version -> module
+  const byPlatform = new Map();
   const seen = new Set();
   for (const ref of locks) {
     if (seen.has(`${ref.sha256}\n${ref.eventId}`)) continue;
     seen.add(`${ref.sha256}\n${ref.eventId}`);
     const listed = BUILD_LOCK_VERIFIERS.has(ref.pubkey);
-    const entry = { sha256: ref.sha256, eventId: ref.eventId, pubkey: ref.pubkey, verifier: listed ? 'listed' : 'unlisted' };
+    const entry = { sha256: ref.sha256, eventId: ref.eventId, pubkey: ref.pubkey, platform: ref.platform ? String(ref.platform).toLowerCase() : null, verifier: listed ? 'listed' : 'unlisted' };
     files.push(entry);
     if (!listed) {
       console.log(`  ${ref.sha256.slice(0, 12)}: from a verifier not on the list (${String(ref.pubkey).slice(0, 12)}); not used`);
@@ -255,6 +272,9 @@ export async function checkBuildLocks({ locks = [], misnamed = [] }, pinning, op
     }
     const own = gradleModules(file.artifacts);
     entry.modules = own.size;
+    // a matched file's platform is its event's, so never null here
+    if (!byPlatform.has(entry.platform)) byPlatform.set(entry.platform, new Map());
+    const modules = byPlatform.get(entry.platform);
     for (const [k, m] of own) {
       if (!modules.has(k)) modules.set(k, { ...m, files: [] });
       modules.get(k).files.push(...m.files);
@@ -263,22 +283,28 @@ export async function checkBuildLocks({ locks = [], misnamed = [] }, pinning, op
   }
   for (const m of misnamed) console.log(`  misnamed output file "${m.name}": only "${BUILD_LOCK_LOCKFILE}" is read`);
 
-  const used = files.some(f => f.modules !== undefined);
-  let diff = { added: [], builtNotResolved: [], resolvedNotBuilt: [] };
-  if (used) {
-    diff = compareWithResolution(modules, pinning);
-    if (diff.added.length && Array.isArray(pinning)) {
-      pinning.push({ ecosystem: 'gradle', lockfiles: [BUILD_LOCK_LOCKFILE], resolutionNotes: [], entries: diff.added });
-    }
-    console.log(`  ${modules.size} modules downloaded, ${diff.builtNotResolved.length} not in the resolved rows (added for the vulnerability check), ` +
+  const platforms = {};
+  const analyses = [];
+  for (const [platform, modules] of [...byPlatform].sort(([x], [y]) => x.localeCompare(y))) {
+    const lockfile = buildLockLockfile(platform);
+    const counted = COUNTED_TARGETS[platform];
+    const inPlatform = counted ? (e) => counted.includes(targetOfLockfileInRepository(e.lockfile, opts.repoUrl)) : undefined;
+    const diff = compareWithResolution(modules, pinning, { lockfile, inPlatform });
+    if (diff.added.length) analyses.push({ ecosystem: 'gradle', lockfiles: [lockfile], resolutionNotes: [], entries: diff.added });
+    platforms[platform] = {
+      modules: modules.size,
+      builtNotResolved: { count: diff.builtNotResolved.length, names: limited(diff.builtNotResolved) },
+      resolvedNotBuilt: { count: diff.resolvedNotBuilt.length, names: limited(diff.resolvedNotBuilt) },
+    };
+    console.log(`  ${platform}: ${modules.size} modules downloaded, ${diff.builtNotResolved.length} not in the resolved rows (added for the vulnerability check), ` +
       `${diff.resolvedNotBuilt.length} resolved modules never downloaded`);
   }
+  // after every comparison, so one platform's rows are not another's resolved list
+  if (Array.isArray(pinning)) pinning.push(...analyses);
   return {
     files,
-    misnamed: misnamed.map(m => ({ name: m.name, sha256: m.sha256, eventId: m.eventId })),
-    modules: used ? modules.size : null,
-    builtNotResolved: { count: diff.builtNotResolved.length, names: limited(diff.builtNotResolved) },
-    resolvedNotBuilt: { count: diff.resolvedNotBuilt.length, names: limited(diff.resolvedNotBuilt) },
+    misnamed: misnamed.map(m => ({ name: m.name, sha256: m.sha256, eventId: m.eventId, platform: m.platform ? String(m.platform).toLowerCase() : null })),
+    platforms,
   };
 }
 
@@ -307,11 +333,11 @@ export function buildLockRefsForTag(db, appId, tag, { getVerifiedRefs, getReprod
 export default {
   description: 'Test 7d: the build\'s own download list (build-lock.json)',
   requires: ['pinning'],
-  async host({ name, version, db, results }) {
+  async host({ name, version, db, repoUrl, results }) {
     if (!db || !version || version === DEFAULT_BRANCH_REF) return undefined;
     const { getVerifiedRefs, getReproducibleVersions } = await import('../ddbbUtils.mjs');
     const refs = buildLockRefsForTag(db, name, version, { getVerifiedRefs, getReproducibleVersions });
-    const result = await checkBuildLocks(refs, results.pinning, { dir: buildLockDir(db) });
+    const result = await checkBuildLocks(refs, results.pinning, { dir: buildLockDir(db), repoUrl });
     return result === null ? undefined : result;
   },
 };

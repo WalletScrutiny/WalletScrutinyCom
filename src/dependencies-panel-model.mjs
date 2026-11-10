@@ -98,6 +98,22 @@ function notInAppOf(dependencies, rows, counted, platform) {
   };
 }
 
+// This page's part of the verifiers' build-lock.json (export.mjs, plugins/build-lock.mjs):
+// the files and names of its own platform's verifications, and that platform's
+// differences. A page without a platform sees every file, and the differences
+// only when one platform has them. Null when nothing is left.
+function buildLockOnPage(b, platform) {
+  if (!b) return null;
+  const here = x => !platform || !x.platform || x.platform === platform;
+  const files = b.files.filter(here);
+  const misnamed = b.misnamed.filter(here).map(m => m.name);
+  const all = Object.entries(b.platforms || {});
+  const diff = platform ? b.platforms?.[platform] : all.length === 1 ? all[0][1] : null;
+  if (!files.length && !misnamed.length && !diff) return null;
+  const none = { count: 0, names: [] };
+  return { files, misnamed, modules: diff?.modules ?? null, builtNotResolved: diff?.builtNotResolved || none, resolvedNotBuilt: diff?.resolvedNotBuilt || none };
+}
+
 // The export's file-sorting label for this page; null for an export without one.
 function sortingOnPage(sorting, platform) {
   if (!sorting) return null;
@@ -365,7 +381,7 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
     // this page's app only, when the repository also builds another (iPhone files stay off the Android page)
     lockCoverage: current.lockCoverageByPlatform?.[platform] || current.lockCoverage || null,
     // the verifier's build-lock.json: used or why not, and how it differs from the resolved list (plugins/build-lock.mjs)
-    buildLock: current.buildLock || null,
+    buildLock: buildLockOnPage(current.buildLock, platform),
     newerFailed: newerFailed.map(r => ({ ref: r.ref, status: r.status, error: r.error || null })),
     releases: releases.map(r => ({ ref: r.ref, analysedAt: r.analysedAt || null, status: r.status || 'ok' })),
     history: dependencyHistory(releases, current.ref, platform),

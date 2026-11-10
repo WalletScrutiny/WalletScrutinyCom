@@ -41,7 +41,7 @@ export function buildLockRefs(event) {
     if (t[1] === BUILD_LOCK_NAME && /^[0-9a-f]{64}$/.test(sha256)) {
       locks.push({ sha256, eventId: event.id, pubkey: event.pubkey, appId: tag(event, 'i'), version: String(tag(event, 'version') || '').trim(), platform: tag(event, 'platform') || null });
     } else if (t[1] !== BUILD_LOCK_NAME && NEAR_BUILD_LOCK.test(t[1])) {
-      misnamed.push({ name: t[1], sha256: sha256 || null, eventId: event.id, pubkey: event.pubkey });
+      misnamed.push({ name: t[1], sha256: sha256 || null, eventId: event.id, pubkey: event.pubkey, platform: tag(event, 'platform') || null });
     }
   }
   return { locks, misnamed };

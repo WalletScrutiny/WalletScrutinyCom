@@ -270,8 +270,16 @@ files.nostr.info under its sha256.
 - An output file named like `build-lock*.json` but not exactly
   `build-lock.json` (for example `build-lock (1).json`) is reported as
   "misnamed" and not downloaded.
-- The `gradle` entries become ordinary dependency rows (lockfile
-  `build-lock.json`) for the known-vulnerability check, and the checker shows
-  both differences with Gradle's own resolution: modules the build downloaded
-  that the resolution does not list, and resolved modules the build never
-  downloaded. `commit` is shown, not matched: the event has no commit.
+- The `gradle` entries become ordinary dependency rows for the
+  known-vulnerability check, and the checker shows both differences with
+  Gradle's own resolution: modules the build downloaded that the resolution
+  does not list, and resolved modules the build never downloaded. `commit` is
+  shown, not matched: the event has no commit.
+- Each platform is checked on its own. The rows' lockfile names the
+  verification's platform (`build-lock.json (android)`), so they count on that
+  platform's page only, never on another product built from the same
+  repository. The differences compare with the resolved rows that page counts,
+  and each page shows only its own platform's files and notices.
+- A module only the build downloaded is marked "build tool" when Gradle's
+  resolution found the app's own modules: it is then not in the app, and
+  build tools still count. Without that, its scope stays unknown.

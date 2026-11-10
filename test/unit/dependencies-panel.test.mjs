@@ -437,8 +437,14 @@ describe('dependencies panel: git submodules', () => {
 });
 
 describe('build-lock notices', () => {
-  const withLock = (buildLock) => ({ ...APP, releases: [{ ...APP.releases[0], buildLock }] });
-  const text = (app) => panelElement(panelModel(app), { appId: 'app.android' }).querySelector('.dp-notices')?.textContent || '';
+  // the export's shape (plugins/build-lock.mjs buildLockForReaders), from one Android verification's result
+  const asExport = ({ files, misnamed, modules, builtNotResolved, resolvedNotBuilt }) => ({
+    files: files.map(f => ({ platform: 'android', ...f })),
+    misnamed: misnamed.map(name => ({ name, platform: 'android' })),
+    platforms: modules === null ? {} : { android: { modules, builtNotResolved, resolvedNotBuilt } },
+  });
+  const withLock = (buildLock) => ({ ...APP, releases: [{ ...APP.releases[0], buildLock: asExport(buildLock) }] });
+  const text = (app, platform = 'android') => panelElement(panelModel(app, { platform }), { appId: 'app.android' }).querySelector('.dp-notices')?.textContent || '';
   const USED = { match: 'ok', problem: null, differ: null, schema: 2, commit: 'c0ffee', modules: 40 };
   const none = { count: 0, names: [] };
 
@@ -480,6 +486,22 @@ describe('build-lock notices', () => {
 
   test('a release without a build-lock.json says nothing about one', () => {
     assert.doesNotMatch(text(APP), /build-lock|Gradle modules/);
+  });
+
+  test('each page shows only its own platform\'s build-lock.json and differences', () => {
+    const app = { ...APP, releases: [{ ...APP.releases[0], buildLock: {
+      files: [{ ...USED, platform: 'android' }, { ...USED, platform: 'iphone', match: 'another-build', differ: [{ field: 'appVersion', file: '1.2.2', event: '1.2.3' }], modules: null }],
+      misnamed: [{ name: 'build-lock (1).json', platform: 'android' }],
+      platforms: { android: { modules: 40, builtNotResolved: { count: 1, names: ['androidx.core:core@1.13.1'] }, resolvedNotBuilt: none } },
+    } }] };
+    const android = text(app, 'android');
+    assert.match(android, /The build downloaded 40 Gradle modules/);
+    assert.match(android, /Misnamed/);
+    assert.doesNotMatch(android, /Belongs to another build/);
+    const iphone = text(app, 'iphone');
+    assert.match(iphone, /Belongs to another build/);
+    assert.doesNotMatch(iphone, /Gradle modules|Misnamed/);
+    assert.equal(panelModel(app, { platform: 'hardware' }).buildLock, null, 'a hardware page of the same repository sees none of it');
   });
 });
 

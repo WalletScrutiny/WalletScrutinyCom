@@ -20,6 +20,7 @@ import { DEFAULT_BRANCH_REF, BUILD_LOCK_VERIFIERS } from '../config.mjs';
 // a verifier on the list: only their build-lock.json is used
 const LISTED = [...BUILD_LOCK_VERIFIERS][0];
 import { buildApp } from '../export.mjs';
+import { targetOfLockfile, targetOfLockfileInRepository } from '../products.mjs';
 
 const FIXTURE = fs.readFileSync(path.join(path.dirname(fileURLToPath(import.meta.url)), 'fixtures', 'build-lock.json'));
 const sha256 = (buf) => createHash('sha256').update(buf).digest('hex');
@@ -139,7 +140,7 @@ test('loadBuildLock: missing, refused or too large is reported; a server error f
   assert.deepEqual(await loadBuildLock(FIXTURE_SHA, { dir: tmpDir(), fetchImpl: endless }), { problem: 'too-large' });
   const result = await checkBuildLocks({ locks: [ref()], misnamed: [] }, pinning(), { dir: tmpDir(), fetchImpl: blossom({}) });
   assert.equal(result.files[0].problem, 'not-found');
-  assert.equal(result.modules, null);
+  assert.deepEqual(result.platforms, {});
 });
 
 test('parseBuildLock reads the schema 2 fixture; schema 1 says nothing about its build; other JSON is not a build lock', () => {
@@ -175,21 +176,27 @@ test('compareWithResolution: modules only the build downloaded become rows, list
   assert.equal(core.lockfile, BUILD_LOCK_LOCKFILE);
   assert.equal(core.integrity, `sha256:${modules.get('androidx.core:core@1.13.1').files.find(f => f.file.endsWith('.aar')).sha256}`, 'the aar, not the pom');
   assert.equal(core.tier, 'hash-pinned');
-  assert.equal(core.scope, null, 'the cache does not say whether it ships');
+  assert.equal(core.scope, 'build', 'resolution found the app\'s modules, so one only the build downloaded is a build tool');
+  assert.equal(core.dev, true);
+  const unresolved = compareWithResolution(modules, [{ ecosystem: 'gradle', lockfiles: [], entries: [gradleRow('com.example:plugin', '1.0', { scope: 'build' })] }]);
+  assert.equal(unresolved.added[0].scope, null, 'without resolved app rows nothing says what ships');
+  assert.equal(unresolved.added[0].dev, null);
 });
 
 test('checkBuildLocks adds the build\'s rows to pinning, and OSV looks them up like any other row', async () => {
   const rows = pinning();
   const result = await checkBuildLocks({ locks: [ref()], misnamed: [] }, rows, { dir: tmpDir(), fetchImpl: blossom({ [FIXTURE_SHA]: FIXTURE }) });
   assert.equal(rows.length, 2);
-  assert.deepEqual(rows[1].lockfiles, [BUILD_LOCK_LOCKFILE]);
+  assert.deepEqual(rows[1].lockfiles, ['build-lock.json (android)']);
+  assert.ok(rows[1].entries.every(e => e.lockfile === 'build-lock.json (android)'));
   const { queries } = buildQueries(rows);
   assert.ok(queries.some(q => q.name === 'androidx.core:core' && q.version === '1.13.1'));
   assert.equal(queries.filter(q => q.name === 'com.squareup.okhttp3:okhttp').length, 1);
-  assert.deepEqual(result.files, [{ sha256: FIXTURE_SHA, eventId: 'ev-a', pubkey: LISTED, verifier: 'listed', schema: 2, appId: 'com.example.wallet', appVersion: '1.2.3', platform: 'android',
+  assert.deepEqual(result.files, [{ sha256: FIXTURE_SHA, eventId: 'ev-a', pubkey: LISTED, platform: 'android', verifier: 'listed', schema: 2, appId: 'com.example.wallet', appVersion: '1.2.3', platform: 'android',
     commit: '0123456789abcdef0123456789abcdef01234567', generatedAt: '2026-11-10T06:00:00Z', match: 'ok', modules: 4 }]);
-  assert.deepEqual(result.builtNotResolved, { count: 2, names: ['androidx.core:core@1.13.1', 'com.android.tools.build:gradle@8.5.2'] });
-  assert.deepEqual(result.resolvedNotBuilt, { count: 1, names: ['androidx.appcompat:appcompat@1.7.0'] });
+  assert.deepEqual(result.platforms, { android: { modules: 4,
+    builtNotResolved: { count: 2, names: ['androidx.core:core@1.13.1', 'com.android.tools.build:gradle@8.5.2'] },
+    resolvedNotBuilt: { count: 1, names: ['androidx.appcompat:appcompat@1.7.0'] } } });
   assert.equal(summarizeResults({ pinning: rows, 'build-lock': result }, []).buildLock, result);
 });
 
@@ -200,8 +207,8 @@ test('checkBuildLocks: a file of another build is reported and adds nothing; a m
   assert.equal(rows.length, 1, 'no rows from last week\'s list');
   assert.equal(result.files[0].match, 'another-build');
   assert.deepEqual(result.files[0].differ, [{ field: 'appVersion', file: '1.2.3', event: '1.2.4' }]);
-  assert.equal(result.modules, null);
-  assert.deepEqual(result.misnamed, [{ name: 'build-lock (1).json', sha256: 'ab'.repeat(32), eventId: 'ev-b' }]);
+  assert.deepEqual(result.platforms, {});
+  assert.deepEqual(result.misnamed, [{ name: 'build-lock (1).json', sha256: 'ab'.repeat(32), eventId: 'ev-b', platform: null }]);
   assert.deepEqual(server.requests, [`https://files.nostr.info/${FIXTURE_SHA}`], 'only the correctly named file');
 });
 
@@ -211,7 +218,7 @@ test('checkBuildLocks: a file that does not say which build it is adds nothing',
     artifacts: [{ ecosystem: 'gradle', name: 'evil:mal', version: '1.0', file: 'mal-1.0.jar', sha1: 'x', sha256: 'y' }] }));
   const result = await checkBuildLocks({ locks: [ref({ sha256: sha256(v1) })], misnamed: [] }, rows, { dir: tmpDir(), fetchImpl: blossom({ [sha256(v1)]: v1 }) });
   assert.equal(result.files[0].match, 'not-tied');
-  assert.equal(result.modules, null);
+  assert.deepEqual(result.platforms, {});
   assert.equal(rows.length, 1, 'no rows from it, so no advisory or alert either');
 });
 
@@ -219,8 +226,8 @@ test('checkBuildLocks: a file from a verifier not on the list is reported, never
   const rows = pinning();
   const server = blossom({ [FIXTURE_SHA]: FIXTURE });
   const result = await checkBuildLocks({ locks: [ref({ pubkey: 'b'.repeat(64), eventId: 'ev-b' })], misnamed: [] }, rows, { dir: tmpDir(), fetchImpl: server });
-  assert.deepEqual(result.files, [{ sha256: FIXTURE_SHA, eventId: 'ev-b', pubkey: 'b'.repeat(64), verifier: 'unlisted' }]);
-  assert.equal(result.modules, null);
+  assert.deepEqual(result.files, [{ sha256: FIXTURE_SHA, eventId: 'ev-b', pubkey: 'b'.repeat(64), platform: 'android', verifier: 'unlisted' }]);
+  assert.deepEqual(result.platforms, {});
   assert.equal(rows.length, 1, 'no rows from it, so no advisory or alert either');
   assert.deepEqual(server.requests, []);
   assert.equal(buildLockForReaders(result).files[0].verifier, 'unlisted');
@@ -232,6 +239,31 @@ test('checkBuildLocks: a hash mismatch is reported and nothing of the file is re
   assert.equal(result.files[0].problem, 'hash-mismatch');
   assert.equal(rows.length, 1);
   assert.equal(await checkBuildLocks({ locks: [], misnamed: [] }, rows), null);
+});
+
+test('checkBuildLocks: an Android and an iPhone verification of one version each get their own rows and differences', async () => {
+  const fixture = JSON.parse(FIXTURE.toString('utf8'));
+  const ios = Buffer.from(JSON.stringify({ ...fixture, platform: 'iphone',
+    artifacts: [{ ecosystem: 'gradle', name: 'org.example:kmp-only', version: '2.0', file: 'kmp-only-2.0.jar', sha1: 'x', sha256: 'cd'.repeat(32) }] }));
+  const rows = pinning();
+  const result = await checkBuildLocks({ locks: [ref(), ref({ sha256: sha256(ios), eventId: 'ev-ios', platform: 'iphone' })], misnamed: [] }, rows,
+    { dir: tmpDir(), fetchImpl: blossom({ [FIXTURE_SHA]: FIXTURE, [sha256(ios)]: ios }) });
+  assert.deepEqual(rows.slice(1).map(a => [a.lockfiles[0], a.entries.map(e => e.name)]), [
+    ['build-lock.json (android)', ['androidx.core:core', 'com.android.tools.build:gradle']],
+    ['build-lock.json (iphone)', ['org.example:kmp-only']],
+  ]);
+  assert.deepEqual(Object.keys(result.platforms), ['android', 'iphone']);
+  assert.equal(result.platforms.iphone.modules, 1);
+  assert.equal(result.platforms.iphone.builtNotResolved.count, 1, 'Android\'s modules are not the iPhone build\'s');
+});
+
+test('a build-lock row counts on its own platform\'s page only, whatever the repository\'s rules say', () => {
+  assert.equal(targetOfLockfile('build-lock.json (android)', 'world.bitkey.app'), 'android');
+  assert.equal(targetOfLockfile('build-lock.json (iphone)'), 'iphone');
+  assert.equal(targetOfLockfile('build-lock.json (hardware)'), 'firmware');
+  assert.equal(targetOfLockfile('build-lock.json (bearer)'), 'shared', 'a platform no page filters counts like any shared file');
+  assert.equal(targetOfLockfileInRepository('build-lock.json (desktop)', 'https://github.com/x/y'), 'desktop');
+  assert.equal(targetOfLockfileInRepository('app/build.gradle', 'https://github.com/nobody/without-rules'), 'shared');
 });
 
 test('the plugin finds the build lock of a release by its verified version, and stays out of the default branch', async (t) => {
@@ -262,7 +294,7 @@ test('the plugin finds the build lock of a release by its verified version, and 
 
 test('the analyses row keeps the build-lock result', () => {
   const db = tmpDb();
-  const buildLock = { files: [{ sha256: FIXTURE_SHA, match: 'ok' }], misnamed: [], modules: 4, builtNotResolved: { count: 0, names: [] }, resolvedNotBuilt: { count: 0, names: [] } };
+  const buildLock = { files: [{ sha256: FIXTURE_SHA, platform: 'android', match: 'ok' }], misnamed: [], platforms: { android: { modules: 4, builtNotResolved: { count: 0, names: [] }, resolvedNotBuilt: { count: 0, names: [] } } } };
   recordAnalysis(db, { appId: 'com.example.wallet', kind: 'release', ref: 'v1.2.3', status: 'ok', analyser: 'test', buildLock });
   recordAnalysis(db, { appId: 'com.example.wallet', kind: 'release', ref: 'v1.2.2', status: 'ok', analyser: 'test' });
   const byRef = Object.fromEntries(getAnalyses(db, 'com.example.wallet').map(a => [a.ref, a.build_lock]));
@@ -274,20 +306,18 @@ test('the export gives the wallet page each file\'s outcome, the misnamed names 
   const names = Array.from({ length: 25 }, (_, i) => `g:a${i}@1.0`);
   const buildLock = {
     files: [{ sha256: FIXTURE_SHA, eventId: 'ev-a', pubkey: 'a', schema: 2, appId: 'x', appVersion: '1', platform: 'android', commit: 'c0ffee', generatedAt: 't', match: 'ok', modules: 30 },
-      { sha256: 'ab'.repeat(32), eventId: 'ev-b', pubkey: 'b', schema: 2, match: 'another-build', differ: [{ field: 'appVersion', file: '1.2.2', event: '1.2.3' }] }],
-    misnamed: [{ name: 'build-lock (1).json', sha256: null, eventId: 'ev-c' }],
-    modules: 30,
-    builtNotResolved: { count: 25, names },
-    resolvedNotBuilt: { count: 0, names: [] },
+      { sha256: 'ab'.repeat(32), eventId: 'ev-b', pubkey: 'b', platform: 'iphone', schema: 2, match: 'another-build', differ: [{ field: 'appVersion', file: '1.2.2', event: '1.2.3' }] }],
+    misnamed: [{ name: 'build-lock (1).json', sha256: null, eventId: 'ev-c', platform: 'android' }],
+    platforms: { android: { modules: 30, builtNotResolved: { count: 25, names }, resolvedNotBuilt: { count: 0, names: [] } } },
   };
   recordAnalysis(db, { appId: 'com.example.wallet', kind: 'release', ref: 'v1.2.3', commit: 'c1', status: 'ok', appType: 'gradle', analyser: 't', buildLock });
   const shown = buildApp(db, 'com.example.wallet').releases[0].buildLock;
   assert.deepEqual(shown, buildLockForReaders(buildLock));
   assert.deepEqual(shown.files, [
-    { verifier: 'listed', match: 'ok', problem: null, differ: null, schema: 2, commit: 'c0ffee', modules: 30 },
-    { verifier: 'listed', match: 'another-build', problem: null, differ: [{ field: 'appVersion', file: '1.2.2', event: '1.2.3' }], schema: 2, commit: null, modules: null },
+    { platform: 'android', verifier: 'listed', match: 'ok', problem: null, differ: null, schema: 2, commit: 'c0ffee', modules: 30 },
+    { platform: 'iphone', verifier: 'listed', match: 'another-build', problem: null, differ: [{ field: 'appVersion', file: '1.2.2', event: '1.2.3' }], schema: 2, commit: null, modules: null },
   ]);
-  assert.deepEqual(shown.misnamed, ['build-lock (1).json']);
-  assert.deepEqual(shown.builtNotResolved, { count: 25, names: names.slice(0, 20) });
+  assert.deepEqual(shown.misnamed, [{ name: 'build-lock (1).json', platform: 'android' }]);
+  assert.deepEqual(shown.platforms.android.builtNotResolved, { count: 25, names: names.slice(0, 20) });
   assert.equal(buildLockForReaders(null), null);
 });
