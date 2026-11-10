@@ -3,7 +3,7 @@ import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
 import { loadApp, renderDependenciesPanel, panelElement, usedBy, severityTally, coverageTipLines, historyScale } from '../../src/dependencies-panel.mjs';
-import { panelModel, releaseForVersion } from '../../src/dependencies-panel-model.mjs';
+import { panelModel, releaseForVersion, appForListing } from '../../src/dependencies-panel-model.mjs';
 import { nip19 } from 'nostr-tools';
 
 const shortNpub = (pk) => { const n = nip19.npubEncode(pk); return `${n.slice(0, 10)}…${n.slice(-4)}`; };
@@ -48,6 +48,24 @@ describe('dependencies panel', () => {
     assert.equal(app.appId, 'app.android');
     assert.deepEqual(calls, ['/x/apps/app.ios.json', '/x/apps/app.android.json']);
     assert.equal(await loadApp('app.none', { base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl }), null);
+  });
+
+  test('a listing shows only the releases reproduced for it, and nothing when none was', async () => {
+    const listed = (ref, ...reproducedFor) => ({ ...APP.releases[0], ref, reproducedFor });
+    const app = { ...APP, releases: [listed('v1.5.0', { appId: 'app.android', platform: 'android' }), listed('v1.4.0', { appId: 'app.android', platform: 'android' }, { appId: 'app.android', platform: 'iphone' })] };
+    const { fetchImpl } = fakeFetch({ '/x/apps/app.ios.json': { schema: 1, appId: 'app.android', alias: true }, '/x/apps/app.android.json': app });
+    const render = async (appId, platform) => {
+      const host = document.createElement('div');
+      host.hidden = true;
+      return [await renderDependenciesPanel({ host, appId, platform, selectedVersion: null, base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl }), host];
+    };
+    assert.equal((await render('app.android', 'android'))[0].ref, 'v1.5.0');
+    assert.equal((await render('app.android', 'iphone'))[0].ref, 'v1.4.0', 'one app id listed on two platforms (Bitkey)');
+    const [none, host] = await render('app.ios', 'iphone');
+    assert.equal(none, null, 'the iPhone app was never reproduced');
+    assert.equal(host.hidden, true);
+    // an export without reproducedFor (SOURCE_ANALYSIS_SCOPE=all) shows every release, as before
+    assert.equal(appForListing(APP, 'app.ios', 'iphone'), APP);
   });
 
   test('renderDependenciesPanel paints tiles, worst rows, notes and keeps the host hidden without data', async () => {

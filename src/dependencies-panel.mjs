@@ -7,7 +7,7 @@
 import * as nip19 from 'nostr-tools/nip19';
 import { el } from './html-utils.mjs';
 import {
-  panelModel, releaseForVersion, whereOf, whereLabel, WHERE_UNKNOWN_TIP, safeName, csvOf, notInAppText, sortingLabel, SEVERITY_ORDER, SEVERITY_LABEL,
+  panelModel, releaseForVersion, appForListing, whereOf, whereLabel, WHERE_UNKNOWN_TIP, safeName, csvOf, notInAppText, sortingLabel, SEVERITY_ORDER, SEVERITY_LABEL,
 } from './dependencies-panel-model.mjs';
 import { TRIAGE_LABEL, JUSTIFICATION_LABEL, DELETION_KIND, triageStateOf, withStatement, mergeLiveTriage, triageForApp } from './dependency-triage.mjs';
 import { dependencyTriageKind, mainRelayUrl, eventRelayUrls } from './nostr-constants.mjs';
@@ -1203,7 +1203,7 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
   let upstream = null;
   let apk = null;
   try {
-    app = await loadApp(appId, { base, fetchImpl });
+    app = appForListing(await loadApp(appId, { base, fetchImpl }), appId, platform);
     if (app) {
       published = await loadTriage({ triageBase, fetchImpl });
       triage = triageForApp(app, published);

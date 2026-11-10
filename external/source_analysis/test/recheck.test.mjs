@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import { initDatabase, saveAppList, getDependencies, saveDependencies, saveVulnerabilities, getVulnerabilities, recordAnalysis, saveReproducibleVersions, saveEndOfLife, getEndOfLife } from '../ddbbUtils.mjs';
+import { initDatabase, saveAppList, getDependencies, saveDependencies, saveVulnerabilities, getVulnerabilities, recordAnalysis, saveReproducibleVersions, saveVerifiedRef, saveEndOfLife, getEndOfLife } from '../ddbbUtils.mjs';
 import { recheckStoredReleases, entryOfRow } from '../recheck.mjs';
 import { exportAll } from '../export.mjs';
 
@@ -67,6 +67,7 @@ test('exportAll: a gone wallet past its end of life is left out', () => {
   saveDependencies(db, 'live.wallet', 'v2.0', [{ entries: [entry('a', '1.0.0')] }]);
   recordAnalysis(db, { appId: 'live.wallet', kind: 'release', ref: 'v2.0', status: 'ok', analyser: 't' });
   saveReproducibleVersions(db, new Map([['old.wallet', [{ version: '1.0', verifiedAt: 1 }]], ['live.wallet', [{ version: '2.0', verifiedAt: 1 }]]]));
+  saveVerifiedRef(db, 'live.wallet', 'v2.0', '2.0');
   saveEndOfLife(db, [{ appId: 'old.wallet', lastCommitAt: new Date('2020-01-01T00:00:00Z') }]);
   assert.equal(getEndOfLife(db).get('old.wallet'), '2020-01-01T00:00:00.000Z');
   const dir = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'eol-')), 'out');

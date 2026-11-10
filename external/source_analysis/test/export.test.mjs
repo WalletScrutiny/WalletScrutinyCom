@@ -5,8 +5,8 @@ import assert from 'node:assert/strict';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import { initDatabase, saveDependencies, saveVulnerabilities, recordAnalysis, saveAppList, saveReproducibleVersions, saveSubmodules } from '../ddbbUtils.mjs';
-import { exportAll, exportApp, buildApp, loadRepositories, safeName, productPartOf } from '../export.mjs';
+import { initDatabase, saveDependencies, saveVulnerabilities, recordAnalysis, saveAppList, saveReproducibleVersions, saveVerifiedRef, saveSubmodules } from '../ddbbUtils.mjs';
+import { exportAll, exportApp, buildApp, loadRepositories, safeName, productPartOf, pagePlatform } from '../export.mjs';
 
 const entry = (name, version, extra = {}) => ({ ecosystem: 'npm', lockfile: 'package-lock.json', name, version, resolved: `https://registry.npmjs.org/${name}/-/${name}-${version}.tgz`, integrity: `sha512-${name}${version}`, direct: true, dev: false, tier: 'hash-pinned', ...extra });
 
@@ -151,8 +151,32 @@ test('exportApp leaves an app out of scope alone, and exports one verified under
   const dir = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'sa-export-')), 'export');
   assert.deepEqual(exportApp(db, dir, 'app.android', { onlyReproducible: true }), { exported: false });
   assert.ok(!fs.existsSync(dir));
-  saveReproducibleVersions(db, new Map([['app.ios', [{ version: '1.1.0', verifiedAt: 1 }]]]));
+  saveReproducibleVersions(db, new Map([['app.ios', [{ version: '1.1.0', verifiedAt: 1, platform: 'iphone' }]]]));
+  assert.deepEqual(exportApp(db, dir, 'app.android', { onlyReproducible: true }), { exported: false }, 'no tag resolved to the verified version yet');
+  saveVerifiedRef(db, 'app.android', 'v1.1.0', '1.1.0');
   assert.equal(exportApp(db, dir, 'app.android', { onlyReproducible: true }).exported, true);
+});
+
+test('onlyReproducible: only reproduced releases, each naming the listings it was reproduced for', () => {
+  const db = seeded();
+  // v1.1.0 reproduced on Android only, v1.0.0 by nobody; the iPhone app was never reproduced
+  saveReproducibleVersions(db, new Map([['app.android', [{ version: '1.1.0', verifiedAt: 2, platform: 'Android (arm64-v8a)' }]]]));
+  saveVerifiedRef(db, 'app.android', 'v1.1.0', '1.1.0');
+  const dir = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'sa-export-')), 'export');
+  const result = exportAll(db, dir, { onlyReproducible: true });
+  assert.deepEqual([result.apps, result.releases], [1, 1]);
+  const app = JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.android.json'), 'utf8'));
+  assert.deepEqual(app.releases.map(r => [r.ref, r.reproducedFor]), [['v1.1.0', [{ appId: 'app.android', platform: 'android' }]]]);
+  assert.equal(app.releases[0].diffFrom, undefined, 'no diff to a release that is not shown');
+  assert.ok(!fs.existsSync(path.join(dir, 'apps', 'app.android', 'v1.0.0')));
+  assert.ok(!fs.existsSync(path.join(dir, 'apps', 'app.ios.json')), 'no stub for a listing nobody reproduced');
+  // without the option every release, as before
+  assert.equal(buildApp(db, 'app.android', [{ appId: 'app.android' }, { appId: 'app.ios' }]).releases.length, 2);
+});
+
+test('pagePlatform: verifiers\' platform tags as the wallet page names its platforms', () => {
+  assert.deepEqual(['android', 'Android (arm64-v8a)', 'iphone', 'linux', 'windows', 'macos', 'hardware', null].map(pagePlatform),
+    ['android', 'android', 'iphone', 'desktop', 'desktop', 'desktop', 'hardware', null]);
 });
 
 
