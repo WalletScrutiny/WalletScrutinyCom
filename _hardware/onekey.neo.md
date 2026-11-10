@@ -17,7 +17,7 @@ provider: Bixin
 providerWebsite: https://onekey.so/
 website: https://onekey.so/products/onekey-neo/
 shop: https://onekey.so/products/buy-onekey-neo/
-country: SG
+country: HK
 price: 179USD
 repository: 
 bugbounty: https://github.com/OneKeyHQ/app-monorepo/blob/onekey/docs/BUG_RULES.md
@@ -36,7 +36,7 @@ features:
 
 ## Device Description
 
-OneKey Neo is a touchscreen hardware wallet that OneKey [launched on 2026-11-09](https://onekey.so/blog/updates/onekey-neo-launch/) for $179. It is a cheaper sibling of the OneKey Pro 2, with the same screen and the same operating system, safeOS 2, but two secure elements instead of four and no camera. It works with the {% include walletLink.html wallet='android/so.onekey.app.wallet' verdict='true' %} and, for Bitcoin multisig, with Sparrow.
+OneKey Neo is a touchscreen hardware wallet that OneKey [launched on 2026-11-09](https://onekey.so/blog/updates/onekey-neo-launch/) for $179. It is a cheaper sibling of the {% include walletLink.html wallet='hardware/onekey.pro2' verdict='true' %}, with the same screen and the same operating system, safeOS 2, but two secure elements instead of four and no camera. It works with the {% include walletLink.html wallet='android/so.onekey.app.wallet' verdict='true' %} and, for Bitcoin multisig, with Sparrow.
 
 - 3.54-inch color AMOLED touchscreen, 1024 × 604 pixels, up to 800 nits.
 - Two EAL6+ secure elements; OneKey says keys are created, stored and used only inside them.
