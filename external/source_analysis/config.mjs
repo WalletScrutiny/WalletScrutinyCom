@@ -24,6 +24,7 @@ export const PLUGINS = {
   'oob-downloads': true,          // test 8, read by lock-coverage
   'committed-binaries': true,     // test 9, read by lock-coverage
   'lock-coverage': true,          // test 7c, manifests without a lockfile, inputs outside any lockfile
+  'build-lock': true,             // test 7d, host: the build's own download list (build-lock.json), adds rows for osv
   'osv': true,                    // test 10, host: known vulnerabilities of pinning's rows
   'submodules': true,             // host: git submodules as three claims (submoduleIdentity.mjs)
   'semgrep': false,               // test 11, host: its own container on the checkout

@@ -201,7 +201,9 @@ export function targetsOfLockfiles(lockfiles, appId = null) {
 // app/** would otherwise accept a new file nobody looked at. filesOutside is how
 // many files each page leaves out.
 export function sortingOf(lockfiles, appId) {
-  const files = [...new Set(lockfiles)];
+  // The verifier's build-lock.json (plugins/build-lock.mjs) is not a file of
+  // the checkout, so no review of the checkout's files can cover it.
+  const files = [...new Set(lockfiles)].filter(f => f !== 'build-lock.json');
   if (!files.length) return undefined;
   const rules = rulesOf(appId);
   if (!rules) return { status: 'none' };

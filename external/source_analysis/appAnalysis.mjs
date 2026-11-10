@@ -149,6 +149,7 @@ export function summarizeResults(results = {}, plugins = []) {
     osvSkipped: osv ? osv.skipped || {} : {},
     vulnerabilities: osv ? (osv.findings || []).length : null,
     lockCoverage: coverage,
+    buildLock: results['build-lock'] && typeof results['build-lock'] === 'object' ? results['build-lock'] : null,
   };
 }
 

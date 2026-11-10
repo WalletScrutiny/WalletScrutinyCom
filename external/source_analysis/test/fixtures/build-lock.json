@@ -1,0 +1,12 @@
+{"schema":2,"tool":"ws-buildlock","version":"0.3.0","appId":"com.example.wallet","appVersion":"1.2.3","platform":"android","commit":"0123456789abcdef0123456789abcdef01234567","generatedAt":"2026-11-10T06:00:00Z",
+"lockfiles":[],
+"artifacts":[
+{"ecosystem":"gradle","name":"androidx.core:core","version":"1.13.1","file":"core-1.13.1.aar","sha1":"1fda0cf136c284f98cce4a93094e186515612452","sha256":"e4dddf315a93f3d64f29a322a638c1b138bed47ce6d96794790294b730eeb1ba"},
+{"ecosystem":"gradle","name":"androidx.core:core","version":"1.13.1","file":"core-1.13.1.module","sha1":"33c2ae57e392574f4babc1539a26f6f3cb0aaeda","sha256":"c7b6398a068665ffd3c79e60773e4bd18a2cb40270497a5da8547ccaf7cf411b"},
+{"ecosystem":"gradle","name":"androidx.core:core","version":"1.13.1","file":"core-1.13.1.pom","sha1":"7514a5a1a5ec463c8dd05f8a802562cc60a41d50","sha256":"6d6c84330c48db5ab6c1fb672b156126e97ae3234c023cc965e7988c14b225fa"},
+{"ecosystem":"gradle","name":"com.squareup.okhttp3:okhttp","version":"4.9.0","file":"okhttp-4.9.0.jar","sha1":"eeb5005ff3466738030f46080cf908a1d39dfcef","sha256":"52cb347db784bb5920ad89b350b3df6490d5ab8a4e9efd7abd33a2bae50c781c"},
+{"ecosystem":"gradle","name":"com.squareup.okhttp3:okhttp","version":"4.9.0","file":"okhttp-4.9.0.pom","sha1":"763a354b618264f7fe8b339e39c2acb3cb8933ae","sha256":"5c2aa778e7e7ae609e27a93f796033c3bba2dab92b54f6443a22b5c5e7ba15ca"},
+{"ecosystem":"gradle","name":"org.jetbrains.kotlin:kotlin-stdlib","version":"1.9.24","file":"kotlin-stdlib-1.9.24.jar","sha1":"1987ed4e29ae3ff452b9e38435025fa81afbecf1","sha256":"6a6f0a57127d7bb629079e74334fdb9003cd5cc3fcc8977385e0adcae18e2e74"},
+{"ecosystem":"gradle","name":"com.android.tools.build:gradle","version":"8.5.2","file":"gradle-8.5.2.jar","sha1":"757fb79d0238fb5347326ab3849a14877f971d6a","sha256":"aebdaab0f3df4382411d1e84adc919a85e1aa7d4698b52efbb59f1f1d6114840"},
+{"ecosystem":"committed","name":"gradle/wrapper/gradle-wrapper.jar","sha256":"a622b10ddc23c8c9e9ec39d4833ae9b7b772ef40cb430425cb1689b76ec3490c"}
+]}

@@ -28,7 +28,7 @@ test('the shipped configuration: every plugin file listed, the enabled ones load
   assert.deepEqual(Object.keys(PLUGINS).sort(), files);
   const plugins = await loadPlugins();
   assert.deepEqual(plugins.map(p => p.name), Object.keys(PLUGINS).filter(n => PLUGINS[n]));
-  assert.deepEqual(plugins.map(p => p.name), ['pinning', 'gradle-resolution', 'oob-downloads', 'committed-binaries', 'lock-coverage', 'osv', 'submodules'], 'the default run: dependencies, inputs outside them, lock coverage, OSV and git submodules');
+  assert.deepEqual(plugins.map(p => p.name), ['pinning', 'gradle-resolution', 'oob-downloads', 'committed-binaries', 'lock-coverage', 'build-lock', 'osv', 'submodules'], 'the default run: dependencies, inputs outside them, lock coverage, the build\'s own download list, OSV and git submodules');
 });
 
 test('every plugin loads when enabled, and none pulls the database module into the container', () => {

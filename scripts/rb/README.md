@@ -203,3 +203,69 @@ appends a `build_lock:` block (status `ok` or `empty`, the artifact count, the
 lockfiles, and the sha256 of `build-lock.json`). The ABS doesn't publish the
 file yet. Not covered: CocoaPods and SwiftPM builds, and anything a build
 downloads outside Gradle, npm, pub or cargo.
+
+### The file: `build-lock.json`, schema 2
+
+One JSON object. The first eight fields say what wrote the file and which
+build it belongs to; `lockfiles` and `artifacts` are the list itself.
+
+```json
+{
+  "schema": 2,
+  "tool": "ws-buildlock",
+  "version": "0.3.0",
+  "appId": "com.example.wallet",
+  "appVersion": "1.2.3",
+  "platform": "android",
+  "commit": "0123456789abcdef0123456789abcdef01234567",
+  "generatedAt": "2026-11-10T06:00:00Z",
+  "lockfiles": ["app/node_modules/.package-lock.json"],
+  "artifacts": [
+    {"ecosystem": "gradle", "name": "androidx.core:core", "version": "1.13.1", "file": "core-1.13.1.aar", "sha1": "<40 hex>", "sha256": "<64 hex>"},
+    {"ecosystem": "committed", "name": "gradle/wrapper/gradle-wrapper.jar", "sha256": "<64 hex>"}
+  ]
+}
+```
+
+| Field | Value |
+|---|---|
+| `schema` | `2`. Schema 1 files have no `appId`, `appVersion`, `platform` or `commit`. |
+| `tool` | always `ws-buildlock`; how a file is recognised whatever its name |
+| `version` | the version of `ws-buildlock.sh` that wrote the file, not the app's |
+| `appId` | the app ID, as in the verification event's `i` tag |
+| `appVersion` | the version, as in the event's `version` tag, exactly as written there |
+| `platform` | as in the event's `platform` tag (`android`) |
+| `commit` | the full commit hash of the checkout that was built (`git rev-parse HEAD`), or `null` when `--src` is not a git checkout |
+| `generatedAt` | when the file was written, UTC |
+| `lockfiles` | paths, relative to the checkout, of the lockfiles copied under `lockfiles/` next to the file. Only their names are in the file. |
+| `artifacts` | one entry per file: every file the Gradle cache holds (`ecosystem` `gradle`: `name` is `group:artifact`, then `version`, `file`, Gradle's `sha1` and the file's `sha256`), then every compiled file committed in the checkout (`ecosystem` `committed`: its path as `name`, and `sha256`) |
+
+`appId`, `appVersion` and `platform` are `null` when the script did not pass
+them; `ws-buildlock.sh` warns then, and the file cannot be tied to a build,
+so the checker does not use it.
+
+**Publishing.** The file is uploaded with the verification as an ordinary
+output file, named exactly `build-lock.json`, and the signed event carries
+`["output-file", "build-lock.json", <sha256>]`. The file lives on
+files.nostr.info under its sha256.
+
+**What the dependency checker does with it** (`external/source_analysis/plugins/build-lock.mjs`):
+
+- It fetches the file by the sha256 in the tag and reads nothing whose hash
+  does not match. A copy that matched is kept next to its database. A file
+  the server does not have, refuses, or that is over 64 MB is reported, and
+  the rest of the check goes on. A network error or a server error fails the
+  release's check, which runs again on the next pass.
+- It compares `appId`, `appVersion` and `platform` with the event's `i`,
+  `version` and `platform` tags. A mismatch is reported as "belongs to
+  another build", and its entries are not used.
+- A schema 1 file, or one with any of the three fields `null`, is reported as
+  "not tied to a build", and its entries are not used either.
+- An output file named like `build-lock*.json` but not exactly
+  `build-lock.json` (for example `build-lock (1).json`) is reported as
+  "misnamed" and not downloaded.
+- The `gradle` entries become ordinary dependency rows (lockfile
+  `build-lock.json`) for the known-vulnerability check, and the checker shows
+  both differences with Gradle's own resolution: modules the build downloaded
+  that the resolution does not list, and resolved modules the build never
+  downloaded. `commit` is shown, not matched: the event has no commit.

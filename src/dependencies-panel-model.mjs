@@ -364,6 +364,8 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
     // how much of the build the lockfiles we read cover (external/source_analysis/plugins/lock-coverage.mjs)
     // this page's app only, when the repository also builds another (iPhone files stay off the Android page)
     lockCoverage: current.lockCoverageByPlatform?.[platform] || current.lockCoverage || null,
+    // the verifier's build-lock.json: used or why not, and how it differs from the resolved list (plugins/build-lock.mjs)
+    buildLock: current.buildLock || null,
     newerFailed: newerFailed.map(r => ({ ref: r.ref, status: r.status, error: r.error || null })),
     releases: releases.map(r => ({ ref: r.ref, analysedAt: r.analysedAt || null, status: r.status || 'ok' })),
     history: dependencyHistory(releases, current.ref, platform),
