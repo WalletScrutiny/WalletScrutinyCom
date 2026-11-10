@@ -789,7 +789,8 @@ function buildLockNotices(model) {
   // a few names inline; the export keeps more
   const some = (d) => d.names.slice(0, 5).join(', ') + (d.count > Math.min(d.names.length, 5) ? ` and ${d.count - Math.min(d.names.length, 5)} more` : '');
   for (const f of b.files) {
-    if (f.problem === 'not-found' || f.problem === 'unavailable') items.push('A build-lock.json attached to this verification could not be downloaded from files.nostr.info, so it was not read.');
+    if (f.verifier === 'unlisted') items.push('A build-lock.json attached to this verification is from a verifier not on the list, so its list was not used.');
+    else if (f.problem === 'not-found' || f.problem === 'unavailable') items.push('A build-lock.json attached to this verification could not be downloaded from files.nostr.info, so it was not read.');
     else if (f.problem === 'too-large') items.push('A build-lock.json attached to this verification is too large to read, so it was not read.');
     else if (f.problem === 'hash-mismatch') items.push('A build-lock.json attached to this verification did not match its published hash, so it was not read.');
     else if (f.problem) items.push('A file attached to this verification as build-lock.json was not written by ws-buildlock.sh, so it was not read.');

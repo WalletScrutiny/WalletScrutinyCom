@@ -14,7 +14,9 @@
  * (buildLockDir) and read first next time. Its app, version and platform must be the verification
  * event's: a file of another build is reported and not used, so an old list
  * can neither add nor hide advisories. Nor is a file that does not say which
- * build it is (schema 1, or a field left null): "not tied to a build". An output file named like one
+ * build it is (schema 1, or a field left null): "not tied to a build". Only
+ * the verifiers listed in config.mjs (BUILD_LOCK_VERIFIERS) count: another
+ * key's file is reported and never downloaded. An output file named like one
  * (`build-lock (1).json`) is reported as misnamed and never downloaded.
  *
  * Runs on the host: it reads JSON, nothing of the repository runs.
@@ -22,7 +24,7 @@
 import fs from 'fs';
 import path from 'path';
 import { createHash } from 'crypto';
-import { DEFAULT_BRANCH_REF } from '../config.mjs';
+import { DEFAULT_BRANCH_REF, BUILD_LOCK_VERIFIERS } from '../config.mjs';
 import { uncheckableReason } from './osv.mjs';
 
 export const BLOSSOM_SERVER = 'https://files.nostr.info';
@@ -190,7 +192,7 @@ export function buildLockForReaders(stored) {
   const diff = (d) => (d ? { count: d.count, names: (d.names || []).slice(0, READER_LIMIT) } : { count: 0, names: [] });
   return {
     files: stored.files.map(f => ({
-      match: f.match || null, problem: f.problem || null, differ: f.differ || null,
+      verifier: f.verifier || 'listed', match: f.match || null, problem: f.problem || null, differ: f.differ || null,
       schema: f.schema ?? null, commit: f.commit || null, modules: f.modules ?? null,
     })),
     misnamed: (stored.misnamed || []).map(m => m.name),
@@ -216,8 +218,13 @@ export async function checkBuildLocks({ locks = [], misnamed = [] }, pinning, op
   for (const ref of locks) {
     if (seen.has(`${ref.sha256}\n${ref.eventId}`)) continue;
     seen.add(`${ref.sha256}\n${ref.eventId}`);
-    const entry = { sha256: ref.sha256, eventId: ref.eventId, pubkey: ref.pubkey };
+    const listed = BUILD_LOCK_VERIFIERS.has(ref.pubkey);
+    const entry = { sha256: ref.sha256, eventId: ref.eventId, pubkey: ref.pubkey, verifier: listed ? 'listed' : 'unlisted' };
     files.push(entry);
+    if (!listed) {
+      console.log(`  ${ref.sha256.slice(0, 12)}: from a verifier not on the list (${String(ref.pubkey).slice(0, 12)}); not used`);
+      continue;
+    }
     const loaded = await loadBuildLock(ref.sha256, opts);
     if (loaded.problem) {
       entry.problem = loaded.problem;

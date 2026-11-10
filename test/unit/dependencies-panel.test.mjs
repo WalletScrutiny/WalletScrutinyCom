@@ -471,6 +471,13 @@ describe('build-lock notices', () => {
       /does not say which app, version and platform it was built for, so it is not tied to this build and its list was not used\./);
   });
 
+  test('a file from a verifier not on the list says so, and nothing about modules', () => {
+    const t = text(withLock({ files: [{ verifier: 'unlisted', match: null, problem: null, differ: null, schema: null, commit: null, modules: null }],
+      misnamed: [], modules: null, builtNotResolved: none, resolvedNotBuilt: none }));
+    assert.match(t, /A build-lock\.json attached to this verification is from a verifier not on the list, so its list was not used\./);
+    assert.doesNotMatch(t, /The build downloaded|not read/);
+  });
+
   test('a release without a build-lock.json says nothing about one', () => {
     assert.doesNotMatch(text(APP), /build-lock|Gradle modules/);
   });

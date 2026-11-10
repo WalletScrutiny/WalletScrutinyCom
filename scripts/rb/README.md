@@ -251,6 +251,12 @@ files.nostr.info under its sha256.
 
 **What the dependency checker does with it** (`external/source_analysis/plugins/build-lock.mjs`):
 
+- Only files from the verifiers listed in `BUILD_LOCK_VERIFIERS`
+  (`external/source_analysis/config.mjs`) are used, because any key can
+  publish a "reproducible" verification. A file from another key is reported
+  as "from a verifier not on the list", is not downloaded, and its entries are
+  not used. To add a verifier, add the hex pubkey they sign verifications with
+  to that list, with a comment naming them.
 - It fetches the file by the sha256 in the tag and reads nothing whose hash
   does not match. A copy that matched is kept next to its database. A file
   the server does not have, refuses, or that is over 64 MB is reported, and
