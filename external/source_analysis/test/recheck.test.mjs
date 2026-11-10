@@ -51,6 +51,22 @@ test('recheckStoredReleases: a failed lookup keeps the stored advisories', async
   db.close();
 });
 
+test('recheckStoredReleases: an NVD outage keeps the stored NVD advisories and the next pass clears the mark', async () => {
+  const db = seeded();
+  const native = (id) => finding('b', '2.0.0', id);
+  saveVulnerabilities(db, 'old.wallet', 'v1.0', { findings: [native('CVE-NVD-ONLY'), native('GHSA-both')] });
+  const outage = async () => ({ checked: 2, skipped: { 'nvd-unavailable': 1 }, findings: [native('GHSA-both')], nvdUnavailable: [{ ecosystem: 'npm', name: 'b', version: '2.0.0' }] });
+  await recheckStoredReleases(db, ['old.wallet'], { check: outage, deliver: async () => {} });
+  assert.deepEqual(getVulnerabilities(db, 'old.wallet', 'v1.0').map(v => v.vuln_id).sort(), ['CVE-NVD-ONLY', 'GHSA-both']);
+  const row = () => db.prepare("SELECT vulnerabilities, osv_skipped FROM analyses WHERE app_id = 'old.wallet'").get();
+  assert.deepEqual(row(), { vulnerabilities: 2, osv_skipped: '{"nvd-unavailable":1}' });
+  const recovered = async () => ({ checked: 2, skipped: {}, findings: [native('GHSA-both')] });
+  await recheckStoredReleases(db, ['old.wallet'], { check: recovered, deliver: async () => {} });
+  assert.deepEqual(getVulnerabilities(db, 'old.wallet', 'v1.0').map(v => v.vuln_id), ['GHSA-both'], 'NVD answered: what it dropped is gone');
+  assert.deepEqual(row(), { vulnerabilities: 1, osv_skipped: '{}' });
+  db.close();
+});
+
 test('recheckStoredReleases: a release analysed this pass is not looked up twice', async () => {
   const db = seeded();
   const since = db.prepare("SELECT datetime(CURRENT_TIMESTAMP, '-1 minute') AS t").get().t;

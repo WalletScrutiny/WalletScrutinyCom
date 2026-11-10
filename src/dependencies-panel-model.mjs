@@ -26,6 +26,7 @@ export const SKIP_REASON_LABEL = {
   'no-exact-version': 'no exact version',
   ecosystem: 'ecosystem OSV.dev does not cover',
   'no-upstream': 'native library we do not know the source repository of',
+  'nvd-unavailable': 'native library checked against OSV.dev only, NVD did not answer',
 };
 
 export const WORST_ROWS = 10;

@@ -316,9 +316,50 @@ test('native libraries: OSV.dev by repository and tag or commit, NVD by product,
   assert.equal(qt.summary, 'CVE-2023-24607 description');
 });
 
-test('an unreachable NVD is no result, not a clean one', async () => {
-  const stub = stubFetch();
+test('an unreachable NVD keeps the OSV.dev findings and marks the native rows', async () => {
+  const stub = stubFetch({
+    vulnsByQuery: { 'npm/lodash@4.17.15': ['GHSA-lodash'], 'GIT/https://github.com/openssl/openssl@openssl-3.0.7': ['CVE-2023-0286'] },
+    advisories: {
+      'GHSA-lodash': { id: 'GHSA-lodash', database_specific: { severity: 'HIGH' }, affected: [] },
+      'CVE-2023-0286': { id: 'CVE-2023-0286', database_specific: { severity: 'HIGH' }, affected: [] },
+    },
+  });
   const fetchImpl = async (url, options) => (url.includes('nvd.nist.gov') ? { ok: false, status: 503, json: async () => ({}) } : stub.fetchImpl(url, options));
-  const result = await quiet(() => checkVulnerabilities([{ entries: [entry('native', 'openssl', '3.0.7')] }], { fetchImpl, nvdIntervalMs: 0 }));
-  assert.equal(result, null);
+  const result = await quiet(() => checkVulnerabilities([{ entries: [
+    entry('npm', 'lodash', '4.17.15'), entry('native', 'openssl', '3.0.7'), entry('native', 'hostpython3', '3.11.5'),
+  ] }], { fetchImpl, nvdIntervalMs: 0 }));
+  assert.deepEqual(result.findings.map(f => f.id).sort(), ['CVE-2023-0286', 'GHSA-lodash'], 'what OSV.dev found stays');
+  assert.deepEqual(result.skipped, { 'nvd-unavailable': 2 });
+  assert.deepEqual(result.nvdUnavailable.map(p => p.name), ['openssl', 'hostpython3']);
+  assert.equal(result.checked, 3);
+});
+
+test('a CVE both sources list shows the fix and the range from whichever record has them', async () => {
+  // OSV.dev's git-tag record of a C library lists no fixed version; NVD's does.
+  const osvRecord = { id: 'CVE-2025-4517', summary: 'tarfile', severity: [{ type: 'CVSS_V3', score: 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H' }],
+    affected: [{ ranges: [{ type: 'GIT', repo: 'https://github.com/python/cpython', events: [{ introduced: '0' }] }] }] };
+  const { fetchImpl } = stubFetch({
+    vulnsByQuery: { 'GIT/https://github.com/python/cpython@v3.11.5': ['CVE-2025-4517'] },
+    advisories: { 'CVE-2025-4517': osvRecord },
+    nvd: { 'cpe:2.3:a:python:python:3.11.5': [nvdCve('CVE-2025-4517',
+      [{ criteria: 'cpe:2.3:a:python:python:*:*:*:*:*:*:*:*', vulnerable: true, versionStartIncluding: '3.11.0', versionEndExcluding: '3.11.13' }])] },
+  });
+  const { findings } = await quiet(() => checkVulnerabilities([{ entries: [entry('native', 'python3', '3.11.5')] }], { fetchImpl, nvdIntervalMs: 0 }));
+  assert.equal(findings.length, 1);
+  assert.deepEqual(findings[0].fixed, ['3.11.13']);
+  assert.deepEqual(findings[0].affected, ['>= 3.11.0, < 3.11.13']);
+});
+
+test('saveVulnerabilities keeps the stored rows of a package NVD did not answer for', () => {
+  const db = initDatabase(':memory:');
+  const finding = (id, extra = {}) => ({ ecosystem: 'native', name: 'openssl', version: '3.0.22', id, aliases: [], severity: 'high', summary: '', fixed: [], ...extra });
+  saveVulnerabilities(db, 'app', '1.0', { findings: [finding('CVE-A'), finding('CVE-B'), finding('GHSA-npm', { ecosystem: 'npm', name: 'lodash', version: '4.0.0' })] });
+  saveVulnerabilities(db, 'app', '1.0', {
+    findings: [finding('CVE-A', { severity: 'critical' })],
+    nvdUnavailable: [{ ecosystem: 'native', name: 'openssl', version: '3.0.22' }],
+  });
+  const rows = getVulnerabilities(db, 'app', '1.0');
+  assert.deepEqual(rows.map(r => `${r.vuln_id} ${r.severity}`).sort(), ['CVE-A critical', 'CVE-B high'], 'CVE-B kept, CVE-A refreshed, the npm row follows the lookup');
+  saveVulnerabilities(db, 'app', '1.0', { findings: [finding('CVE-A')] });
+  assert.deepEqual(getVulnerabilities(db, 'app', '1.0').map(r => r.vuln_id), ['CVE-A'], 'an answered lookup drops what is gone');
 });

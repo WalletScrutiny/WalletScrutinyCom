@@ -313,23 +313,35 @@ async function nvdLookup(q, fetchImpl, intervalMs) {
   return out;
 }
 
-/** NVD records per query, same order as `queries`; only native releases with a CPE are asked. */
+/**
+ * NVD records per query, same order as `queries`; only native releases with a
+ * CPE are asked. A query NVD did not answer has no records and is listed in
+ * `failed` (its index): NVD is the flakier of the two sources, and its outage
+ * must not take the OSV.dev results of every other row with it.
+ */
 async function nvdAdvisories(queries, fetchImpl, intervalMs) {
-  const out = [];
-  for (const q of queries) {
-    if (!q.native?.cpe) { out.push([]); continue; }
+  const records = [];
+  const failed = [];
+  for (const [i, q] of queries.entries()) {
+    if (!q.native?.cpe) { records.push([]); continue; }
     const key = `${q.native.cpe}:${q.native.version}`;
     if (!(Date.now() - nvdCache.get(key)?.at < NVD_CACHE_MS)) {
       const pending = nvdLookup(q, fetchImpl, intervalMs);
       pending.catch(() => nvdCache.delete(key));
       nvdCache.set(key, { at: Date.now(), pending });
     }
-    // the cache is shared by row names (python3, hostpython3): re-label for this one
-    out.push((await nvdCache.get(key).pending).map(a => ({
-      ...a, affected: a.affected.map(x => ({ ...x, package: { ecosystem: q.ecosystem, name: q.name } })),
-    })));
+    try {
+      // the cache is shared by row names (python3, hostpython3): re-label for this one
+      records.push((await nvdCache.get(key).pending).map(a => ({
+        ...a, affected: a.affected.map(x => ({ ...x, package: { ecosystem: q.ecosystem, name: q.name } })),
+      })));
+    } catch (error) {
+      console.log(`NVD lookup for ${q.name} ${q.version} failed: ${error.message}`);
+      records.push([]);
+      failed.push(i);
+    }
   }
-  return out;
+  return { records, failed };
 }
 
 /* --------------------------------- severity -------------------------------- */
@@ -437,7 +449,8 @@ export function affectedRanges(advisory, q) {
 /**
  * One finding per advisory, per package version. OSV often returns the same
  * issue twice (a GHSA and the RUSTSEC or PYSEC record it aliases); those are
- * folded into one finding, keeping the record that carries a severity.
+ * folded into one finding, keeping the record that carries a severity and the
+ * fixed versions and affected ranges of all of them.
  */
 function findingsFor(q, ids, details, extra = []) {
   const advisories = [...ids.map(id => details.get(id)).filter(Boolean), ...extra];
@@ -446,16 +459,23 @@ function findingsFor(q, ids, details, extra = []) {
   const labelled = (a) => (a.database_specific?.severity ? 0 : 1);
   advisories.sort((x, y) => SEVERITY_ORDER.indexOf(severityOf(x)) - SEVERITY_ORDER.indexOf(severityOf(y)) ||
     labelled(x) - labelled(y) || x.id.localeCompare(y.id));
-  const seen = new Set();
+  const byName = new Map(); // advisory id or alias -> the finding that carries it
   const findings = [];
   for (const advisory of advisories) {
     const names = [advisory.id, ...(advisory.aliases || [])];
-    if (names.some(n => seen.has(n))) {
-      for (const n of names) seen.add(n);
+    const kept = byName.get(names.find(n => byName.has(n)));
+    const fixed = fixedVersions(advisory, q);
+    const affected = affectedRanges(advisory, q);
+    if (kept) {
+      // The record kept for its severity need not be the one that knows the
+      // fix: OSV.dev's git-tag records of a C library list neither fixed
+      // versions nor ranges, the NVD record of the same CVE lists both.
+      kept.fixed = [...new Set([...kept.fixed, ...fixed])];
+      kept.affected = kept.affected || affected ? [...new Set([...(kept.affected || []), ...(affected || [])])] : null;
+      for (const n of names) byName.set(n, kept);
       continue;
     }
-    for (const n of names) seen.add(n);
-    findings.push({
+    const finding = {
       ecosystem: q.ecosystem,
       name: q.name,
       version: q.version,
@@ -463,23 +483,27 @@ function findingsFor(q, ids, details, extra = []) {
       aliases: advisory.aliases || [],
       severity: severityOf(advisory),
       summary: advisory.summary || (advisory.details || '').split('\n')[0].slice(0, 200),
-      fixed: fixedVersions(advisory, q),
-      affected: affectedRanges(advisory, q),
+      fixed,
+      affected,
       direct: q.rows.some(r => r.direct === true) ? true : (q.rows.some(r => r.direct === false) ? false : null),
       dev: q.rows.every(r => r.dev === true) ? true : (q.rows.some(r => r.dev === false) ? false : null),
       scope: scopeOfRows(q.rows),
       dependants: dependantsOfRows(q.rows),
       lockfiles: [...new Set(q.rows.map(r => r.lockfile))],
-    });
+    };
+    for (const n of names) byName.set(n, finding);
+    findings.push(finding);
   }
   return findings;
 }
 
 /**
  * Look up every checkable dependency of the given pinning analyses.
- * Resolves to { checked, skipped, findings } (findings ordered most severe
- * first), or null when OSV.dev could not be reached: a failed lookup is not a
- * clean result.
+ * Resolves to { checked, skipped, findings, nvdUnavailable } (findings
+ * ordered most severe first), or null when OSV.dev could not be reached: a
+ * failed lookup is not a clean result. NVD failing leaves the OSV.dev
+ * findings in place and lists the native rows it did not answer for in
+ * `nvdUnavailable` (and counts them under skipped['nvd-unavailable']).
  */
 // The widest scope among the rows of one package version: 'app' if any row
 // ships, else 'build' if any row is build tooling, else 'tests', else null.
@@ -507,11 +531,13 @@ export async function checkVulnerabilities(analyses, { fetchImpl = globalThis.fe
   }
 
   let findings;
+  let nvdUnavailable = [];
   try {
     const ids = await queryIds(queries, fetchImpl);
     const details = await fetchDetails(ids.flat(), fetchImpl);
     const nvd = await nvdAdvisories(queries, fetchImpl, nvdIntervalMs);
-    findings = queries.flatMap((q, i) => findingsFor(q, ids[i], details, nvd[i]));
+    findings = queries.flatMap((q, i) => findingsFor(q, ids[i], details, nvd.records[i]));
+    nvdUnavailable = nvd.failed.map(i => queries[i]);
   } catch (error) {
     console.log(`Vulnerability lookup failed: ${error.message}. No vulnerability result for this run.`);
     return null;
@@ -519,8 +545,15 @@ export async function checkVulnerabilities(analyses, { fetchImpl = globalThis.fe
   findings.sort((x, y) => SEVERITY_ORDER.indexOf(x.severity) - SEVERITY_ORDER.indexOf(y.severity) ||
     x.ecosystem.localeCompare(y.ecosystem) || x.name.localeCompare(y.name));
 
+  // Rows NVD did not answer for are counted as not fully checked; what OSV.dev
+  // found for them stays. saveVulnerabilities keeps their stored rows.
+  const unavailable = nvdUnavailable.reduce((n, q) => n + q.rows.length, 0);
+  if (unavailable) skipped['nvd-unavailable'] = (skipped['nvd-unavailable'] || 0) + unavailable;
   report(queries, skipped, findings);
-  return { checked: queries.length, skipped, findings };
+  return {
+    checked: queries.length, skipped, findings,
+    nvdUnavailable: nvdUnavailable.map(q => ({ ecosystem: q.ecosystem, name: q.name, version: q.version })),
+  };
 }
 
 function describeSkipped(skipped) {
@@ -532,7 +565,7 @@ function report(queries, skipped, findings) {
   for (const q of queries) perEcosystem[q.ecosystem] = (perEcosystem[q.ecosystem] || 0) + 1;
   console.log(`Looked up ${queries.length} package versions (${Object.entries(perEcosystem).map(([e, n]) => `${e} ${n}`).join(', ')})`);
   if (Object.keys(skipped).length) {
-    console.log(`Not checkable (no exact registry version): ${describeSkipped(skipped)}`);
+    console.log(`Not (fully) checked: ${describeSkipped(skipped)}`);
   }
   if (!findings.length) {
     console.log('No known vulnerabilities');

@@ -47,7 +47,8 @@ export async function recheckStoredReleases(db, appIds, { since = null, check = 
     WHERE d.app_id = ? AND NOT EXISTS (
       SELECT 1 FROM analyses a WHERE a.app_id = d.app_id AND a.kind = 'release' AND a.ref = d.version AND ? IS NOT NULL AND a.analysed_at >= ?)
     ORDER BY d.version`);
-  const updateCount = db.prepare(`UPDATE analyses SET vulnerabilities = ?, osv_checked = ? WHERE app_id = ? AND kind = 'release' AND ref = ?`);
+  const updateCount = db.prepare(`UPDATE analyses SET vulnerabilities = ?, osv_checked = ?, osv_skipped = ? WHERE app_id = ? AND kind = 'release' AND ref = ?`);
+  const storedSkipped = db.prepare(`SELECT osv_skipped FROM analyses WHERE app_id = ? AND kind = 'release' AND ref = ?`);
   const all = appIds.flatMap(appId => versionsOf.all(appId, since, since).map(({ version }) => ({ appId, version })));
   // From startAt, or the release after it in this order when it is gone, then around.
   const from = startAt ? Math.max(0, all.findIndex(r => r.appId > startAt.appId || (r.appId === startAt.appId && r.version >= startAt.version))) : 0;
@@ -74,7 +75,11 @@ export async function recheckStoredReleases(db, appIds, { since = null, check = 
     const before = new Set(stored.map(v => `${v.ecosystem}\u0000${v.name}\u0000${v.dep_version}\u0000${v.vuln_id}`));
     const fresh = result.findings.filter(f => !before.has(`${f.ecosystem}\u0000${f.name}\u0000${f.version}\u0000${f.id}`));
     saveVulnerabilities(db, appId, version, result);
-    updateCount.run(result.findings.length, result.checked, appId, version);
+    // Only the NVD count moves: the other skip reasons come from the analysis's own lockfile reading.
+    const skipped = JSON.parse(storedSkipped.get(appId, version)?.osv_skipped || '{}');
+    if (result.skipped?.['nvd-unavailable']) skipped['nvd-unavailable'] = result.skipped['nvd-unavailable'];
+    else delete skipped['nvd-unavailable'];
+    updateCount.run(getVulnerabilities(db, appId, version).length, result.checked, JSON.stringify(skipped), appId, version);
     if (JSON.stringify(getVulnerabilities(db, appId, version)) !== JSON.stringify(stored)) changed.add(appId);
     recordMalwareAlerts(db, appId, version, result.findings);
     if (fresh.length) console.log(`  ${appId} ${version}: ${fresh.length} new advisories (${fresh.map(f => f.id).join(', ')})`);
