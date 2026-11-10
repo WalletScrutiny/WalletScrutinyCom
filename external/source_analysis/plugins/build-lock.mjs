@@ -138,16 +138,17 @@ export function gradleModules(artifacts) {
   return modules;
 }
 
-// The file whose hash a row keeps: the jar or aar, else the first one listed.
-function mainFile(files) {
-  return files.find(f => /\.(jar|aar)$/.test(f.file || '')) || files[0] || {};
-}
-
 // A file with code: a library (jar, aar, klib) or a program the build runs
 // (protoc's .exe). A .pom or .module only describes a module: parent POMs,
 // BOMs and versions Gradle read but did not pick.
 const CODE_FILE = /\.(jar|aar|klib|exe)$/i;
 const hasCode = (m) => m.files.some(f => CODE_FILE.test(f.file || ''));
+
+// The file whose hash a row keeps: the jar or aar, else another file with
+// code, else the first one listed.
+function mainFile(files) {
+  return files.find(f => /\.(jar|aar)$/i.test(f.file || '')) || files.find(f => CODE_FILE.test(f.file || '')) || files[0] || {};
+}
 
 /**
  * The rows one platform's build adds and both differences with the gradle
@@ -156,8 +157,8 @@ const hasCode = (m) => m.files.some(f => CODE_FILE.test(f.file || ''));
  * become rows of `lockfile`), and modules a row lists at an exact version
  * that the build never downloaded. A module the rows already list keeps its
  * row: the build confirms it, it is not counted twice. A module the build
-downloaded only descriptions of (no file with code) becomes no row: none of
-its code ships or runs; it is named in `descriptionsOnly`. `inPlatform` keeps
+ * downloaded only descriptions of (no file with code) becomes no row: none of
+ * its code ships or runs; it is named in `descriptionsOnly`. `inPlatform` keeps
  * the rows of files that platform's page counts (all rows by default).
  *
  * Gradle resolution lists the release runtime classpaths ('app') and the

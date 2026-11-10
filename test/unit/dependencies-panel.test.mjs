@@ -455,7 +455,7 @@ describe('build-lock notices', () => {
     const t = text(withLock({ files: [USED], misnamed: [], modules: 40,
       builtNotResolved: { count: 22, names: ['androidx.core:core@1.13.1', 'com.android.tools.build:gradle@8.5.2'] },
       resolvedNotBuilt: { count: 1, names: ['androidx.appcompat:appcompat@1.7.0'] } }));
-    assert.match(t, /The build downloaded 40 Gradle modules \(from the verifier's build-lock\.json\), and they were checked for advisories too\./);
+    assert.match(t, /The build downloaded 40 Gradle modules \(from the verifier's build-lock\.json\), and the ones with code were checked for advisories too\./);
     assert.match(t, /22 of them are not in the resolved list: androidx\.core:core@1\.13\.1, com\.android\.tools\.build:gradle@8\.5\.2 and 20 more\./);
     assert.match(t, /1 resolved modules were never downloaded by the build: androidx\.appcompat:appcompat@1\.7\.0\./);
   });

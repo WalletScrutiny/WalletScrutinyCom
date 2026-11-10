@@ -201,6 +201,20 @@ test('compareWithResolution: a module downloaded only as .pom or .module becomes
   assert.equal(added.find(r => r.name === 'com.google.protobuf:protoc').scope, 'build', 'protoc is a build tool, not dropped');
 });
 
+test('compareWithResolution: a program-only module keeps the program\'s hash, whatever order its files are listed in', () => {
+  const sha = (file) => createHash('sha256').update(file).digest('hex');
+  const art = (name, version, ...files) => files.map(file => ({ ecosystem: 'gradle', name, version, file, sha256: sha(file) }));
+  // the order of BitBanana 1.1.1's build-lock.json: the .pom first
+  const exe = 'protoc-gen-grpc-java-1.80.0-linux-x86_64.exe';
+  const modules = gradleModules([
+    ...art('io.grpc:protoc-gen-grpc-java', '1.80.0', 'protoc-gen-grpc-java-1.80.0.pom', exe),
+    ...art('org.jetbrains.kotlinx:atomicfu', '0.23.1', 'atomicfu-0.23.1.module', 'atomicfu-0.23.1.klib'),
+  ]);
+  const { added } = compareWithResolution(modules, pinning());
+  assert.equal(added.find(r => r.name === 'io.grpc:protoc-gen-grpc-java').integrity, `sha256:${sha(exe)}`);
+  assert.equal(added.find(r => r.name === 'org.jetbrains.kotlinx:atomicfu').integrity, `sha256:${sha('atomicfu-0.23.1.klib')}`);
+});
+
 test('checkBuildLocks adds the build\'s rows to pinning, and OSV looks them up like any other row', async () => {
   const rows = pinning();
   const result = await checkBuildLocks({ locks: [ref()], misnamed: [] }, rows, { dir: tmpDir(), fetchImpl: blossom({ [FIXTURE_SHA]: FIXTURE }) });
