@@ -232,8 +232,9 @@ Keep the name build-lock.json when uploading it.
 1. Take that exact file: the path printed, not an older copy from a download folder.
 2. In the verification form, drop it in the box that starts "For larger files,
    drag & drop them here", together with the asciicast. Not in the scripts box.
-3. Its name must stay exactly `build-lock.json`; the sha256 in the published
-   event must be the one printed.
+3. The form knows the file by its content and saves it as `build-lock.json`,
+   whatever it is called on your disk; the sha256 in the published event must
+   be the one printed.
 
 The form checks the file before it publishes and refuses it with one of these
 messages:
@@ -246,6 +247,11 @@ messages:
   upload the new file." (schema 1, or a field is `null`)
 - "Only one build-lock.json can go with a verification. Remove the other
   one." (a second file)
+- "The script of this verification runs ws-buildlock.sh, but no
+  build-lock.json is attached. Drop the build-lock.json it printed in the box
+  that starts "For larger files"." (an uploaded or reused script calls
+  ws-buildlock.sh; not asked when the status is Failed to Build from Source,
+  or for a draft)
 
 
 Like ws-depcheck, it never changes the verdict and exits 0. With `--yaml` it
