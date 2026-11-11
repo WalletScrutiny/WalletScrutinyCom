@@ -5,6 +5,7 @@ import assert from 'node:assert/strict';
 import { loadApp, renderDependenciesPanel, liveTriageEvents, triageAuthors, panelElement, usedBy, severityTally, coverageTipLines, historyScale } from '../../src/dependencies-panel.mjs';
 import { panelModel, releaseForVersion } from '../../src/dependencies-panel-model.mjs';
 import { nip19 } from 'nostr-tools';
+import { viaLine } from '../../src/dependencies-panel.mjs';
 
 const shortNpub = (pk) => { const n = nip19.npubEncode(pk); return `${n.slice(0, 10)}…${n.slice(-4)}`; };
 
@@ -709,5 +710,14 @@ describe('dependencies panel: whose statements the relays are asked for (issue 1
     }
     assert.equal(warned.length, 2);
     assert.match(warned[0], /not asking the relays/);
+  });
+});
+
+describe('the via line', () => {
+  test('a direct build row is a build tool, not imported by the wallet', () => {
+    assert.equal(viaLine(advisory('CVE-1', 'high')).textContent, 'imported by the wallet');
+    const host = advisory('CVE-1', 'high', { ecosystem: 'native', package: 'hostpython3', dev: true, scope: 'build', dependants: ['PyQt6', 'python3'] });
+    assert.equal(viaLine(host).textContent, 'build tool of the wallet · via PyQt6, python3');
+    assert.equal(viaLine(advisory('CVE-1', 'high', { dev: null, scope: 'tests' })).textContent, 'imported by the wallet', 'only build rows change');
   });
 });

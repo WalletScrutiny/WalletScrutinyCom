@@ -158,12 +158,13 @@ export function severityCell(a) {
 
 // "via @babel/core, @babel/helpers" or "imported by the wallet" under the
 // package name: the direct users, which is what a triage statement is keyed
-// by. Nothing when the files do not record the graph.
+// by. A direct build row is a "build tool of the wallet", not imported by it.
+// Nothing when the files do not record the graph.
 const VIA_SHOWN = 3;
 export function viaLine(a) {
   const parts = [];
   let title = null;
-  if (a.direct) parts.push('imported by the wallet');
+  if (a.direct) parts.push(whereOf(a) === 'build' ? 'build tool of the wallet' : 'imported by the wallet');
   if (Array.isArray(a.dependants) && a.dependants.length) {
     const d = a.dependants;
     const shown = d.slice(0, VIA_SHOWN).join(', ');

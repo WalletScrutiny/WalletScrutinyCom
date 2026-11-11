@@ -577,20 +577,26 @@ export function saveDependencies(db, appId, version, analyses) {
 
 // Replace the stored vulnerability findings of (appId, version) with those of
 // a checkVulnerabilities result (plugins/osv.mjs). Returns the number of rows stored.
-export function saveVulnerabilities(db, appId, version, { findings }) {
-  const insert = db.prepare(`
-    INSERT OR REPLACE INTO app_vulnerabilities
-      (app_id, version, ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants, affected)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-  `);
+// `nvdUnavailable` lists the package versions NVD did not answer for
+// (plugins/osv.mjs): the rows stored for them are kept, since replacing them
+// with OSV.dev's answer alone would drop every NVD-only advisory until the
+// next successful lookup. A finding of this run replaces its stored row.
+export function saveVulnerabilities(db, appId, version, { findings, nvdUnavailable = [] }) {
+  const columns = 'app_id, version, ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants, affected';
+  const insert = db.prepare(`INSERT OR REPLACE INTO app_vulnerabilities (${columns}) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`);
+  const keep = db.prepare(`INSERT OR IGNORE INTO app_vulnerabilities (${columns}) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`);
+  const stored = db.prepare(`SELECT ${columns} FROM app_vulnerabilities WHERE app_id = ? AND version = ? AND ecosystem = ? AND name = ? AND dep_version = ?`);
   return db.transaction(() => {
+    const kept = nvdUnavailable.flatMap(p => stored.all(appId, version, p.ecosystem, p.name, p.version));
     db.prepare('DELETE FROM app_vulnerabilities WHERE app_id = ? AND version = ?').run(appId, version);
     for (const f of findings) {
       insert.run(appId, version, f.ecosystem, f.name, f.version, f.id, f.severity,
         f.aliases.join(' '), f.fixed.join(' '), f.summary, boolOrNull(f.direct), boolOrNull(f.dev), scopeOrNull(f.scope), dependantsOrNull(f.dependants),
         Array.isArray(f.affected) && f.affected.length ? JSON.stringify(f.affected) : null);
     }
-    return findings.length;
+    let carried = 0;
+    for (const r of kept) carried += keep.run(...columns.split(', ').map(c => r[c])).changes;
+    return findings.length + carried;
   })();
 }
 

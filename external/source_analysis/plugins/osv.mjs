@@ -12,6 +12,11 @@
  * ranges, BOM-supplied versions and git/path/tarball sources are counted as
  * unchecked: an advisory for a registry package says nothing about a fork
  * built from somebody's git branch.
+ *
+ * Native libraries (OpenSSL, SQLite, Qt) come from no registry. They are
+ * looked up by where their source lives (NATIVE_UPSTREAM): OSV.dev by git
+ * repository and release tag, or by commit, and NVD by product (CPE), since
+ * each lists advisories the other misses (OSV.dev has none for Qt).
  */
 import { SHOW_ONLY_FIRST_X_ALERTS } from '../config.mjs';
 
@@ -21,8 +26,50 @@ const DETAIL_CONCURRENCY = 8;
 const REQUEST_TIMEOUT_MS = 30000;
 const RETRIES = 2;
 
+export const NVD_API = 'https://services.nvd.nist.gov/rest/json/cves/2.0';
+const NVD_PAGE_SIZE = 2000; // the API's maximum
+// NVD allows 5 requests in 30 seconds without a key, 50 with one.
+const NVD_INTERVAL_MS = process.env.NVD_API_KEY ? 700 : 6500;
+
 // test 7 ecosystem -> OSV ecosystem
 const OSV_ECOSYSTEMS = { npm: 'npm', pip: 'PyPI', gradle: 'Maven', cargo: 'crates.io', pub: 'Pub' };
+
+// Rows of a native library. p4a is what plugins/pinning.mjs called them before
+// 2026-11-09; stored releases keep it until they are analysed again.
+const NATIVE_ECOSYSTEMS = new Set(['native', 'p4a']);
+
+// Native libraries by row name: the git repository OSV.dev knows the source
+// as, the tag of a release, and the NVD vendor:product. A name not listed here
+// is not checked (no-upstream) rather than guessed at.
+const cpython = { repo: 'https://github.com/python/cpython', tag: v => `v${v}`, cpe: 'python:python' };
+export const NATIVE_UPSTREAM = {
+  hostpython3: cpython,
+  libffi: { repo: 'https://github.com/libffi/libffi', tag: v => `v${v}`, cpe: 'libffi_project:libffi' },
+  libiconv: { repo: 'https://git.savannah.gnu.org/git/libiconv.git', tag: v => `v${v}`, cpe: 'gnu:libiconv' },
+  libsecp256k1: { repo: 'https://github.com/bitcoin-core/secp256k1', tag: v => `v${v}`, cpe: null },
+  libzbar: { repo: 'https://github.com/mchehab/zbar', tag: v => v, cpe: 'zbar_project:zbar' },
+  openssl: { repo: 'https://github.com/openssl/openssl', tag: v => `openssl-${v}`, cpe: 'openssl:openssl' },
+  python3: cpython,
+  qt6: { repo: 'https://github.com/qt/qtbase', tag: v => `v${v}`, cpe: 'qt:qt' },
+  sqlite3: { repo: 'https://github.com/sqlite/sqlite', tag: v => `version-${v}`, cpe: 'sqlite:sqlite' },
+};
+
+const isCommit = version => /^[0-9a-f]{40}$/i.test(version || '');
+
+/**
+ * Where a native row's source lives: { repo, commit } for a commit, else
+ * { repo, tag, cpe, version } with the version as NVD writes it (libffi's
+ * recipe says v3.4.8). Null for a row that is not native or not listed.
+ */
+export function nativeSource(entry) {
+  if (!NATIVE_ECOSYSTEMS.has(entry.ecosystem)) return null;
+  const upstream = NATIVE_UPSTREAM[String(entry.name).toLowerCase()];
+  if (!upstream || !entry.version) return null;
+  if (isCommit(entry.version)) return { repo: upstream.repo, commit: entry.version.toLowerCase() };
+  const version = entry.version.replace(/^v(?=\d)/, '');
+  return { repo: upstream.repo, tag: upstream.tag(version), cpe: upstream.cpe, version };
+}
+
 const UNCHECKABLE_TIERS = new Set(['floating', 'unversioned', 'source-ref-pinned']);
 const SEVERITY_ORDER = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown'];
 
@@ -33,6 +80,11 @@ const SEVERITY_ORDER = ['malicious', 'critical', 'high', 'moderate', 'low', 'unk
  * clean.
  */
 export function uncheckableReason(entry) {
+  if (NATIVE_ECOSYSTEMS.has(entry.ecosystem)) {
+    if (!NATIVE_UPSTREAM[String(entry.name).toLowerCase()]) return 'no-upstream';
+    if (!entry.version) return 'unversioned';
+    return isCommit(entry.version) || /^v?\d[0-9A-Za-z.+_-]*$/.test(entry.version) ? null : 'no-exact-version';
+  }
   if (!OSV_ECOSYSTEMS[entry.ecosystem]) return 'ecosystem';
   // A floating gradle declaration that gradle resolved (plugins/gradle-resolution.mjs)
   // carries the version gradle picked; an unresolved one still has its range
@@ -88,20 +140,20 @@ export function buildQueries(analyses) {
       }
       const name = queryName(entry);
       const key = `${entry.ecosystem}\u0000${name}\u0000${entry.version}`;
-      if (!queries.has(key)) queries.set(key, { ecosystem: entry.ecosystem, name, version: entry.version, rows: [] });
+      if (!queries.has(key)) queries.set(key, { ecosystem: entry.ecosystem, name, version: entry.version, native: nativeSource(entry), rows: [] });
       queries.get(key).rows.push(entry);
     }
   }
   return { queries: [...queries.values()], skipped };
 }
 
-async function request(fetchImpl, url, body = null) {
+async function request(fetchImpl, url, body = null, headers = {}) {
   let lastError;
   for (let attempt = 0; attempt <= RETRIES; attempt++) {
     try {
       const response = await fetchImpl(url, {
         method: body ? 'POST' : 'GET',
-        headers: body ? { 'content-type': 'application/json' } : {},
+        headers: { ...(body ? { 'content-type': 'application/json' } : {}), ...headers },
         body: body ? JSON.stringify(body) : undefined,
         signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
       });
@@ -116,9 +168,16 @@ async function request(fetchImpl, url, body = null) {
   throw lastError;
 }
 
+// A native library is asked about by commit, or by repository and tag: OSV.dev
+// maps C/C++ advisories onto the commits they affect.
+const packageQuery = (q) => {
+  if (q.native?.commit) return { commit: q.native.commit };
+  if (q.native) return { package: { ecosystem: 'GIT', name: q.native.repo }, version: q.native.tag };
+  return { package: { ecosystem: OSV_ECOSYSTEMS[q.ecosystem], name: q.name }, version: q.version };
+};
+
 const toOsvQuery = (q, pageToken) => ({
-  package: { ecosystem: OSV_ECOSYSTEMS[q.ecosystem], name: q.name },
-  version: q.version,
+  ...packageQuery(q),
   ...(pageToken ? { page_token: pageToken } : {}),
 });
 
@@ -150,6 +209,8 @@ const detailCache = new Map(); // id -> Promise<advisory>
 
 export function clearAdvisoryCache() {
   detailCache.clear();
+  nvdCache.clear();
+  nvdNextAt = 0;
 }
 
 async function fetchDetails(ids, fetchImpl) {
@@ -169,6 +230,118 @@ async function fetchDetails(ids, fetchImpl) {
   };
   await Promise.all(Array.from({ length: Math.min(DETAIL_CONCURRENCY, unique.length) }, worker));
   return out;
+}
+
+/* ----------------------------------- NVD ----------------------------------- */
+
+// A release's NVD answer is kept a while, not for the process: the hourly
+// recheck (recheck.mjs) is how new CVEs reach releases that do not change.
+const NVD_CACHE_MS = 6 * 3600 * 1000;
+const nvdCache = new Map(); // vendor:product:version -> { at, pending }
+let nvdNextAt = 0;
+
+/** -1, 0 or 1. Numbers compare as numbers, OpenSSL's 1.1.1w comes after 1.1.1. */
+export function compareVersions(a, b) {
+  const parts = v => String(v).toLowerCase().match(/\d+|[a-z]+/g) || [];
+  const [x, y] = [parts(a), parts(b)];
+  for (let i = 0; i < Math.max(x.length, y.length); i++) {
+    if (x[i] === undefined) return -1;
+    if (y[i] === undefined) return 1;
+    const [nx, ny] = [/^\d/.test(x[i]), /^\d/.test(y[i])];
+    if (nx && ny && Number(x[i]) !== Number(y[i])) return Number(x[i]) < Number(y[i]) ? -1 : 1;
+    if (nx !== ny) return nx ? 1 : -1;
+    if (!nx && x[i] !== y[i]) return x[i] < y[i] ? -1 : 1;
+  }
+  return 0;
+}
+
+/**
+ * The OSV-style range events of an NVD cpeMatch that marks this
+ * vendor:product version vulnerable, or null. A match where the product is
+ * only the platform (vulnerable: false: Apache httpd "running with" OpenSSL)
+ * does not count, nor does a pre-release (an update other than * or -).
+ */
+export function nvdMatch(cpeMatch, cpe, version) {
+  const [, , , vendor, product, exact, update] = String(cpeMatch.criteria || '').split(':');
+  if (!cpeMatch.vulnerable || `${vendor}:${product}` !== cpe || !['*', '-', undefined].includes(update)) return null;
+  if (exact && exact !== '*' && exact !== '-') {
+    return compareVersions(exact, version) === 0 ? [{ introduced: exact }, { last_affected: exact }] : null;
+  }
+  const { versionStartIncluding: si, versionStartExcluding: se, versionEndIncluding: ei, versionEndExcluding: ee } = cpeMatch;
+  if (si && compareVersions(version, si) < 0) return null;
+  if (se && compareVersions(version, se) <= 0) return null;
+  if (ei && compareVersions(version, ei) > 0) return null;
+  if (ee && compareVersions(version, ee) >= 0) return null;
+  return [{ introduced: si || se || '0' }, ee ? { fixed: ee } : ei ? { last_affected: ei } : null].filter(Boolean);
+}
+
+// An NVD CVE as an OSV record, so severity, fix and folding treat both alike.
+function nvdAdvisory(cve, q, events) {
+  const metrics = cve.metrics || {};
+  const v3 = [...(metrics.cvssMetricV31 || []), ...(metrics.cvssMetricV30 || [])][0]?.cvssData;
+  const label = (metrics.cvssMetricV40 || metrics.cvssMetricV2 || [])[0]?.cvssData?.baseSeverity
+    ?? (metrics.cvssMetricV2 || [])[0]?.baseSeverity;
+  return {
+    id: cve.id,
+    aliases: [],
+    details: (cve.descriptions || []).find(d => d.lang === 'en')?.value || '',
+    severity: v3?.vectorString ? [{ type: 'CVSS_V3', score: v3.vectorString }] : [],
+    database_specific: !v3 && label ? { severity: String(label).toLowerCase() } : {},
+    affected: [{ package: { ecosystem: q.ecosystem, name: q.name }, ranges: [{ type: 'ECOSYSTEM', events }] }],
+  };
+}
+
+async function nvdLookup(q, fetchImpl, intervalMs) {
+  const { cpe, version } = q.native;
+  const out = [];
+  for (let start = 0, total = 1; start < total; start += NVD_PAGE_SIZE) {
+    const wait = nvdNextAt - Date.now();
+    if (wait > 0) await new Promise(resolve => setTimeout(resolve, wait));
+    nvdNextAt = Date.now() + intervalMs;
+    const url = `${NVD_API}?virtualMatchString=${encodeURIComponent(`cpe:2.3:a:${cpe}:${version}`)}` +
+      `&resultsPerPage=${NVD_PAGE_SIZE}&startIndex=${start}`;
+    const data = await request(fetchImpl, url, null, process.env.NVD_API_KEY ? { apiKey: process.env.NVD_API_KEY } : {});
+    total = data.totalResults || 0;
+    for (const { cve } of data.vulnerabilities || []) {
+      if (cve.vulnStatus === 'Rejected') continue;
+      const matches = (cve.configurations || []).flatMap(c => c.nodes || []).flatMap(n => n.cpeMatch || []);
+      const events = matches.map(m => nvdMatch(m, cpe, version)).find(Boolean);
+      if (events) out.push(nvdAdvisory(cve, q, events));
+    }
+    if (!(data.vulnerabilities || []).length) break;
+  }
+  return out;
+}
+
+/**
+ * NVD records per query, same order as `queries`; only native releases with a
+ * CPE are asked. A query NVD did not answer has no records and is listed in
+ * `failed` (its index): NVD is the flakier of the two sources, and its outage
+ * must not take the OSV.dev results of every other row with it.
+ */
+async function nvdAdvisories(queries, fetchImpl, intervalMs) {
+  const records = [];
+  const failed = [];
+  for (const [i, q] of queries.entries()) {
+    if (!q.native?.cpe) { records.push([]); continue; }
+    const key = `${q.native.cpe}:${q.native.version}`;
+    if (!(Date.now() - nvdCache.get(key)?.at < NVD_CACHE_MS)) {
+      const pending = nvdLookup(q, fetchImpl, intervalMs);
+      pending.catch(() => nvdCache.delete(key));
+      nvdCache.set(key, { at: Date.now(), pending });
+    }
+    try {
+      // the cache is shared by row names (python3, hostpython3): re-label for this one
+      records.push((await nvdCache.get(key).pending).map(a => ({
+        ...a, affected: a.affected.map(x => ({ ...x, package: { ecosystem: q.ecosystem, name: q.name } })),
+      })));
+    } catch (error) {
+      console.log(`NVD lookup for ${q.name} ${q.version} failed: ${error.message}`);
+      records.push([]);
+      failed.push(i);
+    }
+  }
+  return { records, failed };
 }
 
 /* --------------------------------- severity -------------------------------- */
@@ -228,10 +401,14 @@ export function severityOf(advisory) {
 }
 
 /** The `fixed` versions the advisory lists for this package. */
+// The ecosystem an advisory's affected entry names for this query's package:
+// an NVD record (nvdAdvisory) uses the row's own.
+const affectedEcosystem = q => OSV_ECOSYSTEMS[q.ecosystem] ?? q.ecosystem;
+
 function fixedVersions(advisory, q) {
   const fixed = new Set();
   for (const affected of advisory.affected || []) {
-    if (affected.package?.ecosystem !== OSV_ECOSYSTEMS[q.ecosystem]) continue;
+    if (affected.package?.ecosystem !== affectedEcosystem(q)) continue;
     if (String(affected.package?.name).toLowerCase() !== q.name.toLowerCase()) continue;
     for (const range of affected.ranges || []) {
       for (const event of range.events || []) if (event.fixed) fixed.add(event.fixed);
@@ -248,7 +425,7 @@ function fixedVersions(advisory, q) {
 export function affectedRanges(advisory, q) {
   const out = new Set();
   for (const affected of advisory.affected || []) {
-    if (affected.package?.ecosystem !== OSV_ECOSYSTEMS[q.ecosystem]) continue;
+    if (affected.package?.ecosystem !== affectedEcosystem(q)) continue;
     if (String(affected.package?.name).toLowerCase() !== q.name.toLowerCase()) continue;
     for (const range of affected.ranges || []) {
       if (range.type === 'GIT') continue;
@@ -272,25 +449,33 @@ export function affectedRanges(advisory, q) {
 /**
  * One finding per advisory, per package version. OSV often returns the same
  * issue twice (a GHSA and the RUSTSEC or PYSEC record it aliases); those are
- * folded into one finding, keeping the record that carries a severity.
+ * folded into one finding, keeping the record that carries a severity and the
+ * fixed versions and affected ranges of all of them.
  */
-function findingsFor(q, ids, details) {
-  const advisories = ids.map(id => details.get(id)).filter(Boolean);
+function findingsFor(q, ids, details, extra = []) {
+  const advisories = [...ids.map(id => details.get(id)).filter(Boolean), ...extra];
   // most severe first; on a tie the record with GitHub's reviewed label, so the
   // kept id does not depend on the order OSV listed them in
   const labelled = (a) => (a.database_specific?.severity ? 0 : 1);
   advisories.sort((x, y) => SEVERITY_ORDER.indexOf(severityOf(x)) - SEVERITY_ORDER.indexOf(severityOf(y)) ||
     labelled(x) - labelled(y) || x.id.localeCompare(y.id));
-  const seen = new Set();
+  const byName = new Map(); // advisory id or alias -> the finding that carries it
   const findings = [];
   for (const advisory of advisories) {
     const names = [advisory.id, ...(advisory.aliases || [])];
-    if (names.some(n => seen.has(n))) {
-      for (const n of names) seen.add(n);
+    const kept = byName.get(names.find(n => byName.has(n)));
+    const fixed = fixedVersions(advisory, q);
+    const affected = affectedRanges(advisory, q);
+    if (kept) {
+      // The record kept for its severity need not be the one that knows the
+      // fix: OSV.dev's git-tag records of a C library list neither fixed
+      // versions nor ranges, the NVD record of the same CVE lists both.
+      kept.fixed = [...new Set([...kept.fixed, ...fixed])];
+      kept.affected = kept.affected || affected ? [...new Set([...(kept.affected || []), ...(affected || [])])] : null;
+      for (const n of names) byName.set(n, kept);
       continue;
     }
-    for (const n of names) seen.add(n);
-    findings.push({
+    const finding = {
       ecosystem: q.ecosystem,
       name: q.name,
       version: q.version,
@@ -298,23 +483,27 @@ function findingsFor(q, ids, details) {
       aliases: advisory.aliases || [],
       severity: severityOf(advisory),
       summary: advisory.summary || (advisory.details || '').split('\n')[0].slice(0, 200),
-      fixed: fixedVersions(advisory, q),
-      affected: affectedRanges(advisory, q),
+      fixed,
+      affected,
       direct: q.rows.some(r => r.direct === true) ? true : (q.rows.some(r => r.direct === false) ? false : null),
       dev: q.rows.every(r => r.dev === true) ? true : (q.rows.some(r => r.dev === false) ? false : null),
       scope: scopeOfRows(q.rows),
       dependants: dependantsOfRows(q.rows),
       lockfiles: [...new Set(q.rows.map(r => r.lockfile))],
-    });
+    };
+    for (const n of names) byName.set(n, finding);
+    findings.push(finding);
   }
   return findings;
 }
 
 /**
  * Look up every checkable dependency of the given pinning analyses.
- * Resolves to { checked, skipped, findings } (findings ordered most severe
- * first), or null when OSV.dev could not be reached: a failed lookup is not a
- * clean result.
+ * Resolves to { checked, skipped, findings, nvdUnavailable } (findings
+ * ordered most severe first), or null when OSV.dev could not be reached: a
+ * failed lookup is not a clean result. NVD failing leaves the OSV.dev
+ * findings in place and lists the native rows it did not answer for in
+ * `nvdUnavailable` (and counts them under skipped['nvd-unavailable']).
  */
 // The widest scope among the rows of one package version: 'app' if any row
 // ships, else 'build' if any row is build tooling, else 'tests', else null.
@@ -332,7 +521,7 @@ export function scopeOfRows(rows) {
   return null;
 }
 
-export async function checkVulnerabilities(analyses, { fetchImpl = globalThis.fetch } = {}) {
+export async function checkVulnerabilities(analyses, { fetchImpl = globalThis.fetch, nvdIntervalMs = NVD_INTERVAL_MS } = {}) {
   console.log('\n--- Test 10: Known vulnerabilities (OSV.dev, from the resolved dependencies) ---');
   const { queries, skipped } = buildQueries(analyses);
   const skippedTotal = Object.values(skipped).reduce((a, b) => a + b, 0);
@@ -342,19 +531,29 @@ export async function checkVulnerabilities(analyses, { fetchImpl = globalThis.fe
   }
 
   let findings;
+  let nvdUnavailable = [];
   try {
     const ids = await queryIds(queries, fetchImpl);
     const details = await fetchDetails(ids.flat(), fetchImpl);
-    findings = queries.flatMap((q, i) => findingsFor(q, ids[i], details));
+    const nvd = await nvdAdvisories(queries, fetchImpl, nvdIntervalMs);
+    findings = queries.flatMap((q, i) => findingsFor(q, ids[i], details, nvd.records[i]));
+    nvdUnavailable = nvd.failed.map(i => queries[i]);
   } catch (error) {
-    console.log(`OSV.dev lookup failed: ${error.message}. No vulnerability result for this run.`);
+    console.log(`Vulnerability lookup failed: ${error.message}. No vulnerability result for this run.`);
     return null;
   }
   findings.sort((x, y) => SEVERITY_ORDER.indexOf(x.severity) - SEVERITY_ORDER.indexOf(y.severity) ||
     x.ecosystem.localeCompare(y.ecosystem) || x.name.localeCompare(y.name));
 
+  // Rows NVD did not answer for are counted as not fully checked; what OSV.dev
+  // found for them stays. saveVulnerabilities keeps their stored rows.
+  const unavailable = nvdUnavailable.reduce((n, q) => n + q.rows.length, 0);
+  if (unavailable) skipped['nvd-unavailable'] = (skipped['nvd-unavailable'] || 0) + unavailable;
   report(queries, skipped, findings);
-  return { checked: queries.length, skipped, findings };
+  return {
+    checked: queries.length, skipped, findings,
+    nvdUnavailable: nvdUnavailable.map(q => ({ ecosystem: q.ecosystem, name: q.name, version: q.version })),
+  };
 }
 
 function describeSkipped(skipped) {
@@ -366,7 +565,7 @@ function report(queries, skipped, findings) {
   for (const q of queries) perEcosystem[q.ecosystem] = (perEcosystem[q.ecosystem] || 0) + 1;
   console.log(`Looked up ${queries.length} package versions (${Object.entries(perEcosystem).map(([e, n]) => `${e} ${n}`).join(', ')})`);
   if (Object.keys(skipped).length) {
-    console.log(`Not checkable (no exact registry version): ${describeSkipped(skipped)}`);
+    console.log(`Not (fully) checked: ${describeSkipped(skipped)}`);
   }
   if (!findings.length) {
     console.log('No known vulnerabilities');
