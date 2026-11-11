@@ -532,6 +532,11 @@ const P4A_PYPI_NAMES = {
   toml: 'toml',
   tomli: 'tomli',
 };
+// Recipes built for and run on the build machine, never shipped in the APK:
+// hostpython3 is the Python that compiles the app (python3 is the one inside it).
+// The spec lists it under requirements all the same, so it is direct, but a
+// build row. Other host recipes (hostqt6) are not marked yet.
+const P4A_BUILD_RECIPES = new Set(['hostpython3']);
 const P4A_SPEC = /^buildozer[^/]*\.spec$/;
 const P4A_RECIPE_NAME = /^[A-Za-z0-9_][A-Za-z0-9_.-]*$/;
 const pypiKey = name => name.toLowerCase().replace(/[-_.]+/g, '-');
@@ -664,6 +669,7 @@ function analyzeP4aSpec(repoPath, specFile, result) {
       version,
       integrity: node.recipe.sha512 ? `sha512:${node.recipe.sha512}` : '',
       direct: node.direct,
+      ...(P4A_BUILD_RECIPES.has(node.name) ? { dev: true } : {}),
       dependants: [...node.dependants],
       tier,
     });
