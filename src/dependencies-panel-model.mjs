@@ -221,12 +221,18 @@ export function uncheckedBreakdown(osv) {
 // wallet's own, or a direct user's at the shipped version. Unsigned and
 // harvested, so they only ever join "What others say". An entry whose link a
 // statement on the row already cites as evidence is left out (AirGap's own
-// file was relayed as signed statements).
-export function upstreamFor(advisory, upstream) {
+// file was relayed as signed statements), but only when a trusted author or
+// a listed maintainer of the row's library signed it, whatever the wallet it
+// was made for: anyone else could, to hide the wallet's own note. `trusted`
+// and `maintainers` are the triage file's lists.
+export function upstreamFor(advisory, upstream, { trusted = [], maintainers = {} } = {}) {
   const byId = upstream?.advisories;
   if (!byId || !advisory) return [];
   const seen = new Set();
-  const cited = new Set([...(advisory.decision?.basis || []), ...(advisory.triage?.partial || []), ...(advisory.triage?.others || [])].map(b => b.statement?.evidence).filter(Boolean));
+  const library = (s) => s.via || (advisory.package ? `${advisory.ecosystem || 'npm'}:${advisory.package}` : null);
+  const insider = (s) => trusted.includes(s.pubkey) || (maintainers[library(s)] || []).includes(s.pubkey);
+  const others = (advisory.triage?.others || []).filter(o => o.statement && insider(o.statement));
+  const cited = new Set([...(advisory.decision?.basis || []), ...(advisory.triage?.partial || []), ...others].map(b => b.statement?.evidence).filter(Boolean));
   const out = [];
   for (const id of [advisory.id, ...(advisory.aliases || [])]) {
     for (const h of byId[id] || []) {
@@ -305,7 +311,7 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
   const triaged = applyTriage(applySignals(current.advisories || [], signals), triage, { appIds, releases });
   const apkOfRelease = apk && apk.ref === current.ref ? apk : null; // an APK of another release says nothing about these rows
   const allAdvisories = sortAdvisories(triaged.advisories.map(a => {
-    const hints = upstreamFor(a, upstream);
+    const hints = upstreamFor(a, upstream, { trusted: triage?.trusted || [], maintainers: triage?.maintainers || {} });
     const inApk = inApkOf(a, apkOfRelease);
     return hints.length || inApk ? { ...a, ...(hints.length ? { upstream: hints } : {}), ...(inApk ? { inApk } : {}) } : a;
   }));

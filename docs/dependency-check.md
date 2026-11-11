@@ -163,14 +163,22 @@ not bring it back.
 
 Plumbing:
 
-- `scripts/build-dependency-triage.mjs` pulls every statement from the
-  project relay and the site's public relays during the build, merges it
+- `scripts/build-dependency-triage.mjs` pulls the statements from the
+  project relay and the site's public relays during the build, the trusted
+  authors' and listed maintainers' in a query of their own so a flood by
+  others never pushes them past a relay's reply limit (issue 1002). Other
+  authors' statements and deletion requests are capped at 20 per author and
+  100 in all; what the snapshot already had stays first. It merges them
   with `_data/dependencyTriageEvents.json` (the committed snapshot of every
   signed statement seen so far, verified on read, so a build without relay
   access and a relay that drops events lose nothing), keeps the newest per
   (author, subject), and publishes the statements that concern a wallet as
   `api/source-analysis/triage/<appId>.json` with the trusted list. The panel
-  resolves each row from them.
+  resolves each row from them, and asks the relays only for the trusted
+  authors' and listed maintainers' newer statements; everyone else's reach
+  the wallet pages with the next site build. When `statements.json` does not
+  load, the panel asks the relays for nothing (no statement could settle a
+  row) and says so in its notices.
 - Writing one on the site: "Add statement" under a row's decision opens a dialog
   (`src/dependencies-triage-form.mjs`) that asks what the statement is about
   (one of the row's direct users in this wallet, this wallet, or the package
@@ -603,9 +611,11 @@ count. Launch does not wait for replies (Leo and Danny, 2026-10-26).
    build in the path. The analyser rsyncs its export, `signals.json`
    included, to the web server after every pass, and nginx serves it under
    `/api/source-analysis/` (`external/source_analysis/README.md`,
-   "Publishing the export"). Triage statements come from the relay at page
-   load, on top of the snapshot the site build publishes under
-   `/api/dependency-triage/`. Only the trusted list needs a site build.
+   "Publishing the export"). The trusted authors' and listed maintainers'
+   triage statements come from the relay at page load, on top of the
+   snapshot the site build publishes under `/api/dependency-triage/`. The
+   trusted list and everyone else's statements need a site build (issue
+   1002).
 2. Whether the panel shape above is final, so the branch can be split into
    reviewable merge requests (build-script step, analyser, panel).
 3. The platform-SDK question under the closed-source rule.

@@ -22,7 +22,7 @@ import { showAnalysedReleases } from './build-verifications.mjs';
 // after each pass (external/source_analysis/publish.mjs), no site build involved.
 export const EXPORT_BASE = (typeof window !== 'undefined' && window.WS_SOURCE_ANALYSIS_BASE) || '/api/source-analysis';
 // The triage statements the site build saw and the trusted list
-// (scripts/build-dependency-triage.mjs); the relay adds the newer ones.
+// (scripts/build-dependency-triage.mjs); the relay adds the trusted authors' newer ones.
 export const TRIAGE_BASE = (typeof window !== 'undefined' && window.WS_DEPENDENCY_TRIAGE_BASE) || '/api/dependency-triage';
 const TRIAGE_RELAY_WAIT_MS = 4000;
 // The CSV download is hidden until a wallet developer asks for it (Luis,
@@ -53,16 +53,18 @@ export async function loadApp(appId, { base = EXPORT_BASE, fetchImpl = globalThi
 
 // statements.json (scripts/build-dependency-triage.mjs): every statement the
 // site build saw, its deletion requests, the trusted authors and the listed
-// maintainers; fetched once per base. Empty lists when it cannot be read.
+// maintainers; fetched once per base. Empty lists, and `failed`, when it
+// cannot be read.
 const triageCache = new Map();
 export function loadTriage({ triageBase = TRIAGE_BASE, fetchImpl = globalThis.fetch } = {}) {
   if (!triageCache.has(triageBase)) {
-    triageCache.set(triageBase, fetchJson(`${triageBase}/statements.json`, fetchImpl).then(doc => ({
-      trusted: Array.isArray(doc?.trusted) ? doc.trusted : [],
-      maintainers: doc?.maintainers && typeof doc.maintainers === 'object' ? doc.maintainers : {},
-      statements: Array.isArray(doc?.statements) ? doc.statements : [],
-      deletions: Array.isArray(doc?.deletions) ? doc.deletions : [],
-    }), () => ({ trusted: [], maintainers: {}, statements: [], deletions: [] })));
+    const failed = { trusted: [], maintainers: {}, statements: [], deletions: [], failed: true };
+    triageCache.set(triageBase, fetchJson(`${triageBase}/statements.json`, fetchImpl).then(doc => (doc && typeof doc === 'object' ? {
+      trusted: Array.isArray(doc.trusted) ? doc.trusted : [],
+      maintainers: doc.maintainers && typeof doc.maintainers === 'object' ? doc.maintainers : {},
+      statements: Array.isArray(doc.statements) ? doc.statements : [],
+      deletions: Array.isArray(doc.deletions) ? doc.deletions : [],
+    } : failed), () => failed));
   }
   return triageCache.get(triageBase);
 }
@@ -74,14 +76,27 @@ export async function loadTrusted(opts = {}) {
   return { trusted, maintainers };
 }
 
-// What the relays have now: every statement and every deletion request for
-// the statement kind (a few dozen events; the page filters per wallet). The
-// same relays the site build reads: the project relay does not accept the
-// statement kind yet. After the first paint, so a slow relay only delays the
-// repaint. [] when none answers in time.
-export async function liveTriageEvents() {
+// Whose statements the page asks the relays for (issue 1002): the trusted
+// authors and the listed maintainers from statements.json, the only ones
+// whose statements settle a row. Everyone else's arrive with the site build.
+export function triageAuthors({ trusted = [], maintainers = {} } = {}) {
+  return [...new Set([...trusted, ...Object.values(maintainers).flat()])].filter(Boolean);
+}
+
+// What the relays have now from `authors` (triageAuthors): their statements
+// and their deletion requests. The same relays the site build reads: the
+// project relay does not accept the statement kind yet. After the first
+// paint, so a slow relay only delays the repaint. [] when none answers in
+// time, and without asking when there is nobody to ask for: statements.json
+// did not load, so no statement could settle a row anyway, and some relays
+// read an empty `authors` as no filter.
+export async function liveTriageEvents({ authors = [] } = {}) {
+  if (!authors.length) {
+    console.warn('Dependencies panel: no trusted authors (statements.json not loaded); not asking the relays');
+    return [];
+  }
   try {
-    const events = await fetchEvents([{ kinds: [dependencyTriageKind] }, { kinds: [DELETION_KIND], '#k': [String(dependencyTriageKind)] }], { relayUrls: [...new Set([mainRelayUrl, ...eventRelayUrls])], maxWait: TRIAGE_RELAY_WAIT_MS });
+    const events = await fetchEvents([{ kinds: [dependencyTriageKind], authors }, { kinds: [DELETION_KIND], '#k': [String(dependencyTriageKind)], authors }], { relayUrls: [...new Set([mainRelayUrl, ...eventRelayUrls])], maxWait: TRIAGE_RELAY_WAIT_MS });
     return [...events];
   } catch (error) {
     console.warn('Dependencies panel: relay not reachable for triage statements', error);
@@ -793,7 +808,7 @@ function coverageNotice(model) {
     tipTrigger('What would fix it?', () => coverageTipLines(c)));
 }
 
-function notices(model) {
+function notices(model, { triageFailed = false } = {}) {
   const items = [];
   // A package OSV lists as malicious outranks everything else on the panel:
   // it is checked by hand (the registry package, not a workspace or an alias)
@@ -803,6 +818,11 @@ function notices(model) {
     items.push(el('span', { className: 'dp-malware' }, el('b', {}, 'Possible malware: '),
       malicious.map(a => `${a.package}@${a.version} (${a.id})`).join(', '),
       ` is listed on OSV.dev as malicious. A person is checking whether the lockfile really installs that registry package; until then this is a lead, not a finding. It matters even when only the build uses it: build code can change the app.`));
+  }
+  // issue 1002: without statements.json no statement is shown and the relays are not asked
+  if (triageFailed && model.advisories?.length) {
+    items.push(el('span', { className: 'dp-triage-failed' }, el('b', {}, 'Statements not loaded: '),
+      'the list of statements on these advisories (statements.json) could not be loaded, so no decisions or "What others say" are shown, and the relays were not asked for newer ones. Reload the page to try again.'));
   }
   if (model.recheckFailed) {
     const f = model.recheckFailed;
@@ -922,8 +942,9 @@ function actions(model, { appId, base, fetchImpl }) {
 // above the table saying so, `freshId` the statement to mark, and every row
 // is shown so the judged one stays in sight wherever it re-sorts to.
 // Below the tiles everything starts folded behind one link; `expanded` opens
-// it, `onToggle(open)` hears the reader open or close it.
-export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE, fetchImpl = globalThis.fetch, onJudge = null, flash = null, freshId = null, showAll = false, trusted = [], expanded = false, onToggle = null } = {}) {
+// it, `onToggle(open)` hears the reader open or close it. `triageFailed`:
+// statements.json did not load, said in the notices.
+export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE, fetchImpl = globalThis.fetch, onJudge = null, flash = null, freshId = null, showAll = false, trusted = [], expanded = false, onToggle = null, triageFailed = false } = {}) {
   // No lockfile was read (a C/C++ release with only submodules, or a Flutter one): zeros here would read as clean.
   const tiles = !model.packages && (model.submodules || model.status === 'unsupported' || model.notInApp) ? null : el('div', { className: 'dp-tiles' },
     tile(model.packages, 'dependencies', { sub: `${model.direct} direct · ${model.transitive} transitive`, extra: historyChart(model.history) }),
@@ -946,7 +967,7 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
       headline(model),
       el('span', { className: 'dp-badge' }, 'Measurement only · not part of the verdict'),
     ),
-    notices(model),
+    notices(model, { triageFailed }),
     flash ? el('p', { className: 'dp-flash', role: 'status' }, flash) : null,
     tiles,
     sortingElement(model.sorting),
@@ -1246,7 +1267,7 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
     }
     model = panelModel(app, { release: release?.ref || null, selectedVersion: release ? selected : null, triage, signals, upstream, apk, platform, appId });
     if (!model) return null;
-    host.replaceChildren(panelElement(model, { appId: analysisId, wallet: title || analysisId, base, fetchImpl, onJudge, trusted: lists.trusted, expanded, onToggle: (open) => { expanded = open; }, ...extra }));
+    host.replaceChildren(panelElement(model, { appId: analysisId, wallet: title || analysisId, base, fetchImpl, onJudge, trusted: lists.trusted, triageFailed: Boolean(published?.failed), expanded, onToggle: (open) => { expanded = open; }, ...extra }));
     nameSigners(host, profiles === undefined ? defaultProfiles : profiles);
     return model;
   };
@@ -1287,7 +1308,7 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
   // last site build shows now, a deleted one goes. A dialog the reader has open
   // keeps working on the rows it was opened from.
   if (app?.releases?.some(r => r.advisories?.length)) {
-    const events = await liveEvents();
+    const events = await liveEvents({ authors: triageAuthors(lists) });
     const merged = triageForApp(app, mergeLiveTriage(published, events));
     const ids = (t) => JSON.stringify((t?.statements || []).map(st => st.id).sort());
     if (ids(merged) !== ids(triage)) {
