@@ -453,13 +453,20 @@ export function exportAll(db, outDir, { onlyReproducible = false } = {}) {
   const rebuilds = getRebuildClaims(db);
   let releases = 0;
   const unlisted = {};
+  // Alias stubs wait for the loop: an alias in scope may still write nothing
+  // of its own (its reproduced refs sit under the other id, Passport Batch 2).
+  const stubs = new Map();
   for (const appId of [...appIds].sort()) {
-    const app = writeAppFiles(db, tmp, appId, aliases.get(appId) || [], counts, sources, (id) => appIds.has(id), { rebuilds, onlyReproducible });
+    const app = writeAppFiles(db, tmp, appId, aliases.get(appId) || [], counts, sources, null, { rebuilds, onlyReproducible, stubs });
     if (!app) continue;
     releases += app.releases.length;
     index.apps.push(indexEntry(app));
     const files = unlistedFiles(app.releases.flatMap(r => r.dependencies?.lockfiles || []), appId);
     if (files.length) unlisted[appId] = files;
+  }
+  const written = new Set(index.apps.map(a => a.appId));
+  for (const [alias, appId] of stubs) {
+    if (!written.has(alias)) fs.writeFileSync(path.join(tmp, 'apps', `${safeName(alias)}.json`), JSON.stringify({ schema: SCHEMA, appId, alias: true }));
   }
   writeUpstreamHints(db, tmp);
   // The APK checks (apk-contents-cli.mjs --export) are written next to the
@@ -547,8 +554,9 @@ export function releaseRebuilds(deps, claims) {
 
 // One app's files under dir: apps/<appId>.json, a dependencies.json per
 // release, and a stub for each alias that is not exported in its own right.
+// With `stubs` (a Map) the stubs are collected there instead, alias id to app id.
 // Writes nothing and returns null when `onlyReproducible` leaves no release.
-function writeAppFiles(db, dir, appId, aliases, counts, sources, isExported, { atomic = false, rebuilds = getRebuildClaims(db), onlyReproducible = false } = {}) {
+function writeAppFiles(db, dir, appId, aliases, counts, sources, isExported, { atomic = false, rebuilds = getRebuildClaims(db), onlyReproducible = false, stubs = null } = {}) {
   const write = atomic ? writeAtomic : (file, content) => fs.writeFileSync(file, content);
   const reproduced = onlyReproducible ? reproducedListings(db, appId, aliases) : null;
   const app = buildApp(db, appId, aliases, counts, sources, { reproduced });
@@ -586,7 +594,9 @@ function writeAppFiles(db, dir, appId, aliases, counts, sources, isExported, { a
   // The repository's other app ids (the iPhone page, a desktop record) get a
   // stub pointing at the file above, so a reader needs no index lookup.
   for (const alias of app.aliases) {
-    if (alias.appId === appId || isExported(alias.appId) || (reproducedIds && !reproducedIds.has(alias.appId))) continue;
+    if (alias.appId === appId || (reproducedIds && !reproducedIds.has(alias.appId))) continue;
+    if (stubs) { stubs.set(alias.appId, appId); continue; }
+    if (isExported(alias.appId)) continue;
     write(path.join(dir, 'apps', `${safeName(alias.appId)}.json`), JSON.stringify({ schema: SCHEMA, appId, alias: true }));
   }
   return app;
