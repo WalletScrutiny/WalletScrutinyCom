@@ -41,6 +41,7 @@ module.exports = (env, argv) => {
           './src/drag-and-drop-utils.mjs',
           './src/blossom.mjs',
           './src/blossom-utils.mjs',
+          './src/build-lock-upload.mjs',
           './src/drag-and-drop.js',
           './src/assets-table-utils.mjs',
           './src/assets-table-comments.mjs',
