@@ -6,7 +6,7 @@
 //
 //   index.json                          the exported app ids (exportApp keeps it current)
 //   apps/<appId>.json                   all analyses of one app, with advisories (each with how many products ship the package) and the diff to the previous release
-//   apps/<aliasId>.json                 stub {appId, alias: true} for the repository's other app ids (the iPhone record)
+//   apps/<aliasId>.json                 stub {appId, alias: true} for the repository's other app ids (the iPhone record), only those some release was reproduced for
 //   apps/<appId>/<ref>/dependencies.json  the full resolved dependency list of one release, each row with how many products ship the package
 //   apps/<appId>/<ref>/submodules.json    the release's git submodules, when it has any
 //   apps/<appId>/<ref>/rebuilds.json      who rebuilt which of the release's dependencies from source (ours and imported claims), when anyone did
@@ -27,7 +27,7 @@ import { groupByRepository } from './appList.mjs';
 import { hintsByApp } from './upstreamTriage.mjs';
 import { coverageForReaders, coverageByPlatform } from './plugins/lock-coverage.mjs';
 import { buildLockForReaders } from './plugins/build-lock.mjs';
-import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getEndOfLife, getSubmodules, getRebuildClaims, getDefaultBranch, DEFAULT_BRANCH_REF } from './ddbbUtils.mjs';
+import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getVerifiedRefs, getEndOfLife, getSubmodules, getRebuildClaims, getDefaultBranch, DEFAULT_BRANCH_REF } from './ddbbUtils.mjs';
 import { COUNTED_TARGETS, partOfFile, productPartOf, sortingOf, targetOfLockfile, targetsOfLockfiles, unlistedFiles, useRepositories } from './products.mjs';
 
 export const SCHEMA = 1;
@@ -215,20 +215,58 @@ function compareReleasesNewestFirst(x, y) {
   return pre(vx) - pre(vy);
 }
 
+// A verification's platform tag as the wallet page names its platform:
+// verifiers write linux, windows or "Android (arm64-v8a)".
+export function pagePlatform(platform) {
+  const p = String(platform || '').toLowerCase();
+  if (p.includes('android')) return 'android';
+  if (/ios|iphone/.test(p)) return 'iphone';
+  if (/linux|windows|mac|desktop/.test(p)) return 'desktop';
+  return p || null;
+}
+
+// ref -> the listings ({ appId, platform }) whose binary of that release was
+// reproduced. Only those artifacts get their dependencies shown (Leo,
+// 2026-11-09): a sibling listing that was never reproduced (the iPhone app of a
+// reproduced Android app, an older hardware model) builds from other files or
+// ships something else. verified_refs is the tag each pass resolved a verified
+// version to (reproducible.mjs); the version names the listing that verified it.
+export function reproducedListings(db, appId, aliases = [], byApp = getReproducibleVersions(db)) {
+  const ids = [...new Set([appId, ...aliases.map(a => a.appId)])];
+  const out = new Map();
+  for (const [ref, version] of getVerifiedRefs(db, appId)) {
+    const listings = [];
+    for (const id of ids) {
+      for (const v of byApp.get(id) || []) {
+        if (v.version !== version) continue;
+        const platform = pagePlatform(v.platform);
+        if (!listings.some(l => l.appId === id && l.platform === platform)) listings.push({ appId: id, platform });
+      }
+    }
+    if (listings.length) out.set(ref, listings);
+  }
+  return out;
+}
+
 // Everything the export says about one app.
 // counts: productCounts(db), passed in by exportAll so the two queries run once per export.
-export function buildApp(db, appId, aliases = [], counts = productCounts(db), sources = packageSources(db)) {
+// With `reproduced` (reproducedListings) only the releases in it, each with
+// `reproducedFor`; the other analyses stay in the database as early warning.
+export function buildApp(db, appId, aliases = [], counts = productCounts(db), sources = packageSources(db), { reproduced = null } = {}) {
   const analyses = getAnalyses(db, appId);
   const releases = [];
   const seen = new Set();
   for (const a of analyses) {
     if (a.kind !== 'release' || seen.has(a.ref)) continue;
     seen.add(a.ref);
+    if (reproduced && !reproduced.has(a.ref)) continue;
     releases.push({ ...analysisEntry(a), ...summarizeRelease(db, appId, a.ref) });
   }
   for (const v of releasesWithoutAnalysis(db, appId, analyses)) {
+    if (reproduced && !reproduced.has(v)) continue;
     releases.push({ ref: v, commit: null, analysedAt: null, status: 'ok', ...summarizeRelease(db, appId, v) });
   }
+  if (reproduced) for (const r of releases) r.reproducedFor = reproduced.get(r.ref);
   const inDefaultBranch = defaultBranchCheck(db, appId);
   // Newest version first. Analysis time says nothing about it: releases added
   // later (backfill) are analysed last but are older. Equal versions keep their order.
@@ -416,7 +454,8 @@ export function exportAll(db, outDir, { onlyReproducible = false } = {}) {
   let releases = 0;
   const unlisted = {};
   for (const appId of [...appIds].sort()) {
-    const app = writeAppFiles(db, tmp, appId, aliases.get(appId) || [], counts, sources, (id) => appIds.has(id), { rebuilds });
+    const app = writeAppFiles(db, tmp, appId, aliases.get(appId) || [], counts, sources, (id) => appIds.has(id), { rebuilds, onlyReproducible });
+    if (!app) continue;
     releases += app.releases.length;
     index.apps.push(indexEntry(app));
     const files = unlistedFiles(app.releases.flatMap(r => r.dependencies?.lockfiles || []), appId);
@@ -449,7 +488,7 @@ export function exportAll(db, outDir, { onlyReproducible = false } = {}) {
  * hints, signals, releases removed since, product counts of the other apps)
  * stays as the last exportAll left it until the pass ends with a new one.
  * Each file is written to a temporary name and renamed into place.
- * Returns { exported: false } for an app out of scope, else
+ * Returns { exported: false } for an app out of scope or with no reproduced release, else
  * { exported: true, releases, files } with the paths (relative to outDir) to publish.
  */
 export function exportApp(db, outDir, appId, { onlyReproducible = false, counts = productCounts(db), sources = packageSources(db) } = {}) {
@@ -460,7 +499,8 @@ export function exportApp(db, outDir, appId, { onlyReproducible = false, counts 
   try { index = JSON.parse(fs.readFileSync(indexFile, 'utf8')); } catch { /* first export: start an index */ }
   if (!index || index.schema !== SCHEMA || !Array.isArray(index.apps)) index = { schema: SCHEMA, apps: [] };
   const exported = new Set(index.apps.map(a => a.appId));
-  const app = writeAppFiles(db, outDir, appId, aliases.get(appId) || [], counts, sources, (id) => id === appId || exported.has(id), { atomic: true });
+  const app = writeAppFiles(db, outDir, appId, aliases.get(appId) || [], counts, sources, (id) => id === appId || exported.has(id), { atomic: true, onlyReproducible });
+  if (!app) return { exported: false };
   index.apps = [...index.apps.filter(a => a.appId !== appId), indexEntry(app)].sort((a, b) => a.appId.localeCompare(b.appId));
   writeAtomic(indexFile, JSON.stringify(index));
   const files = ['index.json', `apps/${safeName(appId)}.json`, `apps/${safeName(appId)}/`,
@@ -507,9 +547,13 @@ export function releaseRebuilds(deps, claims) {
 
 // One app's files under dir: apps/<appId>.json, a dependencies.json per
 // release, and a stub for each alias that is not exported in its own right.
-function writeAppFiles(db, dir, appId, aliases, counts, sources, isExported, { atomic = false, rebuilds = getRebuildClaims(db) } = {}) {
+// Writes nothing and returns null when `onlyReproducible` leaves no release.
+function writeAppFiles(db, dir, appId, aliases, counts, sources, isExported, { atomic = false, rebuilds = getRebuildClaims(db), onlyReproducible = false } = {}) {
   const write = atomic ? writeAtomic : (file, content) => fs.writeFileSync(file, content);
-  const app = buildApp(db, appId, aliases, counts, sources);
+  const reproduced = onlyReproducible ? reproducedListings(db, appId, aliases) : null;
+  const app = buildApp(db, appId, aliases, counts, sources, { reproduced });
+  if (reproduced && !app.releases.length) return null;
+  const reproducedIds = reproduced && new Set(app.releases.flatMap(r => r.reproducedFor.map(l => l.appId)));
   const appDir = path.join(dir, 'apps', safeName(appId));
   fs.mkdirSync(appDir, { recursive: true });
   for (const r of app.releases) {
@@ -542,7 +586,7 @@ function writeAppFiles(db, dir, appId, aliases, counts, sources, isExported, { a
   // The repository's other app ids (the iPhone page, a desktop record) get a
   // stub pointing at the file above, so a reader needs no index lookup.
   for (const alias of app.aliases) {
-    if (alias.appId === appId || isExported(alias.appId)) continue;
+    if (alias.appId === appId || isExported(alias.appId) || (reproducedIds && !reproducedIds.has(alias.appId))) continue;
     write(path.join(dir, 'apps', `${safeName(alias.appId)}.json`), JSON.stringify({ schema: SCHEMA, appId, alias: true }));
   }
   return app;

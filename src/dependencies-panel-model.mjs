@@ -166,6 +166,18 @@ export function versionCore(s) {
   return m ? m[0] : '';
 }
 
+// The app file as one listing's page shows it: only the releases reproduced
+// for that app id and platform (a release's `reproducedFor`, export.mjs), or
+// null when there is none. The iPhone page of a wallet reproduced on Android
+// shows no dependencies: nobody built that app from source. An export that
+// names no listing on any release (SOURCE_ANALYSIS_SCOPE=all) is shown whole.
+export function appForListing(app, appId, platform) {
+  const releases = Array.isArray(app?.releases) ? app.releases : [];
+  if (!releases.some(r => Array.isArray(r.reproducedFor))) return app;
+  const mine = releases.filter(r => r.reproducedFor?.some(l => l.appId === appId && l.platform === platform));
+  return mine.length ? { ...app, releases: mine } : null;
+}
+
 // The analysed release for a version picked in "Every version"
 // (src/build-verifications.mjs), or null when none was analysed. The version
 // digits must agree; only a plain version ("1.4.0") also takes a tag with a

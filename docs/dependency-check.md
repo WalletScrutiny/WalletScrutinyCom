@@ -305,8 +305,17 @@ app.
   as `verifiedWithoutTag`; a wrong tag would be worse than none, so two
   candidates without a platform or flavour hint resolve to nothing. The
   newest-release and default-branch analyses still run for in-scope wallets,
-  as early warning.
-- Exported releases that check a verified version carry `verifiedVersion`.
+  as early warning, but stay in the database: the default branch only feeds
+  the "fixed on the default branch" note.
+- Only reproduced artifacts are shown (Leo, 2026-11-09 and 2026-11-10). The
+  export keeps just the releases a verified version resolved to, each with
+  `reproducedFor`: the listings (app id and page platform) whose binary of
+  that release was reproduced. A wallet page shows only the releases
+  reproduced for its own listing, so the iPhone app of a wallet reproduced on
+  Android, or an older hardware model sharing the firmware repository, shows
+  no dependencies. A wallet with no reproduced release analysed yet is not
+  exported. On beta on 2026-11-10 this drops 78 of 396 releases (8,204 of
+  33,287 advisory rows) and the panel on 20 of 83 listings.
 - Wallets out of scope are neither analysed nor exported; rows from earlier
   passes stay in the database as supplementary data.
 - `SOURCE_ANALYSIS_SCOPE=all` analyses every wallet with a repository.

@@ -6,7 +6,7 @@ import fs from 'fs';
 import os from 'os';
 import path from 'path';
 import { reproducibleVersions, loadReproducible, verifiedVersionsOf, inScope, tagOfVersion, analyseVerifiedVersions } from '../reproducible.mjs';
-import { initDatabase, recordAnalysis, getAnalyses, saveAppList, saveReproducibleVersions, releasesToReanalyse } from '../ddbbUtils.mjs';
+import { initDatabase, recordAnalysis, getAnalyses, saveAppList, saveReproducibleVersions, saveVerifiedRef, getVerifiedRefs, releasesToReanalyse } from '../ddbbUtils.mjs';
 import { exportAll } from '../export.mjs';
 
 const tmpDb = () => initDatabase(path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'repro-')), 'assets.db'));
@@ -89,6 +89,7 @@ test('analyseVerifiedVersions: newest first, capped per pass, finished ones skip
   const run = () => analyseVerifiedVersions(db, { appId: 'w', repoUrl: 'x', verified, perPass: 2, analyse, listTags: async () => tags, analyser: 't' });
 
   assert.deepEqual(await run(), ['v3.0', 'v2.0']);
+  assert.equal(getVerifiedRefs(db, 'w').get('v1.0'), '1.0', 'a version past the cap still gets its tag, for the export');
   assert.deepEqual(await run(), ['v1.0'], 'the next pass drains the backlog');
   assert.deepEqual(await run(), []);
   assert.deepEqual(analysed, ['v3.0', 'v2.0', 'v1.0']);
@@ -138,6 +139,7 @@ test('exportAll with onlyReproducible leaves out wallets without a reproducible 
   ]);
   for (const appId of ['android.wallet', 'other.wallet']) recordAnalysis(db, { appId, kind: 'release', ref: 'v1', status: 'ok', analyser: 't' });
   saveReproducibleVersions(db, new Map([['ios.wallet', [{ version: '1', verifiedAt: 1, platform: 'iphone' }]]]));
+  saveVerifiedRef(db, 'android.wallet', 'v1', '1');
   const dir = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'repro-export-')), 'export');
   assert.equal(exportAll(db, dir, { onlyReproducible: true }).apps, 1);
   assert.ok(fs.existsSync(path.join(dir, 'apps', 'android.wallet.json')));

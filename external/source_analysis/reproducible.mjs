@@ -193,7 +193,8 @@ export async function analyseVerifiedVersions(db, { appId, repoUrl, verified, pe
     return [];
   }
   const done = [];
-  for (const [i, v] of verified.entries()) {
+  let left = 0;
+  for (const v of verified) {
     const tag = tagOfVersion(tags, appId, v.version, v.platform);
     if (!tag) {
       // Kept so the export can say which verified version had no source to check.
@@ -201,16 +202,18 @@ export async function analyseVerifiedVersions(db, { appId, repoUrl, verified, pe
       recordAnalysis(db, { appId, kind: 'verified-no-tag', ref: v.version, status: 'unsupported', error: `no tag names verified version ${v.version}`, analyser });
       continue;
     }
+    // Saved past the cap too: the export shows only releases a verified version names.
     saveVerifiedRef(db, appId, tag, v.version);
     if (done.includes(tag)) continue;
     if (redo ? redo.includes(tag) : hasReleaseAnalysis(db, appId, tag)) continue;
     if (!redo && done.length >= perPass) {
-      console.log(`  Verified versions left for the next pass: ${verified.length - i}.`);
-      break;
+      left++;
+      continue;
     }
     console.log(`  Verified version ${v.version} (reproducible): analysing tag ${tag}...`);
     await analyse(tag);
     done.push(tag);
   }
+  if (left) console.log(`  Verified versions left for the next pass: ${left}.`);
   return done;
 }
