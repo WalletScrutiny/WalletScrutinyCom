@@ -430,6 +430,23 @@ describe('dependencies panel: git submodules', () => {
     assert.equal(node.querySelectorAll('.dp-sub-out').length, 2);
   });
 
+  test('only an http(s) submodule URL becomes a link', async () => {
+    const rows = [
+      { ...ROWS[1], url: 'javascript:alert(1)', path: 'contrib/evil' },
+      { ...ROWS[1], url: 'git@github.com:o/r.git', path: 'contrib/ssh' },
+      { ...ROWS[1], url: 'https://github.com/o/r.git', path: 'contrib/web' },
+    ];
+    const { fetchImpl } = fakeFetch({ '/x/apps/cpp.wallet/2.9.1/submodules.json': { schema: 1, rows } });
+    const node = panelElement(panelModel(CPP), { appId: 'cpp.wallet', base: '/x', fetchImpl });
+    const details = node.querySelector('.dp-submodules');
+    details.open = true;
+    details.dispatchEvent(new window.Event('toggle'));
+    await new Promise(r => setTimeout(r, 0));
+    const cells = [...node.querySelectorAll('.dp-sub-table tbody tr')].map(tr => tr.querySelector('td'));
+    assert.deepEqual(cells.map(td => td.querySelector('a')?.getAttribute('href') ?? null), [null, null, 'https://github.com/o/r']);
+    assert.deepEqual(cells.map(td => td.firstChild.textContent), ['evil', 'ssh', 'web']);
+  });
+
   test('a release with only submodules is not reported as unanalysed', () => {
     assert.equal(panelModel(CPP).ref, '2.9.1');
     assert.equal(panelModel({ ...CPP, releases: [{ ...CPP.releases[0], submodules: undefined }] }).submodules, null);
