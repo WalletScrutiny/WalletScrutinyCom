@@ -174,6 +174,19 @@ test('onlyReproducible: only reproduced releases, each naming the listings it wa
   assert.equal(buildApp(db, 'app.android', [{ appId: 'app.android' }, { appId: 'app.ios' }]).releases.length, 2);
 });
 
+test('onlyReproducible: an alias in scope with no release of its own gets the stub (Passport Batch 2)', () => {
+  const db = seeded();
+  // the iPhone listing is in scope and analysed, but every reproduced ref sits under app.android
+  saveReproducibleVersions(db, new Map([['app.ios', [{ version: '1.1.0', verifiedAt: 2, platform: 'iphone' }]]]));
+  saveVerifiedRef(db, 'app.android', 'v1.1.0', '1.1.0');
+  recordAnalysis(db, { appId: 'app.ios', kind: 'verified-no-tag', ref: '1.1.0', status: 'unsupported', analyser: '1.0.1' });
+  const dir = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'sa-export-')), 'export');
+  const result = exportAll(db, dir, { onlyReproducible: true });
+  assert.equal(result.apps, 1);
+  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.ios.json'), 'utf8')), { schema: 1, appId: 'app.android', alias: true });
+  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'index.json'), 'utf8')).apps.map(a => a.appId), ['app.android']);
+});
+
 test('pagePlatform: verifiers\' platform tags as the wallet page names its platforms', () => {
   assert.deepEqual(['android', 'Android (arm64-v8a)', 'iphone', 'linux', 'windows', 'macos', 'hardware', null].map(pagePlatform),
     ['android', 'android', 'iphone', 'desktop', 'desktop', 'desktop', 'hardware', null]);
