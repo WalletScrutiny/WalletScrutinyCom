@@ -120,10 +120,11 @@ const RULE_FILES = loadRuleFiles();
 // can sit under any of its ids: every id gets the rules. An id with no known
 // repository gets none: every file counts, and the page says so.
 const repositories = new Map();
+const repositoryKey = (repoUrl) => String(repoUrl).replace(/^https?:\/\//, '').toLowerCase();
 export function useRepositories(jobs) {
   repositories.clear();
   for (const { appId, repoUrl, aliases = [] } of jobs) {
-    const repo = String(repoUrl).replace(/^https?:\/\//, '').toLowerCase();
+    const repo = repositoryKey(repoUrl);
     for (const id of [appId, ...aliases.map(a => a.appId)]) repositories.set(id, repo);
   }
 }
@@ -176,9 +177,28 @@ export function partOfFile(lockfile, appId = null) {
   return rule && rule.target !== part ? null : part;
 }
 
+// The rows a verifier's build-lock.json adds (plugins/build-lock.mjs) are the
+// download list of one platform's build, so their lockfile names it:
+// "build-lock.json (android)". They count on that platform's page only,
+// whatever the repository's rules say about its own files.
+const BUILD_LOCK_TARGETS = { android: 'android', iphone: 'iphone', desktop: 'desktop', hardware: 'firmware' };
+export const buildLockLockfile = (platform) => `build-lock.json (${String(platform).toLowerCase()})`;
+const BUILD_LOCK_ROW = /^build-lock\.json \(([^)]*)\)$/;
+export const isBuildLockLockfile = (lockfile) => lockfile === 'build-lock.json' || BUILD_LOCK_ROW.test(String(lockfile || ''));
+
 // android | iphone | mobile | desktop | server | web | extension | docs | firmware | tests | none | shared
 export function targetOfLockfile(lockfile, appId = null) {
+  const lock = BUILD_LOCK_ROW.exec(String(lockfile || ''));
+  if (lock) return BUILD_LOCK_TARGETS[lock[1]] || 'shared';
   return ruleFor(String(lockfile || ''), appId)?.target || 'shared';
+}
+
+// The same, by the repository's URL, for the analysis, which knows the
+// repository it checked out but not the export's app list.
+export function targetOfLockfileInRepository(lockfile, repoUrl) {
+  const lock = BUILD_LOCK_ROW.exec(String(lockfile || ''));
+  if (lock) return BUILD_LOCK_TARGETS[lock[1]] || 'shared';
+  return RULE_FILES.get(repositoryKey(repoUrl))?.rules.find(rule => matches(rule, String(lockfile || '')))?.target || 'shared';
 }
 
 // The files that look like another product's but have no rule:
@@ -201,7 +221,9 @@ export function targetsOfLockfiles(lockfiles, appId = null) {
 // app/** would otherwise accept a new file nobody looked at. filesOutside is how
 // many files each page leaves out.
 export function sortingOf(lockfiles, appId) {
-  const files = [...new Set(lockfiles)];
+  // The verifier's build-lock.json (plugins/build-lock.mjs) is not a file of
+  // the checkout, so no review of the checkout's files can cover it.
+  const files = [...new Set(lockfiles)].filter(f => !isBuildLockLockfile(f));
   if (!files.length) return undefined;
   const rules = rulesOf(appId);
   if (!rules) return { status: 'none' };

@@ -37,9 +37,9 @@ test('summarizeResults reads the pinning and osv results, null when a plugin was
     osv: { checked: 2, skipped: { floating: 1 }, findings: [{ id: 'GHSA-1' }] },
   };
   assert.deepEqual(summarizeResults(results, plugins), {
-    plugins: ['pinning', 'osv'], lockfiles: ['yarn.lock'], dependencies: 3, osvChecked: 2, osvSkipped: { floating: 1 }, vulnerabilities: 1, lockCoverage: null,
+    plugins: ['pinning', 'osv'], lockfiles: ['yarn.lock'], dependencies: 3, osvChecked: 2, osvSkipped: { floating: 1 }, vulnerabilities: 1, lockCoverage: null, buildLock: null,
   });
-  assert.deepEqual(summarizeResults({}, []), { plugins: [], lockfiles: [], dependencies: null, osvChecked: null, osvSkipped: {}, vulnerabilities: null, lockCoverage: null });
+  assert.deepEqual(summarizeResults({}, []), { plugins: [], lockfiles: [], dependencies: null, osvChecked: null, osvSkipped: {}, vulnerabilities: null, lockCoverage: null, buildLock: null });
 });
 
 test('the lock coverage result is stored with the analysis and read back', () => {

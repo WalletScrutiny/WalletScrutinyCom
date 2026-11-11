@@ -21,6 +21,32 @@ const SINCE = 1742997262;
 
 const tag = (event, name) => (event.tags.find(t => t[0] === name) || [])[1];
 
+// The build's own download list (scripts/rb/ws-buildlock.sh) travels with a
+// verification as an ordinary output file under exactly this name (issue 1000).
+export const BUILD_LOCK_NAME = 'build-lock.json';
+const NEAR_BUILD_LOCK = /^build-lock.*\.json$/i;
+
+/**
+ * The `build-lock.json` output files of one verification event, and the
+ * output files named like one but not exactly (`build-lock (1).json`), which
+ * are reported as misnamed and never downloaded. Each lock carries the
+ * event's own app, version and platform, to compare with the file's.
+ */
+export function buildLockRefs(event) {
+  const locks = [];
+  const misnamed = [];
+  for (const t of event.tags) {
+    if (t[0] !== 'output-file' || !t[1]) continue;
+    const sha256 = String(t[2] || '').toLowerCase().replace(/^sha256:/, '');
+    if (t[1] === BUILD_LOCK_NAME && /^[0-9a-f]{64}$/.test(sha256)) {
+      locks.push({ sha256, eventId: event.id, pubkey: event.pubkey, appId: tag(event, 'i'), version: String(tag(event, 'version') || '').trim(), platform: tag(event, 'platform') || null });
+    } else if (t[1] !== BUILD_LOCK_NAME && NEAR_BUILD_LOCK.test(t[1])) {
+      misnamed.push({ name: t[1], sha256: sha256 || null, eventId: event.id, pubkey: event.pubkey, platform: tag(event, 'platform') || null });
+    }
+  }
+  return { locks, misnamed };
+}
+
 export async function queryRelays(relays, filter) {
   if (typeof WebSocket !== 'function') throw new Error('this Node has no WebSocket (needs Node 22 or later)');
   const { SimplePool } = await import('nostr-tools/pool');
@@ -32,9 +58,17 @@ export async function queryRelays(relays, filter) {
   }
 }
 
+// The build-lock fields of a version, only when some verification has one.
+function withBuildLocks(known, refs) {
+  const buildLocks = [...(known?.buildLocks || []), ...refs.locks];
+  const misnamedLocks = [...(known?.misnamedLocks || []), ...refs.misnamed];
+  return { ...(buildLocks.length ? { buildLocks } : {}), ...(misnamedLocks.length ? { misnamedLocks } : {}) };
+}
+
 /**
- * appId -> [{ version, verifiedAt }] of every version with a reproducible
- * verification, newest verification first. Verifications are addressable:
+ * appId -> [{ version, verifiedAt, platform, buildLocks, misnamedLocks }] of
+ * every version with a reproducible verification, newest verification first
+ * (buildLockRefs: the build-lock.json files of all of them). Verifications are addressable:
  * only the newest event per (author, d) counts, so a verifier who revised
  * "reproducible" to "not reproducible" no longer vouches for that version.
  */
@@ -52,7 +86,10 @@ export function reproducibleVersions(events) {
     if (!byApp.has(appId)) byApp.set(appId, new Map());
     const versions = byApp.get(appId);
     const known = versions.get(version);
-    if (!known || known.verifiedAt < e.created_at) versions.set(version, { verifiedAt: e.created_at, platform: tag(e, 'platform') || null });
+    // every verifier's build-lock.json counts, whichever verification is newest
+    const locks = withBuildLocks(known, buildLockRefs(e));
+    if (!known || known.verifiedAt < e.created_at) versions.set(version, { verifiedAt: e.created_at, platform: tag(e, 'platform') || null, ...locks });
+    else Object.assign(known, locks);
   }
   const out = new Map();
   for (const [appId, versions] of byApp) {

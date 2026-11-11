@@ -795,6 +795,39 @@ export function coverageTipLines(c) {
   return lines;
 }
 
+// The verifier's build-lock.json (external/source_analysis/plugins/build-lock.mjs):
+// why a file was not used, and what the build downloaded that the resolved list
+// does not show, or the other way round.
+function buildLockNotices(model) {
+  const b = model.buildLock;
+  if (!b) return [];
+  const items = [];
+  // a few names inline; the export keeps more
+  const some = (d) => d.names.slice(0, 5).join(', ') + (d.count > Math.min(d.names.length, 5) ? ` and ${d.count - Math.min(d.names.length, 5)} more` : '');
+  for (const f of b.files) {
+    if (f.verifier === 'unlisted') items.push('A build-lock.json attached to this verification is from a verifier not on the list, so its list was not used.');
+    else if (f.problem === 'not-found' || f.problem === 'unavailable') items.push('A build-lock.json attached to this verification could not be downloaded from files.nostr.info, so it was not read.');
+    else if (f.problem === 'too-large') items.push('A build-lock.json attached to this verification is too large to read, so it was not read.');
+    else if (f.problem === 'hash-mismatch') items.push('A build-lock.json attached to this verification did not match its published hash, so it was not read.');
+    else if (f.problem) items.push('A file attached to this verification as build-lock.json was not written by ws-buildlock.sh, so it was not read.');
+    else if (f.match === 'another-build') {
+      const what = (f.differ || []).map(d => `${d.field === 'appVersion' ? 'version' : d.field === 'appId' ? 'app' : d.field} ${d.file} in the file, ${d.event ?? 'none'} in the verification`).join('; ');
+      items.push(el('span', {}, el('b', {}, 'Belongs to another build: '), `a build-lock.json attached to this verification is from a different build (${what}), so its list was not used.`));
+    } else if (f.match === 'not-tied') {
+      items.push('A build-lock.json attached to this verification does not say which app, version and platform it was built for, so it is not tied to this build and its list was not used.');
+    }
+  }
+  for (const name of b.misnamed) items.push(el('span', {}, el('b', {}, 'Misnamed: '), `"${name}" looks like the build's download list, but only a file named exactly build-lock.json is read.`));
+  if (b.modules !== null) {
+    const parts = [`The build downloaded ${b.modules} Gradle modules (from the verifier's build-lock.json), and the ones with code were checked for advisories too.`];
+    if (b.builtNotResolved.count) parts.push(` ${b.builtNotResolved.count} of them are not in the resolved list: ${some(b.builtNotResolved)}.`);
+    if (b.descriptionsOnly.count) parts.push(` ${b.descriptionsOnly.count} downloaded descriptions without code (.pom or .module files only) were not counted: ${some(b.descriptionsOnly)}.`);
+    if (b.resolvedNotBuilt.count) parts.push(` ${b.resolvedNotBuilt.count} resolved modules were never downloaded by the build: ${some(b.resolvedNotBuilt)}.`);
+    items.push(parts.join(''));
+  }
+  return items;
+}
+
 function coverageNotice(model) {
   const c = model.lockCoverage;
   if (!c || c.verdict === 'locked') return null;
@@ -834,6 +867,7 @@ function notices(model, { triageFailed = false } = {}) {
   }
   const coverage = coverageNotice(model);
   if (coverage) items.push(coverage);
+  items.push(...buildLockNotices(model));
   if (model.sameRepositoryAs.length) {
     items.push(`Built from the same source repository as ${model.sameRepositoryAs.join(', ')}, which shares this analysis.`);
   }

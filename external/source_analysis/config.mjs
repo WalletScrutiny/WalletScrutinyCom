@@ -24,10 +24,25 @@ export const PLUGINS = {
   'oob-downloads': true,          // test 8, read by lock-coverage
   'committed-binaries': true,     // test 9, read by lock-coverage
   'lock-coverage': true,          // test 7c, manifests without a lockfile, inputs outside any lockfile
+  'build-lock': true,             // test 7d, host: the build's own download list (build-lock.json), adds rows for osv
   'osv': true,                    // test 10, host: known vulnerabilities of pinning's rows
   'submodules': true,             // host: git submodules as three claims (submoduleIdentity.mjs)
   'semgrep': false,               // test 11, host: its own container on the checkout
 };
+
+// Test 7d (plugins/build-lock.mjs): the verifiers whose build-lock.json is
+// used. A verification from any other key keeps its file reported as "from a
+// verifier not on the list" and unused, since any key can publish a
+// "reproducible" verification. To add a verifier, add their hex pubkey (the
+// key they sign verifications with) and a comment naming them.
+export const BUILD_LOCK_VERIFIERS = new Set([
+  '168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f47373fdcce2b9cd335', // WS bot (the ABS's signing key)
+  '1f9e547c2f31942623b8ad1d07713282e8640fd8cf474e9f79f18ace8af216ed', // Danny
+  '46fcbe3065eaf1ae7811465924e48923363ff3f526bd6f73d7c184b16bd8ce4d', // Leo
+  '03b5036dc3db82604307c1964d2b926417a91c3b11ef75ba6ca55019e9b7a62a', // Luis
+  '54790a499115f63e32536aadab43f62c0cf3922cd1653b3a74846fe2f6573f5d', // Carol (BitForBit)
+  '8287106aa4810b7205926259441735707fcc0d8de85c07b74e8245efe6468ad0', // Bob (SameBytes)
+]);
 
 // API Configuration
 export const GITHUB_API_BASE = 'https://api.github.com';

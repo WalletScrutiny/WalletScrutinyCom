@@ -26,6 +26,7 @@ import { fileURLToPath } from 'url';
 import { groupByRepository } from './appList.mjs';
 import { hintsByApp } from './upstreamTriage.mjs';
 import { coverageForReaders, coverageByPlatform } from './plugins/lock-coverage.mjs';
+import { buildLockForReaders } from './plugins/build-lock.mjs';
 import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getEndOfLife, getSubmodules, getRebuildClaims, getDefaultBranch, DEFAULT_BRANCH_REF } from './ddbbUtils.mjs';
 import { COUNTED_TARGETS, partOfFile, productPartOf, sortingOf, targetOfLockfile, targetsOfLockfiles, unlistedFiles, useRepositories } from './products.mjs';
 
@@ -180,6 +181,8 @@ function analysisEntry(a) {
     lockCoverage: coverageForReaders(a.lock_coverage) || undefined,
     // the same, for one app's page, when the repository also builds the other app
     lockCoverageByPlatform: coverageByPlatform(a.lock_coverage),
+    // the build's own download list, when the verification carries one (plugins/build-lock.mjs)
+    buildLock: buildLockForReaders(a.build_lock) || undefined,
     // a later re-check that failed and left this result in place (issue 998)
     recheckFailed: a.failed_attempt_at ? { at: a.failed_attempt_at, error: a.failed_attempt_error || undefined } : undefined,
   };

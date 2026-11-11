@@ -454,6 +454,83 @@ describe('dependencies panel: git submodules', () => {
   });
 });
 
+describe('build-lock notices', () => {
+  // the export's shape (plugins/build-lock.mjs buildLockForReaders), from one Android verification's result
+  const asExport = ({ files, misnamed, modules, builtNotResolved, descriptionsOnly, resolvedNotBuilt }) => ({
+    files: files.map(f => ({ platform: 'android', ...f })),
+    misnamed: misnamed.map(name => ({ name, platform: 'android' })),
+    platforms: modules === null ? {} : { android: { modules, builtNotResolved, descriptionsOnly, resolvedNotBuilt } },
+  });
+  const withLock = (buildLock) => ({ ...APP, releases: [{ ...APP.releases[0], buildLock: asExport(buildLock) }] });
+  const text = (app, platform = 'android') => panelElement(panelModel(app, { platform }), { appId: 'app.android' }).querySelector('.dp-notices')?.textContent || '';
+  const USED = { match: 'ok', problem: null, differ: null, schema: 2, commit: 'c0ffee', modules: 40 };
+  const none = { count: 0, names: [] };
+
+  test('a used file: how many modules, and both differences with "and N more"', () => {
+    const seven = Array.from({ length: 7 }, (_, i) => `g:a${i}@1.0`);
+    assert.match(text(withLock({ files: [USED], misnamed: [], modules: 40, builtNotResolved: { count: 7, names: seven }, resolvedNotBuilt: none })),
+      /7 of them are not in the resolved list: g:a0@1\.0, g:a1@1\.0, g:a2@1\.0, g:a3@1\.0, g:a4@1\.0 and 2 more\./, 'five names inline');
+    const t = text(withLock({ files: [USED], misnamed: [], modules: 40,
+      builtNotResolved: { count: 22, names: ['androidx.core:core@1.13.1', 'com.android.tools.build:gradle@8.5.2'] },
+      resolvedNotBuilt: { count: 1, names: ['androidx.appcompat:appcompat@1.7.0'] } }));
+    assert.match(t, /The build downloaded 40 Gradle modules \(from the verifier's build-lock\.json\), and the ones with code were checked for advisories too\./);
+    assert.match(t, /22 of them are not in the resolved list: androidx\.core:core@1\.13\.1, com\.android\.tools\.build:gradle@8\.5\.2 and 20 more\./);
+    assert.match(t, /1 resolved modules were never downloaded by the build: androidx\.appcompat:appcompat@1\.7\.0\./);
+  });
+
+  test('descriptions without code: how many were not counted, with names; nothing when none, or in an older export', () => {
+    const t = text(withLock({ files: [USED], misnamed: [], modules: 40, builtNotResolved: { count: 1, names: ['g:jar@1.0'] },
+      descriptionsOnly: { count: 2, names: ['com.google.guava:guava@29.0-android', 'g:bom@1.0'] }, resolvedNotBuilt: none }));
+    assert.match(t, /2 downloaded descriptions without code \(\.pom or \.module files only\) were not counted: com\.google\.guava:guava@29\.0-android, g:bom@1\.0\./);
+    assert.doesNotMatch(text(withLock({ files: [USED], misnamed: [], modules: 40, builtNotResolved: none, descriptionsOnly: { count: 0, names: [] }, resolvedNotBuilt: none })), /descriptions/);
+    assert.doesNotMatch(text(withLock({ files: [USED], misnamed: [], modules: 40, builtNotResolved: none, resolvedNotBuilt: none })), /descriptions/, 'an export from before has no such field');
+  });
+
+  test('another build, not tied, a hash mismatch and a misnamed file each say so; nothing about modules when none was used', () => {
+    const t = text(withLock({ files: [
+      { ...USED, match: 'another-build', differ: [{ field: 'appVersion', file: '1.2.2', event: '1.2.3' }], modules: null },
+      { ...USED, match: null, problem: 'hash-mismatch', modules: null },
+      { ...USED, match: null, problem: 'not-found', modules: null },
+      { ...USED, match: null, problem: 'too-large', modules: null },
+    ], misnamed: ['build-lock (1).json'], modules: null, builtNotResolved: none, resolvedNotBuilt: none }));
+    assert.match(t, /Belongs to another build: a build-lock\.json attached to this verification is from a different build \(version 1\.2\.2 in the file, 1\.2\.3 in the verification\), so its list was not used\./);
+    assert.match(t, /did not match its published hash, so it was not read\./);
+    assert.match(t, /could not be downloaded from files\.nostr\.info, so it was not read\./);
+    assert.match(t, /is too large to read, so it was not read\./);
+    assert.match(t, /Misnamed: "build-lock \(1\)\.json" looks like the build's download list, but only a file named exactly build-lock\.json is read\./);
+    assert.doesNotMatch(t, /The build downloaded/);
+    assert.match(text(withLock({ files: [{ ...USED, match: 'not-tied', schema: 1, modules: null }], misnamed: [], modules: null, builtNotResolved: none, resolvedNotBuilt: none })),
+      /does not say which app, version and platform it was built for, so it is not tied to this build and its list was not used\./);
+  });
+
+  test('a file from a verifier not on the list says so, and nothing about modules', () => {
+    const t = text(withLock({ files: [{ verifier: 'unlisted', match: null, problem: null, differ: null, schema: null, commit: null, modules: null }],
+      misnamed: [], modules: null, builtNotResolved: none, resolvedNotBuilt: none }));
+    assert.match(t, /A build-lock\.json attached to this verification is from a verifier not on the list, so its list was not used\./);
+    assert.doesNotMatch(t, /The build downloaded|not read/);
+  });
+
+  test('a release without a build-lock.json says nothing about one', () => {
+    assert.doesNotMatch(text(APP), /build-lock|Gradle modules/);
+  });
+
+  test('each page shows only its own platform\'s build-lock.json and differences', () => {
+    const app = { ...APP, releases: [{ ...APP.releases[0], buildLock: {
+      files: [{ ...USED, platform: 'android' }, { ...USED, platform: 'iphone', match: 'another-build', differ: [{ field: 'appVersion', file: '1.2.2', event: '1.2.3' }], modules: null }],
+      misnamed: [{ name: 'build-lock (1).json', platform: 'android' }],
+      platforms: { android: { modules: 40, builtNotResolved: { count: 1, names: ['androidx.core:core@1.13.1'] }, resolvedNotBuilt: none } },
+    } }] };
+    const android = text(app, 'android');
+    assert.match(android, /The build downloaded 40 Gradle modules/);
+    assert.match(android, /Misnamed/);
+    assert.doesNotMatch(android, /Belongs to another build/);
+    const iphone = text(app, 'iphone');
+    assert.match(iphone, /Belongs to another build/);
+    assert.doesNotMatch(iphone, /Gradle modules|Misnamed/);
+    assert.equal(panelModel(app, { platform: 'hardware' }).buildLock, null, 'a hardware page of the same repository sees none of it');
+  });
+});
+
 describe('lock coverage notice', () => {
   const withCoverage = (lockCoverage, extra = {}) => ({ ...APP, releases: [{ ...APP.releases[0], lockCoverage, ...extra }] });
   const COVERAGE = { verdict: 'locked', missing: [], missingCount: 0, unread: [], unreadCount: 0, floating: 0, downloads: [], downloadCount: 0, binaries: [], binaryCount: 0 };
