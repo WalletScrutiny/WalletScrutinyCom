@@ -15,13 +15,19 @@ repository: https://github.com/cypherstack/stack_wallet
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2026-10-30
+date: 2026-11-12
 twitter: stack_wallet
 social:
 - https://www.youtube.com/channel/UCqCtpXsLyNIle1uOO2DU7JA
 - https://www.reddit.com/r/stackwallet
 - https://discord.com/invite/mRPZuXx3At
-builds: 
+builds:
+- arch: x86_64-linux
+  types:
+    appimage:
+    - sw-v*-linux.AppImage
+    flatpak:
+    - sw-v*-linux.flatpak
 features:
 - customNode
 - foss
