@@ -15,7 +15,7 @@ repository: https://github.com/btcsuite/btcwallet
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2026-10-30
+date: 2026-11-13
 twitter: 
 social: 
 builds: 
@@ -27,6 +27,10 @@ features:
 - ownFullNode
 
 ---
+
+## Update 2026-11-13
+
+This app builds from source, and has not released binaries since 2015-11-23.
 
 {% include featureEvidence.html feature="hd" quote="Public and private keys are derived using the hierarchical deterministic format described by BIP0032." source="GitHub README" %}
 
