@@ -431,6 +431,38 @@ describe('dependencies panel', () => {
     river.remove();
     host.remove();
   });
+
+  test('before "Every version" has picked, the panel shows no release it may replace (issue 1020 P10)', async () => {
+    const older = { ...APP.releases[0], ref: 'v1.3.0', commit: 'f0f0f0f0', advisories: [advisory('GHSA-old', 'low')], vulnerabilities: { total: 1, bySeverity: { low: 1 }, packages: 1 } };
+    const { fetchImpl } = fakeFetch({ '/x/apps/app.android.json': { ...APP, releases: [APP.releases[0], older] } });
+    const river = document.createElement('div');
+    river.id = 'buildVerifications-android';
+    river.hidden = true; // not painted yet: the verifications are still loading
+    const host = document.createElement('div');
+    document.body.append(river, host);
+
+    await renderDependenciesPanel({ host, appId: 'app.android', platform: 'android', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl });
+    assert.equal(host.hidden, false);
+    assert.equal(host.querySelector('.dp-tiles'), null, 'no release painted yet');
+    assert.doesNotMatch(host.textContent, /v1\.4\.0/, 'the newest release is not shown first');
+    assert.match(host.querySelector('.dp-headline').textContent, /Loading the release picked/);
+    river.dispatchEvent(new window.CustomEvent('buildVersionSelected', { bubbles: true, detail: { platform: 'android', version: '1.3.0' } }));
+    assert.match(host.querySelector('.dp-headline').textContent, /Checked release v1\.3\.0/, 'the first release painted is the picked one');
+    river.remove();
+    host.remove();
+
+    // the section never picks (its load failed): the newest release after the wait
+    const river2 = document.createElement('div');
+    river2.id = 'buildVerifications-android';
+    const host2 = document.createElement('div');
+    document.body.append(river2, host2);
+    await renderDependenciesPanel({ host: host2, appId: 'app.android', platform: 'android', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl, pickWaitMs: 5 });
+    assert.match(host2.querySelector('.dp-headline').textContent, /Loading/);
+    await new Promise(resolve => setTimeout(resolve, 30));
+    assert.match(host2.querySelector('.dp-headline').textContent, /Checked release v1\.4\.0/);
+    river2.remove();
+    host2.remove();
+  });
 });
 
 describe('dependencies panel: split verdicts (#1020 P4)', () => {

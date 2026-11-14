@@ -491,6 +491,16 @@ function notAnalysedElement(version, app, platform, failed) {
   );
 }
 
+// How long the panel waits for "Every version" to pick a version before it
+// shows the newest checked release anyway (that section failed to load).
+const PICK_WAIT_MS = 15000;
+
+// In place of the panel while "Every version" has not picked a version yet.
+function waitingElement() {
+  return el('div', { className: 'dp-panel dp-panel--waiting' },
+    el('p', { className: 'dp-headline', role: 'status' }, 'Loading the release picked under "Every version"…'));
+}
+
 // A release the panel can show: analysed, or failed with something still read from it.
 function hasAnalysis(release) {
   return (release.status || 'ok') === 'ok' || Boolean(release.submodules) || Boolean(release.lockCoverage);
@@ -519,18 +529,32 @@ function pickedVerdicts(platform) {
  * (`buildVersionSelected`); the newest analysed release until that section is
  * painted, or when the page has none. `selectedVersion` overrides the pick.
  */
-export async function renderDependenciesPanel({ host, appId, platform = 'app', selectedVersion = undefined, title = '', base = EXPORT_BASE, triageBase = TRIAGE_BASE, liveEvents = liveTriageEvents, fetchImpl = globalThis.fetch, nostr = undefined, profiles = undefined }) {
+export async function renderDependenciesPanel({ host, appId, platform = 'app', selectedVersion = undefined, title = '', base = EXPORT_BASE, triageBase = TRIAGE_BASE, liveEvents = liveTriageEvents, fetchImpl = globalThis.fetch, nostr = undefined, profiles = undefined, pickWaitMs = PICK_WAIT_MS }) {
   if (!host || !appId) return null;
   let selected = selectedVersion === undefined ? pickedVersion(platform) : selectedVersion;
   let verdicts = selectedVersion === undefined ? pickedVerdicts(platform) : null;
   let ready = false;
+  // "Every version" picks only once the verifications are in from the relays
+  // (0.2 to 6 s). A release painted before that is often not the one it
+  // picks, so the reader saw one release and then another (issue 1020 P10):
+  // on a page with that section, a loading line until it has picked, or
+  // until `pickWaitMs` has passed without a pick.
+  const river = selectedVersion === undefined && typeof document !== 'undefined' ? document.getElementById(`buildVerifications-${platform}`) : null;
+  let waiting = Boolean(river) && !selected;
+  let waitTimer = null;
+  const stopWaiting = () => {
+    waiting = false;
+    clearTimeout(waitTimer);
+  };
   if (selectedVersion === undefined && typeof document !== 'undefined') {
     // Listening before the export loads: a pick made meanwhile is not lost.
     document.addEventListener('buildVersionSelected', (event) => {
       if (event.detail?.platform !== platform) return;
+      const version = event.detail.version || null;
       const next = event.detail.verdicts || null;
-      if (event.detail.version === selected && JSON.stringify(next) === JSON.stringify(verdicts)) return;
-      selected = event.detail.version || null;
+      if (!waiting && version === selected && JSON.stringify(next) === JSON.stringify(verdicts)) return;
+      stopWaiting();
+      selected = version;
       verdicts = next;
       if (ready) paint();
     });
@@ -569,6 +593,11 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
   let expanded = false;
   const paint = (extra = {}) => {
     if (extra.showAll) expanded = true;
+    if (waiting) {
+      model = panelModel(app, { triage, signals, upstream, apk, platform, appId });
+      if (model) host.replaceChildren(waitingElement());
+      return model;
+    }
     const release = selected ? releaseForVersion(app, selected) : null;
     if (selected && (!release || !hasAnalysis(release)) && app?.releases?.length) {
       model = { ref: release?.ref || null, selectedVersion: selected, notAnalysed: true };
@@ -608,7 +637,15 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
   }
 
   ready = true;
+  if (waiting) {
+    waitTimer = setTimeout(() => {
+      if (!waiting) return;
+      stopWaiting();
+      paint();
+    }, pickWaitMs);
+  }
   if (!paint()) {
+    stopWaiting();
     host.hidden = true;
     return null;
   }
