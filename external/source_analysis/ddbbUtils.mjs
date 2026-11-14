@@ -498,6 +498,23 @@ export function saveVerifiedRef(db, appId, ref, version) {
   db.prepare('INSERT OR IGNORE INTO verified_refs (app_id, ref, version) VALUES (?, ?, ?)').run(appId, ref, version);
 }
 
+// Rebuilds one app's verified_refs from this pass's resolutions, [ref, version]
+// pairs, in one transaction. saveVerifiedRef only adds rows, so a name once
+// resolved to another tag (an older tag rule, another platform) would keep its
+// old row and show under two releases. The caller skips this when the tags
+// could not be read, so a failed listing keeps the old rows.
+export function replaceVerifiedRefs(db, appId, pairs) {
+  const clearNoTag = db.prepare("DELETE FROM analyses WHERE app_id = ? AND kind = 'verified-no-tag' AND ref = ?");
+  const insert = db.prepare('INSERT OR IGNORE INTO verified_refs (app_id, ref, version) VALUES (?, ?, ?)');
+  db.transaction(() => {
+    db.prepare('DELETE FROM verified_refs WHERE app_id = ?').run(appId);
+    for (const [ref, version] of pairs) {
+      clearNoTag.run(appId, version);
+      insert.run(appId, ref, version);
+    }
+  })();
+}
+
 // ref -> every verified version name resolved to it, for one app.
 export function getVerifiedRefs(db, appId) {
   const out = new Map();

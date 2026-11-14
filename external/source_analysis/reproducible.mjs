@@ -10,7 +10,7 @@
 // src/nostr-constants.mjs): tags i (appId), version, status. Each pass reads
 // them fresh and keeps the last good set in SQLite, like the app list, so a
 // pass survives the relays being unreachable.
-import { getReproducibleVersions, saveReproducibleVersions, hasReleaseAnalysis, saveVerifiedRef, recordAnalysis } from './ddbbUtils.mjs';
+import { getReproducibleVersions, saveReproducibleVersions, hasReleaseAnalysis, replaceVerifiedRefs, recordAnalysis } from './ddbbUtils.mjs';
 import { matchTag, lsRemoteTags } from './sourceIdentity.mjs';
 
 export const VERIFICATION_KIND = 30301;
@@ -212,18 +212,19 @@ export async function analyseVerifiedVersions(db, { appId, repoUrl, verified, pe
     console.warn(`  Cannot list the tags of ${repoUrl}: ${error.message}. Verified versions wait for the next pass.`);
     return [];
   }
+  const resolved = verified.map(v => ({ v, tag: tagOfVersion(tags, appId, v.version, v.platform) }));
+  // Saved past the cap too: the export shows only releases a verified version
+  // names. Rebuilt whole, so no name keeps a tag an earlier pass gave it.
+  replaceVerifiedRefs(db, appId, resolved.filter(r => r.tag).map(r => [r.tag, r.v.version]));
   const done = [];
   let left = 0;
-  for (const v of verified) {
-    const tag = tagOfVersion(tags, appId, v.version, v.platform);
+  for (const { v, tag } of resolved) {
     if (!tag) {
       // Kept so the export can say which verified version had no source to check.
       if (!analyser) analyser = (await import('./appAnalysis.mjs')).analyserVersion();
       recordAnalysis(db, { appId, kind: 'verified-no-tag', ref: v.version, status: 'unsupported', error: `no tag names verified version ${v.version}`, analyser });
       continue;
     }
-    // Saved past the cap too: the export shows only releases a verified version names.
-    saveVerifiedRef(db, appId, tag, v.version);
     if (done.includes(tag)) continue;
     if (redo ? redo.includes(tag) : hasReleaseAnalysis(db, appId, tag)) continue;
     if (!redo && done.length >= perPass) {

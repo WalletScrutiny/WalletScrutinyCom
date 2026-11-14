@@ -116,6 +116,26 @@ test('analyseVerifiedVersions: newest first, capped per pass, finished ones skip
   assert.deepEqual(await analyseVerifiedVersions(db, { appId: 'w', repoUrl: 'x', verified, perPass: 2, analyse, listTags: async () => { throw new Error('gone'); } }), []);
 });
 
+test('analyseVerifiedVersions rebuilds an app\'s verified_refs each pass: a stale tag for a name goes, a failed tag listing keeps the rows', async () => {
+  const db = tmpDb();
+  const tags = new Map([['firmware/v9.25.0', 'a'], ['firmware-btc-only/v9.25.0', 'b']]);
+  const verified = [{ version: '9.25.0-Btc-Only', verifiedAt: 2, platform: 'hardware' }];
+  const analyse = async (tag) => recordAnalysis(db, { appId: 'bitBox2', kind: 'release', ref: tag, status: 'ok', analyser: 't' });
+  // An earlier pass (older rule) put the Bitcoin-only name on the multi tag, and
+  // the other app sharing the table keeps its own rows.
+  saveVerifiedRef(db, 'bitBox2', 'firmware/v9.25.0', '9.25.0-Btc-Only');
+  saveVerifiedRef(db, 'other', 'v1', '1');
+  const run = (listTags) => analyseVerifiedVersions(db, { appId: 'bitBox2', repoUrl: 'x', verified, perPass: 2, analyse, listTags, analyser: 't' });
+
+  await run(async () => { throw new Error('gone'); });
+  assert.deepEqual([...getVerifiedRefs(db, 'bitBox2')], [['firmware/v9.25.0', ['9.25.0-Btc-Only']]], 'tags unreadable: old rows kept');
+
+  await run(async () => tags);
+  assert.deepEqual([...getVerifiedRefs(db, 'bitBox2')], [['firmware-btc-only/v9.25.0', ['9.25.0-Btc-Only']]],
+    'the name sits only where this pass resolved it; the stale row is gone');
+  assert.deepEqual([...getVerifiedRefs(db, 'other')], [['v1', ['1']]], 'other apps untouched');
+});
+
 test('--reanalyse: verified versions run again without a cap, except tags already redone this pass', async () => {
   const db = tmpDb();
   const tags = new Map([['v3.0', 'a'], ['v2.0', 'b'], ['v1.0', 'c']]);
