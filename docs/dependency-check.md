@@ -304,7 +304,10 @@ app.
   GitHub. A tag that points at another commit than its analysis did (the
   maker moved it) is analysed again. A version no tag names is recorded (`verified-no-tag`) and exported
   as `verifiedWithoutTag`; a wrong tag would be worse than none, so two
-  candidates without a platform or flavour hint resolve to nothing. The
+  candidates without a platform or flavour hint resolve to nothing. A plain
+  Android version takes the Play Store tag (`v0.60.0-google`, not
+  `-fdroid`), a "Multi" flavour the tag without a Bitcoin-only marker
+  (`firmware/v9.25.0`), and `1.70.0` a tag that leaves off the last `.0`. The
   newest-release and default-branch analyses still run for in-scope wallets,
   as early warning, but stay in the database: the default branch only feeds
   the "fixed on the default branch" note.

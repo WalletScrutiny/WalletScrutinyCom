@@ -154,6 +154,16 @@ export const inScope = (job, byApp) => verifiedVersionsOf(job, byApp).length > 0
 
 const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const PLATFORM_HINTS = { android: /android/i, iphone: /ios|iphone/i, desktop: /desktop/i };
+// The Bitcoin-only edition as tags name it (`firmware-btc-only/v9.25.0`);
+// verifiers also write "Bitcoin-only".
+const BTC_ONLY = /b(?:itcoin|tc)[-_ ]?only/i;
+// A multi-coin flavour (`9.25.0 - Multi`, `-multicoin`): where the repository
+// tags it only by leaving the Bitcoin-only marker off, the tag without it.
+const MULTI = /^multi(?:[-_ ]?coin)?$/i;
+const notBtcOnly = { test: (t) => !BTC_ONLY.test(t) };
+// A plain version on Android is the Play Store build: WalletScrutiny's Android
+// listings are Play Store apps (`v0.60.0-google`, not `v0.60.0-fdroid`).
+const PLAY_STORE = /[-_.](?:google|g?play)(?:[-_.]|$)/i;
 
 // The candidate a hint picks: the only one matching it, else null.
 function pick(found, hints) {
@@ -175,20 +185,25 @@ function prefixedTag(tags, version, platform, flavour) {
   const found = [...(tags.keys ? tags.keys() : tags)].filter(t => re.test(t));
   if (found.length <= 1) return found[0] || null;
   const hints = [];
-  if (flavour) hints.push(new RegExp(escapeRe(flavour).replace(/[-_ ]+/g, '[-_ ]?'), 'i'));
+  if (flavour && BTC_ONLY.test(flavour)) hints.push(BTC_ONLY);
+  else if (flavour) hints.push(new RegExp(escapeRe(flavour).replace(/[-_ ]+/g, '[-_ ]?'), 'i'));
+  if (flavour && MULTI.test(flavour)) hints.push(notBtcOnly);
   if (PLATFORM_HINTS[platform]) hints.push(PLATFORM_HINTS[platform]);
+  if (!flavour && platform === 'android') hints.push(PLAY_STORE);
   return pick(found, hints);
 }
 
 // The tag of a verified version. Verifications name the version the store
 // shows (`3.2.0`, sometimes with a build suffix like `3.2.0-Multi` or
 // `2026.16.1 (3)`); tags add a `v` or a component prefix. Tries the name as
-// given, then without its suffix.
+// given, then without its suffix, then without a last `.0` the tag leaves
+// off (`1.70.0` is `android.1.70`).
 export function tagOfVersion(tags, appId, version, platform = null) {
   const m = /^v?(\d+(?:\.\d+)+)\s*(?:[-–]\s*)?([a-z][a-z -]*[a-z])?/i.exec(version);
   const base = m?.[1];
   const flavour = m?.[2] || null;
-  for (const v of base && base !== version ? [version, base] : [version]) {
+  const short = /^\d+\.\d+\.0$/.test(base || '') ? base.slice(0, -2) : null;
+  for (const v of [...new Set([version, base, short].filter(Boolean))]) {
     const found = matchTag(tags, appId, v) || prefixedTag(tags, v, platform, flavour);
     if (found) return found;
   }

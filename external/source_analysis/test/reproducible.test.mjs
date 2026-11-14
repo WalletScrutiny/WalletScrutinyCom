@@ -92,8 +92,36 @@ test('tagOfVersion: a dotted app prefix, and the flavour in the verified version
     ['firmware/v9.25.0', 'd'], ['firmware-btc-only/v9.25.0', 'e']]);
   assert.equal(tagOfVersion(tags, 'io.nunchuk.android', '2.9.2', 'android'), 'android.2.9.2');
   assert.equal(tagOfVersion(tags, 'cash.p.terminal', '0.59.4 - Fdroid', 'android'), 'v0.59.4-fdroid');
-  assert.equal(tagOfVersion(tags, 'cash.p.terminal', '0.59.4', 'android'), null, 'fdroid or google: no guess');
+  assert.equal(tagOfVersion(tags, 'cash.p.terminal', '0.59.4', 'android'), 'v0.59.4-google', 'a plain Android version is the Play Store build');
+  assert.equal(tagOfVersion(tags, 'cash.p.terminal', '0.59.4', 'hardware'), null, 'fdroid or google: no guess');
   assert.equal(tagOfVersion(tags, 'bitBox2', '9.25.0-Btc-Only', 'hardware'), 'firmware-btc-only/v9.25.0');
+});
+
+test('tagOfVersion on real tag lists: BitBox02 editions, Play Store builds, a tag without the last .0; ambiguous names stay untagged (#1020 P9)', () => {
+  const fixture = JSON.parse(fs.readFileSync(new URL('./fixtures/verified-tags.json', import.meta.url), 'utf8'));
+  const tags = (appId) => new Map(fixture[appId].tags.map(t => [t, 'x']));
+  const of = (appId, version, platform) => tagOfVersion(tags(appId), appId, version, platform);
+  // BitBox02 tags the multi edition firmware/ and the Bitcoin-only one firmware-btc-only/
+  assert.equal(of('bitBox2', '9.25.0 - Multi', 'hardware'), 'firmware/v9.25.0');
+  assert.equal(of('bitBox2', '9.23.3 -multi', 'hardware'), 'firmware/v9.23.3');
+  assert.equal(of('bitBox2', '9.23.1 - Multi', 'hardware'), 'firmware/v9.23.1');
+  assert.equal(of('bitBox2', '9.23.1 - Bitcoin-only', 'hardware'), 'firmware-btc-only/v9.23.1');
+  assert.equal(of('bitBox2', '9.25.0-Btc-Only', 'hardware'), 'firmware-btc-only/v9.25.0');
+  assert.equal(of('bitBox2', '9.23.0', 'hardware'), null, 'both editions were verified under the plain name: no guess');
+  // P.CASH tags each store's build; the Android listing is the Play Store app
+  assert.equal(of('cash.p.terminal', '0.60.0', 'android'), 'v0.60.0-google');
+  assert.equal(of('cash.p.terminal', '0.59.2', 'android'), 'v0.59.2-google');
+  assert.equal(of('cash.p.terminal', '0.59.4 - Fdroid', 'android'), 'v0.59.4-fdroid');
+  assert.equal(of('cash.p.terminal', '0.59.0 - Fdroid', 'android'), 'v0.59.0-fdroid', 'no google tag for it, the F-Droid one still found');
+  assert.equal(of('cash.p.terminal', '0.60.0', null), null, 'no platform: no guess');
+  // Nunchuk tags 1.70.0 as android.1.70
+  assert.equal(of('io.nunchuk.android', '1.70.0', 'android'), 'android.1.70');
+  assert.equal(of('io.nunchuk.android', '1.70.1', 'android'), 'android.1.70.1');
+  // two Knots 29.3 releases (knots20260210, knots20260507): no guess
+  assert.equal(of('bitcoinknots', '29.3', 'windows'), null);
+  // "2026.2.12" is 2026.2.1 build 2 typed without the parentheses: no tag says so
+  assert.equal(of('world.bitkey.app', '2026.2.12', 'android'), null);
+  assert.equal(of('world.bitkey.app', '2026.2.1 (2)', 'android'), 'app/2026.2.1');
 });
 
 test('analyseVerifiedVersions: newest first, capped per pass, finished ones skipped, a missing tag recorded', async () => {
