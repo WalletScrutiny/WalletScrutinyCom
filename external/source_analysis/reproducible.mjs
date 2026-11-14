@@ -93,6 +93,29 @@ function withBuildLocks(known, refs) {
   return { ...(buildLocks.length ? { buildLocks } : {}), ...(misnamedLocks.length ? { misnamedLocks } : {}) };
 }
 
+// The file hashes (`x`) a verification names.
+const hashesOf = (e) => e.tags.filter(t => t[0] === 'x' && t[1]).map(t => String(t[1]).toLowerCase());
+const subjectOf = (e) => `${e.pubkey}\n${tag(e, 'i')}\n${String(tag(e, 'version') || '').trim()}`;
+
+// A later "not reproducible" by the same author for the same app, version and
+// file (a shared `x`) revises an earlier "reproducible" even under another `d`:
+// older verifications used a random `d` (`0uoilaf6vstidqzx`), so a revision
+// became a second event (Edge 4.44.0, Nunchuk 2.3.0). A later "ftbfs" does
+// not count: a failed build says nothing about the earlier one. Proposal for
+// Leo (#1020 P3). Returns a test for one reproducible event.
+function revisedLater(events) {
+  const refusals = new Map();
+  for (const o of events) {
+    if (tag(o, 'status') !== 'not_reproducible') continue;
+    if (!refusals.has(subjectOf(o))) refusals.set(subjectOf(o), []);
+    refusals.get(subjectOf(o)).push(o);
+  }
+  return (e) => {
+    const hashes = hashesOf(e);
+    return (refusals.get(subjectOf(e)) || []).some(o => o.created_at > e.created_at && hashesOf(o).some(h => hashes.includes(h)));
+  };
+}
+
 /**
  * appId -> [{ version, verifiedAt, platform, platforms, buildLocks, misnamedLocks }] of
  * every version with a reproducible verification, newest verification first
@@ -101,7 +124,9 @@ function withBuildLocks(known, refs) {
  * the version was reproduced on, newest first: one app id on Android and
  * iPhone (Bitkey 2025.19.0) is reproduced on both. Verifications are addressable:
  * only the newest event per (author, d) counts, so a verifier who revised
- * "reproducible" to "not reproducible" no longer vouches for that version.
+ * "reproducible" to "not reproducible" no longer vouches for that version;
+ * so does a later "not reproducible" of the same file under another d
+ * (revisedLater).
  */
 export function reproducibleVersions(events) {
   const latest = new Map();
@@ -110,10 +135,13 @@ export function reproducibleVersions(events) {
     if (!latest.has(key) || latest.get(key).created_at < e.created_at) latest.set(key, e);
   }
   const byApp = new Map();
-  for (const e of latest.values()) {
+  const current = [...latest.values()];
+  const revised = revisedLater(current);
+  for (const e of current) {
     const appId = tag(e, 'i');
     const version = String(tag(e, 'version') || '').trim();
     if (!appId || !version || tag(e, 'status') !== 'reproducible') continue;
+    if (revised(e)) continue;
     if (!byApp.has(appId)) byApp.set(appId, new Map());
     const versions = byApp.get(appId);
     const known = versions.get(version);

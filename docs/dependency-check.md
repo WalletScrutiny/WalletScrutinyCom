@@ -295,6 +295,9 @@ app.
   cached in the database for when the relays are unreachable
   (`reproducible.mjs`). Only the newest event per author and `d` counts, so a
   verifier who revises "reproducible" no longer vouches for that version.
+  Older verifications used a random `d`, so a later "not reproducible" by the
+  same author for the same file (`x`) also revises it; a later "ftbfs" does
+  not. That rule is a proposal awaiting Leo (#1020 P3).
   A wallet matches through any of its records (Android and iPhone share a
   repository).
 - In-scope wallets get each verified version analysed at the tag that names

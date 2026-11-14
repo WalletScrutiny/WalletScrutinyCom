@@ -30,6 +30,26 @@ test('reproducibleVersions: only reproducible, newest event per author and d, ne
   assert.deepEqual(byApp.get('wallet.one'), [{ version: '1.1', verifiedAt: 300, platform: 'android' }, { version: '1.0', verifiedAt: 200, platform: 'android' }]);
 });
 
+test('a later "not reproducible" of the same file by the same author revises under another d; ftbfs, another file or another author does not (#1020 P3)', () => {
+  // Edge 4.44.0: reproducible, then not reproducible for the same file, each with a random d.
+  const v = (pubkey, version, status, created_at, d, x) => ({ pubkey, created_at, kind: 30301,
+    tags: [['status', status], ['d', d], ['i', 'co.edgesecure.app'], ['version', version], ['platform', 'android'], ...x.map(h => ['x', h])] });
+  const byApp = reproducibleVersions([
+    v('a', '4.44.0', 'reproducible', 100, 'r1', ['AA']),
+    v('a', '4.44.0', 'not_reproducible', 150, 'r2', ['aa', 'bb']),
+    v('a', '4.43.0', 'reproducible', 100, 'r3', ['cc']),
+    v('a', '4.43.0', 'ftbfs', 150, 'r4', ['cc']),
+    v('a', '4.42.0', 'reproducible', 100, 'r5', ['dd']),
+    v('a', '4.42.0', 'not_reproducible', 150, 'r6', ['ee']),
+    v('b', '4.41.0', 'reproducible', 100, 'r7', ['ff']),
+    v('a', '4.41.0', 'not_reproducible', 150, 'r8', ['ff']),
+    v('a', '4.40.0', 'not_reproducible', 50, 'r9', ['gg']),
+    v('a', '4.40.0', 'reproducible', 100, 'r10', ['gg']),
+  ]);
+  assert.deepEqual(byApp.get('co.edgesecure.app').map(x => x.version).sort(), ['4.40.0', '4.41.0', '4.42.0', '4.43.0'],
+    '4.44.0 revised; ftbfs, another file, another author and an earlier refusal leave the others');
+});
+
 test('a wallet is in scope through any alias, and stays in scope when later versions fail', () => {
   const byApp = reproducibleVersions([
     verification('a', 'ios.wallet', '5.0', 'reproducible', 100),
