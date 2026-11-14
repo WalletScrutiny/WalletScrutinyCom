@@ -111,6 +111,10 @@ export function scopesOfRows(rows, appId, scope) {
   return Object.values(best).some(s => s !== scope) ? best : undefined;
 }
 
+export function vulnsLookedUpAt(db, appId, ref) {
+  return db.prepare('SELECT MAX(checked_at) AS at FROM app_vulnerabilities WHERE app_id = ? AND version = ?').get(appId, ref)?.at || undefined;
+}
+
 export function summarizeRelease(db, appId, ref) {
   const deps = getDependencies(db, appId, ref);
   const vulns = getVulnerabilities(db, appId, ref);
@@ -133,6 +137,9 @@ export function summarizeRelease(db, appId, ref) {
       bySeverity: countBy(vulns, 'severity', SEVERITIES),
       // where the advisories sit; notices are counted only under bySeverity
       byScope: Object.fromEntries(['app', 'build', 'tests', 'unknown'].map(s => [s, vulns.filter(v => v.severity !== 'informational' && scopeOfRow(v) === s).length])),
+      // when OSV.dev last answered for this release: every lookup rewrites its
+      // rows (saveVulnerabilities), the hourly refresh's too; none without rows
+      lookedUpAt: vulnsLookedUpAt(db, appId, ref),
     },
   };
 }

@@ -53,7 +53,8 @@ test('buildApp: releases newest first with summary, advisories and diff, nothing
   assert.deepEqual(Object.keys(app), ['schema', 'appId', 'aliases', 'releases']);
   assert.deepEqual(Object.keys(written), ['ref', 'commit', 'analysedAt', 'status', 'lockfiles', 'osv', 'dependencies', 'vulnerabilities', 'advisories', 'diffFrom']);
   assert.deepEqual(Object.keys(written.dependencies), ['total', 'direct', 'byScope', 'byEcosystem', 'lockfiles', 'sorting']);
-  assert.deepEqual(Object.keys(written.vulnerabilities), ['bySeverity', 'byScope']);
+  assert.deepEqual(Object.keys(written.vulnerabilities), ['bySeverity', 'byScope', 'lookedUpAt']);
+  assert.deepEqual(Object.keys(JSON.parse(JSON.stringify(previous)).vulnerabilities), ['bySeverity', 'byScope'], 'no advisory rows, no lookup time');
   assert.deepEqual(Object.keys(written.advisories[0]), ['id', 'severity', 'aliases', 'summary', 'ecosystem', 'package', 'version', 'fixed', 'direct', 'scope', 'dependants', 'products', 'productsSameVersion']);
 });
 
@@ -68,6 +69,17 @@ test('buildApp: RustSec notices are counted by severity on their own, not where 
   assert.equal(latest.vulnerabilities.bySeverity.unknown, 0);
   assert.deepEqual(latest.vulnerabilities.byScope, { app: 1, build: 0, tests: 0, unknown: 0 });
   assert.equal(latest.advisories.find(a => a.id === 'RUSTSEC-n').severity, 'informational');
+});
+
+// Issue 1020 P16: the page says when the advisories were last looked up, which the hourly refresh does.
+test('buildApp: a release says when OSV.dev last answered for it, moved by every lookup', () => {
+  const db = seeded();
+  db.prepare("UPDATE app_vulnerabilities SET checked_at = '2026-10-01 00:00:00'").run();
+  assert.equal(buildApp(db, 'app.android').releases[0].vulnerabilities.lookedUpAt, '2026-10-01 00:00:00');
+  saveVulnerabilities(db, 'app.android', 'v1.1.0', { findings: [
+    { ecosystem: 'npm', name: 'a', version: '1.0.1', id: 'GHSA-aaaa', aliases: ['CVE-2026-1'], severity: 'high', summary: 'bad', fixed: ['1.0.2'], direct: true, dev: false },
+  ] });
+  assert.ok(buildApp(db, 'app.android').releases[0].vulnerabilities.lookedUpAt > '2026-10-01 00:00:00', 'a lookup with the same answer moves it too');
 });
 
 // Issue 995: a statement records its direct user's version, so the row says it.

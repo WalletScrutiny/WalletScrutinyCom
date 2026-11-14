@@ -36,7 +36,8 @@ function malwareFreeTile(count) {
 // What the vulnerability tile's number counts, how it was found, and what it
 // says about the app a visitor has installed.
 export function vulnerabilityTipLines(model) {
-  const date = model.analysedAt ? `, on ${dateOf(model.analysedAt)}` : '';
+  const at = model.lookedUpAt || model.analysedAt;
+  const date = at ? `, on ${dateOf(at)}` : '';
   return [
     'This counts published security reports (advisories) that list as affected a package version this app’s source code uses. Every package counts the same, whether it goes into the app or is used to build or test it: a build tool can change the app too. The Where? column on each row says which.',
     `How we counted: we took the package list from the app’s public source code for ${model.ref} and looked up each package version in OSV.dev, a public database of these reports${date}. One report can match several packages, so the number of distinct reports is shown below.`,
@@ -98,6 +99,8 @@ function headline(model) {
     el('span', {}, 'Checked release ', el('b', {}, model.ref), model.commit ? ` (source tag, commit ${model.commit})` : ' (source tag)'),
   ];
   if (model.analysedAt) bits.push(el('span', {}, 'Checked on ', el('b', {}, dateOf(model.analysedAt))));
+  // the advisories are looked up again every hour (issue 1020 P16)
+  if (model.lookedUpAt) bits.push(el('span', {}, 'Advisories looked up on ', el('b', {}, dateOf(model.lookedUpAt))));
   if (model.recheckFailed) {
     const f = model.recheckFailed;
     bits.push(el('span', { className: 'dp-recheck-failed' }, 'Re-check failed on ', el('b', {}, dateOf(f.at))));

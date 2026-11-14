@@ -369,6 +369,8 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
     ref: current.ref,
     commit: current.commit ? String(current.commit).slice(0, 7) : null,
     analysedAt: current.analysedAt || null,
+    // when OSV.dev last answered for this release, later than analysedAt once the hourly refresh ran; null without advisory rows
+    lookedUpAt: current.vulnerabilities?.lookedUpAt || null,
     status: current.status || 'ok',
     error: current.error || null,
     // a later re-check of this release failed; the result shown is the earlier one that worked (issue 998)

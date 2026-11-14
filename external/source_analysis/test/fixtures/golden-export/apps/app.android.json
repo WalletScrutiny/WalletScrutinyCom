@@ -59,7 +59,8 @@
           "build": 0,
           "tests": 0,
           "unknown": 0
-        }
+        },
+        "lookedUpAt": "2026-10-02 00:00:00"
       },
       "reproducedFor": [
         {

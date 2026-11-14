@@ -42,6 +42,7 @@ function fixture() {
   release('app.android', 'v1.2.0-rc1', 'c3');
   release('fw.device', 'v9', 'c9');
   db.prepare("UPDATE analyses SET analysed_at = '2026-10-01 00:00:00'").run();
+  db.prepare("UPDATE app_vulnerabilities SET checked_at = '2026-10-02 00:00:00'").run();
   saveReproducibleVersions(db, new Map([
     ['app.android', [{ version: '1.1.0-btc', verifiedAt: 3, platform: 'Android (arm64-v8a)' }, { version: '1.1.0 - Btc', verifiedAt: 2, platform: 'android' }, { version: '1.0.0', verifiedAt: 1, platform: 'android' }]],
     ['app.ios', [{ version: '1.0.0', verifiedAt: 1, platform: 'iphone' }]],

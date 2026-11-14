@@ -2,7 +2,7 @@ import './setup.mjs';
 import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { loadApp, renderDependenciesPanel, liveTriageEvents, triageAuthors, panelElement, usedBy, severityTally, coverageTipLines, historyScale } from '../../src/dependencies-panel.mjs';
+import { loadApp, renderDependenciesPanel, liveTriageEvents, triageAuthors, panelElement, usedBy, severityTally, coverageTipLines, historyScale, vulnerabilityTipLines } from '../../src/dependencies-panel.mjs';
 import { panelModel, releaseForVersion, appForListing } from '../../src/dependencies-panel-model.mjs';
 import { nip19 } from 'nostr-tools';
 import { viaLine } from '../../src/dependencies-panel.mjs';
@@ -140,6 +140,16 @@ describe('dependencies panel', () => {
     empty.hidden = true;
     assert.equal(await renderDependenciesPanel({ host: empty, appId: 'app.none', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl }), null);
     assert.equal(empty.hidden, true);
+  });
+
+  test('the headline says when the advisories were last looked up (issue 1020 P16)', () => {
+    const app = { ...APP, releases: [{ ...APP.releases[0], vulnerabilities: { ...APP.releases[0].vulnerabilities, lookedUpAt: '2026-11-12 06:00:00' } }] };
+    const model = panelModel(app);
+    const node = panelElement(model, { appId: 'app.android', base: '/x', fetchImpl: async () => null });
+    assert.match(node.querySelector('.dp-headline').textContent, /Checked on 2026-10-01 · Advisories looked up on 2026-11-12$/);
+    assert.match(vulnerabilityTipLines(model)[1], /in OSV\.dev, a public database of these reports, on 2026-11-12\./, 'the tip names the newest lookup, not the analysis');
+    const older = panelElement(panelModel(APP), { appId: 'app.android', base: '/x', fetchImpl: async () => null });
+    assert.doesNotMatch(older.querySelector('.dp-headline').textContent, /looked up/, 'an export without the time says nothing');
   });
 
   test('a failed re-check is noted next to the kept result, which still shows (issue 998)', async () => {
