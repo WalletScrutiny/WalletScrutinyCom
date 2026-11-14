@@ -25,32 +25,21 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { groupByRepository } from './appList.mjs';
 import { hintsByApp } from './upstreamTriage.mjs';
-import { coverageForReaders, coverageByPlatform } from './plugins/lock-coverage.mjs';
-import { buildLockForReaders } from './plugins/build-lock.mjs';
-import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getVerifiedRefs, getEndOfLife, getSubmodules, getRebuildClaims, getDefaultBranch, DEFAULT_BRANCH_REF } from './ddbbUtils.mjs';
-import { COUNTED_TARGETS, partOfFile, productPartOf, sortingOf, targetOfLockfile, targetsOfLockfiles, unlistedFiles, useRepositories } from './products.mjs';
+import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources, getSubmodules, getRebuildClaims, getDefaultBranch, DEFAULT_BRANCH_REF } from './ddbbUtils.mjs';
+import { partOfFile, productPartOf, targetOfLockfile, targetsOfLockfiles, unlistedFiles, useRepositories } from './products.mjs';
+import { scopeOfRow, partOfLockfiles, scopesOfRows, submoduleRow, summarizeRelease, analysisEntry, compareReleasesNewestFirst, dependantVersionsOf, releaseRebuilds } from './exportRelease.mjs';
+import { reproducedListings, scopeFilter } from './exportScope.mjs';
+
+// Moved to exportRelease.mjs and exportScope.mjs; still exported from here for existing callers.
+export { summarizeSubmodules, summarizeRelease, dependantVersionsOf, releaseRebuilds } from './exportRelease.mjs';
+export { pagePlatform, reproducedListings } from './exportScope.mjs';
 
 export const SCHEMA = 1;
-const SEVERITIES = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown'];
 
 // A file name an app id or release tag maps to: ids are reverse-DNS or slugs,
 // tags may carry slashes or spaces.
 export function safeName(s) {
   return String(s).replace(/[^A-Za-z0-9._+-]/g, '_').replace(/^\.+/, '_') || '_';
-}
-
-const countBy = (rows, key, keys) => {
-  const out = Object.fromEntries(keys.map(k => [k, 0]));
-  for (const r of rows) out[keys.includes(r[key]) ? r[key] : keys[keys.length - 1]]++;
-  return out;
-};
-
-// A stored row's scope; rows written before the column existed fall back to the dev flag.
-function scopeOfRow(row) {
-  if (row.scope) return row.scope;
-  if (row.dev === 1) return 'build';
-  if (row.dev === 0) return 'app';
-  return 'unknown';
 }
 
 // A lockfile that belongs to another product built from the same repository:
@@ -60,197 +49,12 @@ function scopeOfRow(row) {
 // from electron/package-lock.json). null for the main product.
 export { productPartOf };
 
-// The other product a row belongs to when every lockfile it comes from is that product's.
-function partOfLockfiles(lockfiles, appId) {
-  const parts = [...new Set(lockfiles.map(l => partOfFile(l, appId)))];
-  return parts.length === 1 && parts[0] ? parts[0] : null;
-}
-
-// Summary of one release's stored rows: counts only, what the index and the
-// wallet page list show before anything is expanded.
-// Counts for the release summary from the stored submodule rows
-// (plugins/submodules.mjs). Only submodules that may be in the app count
-// towards advisories; the ones that are not built or only tested are counted
-// apart, never dropped.
-export function summarizeSubmodules(stored) {
-  if (!stored) return undefined;
-  const rows = stored.rows;
-  const inApp = rows.filter(r => !r.error && (!r.scope || r.scope.status === 'assumed'));
-  return {
-    total: rows.length,
-    errors: rows.filter(r => r.error).length,
-    firstParty: rows.filter(r => r.firstParty).length,
-    notInApp: rows.filter(r => r.scope && r.scope.status !== 'assumed').length,
-    // of the submodules that may be in the app
-    derived: inApp.filter(r => r.identity.status === 'derived').length,
-    unknownOrigin: inApp.filter(r => r.identity.status === 'unknown-origin').length,
-    affected: inApp.filter(r => r.advisories?.status === 'affected').length,
-    advisories: inApp.reduce((n, r) => n + (r.advisories?.applies?.length || 0), 0),
-    advisoriesUnknown: inApp.reduce((n, r) => n + (r.advisories?.unknown?.length || 0), 0),
-  };
-}
-
-// A stored submodule row as the panel reads it: the walk depth, the scope's
-// parent and the base commit stay in the database.
-function submoduleRow({ depth, ...r }) {
-  const out = { ...r };
-  if (r.scope) { const { via, ...scope } = r.scope; out.scope = scope; }
-  if (r.identity) { const { baseCommit, ...identity } = r.identity; out.identity = identity; }
-  return out;
-}
-
-// The counts the wallet page shows for a set of dependency rows.
-function dependencyCounts(deps) {
-  return {
-    total: deps.length,
-    direct: deps.filter(d => d.direct === 1).length,
-    // where the packages end up, from the lockfile graph: app / build / tests / unknown
-    byScope: Object.fromEntries(['app', 'build', 'tests', 'unknown'].map(s => [s, deps.filter(d => scopeOfRow(d) === s).length])),
-    byEcosystem: Object.fromEntries([...new Set(deps.map(d => d.ecosystem))].sort().map(e => [e, deps.filter(d => d.ecosystem === e).length])),
-  };
-}
-
-// The same counts per target (products.mjs), for a page that counts only its
-// own app's files; undefined when the repository has only shared files.
-function countsByTarget(deps, appId) {
-  const rows = new Map();
-  for (const d of deps) {
-    const target = targetOfLockfile(d.lockfile, appId);
-    if (!rows.has(target)) rows.set(target, []);
-    rows.get(target).push(d);
-  }
-  if (![...rows.keys()].some(t => t !== 'shared')) return undefined;
-  return Object.fromEntries([...rows].sort(([x], [y]) => x.localeCompare(y)).map(([t, r]) => [t, dependencyCounts(r)]));
-}
-
-// Per page, the libraries found only in files it does not count: the same
-// library in the app's own files and the desktop app's is in the app.
-function librariesOnlyOutside(deps, appId) {
-  const targets = deps.map(d => targetOfLockfile(d.lockfile, appId));
-  const key = d => `${d.ecosystem}:${d.name}@${d.dep_version}`;
-  return Object.fromEntries(Object.entries(COUNTED_TARGETS).map(([platform, counted]) => {
-    const inside = new Set(deps.filter((_, i) => counted.includes(targets[i])).map(key));
-    return [platform, new Set(deps.filter((d, i) => !counted.includes(targets[i]) && !inside.has(key(d))).map(key)).size];
-  }));
-}
-
-// A package's scope in each target when it differs from the row's, which is
-// the whole repository's: a build tool here can be bundled in another app.
-const SCOPE_RANK = ['app', 'build', 'tests', 'unknown'];
-function scopesOfRows(rows, appId, scope) {
-  const best = {};
-  for (const d of rows) {
-    const target = targetOfLockfile(d.lockfile, appId);
-    const s = scopeOfRow(d);
-    if (!best[target] || SCOPE_RANK.indexOf(s) < SCOPE_RANK.indexOf(best[target])) best[target] = s;
-  }
-  return Object.values(best).some(s => s !== scope) ? best : undefined;
-}
-
-export function summarizeRelease(db, appId, ref) {
-  const deps = getDependencies(db, appId, ref);
-  const vulns = getVulnerabilities(db, appId, ref);
-  const submodules = summarizeSubmodules(getSubmodules(db, appId, ref));
-  const byTarget = countsByTarget(deps, appId);
-  const unlisted = unlistedFiles(deps.map(d => d.lockfile), appId);
-  return {
-    ...(submodules ? { submodules } : {}),
-    dependencies: {
-      ...dependencyCounts(deps),
-      lockfiles: [...new Set(deps.map(d => d.lockfile))].sort(),
-      byTarget,
-      onlyOutside: byTarget ? librariesOnlyOutside(deps, appId) : undefined,
-      // files that look like another product's but nobody has checked; still counted
-      unlisted: unlisted.length ? unlisted : undefined,
-      // whether a person reviewed how this release's files were sorted (products.mjs)
-      sorting: sortingOf(deps.map(d => d.lockfile), appId),
-    },
-    vulnerabilities: {
-      bySeverity: countBy(vulns, 'severity', SEVERITIES),
-      byScope: Object.fromEntries(['app', 'build', 'tests', 'unknown'].map(s => [s, vulns.filter(v => scopeOfRow(v) === s).length])),
-    },
-  };
-}
-
-function analysisEntry(a) {
-  return {
-    ref: a.ref, commit: a.commit_sha, analysedAt: a.analysed_at, status: a.status,
-    error: a.error || undefined, lockfiles: a.lockfiles,
-    osv: a.osv_checked === null ? null : { skipped: a.osv_skipped },
-    // how much of the build the lockfiles we read cover (plugins/lock-coverage.mjs)
-    lockCoverage: coverageForReaders(a.lock_coverage) || undefined,
-    // the same, for one app's page, when the repository also builds the other app
-    lockCoverageByPlatform: coverageByPlatform(a.lock_coverage),
-    // the build's own download list, when the verification carries one (plugins/build-lock.mjs)
-    buildLock: buildLockForReaders(a.build_lock) || undefined,
-    // a later re-check that failed and left this result in place (issue 998)
-    recheckFailed: a.failed_attempt_at ? { at: a.failed_attempt_at, error: a.failed_attempt_error || undefined } : undefined,
-  };
-}
-
 // The releases of an app that have stored rows but no analyses row (analysed
 // before the table existed): still exported, with provenance marked unknown.
 function releasesWithoutAnalysis(db, appId, analyses) {
   const known = new Set(analyses.filter(a => a.kind === 'release').map(a => a.ref));
   return db.prepare('SELECT DISTINCT version FROM app_dependencies WHERE app_id = ? ORDER BY created_at DESC').all(appId)
     .map(r => r.version).filter(v => !known.has(v) && v !== DEFAULT_BRANCH_REF);
-}
-
-// Newest first by version number (v1.10.0 > v1.9.0; 1.2.0 > 1.2.0-rc1). Refs
-// without digits fall back to analysis time. Returns 0 for equal versions, so
-// the stable sort keeps their stored order.
-function compareReleasesNewestFirst(x, y) {
-  // The version digits, wherever the tag puts them: "firmware-btc-only/v9.25.0"
-  // and "android-v2.8.4" have a prefix with a dash in it.
-  const version = r => String(r.ref).match(/\d+(?:\.\d+)+/) || String(r.ref).match(/\d+/);
-  const vx = version(x), vy = version(y);
-  if (!vx || !vy) return (y.analysedAt || '').localeCompare(x.analysedAt || '');
-  const nx = vx[0].split('.'), ny = vy[0].split('.');
-  for (let i = 0; i < Math.max(nx.length, ny.length); i++) {
-    const d = Number(ny[i] ?? -1) - Number(nx[i] ?? -1);
-    if (d) return d;
-  }
-  // only what follows the digits marks a pre-release, not the prefix
-  const pre = v => /alpha|beta|rc|pre|dev|snapshot/i.test(v.input.slice(v.index + v[0].length)) ? 1 : 0;
-  return pre(vx) - pre(vy);
-}
-
-// A verification's platform tag as the wallet page names its platform:
-// verifiers write linux, windows or "Android (arm64-v8a)".
-export function pagePlatform(platform) {
-  const p = String(platform || '').toLowerCase();
-  if (p.includes('android')) return 'android';
-  if (/ios|iphone/.test(p)) return 'iphone';
-  if (/linux|windows|mac|desktop/.test(p)) return 'desktop';
-  return p || null;
-}
-
-// ref -> the listings ({ appId, platform }) whose binary of that release was
-// reproduced. Only those artifacts get their dependencies shown (Leo,
-// 2026-11-09): a sibling listing that was never reproduced (the iPhone app of a
-// reproduced Android app, an older hardware model) builds from other files or
-// ships something else. verified_refs is the tag each pass resolved a verified
-// version to (reproducible.mjs); the version names the listing that verified it.
-// Returns ref -> { listings, versions }: `versions` are the names verifiers
-// typed for that release, so the panel matches a picked version by name and
-// never guesses a tag a second time.
-export function reproducedListings(db, appId, aliases = [], byApp = getReproducibleVersions(db)) {
-  const ids = [...new Set([appId, ...aliases.map(a => a.appId)])];
-  const out = new Map();
-  for (const [ref, names] of getVerifiedRefs(db, appId)) {
-    const listings = [];
-    const versions = [];
-    for (const id of ids) {
-      for (const v of byApp.get(id) || []) {
-        if (!names.includes(v.version)) continue;
-        if (!versions.includes(v.version)) versions.push(v.version);
-        const platform = pagePlatform(v.platform);
-        if (!listings.some(l => l.appId === id && l.platform === platform)) listings.push({ appId: id, platform });
-      }
-    }
-    if (listings.length) out.set(ref, { listings, versions });
-  }
-  return out;
 }
 
 // Everything the export says about one app.
@@ -364,19 +168,6 @@ export function defaultBranchCheck(db, appId) {
   };
 }
 
-// The versions of an advisory row's direct users in the lockfiles the
-// vulnerable package is in, `{ alib: ['1.2.0'] }`; undefined without
-// dependants or when none is locked there.
-export function dependantVersionsOf(v, rows, lockedAt) {
-  const names = dependantsOfRow(v.dependants) || [];
-  const out = {};
-  for (const name of names) {
-    const versions = new Set();
-    for (const d of rows) for (const version of lockedAt.get(`${d.lockfile}\0${v.ecosystem}:${name}`) || []) versions.add(version);
-    if (versions.size) out[name] = [...versions].sort();
-  }
-  return Object.keys(out).length ? out : undefined;
-}
 
 function indexEntry(app) {
   return { appId: app.appId };
@@ -521,13 +312,6 @@ export function exportApp(db, outDir, appId, { onlyReproducible = false, counts 
   return { exported: true, releases: app.releases.length, files };
 }
 
-// Which app ids the site shows: a reproducible version on any of the
-// repository's ids, and not past its end of life.
-function scopeFilter(db, aliases) {
-  const verified = getReproducibleVersions(db);
-  const endOfLife = getEndOfLife(db); // gone and no commit for years (index.mjs)
-  return (id) => !endOfLife.has(id) && [id, ...(aliases.get(id) || []).map(a => a.appId)].some(a => verified.has(a));
-}
 
 function writeAtomic(file, content) {
   const tmp = `${file}.${process.pid}.tmp`;
@@ -535,28 +319,6 @@ function writeAtomic(file, content) {
   fs.renameSync(tmp, file);
 }
 
-/**
- * The rebuild claims for one release's dependencies: rows for rebuilds.json
- * and the counts for the release entry (packages someone reproduced, packages
- * tried with no success, and per claimant). Null when nobody tried any.
- */
-export function releaseRebuilds(deps, claims) {
-  const rows = [], seen = new Set();
-  const summary = { reproduced: 0, failed: 0, byClaimant: {} };
-  for (const d of deps) {
-    const key = `${d.ecosystem}\0${d.name}\0${d.dep_version}`;
-    if (seen.has(key) || !claims.has(key)) continue;
-    seen.add(key);
-    const list = claims.get(key);
-    rows.push({ ecosystem: d.ecosystem, name: d.name, version: d.dep_version, claims: list });
-    if (list.some(c => c.result === 'reproduced')) summary.reproduced++; else summary.failed++;
-    for (const c of list) {
-      const b = summary.byClaimant[c.by] ||= { reproduced: 0, failed: 0 };
-      b[c.result]++;
-    }
-  }
-  return rows.length ? { rows, summary } : null;
-}
 
 // One app's files under dir: apps/<appId>.json, a dependencies.json per
 // release, and a stub for each alias that is not exported in its own right.

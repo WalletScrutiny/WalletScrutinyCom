@@ -76,7 +76,7 @@ function countsOfAdvisories(rows) {
 }
 
 // A row's scope on this page: its own in the files the page counts, not the
-// whole repository's (export.mjs scopesOfRows).
+// whole repository's (exportRelease.mjs scopesOfRows).
 function scopeOnPage(row, counted) {
   if (!row.scopes) return row;
   const here = counted.map(t => row.scopes[t]).filter(Boolean);
@@ -167,7 +167,7 @@ export function versionCore(s) {
 }
 
 // The app file as one listing's page shows it: only the releases reproduced
-// for that app id and platform (a release's `reproducedFor`, export.mjs), or
+// for that app id and platform (a release's `reproducedFor`, exportScope.mjs), or
 // null when there is none. The iPhone page of a wallet reproduced on Android
 // shows no dependencies: nobody built that app from source. An export that
 // names no listing on any release (SOURCE_ANALYSIS_SCOPE=all) is shown whole.
@@ -404,7 +404,7 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
     signals: signals ? { date: signals.date || null, exploited, withEpss: advisories.filter(a => a.epss != null).length } : null,
     diff: current.diffFrom || null,
     submodules: current.submodules || null,
-    // who rebuilt this release's dependencies from source (issue 992 part G; export.mjs releaseRebuilds)
+    // who rebuilt this release's dependencies from source (issue 992 part G; exportRelease.mjs releaseRebuilds)
     rebuilds: current.rebuilds || null,
     // the default branch's latest analysis, that each advisory's inDefaultBranch compares with (export.mjs)
     defaultBranch: app.defaultBranch || null,

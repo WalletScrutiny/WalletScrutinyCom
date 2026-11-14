@@ -322,8 +322,10 @@ sudo journalctl -u walletscrutiny-source-analysis.service -f | grep -A3 'Marked 
 ### Static export
 
 With `SOURCE_ANALYSIS_EXPORT_DIR` set, each pass ends by writing a static JSON
-export of the database (`export.mjs`), built in a temporary directory and
-renamed into place so a reader never sees a half-written tree:
+export of the database (`export.mjs`; the per-release summary is in
+`exportRelease.mjs`, which apps and releases are shown in `exportScope.mjs`),
+built in a temporary directory and renamed into place so a reader never sees a
+half-written tree:
 
 | file | content |
 |---|---|
