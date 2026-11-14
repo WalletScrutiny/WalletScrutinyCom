@@ -296,7 +296,7 @@ function howToRead(model) {
   } else if (model.whereUnknown) {
     parts.push(`"unknown" in the Where? column means the files do not say whether the package ends up in the app, the build tooling or the tests (${model.whereUnknown} packages). `);
   }
-  parts.push('"Used by" counts how many of the wallets we have checked ship the package in any version, and how many this exact version: a package shared by many wallets is a shared risk, not a problem with this one. ');
+  parts.push('"Used by" counts how many of the wallets we have checked ship the package in any version, and how many this exact version: a package shared by many wallets is a shared risk, not a problem with this one. A package no other checked wallet uses is marked "only this wallet", here and in the dependency tree: nobody else\'s use of it gets it looked at, so it deserves a look of its own. ');
   if (model.lockfiles.length) {
     parts.push('Files read: ');
     model.lockfiles.forEach((l, i) => { if (i) parts.push(', '); parts.push(el('code', {}, l)); });

@@ -1031,10 +1031,21 @@ a.dp-signer {
   max-width: 28em;
 }
 
-// "· 3 this version" after the wallet count, and "only this wallet"
+// "· 3 this version" after the wallet count
 .dp-products-sub {
   font-size: $font-xxs;
   color: var(--neutral-3);
+}
+
+// "only this wallet", in the Used by column and the tree: stands out from a count
+.dp-only-here {
+  font-size: $font-xxs;
+  font-weight: 600;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  padding: 0 6px;
+  white-space: nowrap;
 }
 
 .dp-more {

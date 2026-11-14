@@ -102,6 +102,15 @@ describe('dependency tree view', () => {
     assert.equal(view.querySelector('.dpt-item--group').getAttribute('aria-expanded'), 'false');
   });
 
+  test('a package no other wallet uses is marked "only this wallet", with or without an advisory (issue 1020 P17)', () => {
+    const view = treeElement({ dependencies: [dep('a', '1.0.0', { direct: true, products: 1 }), dep('c', '1.0.0', { direct: true, products: 9 }), dep('d', '1.0.0', { direct: true })], wallet: 'W' });
+    const flag = (name) => view.querySelector(`[data-package="${name}"] .dp-only-here`);
+    assert.equal(flag('a')?.textContent, 'only this wallet');
+    assert.match(flag('a').getAttribute('title'), /No other wallet we checked uses this package/);
+    assert.equal(flag('c'), null, 'shared with other wallets');
+    assert.equal(flag('d'), null, 'an export without the count says nothing');
+  });
+
   test('+ expands a group and a package, − collapses', () => {
     const view = open();
     view.querySelector('.dpt-item--group .dpt-toggle').click();

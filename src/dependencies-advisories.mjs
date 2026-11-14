@@ -319,10 +319,14 @@ function clearedTip() {
 
 // "25 · 3 this version": how many of the checked wallets ship the package at
 // all, and how many this exact version. A package only this wallet ships
-// says so instead of "1".
+// says so instead of "1", marked: nobody else's use of it gets it looked at.
+export const ONLY_HERE_TIP = 'No other wallet we checked uses this package, in any version, so nobody else\'s use of it gets it looked at. Worth a look of its own.';
+export function onlyHereFlag() {
+  return el('span', { className: 'dp-only-here', title: ONLY_HERE_TIP }, 'only this wallet');
+}
 export function usedBy(a) {
   if (a.products == null) return '–';
-  if (a.products <= 1) return el('span', { className: 'dp-products-sub' }, 'only this wallet');
+  if (a.products <= 1) return onlyHereFlag();
   const same = a.productsSameVersion;
   return el('span', {}, String(a.products), same != null ? el('span', { className: 'dp-products-sub' }, ` · ${same} this version`) : null);
 }

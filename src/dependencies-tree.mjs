@@ -9,6 +9,7 @@
 import { el } from './html-utils.mjs';
 import { whereLabel, WHERE_UNKNOWN_TIP, SEVERITY_ORDER, SEVERITY_LABEL } from './dependencies-panel-model.mjs';
 import { rebuildBadge, rebuildKey } from './dependencies-rebuilds.mjs';
+import { onlyHereFlag } from './dependencies-advisories.mjs';
 import { buildTree, childrenOf, searchNodes, GROUPS, UNREACHABLE_LABEL, MAX_MATCHES, THIS_APP, THIS_APP_LABEL, OTHER_PRODUCTS_LABEL } from './dependencies-tree-model.mjs';
 
 const OSV_URL = 'https://osv.dev/vulnerability/';
@@ -98,6 +99,8 @@ export function treeElement({ dependencies, advisories = [], wallet, rebuilds = 
         : el('span', { className: `dp-where dp-where--${node.scope}`, title: node.scope === 'unknown' ? WHERE_UNKNOWN_TIP : null }, whereLabel(node.row)),
       advisoryBadge(node),
       rebuilds ? rebuildBadge(rebuilds.get(rebuildKey(node.ecosystem, node.name, node.version))) : null,
+      // "Used by" for the rows without an advisory too: a package no other wallet uses
+      node.row.products != null && node.row.products <= 1 ? onlyHereFlag() : null,
       kids.length ? el('span', { className: 'dpt-count' }, `${kids.length} ${kids.length === 1 ? 'dependency' : 'dependencies'}`) : null,
       ambiguous ? el('span', { className: 'dpt-flag', title: 'The parent is locked at several versions in this lockfile and the file does not say which one needs this package, so it is listed under each of them.' }, 'parent version unclear') : null,
       cycle ? el('span', { className: 'dpt-flag', title: 'This package is already above on this path; expansion stops here.' }, 'cycle, not expanded') : null,

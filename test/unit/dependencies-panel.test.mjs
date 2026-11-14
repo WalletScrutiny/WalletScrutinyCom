@@ -336,6 +336,7 @@ describe('dependencies panel', () => {
     const text = (a) => { const v = usedBy(a); return typeof v === 'string' ? v : v.textContent; };
     assert.equal(text(advisory('x', 'low', { products: 25, productsSameVersion: 3 })), '25 · 3 this version');
     assert.equal(text(advisory('x', 'low', { products: 1, productsSameVersion: 1 })), 'only this wallet');
+    assert.equal(usedBy(advisory('x', 'low', { products: 1 })).className, 'dp-only-here', 'flagged, not grey like a count (issue 1020 P17)');
     assert.equal(text(advisory('x', 'low')), '–', 'an export from before the field existed');
     const rows = panelElement(panelModel({ ...APP, releases: [{ ...APP.releases[0], advisories: [advisory('GHSA-1', 'high', { products: 7, productsSameVersion: 2 })] }] }), { appId: 'app.android', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl: async () => null })
       .querySelectorAll('tbody tr');
