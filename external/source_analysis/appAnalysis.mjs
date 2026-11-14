@@ -7,7 +7,7 @@
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import { execSync, execFile } from 'child_process';
+import { execSync, execFile, execFileSync } from 'child_process';
 import { promisify } from 'util';
 import { fileURLToPath } from 'url';
 import { DEFAULT_TEMP_DIR, APP_TYPES, DEFAULT_BRANCH_REF } from './config.mjs';
@@ -52,6 +52,11 @@ export async function cloneRepository(repoUrl, targetPath, tagName = null) {
     fs.rmSync(targetPath, { recursive: true, force: true });
     fs.mkdirSync(path.dirname(targetPath), { recursive: true });
 
+    // `git clone --branch` takes a branch over a tag of the same name
+    // (SeedSigner has both a branch and a tag 0.8.6), so the tag is fetched by
+    // its full ref. A name with no tag (pinning-cli's --ref <branch>) clones
+    // as before.
+    if (tagName && fetchTag(repoUrl, targetPath, tagName)) return true;
     const branch = tagName ? `--branch ${tagName} ` : '';
     execSync(`git clone ${branch}--depth 1 ${repoUrl} "${targetPath}"`, {
       stdio: 'pipe',
@@ -61,6 +66,25 @@ export async function cloneRepository(repoUrl, targetPath, tagName = null) {
   } catch (error) {
     console.error(`Error cloning repository ${repoUrl}:`, error.message);
     return false;
+  }
+}
+
+// A shallow checkout of refs/tags/<tagName> in targetPath, with origin set for
+// relative submodule URLs. False, and nothing left behind, when the remote has
+// no such tag; any other failure throws.
+function fetchTag(repoUrl, targetPath, tagName) {
+  const git = (...args) => execFileSync('git', ['-C', targetPath, ...args], { stdio: 'pipe', timeout: 60000 });
+  fs.mkdirSync(targetPath, { recursive: true });
+  try {
+    git('init', '-q');
+    git('remote', 'add', 'origin', repoUrl);
+    git('fetch', '-q', '--depth', '1', 'origin', `refs/tags/${tagName}`);
+    git('checkout', '-q', '--detach', 'FETCH_HEAD');
+    return true;
+  } catch (error) {
+    fs.rmSync(targetPath, { recursive: true, force: true });
+    if (/couldn't find remote ref/i.test(String(error.stderr || ''))) return false;
+    throw error;
   }
 }
 

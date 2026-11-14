@@ -9,6 +9,7 @@ import path from 'path';
 import { execFileSync } from 'child_process';
 import { fileURLToPath } from 'url';
 import { buildRunArgs, containerEnv, runInContainer, pruneCache, dirSizeBytes, walletCacheDir, ANALYSIS_DIR } from '../containerRunner.mjs';
+import { cloneRepository } from '../appAnalysis.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const tmp = (p) => fs.mkdtempSync(path.join(os.tmpdir(), p));
@@ -112,6 +113,34 @@ test('containerEntry: clone + checks on a repository without a known manifest, r
   assert.deepEqual(result.failed, []);
   assert.equal(result.commit, execFileSync('git', ['-C', repo, 'rev-parse', 'v1^{commit}'], { encoding: 'utf8' }).trim(), 'the analysed commit is reported');
   assert.ok(fs.existsSync(path.join(workDir, 'repo', 'README.md')), 'checkout left for the host steps to use');
+});
+
+test('cloneRepository: the tag wins over a branch of the same name; a name with only a branch still clones it', async () => {
+  // SeedSigner 0.8.6 (#1020 P28): branch 0.8.6 is two commits past tag 0.8.6.
+  const repo = tmp('sa-repo-');
+  const g = (...args) => execFileSync('git', ['-C', repo, '-c', 'user.name=t', '-c', 'user.email=t@t', ...args], { encoding: 'utf8' }).trim();
+  g('init', '-q', '-b', 'main');
+  fs.writeFileSync(path.join(repo, 'README.md'), 'tagged\n');
+  g('add', '.');
+  g('commit', '-qm', 'release');
+  g('tag', '-a', '-m', 'release', '0.8.6');
+  const tagged = g('rev-parse', 'HEAD');
+  fs.writeFileSync(path.join(repo, 'README.md'), 'branch\n');
+  g('commit', '-qam', 'later');
+  g('branch', '0.8.6');
+  g('branch', 'dev');
+  const head = (dir) => execFileSync('git', ['-C', dir, 'rev-parse', 'HEAD'], { encoding: 'utf8' }).trim();
+
+  const atTag = path.join(tmp('sa-clone-'), 'repo');
+  assert.equal(await cloneRepository(`file://${repo}`, atTag, '0.8.6'), true);
+  assert.equal(head(atTag), tagged, 'the annotated tag\'s commit, not the branch');
+  assert.equal(fs.readFileSync(path.join(atTag, 'README.md'), 'utf8'), 'tagged\n');
+  assert.equal(execFileSync('git', ['-C', atTag, 'remote', 'get-url', 'origin'], { encoding: 'utf8' }).trim(), `file://${repo}`, 'origin set, for relative submodule URLs');
+
+  const atBranch = path.join(tmp('sa-clone-'), 'repo');
+  assert.equal(await cloneRepository(`file://${repo}`, atBranch, 'dev'), true);
+  assert.equal(head(atBranch), g('rev-parse', 'dev'));
+  assert.equal(await cloneRepository(`file://${repo}`, path.join(tmp('sa-clone-'), 'repo'), 'nope'), false);
 });
 
 test('containerEntry: a failing clone leaves ok:false and exits 1', () => {
