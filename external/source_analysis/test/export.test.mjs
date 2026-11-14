@@ -6,7 +6,7 @@ import fs from 'fs';
 import os from 'os';
 import path from 'path';
 import { initDatabase, saveDependencies, saveVulnerabilities, recordAnalysis, saveAppList, saveReproducibleVersions, saveVerifiedRef, saveSubmodules } from '../ddbbUtils.mjs';
-import { exportAll, exportApp, buildApp, loadRepositories, safeName, productPartOf, pagePlatform } from '../export.mjs';
+import { exportAll, exportApp, buildApp, loadRepositories, safeName, productPartOf, pagePlatform, reproducedListings } from '../export.mjs';
 
 const entry = (name, version, extra = {}) => ({ ecosystem: 'npm', lockfile: 'package-lock.json', name, version, resolved: `https://registry.npmjs.org/${name}/-/${name}-${version}.tgz`, integrity: `sha512-${name}${version}`, direct: true, dev: false, tier: 'hash-pinned', ...extra });
 
@@ -185,6 +185,20 @@ test('onlyReproducible: an alias in scope with no release of its own gets the st
   assert.equal(result.apps, 1);
   assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.ios.json'), 'utf8')), { schema: 1, appId: 'app.android', alias: true });
   assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'index.json'), 'utf8')).apps.map(a => a.appId), ['app.android']);
+});
+
+test('onlyReproducible: each release lists every version name verifiers typed for it', () => {
+  const db = seeded();
+  saveReproducibleVersions(db, new Map([['app.android', [
+    { version: '1.1.0-btc', verifiedAt: 3, platform: 'android' },
+    { version: '1.1.0 - Btc', verifiedAt: 2, platform: 'android' },
+    { version: '9.9.9', verifiedAt: 1, platform: 'android' },
+  ]]]));
+  saveVerifiedRef(db, 'app.android', 'v1.1.0', '1.1.0-btc');
+  saveVerifiedRef(db, 'app.android', 'v1.1.0', '1.1.0 - Btc');
+  saveVerifiedRef(db, 'app.android', 'v1.1.0', '1.1.0-gone'); // resolved once, no longer verified
+  const app = buildApp(db, 'app.android', [{ appId: 'app.android' }], undefined, undefined, { reproduced: reproducedListings(db, 'app.android', [{ appId: 'app.android' }]) });
+  assert.deepEqual(app.releases.map(r => [r.ref, r.versions]), [['v1.1.0', ['1.1.0-btc', '1.1.0 - Btc']]]);
 });
 
 test('pagePlatform: verifiers\' platform tags as the wallet page names its platforms', () => {

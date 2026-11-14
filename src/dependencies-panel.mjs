@@ -1284,7 +1284,7 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
   // Every release the panel can show gets a stone in "Every version", verified or not.
   if (selectedVersion === undefined && typeof document !== 'undefined') {
     const shown = (app?.releases || []).filter(r => r.ref && hasAnalysis(r));
-    showAnalysedReleases(document.getElementById(`buildVerifications-${platform}`), shown.map(r => r.ref));
+    showAnalysedReleases(document.getElementById(`buildVerifications-${platform}`), shown.map(r => ({ ref: r.ref, versions: r.versions })));
   }
 
   // Repainted after a statement is published, with the statement merged in,

@@ -105,7 +105,7 @@ test('analyseVerifiedVersions: newest first, capped per pass, finished ones skip
   const run = () => analyseVerifiedVersions(db, { appId: 'w', repoUrl: 'x', verified, perPass: 2, analyse, listTags: async () => tags, analyser: 't' });
 
   assert.deepEqual(await run(), ['v3.0', 'v2.0']);
-  assert.equal(getVerifiedRefs(db, 'w').get('v1.0'), '1.0', 'a version past the cap still gets its tag, for the export');
+  assert.deepEqual(getVerifiedRefs(db, 'w').get('v1.0'), ['1.0'], 'a version past the cap still gets its tag, for the export');
   assert.deepEqual(await run(), ['v1.0'], 'the next pass drains the backlog');
   assert.deepEqual(await run(), []);
   assert.deepEqual(analysed, ['v3.0', 'v2.0', 'v1.0']);
@@ -161,4 +161,21 @@ test('exportAll with onlyReproducible leaves out wallets without a reproducible 
   assert.ok(fs.existsSync(path.join(dir, 'apps', 'android.wallet.json')));
   assert.ok(!fs.existsSync(path.join(dir, 'apps', 'other.wallet.json')));
   assert.equal(exportAll(db, dir).apps, 2, 'without the option, everything analysed');
+});
+
+test('verified_refs keeps every name typed for a tag, and an old (app, ref) key is rekeyed with its rows', () => {
+  const db = initDatabase(':memory:');
+  saveVerifiedRef(db, 'w', 'v2.2.6', '2.2.6-btc');
+  saveVerifiedRef(db, 'w', 'v2.2.6', '2.2.6 - Btc');
+  saveVerifiedRef(db, 'w', 'v2.2.6', '2.2.6-btc');
+  assert.deepEqual([...getVerifiedRefs(db, 'w')], [['v2.2.6', ['2.2.6 - Btc', '2.2.6-btc']]]);
+
+  const file = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'sa-rekey-')), 'assets.db');
+  const old = initDatabase(file);
+  old.exec('DROP TABLE verified_refs; CREATE TABLE verified_refs (app_id TEXT NOT NULL, ref TEXT NOT NULL, version TEXT NOT NULL, PRIMARY KEY (app_id, ref))');
+  old.prepare('INSERT INTO verified_refs VALUES (?, ?, ?)').run('w', 'v1', '1-btc');
+  old.close();
+  const again = initDatabase(file);
+  saveVerifiedRef(again, 'w', 'v1', '1 - Btc');
+  assert.deepEqual([...getVerifiedRefs(again, 'w')], [['v1', ['1 - Btc', '1-btc']]], 'the old row kept, the second name added');
 });

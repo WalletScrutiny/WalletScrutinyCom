@@ -81,7 +81,8 @@ function isDraft(event) {
  *
  * @param {Array<{ sha256: string, summary: object }>} rows the assets table's rows, each with
  *   the `summary` paintMainAssetsTable attaches
- * @param {string[]} analysedRefs the release tags the source analysis checked (src/dependencies-panel.mjs).
+ * @param {Array<string|{ref: string, versions?: string[]}>} analysedRefs the releases the source analysis
+ *   checked (src/dependencies-panel.mjs): a tag, or the tag with the version names verifiers typed for it.
  *   A tag no version above matches gets a version of its own, with no builds, so its
  *   dependencies can be picked before anybody sends the version in.
  */
@@ -121,9 +122,12 @@ export function buildVersionTimeline(rows, analysedRefs = []) {
     version.drafts.push(...drafts);
   }
 
-  for (const ref of analysedRefs || []) {
-    const name = versionCore(ref);
-    if (!name || [...byName.values()].some(v => releaseForVersion({ releases: [{ ref }] }, v.name))) {
+  for (const analysed of analysedRefs || []) {
+    // a tag (older callers) or { ref, versions } (dependencies-panel.mjs)
+    const release = typeof analysed === 'string' ? { ref: analysed } : analysed;
+    // a named release's stone carries the name a verifier typed, so picking it finds the release
+    const name = release?.versions?.length ? normalizeVersionName(release.versions[0]) : versionCore(release?.ref);
+    if (!name || [...byName.values()].some(v => releaseForVersion({ releases: [release] }, v.name))) {
       continue;
     }
     byName.set(name, { name, key: name, builds: [], verifications: [], drafts: [], analysedOnly: true });

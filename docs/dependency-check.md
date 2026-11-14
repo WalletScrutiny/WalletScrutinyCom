@@ -310,7 +310,10 @@ app.
 - Only reproduced artifacts are shown (Leo, 2026-11-09 and 2026-11-10). The
   export keeps just the releases a verified version resolved to, each with
   `reproducedFor`: the listings (app id and page platform) whose binary of
-  that release was reproduced. A wallet page shows only the releases
+  that release was reproduced, and `versions`: every version name verifiers
+  typed for it (`3.2.0-BTC`, `3.2.0 - Btc`). The panel matches the version
+  picked in "Every version" against these names; only an export without them
+  falls back to comparing version digits. A wallet page shows only the releases
   reproduced for its own listing, so the iPhone app of a wallet reproduced on
   Android, or an older hardware model sharing the firmware repository, shows
   no dependencies. A wallet with no reproduced release analysed yet is not

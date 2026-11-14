@@ -350,6 +350,20 @@ describe('dependencies panel', () => {
     assert.equal(releaseForVersion(app, 'latest'), null);
   });
 
+  test('releaseForVersion: with the names the checker resolved, the picked name decides, not the digits (P7, P9, P20)', () => {
+    const app = { releases: [
+      { ref: '3.2.2', versions: ['3.2.2-Multi', '3.2.2 - Multi'] },
+      { ref: '2026-08-31T1604-v6.6.1QX', versions: ['6.6.1QX'] },
+      { ref: 'android-v1.4.0', versions: ['v1.4.0'] },
+    ] };
+    assert.equal(releaseForVersion(app, '3.2.2-Multi').ref, '3.2.2');
+    assert.equal(releaseForVersion(app, '3.2.2 - Multi').ref, '3.2.2', 'every name typed for the tag finds it');
+    assert.equal(releaseForVersion(app, '6.6.1QX').ref, '2026-08-31T1604-v6.6.1QX', 'a date-prefixed tag found by its name');
+    assert.equal(releaseForVersion(app, '1.4.0').ref, 'android-v1.4.0', 'a leading v is no difference, as on the version river');
+    assert.equal(releaseForVersion(app, '3.2.2'), null, 'no digit guess when the export names its releases');
+    assert.equal(releaseForVersion(app, '2026-08'), null);
+  });
+
   test('the panel follows the version picked in "Every version"', async () => {
     const older = { ...APP.releases[0], ref: 'v1.3.0', commit: 'f0f0f0f0', advisories: [advisory('GHSA-old', 'low')], vulnerabilities: { total: 1, bySeverity: { low: 1 }, packages: 1 } };
     const app = { ...APP, releases: [APP.releases[0], older, { ref: 'v1.2.0', status: 'failed', error: 'no lockfile' },

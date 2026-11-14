@@ -85,6 +85,15 @@ describe('buildVersionTimeline', () => {
     assert.equal(versionKeyOfVerification(timeline, 'nope'), null);
   });
 
+  test('a named analysed release joins the version verifiers typed, with no stone of its own (P20)', () => {
+    const timeline = buildVersionTimeline([row({ version: '6.6.1QX' })], [
+      { ref: '2026-08-31T1604-v6.6.1QX', versions: ['6.6.1QX'] },
+      { ref: '2026-09-15T1200-v6.6.2QX', versions: ['6.6.2QX'] },
+    ]);
+    assert.deepEqual(timeline.map(v => [v.name, Boolean(v.analysedOnly)]), [['6.6.1QX', false], ['6.6.2QX', true]],
+      'no "2026-08" stone; a release nobody on this page sent in is named by its verified name');
+  });
+
   test('leaves out rows without a version', () => {
     const timeline = buildVersionTimeline([
       row({ version: '' }),

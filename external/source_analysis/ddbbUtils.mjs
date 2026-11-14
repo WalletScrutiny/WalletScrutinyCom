@@ -288,9 +288,10 @@ export function initDatabase(dbPath = DB_PATH) {
       app_id TEXT NOT NULL,
       ref TEXT NOT NULL,
       version TEXT NOT NULL,
-      PRIMARY KEY (app_id, ref)
+      PRIMARY KEY (app_id, ref, version)
     );
   `);
+  rekeyVerifiedRefs(db);
 
   // Commit of the default branch the last successful analysis looked at, so a
   // pass skips repositories whose default branch has not moved since.
@@ -494,12 +495,17 @@ export function getBuildLockRefs(db, appId, version) {
 
 export function saveVerifiedRef(db, appId, ref, version) {
   db.prepare("DELETE FROM analyses WHERE app_id = ? AND kind = 'verified-no-tag' AND ref = ?").run(appId, version);
-  db.prepare('INSERT OR REPLACE INTO verified_refs (app_id, ref, version) VALUES (?, ?, ?)').run(appId, ref, version);
+  db.prepare('INSERT OR IGNORE INTO verified_refs (app_id, ref, version) VALUES (?, ?, ?)').run(appId, ref, version);
 }
 
-// ref -> verified version, for one app.
+// ref -> every verified version name resolved to it, for one app.
 export function getVerifiedRefs(db, appId) {
-  return new Map(db.prepare('SELECT ref, version FROM verified_refs WHERE app_id = ?').all(appId).map(r => [r.ref, r.version]));
+  const out = new Map();
+  for (const r of db.prepare('SELECT ref, version FROM verified_refs WHERE app_id = ? ORDER BY ref, version').all(appId)) {
+    if (!out.has(r.ref)) out.set(r.ref, []);
+    out.get(r.ref).push(r.version);
+  }
+  return out;
 }
 
 // True when a release analysis of this ref finished (ok or unsupported); a
@@ -536,6 +542,28 @@ export function clearReanalyse(db, appIds, before = null) {
   let removed = 0;
   db.transaction(() => { for (const id of appIds) removed += (before ? clear.run(id, before) : clear.run(id)).changes; })();
   return removed;
+}
+
+// verified_refs was keyed by (app, ref): a second name verifiers typed for the
+// same tag ("2.2.6-btc", "2.2.6 - Btc") replaced the first, and the panel could
+// not find the other. Keyed by (app, ref, version) every name stays; the next
+// pass adds the names the old key dropped.
+function rekeyVerifiedRefs(db) {
+  const key = db.prepare('PRAGMA table_info(verified_refs)').all().filter(c => c.pk > 0).map(c => c.name);
+  if (key.includes('version')) return;
+  db.transaction(() => {
+    db.exec(`
+      CREATE TABLE verified_refs_rekeyed (
+        app_id TEXT NOT NULL,
+        ref TEXT NOT NULL,
+        version TEXT NOT NULL,
+        PRIMARY KEY (app_id, ref, version)
+      );
+      INSERT INTO verified_refs_rekeyed (app_id, ref, version) SELECT app_id, ref, version FROM verified_refs;
+      DROP TABLE verified_refs;
+      ALTER TABLE verified_refs_rekeyed RENAME TO verified_refs;
+    `);
+  })();
 }
 
 function ensureColumn(db, table, column, type) {

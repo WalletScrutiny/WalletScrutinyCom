@@ -178,12 +178,23 @@ export function appForListing(app, appId, platform) {
   return mine.length ? { ...app, releases: mine } : null;
 }
 
+// A version name as "Every version" keys it (normalizeVersionName,
+// build-verifications-model.mjs): trimmed, without a leading "v".
+const versionName = (s) => String(s ?? '').trim().replace(/^[vV](?=\d)/, '');
+
 // The analysed release for a version picked in "Every version"
-// (src/build-verifications.mjs), or null when none was analysed. The version
-// digits must agree; only a plain version ("1.4.0") also takes a tag with a
-// suffix (v1.4.0-android), so a picked beta never shows the final release.
+// (src/build-verifications.mjs), or null when none was analysed. The export
+// lists the names verifiers typed for each release (`versions`, export.mjs),
+// resolved to its tag by the checker; the name must be one of them. Only an
+// export without names falls back to the version digits: they must agree, and
+// only a plain version ("1.4.0") also takes a tag with a suffix
+// (v1.4.0-android), so a picked beta never shows the final release.
 export function releaseForVersion(app, version) {
   const releases = Array.isArray(app?.releases) ? app.releases : [];
+  if (releases.some(r => Array.isArray(r.versions))) {
+    const name = versionName(version);
+    return (name && releases.find(r => r.versions?.some(v => versionName(v) === name))) || null;
+  }
   const core = versionCore(version);
   if (!core) return null;
   return releases.find(r => versionCore(r.ref) === core)

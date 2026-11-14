@@ -231,19 +231,24 @@ export function pagePlatform(platform) {
 // reproduced Android app, an older hardware model) builds from other files or
 // ships something else. verified_refs is the tag each pass resolved a verified
 // version to (reproducible.mjs); the version names the listing that verified it.
+// Returns ref -> { listings, versions }: `versions` are the names verifiers
+// typed for that release, so the panel matches a picked version by name and
+// never guesses a tag a second time.
 export function reproducedListings(db, appId, aliases = [], byApp = getReproducibleVersions(db)) {
   const ids = [...new Set([appId, ...aliases.map(a => a.appId)])];
   const out = new Map();
-  for (const [ref, version] of getVerifiedRefs(db, appId)) {
+  for (const [ref, names] of getVerifiedRefs(db, appId)) {
     const listings = [];
+    const versions = [];
     for (const id of ids) {
       for (const v of byApp.get(id) || []) {
-        if (v.version !== version) continue;
+        if (!names.includes(v.version)) continue;
+        if (!versions.includes(v.version)) versions.push(v.version);
         const platform = pagePlatform(v.platform);
         if (!listings.some(l => l.appId === id && l.platform === platform)) listings.push({ appId: id, platform });
       }
     }
-    if (listings.length) out.set(ref, listings);
+    if (listings.length) out.set(ref, { listings, versions });
   }
   return out;
 }
@@ -251,7 +256,8 @@ export function reproducedListings(db, appId, aliases = [], byApp = getReproduci
 // Everything the export says about one app.
 // counts: productCounts(db), passed in by exportAll so the two queries run once per export.
 // With `reproduced` (reproducedListings) only the releases in it, each with
-// `reproducedFor`; the other analyses stay in the database as early warning.
+// `reproducedFor` and `versions` (the names verifiers typed for it); the other
+// analyses stay in the database as early warning.
 export function buildApp(db, appId, aliases = [], counts = productCounts(db), sources = packageSources(db), { reproduced = null } = {}) {
   const analyses = getAnalyses(db, appId);
   const releases = [];
@@ -266,7 +272,7 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
     if (reproduced && !reproduced.has(v)) continue;
     releases.push({ ref: v, commit: null, analysedAt: null, status: 'ok', ...summarizeRelease(db, appId, v) });
   }
-  if (reproduced) for (const r of releases) r.reproducedFor = reproduced.get(r.ref);
+  if (reproduced) for (const r of releases) Object.assign(r, { reproducedFor: reproduced.get(r.ref).listings, versions: reproduced.get(r.ref).versions });
   const inDefaultBranch = defaultBranchCheck(db, appId);
   // Newest version first. Analysis time says nothing about it: releases added
   // later (backfill) are analysed last but are older. Equal versions keep their order.

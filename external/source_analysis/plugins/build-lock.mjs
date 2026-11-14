@@ -322,8 +322,8 @@ export async function checkBuildLocks({ locks = [], misnamed = [] }, pinning, op
 }
 
 /**
- * The build-lock.json files of the verified version this tag is the check
- * of: the version the pass resolved to this tag (verified_refs, which saw
+ * The build-lock.json files of the verified versions this tag is the check
+ * of: every version name the pass resolved to this tag (verified_refs, which saw
  * every tag of the repository and the platform). Before the pass mapped it
  * (a newest-release analysis runs first), only a tag that is the version
  * itself, or `v` and the version, counts: guessing from this one tag would
@@ -333,7 +333,7 @@ export function buildLockRefsForTag(db, appId, tag, { getVerifiedRefs, getReprod
   const mapped = getVerifiedRefs(db, appId).get(tag);
   const out = { locks: [], misnamed: [] };
   for (const v of getReproducibleVersions(db).get(appId) || []) {
-    if (mapped !== undefined ? v.version !== mapped : ![v.version, `v${v.version}`].includes(tag)) continue;
+    if (mapped !== undefined ? !mapped.includes(v.version) : ![v.version, `v${v.version}`].includes(tag)) continue;
     out.locks.push(...(v.buildLocks || []));
     out.misnamed.push(...(v.misnamedLocks || []));
   }
