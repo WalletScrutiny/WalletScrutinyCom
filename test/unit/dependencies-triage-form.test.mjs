@@ -91,6 +91,13 @@ describe('dependency triage form', () => {
     dialog.remove();
   });
 
+  test('the signer line names the signer as the panel does (issue 1020 P14)', async () => {
+    const dialog = openTriageDialog({ advisory: traverse, appId: 'it.airgap.vault', triage: { trusted: [pk], statements: [] }, nostr: fakeNostr(), profiles: async () => new Map([[pk, { display_name: 'Carol' }]]) });
+    await settled();
+    assert.match(dialog.querySelector('.dp-form__signer').textContent, /^Signing as Carol · this statement settles the row for this wallet\.$/);
+    dialog.remove();
+  });
+
   test('ownStatement, withStatement and publishOutcome', () => {
     const s1 = { pubkey: pk, d: 'GHSA-1|package', created_at: 1 };
     const s2 = { pubkey: pk, d: 'GHSA-1|package', created_at: 2 };

@@ -344,8 +344,9 @@ function actions(model, { appId, base, fetchImpl }) {
 // is shown so the judged one stays in sight wherever it re-sorts to.
 // Below the tiles everything starts folded behind one link; `expanded` opens
 // it, `onToggle(open)` hears the reader open or close it. `triageFailed`:
-// statements.json did not load, said in the notices.
-export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE, fetchImpl = globalThis.fetch, onJudge = null, flash = null, freshId = null, showAll = false, trusted = [], expanded = false, onToggle = null, triageFailed = false } = {}) {
+// statements.json did not load, said in the notices. `onRowsAdded(node)`:
+// rows "Show all" added under node.
+export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE, fetchImpl = globalThis.fetch, onJudge = null, flash = null, freshId = null, showAll = false, trusted = [], expanded = false, onToggle = null, triageFailed = false, onRowsAdded = null } = {}) {
   // No lockfile was read (a C/C++ release with only submodules, or a Flutter one): zeros here would read as clean.
   const tiles = !model.packages && (model.submodules || model.status === 'unsupported' || model.notInApp) ? null : el('div', { className: 'dp-tiles' },
     tile(model.packages, 'dependencies', { sub: `${model.direct} direct · ${model.transitive} transitive`, extra: historyChart(model.history) }),
@@ -357,7 +358,7 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
       : malwareFreeTile(model.malware),
   );
   const rest = [
-    treeTabs(model, advisoryTable(model, { onJudge, freshId, showAll }), { appId, base, fetchImpl, label: `${wallet} ${model.ref}` }),
+    treeTabs(model, advisoryTable(model, { onJudge, freshId, showAll, onRowsAdded }), { appId, base, fetchImpl, label: `${wallet} ${model.ref}` }),
     model.advisories.length ? trustedLine(trusted) : null,
     submodulesSection(model, { appId, base, fetchImpl }),
     howToRead(model),
@@ -591,6 +592,7 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
   const lists = { trusted: published?.trusted || [], maintainers: published?.maintainers || {} };
   // whether the reader opened the advisories and tree; kept across repaints and version picks
   let expanded = false;
+  const getProfiles = profiles === undefined ? defaultProfiles : profiles;
   const paint = (extra = {}) => {
     if (extra.showAll) expanded = true;
     if (waiting) {
@@ -607,8 +609,8 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
     model = panelModel(app, { release: release?.ref || null, selectedVersion: release ? selected : null, triage, signals, upstream, apk, platform, appId });
     if (!model) return null;
     model.verdicts = release ? verdicts : null;
-    host.replaceChildren(panelElement(model, { appId: analysisId, wallet: title || analysisId, base, fetchImpl, onJudge, trusted: lists.trusted, triageFailed: Boolean(published?.failed), expanded, onToggle: (open) => { expanded = open; }, ...extra }));
-    nameSigners(host, profiles === undefined ? defaultProfiles : profiles);
+    host.replaceChildren(panelElement(model, { appId: analysisId, wallet: title || analysisId, base, fetchImpl, onJudge, trusted: lists.trusted, triageFailed: Boolean(published?.failed), expanded, onToggle: (open) => { expanded = open; }, onRowsAdded: (node) => nameSigners(node, getProfiles), ...extra }));
+    nameSigners(host, getProfiles);
     return model;
   };
   async function onJudge(advisory, edit = null) {
@@ -621,6 +623,7 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
       triage,
       trusted: lists.trusted,
       maintainers: lists.maintainers,
+      profiles: getProfiles,
       ...(nostr ? { nostr } : {}),
       onPublished: (statement, summary) => {
         triage = withStatement(triage, statement, { appId: analysisId, trusted: lists.trusted, maintainers: lists.maintainers });

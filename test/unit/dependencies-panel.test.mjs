@@ -246,6 +246,20 @@ describe('dependencies panel', () => {
     assert.equal(cell.querySelector('.dp-decision__why').textContent, 'previously not affected in v1.3.0 (pkg 0.9.0, now 1.0.0): vulnerable code never executed (not affected, Alice) Edit');
   });
 
+  test('rows "Show all" adds name their signers like the first rows (issue 1020 P14)', async () => {
+    const me = 'a'.repeat(64);
+    const s = { id: 's9', pubkey: me, created_at: 1, d: 'GHSA-mod-9|app:app.android', vulns: ['GHSA-mod-9'], package: 'npm:pkg', via: null, app: 'app.android', status: 'not_affected', justification: 'vulnerable_code_not_in_execute_path', versions: null, content: '' };
+    const { fetchImpl } = fakeFetch({ '/x/apps/app.android.json': APP, '/xt1020/statements.json': { schema: 1, trusted: [me], statements: [s] } });
+    const host = document.createElement('div');
+    await renderDependenciesPanel({ host, appId: 'app.android', base: '/x', triageBase: '/xt1020', liveEvents: noLive, fetchImpl, profiles: async () => new Map([[me, { name: 'Alice' }]]) });
+    await new Promise(r => setTimeout(r, 0));
+    assert.equal(host.querySelector('.dp-trusted .dp-signer__name').textContent, 'Alice');
+    assert.equal(host.querySelector('tr[data-advisory="GHSA-mod-9"]'), null, 'beyond the worst rows');
+    host.querySelector('.dp-more').click();
+    await new Promise(r => setTimeout(r, 0));
+    assert.equal(host.querySelector('tr[data-advisory="GHSA-mod-9"] .dp-signer__name').textContent, 'Alice');
+  });
+
   test('signals paint "exploited in the wild" and EPSS under the severity and reorder within a severity', async () => {
     const signals = { schema: 1, date: '2026-10-16', epss: { 'CVE-A': [0.0052, 0.43], 'CVE-B': [0.3, 0.99] }, kev: { 'CVE-B': { added: '2024-01-01' } }, published: { 'GHSA-test': '2022-04-25' } };
     const app = { ...APP, releases: [{ ...APP.releases[0], advisories: APP.releases[0].advisories.map(a => (

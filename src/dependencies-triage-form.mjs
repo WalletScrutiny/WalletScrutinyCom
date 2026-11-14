@@ -22,6 +22,7 @@ import {
 import { connectNostr, ensureConnected, getUserPubkeyFromSigner, publishEvent, signEvent, nip19 } from './nostr-client.mjs';
 import { eventRelayUrls, mainRelayUrl } from './nostr-constants.mjs';
 import { SEVERITY_LABEL } from './dependencies-panel-model.mjs';
+import { profileName, defaultProfiles } from './dependencies-advisories.mjs';
 
 // Same set the command-line publisher and the build's pull use.
 export const TRIAGE_PUBLISH_RELAYS = [...new Set([mainRelayUrl, ...eventRelayUrls])];
@@ -160,6 +161,7 @@ export function publishOutcome(summary) {
  * the signed event; `summary.settles` says whether it settles the row here. `edit` is a statement shown on the row whose "Edit" was
  * clicked: the dialog opens on its subject, filled from the signer's own
  * statement there or, when the signer is someone else, from this one.
+ * `profiles(pubkeys)` finds the signer's name, as the panel's rows show it.
  * Returns the <dialog> element.
  */
 /**
@@ -176,7 +178,7 @@ export function deletionTemplate(statement, { created_at = Math.floor(Date.now()
   };
 }
 
-export function openTriageDialog({ advisory, appId, release = null, rows = [], triage = null, trusted = [], maintainers = {}, nostr = browserNostr(), onPublished = () => {}, onDeleted = () => {}, edit = null }) {
+export function openTriageDialog({ advisory, appId, release = null, rows = [], triage = null, trusted = [], maintainers = {}, nostr = browserNostr(), profiles = defaultProfiles, onPublished = () => {}, onDeleted = () => {}, edit = null }) {
   // Opened from a statement, possibly one made for another wallet: land on
   // the same direct user in this wallet.
   const editKey = edit ? (edit.via ? `via:${edit.via}` : edit.app ? `app:${appId}` : 'package') : null;
@@ -185,6 +187,8 @@ export function openTriageDialog({ advisory, appId, release = null, rows = [], t
   const trustedSet = new Set(triage?.trusted?.length ? triage.trusted : trusted);
   const maintainerMap = triage?.maintainers && Object.keys(triage.maintainers).length ? triage.maintainers : maintainers;
   let pubkey = null;
+  // the signer's profile name, as the panel's rows show it; the short npub until then
+  let signerName = '';
   let prefilledFrom = null;
 
   const radio = (name, value, label, hint, checked = false) => el('label', { className: 'dp-form__choice' },
@@ -270,7 +274,7 @@ export function openTriageDialog({ advisory, appId, release = null, rows = [], t
     }
     if (choice?.via) versionsLabel.textContent = `Versions of ${choice.via.replace(/^[a-z]+:/, '')} this holds for`;
     if (pubkey && choice) {
-      signer.textContent = `Signing as ${shortNpub(pubkey)} · ${signerWeight(advisory, choice, { pubkey, everywhere: everywhere(), appId, trusted: trustedSet, maintainers: maintainerMap })}.`;
+      signer.textContent = `Signing as ${signerName || shortNpub(pubkey)} · ${signerWeight(advisory, choice, { pubkey, everywhere: everywhere(), appId, trusted: trustedSet, maintainers: maintainerMap })}.`;
     }
   }
 
@@ -415,6 +419,13 @@ export function openTriageDialog({ advisory, appId, release = null, rows = [], t
         }
       }
       prefill();
+      if (profiles) {
+        const signed = pubkey;
+        Promise.resolve(profiles([signed])).then((found) => {
+          signerName = profileName(found?.get(signed));
+          if (signerName && pubkey === signed) syncFields();
+        }, (error) => console.debug('Statement form: signer profile not loaded', error));
+      }
     } catch (e) {
       signer.textContent = e.message || NO_EXTENSION_MESSAGE;
       signer.classList.add('dp-form__signer--none');

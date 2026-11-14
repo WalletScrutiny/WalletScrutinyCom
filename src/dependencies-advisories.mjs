@@ -170,7 +170,7 @@ export async function nameSigners(root, getProfiles = defaultProfiles) {
   }
   for (const a of links) {
     const p = profiles?.get(a.dataset.pubkey);
-    const name = p && String(p.name || p.displayName || p.display_name || '').trim();
+    const name = profileName(p);
     const picture = p && String(p.image || p.picture || '').trim();
     if (name) {
       a.querySelector('.dp-signer__name').textContent = name;
@@ -182,6 +182,12 @@ export async function nameSigners(root, getProfiles = defaultProfiles) {
       img.src = picture;
     }
   }
+}
+
+// The name a kind-0 profile gives, or '' without one: the same for the
+// rows, the trusted line and the statement form.
+export function profileName(p) {
+  return p ? String(p.name || p.displayName || p.display_name || '').trim() : '';
 }
 
 export async function defaultProfiles(pubkeys) {
@@ -336,7 +342,9 @@ const HEADER_TIPS = {
 // The worst rows, or every row with `showAll` (after a publish, so the judged
 // row stays in sight wherever it re-sorts to). "Where?" is left out when no
 // row has an answer for it (a Python wallet's requirements.txt says nothing).
-export function advisoryTable(model, { onJudge = null, freshId = null, showAll = false } = {}) {
+// `onRowsAdded(tbody)` hears the rows "Show all" adds, so their signers get
+// named like the first ones.
+export function advisoryTable(model, { onJudge = null, freshId = null, showAll = false, onRowsAdded = null } = {}) {
   if (!model.advisories.length) return null;
   const shown = showAll ? model.advisories : model.worst;
   const rest = model.advisories.slice(shown.length);
@@ -356,6 +364,7 @@ export function advisoryTable(model, { onJudge = null, freshId = null, showAll =
     more.addEventListener('click', () => {
       for (const a of rest) body.appendChild(advisoryRow(a, rowOptions));
       more.remove();
+      onRowsAdded?.(body);
     });
     wrap.appendChild(more);
   }
