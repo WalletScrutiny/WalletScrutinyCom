@@ -210,7 +210,12 @@ export function findManifests(repoPath, files = null) {
   // submodules or found on the build machine. One record per build root (the
   // topmost CMakeLists.txt, meson.build or configure.ac of a tree), so a
   // C/C++ product is never 'locked' by a stray package.json of its tooling.
-  const nativeFiles = byName(/^(CMakeLists\.txt|meson\.build|configure\.(ac|in))$/);
+  // Arduino builds count too: a PlatformIO project, or a sketch (the folder's
+  // main file is named as the folder, `wallet/wallet.ino`, or any at the top,
+  // where the folder is the checkout); LNbits' hardware wallet is one, beside
+  // the package-lock.json of its web app.
+  const isSketch = (rel) => rel.endsWith('.ino') && (!dirOf(rel) || rel.slice(rel.lastIndexOf('/') + 1) === `${dirOf(rel).split('/').pop()}.ino`);
+  const nativeFiles = [...byName(/^(CMakeLists\.txt|meson\.build|configure\.(ac|in)|platformio\.ini)$/), ...all.filter(isSketch)];
   for (const m of nativeFiles.filter(f => !nativeFiles.some(o => dirOf(o) !== dirOf(f) && isBelow(f, dirOf(o))))) {
     add('c/c++', m, null, { nativeBuild: true });
   }

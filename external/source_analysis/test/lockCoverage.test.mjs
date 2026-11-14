@@ -146,6 +146,21 @@ test('a lockfile nothing reads is unknown, not locked (Danny, 2026-10-28)', () =
   assert.equal(verdictOf({ 'package.json': NPM_DEPS, 'yarn.lock': '', 'example/go.mod': 'module x', 'example/go.sum': '' }), 'locked');
 });
 
+test('an Arduino build is a C/C++ build: a web app beside it cannot make the firmware look locked (issue 1020 P11)', () => {
+  // LNbits' hardware wallet: an Arduino sketch in wallet/, a locked npm web app in webapp/
+  const hww = repo({
+    'wallet/wallet.ino': 'void setup() {}', 'wallet/100_constants.ino': '', 'wallet/display.h': '',
+    'webapp/package.json': NPM_DEPS, 'webapp/package-lock.json': '{}',
+  });
+  const c = lockCoverage(findManifests(hww));
+  assert.equal(c.verdict, 'unknown');
+  assert.deepEqual(c.unread, [{ ecosystem: 'c/c++', manifest: 'wallet/wallet.ino', lockfile: null }], 'one record per sketch');
+  assert.equal(lockCoverage(findManifests(repo({ 'platformio.ini': '[env:esp32]', 'src/main.cpp': '' }))).verdict, 'unknown');
+  assert.equal(lockCoverage(findManifests(repo({ 'Firmware.ino': '' }))).verdict, 'unknown', 'a sketch at the top of the checkout');
+  // a library's example sketch is not the product
+  assert.equal(lockCoverage(findManifests(repo({ 'package.json': NPM_DEPS, 'package-lock.json': '{}', 'examples/Blink/Blink.ino': '' }))).verdict, 'locked');
+});
+
 test('a C/C++ build is unknown: tooling manifests cannot make firmware look locked', () => {
   const firmware = repo({
     'CMakeLists.txt': 'project(fw)', 'components/wally/CMakeLists.txt': '', 'components/wally/upstream/configure.ac': '',

@@ -406,7 +406,8 @@ Weak points, as an attacker would use them (Danny's red-team round):
   SwiftPM, Go, Carthage, pip, gradle) with its lockfile or none, and gives
   each analysis a verdict: `locked`, `unlocked`, `unknown` (locked, but by a
   lockfile this check does not read, such as `go.sum` or `Podfile.lock`, or
-  a C/C++ build, which has no lockfile format), or `none` (no manifest
+  a C/C++ build, which has no lockfile format: CMake, meson, autotools, or
+  an Arduino sketch or PlatformIO project), or `none` (no manifest
   found, dependencies unknown). Gradle has no lockfile by default: a build
   that declares only exact versions resolves the same set every time and
   counts as locked (Leo, 2026-10-26, on Schildbach's wallet); a range
