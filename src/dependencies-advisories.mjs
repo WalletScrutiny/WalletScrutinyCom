@@ -264,8 +264,10 @@ function upstreamLine(h) {
 // judged on other versions than this row's (dependency-triage.mjs,
 // versionChanges), shown on the reopened row so re-checking starts from it.
 export function staleLabel({ statement: s, release, changes }) {
-  const what = changes.filter(c => c.what !== 'release').map(c => `${c.what} ${c.was}, now ${c.now}`);
-  const why = what.length ? ` (${what.join('; ')})` : ' (versions not recorded there, check again)';
+  const which = changes.find(c => c.what === 'which');
+  const what = changes.filter(c => c.what !== 'release' && c.what !== 'which').map(c => `${c.what} ${c.was}, now ${c.now}`);
+  const why = which ? ` (it shipped ${which.package} ${which.was} and the statement does not say which it judged, check again)`
+    : what.length ? ` (${what.join('; ')})` : ' (versions not recorded there, check again)';
   return `previously ${TRIAGE_LABEL[s.status]}${release ? ` in ${release}` : ''}${why}`;
 }
 

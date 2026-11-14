@@ -274,6 +274,20 @@ export function viaVersionsOf(advisory, via) {
 
 const versionList = (v) => [...new Set(String(v || '').split(',').map(x => x.trim()).filter(Boolean))];
 
+// Whether a text names a version: "4.0.3" in "secp256k1 4.0.3 via hdkey", not in "14.0.3" or "4.0.31".
+function namesVersion(text, version) {
+  const escaped = version.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return new RegExp(`(?<![0-9A-Za-z.])${escaped}(?![0-9A-Za-z]|\\.\\d)`).test(String(text || ''));
+}
+
+// The rows a statement on a direct user `via` was judged on: those that
+// direct user requires. A row that does not record its dependants is kept.
+export function rowsOfVia(rows, via) {
+  if (!via) return rows;
+  const name = String(via).replace(/^[a-z]+:/, '');
+  return rows.filter(a => !Array.isArray(a.dependants) || a.dependants.includes(name));
+}
+
 // The release that was current when a statement was made: the newest one
 // published on or before its day (releases are newest first). A release
 // without a publication date counts from the day it was analysed, which is
@@ -289,12 +303,17 @@ function releaseAt(releases, createdAt) {
 
 /**
  * What a statement was judged on, `{ release, packageVersions, viaVersions,
- * legacy }` (lists: one version each for a statement with the tags), or
+ * legacy, unsure }` (lists: one version each for a statement with the tags), or
  * null when it holds whatever the versions (a library-wide statement written
  * before the version tags, or no releases to place it in). A wallet
  * statement without them counts as made on the release that was current at
- * the time (Dan, 2026-11-06), on the versions of every row of that release
- * it concerns: a release can ship the package twice (bn.js 4 and 5).
+ * the time (Dan, 2026-11-06), on the versions of the rows of that release
+ * it concerns: a release can ship the package twice (bn.js 4 and 5). One on
+ * a direct user takes only the rows that direct user requires. Of several
+ * versions, only those its reasoning names: AirGap's statement on secp256k1
+ * 4.0.3 via hdkey does not settle 5.0.0 via @airgap/icp (issue 1020 P13); one
+ * on the wallet's own use that names none of them cannot say which it
+ * judged (`unsure`).
  * `releases` are the wallet's analysed releases, newest first.
  */
 export function statementBasis(s, releases = []) {
@@ -303,12 +322,17 @@ export function statementBasis(s, releases = []) {
   }
   if (!s.app || !releases.length) return null;
   const release = releaseAt(releases, s.created_at);
-  const rows = (release?.advisories || []).filter(a => statementConcerns(s, a));
+  let rows = rowsOfVia((release?.advisories || []).filter(a => statementConcerns(s, a)), s.via);
+  const versions = [...new Set(rows.map(a => a.version).filter(Boolean))];
+  const named = versions.length > 1 ? versions.filter(v => namesVersion(s.content, v)) : versions;
+  if (named.length) rows = rows.filter(a => named.includes(a.version));
   return {
     release: release?.ref || null,
-    packageVersions: [...new Set(rows.map(a => a.version).filter(Boolean))],
+    packageVersions: named.length ? named : versions,
     viaVersions: s.via ? [...new Set(rows.flatMap(a => viaVersionsOf(a, s.via)))].sort() : [],
     legacy: true,
+    // on a direct user, every copy it requires (bn.js 4 and 5 via @ethereumjs/util)
+    ...(!s.via && !named.length && versions.length > 1 ? { unsure: true } : {}),
   };
 }
 
@@ -317,12 +341,14 @@ export function statementBasis(s, releases = []) {
  * `[{ what, was, now }]` (empty when it still holds): the vulnerable
  * package's version, the direct user's. A version either side does not
  * record is not compared. A legacy wallet statement whose release had no
- * row it concerns cannot be checked, and is reported as `release`.
+ * row it concerns cannot be checked, and is reported as `release`; one that
+ * cannot say which of its release's versions it judged, as `which`.
  */
 export function versionChanges(s, advisory, releases = []) {
   const basis = statementBasis(s, releases);
   if (!basis) return [];
   if (basis.legacy && !basis.packageVersions.length) return [{ what: 'release', was: basis.release, now: null }];
+  if (basis.unsure) return [{ what: 'which', package: advisory.package || 'package', was: basis.packageVersions.join(', '), now: advisory.version || null }];
   const changes = [];
   if (basis.packageVersions.length && advisory.version && !basis.packageVersions.includes(advisory.version)) {
     changes.push({ what: advisory.package || 'package', was: basis.packageVersions.join(', '), now: advisory.version });

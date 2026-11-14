@@ -5,7 +5,7 @@ import { finalizeEvent, generateSecretKey, getPublicKey } from 'nostr-tools';
 
 import { statementFields, signerWeight, ownStatement, publishOutcome, openTriageDialog, NO_EXTENSION_MESSAGE, judgedOn } from '../../src/dependencies-triage-form.mjs';
 import { statementChoices, withStatement, triageTemplate, statementFromEvent, evidenceUrl } from '../../src/dependency-triage.mjs';
-import { renderDependenciesPanel, publishedFlash } from '../../src/dependencies-panel.mjs';
+import { renderDependenciesPanel, publishedFlash, staleLabel } from '../../src/dependencies-panel.mjs';
 
 const traverse = { id: 'GHSA-67hx-6x53-jw92', aliases: ['CVE-2023-45133'], ecosystem: 'npm', package: '@babel/traverse', version: '7.22.10', severity: 'critical', summary: 'arbitrary code execution', direct: false, dependants: ['@babel/core', '@babel/helpers'] };
 
@@ -371,6 +371,18 @@ describe('dependency triage form', () => {
       ['release', 'v3.35.0'], ['package-version', '7.22.10'], ['via-version', '7.23.0'],
     ]);
     host.remove();
+  });
+
+  test('judgedOn: a statement on a direct user records only the rows that direct user requires (issue 1020 P13)', () => {
+    const secp = (version, via) => ({ id: 'GHSA-584q-6j8j-r5pm', ecosystem: 'npm', package: 'secp256k1', version, dependants: [via], dependantVersions: { [via]: ['1.0.0'] } });
+    const [old, icp] = [secp('4.0.3', 'hdkey'), secp('5.0.0', '@airgap/icp')];
+    assert.deepEqual(judgedOn(old, { via: 'npm:hdkey', app: 'w', release: 'v3.34.4', rows: [old, icp] }), { release: 'v3.34.4', packageVersion: '4.0.3', viaVersion: '1.0.0' });
+    assert.equal(judgedOn(old, { app: 'w', release: 'v3.34.4', rows: [old, icp] }).packageVersion, '4.0.3,5.0.0', 'the wallet\'s own use covers both');
+  });
+
+  test('staleLabel: a statement that cannot say which version it judged', () => {
+    const label = staleLabel({ statement: { status: 'not_affected' }, release: 'v3.34.4', changes: [{ what: 'which', package: 'secp256k1', was: '4.0.3, 5.0.0', now: '5.0.0' }] });
+    assert.equal(label, 'previously not affected in v3.34.4 (it shipped secp256k1 4.0.3, 5.0.0 and the statement does not say which it judged, check again)');
   });
 });
 

@@ -156,9 +156,15 @@ compared: the export names the direct users' versions per row
 (`dependantVersions`) only from this change on, so older exports compare the
 package's version alone. A wallet statement written before the tags counts
 as made on the release that was current at the time (the newest one
-published, or for an undated release analysed, on or before its day), on the versions of every row of that
-release it concerns (a release can ship bn.js 4 and 5). A library-wide
-statement without the tags still holds for every version.
+published, or for an undated release analysed, on or before its day), on the versions of the rows of that
+release it concerns (a release can ship bn.js 4 and 5). One on a direct
+user takes only the rows that direct user requires. When that release
+ships the package in several versions, it holds for those its reasoning
+names: AirGap's secp256k1 statement names 4.0.3 (via hdkey), so 5.0.0 (via
+`@airgap/icp`) is open again. A statement on the wallet's own use that
+names none of them says "does not say which it judged" on each row. The
+statement form records only the rows of the chosen direct user, too. A
+library-wide statement without the tags still holds for every version.
 
 Who signed decides the weight, not whether a statement is kept:
 `_data/dependencyTriage.yml` lists the authors whose statements settle rows

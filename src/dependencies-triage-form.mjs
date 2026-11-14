@@ -16,7 +16,7 @@
 import { waitNostr } from 'nip07-awaiter';
 import { el } from './html-utils.mjs';
 import {
-  dependencyTriageKind, triageTemplate, statementFromEvent, statementChoices, statementScope, triageSubject, evidenceUrl, viaVersionsOf,
+  dependencyTriageKind, triageTemplate, statementFromEvent, statementChoices, statementScope, triageSubject, evidenceUrl, viaVersionsOf, rowsOfVia,
   TRIAGE_STATUSES, TRIAGE_LABEL, TRIAGE_JUSTIFICATIONS, JUSTIFICATION_LABEL,
 } from './dependency-triage.mjs';
 import { connectNostr, ensureConnected, getUserPubkeyFromSigner, publishEvent, signEvent, nip19 } from './nostr-client.mjs';
@@ -92,7 +92,8 @@ export function statementFields(advisory, { choice, everywhere = false, status, 
  * in it. Fields the rows do not know are left out.
  */
 export function judgedOn(advisory, { via = null, app = null, release = null, rows = [] } = {}) {
-  const same = [advisory, ...rows.filter(r => r !== advisory && r.id === advisory.id && r.ecosystem === advisory.ecosystem && r.package === advisory.package)];
+  // on a direct user, only the rows it requires (issue 1020 P13)
+  const same = [advisory, ...rowsOfVia(rows.filter(r => r !== advisory && r.id === advisory.id && r.ecosystem === advisory.ecosystem && r.package === advisory.package), via)];
   const out = {};
   if (release && app) out.release = release;
   const packageVersions = [...new Set(same.map(r => r.version).filter(Boolean))].sort();

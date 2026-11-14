@@ -303,6 +303,43 @@ describe('dependency triage statements: the versions they were judged on', () =>
     assert.equal(statementBasis(legacy, undated).release, 'v3.36.0', 'a release without a publication date counts from its analysis');
   });
 
+  test('a statement without versions settles only the versions it can have judged (issue 1020 P13)', () => {
+    const day = (iso) => Math.floor(Date.parse(iso) / 1000);
+    // AirGap v3.34.4: secp256k1 4.0.3 via hdkey and 5.0.0 via @airgap/icp; the statement reasoned about 4.0.3
+    const secp = (version, via) => ({ id: 'GHSA-584q-6j8j-r5pm', aliases: ['CVE-2024-48930'], ecosystem: 'npm', package: 'secp256k1', version, severity: 'high', direct: false, dependants: [via], dependantVersions: { [via]: ['1.0.0'] } });
+    const old = secp('4.0.3', 'hdkey');
+    const icp = secp('5.0.0', '@airgap/icp');
+    const releases = [{ ref: 'v3.34.4', releasedAt: '2026-10-01', advisories: [old, icp] }];
+    const at = day('2026-10-16T10:00:00Z');
+    const own = (content) => stmt({ vulns: ['GHSA-584q-6j8j-r5pm'], pkg: 'npm:secp256k1', app: 'it.airgap.vault', status: 'not_affected', content }, sk, at);
+    // its reasoning names 4.0.3 (and the fix, 4.0.4, which the release does not ship)
+    const named = own('secp256k1 4.0.3 via hdkey: the flaw is in ecdh(), nothing calls it. The fix is in-range at 4.0.4.');
+    assert.deepEqual(statementBasis(named, releases).packageVersions, ['4.0.3']);
+    assert.equal(resolveRow(old, [named], { appIds, trusted, releases }).decision?.status, 'not_affected');
+    const reopened = resolveRow(icp, [named], { appIds, trusted, releases });
+    assert.equal(reopened.decision, null, '5.0.0 is not what it judged');
+    assert.deepEqual(reopened.stale[0].changes, [{ what: 'secp256k1', was: '4.0.3', now: '5.0.0' }]);
+    // one naming both holds for both (AirGap's bn.js 4.12.0 and 5.2.2); "14.0.3" names no 4.0.3
+    const both = own('4.0.3 (hdkey) and 5.0.0 (@airgap/icp): only sign and verify are called.');
+    assert.equal(resolveRow(icp, [both], { appIds, trusted, releases }).decision?.status, 'not_affected');
+    // one naming neither cannot say which it judged
+    const unnamed = own('Only sign and verify are called, as of node 14.0.3.');
+    assert.equal(statementBasis(unnamed, releases).unsure, true);
+    for (const row of [old, icp]) {
+      const r = resolveRow(row, [unnamed], { appIds, trusted, releases });
+      assert.equal(r.decision, null, `${row.version} is not settled`);
+      assert.deepEqual(r.stale[0].changes, [{ what: 'which', package: 'secp256k1', was: '4.0.3, 5.0.0', now: row.version }]);
+    }
+    // one version in its release: as before
+    const single = [{ ref: 'v3.34.4', releasedAt: '2026-10-01', advisories: [old] }];
+    assert.equal(resolveRow(old, [unnamed], { appIds, trusted, releases: single }).decision?.status, 'not_affected');
+    // a statement on a direct user takes only the rows that direct user requires
+    const viaHdkey = stmt({ vulns: ['GHSA-584q-6j8j-r5pm'], pkg: 'npm:secp256k1', via: 'npm:hdkey', app: 'it.airgap.vault', status: 'not_affected' }, sk, day('2026-10-16T10:00:00Z'));
+    assert.deepEqual(statementBasis(viaHdkey, releases).packageVersions, ['4.0.3']);
+    assert.equal(resolveRow(old, [viaHdkey], { appIds, trusted, releases }).decision?.status, 'not_affected');
+    assert.equal(resolveRow(icp, [viaHdkey], { appIds, trusted, releases }).decision, null);
+  });
+
   test('a statement written on one bn.js row records every bn.js version of the release, so it settles both', () => {
     const s = judged({ packageVersion: '4.12.0,5.2.2', viaVersion: '7.0.0,9.1.0' });
     assert.equal(resolveRow(bn('5.2.2'), [s], { appIds, trusted }).decision?.status, 'not_affected');
