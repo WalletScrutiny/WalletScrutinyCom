@@ -25,7 +25,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { groupByRepository } from './appList.mjs';
 import { hintsByApp } from './upstreamTriage.mjs';
-import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources, getSubmodules, getRebuildClaims, getDefaultBranch, DEFAULT_BRANCH_REF } from './ddbbUtils.mjs';
+import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources, getSubmodules, getRebuildClaims, getDefaultBranch, getReproducibleVersions, DEFAULT_BRANCH_REF } from './ddbbUtils.mjs';
 import { partOfFile, productPartOf, targetOfLockfile, targetsOfLockfiles, unlistedFiles, useRepositories } from './products.mjs';
 import { scopeOfRow, partOfLockfiles, scopesOfRows, submoduleRow, summarizeRelease, analysisEntry, compareReleasesNewestFirst, dependantVersionsOf, releaseRebuilds } from './exportRelease.mjs';
 import { reproducedListings, scopeFilter } from './exportScope.mjs';
@@ -186,24 +186,48 @@ export function loadRepositories(db) {
   return new Map(jobs.map(j => [j.appId, j.aliases.map(a => ({ appId: a.appId, platform: a.platform }))]));
 }
 
+// Every app with an analysis or stored dependency rows.
+function analysedAppIds(db) {
+  return new Set([...listAnalysedApps(db), ...db.prepare('SELECT DISTINCT app_id FROM app_dependencies').all().map(r => r.app_id)]);
+}
+
+// The releases an export with onlyReproducible writes, as [appId, ref] pairs:
+// the reproduced ones (reproducedListings) of every app in scope.
+export function exportedReleases(db, aliases = loadRepositories(db)) {
+  const inScope = scopeFilter(db, aliases);
+  const byApp = getReproducibleVersions(db);
+  const out = [];
+  for (const appId of analysedAppIds(db)) {
+    if (!inScope(appId)) continue;
+    for (const ref of reproducedListings(db, appId, aliases.get(appId) || [], byApp).keys()) out.push([appId, ref]);
+  }
+  return out;
+}
+
 // How many products ship each package (any version) and each exact version:
 // "12 products use libX, 3 use libX 0.2.3". Keyed by ecosystem:name and
-// ecosystem:name@version.
-export function productCounts(db) {
+// ecosystem:name@version. With `releases` ([appId, ref] pairs, exportedReleases)
+// only those releases count: "Used by" names wallets the site shows, not every
+// analysed app in the database (issue 1020 P18).
+export function productCounts(db, releases = null) {
   const byName = new Map();
   const byVersion = new Map();
+  const from = releases
+    ? `json_each(?) j JOIN app_dependencies d ON d.app_id = j.value ->> 0 AND d.version = j.value ->> 1 JOIN packages p ON p.id = d.package_id`
+    : 'app_dependencies d JOIN packages p ON p.id = d.package_id';
+  const params = releases ? [JSON.stringify(releases), DEFAULT_BRANCH_REF] : [DEFAULT_BRANCH_REF];
   const rows = db.prepare(`
     SELECT p.ecosystem, p.name, p.version, COUNT(DISTINCT d.app_id) AS products
-    FROM app_dependencies d JOIN packages p ON p.id = d.package_id
+    FROM ${from}
     WHERE d.version != ?
     GROUP BY p.ecosystem, p.name, p.version
-  `).all(DEFAULT_BRANCH_REF);
+  `).all(...params);
   const apps = db.prepare(`
     SELECT p.ecosystem, p.name, COUNT(DISTINCT d.app_id) AS products
-    FROM app_dependencies d JOIN packages p ON p.id = d.package_id
+    FROM ${from}
     WHERE d.version != ?
     GROUP BY p.ecosystem, p.name
-  `).all(DEFAULT_BRANCH_REF);
+  `).all(...params);
   for (const r of apps) byName.set(`${r.ecosystem}:${r.name}`, r.products);
   for (const r of rows) byVersion.set(`${r.ecosystem}:${r.name}@${r.version}`, r.products);
   return { byName, byVersion };
@@ -237,7 +261,7 @@ export function exportAll(db, outDir, { onlyReproducible = false } = {}) {
   const parent = path.dirname(path.resolve(outDir));
   fs.mkdirSync(parent, { recursive: true });
   const tmp = fs.mkdtempSync(path.join(parent, '.export-'));
-  let appIds = new Set([...listAnalysedApps(db), ...db.prepare('SELECT DISTINCT app_id FROM app_dependencies').all().map(r => r.app_id)]);
+  let appIds = analysedAppIds(db);
   // Out of scope (no reproducible version, reproducible.mjs, or past its end of life): the rows stay in
   // the database as supplementary data, the site does not show them.
   if (onlyReproducible) {
@@ -245,7 +269,7 @@ export function exportAll(db, outDir, { onlyReproducible = false } = {}) {
     appIds = new Set([...appIds].filter(inScope));
   }
   const index = { schema: SCHEMA, apps: [] };
-  const counts = productCounts(db);
+  const counts = productCounts(db, onlyReproducible ? exportedReleases(db, aliases) : null);
   const sources = packageSources(db);
   const rebuilds = getRebuildClaims(db);
   let releases = 0;
@@ -295,8 +319,9 @@ export function exportAll(db, outDir, { onlyReproducible = false } = {}) {
  * Returns { exported: false } for an app out of scope or with no reproduced release, else
  * { exported: true, releases, files } with the paths (relative to outDir) to publish.
  */
-export function exportApp(db, outDir, appId, { onlyReproducible = false, counts = productCounts(db), sources = packageSources(db) } = {}) {
+export function exportApp(db, outDir, appId, { onlyReproducible = false, counts = null, sources = packageSources(db) } = {}) {
   const aliases = loadRepositories(db);
+  counts ??= productCounts(db, onlyReproducible ? exportedReleases(db, aliases) : null);
   if (onlyReproducible && !scopeFilter(db, aliases)(appId)) return { exported: false };
   const indexFile = path.join(outDir, 'index.json');
   let index = null;

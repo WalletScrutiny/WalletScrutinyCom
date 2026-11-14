@@ -23,7 +23,7 @@
 import fs from 'fs';
 import path from 'path';
 import { recheckStoredReleases } from './recheck.mjs';
-import { exportApp, productCounts } from './export.mjs';
+import { exportApp, exportedReleases, productCounts } from './export.mjs';
 import { packageSources } from './ddbbUtils.mjs';
 import { publishFiles, markerPathFor, readMarker, writeMarker, exportFiles, newestExportFile } from './publish.mjs';
 import { buildSignals } from './signals.mjs';
@@ -71,7 +71,7 @@ export async function refreshAdvisories(db, { exportDir = null, onlyReproducible
   }
   const files = new Set();
   if (recheck.changed.length) {
-    const counts = productCounts(db);
+    const counts = productCounts(db, onlyReproducible ? exportedReleases(db) : null);
     const sources = packageSources(db);
     for (const appId of recheck.changed) {
       const app = exportApp(db, exportDir, appId, { onlyReproducible, counts, sources });

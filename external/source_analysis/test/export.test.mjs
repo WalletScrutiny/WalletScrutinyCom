@@ -187,6 +187,32 @@ test('onlyReproducible: only reproduced releases, each naming the listings it wa
   assert.equal(buildApp(db, 'app.android', [{ appId: 'app.android' }, { appId: 'app.ios' }]).releases.length, 2);
 });
 
+test('onlyReproducible: "Used by" counts only the wallets and releases the export shows (issue 1020 P18)', () => {
+  const db = seeded();
+  saveReproducibleVersions(db, new Map([['app.android', [{ version: '1.1.0', verifiedAt: 2, platform: 'Android (arm64-v8a)' }]]]));
+  saveVerifiedRef(db, 'app.android', 'v1.1.0', '1.1.0');
+  const usedBy = (opts) => {
+    const dir = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'sa-export-')), 'export');
+    exportAll(db, dir, opts);
+    const exported = JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.android.json'), 'utf8')).releases.find(r => r.ref === 'v1.1.0');
+    const dep = JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.android', 'v1.1.0', 'dependencies.json'), 'utf8')).dependencies.find(d => d.name === 'a');
+    const single = exportApp(db, dir, 'app.android', opts);
+    assert.equal(single.exported, true);
+    const again = JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.android.json'), 'utf8')).releases.find(r => r.ref === 'v1.1.0');
+    assert.deepEqual(again.advisories[0].products, exported.advisories[0].products, 'exportApp counts as exportAll does');
+    return [exported.advisories[0].products, exported.advisories[0].productsSameVersion, dep.products];
+  };
+  // app.other has a@1.0.1 in the database but is not shown: out of scope
+  assert.deepEqual(usedBy({ onlyReproducible: true }), [1, 1, 1]);
+  assert.deepEqual(usedBy({}), [2, 2, 2], 'an export of everything counts everything, as before');
+  // in scope, but its release with a@1.0.1 is not one the export shows
+  saveReproducibleVersions(db, new Map([['app.android', [{ version: '1.1.0', verifiedAt: 2, platform: 'Android (arm64-v8a)' }]], ['app.other', [{ version: '9', verifiedAt: 2, platform: 'android' }]]]));
+  assert.deepEqual(usedBy({ onlyReproducible: true }), [1, 1, 1]);
+  saveVerifiedRef(db, 'app.other', 'v9', '9');
+  recordAnalysis(db, { appId: 'app.other', kind: 'release', ref: 'v9', commit: 'c9', status: 'ok', appType: 'npm', analyser: 't' });
+  assert.deepEqual(usedBy({ onlyReproducible: true }), [2, 2, 2]);
+});
+
 test('onlyReproducible: an alias in scope with no release of its own gets the stub (Passport Batch 2)', () => {
   const db = seeded();
   // the iPhone listing is in scope and analysed, but every reproduced ref sits under app.android

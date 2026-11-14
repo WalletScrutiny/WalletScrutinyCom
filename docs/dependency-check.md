@@ -585,7 +585,8 @@ in the scanner.
 Next to each advisory the panel shows "Used by": how many of the checked
 wallets ship the package in any version, and how many this exact version
 (`products` / `productsSameVersion` on every advisory and dependency row of
-the export). A package shared by twenty wallets is a shared risk, not a
+the export). Only the wallets and releases the site shows count; an analysed
+app out of scope, or a release nobody reproduced, does not. A package shared by twenty wallets is a shared risk, not a
 finding against one of them, and the number also says where a fix helps most.
 
 Rules that follow:
