@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "dependencies": [
+    {
+      "ecosystem": "npm",
+      "name": "a",
+      "version": "1.0.0",
+      "lockfile": "package-lock.json",
+      "tier": "hash-pinned",
+      "direct": true,
+      "scope": "app",
+      "dependants": null,
+      "products": 2,
+      "productsSameVersion": 1
+    },
+    {
+      "ecosystem": "npm",
+      "name": "b",
+      "version": "2.0.0",
+      "lockfile": "package-lock.json",
+      "tier": "hash-pinned",
+      "direct": false,
+      "scope": "tests",
+      "dependants": null,
+      "products": 1,
+      "productsSameVersion": 1
+    }
+  ]
+}

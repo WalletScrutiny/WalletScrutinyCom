@@ -29,6 +29,12 @@ and `cache/` (all ignored by git). Nothing else is written. Docker (or podman,
 `SOURCE_ANALYSIS_CONTAINER_CLI=podman`) is required: every repository is
 analysed inside a container, see [Sandbox](#sandbox).
 
+`test/goldenExport.test.mjs` exports a small fixed database and compares every
+file with `test/fixtures/golden-export/`, so a change to what the site reads
+fails even where no unit test looks. When the change is intended, rewrite the
+saved files with `GOLDEN_UPDATE=1 node --test test/goldenExport.test.mjs` and
+review their diff like code.
+
 ## Install and run as a systemd service
 
 The service runs on the build server in its own tree, `/opt/source_analysis`,

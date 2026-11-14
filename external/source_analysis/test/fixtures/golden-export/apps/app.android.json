@@ -1,0 +1,164 @@
+{
+  "schema": 1,
+  "appId": "app.android",
+  "aliases": [
+    {
+      "appId": "app.android",
+      "platform": "android"
+    },
+    {
+      "appId": "app.ios",
+      "platform": "iphone"
+    }
+  ],
+  "releases": [
+    {
+      "ref": "v1.1.0",
+      "commit": "c2",
+      "analysedAt": "2026-10-01 00:00:00",
+      "status": "ok",
+      "lockfiles": [
+        "package-lock.json"
+      ],
+      "osv": {
+        "skipped": {
+          "floating": 1
+        }
+      },
+      "dependencies": {
+        "total": 2,
+        "direct": 2,
+        "byScope": {
+          "app": 1,
+          "build": 0,
+          "tests": 0,
+          "unknown": 1
+        },
+        "byEcosystem": {
+          "npm": 2
+        },
+        "lockfiles": [
+          "package-lock.json"
+        ],
+        "sorting": {
+          "status": "none"
+        }
+      },
+      "vulnerabilities": {
+        "bySeverity": {
+          "malicious": 0,
+          "critical": 0,
+          "high": 1,
+          "moderate": 0,
+          "low": 0,
+          "unknown": 0
+        },
+        "byScope": {
+          "app": 1,
+          "build": 0,
+          "tests": 0,
+          "unknown": 0
+        }
+      },
+      "reproducedFor": [
+        {
+          "appId": "app.android",
+          "platform": "android"
+        }
+      ],
+      "versions": [
+        "1.1.0-btc",
+        "1.1.0 - Btc"
+      ],
+      "advisories": [
+        {
+          "id": "GHSA-aaaa",
+          "severity": "high",
+          "aliases": [
+            "CVE-2026-1"
+          ],
+          "summary": "bad",
+          "ecosystem": "npm",
+          "package": "a",
+          "version": "1.0.1",
+          "fixed": [
+            "1.0.2"
+          ],
+          "direct": true,
+          "scope": "app",
+          "dependants": null,
+          "products": 2,
+          "productsSameVersion": 2
+        }
+      ],
+      "diffFrom": {
+        "ref": "v1.0.0",
+        "added": 1,
+        "removed": 1,
+        "changed": 1,
+        "integrityChangedAtSameVersion": []
+      }
+    },
+    {
+      "ref": "v1.0.0",
+      "commit": "c1",
+      "analysedAt": "2026-10-01 00:00:00",
+      "status": "ok",
+      "lockfiles": [
+        "package-lock.json"
+      ],
+      "osv": {
+        "skipped": {}
+      },
+      "dependencies": {
+        "total": 2,
+        "direct": 1,
+        "byScope": {
+          "app": 1,
+          "build": 0,
+          "tests": 1,
+          "unknown": 0
+        },
+        "byEcosystem": {
+          "npm": 2
+        },
+        "lockfiles": [
+          "package-lock.json"
+        ],
+        "sorting": {
+          "status": "none"
+        }
+      },
+      "vulnerabilities": {
+        "bySeverity": {
+          "malicious": 0,
+          "critical": 0,
+          "high": 0,
+          "moderate": 0,
+          "low": 0,
+          "unknown": 0
+        },
+        "byScope": {
+          "app": 0,
+          "build": 0,
+          "tests": 0,
+          "unknown": 0
+        }
+      },
+      "reproducedFor": [
+        {
+          "appId": "app.android",
+          "platform": "android"
+        },
+        {
+          "appId": "app.ios",
+          "platform": "iphone"
+        }
+      ],
+      "versions": [
+        "1.0.0"
+      ],
+      "advisories": []
+    }
+  ]
+}
