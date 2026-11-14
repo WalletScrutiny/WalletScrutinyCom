@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import { reproducibleVersions, pageRelay, loadReproducible, verifiedVersionsOf, inScope, tagOfVersion, analyseVerifiedVersions } from '../reproducible.mjs';
+import { reproducibleVersions, pageRelay, queryRelays, loadReproducible, verifiedVersionsOf, inScope, tagOfVersion, analyseVerifiedVersions } from '../reproducible.mjs';
 import { initDatabase, recordAnalysis, getAnalyses, saveAppList, saveReproducibleVersions, getReproducibleVersions, saveVerifiedRef, getVerifiedRefs, releasesToReanalyse } from '../ddbbUtils.mjs';
 import { exportAll, reproducedListings } from '../export.mjs';
 
@@ -68,6 +68,25 @@ test('loadReproducible: fresh from the relays, cached copy when they fail, error
   const cached = await loadReproducible(db, { query: async () => { throw new Error('offline'); } });
   assert.equal(cached.source, 'cache');
   assert.deepEqual(cached.byApp.get('w'), [{ version: '1.0', verifiedAt: 100, platform: 'android' }]);
+});
+
+test('a read without the main relay keeps the cached verifications (#1020 P6)', async () => {
+  // A relay that cannot be reached answers with nothing. A smaller relay holds
+  // only part of the events (nos.lol, primal): cached, they would drop wallet.two from scope.
+  const held = { 'wss://main/': [verification('a', 'wallet.one', '1.0', 'reproducible', 100), verification('a', 'wallet.two', '2.0', 'reproducible', 90)],
+    'wss://small/': [verification('a', 'wallet.one', '1.0', 'reproducible', 100)] };
+  held['wss://main/'].forEach((e, i) => { e.id = `m${i}`; });
+  held['wss://small/'][0].id = 'm0';
+  const relays = ['wss://main/', 'wss://small/'];
+  const reading = (down) => async ([relay], f) => (relay === down ? [] : held[relay].filter(e => f.until === undefined || e.created_at < f.until));
+  const query = (down) => (r, f) => queryRelays(r, f, { querySync: reading(down) });
+  const db = tmpDb();
+  assert.equal((await loadReproducible(db, { relays, query: query(null) })).byApp.size, 2);
+  const partial = await loadReproducible(db, { relays, query: query('wss://main/') });
+  assert.equal(partial.source, 'cache');
+  assert.match(partial.error, /main relay wss:\/\/main\/ returned no events/);
+  assert.deepEqual([...partial.byApp.keys()].sort(), ['wallet.one', 'wallet.two']);
+  assert.equal((await loadReproducible(db, { relays, query: query('wss://small/') })).source, 'relays', 'another relay down is fine');
 });
 
 test('pageRelay: pages a capped relay with until down to its oldest event', async () => {

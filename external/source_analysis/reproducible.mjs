@@ -64,17 +64,25 @@ export async function pageRelay(querySync, relay, filter) {
   }
 }
 
-// Paged per relay, because each relay stops at a different cap.
-export async function queryRelays(relays, filter) {
-  if (typeof WebSocket !== 'function') throw new Error('this Node has no WebSocket (needs Node 22 or later)');
-  const { SimplePool } = await import('nostr-tools/pool');
-  const pool = new SimplePool();
-  const querySync = (urls, f) => pool.querySync(urls, f, { maxWait: 20000 });
+// Paged per relay, because each relay stops at a different cap. The first
+// relay is the main one, which holds every verification: a relay that cannot
+// be reached answers with nothing, not an error, and without the main relay
+// the others' smaller copies would replace the cached set and drop versions
+// from scope, so that throws. `querySync` is for tests.
+export async function queryRelays(relays, filter, { querySync = null } = {}) {
+  let pool = null;
+  if (!querySync) {
+    if (typeof WebSocket !== 'function') throw new Error('this Node has no WebSocket (needs Node 22 or later)');
+    const { SimplePool } = await import('nostr-tools/pool');
+    pool = new SimplePool();
+    querySync = (urls, f) => pool.querySync(urls, f, { maxWait: 20000 });
+  }
   try {
     const pages = await Promise.all(relays.map(relay => pageRelay(querySync, relay, filter)));
+    if (relays.length > 1 && !pages[0].length) throw new Error(`the main relay ${relays[0]} returned no events`);
     return [...new Map(pages.flat().map(e => [e.id, e])).values()];
   } finally {
-    pool.close(relays);
+    pool?.close(relays);
   }
 }
 
