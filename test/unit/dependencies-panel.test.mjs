@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import { loadApp, renderDependenciesPanel, liveTriageEvents, triageAuthors, panelElement, usedBy, severityTally, coverageTipLines, historyScale, vulnerabilityTipLines } from '../../src/dependencies-panel.mjs';
 import { panelModel, releaseForVersion, appForListing } from '../../src/dependencies-panel-model.mjs';
 import { nip19 } from 'nostr-tools';
-import { viaLine } from '../../src/dependencies-panel.mjs';
+import { viaLine, submoduleIdentityText } from '../../src/dependencies-panel.mjs';
 import { severityCell } from '../../src/dependencies-advisories.mjs';
 
 const shortNpub = (pk) => { const n = nip19.npubEncode(pk); return `${n.slice(0, 10)}…${n.slice(-4)}`; };
@@ -525,6 +525,11 @@ describe('dependencies panel: git submodules', () => {
   ];
   // A C/C++ wallet: no lockfile the check reads, so the analysis is "unsupported", but its submodules were checked.
   const CPP = { schema: 1, appId: 'cpp.wallet', aliases: [], defaultBranch: null, releases: [{ kind: 'release', ref: '2.9.1', commit: 'f'.repeat(40), status: 'unsupported', advisories: [], submodules: SUBS }] };
+
+  test('a submodule git could not read says why, not only the end of git\'s advice (issue 1020 P19)', () => {
+    assert.equal(submoduleIdentityText({ error: 'and the repository exists.' }), 'Could not be checked: git could not read the repository (no access to it, or it does not exist).', 'a row stored before the fix (Keystone 3 Pro)');
+    assert.equal(submoduleIdentityText({ error: 'git@github.com: Permission denied (publickey). Could not read from remote repository.' }), 'Could not be checked: git@github.com: Permission denied (publickey). Could not read from remote repository.');
+  });
 
   test('a release with packages never says that no lockfile was found', () => {
     // Bitkey: its app type is unknown, so "unsupported", but its lockfiles were read.

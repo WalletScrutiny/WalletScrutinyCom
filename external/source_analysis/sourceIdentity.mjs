@@ -39,6 +39,18 @@ export function lsRemoteTags(repoUrl, { run = spawnGit } = {}) {
 
 // Without --refs git also prints the peeled `^{}` line of annotated tags,
 // which parseLsRemote prefers: that is the commit, not the tag object.
+// What went wrong, from git's stderr: its last "fatal:" or "error:" line,
+// after the line before it when that one is not git's (ssh's "Permission
+// denied (publickey)."). Not the advice git prints last, which alone read
+// "and the repository exists." on Keystone's submodules (issue 1020 P19).
+export function gitErrorLine(stderr) {
+  const lines = String(stderr || '').split('\n').map(l => l.trim()).filter(Boolean);
+  const i = lines.findLastIndex(l => /^(fatal|error):/i.test(l));
+  if (i < 0) return lines.pop() || '';
+  const before = i > 0 && !/^(fatal|error|warning|hint|remote):|^Cloning into /i.test(lines[i - 1]) ? `${lines[i - 1]} ` : '';
+  return `${before}${lines[i].replace(/^(fatal|error):\s*/i, '')}`;
+}
+
 function spawnGit(a) {
   return new Promise((resolve, reject) => {
     const child = spawn('git', a, { env: { ...process.env, GIT_TERMINAL_PROMPT: '0', GIT_ASKPASS: 'true' }, stdio: ['ignore', 'pipe', 'pipe'] });
@@ -46,7 +58,7 @@ function spawnGit(a) {
     const timer = setTimeout(() => child.kill('SIGKILL'), TIMEOUT_MS);
     child.stdout.on('data', d => { out += d; });
     child.stderr.on('data', d => { err += d; });
-    child.on('close', code => { clearTimeout(timer); code === 0 ? resolve(out) : reject(new Error(err.trim().split('\n').pop() || `git exit ${code}`)); });
+    child.on('close', code => { clearTimeout(timer); code === 0 ? resolve(out) : reject(new Error(gitErrorLine(err) || `git exit ${code}`)); });
   });
 }
 

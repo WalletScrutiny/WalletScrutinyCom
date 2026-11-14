@@ -79,7 +79,7 @@ test('pypiRepo prefers a source key on a code host, normalises the name, skips f
   assert.equal((await pypiRepo('\0p\0y', never)).note, 'not a package name');
 });
 
-import { parseLsRemote, matchTag, identityOf, isRange } from '../sourceIdentity.mjs';
+import { parseLsRemote, matchTag, identityOf, isRange, gitErrorLine } from '../sourceIdentity.mjs';
 
 test('identity: annotated tags peel to the commit; monorepo tags prefer the package-qualified one', () => {
   const a = 'a'.repeat(40), b = 'b'.repeat(40), c = 'c'.repeat(40);
@@ -135,4 +135,14 @@ test('identity scan: osv-scanner packages, one repo lookup per name and one tag 
   assert.deepEqual(calls, { resolve: 2, tags: 1 });
   assert.deepEqual(result.byStatus, { 'tag-found': 1, 'no-tag': 1, range: 1, 'no-repo': 1, unsupported: 1 });
   assert.equal(result.packages.find(p => p.name === 'a' && p.version === '1.0.0').tag, 'v1.0.0');
+});
+
+// Issue 1020 P19: Keystone's submodule said only "and the repository exists."
+test('gitErrorLine: what failed, not the advice git prints last', () => {
+  const ssh = "Cloning into 'x'...\ngit@github.com: Permission denied (publickey).\r\nfatal: Could not read from remote repository.\n\nPlease make sure you have the correct access rights\nand the repository exists.\n";
+  assert.equal(gitErrorLine(ssh), 'git@github.com: Permission denied (publickey). Could not read from remote repository.');
+  assert.equal(gitErrorLine('fatal: repository \'https://github.com/o/gone/\' not found\n'), "repository 'https://github.com/o/gone/' not found");
+  assert.equal(gitErrorLine('warning: x\nerror: RPC failed\nfatal: early EOF\n'), 'early EOF', 'git\'s own line before it is not repeated');
+  assert.equal(gitErrorLine('something odd\n'), 'something odd', 'no fatal line: the last one, as before');
+  assert.equal(gitErrorLine(''), '');
 });

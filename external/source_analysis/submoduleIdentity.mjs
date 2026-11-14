@@ -28,7 +28,7 @@ import { spawn } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
-import { lsRemoteTags } from './sourceIdentity.mjs';
+import { lsRemoteTags, gitErrorLine } from './sourceIdentity.mjs';
 import { normaliseRepoUrl } from './sourceRepos.mjs';
 import { OSV_API } from './plugins/osv.mjs';
 
@@ -220,7 +220,7 @@ export function git(args, { cwd, env = {}, allowFail = false } = {}) {
       clearTimeout(timer);
       if (code === 0) resolve(out);
       else if (allowFail) resolve(null);
-      else reject(new Error(`git ${args[0]}: ${err.trim().split('\n').pop() || `exit ${code}`}`));
+      else reject(new Error(`git ${args[0]}: ${gitErrorLine(err) || `exit ${code}`}`));
     });
   });
 }

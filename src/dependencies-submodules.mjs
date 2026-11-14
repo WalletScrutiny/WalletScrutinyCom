@@ -7,10 +7,15 @@ import { fetchJson } from './dependencies-data.mjs';
 import { plural } from './dependencies-tiles.mjs';
 import { OSV_URL } from './dependencies-advisories.mjs';
 
+// Rows checked before issue 1020 P19 kept only the end of git's advice
+// ("Please make sure you have the correct access rights / and the
+// repository exists."); say what it means.
+const GIT_ADVICE_TAIL = 'and the repository exists.';
+
 // Submodule rows (external/source_analysis/submoduleIdentity.mjs), as words.
 export function submoduleIdentityText(r) {
   const id = r.identity || {};
-  if (r.error) return `Could not be checked: ${r.error}`;
+  if (r.error) return `Could not be checked: ${r.error === GIT_ADVICE_TAIL ? 'git could not read the repository (no access to it, or it does not exist).' : r.error}`;
   if (r.firstParty) return "The wallet's own code";
   switch (id.status) {
     case 'upstream-tag': return `Upstream release ${id.tag}, unmodified${id.viaTree ? ' (same files, other history)' : ''}`;
