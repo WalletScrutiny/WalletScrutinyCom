@@ -156,10 +156,17 @@ describe('dependencies panel', () => {
     // Bitcoin Core v32.1: three pip packages read, the C/C++ build part not
     const core = { ...APP, releases: [{ ...APP.releases[0], advisories: [], vulnerabilities: { bySeverity: {} }, osv: { skipped: {} },
       lockCoverage: { verdict: 'unlocked', missing: [], missingCount: 0, unread: [{ ecosystem: 'c/c++', manifest: 'CMakeLists.txt', lockfile: null }], unreadCount: 1, floating: 0, downloads: [], downloadCount: 0, binaries: [], binaryCount: 0 } }] };
-    const tab = (app) => panelElement(panelModel(app), { appId: 'app.android', base: '/x', fetchImpl: async () => null }).querySelector('.dp-tabpanel').textContent;
+    const tab = (app) => panelElement(panelModel(app), { appId: 'app.android', base: '/x', fetchImpl: async () => null }).querySelector('.dp-tabpanel > .dpt-intro:last-child').textContent;
     assert.match(tab(core), /^No published advisories found in the part of this release this check could read\. The rest was not checked \(see the note above\), so this is not "none"\.$/);
     const locked = { ...core, releases: [{ ...core.releases[0], lockCoverage: { ...core.releases[0].lockCoverage, verdict: 'locked', unread: [], unreadCount: 0 } }] };
     assert.match(tab(locked), /^No published advisories found for this release\.$/, 'everything read: none found');
+  });
+
+  test('the Advisories tab says its rows come from the source\'s dependency files (issue 1020 P26)', () => {
+    const source = (app) => panelElement(panelModel(app), { appId: 'app.android', base: '/x', fetchImpl: async () => null }).querySelector('.dp-tabpanel .dp-advisories-source').textContent;
+    assert.equal(source(APP), 'From the dependency files (lockfiles) in this release\'s source code, not from the build that was reproduced; the released app itself was not checked for these packages.');
+    const withLock = { ...APP, releases: [{ ...APP.releases[0], buildLock: { files: [], misnamed: [], platforms: { android: { modules: 12 } } } }] };
+    assert.match(source(withLock), /^From the dependency files in this release's source code and the verifier's build-lock\.json;/, 'a build download list adds rows of the build');
   });
 
   test('a failed re-check is noted next to the kept result, which still shows (issue 998)', async () => {

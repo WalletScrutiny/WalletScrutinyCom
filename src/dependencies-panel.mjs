@@ -425,7 +425,7 @@ function treeTabs(model, table, { appId, base, fetchImpl, label }) {
   const dir = `${base}/apps/${safeName(appId)}/${safeName(model.ref)}`;
   const treePane = el('div', { className: 'dp-tabpanel', role: 'tabpanel', hidden: true }, el('p', { className: 'dpt-intro' }, 'Loading the dependency list…'));
   const rebuildPane = el('div', { className: 'dp-tabpanel', role: 'tabpanel', hidden: true }, el('p', { className: 'dpt-intro' }, 'Loading the rebuild results…'));
-  const tablePane = el('div', { className: 'dp-tabpanel', role: 'tabpanel' }, table || el('p', { className: 'dpt-intro' }, noAdvisoriesText(model)));
+  const tablePane = el('div', { className: 'dp-tabpanel', role: 'tabpanel' }, advisoriesSource(model), table || el('p', { className: 'dpt-intro' }, noAdvisoriesText(model)));
   const select = (i) => {
     tabs.forEach((t, j) => { t.setAttribute('aria-selected', String(i === j)); t.tabIndex = i === j ? 0 : -1; panes[j].hidden = i !== j; });
     if (i >= 1 && !loaded) {
@@ -456,6 +456,15 @@ function treeTabs(model, table, { appId, base, fetchImpl, label }) {
     tabs.push(tab); panes.push(pane);
   });
   return el('div', { className: 'dp-tabs' }, el('div', { className: 'dp-tablist', role: 'tablist' }, tabs), ...panes);
+}
+
+// Where the Advisories tab's rows come from (issue 1020 P26): the tile says
+// the released app was not checked, the tab itself said nothing.
+export function advisoriesSource(model) {
+  const from = model.buildLock?.modules != null
+    ? 'From the dependency files in this release\'s source code and the verifier\'s build-lock.json'
+    : 'From the dependency files (lockfiles) in this release\'s source code, not from the build that was reproduced';
+  return el('p', { className: 'dpt-intro dp-advisories-source' }, `${from}${model.apk ? '.' : '; the released app itself was not checked for these packages.'}`);
 }
 
 // An empty Advisories tab: "none found" only when the check read the whole
