@@ -263,6 +263,25 @@ test('gradle: verification metadata replaces covered declarations', () => {
   assert.equal(byName(gradle.entries, 'org.c:range').tier, 'floating');
 });
 
+test('gradle: "test" inside another word is not a test configuration (testnet flavour, a "latest" block)', () => {
+  const dir = fixture({
+    'app/build.gradle': [
+      'dependencies {',
+      "  testnetImplementation 'org.bitcoinj:bitcoinj-core:0.16.3'",
+      '}',
+      'useLatest {',
+      '  dependencies {',
+      "    implementation 'com.squareup.okhttp3:okhttp:4.12.0'",
+      '  }',
+      '}',
+    ].join('\n'),
+  });
+  const [gradle] = quiet(() => analyzePinning(dir));
+  const scopes = Object.fromEntries(gradle.entries.map(e => [e.name, e.scope]));
+  assert.equal(scopes['org.bitcoinj:bitcoinj-core'], 'app');
+  assert.equal(scopes['com.squareup.okhttp3:okhttp'], 'app');
+});
+
 test('gradle: a declaration added only to test configurations is tests, from the catalog too (issue 1020 P23)', () => {
   const dir = fixture({
     'app/build.gradle.kts': [

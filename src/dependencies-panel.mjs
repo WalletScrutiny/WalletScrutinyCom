@@ -386,7 +386,7 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
 
 // "See 38 Advisories and Dependency Tree": the count is the advisory tile's.
 export function detailsLinkText(model, open = false) {
-  const n = (model.advisories || []).filter(a => a.severity !== 'malicious').length;
+  const n = (model.advisories || []).filter(a => a.severity !== 'malicious' && a.severity !== 'informational').length;
   const what = !model.packages ? 'Details'
     : n ? `${open ? '' : `${n} `}${n === 1 ? 'Advisory' : 'Advisories'} and Dependency Tree` : 'Dependency Tree';
   return `${open ? 'Hide' : 'See'} ${what}`;

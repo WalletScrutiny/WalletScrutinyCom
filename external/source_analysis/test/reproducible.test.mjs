@@ -214,6 +214,19 @@ test('analyseVerifiedVersions: a tag moved since its analysis is analysed again;
   assert.deepEqual(await run(), [], 'analysed at the new commit: done');
 });
 
+test('analyseVerifiedVersions: a moved tag whose new analysis failed is not retried every pass', async () => {
+  const db = tmpDb();
+  recordAnalysis(db, { appId: 'w', kind: 'release', ref: 'v2.3.7', commit: '6733f28', status: 'ok', analyser: 't' });
+  const tags = new Map([['v2.3.7', 'fead13a']]);
+  const verified = [{ version: '2.3.7', verifiedAt: 3 }];
+  const tried = [];
+  const analyse = async (tag) => { tried.push(tag); recordAnalysis(db, { appId: 'w', kind: 'release', ref: tag, commit: tags.get(tag), status: 'failed', error: 'boom', analyser: 't' }); };
+  const run = () => analyseVerifiedVersions(db, { appId: 'w', repoUrl: 'x', verified, perPass: 5, analyse, listTags: async () => tags, analyser: 't' });
+  await run();
+  await run();
+  assert.deepEqual(tried, ['v2.3.7'], 'one try at the new commit, then the old ok analysis stands');
+});
+
 test('analyseVerifiedVersions rebuilds an app\'s verified_refs each pass: a stale tag for a name goes, a failed tag listing keeps the rows', async () => {
   const db = tmpDb();
   const tags = new Map([['firmware/v9.25.0', 'a'], ['firmware-btc-only/v9.25.0', 'b']]);

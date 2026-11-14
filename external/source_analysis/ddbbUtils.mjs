@@ -534,10 +534,13 @@ export function getVerifiedRefs(db, appId) {
 // failed one is retried. With `commit` (where the tag points now), an analysis
 // of another commit does not count: the tag was moved (Envoy v2.3.7 was
 // recreated a day after its analysis). One with no recorded commit (older
-// analyses) still counts.
+// analyses) still counts, and so does a moved tag whose new analysis failed
+// since: it is not retried every pass at the cost of other versions' slots.
 export function hasReleaseAnalysis(db, appId, ref, commit = null) {
-  const row = db.prepare("SELECT commit_sha FROM analyses WHERE app_id = ? AND kind = 'release' AND ref = ? AND status != 'failed'").get(appId, ref);
-  return Boolean(row) && !(commit && row.commit_sha && row.commit_sha !== commit);
+  const row = db.prepare("SELECT commit_sha, analysed_at, failed_attempt_at FROM analyses WHERE app_id = ? AND kind = 'release' AND ref = ? AND status != 'failed'").get(appId, ref);
+  if (!row) return false;
+  const moved = commit && row.commit_sha && row.commit_sha !== commit;
+  return !moved || Boolean(row.failed_attempt_at && row.failed_attempt_at >= row.analysed_at);
 }
 
 // The release tags --reanalyse runs again for an app: the newest GitHub

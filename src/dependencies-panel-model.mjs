@@ -98,7 +98,7 @@ function notInAppOf(dependencies, rows, counted, platform) {
   return {
     labels: others.map(([target]) => TARGET_LABELS[target] || target),
     libraries,
-    advisories: hits.filter(a => a.severity !== 'malicious').length,
+    advisories: hits.filter(a => a.severity !== 'malicious' && a.severity !== 'informational').length,
     malware: hits.filter(a => a.severity === 'malicious').length,
   };
 }

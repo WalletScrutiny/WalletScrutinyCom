@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import { loadApp, renderDependenciesPanel, liveTriageEvents, triageAuthors, panelElement, usedBy, severityTally, coverageTipLines, historyScale, vulnerabilityTipLines } from '../../src/dependencies-panel.mjs';
 import { panelModel, releaseForVersion, appForListing } from '../../src/dependencies-panel-model.mjs';
 import { nip19 } from 'nostr-tools';
-import { viaLine, submoduleIdentityText } from '../../src/dependencies-panel.mjs';
+import { viaLine, submoduleIdentityText, detailsLinkText } from '../../src/dependencies-panel.mjs';
 import { severityCell } from '../../src/dependencies-advisories.mjs';
 
 const shortNpub = (pk) => { const n = nip19.npubEncode(pk); return `${n.slice(0, 10)}…${n.slice(-4)}`; };
@@ -388,6 +388,7 @@ describe('dependencies panel', () => {
     assert.doesNotMatch(tile.textContent, /notice · /, 'no severity line for notices');
     assert.equal(model.advisories.at(-1).id, 'RUSTSEC-2023-0089', 'listed last');
     assert.equal(severityCell(notice).querySelector('.dp-sev').textContent, 'Notice');
+    assert.equal(detailsLinkText(model), 'See 13 Advisories and Dependency Tree', 'the link counts what the tile counts');
   });
 
   test('a malicious package is a lead being checked, called out above everything else', () => {

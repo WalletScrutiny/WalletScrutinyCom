@@ -865,6 +865,10 @@ function analyzeGradle(repoPath) {
   return result;
 }
 
+// "test" as its own word part: testImplementation, androidTestImplementation,
+// commonTest, kaptTest; not testnetImplementation or a "latest" block.
+const TEST_NAME = /(?:^|[^A-Za-z])test(?![a-z])|[a-z]Test(?![a-z])/;
+
 /**
  * The configurations each gradle declaration is added to, read from the build
  * files: `testImplementation 'junit:junit:4.13.2'`, `androidTestImplementation(libs.androidx.test.ext.junit)`.
@@ -894,7 +898,7 @@ class GradleUsages {
         blocks.push({ ...open.pop(), end: i });
       }
     }
-    const inTestBlock = (index) => blocks.some(b => b.start < index && index < b.end && /test/i.test(b.header));
+    const inTestBlock = (index) => blocks.some(b => b.start < index && index < b.end && TEST_NAME.test(b.header));
     const configuration = (index) => {
       const before = text.slice(text.lastIndexOf('\n', index) + 1, index);
       const m = before.match(/([A-Za-z]\w*)\s*\(?\s*(?:(?:project\.dependencies\.)?(?:platform|enforcedPlatform|project)\s*\(\s*)?$/);
@@ -913,7 +917,7 @@ class GradleUsages {
   onlyTests(key) {
     const confs = [...(this.byKey.get(key) || [])];
     for (const [accessor, k] of this.catalog) if (k === key) confs.push(...(this.byAccessor.get(accessor) || []));
-    return confs.length > 0 && confs.every(c => /test/i.test(c));
+    return confs.length > 0 && confs.every(c => c === 'test' || TEST_NAME.test(c));
   }
 }
 

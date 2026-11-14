@@ -219,8 +219,9 @@ export function clearAdvisoryCache() {
 
 // The records an unrated advisory aliases, for their rating: OSV.dev often
 // returns only the RUSTSEC or PYSEC record of an issue whose GHSA is rated.
-// An alias OSV.dev does not know is remembered as null; any other failure
-// leaves the advisory unrated this time, it does not fail the lookup.
+// An alias that fails (unknown to OSV.dev, or OSV.dev not answering) is
+// remembered as null for the rest of the run, so a slow /vulns costs each
+// alias one try per run; the advisory stays unrated, the lookup does not fail.
 const aliasCache = new Map(); // id -> Promise<advisory|null>
 
 async function fetchAliases(details, fetchImpl) {
@@ -232,10 +233,7 @@ async function fetchAliases(details, fetchImpl) {
   const out = new Map();
   for (const id of wanted) {
     if (!aliasCache.has(id)) {
-      aliasCache.set(id, request(fetchImpl, `${OSV_API}/vulns/${encodeURIComponent(id)}`).catch((error) => {
-        if (!/HTTP 404$/.test(error.message)) aliasCache.delete(id);
-        return null;
-      }));
+      aliasCache.set(id, request(fetchImpl, `${OSV_API}/vulns/${encodeURIComponent(id)}`).catch(() => null));
     }
     const record = await aliasCache.get(id);
     if (record) out.set(id, record);
