@@ -2612,8 +2612,14 @@ if (typeof window !== 'undefined') {
   window.createAuthorizationEvent = createAuthorizationEvent;
   window.getTagValue = getTagValue;
   window.parseHashListInput = parseHashListInput;
-  window.addEventListener('beforeunload', () => {
-    cleanupNostrConnections();
+  // Only when the page really goes: beforeunload also fires for a leave the
+  // reader cancels or a link that turns into a download, and a page restored
+  // from the back/forward cache lives on. Either way the page stayed with no
+  // pool, and every later read failed with "Nostr pool not initialized"
+  // (issue 1020 P27). A page kept in that cache keeps its pool; closed
+  // relays reconnect on the next read.
+  window.addEventListener('pagehide', (event) => {
+    if (!event.persisted) cleanupNostrConnections();
   });
 }
 

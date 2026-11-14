@@ -18,6 +18,7 @@ import {
   verificationKind,
 } from '../../src/nostr-constants.mjs';
 import { HASH_A, HASH_B, HASH_C, makeAsset, makeEvent, makeVerification } from './fixtures.mjs';
+import { connectNostr, disconnectNostr, getPool } from '../../src/nostr-client.mjs';
 
 const ATTACHMENT_ID_A = 'a'.repeat(64);
 const ATTACHMENT_ID_B = 'b'.repeat(64);
@@ -427,5 +428,26 @@ describe('showSiteAdminMenuItems', () => {
       assert.equal(showSiteAdminMenuItems(pubkey, forOther), false);
       assert.equal(forOther.querySelector('[data-site-admin-only]').style.display, 'none');
     }
+  });
+});
+
+describe('the shared Nostr pool on leaving the page', () => {
+  const hide = (persisted) => {
+    const event = new window.Event('pagehide');
+    Object.defineProperty(event, 'persisted', { value: persisted });
+    window.dispatchEvent(event);
+  };
+
+  test('stays while the page stays, and goes with the page (issue 1020 P27)', async () => {
+    await connectNostr({ relayUrls: [] });
+    const pool = getPool();
+    assert.ok(pool);
+    window.dispatchEvent(new window.Event('beforeunload'));
+    assert.equal(getPool(), pool, 'a leave the reader cancels, or a download link, keeps the pool');
+    hide(true);
+    assert.equal(getPool(), pool, 'a page kept in the back/forward cache keeps it');
+    hide(false);
+    assert.equal(getPool(), null, 'a page that goes closes it');
+    await disconnectNostr();
   });
 });
