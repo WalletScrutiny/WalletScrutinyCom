@@ -226,7 +226,8 @@ export async function analyseVerifiedVersions(db, { appId, repoUrl, verified, pe
       continue;
     }
     if (done.includes(tag)) continue;
-    if (redo ? redo.includes(tag) : hasReleaseAnalysis(db, appId, tag)) continue;
+    // the tag's commit now: a moved tag is analysed again
+    if (redo ? redo.includes(tag) : hasReleaseAnalysis(db, appId, tag, tags.get?.(tag) || null)) continue;
     if (!redo && done.length >= perPass) {
       left++;
       continue;

@@ -116,6 +116,20 @@ test('analyseVerifiedVersions: newest first, capped per pass, finished ones skip
   assert.deepEqual(await analyseVerifiedVersions(db, { appId: 'w', repoUrl: 'x', verified, perPass: 2, analyse, listTags: async () => { throw new Error('gone'); } }), []);
 });
 
+test('analyseVerifiedVersions: a tag moved since its analysis is analysed again; one with no recorded commit is not', async () => {
+  // Envoy v2.3.7 (#1020 P5): analysed at 6733f28, then the tag was recreated at fead13a.
+  const db = tmpDb();
+  recordAnalysis(db, { appId: 'w', kind: 'release', ref: 'v2.3.7', commit: '6733f28', status: 'ok', analyser: 't' });
+  recordAnalysis(db, { appId: 'w', kind: 'release', ref: 'v2.3.6', commit: 'b', status: 'ok', analyser: 't' });
+  recordAnalysis(db, { appId: 'w', kind: 'release', ref: 'v2.3.5', status: 'ok', analyser: 't' });
+  const tags = new Map([['v2.3.7', 'fead13a'], ['v2.3.6', 'b'], ['v2.3.5', 'c']]);
+  const verified = [{ version: '2.3.7', verifiedAt: 3 }, { version: '2.3.6', verifiedAt: 2 }, { version: '2.3.5', verifiedAt: 1 }];
+  const analyse = async (tag) => recordAnalysis(db, { appId: 'w', kind: 'release', ref: tag, commit: tags.get(tag), status: 'ok', analyser: 't' });
+  const run = () => analyseVerifiedVersions(db, { appId: 'w', repoUrl: 'x', verified, perPass: 5, analyse, listTags: async () => tags, analyser: 't' });
+  assert.deepEqual(await run(), ['v2.3.7']);
+  assert.deepEqual(await run(), [], 'analysed at the new commit: done');
+});
+
 test('analyseVerifiedVersions rebuilds an app\'s verified_refs each pass: a stale tag for a name goes, a failed tag listing keeps the rows', async () => {
   const db = tmpDb();
   const tags = new Map([['firmware/v9.25.0', 'a'], ['firmware-btc-only/v9.25.0', 'b']]);

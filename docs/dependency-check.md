@@ -301,7 +301,8 @@ app.
   it, newest verification first, up to `SOURCE_ANALYSIS_VERIFIED_PER_PASS`
   (default 3) per wallet and pass; the backlog drains over the next passes.
   Tags come from `git ls-remote`, so this works on any host, not only
-  GitHub. A version no tag names is recorded (`verified-no-tag`) and exported
+  GitHub. A tag that points at another commit than its analysis did (the
+  maker moved it) is analysed again. A version no tag names is recorded (`verified-no-tag`) and exported
   as `verifiedWithoutTag`; a wrong tag would be worse than none, so two
   candidates without a platform or flavour hint resolve to nothing. The
   newest-release and default-branch analyses still run for in-scope wallets,
