@@ -220,6 +220,11 @@ function notices(model, { triageFailed = false } = {}) {
     const f = model.recheckFailed;
     items.push(`A re-check of ${model.ref} on ${dateOf(f.at)} failed${f.error ? ` (${f.error})` : ''}; what is shown is from the check that worked${model.analysedAt ? `, on ${dateOf(model.analysedAt)}` : ''}.`);
   }
+  // One "reproducible" from anyone is enough to show a version (#1020 P4); say when others found it not reproducible.
+  const v = model.selectedVersion ? model.verdicts : null;
+  if (v?.reproducible && v.notReproducible) {
+    items.push(`${plural(v.notReproducible, 'verification')} of version ${model.selectedVersion} found it not reproducible, and ${v.reproducible} found it reproducible. Its dependencies are shown because one reproducible verification is enough; each verdict is under "Every version".`);
+  }
   for (const f of model.selectedVersion ? [] : model.newerFailed) {
     items.push(`The check of ${f.ref} failed${f.error ? ` (${f.error})` : ''}; showing the last release that was checked.`);
   }
@@ -496,6 +501,15 @@ function pickedVersion(platform) {
   return (river && !river.hidden && river.dataset.selectedVersion) || null;
 }
 
+// How many of the picked version's verifications found it reproducible and
+// not reproducible ({ reproducible, notReproducible }), or null.
+function pickedVerdicts(platform) {
+  if (typeof document === 'undefined') return null;
+  const river = document.getElementById(`buildVerifications-${platform}`);
+  const [reproducible, notReproducible] = String(river?.dataset.selectedVerdicts || '').split(' ').map(Number);
+  return Number.isFinite(notReproducible) ? { reproducible, notReproducible } : null;
+}
+
 /**
  * Paints the panel into [host] for the release the "Every version" section of
  * [platform] has picked, and follows it when another version is picked
@@ -505,12 +519,16 @@ function pickedVersion(platform) {
 export async function renderDependenciesPanel({ host, appId, platform = 'app', selectedVersion = undefined, title = '', base = EXPORT_BASE, triageBase = TRIAGE_BASE, liveEvents = liveTriageEvents, fetchImpl = globalThis.fetch, nostr = undefined, profiles = undefined }) {
   if (!host || !appId) return null;
   let selected = selectedVersion === undefined ? pickedVersion(platform) : selectedVersion;
+  let verdicts = selectedVersion === undefined ? pickedVerdicts(platform) : null;
   let ready = false;
   if (selectedVersion === undefined && typeof document !== 'undefined') {
     // Listening before the export loads: a pick made meanwhile is not lost.
     document.addEventListener('buildVersionSelected', (event) => {
-      if (event.detail?.platform !== platform || event.detail.version === selected) return;
+      if (event.detail?.platform !== platform) return;
+      const next = event.detail.verdicts || null;
+      if (event.detail.version === selected && JSON.stringify(next) === JSON.stringify(verdicts)) return;
       selected = event.detail.version || null;
+      verdicts = next;
       if (ready) paint();
     });
   }
@@ -556,6 +574,7 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
     }
     model = panelModel(app, { release: release?.ref || null, selectedVersion: release ? selected : null, triage, signals, upstream, apk, platform, appId });
     if (!model) return null;
+    model.verdicts = release ? verdicts : null;
     host.replaceChildren(panelElement(model, { appId: analysisId, wallet: title || analysisId, base, fetchImpl, onJudge, trusted: lists.trusted, triageFailed: Boolean(published?.failed), expanded, onToggle: (open) => { expanded = open; }, ...extra }));
     nameSigners(host, profiles === undefined ? defaultProfiles : profiles);
     return model;

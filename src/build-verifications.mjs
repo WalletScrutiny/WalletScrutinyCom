@@ -22,6 +22,7 @@ import {
   ledeFor,
   fileVerdict,
   statusGroup,
+  tally,
 } from './build-verifications-model.mjs';
 
 const MAX_PIPS = 8;
@@ -364,8 +365,11 @@ export function renderBuildVerifications(args) {
   const paintSelected = () => {
     const version = timeline.find(v => v.key === host.dataset.selectedVersion) || timeline[timeline.length - 1];
     panelHost.replaceChildren(panel(version, context));
-    // The Dependencies panel (src/dependencies-panel.mjs) follows the pick.
-    host.dispatchEvent(new CustomEvent('buildVersionSelected', { bubbles: true, detail: { platform, appId, version: version.key } }));
+    // The Dependencies panel (src/dependencies-panel.mjs) follows the pick,
+    // and says when verifiers disagree on it (#1020 P4).
+    const { reproducible, notReproducible } = tally(version.verifications);
+    host.dataset.selectedVerdicts = `${reproducible} ${notReproducible}`;
+    host.dispatchEvent(new CustomEvent('buildVersionSelected', { bubbles: true, detail: { platform, appId, version: version.key, verdicts: { reproducible, notReproducible } } }));
     renderProfilePictures([...new Set(
       version.verifications.concat(version.drafts).map(v => v.pubkey).filter(isSha256Hex),
     )]);

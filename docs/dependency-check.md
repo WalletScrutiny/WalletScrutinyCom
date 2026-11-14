@@ -318,7 +318,10 @@ app.
   export keeps just the releases a verified version resolved to, each with
   `reproducedFor`: the listings (app id and page platform) whose binary of
   that release was reproduced, and `versions`: every version name verifiers
-  typed for it (`3.2.0-BTC`, `3.2.0 - Btc`). The panel matches the version
+  typed for it (`3.2.0-BTC`, `3.2.0 - Btc`). One "reproducible" from anyone
+  is enough; when other verifications of the picked version say "not
+  reproducible", the panel says how many (a proposal awaiting Leo on whose
+  verdicts count, #1020 P4). The panel matches the version
   picked in "Every version" against these names; only an export without them
   falls back to comparing version digits. A wallet page shows only the releases
   reproduced for its own listing, so the iPhone app of a wallet reproduced on

@@ -416,6 +416,30 @@ describe('dependencies panel', () => {
   });
 });
 
+describe('dependencies panel: split verdicts (#1020 P4)', () => {
+  test('says when some verifications of the picked version found it not reproducible', async () => {
+    const older = { ...APP.releases[0], ref: 'v1.3.0' };
+    const { fetchImpl } = fakeFetch({ '/x/apps/app.android.json': { ...APP, releases: [APP.releases[0], older] } });
+    const river = document.createElement('div');
+    river.id = 'buildVerifications-android';
+    river.dataset.selectedVersion = '1.3.0';
+    river.dataset.selectedVerdicts = '2 1'; // Wasabi 2.8.5: reproducible for the zip, not for the msi
+    const host = document.createElement('div');
+    document.body.append(river, host);
+    const pick = (version, verdicts) => river.dispatchEvent(new window.CustomEvent('buildVersionSelected', { bubbles: true, detail: { platform: 'android', version, verdicts } }));
+    const split = () => [...host.querySelectorAll('.dp-notices li')].map(li => li.textContent).find(t => /not reproducible/.test(t)) || null;
+
+    await renderDependenciesPanel({ host, appId: 'app.android', platform: 'android', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl });
+    assert.equal(split(), '1 verification of version 1.3.0 found it not reproducible, and 2 found it reproducible. Its dependencies are shown because one reproducible verification is enough; each verdict is under "Every version".');
+    pick('1.4.0', { reproducible: 3, notReproducible: 0 });
+    assert.equal(split(), null, 'all agree: nothing said');
+    pick('1.4.0', { reproducible: 3, notReproducible: 2 });
+    assert.match(split(), /^2 verifications of version 1\.4\.0 found it not reproducible, and 3/, 'a later verdict on the same version repaints');
+    river.remove();
+    host.remove();
+  });
+});
+
 describe('dependencies panel: git submodules', () => {
   const SUBS = { total: 5, errors: 0, firstParty: 1, notInApp: 2, upstream: 1, derived: 1, unknownOrigin: 0, affected: 1, advisories: 2, advisoriesUnknown: 1 };
   const ROWS = [
