@@ -46,7 +46,7 @@ const NOT_PRODUCT_DIR = /^(examples?|samples?|demos?|tests?|__tests__|fixtures?|
 
 // The lockfiles plugins/pinning.mjs parses. Gradle is read from its build
 // files whatever lockfile it has (pinning grades every declaration).
-const READ_LOCKFILE = /(^|\/)(package-lock\.json|yarn\.lock|Cargo\.lock|pubspec\.lock|requirements[^/]*\.txt|buildozer[^/]*\.spec)$/;
+const READ_LOCKFILE = /(^|\/)(package-lock\.json|yarn\.lock|Cargo\.lock|pubspec\.lock|packages\.lock\.json|requirements[^/]*\.txt|buildozer[^/]*\.spec)$/;
 export const isRead = (m) => m.ecosystem === 'gradle' || (!!m.lockfile && READ_LOCKFILE.test(m.lockfile));
 // Each stored manifest records whether pinning read its lockfile (`read`,
 // since 2026-10-28). A result stored before that has no rows for a lockfile
@@ -201,6 +201,13 @@ export function findManifests(repoPath, files = null) {
       || all.find(r => under(r) && /(^|\/)gradle-lock\/[^/]+\.json$/.test(r))
       || null;
     add('gradle', m, lock, lock ? {} : { exactDeclarations: true });
+  }
+  // .NET: NuGet writes packages.lock.json beside each project file, only when
+  // the project opts in (RestorePackagesWithLockFile). A test project is not
+  // the product, whatever its folder is called (WalletWasabi.Tests).
+  for (const m of byName(/^[^/]+\.(csproj|fsproj|vbproj)$/)) {
+    const test = /<IsTestProject>\s*true\s*<\/IsTestProject>|<PackageReference\s+Include="(Microsoft\.NET\.Test\.Sdk|xunit(\.v3)?|NUnit|MSTest(\.TestFramework)?)"/i.test(read(m));
+    add('nuget', m, lockHere(m, ['packages.lock.json']), test ? { product: false } : {});
   }
   // ESP-IDF's component manager resolves version ranges into dependencies.lock.
   for (const m of byName(/^idf_component\.yml$/)) {

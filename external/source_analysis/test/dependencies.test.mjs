@@ -5,6 +5,7 @@ import assert from 'node:assert/strict';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import { analyzePinning } from '../plugins/pinning.mjs';
 import { initDatabase, saveDependencies, getDependencies, diffDependencies, findAppsShipping, dependantsOfRow } from '../ddbbUtils.mjs';
 
@@ -498,4 +499,45 @@ test('pub: pubspec.lock rows, SDK and path packages left out', () => {
   assert.equal(byName(pub.entries, 'build_runner').tier, 'version-pinned', 'older pub writes no sha256');
   assert.deepEqual(pub.deps, { total: 4, hashPinned: 2, versionPinned: 1, sourceRefPinned: 1, floating: 0 });
   assert.deepEqual(pub.registries, ['https://pub.dev']);
+});
+
+// test/fixtures/wasabi-daemon.packages.lock.json: WalletWasabi.Daemon's
+// packages.lock.json at v2.8.5, trimmed. It has all four types: Direct,
+// Transitive, CentralTransitive (versions from Directory.Packages.props) and
+// Project, plus a runtime section repeating a package.
+const NUGET_LOCK = fs.readFileSync(path.join(path.dirname(fileURLToPath(import.meta.url)), 'fixtures', 'wasabi-daemon.packages.lock.json'), 'utf8');
+
+test('nuget: packages.lock.json rows, project references left out', () => {
+  const repo = fixture({
+    'WalletWasabi.Daemon/WalletWasabi.Daemon.csproj': '<Project Sdk="Microsoft.NET.Sdk"></Project>',
+    // Visual Studio writes a byte order mark
+    'WalletWasabi.Daemon/packages.lock.json': `﻿${NUGET_LOCK}`,
+  });
+  const nuget = quiet(() => analyzePinning(repo)).find(a => a.ecosystem === 'nuget');
+  assert.deepEqual(nuget.lockfiles, ['WalletWasabi.Daemon/packages.lock.json']);
+  assert.deepEqual(nuget.entries.map(e => e.name).sort(), [
+    'Microsoft.CodeAnalysis.BannedApiAnalyzers', 'Microsoft.Data.Sqlite', 'Microsoft.Data.Sqlite.Core',
+    'NBitcoin', 'NScheme', 'Newtonsoft.Json', 'SQLitePCLRaw.core', 'SQLitePCLRaw.lib.e_sqlite3',
+  ], 'walletwasabi and walletwasabi.client are the repository\'s own projects; the runtime section adds no second row');
+  assert.deepEqual(byName(nuget.entries, 'Microsoft.CodeAnalysis.BannedApiAnalyzers'), {
+    ecosystem: 'nuget', lockfile: 'WalletWasabi.Daemon/packages.lock.json', name: 'Microsoft.CodeAnalysis.BannedApiAnalyzers',
+    version: '4.14.0', resolved: '', integrity: 'sha512-gSWJlDWwmDhtbrEJGiHqvEjz9KthIiFD0qYB8zZ6a7z+xpMSPEtM9yTYELSa58iFWYlzSRqP9FXO6KoT3+ZMtg==',
+    direct: true, dev: null, scope: null, dependants: [], tier: 'hash-pinned',
+  });
+  // CentralTransitive, asked for by the repository's own WalletWasabi project: declared by the repository
+  assert.equal(byName(nuget.entries, 'NBitcoin').direct, true);
+  assert.equal(byName(nuget.entries, 'NScheme').direct, true, 'through walletwasabi.client');
+  const core = byName(nuget.entries, 'Microsoft.Data.Sqlite.Core');
+  assert.equal(core.direct, false);
+  assert.deepEqual(core.dependants, ['Microsoft.Data.Sqlite']);
+  assert.deepEqual(byName(nuget.entries, 'SQLitePCLRaw.core').dependants, ['Microsoft.Data.Sqlite', 'Microsoft.Data.Sqlite.Core']);
+  assert.deepEqual(byName(nuget.entries, 'Newtonsoft.Json').dependants, ['NBitcoin']);
+  assert.deepEqual(nuget.deps, { total: 8, hashPinned: 8, versionPinned: 0, sourceRefPinned: 0, floating: 0 });
+});
+
+test('nuget: a file that is not a lockfile is noted, not fatal', () => {
+  const repo = fixture({ 'packages.lock.json': 'not json' });
+  const nuget = quiet(() => analyzePinning(repo)).find(a => a.ecosystem === 'nuget');
+  assert.deepEqual(nuget.entries, []);
+  assert.deepEqual(nuget.resolutionNotes, ['packages.lock.json: not a NuGet lockfile, not read']);
 });

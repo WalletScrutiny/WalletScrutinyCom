@@ -3,8 +3,8 @@
  *
  * Takes the dependency rows test 7 resolved from the lockfiles (see
  * plugins/pinning.mjs makeEntry) and asks OSV.dev which of those exact
- * versions have advisories. One batch API covers npm, PyPI, Maven (gradle) and
- * crates.io, so every ecosystem test 7 reads gets the same check, and nothing
+ * versions have advisories. One batch API covers npm, PyPI, Maven (gradle),
+ * crates.io, Pub and NuGet, so every ecosystem test 7 reads gets the same check, and nothing
  * has to be installed for it. Runs on the host: it reads JSON the container
  * produced and talks to api.osv.dev, nothing from the repository runs.
  *
@@ -33,7 +33,7 @@ const NVD_PAGE_SIZE = 2000; // the API's maximum
 const NVD_INTERVAL_MS = process.env.NVD_API_KEY ? 700 : 6500;
 
 // test 7 ecosystem -> OSV ecosystem
-const OSV_ECOSYSTEMS = { npm: 'npm', pip: 'PyPI', gradle: 'Maven', cargo: 'crates.io', pub: 'Pub' };
+const OSV_ECOSYSTEMS = { npm: 'npm', pip: 'PyPI', gradle: 'Maven', cargo: 'crates.io', pub: 'Pub', nuget: 'NuGet' };
 
 // Rows of a native library. p4a is what plugins/pinning.mjs called them before
 // 2026-11-09; stored releases keep it until they are analysed again.

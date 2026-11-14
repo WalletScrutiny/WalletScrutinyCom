@@ -22,6 +22,7 @@ export function registryUrl(ecosystem, name) {
     case 'cargo': return `https://crates.io/crates/${encodeURIComponent(name)}`;
     case 'pip': return `https://pypi.org/project/${encodeURIComponent(name)}/`;
     case 'pub': return `https://pub.dev/packages/${encodeURIComponent(name)}`;
+    case 'nuget': return `https://www.nuget.org/packages/${encodeURIComponent(name)}`;
     case 'gradle': {
       const [group, artifact] = String(name).split(':');
       return group && artifact ? `https://mvnrepository.com/artifact/${encodeURIComponent(group)}/${encodeURIComponent(artifact)}` : null;

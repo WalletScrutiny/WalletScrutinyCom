@@ -142,6 +142,8 @@ export function coverageGaps(c) {
 export function coverageTipLines(c) {
   const lines = [el('p', {}, el('b', {}, 'What would fix it'))];
   if (c.missingCount) lines.push(el('p', {}, 'Wallet team: commit the lockfile your package manager writes for ', ...fileList(c.missing.map(m => m.manifest), c.missingCount), '.'));
+  // NuGet writes none unless asked to
+  if (c.missingCount && c.missing.some(m => m.ecosystem === 'nuget')) lines.push(el('p', {}, 'For a .NET project, set ', el('code', {}, '<RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>'), ' (in Directory.Build.props for all of them), and NuGet writes ', el('code', {}, 'packages.lock.json'), ' beside each project file.'));
   const rangeFiles = c.floatingFiles?.length ? [' in ', ...fileList(c.floatingFiles, c.floatingFiles.length)] : [];
   if (c.floating) lines.push(el('p', {}, 'Wallet team: replace version ranges (like ', el('code', {}, '1.+'), ' or ', el('code', {}, '^2.0'), ') with exact versions', ...rangeFiles, ', or add a lockfile.'));
   if (c.downloadCount) lines.push(el('p', {}, 'Wallet team: check the hash of what the build downloads (', el('code', {}, 'sha256sum -c'), ', or an image ', el('code', {}, '@sha256:'), ' digest) in ', ...fileList(c.downloads.map(d => `${d.file}:${d.line}`), c.downloadPlaceCount ?? c.downloadCount), '.'));

@@ -738,6 +738,16 @@ describe('lock coverage notice', () => {
     assert.match(tip, /Using this wallet\? Send the list above to its team\./);
   });
 
+  test('a .NET project without packages.lock.json is named, with the switch that makes NuGet write one (Wasabi, T2.3)', () => {
+    const c = { ...COVERAGE, verdict: 'unlocked',
+      missing: [{ ecosystem: 'nuget', manifest: 'WalletWasabi.Coordinator/WalletWasabi.Coordinator.csproj' }], missingCount: 1 };
+    assert.match(notice(withCoverage(c)).textContent, /: 1 dependency file without a lockfile\./);
+    const tip = tipText(c);
+    assert.match(tip, /commit the lockfile your package manager writes for WalletWasabi\.Coordinator\/WalletWasabi\.Coordinator\.csproj\./);
+    assert.match(tip, /For a \.NET project, set <RestorePackagesWithLockFile>true<\/RestorePackagesWithLockFile> \(in Directory\.Build\.props for all of them\), and NuGet writes packages\.lock\.json beside each project file\./);
+    assert.doesNotMatch(tipText({ ...c, missing: [{ ecosystem: 'npm', manifest: 'package.json' }] }), /RestorePackagesWithLockFile/);
+  });
+
   test('each app page shows its own build; ranges are named by file, a line downloading twice once', () => {
     // AirGap Vault v3.35.0: the whole repository reads the iPhone lockfiles; the Android app does not use them
     const all = { ...COVERAGE, verdict: 'unknown', unread: [{ ecosystem: 'cocoapods', manifest: 'ios/App/Podfile', lockfile: 'ios/App/Podfile.lock' }], unreadCount: 1 };

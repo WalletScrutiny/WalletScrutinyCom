@@ -175,6 +175,7 @@ describe('dependency tree view', () => {
     assert.equal(registryUrl('npm', '@babel/core'), 'https://www.npmjs.com/package/@babel/core');
     assert.equal(registryUrl('gradle', 'org.x:y'), 'https://mvnrepository.com/artifact/org.x/y');
     assert.equal(registryUrl('pub', 'bdk_dart'), 'https://pub.dev/packages/bdk_dart');
+    assert.equal(registryUrl('nuget', 'NBitcoin'), 'https://www.nuget.org/packages/NBitcoin');
     assert.equal(registryUrl('other', 'x'), null);
   });
 });

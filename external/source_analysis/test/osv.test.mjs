@@ -153,6 +153,25 @@ test('findings across ecosystems, aliases folded, severity from GHSA, CVSS and M
   assert.equal(calls.filter(c => c.url.endsWith('/querybatch')).length, 1);
 });
 
+test('nuget rows are asked about as OSV ecosystem NuGet', async () => {
+  const { fetchImpl, calls } = stubFetch({
+    vulnsByQuery: { 'NuGet/Newtonsoft.Json@12.0.3': ['GHSA-5crp-9r3c-p9vr'] },
+    advisories: {
+      'GHSA-5crp-9r3c-p9vr': {
+        id: 'GHSA-5crp-9r3c-p9vr', aliases: ['CVE-2024-21907'], summary: 'Improper Handling of Exceptional Conditions in Newtonsoft.Json',
+        database_specific: { severity: 'HIGH' },
+        affected: [{ package: { ecosystem: 'NuGet', name: 'Newtonsoft.Json' }, ranges: [{ type: 'ECOSYSTEM', events: [{ introduced: '0' }, { fixed: '13.0.1' }] }] }],
+      },
+    },
+  });
+  const rows = [entry('nuget', 'Newtonsoft.Json', '12.0.3', { direct: false, dev: null, integrity: 'sha512-AAA', tier: 'hash-pinned' }), entry('nuget', 'NBitcoin', '10.0.17', { tier: 'hash-pinned' })];
+  const result = await quiet(() => checkVulnerabilities([{ entries: rows }], { fetchImpl }));
+  const batch = calls.find(c => c.url.endsWith('/querybatch')).body.queries;
+  assert.deepEqual(batch.map(q => q.package), [{ ecosystem: 'NuGet', name: 'Newtonsoft.Json' }, { ecosystem: 'NuGet', name: 'NBitcoin' }]);
+  assert.equal(result.checked, 2);
+  assert.deepEqual(result.findings.map(f => [f.ecosystem, f.name, f.id, f.fixed]), [['nuget', 'Newtonsoft.Json', 'GHSA-5crp-9r3c-p9vr', ['13.0.1']]]);
+});
+
 test('large inputs are split into 1000-query batches and paged results are followed', async () => {
   const entries = Array.from({ length: 2500 }, (_, i) => entry('npm', `p${i}`, '1.0.0'));
   const { fetchImpl, calls } = stubFetch({

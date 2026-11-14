@@ -281,3 +281,37 @@ test('a buildozer spec with local recipes is a read lock, one without them is ig
   assert.equal(coverage.verdict, 'locked');
   assert.equal(coverage.manifests[0].read, true);
 });
+
+// Wasabi v2.8.5 (T2.3): six projects with packages.lock.json, the rest
+// without one. Before, no .NET project was listed at all, so the page named
+// only the downloads and binaries.
+test('.NET projects: packages.lock.json is read, a project without one is missing, test projects are not the product', () => {
+  const csproj = (refs = '') => `<Project Sdk="Microsoft.NET.Sdk"><ItemGroup>${refs}</ItemGroup></Project>`;
+  const files = {
+    'WalletWasabi/WalletWasabi.csproj': csproj('<PackageReference Include="NBitcoin" />'), 'WalletWasabi/packages.lock.json': '{}',
+    'WalletWasabi.Daemon/WalletWasabi.Daemon.csproj': csproj(), 'WalletWasabi.Daemon/packages.lock.json': '{}',
+    'WalletWasabi.Coordinator/WalletWasabi.Coordinator.csproj': csproj(),
+    'Contrib/Releases/Publisher/Publisher.fsproj': csproj('<PackageReference Include="Nostra" Version="0.0.1" />'),
+    'WalletWasabi.Tests/WalletWasabi.Tests.csproj': csproj('<PackageReference Include="xunit.v3" />'),
+    'WalletWasabi.IntegrationTests/WalletWasabi.IntegrationTests.csproj': csproj('<PackageReference Include="xunit.v3" />'),
+  };
+  const manifests = findManifests(repo(files));
+  assert.deepEqual(manifests.filter(m => m.ecosystem === 'nuget').map(m => [m.manifest, m.lockfile, m.product]), [
+    ['Contrib/Releases/Publisher/Publisher.fsproj', null, true],
+    ['WalletWasabi.Coordinator/WalletWasabi.Coordinator.csproj', null, true],
+    ['WalletWasabi.Daemon/WalletWasabi.Daemon.csproj', 'WalletWasabi.Daemon/packages.lock.json', true],
+    ['WalletWasabi.IntegrationTests/WalletWasabi.IntegrationTests.csproj', null, false],
+    ['WalletWasabi.Tests/WalletWasabi.Tests.csproj', null, false],
+    ['WalletWasabi/WalletWasabi.csproj', 'WalletWasabi/packages.lock.json', true],
+  ]);
+  const r = coverageForReaders(lockCoverage(manifests));
+  assert.equal(r.verdict, 'unlocked');
+  assert.equal(r.missingCount, 2);
+  assert.deepEqual(r.missing, [
+    { ecosystem: 'nuget', manifest: 'Contrib/Releases/Publisher/Publisher.fsproj' },
+    { ecosystem: 'nuget', manifest: 'WalletWasabi.Coordinator/WalletWasabi.Coordinator.csproj' },
+  ]);
+  assert.deepEqual(r.unread, [], 'pinning reads packages.lock.json');
+  // every project locked: locked
+  assert.equal(lockCoverage(findManifests(repo({ 'App/App.csproj': csproj(), 'App/packages.lock.json': '{}' }))).verdict, 'locked');
+});

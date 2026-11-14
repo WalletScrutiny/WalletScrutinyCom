@@ -727,7 +727,7 @@ repository's build plants there (a gradle init script, a doctored npm package)
 reaches only later checks of the same wallet, never another wallet's. Gradle projects needing an SDK
 platform the image lacks fail their gradle tests (the SDK directory in the image
 is not writable for the service user); they still get the lockfile-based tests.
-Flutter projects are detected as `unknown` and get the file-only tests; their `pubspec.lock` is read by test 7 and checked by test 10.
+Flutter projects are detected as `unknown` and get the file-only tests; their `pubspec.lock` is read by test 7 and checked by test 10. So are .NET projects, with their `packages.lock.json`.
 
 Dev run against another image or engine: `SOURCE_ANALYSIS_IMAGE=docker.io/library/node:22
 SOURCE_ANALYSIS_CONTAINER_CLI=podman node index.mjs --githubToken … --app-id …`
@@ -735,10 +735,10 @@ SOURCE_ANALYSIS_CONTAINER_CLI=podman node index.mjs --githubToken … --app-id �
 
 | Test | What it reports | Ecosystems | Plugin |
 |---|---|---|---|
-| 7 | Supply-chain pinning per dependency (7b: for gradle, the resolved graph from the project's own gradle, see below): hash-pinned, version-pinned, source-ref-pinned (JitPack at a commit), build-service-tag, unversioned, floating; registries seen and whether resolution is ambiguous (dependency confusion). Every resolved row is stored (`packages`, `app_dependencies`) | npm, yarn, pip, gradle, cargo, pub (`pubspec.lock`; it records no dependency graph, so only direct packages have a scope) | `plugins/pinning.mjs`, `plugins/gradle-resolution.mjs` |
+| 7 | Supply-chain pinning per dependency (7b: for gradle, the resolved graph from the project's own gradle, see below): hash-pinned, version-pinned, source-ref-pinned (JitPack at a commit), build-service-tag, unversioned, floating; registries seen and whether resolution is ambiguous (dependency confusion). Every resolved row is stored (`packages`, `app_dependencies`) | npm, yarn, pip, gradle, cargo, pub (`pubspec.lock`; it records no dependency graph, so only direct packages have a scope), nuget (`packages.lock.json`; project references left out, no scope) | `plugins/pinning.mjs`, `plugins/gradle-resolution.mjs` |
 | 8 | Build inputs fetched outside the package manager (curl/wget, Dockerfile `FROM`, cmake downloads, git clones in scripts and CI), graded on hash evidence and on whether the URL is immutable or rolling | any | `plugins/oob-downloads.mjs` |
 | 9 | Compiled artifacts checked into the tree (`.a`, `.so`, `.aar`, `.jar`, `.wasm` …), graded on whether the repository documents how they were built and whether a build file uses them | any | `plugins/committed-binaries.mjs` |
-| 10 | Known vulnerabilities of every dependency test 7 resolved to an exact registry version, from the [OSV.dev](https://osv.dev) batch API, run on the host: advisory id and CVE, severity (GitHub's reviewed label, else the CVSS 3 base score; `malicious` for OSV `MAL-` records), fixed versions, direct/transitive and dev. Floating ranges, BOM-supplied versions and git/path/tarball sources are counted as not checkable. Stored per release (`app_vulnerabilities`). | npm, yarn, pip, gradle, cargo, pub | `plugins/osv.mjs` |
+| 10 | Known vulnerabilities of every dependency test 7 resolved to an exact registry version, from the [OSV.dev](https://osv.dev) batch API, run on the host: advisory id and CVE, severity (GitHub's reviewed label, else the CVSS 3 base score; `malicious` for OSV `MAL-` records), fixed versions, direct/transitive and dev. Floating ranges, BOM-supplied versions and git/path/tarball sources are counted as not checkable. Stored per release (`app_vulnerabilities`). | npm, yarn, pip, gradle, cargo, pub, nuget | `plugins/osv.mjs` |
 
 ### Removed plugins
 

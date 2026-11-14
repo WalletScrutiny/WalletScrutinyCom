@@ -1310,6 +1310,90 @@ function analyzePub(repoPath) {
   return result;
 }
 
+/* --------------------------------- nuget --------------------------------- */
+
+/**
+ * .NET: packages.lock.json, which NuGet writes per project when the project
+ * sets RestorePackagesWithLockFile. One section per target framework (and
+ * per runtime, `net10.0/linux-x64`), each package with its `type`: Direct
+ * (the project's own PackageReference), Transitive, CentralTransitive (a
+ * transitive package whose version Directory.Packages.props pins) or
+ * Project (another project of the repository, no download, left out).
+ * `contentHash` is the base64 SHA-512 of the .nupkg. The lockfile does not
+ * say whether a package ships or only runs at build time, so scope stays
+ * unknown.
+ */
+function analyzeNuget(repoPath) {
+  const lockFiles = findFiles(repoPath, (name) => name === 'packages.lock.json');
+  if (!lockFiles.length) return null;
+
+  const result = {
+    ecosystem: 'nuget',
+    lockfiles: lockFiles.map(f => relative(repoPath, f)),
+    deps: { total: 0, hashPinned: 0, versionPinned: 0, sourceRefPinned: 0, floating: 0 },
+    gitOrTarballDeps: [],
+    sourceRefExamples: [],
+    registries: [],
+    resolutionNotes: [],
+    resolutionAmbiguous: false,
+    floatingExamples: [],
+    entries: [],
+  };
+  for (const lockFile of lockFiles) {
+    const lockfile = relative(repoPath, lockFile);
+    let doc = null;
+    try { doc = JSON.parse(fs.readFileSync(lockFile, 'utf8').replace(/^\uFEFF/, '')); } catch { /* reported below */ }
+    if (!doc || typeof doc.dependencies !== 'object') {
+      result.resolutionNotes.push(`${lockfile}: not a NuGet lockfile, not read`);
+      continue;
+    }
+    const sections = Object.values(doc.dependencies).filter(s => s && typeof s === 'object');
+    const projects = new Set(sections.flatMap(s => Object.entries(s).filter(([, p]) => p?.type === 'Project').map(([n]) => n.toLowerCase())));
+    // A package the repository's own projects ask for is declared by the
+    // repository: CentralTransitive through a project reference is direct.
+    const declared = new Set();
+    const dependants = new Map(); // lowercased name -> names requiring it
+    for (const s of sections) {
+      for (const [name, p] of Object.entries(s)) {
+        for (const dep of Object.keys(p?.dependencies || {})) {
+          if (p.type === 'Project') declared.add(dep.toLowerCase());
+          else if (!projects.has(dep.toLowerCase())) {
+            if (!dependants.has(dep.toLowerCase())) dependants.set(dep.toLowerCase(), new Set());
+            dependants.get(dep.toLowerCase()).add(name);
+          }
+        }
+      }
+    }
+    // The same package recurs in every target and runtime section: one row each.
+    const rows = new Map();
+    for (const s of sections) {
+      for (const [name, p] of Object.entries(s)) {
+        if (!p || p.type === 'Project' || !p.resolved) continue;
+        const key = `${name.toLowerCase()}@${p.resolved}`;
+        const direct = p.type === 'Direct' || declared.has(name.toLowerCase());
+        const row = rows.get(key);
+        if (row) row.direct ||= direct;
+        else rows.set(key, { name, version: p.resolved, contentHash: p.contentHash || '', direct });
+      }
+    }
+    for (const r of rows.values()) {
+      const tier = r.contentHash ? 'hash-pinned' : 'version-pinned';
+      result.deps.total++;
+      if (tier === 'hash-pinned') result.deps.hashPinned++;
+      else result.deps.versionPinned++;
+      result.entries.push(makeEntry('nuget', lockfile, {
+        name: r.name,
+        version: r.version,
+        integrity: r.contentHash ? `sha512-${r.contentHash}` : '',
+        direct: r.direct,
+        dependants: [...(dependants.get(r.name.toLowerCase()) || [])],
+        tier,
+      }));
+    }
+  }
+  return result;
+}
+
 /* --------------------------------- report -------------------------------- */
 
 export function analyzePinning(repoPath) {
@@ -1321,10 +1405,11 @@ export function analyzePinning(repoPath) {
     analyzeGradle(repoPath),
     analyzeCargo(repoPath),
     analyzePub(repoPath),
+    analyzeNuget(repoPath),
   ].filter(Boolean);
 
   if (!analyses.length) {
-    console.log('No supported manifest/lock files found (npm, pip, p4a, gradle, cargo, pub).');
+    console.log('No supported manifest/lock files found (npm, pip, p4a, gradle, cargo, pub, nuget).');
     return [];
   }
 
