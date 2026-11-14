@@ -19,6 +19,7 @@
  * each lists advisories the other misses (OSV.dev has none for Qt).
  */
 import { SHOW_ONLY_FIRST_X_ALERTS } from '../config.mjs';
+import { cvss4Score } from '../cvss4.mjs';
 
 export const OSV_API = 'https://api.osv.dev/v1';
 const BATCH_SIZE = 1000; // querybatch limit
@@ -385,19 +386,32 @@ function ratingOfScore(score) {
 /**
  * critical / high / moderate / low / unknown, or `malicious` for an OSV
  * malicious-package record (MAL-*), which has no score but outranks them all.
- * GitHub's reviewed label wins over a computed score; CVSS v4-only advisories
- * are `unknown` (no v4 calculator here).
+ * GitHub's reviewed label wins over a computed score, a CVSS 3 score over a
+ * CVSS 4 one. Records that score only per affected package are read there:
+ * RustSec writes its vector in `database_specific.cvss`, OSS-Fuzz a label in
+ * `ecosystem_specific.severity`.
  */
 export function severityOf(advisory) {
   if (/^MAL-/.test(advisory.id || '')) return 'malicious';
-  const label = String(advisory.database_specific?.severity || '').toLowerCase();
-  if (['critical', 'high', 'moderate', 'low'].includes(label)) return label;
-  if (label === 'medium') return 'moderate';
-  for (const s of advisory.severity || []) {
-    const score = cvss3BaseScore(s.score);
+  const label = ratingOfLabel(advisory.database_specific?.severity);
+  if (label) return label;
+  const affected = advisory.affected || [];
+  const vectors = [...(advisory.severity || []), ...affected.flatMap(a => a.severity || [])].map(s => s.score)
+    .concat(affected.map(a => a.database_specific?.cvss));
+  for (const score of [cvss3BaseScore, cvss4Score].flatMap(f => vectors.map(v => f(v)))) {
     if (score !== null) return ratingOfScore(score);
   }
+  for (const a of affected) {
+    const own = ratingOfLabel(a.ecosystem_specific?.severity);
+    if (own) return own;
+  }
   return 'unknown';
+}
+
+function ratingOfLabel(label) {
+  const l = String(label || '').toLowerCase();
+  if (['critical', 'high', 'moderate', 'low'].includes(l)) return l;
+  return l === 'medium' ? 'moderate' : null;
 }
 
 /** The `fixed` versions the advisory lists for this package. */

@@ -197,6 +197,20 @@ test('CVSS 3 base scores and ratings', () => {
   assert.equal(severityOf({ id: 'X' }), 'unknown');
 });
 
+test('severity from a CVSS 4.0 vector, and from the scores records keep per affected package', () => {
+  const v4 = 'CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:P/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N'; // 6.8
+  assert.equal(severityOf({ id: 'X', severity: [{ type: 'CVSS_V4', score: v4 }] }), 'moderate');
+  // a CVSS 3 score wins over a CVSS 4 one, as before
+  assert.equal(severityOf({ id: 'X', severity: [{ type: 'CVSS_V4', score: v4 }, { type: 'CVSS_V3', score: 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H' }] }), 'critical');
+  // RustSec writes its vector next to the package
+  assert.equal(severityOf({ id: 'RUSTSEC-X', affected: [{ database_specific: { cvss: 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H', informational: null } }] }), 'critical');
+  assert.equal(severityOf({ id: 'RUSTSEC-X', affected: [{ database_specific: { cvss: v4 } }] }), 'moderate');
+  assert.equal(severityOf({ id: 'X', affected: [{ severity: [{ type: 'CVSS_V4', score: v4 }] }] }), 'moderate');
+  // OSS-Fuzz labels the package's entry
+  assert.equal(severityOf({ id: 'OSV-X', affected: [{ ecosystem_specific: { severity: 'MEDIUM' } }] }), 'moderate');
+  assert.equal(severityOf({ id: 'OSV-X', affected: [{ ecosystem_specific: { severity: null } }] }), 'unknown');
+});
+
 test('findings are stored per release and replaced on re-analysis', () => {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'osv-db-'));
   const db = initDatabase(path.join(dir, 'test.db'));
