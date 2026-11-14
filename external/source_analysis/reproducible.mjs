@@ -86,9 +86,12 @@ function withBuildLocks(known, refs) {
 }
 
 /**
- * appId -> [{ version, verifiedAt, platform, buildLocks, misnamedLocks }] of
+ * appId -> [{ version, verifiedAt, platform, platforms, buildLocks, misnamedLocks }] of
  * every version with a reproducible verification, newest verification first
- * (buildLockRefs: the build-lock.json files of all of them). Verifications are addressable:
+ * (buildLockRefs: the build-lock.json files of all of them). `platform` is the
+ * newest verification's; `platforms`, only when they differ, every platform
+ * the version was reproduced on, newest first: one app id on Android and
+ * iPhone (Bitkey 2025.19.0) is reproduced on both. Verifications are addressable:
  * only the newest event per (author, d) counts, so a verifier who revised
  * "reproducible" to "not reproducible" no longer vouches for that version.
  */
@@ -108,8 +111,13 @@ export function reproducibleVersions(events) {
     const known = versions.get(version);
     // every verifier's build-lock.json counts, whichever verification is newest
     const locks = withBuildLocks(known, buildLockRefs(e));
-    if (!known || known.verifiedAt < e.created_at) versions.set(version, { verifiedAt: e.created_at, platform: tag(e, 'platform') || null, ...locks });
-    else Object.assign(known, locks);
+    const platform = tag(e, 'platform') || null;
+    const newer = !known || known.verifiedAt < e.created_at;
+    const before = known ? known.platforms || [known.platform] : [];
+    const platforms = [...new Set(newer ? [platform, ...before] : [...before, platform])];
+    const entry = newer ? { verifiedAt: e.created_at, platform, ...locks } : Object.assign(known, locks);
+    if (platforms.length > 1) entry.platforms = platforms;
+    versions.set(version, entry);
   }
   const out = new Map();
   for (const [appId, versions] of byApp) {

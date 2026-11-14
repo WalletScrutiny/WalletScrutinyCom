@@ -6,8 +6,8 @@ import fs from 'fs';
 import os from 'os';
 import path from 'path';
 import { reproducibleVersions, pageRelay, loadReproducible, verifiedVersionsOf, inScope, tagOfVersion, analyseVerifiedVersions } from '../reproducible.mjs';
-import { initDatabase, recordAnalysis, getAnalyses, saveAppList, saveReproducibleVersions, saveVerifiedRef, getVerifiedRefs, releasesToReanalyse } from '../ddbbUtils.mjs';
-import { exportAll } from '../export.mjs';
+import { initDatabase, recordAnalysis, getAnalyses, saveAppList, saveReproducibleVersions, getReproducibleVersions, saveVerifiedRef, getVerifiedRefs, releasesToReanalyse } from '../ddbbUtils.mjs';
+import { exportAll, reproducedListings } from '../export.mjs';
 
 const tmpDb = () => initDatabase(path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'repro-')), 'assets.db'));
 
@@ -39,6 +39,23 @@ test('a wallet is in scope through any alias, and stays in scope when later vers
   assert.ok(inScope(job, byApp));
   assert.deepEqual(verifiedVersionsOf(job, byApp), [{ version: '5.0', verifiedAt: 100, platform: 'android', appId: 'ios.wallet' }]);
   assert.ok(!inScope({ appId: 'other', aliases: [] }, byApp));
+});
+
+test('one app id reproduced on Android and iPhone under one version name keeps both listings (#1020 P2)', () => {
+  // Bitkey: world.bitkey.app is both listings; 2025.19.0 (6) was reproduced on
+  // Android, later on iPhone, and the iPhone verdict replaced the Android one.
+  const v = (platform, created_at, pubkey) => ({ pubkey, created_at, kind: 30301,
+    tags: [['status', 'reproducible'], ['d', `${platform}-${pubkey}`], ['i', 'world.bitkey.app'], ['version', '2025.19.0 (6)'], ['platform', platform]] });
+  const byApp = reproducibleVersions([v('android', 100, 'a'), v('iphone', 200, 'b'), v('android', 50, 'c')]);
+  assert.deepEqual(byApp.get('world.bitkey.app'), [{ version: '2025.19.0 (6)', verifiedAt: 200, platform: 'iphone', platforms: ['iphone', 'android'] }]);
+
+  const db = tmpDb();
+  saveReproducibleVersions(db, new Map([...byApp, ['one.platform', [{ version: '1.0', verifiedAt: 1, platform: 'android' }]]]));
+  assert.deepEqual([...getReproducibleVersions(db)], [...byApp, ['one.platform', [{ version: '1.0', verifiedAt: 1, platform: 'android' }]]], 'the cache keeps every platform');
+  saveVerifiedRef(db, 'world.bitkey.app', 'app/2025.19.0', '2025.19.0 (6)');
+  const aliases = [{ appId: 'world.bitkey.app', platform: 'android' }, { appId: 'world.bitkey.app', platform: 'iphone' }];
+  assert.deepEqual(reproducedListings(db, 'world.bitkey.app', aliases).get('app/2025.19.0').listings,
+    [{ appId: 'world.bitkey.app', platform: 'iphone' }, { appId: 'world.bitkey.app', platform: 'android' }], 'both listings, through the cache');
 });
 
 test('loadReproducible: fresh from the relays, cached copy when they fail, error when neither', async () => {

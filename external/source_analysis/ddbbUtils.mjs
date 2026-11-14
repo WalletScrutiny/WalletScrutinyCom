@@ -468,9 +468,12 @@ export function getEndOfLife(db) {
 export function saveReproducibleVersions(db, byApp) {
   const insert = db.prepare('INSERT INTO reproducible_versions (app_id, version, verified_at, platform, build_locks) VALUES (?, ?, ?, ?, ?)');
   const locksOf = (v) => (v.buildLocks?.length || v.misnamedLocks?.length ? JSON.stringify({ locks: v.buildLocks || [], misnamed: v.misnamedLocks || [] }) : null);
+  // A version reproduced on several platforms keeps them all, newest first,
+  // one per line (reproducible.mjs `platforms`); the key stays (app, version).
+  const platformOf = (v) => (v.platforms?.length > 1 ? v.platforms.map(p => p ?? '').join('\n') : v.platform ?? null);
   db.transaction(() => {
     db.prepare('DELETE FROM reproducible_versions').run();
-    for (const [appId, versions] of byApp) for (const v of versions) insert.run(appId, v.version, v.verifiedAt, v.platform ?? null, locksOf(v));
+    for (const [appId, versions] of byApp) for (const v of versions) insert.run(appId, v.version, v.verifiedAt, platformOf(v), locksOf(v));
   })();
 }
 
@@ -479,7 +482,9 @@ export function getReproducibleVersions(db) {
   for (const r of db.prepare('SELECT app_id, version, verified_at, platform, build_locks FROM reproducible_versions ORDER BY verified_at DESC').all()) {
     if (!byApp.has(r.app_id)) byApp.set(r.app_id, []);
     const { locks = [], misnamed = [] } = r.build_locks ? JSON.parse(r.build_locks) : {};
-    byApp.get(r.app_id).push({ version: r.version, verifiedAt: r.verified_at, platform: r.platform,
+    const platforms = r.platform?.includes('\n') ? r.platform.split('\n').map(p => p || null) : null;
+    byApp.get(r.app_id).push({ version: r.version, verifiedAt: r.verified_at, platform: platforms ? platforms[0] : r.platform,
+      ...(platforms ? { platforms } : {}),
       ...(locks.length ? { buildLocks: locks } : {}), ...(misnamed.length ? { misnamedLocks: misnamed } : {}) });
   }
   return byApp;

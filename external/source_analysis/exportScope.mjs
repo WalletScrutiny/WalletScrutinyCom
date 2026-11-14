@@ -31,8 +31,10 @@ export function reproducedListings(db, appId, aliases = [], byApp = getReproduci
       for (const v of byApp.get(id) || []) {
         if (!names.includes(v.version)) continue;
         if (!versions.includes(v.version)) versions.push(v.version);
-        const platform = pagePlatform(v.platform);
-        if (!listings.some(l => l.appId === id && l.platform === platform)) listings.push({ appId: id, platform });
+        // every platform it was reproduced on: Bitkey's one app id is Android and iPhone
+        for (const platform of (v.platforms || [v.platform]).map(pagePlatform)) {
+          if (!listings.some(l => l.appId === id && l.platform === platform)) listings.push({ appId: id, platform });
+        }
       }
     }
     if (listings.length) out.set(ref, { listings, versions });
