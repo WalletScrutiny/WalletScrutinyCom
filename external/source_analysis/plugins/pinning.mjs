@@ -233,12 +233,13 @@ export function yarnDependants(entries) {
 export function yarnScopes(entries, manifests) {
   const byRequest = new Map(); // "name@range" -> entry
   for (const e of entries) for (const r of e.ranges) byRequest.set(`${e.name}@${r}`, e);
-  const reach = (requests, stop) => {
+  const reach = (requests, stop, halt = () => false, seeds = []) => {
     const seen = new Set();
-    const queue = requests.map(([name, range]) => byRequest.get(`${name}@${String(range).replace(/^npm:/, '')}`)).filter(Boolean);
+    const queue = [...seeds, ...requests.map(([name, range]) => byRequest.get(`${name}@${String(range).replace(/^npm:/, '')}`)).filter(Boolean)];
     while (queue.length) {
       const e = queue.pop();
       if (seen.has(e) || stop.has(e)) continue;
+      if (halt(e)) continue;
       seen.add(e);
       for (const [name, range] of Object.entries(e.dependencies || {})) {
         const next = byRequest.get(`${name}@${range}`);
@@ -253,9 +254,16 @@ export function yarnScopes(entries, manifests) {
     prodRoots.push(...Object.entries(pkg.dependencies || {}), ...Object.entries(pkg.optionalDependencies || {}));
     devRoots.push(...Object.entries(pkg.devDependencies || {}));
   }
-  const app = reach(prodRoots, new Set());
+  // A test tool the project itself declares for development stays out of the
+  // app even when a runtime dependency also lists it (react-native-hce lists
+  // jest): the app walk stops there, and the test walk takes it and what only
+  // it pulls in (issue 1020 P23).
+  const prodNames = new Set(prodRoots.map(([name]) => name));
+  const devTestNames = new Set(devRoots.map(([name]) => name).filter(name => isTestRoot(name) && !prodNames.has(name)));
+  const halted = new Set();
+  const app = reach(prodRoots, new Set(), e => devTestNames.has(e.name) && Boolean(halted.add(e)));
   const build = reach(devRoots.filter(([name]) => !isTestRoot(name)), app);
-  const tests = reach(devRoots.filter(([name]) => isTestRoot(name)), app);
+  const tests = reach(devRoots.filter(([name]) => isTestRoot(name)), app, undefined, [...halted]);
   const scopes = new Map();
   for (const e of app) scopes.set(`${e.name}@${e.version}`, 'app');
   for (const e of build) scopes.set(`${e.name}@${e.version}`, 'build');
@@ -328,6 +336,10 @@ function analyzeNpm(repoPath) {
       continue;
     }
     for (const entry of entries) {
+      const direct = declared.has(entry.name) && !entry.nested;
+      // a test tool the project declares for development is not shipped
+      // because a runtime dependency also lists it (as in yarnScopes)
+      const devTestTool = direct && declared.get(entry.name).dev && isTestRoot(entry.name);
       result.deps.total++;
       const resolved = entry.resolved || '';
       if (/^git\+|^git:|^github:/.test(resolved) || /\.(tar\.gz|tgz)$/.test(resolved) && !/registry/.test(resolved)) {
@@ -345,8 +357,9 @@ function analyzeNpm(repoPath) {
         version: entry.version,
         resolved,
         integrity: entry.integrity,
-        direct: declared.has(entry.name) && !entry.nested,
-        dev: entry.dev === true, // lockfile v1-v3 mark packages reachable only through devDependencies
+        direct,
+        dev: entry.dev === true || devTestTool, // lockfile v1-v3 mark packages reachable only through devDependencies
+        ...(devTestTool && entry.dev !== true ? { scope: 'tests' } : {}),
         dependants: entry.dependants,
         tier: entry.integrity ? 'hash-pinned' : 'version-pinned',
       }));
@@ -743,8 +756,10 @@ function analyzeGradle(repoPath) {
   const repoSet = new Set();
   const declRe = /["']([a-zA-Z0-9._-]+):([a-zA-Z0-9._-]+):([^"'$]+)["']/g;
   const seen = new Set();
+  const usages = new GradleUsages();
   for (const file of buildFiles) {
     const text = fs.readFileSync(file, 'utf8');
+    usages.read(text);
     for (const known of ['mavenCentral()', 'google()', 'jcenter()', 'mavenLocal()', 'gradlePluginPortal()']) {
       if (text.includes(known)) repoSet.add(known);
     }
@@ -766,7 +781,12 @@ function analyzeGradle(repoPath) {
   // undercounts such a project several-fold.
   for (const toml of findFiles(repoPath, (name) => name === 'libs.versions.toml')) {
     analyzeVersionCatalog(fs.readFileSync(toml, 'utf8'), relative(repoPath, toml),
-      result, seen, verifiedComponents);
+      result, seen, verifiedComponents, usages.catalog);
+  }
+  // A declaration the build files add only to test configurations is 'tests'
+  // (issue 1020 P23); one used for anything else, or never found, stays as it was.
+  for (const e of result.entries) {
+    if (usages.onlyTests(e.name)) Object.assign(e, { dev: true, scope: 'tests' });
   }
 
   // Verification metadata is the only place gradle records the *resolved* set
@@ -846,6 +866,58 @@ function analyzeGradle(repoPath) {
 }
 
 /**
+ * The configurations each gradle declaration is added to, read from the build
+ * files: `testImplementation 'junit:junit:4.13.2'`, `androidTestImplementation(libs.androidx.test.ext.junit)`.
+ * Every declaration of a `com.android.test` module (a baseline profile or
+ * benchmark project) counts as a test one. Catalog accessors are mapped to
+ * group:artifact through `catalog` (accessor -> key), which
+ * analyzeVersionCatalog fills.
+ */
+class GradleUsages {
+  constructor() {
+    this.byKey = new Map(); // group:artifact -> Set of configurations
+    this.byAccessor = new Map(); // libs.<accessor> -> Set of configurations
+    this.catalog = new Map();
+  }
+
+  read(text) {
+    const testModule = /["']com\.android\.test["']|libs\.plugins\.android\.test\b/.test(text);
+    // the blocks around a declaration: a Kotlin Multiplatform test source set
+    // (`commonTest { dependencies { implementation(...) } }`) names the tests there
+    const blocks = [];
+    const open = [];
+    for (let i = 0; i < text.length; i++) {
+      if (text[i] === '{') {
+        const from = Math.max(text.lastIndexOf('\n', i), text.lastIndexOf('}', i - 1), text.lastIndexOf(';', i)) + 1;
+        open.push({ start: i, header: text.slice(from, i) });
+      } else if (text[i] === '}' && open.length) {
+        blocks.push({ ...open.pop(), end: i });
+      }
+    }
+    const inTestBlock = (index) => blocks.some(b => b.start < index && index < b.end && /test/i.test(b.header));
+    const configuration = (index) => {
+      const before = text.slice(text.lastIndexOf('\n', index) + 1, index);
+      const m = before.match(/([A-Za-z]\w*)\s*\(?\s*(?:(?:project\.dependencies\.)?(?:platform|enforcedPlatform|project)\s*\(\s*)?$/);
+      return testModule || inTestBlock(index) ? 'test' : (m ? m[1] : '?');
+    };
+    const add = (map, key, conf) => {
+      if (!map.has(key)) map.set(key, new Set());
+      map.get(key).add(conf);
+    };
+    for (const m of text.matchAll(/["']([a-zA-Z0-9._-]+):([a-zA-Z0-9._-]+)(?::[^"'$]*)?["']/g)) add(this.byKey, `${m[1]}:${m[2]}`, configuration(m.index));
+    for (const m of text.matchAll(/\blibs\.((?!versions\.|plugins\.|bundles\.)[A-Za-z0-9_.]+)/g)) {
+      add(this.byAccessor, m[1].replace(/\.get$/, ''), configuration(m.index));
+    }
+  }
+
+  onlyTests(key) {
+    const confs = [...(this.byKey.get(key) || [])];
+    for (const [accessor, k] of this.catalog) if (k === key) confs.push(...(this.byAccessor.get(accessor) || []));
+    return confs.length > 0 && confs.every(c => /test/i.test(c));
+  }
+}
+
+/**
  * Place one gradle dependency in a tier.
  *
  * `com.github.<owner>:<repo>` is a JitPack coordinate: the artifact does not
@@ -901,19 +973,21 @@ function tomlSection(text, name) {
  * tier: the *source* is pinned immutably, which is stronger than a version
  * string, but the bytes are still built by a third party, so it is not a hash.
  */
-function analyzeVersionCatalog(text, relPath, result, seen, verifiedComponents) {
+function analyzeVersionCatalog(text, relPath, result, seen, verifiedComponents, accessors = new Map()) {
   const versions = new Map();
   for (const m of tomlSection(text, 'versions').matchAll(/^\s*([A-Za-z0-9_.-]+)\s*=\s*["']([^"']+)["']/gm)) {
     versions.set(m[1], m[2]);
   }
   for (const line of tomlSection(text, 'libraries').split('\n')) {
-    const body = line.match(/^\s*[A-Za-z0-9_.-]+\s*=\s*\{(.*)\}\s*$/);
+    const body = line.match(/^\s*([A-Za-z0-9_.-]+)\s*=\s*\{(.*)\}\s*$/);
     if (!body) continue;
-    const entry = body[1];
+    const entry = body[2];
     const module = entry.match(/module\s*=\s*["']([^"']+)["']/);
     const group = entry.match(/group\s*=\s*["']([^"']+)["']/);
     const name = entry.match(/name\s*=\s*["']([^"']+)["']/);
     const key = module ? module[1] : (group && name ? `${group[1]}:${name[1]}` : null);
+    // `androidx-test-ext-junit` is `libs.androidx.test.ext.junit` in the build files
+    if (key) accessors.set(body[1].replace(/[-_.]/g, '.'), key);
     if (!key || seen.has(key)) continue;
     seen.add(key);
 

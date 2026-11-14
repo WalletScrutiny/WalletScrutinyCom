@@ -59,6 +59,13 @@ source repository at that release's tag:
   `package-lock.json` records the dev flag; `yarn.lock` and `Cargo.lock`
   record the graph but no flag, so the analyser walks the graph from the
   manifest's roots; gradle resolution derives it from the configuration names.
+  A gradle declaration the build files add only to test configurations
+  (`testImplementation`, `androidTestImplementation`, a Kotlin Multiplatform
+  test source set, a `com.android.test` module) is `tests`, from a version
+  catalog too. A test framework the project declares as a development
+  dependency stays `tests` when a runtime dependency also lists it
+  (react-native-hce lists jest); one the project puts among its own runtime
+  dependencies stays `app`.
   `pubspec.lock` (Flutter) records no graph, only whether a direct package
   is main or dev, so its transitive packages show `?`.
   This is a placement fact, not a judgement: a build dependency can still hurt

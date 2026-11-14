@@ -133,6 +133,45 @@ test('yarn.lock graph walk: app, build, tests, and entries no root reaches', () 
   assert.deepEqual(byName(npm.entries, 'app').dependants, []);
 });
 
+test('a test tool the project declares for development stays a test tool when a runtime dependency lists it (issue 1020 P23)', () => {
+  // Zeus: react-native-hce lists jest among its runtime dependencies
+  const yarnDir = fixture({
+    'package.json': JSON.stringify({ dependencies: { hce: '^0.3.0' }, devDependencies: { jest: '^29.0.0' } }),
+    'yarn.lock': [
+      '# yarn lockfile v1', '',
+      'hce@^0.3.0:', '  version "0.3.0"', '  resolved "https://registry.yarnpkg.com/hce/-/hce-0.3.0.tgz#h"', '  dependencies:', '    jest "^29.0.0"', '    shared "^1.0.0"', '',
+      'jest@^29.0.0:', '  version "29.0.0"', '  resolved "https://registry.yarnpkg.com/jest/-/jest-29.0.0.tgz#j"', '  dependencies:', '    jest-only "^1.0.0"', '    shared "^1.0.0"', '',
+      'jest-only@^1.0.0:', '  version "1.0.0"', '  resolved "https://registry.yarnpkg.com/jest-only/-/jest-only-1.0.0.tgz#jo"', '',
+      'shared@^1.0.0:', '  version "1.0.0"', '  resolved "https://registry.yarnpkg.com/shared/-/shared-1.0.0.tgz#s"', '',
+    ].join('\n'),
+  });
+  const [yarn] = quiet(() => analyzePinning(yarnDir));
+  assert.deepEqual(Object.fromEntries(yarn.entries.map(e => [e.name, e.scope])), {
+    hce: 'app', shared: 'app', // still reached from the runtime side without jest
+    jest: 'tests', 'jest-only': 'tests',
+  });
+  assert.equal(byName(yarn.entries, 'jest').dev, true);
+  // a test tool the project itself puts among its runtime dependencies stays where it put it (BlueWallet's detox)
+  const declaredProd = fixture({
+    'package.json': JSON.stringify({ dependencies: { hce: '^0.3.0', jest: '^29.0.0' } }),
+    'yarn.lock': fs.readFileSync(path.join(yarnDir, 'yarn.lock'), 'utf8'),
+  });
+  assert.equal(byName(quiet(() => analyzePinning(declaredProd))[0].entries, 'jest').scope, 'app');
+
+  // package-lock: npm marks jest dev: false because hce needs it
+  const lockDir = fixture({
+    'package.json': JSON.stringify({ dependencies: { hce: '^0.3.0' }, devDependencies: { jest: '^29.0.0' } }),
+    'package-lock.json': JSON.stringify({ lockfileVersion: 3, packages: {
+      '': { dependencies: { hce: '^0.3.0' }, devDependencies: { jest: '^29.0.0' } },
+      'node_modules/hce': { version: '0.3.0', integrity: 'sha512-h', dependencies: { jest: '^29.0.0' } },
+      'node_modules/jest': { version: '29.0.0', integrity: 'sha512-j' },
+    } }),
+  });
+  const [npm] = quiet(() => analyzePinning(lockDir));
+  assert.equal(byName(npm.entries, 'jest').scope, 'tests');
+  assert.equal(byName(npm.entries, 'hce').scope, 'app');
+});
+
 test('yarn berry dependencies blocks and workspaces are walked too', () => {
   const dir = fixture({
     'package.json': JSON.stringify({ name: 'root', workspaces: ['packages/*'], devDependencies: { vitest: '^1.0.0' } }),
@@ -221,6 +260,55 @@ test('gradle: verification metadata replaces covered declarations', () => {
   assert.equal(byName(gradle.entries, 'org.t:transitive').direct, false);
   assert.equal(byName(gradle.entries, 'org.b:only-declared').lockfile, 'build.gradle');
   assert.equal(byName(gradle.entries, 'org.c:range').tier, 'floating');
+});
+
+test('gradle: a declaration added only to test configurations is tests, from the catalog too (issue 1020 P23)', () => {
+  const dir = fixture({
+    'app/build.gradle.kts': [
+      'dependencies {',
+      '  implementation(libs.androidx.core)',
+      '  testImplementation(libs.junit)',
+      '  androidTestImplementation(libs.androidx.test.ext.junit)',
+      '  androidTestImplementation(platform(libs.compose.bom))',
+      '  implementation(platform(libs.compose.bom))',
+      '  testImplementation "org.mockito:mockito-core:5.0.0"',
+      '  implementation "com.squareup.okhttp3:okhttp:4.12.0"',
+      '}',
+    ].join('\n'),
+    'wallet/build.gradle': "dependencies {\n  testImplementation 'org.robolectric:robolectric:4.16'\n  implementation 'org.robolectric:robolectric:4.16'\n}",
+    // Kotlin Multiplatform: the source set says it is for tests
+    'core/build.gradle.kts': 'kotlin {\n  sourceSets {\n    commonMain {\n      dependencies {\n        implementation(libs.androidx.core)\n      }\n    }\n    commonTest {\n      dependencies {\n        implementation(libs.mockk)\n      }\n    }\n    getByName("androidHostTest") {\n      dependencies { implementation("org.jetbrains.kotlin:kotlin-test-junit:2.0.0") }\n    }\n  }\n}',
+    // a baseline profile module: everything in it is test code
+    'baselineprofile/build.gradle.kts': 'plugins { alias(libs.plugins.android.test) }\ndependencies {\n  implementation(libs.androidx.benchmark.macro.junit4)\n  implementation("androidx.test.espresso:espresso-core:3.6.1")\n}',
+    'gradle/libs.versions.toml': [
+      '[versions]', 'junit = "4.13.2"', '',
+      '[libraries]',
+      'androidx-core = { module = "androidx.core:core-ktx", version = "1.13.0" }',
+      'junit = { group = "junit", name = "junit", version.ref = "junit" }',
+      'androidx-test-ext-junit = { module = "androidx.test.ext:junit", version = "1.2.1" }',
+      'androidx-benchmark-macro-junit4 = { module = "androidx.benchmark:benchmark-macro-junit4", version = "1.3.0" }',
+      'compose-bom = { module = "androidx.compose:compose-bom", version = "2024.10.00" }',
+      'unused-lib = { module = "org.x:unused", version = "1.0" }',
+      'mockk = { module = "io.mockk:mockk", version = "1.14.9" }',
+    ].join('\n'),
+  });
+  const [gradle] = quiet(() => analyzePinning(dir));
+  const scopes = Object.fromEntries(gradle.entries.map(e => [e.name, e.scope]));
+  assert.deepEqual(scopes, {
+    'org.mockito:mockito-core': 'tests',
+    'com.squareup.okhttp3:okhttp': 'app',
+    'org.robolectric:robolectric': 'app', // also added to the app's own configuration
+    'androidx.test.espresso:espresso-core': 'tests',
+    'androidx.core:core-ktx': 'app',
+    'junit:junit': 'tests',
+    'androidx.test.ext:junit': 'tests',
+    'androidx.benchmark:benchmark-macro-junit4': 'tests',
+    'androidx.compose:compose-bom': 'app', // a test and an app configuration
+    'org.x:unused': 'app', // no use found: as before
+    'io.mockk:mockk': 'tests',
+    'org.jetbrains.kotlin:kotlin-test-junit': 'tests',
+  });
+  assert.equal(byName(gradle.entries, 'junit:junit').dev, true);
 });
 
 test('cargo: workspace crates are skipped, their dependencies are direct', () => {
