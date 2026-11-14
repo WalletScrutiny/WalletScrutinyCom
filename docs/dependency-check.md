@@ -16,8 +16,13 @@ them together and the text behind the panel's "What is this?" link.
 For one release of a wallet, read from the lockfiles in the wallet's public
 source repository at that release's tag:
 
-- **packages found**: every package a lockfile pins, across all ecosystems the
-  repository uses (npm, Maven/Gradle, CocoaPods, RubyGems, PyPI, Go, Cargo).
+- **packages found**: every package a lockfile pins, in the ecosystems this
+  check reads: npm (`package-lock.json`, `yarn.lock`), Maven/Gradle (see
+  "What it does not claim"), PyPI (`requirements*.txt`, python-for-android
+  recipes), Cargo (`Cargo.lock`), Flutter/Dart (`pubspec.lock`) and .NET
+  (NuGet `packages.lock.json`). Other lockfiles (`Podfile.lock`,
+  `Package.resolved`, `go.sum`, `poetry.lock`, …) are found but not read;
+  the panel's "Incomplete check" notice names them.
 - **could not be checked**: packages with no exact registry version to look
   up (a git URL, a local path, a version range the lockfile left open). This
   is not "no problems"; it is "nobody looked". Releases analysed before
@@ -67,7 +72,10 @@ source repository at that release's tag:
   (react-native-hce lists jest); one the project puts among its own runtime
   dependencies stays `app`.
   `pubspec.lock` (Flutter) records no graph, only whether a direct package
-  is main or dev, so its transitive packages show `?`.
+  is main or dev, so its transitive packages show `?`. NuGet's
+  `packages.lock.json` records the graph and which packages a project
+  references itself, but not whether a package ships or only runs at build
+  time, so every .NET row shows `?`.
   This is a placement fact, not a judgement: a build dependency can still hurt
   the product (an install script runs on the developer's machine), which is
   why every advisory gets its own decision, see "Triage" below.
@@ -109,8 +117,8 @@ reviewers what others think instead of answering for them.
   say".
 - Statements signed outside the trusted list are shown there too, as
   "community". The analyser records each package's direct users (`dependants`, one
-hop up, from the lockfile graph: package-lock, yarn.lock, Cargo.lock, and
-gradle's resolved graph) and whether the wallet imports it (`direct`).
+hop up, from the lockfile graph: package-lock, yarn.lock, Cargo.lock,
+packages.lock.json, and gradle's resolved graph) and whether the wallet imports it (`direct`).
 
 The statement (`src/dependency-triage.mjs`): an addressable Nostr event
 (`dependencyTriageKind`), one per author and subject, replaced by a newer
@@ -283,9 +291,18 @@ width at a larger text size; each "cleared" has a finger-sized tap target.
 - **Reachability.** A vulnerable version in a lockfile does not mean the
   vulnerable function runs, or runs with anything an attacker controls. The
   panel never says "exploitable".
-- **Completeness.** Only lockfiles are read. A gradle project without
-  `gradle.lockfile` or `verification-metadata.xml` contributes nothing, and
-  osv-scanner reads no `Podfile.lock` or `Package.resolved`. Binary
+- **Completeness.** Only lockfiles and build files are read. A gradle
+  project without `gradle.lockfile` or `verification-metadata.xml` still
+  adds rows: one per dependency its build files and version catalog
+  (`libs.versions.toml`) declare with a version written out, and, where the
+  project has a gradle wrapper, the full graph the project's own gradle
+  resolves in the analysis container (up to three builds, transitive
+  packages included, listed as "(gradle resolution)"). Without a wrapper,
+  or when that resolution fails, only those declarations are there: an
+  inline declaration whose version is a variable is missed, a catalog
+  entry whose version comes from a BOM is a row that cannot be checked,
+  and every transitive package is missing. None of these rows has a hash. `Podfile.lock`, `Package.resolved`,
+  `go.sum` and the like are not read at all. Binary
   dependencies that are not declared in any manifest (a vendored `.so`, a
   prebuilt framework) are invisible to this check.
 - **Currency.** The result is a snapshot of OSV.dev on the check date. New
@@ -403,7 +420,7 @@ Weak points, as an attacker would use them (Danny's red-team round):
   findings. Being addressed: a missing lockfile or an unlocked entry is
   strictly worse than a known vulnerability (Leo, 2026-10-26). The
   `lock-coverage` plugin lists every manifest (npm, cargo, pub, CocoaPods,
-  SwiftPM, Go, Carthage, pip, gradle) with its lockfile or none, and gives
+  SwiftPM, Go, Carthage, pip, gradle, .NET project files) with its lockfile or none, and gives
   each analysis a verdict: `locked`, `unlocked`, `unknown` (locked, but by a
   lockfile this check does not read, such as `go.sum` or `Podfile.lock`, or
   a C/C++ build, which has no lockfile format: CMake, meson, autotools, or
