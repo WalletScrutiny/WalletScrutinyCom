@@ -425,7 +425,7 @@ function treeTabs(model, table, { appId, base, fetchImpl, label }) {
   const dir = `${base}/apps/${safeName(appId)}/${safeName(model.ref)}`;
   const treePane = el('div', { className: 'dp-tabpanel', role: 'tabpanel', hidden: true }, el('p', { className: 'dpt-intro' }, 'Loading the dependency list…'));
   const rebuildPane = el('div', { className: 'dp-tabpanel', role: 'tabpanel', hidden: true }, el('p', { className: 'dpt-intro' }, 'Loading the rebuild results…'));
-  const tablePane = el('div', { className: 'dp-tabpanel', role: 'tabpanel' }, table || el('p', { className: 'dpt-intro' }, 'No published advisories found for this release.'));
+  const tablePane = el('div', { className: 'dp-tabpanel', role: 'tabpanel' }, table || el('p', { className: 'dpt-intro' }, noAdvisoriesText(model)));
   const select = (i) => {
     tabs.forEach((t, j) => { t.setAttribute('aria-selected', String(i === j)); t.tabIndex = i === j ? 0 : -1; panes[j].hidden = i !== j; });
     if (i >= 1 && !loaded) {
@@ -456,6 +456,15 @@ function treeTabs(model, table, { appId, base, fetchImpl, label }) {
     tabs.push(tab); panes.push(pane);
   });
   return el('div', { className: 'dp-tabs' }, el('div', { className: 'dp-tablist', role: 'tablist' }, tabs), ...panes);
+}
+
+// An empty Advisories tab: "none found" only when the check read the whole
+// build; Bitcoin Core's C/C++ part is not read at all (issue 1020 P22).
+export function noAdvisoriesText(model) {
+  const incomplete = (model.lockCoverage && model.lockCoverage.verdict !== 'locked') || model.unchecked;
+  return incomplete
+    ? 'No published advisories found in the part of this release this check could read. The rest was not checked (see the note above), so this is not "none".'
+    : 'No published advisories found for this release.';
 }
 
 // "Your statement on GHSA-… is published (3 of 6 relays): this page shows it now, every wallet page after the next site build."

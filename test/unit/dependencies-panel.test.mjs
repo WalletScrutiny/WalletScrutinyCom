@@ -152,6 +152,16 @@ describe('dependencies panel', () => {
     assert.doesNotMatch(older.querySelector('.dp-headline').textContent, /looked up/, 'an export without the time says nothing');
   });
 
+  test('an empty Advisories tab does not say "none" while part of the build was not read (issue 1020 P22)', () => {
+    // Bitcoin Core v32.1: three pip packages read, the C/C++ build part not
+    const core = { ...APP, releases: [{ ...APP.releases[0], advisories: [], vulnerabilities: { bySeverity: {} }, osv: { skipped: {} },
+      lockCoverage: { verdict: 'unlocked', missing: [], missingCount: 0, unread: [{ ecosystem: 'c/c++', manifest: 'CMakeLists.txt', lockfile: null }], unreadCount: 1, floating: 0, downloads: [], downloadCount: 0, binaries: [], binaryCount: 0 } }] };
+    const tab = (app) => panelElement(panelModel(app), { appId: 'app.android', base: '/x', fetchImpl: async () => null }).querySelector('.dp-tabpanel').textContent;
+    assert.match(tab(core), /^No published advisories found in the part of this release this check could read\. The rest was not checked \(see the note above\), so this is not "none"\.$/);
+    const locked = { ...core, releases: [{ ...core.releases[0], lockCoverage: { ...core.releases[0].lockCoverage, verdict: 'locked', unread: [], unreadCount: 0 } }] };
+    assert.match(tab(locked), /^No published advisories found for this release\.$/, 'everything read: none found');
+  });
+
   test('a failed re-check is noted next to the kept result, which still shows (issue 998)', async () => {
     const rechecked = { ...APP, releases: [{ ...APP.releases[0], recheckFailed: { at: '2026-11-06 08:00:00', error: 'git clone timed out' } }] };
     const { fetchImpl } = fakeFetch({ '/x/apps/app.android.json': rechecked });
