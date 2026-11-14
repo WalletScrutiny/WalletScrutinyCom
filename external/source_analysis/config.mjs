@@ -9,16 +9,11 @@ const __dirname = dirname(__filename);
 // change the order. Every file in plugins/ must be listed here, and a plugin
 // must come after the ones it requires (both checked at startup). Container
 // steps all run before host steps (see plugins.mjs). The test numbers are
-// the README's.
+// the README's. Tests 1-6 and 11 (dependency tree, direct and unfixed
+// dependencies, outdated packages, js-x-ray, obfuscation, Semgrep) and the
+// old npm audit were plugins that stayed off; they were removed on
+// 2026-11-14 and live in git history (README, "Removed plugins").
 export const PLUGINS = {
-  'install-dependencies': false,  // npm/yarn or pip install; tests 1-4 need it, keep it first
-  'dependency-tree': false,       // test 1
-  'direct-dependencies': false,   // test 2
-  'unfixed-versions': false,      // test 3
-  'npm-audit': false,             // the old test 10 (npm/yarn audit), replaced by osv
-  'outdated-dependencies': false, // test 4
-  'jsxray': false,                // test 5
-  'obfuscation': false,           // test 6
   'pinning': true,                // test 7, stores the resolved dependencies
   'gradle-resolution': true,      // test 7b, completes pinning's gradle rows
   'oob-downloads': true,          // test 8, read by lock-coverage
@@ -27,7 +22,6 @@ export const PLUGINS = {
   'build-lock': true,             // test 7d, host: the build's own download list (build-lock.json), adds rows for osv
   'osv': true,                    // test 10, host: known vulnerabilities of pinning's rows
   'submodules': true,             // host: git submodules as three claims (submoduleIdentity.mjs)
-  'semgrep': false,               // test 11, host: its own container on the checkout
 };
 
 // Test 7d (plugins/build-lock.mjs): the verifiers whose build-lock.json is
@@ -87,8 +81,6 @@ export const APPS = [
 
 // Source Code Analysis Configuration
 export const DEFAULT_TEMP_DIR = process.env.SOURCE_ANALYSIS_TEMP_DIR || join(__dirname, 'temp_repos');
-// Fully qualified so it resolves the same under docker and podman
-export const SEMGREP_IMAGE = 'docker.io/semgrep/semgrep';
 
 // Container the per-repository work runs in (containerRunner.mjs). Pinned by
 // digest: a third-party image that runs untrusted code in isolation, bumped
@@ -123,8 +115,6 @@ export const VERIFIED_PER_PASS = Math.max(0, Math.floor(Number(process.env.SOURC
 // used ones are wiped (index.mjs calls pruneCache after each pass).
 export const CACHE_DIR = process.env.SOURCE_ANALYSIS_CACHE_DIR || join(__dirname, 'cache');
 export const CACHE_MAX_BYTES = Number(process.env.SOURCE_ANALYSIS_CACHE_MAX_GB || 20) * 1e9;
-export const YEARS_FOR_OUTDATED_CHECK = 5; // Report dependencies not updated in last X years
-export const MIN_DOWNLOADS_THRESHOLD = 10000; // Minimum downloads per month to avoid alert
 
 // Asset Size Change Detection Configuration
 export const SIZE_CHANGE_THRESHOLD_PERCENT = 40; // Alert if size difference exceeds this percentage

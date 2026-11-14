@@ -168,7 +168,7 @@ export function analyserVersion() {
  * Analyse one repository at one ref (the new release's tag, or the default
  * branch when nothing new was found). Clone and the plugins' container steps
  * run in a throwaway container (containerRunner.mjs); the plugins' host steps
- * (OSV lookup, Semgrep) then run on the checkout and the results the
+ * (OSV lookup, submodules) then run on the checkout and the results the
  * container left behind; the host deletes the scratch directory. What the
  * host steps would store (dependencies, vulnerabilities, submodules) is
  * written together with the analyses row in one transaction, and only when

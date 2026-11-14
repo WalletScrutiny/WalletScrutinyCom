@@ -123,7 +123,7 @@ runuser -u "${SERVICE_USER}" -- node --input-type=module -e 'await import("./con
 # The analysis container image (pinned by digest in config.mjs): pull it as the
 # service user now so the first pass does not, and drop superseded copies of it
 # (an image bump would otherwise leave the previous 4 GB behind). Other images
-# on the host (Automated Build Server, Semgrep) are not touched.
+# on the host (Automated Build Server) are not touched.
 IMAGE="$(runuser -u "${SERVICE_USER}" -- node --input-type=module -e 'const c = await import("./config.mjs"); console.log(c.ANALYSIS_IMAGE);')"
 echo "Pulling analysis image ${IMAGE}..."
 runuser -u "${SERVICE_USER}" -- docker pull --quiet "${IMAGE}"

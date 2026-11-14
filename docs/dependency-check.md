@@ -631,7 +631,8 @@ count. Launch does not wait for replies (Leo and Danny, 2026-10-26).
 2. Whether the panel shape above is final, so the branch can be split into
    reviewable merge requests (build-script step, analyser, panel).
 3. The platform-SDK question under the closed-source rule.
-4. The dependency-tree plugin stays off (Leo, 2026-10-16: "update X" without
+4. The dependency-tree plugin stays off, and was removed with the other
+   plugins that never ran (2026-11-14, source_analysis README) (Leo, 2026-10-16: "update X" without
    the path is good enough; the wallet has to get the vulnerability out, not
    be told how). The lockfile graph walk that answers "Where?" is a different
    thing and is in.

@@ -11,7 +11,7 @@ A Node.js application that watches GitHub releases and Docker images of the trac
 - Supports GitHub API token for higher rate limits
 - Supports Docker Hub API token for private repositories
 - Automatically uses GitHub token for ghcr.io (GitHub Container Registry) when Docker token is not provided
-- Clones the source of each new release and analyses it in a throwaway container (for now only known vulnerabilities and the resolved dependencies run, see [Source analysis](#source-analysis)): dependency counts and pinning, known vulnerabilities, stale or little-used packages, Semgrep and js-x-ray findings, obfuscated JavaScript, out-of-band downloads and committed binaries (see [Source analysis](#source-analysis))
+- Clones the source of each new release and analyses it in a throwaway container (for now only known vulnerabilities and the resolved dependencies run, see [Source analysis](#source-analysis)): dependency counts and pinning, known vulnerabilities, out-of-band downloads and committed binaries (see [Source analysis](#source-analysis))
 - Stores the full resolved dependency set of each analysed release, so a new advisory can be matched against every release that ships the package
 - Looks up the known vulnerabilities of those dependencies on OSV.dev (npm, PyPI, Maven/gradle, crates.io) and stores them per release
 
@@ -47,7 +47,7 @@ a timer every 6 hours:
 | build-lock copies | the verifiers' `build-lock.json` files (`plugins/build-lock.mjs`, issue 1000), fetched from files.nostr.info by the sha256 in the verification and kept, hash-checked, in `build-locks/` next to the database (`SOURCE_ANALYSIS_BUILD_LOCK_DIR`) |
 | per-repository scratch | `/var/cache/walletscrutiny-source-analysis/repos` (`SOURCE_ANALYSIS_TEMP_DIR`), deleted after each repository |
 | scope | wallets with a reproducible build verification of any version (kind 30301 on the project relays, `reproducible.mjs`), each verified version analysed at its tag, 3 per wallet and pass (`SOURCE_ANALYSIS_VERIFIED_PER_PASS`); `SOURCE_ANALYSIS_SCOPE=all` analyses every wallet with a repository. Needs Node 22 (WebSocket) |
-| parallel repositories | 3 (`SOURCE_ANALYSIS_CONCURRENCY`), each in its own container with the [Sandbox](#sandbox) limits, so 18 GB / 6 CPUs for the analysis containers by default, next to the build server (the Semgrep container has no limits); every log line is prefixed with the `[appId]` of its repository |
+| parallel repositories | 3 (`SOURCE_ANALYSIS_CONCURRENCY`), each in its own container with the [Sandbox](#sandbox) limits, so 18 GB / 6 CPUs for the analysis containers by default, next to the build server; every log line is prefixed with the `[appId]` of its repository |
 | package caches | `/var/cache/walletscrutiny-source-analysis/cache` (`SOURCE_ANALYSIS_CACHE_DIR`), npm/yarn/gradle/pip caches, one set per wallet under `wallets/`; past `SOURCE_ANALYSIS_CACHE_MAX_GB` (20) the least recently used wallets' caches are wiped |
 | analysis image | `ANALYSIS_IMAGE` in `config.mjs`, pinned by digest; pulled by the deploy, superseded copies removed |
 | GitHub token | `/etc/credstore.encrypted/build-server-gh-token`, handed to the process as `GITHUB_TOKEN_FILE` |
@@ -714,8 +714,7 @@ result and deletes the scratch directory; it never opens a file of the repositor
 | inside | `HOME=/work/home`, `npm_config_ignore_scripts=true` (the repositories' npm lifecycle scripts never run), `GIT_TERMINAL_PROMPT=0` (a private or removed repository fails instead of waiting for credentials), `PIP_USER=1` (pip installs under `/work`), JDK 17 as `JAVA_HOME` |
 | result | `/work/result.json` (`ok`, `commit`, `appType`, `results` per plugin, `failed` plugins, `error`); the log streams through to the journal |
 
-Semgrep (test 11) is its own container, started by the host on the checkout the
-first container leaves in the scratch dir. The image is the one place a hostile
+The image is the one place a hostile
 repository can reach: the network (its own installs need it) and its own
 `/cache`. Each wallet gets a separate cache directory, so whatever one
 repository's build plants there (a gradle init script, a doctored npm package)
@@ -730,21 +729,32 @@ SOURCE_ANALYSIS_CONTAINER_CLI=podman node index.mjs --githubToken … --app-id �
 
 | Test | What it reports | Ecosystems | Plugin |
 |---|---|---|---|
-| 2 | Number of direct dependencies | npm, gradle, maven, pip | `plugins/direct-dependencies.mjs` |
-| 3 | Dependencies declared without a fixed version (`^`, `~`, `*`, `latest`, ranges) | npm, gradle, maven, pip | `plugins/unfixed-versions.mjs` |
-| 4 | Packages with no release in the last `YEARS_FOR_OUTDATED_CHECK` years, and packages under `MIN_DOWNLOADS_THRESHOLD` monthly downloads (abandoned, or crafted for this app) | npm (gradle, maven, pip: the outdated check runs, but its result is not reported) | `plugins/outdated-dependencies.mjs` |
-| 5 | js-x-ray warnings (eval, encoded literals, suspicious imports …) in JS/TS files; test files skipped unless `--include-test-files` | JS/TS | `plugins/jsxray.mjs` |
-| 6 | Obfuscated JS/TS files (obfuscation-detector) | JS/TS | `plugins/obfuscation.mjs` |
 | 7 | Supply-chain pinning per dependency (7b: for gradle, the resolved graph from the project's own gradle, see below): hash-pinned, version-pinned, source-ref-pinned (JitPack at a commit), build-service-tag, unversioned, floating; registries seen and whether resolution is ambiguous (dependency confusion). Every resolved row is stored (`packages`, `app_dependencies`) | npm, yarn, pip, gradle, cargo, pub (`pubspec.lock`; it records no dependency graph, so only direct packages have a scope) | `plugins/pinning.mjs`, `plugins/gradle-resolution.mjs` |
 | 8 | Build inputs fetched outside the package manager (curl/wget, Dockerfile `FROM`, cmake downloads, git clones in scripts and CI), graded on hash evidence and on whether the URL is immutable or rolling | any | `plugins/oob-downloads.mjs` |
 | 9 | Compiled artifacts checked into the tree (`.a`, `.so`, `.aar`, `.jar`, `.wasm` …), graded on whether the repository documents how they were built and whether a build file uses them | any | `plugins/committed-binaries.mjs` |
-| 10 | Known vulnerabilities of every dependency test 7 resolved to an exact registry version, from the [OSV.dev](https://osv.dev) batch API, run on the host: advisory id and CVE, severity (GitHub's reviewed label, else the CVSS 3 base score; `malicious` for OSV `MAL-` records), fixed versions, direct/transitive and dev. Floating ranges, BOM-supplied versions and git/path/tarball sources are counted as not checkable. Stored per release (`app_vulnerabilities`). The old `npm audit` / `yarn audit` version is the `npm-audit` plugin, off | npm, yarn, pip, gradle, cargo, pub | `plugins/osv.mjs` |
-| 11 | Semgrep CE with `--config=auto`, run in the `SEMGREP_IMAGE` container; skipped without docker | any | `plugins/semgrep.mjs` |
+| 10 | Known vulnerabilities of every dependency test 7 resolved to an exact registry version, from the [OSV.dev](https://osv.dev) batch API, run on the host: advisory id and CVE, severity (GitHub's reviewed label, else the CVSS 3 base score; `malicious` for OSV `MAL-` records), fixed versions, direct/transitive and dev. Floating ranges, BOM-supplied versions and git/path/tarball sources are counted as not checkable. Stored per release (`app_vulnerabilities`). | npm, yarn, pip, gradle, cargo, pub | `plugins/osv.mjs` |
 
-**For now only tests 7 and 10 run** (the resolved dependencies and their known
-vulnerabilities); the other plugins are switched off in `config.mjs` until we
-get back to code analysis. Neither needs the dependencies installed, so the
-`install-dependencies` plugin is off too.
+### Removed plugins
+
+Tests 1-6 and 11 never ran in production: they were switched off in
+`config.mjs` until we got back to code analysis, and were removed on
+2026-11-14 (1,582 lines, plus `jsFiles.mjs`, which only two of them used). They are
+in git history: `git show 5075d11eb4:external/source_analysis/plugins/<name>.mjs`.
+
+| Test | What it reported | Plugin |
+|---|---|---|
+| 1 | Full dependency tree | `dependency-tree` |
+| 2 | Number of direct dependencies | `direct-dependencies` |
+| 3 | Dependencies declared without a fixed version | `unfixed-versions` |
+| 4 | Packages with no recent release or few downloads | `outdated-dependencies` |
+| 5 | js-x-ray warnings in JS/TS files | `jsxray` |
+| 6 | Obfuscated JS/TS files (obfuscation-detector) | `obfuscation` |
+| 11 | Semgrep CE in its own container | `semgrep` |
+| (old 10) | `npm audit` / `yarn audit`, replaced by OSV.dev | `npm-audit` |
+| (1-4) | npm/yarn or pip install, which tests 1-4 needed | `install-dependencies` |
+
+To bring one back, restore its file, add its line to `PLUGINS` (and the
+`config.mjs` setting it imports, if any), and its npm package for 5 and 6.
 
 ### Plugins
 
@@ -755,13 +765,11 @@ order:
 
 ```javascript
 export const PLUGINS = {
-  'install-dependencies': false,
-  …
   'pinning': true,
   'gradle-resolution': true,
   …
   'osv': true,
-  'semgrep': false,
+  'submodules': true,
 };
 ```
 
@@ -785,7 +793,7 @@ require the failed one.
 A plugin file holds its check's whole code, with the plugin object at the
 bottom; other code imports its named exports from there (`pinning-cli.mjs`
 uses `plugins/pinning.mjs` directly). Code two plugins share lives next to
-`config.mjs` (`jsFiles.mjs`); `appAnalysis.mjs` keeps only what every run
+`config.mjs`; `appAnalysis.mjs` keeps only what every run
 needs: clone, ecosystem detection, and running the plugins.
 
 To add a check, add `plugins/<name>.mjs` and a line for it in `PLUGINS`. The
@@ -817,8 +825,7 @@ added to the resolution notes. `pinning-cli.mjs` does not run it (it runs on the
 host and executes nothing).
 
 The tests run in the order of `PLUGINS` (container steps inside the container,
-then host steps such as OSV.dev and Semgrep on the host). Test 1 (full
-dependency tree, `dependency-tree`) exists but is disabled. `pinning-cli.mjs` runs tests 7–9 alone on
+then host steps such as OSV.dev on the host). `pinning-cli.mjs` runs tests 7–9 alone on
 any repository and ref (see above); with `--follow-deps` it also runs test 9 on
 each git-resolvable source dependency (test 9b), which the watcher does not do.
 
