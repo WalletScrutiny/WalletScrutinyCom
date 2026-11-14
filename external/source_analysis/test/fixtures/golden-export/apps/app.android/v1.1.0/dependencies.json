@@ -10,8 +10,8 @@
       "direct": true,
       "scope": "app",
       "dependants": null,
-      "products": 2,
-      "productsSameVersion": 2
+      "products": 1,
+      "productsSameVersion": 1
     },
     {
       "ecosystem": "npm",
