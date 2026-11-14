@@ -6,6 +6,7 @@ import { loadApp, renderDependenciesPanel, liveTriageEvents, triageAuthors, pane
 import { panelModel, releaseForVersion, appForListing } from '../../src/dependencies-panel-model.mjs';
 import { nip19 } from 'nostr-tools';
 import { viaLine } from '../../src/dependencies-panel.mjs';
+import { severityCell } from '../../src/dependencies-advisories.mjs';
 
 const shortNpub = (pk) => { const n = nip19.npubEncode(pk); return `${n.slice(0, 10)}…${n.slice(-4)}`; };
 
@@ -329,6 +330,22 @@ describe('dependencies panel', () => {
     assert.match(line('gone').title, /abcdef1, checked 2026-11-06.*not in any file read there/);
     assert.match(line('bumped').title, /only at 1\.2\.0/);
     assert.equal(line('still'), null);
+  });
+
+  test('RustSec notices are listed as "Notice" but not counted as advisory matches', () => {
+    const notice = advisory('RUSTSEC-2023-0089', 'informational', { ecosystem: 'cargo', package: 'atomic-polyfill', summary: 'atomic-polyfill is unmaintained' });
+    const app = { ...APP, releases: [{ ...APP.releases[0], vulnerabilities: { ...APP.releases[0].vulnerabilities, bySeverity: { ...APP.releases[0].vulnerabilities.bySeverity, informational: 1 } },
+      advisories: [...APP.releases[0].advisories, notice] }] };
+    const model = panelModel(app);
+    assert.equal(model.vulnerabilities, 13);
+    assert.equal(model.notices, 1);
+    const node = panelElement(model, { appId: 'app.android' });
+    const tile = [...node.querySelectorAll('.dp-tile')].find(t => t.querySelector('.dp-tile__label').textContent === 'advisory matches');
+    assert.equal(tile.querySelector('.dp-tile__value').textContent, '13');
+    assert.match(tile.textContent, /Not counted: 1 notice of unmaintained or unsound packages/);
+    assert.doesNotMatch(tile.textContent, /notice · /, 'no severity line for notices');
+    assert.equal(model.advisories.at(-1).id, 'RUSTSEC-2023-0089', 'listed last');
+    assert.equal(severityCell(notice).querySelector('.dp-sev').textContent, 'Notice');
   });
 
   test('a malicious package is a lead being checked, called out above everything else', () => {

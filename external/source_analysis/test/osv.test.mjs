@@ -211,6 +211,46 @@ test('severity from a CVSS 4.0 vector, and from the scores records keep per affe
   assert.equal(severityOf({ id: 'OSV-X', affected: [{ ecosystem_specific: { severity: null } }] }), 'unknown');
 });
 
+test('an unrated advisory takes the rating of the record it aliases; RustSec notices are informational', async () => {
+  const rustsec = (id, extra = {}) => ({ id, affected: [{ package: { ecosystem: 'crates.io', name: 'c' }, database_specific: { informational: null, cvss: null } }], ...extra });
+  const { fetchImpl, calls } = stubFetch({
+    // OSV.dev answers the package query with the RUSTSEC and PYSEC records only
+    vulnsByQuery: { 'crates.io/c@1.0.0': ['RUSTSEC-A', 'RUSTSEC-B', 'RUSTSEC-C', 'RUSTSEC-D'], 'PyPI/pillow@9.2.0': ['PYSEC-A'] },
+    advisories: {
+      'RUSTSEC-A': rustsec('RUSTSEC-A', { aliases: ['GHSA-rated'] }),
+      'GHSA-rated': { id: 'GHSA-rated', aliases: ['RUSTSEC-A'], database_specific: { severity: 'HIGH' } },
+      // its GHSA twin is not in OSV.dev
+      'RUSTSEC-B': rustsec('RUSTSEC-B', { aliases: ['GHSA-missing'] }),
+      'RUSTSEC-C': { id: 'RUSTSEC-C', summary: 'c is unmaintained', affected: [{ package: { ecosystem: 'crates.io', name: 'c' }, database_specific: { informational: 'unmaintained' } }] },
+      // an unsound notice whose alias is rated keeps the rating
+      'RUSTSEC-D': { id: 'RUSTSEC-D', aliases: ['GHSA-low'], affected: [{ database_specific: { informational: 'unsound' } }] },
+      'GHSA-low': { id: 'GHSA-low', database_specific: { severity: 'LOW' } },
+      'PYSEC-A': { id: 'PYSEC-A', aliases: ['CVE-X', 'GHSA-pil'] },
+      'GHSA-pil': { id: 'GHSA-pil', database_specific: { severity: 'HIGH' } },
+    },
+  });
+  const rows = [{ entries: [entry('cargo', 'c', '1.0.0'), entry('pip', 'pillow', '9.2.0')] }];
+  const result = await quiet(() => checkVulnerabilities(rows, { fetchImpl }));
+  const sev = Object.fromEntries(result.findings.map(f => [f.id, f.severity]));
+  assert.deepEqual(sev, { 'RUSTSEC-A': 'high', 'RUSTSEC-B': 'unknown', 'RUSTSEC-C': 'informational', 'RUSTSEC-D': 'low', 'PYSEC-A': 'high' });
+  assert.equal(result.findings.at(-1).id, 'RUSTSEC-C', 'a notice sorts after the unrated advisories');
+  // an alias OSV.dev does not know is not asked again in the same process
+  const asked = () => calls.filter(c => c.url.endsWith('/vulns/GHSA-missing')).length;
+  assert.equal(asked(), 1);
+  await quiet(() => checkVulnerabilities(rows, { fetchImpl }));
+  assert.equal(asked(), 1);
+});
+
+test('an alias lookup that fails leaves the advisory unrated, not the lookup failed', async () => {
+  const { fetchImpl: base } = stubFetch({
+    vulnsByQuery: { 'crates.io/c@1.0.0': ['RUSTSEC-A'] },
+    advisories: { 'RUSTSEC-A': { id: 'RUSTSEC-A', aliases: ['GHSA-down'] } },
+  });
+  const fetchImpl = async (url, options) => (url.endsWith('/vulns/GHSA-down') ? { ok: false, status: 400, json: async () => ({}) } : base(url, options));
+  const result = await quiet(() => checkVulnerabilities([{ entries: [entry('cargo', 'c', '1.0.0')] }], { fetchImpl }));
+  assert.deepEqual(result.findings.map(f => [f.id, f.severity]), [['RUSTSEC-A', 'unknown']]);
+});
+
 test('findings are stored per release and replaced on re-analysis', () => {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'osv-db-'));
   const db = initDatabase(path.join(dir, 'test.db'));

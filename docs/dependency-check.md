@@ -39,7 +39,11 @@ source repository at that release's tag:
     repository are counted and named on their own line ("113 of them only in
     the desktop app"); whether they leave the count is open, see below.
   - One line per severity, the CVSS score OSV reports: critical ≥ 9,
-    high ≥ 7, medium ≥ 4, low > 0.
+    high ≥ 7, medium ≥ 4, low > 0. An advisory without a rating of its own
+    takes the rating of a record it aliases (a RUSTSEC's GHSA twin).
+  - RustSec notices without a rating (a package nobody maintains, or an
+    unsound API) are listed as "Notice" in the table but not counted; the
+    tile says how many it left out.
   - A caveat on the tile says that a match means a package version is listed
     as affected, not that the affected part is used, and, when the release
     has no APK check, that the released app itself was not checked.

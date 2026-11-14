@@ -6,7 +6,9 @@ import { buildLockForReaders } from './plugins/build-lock.mjs';
 import { getDependencies, getVulnerabilities, getSubmodules, dependantsOfRow } from './ddbbUtils.mjs';
 import { COUNTED_TARGETS, partOfFile, sortingOf, targetOfLockfile, unlistedFiles } from './products.mjs';
 
-export const SEVERITIES = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown'];
+// `informational` is a RustSec notice (unmaintained, unsound), not a
+// vulnerability report (plugins/osv.mjs); `unknown` stays last, countBy's fallback.
+export const SEVERITIES = ['malicious', 'critical', 'high', 'moderate', 'low', 'informational', 'unknown'];
 
 export const countBy = (rows, key, keys) => {
   const out = Object.fromEntries(keys.map(k => [k, 0]));
@@ -129,7 +131,8 @@ export function summarizeRelease(db, appId, ref) {
     },
     vulnerabilities: {
       bySeverity: countBy(vulns, 'severity', SEVERITIES),
-      byScope: Object.fromEntries(['app', 'build', 'tests', 'unknown'].map(s => [s, vulns.filter(v => scopeOfRow(v) === s).length])),
+      // where the advisories sit; notices are counted only under bySeverity
+      byScope: Object.fromEntries(['app', 'build', 'tests', 'unknown'].map(s => [s, vulns.filter(v => v.severity !== 'informational' && scopeOfRow(v) === s).length])),
     },
   };
 }

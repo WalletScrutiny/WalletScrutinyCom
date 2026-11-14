@@ -25,7 +25,7 @@ import { safeName } from './export.mjs';
 import { COUNTED_TARGETS } from './products.mjs';
 
 // Worst first, as plugins/osv.mjs sorts findings.
-const SEVERITY_ORDER = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown'];
+const SEVERITY_ORDER = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown', 'informational'];
 
 export const NEWS_DAYS = 14;
 export const NEWS_RELEASE_MONTHS = 6;

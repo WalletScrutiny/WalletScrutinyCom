@@ -42,7 +42,7 @@ test('buildApp: releases newest first with summary, advisories and diff, nothing
   assert.deepEqual(previous.dependencies.byScope, { app: 1, build: 0, tests: 1, unknown: 0 }, 'scope column first, dev flag for rows without one');
   assert.equal(latest.advisories[0].scope, 'app');
   assert.deepEqual(latest.vulnerabilities.byScope, { app: 1, build: 0, tests: 0, unknown: 0 });
-  assert.deepEqual(latest.vulnerabilities.bySeverity, { malicious: 0, critical: 0, high: 1, moderate: 0, low: 0, unknown: 0 });
+  assert.deepEqual(latest.vulnerabilities.bySeverity, { malicious: 0, critical: 0, high: 1, moderate: 0, low: 0, informational: 0, unknown: 0 });
   assert.equal(latest.advisories[0].id, 'GHSA-aaaa');
   assert.deepEqual([latest.advisories[0].products, latest.advisories[0].productsSameVersion], [2, 2], 'a@1.0.1 is shipped by app.android and app.other');
   assert.deepEqual(latest.diffFrom, { ref: 'v1.0.0', added: 1, removed: 1, changed: 1, integrityChangedAtSameVersion: [] });
@@ -55,6 +55,19 @@ test('buildApp: releases newest first with summary, advisories and diff, nothing
   assert.deepEqual(Object.keys(written.dependencies), ['total', 'direct', 'byScope', 'byEcosystem', 'lockfiles', 'sorting']);
   assert.deepEqual(Object.keys(written.vulnerabilities), ['bySeverity', 'byScope']);
   assert.deepEqual(Object.keys(written.advisories[0]), ['id', 'severity', 'aliases', 'summary', 'ecosystem', 'package', 'version', 'fixed', 'direct', 'scope', 'dependants', 'products', 'productsSameVersion']);
+});
+
+test('buildApp: RustSec notices are counted by severity on their own, not where advisories sit', () => {
+  const db = seeded();
+  saveVulnerabilities(db, 'app.android', 'v1.1.0', { findings: [
+    { ecosystem: 'npm', name: 'a', version: '1.0.1', id: 'GHSA-aaaa', aliases: [], severity: 'high', summary: 'bad', fixed: [], direct: true, dev: false },
+    { ecosystem: 'npm', name: 'a', version: '1.0.1', id: 'RUSTSEC-n', aliases: [], severity: 'informational', summary: 'a is unmaintained', fixed: [], direct: true, dev: false },
+  ] });
+  const [latest] = buildApp(db, 'app.android', [{ appId: 'app.android' }]).releases;
+  assert.equal(latest.vulnerabilities.bySeverity.informational, 1);
+  assert.equal(latest.vulnerabilities.bySeverity.unknown, 0);
+  assert.deepEqual(latest.vulnerabilities.byScope, { app: 1, build: 0, tests: 0, unknown: 0 });
+  assert.equal(latest.advisories.find(a => a.id === 'RUSTSEC-n').severity, 'informational');
 });
 
 // Issue 995: a statement records its direct user's version, so the row says it.

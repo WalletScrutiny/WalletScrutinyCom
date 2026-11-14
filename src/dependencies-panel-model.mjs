@@ -7,7 +7,9 @@ import { applyTriage, TRIAGE_LABEL, JUSTIFICATION_LABEL, whereOf, WHERE_LABELS }
 
 export { whereOf, WHERE_LABELS };
 
-export const SEVERITY_ORDER = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown'];
+// `informational`: a RustSec notice (unmaintained, unsound) with no rating, listed
+// but not counted as an advisory match (external/source_analysis/plugins/osv.mjs).
+export const SEVERITY_ORDER = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown', 'informational'];
 
 export const SEVERITY_LABEL = {
   malicious: 'Malware',
@@ -16,6 +18,7 @@ export const SEVERITY_LABEL = {
   moderate: 'Medium',
   low: 'Low',
   unknown: 'Unrated',
+  informational: 'Notice',
 };
 
 export const SKIP_REASON_LABEL = {
@@ -70,7 +73,7 @@ function countsOfAdvisories(rows) {
   for (const a of rows) {
     const severity = SEVERITY_ORDER.includes(a.severity) ? a.severity : 'unknown';
     bySeverity[severity] = (bySeverity[severity] || 0) + 1;
-    byScope[byScope[a.scope] === undefined ? 'unknown' : a.scope] += 1;
+    if (severity !== 'informational') byScope[byScope[a.scope] === undefined ? 'unknown' : a.scope] += 1;
   }
   return { bySeverity, byScope };
 }
@@ -347,7 +350,7 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
 
   const bySeverity = { ...Object.fromEntries(SEVERITY_ORDER.map(s => [s, 0])), ...(vulnerabilityCounts?.bySeverity || {}) };
   const malware = bySeverity.malicious;
-  const vulnerabilities = SEVERITY_ORDER.filter(s => s !== 'malicious').reduce((n, s) => n + bySeverity[s], 0);
+  const vulnerabilities = SEVERITY_ORDER.filter(s => s !== 'malicious' && s !== 'informational').reduce((n, s) => n + bySeverity[s], 0);
   const appIds = [app.appId, ...(app.aliases || []).map(a => a.appId)].filter(Boolean);
   const triaged = applyTriage(applySignals(current.advisories || [], signals), triage, { appIds, releases });
   const apkOfRelease = apk && apk.ref === current.ref ? apk : null; // an APK of another release says nothing about these rows
@@ -392,6 +395,7 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
     unchecked,
     uncheckedBreakdown: uncheckedBreakdown(current.osv),
     vulnerabilities,
+    notices: bySeverity.informational,
     malware,
     bySeverity,
     vulnerablePackages: current.vulnerabilities?.packages ?? 0,

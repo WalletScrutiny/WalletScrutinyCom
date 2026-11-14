@@ -49,7 +49,8 @@ export function vulnerabilityTipLines(model) {
 // (Leo, 2026-10-26: a build dependency can carry a backdoor too). A row's `part`
 // is a guess from a folder name, so the tile does not repeat it as a fact.
 function vulnerabilityTile(model) {
-  const rows = (model.advisories || []).filter(a => a.severity !== 'malicious');
+  const rows = (model.advisories || []).filter(a => a.severity !== 'malicious' && a.severity !== 'informational');
+  const notices = (model.advisories || []).filter(a => a.severity === 'informational').length;
   const tally = severityTally(model, rows, { explain: true });
   // The number takes the colour of the worst severity still open; once every
   // advisory is cleared it turns green.
@@ -67,6 +68,8 @@ function vulnerabilityTile(model) {
     tally.lines,
     rows.length ? el('div', { className: 'dp-tile__line' }, `${distinct} distinct advisories`) : null,
     rows.length && split ? el('div', { className: 'dp-tile__line dp-tile__line--muted' }, split) : null,
+    // RustSec notices: a package nobody maintains or with an unsound API, no reported flaw
+    notices ? el('div', { className: 'dp-tile__line dp-tile__line--muted' }, `Not counted: ${notices} ${notices === 1 ? 'notice' : 'notices'} of unmaintained or unsound packages (listed as "Notice")`) : null,
     rows.length ? el('div', { className: 'dp-tile__caveat' }, model.apk
       ? 'A match means a package version is listed as affected, not that the affected part is used.'
       : 'A match means a package version is listed as affected, not that the affected part is used. The released app itself was not checked for these packages.') : null,

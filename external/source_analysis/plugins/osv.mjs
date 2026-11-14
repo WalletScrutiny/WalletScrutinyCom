@@ -72,7 +72,9 @@ export function nativeSource(entry) {
 }
 
 const UNCHECKABLE_TIERS = new Set(['floating', 'unversioned', 'source-ref-pinned']);
-const SEVERITY_ORDER = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown'];
+// `informational` is a RustSec notice (unmaintained, unsound) with no rating of
+// its own or its aliases': listed, but not a vulnerability report.
+const SEVERITY_ORDER = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown', 'informational'];
 
 /**
  * Why a dependency row cannot be looked up, or null when it can. A version
@@ -210,8 +212,35 @@ const detailCache = new Map(); // id -> Promise<advisory>
 
 export function clearAdvisoryCache() {
   detailCache.clear();
+  aliasCache.clear();
   nvdCache.clear();
   nvdNextAt = 0;
+}
+
+// The records an unrated advisory aliases, for their rating: OSV.dev often
+// returns only the RUSTSEC or PYSEC record of an issue whose GHSA is rated.
+// An alias OSV.dev does not know is remembered as null; any other failure
+// leaves the advisory unrated this time, it does not fail the lookup.
+const aliasCache = new Map(); // id -> Promise<advisory|null>
+
+async function fetchAliases(details, fetchImpl) {
+  const wanted = new Set();
+  for (const advisory of details.values()) {
+    if (severityOf(advisory) !== 'unknown') continue;
+    for (const alias of advisory.aliases || []) if (!details.has(alias)) wanted.add(alias);
+  }
+  const out = new Map();
+  for (const id of wanted) {
+    if (!aliasCache.has(id)) {
+      aliasCache.set(id, request(fetchImpl, `${OSV_API}/vulns/${encodeURIComponent(id)}`).catch((error) => {
+        if (!/HTTP 404$/.test(error.message)) aliasCache.delete(id);
+        return null;
+      }));
+    }
+    const record = await aliasCache.get(id);
+    if (record) out.set(id, record);
+  }
+  return out;
 }
 
 async function fetchDetails(ids, fetchImpl) {
@@ -408,6 +437,24 @@ export function severityOf(advisory) {
   return 'unknown';
 }
 
+/** RustSec's kind of informational notice (unmaintained, unsound, notice), or null. */
+export function informationalOf(advisory) {
+  return (advisory.affected || []).map(a => a.database_specific?.informational).find(Boolean) || null;
+}
+
+// The severity a finding gets: the record's own, else the best rating among
+// the records it aliases (`records`: id -> record), else `informational` for
+// a RustSec notice, else unknown.
+function findingSeverity(advisory, records) {
+  const own = severityOf(advisory);
+  if (own !== 'unknown') return own;
+  const rated = (advisory.aliases || []).map(id => records.get(id)).filter(Boolean).map(severityOf)
+    .filter(s => ['critical', 'high', 'moderate', 'low'].includes(s))
+    .sort((x, y) => SEVERITY_ORDER.indexOf(x) - SEVERITY_ORDER.indexOf(y));
+  if (rated.length) return rated[0];
+  return informationalOf(advisory) ? 'informational' : 'unknown';
+}
+
 function ratingOfLabel(label) {
   const l = String(label || '').toLowerCase();
   if (['critical', 'high', 'moderate', 'low'].includes(l)) return l;
@@ -466,12 +513,13 @@ export function affectedRanges(advisory, q) {
  * folded into one finding, keeping the record that carries a severity and the
  * fixed versions and affected ranges of all of them.
  */
-function findingsFor(q, ids, details, extra = []) {
+function findingsFor(q, ids, details, extra = [], records = details) {
   const advisories = [...ids.map(id => details.get(id)).filter(Boolean), ...extra];
+  const severity = new Map(advisories.map(a => [a, findingSeverity(a, records)]));
   // most severe first; on a tie the record with GitHub's reviewed label, so the
   // kept id does not depend on the order OSV listed them in
   const labelled = (a) => (a.database_specific?.severity ? 0 : 1);
-  advisories.sort((x, y) => SEVERITY_ORDER.indexOf(severityOf(x)) - SEVERITY_ORDER.indexOf(severityOf(y)) ||
+  advisories.sort((x, y) => SEVERITY_ORDER.indexOf(severity.get(x)) - SEVERITY_ORDER.indexOf(severity.get(y)) ||
     labelled(x) - labelled(y) || x.id.localeCompare(y.id));
   const byName = new Map(); // advisory id or alias -> the finding that carries it
   const findings = [];
@@ -495,7 +543,7 @@ function findingsFor(q, ids, details, extra = []) {
       version: q.version,
       id: advisory.id,
       aliases: advisory.aliases || [],
-      severity: severityOf(advisory),
+      severity: severity.get(advisory),
       summary: advisory.summary || (advisory.details || '').split('\n')[0].slice(0, 200),
       fixed,
       affected,
@@ -549,8 +597,10 @@ export async function checkVulnerabilities(analyses, { fetchImpl = globalThis.fe
   try {
     const ids = await queryIds(queries, fetchImpl);
     const details = await fetchDetails(ids.flat(), fetchImpl);
+    // every record an alias can be looked up in: those of other packages too
+    const records = new Map([...details, ...await fetchAliases(details, fetchImpl)]);
     const nvd = await nvdAdvisories(queries, fetchImpl, nvdIntervalMs);
-    findings = queries.flatMap((q, i) => findingsFor(q, ids[i], details, nvd.records[i]));
+    findings = queries.flatMap((q, i) => findingsFor(q, ids[i], details, nvd.records[i], records));
     nvdUnavailable = nvd.failed.map(i => queries[i]);
   } catch (error) {
     console.log(`Vulnerability lookup failed: ${error.message}. No vulnerability result for this run.`);

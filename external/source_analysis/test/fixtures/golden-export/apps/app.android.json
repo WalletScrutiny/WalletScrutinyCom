@@ -51,6 +51,7 @@
           "high": 1,
           "moderate": 0,
           "low": 0,
+          "informational": 0,
           "unknown": 0
         },
         "byScope": {
@@ -136,6 +137,7 @@
           "high": 0,
           "moderate": 0,
           "low": 0,
+          "informational": 0,
           "unknown": 0
         },
         "byScope": {
