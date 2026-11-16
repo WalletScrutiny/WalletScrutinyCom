@@ -709,7 +709,7 @@ function advisoryTable(model, { onJudge = null, freshId = null, showAll = false 
   const showWhere = !allWhereUnknown(model);
   const rowOptions = { mixedEcosystems: model.ecosystems.length > 1, onJudge, freshId, defaultBranch: model.defaultBranch, showWhere };
   const body = el('tbody', {}, shown.map(a => advisoryRow(a, rowOptions)));
-  const table = el('table', { className: 'dp-table' },
+  const table = el('table', { className: 'dp-table dp-adv-table' },
     el('thead', {}, el('tr', {},
       ['Package', 'Version', 'Advisory', 'Severity', showWhere ? 'Where?' : null, 'Used by', 'Decision'].filter(Boolean)
         .map(h => el('th', {}, HEADER_TIPS[h] ? tipTrigger(h, HEADER_TIPS[h], { className: 'dp-term dp-th-term' }) : h)),

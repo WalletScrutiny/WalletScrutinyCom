@@ -471,6 +471,21 @@ body.dark .dp-history__dot--current {
   }
 }
 
+// Advisories: the short columns sit centred; Package and Decision stay left
+.dp-adv-table {
+  th,
+  td {
+    text-align: center;
+  }
+
+  th:first-child,
+  th:last-child,
+  .dp-td-package,
+  .dp-td-decision {
+    text-align: left;
+  }
+}
+
 // Phones: each advisory is a card instead of a row of a table wider than
 // the screen; the column names move into the cells (data-label).
 @media (max-width: 640px) {
@@ -536,6 +551,10 @@ body.dark .dp-history__dot--current {
 
     .dp-td-decision {
       min-width: 0;
+    }
+
+    &.dp-adv-table td {
+      text-align: left;
     }
   }
 }
