@@ -24,7 +24,7 @@ repository: https://github.com/keycard-tech/status-keycard
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2026-10-30
+date: 2026-11-16
 signer: 
 twitter: Keycard_
 social: 
@@ -38,6 +38,8 @@ features:
 - secEl
 
 ---
+
+**Update 2026-11-16:** {% include walletLink.html wallet='android/com.keycardpal' verdict='true' %} is a companion app for this card on Android and iPhone. It is [made by an independent developer, not by Keycard](https://github.com/mmlado/keycard-pal/blob/v1.17.0/README.md#requirements). Its Android offline flavor has no internet permission at all.
 
 ## Update 2022-11-03
 
