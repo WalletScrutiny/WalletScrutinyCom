@@ -117,39 +117,63 @@ export function treeElement({ dependencies, advisories = [], wallet, rebuilds = 
 
   function setOpen(li, node, pathIds, level, open) {
     const id = pathIds.join('>');
-    if (open) expanded.add(id); else expanded.delete(id);
+    if (open) openPackage(node, pathIds); else expanded.delete(id);
     const fresh = nodeItem(node, pathIds, level);
     li.replaceWith(fresh);
     fresh.querySelector('.dpt-toggle')?.focus?.();
   }
 
-  // A branch above the packages: a product or a group. `content(level)` gives its children.
-  function branchItem(id, label, count, level, content) {
+  const opens = (node, ancestors) => node.advisories.length > 0 || childrenOf(node, ancestors).length > 0;
+
+  // Opening a package whose only child opens too opens that child, and so on down.
+  function openPackage(node, pathIds) {
+    for (;;) {
+      expanded.add(pathIds.join('>'));
+      const kids = childrenOf(node, pathIds.slice(0, -1));
+      if (node.advisories.length || kids.length !== 1 || kids[0].cycle || !opens(kids[0].node, pathIds)) return;
+      node = kids[0].node;
+      pathIds = [...pathIds, node.key];
+    }
+  }
+
+  function openGroup(id, roots) {
+    expanded.add(id);
+    if (roots.length === 1 && opens(roots[0], [id])) openPackage(roots[0], [id, roots[0].key]);
+  }
+
+  function openProduct(product) {
+    expanded.add(`p:${product.id}`);
+    const shown = groupsShown(product);
+    if (shown.length === 1) openGroup(shown[0].id, shown[0].roots);
+  }
+
+  // A branch above the packages: a product or a group. `content(level)` gives its
+  // children, `openIt()` opens it (and its only child, if that opens too).
+  function branchItem(id, label, count, level, content, openIt) {
     const open = expanded.has(id);
     const li = el('li', { className: 'dpt-item dpt-item--group', role: 'treeitem', 'aria-level': String(level), 'aria-expanded': String(open), tabindex: '-1', dataset: { id } });
     const toggle = el('button', { type: 'button', className: 'dpt-toggle', tabindex: '-1', 'aria-label': `${open ? 'Collapse' : 'Expand'} ${label}` }, open ? '−' : '+');
-    toggle.addEventListener('click', (e) => { e.stopPropagation(); if (open) expanded.delete(id); else expanded.add(id); paint(); });
+    toggle.addEventListener('click', (e) => { e.stopPropagation(); if (open) expanded.delete(id); else openIt(); paint(); });
     li.appendChild(el('div', { className: 'dpt-row' }, toggle, el('span', { className: 'dpt-group' }, label), el('span', { className: 'dpt-count' }, `${count} ${count === 1 ? 'package' : 'packages'}`)));
     if (open) li.appendChild(el('ul', { role: 'group', className: 'dpt-children' }, content(level + 1)));
     return li;
   }
 
   function groupItem(id, label, roots, level) {
-    return branchItem(id, label, roots.length, level, kids => roots.map(n => nodeItem(n, [id, n.key], kids)));
+    return branchItem(id, label, roots.length, level, kids => roots.map(n => nodeItem(n, [id, n.key], kids)), () => openGroup(id, roots));
   }
 
   // What the scope menu keeps: everything, one group, one product, or every other product.
   const visible = (product, group) => scope === 'all' || scope === groupId(product, group) || scope === `p:${product}`
     || (scope === 'p:other' && product !== THIS_APP);
 
-  function groupsOf(product, level) {
-    const items = [];
-    for (const g of product.groups) {
-      if (visible(product.id, g.scope)) items.push(groupItem(groupId(product.id, g.scope), g.label, g.roots, level));
-    }
-    if (product.unreachable.length && visible(product.id, 'unreachable')) items.push(groupItem(groupId(product.id, 'unreachable'), UNREACHABLE_LABEL, product.unreachable, level));
-    return items;
+  function groupsShown(product) {
+    const shown = product.groups.filter(g => visible(product.id, g.scope)).map(g => ({ id: groupId(product.id, g.scope), label: g.label, roots: g.roots }));
+    if (product.unreachable.length && visible(product.id, 'unreachable')) shown.push({ id: groupId(product.id, 'unreachable'), label: UNREACHABLE_LABEL, roots: product.unreachable });
+    return shown;
   }
+
+  const groupsOf = (product, level) => groupsShown(product).map(g => groupItem(g.id, g.label, g.roots, level));
 
   const shows = product => visible(product.id, 'unreachable') || product.groups.some(g => visible(product.id, g.scope));
 
@@ -158,11 +182,12 @@ export function treeElement({ dependencies, advisories = [], wallet, rebuilds = 
     const items = [];
     if (!split) items.push(...tree.products.flatMap(p => groupsOf(p, 2)));
     else {
-      if (own && shows(own)) items.push(branchItem(`p:${THIS_APP}`, THIS_APP_LABEL, own.total, 2, level => groupsOf(own, level)));
+      if (own && shows(own)) items.push(branchItem(`p:${THIS_APP}`, THIS_APP_LABEL, own.total, 2, level => groupsOf(own, level), () => openProduct(own)));
       const otherShown = others.filter(shows);
       if (otherShown.length) {
         items.push(branchItem('p:other', OTHER_PRODUCTS_LABEL, others.reduce((n, p) => n + p.total, 0), 2,
-          level => otherShown.map(p => branchItem(`p:${p.id}`, p.label, p.total, level, inner => groupsOf(p, inner)))));
+          level => otherShown.map(p => branchItem(`p:${p.id}`, p.label, p.total, level, inner => groupsOf(p, inner), () => openProduct(p))),
+          () => { expanded.add('p:other'); if (otherShown.length === 1) openProduct(otherShown[0]); }));
       }
     }
     const root = el('li', { className: 'dpt-item dpt-item--wallet', role: 'treeitem', 'aria-level': '1', 'aria-expanded': 'true', tabindex: '0' },
@@ -251,8 +276,8 @@ export function treeElement({ dependencies, advisories = [], wallet, rebuilds = 
   if (tree.unreachable.length) limits.push(`${tree.unreachable.length} packages are listed under "${UNREACHABLE_LABEL}": the files name no parent for them, or the parent they name is not in the lockfile${tree.missingParents ? ` (${tree.missingParents} such references)` : ''}.`);
 
   // A tree with a single group opens it: there is nothing to choose between.
-  const groupIds = tree.products.flatMap(p => [...p.groups.map(g => groupId(p.id, g.scope)), ...(p.unreachable.length ? [groupId(p.id, 'unreachable')] : [])]);
-  if (!split && groupIds.length === 1) expanded.add(groupIds[0]);
+  const onlyGroups = tree.products.flatMap(groupsShown);
+  if (!split && onlyGroups.length === 1) openGroup(onlyGroups[0].id, onlyGroups[0].roots);
 
   paint();
   return el('div', { className: 'dpt' },

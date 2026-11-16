@@ -143,6 +143,32 @@ describe('dependencies panel model', () => {
     const row = { id: 'GHSA-x', aliases: ['CVE-1'], decision: { basis: [{ statement: { evidence: url(2) } }] } };
     assert.deepEqual(upstreamFor(row, upstream).map(h => h.url), [url(1)]);
     assert.deepEqual(upstreamFor(row, null), []);
+    // who signed decides, not the scope: an outsider citing the wallet's own note does not hide it,
+    // not even in a statement made for another wallet; a trusted author or the library's maintainer does
+    const others = (scope, pubkey, extra = {}) => ({ id: 'GHSA-x', package: 'lib', triage: { others: [{ scope, statement: { pubkey, evidence: url(1), ...extra } }] } });
+    const lists = { trusted: ['t'], maintainers: { 'npm:lib': ['m'], 'npm:dep': ['d'] } };
+    assert.deepEqual(upstreamFor(others('community', 'x'), upstream, lists).map(h => h.url), [url(1)]);
+    assert.deepEqual(upstreamFor(others('elsewhere', 'x', { app: 'other.wallet' }), upstream, lists).map(h => h.url), [url(1)]);
+    assert.deepEqual(upstreamFor(others('community', 'd'), upstream, lists).map(h => h.url), [url(1)], 'a maintainer of another library');
+    assert.deepEqual(upstreamFor(others('unproven', 't'), upstream, lists), []);
+    assert.deepEqual(upstreamFor(others('elsewhere', 't', { app: 'other.wallet' }), upstream, lists), []);
+    assert.deepEqual(upstreamFor(others('community', 'm'), upstream, lists), []);
+    assert.deepEqual(upstreamFor(others('community', 'd', { via: 'npm:dep' }), upstream, lists), [], 'the maintainer of the direct user it is about');
+    assert.deepEqual(upstreamFor(others('unproven', 't'), upstream).map(h => h.url), [url(1)], 'no lists, nobody hides it');
+  });
+
+  test('a wallet\'s ignore-file note stays when an outsider cites it, whatever wallet the statement is for (issue 1002)', () => {
+    const url = 'https://github.com/a/b/blob/v1/.trivyignore#L3';
+    const app = { appId: 'this.wallet', releases: [{ ref: 'v1', status: 'ok', advisories: [{ id: 'GHSA-x', package: 'lib', ecosystem: 'npm', version: '1.0.0', severity: 'high' }] }] };
+    const upstream = { advisories: { 'GHSA-x': [{ url, reason: 'not reachable' }] } };
+    const statement = (pubkey, appId) => ({ id: `${pubkey}-${appId}`, pubkey, d: `${appId}:GHSA-x`, created_at: 1, vulns: ['GHSA-x'], status: 'not_affected', evidence: url, ...(appId ? { app: appId } : {}) });
+    const hints = (statements) => panelModel(app, { triage: { trusted: ['t'], maintainers: {}, statements }, upstream }).allAdvisories[0].upstream?.map(h => h.url) || [];
+    assert.deepEqual(hints([]), [url]);
+    assert.deepEqual(hints([statement('x', 'this.wallet')]), [url], 'outsider, this wallet');
+    assert.deepEqual(hints([statement('x', null)]), [url], 'outsider, package-wide');
+    assert.deepEqual(hints([statement('x', 'other.wallet')]), [url], 'outsider, another wallet');
+    assert.deepEqual(hints([statement('t', 'this.wallet')]), [], 'trusted author, this wallet');
+    assert.deepEqual(hints([statement('t', 'other.wallet')]), [], 'trusted author, another wallet');
   });
 
   test('a row from another product\'s lockfile reads as that product under "Where?"', () => {

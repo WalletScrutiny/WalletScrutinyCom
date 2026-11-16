@@ -25,6 +25,8 @@ export const SKIP_REASON_LABEL = {
   'git-or-path': 'git or local path dependency',
   'no-exact-version': 'no exact version',
   ecosystem: 'ecosystem OSV.dev does not cover',
+  'no-upstream': 'native library we do not know the source repository of',
+  'nvd-unavailable': 'native library checked against OSV.dev only, NVD did not answer',
 };
 
 export const WORST_ROWS = 10;
@@ -164,6 +166,18 @@ export function versionCore(s) {
   return m ? m[0] : '';
 }
 
+// The app file as one listing's page shows it: only the releases reproduced
+// for that app id and platform (a release's `reproducedFor`, export.mjs), or
+// null when there is none. The iPhone page of a wallet reproduced on Android
+// shows no dependencies: nobody built that app from source. An export that
+// names no listing on any release (SOURCE_ANALYSIS_SCOPE=all) is shown whole.
+export function appForListing(app, appId, platform) {
+  const releases = Array.isArray(app?.releases) ? app.releases : [];
+  if (!releases.some(r => Array.isArray(r.reproducedFor))) return app;
+  const mine = releases.filter(r => r.reproducedFor?.some(l => l.appId === appId && l.platform === platform));
+  return mine.length ? { ...app, releases: mine } : null;
+}
+
 // The analysed release for a version picked in "Every version"
 // (src/build-verifications.mjs), or null when none was analysed. The version
 // digits must agree; only a plain version ("1.4.0") also takes a tag with a
@@ -237,12 +251,18 @@ export function uncheckedBreakdown(osv) {
 // wallet's own, or a direct user's at the shipped version. Unsigned and
 // harvested, so they only ever join "What others say". An entry whose link a
 // statement on the row already cites as evidence is left out (AirGap's own
-// file was relayed as signed statements).
-export function upstreamFor(advisory, upstream) {
+// file was relayed as signed statements), but only when a trusted author or
+// a listed maintainer of the row's library signed it, whatever the wallet it
+// was made for: anyone else could, to hide the wallet's own note. `trusted`
+// and `maintainers` are the triage file's lists.
+export function upstreamFor(advisory, upstream, { trusted = [], maintainers = {} } = {}) {
   const byId = upstream?.advisories;
   if (!byId || !advisory) return [];
   const seen = new Set();
-  const cited = new Set([...(advisory.decision?.basis || []), ...(advisory.triage?.partial || []), ...(advisory.triage?.others || [])].map(b => b.statement?.evidence).filter(Boolean));
+  const library = (s) => s.via || (advisory.package ? `${advisory.ecosystem || 'npm'}:${advisory.package}` : null);
+  const insider = (s) => trusted.includes(s.pubkey) || (maintainers[library(s)] || []).includes(s.pubkey);
+  const others = (advisory.triage?.others || []).filter(o => o.statement && insider(o.statement));
+  const cited = new Set([...(advisory.decision?.basis || []), ...(advisory.triage?.partial || []), ...others].map(b => b.statement?.evidence).filter(Boolean));
   const out = [];
   for (const id of [advisory.id, ...(advisory.aliases || [])]) {
     for (const h of byId[id] || []) {
@@ -321,7 +341,7 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
   const triaged = applyTriage(applySignals(current.advisories || [], signals), triage, { appIds, releases });
   const apkOfRelease = apk && apk.ref === current.ref ? apk : null; // an APK of another release says nothing about these rows
   const allAdvisories = sortAdvisories(triaged.advisories.map(a => {
-    const hints = upstreamFor(a, upstream);
+    const hints = upstreamFor(a, upstream, { trusted: triage?.trusted || [], maintainers: triage?.maintainers || {} });
     const inApk = inApkOf(a, apkOfRelease);
     return hints.length || inApk ? { ...a, ...(hints.length ? { upstream: hints } : {}), ...(inApk ? { inApk } : {}) } : a;
   }));

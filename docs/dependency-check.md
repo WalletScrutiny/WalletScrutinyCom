@@ -163,14 +163,22 @@ not bring it back.
 
 Plumbing:
 
-- `scripts/build-dependency-triage.mjs` pulls every statement from the
-  project relay and the site's public relays during the build, merges it
+- `scripts/build-dependency-triage.mjs` pulls the statements from the
+  project relay and the site's public relays during the build, the trusted
+  authors' and listed maintainers' in a query of their own so a flood by
+  others never pushes them past a relay's reply limit (issue 1002). Other
+  authors' statements and deletion requests are capped at 20 per author and
+  100 in all; what the snapshot already had stays first. It merges them
   with `_data/dependencyTriageEvents.json` (the committed snapshot of every
   signed statement seen so far, verified on read, so a build without relay
   access and a relay that drops events lose nothing), keeps the newest per
   (author, subject), and publishes the statements that concern a wallet as
   `api/source-analysis/triage/<appId>.json` with the trusted list. The panel
-  resolves each row from them.
+  resolves each row from them, and asks the relays only for the trusted
+  authors' and listed maintainers' newer statements; everyone else's reach
+  the wallet pages with the next site build. When `statements.json` does not
+  load, the panel asks the relays for nothing (no statement could settle a
+  row) and says so in its notices.
 - Writing one on the site: "Add statement" under a row's decision opens a dialog
   (`src/dependencies-triage-form.mjs`) that asks what the statement is about
   (one of the row's direct users in this wallet, this wallet, or the package
@@ -297,8 +305,17 @@ app.
   as `verifiedWithoutTag`; a wrong tag would be worse than none, so two
   candidates without a platform or flavour hint resolve to nothing. The
   newest-release and default-branch analyses still run for in-scope wallets,
-  as early warning.
-- Exported releases that check a verified version carry `verifiedVersion`.
+  as early warning, but stay in the database: the default branch only feeds
+  the "fixed on the default branch" note.
+- Only reproduced artifacts are shown (Leo, 2026-11-09 and 2026-11-10). The
+  export keeps just the releases a verified version resolved to, each with
+  `reproducedFor`: the listings (app id and page platform) whose binary of
+  that release was reproduced. A wallet page shows only the releases
+  reproduced for its own listing, so the iPhone app of a wallet reproduced on
+  Android, or an older hardware model sharing the firmware repository, shows
+  no dependencies. A wallet with no reproduced release analysed yet is not
+  exported. On beta on 2026-11-10 this drops 78 of 396 releases (8,204 of
+  33,287 advisory rows) and the panel on 20 of 83 listings.
 - Wallets out of scope are neither analysed nor exported; rows from earlier
   passes stay in the database as supplementary data.
 - `SOURCE_ANALYSIS_SCOPE=all` analyses every wallet with a repository.
@@ -603,9 +620,11 @@ count. Launch does not wait for replies (Leo and Danny, 2026-10-26).
    build in the path. The analyser rsyncs its export, `signals.json`
    included, to the web server after every pass, and nginx serves it under
    `/api/source-analysis/` (`external/source_analysis/README.md`,
-   "Publishing the export"). Triage statements come from the relay at page
-   load, on top of the snapshot the site build publishes under
-   `/api/dependency-triage/`. Only the trusted list needs a site build.
+   "Publishing the export"). The trusted authors' and listed maintainers'
+   triage statements come from the relay at page load, on top of the
+   snapshot the site build publishes under `/api/dependency-triage/`. The
+   trusted list and everyone else's statements need a site build (issue
+   1002).
 2. Whether the panel shape above is final, so the branch can be split into
    reviewable merge requests (build-script step, analyser, panel).
 3. The platform-SDK question under the closed-source rule.

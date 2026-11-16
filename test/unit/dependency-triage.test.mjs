@@ -10,7 +10,7 @@ import {
   dependencyTriageKind, TRIAGE_STATUSES, statementBasis, versionChanges,
 } from '../../src/dependency-triage.mjs';
 import { mergeLiveTriage, triageForApp } from '../../src/dependency-triage.mjs';
-import { buildTriage, acceptEvents, acceptDeletions, trustedAuthors, listedMaintainers } from '../../scripts/build-dependency-triage.mjs';
+import { buildTriage, acceptEvents, acceptDeletions, trustedAuthors, listedMaintainers, capOutsiders, insiders } from '../../scripts/build-dependency-triage.mjs';
 
 const sk = generateSecretKey();
 const pk = getPublicKey(sk);
@@ -173,7 +173,7 @@ describe('dependency triage statements', () => {
       const broken = JSON.parse(JSON.stringify({ ...newer, sig: '0'.repeat(128) }));
 
       const r = buildTriage({ events: [newer, unrelated, broken], snapshotFile, trustedFile, target });
-      assert.deepEqual(r, { statements: 2, trusted: 1, rejected: 2, deleted: 0, published: 2, snapshotChanged: true });
+      assert.deepEqual(r, { statements: 2, trusted: 1, rejected: 2, deleted: 0, capped: 0, published: 2, snapshotChanged: true });
       const out = triageForApp({ appId: 'it.airgap.vault', releases: [{ advisories: [traverse] }] }, JSON.parse(readFileSync(outFile, 'utf8')));
       assert.deepEqual(out.trusted, [pk]);
       assert.deepEqual(out.maintainers, { 'npm:@babel/core': [getPublicKey(other)] });
@@ -316,5 +316,56 @@ describe('dependency triage statements: the versions they were judged on', () =>
     const r = resolveRow(bn('5.2.1'), [wallet, wide], { appIds, trusted, maintainers: { 'npm:bn.js': [pk] } });
     assert.equal(r.decision?.status, 'not_affected');
     assert.deepEqual(r.stale.map(x => x.statement.status), ['affected']);
+  });
+});
+
+describe('dependency triage statements: a flood by other authors (issue 1002)', () => {
+  const flood = (key, n, from = 1000) => Array.from({ length: n }, (_, i) => signed({ vulns: [`GHSA-spam-${i}`], pkg: 'npm:spam', status: 'affected' }, key, from + i));
+
+  test('capOutsiders never caps insiders, keeps what the snapshot had, then the newest within the limits', () => {
+    const a = generateSecretKey();
+    const b = generateSecretKey();
+    const mine = flood(sk, 5);
+    const old = signed({ vulns: ['GHSA-old'], pkg: 'npm:o', status: 'fixed' }, a, 10);
+    const fromA = flood(a, 4);
+    const fromB = flood(b, 4);
+    const limits = { perAuthor: 2, total: 3 };
+    const r = capOutsiders([...mine, old, ...fromA, ...fromB], { insiders: [pk], snapshotEvents: [old], limits });
+    const ids = new Set(r.kept.map(e => e.id));
+    assert.ok(mine.every(e => ids.has(e.id)), 'every insider statement stays');
+    assert.ok(ids.has(old.id), 'a statement the snapshot had stays, though it is the oldest');
+    assert.deepEqual([...fromA, ...fromB].filter(e => ids.has(e.id)).map(e => [e.pubkey === getPublicKey(a) ? 'a' : 'b', e.created_at]), [['a', 1003], ['b', 1003]], 'then the newest: one more from a (two per author), one from b (three in all)');
+    assert.equal(r.dropped, 9 - 3);
+    // a newer version of a subject the snapshot had counts as known too
+    const oldNewer = signed({ vulns: ['GHSA-old'], pkg: 'npm:o', status: 'affected' }, a, 20);
+    assert.ok(capOutsiders([oldNewer, ...fromB], { snapshotEvents: [old], limits: { perAuthor: 5, total: 1 } }).kept.some(e => e.id === oldNewer.id));
+  });
+
+  test('buildTriage keeps the trusted statement and the snapshot through a flood, and caps the rest', () => {
+    const tmp = mkdtempSync(join(tmpdir(), 'triage-flood-'));
+    try {
+      const target = join(tmp, 'dependency-triage');
+      const snapshotFile = join(tmp, 'events.json');
+      const trustedFile = join(tmp, 'trusted.yml');
+      const maintainer = generateSecretKey();
+      writeFileSync(trustedFile, `trustedAuthors:\n  - ${nip19.npubEncode(pk)}\nmaintainers:\n  npm:@babel/core:\n    - ${nip19.npubEncode(getPublicKey(maintainer))}\n`);
+      assert.deepEqual(insiders(trustedFile), [pk, getPublicKey(maintainer)]);
+      const community = signed({ vulns: ['GHSA-67hx-6x53-jw92'], pkg: 'npm:@babel/traverse', via: 'npm:@babel/helpers', status: 'not_affected' }, other, 100);
+      writeFileSync(snapshotFile, JSON.stringify([community]));
+      const trustedNew = signed({ vulns: ['GHSA-67hx-6x53-jw92'], pkg: 'npm:@babel/traverse', via: 'npm:@babel/core', status: 'not_affected' }, sk, 5000);
+      const maintained = signed({ vulns: ['GHSA-67hx-6x53-jw92'], pkg: 'npm:@babel/traverse', via: 'npm:@babel/core', status: 'not_affected' }, maintainer, 5001);
+      const spam = Array.from({ length: 30 }, () => generateSecretKey()).flatMap(k => flood(k, 10, 2000));
+      const spamDeletions = flood(generateSecretKey(), 1).map(e => finalizeEvent({ kind: 5, created_at: 3000, tags: [['e', e.id], ['k', String(dependencyTriageKind)]], content: '' }, sk));
+      const r = buildTriage({ events: [...spam, trustedNew, maintained, ...spamDeletions], snapshotFile, trustedFile, target, limits: { perAuthor: 2, total: 10 } });
+      const out = JSON.parse(readFileSync(join(target, 'statements.json'), 'utf8'));
+      const ids = new Set(out.statements.map(s => s.id));
+      assert.ok(ids.has(trustedNew.id) && ids.has(maintained.id), 'trusted author and listed maintainer are never capped');
+      assert.ok(ids.has(community.id), 'the outsider statement the snapshot had survives the flood');
+      assert.equal(out.statements.length, 2 + 10, 'two insiders, then ten others in all');
+      assert.equal(r.capped, 300 + 1 - 10);
+      assert.equal(JSON.parse(readFileSync(snapshotFile, 'utf8')).length, 12 + spamDeletions.length, 'the snapshot holds what was published; an insider\'s deletion request is never capped');
+    } finally {
+      rmSync(tmp, { recursive: true, force: true });
+    }
   });
 });
