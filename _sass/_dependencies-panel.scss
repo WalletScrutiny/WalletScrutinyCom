@@ -484,6 +484,10 @@ body.dark .dp-history__dot--current {
   .dp-td-decision {
     text-align: left;
   }
+
+  .dp-sev-cell {
+    align-items: center; // a flex column ignores text-align
+  }
 }
 
 // Phones: each advisory is a card instead of a row of a table wider than
@@ -555,6 +559,10 @@ body.dark .dp-history__dot--current {
 
     &.dp-adv-table td {
       text-align: left;
+    }
+
+    &.dp-adv-table .dp-sev-cell {
+      align-items: flex-start;
     }
   }
 }
