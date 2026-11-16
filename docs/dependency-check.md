@@ -650,8 +650,9 @@ count. Launch does not wait for replies (Leo and Danny, 2026-10-26).
 Built and on the preview today; what each still needs before a release:
 
 1. **Alerts** (`external/source_analysis/alerts.mjs`): recipients are Leo,
-   Danny and Luis. The analyser needs its own key in `ALERT_NOSTR_NSEC` on
-   the server; until then alerts are recorded and printed only.
+   Danny and Luis. The analyser needs its own key as the encrypted
+   credential `source-analysis-alert-nsec` on the server
+   (`external/source_analysis/README.md`, step 3 of "Setting up from scratch").
 2. **APK check on the page** (`apk/<appId>.json`): nine wallets were checked
    by hand. Each wallet build script needs one line, `--apk` with the
    official APK it already downloads, for the check to run on every

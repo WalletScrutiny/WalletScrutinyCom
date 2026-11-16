@@ -92,6 +92,10 @@ if [ ! -f /etc/credstore.encrypted/build-server-gh-token ]; then
   echo "Missing /etc/credstore.encrypted/build-server-gh-token (the unit loads the GitHub token from it)" >&2
   exit 1
 fi
+if [ ! -f /etc/credstore.encrypted/source-analysis-alert-nsec ]; then
+  echo "Missing /etc/credstore.encrypted/source-analysis-alert-nsec (the units load the alert key from it; README, \"Alerts\")" >&2
+  exit 1
+fi
 
 chown -R "${SERVICE_USER}:${SERVICE_USER}" "${TARGET_DIR}"
 

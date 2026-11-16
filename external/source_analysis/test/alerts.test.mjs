@@ -1,5 +1,8 @@
 import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
+import { mkdtempSync, writeFileSync, rmSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
 import { generateSecretKey, getPublicKey, nip19, nip17 } from 'nostr-tools';
 import { initDatabase } from '../ddbbUtils.mjs';
 import { recordMalwareAlerts, deliverAlerts, alertChannels, alertText } from '../alerts.mjs';
@@ -23,13 +26,19 @@ describe('alerts', () => {
     assert.match(alertText(sent[0]), /possible malware in w\.one v1\nnpm:fs@0\.0\.2 is listed as malicious: MAL-2025-21003[\s\S]*Where: build, required by @starcoin\/starcoin[\s\S]*a build dependency can still patch the app/);
   });
 
-  test('channels come from the environment; the Nostr message is a NIP-17 DM the recipient can open', async () => {
+  test('channels come from the environment, the key from a credential file; the Nostr message is a NIP-17 DM the recipient can open', async () => {
     assert.deepEqual(alertChannels({}).map(c => c.name), []);
     const sk = generateSecretKey();
     const to = generateSecretKey();
-    const env = { ALERT_WEBHOOK_URL: 'https://example.org/hook', ALERT_NOSTR_NSEC: nip19.nsecEncode(sk), ALERT_NOSTR_TO: nip19.npubEncode(getPublicKey(to)) };
+    // like the build server: the key itself is never an environment variable
+    assert.deepEqual(alertChannels({ ALERT_NOSTR_NSEC: nip19.nsecEncode(sk) }).map(c => c.name), []);
+    const dir = mkdtempSync(join(tmpdir(), 'alerts-test-'));
+    const keyFile = join(dir, 'source-analysis-alert-nsec');
+    writeFileSync(keyFile, nip19.nsecEncode(sk) + '\n'); // a trailing newline from typing it in is fine
+    const env = { ALERT_WEBHOOK_URL: 'https://example.org/hook', ALERT_NOSTR_NSEC_FILE: keyFile, ALERT_NOSTR_TO: nip19.npubEncode(getPublicKey(to)) };
     let posted = null;
     const channels = alertChannels(env, { fetchImpl: async (url, opts) => { posted = { url, body: JSON.parse(opts.body) }; return { ok: true }; } });
+    rmSync(dir, { recursive: true });
     assert.deepEqual(channels.map(c => c.name), ['webhook', 'nostr']);
     const db = initDatabase(':memory:');
     recordMalwareAlerts(db, 'w.one', 'v1', [mal]);

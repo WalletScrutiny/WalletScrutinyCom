@@ -220,19 +220,21 @@ means the first step is missing or saved another host's key.
 **3. Build server: alert key.** The export directory, the web host target
 and the SSH key paths from step 2 are already set in
 `config/walletscrutiny-source-analysis.service`, which the deploy installs. If
-you changed a *suggested* name in step 2, change it there too. Only the alert
-key stays out of the unit, because it is a secret and unit files are
-world-readable. Put the analyser's Nostr key in
-`/etc/walletscrutiny-source-analysis/alerts.env`, readable by root only
-(systemd reads it before it drops to `build-server`):
+you changed a *suggested* name in step 2, change it there too. The analyser's
+Nostr key is a secret, so it is stored the way the build server stores its
+keys: encrypted with `systemd-creds`, loaded by both units with
+`LoadCredentialEncrypted` and handed to the analyser as a file
+(`ALERT_NOSTR_NSEC_FILE`). Use a new key made for the analyser, not a
+person's. This asks for it without echoing it, so it never lands on the
+command line or in the shell history:
 
 ```bash
-echo 'ALERT_NOSTR_NSEC=nsec1...' | sudo tee /etc/walletscrutiny-source-analysis/alerts.env
-sudo chmod 600 /etc/walletscrutiny-source-analysis/alerts.env
+sudo mkdir -p /etc/credstore.encrypted
+sudo sh -c 'systemd-ask-password -n "Analyser nsec:" | systemd-creds encrypt --name=source-analysis-alert-nsec - /etc/credstore.encrypted/source-analysis-alert-nsec'
 ```
 
-Without the file, alerts are still recorded and printed in the journal, but
-nobody gets a message.
+The units do not start without that file, and the deploy refuses to run
+until it exists. To replace the key, run the same command again.
 
 **4. Deploy and first run.** From your machine, `RUN_NOW=1 npm run
 deploy:source-analysis` installs the code, units and image (see "Deploy from
@@ -956,10 +958,12 @@ retried after the next analysis.
 | variable | channel |
 |---|---|
 | `ALERT_WEBHOOK_URL` | POST of the alert as JSON (`text` holds the message) |
-| `ALERT_NOSTR_NSEC` | NIP-17 private message from the analyser's key to Leo, Danny and Luis (`ALERT_RECIPIENTS` in alerts.mjs), or to the npubs in `ALERT_NOSTR_TO` (comma-separated) |
+| `ALERT_NOSTR_NSEC_FILE` | NIP-17 private message from the analyser's key (the file the units load from `/etc/credstore.encrypted/source-analysis-alert-nsec`, step 3 of "Setting up from scratch") to Leo, Danny and Luis (`ALERT_RECIPIENTS` in alerts.mjs), or to the npubs in `ALERT_NOSTR_TO` (comma-separated) |
 | `ALERT_NOSTR_RELAYS` | relays for the message (default relay.nostr.info, relay.damus.io, nos.lol) |
 
 `node alerts-cli.mjs` lists open alerts; `--set confirmed|dismissed --app <id>
 --advisory <id> --note "…"` records what a person found; `--deliver` resends
-the undelivered ones. Without a channel an alert is still recorded and printed
+the undelivered ones (the key is only loaded into the two units, so on the
+server `sudo systemctl start walletscrutiny-advisory-refresh.service` does
+that instead). Without a channel an alert is still recorded and printed
 on every run until someone sets it.
