@@ -3,8 +3,9 @@ import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
 import { loadApp, renderDependenciesPanel, liveTriageEvents, triageAuthors, panelElement, usedBy, severityTally, coverageTipLines, historyScale } from '../../src/dependencies-panel.mjs';
-import { panelModel, releaseForVersion } from '../../src/dependencies-panel-model.mjs';
+import { panelModel, releaseForVersion, appForListing } from '../../src/dependencies-panel-model.mjs';
 import { nip19 } from 'nostr-tools';
+import { viaLine } from '../../src/dependencies-panel.mjs';
 
 const shortNpub = (pk) => { const n = nip19.npubEncode(pk); return `${n.slice(0, 10)}…${n.slice(-4)}`; };
 
@@ -48,6 +49,24 @@ describe('dependencies panel', () => {
     assert.equal(app.appId, 'app.android');
     assert.deepEqual(calls, ['/x/apps/app.ios.json', '/x/apps/app.android.json']);
     assert.equal(await loadApp('app.none', { base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl }), null);
+  });
+
+  test('a listing shows only the releases reproduced for it, and nothing when none was', async () => {
+    const listed = (ref, ...reproducedFor) => ({ ...APP.releases[0], ref, reproducedFor });
+    const app = { ...APP, releases: [listed('v1.5.0', { appId: 'app.android', platform: 'android' }), listed('v1.4.0', { appId: 'app.android', platform: 'android' }, { appId: 'app.android', platform: 'iphone' })] };
+    const { fetchImpl } = fakeFetch({ '/x/apps/app.ios.json': { schema: 1, appId: 'app.android', alias: true }, '/x/apps/app.android.json': app, '/xt/statements.json': { schema: 1, trusted: [], maintainers: {}, statements: [] } });
+    const render = async (appId, platform) => {
+      const host = document.createElement('div');
+      host.hidden = true;
+      return [await renderDependenciesPanel({ host, appId, platform, selectedVersion: null, base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl }), host];
+    };
+    assert.equal((await render('app.android', 'android'))[0].ref, 'v1.5.0');
+    assert.equal((await render('app.android', 'iphone'))[0].ref, 'v1.4.0', 'one app id listed on two platforms (Bitkey)');
+    const [none, host] = await render('app.ios', 'iphone');
+    assert.equal(none, null, 'the iPhone app was never reproduced');
+    assert.equal(host.hidden, true);
+    // an export without reproducedFor (SOURCE_ANALYSIS_SCOPE=all) shows every release, as before
+    assert.equal(appForListing(APP, 'app.ios', 'iphone'), APP);
   });
 
   test('renderDependenciesPanel paints tiles, worst rows, notes and keeps the host hidden without data', async () => {
@@ -289,13 +308,13 @@ describe('dependencies panel', () => {
   });
 
   test('usedBy: wallets shipping the package, this exact version, or only this one', () => {
-    const text = (a) => { const v = usedBy(a); return typeof v === 'string' ? v : v.textContent; };
-    assert.equal(text(advisory('x', 'low', { products: 25, productsSameVersion: 3 })), '25 · 3 this version');
+    const text = (a) => { const v = usedBy(a); return typeof v === 'string' ? v : (v.children.length ? [...v.children].map((c) => c.textContent).join(' / ') : v.textContent); };
+    assert.equal(text(advisory('x', 'low', { products: 25, productsSameVersion: 3 })), '25 wallets / 3 on 1.0.0');
     assert.equal(text(advisory('x', 'low', { products: 1, productsSameVersion: 1 })), 'only this wallet');
     assert.equal(text(advisory('x', 'low')), '–', 'an export from before the field existed');
     const rows = panelElement(panelModel({ ...APP, releases: [{ ...APP.releases[0], advisories: [advisory('GHSA-1', 'high', { products: 7, productsSameVersion: 2 })] }] }), { appId: 'app.android', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl: async () => null })
       .querySelectorAll('tbody tr');
-    assert.equal(rows[0].querySelector('.dp-td-products').textContent, '7 · 2 this version');
+    assert.equal(rows[0].querySelector('.dp-td-products').textContent, '7 wallets2 on 1.0.0', 'two lines, one per number');
   });
 
   test('an advisory gone on the default branch says "Already fixed in master" under its version', () => {
@@ -428,6 +447,23 @@ describe('dependencies panel: git submodules', () => {
     assert.match(rows[3][2], /^Status unknown: 1 listed for v1.0.*CVE-4: fix patch applies, so likely missing$/);
     assert.equal(rows[4][1], 'No: the build of contrib/t uses only crypto/');
     assert.equal(node.querySelectorAll('.dp-sub-out').length, 2);
+  });
+
+  test('only an http(s) submodule URL becomes a link', async () => {
+    const rows = [
+      { ...ROWS[1], url: 'javascript:alert(1)', path: 'contrib/evil' },
+      { ...ROWS[1], url: 'git@github.com:o/r.git', path: 'contrib/ssh' },
+      { ...ROWS[1], url: 'https://github.com/o/r.git', path: 'contrib/web' },
+    ];
+    const { fetchImpl } = fakeFetch({ '/x/apps/cpp.wallet/2.9.1/submodules.json': { schema: 1, rows } });
+    const node = panelElement(panelModel(CPP), { appId: 'cpp.wallet', base: '/x', fetchImpl });
+    const details = node.querySelector('.dp-submodules');
+    details.open = true;
+    details.dispatchEvent(new window.Event('toggle'));
+    await new Promise(r => setTimeout(r, 0));
+    const cells = [...node.querySelectorAll('.dp-sub-table tbody tr')].map(tr => tr.querySelector('td'));
+    assert.deepEqual(cells.map(td => td.querySelector('a')?.getAttribute('href') ?? null), [null, null, 'https://github.com/o/r']);
+    assert.deepEqual(cells.map(td => td.firstChild.textContent), ['evil', 'ssh', 'web']);
   });
 
   test('a release with only submodules is not reported as unanalysed', () => {
@@ -692,5 +728,14 @@ describe('dependencies panel: whose statements the relays are asked for (issue 1
     }
     assert.equal(warned.length, 2);
     assert.match(warned[0], /not asking the relays/);
+  });
+});
+
+describe('the via line', () => {
+  test('a direct build row is a build tool, not imported by the wallet', () => {
+    assert.equal(viaLine(advisory('CVE-1', 'high')).textContent, 'imported by the wallet');
+    const host = advisory('CVE-1', 'high', { ecosystem: 'native', package: 'hostpython3', dev: true, scope: 'build', dependants: ['PyQt6', 'python3'] });
+    assert.equal(viaLine(host).textContent, 'build tool of the wallet · via PyQt6, python3');
+    assert.equal(viaLine(advisory('CVE-1', 'high', { dev: null, scope: 'tests' })).textContent, 'imported by the wallet', 'only build rows change');
   });
 });

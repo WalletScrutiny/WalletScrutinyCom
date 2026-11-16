@@ -483,14 +483,14 @@ export function statementChoices(advisory, { appId } = {}) {
     app: appId || null,
     library: `${eco}:${d}`,
     label: `how ${d} uses ${name}${appId ? ', in this wallet' : ''}`,
-    hint: `settles ${d} for this wallet; other wallets that reach ${name} via ${d} see it as what others say`,
+    hint: `for ${d} in this wallet; other wallets that reach ${name} via ${d} see it as what others say`,
   }));
   if (appId) {
     choices.push({
       key: `app:${appId}`,
       app: appId,
       label: advisory?.direct ? `this wallet's own use of ${name}` : 'this wallet, however it reaches the package',
-      hint: 'settles the row for this wallet only',
+      hint: 'for this wallet only',
     });
   }
   choices.push({ key: 'package', library: `${eco}:${advisory?.package}`, label: `${name} itself, whoever uses it`, hint: `for every wallet; settles rows only when signed by a listed maintainer of ${name}, elsewhere it is shown as what others say` });

@@ -21,12 +21,32 @@ const SINCE = 1742997262;
 
 const tag = (event, name) => (event.tags.find(t => t[0] === name) || [])[1];
 
+// Every event of `filter` one relay holds. A relay answers a query with at
+// most its own cap of events, newest first (relay.nostr.info 2000, nos.lol and
+// primal 500 in 2026-11), so older ones need pages: ask again `until` the
+// oldest event seen, until a page brings nothing new. `until` is inclusive, so
+// events sharing that second are not lost; the seen set drops the repeats.
+export async function pageRelay(querySync, relay, filter) {
+  const seen = new Map();
+  let until = filter.until;
+  for (;;) {
+    const page = await querySync([relay], until === undefined ? filter : { ...filter, until });
+    const fresh = page.filter(e => !seen.has(e.id));
+    if (!fresh.length) return [...seen.values()];
+    for (const e of fresh) seen.set(e.id, e);
+    until = Math.min(...fresh.map(e => e.created_at));
+  }
+}
+
+// Paged per relay, because each relay stops at a different cap.
 export async function queryRelays(relays, filter) {
   if (typeof WebSocket !== 'function') throw new Error('this Node has no WebSocket (needs Node 22 or later)');
   const { SimplePool } = await import('nostr-tools/pool');
   const pool = new SimplePool();
+  const querySync = (urls, f) => pool.querySync(urls, f, { maxWait: 20000 });
   try {
-    return await pool.querySync(relays, filter, { maxWait: 20000 });
+    const pages = await Promise.all(relays.map(relay => pageRelay(querySync, relay, filter)));
+    return [...new Map(pages.flat().map(e => [e.id, e])).values()];
   } finally {
     pool.close(relays);
   }
@@ -156,7 +176,8 @@ export async function analyseVerifiedVersions(db, { appId, repoUrl, verified, pe
     return [];
   }
   const done = [];
-  for (const [i, v] of verified.entries()) {
+  let left = 0;
+  for (const v of verified) {
     const tag = tagOfVersion(tags, appId, v.version, v.platform);
     if (!tag) {
       // Kept so the export can say which verified version had no source to check.
@@ -164,16 +185,18 @@ export async function analyseVerifiedVersions(db, { appId, repoUrl, verified, pe
       recordAnalysis(db, { appId, kind: 'verified-no-tag', ref: v.version, status: 'unsupported', error: `no tag names verified version ${v.version}`, analyser });
       continue;
     }
+    // Saved past the cap too: the export shows only releases a verified version names.
     saveVerifiedRef(db, appId, tag, v.version);
     if (done.includes(tag)) continue;
     if (redo ? redo.includes(tag) : hasReleaseAnalysis(db, appId, tag)) continue;
     if (!redo && done.length >= perPass) {
-      console.log(`  Verified versions left for the next pass: ${verified.length - i}.`);
-      break;
+      left++;
+      continue;
     }
     console.log(`  Verified version ${v.version} (reproducible): analysing tag ${tag}...`);
     await analyse(tag);
     done.push(tag);
   }
+  if (left) console.log(`  Verified versions left for the next pass: ${left}.`);
   return done;
 }

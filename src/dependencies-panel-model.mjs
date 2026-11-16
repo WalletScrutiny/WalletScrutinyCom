@@ -25,6 +25,8 @@ export const SKIP_REASON_LABEL = {
   'git-or-path': 'git or local path dependency',
   'no-exact-version': 'no exact version',
   ecosystem: 'ecosystem OSV.dev does not cover',
+  'no-upstream': 'native library we do not know the source repository of',
+  'nvd-unavailable': 'native library checked against OSV.dev only, NVD did not answer',
 };
 
 export const WORST_ROWS = 10;
@@ -146,6 +148,18 @@ export const WHERE_UNKNOWN_TIP = 'The dependency files do not record whether thi
 export function versionCore(s) {
   const m = String(s || '').match(/\d+(?:\.\d+)*(?:[-+.][0-9A-Za-z.]+)?/);
   return m ? m[0] : '';
+}
+
+// The app file as one listing's page shows it: only the releases reproduced
+// for that app id and platform (a release's `reproducedFor`, export.mjs), or
+// null when there is none. The iPhone page of a wallet reproduced on Android
+// shows no dependencies: nobody built that app from source. An export that
+// names no listing on any release (SOURCE_ANALYSIS_SCOPE=all) is shown whole.
+export function appForListing(app, appId, platform) {
+  const releases = Array.isArray(app?.releases) ? app.releases : [];
+  if (!releases.some(r => Array.isArray(r.reproducedFor))) return app;
+  const mine = releases.filter(r => r.reproducedFor?.some(l => l.appId === appId && l.platform === platform));
+  return mine.length ? { ...app, releases: mine } : null;
 }
 
 // The analysed release for a version picked in "Every version"

@@ -114,6 +114,17 @@ describe('dependency tree view', () => {
     assert.match(opened.querySelector('.dpt-toggle').textContent, /−/);
   });
 
+  test('opening a branch with one child that opens too opens that child, down to a cycle', () => {
+    const view = open();
+    view.querySelectorAll('.dpt-item--group .dpt-toggle')[1].click(); // build: tool -> shared -> shared2 -> (shared)
+    for (const name of ['tool', 'shared', 'shared2']) assert.equal(view.querySelector(`[data-package="${name}"]`).getAttribute('aria-expanded'), 'true', name);
+    assert.match(view.querySelector('[data-package="shared2"] [data-package="shared"]').textContent, /cycle, not expanded/);
+    // Several children: only the clicked one opens.
+    view.querySelector('.dpt-item--group .dpt-toggle').click();
+    view.querySelector('[data-package="a"] .dpt-toggle').click();
+    assert.equal(view.querySelector('[data-package="a"] [data-package="shared"]').getAttribute('aria-expanded'), 'false');
+  });
+
   test('search opens the ancestor path and marks the hit; collapse all resets', () => {
     const view = open();
     const search = view.querySelector('.dpt-search');

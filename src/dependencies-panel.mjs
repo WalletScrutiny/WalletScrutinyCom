@@ -7,9 +7,9 @@
 import * as nip19 from 'nostr-tools/nip19';
 import { el } from './html-utils.mjs';
 import {
-  panelModel, releaseForVersion, whereOf, whereLabel, WHERE_UNKNOWN_TIP, safeName, csvOf, notInAppText, sortingLabel, SEVERITY_ORDER, SEVERITY_LABEL,
+  panelModel, releaseForVersion, appForListing, whereOf, whereLabel, WHERE_UNKNOWN_TIP, safeName, csvOf, notInAppText, sortingLabel, SEVERITY_ORDER, SEVERITY_LABEL,
 } from './dependencies-panel-model.mjs';
-import { TRIAGE_LABEL, JUSTIFICATION_LABEL, DELETION_KIND, triageStateOf, withStatement, mergeLiveTriage, triageForApp } from './dependency-triage.mjs';
+import { TRIAGE_LABEL, JUSTIFICATION_LABEL, DELETION_KIND, triageStateOf, withStatement, mergeLiveTriage, triageForApp, evidenceUrl } from './dependency-triage.mjs';
 import { dependencyTriageKind, mainRelayUrl, eventRelayUrls } from './nostr-constants.mjs';
 import { fetchEvents } from './nostr-client.mjs';
 import { openTriageDialog } from './dependencies-triage-form.mjs';
@@ -158,12 +158,13 @@ export function severityCell(a) {
 
 // "via @babel/core, @babel/helpers" or "imported by the wallet" under the
 // package name: the direct users, which is what a triage statement is keyed
-// by. Nothing when the files do not record the graph.
+// by. A direct build row is a "build tool of the wallet", not imported by it.
+// Nothing when the files do not record the graph.
 const VIA_SHOWN = 3;
 export function viaLine(a) {
   const parts = [];
   let title = null;
-  if (a.direct) parts.push('imported by the wallet');
+  if (a.direct) parts.push(whereOf(a) === 'build' ? 'build tool of the wallet' : 'imported by the wallet');
   if (Array.isArray(a.dependants) && a.dependants.length) {
     const d = a.dependants;
     const shown = d.slice(0, VIA_SHOWN).join(', ');
@@ -674,14 +675,16 @@ function triageLine(model) {
   return el('div', { className: 'dp-triage-line' }, parts.join(' · '));
 }
 
-// "25 · 3 this version": how many of the checked wallets ship the package at
-// all, and how many this exact version. A package only this wallet ships
-// says so instead of "1".
+// Two lines, "25 wallets" over "3 on 4.0.0": how many of the checked
+// wallets ship the package at all, and how many this exact version. A
+// package only this wallet ships says so instead of "1".
 export function usedBy(a) {
   if (a.products == null) return '–';
   if (a.products <= 1) return el('span', { className: 'dp-products-sub' }, 'only this wallet');
   const same = a.productsSameVersion;
-  return el('span', {}, String(a.products), same != null ? el('span', { className: 'dp-products-sub' }, ` · ${same} this version`) : null);
+  return el('span', {},
+    el('span', { className: 'dp-products-line' }, `${a.products} wallets`),
+    same != null ? el('span', { className: 'dp-products-line dp-products-sub' }, a.version ? `${same} on ${a.version}` : `${same} on this version`) : null);
 }
 
 // What each column means, opened from its header. Where? bolds its own labels.
@@ -1045,6 +1048,14 @@ function osvLinks(ids) {
   return out;
 }
 
+// The submodule's name, linked to its repository. The URL is whatever the
+// wallet's .gitmodules says, so only an http(s) one becomes a link.
+function submoduleNameCell(r) {
+  const name = r.path.split('/').pop();
+  const href = evidenceUrl(String(r.url || '').replace(/\.git$/, ''));
+  return href ? el('a', { href, target: '_blank', rel: 'noopener noreferrer', title: r.path }, name) : el('span', { title: r.path }, name);
+}
+
 function submoduleAdvisoryCell(r) {
   const a = r.advisories;
   if (!a) return '';
@@ -1090,7 +1101,7 @@ function submodulesSection(model, { appId, base, fetchImpl }) {
         el('table', { className: 'dp-table dp-sub-table' },
           el('thead', {}, el('tr', {}, ['Library', 'Pinned at', 'What it is', 'In the app', 'Advisories'].map(h => el('th', {}, h)))),
           el('tbody', {}, data.rows.map(r => el('tr', { className: r.scope && r.scope.status !== 'assumed' ? 'dp-sub-out' : '' },
-            el('td', {}, el('a', { href: (r.url || '').replace(/\.git$/, ''), target: '_blank', rel: 'noopener noreferrer', title: r.path }, r.path.split('/').pop()),
+            el('td', {}, submoduleNameCell(r),
               el('div', { className: 'dp-via' }, r.path), r.upstream ? el('div', { className: 'dp-via' }, `fork of ${r.upstream.replace(/\.git$/, '')}`) : null),
             el('td', {}, el('code', {}, r.identity?.tag || String(r.commit).slice(0, 10))),
             el('td', {}, submoduleIdentityText(r)),
@@ -1224,7 +1235,7 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
   let upstream = null;
   let apk = null;
   try {
-    app = await loadApp(appId, { base, fetchImpl });
+    app = appForListing(await loadApp(appId, { base, fetchImpl }), appId, platform);
     if (app) {
       published = await loadTriage({ triageBase, fetchImpl });
       triage = triageForApp(app, published);
