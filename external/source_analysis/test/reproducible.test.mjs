@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import { reproducibleVersions, loadReproducible, verifiedVersionsOf, inScope, tagOfVersion, analyseVerifiedVersions } from '../reproducible.mjs';
+import { reproducibleVersions, pageRelay, loadReproducible, verifiedVersionsOf, inScope, tagOfVersion, analyseVerifiedVersions } from '../reproducible.mjs';
 import { initDatabase, recordAnalysis, getAnalyses, saveAppList, saveReproducibleVersions, releasesToReanalyse } from '../ddbbUtils.mjs';
 import { exportAll } from '../export.mjs';
 
@@ -51,6 +51,22 @@ test('loadReproducible: fresh from the relays, cached copy when they fail, error
   const cached = await loadReproducible(db, { query: async () => { throw new Error('offline'); } });
   assert.equal(cached.source, 'cache');
   assert.deepEqual(cached.byApp.get('w'), [{ version: '1.0', verifiedAt: 100, platform: 'android' }]);
+});
+
+test('pageRelay: pages a capped relay with until down to its oldest event', async () => {
+  // 7 events, two of them in the same second as a page boundary
+  const held = [100, 200, 300, 300, 400, 500, 600].map((created_at, i) => ({ id: `e${i}`, created_at }));
+  const asked = [];
+  const capped = async ([relay], f) => {
+    asked.push(f.until);
+    return held.filter(e => e.created_at >= f.since && (f.until === undefined || e.created_at <= f.until))
+      .sort((a, b) => b.created_at - a.created_at).slice(0, 3);
+  };
+  const events = await pageRelay(capped, 'wss://r/', { kinds: [30301], since: 0 });
+  assert.deepEqual(events.map(e => e.id).sort(), held.map(e => e.id));
+  assert.deepEqual(asked, [undefined, 400, 300, 200, 100]);
+  // nothing older than since
+  assert.deepEqual((await pageRelay(capped, 'wss://r/', { kinds: [30301], since: 350 })).map(e => e.created_at).sort(), [400, 500, 600]);
 });
 
 test('tagOfVersion: v-prefix, app-qualified tags, a build suffix the tag does not carry', () => {
