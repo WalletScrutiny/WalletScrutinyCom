@@ -8,7 +8,9 @@
 // fails stays pending and is retried after the next analysis. Channels, from
 // the environment:
 //   ALERT_WEBHOOK_URL       POST of the alert as JSON
-//   ALERT_NOSTR_NSEC        the analyser's key, and
+//   ALERT_NOSTR_NSEC_FILE   file holding the analyser's key (the units load
+//                           it with LoadCredentialEncrypted, same as the
+//                           build server's WS_BOT_PK_FILE), and
 //   ALERT_NOSTR_TO          npubs (comma-separated) that get a private
 //                           message (NIP-17); default ALERT_RECIPIENTS below
 //                           (Leo, 2026-10-20: Leo, Danny, Luis) on
@@ -18,6 +20,9 @@
 //
 // Nothing here changes a verdict; the alert asks a person to confirm the
 // finding (the registry package, not a workspace or an alias) and act.
+
+import { DEFAULT_BRANCH_REF } from './config.mjs';
+import { loadSecret } from './utils.mjs';
 
 export const DEFAULT_ALERT_RELAYS = ['wss://relay.nostr.info/', 'wss://relay.damus.io/', 'wss://nos.lol/'];
 
@@ -51,7 +56,7 @@ export function ensureAlertsTable(db) {
 export function alertText(a) {
   const d = typeof a.details === 'string' ? JSON.parse(a.details || '{}') : (a.details || {});
   const lines = [
-    `WalletScrutiny dependency check: possible malware in ${a.app_id} ${a.version}`,
+    `WalletScrutiny dependency check: possible malware in ${a.app_id} ${a.version === DEFAULT_BRANCH_REF ? 'on its default branch' : a.version}`,
     `${a.subject} is listed as malicious: ${a.advisory} (https://osv.dev/vulnerability/${a.advisory})`,
   ];
   if (d.summary) lines.push(d.summary);
@@ -95,12 +100,13 @@ export function alertChannels(env = process.env, { fetchImpl = globalThis.fetch 
       },
     });
   }
-  if (env.ALERT_NOSTR_NSEC) {
+  const nsec = loadSecret({ name: 'ALERT_NOSTR_NSEC', fileEnv: 'ALERT_NOSTR_NSEC_FILE', env });
+  if (nsec) {
     channels.push({
       name: 'nostr',
       async send(a) {
         const { nip19, nip17, SimplePool } = await import('nostr-tools');
-        const sk = nip19.decode(env.ALERT_NOSTR_NSEC.trim()).data;
+        const sk = nip19.decode(nsec).data;
         const relays = (env.ALERT_NOSTR_RELAYS || DEFAULT_ALERT_RELAYS.join(',')).split(',').map(s => s.trim()).filter(Boolean);
         const pool = new SimplePool();
         try {

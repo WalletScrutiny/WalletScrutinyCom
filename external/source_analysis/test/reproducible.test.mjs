@@ -5,8 +5,8 @@ import assert from 'node:assert/strict';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import { reproducibleVersions, loadReproducible, verifiedVersionsOf, inScope, tagOfVersion, analyseVerifiedVersions } from '../reproducible.mjs';
-import { initDatabase, recordAnalysis, getAnalyses, saveAppList, saveReproducibleVersions } from '../ddbbUtils.mjs';
+import { reproducibleVersions, pageRelay, loadReproducible, verifiedVersionsOf, inScope, tagOfVersion, analyseVerifiedVersions } from '../reproducible.mjs';
+import { initDatabase, recordAnalysis, getAnalyses, saveAppList, saveReproducibleVersions, saveVerifiedRef, getVerifiedRefs, releasesToReanalyse } from '../ddbbUtils.mjs';
 import { exportAll } from '../export.mjs';
 
 const tmpDb = () => initDatabase(path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'repro-')), 'assets.db'));
@@ -53,6 +53,22 @@ test('loadReproducible: fresh from the relays, cached copy when they fail, error
   assert.deepEqual(cached.byApp.get('w'), [{ version: '1.0', verifiedAt: 100, platform: 'android' }]);
 });
 
+test('pageRelay: pages a capped relay with until down to its oldest event', async () => {
+  // 7 events, two of them in the same second as a page boundary
+  const held = [100, 200, 300, 300, 400, 500, 600].map((created_at, i) => ({ id: `e${i}`, created_at }));
+  const asked = [];
+  const capped = async ([relay], f) => {
+    asked.push(f.until);
+    return held.filter(e => e.created_at >= f.since && (f.until === undefined || e.created_at <= f.until))
+      .sort((a, b) => b.created_at - a.created_at).slice(0, 3);
+  };
+  const events = await pageRelay(capped, 'wss://r/', { kinds: [30301], since: 0 });
+  assert.deepEqual(events.map(e => e.id).sort(), held.map(e => e.id));
+  assert.deepEqual(asked, [undefined, 400, 300, 200, 100]);
+  // nothing older than since
+  assert.deepEqual((await pageRelay(capped, 'wss://r/', { kinds: [30301], since: 350 })).map(e => e.created_at).sort(), [400, 500, 600]);
+});
+
 test('tagOfVersion: v-prefix, app-qualified tags, a build suffix the tag does not carry', () => {
   const tags = new Map([['v1.2.3', 'x'], ['wallet-2.0.0', 'y'], ['3.2.0', 'z']]);
   assert.equal(tagOfVersion(tags, 'wallet', '1.2.3'), 'v1.2.3');
@@ -89,6 +105,7 @@ test('analyseVerifiedVersions: newest first, capped per pass, finished ones skip
   const run = () => analyseVerifiedVersions(db, { appId: 'w', repoUrl: 'x', verified, perPass: 2, analyse, listTags: async () => tags, analyser: 't' });
 
   assert.deepEqual(await run(), ['v3.0', 'v2.0']);
+  assert.equal(getVerifiedRefs(db, 'w').get('v1.0'), '1.0', 'a version past the cap still gets its tag, for the export');
   assert.deepEqual(await run(), ['v1.0'], 'the next pass drains the backlog');
   assert.deepEqual(await run(), []);
   assert.deepEqual(analysed, ['v3.0', 'v2.0', 'v1.0']);
@@ -97,6 +114,36 @@ test('analyseVerifiedVersions: newest first, capped per pass, finished ones skip
 
   // unreadable tags: nothing analysed, nothing thrown
   assert.deepEqual(await analyseVerifiedVersions(db, { appId: 'w', repoUrl: 'x', verified, perPass: 2, analyse, listTags: async () => { throw new Error('gone'); } }), []);
+});
+
+test('--reanalyse: verified versions run again without a cap, except tags already redone this pass', async () => {
+  const db = tmpDb();
+  const tags = new Map([['v3.0', 'a'], ['v2.0', 'b'], ['v1.0', 'c']]);
+  const verified = [{ version: '3.0', verifiedAt: 30 }, { version: '2.0', verifiedAt: 20 }, { version: '1.0', verifiedAt: 10 }];
+  for (const ref of ['v3.0', 'v2.0']) recordAnalysis(db, { appId: 'w', kind: 'release', ref, status: 'ok', analyser: 't' });
+  const analysed = [];
+  const analyse = async (tag) => { analysed.push(tag); };
+  const done = await analyseVerifiedVersions(db, { appId: 'w', repoUrl: 'x', verified, perPass: 1, analyse, listTags: async () => tags, redo: ['v3.0'] });
+  assert.deepEqual(done, ['v2.0', 'v1.0']);
+  assert.deepEqual(analysed, ['v2.0', 'v1.0']);
+  // with no cap configured (perPass 0) it still runs
+  assert.deepEqual(await analyseVerifiedVersions(db, { appId: 'w', repoUrl: 'x', verified, perPass: 0, analyse, listTags: async () => tags, redo: [] }), ['v3.0', 'v2.0', 'v1.0']);
+});
+
+test('releasesToReanalyse: the newest stored GitHub release first, then every analysed release, once each', () => {
+  const db = tmpDb();
+  const asset = db.prepare("INSERT INTO assets (app_id, source, version, asset_name, sha256, published_at) VALUES (?, ?, ?, ?, 'h', ?)");
+  asset.run('w', 'github', 'v1.0', 'a.apk', '2026-01-01');
+  asset.run('w', 'github', 'v3.0', 'a.apk', '2026-03-01');
+  asset.run('w', 'docker', 'v9.0', 'img', '2026-09-01');
+  asset.run('other', 'github', 'v8.0', 'a.apk', '2026-08-01');
+  for (const ref of ['v2.0', 'v3.0']) recordAnalysis(db, { appId: 'w', kind: 'release', ref, status: 'ok', analyser: 't' });
+  recordAnalysis(db, { appId: 'w', kind: 'default-branch', ref: 'abc', status: 'ok', analyser: 't' });
+  recordAnalysis(db, { appId: 'w', kind: 'verified-no-tag', ref: '2.5', status: 'unsupported', analyser: 't' });
+  const refs = releasesToReanalyse(db, 'w');
+  assert.equal(refs[0], 'v3.0');
+  assert.deepEqual([...refs].sort(), ['v2.0', 'v3.0']);
+  assert.deepEqual(releasesToReanalyse(db, 'nobody'), []);
 });
 
 test('exportAll with onlyReproducible leaves out wallets without a reproducible version, matched through aliases', () => {
@@ -108,6 +155,7 @@ test('exportAll with onlyReproducible leaves out wallets without a reproducible 
   ]);
   for (const appId of ['android.wallet', 'other.wallet']) recordAnalysis(db, { appId, kind: 'release', ref: 'v1', status: 'ok', analyser: 't' });
   saveReproducibleVersions(db, new Map([['ios.wallet', [{ version: '1', verifiedAt: 1, platform: 'iphone' }]]]));
+  saveVerifiedRef(db, 'android.wallet', 'v1', '1');
   const dir = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'repro-export-')), 'export');
   assert.equal(exportAll(db, dir, { onlyReproducible: true }).apps, 1);
   assert.ok(fs.existsSync(path.join(dir, 'apps', 'android.wallet.json')));

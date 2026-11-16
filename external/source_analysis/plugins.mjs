@@ -10,7 +10,10 @@
 //                      its return value (JSON) becomes ctx.results[name]
 //   host(ctx)          runs on the host after the container, on the same
 //                      checkout; its return value replaces ctx.results[name]
-//                      when it is not undefined
+//                      when it is not undefined. It does not write the
+//                      database itself: it pushes a function (db) => … onto
+//                      ctx.saves, and the analysis runs all of them in one
+//                      transaction only when no step failed (issue 1011)
 // The container steps of all plugins run first, then the host steps, each in
 // the configured order (the host steps need what the container returned).
 // A step that throws fails the analysis: the error is logged, the remaining
@@ -65,10 +68,12 @@ export async function loadPlugins(config = PLUGINS, dir = PLUGINS_DIR) {
  * Run one phase ('container' or 'host') of every plugin that has it.
  * ctx.results collects what each plugin returns, ctx.failed the plugins that
  * threw ({ plugin, error }); both carry over from the container to the host.
+ * ctx.saves collects the host steps' database writes, not yet run.
  */
 export async function runPlugins(plugins, phase, ctx) {
   ctx.results ||= {};
   ctx.failed ||= [];
+  ctx.saves ||= [];
   for (const plugin of plugins) {
     if (typeof plugin[phase] !== 'function') continue;
     if (plugin.needsKnownAppType && ctx.appType === APP_TYPES.UNKNOWN) continue;

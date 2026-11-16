@@ -11,7 +11,7 @@ import { loadSecret } from '../utils.mjs';
 
 export default {
   description: 'git submodules: upstream identity, build scope and advisories',
-  async host({ name, version, db, repoUrl, commit, repoPath }) {
+  async host({ name, version, db, repoUrl, commit, repoPath, saves }) {
     if (!repoUrl || !commit) return { submodules: null, skipped: 'no repository or commit' };
     if (repoPath && !fs.existsSync(path.join(repoPath, '.gitmodules'))) return { submodules: 0 };
     const token = loadSecret({ name: 'GITHUB_TOKEN', fileEnv: 'GITHUB_TOKEN_FILE' });
@@ -22,7 +22,7 @@ export default {
     });
     if (db && rows.length) {
       const { saveSubmodules } = await import('../ddbbUtils.mjs');
-      saveSubmodules(db, name, version || commit, commit, rows);
+      saves.push((db) => saveSubmodules(db, name, version || commit, commit, rows));
     }
     // A submodule that could not be checked keeps its error in its row; the
     // others still stand, so it does not fail the analysis.

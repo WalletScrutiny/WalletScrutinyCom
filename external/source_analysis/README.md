@@ -40,16 +40,18 @@ a timer every 6 hours:
 
 | | |
 |---|---|
-| units | `config/walletscrutiny-source-analysis.service`, `config/walletscrutiny-source-analysis.timer` |
+| units | `config/walletscrutiny-source-analysis.service`, `config/walletscrutiny-source-analysis.timer`; the hourly advisory refresh `config/walletscrutiny-advisory-refresh.service`, `config/walletscrutiny-advisory-refresh.timer` ([Static export](#static-export)) |
 | working directory | `/opt/source_analysis` |
 | user | `build-server` |
 | database | `/var/lib/walletscrutiny-source-analysis/assets.db` (`SOURCE_ANALYSIS_DB_PATH`), backups next to it in `backup/`, newest 14 kept |
+| build-lock copies | the verifiers' `build-lock.json` files (`plugins/build-lock.mjs`, issue 1000), fetched from files.nostr.info by the sha256 in the verification and kept, hash-checked, in `build-locks/` next to the database (`SOURCE_ANALYSIS_BUILD_LOCK_DIR`) |
 | per-repository scratch | `/var/cache/walletscrutiny-source-analysis/repos` (`SOURCE_ANALYSIS_TEMP_DIR`), deleted after each repository |
 | scope | wallets with a reproducible build verification of any version (kind 30301 on the project relays, `reproducible.mjs`), each verified version analysed at its tag, 3 per wallet and pass (`SOURCE_ANALYSIS_VERIFIED_PER_PASS`); `SOURCE_ANALYSIS_SCOPE=all` analyses every wallet with a repository. Needs Node 22 (WebSocket) |
 | parallel repositories | 3 (`SOURCE_ANALYSIS_CONCURRENCY`), each in its own container with the [Sandbox](#sandbox) limits, so 18 GB / 6 CPUs for the analysis containers by default, next to the build server (the Semgrep container has no limits); every log line is prefixed with the `[appId]` of its repository |
 | package caches | `/var/cache/walletscrutiny-source-analysis/cache` (`SOURCE_ANALYSIS_CACHE_DIR`), npm/yarn/gradle/pip caches, one set per wallet under `wallets/`; past `SOURCE_ANALYSIS_CACHE_MAX_GB` (20) the least recently used wallets' caches are wiped |
 | analysis image | `ANALYSIS_IMAGE` in `config.mjs`, pinned by digest; pulled by the deploy, superseded copies removed |
 | GitHub token | `/etc/credstore.encrypted/build-server-gh-token`, handed to the process as `GITHUB_TOKEN_FILE` |
+| dependency ladder | after the wallets, each pass resolves source repositories and checks tags for up to 3000 new package versions (`SOURCE_ANALYSIS_IDENTITY_PER_PASS`) and imports OSS Rebuild and Reproducible Central rebuild claims (`rebuildClaims.mjs`; a sparse checkout of about 170 MB next to the database, `SOURCE_ANALYSIS_RC_DIR`); `SOURCE_ANALYSIS_LADDER=off` skips it. Our own rebuilds (`rebuild-npm-cli.mjs`) do not run here: they build untrusted code, see docs/dependency-check.md |
 | logs | journal: `journalctl -u walletscrutiny-source-analysis.service` |
 
 The state and cache directories are created by systemd (`StateDirectory`,
@@ -112,7 +114,7 @@ no switch to skip them). It then rsyncs this folder alone to
 `/opt/source_analysis` (dev state such as `assets.db`, `backup/`, `temp_repos/`,
 `cache/` and `node_modules/` excluded), installs the npm dependencies there as
 `build-server`, pulls the analysis image and removes superseded copies of it,
-copies the two units to `/etc/systemd/system/` and enables the timer. It does
+copies the four units to `/etc/systemd/system/` and enables both timers. It does
 not touch the Automated Build Server tree or its images; the two deploys are
 independent and can run in any order.
 
@@ -126,8 +128,9 @@ cd /opt/source_analysis
 sudo -u build-server npm ci
 sudo cp config/walletscrutiny-source-analysis.service /etc/systemd/system/
 sudo cp config/walletscrutiny-source-analysis.timer /etc/systemd/system/
+sudo cp config/walletscrutiny-advisory-refresh.service config/walletscrutiny-advisory-refresh.timer /etc/systemd/system/
 sudo systemctl daemon-reload
-sudo systemctl enable --now walletscrutiny-source-analysis.timer
+sudo systemctl enable --now walletscrutiny-source-analysis.timer walletscrutiny-advisory-refresh.timer
 ```
 
 ### Setting up from scratch
@@ -217,19 +220,21 @@ means the first step is missing or saved another host's key.
 **3. Build server: alert key.** The export directory, the web host target
 and the SSH key paths from step 2 are already set in
 `config/walletscrutiny-source-analysis.service`, which the deploy installs. If
-you changed a *suggested* name in step 2, change it there too. Only the alert
-key stays out of the unit, because it is a secret and unit files are
-world-readable. Put the analyser's Nostr key in
-`/etc/walletscrutiny-source-analysis/alerts.env`, readable by root only
-(systemd reads it before it drops to `build-server`):
+you changed a *suggested* name in step 2, change it there too. The analyser's
+Nostr key is a secret, so it is stored the way the build server stores its
+keys: encrypted with `systemd-creds`, loaded by both units with
+`LoadCredentialEncrypted` and handed to the analyser as a file
+(`ALERT_NOSTR_NSEC_FILE`). Use a new key made for the analyser, not a
+person's. This asks for it without echoing it, so it never lands on the
+command line or in the shell history:
 
 ```bash
-echo 'ALERT_NOSTR_NSEC=nsec1...' | sudo tee /etc/walletscrutiny-source-analysis/alerts.env
-sudo chmod 600 /etc/walletscrutiny-source-analysis/alerts.env
+sudo mkdir -p /etc/credstore.encrypted
+sudo sh -c 'systemd-ask-password -n "Analyser nsec:" | systemd-creds encrypt --name=source-analysis-alert-nsec - /etc/credstore.encrypted/source-analysis-alert-nsec'
 ```
 
-Without the file, alerts are still recorded and printed in the journal, but
-nobody gets a message.
+The units do not start without that file, and the deploy refuses to run
+until it exists. To replace the key, run the same command again.
 
 **4. Deploy and first run.** From your machine, `RUN_NOW=1 npm run
 deploy:source-analysis` installs the code, units and image (see "Deploy from
@@ -246,6 +251,8 @@ sudo systemctl start walletscrutiny-source-analysis.service        # run now (bl
 sudo systemctl status walletscrutiny-source-analysis.service
 sudo journalctl -u walletscrutiny-source-analysis.service -f
 sudo systemctl stop walletscrutiny-source-analysis.service         # abort a running pass
+sudo systemctl list-timers walletscrutiny-advisory-refresh.timer   # hourly advisory refresh
+sudo journalctl -u walletscrutiny-advisory-refresh.service         # what each refresh found and published
 ```
 
 A pass walks every repository of the site list, three at a time. A repository
@@ -256,6 +263,15 @@ empty database therefore analyses every repository and takes hours; later
 passes analyse new releases and the default branches that moved. If a pass is
 still running when the timer fires again, that firing is skipped.
 
+The default branch's latest analysis keeps its dependency and advisory rows
+under the version key `:default-branch` (a git ref cannot contain `:`), each
+run replacing the last; the hourly re-check looks them up with the releases'.
+The export marks each release advisory the branch no longer has
+(`inDefaultBranch`: `removed`, or `updated` with the versions there), and the
+wallet page shows "Already fixed in master" under the row's version. A branch
+analysed before those rows were kept is analysed again on the next pass, moved
+or not. Readers that mean releases leave that key out.
+
 Every analysis the service runs leaves a row in the `analyses` table: app, kind
 (release or default branch), ref, commit, analyser version, status (`ok`,
 `failed`, `unsupported`), the plugins that ran, the lockfiles the pinning step
@@ -264,6 +280,46 @@ vulnerability tables only hold rows for releases that produced some; this
 table is what says "analysed and nothing found", "failed" or "never analysed",
 and when. Releases stored before the table existed get a row from what their
 dependency rows remember (`analyser = before-analyses-table`, no commit).
+
+### Rerunning wallets
+
+To have the service analyse wallets again (after an analyser fix, say), mark
+them; the next timer pass reruns each marked wallet the way `index.mjs
+--reanalyse` does: the default branch, the newest release, every release
+analysed before, and all verified versions with no per-pass cap. Only the pass
+analyses, so nothing runs next to it, and the page keeps a wallet's current
+results until the rerun replaces them.
+
+Run the commands as the service user, against the service's database:
+
+```bash
+cd /opt/source_analysis
+DB=/var/lib/walletscrutiny-source-analysis/assets.db
+
+# mark one or more wallets (appId or an alias; repeat --app-id)
+sudo -u build-server env SOURCE_ANALYSIS_DB_PATH=$DB node reanalyse-cli.mjs --app-id com.example.wallet --app-id org.example.other
+
+# list the pending marks, oldest first
+sudo -u build-server env SOURCE_ANALYSIS_DB_PATH=$DB node reanalyse-cli.mjs --list
+
+# take marks back before a pass reaches them
+sudo -u build-server env SOURCE_ANALYSIS_DB_PATH=$DB node reanalyse-cli.mjs --clear --app-id com.example.wallet
+
+# see which wallets a pass is rerunning (each log line starts with its appId)
+sudo journalctl -u walletscrutiny-source-analysis.service -f | grep -A3 'Marked for a rerun'
+```
+
+- Marking only writes a row into the `reanalyse_requests` table, so it is safe
+  while a pass runs. Marking a wallet again just moves its mark to now.
+- The pass removes a wallet's mark once that wallet finished without an error.
+  A wallet that failed keeps its mark and is retried by the next pass. A mark
+  made while the wallet was already running also stays, for the next pass.
+- An appId the database has never seen gets a warning (probably a typo) but is
+  marked anyway. A wallet outside the pass's scope (see
+  [Which apps are analysed](#which-apps-are-analysed)) is never reached, so its
+  mark stays until you `--clear` it.
+- A rerun clones every release again, so it takes a while per wallet; the
+  hourly advisory refresh skips while the pass holds the lock.
 
 ### Static export
 
@@ -290,6 +346,44 @@ entry in the existing export (each file renamed into place), and, with a
 publish target, rsyncs just those files (no `--delete`). The rest (upstream hints, signals, other wallets' product counts, releases
 removed since) waits for the full export that ends the pass. A failure there
 is only logged; the full export writes the wallet again.
+
+New advisories do not wait for a pass either. A second timer,
+`walletscrutiny-advisory-refresh.timer`, runs `refresh-cli.mjs` every hour:
+it asks OSV.dev again about the stored dependencies of every release (no
+clone, one batched query per release, `recheck.mjs`), and for each wallet
+whose stored advisories changed (new, withdrawn, or edited, such as a raised
+severity) rewrites its files with `exportApp`, rebuilds `signals.json` and
+rsyncs those files. Nothing changed, nothing is written. It needs an export
+to exist, and it is skipped while a pass runs, since the pass rechecks and
+exports everything when it ends. So a new advisory reaches the page within
+about an hour, or at the end of a pass that is running then.
+
+A pass waits while a refresh holds the lock (below), so a refresh is kept
+short even when OSV.dev stalls (issue 999). Each release whose lookup fails
+keeps its stored advisories; after 3 failures in a row, or 45 minutes, the
+refresh looks up nothing more, logs `Refresh stopped early: <reason>; <n>
+releases not looked up keep their stored advisories; the next run starts at
+<app> <version>` and exports and uploads what it changed until then. The next
+run starts at that release (`export.refresh-next`, next to the export) and
+wraps around, so the releases behind 3 that always fail, or behind the 45
+minutes, still get their turn. A run that looked everything up removes the
+file. `TimeoutStartSec=50min` in the service ends a run that still hangs.
+
+A failed upload is sent again by the next refresh, even when nothing changed
+since. `export.published`, next to the export directory (outside it, so it is
+never published), holds the newest file time of the export at the last
+upload that succeeded: the pass's full copy or a refresh's. Each refresh
+sends every export file newer than that along with its own, and only a
+successful upload moves it. Without the file (the first refresh after
+deploying this), the export as it stands counts as published and the file is
+written before anything is sent.
+
+Only one of them writes at a time. A pass (from the timer or by hand), the
+refresh and `node export.mjs` take a lock file next to the database
+(`assets.db.lock`, holding the owner's pid; `runLock.mjs`). The refresh skips
+when it is held; a pass and `export.mjs` wait for it, which for a refresh is
+minutes, 50 at most. A pass that waits logs `Waiting for process <pid> to
+finish (<lock file>)...` once. A lock left by a killed run is taken over once its pid is gone.
 
 `scope` says where a package ends up, as far as the files say: `app` when it
 is reachable from the project's own dependencies, `build` when only from its
@@ -322,7 +416,20 @@ database).
 After the export, the pass writes `signals.json` into it (`signals.mjs`: EPSS,
 CISA's exploited list, publication dates per advisory; a feed that fails only
 leaves its part out, and the previous file stays when all fail;
-`SOURCE_ANALYSIS_SIGNALS=off` skips it).
+`SOURCE_ANALYSIS_SIGNALS=off` skips it). Then `news.json` (`news.mjs`): the
+advisories published in the last 14 days, each with the wallets whose newest
+working release, or a release published in the last 6 months, uses an
+affected version, for the site's `/news/` page and its release filter. Each
+advisory carries its affected ranges and fixed versions from OSV (`affected`,
+`fixed`); rows stored before `affected` existed get it at the next recheck. A
+release's day (`releasedAt` in the app file) is the earliest `published_at` of
+its GitHub release files, else the date of the commit its tag points at:
+before the export, `releaseDates.mjs` asks GitHub or GitLab once per release
+without dated files (Bitcoin Core, Electrum, Trezor, … tag releases but
+publish no files there) and keeps the answer in the `release_dates` table. It is
+a join of `signals.json` and the app files (about 70 KB instead of the 11 MB
+of app files the page would otherwise load), and the hourly refresh rewrites
+it with `signals.json`.
 
 ### Publishing the export
 
@@ -406,6 +513,73 @@ node index.mjs --githubToken ghp_xxx --app-id app.zeusln.zeus  # one job (appId 
 node index.mjs --githubToken ghp_xxx --app-list ./list.json  # a local or alternative list
 ```
 
+A release is analysed once, and the default branch only when it moved, so an
+analyser fix does not reach results stored before it. `--reanalyse` (needs
+`--app-id`) runs that wallet again: the default branch, the newest release and
+every release analysed before, and all of its verified versions with no
+per-pass cap. Each run replaces the stored rows of its release. A run that fails
+on a release that already has an ok result keeps that result and only notes the
+failed attempt and its error beside it (the page says "Re-check failed on
+<date>"); a release with no ok result is recorded as failed. Either way nothing
+of the failed run is stored: a run's dependency, advisory and submodule rows are
+written together with its analysis, and only when every step succeeded, so its
+old rows stay in place.
+
+```bash
+node index.mjs --githubToken ghp_xxx --app-id com.example.wallet --reanalyse
+```
+
+On the server, use [Rerunning wallets](#rerunning-wallets) instead.
+
+## Which app a file belongs to
+
+One repository can hold an Android app, an iPhone app, a desktop app and a server.
+A wallet page counts only its own app's files. A rules file says which is which:
+`rules/<host>/<owner>/<repo>.json`, one per repository. Change a wallet's sorting by
+editing its file in a merge request; the next export uses it.
+
+```json
+{
+  "reviewed_by": "Danny",
+  "reviewed_on": "2026-11-05",
+  "release": "v6.31.0",
+  "rules": [
+    {
+      "files": "electron/**",
+      "belongs_to": "desktop",
+      "why": "The wrapper that turns the wallet into a desktop app.",
+      "proof": ["https://github.com/CoinSpace/CoinSpace/blob/d2dff4227d37e33d22856b57e9e50bf8689d8f34/electron/package.json#L41"]
+    }
+  ],
+  "reviewed_files": ["electron/package-lock.json", "phonegap/package-lock.json", "server/package-lock.json", "web/package-lock.json"]
+}
+```
+
+| Field | Meaning |
+|---|---|
+| `reviewed_by`, `reviewed_on`, `reviewed_files` | The person who checked the rules, when, and the exact dependency files they saw: `dependencies.lockfiles` of that release in the export's `apps/<id>.json`. All three or none. Leave them out until a person has checked |
+| `release` | The release the rules were written against |
+| `files` | A pattern, or a list of them. `web/**` is everything in `web/`; `**/name.txt` is that name in any folder; `*` and `?` stop at a slash. Upper and lower case are the same |
+| `belongs_to` | One of `all apps`, `both phones`, `android`, `iphone`, `desktop`, `firmware`, `server`, `docs`, `tests`, `no app`. `server`, `docs`, `tests` and `no app` count on no wallet page |
+| `why` | The reason, in plain words |
+| `proof` | Links to the evidence in this repository, at a full commit hash because a tag can be moved |
+
+- **The first matching rule wins**, so a narrow rule goes above a wide one. In a reviewed file, the tests reject a rule that earlier rules hide completely.
+- **A file with no rule counts on every page.** A rule can take libraries off a page, so a mistake here can hide them.
+- **A review only sorts files the checker already reads.** It can't add a library that's in no such file (issue 1009).
+- The tests reject a file that breaks this format.
+- **The export needs the app list.** It connects each app id to its repository, so an empty or unreadable list stops the export and the last good one stays.
+
+Each release of a wallet page says where its sorting stands:
+
+| The page says | When |
+|---|---|
+| Human-reviewed | The file names a reviewer, and the release has exactly the files in `reviewed_files` |
+| Sorted automatically | No reviewer yet, or the release's files differ from `reviewed_files`. It also says how many files the rules took off that page |
+| Not sorted | The repository has no rules file |
+
+"Human-reviewed" covers the sorting only. It isn't a security audit, and it doesn't prove the numbers.
+
 ## Configuration
 
 Extra apps that are not on the site list (for example Docker images) go in
@@ -465,7 +639,7 @@ Which stored releases ship a package (the question a new advisory asks):
 node pinning-cli.mjs --ships npm:lodash@4.17.15   # version optional
 ```
 
-Nothing from the analysed repository is executed or installed for any of this: the rows come from `package-lock.json` / `yarn.lock` (classic and berry), `requirements*.txt`, gradle build files plus `gradle/verification-metadata.xml`, and `Cargo.lock`.
+Nothing from the analysed repository is executed or installed for any of this: the rows come from `package-lock.json` / `yarn.lock` (classic and berry), `requirements*.txt`, python-for-android recipes through a `buildozer*.spec`, gradle build files plus `gradle/verification-metadata.xml`, and `Cargo.lock`.
 
 ## How it works
 
@@ -599,6 +773,9 @@ enabled plugins run first, inside the analysis container, on the checkout
 be JSON. Then the host steps run in the same order, with the same `results`
 plus `ctx.name`, `ctx.version` and `ctx.db` (set for releases only; import
 `ddbbUtils.mjs` lazily, inside `host()`, as the container cannot load it).
+A host step does not write the database itself: it pushes a function
+`(db) => …` onto `ctx.saves`, and the analysis runs them all in one transaction
+with its `analyses` row, only when no step failed.
 `requires: ['pinning']` declares that a plugin reads another one's result;
 `needsKnownAppType: true` skips it for repositories with no detected ecosystem.
 A step that throws is logged and fails the analysis (an unchanged default
@@ -693,7 +870,7 @@ CREATE TABLE app_dependencies (
 );
 ```
 
-What each ecosystem can say: npm and cargo lockfiles give the full resolved set with `direct` known; yarn.lock knows `direct` (by requested range) but not `dev` for transitive rows; gradle has the full set where `verification-metadata.xml` exists or test 7b could run gradle (`lockfile` = `<build dir> (gradle resolution)`), otherwise the declared coordinates; pip has what `requirements*.txt` lists. Helpers in `ddbbUtils.mjs`: `saveDependencies`, `getDependencies`, `diffDependencies`, `findAppsShipping`.
+What each ecosystem can say: npm and cargo lockfiles give the full resolved set with `direct` known; yarn.lock knows `direct` (by requested range) but not `dev` for transitive rows; gradle has the full set where `verification-metadata.xml` exists or test 7b could run gradle (`lockfile` = `<build dir> (gradle resolution)`), otherwise the declared coordinates; pip has what `requirements*.txt` lists; python-for-android has what a spec's `requirements` reach through recipes' `depends`, with PyPI libraries as `pip` and native ones as `native`, looked up by upstream git repository and tag in OSV and by product in NVD (`NATIVE_UPSTREAM` in `plugins/osv.mjs`). Helpers in `ddbbUtils.mjs`: `saveDependencies`, `getDependencies`, `diffDependencies`, `findAppsShipping`.
 
 Known vulnerabilities per release (test 10), as OSV.dev reported them when the release was analysed. A snapshot: an advisory published later is found with `findAppsShipping`, not here.
 
@@ -781,10 +958,12 @@ retried after the next analysis.
 | variable | channel |
 |---|---|
 | `ALERT_WEBHOOK_URL` | POST of the alert as JSON (`text` holds the message) |
-| `ALERT_NOSTR_NSEC` | NIP-17 private message from the analyser's key to Leo, Danny and Luis (`ALERT_RECIPIENTS` in alerts.mjs), or to the npubs in `ALERT_NOSTR_TO` (comma-separated) |
+| `ALERT_NOSTR_NSEC_FILE` | NIP-17 private message from the analyser's key (the file the units load from `/etc/credstore.encrypted/source-analysis-alert-nsec`, step 3 of "Setting up from scratch") to Leo, Danny and Luis (`ALERT_RECIPIENTS` in alerts.mjs), or to the npubs in `ALERT_NOSTR_TO` (comma-separated) |
 | `ALERT_NOSTR_RELAYS` | relays for the message (default relay.nostr.info, relay.damus.io, nos.lol) |
 
 `node alerts-cli.mjs` lists open alerts; `--set confirmed|dismissed --app <id>
 --advisory <id> --note "…"` records what a person found; `--deliver` resends
-the undelivered ones. Without a channel an alert is still recorded and printed
+the undelivered ones (the key is only loaded into the two units, so on the
+server `sudo systemctl start walletscrutiny-advisory-refresh.service` does
+that instead). Without a channel an alert is still recorded and printed
 on every run until someone sets it.

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Production build: (precompute | webpack | redirect map) -> jekyll -> postprocess.
+ * Production build: (precompute | webpack | redirect map) -> jekyll -> (local source-analysis export) + triage statements -> postprocess.
  *
  * The three inputs Jekyll needs (_data/precomputed.json, _includes/scripts.html
  * from webpack, redirects.map) do not depend on each other, so they run at the
@@ -37,6 +37,8 @@ async function main() {
     run('node', ['scripts/generate-redirect-map.mjs']),
   ]);
   await run('bundle', ['exec', 'jekyll', 'build'], { JEKYLL_ENV: 'production' });
+  await run('node', ['scripts/copy-source-analysis-export.mjs']);
+  await run('node', ['scripts/build-dependency-triage.mjs']);
   await run('node', ['scripts/postprocess-site.mjs']);
 }
 

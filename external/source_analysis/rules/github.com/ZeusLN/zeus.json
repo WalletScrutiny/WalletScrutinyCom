@@ -1,0 +1,13 @@
+{
+  "release": "v13.2.4",
+  "rules": [
+    {
+      "files": "android/**",
+      "belongs_to": "android",
+      "why": "This folder builds the Android app: this line names the wallet's own app id.",
+      "proof": [
+        "https://github.com/ZeusLN/zeus/blob/8e101144bf36bbf700f1bb00e789e7cb12c0944e/android/app/build.gradle#L99"
+      ]
+    }
+  ]
+}

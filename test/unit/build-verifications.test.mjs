@@ -113,6 +113,18 @@ describe('buildVersionTimeline', () => {
     assert.deepEqual(timeline.map(v => [v.base, v.suffix]), [['2.0.0', 'beta2'], ['13.2.3', 'rc1'], ['13.2.3', '']]);
   });
 
+  test('adds the analysed releases nobody sent in, without moving the default pick', () => {
+    const timeline = buildVersionTimeline(
+      [row({ version: '13.2.3' }), row({ version: '13.1.0', sha256: HASH_B })],
+      ['v13.2.3', 'v13.2.4-rc1', 'android-v13.0.0', 'v13.1.0-android', 'main'],
+    );
+    assert.deepEqual(timeline.map(v => [v.name, v.builds.length, Boolean(v.analysedOnly)]),
+      [['13.0.0', 0, true], ['13.1.0', 1, false], ['13.2.3', 1, false], ['13.2.4-rc1', 0, true]]);
+    assert.equal(defaultVersionKey(timeline), '13.2.3');
+    assert.equal(headlineFor(timeline[3]), 'Nobody has tested this build yet');
+    assert.equal(defaultVersionKey(buildVersionTimeline([], ['v1.0.0', 'v1.1.0'])), '1.1.0');
+  });
+
   test('flags a published warning', () => {
     const timeline = buildVersionTimeline([row({ attestations: [verification({ status: 'warning' })] })]);
     assert.equal(timeline[0].hasWarning, true);

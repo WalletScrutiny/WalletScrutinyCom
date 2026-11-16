@@ -1,0 +1,11 @@
+[Unit]
+Description=Put new OSV.dev advisories on the wallet pages every hour
+
+[Timer]
+OnCalendar=hourly
+RandomizedDelaySec=5min
+Persistent=true
+Unit=walletscrutiny-advisory-refresh.service
+
+[Install]
+WantedBy=timers.target

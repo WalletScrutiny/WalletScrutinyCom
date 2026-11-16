@@ -3,18 +3,19 @@
 import fs from 'fs';
 import minimist from 'minimist';
 import { fetchGitHubAssets, fetchDockerAssets, parseDockerImage, checkAuthorIdConsistency, evaluateChangesInNewAsset, loadSecret } from './utils.mjs';
-import { backupDatabase, initDatabase, saveAsset, hasExistingAssets, getAnalysedCommit, saveAnalysedCommit, saveEndOfLife, recordAnalysis } from './ddbbUtils.mjs';
+import { backupDatabase, initDatabase, saveAsset, hasExistingAssets, getAnalysedCommit, saveAnalysedCommit, saveEndOfLife, recordAnalysis, releasesToReanalyse, reanalyseRequests, clearReanalyse } from './ddbbUtils.mjs';
 import { runSourceCodeAnalysis, remoteHeadCommit, remoteHeadDate, analyserVersion } from './appAnalysis.mjs';
 import { recheckStoredReleases } from './recheck.mjs';
 import { pruneCache } from './containerRunner.mjs';
-import { APPS, APP_LIST_URL, DEFAULT_TEMP_DIR, CONCURRENCY, EXPORT_DIR, SCOPE, VERIFIED_PER_PASS, GONE_EOL_YEARS } from './config.mjs';
+import { APPS, APP_LIST_URL, DEFAULT_TEMP_DIR, CONCURRENCY, EXPORT_DIR, SCOPE, VERIFIED_PER_PASS, GONE_EOL_YEARS, DB_PATH, IDENTITY_PER_PASS, RC_DIR } from './config.mjs';
+import { lockPathFor, waitForLock } from './runLock.mjs';
 import { loadReproducible, verifiedVersionsOf, analyseVerifiedVersions } from './reproducible.mjs';
 import { loadAppList, groupByRepository } from './appList.mjs';
 import { runPool, tagConsole } from './pool.mjs';
 import { loadPlugins } from './plugins.mjs';
 
 // Main function
-async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = null, dockerToken = null, includeTestFiles = false, verified = []) {
+async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = null, dockerToken = null, includeTestFiles = false, verified = [], reanalyse = false) {
   console.log(`\nProcessing app: ${appId}`);
   if (repoUrl) {
     console.log(`  GitHub repo: ${repoUrl}`);
@@ -61,13 +62,16 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
       }
 
       let unreachable = null;
+      const redone = [];
       if (mostRecentAsset) {
         await runSourceCodeAnalysis({ name: appId, repoUrl: repoUrl, version: mostRecentAsset.version, includeTestFiles, db });
+        redone.push(mostRecentAsset.version);
       } else {
         // No new release: analyse the default branch, unless it has not moved
-        // since the last successful analysis. A remote that cannot be reached
-        // (an .onion address, a gone host) cannot be cloned either: recorded
-        // as a failed analysis, and nothing more is tried this pass.
+        // since the last successful analysis that stored its rows. A remote
+        // that cannot be reached (an .onion address, a gone host) cannot be
+        // cloned either: recorded as a failed analysis, and nothing more is
+        // tried this pass.
         // A reachable remote without a readable HEAD analyses.
         let head = null;
         try {
@@ -78,7 +82,7 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
         if (unreachable) {
           console.log(`  No new release, and ${unreachable.message}. Skipping the source analysis.`);
           recordAnalysis(db, { appId, kind: 'default-branch', ref: 'unknown', status: 'failed', error: unreachable.message, analyser: analyserVersion() });
-        } else if (head && head === getAnalysedCommit(db, appId)) {
+        } else if (!reanalyse && head && head === getAnalysedCommit(db, appId)) {
           console.log(`  No new release, default branch still at ${head.slice(0, 12)} (already analysed). Skipping the source analysis.`);
         } else {
           console.log('  No new release: analysing the default branch...');
@@ -89,7 +93,18 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
         }
       }
 
+      // --reanalyse: the newest release and every release analysed before run
+      // again, so an analyser fix reaches results stored before it.
+      if (reanalyse && !unreachable) {
+        for (const tag of releasesToReanalyse(db, appId).filter(t => !redone.includes(t))) {
+          console.log(`  Reanalysing release ${tag}...`);
+          await runSourceCodeAnalysis({ name: appId, repoUrl, version: tag, includeTestFiles, db });
+          redone.push(tag);
+        }
+      }
+
       if (!unreachable) await analyseVerifiedVersions(db, { appId, repoUrl, verified, perPass: VERIFIED_PER_PASS,
+        redo: reanalyse ? redone : null,
         analyse: (tag) => runSourceCodeAnalysis({ name: appId, repoUrl, version: tag, includeTestFiles, db }) });
     }
 
@@ -132,13 +147,14 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
 // Parse command line arguments with minimist
 const argv = minimist(process.argv.slice(2), {
   string: ['githubToken', 'dockerToken', 'appList', 'appId'],
-  boolean: ['includeTestFiles'],
+  boolean: ['includeTestFiles', 'reanalyse'],
   alias: {
     githubToken: ['github-token', 'gh-token'],
     dockerToken: ['docker-token', 'docker-token'],
     includeTestFiles: ['include-test-files', 'jsxray-include-tests'],
     appList: ['app-list'],
-    appId: ['app-id']
+    appId: ['app-id'],
+    reanalyse: ['reanalyze']
   }
 });
 
@@ -146,6 +162,13 @@ const argv = minimist(process.argv.slice(2), {
 const githubToken = loadSecret({ name: 'GITHUB_TOKEN', fileEnv: 'GITHUB_TOKEN_FILE', argValue: argv.githubToken });
 const dockerToken = loadSecret({ name: 'DOCKER_TOKEN', fileEnv: 'DOCKER_TOKEN_FILE', argValue: argv.dockerToken });
 const includeTestFiles = Boolean(argv.includeTestFiles);
+
+// --reanalyse runs the chosen wallets' stored releases again; without
+// --app-id it would redo every wallet, so it is refused.
+if (argv.reanalyse && ![].concat(argv.appId || []).filter(Boolean).length) {
+  console.error('✗  --reanalyse needs --app-id <id>: it analyses every stored release of a wallet again');
+  process.exit(1);
+}
 
 if (!githubToken && !dockerToken) {
   console.error('No token provided: set GITHUB_TOKEN_FILE (or DOCKER_TOKEN_FILE), or pass --githubToken / --dockerToken');
@@ -161,6 +184,10 @@ try {
   console.error(`✗  ${error.message}`);
   process.exit(1);
 }
+
+// One writer of the database and the export at a time (runLock.mjs): wait
+// for a running advisory refresh, and make the next one skip until this ends.
+await waitForLock(lockPathFor(DB_PATH));
 
 // Backup database before starting the process
 backupDatabase();
@@ -232,7 +259,8 @@ tagConsole();
 // appStart; a failure is logged and left to the export that ends the pass.
 async function exportAndPublishApp(appId, appStart) {
   try {
-    const recorded = db.prepare('SELECT COUNT(*) AS n FROM analyses WHERE app_id = ? AND analysed_at >= ?').get(appId, appStart).n;
+    // A failed re-check that kept an ok row leaves analysed_at alone and dates only its note.
+    const recorded = db.prepare('SELECT COUNT(*) AS n FROM analyses WHERE app_id = ? AND (analysed_at >= ? OR failed_attempt_at >= ?)').get(appId, appStart, appStart).n;
     if (!recorded) return;
     const { exportApp } = await import('./export.mjs');
     const { publishFiles } = await import('./publish.mjs');
@@ -281,6 +309,11 @@ try {
         }
       }
       
+      // A wallet marked with reanalyse-cli.mjs (by its appId or an alias)
+      // runs as with --reanalyse; its mark goes once it finished.
+      const ids = [app.appId, ...(app.aliases || []).map(a => a.appId)];
+      const marked = reanalyseRequests(db).some(r => ids.includes(r.app_id));
+      if (marked) console.log(`  Marked for a rerun: analysing every stored release again`);
       const appStart = db.prepare('SELECT CURRENT_TIMESTAMP AS t').get().t;
       await processApp(
         db,
@@ -290,8 +323,10 @@ try {
         appGithubToken,
         effectiveDockerToken,
         includeTestFiles,
-        app.verified || []
+        app.verified || [],
+        Boolean(argv.reanalyse) || marked
       );
+      if (marked) clearReanalyse(db, ids, appStart);
       successCount++;
       if (EXPORT_DIR) await exportAndPublishApp(app.appId, appStart);
     } catch (error) {
@@ -319,6 +354,26 @@ try {
     errorCount++;
   }
 
+  // The dependency ladder (issue 992 part G): where each new package's source
+  // lives, whether its version has a tag there, and who else rebuilt it from
+  // source. Network only, nothing built; a bounded number of new versions per
+  // pass, the rest the next pass. A failure leaves the panel's last results.
+  if (process.env.SOURCE_ANALYSIS_LADDER !== 'off') {
+    try {
+      const { resolveAll } = await import('./source-repos-cli.mjs');
+      const { checkIdentities } = await import('./identity-cli.mjs');
+      const { importRebuildClaims, syncReproducibleCentral } = await import('./rebuildClaims.mjs');
+      const repos = await resolveAll(db, { limit: IDENTITY_PER_PASS });
+      const ids = await checkIdentities(db, { limit: IDENTITY_PER_PASS });
+      let rcDir = null;
+      try { rcDir = syncReproducibleCentral(RC_DIR); } catch (error) { console.warn(`Reproducible Central: ${error.message.split('\n')[0]}`); }
+      const claims = await importRebuildClaims(db, { rcDir });
+      console.log(`Dependency ladder: ${repos.resolved} new source repositories, ${ids.versions} versions checked for a tag (${ids.byStatus['tag-found'] || 0} found), rebuild claims for ${claims.ossNames} packages asked (${claims.ossClaims} from OSS Rebuild, ${claims.rcClaims} from Reproducible Central)${claims.failed ? `, ${claims.failed} lookups failed` : ''}`);
+    } catch (error) {
+      console.warn('Dependency ladder:', error.message);
+    }
+  }
+
   // Scratch dirs are deleted per repository; the shared package caches only
   // when they outgrow their cap.
   fs.rmSync(DEFAULT_TEMP_DIR, { recursive: true, force: true });
@@ -326,23 +381,40 @@ try {
 
   if (EXPORT_DIR) {
     try {
+      // Release days for tags without dated GitHub release files; a failed lookup is retried next pass
+      const { fillReleaseDates } = await import('./releaseDates.mjs');
+      const d = await fillReleaseDates(db, { githubToken });
+      if (d.looked) console.log(`Release dates: ${d.dated} of ${d.looked} tags dated${d.failed ? `, ${d.failed} lookups failed` : ''}`);
+    } catch (error) {
+      console.warn('Release dates:', error.message);
+    }
+    try {
       const { exportAll } = await import('./export.mjs');
-      const { apps, releases, dir } = exportAll(db, EXPORT_DIR, { onlyReproducible: SCOPE !== 'all' });
+      const { apps, releases, dir, unlisted } = exportAll(db, EXPORT_DIR, { onlyReproducible: SCOPE !== 'all' });
       console.log(`\nExported ${apps} apps, ${releases} releases to ${dir}`);
+      for (const [appId, files] of Object.entries(unlisted)) console.log(`Counted as shared until checked (products.mjs): ${appId}: ${files.join(', ')}`);
       if (process.env.SOURCE_ANALYSIS_SIGNALS !== 'off') {
         // EPSS, CISA's exploited list, publication dates; a failing feed only leaves its part out
         const { buildSignals } = await import('./signals.mjs');
         const s = await buildSignals({ exportDir: EXPORT_DIR });
         console.log(`Advisory signals: ${s.cves} CVEs, EPSS for ${s.epss}, ${s.kev} on CISA's exploited list, publication date for ${s.published} advisories${s.written ? '' : ', nothing written'}`);
       }
+      // The /news/ page: advisories of the last 14 days and the wallets they hit
+      const { buildNews } = await import('./news.mjs');
+      const n = buildNews({ exportDir: EXPORT_DIR });
+      console.log(n.written ? `News: ${n.advisories} advisories of the last 14 days in ${n.wallets} wallets` : 'News: no publication dates, nothing written');
     } catch (error) {
       console.error(`\n✗  Export to ${EXPORT_DIR} failed:`, error.message);
       errorCount++;
     }
     try {
-      const { publishExport } = await import('./publish.mjs');
+      const { publishExport, markerPathFor, writeMarker, newestExportFile } = await import('./publish.mjs');
       const published = publishExport(EXPORT_DIR);
-      if (published.published) console.log(`Published the export to ${published.target}`);
+      if (published.published) {
+        console.log(`Published the export to ${published.target}`);
+        // All of it is on the web host now; the hourly refresh resends from here (issue 997)
+        writeMarker(markerPathFor(EXPORT_DIR), newestExportFile(EXPORT_DIR));
+      }
     } catch (error) {
       console.error('\n✗  Publishing the export failed:', error.message);
       errorCount++;

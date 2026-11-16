@@ -46,7 +46,7 @@ const NOT_PRODUCT_DIR = /^(examples?|samples?|demos?|tests?|__tests__|fixtures?|
 
 // The lockfiles plugins/pinning.mjs parses. Gradle is read from its build
 // files whatever lockfile it has (pinning grades every declaration).
-const READ_LOCKFILE = /(^|\/)(package-lock\.json|yarn\.lock|Cargo\.lock|pubspec\.lock|requirements[^/]*\.txt)$/;
+const READ_LOCKFILE = /(^|\/)(package-lock\.json|yarn\.lock|Cargo\.lock|pubspec\.lock|requirements[^/]*\.txt|buildozer[^/]*\.spec)$/;
 export const isRead = (m) => m.ecosystem === 'gradle' || (!!m.lockfile && READ_LOCKFILE.test(m.lockfile));
 // Each stored manifest records whether pinning read its lockfile (`read`,
 // since 2026-10-28). A result stored before that has no rows for a lockfile
@@ -169,6 +169,10 @@ export function findManifests(repoPath, files = null) {
   for (const m of byName(/^(pyproject\.toml|Pipfile|setup\.py)$/)) {
     if (!/(^|\n)\s*\[?(tool\.poetry\.)?(dev-)?(dependencies|packages|install_requires)\b/.test(read(m)) && !read(m).includes('install_requires')) continue; // tool settings only
     add('pip', m, lockHere(m, ['poetry.lock', 'Pipfile.lock', 'uv.lock', 'pdm.lock', 'requirements.txt']));
+  }
+  // python-for-android: a buildozer spec with local recipes is its own lock (pinning grades each recipe).
+  for (const m of byName(/^buildozer[^/]*\.spec$/)) {
+    if (/^requirements\s*=/m.test(read(m)) && /^p4a\.local_recipes\s*=/m.test(read(m))) add('p4a', m, m);
   }
   // SwiftPM: a Package.swift, or an Xcode project that references packages.
   // Package.resolved sits beside Package.swift, or inside the project or

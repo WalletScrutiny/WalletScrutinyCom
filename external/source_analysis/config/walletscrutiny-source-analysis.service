@@ -14,8 +14,11 @@ CacheDirectory=walletscrutiny-source-analysis
 
 # Same GitHub token as the build server (see README to use a separate one)
 LoadCredentialEncrypted=build-server-gh-token:/etc/credstore.encrypted/build-server-gh-token
+# The analyser's own Nostr key, for the malware alerts (README, "Alerts")
+LoadCredentialEncrypted=source-analysis-alert-nsec:/etc/credstore.encrypted/source-analysis-alert-nsec
 
 Environment=GITHUB_TOKEN_FILE=%d/build-server-gh-token
+Environment=ALERT_NOSTR_NSEC_FILE=%d/source-analysis-alert-nsec
 Environment=SOURCE_ANALYSIS_DB_PATH=/var/lib/walletscrutiny-source-analysis/assets.db
 # Per-repository scratch (clone, node_modules, result), deleted after each repository
 Environment=SOURCE_ANALYSIS_TEMP_DIR=/var/cache/walletscrutiny-source-analysis/repos
@@ -28,9 +31,6 @@ Environment=SOURCE_ANALYSIS_EXPORT_DIR=/var/lib/walletscrutiny-source-analysis/e
 # known_hosts from README, "Setting up from scratch", step 2
 Environment=SOURCE_ANALYSIS_PUBLISH_TARGET=source-analysis@walletscrutiny.com:/
 Environment="SOURCE_ANALYSIS_PUBLISH_SSH=ssh -i /etc/walletscrutiny-source-analysis/publish_ed25519 -o UserKnownHostsFile=/etc/walletscrutiny-source-analysis/known_hosts -o StrictHostKeyChecking=yes"
-# Alert key, a secret, so it stays out of this world-readable file (README,
-# "Alerts"); the leading - means a missing file is not an error
-EnvironmentFile=-/etc/walletscrutiny-source-analysis/alerts.env
 # The analysed repositories are untrusted: clone, install and checks run in a
 # throwaway container (containerRunner.mjs: no token, no database, no docker
 # socket, capabilities dropped, read-only root, memory/cpu/pid limits, timeout;

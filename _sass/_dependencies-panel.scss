@@ -1,0 +1,1494 @@
+@use "type-scale" as *;
+
+/* Wallet page "Dependencies": what the source analysis found in the release's lockfiles.
+   Same box language as the Build Verifications panel next to it. */
+
+.dependencies-step[hidden] {
+  display: none;
+}
+
+.dependencies-panel {
+  margin-top: 8px;
+  min-width: 0;
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.dp-panel {
+  border: 1px solid var(--neutral-5);
+  border-radius: 14px;
+  background: var(--neutral-6);
+  padding: 14px 16px 12px;
+  min-width: 0;
+  display: grid;
+  // one column no wider than the panel: without it the track grows to the
+  // table's min-content width and the tiles run off a narrow screen
+  grid-template-columns: minmax(0, 1fr);
+  gap: 12px;
+}
+
+body.dark .dp-panel {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.dp-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 6px 12px;
+}
+
+.dp-headline {
+  margin: 0;
+  font-size: $font-sm;
+  color: var(--neutral-2);
+}
+
+.dp-badge {
+  font-size: $font-xxs;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--neutral-3);
+  border: 1px solid var(--neutral-5);
+  border-radius: 999px;
+  padding: 2px 10px;
+  white-space: nowrap;
+}
+
+.dp-notices {
+  margin: 0;
+  padding-left: 1.2em;
+  font-size: $font-sm;
+  color: var(--neutral-2);
+}
+
+.dp-tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+// Phones: one tile per row, so the long vulnerability tile does not stretch
+// its neighbour into an empty box.
+@media (max-width: 640px) {
+  .dp-tiles {
+    grid-template-columns: 1fr;
+  }
+
+  // a zero malware count is a tile that says nothing on a phone
+  .dp-tile--phone-hidden {
+    display: none;
+  }
+
+  // the platform box around the step is frame enough: no second box between it and the tiles
+  .dp-panel,
+  body.dark .dp-panel {
+    border: 0;
+    border-radius: 0;
+    background: none;
+    padding: 0;
+  }
+}
+
+.dp-tile {
+  border: 1px solid var(--neutral-5);
+  border-radius: 10px;
+  padding: 10px 12px;
+  background: var(--neutral-7, transparent);
+  min-width: 0;
+}
+
+.dp-tile__value {
+  font-size: $font-xl;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.dp-tile--bad .dp-tile__value {
+  color: var(--danger, #c0392b);
+}
+
+// The vulnerability count takes the colour of the worst severity still open
+.dp-tile--sev-critical .dp-tile__value {
+  color: var(--danger, #c0392b);
+}
+
+.dp-tile--sev-high .dp-tile__value {
+  color: #d68910;
+}
+
+.dp-tile--good .dp-tile__value {
+  color: var(--success, #1e8449);
+}
+
+.dp-tile--muted .dp-tile__value {
+  color: var(--neutral-3);
+}
+
+.dp-tile__label {
+  font-size: $font-xs;
+  color: var(--neutral-3);
+}
+
+.dp-tile__sub {
+  margin-top: 2px;
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+}
+
+// "See 38 Advisories and Dependency Tree": everything under the tiles, folded.
+// A button in the site's info blue ($info-color): it should be noticed, but
+// red would read as one more alarm next to the advisory tile.
+.dp-details-link {
+  appearance: none;
+  justify-self: start;
+  border: 1px solid #52adc8;
+  border-radius: 8px;
+  background: rgba(82, 173, 200, 0.14);
+  padding: 6px 14px;
+  font: inherit;
+  font-size: $font-sm;
+  font-weight: 600;
+  color: #1f6f86;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    background: rgba(82, 173, 200, 0.26);
+  }
+
+  &:focus-visible {
+    outline: 2px solid #52adc8;
+    outline-offset: 2px;
+  }
+
+  &::after {
+    content: " ▾";
+  }
+
+  &[aria-expanded="true"]::after {
+    content: " ▴";
+  }
+}
+
+body.dark .dp-details-link {
+  color: #8fd0e3;
+  background: rgba(82, 173, 200, 0.16);
+
+  &:hover {
+    background: rgba(82, 173, 200, 0.28);
+  }
+}
+
+.dp-details {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 12px;
+  min-width: 0;
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+// Dependencies per version, under the count (historyChart in src/dependencies-panel.mjs)
+.dp-history {
+  min-width: 0;
+  margin-top: 14px;
+}
+
+.dp-history__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px 8px;
+  margin-bottom: 6px;
+}
+
+.dp-history__title {
+  font-size: $font-xs;
+  color: var(--neutral-3);
+}
+
+// All / Direct: a small segmented switch, the panel's tab colours
+.dp-history__tabs {
+  display: inline-flex;
+  border: 1px solid var(--neutral-5);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.dp-history__tab {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  padding: 2px 10px;
+  font: inherit;
+  font-size: $font-xxs;
+  font-weight: 600;
+  color: var(--neutral-3);
+  cursor: pointer;
+
+  & + & {
+    border-left: 1px solid var(--neutral-5);
+  }
+
+  &[aria-selected="true"] {
+    background: var(--accent);
+    color: #fff;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: -2px;
+  }
+}
+
+.dp-history__body {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  grid-template-rows: 90px auto;
+  gap: 4px 8px;
+}
+
+.dp-history__yaxis {
+  position: relative;
+  font-size: $font-xxs;
+  font-variant-numeric: tabular-nums;
+  min-width: 5ch;
+}
+
+.dp-history__ylabel {
+  position: absolute;
+  right: 0;
+  transform: translateY(-50%);
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.dp-history__plot {
+  position: relative;
+  // room for the end dots, which sit on the plot's edges
+  margin: 0 5px;
+  cursor: crosshair;
+  touch-action: pan-y;
+  outline-offset: 6px;
+}
+
+.dp-history__lines {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.dp-history__grid {
+  stroke: var(--neutral-5);
+  stroke-width: 1;
+}
+
+.dp-history__line {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.dp-history__dot {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  margin: -4px 0 0 -4px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 2px var(--neutral-6);
+  pointer-events: none;
+}
+
+body.dark .dp-history__dot {
+  box-shadow: 0 0 0 2px var(--body, #222);
+}
+
+// the release the panel is showing: its own colour, not a status one
+.dp-history__dot--current {
+  width: 12px;
+  height: 12px;
+  margin: -6px 0 0 -6px;
+  background: #6c5ce7;
+}
+
+body.dark .dp-history__dot--current {
+  background: #a29bfe;
+}
+
+.dp-history__current {
+  position: absolute;
+  transform: translate(-50%, calc(-100% - 9px));
+  white-space: nowrap;
+  font-size: $font-xxs;
+  font-weight: 600;
+  line-height: 1.15;
+  text-align: center;
+  color: var(--neutral-2);
+  pointer-events: none;
+
+  &[data-side="below"] {
+    transform: translate(-50%, 9px);
+  }
+
+  // placed in pixels, already left of its dot by as much as it needs
+  &--placed {
+    transform: translateY(calc(-100% - 9px));
+  }
+
+  &--placed[data-side="below"] {
+    transform: translateY(9px);
+  }
+}
+
+.dp-history__dot--hover {
+  width: 12px;
+  height: 12px;
+  margin: -6px 0 0 -6px;
+  background: var(--neutral-1);
+}
+
+.dp-history__cross {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  border-left: 1px dashed var(--neutral-3);
+  pointer-events: none;
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.dp-history__tip {
+  position: absolute;
+  bottom: calc(100% + 4px);
+  white-space: nowrap;
+  padding: 3px 8px;
+  border-radius: 6px;
+  border: 1px solid var(--neutral-5);
+  background: var(--neutral-7, #fff);
+  box-shadow: var(--shadow-2, none);
+  font-size: $font-xxs;
+  font-variant-numeric: tabular-nums;
+  pointer-events: none;
+  z-index: 1;
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.dp-history__xaxis {
+  display: flex;
+  grid-column: 2;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+}
+
+// "50 critical (40 cleared)", one line per severity in the vulnerability tile
+.dp-tally__count--critical,
+.dp-tally__count--high,
+.dp-tally__count--moderate {
+  font-weight: 700;
+}
+
+.dp-tally__count--critical {
+  color: var(--danger, #c0392b);
+}
+
+.dp-tally__count--high {
+  color: #d68910;
+}
+
+// Under the severities: the distinct advisories, other products, and what a match means
+.dp-tile__line + .dp-tile__line,
+.dp-tile__caveat {
+  margin-top: 4px;
+}
+
+.dp-tile__caveat {
+  font-style: italic;
+}
+
+.dp-table-wrap {
+  overflow-x: auto;
+  min-width: 0;
+}
+
+.dp-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: $font-sm;
+  margin: 0;
+
+  th,
+  td {
+    text-align: left;
+    padding: 6px 10px;
+    border-bottom: 1px solid var(--neutral-5);
+    white-space: nowrap;
+  }
+
+  th {
+    font-size: $font-xxs;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--neutral-3);
+  }
+
+  .dp-td-package {
+    font-family: monospace;
+    white-space: normal;
+    overflow-wrap: anywhere; // after the <wbr> joints first, mid-word only when nothing else fits
+  }
+
+  .dp-td-products {
+    white-space: nowrap;
+  }
+
+  .dp-td-decision {
+    white-space: normal;
+    min-width: 14em;
+  }
+}
+
+// Advisories: the short columns sit centred; Package and Decision stay left
+.dp-adv-table {
+  th,
+  td {
+    text-align: center;
+  }
+
+  th:first-child,
+  th:last-child,
+  .dp-td-package,
+  .dp-td-decision {
+    text-align: left;
+  }
+
+  .dp-sev-cell {
+    align-items: center; // a flex column ignores text-align
+  }
+}
+
+// Phones: each advisory is a card instead of a row of a table wider than
+// the screen; the column names move into the cells (data-label).
+@media (max-width: 640px) {
+  .dp-table {
+    border: 0; // the theme frames every table
+
+    thead {
+      display: none;
+    }
+
+    // the cards look like the tiles above them
+    &,
+    tbody {
+      display: grid;
+      gap: 10px;
+    }
+
+    tr {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4px 12px;
+      border: 1px solid var(--neutral-5);
+      border-radius: 10px;
+      padding: 10px 12px;
+      background: var(--neutral-7, transparent);
+      min-width: 0;
+    }
+
+    tr.dp-row--fresh {
+      background: rgba(30, 132, 73, 0.08);
+    }
+
+    tbody tr.dp-row--fresh td {
+      background: none;
+    }
+
+    td {
+      display: block;
+      padding: 0;
+      border: 0;
+      white-space: normal;
+      min-width: 0;
+    }
+
+    td::before {
+      content: attr(data-label);
+      display: block;
+      font-size: $font-xxs;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--neutral-3);
+    }
+
+    .dp-td-package,
+    .dp-td-decision {
+      grid-column: 1 / -1;
+    }
+
+    .dp-td-package::before {
+      display: none;
+    }
+
+    .dp-td-decision {
+      min-width: 0;
+    }
+
+    &.dp-adv-table td {
+      text-align: left;
+    }
+
+    &.dp-adv-table .dp-sev-cell {
+      align-items: flex-start;
+    }
+  }
+}
+
+// "Your statement on GHSA-… is published …" after the Judge dialog
+.dp-flash {
+  margin: 0;
+  font-size: $font-sm;
+  color: var(--neutral-1);
+  background: rgba(30, 132, 73, 0.1);
+  border-radius: 10px;
+  padding: 8px 12px;
+}
+
+// the row and the statement just published from this page
+.dp-table tr.dp-row--fresh td {
+  background: rgba(30, 132, 73, 0.08);
+}
+
+.dp-decision__fresh {
+  font-size: $font-xxs;
+  font-weight: 700;
+  color: var(--success, #1e8449);
+}
+
+// A row's decision, its reasons and the button, stacked
+.dp-decision-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+// "Add statement" under a row's decision: opens the statement dialog
+.dp-judge {
+  display: inline-block;
+  margin-top: 4px;
+  white-space: nowrap;
+  font: inherit;
+  font-size: $font-xxs;
+  font-weight: 600;
+  color: var(--accent);
+  background: none;
+  border: 1px solid var(--neutral-5);
+  border-radius: 999px;
+  padding: 1px 8px;
+  cursor: pointer;
+
+  &:hover {
+    border-color: var(--accent);
+  }
+}
+
+// "Edit" at the end of a statement line
+.dp-edit {
+  font: inherit;
+  font-size: $font-xxs;
+  color: var(--accent);
+  background: none;
+  border: 0;
+  padding: 0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.dp-form__copied {
+  font-size: $font-xs;
+  color: var(--neutral-3);
+  margin: 0;
+}
+
+// The statement dialog (src/dependencies-triage-form.mjs)
+.dp-dialog {
+  width: min(36em, calc(100vw - 2em));
+  max-height: calc(100vh - 2em);
+  border: 1px solid var(--neutral-5);
+  border-radius: 14px;
+  padding: 0;
+  background: var(--body, #fff);
+  color: var(--text, inherit);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+
+  &::backdrop {
+    background: rgba(0, 0, 0, 0.45);
+  }
+}
+
+.dp-dialog__close {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font-size: 1.4em;
+  line-height: 1;
+  background: none;
+  border: 0;
+  color: var(--neutral-3);
+  cursor: pointer;
+}
+
+.dp-dialog__title {
+  margin: 0;
+  font-size: $font-lg;
+}
+
+.dp-form {
+  position: relative;
+  display: grid;
+  gap: 12px;
+  padding: 18px 20px 16px;
+  font-size: $font-sm;
+
+  fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: grid;
+    gap: 4px;
+  }
+
+  // the site's form rules (_forms.scss, _verifications.scss `label:not(.button-label)`:
+  // flex, 46px line height, light-mode text colour) do not fit a compact dialog
+  label {
+    display: grid;
+    margin: 0;
+    font-size: $font-sm;
+    line-height: 1.4;
+    color: inherit;
+  }
+
+  legend {
+    border: 0;
+    width: auto;
+    margin: 0 0 4px;
+  }
+
+  input,
+  select,
+  textarea {
+    margin: 0;
+    box-shadow: none;
+    line-height: 1.4;
+  }
+
+  input[type="radio"] {
+    width: auto;
+    margin: 4px 0 0;
+  }
+
+  legend,
+  .dp-form__field > span {
+    font-size: $font-xxs;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--neutral-3);
+    margin-bottom: 4px;
+  }
+
+  input[type="text"],
+  input[type="url"],
+  select,
+  textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.45em 0.6em;
+    border: 1px solid var(--neutral-5);
+    border-radius: 6px;
+    background: var(--body, #fff);
+    color: inherit;
+    font: inherit;
+    font-size: $font-sm;
+  }
+
+  textarea {
+    resize: vertical;
+  }
+}
+
+.dp-form__context {
+  margin: 0;
+  font-size: $font-xs;
+  color: var(--neutral-2);
+}
+
+.dp-dialog .dp-form__field {
+  gap: 2px;
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.dp-dialog .dp-form__choice {
+  grid-template-columns: auto 1fr;
+  gap: 8px;
+  align-items: start;
+  cursor: pointer;
+}
+
+.dp-form__choice-label {
+  display: block;
+}
+
+.dp-form__choice-hint {
+  display: block;
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+}
+
+.dp-form__signer {
+  margin: 0;
+  font-size: $font-xs;
+  color: var(--neutral-2);
+
+  &--none {
+    color: #c0392b;
+  }
+}
+
+.dp-form__error {
+  margin: 0;
+  font-size: $font-xs;
+  color: #c0392b;
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.dp-form__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+// "Delete statement" on one's own statement, apart from the other buttons
+.dp-form__delete {
+  margin-right: auto;
+  color: #c0392b;
+
+  &[data-armed] {
+    background: #c0392b;
+    color: #fff;
+  }
+}
+
+// "3 decided · 3 under investigation · 409 still to look at", under the severities
+.dp-triage-line {
+  margin-top: 4px;
+}
+
+.dp-decision {
+  display: inline-block;
+  font-size: $font-xxs;
+  font-weight: 700;
+  border: 1px solid var(--neutral-5);
+  border-radius: 999px;
+  padding: 1px 8px;
+  color: var(--neutral-2);
+
+  &--affected {
+    border-color: #c0392b;
+    color: #c0392b;
+  }
+
+  &--not_affected,
+  &--fixed {
+    border-color: var(--success, #1e8449);
+    color: var(--success, #1e8449);
+  }
+
+  &--under_investigation {
+    border-color: #d68910;
+    color: #d68910;
+  }
+
+  &--undecided {
+    border: 0;
+    padding: 0;
+    font-weight: 400;
+    color: var(--neutral-3);
+    white-space: nowrap;
+  }
+}
+
+.dp-decision__who,
+.dp-decision__others {
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+}
+
+// "What others say (2)", folding out the statements themselves
+details.dp-decision__others {
+  max-width: 28em;
+
+  > summary {
+    cursor: pointer;
+    color: var(--accent);
+  }
+}
+
+.dp-decision__need {
+  font-weight: 600;
+}
+
+// "via @babel/core, @babel/helpers" under the package name
+.dp-via {
+  font-family: system-ui, sans-serif;
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+  margin-top: 2px;
+}
+
+.dp-repo {
+  font-family: system-ui, sans-serif;
+  font-size: $font-xxs;
+  margin-top: 2px;
+  overflow-wrap: anywhere;
+}
+
+.dp-sev-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.dp-epss,
+.dp-term {
+  font: inherit;
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+  white-space: nowrap;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: help;
+  text-decoration: underline dotted;
+  text-underline-offset: 2px;
+
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 1px;
+  }
+}
+
+// The tile's big number keeps its size and colour; only the underline marks it.
+// The padding gives "cleared" a finger-sized target without moving the text.
+.dp-term {
+  color: inherit;
+  font-size: inherit;
+  padding: 6px 0;
+  margin: -6px 0;
+}
+
+// A column header keeps the header's capitals.
+.dp-th-term {
+  font-weight: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+}
+
+// What a term means, opened from .dp-epss or .dp-term. Same look as the assets table's
+// hash-hint tooltip; fixed so the table's scroll box cannot clip it.
+.dp-tip {
+  position: fixed;
+  z-index: 20;
+  box-sizing: border-box; // the phone width below includes the padding
+  width: max-content;
+  max-width: min(18em, calc(100vw - 16px));
+  padding: 8px 10px;
+  border-radius: 6px;
+  background: var(--neutral-1);
+  color: var(--neutral-7);
+  font-family: system-ui, sans-serif;
+  font-size: $font-xxs;
+  font-weight: 400; // not the bold of the tile number it opens from
+  letter-spacing: normal; // nor the spaced capitals of a table header
+  text-transform: none;
+  line-height: 1.4;
+  white-space: normal;
+  text-align: left;
+  box-shadow: 0 2px 8px var(--shadow-2);
+
+  &[hidden] {
+    display: none;
+  }
+
+  p {
+    margin: 0 0 6px;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  // File names: the site's light code chip would be a white box on the dark tip.
+  code {
+    padding: 0 2px;
+    border-radius: 3px;
+    border: 0;
+    background: rgba(255, 255, 255, 0.15);
+    color: inherit;
+    font-size: inherit;
+    white-space: normal;
+    overflow-wrap: anywhere; // a long path breaks inside the tip
+  }
+
+  // Phones: the whole width (place() keeps the margins), a readable size.
+  @media (max-width: 640px) {
+    width: calc(100vw - 16px);
+    max-width: none;
+    padding: 12px 14px;
+    font-size: $font-xs;
+  }
+}
+
+// By id: the panel sits inside a step title, whose links lose their underline.
+#dp-tip a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.dp-trusted {
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+  margin: 0.5em 0;
+}
+
+a.dp-signer {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  color: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  vertical-align: bottom;
+
+  &:hover .dp-signer__name {
+    text-decoration: underline;
+  }
+}
+
+.dp-signer__pic {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex: none;
+}
+
+.dp-inapk {
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+  white-space: nowrap;
+  margin-top: 2px;
+}
+
+.dp-master {
+  font-size: $font-xxs;
+  color: var(--success, #1e8449);
+  font-weight: 600;
+  white-space: nowrap;
+  margin-top: 2px;
+}
+
+.dp-inapk--present {
+  color: var(--neutral-1);
+  font-weight: 600;
+}
+
+.dp-malware {
+  color: #c0392b;
+}
+
+.dp-published {
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+  white-space: nowrap;
+}
+
+.dp-kev {
+  font-size: $font-xxs;
+  font-weight: 700;
+  color: #c0392b;
+  white-space: nowrap;
+}
+
+.dp-decision__why {
+  font-size: $font-xxs;
+  color: var(--neutral-2);
+  margin-top: 2px;
+  max-width: 28em;
+}
+
+// "25 wallets" over "3 on 4.0.0"
+.dp-products-line {
+  display: block;
+}
+
+// "3 on 4.0.0", and "only this wallet"
+.dp-products-sub {
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+}
+
+.dp-more {
+  margin-top: 8px;
+}
+
+.dp-sev {
+  display: inline-block;
+  font-size: $font-xxs;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 1px 8px;
+  color: #fff;
+  background: var(--neutral-3);
+
+  &--malicious,
+  &--critical {
+    background: #7b1e1e;
+  }
+
+  &--high {
+    background: #c0392b;
+  }
+
+  &--moderate {
+    background: #d68910;
+  }
+
+  &--low {
+    background: #5d6d7e;
+  }
+}
+
+.dp-where {
+  display: inline-block;
+  font-size: $font-xxs;
+  border: 1px solid var(--neutral-5);
+  border-radius: 999px;
+  padding: 1px 8px;
+  color: var(--neutral-2);
+
+  &--app {
+    border-color: var(--neutral-3);
+    color: var(--neutral-1);
+  }
+
+  &--unknown {
+    color: var(--neutral-3);
+    border-style: dashed;
+  }
+}
+
+// ecosystem tag next to the package name, only when the release mixes ecosystems
+.dp-eco {
+  display: inline-block;
+  margin-left: 6px;
+  font-family: system-ui, sans-serif;
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+  text-transform: lowercase;
+}
+
+.dp-note {
+  font-size: $font-xs;
+  color: var(--neutral-2);
+  background: rgba(214, 137, 16, 0.08);
+  border-radius: 10px;
+  padding: 10px 12px;
+
+  code {
+    font-size: inherit;
+  }
+}
+
+.dp-note-text {
+  margin: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  overflow: hidden;
+
+  &.dp-note-text--open {
+    display: block;
+    overflow: visible;
+  }
+}
+
+.dp-note-more {
+  appearance: none;
+  border: 0;
+  background: none;
+  padding: 0;
+  margin-top: 4px;
+  font: inherit;
+  font-weight: 600;
+  color: #1f6f86;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+body.dark .dp-note-more {
+  color: #8fd0e3;
+}
+
+.dp-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* Tabs: advisories table | dependency tree. The active tab is filled with
+   the accent green and carries dark text (white on it is 2.9:1); the others
+   take the tile surface and border, so they read as buttons in both themes. */
+.dp-tablist {
+  display: flex;
+  gap: 6px;
+  border-bottom: 2px solid var(--accent);
+  margin-bottom: 10px;
+}
+
+.dp-tab {
+  appearance: none;
+  background: var(--neutral-7);
+  border: 1px solid var(--neutral-5);
+  border-bottom: 0;
+  border-radius: 8px 8px 0 0;
+  padding: 7px 16px;
+  font: inherit;
+  font-size: $font-sm;
+  font-weight: 600;
+  color: var(--neutral-2);
+  cursor: pointer;
+
+  &:hover {
+    color: var(--neutral-0);
+    border-color: var(--accent);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  &[aria-selected="true"] {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #1b1b1b;
+  }
+}
+
+.dp-tabpanel[hidden] {
+  display: none;
+}
+
+.dpt {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+}
+
+.dpt-intro {
+  margin: 0;
+  font-size: $font-xs;
+  color: var(--neutral-3);
+}
+
+.dpt-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.dpt-search,
+.dpt-scope {
+  font: inherit;
+  font-size: $font-sm;
+  color: inherit;
+  background: transparent;
+  border: 1px solid var(--neutral-5);
+  border-radius: 8px;
+  padding: 4px 8px;
+  min-width: 0;
+}
+
+.dpt-search {
+  flex: 1 1 200px;
+}
+
+// The open list is drawn by the browser on its own (white) background, but the
+// options inherit the theme's text colour: white on white in the dark theme.
+.dpt-scope option {
+  color: var(--text);
+  background: var(--body);
+}
+
+.dpt-status {
+  margin: 0;
+  font-size: $font-xs;
+  color: var(--neutral-3);
+
+  &:empty {
+    display: none;
+  }
+}
+
+.dpt-tree,
+.dpt-children {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dpt-children {
+  margin-left: 11px;
+  padding-left: 12px;
+  border-left: 1px solid var(--neutral-5);
+}
+
+.dpt-tree {
+  max-height: 70vh;
+  overflow: auto;
+  font-size: $font-sm;
+}
+
+.dpt-item {
+  min-width: 0;
+
+  &:focus-visible > .dpt-row {
+    outline: 2px solid var(--neutral-3);
+    outline-offset: 1px;
+  }
+}
+
+.dpt-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 2px 8px;
+  padding: 3px 0;
+  min-width: 0;
+}
+
+.dpt-item--hit > .dpt-row {
+  background: rgba(255, 200, 0, 0.18);
+  border-radius: 6px;
+}
+
+.dpt-toggle,
+.dpt-spacer {
+  flex: 0 0 22px;
+  width: 22px;
+  height: 22px;
+  box-sizing: border-box;
+}
+
+.dpt-toggle {
+  appearance: none;
+  background: transparent;
+  color: inherit;
+  border: 1px solid var(--neutral-5);
+  border-radius: 6px;
+  font: inherit;
+  line-height: 1;
+  padding: 0;
+  cursor: pointer;
+  align-self: center;
+}
+
+.dpt-toggle--static {
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+  cursor: default;
+}
+
+.dpt-wallet,
+.dpt-group {
+  font-weight: 700;
+}
+
+.dpt-name {
+  overflow-wrap: anywhere;
+  font-weight: 600;
+}
+
+.dpt-version,
+.dpt-count,
+.dpt-note,
+.dpt-flag {
+  font-size: $font-xs;
+  color: var(--neutral-3);
+}
+
+.dpt-flag {
+  border: 1px dashed var(--neutral-4, var(--neutral-5));
+  border-radius: 999px;
+  padding: 0 8px;
+}
+
+.dp-tile__line--muted {
+  opacity: 0.7;
+}
+
+// "Not in this app: desktop app, 338 libraries, 120 advisories."
+.dp-sorting {
+  margin: 8px 0 0;
+  font-size: 0.9em;
+}
+
+// Fixed colours, so these pills read the same in the light and dark themes.
+.dp-sorting .dp-badge,
+.dp-pick-version {
+  background: #e4e4e4;
+  border: 1px solid #e4e4e4;
+  color: #000;
+}
+
+.dp-pick-version {
+  font: inherit;
+  font-size: $font-xxs;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-radius: 999px;
+  padding: 2px 10px;
+  white-space: nowrap;
+  cursor: pointer;
+
+  &:hover,
+  &:focus-visible {
+    background: #d0d0d0;
+    border-color: #d0d0d0;
+  }
+}
+
+.dp-pick-list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  vertical-align: middle;
+}
+
+.dp-not-in-app {
+  margin: 8px 0 0;
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+// "Libraries pinned as git submodules": a summary line, the rows when opened
+.dp-submodules {
+  margin: 12px 0;
+  font-size: $font-sm;
+
+  > summary {
+    cursor: pointer;
+    line-height: 1.4;
+  }
+
+  .dp-sub-body {
+    overflow-x: auto;
+    min-width: 0;
+    margin-top: 8px;
+  }
+
+  .dp-sub-table td {
+    white-space: normal;
+    vertical-align: top;
+    overflow-wrap: anywhere;
+  }
+
+  .dp-sub-table td:nth-child(2) {
+    white-space: nowrap;
+  }
+
+  .dp-sub-table td:first-child {
+    min-width: 14em;
+  }
+
+  .dp-sub-table td:nth-child(3),
+  .dp-sub-table td:nth-child(4) {
+    min-width: 11em;
+  }
+
+  .dp-sub-out td {
+    color: var(--neutral-3);
+  }
+
+  .dp-sub-hints {
+    margin: 4px 0 0;
+    padding-left: 1.2em;
+    font-size: $font-xxs;
+  }
+}
+
+// Rebuilt from source (src/dependencies-rebuilds.mjs): pills in the tree and
+// the Rebuilds tab. Ours and others' claims share the look; the "(their
+// claim)" label tells them apart.
+.dp-rb {
+  display: inline-block;
+  font-size: $font-xxs;
+  border-radius: 999px;
+  padding: 1px 8px;
+  border: 1px solid var(--neutral-5);
+  white-space: nowrap;
+}
+.dp-rb--reproduced { border-color: #1e8449; color: #1e8449; background: rgba(30, 132, 73, .08); }
+.dp-rb--failed { border-color: #b9770e; color: #b9770e; border-style: dashed; }
+body.dark .dp-rb--reproduced { color: #58d68d; border-color: #58d68d; }
+body.dark .dp-rb--failed { color: #f5b041; border-color: #f5b041; }
+.dp-rb-filters { flex-wrap: wrap; gap: 6px; }
+.dp-rb-filter[aria-pressed="true"] { font-weight: 700; outline: 2px solid var(--neutral-3); }
+.dp-rb-claim { margin: 2px 0 6px; }
+.dp-rb-theirs { font-size: $font-xs; color: var(--neutral-3); }
+.dp-rb-event summary { cursor: pointer; font-size: $font-xs; color: var(--neutral-2); }
+.dp-rb-event pre {
+  font-size: $font-xxs;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  max-width: 100%;
+  background: rgba(127, 127, 127, .08);
+  padding: 6px;
+  border-radius: 6px;
+}
+.dp-rb-table td { vertical-align: top; }

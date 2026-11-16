@@ -10,6 +10,7 @@
 
 import { verificationDraftKind } from './nostr-constants.mjs';
 import { getFirstTagValue, getStatusText } from './verifications_common.mjs';
+import { releaseForVersion, versionCore } from './dependencies-panel-model.mjs';
 
 /** A verifier's verdict, the way the app counts it: reproduced, not reproduced, could not build, or something else. */
 export function statusGroup(status) {
@@ -80,8 +81,11 @@ function isDraft(event) {
  *
  * @param {Array<{ sha256: string, summary: object }>} rows the assets table's rows, each with
  *   the `summary` paintMainAssetsTable attaches
+ * @param {string[]} analysedRefs the release tags the source analysis checked (src/dependencies-panel.mjs).
+ *   A tag no version above matches gets a version of its own, with no builds, so its
+ *   dependencies can be picked before anybody sends the version in.
  */
-export function buildVersionTimeline(rows) {
+export function buildVersionTimeline(rows, analysedRefs = []) {
   const byName = new Map();
   for (const row of rows || []) {
     const summary = row?.summary;
@@ -117,6 +121,14 @@ export function buildVersionTimeline(rows) {
     version.drafts.push(...drafts);
   }
 
+  for (const ref of analysedRefs || []) {
+    const name = versionCore(ref);
+    if (!name || [...byName.values()].some(v => releaseForVersion({ releases: [{ ref }] }, v.name))) {
+      continue;
+    }
+    byName.set(name, { name, key: name, builds: [], verifications: [], drafts: [], analysedOnly: true });
+  }
+
   const timeline = [...byName.values()];
   for (const version of timeline) {
     version.verifications.sort((a, b) => b.created_at - a.created_at);
@@ -143,9 +155,14 @@ export function splitVersionName(name) {
   return { base: match[1], suffix: match[2] };
 }
 
-/** The version the section opens on: the newest. */
+/**
+ * The version the section opens on: the newest one somebody sent in, so the analysed
+ * releases arriving later do not move the pick; the newest analysed one when nobody did.
+ */
 export function defaultVersionKey(timeline) {
-  return timeline.length ? timeline[timeline.length - 1].key : null;
+  const sent = timeline.filter(v => !v.analysedOnly);
+  const pool = sent.length ? sent : timeline;
+  return pool.length ? pool[pool.length - 1].key : null;
 }
 
 /** The version holding the verification [eventId], or null. */
