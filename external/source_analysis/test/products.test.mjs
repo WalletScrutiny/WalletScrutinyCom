@@ -190,6 +190,8 @@ test('a review covers the exact files the person saw', () => {
   const coin = 'com.coinspace.app';
   const changed = { by: 'Danny', on: '2026-11-05', release: 'v6.31.0' };
   assert.equal(sortingOf([...COIN_FILES].reverse(), coin).status, 'reviewed', 'the order does not matter');
+  assert.equal(sortingOf([...COIN_FILES, 'build-lock.json'], coin).status, 'reviewed', 'the verifier\'s build-lock.json is not a file of the checkout');
+  assert.equal(sortingOf([...COIN_FILES, 'build-lock.json (android)'], coin).status, 'reviewed', 'nor are the rows it adds');
   assert.deepEqual(sortingOf([...COIN_FILES, 'tools/package-lock.json'], coin).changedSince, changed, 'a new file');
   assert.deepEqual(sortingOf(COIN_FILES.slice(1), coin).changedSince, changed, 'a file is gone');
   assert.deepEqual(sortingOf([...COIN_FILES, 'web/sub/package-lock.json'], coin).changedSince, changed, 'a new file under a wide rule');

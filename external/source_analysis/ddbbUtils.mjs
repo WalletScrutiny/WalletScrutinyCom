@@ -275,9 +275,11 @@ export function initDatabase(dbPath = DB_PATH) {
       version TEXT NOT NULL,
       verified_at INTEGER NOT NULL,    -- created_at of the newest reproducible verification
       platform TEXT,                   -- its platform tag (android, iphone, hardware, windows, ...)
+      build_locks TEXT,                -- JSON { locks, misnamed }: the build-lock.json output files (reproducible.mjs buildLockRefs)
       PRIMARY KEY (app_id, version)
     );
   `);
+  ensureColumn(db, 'reproducible_versions', 'build_locks', 'TEXT');
 
   // Which release analysis is the check of a verified version: the tag the
   // pass resolved the version to.
@@ -325,6 +327,7 @@ export function initDatabase(dbPath = DB_PATH) {
       osv_skipped TEXT NOT NULL DEFAULT '{}',    -- JSON {reason: count}
       vulnerabilities INTEGER,
       lock_coverage TEXT,                        -- JSON plugins/lock-coverage.mjs result, NULL when it did not run
+      build_lock TEXT,                           -- JSON plugins/build-lock.mjs result, NULL when the release has no build-lock.json
       analysed_at DATETIME DEFAULT CURRENT_TIMESTAMP,
       failed_attempt_at DATETIME,                -- the last re-check that failed and left this ok row in place (issue 998)
       failed_attempt_error TEXT,
@@ -332,6 +335,7 @@ export function initDatabase(dbPath = DB_PATH) {
     );
   `);
   ensureColumn(db, 'analyses', 'lock_coverage', 'TEXT');
+  ensureColumn(db, 'analyses', 'build_lock', 'TEXT');
   ensureColumn(db, 'analyses', 'failed_attempt_at', 'DATETIME');
   ensureColumn(db, 'analyses', 'failed_attempt_error', 'TEXT');
 
@@ -375,7 +379,7 @@ export function initDatabase(dbPath = DB_PATH) {
 // that a failed one leaves an ok row in place (issue 998): it only notes the
 // attempt and its error beside it, and analysed_at stays the ok check's.
 export function recordAnalysis(db, { appId, kind, ref, commit = null, status, error = null, appType = null,
-  analyser, plugins = [], lockfiles = [], dependencies = null, osvChecked = null, osvSkipped = {}, vulnerabilities = null, lockCoverage = null }) {
+  analyser, plugins = [], lockfiles = [], dependencies = null, osvChecked = null, osvSkipped = {}, vulnerabilities = null, lockCoverage = null, buildLock = null }) {
   if (status === 'failed') {
     const kept = db.prepare(`
       UPDATE analyses SET failed_attempt_at = CURRENT_TIMESTAMP, failed_attempt_error = ?
@@ -386,10 +390,11 @@ export function recordAnalysis(db, { appId, kind, ref, commit = null, status, er
   db.prepare(`
     INSERT OR REPLACE INTO analyses
       (app_id, kind, ref, commit_sha, status, error, app_type, analyser, plugins, lockfiles,
-       dependencies, osv_checked, osv_skipped, vulnerabilities, lock_coverage, analysed_at)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+       dependencies, osv_checked, osv_skipped, vulnerabilities, lock_coverage, build_lock, analysed_at)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
   `).run(appId, kind, ref, commit, status, error, appType, analyser, plugins.join(' '), JSON.stringify(lockfiles),
-    dependencies, osvChecked, JSON.stringify(osvSkipped), vulnerabilities, lockCoverage ? JSON.stringify(lockCoverage) : null);
+    dependencies, osvChecked, JSON.stringify(osvSkipped), vulnerabilities, lockCoverage ? JSON.stringify(lockCoverage) : null,
+    buildLock ? JSON.stringify(buildLock) : null);
 }
 
 // Every recorded analysis of an app, newest first, JSON columns decoded.
@@ -409,6 +414,7 @@ function decodeAnalysis(row) {
     lockfiles: JSON.parse(row.lockfiles || '[]'),
     osv_skipped: JSON.parse(row.osv_skipped || '{}'),
     lock_coverage: row.lock_coverage ? JSON.parse(row.lock_coverage) : null,
+    build_lock: row.build_lock ? JSON.parse(row.build_lock) : null,
   };
 }
 
@@ -459,20 +465,31 @@ export function getEndOfLife(db) {
 
 // Replace the cached verifications with byApp (appId -> [{version, verifiedAt}]).
 export function saveReproducibleVersions(db, byApp) {
-  const insert = db.prepare('INSERT INTO reproducible_versions (app_id, version, verified_at, platform) VALUES (?, ?, ?, ?)');
+  const insert = db.prepare('INSERT INTO reproducible_versions (app_id, version, verified_at, platform, build_locks) VALUES (?, ?, ?, ?, ?)');
+  const locksOf = (v) => (v.buildLocks?.length || v.misnamedLocks?.length ? JSON.stringify({ locks: v.buildLocks || [], misnamed: v.misnamedLocks || [] }) : null);
   db.transaction(() => {
     db.prepare('DELETE FROM reproducible_versions').run();
-    for (const [appId, versions] of byApp) for (const v of versions) insert.run(appId, v.version, v.verifiedAt, v.platform ?? null);
+    for (const [appId, versions] of byApp) for (const v of versions) insert.run(appId, v.version, v.verifiedAt, v.platform ?? null, locksOf(v));
   })();
 }
 
 export function getReproducibleVersions(db) {
   const byApp = new Map();
-  for (const r of db.prepare('SELECT app_id, version, verified_at, platform FROM reproducible_versions ORDER BY verified_at DESC').all()) {
+  for (const r of db.prepare('SELECT app_id, version, verified_at, platform, build_locks FROM reproducible_versions ORDER BY verified_at DESC').all()) {
     if (!byApp.has(r.app_id)) byApp.set(r.app_id, []);
-    byApp.get(r.app_id).push({ version: r.version, verifiedAt: r.verified_at, platform: r.platform });
+    const { locks = [], misnamed = [] } = r.build_locks ? JSON.parse(r.build_locks) : {};
+    byApp.get(r.app_id).push({ version: r.version, verifiedAt: r.verified_at, platform: r.platform,
+      ...(locks.length ? { buildLocks: locks } : {}), ...(misnamed.length ? { misnamedLocks: misnamed } : {}) });
   }
   return byApp;
+}
+
+// The build-lock.json output files the verifications of (appId, version)
+// carry, and the misnamed ones: { locks, misnamed }, both empty when none.
+export function getBuildLockRefs(db, appId, version) {
+  const r = db.prepare('SELECT build_locks FROM reproducible_versions WHERE app_id = ? AND version = ?').get(appId, version);
+  const { locks = [], misnamed = [] } = r?.build_locks ? JSON.parse(r.build_locks) : {};
+  return { locks, misnamed };
 }
 
 export function saveVerifiedRef(db, appId, ref, version) {
