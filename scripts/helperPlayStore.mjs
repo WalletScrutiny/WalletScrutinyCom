@@ -11,6 +11,7 @@ import {
   metaUpdateContext,
   resolveAndroidFilenames,
   findMobileFileByAndroidAppId,
+  applyStoreWebsite,
 } from './mobileWalletStore.mjs';
 
 process.env.TZ = 'UTC'; // fix timezone issues
@@ -148,9 +149,7 @@ function updateFromApp (android, app, mobile, storeCountry) {
   }
   android.users = app.minInstalls;
   android.reviews = app.reviews || null;
-  if (app.developerWebsite) {
-    mobile.website = app.developerWebsite;
-  }
+  applyStoreWebsite(mobile, 'android', app.developerWebsite);
   const metaCtx = metaUpdateContext(mobile, 'android');
   metaCtx.date = metaCtx.date || new Date();
   android.developerName = app.developer || android.developerName || 'Unknown Developer(s)';

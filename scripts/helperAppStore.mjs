@@ -11,6 +11,7 @@ import {
   metaUpdateContext,
   resolveIphoneFilenames,
   findMobileFileByIphoneAppId,
+  applyStoreWebsite,
 } from './mobileWalletStore.mjs';
 
 process.env.TZ = 'UTC'; // fix timezone issues
@@ -121,9 +122,7 @@ function updateFromApp (iphone, app, mobile, storeCountry) {
     : new Date(app.updated);
   iphone.released = iphone.released || app.released || null;
   iphone.reviews = app.reviews;
-  if (app.developerWebsite && !mobile.android?.appId) {
-    mobile.website = app.developerWebsite;
-  }
+  applyStoreWebsite(mobile, 'iphone', app.developerWebsite);
   const metaCtx = metaUpdateContext(mobile, 'iphone');
   metaCtx.date = metaCtx.date || new Date();
   iphone.developerName = app.developer || iphone.developerName || 'Unknown Developer(s)';
