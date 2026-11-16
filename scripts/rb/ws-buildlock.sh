@@ -21,36 +21,80 @@
 # lists their artifacts too. Mount a fresh directory as the container's
 # GRADLE_USER_HOME (see scripts/rb/README.md).
 #
+# The file says which build it belongs to (schema 2): the app, version and
+# platform from the flags, and the commit from --commit (or else --src). The dependency checker
+# and the verification form use a file only when all three flags were given.
+#
 # It reads files only and never changes the verdict; it exits 0 unless invoked wrongly.
 #
-# Usage: ws-buildlock.sh --out <dir> [--gradle-home <dir>]... [--src <checkout>] [--yaml <COMPARISON_RESULTS.yaml>]
-#   --out          where build-lock.json and the copied lockfiles are written
+# Usage: ws-buildlock.sh --out <dir> [--gradle-home <dir>]... [--src <checkout>]
+#                        [--app-id <id>] [--version <version>] [--platform <platform>] [--commit <sha>]
+#                        [--yaml <COMPARISON_RESULTS.yaml>]
+#   --out          where build-lock.json and the copied lockfiles are written; an
+#                  old build-lock.json there is removed first
 #   --gradle-home  a GRADLE_USER_HOME the build used (repeatable)
 #   --src          the checkout after the build, for the npm, pub and cargo lockfiles
 #                  and the committed binaries (needs its .git)
+#   --app-id       the app ID, as in the verification's `i` tag
+#   --version      the version, as in the verification's `version` tag
+#   --platform     the platform, as in the verification's `platform` tag (android)
+#   --commit       the full 40-hex commit the build was made from, for builds that
+#                  clone inside the container; without it, the HEAD of --src
 #   --yaml         COMPARISON_RESULTS.yaml to append a `build_lock:` block to (optional)
 set -u
 
-export WS_BUILDLOCK_VERSION="0.2.0"
+export WS_BUILDLOCK_VERSION="0.3.0"
 
-OUT="" SRC="" YAML=""
+OUT="" SRC="" YAML="" APP_ID="" APP_VERSION="" PLATFORM="" COMMIT_FLAG=""
 GRADLE_HOMES=()
 while [ $# -gt 0 ]; do
   case "$1" in
     --out) OUT="${2:-}"; shift 2 ;;
     --src) SRC="${2:-}"; shift 2 ;;
     --yaml) YAML="${2:-}"; shift 2 ;;
+    --app-id) APP_ID="${2:-}"; shift 2 ;;
+    --version) APP_VERSION="${2:-}"; shift 2 ;;
+    --platform) PLATFORM="${2:-}"; shift 2 ;;
+    --commit) COMMIT_FLAG="${2:-}"; shift 2 ;;
     --gradle-home) GRADLE_HOMES+=("${2:-}"); shift 2 ;;
     *) echo "ws-buildlock: unknown argument $1" >&2; exit 2 ;;
   esac
 done
 if [ -z "$OUT" ] || { [ ${#GRADLE_HOMES[@]} -eq 0 ] && [ -z "$SRC" ]; }; then
-  echo "Usage: ws-buildlock.sh --out <dir> [--gradle-home <dir>]... [--src <checkout>] [--yaml <file>]" >&2
+  echo "Usage: ws-buildlock.sh --out <dir> [--gradle-home <dir>]... [--src <checkout>] [--app-id <id>] [--version <version>] [--platform <platform>] [--commit <sha>] [--yaml <file>]" >&2
   exit 2
 fi
+# A previous run's file must not survive this one: uploaded by mistake, it
+# would describe another build.
+rm -f "$OUT/build-lock.json"
 mkdir -p "$OUT/lockfiles" || exit 2
 
 json_str() { printf '"%s"' "$(printf '%s' "$1" | sed 's/\\/\\\\/g; s/"/\\"/g')"; }
+# a string, or null when empty
+json_opt() { if [ -n "$1" ]; then json_str "$1"; else printf 'null'; fi; }
+
+MISSING=()
+[ -n "$APP_ID" ] || MISSING+=(--app-id)
+[ -n "$APP_VERSION" ] || MISSING+=(--version)
+[ -n "$PLATFORM" ] || MISSING+=(--platform)
+SRC_COMMIT=""
+if [ -n "$SRC" ]; then
+  SRC_COMMIT=$(git -C "$SRC" rev-parse HEAD 2>/dev/null) || SRC_COMMIT=""
+fi
+# --commit names the build when the checkout it came from is gone (a clone
+# inside the container); a tag or a short sha would not tie the file to it.
+COMMIT="$SRC_COMMIT"
+if [ -n "$COMMIT_FLAG" ]; then
+  if [[ "$COMMIT_FLAG" =~ ^[0-9a-fA-F]{40}$ ]]; then
+    COMMIT=$(printf '%s' "$COMMIT_FLAG" | tr 'A-F' 'a-f')
+    if [ -n "$SRC_COMMIT" ] && [ "$SRC_COMMIT" != "$COMMIT" ]; then
+      echo "[WARN] ws-buildlock: --commit $COMMIT differs from the HEAD of --src ($SRC_COMMIT); the file names --commit"
+    fi
+  else
+    COMMIT=""
+    echo "[WARN] ws-buildlock: --commit $COMMIT_FLAG is not a full 40-hex commit; the file names no commit"
+  fi
+fi
 
 ENTRIES="$OUT/.entries"
 : > "$ENTRIES"
@@ -98,7 +142,10 @@ elif [ -n "$SRC" ]; then
 fi
 
 {
-  printf '{"schema":1,"tool":"ws-buildlock","version":"%s","generatedAt":"%s",\n' "$WS_BUILDLOCK_VERSION" "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+  printf '{"schema":2,"tool":"ws-buildlock","version":"%s",\n' "$WS_BUILDLOCK_VERSION"
+  printf '"appId":%s,"appVersion":%s,"platform":%s,"commit":%s,\n' \
+    "$(json_opt "$APP_ID")" "$(json_opt "$APP_VERSION")" "$(json_opt "$PLATFORM")" "$(json_opt "$COMMIT")"
+  printf '"generatedAt":"%s",\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
   printf '"lockfiles":['
   sep=""
   for l in "${LOCKS[@]}"; do printf '%s%s' "$sep" "$(json_str "$l")"; sep=","; done
@@ -115,7 +162,18 @@ for l in "${LOCKS[@]}"; do echo "Lockfile after the build: $l"; done
 if [ "$gradle_count" -eq 0 ] && [ ${#LOCKS[@]} -eq 0 ]; then
   echo "[WARN] ws-buildlock: nothing recorded; the build's exact dependency versions are unknown"
 fi
-echo "Written: $OUT/build-lock.json"
+if [ ${#MISSING[@]} -gt 0 ]; then
+  echo "[WARN] ws-buildlock: no ${MISSING[*]} given; the dependency checker will not use this build-lock.json, and the verification form will refuse it"
+fi
+LOCK_SHA256=$(sha256sum "$OUT/build-lock.json" | cut -d' ' -f1)
+echo "=== Upload this file with the verification ==="
+echo "  file:     $(cd "$OUT" && pwd)/build-lock.json"
+echo "  sha256:   $LOCK_SHA256"
+echo "  app:      ${APP_ID:-(none)}"
+echo "  version:  ${APP_VERSION:-(none)}"
+echo "  platform: ${PLATFORM:-(none)}"
+echo "  commit:   ${COMMIT:-(none)}"
+echo "Keep the name build-lock.json when uploading it."
 
 if [ -n "$YAML" ]; then
   {
@@ -125,7 +183,7 @@ if [ -n "$YAML" ]; then
     echo "  gradle_artifacts: ${gradle_count}"
     echo "  committed_binaries: ${committed_count}"
     echo "  lockfiles: [$(IFS=,; echo "${LOCKS[*]:-}")]"
-    echo "  sha256: $(sha256sum "$OUT/build-lock.json" | cut -d' ' -f1)"
+    echo "  sha256: ${LOCK_SHA256}"
   } >> "$YAML"
 fi
 exit 0
