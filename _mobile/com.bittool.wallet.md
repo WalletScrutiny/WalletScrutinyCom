@@ -28,13 +28,13 @@ iphone:
 
 ---
 
-BitTool Wallet is a mobile wallet by BITTOOL PTE. LTD., which also publishes the iPhone app of {% include walletLink.html wallet='android/com.bitbill.www' verdict='true' %}. It pairs with {% include walletLink.html wallet='android/com.bittool.signer' verdict='true' %} as a watch-only wallet.
+BitTool Wallet is a mobile wallet by BITTOOL PTE. LTD., which also publishes the iPhone app of {% include walletLink.html wallet='android/com.bitbill.www' verdict='true' %}. It [pairs with](https://bittool.com/wallet) {% include walletLink.html wallet='android/com.bittool.signer' verdict='true' %} as a watch-only wallet.
 
 ## Android
 
 ## App Description
 
-BitTool Wallet supports Bitcoin, Ethereum and other EVM networks, TRON and Solana. Keys can stay on the phone, or the wallet can pair with BitTool Signer on an offline phone. Besides Google Play, the developer offers the APK [on its website](https://bittool.com/wallet).
+BitTool Wallet [supports](https://bittool.com/wallet) Bitcoin, Ethereum and other EVM networks, TRON and Solana. Keys can stay on the phone, or the wallet can pair with BitTool Signer on an offline phone. Besides Google Play, the developer offers the APK [on its website](https://bittool.com/wallet).
 
 ## Analysis
 
