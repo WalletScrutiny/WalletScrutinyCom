@@ -289,13 +289,13 @@ describe('dependencies panel', () => {
   });
 
   test('usedBy: wallets shipping the package, this exact version, or only this one', () => {
-    const text = (a) => { const v = usedBy(a); return typeof v === 'string' ? v : v.textContent; };
-    assert.equal(text(advisory('x', 'low', { products: 25, productsSameVersion: 3 })), '25 · 3 this version');
+    const text = (a) => { const v = usedBy(a); return typeof v === 'string' ? v : (v.children.length ? [...v.children].map((c) => c.textContent).join(' / ') : v.textContent); };
+    assert.equal(text(advisory('x', 'low', { products: 25, productsSameVersion: 3 })), '25 wallets / 3 on this version');
     assert.equal(text(advisory('x', 'low', { products: 1, productsSameVersion: 1 })), 'only this wallet');
     assert.equal(text(advisory('x', 'low')), '–', 'an export from before the field existed');
     const rows = panelElement(panelModel({ ...APP, releases: [{ ...APP.releases[0], advisories: [advisory('GHSA-1', 'high', { products: 7, productsSameVersion: 2 })] }] }), { appId: 'app.android', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl: async () => null })
       .querySelectorAll('tbody tr');
-    assert.equal(rows[0].querySelector('.dp-td-products').textContent, '7 · 2 this version');
+    assert.equal(rows[0].querySelector('.dp-td-products').textContent, '7 wallets2 on this version', 'two lines, one per number');
   });
 
   test('an advisory gone on the default branch says "Already fixed in master" under its version', () => {

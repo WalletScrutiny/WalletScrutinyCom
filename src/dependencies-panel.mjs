@@ -659,14 +659,16 @@ function triageLine(model) {
   return el('div', { className: 'dp-triage-line' }, parts.join(' · '));
 }
 
-// "25 · 3 this version": how many of the checked wallets ship the package at
-// all, and how many this exact version. A package only this wallet ships
-// says so instead of "1".
+// Two lines, "25 wallets" over "3 on this version": how many of the checked
+// wallets ship the package at all, and how many this exact version. A
+// package only this wallet ships says so instead of "1".
 export function usedBy(a) {
   if (a.products == null) return '–';
   if (a.products <= 1) return el('span', { className: 'dp-products-sub' }, 'only this wallet');
   const same = a.productsSameVersion;
-  return el('span', {}, String(a.products), same != null ? el('span', { className: 'dp-products-sub' }, ` · ${same} this version`) : null);
+  return el('span', {},
+    el('span', { className: 'dp-products-line' }, `${a.products} wallets`),
+    same != null ? el('span', { className: 'dp-products-line dp-products-sub' }, `${same} on this version`) : null);
 }
 
 // What each column means, opened from its header. Where? bolds its own labels.

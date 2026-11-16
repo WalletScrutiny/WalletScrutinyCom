@@ -1031,7 +1031,12 @@ a.dp-signer {
   max-width: 28em;
 }
 
-// "· 3 this version" after the wallet count, and "only this wallet"
+// "25 wallets" over "3 on this version"
+.dp-products-line {
+  display: block;
+}
+
+// "3 on this version", and "only this wallet"
 .dp-products-sub {
   font-size: $font-xxs;
   color: var(--neutral-3);
