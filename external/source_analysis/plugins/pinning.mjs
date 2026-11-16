@@ -512,8 +512,8 @@ function analyzePip(repoPath) {
 // wallet's repository: they are read as text and never run.
 
 // Recipes that install a PyPI package, and its name there. Every other recipe is a
-// native library (OpenSSL, Qt): its row has ecosystem p4a, which OSV can't look up,
-// so the page counts it as not checked.
+// native library (OpenSSL, Qt): its row has ecosystem native, and plugins/osv.mjs
+// looks it up by its upstream source (NATIVE_UPSTREAM).
 const P4A_PYPI_NAMES = {
   cffi: 'cffi',
   cryptography: 'cryptography',
@@ -532,6 +532,11 @@ const P4A_PYPI_NAMES = {
   toml: 'toml',
   tomli: 'tomli',
 };
+// Recipes built for and run on the build machine, never shipped in the APK:
+// hostpython3 is the Python that compiles the app (python3 is the one inside it).
+// The spec lists it under requirements all the same, so it is direct, but a
+// build row. Other host recipes (hostqt6) are not marked yet.
+const P4A_BUILD_RECIPES = new Set(['hostpython3']);
 const P4A_SPEC = /^buildozer[^/]*\.spec$/;
 const P4A_RECIPE_NAME = /^[A-Za-z0-9_][A-Za-z0-9_.-]*$/;
 const pypiKey = name => name.toLowerCase().replace(/[-_.]+/g, '-');
@@ -618,7 +623,7 @@ function analyzeP4aSpec(repoPath, specFile, result) {
   }
 
   const rowName = name => P4A_PYPI_NAMES[name.toLowerCase()] ?? name;
-  const ecosystemOf = name => (P4A_PYPI_NAMES[name.toLowerCase()] ? 'pip' : 'p4a');
+  const ecosystemOf = name => (P4A_PYPI_NAMES[name.toLowerCase()] ? 'pip' : 'native');
   const buildTools = new Map();
   for (const node of queue) { // grows as depends are reached
     const raw = folder ? readInsideRepo(repoPath, path.join(folder, node.name, '__init__.py')) : null;
@@ -664,6 +669,7 @@ function analyzeP4aSpec(repoPath, specFile, result) {
       version,
       integrity: node.recipe.sha512 ? `sha512:${node.recipe.sha512}` : '',
       direct: node.direct,
+      ...(P4A_BUILD_RECIPES.has(node.name) ? { dev: true } : {}),
       dependants: [...node.dependants],
       tier,
     });

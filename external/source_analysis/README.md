@@ -867,7 +867,7 @@ CREATE TABLE app_dependencies (
 );
 ```
 
-What each ecosystem can say: npm and cargo lockfiles give the full resolved set with `direct` known; yarn.lock knows `direct` (by requested range) but not `dev` for transitive rows; gradle has the full set where `verification-metadata.xml` exists or test 7b could run gradle (`lockfile` = `<build dir> (gradle resolution)`), otherwise the declared coordinates; pip has what `requirements*.txt` lists; python-for-android has what a spec's `requirements` reach through recipes' `depends`, with PyPI libraries as `pip` and native ones as `p4a`, which OSV can't look up. Helpers in `ddbbUtils.mjs`: `saveDependencies`, `getDependencies`, `diffDependencies`, `findAppsShipping`.
+What each ecosystem can say: npm and cargo lockfiles give the full resolved set with `direct` known; yarn.lock knows `direct` (by requested range) but not `dev` for transitive rows; gradle has the full set where `verification-metadata.xml` exists or test 7b could run gradle (`lockfile` = `<build dir> (gradle resolution)`), otherwise the declared coordinates; pip has what `requirements*.txt` lists; python-for-android has what a spec's `requirements` reach through recipes' `depends`, with PyPI libraries as `pip` and native ones as `native`, looked up by upstream git repository and tag in OSV and by product in NVD (`NATIVE_UPSTREAM` in `plugins/osv.mjs`). Helpers in `ddbbUtils.mjs`: `saveDependencies`, `getDependencies`, `diffDependencies`, `findAppsShipping`.
 
 Known vulnerabilities per release (test 10), as OSV.dev reported them when the release was analysed. A snapshot: an advisory published later is found with `findAppsShipping`, not here.
 
