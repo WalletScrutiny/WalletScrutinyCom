@@ -85,8 +85,8 @@ describe('isTrustedVerifierEvent with an app scope', () => {
   });
 
   test('scopes BitForBit to the one test app', () => {
-    assert.deepEqual(SCOPED_VERIFIER_APP_IDS[bitforbit], ['co.edgesecure.app']);
-    assert.equal(isTrustedVerifierEvent(event('co.edgesecure.app')), true);
+    assert.deepEqual(SCOPED_VERIFIER_APP_IDS[bitforbit], ['com.coinspace.app']);
+    assert.equal(isTrustedVerifierEvent(event('com.coinspace.app')), true);
     assert.equal(isTrustedVerifierEvent(event('to.bitkit')), false);
   });
 });

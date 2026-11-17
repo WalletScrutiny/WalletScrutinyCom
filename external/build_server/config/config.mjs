@@ -25,7 +25,7 @@ export const PINNED_VERIFIER_EVENT_IDS = {
 // verifications ABS may use. Their verifications for other apps are ignored.
 export const SCOPED_VERIFIER_APP_IDS = {
   // BitForBit (Carol): one test app first (Danny, Luis Miguel, 2026-11-17)
-  '54790a499115f63e32536aadab43f62c0cf3922cd1653b3a74846fe2f6573f5d': ['co.edgesecure.app'],
+  '54790a499115f63e32536aadab43f62c0cf3922cd1653b3a74846fe2f6573f5d': ['com.coinspace.app'],
 };
 
 /**
@@ -75,7 +75,7 @@ export const REGRESSION_ALERT_MENTION = {
 export const REGRESSION_ALERT_TIMEOUT_SECONDS = 10;
 // Apps whose regressions are alerted (empty = every app). One test app first
 // (Danny, Luis Miguel, 2026-11-17), the same one BitForBit is scoped to.
-export const REGRESSION_ALERT_APP_IDS = ['co.edgesecure.app'];
+export const REGRESSION_ALERT_APP_IDS = ['com.coinspace.app'];
 
 // Queue configuration
 export const QUEUE_TIMEOUT_HOURS = 6;
@@ -91,7 +91,9 @@ export const DEBUG_APP_IDS = {
   exclude: [],   // Always skip these appIds
   // Force rebuild for these (appId, version) pairs even when they already have
   // verifications or a previous build attempt in the database (for re-build testing)
-  forceRebuild: []  // e.g. [{ appId: 'com.example.wallet', version: '1.2.3' }]
+  // Regression alert test (2026-11-17): rebuild Coin Wallet 6.30.0 once so
+  // the alert fires. Remove after the first alert, or it rebuilds every cycle.
+  forceRebuild: [{ appId: 'com.coinspace.app', version: '6.30.0' }]  // e.g. [{ appId: 'com.example.wallet', version: '1.2.3' }]
 };
 
 export function shouldForceRebuild(appId, version) {
