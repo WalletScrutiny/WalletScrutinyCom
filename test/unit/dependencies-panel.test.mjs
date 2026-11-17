@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import { loadApp, renderDependenciesPanel, liveTriageEvents, triageAuthors, panelElement, usedBy, severityTally, coverageTipLines, historyScale } from '../../src/dependencies-panel.mjs';
 import { panelModel, releaseForVersion, appForListing } from '../../src/dependencies-panel-model.mjs';
 import { nip19 } from 'nostr-tools';
-import { viaLine } from '../../src/dependencies-panel.mjs';
+import { viaLine, listedByLine } from '../../src/dependencies-panel.mjs';
 
 const shortNpub = (pk) => { const n = nip19.npubEncode(pk); return `${n.slice(0, 10)}…${n.slice(-4)}`; };
 
@@ -814,5 +814,39 @@ describe('the via line', () => {
     const host = advisory('CVE-1', 'high', { ecosystem: 'native', package: 'hostpython3', dev: true, scope: 'build', dependants: ['PyQt6', 'python3'] });
     assert.equal(viaLine(host).textContent, 'build tool of the wallet · via PyQt6, python3');
     assert.equal(viaLine(advisory('CVE-1', 'high', { dev: null, scope: 'tests' })).textContent, 'imported by the wallet', 'only build rows change');
+  });
+});
+
+describe('listedByLine', () => {
+  test('a native row says which databases listed it, each linked to its page', () => {
+    const native = (listedBy, extra = {}) => advisory('CVE-2025-4517', 'high', { ecosystem: 'native', package: 'python3', listedBy, ...extra });
+    const nvdOnly = listedByLine(native(['nvd']));
+    assert.equal(nvdOnly.textContent, 'Listed by NVD only');
+    assert.deepEqual([...nvdOnly.querySelectorAll('a')].map(x => x.href), ['https://nvd.nist.gov/vuln/detail/CVE-2025-4517']);
+    const both = listedByLine(native(['osv', 'nvd']));
+    assert.equal(both.textContent, 'Listed by OSV.dev · NVD');
+    assert.deepEqual([...both.querySelectorAll('a')].map(x => x.href), ['https://osv.dev/vulnerability/CVE-2025-4517', 'https://nvd.nist.gov/vuln/detail/CVE-2025-4517']);
+    assert.match(both.title, /not two independent checks/);
+    assert.equal(listedByLine(native(['osv'])).textContent, 'Listed by OSV.dev only');
+    const aliased = listedByLine(native(['osv', 'nvd'], { id: 'PYSEC-1', aliases: ['CVE-2026-9'] }));
+    assert.equal(aliased.querySelectorAll('a')[1].href, 'https://nvd.nist.gov/vuln/detail/CVE-2026-9', 'NVD by the CVE alias');
+  });
+
+  test('no line for rows stored before the field, nor for OSV.dev-only package rows', () => {
+    assert.equal(listedByLine(advisory('CVE-1', 'high', { ecosystem: 'native' })), null);
+    assert.equal(listedByLine(advisory('GHSA-1', 'high', { listedBy: ['osv'] })), null);
+  });
+
+  test('the advisory cell carries the line', async () => {
+    const app = structuredClone(APP);
+    app.releases[0].advisories = [
+      advisory('CVE-2026-1', 'high', { ecosystem: 'native', package: 'openssl', listedBy: ['nvd'] }),
+      advisory('CVE-2026-2', 'high', { ecosystem: 'native', package: 'python3', listedBy: ['osv', 'nvd'] }),
+    ];
+    const { fetchImpl } = fakeFetch({ '/x/apps/app.android.json': app, '/xt/statements.json': { schema: 1, trusted: [], maintainers: {}, statements: [] } });
+    const host = document.createElement('div');
+    await renderDependenciesPanel({ host, appId: 'app.android', selectedVersion: null, base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl });
+    const cells = [...host.querySelectorAll('.dp-td-advisory')].map(td => td.textContent);
+    assert.deepEqual(cells, ['CVE-2026-1Listed by NVD only', 'CVE-2026-2Listed by OSV.dev · NVD']);
   });
 });

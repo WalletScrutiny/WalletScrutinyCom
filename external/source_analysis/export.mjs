@@ -303,6 +303,7 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
       summary: v.summary, ecosystem: v.ecosystem, package: v.name, version: v.dep_version,
       affected: v.affected ? JSON.parse(v.affected) : undefined,
       fixed: v.fixed ? v.fixed.split(' ') : undefined,
+      listedBy: v.listed_by ? v.listed_by.split(' ') : undefined,
       direct: v.direct === null ? null : v.direct === 1,
       scope: scopeOfRow(v) === 'unknown' ? null : scopeOfRow(v),
       part: partOfLockfiles(rowsOfAdvisory(v).map(d => d.lockfile), appId) || undefined,

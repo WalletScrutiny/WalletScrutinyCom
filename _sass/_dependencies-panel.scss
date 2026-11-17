@@ -883,6 +883,14 @@ details.dp-decision__others {
   overflow-wrap: anywhere;
 }
 
+// "Listed by NVD only" under the advisory id
+.dp-listed-by {
+  font-family: system-ui, sans-serif;
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+  margin-top: 2px;
+}
+
 .dp-sev-cell {
   display: flex;
   flex-direction: column;

@@ -450,10 +450,14 @@ export function affectedRanges(advisory, q) {
  * One finding per advisory, per package version. OSV often returns the same
  * issue twice (a GHSA and the RUSTSEC or PYSEC record it aliases); those are
  * folded into one finding, keeping the record that carries a severity and the
- * fixed versions and affected ranges of all of them.
+ * fixed versions and affected ranges of all of them. `listedBy` is the
+ * databases whose records were folded in: 'osv' for OSV.dev, 'nvd' for the
+ * NVD records in `extra`.
  */
 function findingsFor(q, ids, details, extra = []) {
   const advisories = [...ids.map(id => details.get(id)).filter(Boolean), ...extra];
+  const nvdRecords = new Set(extra);
+  const listerOf = (advisory) => (nvdRecords.has(advisory) ? 'nvd' : 'osv');
   // most severe first; on a tie the record with GitHub's reviewed label, so the
   // kept id does not depend on the order OSV listed them in
   const labelled = (a) => (a.database_specific?.severity ? 0 : 1);
@@ -472,6 +476,7 @@ function findingsFor(q, ids, details, extra = []) {
       // versions nor ranges, the NVD record of the same CVE lists both.
       kept.fixed = [...new Set([...kept.fixed, ...fixed])];
       kept.affected = kept.affected || affected ? [...new Set([...(kept.affected || []), ...(affected || [])])] : null;
+      if (!kept.listedBy.includes(listerOf(advisory))) kept.listedBy = ['osv', 'nvd'];
       for (const n of names) byName.set(n, kept);
       continue;
     }
@@ -490,6 +495,7 @@ function findingsFor(q, ids, details, extra = []) {
       scope: scopeOfRows(q.rows),
       dependants: dependantsOfRows(q.rows),
       lockfiles: [...new Set(q.rows.map(r => r.lockfile))],
+      listedBy: [listerOf(advisory)],
     };
     for (const n of names) byName.set(n, finding);
     findings.push(finding);

@@ -144,6 +144,10 @@ export function initDatabase(dbPath = DB_PATH) {
   // `affected` is the JSON list of the advisory's affected ranges for this
   // package ("< 1.2.3"); NULL on rows stored before the column, until the next recheck.
   ensureColumn(db, 'app_vulnerabilities', 'affected', 'TEXT');
+  // `listed_by` is the databases that listed the advisory, space separated:
+  // "osv", "nvd" or "osv nvd" (plugins/osv.mjs findingsFor); NULL on rows stored
+  // before the column, until the next recheck.
+  ensureColumn(db, 'app_vulnerabilities', 'listed_by', 'TEXT');
 
   // Where a package's source lives, per (ecosystem, name): resolved from the
   // registry metadata (sourceRepos.mjs) and cached, since it does not
@@ -597,19 +601,25 @@ export function saveDependencies(db, appId, version, analyses) {
 // `nvdUnavailable` lists the package versions NVD did not answer for
 // (plugins/osv.mjs): the rows stored for them are kept, since replacing them
 // with OSV.dev's answer alone would drop every NVD-only advisory until the
-// next successful lookup. A finding of this run replaces its stored row.
+// next successful lookup. A finding of this run replaces its stored row, but
+// keeps the row's stored `listed_by`: NVD did not say this time whether it lists it.
 export function saveVulnerabilities(db, appId, version, { findings, nvdUnavailable = [] }) {
-  const columns = 'app_id, version, ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants, affected';
-  const insert = db.prepare(`INSERT OR REPLACE INTO app_vulnerabilities (${columns}) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`);
-  const keep = db.prepare(`INSERT OR IGNORE INTO app_vulnerabilities (${columns}) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`);
+  const columns = 'app_id, version, ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants, affected, listed_by';
+  const values = columns.split(', ').map(() => '?').join(', ');
+  const insert = db.prepare(`INSERT OR REPLACE INTO app_vulnerabilities (${columns}) VALUES (${values})`);
+  const keep = db.prepare(`INSERT OR IGNORE INTO app_vulnerabilities (${columns}) VALUES (${values})`);
   const stored = db.prepare(`SELECT ${columns} FROM app_vulnerabilities WHERE app_id = ? AND version = ? AND ecosystem = ? AND name = ? AND dep_version = ?`);
+  const key = (ecosystem, name, depVersion, id) => [ecosystem, name, depVersion, id].join('\0');
   return db.transaction(() => {
     const kept = nvdUnavailable.flatMap(p => stored.all(appId, version, p.ecosystem, p.name, p.version));
+    const keptListedBy = new Map(kept.map(r => [key(r.ecosystem, r.name, r.dep_version, r.vuln_id), r.listed_by]));
     db.prepare('DELETE FROM app_vulnerabilities WHERE app_id = ? AND version = ?').run(appId, version);
     for (const f of findings) {
+      const k = key(f.ecosystem, f.name, f.version, f.id);
       insert.run(appId, version, f.ecosystem, f.name, f.version, f.id, f.severity,
         f.aliases.join(' '), f.fixed.join(' '), f.summary, boolOrNull(f.direct), boolOrNull(f.dev), scopeOrNull(f.scope), dependantsOrNull(f.dependants),
-        Array.isArray(f.affected) && f.affected.length ? JSON.stringify(f.affected) : null);
+        Array.isArray(f.affected) && f.affected.length ? JSON.stringify(f.affected) : null,
+        keptListedBy.has(k) ? keptListedBy.get(k) : (f.listedBy?.length ? f.listedBy.join(' ') : null));
     }
     let carried = 0;
     for (const r of kept) carried += keep.run(...columns.split(', ').map(c => r[c])).changes;
@@ -619,7 +629,7 @@ export function saveVulnerabilities(db, appId, version, { findings, nvdUnavailab
 
 export function getVulnerabilities(db, appId, version) {
   return db.prepare(`
-    SELECT ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants, affected
+    SELECT ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants, affected, listed_by
     FROM app_vulnerabilities WHERE app_id = ? AND version = ?
     ORDER BY CASE severity WHEN 'malicious' THEN 0 WHEN 'critical' THEN 1 WHEN 'high' THEN 2
       WHEN 'moderate' THEN 3 WHEN 'low' THEN 4 ELSE 5 END, ecosystem, name, vuln_id
