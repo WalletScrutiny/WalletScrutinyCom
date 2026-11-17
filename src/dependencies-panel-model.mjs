@@ -178,12 +178,22 @@ export function appForListing(app, appId, platform) {
   return mine.length ? { ...app, releases: mine } : null;
 }
 
+// True when the export says this release is the one a listing's verified
+// version resolved to (`reproducedFor[].version`, export.mjs).
+export function releaseNamesVersion(release, version) {
+  return Boolean(version) && Array.isArray(release?.reproducedFor) && release.reproducedFor.some(l => l.version === version);
+}
+
 // The analysed release for a version picked in "Every version"
-// (src/build-verifications.mjs), or null when none was analysed. The version
-// digits must agree; only a plain version ("1.4.0") also takes a tag with a
-// suffix (v1.4.0-android), so a picked beta never shows the final release.
+// (src/build-verifications.mjs), or null when none was analysed. The release
+// the export names for that version wins ("3.21.0-BTC only" -> v3.21.0-btc).
+// Otherwise the version digits must agree; only a plain version ("1.4.0") also
+// takes a tag with a suffix (v1.4.0-android), so a picked beta never shows the
+// final release.
 export function releaseForVersion(app, version) {
   const releases = Array.isArray(app?.releases) ? app.releases : [];
+  const named = releases.find(r => releaseNamesVersion(r, version));
+  if (named) return named;
   const core = versionCore(version);
   if (!core) return null;
   return releases.find(r => versionCore(r.ref) === core)

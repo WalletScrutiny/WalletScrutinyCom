@@ -164,32 +164,64 @@ function pick(found, hints) {
   return null;
 }
 
-// A tag that names the version after a component prefix (`firmware/v9.27.1`,
+// Tags that name the version after a component prefix (`firmware/v9.27.1`,
 // `android-v2.8.2`, `android.2.9.2`, `release_5.7.0`), maybe with a flavour
-// after it (`v0.60.0-fdroid`). Several match in repositories that tag each
-// app or flavour: the one named by the verified platform or by the flavour in
-// the verified version (`0.59.4 - Fdroid`, `9.25.0-Btc-Only`) wins, otherwise
-// none; a wrong guess is worse than no tag.
-function prefixedTag(tags, version, platform, flavour) {
+// after it (`v0.60.0-fdroid`).
+function prefixedTags(tags, version) {
   const re = new RegExp(`(^|[/_-]|[a-z]\\.)v?${escapeRe(version)}([-_][a-z-]+)?$`, 'i');
-  const found = [...(tags.keys ? tags.keys() : tags)].filter(t => re.test(t));
+  return [...(tags.keys ? tags.keys() : tags)].filter(t => re.test(t));
+}
+
+// The product a tag's component prefix names (`mini` in `mini/v3.10.0`), when
+// the app id names it too (`onekeymini`). Only the whole prefix counts: the
+// vendor alone (`onekey`) names every product of the repository.
+function appIdHint(appId) {
+  const id = String(appId || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  return { test: (t) => {
+    const prefix = /^(.*?)[/_.-]v?\d/i.exec(t)?.[1]?.toLowerCase().replace(/[^a-z0-9]/g, '');
+    return !!prefix && prefix.length >= 3 && id.includes(prefix);
+  } };
+}
+
+// Several prefixed tags match in repositories that tag each app or flavour:
+// the one named by the flavour in the verified version (`0.59.4 - Fdroid`,
+// `9.25.0-Btc-Only`), by the verified platform or by the app id wins,
+// otherwise none; a wrong guess is worse than no tag.
+function prefixedTag(tags, version, platform, flavour, appId) {
+  const found = prefixedTags(tags, version);
   if (found.length <= 1) return found[0] || null;
   const hints = [];
   if (flavour) hints.push(new RegExp(escapeRe(flavour).replace(/[-_ ]+/g, '[-_ ]?'), 'i'));
   if (PLATFORM_HINTS[platform]) hints.push(PLATFORM_HINTS[platform]);
+  hints.push(appIdHint(appId));
   return pick(found, hints);
+}
+
+// The tag of a flavoured build (`3.21.0-BTC only`, `3.19.0 - Btc`) when the
+// repository tags that flavour apart (`v3.21.0-btc`, `firmware-btc-only/v9.25.0`).
+// The flavour's first word names it; a flavour no tag names (`Universal`,
+// `Stable`) gets none here and falls back to the plain tag. So does a flavour
+// several tags name (`v3.21.0-btc`, `v3.21.0-btc-only`), with a warning: the
+// plain tag is then likely the wrong build.
+function flavouredTag(tags, base, flavour) {
+  const word = new RegExp(`(^|[^a-z])${escapeRe(flavour.split(/[-_ ]/)[0])}([^a-z]|$)`, 'i');
+  const found = prefixedTags(tags, base).filter(t => word.test(t));
+  if (found.length > 1) console.warn(`  Several tags name the "${flavour}" build of ${base} (${found.join(', ')}): none picked, trying the plain tag.`);
+  return found.length === 1 ? found[0] : null;
 }
 
 // The tag of a verified version. Verifications name the version the store
 // shows (`3.2.0`, sometimes with a build suffix like `3.2.0-Multi` or
 // `2026.16.1 (3)`); tags add a `v` or a component prefix. Tries the name as
-// given, then without its suffix.
+// given, then without its suffix, the flavoured tag first. `appId` is the app
+// the version was verified for, which may be an alias of the job's.
 export function tagOfVersion(tags, appId, version, platform = null) {
   const m = /^v?(\d+(?:\.\d+)+)\s*(?:[-–]\s*)?([a-z][a-z -]*[a-z])?/i.exec(version);
   const base = m?.[1];
   const flavour = m?.[2] || null;
   for (const v of base && base !== version ? [version, base] : [version]) {
-    const found = matchTag(tags, appId, v) || prefixedTag(tags, v, platform, flavour);
+    const found = (flavour && v === base && flavouredTag(tags, base, flavour))
+      || matchTag(tags, appId, v) || prefixedTag(tags, v, platform, flavour, appId);
     if (found) return found;
   }
   return null;
@@ -215,7 +247,7 @@ export async function analyseVerifiedVersions(db, { appId, repoUrl, verified, pe
   const done = [];
   let left = 0;
   for (const v of verified) {
-    const tag = tagOfVersion(tags, appId, v.version, v.platform);
+    const tag = tagOfVersion(tags, v.appId || appId, v.version, v.platform);
     if (!tag) {
       // Kept so the export can say which verified version had no source to check.
       if (!analyser) analyser = (await import('./appAnalysis.mjs')).analyserVersion();

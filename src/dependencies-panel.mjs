@@ -7,7 +7,7 @@
 import * as nip19 from 'nostr-tools/nip19';
 import { el } from './html-utils.mjs';
 import {
-  panelModel, releaseForVersion, appForListing, whereOf, whereLabel, WHERE_UNKNOWN_TIP, safeName, csvOf, notInAppText, sortingLabel, SEVERITY_ORDER, SEVERITY_LABEL,
+  panelModel, releaseForVersion, releaseNamesVersion, appForListing, whereOf, whereLabel, WHERE_UNKNOWN_TIP, safeName, csvOf, notInAppText, sortingLabel, SEVERITY_ORDER, SEVERITY_LABEL,
 } from './dependencies-panel-model.mjs';
 import { TRIAGE_LABEL, JUSTIFICATION_LABEL, DELETION_KIND, triageStateOf, withStatement, mergeLiveTriage, triageForApp, evidenceUrl } from './dependency-triage.mjs';
 import { dependencyTriageKind, mainRelayUrl, eventRelayUrls } from './nostr-constants.mjs';
@@ -1230,8 +1230,9 @@ function notAnalysedElement(version, app, platform, failed) {
   const river = typeof document !== 'undefined' ? document.getElementById(`buildVerifications-${platform}`) : null;
   const analysed = (app.releases || []).filter(hasAnalysis);
   const refs = analysed.map((r) => {
-    const stone = river && [...river.querySelectorAll('.bv-stone[data-version-key]')]
-      .find(b => releaseForVersion({ releases: [r] }, b.dataset.versionKey));
+    const stones = river ? [...river.querySelectorAll('.bv-stone[data-version-key]')] : [];
+    const stone = stones.find(b => releaseNamesVersion(r, b.dataset.versionKey))
+      || stones.find(b => releaseForVersion({ releases: [r] }, b.dataset.versionKey));
     if (!stone) return el('b', {}, r.ref);
     const pick = el('button', { type: 'button', className: 'dp-pick-version' }, r.ref);
     pick.addEventListener('click', () => stone.click());

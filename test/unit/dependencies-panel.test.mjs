@@ -350,6 +350,18 @@ describe('dependencies panel', () => {
     assert.equal(releaseForVersion(app, 'latest'), null);
   });
 
+  test('releaseForVersion: the release the export names for the version wins over the digits (issue 1018)', () => {
+    const listed = (ref, version) => ({ ref, reproducedFor: [{ appId: 'onekey.classic.1s', platform: 'hardware', version }] });
+    const app = { releases: [listed('v3.21.0', '3.21.0-Universal'), listed('v3.21.0-btc', '3.21.0-BTC only'),
+      listed('v3.19.0', '3.19.0 - Stable'), listed('v3.19.0-btc', '3.19.0 - Btc'), { ref: 'v3.12.1', reproducedFor: [{ appId: 'onekey.classic.1s', platform: 'hardware' }] }] };
+    assert.equal(releaseForVersion(app, '3.21.0-BTC only').ref, 'v3.21.0-btc');
+    assert.equal(releaseForVersion(app, '3.21.0-Universal').ref, 'v3.21.0');
+    assert.equal(releaseForVersion(app, '3.19.0 - Btc').ref, 'v3.19.0-btc');
+    assert.equal(releaseForVersion(app, '3.19.0 - Stable').ref, 'v3.19.0');
+    assert.equal(releaseForVersion(app, '3.12.1').ref, 'v3.12.1', 'an export without the version: the digits, as before');
+    assert.equal(releaseForVersion(app, '3.17.0 - Btc'), null);
+  });
+
   test('the panel follows the version picked in "Every version"', async () => {
     const older = { ...APP.releases[0], ref: 'v1.3.0', commit: 'f0f0f0f0', advisories: [advisory('GHSA-old', 'low')], vulnerabilities: { total: 1, bySeverity: { low: 1 }, packages: 1 } };
     const app = { ...APP, releases: [APP.releases[0], older, { ref: 'v1.2.0', status: 'failed', error: 'no lockfile' },

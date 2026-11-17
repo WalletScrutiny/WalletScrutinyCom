@@ -225,12 +225,13 @@ export function pagePlatform(platform) {
   return p || null;
 }
 
-// ref -> the listings ({ appId, platform }) whose binary of that release was
+// ref -> the listings ({ appId, platform, version }) whose binary of that release was
 // reproduced. Only those artifacts get their dependencies shown (Leo,
 // 2026-11-09): a sibling listing that was never reproduced (the iPhone app of a
 // reproduced Android app, an older hardware model) builds from other files or
 // ships something else. verified_refs is the tag each pass resolved a verified
-// version to (reproducible.mjs); the version names the listing that verified it.
+// version to (reproducible.mjs); the version names the listing that verified it,
+// and lets the page pick the release by the version it shows (`3.21.0-BTC only`).
 export function reproducedListings(db, appId, aliases = [], byApp = getReproducibleVersions(db)) {
   const ids = [...new Set([appId, ...aliases.map(a => a.appId)])];
   const out = new Map();
@@ -240,7 +241,7 @@ export function reproducedListings(db, appId, aliases = [], byApp = getReproduci
       for (const v of byApp.get(id) || []) {
         if (v.version !== version) continue;
         const platform = pagePlatform(v.platform);
-        if (!listings.some(l => l.appId === id && l.platform === platform)) listings.push({ appId: id, platform });
+        if (!listings.some(l => l.appId === id && l.platform === platform)) listings.push({ appId: id, platform, version });
       }
     }
     if (listings.length) out.set(ref, listings);

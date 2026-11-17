@@ -96,6 +96,47 @@ test('tagOfVersion: a dotted app prefix, and the flavour in the verified version
   assert.equal(tagOfVersion(tags, 'bitBox2', '9.25.0-Btc-Only', 'hardware'), 'firmware-btc-only/v9.25.0');
 });
 
+test('tagOfVersion: a flavour the repository tags apart beats the plain tag (OneKey, issue 1018)', () => {
+  // OneKeyHQ/firmware-classic1s and firmware-pro
+  const tags = new Map(['v3.19.0', 'v3.19.0-btc', 'v3.21.0', 'v3.21.0-btc', 'v4.21.0', 'v4.21.0-btc', 'v3.12.1'].map(t => [t, '']));
+  assert.equal(tagOfVersion(tags, 'onekey.classic.1s', '3.21.0-BTC only', 'hardware'), 'v3.21.0-btc');
+  assert.equal(tagOfVersion(tags, 'onekey.classic.1s', '3.19.0 - Btc', 'hardware'), 'v3.19.0-btc');
+  assert.equal(tagOfVersion(tags, 'onekey.pro', '4.21.0 - btc-only', 'hardware'), 'v4.21.0-btc');
+  assert.equal(tagOfVersion(tags, 'onekey.classic.1s', '3.21.0-Universal', 'hardware'), 'v3.21.0');
+  assert.equal(tagOfVersion(tags, 'onekey.classic.1s', '3.19.0 - Stable', 'hardware'), 'v3.19.0');
+  assert.equal(tagOfVersion(tags, 'onekey.classic.1s', '3.12.1', 'hardware'), 'v3.12.1');
+});
+
+test('tagOfVersion: two tags naming the flavour pick none of them, with a warning', (t) => {
+  const warn = t.mock.method(console, 'warn', () => {});
+  const tags = new Map(['v3.21.0', 'v3.21.0-btc', 'v3.21.0-btc-only'].map(t => [t, '']));
+  assert.equal(tagOfVersion(tags, 'onekey.classic.1s', '3.21.0-BTC only', 'hardware'), 'v3.21.0');
+  assert.equal(warn.mock.callCount(), 1);
+  assert.match(warn.mock.calls[0].arguments[0], /"BTC only" build of 3\.21\.0 \(v3\.21\.0-btc, v3\.21\.0-btc-only\)/);
+  // one flavoured tag: picked, nothing to warn about
+  assert.equal(tagOfVersion(new Map([['v3.21.0', ''], ['v3.21.0-btc', '']]), 'onekey.classic.1s', '3.21.0-BTC only', 'hardware'), 'v3.21.0-btc');
+  assert.equal(warn.mock.callCount(), 1);
+});
+
+test('tagOfVersion: the app id names the product prefix, the vendor alone does not (OneKey, issue 1019)', () => {
+  // OneKeyHQ/firmware tags every product
+  const tags = new Map(['classic/v3.10.0', 'mini/v3.10.0', 'classic/v3.12.0', 'touch/v4.12.0'].map(t => [t, '']));
+  assert.equal(tagOfVersion(tags, 'onekeymini', '3.10.0', 'hardware'), 'mini/v3.10.0');
+  assert.equal(tagOfVersion(tags, 'onekey', '3.10.0', 'hardware'), null, 'classic or mini: no guess');
+  assert.equal(tagOfVersion(tags, 'onekey', '3.12.0', 'hardware'), 'classic/v3.12.0');
+  assert.equal(tagOfVersion(tags, 'onekey.touch', '4.12.0', 'hardware'), 'touch/v4.12.0');
+});
+
+test('analyseVerifiedVersions: the tag hint comes from the alias that was verified', async () => {
+  const db = tmpDb();
+  const tags = new Map([['classic/v3.10.0', 'a'], ['mini/v3.10.0', 'b']]);
+  const analysed = [];
+  await analyseVerifiedVersions(db, { appId: 'onekey', repoUrl: 'x', verified: [{ version: '3.10.0', verifiedAt: 1, platform: 'hardware', appId: 'onekeymini' }],
+    perPass: 2, analyse: async (tag) => { analysed.push(tag); }, listTags: async () => tags, analyser: 't' });
+  assert.deepEqual(analysed, ['mini/v3.10.0']);
+  assert.equal(getVerifiedRefs(db, 'onekey').get('mini/v3.10.0'), '3.10.0');
+});
+
 test('analyseVerifiedVersions: newest first, capped per pass, finished ones skipped, a missing tag recorded', async () => {
   const db = tmpDb();
   const tags = new Map([['v3.0', 'a'], ['v2.0', 'b'], ['v1.0', 'c']]);
