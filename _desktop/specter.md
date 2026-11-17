@@ -16,10 +16,16 @@ repository: https://github.com/cryptoadvance/specter-desktop
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2026-10-30
+date: 2026-11-17
 twitter: SpecterWallet
 social: 
-builds: 
+builds:
+- arch: x86_64-linux-gnu
+  types:
+    tarball:
+    - specterd-v*-x86_64-linux-gnu.zip
+    electron-gui:
+    - specter_desktop-v*-x86_64-linux-gnu.tar.gz
 features:
 - companion
 - hd
