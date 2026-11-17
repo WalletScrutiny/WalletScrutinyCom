@@ -107,6 +107,17 @@ test('tagOfVersion: a flavour the repository tags apart beats the plain tag (One
   assert.equal(tagOfVersion(tags, 'onekey.classic.1s', '3.12.1', 'hardware'), 'v3.12.1');
 });
 
+test('tagOfVersion: two tags naming the flavour pick none of them, with a warning', (t) => {
+  const warn = t.mock.method(console, 'warn', () => {});
+  const tags = new Map(['v3.21.0', 'v3.21.0-btc', 'v3.21.0-btc-only'].map(t => [t, '']));
+  assert.equal(tagOfVersion(tags, 'onekey.classic.1s', '3.21.0-BTC only', 'hardware'), 'v3.21.0');
+  assert.equal(warn.mock.callCount(), 1);
+  assert.match(warn.mock.calls[0].arguments[0], /"BTC only" build of 3\.21\.0 \(v3\.21\.0-btc, v3\.21\.0-btc-only\)/);
+  // one flavoured tag: picked, nothing to warn about
+  assert.equal(tagOfVersion(new Map([['v3.21.0', ''], ['v3.21.0-btc', '']]), 'onekey.classic.1s', '3.21.0-BTC only', 'hardware'), 'v3.21.0-btc');
+  assert.equal(warn.mock.callCount(), 1);
+});
+
 test('tagOfVersion: the app id names the product prefix, the vendor alone does not (OneKey, issue 1019)', () => {
   // OneKeyHQ/firmware tags every product
   const tags = new Map(['classic/v3.10.0', 'mini/v3.10.0', 'classic/v3.12.0', 'touch/v4.12.0'].map(t => [t, '']));

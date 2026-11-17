@@ -200,10 +200,13 @@ function prefixedTag(tags, version, platform, flavour, appId) {
 // The tag of a flavoured build (`3.21.0-BTC only`, `3.19.0 - Btc`) when the
 // repository tags that flavour apart (`v3.21.0-btc`, `firmware-btc-only/v9.25.0`).
 // The flavour's first word names it; a flavour no tag names (`Universal`,
-// `Stable`) gets none here and falls back to the plain tag.
+// `Stable`) gets none here and falls back to the plain tag. So does a flavour
+// several tags name (`v3.21.0-btc`, `v3.21.0-btc-only`), with a warning: the
+// plain tag is then likely the wrong build.
 function flavouredTag(tags, base, flavour) {
   const word = new RegExp(`(^|[^a-z])${escapeRe(flavour.split(/[-_ ]/)[0])}([^a-z]|$)`, 'i');
   const found = prefixedTags(tags, base).filter(t => word.test(t));
+  if (found.length > 1) console.warn(`  Several tags name the "${flavour}" build of ${base} (${found.join(', ')}): none picked, trying the plain tag.`);
   return found.length === 1 ? found[0] : null;
 }
 
