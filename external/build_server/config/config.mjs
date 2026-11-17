@@ -7,6 +7,7 @@ import { isDebugEnv } from './argv.mjs';
 export const APPROVED_VERIFIERS_PUBKEY_HEX = [
   '1f9e547c2f31942623b8ad1d07713282e8640fd8cf474e9f79f18ace8af216ed', // danny
   '6274e238b289e1b2e98e4e6ce600dcc0cb2e2c03db9b850260ff8bdd6bbf2a45', // keraliss
+  '54790a499115f63e32536aadab43f62c0cf3922cd1653b3a74846fe2f6573f5d', // BitForBit (Carol)
 ];
 
 // Approved verifiers who left the team: ABS keeps reusing the scripts of the
@@ -20,10 +21,23 @@ export const PINNED_VERIFIER_EVENT_IDS = {
   ),
 };
 
-/** False for events by a pinned verifier that are not on their list. */
-export function isTrustedVerifierEvent(event, pinned = PINNED_VERIFIER_EVENT_IDS) {
+// Approved verifiers trusted only for some apps: pubkey -> appIds whose
+// verifications ABS may use. Their verifications for other apps are ignored.
+export const SCOPED_VERIFIER_APP_IDS = {
+  // BitForBit (Carol): one test app first (Danny, Luis Miguel, 2026-11-17)
+  '54790a499115f63e32536aadab43f62c0cf3922cd1653b3a74846fe2f6573f5d': ['com.coinspace.app'],
+};
+
+/**
+ * False for events by a pinned verifier that are not on their list, and for
+ * events by a scoped verifier about an app outside their scope.
+ */
+export function isTrustedVerifierEvent(event, pinned = PINNED_VERIFIER_EVENT_IDS, scoped = SCOPED_VERIFIER_APP_IDS) {
   const ids = pinned[event?.pubkey];
-  return !ids || ids.has(event.id);
+  if (ids && !ids.has(event.id)) return false;
+  const appIds = scoped[event?.pubkey];
+  if (appIds && !appIds.includes(event.tags?.find(tag => tag[0] === 'i')?.[1])) return false;
+  return true;
 }
 
 export const WS_BOT_NOSTR_PUBKEY_HEX = '168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f47373fdcce2b9cd335';
@@ -47,6 +61,22 @@ export const ASSET_WATCH_WATCHDOG_MINUTES = 5;
 // Set to false to reproduce only Asset Registry assets.
 export const FEATURE_REFRESH_APPS = true;
 
+// Feature flag: when true, a newly published ftbfs or not_reproducible verdict
+// for a version newer than the reproducible one it was built from posts an
+// alert in the Buzz Reproducible-Builds channel, tagging Carol (see
+// regression-alert.mjs). Needs ALERT_NOSTR_NSEC_FILE.
+export const FEATURE_REGRESSION_ALERTS = true;
+export const REGRESSION_ALERT_RELAY_URL = 'https://buzz.walletscrutiny.com';
+export const REGRESSION_ALERT_CHANNEL_ID = '55ad8b5e-0356-4548-aafe-6ddd2c06bab0'; // Reproducible-Builds
+export const REGRESSION_ALERT_MENTION = {
+  name: 'Carol (agent, Opus 5.5, high)',
+  pubkey: 'fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26'
+};
+export const REGRESSION_ALERT_TIMEOUT_SECONDS = 10;
+// Apps whose regressions are alerted (empty = every app). One test app first
+// (Danny, Luis Miguel, 2026-11-17), the same one BitForBit is scoped to.
+export const REGRESSION_ALERT_APP_IDS = ['com.coinspace.app'];
+
 // Queue configuration
 export const QUEUE_TIMEOUT_HOURS = 6;
 export const QUEUE_CONCURRENCY = 3;
@@ -61,7 +91,9 @@ export const DEBUG_APP_IDS = {
   exclude: [],   // Always skip these appIds
   // Force rebuild for these (appId, version) pairs even when they already have
   // verifications or a previous build attempt in the database (for re-build testing)
-  forceRebuild: []  // e.g. [{ appId: 'com.example.wallet', version: '1.2.3' }]
+  // Regression alert test (2026-11-17): rebuild Coin Wallet 6.30.0 once so
+  // the alert fires. Remove after the first alert, or it rebuilds every cycle.
+  forceRebuild: [{ appId: 'com.coinspace.app', version: '6.30.0' }]  // e.g. [{ appId: 'com.example.wallet', version: '1.2.3' }]
 };
 
 export function shouldForceRebuild(appId, version) {

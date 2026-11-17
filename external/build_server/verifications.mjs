@@ -32,7 +32,8 @@ import { buildVerificationContent } from '../../src/build-server-report.mjs';
 export { buildVerificationContent };
 import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY, QUEUE_DEBUG_TIMEOUT_MINUTES, QUEUE_STATUS_INTERVAL_MINUTES, BUILD_DIR_PREFIX, shouldForceRebuild } from './config/config.mjs';
 import { open as openZip } from 'yauzl';
-import { findErroredAttemptForBuildScript, findQueuedOrErroredSimilarAttempt, insert as insertVerificationRow, update as updateVerificationRow } from './ddbbUtils.mjs';
+import { findErroredAttemptForBuildScript, initDb, findQueuedOrErroredSimilarAttempt, insert as insertVerificationRow, update as updateVerificationRow } from './ddbbUtils.mjs';
+import { alertIfRegression } from './regression-alert.mjs';
 import {
   getAssetFileEntries,
   pickScriptBinaryEntry,
@@ -1089,6 +1090,16 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
     const verificationEventId = await createVerification(formData);
 
     verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${verdict} ${hashes.join(',')} - verificationEventId: ${verificationEventId}`);
+
+    await alertIfRegression(initDb(), {
+      baseVerification: verification,
+      appId,
+      version: newWalletVersion,
+      platform,
+      verdict,
+      verificationEventId,
+      buildScriptEventId: fileEventIdsForSHFiles?.[0] ?? null
+    });
 
     if (buildDirForThisVerification && fs.existsSync(buildDirForThisVerification) && verdict === 'reproducible') {
       removeDirectoryRecursive(buildDirForThisVerification);

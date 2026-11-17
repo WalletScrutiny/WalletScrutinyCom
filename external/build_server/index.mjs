@@ -22,7 +22,8 @@ import {
   isShutdownRequested
 } from './utils.mjs';
 import { verifyAssetsFromRegistry, processNewReleaseVerification, queue } from './verifications.mjs';
-import { closeDb, markStaleQueuedAttemptsAsInterrupted } from './ddbbUtils.mjs';
+import { closeDb, initDb, markStaleQueuedAttemptsAsInterrupted } from './ddbbUtils.mjs';
+import { retryPendingRegressionAlerts } from './regression-alert.mjs';
 import { createAssetWatcher, createWakeDebounce } from './asset-watch.mjs';
 import {
   shouldProcessAppId,
@@ -38,6 +39,8 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
   appLog.info('------- Starting mainProcess -------');
 
   try {
+    await retryPendingRegressionAlerts(initDb());
+
     const appInfo = await fetchAppInfo();
 
     await connectToNostr(wsBotNostrPrivateKey);
