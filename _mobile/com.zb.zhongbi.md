@@ -1,6 +1,6 @@
 ---
 title: PlantCoin - Earns bitcoin app
-date: 2021-11-11
+date: 2026-10-30
 authors:
 - danny
 website: https://plantcoin.com
@@ -13,11 +13,12 @@ android:
   updated: 2021-03-05
   version: 1.1.4
   reviews: 100
-  icon: com.zb.zhongbi.webp
   meta: removed
   verdict: wip
 
 ---
+
+**Update 2026-10-30:** [plantcoin.com](https://plantcoin.com) now hosts an unrelated "chain intelligence" network, not a bitcoin lending app.
 
 ## App Description
 

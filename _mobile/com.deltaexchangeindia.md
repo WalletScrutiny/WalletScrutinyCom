@@ -1,6 +1,6 @@
 ---
 title: 'Delta Exchange: Crypto Options'
-date: 2025-11-14
+date: 2026-10-30
 authors:
 - danny
 website: https://india.delta.exchange
@@ -15,7 +15,6 @@ android:
   updated: 2026-10-13
   version: 2.31.0
   reviews: 1
-  icon: com.deltaexchangeindia.webp
   meta: ok
   verdict: custodial
   developerName: Delta Exchange India
@@ -27,7 +26,6 @@ iphone:
   updated: 2026-10-14
   version: 2.31.2
   reviews: 23698
-  icon: app.deltaexchange.india.webp
   meta: ok
   verdict: custodial
   developerName: Delta Exchange India

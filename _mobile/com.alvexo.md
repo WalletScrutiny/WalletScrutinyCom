@@ -1,6 +1,6 @@
 ---
 title: Alvexo Online Trading Platform
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: https://www.alvexo.com#deadLink
@@ -18,7 +18,6 @@ android:
   updated: 2023-11-07
   version: 3.0.188
   reviews: 21
-  icon: com.alvexo.webp
   meta: removed
   verdict: nosendreceive
   developerName: Alvexo
@@ -30,12 +29,13 @@ iphone:
   updated: 2023-10-03
   version: 3.3.118
   reviews: 1
-  icon: com.alvexo.mobile.tt.webp
   meta: removed
   verdict: nosendreceive
   developerName: Alvexo
 
 ---
+
+**Update 2026-10-30:** Alvexo looks gone. Its EU operator VPR Safe Financial Group gave up its Cyprus investment firm licence, which CySEC withdrew on 2025-09-29 ([CySEC](https://www.cysec.gov.cy/en-GB/public-info/decisions/100693/), [Finance Magnates](https://www.financemagnates.com/forex/cysec-confirms-license-withdrawal-of-vpr-safe-financial-operator-of-cfd-broker-alvexo/)), and the Alvexo website no longer loads.
 
 ## Android
 

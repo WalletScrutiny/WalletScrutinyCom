@@ -1,6 +1,6 @@
 ---
 title: Cointree - Buy Bitcoin Easily
-date: 2025-03-14
+date: 2026-10-30
 authors:
 - danny
 website: https://www.cointree.com/
@@ -19,7 +19,6 @@ android:
   released: 2022-10-12
   updated: 2024-03-18
   version: 1.2.6
-  icon: com.cointree.mobileapp.webp
   meta: removed
   verdict: custodial
   developerName: Cointree
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-09-09
   version: 2026.0909.1
   reviews: 25
-  icon: com.cointree.mobileapp.webp
   meta: ok
   verdict: custodial
   developerName: Cointree

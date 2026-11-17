@@ -1,6 +1,6 @@
 ---
 title: Mobile Wallet Manager
-date: 2021-10-15
+date: 2026-10-30
 redirect_from:
 - /android/com.tro.zor/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-09-23
   updated: 2021-09-23
   version: 1.0.4
-  icon: com.tro.zor.webp
   meta: removed
   verdict: wip
 

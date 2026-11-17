@@ -1,6 +1,6 @@
 ---
 title: Bity Wallet
-date: 2026-01-01
+date: 2026-10-30
 authors:
 - danny
 website: https://bity.com
@@ -18,7 +18,6 @@ android:
   updated: 2026-02-02
   version: 2.0.1
   reviews: 2
-  icon: com.bity.wallet.production.webp
   meta: removed
   verdict: nosource
   developerName: Bity.com
@@ -30,12 +29,13 @@ iphone:
   updated: 2026-03-05
   version: 2.1.0
   reviews: 32
-  icon: com.bity.wallet.production.webp
   meta: ok
   verdict: nosource
   developerName: Bity SA
 
 ---
+
+**Update 2026-10-30:** Bity is shutting down Bity Wallet. The release notes of the last iPhone version (2.1.0, 5 March 2026) say "The Bity Wallet service is being discontinued" and that the update lets users view their recovery phrase to import it into another wallet. The Android app is no longer in the store.
 
 ## Android
 

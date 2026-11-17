@@ -1,6 +1,6 @@
 ---
 title: 'Muun: Bitcoin Lightning Wallet'
-date: 2021-07-30
+date: 2026-10-30
 authors:
 - leo
 - mohammad
@@ -26,7 +26,6 @@ android:
   updated: 2026-08-28
   version: '55.11'
   reviews: 239
-  icon: io.muun.apollo.webp
   signer: 026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1
   builds:
   - arch: arm64-v8a
@@ -43,7 +42,6 @@ iphone:
   updated: 2026-09-07
   version: 2.16.0
   reviews: 337
-  icon: com.muun.falcon.webp
   meta: ok
   verdict: sourceavailable
   developerName: Muun Wallet, Inc

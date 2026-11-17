@@ -1,6 +1,6 @@
 ---
 title: 'XCOEX: Cryptocurrency Wallet'
-date: 2025-03-17
+date: 2026-10-30
 authors:
 - kiwilamb
 - danny
@@ -18,7 +18,6 @@ android:
   updated: 2024-08-07
   version: 1.44.0
   reviews: 6
-  icon: com.xcoex.mobile.webp
   meta: removed
   verdict: custodial
   developerName: XCOEX
@@ -30,12 +29,13 @@ iphone:
   updated: 2024-08-12
   version: 1.44.0
   reviews: 0
-  icon: com.xcoex.mobile.webp
   meta: removed
   verdict: custodial
   developerName: XCOEX LIMITED
 
 ---
+
+**Update 2026-10-30:** XCOEX no longer serves the public. Since [October 2025](https://web.archive.org/web/20251004220646/https://xcoex.com/) its [website](https://xcoex.com/) says it does not offer services to the public and does not accept registrations from retail, corporate or institutional users.
 
 ## Android
 

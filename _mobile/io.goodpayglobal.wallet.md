@@ -1,6 +1,6 @@
 ---
 title: Good Pay Wallet
-date: 2024-04-03
+date: 2026-10-30
 authors:
 - danny
 website: https://goodpayglobal.io#deadLink
@@ -18,7 +18,6 @@ android:
   released: 2021-04-07
   updated: 2023-09-19
   version: 1.0.23
-  icon: io.goodpayglobal.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Vaisen

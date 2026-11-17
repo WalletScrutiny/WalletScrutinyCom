@@ -13,11 +13,10 @@ provider: Andreas Griffin
 providerWebsite: 
 website: https://bitcoin-safe.org
 repository: https://github.com/andreasgriffin/bitcoin-safe
-icon: bitcoin.safe.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-09-01
+date: 2026-10-30
 twitter: BitcoinSafeOrg
 social:
 - https://www.youtube.com/@BitcoinSafeOrg

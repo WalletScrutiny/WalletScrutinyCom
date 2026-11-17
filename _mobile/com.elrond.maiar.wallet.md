@@ -1,6 +1,6 @@
 ---
 title: 'xPortal: Crypto & DeFi Wallet'
-date: 2023-01-30
+date: 2026-10-30
 authors:
 - danny
 website: https://xportal.com/
@@ -20,7 +20,6 @@ android:
   updated: 2026-10-09
   version: 2.101.18 (3248)
   reviews: 417
-  icon: com.elrond.maiar.wallet.webp
   meta: ok
   verdict: nosource
   developerName: xPortal Labs
@@ -31,8 +30,7 @@ iphone:
   updated: 2026-02-16
   version: 2.92.0
   reviews: 1811
-  icon: com.elrond.maiar.wallet.webp
-  meta: defunct
+  meta: ok
   verdict: nosource
   developerName: MultiversX Labs S.R.L.
 
@@ -76,5 +74,7 @@ As there's no accessible source code, this is **not verifiable.**
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** This app was marked defunct here in 2023 by mistake. It is still in the App Store, now as xPortal by MultiversX Labs, and was updated in October 2026 ([xportal.com/app](https://xportal.com/app)).
 
 The Android analysis above applies to the iPhone app too.

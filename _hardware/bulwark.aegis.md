@@ -17,11 +17,10 @@ shop: https://store.bulwarkcrypto.com#deadLink
 country: US
 price: 
 repository: 
-icon: bulwark.aegis.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-05-17
+date: 2026-10-30
 signer: 
 twitter: BulwarkCrypto
 social:

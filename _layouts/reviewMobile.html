@@ -56,10 +56,11 @@ layout: default
 
     <div class="page__inner-wrap">
       <div class="app-summary-grid">
-        {% if page.android.icon %}
-          <img src="/images/wIcons/android/{{ page.android.icon }}" class="app_logo_big" alt="Wallet Logo">
-        {% elsif page.iphone.icon %}
-          <img src="/images/wIcons/iphone/{{ page.iphone.icon }}" class="app_logo_big" alt="Wallet Logo">
+        {%- comment -%} Icons are named after the store appId, android first; onerror shows noimg.svg where there is none. {%- endcomment -%}
+        {% if page.android.appId %}
+          <img src="/images/wIcons/android/{{ page.android.appId }}.webp" onerror="this.onerror=null;this.src='{{ site.baseurl }}/images/noimg.svg'" class="app_logo_big" alt="Wallet Logo">
+        {% elsif page.iphone.appId %}
+          <img src="/images/wIcons/iphone/{{ page.iphone.appId }}.webp" onerror="this.onerror=null;this.src='{{ site.baseurl }}/images/noimg.svg'" class="app_logo_big" alt="Wallet Logo">
         {% else %}
           <img src="{{ site.baseurl }}/images/noimg.svg" class="app_logo_big" alt="Wallet Logo">
         {% endif %}
@@ -107,11 +108,13 @@ layout: default
                   <div class="mobile-platform-tabs__panel is-active" role="tabpanel" id="mobile-tab-android" aria-labelledby="mobile-tab-btn-android" data-mobile-panel="android">
                     {% include /review/steps/distribution.html platform='android' %}
                     {% include /review/steps/applicationBuild.html platform='android' appId=page.android.appId verdict=page.android.verdict appsTableId='appsTable-android' verificationMessageId='verificationMessage-android' %}
+                    {% include /review/steps/dependencies.html platform='android' appId=page.android.appId %}
                     {% include /review/steps/platformNotes.html platform='android' %}
                   </div>
                   <div class="mobile-platform-tabs__panel" role="tabpanel" id="mobile-tab-iphone" aria-labelledby="mobile-tab-btn-iphone" data-mobile-panel="iphone" hidden>
                     {% include /review/steps/distribution.html platform='iphone' %}
                     {% include /review/steps/applicationBuild.html platform='iphone' appId=page.iphone.appId verdict=page.iphone.verdict appsTableId='appsTable-iphone' verificationMessageId='verificationMessage-iphone' %}
+                    {% include /review/steps/dependencies.html platform='iphone' appId=page.iphone.appId %}
                     {% include /review/steps/platformNotes.html platform='iphone' %}
                   </div>
                 </div>
@@ -121,10 +124,12 @@ layout: default
           {% elsif has_android %}
             {% include /review/steps/distribution.html platform='android' %}
             {% include /review/steps/applicationBuild.html platform='android' appId=page.android.appId verdict=page.android.verdict appsTableId='appsTable-android' verificationMessageId='verificationMessage-android' %}
+            {% include /review/steps/dependencies.html platform='android' appId=page.android.appId %}
             {% include /review/steps/platformNotes.html platform='android' %}
           {% elsif has_iphone %}
             {% include /review/steps/distribution.html platform='iphone' %}
             {% include /review/steps/applicationBuild.html platform='iphone' appId=page.iphone.appId verdict=page.iphone.verdict appsTableId='appsTable-iphone' verificationMessageId='verificationMessage-iphone' %}
+            {% include /review/steps/dependencies.html platform='iphone' appId=page.iphone.appId %}
             {% include /review/steps/platformNotes.html platform='iphone' %}
           {% endif %}
         </div>

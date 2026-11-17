@@ -1,6 +1,6 @@
 ---
 title: 'BITmarkets: Crypto made simple'
-date: 2023-08-09
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitmarkets.com/
@@ -17,7 +17,6 @@ android:
   released: 2022-10-04
   updated: 2026-07-27
   version: 3.9.3
-  icon: com.bitmarkets.android.app.webp
   meta: ok
   verdict: custodial
   developerName: Unicorn Technologies Limited

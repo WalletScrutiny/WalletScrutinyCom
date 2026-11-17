@@ -1,6 +1,6 @@
 ---
 title: BitcoinPoint
-date: 2023-12-19
+date: 2026-10-30
 website: https://www.bitcoinpoint.com/
 redirect_from:
 - /android/com.bitcoinpoint.uk/
@@ -10,7 +10,6 @@ android:
   released: 2022-04-28
   updated: 2023-10-08
   version: 6.4.6
-  icon: com.bitcoinpoint.uk.webp
   meta: removed
   verdict: wip
   developerName: BCP Technologies

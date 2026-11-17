@@ -1,6 +1,6 @@
 ---
 title: BuhoGO
-date: 2026-01-14
+date: 2026-10-30
 redirect_from:
 - /android/mybuho.buhogo/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2025-09-26
   updated: 2026-10-07
   version: 1.10.0
-  icon: mybuho.buhogo.webp
   alternativeStores:
   - zapstore
   meta: fewusers

@@ -1,9 +1,9 @@
 ---
 title: TitanCoin (TTN)
-date: 2023-08-04
+date: 2026-10-30
 authors:
 - danny
-website: https://titanprojects.co
+website: https://titanprojects.co#deadLink
 twitter: ProjectsTitan
 social:
 - https://www.linkedin.com/company/titanprojects
@@ -19,7 +19,6 @@ android:
   updated: 2021-12-22
   version: 2.51.0
   reviews: 6
-  icon: com.titan.coin.webp
   meta: removed
   verdict: custodial
   developerName: TitanProjects
@@ -30,12 +29,13 @@ iphone:
   updated: 2021-12-23
   version: 1.28.0
   reviews: 3
-  icon: com.coin.titan.webp
   meta: removed
   verdict: custodial
   developerName: Enfetter Technologies Services Private Limited
 
 ---
+
+**Update 2026-10-30:** The provider appears to be gone. The Titan Projects website now shows an unrelated gambling site ([archived original](https://web.archive.org/web/20220101121034/https://titanprojects.co/)), and Titan Coin has had no price data since February 2024 ([CoinLore](https://www.coinlore.com/coin/titan-coin)).
 
 ## Android
 
@@ -47,7 +47,7 @@ There is an ICO related to this project.
 
 ## The Site
 
-### [Terms of Use](https://titanprojects.co/terms_of_use)
+### [Terms of Use](https://web.archive.org/web/20220124040430/https://titanprojects.co/terms_of_use)
 
 > **Section 13. Strict Adherence to Country Specific Regulations**
 >

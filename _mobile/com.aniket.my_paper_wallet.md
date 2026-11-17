@@ -1,6 +1,6 @@
 ---
 title: 'My Paper Wallet: Bitcoin Paper'
-date: 2024-04-03
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2020-12-24
   updated: 2020-12-24
   version: 1.0.0
-  icon: com.aniket.my_paper_wallet.webp
   meta: removed
   verdict: sourceavailable
   developerName: Aniket sindhu

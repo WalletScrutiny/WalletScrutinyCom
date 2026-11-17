@@ -1,6 +1,6 @@
 ---
 title: WhiteBIT – buy & sell bitcoin
-date: 2021-09-10
+date: 2026-10-30
 authors:
 - danny
 website: https://whitebit.com/
@@ -21,7 +21,6 @@ android:
   updated: 2026-10-07
   version: 3.85.0
   reviews: 1399
-  icon: com.whitebit.android.webp
   meta: ok
   verdict: custodial
   developerName: WhiteBit
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-10-09
   version: 3.85.0
   reviews: 4267
-  icon: com.whitebit.whitebitapp.webp
   meta: ok
   verdict: custodial
   developerName: UAB Clear White Technologies
@@ -41,6 +39,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The 2 BTC no-KYC limit described below no longer applies: WhiteBIT's [help centre](https://help.whitebit.com/hc/en-gb/articles/14857492129821-Cryptocurrency-withdrawal-on-WhiteBIT) now says users must pass identity verification at the basic level or higher before making any transactions.
 
 This centralized cryptocurrency exchange also has a decentralized exchange. 
 

@@ -1,6 +1,6 @@
 ---
 title: Indodax Crypto Simple & Secure
-date: 2021-05-31
+date: 2026-10-30
 authors:
 - leo
 website: http://indodax.com
@@ -16,18 +16,17 @@ android:
   updated: 2026-10-06
   version: 5.10.3
   reviews: 493
-  icon: id.co.bitcoin.webp
   meta: ok
   verdict: custodial
   developerName: Indodax
 iphone:
   appId: id.co.bitcoin.Bitcoin-Trading-Platform
   idd: 1349104693
+  appCountry: id
   released: 2018-03-29
   updated: 2022-06-29
   version: 3.3.6
   reviews: 8
-  icon: id.co.bitcoin.Bitcoin-Trading-Platform.webp
   meta: removed
   verdict: custodial
 

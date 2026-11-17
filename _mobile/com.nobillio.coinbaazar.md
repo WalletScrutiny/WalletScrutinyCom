@@ -1,9 +1,9 @@
 ---
 title: Coinbaazar- Crypto Marketplace
-date: 2025-11-26
+date: 2026-10-30
 authors:
 - danny
-website: https://coinbaazar.com
+website: https://coinbaazar.com#deadLink
 twitter: coin_baazar
 social:
 - https://www.facebook.com/officialcoinbaazar
@@ -18,7 +18,6 @@ android:
   released: 2020-08-31
   updated: 2023-12-06
   version: 1.3.24
-  icon: com.nobillio.coinbaazar.webp
   meta: obsolete
   verdict: custodial
   developerName: Coinbaazar Exchange Team
@@ -30,12 +29,13 @@ iphone:
   updated: 2023-12-19
   version: 1.2.5.1
   reviews: 9
-  icon: com.coinbaazarDistribution.webp
   meta: obsolete
   verdict: custodial
   developerName: COINBAAZAR LLC
 
 ---
+
+**Update 2026-10-30:** The Coinbaazar website no longer loads, and neither app has been updated since December 2023. The terms links below now point to an [archived copy](https://web.archive.org/web/20251009185127/https://coinbaazar.com/terms).
 
 ## Android
 
@@ -43,7 +43,7 @@ iphone:
 
 It is a cryptocurrency peer-to-peer trading platform with a bitcoin wallet. 
 
-## Wallet Limitations in [Terms of Service](https://coinbaazar.com/terms)
+## Wallet Limitations in [Terms of Service](https://web.archive.org/web/20251009185127/https://coinbaazar.com/terms)
 
 > In specific circumstances your access to get to, go through with bitcoin trades, or start trades utilizing bitcoin held in your wallet might be restricted or limited.
 >
@@ -55,7 +55,7 @@ We were able to see the [send](https://twitter.com/BitcoinWalletz/status/1460167
 
 ## Verdict
 
-Peer-to-peer trading platforms are usually **custodial** due to the nature of the service they provide. As mentioned in their [terms of service](https://coinbaazar.com/terms) restrictions in transactions can be applied if they suspect bad actors. This makes the app **not verifiable**.
+Peer-to-peer trading platforms are usually **custodial** due to the nature of the service they provide. As mentioned in their [terms of service](https://web.archive.org/web/20251009185127/https://coinbaazar.com/terms) restrictions in transactions can be applied if they suspect bad actors. This makes the app **not verifiable**.
 
 ---
 

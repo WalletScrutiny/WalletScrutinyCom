@@ -73,13 +73,17 @@ export function publishExport(exportDir, { target = process.env.SOURCE_ANALYSIS_
 export function publishFiles(exportDir, files, { target = process.env.SOURCE_ANALYSIS_PUBLISH_TARGET, ssh = process.env.SOURCE_ANALYSIS_PUBLISH_SSH, run = spawnSync } = {}) {
   if (!target || !files.length) return { published: false };
   // A directory entry carries its .br files along; a file needs its own.
+  // A path that is not on disk is left out. rsync --files-from exits 23 for
+  // the whole transfer when one link_stat fails.
   const withBrotli = [];
   for (const f of files) {
     const full = path.join(exportDir, f);
-    if (f.endsWith('/')) { if (fs.existsSync(full)) compressTree(full); withBrotli.push(f); }
-    else if (f.endsWith('.json') && fs.existsSync(full)) { compressFile(full); withBrotli.push(f, `${f}.br`); }
+    if (!fs.existsSync(full)) continue;
+    if (f.endsWith('/')) { compressTree(full); withBrotli.push(f); }
+    else if (f.endsWith('.json')) { compressFile(full); withBrotli.push(f, `${f}.br`); }
     else withBrotli.push(f);
   }
+  if (!withBrotli.length) return { published: false };
   const args = ['-rlt', '--compress', '--delay-updates', '--chmod=D755,F644', '--files-from=-',
     ...(ssh ? ['-e', ssh] : []),
     `${path.resolve(exportDir)}/`,
@@ -88,4 +92,46 @@ export function publishFiles(exportDir, files, { target = process.env.SOURCE_ANA
   if (result.error) throw new Error(`rsync: ${result.error.message}`);
   if (result.status !== 0) throw new Error(`rsync exited ${result.status}: ${String(result.stderr || '').trim().split('\n').slice(-3).join(' / ')}`);
   return { published: true, target };
+}
+
+// How far the web host is known to be up to date: the newest mtime among the
+// export's files at the last upload that succeeded, in a file next to the
+// export (not inside it, so it is never published). Only a successful upload
+// moves it, so whatever a failed one left behind is still newer than the
+// marker at the next run, which sends it again (issue 997).
+export const markerPathFor = (exportDir) => `${path.resolve(exportDir)}.published`;
+
+// Null when no upload has been recorded yet.
+export function readMarker(file) {
+  try {
+    const { publishedUpTo } = JSON.parse(fs.readFileSync(file, 'utf8'));
+    return Number.isFinite(publishedUpTo) ? publishedUpTo : null;
+  } catch {
+    return null;
+  }
+}
+
+export function writeMarker(file, publishedUpTo) {
+  const tmp = `${file}.${process.pid}.tmp`;
+  fs.writeFileSync(tmp, `${JSON.stringify({ publishedUpTo, at: new Date().toISOString() })}\n`);
+  fs.renameSync(tmp, file);
+}
+
+// The export's own files, relative to exportDir, with their mtimes. The .br
+// copies are left out: publishing writes them, and publishFiles adds them back.
+export function exportFiles(exportDir, dir = '') {
+  const out = [];
+  for (const entry of fs.readdirSync(path.join(exportDir, dir), { withFileTypes: true })) {
+    const rel = dir ? `${dir}/${entry.name}` : entry.name;
+    if (entry.isDirectory()) out.push(...exportFiles(exportDir, rel));
+    else if (entry.isFile() && !entry.name.endsWith('.br') && !entry.name.endsWith('.tmp')) {
+      out.push({ file: rel, mtimeMs: fs.statSync(path.join(exportDir, rel)).mtimeMs });
+    }
+  }
+  return out;
+}
+
+// The newest mtime in the export, the marker for an upload of all of it.
+export function newestExportFile(exportDir) {
+  return exportFiles(exportDir).reduce((max, f) => Math.max(max, f.mtimeMs), 0);
 }

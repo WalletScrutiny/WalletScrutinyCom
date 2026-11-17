@@ -1,15 +1,14 @@
 ---
 title: icewal
-date: 2025-09-03
+date: 2026-10-30
 authors:
 - danny
-website: https://www.icewal.com/
+website: https://www.icewal.com/#deadLink
 twitter: icewalofficial
 social:
 - https://www.facebook.com/icewalofficial
 - https://www.linkedin.com/company/icecorp
 - https://www.instagram.com/icewalofficial
-- https://www.icewal.com#deadLink
 redirect_from:
 - /android/com.icecorp.wallet/
 - /iphone/com.icecorp.wallet/
@@ -20,7 +19,6 @@ android:
   released: 2022-08-24
   updated: 2025-01-15
   version: '2.8'
-  icon: com.icecorp.wallet.webp
   meta: stale
   verdict: nosource
   developerName: Kentkart International LLP
@@ -32,12 +30,13 @@ iphone:
   updated: 2024-08-27
   version: 3.1.2
   reviews: 1
-  icon: com.icecorp.wallet.webp
   meta: obsolete
   verdict: nosource
   developerName: Ice Corporation
 
 ---
+
+**⚠️ Warning:** icewal appears to be abandoned. Its website and the provider's icecorp.io domain no longer load, the iPhone app is gone from the App Store, and the Android app has not been updated since January 2025. Users who kept their recovery phrase can restore it in another wallet.
 
 ## Android
 

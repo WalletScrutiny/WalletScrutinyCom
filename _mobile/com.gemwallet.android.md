@@ -1,6 +1,6 @@
 ---
 title: 'Gem Wallet: Bitcoin, USDT, BNB'
-date: 2026-07-23
+date: 2026-10-30
 authors:
 - danny
 website: https://gemwallet.com
@@ -29,7 +29,6 @@ android:
   updated: 2026-10-13
   version: 2.114.71
   reviews: 6
-  icon: com.gemwallet.android.webp
   alternativeStores:
   - fdroid
   - zapstore
@@ -45,7 +44,6 @@ iphone:
   updated: 2026-10-13
   version: 2.114.71
   reviews: 360
-  icon: com.gemwallet.ios.webp
   meta: ok
   verdict: sourceavailable
   developerName: Gem Wallet LLC

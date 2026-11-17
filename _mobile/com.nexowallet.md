@@ -1,6 +1,6 @@
 ---
 title: 'Nexo: Crypto Wealth Platform'
-date: 2020-11-17
+date: 2026-10-30
 authors:
 - leo
 website: https://nexo.com
@@ -20,7 +20,6 @@ android:
   updated: 2026-10-14
   version: 9.0.1
   reviews: 1917
-  icon: com.nexowallet.webp
   meta: ok
   verdict: custodial
   developerName: Nexo Capital Incorporated
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-10-14
   version: 9.0.0
   reviews: 1972
-  icon: com.nexobank.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Nexo Capital Inc.
@@ -40,6 +38,13 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The custodian changed. The
+store description no longer mentions BitGo. Nexo says
+[Bakkt powers custody for its US clients](https://nexo.com/blog/is-nexo-legit),
+and in the EEA
+[Tangany holds client crypto-assets](https://crypto.news/nexo-keeps-eu-services-live-with-mica-partners/)
+since July 2026.
 
 {% include review/bitgo.md %}
 

@@ -1,6 +1,6 @@
 ---
 title: Chipper Cash
-date: 2021-09-03
+date: 2026-10-30
 authors:
 - kiwilamb
 - danny
@@ -18,12 +18,13 @@ android:
   updated: 2026-10-01
   version: 1.160.0
   reviews: 3310
-  icon: com.chippercash.webp
   meta: ok
   verdict: custodial
   developerName: Critical Ideas, Inc.
 
 ---
+
+**Update 2026-10-30:** The [support article below](https://support.chippercash.com/en/articles/4750740-how-to-buy-sell-cryptocurrency-on-chipper-cash) no longer contains the quote about external wallets, and now says the crypto feature "is only available for new users in Uganda".
 
 Stated in their sites [support article](https://support.chippercash.com/en/articles/4750740-how-to-buy-sell-cryptocurrency-on-chipper-cash) 
 "Currently it's not possible to send to or receive Bitcoin or Ethereum from external wallets"

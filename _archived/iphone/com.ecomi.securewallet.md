@@ -3,5 +3,21 @@ title: ECOMI Secure Wallet
 appId: com.ecomi.securewallet
 meta: ok
 verdict: nowallet
+archivedFrom: _iphone/com.ecomi.securewallet.md
+archivedCommit: 7e718dd8bbbe95536e93d4ddf951cfa376aff962
 
 ---
+
+ECOMI is the companion app to {% include walletLink.html wallet='hardware/ecomisecurewallet' verdict='true' %}
+
+> No cables or USBs are needed! Wirelessly connect your Secure Wallet and app and easily manage your cryptocurrency and digital assets stored on the Secure Wallet. Using advanced Bluetooth technology with multiple layers of one-way hash functions, using the AES256 encryption standard, your digital assets remain safe in any environment.
+
+
+Users can manage the {% include walletLink.html wallet='hardware/ecomisecurewallet' %}'s funds from the app.
+
+> DON’T HAVE A SECURE WALLET?
+> This app is designed to work with the Secure Wallet Hardware device. If you do not yet have one, hop over to https://securewallet.shop and get one. 
+
+[This video](https://www.youtube.com/watch?v=qrPMcet8Tl0) briefly demonstrates making a transaction. The app sends some crypto and then the wallet confirms the transaction. 
+
+This app depends on the hardware wallet to confirm transactions. The providers claim the private keys do not leave the hardware device. This means that the app **does not qualify as a wallet.**

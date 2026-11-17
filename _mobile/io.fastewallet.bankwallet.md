@@ -1,6 +1,6 @@
 ---
 title: FastE Wallet
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: http://crypto.fastewallet.com#deadLink
@@ -16,7 +16,6 @@ android:
   released: 2022-08-31
   updated: 2023-01-18
   version: 0.26.4
-  icon: io.fastewallet.bankwallet.webp
   meta: removed
   verdict: nosource
   developerName: Blocktech Brew
@@ -28,7 +27,6 @@ iphone:
   updated: 2024-01-18
   version: '1.4'
   reviews: 0
-  icon: com.wallet.faste.webp
   meta: obsolete
   verdict: nosource
   developerName: Code Brew Labs

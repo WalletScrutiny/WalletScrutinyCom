@@ -1,6 +1,6 @@
 ---
 title: 'CoinEx: Buy Bitcoin & Crypto'
-date: 2020-04-15
+date: 2026-10-30
 authors:
 - leo
 website: https://www.coinex.com/
@@ -21,7 +21,6 @@ android:
   updated: 2026-08-14
   version: 4.19.0
   reviews: 879
-  icon: com.coinex.trade.play.webp
   meta: ok
   verdict: custodial
   developerName: ViaBTC
@@ -32,11 +31,12 @@ iphone:
   updated: 2022-01-01
   version: 3.5.0
   reviews: 2032
-  icon: com.viabtc.trader.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** CoinEx is closing. Spot trading ended on 2026-09-29, and [withdrawals close for good on 2026-12-22](https://decrypt.co/378324/coinex-shutting-down). Withdraw any funds before then.
 
 ## Android
 
@@ -51,6 +51,9 @@ custodial and thus **not verifiable**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** CoinEx now publishes its exchange on iPhone as a new app,
+{% include walletLink.html wallet='iphone/com.coinex.trade' verdict='true' %}.
 
 **Update 2022-01-13**: This app is not available anymore.
 

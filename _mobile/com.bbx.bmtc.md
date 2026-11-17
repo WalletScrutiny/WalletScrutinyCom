@@ -1,6 +1,6 @@
 ---
 title: BBX-Cryptocurrency Index Trading (Bitcoin,ETH,EOS)
-date: 2021-10-22
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bbx.com/
@@ -15,7 +15,6 @@ android:
   updated: 2021-05-26
   version: 1.3.1
   reviews: 63
-  icon: com.bbx.bmtc.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -24,13 +23,14 @@ iphone:
   released: 2020-12-01
   updated: 2021-05-27
   version: 1.3.1
-  icon: com.bbx.bbx.webp
   meta: removed
   verdict: custodial
 
 ---
 
 ## Android
+
+**Update 2026-10-30:** The domain [bbx.com](https://bbx.com/) now shows an unrelated stablecoin-funded stock and crypto trading platform.
 
 **Update 2021-10-26**: This app is no more.
 

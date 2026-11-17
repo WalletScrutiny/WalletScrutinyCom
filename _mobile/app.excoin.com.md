@@ -1,6 +1,6 @@
 ---
 title: 'Rocket: Mobile Trade App'
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: https://m.excoin.cloud#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2022-03-20
   updated: 2022-09-16
   version: 1.1.2
-  icon: app.excoin.com.webp
   meta: removed
   verdict: nosendreceive
   developerName: betcoin

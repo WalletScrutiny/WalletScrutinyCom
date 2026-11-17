@@ -1,6 +1,6 @@
 ---
 title: CoinPlug - Swap Crypto to Cash
-date: 2025-08-29
+date: 2026-11-01
 authors:
 - danny
 website: https://coinplug.ng
@@ -18,9 +18,8 @@ android:
   updated: 2025-07-07
   version: 2.1.1
   reviews: 5
-  icon: app.coinplug.webp
   meta: stale
-  verdict: nosendreceive
+  verdict: nobtc
   developerName: CoinPlug Digitals LTD
 iphone:
   appId: app.coinplug.ng
@@ -30,12 +29,12 @@ iphone:
   updated: 2025-07-09
   version: 2.1.1
   reviews: 14
-  icon: app.coinplug.ng.webp
   meta: stale
-  verdict: nosendreceive
+  verdict: nobtc
   developerName: COINPLUG LTD
 
 ---
+**Update 2026-11-01:** CoinPlug credits bitcoin you deposit to your account as fiat, which you then ask to have paid out to a Nigerian bank. It holds your money, but not as bitcoin, and you can't take bitcoin back out. That makes it {% include verdictBadge.html verdict="nobtc" type='short' %}, the verdict we give off-ramps that keep a fiat balance.
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: 'Rain: Buy & Sell Bitcoin'
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - danny
 website: https://rain.com
@@ -20,7 +20,6 @@ android:
   updated: 2026-09-15
   version: 3.18.0
   reviews: 3357
-  icon: com.rainmanagement.rain.webp
   meta: ok
   verdict: custodial
   developerName: Rain Trading
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-09-17
   version: 3.18.0
   reviews: 2957
-  icon: com.rainmanagement.rain.webp
   meta: ok
   verdict: custodial
   developerName: Rain Management

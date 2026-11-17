@@ -1,6 +1,6 @@
 ---
 title: 'BingX: Buy Crypto & Stocks'
-date: 2024-10-07
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
@@ -21,7 +21,6 @@ android:
   updated: 2026-05-19
   version: 4.84.0
   reviews: 1410
-  icon: pro.bingbon.app.webp
   meta: removed
   verdict: custodial
   developerName: BINGX GROUP LIMITED
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-10-14
   version: 5.4.0
   reviews: 3130
-  icon: pro.bingbon.finance.webp
   meta: ok
   verdict: custodial
   developerName: BingX Group Limited

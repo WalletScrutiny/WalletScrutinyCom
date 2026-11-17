@@ -1,6 +1,6 @@
 ---
 title: TechBank Dwallet
-date: 2026-02-02
+date: 2026-10-30
 authors:
 - danny
 website: https://techbank.finance/
@@ -15,7 +15,6 @@ android:
   updated: 2025-12-12
   version: 2.0.7
   reviews: 12
-  icon: com.techbank_dwallet.webp
   meta: removed
   verdict: custodial
   developerName: Techbank
@@ -27,7 +26,6 @@ iphone:
   updated: 2026-06-02
   version: 1.0.88
   reviews: 3
-  icon: com.techbank.dwallettb.webp
   meta: ok
   verdict: custodial
   developerName: BEE INTERNATIONAL CONSULTANCY PRIVATE LIMITED

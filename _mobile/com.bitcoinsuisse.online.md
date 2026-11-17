@@ -1,6 +1,6 @@
 ---
 title: 'Bitcoin Suisse: Crypto Natives'
-date: 2021-11-22
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitcoinsuisse.com
@@ -22,7 +22,6 @@ android:
   released: 2021-09-21
   updated: 2026-10-08
   version: 3.4.1
-  icon: com.bitcoinsuisse.online.webp
   meta: ok
   verdict: custodial
   developerName: Bitcoin Suisse AG
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-10-09
   version: 3.4.1
   reviews: 0
-  icon: com.bitcoinsuisse.online.webp
   meta: ok
   verdict: custodial
   developerName: Bitcoin Suisse
@@ -55,7 +53,7 @@ Supported cryptocurrencies include BTC, ETH, LINK, BCH, BSV, and [more](https://
 
 Withdrawals are discussed [here](https://support.bitcoinsuisse.com/hc/en-us/articles/360007023160-How-do-I-add-an-external-crypto-address-for-withdrawals-#deadLink).
 
-## [Custody Provision in General Terms and Conditions](https://files.bitcoinsuisse.com/assets/pdf/20211001_GTC.pdf)
+## [Custody Provision in General Terms and Conditions](https://web.archive.org/web/20211025132632/https://files.bitcoinsuisse.com/assets/pdf/20211001_GTC.pdf)
 
 > **Section 8.2** BTCS has the right to decide, in its sole discretion, if Digital Assets are stored in separate custody or collective custody. In the BTCS Online Tools, the Client can download a statement that shows the assets that are covered by the bank guarantee.
 

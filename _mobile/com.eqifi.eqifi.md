@@ -1,6 +1,6 @@
 ---
 title: EQIFi | Hold & Transfer Crypto
-date: 2025-07-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.eqifi.com/
@@ -20,7 +20,6 @@ android:
   released: 2022-04-03
   updated: 2025-05-28
   version: 1.7.4
-  icon: com.eqifi.eqifi.webp
   meta: stale
   verdict: custodial
   developerName: EQIFi
@@ -32,7 +31,6 @@ iphone:
   updated: 2023-05-05
   version: 1.7.3
   reviews: 0
-  icon: com.eqifi.management.Eqifi.webp
   meta: removed
   verdict: custodial
   developerName: EQIFi Management Limited

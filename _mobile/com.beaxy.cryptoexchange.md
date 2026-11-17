@@ -1,6 +1,6 @@
 ---
 title: Beaxy Exchange
-date: 2023-05-10
+date: 2026-10-30
 authors:
 - danny
 website: https://www.beaxy.com/
@@ -19,7 +19,6 @@ android:
   updated: 2021-12-29
   version: '2.10'
   reviews: 26
-  icon: com.beaxy.cryptoexchange.webp
   meta: removed
   verdict: custodial
   developerName: Beaxy
@@ -30,12 +29,13 @@ iphone:
   updated: 2021-12-29
   version: '2.10'
   reviews: 74
-  icon: com.beaxy.cryptoexchange.webp
   meta: removed
   verdict: custodial
   developerName: Beaxy
 
 ---
+
+**⚠️ Warning:** Beaxy halted trading and shut down on 2023-03-28 and asked users to withdraw their assets ([Beaxy](https://web.archive.org/web/20240805151409/https://www.beaxy.com/blog/suspension-of-services-on-beaxy-exchange/)). A day later the SEC charged the exchange and its founder ([CryptoSlate](https://cryptoslate.com/sec-charges-forces-crypto-exchange-beaxy-to-close-operations/)).
 
 ## Android
 

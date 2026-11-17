@@ -1,9 +1,9 @@
 ---
 title: 'Coindhan: Buy Bitcoin & Crypto'
-date: 2024-10-03
+date: 2026-10-30
 authors:
 - danny
-website: https://www.coindhan.com
+website: https://web.archive.org/web/20250619100819/https://www.coindhan.com/
 twitter: coin_dhan
 social:
 - https://www.facebook.com/CoinDhanOfficial/
@@ -21,7 +21,6 @@ android:
   released: 2021-09-05
   updated: 2024-04-07
   version: '1.0'
-  icon: www.coindhan.com.webp
   meta: removed
   verdict: custodial
   developerName: Wollfish Labs Private Limited
@@ -33,12 +32,13 @@ iphone:
   updated: 2024-05-16
   version: '1.33'
   reviews: 20
-  icon: www.coindhan.com.webp
   meta: removed
   verdict: custodial
   developerName: Wollfish Labs Private Limited
 
 ---
+
+**Update 2026-10-30:** CoinDhan appears to be gone. Its website no longer loads (the [last archived copy](https://web.archive.org/web/20250619100819/https://www.coindhan.com/) is from June 2025), and its [Telegram channel](https://t.me/s/coindhan) has been silent since May 2024.
 
 ## Android
 
@@ -46,7 +46,7 @@ iphone:
 
 > Application to facilitate buying, selling and trading of cryptocurrency on coin dhan platform. 
 
-## [Terms and Conditions](https://www.coindhan.com/legal/terms-conditions)
+## [Terms and Conditions](https://web.archive.org/web/20240901092859/https://www.coindhan.com/legal/terms-conditions)
 
 > 6.2.5 You remain the owner of the Digital Assets held by you in your Digital Asset Wallet at all times, whether the Digital Assets are deposited by you, purchased by you through the Services, or otherwise. We act as the custodian of your Digital Assets, which are held by us in trust for you. As such custodian, we act on your instructions to execute trades and transfers of such Digital Assets on your behalf. The Digital Assets in your Digital Asset Wallet may be pooled with other users’ Digital Assets, without prejudice to your ownership of the Digital Assets held in your Digital Asset
 Wallet.

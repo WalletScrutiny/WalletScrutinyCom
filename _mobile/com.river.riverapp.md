@@ -1,6 +1,6 @@
 ---
 title: 'River: Buy Bitcoin'
-date: 2023-12-15
+date: 2026-10-30
 authors:
 - danny
 website: https://river.com/
@@ -21,7 +21,6 @@ android:
   updated: 2026-10-12
   version: 7.403.1
   reviews: 328
-  icon: com.river.riverapp.webp
   meta: ok
   verdict: custodial
   developerName: River Financial
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-10-13
   version: 7.403.1
   reviews: 8957
-  icon: com.river.riverapp.webp
   meta: ok
   verdict: custodial
   developerName: River Financial Inc.

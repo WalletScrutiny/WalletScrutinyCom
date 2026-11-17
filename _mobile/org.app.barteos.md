@@ -1,6 +1,6 @@
 ---
 title: Barteos
-date: 2026-05-21
+date: 2026-10-30
 website: https://barteos.org
 redirect_from:
 - /android/org.app.barteos/
@@ -11,7 +11,6 @@ android:
   released: 2021-04-30
   updated: 2024-08-16
   version: 1.0.16
-  icon: org.app.barteos.webp
   meta: obsolete
   verdict: wip
   developerName: BTE AUSTRALIA

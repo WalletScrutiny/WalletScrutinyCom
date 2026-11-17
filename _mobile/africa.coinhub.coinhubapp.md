@@ -1,6 +1,6 @@
 ---
 title: Coinhub
-date: 2026-02-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.coinhub.africa#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2021-11-21
   updated: 2022-01-25
   version: '1.3'
-  icon: africa.coinhub.coinhubapp.webp
   meta: removed
   verdict: wip
   developerName: Coinhub Africa Developer

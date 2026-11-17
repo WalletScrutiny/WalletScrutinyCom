@@ -1,6 +1,6 @@
 ---
 title: 'AMarkets: Finance & Trading'
-date: 2021-10-13
+date: 2026-10-30
 authors:
 - danny
 website: https://www.amarkets.com
@@ -19,25 +19,26 @@ android:
   updated: 2026-10-06
   version: 2.1.150
   reviews: 232
-  icon: com.amarkets.webp
   meta: ok
   verdict: nosendreceive
   developerName: AMarkets LLC
 iphone:
   appId: amarkets.app
   idd: '1495820700'
+  appCountry: us
   released: 2020-02-12
   updated: 2026-05-25
   version: 1.4.174
   reviews: 3042
-  icon: amarkets.app.webp
-  meta: defunct
+  meta: ok
   verdict: nosendreceive
   developerName: AMarkets Ltd.
 
 ---
 
 ## Android
+
+**Update 2026-10-30:** The iPhone app was marked defunct, but it is listed on the US App Store with an October 2026 update, so that mark is removed.
 
 ## App Description
 

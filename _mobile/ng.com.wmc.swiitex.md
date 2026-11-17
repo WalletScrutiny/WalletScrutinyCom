@@ -1,6 +1,6 @@
 ---
 title: Swiitex
-date: 2024-04-03
+date: 2026-10-30
 website: https://web.archive.org/web/20250710015234/http://swiitex.com/
 redirect_from:
 - /android/ng.com.wmc.swiitex/
@@ -10,7 +10,6 @@ android:
   released: 2021-10-26
   updated: 2023-01-04
   version: 2.0.0
-  icon: ng.com.wmc.swiitex.webp
   meta: removed
   verdict: wip
   developerName: Sweetwave Ltd

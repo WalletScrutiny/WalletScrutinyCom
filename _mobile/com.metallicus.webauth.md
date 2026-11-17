@@ -1,6 +1,6 @@
 ---
 title: WebAuth
-date: 2023-07-06
+date: 2026-10-30
 authors:
 - danny
 website: https://webauth.com/
@@ -21,7 +21,6 @@ android:
   updated: 2026-09-15
   version: 2.1.66
   reviews: 94
-  icon: com.metallicus.webauth.webp
   meta: ok
   verdict: nosource
   developerName: Metallicus Inc.
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-09-16
   version: 2.1.66
   reviews: 221
-  icon: com.metallicus.webauth.webp
   meta: ok
   verdict: nosource
   developerName: Metallicus, Inc.

@@ -4,7 +4,7 @@ appId: keyream.vaultsquare
 authors:
 - danny
 released: 2019-01-02
-discontinued: 
+discontinued: 2023-03-10
 updated: 
 version: 
 binaries: 
@@ -17,11 +17,10 @@ shop: https://www.facebook.com/commerce/products/vaultsquare---carbon-black/1875
 country: US
 price: 19 USD
 repository: 
-icon: keyream.vaultsquare.webp
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: wip
-date: 2023-03-10
+date: 2026-10-30
 signer: 
 twitter: 
 social:

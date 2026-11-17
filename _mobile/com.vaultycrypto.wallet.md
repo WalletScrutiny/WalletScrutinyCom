@@ -1,7 +1,7 @@
 ---
 title: Vaulty Wallet for you
-date: 2024-09-16
-website: http://www.vaulty.pro
+date: 2026-10-30
+website: http://www.vaulty.pro#deadLink
 redirect_from:
 - /android/com.vaultycrypto.wallet/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2022-08-10
   updated: 2022-08-10
   version: '1.2'
-  icon: com.vaultycrypto.wallet.webp
   meta: removed
   verdict: wip
   developerName: CoinArmy

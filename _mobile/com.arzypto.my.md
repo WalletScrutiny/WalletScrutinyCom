@@ -1,6 +1,6 @@
 ---
 title: Arzypto
-date: 2025-03-11
+date: 2026-10-30
 authors:
 - danny
 website: https://arzypto.com
@@ -16,7 +16,6 @@ android:
   updated: 2025-01-11
   version: 2.4.8
   reviews: 6
-  icon: com.arzypto.my.webp
   meta: removed
   verdict: custodial
   developerName: Arzypto

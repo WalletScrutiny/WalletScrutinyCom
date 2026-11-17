@@ -1,9 +1,9 @@
 ---
 title: 'Hawex: Crypto Wallet & Cards'
-date: 2024-10-23
+date: 2026-10-30
 authors:
 - danny
-website: http://hawexdao.com
+website: http://hawexdao.com#deadLink
 twitter: hawexdao
 social:
 - https://t.me/hawex
@@ -17,7 +17,6 @@ android:
   released: 2023-06-06
   updated: 2024-05-06
   version: '2.1'
-  icon: com.hawex.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Hawex Investment LLC
@@ -29,12 +28,13 @@ iphone:
   updated: 2024-05-14
   version: 2.1 (18)
   reviews: 0
-  icon: com.hawex.cryptowallet.webp
   meta: removed
   verdict: nosource
   developerName: HAWEX INVESTMENT L.L.C
 
 ---
+
+**Update 2026-10-30:** Hawex appears to be gone. hawexdao.com no longer loads, hawex.com now shows an unrelated gambling site, and the [Telegram channel](https://t.me/s/hawex) has been silent since December 2024.
 
 ## Android
 

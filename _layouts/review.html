@@ -7,11 +7,8 @@ layout: default
   the page lives in; mobile pages have their own layout (reviewMobile.html).
 {%- endcomment -%}
 {%- assign platform = page.collection -%}
-{%- if page.icon -%}
-  {%- assign icon = site.baseurl | append: '/images/wIcons/' | append: platform | append: '/' | append: page.icon -%}
-{%- else -%}
-  {%- assign icon = site.baseurl | append: '/images/noimg.svg' -%}
-{%- endif -%}
+{%- comment -%} Icons are named after the listing; the img's onerror shows noimg.svg where there is none. {%- endcomment -%}
+{%- assign icon = site.baseurl | append: '/images/wIcons/' | append: platform | append: '/' | append: page.appId | append: '.webp' -%}
 {%- comment -%} Bearer pages carry the release date as `released`, the others as `date`. {%- endcomment -%}
 {%- assign published = page.date -%}
 {%- if platform == 'bearer' -%}{%- assign published = page.released -%}{%- endif -%}
@@ -32,7 +29,7 @@ layout: default
 
     <div class="page__inner-wrap">
       <div class="app-summary-grid">
-        <img src="{{ icon }}" class="app_logo_big" alt="Wallet Logo">
+        <img src="{{ icon }}" onerror="this.onerror=null;this.src='{{ site.baseurl }}/images/noimg.svg'" class="app_logo_big" alt="Wallet Logo">
         <div class="app-sum-head">
 
           <h1 class="page__title -va-c" itemprop="headline">

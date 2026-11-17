@@ -1,6 +1,6 @@
 ---
 title: Buy Or Sell Crypto
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/buy.or.sell.crypto/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-16
   updated: 2021-06-16
   version: '1.0'
-  icon: buy.or.sell.crypto.webp
   meta: removed
   verdict: wip
 

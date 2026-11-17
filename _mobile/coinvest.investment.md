@@ -1,6 +1,6 @@
 ---
 title: COINVEST INVESTMENTS
-date: 2023-05-09
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2020-12-12
   updated: 2020-12-18
   version: '9.8'
-  icon: coinvest.investment.webp
   meta: removed
   verdict: wip
   developerName: MTB SMARTNET

@@ -1,6 +1,6 @@
 ---
 title: Bitamp Bitcoin Wallet
-date: 2024-04-19
+date: 2026-10-30
 website: https://www.bitamp.com
 redirect_from:
 - /android/com.bitamp.mobile/
@@ -11,7 +11,6 @@ android:
   updated: 2021-04-27
   version: '2.0'
   reviews: 13
-  icon: com.bitamp.mobile.webp
   meta: removed
   verdict: wip
   developerName: bitampdev

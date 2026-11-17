@@ -1,6 +1,6 @@
 ---
 title: Invest Bitcoin Mining
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/net.cryptowallets.invest.bitcoin.mining/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-27
   updated: 2021-06-28
   version: '1.0'
-  icon: net.cryptowallets.invest.bitcoin.mining.webp
   meta: removed
   verdict: wip
 

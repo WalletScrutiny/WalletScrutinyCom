@@ -1,6 +1,6 @@
 ---
 title: Buy Sell Trade Crypto
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/buy.sell.trade.crypto1/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-16
   updated: 2021-06-17
   version: '1.0'
-  icon: buy.sell.trade.crypto1.webp
   meta: removed
   verdict: wip
 

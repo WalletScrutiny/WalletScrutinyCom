@@ -1,6 +1,6 @@
 ---
 title: KoinKoin Exchange
-date: 2024-01-18
+date: 2026-10-30
 authors:
 - danny
 website: https://koinkoin.io/
@@ -21,7 +21,6 @@ android:
   released: 2021-02-22
   updated: 2025-01-31
   version: 6.2.5
-  icon: com.koinkoin.webp
   meta: removed
   verdict: custodial
   developerName: KoinKoin Development Enterprise
@@ -33,7 +32,6 @@ iphone:
   updated: 2025-09-04
   version: 2.4.1
   reviews: 1
-  icon: com.koinkoin.app.webp
   meta: removed
   verdict: custodial
   developerName: KoinKoin Ltd

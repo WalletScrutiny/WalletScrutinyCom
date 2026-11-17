@@ -1,6 +1,6 @@
 ---
 title: Bitcoin InstaForex
-date: 2023-05-10
+date: 2026-10-30
 authors:
 - danny
 website: http://www.instaforex.com
@@ -12,7 +12,6 @@ android:
   released: 2016-12-15
   updated: 2020-08-26
   version: 0.12.3
-  icon: com.instaforex.bitcoin.webp
   meta: removed
   verdict: wip
   developerName: Instaforex

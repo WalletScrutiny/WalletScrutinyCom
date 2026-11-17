@@ -1,6 +1,6 @@
 ---
 title: Blockchains.My
-date: 2022-01-15
+date: 2026-10-30
 redirect_from:
 - /android/blockchains.my/
 android:
@@ -10,7 +10,6 @@ android:
   updated: 2019-01-07
   version: 1.0.0.18
   reviews: 268
-  icon: blockchains.my.webp
   meta: removed
   verdict: wip
 

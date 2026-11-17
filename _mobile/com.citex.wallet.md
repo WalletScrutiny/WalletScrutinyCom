@@ -1,6 +1,6 @@
 ---
 title: Ciwa - CITEX Wallet
-date: 2023-08-25
+date: 2026-10-30
 redirect_from:
 - /android/com.citex.wallet/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2019-11-09
   updated: 2020-02-08
   version: '1.3'
-  icon: com.citex.wallet.webp
   meta: removed
   verdict: wip
   developerName: CITEX Platform

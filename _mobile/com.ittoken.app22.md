@@ -1,10 +1,9 @@
 ---
 title: iiToken
-date: 2023-08-07
+date: 2026-10-30
 authors:
 - danny
-social:
-- https://im-token.farm#deadLink
+website: https://im-token.farm#deadLink
 redirect_from:
 - /android/com.ittoken.app22/
 android:
@@ -13,7 +12,6 @@ android:
   released: 2022-05-09
   updated: 2022-05-09
   version: '1.0'
-  icon: com.ittoken.app22.webp
   meta: removed
   verdict: wip
   developerName: ii token

@@ -1,6 +1,6 @@
 ---
 title: ABC Wallet - Safe Web3 wallet
-date: 2025-12-27
+date: 2026-10-30
 authors:
 - danny
 website: https://myabcwallet.io
@@ -18,7 +18,6 @@ android:
   released: 2022-12-22
   updated: 2026-08-13
   version: 2.11.0
-  icon: io.myabcwallet.mpc.webp
   meta: ok
   verdict: custodial
   developerName: AhnLab Blockchain Company, INC.
@@ -30,7 +29,6 @@ iphone:
   updated: 2026-03-28
   version: 2.9.8
   reviews: 1
-  icon: io.myabcwallet.mpc.webp
   meta: ok
   verdict: custodial
   developerName: AhnLab Blockchain Company, INC.

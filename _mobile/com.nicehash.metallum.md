@@ -1,6 +1,6 @@
 ---
 title: NiceHash
-date: 2022-06-24
+date: 2026-10-30
 authors:
 - danny
 website: https://www.nicehash.com/my/
@@ -23,7 +23,6 @@ android:
   updated: 2026-10-08
   version: 5.3.2
   reviews: 685
-  icon: com.nicehash.metallum.webp
   meta: ok
   verdict: custodial
   developerName: NiceHash AG
@@ -35,7 +34,6 @@ iphone:
   updated: 2026-10-07
   version: 7.2.1
   reviews: 4573
-  icon: com.nicehash.mobile.webp
   meta: ok
   verdict: custodial
   developerName: NiceHash AG

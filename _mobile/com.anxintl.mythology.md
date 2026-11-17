@@ -1,9 +1,9 @@
 ---
 title: DICE Wallet
-date: 2023-08-07
+date: 2026-10-30
 authors:
 - danny
-website: https://www.mydicewallet.com
+website: https://www.mydicewallet.com#deadLink
 redirect_from:
 - /android/com.anxintl.mythology/
 android:
@@ -12,7 +12,6 @@ android:
   released: 2016-04-18
   updated: 2016-10-29
   version: 1.3.3
-  icon: com.anxintl.mythology.webp
   meta: removed
   verdict: wip
   developerName: HASHIYADA TAKUYA

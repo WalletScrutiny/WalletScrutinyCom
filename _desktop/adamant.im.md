@@ -12,11 +12,10 @@ provider: Adamant
 providerWebsite: 
 website: https://adamant.im/
 repository: https://github.com/Adamant-im/adamant-im
-icon: adamant.im.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-08-02
+date: 2026-10-30
 twitter: adamant_im
 social: 
 builds:

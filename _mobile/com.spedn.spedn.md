@@ -1,6 +1,6 @@
 ---
 title: SPEDN by Flexa
-date: 2025-11-26
+date: 2026-10-30
 authors:
 - danny
 website: https://spedn.io
@@ -18,8 +18,7 @@ android:
   updated: 2026-02-26
   version: 25.0.0
   reviews: 118
-  icon: com.spedn.spedn.webp
-  meta: ok
+  meta: defunct
   verdict: nosendreceive
   developerName: Flexa
 iphone:
@@ -30,12 +29,13 @@ iphone:
   updated: 2023-11-22
   version: 23.11.1
   reviews: 108
-  icon: com.spedn.spedn.webp
   meta: removed
   verdict: nosendreceive
   developerName: Flexa Inc.
 
 ---
+
+**⚠️ Warning:** SPEDN has shut down. Flexa's [closure notice](https://spedn.io/) says the app was shut down on March 31, 2026; unspent balances were moved to users' Flexa accounts, from where they can be withdrawn to another wallet. The iPhone app is gone from the App Store.
 
 ## Android
 
@@ -47,13 +47,13 @@ iphone:
 
 ## Information from Site 
 
-### [Custody](https://help.flexa.network/en/articles/3142920-how-are-my-spedn-wallet-deposits-insured?q=withdraw+bitcoin) provided by Gemini
+### [Custody](https://web.archive.org/web/20240722010804/https://help.flexa.network/en/articles/3142920-how-are-my-spedn-wallet-deposits-insured) provided by Gemini
 
 > All cryptocurrency assets stored in your SPEDN wallet are securely custodied in trust by Gemini Trust Company, who maintains commercial crime insurance in an aggregate amount that is greater than the value of digital assets they store.
 >
 > Gemini's policy insures against theft of digital assets as a result of a security breach, hack, fraudulent transfer, or employee theft. However, it does not cover any losses resulting from unauthorized access to your Flexa account.
 
-### Withdrawal of cryptocurrencies [not allowed](https://help.flexa.network/en/articles/3044427-can-i-withdraw-my-cryptocurrency-balance-from-spedn)
+### Withdrawal of cryptocurrencies [not allowed](https://web.archive.org/web/20240807050051/https://help.flexa.network/en/articles/3044427-can-i-withdraw-my-cryptocurrency-balance-from-spedn)
 
 > At this time, we have not yet received approval to enable direct withdrawals from the SPEDN wallet, and therefore, we strongly recommend that you only deposit as much cryptocurrency as you are willing to spend.
 

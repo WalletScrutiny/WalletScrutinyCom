@@ -1,9 +1,9 @@
 ---
 title: BitLeague
-date: 2024-05-07
+date: 2026-10-30
 authors:
 - danny
-website: https://www.bitleague.com
+website: https://www.bitleague.com#deadLink
 twitter: BitLeague_Group
 social:
 - https://www.linkedin.com/company/bitleaguegroup
@@ -19,7 +19,6 @@ android:
   updated: 2021-05-14
   version: 2.15.2
   reviews: 132
-  icon: com.bitleague.webp
   meta: removed
   verdict: custodial
   developerName: BITLEAGUE LLC
@@ -30,12 +29,13 @@ iphone:
   updated: 2021-05-14
   version: '2.15'
   reviews: 23
-  icon: com.bit.leagues.webp
   meta: removed
   verdict: custodial
   developerName: BITLEAGUE LLC
 
 ---
+
+**Update 2026-10-30:** BitLeague looks gone. Its website and help center no longer load; the last [archived copy of the website](https://web.archive.org/web/20250627045916/https://www.bitleague.com/) is from June 2025.
 
 ## Android
 
@@ -47,7 +47,7 @@ iphone:
 
 ### Terms
 
-BitLeague has the power to suspend or lock the user's funds as seen in their [Terms of Service](https://www.bitleague.com/secure/service)
+BitLeague has the power to suspend or lock the user's funds as seen in their [Terms of Service](https://web.archive.org/web/20231207044722/https://www.bitleague.com/secure/service)
 
 > Section 2.15 You agree and acknowledge that Bitleague has the right at any moment to suspend your account and any account for which you are a representative or authorized signatory, etc. You also **agree that Bitleague can freeze/lock the funds and assets in all such accounts, and suspend your access to the Site** until a decision has been made, if we suspect, in our sole discretion, any such accounts to be in violation of:
 

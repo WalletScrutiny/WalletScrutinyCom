@@ -1,6 +1,6 @@
 ---
 title: 'CoinZoom Pro: Buy, Sell Crypto'
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
@@ -19,7 +19,6 @@ android:
   updated: 2024-02-14
   version: 1.5.69
   reviews: 418
-  icon: com.czprime.webp
   meta: removed
   verdict: custodial
   developerName: CoinZoom
@@ -30,7 +29,6 @@ iphone:
   updated: 2023-06-23
   version: 1.2.0
   reviews: 163
-  icon: com.ios.coinzoom.webp
   meta: removed
   verdict: custodial
   developerName: CoinZoom
@@ -61,7 +59,7 @@ Both have the same basic functions, but the Pro version has more features:
 |Limit orders| |**X**|
 |Stop orders| |**X**|
 
-To find out more, visit CoinZoom's [Support Page](https://support.coinzoom.com/support/solutions/articles/43000664330-coinzoom-app-compared-with-coinzoom-pro)
+To find out more, visit CoinZoom's [Support Page](https://web.archive.org/web/20230325205724/https://support.coinzoom.com/support/solutions/articles/43000664330-coinzoom-app-compared-with-coinzoom-pro)
 
 The CoinZoom [support FAQ](https://www.coinzoom.com/support/) states the wallet is custodial... 
 Found under "Where can I find the private keys for my wallet?"

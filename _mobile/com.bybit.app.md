@@ -1,6 +1,6 @@
 ---
 title: 'Bybit: New Financial Platform'
-date: 2021-02-09
+date: 2026-10-30
 authors:
 - leo
 website: https://www.bybit.com
@@ -23,7 +23,6 @@ android:
   updated: 2026-10-08
   version: 5.26.5
   reviews: 7262
-  icon: com.bybit.app.webp
   meta: ok
   verdict: custodial
   developerName: Bybit
@@ -35,7 +34,6 @@ iphone:
   updated: 2026-10-09
   version: 5.26.5
   reviews: 46911
-  icon: com.bybit.app.webp
   meta: ok
   verdict: custodial
   developerName: Bybit Fintech Limited

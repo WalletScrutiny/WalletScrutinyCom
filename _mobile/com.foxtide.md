@@ -1,6 +1,6 @@
 ---
 title: FOXTIDE
-date: 2024-07-05
+date: 2026-10-30
 website: https://www.digitide.us/foxtide#deadLink
 redirect_from:
 - /android/com.foxtide/
@@ -10,7 +10,6 @@ android:
   released: 2020-04-23
   updated: 2020-05-09
   version: '1.2'
-  icon: com.foxtide.webp
   meta: removed
   verdict: wip
   developerName: DIGITIDE, LLC

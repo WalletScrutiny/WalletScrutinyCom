@@ -1,6 +1,6 @@
 ---
 title: HMCWalletPro
-date: 2023-06-03
+date: 2026-10-30
 redirect_from:
 - /android/com.hammermining.walletpro/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2022-05-10
   updated: 2026-02-11
   version: 1.3.8
-  icon: com.hammermining.walletpro.webp
   meta: fewusers
   verdict: wip
   developerName: VALLIDGE CONSULTING PTE. LTD.

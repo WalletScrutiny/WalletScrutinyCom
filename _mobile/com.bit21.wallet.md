@@ -1,6 +1,6 @@
 ---
 title: 'bit21: Bitcoin Wallet'
-date: 2026-10-13
+date: 2026-10-30
 authors:
 - danny
 website: https://bit21.app
@@ -11,7 +11,6 @@ android:
   released: 2026-06-21
   updated: 2026-06-21
   version: 1.0.0
-  icon: com.bit21.wallet.webp
   meta: fewusers
   verdict: wip
   developerName: Bit21 Technologies

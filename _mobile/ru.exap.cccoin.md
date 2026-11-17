@@ -1,6 +1,6 @@
 ---
 title: Cccoin - bitcoin ethereum
-date: 2024-07-05
+date: 2026-10-30
 redirect_from:
 - /android/ru.exap.cccoin/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2017-11-22
   updated: 2018-05-03
   version: '1.20'
-  icon: ru.exap.cccoin.webp
   meta: removed
   verdict: wip
   developerName: Hubus & Co.

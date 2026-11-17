@@ -1,6 +1,6 @@
 ---
 title: Exodus Bitcoin & Ethereum- Crypto Exchange
-date: 2021-08-08
+date: 2026-10-30
 authors:
 - emanuel
 - leo
@@ -13,7 +13,6 @@ android:
   released: 2021-07-21
   updated: 2021-07-21
   version: '0.92'
-  icon: com.edhnbus.wxcgr.webp
   meta: removed
   verdict: fake
 

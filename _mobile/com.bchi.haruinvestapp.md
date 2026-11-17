@@ -1,6 +1,6 @@
 ---
 title: Earn Crypto with Haru Invest
-date: 2023-08-04
+date: 2026-10-30
 authors:
 - danny
 website: https://haruinvest.com
@@ -18,7 +18,6 @@ android:
   updated: 2023-05-22
   version: 5.2.0
   reviews: 51
-  icon: com.bchi.haruinvestapp.webp
   meta: removed
   verdict: custodial
   developerName: Haru Invest
@@ -29,12 +28,15 @@ iphone:
   updated: 2023-05-24
   version: 5.2.0
   reviews: 203
-  icon: com.bchi.haruinvestapp.webp
   meta: removed
   verdict: custodial
   developerName: BCHI Limited
 
 ---
+
+**⚠️ Warning:** Haru Invest stopped all withdrawals in June 2023 and was declared bankrupt by a Seoul court in November 2024. Customers have not been paid out.
+
+**Update 2026-10-30:** Haru Invest abruptly suspended deposits and withdrawals in June 2023, and the Seoul Rehabilitation Court declared the company bankrupt on 20 November 2024 ([crypto.news](https://crypto.news/haru-invest-declared-bankrupt-amidst-alleged-1b-investor-fraud/)). The haruinvest.com site now only shows a login page.
 
 ## Android
 

@@ -18,11 +18,10 @@ shop:
 country: 
 price: 50USD
 repository: https://github.com/selfcustody/krux
-icon: kruxdiyhw.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2026-02-27
+date: 2026-10-30
 signer: 
 twitter: selfcustodykrux
 social:

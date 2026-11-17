@@ -15,16 +15,15 @@ dimensions:
 weight: 
 provider: Digital Silo Pty Ltd
 providerWebsite: 
-website: https://www.octowallet.com/
+website: https://web.archive.org/web/20191212090550/https://www.octowallet.com/
 shop: https://shop.octowallet.com#deadLink
 country: AU
 price: 
 repository: 
-icon: octowalletsilo.webp
 bugbounty: 
 meta: defunct
 verdict: nosource
-date: 2022-02-18
+date: 2026-10-30
 signer: 
 twitter: octowallet
 social:
@@ -33,6 +32,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** This provider is gone. Its website is a domain for sale and its shop no longer loads.
 
 The last twitter post of the Octowallet was made on [March 1, 2019.](https://twitter.com/OctoWallet/status/1079365807707086848). The first working prototype was shown on twitter on [August 3, 2018.](https://twitter.com/OctoWallet/status/1025206431505502208). The Youtube video linked-to on the tweet is now removed. 
 

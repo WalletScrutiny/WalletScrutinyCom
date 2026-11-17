@@ -1,6 +1,6 @@
 ---
 title: Satsigner
-date: 2026-10-21
+date: 2026-10-30
 authors:
 - danny
 website: https://satsigner.com
@@ -10,7 +10,6 @@ android:
   released: 2026-04-27
   updated: 2026-06-10
   version: 0.3.6
-  icon: com.satsigner.satsigner.webp
   signer: a794d7a8f91f9ab9e6253c568148334da62b60c7011c8842ecc567bc817b2aa1
   meta: ok
   verdict: wip

@@ -1,6 +1,6 @@
 ---
 title: Easy Bitcoin Wallet
-date: 2023-01-02
+date: 2026-10-30
 website: https://easywallet.me
 redirect_from:
 - /android/com.easywallet.android/
@@ -10,7 +10,6 @@ android:
   released: 2021-11-08
   updated: 2021-11-08
   version: 1.0.0
-  icon: com.easywallet.android.webp
   meta: removed
   verdict: wip
 

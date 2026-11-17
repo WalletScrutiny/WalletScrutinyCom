@@ -1,9 +1,9 @@
 ---
 title: Tarmex
-date: 2025-03-14
+date: 2026-10-30
 authors:
 - danny
-website: https://tarmex.io
+website: https://tarmex.io#deadLink
 twitter: Tarmexio
 social:
 - https://www.facebook.com/Tarmex.exchange
@@ -20,12 +20,13 @@ android:
   released: 2022-12-22
   updated: 2023-11-09
   version: '1.1'
-  icon: com.tarmex.tarmex.webp
   meta: removed
   verdict: custodial
   developerName: Tarmex Exchange
 
 ---
+
+**Update 2026-10-30:** Tarmex appears to be gone. Its tarmex.io domain has shown a [parking page](https://web.archive.org/web/20251010055232/https://tarmex.io/) since at least October 2025; the [last archived copy of the exchange site](https://web.archive.org/web/20231102012359/https://tarmex.io/) is from November 2023. The app is no longer on Google Play.
 
 ## App Description from Google Play
 

@@ -1,6 +1,6 @@
 ---
 title: GPC Wallet
-date: 2023-11-02
+date: 2026-10-30
 website: https://gpcio.org/index_m.html#deadLink
 redirect_from:
 - /android/com.gpc.gpcwallet/
@@ -10,7 +10,6 @@ android:
   released: 2020-07-14
   updated: 2020-08-05
   version: '1.6'
-  icon: com.gpc.gpcwallet.webp
   meta: removed
   verdict: wip
   developerName: RedBo

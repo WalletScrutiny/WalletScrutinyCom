@@ -1,6 +1,6 @@
 ---
 title: 'SekiApp: Buy and Sell Giftcard'
-date: 2023-08-14
+date: 2026-10-30
 authors:
 - danny
 website: https://sekiapp.com
@@ -22,7 +22,6 @@ android:
   updated: 2026-10-09
   version: 2.3.22
   reviews: 26
-  icon: com.wiseki.sekiapp.webp
   meta: ok
   verdict: custodial
   developerName: SekiApp
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-10-13
   version: 2.3.22
   reviews: 87
-  icon: com.wiseki.sekiapp.new.webp
   meta: ok
   verdict: custodial
   developerName: Wiseki Technologies Limited

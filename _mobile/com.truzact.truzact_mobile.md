@@ -1,6 +1,6 @@
 ---
 title: 'Truzact: Save & Invest Crypto'
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: https://truzact.com#deadLink
@@ -18,7 +18,6 @@ android:
   released: 2022-02-13
   updated: 2023-07-12
   version: 4.6.7
-  icon: com.truzact.truzact_mobile.webp
   meta: removed
   verdict: custodial
   developerName: Truzact
@@ -30,7 +29,6 @@ iphone:
   updated: 2023-07-12
   version: 4.1.3
   reviews: 14
-  icon: com.truzact.truzact-mobile-app.webp
   meta: removed
   verdict: custodial
   developerName: Truzact Technologies

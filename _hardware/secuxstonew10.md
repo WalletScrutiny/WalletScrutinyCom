@@ -21,11 +21,10 @@ shop: https://shop.secuxtech.com/products/w10-hardware-wallet-for-computer/
 country: TW
 price: 69USD
 repository: 
-icon: secuxstonew10.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-11-24
+date: 2026-10-30
 signer: 
 twitter: SecuXwallet
 social:

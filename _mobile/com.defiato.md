@@ -1,11 +1,9 @@
 ---
 title: DeFiato
-date: 2025-11-05
+date: 2026-10-30
 authors:
 - danny
-website: https://defiato.com/
-social:
-- https://defiato.com
+website: https://defiato.com/#deadLink
 redirect_from:
 - /android/com.defiato/
 - /iphone/com.defiato/
@@ -16,7 +14,6 @@ android:
   updated: 2023-01-18
   version: 1.2.9
   reviews: 5
-  icon: com.defiato.webp
   meta: removed
   verdict: custodial
   developerName: Beowulf Network Inc
@@ -28,12 +25,13 @@ iphone:
   updated: 2022-12-30
   version: 1.2.8
   reviews: 2
-  icon: com.defiato.webp
   meta: removed
   verdict: custodial
   developerName: Beowulf Network Inc
 
 ---
+
+**Update 2026-10-30:** DeFiato appears to be gone. Both apps are gone from the stores, and its website, blog and web app no longer load, nor does the site of its parent project Beowulf. The last archived copy of the [website](https://web.archive.org/web/20250619091048/https://defiato.com/) is from June 2025.
 
 ## Android
 
@@ -65,7 +63,7 @@ iphone:
 - The platform also has [KYC protocols](https://defiato.zendesk.com/hc/en-us/sections/900000589326-KYC-Verification) in place.
 - We also signed-in on the web platform using the same credentials and was successful.
 - New users are given a user tier of VIP-0.
-- A further search provided us with an insight to DeFiato's service: [DeFiato provides "institutional grade custody"](https://media.defiato.com/blog/meet-defiato-next-gen-defi-platform/).
+- A further search provided us with an insight to DeFiato's service: [DeFiato provides "institutional grade custody"](https://media.defiato.com/blog/meet-defiato-next-gen-defi-platform/#deadLink).
 - All evidence point to a **custodial** platform.
 
 ---

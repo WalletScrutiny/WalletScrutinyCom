@@ -1,6 +1,6 @@
 ---
 title: Baanx
-date: 2023-05-30
+date: 2026-10-30
 authors:
 - danny
 website: https://www.baanxapp.com#deadLink
@@ -17,7 +17,6 @@ android:
   released: 2019-10-10
   updated: 2023-02-02
   version: 3.1.1
-  icon: com.baanx.baanx.webp
   meta: removed
   verdict: custodial
   developerName: Baanx.com Ltd
@@ -28,12 +27,13 @@ iphone:
   updated: 2023-02-07
   version: 3.1.1
   reviews: 7
-  icon: com.baanx.baanxapp.webp
   meta: removed
   verdict: custodial
   developerName: Baanx.com Ltd
 
 ---
+
+**Update 2026-10-30:** Both Baanx apps are gone from the stores. Since 2024 the old website forwards to [Crypto Life](https://www.withcl.com/), a Baanx card for spending crypto from wallets such as MetaMask and Ledger, and in the UK Baanx now runs it as [BaanxUK](https://www.baanxuk.com/). No app replaces this custodial one.
 
 ## Android
 

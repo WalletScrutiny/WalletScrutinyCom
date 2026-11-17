@@ -26,8 +26,8 @@ export const ASSET_WATCH_WATCHDOG_MINUTES = 5;
 // Feature flag: when true, mainProcess also refreshes desktop/hardware wallet
 // versions and queues verifications for any new release found in the wallet
 // repos (in addition to assets registered in the Asset Registry).
-// Disabled by default until the new-release flow is finished and validated.
-export const FEATURE_REFRESH_APPS = false;
+// Set to false to reproduce only Asset Registry assets.
+export const FEATURE_REFRESH_APPS = true;
 
 // Queue configuration
 export const QUEUE_TIMEOUT_HOURS = 6;

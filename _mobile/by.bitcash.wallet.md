@@ -1,6 +1,6 @@
 ---
 title: Bitcash Сrypto Bitcoin Wallet
-date: 2025-11-11
+date: 2026-10-30
 authors:
 - danny
 website: https://wbitcash.com/
@@ -13,7 +13,6 @@ android:
   appCountry: us
   updated: 2026-08-19
   version: 1.1.3
-  icon: by.bitcash.wallet.webp
   meta: ok
   verdict: custodial
   developerName: LLC BITCASH
@@ -25,7 +24,6 @@ iphone:
   updated: 2026-08-24
   version: 1.1.3
   reviews: 20
-  icon: by.bitcash.cryptowallet.webp
   meta: ok
   verdict: custodial
   developerName: BITCASH Inc.

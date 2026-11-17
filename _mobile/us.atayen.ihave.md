@@ -1,6 +1,6 @@
 ---
 title: iHave
-date: 2024-12-08
+date: 2026-10-30
 website: https://dapp.satt.io/
 redirect_from:
 - /android/us.atayen.ihave/
@@ -10,7 +10,6 @@ android:
   released: 2022-05-24
   updated: 2023-04-24
   version: 1.5.4
-  icon: us.atayen.ihave.webp
   meta: removed
   verdict: wip
   developerName: Atayen, Inc

@@ -1,6 +1,6 @@
 ---
 title: 'Vultisig: Seedless MPC Wallet'
-date: 2026-07-28
+date: 2026-10-30
 authors:
 - danny
 website: https://vultisig.com
@@ -24,7 +24,6 @@ android:
   updated: 2026-10-08
   version: 1.0.122
   reviews: 14
-  icon: com.vultisig.wallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: Vulti Holdings Ltd.
@@ -37,7 +36,6 @@ iphone:
   updated: 2026-10-10
   version: '1.48'
   reviews: 64
-  icon: com.vultisig.wallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: Vulti Holdings Limited

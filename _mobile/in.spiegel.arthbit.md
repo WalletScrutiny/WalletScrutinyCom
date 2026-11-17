@@ -1,6 +1,6 @@
 ---
 title: ArthBit
-date: 2023-09-04
+date: 2026-10-30
 authors:
 - danny
 website: https://arthbit.com/
@@ -19,7 +19,6 @@ android:
   released: 2021-11-19
   updated: 2021-11-23
   version: 1.0.1
-  icon: in.spiegel.arthbit.webp
   meta: removed
   verdict: custodial
   developerName: ARTHBIT PRIVATE LIMITED

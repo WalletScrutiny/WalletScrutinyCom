@@ -1,11 +1,11 @@
 ---
 title: Elite Wallet
-date: 2024-05-18
+date: 2026-10-30
 authors:
 - danny
 website: https://elitewallet.sc#deadLink
 social:
-- https://t.me/elite_wallet
+- https://t.me/elite_wallet#deadLink
 - https://www.reddit.com/user/EliteTechnologies
 redirect_from:
 - /android/sc.elitewallet.elitewallet/
@@ -17,7 +17,7 @@ android:
   updated: 2024-03-25
   version: 1.3.1
   reviews: 3
-  icon: sc.elitewallet.elitewallet.webp
+  repository: https://web.archive.org/web/20250316083801/https://github.com/Elite-Labs/EliteWallet
   meta: removed
   verdict: sourceavailable
   developerName: Elite Lab
@@ -29,12 +29,13 @@ iphone:
   updated: 2023-06-04
   version: 1.1.7
   reviews: 1
-  icon: sc.elitewallet.elite-wallet.webp
   meta: removed
   verdict: wip
   developerName: Elite Lab
 
 ---
+
+**Update 2026-10-30:** Elite Wallet appears to be gone. Both apps are out of the stores, the website no longer loads, the [source repository](https://web.archive.org/web/20250316083801/https://github.com/Elite-Labs/EliteWallet) has been removed from GitHub, and the Telegram link now points to an unrelated account.
 
 ## Android
 

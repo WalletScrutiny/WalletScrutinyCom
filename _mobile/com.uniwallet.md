@@ -1,9 +1,9 @@
 ---
 title: 'UniWallet: Buy Bitcoin, Crypto'
-date: 2025-12-24
+date: 2026-10-30
 authors:
 - danny
-website: https://uniwall.et/
+website: https://uniwall.et/#deadLink
 twitter: uniwallet_app
 social:
 - https://t.me/uniwallet_app
@@ -23,7 +23,6 @@ android:
   updated: 2025-09-18
   version: 1.1.0
   reviews: 2
-  icon: com.uniwallet.webp
   meta: stale
   verdict: nosource
   developerName: UniWallet Ltd.
@@ -35,12 +34,13 @@ iphone:
   updated: 2025-07-20
   version: 1.0.8
   reviews: 1
-  icon: org.uniwallet.UniWallet.webp
   meta: stale
   verdict: nosource
   developerName: UniWallet Ltd.
 
 ---
+
+**Update 2026-10-30:** The UniWallet website [uniwall.et](https://web.archive.org/web/20250409121254/https://uniwall.et/) no longer loads; its last archived copy is from April 2025, and the support email listed in the stores uses the same domain.
 
 ## Android
 

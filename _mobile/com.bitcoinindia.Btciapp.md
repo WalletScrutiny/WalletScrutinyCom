@@ -1,6 +1,6 @@
 ---
 title: Bitcoin India Wallet & Exchange
-date: 2021-09-19
+date: 2026-10-30
 authors:
 - leo
 website: https://www.bitcoin-india.org
@@ -19,7 +19,6 @@ android:
   updated: 2021-07-29
   version: 3.1.45
   reviews: 963
-  icon: com.bitcoinindia.Btciapp.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -29,13 +28,17 @@ iphone:
   updated: 2021-07-30
   version: 3.1.45
   reviews: 1
-  icon: com.bitcoinindia.Btciapp.webp
   meta: removed
   verdict: custodial
 
 ---
 
 ## Android
+
+**Update 2026-10-30:** The provider's
+[download page](https://www.bitcoin-india.org/en/downloads) now points to a
+different Android app,
+{% include walletLink.html wallet='android/org.bitcoinindia.Btciapp' verdict='true' %}.
 
 **Update 2021-09-17**: This app is no more.
 

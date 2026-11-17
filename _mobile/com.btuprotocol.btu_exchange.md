@@ -1,6 +1,6 @@
 ---
 title: 'BTU Exchange : Achat de bitcoi'
-date: 2024-04-03
+date: 2026-10-30
 website: https://btu-protocol.com/trading#deadLink
 redirect_from:
 - /android/com.btuprotocol.btu_exchange/
@@ -9,7 +9,6 @@ android:
   users: 100
   updated: 2021-05-06
   version: 1.8.2
-  icon: com.btuprotocol.btu_exchange.webp
   meta: removed
   verdict: wip
   developerName: Get Verso

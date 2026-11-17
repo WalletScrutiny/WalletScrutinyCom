@@ -17,11 +17,10 @@ shop:
 country: 
 price: 
 repository: 
-icon: touchain.alpha.webp
 bugbounty: 
 meta: defunct
 verdict: vapor
-date: 2023-03-03
+date: 2026-10-30
 signer: 
 twitter: 
 social:

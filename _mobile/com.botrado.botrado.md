@@ -1,7 +1,7 @@
 ---
 title: Botrado
-date: 2024-04-19
-website: https://botrado.com
+date: 2026-10-30
+website: https://botrado.com#deadLink
 redirect_from:
 - /android/com.botrado.botrado/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-05-01
   updated: 2021-05-01
   version: '2.0'
-  icon: com.botrado.botrado.webp
   meta: removed
   verdict: wip
   developerName: DevNin

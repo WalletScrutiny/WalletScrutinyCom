@@ -18,11 +18,10 @@ shop: https://sialktech.ir/shop/digital-wallets/little-shell/littleshell-cryptoc
 country: IR
 price: 
 repository: 
-icon: littleshell.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2023-03-23
+date: 2026-10-30
 signer: 
 twitter: CCELittleshell
 social: 

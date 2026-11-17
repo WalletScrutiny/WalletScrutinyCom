@@ -1,6 +1,6 @@
 ---
 title: 'BloFin: Trade Crypto & Bitcoin'
-date: 2023-03-29
+date: 2026-10-30
 authors:
 - danny
 website: https://blofin.com
@@ -16,9 +16,8 @@ android:
   updated: 2026-10-12
   version: 3.38.0
   reviews: 121
-  icon: com.blofin.android.webp
   meta: ok
-  verdict: nosendreceive
+  verdict: custodial
   developerName: Blofin Inc.
 iphone:
   appId: com.blofin.app
@@ -28,12 +27,13 @@ iphone:
   updated: 2026-09-20
   version: 3.38.0
   reviews: 1469
-  icon: com.blofin.app.webp
   meta: ok
-  verdict: nosendreceive
+  verdict: custodial
   developerName: Blofin Inc.
 
 ---
+
+**Update 2026-10-30:** BloFin now lets users deposit and withdraw bitcoin itself, not only USDT: its [withdrawal guide](https://blofin.com/en/academy/guides/funding/blofin-withdrawal-guide) says "Bitcoin withdrawals usually arrive within 30 minutes to an hour". BloFin holds the keys ([Terms](https://blofin.com/terms)), so both apps change from {% include verdictBadge.html verdict="nosendreceive" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## Android
 

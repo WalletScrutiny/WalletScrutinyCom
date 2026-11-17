@@ -1,6 +1,6 @@
 ---
 title: Cosmostation Interchain Wallet
-date: 2023-01-03
+date: 2026-10-30
 authors:
 - danny
 website: https://cosmostation.io
@@ -24,7 +24,6 @@ android:
   updated: 2026-10-06
   version: 1.10.52
   reviews: 135
-  icon: wannabit.io.cosmostaion.webp
   meta: ok
   verdict: sourceavailable
   developerName: Stamper
@@ -37,7 +36,6 @@ iphone:
   updated: 2026-10-01
   version: v1.10.49
   reviews: 223
-  icon: io.wannabit.cosmostation.webp
   meta: ok
   verdict: sourceavailable
   developerName: Stamper Co., Ltd.

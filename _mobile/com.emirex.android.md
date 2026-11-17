@@ -1,6 +1,6 @@
 ---
 title: Emirex - trading platform
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: https://emirex.com/
@@ -18,12 +18,13 @@ android:
   released: 2022-08-08
   updated: 2022-08-08
   version: '1.1'
-  icon: com.emirex.android.webp
   meta: removed
   verdict: custodial
   developerName: Emirex
 
 ---
+
+**Update 2026-10-30:** Emirex has paused its exchange. [Its website](https://emirex.com/) now says the team is rebuilding the platform, that all user balances have been withdrawn, and that users whose withdrawal did not go through should contact support.
 
 ## App Description from Google Play
 

@@ -1,9 +1,9 @@
 ---
 title: Defiant
-date: 2024-07-16
+date: 2026-10-30
 authors:
 - danny
-website: https://defiantapp.tech
+website: https://defiantapp.tech#deadLink
 twitter: defiantApp
 appCountry: ar
 redirect_from:
@@ -16,7 +16,6 @@ android:
   updated: 2024-04-05
   version: 5.4.3
   reviews: 41
-  icon: ar.com.andinasmart.defiant.webp
   meta: removed
   verdict: nosource
   developerName: Andina DeFi Ltd
@@ -27,12 +26,13 @@ iphone:
   updated: 2024-04-05
   version: 5.4.3+304
   reviews: 21
-  icon: com.andinadefi.defiant.webp
   meta: removed
   verdict: nosource
   developerName: Andina Defi Ltd
 
 ---
+
+**Update 2026-10-30:** Defiant stopped being maintained on 31 July 2024, the app is gone from both stores, and its website is gone: since at least September 2025 the domain only shows a parking page ([archive](https://web.archive.org/web/20250910185535/https://www.defiantapp.tech/)).
 
 ## Android
 

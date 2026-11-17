@@ -1,6 +1,6 @@
 ---
 title: 'Dzengi: Buy BTC & Crypto'
-date: 2024-01-23
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -23,7 +23,6 @@ android:
   updated: 2026-08-13
   version: 2.22.2
   reviews: 2
-  icon: com.currency.exchange.prod2.webp
   meta: ok
   verdict: custodial
   developerName: DI INVESTMENTS LLC
@@ -35,7 +34,6 @@ iphone:
   updated: 2026-08-13
   version: 2.22.2
   reviews: 4539
-  icon: com.currency.exchange.prod2.webp
   meta: ok
   verdict: custodial
   developerName: DI INVESTMENTS LLC

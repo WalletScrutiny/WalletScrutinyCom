@@ -1,7 +1,7 @@
 ---
 title: Peach Wallet
-date: 2024-04-03
-website: https://peachwallet.com
+date: 2026-10-30
+website: https://peachwallet.com#deadLink
 redirect_from:
 - /android/wallet.peach.com/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2022-04-09
   updated: 2022-06-06
   version: 0.0.5
-  icon: wallet.peach.com.webp
   meta: removed
   verdict: wip
   developerName: décript

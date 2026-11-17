@@ -1,6 +1,6 @@
 ---
 title: Cryptonow
-date: 2025-11-11
+date: 2026-10-30
 authors:
 - danny
 website: https://cryptonow.ch
@@ -13,7 +13,6 @@ android:
   appCountry: us
   updated: 2026-10-01
   version: 2.4.2
-  icon: ch.cryptonow.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Värdex Suisse AG
@@ -25,7 +24,6 @@ iphone:
   updated: 2026-10-09
   version: 2.4.3
   reviews: 125
-  icon: ch.cryptonow.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Värdex Suisse AG

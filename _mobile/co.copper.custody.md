@@ -1,6 +1,6 @@
 ---
 title: Copper Unlimited
-date: 2023-12-14
+date: 2026-10-30
 authors:
 - danny
 website: https://copper.co
@@ -15,7 +15,6 @@ iphone:
   updated: 2026-09-24
   version: 2.6.609
   reviews: 4
-  icon: co.copper.custody.webp
   meta: ok
   verdict: custodial
   developerName: COPPER TECHNOLOGIES (UK)

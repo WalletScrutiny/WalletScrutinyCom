@@ -5,7 +5,7 @@ authors:
 - kiwilamb
 - danny
 released: 
-discontinued: 
+discontinued: 2024-12-08
 updated: 
 version: 
 binaries: 
@@ -21,11 +21,10 @@ shop: https://www.coldlar.com/productDetails/10062
 country: CN
 price: 620USD
 repository: 
-icon: coldlarpro3.webp
 bugbounty: 
 meta: discontinued
 verdict: nosource
-date: 2024-12-08
+date: 2026-10-30
 signer: 
 twitter: Coldlar
 social: 

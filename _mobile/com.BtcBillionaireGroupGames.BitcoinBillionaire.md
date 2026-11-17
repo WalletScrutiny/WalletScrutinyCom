@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Billionaire
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/com.BtcBillionaireGroupGames.BitcoinBillionaire/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-03-21
   updated: 2022-03-21
   version: '0.1'
-  icon: com.BtcBillionaireGroupGames.BitcoinBillionaire.webp
   meta: removed
   verdict: wip
 

@@ -1,9 +1,9 @@
 ---
 title: 'Roseon: Trade & Earn'
-date: 2025-11-05
+date: 2026-10-30
 authors:
 - danny
-website: http://roseon.world
+website: https://roseon.finance
 twitter: RoseonFinance
 social:
 - https://www.facebook.com/Roseon.Finance
@@ -19,7 +19,6 @@ android:
   updated: 2024-10-31
   version: 2.4.41
   reviews: 63
-  icon: roseon.finance.webp
   meta: removed
   verdict: custodial
   developerName: Roseon Finance
@@ -30,12 +29,13 @@ iphone:
   updated: 2024-10-15
   version: 2.4.39
   reviews: 40
-  icon: com.roseon.finance.production.webp
   meta: removed
   verdict: custodial
   developerName: MYBITOK OU
 
 ---
+
+**Update 2026-10-30:** roseon.world, the website we listed before, now shows an unrelated crypto casino page, so we link [roseon.finance](https://web.archive.org/web/20260428055805/https://roseon.finance/) instead. Both apps are still gone from the stores.
 
 ## Android
 

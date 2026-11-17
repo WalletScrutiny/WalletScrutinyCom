@@ -1,6 +1,6 @@
 ---
 title: MAX Exchange - Buy Bitcoin
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - danny
 website: https://max.maicoin.com
@@ -19,18 +19,17 @@ android:
   updated: 2026-03-24
   version: 16.0.1
   reviews: 12
-  icon: com.maicoin.max.webp
   meta: ok
   verdict: custodial
   developerName: MaiCoin Eng
 iphone:
   appId: com.maicoin.max
   idd: 1370837255
+  appCountry: tw
   released: 2018-07-04
   updated: 2022-10-26
   version: 7.0.0
   reviews: 25
-  icon: com.maicoin.max.webp
   meta: removed
   verdict: custodial
 

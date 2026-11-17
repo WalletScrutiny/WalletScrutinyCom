@@ -1,6 +1,6 @@
 ---
 title: Bitop加密货币比特币交易平台
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/com.bitopapps.fanhukj/
 android:
@@ -10,7 +10,6 @@ android:
   updated: 2021-12-10
   version: '1.0'
   reviews: 25
-  icon: com.bitopapps.fanhukj.webp
   meta: removed
   verdict: wip
 

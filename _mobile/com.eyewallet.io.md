@@ -1,9 +1,9 @@
 ---
 title: Eyewallet Crypto
-date: 2023-05-25
+date: 2026-10-30
 authors:
 - danny
-website: https://eyewallet.com
+website: https://eyewallet.com#deadLink
 redirect_from:
 - /android/com.eyewallet.io/
 android:
@@ -12,7 +12,6 @@ android:
   released: 2019-07-26
   updated: 2020-07-02
   version: 4.5.7
-  icon: com.eyewallet.io.webp
   meta: removed
   verdict: wip
   developerName: Eyeline Asociados S A

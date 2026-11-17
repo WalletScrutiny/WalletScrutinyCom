@@ -1,6 +1,6 @@
 ---
 title: 'فراچنج: صرافی ارز دیجیتال'
-date: 2025-03-11
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -12,7 +12,6 @@ android:
   updated: 2022-11-23
   version: 1.1.20
   reviews: 26
-  icon: com.farachange.farachange.webp
   meta: removed
   verdict: custodial
   developerName: 'صرافی ارز دیجیتال : خرید ارز دیجیتال و بیت کوین'

@@ -1,6 +1,6 @@
 ---
 title: Independent Reserve Buy Crypto
-date: 2023-07-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.independentreserve.com
@@ -26,7 +26,6 @@ android:
   updated: 2026-09-27
   version: 17.0.1
   reviews: 3
-  icon: com.independentreserve.mobileapp.webp
   meta: ok
   verdict: custodial
   developerName: Independent Reserve
@@ -38,7 +37,6 @@ iphone:
   updated: 2026-09-27
   version: 17.0.1
   reviews: 2287
-  icon: com.independentreserve.mobileapp.webp
   meta: ok
   verdict: custodial
   developerName: Independent Reserve

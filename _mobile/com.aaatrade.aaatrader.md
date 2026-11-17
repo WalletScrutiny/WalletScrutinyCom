@@ -1,6 +1,6 @@
 ---
 title: AAATrader - Worldwide Trading
-date: 2024-11-19
+date: 2026-10-30
 authors:
 - danny
 website: https://www.aaatrade.com#deadLink
@@ -11,7 +11,6 @@ android:
   users: 10000
   updated: 2023-09-22
   version: 1.1.10
-  icon: com.aaatrade.aaatrader.webp
   meta: removed
   verdict: nosendreceive
   developerName: AAATrade

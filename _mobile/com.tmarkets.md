@@ -1,6 +1,6 @@
 ---
 title: 'T1Markets: Online Trading on F'
-date: 2021-12-22
+date: 2026-10-30
 authors:
 - danny
 website: https://www.t1markets.com
@@ -16,7 +16,6 @@ android:
   appCountry: us
   updated: 2021-12-01
   version: 1.5.78-tmarkets
-  icon: com.tmarkets.webp
   meta: removed
   verdict: nosendreceive
   developerName: GCB LTD
@@ -28,11 +27,12 @@ iphone:
   updated: 2021-11-19
   version: 1.69.13
   reviews: 2
-  icon: com.gcb.T1.webp
   meta: removed
   verdict: nosendreceive
 
 ---
+
+**Update 2026-10-30:** T1Markets appears to be out of business. Its website is gone and its X account has not posted since 2021.
 
 ## Android
 

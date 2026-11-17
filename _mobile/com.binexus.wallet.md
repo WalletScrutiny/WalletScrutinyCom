@@ -1,6 +1,6 @@
 ---
 title: Binexus  Wallet
-date: 2024-05-07
+date: 2026-10-30
 website: http://www.binexus.co#deadLink
 redirect_from:
 - /android/com.binexus.wallet/
@@ -10,7 +10,6 @@ android:
   released: 2018-03-28
   updated: 2018-03-29
   version: v5.0.0
-  icon: com.binexus.wallet.webp
   meta: removed
   verdict: wip
   developerName: Binexus

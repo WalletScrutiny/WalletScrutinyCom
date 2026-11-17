@@ -1,6 +1,6 @@
 ---
 title: Coin24 - Bitcoin, cryptocurren
-date: 2023-04-20
+date: 2026-10-30
 authors:
 - danny
 website: https://coin24.app/ko
@@ -12,12 +12,13 @@ android:
   released: 2020-09-28
   updated: 2020-09-28
   version: 1.0.0
-  icon: coin24.mobile.webp
   meta: removed
   verdict: wip
   developerName: 주식회사 블록첸
 
 ---
+
+**Update 2026-10-30:** The [Coin24 website](https://coin24.app/ko) by the same developer, BlockChen, is online and offers coin swaps without an account, so the provider still exists. The app is still gone from Google Play.
 
 ## App Description from Google Play 
 

@@ -1,6 +1,6 @@
 ---
 title: AOFEX
-date: 2022-03-24
+date: 2026-10-30
 authors:
 - danny
 website: http://www.aofex.co#deadLink
@@ -18,7 +18,6 @@ android:
   updated: 2021-12-03
   version: 3.0.3
   reviews: 333
-  icon: co.aofex.exchange.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -28,11 +27,12 @@ iphone:
   updated: 2021-12-03
   version: 3.0.9
   reviews: 129
-  icon: com.aofex.exchange1.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** AOFEX has shut down, for both apps. aofex.co is gone, aofex.com no longer loads, and [Cryptowisser](https://www.cryptowisser.com/exchange/aofex/) lists the exchange as dead since January 2022; [CaptainAltcoin](https://captainaltcoin.com/aofex-review/) calls the shutdown a rug pull.
 
 ## Android
 

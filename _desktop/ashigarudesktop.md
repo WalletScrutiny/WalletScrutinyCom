@@ -12,7 +12,6 @@ provider: linkinparkrulz (not the Ashigaru Open Source Project)
 providerWebsite: https://github.com/linkinparkrulz
 website: https://github.com/linkinparkrulz/ashigaru-desktop
 repository: https://github.com/linkinparkrulz/ashigaru-desktop
-icon: ashigarudesktop.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable

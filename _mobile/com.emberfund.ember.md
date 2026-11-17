@@ -1,6 +1,6 @@
 ---
 title: Ember - Play Games. Win Big.
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.emberfund.io/
@@ -19,7 +19,6 @@ android:
   updated: 2026-10-13
   version: '40.0'
   reviews: 2768
-  icon: com.emberfund.ember.webp
   meta: ok
   verdict: nosource
   developerName: Ember Fund Inc
@@ -31,12 +30,13 @@ iphone:
   updated: 2026-10-13
   version: '41.0'
   reviews: 19610
-  icon: com.emberfund.ember.webp
   meta: ok
   verdict: nosource
   developerName: Ember Fund LLC
 
 ---
+
+**Update 2026-10-30:** Ember is now a free-to-play games app, and its wallet is being retired, on Android and on iPhone. On 2025-04-01 Ember [announced](https://help.emberfund.io/en/articles/11012668-important-update-for-our-invested-users) that it was winding down its investing feature, and an [August 2025 help article](https://help.emberfund.io/en/articles/12091932-how-do-i-transfer-funds-out-of-my-on-chain-btc-wallet) says it "has officially wound down its investing options and in-app on-chain wallet" and tells users to withdraw from the "Bitcoin Wallet" in the app. New users get no Bitcoin wallet, and the old Terms link and the "Liquidate Portfolio" instructions below no longer apply. The iPhone app is now titled "Ember - Free Games. Big Wins."
 
 ## Android
 

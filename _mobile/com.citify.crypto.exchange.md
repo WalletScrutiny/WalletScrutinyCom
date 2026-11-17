@@ -1,6 +1,6 @@
 ---
 title: Citify Instant Exchange
-date: 2023-09-28
+date: 2026-10-30
 website: https://exchange.citifymarketplace.com/
 redirect_from:
 - /android/com.citify.crypto.exchange/
@@ -10,7 +10,6 @@ android:
   released: 2019-09-18
   updated: 2019-09-18
   version: '1.0'
-  icon: com.citify.crypto.exchange.webp
   meta: removed
   verdict: wip
   developerName: Citify

@@ -1,7 +1,7 @@
 ---
 title: Elquirex
-date: 2024-04-19
-website: https://elquirex.net/
+date: 2026-10-30
+website: https://elquirex.net/#deadLink
 redirect_from:
 - /android/net.elquirex.elquirexapplication/
 android:
@@ -9,7 +9,6 @@ android:
   users: 500
   updated: 2020-11-15
   version: '1.1'
-  icon: net.elquirex.elquirexapplication.webp
   meta: removed
   verdict: wip
   developerName: Elquirex

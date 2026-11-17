@@ -1,6 +1,6 @@
 ---
 title: ompfinex (او ام پی فینکس)
-date: 2024-10-03
+date: 2026-10-30
 authors:
 - danny
 website: https://ompfinex.com
@@ -18,7 +18,6 @@ android:
   updated: 2024-04-21
   version: 3.7.0
   reviews: 58
-  icon: com.ompfinex.app.webp
   meta: removed
   verdict: custodial
   developerName: Mammute.co

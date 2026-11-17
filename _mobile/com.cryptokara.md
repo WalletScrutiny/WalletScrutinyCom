@@ -1,9 +1,9 @@
 ---
 title: CryptoKara
-date: 2025-05-30
+date: 2026-10-30
 authors:
 - danny
-website: https://www.cryptokara.com/
+website: https://web.archive.org/web/20241113022658/https://www.cryptokara.com/
 redirect_from:
 - /android/com.cryptokara/
 - /iphone/com.cryptokara.app/
@@ -14,7 +14,6 @@ android:
   updated: 2024-04-08
   version: 1.7.5
   reviews: 144
-  icon: com.cryptokara.webp
   meta: removed
   verdict: nosource
   developerName: 'Eagle Network : Digital Currency For Phone'
@@ -26,12 +25,13 @@ iphone:
   updated: 2024-04-08
   version: 7.4.3
   reviews: 45
-  icon: com.cryptokara.app.webp
   meta: removed
   verdict: nosource
   developerName: AUTOMATED CHAIN LIMITED
 
 ---
+
+**Update 2026-10-30:** CryptoKara's website is gone: the domain is [now for sale](https://www.hugedomains.com/domain_profile.cfm?d=cryptokara.com). The last [archived copy](https://web.archive.org/web/20241113022658/https://www.cryptokara.com/) is from November 2024, and both apps are gone from the stores.
 
 ## Android
 

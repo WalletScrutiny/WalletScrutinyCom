@@ -1,6 +1,6 @@
 ---
 title: BizzCoin Wallet
-date: 2022-04-25
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bizzcoin.com#deadLink
@@ -18,7 +18,6 @@ android:
   updated: 2021-10-28
   version: '1.21'
   reviews: 13
-  icon: com.BizzCoin.webp
   meta: removed
   verdict: nosource
   developerName: BizzCoin
@@ -29,7 +28,6 @@ iphone:
   updated: 2021-11-01
   version: '1.10'
   reviews: 4
-  icon: com.bizz.bizzcoinWallet.webp
   meta: removed
   verdict: nosource
 

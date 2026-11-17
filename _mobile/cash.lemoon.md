@@ -1,6 +1,6 @@
 ---
 title: Lemoon Wallet
-date: 2024-04-19
+date: 2026-10-30
 website: https://web.archive.org/web/20241006170009/https://www.lemoon.cash/
 redirect_from:
 - /android/cash.lemoon/
@@ -10,7 +10,6 @@ android:
   released: 2022-11-20
   updated: 2023-06-17
   version: 1.0.17
-  icon: cash.lemoon.webp
   meta: removed
   verdict: wip
   developerName: Lemoon Wallet

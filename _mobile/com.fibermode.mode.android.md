@@ -1,9 +1,9 @@
 ---
 title: 'Mode: Buy, Earn & Grow Crypto'
-date: 2023-04-16
+date: 2026-10-30
 authors:
 - danny
-website: https://www.modeapp.com
+website: https://www.modeapp.com#deadLink
 twitter: modeapp_
 social:
 - https://www.linkedin.com/company/modeapp-com
@@ -19,7 +19,6 @@ android:
   updated: 2023-01-26
   version: 3.0.9
   reviews: 187
-  icon: com.fibermode.mode.android.webp
   meta: removed
   verdict: custodial
   developerName: Fibermode Limited
@@ -30,12 +29,13 @@ iphone:
   updated: 2023-03-04
   version: 5.7.3
   reviews: 1018
-  icon: com.fibermode.Mode-Wallet.webp
   meta: removed
   verdict: custodial
   developerName: Fibermode Limited
 
 ---
+
+**⚠️ Warning:** Mode is gone. On 27 January 2023 it told customers to take their funds out of the app because it was winding down ([Finextra](https://www.finextra.com/newsarticle/41692/mode-tells-customers-to-remove-funds-announces-closure)), and its website is now a parked domain.
 
 ## Android
 

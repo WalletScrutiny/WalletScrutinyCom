@@ -1,6 +1,6 @@
 ---
 title: 'etoro: Trade. Invest. Connect.'
-date: 2021-04-02
+date: 2026-10-30
 authors:
 - leo
 website: https://www.etoro.com/
@@ -19,7 +19,6 @@ android:
   updated: 2026-10-13
   version: 700.465.1
   reviews: 3822
-  icon: com.etoro.openbook.webp
   meta: ok
   verdict: custodial
   developerName: eToro
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-10-12
   version: v700.465.1
   reviews: 9949
-  icon: com.etoro.openbook.webp
   meta: ok
   verdict: custodial
   developerName: eToro

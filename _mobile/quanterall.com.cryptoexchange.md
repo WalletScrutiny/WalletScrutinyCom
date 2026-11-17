@@ -1,6 +1,6 @@
 ---
 title: Crypto Exchange
-date: 2024-05-07
+date: 2026-10-30
 redirect_from:
 - /android/quanterall.com.cryptoexchange/
 android:
@@ -8,7 +8,6 @@ android:
   users: 10
   updated: 2019-06-18
   version: VARY
-  icon: quanterall.com.cryptoexchange.webp
   meta: removed
   verdict: wip
   developerName: Quanterall

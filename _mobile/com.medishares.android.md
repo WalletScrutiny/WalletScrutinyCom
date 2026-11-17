@@ -1,6 +1,6 @@
 ---
 title: MathWallet1
-date: 2022-10-21
+date: 2026-10-30
 authors:
 - danny
 - leo
@@ -17,7 +17,6 @@ android:
   updated: 2022-12-27
   version: 4.5.4
   reviews: 184
-  icon: com.medishares.android.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -27,7 +26,6 @@ iphone:
   updated: 2019-07-10
   version: 3.1.0
   reviews: 64
-  icon: com.medishares.ios.pro.webp
   meta: removed
   verdict: nosource
 

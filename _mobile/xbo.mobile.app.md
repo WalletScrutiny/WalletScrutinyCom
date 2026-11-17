@@ -1,6 +1,6 @@
 ---
 title: XBO.com - Buy Bitcoin & Crypto
-date: 2023-08-25
+date: 2026-10-30
 authors:
 - danny
 website: https://www.xbo.com/
@@ -22,7 +22,6 @@ android:
   updated: 2026-10-08
   version: 3.19.0
   reviews: 16
-  icon: xbo.mobile.app.webp
   meta: ok
   verdict: custodial
   developerName: Metafortune LTD
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-10-12
   version: 3.19.0
   reviews: 9
-  icon: xbo.mobile.app.webp
   meta: ok
   verdict: custodial
   developerName: XBO

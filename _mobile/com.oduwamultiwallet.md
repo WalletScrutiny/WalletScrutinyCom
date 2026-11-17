@@ -1,6 +1,6 @@
 ---
 title: Oduwa Trust Wallet
-date: 2024-08-26
+date: 2026-10-30
 authors:
 - danny
 website: https://www.oduwacoin.io/
@@ -9,7 +9,6 @@ social:
 - https://www.facebook.com/Oduwacoin
 - https://www.instagram.com/oduwacoin
 - https://telegram.im/@oduwacoinexchange
-- https://www.oduwacoin.io
 redirect_from:
 - /android/com.oduwamultiwallet/
 - /iphone/com.oduwatrustwallet.ios/
@@ -19,7 +18,6 @@ android:
   released: 2021-07-24
   updated: 2022-10-07
   version: 1.1.5
-  icon: com.oduwamultiwallet.webp
   meta: removed
   verdict: nosource
   developerName: ODUWA BLOCKCHAIN SOLUTION
@@ -32,7 +30,6 @@ iphone:
   updated: 2022-09-06
   version: 1.1.0
   reviews: 0
-  icon: com.oduwatrustwallet.ios.webp
   meta: obsolete
   verdict: nosource
   developerName: ODUWA BLOCKCHAIN SOLUTIONS LLC

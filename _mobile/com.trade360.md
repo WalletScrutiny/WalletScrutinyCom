@@ -1,9 +1,9 @@
 ---
 title: Trade360
-date: 2023-08-25
+date: 2026-10-30
 authors:
 - danny
-website: http://www.trade360.com
+website: https://web.archive.org/web/20240125145117/https://www.trade360.com/
 twitter: Trade360_LTD
 social:
 - https://www.linkedin.com/company/trade360ltd
@@ -19,7 +19,6 @@ android:
   updated: 2022-09-29
   version: 7.3.1
   reviews: 60
-  icon: com.trade360.webp
   meta: removed
   verdict: nosendreceive
   developerName: Trade360 Ltd.
@@ -31,12 +30,16 @@ iphone:
   updated: 2022-10-14
   version: 7.4.0
   reviews: 0
-  icon: com.toyga.trade360.webp
   meta: removed
   verdict: nosendreceive
   developerName: Trade360 LTD
 
 ---
+
+**Update 2026-10-30:** Trade360 looks gone. Its site no longer loads (last
+[archived in January 2024](https://web.archive.org/web/20240125145117/https://www.trade360.com/)),
+and the Cyprus regulator lists its operator Crowd Tech Ltd's licence as
+["under examination for voluntary renunciation"](https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/37636/).
 
 ## Android
 

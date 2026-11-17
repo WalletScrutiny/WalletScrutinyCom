@@ -1,9 +1,9 @@
 ---
 title: Dantown
-date: 2023-04-21
+date: 2026-10-30
 authors:
 - danny
-website: https://www.dantownms.com
+website: https://godantown.com
 twitter: godantown
 redirect_from:
 - /android/com.dantown.Dantownapp/
@@ -15,7 +15,6 @@ android:
   updated: 2026-08-19
   version: 2.0.84
   reviews: 45
-  icon: com.dantown.Dantownapp.webp
   meta: ok
   verdict: custodial
   developerName: Dantown

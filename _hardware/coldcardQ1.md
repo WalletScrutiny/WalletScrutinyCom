@@ -21,11 +21,10 @@ shop: https://store.coinkite.com/store/cc-q1
 country: CA
 price: 239.99USD
 repository: https://github.com/Coldcard/firmware
-icon: coldcardQ1.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-09-26
+date: 2026-10-30
 signer: d840fa4e83ebc7b0f961f30f68d795bed61271e2314dda4ab0eb0b8bfe7192f4
 twitter: COLDCARDwallet
 social:

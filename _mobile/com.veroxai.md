@@ -1,7 +1,7 @@
 ---
 title: VeroxAI
-date: 2023-01-02
-website: http://www.veroxai.io
+date: 2026-10-30
+website: http://www.veroxai.io#deadLink
 redirect_from:
 - /android/com.veroxai/
 android:
@@ -11,7 +11,6 @@ android:
   updated: 2022-04-12
   version: '2.3'
   reviews: 7
-  icon: com.veroxai.webp
   meta: removed
   verdict: wip
 

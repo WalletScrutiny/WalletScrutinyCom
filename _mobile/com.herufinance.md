@@ -1,6 +1,6 @@
 ---
 title: Heru Finance
-date: 2024-07-30
+date: 2026-10-30
 website: https://heru.finance#deadLink
 redirect_from:
 - /android/com.herufinance/
@@ -10,7 +10,6 @@ android:
   released: 2022-08-03
   updated: 2022-12-05
   version: 1.2.7
-  icon: com.herufinance.webp
   meta: removed
   verdict: wip
   developerName: Tykhe Block Ventures LLC

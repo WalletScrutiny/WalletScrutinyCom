@@ -17,11 +17,10 @@ shop:
 country: 
 price: 
 repository: 
-icon: jagelectromagnetics.diyhardwarewallet.webp
 bugbounty: 
 meta: defunct
 verdict: nosource
-date: 2022-04-04
+date: 2026-10-30
 signer: 
 twitter: diywallet
 social: 
@@ -30,7 +29,7 @@ features:
 
 ---
 
-The social media account for this specific project has not been updated since 2018 and the website is down. Any quotes listed below were taken from the [archived version of the website.](http://www.diyhardwarewallet.com)
+The social media account for this specific project has not been updated since 2018 and the website is down. Any quotes listed below were taken from the [archived version of the website.](https://web.archive.org/web/20201109035414/http://diyhardwarewallet.com/)
 
 From the description:
 

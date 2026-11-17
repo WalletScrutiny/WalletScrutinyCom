@@ -1,9 +1,9 @@
 ---
 title: Neo Trade
-date: 2023-06-10
+date: 2026-10-30
 authors:
 - danny
-website: http://neo-forex.com/
+website: http://neo-forex.com/#deadLink
 redirect_from:
 - /android/com.world.bestinfo/
 android:
@@ -12,7 +12,6 @@ android:
   released: 2020-02-29
   updated: 2020-02-29
   version: '1.0'
-  icon: com.world.bestinfo.webp
   meta: removed
   verdict: nosendreceive
   developerName: Neo Trade

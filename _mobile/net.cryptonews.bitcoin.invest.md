@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Invest
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/net.cryptonews.bitcoin.invest/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-23
   updated: 2021-06-23
   version: '1.0'
-  icon: net.cryptonews.bitcoin.invest.webp
   meta: removed
   verdict: wip
 

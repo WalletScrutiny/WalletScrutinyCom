@@ -1,6 +1,6 @@
 ---
 title: Sanctuary Wallet
-date: 2024-12-04
+date: 2026-10-30
 redirect_from:
 - /android/com.sanctuaryex.wallet/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-05-10
   updated: 2022-09-02
   version: 2.0.16
-  icon: com.sanctuaryex.wallet.webp
   meta: removed
   verdict: wip
   developerName: Sanctuary Dex Corp.

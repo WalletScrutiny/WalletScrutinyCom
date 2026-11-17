@@ -1,9 +1,9 @@
 ---
 title: Orbit Network
-date: 2025-03-14
+date: 2026-10-30
 authors:
 - danny
-website: https://orbitnetwork.com/
+website: https://orbitnetwork.com/#deadLink
 redirect_from:
 - /android/com.orbitnetwork/
 - /iphone/com.app.orbitnetwork/
@@ -14,7 +14,6 @@ android:
   updated: 2021-08-20
   version: '2.2'
   reviews: 18
-  icon: com.orbitnetwork.webp
   meta: removed
   verdict: nosendreceive
   developerName: Orbit Network Limited
@@ -26,12 +25,13 @@ iphone:
   updated: 2021-08-29
   version: '2.0'
   reviews: 105
-  icon: com.app.orbitnetwork.webp
   meta: removed
   verdict: nosendreceive
   developerName: Orbit Network Inc
 
 ---
+
+**Update 2026-10-30:** Both apps are gone from the stores and the Orbit Network website no longer loads; its address now forwards to an unrelated site. The provider appears to be gone.
 
 ## Android
 
@@ -39,7 +39,7 @@ Note: This app mandates a referral ID before the user can register. It seems to 
 
 ⚠️ Warning: The language used in the description of the app seems to be filler information with no useful information. More information below.
 
-## App Description as [Quoted from Google Play](https://play.google.com/store/apps/details?id=com.orbitnetwork)
+## App Description as [Quoted from Google Play](https://play.google.com/store/apps/details?id=com.orbitnetwork#deadLink)
 
 > At Orbit Network INC, we welcome the best new digital assets openings and ideas.
 From the most self-evident, to the most innovative ones, we look at every possibility we can find on crypto openings so that we can give our clients a wide range to choose from.

@@ -1,6 +1,6 @@
 ---
 title: Paribu | Bitcoin - Crypto
-date: 2023-12-16
+date: 2026-10-30
 authors:
 - danny
 website: https://www.paribu.com
@@ -21,7 +21,6 @@ android:
   updated: 2026-10-08
   version: 6.2.1
   reviews: 116
-  icon: com.paribu.app.webp
   meta: ok
   verdict: custodial
   developerName: PARİBU
@@ -33,12 +32,13 @@ iphone:
   updated: 2026-10-09
   version: 6.2.1
   reviews: 327
-  icon: com.codevist.paribu.webp
   meta: ok
   verdict: custodial
   developerName: Paribu
 
 ---
+
+**Update 2026-10-30:** In July 2026 Paribu added an optional self-custodial DeFi wallet to its app, set up with passkeys instead of a seed phrase ([crypto.news](https://crypto.news/paribu-adds-defi-polymarket-and-stock-waitlist-to-its-app/)). Bitcoin on the exchange account is still held by Paribu, so the app stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## Android
 

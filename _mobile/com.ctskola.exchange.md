@@ -1,9 +1,9 @@
 ---
 title: CTSKOLA EXCHANGE
-date: 2023-09-04
+date: 2026-10-30
 authors:
 - danny
-website: https://ctskola.com
+website: https://ctskola.com#deadLink
 twitter: CtsKola
 social:
 - https://t.me/+ubgDH4F2B-ZiMDVl
@@ -17,12 +17,13 @@ android:
   released: 2022-05-25
   updated: 2022-05-25
   version: '1.0'
-  icon: com.ctskola.exchange.webp
   meta: removed
   verdict: custodial
   developerName: CTSKOLA
 
 ---
+
+**Update 2026-10-30:** CTSKOLA looks gone. The app left Google Play, and ctskola.com now only shows a parked domain page, as it has [since at least October 2025](https://web.archive.org/web/20251013082043/https://ctskola.com/). The linked terms are gone too.
 
 ## App Description from Google Play
 
@@ -40,5 +41,5 @@ android:
 
 ## Analysis 
 
-- The [terms and conditions](https://ctskola.com/termsandconditions.pdf) for the service, describe both the account and the addresses associated with the user's funds as a "Custody Address".
+- The [terms and conditions](https://ctskola.com/termsandconditions.pdf#deadLink) for the service, describe both the account and the addresses associated with the user's funds as a "Custody Address".
 - Most cryptocurrency exchanges that hosts user accounts on servers and offer multicurrency digital asset storage and exchange services, are **custodial** providers. This means they hold the private keys for the wallets. This is reflected by the fact that when users can't login to their platform, they simply cannot access their funds. The app is **non-verifiable**.

@@ -1,6 +1,6 @@
 ---
 title: 'Xverse Wallet: Buy Bitcoin'
-date: 2022-01-13
+date: 2026-10-30
 authors:
 - danny
 website: https://www.xverse.app/
@@ -24,7 +24,6 @@ android:
   updated: 2026-10-12
   version: 2.11.1
   reviews: 1129
-  icon: com.secretkeylabs.xverse.webp
   meta: ok
   verdict: nosource
   developerName: Secret Key Labs
@@ -36,7 +35,6 @@ iphone:
   updated: 2026-10-13
   version: v2.11.1
   reviews: 1
-  icon: com.secretkeylabs.xverse.webp
   meta: ok
   verdict: nosource
   developerName: Secret Key Labs

@@ -1,11 +1,9 @@
 ---
 title: T+ Wallet-Essential Crypto Hub
-date: 2023-06-01
+date: 2026-10-30
 authors:
 - danny
 website: https://talkapp.org
-social:
-- https://talkapp.org
 features:
 - hd
 redirect_from:
@@ -18,7 +16,6 @@ android:
   released: 2021-01-05
   updated: 2026-02-05
   version: 3.2.0
-  icon: org.talkapp.webp
   meta: ok
   verdict: nosource
   developerName: Bull.B Technology Limited
@@ -30,7 +27,6 @@ iphone:
   updated: 2026-02-27
   version: 3.2.0
   reviews: 169
-  icon: org.talkapp.webp
   meta: ok
   verdict: nosource
   developerName: BULL.B TECHNOLOGY LIMITED

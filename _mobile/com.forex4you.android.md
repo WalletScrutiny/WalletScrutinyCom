@@ -1,6 +1,6 @@
 ---
 title: Markets4you - Online Trading
-date: 2021-11-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.markets4you.com/en/
@@ -18,7 +18,6 @@ android:
   updated: 2026-08-27
   version: 6.28.0
   reviews: 269
-  icon: com.forex4you.android.webp
   meta: ok
   verdict: nosendreceive
   developerName: E-Global Trade & Finance Group Inc.
@@ -30,7 +29,6 @@ iphone:
   updated: 2026-06-19
   version: 6.23.0
   reviews: 937
-  icon: com.forex4you.ios.webp
   meta: removed
   verdict: nosendreceive
   developerName: E-Global Trade & Finance Group, Inc.

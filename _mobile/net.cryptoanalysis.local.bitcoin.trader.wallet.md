@@ -1,6 +1,6 @@
 ---
 title: Local Bitcoin Trader Wallet
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/net.cryptoanalysis.local.bitcoin.trader.wallet/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-28
   updated: 2021-06-28
   version: '1.0'
-  icon: net.cryptoanalysis.local.bitcoin.trader.wallet.webp
   meta: removed
   verdict: wip
 

@@ -1,6 +1,6 @@
 ---
 title: Bitbns Pay - Crypto trading, 0
-date: 2026-01-16
+date: 2026-10-30
 authors:
 - danny
 twitter: bitbns
@@ -17,7 +17,6 @@ android:
   appCountry: us
   updated: 2023-11-23
   version: 1.9.1
-  icon: com.bitbnspay.webp
   meta: obsolete
   verdict: custodial
   developerName: Bitbns Cryptocurrency Trading Exchange India
@@ -29,7 +28,6 @@ iphone:
   updated: 2021-12-23
   version: 1.8.7
   reviews: 155
-  icon: com.bitbns.bnspay.webp
   meta: obsolete
   verdict: custodial
   developerName: Buyhatke Internet Private Limited

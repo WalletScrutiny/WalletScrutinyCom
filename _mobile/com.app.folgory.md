@@ -1,11 +1,9 @@
 ---
 title: Folgory Merchant
-date: 2023-05-11
+date: 2026-10-30
 authors:
 - danny
 website: https://folgory.com#deadLink
-social:
-- https://folgory.com#deadLink
 redirect_from:
 - /android/com.app.folgory/
 android:
@@ -14,7 +12,6 @@ android:
   released: 2019-08-14
   updated: 2019-08-14
   version: '1.5'
-  icon: com.app.folgory.webp
   meta: removed
   verdict: wip
   developerName: Folgory

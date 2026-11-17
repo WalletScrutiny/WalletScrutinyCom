@@ -1,6 +1,6 @@
 ---
 title: Bibox Pro：Crypto，BTC，ETH
-date: 2024-10-23
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bibox.com
@@ -20,7 +20,6 @@ android:
   updated: 2024-05-21
   version: 5.3.2
   reviews: 39
-  icon: com.box.pro.webp
   meta: removed
   verdict: custodial
   developerName: Bibox
@@ -32,7 +31,6 @@ iphone:
   updated: 2023-11-02
   version: 5.3.0
   reviews: 55
-  icon: com.biboxpro.release.webp
   meta: obsolete
   verdict: custodial
   developerName: Bibox Group Holdings Limited

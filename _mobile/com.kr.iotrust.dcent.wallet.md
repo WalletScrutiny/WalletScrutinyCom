@@ -1,6 +1,6 @@
 ---
 title: DCENT Wallet - Secure Crypto
-date: 2022-01-10
+date: 2026-10-30
 authors:
 - kiwilamb
 - danny
@@ -25,7 +25,6 @@ android:
   updated: 2026-10-02
   version: 10.1.0
   reviews: 1042
-  icon: com.kr.iotrust.dcent.wallet.webp
   meta: ok
   verdict: nosource
   developerName: IoTrust Co., Ltd
@@ -37,7 +36,6 @@ iphone:
   updated: 2026-10-06
   version: 10.1.0
   reviews: 87
-  icon: kr.iotrust.dcent.webp
   meta: ok
   verdict: nosource
   developerName: IoTrust Co., Ltd
@@ -45,6 +43,9 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The provider
+[renamed itself from D'CENT to DCENT](https://store.dcentwallet.com/blogs/post/dcent-is-now-dcent).
 
 ## Update 2024-07-15
 

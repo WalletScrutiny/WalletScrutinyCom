@@ -1,6 +1,6 @@
 ---
 title: Stex.com - Crypto exchange
-date: 2023-06-21
+date: 2026-10-30
 authors:
 - danny
 website: https://stex.com#deadLink
@@ -15,7 +15,6 @@ android:
   updated: 2023-04-18
   version: 2.2.0
   reviews: 41
-  icon: com.stocksexchange.android.webp
   meta: removed
   verdict: custodial
   developerName: Data Protection Corporation
@@ -26,12 +25,16 @@ iphone:
   updated: 2022-02-08
   version: '1.34'
   reviews: 29
-  icon: com.app.Stocks-exchanges.webp
   meta: removed
   verdict: custodial
   developerName: DATA PROTECTION CORPORATION
 
 ---
+
+**Update 2026-10-30:** STEX is gone. On 2023-06-04 its website showed only a
+["Force Majeure statement"](https://web.archive.org/web/20230604041902/https://stex.com/)
+saying it had suffered data loss and could not continue any business operations.
+stex.com now shows an unrelated page.
 
 ## Android
 

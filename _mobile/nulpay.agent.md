@@ -1,6 +1,6 @@
 ---
 title: NulPay - Agents
-date: 2024-04-19
+date: 2026-10-30
 website: https://nulpay.com
 redirect_from:
 - /android/nulpay.agent/
@@ -10,7 +10,6 @@ android:
   released: 2022-09-02
   updated: 2022-09-02
   version: '1'
-  icon: nulpay.agent.webp
   meta: removed
   verdict: wip
   developerName: Nulpay

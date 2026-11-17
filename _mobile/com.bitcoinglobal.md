@@ -1,6 +1,6 @@
 ---
 title: 'Bitcoin Global: P2P platform'
-date: 2025-04-14
+date: 2026-10-30
 authors:
 - danny
 website: https://bitcoin.global/
@@ -19,7 +19,6 @@ android:
   updated: 2025-08-05
   version: 2.13.0
   reviews: 5
-  icon: com.bitcoinglobal.webp
   meta: removed
   verdict: custodial
   developerName: Bitcoin Global Ex
@@ -30,18 +29,19 @@ iphone:
   updated: 2023-04-24
   version: 2.12.0
   reviews: 60
-  icon: com.global.bitcoin.webp
   meta: removed
   verdict: custodial
   developerName: Bitcoin Global
 
 ---
 
+**⚠️ Warning:** Bitcoin Global has shut down. Its website now only shows a [notice](https://web.archive.org/web/20260321191113/https://bitcoin.global/) that the platform "has officially ceased all operations" after a 90-day notice period, and that left-over funds can only be recovered manually by email, with KYC and a fee. The site still showed the exchange [in December 2025](https://web.archive.org/web/20251203225037/https://bitcoin.global/).
+
 ## Android
 
 ## App Description
 
-Bitcoin Global is a P2P platform from the [same providers](https://whitebit.com/bitcoin-global) as {% include walletLink.html wallet='android/com.whitebit.android' verdict='true' %}
+Bitcoin Global is a P2P platform from the [same providers](https://web.archive.org/web/20230202011653/https://whitebit.com/bitcoin-global) as {% include walletLink.html wallet='android/com.whitebit.android' verdict='true' %}
 
 The app claims that users don't have to register with KYC. 
 
@@ -53,7 +53,7 @@ The site claims that users may exchange directly with no middlemen.
 
 > The buyer pays the seller directly, without Bitcoin Global or any other third-parties involved. Once the payment is confirmed, the cryptocurrency is released from escrow to the buyer. Then both traders leave feedback on how the trade went.
 
-From the [Privacy Policy:](https://bitcoin.global/privacy-policy)
+From the [Privacy Policy:](https://web.archive.org/web/20250529011154/https://bitcoin.global/privacy-policy)
 
 > Bitcoin Global reserves the right to terminate the provision of the service to any user found engaging in activities that violate our Terms of Service and the Privacy Policy.
 

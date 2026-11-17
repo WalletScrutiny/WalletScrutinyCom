@@ -1,6 +1,6 @@
 ---
 title: Crypstone
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: http://www.crypstone.com
@@ -18,7 +18,6 @@ android:
   released: 2018-07-03
   updated: 2018-07-03
   version: '2.0'
-  icon: com.crypstone.android.crypstone.webp
   meta: removed
   verdict: custodial
   developerName: Crypstone

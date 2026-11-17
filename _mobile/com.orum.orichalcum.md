@@ -1,6 +1,6 @@
 ---
 title: Orichalcum
-date: 2023-12-19
+date: 2026-10-30
 redirect_from:
 - /android/com.orum.orichalcum/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2019-09-19
   updated: 2019-09-20
   version: '1.0'
-  icon: com.orum.orichalcum.webp
   meta: removed
   verdict: wip
   developerName: Orichalcum

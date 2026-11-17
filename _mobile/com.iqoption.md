@@ -1,6 +1,6 @@
 ---
 title: IQ Option – Trading Platform
-date: 2024-09-02
+date: 2026-10-30
 authors:
 - danny
 website: https://km.iqoption.com/en
@@ -18,7 +18,6 @@ android:
   updated: 2026-10-01
   version: 8.68.3
   reviews: 557
-  icon: com.iqoption.webp
   meta: ok
   verdict: nosendreceive
   developerName: IQ Option
@@ -30,7 +29,6 @@ iphone:
   updated: 2026-10-07
   version: '4.108'
   reviews: 1283
-  icon: com.trading.iqoption.webp
   meta: ok
   verdict: nosendreceive
   developerName: IQOPTION EUROPE LTD

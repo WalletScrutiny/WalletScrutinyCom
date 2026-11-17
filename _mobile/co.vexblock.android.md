@@ -1,6 +1,6 @@
 ---
 title: Vex Block Wallet
-date: 2023-04-20
+date: 2026-10-30
 authors:
 - danny
 website: https://web.archive.org/web/20200805051007/http://vexblock.co/
@@ -13,7 +13,6 @@ android:
   updated: 2019-10-15
   version: 1.0.3
   reviews: 18
-  icon: co.vexblock.android.webp
   meta: removed
   verdict: wip
   developerName: Vex Capital And Technology LTD

@@ -1,6 +1,6 @@
 ---
 title: BIT.EU Trade Futures Crypto
-date: 2025-11-13
+date: 2026-10-30
 authors:
 - danny
 website: https://bit.eu
@@ -13,7 +13,6 @@ android:
   released: 2024-07-10
   updated: 2026-04-28
   version: 200.5.5
-  icon: com.combiteu.webp
   meta: ok
   verdict: custodial
   developerName: Bit.Eu

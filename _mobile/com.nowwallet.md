@@ -1,6 +1,6 @@
 ---
 title: 'NOW Wallet: Buy & Store Crypto'
-date: 2023-04-08
+date: 2026-10-30
 authors:
 - danny
 website: https://walletnow.app
@@ -25,7 +25,6 @@ android:
   updated: 2026-09-29
   version: 3.19.2
   reviews: 206
-  icon: com.nowwallet.webp
   meta: ok
   verdict: nosource
   developerName: ChangeNOW
@@ -37,7 +36,6 @@ iphone:
   updated: 2026-10-14
   version: 3.19.3
   reviews: 856
-  icon: io.changenow.wallet-now.webp
   meta: ok
   verdict: nosource
   developerName: CHN Group Limited

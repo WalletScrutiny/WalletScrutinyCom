@@ -1,11 +1,10 @@
 ---
 title: HotsCoin - More Than 100× Gem
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
+website: https://hotscoin.com
 twitter: hotscoin
-social:
-- https://hotscoin.com
 redirect_from:
 - /android/com.hots.quantity/
 - /iphone/com.hots.quantity/
@@ -16,7 +15,6 @@ android:
   updated: 2024-04-02
   version: 3.20.1
   reviews: 10
-  icon: com.hots.quantity.webp
   meta: removed
   verdict: custodial
   developerName: KX Network Co., Ltd.
@@ -28,12 +26,13 @@ iphone:
   updated: 2022-07-29
   version: 1.2.0
   reviews: 8
-  icon: com.hots.quantity.webp
   meta: removed
   verdict: custodial
   developerName: 台湾凯旋网络科技
 
 ---
+
+**Update 2026-10-30:** HotsCoin renamed itself HIBT in April 2024 and moved from hotscoin.com to hibt.com ([announcement](https://support.hibt.com/hc/en-us/articles/9531512621967-HotsCoin-Rebranding-Announcement-Renaming-to-HIBT)). The HotsCoin apps are gone from both stores.
 
 ## Android
 

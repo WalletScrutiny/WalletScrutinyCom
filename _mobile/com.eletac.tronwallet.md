@@ -1,6 +1,6 @@
 ---
 title: 'Vision: Bitcoin Crypto Wallet'
-date: 2024-07-17
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
@@ -16,7 +16,6 @@ android:
   updated: 2023-03-07
   version: 2.4.56
   reviews: 112
-  icon: com.eletac.tronwallet.webp
   meta: removed
   verdict: nosource
   developerName: Vision Dev - GO 428 LLC
@@ -27,7 +26,6 @@ iphone:
   updated: 2023-01-22
   version: 2.4.46
   reviews: 39
-  icon: com.visionsoftware.vision.webp
   meta: removed
   verdict: nosource
   developerName: Go 428 llc

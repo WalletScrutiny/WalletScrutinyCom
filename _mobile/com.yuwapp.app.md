@@ -1,6 +1,6 @@
 ---
 title: YUW!
-date: 2024-05-18
+date: 2026-10-30
 website: https://yuwapp.com#deadLink
 redirect_from:
 - /android/com.yuwapp.app/
@@ -10,7 +10,6 @@ android:
   released: 2022-07-02
   updated: 2022-07-28
   version: 1.0.0
-  icon: com.yuwapp.app.webp
   meta: removed
   verdict: wip
   developerName: YUB!

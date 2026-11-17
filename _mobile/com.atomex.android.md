@@ -1,6 +1,6 @@
 ---
 title: Atomex - Crypto Wallet & DEX
-date: 2022-02-25
+date: 2026-10-30
 authors:
 - leo
 website: https://atomex.me#deadLink
@@ -15,11 +15,9 @@ android:
   updated: 2023-02-24
   version: 1.25.0
   reviews: 5
-  icon: com.atomex.android.webp
   meta: removed
-  verdict: sourceavailable
+  verdict: nosource
   developerName: Atomex
-  repository: https://github.com/atomex-me/atomex.mobile#deadLink
 iphone:
   appId: com.atomex.ios
   idd: '1534717828'
@@ -27,13 +25,13 @@ iphone:
   updated: 2023-02-19
   version: '1.24'
   reviews: 11
-  icon: com.atomex.ios.webp
   meta: removed
-  verdict: sourceavailable
+  verdict: nosource
   developerName: Atomex OÜ
-  repository: https://github.com/atomex-me/atomex.mobile#deadLink
 
 ---
+
+**Update 2026-10-30:** Atomex has ended the project, and we change the verdict of both apps from {% include verdictBadge.html verdict="sourceavailable" type='short' %} to {% include verdictBadge.html verdict="nosource" type='short' %}. The [Atomex website](https://atomex.me/) now only says "We are sad to announce that the Atomex team will no longer support the project", and the atomex.mobile repository we linked below has been deleted from the [atomex-me GitHub account](https://github.com/atomex-me). The only copy we found is a [personal copy](https://github.com/mismirnov/atomex.mobile) last updated in May 2021, long before the last release, 1.25.0, in February 2023.
 
 ## Android
 

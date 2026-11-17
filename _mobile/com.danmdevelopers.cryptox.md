@@ -1,6 +1,6 @@
 ---
 title: Crypto X Capital
-date: 2024-04-19
+date: 2026-10-30
 website: http://www.danmdevelopers.com#deadLink
 redirect_from:
 - /android/com.danmdevelopers.cryptox/
@@ -10,7 +10,6 @@ android:
   released: 2021-05-01
   updated: 2021-05-01
   version: '1.0'
-  icon: com.danmdevelopers.cryptox.webp
   meta: removed
   verdict: wip
   developerName: Daniel Nicolalde

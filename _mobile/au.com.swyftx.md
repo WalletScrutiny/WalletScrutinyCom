@@ -1,6 +1,6 @@
 ---
 title: 'Swyftx: Buy Bitcoin, ETH & SOL'
-date: 2025-11-11
+date: 2026-10-30
 authors:
 - danny
 website: https://swyftx.com/
@@ -23,7 +23,6 @@ android:
   appCountry: us
   updated: 2026-09-28
   version: 2.11.2
-  icon: au.com.swyftx.webp
   meta: ok
   verdict: custodial
   developerName: Swyftx Pty Ltd
@@ -35,7 +34,6 @@ iphone:
   updated: 2026-09-29
   version: 2.11.2
   reviews: 6039
-  icon: au.com.swyftx.ios.webp
   meta: ok
   verdict: custodial
   developerName: Swyftx Pty Ltd

@@ -1,6 +1,6 @@
 ---
 title: Deex Exchange
-date: 2023-06-12
+date: 2026-10-30
 authors:
 - danny
 website: https://deex.exchange#deadLink
@@ -19,7 +19,6 @@ android:
   released: 2019-11-29
   updated: 2020-04-21
   version: 0.3.9
-  icon: deex.exchange.android.webp
   meta: removed
   verdict: wip
   developerName: Deex Group

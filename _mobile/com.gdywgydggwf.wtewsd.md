@@ -1,6 +1,6 @@
 ---
 title: NSTAREX
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/com.gdywgydggwf.wtewsd/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-03-26
   updated: 2022-03-27
   version: '1.0'
-  icon: com.gdywgydggwf.wtewsd.webp
   meta: removed
   verdict: wip
 

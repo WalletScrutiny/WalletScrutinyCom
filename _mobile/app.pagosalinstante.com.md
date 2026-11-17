@@ -1,6 +1,6 @@
 ---
 title: 'PAI : Bitcoin, Tron, LTC y más'
-date: 2021-09-23
+date: 2026-10-30
 authors:
 - danny
 website: https://paiexchange.com
@@ -17,12 +17,13 @@ android:
   updated: 2026-08-07
   version: 1.08.1124
   reviews: 41
-  icon: app.pagosalinstante.com.webp
   meta: ok
   verdict: custodial
   developerName: PAI Exchange
 
 ---
+
+**Update 2026-10-30:** Pagos Al Instante is now [PAI Exchange](https://paiexchange.com/). The app is still on Google Play and was updated in 2026, so the "close to being defunct" worry below did not come true.
 
 Cursory analysis indicates that this is a business backed cryptocurrency exchange. Our tentative analysis points to a custodial service. 
 

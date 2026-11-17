@@ -1,6 +1,6 @@
 ---
 title: e-Mal Digital Wallet
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: https://e-mal.ae#deadLink
@@ -14,7 +14,6 @@ android:
   released: 2018-07-16
   updated: 2020-01-02
   version: '3.2'
-  icon: ae.efatoora.emal.webp
   meta: removed
   verdict: wip
   developerName: eFatoora

@@ -1,6 +1,6 @@
 ---
 title: AmberWallet
-date: 2026-01-14
+date: 2026-10-30
 website: http://amber.app/
 appCountry: us
 redirect_from:
@@ -13,7 +13,6 @@ iphone:
   updated: 2026-03-20
   version: 2.12.0
   reviews: 1
-  icon: app.amber.v2.webp
   meta: removed
   verdict: wip
   developerName: Amber Labs

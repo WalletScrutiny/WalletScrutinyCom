@@ -1,6 +1,6 @@
 ---
 title: Buy Crypto India
-date: 2021-09-28
+date: 2026-10-30
 redirect_from:
 - /android/org.thecryptoapps.buy.crypto.india/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-16
   updated: 2021-06-16
   version: '1.0'
-  icon: org.thecryptoapps.buy.crypto.india.webp
   meta: removed
   verdict: wip
 

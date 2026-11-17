@@ -1,6 +1,6 @@
 ---
 title: Cryptostone Wallet
-date: 2023-08-04
+date: 2026-10-30
 website: https://www.crypto-stone.io/
 redirect_from:
 - /android/com.cryptostone.ewallet/
@@ -10,7 +10,6 @@ android:
   released: 2023-04-23
   updated: 2023-04-23
   version: 1.0.0
-  icon: com.cryptostone.ewallet.webp
   meta: removed
   verdict: wip
   developerName: Kashi developer

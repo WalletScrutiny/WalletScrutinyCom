@@ -1,9 +1,9 @@
 ---
 title: 후오비 코리아 - 가상자산 거래소(비트코인, 이더리움)
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
-website: https://www.huobi.co.kr
+website: https://web.archive.org/web/20210614124509/https://www.huobi.co.kr/
 twitter: huobi_korea
 social:
 - https://www.facebook.com/huobikorea
@@ -18,7 +18,6 @@ android:
   updated: 2023-08-09
   version: 3.8.8
   reviews: 752
-  icon: co.huobi.kr.webp
   meta: removed
   verdict: custodial
   developerName: Hb-korea
@@ -30,16 +29,17 @@ iphone:
   updated: 2023-08-03
   version: 3.8.8
   reviews: 273
-  icon: com.huobi.kr.webp
   meta: removed
   verdict: custodial
   developerName: Huobi Korea
 
 ---
 
+**⚠️ Warning:** Huobi Korea shut down its exchange. It [announced the closure on December 29, 2023](https://www.coinspeaker.com/huobi-korea-shuts-down-operations/) and asked customers to withdraw their funds by January 29, 2024. Its old website huobi.co.kr now shows an unrelated site.
+
 ## Android
 
-**Note:** It's a Korean app and may not have an English translation. To add to that, there seems to be two official websites: [huobiwallet.com](https://www.huobiwallet.com/) and [hb.co.kr](https://www.hb.co.kr/)
+**Note:** It's a Korean app and may not have an English translation. To add to that, there seems to be two official websites: [huobiwallet.com](https://www.huobiwallet.com/#deadLink) and [hb.co.kr](https://www.hb.co.kr/)
 
 > Trade virtual assets in the safest way on Huobi Korea, selected by 3 million investors worldwide with the highest level of security!
 
@@ -59,7 +59,7 @@ Due to the required verification, we assume this app is **custodial** and thus *
 
 ## iPhone
 
-**Note:** It's a Korean app and may not have an English translation. To add to that, there seems to be two official websites: [huobiwallet.com](https://www.huobiwallet.com/) and [hb.co.kr](https://www.hb.co.kr/)
+**Note:** It's a Korean app and may not have an English translation. To add to that, there seems to be two official websites: [huobiwallet.com](https://www.huobiwallet.com/#deadLink) and [hb.co.kr](https://www.hb.co.kr/)
 
 > Trade virtual assets in the safest way on Huobi Korea, selected by 3 million investors worldwide with the highest level of security!
 

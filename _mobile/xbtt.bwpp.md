@@ -1,6 +1,6 @@
 ---
 title: BTW
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/xbtt.bwpp/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-04-27
   updated: 2022-04-27
   version: '3'
-  icon: xbtt.bwpp.webp
   meta: removed
   verdict: wip
 

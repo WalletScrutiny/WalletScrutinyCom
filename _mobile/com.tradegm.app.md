@@ -1,7 +1,7 @@
 ---
 title: TradeGM
-date: 2023-08-16
-website: https://tradegm.eu/
+date: 2026-10-30
+website: https://tradegm.eu/#deadLink
 redirect_from:
 - /android/com.tradegm.app/
 android:
@@ -9,7 +9,6 @@ android:
   users: 100
   updated: 2020-12-18
   version: '1.5'
-  icon: com.tradegm.app.webp
   meta: removed
   verdict: wip
   developerName: eBrókerház Zrt.

@@ -182,7 +182,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   archived:
-    output: false
+    # Bare body fragments, fetched by /archived/ to show the old analysis.
+    output: true
+    permalink: /archived/body/:path.html
 
 # Defaults
 defaults:
@@ -258,6 +260,13 @@ defaults:
       comments: false
       share: true
       related: false      
+  # archived
+  - scope:
+      path: ""
+      type: "archived"
+    values:
+      layout: null
+      sitemap: false
   # _pages
   - scope:
       path: ""

@@ -1,6 +1,6 @@
 ---
 title: Cypra Bitcoin wallet
-date: 2024-07-05
+date: 2026-10-30
 website: https://cypra.io/
 redirect_from:
 - /android/org.ergvein.wallet/
@@ -10,7 +10,6 @@ android:
   released: 2022-03-14
   updated: 2022-05-10
   version: Alpha
-  icon: org.ergvein.wallet.webp
   meta: removed
   verdict: wip
   developerName: Anton Gushcha

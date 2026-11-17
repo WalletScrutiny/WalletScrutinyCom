@@ -1,6 +1,6 @@
 ---
 title: 'IronWallet: Crypto Wallet'
-date: 2024-09-02
+date: 2026-10-30
 authors:
 - danny
 website: https://ironwallet.io/
@@ -21,7 +21,6 @@ android:
   updated: 2026-10-07
   version: 1.14.0
   reviews: 111
-  icon: com.wallet.crypto.btc.eth.webp
   meta: ok
   verdict: nosource
   developerName: INWAY AKTIENGESELLSCHAFT
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-10-08
   version: 1.14.0
   reviews: 60
-  icon: com.wallet.crypto.btc.eth.webp
   meta: ok
   verdict: nosource
   developerName: INWAY AKTIENGESELLSCHAFT

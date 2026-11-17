@@ -305,9 +305,9 @@ liquid:
   alert: >
     <strong>Liquid Bitcoin is NOT Bitcoin.</strong> L-BTC is held by a federation
     of companies. If a quorum of federation members collude or are compelled, they
-    can seize all L-BTC. If Blockstream alone fails to rotate keys on schedule,
-    they gain unilateral control. Only use Liquid for amounts you'd trust to a
-    corporate consortium.
+    can seize all L-BTC. If the federation stops refreshing its timelocks,
+    Blockstream's emergency keys alone can spend the funds. Only use Liquid for
+    amounts you'd trust to a corporate consortium.
 fingerprint:
   short: Fingerprint Authentication
   long: >

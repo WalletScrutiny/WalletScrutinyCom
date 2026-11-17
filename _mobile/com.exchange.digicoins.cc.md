@@ -1,6 +1,6 @@
 ---
 title: Digicoins
-date: 2023-10-16
+date: 2026-10-30
 redirect_from:
 - /android/com.exchange.digicoins.cc/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-12-06
   updated: 2023-03-27
   version: 3.5.43
-  icon: com.exchange.digicoins.cc.webp
   meta: removed
   verdict: wip
   developerName: DIGICOINS TECHNOLOGY AND MANAGEMENT LIMITED

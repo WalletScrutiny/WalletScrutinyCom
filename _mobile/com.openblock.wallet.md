@@ -1,6 +1,6 @@
 ---
 title: OpenBlock
-date: 2026-05-20
+date: 2026-10-30
 authors:
 - danny
 website: https://openblock.com
@@ -15,7 +15,6 @@ android:
   released: 2023-02-06
   updated: 2026-03-10
   version: 2.2.6
-  icon: com.openblock.wallet.webp
   meta: removed
   verdict: custodial
   developerName: JXJL Inc.
@@ -27,7 +26,6 @@ iphone:
   updated: 2026-07-02
   version: 2.2.7
   reviews: 3
-  icon: com.dssq.obwallet.webp
   meta: ok
   verdict: custodial
   developerName: JXJL Inc.

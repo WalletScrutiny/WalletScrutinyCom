@@ -1,6 +1,6 @@
 ---
 title: Nature
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/uni.UNICB29B91/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-10-29
   updated: 2021-10-29
   version: 1.0.1
-  icon: uni.UNICB29B91.webp
   meta: removed
   verdict: wip
 

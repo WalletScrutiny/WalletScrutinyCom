@@ -1,6 +1,6 @@
 ---
 title: 'Abra: Buy & Trade BTC & Crypto'
-date: 2026-01-08
+date: 2026-10-30
 authors:
 - leo
 website: https://www.abra.com/
@@ -21,7 +21,6 @@ android:
   updated: 2024-01-12
   version: '146.0'
   reviews: 2888
-  icon: com.plutus.wallet.webp
   meta: obsolete
   verdict: custodial
   developerName: Plutus Financial Inc
@@ -33,12 +32,13 @@ iphone:
   updated: 2024-02-16
   version: 145.0.0
   reviews: 161
-  icon: com.goabra.abra.webp
   meta: removed
   verdict: custodial
   developerName: Plutus Financial
 
 ---
+
+**Update 2026-10-30:** Abra now sells wealth management to institutions and private clients, and its [website](https://www.abra.com/) links to a new iPhone app by the same company, "Abra Financial", instead of this one.
 
 ## Android
 

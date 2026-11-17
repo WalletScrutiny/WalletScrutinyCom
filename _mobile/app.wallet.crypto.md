@@ -1,6 +1,6 @@
 ---
 title: wallet.app
-date: 2025-10-15
+date: 2026-10-30
 website: https://wallet.app
 redirect_from:
 - /android/app.wallet.crypto/
@@ -10,7 +10,6 @@ android:
   released: 2021-10-30
   updated: 2024-01-12
   version: 2.0.1
-  icon: app.wallet.crypto.webp
   meta: removed
   verdict: wip
   developerName: New Capital LT, UAB

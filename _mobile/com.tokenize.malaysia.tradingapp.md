@@ -1,6 +1,6 @@
 ---
 title: Tokenize Crypto Trading App - Malaysia (Beta)
-date: 2021-10-30
+date: 2026-10-30
 authors:
 - danny
 - leo
@@ -17,11 +17,12 @@ android:
   updated: 2021-06-23
   version: 1.15.2
   reviews: 87
-  icon: com.tokenize.malaysia.tradingapp.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** Tokenize Technology (M) Sdn Bhd is now Kinetic DAX Sdn Bhd (KDX), and in March 2026 Kenanga Investment Bank [raised its stake in KDX to 81.70%](https://www.kenanga.com.my/wp-content/uploads/2026/03/Press-Release-Kenanga-Investment-Bank-Ups-Stake-in-KDX-Establishing-Malaysias-First-Bank-Backed-Digital-Asset-Exchange.pdf). tokenizemalaysia.com [redirected to KDX](https://web.archive.org/web/20260212122019/https://tokenizemalaysia.com/) and no longer answers, so the old Tokenize Malaysia links below are dead.
 
 **Update 2021-10-19**: This app is no more.
 

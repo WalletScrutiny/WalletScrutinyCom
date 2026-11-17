@@ -1,6 +1,6 @@
 ---
 title: WEEX - Buy Bitcoin & Crypto
-date: 2023-08-17
+date: 2026-10-30
 authors:
 - danny
 website: https://www.weex.com
@@ -23,7 +23,6 @@ android:
   updated: 2026-06-23
   version: 4.5.28
   reviews: 360
-  icon: com.wake.weexprd.webp
   meta: removed
   verdict: custodial
   developerName: WEEX PRO
@@ -35,7 +34,6 @@ iphone:
   updated: 2026-10-14
   version: 4.5.45
   reviews: 2157
-  icon: com.wake.weexprd.webp
   meta: ok
   verdict: custodial
   developerName: Weex Virtual Currency Exchange LLC

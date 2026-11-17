@@ -1,6 +1,6 @@
 ---
 title: Hoo Pro
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
 website: https://hoo.com#deadLink
@@ -19,7 +19,6 @@ android:
   updated: 2022-09-22
   version: 4.7.79
   reviews: 84
-  icon: com.hoo.qianbao.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -29,12 +28,13 @@ iphone:
   updated: 2022-09-15
   version: 4.6.96
   reviews: 148
-  icon: cn.maolian.hufu.app.standard.webp
   meta: removed
   verdict: custodial
   developerName: Hoo Technology Limited
 
 ---
+
+**Update 2026-10-30:** Hoo is gone. It suspended withdrawals in June 2022 and by December 2022 had [deleted its website with user funds still locked](https://crypto.news/hoo-exchange-deletes-website-users-funds-locked-up/). Both apps are no longer in the stores.
 
 ## Android
 

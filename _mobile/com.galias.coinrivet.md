@@ -1,12 +1,11 @@
 ---
 title: Coin Rivet
-date: 2024-04-02
+date: 2026-10-30
 authors:
 - danny
 website: https://coinrivet.com/
 twitter: CoinRivet
 social:
-- https://coinrivet.com
 - https://www.instagram.com/CoinRivet
 - https://www.facebook.com/CoinRivet
 redirect_from:
@@ -18,7 +17,6 @@ android:
   appCountry: us
   updated: 2026-10-02
   version: 1.5.5.1253
-  icon: com.galias.coinrivet.webp
   meta: ok
   verdict: custodial
   developerName: Galias Services
@@ -30,7 +28,6 @@ iphone:
   updated: 2026-02-04
   version: 1.3.23
   reviews: 0
-  icon: com.luxontech.coinrivet.webp
   meta: ok
   verdict: custodial
   developerName: GALIAS SERVICES UAB

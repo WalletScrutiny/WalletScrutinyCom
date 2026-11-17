@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Binance Exchange And Cryptocurrency Ex.
-date: 2021-10-22
+date: 2026-10-30
 redirect_from:
 - /android/com.wBinanceBitcoinExchangeAndCryptocurrencyExchangeTrade_14058627/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-07-06
   updated: 2021-07-06
   version: '1.0'
-  icon: com.wBinanceBitcoinExchangeAndCryptocurrencyExchangeTrade_14058627.webp
   meta: removed
   verdict: wip
 

@@ -1,6 +1,6 @@
 ---
 title: BitpitTR
-date: 2023-08-07
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2022-05-08
   updated: 2022-05-20
   version: 1.0.4
-  icon: com.mao.guiderun.webp
   meta: removed
   verdict: nosource
   developerName: Fabian Cooper

@@ -1,9 +1,9 @@
 ---
 title: Patricia
-date: 2023-08-29
+date: 2026-10-30
 authors:
 - danny
-website: https://mypatricia.co/
+website: https://mypatricia.co/#deadLink
 twitter: PatriciaSwitch
 social:
 - https://www.facebook.com/patricia.com.ng
@@ -17,7 +17,6 @@ iphone:
   updated: 2021-08-22
   version: 1.3.1
   reviews: 619
-  icon: com.patricia.build.webp
   meta: removed
   verdict: custodial
 

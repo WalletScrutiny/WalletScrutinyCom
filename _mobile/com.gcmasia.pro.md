@@ -1,6 +1,6 @@
 ---
 title: GCMAsia Pro
-date: 2025-06-11
+date: 2026-10-30
 authors:
 - danny
 website: https://www.gcmasia.com
@@ -15,7 +15,6 @@ android:
   released: 2017-04-24
   updated: 2024-08-18
   version: 90.4.010
-  icon: com.gcmasia.pro.webp
   meta: removed
   verdict: nosendreceive
   developerName: GCM Europe Ltd

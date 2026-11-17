@@ -1,9 +1,9 @@
 ---
 title: Overline
-date: 2023-08-16
+date: 2026-10-30
 authors:
 - danny
-website: https://overline.network
+website: https://overline.network#deadLink
 twitter: overlinenetwork
 social:
 - https://www.facebook.com/overlinenetwork
@@ -19,7 +19,6 @@ android:
   updated: 2021-09-16
   version: '1.1'
   reviews: 4
-  icon: com.overline.webp
   meta: removed
   verdict: nosource
   developerName: American Centurion Group, Inc.
@@ -31,12 +30,13 @@ iphone:
   updated: 2022-01-08
   version: '1.17'
   reviews: 10
-  icon: com.americancenturiongroup.borderless.webp
   meta: removed
   verdict: nosource
   developerName: American Centurion Group, Inc.
 
 ---
+
+**Update 2026-10-30:** Overline appears to be gone. Both apps are no longer in the stores, and its website overline.network no longer loads: the [last working archived copy](https://web.archive.org/web/20250223125119/https://overline.network/) is from February 2025, and every capture since late March 2025 shows the site down.
 
 ## Android
 

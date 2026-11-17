@@ -1,6 +1,6 @@
 ---
 title: Obsidiam
-date: 2025-05-30
+date: 2026-10-30
 authors:
 - danny
 website: https://obsidiam.com/
@@ -19,7 +19,6 @@ android:
   released: 2020-08-24
   updated: 2024-03-22
   version: 1.6.6
-  icon: com.obsidiam.android1.webp
   meta: removed
   verdict: custodial
   developerName: Obsidiam
@@ -31,12 +30,13 @@ iphone:
   updated: 2024-04-08
   version: 3.1.0
   reviews: 14
-  icon: com.obsidiam.appstore.webp
   meta: removed
   verdict: custodial
   developerName: Obsidiam
 
 ---
+
+**Update 2026-10-30:** Both apps are gone from the stores, and the [Obsidiam website](https://www.obsidiam.com/) now offers only an FX and USDT payment platform for companies, with no consumer app.
 
 ## Android
 

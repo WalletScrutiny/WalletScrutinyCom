@@ -1,6 +1,6 @@
 ---
 title: Cointopay POS
-date: 2025-02-26
+date: 2026-10-30
 website: https://cointopay.com
 redirect_from:
 - /android/com.cointopay.pos/
@@ -11,7 +11,6 @@ android:
   released: 2018-10-10
   updated: 2023-03-09
   version: 1.3.0
-  icon: com.cointopay.pos.webp
   meta: obsolete
   verdict: wip
   developerName: Cointopay.com

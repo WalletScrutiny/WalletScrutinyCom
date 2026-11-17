@@ -1,6 +1,6 @@
 ---
 title: UKCoin Exchange
-date: 2024-07-05
+date: 2026-10-30
 website: https://ukcoins.exchange#deadLink
 redirect_from:
 - /android/com.ukcoin.exchange/
@@ -10,7 +10,6 @@ android:
   released: 2020-07-16
   updated: 2020-07-17
   version: '1.0'
-  icon: com.ukcoin.exchange.webp
   meta: removed
   verdict: wip
   developerName: UKCOIN

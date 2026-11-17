@@ -1,6 +1,6 @@
 ---
 title: 'Coinbase: Buy Crypto & Stocks'
-date: 2021-10-12
+date: 2026-10-30
 authors:
 - leo
 website: https://coinbase.com/
@@ -25,7 +25,6 @@ android:
   updated: 2026-10-08
   version: 14.38.54
   reviews: 118438
-  icon: com.coinbase.android.webp
   meta: ok
   verdict: custodial
   developerName: Coinbase Inc
@@ -37,7 +36,6 @@ iphone:
   updated: 2026-10-12
   version: 14.39.44
   reviews: 1797825
-  icon: com.vilcsak.bitcoin2.webp
   meta: ok
   verdict: custodial
   developerName: Coinbase, Inc.

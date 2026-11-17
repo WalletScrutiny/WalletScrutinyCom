@@ -1,6 +1,6 @@
 ---
 title: Teroxx
-date: 2021-11-15
+date: 2026-10-30
 authors:
 - danny
 website: https://www.teroxx.com/
@@ -15,7 +15,6 @@ android:
   released: 2019-08-26
   updated: 2026-06-17
   version: 3.0.56
-  icon: com.teroxx.webp
   meta: ok
   verdict: custodial
   developerName: Teroxx
@@ -27,7 +26,6 @@ iphone:
   updated: 2026-06-23
   version: 3.0.51
   reviews: 1
-  icon: Teroxx.webp
   meta: ok
   verdict: custodial
   developerName: Teroxx Worldwide UAB

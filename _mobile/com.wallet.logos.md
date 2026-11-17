@@ -1,9 +1,9 @@
 ---
 title: Dives Wallet (DABI)
-date: 2024-10-24
+date: 2026-10-30
 authors:
 - danny
-website: https://logos-foundation.org/logos
+website: https://web.archive.org/web/20240519054233/https://logos-foundation.org/logos
 redirect_from:
 - /android/com.wallet.logos/
 - /iphone/com.wallet.logos/
@@ -14,7 +14,6 @@ android:
   released: 2020-09-16
   updated: 2026-05-15
   version: 0.4.4
-  icon: com.wallet.logos.webp
   meta: ok
   verdict: custodial
   developerName: Logos Foundation PTE. LTD.
@@ -26,12 +25,13 @@ iphone:
   updated: 2025-02-26
   version: v0.2.6
   reviews: 2
-  icon: com.wallet.logos.webp
   meta: removed
   verdict: custodial
   developerName: LOGOS FOUNDATION PTE. LTD.
 
 ---
+
+**Update 2026-10-30:** The provider's website is gone: logos-foundation.org now belongs to an unrelated Spanish transport research foundation, and the wallet page and whitepaper are only on the [Wayback Machine](https://web.archive.org/web/20240519054233/https://logos-foundation.org/logos). The Android app is still listed and was updated in May 2026.
 
 ## Android
 
@@ -45,7 +45,7 @@ This app claims to be a multi-currency digital wallet. Its description advertise
  - It supports Bitcoin (BTC), Ethereum (ETH)
  
  
-Searching for the company's name, "LOGOS Foundation PTE LDE" took us to what can be assumed to be the official site. There we found the product's [whitepaper.](https://logos-foundation.org/logos-en.pdf) One section had information on how the app encrypts private keys:
+Searching for the company's name, "LOGOS Foundation PTE LDE" took us to what can be assumed to be the official site. There we found the product's [whitepaper.](https://web.archive.org/web/20221004125709/https://logos-foundation.org/logos-en.pdf) One section had information on how the app encrypts private keys:
 
 > Decentralized Security Wallet Service
 >

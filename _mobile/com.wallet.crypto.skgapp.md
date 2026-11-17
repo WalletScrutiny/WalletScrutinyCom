@@ -1,6 +1,6 @@
 ---
 title: SKG 암호화폐 지갑(비트코인, 이더리움 등) ERC2
-date: 2023-12-19
+date: 2026-10-30
 website: http://skg-world.com#deadLink
 redirect_from:
 - /android/com.wallet.crypto.skgapp/
@@ -10,7 +10,6 @@ android:
   released: 2019-06-17
   updated: 2019-07-22
   version: 1.4.42
-  icon: com.wallet.crypto.skgapp.webp
   meta: removed
   verdict: wip
   developerName: SUPER KOREA

@@ -1,7 +1,7 @@
 ---
 title: 'Coinovy: Bitcoin Crypto Wallet'
-date: 2023-01-02
-website: https://coinovy.com/
+date: 2026-10-30
+website: https://coinovy.com/#deadLink
 redirect_from:
 - /android/com.coinovy.coin/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-08-27
   updated: 2022-04-07
   version: 1.0.4
-  icon: com.coinovy.coin.webp
   meta: removed
   verdict: wip
 

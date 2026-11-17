@@ -1,6 +1,6 @@
 ---
 title: BitValve - P2P Crypto Exchange
-date: 2021-11-03
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitvalve.com
@@ -15,7 +15,6 @@ android:
   updated: 2026-05-22
   version: 1.41.0
   reviews: 62
-  icon: com.bitvalve.android.webp
   meta: removed
   verdict: custodial
   developerName: BitValve Developer

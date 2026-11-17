@@ -1,6 +1,6 @@
 ---
 title: X7 Exchange
-date: 2024-12-31
+date: 2026-10-30
 authors:
 - danny
 website: https://x7exchange.com/
@@ -17,7 +17,6 @@ android:
   released: 2022-01-02
   updated: 2023-01-12
   version: '2.3'
-  icon: com.books.x7exchange.webp
   meta: removed
   verdict: custodial
   developerName: X7 Exchange

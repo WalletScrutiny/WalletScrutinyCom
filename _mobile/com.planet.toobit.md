@@ -1,6 +1,6 @@
 ---
 title: 'Toobit: Buy BTC, ETH & Crypto'
-date: 2025-12-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.toobit.com
@@ -23,7 +23,6 @@ android:
   updated: 2026-09-04
   version: 2.3.7
   reviews: 326
-  icon: com.planet.toobit.webp
   meta: ok
   verdict: custodial
   developerName: TooBit Inc.
@@ -35,7 +34,6 @@ iphone:
   updated: 2026-09-05
   version: 2.3.7
   reviews: 3833
-  icon: com.planet.toobit.webp
   meta: ok
   verdict: custodial
   developerName: Hopeful Technology Co., Ltd.

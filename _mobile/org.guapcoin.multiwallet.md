@@ -1,6 +1,6 @@
 ---
 title: Official Guap & Bitcoin Wallet
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: https://www.guapcoin.org
@@ -19,7 +19,6 @@ android:
   updated: 2022-09-14
   version: 1.1.0
   reviews: 23
-  icon: org.guapcoin.multiwallet.webp
   meta: removed
   verdict: nosource
   developerName: She Interactive, LLC
@@ -31,12 +30,13 @@ iphone:
   updated: 2022-09-24
   version: 1.1.3
   reviews: 48
-  icon: org.guapcoin.multiwallet.webp
   meta: removed
   verdict: nosource
   developerName: Guap Coin, LLC
 
 ---
+
+**Update 2026-10-30:** Guapcoin is moving from its old chain to a new EVM chain, GuapcoinX ([migration guide](https://www.guapcoin.org/migration/)). Its [wallets page](https://www.guapcoin.org/wallets/) no longer mentions this app and recommends a new iPhone app, Guapcoin Wallet by Kowrii Corp, which holds GUAP only, not bitcoin ([website](https://www.guapwallet.xyz)).
 
 ## Android
 

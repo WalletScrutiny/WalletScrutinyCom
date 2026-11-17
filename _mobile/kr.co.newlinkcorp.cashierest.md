@@ -1,6 +1,6 @@
 ---
 title: 캐셔레스트 공식앱(캐셔레스트,코인,디지털 자산,거래소)
-date: 2025-05-14
+date: 2026-10-30
 authors:
 - danny
 website: https://www.cashierest.com
@@ -13,7 +13,6 @@ android:
   released: 2022-10-27
   updated: 2023-10-18
   version: 4.24.6
-  icon: kr.co.newlinkcorp.cashierest.webp
   meta: removed
   verdict: custodial
   developerName: Newlink
@@ -25,12 +24,15 @@ iphone:
   updated: 2023-10-18
   version: 4.24.3
   reviews: 35
-  icon: kr.co.newlinkcorp.cashierest.webp
   meta: removed
   verdict: custodial
   developerName: Newlink
 
 ---
+
+**⚠️ Warning:** Cashierest closed. The exchange ended its service on December 22, 2023 ([Cashierest closure notice](https://www.cashierest.com)).
+
+**Update 2026-10-30:** The Cashierest website now only shows the closure notice, which says withdrawals are supported until December 22, 2028, after the closure only by email request and for a fee per coin ([Cashierest closure notice](https://www.cashierest.com)). Both apps are gone from the stores.
 
 ## Android
 
@@ -46,11 +48,11 @@ iphone:
 
 - The app has advanced verification tied to Korean telecom providers, so we were not able to register.
 
-- These are the [terms and conditions](https://www.cashierest.com/en/signup/terms). We translated notable provisions using Google Translate:
+- These are the [terms and conditions](https://www.cashierest.com/en/signup/terms#deadLink). We translated notable provisions using Google Translate:
     - Article 17. The platform may suspend or cancel transactions.
     - Article 19. The company may refuse to grant access to certain users under certain conditions.
     - Article 20. When an account is terminated, the user may opt to transfer assets to an external wallet. The company may refuse this if the wallet is unverified.
-- They stated in their website that they make use of [hardware wallets](https://www.cashierest.com/company/about).  Having hardware wallets entails that they have physical access to the device storing user funds. This means they would also have control and access over the private keys to be able to effect transfers between hardware and hot wallets. 
+- They stated in their website that they make use of [hardware wallets](https://www.cashierest.com/company/about#deadLink).  Having hardware wallets entails that they have physical access to the device storing user funds. This means they would also have control and access over the private keys to be able to effect transfers between hardware and hot wallets. 
 
 Translated from Korean using Google Translate:
 

@@ -1,7 +1,7 @@
 ---
 title: BullionBlock
-date: 2024-02-05
-website: https://bullionblock.ltd
+date: 2026-10-30
+website: https://bullionblock.ltd#deadLink
 redirect_from:
 - /android/com.chat.bullionblock/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2020-06-06
   updated: 2020-10-14
   version: '1.3'
-  icon: com.chat.bullionblock.webp
   meta: removed
   verdict: wip
   developerName: BullionBlock

@@ -1,6 +1,6 @@
 ---
 title: 'Bitunix Pro: Buy BTC & Crypto'
-date: 2024-09-06
+date: 2026-10-30
 authors:
 - danny
 website: https://www.unixcrypto.net
@@ -25,7 +25,6 @@ android:
   updated: 2026-10-12
   version: 3.54.0
   reviews: 136
-  icon: bu.app.android.webp
   meta: ok
   verdict: custodial
   developerName: Bitunix Pro
@@ -37,7 +36,6 @@ iphone:
   updated: 2026-09-29
   version: 3.52.0
   reviews: 877
-  icon: com.bitunix.ios-.webp
   meta: ok
   verdict: custodial
   developerName: Bitunix Global Limited

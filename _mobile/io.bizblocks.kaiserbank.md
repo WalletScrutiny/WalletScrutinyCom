@@ -1,9 +1,9 @@
 ---
 title: OTEX
-date: 2023-08-17
+date: 2026-10-30
 authors:
 - danny
-website: https://bizblocks.io
+website: https://bizblocks.io#deadLink
 redirect_from:
 - /android/io.bizblocks.kaiserbank/
 android:
@@ -12,12 +12,13 @@ android:
   released: 2019-01-04
   updated: 2022-10-23
   version: 0.30.27
-  icon: io.bizblocks.kaiserbank.webp
   meta: removed
   verdict: wip
   developerName: Bizblocks
 
 ---
+
+**Update 2026-10-30:** The provider's website bizblocks.io now redirects to an unrelated gambling site, and otex.io is a parked domain offered for sale. The app is still gone from Google Play.
 
 ## App Description from Google Play
 

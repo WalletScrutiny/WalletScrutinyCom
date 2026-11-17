@@ -20,11 +20,10 @@ shop:
 country: US
 price: 50USD
 repository: 
-icon: nativault.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2024-10-21
+date: 2026-10-30
 signer: 
 twitter: nati_vault
 social: 
@@ -32,6 +31,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Nativault appears to be gone. Its website no longer loads, and there is no sign the device ever shipped.
 
 ## Update 2024-10-21
 

@@ -1,6 +1,6 @@
 ---
 title: 'Ybit: Bitcoin & Crypto Wallet'
-date: 2026-05-02
+date: 2026-10-30
 authors:
 - danny
 website: https://ybitwallet.com/
@@ -17,7 +17,6 @@ android:
   released: 2025-06-16
   updated: 2026-09-24
   version: 1.0.11
-  icon: com.ybit.app.webp
   meta: ok
   verdict: nosource
   developerName: WEEKWISE INNOVATIONS LLC
@@ -29,7 +28,6 @@ iphone:
   updated: 2026-09-25
   version: 1.0.12
   reviews: 26
-  icon: com.ybit.app.webp
   meta: ok
   verdict: nosource
   developerName: WEEKWISE INNOVATIONS LLC

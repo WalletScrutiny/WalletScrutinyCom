@@ -1,6 +1,6 @@
 ---
 title: BORABIT
-date: 2023-08-16
+date: 2026-10-30
 redirect_from:
 - /android/com.borabit.mobileapp/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-06-17
   updated: 2022-10-19
   version: 1.0.2
-  icon: com.borabit.mobileapp.webp
   meta: removed
   verdict: wip
   developerName: (주)뱅코

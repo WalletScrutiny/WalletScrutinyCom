@@ -1,6 +1,6 @@
 ---
 title: BetraPay
-date: 2023-08-04
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2019-10-30
   updated: 2019-11-20
   version: v1.0.1
-  icon: com.bastionpay.betrapay.webp
   meta: removed
   verdict: wip
   developerName: BETRA Blockchain Trading Academy

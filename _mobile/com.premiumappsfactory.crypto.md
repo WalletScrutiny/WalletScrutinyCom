@@ -1,6 +1,6 @@
 ---
 title: Crypto  Change App
-date: 2026-01-08
+date: 2026-10-30
 website: http://drone.onlinestore.digital
 redirect_from:
 - /android/com.premiumappsfactory.crypto/
@@ -11,7 +11,6 @@ android:
   released: 2021-09-05
   updated: 2024-01-01
   version: 6.0.0
-  icon: com.premiumappsfactory.crypto.webp
   meta: obsolete
   verdict: wip
   developerName: Premium Apps Factory

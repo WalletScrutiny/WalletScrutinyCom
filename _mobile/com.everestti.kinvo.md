@@ -1,6 +1,6 @@
 ---
 title: 'Kinvo: Acompanhe investimentos'
-date: 2022-06-23
+date: 2026-10-30
 authors:
 - danny
 website: http://www.kinvo.com.br
@@ -22,7 +22,6 @@ android:
   updated: 2026-10-07
   version: 3.68.0
   reviews: 7579
-  icon: com.everestti.kinvo.webp
   meta: ok
   verdict: nosendreceive
   developerName: Kinvo Tecnologia da Informação
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-10-08
   version: 3.68.0
   reviews: 19181
-  icon: com.everest.kinvo.webp
   meta: ok
   verdict: nosendreceive
   developerName: EVEREST.TI

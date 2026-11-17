@@ -1,6 +1,6 @@
 ---
 title: UBG Trade
-date: 2024-02-05
+date: 2026-10-30
 website: https://ubgtech.my#deadLink
 redirect_from:
 - /android/com.ubgtech.ubg/
@@ -10,7 +10,6 @@ android:
   released: 2022-02-27
   updated: 2021-11-01
   version: 1.0.1
-  icon: com.ubgtech.ubg.webp
   meta: removed
   verdict: wip
   developerName: UBG Technology

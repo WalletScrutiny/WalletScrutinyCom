@@ -20,11 +20,10 @@ shop: https://www.coldlar.com/en/product/10072
 country: CN
 price: 680USD
 repository: 
-icon: coldlar.ultra.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2024-12-16
+date: 2026-10-30
 signer: 
 twitter: Coldlar
 social: 

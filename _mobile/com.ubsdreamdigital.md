@@ -1,7 +1,7 @@
 ---
 title: Dream Digital
-date: 2024-04-03
-website: https://universalbordersolutions.com/
+date: 2026-10-30
+website: https://universalbordersolutions.com/#deadLink
 redirect_from:
 - /android/com.ubsdreamdigital/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-02-17
   updated: 2021-03-12
   version: '1.01'
-  icon: com.ubsdreamdigital.webp
   meta: removed
   verdict: wip
   developerName: Universal Border Solutions

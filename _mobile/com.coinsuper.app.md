@@ -1,6 +1,6 @@
 ---
 title: Coinsuper
-date: 2022-01-31
+date: 2026-10-30
 authors:
 - danny
 website: https://www.coinsuper.com/
@@ -18,7 +18,6 @@ android:
   updated: 2021-11-04
   version: 2.5.8
   reviews: 98
-  icon: com.coinsuper.app.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -28,7 +27,6 @@ iphone:
   updated: 2021-12-04
   version: 2.4.14
   reviews: 13
-  icon: com.coinsuper.app.webp
   meta: removed
   verdict: custodial
 

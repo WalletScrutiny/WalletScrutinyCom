@@ -1,6 +1,6 @@
 ---
 title: 'OSL HK: Buy Bitcoin & Crypto'
-date: 2025-02-28
+date: 2026-10-30
 authors:
 - danny
 website: https://osl.com
@@ -20,7 +20,6 @@ android:
   updated: 2026-09-16
   version: 3.7.5
   reviews: 35
-  icon: com.oslmobile.webp
   meta: ok
   verdict: custodial
   developerName: BC Technology (HK) Limited
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-09-18
   version: 3.7.5
   reviews: 520
-  icon: com.osl.mobile.OslMobile.webp
   meta: ok
   verdict: custodial
   developerName: BC Marketplace (HK) Limited

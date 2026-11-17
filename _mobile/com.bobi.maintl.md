@@ -1,6 +1,6 @@
 ---
 title: BobiEX
-date: 2024-02-05
+date: 2026-10-30
 website: https://tw.yahoo.com/
 redirect_from:
 - /android/com.bobi.maintl/
@@ -10,7 +10,6 @@ android:
   released: 2021-03-18
   updated: 2021-06-17
   version: 0.2.3
-  icon: com.bobi.maintl.webp
   meta: removed
   verdict: wip
   developerName: BobiEX

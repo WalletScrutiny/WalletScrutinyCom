@@ -1,6 +1,6 @@
 ---
 title: 3Commas Wallet
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: https://3commas.io
@@ -19,7 +19,6 @@ android:
   updated: 2022-10-05
   version: '1.7'
   reviews: 3
-  icon: com.threecommas.wallet.webp
   meta: removed
   verdict: nosource
   developerName: 3Сommas - Cryptocurrency trading terminal and bots

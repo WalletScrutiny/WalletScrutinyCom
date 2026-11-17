@@ -1,7 +1,7 @@
 ---
 title: Chascom
-date: 2024-02-05
-website: https://chascom.tech
+date: 2026-10-30
+website: https://chascom.tech#deadLink
 redirect_from:
 - /android/com.maocular.chascom/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2022-05-05
   updated: 2022-05-05
   version: 1.0.0
-  icon: com.maocular.chascom.webp
   meta: removed
   verdict: wip
   developerName: Chascom

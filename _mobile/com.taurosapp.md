@@ -1,6 +1,6 @@
 ---
 title: 'Tauros: Bitcoin exchange'
-date: 2023-06-21
+date: 2026-10-30
 authors:
 - danny
 website: https://tauros.io#deadLink
@@ -21,7 +21,6 @@ android:
   updated: 2023-03-31
   version: 9.6.4
   reviews: 5
-  icon: com.taurosapp.webp
   meta: removed
   verdict: custodial
   developerName: Tauros Exchange S.A. de C.V.
@@ -33,12 +32,15 @@ iphone:
   updated: 2023-03-31
   version: 9.6.4
   reviews: 182
-  icon: com.taurosapp.webp
   meta: removed
   verdict: custodial
   developerName: Tauros Exchange SA de CV
 
 ---
+
+**Update 2026-10-30:** Tauros is gone. The exchange
+[announced its closure on 2023-04-10](https://fintechfuturo.com/tauros-crypto/)
+and let users withdraw their funds until 2023-08-15. Its website no longer loads.
 
 ## Android
 

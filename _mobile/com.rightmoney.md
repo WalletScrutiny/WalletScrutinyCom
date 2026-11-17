@@ -1,6 +1,6 @@
 ---
 title: Rightmoney
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/com.rightmoney/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-07-15
   updated: 2022-09-30
   version: '6.0'
-  icon: com.rightmoney.webp
   meta: removed
   verdict: wip
   developerName: Omnilucid Pvt Ltd

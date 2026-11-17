@@ -1,11 +1,11 @@
 ---
 title: Coindirect - Buy & Sell Bitcoi
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
 - danny
-website: https://www.coindirect.com
+website: https://web.archive.org/web/20231203205456/https://www.coindirect.com/
 twitter: coindirectcom
 social:
 - https://www.linkedin.com/company/coindirect
@@ -20,7 +20,6 @@ android:
   updated: 2021-07-07
   version: 1.3.0
   reviews: 31
-  icon: com.node.coindirect.webp
   meta: removed
   verdict: custodial
   developerName: Coin  Limited
@@ -31,11 +30,12 @@ iphone:
   updated: 2021-07-21
   version: 1.2.7
   reviews: 14
-  icon: com.node.coindirect.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** Coindirect is gone as a consumer service. Since December 2023 its website forwards to [BVNK](https://www.bvnk.com/), a stablecoin payments company for businesses started by Coindirect's founders, which has no wallet app ([Wayback](https://web.archive.org/web/20231222225226/https://www.coindirect.com/), [Concentric](https://concentric.vc/news/what-is-bvnk-the-mysterious-fintech-thats-quietly-poaching-talent-from-revolution-and-checkout-com/)).
 
 ## Android
 

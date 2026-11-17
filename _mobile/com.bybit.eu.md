@@ -1,6 +1,6 @@
 ---
 title: 'Bybit.eu: Buy Bitcoin & Crypto'
-date: 2025-11-13
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bybit.eu/help-center
@@ -17,7 +17,6 @@ android:
   appCountry: us
   updated: 2026-09-18
   version: 5.21.10
-  icon: com.bybit.eu.webp
   meta: ok
   verdict: custodial
   developerName: Bybit EU GmbH
@@ -29,7 +28,6 @@ iphone:
   updated: 2026-09-19
   version: 5.21.10
   reviews: 223
-  icon: com.bybit.eu.webp
   meta: ok
   verdict: custodial
   developerName: Bybit EU GmbH

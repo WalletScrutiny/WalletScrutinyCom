@@ -1,6 +1,6 @@
 ---
 title: bitni.com Anon Crypto Exchange
-date: 2023-03-21
+date: 2026-10-30
 website: http://bitni.com#deadLink
 redirect_from:
 - /android/com.bitni.androidapp/
@@ -11,7 +11,6 @@ android:
   updated: 2021-11-08
   version: '1.05'
   reviews: 111
-  icon: com.bitni.androidapp.webp
   meta: removed
   verdict: wip
 

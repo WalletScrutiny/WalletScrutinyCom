@@ -1,7 +1,7 @@
 ---
 title: Ennlo
-date: 2024-02-05
-website: https://ennlo.com
+date: 2026-10-30
+website: https://ennlo.com#deadLink
 redirect_from:
 - /android/com.ennlo.app/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2019-08-01
   updated: 2019-09-11
   version: '1'
-  icon: com.ennlo.app.webp
   meta: removed
   verdict: wip
   developerName: Tencoins Ltd

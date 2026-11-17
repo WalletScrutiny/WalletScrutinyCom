@@ -1,6 +1,6 @@
 ---
 title: Exchief
-date: 2023-01-30
+date: 2026-10-30
 redirect_from:
 - /android/com.xm.exchief/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2019-12-18
   updated: 2020-01-28
   version: 4.1.1_exchief
-  icon: com.xm.exchief.webp
   meta: removed
   verdict: wip
 

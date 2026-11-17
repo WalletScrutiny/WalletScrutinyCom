@@ -1,6 +1,6 @@
 ---
 title: 증권통 가상화폐(코인원)
-date: 2024-11-12
+date: 2026-10-30
 authors:
 - danny
 website: http://stocktong.io
@@ -12,7 +12,6 @@ android:
   released: 2018-01-22
   updated: 2020-08-28
   version: 4.1.1.15
-  icon: semaphore.stocktrade.tradeweb.webp
   meta: removed
   verdict: wip
   developerName: Tomato Group

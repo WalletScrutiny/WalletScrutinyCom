@@ -1,6 +1,6 @@
 ---
 title: Tropiky
-date: 2023-01-30
+date: 2026-10-30
 redirect_from:
 - /android/com.tropiky/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-09-26
   updated: 2022-03-05
   version: 2.0.0
-  icon: com.tropiky.webp
   meta: removed
   verdict: wip
 

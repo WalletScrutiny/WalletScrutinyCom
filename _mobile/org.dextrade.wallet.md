@@ -1,6 +1,6 @@
 ---
 title: DexTrade
-date: 2025-08-28
+date: 2026-10-30
 authors:
 - danny
 website: https://dextrade.com/
@@ -20,7 +20,6 @@ android:
   released: 2022-08-22
   updated: 2026-07-21
   version: 2.0.7
-  icon: org.dextrade.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Dextrade Technologies LTD
@@ -32,7 +31,6 @@ iphone:
   updated: 2025-11-30
   version: 2.0.106
   reviews: 1
-  icon: com.dextrade.swap.webp
   meta: ok
   verdict: nosource
   developerName: DEXTRADE TECHNOLOGIES LTD

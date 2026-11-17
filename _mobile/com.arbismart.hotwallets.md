@@ -1,6 +1,6 @@
 ---
 title: ArbiSmart
-date: 2024-11-29
+date: 2026-10-30
 authors:
 - danny
 twitter: arbismart
@@ -12,7 +12,6 @@ android:
   users: 5000
   updated: 2024-06-18
   version: 1.0.0028
-  icon: com.arbismart.hotwallets.webp
   meta: removed
   verdict: custodial
   developerName: Arbismart
@@ -24,12 +23,13 @@ iphone:
   updated: 2023-05-13
   version: '2.0005'
   reviews: 0
-  icon: com.arbismart.hotwallets.webp
   meta: removed
   verdict: custodial
   developerName: Arbismart OU
 
 ---
+
+**Update 2026-10-30:** The provider appears to be gone. The ArbiSmart website no longer loads (it was [last archived in November 2025](https://web.archive.org/web/20251119215358/https://arbismart.com/)) and both apps are gone from the stores.
 
 ## Android
 

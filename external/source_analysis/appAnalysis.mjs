@@ -10,7 +10,7 @@ import path from 'path';
 import { execSync, execFile } from 'child_process';
 import { promisify } from 'util';
 import { fileURLToPath } from 'url';
-import { DEFAULT_TEMP_DIR, APP_TYPES } from './config.mjs';
+import { DEFAULT_TEMP_DIR, APP_TYPES, DEFAULT_BRANCH_REF } from './config.mjs';
 import { ensureImage, runInContainer } from './containerRunner.mjs';
 import { loadPlugins, runPlugins } from './plugins.mjs';
 // ddbbUtils (better-sqlite3, a native module) is imported lazily, by the
@@ -149,6 +149,7 @@ export function summarizeResults(results = {}, plugins = []) {
     osvSkipped: osv ? osv.skipped || {} : {},
     vulnerabilities: osv ? (osv.findings || []).length : null,
     lockCoverage: coverage,
+    buildLock: results['build-lock'] && typeof results['build-lock'] === 'object' ? results['build-lock'] : null,
   };
 }
 
@@ -167,8 +168,13 @@ export function analyserVersion() {
  * Analyse one repository at one ref (the new release's tag, or the default
  * branch when nothing new was found). Clone and the plugins' container steps
  * run in a throwaway container (containerRunner.mjs); the plugins' host steps
- * (OSV lookup, Semgrep, storing results) then run on the checkout and the
- * results the container left behind; the host deletes the scratch directory.
+ * (OSV lookup, Semgrep) then run on the checkout and the results the
+ * container left behind; the host deletes the scratch directory. What the
+ * host steps would store (dependencies, vulnerabilities, submodules) is
+ * written together with the analyses row in one transaction, and only when
+ * every step succeeded: a failed step stores nothing but the failed analysis
+ * (issue 1011), so a release never shows new dependencies next to old
+ * advisories.
  * Resolves to the container's result (with the analysed `commit` and every
  * plugin's `results`) when the analysis ran and no plugin failed, null
  * otherwise; failures are logged, never thrown.
@@ -183,10 +189,11 @@ export async function runSourceCodeAnalysis({ name, repoUrl, version = null, inc
   fs.mkdirSync(workDir, { recursive: true });
 
   // Host only (the container never has a database): ddbbUtils stays a lazy import.
+  const analysisRow = (fields) => ({ appId: name, kind: version ? 'release' : 'default-branch', ref: version || fields.commit || 'unknown', analyser: analyserVersion(), ...fields });
   const record = async (fields) => {
     if (!db) return;
     const { recordAnalysis } = await import('./ddbbUtils.mjs');
-    recordAnalysis(db, { appId: name, kind: version ? 'release' : 'default-branch', ref: version || fields.commit || 'unknown', analyser: analyserVersion(), ...fields });
+    recordAnalysis(db, analysisRow(fields));
   };
   try {
     const plugins = await loadPlugins();
@@ -197,8 +204,10 @@ export async function runSourceCodeAnalysis({ name, repoUrl, version = null, inc
       await record({ status: 'failed', error: String(result.error || 'container failed'), commit: result.commit || null, appType: result.appType || null });
       return null;
     }
+    // The default branch stores its rows under DEFAULT_BRANCH_REF, so a
+    // release's advisories can say whether they are already fixed there.
     const ctx = {
-      name, version, db, repoUrl, commit: result.commit || null, repoPath: path.join(workDir, 'repo'), appType: result.appType,
+      name, version: version || DEFAULT_BRANCH_REF, db, repoUrl, commit: result.commit || null, repoPath: path.join(workDir, 'repo'), appType: result.appType,
       options: { includeTestFiles }, results: result.results || {}, failed: result.failed || [],
     };
     await runPlugins(plugins, 'host', ctx);
@@ -209,7 +218,14 @@ export async function runSourceCodeAnalysis({ name, repoUrl, version = null, inc
       await record({ status: 'failed', error, commit: result.commit, appType: result.appType, ...seen });
       return null;
     }
-    await record({ status: result.appType === APP_TYPES.UNKNOWN ? 'unsupported' : 'ok', commit: result.commit, appType: result.appType, ...seen });
+    const done = { status: result.appType === APP_TYPES.UNKNOWN ? 'unsupported' : 'ok', commit: result.commit, appType: result.appType, ...seen };
+    if (db) {
+      const { recordAnalysis } = await import('./ddbbUtils.mjs');
+      db.transaction(() => {
+        for (const save of ctx.saves) save(db);
+        recordAnalysis(db, analysisRow(done));
+      })();
+    }
     return { ...result, results: ctx.results };
   } catch (error) {
     console.error(`Analysis of ${name} failed: ${error.message}`);

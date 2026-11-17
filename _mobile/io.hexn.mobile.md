@@ -1,6 +1,6 @@
 ---
 title: 'HEXN: Buy Bitcoin, Hodl Crypto'
-date: 2026-02-20
+date: 2026-10-30
 authors:
 - danny
 website: https://hexn.io
@@ -18,7 +18,6 @@ android:
   updated: 2025-02-20
   version: 1.2.6
   reviews: 5
-  icon: io.hexn.mobile.webp
   meta: stale
   verdict: custodial
   developerName: NuzlTech Limited

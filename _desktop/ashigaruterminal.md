@@ -12,7 +12,6 @@ provider: Ashigaru Open Source Project
 providerWebsite: 
 website: https://ashigaru.rs/docs/ashigaru-terminal-overview/
 repository: http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru-Terminal
-icon: ashigaruterminal.webp
 bugbounty: 
 meta: stale
 verdict: sourceavailable

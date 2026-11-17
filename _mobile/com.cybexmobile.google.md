@@ -1,7 +1,7 @@
 ---
 title: CybexDex
-date: 2024-02-05
-website: http://www.cybex.io
+date: 2026-10-30
+website: http://www.cybex.io#deadLink
 redirect_from:
 - /android/com.cybexmobile.google/
 android:
@@ -10,10 +10,10 @@ android:
   released: 2018-10-10
   updated: 2019-04-28
   version: 1.10.3
-  icon: com.cybexmobile.google.webp
   meta: removed
   verdict: wip
   developerName: Cybex
 
 ---
 
+**Update 2026-10-30:** Cybex is gone. Its website cybex.io has been a [parked domain since at least August 2025](https://web.archive.org/web/20250806061142/http://cybex.io/) and is now offered for sale.

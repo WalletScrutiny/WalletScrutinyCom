@@ -1,6 +1,6 @@
 ---
 title: Quidax Classic
-date: 2022-02-10
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
@@ -20,7 +20,6 @@ android:
   updated: 2021-01-12
   version: 1.8.0
   reviews: 1584
-  icon: com.quidax.app.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -30,11 +29,12 @@ iphone:
   updated: 2021-01-15
   version: 1.8.0
   reviews: 103
-  icon: com.quidax.app.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** Quidax has new apps: {% include walletLink.html wallet='android/io.quidax.app' verdict='true' %}, also custodial, and on iPhone {% include walletLink.html wallet='iphone/io.quidax.pro' verdict='true' %}.
 
 ## Android
 

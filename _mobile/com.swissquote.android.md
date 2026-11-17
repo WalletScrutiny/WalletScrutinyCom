@@ -1,6 +1,6 @@
 ---
 title: Swissquote
-date: 2023-07-20
+date: 2026-10-30
 authors:
 - danny
 website: https://www.swissquote.com/
@@ -21,7 +21,6 @@ android:
   updated: 2026-10-09
   version: 9.11.1
   reviews: 43
-  icon: com.swissquote.android.webp
   meta: ok
   verdict: custodial
   developerName: Swissquote Mobile
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-10-08
   version: 11.38.0
   reviews: 19
-  icon: com.swissquote.iphone.webp
   meta: ok
   verdict: custodial
   developerName: Swissquote

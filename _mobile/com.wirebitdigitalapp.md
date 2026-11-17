@@ -1,6 +1,6 @@
 ---
 title: Wirebit Digital
-date: 2024-11-30
+date: 2026-10-30
 authors:
 - danny
 website: https://wirebit.com/
@@ -17,19 +17,17 @@ android:
   released: 2021-08-20
   updated: 2023-09-27
   version: 1.12.4
-  icon: com.wirebitdigitalapp.webp
   meta: removed
   verdict: custodial
   developerName: Wirebit S.A. de C.V.
 iphone:
   appId: wirebit.digital.app
   idd: '1563970813'
-  appCountry: dz
+  appCountry: mx
   released: 2021-09-01
   updated: 2023-08-24
   version: 1.12.3
   reviews: 0
-  icon: wirebit.digital.app.webp
   meta: removed
   verdict: custodial
   developerName: Wirebit S.A. de C.V.
@@ -37,6 +35,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** This Android app is gone from Google Play. The [Wirebit website](https://home.wirebit.com/) now links a new Android app, "Wirebit Digital" (app ID `com.appwirebitdigital.app`), in place of this one.
 
 ## App Description from Google Play
 
@@ -66,5 +66,7 @@ iphone:
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** This iPhone app is still offered in the Mexican App Store, where Wirebit updated it to version 2.0.11 in September 2026, and the [Wirebit website](https://home.wirebit.com/) links to it.
 
 The Android analysis above applies to the iPhone app too.

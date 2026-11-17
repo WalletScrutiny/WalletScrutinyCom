@@ -1,6 +1,6 @@
 ---
 title: Bifrost Wallet - XRP, FLR, ETH
-date: 2025-11-12
+date: 2026-10-30
 authors:
 - danny
 website: https://bifrostwallet.com
@@ -20,7 +20,6 @@ android:
   updated: 2026-10-01
   version: 0.7.63
   reviews: 112
-  icon: com.bifrostwallet.app.webp
   meta: ok
   verdict: nosource
   developerName: Bifrost Software Ltd
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-10-02
   version: 0.7.63
   reviews: 212
-  icon: com.bifrostwallet.app.webp
   meta: ok
   verdict: nosource
   developerName: Bifrost Software Ltd

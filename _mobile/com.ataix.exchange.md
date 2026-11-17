@@ -1,6 +1,6 @@
 ---
 title: ATAIX – Bitcoin Crypto Exchang
-date: 2023-04-16
+date: 2026-10-30
 authors:
 - danny
 website: https://ataix.com
@@ -19,7 +19,6 @@ android:
   updated: 2022-06-07
   version: 2.1.4
   reviews: 26
-  icon: com.ataix.exchange.webp
   meta: removed
   verdict: custodial
   developerName: EuroToken OÜ
@@ -31,7 +30,6 @@ iphone:
   updated: 2022-06-08
   version: 2.1.3
   reviews: 0
-  icon: com.eurotoken.ataix.webp
   meta: removed
   verdict: custodial
   developerName: EuroToken OÜ

@@ -1,6 +1,6 @@
 ---
 title: 'Zelus Wallet: Crypto & NFTs'
-date: 2025-12-26
+date: 2026-10-30
 authors:
 - danny
 website: https://zelus.io/
@@ -18,7 +18,6 @@ android:
   updated: 2025-04-04
   version: 1.5.3
   reviews: 37
-  icon: com.zelus.wallet.webp
   meta: defunct
   verdict: wip
   developerName: Zelus IO

@@ -1,6 +1,6 @@
 ---
 title: WadzPay
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: http://www.wadzpay.com
@@ -21,7 +21,6 @@ android:
   released: 2020-12-29
   updated: 2022-06-26
   version: 2.1.1
-  icon: com.wadz.wadzapp.webp
   meta: removed
   verdict: custodial
   developerName: 2020 WadzPay Worldwide Pte Ltd
@@ -33,12 +32,13 @@ iphone:
   updated: 2021-09-15
   version: 2.0.1
   reviews: 1
-  icon: com.wadz.wadzapp.webp
   meta: removed
   verdict: custodial
   developerName: WadzPay Worldwide Pte Ltd
 
 ---
+
+**Update 2026-10-30:** WadzPay now calls itself Worldwide Payments Group. [wadzpay.com](http://www.wadzpay.com) forwards to [the group's site](https://www.worldwidepaymentsgroup.com/), and the former WadzPay account on [X](https://x.com/WorldwidePymnts) carries the new name. The group lists a card app (Winity Life), InvoiceNow and W Chain, but no WadzPay wallet.
 
 ## Android
 

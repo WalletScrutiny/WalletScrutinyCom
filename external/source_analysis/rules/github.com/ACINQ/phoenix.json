@@ -1,0 +1,13 @@
+{
+  "release": "android-v2.6.2",
+  "rules": [
+    {
+      "files": "phoenix-android/**",
+      "belongs_to": "android",
+      "why": "This folder builds the Android app.",
+      "proof": [
+        "https://github.com/ACINQ/phoenix/blob/3d6da2b5b17c297fe8b177304df6f4adff86763e/phoenix-android/build.gradle.kts#L26"
+      ]
+    }
+  ]
+}

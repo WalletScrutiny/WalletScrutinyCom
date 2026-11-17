@@ -1,6 +1,6 @@
 ---
 title: ProfitTradingApp For Bybit
-date: 2023-04-29
+date: 2026-10-30
 authors:
 - danny
 website: https://profittradingapp.com?utm_source=bybit_gp
@@ -17,7 +17,6 @@ android:
   updated: 2026-03-25
   version: 7.1.1
   reviews: 9
-  icon: com.profittrading.forbybit.webp
   meta: ok
   verdict: custodial
   developerName: ProfitTradingApp

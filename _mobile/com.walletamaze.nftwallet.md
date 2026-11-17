@@ -1,6 +1,6 @@
 ---
 title: 'Amaze: Crypto Mining Wallet'
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - danny
 website: https://amazewallet.com
@@ -18,7 +18,6 @@ android:
   updated: 2024-01-18
   version: 1.1.8
   reviews: 1
-  icon: com.walletamaze.nftwallet.webp
   meta: removed
   verdict: nosource
   developerName: AmazeWallet

@@ -1,6 +1,6 @@
 ---
 title: Coincardi
-date: 2026-02-02
+date: 2026-10-30
 authors:
 - danny
 website: https://coincardi.com
@@ -14,7 +14,6 @@ android:
   released: 2020-11-08
   updated: 2024-10-06
   version: 1.9.2
-  icon: com.ibandirect.card.webp
   meta: removed
   verdict: custodial
   developerName: Ibandirect
@@ -26,12 +25,13 @@ iphone:
   updated: 2024-10-06
   version: 1.9.2
   reviews: 1
-  icon: com.ibandirect.cards.webp
   meta: removed
   verdict: custodial
   developerName: Ibandirect
 
 ---
+
+**Update 2026-10-30:** Both apps are gone from the stores, and the provider looks gone too: the coincardi.com site no longer loads ([last archived in February 2025](https://web.archive.org/web/20250228134745/https://coincardi.com/)), and the old ibandirect.com domain is now up for sale.
 
 ## Android
 
@@ -44,9 +44,9 @@ First and foremost, this financial app is a banking app.
 
 ## The Site
 
-Based on the screenshots on the Google Play description, depositing and withdrawing Bitcoin is possible. This is also proven by their [withdrawal fees](https://ibandirect.com/our-fees-and-limits).
+Based on the screenshots on the Google Play description, depositing and withdrawing Bitcoin is possible. This is also proven by their [withdrawal fees](https://web.archive.org/web/20250113060558/https://ibandirect.com/our-fees-and-limits).
 
-### [Terms and Conditions](https://ibandirect.com/terms-and-conditions)
+### [Terms and Conditions](https://web.archive.org/web/20250113074141/https://ibandirect.com/terms-and-conditions)
 
 Deposit and withdrawal functionalities are provided by a third-party, PayDelta.
 
@@ -54,7 +54,7 @@ Deposit and withdrawal functionalities are provided by a third-party, PayDelta.
 
 ## Verdict
 
-Cryptocurrency withdrawals, deposits and storage are possible within the app, with services provided by third-parties. Together with their [AML/KYC policy](https://ibandirect.com/aml-policy) and section 15 Termination clauses on their [Terms and Conditions](https://ibandirect.com/terms-and-conditions), makes this service **custodial** with the app **not verifiable.**
+Cryptocurrency withdrawals, deposits and storage are possible within the app, with services provided by third-parties. Together with their [AML/KYC policy](https://web.archive.org/web/20250113075256/https://ibandirect.com/aml-policy) and section 15 Termination clauses on their [Terms and Conditions](https://web.archive.org/web/20250113074141/https://ibandirect.com/terms-and-conditions), makes this service **custodial** with the app **not verifiable.**
 
 ---
 

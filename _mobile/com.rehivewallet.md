@@ -1,6 +1,6 @@
 ---
 title: Rehive Pay
-date: 2026-05-20
+date: 2026-10-30
 authors:
 - danny
 website: https://www.rehive.com
@@ -14,7 +14,6 @@ android:
   released: 2018-10-01
   updated: 2026-10-08
   version: 8.0.2
-  icon: com.rehivewallet.webp
   meta: ok
   verdict: custodial
   developerName: Rehive
@@ -26,7 +25,6 @@ iphone:
   updated: 2026-10-08
   version: 8.0.2
   reviews: 4
-  icon: com.rehive.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Rehive

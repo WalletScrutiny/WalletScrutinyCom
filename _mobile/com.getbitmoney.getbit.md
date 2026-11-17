@@ -1,6 +1,6 @@
 ---
 title: GetBit
-date: 2026-05-27
+date: 2026-10-30
 authors:
 - danny
 website: https://www.getbit.money
@@ -17,7 +17,6 @@ android:
   released: 2023-01-16
   updated: 2026-09-22
   version: 2.00.76
-  icon: com.getbitmoney.getbit.webp
   meta: ok
   verdict: custodial
   developerName: GetBit
@@ -29,7 +28,6 @@ iphone:
   updated: 2026-09-02
   version: 2.0.75
   reviews: 15
-  icon: in.getbitmoney.getbit.webp
   meta: ok
   verdict: custodial
   developerName: REMIZO TECHNOLOGIES INDIA PRIVATE LIMITED

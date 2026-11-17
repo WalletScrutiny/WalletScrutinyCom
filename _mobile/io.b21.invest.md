@@ -1,9 +1,9 @@
 ---
 title: 'B21 Crypto: Invest | Earn | Sp'
-date: 2023-01-30
+date: 2026-10-30
 authors:
 - danny
-website: https://b21.io
+website: https://web.archive.org/web/20221204100015/https://www.b21.io/
 twitter: B21Official
 social:
 - https://www.linkedin.com/company/b21-limited
@@ -20,7 +20,6 @@ android:
   updated: 2022-01-30
   version: 0.8.0
   reviews: 290
-  icon: io.b21.invest.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -30,11 +29,12 @@ iphone:
   updated: 2022-02-01
   version: 0.8.0
   reviews: 66
-  icon: io.b21.invest.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** B21 appears to be gone. Its website b21.io is now a parked domain page, and the last real version of the site is [in the Wayback Machine](https://web.archive.org/web/20221204100015/https://www.b21.io/).
 
 ## Android
 
@@ -56,7 +56,7 @@ In the official FAQs, it is clearly stated that keys are on the side of the prov
 
 > No. We eliminate the complicated process of managing the keys, wallets and provide complete custody of your assets.
 
-[From the website](https://www.b21.io/custodial/), the page "Custodial" reveals that Prime Trust is the custodian of securities and funds.
+[From the website](https://web.archive.org/web/20221130214712/https://www.b21.io/custodial/), the page "Custodial" reveals that Prime Trust is the custodian of securities and funds.
 > Account Holder(“Customer”, “you”, “your”) hereby requests and directs that Prime Trust, LLC (“Prime Trust”, “Custodian”, “we”, “our”, “us”), a Nevada chartered trust company, establish a Prime Asset Custody Account (“Account”) for and in the name of Account Holder, and to hold as custodian all assets deposited to, or collected with respect to such Account[...]
 
 We can conclude that this is a **custodial** wallet, thus **not verifiable.**

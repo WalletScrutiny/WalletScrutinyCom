@@ -1,7 +1,7 @@
 ---
 title: Kratos
-date: 2023-01-02
-website: https://www.kratosapp.com/
+date: 2026-10-30
+website: https://www.kratosapp.com/#deadLink
 redirect_from:
 - /android/com.kratosapp/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-02-01
   updated: 2021-02-01
   version: 1.0.0
-  icon: com.kratosapp.webp
   meta: removed
   verdict: wip
 

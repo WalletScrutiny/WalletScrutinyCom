@@ -1,6 +1,6 @@
 ---
 title: VirtuaBroker
-date: 2024-02-14
+date: 2026-10-30
 website: https://virtuabroker.com
 redirect_from:
 - /android/com.virtuabroker.ui/
@@ -12,7 +12,6 @@ android:
   updated: 2022-02-24
   version: 1.0.3
   reviews: 24
-  icon: com.virtuabroker.ui.webp
   meta: obsolete
   verdict: wip
   developerName: VirtuaBroker Ltd

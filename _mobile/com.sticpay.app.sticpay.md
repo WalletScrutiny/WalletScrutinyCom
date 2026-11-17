@@ -1,6 +1,6 @@
 ---
 title: STICPAY
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - danny
 website: http://sticpay.com
@@ -20,7 +20,6 @@ android:
   updated: 2026-07-22
   version: '4.48'
   reviews: 16
-  icon: com.sticpay.app.sticpay.webp
   meta: ok
   verdict: custodial
   developerName: STICPAY
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-03-31
   version: '4.02'
   reviews: 29
-  icon: com.sticpay.app.webp
   meta: ok
   verdict: custodial
   developerName: STIC FINANCIAL LTD.

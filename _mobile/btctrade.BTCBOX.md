@@ -1,6 +1,6 @@
 ---
 title: ビットコイン・暗号資産の取引なら安心安全のBTCBOX
-date: 2023-04-19
+date: 2026-10-30
 authors:
 - danny
 website: http://www.btcbox.co.jp
@@ -17,7 +17,6 @@ android:
   released: 2016-04-18
   updated: 2026-09-15
   version: '1.294'
-  icon: btctrade.BTCBOX.webp
   meta: ok
   verdict: custodial
   developerName: BTCボックス株式会社
@@ -29,12 +28,13 @@ iphone:
   updated: 2026-10-09
   version: '1.255'
   reviews: 16
-  icon: btctrade.btcbox.webp
   meta: ok
   verdict: custodial
   developerName: BTCBOX CO.,LTD
 
 ---
+
+**Update 2026-10-30:** BTCBOX stopped all services on 2026-01-29 after a customer data leak and has been restarting them step by step since August; crypto withdrawals so far only go to other Japanese exchanges, not to your own wallet ([CoinPost](https://coinpost.jp/?p=729185), [BTCBOX notice](https://blog.btcbox.jp/archives/18857)). In October 2026 the Hong Kong payment company RedotPay announced that it had bought BTCBOX ([RedotPay notice](https://helpcenter.redotpay.com/en/articles/17634849-notice-to-redotpay-users-in-japan), [あたらしい経済](https://www.neweconomy.jp/posts/620270)).
 
 ## Android
 

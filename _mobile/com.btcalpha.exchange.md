@@ -1,9 +1,9 @@
 ---
 title: BTC-Alpha Exchange
-date: 2024-04-19
+date: 2026-10-30
 authors:
 - danny
-website: https://btc-alpha.com/
+website: https://alp.com/
 twitter: btcalpha
 social:
 - https://www.linkedin.com/company/btcalpha
@@ -19,7 +19,6 @@ android:
   updated: 2022-08-08
   version: 1.11.2
   reviews: 3
-  icon: com.btcalpha.exchange.webp
   meta: removed
   verdict: custodial
   developerName: BTC-Alpha LTD
@@ -31,12 +30,13 @@ iphone:
   updated: 2026-04-24
   version: 2.1.1
   reviews: 4
-  icon: com.btc-alpha.webp
   meta: ok
   verdict: custodial
   developerName: ALPHACOM
 
 ---
+
+**Update 2026-10-30:** BTC-Alpha renamed itself ALP.COM in late 2024. The old btc-alpha.com address now forwards to [alp.com](https://alp.com/), and the iPhone app is now called "ALPCOM: Buy Bitcoin & Crypto" ([CoinGecko](https://www.coingecko.com/en/exchanges/alp-com), [Traders Union](https://tradersunion.com/brokers/crypto/view/btc_alpha/)). It is still a {% include verdictBadge.html verdict="custodial" type='short' %} exchange.
 
 ## Android
 
@@ -53,7 +53,7 @@ There are only two readable reviews, with one of them claiming (without any addi
 ## The Site
 
 ### User Agreement
-Multiple quotes in the [Terms of Use](https://btc-alpha.com/en/terms-of-use) show that BTC-Alpha has the capability to freeze accounts.
+Multiple quotes in the [Terms of Use](https://alp.com/en/terms-of-use) show that BTC-Alpha has the capability to freeze accounts.
 
 From 9.5.:
 

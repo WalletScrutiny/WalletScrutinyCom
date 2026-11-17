@@ -1,6 +1,6 @@
 ---
 title: OTPPAY - Crypto Exchange & Mer
-date: 2023-05-26
+date: 2026-10-30
 authors:
 - danny
 website: https://www.otppay.com
@@ -16,7 +16,6 @@ android:
   updated: 2020-04-01
   version: '1.21'
   reviews: 4
-  icon: com.idbtec.otppaycrypto.webp
   meta: removed
   verdict: wip
   developerName: Otppay OU

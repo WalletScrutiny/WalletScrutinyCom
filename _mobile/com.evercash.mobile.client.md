@@ -1,6 +1,6 @@
 ---
 title: Evercash
-date: 2025-02-26
+date: 2026-10-30
 redirect_from:
 - /android/com.evercash.mobile.client/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-07-23
   updated: 2023-12-04
   version: 3.0.0-a46a024b
-  icon: com.evercash.mobile.client.webp
   meta: removed
   verdict: wip
   developerName: Parcent

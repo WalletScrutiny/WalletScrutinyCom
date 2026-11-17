@@ -1,6 +1,6 @@
 ---
 title: 'SafePal: Crypto Wallet BTC NFT'
-date: 2021-04-26
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -17,7 +17,6 @@ android:
   updated: 2026-10-11
   version: 4.11.11
   reviews: 1171
-  icon: io.safepal.wallet.webp
   meta: ok
   verdict: nosource
   developerName: SafePal Wallet
@@ -29,7 +28,6 @@ iphone:
   updated: 2026-10-12
   version: 4.11.12
   reviews: 17292
-  icon: walletapp.safepal.io.webp
   meta: ok
   verdict: nosource
   developerName: SAFEPAL LTD.

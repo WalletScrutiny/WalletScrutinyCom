@@ -1,6 +1,6 @@
 ---
 title: Crypto Invest
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/net.xxxcoinnowfree.crypto.invest/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-07-22
   updated: 2021-07-22
   version: '1.0'
-  icon: net.xxxcoinnowfree.crypto.invest.webp
   meta: removed
   verdict: wip
 

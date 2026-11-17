@@ -1,6 +1,6 @@
 ---
 title: 'Swissquote CFXD: Forex & CFDs'
-date: 2023-11-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.swissquote.com/private/trade/platforms/forex-cfds/cfxd
@@ -24,7 +24,6 @@ android:
   updated: 2026-02-06
   version: 3.13.0
   reviews: 4
-  icon: com.swissquote.mobiletrader.android.wl.acm.webp
   meta: ok
   verdict: custodial
   developerName: Swissquote Mobile
@@ -36,7 +35,6 @@ iphone:
   updated: 2026-02-09
   version: 3.45.0
   reviews: 697
-  icon: com.acm.Mobile-Trader.webp
   meta: ok
   verdict: custodial
   developerName: Swissquote

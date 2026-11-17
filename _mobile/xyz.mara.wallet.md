@@ -1,9 +1,9 @@
 ---
 title: Mara Wallet
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
-website: https://mara.xyz
+website: https://mara.xyz#deadLink
 twitter: TheMARAverse
 social:
 - https://www.linkedin.com/company/themaraverse
@@ -22,7 +22,6 @@ android:
   updated: 2023-10-19
   version: 2.0.1
   reviews: 146
-  icon: xyz.mara.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Jara Wallet
@@ -34,12 +33,13 @@ iphone:
   updated: 2023-07-26
   version: 1.5.2
   reviews: 798
-  icon: xyz.mara.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Coinmara Inc
 
 ---
+
+**Update 2026-10-30:** Mara no longer exists. By April 2024 the company had run out of money and told its users to move to its new Jara app ([TechCabal](https://techcabal.com/2024/07/01/mara-blew-16-million-in-2022-as-the-leadership-fell-apart/)), which we list as {% include walletLink.html wallet='android/xyz.getjara' verdict='true' %}.
 
 ## Android
 
@@ -58,7 +58,7 @@ Mara is backed by Coinbase ventures and FTX [Alameda Research](https://fortune.c
 - [Video of fiat withdrawal](https://www.youtube.com/watch?v=fr2a6tcPvkQ) to Nigerian banks is possible.
 - [Video of fiat deposit](https://www.youtube.com/watch?v=eEPXyaDYHvA) to Mara Wallet using bank transfer.
 
-- The app has a termination clause in its [Terms and Conditions](https://mara.xyz/terms)
+- The app has a termination clause in its [Terms and Conditions](https://web.archive.org/web/20230802104657/https://mara.xyz/terms)
 - First, we registered our email address. Registration asked for: DOB, full name, country and phone number.
 - We then created a pin.
 - We were asked to verify our identity but opted to skip.

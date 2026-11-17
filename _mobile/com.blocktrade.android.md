@@ -1,6 +1,6 @@
 ---
 title: 'Blocktrade: Invest in Crypto'
-date: 2025-07-03
+date: 2026-10-30
 authors:
 - danny
 website: http://blocktrade.com
@@ -19,7 +19,6 @@ android:
   updated: 2024-04-22
   version: 4.1.4
   reviews: 9
-  icon: com.blocktrade.android.webp
   meta: removed
   verdict: custodial
   developerName: Blocktrade
@@ -31,12 +30,13 @@ iphone:
   updated: 2024-03-27
   version: 4.1.3
   reviews: 30
-  icon: com.blocktrade.ios.webp
   meta: removed
   verdict: custodial
   developerName: BlocktradeOperations OU
 
 ---
+
+**⚠️ Warning:** Blocktrade's website has shown only a "We'll be back soon" maintenance page since at least March 2026 ([Wayback](https://web.archive.org/web/20260328090257/https://blocktrade.com/)), and both apps are gone from the stores. A Luxembourg court opened bankruptcy proceedings against Blocktrade S.A. in June 2026 and lifted them in July after an objection; the platform stayed in maintenance mode ([BEKM](https://www.bekm.us/blocktrade-from-former-crypto-hopeful-to-permanent-maintenance-mode/), [BEKM](https://www.bekm.eu/blocktrade-hauptversammlung-am-26-10-2026-was-soll-nachtraeglich-abgesegnet-werden-und-wer-traegt-die-verantwortung/)).
 
 ## Android
 
@@ -46,7 +46,7 @@ This app provides cryptocurrency trading services.
 
 ## The Site
 
-### [Terms of Use](https://blocktrade.com/legal/terms-of-use/)
+### [Terms of Use](https://web.archive.org/web/20220517194728/https://blocktrade.com/legal/terms-of-use/)
 
 **Private Keys**
 

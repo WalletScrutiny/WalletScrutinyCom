@@ -1,6 +1,6 @@
 ---
 title: Flash Wallet
-date: 2025-11-14
+date: 2026-10-30
 authors:
 - danny
 website: https://flash-wallet.app/
@@ -19,7 +19,6 @@ android:
   released: 2023-10-23
   updated: 2026-01-29
   version: '32.0'
-  icon: com.flashwallet.production.webp
   meta: ok
   verdict: nosource
   developerName: Flash Technologies LLC
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-01-31
   version: '29'
   reviews: 5
-  icon: flashwallet.org.production.webp
   meta: removed
   verdict: nosource
   developerName: Flash Technologies LLC FZ

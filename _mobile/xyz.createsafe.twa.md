@@ -1,6 +1,6 @@
 ---
 title: CreateSafe
-date: 2024-04-03
+date: 2026-10-30
 website: https://createsafe.io
 redirect_from:
 - /android/xyz.createsafe.twa/
@@ -10,7 +10,6 @@ android:
   released: 2021-11-29
   updated: 2021-11-29
   version: 1.0.0.0
-  icon: xyz.createsafe.twa.webp
   meta: removed
   verdict: wip
   developerName: CreateSafe

@@ -1,6 +1,6 @@
 ---
 title: ALT247
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/com.Altapp/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2019-06-27
   updated: 2019-08-02
   version: '1.1'
-  icon: com.Altapp.webp
   meta: removed
   verdict: wip
   developerName: ALT SECURITIES

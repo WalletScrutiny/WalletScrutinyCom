@@ -1,6 +1,6 @@
 ---
 title: Coinfib
-date: 2024-04-03
+date: 2026-10-30
 website: https://www.coinfib.com#deadLink
 redirect_from:
 - /android/com.coinfib.coinfibmobile/
@@ -10,7 +10,6 @@ android:
   released: 2022-03-16
   updated: 2022-04-01
   version: 1.0.4
-  icon: com.coinfib.coinfibmobile.webp
   meta: removed
   verdict: wip
   developerName: Coinfib

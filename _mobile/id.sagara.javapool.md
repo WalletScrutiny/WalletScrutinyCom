@@ -1,6 +1,6 @@
 ---
 title: JavaPool - Wallet
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/id.sagara.javapool/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-08-30
   updated: 2021-08-30
   version: 0.0.2
-  icon: id.sagara.javapool.webp
   meta: removed
   verdict: wip
   developerName: JavaPool

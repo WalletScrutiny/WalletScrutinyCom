@@ -1,6 +1,6 @@
 ---
 title: Potent Wallet
-date: 2023-10-16
+date: 2026-10-30
 website: http://potent.finance
 redirect_from:
 - /android/io.potent.wallet/
@@ -10,7 +10,6 @@ android:
   released: 2021-08-12
   updated: 2021-08-13
   version: 0.20.0
-  icon: io.potent.wallet.webp
   meta: removed
   verdict: wip
   developerName: Potent Team

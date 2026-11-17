@@ -1,7 +1,7 @@
 ---
 title: Touch Social
-date: 2024-07-05
-website: https://touchsocial.xyz
+date: 2026-10-30
+website: https://touchsocial.xyz#deadLink
 redirect_from:
 - /android/xyz.touchsocial.app/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2020-02-27
   updated: 2020-08-11
   version: 1.2.1
-  icon: xyz.touchsocial.app.webp
   meta: removed
   verdict: wip
   developerName: Data Revolution

@@ -1,6 +1,6 @@
 ---
 title: 'FTX.US Pro: Trade Crypto'
-date: 2023-01-11
+date: 2026-10-30
 authors:
 - leo
 website: https://ftx.us/
@@ -18,7 +18,6 @@ android:
   updated: 2022-10-14
   version: 2.0.8
   reviews: 639
-  icon: com.ftxmobile.ftxus.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -28,11 +27,12 @@ iphone:
   updated: 2022-04-14
   version: 1.2.1
   reviews: 260
-  icon: com.ftx.FTXMobile.FTXUS.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** FTX collapsed and filed for bankruptcy in November 2022, FTX US included ([Wikipedia](https://en.wikipedia.org/wiki/Bankruptcy_of_FTX)). The exchange is gone and its website now only leads to the [creditor claims portal](https://claims.ftx.com/).
 
 ## Android
 

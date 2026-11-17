@@ -1,6 +1,6 @@
 ---
 title: Skilling - Forex Trading App
-date: 2025-10-02
+date: 2026-10-30
 authors:
 - danny
 website: https://skilling.com/
@@ -19,7 +19,6 @@ android:
   updated: 2026-05-13
   version: 3.0.5
   reviews: 7
-  icon: com.FinovelCyprusLimited.Skilling.webp
   meta: ok
   verdict: nosendreceive
   developerName: Skilling
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-05-14
   version: 3.0.5
   reviews: 11
-  icon: com.FinovelCyprusLimited.Skilling.webp
   meta: ok
   verdict: nosendreceive
   developerName: Skilling Limited

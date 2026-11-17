@@ -1,6 +1,6 @@
 ---
 title: 'Gate Lite: Buy Bitcoin, Crypto'
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 website: https://gate.io/
@@ -10,7 +10,6 @@ social:
 - https://www.youtube.com/c/GateioCrypto
 - https://discord.com/invite/QZWFkuQvzP
 - https://www.instagram.com/gateioglobal
-- https://gate.io
 redirect_from:
 - /android/com.gateio.lite/
 - /iphone/com.gateio.GateLite/
@@ -21,7 +20,6 @@ android:
   updated: 2023-08-30
   version: 2.0.1
   reviews: 9
-  icon: com.gateio.lite.webp
   meta: removed
   verdict: custodial
   developerName: Gate Global, Corp.
@@ -33,7 +31,6 @@ iphone:
   updated: 2022-12-13
   version: 3.10.2
   reviews: 29
-  icon: com.gateio.GateLite.webp
   meta: removed
   verdict: custodial
   developerName: Gate Technology Incorporated

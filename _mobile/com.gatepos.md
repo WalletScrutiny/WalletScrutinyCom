@@ -1,6 +1,6 @@
 ---
 title: Mercury Gate POS
-date: 2025-02-28
+date: 2026-10-30
 website: https://www.mercury.cash
 redirect_from:
 - /android/com.gatepos/
@@ -10,7 +10,6 @@ android:
   released: 2021-05-14
   updated: 2021-05-21
   version: '1.1'
-  icon: com.gatepos.webp
   meta: removed
   verdict: wip
   developerName: IT Mercury Cash

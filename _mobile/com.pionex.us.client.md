@@ -1,6 +1,6 @@
 ---
 title: Pionex.US
-date: 2025-12-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.pionex.us/
@@ -18,7 +18,6 @@ android:
   updated: 2026-09-30
   version: 2.2.5
   reviews: 654
-  icon: com.pionex.us.client.webp
   meta: ok
   verdict: custodial
   developerName: Webot Global

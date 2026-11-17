@@ -1,6 +1,6 @@
 ---
 title: ZenaPay
-date: 2025-07-03
+date: 2026-10-30
 authors:
 - danny
 website: https://www.zenapay.com/Product#ZenaPayWallet
@@ -19,7 +19,6 @@ iphone:
   updated: 2024-07-02
   version: '5.2'
   reviews: 0
-  icon: com.zenapay.webp
   meta: obsolete
   verdict: nosource
   developerName: Epazz

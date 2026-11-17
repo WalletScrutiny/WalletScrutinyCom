@@ -1,6 +1,6 @@
 ---
 title: Kwikcoin
-date: 2024-02-05
+date: 2026-10-30
 website: https://www.kwikcoin.info#deadLink
 redirect_from:
 - /android/com.theawesomeapps.android.kwik/
@@ -10,7 +10,6 @@ android:
   released: 2020-07-05
   updated: 2020-07-05
   version: '1.2'
-  icon: com.theawesomeapps.android.kwik.webp
   meta: removed
   verdict: wip
   developerName: Kwik Coin

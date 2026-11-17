@@ -1,9 +1,9 @@
 ---
 title: elegro Business online banking
-date: 2026-05-05
+date: 2026-10-30
 authors:
 - danny
-website: https://business.elegro.eu/elegro-business-wallet
+website: https://elegro.eu/business
 twitter: elegro_eu
 social:
 - https://www.linkedin.com/company/niko-technologies-ou
@@ -20,7 +20,6 @@ android:
   released: 2020-07-15
   updated: 2025-05-09
   version: 1.4.0
-  icon: paybusiness.elegro.eu.webp
   meta: stale
   verdict: custodial
   developerName: Niko Technologies
@@ -32,12 +31,13 @@ iphone:
   updated: 2025-05-15
   version: '4.1'
   reviews: 0
-  icon: paybusiness.elegro.eu.webp
   meta: stale
   verdict: custodial
   developerName: Niko Technologies
 
 ---
+
+**Update 2026-10-30:** The old business.elegro.eu site no longer loads. The business wallet is now presented on [elegro.eu/business](https://elegro.eu/business), which still offers fiat and crypto wallets.
 
 ## Android
 

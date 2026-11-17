@@ -1,6 +1,6 @@
 ---
 title: 'Neverless: Stocks & Crypto'
-date: 2026-01-02
+date: 2026-10-30
 authors:
 - danny
 website: https://neverless.com
@@ -20,7 +20,6 @@ android:
   updated: 2026-10-13
   version: 1.6.26
   reviews: 25
-  icon: money.boku.android.webp
   meta: ok
   verdict: nosendreceive
   developerName: neverless
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-10-13
   version: 1.11.50
   reviews: 216
-  icon: money.boku.ios.webp
   meta: ok
   verdict: nosendreceive
   developerName: Boku Labs Ltd

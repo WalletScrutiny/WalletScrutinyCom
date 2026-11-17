@@ -1,6 +1,6 @@
 ---
 title: get2coin - Wallet - g2c
-date: 2023-09-15
+date: 2026-10-30
 authors:
 - danny
 website: https://get2coin.com
@@ -13,7 +13,6 @@ android:
   updated: 2023-08-15
   version: 1.1.603
   reviews: 3
-  icon: com.nosapps.android.get2cloudsx.webp
   meta: removed
   verdict: custodial
   developerName: NOS Microsystems Ltd

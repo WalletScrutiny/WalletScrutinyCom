@@ -1,6 +1,6 @@
 ---
 title: Kute Wallet
-date: 2026-10-13
+date: 2026-10-30
 authors:
 - danny
 website: http://kutewallet.com
@@ -11,7 +11,6 @@ android:
   released: 2026-05-27
   updated: 2026-10-08
   version: 2.1.1
-  icon: com.kutewallet.app.webp
   meta: fewusers
   verdict: wip
   developerName: REXMO TECHNOLOGIES OÜ

@@ -1,6 +1,6 @@
 ---
 title: Diamond BTC
-date: 2024-04-19
+date: 2026-10-30
 website: https://diamondbtc.net#deadLink
 redirect_from:
 - /android/com.diamondbtc.ytapp/
@@ -10,7 +10,6 @@ android:
   released: 2021-03-13
   updated: 2021-03-13
   version: '1.0'
-  icon: com.diamondbtc.ytapp.webp
   meta: removed
   verdict: wip
   developerName: Diamond Brokers

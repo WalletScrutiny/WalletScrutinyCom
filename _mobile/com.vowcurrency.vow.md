@@ -1,12 +1,11 @@
 ---
 title: Vow
-date: 2024-07-30
+date: 2026-10-30
 authors:
 - danny
 website: https://web.archive.org/web/20230603102041/https://vowcurrency.com/knowledge-base/
 twitter: vowcurrency
 social:
-- https://vowcurrency.com
 - https://www.linkedin.com/company/vowcurrency
 - https://www.facebook.com/Vowcurrency
 - https://t.me/joinchat/AAAAAFWTS0zBu1J9yCDp9Q
@@ -21,7 +20,6 @@ android:
   updated: 2024-03-28
   version: 10.3.7
   reviews: 4
-  icon: com.vowcurrency.vow.webp
   meta: removed
   verdict: nosource
   developerName: Vow
@@ -33,7 +31,6 @@ iphone:
   updated: 2024-04-09
   version: 1.3.4
   reviews: 6
-  icon: com.vowcurrency.vow.webp
   meta: removed
   verdict: nosource
   developerName: Vow Limited

@@ -1,6 +1,6 @@
 ---
 title: 'Bringin: Buy & spend Bitcoin'
-date: 2026-07-07
+date: 2026-10-30
 authors:
 - danny
 website: https://bit.ly/3wT0eSM
@@ -17,7 +17,6 @@ android:
   released: 2025-08-31
   updated: 2026-10-12
   version: 2.6.5
-  icon: xyz.bringin.client.webp
   alternativeStores:
   - zapstore
   meta: ok
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-10-13
   version: 2.6.5
   reviews: 0
-  icon: xyz.bringin.client.webp
   meta: ok
   verdict: nosource
   developerName: UAB Bringin

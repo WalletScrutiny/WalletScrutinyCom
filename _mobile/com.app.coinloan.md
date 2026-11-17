@@ -1,6 +1,6 @@
 ---
 title: 'CoinLoan: Сrypto & Fiat Loans'
-date: 2024-04-03
+date: 2026-10-30
 authors:
 - danny
 website: https://coinloan.io/
@@ -20,7 +20,6 @@ android:
   updated: 2023-05-29
   version: 1.7.7
   reviews: 79
-  icon: com.app.coinloan.webp
   meta: removed
   verdict: custodial
   developerName: CoinLoan
@@ -31,12 +30,13 @@ iphone:
   updated: 2023-06-03
   version: 1.7.7
   reviews: 394
-  icon: io.coinloan.coinloan.webp
   meta: removed
   verdict: custodial
   developerName: CoinLoan OU
 
 ---
+
+**⚠️ Warning:** CoinLoan is bankrupt. It [stopped all withdrawals in April 2023](https://cryptoslate.com/coinloan-halts-all-withdrawals-user-services/) on a court order, and an Estonian court [declared it bankrupt on 14 June 2023](https://www.ametlikudteadaanded.ee/eng/teadaanne?teate_number=2084705). Its website still advertises the service. Do not send funds to it.
 
 ## Android
 

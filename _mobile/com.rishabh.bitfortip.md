@@ -1,9 +1,9 @@
 ---
 title: Bitfortip | Now with Tezos sup
-date: 2023-08-25
+date: 2026-10-30
 authors:
 - danny
-website: https://www.bitfortip.com/
+website: https://web.archive.org/web/20250118125630/https://bitfortip.com/
 twitter: bitfortip
 social:
 - https://www.linkedin.com/company/bitfortip
@@ -19,7 +19,6 @@ android:
   updated: 2021-06-20
   version: '2.6'
   reviews: 3
-  icon: com.rishabh.bitfortip.webp
   meta: removed
   verdict: custodial
   developerName: Bitfortip
@@ -30,12 +29,18 @@ iphone:
   updated: 2021-08-20
   version: 2.0.1
   reviews: 1
-  icon: com.bitfortip.bitfortipapp.webp
   meta: removed
   verdict: custodial
   developerName: BITFORTIP PTY LTD
 
 ---
+
+**Update 2026-10-30:** Bitfortip looks gone. Its site was last
+[archived as Bitfortip](https://web.archive.org/web/20250118125630/https://bitfortip.com/)
+in January 2025; by February 2025 it showed a
+[parking page](https://web.archive.org/web/20250223104724/https://bitfortip.com/),
+and since August 2025 the address hosts an
+[unrelated Greek casino site](https://web.archive.org/web/20250808162051/https://bitfortip.com/).
 
 ## Android
 

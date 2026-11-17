@@ -1,6 +1,6 @@
 ---
 title: HitBTC altcoin crypto wallet
-date: 2021-11-15
+date: 2026-10-30
 authors:
 - danny
 website: https://hitbtc.com/wallet
@@ -19,7 +19,6 @@ android:
   released: 2021-08-31
   updated: 2026-09-08
   version: 1.45.0
-  icon: com.hitbtc.wallet.webp
   meta: ok
   verdict: custodial
   developerName: HitBTC Exchange
@@ -31,7 +30,6 @@ iphone:
   updated: 2022-12-20
   version: 1.3.8
   reviews: 1
-  icon: com.hitbtc.wallet.webp
   meta: obsolete
   verdict: custodial
   developerName: HitBTC

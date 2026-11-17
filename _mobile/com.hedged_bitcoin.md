@@ -1,6 +1,6 @@
 ---
 title: Hedged Bitcoin
-date: 2022-03-07
+date: 2026-10-30
 authors:
 - danny
 website: https://hedgedbitcoin.com
@@ -17,7 +17,6 @@ android:
   updated: 2021-06-11
   version: 0.7.0
   reviews: 2
-  icon: com.hedged_bitcoin.webp
   meta: removed
   verdict: custodial
 

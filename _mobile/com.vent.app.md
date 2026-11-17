@@ -1,13 +1,12 @@
 ---
 title: 'Vent: Sell BTC, USDT & Crypto'
-date: 2023-06-10
+date: 2026-10-30
 authors:
 - danny
 website: https://vent.africa
 twitter: ventafricaHQ
 social:
 - https://t.me/ventafrica
-- https://vent.africa
 redirect_from:
 - /android/com.vent.app/
 - /iphone/com.ventafrica.app/
@@ -19,7 +18,6 @@ android:
   updated: 2026-10-07
   version: 2.0.16
   reviews: 10
-  icon: com.vent.app.webp
   meta: ok
   verdict: custodial
   developerName: Vent Comm & Tech LTD
@@ -31,12 +29,13 @@ iphone:
   updated: 2024-02-21
   version: 1.8.4
   reviews: 58
-  icon: com.ventafrica.app.webp
   meta: removed
   verdict: custodial
   developerName: Vent Africa
 
 ---
+
+**Update 2026-10-30:** The terms page we cited is gone. Vent's current [Terms of Use](https://ventassets.nyc3.cdn.digitaloceanspaces.com/vent/Vent-Africa-Terms-of-Use.pdf) describe its SafeWallet as a "custodial wallet".
 
 ## Android
 
@@ -53,7 +52,7 @@ iphone:
 ## Analysis 
 
 - After registration and just after logging in, the app required bank verification by having the user input his bank account number. We were not able to proceed beyond this point.
-- We were able to access the [Terms](https://app.vent.africa/terms) with references and hints to their custodial character: 
+- We were able to access the [Terms](https://app.vent.africa/terms#deadLink) with references and hints to their custodial character: 
 - Section 7.2 of the terms states that cryptocurrencies held in the user's account will be forfeited in favor of Vent (subject to conditions found in other sections)
 - Section 4 of the terms requires the user to provide the provider with information about the cryptocurrency they wish to trade. This section also details the provider's power to disallow a trade. 
 - We have sufficient information to give this app a verdict of **custodial**, but we'll email them just to be sure at help@vent.africa.

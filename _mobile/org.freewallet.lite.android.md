@@ -1,6 +1,6 @@
 ---
 title: Lite HD Wallet – Your Coin Base
-date: 2021-05-25
+date: 2026-10-30
 authors:
 - leo
 website: https://freewallet.org
@@ -11,7 +11,6 @@ android:
   users: 500
   updated: 2019-03-01
   version: Varies with device
-  icon: org.freewallet.lite.android.webp
   meta: removed
   verdict: wip
 

@@ -1,6 +1,6 @@
 ---
 title: Rigel Wallet
-date: 2024-04-19
+date: 2026-10-30
 website: https://web.archive.org/web/20250918015556/https://rigel.finance/
 redirect_from:
 - /android/rigel.finance.bankwallet/
@@ -10,7 +10,6 @@ android:
   released: 2020-12-03
   updated: 2020-12-23
   version: 0.17.2
-  icon: rigel.finance.bankwallet.webp
   meta: removed
   verdict: wip
   developerName: Rigel Wallet Team

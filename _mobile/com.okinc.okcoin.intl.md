@@ -1,6 +1,6 @@
 ---
 title: Okcoin - Buy Bitcoin & Crypto
-date: 2025-12-15
+date: 2026-10-30
 authors:
 - danny
 website: http://www.okcoin.com
@@ -21,7 +21,6 @@ android:
   updated: 2024-04-30
   version: 5.3.120
   reviews: 629
-  icon: com.okinc.okcoin.intl.webp
   meta: removed
   verdict: custodial
   developerName: OKCoin Inc.
@@ -32,12 +31,15 @@ iphone:
   updated: 2023-06-20
   version: 5.3.110
   reviews: 3489
-  icon: com.okcoin.OKCoinAppstore.webp
   meta: removed
   verdict: custodial
   developerName: OKCoin USA Inc
 
 ---
+
+**⚠️ Warning:** Okcoin is gone. It was rebranded to OKX, and Okcoin USA switched off trading and deposits on 15 May 2025 ([Okcoin notice](https://web.archive.org/web/20250914212940/https://support.okcoin.com/hc/en-us/articles/34726173120525-Okcoin-USA-is-rebranding-to-OKX)).
+
+**Update 2026-10-30:** Okcoin asked its customers to withdraw everything by that date and move to OKX. The OKX app, {% include walletLink.html wallet='android/com.okinc.okex.gp' verdict='true' %}, replaces this app.
 
 ## Android
 

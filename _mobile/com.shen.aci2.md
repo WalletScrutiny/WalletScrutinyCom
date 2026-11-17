@@ -1,6 +1,6 @@
 ---
 title: ACI機器人
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/com.shen.aci2/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-06-07
   updated: 2022-06-08
   version: '1.1'
-  icon: com.shen.aci2.webp
   meta: removed
   verdict: wip
   developerName: acmtan

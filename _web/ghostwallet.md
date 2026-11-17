@@ -12,11 +12,10 @@ provider: GhostWallet Global
 providerWebsite: 
 website: https://ghostwallet.io/Wallet
 repository: 
-icon: 
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2026-04-23
+date: 2026-10-30
 twitter: Ghost_Wallet_
 social:
 - https://www.instagram.com/ghost.wallet 

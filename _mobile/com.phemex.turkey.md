@@ -1,11 +1,9 @@
 ---
 title: 'Phemex TR: TL ile Bitcoin Al'
-date: 2024-09-08
+date: 2026-10-30
 authors:
 - danny
 website: https://phemex.com.tr#deadLink
-social:
-- https://phemex.com.tr#deadLink
 features:
 - buyWithCC
 - tradeAlts
@@ -19,7 +17,6 @@ android:
   updated: 2022-09-27
   version: 1.2.5
   reviews: 1
-  icon: com.phemex.turkey.webp
   meta: removed
   verdict: custodial
   developerName: Phemex TR
@@ -31,12 +28,13 @@ iphone:
   updated: 2026-05-28
   version: 5.19.0
   reviews: 36
-  icon: com.phemex.tr.webp
   meta: ok
   verdict: custodial
   developerName: PHEMEX TURKEY TEKNOLOJİ LİMİTED ŞİRKETİ
 
 ---
+
+**Update 2026-10-30:** Phemex [closed Phemex TR](https://phemex.com/announcements/important-update-closure-of-phemex-operations-in-turkey): trading and deposits stopped on 18 June 2024 and withdrawals ended on 31 July 2024. The Android app is gone. The iPhone app, still published by Phemex Turkey, now ships as "Phemex Pro" with the description of the global Phemex exchange, {% include walletLink.html wallet='iphone/com.phemex.submit' verdict='true' %}.
 
 ## Android
 

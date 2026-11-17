@@ -1,6 +1,6 @@
 ---
 title: Burency Global – Insured Crypto Exchange & Wallet
-date: 2021-12-05
+date: 2026-10-30
 authors:
 - danny
 website: https://www.burency.com#deadLink
@@ -20,7 +20,6 @@ android:
   updated: 2021-05-07
   version: 1.0.2
   reviews: 139
-  icon: com.burency.app.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -30,7 +29,6 @@ iphone:
   updated: 2021-03-23
   version: 1.0.1
   reviews: 25
-  icon: com.burency.app.webp
   meta: removed
   verdict: custodial
 

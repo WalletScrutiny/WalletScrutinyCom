@@ -1,6 +1,6 @@
 ---
 title: Kvadro WL
-date: 2021-11-15
+date: 2026-10-30
 authors:
 - danny
 website: https://kvadrowallet.com#deadLink
@@ -13,7 +13,6 @@ android:
   updated: 2021-08-14
   version: 1.2.13
   reviews: 34
-  icon: com.kvadrowallet.webp
   meta: removed
   verdict: wip
 

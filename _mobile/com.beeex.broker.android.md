@@ -1,6 +1,6 @@
 ---
 title: BeeEx
-date: 2023-01-02
+date: 2026-10-30
 website: https://www.beeex.com#deadLink
 redirect_from:
 - /android/com.beeex.broker.android/
@@ -11,7 +11,6 @@ android:
   updated: 2020-10-09
   version: 3.6.5
   reviews: 3
-  icon: com.beeex.broker.android.webp
   meta: removed
   verdict: wip
 

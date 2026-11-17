@@ -1,6 +1,6 @@
 ---
 title: Verus Mobile
-date: 2025-04-24
+date: 2026-10-30
 authors:
 - danny
 website: https://verus.io/
@@ -23,7 +23,6 @@ android:
   updated: 2026-10-12
   version: 1.1.0-21
   reviews: 35
-  icon: org.autonomoussoftwarefoundation.verusmobile.android.webp
   meta: ok
   verdict: sourceavailable
   developerName: Autonomous Software Foundation
@@ -36,7 +35,6 @@ iphone:
   updated: 2026-10-12
   version: 1.1.0
   reviews: 19
-  icon: org.autonomoussoftwarefoundation.verusmobile.ios.webp
   meta: ok
   verdict: sourceavailable
   developerName: Autonomous Software Foundation

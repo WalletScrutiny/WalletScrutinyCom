@@ -1,9 +1,9 @@
 ---
 title: NiceX
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
-website: http://www.nicex.com
+website: http://www.nicex.com#deadLink
 twitter: NiceXExchange
 social:
 - https://www.facebook.com/NiceXExchange
@@ -17,7 +17,6 @@ android:
   users: 10000
   updated: 2024-08-27
   version: 2.3.5
-  icon: com.metallum.nicex.webp
   meta: removed
   verdict: custodial
   developerName: H-BIT d.o.o.
@@ -29,12 +28,13 @@ iphone:
   updated: 2024-04-25
   version: 1.5.2
   reviews: 1
-  icon: com.nicehash.NiceX.webp
   meta: removed
   verdict: custodial
   developerName: H-BIT, d.o.o.
 
 ---
+
+**⚠️ Warning:** NiceX has shut down. Its operator NiceHash [announced](https://www.nicehash.com/blog/post/nicex-will-close-exchange-operations-on-october-22nd) that trading would stop on 22 October 2024 and withdrawals on 25 October 2024, and the [NiceX account on X](https://x.com/NiceX_Exchange) now reads "NiceX Exchange (closed)". The nicex.com site no longer loads.
 
 ## Android
 
@@ -57,7 +57,7 @@ iphone:
 - Although the mobile app informed us that support was not available for our country we were able to sign up on the website.
 - We found a Bech32 BTC and a lightning wallet that can send and receive. Additional features are only accessible after KYC.
 
-### [Terms and Conditions](https://www.nicex.com/legal-privacy/terms-of-service) 
+### [Terms and Conditions](https://www.nicex.com/legal-privacy/terms-of-service#deadLink) 
 
 - Termination can be at the sole discretion of the provider.
 - We see that the wallet is called NiceWallet provided by {% include walletLink.html wallet='android/com.bitgo.mobile' verdict='true' %} and Fireblocks, Inc. which holds, stores, and transfers funds, and hosts NiceWallet. 

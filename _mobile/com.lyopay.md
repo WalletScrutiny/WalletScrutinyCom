@@ -1,6 +1,6 @@
 ---
 title: LYOPAY
-date: 2023-11-02
+date: 2026-10-30
 authors:
 - danny
 website: https://lyopay.com
@@ -19,7 +19,6 @@ android:
   released: 2020-10-02
   updated: 2023-08-10
   version: '1.1'
-  icon: com.lyopay.webp
   meta: removed
   verdict: custodial
   developerName: DIGILYO APP LTD
@@ -30,12 +29,13 @@ iphone:
   updated: 2023-05-23
   version: '8.17'
   reviews: 0
-  icon: com.LYOPAY.LYOPAY.webp
   meta: removed
   verdict: custodial
   developerName: DIGILYO APP LTD
 
 ---
+
+**⚠️ Warning:** LYOPAY is shut down. Its [website](https://lyopay.com/) now says the company "has officially ceased its operations", that all services were terminated and all customer accounts liquidated with balances refunded ([archived](https://web.archive.org/web/20260417091418/https://lyopay.com/) since at least April 2026).
 
 ## Android
 

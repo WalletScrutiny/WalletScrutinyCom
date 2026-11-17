@@ -1,6 +1,6 @@
 ---
 title: Conglex
-date: 2025-04-06
+date: 2026-10-30
 authors:
 - danny
 website: http://conglex.com
@@ -17,7 +17,6 @@ android:
   released: 2022-05-12
   updated: 2025-08-14
   version: 2.0.4
-  icon: com.conglex.conglex.webp
   meta: removed
   verdict: custodial
   developerName: Conglex Developers
@@ -29,12 +28,13 @@ iphone:
   updated: 2025-09-03
   version: 2.0.4
   reviews: 0
-  icon: com.conglex.mobile.webp
   meta: removed
   verdict: custodial
   developerName: Conglex Limited
 
 ---
+
+**⚠️ Warning:** Conglex appears to be gone. Both apps are gone from the stores, and the [website](https://conglex.com#deadLink) no longer shows the product: it was still up in [January 2026](https://web.archive.org/web/20260107031212/https://conglex.com/) and now only shows a hosting placeholder.
 
 ## Android
 

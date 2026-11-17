@@ -1,6 +1,6 @@
 ---
 title: Cryptotrile
-date: 2024-07-05
+date: 2026-10-30
 website: https://cryptotrile.com#deadLink
 redirect_from:
 - /android/com.cryptotrile.trader/
@@ -10,7 +10,6 @@ android:
   released: 2022-08-09
   updated: 2023-09-02
   version: 1.0.2
-  icon: com.cryptotrile.trader.webp
   meta: removed
   verdict: wip
   developerName: Kryptsam

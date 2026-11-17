@@ -1,6 +1,6 @@
 ---
 title: IQ.cash Wallet
-date: 2023-01-02
+date: 2026-10-30
 website: https://iq.cash#deadLink
 redirect_from:
 - /android/com.iqcash.wallet/
@@ -10,7 +10,6 @@ android:
   released: 2020-05-05
   updated: 2020-05-05
   version: v1.0.6
-  icon: com.iqcash.wallet.webp
   meta: removed
   verdict: wip
 

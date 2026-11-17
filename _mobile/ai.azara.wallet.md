@@ -1,6 +1,6 @@
 ---
 title: 'Azara Crypto & Bitcoin Wallet:'
-date: 2023-01-11
+date: 2026-10-30
 authors:
 - leo
 website: https://www.azara.ai#deadLink
@@ -14,7 +14,6 @@ android:
   released: 2020-11-10
   updated: 2021-04-14
   version: 0.01.18
-  icon: ai.azara.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Azara Processing LP
@@ -25,7 +24,6 @@ iphone:
   updated: 2021-04-14
   version: 0.01.18
   reviews: 0
-  icon: ai.azara.wallet.webp
   meta: removed
   verdict: custodial
 

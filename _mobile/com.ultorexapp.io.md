@@ -1,6 +1,6 @@
 ---
 title: Ultorex
-date: 2024-11-28
+date: 2026-10-30
 authors:
 - danny
 website: https://ultorex.io/
@@ -18,8 +18,7 @@ android:
   released: 2022-07-01
   updated: 2026-04-24
   version: 1.1.20
-  icon: com.ultorexapp.io.webp
-  meta: ok
+  meta: defunct
   verdict: custodial
   developerName: Ultorex
 iphone:
@@ -30,12 +29,20 @@ iphone:
   updated: 2026-04-28
   version: 1.1.20
   reviews: 0
-  icon: com.ultorex.io.webp
   meta: removed
   verdict: custodial
   developerName: Ultorex LLC
 
 ---
+
+**⚠️ Warning:** Ultorex has shut down. Its [website](https://ultorex.io/) now shows
+only a notice from Ultorex LLC: the exchange "stopped trading and withdrawals on 7 July
+2026 and will not resume", customers can neither log in nor withdraw, and the company is asking
+a court in Saint Vincent and the Grenadines to wind it up
+([first notice of 2026-09-23](https://web.archive.org/web/20260923163300/https://ultorex.io/)).
+
+**Update 2026-10-30:** The Android app is still in Google Play, but the exchange behind
+it is closed, so we mark it defunct. The iPhone app is no longer in the App Store.
 
 ## Android
 

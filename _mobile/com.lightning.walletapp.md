@@ -1,6 +1,6 @@
 ---
 title: 'BLW: Bitcoin and Lightning Wal'
-date: 2024-04-19
+date: 2026-10-30
 authors:
 - leo
 website: http://lightning-wallet.com
@@ -19,7 +19,6 @@ android:
   updated: 2021-03-13
   version: 0.4.8
   reviews: 61
-  icon: com.lightning.walletapp.webp
   meta: removed
   verdict: nosource
   developerName: anton kumaigorodski

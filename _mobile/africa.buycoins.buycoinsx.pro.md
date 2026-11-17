@@ -1,9 +1,9 @@
 ---
 title: 'Buycoins Pro: Trade BTC & USDT'
-date: 2023-06-21
+date: 2026-10-30
 authors:
 - danny
-website: https://pro.buycoins.africa
+website: https://pro.buycoins.africa#deadLink
 appCountry: us
 redirect_from:
 - /android/africa.buycoins.buycoinsx.pro/
@@ -16,8 +16,7 @@ android:
   updated: 2023-09-19
   version: 1.1.96
   reviews: 3
-  icon: africa.buycoins.buycoinsx.pro.webp
-  meta: obsolete
+  meta: defunct
   verdict: custodial
   developerName: Bitkoin Africa Inc
 iphone:
@@ -27,12 +26,13 @@ iphone:
   updated: 2022-05-18
   version: 1.1.85
   reviews: 23
-  icon: africa.buycoins.BuycoinsX.pro.webp
   meta: removed
   verdict: custodial
   developerName: Buycoins, Inc.
 
 ---
+
+**Update 2026-10-30:** Buycoins Pro is shut down. Its parent company Helicarrier [closed the exchange](https://www.mariblock.com/helicarrier-shuts-crypto-trading-platform-buycoins-pro/) in early 2024 and gave users three months to withdraw. The site now only says "This service has been suspended by its owner".
 
 ## Android
 
@@ -50,7 +50,7 @@ Buy Coins Pro includes an cryptocurrency exchange with NGNT (Nigerian Naira Toke
 
 ## The Site
 
-[Buy Coins Pro has the ability to freeze funds of the user (Terms and Conditions)](https://pro.buycoins.africa/terms)
+[Buy Coins Pro has the ability to freeze funds of the user (Terms and Conditions)](https://web.archive.org/web/20240226010901/https://pro.buycoins.africa/terms)
 
 > We reserve the right to cancel and/or suspend your Buycoins Pro Account and/or block transactions or freeze funds immediately and without notice if we determine, in our sole discretion, that your Account is associated with a Prohibited Use and/or a Prohibited Business.
 

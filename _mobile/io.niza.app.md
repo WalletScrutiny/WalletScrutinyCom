@@ -1,6 +1,6 @@
 ---
 title: 'Niza: Buy BTC, ETH & +500'
-date: 2026-05-05
+date: 2026-10-30
 authors:
 - danny
 website: https://niza.io
@@ -18,7 +18,6 @@ android:
   appCountry: us
   updated: 2025-05-07
   version: 1.4.3
-  icon: io.niza.app.webp
   meta: stale
   verdict: custodial
   developerName: Niza Global
@@ -30,7 +29,6 @@ iphone:
   updated: 2025-05-07
   version: 1.4.3
   reviews: 0
-  icon: io.niza.app.webp
   meta: stale
   verdict: custodial
   developerName: Niza Global UAB

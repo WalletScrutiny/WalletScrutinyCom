@@ -1,6 +1,6 @@
 ---
 title: MTCtrader
-date: 2024-04-19
+date: 2026-10-30
 website: https://mtctraders.com#deadLink
 redirect_from:
 - /android/com.mtctrader/
@@ -10,7 +10,6 @@ android:
   released: 2022-02-07
   updated: 2022-02-07
   version: '1.1'
-  icon: com.mtctrader.webp
   meta: removed
   verdict: wip
   developerName: TechXSpace

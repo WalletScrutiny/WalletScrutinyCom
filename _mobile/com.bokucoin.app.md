@@ -1,6 +1,6 @@
 ---
 title: Bokucoin - Buy, Sell & Store B
-date: 2023-05-13
+date: 2026-10-30
 authors:
 - danny
 website: https://bokucoin.com#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2020-10-09
   updated: 2020-10-10
   version: '1.5'
-  icon: com.bokucoin.app.webp
   meta: removed
   verdict: wip
   developerName: Bokucoin

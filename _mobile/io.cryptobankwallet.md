@@ -1,6 +1,6 @@
 ---
 title: CryptoBank
-date: 2024-04-19
+date: 2026-10-30
 website: http://www.gexpay.com
 redirect_from:
 - /android/io.cryptobankwallet/
@@ -10,7 +10,6 @@ android:
   released: 2020-12-10
   updated: 2020-12-10
   version: 0.12.0
-  icon: io.cryptobankwallet.webp
   meta: removed
   verdict: wip
   developerName: GexPay

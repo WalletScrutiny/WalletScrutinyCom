@@ -1,6 +1,6 @@
 ---
 title: Blockchain India
-date: 2021-10-15
+date: 2026-10-30
 authors:
 - emanuel
 - leo
@@ -14,7 +14,6 @@ android:
   updated: 2021-08-17
   version: 1.1.0
   reviews: 13
-  icon: com.crypto.blockchain.webp
   meta: removed
   verdict: fake
 

@@ -1,6 +1,6 @@
 ---
 title: 'Crypto Wallets: BTC, USDT, ETH'
-date: 2024-04-26
+date: 2026-10-30
 authors:
 - danny
 website: https://web.archive.org/web/20250216120614/https://starlabstudiosapps.xyz/
@@ -13,7 +13,6 @@ android:
   released: 2021-06-01
   updated: 2024-01-30
   version: '10.0'
-  icon: starlab.studios.cryptowallet.webp
   meta: removed
   verdict: fake
   developerName: Seven Labs AI Apps

@@ -1,6 +1,6 @@
 ---
 title: Naijapay
-date: 2024-04-03
+date: 2026-10-30
 website: https://naijapay.io#deadLink
 redirect_from:
 - /android/com.naijapay.app/
@@ -10,7 +10,6 @@ android:
   released: 2021-01-21
   updated: 2021-08-10
   version: 1.0.0
-  icon: com.naijapay.app.webp
   meta: removed
   verdict: wip
   developerName: CI Cryptosolutions

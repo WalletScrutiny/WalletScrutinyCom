@@ -1,6 +1,6 @@
 ---
 title: Обменник криптовалют 4ange
-date: 2025-02-13
+date: 2026-10-30
 authors:
 - danny
 website: https://4ange.me/
@@ -12,7 +12,6 @@ android:
   released: 2021-06-21
   updated: 2024-08-04
   version: 4.1.1
-  icon: com.xchange.x4ange.webp
   meta: removed
   verdict: custodial
   developerName: XchangeCapitalGroup OU

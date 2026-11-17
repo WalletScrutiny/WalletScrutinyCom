@@ -1,6 +1,6 @@
 ---
 title: DyorEX Exchange
-date: 2023-05-23
+date: 2026-10-30
 authors:
 - danny
 website: https://www.dyorex.com
@@ -21,7 +21,6 @@ android:
   released: 2022-02-24
   updated: 2026-07-14
   version: 2.0.6
-  icon: com.dyorex.dyorex_mobile_app.webp
   meta: removed
   verdict: custodial
   developerName: Dyorex Exchange
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-04-10
   version: 1.9.1
   reviews: 23
-  icon: com.dyorex.dyorexMobileApp.webp
   meta: ok
   verdict: custodial
   developerName: DyorEX Exchange

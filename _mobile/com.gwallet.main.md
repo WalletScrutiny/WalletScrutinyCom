@@ -1,6 +1,6 @@
 ---
 title: G-wallet
-date: 2024-04-19
+date: 2026-10-30
 website: https://www.g-wallet.io#deadLink
 redirect_from:
 - /android/com.gwallet.main/
@@ -10,7 +10,6 @@ android:
   released: 2021-08-11
   updated: 2022-07-22
   version: '1.06'
-  icon: com.gwallet.main.webp
   meta: removed
   verdict: wip
   developerName: TH Jun

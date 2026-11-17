@@ -8,6 +8,10 @@ message: This product was removed from the platform.
 question: Is the product still available for download?
 details: >
   Products that have been removed from the platform may have been removed temporarily 
-  or permanently by the provider. This could be for any reason. This status is similar
-  to 'defunct,' but more definitive since the apps were formerly present but now are not.
-  They may be reinstated at any time but at the time of checking was not available.
+  or permanently by the provider. This could be for any reason. They may be reinstated
+  at any time but at the time of checking were not available.
+
+
+  This status takes precedence over 'defunct': an app that is gone from the platform
+  is 'removed', even if its provider went out of business. The review then says so in a
+  warning.

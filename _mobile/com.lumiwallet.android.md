@@ -1,6 +1,6 @@
 ---
 title: Lumi Crypto Bitcoin Wallet
-date: 2021-06-16
+date: 2026-10-30
 authors:
 - leo
 website: https://lumiwallet.com
@@ -19,7 +19,6 @@ android:
   updated: 2023-07-11
   version: 4.1.6
   reviews: 247
-  icon: com.lumiwallet.android.webp
   meta: removed
   verdict: nosource
   developerName: Raias Llc
@@ -30,11 +29,16 @@ iphone:
   updated: 2021-04-30
   version: 3.10.2
   reviews: 3449
-  icon: com.lumiwallet.HD.webp
   meta: removed
   verdict: nosource
 
 ---
+
+[shutdown notice](http://web.archive.org/web/20240722010730/https://lumiwallet.com/shutdown/)
+said the wallet "will no longer be supported starting October 11, 2024" and asked
+users to move their funds. lumiwallet.com now redirects to noone.io.
+
+**Update 2026-10-30:** [noone.io](https://noone.io), where lumiwallet.com now redirects, has its own app, {% include walletLink.html wallet='android/io.noone.androidwallet' verdict='true' %}. It lists the same Google Play developer name, Raias Llc, though the shutdown notice does not call it a successor.
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: Deus Finance - Crypto & Stock Trading
-date: 2022-03-07
+date: 2026-10-30
 website: https://deus.finance
 redirect_from:
 - /android/finance.deus.deus_mobile/
@@ -10,7 +10,6 @@ android:
   released: 2021-05-13
   updated: 2021-07-23
   version: 1.1.7
-  icon: finance.deus.deus_mobile.webp
   meta: removed
   verdict: wip
 

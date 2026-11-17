@@ -1,9 +1,9 @@
 ---
 title: 'GulfTrader: استثمار الذهب النف'
-date: 2023-08-07
+date: 2026-10-30
 authors:
 - danny
-website: https://www.gulftrader.com
+website: https://www.gulftrader.com#deadLink
 redirect_from:
 - /android/com.gulftrader/
 android:
@@ -11,7 +11,6 @@ android:
   users: 10000
   updated: 2020-11-13
   version: 3.0.8
-  icon: com.gulftrader.webp
   meta: removed
   verdict: wip
   developerName: Gulf Trader LTD

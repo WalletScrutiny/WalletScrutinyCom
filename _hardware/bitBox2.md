@@ -25,11 +25,10 @@ shop: https://shiftcrypto.shop/en/products/bitbox02-bitcoin-only-4/
 country: CH
 price: 149EUR
 repository: https://github.com/BitBoxSwiss/bitbox02-firmware
-icon: bitBox2.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-07-18
+date: 2026-10-30
 signer: 
 twitter: ShiftCryptoHQ
 social:

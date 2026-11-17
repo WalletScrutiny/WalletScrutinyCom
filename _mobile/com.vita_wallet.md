@@ -1,6 +1,6 @@
 ---
 title: Vita Wallet
-date: 2021-10-04
+date: 2026-10-30
 authors:
 - danny
 website: https://vitawallet.io/
@@ -20,7 +20,6 @@ android:
   updated: 2026-10-02
   version: 8.0.1
   reviews: 921
-  icon: com.vita_wallet.webp
   meta: ok
   verdict: custodial
   developerName: Vita Solutions SpA
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-10-13
   version: 8.0.2
   reviews: 292
-  icon: io.vitawallet.vitawallet.webp
   meta: ok
   verdict: custodial
   developerName: Vita Solutions S.p.A

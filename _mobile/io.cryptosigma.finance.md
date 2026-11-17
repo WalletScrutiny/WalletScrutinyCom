@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Wallet - Crypto Wallet
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2021-07-26
   updated: 2022-06-30
   version: 1.0.5
-  icon: io.cryptosigma.finance.webp
   meta: removed
   verdict: nosource
   developerName: MeeMob

@@ -1,9 +1,9 @@
 ---
 title: MasterWallet
-date: 2023-08-16
+date: 2026-10-30
 authors:
 - danny
-website: http://x-widget.org/
+website: http://x-widget.org/#deadLink
 redirect_from:
 - /android/com.msline.mw/
 - /iphone/masterwallet.ai/
@@ -13,7 +13,6 @@ android:
   released: 2019-06-20
   updated: 2022-06-20
   version: 2.3.3
-  icon: com.msline.mw.webp
   meta: removed
   verdict: custodial
   developerName: x-widget
@@ -25,12 +24,13 @@ iphone:
   updated: 2022-05-17
   version: 2.2.4
   reviews: 0
-  icon: masterwallet.ai.webp
   meta: removed
   verdict: custodial
   developerName: X-widget
 
 ---
+
+**Update 2026-10-30:** MasterWallet appears to be gone. Both apps are no longer in the stores, the app's own site masterwallet.ai no longer loads ([last archived copy](https://web.archive.org/web/20230926114418/https://masterwallet.ai/) from September 2023), and the developer's domain x-widget.org has expired.
 
 ## Android
 

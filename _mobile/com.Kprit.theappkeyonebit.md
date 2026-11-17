@@ -1,6 +1,6 @@
 ---
 title: Onekey&bit
-date: 2023-06-21
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2021-11-01
   updated: 2021-11-12
   version: '4.0'
-  icon: com.Kprit.theappkeyonebit.webp
   meta: removed
   verdict: fake
   developerName: Kprit

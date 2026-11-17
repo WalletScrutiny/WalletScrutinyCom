@@ -1,6 +1,6 @@
 ---
 title: Fnk.com
-date: 2023-07-04
+date: 2026-10-30
 authors:
 - danny
 website: https://fnk.com#deadLink
@@ -12,7 +12,6 @@ android:
   updated: 2021-07-07
   version: 1.1.2
   reviews: 8
-  icon: com.fnkcom.webp
   meta: removed
   verdict: wip
   developerName: FNK

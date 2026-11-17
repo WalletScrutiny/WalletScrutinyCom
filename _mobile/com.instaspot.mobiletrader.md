@@ -1,6 +1,6 @@
 ---
 title: InstaSpot
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/com.instaspot.mobiletrader/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-03-23
   updated: 2022-04-29
   version: 1.0.3
-  icon: com.instaspot.mobiletrader.webp
   meta: removed
   verdict: wip
   developerName: InstaSpot

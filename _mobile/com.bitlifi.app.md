@@ -1,6 +1,6 @@
 ---
 title: Bitlifi
-date: 2023-11-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitlifi.com
@@ -9,6 +9,7 @@ social:
 - https://www.facebook.com/bitlifi
 features:
 - ln
+- spark
 redirect_from:
 - /android/com.bitlifi.app/
 - /iphone/com.bitlifi.app/
@@ -19,7 +20,6 @@ android:
   released: 2023-05-04
   updated: 2026-08-19
   version: 1.11.22
-  icon: com.bitlifi.app.webp
   meta: ok
   verdict: custodial
   developerName: MP Developers s.r.o.
@@ -31,12 +31,13 @@ iphone:
   updated: 2026-08-22
   version: 1.11.21
   reviews: 0
-  icon: com.bitlifi.app.webp
   meta: ok
   verdict: custodial
   developerName: MP Developers s.r.o.
 
 ---
+
+**Update 2026-10-30:** The [terms of 8 September 2026](https://www.bitlifi.com/en/terms/) (Czech, article 4.11) add a self-custody wallet on the Spark protocol whose private key stays on the user's device. The provider still holds coins in the regular in-app wallet, which can only withdraw into that self-custody wallet, so the app stays {% include verdictBadge.html verdict="custodial" type='short' %} for now.
 
 ## Android
 

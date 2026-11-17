@@ -1,6 +1,6 @@
 ---
 title: iLuminary - BTC, SOL, USDT
-date: 2026-05-01
+date: 2026-10-30
 authors:
 - danny
 website: https://iluminary.ai
@@ -14,7 +14,6 @@ android:
   released: 2024-03-27
   updated: 2026-06-08
   version: 2.3.0
-  icon: com.iluminary.webp
   meta: ok
   verdict: nosource
   developerName: GESP IT SOLUTIONS

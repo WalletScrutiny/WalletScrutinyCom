@@ -1,6 +1,6 @@
 ---
 title: Portis - Multi Blockchain Wallet
-date: 2021-08-31
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -12,7 +12,6 @@ android:
   updated: 2021-07-16
   version: 1.0.0
   reviews: 18
-  icon: com.shiftshape.wallet.webp
   meta: removed
   verdict: wip
 

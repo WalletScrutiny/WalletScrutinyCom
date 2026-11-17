@@ -1,6 +1,6 @@
 ---
 title: Cryptex24
-date: 2025-03-19
+date: 2026-10-30
 authors:
 - danny
 website: https://www.cryptex24.io#deadLink
@@ -12,7 +12,6 @@ android:
   users: 1000
   updated: 2023-01-05
   version: 2.16.0
-  icon: com.cryptex24.webp
   meta: removed
   verdict: custodial
   developerName: C24 WORLD  LTD
@@ -24,12 +23,13 @@ iphone:
   updated: 2022-12-05
   version: '1.6'
   reviews: 1
-  icon: io.cryptex24.mobile.webp
   meta: removed
   verdict: custodial
   developerName: C24 WORLD LTD
 
 ---
+
+**Update 2026-10-30:** The Cryptex24 website no longer loads, and the [last archived copy of it is from April 2025](https://web.archive.org/web/20250407162742/https://www.cryptex24.io/). Both apps are gone from the stores.
 
 ## Android
 

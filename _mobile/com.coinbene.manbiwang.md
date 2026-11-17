@@ -1,6 +1,6 @@
 ---
 title: CoinBene
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - danny
 - leo
@@ -20,7 +20,6 @@ android:
   updated: 2021-05-18
   version: 4.1.6
   reviews: 461
-  icon: com.coinbene.manbiwang.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -30,11 +29,14 @@ iphone:
   updated: 2021-09-13
   version: 4.8.6
   reviews: 46
-  icon: br.com.coinbene.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** CoinBene shut down in November 2021. Its website no longer loads and its apps are gone from both stores.
+
+**Update 2026-10-30:** CoinBene shut down, and both apps with it. It closed its website and apps on 2021-11-15 and the platform by the end of that month ([TheNewsCrypto](https://thenewscrypto.com/crypto-exchange-coinbene-shuts-down/), [Bitcointalk](https://bitcointalk.org/index.php?topic=5370391.0)). The "CB Global" successor app named in the Android section is also gone from Google Play.
 
 ## Android
 

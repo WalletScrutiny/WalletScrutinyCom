@@ -1,7 +1,7 @@
 ---
 title: Anwonder Crypto Wallet
-date: 2024-04-03
-website: https://www.anwonder.com
+date: 2026-10-30
+website: https://www.anwonder.com#deadLink
 redirect_from:
 - /android/com.anwonder.wallet/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-05-30
   updated: 2021-05-31
   version: 1.0.1
-  icon: com.anwonder.wallet.webp
   meta: removed
   verdict: wip
   developerName: Anwonder

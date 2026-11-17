@@ -1,6 +1,6 @@
 ---
 title: 'Bitunix: Crypto & BTC Trading'
-date: 2024-09-28
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitunix.com
@@ -19,12 +19,13 @@ android:
   updated: 2024-09-05
   version: 2024.0905.9712 (d802d97a)
   reviews: 34
-  icon: io.bitunix.android.webp
   meta: removed
   verdict: custodial
   developerName: Bitunix
 
 ---
+
+**Update 2026-10-30:** Bitunix replaced this app with {% include walletLink.html wallet='android/bu.app.android' verdict='true' %}, which the [Bitunix download page](https://www.bitunix.com/download) now links for Android.
 
 ## App Description from Google Play
 

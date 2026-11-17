@@ -1,6 +1,6 @@
 ---
 title: AInvesting - CFD trading
-date: 2025-12-18
+date: 2026-10-30
 authors:
 - danny
 website: http://www.uptrend.bg
@@ -16,7 +16,6 @@ android:
   appCountry: us
   updated: 2024-12-21
   version: 7.0.32
-  icon: com.uptrend.ainvesting.webp
   meta: stale
   verdict: nosendreceive
   developerName: Up Trend LTD

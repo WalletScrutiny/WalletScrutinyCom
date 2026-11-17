@@ -1,6 +1,6 @@
 ---
 title: 'Itez E-wallet: trusted trades'
-date: 2026-01-14
+date: 2026-10-30
 website: https://itez.com
 redirect_from:
 - /android/com.itez.wallet/
@@ -10,7 +10,6 @@ android:
   appCountry: us
   updated: 2024-11-19
   version: 1.1.6
-  icon: com.itez.wallet.webp
   meta: stale
   verdict: wip
   developerName: itez

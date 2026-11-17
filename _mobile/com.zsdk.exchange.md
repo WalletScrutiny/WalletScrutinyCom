@@ -1,6 +1,6 @@
 ---
 title: ZBG
-date: 2025-03-14
+date: 2026-10-30
 authors:
 - danny
 website: https://www.zbg.com#deadLink
@@ -16,12 +16,13 @@ android:
   updated: 2022-10-07
   version: 3.2.0
   reviews: 46
-  icon: com.zsdk.exchange.webp
   meta: removed
   verdict: custodial
   developerName: ZBG_exchange
 
 ---
+
+**Update 2026-10-30:** ZBG appears to be gone. Its website no longer loads; the [last archived copy of the ZBG site](https://web.archive.org/web/20231211224059/https://www.zbg.com/) is from December 2023. The app is no longer on Google Play.
 
 ## App Description
 

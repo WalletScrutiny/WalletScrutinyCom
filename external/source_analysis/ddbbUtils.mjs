@@ -1,6 +1,7 @@
 import Database from 'better-sqlite3';
 import { existsSync, mkdirSync, copyFileSync, readdirSync, unlinkSync } from 'fs';
-import { DB_PATH, BACKUP_DIR, BACKUPS_TO_KEEP } from './config.mjs';
+import { DB_PATH, BACKUP_DIR, BACKUPS_TO_KEEP, DEFAULT_BRANCH_REF } from './config.mjs';
+export { DEFAULT_BRANCH_REF };
 import { join, dirname } from 'path';
 
 // Backup database before processing. Keeps the newest `keep` copies.
@@ -140,6 +141,13 @@ export function initDatabase(dbPath = DB_PATH) {
   // `dependants` is the JSON list of package names that require this one, one
   // hop up (plugins/pinning.mjs makeEntry); NULL when the lockfile has no graph.
   for (const table of ['app_dependencies', 'app_vulnerabilities']) ensureColumn(db, table, 'dependants', 'TEXT');
+  // `affected` is the JSON list of the advisory's affected ranges for this
+  // package ("< 1.2.3"); NULL on rows stored before the column, until the next recheck.
+  ensureColumn(db, 'app_vulnerabilities', 'affected', 'TEXT');
+  // `listed_by` is the databases that listed the advisory, space separated:
+  // "osv", "nvd" or "osv nvd" (plugins/osv.mjs findingsFor); NULL on rows stored
+  // before the column, until the next recheck.
+  ensureColumn(db, 'app_vulnerabilities', 'listed_by', 'TEXT');
 
   // Where a package's source lives, per (ecosystem, name): resolved from the
   // registry metadata (sourceRepos.mjs) and cached, since it does not
@@ -169,6 +177,37 @@ export function initDatabase(dbPath = DB_PATH) {
       provenance INTEGER,
       checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
       PRIMARY KEY (ecosystem, name, version)
+    );
+  `);
+
+  // Rung "reproduced" (rebuildClaims.mjs, rebuildNpm.mjs): who rebuilt a
+  // package version from source and got the registry's file. One row per
+  // claimant: ws (us), oss-rebuild, reproducible-central. result is
+  // reproduced | failed; sha256 is the registry file's, commit_sha the source
+  // built, event our unsigned Nostr event (ws only).
+  // rebuild_lookups records every (claimant, package) asked, with or without claims.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS package_rebuilds (
+      ecosystem TEXT NOT NULL,
+      name TEXT NOT NULL,
+      version TEXT NOT NULL,
+      claimant TEXT NOT NULL,
+      result TEXT NOT NULL,
+      artifact TEXT,
+      sha256 TEXT,
+      commit_sha TEXT,
+      url TEXT,
+      note TEXT,
+      event TEXT,
+      checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (ecosystem, name, version, claimant)
+    );
+    CREATE TABLE IF NOT EXISTS rebuild_lookups (
+      claimant TEXT NOT NULL,
+      ecosystem TEXT NOT NULL,
+      name TEXT NOT NULL,
+      checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (claimant, ecosystem, name)
     );
   `);
 
@@ -210,6 +249,19 @@ export function initDatabase(dbPath = DB_PATH) {
   `);
   ensureColumn(db, 'apps', 'gone', 'INTEGER NOT NULL DEFAULT 0');
 
+  // The day a release was tagged, for refs without a dated GitHub release asset
+  // (releaseDates.mjs): the date of the commit the tag points at. released_at is
+  // null when the forge does not know the ref; neither changes, so each is asked once.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS release_dates (
+      app_id TEXT NOT NULL,
+      ref TEXT NOT NULL,
+      released_at TEXT,
+      checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (app_id, ref)
+    );
+  `);
+
   // Gone wallets past their end of life (index.mjs, GONE_EOL_YEARS), as of the
   // last pass: neither analysed nor exported.
   db.exec(`
@@ -227,9 +279,11 @@ export function initDatabase(dbPath = DB_PATH) {
       version TEXT NOT NULL,
       verified_at INTEGER NOT NULL,    -- created_at of the newest reproducible verification
       platform TEXT,                   -- its platform tag (android, iphone, hardware, windows, ...)
+      build_locks TEXT,                -- JSON { locks, misnamed }: the build-lock.json output files (reproducible.mjs buildLockRefs)
       PRIMARY KEY (app_id, version)
     );
   `);
+  ensureColumn(db, 'reproducible_versions', 'build_locks', 'TEXT');
 
   // Which release analysis is the check of a verified version: the tag the
   // pass resolved the version to.
@@ -251,6 +305,9 @@ export function initDatabase(dbPath = DB_PATH) {
       analysed_at DATETIME DEFAULT CURRENT_TIMESTAMP
     );
   `);
+  // 1 once that analysis also stored its dependency and advisory rows (under
+  // DEFAULT_BRANCH_REF); commits recorded before it did are analysed again.
+  ensureColumn(db, 'default_branch_analyses', 'rows_stored', 'INTEGER');
 
   // One row per analysis the service ran: what was looked at (commit, ref,
   // kind), by which analyser, with which outcome, and what it saw (ecosystem,
@@ -274,11 +331,17 @@ export function initDatabase(dbPath = DB_PATH) {
       osv_skipped TEXT NOT NULL DEFAULT '{}',    -- JSON {reason: count}
       vulnerabilities INTEGER,
       lock_coverage TEXT,                        -- JSON plugins/lock-coverage.mjs result, NULL when it did not run
+      build_lock TEXT,                           -- JSON plugins/build-lock.mjs result, NULL when the release has no build-lock.json
       analysed_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      failed_attempt_at DATETIME,                -- the last re-check that failed and left this ok row in place (issue 998)
+      failed_attempt_error TEXT,
       PRIMARY KEY (app_id, kind, ref)
     );
   `);
   ensureColumn(db, 'analyses', 'lock_coverage', 'TEXT');
+  ensureColumn(db, 'analyses', 'build_lock', 'TEXT');
+  ensureColumn(db, 'analyses', 'failed_attempt_at', 'DATETIME');
+  ensureColumn(db, 'analyses', 'failed_attempt_error', 'TEXT');
 
   // The git submodules of an analysed release with their three claims
   // (submoduleIdentity.mjs), as the walk returned them; one row per release.
@@ -300,23 +363,42 @@ export function initDatabase(dbPath = DB_PATH) {
     SELECT d.app_id, 'release', d.version, 'ok', 'before-analyses-table', COUNT(*),
            (SELECT COUNT(*) FROM app_vulnerabilities v WHERE v.app_id = d.app_id AND v.version = d.version),
            MIN(d.created_at)
-    FROM app_dependencies d GROUP BY d.app_id, d.version;
+    FROM app_dependencies d WHERE d.version != '${DEFAULT_BRANCH_REF}' GROUP BY d.app_id, d.version;
+  `);
+
+  // Wallets marked for a rerun (reanalyse-cli.mjs): the next pass analyses
+  // each one as --reanalyse would, then removes its mark.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS reanalyse_requests (
+      app_id TEXT PRIMARY KEY,
+      requested_at DATETIME DEFAULT CURRENT_TIMESTAMP
+    );
   `);
 
   return db;
 }
 
 // Store the outcome of one analysis (see appAnalysis.runSourceCodeAnalysis);
-// a repeat of the same (appId, kind, ref) replaces the earlier row.
+// a repeat of the same (appId, kind, ref) replaces the earlier row, except
+// that a failed one leaves an ok row in place (issue 998): it only notes the
+// attempt and its error beside it, and analysed_at stays the ok check's.
 export function recordAnalysis(db, { appId, kind, ref, commit = null, status, error = null, appType = null,
-  analyser, plugins = [], lockfiles = [], dependencies = null, osvChecked = null, osvSkipped = {}, vulnerabilities = null, lockCoverage = null }) {
+  analyser, plugins = [], lockfiles = [], dependencies = null, osvChecked = null, osvSkipped = {}, vulnerabilities = null, lockCoverage = null, buildLock = null }) {
+  if (status === 'failed') {
+    const kept = db.prepare(`
+      UPDATE analyses SET failed_attempt_at = CURRENT_TIMESTAMP, failed_attempt_error = ?
+      WHERE app_id = ? AND kind = ? AND ref = ? AND status = 'ok'
+    `).run(error, appId, kind, ref);
+    if (kept.changes) return;
+  }
   db.prepare(`
     INSERT OR REPLACE INTO analyses
       (app_id, kind, ref, commit_sha, status, error, app_type, analyser, plugins, lockfiles,
-       dependencies, osv_checked, osv_skipped, vulnerabilities, lock_coverage, analysed_at)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+       dependencies, osv_checked, osv_skipped, vulnerabilities, lock_coverage, build_lock, analysed_at)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
   `).run(appId, kind, ref, commit, status, error, appType, analyser, plugins.join(' '), JSON.stringify(lockfiles),
-    dependencies, osvChecked, JSON.stringify(osvSkipped), vulnerabilities, lockCoverage ? JSON.stringify(lockCoverage) : null);
+    dependencies, osvChecked, JSON.stringify(osvSkipped), vulnerabilities, lockCoverage ? JSON.stringify(lockCoverage) : null,
+    buildLock ? JSON.stringify(buildLock) : null);
 }
 
 // Every recorded analysis of an app, newest first, JSON columns decoded.
@@ -336,17 +418,25 @@ function decodeAnalysis(row) {
     lockfiles: JSON.parse(row.lockfiles || '[]'),
     osv_skipped: JSON.parse(row.osv_skipped || '{}'),
     lock_coverage: row.lock_coverage ? JSON.parse(row.lock_coverage) : null,
+    build_lock: row.build_lock ? JSON.parse(row.build_lock) : null,
   };
 }
 
+// The default branch's commit whose rows are stored under DEFAULT_BRANCH_REF,
+// or null: never analysed, or analysed before those rows were kept.
 export function getAnalysedCommit(db, appId) {
-  const row = db.prepare('SELECT commit_sha FROM default_branch_analyses WHERE app_id = ?').get(appId);
-  return row ? row.commit_sha : null;
+  return getDefaultBranch(db, appId)?.commit ?? null;
+}
+
+// { commit, analysedAt } of the default branch analysis whose rows are stored, or null.
+export function getDefaultBranch(db, appId) {
+  const row = db.prepare('SELECT commit_sha, analysed_at FROM default_branch_analyses WHERE app_id = ? AND rows_stored = 1').get(appId);
+  return row ? { commit: row.commit_sha, analysedAt: row.analysed_at } : null;
 }
 
 export function saveAnalysedCommit(db, appId, commitSha) {
-  db.prepare(`INSERT INTO default_branch_analyses (app_id, commit_sha) VALUES (?, ?)
-    ON CONFLICT(app_id) DO UPDATE SET commit_sha = excluded.commit_sha, analysed_at = CURRENT_TIMESTAMP`).run(appId, commitSha);
+  db.prepare(`INSERT INTO default_branch_analyses (app_id, commit_sha, rows_stored) VALUES (?, ?, 1)
+    ON CONFLICT(app_id) DO UPDATE SET commit_sha = excluded.commit_sha, rows_stored = 1, analysed_at = CURRENT_TIMESTAMP`).run(appId, commitSha);
 }
 
 // Replace the cached app list with the given entries ({appId, platform, repository, gone}).
@@ -379,20 +469,31 @@ export function getEndOfLife(db) {
 
 // Replace the cached verifications with byApp (appId -> [{version, verifiedAt}]).
 export function saveReproducibleVersions(db, byApp) {
-  const insert = db.prepare('INSERT INTO reproducible_versions (app_id, version, verified_at, platform) VALUES (?, ?, ?, ?)');
+  const insert = db.prepare('INSERT INTO reproducible_versions (app_id, version, verified_at, platform, build_locks) VALUES (?, ?, ?, ?, ?)');
+  const locksOf = (v) => (v.buildLocks?.length || v.misnamedLocks?.length ? JSON.stringify({ locks: v.buildLocks || [], misnamed: v.misnamedLocks || [] }) : null);
   db.transaction(() => {
     db.prepare('DELETE FROM reproducible_versions').run();
-    for (const [appId, versions] of byApp) for (const v of versions) insert.run(appId, v.version, v.verifiedAt, v.platform ?? null);
+    for (const [appId, versions] of byApp) for (const v of versions) insert.run(appId, v.version, v.verifiedAt, v.platform ?? null, locksOf(v));
   })();
 }
 
 export function getReproducibleVersions(db) {
   const byApp = new Map();
-  for (const r of db.prepare('SELECT app_id, version, verified_at, platform FROM reproducible_versions ORDER BY verified_at DESC').all()) {
+  for (const r of db.prepare('SELECT app_id, version, verified_at, platform, build_locks FROM reproducible_versions ORDER BY verified_at DESC').all()) {
     if (!byApp.has(r.app_id)) byApp.set(r.app_id, []);
-    byApp.get(r.app_id).push({ version: r.version, verifiedAt: r.verified_at, platform: r.platform });
+    const { locks = [], misnamed = [] } = r.build_locks ? JSON.parse(r.build_locks) : {};
+    byApp.get(r.app_id).push({ version: r.version, verifiedAt: r.verified_at, platform: r.platform,
+      ...(locks.length ? { buildLocks: locks } : {}), ...(misnamed.length ? { misnamedLocks: misnamed } : {}) });
   }
   return byApp;
+}
+
+// The build-lock.json output files the verifications of (appId, version)
+// carry, and the misnamed ones: { locks, misnamed }, both empty when none.
+export function getBuildLockRefs(db, appId, version) {
+  const r = db.prepare('SELECT build_locks FROM reproducible_versions WHERE app_id = ? AND version = ?').get(appId, version);
+  const { locks = [], misnamed = [] } = r?.build_locks ? JSON.parse(r.build_locks) : {};
+  return { locks, misnamed };
 }
 
 export function saveVerifiedRef(db, appId, ref, version) {
@@ -409,6 +510,36 @@ export function getVerifiedRefs(db, appId) {
 // failed one is retried.
 export function hasReleaseAnalysis(db, appId, ref) {
   return Boolean(db.prepare("SELECT 1 FROM analyses WHERE app_id = ? AND kind = 'release' AND ref = ? AND status != 'failed'").get(appId, ref));
+}
+
+// The release tags --reanalyse runs again for an app: the newest GitHub
+// release stored for it, then every release with a recorded analysis.
+export function releasesToReanalyse(db, appId) {
+  const newest = db.prepare("SELECT version FROM assets WHERE app_id = ? AND source = 'github' ORDER BY published_at DESC LIMIT 1").get(appId);
+  const analysed = db.prepare("SELECT ref FROM analyses WHERE app_id = ? AND kind = 'release' ORDER BY analysed_at DESC, ref").all(appId).map(r => r.ref);
+  return [...new Set([...(newest ? [newest.version] : []), ...analysed])];
+}
+
+// Mark wallets for a rerun; marking one again moves its mark to now.
+export function requestReanalyse(db, appIds) {
+  const mark = db.prepare('INSERT OR REPLACE INTO reanalyse_requests (app_id) VALUES (?)');
+  db.transaction(() => { for (const id of appIds) mark.run(id); })();
+}
+
+// The pending marks, oldest first: [{ app_id, requested_at }].
+export function reanalyseRequests(db) {
+  return db.prepare('SELECT app_id, requested_at FROM reanalyse_requests ORDER BY requested_at, app_id').all();
+}
+
+// Remove marks. With `before`, only marks older than it: one made while the
+// wallet was already being analysed stays for the next pass.
+export function clearReanalyse(db, appIds, before = null) {
+  const clear = before
+    ? db.prepare('DELETE FROM reanalyse_requests WHERE app_id = ? AND requested_at < ?')
+    : db.prepare('DELETE FROM reanalyse_requests WHERE app_id = ?');
+  let removed = 0;
+  db.transaction(() => { for (const id of appIds) removed += (before ? clear.run(id, before) : clear.run(id)).changes; })();
+  return removed;
 }
 
 function ensureColumn(db, table, column, type) {
@@ -467,25 +598,42 @@ export function saveDependencies(db, appId, version, analyses) {
 
 // Replace the stored vulnerability findings of (appId, version) with those of
 // a checkVulnerabilities result (plugins/osv.mjs). Returns the number of rows stored.
-export function saveVulnerabilities(db, appId, version, { findings }) {
-  const insert = db.prepare(`
-    INSERT OR REPLACE INTO app_vulnerabilities
-      (app_id, version, ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-  `);
+// `nvdUnavailable` lists the package versions NVD did not answer for
+// (plugins/osv.mjs): the rows stored for them are kept, since replacing them
+// with OSV.dev's answer alone would drop every NVD-only advisory until the
+// next successful lookup. A finding of this run replaces its stored row, but
+// keeps the row's stored `listed_by`: NVD did not say this time whether it lists it.
+// A new finding of such a package stores NULL (no line) for the same reason.
+export function saveVulnerabilities(db, appId, version, { findings, nvdUnavailable = [] }) {
+  const columns = 'app_id, version, ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants, affected, listed_by';
+  const values = columns.split(', ').map(() => '?').join(', ');
+  const insert = db.prepare(`INSERT OR REPLACE INTO app_vulnerabilities (${columns}) VALUES (${values})`);
+  const keep = db.prepare(`INSERT OR IGNORE INTO app_vulnerabilities (${columns}) VALUES (${values})`);
+  const stored = db.prepare(`SELECT ${columns} FROM app_vulnerabilities WHERE app_id = ? AND version = ? AND ecosystem = ? AND name = ? AND dep_version = ?`);
+  const key = (ecosystem, name, depVersion, id) => [ecosystem, name, depVersion, id].join('\0');
   return db.transaction(() => {
+    const kept = nvdUnavailable.flatMap(p => stored.all(appId, version, p.ecosystem, p.name, p.version));
+    const keptListedBy = new Map(kept.map(r => [key(r.ecosystem, r.name, r.dep_version, r.vuln_id), r.listed_by]));
+    const unanswered = new Set(nvdUnavailable.map(p => key(p.ecosystem, p.name, p.version, '')));
     db.prepare('DELETE FROM app_vulnerabilities WHERE app_id = ? AND version = ?').run(appId, version);
     for (const f of findings) {
+      const k = key(f.ecosystem, f.name, f.version, f.id);
       insert.run(appId, version, f.ecosystem, f.name, f.version, f.id, f.severity,
-        f.aliases.join(' '), f.fixed.join(' '), f.summary, boolOrNull(f.direct), boolOrNull(f.dev), scopeOrNull(f.scope), dependantsOrNull(f.dependants));
+        f.aliases.join(' '), f.fixed.join(' '), f.summary, boolOrNull(f.direct), boolOrNull(f.dev), scopeOrNull(f.scope), dependantsOrNull(f.dependants),
+        Array.isArray(f.affected) && f.affected.length ? JSON.stringify(f.affected) : null,
+        keptListedBy.has(k) ? keptListedBy.get(k)
+          : unanswered.has(key(f.ecosystem, f.name, f.version, '')) ? null
+          : (f.listedBy?.length ? f.listedBy.join(' ') : null));
     }
-    return findings.length;
+    let carried = 0;
+    for (const r of kept) carried += keep.run(...columns.split(', ').map(c => r[c])).changes;
+    return findings.length + carried;
   })();
 }
 
 export function getVulnerabilities(db, appId, version) {
   return db.prepare(`
-    SELECT ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants
+    SELECT ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants, affected, listed_by
     FROM app_vulnerabilities WHERE app_id = ? AND version = ?
     ORDER BY CASE severity WHEN 'malicious' THEN 0 WHEN 'critical' THEN 1 WHEN 'high' THEN 2
       WHEN 'moderate' THEN 3 WHEN 'low' THEN 4 ELSE 5 END, ecosystem, name, vuln_id
@@ -498,6 +646,28 @@ export function saveSubmodules(db, appId, ref, commit, rows) {
 }
 
 // { commit, checkedAt, rows } of (appId, ref), or null when it has no submodules stored.
+/**
+ * Every rebuild claim (package_rebuilds) as Map `ecosystem\0name\0version` →
+ * claims, ours first. Only what the panel shows: our unsigned event rides along.
+ */
+export function getRebuildClaims(db) {
+  const out = new Map();
+  const rows = db.prepare(`SELECT * FROM package_rebuilds ORDER BY claimant = 'ws' DESC, claimant`).all();
+  for (const r of rows) {
+    const key = `${r.ecosystem}\0${r.name}\0${r.version}`;
+    if (!out.has(key)) out.set(key, []);
+    const c = { by: r.claimant, result: r.result };
+    if (r.url) c.url = r.url;
+    if (r.note) c.note = r.note;
+    if (r.claimant === 'ws') {
+      c.date = String(r.checked_at).slice(0, 10);
+      if (r.event) c.event = JSON.parse(r.event);
+    }
+    out.get(key).push(c);
+  }
+  return out;
+}
+
 export function getSubmodules(db, appId, ref) {
   const r = db.prepare('SELECT commit_sha, rows, checked_at FROM release_submodules WHERE app_id = ? AND ref = ?').get(appId, ref);
   return r ? { commit: r.commit_sha, checkedAt: r.checked_at, rows: JSON.parse(r.rows) } : null;

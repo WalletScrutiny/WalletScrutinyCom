@@ -1,6 +1,6 @@
 ---
 title: ABCore
-date: 2024-04-19
+date: 2026-10-30
 authors:
 - leo
 - emanuel
@@ -16,7 +16,6 @@ android:
   users: 1000
   updated: 2019-10-16
   version: VARY
-  icon: com.greenaddress.abcore.webp
   playStore: removed
   alternativeStores:
   - fdroid

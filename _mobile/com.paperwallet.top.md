@@ -1,6 +1,6 @@
 ---
 title: Paper Crypto Wallet Generator
-date: 2025-02-26
+date: 2026-10-30
 authors:
 - danny
 website: https://github.com/technologiespro/paper-wallet-generator
@@ -14,7 +14,6 @@ android:
   updated: 2020-10-18
   version: 1.0.22
   reviews: 4
-  icon: com.paperwallet.top.webp
   meta: removed
   verdict: wip
   developerName: TechnoL0g

@@ -73,6 +73,23 @@ describe('publishing the export', () => {
     assert.deepEqual(publishFiles('/e', [], { target: '/t', run }), { published: false });
   });
 
+  test('one app\'s files: a path that is not on disk is left out of the transfer', { skip: !hasRsync && 'rsync not installed' }, () => {
+    const tmp = mkdtempSync(join(tmpdir(), 'publish-'));
+    try {
+      const exportDir = join(tmp, 'export');
+      const target = join(tmp, 'www');
+      mkdirSync(join(exportDir, 'apps'), { recursive: true });
+      mkdirSync(target, { recursive: true });
+      writeFileSync(join(exportDir, 'index.json'), '{"schema":1}');
+      writeFileSync(join(exportDir, 'apps', 'a.json'), '{"new":true}');
+      assert.deepEqual(publishFiles(exportDir, ['index.json', 'apps/a.json', 'apps/missing.json', 'apps/missing/'], { target, ssh: '' }), { published: true, target });
+      assert.equal(readFileSync(join(target, 'apps', 'a.json'), 'utf8'), '{"new":true}');
+      assert.equal(existsSync(join(target, 'apps', 'missing.json')), false);
+    } finally {
+      rmSync(tmp, { recursive: true, force: true });
+    }
+  });
+
   test('brotli copies: every .json gets one, a stale one is redone, an orphan removed', () => {
     const tmp = mkdtempSync(join(tmpdir(), 'publish-'));
     try {

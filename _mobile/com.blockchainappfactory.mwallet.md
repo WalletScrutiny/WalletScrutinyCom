@@ -1,6 +1,6 @@
 ---
 title: M Wallet
-date: 2023-05-13
+date: 2026-10-30
 authors:
 - danny
 website: https://mwallet.step.holdings#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2020-03-08
   updated: 2020-03-09
   version: '1.0'
-  icon: com.blockchainappfactory.mwallet.webp
   meta: removed
   verdict: wip
   developerName: Blockchain App Factory

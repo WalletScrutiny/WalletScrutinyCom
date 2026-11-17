@@ -1,6 +1,6 @@
 ---
 title: Fast Local Trade
-date: 2024-02-05
+date: 2026-10-30
 redirect_from:
 - /android/com.fastlocaltrade.fastlocaltrade/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2019-05-11
   updated: 2019-12-06
   version: 1.1.1
-  icon: com.fastlocaltrade.fastlocaltrade.webp
   meta: removed
   verdict: wip
   developerName: FLT

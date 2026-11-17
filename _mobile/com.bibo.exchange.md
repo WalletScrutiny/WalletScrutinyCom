@@ -1,7 +1,7 @@
 ---
 title: Bibo Exchange
-date: 2023-08-04
-website: https://www.bibo.gold
+date: 2026-10-30
+website: https://www.bibo.gold#deadLink
 twitter: biboexchange
 redirect_from:
 - /android/com.bibo.exchange/
@@ -11,7 +11,6 @@ android:
   released: 2020-02-19
   updated: 2020-02-20
   version: 2.4.1
-  icon: com.bibo.exchange.webp
   meta: removed
   verdict: wip
   developerName: Bibo Market Inc

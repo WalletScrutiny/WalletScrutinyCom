@@ -1,6 +1,6 @@
 ---
 title: Trio Ace Global
-date: 2024-02-05
+date: 2026-10-30
 redirect_from:
 - /android/com.trioace.global/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-01-02
   updated: 2022-01-03
   version: 1.0.1
-  icon: com.trioace.global.webp
   meta: removed
   verdict: wip
   developerName: Trio Ace Global

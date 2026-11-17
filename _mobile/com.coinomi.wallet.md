@@ -1,6 +1,6 @@
 ---
 title: 'Coinomi: Crypto Bitcoin Wallet'
-date: 2024-09-14
+date: 2026-10-30
 authors:
 - leo
 website: https://www.Coinomi.com
@@ -32,7 +32,6 @@ android:
   updated: 2026-10-01
   version: 1.68.2
   reviews: 2320
-  icon: com.coinomi.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Coinomi
@@ -44,7 +43,6 @@ iphone:
   updated: 2026-10-01
   version: 1.68.2
   reviews: 2143
-  icon: com.coinomi.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Loksias SA

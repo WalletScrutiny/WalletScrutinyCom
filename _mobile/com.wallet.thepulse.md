@@ -1,7 +1,7 @@
 ---
 title: 'Pulse Wallet: Crypto & Web3'
-date: 2026-09-15
-website: https://thepulsewallet.org/
+date: 2026-10-30
+website: https://pulsewallet.co/
 redirect_from:
 - /android/com.wallet.thepulse/
 - /iphone/ios.wallet.pulse/
@@ -14,7 +14,6 @@ android:
   updated: 2026-07-07
   version: 5.3.9
   reviews: 24
-  icon: com.wallet.thepulse.webp
   meta: ok
   verdict: wip
   developerName: THE PULSE WALLET
@@ -26,7 +25,6 @@ iphone:
   updated: 2026-07-07
   version: 5.3.8
   reviews: 26
-  icon: ios.wallet.pulse.webp
   meta: ok
   verdict: wip
   developerName: MMC Wallet

@@ -1,6 +1,6 @@
 ---
 title: 360TradeHub Mobile
-date: 2024-04-03
+date: 2026-10-30
 website: https://360tradehub.com#deadLink
 redirect_from:
 - /android/com.tradehub360/
@@ -10,7 +10,6 @@ android:
   released: 2022-10-10
   updated: 2023-06-13
   version: 2.0.70
-  icon: com.tradehub360.webp
   meta: removed
   verdict: wip
   developerName: 360TradeHub  Limited

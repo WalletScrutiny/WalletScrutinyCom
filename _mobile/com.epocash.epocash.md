@@ -1,7 +1,7 @@
 ---
 title: EPO Cash
-date: 2024-02-05
-website: https://www.epocash.com
+date: 2026-10-30
+website: https://www.epocash.com#deadLink
 redirect_from:
 - /android/com.epocash.epocash/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2020-09-20
   updated: 2020-10-21
   version: '1.1'
-  icon: com.epocash.epocash.webp
   meta: removed
   verdict: wip
   developerName: EPO Cash

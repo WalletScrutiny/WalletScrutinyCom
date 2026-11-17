@@ -1,6 +1,6 @@
 ---
 title: Coinfinity - Buy Bitcoin
-date: 2025-11-11
+date: 2026-10-30
 authors:
 - danny
 website: https://coinfinity.co/
@@ -22,7 +22,6 @@ android:
   appCountry: us
   updated: 2026-10-12
   version: 3.2.1
-  icon: co.coinfinity.coinfinity.mobile.webp
   meta: ok
   verdict: nosource
   developerName: Coinfinity
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-10-13
   version: 3.2.1
   reviews: 0
-  icon: co.coinfinity.coinfinity.mobile.webp
   meta: ok
   verdict: nosource
   developerName: Coinfinity GmbH

@@ -1,9 +1,9 @@
 ---
 title: LifPay
-date: 2024-09-07
+date: 2026-10-30
 authors:
 - danny
-website: https://lifpay.me
+website: https://web.archive.org/web/20250618162140/https://lifpay.me/
 twitter: lifpay
 social:
 - https://primal.net/p/npub1pzerv8rqqvhk82y85axa3t3yxr8rdqnea03zlmk5crsne509esqqw0x463
@@ -21,10 +21,9 @@ android:
   released: 2022-09-21
   updated: 2025-08-25
   version: 2.4.8
-  icon: flutter.android.LifePay.webp
   alternativeStores:
   - zapstore
-  meta: stale
+  meta: defunct
   verdict: custodial
   developerName: ProminentWise
 iphone:
@@ -35,12 +34,13 @@ iphone:
   updated: 2025-08-07
   version: 2.4.7
   reviews: 0
-  icon: com.prominentwiselimited.lifpay.webp
   meta: stale
   verdict: custodial
   developerName: PROMINENTWISE LIMITED
 
 ---
+
+**⚠️ Warning:** LifPay suspended its wallet in February 2025 and asked users to withdraw their bitcoin within 60 days [(No Bullshit Bitcoin)](https://www.nobsbitcoin.com/lifpay-temp-suspends-operations/). Its website now forwards to a merchandise shop [(lifpay.store)](https://lifpay.store/en/about).
 
 ## Android
 

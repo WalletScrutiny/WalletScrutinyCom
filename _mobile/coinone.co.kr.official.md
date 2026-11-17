@@ -1,13 +1,12 @@
 ---
 title: '코인원: 수수료 무료 바우처 지급, 12년 보안 무사고'
-date: 2021-08-21
+date: 2026-10-30
 authors:
 - danny
 website: https://coinone.co.kr
 twitter: CoinoneOfficial
 social:
 - https://www.facebook.com/coinone
-- https://coinone.co.kr
 features:
 - fingerprint
 redirect_from:
@@ -21,7 +20,6 @@ android:
   updated: 2026-10-02
   version: 5.38.0
   reviews: 15
-  icon: coinone.co.kr.official.webp
   meta: ok
   verdict: custodial
   developerName: Coinone
@@ -33,7 +31,6 @@ iphone:
   updated: 2026-10-08
   version: 5.38.0
   reviews: 1061
-  icon: kr.co.coinone.officialapp.webp
   meta: ok
   verdict: custodial
   developerName: Coinone

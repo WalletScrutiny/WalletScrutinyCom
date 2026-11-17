@@ -15,7 +15,8 @@ sourceavailable and meta ok, deprecated or absent (the same filter the app's
 script applies). Fields per wallet:
   appId             Android package name
   title             altTitle (android block, then page) or title
-  icon              filename under /images/wIcons/android/, or null
+  icon              filename under /images/wIcons/android/ (<appId>.webp; the
+                    file can be missing for the few wallets without an icon)
   users             Play Store install count as a number, or null
   verdict, meta     the Android entry's values; meta is null when absent
   alternativeStores list from the Android entry, [] when absent (fdroid, zapstore, ...)
@@ -33,7 +34,7 @@ script applies). Fields per wallet:
 {%- capture entry -%}
 {"appId":{{ store.appId | jsonify }}
 ,"title":{{ title | jsonify }}
-,"icon":{{ store.icon | jsonify }}
+,"icon":{{ store.appId | append: ".webp" | jsonify }}
 ,"users":{% if store.users %}{{ store.users | plus: 0 }}{% else %}null{% endif %}
 ,"verdict":{{ store.verdict | jsonify }}
 ,"meta":{{ store.meta | jsonify }}

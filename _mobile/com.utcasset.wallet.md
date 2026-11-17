@@ -1,6 +1,6 @@
 ---
 title: UTC Digital
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/com.utcasset.wallet/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-08-26
   updated: 2021-08-27
   version: 0.21.0
-  icon: com.utcasset.wallet.webp
   meta: removed
   verdict: wip
   developerName: clambiz

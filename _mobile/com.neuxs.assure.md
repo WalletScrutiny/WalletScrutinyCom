@@ -1,6 +1,6 @@
 ---
 title: Assure-BTC&ETH Wallet
-date: 2023-03-21
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -12,7 +12,6 @@ android:
   updated: 2023-02-06
   version: 1.0.96
   reviews: 20
-  icon: com.neuxs.assure.webp
   meta: removed
   verdict: wip
 

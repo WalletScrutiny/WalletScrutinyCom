@@ -1,6 +1,6 @@
 ---
 title: Sky7
-date: 2023-12-19
+date: 2026-10-30
 redirect_from:
 - /android/com.sky7_bot_mobile/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-12-07
   updated: 2021-12-29
   version: 1.0.5
-  icon: com.sky7_bot_mobile.webp
   meta: removed
   verdict: wip
   developerName: Sky07 Dev

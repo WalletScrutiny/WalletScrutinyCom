@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Prime - Robotics Cryptocurrency (2021)
-date: 2021-09-23
+date: 2026-10-30
 redirect_from:
 - /android/com.gamemobile.bitcoinprime/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-25
   updated: 2021-06-25
   version: 1.0.0
-  icon: com.gamemobile.bitcoinprime.webp
   meta: removed
   verdict: wip
 

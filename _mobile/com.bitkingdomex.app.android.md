@@ -1,6 +1,6 @@
 ---
 title: Bitkingdom
-date: 2023-05-12
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2020-12-23
   updated: 2021-01-19
   version: 1.0.7
-  icon: com.bitkingdomex.app.android.webp
   meta: removed
   verdict: wip
   developerName: 키스톤랩

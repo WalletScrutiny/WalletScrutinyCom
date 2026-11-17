@@ -1,9 +1,9 @@
 ---
 title: 'Volt: Bitcoin & DeFi Wallet'
-date: 2023-06-21
+date: 2026-10-30
 authors:
 - danny
-website: http://www.volt.id
+website: http://www.volt.id#deadLink
 twitter: Voltfinance
 appCountry: us
 redirect_from:
@@ -16,7 +16,6 @@ android:
   updated: 2022-10-21
   version: 2.4.0
   reviews: 30
-  icon: bitmesh.volt.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Volt Wallet
@@ -27,12 +26,13 @@ iphone:
   updated: 2022-07-18
   version: 2.3.9
   reviews: 55
-  icon: com.laxoWallet.webp
   meta: removed
   verdict: custodial
   developerName: Hangzhou YunSuanDuanDian Technology Co.,Ltd
 
 ---
+
+**Update 2026-10-30:** Volt looks gone. Both apps are off the stores, by September 2023 [volt.id](https://web.archive.org/web/20230921094340/https://www.volt.id/) showed an unrelated page instead of the wallet, and the site no longer loads.
 
 ## Android
 

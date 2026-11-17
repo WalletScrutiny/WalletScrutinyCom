@@ -1,6 +1,6 @@
 ---
 title: Blocksmatic
-date: 2023-12-19
+date: 2026-10-30
 redirect_from:
 - /android/com.blocksmatic/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-01-18
   updated: 2022-02-12
   version: 1.1.5
-  icon: com.blocksmatic.webp
   meta: removed
   verdict: wip
   developerName: Blocksmatic

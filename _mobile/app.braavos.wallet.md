@@ -1,6 +1,6 @@
 ---
 title: 'Braavos: BTC & Starknet Wallet'
-date: 2025-11-03
+date: 2026-10-30
 authors:
 - danny
 website: https://braavos.app/
@@ -21,7 +21,6 @@ android:
   updated: 2026-02-04
   version: 4.19.6
   reviews: 36
-  icon: app.braavos.wallet.webp
   meta: ok
   verdict: nosource
   developerName: FreeBraavos
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-02-07
   version: 4.19.6
   reviews: 119
-  icon: app.braavos.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Braavos LTD.

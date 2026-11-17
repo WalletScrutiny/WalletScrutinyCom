@@ -1,6 +1,6 @@
 ---
 title: Garanti BBVA Kripto
-date: 2026-01-23
+date: 2026-10-30
 authors:
 - danny
 website: https://www.garantibbvakripto.com.tr
@@ -17,7 +17,6 @@ android:
   updated: 2026-10-01
   version: 1.19.0
   reviews: 3
-  icon: com.garantibbvadigitalassets.crypto.webp
   meta: ok
   verdict: custodial
   developerName: Garanti BBVA Kripto Varlık Alım Satım Platformu AŞ
@@ -29,7 +28,6 @@ iphone:
   updated: 2026-10-01
   version: '19.5'
   reviews: 15615
-  icon: com.garanti.cepsube.webp
   meta: ok
   verdict: custodial
   developerName: T. Garanti Bankasi A.S.

@@ -1,6 +1,6 @@
 ---
 title: Fiboda - Copy trading Platform
-date: 2022-01-15
+date: 2026-10-30
 authors:
 - danny
 website: http://www.fiboda.com
@@ -15,7 +15,6 @@ android:
   updated: 2021-07-08
   version: 1.0.5
   reviews: 2
-  icon: com.fiboda.app.webp
   meta: removed
   verdict: nosendreceive
 iphone:
@@ -25,11 +24,12 @@ iphone:
   updated: 2021-07-09
   version: 1.1.0
   reviews: 5
-  icon: com.fiboda.Fiboda.webp
   meta: removed
   verdict: nosendreceive
 
 ---
+
+**Update 2026-10-30:** The provider is gone, for both apps. [fiboda.com](http://www.fiboda.com) now shows only a "Welcome fiboda.com - BlueHost.com" placeholder.
 
 ## Android
 

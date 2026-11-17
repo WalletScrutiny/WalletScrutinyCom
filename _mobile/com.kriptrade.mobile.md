@@ -1,6 +1,6 @@
 ---
 title: Kriptrade
-date: 2023-09-06
+date: 2026-10-30
 authors:
 - danny
 website: https://kriptrade.com
@@ -19,7 +19,6 @@ android:
   released: 2021-10-20
   updated: 2026-10-12
   version: 3.2.11
-  icon: com.kriptrade.mobile.webp
   meta: ok
   verdict: custodial
   developerName: Kriptrade Kripto Varlık Alım Satım Platformu A.Ş.
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-10-13
   version: 3.2.11
   reviews: 44
-  icon: com.kriptrade.mobile.webp
   meta: ok
   verdict: custodial
   developerName: KRIPTRADE KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI

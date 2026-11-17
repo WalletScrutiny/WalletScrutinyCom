@@ -1,6 +1,6 @@
 ---
 title: 'Trading Apps, Cryptocurrency, '
-date: 2024-02-05
+date: 2026-10-30
 redirect_from:
 - /android/bitcoin.ethereum.ripple.cryptocurrency.crypter/
 android:
@@ -10,7 +10,6 @@ android:
   updated: 2019-09-14
   version: 1.0.2
   reviews: 62
-  icon: bitcoin.ethereum.ripple.cryptocurrency.crypter.webp
   meta: removed
   verdict: wip
   developerName: Crytocurrency Master - Bitcoin & Ethereum Apps

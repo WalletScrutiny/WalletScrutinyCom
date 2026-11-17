@@ -1,6 +1,6 @@
 ---
 title: GEX.IO
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/com.hujinsuo.gexio/
 android:
@@ -10,7 +10,6 @@ android:
   updated: 2022-05-09
   version: 1.4.2
   reviews: 5
-  icon: com.hujinsuo.gexio.webp
   meta: removed
   verdict: wip
 

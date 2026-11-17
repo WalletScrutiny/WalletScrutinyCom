@@ -1,6 +1,6 @@
 ---
 title: 'Mercado Pago: Banco Digital'
-date: 2021-12-26
+date: 2026-10-30
 authors:
 - leo
 website: http://www.mercadopago.com
@@ -19,9 +19,8 @@ android:
   updated: 2026-10-13
   version: 2.457.2
   reviews: 1128429
-  icon: com.mercadopago.wallet.webp
   meta: ok
-  verdict: nosendreceive
+  verdict: custodial
   developerName: Mercado Libre
 iphone:
   appId: com.mercadopago.MercadoPago
@@ -31,12 +30,13 @@ iphone:
   updated: 2026-10-09
   version: 2.457.1
   reviews: 2507791
-  icon: com.mercadopago.MercadoPago.webp
   meta: ok
-  verdict: nosendreceive
+  verdict: custodial
   developerName: MercadoLibre
 
 ---
+
+**Update 2026-10-30:** Bitcoin can now be sent and received, so the verdict of both apps changes from {% include verdictBadge.html verdict="nosendreceive" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}. Mercado Pago's [crypto page](https://www.mercadopago.com.br/criptomoedas) says you can send and receive crypto, and that "A Paxos realiza as compras, vendas, transferências e a custódia das suas criptos" (Paxos does the buying, selling, transfers and custody of your crypto). It describes the app's crypto section without limiting it to one platform.
 
 ## Android
 

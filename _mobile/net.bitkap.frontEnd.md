@@ -1,6 +1,6 @@
 ---
 title: Bitkap
-date: 2024-12-04
+date: 2026-10-30
 authors:
 - danny
 website: https://bitkap.africa
@@ -9,7 +9,6 @@ social:
 - https://www.linkedin.com/company/limitlesstech237
 - https://www.facebook.com/BitkapAfrica
 - https://t.me/joinchat/UKx9cqSCN9LBbH34
-- https://bitkap.africa
 redirect_from:
 - /android/net.bitkap.frontEnd/
 - /iphone/net.bitkap.frondend/
@@ -21,7 +20,6 @@ android:
   updated: 2025-04-21
   version: 2.0.4
   reviews: 20
-  icon: net.bitkap.frontEnd.webp
   meta: stale
   verdict: custodial
   developerName: bitkap group
@@ -33,7 +31,6 @@ iphone:
   updated: 2023-07-25
   version: 2.1.10
   reviews: 20
-  icon: net.bitkap.frondend.webp
   meta: removed
   verdict: custodial
   developerName: REAL TIME SARL

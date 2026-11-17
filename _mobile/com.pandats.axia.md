@@ -1,6 +1,6 @@
 ---
 title: Axia Trade
-date: 2024-10-07
+date: 2026-10-30
 authors:
 - danny
 website: https://axiainvestments.com/
@@ -15,7 +15,6 @@ android:
   updated: 2025-12-29
   version: 3.6.0
   reviews: 7
-  icon: com.pandats.axia.webp
   meta: removed
   verdict: nosendreceive
   developerName: Deloce LTD
@@ -27,7 +26,6 @@ iphone:
   updated: 2026-01-07
   version: 3.6.0
   reviews: 1
-  icon: com.pandats.axia.webp
   meta: ok
   verdict: nosendreceive
   developerName: Deloce LTD

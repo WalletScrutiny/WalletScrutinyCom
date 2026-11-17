@@ -1,6 +1,6 @@
 ---
 title: Q9
-date: 2023-08-25
+date: 2026-10-30
 website: https://www.q9capital.com
 redirect_from:
 - /android/com.q9.capital/
@@ -10,7 +10,6 @@ android:
   released: 2021-11-19
   updated: 2022-09-22
   version: 1.0.5
-  icon: com.q9.capital.webp
   meta: removed
   verdict: wip
   developerName: Q9 Capital

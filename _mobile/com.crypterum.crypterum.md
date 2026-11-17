@@ -1,6 +1,6 @@
 ---
 title: Crypterum
-date: 2023-05-22
+date: 2026-10-30
 authors:
 - danny
 website: https://crypterum.com#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2018-09-28
   updated: 2020-09-23
   version: 0.1.13
-  icon: com.crypterum.crypterum.webp
   meta: removed
   verdict: wip
   developerName: Crypterum Exchange Service

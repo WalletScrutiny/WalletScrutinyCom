@@ -5,7 +5,7 @@ authors:
 - kiwilamb
 - danny
 released: 
-discontinued: 
+discontinued: 2021-08-01
 updated: 
 version: 
 binaries: 
@@ -18,11 +18,10 @@ shop: https://www.amazon.com/dp/B07FKWKBJ2
 country: 
 price: 
 repository: 
-icon: asamacura.webp
 bugbounty: 
 meta: discontinued
 verdict: noita
-date: 2023-02-13
+date: 2026-10-30
 signer: 
 twitter: 
 social: 

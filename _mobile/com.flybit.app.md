@@ -1,6 +1,6 @@
 ---
 title: 플라이빗 Flybit -신뢰할 수 있는 가상자산 거래소
-date: 2021-09-30
+date: 2026-10-30
 authors:
 - danny
 website: https://flybit.com
@@ -16,7 +16,6 @@ android:
   released: 2021-02-04
   updated: 2026-08-18
   version: 1.35.03
-  icon: com.flybit.app.webp
   meta: ok
   verdict: custodial
   developerName: 한국디지털거래소
@@ -28,7 +27,6 @@ iphone:
   updated: 2026-10-02
   version: 1.28.0
   reviews: 18
-  icon: com.koreadigit.flybit.webp
   meta: ok
   verdict: custodial
   developerName: Korea Digital Exchange Co., Ltd.

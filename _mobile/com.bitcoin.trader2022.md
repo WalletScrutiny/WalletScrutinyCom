@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Trader - Buy & Sell
-date: 2023-09-15
+date: 2026-10-30
 website: https://bitcointrader.icu#deadLink
 redirect_from:
 - /android/com.bitcoin.trader2022/
@@ -10,7 +10,6 @@ android:
   released: 2022-02-10
   updated: 2022-05-07
   version: '3.0'
-  icon: com.bitcoin.trader2022.webp
   meta: removed
   verdict: wip
   developerName: Bitcoin Trader Exchange

@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Keeper
-date: 2025-02-12
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitcoinkeeper.app/
@@ -23,14 +23,13 @@ android:
   released: 2022-12-12
   updated: 2026-10-07
   version: 2.6.3
-  icon: io.hexawallet.bitcoinkeeper.webp
   signer: 66568fd4fb14c0134ff4055762607038ad400ba5cbc8e23e5e25265a0234465c
   alternativeStores:
   - zapstore
   meta: ok
   verdict: sourceavailable
   developerName: BitHyve UK Ltd.
-  repository: https://github.com/bithyve/bitcoin-keeper
+  repository: https://github.com/KeeperCommunity/bitcoin-keeper
 iphone:
   appId: io.hexawallet.keeper
   idd: '1545535925'
@@ -39,13 +38,14 @@ iphone:
   updated: 2026-10-07
   version: 2.6.3
   reviews: 22
-  icon: io.hexawallet.keeper.webp
   meta: ok
   verdict: wip
   developerName: Bithyve
-  repository: https://github.com/bithyve/bitcoin-keeper
+  repository: https://github.com/KeeperCommunity/bitcoin-keeper
 
 ---
+
+**Update 2026-10-30:** The source code moved to [KeeperCommunity/bitcoin-keeper](https://github.com/KeeperCommunity/bitcoin-keeper) on GitHub; the old bithyve address redirects there and the [website](https://www.bitcoinkeeper.app/) links to the new one.
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: Bitnovo – Buy Bitcoin
-date: 2024-07-17
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitnovo.com
@@ -19,19 +19,17 @@ android:
   updated: 2026-06-23
   version: 3.0.84
   reviews: 12
-  icon: com.bitnovo.Wallet.webp
   meta: ok
   verdict: nosource
   developerName: BITNOVO
 iphone:
   appId: com.bitnovo.Wallet
   idd: 1553430666
-  appCountry: in
+  appCountry: es
   released: 2021-10-27
   updated: 2026-01-28
   version: 3.0.56
   reviews: 0
-  icon: com.bitnovo.Wallet.webp
   meta: removed
   verdict: nosource
   developerName: Bitnovo

@@ -1,6 +1,6 @@
 ---
 title: PayBito - Trade Bitcoin and Crypto
-date: 2021-10-26
+date: 2026-10-30
 authors:
 - danny
 website: https://www.hashcashconsultants.com
@@ -17,7 +17,6 @@ android:
   updated: 2022-01-28
   version: 2.2.11
   reviews: 213
-  icon: com.hashcash.paybito.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -28,12 +27,13 @@ iphone:
   updated: 2025-12-09
   version: 101.5.0
   reviews: 63
-  icon: com.hashcashconsultants.payBitoTrade.webp
   meta: ok
   verdict: custodial
   developerName: HashCash Consultants LLC
 
 ---
+
+**Update 2026-10-30:** The provider now runs [paybito.com](https://www.paybito.com/) under the name PayBitoPro, pitched mainly as a crypto payment gateway for businesses.
 
 ## Android
 
@@ -71,5 +71,7 @@ This app is **custodial** and thus **not verifiable.**
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is now called "PayBitoPro".
 
 The Android analysis above applies to the iPhone app too.

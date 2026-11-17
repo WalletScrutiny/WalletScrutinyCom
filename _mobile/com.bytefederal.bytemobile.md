@@ -1,6 +1,6 @@
 ---
 title: ByteWallet - Buy Bitcoin
-date: 2026-01-14
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -13,7 +13,6 @@ android:
   updated: 2026-01-25
   version: 1.13.0
   reviews: 21
-  icon: com.bytefederal.bytemobile.webp
   meta: ok
   verdict: nosource
   developerName: Byte Federal, Inc

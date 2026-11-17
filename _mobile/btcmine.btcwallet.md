@@ -1,6 +1,6 @@
 ---
 title: BTC Wallet
-date: 2021-07-09
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -13,7 +13,6 @@ android:
   updated: 2017-08-13
   version: '1.1'
   reviews: 7
-  icon: btcmine.btcwallet.webp
   meta: removed
   verdict: custodial
 

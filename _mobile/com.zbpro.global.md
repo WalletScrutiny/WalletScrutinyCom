@@ -1,11 +1,11 @@
 ---
 title: 'ZB Pro: Buy BTC, ETH, Doge'
-date: 2023-09-28
+date: 2026-10-30
 authors:
 - danny
+website: https://zb.com#deadLink
 twitter: ZBexchange
 social:
-- https://zb.com#deadLink
 - https://t.me/ZB_English
 - https://www.facebook.com/ZBexchange
 - https://zbhk.medium.com
@@ -20,7 +20,6 @@ android:
   released: 2022-08-30
   updated: 2022-10-30
   version: 1.4.0.1582
-  icon: com.zbpro.global.webp
   meta: removed
   verdict: custodial
   developerName: ZB GLOBAL COMPANY
@@ -32,12 +31,13 @@ iphone:
   updated: 2022-10-31
   version: 1.4.0
   reviews: 22
-  icon: com.zb.international.webp
   meta: removed
   verdict: custodial
   developerName: ZB NETWORK PTE. LTD.
 
 ---
+
+**Update 2026-10-30:** ZB.com stopped deposits and withdrawals in August 2022, then lost $4.8 million from its hot wallet ([The Block](https://www.theblock.co/post/161275/crypto-exchange-zb-com-loses-4-8-million-after-halting-client-withdrawals)). The exchange never reopened and its website no longer loads.
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: 'DeviantX Wallet : Bitcoin Ethe'
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: https://deviantcoin.io
@@ -17,7 +17,6 @@ android:
   released: 2018-11-12
   updated: 2019-08-01
   version: '2.6'
-  icon: com.cryptowallet.deviantx.webp
   meta: removed
   verdict: nosource
   developerName: Deviant Coin

@@ -1,6 +1,6 @@
 ---
 title: DitoBanx Wallet Personas
-date: 2026-02-25
+date: 2026-10-30
 authors:
 - danny
 website: https://ditobanx.com/
@@ -18,7 +18,6 @@ android:
   updated: 2026-08-24
   version: 3.0.20
   reviews: 40
-  icon: com.dito.ditowallet.webp
   meta: ok
   verdict: custodial
   developerName: DitoBanx

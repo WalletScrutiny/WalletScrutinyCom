@@ -1,6 +1,6 @@
 ---
 title: 'Marswap: Earn & Stake Crypto'
-date: 2024-03-02
+date: 2026-10-30
 website: https://web.archive.org/web/20240101035343/http://marswap.io/
 redirect_from:
 - /android/com.marswap.io/
@@ -9,7 +9,6 @@ android:
   users: 10
   updated: 2022-11-29
   version: 2.6.7
-  icon: com.marswap.io.webp
   meta: removed
   verdict: wip
   developerName: META MARSWAP

@@ -1,6 +1,6 @@
 ---
 title: Altcoin Bitcoin Trade
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - leo
 website: http://www.thecryptofolioapp.com#deadLink
@@ -14,7 +14,6 @@ android:
   released: 2018-05-02
   updated: 2020-08-19
   version: 1.0.51
-  icon: com.mk.cryptofolio.webp
   meta: removed
   verdict: custodial
   developerName: The CryptoFolio App

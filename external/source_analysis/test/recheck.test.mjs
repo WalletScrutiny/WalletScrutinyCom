@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import { initDatabase, getDependencies, saveDependencies, saveVulnerabilities, getVulnerabilities, recordAnalysis, saveReproducibleVersions, saveEndOfLife, getEndOfLife } from '../ddbbUtils.mjs';
+import { initDatabase, saveAppList, getDependencies, saveDependencies, saveVulnerabilities, getVulnerabilities, recordAnalysis, saveReproducibleVersions, saveVerifiedRef, saveEndOfLife, getEndOfLife } from '../ddbbUtils.mjs';
 import { recheckStoredReleases, entryOfRow } from '../recheck.mjs';
 import { exportAll } from '../export.mjs';
 
@@ -33,7 +33,7 @@ test('recheckStoredReleases: a new advisory for an unchanged release is stored a
   const delivered = [];
   const result = await recheckStoredReleases(db, ['old.wallet'], { check, deliver: async () => delivered.push(1) });
   assert.deepEqual(asked.sort(), ['a@1.0.0', 'b@2.0.0']);
-  assert.deepEqual(result, { releases: 1, failed: 0, added: 1 });
+  assert.deepEqual(result, { releases: 1, failed: 0, added: 1, changed: ['old.wallet'] });
   assert.deepEqual(getVulnerabilities(db, 'old.wallet', 'v1.0').map(v => v.vuln_id), ['GHSA-new']);
   assert.equal(db.prepare("SELECT vulnerabilities FROM analyses WHERE app_id = 'old.wallet'").get().vulnerabilities, 1);
   assert.equal(delivered.length, 1);
@@ -46,8 +46,24 @@ test('recheckStoredReleases: a failed lookup keeps the stored advisories', async
   const db = seeded();
   saveVulnerabilities(db, 'old.wallet', 'v1.0', { findings: [finding('a', '1.0.0', 'GHSA-old')] });
   const result = await recheckStoredReleases(db, ['old.wallet'], { check: async () => null, deliver: async () => {} });
-  assert.deepEqual(result, { releases: 0, failed: 1, added: 0 });
+  assert.deepEqual(result, { releases: 0, failed: 1, added: 0, changed: [] });
   assert.deepEqual(getVulnerabilities(db, 'old.wallet', 'v1.0').map(v => v.vuln_id), ['GHSA-old']);
+  db.close();
+});
+
+test('recheckStoredReleases: an NVD outage keeps the stored NVD advisories and the next pass clears the mark', async () => {
+  const db = seeded();
+  const native = (id) => finding('b', '2.0.0', id);
+  saveVulnerabilities(db, 'old.wallet', 'v1.0', { findings: [native('CVE-NVD-ONLY'), native('GHSA-both')] });
+  const outage = async () => ({ checked: 2, skipped: { 'nvd-unavailable': 1 }, findings: [native('GHSA-both')], nvdUnavailable: [{ ecosystem: 'npm', name: 'b', version: '2.0.0' }] });
+  await recheckStoredReleases(db, ['old.wallet'], { check: outage, deliver: async () => {} });
+  assert.deepEqual(getVulnerabilities(db, 'old.wallet', 'v1.0').map(v => v.vuln_id).sort(), ['CVE-NVD-ONLY', 'GHSA-both']);
+  const row = () => db.prepare("SELECT vulnerabilities, osv_skipped FROM analyses WHERE app_id = 'old.wallet'").get();
+  assert.deepEqual(row(), { vulnerabilities: 2, osv_skipped: '{"nvd-unavailable":1}' });
+  const recovered = async () => ({ checked: 2, skipped: {}, findings: [native('GHSA-both')] });
+  await recheckStoredReleases(db, ['old.wallet'], { check: recovered, deliver: async () => {} });
+  assert.deepEqual(getVulnerabilities(db, 'old.wallet', 'v1.0').map(v => v.vuln_id), ['GHSA-both'], 'NVD answered: what it dropped is gone');
+  assert.deepEqual(row(), { vulnerabilities: 1, osv_skipped: '{}' });
   db.close();
 });
 
@@ -63,9 +79,11 @@ test('recheckStoredReleases: a release analysed this pass is not looked up twice
 
 test('exportAll: a gone wallet past its end of life is left out', () => {
   const db = seeded();
+  saveAppList(db, [{ appId: 'live.wallet', platform: 'android', repository: 'https://github.com/org/live' }]);
   saveDependencies(db, 'live.wallet', 'v2.0', [{ entries: [entry('a', '1.0.0')] }]);
   recordAnalysis(db, { appId: 'live.wallet', kind: 'release', ref: 'v2.0', status: 'ok', analyser: 't' });
   saveReproducibleVersions(db, new Map([['old.wallet', [{ version: '1.0', verifiedAt: 1 }]], ['live.wallet', [{ version: '2.0', verifiedAt: 1 }]]]));
+  saveVerifiedRef(db, 'live.wallet', 'v2.0', '2.0');
   saveEndOfLife(db, [{ appId: 'old.wallet', lastCommitAt: new Date('2020-01-01T00:00:00Z') }]);
   assert.equal(getEndOfLife(db).get('old.wallet'), '2020-01-01T00:00:00.000Z');
   const dir = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'eol-')), 'out');

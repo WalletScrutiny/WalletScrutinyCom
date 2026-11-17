@@ -1,6 +1,6 @@
 ---
 title: 'belo: global wallet'
-date: 2023-06-30
+date: 2026-10-30
 authors:
 - danny
 website: https://belo.app
@@ -23,7 +23,6 @@ android:
   updated: 2026-10-06
   version: 7.24.1
   reviews: 67
-  icon: com.belo.android.webp
   meta: ok
   verdict: custodial
   developerName: belo
@@ -35,7 +34,6 @@ iphone:
   updated: 2026-10-12
   version: 7.24.1
   reviews: 48
-  icon: com.belo.ios.webp
   meta: ok
   verdict: custodial
   developerName: belo

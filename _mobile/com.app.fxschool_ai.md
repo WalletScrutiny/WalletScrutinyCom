@@ -1,6 +1,6 @@
 ---
 title: Hikmah - ইসলামিক কুইজ MCQ গেম
-date: 2024-07-30
+date: 2026-10-30
 website: https://www.hikmahbd.com/
 redirect_from:
 - /android/com.app.fxschool_ai/
@@ -10,7 +10,6 @@ android:
   released: 2022-03-04
   updated: 2024-01-21
   version: '1.0'
-  icon: com.app.fxschool_ai.webp
   meta: removed
   verdict: wip
   developerName: Asir Intasir Shaiket - AsirFx

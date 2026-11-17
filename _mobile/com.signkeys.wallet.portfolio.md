@@ -1,6 +1,6 @@
 ---
 title: SignKeys PRO - Portfolio, Bitc
-date: 2024-07-05
+date: 2026-10-30
 website: http://www.signkeys.com
 redirect_from:
 - /android/com.signkeys.wallet.portfolio/
@@ -10,7 +10,6 @@ android:
   released: 2019-07-17
   updated: 2020-10-26
   version: 2.0.0
-  icon: com.signkeys.wallet.portfolio.webp
   meta: removed
   verdict: wip
   developerName: 'SignKeys - Best All in #1 As featured in Forbes'

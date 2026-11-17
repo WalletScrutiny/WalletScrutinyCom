@@ -1,6 +1,6 @@
 ---
 title: BolsaDX
-date: 2024-10-28
+date: 2026-10-30
 website: https://bolsadx.lat#deadLink
 redirect_from:
 - /android/com.cloud.dli.app/
@@ -10,7 +10,6 @@ android:
   released: 2021-07-15
   updated: 2023-05-12
   version: 1.4.0
-  icon: com.cloud.dli.app.webp
   meta: removed
   verdict: wip
   developerName: BolsaDX

@@ -1,7 +1,7 @@
 ---
 title: Globex Wallet
-date: 2024-02-05
-website: https://wallet.gex.exchange
+date: 2026-10-30
+website: https://wallet.gex.exchange#deadLink
 redirect_from:
 - /android/site.globex.bankwallet/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2019-06-28
   updated: 2019-06-28
   version: 0.1.0
-  icon: site.globex.bankwallet.webp
   meta: removed
   verdict: wip
   developerName: Globex Ltd.

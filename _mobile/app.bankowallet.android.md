@@ -1,9 +1,9 @@
 ---
 title: Banko Wallet - Bitcoin, ETH, T
-date: 2023-05-10
+date: 2026-10-30
 authors:
 - danny
-website: http://www.bankowallet.com
+website: https://web.archive.org/web/20220121014909/http://www.bankowallet.com/
 twitter: BankoWallet1
 social:
 - mailto:support@bankowallet.com
@@ -19,7 +19,6 @@ android:
   released: 2019-07-22
   updated: 2020-06-29
   version: 1.3.17851
-  icon: app.bankowallet.android.webp
   meta: removed
   verdict: wip
   developerName: BITROCK
@@ -31,12 +30,13 @@ iphone:
   updated: 2020-09-08
   version: 1.5.6
   reviews: 5
-  icon: app.banko.ios.webp
   meta: removed
   verdict: wip
   developerName: BITROCK PTE. LTD.
 
 ---
+
+**Update 2026-10-30:** The Banko Wallet website now shows an unrelated loan page, so the link above points to an [archived copy from January 2022](https://web.archive.org/web/20220121014909/http://www.bankowallet.com/).
 
 ## Android
 

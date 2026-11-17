@@ -1,6 +1,6 @@
 ---
 title: 'OBRinvest:  Online Trading'
-date: 2024-08-15
+date: 2026-10-30
 authors:
 - danny
 website: https://www.obrinvest.com#deadLink
@@ -12,7 +12,6 @@ android:
   users: 5000
   updated: 2024-07-02
   version: 2.7.1
-  icon: com.obrinvestment.obrinvest.webp
   meta: removed
   verdict: nosendreceive
   developerName: OBRinvest
@@ -24,12 +23,13 @@ iphone:
   updated: 2024-04-04
   version: 2.6.8
   reviews: 0
-  icon: com.obrinvestment.obrinvest.webp
   meta: removed
   verdict: nosendreceive
   developerName: OBR Investment Ltd
 
 ---
+
+**⚠️ Warning:** OBRinvest has stopped operating. The Cyprus regulator CySEC [withdrew the licence of OBR Investments Ltd](https://fxnewsgroup.com/forex-news/regulatory/cysec-withdraws-license-of-obr-investments/) on 9 February 2026 after the company gave it up, and the OBRinvest website no longer loads.
 
 ## Android
 

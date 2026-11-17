@@ -1,6 +1,6 @@
 ---
 title: GROW - Make Crypto Simple
-date: 2025-11-05
+date: 2026-10-30
 authors:
 - danny
 website: https://www.grow3.io
@@ -15,7 +15,6 @@ android:
   updated: 2026-10-08
   version: 1.2.10
   reviews: 27
-  icon: com.mufin.iconfi.webp
   meta: ok
   verdict: custodial
   developerName: GROW3

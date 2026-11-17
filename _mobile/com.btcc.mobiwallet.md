@@ -1,6 +1,6 @@
 ---
 title: Mobi - Crypto Asset Wallet
-date: 2021-12-22
+date: 2026-10-30
 authors:
 - danny
 website: https://www.mobi.me/
@@ -18,7 +18,6 @@ android:
   updated: 2021-05-20
   version: 2.32.2
   reviews: 19
-  icon: com.btcc.mobiwallet.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -29,12 +28,13 @@ iphone:
   updated: 2023-05-02
   version: 2.36.3
   reviews: 0
-  icon: me.mobi.app.webp
   meta: obsolete
   verdict: custodial
   developerName: Mobi Me Limited
 
 ---
+
+**Update 2026-10-30:** The website mobi.me is now a [domain for sale](https://www.mobi.me/), and the newest posts we could see on [Mobi's X account](https://x.com/mobimeglobal) are from 2019.
 
 ## Android
 
@@ -51,5 +51,7 @@ In a page entitled ["How do I access my private keys?"](https://cms.mobi.me/mobi
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The iPhone app is still listed. Be careful before you send coins to this app.
 
 The Android analysis above applies to the iPhone app too.

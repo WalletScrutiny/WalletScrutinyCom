@@ -1,6 +1,6 @@
 ---
 title: Cofinex.io Buy BTC, ETH, LTC
-date: 2023-08-04
+date: 2026-10-30
 authors:
 - danny
 website: https://cofinex.io
@@ -19,7 +19,6 @@ android:
   released: 2021-02-12
   updated: 2022-12-08
   version: '3.0'
-  icon: com.app.cofinexexchange34.webp
   meta: removed
   verdict: custodial
   developerName: Cofinex Inc Ltd.
@@ -29,11 +28,12 @@ iphone:
   released: 2021-08-12
   updated: 2021-08-12
   version: '1.0'
-  icon: com.cofinex.app.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** Cofinex now offers a new app for Android and iPhone, linked from [cofinex.io](https://cofinex.io/en): {% include walletLink.html wallet='android/io.cofinex.cofinex_mobile_app' verdict='true' %}.
 
 ## Android
 

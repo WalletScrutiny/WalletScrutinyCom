@@ -1,6 +1,6 @@
 ---
 title: HashKey Hub - The Key to Infin
-date: 2023-05-26
+date: 2026-10-30
 authors:
 - danny
 website: https://hub.hashkey.com#deadLink
@@ -21,7 +21,6 @@ android:
   updated: 2022-04-07
   version: 4.0.0
   reviews: 3
-  icon: com.hashkey.hub.webp
   meta: removed
   verdict: wip
   developerName: HASHKEY HUB LIMITED
@@ -33,7 +32,6 @@ iphone:
   updated: 2022-03-17
   version: 4.0.0
   reviews: 8
-  icon: io.hashkey.hub.webp
   meta: removed
   verdict: wip
 

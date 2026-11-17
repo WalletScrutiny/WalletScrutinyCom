@@ -1,6 +1,6 @@
 ---
 title: 'Cryptopay: Spend Crypto Daily'
-date: 2026-01-28
+date: 2026-10-30
 website: https://cryptopay.me
 twitter: cryptopay
 social:
@@ -17,7 +17,6 @@ android:
   updated: 2025-08-14
   version: 1.68.0
   reviews: 64
-  icon: me.cryptopay.android.webp
   meta: removed
   verdict: custodial
   developerName: Cryptopay Ltd
@@ -28,12 +27,13 @@ iphone:
   updated: 2025-08-18
   version: 1.79.1
   reviews: 340
-  icon: me.cryptopay.app.webp
   meta: removed
   verdict: custodial
   developerName: Cryptopay
 
 ---
+
+**⚠️ Warning:** Cryptopay has closed its consumer service. Its [retail page](https://cryptopay.me/crypto-wallet/) says personal accounts, onboarding and payments ended on 2026-01-01, and customers with a remaining balance have to [ask support for a manual withdrawal](https://help.cryptopay.me/en/articles/13250313-how-to-withdraw-funds-from-your-cryptopay-account-after-1-january-2026). Only the business service is left.
 
 ## Android
 

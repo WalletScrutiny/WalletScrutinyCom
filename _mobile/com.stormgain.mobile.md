@@ -1,6 +1,6 @@
 ---
 title: 'StormGain: Bitcoin & Crypto'
-date: 2023-09-28
+date: 2026-10-30
 authors:
 - leo
 website: https://stormgain.com/
@@ -19,8 +19,7 @@ android:
   updated: 2024-08-07
   version: 1.52.1
   reviews: 961
-  icon: com.stormgain.mobile.webp
-  meta: obsolete
+  meta: defunct
   verdict: custodial
   developerName: Stormgain LLC
 iphone:
@@ -30,12 +29,13 @@ iphone:
   updated: 2023-06-13
   version: 1.33.0
   reviews: 1173
-  icon: com.stormgain.mobile.webp
   meta: removed
   verdict: custodial
   developerName: Stormgain Limited
 
 ---
+
+**Update 2026-10-30:** StormGain has shut down. On 13 January 2025 it moved its active customers' accounts and balances to YouHodler ({% include walletLink.html wallet='android/com.youhodler.youhodler' verdict='true' %}), and [stormgain.com](https://stormgain.com/) now says the platform is "permanently discontinued". The Android app is still in Google Play.
 
 ## Android
 

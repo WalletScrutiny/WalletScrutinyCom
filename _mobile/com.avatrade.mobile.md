@@ -1,6 +1,6 @@
 ---
 title: 'AvaTrade: Trading App'
-date: 2021-08-21
+date: 2026-10-30
 authors:
 - danny
 website: https://www.avatrade.com/
@@ -18,7 +18,6 @@ android:
   updated: 2026-10-13
   version: 168.16.2
   reviews: 10
-  icon: com.avatrade.mobile.webp
   meta: ok
   verdict: nosendreceive
   developerName: Ava Financial Ltd

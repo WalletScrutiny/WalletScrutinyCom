@@ -1,6 +1,6 @@
 ---
 title: 'WalletConnect : best Crypto Bitcoin Wallet'
-date: 2021-09-16
+date: 2026-10-30
 redirect_from:
 - /android/com.walletconnect.walletair/
 android:
@@ -10,7 +10,6 @@ android:
   updated: 2021-08-23
   version: '1.0'
   reviews: 75
-  icon: com.walletconnect.walletair.webp
   meta: removed
   verdict: wip
 

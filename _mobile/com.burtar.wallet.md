@@ -1,6 +1,6 @@
 ---
 title: 'Burtar wallet: Buy, sell & swap bitcoin & crypto'
-date: 2022-02-25
+date: 2026-10-30
 authors:
 - danny
 website: https://burtar.com#deadLink
@@ -13,11 +13,12 @@ android:
   updated: 2021-07-30
   version: '1.0'
   reviews: 63
-  icon: com.burtar.wallet.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** Burtar appears to be gone. Its website is now a domain parking page.
 
 **Update 2022-02-18**: This app is not on the Store anymore.
 

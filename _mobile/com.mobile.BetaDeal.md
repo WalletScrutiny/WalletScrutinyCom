@@ -1,6 +1,6 @@
 ---
 title: Betadeal - Buy & Sell Bitcoin, Ethereum
-date: 2022-02-16
+date: 2026-10-30
 authors:
 - danny
 website: https://betadeal.net#deadLink
@@ -14,7 +14,6 @@ android:
   released: 2021-06-30
   updated: 2022-01-26
   version: 1.1.0
-  icon: com.mobile.BetaDeal.webp
   meta: removed
   verdict: custodial
 

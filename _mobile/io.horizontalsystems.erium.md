@@ -1,6 +1,6 @@
 ---
 title: Erium - Crypto Exchange App
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 website: https://erium.exchange#deadLink
@@ -9,7 +9,6 @@ social:
 - https://t.me/Erium_exchange
 - https://discord.com/invite/9nUntZeCPP
 - https://medium.com/@eriumex
-- https://erium.exchange#deadLink
 redirect_from:
 - /android/io.horizontalsystems.erium/
 - /iphone/io.horizontalsystems.erium/
@@ -19,7 +18,6 @@ android:
   released: 2021-09-28
   updated: 2022-10-14
   version: 0.21.17
-  icon: io.horizontalsystems.erium.webp
   meta: removed
   verdict: nosource
   developerName: Devblockex
@@ -31,7 +29,6 @@ iphone:
   updated: 2022-09-25
   version: 1.1.0
   reviews: 0
-  icon: io.horizontalsystems.erium.webp
   meta: removed
   verdict: nosource
   developerName: Erium LLC

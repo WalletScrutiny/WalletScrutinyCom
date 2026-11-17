@@ -1,7 +1,7 @@
 ---
 title: DIGY
-date: 2024-04-19
-website: https://zebitex.com
+date: 2026-10-30
+website: https://zebitex.com#deadLink
 redirect_from:
 - /android/com.digy/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-05-16
   updated: 2021-08-25
   version: 1.2.8
-  icon: com.digy.webp
   meta: removed
   verdict: wip
   developerName: DIGYCODE

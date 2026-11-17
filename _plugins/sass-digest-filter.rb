@@ -18,6 +18,11 @@ module Jekyll
         digest.hexdigest[0, 8]
       end
     end
+
+    # The same for a plain file: {{ 'assets/js/x.js' | file_digest }} -> "1a2b3c4d".
+    def file_digest(path)
+      DIGESTS[path] ||= Digest::SHA256.file(File.join(@context.registers[:site].source, path)).hexdigest[0, 8]
+    end
   end
 end
 

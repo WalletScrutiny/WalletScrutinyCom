@@ -1,9 +1,9 @@
 ---
 title: 'Ribbit: Crypto Wallet'
-date: 2026-05-19
+date: 2026-10-30
 authors:
 - danny
-website: https://ribbitwallet.com
+website: https://web.archive.org/web/20260414151436/https://ribbitwallet.com/
 twitter: ribbitwallet
 social:
 - https://www.linkedin.com/company/ribbit-wallet
@@ -17,8 +17,7 @@ android:
   released: 2025-08-20
   updated: 2026-05-29
   version: 1.10.1
-  icon: com.ribbitnova.ribbit.webp
-  meta: ok
+  meta: defunct
   verdict: nosource
   developerName: Ribbit Nova
 iphone:
@@ -29,12 +28,13 @@ iphone:
   updated: 2026-03-11
   version: 1.9.2
   reviews: 1
-  icon: com.ribbitnova.ribbit.webp
-  meta: ok
+  meta: defunct
   verdict: nosource
   developerName: Ribbitnova
 
 ---
+
+**⚠️ Warning:** Ribbit has shut down. On 2026-08-08 the team [announced](https://x.com/RibbitWallet/status/2086106177956372517) that it stops all development and support for Ribbit Wallet and asked users to back up their private keys and move their assets to another wallet within 30 days. The ribbitwallet.com website no longer loads.
 
 ## Android
 

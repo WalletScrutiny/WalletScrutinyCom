@@ -1,6 +1,6 @@
 ---
 title: 'Crypto Wallet: Buy Bitcoin BTC'
-date: 2024-09-04
+date: 2026-10-30
 authors:
 - danny
 website: https://alicebob.com/
@@ -20,7 +20,6 @@ android:
   updated: 2026-02-17
   version: 1.20.0
   reviews: 235
-  icon: com.crypto.ab.wallet.app.webp
   meta: ok
   verdict: nosource
   developerName: AliceBob – Secure Crypto Wallet
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-08-11
   version: 1.21.0
   reviews: 206
-  icon: com.ab.crypto.wallet.app.webp
   meta: ok
   verdict: nosource
   developerName: Alicebob LLC

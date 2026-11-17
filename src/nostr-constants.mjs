@@ -87,4 +87,9 @@ export function isWalletScrutinySiteAdmin(pubkey) {
 // Opinions
 export const opinionKind = 30023; // Long-form Content (NIP-23)
 
+// Dependency triage statements (src/dependency-triage.mjs): addressable,
+// one per author and (advisory, direct user). Not a registered NIP kind;
+// chosen in the addressable range clear of the kinds the NIPs list.
+export const dependencyTriageKind = isDebugEnv() ? 32350 : 30350;
+
 export const verificationEventsSinceTS = isDebugEnv() ? 1742220163 : 1742997262;

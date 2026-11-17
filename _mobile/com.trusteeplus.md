@@ -1,6 +1,6 @@
 ---
 title: Trustee Plus | Wallet & Card
-date: 2026-02-20
+date: 2026-10-30
 authors:
 - danny
 website: https://trusteeglobal.com
@@ -19,7 +19,6 @@ android:
   updated: 2026-04-23
   version: 1.32.52
   reviews: 26
-  icon: com.trusteeplus.webp
   meta: removed
   verdict: custodial
   developerName: UAB Trustee Global
@@ -31,7 +30,6 @@ iphone:
   updated: 2025-11-27
   version: 1.32.36
   reviews: 114
-  icon: com.trusteeplus1.webp
   meta: removed
   verdict: custodial
   developerName: Trustee Global

@@ -1,6 +1,6 @@
 ---
 title: definnPay Biz
-date: 2023-12-19
+date: 2026-10-30
 website: https://www.definnpay.com#deadLink
 redirect_from:
 - /android/com.definnpay.business/
@@ -10,7 +10,6 @@ android:
   released: 2021-12-19
   updated: 2022-03-25
   version: 1.2.9
-  icon: com.definnpay.business.webp
   meta: removed
   verdict: wip
   developerName: mefinnTechnology co.,ltd.

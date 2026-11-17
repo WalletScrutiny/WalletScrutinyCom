@@ -12,11 +12,10 @@ provider:
 providerWebsite: 
 website: https://web.archive.org/web/20220418212420/https://eidoo.io/desktop-download
 repository: 
-icon: eidoo.webp
 bugbounty: 
 meta: defunct
 verdict: nosource
-date: 2025-04-15
+date: 2026-10-30
 twitter: eidoo_io
 social: 
 builds: 

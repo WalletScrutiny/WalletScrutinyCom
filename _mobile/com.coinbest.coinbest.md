@@ -1,6 +1,6 @@
 ---
 title: 暗号資産取引ならOSL Japan
-date: 2025-02-24
+date: 2026-10-30
 authors:
 - danny
 website: https://osl.com/jp
@@ -14,7 +14,6 @@ android:
   released: 2021-05-17
   updated: 2026-09-21
   version: 4.2.5
-  icon: com.coinbest.coinbest.webp
   meta: ok
   verdict: custodial
   developerName: 暗号資産取引ならOSL Japan
@@ -26,7 +25,6 @@ iphone:
   updated: 2026-09-24
   version: 4.2.0
   reviews: 12
-  icon: com.coinbest.bitcoinbestkk.webp
   meta: ok
   verdict: custodial
   developerName: OSL Japan Limited

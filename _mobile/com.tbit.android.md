@@ -1,12 +1,11 @@
 ---
 title: Tbit
-date: 2024-09-10
+date: 2026-10-30
 authors:
 - danny
-website: https://www.tbitex.com/
+website: https://www.tbitex.com/#deadLink
 social:
 - https://www.linkedin.com/company/tbit-global
-- https://www.tbitex.com
 redirect_from:
 - /android/com.tbit.android/
 - /iphone/TbitApp.com/
@@ -16,7 +15,6 @@ android:
   released: 2022-02-08
   updated: 2023-05-09
   version: 2.2.9
-  icon: com.tbit.android.webp
   meta: removed
   verdict: custodial
   developerName: Tbit Global limited
@@ -28,12 +26,13 @@ iphone:
   updated: 2023-05-05
   version: 2.2.9
   reviews: 1
-  icon: TbitApp.com.webp
   meta: removed
   verdict: custodial
   developerName: Tbit Global Limited
 
 ---
+
+**Update 2026-10-30:** Tbit looks gone. Both apps are gone from the stores, and tbitex.com now only offers the domain for sale.
 
 ## Android
 
@@ -45,7 +44,7 @@ iphone:
 
 > It has built its own hot and cold wallet system, multi-sign private keys and distributed storage which helps Tbit to avoid all the negative impacts of shared services and ensure the safety of users' funds in an all-round way.
 
-### [User Agreement (Google Cache)](https://webcache.googleusercontent.com/search?q=cache:et5HPHxNBT4J:https://www.tbitex.com/user-agreement/&cd=2&hl=en&ct=clnk&gl=ph)
+### [User Agreement (Google Cache)](https://webcache.googleusercontent.com/search?q=cache:et5HPHxNBT4J:https://www.tbitex.com/user-agreement/&cd=2&hl=en&ct=clnk&gl=ph#deadLink)
 
 ## Analysis 
 

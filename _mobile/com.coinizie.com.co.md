@@ -1,6 +1,6 @@
 ---
 title: Coinizie
-date: 2023-08-25
+date: 2026-10-30
 website: https://www.coinizie.com#deadLink
 redirect_from:
 - /android/com.coinizie.com.co/
@@ -10,7 +10,6 @@ android:
   released: 2020-09-11
   updated: 2020-09-11
   version: '9.0'
-  icon: com.coinizie.com.co.webp
   meta: removed
   verdict: wip
   developerName: Coinizie

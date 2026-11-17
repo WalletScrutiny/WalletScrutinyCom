@@ -1,6 +1,6 @@
 ---
 title: CryptoTrader
-date: 2024-04-19
+date: 2026-10-30
 website: http://www.nwsoft.co.kr
 redirect_from:
 - /android/nwsoft.com.cryptotrader/
@@ -10,7 +10,6 @@ android:
   released: 2018-04-19
   updated: 2018-07-19
   version: 1.11ai
-  icon: nwsoft.com.cryptotrader.webp
   meta: removed
   verdict: wip
   developerName: DeveloperYou

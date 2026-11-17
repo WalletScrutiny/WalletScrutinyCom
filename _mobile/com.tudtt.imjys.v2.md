@@ -1,6 +1,6 @@
 ---
 title: 2v Exchange
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/com.tudtt.imjys.v2/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-11-06
   updated: 2023-01-08
   version: '1.2'
-  icon: com.tudtt.imjys.v2.webp
   meta: removed
   verdict: wip
   developerName: DOUGLAS HEATH  SIMPSON

@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Circuit App - New Bitcoin Trading System
-date: 2021-08-20
+date: 2026-10-30
 redirect_from:
 - /android/com.nbl.bitcoincircuitapp/
 android:
@@ -9,7 +9,6 @@ android:
   updated: 2021-02-27
   version: 1.0.0
   reviews: 25
-  icon: com.nbl.bitcoincircuitapp.webp
   meta: removed
   verdict: wip
 

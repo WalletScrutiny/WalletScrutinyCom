@@ -1,6 +1,6 @@
 ---
 title: Bitone Wallet
-date: 2023-09-04
+date: 2026-10-30
 redirect_from:
 - /android/com.sg9e9.bitonewallet/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-06-07
   updated: 2020-07-17
   version: 1.1.2
-  icon: com.sg9e9.bitonewallet.webp
   meta: removed
   verdict: wip
   developerName: 9E9 DIGITAL ASSETS EXCHANGE PTE.LTD.

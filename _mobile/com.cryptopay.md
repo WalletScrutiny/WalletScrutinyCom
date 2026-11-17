@@ -1,6 +1,6 @@
 ---
 title: Crypto Pay
-date: 2022-01-15
+date: 2026-10-30
 authors:
 - kiwilamb
 website: https://shamlatech.com/
@@ -17,7 +17,6 @@ android:
   updated: 2019-02-14
   version: '1.5'
   reviews: 2
-  icon: com.cryptopay.webp
   meta: removed
   verdict: nosource
 

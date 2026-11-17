@@ -1,6 +1,6 @@
 ---
 title: Skrill - Fast, secure payments
-date: 2021-08-09
+date: 2026-10-30
 authors:
 - danny
 website: https://www.skrill.com
@@ -19,7 +19,6 @@ android:
   updated: 2026-10-13
   version: 3.195.0-2026100515
   reviews: 4009
-  icon: com.moneybookers.skrillpayments.webp
   meta: ok
   verdict: nosendreceive
   developerName: Paysafe Holdings UK Limited
@@ -31,12 +30,17 @@ iphone:
   updated: 2026-10-07
   version: 3.195.0
   reviews: 9026
-  icon: com.skrill.ios.SkrillPayments.webp
   meta: ok
   verdict: nosendreceive
   developerName: Skrill Ltd.
 
 ---
+
+**Update 2026-10-30:** Skrill now lets you send bitcoins out, but still not
+receive them, in both apps. Its
+[crypto FAQ](https://www.skrill.com/en/support/question/189/what-crypto-services-does-skrill-offer/)
+lists withdrawals from your Skrill crypto balance to an external address, and
+says deposits of cryptocurrencies from external wallets are not offered yet.
 
 ## Android
 

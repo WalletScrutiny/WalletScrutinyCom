@@ -1,6 +1,6 @@
 ---
 title: Crypto Exchanger
-date: 2024-02-05
+date: 2026-10-30
 redirect_from:
 - /android/com.wCryptoExchanger_14131534/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-07-20
   updated: 2021-07-20
   version: '1.0'
-  icon: com.wCryptoExchanger_14131534.webp
   meta: removed
   verdict: wip
   developerName: DEVILS

@@ -1,6 +1,6 @@
 ---
 title: MONEX TRADER CRYPTO　暗号資産CFD取引
-date: 2025-11-05
+date: 2026-10-30
 authors:
 - danny
 website: http://www.monex.co.jp/
@@ -13,7 +13,6 @@ android:
   released: 2020-07-07
   updated: 2026-10-02
   version: 1.0.15
-  icon: jp.co.monex.ms.mt_crypto.webp
   meta: ok
   verdict: nosendreceive
   developerName: マネックス証券株式会社

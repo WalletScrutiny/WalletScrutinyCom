@@ -1,7 +1,7 @@
 ---
 title: ZILLA - Events • Wallet
-date: 2024-04-19
-website: https://zla.io
+date: 2026-10-30
+website: https://zla.io#deadLink
 redirect_from:
 - /android/io.zla.app/
 android:
@@ -11,7 +11,6 @@ android:
   updated: 2019-12-12
   version: 2.6.3
   reviews: 45
-  icon: io.zla.app.webp
   meta: removed
   verdict: wip
   developerName: ZLA PTE LTD

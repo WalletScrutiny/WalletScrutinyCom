@@ -1,6 +1,6 @@
 ---
 title: 'M2: Buy Bitcoin & Trade Crypto'
-date: 2025-11-19
+date: 2026-10-30
 authors:
 - danny
 website: http://m2.com
@@ -17,7 +17,6 @@ android:
   appCountry: us
   updated: 2025-12-15
   version: 5.21.1
-  icon: com.m2.exchange.webp
   meta: ok
   verdict: custodial
   developerName: M2 Investments Limited
@@ -29,12 +28,13 @@ iphone:
   updated: 2025-12-15
   version: 5.21.0
   reviews: 71
-  icon: com.m2.exchange.webp
   meta: removed
   verdict: custodial
   developerName: M2 Investments Limited
 
 ---
+
+**Update 2026-10-30:** M2 is reported to be winding down. In November 2025 [LARA on the Block](https://laraontheblock.com/uae-m2-crypto-exchange-turned-digital-asset-wealth-manager-is-closing-down/), citing company sources, wrote that M2 stopped taking new clients and is moving into data centres. The [M2 website](https://www.m2.com/en_AE) still offers its institutional services, and we found no official notice.
 
 ## Android
 

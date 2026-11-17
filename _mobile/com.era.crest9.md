@@ -1,6 +1,6 @@
 ---
 title: Crest9
-date: 2024-04-03
+date: 2026-10-30
 redirect_from:
 - /android/com.era.crest9/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-10-08
   updated: 2021-10-16
   version: 1.0.12
-  icon: com.era.crest9.webp
   meta: removed
   verdict: wip
   developerName: Crest9 Tech

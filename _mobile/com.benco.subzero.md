@@ -1,6 +1,6 @@
 ---
 title: SubZero
-date: 2024-04-19
+date: 2026-10-30
 website: https://subzeropay.com#deadLink
 redirect_from:
 - /android/com.benco.subzero/
@@ -10,7 +10,6 @@ android:
   released: 2022-01-28
   updated: 2022-06-22
   version: 1.5.5
-  icon: com.benco.subzero.webp
   meta: removed
   verdict: wip
   developerName: SubZero Pay

@@ -1,7 +1,7 @@
 ---
 title: TRADE HORN
-date: 2024-02-05
-website: https://tradehorn.com/
+date: 2026-10-30
+website: https://tradehorn.com/#deadLink
 redirect_from:
 - /android/com.tradehorn.app/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2020-06-23
   updated: 2020-11-23
   version: '1.4'
-  icon: com.tradehorn.app.webp
   meta: removed
   verdict: wip
   developerName: Team TradeHorn

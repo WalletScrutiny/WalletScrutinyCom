@@ -1,6 +1,6 @@
 ---
 title: XDTP
-date: 2023-08-05
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2022-03-15
   updated: 2022-05-14
   version: 1.0.3
-  icon: web.xusdt.app.webp
   meta: removed
   verdict: wip
   developerName: XUSDT

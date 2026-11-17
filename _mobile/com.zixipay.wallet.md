@@ -1,6 +1,6 @@
 ---
 title: 'ZixiPay: Crypto Wallet'
-date: 2021-11-17
+date: 2026-10-30
 authors:
 - danny
 website: https://zixipay.com
@@ -18,7 +18,6 @@ android:
   updated: 2026-05-16
   version: '2.00'
   reviews: 11
-  icon: com.zixipay.wallet.webp
   meta: removed
   verdict: custodial
   developerName: ZixiPay LLC
@@ -30,7 +29,6 @@ iphone:
   updated: 2026-04-28
   version: '2.00'
   reviews: 32
-  icon: com.zixipay.wallet.webp
   meta: ok
   verdict: custodial
   developerName: ZixiPay LLC

@@ -1,11 +1,9 @@
 ---
 title: AWallet
-date: 2024-12-31
+date: 2026-10-30
 authors:
 - danny
-website: https://awallet.digital
-social:
-- https://awallet.digital/
+website: https://web.archive.org/web/20241010051036/https://awallet.digital/
 redirect_from:
 - /android/digital.awallet.app.gp/
 android:
@@ -15,12 +13,13 @@ android:
   updated: 2023-08-24
   version: 1.3.5
   reviews: 15
-  icon: digital.awallet.app.gp.webp
   meta: removed
   verdict: nosource
   developerName: Metaverse Network LLC
 
 ---
+
+**Update 2026-10-30:** The AWallet website is gone; its domain is now offered for sale. We link an [archived copy](https://web.archive.org/web/20241010051036/https://awallet.digital/) instead.
 
 ## Update 2024-07-22
 

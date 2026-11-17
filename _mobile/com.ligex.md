@@ -1,6 +1,6 @@
 ---
 title: Ligex Exchange
-date: 2024-04-03
+date: 2026-10-30
 website: https://ligex.exchange#deadLink
 redirect_from:
 - /android/com.ligex/
@@ -10,7 +10,6 @@ android:
   released: 2021-10-09
   updated: 2022-03-05
   version: '1.3'
-  icon: com.ligex.webp
   meta: removed
   verdict: wip
   developerName: LIGEX EXCHANGE

@@ -1,6 +1,6 @@
 ---
 title: 'Bitoshi: Buy & Sell Crypto'
-date: 2023-11-01
+date: 2026-10-30
 authors:
 - danny
 website: https://bitoshi.africa
@@ -9,7 +9,6 @@ social:
 - https://www.linkedin.com/company/bitoshiafrica
 - https://www.instagram.com/bitoshi.africa
 - https://t.me/+c4ek89XILkc2OTk8
-- https://bitoshi.africa
 redirect_from:
 - /android/com.bitoshi/
 - /iphone/com.bitoshi/
@@ -21,7 +20,6 @@ android:
   updated: 2026-09-25
   version: 1.6.2
   reviews: 37
-  icon: com.bitoshi.webp
   meta: ok
   verdict: custodial
   developerName: Bitoshi Africa
@@ -33,7 +31,6 @@ iphone:
   updated: 2026-09-26
   version: 1.6.2
   reviews: 1731
-  icon: com.bitoshi.webp
   meta: ok
   verdict: custodial
   developerName: Bitoshi Digital Services Limited

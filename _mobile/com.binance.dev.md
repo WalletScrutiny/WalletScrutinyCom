@@ -1,6 +1,6 @@
 ---
 title: 'Binance: Buy Bitcoin & Crypto'
-date: 2020-03-15
+date: 2026-10-30
 authors:
 - leo
 website: https://www.binance.com/
@@ -22,7 +22,6 @@ android:
   updated: 2026-10-12
   version: 3.21.6
   reviews: 17217
-  icon: com.binance.dev.webp
   meta: ok
   verdict: custodial
   developerName: Binance Inc.
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-10-12
   version: 3.22.0
   reviews: 54065
-  icon: com.czzhao.binance.webp
   meta: ok
   verdict: custodial
   developerName: Binance Switzerland AG
@@ -42,6 +40,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Since November 2023 the app also contains a separate "Binance Wallet" that splits each key into three MPC shares, two controlled by the user and one by Binance ([CoinDesk](https://www.coindesk.com/business/2023/11/08/binance-rolls-out-its-first-ever-self-custody-web3-wallet), [Coin Bureau](https://coinbureau.com/review/binance-wallet-review)). On 2026-10-29 Binance reported a security incident with an estimated impact of about $6.3 billion and froze withdrawals ([Engadget](https://www.engadget.com/2301941/binance-hacked-for-estimated-6-3-billion-in-record-crypto-theft/)).
 
 This app appears to be an app interface for the Binance exchange and at first we
 cannot find anything indicating that there is also a non-custodial feature to

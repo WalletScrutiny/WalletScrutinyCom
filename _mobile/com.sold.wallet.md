@@ -1,6 +1,6 @@
 ---
 title: Sold wallet
-date: 2023-11-02
+date: 2026-10-30
 website: https://solidus-vc.io#deadLink
 redirect_from:
 - /android/com.sold.wallet/
@@ -10,7 +10,6 @@ android:
   released: 2021-07-24
   updated: 2021-11-18
   version: 1.3.0
-  icon: com.sold.wallet.webp
   meta: removed
   verdict: wip
   developerName: Sold wallet

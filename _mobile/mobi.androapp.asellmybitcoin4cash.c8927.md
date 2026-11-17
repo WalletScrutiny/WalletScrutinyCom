@@ -1,6 +1,6 @@
 ---
 title: SellMyBitcoin4cash
-date: 2024-07-05
+date: 2026-10-30
 website: https://sellmybitcoin4cash.com#deadLink
 redirect_from:
 - /android/mobi.androapp.asellmybitcoin4cash.c8927/
@@ -10,7 +10,6 @@ android:
   released: 2019-11-25
   updated: 2019-11-25
   version: '19.02'
-  icon: mobi.androapp.asellmybitcoin4cash.c8927.webp
   meta: removed
   verdict: wip
   developerName: DavidAps

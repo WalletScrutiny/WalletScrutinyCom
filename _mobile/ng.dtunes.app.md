@@ -1,6 +1,6 @@
 ---
 title: Swapto ( Formerly Dtunes)
-date: 2026-01-23
+date: 2026-10-30
 authors:
 - danny
 website: https://useswapto.com
@@ -17,7 +17,6 @@ android:
   updated: 2026-09-09
   version: 3.0.9
   reviews: 36
-  icon: ng.dtunes.app.webp
   meta: ok
   verdict: nosendreceive
   developerName: Swapto Inc
@@ -29,7 +28,6 @@ iphone:
   updated: 2026-09-10
   version: 3.0.9
   reviews: 484
-  icon: ng.dtunes.app.webp
   meta: ok
   verdict: nosendreceive
   developerName: Crand Technologies LLC

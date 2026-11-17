@@ -1,7 +1,7 @@
 ---
 title: 'TycoTrader - Trade in Forex & '
-date: 2024-04-03
-website: http://tycotrader.com
+date: 2026-10-30
+website: http://tycotrader.com#deadLink
 redirect_from:
 - /android/com.tycotrader.myapplication/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2019-04-12
   updated: 2020-03-19
   version: 3.9.2
-  icon: com.tycotrader.myapplication.webp
   meta: removed
   verdict: wip
   developerName: Tyco Security Network

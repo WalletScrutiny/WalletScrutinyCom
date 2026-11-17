@@ -1,7 +1,7 @@
 ---
 title: Bitcoin Wallet
 bitcoinOrgId: bitcoinwallet
-date: 2025-05-30
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -21,7 +21,6 @@ android:
   updated: 2025-03-06
   version: '10.25'
   reviews: 2098
-  icon: de.schildbach.wallet.webp
   signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
   playStore: removed
   alternativeStores:

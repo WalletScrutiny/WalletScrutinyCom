@@ -1,6 +1,6 @@
 ---
 title: Blockchain Wallet
-date: 2021-02-17
+date: 2026-10-30
 redirect_from:
 - /com.andreys.blockchainwallet/
 - /android/com.andreys.blockchainwallet/
@@ -10,7 +10,6 @@ android:
   updated: 2020-08-30
   version: '21'
   reviews: 362
-  icon: com.andreys.blockchainwallet.webp
   meta: removed
   verdict: wip
 

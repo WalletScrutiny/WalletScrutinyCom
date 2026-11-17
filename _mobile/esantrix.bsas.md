@@ -1,6 +1,6 @@
 ---
 title: ESXCoin Criptomoneda
-date: 2024-02-05
+date: 2026-10-30
 website: https://santiagocelentano.wixsite.com/esantrix#deadLink
 redirect_from:
 - /android/esantrix.bsas/
@@ -10,7 +10,6 @@ android:
   released: 2021-01-30
   updated: 2022-04-11
   version: '9.8'
-  icon: esantrix.bsas.webp
   meta: removed
   verdict: wip
   developerName: Santiago Celentano

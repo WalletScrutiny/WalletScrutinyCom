@@ -1,6 +1,6 @@
 ---
 title: 'Arctic: Crypto Bitcoin Wallet'
-date: 2025-07-14
+date: 2026-10-30
 authors:
 - danny
 website: https://arcticwallet.io
@@ -10,7 +10,6 @@ social:
 - https://www.linkedin.com/company/arctic-wallet
 - https://www.facebook.com/arcticwallet
 - https://medium.com/@marketing_43986
-- https://arcticwallet.io
 redirect_from:
 - /android/com.arcticmobile.app/
 - /iphone/com.arcticmobile.app/
@@ -22,7 +21,6 @@ android:
   updated: 2024-07-17
   version: '1.35'
   reviews: 1
-  icon: com.arcticmobile.app.webp
   meta: obsolete
   verdict: nosource
   developerName: ARCTIC SOFTWARE OÜ
@@ -34,7 +32,6 @@ iphone:
   updated: 2024-07-17
   version: '1.35'
   reviews: 6
-  icon: com.arcticmobile.app.webp
   meta: removed
   verdict: nosource
   developerName: Arctic Software OU

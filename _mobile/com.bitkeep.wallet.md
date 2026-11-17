@@ -1,10 +1,10 @@
 ---
 title: 'Bitget Wallet: Crypto, Bitcoin'
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - leo
 - danny
-website: https://bitkeep.com
+website: https://web3.bitget.com
 twitter: BitKeepOS
 social:
 - https://www.facebook.com/bitkeep
@@ -21,7 +21,6 @@ android:
   updated: 2026-09-24
   version: 9.65.1
   reviews: 3863
-  icon: com.bitkeep.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Bitget Wallet
@@ -33,12 +32,13 @@ iphone:
   updated: 2026-09-26
   version: 9.65.1
   reviews: 5628
-  icon: com.bitkeep.os.webp
   meta: ok
   verdict: nosource
   developerName: BitKeep Global Inc.
 
 ---
+
+**Update 2026-10-30:** BitKeep is now Bitget Wallet, on Android and on iPhone, after a $30 million investment by the exchange Bitget ([Cointelegraph](https://cointelegraph.com/news/bitkeep-completes-compensation-for-8m-apk-exploit-announces-rebranding)), and bitkeep.com now redirects to [web3.bitget.com](https://web3.bitget.com/).
 
 ## Android
 

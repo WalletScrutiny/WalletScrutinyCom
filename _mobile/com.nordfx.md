@@ -1,6 +1,6 @@
 ---
 title: NordFX | Investing app
-date: 2022-10-21
+date: 2026-10-30
 authors:
 - danny
 website: http://nordfx.com
@@ -16,7 +16,6 @@ android:
   updated: 2022-05-24
   version: '15'
   reviews: 43
-  icon: com.nordfx.webp
   meta: removed
   verdict: nosendreceive
 iphone:
@@ -26,7 +25,6 @@ iphone:
   updated: 2022-05-25
   version: '15.0'
   reviews: 1
-  icon: com.nordfx.mobiletrading.webp
   meta: removed
   verdict: nosendreceive
 

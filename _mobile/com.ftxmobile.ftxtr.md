@@ -1,9 +1,9 @@
 ---
 title: FTX TR
-date: 2023-06-14
+date: 2026-10-30
 authors:
 - danny
-website: https://ftxtr.com
+website: https://ftxtr.com#deadLink
 redirect_from:
 - /android/com.ftxmobile.ftxtr/
 android:
@@ -12,7 +12,6 @@ android:
   released: 2022-02-21
   updated: 2022-11-01
   version: 2.0.9
-  icon: com.ftxmobile.ftxtr.webp
   meta: removed
   verdict: custodial
   developerName: FTX TURKEY TEKNOLOJI VE TICARET ANONIM SIRKETI

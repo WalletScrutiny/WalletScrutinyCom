@@ -1,6 +1,6 @@
 ---
 title: 99Pay
-date: 2021-12-26
+date: 2026-10-30
 authors:
 - leo
 twitter: voude99
@@ -19,7 +19,6 @@ android:
   updated: 2026-09-23
   version: 8.4.96
   reviews: 10082
-  icon: com.pay99.wallet.webp
   meta: ok
   verdict: nosendreceive
   developerName: 99 Tecnologia LTDA
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-10-08
   version: 8.4.96
   reviews: 2000
-  icon: com.pay99.webp
   meta: ok
   verdict: nosendreceive
   developerName: 99Pay S.A

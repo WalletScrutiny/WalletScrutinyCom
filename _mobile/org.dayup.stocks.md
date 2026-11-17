@@ -1,6 +1,6 @@
 ---
 title: 'Webull: Investing & Trading'
-date: 2021-08-10
+date: 2026-10-30
 authors:
 - danny
 - leo
@@ -18,7 +18,6 @@ android:
   updated: 2026-09-28
   version: 12.4.2.18
   reviews: 41792
-  icon: org.dayup.stocks.webp
   meta: ok
   verdict: nosendreceive
   developerName: Webull Technologies Pte. Ltd.
@@ -30,7 +29,6 @@ iphone:
   updated: 2026-10-13
   version: 12.4.5
   reviews: 342201
-  icon: com.webull.trade.webp
   meta: ok
   verdict: nosendreceive
   developerName: Webull Technologies Pte. Ltd.
@@ -38,6 +36,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Apex Crypto, quoted below, is gone. Webull's [crypto FAQ](https://www.webull.com/help/faq/11094-Getting-Started-with-Crypto-Trading) says Coinbase now holds customers' crypto, or Bakkt for customers in New York, Guam and the Northern Mariana Islands.
 
 The app allows you to trade BTC but it is only an exchange and not a wallet.
 

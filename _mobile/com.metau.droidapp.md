@@ -1,6 +1,6 @@
 ---
 title: MetaU Crypto
-date: 2024-04-19
+date: 2026-10-30
 website: https://www.metauco.com#deadLink
 redirect_from:
 - /android/com.metau.droidapp/
@@ -10,7 +10,6 @@ android:
   released: 2022-04-10
   updated: 2022-04-10
   version: '1.0'
-  icon: com.metau.droidapp.webp
   meta: removed
   verdict: wip
   developerName: MetaU Corp.

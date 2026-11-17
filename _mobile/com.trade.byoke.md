@@ -1,6 +1,6 @@
 ---
 title: Byoke- Peer to Peer Crypto Exchange
-date: 2021-12-22
+date: 2026-10-30
 redirect_from:
 - /android/com.trade.byoke/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2019-04-11
   updated: 2019-04-19
   version: 1.0.0
-  icon: com.trade.byoke.webp
   meta: removed
   verdict: wip
 

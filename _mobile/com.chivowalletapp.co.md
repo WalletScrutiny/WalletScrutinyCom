@@ -1,6 +1,6 @@
 ---
 title: Chivo Wallet
-date: 2021-08-21
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -13,7 +13,6 @@ android:
   updated: 2021-08-13
   version: '1.0'
   reviews: 46
-  icon: com.chivowalletapp.co.webp
   meta: removed
   verdict: fake
 

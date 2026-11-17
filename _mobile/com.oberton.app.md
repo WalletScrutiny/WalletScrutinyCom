@@ -1,12 +1,12 @@
 ---
 title: Oberton Wallet
-date: 2024-09-06
+date: 2026-10-30
 authors:
 - danny
 website: https://bytehub.io
 twitter: EverspaceWallet
 social:
-- https://everspace.app
+- https://everspace.app#deadLink
 features:
 - fingerprint
 - multiSig
@@ -21,7 +21,6 @@ android:
   updated: 2026-10-07
   version: 2.25.0
   reviews: 27
-  icon: com.oberton.app.webp
   meta: ok
   verdict: nosource
   developerName: Bytehub, LLC
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-10-07
   version: 3.7.0
   reviews: 8
-  icon: io.oberton.webp
   meta: ok
   verdict: nosource
   developerName: BYTEHUB, LLC

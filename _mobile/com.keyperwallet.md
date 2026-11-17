@@ -1,6 +1,6 @@
 ---
 title: 키퍼월렛 keyperWallet
-date: 2024-11-12
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2019-10-22
   updated: 2020-09-02
   version: '1.7'
-  icon: com.keyperwallet.webp
   meta: removed
   verdict: wip
   developerName: keyper Inc.

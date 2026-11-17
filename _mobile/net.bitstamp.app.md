@@ -1,6 +1,6 @@
 ---
 title: 'Bitstamp by Robinhood: Buy BTC'
-date: 2020-05-29
+date: 2026-10-30
 authors:
 - leo
 website: https://www.bitstamp.net
@@ -23,7 +23,6 @@ android:
   updated: 2026-09-24
   version: 4.18.1
   reviews: 678
-  icon: net.bitstamp.app.webp
   meta: ok
   verdict: custodial
   developerName: Bitstamp
@@ -35,12 +34,13 @@ iphone:
   updated: 2026-09-24
   version: '4.18'
   reviews: 7478
-  icon: net.bitstamp.webp
   meta: ok
   verdict: custodial
   developerName: Bitstamp Ltd.
 
 ---
+
+**Update 2026-10-30:** Robinhood [completed its acquisition of Bitstamp](https://www.coindesk.com/business/2025/06/03/robinhood-completes-200m-acquisition-of-crypto-exchange-bitstamp) in June 2025, and both apps are now called "Bitstamp by Robinhood".
 
 ## Android
 

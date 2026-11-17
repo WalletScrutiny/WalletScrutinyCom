@@ -1,6 +1,6 @@
 ---
 title: Moneybrain Financial SuperApp
-date: 2021-11-22
+date: 2026-10-30
 authors:
 - danny
 website: https://www.moneybrain.com
@@ -20,7 +20,6 @@ android:
   released: 2019-10-17
   updated: 2026-05-23
   version: 3.16.2-retail
-  icon: com.moneybrain.moneybrain.webp
   meta: removed
   verdict: custodial
   developerName: Moneybrain LTD
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-05-25
   version: 3.16.2
   reviews: 10
-  icon: com.moneybrain.moneybrain.webp
   meta: ok
   verdict: custodial
   developerName: Moneybrain LTD

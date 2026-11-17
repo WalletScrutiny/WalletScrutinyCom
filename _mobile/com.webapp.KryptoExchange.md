@@ -1,6 +1,6 @@
 ---
 title: Krypto Exchange - Trade easily
-date: 2024-05-07
+date: 2026-10-30
 website: http://xexxchange.com#deadLink
 redirect_from:
 - /android/com.webapp.KryptoExchange/
@@ -10,7 +10,6 @@ android:
   released: 2019-11-02
   updated: 2019-11-02
   version: '1.0'
-  icon: com.webapp.KryptoExchange.webp
   meta: removed
   verdict: wip
   developerName: AR Corp

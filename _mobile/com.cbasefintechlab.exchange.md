@@ -1,6 +1,6 @@
 ---
 title: CROSS exchange -secure exchange-
-date: 2023-04-21
+date: 2026-10-30
 authors:
 - danny
 website: https://www.crossexchange.io/cross/home#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2018-11-23
   updated: 2020-02-25
   version: 1.2.3
-  icon: com.cbasefintechlab.exchange.webp
   meta: removed
   verdict: wip
 

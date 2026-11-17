@@ -6,8 +6,8 @@ authors:
 - danny
 released: 2024-04-01
 discontinued: 
-updated: 2026-09-01
-version: 3.20.0
+updated: 2026-10-21
+version: 3.21.0
 binaries: 
 dimensions:
 - 86
@@ -21,11 +21,10 @@ shop: https://shop.onekey.so/products/onekey-classic-1s
 country: SG
 price: 99USD
 repository: https://github.com/OneKeyHQ/firmware-classic1s
-icon: onekey.classic.1s.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2026-10-24
+date: 2026-10-30
 signer: 
 twitter: OneKeyHQ
 social:

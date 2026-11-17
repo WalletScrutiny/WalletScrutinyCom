@@ -1,6 +1,6 @@
 ---
 title: banqy - Bitcoin, Ethereum, and
-date: 2023-03-21
+date: 2026-10-30
 redirect_from:
 - /android/com.banqy/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-03-20
   updated: 2020-03-20
   version: 1.0.1209
-  icon: com.banqy.webp
   meta: removed
   verdict: wip
 

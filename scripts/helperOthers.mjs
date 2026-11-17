@@ -5,7 +5,7 @@ process.env.TZ = 'UTC'; // fix timezone issues
 
 const category = 'others';
 const folder = `_${category}/`;
-const headers = ('title appId authors icon date social').split(' ')
+const headers = ('title appId authors date social').split(' ')
 
 async function refreshAll () {
   fs.readdir(folder, async (err, files) => {

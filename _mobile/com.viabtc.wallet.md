@@ -1,6 +1,6 @@
 ---
 title: CoinEx Wallet - Crypto & DeFi
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -25,7 +25,6 @@ android:
   updated: 2026-10-13
   version: 4.25.0
   reviews: 63
-  icon: com.viabtc.wallet.webp
   meta: ok
   verdict: nosource
   developerName: ViaBTC
@@ -37,7 +36,6 @@ iphone:
   updated: 2026-10-14
   version: 4.25.0
   reviews: 54
-  icon: com.viabtc.ViaWallet.webp
   meta: ok
   verdict: nosource
   developerName: Viabtc Technology Limited
@@ -45,6 +43,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** ViaWallet is now called CoinEx Wallet, and viawallet.com redirects to [wallet.coinex.com](https://wallet.coinex.com/en/).
 
 ## Update 2024-07-13
 

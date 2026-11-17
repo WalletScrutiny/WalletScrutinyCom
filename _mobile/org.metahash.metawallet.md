@@ -1,6 +1,6 @@
 ---
 title: '#MetaWallet Beta'
-date: 2024-05-07
+date: 2026-10-30
 website: http://metahash.org
 redirect_from:
 - /android/org.metahash.metawallet/
@@ -9,7 +9,6 @@ android:
   users: 1000
   updated: 2018-11-14
   version: VARY
-  icon: org.metahash.metawallet.webp
   meta: removed
   verdict: wip
   developerName: MetaHash AG

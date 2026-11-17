@@ -1,6 +1,6 @@
 ---
 title: Safebit | Kripto BTC, ETH,USDT
-date: 2022-06-28
+date: 2026-10-30
 authors:
 - danny
 website: https://www.safebit.com
@@ -21,7 +21,6 @@ android:
   updated: 2026-10-05
   version: 23.0.13
   reviews: 14
-  icon: com.bitcimobile.webp
   meta: ok
   verdict: custodial
   developerName: SAFEBİT KRİPTO VARLIK ALIM SATIM PLATFORMU A.Ş.
@@ -33,12 +32,13 @@ iphone:
   updated: 2026-10-06
   version: 23.0.13
   reviews: 1385
-  icon: com.bitcimobil.com.webp
   meta: ok
   verdict: custodial
   developerName: Safebit Kripto Varlık AŞ
 
 ---
+
+**Update 2026-10-30:** Bitci is now called SAFEbit. The new owner Seyfi Şahin bought all shares and [renamed the exchange on 2025-05-20](https://www.ekonomim.com/finans/kripto-para/bitciden-safebite-turkiyenin-oncu-kripto-borsasinda-yeni-bir-donem-basliyor-haberi-819238); the app and the [website](https://www.safebit.com.tr/) carry the new name.
 
 ## Android
 

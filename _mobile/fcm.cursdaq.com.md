@@ -1,6 +1,6 @@
 ---
 title: Cursdaq
-date: 2024-07-05
+date: 2026-10-30
 website: https://www.cursdaq.com#deadLink
 redirect_from:
 - /android/fcm.cursdaq.com/
@@ -10,7 +10,6 @@ android:
   released: 2021-08-01
   updated: 2021-08-02
   version: '1.1'
-  icon: fcm.cursdaq.com.webp
   meta: removed
   verdict: wip
   developerName: 나정식

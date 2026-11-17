@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Store Wallet
-date: 2024-09-07
+date: 2026-10-30
 authors:
 - danny
 website: https://bitstore.net
@@ -22,7 +22,6 @@ android:
   released: 2023-01-03
   updated: 2026-10-01
   version: 1.0.61
-  icon: com.bitcoinstore.bitcoinstorewallet.webp
   meta: ok
   verdict: custodial
   developerName: Digital Assets d.o.o
@@ -34,7 +33,6 @@ iphone:
   updated: 2026-10-06
   version: 1.0.32
   reviews: 14
-  icon: com.bitcoinstore.bitcoinstorewallet.webp
   meta: ok
   verdict: custodial
   developerName: Digital Assets d.o.o

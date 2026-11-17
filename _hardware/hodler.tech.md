@@ -17,11 +17,10 @@ shop:
 country: 
 price: 
 repository: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet
-icon: hodler.tech.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2022-04-11
+date: 2026-10-30
 signer: 
 twitter: HODLER_TECH
 social:
@@ -30,6 +29,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** Hodler Tech is gone: hodler.tech is offline, and the hardware wallet never shipped.
 
 If a hardware wallet based on a Samsung J3 exists as a Samsung J3, does the project still exist? This project held [an ICO](https://medium.com/@cryptoyoga/hodler-the-only-ico-with-an-annual-83de9463f26b) where they promised annual dividends:
 

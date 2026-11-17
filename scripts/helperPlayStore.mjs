@@ -11,6 +11,7 @@ import {
   metaUpdateContext,
   resolveAndroidFilenames,
   findMobileFileByAndroidAppId,
+  applyStoreWebsite,
 } from './mobileWalletStore.mjs';
 
 process.env.TZ = 'UTC'; // fix timezone issues
@@ -24,7 +25,7 @@ const stats = {
 const category = 'android';
 const headers = ('title altTitle authors users appId bitcoinOrgId alternativeStores ' +
                 'playStore appCountry released updated version reviews website repository ' +
-                'icon bugbounty meta verdict signer twitter social ' +
+                'bugbounty meta verdict signer twitter social ' +
                 'social redirect_from developerName builds features').split(' ');
 
 async function refreshAll (ids, markRemoved) {
@@ -81,10 +82,7 @@ function refreshFile (fileName, content, markRemoved) {
             metaCtx.date = new Date();
           }
           const iconPath = `images/wIcons/android/${appId}`;
-          helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
-            if (iconExtension) {
-              android.icon = `${appId}.${iconExtension}`;
-            }
+          helper.downloadImageFile(`${app.icon}`, iconPath, () => {
             stats.updated++;
             writeMobileFile(filePath, mobile, body);
             stats.remaining--;
@@ -151,9 +149,7 @@ function updateFromApp (android, app, mobile, storeCountry) {
   }
   android.users = app.minInstalls;
   android.reviews = app.reviews || null;
-  if (app.developerWebsite) {
-    mobile.website = app.developerWebsite;
-  }
+  applyStoreWebsite(mobile, 'android', app.developerWebsite);
   const metaCtx = metaUpdateContext(mobile, 'android');
   metaCtx.date = metaCtx.date || new Date();
   android.developerName = app.developer || android.developerName || 'Unknown Developer(s)';

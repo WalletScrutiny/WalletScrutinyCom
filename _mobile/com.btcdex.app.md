@@ -1,6 +1,6 @@
 ---
 title: 'BTC DEX: Buy Crypto & Bitcoin'
-date: 2026-01-14
+date: 2026-10-30
 website: https://www.btcdex.app/bitcoin/faq#contact
 redirect_from:
 - /android/com.btcdex.app/
@@ -11,7 +11,6 @@ android:
   released: 2025-11-15
   updated: 2026-01-07
   version: 1.0.55
-  icon: com.btcdex.app.webp
   meta: fewusers
   verdict: wip
   developerName: HITDEX

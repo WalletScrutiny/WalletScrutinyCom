@@ -12,15 +12,24 @@ provider: Nunchuk Inc.
 providerWebsite: 
 website: https://nunchuk.io
 repository: https://github.com/nunchuk-io/nunchuk-desktop
-icon: nunchuk.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-09-23
+date: 2026-11-03
 twitter: nunchuk_io
 social:
 - https://nunchukio.slack.com/join/shared_invite/zt-xqdlvl5g-xKKohQu_R7IUo7_np8rVaw#/shared-invite/email
-builds: 
+builds:
+- arch: x86_64-linux-gnu
+  types:
+    appimage:
+    - nunchuk-linux-v*-x86_64.AppImage
+- arch: x86_64-windows
+  types:
+    setup:
+    - nunchuk-windows-v*-x64-setup*.exe
+    portable:
+    - nunchuk-windows-v*-x64-portable*.zip
 features:
 - coinCtrl
 - foss

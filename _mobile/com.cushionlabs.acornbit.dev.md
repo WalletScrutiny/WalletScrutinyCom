@@ -1,9 +1,9 @@
 ---
 title: Acorn BIT
-date: 2025-03-17
+date: 2026-10-30
 authors:
 - danny
-website: https://acornbit.com
+website: https://acornbit.com#deadLink
 twitter: acornbitsupport
 social:
 - https://t.me/acornbitofficial
@@ -16,12 +16,13 @@ android:
   released: 2021-12-09
   updated: 2022-12-17
   version: 1.2.10
-  icon: com.cushionlabs.acornbit.dev.webp
   meta: removed
   verdict: nosendreceive
   developerName: Cushion Labs
 
 ---
+
+**Update 2026-10-30:** AcornBit appears to be gone. Its website stopped working by December 2023 ([archived](https://web.archive.org/web/20231204032109/https://acornbit.com/)) and the domain is now offered for sale.
 
 ## Updated Review 2023-05-04
 

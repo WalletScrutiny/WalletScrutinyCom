@@ -1,6 +1,6 @@
 ---
 title: 'Kraken Pro: Advanced Trading'
-date: 2020-05-29
+date: 2026-10-30
 authors:
 - leo
 website: https://www.kraken.com
@@ -25,7 +25,6 @@ android:
   updated: 2026-10-09
   version: 6.1.1
   reviews: 4818
-  icon: com.kraken.trade.webp
   meta: ok
   verdict: custodial
   developerName: Payward, Inc.
@@ -37,7 +36,6 @@ iphone:
   updated: 2026-10-12
   version: 6.1.1
   reviews: 25678
-  icon: com.kraken.trade.app.webp
   meta: ok
   verdict: custodial
   developerName: Kraken

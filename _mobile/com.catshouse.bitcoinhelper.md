@@ -1,6 +1,6 @@
 ---
 title: 'BitCoin Helper: Bitcoin Crypto'
-date: 2026-05-21
+date: 2026-10-30
 website: https://y84060b34.app-ads-txt.com
 redirect_from:
 - /android/com.catshouse.bitcoinhelper/
@@ -11,7 +11,6 @@ android:
   released: 2024-06-14
   updated: 2024-06-22
   version: '1.0'
-  icon: com.catshouse.bitcoinhelper.webp
   meta: obsolete
   verdict: wip
   developerName: Cats' House Development

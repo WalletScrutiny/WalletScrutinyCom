@@ -1,6 +1,6 @@
 ---
 title: Tokonton Wallet
-date: 2024-03-02
+date: 2026-10-30
 redirect_from:
 - /android/io.tokonton.wallet/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-02-20
   updated: 2021-02-20
   version: 0.16.2
-  icon: io.tokonton.wallet.webp
   meta: removed
   verdict: wip
   developerName: tokonton ltd

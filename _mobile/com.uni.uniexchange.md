@@ -1,6 +1,6 @@
 ---
 title: 유니익스체인지, UNIEXCHANGE
-date: 2021-10-30
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -12,7 +12,6 @@ android:
   updated: 2019-02-14
   version: 5.3.5
   reviews: 7
-  icon: com.uni.uniexchange.webp
   meta: removed
   verdict: wip
 

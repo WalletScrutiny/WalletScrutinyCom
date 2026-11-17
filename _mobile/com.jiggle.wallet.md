@@ -1,6 +1,6 @@
 ---
 title: 'Jiggle: Crypto Wallet'
-date: 2026-07-21
+date: 2026-10-30
 authors:
 - danny
 website: https://jiggle.app
@@ -16,7 +16,6 @@ android:
   updated: 2026-09-30
   version: 3.4.0
   reviews: 38
-  icon: com.jiggle.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Appia Solutions FZCO
@@ -28,7 +27,6 @@ iphone:
   updated: 2026-10-06
   version: 3.4.0
   reviews: 304
-  icon: com.jiggle.cryptowallet.webp
   meta: ok
   verdict: custodial
   developerName: Appia Solutions FZCO

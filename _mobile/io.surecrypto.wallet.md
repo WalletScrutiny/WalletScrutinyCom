@@ -1,7 +1,7 @@
 ---
 title: SureWallet
-date: 2024-07-05
-website: https://surecrypto.io
+date: 2026-10-30
+website: https://surecrypto.io#deadLink
 redirect_from:
 - /android/io.surecrypto.wallet/
 android:
@@ -11,7 +11,6 @@ android:
   updated: 2021-11-12
   version: 2.2.0
   reviews: 27
-  icon: io.surecrypto.wallet.webp
   meta: removed
   verdict: wip
   developerName: SureCrypto

@@ -1,6 +1,6 @@
 ---
 title: Coinchat
-date: 2023-06-01
+date: 2026-10-30
 authors:
 - danny
 website: http://www.coinchat.im#deadLink
@@ -13,7 +13,6 @@ android:
   updated: 2020-03-11
   version: 2.0.2
   reviews: 29
-  icon: com.coinchat.coinchat.webp
   meta: removed
   verdict: wip
   developerName: Biliao Foundation Ltd.

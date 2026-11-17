@@ -1,6 +1,6 @@
 ---
 title: EXIR | اکسیر
-date: 2023-05-10
+date: 2026-10-30
 authors:
 - danny
 website: https://www.exir.io/
@@ -16,7 +16,6 @@ android:
   updated: 2023-02-23
   version: 1.2.4
   reviews: 14
-  icon: com.exir.mobile.webp
   meta: removed
   verdict: custodial
   developerName: EXIR

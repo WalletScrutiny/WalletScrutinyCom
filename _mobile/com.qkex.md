@@ -1,6 +1,6 @@
 ---
 title: 'QKEx: Crypto Asset Service'
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 twitter: qkexglobal
@@ -14,12 +14,13 @@ android:
   released: 2022-11-10
   updated: 2023-12-21
   version: 3.0.34
-  icon: com.qkex.webp
   meta: removed
   verdict: custodial
   developerName: QKEx Android
 
 ---
+
+**Update 2026-10-30:** QKEx appears to be gone. Its website, qkex.com, no longer loads.
 
 ## App Description from Google Play
 

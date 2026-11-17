@@ -1,7 +1,7 @@
 ---
 title: BitStone
-date: 2024-04-03
-website: https://bitstone.org
+date: 2026-10-30
+website: https://bitstone.org#deadLink
 redirect_from:
 - /android/info.androidhive.btn/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2018-10-05
   updated: 2018-10-05
   version: '1.0'
-  icon: info.androidhive.btn.webp
   meta: removed
   verdict: wip
   developerName: Crypto Science Team

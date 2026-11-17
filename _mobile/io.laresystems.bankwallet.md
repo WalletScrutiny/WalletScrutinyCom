@@ -1,6 +1,6 @@
 ---
 title: 'Lare: Crypto Wallet'
-date: 2024-02-05
+date: 2026-10-30
 website: https://larewallet.cc#deadLink
 redirect_from:
 - /android/io.laresystems.bankwallet/
@@ -10,7 +10,6 @@ android:
   released: 2022-03-07
   updated: 2022-03-20
   version: 1.0.3
-  icon: io.laresystems.bankwallet.webp
   meta: removed
   verdict: wip
   developerName: Lare Wallet

@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Mining 2021 - Cloud Mining BTC Wallet
-date: 2021-08-13
+date: 2026-10-30
 redirect_from:
 - /android/com.cloudmining.mineresp/
 android:
@@ -10,7 +10,6 @@ android:
   updated: 2021-06-18
   version: '1.0'
   reviews: 13
-  icon: com.cloudmining.mineresp.webp
   meta: removed
   verdict: wip
 

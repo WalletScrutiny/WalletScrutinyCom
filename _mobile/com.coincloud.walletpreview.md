@@ -1,6 +1,6 @@
 ---
 title: 'Coin Cloud: Wallet'
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - danny
 website: http://coin.cloud/app#deadLink
@@ -19,7 +19,6 @@ android:
   updated: 2023-03-09
   version: 12.9.24
   reviews: 44
-  icon: com.coincloud.walletpreview.webp
   meta: removed
   verdict: nosource
   developerName: Coin Cloud
@@ -31,12 +30,13 @@ iphone:
   updated: 2022-08-25
   version: 12.9.27
   reviews: 50
-  icon: com.coincloud.walletpreview.webp
   meta: removed
   verdict: nosource
   developerName: Coin Cloud
 
 ---
+
+**⚠️ Warning:** Coin Cloud went bankrupt in 2023, and its coin.cloud website no longer loads. It no longer redirects to Bitstop either. The wallet app is gone from both stores.
 
 ## Android
 

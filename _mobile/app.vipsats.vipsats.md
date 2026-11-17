@@ -1,6 +1,6 @@
 ---
 title: Satoshi Bitcoin Wallet Vipsats
-date: 2024-08-13
+date: 2026-10-30
 website: https://vipsats.app
 redirect_from:
 - /android/app.vipsats.vipsats/
@@ -11,7 +11,6 @@ android:
   updated: 2024-07-22
   version: 1.4.2
   reviews: 10
-  icon: app.vipsats.vipsats.webp
   meta: removed
   verdict: wip
   developerName: Vipsats

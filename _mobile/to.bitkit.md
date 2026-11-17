@@ -1,6 +1,6 @@
 ---
 title: 'Bitkit: Bitcoin Wallet'
-date: 2024-12-25
+date: 2026-10-30
 authors:
 - danny
 - basantagoswami
@@ -28,14 +28,13 @@ android:
   updated: 2026-10-13
   version: 2.5.1
   reviews: 3
-  icon: to.bitkit.webp
   signer: 422ae8e4c9b4f1288efb27df173e31cadfd7134d61fa5357eb5ed9eae83c75a7
   alternativeStores:
   - zapstore
   meta: ok
   verdict: sourceavailable
   developerName: Synonym
-  repository: https://github.com/synonymdev/bitkit
+  repository: https://github.com/synonymdev/bitkit-android
 iphone:
   appId: to.bitkit
   idd: '6502440655'
@@ -44,7 +43,6 @@ iphone:
   updated: 2026-09-23
   version: 2.5.0
   reviews: 10
-  icon: to.bitkit.webp
   meta: ok
   verdict: sourceavailable
   developerName: Synonym Software Ltd
@@ -53,6 +51,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The Android source code now lives in [synonymdev/bitkit-android](https://github.com/synonymdev/bitkit-android). The old [synonymdev/bitkit](https://github.com/synonymdev/bitkit) repository is now only an index pointing to the app repositories, and the old React Native app moved to the archived [synonymdev/bitkit-react-native](https://github.com/synonymdev/bitkit-react-native), so we updated the links.
 
 ## App Description
 
@@ -68,7 +68,7 @@ This app is **source-available**.
 
 {% include featureEvidence.html feature="segwit" quote="The app has a Bech32 BTC address" source="Analysis" %}
 
-An issue has been opened at [https://github.com/synonymdev/bitkit/issues/2414#deadLink](https://github.com/synonymdev/bitkit/issues/2414#deadLink)
+An issue has been opened at [https://github.com/synonymdev/bitkit-react-native/issues/2414](https://github.com/synonymdev/bitkit-react-native/issues/2414)
 
 ---
 

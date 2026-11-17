@@ -1,6 +1,6 @@
 ---
 title: YIBI - Buy Bitcoin Instantly
-date: 2024-08-19
+date: 2026-10-30
 authors:
 - danny
 website: https://yibi.co
@@ -10,7 +10,6 @@ social:
 - https://officialyibi.medium.com
 - https://www.reddit.com/r/yibiOffical
 - https://www.youtube.com/@YibiOfficial/video
-- https://yibi.co
 redirect_from:
 - /android/com.yibiexchange.app/
 - /iphone/com.yibi/
@@ -20,7 +19,6 @@ android:
   released: 2022-04-11
   updated: 2025-07-24
   version: 1.3.90
-  icon: com.yibiexchange.app.webp
   meta: removed
   verdict: custodial
   developerName: YIBI
@@ -32,7 +30,6 @@ iphone:
   updated: 2024-05-14
   version: 1.1.9
   reviews: 3
-  icon: com.yibi.webp
   meta: removed
   verdict: custodial
   developerName: YIBI LTD

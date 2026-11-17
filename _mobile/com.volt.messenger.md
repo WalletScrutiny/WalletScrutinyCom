@@ -1,6 +1,6 @@
 ---
 title: Volt Messenger
-date: 2023-01-02
+date: 2026-10-30
 website: http://www.voltmessenger.com#deadLink
 redirect_from:
 - /android/com.volt.messenger/
@@ -10,7 +10,6 @@ android:
   released: 2019-02-18
   updated: 2020-06-18
   version: 3.6.0
-  icon: com.volt.messenger.webp
   meta: removed
   verdict: wip
 

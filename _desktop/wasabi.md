@@ -13,11 +13,10 @@ provider: zkSNACKs Ltd.
 providerWebsite: https://zksnacks.com/
 website: https://wasabiwallet.io
 repository: https://github.com/WalletWasabi/WalletWasabi
-icon: wasabi.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-09-28
+date: 2026-10-30
 twitter: wasabiwallet
 social: 
 builds:

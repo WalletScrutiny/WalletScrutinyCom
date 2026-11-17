@@ -1,6 +1,6 @@
 ---
 title: B4U Financial
-date: 2024-07-05
+date: 2026-10-30
 website: https://b4ufinancial.com
 redirect_from:
 - /android/com.b4ufinancial.app/
@@ -10,7 +10,6 @@ android:
   released: 2020-04-12
   updated: 2020-05-12
   version: 1.0.8
-  icon: com.b4ufinancial.app.webp
   meta: removed
   verdict: wip
   developerName: Bitload4u

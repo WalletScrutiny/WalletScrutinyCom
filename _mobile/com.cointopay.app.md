@@ -1,6 +1,6 @@
 ---
 title: Cointopay wallet
-date: 2024-05-24
+date: 2026-10-30
 authors:
 - danny
 website: https://cointopay.com
@@ -20,7 +20,6 @@ android:
   updated: 2026-09-28
   version: 2.1.8
   reviews: 7
-  icon: com.cointopay.app.webp
   meta: ok
   verdict: custodial
   developerName: Cointopay.com
@@ -31,7 +30,6 @@ iphone:
   updated: 2022-06-03
   version: 2.0.0
   reviews: 1
-  icon: com.cointopay.iosapp.webp
   meta: removed
   verdict: custodial
   developerName: Cointopay International B.V.

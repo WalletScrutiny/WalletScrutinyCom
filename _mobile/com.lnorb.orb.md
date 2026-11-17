@@ -1,6 +1,6 @@
 ---
 title: Orb
-date: 2023-08-16
+date: 2026-10-30
 website: https://lnorb.com
 redirect_from:
 - /android/com.lnorb.orb/
@@ -10,7 +10,6 @@ android:
   released: 2022-07-14
   updated: 2022-09-26
   version: 0.21.11.0
-  icon: com.lnorb.orb.webp
   meta: removed
   verdict: wip
   developerName: Orb Lightning

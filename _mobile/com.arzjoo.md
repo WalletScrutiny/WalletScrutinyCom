@@ -1,6 +1,6 @@
 ---
 title: Sarmayex (Arzjoo)
-date: 2024-11-04
+date: 2026-10-30
 authors:
 - leo
 website: https://sarmayex.com
@@ -16,7 +16,6 @@ android:
   updated: 2026-10-11
   version: 1.9.4
   reviews: 50
-  icon: com.arzjoo.webp
   meta: ok
   verdict: custodial
   developerName: A to Z Crypto

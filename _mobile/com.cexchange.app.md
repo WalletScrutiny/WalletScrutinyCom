@@ -1,6 +1,6 @@
 ---
 title: 'c-Exchange: Buy & Sell Crypto'
-date: 2025-11-26
+date: 2026-10-30
 authors:
 - danny
 website: https://c-exchange.com/
@@ -18,7 +18,6 @@ android:
   released: 2021-02-21
   updated: 2024-11-19
   version: 13.0.2
-  icon: com.cexchange.app.webp
   meta: stale
   verdict: custodial
   developerName: NetMart Inc

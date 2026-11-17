@@ -1,6 +1,6 @@
 ---
 title: Bitget - Buy & Sell Crypto
-date: 2021-09-17
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitget.com/
@@ -19,7 +19,6 @@ android:
   updated: 2026-10-05
   version: 2.94.4
   reviews: 1749
-  icon: com.bitget.exchange.webp
   meta: ok
   verdict: custodial
   developerName: BG LIMITED
@@ -31,7 +30,6 @@ iphone:
   updated: 2026-10-09
   version: 2.94.4
   reviews: 2316
-  icon: com.bitget.exchange.global.webp
   meta: ok
   verdict: custodial
   developerName: BG LIMITED

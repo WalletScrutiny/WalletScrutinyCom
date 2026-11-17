@@ -1,6 +1,6 @@
 ---
 title: JUWELIS App
-date: 2024-04-03
+date: 2026-10-30
 authors:
 - danny
 website: https://juwelis.digital#deadLink
@@ -11,7 +11,6 @@ android:
   users: 1000
   updated: 2021-02-19
   version: VARY
-  icon: digital.juwelis.app.webp
   meta: removed
   verdict: nosource
   developerName: JUWELIS Digital

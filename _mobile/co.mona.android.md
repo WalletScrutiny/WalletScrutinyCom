@@ -1,6 +1,6 @@
 ---
 title: 'Crypto.com: Trade Every Market'
-date: 2021-10-24
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -27,7 +27,6 @@ android:
   updated: 2026-10-05
   version: 3.242.10
   reviews: 56924
-  icon: co.mona.android.webp
   meta: ok
   verdict: custodial
   developerName: Crypto Technology Holdings Limited
@@ -39,7 +38,6 @@ iphone:
   updated: 2026-10-07
   version: 3.242.10
   reviews: 335361
-  icon: co.mona.Monaco.webp
   meta: ok
   verdict: custodial
   developerName: Crypto.com

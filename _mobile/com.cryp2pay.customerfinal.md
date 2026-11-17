@@ -1,6 +1,6 @@
 ---
 title: Cryp2Pay
-date: 2023-01-02
+date: 2026-10-30
 website: https://cryp2.in#deadLink
 redirect_from:
 - /android/com.cryp2pay.customerfinal/
@@ -10,7 +10,6 @@ android:
   released: 2022-02-11
   updated: 2022-05-22
   version: '1.5'
-  icon: com.cryp2pay.customerfinal.webp
   meta: removed
   verdict: wip
 

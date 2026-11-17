@@ -1,6 +1,6 @@
 ---
 title: 'Bottlepay: Buy & Send Bitcoin'
-date: 2023-08-16
+date: 2026-10-30
 authors:
 - danny
 website: https://bottlepay.com
@@ -15,7 +15,6 @@ android:
   users: 10000
   updated: 2023-07-24
   version: 2.2.16
-  icon: com.bottlepay.webp
   meta: removed
   verdict: custodial
   developerName: Bottlepay Ltd.
@@ -27,12 +26,13 @@ iphone:
   updated: 2023-06-08
   version: 2.2.15
   reviews: 305
-  icon: com.bottlepay.webp
   meta: removed
   verdict: custodial
   developerName: Bottlepay Limited
 
 ---
+
+**⚠️ Warning:** Bottlepay is closed. Its [website](https://bottlepay.com) says the consumer app shut on July 24, 2023, after a customer notice of May 22, 2023, and any bitcoin left in accounts was converted to fiat.
 
 ## Android
 

@@ -1,11 +1,11 @@
 ---
 layout: archive
-title: "Desktop Apps"
+title: "Desktop & Server Apps"
 permalink: /desktop/
 ---
 <script type="text/javascript">
 window.setTimeout(_=>{window.location.href = "{{ site.baseurl }}/?verdict=all&platform=desktop#tableofwallets"}, 1000);
 </script>
 
-You can list all Desktop apps on the main page filtering for verdict "all"
-and platform "Desktop". Forwarding ...
+You can list all Desktop & Server apps on the main page filtering for verdict "all"
+and platform "Desktop & Server". Forwarding ...

@@ -1,6 +1,6 @@
 ---
 title: Lohit Group
-date: 2023-05-30
+date: 2026-10-30
 authors:
 - danny
 website: http://lohitgroup.com#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2020-05-04
   updated: 2020-10-05
   version: 0.1.5
-  icon: com.lohitgroup.start.webp
   meta: removed
   verdict: wip
   developerName: LOHIT ENTERPRISES PRIVATE LIMITED

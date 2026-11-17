@@ -1,6 +1,6 @@
 ---
 title: Kanga Wallet
-date: 2022-07-20
+date: 2026-10-30
 authors:
 - danny
 website: https://kanga.global
@@ -21,7 +21,6 @@ android:
   updated: 2026-10-09
   version: 1.30.4
   reviews: 6
-  icon: com.kangamobile.webp
   meta: ok
   verdict: custodial
   developerName: Kanga Technologies
@@ -33,7 +32,6 @@ iphone:
   updated: 2026-10-09
   version: 1.30.4
   reviews: 7
-  icon: kanga.mobile.webp
   meta: ok
   verdict: custodial
   developerName: Kanga Global

@@ -1,6 +1,6 @@
 ---
 title: Crypto.com - Buy Bitcoin Now
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -12,7 +12,6 @@ android:
   released: 2021-07-24
   updated: 2021-07-24
   version: '1.0'
-  icon: com.cryptooptions.crypto.com.buy.bitcoin.now.webp
   meta: removed
   verdict: fake
 

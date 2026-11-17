@@ -1,7 +1,7 @@
 ---
 title: Bitenium Crypto Exchange
-date: 2024-04-03
-website: https://bitenium.com/
+date: 2026-10-30
+website: https://bitenium.com/#deadLink
 redirect_from:
 - /android/com.bitenium.apptrading/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-08-15
   updated: 2022-07-19
   version: 1.0.6
-  icon: com.bitenium.apptrading.webp
   meta: removed
   verdict: wip
   developerName: Bitenium Exchange LLC

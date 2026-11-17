@@ -1,6 +1,6 @@
 ---
 title: IndexWallet
-date: 2024-04-03
+date: 2026-10-30
 website: https://indexchain.org#deadLink
 redirect_from:
 - /android/io.horizontalsystems.indexwallet/
@@ -10,7 +10,6 @@ android:
   released: 2020-07-13
   updated: 2020-07-15
   version: 0.16.1
-  icon: io.horizontalsystems.indexwallet.webp
   meta: removed
   verdict: wip
   developerName: Optisecure

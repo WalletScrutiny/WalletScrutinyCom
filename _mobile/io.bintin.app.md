@@ -1,6 +1,6 @@
 ---
 title: Bintin
-date: 2024-04-03
+date: 2026-10-30
 website: https://bintin.io
 redirect_from:
 - /android/io.bintin.app/
@@ -10,7 +10,6 @@ android:
   released: 2021-08-18
   updated: 2022-03-16
   version: 1.0.0
-  icon: io.bintin.app.webp
   meta: removed
   verdict: wip
   developerName: Bitledger solutions Ltd

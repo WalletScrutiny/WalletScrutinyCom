@@ -1,6 +1,6 @@
 ---
 title: Bitnovo - Crypto Wallet
-date: 2022-02-10
+date: 2026-10-30
 authors:
 - leo
 website: http://www.bitnovo.com
@@ -18,7 +18,6 @@ android:
   updated: 2021-10-29
   version: 2.8.7
   reviews: 245
-  icon: com.bitnovo.app.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -28,11 +27,12 @@ iphone:
   updated: 2021-10-30
   version: 2.8.7
   reviews: 5
-  icon: com.bitnovo.app.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** Bitnovo now offers a [self-custodial "Bitnovo Wallet"](https://www.bitnovo.com/wallet), the apps {% include walletLink.html wallet='android/com.bitnovo.Wallet' verdict='true' %} and {% include walletLink.html wallet='iphone/com.bitnovo.Wallet' verdict='true' %}, which we review separately.
 
 ## Android
 

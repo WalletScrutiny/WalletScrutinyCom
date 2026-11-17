@@ -17,11 +17,10 @@ shop:
 country: 
 price: 
 repository: https://github.com/epiccurious/jade-diy
-icon: blockstream.jade.diy.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2026-02-27
+date: 2026-10-30
 signer: 
 twitter: epic_curious
 social: 

@@ -1,6 +1,6 @@
 ---
 title: 'Richamster: Crypto Exchange'
-date: 2024-07-14
+date: 2026-10-30
 authors:
 - danny
 website: https://richamster.com/
@@ -16,7 +16,6 @@ android:
   released: 2018-11-24
   updated: 2023-07-12
   version: 3.2.2
-  icon: com.richamster.app.webp
   meta: removed
   verdict: custodial
   developerName: Richamster

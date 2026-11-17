@@ -1,9 +1,9 @@
 ---
 title: Trade Crypto.BinanceKucoinOkex
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
-website: https://www.mayex.com
+website: https://www.mayex.com#deadLink
 twitter: Mayex_Global
 social:
 - https://www.youtube.com/channel/UC1qRKQPICYpWLlGlGbYG8bA
@@ -19,7 +19,6 @@ android:
   updated: 2023-03-29
   version: 1.9.80
   reviews: 9
-  icon: com.mayex.trading.webp
   meta: removed
   verdict: custodial
   developerName: Mayex
@@ -31,12 +30,13 @@ iphone:
   updated: 2023-04-11
   version: 1.9.8
   reviews: 5
-  icon: com.mayex.trading.webp
   meta: removed
   verdict: custodial
   developerName: MAYEX LIMITED
 
 ---
+
+**Update 2026-10-30:** Mayex looks gone. Its website stopped loading in early 2025 and the domain now only shows a parking page; both apps are gone from the stores.
 
 ## Android
 
@@ -46,7 +46,7 @@ iphone:
 
 > Client can enjoy Free Spot Trading, Derivatives trading use leverage up to 125x with commission as low as 0.01%. There are Over 100 crypto trading pairs on this platform. 
 
-## [Platform Wallet Description](https://www.mayex.com/article/what-is-wallet) 
+## [Platform Wallet Description](https://www.mayex.com/article/what-is-wallet#deadLink) 
 
 > Currently mayex has two accounts, one is wallet and the other is account.
 >
@@ -58,7 +58,7 @@ iphone:
 > 
 > The assets in the contract account need to be withdrawn must be transferred to the corresponding spot account before the withdrawal operation can be initiated.
 
-### [Security](https://www.mayex.com/)
+### [Security](https://www.mayex.com/#deadLink)
 
 > Strongest Wallet Security
 >

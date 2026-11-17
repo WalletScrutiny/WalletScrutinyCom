@@ -1,6 +1,6 @@
 ---
 title: Crypto Invest
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/org.bitrtuubonline.crypto.invest/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-07-17
   updated: 2021-07-17
   version: '1.0'
-  icon: org.bitrtuubonline.crypto.invest.webp
   meta: removed
   verdict: wip
 

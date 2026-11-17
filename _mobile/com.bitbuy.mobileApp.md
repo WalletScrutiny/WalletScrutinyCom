@@ -1,6 +1,6 @@
 ---
 title: 'Bitbuy: Buy Bitcoin Canada'
-date: 2021-09-11
+date: 2026-10-30
 authors:
 - danny
 website: https://bitbuy.ca/
@@ -20,7 +20,6 @@ android:
   updated: 2025-12-05
   version: 5.3.3
   reviews: 1385
-  icon: com.bitbuy.mobileApp.webp
   meta: ok
   verdict: custodial
   developerName: WF - Bitbuy
@@ -32,7 +31,6 @@ iphone:
   updated: 2025-12-08
   version: 5.3.3
   reviews: 7378
-  icon: com.bitbuy.mobileApp.webp
   meta: ok
   verdict: custodial
   developerName: Bitbuy Inc
@@ -40,6 +38,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Bitbuy now belongs to Robinhood. Robinhood [closed its acquisition of WonderFi](https://www.theblock.co/news/business/2026-06-01-robinhood-closes-wonderfi-acquisition-canada-403279), Bitbuy's parent, on 2026-06-01, and said Bitbuy users "will be invited to continue on the Robinhood app". The old terms link below is dead.
 
 This Canada specific Money Service Business, FINTRAC regulated app or service, allows Canadian users to buy or sell Bitcoin. The app or service in its [Terms page](https://bitbuy.ca/en/terms#deadLink) warns users that:
 

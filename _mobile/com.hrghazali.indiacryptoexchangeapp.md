@@ -1,6 +1,6 @@
 ---
 title: 'India: Crypto Exchange App'
-date: 2026-01-08
+date: 2026-10-30
 redirect_from:
 - /android/com.hrghazali.indiacryptoexchangeapp/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-09-12
   updated: 2023-02-26
   version: 1.0.1
-  icon: com.hrghazali.indiacryptoexchangeapp.webp
   meta: removed
   verdict: wip
   developerName: Islamic Books Urdu

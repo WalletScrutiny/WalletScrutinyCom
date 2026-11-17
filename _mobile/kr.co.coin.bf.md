@@ -1,6 +1,6 @@
 ---
 title: 비트코인렌트-올인비트,비트코인,가상화폐,투자,분석
-date: 2023-06-21
+date: 2026-10-30
 redirect_from:
 - /android/kr.co.coin.bf/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-02-25
   updated: 2020-02-26
   version: '1.0'
-  icon: kr.co.coin.bf.webp
   meta: removed
   verdict: wip
   developerName: fx렌트 fx마진거래 렌트서비스

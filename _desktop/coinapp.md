@@ -12,11 +12,10 @@ provider:
 providerWebsite: 
 website: https://coinapp.io/
 repository: https://github.com/coinapp-io/desktop
-icon: coinapp.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-date: 2025-04-22
+date: 2026-10-30
 twitter: coin_with_us
 social: 
 builds: 

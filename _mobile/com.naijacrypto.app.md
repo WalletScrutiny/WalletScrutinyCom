@@ -1,6 +1,6 @@
 ---
 title: Naijacrypto
-date: 2023-08-19
+date: 2026-10-30
 authors:
 - danny
 website: https://naijacrypto.com#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2019-08-05
   updated: 2022-10-22
   version: 5.1.2
-  icon: com.naijacrypto.app.webp
   meta: removed
   verdict: wip
   developerName: CI Cryptosolutions

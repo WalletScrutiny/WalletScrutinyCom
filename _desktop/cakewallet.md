@@ -12,11 +12,10 @@ provider: Cake Labs
 providerWebsite: 
 website: https://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet
-icon: cakewallet.webp
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2026-02-13
+date: 2026-10-30
 twitter: cakewallet
 social:
 - https://www.facebook.com/cakewallet

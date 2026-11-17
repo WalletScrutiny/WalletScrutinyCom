@@ -1,6 +1,6 @@
 ---
 title: 'Wyretrade: Invest in Stocks, E'
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - danny
 website: https://wyretrade.com#deadLink
@@ -16,7 +16,6 @@ android:
   updated: 2021-07-19
   version: 1.1.7
   reviews: 4
-  icon: com.wyre.trade.webp
   meta: removed
   verdict: custodial
   developerName: REMITTY LLC

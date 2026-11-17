@@ -17,11 +17,10 @@ shop: https://wooko.ng/en/blue#deadLink
 country: CH
 price: 
 repository: 
-icon: wookongblue.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2022-02-17
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -29,6 +28,8 @@ builds:
 features: 
 
 ---
+
+**Update 2026-10-30:** WOOKONG, the provider of this device, appears to be gone.
 
 The website is [no longer working](https://twitter.com/BitcoinWalletz/status/1477479861031616517).
 

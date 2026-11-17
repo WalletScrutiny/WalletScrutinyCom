@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Wallet & Crypto Market
-date: 2025-11-26
+date: 2026-10-30
 authors:
 - danny
 website: https://coinhub8899.web.app
@@ -13,7 +13,6 @@ android:
   released: 2023-12-21
   updated: 2024-11-22
   version: 0.2.7
-  icon: com.wallet.blockchain.bitcoin.webp
   meta: stale
   verdict: fake
   developerName: TwiX

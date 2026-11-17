@@ -1,6 +1,6 @@
 ---
 title: 旧バージョン：SBI VCTRADE mobile 暗号資産
-date: 2023-02-26
+date: 2026-10-30
 authors:
 - danny
 website: https://www.sbivc.co.jp/
@@ -16,7 +16,6 @@ android:
   released: 2019-05-29
   updated: 2026-01-09
   version: 4.0.0
-  icon: com.taotao_ex.android.webp
   meta: removed
   verdict: custodial
   developerName: SBI VC Trade Co., Ltd.
@@ -28,12 +27,13 @@ iphone:
   updated: 2026-01-28
   version: 4.0.0
   reviews: 602
-  icon: com.taotao-ex.TaotaoTrade.webp
   meta: removed
   verdict: custodial
   developerName: SBI VC TRADE CO., LTD.
 
 ---
+
+**Update 2026-10-30:** SBI VC Trade ended this old app on January 28, 2026 and moved all users to its new "SBI VCトレード" app ([notice](https://www.sbivc.co.jp/newsview/r1rbpq2ec0)). The new app is not listed here yet.
 
 ## Android
 

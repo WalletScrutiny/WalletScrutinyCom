@@ -1,6 +1,6 @@
 ---
 title: 'SMDEX : Buy BTC & Other Crypto'
-date: 2023-08-05
+date: 2026-10-30
 authors:
 - danny
 website: https://smdex.io#deadLink
@@ -17,7 +17,6 @@ android:
   released: 2022-03-07
   updated: 2022-04-01
   version: 1.0.5
-  icon: in.spiegeltechnologies.smdex.webp
   meta: removed
   verdict: custodial
   developerName: Devsmdex

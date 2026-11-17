@@ -1,0 +1,220 @@
+@use "type-scale" as *;
+
+/* /news/: advisories of the last 14 days and the wallets they hit
+   (assets/js/vulnerabilityNews.js). Severity pills are .dp-sev from the
+   dependencies panel. */
+
+// Phones: the title sits as high, and about as big, as on the homepage.
+@media (max-width: 640px) {
+  #main:has(.vuln-news) {
+    margin-top: 16px;
+  }
+
+  .archive:has(.vuln-news) .page__title {
+    font-size: $font-xxl;
+    margin-bottom: 16px;
+  }
+}
+
+.vuln-news {
+  max-width: 820px;
+  // centred under the page title, which the archive layout centres
+  margin: 0 auto;
+
+  &__lead,
+  &__status {
+    color: var(--neutral-2);
+  }
+
+  &__lead {
+    @media (max-width: 640px) {
+      font-size: $font-sm;
+    }
+  }
+
+  &__filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 24px;
+  }
+
+  &__filter {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    font-size: $font-sm;
+    color: var(--neutral-2);
+
+    select {
+      font: inherit;
+      color: var(--text);
+      background: var(--body);
+      border: 1px solid var(--neutral-5);
+      border-radius: 8px;
+      padding: 4px 8px;
+    }
+
+    // the site-wide label rule is a 46px-tall flex row
+    .vuln-news__sev {
+      display: inline-flex;
+      line-height: 1.4;
+      align-items: center;
+      gap: 4px;
+      cursor: pointer;
+    }
+  }
+
+  &__ref {
+    color: var(--neutral-2);
+    font-size: $font-xxs;
+  }
+
+  &__day {
+    margin-top: 24px;
+
+    &[hidden] {
+      display: none;
+    }
+
+    h2 {
+      font-size: $font-md;
+      margin: 0 0 10px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid var(--neutral-5);
+    }
+  }
+
+  &__item {
+    border: 1px solid var(--neutral-5);
+    border-radius: 14px;
+    background: var(--neutral-6);
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+    gap: 12px 20px;
+
+    p {
+      margin: 0;
+    }
+
+    @media (max-width: 640px) {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+
+  &__advisory {
+    display: grid;
+    gap: 6px;
+    align-content: start;
+  }
+
+  &__head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+  }
+
+  &__pkg {
+    font-size: $font-sm;
+    word-break: break-all;
+  }
+
+  &__eco,
+  &__versions,
+  &__ids {
+    font-size: $font-xs;
+    color: var(--neutral-2);
+  }
+
+  &__summary {
+    font-size: $font-sm;
+  }
+
+  // The OSV link: an icon after the summary on phones, the ids line elsewhere.
+  &__osv {
+    display: none;
+    margin-left: 4px;
+    color: var(--accent);
+
+    .ws-icon {
+      width: 0.85em;
+      height: 0.85em;
+      vertical-align: -0.05em;
+    }
+
+    @media (max-width: 640px) {
+      display: inline;
+    }
+  }
+
+  &__ids--phone-hidden {
+    @media (max-width: 640px) {
+      display: none;
+    }
+  }
+
+  // A column of chips, set off from the advisory by a rule (above it on phones).
+  &__wallets {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 6px;
+    padding-left: 20px;
+    border-left: 1px solid var(--neutral-5);
+
+    @media (max-width: 640px) {
+      padding: 10px 0 0;
+      border-left: 0;
+      border-top: 1px solid var(--neutral-5);
+    }
+  }
+
+  &__wallet {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: $font-xs;
+    border: 1px solid var(--neutral-5);
+    border-radius: 999px;
+    padding: 2px 10px 2px 4px;
+    color: var(--text);
+    text-decoration: none;
+
+    img {
+      width: 20px;
+      height: 20px;
+      border-radius: 5px;
+    }
+  }
+
+  // .archive underlines every other link (_archive.scss)
+  a.vuln-news__wallet:hover {
+    border-color: var(--accent);
+  }
+
+  &__more {
+    margin-top: 16px;
+    border: 1px solid var(--neutral-5);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--text);
+    font-size: $font-sm;
+    padding: 6px 16px;
+    cursor: pointer;
+
+    &[hidden] {
+      display: none;
+    }
+
+    &:hover {
+      border-color: var(--accent);
+    }
+  }
+}
+
+body.dark .vuln-news__item {
+  background: rgba(255, 255, 255, 0.03);
+}

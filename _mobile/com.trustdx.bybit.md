@@ -1,6 +1,6 @@
 ---
 title: 'Bybit: Trade cryptocurrency, bitcoin'
-date: 2021-09-02
+date: 2026-10-30
 redirect_from:
 - /android/com.trustdx.bybit/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-06-29
   updated: 2021-07-19
   version: '5.0'
-  icon: com.trustdx.bybit.webp
   meta: removed
   verdict: fake
 

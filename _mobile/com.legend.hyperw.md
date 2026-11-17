@@ -1,7 +1,7 @@
 ---
 title: HyperW
-date: 2023-01-02
-website: http://hyperw.com
+date: 2026-10-30
+website: http://hyperw.com#deadLink
 redirect_from:
 - /android/com.legend.hyperw/
 android:
@@ -9,7 +9,6 @@ android:
   users: 5000
   updated: 2021-12-29
   version: 2.4.1
-  icon: com.legend.hyperw.webp
   meta: removed
   verdict: wip
 

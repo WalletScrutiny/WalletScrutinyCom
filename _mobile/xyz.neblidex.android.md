@@ -1,7 +1,7 @@
 ---
 title: NebliDex
-date: 2024-04-19
-website: https://www.neblidex.xyz
+date: 2026-10-30
+website: https://www.neblidex.xyz#deadLink
 redirect_from:
 - /android/xyz.neblidex.android/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2019-09-29
   updated: 2020-05-14
   version: 11.0.2
-  icon: xyz.neblidex.android.webp
   meta: removed
   verdict: wip
   developerName: NebliDex Team

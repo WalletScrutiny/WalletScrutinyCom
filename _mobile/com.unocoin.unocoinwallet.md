@@ -1,6 +1,6 @@
 ---
 title: 'Unocoin: Buy Bitcoin & Crypto'
-date: 2020-05-29
+date: 2026-10-30
 authors:
 - leo
 website: https://www.unocoin.com
@@ -25,7 +25,6 @@ android:
   updated: 2026-10-10
   version: 5.3.45
   reviews: 55
-  icon: com.unocoin.unocoinwallet.webp
   meta: ok
   verdict: custodial
   developerName: Unocoin Technologies
@@ -37,7 +36,6 @@ iphone:
   updated: 2026-10-09
   version: 6.2.83
   reviews: 1720
-  icon: com.unocoin.mainapp.production.webp
   meta: ok
   verdict: custodial
   developerName: Unocoin Technologies Private Limited

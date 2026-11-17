@@ -1,6 +1,6 @@
 ---
 title: bitda
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/com.bitda.app/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-05-06
   updated: 2022-07-25
   version: 4.0.1
-  icon: com.bitda.app.webp
   meta: removed
   verdict: wip
   developerName: BitdaMobileApp

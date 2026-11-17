@@ -21,11 +21,10 @@ shop: https://satochip.io/shop
 country: BE
 price: 25EUR
 repository: https://github.com/Toporin/SatochipApplet
-icon: satochip.webp
 bugbounty: 
 meta: ok
 verdict: sealed-noita
-date: 2022-11-03
+date: 2026-10-30
 signer: 
 twitter: satochipwallet
 social:

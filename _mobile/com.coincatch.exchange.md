@@ -1,11 +1,11 @@
 ---
 title: CoinCatch-Buy Bitcoin & Crypto
-date: 2026-03-11
+date: 2026-10-30
 authors:
 - danny
+website: https://www.coincatch.com
 twitter: coincatchcom
 social:
-- https://www.coincatch.com
 - https://t.me/coincatch_chat_en
 - https://www.instagram.com/coincatch_official
 redirect_from:
@@ -18,7 +18,6 @@ android:
   updated: 2025-12-04
   version: 1.19.0
   reviews: 74
-  icon: com.coincatch.exchange.webp
   meta: removed
   verdict: custodial
   developerName: Linkbase Technology Limited
@@ -30,12 +29,13 @@ iphone:
   updated: 2025-12-10
   version: 1.19.0
   reviews: 172
-  icon: com.coincatch.global.webp
   meta: removed
   verdict: custodial
   developerName: Linkbase Technology Limited
 
 ---
+
+**⚠️ Warning:** CoinCatch shut down. Its [final wind-down notice](https://web.archive.org/web/20261012034616/https://www.coincatch.com/en) says it stopped all operations on 30 January 2026, and withdrawals and account access were switched off for good on 30 March 2026. Both apps are gone from the stores.
 
 ## Android
 

@@ -1,6 +1,6 @@
 ---
 title: TATSPACE
-date: 2025-09-09
+date: 2026-10-30
 authors:
 - danny
 website: https://www.tatcoin.com
@@ -20,7 +20,6 @@ android:
   updated: 2024-09-09
   version: 1.4.9
   reviews: 10
-  icon: com.tatspace.webp
   meta: obsolete
   verdict: custodial
   developerName: Own the Earth LLC
@@ -32,12 +31,13 @@ iphone:
   updated: 2024-01-06
   version: 1.17.6
   reviews: 63
-  icon: com.tatspaceapp.webp
   meta: obsolete
   verdict: custodial
   developerName: TATSPACE
 
 ---
+
+**Update 2026-10-30:** TATSPACE's website is gone. tatspace.com showed a gambling site by [August 2025](https://web.archive.org/web/20250811200329/https://tatspace.com/) and is now for sale, and tatcoin.com is a parked domain. Both apps are still listed but have not been updated since 2024.
 
 ## Android
 
@@ -46,7 +46,7 @@ iphone:
 > Tatspace is the world’s premier Integrated platform for learning, trading, earning, investing and shopping with cryptocurrencies. It is the first cryptocurrency powered super app. The app is poised to become the go-to platform for people in any industry – including retail, hospitality, real estate, tourism, education – and for any intent – from shopping, to trading and paying basic
 bills.
 
-## [Privacy Policy](https://tatspace.com/privacy.html)
+## [Privacy Policy](https://web.archive.org/web/20230601020148/https://tatspace.com/privacy.html)
 
 > Wallet Information: When you create a Block chain Wallet through our Services, you will generate a public and private key pair and when you log out of the Wallet, **we collect an encrypted file that, if it is unencrypted, would contain these keys**, as well as your transaction history. When you allow notifications through your Account Settings, we will collect the unencrypted public key in order to provide such notifications. We do not collect an unencrypted private key from you neither do we decrypt any Wallet file data.
 >

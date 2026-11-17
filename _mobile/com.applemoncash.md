@@ -1,6 +1,6 @@
 ---
 title: Lemon - Billetera Virtual
-date: 2025-11-12
+date: 2026-10-30
 authors:
 - danny
 website: https://lemon.me
@@ -15,7 +15,6 @@ android:
   updated: 2026-10-09
   version: 3.0.20
   reviews: 13
-  icon: com.applemoncash.webp
   meta: ok
   verdict: custodial
   developerName: Lemon Cash Inc
@@ -27,7 +26,6 @@ iphone:
   updated: 2026-10-13
   version: 3.0.20
   reviews: 4133
-  icon: org.reactjs.native.lemon.appLemonCash.webp
   meta: ok
   verdict: custodial
   developerName: Lemon Cash Inc

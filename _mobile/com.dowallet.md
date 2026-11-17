@@ -1,6 +1,6 @@
 ---
 title: 'DoWallet: Bitcoin Wallet. A Se'
-date: 2022-03-24
+date: 2026-10-30
 authors:
 - leo
 website: https://www.dowallet.app#deadLink
@@ -14,7 +14,6 @@ android:
   updated: 2022-11-22
   version: 1.1.41
   reviews: 88
-  icon: com.dowallet.webp
   meta: removed
   verdict: nosource
   developerName: Wallex, Inc.
@@ -25,11 +24,14 @@ iphone:
   updated: 2021-10-01
   version: 1.1.39
   reviews: 225
-  icon: com.dowallet.dowallet.webp
   meta: removed
   verdict: nosource
 
 ---
+
+**⚠️ Warning:** DoWallet shut down on 17 September 2024.
+
+**Update 2026-10-30:** DoWallet [shut down](https://web.archive.org/web/20241230001443/https://dowallet.app/) on 17 September 2024, both apps with it, and users were told to recover their wallets "using their 12 word recovery phrases" in other wallets.
 
 ## Android
 

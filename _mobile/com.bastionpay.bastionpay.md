@@ -1,7 +1,7 @@
 ---
 title: Bastionpay
-date: 2023-04-20
-website: http://www.bastionpay.com
+date: 2026-10-30
+website: http://www.bastionpay.com#deadLink
 redirect_from:
 - /android/com.bastionpay.bastionpay/
 android:
@@ -11,7 +11,6 @@ android:
   updated: 2019-11-20
   version: v3.0.3
   reviews: 101
-  icon: com.bastionpay.bastionpay.webp
   meta: removed
   verdict: wip
 

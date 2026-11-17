@@ -1,7 +1,7 @@
 ---
 title: Global Token Wallet
-date: 2023-06-21
-website: https://globaltoken.vip
+date: 2026-10-30
+website: https://globaltoken.vip#deadLink
 redirect_from:
 - /android/com.apetroop.multichainwallet/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2020-08-10
   updated: 2020-09-04
   version: 1.0.3
-  icon: com.apetroop.multichainwallet.webp
   meta: removed
   verdict: wip
   developerName: Global Token

@@ -1,6 +1,6 @@
 ---
 title: PoolinWallet - Secure Custody
-date: 2023-08-25
+date: 2026-10-30
 authors:
 - danny
 website: https://poolin.fi/
@@ -18,7 +18,6 @@ android:
   updated: 2024-08-21
   version: 2.5.13
   reviews: 23
-  icon: com.blockin.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Poolin Singapore - Make the Most of Crypto Assets
@@ -29,12 +28,13 @@ iphone:
   updated: 2023-03-01
   version: 2.5.6
   reviews: 41
-  icon: com.poolinwallet.blockinwallet.webp
   meta: removed
   verdict: custodial
   developerName: POOLIN TECHNOLOGY PTE.LTD.
 
 ---
+
+**Update 2026-10-30:** Poolin froze withdrawals from Poolin Wallet in September 2022 and turned balances into IOU tokens ([CoinDesk](https://www.coindesk.com/business/2022/09/13/bitcoin-miner-poolin-to-issue-iou-tokens-after-suspending-withdrawals)). Those IOUs were never repaid, and on 22 July 2026 Poolin Technology filed for Chapter 11 bankruptcy in New Jersey, owing about 11,700 wallet holders $163.7 million ([Decrypt via Yahoo Finance](https://finance.yahoo.com/markets/crypto/articles/poolin-once-one-bitcoins-biggest-174448133.html)).
 
 ## Android
 

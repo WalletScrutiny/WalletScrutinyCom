@@ -1,6 +1,6 @@
 ---
 title: UpBots -  Invest & Trade Crypto Easily & Securely
-date: 2022-01-15
+date: 2026-10-30
 redirect_from:
 - /android/com.upbots.demo.twa/
 android:
@@ -10,7 +10,6 @@ android:
   updated: 2021-06-21
   version: '1'
   reviews: 3
-  icon: com.upbots.demo.twa.webp
   meta: removed
   verdict: wip
 

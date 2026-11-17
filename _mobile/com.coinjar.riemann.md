@@ -1,6 +1,6 @@
 ---
 title: 'CoinJar: Buy Bitcoin & Crypto'
-date: 2021-09-15
+date: 2026-10-30
 authors:
 - danny
 website: https://www.coinjar.com
@@ -20,7 +20,6 @@ android:
   updated: 2026-10-12
   version: 3.69.0
   reviews: 1188
-  icon: com.coinjar.riemann.webp
   meta: ok
   verdict: custodial
   developerName: CoinJar
@@ -32,7 +31,6 @@ iphone:
   updated: 2026-09-15
   version: 3.68.0
   reviews: 15264
-  icon: com.coinjar.mobius.webp
   meta: ok
   verdict: custodial
   developerName: CoinJar Pty Ltd
@@ -53,7 +51,7 @@ It is an exchange, so it's likely to be custodial.
 
 We tried to download the app to further validate our findings, but it is not available for our region. 
 
-In the [Terms of Service](https://www.coinjar.com/legal):
+In the [Terms of Service](https://www.coinjar.com/au/legal):
 
 > To safeguard your funds, **we store at least 90% of all customers’ crypto currencies offline** in multiple geographically-redundant secure locations. This is deemed as ‘cold-storage’. By using cold storage, we prevent hackers from being able to access your holdings. Any cryptoassets stored online or also what is known as the ‘hot wallet’ is protected by our in-house multi-sig technology which effectively prevents against both theft and loss.
 

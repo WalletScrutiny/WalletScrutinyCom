@@ -1,9 +1,9 @@
 ---
 title: Payiza
-date: 2022-06-02
+date: 2026-10-30
 authors:
 - danny
-website: https://payizadlt.com/
+website: https://payizadlt.com/#deadLink
 twitter: payizamoney
 social:
 - https://www.facebook.com/payizamoney
@@ -17,7 +17,6 @@ android:
   released: 2021-03-02
   updated: 2021-04-17
   version: '8.0'
-  icon: com.payizadlt.pp.webp
   meta: removed
   verdict: custodial
   developerName: Payiza tech
@@ -28,11 +27,12 @@ iphone:
   updated: 2021-06-02
   version: '1.0'
   reviews: 0
-  icon: com.payiza.dlt.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** Payiza's [website](https://web.archive.org/web/20240423135810/https://payizadlt.com/) no longer loads, and both apps are gone from the stores.
 
 ## Android
 

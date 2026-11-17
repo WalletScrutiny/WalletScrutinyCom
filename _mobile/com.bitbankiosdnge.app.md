@@ -1,6 +1,6 @@
 ---
 title: 24BITBANK EXCHANGE
-date: 2024-04-19
+date: 2026-10-30
 website: https://24bitbank.io/
 redirect_from:
 - /android/com.bitbankiosdnge.app/
@@ -10,7 +10,6 @@ android:
   released: 2021-09-30
   updated: 2021-09-30
   version: '456'
-  icon: com.bitbankiosdnge.app.webp
   meta: removed
   verdict: wip
   developerName: 24BITBANK

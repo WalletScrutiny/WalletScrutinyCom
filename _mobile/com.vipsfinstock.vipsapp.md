@@ -1,9 +1,9 @@
 ---
 title: 'VIPS Finstock: Buy/Sell Crypto'
-date: 2024-04-03
+date: 2026-10-30
 authors:
 - danny
-website: https://www.vipsfinstock.com
+website: https://web.archive.org/web/20230921092011/https://vipsfinstock.com/
 twitter: VIPS_Finstock
 social:
 - https://www.linkedin.com/company/vipsfinstock
@@ -21,7 +21,6 @@ android:
   updated: 2023-10-02
   version: 1.7.6
   reviews: 2
-  icon: com.vipsfinstock.vipsapp.webp
   meta: removed
   verdict: custodial
   developerName: VIPS Trade Finance Pvt. Ltd.
@@ -33,12 +32,13 @@ iphone:
   updated: 2023-10-02
   version: 1.9.4
   reviews: 0
-  icon: com.vips.vipsfinstock.webp
   meta: removed
   verdict: custodial
   developerName: VIPS Trade Finance Pvt. Ltd.
 
 ---
+
+**Update 2026-10-30:** VIPS Finstock looks gone. Both apps are no longer in the stores, and since at least January 2024 vipsfinstock.com no longer shows the exchange; the [Internet Archive](https://web.archive.org/web/20240523022609/https://vipsfinstock.com/) shows a parked domain, and today it hosts an unrelated list of trading platforms. We found no shutdown notice.
 
 ## Android
 

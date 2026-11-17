@@ -1,6 +1,6 @@
 ---
 title: BitcoinRD Exchange
-date: 2025-11-12
+date: 2026-10-30
 authors:
 - danny
 website: http://bitcoinrd.do
@@ -14,7 +14,6 @@ android:
   released: 2023-03-13
   updated: 2026-02-04
   version: 0.18.4
-  icon: com.bitcoinrd.BitcoinRD.webp
   meta: removed
   verdict: custodial
   developerName: BitcoinRD
@@ -26,12 +25,13 @@ iphone:
   updated: 2026-02-06
   version: 0.18.4
   reviews: 1
-  icon: com.bitcoinrd.BitcoinRDexchange.webp
   meta: removed
   verdict: custodial
   developerName: BitcoinRD
 
 ---
+
+**Update 2026-10-30:** Both BitcoinRD Exchange apps are gone from the stores, although the [BitcoinRD website](https://bitcoinrd.do/en) still links to them. Since June 2026 the same company publishes a separate app, "BitcoinRD OTC", for buying and selling Bitcoin in Dominican pesos.
 
 ## Android
 

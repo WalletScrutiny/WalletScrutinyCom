@@ -1,0 +1,17 @@
+{
+  "release": "2.2.1",
+  "rules": [
+    {
+      "files": [
+        "**/flathub_flatpak/**",
+        "**/requirements-build?mac*"
+      ],
+      "belongs_to": "desktop",
+      "why": "Files used only to package the desktop app for Flathub and macOS.",
+      "proof": [
+        "https://github.com/andreasgriffin/bitcoin-safe/blob/ef358e28644d61204b6e2c8f3d271550ed04b647/tools/build_linux/flathub_flatpak/requirements-runtime.txt",
+        "https://github.com/andreasgriffin/bitcoin-safe/blob/ef358e28644d61204b6e2c8f3d271550ed04b647/tools/deterministic-build/requirements-build_mac_x86_64.txt"
+      ]
+    }
+  ]
+}
