@@ -21,10 +21,23 @@ export const PINNED_VERIFIER_EVENT_IDS = {
   ),
 };
 
-/** False for events by a pinned verifier that are not on their list. */
-export function isTrustedVerifierEvent(event, pinned = PINNED_VERIFIER_EVENT_IDS) {
+// Approved verifiers trusted only for some apps: pubkey -> appIds whose
+// verifications ABS may use. Their verifications for other apps are ignored.
+export const SCOPED_VERIFIER_APP_IDS = {
+  // BitForBit (Carol): one test app first (Danny, Luis Miguel, 2026-11-17)
+  '54790a499115f63e32536aadab43f62c0cf3922cd1653b3a74846fe2f6573f5d': ['co.edgesecure.app'],
+};
+
+/**
+ * False for events by a pinned verifier that are not on their list, and for
+ * events by a scoped verifier about an app outside their scope.
+ */
+export function isTrustedVerifierEvent(event, pinned = PINNED_VERIFIER_EVENT_IDS, scoped = SCOPED_VERIFIER_APP_IDS) {
   const ids = pinned[event?.pubkey];
-  return !ids || ids.has(event.id);
+  if (ids && !ids.has(event.id)) return false;
+  const appIds = scoped[event?.pubkey];
+  if (appIds && !appIds.includes(event.tags?.find(tag => tag[0] === 'i')?.[1])) return false;
+  return true;
 }
 
 export const WS_BOT_NOSTR_PUBKEY_HEX = '168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f47373fdcce2b9cd335';
@@ -60,6 +73,9 @@ export const REGRESSION_ALERT_MENTION = {
   pubkey: 'fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26'
 };
 export const REGRESSION_ALERT_TIMEOUT_SECONDS = 10;
+// Apps whose regressions are alerted (empty = every app). One test app first
+// (Danny, Luis Miguel, 2026-11-17), the same one BitForBit is scoped to.
+export const REGRESSION_ALERT_APP_IDS = ['co.edgesecure.app'];
 
 // Queue configuration
 export const QUEUE_TIMEOUT_HOURS = 6;

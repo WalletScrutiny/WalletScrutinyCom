@@ -20,7 +20,8 @@ import {
   REGRESSION_ALERT_RELAY_URL,
   REGRESSION_ALERT_CHANNEL_ID,
   REGRESSION_ALERT_MENTION,
-  REGRESSION_ALERT_TIMEOUT_SECONDS
+  REGRESSION_ALERT_TIMEOUT_SECONDS,
+  REGRESSION_ALERT_APP_IDS
 } from './config/config.mjs';
 
 const REGRESSED_VERDICTS = ['ftbfs', 'not_reproducible'];
@@ -165,8 +166,9 @@ async function deliverWithConfiguredKey(db) {
 /**
  * Hook for a freshly published ABS verdict. Never throws.
  */
-export async function alertIfRegression(db, { baseVerification, appId, version, platform, verdict, verificationEventId, buildScriptEventId }, { enabled = FEATURE_REGRESSION_ALERTS, deliver = deliverWithConfiguredKey } = {}) {
+export async function alertIfRegression(db, { baseVerification, appId, version, platform, verdict, verificationEventId, buildScriptEventId }, { enabled = FEATURE_REGRESSION_ALERTS, appIds = REGRESSION_ALERT_APP_IDS, deliver = deliverWithConfiguredKey } = {}) {
   if (!enabled) return;
+  if (appIds.length && !appIds.includes(appId)) return;
   try {
     if (!isRegression(baseVerification, version, verdict)) return;
     const fresh = recordRegression(db, {

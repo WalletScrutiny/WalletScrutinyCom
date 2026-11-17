@@ -100,18 +100,25 @@ describe('alertIfRegression', () => {
     assert.equal(db.prepare("SELECT name FROM sqlite_master WHERE name = 'regression_alerts'").get(), undefined);
   });
 
+  test('skips apps outside the alert list', async () => {
+    const db = new Database(':memory:');
+    await alertIfRegression(db, input, { enabled: true, appIds: ['org.other'], deliver: async () => assert.fail('not in the list') });
+    await alertIfRegression(db, input, { enabled: true, appIds: [], deliver: async () => 1 });
+    assert.equal(pendingCount(db), 1);
+  });
+
   test('sends a new regression once', async () => {
     const db = new Database(':memory:');
     let calls = 0;
     const deliver = async () => { calls++; return 1; };
-    await alertIfRegression(db, input, { enabled: true, deliver });
-    await alertIfRegression(db, { ...input, platform: 'windows' }, { enabled: true, deliver });
+    await alertIfRegression(db, input, { enabled: true, appIds: [], deliver });
+    await alertIfRegression(db, { ...input, platform: 'windows' }, { enabled: true, appIds: [], deliver });
     assert.equal(calls, 1);
   });
 
   test('a delivery error is swallowed and retried next cycle', async () => {
     const db = new Database(':memory:');
-    await alertIfRegression(db, input, { enabled: true, deliver: async () => { throw new Error('timeout'); } });
+    await alertIfRegression(db, input, { enabled: true, appIds: [], deliver: async () => { throw new Error('timeout'); } });
     assert.equal(pendingCount(db), 1);
     await retryPendingRegressionAlerts(db, { enabled: true, deliver: d => deliverRegressionAlerts(d, { send: async () => {} }) });
     assert.equal(pendingCount(db), 0);
