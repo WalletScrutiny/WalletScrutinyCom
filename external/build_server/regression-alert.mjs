@@ -78,7 +78,7 @@ export function recordRegression(db, row) {
 
 export function regressionAlertText(rows, mentionName) {
   const lines = [
-    `@${mentionName} ABS: ${rows.length === 1 ? 'an app stopped' : `${rows.length} apps stopped`} reproducing.`,
+    `🚨 @${mentionName} ABS regression alert: ${rows.length === 1 ? 'an app stopped' : `${rows.length} apps stopped`} reproducing.`,
     ''
   ];
   for (const r of rows) {

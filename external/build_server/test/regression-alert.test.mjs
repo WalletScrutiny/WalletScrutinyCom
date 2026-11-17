@@ -76,7 +76,7 @@ describe('deliverRegressionAlerts', () => {
     const sent = [];
     assert.equal(await deliverRegressionAlerts(db, { send: async text => sent.push(text), mentionName: 'Carol' }), 2);
     assert.equal(sent.length, 1);
-    assert.match(sent[0], /^@Carol ABS: 2 apps stopped reproducing\./);
+    assert.match(sent[0], /^🚨 @Carol ABS regression alert: 2 apps stopped reproducing\./);
     assert.match(sent[0], /com\.example 2\.0\.0 \(linux\): ftbfs, last reproducible 1\.0\.0/);
     assert.match(sent[0], /org\.other 3\.1/);
     assert.equal(pendingCount(db), 0);
@@ -157,5 +157,5 @@ describe('postToBuzz', () => {
 });
 
 test('regressionAlertText: singular wording for one app', () => {
-  assert.match(regressionAlertText([row()], 'Carol'), /^@Carol ABS: an app stopped reproducing\./);
+  assert.match(regressionAlertText([row()], 'Carol'), /^🚨 @Carol ABS regression alert: an app stopped reproducing\./);
 });
