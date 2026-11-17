@@ -77,6 +77,24 @@ test('buildApp: an advisory row names its direct users\' versions, from the lock
   assert.equal(byId['GHSA-cccc'].dependantVersions, undefined, 'no direct users, no key');
 });
 
+// Issue 1016: git's fix version on a row, and the advisories left out for a backported fix.
+test('buildApp: a native release exports git\'s fix versions and the backported advisories with commit and tag', () => {
+  const db = seeded();
+  const repo = 'https://github.com/python/cpython';
+  saveDependencies(db, 'app.android', 'v1.2.0', [{ ecosystem: 'native', entries: [entry('python3', '3.11.16', { ecosystem: 'native', lockfile: 'p4a', tier: 'exact' })] }]);
+  saveVulnerabilities(db, 'app.android', 'v1.2.0', {
+    findings: [{ ecosystem: 'native', name: 'python3', version: '3.11.16', id: 'CVE-B', aliases: [], severity: 'high', summary: 'x', fixed: ['3.13.13', '3.11.17'], direct: true, dev: false, listedBy: ['nvd'],
+      fixedFromGit: [{ version: '3.11.17', tag: 'v3.11.17', commit: 'b17', repo }] }],
+    backported: [{ ecosystem: 'native', name: 'python3', version: '3.11.16', id: 'CVE-A', aliases: [], severity: 'moderate', summary: 'y', listedBy: ['nvd'], repo, commit: 'b16', tag: 'v3.11.16' }],
+  });
+  recordAnalysis(db, { appId: 'app.android', kind: 'release', ref: 'v1.2.0', commit: 'c3', status: 'ok', appType: 'p4a', analyser: 't', plugins: ['pinning', 'osv'], lockfiles: ['p4a'], dependencies: 1, osvChecked: 1, osvSkipped: {}, vulnerabilities: 1 });
+  const latest = buildApp(db, 'app.android', [{ appId: 'app.android' }]).releases[0];
+  assert.deepEqual(latest.advisories.map(a => [a.id, a.fixed, a.fixedFromGit]), [['CVE-B', ['3.13.13', '3.11.17'], [{ version: '3.11.17', tag: 'v3.11.17', commit: 'b17', repo }]]]);
+  assert.deepEqual(latest.backported, [{ id: 'CVE-A', severity: 'moderate', aliases: [], summary: 'y', ecosystem: 'native', package: 'python3', version: '3.11.16', listedBy: ['nvd'], repo, commit: 'b16', tag: 'v3.11.16', targets: undefined }]);
+  assert.equal(latest.vulnerabilities.bySeverity.moderate, 0, 'not counted');
+  assert.equal(buildApp(db, 'app.android', [{ appId: 'app.android' }]).releases[1].backported, undefined, 'no key without any');
+});
+
 test('a release stored before the analyses table existed is exported without provenance', () => {
   const db = seeded();
   db.prepare("DELETE FROM analyses WHERE ref = 'v1.0.0'").run();

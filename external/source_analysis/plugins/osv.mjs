@@ -16,9 +16,13 @@
  * Native libraries (OpenSSL, SQLite, Qt) come from no registry. They are
  * looked up by where their source lives (NATIVE_UPSTREAM): OSV.dev by git
  * repository and release tag, or by commit, and NVD by product (CPE), since
- * each lists advisories the other misses (OSV.dev has none for Qt).
+ * each lists advisories the other misses (OSV.dev has none for Qt). Neither
+ * sees a fix backported to an older release line, so each such finding is
+ * checked against the release tags of the upstream repository too
+ * (applyUpstreamFixes, issue 1016).
  */
 import { SHOW_ONLY_FIRST_X_ALERTS } from '../config.mjs';
+import { defaultUpstreamGit, sameRepo } from '../upstreamGit.mjs';
 
 export const OSV_API = 'https://api.osv.dev/v1';
 const BATCH_SIZE = 1000; // querybatch limit
@@ -454,6 +458,10 @@ export function affectedRanges(advisory, q) {
  * databases whose records were folded in: 'osv' for OSV.dev, 'nvd' for the
  * NVD records in `extra`.
  */
+// Every advisory id and alias folded into a finding, so the upstream check
+// finds the fixing commits of a record that lost the fold to a more severe one.
+const foldedNames = new WeakMap(); // finding -> Set of ids
+
 function findingsFor(q, ids, details, extra = []) {
   const advisories = [...ids.map(id => details.get(id)).filter(Boolean), ...extra];
   const nvdRecords = new Set(extra);
@@ -478,6 +486,7 @@ function findingsFor(q, ids, details, extra = []) {
       kept.affected = kept.affected || affected ? [...new Set([...(kept.affected || []), ...(affected || [])])] : null;
       if (!kept.listedBy.includes(listerOf(advisory))) kept.listedBy = ['osv', 'nvd'];
       for (const n of names) byName.set(n, kept);
+      for (const n of names) foldedNames.get(kept).add(n);
       continue;
     }
     const finding = {
@@ -498,6 +507,7 @@ function findingsFor(q, ids, details, extra = []) {
       listedBy: [listerOf(advisory)],
     };
     for (const n of names) byName.set(n, finding);
+    foldedNames.set(finding, new Set(names));
     findings.push(finding);
   }
   return findings;
@@ -505,8 +515,10 @@ function findingsFor(q, ids, details, extra = []) {
 
 /**
  * Look up every checkable dependency of the given pinning analyses.
- * Resolves to { checked, skipped, findings, nvdUnavailable } (findings
- * ordered most severe first), or null when OSV.dev could not be reached: a
+ * Resolves to { checked, skipped, findings, backported, nvdUnavailable }
+ * (findings ordered most severe first; backported the native findings left
+ * out because the shipped tag has the fix, applyUpstreamFixes), or null when
+ * OSV.dev could not be reached: a
  * failed lookup is not a clean result. NVD failing leaves the OSV.dev
  * findings in place and lists the native rows it did not answer for in
  * `nvdUnavailable` (and counts them under skipped['nvd-unavailable']).
@@ -527,22 +539,160 @@ export function scopeOfRows(rows) {
   return null;
 }
 
-export async function checkVulnerabilities(analyses, { fetchImpl = globalThis.fetch, nvdIntervalMs = NVD_INTERVAL_MS } = {}) {
+/* ------------------------------ upstream git ------------------------------ */
+
+// The release line a version is on, which a backport lands on: 3.11 for
+// 3.11.16, 3.0 for 3.0.22, 1.1.1 for OpenSSL's 1.1.1w.
+export function releaseLine(version) {
+  const v = String(version);
+  if (/\d[a-z]{1,2}$/i.test(v)) return v.replace(/[a-z]+$/i, '');
+  const parts = v.split('.');
+  return parts.length > 2 ? parts.slice(0, -1).join('.') : v;
+}
+
+// A release after `version`, not a pre-release (3.11.0rc1).
+export function laterRelease(candidate, version) {
+  return /^\d+(\.\d+)*[a-z]{0,2}$/i.test(candidate) && compareVersions(candidate, version) > 0;
+}
+
+// A later release on the same line as `version`: 3.11.17 for 3.11.16, not
+// 3.11.0rc1, 3.12.0 or 3.110.1.
+export function laterOnLine(candidate, version) {
+  const line = releaseLine(version);
+  return laterRelease(candidate, version) && candidate.startsWith(line) && /^(\.\d+)*[a-z]{0,2}$/i.test(candidate.slice(line.length));
+}
+
+// An advisory record by id or alias, or null when OSV.dev has none or did not
+// answer: a missing record leaves the finding as NVD and OSV.dev gave it.
+function advisoryRecord(id, details, fetchImpl) {
+  if (details.has(id)) return Promise.resolve(details.get(id));
+  if (!detailCache.has(id)) {
+    const pending = request(fetchImpl, `${OSV_API}/vulns/${encodeURIComponent(id)}`);
+    pending.catch(() => detailCache.delete(id));
+    detailCache.set(id, pending);
+  }
+  return detailCache.get(id).catch(() => null);
+}
+
+/** The fixing commits OSV.dev records for an advisory in this repository, sorted. */
+export function fixCommits(records, repo) {
+  const commits = new Set();
+  for (const record of records) {
+    for (const affected of record?.affected || []) {
+      for (const range of affected.ranges || []) {
+        if (range.type !== 'GIT' || !sameRepo(range.repo, repo)) continue;
+        for (const event of range.events || []) if (event.fixed) commits.add(String(event.fixed).toLowerCase());
+      }
+    }
+  }
+  return [...commits].sort();
+}
+
+/**
+ * What the upstream repository says about a native finding: { backported:
+ * { commit, tag } } when a fixing commit is in the shipped release's tag,
+ * { fixedIn: { version, tag, commit } } for the first later release on the
+ * same line that has one (or, with `anyLine`, the first later release at
+ * all when the line has none), {} when neither, or null when it is not known
+ * (no clone): the finding then stays as it is.
+ */
+export async function upstreamVerdict(commits, { repo, tag, version, tagOf }, git, { anyLine = false } = {}) {
+  const prefix = tagOf('');
+  const containing = [];
+  for (const commit of commits) {
+    const tags = await git.tagsContaining(repo, commit);
+    if (!tags) return null;
+    containing.push({ commit, tags });
+  }
+  // Of the commits in a tag, the fix rather than the release commit the tag
+  // points at: OSV.dev lists both, and only the fix says what changed.
+  const pick = async (inTag) => {
+    const found = containing.filter(c => c.tags.has(inTag)).map(c => c.commit);
+    for (const commit of found) if (!(await git.tagsPointingAt?.(repo, commit))?.has(inTag)) return commit;
+    return found[0];
+  };
+  if (containing.some(c => c.tags.has(tag))) return { backported: { commit: await pick(tag), tag } };
+  let onLine = null;
+  let later = null;
+  const earlier = (v, than) => !than || compareVersions(v, than.version) < 0;
+  for (const t of new Set(containing.flatMap(c => [...c.tags]))) {
+    if (!t.startsWith(prefix)) continue;
+    const v = t.slice(prefix.length);
+    if (laterOnLine(v, version) && earlier(v, onLine)) onLine = { version: v, tag: t };
+    if (laterRelease(v, version) && earlier(v, later)) later = { version: v, tag: t };
+  }
+  const first = onLine || (anyLine ? later : null);
+  return first ? { fixedIn: { ...first, commit: await pick(first.tag) } } : {};
+}
+
+/**
+ * Checks each finding of a native release against its upstream repository
+ * (upstreamGit.mjs). A finding whose fix is already in the shipped tag is
+ * taken out of `perQuery` and returned in the list of backported ones, with
+ * the commit and tag that show it; NVD's "< 3.13.13" ranges say nothing about
+ * a 3.11 backport (issue 1016). Otherwise the first release on the shipped
+ * line that has the fix is added to `fixed` and named in `fixedFromGit`; for
+ * a finding with no fix version at all (SQLite's OSV.dev-only records), the
+ * first later release that has it. Git only adds a version: NVD's stay, since
+ * a release line may get a fix without a public tag (OpenSSL 3.0.23). Without
+ * an answer from git a finding stays as NVD and OSV.dev gave it.
+ */
+export async function applyUpstreamFixes(queries, perQuery, details, { fetchImpl, git }) {
+  const backported = [];
+  if (!git) return backported;
+  for (const [i, q] of queries.entries()) {
+    if (!q.native?.tag) continue;
+    const upstream = NATIVE_UPSTREAM[String(q.name).toLowerCase()];
+    const kept = [];
+    for (const f of perQuery[i]) {
+      let verdict = null;
+      try {
+        const names = [...(foldedNames.get(f) || [f.id, ...f.aliases])];
+        const records = await Promise.all(names.map(id => advisoryRecord(id, details, fetchImpl)));
+        verdict = await upstreamVerdict(fixCommits(records, upstream.repo),
+          { repo: upstream.repo, tag: q.native.tag, version: q.native.version, tagOf: upstream.tag }, git, { anyLine: !f.fixed.length });
+      } catch (error) {
+        console.log(`Upstream git check of ${f.id} for ${q.name} ${q.version} failed: ${error.message}`);
+      }
+      if (verdict?.backported) {
+        backported.push({
+          ecosystem: f.ecosystem, name: f.name, version: f.version, id: f.id, aliases: f.aliases,
+          severity: f.severity, summary: f.summary, listedBy: f.listedBy,
+          repo: upstream.repo, commit: verdict.backported.commit, tag: verdict.backported.tag,
+        });
+        continue;
+      }
+      if (verdict?.fixedIn) {
+        const { version, tag, commit } = verdict.fixedIn;
+        if (!f.fixed.includes(version)) f.fixed = [...f.fixed, version];
+        f.fixedFromGit = [{ version, tag, commit, repo: upstream.repo }];
+      }
+      kept.push(f);
+    }
+    perQuery[i] = kept;
+  }
+  return backported;
+}
+
+export async function checkVulnerabilities(analyses, { fetchImpl = globalThis.fetch, nvdIntervalMs = NVD_INTERVAL_MS, git = defaultUpstreamGit() } = {}) {
   console.log('\n--- Test 10: Known vulnerabilities (OSV.dev, from the resolved dependencies) ---');
   const { queries, skipped } = buildQueries(analyses);
   const skippedTotal = Object.values(skipped).reduce((a, b) => a + b, 0);
   if (!queries.length) {
     console.log(`No dependency with an exact registry version to look up${skippedTotal ? ` (${describeSkipped(skipped)})` : ''}.`);
-    return { checked: 0, skipped, findings: [] };
+    return { checked: 0, skipped, findings: [], backported: [] };
   }
 
   let findings;
+  let backported = [];
   let nvdUnavailable = [];
   try {
     const ids = await queryIds(queries, fetchImpl);
     const details = await fetchDetails(ids.flat(), fetchImpl);
     const nvd = await nvdAdvisories(queries, fetchImpl, nvdIntervalMs);
-    findings = queries.flatMap((q, i) => findingsFor(q, ids[i], details, nvd.records[i]));
+    const perQuery = queries.map((q, i) => findingsFor(q, ids[i], details, nvd.records[i]));
+    backported = await applyUpstreamFixes(queries, perQuery, details, { fetchImpl, git });
+    findings = perQuery.flat();
     nvdUnavailable = nvd.failed.map(i => queries[i]);
   } catch (error) {
     console.log(`Vulnerability lookup failed: ${error.message}. No vulnerability result for this run.`);
@@ -555,9 +705,9 @@ export async function checkVulnerabilities(analyses, { fetchImpl = globalThis.fe
   // found for them stays. saveVulnerabilities keeps their stored rows.
   const unavailable = nvdUnavailable.reduce((n, q) => n + q.rows.length, 0);
   if (unavailable) skipped['nvd-unavailable'] = (skipped['nvd-unavailable'] || 0) + unavailable;
-  report(queries, skipped, findings);
+  report(queries, skipped, findings, backported);
   return {
-    checked: queries.length, skipped, findings,
+    checked: queries.length, skipped, findings, backported,
     nvdUnavailable: nvdUnavailable.map(q => ({ ecosystem: q.ecosystem, name: q.name, version: q.version })),
   };
 }
@@ -566,12 +716,15 @@ function describeSkipped(skipped) {
   return Object.entries(skipped).map(([reason, n]) => `${n} ${reason}`).join(', ');
 }
 
-function report(queries, skipped, findings) {
+function report(queries, skipped, findings, backported = []) {
   const perEcosystem = {};
   for (const q of queries) perEcosystem[q.ecosystem] = (perEcosystem[q.ecosystem] || 0) + 1;
   console.log(`Looked up ${queries.length} package versions (${Object.entries(perEcosystem).map(([e, n]) => `${e} ${n}`).join(', ')})`);
   if (Object.keys(skipped).length) {
     console.log(`Not (fully) checked: ${describeSkipped(skipped)}`);
+  }
+  for (const b of backported) {
+    console.log(`  Left out ${b.name}@${b.version} ${b.id}: fix ${b.commit.slice(0, 10)} is in ${b.tag} (${b.repo})`);
   }
   if (!findings.length) {
     console.log('No known vulnerabilities');

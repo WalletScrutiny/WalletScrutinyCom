@@ -883,6 +883,32 @@ details.dp-decision__others {
   overflow-wrap: anywhere;
 }
 
+// "Fixed in 3.11.17", "git a1b2c3d4e5" under the version (issue 1016)
+.dp-git-fix {
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+  margin-top: 2px;
+}
+
+.dp-commit {
+  font-family: monospace;
+}
+
+// The advisories left out for a backported fix, under the table
+.dp-backported {
+  font-size: $font-xs;
+  margin-top: 8px;
+
+  ul {
+    margin: 4px 0 0;
+    padding-left: 1.2em;
+  }
+
+  li {
+    overflow-wrap: anywhere;
+  }
+}
+
 // "Listed by NVD only" under the advisory id
 .dp-listed-by {
   font-family: system-ui, sans-serif;

@@ -67,6 +67,16 @@ test('recheckStoredReleases: an NVD outage keeps the stored NVD advisories and t
   db.close();
 });
 
+test('recheckStoredReleases: an advisory moving to the backported list changes the app', async () => {
+  const db = seeded();
+  saveVulnerabilities(db, 'old.wallet', 'v1.0', { findings: [finding('b', '2.0.0', 'CVE-A')] });
+  const left = { ecosystem: 'npm', name: 'b', version: '2.0.0', id: 'CVE-A', aliases: [], severity: 'high', summary: '', repo: 'https://github.com/o/b', commit: 'c1', tag: 'v2.0.0' };
+  const check = async () => ({ checked: 2, skipped: {}, findings: [], backported: [left] });
+  assert.deepEqual((await recheckStoredReleases(db, ['old.wallet'], { check, deliver: async () => {} })).changed, ['old.wallet']);
+  assert.deepEqual((await recheckStoredReleases(db, ['old.wallet'], { check, deliver: async () => {} })).changed, [], 'the same list again is no change');
+  db.close();
+});
+
 test('recheckStoredReleases: a release analysed this pass is not looked up twice', async () => {
   const db = seeded();
   const since = db.prepare("SELECT datetime(CURRENT_TIMESTAMP, '-1 minute') AS t").get().t;

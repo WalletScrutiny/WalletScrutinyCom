@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import { loadApp, renderDependenciesPanel, liveTriageEvents, triageAuthors, panelElement, usedBy, severityTally, coverageTipLines, historyScale } from '../../src/dependencies-panel.mjs';
 import { panelModel, releaseForVersion, appForListing } from '../../src/dependencies-panel-model.mjs';
 import { nip19 } from 'nostr-tools';
-import { viaLine, listedByLine } from '../../src/dependencies-panel.mjs';
+import { viaLine, listedByLine, gitFixLine, upstreamUrl } from '../../src/dependencies-panel.mjs';
 
 const shortNpub = (pk) => { const n = nip19.npubEncode(pk); return `${n.slice(0, 10)}…${n.slice(-4)}`; };
 
@@ -860,5 +860,63 @@ describe('listedByLine', () => {
     await renderDependenciesPanel({ host, appId: 'app.android', selectedVersion: null, base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl });
     const cells = [...host.querySelectorAll('.dp-td-advisory')].map(td => td.textContent);
     assert.deepEqual(cells, ['CVE-2026-1Listed by NVD only', 'CVE-2026-2Listed by OSV.dev · NVD']);
+  });
+});
+
+// Issue 1016: a fix version read from git, and the advisories left out for a backported fix.
+describe('upstream git fixes', () => {
+  const CPYTHON = 'https://github.com/python/cpython';
+
+  test('upstreamUrl: commit and tag pages on GitHub and savannah, nothing for an unknown host', () => {
+    assert.equal(upstreamUrl(`${CPYTHON}.git`, { commit: 'abc' }), `${CPYTHON}/commit/abc`);
+    assert.equal(upstreamUrl(CPYTHON, { tag: 'v3.11.16' }), `${CPYTHON}/releases/tag/v3.11.16`);
+    assert.equal(upstreamUrl('https://git.savannah.gnu.org/git/libiconv.git', { commit: 'abc' }), 'https://git.savannah.gnu.org/cgit/libiconv.git/commit/?id=abc');
+    assert.equal(upstreamUrl('https://example.org/x.git', { tag: 'v1' }), null);
+  });
+
+  test('gitFixLine: the version, linked to its tag, and the commit; nothing without a git version', () => {
+    const line = gitFixLine(advisory('CVE-1', 'high', { ecosystem: 'native', fixed: ['3.13.13', '3.11.17'], fixedFromGit: [{ version: '3.11.17', tag: 'v3.11.17', commit: '0123456789abcdef', repo: CPYTHON }] }));
+    assert.deepEqual([...line.children].map(d => d.textContent), ['Fixed in 3.11.17', 'git 0123456789']);
+    assert.deepEqual([...line.querySelectorAll('a')].map(a => a.href), [`${CPYTHON}/releases/tag/v3.11.17`, `${CPYTHON}/commit/0123456789abcdef`]);
+    assert.match(line.title, /upstream git repository.*The databases name 3\.13\.13\./);
+    assert.equal(gitFixLine(advisory('CVE-1', 'high', { fixed: ['3.13.13'] })), null);
+  });
+
+  test('the page lists each left-out advisory with its databases, commit and tag, and does not count it', async () => {
+    const app = structuredClone(APP);
+    app.releases[0].advisories = [advisory('CVE-2026-3', 'high', { ecosystem: 'native', package: 'python3', version: '3.11.16', listedBy: ['osv', 'nvd'],
+      fixed: ['3.13.13', '3.11.17'], fixedFromGit: [{ version: '3.11.17', tag: 'v3.11.17', commit: 'bbbbbbbbbbbb', repo: CPYTHON }] })];
+    app.releases[0].backported = [
+      { id: 'CVE-2026-1', aliases: [], severity: 'high', ecosystem: 'native', package: 'python3', version: '3.11.16', listedBy: ['nvd'], repo: CPYTHON, commit: 'aaaaaaaaaaaa', tag: 'v3.11.16' },
+      { id: 'PSF-2026-2', aliases: ['CVE-2026-2'], severity: 'low', ecosystem: 'native', package: 'hostpython3', version: '3.11.16', repo: CPYTHON, commit: 'cccccccccccc', tag: 'v3.11.16' },
+    ];
+    const { fetchImpl } = fakeFetch({ '/x/apps/app.android.json': app, '/xt/statements.json': { schema: 1, trusted: [], maintainers: {}, statements: [] } });
+    const host = document.createElement('div');
+    await renderDependenciesPanel({ host, appId: 'app.android', selectedVersion: null, base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl });
+    assert.equal(host.querySelectorAll('.dp-adv-table tbody tr').length, 1);
+    assert.equal(host.querySelector('.dp-td-version').textContent, '3.11.16Fixed in 3.11.17git bbbbbbbbbb');
+    const note = host.querySelector('.dp-backported');
+    assert.match(note.querySelector('p').textContent, /^2 advisories left out: the fix is already in this release\./);
+    const items = [...note.querySelectorAll('li')];
+    assert.deepEqual(items.map(li => li.textContent), [
+      'python3 3.11.16: CVE-2026-1, listed by NVD; fix aaaaaaaaaa is in v3.11.16',
+      'hostpython3 3.11.16: PSF-2026-2 (CVE-2026-2); fix cccccccccc is in v3.11.16',
+    ]);
+    assert.deepEqual([...items[1].querySelectorAll('a')].map(a => a.href), [
+      'https://osv.dev/vulnerability/PSF-2026-2', 'https://nvd.nist.gov/vuln/detail/CVE-2026-2', `${CPYTHON}/commit/cccccccccccc`, `${CPYTHON}/releases/tag/v3.11.16`,
+    ]);
+    assert.deepEqual([...items[0].querySelectorAll('a')].map(a => a.href).slice(0, 2), ['https://osv.dev/vulnerability/CVE-2026-1', 'https://nvd.nist.gov/vuln/detail/CVE-2026-1']);
+  });
+
+  test('panelModel keeps only this app\'s left-out advisories', () => {
+    const app = structuredClone(APP);
+    app.releases[0].dependencies.byTarget = { android: { total: 1 }, desktop: { total: 1 } };
+    app.releases[0].backported = [
+      { id: 'A', package: 'python3', version: '1', repo: CPYTHON, commit: 'a', tag: 'v1', targets: ['android'] },
+      { id: 'B', package: 'python3', version: '1', repo: CPYTHON, commit: 'b', tag: 'v1', targets: ['desktop'] },
+      { id: 'C', package: 'python3', version: '1', repo: CPYTHON, commit: 'c', tag: 'v1' },
+    ];
+    assert.deepEqual(panelModel(app, { platform: 'android' }).backported.map(b => b.id), ['A', 'C']);
+    assert.deepEqual(panelModel(app).backported.map(b => b.id), ['A', 'B', 'C']);
   });
 });

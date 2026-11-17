@@ -5,10 +5,10 @@ import assert from 'node:assert/strict';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import { affectedRanges, compareVersions, nvdMatch, nativeSource,
+import { affectedRanges, compareVersions, nvdMatch, nativeSource, releaseLine, laterOnLine, laterRelease, fixCommits, upstreamVerdict,
   buildQueries, queryName, berryResolution, checkVulnerabilities, clearAdvisoryCache, cvss3BaseScore, severityOf, uncheckableReason, scopeOfRows,
 } from '../plugins/osv.mjs';
-import { initDatabase, saveVulnerabilities, getVulnerabilities } from '../ddbbUtils.mjs';
+import { initDatabase, saveVulnerabilities, getVulnerabilities, getBackportedAdvisories } from '../ddbbUtils.mjs';
 
 const quiet = async (fn) => {
   const log = console.log;
@@ -183,7 +183,7 @@ test('an unreachable OSV is no result, not a clean one', async () => {
 test('nothing checkable needs no request', async () => {
   const { fetchImpl, calls } = stubFetch();
   const result = await quiet(() => checkVulnerabilities([{ entries: [entry('npm', 'a', '^1', { tier: 'floating' })] }], { fetchImpl }));
-  assert.deepEqual(result, { checked: 0, skipped: { floating: 1 }, findings: [] });
+  assert.deepEqual(result, { checked: 0, skipped: { floating: 1 }, findings: [], backported: [] });
   assert.equal(calls.length, 0);
 });
 
@@ -295,7 +295,7 @@ test('native libraries: OSV.dev by repository and tag or commit, NVD by product,
     entry('native', 'qt6', '6.4.0'),
     entry('native', 'libzbar', 'bb05ec54eec57f8397cb13fb9161372a281a1219'),
     entry('native', 'android', '1.0'),
-  ] }], { fetchImpl, nvdIntervalMs: 0 }));
+  ] }], { fetchImpl, nvdIntervalMs: 0, git: null }));
 
   assert.deepEqual(result.skipped, { 'no-upstream': 1 });
   assert.equal(result.checked, 3);
@@ -334,7 +334,7 @@ test('an unreachable NVD keeps the OSV.dev findings and marks the native rows', 
   const fetchImpl = async (url, options) => (url.includes('nvd.nist.gov') ? { ok: false, status: 503, json: async () => ({}) } : stub.fetchImpl(url, options));
   const result = await quiet(() => checkVulnerabilities([{ entries: [
     entry('npm', 'lodash', '4.17.15'), entry('native', 'openssl', '3.0.7'), entry('native', 'hostpython3', '3.11.5'),
-  ] }], { fetchImpl, nvdIntervalMs: 0 }));
+  ] }], { fetchImpl, nvdIntervalMs: 0, git: null }));
   assert.deepEqual(result.findings.map(f => f.id).sort(), ['CVE-2023-0286', 'GHSA-lodash'], 'what OSV.dev found stays');
   assert.deepEqual(result.findings.map(f => f.listedBy), [['osv'], ['osv']]);
   assert.deepEqual(result.skipped, { 'nvd-unavailable': 2 });
@@ -352,7 +352,7 @@ test('a CVE both sources list shows the fix and the range from whichever record 
     nvd: { 'cpe:2.3:a:python:python:3.11.5': [nvdCve('CVE-2025-4517',
       [{ criteria: 'cpe:2.3:a:python:python:*:*:*:*:*:*:*:*', vulnerable: true, versionStartIncluding: '3.11.0', versionEndExcluding: '3.11.13' }])] },
   });
-  const { findings } = await quiet(() => checkVulnerabilities([{ entries: [entry('native', 'python3', '3.11.5')] }], { fetchImpl, nvdIntervalMs: 0 }));
+  const { findings } = await quiet(() => checkVulnerabilities([{ entries: [entry('native', 'python3', '3.11.5')] }], { fetchImpl, nvdIntervalMs: 0, git: null }));
   assert.equal(findings.length, 1);
   assert.deepEqual(findings[0].fixed, ['3.11.13']);
   assert.deepEqual(findings[0].affected, ['>= 3.11.0, < 3.11.13']);
@@ -385,4 +385,101 @@ test('saveVulnerabilities stores who listed a finding; an NVD outage keeps the s
   assert.deepEqual(listed(), { 'CVE-A': 'osv nvd', 'CVE-B': 'nvd', 'CVE-OLD': null, 'CVE-NEW': null }, 'stored values stay while NVD is down; a new finding gets no line');
   saveVulnerabilities(db, 'app', '1.0', { findings: [finding('CVE-A', ['osv']), finding('CVE-OLD', ['osv', 'nvd'])] });
   assert.deepEqual(listed(), { 'CVE-A': 'osv', 'CVE-OLD': 'osv nvd' }, 'an answered lookup replaces them');
+});
+
+/* ---------------------------- upstream git (1016) --------------------------- */
+
+const CPYTHON = 'https://github.com/python/cpython';
+// a fake upstreamGit: commit -> tags that contain it
+const fakeGit = (tagsOf) => ({ tagsContaining: async (repo, commit) => (repo === CPYTHON ? new Set(tagsOf[commit] || []) : null) });
+const gitRange = (repo, ...fixed) => ({ type: 'GIT', repo, events: [{ introduced: '0' }, ...fixed.map(c => ({ fixed: c }))] });
+
+test('releaseLine and laterOnLine: a backport lands on the shipped release line', () => {
+  assert.deepEqual(['3.11.16', '3.0.22', '3.50.0', '1.1.1w', '1.18'].map(releaseLine), ['3.11', '3.0', '3.50', '1.1.1', '1.18']);
+  assert.ok(laterOnLine('3.11.17', '3.11.16'));
+  assert.ok(laterOnLine('1.1.1x', '1.1.1w'));
+  assert.ok(!laterOnLine('3.11.16', '3.11.16'), 'the shipped version is not later');
+  assert.ok(!laterOnLine('3.11.15', '3.11.16'));
+  assert.ok(!laterOnLine('3.12.0', '3.11.16'), 'another line');
+  assert.ok(!laterOnLine('3.110.1', '3.11.16'));
+  assert.ok(!laterOnLine('3.11.17rc1', '3.11.16'), 'no pre-release');
+  assert.ok(laterRelease('3.12.0', '3.11.16') && !laterRelease('3.12.0b1', '3.11.16') && !laterRelease('3.11.15', '3.11.16'));
+});
+
+test('fixCommits: only the fixing commits of the upstream repository, not of a fork', () => {
+  const records = [
+    { affected: [{ ranges: [gitRange(`${CPYTHON}.git`, 'BBB'), gitRange('https://github.com/fork/cpython', 'ccc'), { type: 'ECOSYSTEM', events: [{ fixed: '3.13.13' }] }] }] },
+    { affected: [{ ranges: [gitRange(CPYTHON, 'aaa', 'bbb')] }] },
+    null,
+  ];
+  assert.deepEqual(fixCommits(records, CPYTHON), ['aaa', 'bbb']);
+});
+
+test('upstreamVerdict: fix in the shipped tag, the first later release on the line, nothing, or not known', async () => {
+  const target = { repo: CPYTHON, tag: 'v3.11.16', version: '3.11.16', tagOf: v => `v${v}` };
+  const git = fakeGit({ main: ['v3.13.13', 'v3.14.0'], b16: ['v3.11.16', 'v3.11.17'], b18: ['v3.11.18'], b17: ['v3.11.17', 'v3.11.18', 'v3.11.17rc1'] });
+  assert.deepEqual(await upstreamVerdict(['main', 'b16'], target, git), { backported: { commit: 'b16', tag: 'v3.11.16' } });
+  assert.deepEqual(await upstreamVerdict(['b18', 'b17', 'main'], target, git), { fixedIn: { version: '3.11.17', tag: 'v3.11.17', commit: 'b17' } });
+  assert.deepEqual(await upstreamVerdict(['main'], target, git), {}, 'fixed on newer lines only');
+  assert.deepEqual(await upstreamVerdict(['main'], target, git, { anyLine: true }), { fixedIn: { version: '3.13.13', tag: 'v3.13.13', commit: 'main' } }, 'no fix version known: the first later release');
+  assert.deepEqual(await upstreamVerdict(['main', 'b17'], target, git, { anyLine: true }), { fixedIn: { version: '3.11.17', tag: 'v3.11.17', commit: 'b17' } }, 'the line still comes first');
+  assert.deepEqual(await upstreamVerdict(['main'], { ...target, repo: 'https://example.org/other' }, git), null);
+  // OSV.dev lists the release commit "Python 3.11.17" next to the backport: the backport is named
+  const withRelease = { ...fakeGit({ a17: ['v3.11.17'], b17: ['v3.11.17'] }), tagsPointingAt: async (repo, commit) => new Set(commit === 'a17' ? ['v3.11.17'] : []) };
+  assert.deepEqual(await upstreamVerdict(['a17', 'b17'], target, withRelease), { fixedIn: { version: '3.11.17', tag: 'v3.11.17', commit: 'b17' } });
+  assert.deepEqual(await upstreamVerdict(['a17'], target, withRelease), { fixedIn: { version: '3.11.17', tag: 'v3.11.17', commit: 'a17' } }, 'only the release commit: that one');
+});
+
+test('native findings: a fix already in the shipped tag leaves the finding out with its commit and tag; git adds a fix version, never removes one', async () => {
+  const pythonRange = { criteria: 'cpe:2.3:a:python:python:*:*:*:*:*:*:*:*', vulnerable: true, versionEndExcluding: '3.13.13' };
+  const { fetchImpl } = stubFetch({
+    vulnsByQuery: { [`GIT/${CPYTHON}@v3.11.16`]: ['PSF-2026-1', 'CVE-2026-4'] },
+    advisories: {
+      'PSF-2026-1': { id: 'PSF-2026-1', aliases: ['CVE-2026-2'], database_specific: { severity: 'HIGH' }, affected: [{ ranges: [gitRange(CPYTHON, 'main2', 'b17')] }] },
+      // NVD-only: OSV.dev has the CVE record with its commits, but did not list it for the tag
+      'CVE-2026-1': { id: 'CVE-2026-1', affected: [{ ranges: [gitRange(CPYTHON, 'main1', 'b16')] }] },
+      'CVE-2026-4': { id: 'CVE-2026-4', database_specific: { severity: 'LOW' }, affected: [{ ranges: [gitRange(CPYTHON, 'main4')] }] },
+      'CVE-2026-5': { id: 'CVE-2026-5', affected: [{ ranges: [gitRange(CPYTHON, 'main4')] }] },
+    },
+    nvd: { 'cpe:2.3:a:python:python:3.11.16': [nvdCve('CVE-2026-1', [pythonRange]), nvdCve('CVE-2026-2', [pythonRange]), nvdCve('CVE-2026-3', [pythonRange]), nvdCve('CVE-2026-5', [pythonRange])] },
+  });
+  const git = fakeGit({ b16: ['v3.11.16', 'v3.11.17'], b17: ['v3.11.17'], main1: ['v3.13.13'], main2: ['v3.13.13'], main4: ['v3.14.1', 'v3.15.0', 'v3.14.0rc1'] });
+  const result = await quiet(() => checkVulnerabilities([{ entries: [entry('native', 'python3', '3.11.16')] }], { fetchImpl, nvdIntervalMs: 0, git }));
+  assert.deepEqual(result.backported, [{
+    ecosystem: 'native', name: 'python3', version: '3.11.16', id: 'CVE-2026-1', aliases: [], severity: 'critical', summary: 'CVE-2026-1 description', listedBy: ['nvd'],
+    repo: CPYTHON, commit: 'b16', tag: 'v3.11.16',
+  }]);
+  const byId = Object.fromEntries(result.findings.map(f => [f.id, f]));
+  // NVD's CVE-2026-2 is more severe than OSV.dev's PSF-2026-1 and is kept, the PSF record's commits still count
+  assert.deepEqual(Object.keys(byId).sort(), ['CVE-2026-2', 'CVE-2026-3', 'CVE-2026-4', 'CVE-2026-5']);
+  assert.deepEqual(byId['CVE-2026-2'].listedBy, ['osv', 'nvd']);
+  assert.deepEqual(byId['CVE-2026-2'].fixed, ['3.13.13', '3.11.17'], 'NVD\'s version stays, git\'s is added');
+  assert.deepEqual(byId['CVE-2026-2'].fixedFromGit, [{ version: '3.11.17', tag: 'v3.11.17', commit: 'b17', repo: CPYTHON }]);
+  assert.deepEqual(byId['CVE-2026-3'].fixed, ['3.13.13'], 'no record with commits: as NVD gave it');
+  assert.deepEqual(byId['CVE-2026-4'].fixed, ['3.14.1'], 'no fix version from the databases, none on the line: the first later release');
+  assert.equal(byId['CVE-2026-5'].fixedFromGit, undefined, 'NVD names a fix on another line: git adds none there');
+  assert.equal(byId['CVE-2026-3'].fixedFromGit, undefined);
+
+  // without a clone (git answers null) every finding stays as NVD and OSV.dev gave it
+  clearAdvisoryCache();
+  const offline = await quiet(() => checkVulnerabilities([{ entries: [entry('native', 'python3', '3.11.16')] }], { fetchImpl, nvdIntervalMs: 0, git: { tagsContaining: async () => null } }));
+  assert.deepEqual(offline.backported, []);
+  assert.deepEqual(offline.findings.map(f => f.id).sort(), ['CVE-2026-1', 'CVE-2026-2', 'CVE-2026-3', 'CVE-2026-4', 'CVE-2026-5']);
+  assert.ok(offline.findings.every(f => !f.fixedFromGit));
+});
+
+test('saveVulnerabilities stores the backported advisories and git\'s fix versions; an NVD outage keeps the stored backported ones', () => {
+  const db = initDatabase(':memory:');
+  const finding = { ecosystem: 'native', name: 'python3', version: '3.11.16', id: 'CVE-B', aliases: [], severity: 'high', summary: '', fixed: ['3.13.13', '3.11.17'],
+    fixedFromGit: [{ version: '3.11.17', tag: 'v3.11.17', commit: 'b17', repo: CPYTHON }], listedBy: ['nvd'] };
+  const backported = { ecosystem: 'native', name: 'python3', version: '3.11.16', id: 'CVE-A', aliases: ['PSF-1'], severity: 'moderate', summary: 's', listedBy: ['nvd'], repo: CPYTHON, commit: 'b16', tag: 'v3.11.16' };
+  saveVulnerabilities(db, 'app', '1.0', { findings: [finding], backported: [backported] });
+  assert.deepEqual(JSON.parse(getVulnerabilities(db, 'app', '1.0')[0].fixed_git), finding.fixedFromGit);
+  assert.deepEqual(getBackportedAdvisories(db, 'app', '1.0'), [{
+    ecosystem: 'native', name: 'python3', dep_version: '3.11.16', vuln_id: 'CVE-A', aliases: 'PSF-1', severity: 'moderate', summary: 's', listed_by: 'nvd', repo: CPYTHON, commit_sha: 'b16', tag: 'v3.11.16',
+  }]);
+  saveVulnerabilities(db, 'app', '1.0', { findings: [], nvdUnavailable: [{ ecosystem: 'native', name: 'python3', version: '3.11.16' }] });
+  assert.deepEqual(getBackportedAdvisories(db, 'app', '1.0').map(r => r.vuln_id), ['CVE-A'], 'NVD down: kept');
+  saveVulnerabilities(db, 'app', '1.0', { findings: [] });
+  assert.deepEqual(getBackportedAdvisories(db, 'app', '1.0'), [], 'an answered lookup replaces them');
 });

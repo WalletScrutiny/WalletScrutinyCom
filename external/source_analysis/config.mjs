@@ -64,6 +64,10 @@ export const BACKUP_DIR = join(dirname(DB_PATH), 'backup');
 // (rebuildClaims.mjs, about 170 MB) next to the database.
 export const IDENTITY_PER_PASS = Math.max(0, Math.floor(Number(process.env.SOURCE_ANALYSIS_IDENTITY_PER_PASS ?? 3000)) || 0);
 export const RC_DIR = process.env.SOURCE_ANALYSIS_RC_DIR || join(dirname(DB_PATH), 'reproducible-central');
+// Treeless clones of the native libraries' upstream repositories
+// (upstreamGit.mjs), next to the database: the hourly refresh, which has no
+// cache directory, asks them too.
+export const UPSTREAM_GIT_DIR = process.env.SOURCE_ANALYSIS_UPSTREAM_GIT_DIR || join(dirname(DB_PATH), 'upstream-git');
 export const BACKUPS_TO_KEEP = 14; // one copy per run, older ones are deleted
 // Static JSON export written at the end of each pass (export.mjs); unset = no export
 export const EXPORT_DIR = process.env.SOURCE_ANALYSIS_EXPORT_DIR || null;
