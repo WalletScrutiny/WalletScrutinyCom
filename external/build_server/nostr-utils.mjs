@@ -17,7 +17,7 @@ import {
   nip89ClientTagD,
   mainRelayUrl
 } from './nostr-constants.mjs';
-import { BLOSSOM_SERVER_URL, WS_BOT_NOSTR_PUBKEY_HEX } from './config/config.mjs';
+import { BLOSSOM_SERVER_URL, WS_BOT_NOSTR_PUBKEY_HEX, isTrustedVerifierEvent } from './config/config.mjs';
 import { appLog } from './logger.mjs';
 import { calculateFileHash, getFirstTagValue } from './utils.mjs';
 import { getVerificationReplaceableKey } from '../../src/verifications_common.mjs';
@@ -194,7 +194,8 @@ export async function getAllVerifications(authorPubkeys = []) {
   });
 
   const verifications = Array.from(events).filter(event =>
-    getFirstTagValue(event, 'client') === 'WalletScrutiny.com'
+    getFirstTagValue(event, 'client') === 'WalletScrutiny.com' &&
+    isTrustedVerifierEvent(event)
   );
 
   verifications.forEach(verification => sanitizeNostrEvent(verification));
