@@ -314,6 +314,13 @@ test('native libraries: OSV.dev by repository and tag or commit, NVD by product,
   assert.deepEqual(qt.fixed, ['6.4.3']);
   assert.deepEqual(qt.affected, ['>= 6.0.0, < 6.4.3']);
   assert.equal(qt.summary, 'CVE-2023-24607 description');
+  const listedBy = Object.fromEntries(result.findings.map(f => [`${f.name} ${f.id}`, f.listedBy]));
+  assert.deepEqual(listedBy, {
+    'openssl CVE-2023-0286': ['osv', 'nvd'], // folded: the union of both
+    'openssl CVE-2023-0464': ['nvd'],
+    'qt6 CVE-2023-24607': ['nvd'],
+    'libzbar CVE-2026-121942': ['osv'],
+  });
 });
 
 test('an unreachable NVD keeps the OSV.dev findings and marks the native rows', async () => {
@@ -329,6 +336,7 @@ test('an unreachable NVD keeps the OSV.dev findings and marks the native rows', 
     entry('npm', 'lodash', '4.17.15'), entry('native', 'openssl', '3.0.7'), entry('native', 'hostpython3', '3.11.5'),
   ] }], { fetchImpl, nvdIntervalMs: 0 }));
   assert.deepEqual(result.findings.map(f => f.id).sort(), ['CVE-2023-0286', 'GHSA-lodash'], 'what OSV.dev found stays');
+  assert.deepEqual(result.findings.map(f => f.listedBy), [['osv'], ['osv']]);
   assert.deepEqual(result.skipped, { 'nvd-unavailable': 2 });
   assert.deepEqual(result.nvdUnavailable.map(p => p.name), ['openssl', 'hostpython3']);
   assert.equal(result.checked, 3);
@@ -362,4 +370,19 @@ test('saveVulnerabilities keeps the stored rows of a package NVD did not answer 
   assert.deepEqual(rows.map(r => `${r.vuln_id} ${r.severity}`).sort(), ['CVE-A critical', 'CVE-B high'], 'CVE-B kept, CVE-A refreshed, the npm row follows the lookup');
   saveVulnerabilities(db, 'app', '1.0', { findings: [finding('CVE-A')] });
   assert.deepEqual(getVulnerabilities(db, 'app', '1.0').map(r => r.vuln_id), ['CVE-A'], 'an answered lookup drops what is gone');
+});
+
+test('saveVulnerabilities stores who listed a finding; an NVD outage keeps the stored value', () => {
+  const db = initDatabase(':memory:');
+  const finding = (id, listedBy) => ({ ecosystem: 'native', name: 'python3', version: '3.11.5', id, aliases: [], severity: 'high', summary: '', fixed: [], listedBy });
+  const listed = () => Object.fromEntries(getVulnerabilities(db, 'app', '1.0').map(r => [r.vuln_id, r.listed_by]));
+  saveVulnerabilities(db, 'app', '1.0', { findings: [finding('CVE-A', ['osv', 'nvd']), finding('CVE-B', ['nvd']), finding('CVE-OLD')] });
+  assert.deepEqual(listed(), { 'CVE-A': 'osv nvd', 'CVE-B': 'nvd', 'CVE-OLD': null }, 'a finding without the field stores NULL');
+  saveVulnerabilities(db, 'app', '1.0', {
+    findings: [finding('CVE-A', ['osv']), finding('CVE-OLD', ['osv']), finding('CVE-NEW', ['osv'])],
+    nvdUnavailable: [{ ecosystem: 'native', name: 'python3', version: '3.11.5' }],
+  });
+  assert.deepEqual(listed(), { 'CVE-A': 'osv nvd', 'CVE-B': 'nvd', 'CVE-OLD': null, 'CVE-NEW': null }, 'stored values stay while NVD is down; a new finding gets no line');
+  saveVulnerabilities(db, 'app', '1.0', { findings: [finding('CVE-A', ['osv']), finding('CVE-OLD', ['osv', 'nvd'])] });
+  assert.deepEqual(listed(), { 'CVE-A': 'osv', 'CVE-OLD': 'osv nvd' }, 'an answered lookup replaces them');
 });

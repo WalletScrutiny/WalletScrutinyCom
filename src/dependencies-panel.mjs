@@ -30,6 +30,7 @@ const TRIAGE_RELAY_WAIT_MS = 4000;
 const SHOW_CSV = typeof window !== 'undefined' && window.WS_DEPENDENCY_CSV === true;
 
 const OSV_URL = 'https://osv.dev/vulnerability/';
+const NVD_URL = 'https://nvd.nist.gov/vuln/detail/';
 
 const dateOf = (s) => (s ? String(s).slice(0, 10) : null);
 
@@ -173,6 +174,21 @@ export function viaLine(a) {
   }
   if (!parts.length) return null;
   return el('div', { className: 'dp-via', ...(title ? { title } : {}) }, parts.join(' · '));
+}
+
+// "Listed by NVD only" or "Listed by OSV.dev · NVD" under the advisory id: which databases listed
+// it. Only native libraries are asked of NVD, so other rows show it only when
+// NVD is among them; rows stored before the field show nothing.
+const LISTED_BY_TIP = 'The databases that list this advisory. OSV.dev copies many C library entries from NVD, so two names are not two independent checks.';
+export function listedByLine(a) {
+  const by = Array.isArray(a.listedBy) ? a.listedBy : [];
+  if (!by.includes('nvd') && !(by.includes('osv') && ['native', 'p4a'].includes(a.ecosystem))) return null;
+  const cve = [a.id, ...(a.aliases || [])].find(id => /^CVE-/.test(id));
+  const link = (label, url) => (url ? el('a', { href: url, target: '_blank', rel: 'noopener noreferrer' }, label) : label);
+  const osv = link('OSV.dev', `${OSV_URL}${encodeURIComponent(a.id)}`);
+  const nvd = link('NVD', cve ? `${NVD_URL}${encodeURIComponent(cve)}` : null);
+  const parts = by.includes('osv') && by.includes('nvd') ? [osv, ' · ', nvd] : by.includes('nvd') ? [nvd, ' only'] : [osv, ' only'];
+  return el('div', { className: 'dp-listed-by', title: LISTED_BY_TIP }, 'Listed by ', ...parts);
 }
 
 // "github.com/o/r" under the package name: where the source lives, or nothing
@@ -397,7 +413,7 @@ function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = nul
   return el('tr', { className: fresh ? 'dp-row--fresh' : null, dataset: { advisory: a.id, package: a.package } },
     el('td', { className: 'dp-td-package', dataset: { label: 'Package' } }, ...breakableName(a.package), mixedEcosystems && a.ecosystem ? el('span', { className: 'dp-eco' }, a.ecosystem) : null, repoLine(a), viaLine(a)),
     el('td', { className: 'dp-td-version', dataset: { label: 'Version' } }, a.version, fixedInMasterLine(a, defaultBranch)),
-    el('td', { className: 'dp-td-advisory', dataset: { label: 'Advisory' } }, el('a', { href: `${OSV_URL}${encodeURIComponent(a.id)}`, target: '_blank', rel: 'noopener noreferrer', title: a.summary || '' }, a.id)),
+    el('td', { className: 'dp-td-advisory', dataset: { label: 'Advisory' } }, el('a', { href: `${OSV_URL}${encodeURIComponent(a.id)}`, target: '_blank', rel: 'noopener noreferrer', title: a.summary || '' }, a.id), listedByLine(a)),
     el('td', { className: 'dp-td-severity', dataset: { label: 'Severity' } }, severityCell(a)),
     showWhere ? el('td', { className: 'dp-td-where', dataset: { label: 'Where?' } }, el('span', { className: `dp-where dp-where--${where}`, title: where === 'unknown' ? WHERE_UNKNOWN_TIP : null }, whereLabel(a)), inApkLine(a)) : null,
     el('td', { className: 'dp-td-products', dataset: { label: 'Used by' } }, usedBy(a)),
