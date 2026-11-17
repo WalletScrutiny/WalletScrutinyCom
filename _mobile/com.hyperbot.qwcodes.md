@@ -1,6 +1,6 @@
 ---
 title: Hyper Bot
-date: 2024-02-05
+date: 2026-10-30
 website: https://hyperbot.solutions#deadLink
 redirect_from:
 - /android/com.hyperbot.qwcodes/
@@ -10,7 +10,6 @@ android:
   released: 2022-07-22
   updated: 2022-07-22
   version: 2.0.0
-  icon: com.hyperbot.qwcodes.webp
   meta: removed
   verdict: wip
   developerName: JOHN MOXLEY

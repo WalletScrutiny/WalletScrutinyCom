@@ -1,6 +1,6 @@
 ---
 title: Tower Wallet
-date: 2023-09-04
+date: 2026-10-30
 authors:
 - danny
 website: https://www.goldex.jp#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2018-10-22
   updated: 2020-07-16
   version: 3.3.35
-  icon: jp.goldex.towerwallet.webp
   meta: removed
   verdict: nosource
   developerName: GOLDEX.,Inc.

@@ -1,6 +1,6 @@
 ---
 title: Speediwallet
-date: 2023-08-16
+date: 2026-10-30
 website: https://speediwallet.com#deadLink
 redirect_from:
 - /android/com.wSpeediwallet_14801896/
@@ -10,7 +10,6 @@ android:
   released: 2021-12-08
   updated: 2021-12-08
   version: 1.0.2
-  icon: com.wSpeediwallet_14801896.webp
   meta: removed
   verdict: wip
   developerName: Invisible Designs

@@ -1,7 +1,6 @@
 ---
-wsId: accrue
 title: 'Accrue: The cross-border app'
-date: 2023-04-29
+date: 2026-10-30
 authors:
 - danny
 website: https://useaccrue.com
@@ -16,10 +15,9 @@ android:
   users: 100000
   appCountry: us
   released: 2021-10-09
-  updated: 2026-09-25
-  version: 5.1.6
+  updated: 2026-10-12
+  version: 5.2.1
   reviews: 69
-  icon: com.rocketsfintech.accrue.webp
   meta: ok
   verdict: custodial
   developerName: Accrue Wealth Inc
@@ -28,10 +26,9 @@ iphone:
   idd: '1604973055'
   appCountry: gh
   released: 2022-01-18
-  updated: 2026-09-08
-  version: 5.1.3
-  reviews: 3143
-  icon: com.rocketsfintech.accrue-dca.webp
+  updated: 2026-10-13
+  version: 5.2.0
+  reviews: 3153
   meta: ok
   verdict: custodial
   developerName: Accrue DCA Limited
@@ -93,4 +90,4 @@ Although, we were not able to access all features of the app, based on the infor
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

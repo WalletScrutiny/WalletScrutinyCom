@@ -1,7 +1,6 @@
 ---
-wsId: trexCrypto
 title: TREX Global-Buy Crypto, FX
-date: 2024-12-31
+date: 2026-10-30
 authors:
 - danny
 website: https://trexglobals.com/
@@ -14,7 +13,6 @@ android:
   released: 2023-03-05
   updated: 2024-07-12
   version: 1.1.0
-  icon: com.vnc.trex.bit.webp
   meta: removed
   verdict: nosendreceive
   developerName: trex limited
@@ -26,7 +24,6 @@ iphone:
   updated: 2021-04-16
   version: 2.0.0
   reviews: 1
-  icon: com.vn.trextrade.tt.webp
   meta: removed
   verdict: nosendreceive
   developerName: Kodak Global Futures Limited
@@ -57,4 +54,4 @@ Since the platform allows users to trade cryptocurrency contracts or CFDs, no ac
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

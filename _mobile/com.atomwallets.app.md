@@ -1,7 +1,6 @@
 ---
-wsId: atomCryptoBitcoinWallet
 title: 'Atom: Crypto & USDT Wallet'
-date: 2026-03-05
+date: 2026-10-30
 authors:
 - danny
 website: https://atomwallets.com
@@ -16,7 +15,6 @@ android:
   released: 2025-10-10
   updated: 2026-09-10
   version: 2.3.8
-  icon: com.atomwallets.app.webp
   meta: ok
   verdict: nosource
   developerName: PayAtom
@@ -27,8 +25,7 @@ iphone:
   released: 2025-11-07
   updated: 2026-09-17
   version: 2.3.8
-  reviews: 2
-  icon: ios.atomwallets.com.webp
+  reviews: 1
   meta: ok
   verdict: nosource
   developerName: Atom Wallets
@@ -49,4 +46,4 @@ We tested the app and successfully exported the seed phrases to an Electrum app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

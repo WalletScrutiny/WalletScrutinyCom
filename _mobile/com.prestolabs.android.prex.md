@@ -1,6 +1,6 @@
 ---
 title: 'Flipster: Trade BTC & TradFi'
-date: 2023-06-14
+date: 2026-10-30
 authors:
 - danny
 website: https://flipster.io
@@ -18,10 +18,9 @@ android:
   users: 500000
   appCountry: us
   released: 2022-11-18
-  updated: 2026-09-23
-  version: 3.38.101
+  updated: 2026-10-12
+  version: 3.40.102
   reviews: 75
-  icon: com.prestolabs.android.prex.webp
   meta: ok
   verdict: custodial
   developerName: Flipster Exchange

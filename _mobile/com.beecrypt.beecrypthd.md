@@ -1,7 +1,6 @@
 ---
-wsId: MoneyPipe
 title: 'MoneyPipe: HD Bitcoin Wallet'
-date: 2022-05-31
+date: 2026-10-30
 authors:
 - danny
 website: https://moneypipe.com#deadLink
@@ -18,7 +17,6 @@ android:
   released: 2020-05-27
   updated: 2023-05-05
   version: 6.0.7
-  icon: com.beecrypt.beecrypthd.webp
   meta: removed
   verdict: nosource
   developerName: MadCats
@@ -29,11 +27,12 @@ iphone:
   updated: 2022-02-12
   version: 3.9.1
   reviews: 1
-  icon: com.beecrypt.beecrypthd.webp
   meta: removed
   verdict: nosource
 
 ---
+
+**Update 2026-10-30:** MoneyPipe appears to be gone. Both apps are gone from the stores and the moneypipe.com domain is up for sale.
 
 ## Android
 
@@ -69,4 +68,4 @@ Contrary to the Bitcoin thread above, we could no longer locate any mention of t
 
 **Update 2022-05-17**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

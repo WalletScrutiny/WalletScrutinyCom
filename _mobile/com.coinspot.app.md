@@ -1,7 +1,6 @@
 ---
-wsId: coinspot
 title: CoinSpot - Buy & Sell Bitcoin
-date: 2021-09-03
+date: 2026-10-30
 authors:
 - danny
 website: https://www.coinspot.com.au
@@ -20,10 +19,9 @@ android:
   users: 500000
   appCountry: au
   released: 2020-10-07
-  updated: 2026-06-30
-  version: 3.11.7
-  reviews: 2214
-  icon: com.coinspot.app.webp
+  updated: 2026-10-01
+  version: 3.11.14
+  reviews: 2220
   meta: ok
   verdict: custodial
   developerName: CoinSpot
@@ -32,10 +30,9 @@ iphone:
   idd: 1541949985
   appCountry: au
   released: 2020-12-13
-  updated: 2026-07-02
-  version: 3.11.7
-  reviews: 45520
-  icon: com.coinspot.app.webp
+  updated: 2026-10-04
+  version: 3.11.14
+  reviews: 45617
   meta: ok
   verdict: custodial
   developerName: CoinSpot
@@ -58,7 +55,7 @@ There are no mentions of private keys or self-custody, so we can assume this app
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="On CoinSpot you also have the ability to instantly swap between one crypto to another." source="Store description" %}
 

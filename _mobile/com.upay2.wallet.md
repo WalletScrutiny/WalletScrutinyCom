@@ -1,7 +1,6 @@
 ---
-wsId: upayWallet
 title: UPay Wallet
-date: 2026-01-23
+date: 2026-10-30
 authors:
 - danny
 twitter: UPayOfficial_EN
@@ -20,7 +19,6 @@ android:
   updated: 2026-01-13
   version: 1.0.6
   reviews: 5
-  icon: com.upay2.wallet.webp
   meta: removed
   verdict: custodial
   developerName: UPay
@@ -32,7 +30,6 @@ iphone:
   updated: 2026-07-07
   version: 1.0.7
   reviews: 7
-  icon: com.upay2.wallet.webp
   meta: ok
   verdict: custodial
   developerName: UPay Technology LTD.
@@ -63,4 +60,4 @@ This is a **custodial app**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

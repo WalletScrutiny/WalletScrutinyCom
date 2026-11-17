@@ -1,7 +1,6 @@
 ---
-wsId: ncWallet
 title: 'NC Wallet: Crypto Without Fees'
-date: 2023-06-14
+date: 2026-10-30
 authors:
 - danny
 website: https://nc-wallet.com
@@ -16,10 +15,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2022-10-18
-  updated: 2026-09-25
-  version: 4.467.0
-  reviews: 981
-  icon: com.ncwallet.webp
+  updated: 2026-10-10
+  version: 4.554.0
+  reviews: 1013
   meta: ok
   verdict: custodial
   developerName: NCW Team
@@ -30,8 +28,7 @@ iphone:
   released: 2022-09-27
   updated: 2026-09-29
   version: 4.468.0
-  reviews: 354
-  icon: com.ncwallet.webp
+  reviews: 383
   meta: ok
   verdict: custodial
   developerName: Zafiro International Limited
@@ -48,7 +45,7 @@ iphone:
 
 - We tested the app, but was not able to find any mnemonic phrases. 
 - There was a BTC wallet that can send and receive.
-- The app's [Terms](https://ncwallet.net/en/terms/) defines storage services and fees, for storing "dormant" cryptocurrencies with no transactions for more than 12 months.
+- The app's [Terms](https://nc-wallet.com/en/terms/) defines storage services and fees, for storing "dormant" cryptocurrencies with no transactions for more than 12 months.
 - The terms also give the platform the right to "suspend the user's account" and "block all Cryptocurrencies" in that account. 
 - This is clearly a **custodial** provider.
 
@@ -56,7 +53,7 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Comprehensive security for your funds' protection: two-factor authentication, PIN codes, biometric login, possibility to set transaction limits and block IP addresses." source="Store description" %}
 

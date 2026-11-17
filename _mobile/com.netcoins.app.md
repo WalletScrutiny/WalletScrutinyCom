@@ -1,7 +1,6 @@
 ---
-wsId: netCoinsCrypto
 title: 'Netcoins: Buy Crypto Easily'
-date: 2025-11-20
+date: 2026-10-30
 authors:
 - danny
 website: https://www.netcoins.com
@@ -15,24 +14,22 @@ redirect_from:
 android:
   appId: com.netcoins.app
   users: 100000
-  appCountry: us
+  appCountry: ca
   released: 2022-12-10
   updated: 2026-05-05
   version: 5.13.0
   reviews: 15
-  icon: com.netcoins.app.webp
   meta: removed
   verdict: custodial
   developerName: Netcoins Inc
 iphone:
   appId: com.netcoins.app
   idd: '1571344881'
-  appCountry: us
+  appCountry: ca
   released: 2021-08-10
   updated: 2026-01-07
   version: 5.8.1
   reviews: 80
-  icon: com.netcoins.app.webp
   meta: removed
   verdict: custodial
   developerName: Netcoins
@@ -57,4 +54,4 @@ The platform uses third-party custodians (BitGo and Fireblocks) to manage user a
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

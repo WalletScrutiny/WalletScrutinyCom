@@ -1,7 +1,7 @@
 ---
 title: Eagle Robo
-date: 2024-04-19
-website: http://eaglerobo.com
+date: 2026-10-30
+website: http://eaglerobo.com#deadLink
 redirect_from:
 - /android/com.eaglerobo.android/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-10-20
   updated: 2021-11-22
   version: 1.0.2
-  icon: com.eaglerobo.android.webp
   meta: removed
   verdict: wip
   developerName: eagle robo

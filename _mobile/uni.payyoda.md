@@ -1,6 +1,6 @@
 ---
 title: PayYoda
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/uni.payyoda/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-04-17
   updated: 2021-04-28
   version: 4.5.1
-  icon: uni.payyoda.webp
   meta: removed
   verdict: wip
 

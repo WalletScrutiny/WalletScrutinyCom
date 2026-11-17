@@ -1,6 +1,6 @@
 ---
 title: DGC WALLET
-date: 2024-04-19
+date: 2026-10-30
 website: https://www.dgcusa.com#deadLink
 redirect_from:
 - /android/com.dgc.wallet/
@@ -10,7 +10,6 @@ android:
   released: 2021-07-25
   updated: 2021-07-25
   version: 0.21.3
-  icon: com.dgc.wallet.webp
   meta: removed
   verdict: wip
   developerName: Digital Gold Coin

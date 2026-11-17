@@ -1,7 +1,6 @@
 ---
-wsId: ELLIPAL
 title: 'ELLIPAL: Crypto Wallet'
-date: 2021-12-03
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -28,9 +27,8 @@ android:
   appCountry: us
   released: 2018-07-02
   updated: 2026-09-24
-  version: 4.15.1
-  reviews: 565
-  icon: com.ellipal.wallet.webp
+  version: 5.0.0
+  reviews: 568
   meta: ok
   verdict: nosource
   developerName: ellipal
@@ -41,8 +39,7 @@ iphone:
   released: 2018-08-25
   updated: 2026-09-25
   version: 5.0.0
-  reviews: 2957
-  icon: com.Ellipal.Ellipal.webp
+  reviews: 2958
   meta: ok
   verdict: nosource
   developerName: Ellipal
@@ -51,9 +48,11 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** ELLIPAL's blog post quoted below is gone from its website, so we now link [an archived copy](https://web.archive.org/web/20250916221029/https://www.ellipal.com/blogs/news/how-much-does-open-source-contribute-to-security).
+
 ## Update 2024-07-17
 
-This article confirms that Ellipal is a [closed source](https://www.ellipal.com/blogs/news/how-much-does-open-source-contribute-to-security) product.
+This article confirms that Ellipal is a [closed source](https://web.archive.org/web/20250916221029/https://www.ellipal.com/blogs/news/how-much-does-open-source-contribute-to-security) product.
 
 >  "ELLIPAL allows Private keys import to overcome any worries originating from being closed source."
 
@@ -78,7 +77,7 @@ we assume the app is closed source and thus **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="You can send, receive, swap, buy, sell, and stake various crypto assets all in one place" source="Store description" %}
 

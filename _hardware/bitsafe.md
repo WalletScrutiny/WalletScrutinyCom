@@ -18,11 +18,10 @@ shop:
 country: 
 price: 
 repository: https://github.com/someone42/hardware-bitcoin-wallet
-icon: bitsafe.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-05-19
+date: 2026-10-30
 signer: 
 twitter: 
 social: 

@@ -1,7 +1,6 @@
 ---
-wsId: coincastCrypto
 title: Coincast — Send Crypto
-date: 2024-04-28
+date: 2026-10-30
 authors:
 - danny
 website: https://coincast.app
@@ -21,7 +20,6 @@ android:
   updated: 2022-05-13
   version: 1.2.15
   reviews: 30
-  icon: co.minty.coincast.webp
   meta: removed
   verdict: nosource
   developerName: Minty Networks, LLC
@@ -33,7 +31,6 @@ iphone:
   updated: 2022-05-08
   version: 1.2.14
   reviews: 25
-  icon: co.Minty.Coincast.webp
   meta: removed
   verdict: nosource
   developerName: Minty Networks, LLC.
@@ -62,4 +59,4 @@ Nowhere on Coincast's website is it stated that the wallet is open-source.  We [
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

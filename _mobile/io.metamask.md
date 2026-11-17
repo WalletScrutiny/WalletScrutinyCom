@@ -1,11 +1,10 @@
 ---
-wsId: metamask
 title: 'MetaMask: Trade Crypto'
-date: 2025-12-16
+date: 2026-10-30
 authors:
 - leo
 - danny
-website: https://support.metamask.com
+website: https://support.metamask.io
 twitter: MetaMask
 social:
 - https://discord.com/invite/consensys
@@ -26,8 +25,7 @@ android:
   released: 2020-09-01
   updated: 2026-09-29
   version: 8.12.0
-  reviews: 6749
-  icon: io.metamask.webp
+  reviews: 6755
   alternativeStores:
   - zapstore
   meta: ok
@@ -41,8 +39,7 @@ iphone:
   released: 2020-09-03
   updated: 2026-09-29
   version: 8.13.0
-  reviews: 76331
-  icon: io.metamask.MetaMask.webp
+  reviews: 76477
   meta: ok
   verdict: sourceavailable
   developerName: MetaMask
@@ -75,4 +72,4 @@ This app is **now ready for verification**.
 {% include featureEvidence.html feature="tradeAlts" source="[Website](https://metamask.io/)" quote="Swaps Safely exchange any token" %}
 {% include featureEvidence.html feature="buyWithCC" source="[Website](https://metamask.io/)" quote="Buy Turn cash to crypto" %}
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

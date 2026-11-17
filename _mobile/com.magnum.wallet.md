@@ -1,9 +1,9 @@
 ---
 title: Magnum Wallet – Bitcoin, Ether
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - leo
-website: https://magnumwallet.co
+website: https://magnumwallet.co#deadLink
 twitter: magnum_wallet
 redirect_from:
 - /com.magnum.wallet/
@@ -16,12 +16,13 @@ android:
   updated: 2019-08-29
   version: 1.0.12
   reviews: 16
-  icon: com.magnum.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Magnum Wallet
 
 ---
+
+**Update 2026-10-30:** Magnum Wallet appears to be gone. Its domain expired in 2022 ([archived](https://web.archive.org/web/20220810114228/https://magnumwallet.co/)) and now forwards to an unrelated site that lists other wallets.
 
 In the app's description we read:
 

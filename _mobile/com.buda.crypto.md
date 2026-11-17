@@ -1,7 +1,6 @@
 ---
-wsId: buda
 title: Buda.com
-date: 2022-01-07
+date: 2026-10-30
 authors:
 - leo
 website: https://buda.com
@@ -24,7 +23,6 @@ android:
   updated: 2026-09-03
   version: 2026.8.14
   reviews: 18
-  icon: com.buda.crypto.webp
   meta: ok
   verdict: custodial
   developerName: Buda.com
@@ -36,7 +34,6 @@ iphone:
   updated: 2026-09-04
   version: 2026.9.4
   reviews: 1
-  icon: com.buda.crypto.webp
   meta: ok
   verdict: custodial
   developerName: Buda.com

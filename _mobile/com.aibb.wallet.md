@@ -1,7 +1,6 @@
 ---
-wsId: blockbank.v1
 title: BlockBank V1
-date: 2021-11-10
+date: 2026-10-30
 authors:
 - danny
 website: https://web.archive.org/web/20240713055326/https://blockbank.ai/
@@ -19,7 +18,6 @@ android:
   updated: 2021-10-04
   version: 2.3.15
   reviews: 254
-  icon: com.aibb.wallet.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -29,13 +27,16 @@ iphone:
   updated: 2021-10-06
   version: 2.3.15
   reviews: 21
-  icon: com.aibb.wallet1.webp
   meta: removed
   verdict: custodial
 
 ---
 
+**Update 2026-10-30:** BlockBank's website has closed: [blockbank.ai](https://blockbank.ai#deadLink) is gone, and [Trustpilot](https://www.trustpilot.com/review/blockbank.ai) notes that the company's website has closed.
+
 ## Android
+
+**Update 2026-10-30:** The V2 app, {% include walletLink.html wallet='android/ai.blockbank.bbexpoapp' verdict='true' %}, is now called Pairs and is also gone from Google Play.
 
 ## Updated Review 2023-04-05 
 
@@ -160,4 +161,4 @@ Note: With that said, we are willing to change our verdict upon further guidance
 
 **Update 2021-11-03**: This app is no more.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

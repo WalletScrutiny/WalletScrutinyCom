@@ -17,11 +17,10 @@ shop:
 country: CH
 price: 
 repository: 
-icon: securosys.primusblockchain.hsm.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-05-18
+date: 2026-10-30
 signer: 
 twitter: securosys
 social:

@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2026-03-10
 discontinued: 
-updated: 2026-09-03
-version: 5.6.2
+updated: 2026-09-30
+version: 5.6.3
 binaries: https://coldcard.com/downloads/mk
 dimensions:
 - 86
@@ -20,11 +20,10 @@ shop: https://store.coinkite.com/store/category/mk5
 country: CA
 price: 189USD
 repository: https://github.com/Coldcard/firmware
-icon: coldcardMk5.webp
 bugbounty: https://coldcard.com/resources/security/report-a-security-issue
 meta: ok
 verdict: sourceavailable
-date: 2026-08-07
+date: 2026-10-30
 signer: 
 twitter: COLDCARDwallet
 social:

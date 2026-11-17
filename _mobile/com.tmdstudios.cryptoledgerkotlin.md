@@ -1,6 +1,6 @@
 ---
 title: Crypto Ledger
-date: 2025-02-13
+date: 2026-10-30
 website: https://tmdstudios.wordpress.com/
 redirect_from:
 - /android/com.tmdstudios.cryptoledgerkotlin/
@@ -9,7 +9,6 @@ android:
   users: 100
   updated: 2022-12-27
   version: VARY
-  icon: com.tmdstudios.cryptoledgerkotlin.webp
   meta: removed
   verdict: wip
   developerName: TMD Studios

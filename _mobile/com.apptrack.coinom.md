@@ -1,6 +1,6 @@
 ---
 title: 'Coinom Wallet : Bitcoin Ethereum Altcoins Tokens'
-date: 2021-07-30
+date: 2026-10-30
 authors:
 - emanuel
 - leo
@@ -13,7 +13,6 @@ android:
   released: 2021-05-25
   updated: 2021-05-25
   version: 1.0.12
-  icon: com.apptrack.coinom.webp
   meta: removed
   verdict: fake
 

@@ -27,6 +27,21 @@ export const PROFILE_PLACEHOLDER_IMAGE = '/images/profile-placeholder.svg';
 
 let dbOpenPromise = null;
 const inFlightProfileFetches = new Map();
+// Profiles already resolved on this page, so a repaint can show the name at once
+// instead of painting the npub and swapping it a moment later.
+const knownProfiles = new Map();
+
+/** The profile for `pubkey` if this page already resolved it, else null. Synchronous. */
+export function getKnownNostrProfile(pubkey) {
+  return knownProfiles.get(pubkey) ?? null;
+}
+
+function rememberProfile(pubkey, profile) {
+  if (profile) {
+    knownProfiles.set(pubkey, profile);
+  }
+  return profile;
+}
 
 function openProfilesDb() {
   if (dbOpenPromise) {
@@ -139,7 +154,12 @@ function normalizeProfileMetadata(metadata) {
   return normalized;
 }
 
-function hasUsableCachedProfileMetadata(metadata) {
+/**
+ * True when the profile carries something to show for its owner: a picture or
+ * a name. Cached profiles without either are refetched; the opinions widget
+ * hides authors without one.
+ */
+export function hasProfileIdentity(metadata) {
   if (!metadata) {
     return false;
   }
@@ -223,8 +243,8 @@ export async function getNostrProfile(pubkey) {
   const cached = await getProfileFromIDB(pubkey).catch(() => null);
   if (cached) {
     const normalizedCached = normalizeProfileMetadata(cached);
-    if (hasUsableCachedProfileMetadata(normalizedCached)) {
-      return { pubkey, ...normalizedCached, profileEvent: cached.profileEvent ?? null };
+    if (hasProfileIdentity(normalizedCached)) {
+      return rememberProfile(pubkey, { pubkey, ...normalizedCached, profileEvent: cached.profileEvent ?? null });
     }
   }
 
@@ -243,40 +263,95 @@ export async function getNostrProfile(pubkey) {
       );
       return null;
     }
-
-    if (!profileEvent?.content) {
-      return null;
-    }
-
-    let metadata;
-    try {
-      metadata = JSON.parse(profileEvent.content);
-    } catch {
-      return null;
-    }
-
-    if (!metadata || typeof metadata !== 'object' || Object.keys(metadata).length === 0) {
-      return null;
-    }
-
-    const sanitizedMetadata = {};
-    Object.keys(metadata).forEach((key) => {
-      sanitizedMetadata[key] = sanitizeProfileValue(key, metadata[key]);
-    });
-
-    const profile = buildProfile(pubkey, sanitizedMetadata, profileEvent);
-    if (!profile) {
-      return null;
-    }
-
-    saveProfileToIDB(pubkey, profile).catch((e) => console.warn('Failed to save profile to IDB', e));
-    return profile;
+    return profileFromEvent(pubkey, profileEvent);
   })().finally(() => {
     inFlightProfileFetches.delete(pubkey);
   });
 
   inFlightProfileFetches.set(pubkey, fetchPromise);
   return fetchPromise;
+}
+
+/** Sanitized profile from a kind-0 event, cached in IndexedDB; null when the event has no usable metadata. */
+function profileFromEvent(pubkey, profileEvent) {
+  if (!profileEvent?.content) {
+    return null;
+  }
+
+  let metadata;
+  try {
+    metadata = JSON.parse(profileEvent.content);
+  } catch {
+    return null;
+  }
+
+  if (!metadata || typeof metadata !== 'object' || Object.keys(metadata).length === 0) {
+    return null;
+  }
+
+  const sanitizedMetadata = {};
+  Object.keys(metadata).forEach((key) => {
+    sanitizedMetadata[key] = sanitizeProfileValue(key, metadata[key]);
+  });
+
+  const profile = buildProfile(pubkey, sanitizedMetadata, profileEvent);
+  if (!profile) {
+    return null;
+  }
+
+  saveProfileToIDB(pubkey, profile).catch((e) => console.warn('Failed to save profile to IDB', e));
+  return rememberProfile(pubkey, profile);
+}
+
+/**
+ * Profiles for many pubkeys at once: cached ones from IndexedDB, the rest in a
+ * single kind-0 query (one subscription instead of one per author). Resolves
+ * to a Map pubkey → profile (null for authors without a usable kind 0).
+ */
+export async function getNostrProfiles(pubkeys) {
+  const result = new Map();
+  const wanted = [...new Set(pubkeys)].filter((pubkey) => typeof pubkey === 'string' && pubkey.length === 64);
+  const cached = await Promise.all(wanted.map((pubkey) => getProfileFromIDB(pubkey).catch(() => null)));
+  const missing = [];
+  wanted.forEach((pubkey, index) => {
+    const normalized = normalizeProfileMetadata(cached[index]);
+    if (hasProfileIdentity(normalized)) {
+      result.set(pubkey, rememberProfile(pubkey, { pubkey, ...normalized, profileEvent: cached[index].profileEvent ?? null }));
+    } else {
+      result.set(pubkey, null);
+      missing.push(pubkey);
+    }
+  });
+  if (!missing.length) {
+    return result;
+  }
+
+  await ensureConnected();
+  const pool = getPool();
+  if (!pool) {
+    return result;
+  }
+  let events = [];
+  try {
+    events = await pool.querySync(eventRelayUrls, { kinds: [0], authors: missing }, { maxWait: PROFILE_FETCH_MAX_WAIT_MS });
+  } catch (e) {
+    console.debug('Nostr profile batch fetch failed', e && e.message ? e.message : e);
+    return result;
+  }
+  const newest = new Map();
+  for (const event of events) {
+    if (!missing.includes(event.pubkey)) {
+      continue;
+    }
+    const current = newest.get(event.pubkey);
+    if (!current || event.created_at > current.created_at) {
+      newest.set(event.pubkey, event);
+    }
+  }
+  for (const [pubkey, event] of newest) {
+    result.set(pubkey, profileFromEvent(pubkey, event));
+  }
+  return result;
 }
 
 function shortenNpub(npub) {
@@ -359,6 +434,7 @@ export function buildProfileCircleHtml(pubkey, profile, imageUrl, placeholderUrl
     dataset: { name: displayName },
   },
     el('img', {
+      referrerpolicy: 'no-referrer',
       src: safeImageUrl,
       className: `profile-circle${placeholderClass}`,
       alt: '',
@@ -367,6 +443,7 @@ export function buildProfileCircleHtml(pubkey, profile, imageUrl, placeholderUrl
     el('div', { className: 'profile-hover-modal' },
       el('div', { className: 'profile-modal-content' },
         el('img', {
+          referrerpolicy: 'no-referrer',
           src: safeImageUrl,
           className: 'profile-modal-image',
           alt: '',
@@ -406,6 +483,7 @@ export function renderProfileCardHtml(pubkey, profile) {
     ...(safePubkey ? { dataset: { verifierPubkey: safePubkey } } : {}),
   },
     el('img', {
+      referrerpolicy: 'no-referrer',
       src: imageUrl,
       className: 'profile-image',
       alt: '',
@@ -434,6 +512,7 @@ export function renderBigProfileCardHtml(pubkey, profile) {
   const imageUrl = getProfileImageUrl(profile);
   const card = el('div', { className: 'big-profile-card' },
     el('img', {
+      referrerpolicy: 'no-referrer',
       src: imageUrl,
       alt: 'Profile Picture',
       style: {

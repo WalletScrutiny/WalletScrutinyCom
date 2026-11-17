@@ -1,7 +1,6 @@
 ---
-wsId: pallapay
 title: Pallapay Wallet
-date: 2022-05-31
+date: 2026-10-30
 authors:
 - danny
 website: https://www.pallapay.com/
@@ -20,7 +19,6 @@ android:
   released: 2021-10-06
   updated: 2022-03-02
   version: '1.3'
-  icon: com.pallapayWallet.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -31,11 +29,12 @@ iphone:
   updated: 2022-03-03
   version: '1.6'
   reviews: 9
-  icon: com.pallapayWallet.webp
   meta: removed
   verdict: nosource
 
 ---
+
+**Update 2026-10-30:** Pallapay now offers a crypto card and the custodial {% include walletLink.html wallet='iphone/com.pallapay.application' verdict='true' %} app instead of this wallet ([pallapay.com](https://www.pallapay.com/)).
 
 ## Android
 
@@ -63,4 +62,4 @@ Pallapay **does not claim to be an Open Source project**.
 
 **Update 2022-04-30**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

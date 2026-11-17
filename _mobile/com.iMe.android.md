@@ -1,7 +1,6 @@
 ---
-wsId: iMeMessenger
 title: 'iMe: Telegram AI Messenger'
-date: 2024-09-07
+date: 2026-10-30
 authors:
 - danny
 website: https://www.imem.app
@@ -19,10 +18,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2019-07-22
-  updated: 2026-09-21
-  version: 12.10.4
-  reviews: 877
-  icon: com.iMe.android.webp
+  updated: 2026-10-13
+  version: 12.10.6
+  reviews: 886
   meta: ok
   verdict: nosource
   developerName: IME LAB - FZCO
@@ -32,10 +30,9 @@ iphone:
   idd: '1450480822'
   appCountry: us
   released: 2019-07-31
-  updated: 2026-09-22
-  version: 12.9.2
-  reviews: 9025
-  icon: com.olcorporation.olai.webp
+  updated: 2026-10-04
+  version: 12.9.3
+  reviews: 9137
   meta: ok
   verdict: nosource
   developerName: IME LAB - FZCO
@@ -67,4 +64,4 @@ An issue has been opened at [https://github.com/imemessenger/iMe-Android/issues/
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

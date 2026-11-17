@@ -1,7 +1,6 @@
 ---
-wsId: ooBit
-title: 'Oobit: Global Payments'
-date: 2023-06-14
+title: Oobit Everyday Crypto Payments
+date: 2026-10-30
 authors:
 - danny
 website: https://www.oobit.com/
@@ -18,10 +17,9 @@ android:
   users: 100000
   appCountry: us
   released: 2022-02-07
-  updated: 2026-09-23
-  version: 3.3.4
+  updated: 2026-10-08
+  version: 3.4.2
   reviews: 51
-  icon: com.oobit.webp
   meta: ok
   verdict: custodial
   developerName: Oobit Technologies
@@ -30,10 +28,9 @@ iphone:
   idd: '1598882898'
   appCountry: br
   released: 2022-02-05
-  updated: 2026-09-24
-  version: 3.3.4
-  reviews: 1029
-  icon: com.oobit.webp
+  updated: 2026-10-09
+  version: 3.4.2
+  reviews: 1035
   meta: ok
   verdict: custodial
   developerName: Oobit Technologies
@@ -64,4 +61,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: spatium
 title: Spatium MPC Crypto Wallet
-date: 2025-01-27
+date: 2026-10-30
 authors:
 - danny
 - leo
@@ -21,7 +20,6 @@ android:
   released: 2018-08-31
   updated: 2024-02-22
   version: 3.2.5
-  icon: capital.spatium.wallet.webp
   meta: removed
   verdict: nosource
   developerName: CaspianTechnologies
@@ -32,12 +30,13 @@ iphone:
   updated: 2024-02-23
   version: 3.2.5
   reviews: 26
-  icon: capital.spatium.wallet.webp
   meta: removed
   verdict: nosource
   developerName: CaspianTechnologies
 
 ---
+
+**Update 2026-10-30:** Spatium appears to be gone. Its website and web wallet no longer load; the last archived copy of the site is from [April 2025](https://web.archive.org/web/20250404155959/https://www.spatium.net/). Both apps are gone from the stores.
 
 ## Android
 
@@ -97,4 +96,4 @@ As this app **does not have publicly available source code** it is **not verifia
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

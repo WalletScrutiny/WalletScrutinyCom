@@ -1,6 +1,6 @@
 ---
 title: T-REX
-date: 2024-05-07
+date: 2026-10-30
 authors:
 - danny
 website: https://www.t-rex.exchange/usdt#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2019-12-19
   updated: 2022-06-20
   version: 2.2.9
-  icon: com.trex.exchange.webp
   meta: removed
   verdict: wip
   developerName: T-Rex Global Enterprise

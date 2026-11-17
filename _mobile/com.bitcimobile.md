@@ -1,7 +1,6 @@
 ---
-wsId: bitci
 title: Safebit | Kripto BTC, ETH,USDT
-date: 2022-06-28
+date: 2026-10-30
 authors:
 - danny
 website: https://www.safebit.com
@@ -19,10 +18,9 @@ android:
   users: 100000
   appCountry: us
   released: 2020-03-30
-  updated: 2026-09-04
-  version: 23.0.11
+  updated: 2026-10-05
+  version: 23.0.13
   reviews: 14
-  icon: com.bitcimobile.webp
   meta: ok
   verdict: custodial
   developerName: SAFEBİT KRİPTO VARLIK ALIM SATIM PLATFORMU A.Ş.
@@ -31,15 +29,16 @@ iphone:
   idd: '1459044769'
   appCountry: tr
   released: 2019-04-17
-  updated: 2026-09-05
-  version: 23.0.11
-  reviews: 1383
-  icon: com.bitcimobil.com.webp
+  updated: 2026-10-06
+  version: 23.0.13
+  reviews: 1385
   meta: ok
   verdict: custodial
   developerName: Safebit Kripto Varlık AŞ
 
 ---
+
+**Update 2026-10-30:** Bitci is now called SAFEbit. The new owner Seyfi Şahin bought all shares and [renamed the exchange on 2025-05-20](https://www.ekonomim.com/finans/kripto-para/bitciden-safebite-turkiyenin-oncu-kripto-borsasinda-yeni-bir-donem-basliyor-haberi-819238); the app and the [website](https://www.safebit.com.tr/) carry the new name.
 
 ## Android
 
@@ -63,4 +62,4 @@ This app is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

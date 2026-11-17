@@ -1,7 +1,6 @@
 ---
-wsId: brasilBitcoin
 title: Brasil Bitcoin
-date: 2021-09-10
+date: 2026-10-30
 authors:
 - danny
 website: https://brasilbitcoin.com.br
@@ -17,10 +16,9 @@ android:
   users: 100000
   appCountry: br
   released: 2021-02-17
-  updated: 2026-09-28
+  updated: 2026-09-30
   version: 5.1.0
   reviews: 5671
-  icon: br.com.brasilbitcoin.webp
   meta: ok
   verdict: custodial
   developerName: Brasil Bitcoin
@@ -31,8 +29,7 @@ iphone:
   released: 2020-07-27
   updated: 2026-09-15
   version: 5.0.07
-  reviews: 2291
-  icon: br.com.brasilbitcoin.run.webp
+  reviews: 2293
   meta: ok
   verdict: custodial
   developerName: Brasil Bitcoin Servicos Digitais LTDA
@@ -57,4 +54,4 @@ Verdict is **custodial** and **not verifiable**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

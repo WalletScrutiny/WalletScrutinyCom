@@ -1,7 +1,6 @@
 ---
-wsId: bunqApp
 title: bunq
-date: 2025-08-28
+date: 2026-10-30
 authors:
 - danny
 website: http://www.bunq.com
@@ -19,10 +18,9 @@ android:
   users: 5000000
   appCountry: us
   released: 2015-11-25
-  updated: 2026-09-25
-  version: 32.0.2
+  updated: 2026-10-13
+  version: 32.2.2
   reviews: 238
-  icon: com.bunq.android.webp
   meta: ok
   verdict: nosendreceive
   developerName: bunq
@@ -31,10 +29,9 @@ iphone:
   idd: '1021178150'
   appCountry: de
   released: 2016-02-12
-  updated: 2026-09-23
-  version: 32.0.1
-  reviews: 15178
-  icon: com.bunq.ios.webp
+  updated: 2026-10-08
+  version: 32.2.0
+  reviews: 15396
   meta: ok
   verdict: nosendreceive
   developerName: bunq
@@ -71,4 +68,4 @@ bunq cannot function as a Bitcoin wallet because it explicitly prohibits externa
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

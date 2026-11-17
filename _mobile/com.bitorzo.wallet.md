@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Wallet
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - leo
 - emanuel
@@ -19,7 +19,6 @@ android:
   released: 2020-07-22
   updated: 2021-01-03
   version: 3.1.3
-  icon: com.bitorzo.wallet.webp
   meta: removed
   verdict: sourceavailable
   developerName: Hodlers Team

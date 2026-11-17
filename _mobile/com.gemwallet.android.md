@@ -1,7 +1,6 @@
 ---
-wsId: gemWallet
 title: 'Gem Wallet: Bitcoin, USDT, BNB'
-date: 2026-07-23
+date: 2026-10-30
 authors:
 - danny
 website: https://gemwallet.com
@@ -27,10 +26,9 @@ android:
   users: 100000
   appCountry: ae
   released: 2023-06-26
-  updated: 2026-08-21
-  version: 2.114.10
+  updated: 2026-10-13
+  version: 2.114.71
   reviews: 6
-  icon: com.gemwallet.android.webp
   alternativeStores:
   - fdroid
   - zapstore
@@ -43,10 +41,9 @@ iphone:
   idd: '6448712670'
   appCountry: us
   released: 2023-07-17
-  updated: 2026-08-25
-  version: 2.114.10
-  reviews: 359
-  icon: com.gemwallet.ios.webp
+  updated: 2026-10-13
+  version: 2.114.71
+  reviews: 360
   meta: ok
   verdict: sourceavailable
   developerName: Gem Wallet LLC
@@ -107,4 +104,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

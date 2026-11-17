@@ -3,3 +3,6 @@ assets.db
 .DS_Store
 temp_repos/
 backup/*.db
+cache/
+REVISION
+export/

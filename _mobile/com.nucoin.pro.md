@@ -1,6 +1,6 @@
 ---
 title: Nugenesis LedgerX
-date: 2023-09-15
+date: 2026-10-30
 redirect_from:
 - /android/com.nucoin.pro/
 android:
@@ -8,7 +8,6 @@ android:
   users: 100
   updated: 2021-12-31
   version: 1.0.2.211231
-  icon: com.nucoin.pro.webp
   meta: removed
   verdict: wip
   developerName: NuGenesis

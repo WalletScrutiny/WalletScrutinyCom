@@ -1,6 +1,6 @@
 ---
 title: MenaPay
-date: 2024-02-05
+date: 2026-10-30
 website: http://menapay.io
 redirect_from:
 - /android/io.menapay/
@@ -11,7 +11,6 @@ android:
   updated: 2020-09-18
   version: 1.8.7
   reviews: 4
-  icon: io.menapay.webp
   meta: removed
   verdict: wip
   developerName: MC Digital Tic. ve Bil. Hiz. LTD.

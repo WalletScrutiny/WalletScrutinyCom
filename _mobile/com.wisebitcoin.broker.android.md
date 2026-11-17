@@ -1,7 +1,6 @@
 ---
-wsId: WiseBitcoin
 title: Batonex
-date: 2021-10-19
+date: 2026-10-30
 authors:
 - danny
 website: https://www.batonex.com
@@ -16,8 +15,7 @@ android:
   released: 2021-01-04
   updated: 2026-07-22
   version: 5.8.4
-  reviews: 129
-  icon: com.wisebitcoin.broker.android.webp
+  reviews: 128
   meta: ok
   verdict: custodial
   developerName: Batonex
@@ -29,7 +27,6 @@ iphone:
   updated: 2022-11-24
   version: 3.9.0
   reviews: 0
-  icon: com.wisebitcoin.broker.iostest.webp
   meta: removed
   verdict: custodial
   developerName: WISEBTC INC
@@ -37,6 +34,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Wisebitcoin [renamed itself Batonex](https://x.com/batonex_global/status/1619964245759918080) in January 2023, and the wisebitcoin.com links below are dead. The app is on Google Play as Batonex.
 
 ## App Description
 
@@ -77,4 +76,4 @@ All evidences point to a **custodial** service whose app **cannot be verified**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

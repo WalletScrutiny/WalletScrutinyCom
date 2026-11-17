@@ -20,11 +20,10 @@ shop: https://weidian.com/item.html?itemID=2622692395
 country: 
 price: 
 repository: 
-icon: bying.k1.webp
 bugbounty: 
 meta: defunct
 verdict: vapor
-date: 2024-10-18
+date: 2026-10-30
 signer: 
 twitter: Bying_official
 social:

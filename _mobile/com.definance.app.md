@@ -1,7 +1,7 @@
 ---
 title: Definance Wallet
-date: 2023-08-04
-website: https://definance.app/
+date: 2026-10-30
+website: https://definance.app/#deadLink
 redirect_from:
 - /android/com.definance.app/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-10-20
   updated: 2021-10-25
   version: 1.1.1
-  icon: com.definance.app.webp
   meta: removed
   verdict: wip
   developerName: Blockchain Software House

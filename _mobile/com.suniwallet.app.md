@@ -1,7 +1,6 @@
 ---
-wsId: suniwallet
 title: Suni Wallet
-date: 2025-11-05
+date: 2026-10-30
 authors:
 - danny
 website: https://suniwallet.com
@@ -19,7 +18,6 @@ android:
   released: 2023-03-06
   updated: 2025-08-27
   version: 2.5.3
-  icon: com.suniwallet.app.webp
   meta: removed
   verdict: custodial
   developerName: Suni Wallet Corp
@@ -31,7 +29,6 @@ iphone:
   updated: 2025-08-29
   version: 2.5.3
   reviews: 21
-  icon: com.suniwallet.app.webp
   meta: removed
   verdict: custodial
   developerName: SUNI WALLET LLC
@@ -60,4 +57,4 @@ At the moment, we have to conclude that this app is custodial and **not verifiab
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

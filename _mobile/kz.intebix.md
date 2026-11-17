@@ -1,7 +1,6 @@
 ---
-wsId: intebix
 title: Intebix
-date: 2026-05-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.intebix.kz
@@ -16,7 +15,6 @@ android:
   released: 2023-01-09
   updated: 2026-05-29
   version: 2.1.0
-  icon: kz.intebix.webp
   meta: ok
   verdict: custodial
   developerName: INTEBIX LTD
@@ -28,7 +26,6 @@ iphone:
   updated: 2026-06-01
   version: 0.8.3
   reviews: 13
-  icon: com.idea-soft.intebix.webp
   meta: ok
   verdict: custodial
   developerName: BITEEU LTD
@@ -51,4 +48,4 @@ This app is **custodial** because access to funds depends on the provider-contro
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

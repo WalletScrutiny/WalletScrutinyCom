@@ -1,7 +1,6 @@
 ---
-wsId: river
 title: 'River: Buy Bitcoin'
-date: 2023-12-15
+date: 2026-10-30
 authors:
 - danny
 website: https://river.com/
@@ -19,10 +18,9 @@ android:
   users: 50000
   appCountry: us
   released: 2023-10-20
-  updated: 2026-09-25
-  version: 7.350.0
+  updated: 2026-10-12
+  version: 7.403.1
   reviews: 328
-  icon: com.river.riverapp.webp
   meta: ok
   verdict: custodial
   developerName: River Financial
@@ -31,10 +29,9 @@ iphone:
   idd: '1536176542'
   appCountry: us
   released: 2021-01-19
-  updated: 2026-09-28
-  version: 7.350.0
-  reviews: 8870
-  icon: com.river.riverapp.webp
+  updated: 2026-10-13
+  version: 7.403.1
+  reviews: 8957
   meta: ok
   verdict: custodial
   developerName: River Financial Inc.
@@ -61,7 +58,7 @@ Section 3 of the terms describes River as a **custodial** app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Seamlessly send and receive Bitcoin through the Lightning Network or on-chain." source="Store description" %}
 

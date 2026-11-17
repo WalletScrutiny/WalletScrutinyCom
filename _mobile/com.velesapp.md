@@ -1,6 +1,6 @@
 ---
 title: 'Veles: Crypto Trading Bots'
-date: 2024-10-28
+date: 2026-10-30
 website: https://veles.finance/
 redirect_from:
 - /android/com.velesapp/
@@ -10,7 +10,6 @@ android:
   released: 2022-05-30
   updated: 2022-05-30
   version: '1.0'
-  icon: com.velesapp.webp
   meta: removed
   verdict: wip
   developerName: Royal Bytes

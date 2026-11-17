@@ -41,8 +41,14 @@ function ensureVerificationModal() {
   if (!document.getElementById('verificationModal')) {
     const verificationModalDiv = document.createElement('div');
     verificationModalDiv.id = 'verificationModal';
+    verificationModalDiv.setAttribute('role', 'dialog');
+    verificationModalDiv.setAttribute('aria-modal', 'true');
+    verificationModalDiv.setAttribute('aria-labelledby', 'verificationModalTitle');
     verificationModalDiv.innerHTML = `
-      <span id="closeModal">&times;</span>
+      <div class="verification-modal-header">
+        <div id="verificationModalHeading" class="verification-modal-heading"></div>
+        <button type="button" id="closeModal" class="verification-modal-close" aria-label="Close">${wsIcon('xmark')}</button>
+      </div>
       <div id="verificationModalToolbar"></div>
       <div id="verificationContent"></div>`;
     document.body.appendChild(verificationModalDiv);
@@ -64,7 +70,7 @@ function ensureBlossomModals() {
   if (!document.getElementById('blossomWarningModal')) {
     document.body.insertAdjacentHTML('beforeend', `
     <div id="blossomWarningModal" style="display: none; position: fixed; z-index: 1001; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.6);">
-      <div style="background-color: #fefefe; margin: 15% auto; padding: 20px; border: 1px solid #888; width: 80%; max-width: 400px; text-align: center; border-radius: 8px; color: black;">
+      <div class="blossom-modal-panel" style="margin: 15% auto; padding: 20px; width: 80%; max-width: 400px; text-align: center; border-radius: 8px;">
         <span id="blossomCloseModalButton" style="color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer;">&times;</span>
         <p style="margin-top: 30px; margin-bottom: 20px;">This file was uploaded by a third party. We haven't verified its content, so please be careful before running it.</p>
         <button id="blossomConfirmDownloadButton" class="btn btn-success" style="padding: 10px 20px;">Download</button>
@@ -75,30 +81,14 @@ function ensureBlossomModals() {
   if (!document.getElementById('blossomBundleModal')) {
     document.body.insertAdjacentHTML('beforeend', `
     <div id="blossomBundleModal" style="display: none; position: fixed; z-index: 1002; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.6);">
-      <div style="background-color: #fefefe; margin: 10% auto; padding: 20px; border: 1px solid #888; width: fit-content; max-width: min(90vw, 720px); border-radius: 8px; color: black; box-sizing: border-box;">
+      <div class="blossom-modal-panel" style="margin: 10% auto; padding: 20px; width: fit-content; max-width: min(90vw, 720px); border-radius: 8px; box-sizing: border-box;">
         <span id="blossomBundleCloseButton" style="color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer;">&times;</span>
         <h3 style="margin-top: 0;">Download asset files</h3>
-        <div style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 1em; padding: 12px; background-color: #fff3cd; border: 1px solid #ffc107; border-radius: 4px; text-align: left;">
-          ${wsIcon('triangle-exclamation', '', 'color: #856404; font-size: 1.5em; flex-shrink: 0; margin-top: 2px;')}
+        <div class="blossom-modal-warning" style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 1em; padding: 12px; border-radius: 4px; text-align: left;">
+          ${wsIcon('triangle-exclamation', 'blossom-modal-warning__icon', 'font-size: 1.5em; flex-shrink: 0; margin-top: 2px;')}
           <p style="margin: 0; font-size: 0.95em;">These files were uploaded by third parties. Review before running.</p>
         </div>
         <ul id="blossomBundleFileList" style="list-style: none; padding: 0; margin: 0; text-align: left; max-width: 100%;"></ul>
-      </div>
-    </div>`);
-  }
-
-  if (!document.getElementById('attachmentPreviewModal')) {
-    document.body.insertAdjacentHTML('beforeend', `
-    <div id="attachmentPreviewModal" style="display: none; position: fixed; z-index: 1001; left: 0; top: 0; width: 100%; height: 100%; overflow: hidden; background-color: rgba(0,0,0,0.6); align-items: center; justify-content: center;">
-      <div style="background-color: #fefefe; margin: 0; padding: 20px; border: 1px solid #888; width: 95%; max-width: 1200px; text-align: center; border-radius: 8px; color: black; max-height: 80vh; overflow: hidden; display: flex; flex-direction: column; box-sizing: border-box;">
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; flex-shrink: 0;">
-          <h3 id="previewFileName" style="margin: 0;">File Preview</h3>
-          <div style="display: flex; align-items: center; gap: 15px;">
-            <span id="previewCopyButton" style="color: #555; font-size: 22px; cursor: pointer;" title="Copy to clipboard">📋</span>
-            <span id="previewCloseButton" style="color: #aaa; font-size: 46px; font-weight: bold; cursor: pointer;">&times;</span>
-          </div>
-        </div>
-        <div id="previewContent" style="text-align: left; overflow: auto; flex: 1 1 auto; min-height: 0;"></div>
       </div>
     </div>`);
   }
@@ -161,6 +151,8 @@ function createBlossomDownloadHelpers() {
     const a = document.createElement('a');
     a.href = getBlossomDownloadURL(hash, filename);
     a.rel = 'noopener noreferrer';
+    // The synthetic click lands at (0, 0), which a modal's outside-click handler reads as a dismissal.
+    a.addEventListener('click', event => event.stopPropagation());
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
@@ -286,28 +278,15 @@ window.renderAssetsTable = async function({
   let hasAssets = false;
   let cachePaintFingerprint = null;
   let cachePaintResult = null;
+  // The data behind the table on screen, so it can be repainted once the
+  // visitor's pubkey is known.
+  let paintedAssetInfo = null;
+  let paintedFromCache = false;
 
   const verificationIdFromHash = getVerificationIdFromHash();
 
   resetAttachmentState();
   resetEndorsementsState();
-
-  const userPubkeyPromise = getUserPubkey()
-    .then((pubkey) => {
-      window.userPubkey = pubkey;
-      return pubkey;
-    })
-    .catch((e) => {
-      console.error("Error getting user pubkey:", e);
-      window.userPubkey = null;
-      return null;
-    });
-
-  if (!verificationIdFromHash) {
-    await userPubkeyPromise;
-  } else {
-    void userPubkeyPromise;
-  }
 
   const host = document.getElementById(htmlElementId);
   if (host && hideConfig?.wallet) {
@@ -375,6 +354,7 @@ window.renderAssetsTable = async function({
       info: assetInfo,
       hasAssets: paintResult.hasAssets,
       hasVerifications: paintResult.hasVerifications,
+      rows: paintResult.sortedItems,
     });
   }
 
@@ -384,10 +364,39 @@ window.renderAssetsTable = async function({
     hasAssets = pr.hasAssets;
     cachePaintFingerprint = fingerprintAllAssetInformation(cachedData);
     cachePaintResult = pr;
+    paintedAssetInfo = cachedData;
+    paintedFromCache = true;
     afterTablePaint(pr);
     tryOpenHashVerification(cachedData, false, effectiveAppId, verificationIdFromHash);
     notifyTableLoaded(cachedData, pr);
   }
+
+  // Don't wait for the signer before painting: without a Nostr extension,
+  // waitNostr runs into its full timeout (about 3 s, the usual case on
+  // phones). The pubkey only marks the visitor's own rows and drafts, so
+  // repaint once it is known.
+  void getUserPubkey()
+    .then((userPubkey) => {
+      window.userPubkey = userPubkey;
+      if (!paintedAssetInfo || !document.getElementById('assetsTable')) {
+        return;
+      }
+      removeAssetsTableDynamicContent(htmlElementId);
+      const pr = runPaint(paintedAssetInfo);
+      hasAssets = pr.hasAssets;
+      if (paintedFromCache) {
+        cachePaintResult = pr;
+      }
+      afterTablePaint(pr);
+      notifyTableLoaded(paintedAssetInfo, pr);
+    })
+    .catch((e) => {
+      // Most visitors have no Nostr extension; that is not an error.
+      if (e?.message !== "No signer available") {
+        console.error("Error getting user pubkey:", e);
+      }
+      window.userPubkey = null;
+    });
 
   const globalCachedAssetInfo = findCachedGlobalAssetInfo(effectiveAppId, verificationIdFromHash);
   if (globalCachedAssetInfo) {
@@ -438,6 +447,8 @@ window.renderAssetsTable = async function({
     paintResult = runPaint(response);
     hasAssets = paintResult.hasAssets;
     table = paintResult.table;
+    paintedAssetInfo = response;
+    paintedFromCache = false;
   }
 
   const { profilePubkeys } = paintResult;
@@ -486,6 +497,8 @@ window.renderAssetsTable = async function({
 
   updateTableVisibility();
 
+  // The pubkey repaint may have replaced the table while attachments loaded.
+  table = document.getElementById('assetsTable') || table;
   setupBlossomDownloadObserverForTable(table, {
     checkFileExistsInBlossom,
     openBlossomBundleDownloadModal: blossomHelpers.openBlossomBundleDownloadModal,

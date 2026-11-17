@@ -1,7 +1,6 @@
 ---
-wsId: monabitWallet
 title: MonaBit Wallet
-date: 2025-02-26
+date: 2026-10-30
 authors:
 - danny
 website: https://monabit.io
@@ -9,7 +8,6 @@ social:
 - https://www.instagram.com/monabit.io
 - https://www.facebook.com/monabitapp
 - https://www.youtube.com/channel/UC2oFxYscQFtbVp-nvczEddQ
-- https://monabit.io
 redirect_from:
 - /android/io.monabit.wallet/
 - /iphone/io.monabit.app/
@@ -21,7 +19,6 @@ android:
   updated: 2026-05-13
   version: 4.5.3
   reviews: 3
-  icon: io.monabit.wallet.webp
   meta: ok
   verdict: nosource
   developerName: MonaBit
@@ -33,7 +30,6 @@ iphone:
   updated: 2026-05-14
   version: '4.5'
   reviews: 0
-  icon: io.monabit.app.webp
   meta: ok
   verdict: nosource
   developerName: Monabit S.A.S
@@ -65,4 +61,4 @@ We have found no evidence to indicate that the source code for this app is publi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

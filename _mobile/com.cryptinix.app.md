@@ -1,7 +1,6 @@
 ---
-wsId: Cryptinix
 title: 'Cryptinix: Crypto Trading'
-date: 2025-08-21
+date: 2026-10-30
 authors:
 - danny
 website: https://cryptinix.com
@@ -15,8 +14,7 @@ android:
   released: 2020-11-24
   updated: 2025-10-14
   version: 1.2.9
-  icon: com.cryptinix.app.webp
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: Cryptinix
 iphone:
@@ -24,11 +22,10 @@ iphone:
   idd: 1539414769
   appCountry: gb
   released: 2020-11-11
-  updated: 2023-08-30
-  version: 1.2.7
+  updated: 2026-10-13
+  version: 1.2.9
   reviews: 0
-  icon: com.cryptinix.app.webp
-  meta: obsolete
+  meta: ok
   verdict: custodial
   developerName: CRYPTINIX TRADER LTD
 
@@ -62,4 +59,4 @@ Since this is an exchange, it did not provide backup mnemonics or seed words. Ex
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

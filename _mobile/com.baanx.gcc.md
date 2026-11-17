@@ -1,6 +1,6 @@
 ---
 title: GCC
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: https://www.gccglobalplatform.com
@@ -12,7 +12,6 @@ android:
   released: 2020-06-14
   updated: 2020-09-17
   version: 1.2.0
-  icon: com.baanx.gcc.webp
   meta: removed
   verdict: wip
   developerName: GCC GLOBAL PAYMENTS LIMITED

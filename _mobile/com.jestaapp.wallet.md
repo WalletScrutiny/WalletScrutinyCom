@@ -1,6 +1,6 @@
 ---
 title: Jesta wallet - Trade crypto
-date: 2023-07-18
+date: 2026-10-30
 authors:
 - danny
 website: https://burtar.com#deadLink
@@ -13,7 +13,6 @@ android:
   updated: 2022-09-02
   version: '2.0'
   reviews: 60
-  icon: com.jestaapp.wallet.webp
   meta: removed
   verdict: wip
   developerName: GGTC GLOBAL

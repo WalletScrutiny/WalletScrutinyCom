@@ -1,6 +1,6 @@
 ---
 title: 'Oblio: Bitcoin & Crypto Wallet'
-date: 2026-01-14
+date: 2026-10-30
 website: https://obliowallet.com
 redirect_from:
 - /android/com.oblio.wallet/
@@ -11,7 +11,6 @@ android:
   released: 2025-01-12
   updated: 2026-02-16
   version: 1.0.13
-  icon: com.oblio.wallet.webp
   meta: fewusers
   verdict: wip
   developerName: Oblio Wallet

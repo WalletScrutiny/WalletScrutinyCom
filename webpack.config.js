@@ -41,6 +41,7 @@ module.exports = (env, argv) => {
           './src/drag-and-drop-utils.mjs',
           './src/blossom.mjs',
           './src/blossom-utils.mjs',
+          './src/build-lock-upload.mjs',
           './src/drag-and-drop.js',
           './src/assets-table-utils.mjs',
           './src/assets-table-comments.mjs',
@@ -52,12 +53,25 @@ module.exports = (env, argv) => {
           './src/assets-table-attachments.mjs',
           './src/assets-table-modal.mjs',
           './src/assets-table-hash.mjs',
+          './src/build-verifications.mjs',
+          './src/dependencies-panel.mjs',
           './src/assets-table.js',
           './src/preview-button.js',
           './src/renderShareButton.js',
           './src/renderNostrButton.js',
           './src/zapModal.mjs'
         ],
+        dependOn: ['dom_sanitization', 'verifications_data'],
+      },
+      // Community opinions widget on review pages (src/opinions/). Shares the
+      // Nostr pool, DOMPurify, marked and the profile cache with the entries
+      // above instead of bundling its own copies.
+      opinions_ui: {
+        import: ['./src/opinions/index.mjs'],
+        dependOn: ['dom_sanitization', 'verifications_data', 'verifications_ui'],
+      },
+      opinions_moderation: {
+        import: ['./src/opinions/moderation-page-boot.mjs'],
         dependOn: ['dom_sanitization', 'verifications_data'],
       },
     },
@@ -80,6 +94,12 @@ module.exports = (env, argv) => {
     module: {
       rules: [
         {
+          // Widget stylesheets are imported as strings and injected by the
+          // module that owns them (see src/opinions/index.mjs).
+          test: /\.css$/,
+          type: 'asset/source',
+        },
+        {
           test: /\.m?js$/,
           exclude: /node_modules/,
           use: {
@@ -90,6 +110,12 @@ module.exports = (env, argv) => {
           }
         }
       ]
+    },
+    performance: {
+      // The opinions editor (ToastUI + ProseMirror, ~550 KiB minified) is a
+      // lazy chunk fetched only when someone opens "Add your opinion", so it
+      // is allowed over the 244 KiB hint. Everything else still warns.
+      assetFilter: (assetFilename) => !assetFilename.startsWith('opinions-editor'),
     },
     optimization: {
       minimize: true,
@@ -146,6 +172,11 @@ module.exports = (env, argv) => {
             if (argv.mode === 'development') {
               console.log("Launching Jekyll server...");
 
+              // JEKYLL_EXTRA_CONFIG=_config.fast.yml (npm run dev:fast) renders a sample of the wallets.
+              const jekyllConfigs = ["_config.yml", "_config.dev.yml", process.env.JEKYLL_EXTRA_CONFIG]
+                .filter(Boolean)
+                .join(",");
+
               spawn("bundle", [
                 "exec",
                 "jekyll",
@@ -154,7 +185,7 @@ module.exports = (env, argv) => {
                 "--trace",
                 "--host=localhost",
                 "--config",
-                "_config.yml,_config.dev.yml",
+                jekyllConfigs,
                 "--incremental",
               ], {
                 stdio: "inherit",

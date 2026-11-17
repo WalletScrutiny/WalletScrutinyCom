@@ -1,6 +1,6 @@
 ---
 title: Minibits Wallet
-date: 2024-11-29
+date: 2026-10-30
 authors:
 - danny
 website: https://www.minibits.cash
@@ -16,9 +16,8 @@ android:
   appId: com.minibits_wallet
   users: 1000
   appCountry: us
-  updated: 2026-06-02
+  updated: 2026-10-09
   version: VARY
-  icon: com.minibits_wallet.webp
   alternativeStores:
   - zapstore
   meta: ok

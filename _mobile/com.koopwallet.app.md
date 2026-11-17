@@ -1,7 +1,6 @@
 ---
-wsId: koopWallet
 title: KOOP Wallet
-date: 2025-01-27
+date: 2026-10-30
 authors:
 - danny
 website: https://koopwallet.com/privacy.html#deadLink
@@ -21,7 +20,6 @@ android:
   updated: 2023-07-11
   version: 21.0.0
   reviews: 5
-  icon: com.koopwallet.app.webp
   meta: removed
   verdict: nosource
   developerName: KOOP LABS LLC
@@ -33,7 +31,6 @@ iphone:
   updated: 2023-04-20
   version: '20.0'
   reviews: 0
-  icon: com.koopwallet.app.webp
   meta: removed
   verdict: nosource
   developerName: KOOP Wallet
@@ -68,4 +65,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

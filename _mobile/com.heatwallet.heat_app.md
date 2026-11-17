@@ -1,6 +1,6 @@
 ---
 title: Heat Wallet
-date: 2026-05-21
+date: 2026-10-30
 redirect_from:
 - /android/com.heatwallet.heat_app/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2024-10-24
   updated: 2025-02-07
   version: 2.5.2
-  icon: com.heatwallet.heat_app.webp
   meta: stale
   verdict: wip
   developerName: Tulipfox-Tech

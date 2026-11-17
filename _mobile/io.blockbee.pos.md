@@ -1,6 +1,6 @@
 ---
 title: BlockBee POS
-date: 2025-04-09
+date: 2026-10-30
 website: https://blockbee.io
 redirect_from:
 - /android/io.blockbee.pos/
@@ -10,7 +10,6 @@ android:
   released: 2022-08-30
   updated: 2024-10-07
   version: 1.0.2.3
-  icon: io.blockbee.pos.webp
   meta: removed
   verdict: wip
   developerName: BlockBee

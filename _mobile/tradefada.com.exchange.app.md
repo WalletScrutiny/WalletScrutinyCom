@@ -1,10 +1,9 @@
 ---
-wsId: tradefada
 title: 'Tradefada: Bitcoin Exchange'
-date: 2024-10-02
+date: 2026-10-30
 authors:
 - danny
-website: https://tradefada.com
+website: https://tradefada.com#deadLink
 twitter: tradefada
 social:
 - https://www.facebook.com/Tradefada01
@@ -19,7 +18,6 @@ android:
   users: 1000
   updated: 2023-10-26
   version: 3.3.0
-  icon: tradefada.com.exchange.app.webp
   meta: removed
   verdict: custodial
   developerName: Tradefada Global
@@ -31,12 +29,13 @@ iphone:
   updated: 2021-11-04
   version: 1.3.13
   reviews: 2
-  icon: dev.com.tradefada.app.webp
   meta: removed
   verdict: custodial
   developerName: Tradefada LLC
 
 ---
+
+**Update 2026-10-30:** Tradefada looks gone. Both apps are gone from the stores, and tradefada.com no longer loads.
 
 ## Android
 
@@ -60,4 +59,4 @@ These are indicators of a **custodial** service, making the app non-verifiable.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

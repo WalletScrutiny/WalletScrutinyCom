@@ -1,7 +1,6 @@
 ---
-wsId: kleverK5FinanceCrypto
 title: 'Klever Wallet: Crypto,DeFi,BTC'
-date: 2023-07-11
+date: 2026-10-30
 authors:
 - danny
 website: https://klever.io
@@ -26,10 +25,9 @@ android:
   users: 100000
   appCountry: us
   released: 2023-01-16
-  updated: 2026-09-29
-  version: 5.50.34
+  updated: 2026-10-05
+  version: 5.50.37
   reviews: 205
-  icon: finance.klever.bitcoin.wallet.webp
   meta: ok
   verdict: nosource
   developerName: 'Klever Wallet: BTC, ETH, TRX, KLV, SOL, and More'
@@ -40,8 +38,7 @@ iphone:
   released: 2023-01-25
   updated: 2026-09-09
   version: 5.9.12
-  reviews: 1127
-  icon: finance.klever.bitcoin.wallet.webp
+  reviews: 1133
   meta: ok
   verdict: nosource
   developerName: Klever Exchange
@@ -87,7 +84,7 @@ Although klever has an extensive organization page on GitHub, its Android reposi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Bitcoin Lightning Wallet for Payments Pay in seconds with Bitcoin Lightning. Klever Wallet lets you use BTC with low fees, making it the ideal Bitcoin Lightning wallet for micropayments and transfers." source="Store description" %}
 

@@ -1,7 +1,6 @@
 ---
-wsId: coinext
 title: 'Coinext: Comprar Bitcoin'
-date: 2024-09-07
+date: 2026-10-30
 authors:
 - danny
 website: https://coinext.com.br
@@ -22,8 +21,7 @@ android:
   updated: 2026-09-14
   version: 2.49.1
   reviews: 7
-  icon: br.com.coinext.webp
-  meta: ok
+  meta: defunct
   verdict: custodial
   developerName: Coinext Serviços Digitais Ltda.
 iphone:
@@ -33,13 +31,14 @@ iphone:
   released: 2019-01-27
   updated: 2026-09-15
   version: 2.49.1
-  reviews: 5137
-  icon: br.com.coinext.Coinext.webp
-  meta: ok
+  reviews: 5162
+  meta: defunct
   verdict: custodial
   developerName: Coinext
 
 ---
+
+**⚠️ Warning:** Coinext is closing its retail exchange. It announced the wind-down on 2026-09-03, trading ended on 2026-10-15, customers had until 2026-10-20 to withdraw their coins, and coins left after that are sold for reais from 2026-10-26 ([Coinext](https://coinext.com.br/suporte/coinext-encerramento-duvidas-frequentes), [Livecoins, 2026-09-03](https://livecoins.com.br/corretora-de-bitcoin-coinext-anuncia-fim-de-suas-operacoes-no-brasil/), [TechCripto](https://techcripto.com/noticias/coinext-fechou-brasil/09/2026/)).
 
 ## Android
 
@@ -61,4 +60,4 @@ Wallets are hosted on accounts on the platform which means that control over pri
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

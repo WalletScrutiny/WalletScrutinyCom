@@ -1,6 +1,6 @@
 ---
 title: 'Shiftr: Crypto & Bitcoin Wallet - Earn Interests'
-date: 2022-05-31
+date: 2026-10-30
 website: https://app.wirewallet.org#deadLink
 redirect_from:
 - /android/com.fiber.fiberwallet/
@@ -10,7 +10,6 @@ android:
   released: 2021-04-20
   updated: 2021-04-27
   version: 1.1.85
-  icon: com.fiber.fiberwallet.webp
   meta: removed
   verdict: wip
 

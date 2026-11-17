@@ -1,7 +1,6 @@
 ---
-wsId: functionX
 title: Pundi Wallet
-date: 2021-10-26
+date: 2026-10-30
 authors:
 - danny
 website: https://functionx.io
@@ -27,7 +26,6 @@ android:
   updated: 2026-03-26
   version: 5.10.1
   reviews: 43
-  icon: com.pundix.functionx.webp
   meta: ok
   verdict: nosource
   developerName: Pundi X Labs
@@ -40,7 +38,6 @@ iphone:
   updated: 2026-01-23
   version: 5.9.0
   reviews: 65
-  icon: com.pundix.fx.connect.webp
   meta: ok
   verdict: nosource
   developerName: PUNDI X LABS
@@ -107,7 +104,7 @@ The source code for this app is **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="foss" quote="Apache License Version 2.0, January 2004 http://www.apache.org/licenses/" source="License" %}
 

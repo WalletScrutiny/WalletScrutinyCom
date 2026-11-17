@@ -1,7 +1,6 @@
 ---
-wsId: paycool
 title: Pay.cool
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: https://pay.cool
@@ -16,7 +15,6 @@ android:
   updated: 2024-03-04
   version: 2.5.163
   reviews: 3
-  icon: cool.pay.paycool.webp
   meta: removed
   verdict: custodial
   developerName: Exchangily LLC
@@ -28,12 +26,13 @@ iphone:
   updated: 2024-03-05
   version: 2.5.163
   reviews: 16
-  icon: cool.pay.paycool.webp
   meta: removed
   verdict: custodial
   developerName: Exchangily LLC
 
 ---
+
+**Update 2026-10-30:** Exchangily LLC replaced this app with a successor, Pay.Cool+, released in February 2024 for Android and iPhone. [pay.cool](https://pay.cool) still describes the same Pay.Cool payment and rewards system.
 
 ## Android
 
@@ -47,4 +46,4 @@ Sounds **custodial.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

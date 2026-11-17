@@ -5,18 +5,17 @@ authors:
 - danny
 released: 2016-04-09
 discontinued: 
-updated: 2026-09-16
-version: 1.10.8
+updated: 2026-10-01
+version: 1.10.9
 binaries: 
 provider: 
 providerWebsite: 
 website: https://bisq.network
 repository: https://github.com/bisq-network/bisq
-icon: bisq.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-08-25
+date: 2026-10-30
 twitter: bisq_network
 social: 
 builds:

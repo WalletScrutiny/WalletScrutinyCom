@@ -1,6 +1,6 @@
 ---
 title: LZ Wallet - Crypto & Bitcoin W
-date: 2023-05-30
+date: 2026-10-30
 authors:
 - danny
 website: https://lz.finance/#&deadLink
@@ -12,7 +12,6 @@ android:
   released: 2021-11-30
   updated: 2022-09-08
   version: 1.0.4
-  icon: com.launchzone.lzwallet.webp
   meta: removed
   verdict: wip
   developerName: LaunchZone

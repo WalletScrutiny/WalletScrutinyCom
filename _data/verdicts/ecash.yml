@@ -1,5 +1,6 @@
 short: eCash!
 title: 'Uses Chaumian eCash'
+status: Uses Chaumian eCash, which requires trust in the mint operators.
 pass: The wallet allows using Chaumian eCash mints.
 color: '#d33100'
 redflag: true

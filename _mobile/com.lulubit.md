@@ -1,7 +1,6 @@
 ---
-wsId: luluBit
 title: 'Lulubit: Compra Bitcoin Cripto'
-date: 2025-11-19
+date: 2026-10-30
 authors:
 - danny
 website: https://lulubit.app
@@ -19,7 +18,6 @@ android:
   updated: 2026-02-27
   version: 1.47.0
   reviews: 17
-  icon: com.lulubit.webp
   meta: removed
   verdict: custodial
   developerName: Lulubit
@@ -28,10 +26,9 @@ iphone:
   idd: '6444370380'
   appCountry: pa
   released: 2023-04-17
-  updated: 2026-09-22
-  version: 1.64.0
+  updated: 2026-10-05
+  version: 1.66.0
   reviews: 181
-  icon: lulubitLLC.lulubit.webp
   meta: ok
   verdict: custodial
   developerName: Lulubit
@@ -66,4 +63,4 @@ This app is **custodial**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,11 +1,10 @@
 ---
-wsId: wirexwalletdefi
 title: 'COCA: Crypto Card & Wallet'
-date: 2022-01-10
+date: 2026-10-30
 authors:
 - danny
-website: https://wirexapp.com/wirex-wallet#deadLink
-twitter: wirexapp
+website: https://www.coca.xyz/
+twitter: coca_card
 social:
 - https://github.com/wirexapp
 features:
@@ -21,10 +20,9 @@ android:
   users: 500000
   appCountry: nz
   released: 2021-12-03
-  updated: 2026-09-21
-  version: 3.8.1
+  updated: 2026-10-07
+  version: 3.9.1
   reviews: 16
-  icon: com.wirex.wallet.webp
   meta: ok
   verdict: nosource
   developerName: CCA LABS
@@ -33,15 +31,16 @@ iphone:
   idd: 1594165139
   appCountry: nz
   released: 2021-12-07
-  updated: 2026-09-22
-  version: 3.8.2
-  reviews: 10
-  icon: com.wirex.wallet.webp
+  updated: 2026-10-07
+  version: 3.9.1
+  reviews: 11
   meta: ok
   verdict: nosource
   developerName: CCA LABS - FZCO
 
 ---
+
+**Update 2026-10-30:** This app, which we reviewed as the Wirex Wallet, is now called COCA in both stores. The publisher is CCA LABS, shown as CCA LABS - FZCO on the App Store. The [COCA website](https://www.coca.xyz/) links to this app ID on both stores. It is not the legacy Wirex app, {% include walletLink.html wallet='android/com.wirex' verdict='true' %}, which [stopped supporting transactions on 2026-09-30](https://help.wirexapp.com/article/wirex-one-upgrade-faq-1685), and not its successor, {% include walletLink.html wallet='android/com.wirexapp.one' verdict='true' %}.
 
 ## Android
 
@@ -81,7 +80,7 @@ At present, the verdict that we can give it is it is not an open source project.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Create your account in just a few minutes and secure it with biometrics. Deposit crypto or buy it with your bank card, and start spending and earning right away." source="Store description" %}
 

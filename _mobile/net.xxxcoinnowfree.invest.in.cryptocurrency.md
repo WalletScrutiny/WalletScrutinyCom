@@ -1,6 +1,6 @@
 ---
 title: Invest In Cryptocurrency
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/net.xxxcoinnowfree.invest.in.cryptocurrency/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-07-22
   updated: 2021-07-22
   version: '1.0'
-  icon: net.xxxcoinnowfree.invest.in.cryptocurrency.webp
   meta: removed
   verdict: wip
 

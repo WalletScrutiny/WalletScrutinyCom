@@ -1,6 +1,6 @@
 ---
 title: CoinRabbit BTC & Crypto Wallet
-date: 2026-05-27
+date: 2026-10-30
 authors:
 - danny
 website: https://coinrabbit.io/
@@ -12,9 +12,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-07-21
-  updated: 2026-09-15
-  version: 1.3.0
-  icon: com.coinrabbit.webp
+  updated: 2026-10-09
+  version: 1.4.0
   meta: ok
   verdict: custodial
   developerName: CoinRabbit

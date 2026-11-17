@@ -1,7 +1,6 @@
 ---
-wsId: Airbitz
 title: Bitcoin Wallet - Airbitz
-date: 2021-10-19
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -20,7 +19,6 @@ android:
   updated: 2018-09-21
   version: 2.4.12
   reviews: 490
-  icon: com.airbitz.webp
   meta: removed
   verdict: sourceavailable
   repository: https://github.com/EdgeApp/airbitz-android-gui
@@ -32,7 +30,6 @@ iphone:
   updated: 2018-09-21
   version: 2.4.12
   reviews: 82
-  icon: co.airbitz.airbitz.webp
   meta: obsolete
   verdict: sourceavailable
   developerName: Airbitz Inc
@@ -41,6 +38,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The registration of [airbitz.co](http://airbitz.co/) has expired and the domain shows a Namecheap parking page.
 
 *Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/4858b0b76e8e8e7fe6c60e2e3af81360a79bed91/_android/com.airbitz.md)*
 
@@ -52,6 +51,6 @@ An issue has been opened at [https://github.com/EdgeApp/airbitz-android-gui/issu
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 An issue has been opened at [https://github.com/EdgeApp/airbitz-android-gui/issues/21](https://github.com/EdgeApp/airbitz-android-gui/issues/21)

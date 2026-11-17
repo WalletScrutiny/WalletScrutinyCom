@@ -1,6 +1,6 @@
 ---
 title: 'B I N A N C E : Trade cryptocurrency (Binance)'
-date: 2021-09-02
+date: 2026-10-30
 redirect_from:
 - /android/com.trustdx.binance/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-08-20
   updated: 2021-08-21
   version: '1.0'
-  icon: com.trustdx.binance.webp
   meta: removed
   verdict: fake
 

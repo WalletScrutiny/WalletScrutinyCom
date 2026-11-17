@@ -1,7 +1,6 @@
 ---
-wsId: dzengiComInvesting
 title: 'Dzengi: Инвестиции в токены'
-date: 2025-07-18
+date: 2026-10-30
 authors:
 - danny
 website: https://dzengi.com/
@@ -15,8 +14,7 @@ android:
   released: 2020-12-10
   updated: 2026-08-13
   version: 2.22.2
-  reviews: 309
-  icon: com.currency.exchange.investsmart.webp
+  reviews: 310
   meta: ok
   verdict: custodial
   developerName: Dzengi.com
@@ -28,7 +26,6 @@ iphone:
   updated: 2022-11-18
   version: 1.32.0
   reviews: 23
-  icon: com.currency.exchange.investsmart.webp
   meta: removed
   verdict: custodial
   developerName: DZ INVESTMENTS POLAND Sp.z.o.o
@@ -51,4 +48,4 @@ The use of cold storage is [proof](https://dzengi.com/security) this is a custod
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

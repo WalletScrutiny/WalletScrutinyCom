@@ -1,10 +1,9 @@
 ---
-wsId: huobi
 title: 'HTX: Buy Crypto & Bitcoin'
-date: 2020-05-29
+date: 2026-10-30
 authors:
 - leo
-website: http://www.hbg.com
+website: https://www.htx.com
 twitter: HuobiGlobal
 social:
 - https://www.facebook.com/huobiglobalofficial
@@ -21,10 +20,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2017-11-01
-  updated: 2026-09-24
-  version: 11.38.0
+  updated: 2026-09-29
+  version: 11.38.1
   reviews: 543
-  icon: pro.huobi.webp
   meta: ok
   verdict: custodial
   developerName: Huobi
@@ -36,7 +34,6 @@ iphone:
   updated: 2026-05-25
   version: 11.20.1
   reviews: 1427
-  icon: com.huobi.appStoreHuobiSystem.webp
   meta: removed
   verdict: custodial
   developerName: SAFE GLORY UAB
@@ -44,6 +41,9 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Huobi is now HTX. The old website www.hbg.com no longer
+loads, so we replaced it with [htx.com](https://www.htx.com).
 
 Neither on Google Play nor on their website can we find a claim of a
 non-custodial part to this app. We assume it is a purely custodial interface to

@@ -12,11 +12,10 @@ provider:
 providerWebsite: 
 website: https://bither.net
 repository: https://github.com/bither/bither-desktop-java
-icon: bither.webp
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-date: 2025-04-12
+date: 2026-10-30
 twitter: bithernet
 social: 
 builds: 

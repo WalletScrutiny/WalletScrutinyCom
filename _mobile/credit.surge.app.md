@@ -1,6 +1,6 @@
 ---
 title: Surge Credit
-date: 2026-06-09
+date: 2026-10-30
 website: https://www.surge.credit/
 redirect_from:
 - /iphone/credit.surge.app/
@@ -9,10 +9,9 @@ android:
   users: 1000
   appCountry: us
   released: 2026-04-08
-  updated: 2026-09-08
-  version: 1.0.14
+  updated: 2026-10-05
+  version: 1.0.15
   reviews: 5
-  icon: credit.surge.app.webp
   meta: ok
   verdict: custodial
   developerName: Amby, Inc.
@@ -21,10 +20,9 @@ iphone:
   idd: '6756261968'
   appCountry: us
   released: 2026-03-17
-  updated: 2026-09-09
-  version: 1.0.14
+  updated: 2026-10-10
+  version: 1.0.15
   reviews: 5
-  icon: credit.surge.app.webp
   meta: ok
   verdict: custodial
   developerName: Surge Credit

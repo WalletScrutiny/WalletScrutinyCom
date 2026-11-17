@@ -1,7 +1,6 @@
 ---
-wsId: bipaBR
 title: 'Bipa: Bitcoin, Pix e Cartão'
-date: 2023-06-14
+date: 2026-10-30
 authors:
 - danny
 website: https://bipa.app/
@@ -18,10 +17,9 @@ android:
   users: 500000
   appCountry: us
   released: 2021-01-18
-  updated: 2026-09-28
-  version: 4.2.74
+  updated: 2026-10-13
+  version: 4.2.82
   reviews: 13
-  icon: bipa.app.bipa.webp
   meta: ok
   verdict: custodial
   developerName: Bipa
@@ -30,10 +28,9 @@ iphone:
   idd: '1516842324'
   appCountry: br
   released: 2020-06-30
-  updated: 2026-09-28
-  version: 4.2.38
-  reviews: 9527
-  icon: bipa.app.Bipa.webp
+  updated: 2026-10-10
+  version: 4.3.0
+  reviews: 9577
   meta: ok
   verdict: custodial
   developerName: Bipa Ltda
@@ -85,7 +82,7 @@ Therefore, we conclude that this is a **custodial** provider.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Transfira seu Bitcoin para qualquer carteira — sem taxas, on-chain ou pela Lightning Network." source="Store" %}
 

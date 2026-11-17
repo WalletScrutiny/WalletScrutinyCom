@@ -1,7 +1,6 @@
 ---
-wsId: bitcastleTradeCrypto
 title: 'bitcastle: Buy & Trade Crypto'
-date: 2023-07-10
+date: 2026-10-30
 authors:
 - danny
 website: https://bitcastle.io/
@@ -20,7 +19,6 @@ android:
   updated: 2026-06-25
   version: 1.13.12
   reviews: 19
-  icon: com.llc.bitcastle.webp
   meta: ok
   verdict: custodial
   developerName: bitcastle Limited
@@ -32,7 +30,6 @@ iphone:
   updated: 2026-04-22
   version: 1.12.14
   reviews: 0
-  icon: com.llc.bitcastle.webp
   meta: ok
   verdict: custodial
   developerName: bitcastle LLC
@@ -61,4 +58,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: StrikeXDefi
 title: StrikeX | DeFi Crypto Wallet
-date: 2023-06-30
+date: 2026-10-30
 authors:
 - danny
 website: https://tradestrike.io/strikex-wallet/
@@ -13,7 +12,6 @@ social:
 - https://www.instagram.com/tradestrike.bvi
 - https://t.me/StrikeXcrypto
 - https://discord.com/invite/tradestrike
-- https://tradestrike.io/strikex-wallet
 - https://www.linkedin.com/companystrikex
 features:
 - buyWithCC
@@ -32,7 +30,6 @@ android:
   updated: 2025-11-13
   version: 4.2.8
   reviews: 26
-  icon: com.tradestrike.webp
   meta: ok
   verdict: nosource
   developerName: TradestrikeBVI
@@ -44,7 +41,6 @@ iphone:
   updated: 2025-11-17
   version: '20.04'
   reviews: 234
-  icon: com.strikeXWallet.webp
   meta: ok
   verdict: nosource
   developerName: StrikeXWallet
@@ -75,7 +71,7 @@ No change has been noted and no relevant repository has been found when searchin
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="buying, selling, swapping, transferring, and tracking your favourite crypto projects" source="Store" %}
 

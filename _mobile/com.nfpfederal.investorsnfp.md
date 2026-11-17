@@ -1,6 +1,6 @@
 ---
 title: NFP
-date: 2024-04-19
+date: 2026-10-30
 website: https://nfpfederal.com#deadLink
 redirect_from:
 - /android/com.nfpfederal.investorsnfp/
@@ -10,7 +10,6 @@ android:
   released: 2020-09-23
   updated: 2020-09-23
   version: '1.0'
-  icon: com.nfpfederal.investorsnfp.webp
   meta: removed
   verdict: wip
   developerName: NFP Developer Team

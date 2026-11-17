@@ -1,7 +1,6 @@
 ---
-wsId: n26App
 title: N26 — Love your bank
-date: 2025-10-17
+date: 2026-10-30
 authors:
 - danny
 website: https://n26.com/?utm_source=appstore&utm_medium=description
@@ -19,10 +18,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2015-01-23
-  updated: 2026-09-23
-  version: 4.60.1
+  updated: 2026-10-02
+  version: '4.61'
   reviews: 2176
-  icon: de.number26.android.webp
   meta: ok
   verdict: custodial
   developerName: N26 AG
@@ -31,10 +29,9 @@ iphone:
   idd: '956857223'
   appCountry: us
   released: 2015-02-04
-  updated: 2026-09-22
-  version: '4.60'
-  reviews: 11963
-  icon: de.no26.Number26.webp
+  updated: 2026-10-06
+  version: '4.61'
+  reviews: 12031
   meta: ok
   verdict: custodial
   developerName: N26 SE
@@ -59,4 +56,4 @@ This may be done via API, where the custodian is Bitpanda. Nevertheless, this is
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

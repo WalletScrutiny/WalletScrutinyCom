@@ -1,6 +1,6 @@
 ---
 title: Q7Trades
-date: 2023-08-04
+date: 2026-10-30
 website: https://q7trades.com#deadLink
 redirect_from:
 - /android/com.wQ7Trades_15018357/
@@ -10,7 +10,6 @@ android:
   released: 2022-01-13
   updated: 2022-01-13
   version: 1.0.2
-  icon: com.wQ7Trades_15018357.webp
   meta: removed
   verdict: wip
   developerName: Decentralized Finance

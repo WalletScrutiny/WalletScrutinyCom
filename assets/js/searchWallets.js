@@ -3,15 +3,63 @@ const platformOrder = ['hardware', 'desktop', 'android', 'iphone', 'mobile', 'be
 const metaOrder = ['ok', 'discontinued', 'deprecated', 'stale', 'obsolete', 'removed', 'defunct', 'fewusers'];
 
 // Core search functions
+
+// A wallet is searched as the upper-cased JSON of all its fields. Building
+// that string for every wallet on every keystroke was most of the search
+// cost, so it is built once per wallet object and kept here. matchRank,
+// matchData and titleMatchTier are search bookkeeping written onto the wallet,
+// not wallet data.
+let walletSearchTextCache = new WeakMap();
+
+function isSearchBookkeepingKey (key) {
+  return key === 'matchRank' || key === 'matchData' || key === 'titleMatchTier';
+}
+
+function getWalletSearchText (wallet) {
+  let text = walletSearchTextCache.get(wallet);
+  if (text === undefined) {
+    text = `${wallet.title}`;
+    for (const [key, value] of Object.entries(wallet)) {
+      if (isSearchBookkeepingKey(key)) continue;
+      text += `${wallet.altTitle}${JSON.stringify(value, (k, v) => (isSearchBookkeepingKey(k) ? undefined : v))}${key}`;
+    }
+    text = String(text).toUpperCase();
+    walletSearchTextCache.set(wallet, text);
+  }
+  return text;
+}
+
+// Fill the cache in idle time so the first keystroke does not pay for all
+// wallets at once.
+function warmWalletSearchTextCache (wallets) {
+  const schedule = window.requestIdleCallback ? (fn) => window.requestIdleCallback(fn) : (fn) => setTimeout(fn, 50);
+  const chunk = 300;
+  let i = 0;
+  const step = () => {
+    const end = Math.min(i + chunk, wallets.length);
+    for (; i < end; i++) getWalletSearchText(wallets[i]);
+    if (i < wallets.length) schedule(step);
+  };
+  schedule(step);
+}
+
+// When no title contains the whole query, results are ranked by how much of
+// the query the title holds, so "bitcoin safe" finds "Bitcoin-Safe Desktop"
+// and "muun wallet" finds "Muun: Bitcoin Lightning Wallet" ahead of every
+// listing that merely mentions "wallet": 1 = every word, 2 = the first word,
+// 3 = some other word, 4 = none (the match is elsewhere in the listing).
+function getTitleMatchTier (titleUpper, words) {
+  const found = words.map((word) => titleUpper.indexOf(word) >= 0);
+  if (found.every(Boolean)) return 1;
+  if (found[0]) return 2;
+  if (found.some(Boolean)) return 3;
+  return 4;
+}
+
 function searchByWords(query, wallet) {
   const searchTermWords = query.length > 0 ? query.split(" ") : false;
   const walletTitleUpper = String(wallet.title || '').toUpperCase();
-  let walletAsStr = '';
-  for (const [key, value] of Object.entries(wallet)) {
-    walletAsStr += `${wallet.altTitle}${JSON.stringify(value)}${key}`;
-  }
-  walletAsStr = `${wallet.title}${walletAsStr}`;
-  walletAsStr = String(walletAsStr).toUpperCase();
+  const walletAsStr = getWalletSearchText(wallet);
 
   let result = false;
   for (let i = 0; i < searchTermWords.length; i++) {
@@ -31,13 +79,13 @@ function searchByWords(query, wallet) {
       wallet.matchData = "word4 " + word4;
       break;
     }
-    if (walletAsStr.indexOf(word3) >= 0) {
+    if (word3 && walletAsStr.indexOf(word3) >= 0) {
       result = wallet;
       wallet.matchRank = walletAsStr.indexOf(word3);
       wallet.matchData = "word3 " + word3;
       break;
     }
-    if (walletAsStr.indexOf(word2) >= 0) {
+    if (word2 && walletAsStr.indexOf(word2) >= 0) {
       result = wallet;
       wallet.matchRank = walletAsStr.indexOf(word2);
       wallet.matchData = "word2 " + word2;
@@ -49,6 +97,11 @@ function searchByWords(query, wallet) {
       wallet.matchData = "word " + word;
       break;
     }
+  }
+  if (result) {
+    wallet.titleMatchTier = wallet.matchRank === 0
+      ? 0
+      : getTitleMatchTier(walletTitleUpper, searchTermWords.filter((word) => word.length > 0));
   }
   return result;
 }
@@ -134,6 +187,9 @@ function performSearch (wallets, query = false, platform = false) {
   }
 
   temp.sort((a, b) => {
+    if (textQuery && a.titleMatchTier !== b.titleMatchTier) {
+      return a.titleMatchTier - b.titleMatchTier;
+    }
     const aVerdict = getPrimaryWalletVerdict(a);
     const bVerdict = getPrimaryWalletVerdict(b);
     if (aVerdict !== bVerdict && aVerdict && bVerdict) {
@@ -208,13 +264,21 @@ function performSearch (wallets, query = false, platform = false) {
 // UI related functions
 function exitSearchUI () {
   const ui = document.querySelector('.results-target');
+  stopSearchResultsBatches();
   ui.innerHTML = '';
   ui.classList.remove('visible');
   document.body.classList.remove('search-ui-active');
   document.querySelector('.wallet-search').classList.remove('active');
 }
 
-function searchTrigger () {
+// Searching on every keystroke made phones stutter: wait for a short pause
+// in typing, and only ever render the newest term. Enter searches at once.
+const NAVBAR_SEARCH_DEBOUNCE_MS = 150;
+let navBarSearchTimer = null;
+
+function searchTrigger (immediate = false) {
+  clearTimeout(navBarSearchTimer);
+  navBarSearchTimer = null;
   if (window.searchTerm && window.searchTerm.length > 1) {
     document.querySelector('.wallet-search').classList.add('active');
     document.querySelector('.search-controls').classList.add('working');
@@ -227,12 +291,79 @@ function searchTrigger () {
     exitSearchUI();
   }
 
-  if (window.searchTerm) {
+  if (!window.searchTerm) return;
+  if (immediate) {
     doNavBarSearch(window.searchTerm);
+  } else {
+    navBarSearchTimer = setTimeout(() => doNavBarSearch(window.searchTerm), NAVBAR_SEARCH_DEBOUNCE_MS);
   }
 }
 
-async function doNavBarSearch (input) {
+// Result rows are appended in batches as the list is scrolled: a common term
+// like "bitco" matches a thousand wallets, and rendering them all at once
+// froze phones for seconds. The sentinel row at the end of the list requests
+// the next batch when it scrolls into view.
+const SEARCH_RESULTS_FIRST_BATCH = 12;
+const SEARCH_RESULTS_BATCH = 20;
+const SEARCH_RESULTS_EAGER_IMAGES = 6;
+let searchResultsObserver = null;
+
+function stopSearchResultsBatches () {
+  if (searchResultsObserver) {
+    searchResultsObserver.disconnect();
+    searchResultsObserver = null;
+  }
+}
+
+function makeSearchResultRowsHTML (wallets, from, to) {
+  let html = '';
+  for (let i = from; i < to; i++) {
+    const wallet = wallets[i];
+    const lazyLoad = i >= SEARCH_RESULTS_EAGER_IMAGES;
+    const compactedResults = makeCompactResultsHTML(wallet, lazyLoad);
+    html += `<li class="actionable"><div>${compactedResults}</div></li>`;
+  }
+  return html;
+}
+
+function renderSearchResults (result, wallets) {
+  stopSearchResultsBatches();
+  let rendered = Math.min(SEARCH_RESULTS_FIRST_BATCH, wallets.length);
+  result.innerHTML = makeSearchResultRowsHTML(wallets, 0, rendered);
+  if (rendered >= wallets.length) return;
+
+  const sentinel = document.createElement('li');
+  sentinel.className = 'search-results-more';
+  sentinel.setAttribute('aria-hidden', 'true');
+  sentinel.style.height = '1px';
+  result.append(sentinel);
+
+  const appendBatch = () => {
+    const to = Math.min(rendered + SEARCH_RESULTS_BATCH, wallets.length);
+    sentinel.insertAdjacentHTML('beforebegin', makeSearchResultRowsHTML(wallets, rendered, to));
+    rendered = to;
+    if (rendered >= wallets.length) {
+      stopSearchResultsBatches();
+      sentinel.remove();
+    } else if (searchResultsObserver) {
+      // re-observing reports the current state, so a sentinel still in view
+      // (short rows on a tall screen) requests the next batch without a scroll
+      searchResultsObserver.unobserve(sentinel);
+      searchResultsObserver.observe(sentinel);
+    }
+  };
+
+  if (!('IntersectionObserver' in window)) {
+    while (rendered < wallets.length) appendBatch();
+    return;
+  }
+  searchResultsObserver = new IntersectionObserver((entries) => {
+    if (entries.some((entry) => entry.isIntersecting)) appendBatch();
+  }, { root: result, rootMargin: '200px 0px' });
+  searchResultsObserver.observe(sentinel);
+}
+
+function doNavBarSearch (input) {
   document.body.classList.add('search-ui-active');
   const result = document.querySelector('.results-target');
   result.classList.add('visible');
@@ -240,44 +371,15 @@ async function doNavBarSearch (input) {
 
   const minTermLength = 1;
   if (term.length > minTermLength) {
-    result.innerHTML = '';
+    const wallets = performSearch(versionTaggedWallets, term).filter((wallet) => wallet.title);
 
-    const wallets = performSearch(versionTaggedWallets, term);
-
-    if (!wallets || wallets.length === 0) {
+    if (wallets.length === 0) {
+      stopSearchResultsBatches();
       result.innerHTML = '<li onclick="event.stopPropagation();"><a style="font-size:.7rem;opacity:.7;text-style:italics;">No matches</a></li>';
-      document.querySelector('.search-controls').classList.remove('working');
+    } else {
+      renderSearchResults(result, wallets);
     }
-
-    const walletRows = [];
-    let walletIndex = 0;
-    const notLazyLoadFirstRows = 6;
-    for (const wallet of wallets) {
-      if (!wallet.title) continue;
-
-      const walletRow = document.createElement('li');
-      walletRow.classList.add('actionable');
-      let compactedResults = makeCompactResultsHTML(wallet, walletIndex > notLazyLoadFirstRows);
-      let walletGroupClass = '';
-      if (wallet.versions?.length > 0) {
-        for (let i = 0; i < wallet.versions.length; i++) {
-          compactedResults += makeCompactResultsHTML(wallet.versions[i], walletIndex > notLazyLoadFirstRows);
-        }
-        walletGroupClass = 'grouped';
-      }
-      walletRow.innerHTML = `<div class="${walletGroupClass}">${compactedResults}</div>`;
-      walletRows.push(walletRow);
-
-      walletIndex++;
-    }
-
-    if (walletRows.length > 0) {
-      result.append(...walletRows.slice(0, notLazyLoadFirstRows));
-      await new Promise(resolve => setTimeout(resolve, 50));
-      document.querySelector('.search-controls').classList.remove('working');
-      await new Promise(resolve => setTimeout(resolve, 50));
-      result.append(...walletRows.slice(notLazyLoadFirstRows));
-    }
+    document.querySelector('.search-controls').classList.remove('working');
 
   } else if (term.length !== 0) {
     var l = document.createElement('li');
@@ -332,7 +434,7 @@ function renderStamp (key, text) {
   if (!v) return '';
   const title = (v.title || '').replace(/"/g, '&quot;');
   const color = v.color ? ` style="--verdict-color:${v.color}"` : '';
-  return `<span data-text="${text}" class="stamp stamp-${key}" title="${title}"${color} alt=""></span>`;
+  return `<span data-text="${text}" class="stamp stamp-${key}" title="${title}"${color}></span>`;
 }
 
 function shouldShowVerdictStamp (verdict, meta) {
@@ -369,14 +471,11 @@ function getWalletVerdictStampsHtml (wallet, platformFilter) {
   return renderVerdictStamp(wallet.verdict, null, wallet.meta);
 }
 
-function getWalletScoreIconsHtml (score) {
-  if (!score) return { passed: '', failed: '', text: '' };
-  let passed = '';
-  let failed = '';
-  for (let i = 0; i < score.numerator; i++) passed += '<i class="pass"></i>';
-  for (let i = 0; i < (score.denominator - score.numerator); i++) failed += '<i class="fail"></i>';
-  const text = `Passed ${score.numerator !== score.denominator ? score.numerator : 'all'} ${score.numerator !== score.denominator ? 'of' : ''} ${score.denominator} tests`;
-  return { passed, failed, text };
+function getScoreText (score) {
+  if (!score) return '';
+  return score.numerator !== score.denominator
+    ? `Passed ${score.numerator} of ${score.denominator} tests`
+    : `Passed all ${score.denominator} tests`;
 }
 
 function scoresAreEqual (a, b) {
@@ -384,35 +483,34 @@ function scoresAreEqual (a, b) {
   return a.numerator === b.numerator && a.denominator === b.denominator;
 }
 
+// "Passed n of m tests" lines, one per platform when the platforms differ;
+// the cards show no test bars
 function getWalletScoreBlockHtml (wallet, platformFilter) {
-  if (wallet.scoreAndroid || wallet.scoreIphone) {
-    const showAndroid = !platformFilter || platformFilter === 'android';
-    const showIphone = !platformFilter || platformFilter === 'iphone';
-    const scoreAndroid = showAndroid ? wallet.scoreAndroid : null;
-    const scoreIphone = showIphone ? wallet.scoreIphone : null;
-    const dual = wallet.verdictAndroid && wallet.verdictIphone && wallet.verdictAndroid !== wallet.verdictIphone;
-    const sameScore = scoresAreEqual(scoreAndroid, scoreIphone);
-    const rows = [];
-    const addRow = (score, label) => {
-      if (!score) return;
-      const icons = getWalletScoreIconsHtml(score);
-      const prefix = dual && label ? `<small>${label}: </small>` : '';
-      rows.push(`${prefix}<span>${icons.text}</span><div>${icons.passed}${icons.failed}</div>`);
-    };
-    if (scoreAndroid && scoreIphone && sameScore) addRow(scoreAndroid);
-    else {
-      if (scoreAndroid) addRow(scoreAndroid, 'Android');
-      if (scoreIphone) addRow(scoreIphone, 'iPhone');
-    }
-    return rows.join('<br>');
+  if (!wallet.scoreAndroid && !wallet.scoreIphone) {
+    return wallet.score ? `<span>${getScoreText(wallet.score)}</span>` : '';
   }
-  if (!wallet.score) return '';
-  const icons = getWalletScoreIconsHtml(wallet.score);
-  return `<span>${icons.text}</span><div>${icons.passed}${icons.failed}</div>`;
+  const scoreAndroid = platformFilter !== 'iphone' ? wallet.scoreAndroid : null;
+  const scoreIphone = platformFilter !== 'android' ? wallet.scoreIphone : null;
+  if (scoresAreEqual(scoreAndroid, scoreIphone)) return `<span>${getScoreText(scoreAndroid)}</span>`;
+  const dual = wallet.verdictAndroid && wallet.verdictIphone && wallet.verdictAndroid !== wallet.verdictIphone;
+  const line = (score, label) => (score ? `<span>${dual ? `${label}: ` : ''}${getScoreText(score)}</span>` : '');
+  return line(scoreAndroid, 'Android') + line(scoreIphone, 'iPhone');
 }
 
 function getPlatformStoreLabel (platform) {
   return platform === 'iphone' ? 'App Store' : 'Play Store';
+}
+
+// wallet cards say "Reproducible build"; the shared getStatusText wording
+// stays for the verification tables and modals
+function getCardStatusHtml (status) {
+  return status === 'reproducible' ? '✅ Reproducible build' : '❌ ' + getStatusText(status, true);
+}
+
+// a mobile build with no verification counts as not verifiable; on the
+// other platforms it is only not verified yet
+function getUnverifiedHtml (platform) {
+  return platform === 'android' || platform === 'iphone' ? '❌ Build not verifiable' : '❓ Not verified yet';
 }
 
 function getWalletVerificationHtmlForPlatform (wallet, platform) {
@@ -422,9 +520,9 @@ function getWalletVerificationHtmlForPlatform (wallet, platform) {
   if (verdict !== 'sourceavailable' || !appId) return '';
   const status = getLastVerificationStatusForAppId(appId, platform);
   if (!status) {
-    return '<span>❓ Not verified yet</span>';
+    return `<span>${getUnverifiedHtml(platform)}</span>`;
   }
-  return `<span>${(status === 'reproducible' ? '✅ ' : '❌ ') + getStatusText(status, true)}</span>`;
+  return `<span>${getCardStatusHtml(status)}</span>`;
 }
 
 function getWalletVerificationLinesHtml (wallet, platformFilter) {
@@ -435,10 +533,10 @@ function getWalletVerificationLinesHtml (wallet, platformFilter) {
     const status = getLastVerificationStatusForAppId(appId, platform);
     const prefix = label ? `${label}: ` : '';
     if (!status) {
-      lines.push(`<span>${prefix}❓ Not verified yet</span>`);
+      lines.push(`<span>${prefix}${getUnverifiedHtml(platform)}</span>`);
       return;
     }
-    lines.push(`<span>${prefix}${(status === 'reproducible' ? '✅ ' : '❌ ') + getStatusText(status, true)}</span>`);
+    lines.push(`<span>${prefix}${getCardStatusHtml(status)}</span>`);
   };
   if (wallet.verdictAndroid || wallet.verdictIphone) {
     addLine(wallet.verdictAndroid, wallet.androidAppId, 'android', wallet.verdictAndroid !== wallet.verdictIphone ? 'Android' : null);
@@ -483,48 +581,38 @@ function getWalletPlatformMeta (wallet, platform) {
   return platform === 'android' ? wallet.metaAndroid : wallet.metaIphone;
 }
 
-function getWalletPlatformVerdictStampsHtml (wallet, platform) {
+// meta before verdict stamp, in one line when they fit
+function getWalletPlatformStampsHtml (wallet, platform) {
   const verdict = platform === 'android' ? wallet.verdictAndroid : wallet.verdictIphone;
-  return [
-    renderVerdictStamp(verdict, null, getWalletPlatformMeta(wallet, platform)),
-    renderWalletPlatformMetaStamp(wallet, platform),
-  ].filter(Boolean).join('');
+  return renderWalletPlatformMetaStamp(wallet, platform) +
+    renderVerdictStamp(verdict, null, getWalletPlatformMeta(wallet, platform));
 }
 
+function getWalletPlatformHeadHtml (platform) {
+  return `<div class="wallet-platform-row__head">${getIcon(platform)}<span>${getPlatformStoreLabel(platform)}</span></div>`;
+}
+
+// Card lines run: platform, stamps, tests, verification. Rows are built
+// without template indentation, as there are hundreds of them.
 function renderWalletPlatformSection (wallet, platform) {
   const score = platform === 'android' ? wallet.scoreAndroid : wallet.scoreIphone;
-  const stamps = getWalletPlatformVerdictStampsHtml(wallet, platform);
-  const verificationHtml = getWalletVerificationHtmlForPlatform(wallet, platform);
-  let scoreHtml = '';
-  if (score) {
-    const icons = getWalletScoreIconsHtml(score);
-    scoreHtml = `<span>${icons.text}</span><div>${icons.passed}${icons.failed}</div>`;
-  }
-  const body = [verificationHtml, scoreHtml].filter(Boolean).join('');
-  return `
-    <div class="wallet-platform-row">
-      <div class="wallet-platform-row__head">
-        ${getIcon(platform)}
-        <span>${getPlatformStoreLabel(platform)}</span>
-      </div>
-      ${stamps ? `<div class="stamps">${stamps}</div>` : ''}
-      ${body ? `<div class="score">${body}</div>` : ''}
-    </div>`;
+  const stamps = getWalletPlatformStampsHtml(wallet, platform);
+  const body = (score ? `<span>${getScoreText(score)}</span>` : '') + getWalletVerificationHtmlForPlatform(wallet, platform);
+  return '<div class="wallet-platform-row">' + getWalletPlatformHeadHtml(platform) +
+    (stamps ? `<div class="stamps">${stamps}</div>` : '') +
+    (body ? `<div class="score">${body}</div>` : '') +
+    '</div>';
 }
 
 function getWalletSharedStampsHtml (wallet) {
-  const parts = [];
-  if (wallet.archived) {
-    parts.push('<span class="stamp stamp-archived">Wallet Archived</span>');
-  }
-  if (wallet.alertFeatures?.length) {
-    parts.push(
-      wallet.alertFeatures.map((f) =>
-        `<span data-text="${window.featureAlerts[f] || f}" class="stamp stamp-alert-feature" title="${window.featureAlertMessages[f] || 'This feature has custody implications'}" alt=""></span>`
-      ).join('')
-    );
-  }
-  return parts.join('');
+  return (wallet.archived ? '<span class="stamp stamp-archived">Wallet Archived</span>' : '') +
+    (wallet.alertFeatures || []).map((f) =>
+      `<span data-text="${window.featureAlerts[f] || f}" class="stamp stamp-alert-feature" title="${window.featureAlertMessages[f] || 'This feature has custody implications'}"></span>`
+    ).join('');
+}
+
+function getWalletMetaStampHtml (wallet) {
+  return wallet.meta && wallet.meta !== 'ok' ? renderStamp(wallet.meta, window.verdicts[wallet.meta].short) : '';
 }
 
 function shouldUseWalletPlatformSections (wallet, platforms, listPlatform) {
@@ -537,39 +625,20 @@ function shouldUseWalletPlatformSections (wallet, platforms, listPlatform) {
 function getWalletCardDetailsHtml (wallet, platformFilter) {
   const listPlatform = platformFilter && platformFilter !== 'allPlatforms' ? platformFilter : false;
   const platforms = walletPlatformSections(wallet, listPlatform);
-  const usePlatformSections = shouldUseWalletPlatformSections(wallet, platforms, listPlatform);
 
-  if (usePlatformSections) {
+  if (shouldUseWalletPlatformSections(wallet, platforms, listPlatform)) {
     const shared = getWalletSharedStampsHtml(wallet);
-    const sectionsHtml = platforms.map((p) => renderWalletPlatformSection(wallet, p)).join('');
-    return `
-      <div class="wallet-details wallet-details--by-platform">
-        ${shared ? `<div class="stamps stamps--shared">${shared}</div>` : ''}
-        ${sectionsHtml}
-      </div>`;
+    return '<div class="wallet-details wallet-details--by-platform">' +
+      (shared ? `<div class="stamps stamps--shared">${shared}</div>` : '') +
+      platforms.map((p) => renderWalletPlatformSection(wallet, p)).join('') +
+      '</div>';
   }
 
-  const verificationHtml = getWalletVerificationLinesHtml(wallet, listPlatform);
-  const verdictStampsHtml = getWalletVerdictStampsHtml(wallet, listPlatform);
-  const scoreBlockHtml = getWalletScoreBlockHtml(wallet, listPlatform);
-  const metaStamp = wallet.meta && wallet.meta !== 'ok'
-    ? renderStamp(wallet.meta, window.verdicts[wallet.meta].short)
-    : '';
-
-  return `
-    <div class="wallet-details">
-      <div class="stamps">
-        ${getWalletSharedStampsHtml(wallet)}
-        ${verdictStampsHtml}
-        ${metaStamp}
-      </div>
-      ${scoreBlockHtml || wallet.score || verificationHtml
-        ? `<div class="score" data-numerator="${(wallet.score || wallet.scoreAndroid || wallet.scoreIphone || {}).numerator || 0}" data-denominator="${(wallet.score || wallet.scoreAndroid || wallet.scoreIphone || {}).denominator || 0}">
-          ${verificationHtml}
-          ${scoreBlockHtml || (wallet.score ? `<span>Passed ${wallet.score.numerator !== wallet.score.denominator ? wallet.score.numerator : 'all'} ${wallet.score.numerator !== wallet.score.denominator ? 'of' : ''} ${wallet.score.denominator} tests</span>` : '')}
-        </div>`
-        : ''}
-    </div>`;
+  const score = getWalletScoreBlockHtml(wallet, listPlatform) + getWalletVerificationLinesHtml(wallet, listPlatform);
+  return '<div class="wallet-details">' +
+    `<div class="stamps">${getWalletSharedStampsHtml(wallet)}${getWalletMetaStampHtml(wallet)}${getWalletVerdictStampsHtml(wallet, listPlatform)}</div>` +
+    (score ? `<div class="score">${score}</div>` : '') +
+    '</div>';
 }
 
 function getVerificationTarget (wallet, platformFilter) {
@@ -627,78 +696,38 @@ function makeCompactResultsHTML (wallet, lazyLoad, platformFilter) {
   const analysisUrl = `${basePath}${wallet.url}`;
   const listPlatform = platformFilter && platformFilter !== 'allPlatforms' ? platformFilter : false;
 
-  let scoreHTML = '';
-  const scoreBlock = getWalletScoreBlockHtml(wallet, listPlatform);
-  if (scoreBlock) {
-    const primaryScore = wallet.score || wallet.scoreAndroid || wallet.scoreIphone;
-    const num = primaryScore?.numerator ?? 0;
-    const den = primaryScore?.denominator ?? 0;
-    scoreHTML = `<div class="tests-passed" data-numerator="${num}" data-denominator="${den}">
-      ${scoreBlock}
-    </div>`;
-  }
-
   const platforms = walletPlatformSections(wallet, listPlatform);
-  const usePlatformSections = shouldUseWalletPlatformSections(wallet, platforms, listPlatform);
   let statsHTML = '';
 
-  if (usePlatformSections) {
+  if (shouldUseWalletPlatformSections(wallet, platforms, listPlatform)) {
     const shared = getWalletSharedStampsHtml(wallet);
     const sections = platforms.map((p) => {
       const score = p === 'android' ? wallet.scoreAndroid : wallet.scoreIphone;
-      const stamps = getWalletPlatformVerdictStampsHtml(wallet, p);
-      const verificationHTML = wallet.archived ? '' : getWalletVerificationHtmlForPlatform(wallet, p);
-      let sectionScoreHTML = '';
-      if (score) {
-        const icons = getWalletScoreIconsHtml(score);
-        sectionScoreHTML = `<div class="tests-passed"><span>${icons.text}</span><div>${icons.passed}${icons.failed}</div></div>`;
-      }
-      return `
-        <div class="wallet-platform-row wallet-platform-row--compact">
-          <div class="wallet-platform-row__head">
-            ${getIcon(p)}
-            <span>${getPlatformStoreLabel(p)}</span>
-          </div>
-          ${stamps ? `<span class="stats-platform-stamps">${stamps}</span>` : ''}
-          ${verificationHTML}
-          ${sectionScoreHTML}
-        </div>`;
+      const stamps = getWalletPlatformStampsHtml(wallet, p);
+      return '<div class="wallet-platform-row wallet-platform-row--compact">' + getWalletPlatformHeadHtml(p) +
+        (stamps ? `<span class="stats-platform-stamps">${stamps}</span>` : '') +
+        (score ? `<span>${getScoreText(score)}</span>` : '') +
+        (wallet.archived ? '' : getWalletVerificationHtmlForPlatform(wallet, p)) +
+        '</div>';
     }).join('');
-    statsHTML = `
-      <span class="stats stats--by-platform">
-        ${shared ? `<span class="stats-shared">${shared}</span>` : ''}
-        ${sections}
-      </span>`;
+    statsHTML = `<span class="stats stats--by-platform">${shared ? `<span class="stats-shared">${shared}</span>` : ''}${sections}</span>`;
   } else {
-    const verificationHTML = getWalletVerificationLinesHtml(wallet, platformFilter);
-    statsHTML = `
-      <span class="stats">
-        ${wallet.archived ? '<span class="stamp stamp-archived">Wallet Archived</span>' : ''}
-        ${getWalletVerdictStampsHtml(wallet, listPlatform)}
-        ${wallet.meta && wallet.meta !== 'ok'
-          ? renderStamp(wallet.meta, window.verdicts[wallet.meta].short)
-          : ''}
-        ${wallet.archived ? '' : verificationHTML}
-        ${wallet.alertFeatures && wallet.alertFeatures.length > 0
-          ? wallet.alertFeatures.map(f => `<span data-text="${window.featureAlerts[f] || f}" class="stamp stamp-alert-feature" title="${window.featureAlertMessages[f] || 'This feature has custody implications'}" alt=""></span>`).join('')
-          : ''}
-        ${scoreHTML}
-      </span>`;
+    statsHTML = '<span class="stats">' +
+      getWalletSharedStampsHtml(wallet) +
+      getWalletMetaStampHtml(wallet) +
+      getWalletVerdictStampsHtml(wallet, listPlatform) +
+      getWalletScoreBlockHtml(wallet, listPlatform) +
+      (wallet.archived ? '' : getWalletVerificationLinesHtml(wallet, platformFilter)) +
+      '</span>';
   }
 
   const url = wallet.archived ? '/archived/?appId=' + wallet.appId + '&platform=' + wallet.folder : analysisUrl;
-  return [
-    `<a class="result-pl-inner ${wallet.meta}" onclick="window.location.href = '${url}';" href='${url}'>`,
-      `<div class="icon-wrapper"><img src='${basePath}/images/${wallet.icon ? `wIcons/${getWalletIconFolder(wallet)}/small/${wallet.icon}` : 'noimg.svg'}' class='wallet-icon' ${lazyLoad ? 'loading="lazy"' : ''} /></div>`,
-      '<span class="result-title-wrapper">',
-        `<span>${wallet.altTitle || wallet.title}</span>`,
-        '<small>',
-          `<span class="category">${faCollection}&nbsp;<span> ${getWalletListCategory(wallet, platformFilter)}</span></span>`,
-        '</small>',
-      '</span>',
-      statsHTML,
-    '</a>'
-  ].join('');
+  return `<a class="result-pl-inner ${wallet.meta}" onclick="window.location.href = '${url}';" href="${url}">` +
+    `<div class="icon-wrapper"><img src="${basePath}/images/${wallet.icon ? `wIcons/${getWalletIconFolder(wallet)}/small/${wallet.icon}` : 'noimg.svg'}" onerror="this.onerror=null;this.src='${basePath}/images/noimg.svg'" class="wallet-icon"${lazyLoad ? ' loading="lazy"' : ''}></div>` +
+    `<span class="result-title-wrapper"><span>${wallet.altTitle || wallet.title}</span>` +
+    `<small><span class="category">${faCollection}&nbsp;<span> ${getWalletListCategory(wallet, platformFilter)}</span></span></small></span>` +
+    statsHTML +
+    '</a>';
 }
 
 function searchScrollToTop () {
@@ -722,32 +751,15 @@ const versionTaggedWallets = [];
 
 window.versionTag = () => {
   versionTaggedWallets.length = 0;
-  const wsIdIndex = new Map();
+  walletSearchTextCache = new WeakMap();
   const seenAppIds = new Set();
   window.wallets.forEach(e => {
-    if (e.wsId) {
-      const wsId = e.wsId;
-      if (wsId.length === 0) return;
-      if (!wsIdIndex.has(wsId)) {
-        wsIdIndex.set(wsId, versionTaggedWallets.length);
-        versionTaggedWallets.push(e);
-      } else {
-        // If we already added a product with this wsId, we add the new one as a
-        // 'version' of the prior one.
-        const i = wsIdIndex.get(wsId);
-        const versionsI = versionTaggedWallets[i].versions || [];
-        versionsI.push(e);
-        versionTaggedWallets[i].versions = versionsI;
-      }
-    } else if (e.appId && e.appId.length > 0) {
-      // making sure the appId doesn't match any wsId:
-      const appId = `__${e.appId}__`;
-      if (!seenAppIds.has(appId)) {
-        seenAppIds.add(appId);
-        versionTaggedWallets.push(e);
-      }
+    if (e.appId && e.appId.length > 0 && !seenAppIds.has(e.appId)) {
+      seenAppIds.add(e.appId);
+      versionTaggedWallets.push(e);
     }
   });
+  warmWalletSearchTextCache(versionTaggedWallets);
 };
 
 if (document.querySelector('.searchbar')) {
@@ -782,11 +794,14 @@ if (document.querySelector('.searchbar')) {
   document.querySelector('.searchbar').addEventListener('keyup', (e) => {
     if (e.key === 'Enter' || e.keyCode === 13) {
       window.searchTerm = document.querySelector('.searchbar').value;
-      searchTrigger();
+      searchTrigger(true);
     }
   });
   document.querySelector('.mobile-search-shortcut').addEventListener('click', () => {
     if (!document.querySelector('.wallet-search').classList.contains('mobile-active')) {
+      // the open menu dropdown would cover the search box
+      const menuToggle = document.querySelector('.greedy-nav__toggle.close');
+      if (menuToggle) menuToggle.click();
       document.querySelector('.wallet-search').classList.add('mobile-active');
       document.querySelector('.mobile-search-shortcut').classList.add('active');
       document.querySelector('.searchbar').focus();

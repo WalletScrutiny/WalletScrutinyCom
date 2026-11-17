@@ -1,7 +1,6 @@
 ---
-wsId: speedBitcoinWallet
 title: Speed Wallet - Buy Bitcoin
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.speed.app/
@@ -18,13 +17,12 @@ redirect_from:
 - /iphone/com.app.speed1/
 android:
   appId: com.app.speedwallet
-  users: 500000
+  users: 1000000
   appCountry: us
   released: 2023-06-18
-  updated: 2026-09-18
-  version: 2.5.9.0.0.2.fp.gps
-  reviews: 1729
-  icon: com.app.speedwallet.webp
+  updated: 2026-10-01
+  version: 2.5.10.0.0.0.fp.gps
+  reviews: 1751
   meta: ok
   verdict: custodial
   developerName: Speed1 Inc
@@ -33,10 +31,9 @@ iphone:
   idd: '6462426281'
   appCountry: us
   released: 2023-08-24
-  updated: 2026-09-18
-  version: 1.13.21
-  reviews: 1237
-  icon: com.app.speed1.webp
+  updated: 2026-10-13
+  version: 1.13.24
+  reviews: 1248
   meta: ok
   verdict: custodial
   developerName: Speed1 - FZCO
@@ -65,7 +62,7 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Lightning Network BTC payments: Experience Bitcoin with instant and low cost BTC transactions." source="Store" %}
 

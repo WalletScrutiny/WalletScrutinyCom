@@ -1,6 +1,6 @@
 ---
 title: ESR INDEX EXCHANGE
-date: 2023-08-04
+date: 2026-10-30
 website: https://www.indexex.biz#deadLink
 redirect_from:
 - /android/com.chainup.exchange.index/
@@ -10,7 +10,6 @@ android:
   released: 2020-05-23
   updated: 2020-05-25
   version: 4.4.7
-  icon: com.chainup.exchange.index.webp
   meta: removed
   verdict: wip
   developerName: G1store

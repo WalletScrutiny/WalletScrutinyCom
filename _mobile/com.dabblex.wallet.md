@@ -1,7 +1,7 @@
 ---
 title: DabbleX DeFi Wallet
-date: 2023-08-04
-website: http://dabblex.com
+date: 2026-10-30
+website: http://dabblex.com#deadLink
 redirect_from:
 - /android/com.dabblex.wallet/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-08-16
   updated: 2021-08-16
   version: 0.21.3
-  icon: com.dabblex.wallet.webp
   meta: removed
   verdict: wip
   developerName: Dabble X

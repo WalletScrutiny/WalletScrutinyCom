@@ -1,7 +1,6 @@
 ---
-wsId: btcFreeWallet
 title: Bitcoin Wallet - BTC Exchange
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -22,7 +21,6 @@ android:
   updated: 2021-09-20
   version: 2.6.8
   reviews: 561
-  icon: btc.org.freewallet.app.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -33,7 +31,6 @@ iphone:
   updated: 2022-01-14
   version: 2.6.23
   reviews: 93
-  icon: btc.org.freewallet.app.webp
   meta: removed
   verdict: custodial
   developerName: Freewallet
@@ -53,4 +50,4 @@ Our verdict: This app is **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

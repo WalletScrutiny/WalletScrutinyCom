@@ -1,9 +1,9 @@
 ---
 title: 'OpenEx : Buy Btc & Crypto'
-date: 2024-07-22
+date: 2026-10-30
 authors:
 - danny
-website: https://www.openex.xyz
+website: https://www.openex.xyz#deadLink
 twitter: openex_hq
 social:
 - http://discord.gg/openex#deadLink
@@ -20,12 +20,13 @@ android:
   updated: 2023-08-18
   version: 1.1.5
   reviews: 3
-  icon: com.aex.exchanges.webp
   meta: removed
   verdict: custodial
   developerName: OPENEX TECHNOLOGY PTE.LTD.
 
 ---
+
+**Update 2026-10-30:** OpenEx appears to be gone. Its website, openex.xyz, is now a domain [offered for sale](https://forsale.godaddy.com/forsale/openex.xyz).
 
 ## App Description from Google Play
 
@@ -35,5 +36,5 @@ android:
 
 ## Analysis 
 
-- The [terms](https://www.openex.xyz/about/terms) explicitly state that it maintains full control of user accounts.
+- The [terms](https://www.openex.xyz/about/terms#deadLink) explicitly state that it maintains full control of user accounts.
 - As such this is a **custodial** app that is **not-verifiable**.

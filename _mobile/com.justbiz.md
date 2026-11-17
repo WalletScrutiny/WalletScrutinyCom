@@ -1,6 +1,6 @@
 ---
 title: JustBiz
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/com.justbiz/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-02-22
   updated: 2020-02-22
   version: 1.0.0
-  icon: com.justbiz.webp
   meta: removed
   verdict: wip
   developerName: JustBiz

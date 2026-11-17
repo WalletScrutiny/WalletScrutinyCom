@@ -1,6 +1,6 @@
 ---
 title: HubEx Exchange
-date: 2023-05-30
+date: 2026-10-30
 authors:
 - danny
 website: https://exchange.e-dome.net/trading/ltcbtc#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2020-06-01
   updated: 2020-06-04
   version: '3.0'
-  icon: com.menttechhubex.webp
   meta: removed
   verdict: wip
   developerName: Edomian

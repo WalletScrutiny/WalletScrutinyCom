@@ -1,7 +1,6 @@
 ---
-wsId: bitdenex
 title: 'Bitdenex: Buy Bitcoin & Crypto'
-date: 2025-11-13
+date: 2026-10-30
 authors:
 - danny
 website: https://bitdenex.com
@@ -15,7 +14,6 @@ android:
   appCountry: us
   updated: 2026-02-12
   version: 3.2.23
-  icon: com.bitdenex.webp
   meta: ok
   verdict: custodial
   developerName: Bitdenex
@@ -27,7 +25,6 @@ iphone:
   updated: 2026-05-27
   version: 3.2.22
   reviews: 2
-  icon: com.bitdenex.app.webp
   meta: ok
   verdict: custodial
   developerName: Bitdenex B.V.
@@ -56,4 +53,4 @@ This is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

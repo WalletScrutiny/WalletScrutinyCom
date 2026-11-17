@@ -1,6 +1,6 @@
 ---
 title: Tippin
-date: 2021-10-15
+date: 2026-10-30
 redirect_from:
 - /android/co.tippin.android.wallet/
 android:
@@ -8,7 +8,6 @@ android:
   users: 500
   updated: 2019-10-22
   version: Varies with device
-  icon: co.tippin.android.wallet.webp
   meta: removed
   verdict: wip
 

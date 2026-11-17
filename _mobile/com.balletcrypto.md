@@ -1,7 +1,6 @@
 ---
-wsId: balletcrypto
 title: Ballet Crypto
-date: 2021-03-11
+date: 2026-10-30
 website: https://www.ballet.com/
 twitter: BalletCrypto
 social:
@@ -16,10 +15,9 @@ android:
   users: 10000
   appCountry: us
   released: 2019-08-08
-  updated: 2026-09-21
-  version: 3.0.2
-  reviews: 173
-  icon: com.balletcrypto.webp
+  updated: 2026-10-08
+  version: 3.0.4
+  reviews: 174
   meta: ok
   verdict: nosource
   developerName: Ballet Global Inc.
@@ -30,8 +28,7 @@ iphone:
   released: 2019-09-11
   updated: 2026-09-22
   version: 3.0.2
-  reviews: 1557
-  icon: com.balletcrypto.webp
+  reviews: 1561
   meta: ok
   verdict: nosource
   developerName: BALLET GLOBAL INC.

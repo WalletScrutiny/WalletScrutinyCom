@@ -1,7 +1,6 @@
 ---
-wsId: anycoinCZ
 title: 'Anycoin: crypto exchange'
-date: 2023-05-03
+date: 2026-10-30
 authors:
 - danny
 website: https://www.anycoin.cz
@@ -23,7 +22,6 @@ android:
   updated: 2026-09-22
   version: 1.32.52
   reviews: 1
-  icon: cz.anycoin.mobile.webp
   meta: ok
   verdict: custodial
   developerName: MP Developers s.r.o.
@@ -32,10 +30,9 @@ iphone:
   idd: '1616670336'
   appCountry: cz
   released: 2022-04-25
-  updated: 2026-09-17
-  version: 1.32.51
-  reviews: 96
-  icon: cz.anycoin.mobile.webp
+  updated: 2026-10-12
+  version: 1.32.57
+  reviews: 97
   meta: ok
   verdict: custodial
   developerName: MP Developers s.r.o.
@@ -88,7 +85,7 @@ This is a **custodial** provider.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Receive and send BTC payments using the Lightning Network quickly and from anywhere. Take advantage of advanced functionality like LNURL, LN ALIAS, Donate page or Streamlabs integration." source="Store" %}
 

@@ -1,7 +1,6 @@
 ---
-wsId: nooneWallet
 title: Noone Crypto Wallet
-date: 2023-07-24
+date: 2026-10-30
 authors:
 - danny
 website: https://noone.io
@@ -20,8 +19,7 @@ android:
   released: 2023-03-17
   updated: 2026-02-12
   version: 1.32.0
-  reviews: 312
-  icon: io.noone.androidwallet.webp
+  reviews: 311
   meta: ok
   verdict: nosource
   developerName: Raias Llc
@@ -32,8 +30,7 @@ iphone:
   released: 2023-03-29
   updated: 2026-08-18
   version: 1.33.0
-  reviews: 175
-  icon: io.noone.ioswallet.webp
+  reviews: 176
   meta: ok
   verdict: nosource
   developerName: NO ONE FZCO
@@ -98,7 +95,7 @@ Right now, we find no definitive proof that either of these repositories would b
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="buyWithCC" quote="Instantly purchase Bitcoin, Ethereum, Dogecoin, and more using your credit or debit card. No need for third-party apps – buy and store your crypto directly in Noone Wallet." source="Store description" %}
 

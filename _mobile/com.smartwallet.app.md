@@ -1,7 +1,6 @@
 ---
-wsId: echooDeFi
 title: 'Echooo : Crypto AA Wallet&DeFi'
-date: 2026-01-28
+date: 2026-10-30
 authors:
 - danny
 website: https://www.echooo.xyz/
@@ -19,7 +18,6 @@ android:
   updated: 2025-10-16
   version: 1.24.0
   reviews: 77
-  icon: com.smartwallet.app.webp
   meta: removed
   verdict: nosource
   developerName: Echooo Labs Pte Ltd
@@ -31,7 +29,6 @@ iphone:
   updated: 2025-10-16
   version: 2.0.2
   reviews: 45
-  icon: com.soundVelly.echoooLab.webp
   meta: removed
   verdict: nosource
   developerName: Echooo Labs Pte Ltd
@@ -127,4 +124,4 @@ While their choice of doing key management is not an industry standard, it is - 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

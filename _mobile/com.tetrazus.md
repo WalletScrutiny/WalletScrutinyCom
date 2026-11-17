@@ -1,6 +1,6 @@
 ---
 title: Tetrazus
-date: 2023-11-02
+date: 2026-10-30
 website: https://tetrazus.com#deadLink
 redirect_from:
 - /android/com.tetrazus/
@@ -10,7 +10,6 @@ android:
   released: 2019-11-06
   updated: 2020-02-11
   version: '1.1'
-  icon: com.tetrazus.webp
   meta: removed
   verdict: wip
   developerName: Tetrazus

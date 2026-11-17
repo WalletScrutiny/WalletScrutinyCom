@@ -1,7 +1,6 @@
 ---
-wsId: hodlit
 title: Hodlit
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 website: https://hodlit.com
@@ -16,7 +15,6 @@ android:
   updated: 2020-11-16
   version: 1.0.12
   reviews: 36
-  icon: com.savechange.hodlit.webp
   meta: removed
   verdict: custodial
   developerName: Hodlit
@@ -28,7 +26,6 @@ iphone:
   updated: 2020-11-16
   version: 1.0.12
   reviews: 37
-  icon: com.savechange.hodlit.webp
   meta: removed
   verdict: custodial
   developerName: Hodlit
@@ -57,4 +54,4 @@ This is a custodial service and thus **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

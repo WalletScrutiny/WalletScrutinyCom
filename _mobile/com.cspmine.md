@@ -1,6 +1,6 @@
 ---
 title: CSPMINE
-date: 2023-01-02
+date: 2026-10-30
 website: https://www.sac-mine.vip#deadLink
 redirect_from:
 - /android/com.cspmine/
@@ -11,7 +11,6 @@ android:
   updated: 2021-10-27
   version: '3.0'
   reviews: 4
-  icon: com.cspmine.webp
   meta: removed
   verdict: wip
 

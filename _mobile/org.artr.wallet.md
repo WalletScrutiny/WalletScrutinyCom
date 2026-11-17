@@ -1,7 +1,6 @@
 ---
-wsId: ArteryNetwork
 title: Artery Wallet
-date: 2021-11-16
+date: 2026-10-30
 authors:
 - danny
 website: https://artery.network/
@@ -16,7 +15,6 @@ android:
   updated: 2022-09-27
   version: '1.8'
   reviews: 1008
-  icon: org.artr.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Artery Network Corporation
@@ -28,7 +26,6 @@ iphone:
   updated: 2021-10-04
   version: '1.7'
   reviews: 1165
-  icon: network.artery.network.webp
   meta: removed
   verdict: nosource
   repository: https://github.com/arterynetwork/artr
@@ -60,4 +57,4 @@ To further verify, we emailed their support and await their response.
 
 **Update 2021-11-07**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

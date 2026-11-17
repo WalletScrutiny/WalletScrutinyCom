@@ -8,7 +8,6 @@ html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
   background-color: $background-color;
-  overflow-x: clip;
   font-size: 16px; // type-scale-exempt: root size, tokens are rem of this
 
   @include breakpoint($medium) {
@@ -21,7 +20,14 @@ html {
 
 /* Remove margin */
 
-body { margin: 0; }
+body {
+  margin: 0;
+  /* Clips sideways overflow of the page. On body, not html: the viewport takes the
+     overflow of html unless html's is visible, so with it on html the body.modal-open
+     scroll lock in _styles.scss stops at body and the page behind a modal keeps a
+     scrollbar and scrolls on wheel past the end of the modal (or of the build log). */
+  overflow-x: clip;
+}
 
 /* Selected elements */
 

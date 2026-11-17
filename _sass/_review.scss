@@ -1,3 +1,39 @@
+// space between one section's content and the next section's icon tile
+// (Distribution, Build Verifications, Platform notes, the review headings);
+// roomier above phone widths
+$review-section-gap: var(--review-section-gap);
+
+:root {
+  --review-section-gap: 28px;
+
+  @media (min-width: 501px) {
+    --review-section-gap: 40px;
+  }
+}
+
+// section icon: an accent-tinted rounded tile around an SVG from
+// assets/icons.svg, shared by the review steps and the review text headings
+@mixin section-icon-tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 12px;
+  font-size: 19px; // type-scale-exempt: icon
+  color: var(--accent-text);
+  background: color-mix(in srgb, var(--accent-text) 12%, transparent);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent-text) 24%, transparent);
+
+  @media (min-width: 501px) {
+    height: 48px;
+    width: 48px;
+    border-radius: 14px;
+    font-size: 23px; // type-scale-exempt: icon
+  }
+}
+
 .textbox {
   border-radius: 10px;
   background-image: linear-gradient(var(--wallet-low-contrast), var(--wallet-low-contrast));
@@ -72,59 +108,6 @@
   }
 }
 
-.subsect {
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-  margin: 80px 0;
-  align-items: center;
-  justify-content: center;
-  background: var(--neutral-6);
-  border-radius: 5px;
-  position: relative;
-  z-index: 1;
-  h1 {
-    font-size: $font-lg;
-    margin-top: 0;
-    font-weight: $paragraph-font-weight;
-  }
-  .ws-icon-bullhorn {
-    transform-origin: center;
-    transform: rotate(-20deg);
-    height: 2rem;
-    width: 2rem;
-    border-radius: 2rem;
-    background: var(--indifferent);
-    line-height: 2rem;
-    text-align: center;
-    font-size: $font-md;
-    margin-right: 0.5rem;
-    color: var(--permanent-white);
-  }
-  .ws-icon-twitter {
-    color: #1da1f2;
-    font-size: $font-lg;
-    border-radius: 20%;
-    margin-right: 0.5rem;
-    padding: 0;
-  }
-  p {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 0.5rem 0;
-    font-weight: $paragraph-font-weight;
-    justify-content: center;
-  }
-}
-
-.verdict-message {
-  margin: 0;
-  font-size: $font-sm;
-  font-weight: $title-font-weight;
-  transform: translate(0px, -5px);
-}
-
 .app-sum-head {
   grid-template: auto auto auto / 1fr;
   padding: 15px 0;
@@ -171,34 +154,217 @@
   }
 }
 
-.steps.linked .step .distribution-store-links .distribution-store-link:hover {
-  text-decoration: none;
-}
-
-.steps .step .data .distribution-store-links {
-  margin-top: 0;
-  justify-content: flex-start;
-
-  .distribution-store-link {
-    font-size: 0.94em;
-  }
-}
-
-.version-number-ws {
+// Developer / Released / Source code facts in the page header (replaces the
+// former review steps).
+.app-facts {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 16px;
+  row-gap: 6px;
+  // Line each label up with the first line of its value, which may be a
+  // padded link chip rather than plain text.
+  align-items: baseline;
+  margin: 0;
+  font-size: $font-sm;
   line-height: 1.35;
 
-  p {
+  &__item {
+    display: contents;
+  }
+
+  dt {
+    grid-column: 1;
+    font-weight: $title-font-weight;
+    line-height: inherit;
+  }
+
+  dd {
+    grid-column: 2;
     margin: 0;
   }
 
-  & + & {
-    margin-top: 0.1em;
+  &__danger {
+    color: $danger-color;
   }
 
-  i.fab,
-  i.i-app-store {
-    margin: 0 0.2em 0 0.45em;
-    font-size: 0.95em;
+  .distribution-store-links {
+    margin-top: 0.3rem;
+    gap: 0.35rem 0.5rem;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    .distribution-store-link {
+      font-size: 0.88em;
+      padding: 0.2em 0.6em;
+    }
+  }
+
+  a:not(.distribution-store-link) {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Phones show only the developer's name with an external-link icon; tapping the icon
+// swaps it for the developer's links.
+.app-facts__info {
+  display: none;
+  align-items: center;
+  margin: -0.35rem 0 -0.35rem 0.15rem;
+  padding: 0.35rem;
+  border: 0;
+  background: none;
+  color: var(--neutral-2);
+  font: inherit;
+  font-size: 0.8em;
+  line-height: 1;
+  vertical-align: middle;
+  cursor: pointer;
+
+  .ws-icon {
+    // Sits the glyph on the name's baseline rather than hanging below it.
+    transform: translateY(-0.1em);
+  }
+
+  &:hover,
+  &:focus-visible {
+    color: var(--accent-text);
+  }
+}
+
+@media (max-width: 500px) {
+  .app-facts__dev--collapsible {
+    .app-facts__info {
+      display: inline-flex;
+    }
+
+    &:not(.is-open) .distribution-store-links {
+      display: none;
+    }
+
+    &.is-open .app-facts__info {
+      display: none;
+    }
+  }
+}
+
+// "Featured on Bitcoin.org" badge right below the wallet title; the
+// details open in a native <dialog>.
+.app-facts-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  // Pulls the badge closer to the title than the header grid's 18px row gap.
+  margin-top: -0.5rem;
+
+  @media (max-width: 500px) {
+    justify-content: center;
+  }
+}
+
+// Same distance below the badge as between the title and the badge. The
+// title's 8px bottom margin makes that gap the plain row gap above 500px.
+.app-summary-grid .app-sum-head .app-facts-badges + .distribution-store-links {
+  margin-top: 0;
+
+  @media (max-width: 500px) {
+    margin-top: -0.5rem;
+  }
+}
+
+.app-facts-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.25em 0.7em;
+  border-radius: 999px;
+  border: 1px solid var(--orange);
+  background: color-mix(in srgb, var(--orange) 8%, transparent);
+  color: var(--orange);
+  font: inherit;
+  font-size: $font-xs;
+  font-weight: $title-font-weight;
+  line-height: 1.35;
+  cursor: pointer;
+
+  &:hover,
+  &:focus-visible {
+    background: var(--orange);
+    color: var(--permanent-white);
+  }
+}
+
+// Tor-purple variant for a source repository on a Tor onion service
+// (_includes/review/torSourcePill.html).
+.app-facts-badge--tor {
+  border-color: var(--tor-purple);
+  background: color-mix(in srgb, var(--tor-purple) 10%, transparent);
+  color: var(--tor-purple);
+
+  &:hover,
+  &:focus-visible {
+    background: var(--tor-purple);
+    color: var(--permanent-white);
+  }
+}
+
+.app-facts-dialog {
+  max-width: min(32rem, calc(100vw - 2rem));
+  padding: 0;
+  border: 1px solid var(--neutral-4);
+  border-radius: $border-radius;
+  background: var(--neutral-7);
+  color: var(--text);
+  box-shadow: var(--shadow-3);
+
+  &::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  &__content {
+    position: relative;
+    padding: 1.25rem 2.75rem 1.25rem 1.25rem;
+    font-size: $font-sm;
+
+    h3 {
+      margin: 0 0 0.5rem;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  &__address {
+    display: block;
+    margin: 0.75rem 0;
+    padding: 0.5rem 0.65rem;
+    border: 1px solid var(--neutral-4);
+    border-radius: $border-radius;
+    word-break: break-all;
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  &__close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: 0.35rem;
+    border: 0;
+    background: none;
+    color: inherit;
+    line-height: 1;
+    cursor: pointer;
   }
 }
 
@@ -211,13 +377,13 @@
   overflow: hidden;
 
   &__header {
-    padding: 14px 18px;
+    padding: 14px 11px;
     background: var(--neutral-5);
     border-bottom: 1px solid var(--shadow-3);
   }
 
   &__body {
-    padding: 8px 18px 20px;
+    padding: 8px 11px 20px;
     border-top: 3px solid var(--accent);
   }
 
@@ -231,9 +397,37 @@
 }
 
 .mobile-content-panels {
-  margin-top: 1.25rem;
-  padding-top: 1.25rem;
-  border-top: 1px dashed var(--shadow-3);
+  margin-top: 0;
+}
+
+// the review's own headings ("App Description", "Analysis", ...) look like
+// the review steps above them: icon tile, same title size
+.app-review .review-section-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: $review-section-gap 0 14px;
+
+  // right under Platform notes, whose 4px bottom padding completes the gap
+  &:first-child {
+    margin-top: calc(#{$review-section-gap} - 4px);
+  }
+
+  .circle {
+    @include section-icon-tile;
+  }
+
+  h2 {
+    font-size: $font-md;
+    font-weight: $title-font-weight;
+    margin: 0;
+    padding: 0;
+  }
+}
+// the gap above a heading is the heading's own, not the larger margin of
+// a quote or list right before it
+.app-review :has(+ .review-section-title) {
+  margin-bottom: 0;
 }
 
 .mobile-content-panel {
@@ -307,7 +501,28 @@
   }
 
   .step {
-    margin-top: 20px;
+    margin-top: calc(#{$review-section-gap} - 8px);
+  }
+
+  // the first section sits right under the Android/iPhone tabs
+  &__panel > .step:first-child {
+    margin-top: 6px;
+  }
+
+  // pull the section content 5px closer to its icon and title; the title
+  // shrinks with the icon so it stays centred on it (.steps outranks the
+  // margin: 0 that .steps .step .title > h3 sets)
+  .step > .circle,
+  .steps & .step > .title > h3 {
+    margin-bottom: -5px;
+  }
+
+  .step > .title > .distribution-store-links {
+    margin-top: 4.7px;
+  }
+
+  .step > .title > .platform-notes-text {
+    margin-top: 6.5px;
   }
 }
 
@@ -327,6 +542,12 @@
 }
 
 .security-overview {
+  // no line above Application information, and the same gap as between the
+  // other sections (Platform notes' 4px bottom and its own 8px top padding
+  // complete it)
+  > #results {
+    margin-top: calc(#{$review-section-gap} - 12px);
+  }
   font-weight: $paragraph-font-weight;
   // 15px on the container, not on p, so lists, quotes and tables in the
   // review body share the paragraph size instead of inheriting a bigger one
@@ -334,6 +555,20 @@
   h2 {
     font-size: $font-lg;
     font-weight: $title-font-weight;
+  }
+}
+
+// On phones and tablets the gap above the first review section ("Passed N
+// tests", or "Our review process" on "others" pages) is smaller than on
+// desktop. A heading's top margin collapses with the header's bottom margin,
+// so both shrink.
+@media screen and (max-width: 1023.98px) {
+  .app-summary-grid:has(+ .security-overview) {
+    margin-bottom: 0;
+  }
+
+  .security-overview > h2:first-child {
+    margin-top: 1.3em;
   }
 }
 
@@ -371,7 +606,7 @@
     position: relative;
     padding: 8px 0 4px;
 
-    > *:not(.circle):not(.title):not(.data),
+    > *:not(.circle):not(.title):not(.data):not(.methodology-chevron),
     .wide,
     .methodology-tests-list,
     .mobile-platform-scope,
@@ -381,7 +616,7 @@
 
     &:not(:last-of-type) {
       margin-bottom: 12px;
-      padding-bottom: 28px;
+      padding-bottom: $review-section-gap;
       &::after {
         content: "";
         position: absolute;
@@ -393,36 +628,36 @@
         opacity: 0.2;
       }
     }
+    // no line before Build Verifications and Platform notes, and the same
+    // gap as between the review's headings (the next step's 8px top padding
+    // completes it)
+    &:has(+ .build-verifications-step),
+    &:has(+ .operating-system) {
+      margin-bottom: calc(#{$review-section-gap} - 8px);
+      padding-bottom: 0;
+      &::after {
+        content: none;
+      }
+    }
+    // an empty status line (Build Verifications' message under the drop
+    // area) would still add a grid row gap at the bottom of the section
+    > .title > p:empty {
+      display: none;
+    }
+    // same for the iPhone notice's own bottom margin
+    > .title > .infoBox:last-of-type {
+      margin-bottom: 0;
+    }
+    // section icon; a section that does not apply goes grey
     .circle {
       grid-column: 1;
       grid-row: 1;
       align-self: center;
-      color: var(--body);
-      font-size: $font-md;
-      text-align: center;
-      display: grid;
-      position: relative;
-      height: 40px;
-      width: 40px;
-      line-height: 40px;
-      &::after {
-        content: "";
-        height: 100%;
-        width: 100%;
-        border-radius: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background: var(--text);
-        z-index: 1;
-      }
-      &::before {
-        z-index: 2;
-      }
+      @include section-icon-tile;
       &.disabled {
-        &::after {
-          background: var(--neutral-4);
-        }
+        color: var(--neutral-3);
+        background: color-mix(in srgb, var(--text) 6%, transparent);
+        box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--text) 12%, transparent);
       }
     }
     .title {
@@ -437,13 +672,9 @@
       > *:not(h2):not(h3) {
         grid-column: 1 / -1;
       }
-      > h2 {
-        font-size: $font-xl;
-        margin: 0;
-        font-weight: $title-font-weight;
-      }
+      > h2,
       > h3 {
-        font-size: $font-xs;
+        font-size: $font-md;
         margin: 0;
         font-weight: $title-font-weight;
       }
@@ -477,13 +708,6 @@
       .important {
         color: var(--accent-text);
       }
-      &.score-data {
-        .score {
-          div {
-            max-width: 40vw;
-          }
-        }
-      }
     }
   }
 }
@@ -503,74 +727,6 @@
     display: none;
   }
 }
-.previous-build-test-results {
-  font-size: $font-md;
-  border: none;
-  td,
-  tr,
-  th {
-    border: none;
-  }
-  td {
-    padding: 10px 0;
-  }
-  tbody {
-    tr {
-      @media (max-width: 500px) {
-        display: grid;
-        column-gap: 5px;
-        padding-bottom: 10px;
-        padding-top: 10px;
-        :nth-child(1) {
-          grid-column: 1/2;
-          grid-row: 1/2;
-          padding: 0;
-        }
-        :nth-child(2) {
-          grid-column: 2/3;
-          grid-row: 1/2;
-          text-align: right;
-          padding: 0;
-        }
-        :nth-child(3) {
-          grid-column: 1/2;
-          grid-row: 2/3;
-          padding: 0;
-        }
-      }
-      box-shadow: 0 1px 0 0 var(--shadow-2);
-      &:last-of-type {
-        box-shadow: none;
-      }
-    }
-  }
-  a {
-    text-decoration: none;
-  }
-  &.truncated {
-    tbody {
-      tr {
-        display: none;
-        @for $i from 1 through 2 {
-          &:nth-child(#{$i}) {
-            display: table-row !important;
-            @media (max-width: 500px) {
-              display: grid !important;
-            }
-          }
-        }
-        &:nth-child(2) {
-          box-shadow: none;
-        }
-      }
-    }
-    // tr:not(:nth-of-type(2)),
-    // tr:not(:first-of-type) {
-    //   display: none;
-    // }
-  }
-}
-
 .disclaimer {
   display: flex;
   gap: 25px;
@@ -607,47 +763,6 @@
   }
 }
 
-.see-also-container {
-  display: grid;
-  gap: 10px;
-  margin-top: 60px;
-  &::before {
-    content: "See also";
-    font-size: $font-lg;
-    font-weight: 500;
-    margin-bottom: 2px;
-    position: relative;
-  }
-  .also-for a {
-    color: var(--text);
-    text-decoration: none;
-    display: grid;
-    grid-template: auto / auto auto 1fr;
-    text-align: right;
-    background-image: linear-gradient(var(--wallet-low-contrast), var(--wallet-low-contrast));
-    background-color: var(--neutral-6);
-    font-size: $font-sm;
-    padding: 10px 20px 10px 10px;
-    border-radius: 10px;
-    gap: 10px;
-    @media (max-width: 500px) {
-      text-align: left;
-      grid-template: auto auto / 25px 1fr;
-    }
-    :last-child {
-      @media (max-width: 500px) {
-        grid-column: 2/3;
-        grid-row: 2/3;
-        text-align: right;
-      }
-    }
-    &:hover {
-      :nth-child(2) {
-        text-decoration: underline;
-      }
-    }
-  }
-}
 .warn {
   color: var(--orange);
 }
@@ -745,25 +860,6 @@
       }
     }
   }
-  &.highlight {
-    .accordion-head {
-      span:nth-of-type(2) {
-        box-shadow: 0 2px 0 0;
-      }
-    }
-  }
-}
-
-.score div i {
-  &.highlight {
-    &.pass {
-      background-color: var(--good);
-    }
-    &.fail {
-      background-color: var(--bad);
-      opacity: 1;
-    }
-  }
 }
 
 // Dead and archived link indicators
@@ -780,5 +876,183 @@
   opacity: 0.7;
   &:hover {
     opacity: 1;
+  }
+}
+
+// "Passed N tests" step: on phones it starts collapsed to the title, one check
+// per passed test and a chevron; a failed question stays visible. The
+// chevron and the checks only exist for this collapse, so wider screens hide
+// them and show everything.
+.steps .step.methodology {
+  .methodology-summary,
+  .methodology-chevron {
+    display: none;
+  }
+
+  @media (max-width: 500px) {
+    > .title > h3 {
+      cursor: pointer;
+    }
+
+    .methodology-summary {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      grid-column: 2 / -1;
+      grid-row: 2;
+      cursor: pointer;
+      color: var(--good);
+      margin-top: -11.6px;
+
+      svg {
+        width: 18.75px;
+        height: 18.75px;
+      }
+    }
+
+    .methodology-chevron {
+      display: block;
+      grid-column: 3;
+      grid-row: 1;
+      align-self: center;
+      padding: 8px;
+      margin: -8px -8px -8px 0;
+      background: none;
+      border: 0;
+      color: var(--accent-text);
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    &[data-collapsed="false"] .methodology-chevron {
+      transform: rotate(180deg);
+    }
+
+    // collapsed, the space under the last visible row is half of the usual
+    // 28px; with nothing failed the list is empty, so drop its row gap too
+    &[data-collapsed="true"] {
+      padding-bottom: 14px;
+
+      &:not(:has(.methodology-tests-list > .fail)) {
+        padding-bottom: 21px;
+
+        .methodology-tests-list {
+          display: none;
+        }
+      }
+
+      // right before Build Verifications (desktop and hardware pages) the
+      // usual section gap applies instead
+      &:has(+ .build-verifications-step),
+      &:has(+ .build-verifications-step):not(:has(.methodology-tests-list > .fail)) {
+        padding-bottom: 0;
+      }
+
+      > .title > p,
+      .methodology-tests-list > .pass,
+      .methodology-tests-list > .untested {
+        display: none;
+      }
+    }
+
+    &[data-collapsed="false"] .methodology-summary {
+      display: none;
+    }
+  }
+}
+
+// plain text under the title, like the other sections (no tinted box)
+.steps .step .platform-notes-text {
+  font-size: $font-sm;
+
+  .platform-notes-body > :first-child {
+    margin-top: 0;
+  }
+
+  .platform-notes-body > :last-child,
+  .platform-notes-body > :last-child > li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.platform-notes-more {
+  display: none;
+}
+
+// On phones every section except "Passed N tests" and "Build Verifications"
+// (which have their own spacing above) pulls its content up under the title.
+@media (max-width: 500px) {
+  .steps .step:not(.methodology):not(.build-verifications-step) > .title > :is(h2, h3) + * {
+    margin-top: -6px;
+  }
+
+  // the review text under "Application information" starts right under the
+  // title instead of after its own heading margin
+  #results + .section > :first-child {
+    margin-top: 0;
+  }
+
+  // the review's own headings ("App Description", ...) keep their text as
+  // close under the icon tile as Platform notes does (5px closer on
+  // Android/iPhone pages, which pull Platform notes up under its icon)
+  .app-review .review-section-title {
+    margin-bottom: 8px;
+
+    + * {
+      margin-top: 0;
+    }
+  }
+
+  .app-review--dual-platform .review-section-title {
+    margin-bottom: 3px;
+  }
+
+  // Distribution and Build Verifications get 6px more room under the icon
+  // than the text sections, where store buttons and the version list read as
+  // crowded. Growing both items of the icon row keeps the title centred on
+  // its icon.
+  .steps .step:is(.distribution, .build-verifications-step) {
+    > .circle {
+      margin-bottom: 6px;
+    }
+
+    > .title > h3 {
+      padding-bottom: 6px;
+    }
+  }
+
+  // the Android/iPhone tabs pull the icon up by 5px; keep that, plus the 6px
+  .steps .mobile-platform-tabs .step:is(.distribution, .build-verifications-step) > .circle {
+    margin-bottom: 1px;
+  }
+
+  // hardware wallet notes: only the first two lines until "more" is tapped
+  .steps .step.platform-notes-collapsible[data-collapsed="true"] .platform-notes-text {
+    .platform-notes-body > :not(:first-child) {
+      display: none;
+    }
+
+    .platform-notes-body > :first-child {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      margin-bottom: 0;
+    }
+  }
+
+  .platform-notes-more {
+    display: block;
+    margin: 6px 0 0;
+    padding: 0;
+    background: none;
+    border: 0;
+    color: var(--accent-text);
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .steps .step.platform-notes-collapsible[data-collapsed="false"] .platform-notes-more {
+    display: none;
   }
 }

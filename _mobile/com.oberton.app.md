@@ -1,13 +1,12 @@
 ---
-wsId: everspace
 title: Oberton Wallet
-date: 2024-09-06
+date: 2026-10-30
 authors:
 - danny
 website: https://bytehub.io
 twitter: EverspaceWallet
 social:
-- https://everspace.app
+- https://everspace.app#deadLink
 features:
 - fingerprint
 - multiSig
@@ -19,10 +18,9 @@ android:
   users: 5000
   appCountry: us
   released: 2021-09-15
-  updated: 2026-09-29
-  version: 2.23.0
+  updated: 2026-10-07
+  version: 2.25.0
   reviews: 27
-  icon: com.oberton.app.webp
   meta: ok
   verdict: nosource
   developerName: Bytehub, LLC
@@ -31,10 +29,9 @@ iphone:
   idd: '1585434994'
   appCountry: ua
   released: 2021-09-15
-  updated: 2026-08-02
-  version: 3.5.1
+  updated: 2026-10-07
+  version: 3.7.0
   reviews: 8
-  icon: io.oberton.webp
   meta: ok
   verdict: nosource
   developerName: BYTEHUB, LLC
@@ -62,7 +59,7 @@ The app's **source code is not publicly available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Enable Touch ID or Face ID to access the crypto storage without having to type the password every time." source="Store" %}
 

@@ -1,7 +1,6 @@
 ---
-wsId: trustPoolFrostWallet
 title: 'FROST Wallet: Buy BTC & Crypto'
-date: 2025-06-20
+date: 2026-10-30
 authors:
 - danny
 website: https://frostwallet.cc
@@ -18,7 +17,6 @@ android:
   updated: 2025-01-24
   version: 2.5.23
   reviews: 1
-  icon: com.frostwallet.webp
   meta: removed
   verdict: nosource
   developerName: Trustpool
@@ -30,12 +28,13 @@ iphone:
   updated: 2025-01-24
   version: 2.5.23
   reviews: 1
-  icon: ru.trustpool.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Trustpool DOO
 
 ---
+
+**Update 2026-10-30:** Both apps are gone from the stores. The [FROST Wallet website](https://frostwallet.cc/) now links to a new "FROST Wallet 2" app by Trustpool, which replaces this one.
 
 ## Android
 
@@ -59,4 +58,4 @@ There is no evidence to suggest that this app's source code is publicly availabl
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

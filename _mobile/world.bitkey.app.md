@@ -1,7 +1,6 @@
 ---
-wsId: bitkeyBlock
 title: Bitkey - Bitcoin Wallet
-date: 2024-03-14
+date: 2026-10-30
 authors:
 - danny
 website: https://bitkey.world
@@ -24,10 +23,9 @@ android:
   users: 10000
   appCountry: US
   released: 2024-02-28
-  updated: 2026-08-06
-  version: 2026.11.2 (1)
-  reviews: 31
-  icon: world.bitkey.app.webp
+  updated: 2026-10-08
+  version: 2026.16.0 (1)
+  reviews: 32
   signer: c0d0f9da7158cde788d0281e9ebd07034178165584d635f7ce17f77c037d961a
   alternativeStores:
   - zapstore
@@ -42,10 +40,9 @@ iphone:
   idd: '6476990471'
   appCountry: us
   released: 2024-03-13
-  updated: 2026-08-11
-  version: 2026.11.2
-  reviews: 136
-  icon: world.bitkey.app.webp
+  updated: 2026-10-13
+  version: 2026.16.0
+  reviews: 137
   meta: ok
   verdict: sourceavailable
   developerName: Block, Inc.
@@ -65,7 +62,7 @@ This is the **companion app** to the {% include walletLink.html wallet='hardware
 
 <hr>
 
-[**Release Notes**](https://bitkey.world/en-US/releases)
+[**Release Notes**](https://bitkey.world/releases)
 
 # Verified Builds
 
@@ -87,7 +84,7 @@ An issue has been opened at [https://gitlab.com/walletscrutiny/walletScrutinyCom
 
 {% include featureEvidence.html feature="companion" source="[Website](https://bitkey.world)" quote="one on your Bitkey device and one in the app . A third is encrypted on a server" %}
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="multiSig" quote="Bitkey is a 2-of-3 multi-signature wallet which means there are three private keys protecting your bitcoin. You always need two out of three keys to sign a transaction, giving you extra protection." source="Store description" %}
 

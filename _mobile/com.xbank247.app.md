@@ -1,6 +1,6 @@
 ---
 title: XBank - Blockchain Bank
-date: 2023-05-03
+date: 2026-10-30
 website: https://www.xbank247.com
 redirect_from:
 - /android/com.xbank247.app/
@@ -10,7 +10,6 @@ android:
   released: 2021-12-30
   updated: 2023-11-10
   version: 16.1.0
-  icon: com.xbank247.app.webp
   meta: defunct
   verdict: wip
   developerName: Thang Nguyen Ngoc

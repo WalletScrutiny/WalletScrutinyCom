@@ -1,7 +1,6 @@
 ---
-wsId: cexCryptoWallet
 title: CEX.IO App - Crypto Wallet
-date: 2024-04-19
+date: 2026-10-30
 authors:
 - danny
 website: https://wallet.cex.io
@@ -21,7 +20,6 @@ android:
   updated: 2024-03-06
   version: 2.7.8
   reviews: 61
-  icon: io.cex.wallet.webp
   meta: removed
   verdict: custodial
   developerName: CEX.IO
@@ -33,7 +31,6 @@ iphone:
   updated: 2024-03-18
   version: 3.0.0
   reviews: 28
-  icon: io.cex.cexwallet.webp
   meta: removed
   verdict: custodial
   developerName: CEX.IO LTD
@@ -65,4 +62,4 @@ In the same vein as the apps related to cex described above are **custodial**, t
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

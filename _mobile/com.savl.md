@@ -1,7 +1,6 @@
 ---
-wsId: Savl
 title: 'UnityWallet: Crypto & Bitcoin'
-date: 2021-09-11
+date: 2026-10-30
 authors:
 - danny
 website: https://unitywallet.com
@@ -24,7 +23,6 @@ android:
   updated: 2026-09-17
   version: 9.7.0
   reviews: 208
-  icon: com.savl.webp
   meta: ok
   verdict: nosource
   developerName: Unity Software FZE
@@ -36,12 +34,13 @@ iphone:
   updated: 2026-09-18
   version: 9.7.0
   reviews: 283
-  icon: com.savl.savlapp.webp
   meta: ok
   verdict: nosource
   developerName: Unity Software FZE
 
 ---
+
+**Update 2026-10-30:** Savl has [rebranded as Unity Wallet](https://www.prnewswire.com/news-releases/savl-rebrands-to-unity-wallet-and-launches-loyalty-program-boosting-user-experience-and-value-302253337.html), at [unitywallet.com](https://www.unitywallet.com/).
 
 ## Android
 
@@ -73,7 +72,9 @@ This wallet is a self custodial wallet, but without the source code for the wall
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+**Update 2026-10-30:** The iPhone app is now "UnityWallet: Крипто и Биткоин" in the Russian App Store.
+
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="UnityWallet защищает активы с помощью шифрования AES-512, фразы восстановления из 24 слов и биометрической PIN-аутентификации." source="Store description" %}
 

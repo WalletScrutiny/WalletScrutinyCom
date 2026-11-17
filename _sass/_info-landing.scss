@@ -210,13 +210,129 @@
   text-decoration: none;
 }
 
-// /androidApp/: two lead paragraphs, then source and privacy links under the buttons
+// /androidApp/: two lead paragraphs, then the download buttons and the source code link
 .android-app-page .guide-hero .guide-lead + .guide-lead {
   margin-top: 1.25rem;
 }
 
-.android-app-links {
+// Same green as .btn-success, outlined so the downloads stay the primary action.
+// .btn forces border: 0 and a white colour with !important, so the outline is a shadow.
+.android-app-source {
+  background: transparent;
+  box-shadow: inset 0 0 0 1px #4CAF50;
+  color: #4CAF50 !important;
+  transition: background-color 0.3s, color 0.3s;
+
+  &:hover,
+  &:focus-visible {
+    background-color: #4CAF50;
+    color: #fff !important;
+  }
+}
+
+// The text space alone sits the icon too close to the label
+.android-app-page .guide-actions .btn .ws-icon {
+  margin-right: 0.3em;
+}
+
+@media (max-width: 767px) {
+  .android-app-page .guide-hero .guide-lead {
+    font-size: $font-lg * 0.75;
+  }
+}
+
+// /androidApp/: one big screenshot, thumbnails below it pick which one is shown
+.android-app-showcase {
+  margin: 0 auto 2.5rem;
+  max-width: 520px;
+}
+
+.android-app-showcase-main {
+  margin: 0;
   text-align: center;
-  color: var(--neutral-2);
-  font-weight: $paragraph-font-weight;
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 18px;
+    box-shadow: 0 0 0 1px var(--shadow-3);
+  }
+
+  figcaption {
+    min-height: 2.8em;
+    margin: 0.9rem auto 0;
+    max-width: 420px;
+    font-size: $font-sm;
+    line-height: 1.4;
+    color: var(--neutral-2);
+    font-weight: $paragraph-font-weight;
+  }
+}
+
+.android-app-showcase-thumbs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.android-app-thumb {
+  flex: 0 1 72px;
+  min-width: 0;
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px var(--shadow-3);
+  opacity: 0.6;
+  transition: opacity 0.15s ease, box-shadow 0.15s ease;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  &:hover,
+  &:focus-visible {
+    opacity: 1;
+  }
+
+  &.is-active {
+    opacity: 1;
+    box-shadow: 0 0 0 2px var(--accent);
+  }
+}
+
+// Phones: screenshot, caption and thumbnails fit in 90% of the screen height,
+// so the picker and the picked image are visible together. The screenshot
+// takes whatever height is left; 667px is its natural 300px-wide height.
+@media (max-width: 767px) {
+  .android-app-showcase {
+    display: flex;
+    flex-direction: column;
+    height: min(90vh, 900px);
+    height: min(90svh, 900px);
+  }
+
+  .android-app-showcase-main {
+    flex: 1 1 0;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      flex: 1 1 0;
+      min-height: 0;
+      max-height: 667px;
+      width: auto;
+      aspect-ratio: 720 / 1600;
+    }
+  }
+
+  .android-app-showcase-thumbs {
+    flex: none;
+  }
 }

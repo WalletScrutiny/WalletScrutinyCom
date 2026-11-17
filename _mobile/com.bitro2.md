@@ -1,6 +1,6 @@
 ---
 title: Bitro
-date: 2024-04-19
+date: 2026-10-30
 authors:
 - danny
 website: https://gameper.io
@@ -15,7 +15,6 @@ android:
   released: 2020-12-09
   updated: 2021-12-30
   version: 1.0.80
-  icon: com.bitro2.webp
   meta: removed
   verdict: wip
   developerName: Gameper

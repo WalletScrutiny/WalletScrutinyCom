@@ -1,7 +1,6 @@
 ---
-wsId: dzengi
 title: 'Dzengi: Buy BTC & Crypto'
-date: 2024-01-23
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -24,7 +23,6 @@ android:
   updated: 2026-08-13
   version: 2.22.2
   reviews: 2
-  icon: com.currency.exchange.prod2.webp
   meta: ok
   verdict: custodial
   developerName: DI INVESTMENTS LLC
@@ -35,8 +33,7 @@ iphone:
   released: 2019-04-23
   updated: 2026-08-13
   version: 2.22.2
-  reviews: 4522
-  icon: com.currency.exchange.prod2.webp
+  reviews: 4539
   meta: ok
   verdict: custodial
   developerName: DI INVESTMENTS LLC
@@ -67,8 +64,8 @@ The [terms and conditions](https://prod-img.dzengi.com/docs/dzengicom_terms_and_
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 Note 2022-01-09:
 >
-> According to the Android review, this app was falsely marked as wsId currencycominvesting and needs another close look.
+> According to the Android review, this app was falsely linked to the currencycominvesting listing and needs another close look.

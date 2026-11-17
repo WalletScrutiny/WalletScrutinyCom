@@ -1,6 +1,6 @@
 ---
 title: beWallet
-date: 2024-05-07
+date: 2026-10-30
 website: http://www.anfeli.com
 redirect_from:
 - /android/com.anfeli.bewallet/
@@ -10,7 +10,6 @@ android:
   released: 2018-11-05
   updated: 2019-05-28
   version: 1.2.24
-  icon: com.anfeli.bewallet.webp
   meta: removed
   verdict: wip
   developerName: Anfeli ES

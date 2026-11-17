@@ -1,7 +1,6 @@
 ---
-wsId: uollarCrypto
 title: 'Uollar: Earn Bitcoin & Crypto'
-date: 2025-01-06
+date: 2026-10-30
 authors:
 - danny
 website: http://uollar.io/policy
@@ -19,7 +18,6 @@ android:
   updated: 2023-01-13
   version: 2.4.40
   reviews: 5
-  icon: com.block.application.webp
   meta: obsolete
   verdict: custodial
   developerName: UOLLAR PTY LTD
@@ -31,7 +29,6 @@ iphone:
   updated: 2023-01-13
   version: 2.4.40
   reviews: 1
-  icon: com.lh2424.uollar.webp
   meta: removed
   verdict: custodial
   developerName: UOLLAR PTY LTD
@@ -71,4 +68,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

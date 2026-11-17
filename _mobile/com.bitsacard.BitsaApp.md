@@ -1,7 +1,6 @@
 ---
-wsId: bitsa
-title: 'Bitsa: Prepaid Card'
-date: 2021-11-02
+title: 'Bitsa: Reloadable Prepaid Card'
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitsacard.com
@@ -17,10 +16,9 @@ android:
   users: 100000
   appCountry: gb
   released: 2019-04-09
-  updated: 2026-09-22
-  version: 3.0.30
+  updated: 2026-09-29
+  version: 3.0.31
   reviews: 10
-  icon: com.bitsacard.BitsaApp.webp
   meta: ok
   verdict: nosendreceive
   developerName: bitsacard
@@ -29,10 +27,9 @@ iphone:
   idd: 1458095544
   appCountry: de
   released: 2019-04-12
-  updated: 2026-09-28
-  version: 3.0.30
+  updated: 2026-09-30
+  version: 3.0.31
   reviews: 120
-  icon: com.bitsacard.BitsaApp.webp
   meta: ok
   verdict: nosendreceive
   developerName: BITSA
@@ -58,4 +55,4 @@ This app **cannot send or receive BTC.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

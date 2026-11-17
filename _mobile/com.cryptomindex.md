@@ -1,6 +1,6 @@
 ---
 title: Cryptomindex
-date: 2023-03-21
+date: 2026-10-30
 website: https://cryptomindex.com#deadLink
 redirect_from:
 - /android/com.cryptomindex/
@@ -10,7 +10,6 @@ android:
   released: 2021-08-17
   updated: 2021-08-17
   version: '1.0'
-  icon: com.cryptomindex.webp
   meta: removed
   verdict: wip
 

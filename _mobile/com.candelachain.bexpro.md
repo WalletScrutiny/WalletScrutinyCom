@@ -1,6 +1,6 @@
 ---
 title: Bexpress pro
-date: 2023-05-13
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bexpro.ph
@@ -12,7 +12,6 @@ android:
   released: 2019-03-25
   updated: 2021-02-20
   version: 1.0.8
-  icon: com.candelachain.bexpro.webp
   meta: removed
   verdict: wip
   developerName: bexpress

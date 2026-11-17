@@ -41,7 +41,7 @@ At its most basic, adding a platform starts with these steps:
               path: ""
               type: "desktop"
               values:
-              layout: reviewDesktop
+              layout: review
               author_profile: true
               read_time: false
               comments: false

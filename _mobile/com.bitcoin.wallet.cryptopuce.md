@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Wallet & BNB, BEP20, ERC20 Tokens Wallet
-date: 2022-02-16
+date: 2026-10-30
 authors:
 - danny
 website: https://cryptopuce.com
@@ -13,11 +13,12 @@ android:
   updated: 2021-05-20
   version: '1.2'
   reviews: 3
-  icon: com.bitcoin.wallet.cryptopuce.webp
   meta: removed
   verdict: nosource
 
 ---
+
+**Update 2026-10-30:** The provider is gone: cryptopuce.com now redirects to a [HugeDomains sale page](https://www.hugedomains.com/domain_profile.cfm?d=cryptopuce.com).
 
 **Update 2022-02-09**: This app is no more.
 

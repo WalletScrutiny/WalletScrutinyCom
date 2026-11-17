@@ -1,6 +1,6 @@
 ---
 title: 'BNS: Crypto Trading Exchange'
-date: 2026-04-13
+date: 2026-10-30
 authors:
 - danny
 website: https://bitbns.com/
@@ -22,7 +22,6 @@ android:
   updated: 2026-04-06
   version: 6.21.0
   reviews: 44
-  icon: com.bitbns.webp
   meta: ok
   verdict: custodial
   developerName: Bitbns Cryptocurrency Trading Exchange India

@@ -1,6 +1,6 @@
 ---
 title: OKOTC
-date: 2023-01-02
+date: 2026-10-30
 website: https://okotc.io#deadLink
 redirect_from:
 - /android/com.anmav.okotcandroid/
@@ -10,7 +10,6 @@ android:
   released: 2019-11-08
   updated: 2019-12-09
   version: 1.2.0
-  icon: com.anmav.okotcandroid.webp
   meta: removed
   verdict: wip
 

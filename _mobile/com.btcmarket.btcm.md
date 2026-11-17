@@ -1,7 +1,6 @@
 ---
-wsId: btcmarkets
 title: BTC Markets
-date: 2023-04-20
+date: 2026-10-30
 authors:
 - danny
 website: https://btcmarkets.net
@@ -22,10 +21,9 @@ android:
   users: 10000
   appCountry: us
   released: 2022-03-17
-  updated: 2026-08-25
+  updated: 2026-09-30
   version: 1.15.0
   reviews: 2
-  icon: com.btcmarket.btcm.webp
   meta: ok
   verdict: custodial
   developerName: BTC Markets Pty Ltd
@@ -34,10 +32,9 @@ iphone:
   idd: '1546957530'
   appCountry: au
   released: 2022-03-19
-  updated: 2026-08-26
-  version: 1.15.0
-  reviews: 302
-  icon: com.btcmarkets.btcm.webp
+  updated: 2026-10-08
+  version: 1.16.1
+  reviews: 306
   meta: ok
   verdict: custodial
   developerName: BTC Markets
@@ -62,7 +59,7 @@ As a cryptocurrency exchange with user-account management and use of cold wallet
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Enjoy quick and secure on-going access to your account using 6-digit PIN, or your device's inbuilt biometric security." source="Store" %}
 

@@ -1,6 +1,6 @@
 ---
 title: eNuts
-date: 2025-02-13
+date: 2026-10-30
 authors:
 - danny
 website: https://enuts.cash
@@ -16,7 +16,6 @@ iphone:
   updated: 2024-02-14
   version: 0.3.0
   reviews: 1
-  icon: xyz.elliptica.enuts.webp
   meta: removed
   verdict: custodial
   developerName: Elliptica

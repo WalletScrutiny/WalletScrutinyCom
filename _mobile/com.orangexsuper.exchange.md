@@ -1,7 +1,6 @@
 ---
-wsId: orangeXBitcoin
 title: 'OrangeX: Buy Bitcoin & Crypto'
-date: 2026-01-23
+date: 2026-10-30
 authors:
 - danny
 website: https://www.orangex.com/
@@ -21,7 +20,6 @@ android:
   updated: 2026-04-09
   version: 1.0.1
   reviews: 5
-  icon: com.orangexsuper.exchange.webp
   meta: removed
   verdict: custodial
   developerName: OrangeX Limited
@@ -30,10 +28,9 @@ iphone:
   idd: '6455259516'
   appCountry: us
   released: 2023-08-30
-  updated: 2026-09-20
-  version: 1.1.2
-  reviews: 21
-  icon: com.orangex.exchange.webp
+  updated: 2026-10-03
+  version: 1.1.3
+  reviews: 23
   meta: ok
   verdict: custodial
   developerName: OrangeX Fintech s.r.o.
@@ -62,7 +59,7 @@ This is a **custodial app.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Trade the most popular cryptos, such as Bitcoin (BTC), Ethereum (ETH), Dogecoin (DOGE), Shiba Inu (SHIB), Ripple (XRP), Tron (TRX), etc., almost instantaneously." source="Store description" %}
 

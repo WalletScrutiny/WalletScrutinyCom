@@ -6,6 +6,7 @@ import { getPublicKey, generateSecretKey } from 'nostr-tools/pure';
 import {
   getProfileDisplayName,
   getProfileImageUrl,
+  hasProfileIdentity,
   PROFILE_PLACEHOLDER_IMAGE,
   buildProfileCircleHtml,
   profileImageFallback,
@@ -26,6 +27,24 @@ describe('getProfileDisplayName', () => {
     const name = getProfileDisplayName(null, PUBKEY);
     assert.match(name, /npub1/);
     assert.match(name, /…/);
+  });
+});
+
+describe('hasProfileIdentity', () => {
+  test('accepts a picture or any name field', () => {
+    assert.equal(hasProfileIdentity({ picture: 'https://cdn.example/a.png' }), true);
+    assert.equal(hasProfileIdentity({ image: 'https://cdn.example/a.png' }), true);
+    assert.equal(hasProfileIdentity({ name: 'Alice' }), true);
+    assert.equal(hasProfileIdentity({ display_name: 'Bob' }), true);
+    assert.equal(hasProfileIdentity({ displayName: 'Carol' }), true);
+  });
+
+  test('rejects missing profiles and blank names', () => {
+    assert.equal(hasProfileIdentity(null), false);
+    assert.equal(hasProfileIdentity(undefined), false);
+    assert.equal(hasProfileIdentity({}), false);
+    assert.equal(hasProfileIdentity({ name: '   ', picture: '' }), false);
+    assert.equal(hasProfileIdentity({ about: 'no name, no picture', lud16: 'a@b.c' }), false);
   });
 });
 

@@ -1,7 +1,6 @@
 ---
-wsId: MetalPay
 title: 'Metal Pay: Buy Bitcoin and ETH'
-date: 2021-10-21
+date: 2026-10-30
 authors:
 - danny
 website: https://metalpay.com
@@ -18,10 +17,9 @@ android:
   users: 100000
   appCountry: us
   released: 2020-01-14
-  updated: 2026-09-24
-  version: 3.1.226
+  updated: 2026-10-07
+  version: 3.1.229
   reviews: 402
-  icon: com.metallicus.metalapp.production.webp
   meta: ok
   verdict: custodial
   developerName: Metallicus Inc.
@@ -30,10 +28,9 @@ iphone:
   idd: 1345101178
   appCountry: us
   released: 2018-09-14
-  updated: 2026-09-24
-  version: 3.1.226
-  reviews: 4327
-  icon: com.metallicus.metalpay.webp
+  updated: 2026-10-08
+  version: 3.1.227
+  reviews: 4325
   meta: ok
   verdict: custodial
   developerName: Metallicus, Inc.
@@ -41,6 +38,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The custodian changed. Metal Pay's [terms](https://www.metalpay.com/terms), last updated 2026-10-01, say all digital assets are held "under the custody of the Digital Asset Custodian", named as Fireblocks; Synapse and Evolve Bank, quoted below, are no longer mentioned.
 
 ## App Description
 
@@ -62,4 +61,4 @@ As the terms and conditions state above, this service uses other services to pro
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

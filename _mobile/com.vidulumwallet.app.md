@@ -1,7 +1,6 @@
 ---
-wsId: Vidulum
 title: Vidulum - Crypto Web Wallet
-date: 2024-12-15
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -22,7 +21,6 @@ android:
   updated: 2024-01-24
   version: '4.0'
   reviews: 12
-  icon: com.vidulumwallet.app.webp
   meta: removed
   verdict: nosource
   developerName: Vidulum LLC
@@ -34,7 +32,6 @@ iphone:
   updated: 2024-02-07
   version: 1.6.1
   reviews: 16
-  icon: com.vidulum.app.webp
   meta: removed
   verdict: nosource
   developerName: Vidulum LLC
@@ -77,4 +74,4 @@ The app is closed source and thus **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

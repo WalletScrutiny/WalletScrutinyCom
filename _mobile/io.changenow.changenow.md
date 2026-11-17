@@ -1,7 +1,6 @@
 ---
-wsId: ChangeNOW
 title: 'Crypto exchange: USDT, Bitcoin'
-date: 2024-07-13
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -23,10 +22,9 @@ android:
   users: 100000
   appCountry: us
   released: 2018-09-07
-  updated: 2026-09-15
-  version: 2.1.2
-  reviews: 813
-  icon: io.changenow.changenow.webp
+  updated: 2026-10-06
+  version: 2.1.4
+  reviews: 817
   meta: ok
   verdict: nosource
   developerName: ChangeNOW
@@ -35,10 +33,9 @@ iphone:
   idd: 1518003605
   appCountry: us
   released: 2020-06-29
-  updated: 2026-09-11
-  version: 2.11.4
-  reviews: 2272
-  icon: io.changenow.webp
+  updated: 2026-10-09
+  version: 2.11.6
+  reviews: 2276
   meta: ok
   verdict: nosource
   developerName: CHN Group Limited

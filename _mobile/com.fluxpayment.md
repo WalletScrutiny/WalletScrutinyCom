@@ -1,7 +1,6 @@
 ---
-wsId: FluxPay
 title: Flux
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: https://iflux.app
@@ -19,7 +18,6 @@ android:
   updated: 2023-04-13
   version: 3.0.391
   reviews: 17
-  icon: com.fluxpayment.webp
   meta: removed
   verdict: custodial
   developerName: Blueloop Inc.
@@ -30,7 +28,6 @@ iphone:
   updated: 2023-04-15
   version: 3.0.391
   reviews: 93
-  icon: com.blueloopflux.app.webp
   meta: removed
   verdict: custodial
   developerName: Blueloop
@@ -72,4 +69,4 @@ We have not found any reference to private keys or seed phrases on Flux's websit
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

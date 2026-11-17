@@ -1,7 +1,6 @@
 ---
-wsId: BitcoinIRA
 title: 'BitcoinIRA: Buy & Sell Crypto'
-date: 2021-10-18
+date: 2026-10-30
 authors:
 - danny
 website: https://bitcoinira.com/
@@ -21,10 +20,9 @@ android:
   users: 100000
   appCountry: us
   released: 2021-06-15
-  updated: 2026-09-15
-  version: 2.0.27
-  reviews: 561
-  icon: com.bitcoinira.webp
+  updated: 2026-10-08
+  version: 2.261008.1
+  reviews: 562
   meta: ok
   verdict: custodial
   developerName: BitcoinIRA
@@ -33,10 +31,9 @@ iphone:
   idd: '1534638949'
   appCountry: us
   released: 2021-06-20
-  updated: 2026-09-15
-  version: 2.0.27
-  reviews: 1219
-  icon: com.bitcoinira.webp
+  updated: 2026-10-06
+  version: 2.261005.1
+  reviews: 1217
   meta: ok
   verdict: custodial
   developerName: BitcoinIRA
@@ -76,7 +73,7 @@ As Bitgo still acts as a custodian to your funds, keeping them in **cold storage
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Buy, sell or swap digital assets in your IRA or Roth IRA wherever and whenever you choose - Trade 60+ cryptos: Bitcoin, Ethereum, Ripple, Litecoin and more" source="Store" %}
 

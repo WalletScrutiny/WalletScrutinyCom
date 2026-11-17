@@ -1,7 +1,6 @@
 ---
-wsId: okxTR
 title: 'OKX TR: Buy Bitcoin & Crypto'
-date: 2025-11-20
+date: 2026-10-30
 authors:
 - danny
 website: https://tr.okx.com
@@ -20,9 +19,8 @@ android:
   appId: com.okx.tr
   users: 500000
   appCountry: us
-  updated: 2026-09-30
-  version: 6.190.0
-  icon: com.okx.tr.webp
+  updated: 2026-10-06
+  version: 6.192.0
   meta: ok
   verdict: custodial
   developerName: OKX TR
@@ -31,10 +29,9 @@ iphone:
   idd: '6475769800'
   appCountry: tr
   released: 2024-02-07
-  updated: 2026-09-29
-  version: 6.191.0
-  reviews: 2502
-  icon: com.okx.tr.webp
+  updated: 2026-10-11
+  version: 6.192.0
+  reviews: 2549
   meta: ok
   verdict: custodial
   developerName: OKX TR KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI
@@ -63,7 +60,7 @@ This is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Easily discover tokens from thousands of cryptocurrencies, including Bitcoin (BTC), Ethereum (ETH), Ripple (XRP), Tether (USDT), Solana (SOL), Dogecoin (DOGE), and Shiba Inu (SHIB)." source="Store description" %}
 

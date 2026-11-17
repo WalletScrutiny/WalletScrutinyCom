@@ -1,7 +1,6 @@
 ---
-wsId: earnbit
 title: 'EarnBIT: Buy & Exchange Crypto'
-date: 2026-05-27
+date: 2026-10-30
 authors:
 - danny
 website: https://earnbit.com/
@@ -18,7 +17,6 @@ android:
   released: 2022-10-30
   updated: 2026-05-25
   version: 1.0.27
-  icon: com.earnbit.app.exchange.webp
   meta: removed
   verdict: custodial
   developerName: EarnBit Corp.
@@ -27,10 +25,9 @@ iphone:
   idd: '6444002806'
   appCountry: us
   released: 2022-11-08
-  updated: 2026-09-15
-  version: 1.0.37
+  updated: 2026-10-01
+  version: 1.0.38
   reviews: 1
-  icon: com.earnBit.exchange.app.webp
   meta: ok
   verdict: custodial
   developerName: EarnBit LLC
@@ -63,4 +60,4 @@ description. Investigation stops here.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

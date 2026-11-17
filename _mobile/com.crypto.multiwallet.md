@@ -1,7 +1,6 @@
 ---
-wsId: guarda
 title: 'Guarda: Crypto Bitcoin Wallet'
-date: 2021-05-20
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -22,10 +21,9 @@ android:
   users: 500000
   appCountry: us
   released: 2018-11-01
-  updated: 2026-09-21
-  version: 3.2.4
-  reviews: 566
-  icon: com.crypto.multiwallet.webp
+  updated: 2026-10-09
+  version: 3.2.5
+  reviews: 554
   meta: ok
   verdict: nosource
   developerName: GUARDA
@@ -36,8 +34,7 @@ iphone:
   released: 2018-12-01
   updated: 2026-09-23
   version: 3.2.4
-  reviews: 956
-  icon: com.crypto.multiwallet.webp
+  reviews: 960
   meta: ok
   verdict: nosource
   developerName: GUARDACO LDA

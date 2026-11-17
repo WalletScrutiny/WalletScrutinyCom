@@ -1,10 +1,9 @@
 ---
-wsId: bitfy
 title: Bitfy SuperApp de Criptomoedas
-date: 2025-02-04
+date: 2026-10-30
 authors:
 - danny
-website: https://blockchainwebservices.com.br
+website: https://web.archive.org/web/20241212052429/https://blockchainwebservices.com.br/
 twitter: bitfyapp
 social:
 - https://www.facebook.com/bitfyapp
@@ -18,7 +17,6 @@ android:
   released: 2019-10-14
   updated: 2024-03-05
   version: 3.12.48
-  icon: com.bitfyapp.webp
   meta: removed
   verdict: nosource
   developerName: Bitfy
@@ -30,12 +28,13 @@ iphone:
   updated: 2024-02-27
   version: 3.12.45
   reviews: 117
-  icon: app.bitfy.webp
   meta: removed
   verdict: nosource
   developerName: WARP INTERMEDIACOES E SERVICOS DE PAGAMENTO LTDA
 
 ---
+
+**Update 2026-10-30:** Bitfy appears to be gone. Both apps are out of the stores, bitfy.app is a parked domain, and blockchainwebservices.com.br, the company's site after its [2024 rebrand to BWS](https://web.archive.org/web/20241212052429/https://blockchainwebservices.com.br/), now shows an unrelated blog.
 
 ## Android
 
@@ -81,4 +80,4 @@ While keeping all this in mind this app is still classifiable as a **non-custodi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

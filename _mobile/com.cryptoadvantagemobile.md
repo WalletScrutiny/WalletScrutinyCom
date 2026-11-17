@@ -1,6 +1,6 @@
 ---
 title: Crypto Advantage Mobile
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/com.cryptoadvantagemobile/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-03-10
   updated: 2023-09-08
   version: 1.2.1
-  icon: com.cryptoadvantagemobile.webp
   meta: removed
   verdict: wip
   developerName: DuplicationSoft

@@ -12,14 +12,19 @@ provider: Thunderhub
 providerWebsite: 
 website: https://www.thunderhub.io
 repository: https://github.com/apotdevin/thunderhub
-icon: thunderhub.lnd.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-09-08
+date: 2026-11-03
 twitter: thunderhubio
 social: 
-builds: 
+builds:
+- arch: x86_64-linux
+  types:
+    standard:
+    - thunderhub-standard-*-amd64.tar
+    base:
+    - thunderhub-base-*-amd64.tar
 features:
 - foss
 - ln

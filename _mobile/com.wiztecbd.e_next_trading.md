@@ -1,6 +1,6 @@
 ---
 title: 'Gi Next: Crypto Trading App'
-date: 2023-05-10
+date: 2026-10-30
 website: https://ginexttradingcorp.com#deadLink
 redirect_from:
 - /android/com.wiztecbd.e_next_trading/
@@ -10,7 +10,6 @@ android:
   released: 2022-03-18
   updated: 2023-01-01
   version: 2.1.2
-  icon: com.wiztecbd.e_next_trading.webp
   meta: removed
   verdict: wip
   developerName: Ginext

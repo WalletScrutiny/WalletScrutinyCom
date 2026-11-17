@@ -1,6 +1,7 @@
 ---
 title: BULL
-date: 2025-01-13
+bitcoinOrgId: bull
+date: 2026-10-30
 authors:
 - danny
 website: http://bullbitcoin.com
@@ -31,7 +32,6 @@ android:
   updated: 2026-09-01
   version: 6.13.0
   reviews: 8
-  icon: com.bullbitcoin.mobile.webp
   alternativeStores:
   - zapstore
   meta: ok
@@ -43,10 +43,9 @@ iphone:
   idd: '6743380972'
   appCountry: us
   released: 2025-09-29
-  updated: 2026-09-02
-  version: 6.13.1
+  updated: 2026-10-12
+  version: 6.14.0
   reviews: 21
-  icon: com.bullbitcoin.app.webp
   meta: ok
   verdict: sourceavailable
   developerName: Satoshi Portal Inc

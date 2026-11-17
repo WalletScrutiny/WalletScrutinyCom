@@ -1,6 +1,6 @@
 ---
 title: Crypto Money Bank
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/com.igen.cryptomoneybank/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-07-07
   updated: 2021-07-07
   version: 1.0.0
-  icon: com.igen.cryptomoneybank.webp
   meta: removed
   verdict: wip
   developerName: CMB BLOCKCHAIN

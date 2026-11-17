@@ -1,7 +1,6 @@
 ---
-wsId: xSpringDigital
 title: XSpring Digital
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: https://trade.xspringdigital.com
@@ -18,7 +17,6 @@ android:
   released: 2021-12-08
   updated: 2025-07-15
   version: 2.17.0
-  icon: com.se.digital.brokerage.mobile.webp
   meta: removed
   verdict: custodial
   developerName: XSpring Digital Co., Ltd.
@@ -30,12 +28,13 @@ iphone:
   updated: 2023-09-26
   version: 2.0.10
   reviews: 1
-  icon: com.se.digital.brokerage.mobile.webp
   meta: removed
   verdict: custodial
   developerName: XSPRING DIGITAL COMPANY LIMITED
 
 ---
+
+**Update 2026-10-30:** This app is gone from both stores. XSpring Digital now lives on the [XSpring Capital website](https://www.xspringcapital.com/th/xspring-digital), and the group offers a general XSpring app, which we have not reviewed yet.
 
 ## Android
 
@@ -64,4 +63,4 @@ The exchange's disclosure clearly states that it has third-party custodians. Thi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

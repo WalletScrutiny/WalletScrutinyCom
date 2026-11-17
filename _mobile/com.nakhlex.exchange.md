@@ -1,6 +1,6 @@
 ---
 title: Nakhlex
-date: 2024-04-03
+date: 2026-10-30
 website: https://nakhlex.com#deadLink
 redirect_from:
 - /android/com.nakhlex.exchange/
@@ -9,7 +9,6 @@ android:
   users: 100
   updated: 2022-12-08
   version: 1.1.0
-  icon: com.nakhlex.exchange.webp
   meta: removed
   verdict: wip
   developerName: Nakhlex

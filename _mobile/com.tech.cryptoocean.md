@@ -1,6 +1,6 @@
 ---
 title: Crypto Ocean:Invest in Crypto
-date: 2025-03-14
+date: 2026-10-30
 website: https://cryptoocean.in#deadLink
 redirect_from:
 - /android/com.tech.cryptoocean/
@@ -10,7 +10,6 @@ android:
   released: 2022-07-20
   updated: 2022-08-18
   version: '1.1'
-  icon: com.tech.cryptoocean.webp
   meta: removed
   verdict: wip
   developerName: Crypto Ocean

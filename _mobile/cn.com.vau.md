@@ -1,7 +1,6 @@
 ---
-wsId: vantageFX
 title: Vantage:All-In-One Trading App
-date: 2021-11-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.vantagemarkets.com/
@@ -19,8 +18,7 @@ android:
   released: 2019-07-06
   updated: 2026-09-17
   version: 4.11.0
-  reviews: 10137
-  icon: cn.com.vau.webp
+  reviews: 11058
   meta: ok
   verdict: nosendreceive
   developerName: Vantage Global Prime PTY LTD
@@ -31,8 +29,7 @@ iphone:
   released: 2019-07-20
   updated: 2026-09-20
   version: 4.11.0
-  reviews: 98
-  icon: com.vttech.VantageFX.webp
+  reviews: 110
   meta: ok
   verdict: nosendreceive
   developerName: Vantage Global Prime PTY LTD
@@ -41,13 +38,15 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** The help-center article quoted below is gone, and the weekend restriction it described no longer applies: [ForexBrokers.com's 2026 review](https://www.forexbrokers.com/reviews/vantage) lists about 50 crypto CFDs that now trade 24/7.
+
 App description:
 
 > The Vantage FX app offers traders easy, yet powerful mobile access to hundreds of FX Pairs, Commodities, Indices, Share CFDs and more! Available for both iOS and Android devices, the Vantage FX trading app is equipped with a suite of trading and investing tools so you can trade global markets anywhere, anytime! Trade your way anywhere, anytime, with the Vantage FX app.
 
 There was no mention of BTC or any other cryptocurrency in their Playstore description. 
 
-On their website's [help center](https://helpcenter.vantagefx.com/hc/en-us/articles/360004063096-Why-can-not-I-trade-Crypto-assets-over-the-weekend-), Vantage mentions that crypto assets "are offered in the form of CFD."
+On their website's [help center](https://helpcenter.vantagefx.com/hc/en-us/articles/360004063096-Why-can-not-I-trade-Crypto-assets-over-the-weekend-#deadLink), Vantage mentions that crypto assets "are offered in the form of CFD."
 
 > Kindly note that Crypto assets are offered in the form of CFD. As CFD markets are closed over the weekend crypto trading is not available either. 
 
@@ -57,4 +56,4 @@ CFD trading entails that users do not actually own the assets and as a result, *
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

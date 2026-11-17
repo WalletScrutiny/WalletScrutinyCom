@@ -1,6 +1,6 @@
 ---
 title: BCoin
-date: 2021-11-16
+date: 2026-10-30
 redirect_from:
 - /android/sg.bcoin.app/
 android:
@@ -10,7 +10,6 @@ android:
   updated: 2018-11-22
   version: 1.2.1
   reviews: 26
-  icon: sg.bcoin.app.webp
   meta: removed
   verdict: wip
 

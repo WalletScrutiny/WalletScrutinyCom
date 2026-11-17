@@ -1,5 +1,6 @@
 short: Blind signing
 title: Transactions are signed blindly
+status: Once unsealed, the device does not let you verify what is being signed.
 pass: The device allows verification of what gets signed
 color: 'var(--indifferent, #3d506d)'
 redflag: false

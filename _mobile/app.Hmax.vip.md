@@ -1,6 +1,6 @@
 ---
 title: Hmax logistics
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/app.Hmax.vip/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-09-17
   updated: 2021-10-07
   version: 1.0.3
-  icon: app.Hmax.vip.webp
   meta: removed
   verdict: wip
   developerName: Lorena Barr

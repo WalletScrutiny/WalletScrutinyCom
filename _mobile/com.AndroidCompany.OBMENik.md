@@ -1,6 +1,6 @@
 ---
 title: Обменник Биткоин кошелёк
-date: 2021-10-26
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -12,7 +12,6 @@ android:
   updated: 2020-11-18
   version: '1.0'
   reviews: 446
-  icon: com.AndroidCompany.OBMENik.webp
   meta: removed
   verdict: wip
 

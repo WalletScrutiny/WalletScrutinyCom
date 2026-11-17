@@ -1,7 +1,6 @@
 ---
-wsId: sFox
 title: 'sFOX: Buy BTC, ETH, DOGE'
-date: 2025-02-28
+date: 2026-10-30
 authors:
 - danny
 website: https://www.sfox.com/
@@ -20,7 +19,6 @@ android:
   updated: 2024-11-15
   version: 1.3.0
   reviews: 3
-  icon: com.sfox.android.webp
   meta: removed
   verdict: custodial
   developerName: SFOX Inc.
@@ -32,7 +30,6 @@ iphone:
   updated: 2026-09-25
   version: 2.0.0
   reviews: 15
-  icon: com.sfox.ios.webp
   meta: ok
   verdict: custodial
   developerName: SFOX Inc
@@ -65,4 +62,4 @@ All signs, including cold-storage security, no hot wallets or external ledgers, 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

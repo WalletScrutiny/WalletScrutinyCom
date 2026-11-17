@@ -1,7 +1,6 @@
 ---
-wsId: deffioWallet
 title: 'Deffio: Secure Crypto Wallet'
-date: 2025-11-14
+date: 2026-10-30
 authors:
 - danny
 website: https://deffio.com/wallet
@@ -14,9 +13,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-03-14
-  updated: 2026-05-28
-  version: 1.8.9
-  icon: com.deffio.app.webp
+  updated: 2026-10-02
+  version: 1.9.1
   meta: ok
   verdict: nosource
   developerName: Deffio
@@ -25,10 +23,9 @@ iphone:
   idd: '6743933039'
   appCountry: ua
   released: 2025-07-14
-  updated: 2026-06-01
-  version: 1.8.9
+  updated: 2026-10-02
+  version: 1.9.1
   reviews: 23
-  icon: com.deffio.app.webp
   meta: ok
   verdict: nosource
   developerName: BETELGEUSE CORPORATION LTD
@@ -57,4 +54,4 @@ This app is **not source-available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

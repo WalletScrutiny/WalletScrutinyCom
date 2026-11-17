@@ -12,11 +12,10 @@ provider: Dennis Pitallano
 providerWebsite: https://dennispitallano.github.io
 website: https://dgbwallet.app
 repository: https://github.com/DennisPitallano/digibyte-wallet
-icon: dgbwallet.app.webp
 bugbounty:
 meta: ok
 verdict: nobtc
-date: 2026-04-29
+date: 2026-10-30
 twitter: 
 social: 
 features: 

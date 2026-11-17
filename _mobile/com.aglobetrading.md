@@ -1,6 +1,6 @@
 ---
 title: GtWallet
-date: 2021-11-15
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -12,7 +12,6 @@ android:
   updated: 2021-03-18
   version: '1.6'
   reviews: 27
-  icon: com.aglobetrading.webp
   meta: removed
   verdict: wip
 

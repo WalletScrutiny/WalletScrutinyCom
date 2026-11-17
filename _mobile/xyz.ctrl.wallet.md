@@ -1,7 +1,6 @@
 ---
-wsId: ctrlWallet
 title: Ctrl Wallet
-date: 2024-09-24
+date: 2026-10-30
 authors:
 - danny
 website: https://ctrl.xyz
@@ -19,8 +18,7 @@ android:
   updated: 2026-08-05
   version: 4.1.0
   reviews: 5
-  icon: xyz.ctrl.wallet.webp
-  meta: ok
+  meta: defunct
   verdict: nosource
   developerName: EMURGO Fintech Inc.
 iphone:
@@ -31,12 +29,13 @@ iphone:
   updated: 2026-06-08
   version: 3.3.2
   reviews: 9
-  icon: xyz.ctrl.wallet.webp
   meta: removed
   verdict: nosource
   developerName: EMURGO Co., Ltd
 
 ---
+
+**⚠️ Warning:** Ctrl Wallet is shut down. After EMURGO took it over and a security exploit, it [announced its closure](https://cointelegraph.com/news/ctrl-wallet-shutdown-security-exploit) and told users to move their funds or export their recovery phrase. Its [website](https://ctrl.xyz/) says it was permanently shut down on August 19, 2026. Users with their recovery phrase can import it into another wallet.
 
 ## Android
 
@@ -62,4 +61,4 @@ We also posted on [x.com](https://x.com/dannybuntu/status/1900819210101813276) t
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,6 +1,6 @@
 ---
 title: MetachainX
-date: 2023-12-19
+date: 2026-10-30
 redirect_from:
 - /android/com.metachainx.mobileapp/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-05-03
   updated: 2022-05-06
   version: '1.1'
-  icon: com.metachainx.mobileapp.webp
   meta: removed
   verdict: wip
   developerName: Meta Scaling

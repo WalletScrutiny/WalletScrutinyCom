@@ -1,7 +1,6 @@
 ---
-wsId: zionApp
 title: Zion - Create Openly
-date: 2025-02-13
+date: 2026-10-30
 authors:
 - danny
 website: https://getzion.com#deadLink
@@ -18,7 +17,6 @@ android:
   updated: 2023-05-12
   version: 2.0.5
   reviews: 27
-  icon: com.getzion.zion.webp
   meta: removed
   verdict: nosource
   developerName: Zion - Create Openly
@@ -30,7 +28,6 @@ iphone:
   updated: 2023-07-20
   version: 2.0.6
   reviews: 17
-  icon: chat.n2n2.Chat.webp
   meta: removed
   verdict: nosource
   developerName: Modern Foundry, Inc.
@@ -84,4 +81,4 @@ This makes the app **not source-available.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

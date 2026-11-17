@@ -1,7 +1,6 @@
 ---
-wsId: bizaPayWallet
 title: BizaPAY Wallet - 암호화폐 지갑
-date: 2026-01-16
+date: 2026-10-30
 authors:
 - danny
 website: https://iron-sturgeon-db2.notion.site/BizaPAY-Wallet-f7fa49ebb4c64eb3817fe2360b54fa6a?pvs=4
@@ -17,7 +16,6 @@ android:
   released: 2025-01-13
   updated: 2026-02-06
   version: 1.1.1
-  icon: com.amaxg.bizapaywallet.webp
   meta: ok
   verdict: custodial
   developerName: BIZA Project
@@ -29,7 +27,6 @@ iphone:
   updated: 2026-02-10
   version: 1.1.1
   reviews: 1
-  icon: com.amaxg.bizapaywallet.webp
   meta: ok
   verdict: custodial
   developerName: AMAXG
@@ -58,6 +55,6 @@ Since this is a stale foreign language app and since its website is no longer av
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="사용자는 설정한 비밀번호나 생체인증을 통해 지갑에 안전하게 접근할 수 있으며" source="Store" %}

@@ -1,7 +1,6 @@
 ---
-wsId: maxwallet
 title: MaxWallet
-date: 2026-01-14
+date: 2026-10-30
 authors:
 - danny
 website: https://maxwallet.cc/contact-us
@@ -17,7 +16,6 @@ android:
   appCountry: us
   updated: 2026-09-28
   version: 1.6.0
-  icon: com.maxwallet.cc.webp
   meta: ok
   verdict: nosource
   developerName: MaxWallet
@@ -29,7 +27,6 @@ iphone:
   updated: 2026-09-24
   version: 1.6.0 (2)
   reviews: 96
-  icon: com.maxwallet.cc.webp
   meta: ok
   verdict: nosource
   developerName: MS PROFIT LTD
@@ -50,4 +47,4 @@ We installed and tested MaxWallet on Android. The app provides a seed phrase on 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

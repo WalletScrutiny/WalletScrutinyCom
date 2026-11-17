@@ -1,7 +1,6 @@
 ---
-wsId: everestKinvo
 title: 'Kinvo: Acompanhe investimentos'
-date: 2022-06-23
+date: 2026-10-30
 authors:
 - danny
 website: http://www.kinvo.com.br
@@ -20,10 +19,9 @@ android:
   users: 1000000
   appCountry: BR
   released: 2017-12-22
-  updated: 2026-09-15
-  version: 3.67.0
+  updated: 2026-10-07
+  version: 3.68.0
   reviews: 7579
-  icon: com.everestti.kinvo.webp
   meta: ok
   verdict: nosendreceive
   developerName: Kinvo Tecnologia da Informação
@@ -32,10 +30,9 @@ iphone:
   idd: '1327335329'
   appCountry: BR
   released: 2018-01-03
-  updated: 2026-09-16
-  version: 3.67.0
-  reviews: 19176
-  icon: com.everest.kinvo.webp
+  updated: 2026-10-08
+  version: 3.68.0
+  reviews: 19181
   meta: ok
   verdict: nosendreceive
   developerName: EVEREST.TI
@@ -56,4 +53,4 @@ There are no mentions of cryptocurrencies in the description. This app's main fu
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: mpcvaultMultisig
 title: MPCVault - Multisig Wallet
-date: 2025-11-20
+date: 2026-10-30
 authors:
 - danny
 website: https://mpcvault.com/
@@ -23,7 +22,6 @@ android:
   updated: 2026-09-18
   version: 3.28.8
   reviews: 3
-  icon: com.mpcvault.mobileapp.android.webp
   meta: ok
   verdict: custodial
   developerName: MetaLoop Inc
@@ -35,7 +33,6 @@ iphone:
   updated: 2026-09-15
   version: 1.152.0
   reviews: 135
-  icon: com.mpcvault.mobileapp.ios.webp
   meta: ok
   verdict: custodial
   developerName: MetaLoop Inc
@@ -74,7 +71,7 @@ According to WalletScrutiny's custodial verdict criteria, products that "claim t
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="multiSig" quote="Supports creating multiple independent wallets for different use cases and multisig transaction policies." source="Store description" %}
 

@@ -1,7 +1,6 @@
 ---
-wsId: deskoin
 title: Deskoin - Investir en cryptos
-date: 2026-04-20
+date: 2026-10-30
 authors:
 - danny
 website: https://www.deskoin.com/
@@ -17,7 +16,6 @@ android:
   appCountry: us
   updated: 2026-08-20
   version: 7.8.18
-  icon: com.deskoin.app.webp
   meta: ok
   verdict: custodial
   developerName: Deskoin
@@ -28,8 +26,7 @@ iphone:
   released: 2023-12-02
   updated: 2026-08-20
   version: 7.8.18
-  reviews: 402
-  icon: com.deskoin.app.webp
+  reviews: 404
   meta: ok
   verdict: custodial
   developerName: Deskoin
@@ -60,4 +57,4 @@ Deskoin is a **custodial cryptocurrency exchange**. Users do not control private
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

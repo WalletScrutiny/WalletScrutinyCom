@@ -1,7 +1,6 @@
 ---
-wsId: UmiFi
 title: UmiFi-Bitcoin, Crypto Trading
-date: 2022-02-25
+date: 2026-10-30
 authors:
 - danny
 website: http://www.umifi.com
@@ -17,7 +16,6 @@ android:
   updated: 2021-12-23
   version: 1.0.6
   reviews: 4
-  icon: com.umifi.app.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -27,11 +25,12 @@ iphone:
   updated: 2021-12-24
   version: 1.0.6
   reviews: 1
-  icon: com.umifi.app.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** [umifi.com](http://www.umifi.com) now leads to a HugeDomains page that sells the domain, and its [Zendesk help center](https://umificom.zendesk.com/), which the analysis below cites, is closed.
 
 ## Android
 
@@ -68,4 +67,4 @@ Cryptocurrency exchanges that have Anti Money Laundering policies are almost alw
 
 **Update 2022-10-21**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

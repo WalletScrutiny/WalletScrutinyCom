@@ -1,7 +1,7 @@
 ---
 title: ABiTraderApp
-date: 2023-01-02
-website: https://abitnetwork.com
+date: 2026-10-30
+website: https://abitnetwork.com#deadLink
 redirect_from:
 - /android/com.abit.abitraderapp/
 android:
@@ -11,7 +11,6 @@ android:
   updated: 2021-12-11
   version: 2.9.7
   reviews: 15
-  icon: com.abit.abitraderapp.webp
   meta: removed
   verdict: wip
 

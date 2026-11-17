@@ -1,6 +1,6 @@
 ---
 title: WenLite
-date: 2024-08-17
+date: 2026-10-30
 website: http://www.wenlite.io
 redirect_from:
 - /android/com.wenlite.dcx/
@@ -10,7 +10,6 @@ android:
   released: 2022-03-11
   updated: 2023-02-22
   version: 2.0.4
-  icon: com.wenlite.dcx.webp
   meta: removed
   verdict: wip
   developerName: TokenWorld

@@ -1,6 +1,6 @@
 ---
 title: ProfitTradingApp for Kraken
-date: 2024-04-19
+date: 2026-10-30
 authors:
 - danny
 website: https://profittradingapp.com/
@@ -16,7 +16,6 @@ android:
   updated: 2021-08-07
   version: VARY
   reviews: 11
-  icon: com.profittrading.forkraken.webp
   meta: removed
   verdict: custodial
   developerName: ProfitTradingApp

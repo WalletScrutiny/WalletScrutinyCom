@@ -1,11 +1,9 @@
 ---
 title: Algowave
-date: 2023-05-05
+date: 2026-10-30
 authors:
 - danny
-website: https://www.algowave.io
-social:
-- https://web.archive.org/web/20211208164813/https://www.algowave.io/
+website: https://www.algowave.io#deadLink
 redirect_from:
 - /android/io.algowave.algowaveapp/
 android:
@@ -14,7 +12,6 @@ android:
   released: 2018-07-09
   updated: 2021-04-29
   version: '3.0'
-  icon: io.algowave.algowaveapp.webp
   meta: removed
   verdict: wip
   developerName: Algowave LTD

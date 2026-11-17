@@ -1,6 +1,6 @@
 ---
 title: Enkrypt Wallet
-date: 2023-01-02
+date: 2026-10-30
 website: https://enkryptwallet.us#deadLink
 redirect_from:
 - /android/com.enkrypt.blockchain/
@@ -10,7 +10,6 @@ android:
   released: 2021-07-24
   updated: 2021-08-12
   version: 1.0.3
-  icon: com.enkrypt.blockchain.webp
   meta: removed
   verdict: wip
 

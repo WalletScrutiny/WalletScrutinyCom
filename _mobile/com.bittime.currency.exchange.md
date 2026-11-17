@@ -1,7 +1,6 @@
 ---
-wsId: bittime
 title: 'Bittime: Buy Bitcoin & Crypto'
-date: 2025-11-13
+date: 2026-10-30
 authors:
 - danny
 website: http://www.bittime.com
@@ -14,9 +13,8 @@ android:
   users: 500000
   appCountry: us
   released: 2022-09-23
-  updated: 2026-09-25
-  version: 2.0.23
-  icon: com.bittime.currency.exchange.webp
+  updated: 2026-10-04
+  version: 2.0.24
   meta: ok
   verdict: custodial
   developerName: Bittime Exchanges
@@ -25,10 +23,9 @@ iphone:
   idd: '1641059360'
   appCountry: id
   released: 2022-11-15
-  updated: 2026-09-25
-  version: 2.0.23
-  reviews: 443
-  icon: com.bittime.currency.exchange.webp
+  updated: 2026-10-06
+  version: 2.0.24
+  reviews: 446
   meta: ok
   verdict: custodial
   developerName: PT. UTAMA ASET DIGITAL INDONESIA
@@ -62,4 +59,4 @@ This is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

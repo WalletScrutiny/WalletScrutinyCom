@@ -1,7 +1,7 @@
 ---
-wsId: GreenBitcoinWallet
 title: Blockstream Bitcoin Wallet
-date: 2020-12-19
+bitcoinOrgId: green
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -34,7 +34,6 @@ android:
   updated: 2026-09-24
   version: 5.6.1
   reviews: 151
-  icon: com.greenaddress.greenbits_android_wallet.webp
   signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
   alternativeStores:
   - fdroid
@@ -50,8 +49,7 @@ iphone:
   released: 2019-03-22
   updated: 2026-09-28
   version: 5.7.0
-  reviews: 1233
-  icon: io.blockstream.green.webp
+  reviews: 1242
   meta: ok
   verdict: sourceavailable
   developerName: Blockstream
@@ -60,6 +58,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Green is now called the "Blockstream App" ([README](https://github.com/Blockstream/green_android)).
 
 *Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/249f5fed576720a6d4fb53215614327ab2ec8b38/_android/com.greenaddress.greenbits_android_wallet.md)*
 

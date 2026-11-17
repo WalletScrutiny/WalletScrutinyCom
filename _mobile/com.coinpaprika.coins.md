@@ -1,10 +1,9 @@
 ---
-wsId: coinsonepaprika
 title: 'COINS: One App For Crypto'
-date: 2024-07-15
+date: 2026-10-30
 authors:
 - danny
-website: https://coins.coinpaprika.com/
+website: https://web.archive.org/web/20260711233022/https://coins.coinpaprika.com/
 twitter: CoinsOneApp
 social:
 - https://www.facebook.com/CoinsOneApp
@@ -26,8 +25,7 @@ android:
   updated: 2025-08-19
   version: 1.17.18
   reviews: 94
-  icon: com.coinpaprika.coins.webp
-  meta: stale
+  meta: removed
   verdict: nosource
   developerName: Coinpaprika
 iphone:
@@ -38,12 +36,13 @@ iphone:
   updated: 2025-04-10
   version: 2.8.19
   reviews: 981
-  icon: com.coinpaprika.Coins.webp
-  meta: stale
+  meta: removed
   verdict: nosource
   developerName: Coinpaprika Sp. z o.o.
 
 ---
+
+**Update 2026-10-30:** Both apps are gone from the stores, and the COINS website no longer loads; it was last archived in [July 2026](https://web.archive.org/web/20260711233022/https://coins.coinpaprika.com/). We found no announcement from Coinpaprika.
 
 ## Android
 
@@ -96,7 +95,7 @@ Absent source code for **this specific app**, it is **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="segwit" quote="Native SegWit (bech32): addresses start with bc1 (we use this type in Coins)" source="Website" %}
 

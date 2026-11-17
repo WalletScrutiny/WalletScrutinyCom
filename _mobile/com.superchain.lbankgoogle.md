@@ -1,7 +1,6 @@
 ---
-wsId: LBank
 title: LBank - Buy Bitcoin & Crypto
-date: 2021-10-21
+date: 2026-10-30
 authors:
 - danny
 website: https://www.lbank.com
@@ -18,10 +17,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2020-05-08
-  updated: 2026-09-29
-  version: 8.2.0
-  reviews: 709
-  icon: com.superchain.lbankgoogle.webp
+  updated: 2026-10-13
+  version: 8.2.1
+  reviews: 715
   meta: ok
   verdict: custodial
   developerName: LBank
@@ -30,10 +28,9 @@ iphone:
   idd: '1437346368'
   appCountry: us
   released: 2019-02-22
-  updated: 2026-09-26
-  version: 6.1.8
-  reviews: 771
-  icon: com.LBank.LBankNavApp.webp
+  updated: 2026-10-02
+  version: 6.1.9
+  reviews: 798
   meta: ok
   verdict: custodial
   developerName: LBANK EXCHANGE UAB
@@ -41,6 +38,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The old help center at support.lbank.site no longer loads, so the links below are dead. The current terms are the [LBank User Service Agreement](https://www.lbank.com/support/articles/21436496711705).
 
 ## App Description
 
@@ -67,4 +66,4 @@ LBank app is **custodial** and thus **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

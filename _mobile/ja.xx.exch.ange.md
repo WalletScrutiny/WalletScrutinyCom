@@ -1,6 +1,6 @@
 ---
 title: Jaxx Liberty Bitcoin & Ethereum
-date: 2022-01-15
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -12,7 +12,6 @@ android:
   released: 2021-09-01
   updated: 2021-09-01
   version: '1'
-  icon: ja.xx.exch.ange.webp
   meta: removed
   verdict: fake
 

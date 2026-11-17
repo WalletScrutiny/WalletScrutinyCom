@@ -1,6 +1,6 @@
 ---
 title: Mat Coin
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2021-10-28
   updated: 2021-10-28
   version: '5.0'
-  icon: com.drbtb.btbmatcoinbuerqi.webp
   meta: removed
   verdict: wip
 

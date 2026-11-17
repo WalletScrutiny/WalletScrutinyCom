@@ -1,6 +1,6 @@
 ---
 title: 업비트 - 국가대표 디지털 자산 거래소
-date: 2021-08-21
+date: 2026-10-30
 authors:
 - danny
 website: https://upbit.com
@@ -15,10 +15,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2017-10-23
-  updated: 2026-09-18
-  version: 1.36.1
+  updated: 2026-10-13
+  version: 1.36.2
   reviews: 21
-  icon: com.dunamu.exchange.webp
   meta: ok
   verdict: custodial
   developerName: Dunamu

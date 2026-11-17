@@ -1,6 +1,6 @@
 ---
 title: Teda Chain
-date: 2023-04-16
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -12,7 +12,6 @@ android:
   updated: 2022-04-01
   version: 2.6.7
   reviews: 5
-  icon: com.tedachain.app.webp
   meta: removed
   verdict: wip
   developerName: ggreysonccherry

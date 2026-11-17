@@ -1,7 +1,6 @@
 ---
-wsId: bybitEU
 title: 'Bybit.eu: Buy Bitcoin & Crypto'
-date: 2025-11-13
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bybit.eu/help-center
@@ -18,7 +17,6 @@ android:
   appCountry: us
   updated: 2026-09-18
   version: 5.21.10
-  icon: com.bybit.eu.webp
   meta: ok
   verdict: custodial
   developerName: Bybit EU GmbH
@@ -29,8 +27,7 @@ iphone:
   released: 2025-07-14
   updated: 2026-09-19
   version: 5.21.10
-  reviews: 217
-  icon: com.bybit.eu.webp
+  reviews: 223
   meta: ok
   verdict: custodial
   developerName: Bybit EU GmbH
@@ -59,7 +56,7 @@ This app is **custodial.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="buyWithCC" quote="Credit and debit cards" source="Store" comment="Store description explicitly lists credit and debit cards as payment methods for buying Bitcoin." %}
 

@@ -1,7 +1,6 @@
 ---
-wsId: circleInvest
 title: 'Circle Invest: Buy & sell Bitc'
-date: 2024-09-16
+date: 2026-10-30
 authors:
 - danny
 website: https://invest.circle.com
@@ -20,7 +19,6 @@ android:
   updated: 2022-04-28
   version: 1.5.5
   reviews: 270
-  icon: com.circle.invest.webp
   meta: removed
   verdict: nosendreceive
   developerName: Circle Internet Financial
@@ -32,7 +30,6 @@ iphone:
   updated: 2022-04-28
   version: 1.7.3
   reviews: 1868
-  icon: com.circle.invest.webp
   meta: removed
   verdict: nosendreceive
   developerName: Circle Internet Financial, LLC
@@ -61,4 +58,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

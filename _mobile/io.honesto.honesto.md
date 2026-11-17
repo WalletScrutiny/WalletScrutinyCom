@@ -1,7 +1,6 @@
 ---
-wsId: honestoTrading
 title: Honesto - Trading App
-date: 2023-07-21
+date: 2026-10-30
 authors:
 - danny
 website: https://www.honesto.swiss/
@@ -14,7 +13,6 @@ android:
   appCountry: us
   updated: 2026-08-10
   version: 2.4.2
-  icon: io.honesto.honesto.webp
   meta: ok
   verdict: custodial
   developerName: Honesto AG Schweiz
@@ -26,7 +24,6 @@ iphone:
   updated: 2026-08-11
   version: 2.4.1
   reviews: 37
-  icon: io.honesto.honesto.webp
   meta: ok
   verdict: custodial
   developerName: Honesto AG
@@ -51,4 +48,4 @@ The description states that digital assets are in the **custody** of InCore Bank
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: paypal
 title: PayPal - Pay, Send, Save
-date: 2021-08-22
+date: 2026-10-30
 authors:
 - emanuel
 - leo
@@ -16,30 +15,30 @@ redirect_from:
 - /iphone/com.yourcompany.PPClient/
 android:
   appId: com.paypal.android.p2pmobile
-  users: 100000000
+  users: 500000000
   appCountry: us
   released: 2016-02-19
-  updated: 2026-09-19
-  version: 10.14.0
-  reviews: 442349
-  icon: com.paypal.android.p2pmobile.webp
+  updated: 2026-10-09
+  version: 10.16.0
+  reviews: 442740
   meta: ok
-  verdict: nosendreceive
+  verdict: custodial
   developerName: PayPal Mobile
 iphone:
   appId: com.yourcompany.PPClient
   idd: 283646709
   appCountry: us
   released: 2019-02-03
-  updated: 2026-09-28
-  version: 10.5.1
-  reviews: 6298670
-  icon: com.yourcompany.PPClient.webp
+  updated: 2026-10-02
+  version: 10.5.2
+  reviews: 6298938
   meta: ok
-  verdict: nosendreceive
+  verdict: custodial
   developerName: PayPal, Inc.
 
 ---
+
+**Update 2026-10-30:** The verdict of both apps changes from {% include verdictBadge.html verdict="nosendreceive" type='short' %} to {% include verdictBadge.html verdict="custodial" type='short' %}. Since [June 2022](https://newsroom.paypal-corp.com/2022-06-07-PayPal-Users-Can-Now-Transfer-Send-and-Receive-Bitcoin-Ethereum-Bitcoin-Cash-and-Litecoin) eligible US users can send bitcoin from PayPal to other wallets and exchanges and receive it from them, while custody stays with PayPal's provider Paxos ([crypto page](https://www.paypal.com/us/digital-wallet/manage-money/crypto)). The text below predates this and its conclusion that BTC cannot leave PayPal is outdated.
 
 ## Android
 

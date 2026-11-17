@@ -1,10 +1,9 @@
 ---
-wsId: hotXexchange
 title: HotX
-date: 2024-08-31
+date: 2026-10-30
 authors:
 - danny
-website: https://hotx.pro/en/home
+website: https://hotx.pro/en/home#deadLink
 redirect_from:
 - /android/com.exchange.hotxapp/
 - /iphone/com.metasigns.hotx/
@@ -14,7 +13,6 @@ android:
   released: 2022-02-27
   updated: 2023-07-14
   version: 1.0.33
-  icon: com.exchange.hotxapp.webp
   meta: removed
   verdict: custodial
   developerName: Metasigns
@@ -26,12 +24,13 @@ iphone:
   updated: 2023-11-12
   version: 1.0.19
   reviews: 2
-  icon: com.metasigns.hotx.webp
   meta: removed
   verdict: custodial
   developerName: METASIGNS INC.
 
 ---
+
+**Update 2026-10-30:** HotX looks gone. Its website no longer loads (last [archived in January 2025](https://web.archive.org/web/20250115170549/https://hotx.pro/)), the site of its operator Metasigns no longer loads either, and both apps were removed from the stores.
 
 ## Android
 
@@ -54,4 +53,4 @@ This is a cryptocurrency exchange.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

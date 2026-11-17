@@ -1,7 +1,6 @@
 ---
-wsId: bybit
 title: 'Bybit: New Financial Platform'
-date: 2021-02-09
+date: 2026-10-30
 authors:
 - leo
 website: https://www.bybit.com
@@ -21,10 +20,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2019-10-31
-  updated: 2026-09-25
-  version: 5.25.5
-  reviews: 7249
-  icon: com.bybit.app.webp
+  updated: 2026-10-08
+  version: 5.26.5
+  reviews: 7262
   meta: ok
   verdict: custodial
   developerName: Bybit
@@ -33,10 +31,9 @@ iphone:
   idd: 1488296980
   appCountry: us
   released: 2020-01-06
-  updated: 2026-09-25
-  version: 5.26.0
-  reviews: 46920
-  icon: com.bybit.app.webp
+  updated: 2026-10-09
+  version: 5.26.5
+  reviews: 46911
   meta: ok
   verdict: custodial
   developerName: Bybit Fintech Limited

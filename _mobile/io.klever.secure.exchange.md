@@ -1,7 +1,6 @@
 ---
-wsId: kleverexchange
 title: Bitcoin.me
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 website: https://bitcoin.me
@@ -20,7 +19,6 @@ android:
   updated: 2023-08-07
   version: 1.5.3
   reviews: 46
-  icon: io.klever.secure.exchange.webp
   meta: removed
   verdict: custodial
   developerName: 'Klever Wallet: Bitcoin, Ethereum, TRX & Crypto'
@@ -31,12 +29,13 @@ iphone:
   updated: 2023-05-02
   version: 1.8.1
   reviews: 59
-  icon: io.klever.secure.exchange.webp
   meta: removed
   verdict: custodial
   developerName: Klever Exchange
 
 ---
+
+**Update 2026-10-30:** Bitcoin.me, the renamed Klever Exchange, is closing its exchange and moving to a self-custody DeFi platform. Since [February 2026](https://bitcoin.me/blog/legacy-exchange) trading and deposits are permanently disabled, and the [old exchange site](https://cex.bitcoin.me) only allows withdrawals.
 
 ## Android
 
@@ -81,4 +80,4 @@ Our verdict for the Klever Exchange is **custodial** and therefore **not verifia
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

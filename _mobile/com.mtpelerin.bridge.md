@@ -1,7 +1,6 @@
 ---
-wsId: bridgeWallet
 title: 'Bridge Wallet: Bitcoin, crypto'
-date: 2022-01-10
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -26,10 +25,9 @@ android:
   users: 100000
   appCountry: us
   released: 2020-04-07
-  updated: 2026-09-29
-  version: '1.73'
+  updated: 2026-10-13
+  version: '1.74'
   reviews: 37
-  icon: com.mtpelerin.bridge.webp
   meta: ok
   verdict: nosource
   developerName: Mt Pelerin Group SA
@@ -38,10 +36,9 @@ iphone:
   idd: 1481859680
   appCountry: us
   released: 2020-04-08
-  updated: 2026-08-04
-  version: '1.72'
+  updated: 2026-09-30
+  version: '1.73'
   reviews: 87
-  icon: com.mtpelerin.bridge.webp
   meta: ok
   verdict: nosource
   developerName: Mt Pelerin
@@ -80,7 +77,7 @@ As a closed source wallet, this is **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="LN Bitcoin sat CHF" source="Website" %}
 

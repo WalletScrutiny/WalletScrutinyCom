@@ -1,7 +1,6 @@
 ---
-wsId: cryptoNow
 title: Cryptonow
-date: 2025-11-11
+date: 2026-10-30
 authors:
 - danny
 website: https://cryptonow.ch
@@ -12,9 +11,8 @@ android:
   appId: ch.cryptonow.wallet
   users: 10000
   appCountry: us
-  updated: 2026-09-09
-  version: 2.4.1
-  icon: ch.cryptonow.wallet.webp
+  updated: 2026-10-01
+  version: 2.4.2
   meta: ok
   verdict: nosource
   developerName: Värdex Suisse AG
@@ -23,10 +21,9 @@ iphone:
   idd: '1607143703'
   appCountry: ch
   released: 2022-07-07
-  updated: 2026-09-09
-  version: 2.4.1
-  reviews: 124
-  icon: ch.cryptonow.wallet.webp
+  updated: 2026-10-09
+  version: 2.4.3
+  reviews: 125
   meta: ok
   verdict: nosource
   developerName: Värdex Suisse AG
@@ -57,4 +54,4 @@ This app is **not source-available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

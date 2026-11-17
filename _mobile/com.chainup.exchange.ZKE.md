@@ -1,7 +1,6 @@
 ---
-wsId: zkeExchange
 title: ZKE EXCHANGE
-date: 2023-09-15
+date: 2026-10-30
 authors:
 - danny
 website: https://zke.com
@@ -21,7 +20,6 @@ android:
   updated: 2023-07-25
   version: 5.8.4_push_v2
   reviews: 37
-  icon: com.chainup.exchange.ZKE.webp
   meta: removed
   verdict: custodial
   developerName: ZKE
@@ -33,7 +31,6 @@ iphone:
   updated: 2026-08-13
   version: 6.5.4
   reviews: 270
-  icon: com.fmine.zkeApp.webp
   meta: ok
   verdict: custodial
   developerName: fmine.com
@@ -59,4 +56,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

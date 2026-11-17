@@ -1,6 +1,6 @@
 ---
 title: yiancoin
-date: 2022-04-25
+date: 2026-10-30
 redirect_from:
 - /android/com.yiancoin.app.gp/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-08-02
   updated: 2021-08-03
   version: 1.0.0
-  icon: com.yiancoin.app.gp.webp
   meta: removed
   verdict: wip
 

@@ -1,6 +1,6 @@
 ---
 title: 'Koinwa: Buy, Sell, Loan Crypto'
-date: 2024-07-30
+date: 2026-10-30
 authors:
 - danny
 website: https://koinwa.com#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2021-08-08
   updated: 2024-02-24
   version: 3.2.3
-  icon: com.koinwatech.koinwa.webp
   meta: removed
   verdict: custodial
   developerName: koinwa

@@ -1,6 +1,6 @@
 ---
 title: BaileysNpTRX
-date: 2023-03-21
+date: 2026-10-30
 redirect_from:
 - /android/com.wpduf.biid/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-05-12
   updated: 2022-05-24
   version: 1.0.1
-  icon: com.wpduf.biid.webp
   meta: removed
   verdict: wip
 

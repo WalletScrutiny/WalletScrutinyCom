@@ -1,6 +1,6 @@
 ---
 title: 'CoinTrust: BTC & Crypto Wallet'
-date: 2024-02-05
+date: 2026-10-30
 redirect_from:
 - /android/com.wallet.cointrust/
 android:
@@ -10,7 +10,6 @@ android:
   updated: 2022-12-14
   version: '1.0'
   reviews: 9
-  icon: com.wallet.cointrust.webp
   meta: removed
   verdict: wip
   developerName: MintMyBitcoin | Cloud Services

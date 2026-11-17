@@ -1,6 +1,6 @@
 ---
 title: Ibis Wallet
-date: 2026-04-13
+date: 2026-10-30
 authors:
 - danny
 features:
@@ -20,9 +20,10 @@ android:
   updated: 2026-03-06
   version: 2.2-beta
   reviews: 0
+  playStore: removed
   alternativeStores:
   - zapstore
-  meta: removed
+  meta: ok
   verdict: wip
   developerName: aeonBTC
   repository: https://github.com/aeonBTC/IbisWallet

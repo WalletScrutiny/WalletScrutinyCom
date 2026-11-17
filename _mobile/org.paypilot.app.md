@@ -1,6 +1,6 @@
 ---
 title: PayPilot Crypto Wallet & Card
-date: 2026-01-14
+date: 2026-10-30
 website: https://www.paypilot.org
 redirect_from:
 - /android/org.paypilot.app/
@@ -8,9 +8,8 @@ android:
   appId: org.paypilot.app
   users: 1000
   appCountry: us
-  updated: 2026-09-25
-  version: 1.9.0
-  icon: org.paypilot.app.webp
+  updated: 2026-09-30
+  version: 1.9.3
   meta: ok
   verdict: wip
   developerName: PayPilot

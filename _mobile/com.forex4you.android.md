@@ -1,7 +1,6 @@
 ---
-wsId: forex4you
 title: Markets4you - Online Trading
-date: 2021-11-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.markets4you.com/en/
@@ -18,8 +17,7 @@ android:
   released: 2015-10-06
   updated: 2026-08-27
   version: 6.28.0
-  reviews: 270
-  icon: com.forex4you.android.webp
+  reviews: 269
   meta: ok
   verdict: nosendreceive
   developerName: E-Global Trade & Finance Group Inc.
@@ -31,7 +29,6 @@ iphone:
   updated: 2026-06-19
   version: 6.23.0
   reviews: 937
-  icon: com.forex4you.ios.webp
   meta: removed
   verdict: nosendreceive
   developerName: E-Global Trade & Finance Group, Inc.
@@ -84,4 +81,4 @@ Furthermore, the support did not specifically point to a web page indicating suc
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

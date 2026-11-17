@@ -1,6 +1,6 @@
 ---
 title: Get Real Bitcoin Free
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/com.cryptodragons.get.real.bitcoin.free/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-19
   updated: 2021-06-19
   version: '1.0'
-  icon: com.cryptodragons.get.real.bitcoin.free.webp
   meta: removed
   verdict: wip
 

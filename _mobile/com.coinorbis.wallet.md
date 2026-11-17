@@ -1,6 +1,6 @@
 ---
 title: Coinorbis Wallet - Multi Cryptocurrency Wallet
-date: 2021-12-22
+date: 2026-10-30
 redirect_from:
 - /android/com.coinorbis.wallet/
 android:
@@ -10,7 +10,6 @@ android:
   updated: 2019-01-25
   version: 1.2.1
   reviews: 3
-  icon: com.coinorbis.wallet.webp
   meta: removed
   verdict: wip
 

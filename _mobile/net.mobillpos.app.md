@@ -1,6 +1,6 @@
 ---
 title: Okong POS to accept crypto fre
-date: 2024-07-05
+date: 2026-10-30
 website: http://www.okongpos.com#deadLink
 redirect_from:
 - /android/net.mobillpos.app/
@@ -10,7 +10,6 @@ android:
   released: 2019-10-04
   updated: 2020-12-18
   version: Version 2.1.40
-  icon: net.mobillpos.app.webp
   meta: removed
   verdict: wip
   developerName: 서유테크

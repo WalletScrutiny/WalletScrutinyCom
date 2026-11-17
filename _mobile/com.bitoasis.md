@@ -1,7 +1,6 @@
 ---
-wsId: BitOasis
 title: 'BitOasis: Buy Bitcoin & Crypto'
-date: 2021-09-15
+date: 2026-10-30
 authors:
 - danny
 website: https://bitoasis.net/
@@ -22,10 +21,9 @@ android:
   users: 100000
   appCountry: ae
   released: 2020-08-20
-  updated: 2026-09-11
-  version: 4.3.7
+  updated: 2026-10-08
+  version: 4.3.8
   reviews: 672
-  icon: com.bitoasis.webp
   meta: ok
   verdict: custodial
   developerName: BitOasis
@@ -34,10 +32,9 @@ iphone:
   idd: 1521661794
   appCountry: ae
   released: 2020-07-06
-  updated: 2026-09-16
-  version: 2.4.7
-  reviews: 4497
-  icon: net.bitoasis.ios.com.webp
+  updated: 2026-10-12
+  version: 2.4.8
+  reviews: 4498
   meta: ok
   verdict: custodial
   developerName: BitOasis Technologies FZE
@@ -45,6 +42,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** BitOasis was [acquired by the Indian exchange CoinDCX](https://www.financemagnates.com/cryptocurrency/bitoasis-secures-crypto-license-from-vara-following-coindcx-acquisition/) in 2024, and its [website](https://bitoasis.net/en/home) now presents it as "BitOasis by CoinDCX". The multi-signature answer we quote below is no longer in the [FAQ](https://bitoasis.net/en/page/faq).
 
 {% include review/bitgo.md %}
 
@@ -80,7 +79,7 @@ As third parties have the 2of3 quorum - BitGo and "an independent law firm" - an
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="buyWithCC" quote="Buy Crypto instantly with a Credit/Debit Card." source="Store" %}
 

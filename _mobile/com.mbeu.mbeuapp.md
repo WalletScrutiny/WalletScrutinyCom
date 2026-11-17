@@ -1,7 +1,6 @@
 ---
-wsId: mercadoPortugal
 title: MB Portugal
-date: 2026-02-25
+date: 2026-10-30
 authors:
 - danny
 website: https://mercadobitcoin.pt/
@@ -20,7 +19,6 @@ android:
   appCountry: us
   updated: 2026-09-24
   version: 2.7.2
-  icon: com.mbeu.mbeuapp.webp
   meta: ok
   verdict: custodial
   developerName: Smart Token Lda
@@ -32,7 +30,6 @@ iphone:
   updated: 2026-09-24
   version: 2.7.2
   reviews: 53
-  icon: com.mbeu.mbeuapp.webp
   meta: ok
   verdict: custodial
   developerName: Smart Token, Lda
@@ -63,4 +60,4 @@ This service is **custodial**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,12 +1,11 @@
 ---
-wsId: zoomexCrypto
 title: Zoomex-BTC, ETH Crypto Trading
-date: 2023-07-01
+date: 2026-10-30
 authors:
 - danny
+website: https://www.zoomex.com
 twitter: zoomexofficial
 social:
-- https://www.zoomex.com
 - https://t.me/zoomex_com
 redirect_from:
 - /android/co.zoomex.app/
@@ -18,7 +17,6 @@ android:
   updated: 2026-04-23
   version: 3.11.12
   reviews: 49
-  icon: co.zoomex.app.webp
   meta: removed
   verdict: custodial
   developerName: Zoomex
@@ -30,12 +28,13 @@ iphone:
   updated: 2024-07-01
   version: 3.7.11
   reviews: 24
-  icon: co.zoomex.app.webp
   meta: removed
   verdict: custodial
   developerName: Octochain Fintech Limited
 
 ---
+
+**Update 2026-10-30:** Both Zoomex apps are gone from the stores. The [Zoomex exchange](https://www.zoomex.com) still runs, and the same provider now publishes the lighter {% include walletLink.html wallet='android/co.zmex.app' verdict='true' %} app, which is also {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## Android
 
@@ -56,4 +55,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

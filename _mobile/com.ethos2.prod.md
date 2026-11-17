@@ -1,10 +1,9 @@
 ---
-wsId: ethosCrypto
 title: 'Ethos: Crypto Trading Wallet'
-date: 2025-11-14
+date: 2026-10-30
 authors:
 - danny
-website: https://www.ethos.io
+website: https://www.ethosdefi.com/
 twitter: Ethos_io
 redirect_from:
 - /android/com.ethos2.prod/
@@ -17,7 +16,6 @@ android:
   updated: 2026-05-01
   version: 5.4.0
   reviews: 22
-  icon: com.ethos2.prod.webp
   meta: ok
   verdict: nosource
   developerName: Ethos.io
@@ -29,12 +27,13 @@ iphone:
   updated: 2026-05-01
   version: 5.4.0
   reviews: 2
-  icon: com.ethos2.app.webp
   meta: ok
   verdict: nosource
   developerName: Ethos Corporation
 
 ---
+
+**Update 2026-10-30:** Ethos was [acquired by Avrio in September 2025](https://www.newswire.com/news/avrio-acquires-ethos-to-deliver-secure-non-custodial-wallet-crypto-trading-and) and now runs as Ethos DeFi; ethos.io only points to [ethosdefi.com](https://www.ethosdefi.com/), which links to the same apps.
 
 ## Android
 
@@ -56,4 +55,4 @@ There were **no claims regarding source-availability** nor did we find its Andro
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

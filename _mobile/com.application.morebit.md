@@ -1,7 +1,7 @@
 ---
 title: MoreBit
-date: 2023-12-19
-website: http://morebit.io
+date: 2026-10-30
+website: http://morebit.io#deadLink
 redirect_from:
 - /android/com.application.morebit/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2019-05-06
   updated: 2019-10-23
   version: '1.2'
-  icon: com.application.morebit.webp
   meta: removed
   verdict: wip
   developerName: Shafir 89 Pvt. Ltd.

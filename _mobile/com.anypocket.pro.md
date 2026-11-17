@@ -1,6 +1,6 @@
 ---
 title: AnyPocket
-date: 2023-01-02
+date: 2026-10-30
 website: http://anypocket.io#deadLink
 redirect_from:
 - /android/com.anypocket.pro/
@@ -10,7 +10,6 @@ android:
   released: 2019-08-20
   updated: 2019-09-27
   version: Beta1.0.7
-  icon: com.anypocket.pro.webp
   meta: removed
   verdict: wip
 

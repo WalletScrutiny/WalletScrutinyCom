@@ -1,0 +1,22 @@
+{%- comment -%}
+  The meta and verdict flags the homepage wallet cards show as stamps
+  ("Deprecated!", "Defunct!", "No Source!", ...), in their long "status" form
+  for the Status row of review/appFacts.html. Verdicts the Custody and Source code rows already
+  state are left out. Red flags use the danger color, like the Custody row.
+  Parameters: meta, verdict
+{%- endcomment -%}
+{%- assign flag_keys = '' | split: '' -%}
+{%- if include.meta and include.meta != 'ok' and site.data.verdicts[include.meta] -%}
+  {%- assign flag_keys = flag_keys | push: include.meta -%}
+{%- endif -%}
+{%- assign stated_verdicts = "custodial,prefilled,sourceavailable" | split: "," -%}
+{%- if include.verdict and site.data.verdicts[include.verdict] -%}
+  {%- unless stated_verdicts contains include.verdict or include.verdict == 'wip' and include.meta == 'removed' -%}
+    {%- assign flag_keys = flag_keys | push: include.verdict -%}
+  {%- endunless -%}
+{%- endif -%}
+{%- for key in flag_keys -%}
+  {%- assign v = site.data.verdicts[key] -%}
+  {%- unless forloop.first %}{{ ' ' }}{% endunless -%}
+  <span{% if v.color == '#d33100' %} class="app-facts__danger"{% endif %} title="{{ v.short | escape }}">{{ v.status | default: v.title }}</span>
+{%- endfor -%}

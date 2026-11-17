@@ -1,6 +1,6 @@
 ---
 title: Xbond — Crypto Exchange
-date: 2024-07-05
+date: 2026-10-30
 website: https://xbond.io
 redirect_from:
 - /android/io.xbond.droidapp/
@@ -10,7 +10,6 @@ android:
   released: 2021-08-14
   updated: 2021-10-14
   version: '1.1'
-  icon: io.xbond.droidapp.webp
   meta: removed
   verdict: wip
   developerName: Wisepayy

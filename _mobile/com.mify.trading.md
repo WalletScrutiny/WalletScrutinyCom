@@ -1,6 +1,6 @@
 ---
 title: 192Trade
-date: 2023-05-30
+date: 2026-10-30
 authors:
 - danny
 website: https://www.192trade.biz#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2020-11-18
   updated: 2020-11-19
   version: '1.0'
-  icon: com.mify.trading.webp
   meta: removed
   verdict: wip
   developerName: 192Trade

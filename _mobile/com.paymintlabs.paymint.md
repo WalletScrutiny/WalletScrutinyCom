@@ -1,6 +1,6 @@
 ---
 title: Paymint - Secure Bitcoin Walle
-date: 2024-04-03
+date: 2026-10-30
 authors:
 - leo
 twitter: paymint_wallet
@@ -13,7 +13,6 @@ android:
   released: 2020-06-29
   updated: 2020-10-05
   version: 1.2.2
-  icon: com.paymintlabs.paymint.webp
   meta: removed
   verdict: wip
   developerName: Paymint Labs

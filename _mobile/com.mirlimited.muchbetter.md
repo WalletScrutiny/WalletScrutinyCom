@@ -1,7 +1,6 @@
 ---
-wsId: MuchBetter
 title: MuchBetter
-date: 2021-08-27
+date: 2026-10-30
 authors:
 - danny
 website: https://www.muchbetter.com
@@ -18,10 +17,9 @@ android:
   users: 1000000
   appCountry: gb
   released: 2017-05-30
-  updated: 2026-07-13
-  version: 4.38.0
+  updated: 2026-09-25
+  version: 4.39.0
   reviews: 172
-  icon: com.mirlimited.muchbetter.webp
   meta: ok
   verdict: custodial
   developerName: Rtekk Holdings Limited
@@ -30,10 +28,9 @@ iphone:
   idd: 1179978268
   appCountry: gb
   released: 2017-06-26
-  updated: 2026-07-29
-  version: 4.38.0
+  updated: 2026-09-30
+  version: 4.40.0
   reviews: 459
-  icon: com.muchbetter.webp
   meta: ok
   verdict: custodial
   developerName: MIR LIMITED

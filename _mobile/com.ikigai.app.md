@@ -1,6 +1,6 @@
 ---
 title: Ikigai exchange
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/com.ikigai.app/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-02-08
   updated: 2022-02-08
   version: '1.0'
-  icon: com.ikigai.app.webp
   meta: removed
   verdict: wip
   developerName: Viktor Alfredson

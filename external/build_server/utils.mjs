@@ -15,7 +15,7 @@ import {
   getAssetBundleDedupKey,
 } from './asset-utils.mjs';
 
-const appInfoURL = 'https://walletscrutiny.com/assets/js/json/buildServerInfo.json';
+const appInfoURL = 'https://walletscrutiny.com/api/buildServerInfo.json';
 const MAX_SCRIPTS_TO_TRY = 3;
 
 export { args, DEBUG, isDebugEnv };
@@ -58,6 +58,23 @@ const DESKTOP_PLATFORMS = new Set(['linux', 'windows', 'macos']);
  */
 export function toLegacyPlatform(platform) {
   return DESKTOP_PLATFORMS.has(platform) ? 'desktop' : platform;
+}
+
+/**
+ * Platform of a release build. A release build reuses the script of the
+ * newest verification, whatever OS that one was for, so the platform has to
+ * come from the architecture being built ("x86_64-linux", "x86_64-windows").
+ * Non-desktop platforms and architectures that name no OS pass through.
+ */
+export function platformForBuildArch(platform, architecture) {
+  if (!DESKTOP_PLATFORMS.has(platform) || !architecture) {
+    return platform;
+  }
+  const arch = String(architecture).toLowerCase();
+  if (arch.includes('linux')) return 'linux';
+  if (arch.includes('windows') || /\bwin(32|64)?\b/.test(arch)) return 'windows';
+  if (arch.includes('macos') || arch.includes('darwin') || arch.includes('apple')) return 'macos';
+  return platform;
 }
 
 /**

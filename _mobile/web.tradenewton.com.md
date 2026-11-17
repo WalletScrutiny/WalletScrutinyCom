@@ -1,7 +1,6 @@
 ---
-wsId: newtonCryptoCanada
 title: Newton - Trade Crypto Canada
-date: 2026-01-05
+date: 2026-10-30
 authors:
 - danny
 website: https://newton.co
@@ -19,10 +18,9 @@ android:
   users: 100000
   appCountry: us
   released: 2019-11-18
-  updated: 2026-09-23
-  version: 2.23.2
+  updated: 2026-10-06
+  version: 2.23.6
   reviews: 4
-  icon: web.tradenewton.com.webp
   meta: ok
   verdict: custodial
   developerName: Newton Crypto Ltd
@@ -31,10 +29,9 @@ iphone:
   idd: '1370504122'
   appCountry: ca
   released: 2018-10-03
-  updated: 2026-09-25
-  version: 2.23.2
+  updated: 2026-10-08
+  version: 2.23.6
   reviews: 24474
-  icon: co.newton.newtonios.webp
   meta: ok
   verdict: custodial
   developerName: Newton Crypto Ltd.
@@ -63,4 +60,4 @@ To quote from their FAQ:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

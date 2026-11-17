@@ -1,7 +1,7 @@
 ---
 title: OMC Wallet
-date: 2023-01-02
-website: https://omc-group.co/
+date: 2026-10-30
+website: https://omc-group.co/#deadLink
 redirect_from:
 - /android/com.omc.wallet/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2020-03-15
   updated: 2022-02-15
   version: 1.1.38
-  icon: com.omc.wallet.webp
   meta: removed
   verdict: wip
 

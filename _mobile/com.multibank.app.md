@@ -1,7 +1,6 @@
 ---
-wsId: multibankBTC
 title: 'mb.io: Crypto Trading & Wallet'
-date: 2025-11-20
+date: 2026-10-30
 authors:
 - danny
 website: https://mb.io/
@@ -21,10 +20,9 @@ android:
   users: 100000
   appCountry: us
   released: 2023-04-04
-  updated: 2026-09-08
-  version: 26.0.35
+  updated: 2026-10-13
+  version: 26.0.36
   reviews: 7
-  icon: com.multibank.app.webp
   meta: ok
   verdict: custodial
   developerName: MB.IO
@@ -36,7 +34,6 @@ iphone:
   updated: 2026-09-17
   version: 26.0.23
   reviews: 33
-  icon: com.mexdigital.app.webp
   meta: ok
   verdict: custodial
   developerName: MEXBIT PTY
@@ -51,7 +48,7 @@ MultiBank.io is a cryptocurrency exchange platform operated by MultiBank Group, 
 
 ## Analysis
 
-The service uses [cold storage](https://multibank.io/support/faq/privacy-and-security/security-and-regulation) and is therefore **custodial**.
+The service uses [cold storage](https://multibank.io/support/faq/privacy-and-security/security-and-regulation#deadLink) and is therefore **custodial**.
 
 > Security & Regulation
 >
@@ -67,4 +64,4 @@ The service uses [cold storage](https://multibank.io/support/faq/privacy-and-sec
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

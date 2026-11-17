@@ -1,6 +1,6 @@
 ---
 title: 'Rust: Bitcoin Wallet - BTC'
-date: 2023-06-21
+date: 2026-10-30
 authors:
 - leo
 website: https://altrafinance.io#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2023-04-15
   updated: 2023-05-15
   version: 3.04.30
-  icon: com.rust.bitcoinwallet.webp
   meta: removed
   verdict: obfuscated
 

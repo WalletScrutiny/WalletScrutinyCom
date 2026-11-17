@@ -86,6 +86,7 @@ author:
 # Reading Files
 include:
   - .htaccess
+  - .well-known
   - _pages
   - files
 exclude:
@@ -135,7 +136,7 @@ keep_files:
   - .git
 encoding: "utf-8"
 # SVG icon sprite used by _includes/icon.html and wsIcon(); bump ?v= when icons change
-icons_sprite: /assets/icons.svg?v=4
+icons_sprite: /assets/icons.svg?v=9
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
@@ -181,7 +182,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   archived:
-    output: false
+    # Bare body fragments, fetched by /archived/ to show the old analysis.
+    output: true
+    permalink: /archived/body/:path.html
 
 # Defaults
 defaults:
@@ -218,7 +221,7 @@ defaults:
       path: ""
       type: "hardware"
     values:
-      layout: reviewHardware
+      layout: review
       author_profile: true
       read_time: false
       comments: false
@@ -229,7 +232,7 @@ defaults:
       path: ""
       type: "bearer"
     values:
-      layout: reviewBearer
+      layout: review
       author_profile: true
       read_time: false
       comments: false
@@ -240,7 +243,7 @@ defaults:
       path: ""
       type: "desktop"
     values:
-      layout: reviewDesktop
+      layout: review
       author_profile: true
       read_time: false
       comments: false
@@ -257,6 +260,13 @@ defaults:
       comments: false
       share: true
       related: false      
+  # archived
+  - scope:
+      path: ""
+      type: "archived"
+    values:
+      layout: null
+      sitemap: false
   # _pages
   - scope:
       path: ""

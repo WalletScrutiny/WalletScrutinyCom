@@ -1,6 +1,6 @@
 ---
 title: 'BoltX: NFT & Crypto Wallet'
-date: 2024-10-31
+date: 2026-10-30
 authors:
 - kiwilamb
 website: https://bolt.global/
@@ -17,7 +17,6 @@ android:
   updated: 2023-07-20
   version: 1.23.1
   reviews: 21
-  icon: com.bolt.pegasus.webp
   meta: removed
   verdict: custodial
   developerName: Bolt Global

@@ -1,7 +1,7 @@
 ---
 title: BITFLEX
-date: 2024-05-07
-website: https://bit-flex.com/
+date: 2026-10-30
+website: https://bit-flex.com/#deadLink
 redirect_from:
 - /android/com.bitflex/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-09-27
   updated: 2021-09-27
   version: 2.0-beta
-  icon: com.bitflex.webp
   meta: removed
   verdict: wip
   developerName: BITFLEX LLC

@@ -1,6 +1,6 @@
 ---
 title: SymWallet(SymVerse)
-date: 2024-11-12
+date: 2026-10-30
 website: https://symverse.com
 redirect_from:
 - /android/com.symverse.wallet/
@@ -10,7 +10,6 @@ android:
   released: 2019-10-29
   updated: 2021-04-20
   version: 1.2.1
-  icon: com.symverse.wallet.webp
   meta: removed
   verdict: wip
   developerName: SymVerse

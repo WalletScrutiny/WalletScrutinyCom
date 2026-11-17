@@ -1,7 +1,6 @@
 ---
-wsId: nunchuk
 title: Nunchuk Bitcoin Wallet
-date: 2023-01-06
+date: 2026-10-30
 authors:
 - leo
 - emanuel
@@ -27,10 +26,9 @@ android:
   users: 10000
   appCountry: us
   released: 2021-11-11
-  updated: 2026-09-01
-  version: 2.8.5
-  reviews: 45
-  icon: io.nunchuk.android.webp
+  updated: 2026-10-13
+  version: 2.9.1
+  reviews: 46
   signer: 79b1cd71de5f19c6236d4e3ef134b5b691cf051a138944bda01b640b3e9b1d42
   alternativeStores:
   - zapstore
@@ -43,10 +41,9 @@ iphone:
   idd: 1563190073
   appCountry: us
   released: 2021-12-16
-  updated: 2026-09-01
-  version: 2.8.1
-  reviews: 568
-  icon: io.nunchuk.ios.webp
+  updated: 2026-10-13
+  version: 2.9.1
+  reviews: 580
   meta: ok
   verdict: nosource
   developerName: Nunchuk
@@ -90,7 +87,7 @@ An issue has been opened at [https://github.com/nunchuk-io/nunchuk-android/issue
 This product's version for Android is now source-available and we are waiting
 for source for the iPhone version.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="segwit" quote="Future-Proof Architecture: Built on advanced standards (Native Segwit, Miniscript) that minimize data exposure and provide practical resistance against long-term threats." source="Store description" %}
 

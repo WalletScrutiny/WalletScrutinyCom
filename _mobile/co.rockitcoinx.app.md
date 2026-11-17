@@ -1,7 +1,6 @@
 ---
-wsId: rockitCoin
 title: 'RockItCoin: Buy Bitcoin & More'
-date: 2023-07-07
+date: 2026-10-30
 authors:
 - danny
 website: https://rockitcoin.com
@@ -21,10 +20,9 @@ android:
   users: 100000
   appCountry: us
   released: 2019-09-20
-  updated: 2026-09-25
-  version: 3.7.18
+  updated: 2026-10-01
+  version: 3.7.20
   reviews: 201
-  icon: co.rockitcoinx.app.webp
   meta: ok
   verdict: nosource
   developerName: RockItCoin
@@ -33,10 +31,9 @@ iphone:
   idd: '1476730078'
   appCountry: us
   released: 2019-09-18
-  updated: 2026-09-28
-  version: 3.7.18
-  reviews: 159
-  icon: rockitcoinexchange.webp
+  updated: 2026-09-30
+  version: 3.7.19
+  reviews: 158
   meta: ok
   verdict: nosource
   developerName: RockitCoin
@@ -82,7 +79,7 @@ There hasn't been any news on whether the app's source code will be made availab
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="buyWithCC" quote="Quickly and securely purchase cryptocurrencies like Bitcoin (BTC), Ethereum (ETH), Litecoin (LTC), Dogecoin (DOGE), Bitcoin Cash (BCH), Tether (USDT), USD Coin (USDC), PAX Gold (PAXG), Stellar (XLM), and more through our trusted partner Simplex. Supported payment methods include debit cards, credit cards (Visa & Mastercard), Apple Pay, and Google Pay." source="Store description" %}
 

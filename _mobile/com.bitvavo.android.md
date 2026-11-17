@@ -1,7 +1,6 @@
 ---
-wsId: bitvavo
 title: Bitvavo | Buy Bitcoin & Crypto
-date: 2021-09-03
+date: 2026-10-30
 authors:
 - danny
 website: https://bitvavo.com/
@@ -13,10 +12,9 @@ android:
   users: 1000000
   appCountry: nl
   released: 2020-08-19
-  updated: 2026-09-24
-  version: 2.126.1
-  reviews: 3694
-  icon: com.bitvavo.android.webp
+  updated: 2026-10-08
+  version: 2.128.0
+  reviews: 3701
   meta: ok
   verdict: custodial
   developerName: bitvavo
@@ -25,10 +23,9 @@ iphone:
   idd: 1483903423
   appCountry: be
   released: 2020-05-28
-  updated: 2026-09-28
-  version: 2.127.0
-  reviews: 8533
-  icon: com.bitvavo.webp
+  updated: 2026-10-12
+  version: 2.129.0
+  reviews: 8538
   meta: ok
   verdict: custodial
   developerName: Bitvavo B.V.
@@ -36,6 +33,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The two support links below are dead; the current [private keys article](https://support.bitvavo.com/hc/en-us/articles/4405186019729-Where-can-I-find-the-private-keys-of-my-hosted-wallet) lives in the new help center.
 
 > Buy Bitcoin, Ethereum, and other cryptocurrencies within minutes and store them in your integrated Bitvavo wallet.
 
@@ -55,4 +54,4 @@ This confirms it as **custodial** and thus **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

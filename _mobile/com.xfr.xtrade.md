@@ -1,7 +1,6 @@
 ---
-wsId: xfrXTrade
 title: 'Xtrade: Forex, Stocks & CFDs'
-date: 2023-11-17
+date: 2026-10-30
 authors:
 - danny
 website: http://www.xtrade.com
@@ -17,10 +16,9 @@ android:
   users: 5000000
   appCountry: us
   released: 2014-10-02
-  updated: 2026-08-30
-  version: 7.2.2
+  updated: 2026-09-30
+  version: 7.2.3
   reviews: 76
-  icon: com.xfr.xtrade.webp
   meta: ok
   verdict: custodial
   developerName: XTRADE
@@ -29,10 +27,9 @@ iphone:
   idd: 864027750
   appCountry: cl
   released: 2014-05-30
-  updated: 2026-08-31
-  version: 7.2.2
+  updated: 2026-10-04
+  version: 7.2.3
   reviews: 28
-  icon: com.triviologic.xtrader.webp
   meta: ok
   verdict: custodial
   developerName: XTRADE EUROPE LTD
@@ -49,4 +46,4 @@ Like most trading platforms it seems to have a **custodial** wallet integrated. 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: phemex
 title: 'Phemex: Buy Bitcoin & Crypto'
-date: 2021-04-13
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
@@ -25,7 +24,6 @@ android:
   updated: 2026-07-23
   version: 5.22.0
   reviews: 1467
-  icon: com.phemex.app.webp
   meta: removed
   verdict: custodial
   developerName: Leading Magic Limited
@@ -36,8 +34,7 @@ iphone:
   released: 2020-02-20
   updated: 2026-09-28
   version: 5.28.0
-  reviews: 2771
-  icon: com.phemex.submit.webp
+  reviews: 2772
   meta: ok
   verdict: custodial
   developerName: Leading Magic Limited

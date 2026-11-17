@@ -1,7 +1,6 @@
 ---
-wsId: safelloBitcoin
 title: 'Safello: Buy Bitcoin & Crypto'
-date: 2025-12-08
+date: 2026-10-30
 authors:
 - danny
 website: https://safello.com/
@@ -19,7 +18,6 @@ android:
   appCountry: us
   updated: 2026-09-10
   version: 2.1.2
-  icon: com.safello.androidsapp.webp
   meta: ok
   verdict: custodial
   developerName: Safello
@@ -31,7 +29,6 @@ iphone:
   updated: 2026-09-17
   version: 2.1.3
   reviews: 3299
-  icon: com.safello.iosapp.webp
   meta: ok
   verdict: custodial
   developerName: Safello AB
@@ -56,4 +53,4 @@ The company states that customer crypto-assets are segregated from Safello’s o
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

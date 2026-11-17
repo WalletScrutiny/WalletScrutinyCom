@@ -1,7 +1,6 @@
 ---
-wsId: bitturkExchange
 title: BitTurk - Bitcoin, Kripto Para
-date: 2024-04-19
+date: 2026-10-30
 authors:
 - danny
 website: https://bitturk.com
@@ -19,7 +18,6 @@ android:
   released: 2019-04-05
   updated: 2022-02-08
   version: '1.21'
-  icon: com.bitturkmobile.android.webp
   meta: removed
   verdict: custodial
   developerName: BITTURK BİLİŞİM VE TİCARET A.Ş.
@@ -31,7 +29,6 @@ iphone:
   updated: 2022-02-01
   version: '2.0'
   reviews: 30
-  icon: bitturkmobile.ios.webp
   meta: removed
   verdict: custodial
   developerName: BITTURK BILISIM VE TICARET A.S.
@@ -58,4 +55,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

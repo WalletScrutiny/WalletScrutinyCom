@@ -1,11 +1,11 @@
 #!/usr/bin/env node
-// Standalone runner for the supply-chain pinning analysis (Tests 10-12).
+// Standalone runner for the supply-chain pinning analysis (Tests 7-9).
 // Clones the repo shallowly at the given ref, analyzes lock/manifest files,
 // prints the report. Nothing from the repository is executed or installed.
 //
 // Usage: node pinning-cli.mjs --repo https://github.com/user/repo --ref v1.2.3
 //        [--json]         also emit a machine-readable blob at the end
-//        [--follow-deps]  run Test 12 against source dependencies too
+//        [--follow-deps]  run Test 9 against source dependencies too
 //                         (network: one blob-filtered clone per dependency)
 //        [--app-id <id> --version <v>]
 //                         store the resolved dependency set in assets.db as
@@ -22,9 +22,9 @@ import fs from 'fs';
 import path from 'path';
 import minimist from 'minimist';
 import { cloneRepository } from './appAnalysis.mjs';
-import { analyzePinning } from './pinningAnalysis.mjs';
-import { analyzeOobDownloads } from './oobDownloadAnalysis.mjs';
-import { analyzeCommittedBinaries, analyzeDependencyBinaries } from './committedBinaryAnalysis.mjs';
+import { analyzePinning } from './plugins/pinning.mjs';
+import { analyzeOobDownloads } from './plugins/oob-downloads.mjs';
+import { analyzeCommittedBinaries, analyzeDependencyBinaries } from './plugins/committed-binaries.mjs';
 import { DEFAULT_TEMP_DIR } from './config.mjs';
 import { backupDatabase, initDatabase, saveDependencies, diffDependencies, findAppsShipping } from './ddbbUtils.mjs';
 

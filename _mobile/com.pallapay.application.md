@@ -1,7 +1,6 @@
 ---
-wsId: pallapayApp
 title: PallaPay
-date: 2025-07-28
+date: 2026-10-30
 authors:
 - danny
 website: https://pallapay.com
@@ -21,7 +20,6 @@ android:
   released: 2022-05-06
   updated: 2022-05-07
   version: 1.0.3
-  icon: com.pallapay.application.webp
   meta: removed
   verdict: custodial
   developerName: Palladium Payment Services LLC
@@ -33,7 +31,6 @@ iphone:
   updated: 2026-05-04
   version: 2.3.4
   reviews: 2
-  icon: com.pallapay.application.webp
   meta: ok
   verdict: custodial
   developerName: Palladium Payment Services LLC
@@ -81,4 +78,4 @@ ____
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

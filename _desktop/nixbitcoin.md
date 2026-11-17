@@ -12,11 +12,10 @@ provider: Nix Bitcoin
 providerWebsite: 
 website: https://nixbitcoin.org/
 repository: https://github.com/fort-nix/nix-bitcoin
-icon: nixbitcoin.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-09-14
+date: 2026-10-30
 twitter: nixbitcoinorg
 social: 
 builds: 

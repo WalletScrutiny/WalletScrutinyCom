@@ -1,7 +1,6 @@
 ---
-wsId: Fiahub
 title: Fiahub - Mua bán Bitcoin, USDT
-date: 2022-07-13
+date: 2026-10-30
 authors:
 - danny
 website: http://www.fiahub.com
@@ -20,8 +19,7 @@ android:
   released: 2019-10-11
   updated: 2025-08-25
   version: 2.20.5
-  icon: vn.fiahub.app.webp
-  meta: stale
+  meta: defunct
   verdict: custodial
   developerName: DIGITEX PTE LTD
 iphone:
@@ -32,11 +30,12 @@ iphone:
   updated: 2022-12-12
   version: 2.17.7
   reviews: 2
-  icon: bit.coin.Coindess.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** Fiahub [stopped operating](https://www.fiahub.com/letter) in Vietnam on 2026-07-31. It says it will come back once the law allows it; support is by email only.
 
 ## Android
 
@@ -52,4 +51,4 @@ Cold wallets are often an indication of a custodial offering. As there is no oth
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

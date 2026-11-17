@@ -1,9 +1,10 @@
 // Which wallets to analyse and where their source lives.
 //
-// The site renders assets/js/json/appRepositories.json from the wallet
-// records: one {appId, platform, repository} per record that has a repository
-// and is not gone. This module fetches it, keeps the last good copy in SQLite
-// so a run survives the site being unreachable, and groups the entries by
+// The site renders api/appRepositories.json from the wallet
+// records: one {appId, platform, repository} per record that has a repository,
+// with gone: true for apps that are removed, defunct, discontinued or
+// deprecated. This module fetches it, keeps the last good copy in SQLite so a
+// run survives the site being unreachable, and groups the entries by
 // repository so a repo shared by several records is cloned once.
 import fs from 'fs';
 import axios from 'axios';
@@ -16,12 +17,15 @@ const PAGE_SEGMENTS = new Set(['releases', 'tags', 'tree', 'blob', 'commits', 'i
 
 // Canonical https://host/owner/repo for the URL forms found in the wallet
 // records (trailing slash, .git, /releases, /tags, /tree/..., www.), or null
-// when the URL names no repository (user or organisation pages).
+// when the URL names no repository (user or organisation pages, or a URL the
+// site has marked dead with #deadLink / &deadLink).
 export function normalizeRepoUrl(url) {
   if (!url) return null;
+  const raw = String(url).trim();
+  if (raw.endsWith('#deadLink') || raw.endsWith('&deadLink')) return null;
   let parsed;
   try {
-    parsed = new URL(String(url).trim());
+    parsed = new URL(raw);
   } catch {
     return null;
   }
@@ -49,7 +53,17 @@ function checkEntries(list) {
       throw new Error(`malformed app list entry: ${JSON.stringify(e)}`);
     }
   }
-  return list.map(e => ({ appId: e.appId, platform: e.platform, repository: e.repository }));
+  // Two wallet records can claim the same store listing (an app and its
+  // rewrite); the cache is keyed on (appId, platform), so keep the first.
+  const seen = new Set();
+  return list
+    .filter(e => {
+      const key = `${e.platform}\n${e.appId}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    })
+    .map(e => ({ appId: e.appId, platform: e.platform, repository: e.repository, gone: e.gone === true }));
 }
 
 // Read the list from a URL or a local file (handy before the site publishes it).
@@ -82,8 +96,11 @@ const platformRank = (p) => {
 
 // One job per distinct repository. `appId` is the first record (android before
 // iphone before desktop ...) and `aliases` are all (appId, platform) records
-// that point at the repository. Entries whose URL names no repository land in
-// `skipped`.
+// that point at the repository; `gone` when every one of them is gone. Entries whose URL names no repository land in
+// `skipped`. A repository only iPhone records point at lands in `iosOnly`: no
+// iOS build was ever found reproducible, and its tags would land under the
+// appId the Android record of the same wallet uses (vultisig-ios and
+// bitkit-ios share their appId with the Android app).
 export function groupByRepository(entries) {
   const byRepo = new Map();
   const skipped = [];
@@ -93,14 +110,21 @@ export function groupByRepository(entries) {
       skipped.push(e);
       continue;
     }
-    if (!byRepo.has(repoUrl)) byRepo.set(repoUrl, { repoUrl, aliases: [] });
-    byRepo.get(repoUrl).aliases.push({ appId: e.appId, platform: e.platform });
+    if (!byRepo.has(repoUrl)) byRepo.set(repoUrl, { repoUrl, aliases: [], gone: true });
+    const job = byRepo.get(repoUrl);
+    job.aliases.push({ appId: e.appId, platform: e.platform });
+    job.gone = job.gone && e.gone === true;
   }
   const jobs = [];
+  const iosOnly = [];
   for (const job of byRepo.values()) {
+    if (job.aliases.every(a => a.platform === 'iphone')) {
+      iosOnly.push({ appId: job.aliases[0].appId, repoUrl: job.repoUrl });
+      continue;
+    }
     job.aliases.sort((a, b) => platformRank(a.platform) - platformRank(b.platform) || a.appId.localeCompare(b.appId));
-    jobs.push({ appId: job.aliases[0].appId, repoUrl: job.repoUrl, aliases: job.aliases });
+    jobs.push({ appId: job.aliases[0].appId, repoUrl: job.repoUrl, aliases: job.aliases, gone: job.gone });
   }
   jobs.sort((a, b) => a.repoUrl.localeCompare(b.repoUrl));
-  return { jobs, skipped };
+  return { jobs, skipped, iosOnly };
 }

@@ -1,6 +1,6 @@
 ---
 title: Noah (Signet)
-date: 2026-05-28
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -9,9 +9,8 @@ android:
   appId: com.noahwallet.signet
   users: 50
   appCountry: us
-  updated: 2026-09-13
+  updated: 2026-10-12
   version: VARY
-  icon: com.noahwallet.signet.webp
   meta: fewusers
   verdict: sourceavailable
   developerName: Hampus Sjöberg

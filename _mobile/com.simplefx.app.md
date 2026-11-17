@@ -1,6 +1,6 @@
 ---
 title: 'SimpleFX: Crypto Trading App'
-date: 2021-10-13
+date: 2026-10-30
 authors:
 - danny
 website: https://simplefx.com
@@ -14,10 +14,9 @@ android:
   users: 100000
   appCountry: us
   released: 2017-12-18
-  updated: 2026-09-29
-  version: 3.0.105
+  updated: 2026-09-30
+  version: 3.0.106
   reviews: 7
-  icon: com.simplefx.app.webp
   meta: ok
   verdict: custodial
   developerName: SimpleFX Ltd.

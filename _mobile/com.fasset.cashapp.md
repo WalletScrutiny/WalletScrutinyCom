@@ -1,7 +1,6 @@
 ---
-wsId: fassetCrypto
 title: 'Fasset: Global Digital Bank'
-date: 2023-07-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.fasset.io/
@@ -22,7 +21,6 @@ android:
   updated: 2026-09-27
   version: '6.11'
   reviews: 69
-  icon: com.fasset.cashapp.webp
   meta: ok
   verdict: custodial
   developerName: Fasset Labuan Limited
@@ -31,10 +29,9 @@ iphone:
   idd: '1599893605'
   appCountry: us
   released: 2021-12-14
-  updated: 2026-09-29
-  version: '4.20'
-  reviews: 58
-  icon: com.fasset.cashapp.webp
+  updated: 2026-10-06
+  version: '4.21'
+  reviews: 59
   meta: ok
   verdict: custodial
   developerName: Fasset Ltd.
@@ -60,4 +57,4 @@ This app is in early access.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: aximetriaCrypto
 title: 'Aximetria: Buy Bitcoin, Crypto'
-date: 2023-09-08
+date: 2026-10-30
 authors:
 - danny
 website: https://aximetria.com#deadLink
@@ -18,7 +17,6 @@ android:
   users: 1000
   updated: 2023-07-27
   version: 2.30.0
-  icon: com.aximetria.prod.webp
   meta: removed
   verdict: custodial
   developerName: Aximetria GmbH
@@ -30,12 +28,13 @@ iphone:
   updated: 2023-04-05
   version: 3.23.0
   reviews: 0
-  icon: com.aximetria.prod.webp
   meta: removed
   verdict: custodial
   developerName: Aximetria
 
 ---
+
+**⚠️ Warning:** Aximetria has shut down. In January 2024 its website said that "Aximetria has discontinued customer service" ([archived](https://web.archive.org/web/20240113154142/https://aximetria.com/)), and the same month TCS Group sold the company to the Swiss firm Red Circle AG ([TAdviser](https://tadviser.com/index.php/Company:Aximetria)). The website no longer loads.
 
 ## Android
 
@@ -87,4 +86,4 @@ Aximetria GmbH has two apps which seem to alternate being offline and online.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

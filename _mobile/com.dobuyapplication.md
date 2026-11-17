@@ -1,6 +1,6 @@
 ---
 title: dobuy
-date: 2024-05-07
+date: 2026-10-30
 authors:
 - danny
 website: https://dobuy.site#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2021-06-21
   updated: 2021-11-30
   version: 1.0.1
-  icon: com.dobuyapplication.webp
   meta: removed
   verdict: custodial
   developerName: Dobuy

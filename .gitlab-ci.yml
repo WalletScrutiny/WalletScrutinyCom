@@ -56,6 +56,14 @@ test:e2e:
       - test-results/
     expire_in: 1 week
 
+test:e2e:live:
+  extends: test:e2e
+  script:
+    - npm run test:e2e:live
+  rules:
+    - when: manual
+  allow_failure: true
+
 test:build-server:
   stage: test
   cache:

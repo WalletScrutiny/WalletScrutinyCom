@@ -1,6 +1,6 @@
 ---
 title: HomiEx Crypto Exchange
-date: 2021-10-22
+date: 2026-10-30
 redirect_from:
 - /android/be.homiex.broker.android/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-08-03
   updated: 2021-08-04
   version: 4.1.2
-  icon: be.homiex.broker.android.webp
   meta: removed
   verdict: wip
 

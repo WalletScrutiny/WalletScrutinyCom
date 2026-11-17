@@ -1,7 +1,6 @@
 ---
-wsId: coincheck
 title: Coincheck
-date: 2026-09-03
+date: 2026-10-30
 authors:
 - danny
 website: https://coincheck.com
@@ -17,10 +16,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2015-04-23
-  updated: 2026-08-21
-  version: 4.21.1
+  updated: 2026-10-13
+  version: 4.21.3
   reviews: 13
-  icon: jp.coincheck.android.webp
   meta: ok
   verdict: custodial
   developerName: Coincheck
@@ -29,10 +27,9 @@ iphone:
   idd: 957130004
   appCountry: jp
   released: 2015-01-21
-  updated: 2026-09-24
-  version: 5.0.0
-  reviews: 109814
-  icon: jp.coincheck.ios.webp
+  updated: 2026-10-14
+  version: 5.0.2
+  reviews: 109850
   meta: ok
   verdict: custodial
   developerName: Coincheck, Inc.

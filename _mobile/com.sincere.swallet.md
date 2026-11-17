@@ -1,7 +1,6 @@
 ---
-wsId: sincereSWallet
 title: S-Wallet
-date: 2025-04-11
+date: 2026-10-30
 authors:
 - danny
 website: https://s-wallet.ai
@@ -20,7 +19,6 @@ android:
   updated: 2023-04-21
   version: 2.6.0
   reviews: 28
-  icon: com.sincere.swallet.webp
   meta: obsolete
   verdict: custodial
   developerName: SWallet OU
@@ -32,7 +30,6 @@ iphone:
   updated: 2024-06-24
   version: 2.8.0
   reviews: 178
-  icon: com.sincere.swallet.webp
   meta: obsolete
   verdict: custodial
   developerName: Swallet OU
@@ -67,4 +64,4 @@ As the provider mentions, the service is a **custodial** service. Once we've dow
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: viaBTC
 title: ViaBTC-Crypto Mining Pool
-date: 2022-06-24
+date: 2026-10-30
 authors:
 - danny
 website: https://www.viabtc.com/
@@ -17,10 +16,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2017-12-16
-  updated: 2026-09-18
-  version: 3.17.0
-  reviews: 258
-  icon: com.viabtc.pool.webp
+  updated: 2026-10-13
+  version: 3.18.0
+  reviews: 257
   meta: ok
   verdict: custodial
   developerName: ViaBTC
@@ -29,10 +27,9 @@ iphone:
   idd: '1334584229'
   appCountry: hk
   released: 2018-01-18
-  updated: 2026-09-15
-  version: 3.17.0
+  updated: 2026-10-13
+  version: 3.18.0
   reviews: 15
-  icon: com.viabtc.pool2.webp
   meta: ok
   verdict: custodial
   developerName: Viabtc Technology Limited
@@ -82,4 +79,4 @@ As a cryptocurrency mining service provider, they provide a wallet over which th
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

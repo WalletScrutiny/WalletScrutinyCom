@@ -1,6 +1,6 @@
 ---
 title: BitQt
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/com.wBitQt_15561503/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-05-27
   updated: 2022-05-27
   version: '1.0'
-  icon: com.wBitQt_15561503.webp
   meta: removed
   verdict: wip
 

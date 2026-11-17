@@ -1,7 +1,6 @@
 ---
-wsId: dCent
 title: DCENT Wallet - Secure Crypto
-date: 2022-01-10
+date: 2026-10-30
 authors:
 - kiwilamb
 - danny
@@ -23,10 +22,9 @@ android:
   users: 100000
   appCountry: cn
   released: 2018-10-16
-  updated: 2026-08-27
-  version: 10.0.0
-  reviews: 1034
-  icon: com.kr.iotrust.dcent.wallet.webp
+  updated: 2026-10-02
+  version: 10.1.0
+  reviews: 1042
   meta: ok
   verdict: nosource
   developerName: IoTrust Co., Ltd
@@ -35,10 +33,9 @@ iphone:
   idd: 1447206611
   appCountry: kr
   released: 2019-01-26
-  updated: 2026-09-09
-  version: 10.0.0
-  reviews: 86
-  icon: kr.iotrust.dcent.webp
+  updated: 2026-10-06
+  version: 10.1.0
+  reviews: 87
   meta: ok
   verdict: nosource
   developerName: IoTrust Co., Ltd
@@ -46,6 +43,9 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The provider
+[renamed itself from D'CENT to DCENT](https://store.dcentwallet.com/blogs/post/dcent-is-now-dcent).
 
 ## Update 2024-07-15
 
@@ -88,7 +88,7 @@ Our verdict: This 'wallet' claims to be non-custodial, however with no source co
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="지문인식 콜드월렛 연동: EAL5+ 보안칩 기반 생체 인증" source="Store description" %}
 

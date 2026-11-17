@@ -1,6 +1,6 @@
 ---
 title: Immediate Edge
-date: 2023-03-21
+date: 2026-10-30
 redirect_from:
 - /android/group.immediate.edge/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-04-21
   updated: 2022-04-22
   version: '1.0'
-  icon: group.immediate.edge.webp
   meta: removed
   verdict: wip
 

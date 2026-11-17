@@ -1,7 +1,6 @@
 ---
-wsId: ChivoWallet
 title: Chivo Wallet
-date: 2024-11-29
+date: 2026-10-30
 authors:
 - danny
 - leo
@@ -22,8 +21,7 @@ android:
   released: 2021-09-06
   updated: 2025-08-28
   version: 3.0.0
-  reviews: 14265
-  icon: com.chivo.wallet.webp
+  reviews: 14271
   meta: stale
   verdict: obfuscated
   developerName: Gobierno de El Salvador
@@ -34,13 +32,14 @@ iphone:
   released: 2021-09-07
   updated: 2025-08-28
   version: 3.1.0
-  reviews: 4269
-  icon: com.chivo.wallet.webp
+  reviews: 4270
   meta: stale
   verdict: obfuscated
   developerName: Gobierno de El Salvador
 
 ---
+
+**Update 2026-10-30:** Chivo is no longer run by the government. Under its December 2024 deal with the IMF, El Salvador agreed to sell or shut the wallet ([CoinDesk](https://www.coindesk.com/policy/2024/12/19/el-salvador-to-shut-or-sell-chivo-crypto-wallet-as-part-of-3-5-b-imf-deal)). In October 2026 the government and the payments company Linguard Labs announced that Linguard now holds a majority stake and controls Chivo, with the state as a minority shareholder; users keep their accounts and balances ([The Rio Times](https://www.riotimesonline.com/el-salvador-chivo-wallet-sale-free-remittances-2026/)).
 
 ## Android
 
@@ -245,6 +244,6 @@ As a **custodial** app, it is **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Chivo es compatible con otras billeteras Bitcoin on-chain y Lightning." source="Store" %}

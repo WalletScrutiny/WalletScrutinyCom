@@ -1,7 +1,6 @@
 ---
-wsId: blockchainWallet
 title: 'Blockchain Wallet: Buy BTC'
-date: 2021-07-15
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -28,10 +27,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2013-02-01
-  updated: 2026-09-25
-  version: 202609.3.1
-  reviews: 6376
-  icon: piuk.blockchain.android.webp
+  updated: 2026-10-08
+  version: 202609.4.6
+  reviews: 6377
   signer: 87a6e89e2e45848c1ddc43021e95812aae70b0b54c6c320c71db4dff83f7b6a0
   meta: ok
   verdict: nosource
@@ -43,10 +41,9 @@ iphone:
   idd: 493253309
   appCountry: us
   released: 2012-04-13
-  updated: 2026-09-28
-  version: 202609.4.0
-  reviews: 184224
-  icon: com.rainydayapps.Blockchain.webp
+  updated: 2026-10-12
+  version: 202610.2.0
+  reviews: 184162
   meta: ok
   verdict: nosource
   developerName: Blockchain
@@ -80,4 +77,4 @@ An issue has been opened at [https://github.com/blockchain/blockchain-wallet-v4-
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

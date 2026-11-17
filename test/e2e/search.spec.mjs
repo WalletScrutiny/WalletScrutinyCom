@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './relay-fixture.mjs';
 
 import {
   attachConsoleGuards,
@@ -41,6 +41,74 @@ test.describe('Navbar search', () => {
     await waitForSearchControlsIdle(page);
 
     await expect(page.locator('.results-target')).toContainText(/no matches/i);
+    assertNoConsoleErrors();
+  });
+
+  for (const path of ['/methodology/', '/']) {
+    test(`on phones ${path} hides the box behind the magnifier next to the menu button`, async ({ page }, testInfo) => {
+      const assertNoConsoleErrors = attachConsoleGuards(testInfo, page);
+
+      await page.setViewportSize({ width: 390, height: 844 });
+      await page.goto(path);
+
+      const searchbar = page.locator('.searchbar');
+      const shortcut = page.locator('.mobile-search-shortcut');
+      const menuToggle = page.locator('.greedy-nav__toggle');
+      await expect(searchbar).toBeHidden();
+      await expect(shortcut).toBeVisible();
+      await expect(menuToggle).toBeVisible();
+
+      const shortcutBox = await shortcut.boundingBox();
+      const menuBox = await menuToggle.boundingBox();
+      expect(shortcutBox.x).toBeLessThan(menuBox.x);
+      expect(menuBox.x - (shortcutBox.x + shortcutBox.width)).toBeLessThan(40);
+
+      await shortcut.click();
+      await expect(searchbar).toBeVisible();
+      await expect(searchbar).toBeFocused();
+      const barBox = await searchbar.boundingBox();
+      expect(barBox.y).toBeGreaterThan(menuBox.y + menuBox.height);
+
+      await searchbar.fill('mycelium');
+      await waitForSearchControlsIdle(page);
+      await expect(page.locator('.results-target li').first()).toBeVisible();
+
+      await shortcut.click();
+      await expect(searchbar).toBeHidden();
+      assertNoConsoleErrors();
+    });
+  }
+
+  test('a broad term renders a first batch and more rows as the list scrolls', async ({ page }, testInfo) => {
+    const assertNoConsoleErrors = attachConsoleGuards(testInfo, page);
+
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto('/methodology/');
+    await page.waitForFunction(() => window.wallets && window.wallets.length > 1000);
+
+    await page.locator('.mobile-search-shortcut').click();
+    const searchbar = page.locator('.searchbar');
+    await searchbar.fill('bitco');
+    await waitForSearchControlsIdle(page);
+
+    const rows = page.locator('.results-target li.actionable');
+    const firstBatch = await rows.count();
+    expect(firstBatch).toBeGreaterThan(0);
+    expect(firstBatch).toBeLessThan(100);
+    await expect(page.locator('.results-target .search-results-more')).toHaveCount(1);
+
+    await page.locator('.results-target').evaluate((list) => { list.scrollTop = list.scrollHeight; });
+    await expect.poll(() => rows.count()).toBeGreaterThan(firstBatch);
+
+    assertNoConsoleErrors();
+  });
+
+  test('on desktop the homepage masthead has no search box', async ({ page }, testInfo) => {
+    const assertNoConsoleErrors = attachConsoleGuards(testInfo, page);
+
+    await page.goto('/');
+    await expect(page.locator('.masthead .searchbar')).toBeHidden();
+    await expect(page.locator('.mobile-search-shortcut')).toBeHidden();
     assertNoConsoleErrors();
   });
 });

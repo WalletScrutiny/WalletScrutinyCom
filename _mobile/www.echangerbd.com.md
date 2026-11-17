@@ -1,9 +1,9 @@
 ---
 title: Dollar Buy Sell
-date: 2026-02-02
+date: 2026-10-30
 authors:
 - danny
-website: http://www.echangerbd.com/
+website: https://web.archive.org/web/20200811105037/http://www.echangerbd.com/
 redirect_from:
 - /android/www.echangerbd.com/
 android:
@@ -13,7 +13,6 @@ android:
   released: 2020-03-21
   updated: 2020-04-23
   version: '2.0'
-  icon: www.echangerbd.com.webp
   meta: obsolete
   verdict: wip
   developerName: exchangernet.com

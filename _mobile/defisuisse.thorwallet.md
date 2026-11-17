@@ -1,7 +1,6 @@
 ---
-wsId: thorWalletDeFi
 title: THORWallet - Crypto Wallet
-date: 2023-06-30
+date: 2026-10-30
 authors:
 - danny
 website: http://thorwallet.org
@@ -23,10 +22,9 @@ android:
   users: 50000
   appCountry: us
   released: 2021-12-23
-  updated: 2026-09-10
-  version: 3.11.0
+  updated: 2026-10-01
+  version: 3.12.0
   reviews: 40
-  icon: defisuisse.thorwallet.webp
   meta: ok
   verdict: nosource
   developerName: EMM Ventures AG
@@ -35,10 +33,9 @@ iphone:
   idd: '1592064324'
   appCountry: ch
   released: 2021-11-28
-  updated: 2026-09-10
-  version: 3.11.0
+  updated: 2026-10-02
+  version: 3.12.0
   reviews: 39
-  icon: defisuisseag.thorwallet.webp
   meta: ok
   verdict: nosource
   developerName: DeFi Suisse AG
@@ -76,7 +73,7 @@ No change has been noted regarding this app's source availability.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Cross-Chain Swaps: Trade native BTC, ETH, SOL, and other major assets across chains with zero intermediaries. No wrapping. No bridges. Pure DeFi, how it was meant to be." source="Store description" %}
 

@@ -1,7 +1,6 @@
 ---
-wsId: CoinbaseWallet
 title: 'Coinbase Wallet: Trade to Win'
-date: 2021-01-04
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -19,10 +18,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2017-09-20
-  updated: 2026-09-25
-  version: 30.14.0
-  reviews: 14169
-  icon: org.toshi.webp
+  updated: 2026-10-09
+  version: 30.16.0
+  reviews: 14174
   meta: ok
   verdict: nosource
   developerName: Coinbase Wallet
@@ -31,10 +29,9 @@ iphone:
   idd: 1278383455
   appCountry: us
   released: 2017-09-27
-  updated: 2026-09-28
-  version: '30.14'
-  reviews: 161392
-  icon: org.toshi.distribution.webp
+  updated: 2026-10-12
+  version: '30.16'
+  reviews: 161387
   meta: ok
   verdict: nosource
   developerName: Coinbase Wallet

@@ -1,6 +1,6 @@
 ---
 title: bitbank - Bitcoin Wallet
-date: 2024-09-06
+date: 2026-10-30
 authors:
 - danny
 website: https://bitbank.cc
@@ -14,10 +14,9 @@ android:
   appId: cc.bitbank.bitbank
   users: 500000
   appCountry: us
-  updated: 2026-09-19
-  version: 3.9.2
+  updated: 2026-09-28
+  version: 3.9.3
   reviews: 3
-  icon: cc.bitbank.bitbank.webp
   meta: ok
   verdict: custodial
   developerName: Bitbank, Inc.

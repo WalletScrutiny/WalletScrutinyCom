@@ -1,7 +1,6 @@
 ---
-wsId: ownrDigitalWallet
 title: OWNR Digital Wallet
-date: 2025-09-03
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -22,7 +21,6 @@ android:
   updated: 2026-09-19
   version: 2.2.3
   reviews: 106
-  icon: com.ownrwallet.wallet.webp
   meta: ok
   verdict: nosource
   developerName: OWNR WALLET OU
@@ -34,7 +32,6 @@ iphone:
   updated: 2026-06-25
   version: 2.2.0
   reviews: 115
-  icon: com.ownrwallet.wallet.webp
   meta: ok
   verdict: nosource
   developerName: OWNR WALLET OU
@@ -81,4 +78,4 @@ code, we remain with a verdict of **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,6 +1,6 @@
 ---
 title: ProfitTradingApp for BinanceUS
-date: 2024-04-03
+date: 2026-10-30
 authors:
 - danny
 website: https://profittradingapp.com/
@@ -16,7 +16,6 @@ android:
   updated: 2021-04-27
   version: 2.0.2
   reviews: 9
-  icon: com.profittrading.forbinanceus.webp
   meta: removed
   verdict: custodial
   developerName: ProfitTradingApp

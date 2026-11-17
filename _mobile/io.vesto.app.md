@@ -1,7 +1,6 @@
 ---
-wsId: vestoApp
 title: Vesto
-date: 2024-04-17
+date: 2026-10-30
 authors:
 - danny
 website: https://vesto.io
@@ -17,7 +16,6 @@ android:
   released: 2022-06-01
   updated: 2022-06-01
   version: '1.0'
-  icon: io.vesto.app.webp
   meta: removed
   verdict: nosource
   developerName: Vesto Apps
@@ -29,7 +27,6 @@ iphone:
   updated: 2022-04-26
   version: 1.0.1
   reviews: 0
-  icon: io.vesto.app.webp
   meta: obsolete
   verdict: nosource
   developerName: Vesto LLC
@@ -56,4 +53,4 @@ The provider states this in the homepage:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

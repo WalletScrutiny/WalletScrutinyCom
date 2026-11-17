@@ -1,7 +1,6 @@
 ---
-wsId: digitraTrading
 title: Digitra.com - BTC & Crypto
-date: 2022-07-31
+date: 2026-10-30
 authors:
 - danny
 website: https://www.digitra.com
@@ -22,8 +21,7 @@ android:
   updated: 2026-09-10
   version: 1.0.182
   reviews: 10
-  icon: com.digitra.digitraHB.webp
-  meta: ok
+  meta: defunct
   verdict: custodial
   developerName: Digitra.com
 iphone:
@@ -34,12 +32,13 @@ iphone:
   updated: 2026-09-16
   version: 1.0.183
   reviews: 33
-  icon: com.digitra.digitraHB.webp
-  meta: ok
+  meta: defunct
   verdict: custodial
   developerName: Digitra Ativos Digitais
 
 ---
+
+**⚠️ Warning:** Digitra.com closed its retail crypto business. Customers had until 2026-09-21 to move their coins to Foxbit; whatever was left on Digitra.com after that was to be liquidated by the company ([BitNotícias, 2026-08-20](https://bitnoticias.com.br/noticias/exchange-brasileira-digitra-vai-parar/)).
 
 ## Android
 
@@ -67,4 +66,4 @@ We downloaded and installed the app but was not able to complete account verific
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

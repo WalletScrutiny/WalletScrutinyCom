@@ -1,7 +1,6 @@
 ---
-wsId: Poloniex
 title: Poloniex Crypto Exchange
-date: 2020-05-29
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -21,8 +20,7 @@ android:
   released: 2017-06-19
   updated: 2026-09-28
   version: 2.44.3
-  reviews: 242
-  icon: com.plunien.poloniex.webp
+  reviews: 243
   meta: ok
   verdict: custodial
   developerName: poloniex
@@ -33,7 +31,6 @@ iphone:
   updated: 2023-02-04
   version: 1.39.1
   reviews: 2030
-  icon: com.plunien.app.Poloniex.webp
   meta: removed
   verdict: custodial
   developerName: Polo Digital Assets, Ltd

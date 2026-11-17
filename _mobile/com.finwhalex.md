@@ -1,11 +1,11 @@
 ---
 title: FinWhaleX
-date: 2023-05-25
+date: 2026-10-30
 authors:
 - danny
+website: https://web.archive.org/web/20190915225349/https://finwhalex.com/
 twitter: finwhalex
 social:
-- https://finwhalex.com
 - https://www.facebook.com/FinWhaleX
 redirect_from:
 - /android/com.finwhalex/
@@ -14,7 +14,6 @@ android:
   users: 1000
   updated: 2020-04-07
   version: VARY
-  icon: com.finwhalex.webp
   meta: removed
   verdict: wip
   developerName: FinWhaleX PTE. LTD.
@@ -22,6 +21,8 @@ android:
 ---
 
 ⚠️ Warning: There are scam allegations about this project in [BitcoinTalk.org](https://bitcointalk.org/index.php?topic=5172358.0)
+
+**Update 2026-10-30:** The finwhalex.com domain now shows a copy of the old FinWhaleX page filled with casino ads, so we link to the [2019 archive of the real site](https://web.archive.org/web/20190915225349/https://finwhalex.com/) instead.
 
 ## App Description from Google Play 
 

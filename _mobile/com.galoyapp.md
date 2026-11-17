@@ -1,7 +1,6 @@
 ---
-wsId: bitcoinbeach
 title: Blink (Bitcoin Wallet)
-date: 2023-10-20
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -15,6 +14,7 @@ features:
 - foss
 - ln
 - nfc
+- spark
 redirect_from:
 - /android/com.galoyapp/
 - /iphone/io.galoy.bitcoinbeach/
@@ -26,13 +26,12 @@ android:
   updated: 2026-08-24
   version: 3.0.31
   reviews: 50
-  icon: com.galoyapp.webp
   alternativeStores:
   - zapstore
   meta: ok
   verdict: custodial
   developerName: Blink El Salvador S.A. de C.V.
-  repository: https://github.com/GaloyMoney/galoy-mobile
+  repository: https://github.com/blinkbitcoin/blink-mobile
 iphone:
   appId: io.galoy.bitcoinbeach
   idd: '1531383905'
@@ -41,13 +40,14 @@ iphone:
   updated: 2026-08-26
   version: 3.0.31
   reviews: 68
-  icon: io.galoy.bitcoinbeach.webp
   meta: ok
   verdict: custodial
   developerName: Blink El Salvador Sociedad Anonima de Capital Variable
-  repository: https://github.com/GaloyMoney/galoy-mobile
+  repository: https://github.com/blinkbitcoin/blink-mobile
 
 ---
+
+**Update 2026-10-30:** Since June 2026 the app also offers [non-custodial accounts](https://www.blink.sv/blog/non-custodial-accounts-in-blink-wallet) on the Spark protocol, with a 12-word recovery phrase that only the user holds. Custodial accounts remain, so the app stays {% include verdictBadge.html verdict="custodial" type='short' %} for now.
 
 ## Android
 
@@ -95,7 +95,7 @@ This app is **custodial** and additionally, was created with the specific aim of
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="foss" quote="MIT License Copyright (c) 2021 Galoy Inc Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software" source="GitHub README" %}
 

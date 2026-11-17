@@ -1,7 +1,6 @@
 ---
-wsId: Luno
 title: 'Luno: Buy Bitcoin & Crypto'
-date: 2020-10-12
+date: 2026-10-30
 authors:
 - leo
 website: https://www.luno.com
@@ -21,10 +20,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2014-11-01
-  updated: 2026-09-25
-  version: 8.117.2
-  reviews: 1409
-  icon: co.bitx.android.wallet.webp
+  updated: 2026-10-14
+  version: 8.118.3
+  reviews: 1413
   meta: ok
   verdict: custodial
   developerName: Luno Group Holdings Ltd
@@ -33,10 +31,9 @@ iphone:
   idd: 927362479
   appCountry: us
   released: 2014-11-03
-  updated: 2026-09-24
-  version: 8.117.1
-  reviews: 3685
-  icon: za.co.Bitx.webp
+  updated: 2026-10-12
+  version: 8.118.1
+  reviews: 3697
   meta: ok
   verdict: custodial
   developerName: Luno Pte Ltd

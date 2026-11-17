@@ -6,7 +6,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { Readable } from 'node:stream';
 
-import { readComparisonResults, downloadFileFromBlossom, downloadAssetFilesToDir, addJobToQueue, queue, startCompilationJob } from '../verifications.mjs';
+import { readComparisonResults, readCastAppHashes, processNewReleaseVerification, buildVerificationContent, downloadFileFromBlossom, downloadAssetFilesToDir, addJobToQueue, queue, startCompilationJob } from '../verifications.mjs';
 import { initDb, closeDb, insert, findQueuedOrErroredSimilarAttempt, findErroredAttemptForBuildScript } from '../ddbbUtils.mjs';
 import { DEBUG_APP_IDS } from '../config/config.mjs';
 import { assetBundleRegistrationKind, assetRegistrationKind } from '../nostr-constants.mjs';
@@ -33,6 +33,74 @@ afterEach(() => {
   }
 });
 
+describe('buildVerificationContent', () => {
+  const buildDir = '/opt/build-server-builds/com.example_abc_1.2.3';
+  const base = {
+    version: '1.2.3',
+    hashes: ['ed61c19e'],
+    basedOnId: 'verif-id',
+    basedOnPubkey: 'verif-pubkey',
+    scriptVersion: 'v0.1.9',
+    command: `${buildDir}/com.example_abc_script.sh --binary ${buildDir}/base.apk`,
+    buildDir
+  };
+
+  test('opens with the verdict in plain words, then the official hash', () => {
+    const content = buildVerificationContent({ ...base, verdict: 'not_reproducible', architecture: 'arm64-v8a' });
+    const lines = content.split('\n');
+    assert.equal(lines[0], '**Not reproducible.** We built version 1.2.3 (arm64-v8a) from its public source code, and the result does not match the official app.');
+    assert.equal(lines[2], '**Official app (SHA-256):** `ed61c19e`');
+    assert.match(buildVerificationContent({ ...base, verdict: 'reproducible' }), /^\*\*Reproducible\.\*\* We built version 1\.2\.3 from/);
+    assert.match(buildVerificationContent({ ...base, verdict: 'ftbfs' }), /^\*\*Failed to build\.\*\* We could not build version 1\.2\.3 from/);
+  });
+
+  test('lists every official file hash when there are several', () => {
+    const content = buildVerificationContent({ ...base, verdict: 'reproducible', hashes: ['aa', 'bb'] });
+    assert.ok(content.includes('**Official files (SHA-256):**\n- `aa`\n- `bb`'));
+  });
+
+  test('puts the technical details in a collapsed block with build-dir paths made relative', () => {
+    const content = buildVerificationContent({
+      ...base,
+      verdict: 'ftbfs',
+      versionOverrideNote: 'The asset registration listed version 1.2; the APK versionName is 1.2.3.'
+    });
+    const details = content.slice(content.indexOf('<details>'));
+    assert.ok(details.startsWith('<details>\n<summary>Other information</summary>\n\n'));
+    assert.ok(details.includes('- Build script from verification `verif-id` by `verif-pubkey`'));
+    assert.ok(details.includes('- Script version: v0.1.9'));
+    assert.ok(details.includes('- Command: `com.example_abc_script.sh --binary base.apk`'));
+    assert.ok(details.includes('- The asset registration listed version 1.2; the APK versionName is 1.2.3.'));
+    assert.ok(!content.includes('/opt/build-server-builds'));
+    assert.ok(content.trimEnd().endsWith('</details>'));
+  });
+
+  test('keeps script note lines apart and renders them as plain text', () => {
+    const content = buildVerificationContent({
+      ...base,
+      verdict: 'not_reproducible',
+      notes: `Diff file: ${buildDir}/comparison/diff.txt\n\n# 3 *differences* in <binary>\n- META-INF/*: signing files\n----\n.\n`
+    });
+    const notes = content.slice(content.indexOf('**Notes from the script**'));
+    assert.equal(
+      notes,
+      '**Notes from the script**\n\n' +
+      'Diff file: comparison/diff.txt  \n' +
+      '\\# 3 \\*differences\\* in &lt;binary>  \n' +
+      '- META-INF/\\*: signing files  \n' +
+      '\\----\n\n' +
+      '</details>\n'
+    );
+  });
+
+  test('leaves out what is unknown', () => {
+    const content = buildVerificationContent({ verdict: 'reproducible', version: '1.0' });
+    assert.ok(!content.includes('SHA-256'));
+    assert.ok(!content.includes('Notes from the script'));
+    assert.ok(!content.includes('Script version'));
+  });
+});
+
 describe('readComparisonResults', () => {
   test('returns undefined when COMPARISON_RESULTS.yaml is missing', () => {
     const buildDir = makeTempDir('comparison-missing');
@@ -57,9 +125,29 @@ describe('readComparisonResults', () => {
       {
         verdict: 'reproducible',
         scriptVersion: '2.1.0',
-        notes: 'all good'
+        notes: 'all good',
+        hashes: []
       }
     );
+  });
+
+  test('reads the reported hashes of the official binaries', () => {
+    const buildDir = makeTempDir('comparison-hashes');
+    const hash = 'ab'.repeat(32);
+    fs.writeFileSync(
+      path.join(buildDir, 'COMPARISON_RESULTS.yaml'),
+      [
+        'verdict: reproducible',
+        'hashes:',
+        `  - ${hash.toUpperCase()}`,
+        `  - ${hash}`,
+        '  - not-a-hash'
+      ].join('\n')
+    );
+    assert.deepEqual(readComparisonResults(buildDir).hashes, [hash]);
+
+    fs.writeFileSync(path.join(buildDir, 'COMPARISON_RESULTS.yaml'), `verdict: reproducible\nhashes: ${hash}\n`);
+    assert.deepEqual(readComparisonResults(buildDir).hashes, [hash]);
   });
 
   test('falls back to results[0].status when verdict is missing', () => {
@@ -77,9 +165,47 @@ describe('readComparisonResults', () => {
       {
         verdict: 'not_reproducible',
         scriptVersion: null,
-        notes: null
+        notes: null,
+        hashes: []
       }
     );
+  });
+});
+
+describe('readCastAppHashes', () => {
+  const writeCast = (name, outputs) => {
+    const castFile = path.join(makeTempDir(name), 'build.cast');
+    const lines = [JSON.stringify({ version: 2, width: 80, height: 24 })];
+    outputs.forEach((text, i) => lines.push(JSON.stringify([i, 'o', text])));
+    fs.writeFileSync(castFile, lines.join('\n') + '\n');
+    return castFile;
+  };
+
+  test('reads appHash from the results block, split across frames', () => {
+    const hash = 'cd'.repeat(32);
+    const castFile = writeCast('cast-apphash', [
+      '\u001b[0;34m[INFO]\u001b[0m building\r\n',
+      '===== Begin Results =====\r\nappId:          bitcoinknots\r\nappHash:        ',
+      `${hash.toUpperCase()}\r\ncommit:         v1\r\n===== End Results =====\r\n`
+    ]);
+    assert.deepEqual(readCastAppHashes(castFile), [hash]);
+  });
+
+  test('the last appHash printed wins', () => {
+    const castFile = writeCast('cast-apphash-last', [
+      `appHash:        ${'11'.repeat(32)}\r\n`,
+      `appHash:        ${'22'.repeat(32)}\r\n`
+    ]);
+    assert.deepEqual(readCastAppHashes(castFile), ['22'.repeat(32)]);
+  });
+
+  test('returns no hash for N/A, prose, or a missing cast', () => {
+    const castFile = writeCast('cast-apphash-na', [
+      'appHash:        N/A (no official release)\r\n',
+      'appHash: sha256 of Bitcoin-Safe.deb exactly as downloaded\r\n'
+    ]);
+    assert.deepEqual(readCastAppHashes(castFile), []);
+    assert.deepEqual(readCastAppHashes(path.join(makeTempDir('cast-none'), 'missing.cast')), []);
   });
 });
 
@@ -401,5 +527,18 @@ describe('addJobToQueue asset key', () => {
       queue.clear();
       queue.start();
     }
+  });
+});
+
+describe('processNewReleaseVerification', () => {
+  test('logs an error instead of throwing from its catch', async () => {
+    // No relay pool in tests, so requireNostrPool() throws inside the try.
+    const verification = {
+      id: 'v'.repeat(64),
+      pubkey: 'p'.repeat(64),
+      tags: [['i', 'sparrow'], ['version', '2.5.5'], ['platform', 'desktop']],
+      content: '{}',
+    };
+    await processNewReleaseVerification(verification, '2.5.6', {}, [], null);
   });
 });

@@ -1,7 +1,6 @@
 ---
-wsId: neteller
 title: Neteller – Fast Payments
-date: 2024-09-07
+date: 2026-10-30
 authors:
 - danny
 website: https://www.neteller.com
@@ -17,10 +16,9 @@ android:
   users: 5000000
   appCountry: us
   released: 2016-03-30
-  updated: 2026-09-29
-  version: 3.193.0-2026090813
+  updated: 2026-10-13
+  version: 3.195.0-2026100515
   reviews: 281
-  icon: com.moneybookers.skrillpayments.neteller.webp
   meta: ok
   verdict: custodial
   developerName: Paysafe Holdings UK Limited
@@ -29,10 +27,9 @@ iphone:
   idd: '1095647938'
   appCountry: gb
   released: 2016-05-02
-  updated: 2026-09-25
-  version: 3.194.0
-  reviews: 1170
-  icon: com.skrill.NETELLER.webp
+  updated: 2026-10-07
+  version: 3.195.0
+  reviews: 1176
   meta: ok
   verdict: custodial
   developerName: Skrill Ltd.
@@ -63,4 +60,4 @@ Although, no mention of cold storage, private keys or seeds are found in the app
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

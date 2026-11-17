@@ -1,14 +1,12 @@
 ---
-wsId: coinOneKr
 title: '코인원: 수수료 무료 바우처 지급, 12년 보안 무사고'
-date: 2021-08-21
+date: 2026-10-30
 authors:
 - danny
 website: https://coinone.co.kr
 twitter: CoinoneOfficial
 social:
 - https://www.facebook.com/coinone
-- https://coinone.co.kr
 features:
 - fingerprint
 redirect_from:
@@ -19,10 +17,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2018-01-28
-  updated: 2026-09-14
-  version: 5.37.0
+  updated: 2026-10-02
+  version: 5.38.0
   reviews: 15
-  icon: coinone.co.kr.official.webp
   meta: ok
   verdict: custodial
   developerName: Coinone
@@ -31,10 +28,9 @@ iphone:
   idd: 1326526995
   appCountry: kr
   released: 2018-03-27
-  updated: 2026-09-17
-  version: 5.37.0
-  reviews: 1057
-  icon: kr.co.coinone.officialapp.webp
+  updated: 2026-10-08
+  version: 5.38.0
+  reviews: 1061
   meta: ok
   verdict: custodial
   developerName: Coinone
@@ -55,6 +51,6 @@ As it's an exchange and there's nothing to suggest otherwise, it is safe to conc
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="앱 간편 로그인 시 생체인식을 사용합니다." source="Store" %}

@@ -1,6 +1,6 @@
 ---
 title: CryptoPia
-date: 2023-08-04
+date: 2026-10-30
 authors:
 - danny
 website: http://smilestory.io
@@ -13,7 +13,6 @@ android:
   updated: 2019-09-08
   version: 1.0.2
   reviews: 3
-  icon: cryptopia.mobile.webp
   meta: removed
   verdict: nosource
   developerName: Smilestory Co., Ltd.

@@ -1,7 +1,6 @@
 ---
-wsId: radarChat
 title: 'Radar: Chat & Bitcoin'
-date: 2026-07-08
+date: 2026-10-30
 authors:
 - danny
 website: https://radar.chat
@@ -16,8 +15,7 @@ iphone:
   released: 2026-06-30
   updated: 2026-08-11
   version: 1.0.5
-  reviews: 16
-  icon: com.cakelabs.signal.webp
+  reviews: 17
   meta: ok
   verdict: custodial
   developerName: Radar Chat

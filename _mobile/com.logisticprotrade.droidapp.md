@@ -1,6 +1,6 @@
 ---
 title: Logistic Pro Trade
-date: 2024-05-07
+date: 2026-10-30
 website: https://logisticprotrade.com#deadLink
 redirect_from:
 - /android/com.logisticprotrade.droidapp/
@@ -10,7 +10,6 @@ android:
   released: 2021-05-18
   updated: 2022-02-16
   version: '1.5'
-  icon: com.logisticprotrade.droidapp.webp
   meta: removed
   verdict: wip
   developerName: Alt 5 Pro

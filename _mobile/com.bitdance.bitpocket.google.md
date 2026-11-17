@@ -1,7 +1,6 @@
 ---
-wsId: bitpocketBTC
 title: BitPocket - BTC/LN Wallet
-date: 2025-11-12
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitdance.network/
@@ -19,7 +18,6 @@ android:
   released: 2025-08-22
   updated: 2026-09-23
   version: 1.4.4
-  icon: com.bitdance.bitpocket.google.webp
   meta: ok
   verdict: nosource
   developerName: Bitdance
@@ -28,10 +26,9 @@ iphone:
   idd: '6746639763'
   appCountry: au
   released: 2025-06-14
-  updated: 2026-09-25
-  version: 1.4.3
+  updated: 2026-10-13
+  version: 1.4.4
   reviews: 1
-  icon: com.bitdance.bitpocket.webp
   meta: ok
   verdict: nosource
   developerName: BITDANCE HK LIMITED
@@ -52,7 +49,7 @@ Seed phrases were provided. We verified that both Lightning and Bitcoin support 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Manage both Bitcoin + Lightning Network assets in one place." source="Store" %}
 

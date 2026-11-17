@@ -1,7 +1,6 @@
 ---
-wsId: primalNostr
 title: Primal
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.primal.net
@@ -17,8 +16,7 @@ android:
   released: 2024-07-09
   updated: 2026-09-01
   version: 3.5.27
-  reviews: 34
-  icon: net.primal.android.webp
+  reviews: 35
   alternativeStores:
   - zapstore
   meta: ok
@@ -31,13 +29,14 @@ iphone:
   released: 2023-12-01
   updated: 2026-09-03
   version: 3.5.61
-  reviews: 934
-  icon: net.primal.iosapp.Primal.webp
+  reviews: 935
   meta: ok
   verdict: custodial
   developerName: Primal Systems Incorporated.
 
 ---
+
+**Update 2026-10-30:** Primal replaced the Strike-hosted wallet quoted below with a self-custodial wallet built on the [Breez SDK](https://breez.technology/case-studies/primal/) for the Spark network, and moved its users over ([dependency in the app's source](https://github.com/PrimalHQ/primal-android-app/blob/main/gradle/libs.versions.toml)). The terms quoted below describe the old wallet. Like {% include walletLink.html wallet='android/com.blitzwallet' verdict='true' %}, a Spark wallet stays {% include verdictBadge.html verdict="custodial" type='short' %} for now, until we confirm that users can move their funds onto the Bitcoin blockchain without the Spark operators.
 
 ## Android
 
@@ -70,4 +69,4 @@ The terms are only visible from the Android app which is still in early testing:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

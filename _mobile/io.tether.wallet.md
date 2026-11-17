@@ -1,7 +1,6 @@
 ---
-wsId: tetherWallet
 title: 'Tether Wallet: USDT & Bitcoin'
-date: 2026-04-20
+date: 2026-10-30
 authors:
 - danny
 website: https://wallet.tether.io/support/
@@ -20,10 +19,9 @@ android:
   users: 100000
   appCountry: us
   released: 2026-03-19
-  updated: 2026-09-24
-  version: 1.11.0
+  updated: 2026-10-07
+  version: 1.12.0
   reviews: 10
-  icon: io.tether.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Tether Data
@@ -33,10 +31,9 @@ iphone:
   idd: '6759002210'
   appCountry: us
   released: 2026-04-14
-  updated: 2026-09-29
-  version: 1.11.0
-  reviews: 11
-  icon: io.tether.wallet.official.webp
+  updated: 2026-10-08
+  version: 1.12.0
+  reviews: 15
   meta: ok
   verdict: nosource
   developerName: Tether Data
@@ -68,4 +65,4 @@ The underlying WDK framework is open source, but the **application code for `io.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

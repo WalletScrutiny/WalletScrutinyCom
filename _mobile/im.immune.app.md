@@ -1,10 +1,9 @@
 ---
-wsId: immuneMessenger
 title: IMMUNE Messenger
-date: 2023-04-15
+date: 2026-10-30
 authors:
 - danny
-website: https://imm.app/
+website: https://immune.im/
 redirect_from:
 - /android/im.immune.app/
 - /iphone/im.immune.app/
@@ -15,7 +14,6 @@ android:
   released: 2019-11-29
   updated: 2025-02-28
   version: 2.2.1
-  icon: im.immune.app.webp
   meta: stale
   verdict: nosource
   developerName: IMM Money Messenger Limited
@@ -27,12 +25,13 @@ iphone:
   updated: 2025-09-08
   version: 2.2.2
   reviews: 4
-  icon: im.immune.app.webp
   meta: stale
   verdict: nosource
   developerName: IMM Money Messenger Limited
 
 ---
+
+**Update 2026-10-30:** The old domain imm.app is now up for sale. The project's site moved to [immune.im](https://immune.im/), which still describes the messenger with a built-in wallet and is the site named in the app's store listings. We still found no source code.
 
 ## Android
 
@@ -66,4 +65,4 @@ The app has a Bitcoin wallet that can send and receive. It also provides the see
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

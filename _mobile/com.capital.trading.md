@@ -1,7 +1,6 @@
 ---
-wsId: capitalTrading
 title: Trading app by Capital·com
-date: 2024-02-08
+date: 2026-10-30
 authors:
 - danny
 website: https://capital.com
@@ -20,10 +19,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2017-10-18
-  updated: 2026-09-25
-  version: 3.52.0
+  updated: 2026-10-12
+  version: 3.53.0
   reviews: 38
-  icon: com.capital.trading.webp
   meta: ok
   verdict: nosendreceive
   developerName: Capital Com SV Investments Limited
@@ -32,10 +30,9 @@ iphone:
   idd: 1230088754
   appCountry: jp
   released: 2019-12-10
-  updated: 2026-08-31
-  version: 3.48.0
-  reviews: 327
-  icon: com.capital.trading.webp
+  updated: 2026-10-02
+  version: 3.52.0
+  reviews: 328
   meta: ok
   verdict: nosendreceive
   developerName: Capital Com SV Investments Limited
@@ -77,6 +74,6 @@ withdrawals.
 
 **Update 2024-02-08**: This app is back on the Apple store.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 **Update 2022-01-15**: This app is not on the Store anymore.

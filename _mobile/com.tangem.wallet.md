@@ -1,7 +1,6 @@
 ---
-wsId: tangem
 title: Tangem - Hardware Wallet
-date: 2025-03-21
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -23,10 +22,9 @@ android:
   users: 500000
   appCountry: us
   released: 2018-10-24
-  updated: 2026-09-24
+  updated: 2026-10-09
   version: 6.3.4
-  reviews: 1919
-  icon: com.tangem.wallet.webp
+  reviews: 1933
   signer: 6e19822814d3498163b2e911196bca85dab25a0267aae5739dde15acb2736002
   meta: ok
   verdict: sourceavailable
@@ -37,10 +35,9 @@ iphone:
   idd: 1354868448
   appCountry: us
   released: 2018-04-28
-  updated: 2026-09-25
-  version: 6.3.3
-  reviews: 24627
-  icon: com.tangem.Tangem.webp
+  updated: 2026-10-12
+  version: '6.4'
+  reviews: 24863
   meta: ok
   verdict: nosource
   developerName: Tangem AG

@@ -1,7 +1,6 @@
 ---
-wsId: MoonXBT
 title: MoonXBT - Social Trading
-date: 2025-02-26
+date: 2026-10-30
 authors:
 - danny
 website: https://www.moonxbt.com#deadLink
@@ -20,7 +19,6 @@ android:
   updated: 2023-01-11
   version: 5.4.3
   reviews: 23
-  icon: com.nano.moonxbt.webp
   meta: removed
   verdict: custodial
   developerName: NANO TRADE GLOBAL TECHNOLOGY LIMITED
@@ -29,12 +27,11 @@ iphone:
   idd: 1566536854
   appCountry: us
   released: 2021-06-08
-  updated: 2026-09-28
-  version: 6.25.0
+  updated: 2026-10-10
+  version: 6.26.0
   reviews: 20
-  icon: com.nano.moonxbt.webp
   meta: ok
-  verdict: custodial
+  verdict: nobtc
   developerName: NANO TRADE GLOBAL
 
 ---
@@ -69,4 +66,6 @@ The conversion of deposits and withdrawals from BTC to USDT, and USDT to BTC can
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+**Update 2026-10-30:** This iPhone app is now Pumpkin, a live-streaming trading app from the same developer ([Pumpkin docs](https://docs.pumpkin.xyz/)). It works with Solana, Base, BSC and other EVM wallets, created at login through Privy or connected from MetaMask and similar ([architecture](https://docs.pumpkin.xyz/getting-started/architecture)). Bitcoin is not among its chains and BTC is only traded as a USDT perpetual, so the app is now {% include verdictBadge.html verdict="nobtc" type='short' %}.
+
+The Android analysis above applies to the iPhone app too.

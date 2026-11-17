@@ -21,11 +21,10 @@ shop: https://trezor.io/trezor-safe-7
 country: CZ
 price: 249USD
 repository: https://github.com/trezor/trezor-firmware
-icon: trezorSafe7.webp
 bugbounty: https://trezor.io/learn/a/how-to-report-an-issue
 meta: ok
 verdict: sourceavailable
-date: 2025-10-22
+date: 2026-10-30
 signer: 
 twitter: trezor
 social:

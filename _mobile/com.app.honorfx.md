@@ -1,6 +1,6 @@
 ---
 title: HonorFX
-date: 2023-05-17
+date: 2026-10-30
 website: https://honorfx.com/
 redirect_from:
 - /android/com.app.honorfx/
@@ -10,7 +10,6 @@ android:
   released: 2021-09-22
   updated: 2021-10-09
   version: '1.3'
-  icon: com.app.honorfx.webp
   meta: removed
   verdict: wip
   developerName: HonorFX

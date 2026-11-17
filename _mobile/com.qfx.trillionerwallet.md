@@ -1,6 +1,6 @@
 ---
 title: TLC Wallet (Beta)
-date: 2025-12-08
+date: 2026-10-30
 authors:
 - danny
 website: https://trillioner.io
@@ -14,7 +14,6 @@ android:
   updated: 2023-10-27
   version: '22.0'
   reviews: 3
-  icon: com.qfx.trillionerwallet.webp
   meta: obsolete
   verdict: wip
   developerName: Trillioner Innovations

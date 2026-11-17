@@ -1,6 +1,6 @@
 ---
 title: Maya – savings, loans, cards
-date: 2024-09-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.maya.ph/
@@ -19,14 +19,12 @@ iphone:
   idd: '991673877'
   appCountry: ph
   released: 2015-09-29
-  updated: 2026-09-24
-  version: 2.146.0
-  reviews: 235582
-  icon: com.paymaya.ios.webp
+  updated: 2026-10-10
+  version: 2.147.2
+  reviews: 237474
   meta: ok
   verdict: custodial
   developerName: Maya Philippines, Inc.
 
 ---
 
-{% include copyFromAndroid.html %}

@@ -1,6 +1,6 @@
 ---
 title: Dompet Bitcoin Indonesia
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - leo
 website: https://www.indodax.com/
@@ -15,7 +15,6 @@ android:
   updated: 2021-10-26
   version: 2.4.9
   reviews: 31
-  icon: co.id.dompet.btc.indonesia.webp
   meta: removed
   verdict: custodial
 

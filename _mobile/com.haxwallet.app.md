@@ -1,7 +1,6 @@
 ---
-wsId: haxWallet
 title: 'Hax: Crypto & Bitcoin Wallet'
-date: 2025-11-18
+date: 2026-10-30
 authors:
 - danny
 website: http://haxwallet.com
@@ -23,7 +22,6 @@ android:
   updated: 2026-09-13
   version: '3.6'
   reviews: 6
-  icon: com.haxwallet.app.webp
   meta: ok
   verdict: nosource
   developerName: HaxSolutions
@@ -34,8 +32,7 @@ iphone:
   released: 2023-08-23
   updated: 2026-09-15
   version: '3.6'
-  reviews: 415
-  icon: com.haxwallet.app.webp
+  reviews: 416
   meta: ok
   verdict: nosource
   developerName: HaxSolutions, LLC
@@ -81,6 +78,6 @@ This app is **not source-available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Protect your digital assets by setting a PIN code or biometric authentication." source="Store" %}

@@ -1,7 +1,6 @@
 ---
-wsId: gopax
 title: GOPAX (Crypto exchange)
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.gopax.co.kr
@@ -11,12 +10,11 @@ redirect_from:
 android:
   appId: kr.co.gopax
   users: 500000
-  appCountry: cn
+  appCountry: kr
   released: 2018-11-05
-  updated: 2026-09-29
-  version: 1.9.80.1a4d
-  reviews: 1542
-  icon: kr.co.gopax.webp
+  updated: 2026-10-13
+  version: 1.9.85.37ce
+  reviews: 1544
   meta: ok
   verdict: custodial
   developerName: Streami Inc.
@@ -25,10 +23,9 @@ iphone:
   idd: 1369896843
   appCountry: kr
   released: 2018-06-21
-  updated: 2026-09-29
-  version: 3.3.1
+  updated: 2026-10-13
+  version: 3.3.2
   reviews: 534
-  icon: kr.co.gopax.webp
   meta: ok
   verdict: custodial
   developerName: Streami Inc.
@@ -36,6 +33,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** GOPAX survived the closure threat mentioned below, but changed hands. Binance bought a majority stake in February 2023 ([Cointelegraph](https://cointelegraph.com/news/binance-re-enters-south-korea-with-gopax-exchange)), and Korea's Financial Intelligence Unit approved the change of executives in October 2025, which gave Binance effective control ([Korea Times](https://www.koreatimes.co.kr/economy/cryptocurrency/20251017/worlds-largest-crypto-exchange-binance-approved-to-enter-korean-market)).
 
 ### Google Play
 
@@ -64,4 +63,4 @@ Verdict is **custodial** and thus, **not verifiable**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

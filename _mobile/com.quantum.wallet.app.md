@@ -1,7 +1,6 @@
 ---
-wsId: quantumWallet
 title: Quantum Wallet
-date: 2025-12-08
+date: 2026-10-30
 authors:
 - danny
 website: https://quantum.press/
@@ -18,7 +17,6 @@ android:
   updated: 2025-07-03
   version: 1.3.1
   reviews: 4
-  icon: com.quantum.wallet.app.webp
   meta: stale
   verdict: nosource
   developerName: Nexus Payments Limited
@@ -30,7 +28,6 @@ iphone:
   updated: 2026-01-15
   version: 1.19.0
   reviews: 0
-  icon: com.quantum.wallet.app.webp
   meta: ok
   verdict: nosource
   developerName: Nexus Payments Limited
@@ -55,4 +52,4 @@ This app **is not source-available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

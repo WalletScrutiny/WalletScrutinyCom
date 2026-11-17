@@ -5,7 +5,7 @@ import {
 } from "./asset-utils.mjs";
 import { assetBundleRegistrationKind, verificationKind, verificationDraftKind } from "./nostr-constants.mjs";
 import { formatDate } from "./format-utils.mjs";
-import { getStatusText } from "./assets-table-utils.mjs";
+import { createStatusPillMark, getStatusText } from "./assets-table-utils.mjs";
 import { getFirstTagValue } from "./verifications_common.mjs";
 import {
   mergeBundleAssetRows,
@@ -315,7 +315,7 @@ export function createVerificationCard({ attestation, sha256HashKey, identifier,
       el('div', { className: 'verification-card__body' },
         el('div', { className: 'verification-card__meta' },
           el('span', { className: `verification-status-pill verification-status-pill--${statusModifier}` },
-            el('span', { className: 'verification-status-pill__dot', 'aria-hidden': 'true' }),
+            createStatusPillMark(statusModifier),
             el('span', { className: 'attestation-status' }, statusLabel),
           ),
           isMyDraft ? el('span', { className: 'verification-draft-badge' }, 'Draft') : null,
@@ -706,6 +706,21 @@ export function paintMainAssetsTable({
       const sha256Hashes = allSha256Hashes.slice(0, 5);
 
       const sanitizedFileName = fileName ? fileName.replace(/\s+/g, '-') : '';
+
+      // What this row is, for the wallet page's Build Verifications section (and anyone
+      // else reading sortedItems): DOM-free facts, the same ones the cells below show.
+      item.summary = {
+        version,
+        identifier,
+        platform,
+        description: itemDescription,
+        lookupHashes,
+        attestations,
+        hasAssets: thisHashHasAssets,
+        files: allSha256Hashes.map(tag => ({ hash: tag[1], fileName: tag[2] || null })),
+        downloadFileName: sanitizedFileName,
+      };
+
       const bundleFilesJson = bundleFilesForDownload.length > 0
         ? encodeURIComponent(JSON.stringify(bundleFilesForDownload))
         : '';

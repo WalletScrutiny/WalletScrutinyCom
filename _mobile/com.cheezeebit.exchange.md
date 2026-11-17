@@ -1,23 +1,24 @@
 ---
 title: 'zBit.com: Buy Bitcoin & ETH'
-date: 2025-11-13
+date: 2026-10-30
 authors:
 - danny
-website: https://cheezeebit.com/
+website: https://www.zbit.com/en
 redirect_from:
 - /android/com.cheezeebit.exchange/
 android:
   appId: com.cheezeebit.exchange
   users: 500000
   appCountry: us
-  updated: 2026-09-21
-  version: 1.5.4.1
-  icon: com.cheezeebit.exchange.webp
+  updated: 2026-10-12
+  version: 1.5.5.1
   meta: ok
   verdict: custodial
   developerName: zBit Global
 
 ---
+
+**Update 2026-10-30:** Cheezeebit now operates as zBit.com. The app's store listing links to [zbit.com](https://www.zbit.com/en), a centralized exchange with account sign-up, spot and futures trading.
 
 ## App Description
 

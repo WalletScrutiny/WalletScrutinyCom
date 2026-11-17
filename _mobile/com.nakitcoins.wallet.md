@@ -1,7 +1,6 @@
 ---
-wsId: NakitCoins
 title: Nakitcoins
-date: 2022-10-21
+date: 2026-10-30
 authors:
 - danny
 website: https://www.nakitcoins.com#deadLink
@@ -18,7 +17,6 @@ android:
   released: 2021-03-30
   updated: 2022-03-29
   version: 2.2.0
-  icon: com.nakitcoins.wallet.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -28,11 +26,12 @@ iphone:
   updated: 2022-04-03
   version: 2.2.0
   reviews: 2
-  icon: com.nakitcoins.wallet.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** NakitCoins appears to be gone. Its website no longer loads; the [last archived copy, from September 2024](https://web.archive.org/web/20240914094707/https://www.nakitcoins.com/), still showed its cash exchange offices in Turkey.
 
 ## Android
 
@@ -64,4 +63,4 @@ In the case of this app, the user is not in charge of the keys. This app is **cu
 
 **Update 2022-10-21**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,6 +1,6 @@
 ---
 title: Union Btc
-date: 2024-03-02
+date: 2026-10-30
 website: https://web.archive.org/web/20250713062216/https://unionbtc.io/
 redirect_from:
 - /android/pixel.websolutions.union_btc/
@@ -10,7 +10,6 @@ android:
   released: 2021-09-29
   updated: 2022-09-07
   version: 1.0.0
-  icon: pixel.websolutions.union_btc.webp
   meta: removed
   verdict: wip
   developerName: CryptoMaticAtm OÜ

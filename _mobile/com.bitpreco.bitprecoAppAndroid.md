@@ -1,7 +1,6 @@
 ---
-wsId: BityPreco
 title: Bitypreço
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - danny
 website: https://bitpreco.com/
@@ -20,7 +19,6 @@ android:
   updated: 2022-12-26
   version: 2.0.04
   reviews: 726
-  icon: com.bitpreco.bitprecoAppAndroid.webp
   meta: removed
   verdict: custodial
   developerName: Bitpreço
@@ -31,12 +29,13 @@ iphone:
   updated: 2023-01-22
   version: 2.0.04
   reviews: 665
-  icon: com.bitpreco.bitprecoApp.webp
   meta: removed
   verdict: custodial
   developerName: BitPreço
 
 ---
+
+**Update 2026-10-30:** Bity, the company behind Bitypreço, is closing its exchange ([closure notice](https://www.bity.com.br/encerramento/)). It stopped taking new users on 2026-10-02; crypto can be bought, sold and withdrawn until 2026-11-25, after which any crypto left in an account is converted to reais, which can still be withdrawn.
 
 ## Android
 
@@ -92,4 +91,4 @@ The platform provides the wallets for the user which is hosted on their service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

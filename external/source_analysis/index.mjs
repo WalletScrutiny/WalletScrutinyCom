@@ -1,14 +1,21 @@
 #!/usr/bin/env node
 
+import fs from 'fs';
 import minimist from 'minimist';
 import { fetchGitHubAssets, fetchDockerAssets, parseDockerImage, checkAuthorIdConsistency, evaluateChangesInNewAsset, loadSecret } from './utils.mjs';
-import { backupDatabase, initDatabase, saveAsset, hasExistingAssets } from './ddbbUtils.mjs';
-import { runSourceCodeAnalysis } from './appAnalysis.mjs';
-import { APPS, APP_LIST_URL } from './config.mjs';
+import { backupDatabase, initDatabase, saveAsset, hasExistingAssets, getAnalysedCommit, saveAnalysedCommit, saveEndOfLife, recordAnalysis, releasesToReanalyse, reanalyseRequests, clearReanalyse } from './ddbbUtils.mjs';
+import { runSourceCodeAnalysis, remoteHeadCommit, remoteHeadDate, analyserVersion } from './appAnalysis.mjs';
+import { recheckStoredReleases } from './recheck.mjs';
+import { pruneCache } from './containerRunner.mjs';
+import { APPS, APP_LIST_URL, DEFAULT_TEMP_DIR, CONCURRENCY, EXPORT_DIR, SCOPE, VERIFIED_PER_PASS, GONE_EOL_YEARS, DB_PATH, IDENTITY_PER_PASS, RC_DIR } from './config.mjs';
+import { lockPathFor, waitForLock } from './runLock.mjs';
+import { loadReproducible, verifiedVersionsOf, analyseVerifiedVersions } from './reproducible.mjs';
 import { loadAppList, groupByRepository } from './appList.mjs';
+import { runPool, tagConsole } from './pool.mjs';
+import { loadPlugins } from './plugins.mjs';
 
 // Main function
-async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = null, dockerToken = null, includeTestFiles = false) {
+async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = null, dockerToken = null, includeTestFiles = false, verified = [], reanalyse = false) {
   console.log(`\nProcessing app: ${appId}`);
   if (repoUrl) {
     console.log(`  GitHub repo: ${repoUrl}`);
@@ -54,12 +61,51 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
         }
       }
 
+      let unreachable = null;
+      const redone = [];
       if (mostRecentAsset) {
         await runSourceCodeAnalysis({ name: appId, repoUrl: repoUrl, version: mostRecentAsset.version, includeTestFiles, db });
+        redone.push(mostRecentAsset.version);
       } else {
-        console.log('  No updates or not a GitHub repo...');
-        await runSourceCodeAnalysis({ name: appId, repoUrl: repoUrl, includeTestFiles });
+        // No new release: analyse the default branch, unless it has not moved
+        // since the last successful analysis that stored its rows. A remote
+        // that cannot be reached (an .onion address, a gone host) cannot be
+        // cloned either: recorded as a failed analysis, and nothing more is
+        // tried this pass.
+        // A reachable remote without a readable HEAD analyses.
+        let head = null;
+        try {
+          head = await remoteHeadCommit(repoUrl);
+        } catch (error) {
+          unreachable = error;
+        }
+        if (unreachable) {
+          console.log(`  No new release, and ${unreachable.message}. Skipping the source analysis.`);
+          recordAnalysis(db, { appId, kind: 'default-branch', ref: 'unknown', status: 'failed', error: unreachable.message, analyser: analyserVersion() });
+        } else if (!reanalyse && head && head === getAnalysedCommit(db, appId)) {
+          console.log(`  No new release, default branch still at ${head.slice(0, 12)} (already analysed). Skipping the source analysis.`);
+        } else {
+          console.log('  No new release: analysing the default branch...');
+          const result = await runSourceCodeAnalysis({ name: appId, repoUrl: repoUrl, includeTestFiles, db });
+          if (result && result.commit) {
+            saveAnalysedCommit(db, appId, result.commit);
+          }
+        }
       }
+
+      // --reanalyse: the newest release and every release analysed before run
+      // again, so an analyser fix reaches results stored before it.
+      if (reanalyse && !unreachable) {
+        for (const tag of releasesToReanalyse(db, appId).filter(t => !redone.includes(t))) {
+          console.log(`  Reanalysing release ${tag}...`);
+          await runSourceCodeAnalysis({ name: appId, repoUrl, version: tag, includeTestFiles, db });
+          redone.push(tag);
+        }
+      }
+
+      if (!unreachable) await analyseVerifiedVersions(db, { appId, repoUrl, verified, perPass: VERIFIED_PER_PASS,
+        redo: reanalyse ? redone : null,
+        analyse: (tag) => runSourceCodeAnalysis({ name: appId, repoUrl, version: tag, includeTestFiles, db }) });
     }
 
     // Fetch Docker assets if provided
@@ -101,13 +147,14 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
 // Parse command line arguments with minimist
 const argv = minimist(process.argv.slice(2), {
   string: ['githubToken', 'dockerToken', 'appList', 'appId'],
-  boolean: ['includeTestFiles'],
+  boolean: ['includeTestFiles', 'reanalyse'],
   alias: {
     githubToken: ['github-token', 'gh-token'],
     dockerToken: ['docker-token', 'docker-token'],
     includeTestFiles: ['include-test-files', 'jsxray-include-tests'],
     appList: ['app-list'],
-    appId: ['app-id']
+    appId: ['app-id'],
+    reanalyse: ['reanalyze']
   }
 });
 
@@ -116,10 +163,31 @@ const githubToken = loadSecret({ name: 'GITHUB_TOKEN', fileEnv: 'GITHUB_TOKEN_FI
 const dockerToken = loadSecret({ name: 'DOCKER_TOKEN', fileEnv: 'DOCKER_TOKEN_FILE', argValue: argv.dockerToken });
 const includeTestFiles = Boolean(argv.includeTestFiles);
 
+// --reanalyse runs the chosen wallets' stored releases again; without
+// --app-id it would redo every wallet, so it is refused.
+if (argv.reanalyse && ![].concat(argv.appId || []).filter(Boolean).length) {
+  console.error('✗  --reanalyse needs --app-id <id>: it analyses every stored release of a wallet again');
+  process.exit(1);
+}
+
 if (!githubToken && !dockerToken) {
   console.error('No token provided: set GITHUB_TOKEN_FILE (or DOCKER_TOKEN_FILE), or pass --githubToken / --dockerToken');
   process.exit(1);
 }
+
+// A plugin configuration that cannot work (config.mjs PLUGINS) stops the run
+// here instead of failing every repository.
+try {
+  const plugins = await loadPlugins();
+  console.log(`Plugins: ${plugins.map(p => p.name).join(', ') || 'none'}`);
+} catch (error) {
+  console.error(`✗  ${error.message}`);
+  process.exit(1);
+}
+
+// One writer of the database and the export at a time (runLock.mjs): wait
+// for a running advisory refresh, and make the next one skip until this ends.
+await waitForLock(lockPathFor(DB_PATH));
 
 // Backup database before starting the process
 backupDatabase();
@@ -138,12 +206,36 @@ try {
   if (listSource === 'cache') {
     console.warn(`Warning: could not fetch the app list from ${source} (${error}); using the cached copy`);
   }
-  const { jobs: siteJobs, skipped } = groupByRepository(entries);
+  const { jobs: siteJobs, skipped, iosOnly } = groupByRepository(entries);
   for (const e of skipped) {
     console.warn(`Skipping ${e.appId} (${e.platform}): '${e.repository}' does not name a repository`);
   }
-  console.log(`App list: ${entries.length} records, ${siteJobs.length} repositories, ${skipped.length} skipped (from ${listSource})`);
-  jobs = [...siteJobs, ...APPS];
+  console.log(`App list: ${entries.length} records, ${siteJobs.length} repositories, ${skipped.length} skipped, ${iosOnly.length} iPhone-only repositories left out (from ${listSource})`);
+  // Only wallets some version of which was found reproducible (reproducible.mjs),
+  // gone ones included: a reproducible wallet pulled from a store can still ship
+  // elsewhere. SOURCE_ANALYSIS_SCOPE=all adds every repository that is not gone.
+  const { byApp, source: verdictSource, error: verdictError } = await loadReproducible(db).catch(error => {
+    if (SCOPE !== 'all') throw error;
+    return { byApp: new Map(), source: 'nowhere', error: error.message };
+  });
+  if (verdictSource !== 'relays') {
+    console.warn(`Warning: could not read the build verifications (${verdictError}); using the cached copy`);
+  }
+  for (const job of siteJobs) job.verified = verifiedVersionsOf(job, byApp);
+  const reproducible = siteJobs.filter(j => j.verified.length);
+  // A gone wallet leaves the scope GONE_EOL_YEARS after its last commit; an
+  // unreadable commit date keeps it in.
+  const eolBefore = Date.now() - GONE_EOL_YEARS * 365.25 * 24 * 3600 * 1000;
+  const endOfLife = [];
+  for (const job of reproducible.filter(j => j.gone)) {
+    const lastCommitAt = await remoteHeadDate(job.repoUrl);
+    if (lastCommitAt && lastCommitAt.getTime() < eolBefore) endOfLife.push({ appId: job.appId, lastCommitAt });
+  }
+  saveEndOfLife(db, endOfLife);
+  for (const e of endOfLife) console.log(`End of life: ${e.appId} is gone and its last commit is from ${e.lastCommitAt.toISOString().slice(0, 10)}`);
+  const inScope = reproducible.filter(j => !endOfLife.some(e => e.appId === j.appId));
+  console.log(`Scope: ${inScope.length} of ${siteJobs.length} repositories (${reproducible.length} have a reproducible version, ${endOfLife.length} of them gone and past their end of life; ${byApp.size} wallets verified, from ${verdictSource})${SCOPE === 'all' ? '; SOURCE_ANALYSIS_SCOPE=all analyses all of them' : ''}`);
+  jobs = [...(SCOPE === 'all' ? siteJobs.filter(j => !j.gone || inScope.includes(j)) : inScope), ...APPS];
 } catch (error) {
   console.error(`✗  ${error.message}`);
   db.close();
@@ -155,18 +247,45 @@ if (wantedIds.length) {
   jobs = jobs.filter(j => wantedIds.includes(j.appId) || (j.aliases || []).some(a => wantedIds.includes(a.appId)));
 }
 
-console.log(`Processing ${jobs.length} app(s)...\n`);
+// Leftovers of an interrupted pass (each repository's scratch dir is deleted
+// when its analysis ends; a kill mid-way leaves one behind).
+fs.rmSync(DEFAULT_TEMP_DIR, { recursive: true, force: true });
+
+console.log(`Processing ${jobs.length} app(s), ${CONCURRENCY} at a time...\n`);
+tagConsole();
+
+// Put an app's new analyses on its page as soon as they are stored, instead
+// of at the end of the pass. Only an app something was recorded for since
+// appStart; a failure is logged and left to the export that ends the pass.
+async function exportAndPublishApp(appId, appStart) {
+  try {
+    // A failed re-check that kept an ok row leaves analysed_at alone and dates only its note.
+    const recorded = db.prepare('SELECT COUNT(*) AS n FROM analyses WHERE app_id = ? AND (analysed_at >= ? OR failed_attempt_at >= ?)').get(appId, appStart, appStart).n;
+    if (!recorded) return;
+    const { exportApp } = await import('./export.mjs');
+    const { publishFiles } = await import('./publish.mjs');
+    const exported = exportApp(db, EXPORT_DIR, appId, { onlyReproducible: SCOPE !== 'all' });
+    if (!exported.exported) return;
+    const published = publishFiles(EXPORT_DIR, exported.files);
+    console.log(`  Exported ${exported.releases} releases${published.published ? ` and published them to ${published.target}` : ''}`);
+  } catch (error) {
+    console.warn(`  ⚠ Exporting or publishing this app failed (the end of the pass exports it again): ${error.message}`);
+  }
+}
 
 try {
   let successCount = 0;
   let errorCount = 0;
+  let missingCount = 0;
+  const passStart = db.prepare('SELECT CURRENT_TIMESTAMP AS t').get().t;
 
-  // Process each app
-  for (const app of jobs) {
+  // Process the apps, CONCURRENCY at a time (each in its own container and
+  // scratch dir); every log line of a job is tagged with its appId.
+  await runPool(jobs, CONCURRENCY, async (app) => {
     if (!app.appId || (!app.repoUrl && !app.dockerImage)) {
       console.error(`\n✗  Skipping invalid app configuration:`, app);
       errorCount++;
-      continue;
+      return;
     }
 
     try {
@@ -190,6 +309,12 @@ try {
         }
       }
       
+      // A wallet marked with reanalyse-cli.mjs (by its appId or an alias)
+      // runs as with --reanalyse; its mark goes once it finished.
+      const ids = [app.appId, ...(app.aliases || []).map(a => a.appId)];
+      const marked = reanalyseRequests(db).some(r => ids.includes(r.app_id));
+      if (marked) console.log(`  Marked for a rerun: analysing every stored release again`);
+      const appStart = db.prepare('SELECT CURRENT_TIMESTAMP AS t').get().t;
       await processApp(
         db,
         app.appId,
@@ -197,18 +322,110 @@ try {
         app.dockerImage || null,
         appGithubToken,
         effectiveDockerToken,
-        includeTestFiles
+        includeTestFiles,
+        app.verified || [],
+        Boolean(argv.reanalyse) || marked
       );
+      if (marked) clearReanalyse(db, ids, appStart);
       successCount++;
+      if (EXPORT_DIR) await exportAndPublishApp(app.appId, appStart);
     } catch (error) {
-      console.error(`\n✗  Failed to process ${app.appId}:`, error.message);
-      errorCount++;
-      // Continue with next app instead of stopping
+      // A repository GitHub reports as missing is a property of that wallet,
+      // not a failed pass. Anything else (5xx after retries, rate limit, a
+      // crash in one app) still fails the oneshot so the unit shows it.
+      if (typeof error.message === 'string' && error.message.startsWith('Repository not found:')) {
+        console.error(`\n✗  Repository missing, skipping ${app.appId}: ${error.message}`);
+        missingCount++;
+      } else {
+        console.error(`\n✗  Failed to process ${app.appId}:`, error.message);
+        errorCount++;
+      }
+    }
+  }, (app) => app.appId);
+
+  // Releases that were not analysed this pass get their stored dependencies
+  // looked up again, so a wallet that stopped releasing still learns about new advisories.
+  try {
+    const recheck = await recheckStoredReleases(db, jobs.filter(j => j.repoUrl).map(j => j.appId), { since: passStart });
+    console.log(`\nLooked up ${recheck.releases} stored releases again: ${recheck.added} new advisories${recheck.failed ? `, ${recheck.failed} lookups failed` : ''}`);
+    if (recheck.failed) errorCount++;
+  } catch (error) {
+    console.error('\n✗  Looking up the stored releases again failed:', error.message);
+    errorCount++;
+  }
+
+  // The dependency ladder (issue 992 part G): where each new package's source
+  // lives, whether its version has a tag there, and who else rebuilt it from
+  // source. Network only, nothing built; a bounded number of new versions per
+  // pass, the rest the next pass. A failure leaves the panel's last results.
+  if (process.env.SOURCE_ANALYSIS_LADDER !== 'off') {
+    try {
+      const { resolveAll } = await import('./source-repos-cli.mjs');
+      const { checkIdentities } = await import('./identity-cli.mjs');
+      const { importRebuildClaims, syncReproducibleCentral } = await import('./rebuildClaims.mjs');
+      const repos = await resolveAll(db, { limit: IDENTITY_PER_PASS });
+      const ids = await checkIdentities(db, { limit: IDENTITY_PER_PASS });
+      let rcDir = null;
+      try { rcDir = syncReproducibleCentral(RC_DIR); } catch (error) { console.warn(`Reproducible Central: ${error.message.split('\n')[0]}`); }
+      const claims = await importRebuildClaims(db, { rcDir });
+      console.log(`Dependency ladder: ${repos.resolved} new source repositories, ${ids.versions} versions checked for a tag (${ids.byStatus['tag-found'] || 0} found), rebuild claims for ${claims.ossNames} packages asked (${claims.ossClaims} from OSS Rebuild, ${claims.rcClaims} from Reproducible Central)${claims.failed ? `, ${claims.failed} lookups failed` : ''}`);
+    } catch (error) {
+      console.warn('Dependency ladder:', error.message);
     }
   }
 
+  // Scratch dirs are deleted per repository; the shared package caches only
+  // when they outgrow their cap.
+  fs.rmSync(DEFAULT_TEMP_DIR, { recursive: true, force: true });
+  pruneCache();
+
+  if (EXPORT_DIR) {
+    try {
+      // Release days for tags without dated GitHub release files; a failed lookup is retried next pass
+      const { fillReleaseDates } = await import('./releaseDates.mjs');
+      const d = await fillReleaseDates(db, { githubToken });
+      if (d.looked) console.log(`Release dates: ${d.dated} of ${d.looked} tags dated${d.failed ? `, ${d.failed} lookups failed` : ''}`);
+    } catch (error) {
+      console.warn('Release dates:', error.message);
+    }
+    try {
+      const { exportAll } = await import('./export.mjs');
+      const { apps, releases, dir, unlisted } = exportAll(db, EXPORT_DIR, { onlyReproducible: SCOPE !== 'all' });
+      console.log(`\nExported ${apps} apps, ${releases} releases to ${dir}`);
+      for (const [appId, files] of Object.entries(unlisted)) console.log(`Counted as shared until checked (products.mjs): ${appId}: ${files.join(', ')}`);
+      if (process.env.SOURCE_ANALYSIS_SIGNALS !== 'off') {
+        // EPSS, CISA's exploited list, publication dates; a failing feed only leaves its part out
+        const { buildSignals } = await import('./signals.mjs');
+        const s = await buildSignals({ exportDir: EXPORT_DIR });
+        console.log(`Advisory signals: ${s.cves} CVEs, EPSS for ${s.epss}, ${s.kev} on CISA's exploited list, publication date for ${s.published} advisories${s.written ? '' : ', nothing written'}`);
+      }
+      // The /news/ page: advisories of the last 14 days and the wallets they hit
+      const { buildNews } = await import('./news.mjs');
+      const n = buildNews({ exportDir: EXPORT_DIR });
+      console.log(n.written ? `News: ${n.advisories} advisories of the last 14 days in ${n.wallets} wallets` : 'News: no publication dates, nothing written');
+    } catch (error) {
+      console.error(`\n✗  Export to ${EXPORT_DIR} failed:`, error.message);
+      errorCount++;
+    }
+    try {
+      const { publishExport, markerPathFor, writeMarker, newestExportFile } = await import('./publish.mjs');
+      const published = publishExport(EXPORT_DIR);
+      if (published.published) {
+        console.log(`Published the export to ${published.target}`);
+        // All of it is on the web host now; the hourly refresh resends from here (issue 997)
+        writeMarker(markerPathFor(EXPORT_DIR), newestExportFile(EXPORT_DIR));
+      }
+    } catch (error) {
+      console.error('\n✗  Publishing the export failed:', error.message);
+      errorCount++;
+    }
+  }
+
+  const missingPart = missingCount === 0
+    ? ''
+    : `, ${missingCount} ${missingCount === 1 ? 'repository' : 'repositories'} not found`;
   console.log(`\n${'='.repeat(50)}`);
-  console.log(`Summary: ${successCount} succeeded, ${errorCount} failed`);
+  console.log(`Summary: ${successCount} succeeded, ${errorCount} failed${missingPart}`);
   console.log(`${'='.repeat(50)}`);
 
   if (errorCount > 0) {

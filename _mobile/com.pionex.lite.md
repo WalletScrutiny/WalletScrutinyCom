@@ -1,7 +1,6 @@
 ---
-wsId: PionexLite
 title: Pionex - Buy Bitcoin & Ethereum
-date: 2024-10-07
+date: 2026-10-30
 authors:
 - danny
 website: https://www.pionex.sg/blog#deadLink
@@ -16,7 +15,6 @@ android:
   updated: 2021-12-17
   version: 1.1.9
   reviews: 16
-  icon: com.pionex.lite.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -24,10 +22,9 @@ iphone:
   idd: 1567213944
   appCountry: us
   released: 2021-05-22
-  updated: 2026-09-23
-  version: 2.2.4
-  reviews: 1213
-  icon: com.pionex.lite.appstore.webp
+  updated: 2026-09-30
+  version: 2.2.5
+  reviews: 1215
   meta: ok
   verdict: custodial
   developerName: PIONEX PTE. LTD.
@@ -98,4 +95,4 @@ This app is **custodial** and **not verifiable.**
 
 **Update 2022-03-17**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

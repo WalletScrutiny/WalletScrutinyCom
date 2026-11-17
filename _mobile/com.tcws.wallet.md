@@ -1,6 +1,6 @@
 ---
 title: TCWS WALLET
-date: 2023-01-02
+date: 2026-10-30
 website: http://www.tcws.io#deadLink
 redirect_from:
 - /android/com.tcws.wallet/
@@ -10,7 +10,6 @@ android:
   released: 2019-10-15
   updated: 2019-10-15
   version: '2.1'
-  icon: com.tcws.wallet.webp
   meta: removed
   verdict: wip
 

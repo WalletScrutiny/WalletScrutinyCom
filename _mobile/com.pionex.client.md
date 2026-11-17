@@ -1,7 +1,6 @@
 ---
-wsId: pionex
 title: Pionex - Crypto Trading Bot
-date: 2021-09-03
+date: 2026-10-30
 authors:
 - danny
 website: https://www.pionex.com
@@ -13,10 +12,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-11-18
-  updated: 2026-09-29
-  version: 3.2.8.1
+  updated: 2026-10-13
+  version: 3.2.8.3
   reviews: 558
-  icon: com.pionex.client.webp
   meta: ok
   verdict: custodial
   developerName: Pionex
@@ -28,7 +26,6 @@ iphone:
   updated: 2024-11-06
   version: 3.0.7
   reviews: 61
-  icon: org.pionex.webp
   meta: removed
   verdict: custodial
   developerName: Bituniverse
@@ -73,4 +70,4 @@ We signed up to verify and like most exchanges, it is a custodial service
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

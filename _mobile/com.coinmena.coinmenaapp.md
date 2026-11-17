@@ -1,7 +1,6 @@
 ---
-wsId: CoinMENA
 title: 'CoinMENA: Buy Bitcoin Now'
-date: 2021-11-10
+date: 2026-10-30
 authors:
 - danny
 website: http://coinmena.com
@@ -21,7 +20,6 @@ android:
   updated: 2026-09-06
   version: 3.8.1
   reviews: 54
-  icon: com.coinmena.coinmenaapp.webp
   meta: ok
   verdict: custodial
   developerName: CoinMENA
@@ -33,7 +31,6 @@ iphone:
   updated: 2026-09-07
   version: 3.8.1
   reviews: 23
-  icon: com.coinmena.coinmenaapp.webp
   meta: ok
   verdict: custodial
   developerName: CoinMENA
@@ -41,6 +38,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** [Paribu acquired CoinMENA](https://www.prnewswire.co.uk/news-releases/paribu-has-acquired-coinmena-menas-largest-local-crypto-exchange-in-a-transaction-valued-at-up-to-usd-240-million-302633561.html) in December 2025.
 
 ## App Description
 
@@ -73,4 +72,4 @@ This **custodial** service signifies that the app **cannot be verified**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

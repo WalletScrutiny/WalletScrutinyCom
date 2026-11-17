@@ -1,7 +1,6 @@
 ---
-wsId: maxbitTH
 title: 'Maxbit: Buy Bitcoin & Crypto'
-date: 2025-11-19
+date: 2026-10-30
 authors:
 - danny
 website: https://www.maxbit.com
@@ -14,9 +13,8 @@ android:
   users: 100000
   appCountry: us
   released: 2024-09-24
-  updated: 2026-09-07
-  version: 1.42.4
-  icon: com.maxbit.app.webp
+  updated: 2026-10-09
+  version: 1.43.0
   meta: ok
   verdict: custodial
   developerName: MAXBIT DIGITAL ASSET COMPANY LIMITED
@@ -25,10 +23,9 @@ iphone:
   idd: '1609576357'
   appCountry: th
   released: 2023-12-13
-  updated: 2026-09-08
-  version: 1.42.4
-  reviews: 415
-  icon: com.maxbit.app.webp
+  updated: 2026-10-09
+  version: v1.43.0
+  reviews: 433
   meta: ok
   verdict: custodial
   developerName: Maxbit Digital Asset Company Limited
@@ -53,4 +50,4 @@ This is a **custodial** platform.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

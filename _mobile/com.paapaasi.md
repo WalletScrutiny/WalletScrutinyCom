@@ -1,7 +1,7 @@
 ---
 title: Paapaasi
-date: 2024-03-02
-website: https://paapaasi.com
+date: 2026-10-30
+website: https://paapaasi.com#deadLink
 redirect_from:
 - /android/com.paapaasi/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-08-24
   updated: 2021-09-15
   version: '1.0'
-  icon: com.paapaasi.webp
   meta: removed
   verdict: wip
   developerName: Paapaasi Ltd

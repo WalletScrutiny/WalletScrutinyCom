@@ -10,7 +10,7 @@
     {% when "bearer" %}
       {% assign name = "" %}
     {% when "desktop" %}
-      {% assign name = "Desktop" %}
+      {% assign name = "Desktop & Server" %}
   {% endcase %}
 {% else %}
   {% if folder == 'iphone' %}
@@ -19,6 +19,8 @@
     {% assign name = 'Mobile' %}
   {% elsif folder == 'macos' %}
     {% assign name = 'macOS' %}
+  {% elsif folder == 'desktop' %}
+    {% assign name = 'Desktop & Server' %}
   {% else %}
     {% assign name = folder | capitalize %}
   {% endif %}

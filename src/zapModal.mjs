@@ -1,3 +1,5 @@
+import { hasExtension } from './opinions/auth.mjs';
+
 let qrcodePromise;
 
 function getQRCode() {
@@ -299,5 +301,33 @@ function showZapModal({ onClose, setZapped, zapEvent } = {}) {
   }
 }
 
-export { showZapModal };
+const NO_EXTENSION_TITLE = 'Zapping needs a Nostr browser extension (NIP-07) to sign the zap';
+const NO_LN_ADDRESS_TITLE = "The user doesn't have a nostr profile or a LN address to receive sats";
+
+/**
+ * Reveals a zap button once it is known whether it can be used: the recipient
+ * needs a Lightning address and the visitor a Nostr extension, which signs the
+ * zap request. Otherwise the button is disabled with the reason as its title,
+ * and _verifications.scss hides a disabled zap button on mobile. Resolves to
+ * whether it is enabled.
+ */
+async function setupZapButton(zapBtn, profile, enabledTitle) {
+  if (!zapBtn) {
+    return false;
+  }
+  const canReceive = Boolean(profile && (profile.lud16 || profile.lud06));
+  const enabled = canReceive && await hasExtension();
+  zapBtn.disabled = !enabled;
+  if (enabled) {
+    zapBtn.title = enabledTitle;
+  } else {
+    zapBtn.title = canReceive ? NO_EXTENSION_TITLE : NO_LN_ADDRESS_TITLE;
+  }
+  zapBtn.hidden = false;
+  zapBtn.style.display = '';
+  return enabled;
+}
+
+export { showZapModal, setupZapButton };
 window.showZapModal = showZapModal;
+window.setupZapButton = setupZapButton;

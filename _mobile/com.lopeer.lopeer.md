@@ -1,6 +1,6 @@
 ---
 title: Lopeer - Borderless Banking
-date: 2024-09-25
+date: 2026-10-30
 authors:
 - danny
 website: https://www.lopeer.com
@@ -16,7 +16,6 @@ android:
   released: 2022-08-13
   updated: 2023-12-05
   version: 2.2.7
-  icon: com.lopeer.lopeer.webp
   meta: removed
   verdict: custodial
   developerName: Librium

@@ -1,7 +1,6 @@
 ---
-wsId: bitberry
 title: Bitberry - Safe crypto Wallet
-date: 2025-02-26
+date: 2026-10-30
 authors:
 - danny
 website: https://rootone.com#deadLink
@@ -16,7 +15,6 @@ android:
   updated: 2024-01-19
   version: 1.5.3
   reviews: 9
-  icon: com.rootone.wallet.webp
   meta: removed
   verdict: custodial
   developerName: (주)루트원소프트
@@ -27,7 +25,6 @@ iphone:
   updated: 2023-02-01
   version: 1.4.2
   reviews: 7
-  icon: com.rootone.bitberry.webp
   meta: removed
   verdict: custodial
   developerName: RootOne
@@ -58,4 +55,4 @@ This app is custodial and therefore **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

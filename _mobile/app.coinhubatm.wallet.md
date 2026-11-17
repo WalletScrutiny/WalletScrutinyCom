@@ -1,7 +1,6 @@
 ---
-wsId: coinhubWallet
 title: Coinhub Bitcoin Wallet
-date: 2026-02-02
+date: 2026-10-30
 authors:
 - danny
 website: https://coinhubatm.com/
@@ -11,7 +10,6 @@ social:
 - https://www.instagram.com/coinhubusa
 - https://www.facebook.com/coinhubusa
 - https://www.youtube.com/channel/UCPxfH3hg9CSd7BtCGcalyRg
-- https://coinhubatm.com
 redirect_from:
 - /android/app.coinhubatm.wallet/
 - /iphone/app.coinhubatm.wallet/
@@ -23,7 +21,6 @@ android:
   updated: 2026-07-28
   version: 4.50.0
   reviews: 17
-  icon: app.coinhubatm.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Coinhub Bitcoin Wallet
@@ -34,8 +31,7 @@ iphone:
   released: 2023-03-14
   updated: 2026-09-08
   version: 4.50.0
-  reviews: 15
-  icon: app.coinhubatm.wallet.webp
+  reviews: 18
   meta: ok
   verdict: nosource
   developerName: CHB Holdings LLC
@@ -114,4 +110,4 @@ This app is **not source-available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

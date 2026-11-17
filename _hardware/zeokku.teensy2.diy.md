@@ -20,11 +20,10 @@ shop:
 country: 
 price: 
 repository: https://github.com/zeokku/arduino-hardware-wallet
-icon: zeokku.teensy2.diy.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2026-02-27
+date: 2026-10-30
 signer: 
 twitter: zeokku
 social: 

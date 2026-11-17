@@ -1,7 +1,6 @@
 ---
-wsId: plugCrypto
 title: Plug - Crypto Wallet
-date: 2026-01-15
+date: 2026-10-30
 authors:
 - danny
 website: https://plugwallet.ooo
@@ -23,7 +22,6 @@ android:
   updated: 2026-08-03
   version: 2.9.1
   reviews: 17
-  icon: co.psychedelic.plug.webp
   meta: ok
   verdict: custodial
   developerName: Funded Labs
@@ -35,7 +33,6 @@ iphone:
   updated: 2026-08-26
   version: 2.9.1
   reviews: 36
-  icon: co.psychedelic.plug.webp
   meta: ok
   verdict: custodial
   developerName: Crowd IC Ltd
@@ -62,7 +59,7 @@ Thus, we cannot claim true self-custody and have to give a **custodial** assessm
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Swap across chains directly in-app" source="Store" %}
 

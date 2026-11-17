@@ -1,7 +1,6 @@
 ---
-wsId: webAuthProton
 title: WebAuth
-date: 2023-07-06
+date: 2026-10-30
 authors:
 - danny
 website: https://webauth.com/
@@ -21,8 +20,7 @@ android:
   released: 2021-12-11
   updated: 2026-09-15
   version: 2.1.66
-  reviews: 93
-  icon: com.metallicus.webauth.webp
+  reviews: 94
   meta: ok
   verdict: nosource
   developerName: Metallicus Inc.
@@ -33,8 +31,7 @@ iphone:
   released: 2021-12-15
   updated: 2026-09-16
   version: 2.1.66
-  reviews: 222
-  icon: com.metallicus.webauth.webp
+  reviews: 221
   meta: ok
   verdict: nosource
   developerName: Metallicus, Inc.
@@ -73,4 +70,4 @@ No changes in the availability of the source is found. This app is still **not s
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

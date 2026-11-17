@@ -1,6 +1,6 @@
 ---
 title: Tatacoa Wallet
-date: 2023-12-19
+date: 2026-10-30
 website: https://www.tatacoabitcoin.com/
 redirect_from:
 - /android/com.tatacoabitcoin.wallet/
@@ -10,7 +10,6 @@ android:
   released: 2022-06-29
   updated: 2023-08-17
   version: 1.6.2
-  icon: com.tatacoabitcoin.wallet.webp
   meta: removed
   verdict: wip
   developerName: CitizenFour

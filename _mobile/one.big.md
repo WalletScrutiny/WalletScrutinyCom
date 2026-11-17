@@ -1,7 +1,6 @@
 ---
-wsId: BigONE
 title: BigONE - Bitcoin Trading
-date: 2021-09-17
+date: 2026-10-30
 authors:
 - danny
 website: https://www.b1.zone/
@@ -18,10 +17,9 @@ android:
   users: 100000
   appCountry: us
   released: 2019-10-30
-  updated: 2026-09-18
-  version: 2.6.8
+  updated: 2026-10-01
+  version: 2.6.810
   reviews: 55
-  icon: one.big.webp
   meta: ok
   verdict: custodial
   developerName: BigONE
@@ -30,10 +28,9 @@ iphone:
   idd: '1485385044'
   appCountry: us
   released: 2019-11-06
-  updated: 2026-09-20
-  version: 2.6.800
+  updated: 2026-10-02
+  version: 2.6.810
   reviews: 112
-  icon: base.big.one.webp
   meta: ok
   verdict: custodial
   developerName: BigONE Investment Corporation
@@ -61,4 +58,4 @@ It seems that keys are not on the side of the user. Thus this product is **custo
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

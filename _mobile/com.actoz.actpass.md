@@ -1,12 +1,9 @@
 ---
-wsId: actpass
 title: ActPass Wallet
-date: 2023-11-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.actpass.com
-social:
-- https://www.actpass.com
 redirect_from:
 - /android/com.actoz.actpass/
 - /iphone/com.actoz.actpass/
@@ -18,8 +15,7 @@ android:
   updated: 2025-10-15
   version: 2.2.2
   reviews: 1
-  icon: com.actoz.actpass.webp
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: ArtalGamesCasual
 iphone:
@@ -30,7 +26,6 @@ iphone:
   updated: 2023-10-20
   version: 1.3.0
   reviews: 1
-  icon: com.actoz.actpass.webp
   meta: removed
   verdict: custodial
   developerName: Davox Technology AG
@@ -59,4 +54,6 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+**Update 2026-10-30:** This iPhone app is no longer in the App Store. The same group now publishes {% include walletLink.html wallet='iphone/com.actoz.tech' verdict='true' %}, by Artal Internet FZ-LLC.
+
+The Android analysis above applies to the iPhone app too.

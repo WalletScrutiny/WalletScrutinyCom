@@ -1,7 +1,6 @@
 ---
-wsId: Ledn
 title: Ledn
-date: 2023-08-25
+date: 2026-10-30
 authors:
 - danny
 website: https://ledn.io
@@ -20,7 +19,6 @@ android:
   updated: 2023-08-24
   version: 0.8.6
   reviews: 12
-  icon: io.ledn.app.webp
   meta: obsolete
   verdict: custodial
   developerName: Ledn
@@ -32,7 +30,6 @@ iphone:
   updated: 2023-03-26
   version: 0.8.5
   reviews: 14
-  icon: io.ledn.app.webp
   meta: removed
   verdict: custodial
   developerName: Ledn Inc.
@@ -77,4 +74,4 @@ The app allows users to deposit, withdraw, save and borrow against bitcoin. It f
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

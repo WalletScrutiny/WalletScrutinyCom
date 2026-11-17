@@ -1,6 +1,6 @@
 ---
 title: 'Cryptopocket - Multi Currency '
-date: 2023-05-06
+date: 2026-10-30
 authors:
 - danny
 website: http://www.cryptopocket.info#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2018-11-13
   updated: 2019-09-16
   version: 1.2.8
-  icon: app.org.cryptopocket.webp
   meta: removed
   verdict: wip
   developerName: Cryptopocket Solutions

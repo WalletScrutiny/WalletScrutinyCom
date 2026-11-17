@@ -1,7 +1,6 @@
 ---
-wsId: deltaExchange
 title: 'Delta Exchange: Crypto Options'
-date: 2025-11-14
+date: 2026-10-30
 authors:
 - danny
 website: https://india.delta.exchange
@@ -13,10 +12,9 @@ android:
   appId: com.deltaexchangeindia
   users: 5000000
   appCountry: us
-  updated: 2026-09-29
-  version: 2.29.10
+  updated: 2026-10-13
+  version: 2.31.0
   reviews: 1
-  icon: com.deltaexchangeindia.webp
   meta: ok
   verdict: custodial
   developerName: Delta Exchange India
@@ -25,10 +23,9 @@ iphone:
   idd: '6478332344'
   appCountry: in
   released: 2024-08-16
-  updated: 2026-09-30
-  version: 2.29.8
-  reviews: 23291
-  icon: app.deltaexchange.india.webp
+  updated: 2026-10-14
+  version: 2.31.2
+  reviews: 23698
   meta: ok
   verdict: custodial
   developerName: Delta Exchange India
@@ -57,4 +54,4 @@ This is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

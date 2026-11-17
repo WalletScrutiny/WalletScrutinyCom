@@ -1,7 +1,6 @@
 ---
-wsId: coinRepublic
 title: 'CoinRepublic: Buy BTC Crypto'
-date: 2023-05-17
+date: 2026-10-30
 authors:
 - danny
 website: https://www.coinrepublic.com.au/
@@ -15,7 +14,6 @@ android:
   released: 2020-12-02
   updated: 2026-06-11
   version: 4.1.4
-  icon: com.coinrepublic.app.webp
   meta: ok
   verdict: custodial
   developerName: Coin Republic Pty Ltd
@@ -27,7 +25,6 @@ iphone:
   updated: 2026-03-11
   version: 4.1.2
   reviews: 6
-  icon: com.coinrepublic.app.webp
   meta: removed
   verdict: custodial
   developerName: COIN REPUBLIC PTY LTD
@@ -52,4 +49,4 @@ As stated, this app is **custodial**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: garantiBBVAKripto
 title: Garanti BBVA Kripto
-date: 2026-01-23
+date: 2026-10-30
 authors:
 - danny
 website: https://www.garantibbvakripto.com.tr
@@ -15,10 +14,9 @@ android:
   users: 500000
   appCountry: us
   released: 2023-12-11
-  updated: 2026-09-03
-  version: 1.18.0
+  updated: 2026-10-01
+  version: 1.19.0
   reviews: 3
-  icon: com.garantibbvadigitalassets.crypto.webp
   meta: ok
   verdict: custodial
   developerName: Garanti BBVA Kripto Varlık Alım Satım Platformu AŞ
@@ -27,10 +25,9 @@ iphone:
   idd: '521117624'
   appCountry: us
   released: 2012-04-28
-  updated: 2026-09-07
-  version: '19.4'
-  reviews: 15427
-  icon: com.garanti.cepsube.webp
+  updated: 2026-10-01
+  version: '19.5'
+  reviews: 15615
   meta: ok
   verdict: custodial
   developerName: T. Garanti Bankasi A.S.
@@ -67,4 +64,4 @@ This is a centralized Turkish exchange, and the use of cold storage implies that
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

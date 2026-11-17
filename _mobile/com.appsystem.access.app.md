@@ -1,6 +1,6 @@
 ---
 title: Access
-date: 2024-03-02
+date: 2026-10-30
 website: https://m.facebook.com/Access-100628795474693/?_rdr
 redirect_from:
 - /android/com.appsystem.access.app/
@@ -10,7 +10,6 @@ android:
   released: 2021-04-05
   updated: 2021-06-08
   version: 1.1.1
-  icon: com.appsystem.access.app.webp
   meta: removed
   verdict: wip
   developerName: ALL ROAD SYSTEM MANAGEMENT PRIVATE LIMITED

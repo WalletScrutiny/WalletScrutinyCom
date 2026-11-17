@@ -1,7 +1,6 @@
 ---
-wsId: coinmetro
 title: 'Coinmetro: Buy BTC ETH SOL XRP'
-date: 2021-10-04
+date: 2026-10-30
 authors:
 - danny
 website: https://coinmetro.com/
@@ -21,7 +20,6 @@ android:
   updated: 2026-09-07
   version: 5.55.25
   reviews: 90
-  icon: app.coinmetro.webp
   meta: ok
   verdict: custodial
   developerName: Coinmetro OU
@@ -32,13 +30,16 @@ iphone:
   released: 2018-07-25
   updated: 2026-09-08
   version: 5.55.25
-  reviews: 369
-  icon: app.coinmetro.webp
+  reviews: 370
   meta: ok
   verdict: custodial
   developerName: CoinMetro OU
 
 ---
+
+**⚠️ Warning:** Coinmetro OÜ [suspended registrations, deposits, withdrawals and trading on June 22, 2026](https://www.coinmetro.com/blog/announcement-onboarding-depositing-and-withdrawals) and applied for reorganisation in an Estonian court. Balances remain frozen.
+
+**Update 2026-10-30:** Both apps use the same frozen Coinmetro accounts. Its [reorganization hub](https://www.coinmetro.com/reorganization-status-and-information) said on September 25, 2026 that "deposits, withdrawals, trading and onboarding are still paused, and balances are still frozen".
 
 ## Android
 
@@ -85,4 +86,4 @@ Coinmetro is a **custodial** service and **not verifiable**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: CoinCircle
 title: CoinCircle
-date: 2024-01-16
+date: 2026-10-30
 authors:
 - danny
 website: https://coincircle.com
@@ -21,7 +20,6 @@ android:
   updated: 2024-02-29
   version: 1.3.3.10300
   reviews: 245
-  icon: com.coincircle.webp
   meta: obsolete
   verdict: nosource
   developerName: CoinCircle, Inc.
@@ -33,7 +31,6 @@ iphone:
   updated: 2022-01-21
   version: 1.1.1
   reviews: 630
-  icon: com.coincircle.app.webp
   meta: obsolete
   verdict: nosource
   developerName: Coincircle, Inc
@@ -74,4 +71,4 @@ While this claims to be a **non-custodial** wallet, we have no source to verify 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

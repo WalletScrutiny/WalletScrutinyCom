@@ -1,7 +1,6 @@
 ---
-wsId: bitlo
 title: 'Bitlo: Bitcoin & Crypto'
-date: 2023-02-08
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitlo.com/
@@ -16,10 +15,9 @@ android:
   users: 100000
   appCountry: TR
   released: 2020-12-18
-  updated: 2026-09-08
-  version: 2.1.59
-  reviews: 2575
-  icon: com.bitlo.bitloandroid.webp
+  updated: 2026-10-07
+  version: 2.1.60
+  reviews: 2578
   meta: ok
   verdict: custodial
   developerName: Bitlo Teknoloji A.Ş.
@@ -28,10 +26,9 @@ iphone:
   idd: '1544492069'
   appCountry: tr
   released: 2020-12-28
-  updated: 2026-09-09
-  version: 2.1.59
-  reviews: 4170
-  icon: com.bitlo.webp
+  updated: 2026-10-07
+  version: 2.1.60
+  reviews: 4178
   meta: ok
   verdict: custodial
   developerName: Bitlo Kripto Varlik Alim Satim Platformu Anonim Sirketi
@@ -54,4 +51,4 @@ As a cryptocurrency exchange that stores coins in cold storage on behalf of cust
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

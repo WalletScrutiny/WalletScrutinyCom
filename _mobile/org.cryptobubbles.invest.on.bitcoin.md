@@ -1,6 +1,6 @@
 ---
 title: Invest On Bitcoin
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/org.cryptobubbles.invest.on.bitcoin/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-07-17
   updated: 2021-07-18
   version: '1.0'
-  icon: org.cryptobubbles.invest.on.bitcoin.webp
   meta: removed
   verdict: wip
 

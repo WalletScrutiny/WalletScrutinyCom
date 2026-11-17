@@ -1,10 +1,9 @@
 ---
-wsId: indieSquare
 title: IndieSquare Wallet
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
-website: https://wallet.indiesquare.me
+website: https://web.archive.org/web/20230324164352/https://wallet.indiesquare.me/
 twitter: Indie_Square
 social:
 - https://www.facebook.com/indiesquare.me
@@ -19,7 +18,6 @@ android:
   updated: 2019-06-14
   version: 2.5.4
   reviews: 31
-  icon: inc.lireneosoft.counterparty.webp
   meta: removed
   verdict: nosource
   developerName: IndieSquare Inc.
@@ -31,13 +29,14 @@ iphone:
   updated: 2021-08-17
   version: '1.255'
   reviews: 1
-  icon: inc.lireneosoft.counterparty.webp
   meta: removed
   verdict: nosource
   developerName: IndieSquare Inc.
   repository: https://github.com/IndieSquare/indiesquare-wallet
 
 ---
+
+**Update 2026-10-30:** The wallet's website is gone; the [last archived copy](https://web.archive.org/web/20230324164352/https://wallet.indiesquare.me/) is from March 2023. IndieSquare itself now [builds tokenization tools for businesses](https://indiesquare.co.jp/), and the wallet is on neither store.
 
 ## Android
 
@@ -69,6 +68,6 @@ We can still say that this app has **not adequately provided verifiable source c
 
 ## iPhone
 
-{**Update 2022-10-21**: This app is not available anymore.
+**Update 2022-10-21**: This app is not available anymore.
 
-% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

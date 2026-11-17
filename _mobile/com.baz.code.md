@@ -1,6 +1,6 @@
 ---
 title: BAZ
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/com.baz.code/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-06-23
   updated: 2022-09-28
   version: 3.1.1
-  icon: com.baz.code.webp
   meta: removed
   verdict: wip
   developerName: bitcoinyouth

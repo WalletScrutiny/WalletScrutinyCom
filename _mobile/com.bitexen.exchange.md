@@ -1,7 +1,6 @@
 ---
-wsId: Bitexen
 title: Bitexen - Bitcoin and Altcoins
-date: 2023-02-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitexen.com
@@ -17,10 +16,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2018-05-27
-  updated: 2026-08-07
+  updated: 2026-10-08
   version: '1.42'
   reviews: 45
-  icon: com.bitexen.exchange.webp
   meta: ok
   verdict: custodial
   developerName: Bitexen Teknoloji A.Ş.
@@ -31,7 +29,6 @@ iphone:
   updated: 2022-12-23
   version: '0.68'
   reviews: 5
-  icon: com.Bitexen.ExchangeApp.webp
   meta: removed
   verdict: custodial
 
@@ -96,4 +93,4 @@ Though its assumed social media accounts seem to be active as of 2021-08-19. The
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

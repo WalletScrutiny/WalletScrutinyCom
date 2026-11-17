@@ -1,7 +1,6 @@
 ---
-wsId: coinpayapp
 title: 'Coinpay: Buy & Send Bitcoin Fa'
-date: 2023-01-11
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -17,7 +16,6 @@ android:
   updated: 2020-08-23
   version: 1.0.7
   reviews: 15
-  icon: com.coinpay.webp
   meta: removed
   verdict: nosource
   developerName: Coinpay LLC
@@ -28,7 +26,6 @@ iphone:
   updated: 2021-10-21
   version: 2021.10.19
   reviews: 110
-  icon: com.coinpayapp.CoinPay.webp
   meta: removed
   verdict: nosource
 
@@ -53,4 +50,4 @@ Play description. This app is closed source and thus **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

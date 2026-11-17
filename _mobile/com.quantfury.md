@@ -1,7 +1,6 @@
 ---
-wsId: quantfury
 title: 'Quantfury: Trading & Investing'
-date: 2021-11-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.quantfury.com/
@@ -14,10 +13,9 @@ android:
   users: 1000000
   appCountry: gb
   released: 2018-11-26
-  updated: 2026-09-24
-  version: v1.98.0.26425
+  updated: 2026-09-28
+  version: v1.98.2.26436
   reviews: 23
-  icon: com.quantfury.webp
   meta: ok
   verdict: custodial
   developerName: Quantfury Trading Limited
@@ -26,10 +24,9 @@ iphone:
   idd: 1445564443
   appCountry: br
   released: 2018-12-15
-  updated: 2026-09-25
-  version: 1.98.0
-  reviews: 83
-  icon: com.quantfury.webp
+  updated: 2026-10-01
+  version: 1.98.1
+  reviews: 85
   meta: ok
   verdict: custodial
   developerName: Quantfury Ltd
@@ -37,6 +34,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The terms PDF and support pages quoted below no longer load. The help center now describes [funding a Cash Account from an external wallet](https://help.quantfury.com/en/articles/6619537-how-to-fund-cash-account) and [withdrawing to an external wallet](https://help.quantfury.com/en/articles/6619557-withdraw-funds-from-spot-wallet).
 
 Description from the site: 
 
@@ -79,4 +78,4 @@ This app is **custodial** ergo, the app **cannot be verified**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

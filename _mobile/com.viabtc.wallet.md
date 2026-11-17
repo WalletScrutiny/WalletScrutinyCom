@@ -1,7 +1,6 @@
 ---
-wsId: ViaWallet
 title: CoinEx Wallet - Crypto & DeFi
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -23,10 +22,9 @@ android:
   users: 100000
   appCountry: us
   released: 2019-05-15
-  updated: 2026-09-18
-  version: 4.24.2
-  reviews: 62
-  icon: com.viabtc.wallet.webp
+  updated: 2026-10-13
+  version: 4.25.0
+  reviews: 63
   meta: ok
   verdict: nosource
   developerName: ViaBTC
@@ -35,10 +33,9 @@ iphone:
   idd: 1462031389
   appCountry: us
   released: 2019-05-21
-  updated: 2026-09-17
-  version: 4.24.0
+  updated: 2026-10-14
+  version: 4.25.0
   reviews: 54
-  icon: com.viabtc.ViaWallet.webp
   meta: ok
   verdict: nosource
   developerName: Viabtc Technology Limited
@@ -46,6 +43,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** ViaWallet is now called CoinEx Wallet, and viawallet.com redirects to [wallet.coinex.com](https://wallet.coinex.com/en/).
 
 ## Update 2024-07-13
 
@@ -78,7 +77,7 @@ verdict: **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Cross-chain swap · No need to transfer between wallet and exchange. · Using CoinEx Wallet to exchange cryptos conveniently." source="Store" %}
 

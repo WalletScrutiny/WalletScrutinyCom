@@ -1,7 +1,6 @@
 ---
-wsId: cryptoXpress
 title: 'CryptoXpress: Crypto Super App'
-date: 2023-04-21
+date: 2026-10-30
 authors:
 - danny
 website: https://cryptoxpress.com
@@ -18,7 +17,6 @@ android:
   released: 2021-09-20
   updated: 2026-02-04
   version: 1.40.37
-  icon: com.cryptoxpressmobile.webp
   meta: ok
   verdict: custodial
   developerName: CryptoXpress
@@ -30,12 +28,13 @@ iphone:
   updated: 2026-02-12
   version: 1.0.43
   reviews: 22
-  icon: com.cryptoxpress.mobile.webp
   meta: ok
   verdict: custodial
   developerName: cryptoxpress
 
 ---
+
+**Update 2026-10-30:** The store descriptions now also promise "CryptoXpress decentralized wallets" in which you "retain custody of your own assets"; the [2023 Play listing](https://web.archive.org/web/20230529121347/https://play.google.com/store/apps/details?id=com.cryptoxpressmobile) did not mention them. We did not test whether they hold Bitcoin.
 
 ## Android
 
@@ -74,4 +73,4 @@ We've also mailed them to verify whether unlocking KYC will give access to a Bit
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,6 +1,6 @@
 ---
 title: Swift Finance Solutions
-date: 2023-01-02
+date: 2026-10-30
 website: https://swiftfinancesolutions.com#deadLink
 redirect_from:
 - /android/com.swift.finance.solutions/
@@ -10,7 +10,6 @@ android:
   released: 2022-04-26
   updated: 2022-10-29
   version: 1.0.2
-  icon: com.swift.finance.solutions.webp
   meta: removed
   verdict: wip
 

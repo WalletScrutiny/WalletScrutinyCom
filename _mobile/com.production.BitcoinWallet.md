@@ -1,6 +1,6 @@
 ---
 title: Bitkru
-date: 2026-09-14
+date: 2026-10-30
 iphone:
   appId: com.production.BitcoinWallet
   idd: '6749847943'
@@ -8,8 +8,7 @@ iphone:
   released: 2025-08-18
   updated: 2026-09-29
   version: 28.28.40
-  reviews: 87
-  icon: com.production.BitcoinWallet.webp
+  reviews: 85
   meta: ok
   verdict: wip
   developerName: NWAY OO WATHAN TRADING COMPANY LIMITED

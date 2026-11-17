@@ -9,6 +9,12 @@ server {
 
     access_log /var/log/nginx/access_walletscrutiny_old.log;
 
+    # source analysis export (external/source_analysis), rsynced here by the build server
+    location /api/source-analysis/ {
+        alias /srv/source-analysis/;
+        add_header Cache-Control "no-cache";
+    }
+
     error_page 404 /404.html;
     location = /404.html {
         internal;

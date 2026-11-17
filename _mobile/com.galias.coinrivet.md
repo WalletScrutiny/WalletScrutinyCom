@@ -1,13 +1,11 @@
 ---
-wsId: coinRivet
 title: Coin Rivet
-date: 2024-04-02
+date: 2026-10-30
 authors:
 - danny
 website: https://coinrivet.com/
 twitter: CoinRivet
 social:
-- https://coinrivet.com
 - https://www.instagram.com/CoinRivet
 - https://www.facebook.com/CoinRivet
 redirect_from:
@@ -17,9 +15,8 @@ android:
   appId: com.galias.coinrivet
   users: 1000
   appCountry: us
-  updated: 2026-08-02
-  version: 1.5.4.1252
-  icon: com.galias.coinrivet.webp
+  updated: 2026-10-02
+  version: 1.5.5.1253
   meta: ok
   verdict: custodial
   developerName: Galias Services
@@ -31,7 +28,6 @@ iphone:
   updated: 2026-02-04
   version: 1.3.23
   reviews: 0
-  icon: com.luxontech.coinrivet.webp
   meta: ok
   verdict: custodial
   developerName: GALIAS SERVICES UAB
@@ -69,4 +65,4 @@ As an exchange, the provider hosts the accounts of the user which contain the wa
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

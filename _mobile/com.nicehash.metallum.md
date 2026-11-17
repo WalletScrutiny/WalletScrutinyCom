@@ -1,7 +1,6 @@
 ---
-wsId: niceHash
 title: NiceHash
-date: 2022-06-24
+date: 2026-10-30
 authors:
 - danny
 website: https://www.nicehash.com/my/
@@ -21,10 +20,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2020-04-17
-  updated: 2026-09-29
-  version: 5.2.25
+  updated: 2026-10-08
+  version: 5.3.2
   reviews: 685
-  icon: com.nicehash.metallum.webp
   meta: ok
   verdict: custodial
   developerName: NiceHash AG
@@ -33,10 +31,9 @@ iphone:
   idd: '1372054956'
   appCountry: us
   released: 2020-04-29
-  updated: 2026-09-29
-  version: 7.1.23
-  reviews: 4570
-  icon: com.nicehash.mobile.webp
+  updated: 2026-10-07
+  version: 7.2.1
+  reviews: 4573
   meta: ok
   verdict: custodial
   developerName: NiceHash AG
@@ -89,4 +86,4 @@ The wallet service component of NiceHash is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

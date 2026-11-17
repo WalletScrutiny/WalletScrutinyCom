@@ -1,7 +1,6 @@
 ---
-wsId: bitKipi
 title: Bitkipi
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: https://pocketbitcoin.com
@@ -14,7 +13,6 @@ android:
   released: 2021-12-23
   updated: 2022-09-30
   version: 1.5.0
-  icon: com.bitkipi.webp
   meta: removed
   verdict: nosource
   developerName: Pocket Bitcoin
@@ -26,7 +24,6 @@ iphone:
   updated: 2022-10-02
   version: 1.5.0
   reviews: 0
-  icon: com.bitkipi.bitkipi.webp
   meta: removed
   verdict: nosource
   developerName: Pocket App AG
@@ -61,4 +58,4 @@ Bitkipi has been [acquired by Pocketbitcoin.com](https://pocketbitcoin.com/blog/
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

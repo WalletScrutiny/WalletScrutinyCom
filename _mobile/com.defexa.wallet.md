@@ -1,7 +1,6 @@
 ---
-wsId: defexaWallet
 title: Defexa - Safe Crypto Wallet
-date: 2023-11-02
+date: 2026-10-30
 authors:
 - danny
 website: https://defexa.io/wallet/
@@ -27,7 +26,6 @@ android:
   updated: 2025-12-10
   version: 2.3.0
   reviews: 4
-  icon: com.defexa.wallet.webp
   meta: ok
   verdict: nosource
   developerName: FPS Global LTD
@@ -39,7 +37,6 @@ iphone:
   updated: 2025-12-17
   version: 2.4.0
   reviews: 0
-  icon: com.defexa.CryptoWallet-Defexa.webp
   meta: ok
   verdict: nosource
   developerName: FPS Global LTD
@@ -71,7 +68,7 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="hd" quote="Defexa leverages mnemonic phrases as the safest way to hold crypto." source="Store description" %}
 

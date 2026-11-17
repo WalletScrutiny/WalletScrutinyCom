@@ -1,7 +1,6 @@
 ---
-wsId: casaapp
 title: 'Casa: Bitcoin & Crypto Wallet'
-date: 2021-05-22
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -20,10 +19,9 @@ android:
   users: 10000
   appCountry: us
   released: 2019-03-01
-  updated: 2026-09-18
-  version: 5.27.0
+  updated: 2026-10-13
+  version: 5.30.0
   reviews: 28
-  icon: casa.keymaster.webp
   meta: ok
   verdict: nosource
   developerName: Casa, Inc
@@ -32,10 +30,9 @@ iphone:
   idd: 1314586706
   appCountry: us
   released: 2018-08-02
-  updated: 2026-09-21
-  version: 5.27.0
-  reviews: 1249
-  icon: com.casa.vault.webp
+  updated: 2026-10-13
+  version: 5.30.0
+  reviews: 1250
   meta: ok
   verdict: nosource
   developerName: Casa Inc.

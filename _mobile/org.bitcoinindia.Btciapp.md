@@ -1,6 +1,6 @@
 ---
 title: BITCOIN INDIA
-date: 2026-05-05
+date: 2026-10-30
 authors:
 - danny
 website: https://bitcoin-india.org/en
@@ -12,7 +12,6 @@ android:
   appCountry: us
   updated: 2026-07-27
   version: 3.2.55
-  icon: org.bitcoinindia.Btciapp.webp
   meta: ok
   verdict: nosendreceive
   developerName: BITCOIN INDIA

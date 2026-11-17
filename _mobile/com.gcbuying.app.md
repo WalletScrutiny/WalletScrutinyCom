@@ -1,7 +1,6 @@
 ---
-wsId: GCBuying
 title: GCBuying - Sell & exchange Gif
-date: 2023-06-10
+date: 2026-10-30
 authors:
 - danny
 website: http://www.gcbuying.com
@@ -17,7 +16,6 @@ android:
   updated: 2021-09-17
   version: 1.0.10
   reviews: 84
-  icon: com.gcbuying.app.webp
   meta: removed
   verdict: custodial
   developerName: GCBUYING
@@ -29,7 +27,6 @@ iphone:
   updated: 2026-09-26
   version: 1.5.0
   reviews: 171
-  icon: com.GCBuying.GCBuying.webp
   meta: ok
   verdict: custodial
   developerName: GCBuying Technology
@@ -122,4 +119,4 @@ As noted above, there is a 'BTC Wallet' tab, which the user can click, however c
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

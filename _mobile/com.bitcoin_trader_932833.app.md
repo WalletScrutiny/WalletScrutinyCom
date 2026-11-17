@@ -1,10 +1,9 @@
 ---
 title: The Bitcoin Trader App
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
-social:
-- https://the-bitcoin-traderapp.cyou#deadLink
+website: https://the-bitcoin-traderapp.cyou#deadLink
 redirect_from:
 - /android/com.bitcoin_trader_932833.app/
 android:
@@ -13,7 +12,6 @@ android:
   released: 2022-07-21
   updated: 2022-07-21
   version: '1.0'
-  icon: com.bitcoin_trader_932833.app.webp
   meta: removed
   verdict: nosendreceive
   developerName: NISHANT MAHESH KHARE

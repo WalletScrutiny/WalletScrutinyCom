@@ -1,7 +1,6 @@
 ---
-wsId: walletVerse
 title: 'Wallet Verse: DeFi, Buy Crypto'
-date: 2025-12-31
+date: 2026-10-30
 authors:
 - danny
 website: https://walletverse.io/
@@ -27,8 +26,7 @@ android:
   released: 2023-06-29
   updated: 2026-09-24
   version: 1.18.4
-  reviews: 20
-  icon: com.walletverse.webp
+  reviews: 21
   meta: ok
   verdict: nosource
   developerName: ilink Ltd.
@@ -39,8 +37,7 @@ iphone:
   released: 2023-10-15
   updated: 2026-09-29
   version: 1.18.4
-  reviews: 42
-  icon: ilink.walletverse.webp
+  reviews: 43
   meta: ok
   verdict: nosource
   developerName: ilink Ltd.
@@ -67,7 +64,7 @@ We did not find any claims regarding source-availability and a search for the Ap
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="buyWithCC" quote="Buy Crypto with Visa, Mastercard or local payment providers." source="Store" %}
 

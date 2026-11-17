@@ -1,7 +1,6 @@
 ---
-wsId: DiviWallet
 title: 'Divi Wallet: Crypto & Staking'
-date: 2025-02-13
+date: 2026-10-30
 authors:
 - danny
 website: http://diviproject.org
@@ -21,7 +20,6 @@ android:
   updated: 2024-04-22
   version: 2.2.01218
   reviews: 13
-  icon: io.divipay.divi.webp
   meta: removed
   verdict: nosource
   developerName: Divi Labs
@@ -32,7 +30,6 @@ iphone:
   updated: 2023-09-03
   version: 2.2.01215
   reviews: 28
-  icon: io.divipay.divi.webp
   meta: removed
   verdict: nosource
   developerName: Qbito Technologies S.A.
@@ -74,6 +71,6 @@ An issue has been opened at [https://github.com/DiviProject/Divi-Desktop-Public/
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 An issue has been opened at [https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/366](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/366)

@@ -1,7 +1,6 @@
 ---
-wsId: phantomlabs
 title: 'Phantom: Trading Wallet'
-date: 2023-12-21
+date: 2026-10-30
 authors:
 - danny
 website: https://phantom.com/
@@ -23,10 +22,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2022-04-12
-  updated: 2026-09-19
-  version: 26.30.2
-  reviews: 2377
-  icon: app.phantom.webp
+  updated: 2026-10-08
+  version: 26.32.0
+  reviews: 2388
   meta: ok
   verdict: nosource
   developerName: Phantom Technologies, Inc.
@@ -35,10 +33,9 @@ iphone:
   idd: '1598432977'
   appCountry: us
   released: 2022-01-30
-  updated: 2026-09-17
-  version: 26.30.2
-  reviews: 64215
-  icon: app.phantom.webp
+  updated: 2026-10-07
+  version: 26.32.0
+  reviews: 64247
   meta: ok
   verdict: nosource
   developerName: Phantom Technologies Incorporated
@@ -68,7 +65,7 @@ As of this review, Phantom has a GitHub profile but no source code. Phantom wall
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Stay secure with biometric authentication" source="Store description" %}
 

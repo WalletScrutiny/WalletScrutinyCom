@@ -1,7 +1,6 @@
 ---
-wsId: jiggleCrypto
 title: 'Jiggle: Crypto Wallet'
-date: 2026-07-21
+date: 2026-10-30
 authors:
 - danny
 website: https://jiggle.app
@@ -14,10 +13,9 @@ android:
   users: 50000
   appCountry: us
   released: 2023-05-19
-  updated: 2026-09-18
-  version: 3.3.0
+  updated: 2026-09-30
+  version: 3.4.0
   reviews: 38
-  icon: com.jiggle.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Appia Solutions FZCO
@@ -26,10 +24,9 @@ iphone:
   idd: '6446089702'
   appCountry: us
   released: 2023-06-28
-  updated: 2026-09-21
-  version: 3.3.0
-  reviews: 298
-  icon: com.jiggle.cryptowallet.webp
+  updated: 2026-10-06
+  version: 3.4.0
+  reviews: 304
   meta: ok
   verdict: custodial
   developerName: Appia Solutions FZCO

@@ -1,6 +1,6 @@
 ---
 title: Korvio Wallet - Multichain Blo
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 website: https://korvio.io#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2019-06-21
   updated: 2021-03-18
   version: 1.0.25
-  icon: com.wallet.korvio.webp
   meta: removed
   verdict: custodial
   developerName: korvio

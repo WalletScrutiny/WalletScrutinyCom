@@ -1,7 +1,6 @@
 ---
-wsId: rainfinancial
 title: 'Rain: Buy & Sell Bitcoin'
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - danny
 website: https://rain.com
@@ -20,8 +19,7 @@ android:
   released: 2018-11-02
   updated: 2026-09-15
   version: 3.18.0
-  reviews: 3354
-  icon: com.rainmanagement.rain.webp
+  reviews: 3357
   meta: ok
   verdict: custodial
   developerName: Rain Trading
@@ -32,8 +30,7 @@ iphone:
   released: 2018-09-02
   updated: 2026-09-17
   version: 3.18.0
-  reviews: 2949
-  icon: com.rainmanagement.rain.webp
+  reviews: 2957
   meta: ok
   verdict: custodial
   developerName: Rain Management
@@ -67,4 +64,4 @@ Despite our inability to successfully use and register the app, it is clear that
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

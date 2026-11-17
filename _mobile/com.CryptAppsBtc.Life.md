@@ -1,6 +1,6 @@
 ---
 title: Вitсоin Lifеstуlе
-date: 2023-08-07
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2022-03-28
   updated: 2022-03-28
   version: '0.1'
-  icon: com.CryptAppsBtc.Life.webp
   meta: removed
   verdict: wip
   developerName: Lifestyle Aррs

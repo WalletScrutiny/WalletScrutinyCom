@@ -1,7 +1,6 @@
 ---
-wsId: byteWallet
 title: ByteVault
-date: 2023-05-05
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bytefederal.com
@@ -26,7 +25,6 @@ android:
   updated: 2026-09-24
   version: VARY
   reviews: 54
-  icon: io.bytewallet.bytewallet.webp
   meta: ok
   verdict: nosource
   developerName: Byte Federal, Inc
@@ -37,8 +35,7 @@ iphone:
   released: 2021-07-27
   updated: 2026-09-25
   version: 1.7.0.7
-  reviews: 48
-  icon: com.bytefederal.bytewallet.webp
+  reviews: 47
   meta: ok
   verdict: nosource
   developerName: Byte Federal, Inc.
@@ -77,7 +74,7 @@ It claims to be non-custodial, which means that the private keys would be under 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="The Lightning Network is supported as well!" source="Store" %}
 

@@ -1,7 +1,6 @@
 ---
-wsId: greenCryptoX
 title: 'GreenCryptoX: Buy BTC & Crypto'
-date: 2025-11-18
+date: 2026-10-30
 authors:
 - danny
 website: https://greencryptox.com/
@@ -17,7 +16,6 @@ android:
   released: 2023-07-16
   updated: 2024-08-23
   version: 3.0.12
-  icon: com.greencryptox.exchange.webp
   meta: obsolete
   verdict: custodial
   developerName: AOWS Business Services Pvt Ltd
@@ -29,7 +27,6 @@ iphone:
   updated: 2024-08-14
   version: 3.6.4
   reviews: 2
-  icon: com.greencryptox.exchange.webp
   meta: removed
   verdict: custodial
   developerName: AOWS BUSINESS SERVICES PRIVATE LIMITED
@@ -58,4 +55,4 @@ The verdict is **custodial**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

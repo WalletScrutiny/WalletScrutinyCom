@@ -19,7 +19,7 @@ const df = /^\d{4}-\d{2}-\d{2}$/; // the only date format we use
 
 /** Fields that must not appear under android:/iphone: (root-only). */
 const MOBILE_ROOT_STRIP_FROM_PLATFORM = new Set([
-  'wsId', 'title', 'date',
+  'title', 'date',
   'authors', 'website', 'twitter', 'social',
   'features', 'redirect_from', 'android', 'iphone',
 ]);
@@ -27,10 +27,12 @@ const MOBILE_ROOT_STRIP_FROM_PLATFORM = new Set([
 const MOBILE_ROOT_HEADERS = [
   ...MOBILE_ROOT_STRIP_FROM_PLATFORM,
   'appCountry',
+  'bitcoinOrgId',
 ];
 
+/** Per-store `website` stays when the stores disagree (applyStoreWebsite). */
 function allowedPlatformKeys (categoryHelper) {
-  return categoryHelper.headers.filter((k) => !MOBILE_ROOT_STRIP_FROM_PLATFORM.has(k));
+  return categoryHelper.headers.filter((k) => k === 'website' || !MOBILE_ROOT_STRIP_FROM_PLATFORM.has(k));
 }
 
 const migration = function (header, body, fileName, categoryHelper, options = {}) {
@@ -91,16 +93,6 @@ const migration = function (header, body, fileName, categoryHelper, options = {}
   if (header.website != null && !header.website.startsWith('http')) {
     header.website = null;
   }
-  const iconCategory = options.iconCategory || category;
-  const iconExtension = header.icon ? path.extname(header.icon) : '';
-  if (header.icon && header.appId && path.basename(header.icon, iconExtension) !== header.appId) {
-    const newIcon = `${header.appId}${iconExtension}`;
-    console.error(`# ${label}: unexpected icon ${header.icon}. Action required!
-mv images/wIcons/${iconCategory}/tiny/{${header.icon},${newIcon}}
-mv images/wIcons/${iconCategory}/small/{${header.icon},${newIcon}}
-mv images/wIcons/${iconCategory}/{${header.icon},${newIcon}}`);
-    header.icon = newIcon;
-  }
   if (header.dimensions) {
     try {
       if (header.dimensions.length !== 3) {
@@ -157,7 +149,6 @@ function migrateMobileWallets () {
         allowedHeaders: allowedPlatformKeys(helperPlayStore),
         metaCategory: 'android',
         setAppIdFromFile: false,
-        iconCategory: 'android',
       });
     }
     if (mobile.iphone) {
@@ -167,7 +158,6 @@ function migrateMobileWallets () {
         allowedHeaders: allowedPlatformKeys(helperAppStore),
         metaCategory: 'iphone',
         setAppIdFromFile: false,
-        iconCategory: 'iphone',
       });
     }
 

@@ -1,7 +1,6 @@
 ---
-wsId: ECOS
 title: 'ECOS: Bitcoin & Crypto Mining'
-date: 2021-10-07
+date: 2026-10-30
 authors:
 - danny
 website: https://ecos.am
@@ -17,10 +16,9 @@ android:
   users: 100000
   appCountry: us
   released: 2020-09-22
-  updated: 2026-09-29
-  version: 3.4.2
-  reviews: 329
-  icon: am.ecos.android.webp
+  updated: 2026-10-02
+  version: 3.4.4
+  reviews: 335
   meta: ok
   verdict: custodial
   developerName: ECOS CJSC
@@ -29,10 +27,9 @@ iphone:
   idd: '1528964374'
   appCountry: us
   released: 2020-11-25
-  updated: 2026-09-21
-  version: 3.3.3
-  reviews: 298
-  icon: am.ecos.ios.production.webp
+  updated: 2026-10-05
+  version: 3.4.4
+  reviews: 304
   meta: ok
   verdict: custodial
   developerName: Ecos am
@@ -81,4 +78,4 @@ Due to the information we have collected thus far, we conclude that this app is 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

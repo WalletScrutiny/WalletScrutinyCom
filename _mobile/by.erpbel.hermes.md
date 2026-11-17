@@ -1,7 +1,6 @@
 ---
-wsId: bynexExchange
 title: 'BYNEX: Buy&Trade Сrypto, Fiat'
-date: 2023-08-09
+date: 2026-10-30
 authors:
 - danny
 website: https://bynex.io/
@@ -20,9 +19,8 @@ android:
   users: 50000
   appCountry: us
   released: 2022-10-06
-  updated: 2026-09-03
-  version: 2.15.8
-  icon: by.erpbel.hermes.webp
+  updated: 2026-10-09
+  version: 2.15.17
   meta: ok
   verdict: custodial
   developerName: Bynex
@@ -34,7 +32,6 @@ iphone:
   updated: 2026-09-04
   version: 2.15.8
   reviews: 107
-  icon: by.erpbel.hermes.webp
   meta: ok
   verdict: custodial
   developerName: LLC ERPBEL
@@ -68,4 +65,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

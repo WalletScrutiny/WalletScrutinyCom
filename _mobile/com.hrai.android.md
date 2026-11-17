@@ -1,6 +1,6 @@
 ---
 title: HRAI
-date: 2023-04-22
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2022-04-26
   updated: 2022-05-26
   version: '1.2'
-  icon: com.hrai.android.webp
   meta: removed
   verdict: wip
 

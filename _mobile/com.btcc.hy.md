@@ -1,7 +1,6 @@
 ---
-wsId: btcc
 title: BTCC - Trade Bitcoin & Crypto
-date: 2021-09-17
+date: 2026-10-30
 authors:
 - danny
 website: https://www.btcc.com/en-US
@@ -19,10 +18,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2020-08-04
-  updated: 2026-09-14
-  version: 8.9.96
-  reviews: 4788
-  icon: com.btcc.hy.webp
+  updated: 2026-09-30
+  version: 8.9.97
+  reviews: 4838
   meta: ok
   verdict: custodial
   developerName: BTCC.COM
@@ -31,10 +29,9 @@ iphone:
   idd: 1462880009
   appCountry: us
   released: 2019-05-11
-  updated: 2026-09-18
-  version: 8.9.96
-  reviews: 5415
-  icon: com.btcc.hy.webp
+  updated: 2026-10-12
+  version: 8.9.97
+  reviews: 5462
   meta: ok
   verdict: custodial
   developerName: BTCC Global Limited
@@ -61,4 +58,4 @@ Interestingly, this exchange also trades in [cryptocurrency CFDs](https://www.bt
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

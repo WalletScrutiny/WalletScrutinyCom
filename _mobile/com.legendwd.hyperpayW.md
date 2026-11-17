@@ -1,11 +1,10 @@
 ---
-wsId: hyperPay
 title: HPX :Wallet Crypto & Card
-date: 2023-05-30
+date: 2026-10-30
 authors:
 - leo
 - danny
-website: https://hyperpay.tech
+website: https://www.hpx.com
 twitter: HyperPay_tech
 social:
 - https://www.facebook.com/hyperpayofficial
@@ -19,10 +18,9 @@ android:
   users: 100000
   appCountry: us
   released: 2018-10-25
-  updated: 2026-09-05
+  updated: 2026-09-30
   version: 5.6.260202
   reviews: 193
-  icon: com.legendwd.hyperpayW.webp
   meta: ok
   verdict: nosource
   developerName: CIPHER BC PTE. LTD.
@@ -33,12 +31,13 @@ iphone:
   updated: 2026-01-19
   version: 5.6.160900
   reviews: 131
-  icon: com.legendwd.hyperpay.webp
   meta: defunct
   verdict: obfuscated
   developerName: CIPHERBC PTE. LTD.
 
 ---
+
+**Update 2026-10-30:** HyperPay now calls itself HPX. The old site hyperpay.tech forwards to [hpx.com](https://www.hpx.com/en), which presents the wallet together with futures trading, swaps and crypto cards.
 
 ## Android
 
@@ -94,4 +93,4 @@ We take this as a confirmation that the app is obfuscated and thus file it as
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

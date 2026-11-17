@@ -1,7 +1,6 @@
 ---
-wsId: DokWallet
 title: Dok Wallet
-date: 2023-10-03
+date: 2026-10-30
 authors:
 - danny
 website: https://dokwallet.com/
@@ -20,27 +19,29 @@ android:
   users: 5000
   appCountry: il
   released: 2020-09-28
-  updated: 2026-09-28
-  version: '3.32'
+  updated: 2026-10-10
+  version: '3.33'
   reviews: 15
-  icon: com.dok.wallet.webp
+  repository: https://github.com/KM-opensource-crypto-wallet/mobile_app
   meta: ok
-  verdict: nosource
+  verdict: sourceavailable
   developerName: Dok wallet
 iphone:
   appId: com.dok.wallet
   idd: 1533065700
   appCountry: il
   released: 2020-10-08
-  updated: 2026-09-28
-  version: '2.52'
+  updated: 2026-10-10
+  version: '2.53'
   reviews: 2
-  icon: com.dok.wallet.webp
+  repository: https://github.com/KM-opensource-crypto-wallet/mobile_app
   meta: ok
-  verdict: nosource
+  verdict: sourceavailable
   developerName: Moreover4u2 Ltd
 
 ---
+
+**Update 2026-10-30:** Dok Wallet now calls itself open source on its [website](https://dokwallet.com/) and has published the code of both apps under the GPL-3.0 in [KM-opensource-crypto-wallet/mobile_app](https://github.com/KM-opensource-crypto-wallet/mobile_app), which builds the app ID `com.dok.wallet`. The repository was created in April 2025. The verdict changes from {% include verdictBadge.html verdict="nosource" type='short' %} to {% include verdictBadge.html verdict="sourceavailable" type='short' %}. As this wallet turns out to be source-available, we can look into reproducibility next.
 
 ## Android
 
@@ -109,7 +110,7 @@ DokWallet **does not refer to the project as an open-source project** in its web
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="hd" quote="Most modern Bitcoin wallets, like Dok Wallet, use Hierarchical Deterministic (HD) technology. This means they automatically generate a new receiving address for each incoming transaction." source="Website" %}
 

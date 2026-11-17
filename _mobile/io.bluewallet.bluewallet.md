@@ -1,7 +1,7 @@
 ---
-wsId: bluewallet
 title: BlueWallet Bitcoin Wallet
-date: 2023-12-30
+bitcoinOrgId: bluewallet
+date: 2026-10-30
 authors:
 - emanuel
 - Mohammad Rafigh
@@ -36,10 +36,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2018-11-01
-  updated: 2026-07-20
-  version: 8.0.1
+  updated: 2026-10-04
+  version: 8.0.2
   reviews: 389
-  icon: io.bluewallet.bluewallet.webp
   signer: 42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f
   alternativeStores:
   - zapstore
@@ -52,10 +51,9 @@ iphone:
   idd: 1376878040
   appCountry: us
   released: 2018-05-27
-  updated: 2026-07-21
-  version: 8.0.1
-  reviews: 855
-  icon: io.bluewallet.bluewallet.webp
+  updated: 2026-10-05
+  version: 8.0.2
+  reviews: 857
   meta: ok
   verdict: sourceavailable
   developerName: Bluewallet Services, S. R. L.
@@ -95,7 +93,7 @@ An issue has been opened at [https://github.com/BlueWallet/BlueWallet/issues/640
 
 {% include featureEvidence.html feature="companion" source="[Website](https://bluewallet.io)" quote="Sign a transaction offline" %}
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="segwit" quote="SegWit-first. Replace-By-Fee support" source="GitHub README" %}
 

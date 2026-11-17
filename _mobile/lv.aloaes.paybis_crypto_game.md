@@ -1,6 +1,6 @@
 ---
 title: Paybis Crypto wallet
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/lv.aloaes.paybis_crypto_game/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-06-01
   updated: 2022-06-01
   version: 1.0.0
-  icon: lv.aloaes.paybis_crypto_game.webp
   meta: removed
   verdict: wip
 

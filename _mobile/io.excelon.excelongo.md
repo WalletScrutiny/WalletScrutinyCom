@@ -1,7 +1,6 @@
 ---
-wsId: excelonGo
 title: 'Excelon : Payments unleashed'
-date: 2026-02-02
+date: 2026-10-30
 authors:
 - danny
 website: https://excelon.money
@@ -15,7 +14,6 @@ android:
   released: 2021-08-09
   updated: 2025-11-23
   version: 1.0.101
-  icon: io.excelon.excelongo.webp
   meta: ok
   verdict: custodial
   developerName: Excelon
@@ -27,7 +25,6 @@ iphone:
   updated: 2022-07-04
   version: 1.7.0
   reviews: 1
-  icon: com.excelon.excelon.go.webp
   meta: obsolete
   verdict: custodial
   developerName: Excelon Financial Services Ltd
@@ -62,4 +59,4 @@ As a service that allows users to connect their banking account, with the option
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

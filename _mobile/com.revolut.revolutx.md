@@ -1,7 +1,6 @@
 ---
-wsId: revolutX
 title: 'Revolut X: Buy Bitcoin, Crypto'
-date: 2025-05-19
+date: 2026-10-30
 authors:
 - danny
 website: https://www.revolut.com/revolut-x/
@@ -18,10 +17,9 @@ android:
   appId: com.revolut.revolutx
   users: 500000
   appCountry: us
-  updated: 2026-09-29
-  version: '1.78'
+  updated: 2026-10-13
+  version: '1.80'
   reviews: 2
-  icon: com.revolut.revolutx.webp
   meta: ok
   verdict: custodial
   developerName: Revolut Ltd
@@ -30,10 +28,9 @@ iphone:
   idd: '6502614478'
   appCountry: gb
   released: 2025-03-18
-  updated: 2026-09-24
-  version: '1.78'
-  reviews: 2981
-  icon: com.revolut.revolutx.webp
+  updated: 2026-10-07
+  version: '1.80'
+  reviews: 3127
   meta: ok
   verdict: custodial
   developerName: Revolut Ltd
@@ -64,4 +61,4 @@ Revolut X operates as a **custodial** platform. Users do not have direct access 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: OKEx
 title: 'OKX: Buy Bitcoin BTC & Crypto'
-date: 2020-05-29
+date: 2026-10-30
 authors:
 - leo
 website: https://www.okx.com/
@@ -19,10 +18,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2019-10-29
-  updated: 2026-09-30
-  version: 6.190.0
-  reviews: 4013
-  icon: com.okinc.okex.gp.webp
+  updated: 2026-10-07
+  version: 6.192.0
+  reviews: 4024
   meta: ok
   verdict: custodial
   developerName: OKX INC.
@@ -31,15 +29,16 @@ iphone:
   idd: 1327268470
   appCountry: us
   released: 2018-01-04
-  updated: 2026-09-29
-  version: 6.191.0
-  reviews: 22756
-  icon: com.okex.OKExAppstoreFull.webp
+  updated: 2026-10-13
+  version: 6.193.0
+  reviews: 22854
   meta: ok
   verdict: custodial
   developerName: OKX Inc.
 
 ---
+
+**Update 2026-10-30:** Both apps now have an "Exchange / Web3" switch that opens a non-custodial Web3 Wallet with its own keys and separate assets ([help page](https://www.okx.com/en-us/help/understanding-the-link-between-okx-and-web3-wallets)). OKX also ships that wallet as a standalone app, {% include walletLink.html wallet='android/com.okx.wallet' verdict='true' %}. The exchange part is still custodial.
 
 ## Android
 

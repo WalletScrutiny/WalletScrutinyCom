@@ -21,11 +21,10 @@ shop: https://wooko.ng/en/solo#deadLink
 country: CH
 price: 
 repository: 
-icon: wookongsolo.webp
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2021-11-26
+date: 2026-10-30
 signer: 
 twitter: 
 social: 

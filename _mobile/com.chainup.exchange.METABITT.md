@@ -1,6 +1,6 @@
 ---
 title: METABITT
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 website: https://www.mt-bitt.com/en_US#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2022-12-30
   updated: 2023-01-17
   version: 5.6.5
-  icon: com.chainup.exchange.METABITT.webp
   meta: removed
   verdict: custodial
   developerName: KKOrange

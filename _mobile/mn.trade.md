@@ -1,7 +1,6 @@
 ---
-wsId: TradeMN
 title: Trade.mn
-date: 2022-05-31
+date: 2026-10-30
 authors:
 - danny
 website: https://trade.mn
@@ -19,23 +18,24 @@ android:
   updated: 2026-04-02
   version: 3.1.6
   reviews: 13
-  icon: mn.trade.webp
-  meta: defunct
+  meta: ok
   verdict: custodial
   developerName: Digital Exchange Mongolia LLC
 iphone:
   appId: mn.trade
   idd: 1303463253
+  appCountry: mn
   released: 2018-05-05
   updated: 2023-04-25
   version: 3.0.8
   reviews: 29
-  icon: mn.trade.webp
   meta: removed
   verdict: custodial
   developerName: Digital Exchange Mongolia LLC
 
 ---
+
+**Update 2026-10-30:** The app is back. The Android app is listed again and was updated in September 2026, and the iPhone app is available in the Mongolian App Store. The [Trade.mn](https://trade.mn) exchange still runs.
 
 ## Android
 
@@ -57,4 +57,4 @@ This service is **custodial** making the app **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

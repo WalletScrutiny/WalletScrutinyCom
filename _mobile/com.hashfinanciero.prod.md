@@ -1,6 +1,6 @@
 ---
 title: Hash Financiero
-date: 2023-12-19
+date: 2026-10-30
 website: http://www.hashfinanciero.com#deadLink
 redirect_from:
 - /android/com.hashfinanciero.prod/
@@ -10,7 +10,6 @@ android:
   released: 2020-02-08
   updated: 2020-02-08
   version: '1.0'
-  icon: com.hashfinanciero.prod.webp
   meta: removed
   verdict: wip
   developerName: DevPala

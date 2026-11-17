@@ -1,7 +1,6 @@
 ---
-wsId: deGate
 title: 'DeGate Wallet: Crypto & Web3'
-date: 2026-05-27
+date: 2026-10-30
 authors:
 - danny
 website: https://degate.com/
@@ -17,9 +16,8 @@ android:
   users: 1000
   appCountry: us
   released: 2025-06-09
-  updated: 2026-08-26
-  version: 1.1.1
-  icon: com.app.degate.webp
+  updated: 2026-10-01
+  version: 1.1.2
   meta: ok
   verdict: nosource
   developerName: DeGate Inc.
@@ -28,10 +26,9 @@ iphone:
   idd: '6742168343'
   appCountry: us
   released: 2025-06-17
-  updated: 2026-08-31
-  version: 1.1.1
+  updated: 2026-10-05
+  version: 1.1.2
   reviews: 8
-  icon: com.app.degate.webp
   meta: ok
   verdict: nosource
   developerName: DeGate Inc.
@@ -60,4 +57,4 @@ However, the [degatedev](https://github.com/degatedev) GitHub organization has 3
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

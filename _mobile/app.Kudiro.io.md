@@ -1,6 +1,6 @@
 ---
 title: Kudiro
-date: 2023-12-19
+date: 2026-10-30
 redirect_from:
 - /android/app.Kudiro.io/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-07-11
   updated: 2022-07-12
   version: '1.0'
-  icon: app.Kudiro.io.webp
   meta: removed
   verdict: wip
   developerName: Kudiro

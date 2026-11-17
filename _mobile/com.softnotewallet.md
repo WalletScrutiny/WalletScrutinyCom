@@ -1,7 +1,6 @@
 ---
-wsId: softnoteCrypto
 title: 'SoftNote: Secure Crypto Wallet'
-date: 2025-12-08
+date: 2026-10-30
 authors:
 - danny
 website: https://softnote.com
@@ -24,8 +23,7 @@ android:
   updated: 2025-10-17
   version: 1.8.4
   reviews: 3
-  icon: com.softnotewallet.webp
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: Crispmind Ltd.
 iphone:
@@ -36,7 +34,6 @@ iphone:
   updated: 2025-10-17
   version: '18.0'
   reviews: 15
-  icon: com.softnote.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Crispmind, Inc.
@@ -75,6 +72,6 @@ Therefore, the user never controls Bitcoin keys, and SoftNote should be classifi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Keep your SoftNote account secure with a variety of protection methods including Passcode (Pincode), Touch ID and Face ID for iOS devices." source="Store description" %}

@@ -1,7 +1,6 @@
 ---
-wsId: ajaibkripto
 title: 'Ajaib Kripto: Buy BTC & Crypto'
-date: 2024-09-06
+date: 2026-10-30
 authors:
 - danny
 website: https://kripto.ajaib.co.id/
@@ -13,10 +12,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2022-07-15
-  updated: 2026-09-23
-  version: 2.106.0
+  updated: 2026-10-07
+  version: 2.107.0
   reviews: 40
-  icon: coin.ajaib.co.id.webp
   meta: ok
   verdict: custodial
   developerName: Ajaib Technologies
@@ -25,10 +23,9 @@ iphone:
   idd: '1634168301'
   appCountry: id
   released: 2022-08-16
-  updated: 2026-09-24
-  version: 2.107.0
-  reviews: 4500
-  icon: id.ajaib-coin.co.webp
+  updated: 2026-10-07
+  version: 2.108.0
+  reviews: 4510
   meta: ok
   verdict: custodial
   developerName: Ajaib Technologies Corporation
@@ -51,4 +48,4 @@ This is a **custodial** app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

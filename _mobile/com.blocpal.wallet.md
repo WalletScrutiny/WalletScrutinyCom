@@ -1,7 +1,6 @@
 ---
-wsId: BlocPal
 title: BlocPal Wallet
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
 website: http://www.blocpal.com
@@ -16,7 +15,6 @@ android:
   released: 2018-10-30
   updated: 2024-05-07
   version: 2.0.39
-  icon: com.blocpal.wallet.webp
   meta: obsolete
   verdict: nosource
   developerName: BlocPal International Inc.
@@ -27,7 +25,6 @@ iphone:
   updated: 2022-01-19
   version: 2.0.38
   reviews: 1
-  icon: com.blocpal.wallet.webp
   meta: defunct
   verdict: nosource
   developerName: BlocPal International Inc.
@@ -79,4 +76,4 @@ While this app claims to be open-source, we can find no evidence of this being t
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

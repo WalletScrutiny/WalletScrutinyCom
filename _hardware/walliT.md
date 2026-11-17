@@ -17,11 +17,10 @@ shop: https://www.ebay.com/itm/165746123556?ViewItem=&item=165746123556&nma=true
 country: UK
 price: 3.69 GBP
 repository: 
-icon: walliT.webp
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2022-11-10
+date: 2026-10-30
 signer: 
 twitter: 
 social: 

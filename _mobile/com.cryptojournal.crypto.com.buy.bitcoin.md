@@ -1,6 +1,6 @@
 ---
 title: Crypto.com Buy Bitcoin
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -12,7 +12,6 @@ android:
   released: 2021-07-07
   updated: 2021-07-07
   version: '1.0'
-  icon: com.cryptojournal.crypto.com.buy.bitcoin.webp
   meta: removed
   verdict: fake
 

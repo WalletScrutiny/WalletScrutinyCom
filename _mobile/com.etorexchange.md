@@ -1,6 +1,6 @@
 ---
 title: Etor Exchange
-date: 2023-01-30
+date: 2026-10-30
 website: https://www.etorexchange.in#deadLink
 redirect_from:
 - /android/com.etorexchange/
@@ -10,7 +10,6 @@ android:
   released: 2022-04-26
   updated: 2022-06-06
   version: '1.2'
-  icon: com.etorexchange.webp
   meta: removed
   verdict: wip
 

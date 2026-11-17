@@ -1,7 +1,6 @@
 ---
-wsId: dtsWallet
 title: DTS wallet
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - danny
 website: https://dtswallet.io#deadLink
@@ -14,7 +13,6 @@ android:
   released: 2023-01-05
   updated: 2023-08-07
   version: 1.3.34
-  icon: com.wallex.dts.webp
   meta: removed
   verdict: custodial
   developerName: DTS Wallet
@@ -26,7 +24,6 @@ iphone:
   updated: 2023-03-10
   version: '1.1'
   reviews: 11
-  icon: com.wallex.dts.webp
   meta: removed
   verdict: custodial
   developerName: Mio Payments Inc.
@@ -49,4 +46,4 @@ As the description states, this is a **custodial** service. This is also corrobo
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

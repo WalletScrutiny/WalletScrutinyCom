@@ -1,7 +1,7 @@
 ---
 title: Skywallet
-date: 2022-05-31
-website: https://skywallet.net
+date: 2026-10-30
+website: https://skywallet.net#deadLink
 redirect_from:
 - /android/skywallet.net/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2020-05-11
   updated: 2020-05-11
   version: 1.0.3
-  icon: skywallet.net.webp
   meta: removed
   verdict: wip
 

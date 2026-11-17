@@ -1,6 +1,6 @@
 ---
 title: BlueBiz
-date: 2024-02-05
+date: 2026-10-30
 website: https://bluebiz.opensecu.com#deadLink
 redirect_from:
 - /android/com.wallet.bluebiz/
@@ -10,7 +10,6 @@ android:
   released: 2019-10-30
   updated: 2020-04-05
   version: 6.3.12
-  icon: com.wallet.bluebiz.webp
   meta: removed
   verdict: wip
   developerName: OpenSecu

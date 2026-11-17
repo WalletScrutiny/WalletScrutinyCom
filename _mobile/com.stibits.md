@@ -1,10 +1,9 @@
 ---
-wsId: stibits
 title: Stibits
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
-website: https://stibits.com
+website: https://stibits.com#deadLink
 twitter: stibits
 redirect_from:
 - /android/com.stibits/
@@ -16,7 +15,6 @@ android:
   updated: 2022-11-23
   version: 0.16BETA
   reviews: 3
-  icon: com.stibits.webp
   meta: removed
   verdict: custodial
   developerName: Stibits
@@ -28,12 +26,13 @@ iphone:
   updated: 2022-09-22
   version: 0.5.1.4
   reviews: 15
-  icon: com.stibits.wallet.webp
   meta: removed
   verdict: custodial
   developerName: Stibits
 
 ---
+
+**Update 2026-10-30:** Stibits appears to be gone. Both apps are no longer in the stores, and the [Stibits website](https://web.archive.org/web/20230519162248/https://stibits.com/) no longer loads: its domain has expired and now shows a parking page.
 
 ## Android
 
@@ -57,4 +56,4 @@ The possibility is also there, that the company and thus the servers, that are o
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

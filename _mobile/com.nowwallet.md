@@ -1,7 +1,6 @@
 ---
-wsId: nowWallet
 title: 'NOW Wallet: Buy & Store Crypto'
-date: 2023-04-08
+date: 2026-10-30
 authors:
 - danny
 website: https://walletnow.app
@@ -23,10 +22,9 @@ android:
   users: 100000
   appCountry: us
   released: 2021-10-20
-  updated: 2026-09-09
-  version: 3.19.1
-  reviews: 205
-  icon: com.nowwallet.webp
+  updated: 2026-09-29
+  version: 3.19.2
+  reviews: 206
   meta: ok
   verdict: nosource
   developerName: ChangeNOW
@@ -35,10 +33,9 @@ iphone:
   idd: '1591216386'
   appCountry: us
   released: 2021-10-23
-  updated: 2026-09-10
-  version: 3.19.1
-  reviews: 847
-  icon: io.changenow.wallet-now.webp
+  updated: 2026-10-14
+  version: 3.19.3
+  reviews: 856
   meta: ok
   verdict: nosource
   developerName: CHN Group Limited
@@ -89,7 +86,7 @@ We downloaded the app and got the seed phrases. As the review mentioned, it took
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Swap over 800+ cryptos, yeah, Shiba Swap too, with ease using our in-app exchange or link your bank account and cards." source="Store description" %}
 

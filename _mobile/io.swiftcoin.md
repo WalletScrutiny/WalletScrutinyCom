@@ -1,7 +1,6 @@
 ---
-wsId: swiftcoin
 title: Swiftcoin
-date: 2023-08-30
+date: 2026-10-30
 authors:
 - danny
 website: https://swiftcoin.io/
@@ -12,7 +11,6 @@ social:
 - https://www.tiktok.com/@swiftcoinio
 - https://www.youtube.com/@swiftcoin
 - https://www.facebook.com/SwiftCoin.io
-- https://swiftcoin.io
 redirect_from:
 - /android/io.swiftcoin/
 - /iphone/io.swiftcoin/
@@ -24,7 +22,6 @@ android:
   updated: 2025-09-30
   version: 3.1.10
   reviews: 2
-  icon: io.swiftcoin.webp
   meta: stale
   verdict: custodial
   developerName: Swift Coin
@@ -36,8 +33,7 @@ iphone:
   updated: 2025-10-06
   version: 3.1.10
   reviews: 9
-  icon: io.swiftcoin.webp
-  meta: ok
+  meta: stale
   verdict: custodial
   developerName: Swiftcoin Ltd
 
@@ -70,4 +66,4 @@ Even though it is not explicitly stated, the app most likely stores the private 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

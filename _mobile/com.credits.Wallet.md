@@ -1,7 +1,6 @@
 ---
-wsId: creditsCrypto
 title: Credits.com. Buy and Sell BTC.
-date: 2023-07-02
+date: 2026-10-30
 authors:
 - danny
 website: https://credits.com/contacts.html
@@ -20,10 +19,9 @@ android:
   users: 10000
   appCountry: us
   released: 2020-10-26
-  updated: 2026-09-10
-  version: 10.7.0
+  updated: 2026-09-24
+  version: 10.7.1
   reviews: 7
-  icon: com.credits.Wallet.webp
   meta: ok
   verdict: custodial
   developerName: SECURITY AND EXCHANGE INTERNATIONAL CO INC.
@@ -32,10 +30,9 @@ iphone:
   idd: '1502902555'
   appCountry: ch
   released: 2020-07-21
-  updated: 2026-09-15
-  version: 3.4.9
+  updated: 2026-10-12
+  version: 3.5.0
   reviews: 0
-  icon: com.credits.CryptoWallet.webp
   meta: ok
   verdict: custodial
   developerName: SECURITY AND EXCHANGE INTERNATIONAL CO INC.
@@ -72,4 +69,4 @@ All evidences point to a **custodial** provider.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

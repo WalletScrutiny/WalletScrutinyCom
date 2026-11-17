@@ -1,7 +1,6 @@
 ---
-wsId: LMAXGlobal
 title: LMAX Global Trading
-date: 2021-11-10
+date: 2026-10-30
 authors:
 - danny
 website: http://www.lmax.com/mobile
@@ -20,7 +19,6 @@ android:
   updated: 2026-05-05
   version: 5.1.80
   reviews: 4
-  icon: com.mobiletradingpartners.lmax.webp
   meta: ok
   verdict: nosendreceive
   developerName: LMAX BROKER LIMITED
@@ -32,7 +30,6 @@ iphone:
   updated: 2026-08-05
   version: 5.1.96
   reviews: 0
-  icon: mobiletradingpartners.lmax.exchange.iphone.webp
   meta: ok
   verdict: nosendreceive
   developerName: LMAX BROKER LIMITED
@@ -86,4 +83,4 @@ Because this is primarily a trading app that utilizes crypto CFDs rather than a 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

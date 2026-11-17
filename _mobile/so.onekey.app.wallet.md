@@ -1,7 +1,6 @@
 ---
-wsId: onekeySo.new
 title: 'OneKey: Bitcoin & Stocks'
-date: 2025-07-21
+date: 2026-10-30
 authors:
 - danny
 website: https://onekey.so
@@ -26,10 +25,9 @@ android:
   users: 100000
   appCountry: us
   released: 2022-04-27
-  updated: 2026-09-23
-  version: 6.6.0
+  updated: 2026-10-10
+  version: 6.6.1
   reviews: 100
-  icon: so.onekey.app.wallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: ONEKEY LIMITED
@@ -39,10 +37,9 @@ iphone:
   idd: '1609559473'
   appCountry: us
   released: 2022-04-27
-  updated: 2026-09-25
-  version: 6.6.0
-  reviews: 682
-  icon: so.onekey.wallet.webp
+  updated: 2026-10-10
+  version: 6.6.1
+  reviews: 680
   meta: ok
   verdict: sourceavailable
   developerName: ONEKEY LIMITED
@@ -127,7 +124,7 @@ The Android App's verdict is now **source available** and is **for verification*
 
 The iPhone app remains non-verifiable because all apps distributed through the Apple App Store are re-signed and encrypted by Apple before delivery to users. This process alters the original binary, making it impossible to directly compare the published app with a version built from source code. As a result, researchers and users cannot independently verify that the code released by developers matches the app actually installed on iOS devices.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Multiple protection layers: App password, biometrics, and hardware wallet integration" source="Store" %}
 

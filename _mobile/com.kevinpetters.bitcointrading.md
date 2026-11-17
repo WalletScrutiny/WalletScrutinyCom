@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Trading
-date: 2022-03-24
+date: 2026-10-30
 website: https://bitcoin-trading.global#deadLink
 redirect_from:
 - /android/com.kevinpetters.bitcointrading/
@@ -10,7 +10,6 @@ android:
   released: 2019-06-30
   updated: 2019-06-30
   version: 1.0.0
-  icon: com.kevinpetters.bitcointrading.webp
   meta: removed
   verdict: wip
 

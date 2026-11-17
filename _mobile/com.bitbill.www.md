@@ -1,7 +1,6 @@
 ---
-wsId: ownbit
 title: 'Ownbit: MultiSig & Cold Wallet'
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -22,7 +21,6 @@ android:
   updated: 2026-09-20
   version: 4.67.2
   reviews: 13
-  icon: com.bitbill.www.webp
   meta: ok
   verdict: nosource
   developerName: ownbit
@@ -31,15 +29,16 @@ iphone:
   idd: '1321798216'
   appCountry: us
   released: 2018-02-07
-  updated: 2026-09-21
-  version: 4.67.2
+  updated: 2026-10-05
+  version: 5.0.0
   reviews: 138
-  icon: com.bitbill.wallet.webp
   meta: ok
   verdict: nosource
   developerName: BITTOOL PTE. LTD.
 
 ---
+
+**Update 2026-10-30:** On 2026-10-26 Ownbit published the part of its code that touches private keys as [bitbill/ownbit-app-50](https://github.com/bitbill/ownbit-app-50) under the MIT license. It covers both apps; the iOS key handling comes as a Swift package. Its README says that "the user interface and the code that talks to Ownbit's servers are not part of it", so nobody can build either app from source and the verdict stays {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 ## Android
 
@@ -81,7 +80,7 @@ thus **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="multiSig" quote="Multisig Security: Manage funds with team or personal multi-signature." source="Store" %}
 

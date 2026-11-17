@@ -1,7 +1,6 @@
 ---
-wsId: crystalBallMarkets
 title: Crystal Ball Markets MT7
-date: 2024-08-28
+date: 2026-10-30
 authors:
 - danny
 website: https://crystalballmarkets.com/
@@ -19,7 +18,6 @@ android:
   updated: 2026-03-04
   version: 8.0.0
   reviews: 44
-  icon: webtrader.crystalballmarkets.com.webp
   meta: ok
   verdict: nosendreceive
   developerName: Crystal Ball Markets
@@ -31,7 +29,6 @@ iphone:
   updated: 2022-12-19
   version: '1.1'
   reviews: 0
-  icon: com.crystalballmarkets.mobiustrader7.webp
   meta: obsolete
   verdict: nosendreceive
   developerName: Crystal Ball Markets LLC
@@ -74,4 +71,4 @@ This confirms Crystal Ball Markets is a derivatives trading platform rather than
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

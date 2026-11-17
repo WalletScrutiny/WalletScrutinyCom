@@ -1,6 +1,6 @@
 ---
 title: 'LATOKEN: Trade Any Crypto'
-date: 2026-02-02
+date: 2026-10-30
 authors:
 - danny
 website: http://latoken.com
@@ -18,7 +18,6 @@ android:
   updated: 2025-10-27
   version: 1.206.00
   reviews: 110
-  icon: com.latoken.wallet.webp
   meta: ok
   verdict: custodial
   developerName: LATRADE

@@ -1,7 +1,6 @@
 ---
-wsId: xapobankapp
 title: 'Xapo Bank: Save in BTC & USD'
-date: 2021-08-06
+date: 2026-10-30
 authors:
 - danny
 website: https://www.xapobank.com/
@@ -22,10 +21,9 @@ android:
   users: 100000
   appCountry: us
   released: 2021-05-27
-  updated: 2026-09-24
-  version: 11.30.0
+  updated: 2026-10-07
+  version: 11.33.0
   reviews: 43
-  icon: com.xapo.bank.webp
   meta: ok
   verdict: custodial
   developerName: Xapo
@@ -34,10 +32,9 @@ iphone:
   idd: '1560681080'
   appCountry: fi
   released: 2021-06-03
-  updated: 2026-09-26
-  version: 11.31.0
+  updated: 2026-10-08
+  version: 11.33.0
   reviews: 4
-  icon: com.xapo.bank.webp
   meta: ok
   verdict: custodial
   developerName: Xapo Holdings Limited
@@ -64,7 +61,7 @@ By its name alone we assume it is custodial and thus **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="you can transact in BTC instantly with the Lightning Network" source="Store description" %}
 

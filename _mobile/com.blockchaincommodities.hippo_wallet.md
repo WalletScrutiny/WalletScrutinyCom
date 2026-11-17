@@ -1,7 +1,6 @@
 ---
-wsId: hippoCrypto
 title: 'Hippo Wallet: Crypto Wallet'
-date: 2024-07-24
+date: 2026-10-30
 authors:
 - danny
 website: https://hippowallet.io/
@@ -29,7 +28,6 @@ android:
   updated: 2026-02-23
   version: 1.23.3
   reviews: 17
-  icon: com.blockchaincommodities.hippo_wallet.webp
   meta: ok
   verdict: nosource
   developerName: Blockchain Commodities
@@ -41,7 +39,6 @@ iphone:
   updated: 2025-09-23
   version: 1.23.2
   reviews: 10
-  icon: com.blockchaincommodities.hippoWallet.webp
   meta: ok
   verdict: nosource
   developerName: Blockchain Commodities
@@ -72,6 +69,6 @@ No change has been noted regarding the availability for this app's source code.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="you can enable Touch ID to access the crypto storage without having to type the password every time" source="Store" %}

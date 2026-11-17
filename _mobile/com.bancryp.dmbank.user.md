@@ -1,9 +1,9 @@
 ---
 title: DMBank
-date: 2023-04-20
+date: 2026-10-30
 authors:
 - danny
-website: https://www.dmbank.com.br
+website: https://www.dmbank.com.br#deadLink
 redirect_from:
 - /android/com.bancryp.dmbank.user/
 android:
@@ -12,7 +12,6 @@ android:
   released: 2020-07-31
   updated: 2021-01-13
   version: 1.4.5
-  icon: com.bancryp.dmbank.user.webp
   meta: removed
   verdict: wip
   developerName: The Digital Money

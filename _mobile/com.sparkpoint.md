@@ -1,7 +1,6 @@
 ---
-wsId: sparkPoint
 title: SparkPoint Crypto Wallet
-date: 2024-08-31
+date: 2026-10-30
 authors:
 - leo
 - emanuel
@@ -23,7 +22,6 @@ android:
   updated: 2023-08-24
   version: 12.1.1
   reviews: 67
-  icon: com.sparkpoint.webp
   meta: removed
   verdict: nosource
   developerName: SparkPoint Technologies Inc.
@@ -34,12 +32,13 @@ iphone:
   updated: 2023-04-13
   version: 12.1.0
   reviews: 16
-  icon: io.sparkpoint.ios.wallet.webp
   meta: removed
   verdict: nosource
   developerName: SparkPoint Technologies, Inc.
 
 ---
+
+**Update 2026-10-30:** SparkPoint's website now promotes Sparky, an AI investing assistant, and no longer mentions the wallet app [(website)](https://sparkpoint.io/).
 
 ## Android
 
@@ -59,4 +58,4 @@ We were not able to find the source code nor any references to its availability 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

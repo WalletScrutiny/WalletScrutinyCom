@@ -1,7 +1,6 @@
 ---
-wsId: bit2me
 title: Bit2Me - Bitcoin and Cryptos
-date: 2020-05-29
+date: 2026-10-30
 authors:
 - leo
 website: https://bit2me.com
@@ -19,10 +18,9 @@ android:
   users: 500000
   appCountry: us
   released: 2015-01-08
-  updated: 2026-09-28
-  version: 3.74.0
+  updated: 2026-10-05
+  version: 3.76.0
   reviews: 55
-  icon: com.phonegap.bit2me.webp
   meta: ok
   verdict: custodial
   developerName: Bit2Me
@@ -31,10 +29,9 @@ iphone:
   idd: '1459809738'
   appCountry: es
   released: 2019-06-04
-  updated: 2026-09-28
-  version: 3.75.0
-  reviews: 3819
-  icon: com.bit2me.flutter-ios.webp
+  updated: 2026-10-05
+  version: 3.76.0
+  reviews: 3818
   meta: ok
   verdict: custodial
   developerName: Bit2Me

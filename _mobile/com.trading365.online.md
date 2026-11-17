@@ -1,6 +1,6 @@
 ---
 title: Trading 365—Forex, Crypto, Gol
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/com.trading365.online/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2019-08-29
   updated: 2019-08-29
   version: 1.5.2
-  icon: com.trading365.online.webp
   meta: removed
   verdict: wip
   developerName: trading365pro

@@ -1,7 +1,6 @@
 ---
-wsId: bitarooexpress
 title: Bitaroo Express - Buy Bitcoin
-date: 2024-09-05
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitaroo.com.au
@@ -21,9 +20,8 @@ android:
   appId: au.com.bitaroo.express
   users: 1000
   appCountry: us
-  updated: 2026-08-30
-  version: 5.2.2
-  icon: au.com.bitaroo.express.webp
+  updated: 2026-10-13
+  version: 5.3.2
   meta: ok
   verdict: custodial
   developerName: Bitaroo
@@ -32,15 +30,16 @@ iphone:
   idd: '6444825898'
   appCountry: au
   released: 2022-12-20
-  updated: 2026-08-30
-  version: 5.2.2
+  updated: 2026-10-10
+  version: 5.3.1
   reviews: 26
-  icon: au.com.bitaroo.express.webp
   meta: ok
   verdict: custodial
   developerName: Bitaroo
 
 ---
+
+**Update 2026-10-30:** The app now has two optional self-custody features next to the custodial exchange account: the Bitaroo Wallet, a hot wallet whose 12-word recovery phrase is created on the phone and never leaves it ([Bitaroo](https://www.bitaroo.com.au/bitaroo-wallet/)), and Bitaroo Guardian, a 2-of-3 multisig wallet where the user holds two keys and Bitaroo the third ([Bitaroo](https://www.bitaroo.com.au/)). Buying, selling and Lightning still happen in the custodial account, so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## Android
 
@@ -62,7 +61,7 @@ The Bitaroo Vault mentioned here is a **custodial** storage solution. It's unlik
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="It supports both on-chain transactions and the Lightning Network, giving you speed and flexibility." source="Store" %}
 

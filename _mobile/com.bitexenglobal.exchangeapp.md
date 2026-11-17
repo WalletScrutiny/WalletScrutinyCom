@@ -1,7 +1,6 @@
 ---
-wsId: bitexenGlobal
 title: Bitexen Global
-date: 2023-09-06
+date: 2026-10-30
 authors:
 - danny
 website: https://global.bitexen.com/
@@ -19,7 +18,6 @@ android:
   appCountry: us
   updated: 2026-08-17
   version: '2.26'
-  icon: com.bitexenglobal.exchangeapp.webp
   meta: ok
   verdict: custodial
   developerName: Bitexen Teknoloji A.Ş.
@@ -31,7 +29,6 @@ iphone:
   updated: 2026-08-07
   version: '2.33'
   reviews: 1
-  icon: com.bitexenglobal.exchangeapp.webp
   meta: ok
   verdict: custodial
   developerName: Bitexen Europe UAB
@@ -64,4 +61,4 @@ This makes the app **non-verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

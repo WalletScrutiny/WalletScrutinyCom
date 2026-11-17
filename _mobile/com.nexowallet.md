@@ -1,7 +1,6 @@
 ---
-wsId: nexo
 title: 'Nexo: Crypto Wealth Platform'
-date: 2020-11-17
+date: 2026-10-30
 authors:
 - leo
 website: https://nexo.com
@@ -18,10 +17,9 @@ android:
   users: 5000000
   appCountry: us
   released: 2019-06-28
-  updated: 2026-09-25
-  version: 8.0.0
-  reviews: 1914
-  icon: com.nexowallet.webp
+  updated: 2026-10-14
+  version: 9.0.1
+  reviews: 1917
   meta: ok
   verdict: custodial
   developerName: Nexo Capital Incorporated
@@ -30,10 +28,9 @@ iphone:
   idd: 1455341917
   appCountry: us
   released: 2019-06-30
-  updated: 2026-09-29
-  version: 8.0.0
-  reviews: 1952
-  icon: com.nexobank.wallet.webp
+  updated: 2026-10-14
+  version: 9.0.0
+  reviews: 1972
   meta: ok
   verdict: custodial
   developerName: Nexo Capital Inc.
@@ -41,6 +38,13 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The custodian changed. The
+store description no longer mentions BitGo. Nexo says
+[Bakkt powers custody for its US clients](https://nexo.com/blog/is-nexo-legit),
+and in the EEA
+[Tangany holds client crypto-assets](https://crypto.news/nexo-keeps-eu-services-live-with-mica-partners/)
+since July 2026.
 
 {% include review/bitgo.md %}
 
@@ -56,4 +60,4 @@ all or part of the coins. In any case this app is **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: koinbazar
 title: 'KoinBX: Indian Crypto Exchange'
-date: 2021-10-04
+date: 2026-10-30
 authors:
 - danny
 website: https://koinbx.com/
@@ -20,10 +19,9 @@ android:
   users: 500000
   appCountry: in
   released: 2021-05-17
-  updated: 2026-09-22
-  version: 3.1.22
-  reviews: 3648
-  icon: com.application.koinbazar.webp
+  updated: 2026-10-09
+  version: 3.1.25
+  reviews: 3651
   meta: ok
   verdict: custodial
   developerName: KoinBX
@@ -32,10 +30,9 @@ iphone:
   idd: '1567360326'
   appCountry: in
   released: 2021-06-02
-  updated: 2026-09-19
-  version: 4.2.7
-  reviews: 167
-  icon: com.app.koinbazar.webp
+  updated: 2026-10-13
+  version: 4.2.9
+  reviews: 169
   meta: ok
   verdict: custodial
   developerName: KOOZ ADVISORS AND TECHNOLOGIES PRIVATE LIMITED
@@ -43,6 +40,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Koin Bazar is now KoinBX, at [koinbx.com](https://koinbx.com/). The old terms page is gone, so the link below points to an archived copy.
 
 ### App Description
 
@@ -54,7 +53,7 @@ Like most custodial services, sign up is available on the app as well as the web
 
 #### Terms and Conditions
 
-Section 9 of the [Terms and Conditions](https://www.koinbazar.com/terms-conditions) confirms that this is a custodial service.
+Section 9 of the [Terms and Conditions](https://web.archive.org/web/20211025195501/https://www.koinbazar.com/terms-conditions) confirms that this is a custodial service.
 
 >YOU ACKNOWLEDGE THAT OUR DECISION TO TAKE CERTAIN ACTIONS, INCLUDING LIMITING ACCESS TO, SUSPENDING, OR **CLOSING YOUR ACCOUNT OR WALLET**, MAY BE BASED ON CONFIDENTIAL CRITERIA THAT ARE ESSENTIAL TO OUR RISK MANAGEMENT AND SECURITY PROTOCOLS. YOU AGREE THAT KOIN BAZAR IS UNDER NO OBLIGATION TO DISCLOSE THE DETAILS OF ITS RISK MANAGEMENT AND SECURITY PROCEDURES TO YOU.
 
@@ -70,6 +69,6 @@ By most indications, this centralized cryptocurrency exchange is a **custodial**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="passcode, fingerprint verification, two-factor authentication, email encryption, SSL encryption, IP change verification, and anti-phishing codes" source="Store" %}

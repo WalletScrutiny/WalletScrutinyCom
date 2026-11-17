@@ -1,6 +1,6 @@
 ---
 title: Viennox Crypto Exchange
-date: 2024-03-02
+date: 2026-10-30
 website: https://viennox.com#deadLink
 redirect_from:
 - /android/com.app.viennoxexchange/
@@ -10,7 +10,6 @@ android:
   released: 2021-10-12
   updated: 2021-10-18
   version: '1.1'
-  icon: com.app.viennoxexchange.webp
   meta: removed
   verdict: wip
   developerName: Viennox

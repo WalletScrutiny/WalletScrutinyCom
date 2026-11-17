@@ -1,7 +1,6 @@
 ---
-wsId: quidaxBuyBitcoin
 title: Quidax -  Buy Bitcoin & Crypto
-date: 2026-01-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.quidax.io/
@@ -23,8 +22,7 @@ android:
   released: 2025-04-21
   updated: 2026-09-19
   version: 1.3.2
-  reviews: 13
-  icon: io.quidax.app.webp
+  reviews: 14
   meta: ok
   verdict: custodial
   developerName: Quidax Technologies
@@ -35,8 +33,7 @@ iphone:
   released: 2025-07-07
   updated: 2026-09-28
   version: 1.1.20
-  reviews: 605
-  icon: io.quidax.pro.webp
+  reviews: 613
   meta: ok
   verdict: custodial
   developerName: Quidax Technologies
@@ -61,7 +58,7 @@ This is a good indication that the service is **custodial**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="You can swap between different cryptocurrencies and local currencies on the App seamlessly. You can swap USDT to Bitcoin, Bitcoin to Solana, Solana to Ethereum, Local currency to Bitcoin and Bitcoin to local currency in seconds." source="Store" %}
 

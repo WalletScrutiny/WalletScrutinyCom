@@ -1,7 +1,6 @@
 ---
-wsId: stackWallet
 title: Stack Wallet
-date: 2026-07-23
+date: 2026-10-30
 authors:
 - danny
 - keraliss
@@ -26,8 +25,7 @@ android:
   released: 2024-05-13
   updated: 2026-09-17
   version: 2.7.3
-  reviews: 15
-  icon: com.cypherstack.stackwallet.webp
+  reviews: 16
   alternativeStores:
   - zapstore
   meta: ok
@@ -42,7 +40,6 @@ iphone:
   updated: 2026-09-16
   version: 2.7.3
   reviews: 27
-  icon: com.cypherstack.stackwallet.webp
   meta: ok
   verdict: sourceavailable
   developerName: Cypher Stack LLC
@@ -119,4 +116,4 @@ An issue has been opened at [https://github.com/cypherstack/stack_wallet/issues/
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

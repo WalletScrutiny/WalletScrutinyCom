@@ -1,7 +1,6 @@
 ---
-wsId: coinFlipCrypto
 title: CoinFlip Crypto Wallet
-date: 2026-01-03
+date: 2026-10-30
 authors:
 - danny
 website: https://coinflip.tech/
@@ -21,8 +20,7 @@ android:
   released: 2024-08-19
   updated: 2026-09-25
   version: 4.9.0
-  reviews: 115
-  icon: tech.coinflip.webp
+  reviews: 118
   meta: ok
   verdict: custodial
   developerName: GPD Holdings LLC
@@ -31,10 +29,9 @@ iphone:
   idd: '6502452721'
   appCountry: us
   released: 2024-06-05
-  updated: 2026-09-22
-  version: 4.8.0
-  reviews: 921
-  icon: tech.coinflip.CoinFlip.webp
+  updated: 2026-10-05
+  version: 4.9.0
+  reviews: 926
   meta: ok
   verdict: custodial
   developerName: GPD Holdings, L.L.C.
@@ -67,4 +64,4 @@ Under WalletScrutiny standards, any wallet where a third party must cooperate to
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: cex
 title: 'CEX.IO: Trade & Buy Crypto'
-date: 2021-04-16
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
@@ -24,8 +23,7 @@ android:
   released: 2015-12-22
   updated: 2026-09-10
   version: 12.53.3
-  reviews: 10924
-  icon: io.cex.app.prod.webp
+  reviews: 10929
   meta: ok
   verdict: custodial
   developerName: CEX.IO
@@ -34,10 +32,9 @@ iphone:
   idd: 1047225016
   appCountry: us
   released: 2015-12-22
-  updated: 2026-09-15
-  version: 12.55.1
-  reviews: 12860
-  icon: io.cex.app.webp
+  updated: 2026-09-30
+  version: 12.55.2
+  reviews: 12856
   meta: ok
   verdict: custodial
   developerName: CEX.IO LTD

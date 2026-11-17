@@ -1,7 +1,6 @@
 ---
-wsId: vita
 title: Vita Wallet
-date: 2021-10-04
+date: 2026-10-30
 authors:
 - danny
 website: https://vitawallet.io/
@@ -18,10 +17,9 @@ android:
   users: 100000
   appCountry: cl
   released: 2019-10-16
-  updated: 2026-09-07
-  version: 8.0.0
-  reviews: 919
-  icon: com.vita_wallet.webp
+  updated: 2026-10-02
+  version: 8.0.1
+  reviews: 921
   meta: ok
   verdict: custodial
   developerName: Vita Solutions SpA
@@ -30,10 +28,9 @@ iphone:
   idd: 1486999955
   appCountry: cl
   released: 2019-11-15
-  updated: 2026-09-08
-  version: 8.0.0
+  updated: 2026-10-13
+  version: 8.0.2
   reviews: 292
-  icon: io.vitawallet.vitawallet.webp
   meta: ok
   verdict: custodial
   developerName: Vita Solutions S.p.A
@@ -72,4 +69,4 @@ While information on this app is somewhat limited, it certainly appears to be **
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

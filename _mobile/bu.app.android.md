@@ -1,7 +1,6 @@
 ---
-wsId: bitunix
 title: 'Bitunix Pro: Buy BTC & Crypto'
-date: 2024-09-06
+date: 2026-10-30
 authors:
 - danny
 website: https://www.unixcrypto.net
@@ -23,10 +22,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2025-04-29
-  updated: 2026-09-28
-  version: 3.53.0
-  reviews: 132
-  icon: bu.app.android.webp
+  updated: 2026-10-12
+  version: 3.54.0
+  reviews: 136
   meta: ok
   verdict: custodial
   developerName: Bitunix Pro
@@ -37,8 +35,7 @@ iphone:
   released: 2023-04-11
   updated: 2026-09-29
   version: 3.52.0
-  reviews: 850
-  icon: com.bitunix.ios-.webp
+  reviews: 877
   meta: ok
   verdict: custodial
   developerName: Bitunix Global Limited
@@ -71,7 +68,7 @@ Notwithstanding the branding and domain inconsistency, this is a **custodial** a
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Trade spot and futures markets with Bitcoin, Ethereum, and leading altcoins, supported by deep liquidity and advanced trading tools." source="Store description" %}
 

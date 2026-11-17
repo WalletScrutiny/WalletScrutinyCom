@@ -1,7 +1,6 @@
 ---
-wsId: GenesisVision
 title: Genesis Vision
-date: 2023-09-04
+date: 2026-10-30
 authors:
 - danny
 website: https://genesis.vision
@@ -21,7 +20,6 @@ android:
   updated: 2022-03-16
   version: 2.7.7
   reviews: 25
-  icon: vision.genesis.clientapp.investor.webp
   meta: removed
   verdict: custodial
   developerName: Genesis Vision
@@ -33,13 +31,14 @@ iphone:
   updated: 2022-11-14
   version: 2.4.0
   reviews: 145
-  icon: vision.genesis.ios.investor.webp
   meta: removed
   verdict: custodial
   developerName: Genesis Vision
   repository: https://github.com/GenesisVision/android-client
 
 ---
+
+**⚠️ Warning:** Genesis Vision suspended its services in November 2022. In October 2026 an unrelated company, GVT Ltd, [announced](https://genesis.vision/) that it bought the software and plans a relaunch, but there is no app yet.
 
 ## Android
 
@@ -85,4 +84,4 @@ We'll tentatively label this app as **custodial** and thus **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

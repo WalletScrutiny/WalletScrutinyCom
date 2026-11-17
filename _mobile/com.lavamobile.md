@@ -1,7 +1,6 @@
 ---
-wsId: lavaXYZ
 title: 'Lava: Bitcoin Finance'
-date: 2025-05-22
+date: 2026-10-30
 authors:
 - danny
 website: https://lava.xyz
@@ -14,27 +13,27 @@ android:
   users: 5000
   appCountry: us
   released: 2024-05-25
-  updated: 2026-09-23
-  version: 3.24.2
+  updated: 2026-10-07
+  version: 3.26.0
   reviews: 29
-  icon: com.lavamobile.webp
   meta: ok
-  verdict: nosource
+  verdict: custodial
   developerName: Lava Global Inc.
 iphone:
   appId: xyz.lava.mobile
   idd: '1661751123'
   appCountry: us
   released: 2024-04-29
-  updated: 2026-09-24
-  version: 3.24.2
-  reviews: 177
-  icon: xyz.lava.mobile.webp
+  updated: 2026-10-07
+  version: 3.26.0
+  reviews: 178
   meta: ok
-  verdict: nosource
+  verdict: custodial
   developerName: Lava Global Inc.
 
 ---
+
+**Update 2026-10-30:** Lava no longer gives users their own keys. Its FAQ says that funds are secured "using custodians and cold storage via distributed key management", with keys "held across multiple geographically distributed entities", and that users log in with only an email and a passkey ([security FAQ](https://www.lava.xyz/faq/what-security-infrastructure-does-lava-use), [funds FAQ](https://www.lava.xyz/faq/how-are-my-funds-secured-in-lava)). The app description no longer calls Lava self-custodial either. We now list both apps as {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## Android
 
@@ -85,4 +84,4 @@ But still, it fails the next test: it's not **source available**. They do have a
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

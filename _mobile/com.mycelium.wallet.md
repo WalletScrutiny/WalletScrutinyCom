@@ -1,7 +1,7 @@
 ---
-wsId: mycelium
 title: Mycelium Bitcoin Wallet
-date: 2025-03-07
+bitcoinOrgId: mycelium
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -35,14 +35,12 @@ android:
   released: 2013-07-01
   updated: 2026-05-15
   version: 3.22.0.2
-  reviews: 1154
-  icon: com.mycelium.wallet.webp
+  reviews: 1155
   signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
   meta: ok
   verdict: sourceavailable
   developerName: Mycelium Developers
   repository: https://github.com/mycelium-com/wallet-android
-  bitcoinOrgId: mycelium
 iphone:
   appId: com.mycelium.wallet-ios
   idd: 943912290
@@ -50,10 +48,9 @@ iphone:
   released: 2014-12-17
   updated: 2026-09-25
   version: '2.12'
-  reviews: 21
-  icon: com.mycelium.wallet-ios.webp
+  reviews: 25
   meta: ok
-  verdict: sourceavailable
+  verdict: nosource
   developerName: MRD X-Change GmbH
   repository: https://github.com/mycelium-com/wallet-ios
 
@@ -84,6 +81,8 @@ This app is **source available**.
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The [public iPhone repository](https://github.com/mycelium-com/wallet-ios) is archived. Its last commit is from May 2023 and its code stops at version 1.16 of the old Objective-C app. The App Store app is now in its 2.x versions and handles Ethereum, Tron and USDT, none of which is in that code, so the source of the current app is not public. The verdict changes from {% include verdictBadge.html verdict="sourceavailable" type='short' %} to {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 **Disclaimer**: The authors of this project have contributed to Mycelium Android.
 

@@ -1,7 +1,6 @@
 ---
-wsId: youngPlatformSwapBitcoin
 title: 'Young Platform: Cash & Crypto'
-date: 2025-12-26
+date: 2026-10-30
 authors:
 - danny
 website: https://exchange.youngplatform.com
@@ -17,9 +16,8 @@ android:
   appId: com.youngplatform.exchange
   users: 500000
   appCountry: us
-  updated: 2026-09-25
-  version: 5.11.0
-  icon: com.youngplatform.exchange.webp
+  updated: 2026-10-12
+  version: 5.13.0
   meta: ok
   verdict: custodial
   developerName: Young Platform S.p.a
@@ -28,10 +26,9 @@ iphone:
   idd: '1558657687'
   appCountry: fr
   released: 2021-06-18
-  updated: 2026-09-28
-  version: 5.11.0
-  reviews: 1099
-  icon: com.youngplatform.exchange.webp
+  updated: 2026-10-06
+  version: 5.13.0
+  reviews: 1100
   meta: ok
   verdict: custodial
   developerName: Young Agency S.R.L
@@ -60,4 +57,4 @@ Translated from Italian:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

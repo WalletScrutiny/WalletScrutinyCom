@@ -1,7 +1,6 @@
 ---
-wsId: elegroExchange
 title: 'elegro Exchange - Bitcoin and '
-date: 2023-07-03
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -24,7 +23,6 @@ android:
   released: 2019-06-26
   updated: 2021-04-29
   version: 1.0.4
-  icon: cryptoex.elegro.io.webp
   meta: removed
   verdict: wip
   developerName: Niko Technologies
@@ -36,7 +34,6 @@ iphone:
   updated: 2021-04-30
   version: '1.4'
   reviews: 2
-  icon: cryptoex.elegro.io.webp
   meta: obsolete
   verdict: wip
   developerName: Niko Technologies
@@ -94,4 +91,4 @@ So far we are not even sure it is a wallet ... Please check back later.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

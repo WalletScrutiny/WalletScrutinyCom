@@ -1,6 +1,6 @@
 ---
 title: Axir Wallet
-date: 2026-01-14
+date: 2026-10-30
 website: https://axirwallet.com/
 redirect_from:
 - /android/com.axir.axrwallet/
@@ -11,7 +11,6 @@ android:
   released: 2024-05-22
   updated: 2025-01-15
   version: 0.2.37
-  icon: com.axir.axrwallet.webp
   meta: stale
   verdict: wip
   developerName: Axir Wallet

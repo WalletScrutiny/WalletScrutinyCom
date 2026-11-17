@@ -1,6 +1,6 @@
 ---
 title: Antalpha
-date: 2023-06-03
+date: 2026-10-30
 redirect_from:
 - /android/cloud.antalpha.app/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2023-02-21
   updated: 2026-08-06
   version: 3.15.0
-  icon: cloud.antalpha.app.webp
   meta: fewusers
   verdict: wip
   developerName: Antalpha Platform Technologies Limited

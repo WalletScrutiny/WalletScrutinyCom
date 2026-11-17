@@ -1,0 +1,13 @@
+{
+  "release": "v8.0.2",
+  "rules": [
+    {
+      "files": "android/**",
+      "belongs_to": "android",
+      "why": "This folder builds the Android app: this line names the wallet's own app id.",
+      "proof": [
+        "https://github.com/BlueWallet/BlueWallet/blob/a7fe068709b0f91c504b28accda8bc85ee4c3714/android/app/build.gradle#L86"
+      ]
+    }
+  ]
+}

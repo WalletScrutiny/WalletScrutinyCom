@@ -1,6 +1,6 @@
 ---
 title: Cryptseifu
-date: 2023-08-04
+date: 2026-10-30
 website: http://cryptseifu.com#deadLink
 redirect_from:
 - /android/com.app.cryptseifu/
@@ -10,7 +10,6 @@ android:
   released: 2019-10-23
   updated: 2019-10-24
   version: 0.0.3
-  icon: com.app.cryptseifu.webp
   meta: removed
   verdict: wip
   developerName: Cryptseifu

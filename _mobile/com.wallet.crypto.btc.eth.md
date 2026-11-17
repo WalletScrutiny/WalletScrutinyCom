@@ -1,7 +1,6 @@
 ---
-wsId: ironwallet
 title: 'IronWallet: Crypto Wallet'
-date: 2024-09-02
+date: 2026-10-30
 authors:
 - danny
 website: https://ironwallet.io/
@@ -19,10 +18,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2023-09-06
-  updated: 2026-08-20
-  version: 1.13.1
-  reviews: 109
-  icon: com.wallet.crypto.btc.eth.webp
+  updated: 2026-10-07
+  version: 1.14.0
+  reviews: 111
   meta: ok
   verdict: nosource
   developerName: INWAY AKTIENGESELLSCHAFT
@@ -32,10 +30,9 @@ iphone:
   idd: '6451146325'
   appCountry: us
   released: 2023-10-02
-  updated: 2026-08-24
-  version: 1.13.1
+  updated: 2026-10-08
+  version: 1.14.0
   reviews: 60
-  icon: com.wallet.crypto.btc.eth.webp
   meta: ok
   verdict: nosource
   developerName: INWAY AKTIENGESELLSCHAFT
@@ -68,7 +65,7 @@ An issue has been opened at [https://github.com/Ironwallet/IronWallet/issues/1](
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Secure your wallet with a PIN or biometric login." source="Store description" %}
 

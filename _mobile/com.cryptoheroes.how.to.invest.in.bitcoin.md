@@ -1,6 +1,6 @@
 ---
 title: How To Invest In Bitcoin
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/com.cryptoheroes.how.to.invest.in.bitcoin/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-22
   updated: 2021-06-22
   version: '1.0'
-  icon: com.cryptoheroes.how.to.invest.in.bitcoin.webp
   meta: removed
   verdict: wip
 

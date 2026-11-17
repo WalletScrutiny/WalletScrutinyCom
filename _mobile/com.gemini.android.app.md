@@ -1,7 +1,6 @@
 ---
-wsId: geminiwallet
 title: Gemini Markets & Credit Card
-date: 2020-05-29
+date: 2026-10-30
 authors:
 - leo
 website: https://www.gemini.com
@@ -19,10 +18,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2018-12-10
-  updated: 2026-09-28
-  version: 26.925.0
-  reviews: 8652
-  icon: com.gemini.android.app.webp
+  updated: 2026-10-09
+  version: 26.1009.0
+  reviews: 8661
   meta: ok
   verdict: custodial
   developerName: Gemini Space Station, Inc.
@@ -31,10 +29,9 @@ iphone:
   idd: 1408914447
   appCountry: us
   released: 2018-12-11
-  updated: 2026-09-24
-  version: 26.922.0
-  reviews: 109809
-  icon: com.gemini.ios.webp
+  updated: 2026-10-12
+  version: 26.1009.0
+  reviews: 109908
   meta: ok
   verdict: custodial
   developerName: Gemini Trust Company, LLC

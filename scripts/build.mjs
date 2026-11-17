@@ -1,7 +1,11 @@
 #!/usr/bin/env node
 /**
- * Production build: precompute -> webpack -> redirect map -> jekyll -> minify html -> compress.
- * Runs each step sequentially so compress never races ahead of Jekyll.
+ * Production build: (precompute | webpack | redirect map) -> jekyll -> (local source-analysis export) + triage statements -> postprocess.
+ *
+ * The three inputs Jekyll needs (_data/precomputed.json, _includes/scripts.html
+ * from webpack, redirects.map) do not depend on each other, so they run at the
+ * same time. Jekyll is single-threaded and waits for all three; the
+ * post-processing (minify + brotli) runs once Jekyll has written _site/.
  */
 
 import { spawn } from 'child_process';
@@ -27,12 +31,15 @@ function run(command, args, env = {}) {
 async function main() {
   rmSync('dist', { recursive: true, force: true });
 
-  await run('node', ['scripts/precompute-wallet-data.mjs']);
-  await run('npx', ['webpack', '--mode', 'production', '--no-watch']);
-  await run('node', ['scripts/generate-redirect-map.mjs']);
+  await Promise.all([
+    run('node', ['scripts/precompute-wallet-data.mjs']),
+    run('npx', ['webpack', '--mode', 'production', '--no-watch']),
+    run('node', ['scripts/generate-redirect-map.mjs']),
+  ]);
   await run('bundle', ['exec', 'jekyll', 'build'], { JEKYLL_ENV: 'production' });
-  await run('node', ['scripts/minify-html.mjs']);
-  await run('npm', ['run', 'compress']);
+  await run('node', ['scripts/copy-source-analysis-export.mjs']);
+  await run('node', ['scripts/build-dependency-triage.mjs']);
+  await run('node', ['scripts/postprocess-site.mjs']);
 }
 
 main().catch((err) => {

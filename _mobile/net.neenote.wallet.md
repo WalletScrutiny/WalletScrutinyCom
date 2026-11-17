@@ -1,6 +1,6 @@
 ---
 title: NEENOTE
-date: 2024-04-03
+date: 2026-10-30
 website: https://web.archive.org/web/20250227125010/http://www.neenote.net/
 redirect_from:
 - /android/net.neenote.wallet/
@@ -10,7 +10,6 @@ android:
   released: 2021-04-26
   updated: 2021-04-26
   version: 4.0.4
-  icon: net.neenote.wallet.webp
   meta: removed
   verdict: wip
   developerName: Neetek

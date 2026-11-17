@@ -1,7 +1,6 @@
 ---
-wsId: relaiBuyBitcoin
 title: 'Relai: Bitcoin Savings App'
-date: 2023-07-11
+date: 2026-10-30
 authors:
 - danny
 website: https://relai.app
@@ -18,9 +17,8 @@ android:
   appId: com.relai
   users: 100000
   appCountry: us
-  updated: 2026-09-08
-  version: 3.19.0
-  icon: com.relai.webp
+  updated: 2026-10-02
+  version: 3.20.1
   meta: ok
   verdict: nosource
   developerName: Relai
@@ -29,10 +27,9 @@ iphone:
   idd: '1513185997'
   appCountry: ch
   released: 2020-07-01
-  updated: 2026-09-09
-  version: 3.19.0
-  reviews: 3516
-  icon: ch.relai.relai.webp
+  updated: 2026-10-03
+  version: 3.20.1
+  reviews: 3533
   meta: ok
   verdict: nosource
   developerName: Relai App GmbH
@@ -61,4 +58,4 @@ It seems that relai app's Android repository is located [here](https://github.co
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

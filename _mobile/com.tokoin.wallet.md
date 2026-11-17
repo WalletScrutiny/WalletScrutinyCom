@@ -1,7 +1,6 @@
 ---
-wsId: TokoinTWallet
 title: My-T Wallet
-date: 2025-01-15
+date: 2026-10-30
 authors:
 - danny
 website: https://tokoin.io
@@ -21,7 +20,6 @@ android:
   updated: 2023-08-15
   version: 3.6.1
   reviews: 6
-  icon: com.tokoin.wallet.webp
   meta: obsolete
   verdict: nosource
   developerName: Tokoin
@@ -32,7 +30,6 @@ iphone:
   updated: 2023-08-16
   version: 3.6.1
   reviews: 5
-  icon: com.tokoin.wallet.webp
   meta: removed
   verdict: nosource
   developerName: TOKOIN
@@ -61,4 +58,4 @@ Evidently, this is a **self-custodial** app. However we could not find a link to
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

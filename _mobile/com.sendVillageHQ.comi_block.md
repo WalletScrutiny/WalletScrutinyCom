@@ -1,6 +1,6 @@
 ---
 title: 'ComiBlock: Invest Confidently'
-date: 2024-08-21
+date: 2026-10-30
 website: https://comiblock.com#deadLink
 redirect_from:
 - /android/com.sendVillageHQ.comi_block/
@@ -10,7 +10,6 @@ android:
   released: 2022-09-11
   updated: 2023-08-27
   version: 1.1.6
-  icon: com.sendVillageHQ.comi_block.webp
   meta: removed
   verdict: wip
   developerName: ComiBlock Capital

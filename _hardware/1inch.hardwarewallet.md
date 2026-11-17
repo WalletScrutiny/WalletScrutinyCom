@@ -20,11 +20,10 @@ shop:
 country: 
 price: 
 repository: 
-icon: 1inch.hardwarewallet.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2025-10-03
+date: 2026-10-30
 signer: 
 twitter: 
 social:

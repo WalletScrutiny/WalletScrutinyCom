@@ -1,6 +1,6 @@
 ---
 title: 'Jetbot : AI Cryptocurrency Bot'
-date: 2024-02-05
+date: 2026-10-30
 website: https://jetbot.live#deadLink
 redirect_from:
 - /android/com.jetbot/
@@ -10,7 +10,6 @@ android:
   released: 2022-03-08
   updated: 2022-04-28
   version: '1.19'
-  icon: com.jetbot.webp
   meta: removed
   verdict: wip
   developerName: spare x

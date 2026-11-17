@@ -108,7 +108,7 @@ git checkout -b add-wallet-example-app</code></pre>
     </li>
     <li>
       <h3>3. Add an icon</h3>
-      <p>Place a square WebP of at most 512 px in the matching folder under <code>images/wIcons/</code> — for example <code>images/wIcons/hardware/my-new-wallet.webp</code> — and set the <code>icon:</code> field in the front matter to match. <code>convert icon.png -quality 85 icon.webp</code> (ImageMagick) turns a PNG or JPEG into one.</p>
+      <p>Place a square WebP of at most 512 px in the matching folder under <code>images/wIcons/</code> — for example <code>images/wIcons/hardware/my-new-wallet.webp</code> — named after the product's <code>appId</code>. The site finds it by that name; there is no front matter field for it, and a product without an icon shows a placeholder. <code>convert icon.png -quality 85 icon.webp</code> (ImageMagick) turns a PNG or JPEG into one.</p>
       <pre><code>./updateImages.sh</code></pre>
     </li>
   </ol>

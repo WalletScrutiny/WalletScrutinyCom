@@ -1,6 +1,6 @@
 ---
 title: 'Pulpal: Exchange'
-date: 2024-12-23
+date: 2026-10-30
 website: https://pulpal.ir
 redirect_from:
 - /android/ir.pulpal.app/
@@ -10,7 +10,6 @@ android:
   released: 2022-01-06
   updated: 2022-09-06
   version: 1.0.0
-  icon: ir.pulpal.app.webp
   meta: removed
   verdict: wip
   developerName: Pulpal Inc

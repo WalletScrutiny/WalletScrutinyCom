@@ -1,7 +1,6 @@
 ---
-wsId: hkd
 title: HKD.com
-date: 2023-02-13
+date: 2026-10-30
 authors:
 - danny
 website: http://hkd.com
@@ -18,10 +17,9 @@ android:
   users: 100000
   appCountry: us
   released: 2020-09-11
-  updated: 2026-09-24
-  version: 3.4.2
+  updated: 2026-10-09
+  version: 3.4.3
   reviews: 16
-  icon: hkd.com.webp
   meta: ok
   verdict: custodial
   developerName: HKD.com Limited
@@ -30,10 +28,9 @@ iphone:
   idd: '1522416988'
   appCountry: us
   released: 2020-07-13
-  updated: 2026-09-26
-  version: 3.4.2
-  reviews: 52
-  icon: com.hkd.hkdex.webp
+  updated: 2026-10-12
+  version: 3.4.3
+  reviews: 53
   meta: ok
   verdict: custodial
   developerName: HKD.COM LIMITED
@@ -72,4 +69,4 @@ As all mentions of "securing assets" states that HKD protects *the clients' asse
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

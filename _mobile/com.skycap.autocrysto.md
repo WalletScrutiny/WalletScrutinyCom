@@ -1,6 +1,6 @@
 ---
 title: AutoCrysto
-date: 2024-07-05
+date: 2026-10-30
 website: https://autocrysto.trade#deadLink
 redirect_from:
 - /android/com.skycap.autocrysto/
@@ -10,7 +10,6 @@ android:
   released: 2019-11-18
   updated: 2020-04-27
   version: 1.0.3
-  icon: com.skycap.autocrysto.webp
   meta: removed
   verdict: wip
   developerName: Shibha Corporation

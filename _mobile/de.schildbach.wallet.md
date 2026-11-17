@@ -1,11 +1,12 @@
 ---
 title: Bitcoin Wallet
-date: 2025-05-30
+bitcoinOrgId: bitcoinwallet
+date: 2026-10-30
 authors:
 - leo
 - danny
 - keraliss
-website: https://github.com/bitcoin-wallet/bitcoin-wallet
+website: https://gitlab.com/bitcoin-wallet/bitcoin-wallet
 redirect_from:
 - /schildbach/
 - /de.schildbach.wallet/
@@ -20,15 +21,15 @@ android:
   updated: 2025-03-06
   version: '10.25'
   reviews: 2098
-  icon: de.schildbach.wallet.webp
   signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
+  playStore: removed
   alternativeStores:
   - fdroid
   - zapstore
-  meta: removed
+  meta: ok
   verdict: sourceavailable
   developerName: Bitcoin Wallet developers
-  repository: https://github.com/bitcoin-wallet/bitcoin-wallet
+  repository: https://gitlab.com/bitcoin-wallet/bitcoin-wallet
 
 ---
 

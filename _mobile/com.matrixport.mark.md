@@ -1,10 +1,9 @@
 ---
-wsId: matrixport
 title: BIT - Buy US Stocks & Crypto
-date: 2021-09-15
+date: 2026-10-30
 authors:
 - danny
-website: https://invest.matrixport.com
+website: https://www.bit.com
 twitter: realMatrixport
 social:
 - https://www.linkedin.com/company/matrixport
@@ -18,10 +17,9 @@ android:
   users: 100000
   appCountry: cn
   released: 2019-10-23
-  updated: 2026-09-24
-  version: 3.9.14
-  reviews: 874
-  icon: com.matrixport.mark.webp
+  updated: 2026-10-01
+  version: 3.9.15
+  reviews: 888
   meta: ok
   verdict: custodial
   developerName: MATRIX TECH PTE. LTD
@@ -30,15 +28,16 @@ iphone:
   idd: 1488557973
   appCountry: us
   released: 2019-11-25
-  updated: 2026-09-30
-  version: 4.7.81
-  reviews: 60
-  icon: com.matrixport.mark.webp
+  updated: 2026-10-01
+  version: 4.8.00
+  reviews: 61
   meta: ok
   verdict: custodial
   developerName: Matrixport Technologies Ltd
 
 ---
+
+**Update 2026-10-30:** Matrixport [rebranded as BIT](https://www.bit.com/pressroom/matrixport-rebrands-as-bit) on 20 March 2026, and both apps are now branded BIT. Its old websites now redirect to [bit.com](https://www.bit.com/). BIT says "client accounts, products and services remain the same, and legal entities and contractual arrangements are unchanged".
 
 ## Android
 
@@ -62,4 +61,4 @@ This cryptocurrency finance app is **custodial** and thus, **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

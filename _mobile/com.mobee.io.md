@@ -1,7 +1,6 @@
 ---
-wsId: mobeeBitcoinID
 title: 'Mobee: Trade Bitcoin & Crypto'
-date: 2025-11-19
+date: 2026-10-30
 authors:
 - danny
 website: https://mobee.com/
@@ -21,10 +20,9 @@ android:
   users: 500000
   appCountry: us
   released: 2022-11-14
-  updated: 2026-09-29
-  version: 2.1.2
+  updated: 2026-10-13
+  version: 2.1.4
   reviews: 2
-  icon: com.mobee.io.webp
   meta: ok
   verdict: custodial
   developerName: Mobee - PT CTXG Indonesia Berkarya
@@ -33,10 +31,9 @@ iphone:
   idd: '1643474845'
   appCountry: id
   released: 2023-07-19
-  updated: 2026-09-29
-  version: 2.1.2
-  reviews: 1027
-  icon: io.mobee.finance.webp
+  updated: 2026-10-13
+  version: 2.1.4
+  reviews: 1036
   meta: ok
   verdict: custodial
   developerName: PT CTXG Indonesia Berkarya
@@ -78,7 +75,7 @@ This is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Keamanan biometrik Akses akun terjaga dengan scan wajah atau sidik jari." source="Website" %}
 

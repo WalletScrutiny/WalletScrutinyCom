@@ -5,18 +5,17 @@ authors:
 - danny
 released: 2024-11-10
 discontinued: 
-updated: 2026-09-15
-version: 0.9.1
+updated: 2026-10-13
+version: 0.9.3
 binaries: https://github.com/ACINQ/phoenixd/releases
 provider: ACINQ
 providerWebsite: https://acinq.co/
 website: https://phoenix.acinq.co/server
 repository: https://github.com/ACINQ/phoenixd
-icon: phoenixd.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2026-01-01
+date: 2026-10-30
 twitter: acinq_co
 social: 
 builds: 

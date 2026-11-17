@@ -1,7 +1,6 @@
 ---
-wsId: choiceBitcoinIRA
 title: 'Choice: Bitcoin in your IRA'
-date: 2023-12-15
+date: 2026-10-30
 authors:
 - danny
 website: https://www.choiceapp.io/
@@ -21,7 +20,6 @@ android:
   updated: 2026-09-11
   version: 2.28.0
   reviews: 31
-  icon: com.holdings.choice.webp
   meta: ok
   verdict: custodial
   developerName: Choice IRA
@@ -32,13 +30,14 @@ iphone:
   released: 2021-08-05
   updated: 2026-09-12
   version: 2.28.0
-  reviews: 1497
-  icon: com.holdings.choice.webp
+  reviews: 1496
   meta: ok
   verdict: custodial
   developerName: Choice Holdings Incorporated
 
 ---
+
+**Update 2026-10-30:** Kingdom Trust, the company behind Choice, merged with Digital Trust in 2024, and Digital Trust is now the custodian for all Choice accounts ([Choice support](https://support.choiceapp.io/en/articles/5643365-what-is-choice-kingdom-trust-digital-trust-and-how-are-they-related)).
 
 ## Android
 
@@ -69,4 +68,4 @@ They also have an option for users to use their own private key using another ap
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

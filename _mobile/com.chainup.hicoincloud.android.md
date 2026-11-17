@@ -1,7 +1,6 @@
 ---
-wsId: chainUpCustody
 title: ChainUp Custody
-date: 2025-02-28
+date: 2026-10-30
 authors:
 - danny
 website: https://custody.chainup.com/
@@ -21,9 +20,8 @@ android:
   users: 1000
   appCountry: us
   released: 2022-12-09
-  updated: 2026-09-24
-  version: 6.11.1
-  icon: com.chainup.hicoincloud.android.webp
+  updated: 2026-10-13
+  version: 6.11.4
   meta: ok
   verdict: custodial
   developerName: KeySecure
@@ -32,10 +30,9 @@ iphone:
   idd: '1438831143'
   appCountry: us
   released: 2018-12-13
-  updated: 2026-09-26
-  version: 6.11.1
+  updated: 2026-10-03
+  version: 6.11.3
   reviews: 3
-  icon: com.joycoin.hicoin.webp
   meta: ok
   verdict: custodial
   developerName: YALASO PTE. LTD.
@@ -56,7 +53,7 @@ Since no single party has control over all of the private key shares, together w
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Fingerprint and face unlocking, safe and efficient." source="Store" %}
 

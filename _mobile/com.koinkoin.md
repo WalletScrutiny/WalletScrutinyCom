@@ -1,7 +1,6 @@
 ---
-wsId: koinkoin
 title: KoinKoin Exchange
-date: 2024-01-18
+date: 2026-10-30
 authors:
 - danny
 website: https://koinkoin.io/
@@ -22,7 +21,6 @@ android:
   released: 2021-02-22
   updated: 2025-01-31
   version: 6.2.5
-  icon: com.koinkoin.webp
   meta: removed
   verdict: custodial
   developerName: KoinKoin Development Enterprise
@@ -34,7 +32,6 @@ iphone:
   updated: 2025-09-04
   version: 2.4.1
   reviews: 1
-  icon: com.koinkoin.app.webp
   meta: removed
   verdict: custodial
   developerName: KoinKoin Ltd
@@ -67,7 +64,7 @@ In general, it is inadvisable to use apps with the specific purpose of exchangin
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="buyWithCC" quote="purchase cryptocurrency via Credit / Debit card, Mobile money and through Bank transfer" source="Store" %}
 

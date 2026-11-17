@@ -1,7 +1,6 @@
 ---
-wsId: STICPAY
 title: STICPAY
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - danny
 website: http://sticpay.com
@@ -21,7 +20,6 @@ android:
   updated: 2026-07-22
   version: '4.48'
   reviews: 16
-  icon: com.sticpay.app.sticpay.webp
   meta: ok
   verdict: custodial
   developerName: STICPAY
@@ -32,8 +30,7 @@ iphone:
   released: 2017-09-05
   updated: 2026-03-31
   version: '4.02'
-  reviews: 28
-  icon: com.sticpay.app.webp
+  reviews: 29
   meta: ok
   verdict: custodial
   developerName: STIC FINANCIAL LTD.
@@ -60,4 +57,4 @@ Presumably, the funds are under custody of the providers and identity verificati
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: guapBitcoinWallet
 title: Guap - Stablecoin Wallet
-date: 2026-05-02
+date: 2026-10-30
 authors:
 - danny
 website: https://useguap.com
@@ -11,12 +10,11 @@ redirect_from:
 - /iphone/com.useguap.ios.rn/
 android:
   appId: com.useguap.android.rn
-  users: 5000
+  users: 10000
   appCountry: us
   released: 2025-12-05
   updated: 2026-09-18
   version: 1.0.3
-  icon: com.useguap.android.rn.webp
   meta: ok
   verdict: custodial
   developerName: Future Money Labs
@@ -27,8 +25,7 @@ iphone:
   released: 2025-12-08
   updated: 2026-09-22
   version: 1.0.3
-  reviews: 6
-  icon: com.useguap.ios.rn.webp
+  reviews: 7
   meta: ok
   verdict: custodial
   developerName: Future Money Labs
@@ -63,4 +60,4 @@ No public source repository was found for the Android app via Google Play, the G
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

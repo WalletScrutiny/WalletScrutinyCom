@@ -1,7 +1,6 @@
 ---
-wsId: cashInCryptoNaira
 title: 'Cash-in: Crypto to naira app'
-date: 2024-09-24
+date: 2026-11-01
 authors:
 - danny
 website: https://cash-in.app
@@ -22,9 +21,8 @@ android:
   updated: 2026-08-22
   version: 2.1.0
   reviews: 131
-  icon: com.whitehat.cashin_app.webp
   meta: ok
-  verdict: nosendreceive
+  verdict: nobtc
   developerName: Macroblocs Ltd
 iphone:
   appId: com.macroblocs.cashinApp
@@ -33,13 +31,13 @@ iphone:
   released: 2022-10-04
   updated: 2026-09-02
   version: 2.1.0
-  reviews: 1321
-  icon: com.macroblocs.cashinApp.webp
+  reviews: 1333
   meta: ok
-  verdict: nosendreceive
+  verdict: nobtc
   developerName: Macroblocs Limited
 
 ---
+**Update 2026-11-01:** Cash-in pays bitcoin you receive straight out to your bank as naira, but it keeps money you top up as a USDT balance that can't be withdrawn. It holds your money, but not as bitcoin. That makes it {% include verdictBadge.html verdict="nobtc" type='short' %}.
 
 ## Android
 
@@ -74,4 +72,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: idax
 title: iDAX Exchange
-date: 2023-05-10
+date: 2026-10-30
 authors:
 - danny
 website: https://www.idax.exchange
@@ -17,7 +16,6 @@ android:
   updated: 2022-09-27
   version: 5.5.0_push_v2
   reviews: 6
-  icon: com.idax.exchange.webp
   meta: removed
   verdict: custodial
   developerName: Ard Financial Group
@@ -29,7 +27,6 @@ iphone:
   updated: 2023-04-27
   version: 1.1.2
   reviews: 2
-  icon: com.idax.exchange.webp
   meta: removed
   verdict: custodial
   developerName: Ard Financial Group
@@ -66,4 +63,4 @@ The ability to freeze or lock the user's funds is a good sign that this is a **c
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

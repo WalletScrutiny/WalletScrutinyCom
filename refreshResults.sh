@@ -34,9 +34,6 @@ git diff --name-only | while read file; do
   fi
 done
 
-print_refresh_subsection "Duplicate wsIds in mobile"
-diff <( rgrep '^wsId: ' _mobile/ | sed 's/.*wsId: //g' | sed -e '/^$/d' | sort ) <( rgrep '^wsId: ' _mobile/ | sed 's/.*wsId: //g' | sed -e '/^$/d' | sort -u )
-
 print_refresh_subsection "Unreleased/defunct hardware wallets"
 grep -l "meta: defunct" `grep -l "verdict: unreleased" _hardware/*`
 
@@ -49,8 +46,9 @@ echo "... than yesterday:  $( moreSince 'one.days.ago' )"
 echo "... than last week:  $( moreSince 'one.weeks.ago' )"
 echo "... than last month: $( moreSince 'one.months.ago' )"
 
-# List missing icons (android/iphone: nested icon: in _mobile/*.md).
-# Icons are compared by stem: they were png/jpg once and are webp now.
+# List missing icons. Every icon is named after its listing's appId
+# (android/iphone: nested appId: in _mobile/*.md). Compared by stem: they were
+# png/jpg once and are webp now.
 strip_icon_ext() {
   sed -E 's/\.(webp|png|jpe?g)$//'
 }
@@ -59,8 +57,8 @@ collect_mobile_icons() {
   awk -v plat="$platform" '
     $0 ~ "^" plat ":" { in_plat = 1; next }
     /^[a-zA-Z]/ { in_plat = 0 }
-    in_plat && /^  icon: / { sub(/^  icon: /, ""); print }
-  ' _mobile/*.md 2>/dev/null | strip_icon_ext | sort -u
+    in_plat && /^  appId: / { sub(/^  appId: /, ""); gsub(/["\047]/, ""); print }
+  ' _mobile/*.md 2>/dev/null | sort -u
 }
 
 print_refresh_subsection "Missing wallet icons"
@@ -69,7 +67,7 @@ missingIcons=$(
     if [ "$platform" = "android" ] || [ "$platform" = "iphone" ]; then
       referenced=$(collect_mobile_icons "$platform")
     else
-      referenced=$(grep -h '^icon: .' _$platform/* 2>/dev/null | sed 's/^icon: //' | strip_icon_ext | sort -u)
+      referenced=$(grep -h '^appId: .' _$platform/* 2>/dev/null | sed -E "s/^appId: //; s/[\"']//g" | sort -u)
     fi
     comm -23 \
       <(echo "$referenced") \

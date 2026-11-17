@@ -1,7 +1,6 @@
 ---
-wsId: haqabiCrypto
 title: 'Haqabi: Crypto Wallet'
-date: 2025-11-18
+date: 2026-10-30
 authors:
 - danny
 website: https://haqabi.com
@@ -15,7 +14,6 @@ android:
   appCountry: us
   updated: 2025-07-16
   version: '1.21'
-  icon: com.haqabi.mobilewallet.webp
   meta: stale
   verdict: custodial
   developerName: Haqqex Ltd
@@ -27,7 +25,6 @@ iphone:
   updated: 2025-07-16
   version: '1.21'
   reviews: 4
-  icon: com.haqabi.mobile-wallet.webp
   meta: removed
   verdict: custodial
   developerName: Haqqex Ltd
@@ -54,4 +51,4 @@ The combination of proprietary "seedless recovery", inability to use the seed ph
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

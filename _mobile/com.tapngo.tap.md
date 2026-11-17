@@ -1,7 +1,6 @@
 ---
-wsId: tapngo
 title: "Tap - Mobile Finance\_"
-date: 2021-09-11
+date: 2026-10-30
 authors:
 - danny
 website: https://www.withtap.com
@@ -21,7 +20,6 @@ android:
   updated: 2026-09-15
   version: 3.8.8
   reviews: 304
-  icon: com.tapngo.tap.webp
   meta: ok
   verdict: custodial
   developerName: Tap Global Limited
@@ -32,8 +30,7 @@ iphone:
   released: 2019-12-20
   updated: 2026-09-16
   version: 3.8.8
-  reviews: 1923
-  icon: com.TapGlobal.tap.webp
+  reviews: 1925
   meta: ok
   verdict: custodial
   developerName: Tap Global Limited
@@ -44,7 +41,7 @@ iphone:
 
 This country specific app is not available in some jurisdictions so we were not able to download the app. 
 
-We have to rely on the [Terms and Conditions](https://www.tap.global/terms-and-conditions#deadLink) page to be able to ascertain the nature of this service.
+We have to rely on the [Terms and Conditions](https://terms.withtap.com/terms/generally_applicable_terms/GB) page to be able to ascertain the nature of this service.
 
 Under Section 3.4 of the Terms and Conditions page:
 
@@ -73,7 +70,7 @@ With all funds in cold storage, this app is **custodial** and thus, it **cannot 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Your account is secured with encryption, biometric login, and you can freeze/unfreeze your card instantly for peace of mind." source="Store description" %}
 

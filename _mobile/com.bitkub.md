@@ -1,7 +1,6 @@
 ---
-wsId: bitkubExchange
 title: 'Bitkub : Buy Bitcoin & Crypto'
-date: 2023-04-04
+date: 2026-10-30
 authors:
 - danny
 website: http://www.bitkub.com
@@ -17,25 +16,23 @@ android:
   users: 5000000
   appCountry: us
   released: 2019-04-20
-  updated: 2026-09-14
-  version: 4.21.1
+  updated: 2026-10-02
+  version: 4.22.0
   reviews: 46
-  icon: com.bitkub.webp
   meta: ok
   verdict: custodial
-  developerName: Bitkub Online Co., Ltd. (Head Office)
+  developerName: Bitkub Online Co., Ltd.
 iphone:
   appId: com.bitkub.app
   idd: 1437814700
   appCountry: th
   released: 2019-04-24
-  updated: 2026-09-16
-  version: 4.21.1
-  reviews: 19790
-  icon: com.bitkub.app.webp
+  updated: 2026-10-07
+  version: 4.22.0
+  reviews: 20068
   meta: ok
   verdict: custodial
-  developerName: Bitkub Online Co., Ltd
+  developerName: Bitkub Online Co., Ltd.
 
 ---
 
@@ -77,4 +74,4 @@ While this is a trading platform it is still possible to send and receive BTC. W
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

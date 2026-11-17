@@ -1,7 +1,6 @@
 ---
-wsId: nearMobileCrypto
 title: NEAR Mobile - Crypto Wallet
-date: 2025-11-26
+date: 2026-10-30
 authors:
 - danny
 website: https://nearmobile.app/
@@ -18,10 +17,9 @@ android:
   users: 500000
   appCountry: us
   released: 2023-02-21
-  updated: 2026-08-04
-  version: 3.11.1
-  reviews: 1365
-  icon: com.peersyst.nearmobilewallet.webp
+  updated: 2026-10-12
+  version: 4.0.1
+  reviews: 1366
   meta: ok
   verdict: custodial
   developerName: Peersyst Technology
@@ -32,8 +30,7 @@ iphone:
   released: 2023-03-20
   updated: 2026-07-20
   version: 3.11.0
-  reviews: 836
-  icon: com.peersyst.nearmobilewallet.webp
+  reviews: 840
   meta: ok
   verdict: custodial
   developerName: Peersyst
@@ -80,7 +77,7 @@ And since the private key is not of Bitcoin, we can conclude that this is **not 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="We have also included biometric authentication and PIN protection for peace of mind" source="Store description" %}
 

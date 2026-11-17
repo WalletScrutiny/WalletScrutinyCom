@@ -1,6 +1,6 @@
 ---
 title: HIBIT - 암호화폐(비트코인,이더리움) 거래소
-date: 2022-01-15
+date: 2026-10-30
 redirect_from:
 - /android/cme.hibitex.app/
 android:
@@ -10,7 +10,6 @@ android:
   updated: 2018-11-14
   version: '1.02'
   reviews: 6
-  icon: cme.hibitex.app.webp
   meta: removed
   verdict: wip
 

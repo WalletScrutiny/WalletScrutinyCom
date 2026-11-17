@@ -1,7 +1,6 @@
 ---
-wsId: oppiWallet
 title: 'Oppi: Crypto Wallet & Card'
-date: 2025-11-20
+date: 2026-10-30
 authors:
 - danny
 website: https://oppiwallet.com/en
@@ -20,10 +19,9 @@ android:
   users: 10000
   appCountry: us
   released: 2024-05-13
-  updated: 2026-09-29
-  version: 1.0.124
-  reviews: 10
-  icon: com.oppi.wallet.webp
+  updated: 2026-10-09
+  version: 1.0.125
+  reviews: 12
   meta: ok
   verdict: nosource
   developerName: Encoin Limited
@@ -35,7 +33,6 @@ iphone:
   updated: 2026-09-01
   version: 1.0.121
   reviews: 16
-  icon: com.oppi.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Encoin Limited
@@ -71,4 +68,4 @@ There were no claims regarding source-availability and a [search for the app ID]
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

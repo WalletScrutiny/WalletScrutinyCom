@@ -1,7 +1,6 @@
 ---
-wsId: BinanceUS
 title: 'Binance.US: Buy BTC & Crypto'
-date: 2020-11-17
+date: 2026-10-30
 authors:
 - leo
 website: https://www.binance.us
@@ -10,7 +9,6 @@ social:
 - https://www.linkedin.com/company/binance-us
 - https://www.facebook.com/BinanceUS
 features:
-- foss
 - buyWithCC
 - fingerprint
 - tradeAlts
@@ -23,10 +21,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-12-23
-  updated: 2026-09-26
-  version: 3.47.0
-  reviews: 6940
-  icon: com.binance.us.webp
+  updated: 2026-10-10
+  version: 3.48.1
+  reviews: 6951
   meta: ok
   verdict: custodial
   developerName: Binance.US
@@ -35,10 +32,9 @@ iphone:
   idd: 1492670702
   appCountry: us
   released: 2020-01-05
-  updated: 2026-09-29
-  version: 3.48.0
-  reviews: 111061
-  icon: us.binance.fiat.webp
+  updated: 2026-10-13
+  version: 3.49.0
+  reviews: 111062
   meta: ok
   verdict: custodial
   developerName: BAM Trading Services, Inc.
@@ -47,12 +43,12 @@ iphone:
 
 ## Android
 
+**Update 2026-10-30:** We removed the "FOSS" feature tag, which had no source code behind it.
+
 Binance being a big exchange, the description on Google Play only mentions
 security features like FDIC insurance for USD balance but no word on
 self-custody. Their website is not providing more information neither. We
 assume the app is a custodial offering and therefore **not verifiable**.
-
-{% include featureEvidence.html feature="foss" comment="(no justification provided by LLM)" %}
 
 ---
 

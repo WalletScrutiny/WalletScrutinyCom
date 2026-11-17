@@ -2,7 +2,8 @@
 
 # This script performs a full WalletScrutiny data/content refresh pipeline.
 # It updates app metadata from stores, syncs F-Droid alternativeStores on
-# Android source-available pages, syncs bitcoinOrgId from bitcoin.org _wallets,
+# Android source-available pages, keeps meta: removed for apps no channel ships
+# anymore, syncs bitcoinOrgId from bitcoin.org _wallets,
 # refreshes desktop/hardware sources,
 # regenerates derived assets, feature verification, and more.
 #
@@ -15,7 +16,8 @@
 #                  (example: android/xx.yy.zz,iphone/aa.bb.cc,mobile/app.slug).
 #                  If omitted, all mobile wallets are refreshed.
 # -g <githubToken> GitHub token required for desktop/hardware refresh tasks.
-#                  If omitted, desktop/hardware refresh is skipped.
+#                  If omitted, desktop/hardware refresh is skipped and the removed
+#                  check asks GitHub unauthenticated (rate-limited).
 #
 # Environment:
 # PPQ_API_KEY      Optional key that enables the feature verification step.
@@ -85,6 +87,15 @@ fi
 print_refresh_section "Zapstore check (Android alternativeStores)"
 if ! node scripts/zapstoreCheck.mjs; then
   echo "ERROR: Failed to run zapstoreCheck.mjs"
+  exit 1
+fi
+
+print_refresh_section "Removed check (Play delistings vs. F-Droid, Zapstore, GitHub releases)"
+if [ -n "$githubToken" ]; then
+  removedCheckArgs=(-g "$githubToken")
+fi
+if ! node scripts/removedCheck.mjs "${removedCheckArgs[@]}"; then
+  echo "ERROR: Failed to run removedCheck.mjs"
   exit 1
 fi
 

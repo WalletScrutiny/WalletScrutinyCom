@@ -1,6 +1,6 @@
 ---
 title: KryptoBot
-date: 2024-04-19
+date: 2026-10-30
 website: https://kryptobot.net
 redirect_from:
 - /android/com.kryptobot/
@@ -10,7 +10,6 @@ android:
   released: 2019-06-07
   updated: 2021-01-15
   version: 1.1.4
-  icon: com.kryptobot.webp
   meta: removed
   verdict: wip
   developerName: KryptoBot Sp. z o.o.

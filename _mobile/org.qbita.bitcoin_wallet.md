@@ -1,6 +1,6 @@
 ---
 title: QBita - Mercado de Bitcoin
-date: 2023-04-18
+date: 2026-10-30
 authors:
 - danny
 website: https://qbita.org
@@ -14,7 +14,6 @@ android:
   updated: 2019-08-28
   version: '1.0'
   reviews: 11
-  icon: org.qbita.bitcoin_wallet.webp
   meta: obsolete
   verdict: nosource
   developerName: Valzu

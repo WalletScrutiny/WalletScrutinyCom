@@ -1,7 +1,6 @@
 ---
-wsId: ccwallet
 title: 'CCWallet: Your Bitcoin Wallet.'
-date: 2021-09-19
+date: 2026-10-30
 authors:
 - leo
 - emanuel
@@ -20,7 +19,6 @@ android:
   updated: 2020-07-29
   version: 1.3.1
   reviews: 70
-  icon: com.ccwalletapp.png
   meta: removed
   verdict: sourceavailable
   developerName: CoinCasso OU
@@ -32,12 +30,16 @@ iphone:
   updated: 2020-07-30
   version: '1.1'
   reviews: 17
-  icon: ccx.wallet.webp
   meta: removed
   verdict: sourceavailable
   repository: https://github.com/coincasso/ccwallet
 
 ---
+
+**Update 2026-10-30:** The provider is gone. CoinCasso, the Estonian exchange behind
+CCWallet, is listed as dead in the
+[Cryptowisser exchange graveyard](https://www.cryptowisser.com/exchange/coincasso/)
+since March 2023, coincasso.com no longer loads, and ccwalletapp.com is gone.
 
 ## Android
 
@@ -185,6 +187,6 @@ An issue has been opened at [https://github.com/coincasso/ccwallet/issues/1](htt
 
 **Update 2021-09-11**: This app is not on the App Store anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 An issue has been opened at [https://github.com/coincasso/ccwallet/issues/1](https://github.com/coincasso/ccwallet/issues/1)

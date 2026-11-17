@@ -1,7 +1,6 @@
 ---
-wsId: coinTR
 title: "CoinTR |\_Bitcoin & Crypto"
-date: 2023-08-19
+date: 2026-10-30
 authors:
 - danny
 website: https://support.cointr.com
@@ -19,10 +18,9 @@ android:
   users: 100000
   appCountry: us
   released: 2022-08-17
-  updated: 2026-09-11
-  version: 3.37.0
+  updated: 2026-09-27
+  version: 3.38.1
   reviews: 8
-  icon: com.cointr.webp
   meta: ok
   verdict: custodial
   developerName: CoinTR
@@ -34,7 +32,6 @@ iphone:
   updated: 2023-11-28
   version: 2.1.1
   reviews: 4
-  icon: com.cointr.webp
   meta: removed
   verdict: custodial
   developerName: COINTR FINTECH FINANSAL DANISMANLIK LIMITED SIRKETI
@@ -79,4 +76,4 @@ There is another version of this app at:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

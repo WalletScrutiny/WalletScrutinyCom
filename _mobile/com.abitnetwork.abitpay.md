@@ -1,6 +1,6 @@
 ---
 title: ABiTPay
-date: 2023-04-20
+date: 2026-10-30
 redirect_from:
 - /android/com.abitnetwork.abitpay/
 android:
@@ -10,7 +10,6 @@ android:
   updated: 2021-10-09
   version: 1.2.6
   reviews: 3
-  icon: com.abitnetwork.abitpay.webp
   meta: removed
   verdict: wip
 

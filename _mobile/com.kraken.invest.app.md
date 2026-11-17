@@ -1,7 +1,6 @@
 ---
-wsId: krakenInvest
 title: 'Kraken: Buy Crypto & Stocks'
-date: 2021-08-21
+date: 2026-10-30
 authors:
 - danny
 website: https://www.kraken.com
@@ -22,10 +21,9 @@ android:
   users: 5000000
   appCountry: us
   released: 2020-12-30
-  updated: 2026-09-26
-  version: 3.83.0
-  reviews: 8552
-  icon: com.kraken.invest.app.webp
+  updated: 2026-10-12
+  version: 3.85.1
+  reviews: 8600
   meta: ok
   verdict: custodial
   developerName: Payward, Inc.
@@ -34,10 +32,9 @@ iphone:
   idd: '1481947260'
   appCountry: us
   released: 2021-06-01
-  updated: 2026-09-29
-  version: 3.83.0
-  reviews: 35362
-  icon: com.kraken.invest.app.webp
+  updated: 2026-10-13
+  version: 3.85.1
+  reviews: 35720
   meta: ok
   verdict: custodial
   developerName: Kraken
@@ -62,7 +59,7 @@ On its [Security page](https://www.kraken.com/en-us/features/security):
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="OVER 300 CRYPTOCURRENCIES AVAILABLE We have one of the largest selections of assets to buy and sell, including: Bitcoin (BTC), Ethereum (ETH), Dogecoin (DOGE), Litecoin (LTC), Ripple (XRP), Bitcoin Cash (BCH), Monero (XMR), EOS, Cardano (ADA), TRON (TRX), and more." source="Store" %}
 

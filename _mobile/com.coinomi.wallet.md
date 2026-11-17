@@ -1,7 +1,6 @@
 ---
-wsId: coinomi
 title: 'Coinomi: Crypto Bitcoin Wallet'
-date: 2024-09-14
+date: 2026-10-30
 authors:
 - leo
 website: https://www.Coinomi.com
@@ -30,10 +29,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2014-01-31
-  updated: 2026-09-08
-  version: 1.68.0
+  updated: 2026-10-01
+  version: 1.68.2
   reviews: 2320
-  icon: com.coinomi.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Coinomi
@@ -42,10 +40,9 @@ iphone:
   idd: 1333588809
   appCountry: us
   released: 2018-03-22
-  updated: 2026-09-09
-  version: 1.68.0
-  reviews: 2140
-  icon: com.coinomi.wallet.webp
+  updated: 2026-10-01
+  version: 1.68.2
+  reviews: 2143
   meta: ok
   verdict: nosource
   developerName: Loksias SA

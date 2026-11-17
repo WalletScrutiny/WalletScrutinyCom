@@ -1,6 +1,6 @@
 ---
 title: OrderBook
-date: 2023-08-25
+date: 2026-10-30
 redirect_from:
 - /android/finance.orderbook.trade/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-12-29
   updated: 2021-12-29
   version: 1.0.0
-  icon: finance.orderbook.trade.webp
   meta: removed
   verdict: wip
   developerName: Plus65 Interactive

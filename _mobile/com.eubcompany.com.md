@@ -1,6 +1,6 @@
 ---
 title: EUBI Exchange
-date: 2023-12-19
+date: 2026-10-30
 website: https://eubcompany.com#deadLink
 redirect_from:
 - /android/com.eubcompany.com/
@@ -10,7 +10,6 @@ android:
   released: 2021-12-04
   updated: 2021-12-04
   version: '1.1'
-  icon: com.eubcompany.com.webp
   meta: removed
   verdict: wip
   developerName: NetBusinessForum

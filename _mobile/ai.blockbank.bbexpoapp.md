@@ -1,7 +1,6 @@
 ---
-wsId: blockbank.v2
 title: Pairs
-date: 2025-04-01
+date: 2026-10-30
 authors:
 - danny
 website: https://pairs.xyz
@@ -20,7 +19,6 @@ android:
   updated: 2025-06-11
   version: 4.4.7
   reviews: 13
-  icon: ai.blockbank.bbexpoapp.webp
   meta: removed
   verdict: nosource
   developerName: UAB HODL SERVICES
@@ -32,7 +30,6 @@ iphone:
   updated: 2023-04-26
   version: 3.3.6
   reviews: 13
-  icon: ai.blockbank.blockbankv2.webp
   meta: removed
   verdict: nosource
 
@@ -126,4 +123,4 @@ Verdict: **Not verifiable,** no source available for review.
 
 While processing apps that seem to have been removed from the iPhone store, we noticed that some have merely undergone a "rebrand". Blockbank app is one of them. It is now known as pairs, but has retained its app ID and WalletScrutiny ID. 
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

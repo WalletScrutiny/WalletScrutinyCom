@@ -1,7 +1,6 @@
 ---
-wsId: chainAppWeb3
 title: Chain App - Web3 Wallet
-date: 2024-11-19
+date: 2026-10-30
 authors:
 - danny
 website: https://chain.com
@@ -20,7 +19,6 @@ android:
   updated: 2024-08-07
   version: 1.0.35
   reviews: 12
-  icon: com.chainwallet.app.webp
   meta: removed
   verdict: nosource
   developerName: Chain.com
@@ -32,12 +30,17 @@ iphone:
   updated: 2024-08-16
   version: 1.0.36
   reviews: 13
-  icon: com.chainwallet.app.webp
   meta: removed
   verdict: nosource
   developerName: Chain Global Ltd
 
 ---
+
+**Update 2026-10-30:** Both apps are no longer in the stores. Chain.com now sells
+stablecoin payment services to businesses, and on 2026-09-13 it announced that
+[Onyx acquired its technology platform](https://chain.com/news/chain-technology-and-services-transition-to-onyx),
+with Chain services moving to Onyx until 2026-10-31. The same developer, Chain Global Ltd,
+now publishes an app called "Onyx - XCN Wallet".
 
 ## Android
 
@@ -68,4 +71,4 @@ Nothing changed with regards to its source-availability.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

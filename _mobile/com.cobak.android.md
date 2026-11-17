@@ -1,7 +1,6 @@
 ---
-wsId: cobak
 title: Cobak - Crypto Community App
-date: 2025-03-29
+date: 2026-10-30
 authors:
 - danny
 website: https://cobak.co.kr/
@@ -19,7 +18,6 @@ android:
   released: 2018-03-08
   updated: 2024-08-28
   version: 1.43.48
-  icon: com.cobak.android.webp
   meta: removed
   verdict: custodial
   developerName: 코박
@@ -30,12 +28,13 @@ iphone:
   updated: 2025-02-07
   version: 1.8.36
   reviews: 17
-  icon: co.cobak.cobak.webp
   meta: removed
   verdict: custodial
   developerName: COBAK CO., LTD.
 
 ---
+
+**Update 2026-10-30:** Cobak replaced this app with a new app of the same name from the same company (see [cobak.co.kr](https://cobak.co.kr/)). According to its store description, the new app's built-in wallet supports only Ethereum and Polygon.
 
 ## Android
 
@@ -53,4 +52,4 @@ Unless there's evidence proving otherwise, Cobak is **custodial**, thus **not ve
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

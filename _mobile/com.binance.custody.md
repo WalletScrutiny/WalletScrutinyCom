@@ -1,7 +1,6 @@
 ---
-wsId: ceffuCustody
 title: 'Ceffu: Institutional Custody'
-date: 2023-07-21
+date: 2026-10-30
 authors:
 - danny
 website: https://ceffu.com
@@ -20,7 +19,6 @@ android:
   updated: 2023-08-17
   version: 2.9.1
   reviews: 8
-  icon: com.binance.custody.webp
   meta: removed
   verdict: custodial
   developerName: Binance Inc.
@@ -29,10 +27,9 @@ iphone:
   idd: '1595828184'
   appCountry: sg
   released: 2021-12-01
-  updated: 2026-09-15
-  version: 6.0.0
+  updated: 2026-10-07
+  version: 6.1.0
   reviews: 0
-  icon: com.binance.custody.webp
   meta: ok
   verdict: custodial
   developerName: Block Technologies Pte Ltd
@@ -61,6 +58,6 @@ Other than explicitly offering a "custody service" the provider also promotes it
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="multiSig" quote="multi-signature authorization" source="Store description" %}

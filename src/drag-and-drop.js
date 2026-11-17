@@ -18,6 +18,7 @@ import {
   populateApkInfoForAndroidUpload
 } from './drag-and-drop-utils.mjs';
 import { isDebugEnv } from './verifications_common.mjs';
+import { renderDropPanelResult } from './drop-panel.mjs';
 
 const uploadsActivated = true;
 const maxFileSize = 500;  // MB
@@ -75,7 +76,7 @@ function initializeDragAndDrop() {
   });
 
   Array.from(fileElems).forEach(fileElem => {
-    fileElem.addEventListener('change', e => processFiles(e.target.files, e.target.parentElement.parentElement));
+    fileElem.addEventListener('change', e => processFiles(e.target.files, e.target.closest('.drop-areas')));
   });
 }
 
@@ -135,8 +136,18 @@ function setHomepageHeroAnalysisMode(dropAreaElement, active) {
   hero.classList.toggle('hero--analysis-active', active);
 }
 
+function isPanel(dropAreaElement) {
+  return dropAreaElement?.dataset.variant === 'panel';
+}
+
 function disableHoverMode(dropAreaElement) {
   setHomepageHeroAnalysisMode(dropAreaElement, true);
+
+  if (isPanel(dropAreaElement)) {
+    dropAreaElement.querySelector('#select label').textContent = 'Select another file';
+    dropAreaElement.querySelector('.drop-text').textContent = 'or drop it here';
+    return;
+  }
 
   const select = dropAreaElement.querySelector('#select');
   select.classList.remove('hover-mode');
@@ -423,7 +434,7 @@ async function displayAllInfo(dropAreaElement, {
     appInfoFromNostr = getAppInfoFromEventInfo(firstVerification);
   }
 
-  if (appInfoFromNostr?.version) {
+  if (appInfoFromNostr?.version && !isPanel(dropAreaElement)) {
     scrollToVersion(appInfoFromNostr.version);
   }
 
@@ -443,6 +454,14 @@ async function displayAllInfo(dropAreaElement, {
   appTitle    = apkInfo?.application?.label?.[0] ?? app?.title ?? appId;
 
   const platformLegacy = ['linux', 'windows', 'macos'].includes(platform) ? 'desktop' : platform;
+
+  if (isPanel(dropAreaElement)) {
+    paintPanel(dropAreaElement, {
+      droppedFile, sourceZip, processedFiles, isApkBundle, allAssetsInformation,
+      blockingMessage, apkInfo, app, appId, appTitle, version, platform, platformLegacy
+    });
+    return;
+  }
 
   let fileInfoHtml = `<h3>${appTitle ?? ''}</h3>`;
 
@@ -542,6 +561,95 @@ async function displayAllInfo(dropAreaElement, {
   }
 
   updateDomElementInClass('drop-area-textbox', fileInfoHtml, dropAreaElement);
+}
+
+function allVerificationEvents(allAssetsInformation) {
+  const seen = new Set();
+  const events = [];
+  for (const list of allAssetsInformation?.verifications?.values() ?? []) {
+    for (const event of list ?? []) {
+      if (!seen.has(event.id)) {
+        seen.add(event.id);
+        events.push(event);
+      }
+    }
+  }
+  return events;
+}
+
+/**
+ * Selects [version] in the Build Verifications section above the panel and scrolls to the
+ * build holding the file with [hash], outlined, or to the version when no build lists it.
+ */
+function showVersionInBuildVerifications(dropAreaElement, version, hash) {
+  const step = dropAreaElement.closest('.build-verifications-step') ?? document;
+  // The section repaints when fresher data arrives, so find the stone again on click.
+  const findStone = () => [...step.querySelectorAll('.build-verifications .bv-stone[data-version-key]')]
+    .find(candidate => candidate.dataset.versionKey === version);
+  if (!findStone()) {
+    return null;
+  }
+  return () => {
+    findStone()?.click();
+    const build = [...step.querySelectorAll('.build-verifications .bv-file__hash-text')]
+      .find(code => code.title === hash)?.closest('.bv-build');
+    build?.classList.add('drop-panel-match');
+    (build ?? step.querySelector('.build-verifications .bv-selected'))
+      ?.scrollIntoView({ block: build ? 'center' : 'start', behavior: 'smooth' });
+  };
+}
+
+function paintPanel(dropAreaElement, {
+  droppedFile, sourceZip, processedFiles, isApkBundle, allAssetsInformation,
+  blockingMessage, apkInfo, app, appId, appTitle, version, platform, platformLegacy
+}) {
+  const primaryFile = processedFiles[0];
+  const hash = primaryFile.sha256;
+  const pageAppId = dropAreaElement.dataset.appId || null;
+
+  // Registered but not verified: the registration still says which app and version it is.
+  if (!version && allAssetsInformation.assets?.size > 0) {
+    const assetEvent = (allAssetsInformation.assets.get(hash) ?? allAssetsInformation.assets.values().next().value)?.[0];
+    const assetInfo = assetEvent ? getAppInfoFromEventInfo(assetEvent) : null;
+    if (assetInfo?.appId) {
+      appId = assetInfo.appId;
+      version = assetInfo.version ?? null;
+      app = window.wallets.find(it => it.appId === appId) ?? null;
+      appTitle = app?.title ?? appTitle ?? appId;
+      platform = assetInfo.platform ?? app?.folder ?? platform;
+      platformLegacy = ['linux', 'windows', 'macos'].includes(platform) ? 'desktop' : platform;
+    }
+  }
+  const isThisWallet = appId ? appId === pageAppId : null;
+  const urlParams = buildActionUrlParams(hash, processedFiles, {
+    appId: appId ?? pageAppId,
+    version,
+    platform: getPlatformFromFilename(primaryFile.fileName, apkInfo) ?? platform,
+    fileName: isApkBundle ? sourceZip.name : droppedFile.name
+  });
+  const verifications = allVerificationEvents(allAssetsInformation);
+  const assetUrl = `/asset/?sha256=${encodeURIComponent(hash)}`;
+  const otherWalletUrl = app && isThisWallet === false
+    ? `/${platformLegacy}/${appId}/?hash=${encodeURIComponent(hash)}`
+    : null;
+
+  renderDropPanelResult(dropAreaElement.querySelector('.drop-area-textbox'), {
+    files: processedFiles.map(entry => ({ fileName: entry.fileName, size: entry.data.size, sha256: entry.sha256 })),
+    archiveName: isApkBundle ? sourceZip.name : null,
+    appTitle: isThisWallet === false && !app ? appId : appTitle,
+    appId,
+    version,
+    verifications,
+    hasAsset: allAssetsInformation.assets?.size > 0,
+    blockingMessage,
+    isThisWallet,
+    otherWalletUrl,
+    assetUrl,
+    newVerificationUrl: `/new_verification/${urlParams}`,
+    onRegister: window.location.pathname === '/new_asset/' ? null : () => handleUploadAsset(urlParams),
+    onShowVerifications: isThisWallet && version ? showVersionInBuildVerifications(dropAreaElement, version, hash) : null,
+    maxFileSize
+  });
 }
 
 window.handleUploadAsset = handleUploadAsset;

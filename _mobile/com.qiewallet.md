@@ -1,7 +1,6 @@
 ---
-wsId: qieWallet
 title: QIE Wallet
-date: 2026-05-20
+date: 2026-10-30
 authors:
 - danny
 website: https://qiewallet.qiblockchain.online/
@@ -13,9 +12,8 @@ android:
   users: 1000
   appCountry: us
   released: 2023-06-20
-  updated: 2026-09-18
-  version: 0.3.77
-  icon: com.qiewallet.webp
+  updated: 2026-10-07
+  version: 0.3.78
   meta: ok
   verdict: nosource
   developerName: VortX Capital Pty Ltd
@@ -24,10 +22,9 @@ iphone:
   idd: '6445826746'
   appCountry: us
   released: 2024-05-31
-  updated: 2026-09-18
-  version: 2.8.2
+  updated: 2026-10-07
+  version: 2.8.3
   reviews: 1
-  icon: org.reactjs.native.QIEWallet.webp
   meta: ok
   verdict: nosource
   developerName: VORTEX PAY (PTY) LTD
@@ -80,4 +77,4 @@ Sources:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

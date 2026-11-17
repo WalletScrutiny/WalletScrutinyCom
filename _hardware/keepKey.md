@@ -8,8 +8,8 @@ authors:
 - danny
 released: 2014-08-01
 discontinued: 
-updated: 2026-06-05
-version: 7.14.1
+updated: 2026-10-16
+version: 7.14.3
 binaries: https://github.com/keepkey/keepkey-firmware/releases
 dimensions:
 - 38
@@ -18,21 +18,24 @@ dimensions:
 weight: 54
 provider: 
 providerWebsite: 
-website: https://shapeshift.com
-shop: https://shapeshift.com/keepkey#deadLink
+website: https://keepkey.com
+shop: https://keepkey.com/store
 country: US
-price: 49USD
+price: 59.95USD
 repository: https://github.com/keepkey/keepkey-firmware
-icon: keepKey.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2024-05-10
+date: 2026-10-30
 signer: 
 twitter: ShapeShift
 social:
 - https://www.facebook.com/ShapeShiftPlatform
-builds: 
+builds:
+- arch: arm
+  types:
+    firmware:
+    - firmware.keepkey.bin
 features:
 - tradeAlts
 - foss
@@ -64,12 +67,9 @@ and as such we will hopefully come to the same conclusions.
 
 That sounds like it's a hardware wallet by our standards.
 
-On their [help page](https://shapeshift.zendesk.com/hc/en-us/articles/360060952231-Is-KeepKey-Open-Source-)
-they also clarify:
-
-> **Is KeepKey Open Source?**<br>
-  KeepKey’s firmware is 100% open source.<br>
-  Take a look at our source code on [GitHub](https://github.com/keepkey) page!
+On their [support page](https://keepkey.com/support) they describe KeepKey as
+"the open-source hardware wallet" with "open-source firmware", and link to their
+source code on [GitHub](https://github.com/keepkey).
 
 This device is **source available**.
 

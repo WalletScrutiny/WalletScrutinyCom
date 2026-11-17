@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Wallet Account
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/org.cryptooptionstrading.bitcoin.wallet.account/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-07-20
   updated: 2021-07-20
   version: '1.0'
-  icon: org.cryptooptionstrading.bitcoin.wallet.account.webp
   meta: removed
   verdict: wip
 

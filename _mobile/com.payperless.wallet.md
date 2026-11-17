@@ -1,7 +1,6 @@
 ---
-wsId: payperless
 title: Payperless Crypto & BTC Wallet
-date: 2024-07-17
+date: 2026-10-30
 authors:
 - danny
 website: https://www.payperless.com
@@ -25,7 +24,6 @@ android:
   updated: 2026-08-13
   version: 1.34.3
   reviews: 9
-  icon: com.payperless.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Payperless
@@ -37,7 +35,6 @@ iphone:
   updated: 2026-02-13
   version: '1.40'
   reviews: 0
-  icon: com.payperless.wallet.webp
   meta: ok
   verdict: nosource
   developerName: COREDEV LAB
@@ -72,7 +69,7 @@ There was **no mention that the project is open source**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="multiAccount" quote="Create as many wallets for Bitcoin(BTC), Ethereum(ETH), Dogecoin (DOGE) etc. as you want." source="Store description" %}
 

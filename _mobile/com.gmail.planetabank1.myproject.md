@@ -1,6 +1,6 @@
 ---
 title: Planeta Bank
-date: 2023-12-19
+date: 2026-10-30
 website: https://planetabank.com.br#deadLink
 redirect_from:
 - /android/com.gmail.planetabank1.myproject/
@@ -10,7 +10,6 @@ android:
   released: 2021-07-01
   updated: 2021-07-08
   version: '4'
-  icon: com.gmail.planetabank1.myproject.webp
   meta: removed
   verdict: wip
   developerName: Planeta Bank

@@ -1,7 +1,6 @@
 ---
-wsId: lanistar
 title: Lanistar
-date: 2025-03-11
+date: 2026-10-30
 authors:
 - danny
 website: https://www.lanistar.com#deadLink
@@ -18,7 +17,6 @@ android:
   updated: 2024-07-09
   version: 2.0.64
   reviews: 58
-  icon: com.lanistar.webp
   meta: removed
   verdict: custodial
   developerName: Lanistar
@@ -30,12 +28,13 @@ iphone:
   updated: 2025-01-06
   version: 2.0.65
   reviews: 107
-  icon: com.lanistar.lanistarprod.webp
   meta: removed
   verdict: custodial
   developerName: Lanistar Limited
 
 ---
+
+**⚠️ Warning:** Lanistar Limited, the UK company behind this app, was [ordered to be wound up](https://www.thegazette.co.uk/notice/4860749) by the High Court on 2 April 2025 and is in [compulsory liquidation](https://find-and-update.company-information.service.gov.uk/company/12091938/insolvency). Its website no longer loads and both apps are gone from the stores.
 
 ## Android
 
@@ -73,4 +72,4 @@ We invite people residing in Brazil to contribute information when they can abou
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

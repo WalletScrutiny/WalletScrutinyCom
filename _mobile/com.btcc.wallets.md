@@ -1,7 +1,6 @@
 ---
-wsId: btccWallet
 title: 'BTCC Wallet: Crypto & Bitcoin'
-date: 2025-11-13
+date: 2026-10-30
 authors:
 - danny
 website: https://www.btcc.com/wallet
@@ -16,8 +15,7 @@ android:
   released: 2023-11-16
   updated: 2026-08-20
   version: 3.5.45
-  reviews: 18
-  icon: com.btcc.wallets.webp
+  reviews: 19
   meta: ok
   verdict: custodial
   developerName: BTCC WALLET
@@ -29,7 +27,6 @@ iphone:
   updated: 2026-08-24
   version: 3.5.45
   reviews: 33
-  icon: com.btcc.wallets.webp
   meta: ok
   verdict: custodial
   developerName: BTCC UK Limited
@@ -56,4 +53,4 @@ This is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

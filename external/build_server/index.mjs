@@ -23,9 +23,11 @@ import {
 } from './utils.mjs';
 import { verifyAssetsFromRegistry, processNewReleaseVerification, queue } from './verifications.mjs';
 import { closeDb, markStaleQueuedAttemptsAsInterrupted } from './ddbbUtils.mjs';
+import { createAssetWatcher, createWakeDebounce } from './asset-watch.mjs';
 import {
   shouldProcessAppId,
   HOURS_BETWEEN_EXECUTIONS,
+  ASSET_WATCH_DEBOUNCE_SECONDS,
   APPROVED_VERIFIERS_PUBKEY_HEX,
   WS_BOT_NOSTR_PUBKEY_HEX,
   BUILD_DIR_PREFIX,
@@ -173,6 +175,23 @@ if (staleQueuedAttempts > 0) {
 let interruptSleep = null;
 let mainProcessRunning = null;
 let shutdownPromise = null;
+let assetWatcher = null;
+
+// Asset Registry wake-up: the subscription in asset-watch.mjs requests a wake
+// for every new registration. The debounce coalesces the several events of a
+// bundle registration; `reset()` runs at the start of every cycle, so anything
+// registered after a cycle's scan started makes the loop skip the next sleep.
+const wake = createWakeDebounce({
+  delayMs: ASSET_WATCH_DEBOUNCE_SECONDS * 1000,
+  onWake: () => {
+    if (interruptSleep) {
+      appLog.info('New asset registered; interrupting sleep to start the next cycle early.');
+      interruptSleep();
+    } else {
+      appLog.info('New asset registered during a cycle; the next cycle will start as soon as this one finishes.');
+    }
+  },
+});
 
 async function gracefulShutdown(signal) {
   if (shutdownPromise) {
@@ -182,6 +201,8 @@ async function gracefulShutdown(signal) {
   shutdownPromise = (async () => {
     appLog.info(`Received ${signal}, shutting down gracefully...`);
     requestShutdown();
+    assetWatcher?.stop();
+    wake.reset();
     interruptSleep?.();
 
     if (mainProcessRunning) {
@@ -212,15 +233,31 @@ process.on('SIGINT', () => { void gracefulShutdown('SIGINT'); });
 
 async function sleepUntilNextCycle() {
   return new Promise((resolve) => {
-    const timer = setTimeout(resolve, HOURS_BETWEEN_EXECUTIONS * 60 * 60 * 1000);
+    const timer = setTimeout(() => {
+      interruptSleep = null;
+      resolve();
+    }, HOURS_BETWEEN_EXECUTIONS * 60 * 60 * 1000);
     interruptSleep = () => {
       clearTimeout(timer);
+      interruptSleep = null;
       resolve();
     };
   });
 }
 
+try {
+  await connectToNostr(wsBotNostrPrivateKey);
+  assetWatcher = createAssetWatcher({ onNewAsset: () => wake.request() });
+} catch (error) {
+  // Not fatal: the scheduled scan still runs without the early wake-up.
+  appLog.error('Could not start the Asset Registry watch; relying on the scheduled scan only:', error);
+}
+
 while (!isShutdownRequested()) {
+  // Anything registered from here on is not guaranteed to be seen by this
+  // cycle's scan, so it must trigger another cycle.
+  wake.reset();
+
   try {
     const run = mainProcess(githubToken, wsBotNostrPrivateKey);
     mainProcessRunning = run;
@@ -235,7 +272,12 @@ while (!isShutdownRequested()) {
     break;
   }
 
-  appLog.info(`======= Waiting ${HOURS_BETWEEN_EXECUTIONS} hours until next execution... =======\n`);
+  if (wake.requested) {
+    appLog.info('======= New asset registered during the last cycle; starting the next execution now =======\n');
+    continue;
+  }
+
+  appLog.info(`======= Waiting ${HOURS_BETWEEN_EXECUTIONS} hours until next execution (or until a new asset is registered)... =======\n`);
   await sleepUntilNextCycle();
 }
 

@@ -1,6 +1,6 @@
 ---
 title: AirPay wallet
-date: 2024-10-28
+date: 2026-10-30
 authors:
 - danny
 website: https://airpayfinance.com/#
@@ -16,12 +16,13 @@ android:
   released: 2022-04-15
   updated: 2022-04-15
   version: 1.0.8
-  icon: com.airpay.appwallet.webp
   meta: removed
   verdict: nosource
   developerName: AIRPAY.FINANCE
 
 ---
+
+**Update 2026-10-30:** The provider appears to be gone. The [airpayfinance.com](https://airpayfinance.com) domain is now offered for sale and the app is no longer on Google Play.
 
 Note: The name of the app [coincides](https://www.airpay.co.in/fraud-alert-policy) with a service in India which is also financial in nature. 
 

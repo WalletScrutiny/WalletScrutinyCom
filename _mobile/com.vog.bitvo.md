@@ -1,7 +1,6 @@
 ---
-wsId: Bitvo
 title: Bitvo
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: https://bitvo.com#deadLink
@@ -20,7 +19,6 @@ android:
   updated: 2023-02-15
   version: 1.6.9
   reviews: 19
-  icon: com.vog.bitvo.webp
   meta: removed
   verdict: custodial
   developerName: Bitvo Inc
@@ -31,12 +29,13 @@ iphone:
   updated: 2022-11-18
   version: 3.6.4
   reviews: 26
-  icon: com.bitvoapp.bitvo.webp
   meta: removed
   verdict: custodial
   developerName: Bitvo
 
 ---
+
+**Update 2026-10-30:** Bitvo no longer runs an exchange. In November 2023 Bitbuy bought Bitvo's client accounts and the bitvo.com domain and moved the customers to its own platform ([BetaKit](https://betakit.com/wonderfi-owned-bitbuy-acquires-customers-of-fellow-regulated-canadian-crypto-exchange-bitvo/)). Bitbuy is also {% include verdictBadge.html verdict="custodial" type='short' %}: {% include walletLink.html wallet='android/com.bitbuy.mobileApp' verdict='true' %}
 
 ## Android
 
@@ -58,4 +57,4 @@ Having a "third-party financial institution" host the cold storage of Bitvo mean
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

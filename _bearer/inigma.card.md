@@ -17,11 +17,10 @@ shop: https://www.kickstarter.com/projects/inigmacard/inigma-card/description
 country: TW
 price: 
 repository: 
-icon: inigma.card.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-29
+date: 2026-10-30
 signer: 
 twitter: 
 social: 

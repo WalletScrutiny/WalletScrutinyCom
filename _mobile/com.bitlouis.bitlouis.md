@@ -1,6 +1,6 @@
 ---
 title: bitlouis
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/com.bitlouis.bitlouis/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-01-28
   updated: 2021-01-28
   version: '1.0'
-  icon: com.bitlouis.bitlouis.webp
   meta: removed
   verdict: wip
   developerName: Bitlouis

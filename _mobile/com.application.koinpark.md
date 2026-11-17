@@ -1,7 +1,6 @@
 ---
-wsId: koinParkCrypto
 title: 'Koinpark: Buy Bitcoin & Crypto'
-date: 2023-07-29
+date: 2026-10-30
 authors:
 - danny
 website: https://www.koinpark.com/
@@ -24,8 +23,7 @@ android:
   released: 2023-02-04
   updated: 2026-05-14
   version: '1.75'
-  reviews: 13
-  icon: com.application.koinpark.webp
+  reviews: 12
   meta: ok
   verdict: custodial
   developerName: Koinpark Private Limited
@@ -37,7 +35,6 @@ iphone:
   updated: 2026-04-06
   version: '5.9'
   reviews: 80
-  icon: com.app.KoinParkios.webp
   meta: ok
   verdict: custodial
   developerName: KOIN PARK PRIVATE LIMITED
@@ -64,4 +61,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

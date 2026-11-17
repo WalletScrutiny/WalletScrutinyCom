@@ -1,6 +1,6 @@
 ---
 title: BITNOW Wallet
-date: 2023-12-19
+date: 2026-10-30
 redirect_from:
 - /android/com.bitnow.wallet/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-24
   updated: 2021-06-24
   version: 1.0.0
-  icon: com.bitnow.wallet.webp
   meta: removed
   verdict: wip
   developerName: bitnow.team

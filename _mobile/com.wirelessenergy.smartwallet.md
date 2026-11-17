@@ -1,7 +1,6 @@
 ---
-wsId: swtWallet
 title: SWT Wallet
-date: 2026-05-05
+date: 2026-10-30
 authors:
 - danny
 website: https://swttoken.com/
@@ -19,7 +18,6 @@ android:
   released: 2021-09-24
   updated: 2026-05-16
   version: 2.17.0
-  icon: com.wirelessenergy.smartwallet.webp
   meta: fewusers
   verdict: nosource
   developerName: Smart Wallet Token Ltd
@@ -31,7 +29,6 @@ iphone:
   updated: 2026-05-18
   version: 2.17.0
   reviews: 0
-  icon: com.wirelessenergy.smartwallet.webp
   meta: ok
   verdict: nosource
   developerName: Smart Wallet Token
@@ -58,4 +55,4 @@ This app supports self-custodial Bitcoin use, but the mobile app **source code i
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

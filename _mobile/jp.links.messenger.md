@@ -1,9 +1,9 @@
 ---
 title: Links-安全で簡単な仮想通貨ウォレット付きチャットアプリ
-date: 2023-05-05
+date: 2026-10-30
 authors:
 - danny
-website: https://getlinks.jp
+website: https://web.archive.org/web/20230529155501/https://getlinks.jp/
 twitter: LinksBTC
 redirect_from:
 - /android/jp.links.messenger/
@@ -13,7 +13,6 @@ android:
   released: 2021-03-21
   updated: 2022-05-19
   version: 1.35.9
-  icon: jp.links.messenger.webp
   meta: removed
   verdict: wip
   developerName: Links K.K.

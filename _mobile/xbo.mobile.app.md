@@ -1,7 +1,6 @@
 ---
-wsId: xboCrypto
 title: XBO.com - Buy Bitcoin & Crypto
-date: 2023-08-25
+date: 2026-10-30
 authors:
 - danny
 website: https://www.xbo.com/
@@ -20,10 +19,9 @@ android:
   users: 50000
   appCountry: us
   released: 2022-09-24
-  updated: 2026-09-23
-  version: 3.17.0
+  updated: 2026-10-08
+  version: 3.19.0
   reviews: 16
-  icon: xbo.mobile.app.webp
   meta: ok
   verdict: custodial
   developerName: Metafortune LTD
@@ -32,10 +30,9 @@ iphone:
   idd: '1638748643'
   appCountry: cy
   released: 2022-09-24
-  updated: 2026-09-14
-  version: 3.17.0
-  reviews: 8
-  icon: xbo.mobile.app.webp
+  updated: 2026-10-12
+  version: 3.19.0
+  reviews: 9
   meta: ok
   verdict: custodial
   developerName: XBO
@@ -64,4 +61,4 @@ This makes the app **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

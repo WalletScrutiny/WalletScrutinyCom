@@ -1,7 +1,6 @@
 ---
-wsId: Coinsuper
 title: Coinsuper
-date: 2022-01-31
+date: 2026-10-30
 authors:
 - danny
 website: https://www.coinsuper.com/
@@ -19,7 +18,6 @@ android:
   updated: 2021-11-04
   version: 2.5.8
   reviews: 98
-  icon: com.coinsuper.app.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -29,7 +27,6 @@ iphone:
   updated: 2021-12-04
   version: 2.4.14
   reviews: 13
-  icon: com.coinsuper.app.webp
   meta: removed
   verdict: custodial
 
@@ -59,4 +56,4 @@ We did not download the app anymore due to its self-description as a custodian s
 
 **Update 2022-01-17**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

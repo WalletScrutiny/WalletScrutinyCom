@@ -1,7 +1,6 @@
 ---
-wsId: independentReserveExchange
 title: Independent Reserve Buy Crypto
-date: 2023-07-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.independentreserve.com
@@ -27,7 +26,6 @@ android:
   updated: 2026-09-27
   version: 17.0.1
   reviews: 3
-  icon: com.independentreserve.mobileapp.webp
   meta: ok
   verdict: custodial
   developerName: Independent Reserve
@@ -38,8 +36,7 @@ iphone:
   released: 2021-10-18
   updated: 2026-09-27
   version: 17.0.1
-  reviews: 2286
-  icon: com.independentreserve.mobileapp.webp
+  reviews: 2287
   meta: ok
   verdict: custodial
   developerName: Independent Reserve
@@ -76,7 +73,7 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Security is always our top priority: 2FA, biometric authentication and data encryption" source="Store" %}
 

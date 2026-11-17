@@ -1,7 +1,6 @@
 ---
-wsId: zebedee
 title: 'ZBD: Play. Earn. Cash Out.'
-date: 2021-04-12
+date: 2026-10-30
 authors:
 - leo
 website: https://zbd.gg/z/support
@@ -18,8 +17,7 @@ android:
   released: 2020-10-20
   updated: 2026-04-17
   version: 4.30.5
-  reviews: 10428
-  icon: io.zebedee.wallet.webp
+  reviews: 10473
   meta: ok
   verdict: custodial
   developerName: ZEBEDEE
@@ -30,8 +28,7 @@ iphone:
   released: 2020-11-28
   updated: 2026-08-21
   version: 4.30.6
-  reviews: 12063
-  icon: io.zebedee.wallet.webp
+  reviews: 12130
   meta: ok
   verdict: custodial
   developerName: Zebedee Inc.

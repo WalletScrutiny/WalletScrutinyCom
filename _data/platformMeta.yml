@@ -88,24 +88,21 @@ iphone:
     - removed
     - deprecated
 hardware:
-  description: >
+  description: |
     There is no globally accepted definition of a hardware wallet. Some consider
     a paper with 12 words a hardware wallet - after all paper is a sort of
     hardware or at least not software and the 12 words are arguably a
     wallet(‘s backup).
-    
+
     For the purpose of this project we adhere to higher standards in the
     hardware wallet section. We only consider a hardware wallet if dedicated
     hardware protects the private keys in a way that leaves the user in full and
     exclusive control of what transactions he signs or not. That means:
-    
-    * The device allows to create private keys offline
 
+    * The device allows to create private keys offline
     * The device never shares private key material apart from an offline backup
       mechanism
-
     * The device displays receive addresses for confirmation
-
     * The device shares signed transactions after informed approval on the
       device without reliance on insecure external hardware
   notes: Hardware wallets are subject to a different subset of tests.
@@ -178,9 +175,20 @@ bearer:
     - deprecated
 desktop:
   description: >
-    Desktop wallets are all wallets that run as native apps on your Windows,
-    Linux or Mac desktop or laptop. This category does not include products that
-    run within the browser or an emulator.
+    Desktop & Server wallets are wallets you install on a computer: native apps
+    on your Windows, Linux or Mac desktop or laptop, and self-hosted software
+    such as full nodes, Lightning nodes and payment servers that run on your own
+    machine or server. This category does not include products that run only
+    within the browser or in an emulator.
+
+
+    We review the software, not any particular installation of it. If you use
+    an installation on somebody else's hardware, such as a hosted node or an
+    account on someone else's payment server, whoever runs that machine controls
+    it. They can change the software, show you their own receiving addresses and
+    spend from any hot wallet on it. Treat such a setup as custodial, whatever
+    verdict the software gets here. The verdict and any reproducibility result
+    only protect you on an installation you run yourself.
   notes: 
   verdicts:
     - wip

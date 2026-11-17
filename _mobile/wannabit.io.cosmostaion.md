@@ -1,7 +1,6 @@
 ---
-wsId: wannabitCosmostation
 title: Cosmostation Interchain Wallet
-date: 2023-01-03
+date: 2026-10-30
 authors:
 - danny
 website: https://cosmostation.io
@@ -22,10 +21,9 @@ android:
   users: 100000
   appCountry: us
   released: 2019-03-17
-  updated: 2026-06-17
-  version: 1.10.51
+  updated: 2026-10-06
+  version: 1.10.52
   reviews: 135
-  icon: wannabit.io.cosmostaion.webp
   meta: ok
   verdict: sourceavailable
   developerName: Stamper
@@ -35,10 +33,9 @@ iphone:
   idd: '1459830339'
   appCountry: us
   released: 2019-04-17
-  updated: 2026-06-17
-  version: v1.10.48
+  updated: 2026-10-01
+  version: v1.10.49
   reviews: 223
-  icon: io.wannabit.cosmostation.webp
   meta: ok
   verdict: sourceavailable
   developerName: Stamper Co., Ltd.
@@ -90,7 +87,7 @@ An issue has been opened at [https://github.com/cosmostation/cosmostation-androi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="segwit" quote="Bitcoin: Supports Taproot, Native SegWit, SegWit, and Legacy addresses." source="Store" %}
 

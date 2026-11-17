@@ -1,6 +1,6 @@
 ---
 title: Air Token Wallet - Social Weal
-date: 2023-06-03
+date: 2026-10-30
 authors:
 - danny
 website: https://airtokenwallet.com#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2019-06-18
   updated: 2019-07-11
   version: 1.0.18
-  icon: com.token.airtoken.webp
   meta: removed
   verdict: wip
   developerName: Air Token

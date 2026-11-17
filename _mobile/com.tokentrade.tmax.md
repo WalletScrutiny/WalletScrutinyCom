@@ -1,6 +1,6 @@
 ---
 title: TMAX
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/com.tokentrade.tmax/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-11-03
   updated: 2020-11-04
   version: 3.5.6
-  icon: com.tokentrade.tmax.webp
   meta: removed
   verdict: wip
   developerName: TMAX GLOBAL INC.

@@ -1,7 +1,6 @@
 ---
-wsId: oslMobile
 title: 'OSL HK: Buy Bitcoin & Crypto'
-date: 2025-02-28
+date: 2026-10-30
 authors:
 - danny
 website: https://osl.com
@@ -21,7 +20,6 @@ android:
   updated: 2026-09-16
   version: 3.7.5
   reviews: 35
-  icon: com.oslmobile.webp
   meta: ok
   verdict: custodial
   developerName: BC Technology (HK) Limited
@@ -32,8 +30,7 @@ iphone:
   released: 2024-01-22
   updated: 2026-09-18
   version: 3.7.5
-  reviews: 519
-  icon: com.osl.mobile.OslMobile.webp
+  reviews: 520
   meta: ok
   verdict: custodial
   developerName: BC Marketplace (HK) Limited
@@ -78,4 +75,4 @@ There is a high-probability that the apps mentioned above are indeed also owned 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

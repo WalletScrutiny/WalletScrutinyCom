@@ -1,6 +1,6 @@
 ---
 title: PAY2PAL
-date: 2023-09-28
+date: 2026-10-30
 website: https://pay2pal.io#deadLink
 redirect_from:
 - /android/adyone.in.pay2pal/
@@ -10,7 +10,6 @@ android:
   released: 2023-03-04
   updated: 2023-09-07
   version: 1.3.2
-  icon: adyone.in.pay2pal.webp
   meta: removed
   verdict: wip
   developerName: PAY2PAL NETWORK LLP

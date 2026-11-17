@@ -1,9 +1,9 @@
 ---
 title: Jus Pay
-date: 2023-05-31
+date: 2026-10-30
 authors:
 - danny
-website: https://juspay.app
+website: https://juspay.app#deadLink
 redirect_from:
 - /android/com.pkg.JusPay/
 android:
@@ -12,7 +12,6 @@ android:
   released: 2020-09-16
   updated: 2020-11-10
   version: 3.0.0
-  icon: com.pkg.JusPay.webp
   meta: removed
   verdict: wip
   developerName: Abdurahman Unia

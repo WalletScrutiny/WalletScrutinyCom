@@ -1,6 +1,6 @@
 ---
 title: 'RYIPAY: Bitcoin & Crypto'
-date: 2024-02-05
+date: 2026-10-30
 website: https://ryipay.app#deadLink
 redirect_from:
 - /android/io.ryi.pay/
@@ -11,7 +11,6 @@ android:
   updated: 2022-06-14
   version: 1.0.8
   reviews: 7
-  icon: io.ryi.pay.webp
   meta: removed
   verdict: wip
   developerName: RYI Unity

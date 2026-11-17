@@ -1,12 +1,35 @@
 <!-- Drag-and-Drop-Area Start -->
+{%- comment -%}
+  variant="panel" draws the area like the Build Verifications panels on a wallet page:
+  a caption, one line on what happens, and the result of the dropped file below the
+  button (src/drag-and-drop.js paints it). Without a variant it is the homepage's
+  dashed drop box.
+{%- endcomment -%}
+{% assign randomId = 'now' | date: '%s%N' | append: '' | random %}
+{% if include.variant == 'panel' %}
+<section class="drop-areas drop-areas--panel bv-panel" data-variant="panel" data-app-id="{{ include.appId }}" aria-label="Check your file">
+    <h4 class="bv-caption">Check your file</h4>
+    <form class="my-form drop-panel__form" id="dropForm-{{ randomId }}">
+        <input type="file" id="fileElem-{{ randomId }}" style="display: none;" class="fileElems" />
+        <p class="drop-panel__hint">{{ include.hint | default: 'Drop the file you downloaded or installed to see if anybody verified it. Its SHA-256 is calculated in your browser.' }}</p>
+        <div id="select" class="drop-panel__select">
+            <label class="verification-action-link drop-panel__button" for="fileElem-{{ randomId }}">Select a file</label>
+            <span class="drop-text bigScreenOnly">or drop it here</span>
+        </div>
+    </form>
+    <div id="file-list">
+        <div id="file-info" class="drop-area-textbox drop-panel__result" aria-live="polite"></div>
+        <div class="textbox blossom-upload-status" style="display: none;"></div>
+    </div>
+</section>
+{% else %}
 <div class="drop-areas">
     <div id="file-list">
         <div id="file-info" class="textbox drop-area-textbox"></div>
         <div class="textbox blossom-upload-status" style="display: none;"></div>
     </div>
-    <form class="my-form" id="dropForm-{{ 'now' | date: '%s%N' | append: '' | random }}">
+    <form class="my-form" id="dropForm-{{ randomId }}">
         <span class="drop-text bigScreenOnly">{{ include.buttonMessage | default: 'Drop file to verify' }}</span>
-        {% assign randomId = 'now' | date: '%s%N' | append: '' | random %}
         <input type="file" id="fileElem-{{ randomId }}" style="display: none;" class="fileElems" />
         <div id="select" class="hover-mode">
             <br />
@@ -17,4 +40,5 @@
         </div>
     </form>
 </div>
+{% endif %}
 <!-- Drag-and-Drop-Area End -->

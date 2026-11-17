@@ -1,9 +1,9 @@
 ---
 title: 'Finblox: Earn Bitcoin & Crypto'
-date: 2024-10-23
+date: 2026-10-30
 authors:
 - danny
-website: https://www.finbloxapp.com/
+website: https://www.finbloxapp.com/#deadLink
 twitter: finblox
 social:
 - https://www.facebook.com/finbloxapp
@@ -16,12 +16,13 @@ android:
   updated: 2023-11-06
   version: 0.117.0
   reviews: 19
-  icon: com.finbloxapp.finblox.webp
   meta: removed
   verdict: custodial
   developerName: Finblox
 
 ---
+
+**⚠️ Warning:** Finblox is shut down. It [closed its service on 2025-07-07](https://www.dlnews.com/articles/web3/finblox-shuts-down-three-years-after-losing-millions-of-dollars-worth-of-customer-deposits/), three years after it [limited withdrawals and converted customer deposits into its FBX token](https://www.dlnews.com/articles/deals/crypto-lender-finblox-freezes-deposits-and-issues-fbx-token/) to cover losses from Three Arrows Capital. Its website no longer loads.
 
 ## App Description from Google Play 
 

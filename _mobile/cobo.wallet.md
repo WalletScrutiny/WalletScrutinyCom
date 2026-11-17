@@ -1,7 +1,6 @@
 ---
-wsId: cobowallet
 title: Cobo Wallet
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - leo
 website: https://cobo.com
@@ -26,7 +25,6 @@ android:
   updated: 2025-09-04
   version: 5.19.17
   reviews: 65
-  icon: cobo.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Cobo Global Ltd - Crypto Wallet for BTC, ETH
@@ -38,12 +36,13 @@ iphone:
   updated: 2026-07-16
   version: 5.19.19
   reviews: 6
-  icon: cobo.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Cobo Global Limited
 
 ---
+
+**Update 2026-10-30:** Cobo is shutting down both apps. Its [announcement of 2026-10-15](https://www.cobo.com/zh/post/Cobo-Wallet-2026-10-15-1406) says the Cobo Wallet App stops service on 2026-12-01 (UTC+8), and users must move all assets out before then.
 
 ## Android
 
@@ -83,7 +82,7 @@ verdict has to be: this wallet is **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="hd" quote="Hierarchical Deterministic (HD) Wallet Take full control of your digital assets and private keys for maximum safety Easily import your mnemonic seeds from other wallets you may own" source="Store description" %}
 

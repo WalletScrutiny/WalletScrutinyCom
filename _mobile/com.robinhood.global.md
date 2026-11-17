@@ -1,7 +1,6 @@
 ---
-wsId: robinhoodCryptoAndStocks
 title: Robinhood Crypto, Bitcoin, ETH
-date: 2025-12-08
+date: 2026-10-30
 authors:
 - danny
 website: https://robinhood.com/eu/en/about/crypto/
@@ -18,9 +17,8 @@ android:
   appId: com.robinhood.global
   users: 100000
   appCountry: us
-  updated: 2026-09-23
-  version: 2026.39.0
-  icon: com.robinhood.global.webp
+  updated: 2026-10-09
+  version: 2026.40.1
   meta: ok
   verdict: custodial
   developerName: Robinhood
@@ -29,10 +27,9 @@ iphone:
   idd: '6467049008'
   appCountry: pl
   released: 2023-12-06
-  updated: 2026-09-22
-  version: 2026.39.0
+  updated: 2026-10-13
+  version: 2026.42.0
   reviews: 320
-  icon: com.robinhood.release.RobinhoodGlobal.webp
   meta: ok
   verdict: custodial
   developerName: Robinhood Markets, Inc.
@@ -61,4 +58,4 @@ This is a **custodial** app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

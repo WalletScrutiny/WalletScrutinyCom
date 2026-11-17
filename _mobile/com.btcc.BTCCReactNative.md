@@ -1,7 +1,6 @@
 ---
-wsId: btccLite
 title: 'BTCC Lite: Trade BTC & ETH'
-date: 2023-08-23
+date: 2026-10-30
 authors:
 - danny
 website: https://h5.btpiccdn.com/en-US/article/Customer_Service2
@@ -21,8 +20,7 @@ android:
   released: 2022-11-17
   updated: 2026-08-24
   version: 3.5.45
-  reviews: 87
-  icon: com.btcc.BTCCReactNative.webp
+  reviews: 88
   meta: ok
   verdict: custodial
   developerName: BTCC international
@@ -33,8 +31,7 @@ iphone:
   released: 2017-01-20
   updated: 2026-08-27
   version: 3.5.45
-  reviews: 191
-  icon: com.btcc.BTCCReactNative.webp
+  reviews: 193
   meta: ok
   verdict: custodial
   developerName: BTCC Limited
@@ -92,4 +89,4 @@ As an official lite version of the app, this is also a **custodial** and therefo
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

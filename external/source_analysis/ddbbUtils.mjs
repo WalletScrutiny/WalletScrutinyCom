@@ -1,6 +1,7 @@
 import Database from 'better-sqlite3';
 import { existsSync, mkdirSync, copyFileSync, readdirSync, unlinkSync } from 'fs';
-import { DB_PATH, BACKUP_DIR, BACKUPS_TO_KEEP } from './config.mjs';
+import { DB_PATH, BACKUP_DIR, BACKUPS_TO_KEEP, DEFAULT_BRANCH_REF } from './config.mjs';
+export { DEFAULT_BRANCH_REF };
 import { join, dirname } from 'path';
 
 // Backup database before processing. Keeps the newest `keep` copies.
@@ -110,6 +111,131 @@ export function initDatabase(dbPath = DB_PATH) {
     CREATE INDEX IF NOT EXISTS idx_app_dependencies_package ON app_dependencies(package_id);
   `);
 
+  // Known vulnerabilities of a release's dependencies as OSV.dev reported them
+  // when the release was analysed (plugins/osv.mjs), one row per advisory and
+  // package version. A snapshot: advisories published later show up through
+  // findAppsShipping, not here.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS app_vulnerabilities (
+      app_id TEXT NOT NULL,
+      version TEXT NOT NULL,
+      ecosystem TEXT NOT NULL,
+      name TEXT NOT NULL,
+      dep_version TEXT NOT NULL,
+      vuln_id TEXT NOT NULL,
+      severity TEXT NOT NULL,
+      aliases TEXT NOT NULL DEFAULT '',
+      fixed TEXT NOT NULL DEFAULT '',
+      summary TEXT NOT NULL DEFAULT '',
+      direct INTEGER,
+      dev INTEGER,
+      checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (app_id, version, ecosystem, name, dep_version, vuln_id)
+    );
+    CREATE INDEX IF NOT EXISTS idx_app_vulnerabilities_vuln ON app_vulnerabilities(vuln_id);
+  `);
+  // Columns added after the tables existed on the server; CREATE TABLE IF NOT
+  // EXISTS leaves an existing table alone, so add them one by one when missing.
+  // `scope` is where a package ends up: app, build, tests, or NULL (not said).
+  for (const table of ['app_dependencies', 'app_vulnerabilities']) ensureColumn(db, table, 'scope', 'TEXT');
+  // `dependants` is the JSON list of package names that require this one, one
+  // hop up (plugins/pinning.mjs makeEntry); NULL when the lockfile has no graph.
+  for (const table of ['app_dependencies', 'app_vulnerabilities']) ensureColumn(db, table, 'dependants', 'TEXT');
+  // `affected` is the JSON list of the advisory's affected ranges for this
+  // package ("< 1.2.3"); NULL on rows stored before the column, until the next recheck.
+  ensureColumn(db, 'app_vulnerabilities', 'affected', 'TEXT');
+  // `listed_by` is the databases that listed the advisory, space separated:
+  // "osv", "nvd" or "osv nvd" (plugins/osv.mjs findingsFor); NULL on rows stored
+  // before the column, until the next recheck.
+  ensureColumn(db, 'app_vulnerabilities', 'listed_by', 'TEXT');
+
+  // Where a package's source lives, per (ecosystem, name): resolved from the
+  // registry metadata (sourceRepos.mjs) and cached, since it does not
+  // change per version. repo_url NULL = looked up, none named.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS package_sources (
+      ecosystem TEXT NOT NULL,
+      name TEXT NOT NULL,
+      repo_url TEXT,
+      source TEXT NOT NULL,
+      note TEXT,
+      checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (ecosystem, name)
+    );
+  `);
+
+  // Rung one of the dependency ladder (sourceIdentity.mjs): does the
+  // shipped version exist in the package's source repository?
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS package_identity (
+      ecosystem TEXT NOT NULL,
+      name TEXT NOT NULL,
+      version TEXT NOT NULL,
+      status TEXT NOT NULL,
+      tag TEXT,
+      commit_sha TEXT,
+      provenance INTEGER,
+      checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (ecosystem, name, version)
+    );
+  `);
+
+  // Rung "reproduced" (rebuildClaims.mjs, rebuildNpm.mjs): who rebuilt a
+  // package version from source and got the registry's file. One row per
+  // claimant: ws (us), oss-rebuild, reproducible-central. result is
+  // reproduced | failed; sha256 is the registry file's, commit_sha the source
+  // built, event our unsigned Nostr event (ws only).
+  // rebuild_lookups records every (claimant, package) asked, with or without claims.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS package_rebuilds (
+      ecosystem TEXT NOT NULL,
+      name TEXT NOT NULL,
+      version TEXT NOT NULL,
+      claimant TEXT NOT NULL,
+      result TEXT NOT NULL,
+      artifact TEXT,
+      sha256 TEXT,
+      commit_sha TEXT,
+      url TEXT,
+      note TEXT,
+      event TEXT,
+      checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (ecosystem, name, version, claimant)
+    );
+    CREATE TABLE IF NOT EXISTS rebuild_lookups (
+      claimant TEXT NOT NULL,
+      ecosystem TEXT NOT NULL,
+      name TEXT NOT NULL,
+      checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (claimant, ecosystem, name)
+    );
+  `);
+
+  // Upstream triage (upstreamTriage.mjs): the scanner ignore lists and VEX
+  // documents found in a repository at one ref, one row per advisory entry;
+  // upstream_triage_checked records every (repo, ref) read, with or without files.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS upstream_triage_checked (
+      repo_url TEXT NOT NULL,
+      ref TEXT NOT NULL,
+      status TEXT NOT NULL,            -- ok | unsupported-host | error
+      error TEXT,
+      files TEXT NOT NULL DEFAULT '[]', -- JSON array of the triage files present
+      checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (repo_url, ref)
+    );
+    CREATE TABLE IF NOT EXISTS upstream_triage (
+      repo_url TEXT NOT NULL,
+      ref TEXT NOT NULL,
+      file TEXT NOT NULL,
+      tool TEXT NOT NULL,
+      line INTEGER NOT NULL,
+      vuln_id TEXT NOT NULL,
+      reason TEXT,
+      PRIMARY KEY (repo_url, ref, file, line, vuln_id)
+    );
+  `);
+
   // Last good copy of the site's app list (see appList.mjs), one row per
   // wallet record with a repository.
   db.exec(`
@@ -121,29 +247,325 @@ export function initDatabase(dbPath = DB_PATH) {
       PRIMARY KEY (app_id, platform)
     );
   `);
+  ensureColumn(db, 'apps', 'gone', 'INTEGER NOT NULL DEFAULT 0');
+
+  // The day a release was tagged, for refs without a dated GitHub release asset
+  // (releaseDates.mjs): the date of the commit the tag points at. released_at is
+  // null when the forge does not know the ref; neither changes, so each is asked once.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS release_dates (
+      app_id TEXT NOT NULL,
+      ref TEXT NOT NULL,
+      released_at TEXT,
+      checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (app_id, ref)
+    );
+  `);
+
+  // Gone wallets past their end of life (index.mjs, GONE_EOL_YEARS), as of the
+  // last pass: neither analysed nor exported.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS end_of_life (
+      app_id TEXT PRIMARY KEY,
+      last_commit_at DATETIME NOT NULL
+    );
+  `);
+
+  // Last good copy of the build verifications that put a wallet in scope
+  // (see reproducible.mjs): every version some verifier found reproducible.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS reproducible_versions (
+      app_id TEXT NOT NULL,
+      version TEXT NOT NULL,
+      verified_at INTEGER NOT NULL,    -- created_at of the newest reproducible verification
+      platform TEXT,                   -- its platform tag (android, iphone, hardware, windows, ...)
+      build_locks TEXT,                -- JSON { locks, misnamed }: the build-lock.json output files (reproducible.mjs buildLockRefs)
+      PRIMARY KEY (app_id, version)
+    );
+  `);
+  ensureColumn(db, 'reproducible_versions', 'build_locks', 'TEXT');
+
+  // Which release analysis is the check of a verified version: the tag the
+  // pass resolved the version to.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS verified_refs (
+      app_id TEXT NOT NULL,
+      ref TEXT NOT NULL,
+      version TEXT NOT NULL,
+      PRIMARY KEY (app_id, ref)
+    );
+  `);
+
+  // Commit of the default branch the last successful analysis looked at, so a
+  // pass skips repositories whose default branch has not moved since.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS default_branch_analyses (
+      app_id TEXT PRIMARY KEY,
+      commit_sha TEXT NOT NULL,
+      analysed_at DATETIME DEFAULT CURRENT_TIMESTAMP
+    );
+  `);
+  // 1 once that analysis also stored its dependency and advisory rows (under
+  // DEFAULT_BRANCH_REF); commits recorded before it did are analysed again.
+  ensureColumn(db, 'default_branch_analyses', 'rows_stored', 'INTEGER');
+
+  // One row per analysis the service ran: what was looked at (commit, ref,
+  // kind), by which analyser, with which outcome, and what it saw (ecosystem,
+  // lockfiles, dependency and OSV counts). The dependency and vulnerability
+  // tables only hold rows for releases that produced some; this table is what
+  // says "analysed, nothing found", "failed" or "not supported", and when.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS analyses (
+      app_id TEXT NOT NULL,
+      kind TEXT NOT NULL,              -- release | default-branch | verified-no-tag
+      ref TEXT NOT NULL,               -- release tag, or the branch's commit for default-branch runs
+      commit_sha TEXT,
+      status TEXT NOT NULL,            -- ok | failed | unsupported
+      error TEXT,
+      app_type TEXT,
+      analyser TEXT NOT NULL,
+      plugins TEXT NOT NULL DEFAULT '',          -- space-separated plugin names that ran
+      lockfiles TEXT NOT NULL DEFAULT '',        -- JSON array of lockfile paths the pinning step read
+      dependencies INTEGER,
+      osv_checked INTEGER,
+      osv_skipped TEXT NOT NULL DEFAULT '{}',    -- JSON {reason: count}
+      vulnerabilities INTEGER,
+      lock_coverage TEXT,                        -- JSON plugins/lock-coverage.mjs result, NULL when it did not run
+      build_lock TEXT,                           -- JSON plugins/build-lock.mjs result, NULL when the release has no build-lock.json
+      analysed_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      failed_attempt_at DATETIME,                -- the last re-check that failed and left this ok row in place (issue 998)
+      failed_attempt_error TEXT,
+      PRIMARY KEY (app_id, kind, ref)
+    );
+  `);
+  ensureColumn(db, 'analyses', 'lock_coverage', 'TEXT');
+  ensureColumn(db, 'analyses', 'build_lock', 'TEXT');
+  ensureColumn(db, 'analyses', 'failed_attempt_at', 'DATETIME');
+  ensureColumn(db, 'analyses', 'failed_attempt_error', 'TEXT');
+
+  // The git submodules of an analysed release with their three claims
+  // (submoduleIdentity.mjs), as the walk returned them; one row per release.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS release_submodules (
+      app_id TEXT NOT NULL,
+      ref TEXT NOT NULL,
+      commit_sha TEXT NOT NULL,
+      rows TEXT NOT NULL,              -- JSON array, one entry per submodule, nested ones included
+      checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (app_id, ref)
+    );
+  `);
+  // Releases stored before this table existed get a row from what the
+  // dependency rows remember (their creation time and count); commit and
+  // lockfiles stay unknown until the release is analysed again.
+  db.exec(`
+    INSERT OR IGNORE INTO analyses (app_id, kind, ref, status, analyser, dependencies, vulnerabilities, analysed_at)
+    SELECT d.app_id, 'release', d.version, 'ok', 'before-analyses-table', COUNT(*),
+           (SELECT COUNT(*) FROM app_vulnerabilities v WHERE v.app_id = d.app_id AND v.version = d.version),
+           MIN(d.created_at)
+    FROM app_dependencies d WHERE d.version != '${DEFAULT_BRANCH_REF}' GROUP BY d.app_id, d.version;
+  `);
+
+  // Wallets marked for a rerun (reanalyse-cli.mjs): the next pass analyses
+  // each one as --reanalyse would, then removes its mark.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS reanalyse_requests (
+      app_id TEXT PRIMARY KEY,
+      requested_at DATETIME DEFAULT CURRENT_TIMESTAMP
+    );
+  `);
 
   return db;
 }
 
-// Replace the cached app list with the given entries ({appId, platform, repository}).
+// Store the outcome of one analysis (see appAnalysis.runSourceCodeAnalysis);
+// a repeat of the same (appId, kind, ref) replaces the earlier row, except
+// that a failed one leaves an ok row in place (issue 998): it only notes the
+// attempt and its error beside it, and analysed_at stays the ok check's.
+export function recordAnalysis(db, { appId, kind, ref, commit = null, status, error = null, appType = null,
+  analyser, plugins = [], lockfiles = [], dependencies = null, osvChecked = null, osvSkipped = {}, vulnerabilities = null, lockCoverage = null, buildLock = null }) {
+  if (status === 'failed') {
+    const kept = db.prepare(`
+      UPDATE analyses SET failed_attempt_at = CURRENT_TIMESTAMP, failed_attempt_error = ?
+      WHERE app_id = ? AND kind = ? AND ref = ? AND status = 'ok'
+    `).run(error, appId, kind, ref);
+    if (kept.changes) return;
+  }
+  db.prepare(`
+    INSERT OR REPLACE INTO analyses
+      (app_id, kind, ref, commit_sha, status, error, app_type, analyser, plugins, lockfiles,
+       dependencies, osv_checked, osv_skipped, vulnerabilities, lock_coverage, build_lock, analysed_at)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+  `).run(appId, kind, ref, commit, status, error, appType, analyser, plugins.join(' '), JSON.stringify(lockfiles),
+    dependencies, osvChecked, JSON.stringify(osvSkipped), vulnerabilities, lockCoverage ? JSON.stringify(lockCoverage) : null,
+    buildLock ? JSON.stringify(buildLock) : null);
+}
+
+// Every recorded analysis of an app, newest first, JSON columns decoded.
+export function getAnalyses(db, appId) {
+  return db.prepare('SELECT * FROM analyses WHERE app_id = ? ORDER BY analysed_at DESC, ref').all(appId).map(decodeAnalysis);
+}
+
+// The apps with at least one recorded analysis.
+export function listAnalysedApps(db) {
+  return db.prepare('SELECT DISTINCT app_id FROM analyses ORDER BY app_id').all().map(r => r.app_id);
+}
+
+function decodeAnalysis(row) {
+  return {
+    ...row,
+    plugins: row.plugins ? row.plugins.split(' ') : [],
+    lockfiles: JSON.parse(row.lockfiles || '[]'),
+    osv_skipped: JSON.parse(row.osv_skipped || '{}'),
+    lock_coverage: row.lock_coverage ? JSON.parse(row.lock_coverage) : null,
+    build_lock: row.build_lock ? JSON.parse(row.build_lock) : null,
+  };
+}
+
+// The default branch's commit whose rows are stored under DEFAULT_BRANCH_REF,
+// or null: never analysed, or analysed before those rows were kept.
+export function getAnalysedCommit(db, appId) {
+  return getDefaultBranch(db, appId)?.commit ?? null;
+}
+
+// { commit, analysedAt } of the default branch analysis whose rows are stored, or null.
+export function getDefaultBranch(db, appId) {
+  const row = db.prepare('SELECT commit_sha, analysed_at FROM default_branch_analyses WHERE app_id = ? AND rows_stored = 1').get(appId);
+  return row ? { commit: row.commit_sha, analysedAt: row.analysed_at } : null;
+}
+
+export function saveAnalysedCommit(db, appId, commitSha) {
+  db.prepare(`INSERT INTO default_branch_analyses (app_id, commit_sha, rows_stored) VALUES (?, ?, 1)
+    ON CONFLICT(app_id) DO UPDATE SET commit_sha = excluded.commit_sha, rows_stored = 1, analysed_at = CURRENT_TIMESTAMP`).run(appId, commitSha);
+}
+
+// Replace the cached app list with the given entries ({appId, platform, repository, gone}).
 export function saveAppList(db, entries) {
-  const insert = db.prepare('INSERT INTO apps (app_id, platform, repository) VALUES (?, ?, ?)');
+  const insert = db.prepare('INSERT INTO apps (app_id, platform, repository, gone) VALUES (?, ?, ?, ?)');
   db.transaction(() => {
     db.prepare('DELETE FROM apps').run();
-    for (const e of entries) insert.run(e.appId, e.platform, e.repository);
+    for (const e of entries) insert.run(e.appId, e.platform, e.repository, e.gone ? 1 : 0);
   })();
   return entries.length;
 }
 
 export function getAppList(db) {
-  return db.prepare('SELECT app_id, platform, repository FROM apps ORDER BY platform, app_id').all()
-    .map(r => ({ appId: r.app_id, platform: r.platform, repository: r.repository }));
+  return db.prepare('SELECT app_id, platform, repository, gone FROM apps ORDER BY platform, app_id').all()
+    .map(r => ({ appId: r.app_id, platform: r.platform, repository: r.repository, gone: r.gone === 1 }));
 }
+
+// Replace the end-of-life set with the given entries ({appId, lastCommitAt: Date}).
+export function saveEndOfLife(db, entries) {
+  const insert = db.prepare('INSERT INTO end_of_life (app_id, last_commit_at) VALUES (?, ?)');
+  db.transaction(() => {
+    db.prepare('DELETE FROM end_of_life').run();
+    for (const e of entries) insert.run(e.appId, e.lastCommitAt.toISOString());
+  })();
+}
+
+export function getEndOfLife(db) {
+  return new Map(db.prepare('SELECT app_id, last_commit_at FROM end_of_life').all().map(r => [r.app_id, r.last_commit_at]));
+}
+
+// Replace the cached verifications with byApp (appId -> [{version, verifiedAt}]).
+export function saveReproducibleVersions(db, byApp) {
+  const insert = db.prepare('INSERT INTO reproducible_versions (app_id, version, verified_at, platform, build_locks) VALUES (?, ?, ?, ?, ?)');
+  const locksOf = (v) => (v.buildLocks?.length || v.misnamedLocks?.length ? JSON.stringify({ locks: v.buildLocks || [], misnamed: v.misnamedLocks || [] }) : null);
+  db.transaction(() => {
+    db.prepare('DELETE FROM reproducible_versions').run();
+    for (const [appId, versions] of byApp) for (const v of versions) insert.run(appId, v.version, v.verifiedAt, v.platform ?? null, locksOf(v));
+  })();
+}
+
+export function getReproducibleVersions(db) {
+  const byApp = new Map();
+  for (const r of db.prepare('SELECT app_id, version, verified_at, platform, build_locks FROM reproducible_versions ORDER BY verified_at DESC').all()) {
+    if (!byApp.has(r.app_id)) byApp.set(r.app_id, []);
+    const { locks = [], misnamed = [] } = r.build_locks ? JSON.parse(r.build_locks) : {};
+    byApp.get(r.app_id).push({ version: r.version, verifiedAt: r.verified_at, platform: r.platform,
+      ...(locks.length ? { buildLocks: locks } : {}), ...(misnamed.length ? { misnamedLocks: misnamed } : {}) });
+  }
+  return byApp;
+}
+
+// The build-lock.json output files the verifications of (appId, version)
+// carry, and the misnamed ones: { locks, misnamed }, both empty when none.
+export function getBuildLockRefs(db, appId, version) {
+  const r = db.prepare('SELECT build_locks FROM reproducible_versions WHERE app_id = ? AND version = ?').get(appId, version);
+  const { locks = [], misnamed = [] } = r?.build_locks ? JSON.parse(r.build_locks) : {};
+  return { locks, misnamed };
+}
+
+export function saveVerifiedRef(db, appId, ref, version) {
+  db.prepare("DELETE FROM analyses WHERE app_id = ? AND kind = 'verified-no-tag' AND ref = ?").run(appId, version);
+  db.prepare('INSERT OR REPLACE INTO verified_refs (app_id, ref, version) VALUES (?, ?, ?)').run(appId, ref, version);
+}
+
+// ref -> verified version, for one app.
+export function getVerifiedRefs(db, appId) {
+  return new Map(db.prepare('SELECT ref, version FROM verified_refs WHERE app_id = ?').all(appId).map(r => [r.ref, r.version]));
+}
+
+// True when a release analysis of this ref finished (ok or unsupported); a
+// failed one is retried.
+export function hasReleaseAnalysis(db, appId, ref) {
+  return Boolean(db.prepare("SELECT 1 FROM analyses WHERE app_id = ? AND kind = 'release' AND ref = ? AND status != 'failed'").get(appId, ref));
+}
+
+// The release tags --reanalyse runs again for an app: the newest GitHub
+// release stored for it, then every release with a recorded analysis.
+export function releasesToReanalyse(db, appId) {
+  const newest = db.prepare("SELECT version FROM assets WHERE app_id = ? AND source = 'github' ORDER BY published_at DESC LIMIT 1").get(appId);
+  const analysed = db.prepare("SELECT ref FROM analyses WHERE app_id = ? AND kind = 'release' ORDER BY analysed_at DESC, ref").all(appId).map(r => r.ref);
+  return [...new Set([...(newest ? [newest.version] : []), ...analysed])];
+}
+
+// Mark wallets for a rerun; marking one again moves its mark to now.
+export function requestReanalyse(db, appIds) {
+  const mark = db.prepare('INSERT OR REPLACE INTO reanalyse_requests (app_id) VALUES (?)');
+  db.transaction(() => { for (const id of appIds) mark.run(id); })();
+}
+
+// The pending marks, oldest first: [{ app_id, requested_at }].
+export function reanalyseRequests(db) {
+  return db.prepare('SELECT app_id, requested_at FROM reanalyse_requests ORDER BY requested_at, app_id').all();
+}
+
+// Remove marks. With `before`, only marks older than it: one made while the
+// wallet was already being analysed stays for the next pass.
+export function clearReanalyse(db, appIds, before = null) {
+  const clear = before
+    ? db.prepare('DELETE FROM reanalyse_requests WHERE app_id = ? AND requested_at < ?')
+    : db.prepare('DELETE FROM reanalyse_requests WHERE app_id = ?');
+  let removed = 0;
+  db.transaction(() => { for (const id of appIds) removed += (before ? clear.run(id, before) : clear.run(id)).changes; })();
+  return removed;
+}
+
+function ensureColumn(db, table, column, type) {
+  const columns = db.prepare(`PRAGMA table_info(${table})`).all().map(c => c.name);
+  if (!columns.includes(column)) db.exec(`ALTER TABLE ${table} ADD COLUMN ${column} ${type}`);
+}
+
+const SCOPES = ['app', 'build', 'tests'];
+const scopeOrNull = (v) => (SCOPES.includes(v) ? v : null);
 
 const boolOrNull = (v) => (v === null || v === undefined ? null : (v ? 1 : 0));
 
+const dependantsOrNull = (v) => (Array.isArray(v) ? JSON.stringify([...new Set(v)].sort()) : null);
+// The stored JSON list back as an array; null when the row predates the column or the files had no graph.
+export const dependantsOfRow = (v) => {
+  if (v == null) return null;
+  try {
+    const list = JSON.parse(v);
+    return Array.isArray(list) ? list : null;
+  } catch {
+    return null;
+  }
+};
+
 // Replace the stored dependency set of (appId, version) with the entries of
-// the given pinning analyses (see pinningAnalysis.mjs makeEntry).
+// the given pinning analyses (see plugins/pinning.mjs makeEntry).
 // Returns the number of rows stored.
 export function saveDependencies(db, appId, version, analyses) {
   const insertPackage = db.prepare(`
@@ -153,8 +575,8 @@ export function saveDependencies(db, appId, version, analyses) {
     SELECT id FROM packages WHERE ecosystem = ? AND name = ? AND version = ? AND resolved = ? AND integrity = ?
   `);
   const insertDependency = db.prepare(`
-    INSERT OR REPLACE INTO app_dependencies (app_id, version, package_id, lockfile, direct, dev, tier)
-    VALUES (?, ?, ?, ?, ?, ?, ?)
+    INSERT OR REPLACE INTO app_dependencies (app_id, version, package_id, lockfile, direct, dev, scope, dependants, tier)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
   `);
   const clear = db.prepare('DELETE FROM app_dependencies WHERE app_id = ? AND version = ?');
 
@@ -165,7 +587,7 @@ export function saveDependencies(db, appId, version, analyses) {
       for (const e of analysis.entries || []) {
         insertPackage.run(e.ecosystem, e.name, e.version, e.resolved, e.integrity);
         const { id } = selectPackage.get(e.ecosystem, e.name, e.version, e.resolved, e.integrity);
-        insertDependency.run(appId, version, id, e.lockfile, boolOrNull(e.direct), boolOrNull(e.dev), e.tier);
+        insertDependency.run(appId, version, id, e.lockfile, boolOrNull(e.direct), boolOrNull(e.dev), scopeOrNull(e.scope), dependantsOrNull(e.dependants), e.tier);
         count++;
       }
     }
@@ -174,11 +596,88 @@ export function saveDependencies(db, appId, version, analyses) {
   return run();
 }
 
+// Replace the stored vulnerability findings of (appId, version) with those of
+// a checkVulnerabilities result (plugins/osv.mjs). Returns the number of rows stored.
+// `nvdUnavailable` lists the package versions NVD did not answer for
+// (plugins/osv.mjs): the rows stored for them are kept, since replacing them
+// with OSV.dev's answer alone would drop every NVD-only advisory until the
+// next successful lookup. A finding of this run replaces its stored row, but
+// keeps the row's stored `listed_by`: NVD did not say this time whether it lists it.
+// A new finding of such a package stores NULL (no line) for the same reason.
+export function saveVulnerabilities(db, appId, version, { findings, nvdUnavailable = [] }) {
+  const columns = 'app_id, version, ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants, affected, listed_by';
+  const values = columns.split(', ').map(() => '?').join(', ');
+  const insert = db.prepare(`INSERT OR REPLACE INTO app_vulnerabilities (${columns}) VALUES (${values})`);
+  const keep = db.prepare(`INSERT OR IGNORE INTO app_vulnerabilities (${columns}) VALUES (${values})`);
+  const stored = db.prepare(`SELECT ${columns} FROM app_vulnerabilities WHERE app_id = ? AND version = ? AND ecosystem = ? AND name = ? AND dep_version = ?`);
+  const key = (ecosystem, name, depVersion, id) => [ecosystem, name, depVersion, id].join('\0');
+  return db.transaction(() => {
+    const kept = nvdUnavailable.flatMap(p => stored.all(appId, version, p.ecosystem, p.name, p.version));
+    const keptListedBy = new Map(kept.map(r => [key(r.ecosystem, r.name, r.dep_version, r.vuln_id), r.listed_by]));
+    const unanswered = new Set(nvdUnavailable.map(p => key(p.ecosystem, p.name, p.version, '')));
+    db.prepare('DELETE FROM app_vulnerabilities WHERE app_id = ? AND version = ?').run(appId, version);
+    for (const f of findings) {
+      const k = key(f.ecosystem, f.name, f.version, f.id);
+      insert.run(appId, version, f.ecosystem, f.name, f.version, f.id, f.severity,
+        f.aliases.join(' '), f.fixed.join(' '), f.summary, boolOrNull(f.direct), boolOrNull(f.dev), scopeOrNull(f.scope), dependantsOrNull(f.dependants),
+        Array.isArray(f.affected) && f.affected.length ? JSON.stringify(f.affected) : null,
+        keptListedBy.has(k) ? keptListedBy.get(k)
+          : unanswered.has(key(f.ecosystem, f.name, f.version, '')) ? null
+          : (f.listedBy?.length ? f.listedBy.join(' ') : null));
+    }
+    let carried = 0;
+    for (const r of kept) carried += keep.run(...columns.split(', ').map(c => r[c])).changes;
+    return findings.length + carried;
+  })();
+}
+
+export function getVulnerabilities(db, appId, version) {
+  return db.prepare(`
+    SELECT ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants, affected, listed_by
+    FROM app_vulnerabilities WHERE app_id = ? AND version = ?
+    ORDER BY CASE severity WHEN 'malicious' THEN 0 WHEN 'critical' THEN 1 WHEN 'high' THEN 2
+      WHEN 'moderate' THEN 3 WHEN 'low' THEN 4 ELSE 5 END, ecosystem, name, vuln_id
+  `).all(appId, version);
+}
+
+export function saveSubmodules(db, appId, ref, commit, rows) {
+  db.prepare('INSERT OR REPLACE INTO release_submodules (app_id, ref, commit_sha, rows, checked_at) VALUES (?, ?, ?, ?, CURRENT_TIMESTAMP)')
+    .run(appId, ref, commit, JSON.stringify(rows));
+}
+
+// { commit, checkedAt, rows } of (appId, ref), or null when it has no submodules stored.
+/**
+ * Every rebuild claim (package_rebuilds) as Map `ecosystem\0name\0version` →
+ * claims, ours first. Only what the panel shows: our unsigned event rides along.
+ */
+export function getRebuildClaims(db) {
+  const out = new Map();
+  const rows = db.prepare(`SELECT * FROM package_rebuilds ORDER BY claimant = 'ws' DESC, claimant`).all();
+  for (const r of rows) {
+    const key = `${r.ecosystem}\0${r.name}\0${r.version}`;
+    if (!out.has(key)) out.set(key, []);
+    const c = { by: r.claimant, result: r.result };
+    if (r.url) c.url = r.url;
+    if (r.note) c.note = r.note;
+    if (r.claimant === 'ws') {
+      c.date = String(r.checked_at).slice(0, 10);
+      if (r.event) c.event = JSON.parse(r.event);
+    }
+    out.get(key).push(c);
+  }
+  return out;
+}
+
+export function getSubmodules(db, appId, ref) {
+  const r = db.prepare('SELECT commit_sha, rows, checked_at FROM release_submodules WHERE app_id = ? AND ref = ?').get(appId, ref);
+  return r ? { commit: r.commit_sha, checkedAt: r.checked_at, rows: JSON.parse(r.rows) } : null;
+}
+
 // Stored dependency rows of (appId, version), package fields joined in.
 export function getDependencies(db, appId, version) {
   return db.prepare(`
     SELECT p.ecosystem, p.name, p.version AS dep_version, p.resolved, p.integrity,
-           d.lockfile, d.direct, d.dev, d.tier
+           d.lockfile, d.direct, d.dev, d.scope, d.dependants, d.tier
     FROM app_dependencies d JOIN packages p ON p.id = d.package_id
     WHERE d.app_id = ? AND d.version = ?
     ORDER BY p.ecosystem, d.lockfile, p.name, p.version
@@ -367,7 +866,9 @@ function createAssetNamePattern(assetName, version) {
 // The asset_name pattern is created by replacing the version with a wildcard
 // This allows matching assets like "zeus-v0.12.0-alpha4-arm64-v8a.apk" and "zeus-v0.12.0-alpha3-arm64-v8a.apk"
 // Returns array of objects with version, size, published_at
-export function getPreviousAssetVersions(db, appId, assetName, source, architecture, os, currentVersion, limit = 10) {
+// publishedBefore (optional): only versions published before it, so a release is
+// never compared against newer ones
+export function getPreviousAssetVersions(db, appId, assetName, source, architecture, os, currentVersion, limit = 10, publishedBefore = null) {
   // Create pattern by replacing version with wildcard
   const assetNamePattern = createAssetNamePattern(assetName, currentVersion);
   
@@ -379,6 +880,7 @@ export function getPreviousAssetVersions(db, appId, assetName, source, architect
       AND COALESCE(os, '') = COALESCE(?, '')
       AND version != ?
       AND size IS NOT NULL
+      AND (? IS NULL OR published_at < ?)
     ORDER BY COALESCE(published_at, created_at) DESC
     LIMIT ?
   `);
@@ -390,7 +892,31 @@ export function getPreviousAssetVersions(db, appId, assetName, source, architect
     architecture || null, 
     os || null, 
     currentVersion,
+    publishedBefore,
+    publishedBefore,
     limit
   );
 }
 
+
+export function savePackageSource(db, ecosystem, name, r) {
+  db.prepare(`INSERT OR REPLACE INTO package_sources (ecosystem, name, repo_url, source, note, checked_at) VALUES (?, ?, ?, ?, ?, CURRENT_TIMESTAMP)`)
+    .run(ecosystem, name, r.url || null, r.source, r.note || null);
+}
+
+// Source repository per `ecosystem:name`, for the export.
+export function packageSources(db) {
+  const map = new Map();
+  for (const r of db.prepare('SELECT ecosystem, name, repo_url, source FROM package_sources').all()) map.set(`${r.ecosystem}:${r.name}`, r);
+  return map;
+}
+
+// Distinct packages without a cached lookup (or all of them with `all`); one
+// version each, which Maven needs to find the POM.
+export function packagesToResolve(db, { all = false } = {}) {
+  return db.prepare(`
+    SELECT p.ecosystem, p.name, MAX(p.version) AS version FROM packages p
+    ${all ? '' : 'WHERE NOT EXISTS (SELECT 1 FROM package_sources s WHERE s.ecosystem = p.ecosystem AND s.name = p.name)'}
+    GROUP BY p.ecosystem, p.name ORDER BY p.ecosystem, p.name
+  `).all();
+}

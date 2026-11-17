@@ -246,6 +246,27 @@ permalink: /new_verification/
         display: block;
         color: black;
     }
+    .drop-zone-input {
+        display: none;
+    }
+    /* Phones cannot drop files: the drop zone becomes plain text and the file picker shows */
+    @media screen and (max-width: 768px) {
+        .drop-zone {
+            background: none;
+            border: none;
+            padding: 0;
+            text-align: left;
+            cursor: default;
+            pointer-events: none;
+        }
+        .drop-zone-text {
+            color: inherit;
+        }
+        .drop-zone-input {
+            display: block;
+            max-width: 100%;
+        }
+    }
     .file-list {
         margin-top: 10px;
         display: flex;
@@ -504,7 +525,7 @@ permalink: /new_verification/
             <label for="fileInput" id="dropZone" class="drop-zone">
                 <span class="drop-zone-text">If you've used <b>scripts</b> or <b>docker files</b> to build the asset, <b>drag & drop</b> them here to attach them (max {{ maxFileAttachmentContentLength | divided_by: 1024 }} KB each). Each file will be linked to this verification and could be used by other users to reproduce the asset.</span>
             </label>
-            <input type="file" id="fileInput" multiple hidden>
+            <input type="file" id="fileInput" class="drop-zone-input" multiple>
             <div id="fileList" class="file-list"></div>
         </div>
         <!-- End File Dropzone Area -->
@@ -519,7 +540,7 @@ permalink: /new_verification/
                   <p>- You can also upload other log files, like build logs showing successful or failed builds.</p>
                 </span>
             </label>
-            <input type="file" id="blossomFileInput" multiple hidden>
+            <input type="file" id="blossomFileInput" class="drop-zone-input" multiple>
             <div id="blossomFileList" class="file-list"></div>
         </div>
         <div class="blossom-upload-status"></div>
@@ -547,6 +568,7 @@ permalink: /new_verification/
   let newHashInputField;
   let uploadedFiles = []; // Store File objects
   let reusedFileIds = [];
+  const reusedScriptTexts = new Map(); // attachment id -> its content, for the build-lock check
   let outputFiles = []; // Store files for Blossom upload
   const codeSnippetKind = 1337;
 
@@ -870,11 +892,22 @@ permalink: /new_verification/
       if (!outputFiles.some(f => f.name === file.name && f.size === file.size)) {
         try {
           const hash = await calculateFileHash(file);
+          // A build-lock is known by its content and always saved as build-lock.json
+          const buildLock = await readBuildLock(file);
+          if (buildLock) {
+            const problem = buildLockProblem(buildLock, getBuildFormValues())
+              || (outputFiles.some(isBuildLockEntry) ? SECOND_BUILD_LOCK_MESSAGE : null);
+            if (problem) {
+              errors.push(`"${file.name}": ${problem}`);
+              continue;
+            }
+          }
           outputFiles.push({
             data: file,
-            name: file.name,
+            name: buildLock ? BUILD_LOCK_FILE_NAME : file.name,
             size: file.size,
-            hash: hash
+            hash: hash,
+            ...(buildLock ? { buildLock } : {})
           });
         } catch (error) {
           console.error("Error calculating hash for file:", file.name, error);
@@ -889,6 +922,23 @@ permalink: /new_verification/
       showToast(errors.join('\n'), 'error', 6000 + (errors.length * 2000));
     }
     displayOutputFiles();
+  }
+
+  function getBuildFormValues() {
+    return {
+      appId: document.getElementById('appId').value.trim(),
+      version: document.getElementById('version').value.trim(),
+      platform: document.getElementById('platform').value,
+    };
+  }
+
+  async function getScriptTexts() {
+    const texts = [];
+    for (const file of uploadedFiles) {
+      texts.push(file instanceof File ? await file.text() : file.data);
+    }
+    reusedFileIds.forEach(id => texts.push(reusedScriptTexts.get(id)));
+    return texts;
   }
 
   function setupBlossomDropZone() {
@@ -1166,6 +1216,7 @@ permalink: /new_verification/
                 }
 
                 reusedFileIds.push(attachmentId);
+                reusedScriptTexts.set(attachmentId, attachmentContent);
                 setButtonIcon('minus');
                 addScriptButton.title = "Remove this script from the verification";
                 addScriptButton.style.color = 'red'; // Change color to red
@@ -1208,6 +1259,18 @@ permalink: /new_verification/
 
     const submitter = event.submitter;
     const isDraft = submitter.name === 'draft';
+
+    const buildLockProblemMessage = buildLockSubmitProblem({
+      outputFiles,
+      // a draft may be saved before its build-lock.json is added
+      scripts: isDraft ? [] : await getScriptTexts(),
+      form: getBuildFormValues(),
+      status: document.getElementById('status').value,
+    });
+    if (buildLockProblemMessage) {
+      showToast(buildLockProblemMessage, 'error', 10000);
+      return;
+    }
 
     showToast(isDraft ? 'Publishing draft...' : 'Publishing verification...', 'info', 3000);
 

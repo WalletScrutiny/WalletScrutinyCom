@@ -1,7 +1,6 @@
 ---
-wsId: trendofx
 title: 'Trendo: Forex Trading & Broker'
-date: 2023-04-04
+date: 2026-10-30
 authors:
 - danny
 website: https://fxtrendo.com
@@ -17,7 +16,6 @@ android:
   updated: 2025-02-18
   version: 3.9.40_googleplay
   reviews: 674
-  icon: com.trendo.android.webp
   meta: removed
   verdict: custodial
   developerName: Trendo Forex
@@ -26,10 +24,9 @@ iphone:
   idd: 1530580389
   appCountry: in
   released: 2020-09-29
-  updated: 2026-09-28
-  version: 5.1.28
-  reviews: 101
-  icon: ios.m3.Trendo.webp
+  updated: 2026-10-13
+  version: 5.1.51
+  reviews: 104
   meta: ok
   verdict: custodial
   developerName: Trendo LLC
@@ -103,4 +100,4 @@ For the meantime, with claims to receive cryptocurrencies, but with no proof tha
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

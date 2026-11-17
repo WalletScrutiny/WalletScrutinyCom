@@ -1,10 +1,9 @@
 ---
-wsId: zabiraBuyBTC
 title: 'Zabira: Buy BTC, ETH & Crypto'
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
-website: https://www.zabira.ng
+website: https://www.zabira.com
 twitter: thezabira
 social:
 - https://www.facebook.com/thezabira
@@ -20,7 +19,6 @@ android:
   updated: 2024-05-07
   version: 1.0.28
   reviews: 15
-  icon: app.zabira.ng.webp
   meta: removed
   verdict: custodial
   developerName: Zabira
@@ -32,12 +30,13 @@ iphone:
   updated: 2023-10-18
   version: 1.0.28.1
   reviews: 43
-  icon: app.zabira.ng.webp
   meta: removed
   verdict: custodial
   developerName: Zabira Technologies
 
 ---
+
+**Update 2026-10-30:** This app is gone from both stores. Zabira moved its website to [zabira.com](https://www.zabira.com/), and offers a new app there, released in 2024: {% include walletLink.html wallet='android/dev.app.grizab.ng' verdict='true' %}.
 
 ## Android
 
@@ -64,4 +63,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

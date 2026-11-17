@@ -1,7 +1,6 @@
 ---
-wsId: bitonic
 title: 'Bitonic: buy & store bitcoin'
-date: 2026-01-03
+date: 2026-10-30
 authors:
 - danny
 website: https://bitonic.nl
@@ -16,9 +15,8 @@ android:
   appId: nl.bitonic.androidApp
   users: 50000
   appCountry: us
-  updated: 2026-09-17
-  version: 3.28.5
-  icon: nl.bitonic.androidApp.webp
+  updated: 2026-10-01
+  version: 3.28.6
   meta: ok
   verdict: custodial
   developerName: Bitonic
@@ -27,10 +25,9 @@ iphone:
   idd: '1503179166'
   appCountry: nl
   released: 2020-05-17
-  updated: 2026-09-21
-  version: 3.28.5
-  reviews: 2584
-  icon: nl.bitonic.Bitonic.webp
+  updated: 2026-10-07
+  version: 3.28.6
+  reviews: 2586
   meta: ok
   verdict: custodial
   developerName: Bitonic B.V.
@@ -55,4 +52,4 @@ Their reliance on [cold storage](https://bitonic.nl/security) strongly suggests 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

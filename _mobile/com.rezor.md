@@ -1,7 +1,6 @@
 ---
-wsId: rezorWallet
 title: 'Rezor : Crypto Wallet'
-date: 2025-12-08
+date: 2026-10-30
 authors:
 - danny
 twitter: rezor_official
@@ -19,7 +18,6 @@ android:
   updated: 2026-03-30
   version: '1'
   reviews: 10
-  icon: com.rezor.webp
   meta: ok
   verdict: nosource
   developerName: saitaresilia
@@ -31,7 +29,6 @@ iphone:
   updated: 2025-11-05
   version: 1.0.5
   reviews: 21
-  icon: com.rezor.webp
   meta: ok
   verdict: nosource
   developerName: rezor foundation
@@ -58,4 +55,4 @@ However, during [testing](https://x.com/BitcoinWalletz/status/199794273696057794
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

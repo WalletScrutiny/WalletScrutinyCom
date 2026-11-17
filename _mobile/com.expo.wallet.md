@@ -1,9 +1,9 @@
 ---
 title: EXPO Mobile Wallet
-date: 2023-05-24
+date: 2026-10-30
 authors:
 - danny
-website: https://expo.biz/
+website: https://expo.biz/#deadLink
 redirect_from:
 - /android/com.expo.wallet/
 android:
@@ -11,7 +11,6 @@ android:
   users: 1000
   updated: 2021-02-18
   version: 1.0.15
-  icon: com.expo.wallet.webp
   meta: removed
   verdict: wip
   developerName: EXPO R&M

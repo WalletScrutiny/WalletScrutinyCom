@@ -1,6 +1,6 @@
 ---
 title: AJC Wallet
-date: 2023-12-19
+date: 2026-10-30
 website: https://ajaxcash.com#deadLink
 redirect_from:
 - /android/com.ajaxcash.ajc/
@@ -10,7 +10,6 @@ android:
   released: 2022-02-19
   updated: 2022-03-29
   version: '10.03'
-  icon: com.ajaxcash.ajc.webp
   meta: removed
   verdict: wip
   developerName: Ajax Fintech Limited

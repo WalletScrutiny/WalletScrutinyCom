@@ -1,7 +1,6 @@
 ---
-wsId: maskEX
 title: MaskEX Crypto & Privacy Wallet
-date: 2025-06-05
+date: 2026-10-30
 authors:
 - danny
 website: https://maskex.com/
@@ -23,7 +22,6 @@ android:
   updated: 2025-02-15
   version: 4.1.8
   reviews: 2
-  icon: com.maskex.app.webp
   meta: stale
   verdict: custodial
   developerName: Maskunion Investments L.L.C.
@@ -35,7 +33,6 @@ iphone:
   updated: 2024-06-03
   version: 2.0.8
   reviews: 8
-  icon: com.maskexnnew.app.webp
   meta: obsolete
   verdict: custodial
   developerName: Mask Global Market Co., Ltd
@@ -60,4 +57,4 @@ We were not able to find options to backup or import private keys. As an exchang
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

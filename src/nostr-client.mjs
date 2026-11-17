@@ -1,4 +1,5 @@
 import { SimplePool } from 'nostr-tools/pool';
+import { normalizeURL } from 'nostr-tools/utils';
 import { finalizeEvent, getPublicKey } from 'nostr-tools/pure';
 import { hexToBytes } from '@noble/hashes/utils.js';
 import { bech32 } from '@scure/base';
@@ -70,6 +71,18 @@ export function getRelayUrls() {
   return relayUrls;
 }
 
+/**
+ * Connection state of each relay in `urls` (defaults to the write set) as seen
+ * by the shared pool. A relay the pool never managed to connect to is reported
+ * as disconnected, which lets long-lived subscribers decide to re-subscribe.
+ */
+export function getRelayConnectionStatus(urls = relayUrls) {
+  return urls.map(url => {
+    const relay = pool?.relays?.get(normalizeURL(url));
+    return { url, connected: relay?.connected === true };
+  });
+}
+
 /** Relays used by reads when a call passes no relayUrls; defaults to the write set. */
 export function getReadRelayUrls() {
   return readRelayUrls ?? relayUrls;
@@ -88,6 +101,7 @@ export async function connectNostr(options = {}) {
     onRelayConnect,
     onRelayDisconnect,
     onRelayError,
+    poolOptions = {},
   } = options;
 
   relayListeners.onConnect = onRelayConnect ?? null;
@@ -111,7 +125,10 @@ export async function connectNostr(options = {}) {
 
   connectionPromise = (async () => {
     if (!pool) {
-      pool = new SimplePool();
+      // poolOptions are only applied when the shared pool is first created
+      // (e.g. `{ enablePing: true, enableReconnect: true }` for long-running
+      // processes that keep subscriptions open).
+      pool = new SimplePool(poolOptions);
     }
 
     const connect = async (url) => {

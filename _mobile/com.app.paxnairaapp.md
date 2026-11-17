@@ -1,6 +1,6 @@
 ---
 title: Paxnaira - Buy & Sell Bitcoin
-date: 2023-01-02
+date: 2026-10-30
 website: https://www.paxnaira.com#deadLink
 redirect_from:
 - /android/com.app.paxnairaapp/
@@ -10,7 +10,6 @@ android:
   released: 2019-07-29
   updated: 2019-07-29
   version: '1.0'
-  icon: com.app.paxnairaapp.webp
   meta: removed
   verdict: wip
 

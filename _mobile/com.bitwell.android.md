@@ -1,6 +1,6 @@
 ---
 title: BitWell
-date: 2023-01-02
+date: 2026-10-30
 website: http://www.bitwellex.com#deadLink
 redirect_from:
 - /android/com.bitwell.android/
@@ -11,7 +11,6 @@ android:
   updated: 2022-07-09
   version: 1.8.1
   reviews: 3
-  icon: com.bitwell.android.webp
   meta: removed
   verdict: wip
 

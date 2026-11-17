@@ -1,6 +1,6 @@
 ---
 title: 'Conio: Wallet Bitcoin & Crypto'
-date: 2020-04-09
+date: 2026-10-30
 authors:
 - leo
 website: https://www.conio.com
@@ -22,7 +22,6 @@ android:
   appCountry: us
   updated: 2026-09-25
   version: 11.1.1
-  icon: com.conio.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Conio Srl

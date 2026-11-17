@@ -1,7 +1,6 @@
 ---
-wsId: tokocrypto
 title: 'Tokocrypto: Buy Bitcoin Crypto'
-date: 2021-08-21
+date: 2026-10-30
 authors:
 - danny
 - leo
@@ -19,21 +18,19 @@ android:
   appCountry: id
   released: 2020-10-19
   updated: 2026-09-22
-  version: 2.39.0
-  reviews: 57242
-  icon: com.binance.cloud.tokocrypto.webp
+  version: 2.40.0
+  reviews: 57557
   meta: ok
   verdict: custodial
   developerName: Tokocrypto
 iphone:
   appId: com.binanceCloudtoko.binance
   idd: '1538556690'
-  appCountry: ph
+  appCountry: id
   released: 2020-12-01
   updated: 2022-10-15
   version: 1.10.0
   reviews: 1
-  icon: com.binanceCloudtoko.binance.webp
   meta: removed
   verdict: custodial
 
@@ -51,4 +48,8 @@ LEARN, BUY, SELL AND INVEST BITCOIN AND CRYPTO ASSETS EASILY AND SAFELY.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+**Update 2026-10-30:** The iPhone app is not gone. It is still in the
+Indonesian App Store as "Tokocrypto Crypto Exchange" by PT. Crypto Indonesia
+Berkat; we only looked for it in the Philippine store before.
+
+The Android analysis above applies to the iPhone app too.

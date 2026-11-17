@@ -1,7 +1,6 @@
 ---
-wsId: WiseWinWallet
 title: Win Wallet
-date: 2022-05-31
+date: 2026-10-30
 authors:
 - danny
 website: https://wise.win#deadLink
@@ -16,7 +15,6 @@ android:
   updated: 2021-07-02
   version: 2.6.4
   reviews: 28
-  icon: com.wise.llc.wallet.app.webp
   meta: removed
   verdict: nosource
   developerName: wise.win
@@ -27,7 +25,6 @@ iphone:
   updated: 2021-07-04
   version: 2.6.4
   reviews: 0
-  icon: com.wwise.llc.wallet.app.webp
   meta: removed
   verdict: nosource
 
@@ -63,4 +60,4 @@ This is a **self-custodial** app, meaning that you are in control of the keys. O
 
 **Update 2022-04-24**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

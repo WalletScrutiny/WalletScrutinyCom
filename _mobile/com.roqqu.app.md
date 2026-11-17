@@ -1,12 +1,11 @@
 ---
-wsId: roqqu
 title: 'Roqqu: Buy & Sell Crypto'
-date: 2021-04-16
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
 - danny
-website: https://roqqu.com
+website: https://roqqu.io
 twitter: roqqupay
 social:
 - https://www.facebook.com/roqqupay
@@ -18,10 +17,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-09-30
-  updated: 2026-09-25
-  version: 2.6.9
-  reviews: 915
-  icon: com.roqqu.app.webp
+  updated: 2026-10-13
+  version: 2.6.12
+  reviews: 914
   meta: ok
   verdict: custodial
   developerName: Roqqu
@@ -30,15 +28,16 @@ iphone:
   idd: 1505370687
   appCountry: de
   released: 2020-04-06
-  updated: 2026-09-25
-  version: 2.6.9
+  updated: 2026-10-12
+  version: 2.6.11
   reviews: 8
-  icon: com.roqqu.ios.webp
   meta: ok
   verdict: custodial
   developerName: RedRaven Limited
 
 ---
+
+**Update 2026-10-30:** Roqqu has moved to [roqqu.io](https://roqqu.io/). New since our review is a separate [Web3 wallet](https://roqqu.io/wallet/web3) inside the app, for which Roqqu claims "Your private keys belong solely to you". The iPhone app's 2026-07-31 release notes add Bitcoin to that wallet. We have not tested that part yet.
 
 ## Android
 
@@ -52,7 +51,7 @@ which means you do not control the keys to your Bitcoins.
 
 It is somewhat obscure weather this wallet can even store bitcoins, but under
 their FAQ section on their website it contains an article on how to
-[send and receive bitcoins](https://roqqu.com/knowledge/articles/send/how-to-send-and-receive-btc)
+[send and receive bitcoins](https://roqqu.com/knowledge/articles/send/how-to-send-and-receive-btc#deadLink)
 with addresses and QR codes displayed.
 
 Our verdict: This "wallet" is custodial and therefore **not verifiable**.

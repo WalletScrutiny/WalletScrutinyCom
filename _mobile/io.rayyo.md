@@ -1,7 +1,6 @@
 ---
-wsId: rayyoWallet
 title: RAYYO Wallet
-date: 2026-01-02
+date: 2026-10-30
 authors:
 - danny
 website: https://rayyo.mx
@@ -19,9 +18,8 @@ android:
   users: 50000
   appCountry: us
   released: 2025-10-03
-  updated: 2026-09-18
-  version: 0.7.69
-  icon: io.rayyo.webp
+  updated: 2026-10-06
+  version: 0.7.70
   meta: ok
   verdict: nosource
   developerName: Montebit
@@ -30,10 +28,9 @@ iphone:
   idd: '6448856707'
   appCountry: mx
   released: 2024-04-22
-  updated: 2026-09-21
-  version: 0.7.69
+  updated: 2026-10-07
+  version: 0.7.70
   reviews: 36
-  icon: io.rayyo.webp
   meta: ok
   verdict: nosource
   developerName: Montebit
@@ -86,6 +83,6 @@ This is a clear indication that this app is **not sourceavailable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="Integra la autenticación biométrica, como la huella dactilar o el reconocimiento facial, lo que garantiza que solo los usuarios autorizados puedan acceder a sus cuentas y realizar transacciones." source="Store" %}

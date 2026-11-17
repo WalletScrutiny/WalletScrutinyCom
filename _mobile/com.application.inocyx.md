@@ -1,7 +1,6 @@
 ---
-wsId: inocyx
 title: 'Inocyx: Buy & Trade Crypto'
-date: 2023-11-01
+date: 2026-10-30
 authors:
 - danny
 website: https://inocyx.com/
@@ -12,7 +11,6 @@ social:
 - https://www.instagram.com/inocyx
 - https://www.youtube.com/channel/UCv9OPOSaJqQAe7ljg2d5lBg
 - https://t.me/inocyxiyx
-- https://inocyx.com
 features:
 - buyWithCC
 - tradeAlts
@@ -26,7 +24,6 @@ android:
   released: 2022-11-16
   updated: 2026-08-24
   version: 1.80.84
-  icon: com.application.inocyx.webp
   meta: ok
   verdict: custodial
   developerName: INOCYX
@@ -38,7 +35,6 @@ iphone:
   updated: 2026-08-25
   version: '6.0'
   reviews: 17
-  icon: com.app.Inocyx.webp
   meta: ok
   verdict: custodial
   developerName: Inocyx technologies private limited
@@ -72,7 +68,7 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Discover and trade over 120 coins." source="Store" %}
 

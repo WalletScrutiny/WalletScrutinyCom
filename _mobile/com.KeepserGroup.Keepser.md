@@ -1,6 +1,6 @@
 ---
 title: KEEPSER
-date: 2025-11-05
+date: 2026-10-30
 authors:
 - danny
 website: https://web.archive.org/web/20210918112918/https://www.keepser.io/
@@ -13,7 +13,6 @@ android:
   released: 2021-07-22
   updated: 2024-12-17
   version: 2.0.0
-  icon: com.KeepserGroup.Keepser.webp
   meta: removed
   verdict: wip
   developerName: Freemindtronic SL

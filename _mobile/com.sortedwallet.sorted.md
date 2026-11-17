@@ -1,6 +1,6 @@
 ---
 title: 'Sorted Wallet: Send Money Home'
-date: 2026-05-20
+date: 2026-10-30
 authors:
 - danny
 website: https://www.sorted.io
@@ -12,10 +12,9 @@ android:
   users: 10000
   appCountry: us
   released: 2025-12-11
-  updated: 2026-07-24
-  version: 1.0.25
+  updated: 2026-10-06
+  version: 1.0.26
   reviews: 3
-  icon: com.sortedwallet.sorted.webp
   meta: ok
   verdict: nosource
   developerName: Sors Technology Limited

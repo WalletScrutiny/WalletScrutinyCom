@@ -1,7 +1,6 @@
 ---
-wsId: uniSat
 title: UniSat Wallet
-date: 2025-10-23
+date: 2026-10-30
 authors:
 - danny
 website: https://unisat.io/
@@ -21,7 +20,6 @@ android:
   updated: 2026-08-16
   version: 1.7.20
   reviews: 19
-  icon: io.unisat.webp
   meta: ok
   verdict: nosource
   developerName: UniSat
@@ -33,7 +31,6 @@ iphone:
   updated: 2026-06-04
   version: 1.7.16
   reviews: 31
-  icon: io.unisat.mobile.webp
   meta: removed
   verdict: nosource
   developerName: UniPro Technology Limited
@@ -68,6 +65,6 @@ Despite claims, this app is **NOT source available**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="foss" quote="Fully Open Source Built with transparency in mind. Review our code anytime at https://github.com/unisat-wallet/extension" source="Store" %}

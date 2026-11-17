@@ -1,7 +1,6 @@
 ---
-wsId: gosats
 title: 'GoSats: Gold and BTC Rewards'
-date: 2023-02-13
+date: 2026-10-30
 authors:
 - danny
 website: https://gosats.io
@@ -14,10 +13,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2021-01-06
-  updated: 2026-09-11
-  version: 3.1.4
+  updated: 2026-10-07
+  version: 3.1.5
   reviews: 5
-  icon: io.gosats.webp
   meta: ok
   verdict: custodial
   developerName: Saffron Technologies Pte Ltd
@@ -26,10 +24,9 @@ iphone:
   idd: '1536263998'
   appCountry: in
   released: 2021-01-05
-  updated: 2026-09-12
-  version: 3.1.4
-  reviews: 939
-  icon: io.gosats.webp
+  updated: 2026-10-08
+  version: 3.1.5
+  reviews: 949
   meta: ok
   verdict: custodial
   developerName: Saffron Technologies Pte Ltd
@@ -72,4 +69,4 @@ A service that can terminate a user's access to his funds is a **custodial servi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

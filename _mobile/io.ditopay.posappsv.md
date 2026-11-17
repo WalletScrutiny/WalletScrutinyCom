@@ -1,7 +1,6 @@
 ---
-wsId: ditobanxPOS
 title: DitoBanx POS Bitcoin
-date: 2025-12-27
+date: 2026-10-30
 authors:
 - danny
 website: https://ditobanx.com
@@ -20,7 +19,6 @@ android:
   released: 2021-10-03
   updated: 2024-03-07
   version: '1.31'
-  icon: io.ditopay.posappsv.webp
   meta: obsolete
   verdict: custodial
   developerName: DitoBanx
@@ -32,7 +30,6 @@ iphone:
   updated: 2022-07-07
   version: 1.1.1
   reviews: 2
-  icon: ditopos.ditobanx.io.webp
   meta: obsolete
   verdict: custodial
   developerName: DitoBanx El Salvador
@@ -51,4 +48,4 @@ DitoBanx provides a custodial Bitcoin payment application that enables merchants
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

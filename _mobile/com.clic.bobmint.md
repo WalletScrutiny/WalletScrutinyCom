@@ -1,7 +1,7 @@
 ---
 title: bobmint
-date: 2024-04-03
-website: https://bobmint.com
+date: 2026-10-30
+website: https://bobmint.com#deadLink
 redirect_from:
 - /android/com.clic.bobmint/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2022-09-08
   updated: 2022-09-14
   version: '3.0'
-  icon: com.clic.bobmint.webp
   meta: removed
   verdict: wip
   developerName: Bobmint

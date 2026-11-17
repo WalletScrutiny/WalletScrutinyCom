@@ -1,7 +1,6 @@
 ---
-wsId: xMetaExchange
 title: X-Meta Exchange
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: https://x-meta.com
@@ -20,7 +19,6 @@ android:
   updated: 2022-12-19
   version: 2.1.0
   reviews: 8
-  icon: com.cloud.xmeta.webp
   meta: obsolete
   verdict: custodial
   developerName: x-meta
@@ -32,12 +30,13 @@ iphone:
   updated: 2022-03-11
   version: 1.1.0
   reviews: 3
-  icon: com.x-meta.exchange.webp
   meta: removed
   verdict: custodial
   developerName: X-META LLC
 
 ---
+
+**Update 2026-10-30:** X-Meta now offers a new app from its [website](https://www.x-meta.com/mn): {% include walletLink.html wallet='android/com.xmeta.mobile' verdict='true' %}. This older Android app has not been updated since December 2022, and the old iPhone app is gone.
 
 ## Android
 
@@ -68,4 +67,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

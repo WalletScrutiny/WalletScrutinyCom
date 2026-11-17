@@ -1,7 +1,6 @@
 ---
-wsId: enjin
 title: 'Enjin: Crypto & NFT Wallet'
-date: 2023-01-17
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -28,8 +27,7 @@ android:
   released: 2018-01-01
   updated: 2026-08-06
   version: 3.6.7
-  reviews: 1086
-  icon: com.enjin.mobile.wallet.webp
+  reviews: 1087
   meta: ok
   verdict: nosource
   developerName: Enjin Pte. Ltd.
@@ -40,8 +38,7 @@ iphone:
   released: 2018-03-12
   updated: 2026-09-21
   version: 3.6.2
-  reviews: 1360
-  icon: com.enjin.mobile.wallet.webp
+  reviews: 1358
   meta: ok
   verdict: nosource
   developerName: Enjin PTE LTD

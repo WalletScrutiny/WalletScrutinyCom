@@ -1,7 +1,6 @@
 ---
-wsId: munawallet
 title: Muna App
-date: 2023-05-17
+date: 2026-10-30
 authors:
 - danny
 website: https://muna.app#deadLink
@@ -19,7 +18,6 @@ android:
   updated: 2023-11-03
   version: 3.0.0
   reviews: 14
-  icon: com.munawallet.muna.webp
   meta: removed
   verdict: custodial
   developerName: Quru Lab
@@ -30,11 +28,12 @@ iphone:
   updated: 2023-03-25
   version: 2.5.2
   reviews: 3
-  icon: com.quru.muna.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** Muna appears to be gone. Both apps are no longer in the stores, and its website, which still described the app [in August 2025](https://web.archive.org/web/20250807164813/https://www.muna.app/), now only offers the domain for sale.
 
 ## Android
 
@@ -66,4 +65,4 @@ While Muna claims to allow users to send and receive crypto, it offers no inform
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

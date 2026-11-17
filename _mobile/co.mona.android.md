@@ -1,7 +1,6 @@
 ---
-wsId: mona
 title: 'Crypto.com: Trade Every Market'
-date: 2021-10-24
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -25,10 +24,9 @@ android:
   users: 50000000
   appCountry: us
   released: 2017-08-30
-  updated: 2026-09-28
-  version: 3.242.0
-  reviews: 56885
-  icon: co.mona.android.webp
+  updated: 2026-10-05
+  version: 3.242.10
+  reviews: 56924
   meta: ok
   verdict: custodial
   developerName: Crypto Technology Holdings Limited
@@ -37,10 +35,9 @@ iphone:
   idd: '1262148500'
   appCountry: us
   released: 2017-08-31
-  updated: 2026-09-29
-  version: '3.242'
-  reviews: 334713
-  icon: co.mona.Monaco.webp
+  updated: 2026-10-07
+  version: 3.242.10
+  reviews: 335361
   meta: ok
   verdict: custodial
   developerName: Crypto.com
@@ -82,7 +79,7 @@ their website:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Crypto Trading — Trade BTC, ETH, CRO, SOL, XRP, and 400+ other cryptocurrencies." source="Store" %}
 

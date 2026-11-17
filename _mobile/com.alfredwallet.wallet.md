@@ -1,12 +1,9 @@
 ---
-wsId: alfredWallet
 title: AlfredWallet
-date: 2024-10-28
+date: 2026-10-30
 authors:
 - danny
 website: https://alfwallet.io#deadLink
-social:
-- https://alfwallet.io#deadLink
 redirect_from:
 - /android/com.alfredwallet.wallet/
 - /iphone/com.AlfredWallet/
@@ -16,7 +13,6 @@ android:
   released: 2021-08-12
   updated: 2023-08-23
   version: '1.18'
-  icon: com.alfredwallet.wallet.webp
   meta: removed
   verdict: nosource
   developerName: PRO DIGITAL
@@ -28,7 +24,6 @@ iphone:
   updated: 2023-06-27
   version: '1.15'
   reviews: 0
-  icon: com.AlfredWallet.webp
   meta: removed
   verdict: nosource
   developerName: PRO DIGITAL INNOVATIONS INC
@@ -67,4 +62,4 @@ Assuming that its claims about self-custody are true, we could **not find any re
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

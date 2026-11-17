@@ -1,9 +1,9 @@
 ---
 title: Bits.Money
-date: 2023-05-13
+date: 2026-10-30
 authors:
 - danny
-website: https://bitsmoney.co.com
+website: https://bitsmoney.co.com#deadLink
 redirect_from:
 - /android/com.bitsmoney.mobile/
 android:
@@ -13,7 +13,6 @@ android:
   updated: 2021-05-17
   version: 1.0.2
   reviews: 6
-  icon: com.bitsmoney.mobile.webp
   meta: removed
   verdict: wip
   developerName: Bits Money Ltd.

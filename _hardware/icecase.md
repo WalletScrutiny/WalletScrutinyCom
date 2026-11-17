@@ -12,16 +12,15 @@ dimensions:
 weight: 
 provider: NeatNik LLC (Adam Newbold)
 providerWebsite: 
-website: https://icecase.io/
+website: https://icecase.io/#deadLink
 shop: 
 country: 
 price: 
 repository: 
-icon: icecase.webp
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: vapor
-date: 2024-10-21
+date: 2026-10-30
 signer: 
 twitter: 
 social: 
@@ -29,6 +28,8 @@ builds:
 features: 
 
 ---
+
+**⚠️ Warning:** IceCase never shipped, and its website no longer loads. The last archived copy, [from October 2025](https://web.archive.org/web/20251013161322/https://icecase.io/), no longer took pre-orders and pitched an IceCase token sale instead.
 
 ## Updated Review 2024-10-21
 

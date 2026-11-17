@@ -1,7 +1,6 @@
 ---
-wsId: nicechange
 title: Биткоин-обменник – NiceChange
-date: 2025-01-15
+date: 2026-10-30
 authors:
 - danny
 website: https://nicechange.net/
@@ -14,7 +13,6 @@ android:
   released: 2021-05-25
   updated: 2024-08-01
   version: 4.1.1
-  icon: com.xchange.nicechange.webp
   meta: removed
   verdict: custodial
   developerName: XchangeCapitalGroup OU
@@ -26,12 +24,13 @@ iphone:
   updated: 2022-12-29
   version: 1.0.9
   reviews: 0
-  icon: com.xchangecapital.nicechange.webp
   meta: removed
   verdict: custodial
   developerName: XChangeCapitalGroup
 
 ---
+
+**Update 2026-10-30:** NiceChange now runs as NicexChanger on [nicexchanger.cc](https://nicexchanger.cc/), and nicechange.net forwards there. According to [this review](https://profinvestment.com/nicechange/), the service moved to the new domain after its servers were seized in September 2024.
 
 ## Android
 
@@ -65,4 +64,4 @@ A bitcoin wallet can be replenished and funds can be withdrawn. The service prov
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

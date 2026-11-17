@@ -1,7 +1,6 @@
 ---
-wsId: azasendBitcoin
 title: 'Azasend: Buy, Sell Bitcoin'
-date: 2025-11-12
+date: 2026-10-30
 authors:
 - danny
 website: https://azasend.com
@@ -17,7 +16,6 @@ android:
   updated: 2025-11-03
   version: 3.9.1
   reviews: 76
-  icon: com.azasend.app.webp
   meta: ok
   verdict: custodial
   developerName: Azasend Sp
@@ -29,7 +27,6 @@ iphone:
   updated: 2025-11-06
   version: 3.9.1
   reviews: 9
-  icon: com.azasend.app.webp
   meta: ok
   verdict: custodial
   developerName: Azasend Ltd
@@ -54,4 +51,4 @@ This is a **custodial** app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

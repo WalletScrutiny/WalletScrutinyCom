@@ -1,6 +1,6 @@
 ---
 title: AwalBit
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/com.awalbit/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-02-26
   updated: 2022-09-11
   version: 0.29.0
-  icon: com.awalbit.webp
   meta: removed
   verdict: wip
   developerName: AwalBit

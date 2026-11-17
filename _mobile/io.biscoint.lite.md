@@ -1,7 +1,6 @@
 ---
-wsId: biscoint
 title: 'BityBank: Bitcoin e Crypto'
-date: 2023-03-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bity.com.br/policies/
@@ -16,10 +15,9 @@ android:
   users: 100000
   appCountry: us
   released: 2022-04-05
-  updated: 2026-09-17
-  version: 2.10.3
+  updated: 2026-10-06
+  version: 2.11.1
   reviews: 6
-  icon: io.biscoint.lite.webp
   meta: ok
   verdict: nosendreceive
   developerName: bity.com.br
@@ -28,15 +26,16 @@ iphone:
   idd: '1588152503'
   appCountry: br
   released: 2022-02-09
-  updated: 2026-09-21
-  version: 2.10.3
-  reviews: 8966
-  icon: io.biscoint.lite.webp
+  updated: 2026-10-07
+  version: 2.11.1
+  reviews: 8975
   meta: ok
   verdict: nosendreceive
   developerName: Biscoint
 
 ---
+
+**Update 2026-10-30:** Bity is closing its exchange. Its [shutdown notice](https://www.bity.com.br/encerramento/) from 2026-10-02 says sign-ups and deposits have ended, the last day to buy, sell or withdraw crypto is 2026-11-25, and any crypto still held on 2026-11-27 is converted to reais, which can still be withdrawn after that. Accounts can be moved to Mercado Bitcoin or Bipa until 2026-11-18.
 
 ## Android
 
@@ -126,4 +125,4 @@ Tentatively, we will label this service as a platform that **does not allow send
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

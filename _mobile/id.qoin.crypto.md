@@ -1,12 +1,11 @@
 ---
-wsId: qoinPayID
 title: Qoinpay
-date: 2026-02-02
+date: 2026-10-30
 authors:
 - danny
+website: https://qoinpay.id#deadLink
 twitter: qoinpay
 social:
-- https://qoinpay.id#deadLink
 - https://www.facebook.com/qoinpay.id
 - https://www.tiktok.com/@qoinpay
 - https://www.youtube.com/channel/UC19VyK9DI4l2X5X7iCblvbg
@@ -20,7 +19,6 @@ android:
   released: 2022-08-16
   updated: 2024-12-03
   version: 1.4.31
-  icon: id.qoin.crypto.webp
   meta: removed
   verdict: nosource
   developerName: PT. Loyalty Program Indonesia
@@ -32,7 +30,6 @@ iphone:
   updated: 2024-12-06
   version: 1.4.29
   reviews: 2
-  icon: id.qoin.crypto.webp
   meta: removed
   verdict: nosource
   developerName: PT. Loyalty Program Indonesia
@@ -81,4 +78,4 @@ Nothing changed much regarding the source availability of this project.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

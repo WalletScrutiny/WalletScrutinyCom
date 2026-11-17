@@ -1,7 +1,6 @@
 ---
-wsId: nanovestio
 title: Nanovest-Bitcoin US Stock Gold
-date: 2024-09-03
+date: 2026-10-30
 authors:
 - danny
 website: https://nanovest.zendesk.com/hc/en-us
@@ -23,7 +22,6 @@ android:
   updated: 2026-07-26
   version: 5.13.0
   reviews: 30
-  icon: com.nanovest.prod.webp
   meta: removed
   verdict: custodial
   developerName: Nanovest
@@ -35,7 +33,6 @@ iphone:
   updated: 2026-05-20
   version: 5.8.0
   reviews: 16
-  icon: io.nanovest.webp
   meta: removed
   verdict: custodial
   developerName: PT. TUMBUH BERSAMA NANO
@@ -65,4 +62,4 @@ Since the control of the private keys reside with the provider, this is a **cust
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

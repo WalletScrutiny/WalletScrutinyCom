@@ -1,7 +1,6 @@
 ---
-wsId: easyCryptoWallet
 title: 'Easy Crypto Wallet: Buy BTC'
-date: 2025-11-20
+date: 2026-10-30
 authors:
 - danny
 website: https://easycrypto.com/
@@ -20,7 +19,6 @@ android:
   appCountry: us
   updated: 2026-03-19
   version: prod-1.18.11
-  icon: com.octopass.app.webp
   meta: deprecated
   verdict: custodial
   developerName: Dott Enterprises Limited
@@ -31,13 +29,14 @@ iphone:
   released: 2023-11-21
   updated: 2026-03-22
   version: 1.18.11
-  reviews: 1543
-  icon: com.octopass.app.webp
+  reviews: 1546
   meta: deprecated
   verdict: custodial
   developerName: Dott Enterprises Ltd.
 
 ---
+
+**Update 2026-10-30:** The Easy Crypto Wallet is closing down. Easy Crypto stopped trading in New Zealand on 30 March 2026 and the wallet app began cutting services, so users must move their coins to Swyftx or another wallet themselves ([Swyftx migration guide](https://support.swyftx.com/en/articles/13680571-migrate-your-assets-from-easy-crypto-wallet-to-swyftx), [cryptocurrency.org.nz](https://cryptocurrency.org.nz/news/easy-crypto-closes-operations-after-eight-years)).
 
 ## Android
 
@@ -59,4 +58,4 @@ In March 2025, Australian exchange Swyftx [acquired Easy Crypto](https://swyftx.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: gokuMarket
 title: GokuMarket
-date: 2023-01-30
+date: 2026-10-30
 authors:
 - danny
 website: https://www.gokumarket.com#deadLink
@@ -21,7 +20,6 @@ android:
   updated: 2022-04-29
   version: '1.35'
   reviews: 1228
-  icon: com.gokumarket.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -32,11 +30,12 @@ iphone:
   updated: 2022-05-03
   version: '1.28'
   reviews: 8
-  icon: com.united.gokumarket.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** GokuMarket stopped its customers' withdrawals in mid-2022, nearly went bankrupt and was then taken over by the Canadian exchange ByteX ([Cybernews, December 2023](https://cybernews.com/security/gokumarket-user-data-leak/)). Its website no longer loads, and the app is gone from both stores.
 
 ## Android
 
@@ -58,4 +57,4 @@ This app is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

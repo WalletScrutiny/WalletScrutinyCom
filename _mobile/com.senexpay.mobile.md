@@ -1,7 +1,6 @@
 ---
-wsId: senexPayBitcoin
 title: 'SenexPay: Buy & Store Bitcoin'
-date: 2023-09-07
+date: 2026-10-30
 authors:
 - danny
 website: https://senexpay.com
@@ -20,7 +19,6 @@ android:
   released: 2022-08-16
   updated: 2026-09-15
   version: 1.8.7
-  icon: com.senexpay.mobile.webp
   meta: ok
   verdict: custodial
   developerName: Senex Payment Services Limited
@@ -32,7 +30,6 @@ iphone:
   updated: 2026-07-07
   version: 1.5.6
   reviews: 9
-  icon: com.senexpay.mobile.webp
   meta: removed
   verdict: custodial
   developerName: Senex Payment Services Limited
@@ -63,4 +60,4 @@ In other terminologies, it is a **custodial** provider, with a **non-verifiable*
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

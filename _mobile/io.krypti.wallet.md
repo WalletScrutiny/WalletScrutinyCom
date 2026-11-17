@@ -1,6 +1,6 @@
 ---
 title: Krypti Wallet
-date: 2023-08-16
+date: 2026-10-30
 website: https://krypti.io/
 redirect_from:
 - /android/io.krypti.wallet/
@@ -10,7 +10,6 @@ android:
   released: 2019-05-17
   updated: 2020-11-19
   version: 4.0.18
-  icon: io.krypti.wallet.webp
   meta: removed
   verdict: wip
   developerName: Krypti

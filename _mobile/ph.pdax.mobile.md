@@ -1,7 +1,6 @@
 ---
-wsId: pdax
 title: PDAX - Make your money move
-date: 2021-09-03
+date: 2026-10-30
 authors:
 - danny
 website: https://pdax.ph
@@ -18,10 +17,9 @@ android:
   users: 1000000
   appCountry: ph
   released: 2021-01-18
-  updated: 2026-09-25
-  version: 14.15.1
-  reviews: 3739
-  icon: ph.pdax.mobile.webp
+  updated: 2026-10-08
+  version: 14.15.4
+  reviews: 3759
   meta: ok
   verdict: custodial
   developerName: PDAX (Philippine Digital Asset Exchange)
@@ -32,8 +30,7 @@ iphone:
   released: 2020-12-18
   updated: 2026-09-27
   version: 14.15.1
-  reviews: 1037
-  icon: ph.pdax.mobile.webp
+  reviews: 1058
   meta: ok
   verdict: custodial
   developerName: Philippine Digital Asset Exchange (PDAX), Inc.

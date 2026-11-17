@@ -1,6 +1,6 @@
 ---
 title: Bitvirya - cryptocurrency exch
-date: 2023-12-19
+date: 2026-10-30
 website: https://bitvirya.com#deadLink
 redirect_from:
 - /android/com.bitvirya.app/
@@ -10,7 +10,6 @@ android:
   released: 2020-11-20
   updated: 2020-11-20
   version: '1.0'
-  icon: com.bitvirya.app.webp
   meta: removed
   verdict: wip
   developerName: Profit Oak

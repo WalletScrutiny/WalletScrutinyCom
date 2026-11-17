@@ -1,7 +1,6 @@
 ---
-wsId: Cryptoneed
 title: 'Cryptoneed: универсальный криптокошелек и обменник'
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.cryptoneed.pro#deadLink
@@ -17,7 +16,6 @@ android:
   released: 2020-04-15
   updated: 2021-04-27
   version: 1.0.31
-  icon: com.silenca.cryptoneed.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -27,11 +25,12 @@ iphone:
   updated: 2021-05-02
   version: 1.0.31
   reviews: 0
-  icon: com.cryptoneedpro.webp
   meta: removed
   verdict: nosource
 
 ---
+
+**Update 2026-10-30:** Cryptoneed looks gone. Both apps are gone from the stores, and the website no longer loads. Its last working copy is from [September 2022](https://web.archive.org/web/20220919172909/https://cryptoneed.pro/).
 
 ## Android
 
@@ -53,4 +52,4 @@ This is a self-custodial app. There were also no links on their homepage pointin
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

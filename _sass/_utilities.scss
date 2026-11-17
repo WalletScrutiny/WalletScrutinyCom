@@ -287,6 +287,7 @@ body:hover .visually-hidden button {
    ========================================================================== */
 
 .navicon {
+  // Three equal lines; .close turns the outer two into an X.
   position: relative;
   width: $navicon-width;
   height: $navicon-height;
@@ -301,16 +302,18 @@ body:hover .visually-hidden button {
     content: "";
     position: absolute;
     left: 0;
-    width: 80%;
+    width: 100%;
     height: $navicon-height;
     background: var(--accent-text);
     -webkit-transition: 0.3s;
     transition: 0.3s;
     border-radius: 100px;
   }
-  &::before{opacity: 0;}
-  &::before,&:after {
-    bottom: (-2 * $navicon-height);
+  &:before {
+    top: -($navicon-height + $navicon-gap);
+  }
+  &:after {
+    bottom: -($navicon-height + $navicon-gap);
   }
 }
 
@@ -321,13 +324,11 @@ body:hover .visually-hidden button {
   /* overlay the lines by setting both their top values to 0*/
   &:before,
   &:after {
-    width: 100%;
-    opacity: 1;
     -webkit-transform-origin: 50% 50%;
     -ms-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
     top: 0;
-    width: $navicon-width;
+    bottom: auto;
   }
 
   /* rotate the lines to form the x shape*/

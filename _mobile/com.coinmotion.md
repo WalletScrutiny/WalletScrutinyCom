@@ -1,7 +1,6 @@
 ---
-wsId: Coinmotion
 title: 'Coinmotion: Buy Bitcoin Easily'
-date: 2021-10-19
+date: 2026-10-30
 authors:
 - danny
 website: https://coinmotion.com/
@@ -17,21 +16,19 @@ android:
   users: 100000
   appCountry: in
   released: 2020-08-20
-  updated: 2026-09-23
-  version: 1.14.2
-  icon: com.coinmotion.webp
+  updated: 2026-10-01
+  version: 1.14.3
   meta: ok
   verdict: custodial
   developerName: Coinmotion Oy
 iphone:
   appId: com.ios.coinmotion.app
   idd: 1518765595
-  appCountry: ca
+  appCountry: fi
   released: 2020-11-19
   updated: 2024-11-12
   version: 1.11.6
   reviews: 0
-  icon: com.ios.coinmotion.app.webp
   meta: removed
   verdict: custodial
   developerName: Coinmotion Oy
@@ -75,4 +72,4 @@ This is a custodial exchange and therefore, it is **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

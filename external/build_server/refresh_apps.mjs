@@ -9,6 +9,7 @@ import { spawn } from 'child_process';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { appLog } from './logger.mjs';
+import { normalizeVersion } from '../../scripts/refresh_common.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -78,8 +79,12 @@ export function parseRefreshOutput(output) {
     const match = line.match(/appId:\s+([^\s]+)\s+Current:\s+([^\s]+)\s+Latest:\s+(.+)/);
     if (match) {
       const [, appId, currentVersion, latestVersion] = match;
+      // The script prints the raw release tag (v2.8.5, firmware/v9.27.1).
+      // Build scripts take the version without the prefix, and it is also
+      // the version the verification is published under, so use the same
+      // form the wallet files store.
       apps[appId] = {
-        latestVersion: latestVersion,
+        latestVersion: normalizeVersion(latestVersion.trim()),
       };
     }
   }

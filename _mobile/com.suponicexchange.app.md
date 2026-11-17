@@ -1,6 +1,6 @@
 ---
 title: Suponic
-date: 2023-06-03
+date: 2026-10-30
 authors:
 - danny
 website: https://www.suponic.com#deadLink
@@ -13,7 +13,6 @@ android:
   updated: 2020-01-23
   version: '1.0'
   reviews: 2
-  icon: com.suponicexchange.app.webp
   meta: removed
   verdict: wip
   developerName: Suponic

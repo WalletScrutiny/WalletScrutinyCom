@@ -1,7 +1,6 @@
 ---
-wsId: bitAfrika
 title: BitAfrika - Buy & Sell Crypto
-date: 2023-03-06
+date: 2026-10-30
 authors:
 - danny
 website: https://bitafrika.com
@@ -19,8 +18,7 @@ android:
   released: 2021-07-19
   updated: 2026-09-14
   version: 5.2.1
-  reviews: 182
-  icon: app.bitafrika.com.webp
+  reviews: 185
   meta: ok
   verdict: custodial
   developerName: BITAFRIKA LTD
@@ -32,7 +30,6 @@ iphone:
   updated: 2023-02-21
   version: 4.2.0
   reviews: 635
-  icon: app.bitafrika.com.webp
   meta: removed
   verdict: custodial
 
@@ -64,4 +61,4 @@ Verdict: Custodial
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: followMyTrader
 title: Follow MyMoney
-date: 2023-04-13
+date: 2026-10-30
 authors:
 - danny
 website: https://followmymoney.de
@@ -20,7 +19,6 @@ android:
   released: 2020-03-09
   updated: 2026-08-10
   version: 3.6.1
-  icon: de.followmytrader.webp
   meta: ok
   verdict: custodial
   developerName: FELS Group GmbH
@@ -32,7 +30,6 @@ iphone:
   updated: 2025-08-28
   version: 3.6.0
   reviews: 0
-  icon: de.followmytrader.webp
   meta: stale
   verdict: custodial
   developerName: FELS Group GmbH
@@ -63,4 +60,4 @@ As section 2.4 of the Terms states, this is a **custodial** provider and the app
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

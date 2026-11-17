@@ -1,6 +1,6 @@
 ---
 title: Emet Exchange
-date: 2023-09-28
+date: 2026-10-30
 redirect_from:
 - /android/com.hashcash.emetexchange/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-10-05
   updated: 2022-11-16
   version: 1.0.8
-  icon: com.hashcash.emetexchange.webp
   meta: removed
   verdict: wip
   developerName: GPOINT

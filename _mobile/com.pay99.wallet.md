@@ -1,7 +1,6 @@
 ---
-wsId: 99Pay
 title: 99Pay
-date: 2021-12-26
+date: 2026-10-30
 authors:
 - leo
 twitter: voude99
@@ -18,9 +17,8 @@ android:
   appCountry: br
   released: 2021-09-23
   updated: 2026-09-23
-  version: 8.4.92
-  reviews: 10065
-  icon: com.pay99.wallet.webp
+  version: 8.4.96
+  reviews: 10082
   meta: ok
   verdict: nosendreceive
   developerName: 99 Tecnologia LTDA
@@ -29,10 +27,9 @@ iphone:
   idd: 1588184260
   appCountry: br
   released: 2021-10-02
-  updated: 2026-09-14
-  version: 8.4.92
-  reviews: 1997
-  icon: com.pay99.webp
+  updated: 2026-10-08
+  version: 8.4.96
+  reviews: 2000
   meta: ok
   verdict: nosendreceive
   developerName: 99Pay S.A
@@ -54,4 +51,4 @@ speculation on the price of bitcoin.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

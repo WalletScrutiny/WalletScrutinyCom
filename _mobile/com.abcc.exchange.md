@@ -1,7 +1,6 @@
 ---
-wsId: abccExchange
 title: ABCC Exchange
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: https://abcc.com
@@ -19,7 +18,6 @@ android:
   updated: 2023-03-01
   version: 1.9.30
   reviews: 46
-  icon: com.abcc.exchange.webp
   meta: removed
   verdict: custodial
   developerName: ABCC.com
@@ -30,7 +28,6 @@ iphone:
   updated: 2023-08-16
   version: 1.10.4
   reviews: 9
-  icon: com.abcc.exchange.ios.webp
   meta: removed
   verdict: custodial
   developerName: ABCC

@@ -7,6 +7,7 @@ import { fileURLToPath } from 'url';
 
 import {
   toLegacyPlatform,
+  platformForBuildArch,
   compareVersions,
   getVersionMajor,
   findHighestVerificationInMajor,
@@ -111,6 +112,28 @@ describe('sanitizeFilesystemSegment', () => {
 
   test('preserves dots and hyphens', () => {
     assert.equal(sanitizeFilesystemSegment('1.2.3-rc1'), '1.2.3-rc1');
+  });
+});
+
+// ---- platformForBuildArch -------------------------------------------------
+
+describe('platformForBuildArch', () => {
+  test('takes the OS from the architecture of a desktop build', () => {
+    assert.equal(platformForBuildArch('windows', 'x86_64-linux'), 'linux');
+    assert.equal(platformForBuildArch('windows', 'x86_64-linux-gnu'), 'linux');
+    assert.equal(platformForBuildArch('linux', 'x86_64-windows'), 'windows');
+    assert.equal(platformForBuildArch('linux', 'win64'), 'windows');
+    assert.equal(platformForBuildArch('linux', 'arm64-macos'), 'macos');
+  });
+
+  test('keeps the platform when the architecture names no OS', () => {
+    assert.equal(platformForBuildArch('windows', 'x86_64'), 'windows');
+    assert.equal(platformForBuildArch('linux', undefined), 'linux');
+  });
+
+  test('leaves non-desktop platforms alone', () => {
+    assert.equal(platformForBuildArch('hardware', 'x86_64-linux'), 'hardware');
+    assert.equal(platformForBuildArch('android', 'arm64-v8a'), 'android');
   });
 });
 

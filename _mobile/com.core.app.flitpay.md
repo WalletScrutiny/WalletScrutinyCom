@@ -1,7 +1,6 @@
 ---
-wsId: flitpay
 title: 'Flitpay: Crypto Trading App'
-date: 2021-09-30
+date: 2026-10-30
 authors:
 - danny
 website: https://www.flitpay.com/
@@ -18,8 +17,7 @@ android:
   released: 2017-05-17
   updated: 2026-09-16
   version: 2.1.11
-  reviews: 2919
-  icon: com.core.app.flitpay.webp
+  reviews: 2932
   meta: ok
   verdict: custodial
   developerName: FLITPAY PVT LTD
@@ -30,8 +28,7 @@ iphone:
   released: 2021-08-27
   updated: 2026-09-19
   version: 2.1.1
-  reviews: 135
-  icon: com.core.ios.flitpay.webp
+  reviews: 136
   meta: ok
   verdict: custodial
   developerName: FLITPAY PVT LTD
@@ -61,4 +58,4 @@ This app is **custodial** and thus **not verifiable**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,6 +1,6 @@
 ---
 title: FxWallet
-date: 2026-07-23
+date: 2026-10-30
 website: https://www.fxwallet.com
 appCountry: us
 redirect_from:
@@ -11,10 +11,9 @@ android:
   users: 10000
   appCountry: us
   released: 2021-04-28
-  updated: 2026-09-24
-  version: 3.2.1
+  updated: 2026-10-02
+  version: 3.3.0
   reviews: 4
-  icon: com.fxfi.fxwallet.webp
   meta: ok
   verdict: nosource
   developerName: ECHOINFI PTE. LTD.
@@ -23,10 +22,9 @@ iphone:
   idd: '1560943983'
   appCountry: us
   released: 2021-05-05
-  updated: 2026-09-15
-  version: 3.2.1
-  reviews: 28
-  icon: com.fxfi.fxwallet.webp
+  updated: 2026-10-02
+  version: 3.3.0
+  reviews: 29
   meta: ok
   verdict: nosource
   developerName: DXP COMPUTING POWER FOUNDATION PTE. LTD.

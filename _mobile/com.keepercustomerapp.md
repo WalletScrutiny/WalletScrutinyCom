@@ -1,6 +1,6 @@
 ---
 title: AP First
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 website: http://www.tosblock.com#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2019-02-25
   updated: 2023-02-17
   version: 3.8.4
-  icon: com.keepercustomerapp.webp
   meta: removed
   verdict: custodial
   developerName: TiOSPay

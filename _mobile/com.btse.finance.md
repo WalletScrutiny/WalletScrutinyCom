@@ -1,7 +1,6 @@
 ---
-wsId: BTSE
 title: 'BTSE: Buy Bitcoin & Crypto'
-date: 2021-11-15
+date: 2026-10-30
 authors:
 - danny
 website: https://btse.com
@@ -19,21 +18,20 @@ android:
   users: 500000
   appCountry: ng
   released: 2020-11-30
-  updated: 2026-09-11
-  version: 1.135.0
+  updated: 2026-10-08
+  version: 1.137.0
   reviews: 75
-  icon: com.btse.finance.webp
   meta: ok
   verdict: custodial
   developerName: BTSE Holdings Limited
 iphone:
   appId: com.btse.BTSE
   idd: 1494556510
+  appCountry: sg
   released: 2020-04-13
   updated: 2024-08-19
   version: 1.93.0
   reviews: 13
-  icon: com.btse.BTSE.webp
   meta: removed
   verdict: custodial
   developerName: BTSE Holdings Ltd.
@@ -62,4 +60,6 @@ This cryptocurrency exchange is a custodial service with the ability to suspend 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+**Update 2026-10-30:** The iPhone app is [listed in Singapore](https://itunes.apple.com/lookup?id=1494556510&country=sg), where it was updated to version 1.147.0 on 2026-10-26.
+
+The Android analysis above applies to the iPhone app too.

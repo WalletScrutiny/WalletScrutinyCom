@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Coin Invest
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/net.tradingbitcoin.bitcoin.coin.invest/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-21
   updated: 2021-06-21
   version: '1.0'
-  icon: net.tradingbitcoin.bitcoin.coin.invest.webp
   meta: removed
   verdict: wip
 

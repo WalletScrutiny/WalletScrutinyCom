@@ -1,6 +1,6 @@
 ---
 title: BitradeX-AI Crypto Trading
-date: 2026-01-26
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitradex.com/
@@ -15,12 +15,13 @@ android:
   updated: 2026-09-28
   version: 1.3.6
   reviews: 27
-  icon: io.noah.pro.webp
   meta: ok
   verdict: custodial
   developerName: bitradex
 
 ---
+
+**Update 2026-10-30:** BitradeX stopped withdrawals on 28 July 2026, calling it maintenance. In August it said an attack on its hot wallets had left its reserves short and that users' balances would only be paid out in stages ([BitradeX notice](https://www.bitradex.ai/en/rookie/notice2), [BehindMLM](https://behindmlm.com/companies/bitradex-ponzi-collapses-we-got-hacked-exit-scam/)).
 
 ## App Description
 

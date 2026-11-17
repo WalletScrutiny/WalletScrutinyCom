@@ -1,7 +1,6 @@
 ---
-wsId: capexExchange
 title: Capex exchange
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: https://capex.mn/
@@ -18,7 +17,6 @@ android:
   released: 2022-02-15
   updated: 2023-09-21
   version: 2.0.2
-  icon: com.capex.webp
   meta: removed
   verdict: custodial
   developerName: Dataland LLC
@@ -30,7 +28,6 @@ iphone:
   updated: 2023-09-19
   version: 2.0.2
   reviews: 0
-  icon: com.capexcapital.capex.webp
   meta: removed
   verdict: custodial
   developerName: Capex capital LLC
@@ -61,4 +58,4 @@ We did not find any explicit mention of whether the exchange utilizes cold-stora
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

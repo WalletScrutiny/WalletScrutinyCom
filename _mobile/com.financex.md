@@ -1,6 +1,6 @@
 ---
 title: FinanceX - Crypto Trading with
-date: 2024-04-03
+date: 2026-10-30
 authors:
 - danny
 website: http://www.financex.io#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2019-01-15
   updated: 2020-01-13
   version: 1.3.12
-  icon: com.financex.webp
   meta: removed
   verdict: custodial
   developerName: FinanceX

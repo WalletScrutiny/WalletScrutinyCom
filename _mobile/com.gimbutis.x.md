@@ -1,6 +1,6 @@
 ---
 title: Gimbutis X
-date: 2026-01-14
+date: 2026-10-30
 website: https://gimbutiscoin.com/
 redirect_from:
 - /android/com.gimbutis.x/
@@ -8,9 +8,8 @@ android:
   appId: com.gimbutis.x
   users: 500
   appCountry: us
-  updated: 2026-07-28
-  version: 1.6.6
-  icon: com.gimbutis.x.webp
+  updated: 2026-10-12
+  version: 1.7.0
   meta: fewusers
   verdict: wip
   developerName: unus nullus

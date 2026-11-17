@@ -1,7 +1,6 @@
 ---
-wsId: eXchangily
 title: 'eXchangily DEX Bitcoin Wallet '
-date: 2023-08-16
+date: 2026-10-30
 authors:
 - emanuel
 - leo
@@ -21,7 +20,6 @@ android:
   updated: 2023-07-20
   version: 2.2.106
   reviews: 6
-  icon: com.exchangily.wallet.webp
   meta: obsolete
   verdict: wip
   developerName: Exchangily LLC
@@ -33,7 +31,6 @@ iphone:
   updated: 2023-03-20
   version: 2.1.88
   reviews: 14
-  icon: com.exchangily.app.webp
   meta: defunct
   verdict: sourceavailable
   developerName: Exchangily LLC
@@ -72,6 +69,6 @@ An issue has been opened at [https://github.com/blockchaingate/exchangily-mobile
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 An issue has been opened at [https://github.com/blockchaingate/exchangily-mobile-app/issues/1](https://github.com/blockchaingate/exchangily-mobile-app/issues/1)

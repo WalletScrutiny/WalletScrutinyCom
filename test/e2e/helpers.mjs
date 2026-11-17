@@ -332,16 +332,16 @@ export async function waitForVerificationModalReady(page, options = {}) {
 }
 
 /**
- * Wait until the asciinema player is visible and shows terminal output.
+ * Wait until the build log viewer is open and shows lines of the recording.
  * @param {Page} page
  * @param {number} [timeout]
  */
-export async function waitForAsciinemaPlayerContent(page, timeout = NOSTR_DATA_TIMEOUT_MS) {
-  const player = page.locator('#ascii_cast_player');
-  await player.waitFor({ state: 'visible', timeout });
+export async function waitForBuildLogLines(page, timeout = NOSTR_DATA_TIMEOUT_MS) {
+  const viewer = page.locator('#buildLogViewer');
+  await viewer.waitFor({ state: 'visible', timeout });
   await page.waitForFunction(() => {
-    const playerEl = document.getElementById('ascii_cast_player');
-    return playerEl != null && playerEl.textContent.trim().length > 0;
+    const lines = document.querySelector('#buildLogViewer .build-log-lines');
+    return lines != null && lines.childElementCount > 0 && lines.textContent.trim().length > 0;
   }, null, { timeout });
 }
 

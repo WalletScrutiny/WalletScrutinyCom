@@ -1,7 +1,6 @@
 ---
-wsId: BitKan
 title: 'BitKan: Trade Bitcoin & Crypto'
-date: 2021-10-21
+date: 2026-10-30
 authors:
 - danny
 website: http://www.bitkan.com
@@ -20,7 +19,6 @@ android:
   updated: 2024-08-30
   version: 8.23.0.9
   reviews: 29
-  icon: com.bitcan.app.webp
   meta: removed
   verdict: custodial
   developerName: bitkan.com
@@ -32,7 +30,6 @@ iphone:
   updated: 2026-09-03
   version: 8.41.1
   reviews: 51
-  icon: com.btckan.us.webp
   meta: ok
   verdict: custodial
   developerName: LUMENRISE LIMITED
@@ -80,7 +77,7 @@ While waiting for their reply, we are going to assume that as the keys are not a
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Spot Trading: Discover the latest crypto gems ahead of the market with BitKan's weekly coin offerings aggregated across Binance, OKX, Bitfinex, Gate, MEXC, Bit, Huobi, MatrixPort, and more!" source="Store" %}
 

@@ -17,11 +17,10 @@ shop:
 country: 
 price: 
 repository: 
-icon: 
 bugbounty: 
 meta: defunct
 verdict: fake
-date: 2022-04-29
+date: 2026-10-30
 signer: 
 twitter: 
 social: 

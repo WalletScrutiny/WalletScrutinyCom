@@ -1,7 +1,6 @@
 ---
-wsId: npbfxCFD
-title: NPBFX
-date: 2024-10-28
+title: NPB Markets
+date: 2026-10-30
 authors:
 - danny
 website: https://www.npbfx.com/
@@ -13,10 +12,9 @@ android:
   users: 10000
   appCountry: us
   released: 2022-05-04
-  updated: 2025-08-27
-  version: 1.15.0
-  icon: com.npbfx.app.webp
-  meta: stale
+  updated: 2026-09-29
+  version: 1.15.2
+  meta: ok
   verdict: nosendreceive
   developerName: NMarkets Limited
 iphone:
@@ -27,7 +25,6 @@ iphone:
   updated: 2025-11-14
   version: 1.15.1
   reviews: 0
-  icon: com.npbfx.app.webp
   meta: ok
   verdict: nosendreceive
   developerName: NMarkets Limited
@@ -57,4 +54,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

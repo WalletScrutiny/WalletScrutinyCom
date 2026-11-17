@@ -1,7 +1,6 @@
 ---
-wsId: StartEOSWallet
 title: Start Wallet(EOS, BTC, ETH, TR
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 website: https://www.starteos.io#deadLink
@@ -20,7 +19,6 @@ android:
   updated: 2022-10-28
   version: R02.03.06.478
   reviews: 4
-  icon: com.hconline.iso.webp
   meta: removed
   verdict: nosource
   developerName: Start.io
@@ -31,7 +29,6 @@ iphone:
   updated: 2022-11-09
   version: 02.00.25
   reviews: 9
-  icon: com.HCLT.Starteos.store.webp
   meta: removed
   verdict: nosource
   developerName: Starteos Limited
@@ -65,4 +62,4 @@ We could not locate the source code for the project.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

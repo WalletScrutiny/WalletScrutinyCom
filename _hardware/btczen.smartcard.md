@@ -17,11 +17,10 @@ shop:
 country: CN
 price: 
 repository: https://github.com/wangganggithub/btczen_public
-icon: btczen.smartcard.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2023-03-01
+date: 2026-10-30
 signer: 
 twitter: 
 social: 

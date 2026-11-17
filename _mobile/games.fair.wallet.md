@@ -1,6 +1,6 @@
 ---
 title: Numus
-date: 2024-04-03
+date: 2026-10-30
 redirect_from:
 - /android/games.fair.wallet/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2019-12-12
   updated: 2020-03-13
   version: 2.0.1
-  icon: games.fair.wallet.webp
   meta: removed
   verdict: wip
   developerName: Digital Rumors

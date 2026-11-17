@@ -1,6 +1,6 @@
 ---
 title: 코인통
-date: 2021-08-01
+date: 2026-10-30
 authors:
 - danny
 website: http://cointong.io/
@@ -12,7 +12,6 @@ android:
   released: 2018-05-14
   updated: 2022-11-03
   version: 1.52.52
-  icon: semaphore.coinclient.webp
   meta: defunct
   verdict: wip
   developerName: Tomato Group

@@ -1,13 +1,11 @@
 ---
-wsId: fintodaWallet
 title: Fintoda Wallet
-date: 2024-07-24
+date: 2026-10-30
 authors:
 - danny
 website: https://fintoda.com
 social:
 - https://t.me/joinchat/0XnTfyBrU-tiOTNi
-- https://fintoda.com
 redirect_from:
 - /android/com.fintoda.app/
 - /iphone/com.fintoda.app/
@@ -18,7 +16,6 @@ android:
   released: 2021-08-26
   updated: 2026-05-25
   version: 1.7.11
-  icon: com.fintoda.app.webp
   meta: ok
   verdict: nosource
   developerName: FINTODA LLC
@@ -30,7 +27,6 @@ iphone:
   updated: 2026-05-28
   version: 1.7.11
   reviews: 0
-  icon: com.fintoda.app.webp
   meta: ok
   verdict: nosource
   developerName: FINTODA LLC
@@ -65,4 +61,4 @@ This app is **not source-available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

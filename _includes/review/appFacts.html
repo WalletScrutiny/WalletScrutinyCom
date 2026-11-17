@@ -1,0 +1,235 @@
+{%- comment -%}
+  Compact wallet facts shown in the page header: Developer (with social
+  links), Released, Source code, Custody and Status. Replaces the former review steps of the same names.
+  Parameters:
+    skipWebsite  set when the header already shows the Website chip, so the
+                 developer links do not repeat it
+    platform     hardware, desktop or bearer; omitted on mobile pages, where
+                 custody follows the Android verdict (iPhone if Android-less)
+{%- endcomment -%}
+{%- assign dev_android = page.android.developerName | default: '' | strip -%}
+{%- assign dev_iphone = page.iphone.developerName | default: '' | strip -%}
+{%- comment -%} Only the mobile stores tell us the developer; other platforms use the frontmatter provider. {%- endcomment -%}
+{%- if include.platform -%}
+  {%- assign dev_root = page.provider | default: '' | strip -%}
+{%- else -%}
+  {%- assign dev_root = page.developerName | default: '' | strip -%}
+{%- endif -%}
+{%- assign dev_android_key = dev_android | downcase -%}
+{%- assign dev_iphone_key = dev_iphone | downcase -%}
+{%- assign has_developer = false -%}
+{%- if dev_android != '' or dev_iphone != '' or dev_root != '' or page.website or page.twitter or page.android.twitter or page.iphone.twitter or page.social -%}
+  {%- assign has_developer = true -%}
+{%- endif -%}
+
+{%- assign repo_android = page.android.repository | default: '' -%}
+{%- assign repo_iphone = page.iphone.repository | default: '' -%}
+{%- assign repo_root = page.repository | default: '' -%}
+{%- assign sourceCheckedVerdicts = "nosource,obfuscated,sourceavailable,diy" | split: "," -%}
+{%- assign fact_verdict = page.verdict | default: page.android.verdict | default: page.iphone.verdict -%}
+{%- assign source_state = 'omit' -%}
+{%- if repo_android != '' or repo_iphone != '' or repo_root != '' -%}
+  {%- assign source_state = 'public' -%}
+{%- elsif sourceCheckedVerdicts contains fact_verdict -%}
+  {%- assign source_state = 'omit' -%}
+{%- else -%}
+  {%- assign source_state = 'not-evaluated' -%}
+{%- endif -%}
+
+{%- if include.platform -%}
+  {%- assign custody_platform = include.platform -%}
+  {%- assign custody_verdict = page.verdict -%}
+{%- elsif page.android.appId == nil and page.iphone.appId -%}
+  {%- assign custody_platform = 'iphone' -%}
+  {%- assign custody_verdict = page.iphone.verdict -%}
+{%- else -%}
+  {%- assign custody_platform = 'android' -%}
+  {%- assign custody_verdict = page.android.verdict -%}
+{%- endif -%}
+{%- assign custody_state = 'self' -%}
+{%- assign has_alert_feature = false -%}
+{%- for f in page.features -%}{%- if site.data.features[f].alert -%}{%- assign has_alert_feature = true -%}{%- endif -%}{%- endfor -%}
+{%- if custody_platform == 'hardware' or custody_platform == 'bearer' -%}
+  {%- if custody_verdict == 'prefilled' -%}{%- assign custody_state = 'prefilled' -%}{%- endif -%}
+{%- else -%}
+  {%- assign custody_indices_key = custody_platform | append: '-' | append: custody_verdict -%}
+  {%- assign custody_indices = site.data.precomputed.verdictIndices[custody_indices_key] -%}
+  {%- assign custody_index = custody_indices.custodyIndex | default: 0 -%}
+  {%- assign custody_verdict_index = custody_indices.verdictIndex | default: 0 -%}
+  {%- if custody_index > custody_verdict_index -%}
+    {%- assign custody_state = 'not-evaluated' -%}
+  {%- elsif custody_verdict == 'custodial' -%}
+    {%- assign custody_state = 'custodial' -%}
+  {%- elsif has_alert_feature -%}
+    {%- assign custody_state = 'mixed' -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- comment -%} Status: the flags the homepage card shows, per platform on mobile pages. {%- endcomment -%}
+{%- assign status_android = '' -%}
+{%- assign status_iphone = '' -%}
+{%- if include.platform -%}
+  {%- capture status_flags -%}{% include review/statusFlags.html meta=page.meta verdict=page.verdict %}{%- endcapture -%}
+{%- else -%}
+  {%- if page.android.appId -%}
+    {%- capture status_android -%}{% include review/statusFlags.html meta=page.android.meta verdict=page.android.verdict %}{%- endcapture -%}
+  {%- endif -%}
+  {%- if page.iphone.appId -%}
+    {%- capture status_iphone -%}{% include review/statusFlags.html meta=page.iphone.meta verdict=page.iphone.verdict %}{%- endcapture -%}
+  {%- endif -%}
+  {%- assign status_flags = status_android -%}
+  {%- if status_flags == '' -%}{%- assign status_flags = status_iphone -%}{%- endif -%}
+{%- endif -%}
+{%- assign status_split = false -%}
+{%- if page.android.appId and page.iphone.appId and status_android != status_iphone -%}
+  {%- assign status_split = true -%}
+{%- endif -%}
+
+<dl class="app-facts">
+  {%- if has_developer %}
+  <div class="app-facts__item">
+    <dt>Developer</dt>
+    {%- capture dev_links -%}
+    <div class="distribution-store-links">
+      {% if page.website and include.skipWebsite != true %}
+        <a href="{{ page.website }}" title="Website" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">Website</a>
+      {% endif %}
+      {% assign twitter_handle = page.twitter | default: page.android.twitter | default: page.iphone.twitter %}
+      {% if twitter_handle %}
+        <a href="https://x.com/{{ twitter_handle }}" title="X" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">X</a>
+      {% endif %}
+      {% if page.social %}
+        {% for link in page.social %}
+          {% if link contains "mailto:" %}
+            {% assign name = "E-Mail" %}
+          {% else %}
+            {% assign domain = link | split: '/' | slice: 2 | join: "" | split: "." | slice: -2 | join: "" %}
+            {% case domain %}
+              {% when "bitcointalk" %}{% assign name = "Bitcoin Talk" %}
+              {% when "discord"     %}{% assign name = "Discord" %}
+              {% when "facebook"    %}{% assign name = "Facebook" %}
+              {% when "github"      %}{% assign name = "GitHub" %}
+              {% when "google"      %}{% assign name = "Google" %}
+              {% when "instagram"   %}{% assign name = "Instagram" %}
+              {% when "iris"        %}{% assign name = "Nostr" %}
+              {% when "keybase"     %}{% assign name = "Keybase" %}
+              {% when "linkedin"    %}{% assign name = "LinkedIn" %}
+              {% when "medium"      %}{% assign name = "Medium" %}
+              {% when "pinterest"   %}{% assign name = "Pinterest" %}
+              {% when "primal"      %}{% assign name = "Nostr" %}
+              {% when "reddit"      %}{% assign name = "Reddit" %}
+              {% when "slack"       %}{% assign name = "Slack" %}
+              {% when "t"           %}{% assign name = "Telegram" %}
+              {% when "tiktok"      %}{% assign name = "tiktok" %}
+              {% when "twitter"     %}{% assign name = "X" %}
+              {% when "vimeo"       %}{% assign name = "Vimeo" %}
+              {% when "vk"          %}{% assign name = "VK" %}
+              {% when "weibo"       %}{% assign name = "Weibo" %}
+              {% when "whatsapp"    %}{% assign name = "WhatsApp" %}
+              {% when "youtube"     %}{% assign name = "YouTube" %}
+              {% when "archive"     %}{% assign name = "Archived Website" %}
+              {% else               %}{% assign name = "Website" %}
+            {% endcase %}
+          {% endif %}
+          <a href="{{ link }}" title="{{ name }}" class="link-web subtle distribution-store-link capitalise" target="_blank" rel="noopener noreferrer">{{ name }}</a>
+        {% endfor %}
+      {% endif %}
+    </div>
+    {%- endcapture -%}
+    {%- assign dev_name = dev_android | append: dev_iphone | append: dev_root -%}
+    {%- assign dev_collapsible = false -%}
+    {%- if dev_name != '' and dev_links contains '<a ' -%}{%- assign dev_collapsible = true -%}{%- endif -%}
+    <dd{% if dev_collapsible %} class="app-facts__dev--collapsible"{% endif %}>
+      {%- if dev_android != '' and dev_iphone != '' -%}
+        {%- if dev_android_key == dev_iphone_key -%}
+          <span class="capitalise">{{ dev_android }}</span>
+        {%- else -%}
+          <span class="capitalise">{{ dev_android }}</span> <span class="secondary-text">(Android)</span><br>
+          <span class="capitalise">{{ dev_iphone }}</span> <span class="secondary-text">(iPhone)</span>
+        {%- endif -%}
+      {%- elsif dev_android != '' -%}
+        <span class="capitalise">{{ dev_android }}</span>
+      {%- elsif dev_iphone != '' -%}
+        <span class="capitalise">{{ dev_iphone }}</span>
+      {%- elsif dev_root != '' -%}
+        <span class="capitalise">{{ dev_root }}</span>
+      {%- endif -%}
+      {%- if dev_collapsible -%}
+        <button type="button" class="app-facts__info" aria-label="Show developer links" onclick="this.closest('dd').classList.add('is-open')">{% include icon.html name="up-right-from-square" %}</button>
+      {%- endif %}
+      {{ dev_links }}
+    </dd>
+  </div>
+  {%- endif %}
+  <div class="app-facts__item">
+    <dt>Released</dt>
+    <dd>
+      {%- if page.android.released and page.iphone.released and page.android.released != page.iphone.released -%}
+        <span class="secondary-text">Android:</span> {{ page.android.released | date_to_long_string: 'ordinal' }}<br>
+        <span class="secondary-text">iPhone:</span> {{ page.iphone.released | date_to_long_string: 'ordinal' }}
+      {%- else -%}
+        {%- assign released = page.android.released | default: page.iphone.released | default: page.released -%}
+        {%- if released -%}
+          {{ released | date_to_long_string: 'ordinal' }}
+          <span class="calculate-time-elapsed raw brackets" data="{{ released | date: '%s' }}"></span>
+        {%- else -%}
+          Unknown
+        {%- endif -%}
+      {%- endif -%}
+    </dd>
+  </div>
+  {%- if source_state != 'omit' %}
+  <div class="app-facts__item">
+    <dt>Source code</dt>
+    <dd>
+      {%- if source_state == 'not-evaluated' -%}
+        <span class="secondary-text">Not evaluated — our review stopped at an earlier step.</span>
+      {%- elsif repo_android != '' and repo_iphone != '' and repo_android != repo_iphone -%}
+        {%- assign host = repo_android | replace: "https://", "" | replace: "http://", "" | split: "/" | first | split: "." | first -%}
+        <span class="secondary-text">Android:</span> {% if repo_android contains ".onion" %}{% include review/torSourcePill.html url=repo_android %}{% else %}<a href="{{ repo_android }}" target="_blank" rel="noopener noreferrer" class="capitalise">{{ host }}</a>{% endif %}<br>
+        {%- assign host = repo_iphone | replace: "https://", "" | replace: "http://", "" | split: "/" | first | split: "." | first -%}
+        <span class="secondary-text">iPhone:</span> {% if repo_iphone contains ".onion" %}{% include review/torSourcePill.html url=repo_iphone %}{% else %}<a href="{{ repo_iphone }}" target="_blank" rel="noopener noreferrer" class="capitalise">{{ host }}</a>{% endif %}
+      {%- else -%}
+        {%- assign repo = repo_android -%}
+        {%- if repo == '' -%}{%- assign repo = repo_iphone -%}{%- endif -%}
+        {%- if repo == '' -%}{%- assign repo = repo_root -%}{%- endif -%}
+        {%- assign host = repo | replace: "https://", "" | replace: "http://", "" | split: "/" | first | split: "." | first -%}
+        Public on {% if repo contains ".onion" %}{% include review/torSourcePill.html url=repo %}{% else %}<a href="{{ repo }}" target="_blank" rel="noopener noreferrer" class="capitalise">{{ host }}</a>{% endif %}
+      {%- endif -%}
+    </dd>
+  </div>
+  {%- endif %}
+  <div class="app-facts__item">
+    <dt>Custody</dt>
+    <dd>
+      {%- case custody_state -%}
+        {%- when 'custodial', 'prefilled' -%}
+          <span class="app-facts__danger">{{ site.data.verdicts[custody_state].title }}</span>
+        {%- when 'not-evaluated' -%}
+          <span class="secondary-text">Not evaluated — our review stopped at an earlier step.</span>
+        {%- when 'mixed' -%}
+          Mixed: some features rely on third-party custody
+        {%- else -%}
+          {%- if custody_platform == 'hardware' or custody_platform == 'bearer' -%}
+            Private keys generated and held by the user
+          {%- else -%}
+            Self-custodial: The user holds the keys
+          {%- endif -%}
+      {%- endcase -%}
+    </dd>
+  </div>
+  {%- if status_flags != '' %}
+  <div class="app-facts__item">
+    <dt>Status</dt>
+    <dd>
+      {%- if status_split -%}
+        {%- if status_android != '' -%}<span class="secondary-text">Android:</span> {{ status_android }}{%- endif -%}
+        {%- if status_android != '' and status_iphone != '' -%}<br>{%- endif -%}
+        {%- if status_iphone != '' -%}<span class="secondary-text">iPhone:</span> {{ status_iphone }}{%- endif -%}
+      {%- else -%}
+        {{ status_flags }}
+      {%- endif -%}
+    </dd>
+  </div>
+  {%- endif %}
+</dl>

@@ -1,7 +1,6 @@
 ---
-wsId: coinbaseBSB
 title: 'Coinbase: Buy Crypto & Stocks'
-date: 2021-10-12
+date: 2026-10-30
 authors:
 - leo
 website: https://coinbase.com/
@@ -23,10 +22,9 @@ android:
   users: 50000000
   appCountry: us
   released: 2013-03-01
-  updated: 2026-09-25
-  version: 14.36.62
-  reviews: 118380
-  icon: com.coinbase.android.webp
+  updated: 2026-10-08
+  version: 14.38.54
+  reviews: 118438
   meta: ok
   verdict: custodial
   developerName: Coinbase Inc
@@ -35,10 +33,9 @@ iphone:
   idd: 886427730
   appCountry: us
   released: 2014-06-22
-  updated: 2026-09-28
-  version: 14.37.53
-  reviews: 1797571
-  icon: com.vilcsak.bitcoin2.webp
+  updated: 2026-10-12
+  version: 14.39.44
+  reviews: 1797825
   meta: ok
   verdict: custodial
   developerName: Coinbase, Inc.
@@ -75,4 +72,4 @@ does also link to a [Wallet page](https://wallet.coinbase.com/) that links to
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,6 +1,6 @@
 ---
 title: Ceetwe Bitcoin Tether Wallet
-date: 2023-11-02
+date: 2026-10-30
 website: https://ceetwe.com#deadLink
 redirect_from:
 - /android/ceetwe.ceetwe/
@@ -10,7 +10,6 @@ android:
   released: 2021-11-06
   updated: 2022-01-02
   version: '22.01'
-  icon: ceetwe.ceetwe.webp
   meta: removed
   verdict: wip
   developerName: Mr. Vin

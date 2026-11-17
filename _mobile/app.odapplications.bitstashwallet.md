@@ -1,6 +1,6 @@
 ---
 title: BitStash Wallet - Multi Crypto
-date: 2024-02-05
+date: 2026-10-30
 website: https://payments.bitstash.co#deadLink
 redirect_from:
 - /android/app.odapplications.bitstashwallet/
@@ -10,7 +10,6 @@ android:
   released: 2019-11-10
   updated: 2019-11-24
   version: 0.0.3
-  icon: app.odapplications.bitstashwallet.webp
   meta: removed
   verdict: wip
   developerName: ODApplications

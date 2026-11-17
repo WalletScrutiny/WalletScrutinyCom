@@ -1,7 +1,6 @@
 ---
-wsId: iSunOne
 title: iSunOne – Spend Cryptos and Tokens in a Card
-date: 2022-04-07
+date: 2026-10-30
 authors:
 - danny
 website: https://isun.one
@@ -19,7 +18,6 @@ android:
   released: 2018-05-23
   updated: 2021-07-20
   version: 2.1.3
-  icon: com.tideisun.tidepay.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -29,12 +27,15 @@ iphone:
   updated: 2024-10-08
   version: 4.0.5
   reviews: 3
-  icon: com.tideisun.tidepay.webp
   meta: removed
   verdict: custodial
   developerName: TIDENET LIMITED
 
 ---
+
+**⚠️ Warning:** iSunOne has shut down. Its website says it ceased operations in 2025.
+
+**Update 2026-10-30:** iSunOne is gone. Its [website](https://isun.one) now carries only a notice that "Operations ceased in 2025", and the [terms page](https://isun.one/tnc#deadLink) quoted below is gone. The iPhone app is gone from the App Store as well.
 
 ## Android
 
@@ -68,4 +69,4 @@ This app is a financial app merged with a Bitcoin wallet, staking, interest paym
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

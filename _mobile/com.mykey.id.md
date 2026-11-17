@@ -1,6 +1,6 @@
 ---
 title: MYKEY
-date: 2021-04-13
+date: 2026-10-30
 redirect_from:
 - /android/com.mykey.id/
 android:
@@ -9,9 +9,12 @@ android:
   updated: 2021-02-04
   version: 3.5.0
   reviews: 82
-  icon: com.mykey.id.webp
   meta: removed
   verdict: wip
 
 ---
 
+**⚠️ Warning:** MYKEY shut down its wallet app and all account services on
+June 30, 2022.
+
+**Update 2026-10-30:** The pinned post on [MYKEY Lab's X account](https://x.com/mykey_lab) says "MYKEY will be halting the wallet APP and all related account services for all users due to policy reasons from June 30, 2022".

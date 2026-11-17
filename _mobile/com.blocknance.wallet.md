@@ -1,7 +1,6 @@
 ---
-wsId: blocknanceBlockchain
 title: 'Blocknance: Blockchain Wallet'
-date: 2024-07-25
+date: 2026-10-30
 authors:
 - danny
 website: https://blockchain.com.do
@@ -10,7 +9,6 @@ social:
 - https://www.linkedin.com/company/blocknance
 - https://www.youtube.com/channel/UCAuqZmDK1puvCH42WW-oSJg
 - https://www.facebook.com/BlocknanceATM
-- https://blockchain.com.do
 redirect_from:
 - /android/com.blocknance.wallet/
 - /iphone/org.reactjs.native.example.blocknance/
@@ -21,7 +19,6 @@ android:
   updated: 2023-03-14
   version: '1.1'
   reviews: 3
-  icon: com.blocknance.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Blocknance Financial International SRL
@@ -33,7 +30,6 @@ iphone:
   updated: 2023-03-01
   version: 1.0.2
   reviews: 1
-  icon: org.reactjs.native.example.blocknance.webp
   meta: removed
   verdict: nosource
   developerName: Blocknance Financial International SRL
@@ -65,4 +61,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

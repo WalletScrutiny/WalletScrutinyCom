@@ -1,7 +1,6 @@
 ---
-wsId: sekiappCrypto
 title: 'SekiApp: Buy and Sell Giftcard'
-date: 2023-08-14
+date: 2026-10-30
 authors:
 - danny
 website: https://sekiapp.com
@@ -20,10 +19,9 @@ android:
   users: 50000
   appCountry: us
   released: 2022-05-31
-  updated: 2026-09-15
-  version: 2.3.21
+  updated: 2026-10-09
+  version: 2.3.22
   reviews: 26
-  icon: com.wiseki.sekiapp.webp
   meta: ok
   verdict: custodial
   developerName: SekiApp
@@ -32,10 +30,9 @@ iphone:
   idd: '1622624126'
   appCountry: ng
   released: 2022-06-22
-  updated: 2026-09-17
-  version: 2.3.21
+  updated: 2026-10-13
+  version: 2.3.22
   reviews: 87
-  icon: com.wiseki.sekiapp.new.webp
   meta: ok
   verdict: custodial
   developerName: Wiseki Technologies Limited
@@ -84,4 +81,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

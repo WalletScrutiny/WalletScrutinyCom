@@ -1,6 +1,6 @@
 ---
 title: ChainEX
-date: 2021-10-26
+date: 2026-10-30
 authors:
 - danny
 website: https://chainex.io/
@@ -14,14 +14,15 @@ android:
   appId: io.chainex.app
   users: 10000
   appCountry: us
-  updated: 2026-08-07
-  version: 3.0.8
-  icon: io.chainex.app.webp
+  updated: 2026-09-03
+  version: 3.0.10
   meta: ok
   verdict: custodial
   developerName: Lunatech (Pty) Ltd
 
 ---
+
+**Update 2026-10-30:** The withdrawal FAQ moved to the support site, and we updated the link below.
 
 ## App Description
 
@@ -43,7 +44,7 @@ From ChainEX's Terms of Service:
 > - ChainEX service partners are unable to support your use; or
 > - You take any action that ChainEX deems as circumventing ChainEX's controls, including, but not limited to, opening multiple ChainEX accounts or abusing promotions which ChainEX may offer from time to time.
 
-[Users can withdraw into external wallets](https://osticket.chainex.io/kb/faq.php?id=106) or into a bank account. 2FA is required for withdrawal.
+[Users can withdraw into external wallets](https://support.chainex.io/kb/faq.php?id=106) or into a bank account. 2FA is required for withdrawal.
 
 ## The App
 

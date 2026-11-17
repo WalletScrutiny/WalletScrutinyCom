@@ -1,7 +1,6 @@
 ---
-wsId: ROInvesting
 title: 'ROInvesting: Trading Forex, St'
-date: 2021-12-05
+date: 2026-10-30
 authors:
 - danny
 website: https://www.roinvesting.com/
@@ -18,7 +17,6 @@ android:
   appCountry: us
   updated: 2021-08-25
   version: 1.5.69-roinvesting
-  icon: com.roinvesting.webp
   meta: removed
   verdict: nosendreceive
   developerName: Royal Forex Limited
@@ -30,11 +28,12 @@ iphone:
   updated: 2021-08-23
   version: 1.68.10
   reviews: 1
-  icon: com.roinvesting.webp
   meta: removed
   verdict: nosendreceive
 
 ---
+
+**Update 2026-10-30:** ROInvesting appears to be gone. Royal Forex Ltd, which ran it, gave up its Cyprus investment firm licence: CySEC [withdrew it in early 2025](https://fxnewsgroup.com/forex-news/retail-forex/royal-forex-loses-cysec-cif-license/) "due to the company's decision to expressly renounce it". Since October 2025, archived copies of roinvesting.com show only [a forward to a placeholder page](https://web.archive.org/web/20260310091411/http://roinvesting.com/) instead of the broker site.
 
 ## Android
 
@@ -62,4 +61,4 @@ This app **cannot send or receive bitcoins**.
 
 **Update 2021-11-26**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

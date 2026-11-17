@@ -1,7 +1,6 @@
 ---
-wsId: zyptoCrypto
 title: Zypto Crypto & Bitcoin Wallet
-date: 2025-12-26
+date: 2026-10-30
 authors:
 - danny
 website: https://zypto.com
@@ -27,7 +26,6 @@ android:
   updated: 2026-08-29
   version: 1.29.0
   reviews: 43
-  icon: com.zypto.webp
   meta: ok
   verdict: nosource
   developerName: Zypto
@@ -39,7 +37,6 @@ iphone:
   updated: 2026-09-07
   version: 1.29.0
   reviews: 56
-  icon: com.zypto.zypto.webp
   meta: ok
   verdict: nosource
   developerName: Zypto SP Z O O
@@ -72,7 +69,7 @@ We also did not find any claims regarding source-availability in their home page
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Multichain wallet & swaps – trade BTC, ETH, SOL, BNB, MATIC and thousands more with great rates across 500,000+ pairs." source="Store" %}
 

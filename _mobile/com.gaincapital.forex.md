@@ -1,7 +1,6 @@
 ---
-wsId: Forexcom
 title: FOREX.com Forex & CFD Trading
-date: 2021-10-16
+date: 2026-10-30
 authors:
 - danny
 website: https://www.forex.com
@@ -17,10 +16,9 @@ android:
   users: 500000
   appCountry: gb
   released: 2021-01-11
-  updated: 2026-09-08
-  version: '1.268'
+  updated: 2026-09-29
+  version: '1.270'
   reviews: 39
-  icon: com.gaincapital.forex.webp
   meta: ok
   verdict: nosendreceive
   developerName: GAIN Capital Group, LLC
@@ -29,10 +27,9 @@ iphone:
   idd: 1506581586
   appCountry: gb
   released: 2020-10-14
-  updated: 2026-09-21
-  version: 1.269.8156
-  reviews: 263
-  icon: com.gaincapital.forex.webp
+  updated: 2026-10-05
+  version: 1.270.8196
+  reviews: 265
   meta: ok
   verdict: nosendreceive
   developerName: GAIN Capital Group LLC
@@ -78,4 +75,4 @@ Funding can only be via traditional financial institutions, this app **cannot se
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

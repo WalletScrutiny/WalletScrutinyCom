@@ -1,6 +1,6 @@
 ---
 title: Elaphant - BTC ETH ELA Wallet
-date: 2023-01-02
+date: 2026-10-30
 website: https://elaphant.app
 redirect_from:
 - /android/app.elaphant.wallets/
@@ -11,7 +11,6 @@ android:
   updated: 2021-05-03
   version: 1.99.15
   reviews: 1
-  icon: app.elaphant.wallets.webp
   meta: removed
   verdict: wip
 

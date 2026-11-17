@@ -1,10 +1,9 @@
 ---
-wsId: Gekkard
 title: 'Gekkard: Banking Alternative'
-date: 2025-10-10
+date: 2026-10-30
 authors:
 - danny
-website: https://gekkoin.com/index.html
+website: https://gekkoin.com/index.html#deadLink
 social:
 - https://www.facebook.com/gekkoin.official
 appCountry: mt
@@ -16,11 +15,10 @@ android:
   users: 10000
   appCountry: mt
   released: 2020-01-30
-  updated: 2024-10-14
-  version: 1.1.1
+  updated: 2026-09-28
+  version: 1.1.3
   reviews: 76
-  icon: com.papaya.gekkard.webp
-  meta: stale
+  meta: ok
   verdict: custodial
   developerName: PAPAYA LTD
 iphone:
@@ -31,12 +29,13 @@ iphone:
   updated: 2025-04-08
   version: 1.0.9
   reviews: 0
-  icon: com.papaya.gekkard.webp
   meta: stale
   verdict: custodial
   developerName: Papaya Ltd
 
 ---
+
+**Update 2026-10-30:** The Gekkoin website and the Gekkard website no longer load. Both were last archived in March 2026 ([Gekkoin](https://web.archive.org/web/20260308155014/https://gekkoin.com/), [Gekkard](https://web.archive.org/web/20260306143037/https://gekkard.com/)). The app is still in both stores, and its store description still offers bitcoin through Gekkoin.
 
 ## Android
 
@@ -58,7 +57,7 @@ At the end of the description, there is a note saying that 'Gekkoin' is:
 
 ## The Site
 
-From [Terms and Conditions, 10.1:](https://gekkoin.com/source/GeneralTermsandConditions.pdf)
+From [Terms and Conditions, 10.1:](https://web.archive.org/web/20240205171911/https://gekkoin.com/source/GeneralTermsandConditions.pdf)
 
 > If we suspect that fraudulent activity is being conducted on your User Account, you acknowledge that for the purpose of protecting you we have the right to temporarily suspend your User Account in order to prevent further or continuing the unauthorized activity.
 
@@ -79,4 +78,4 @@ We conclude that this is a **custodial** app and therefore **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

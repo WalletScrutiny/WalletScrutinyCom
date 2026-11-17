@@ -1,9 +1,9 @@
 ---
 title: 'Pepe Wallet: DeFi Crypto'
-date: 2024-09-04
+date: 2026-10-30
 authors:
 - danny
-website: http://pewall.org
+website: https://web.archive.org/web/20230701020430/https://pewall.org/
 redirect_from:
 - /android/com.Pepelabs.Pepewallet/
 android:
@@ -13,7 +13,6 @@ android:
   updated: 2023-12-29
   version: 2.1.2
   reviews: 69
-  icon: com.Pepelabs.Pepewallet.webp
   meta: removed
   verdict: wip
   developerName: LusoLabs

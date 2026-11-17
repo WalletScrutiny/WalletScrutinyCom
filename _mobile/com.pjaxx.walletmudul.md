@@ -1,6 +1,6 @@
 ---
 title: Jaxx Liberty Bitcoin Wallet
-date: 2021-08-04
+date: 2026-10-30
 authors:
 - emanuel
 - leo
@@ -13,7 +13,6 @@ android:
   released: 2021-07-05
   updated: 2021-07-05
   version: '1'
-  icon: com.pjaxx.walletmudul.webp
   meta: removed
   verdict: fake
 

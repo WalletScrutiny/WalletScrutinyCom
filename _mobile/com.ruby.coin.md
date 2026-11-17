@@ -1,12 +1,11 @@
 ---
-wsId: rubycoinWallet
 title: Rubycoin wallet
-date: 2023-11-02
+date: 2026-10-30
 authors:
 - danny
+website: https://rubycointrade.com#deadLink
 twitter: RubyCoinDAO
 social:
-- https://rubycointrade.com#deadLink
 - https://www.facebook.com/people/Ruby-Coin/100083273028384
 - https://www.instagram.com/rubycoindao
 - https://t.me/rubycoindao
@@ -22,7 +21,6 @@ android:
   released: 2022-09-21
   updated: 2022-11-09
   version: 1.0.5
-  icon: com.ruby.coin.webp
   meta: removed
   verdict: custodial
   developerName: rubycoin
@@ -34,7 +32,6 @@ iphone:
   updated: 2022-11-10
   version: '5.0'
   reviews: 0
-  icon: com.rubycoin.app.webp
   meta: removed
   verdict: custodial
   developerName: Ruby Coin
@@ -61,4 +58,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

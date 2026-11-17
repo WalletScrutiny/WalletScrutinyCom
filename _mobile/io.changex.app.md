@@ -1,7 +1,6 @@
 ---
-wsId: changeXCrypto
 title: 'ChangeX: Buy & Earn Crypto'
-date: 2025-02-04
+date: 2026-10-30
 authors:
 - danny
 website: https://changex.io/
@@ -23,7 +22,6 @@ android:
   updated: 2024-01-23
   version: 2.9.8
   reviews: 7
-  icon: io.changex.app.webp
   meta: removed
   verdict: nosource
   developerName: ChangeX
@@ -35,7 +33,6 @@ iphone:
   updated: 2023-12-20
   version: 2.10.1
   reviews: 11
-  icon: io.changex.app.webp
   meta: obsolete
   verdict: nosource
   developerName: Olympus Capital AD
@@ -43,6 +40,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Changex has replaced this Android app with a new app, Changex 3.0, from the same company (Olympus Capital AD). This listing covers the old app, which is gone from Google Play.
 
 ## Update 2024-07-24
 
@@ -70,4 +69,4 @@ The main app interface appeared with a notice on top, to 'backup your wallet'
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

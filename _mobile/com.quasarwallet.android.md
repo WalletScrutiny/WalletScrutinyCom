@@ -1,6 +1,6 @@
 ---
 title: Quasar Wallet
-date: 2025-08-26
+date: 2026-10-30
 authors:
 - danny
 website: https://quasarwallet.com
@@ -19,7 +19,6 @@ android:
   updated: 2024-08-29
   version: '1.5'
   reviews: 10
-  icon: com.quasarwallet.android.webp
   meta: obsolete
   verdict: custodial
   developerName: Blaqclouds

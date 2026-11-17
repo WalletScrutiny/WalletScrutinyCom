@@ -1,7 +1,6 @@
 ---
-wsId: crypto2cash
 title: Crypto2Cash
-date: 2023-06-13
+date: 2026-10-30
 authors:
 - danny
 website: https://www.crypto2cash.com/
@@ -22,7 +21,6 @@ android:
   updated: 2026-01-14
   version: 2.1.6
   reviews: 4
-  icon: io.crypto2cash.exchange.webp
   meta: removed
   verdict: nosendreceive
   developerName: Crypto2Cash
@@ -34,7 +32,6 @@ iphone:
   updated: 2026-01-26
   version: 3.2.3
   reviews: 0
-  icon: com.c2c.B.V.Crypto2Cash.webp
   meta: removed
   verdict: nosendreceive
   developerName: CtoC UAB
@@ -61,4 +58,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

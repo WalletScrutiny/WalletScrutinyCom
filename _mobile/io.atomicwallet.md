@@ -1,7 +1,6 @@
 ---
-wsId: atomic
 title: Bitcoin Wallet Crypto Ethereum
-date: 2023-11-22
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -19,8 +18,7 @@ android:
   released: 2019-01-30
   updated: 2026-08-27
   version: 1.45.6
-  reviews: 5716
-  icon: io.atomicwallet.webp
+  reviews: 5713
   meta: ok
   verdict: obfuscated
   developerName: Atomic Wallet
@@ -31,8 +29,7 @@ iphone:
   released: 2019-11-05
   updated: 2026-08-14
   version: 1.45.4
-  reviews: 18949
-  icon: atomicwallet.webp
+  reviews: 18958
   meta: ok
   verdict: obfuscated
   developerName: ATOMIC PROTOCOL SYSTEMS OÜ
@@ -121,6 +118,8 @@ Verdict: This wallet is **not verifiable**.
 
 ## iPhone
 
+**Update 2026-10-30:** The iPhone app is available in the App Store again, so the 2022 note below is out of date. The Android analysis still applies to it.
+
 **Update 2022-01-02**: This app is no more available.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

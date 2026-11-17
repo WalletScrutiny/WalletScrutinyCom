@@ -1,7 +1,6 @@
 ---
-wsId: iCrypex
 title: 'ICRYPEX TR: Bitcoin, Kripto Al'
-date: 2022-06-24
+date: 2026-10-30
 authors:
 - danny
 website: https://www.icrypex.com.tr/
@@ -22,7 +21,6 @@ android:
   updated: 2025-07-03
   version: '21.2'
   reviews: 10
-  icon: app.mobile.android.icrypex.webp
   meta: stale
   verdict: custodial
   developerName: ICRYPEX KRİPTO VARLIK ALIM SATIM PLATFORMU A.Ş.
@@ -34,12 +32,13 @@ iphone:
   updated: 2024-09-25
   version: '4.1'
   reviews: 1
-  icon: com.icrypex.mobile.webp
   meta: removed
   verdict: custodial
   developerName: ICRYPEX BILISIM ANONIM SIRKETI
 
 ---
+
+**Update 2026-10-30:** ICRYPEX is being wound down. Turkey's Capital Markets Board ordered its liquidation on 2026-08-27, and the company is now on the board's [list of providers in liquidation](https://spk.gov.tr/kurumlar/kripto-varlik-hizmet-saglayicilar/tasfiye-surecinde-olanlar-listesi). Customers cannot send their coins to another wallet: the crypto is [converted to Turkish lira and paid to a bank account](https://www.fintekwins.com/icrypexte-musteri-varliklarinin-cekim-sureci-basladi/), only as far as the company's assets allow, and the [ICRYPEX website](https://www.icrypex.com.tr/) says the first round of these withdrawals is still being processed.
 
 ## Android
 
@@ -67,4 +66,4 @@ As a digital asset exchange, this is a **custodial** service. When ICRYPEX menti
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

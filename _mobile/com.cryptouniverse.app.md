@@ -1,6 +1,6 @@
 ---
 title: Crypto Universe
-date: 2024-04-03
+date: 2026-10-30
 website: http://cryptouniversep2p.com#deadLink
 redirect_from:
 - /android/com.cryptouniverse.app/
@@ -10,7 +10,6 @@ android:
   released: 2020-07-03
   updated: 2020-07-03
   version: 1.0.0
-  icon: com.cryptouniverse.app.webp
   meta: removed
   verdict: wip
   developerName: CRYPTO UNIVERSE

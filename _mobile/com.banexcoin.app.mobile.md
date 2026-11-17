@@ -1,6 +1,6 @@
 ---
 title: Banexcoin
-date: 2023-08-04
+date: 2026-10-30
 authors:
 - danny
 website: https://banexcoin.com
@@ -18,19 +18,17 @@ android:
   released: 2022-02-02
   updated: 2024-09-26
   version: 1.1.254
-  icon: com.banexcoin.app.mobile.webp
   meta: removed
   verdict: custodial
   developerName: Banexcoin
 iphone:
   appId: com.banexcoin.app.mobile
   idd: '1583296115'
-  appCountry: us
+  appCountry: pe
   released: 2022-02-15
   updated: 2022-10-18
   version: 1.1.103
   reviews: 5
-  icon: com.banexcoin.app.mobile.webp
   meta: removed
   verdict: wip
   developerName: Banexcoin SA

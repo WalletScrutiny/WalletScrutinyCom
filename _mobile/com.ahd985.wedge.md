@@ -1,7 +1,6 @@
 ---
-wsId: wedgePayWithCrypto
 title: 'Wedge: Pay with Stock & Crypto'
-date: 2023-09-15
+date: 2026-10-30
 authors:
 - danny
 website: https://wedge.us
@@ -9,7 +8,6 @@ twitter: wedgefinancial
 social:
 - https://www.linkedin.com/company/wedgefinancial
 - https://www.facebook.com/wedgefinancial
-- https://wedge.us
 redirect_from:
 - /android/com.ahd985.wedge/
 - /iphone/com.ahd985.wedge/
@@ -20,7 +18,6 @@ android:
   updated: 2023-04-04
   version: 1.4.3
   reviews: 19
-  icon: com.ahd985.wedge.webp
   meta: removed
   verdict: custodial
   developerName: Wedge Financial, Inc.
@@ -32,12 +29,13 @@ iphone:
   updated: 2023-04-19
   version: 1.4.3
   reviews: 59
-  icon: com.ahd985.wedge.webp
   meta: removed
   verdict: custodial
   developerName: Wedge Financial, Inc
 
 ---
+
+**Update 2026-10-30:** Wedge no longer offers this consumer app. In February 2024 the company started selling its payment technology to banks and credit unions ([PYMNTS](https://www.pymnts.com/digital-payments/2024/wedge-launches-white-label-programmable-payment-solution-appoints-president/)), and [wedge.us](https://wedge.us/) now presents a payments platform for retailers. Its newer Wedge Pay app pays with loyalty points, cash back or a bank account and does not mention stocks or crypto.
 
 ## Android
 
@@ -56,4 +54,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

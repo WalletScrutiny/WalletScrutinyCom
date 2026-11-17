@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Invest India
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/com.balletcrypto.bitcoin.invest.india/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-20
   updated: 2021-06-20
   version: '1.0'
-  icon: com.balletcrypto.bitcoin.invest.india.webp
   meta: removed
   verdict: wip
 

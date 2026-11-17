@@ -1,7 +1,6 @@
 ---
-wsId: hidollars
 title: Hi:Easy-to-Use Crypto Neobank
-date: 2025-03-17
+date: 2026-10-30
 authors:
 - danny
 website: https://hi.com/
@@ -21,7 +20,6 @@ android:
   updated: 2024-11-06
   version: 2.19.1
   reviews: 10703
-  icon: com.hi.dollars.webp
   meta: removed
   verdict: custodial
   developerName: hi.com
@@ -33,7 +31,6 @@ iphone:
   updated: 2024-10-28
   version: 2.19.0
   reviews: 279
-  icon: com.hidollars.app.webp
   meta: stale
   verdict: custodial
   developerName: HI
@@ -72,4 +69,4 @@ This wallet is **custodial.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

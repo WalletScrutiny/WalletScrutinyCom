@@ -1,10 +1,9 @@
 ---
-wsId: Bitwells
 title: Bitwells - Easy Bitcoin/Crypto Futures Trading
-date: 2022-10-21
+date: 2026-10-30
 authors:
 - danny
-website: https://www.bitwells.com
+website: https://www.bitwells.com#deadLink
 twitter: bitwells
 social:
 - https://www.facebook.com/Bitwells
@@ -19,7 +18,6 @@ android:
   updated: 2022-05-09
   version: 1.0.7
   reviews: 1261
-  icon: com.bitwells.android.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -29,11 +27,12 @@ iphone:
   updated: 2022-04-12
   version: 1.0.6
   reviews: 9
-  icon: com.bitwells.ios.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** Both apps are gone from the stores, and the [Bitwells website](https://www.bitwells.com#deadLink) no longer loads.
 
 ## Android
 
@@ -76,4 +75,4 @@ As a futures trading platform and even without KYC, this app is centralized with
 
 **Update 2022-10-21**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: bloxCrypto
 title: BLOX Crypto & Bitcoin Trading
-date: 2023-07-20
+date: 2026-10-30
 authors:
 - danny
 website: https://weareblox.com
@@ -19,9 +18,8 @@ android:
   appId: com.weareblox.app
   users: 100000
   appCountry: us
-  updated: 2026-05-22
-  version: 6.8.3
-  icon: com.weareblox.app.webp
+  updated: 2026-09-24
+  version: 6.9.0
   meta: ok
   verdict: nosendreceive
   developerName: BLOX (Weareblox) - bitcoin & other crypto currency
@@ -30,10 +28,9 @@ iphone:
   idd: '1444159776'
   appCountry: nl
   released: 2019-01-16
-  updated: 2026-06-19
-  version: 6.8.3
-  reviews: 5672
-  icon: com.weareblox.app.webp
+  updated: 2026-10-06
+  version: 6.9.0
+  reviews: 5680
   meta: ok
   verdict: nosendreceive
   developerName: Blox B.V.
@@ -62,4 +59,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: OGPay
 title: OGPay Business
-date: 2021-11-15
+date: 2026-10-30
 authors:
 - danny
 website: https://www.ogpaywallet.com
@@ -17,7 +16,6 @@ android:
   updated: 2026-09-18
   version: VARY
   reviews: 34
-  icon: com.ogpay.webp
   meta: ok
   verdict: custodial
   developerName: Original Digital Corporation
@@ -28,8 +26,7 @@ iphone:
   released: 2019-08-03
   updated: 2026-09-19
   version: '16.3'
-  reviews: 267
-  icon: com.unifiedsignal.ogpaywallet.webp
+  reviews: 268
   meta: ok
   verdict: custodial
   developerName: Original Digital Corporation
@@ -37,6 +34,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The app is now called OGPay Business. Its current Play and App Store descriptions talk only about business payments and a VISA debit card and no longer mention crypto.
 
 ## App Description
 
@@ -52,4 +51,4 @@ This service is **custodial** thus making the app, **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

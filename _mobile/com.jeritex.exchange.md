@@ -1,9 +1,9 @@
 ---
 title: Jeritex
-date: 2025-09-23
+date: 2026-10-30
 authors:
 - danny
-website: https://jeritex.com
+website: https://jeritex.com#deadLink
 redirect_from:
 - /android/com.jeritex.exchange/
 android:
@@ -12,12 +12,13 @@ android:
   released: 2022-05-05
   updated: 2025-02-28
   version: 1.1.22
-  icon: com.jeritex.exchange.webp
   meta: removed
   verdict: custodial
   developerName: Jeritex Inc.
 
 ---
+
+**⚠️ Warning:** Jeritex appears to be gone. The app is gone from Google Play and the [website](https://web.archive.org/web/20250513182552/http://jeritex.com/) no longer loads; the last archived copy is from May 2025.
 
 ## App Description from Google Play 
 

@@ -1,10 +1,9 @@
 ---
-wsId: pouchPh
 title: POUCH - Buy & Sell Bitcoin
-date: 2022-06-22
+date: 2026-10-30
 authors:
 - danny
-website: https://pouch.ph
+website: https://pouchph.com
 features:
 - ln
 redirect_from:
@@ -15,10 +14,9 @@ android:
   users: 10000
   appCountry: us
   released: 2021-09-08
-  updated: 2026-07-28
-  version: 1.4.20
-  reviews: 4
-  icon: pouch.ph.webp
+  updated: 2026-08-06
+  version: 1.4.22
+  reviews: 5
   meta: ok
   verdict: custodial
   developerName: Pouch PH Inc
@@ -30,7 +28,6 @@ iphone:
   updated: 2023-10-02
   version: 1.0.13
   reviews: 5
-  icon: pouch.ph.webp
   meta: removed
   verdict: custodial
   developerName: Pouch PH Inc
@@ -59,4 +56,4 @@ As stated in the Google Play app description, it is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

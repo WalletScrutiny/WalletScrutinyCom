@@ -1,7 +1,6 @@
 ---
-wsId: bitcoinStoreWallet
 title: Bitcoin Store Wallet
-date: 2024-09-07
+date: 2026-10-30
 authors:
 - danny
 website: https://bitstore.net
@@ -21,9 +20,8 @@ android:
   users: 10000
   appCountry: us
   released: 2023-01-03
-  updated: 2026-09-18
-  version: 1.0.60
-  icon: com.bitcoinstore.bitcoinstorewallet.webp
+  updated: 2026-10-01
+  version: 1.0.61
   meta: ok
   verdict: custodial
   developerName: Digital Assets d.o.o
@@ -32,10 +30,9 @@ iphone:
   idd: '1661281314'
   appCountry: hr
   released: 2023-01-09
-  updated: 2026-09-21
-  version: 1.0.31
+  updated: 2026-10-06
+  version: 1.0.32
   reviews: 14
-  icon: com.bitcoinstore.bitcoinstorewallet.webp
   meta: ok
   verdict: custodial
   developerName: Digital Assets d.o.o
@@ -66,7 +63,7 @@ This indicates that the wallets within the user account, is controlled and **cus
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="buyWithCC" quote="Credit Card (Visa,Mastercard)" source="Store" %}
 

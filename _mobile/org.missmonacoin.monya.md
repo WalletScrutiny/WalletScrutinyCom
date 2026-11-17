@@ -1,6 +1,6 @@
 ---
 title: Monya - Monacoin & Altcoins Wa
-date: 2024-05-07
+date: 2026-10-30
 authors:
 - danny
 website: https://monya-wallet.github.io
@@ -17,7 +17,6 @@ android:
   released: 2018-01-02
   updated: 2021-12-14
   version: 3.10.5
-  icon: org.missmonacoin.monya.webp
   meta: removed
   verdict: sourceavailable
   developerName: 藤原出帆

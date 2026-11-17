@@ -1,7 +1,6 @@
 ---
-wsId: bydfiExchange
 title: 'BYDFi: Buy BTC, XRP & SOL'
-date: 2023-07-21
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bydfi.com/
@@ -24,8 +23,7 @@ android:
   released: 2023-01-20
   updated: 2026-09-28
   version: 4.0.2
-  reviews: 438
-  icon: com.bydfi.app.webp
+  reviews: 440
   meta: ok
   verdict: custodial
   developerName: BYDFi Fintech LTD
@@ -36,8 +34,7 @@ iphone:
   released: 2023-02-09
   updated: 2026-09-29
   version: 4.0.2
-  reviews: 1216
-  icon: com.bydfi.app.webp
+  reviews: 1220
   meta: ok
   verdict: custodial
   developerName: BYDFi Fintech LTD
@@ -60,4 +57,4 @@ Most centralized and "regulated" cryptocurrency exchanges use cold-wallet storag
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

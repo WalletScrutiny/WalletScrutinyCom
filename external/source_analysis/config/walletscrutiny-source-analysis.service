@@ -14,18 +14,33 @@ CacheDirectory=walletscrutiny-source-analysis
 
 # Same GitHub token as the build server (see README to use a separate one)
 LoadCredentialEncrypted=build-server-gh-token:/etc/credstore.encrypted/build-server-gh-token
+# The analyser's own Nostr key, for the malware alerts (README, "Alerts")
+LoadCredentialEncrypted=source-analysis-alert-nsec:/etc/credstore.encrypted/source-analysis-alert-nsec
 
 Environment=GITHUB_TOKEN_FILE=%d/build-server-gh-token
+Environment=ALERT_NOSTR_NSEC_FILE=%d/source-analysis-alert-nsec
 Environment=SOURCE_ANALYSIS_DB_PATH=/var/lib/walletscrutiny-source-analysis/assets.db
+# Per-repository scratch (clone, node_modules, result), deleted after each repository
 Environment=SOURCE_ANALYSIS_TEMP_DIR=/var/cache/walletscrutiny-source-analysis/repos
-# The analysed repositories are untrusted: never run their npm lifecycle scripts,
-# and never wait on a credential prompt for a private or removed repository
-Environment=npm_config_ignore_scripts=true
-Environment=GIT_TERMINAL_PROMPT=0
-
-# npm / gradle caches of the analysed repositories go to the cache directory
-Environment=npm_config_cache=/var/cache/walletscrutiny-source-analysis/npm
-Environment=GRADLE_USER_HOME=/var/cache/walletscrutiny-source-analysis/gradle
+# npm/yarn/gradle/pip caches shared by the analysis containers, wiped past the cap
+Environment=SOURCE_ANALYSIS_CACHE_DIR=/var/cache/walletscrutiny-source-analysis/cache
+Environment=SOURCE_ANALYSIS_CACHE_MAX_GB=20
+# Static JSON export (README, "Static export"); unset = nothing is exported or published
+Environment=SOURCE_ANALYSIS_EXPORT_DIR=/var/lib/walletscrutiny-source-analysis/export
+# Copy of the export to the web host (README, "Publishing the export"); key and
+# known_hosts from README, "Setting up from scratch", step 2
+Environment=SOURCE_ANALYSIS_PUBLISH_TARGET=source-analysis@walletscrutiny.com:/
+Environment="SOURCE_ANALYSIS_PUBLISH_SSH=ssh -i /etc/walletscrutiny-source-analysis/publish_ed25519 -o UserKnownHostsFile=/etc/walletscrutiny-source-analysis/known_hosts -o StrictHostKeyChecking=yes"
+# The analysed repositories are untrusted: clone, install and checks run in a
+# throwaway container (containerRunner.mjs: no token, no database, no docker
+# socket, capabilities dropped, read-only root, memory/cpu/pid limits, timeout;
+# npm lifecycle scripts disabled and no credential prompts inside). The process
+# here only drives docker. Image, limits and timeout: config.mjs, overridable with
+# SOURCE_ANALYSIS_IMAGE, SOURCE_ANALYSIS_CONTAINER_MEMORY, SOURCE_ANALYSIS_CONTAINER_CPUS,
+# SOURCE_ANALYSIS_CONTAINER_TIMEOUT_MIN.
+Environment=SOURCE_ANALYSIS_CONTAINER_CLI=docker
+# Repositories analysed at the same time, each with the container limits above
+Environment=SOURCE_ANALYSIS_CONCURRENCY=3
 
 NoNewPrivileges=yes
 PrivateTmp=yes

@@ -1,7 +1,6 @@
 ---
-wsId: coinfinity
 title: Coinfinity - Buy Bitcoin
-date: 2025-11-11
+date: 2026-10-30
 authors:
 - danny
 website: https://coinfinity.co/
@@ -21,9 +20,8 @@ android:
   appId: co.coinfinity.coinfinity.mobile
   users: 10000
   appCountry: us
-  updated: 2026-08-21
-  version: 3.1.3
-  icon: co.coinfinity.coinfinity.mobile.webp
+  updated: 2026-10-12
+  version: 3.2.1
   meta: ok
   verdict: nosource
   developerName: Coinfinity
@@ -32,10 +30,9 @@ iphone:
   idd: '1642711272'
   appCountry: mt
   released: 2023-06-06
-  updated: 2026-08-24
-  version: 3.1.3
+  updated: 2026-10-13
+  version: 3.2.1
   reviews: 0
-  icon: co.coinfinity.coinfinity.mobile.webp
   meta: ok
   verdict: nosource
   developerName: Coinfinity GmbH
@@ -62,6 +59,6 @@ This app is **not source available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Experience the future of buying Bitcoin with the Lightning Network. With us, you can purchase BTC via Lightning, enabling lightning-fast transactions with minimal fees." source="Store description" %}

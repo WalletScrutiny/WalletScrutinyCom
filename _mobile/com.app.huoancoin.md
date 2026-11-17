@@ -1,6 +1,6 @@
 ---
 title: Huoancoin
-date: 2023-08-07
+date: 2026-10-30
 authors:
 - danny
 website: https://www.huoancoin.com#deadLink
@@ -13,7 +13,6 @@ android:
   updated: 2022-01-24
   version: '1.0'
   reviews: 18
-  icon: com.app.huoancoin.webp
   meta: removed
   verdict: wip
   developerName: TRED Studio

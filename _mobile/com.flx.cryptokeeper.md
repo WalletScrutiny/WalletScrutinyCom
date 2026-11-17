@@ -1,6 +1,6 @@
 ---
 title: 'Bitcoin Wallet : BTC & Crypto'
-date: 2026-07-23
+date: 2026-10-30
 authors:
 - danny
 website: http://www.cryptokeeperllc.com
@@ -17,7 +17,6 @@ android:
   updated: 2025-08-30
   version: 3.0.0
   reviews: 11
-  icon: com.flx.cryptokeeper.webp
   meta: stale
   verdict: custodial
   developerName: Crypto Keeper LLC
@@ -28,8 +27,7 @@ iphone:
   released: 2025-07-22
   updated: 2026-02-21
   version: 6.0.0
-  reviews: 79
-  icon: com.flx.cryptokeeper.webp
+  reviews: 82
   meta: ok
   verdict: custodial
   developerName: Crypto Keeper

@@ -1,7 +1,6 @@
 ---
-wsId: korbit
 title: 디지털엑스 - 디지털자산 거래소
-date: 2021-09-10
+date: 2026-10-30
 authors:
 - danny
 website: https://digitalx.miraeasset.com/
@@ -13,10 +12,9 @@ android:
   users: 500000
   appCountry: us
   released: 2018-07-22
-  updated: 2026-09-21
-  version: 11.18.0
+  updated: 2026-10-07
+  version: 12.0.2
   reviews: 9
-  icon: com.korbit.exchange.webp
   meta: ok
   verdict: custodial
   developerName: 디지털엑스
@@ -25,15 +23,16 @@ iphone:
   idd: 1434511619
   appCountry: kr
   released: 2018-10-18
-  updated: 2026-09-28
-  version: 11.18.0
-  reviews: 636
-  icon: com.korbit.exchange.webp
+  updated: 2026-10-07
+  version: 12.0.2
+  reviews: 642
   meta: ok
   verdict: custodial
   developerName: Digital X Co., Ltd.
 
 ---
+
+**Update 2026-10-30:** Korbit is now called Digital X, and both apps carry the new name. Mirae Asset took a 97.15% stake and [renamed the exchange in July 2026](https://crypto.news/south-koreas-korbit-becomes-digital-x-under-mirae-asset-ownership/), and korbit.co.kr now redirects to [digitalx.miraeasset.com](https://digitalx.miraeasset.com/).
 
 ## Android
 
@@ -47,4 +46,4 @@ Verdict is **custodial** and **not verifiable**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

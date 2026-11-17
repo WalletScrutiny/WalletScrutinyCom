@@ -1,7 +1,6 @@
 ---
-wsId: fidelityInvestments
 title: Fidelity Investments
-date: 2025-11-14
+date: 2026-10-30
 authors:
 - danny
 website: https://www.fidelity.com
@@ -14,10 +13,9 @@ android:
   users: 5000000
   appCountry: us
   released: 2010-12-15
-  updated: 2026-09-25
-  version: '4.41'
-  reviews: 57730
-  icon: com.fidelity.android.webp
+  updated: 2026-10-12
+  version: '4.42'
+  reviews: 57795
   meta: ok
   verdict: custodial
   developerName: Fidelity Investments
@@ -26,10 +24,9 @@ iphone:
   idd: '348177453'
   appCountry: us
   released: 2010-02-22
-  updated: 2026-09-24
-  version: '4.42'
-  reviews: 3331334
-  icon: com.fidelity.watchlist.webp
+  updated: 2026-10-09
+  version: '4.43'
+  reviews: 3352501
   meta: ok
   verdict: custodial
   developerName: Fidelity Investments
@@ -62,4 +59,4 @@ This is a **custodial** service as noted in the [footer of this fidelity page.](
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

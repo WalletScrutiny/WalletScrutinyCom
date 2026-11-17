@@ -1,7 +1,6 @@
 ---
-wsId: Bytesmix
 title: Bytesmix - Coin, Token Wallet
-date: 2024-04-19
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bytesmix.com
@@ -19,7 +18,6 @@ android:
   updated: 2023-09-29
   version: 2.4.7
   reviews: 276
-  icon: com.bytesmix.app.webp
   meta: removed
   verdict: custodial
   developerName: Bytesmix
@@ -31,12 +29,13 @@ iphone:
   updated: 2023-05-01
   version: 2.6.3
   reviews: 9
-  icon: bytesmix.live.co.kr.webp
   meta: removed
   verdict: custodial
   developerName: Bytesmix corp
 
 ---
+
+**Update 2026-10-30:** Both apps are gone from the stores, and [bytesmix.com](https://www.bytesmix.com) now only advertises AI consulting. The coin wallet described below is no longer offered there.
 
 ## Android
 
@@ -80,4 +79,4 @@ Due to the lack of self-custody and the use of KYC, it is safe to assume that th
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

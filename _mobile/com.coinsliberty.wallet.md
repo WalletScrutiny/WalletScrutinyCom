@@ -1,6 +1,6 @@
 ---
 title: CoinsLiberty Crypto Wallet
-date: 2024-04-26
+date: 2026-10-30
 website: https://coinsliberty.com#deadLink
 redirect_from:
 - /android/com.coinsliberty.wallet/
@@ -10,7 +10,6 @@ android:
   released: 2020-12-21
   updated: 2021-02-02
   version: 1.0.2
-  icon: com.coinsliberty.wallet.webp
   meta: removed
   verdict: wip
   developerName: Captiva Cay Platforms

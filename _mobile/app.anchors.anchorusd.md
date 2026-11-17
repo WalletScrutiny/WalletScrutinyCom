@@ -1,7 +1,6 @@
 ---
-wsId: AnchorUSD
 title: Anchor - Buy Bitcoin and Ether
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.tryanchor.com
@@ -17,7 +16,6 @@ android:
   updated: 2026-04-05
   version: 1.22.11
   reviews: 849
-  icon: app.anchors.anchorusd.webp
   meta: removed
   verdict: custodial
   developerName: Anchor US LLC
@@ -28,8 +26,7 @@ iphone:
   released: 2020-01-30
   updated: 2026-07-22
   version: 1.23.3
-  reviews: 5317
-  icon: app.anchors.anchorusd.webp
+  reviews: 5316
   meta: ok
   verdict: custodial
   developerName: Anchor US LLC
@@ -37,6 +34,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** The old anchorusd.com help center and terms links below now only redirect to the [tryanchor.com](https://tryanchor.com/) homepage.
 
 AnchorUSD claims to be a stock and crypto investment app. 
 
@@ -57,4 +56,4 @@ Verdict: It is **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

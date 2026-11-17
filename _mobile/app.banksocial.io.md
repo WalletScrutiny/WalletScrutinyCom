@@ -1,6 +1,6 @@
 ---
 title: BankSocial
-date: 2026-07-22
+date: 2026-10-30
 website: https://www.banksocial.io
 redirect_from:
 - /android/app.banksocial.io/
@@ -13,7 +13,6 @@ android:
   updated: 2026-02-08
   version: 2.31.0
   reviews: 35
-  icon: app.banksocial.io.webp
   meta: ok
   verdict: nosource
   developerName: BankSocial
@@ -25,7 +24,6 @@ iphone:
   updated: 2026-02-09
   version: 2.31.0
   reviews: 145
-  icon: Com.BankSocial.app.webp
   meta: ok
   verdict: nosource
   developerName: Fivancial, Inc d/b/a BankSocial

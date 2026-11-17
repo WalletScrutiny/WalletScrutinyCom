@@ -1,7 +1,6 @@
 ---
-wsId: WalletofSatoshi
 title: Wallet of Satoshi
-date: 2024-10-07
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -13,6 +12,7 @@ features:
 - ln
 - buyWithCC
 - nfc
+- spark
 redirect_from:
 - /walletofsatoshi/
 - /com.livingroomofsatoshi.wallet/
@@ -27,8 +27,7 @@ android:
   released: 2019-05-19
   updated: 2026-09-21
   version: 3.4.10
-  reviews: 243
-  icon: com.livingroomofsatoshi.wallet.webp
+  reviews: 244
   meta: ok
   verdict: custodial
   developerName: Wallet of Satoshi
@@ -39,13 +38,14 @@ iphone:
   released: 2019-05-20
   updated: 2026-09-23
   version: 3.4.10
-  reviews: 57
-  icon: com.livingroomofsatoshi.wallet.webp
+  reviews: 59
   meta: ok
   verdict: custodial
   developerName: Wallet of Satoshi
 
 ---
+
+**Update 2026-10-30:** Wallet of Satoshi is phasing out its classic custodial wallet. Its custodial service was switched off in the EU in January 2026 ([The Crypto Times](https://www.cryptotimes.io/2026/01/02/wallet-of-satoshi-blocks-custodial-services-across-eu/)), and in August 2026 the company said the old wallet stops creating Lightning invoices region by region and users have until June 30, 2027 to move their balance to the Spark-based self-custody wallet ([cryptonews](https://cryptonews.net/news/bitcoin/33290220/)). The [website](https://www.walletofsatoshi.com/) now advertises only the self-custody wallet. As explained below, the Spark mode still needs the operators to co-sign every transfer, so the verdict stays {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## Android
 

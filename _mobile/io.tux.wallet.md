@@ -1,7 +1,6 @@
 ---
-wsId: tuxWallet
 title: TUX Wallet
-date: 2023-08-18
+date: 2026-10-30
 authors:
 - danny
 website: https://tux-wallet.com/
@@ -16,9 +15,8 @@ android:
   users: 10000
   appCountry: us
   released: 2020-01-28
-  updated: 2026-09-10
-  version: 4.0.17
-  icon: io.tux.wallet.webp
+  updated: 2026-10-09
+  version: 4.0.18
   meta: ok
   verdict: nosource
   developerName: Coinyex Co., Ltd.
@@ -27,10 +25,9 @@ iphone:
   idd: '1495945761'
   appCountry: kw
   released: 2020-02-04
-  updated: 2026-09-14
-  version: 4.0.17
+  updated: 2026-10-14
+  version: 4.0.18
   reviews: 0
-  icon: net.tuxglobal.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Coinyex Co., Ltd.
@@ -59,4 +56,4 @@ Searching for the app ID on Github did not turn out any relevant code or reposit
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

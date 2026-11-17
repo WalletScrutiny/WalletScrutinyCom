@@ -1,6 +1,6 @@
 ---
 title: buy-bitcoin.pro
-date: 2023-05-09
+date: 2026-10-30
 authors:
 - danny
 website: https://buy-bitcoin.pro
@@ -12,7 +12,6 @@ android:
   released: 2018-12-09
   updated: 2020-05-19
   version: 1.0.9
-  icon: buy_bitcoin.pro.webp
   meta: removed
   verdict: wip
   developerName: AndreyAKor

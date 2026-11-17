@@ -1,10 +1,9 @@
 ---
-wsId: litefinance
 title: LiteFinance mobile trading
-date: 2023-02-10
+date: 2026-10-30
 authors:
 - danny
-website: https://www.liteforex.eu
+website: https://www.litefinance.org
 twitter: litefinanceeng
 redirect_from:
 - /android/com.litefinance.cabinet/
@@ -17,7 +16,6 @@ android:
   updated: 2026-09-17
   version: v2.1.2038-cabinet-release
   reviews: 95
-  icon: com.litefinance.cabinet.webp
   meta: ok
   verdict: custodial
   developerName: LITEFOREX (EUROPE) LTD
@@ -28,8 +26,7 @@ iphone:
   released: 2023-01-11
   updated: 2026-08-26
   version: 3.1.16
-  reviews: 140
-  icon: com.litefinance.cabinet.webp
+  reviews: 153
   meta: ok
   verdict: custodial
   developerName: Liteforex (Europe) Limited
@@ -66,4 +63,4 @@ This is a **custodial provider**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

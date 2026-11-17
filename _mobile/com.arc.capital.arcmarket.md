@@ -1,7 +1,7 @@
 ---
 title: Arcmarket
-date: 2024-04-03
-website: https://arcmarket.capital
+date: 2026-10-30
+website: https://arcmarket.capital#deadLink
 redirect_from:
 - /android/com.arc.capital.arcmarket/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-09-24
   updated: 2021-09-24
   version: '1.0'
-  icon: com.arc.capital.arcmarket.webp
   meta: removed
   verdict: wip
   developerName: ARC Market Capital

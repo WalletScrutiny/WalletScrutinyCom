@@ -1,7 +1,6 @@
 ---
-wsId: zythWallet
 title: ZYTH Wallet
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - danny
 website: https://www.uzyth.com#deadLink
@@ -19,7 +18,6 @@ android:
   released: 2020-04-07
   updated: 2021-12-17
   version: '4.3'
-  icon: com.zyth.app.webp
   meta: removed
   verdict: custodial
   developerName: Zyth Technology
@@ -31,7 +29,6 @@ iphone:
   updated: 2021-12-18
   version: '4.0'
   reviews: 1
-  icon: com.zyth.app.webp
   meta: removed
   verdict: custodial
   developerName: Zyth Technologies
@@ -70,4 +67,4 @@ We reached out to Zyth's official [twitter account](https://twitter.com/BitcoinW
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,6 +1,6 @@
 ---
 title: Espacio Bitcoin Wallet
-date: 2024-10-31
+date: 2026-10-30
 website: https://www.espacioculturalbitcoin.com/
 redirect_from:
 - /android/com.espaciobitcoin/
@@ -10,7 +10,6 @@ android:
   released: 2022-11-07
   updated: 2022-11-07
   version: 3.8.5
-  icon: com.espaciobitcoin.webp
   meta: removed
   verdict: wip
   developerName: EspacioCulturalBitcoin

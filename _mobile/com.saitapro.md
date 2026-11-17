@@ -1,7 +1,6 @@
 ---
-wsId: saitaPro
 title: SaitaPro
-date: 2024-10-28
+date: 2026-10-30
 authors:
 - danny
 website: http://Saitamatoken.com
@@ -22,7 +21,6 @@ android:
   updated: 2024-09-27
   version: '1.54'
   reviews: 331
-  icon: com.saitapro.webp
   meta: removed
   verdict: nosource
   developerName: Saitama Technology LLC
@@ -34,7 +32,6 @@ iphone:
   updated: 2024-06-18
   version: '1.95'
   reviews: 771
-  icon: com.saitapro.webp
   meta: removed
   verdict: nosource
   developerName: SAITACHAIN LTD
@@ -66,4 +63,4 @@ No significant updates regarding source-availability to report.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

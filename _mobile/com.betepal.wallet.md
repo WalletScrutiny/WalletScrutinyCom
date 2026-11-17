@@ -1,6 +1,6 @@
 ---
 title: Betepal Wallet - 币宝 钱包 安全加密 US
-date: 2023-08-04
+date: 2026-10-30
 authors:
 - danny
 website: http://betepal.com#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2021-01-26
   updated: 2022-05-27
   version: 4.3.0
-  icon: com.betepal.wallet.webp
   meta: removed
   verdict: wip
   developerName: Betepal

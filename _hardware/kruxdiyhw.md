@@ -6,8 +6,8 @@ authors:
 - danny
 released: 2021-07-18
 discontinued: 
-updated: 2026-08-04
-version: 26.08.0
+updated: 2026-10-03
+version: 26.09.0
 binaries: 
 dimensions: 
 weight: 
@@ -18,11 +18,10 @@ shop:
 country: 
 price: 50USD
 repository: https://github.com/selfcustody/krux
-icon: kruxdiyhw.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2026-02-27
+date: 2026-10-30
 signer: 
 twitter: selfcustodykrux
 social:

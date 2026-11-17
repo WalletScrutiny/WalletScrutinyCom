@@ -1,7 +1,6 @@
 ---
-wsId: puraVidaBitcoin
 title: Pura Vida Bitcoin
-date: 2026-05-05
+date: 2026-10-30
 authors:
 - danny
 website: https://puravidabitcoin.io
@@ -20,10 +19,9 @@ android:
   users: 500
   appCountry: us
   released: 2023-04-10
-  updated: 2026-08-10
-  version: 2.5.0
+  updated: 2026-10-05
+  version: 2.6.1
   reviews: 1
-  icon: io.puravidabitcoin.app.webp
   meta: fewusers
   verdict: custodial
   developerName: Pura Vida Technologies
@@ -32,10 +30,9 @@ iphone:
   idd: '6443837514'
   appCountry: us
   released: 2023-03-29
-  updated: 2026-08-11
-  version: 2.5.0
+  updated: 2026-10-06
+  version: 2.6.1
   reviews: 27
-  icon: io.puravidabitcoin.app.webp
   meta: ok
   verdict: custodial
   developerName: Pura Vida Technologies S.A.
@@ -68,4 +65,4 @@ This app supports Bitcoin and Lightning, but it is explicitly described as **cus
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

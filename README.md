@@ -52,15 +52,34 @@ This is for you if you want to make changes to WalletScrutiny.com application
 reach at localhost:4000 and when you change a source file, it automatically
 compiles the project and you should see the changes when refreshing the browser.
 
+A full Jekyll regeneration (every layout or include change) renders all ~4,400
+wallet pages. `npm run dev:fast` adds `_config.fast.yml`, which renders only the
+wallets starting with "z" and is several times faster; wallet lists
+and counts are incomplete in that mode.
+
 ### For production deployment
 
 ```
 npm run build
 ```
 
-This will also minify and brotlify css, js, and other file extensions. The
-result can be found in the `_site/` folder, and you can upload the content
-of this folder to your web server.
+This runs the pre-Jekyll steps (wallet data, webpack, redirect map) in
+parallel, then Jekyll, then `scripts/postprocess-site.mjs`, which minifies
+html, js and css and writes a `.br` next to every compressible file in one
+pass over `_site/`. The result can be found in the `_site/` folder, and you
+can upload the content of this folder to your web server. `npm run deploy:prod`
+builds once and runs the unit and E2E tests against that build
+(`PLAYWRIGHT_SKIP_BUILD=1`) before uploading it. `npm run deploy:beta` runs only
+the unit tests before uploading, then the E2E tests against the same build, so
+beta gets the new site first and the E2E results after.
+
+The E2E tests do not talk to the live relays. `test/e2e/relay-fixture.mjs`
+answers the page's relay WebSockets from `test/e2e/fixtures/relay-events.json`
+(real signed events, so nostr-tools, signature checks and rendering all run
+unchanged). `npm run test:e2e:live` runs the same suite against the real relays,
+and `npm run record:e2e-relay` refreshes the fixture from them. Refresh it when
+a test needs an event the fixture lacks, and add that event's id to `KEEP_IDS`
+in `scripts/record-e2e-relay.mjs` if it is a large verification.
 
 Old URLs (`redirect_from` in a page's front matter) are not stub pages but
 one generated file, `redirects.map` (`scripts/generate-redirect-map.mjs`, run by

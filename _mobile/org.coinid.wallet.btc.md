@@ -1,7 +1,6 @@
 ---
-wsId: COINiDwallet
 title: Bitcoin Wallet for COINiD
-date: 2024-07-05
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -21,7 +20,6 @@ android:
   updated: 2021-02-20
   version: 1.8.0
   reviews: 5
-  icon: org.coinid.wallet.btc.webp
   meta: removed
   verdict: sourceavailable
   developerName: COINiD Group
@@ -33,13 +31,14 @@ iphone:
   updated: 2022-11-19
   version: 1.8.2
   reviews: 24
-  icon: org.coinid.wallet.btc.webp
   meta: removed
   verdict: sourceavailable
   developerName: COINiD Group
   repository: https://github.com/COINiD/COINiDWallet
 
 ---
+
+**Update 2026-10-30:** COINiD is no longer developed and its servers are offline, so the apps can no longer show balances or send transactions. The [COINiD website](https://coinid.org) now only has [migration guides](https://github.com/COINiD/migration-guide-website) for moving funds to another wallet with the 12-word recovery phrase.
 
 ## Android
 
@@ -142,6 +141,6 @@ An issue has been opened at [https://github.com/COINiD/COINiDWallet/issues/24](h
 
 {% include featureEvidence.html feature="companion" source="[Website](https://coinid.org)" quote="COINiD Vault Holds your private keys away from your COINiD Wallet and is used to sign transactions." %}
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 An issue has been opened at [https://github.com/COINiD/COINiDWallet/issues/24](https://github.com/COINiD/COINiDWallet/issues/24)

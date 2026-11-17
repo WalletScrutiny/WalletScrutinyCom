@@ -11,6 +11,7 @@ import {
   metaUpdateContext,
   resolveAndroidFilenames,
   findMobileFileByAndroidAppId,
+  applyStoreWebsite,
 } from './mobileWalletStore.mjs';
 
 process.env.TZ = 'UTC'; // fix timezone issues
@@ -22,9 +23,9 @@ const stats = {
 };
 
 const category = 'android';
-const headers = ('wsId title altTitle authors users appId bitcoinOrgId alternativeStores ' +
+const headers = ('title altTitle authors users appId bitcoinOrgId alternativeStores ' +
                 'playStore appCountry released updated version reviews website repository ' +
-                'icon bugbounty meta verdict signer twitter social ' +
+                'bugbounty meta verdict signer twitter social ' +
                 'social redirect_from developerName builds features').split(' ');
 
 async function refreshAll (ids, markRemoved) {
@@ -60,7 +61,10 @@ function refreshFile (fileName, content, markRemoved) {
     }
 
     const metaCtx = metaUpdateContext(mobile, 'android');
-    const isDefunctOrRemoved = 'defunct,removed'.includes(android.meta);
+    // `playStore: removed` keeps the Play delisting known while removedCheck.mjs keeps the
+    // app `meta: ok` because another channel still ships it.
+    const delistedFromPlay = android.playStore === 'removed' || android.meta === 'removed';
+    const isDefunctOrRemoved = android.meta === 'defunct' || delistedFromPlay;
     const shouldCheckDefunctOrRemoved = isDefunctOrRemoved && helper.removedCheckDue;
     const defunctKey = mobileDefunctKey(slug || path.basename(fileName, '.md'));
 
@@ -72,15 +76,13 @@ function refreshFile (fileName, content, markRemoved) {
           country: appCountry
         }).then(app => {
           updateFromApp(android, app, mobile, appCountry);
+          delete android.playStore;
           if (android.meta === 'removed') {
             android.meta = 'ok';
             metaCtx.date = new Date();
           }
           const iconPath = `images/wIcons/android/${appId}`;
-          helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
-            if (iconExtension) {
-              android.icon = `${appId}.${iconExtension}`;
-            }
+          helper.downloadImageFile(`${app.icon}`, iconPath, () => {
             stats.updated++;
             writeMobileFile(filePath, mobile, body);
             stats.remaining--;
@@ -89,10 +91,12 @@ function refreshFile (fileName, content, markRemoved) {
         }, (err) => {
           if (`${err}`.search(/404/) > -1) {
             if (android.meta === 'defunct' || markRemoved) {
+              // removedCheck.mjs turns this back to ok if another channel still ships it.
+              android.playStore = 'removed';
               android.meta = 'removed';
               metaCtx.date = new Date();
               writeMobileFile(filePath, mobile, body);
-            } else if (android.meta !== 'removed') {
+            } else if (!delistedFromPlay) {
               helper.addRemovedIfNew(defunctKey);
             }
           } else {
@@ -145,9 +149,7 @@ function updateFromApp (android, app, mobile, storeCountry) {
   }
   android.users = app.minInstalls;
   android.reviews = app.reviews || null;
-  if (app.developerWebsite) {
-    mobile.website = app.developerWebsite;
-  }
+  applyStoreWebsite(mobile, 'android', app.developerWebsite);
   const metaCtx = metaUpdateContext(mobile, 'android');
   metaCtx.date = metaCtx.date || new Date();
   android.developerName = app.developer || android.developerName || 'Unknown Developer(s)';

@@ -1,6 +1,6 @@
 ---
 title: ArgoTrade
-date: 2025-02-26
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2020-10-16
   updated: 2024-09-05
   version: 1.16.1
-  icon: com.argotrade.android.webp
   meta: removed
   verdict: nosendreceive
   developerName: Leadcapital Corp LTD

@@ -1,7 +1,6 @@
 ---
-wsId: sixdays
 title: 'Trust: Crypto & Bitcoin Wallet'
-date: 2020-12-23
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -22,10 +21,9 @@ android:
   users: 50000000
   appCountry: us
   released: 2017-10-01
-  updated: 2026-09-29
-  version: 26.39.12
-  reviews: 21533
-  icon: com.wallet.crypto.trustapp.webp
+  updated: 2026-10-13
+  version: 26.41.13
+  reviews: 21584
   meta: ok
   verdict: nosource
   developerName: DApps Platform, Inc.
@@ -34,10 +32,9 @@ iphone:
   idd: 1288339409
   appCountry: us
   released: 2017-09-27
-  updated: 2026-09-29
-  version: 26.39.13
-  reviews: 199046
-  icon: com.sixdays.trust.webp
+  updated: 2026-10-13
+  version: 26.41.13
+  reviews: 199120
   meta: ok
   verdict: nosource
   developerName: DApps Platform Software Services Ltd.

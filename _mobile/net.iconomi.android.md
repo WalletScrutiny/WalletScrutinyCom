@@ -1,7 +1,6 @@
 ---
-wsId: iconomi
 title: 'ICONOMI: Buy Bitcoin & Crypto'
-date: 2021-10-04
+date: 2026-10-30
 authors:
 - danny
 website: https://www.iconomi.com
@@ -19,10 +18,9 @@ android:
   users: 10000
   appCountry: si
   released: 2017-10-17
-  updated: 2026-02-25
-  version: 4.1.3
+  updated: 2026-10-05
+  version: 4.1.7
   reviews: 172
-  icon: net.iconomi.android.webp
   meta: ok
   verdict: custodial
   developerName: ICONOMI
@@ -31,11 +29,10 @@ iphone:
   idd: 1238213050
   appCountry: si
   released: 2017-05-25
-  updated: 2023-10-31
-  version: 3.2.1
-  reviews: 84
-  icon: net.iconomi.iconomi.webp
-  meta: obsolete
+  updated: 2026-10-03
+  version: 4.1.7
+  reviews: 85
+  meta: ok
   verdict: custodial
   developerName: ICONOMI LTD
 
@@ -86,4 +83,4 @@ This app provides a **custodial** service and therefore it is **not verifiable**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

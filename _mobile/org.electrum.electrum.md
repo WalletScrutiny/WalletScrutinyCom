@@ -1,6 +1,7 @@
 ---
 title: Electrum Bitcoin Wallet
-date: 2025-08-11
+bitcoinOrgId: electrum
+date: 2026-10-30
 authors:
 - leo
 - Mohammad Rafigh
@@ -24,8 +25,7 @@ android:
   released: 2016-03-02
   updated: 2026-09-13
   version: 4.8.2
-  reviews: 367
-  icon: org.electrum.electrum.webp
+  reviews: 368
   alternativeStores:
   - fdroid
   - zapstore

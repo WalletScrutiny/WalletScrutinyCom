@@ -1,6 +1,6 @@
 ---
 title: BitYard Crypto Trading
-date: 2022-03-07
+date: 2026-10-30
 authors:
 - danny
 website: http://www.bityard.com
@@ -17,11 +17,12 @@ android:
   updated: 2021-03-31
   version: 1.0.2
   reviews: 4
-  icon: com.bityard.us2.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**Update 2026-10-30:** BitYard renamed itself BYDFi in January 2023, [according to Coin Bureau](https://www.coinbureau.com/review/bydfi-review/). Its current app is {% include walletLink.html wallet='android/com.bydfi.app' verdict='true' %}. The bityard.com website is gone, so the Terms of Use link below is dead.
 
 **Update 2022-02-25**: This app is not available anymore.
 

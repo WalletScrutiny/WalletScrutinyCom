@@ -1,6 +1,6 @@
 ---
 title: Icynote
-date: 2026-01-14
+date: 2026-10-30
 website: https://icynote.ch
 redirect_from:
 - /android/ch.digitaladmin.icynote/
@@ -11,7 +11,6 @@ android:
   released: 2025-03-14
   updated: 2025-09-02
   version: 1.0.3
-  icon: ch.digitaladmin.icynote.webp
   meta: removed
   verdict: wip
   developerName: Digital Admin Sàrl

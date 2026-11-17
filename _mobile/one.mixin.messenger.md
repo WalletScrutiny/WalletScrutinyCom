@@ -1,7 +1,6 @@
 ---
-wsId: Mixin
 title: Mixin - Private Crypto Wallet
-date: 2021-11-17
+date: 2026-10-30
 authors:
 - danny
 - emanuel
@@ -20,10 +19,9 @@ android:
   users: 100000
   appCountry: us
   released: 2018-05-24
-  updated: 2026-09-30
-  version: 6.3.1
+  updated: 2026-10-13
+  version: 6.3.3
   reviews: 153
-  icon: one.mixin.messenger.webp
   meta: ok
   verdict: sourceavailable
   developerName: Mixin Ltd
@@ -33,14 +31,13 @@ iphone:
   idd: 1322324266
   appCountry: us
   released: 2018-01-20
-  updated: 2026-09-29
-  version: 6.3.1
-  reviews: 1151
-  icon: one.mixin.messenger.webp
+  updated: 2026-10-10
+  version: 6.3.3
+  reviews: 1156
   meta: ok
   verdict: sourceavailable
   developerName: Mixin Ltd
-  repository: https://github.com/MixinNetwork/android-app
+  repository: https://github.com/MixinNetwork/ios-app
 
 ---
 
@@ -83,8 +80,10 @@ An issue has been opened at [https://github.com/MixinNetwork/android-app/issues/
 
 ## iPhone
 
+**Update 2026-10-30:** The iPhone app's source is in a separate [iOS repository](https://github.com/MixinNetwork/ios-app); the listing used to point at the Android repository, which we corrected.
+
 **Note:** iPhone products are not verifiable.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 An issue has been opened at [https://github.com/MixinNetwork/android-app/issues/2559](https://github.com/MixinNetwork/android-app/issues/2559)

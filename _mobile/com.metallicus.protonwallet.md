@@ -1,7 +1,6 @@
 ---
-wsId: ProtonWallet
 title: Proton Wallet
-date: 2023-01-11
+date: 2026-10-30
 authors:
 - danny
 website: https://www.protonchain.com#deadLink
@@ -21,7 +20,6 @@ android:
   updated: 2021-10-21
   version: 1.5.20
   reviews: 82
-  icon: com.metallicus.protonwallet.webp
   meta: removed
   verdict: nosource
   developerName: Metallicus Inc.
@@ -32,11 +30,12 @@ iphone:
   updated: 2021-12-09
   version: 1.1.20
   reviews: 251
-  icon: com.metallicus.proton.webp
   meta: removed
   verdict: nosource
 
 ---
+
+**Update 2026-10-30:** Metallicus replaced Proton Wallet with a rebuilt app, WebAuth, introduced as "Proton Wallet 2.0" ([Proton UK](https://protonuk.io/introducing-webauth-com-wallet/)). The successor is listed as {% include walletLink.html wallet='android/com.metallicus.webauth' verdict='true' %} and {% include walletLink.html wallet='iphone/com.metallicus.webauth' verdict='true' %}.
 
 ## Android
 
@@ -64,4 +63,4 @@ We checked the repository of the [Proton on Github](https://github.com/ProtonPro
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

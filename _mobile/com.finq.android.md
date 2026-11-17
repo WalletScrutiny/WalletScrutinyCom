@@ -1,7 +1,6 @@
 ---
-wsId: finq
 title: Finq
-date: 2025-02-26
+date: 2026-10-30
 authors:
 - danny
 website: http://www.finq.com#deadLink
@@ -16,7 +15,6 @@ android:
   updated: 2024-09-05
   version: 2.11.1
   reviews: 5
-  icon: com.finq.android.webp
   meta: removed
   verdict: nosendreceive
   developerName: Leadcapital Corp LTD
@@ -28,7 +26,6 @@ iphone:
   updated: 2019-12-19
   version: '2.8'
   reviews: 40
-  icon: com.trader.finq.webp
   meta: removed
   verdict: nosendreceive
   developerName: Leadcapital Corp LTD
@@ -64,4 +61,4 @@ The types of trading accounts are listed on this [page.](https://www.finq.com/en
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

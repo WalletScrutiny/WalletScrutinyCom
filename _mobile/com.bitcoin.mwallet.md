@@ -1,7 +1,6 @@
 ---
-wsId: mwallet
 title: 'Bitcoin.com: Crypto Wallet'
-date: 2021-05-20
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -29,10 +28,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2017-06-19
-  updated: 2026-09-28
-  version: 9.39.1
-  reviews: 4280
-  icon: com.bitcoin.mwallet.webp
+  updated: 2026-10-09
+  version: 9.40.0
+  reviews: 4285
   meta: ok
   verdict: nosource
   developerName: Bitcoin.com Developer
@@ -42,10 +40,9 @@ iphone:
   idd: '1252903728'
   appCountry: us
   released: 2017-07-11
-  updated: 2026-09-30
-  version: 9.39.1
-  reviews: 45371
-  icon: com.bitcoin.mwallet.webp
+  updated: 2026-10-12
+  version: 9.41.1
+  reviews: 45528
   meta: ok
   verdict: nosource
   developerName: Bitcoin.com

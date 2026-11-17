@@ -1,6 +1,6 @@
 ---
 title: SMART VALOR - Buy BTC & Crypto
-date: 2025-11-26
+date: 2026-10-30
 authors:
 - danny
 website: https://smartvalor.com/
@@ -14,7 +14,6 @@ android:
   released: 2024-10-02
   updated: 2024-11-15
   version: 1.0.31.111
-  icon: com.smartvalor.smartvalor.webp
   meta: stale
   verdict: custodial
   developerName: Smart Valor

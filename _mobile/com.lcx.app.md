@@ -1,7 +1,6 @@
 ---
-wsId: lcxExchange
 title: Buy Bitcoin & Crypto - LCX
-date: 2022-06-22
+date: 2026-10-30
 authors:
 - danny
 website: https://lcx.com
@@ -20,7 +19,6 @@ android:
   updated: 2026-08-25
   version: 2.6.0
   reviews: 39
-  icon: com.lcx.app.webp
   meta: ok
   verdict: custodial
   developerName: LCX.com
@@ -32,7 +30,6 @@ iphone:
   updated: 2024-09-17
   version: 2.5.3
   reviews: 18
-  icon: com.lcx.app.webp
   meta: removed
   verdict: custodial
   developerName: LCX AG
@@ -57,4 +54,4 @@ This is evidently a **custodial** provider and therefore the app is **not verifi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

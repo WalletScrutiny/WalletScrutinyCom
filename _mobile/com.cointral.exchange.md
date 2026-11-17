@@ -1,7 +1,6 @@
 ---
-wsId: Cointral
 title: Cointral | Buy Bitcoin
-date: 2023-01-11
+date: 2026-10-30
 authors:
 - danny
 website: https://cointral.com#deadLink
@@ -20,7 +19,6 @@ android:
   updated: 2021-08-18
   version: 1.3.6
   reviews: 77
-  icon: com.cointral.exchange.webp
   meta: removed
   verdict: custodial
   developerName: Blockchain Lab Yazılım
@@ -31,11 +29,12 @@ iphone:
   updated: 2021-08-18
   version: 1.3.6
   reviews: 0
-  icon: com.cointral.exchange.webp
   meta: removed
   verdict: custodial
 
 ---
+
+**⚠️ Warning:** Cointral stopped all deposits, withdrawals and trading on May 15, 2024 and ended its business ([notice on its website](https://web.archive.org/web/20240807002924/https://cointral.com/)). The site no longer loads.
 
 ## Android
 
@@ -65,4 +64,4 @@ This app is **custodial** and **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

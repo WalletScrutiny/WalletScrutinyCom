@@ -1,7 +1,6 @@
 ---
-wsId: KangaWallet
 title: Kanga Wallet
-date: 2022-07-20
+date: 2026-10-30
 authors:
 - danny
 website: https://kanga.global
@@ -19,10 +18,9 @@ android:
   users: 50000
   appCountry: us
   released: 2020-01-03
-  updated: 2026-07-21
-  version: 1.30.2
+  updated: 2026-10-09
+  version: 1.30.4
   reviews: 6
-  icon: com.kangamobile.webp
   meta: ok
   verdict: custodial
   developerName: Kanga Technologies
@@ -31,10 +29,9 @@ iphone:
   idd: '1471634153'
   appCountry: jp
   released: 2020-02-13
-  updated: 2026-07-22
-  version: 1.30.2
+  updated: 2026-10-09
+  version: 1.30.4
   reviews: 7
-  icon: kanga.mobile.webp
   meta: ok
   verdict: custodial
   developerName: Kanga Global
@@ -74,4 +71,4 @@ This is a **custodial** offering, and as such it is **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

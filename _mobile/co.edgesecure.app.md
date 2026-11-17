@@ -1,7 +1,7 @@
 ---
-wsId: edge
 title: Edge - Bitcoin & Crypto Wallet
-date: 2022-03-13
+bitcoinOrgId: edgewallet
+date: 2026-10-30
 authors:
 - leo
 - emanuel
@@ -28,10 +28,9 @@ android:
   users: 500000
   appCountry: us
   released: 2018-03-01
-  updated: 2026-09-24
-  version: 4.51.1
-  reviews: 765
-  icon: co.edgesecure.app.webp
+  updated: 2026-10-01
+  version: 4.51.3
+  reviews: 767
   signer: 8cd6a12e3dc595964fabcbe82341e28f4a2a4ac6a347fcbead488b76faa7e186
   alternativeStores:
   - zapstore
@@ -44,10 +43,9 @@ iphone:
   idd: '1344400091'
   appCountry: us
   released: 2018-02-09
-  updated: 2026-09-24
-  version: 4.51.1
-  reviews: 3268
-  icon: co.edgesecure.app.webp
+  updated: 2026-10-02
+  version: 4.51.3
+  reviews: 3317
   meta: ok
   verdict: sourceavailable
   developerName: Airbitz Inc
@@ -73,7 +71,7 @@ An issue has been opened at [https://github.com/EdgeApp/edge-react-gui/issues/17
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="hd" quote="Hierarchical Deterministic (HD) Wallets – Automatically changes addresses per transaction for additional security and privacy" source="Store description" %}
 

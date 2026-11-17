@@ -1,7 +1,6 @@
 ---
-wsId: yuh
 title: Yuh - Your app. Your money.
-date: 2023-03-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.yuh.com
@@ -16,10 +15,9 @@ android:
   users: 100000
   appCountry: us
   released: 2021-04-06
-  updated: 2026-09-29
-  version: 1.46.3
+  updated: 2026-10-07
+  version: 1.47.0
   reviews: 4
-  icon: com.yuh.webp
   meta: ok
   verdict: nosendreceive
   developerName: Swissquote Mobile
@@ -28,15 +26,16 @@ iphone:
   idd: '1493935010'
   appCountry: ch
   released: 2021-05-10
-  updated: 2026-09-28
-  version: 1.44.2
-  reviews: 22649
-  icon: com.swissquote.Yuh.webp
+  updated: 2026-10-12
+  version: 1.45.1
+  reviews: 22819
   meta: ok
   verdict: nosendreceive
   developerName: Swissquote
 
 ---
+
+**Update 2026-10-30:** Yuh is no longer a joint venture. In July 2025 [PostFinance sold its 50% stake to Swissquote](https://www.postfinance.ch/en/about-us/media/newsroom/postfinance-yuh-swissquote.html), which now owns Yuh outright; the app keeps its name.
 
 ## Android
 
@@ -147,4 +146,4 @@ Translated from German:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

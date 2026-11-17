@@ -1,7 +1,6 @@
 ---
-wsId: Hexa
 title: Legacy Hexa (do not download)
-date: 2021-12-29
+date: 2026-10-30
 authors:
 - leo
 website: https://hexawallet.io
@@ -19,7 +18,6 @@ android:
   updated: 2021-12-03
   version: 1.7.4
   reviews: 14
-  icon: io.hexawallet.hexa.webp
   meta: removed
   verdict: sourceavailable
   repository: https://github.com/bithyve/bitcointribe-classic
@@ -30,7 +28,6 @@ iphone:
   updated: 2021-12-25
   version: 1.7.7
   reviews: 5
-  icon: io.hexawallet.hexa.webp
   meta: removed
   verdict: sourceavailable
   repository: https://github.com/bithyve/bitcointribe-classic
@@ -38,6 +35,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** [hexawallet.io](https://hexawallet.io) is now a domain-for-sale page. The successor {% include walletLink.html wallet='android/io.hexawallet.hexa2' verdict='true' %} is gone too; BitHyve's current wallet is {% include walletLink.html wallet='android/io.hexawallet.bitcoinkeeper' verdict='true' %}.
 
 {% include featureEvidence.html feature="foss" source="[License](https://github.com/bithyve/hexa/blob/master/LICENSE)" quote="MIT License" %}
 
@@ -99,4 +98,4 @@ An issue has been opened at [https://github.com/bithyve/bitcointribe-classic/iss
 successor
 {% include walletLink.html wallet='android/io.hexawallet.hexa2' verdict='true' %}.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

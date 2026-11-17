@@ -1,7 +1,6 @@
 ---
-wsId: envoyFoundation
 title: Envoy
-date: 2026-07-23
+date: 2026-10-30
 authors:
 - danny
 - keraliss
@@ -12,7 +11,6 @@ social:
 - https://www.youtube.com/@foundationdevices
 - https://www.reddit.com/r/FoundationDevices
 - https://t.me/foundationdevices
-- https://foundationdevices.com
 features:
 - TOR
 - companion
@@ -24,13 +22,12 @@ redirect_from:
 - /iphone/com.foundationdevices.envoy/
 android:
   appId: com.foundationdevices.envoy
-  users: 1000
+  users: 5000
   appCountry: US
   released: 2022-04-01
-  updated: 2026-09-08
-  version: 2.3.3
+  updated: 2026-09-30
+  version: 2.3.5
   reviews: 6
-  icon: com.foundationdevices.envoy.webp
   alternativeStores:
   - zapstore
   meta: ok
@@ -42,10 +39,9 @@ iphone:
   idd: '1584811818'
   appCountry: us
   released: 2022-07-14
-  updated: 2026-09-15
-  version: 2.3.4
+  updated: 2026-09-30
+  version: 2.3.5
   reviews: 30
-  icon: com.foundationdevices.envoy.webp
   meta: ok
   verdict: sourceavailable
   developerName: Foundation Devices, Inc.
@@ -97,4 +93,4 @@ An issue has been opened at [https://github.com/Foundation-Devices/envoy/issues/
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

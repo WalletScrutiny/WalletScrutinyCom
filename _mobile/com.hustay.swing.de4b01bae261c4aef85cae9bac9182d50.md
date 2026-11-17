@@ -1,7 +1,7 @@
 ---
 title: Earnfinex Trading
-date: 2023-08-04
-website: https://www.earnfinex.com/
+date: 2026-10-30
+website: https://www.earnfinex.com/#deadLink
 redirect_from:
 - /android/com.hustay.swing.de4b01bae261c4aef85cae9bac9182d50/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-06-28
   updated: 2021-06-28
   version: '0.6'
-  icon: com.hustay.swing.de4b01bae261c4aef85cae9bac9182d50.webp
   meta: removed
   verdict: wip
   developerName: Earnfinex Limited

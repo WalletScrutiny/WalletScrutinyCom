@@ -1,7 +1,6 @@
 ---
-wsId: pandar
 title: 'Pandar: Coins, Giftcard & Bill'
-date: 2024-09-02
+date: 2026-10-30
 authors:
 - danny
 website: https://pandar.ng
@@ -17,7 +16,6 @@ android:
   updated: 2026-07-19
   version: 3.1.7
   reviews: 277
-  icon: i.brains.pandax.webp
   meta: ok
   verdict: nosendreceive
   developerName: Pandar Resources
@@ -29,7 +27,6 @@ iphone:
   updated: 2026-07-25
   version: 1.9.12
   reviews: 4727
-  icon: ng.pandar.resource.webp
   meta: ok
   verdict: nosendreceive
   developerName: PANDAR RESOURCES LIMITED
@@ -73,4 +70,4 @@ Based on official documentation from their help center, Pandar offers:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

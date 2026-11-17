@@ -20,11 +20,10 @@ shop: https://store.blockstream.com/products/blockstream-jade-core
 country: CA
 price: 99USD
 repository: https://github.com/Blockstream/Jade
-icon: blockstreamjadecore.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2026-08-31
+date: 2026-10-30
 signer: 
 twitter: Blockstream
 social:
@@ -34,7 +33,13 @@ social:
 - https://www.youtube.com/channel/UCZNt3fZazX9cwWcC9vjDJ4Q
 builds:
 - arch: esp32s3
-  types: jadecore
+  # One key per --type of the build script. Blockstream names files <version>_ble|noradio_<size>_fw.bin
+  # (bin/jade2.0c); delta patches end in _patch.bin and match neither pattern.
+  types:
+    core-ble:
+    - "*_ble_*_fw.bin"
+    core-noradio:
+    - "*_noradio_*_fw.bin"
 features:
 - foss
 

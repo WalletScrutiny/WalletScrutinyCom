@@ -1,6 +1,6 @@
 ---
 title: ArzPaya
-date: 2025-11-12
+date: 2026-10-30
 authors:
 - danny
 website: https://arzpaya.com
@@ -14,7 +14,6 @@ android:
   updated: 2026-09-22
   version: 5.06.09.03
   reviews: 5
-  icon: com.arzpaya.arzpaya.webp
   meta: ok
   verdict: custodial
   developerName: ArzPaya

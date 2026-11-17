@@ -1,7 +1,6 @@
 ---
-wsId: BitcoinPoint
 title: BitcoinPoint
-date: 2021-11-17
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitcoinpoint.com/
@@ -19,7 +18,6 @@ android:
   updated: 2022-02-10
   version: 4.5.0
   reviews: 28
-  icon: store.cashin.uk.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -29,13 +27,14 @@ iphone:
   released: 2018-08-15
   updated: 2025-07-21
   version: '8.4'
-  reviews: 0
-  icon: com.cashin.store.webp
+  reviews: 1
   meta: stale
   verdict: custodial
   developerName: BCP Technologies Ltd
 
 ---
+
+**Update 2026-10-30:** BitcoinPoint is now [BCP Markets](https://www.bcp.markets/) by BCP Technologies Ltd, and the iPhone app is now called BCP Markets. The Android successor {% include walletLink.html wallet='android/com.bitcoinpoint.uk' verdict='true' %} is gone from Google Play too.
 
 ## Android
 
@@ -90,7 +89,7 @@ The wallets are purportedly kept offline in cold storage and there is no evidenc
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Receive Bitcoin, including Lightning!" source="Store description" %}
 

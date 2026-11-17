@@ -1,6 +1,6 @@
 ---
 title: Poldot
-date: 2024-05-07
+date: 2026-10-30
 website: https://poldotmining.com#deadLink
 redirect_from:
 - /android/com.poldot/
@@ -10,7 +10,6 @@ android:
   released: 2022-12-29
   updated: 2023-04-04
   version: 1.0.6
-  icon: com.poldot.webp
   meta: removed
   verdict: wip
   developerName: Poldot Technology

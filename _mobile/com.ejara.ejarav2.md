@@ -1,7 +1,6 @@
 ---
-wsId: ejara
 title: Ejara Crypto
-date: 2023-02-21
+date: 2026-10-30
 authors:
 - danny
 website: https://www.ejara.io
@@ -16,10 +15,9 @@ android:
   users: 100000
   appCountry: us
   released: 2021-03-08
-  updated: 2026-09-10
-  version: 4.0.2
+  updated: 2026-09-30
+  version: 4.0.3
   reviews: 26
-  icon: com.ejara.ejarav2.webp
   meta: ok
   verdict: nosource
   developerName: Ejara
@@ -31,7 +29,6 @@ iphone:
   updated: 2026-09-16
   version: 4.0.0+362
   reviews: 68
-  icon: com.ejara.ejarav2.webp
   meta: ok
   verdict: nosource
   developerName: Ejara
@@ -64,4 +61,4 @@ It had a repository but they were unrelated to the Android or iOS apps.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

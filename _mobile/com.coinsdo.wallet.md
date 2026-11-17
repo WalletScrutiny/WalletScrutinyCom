@@ -1,7 +1,6 @@
 ---
-wsId: coinsDoCoinWallet
 title: 'CoinWallet: BTC USDT Wallet'
-date: 2026-07-23
+date: 2026-10-30
 authors:
 - danny
 website: https://www.coinsdo.com
@@ -21,8 +20,7 @@ android:
   released: 2022-06-26
   updated: 2026-07-29
   version: 2.0.30
-  reviews: 119
-  icon: com.coinsdo.wallet.webp
+  reviews: 120
   meta: ok
   verdict: nosource
   developerName: COINSDO
@@ -34,7 +32,6 @@ iphone:
   updated: 2026-08-12
   version: 2.0.30
   reviews: 82
-  icon: com.coinsdo.coinsdowallet.webp
   meta: ok
   verdict: nosource
   developerName: Tecstation Pte Ltd
@@ -71,4 +68,4 @@ Nothing has changed in this app's repository. It is still **not source-available
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

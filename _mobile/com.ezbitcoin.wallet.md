@@ -1,7 +1,7 @@
 ---
 title: EZ Bitcoin
-date: 2024-04-03
-website: http://cc-communications.net/
+date: 2026-10-30
+website: http://cc-communications.net/#deadLink
 redirect_from:
 - /android/com.ezbitcoin.wallet/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2019-10-09
   updated: 2020-11-18
   version: 1.2.1
-  icon: com.ezbitcoin.wallet.webp
   meta: removed
   verdict: wip
   developerName: CryptoCurrencyCommunications

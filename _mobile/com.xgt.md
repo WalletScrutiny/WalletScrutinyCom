@@ -1,6 +1,6 @@
 ---
 title: GXT
-date: 2024-02-05
+date: 2026-10-30
 website: https://gxt.global#deadLink
 redirect_from:
 - /android/com.xgt/
@@ -10,7 +10,6 @@ android:
   released: 2020-01-16
   updated: 2020-01-17
   version: '1.0'
-  icon: com.xgt.webp
   meta: removed
   verdict: wip
   developerName: gxt.global

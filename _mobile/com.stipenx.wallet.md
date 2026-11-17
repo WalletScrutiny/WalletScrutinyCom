@@ -1,7 +1,7 @@
 ---
 title: 'StipenX - Official Stipendium '
-date: 2024-04-03
-website: http://www.stipend.com
+date: 2026-10-30
+website: http://www.stipend.com#deadLink
 redirect_from:
 - /android/com.stipenx.wallet/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2020-07-14
   updated: 2020-07-28
   version: '1.2'
-  icon: com.stipenx.wallet.webp
   meta: removed
   verdict: wip
   developerName: Fintek Labs Limited

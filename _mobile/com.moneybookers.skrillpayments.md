@@ -1,7 +1,6 @@
 ---
-wsId: skrill
 title: Skrill - Fast, secure payments
-date: 2021-08-09
+date: 2026-10-30
 authors:
 - danny
 website: https://www.skrill.com
@@ -17,10 +16,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2013-10-29
-  updated: 2026-09-29
-  version: 3.193.0-2026090813
-  reviews: 3994
-  icon: com.moneybookers.skrillpayments.webp
+  updated: 2026-10-13
+  version: 3.195.0-2026100515
+  reviews: 4009
   meta: ok
   verdict: nosendreceive
   developerName: Paysafe Holdings UK Limited
@@ -29,15 +27,20 @@ iphone:
   idd: '718248239'
   appCountry: gb
   released: 2013-10-29
-  updated: 2026-09-29
-  version: 3.194.0
-  reviews: 8997
-  icon: com.skrill.ios.SkrillPayments.webp
+  updated: 2026-10-07
+  version: 3.195.0
+  reviews: 9026
   meta: ok
   verdict: nosendreceive
   developerName: Skrill Ltd.
 
 ---
+
+**Update 2026-10-30:** Skrill now lets you send bitcoins out, but still not
+receive them, in both apps. Its
+[crypto FAQ](https://www.skrill.com/en/support/question/189/what-crypto-services-does-skrill-offer/)
+lists withdrawals from your Skrill crypto balance to an external address, and
+says deposits of cryptocurrencies from external wallets are not offered yet.
 
 ## Android
 
@@ -55,4 +58,4 @@ Based on this information, the app is custodial therefore not verifiable.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

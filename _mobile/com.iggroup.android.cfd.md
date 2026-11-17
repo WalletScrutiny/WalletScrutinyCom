@@ -1,7 +1,6 @@
 ---
-wsId: igTradingPlatform
 title: IG Trading Platform
-date: 2022-06-23
+date: 2026-10-30
 authors:
 - danny
 website: https://www.ig.com
@@ -18,10 +17,9 @@ android:
   users: 1000000
   appCountry: br
   released: 2015-05-11
-  updated: 2026-09-23
-  version: 26.9.18
+  updated: 2026-10-07
+  version: 26.10.5
   reviews: 12
-  icon: com.iggroup.android.cfd.webp
   meta: ok
   verdict: nosendreceive
   developerName: IG Group
@@ -30,10 +28,9 @@ iphone:
   idd: '406492428'
   appCountry: sg
   released: 2011-01-24
-  updated: 2026-09-23
-  version: 10.3665.0
-  reviews: 3014
-  icon: com.igmarkets.ideal.webp
+  updated: 2026-10-09
+  version: 10.3690.0
+  reviews: 3026
   meta: ok
   verdict: nosendreceive
   developerName: IG Group
@@ -53,4 +50,4 @@ Given the fact this app advertises itself as a *CFD trading platform*, we can co
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,6 +1,6 @@
 ---
 title: SmartCash Transact
-date: 2023-06-10
+date: 2026-10-30
 authors:
 - danny
 website: https://mysmartcash.tech
@@ -21,7 +21,6 @@ android:
   updated: 2025-07-12
   version: '200'
   reviews: 1
-  icon: com.wongeta.smartcashtransact.webp
   meta: stale
   verdict: custodial
   developerName: Wongeta

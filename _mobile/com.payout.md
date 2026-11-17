@@ -1,6 +1,6 @@
 ---
 title: Payout
-date: 2024-04-03
+date: 2026-10-30
 website: http://www.ddtotal.com.br
 redirect_from:
 - /android/com.payout/
@@ -10,7 +10,6 @@ android:
   released: 2020-01-14
   updated: 2020-10-16
   version: '2.6'
-  icon: com.payout.webp
   meta: removed
   verdict: wip
   developerName: Goey Tecnologia Ltda

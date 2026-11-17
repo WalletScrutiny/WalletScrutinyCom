@@ -1,6 +1,6 @@
 ---
 title: 'Bitcoin Wallet: BTC, ETH & BNB'
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - leo
 website: https://coinbox.org
@@ -20,7 +20,6 @@ android:
   updated: 2022-01-09
   version: 3.7.4
   reviews: 843
-  icon: com.polehin.android.webp
   meta: removed
   verdict: obfuscated
   developerName: BW DEV

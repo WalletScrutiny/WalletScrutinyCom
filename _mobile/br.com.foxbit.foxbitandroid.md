@@ -1,7 +1,6 @@
 ---
-wsId: foxbitexchange
 title: Foxbit Exchange
-date: 2021-08-27
+date: 2026-10-30
 authors:
 - danny
 website: http://www.foxbit.com.br
@@ -18,10 +17,9 @@ android:
   users: 500000
   appCountry: br
   released: 2019-01-28
-  updated: 2026-08-22
+  updated: 2026-10-09
   version: 3.48.0
-  reviews: 6405
-  icon: br.com.foxbit.foxbitandroid.webp
+  reviews: 6404
   meta: ok
   verdict: custodial
   developerName: Foxbit
@@ -30,10 +28,9 @@ iphone:
   idd: '1435319194'
   appCountry: br
   released: 2019-03-24
-  updated: 2026-08-22
-  version: 3.48.0
+  updated: 2026-10-13
+  version: 3.49.0
   reviews: 5551
-  icon: br.com.foxbit.webp
   meta: ok
   verdict: custodial
   developerName: Foxbit

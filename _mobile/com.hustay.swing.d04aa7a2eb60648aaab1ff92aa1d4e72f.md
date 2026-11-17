@@ -1,6 +1,6 @@
 ---
 title: FX5
-date: 2023-08-04
+date: 2026-10-30
 authors:
 - danny
 website: https://www.f-x5.com#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2020-09-10
   updated: 2021-01-26
   version: '0.3'
-  icon: com.hustay.swing.d04aa7a2eb60648aaab1ff92aa1d4e72f.webp
   meta: removed
   verdict: custodial
   developerName: GO-WOON

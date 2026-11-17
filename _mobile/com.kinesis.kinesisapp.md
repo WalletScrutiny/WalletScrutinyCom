@@ -1,7 +1,6 @@
 ---
-wsId: kinesismoney
 title: Kinesis - Buy gold and silver
-date: 2024-10-07
+date: 2026-10-30
 authors:
 - danny
 website: https://kinesis.money/
@@ -21,7 +20,6 @@ android:
   updated: 2026-03-28
   version: 2.17.0
   reviews: 110
-  icon: com.kinesis.kinesisapp.webp
   meta: removed
   verdict: nosource
   developerName: Kinesis AG
@@ -34,8 +32,7 @@ iphone:
   updated: 2026-08-24
   version: 2.20.0
   reviews: 10
-  icon: com.kinesis.kinesis-app.webp
-  meta: ok
+  meta: removed
   verdict: nosource
   developerName: Kinesis AG
   repository: https://github.com/KinesisNetwork/wallet-mobile
@@ -89,4 +86,4 @@ An issue has been opened at [https://github.com/KinesisNetwork/wallet-mobile/iss
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

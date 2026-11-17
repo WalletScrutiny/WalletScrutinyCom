@@ -1,7 +1,6 @@
 ---
-wsId: switchere
 title: 'Switchere: Buy & Sell Crypto'
-date: 2025-08-04
+date: 2026-10-30
 authors:
 - danny
 website: https://switchere.com/
@@ -24,7 +23,6 @@ android:
   updated: 2026-08-18
   version: 1.1.31
   reviews: 50
-  icon: com.switchere.switchere.webp
   meta: ok
   verdict: custodial
   developerName: Switchere
@@ -36,7 +34,6 @@ iphone:
   updated: 2026-08-04
   version: 1.1.30
   reviews: 77
-  icon: com.switchere.switchere.webp
   meta: ok
   verdict: custodial
   developerName: SH EUROPE UAB
@@ -65,4 +62,4 @@ We verified that the app can receive and send BTC. We did not find an option to 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: coinWebApp
 title: Coinweb Wallet
-date: 2024-04-10
+date: 2026-10-30
 authors:
 - danny
 website: https://coinweb.io
@@ -20,10 +19,9 @@ android:
   users: 5000
   appCountry: us
   released: 2023-04-28
-  updated: 2026-07-02
-  version: 1.3.2
+  updated: 2026-09-30
+  version: 1.3.3
   reviews: 4
-  icon: com.coinwebapp.webp
   meta: ok
   verdict: nosource
   developerName: Coinweb
@@ -32,10 +30,9 @@ iphone:
   idd: '6443891261'
   appCountry: us
   released: 2023-05-04
-  updated: 2026-07-15
-  version: 1.3.2
+  updated: 2026-10-01
+  version: 1.3.3
   reviews: 4
-  icon: io.coinweb.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Coinweb
@@ -58,7 +55,7 @@ The app is an accounts based, email registration required multi-coin wallet. It 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="buyWithCC" quote="We provide an easy entry to digital assets by allowing you to buy crypto using traditional banking methods such as credit card payments." source="Store" %}
 

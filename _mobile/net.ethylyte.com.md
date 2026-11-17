@@ -1,6 +1,6 @@
 ---
 title: 'ETHLYTE CRYPTO: Bitcoin /Crypt'
-date: 2023-05-05
+date: 2026-10-30
 authors:
 - danny
 website: https://web.archive.org/web/20250618122124/http://ethlyte.tech/
@@ -13,7 +13,6 @@ android:
   updated: 2020-03-07
   version: '2.8'
   reviews: 6
-  icon: net.ethylyte.com.webp
   meta: removed
   verdict: wip
   developerName: Ethlyte Crypto

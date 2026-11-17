@@ -1,7 +1,6 @@
 ---
-wsId: xtcom
 title: 'XT.com: Buy Bitcoin & Ethereum'
-date: 2022-07-31
+date: 2026-10-30
 authors:
 - danny
 website: http://www.xt.com
@@ -20,10 +19,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2021-04-14
-  updated: 2026-09-16
-  version: 5.33.0
+  updated: 2026-10-10
+  version: 5.34.0
   reviews: 262
-  icon: com.app.xt.webp
   meta: ok
   verdict: custodial
   developerName: XT.COM Inc.
@@ -32,10 +30,9 @@ iphone:
   idd: '1556596708'
   appCountry: us
   released: 2021-03-08
-  updated: 2026-09-18
-  version: 5.33.0
-  reviews: 1370
-  icon: com.xt.app.webp
+  updated: 2026-10-12
+  version: 5.34.0
+  reviews: 1369
   meta: ok
   verdict: custodial
   developerName: XT LTD, LLC
@@ -61,7 +58,7 @@ This is a **custodial** provider.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="XT.com is a full-service trading platform that supports 100+ high-quality currencies, 1,000+ coins and over 1,300+ trading pairs. Spot trading, futures trading, currency transactions, leveraged trades, OTC transactions, and credit card purchases can be accessed on XT.com." source="Store description" %}
 

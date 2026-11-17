@@ -1,0 +1,346 @@
+# Steps shared by the reproducible-build scripts
+
+The build scripts the Automated Build Server runs are single `build.sh` files
+attached to a verification event, capped at 48 KB and mostly at that cap. A
+step every script needs therefore lives here once, and a script fetches it by
+commit and checks its hash before running it.
+
+## ws-depcheck: dependency check of the checkout
+
+`ws-depcheck.sh` looks at the source a build script is about to compile and
+answers, in the build recording and in `COMPARISON_RESULTS.yaml`:
+
+- which lockfiles the release ships, and which manifests have none beside them
+  (an unlocked `build.gradle` or `package.json` means the build resolves
+  versions at build time, which a reproducible build should not),
+- how many packages each lockfile pins and how many of them have a known
+  advisory on OSV.dev, by severity, with the worst ten listed,
+- whether the scan ran at all (`status: ok | no-lockfiles | scanner-failed`),
+  so a missing block and a failed scan never look alike,
+- for every package the scan found, whether its version can be tied to a
+  commit of its source repository (`identity:`, see below).
+
+The scan is [osv-scanner](https://google.github.io/osv-scanner/), pulled by
+digest, run in a container with the checkout mounted read-only and no
+capabilities: it parses lockfiles and asks api.osv.dev, nothing of the
+checkout runs. One checkout takes a few seconds; the first run also pulls the
+image (~340 MB).
+
+The step never changes the verdict and exits 0 whatever the scan found: the
+build script's own exit code and `verdict` stay what the comparison decided.
+The ABS reads only `script_version`, `verdict` and `notes` from the YAML and
+publishes them; the `dependencies:` block travels in the recording and in the
+YAML for whoever reads the build directory until the ABS learns to forward it.
+
+### Calling it from a build script
+
+Right after the checkout is at the release ref and before the build container
+starts (the step needs the lockfiles, not the build output):
+
+```bash
+# Dependency check (scripts/rb/ws-depcheck.sh at a fixed commit, hash-checked). Never changes the verdict.
+DEPCHECK_REV=<commit>; DEPCHECK_SHA=<sha256 of scripts/rb/ws-depcheck.sh at that commit>
+if curl -fsSL --max-time 60 -o "${workspace}/ws-depcheck.sh" \
+     "https://gitlab.com/walletscrutiny/walletScrutinyCom/-/raw/${DEPCHECK_REV}/scripts/rb/ws-depcheck.sh" \
+   && echo "${DEPCHECK_SHA}  ${workspace}/ws-depcheck.sh" | sha256sum -c --quiet -; then
+  WS_DEPCHECK_REV="$DEPCHECK_REV" bash "${workspace}/ws-depcheck.sh" --src "$SRC" --out "${workspace}/dependency-check" --yaml "${SCRIPT_DIR}/COMPARISON_RESULTS.yaml" || true
+else
+  echo "[WARN] dependency check skipped: could not fetch ws-depcheck.sh ${DEPCHECK_REV} with the expected hash"
+fi
+```
+
+Eight lines, which fits the size cap. The `--yaml` call must come after the
+script wrote its `COMPARISON_RESULTS.yaml`, or the block is appended to a file
+the script then overwrites; scripts that write the YAML last (the usual
+`generate_yaml` at the end) should run the step without `--yaml` and append
+`${workspace}/dependency-check/dependency-check.yaml` inside `generate_yaml`.
+
+Print the current hash with `sha256sum scripts/rb/ws-depcheck.sh` and the
+commit with `git log -1 --format=%H -- scripts/rb/ws-depcheck.sh`.
+
+### Identity: can the version be tied to a commit?
+
+Rung one of the dependency ladder (identity, provenance, reproduced). For each
+package osv-scanner found, `external/source_analysis/identity-scan-cli.mjs`
+asks the registry which repository the package comes from and lists that
+repository's tags with `git ls-remote`. Host-side, Node 18+ and git, nothing
+of the checkout or of any package runs. Keeper v2.6.3 (1,907 packages) takes
+about two to three minutes.
+
+| status | meaning |
+|---|---|
+| `tag-found` | a tag of the repository reads as this version |
+| `commit-named` | no tag, but the npm publish names its commit (`gitHead`) |
+| `no-tag` | the repository has no tag for this version: unverified |
+| `no-repo` | the registry names no repository: unverified |
+| `repo-unreachable` | the named repository is gone or private: unverified |
+| `range` | the lockfile holds a range, not a version: the build does not pin |
+| `unsupported` | no resolver for the ecosystem yet (RubyGems, Go, CocoaPods) |
+
+`npm_provenance` counts npm versions with a sigstore build attestation. A tag
+says the version was cut from that repository; it does not say the published
+artifact equals that source. That is the next rung.
+
+The step takes the three files from the same commit as itself
+(`WS_DEPCHECK_REV`), checked against the hashes in `IDENTITY_FILES`; run from
+a checkout of this repository it uses the files beside it. Without Node, or
+without `WS_DEPCHECK_REV` outside a checkout, the block says `status:
+skipped` with the reason.
+
+### The APK: is the declared code what ships?
+
+`--apk <file>` adds the level-1 check of docs/dependency-check.md ("Checking
+the shipped app"): `external/source_analysis/apk-scan-cli.mjs` (fetched by
+commit and hash-checked with the identity files) downloads every Maven
+package the scanner found and compares it with the APK: which are in it,
+whether each `lib/<abi>/*.so` is the same code as the published package's
+(the loaded bytes, so the build's symbol stripping does not count), and what
+in the APK no package declares. Build scripts pass the official APK they
+already downloaded. Nothing of the APK or of any package runs. The `apk:`
+block in the YAML carries the counts and the native libraries that differ or
+that nobody declares.
+
+It compares with the scanner's package list, which is what the lockfiles
+say; where a project's lockfiles cover only part of the build (Green's
+`verification-metadata.xml` gives the scanner 539 Maven packages, the
+analyser's own Gradle resolution 1,200), more of the APK shows up as
+undeclared than the wallet page reports. Blockstream Green 5.7.0 end to end,
+3½ minutes: `libgreen_gdk_java.so` is declared by no package
+(`gdk/fetch_android_binaries.sh` downloads it).
+
+### Running it by hand
+
+```bash
+git clone --depth 1 --branch v2.6.3 https://github.com/KeeperCommunity/bitcoin-keeper /tmp/keeper
+scripts/rb/ws-depcheck.sh --src /tmp/keeper --out /tmp/keeper-depcheck
+```
+
+Output of that run (2026-10-16, osv-scanner 2.7.0):
+
+```
+  lockfiles (5): android/Gemfile.lock Gemfile.lock ios/Gemfile.lock ios/Podfile.lock yarn.lock
+  manifests without a lockfile (2): android/app/build.gradle android/build.gradle
+
+  lockfile                                 packages vulnerable advisories
+  android/Gemfile.lock                           90          7          9
+  Gemfile.lock                                  117          9         19
+  ios/Gemfile.lock                              101          1          1
+  ios/Podfile.lock                                -          -          -  not scanned (unsupported lockfile)
+  yarn.lock                                    1711         52        209
+  advisories by severity: malicious 0, critical 3, high 131, moderate 91, low 13, unknown 0
+  worst findings:
+    critical   9.2  GHSA-w7jw-789q-3m8p    shell-quote@1.8.3 (npm, yarn.lock)
+    critical   9.2  GHSA-xv26-6w52-cph6    websocket-driver@0.7.4 (npm, yarn.lock)
+    critical   9.1  GHSA-v62p-rq8g-8h59    pbkdf2@3.0.8 (npm, yarn.lock)
+  status: ok
+```
+
+Files in `--out`: `osv-scanner.json` (the full scanner output, every package
+and advisory), `dependency-check.json` and `dependency-check.yaml` (the
+summary), `lockfiles.txt`, `unlocked-manifests.txt`, `osv-scanner.log`.
+
+### What it does not know
+
+- A lockfile does not say what ships. `yarn.lock` pins the test and lint
+  tooling next to the app's code, and a `Gemfile.lock` is usually fastlane.
+  Read the per-lockfile rows with that in mind; the source analysis service
+  (`external/source_analysis`) keeps the dev flag per package where the
+  lockfile records it.
+- osv-scanner reads no `Podfile.lock`, `Package.resolved` or
+  `verification-metadata.xml`; those show as `scanned: false`. A gradle
+  project without `gradle.lockfile` contributes no packages at all, which is
+  exactly the `unlocked_manifests` case.
+- An advisory is a snapshot of OSV.dev at scan time, and its severity is the
+  CVSS score OSV reports (critical ≥ 9, high ≥ 7, moderate ≥ 4, low > 0;
+  `MAL-` identifiers are malicious packages whatever the score).
+
+### Environment
+
+| variable | default | |
+|---|---|---|
+| `WS_DEPCHECK_CTR` | `docker` if on PATH, else `podman` | container CLI |
+| `WS_DEPCHECK_IMAGE` | `ghcr.io/google/osv-scanner@sha256:4f3b…` (v2.7.0) | scanner image, keep it digest-pinned |
+| `WS_DEPCHECK_TIMEOUT` | 600 | seconds for the scan |
+| `WS_DEPCHECK_SCANNER` | unset | command used instead of the container (tests) |
+| `WS_DEPCHECK_REV` | unset | commit the identity check is fetched at |
+| `WS_DEPCHECK_IDENTITY` | 1 | 0 skips the identity check |
+| `WS_DEPCHECK_IDENTITY_TIMEOUT` | 900 | seconds for the identity check |
+| `WS_DEPCHECK_IDENTITY_CMD` | unset | command used instead of the identity check (tests) |
+
+Tests: `test/unit/rb-depcheck.test.mjs` (inventory, YAML block, failure path,
+against a fake scanner).
+
+## ws-buildlock: the exact versions the build used
+
+`ws-depcheck.sh` reads what the checkout declares, before the build.
+`ws-buildlock.sh` runs after the build and writes `build-lock.json`: what the
+build actually fetched. For a verified build that is the most relevant list to
+check (Leo, 2026-10-26), and for a project without lockfiles it is the only one.
+
+- **gradle:** every artifact in the module cache
+  (`caches/modules-2/files-2.1/<group>/<artifact>/<version>/<sha1>/<file>`),
+  with its sha256. The directory name is the file's sha1, as Gradle stores it.
+- **npm, pub, cargo:** `node_modules/.package-lock.json`, `pubspec.lock` and
+  `Cargo.lock` as the build left them, copied under `lockfiles/`.
+- **committed:** every compiled file the checkout carries in git (`.so`,
+  `.a`, `.jar`, `.aar`, `.dll`, ...), with its sha256. No lockfile lists
+  those, and leaving something out of a lockfile must not hide it (Leo,
+  2026-10-26). Needs `--src` to be a git checkout.
+
+The Gradle cache has to belong to this build alone, or the list includes other
+builds' artifacts. Most build scripts throw the container away with its cache,
+so mount a fresh directory as `GRADLE_USER_HOME` and pass it in:
+
+```bash
+mkdir -p "${workspace}/gradle-home"
+docker run ... -v "${workspace}/gradle-home:/gradle-home" -e GRADLE_USER_HOME=/gradle-home ...
+# after the build, fetched and hash-checked like ws-depcheck.sh:
+bash "${workspace}/ws-buildlock.sh" --out "${workspace}/build-lock" --gradle-home "${workspace}/gradle-home" --src "$SRC" \
+  --app-id "$appId" --version "$version" --platform android || true
+```
+
+`--app-id`, `--version` and `--platform` say which build the file belongs to:
+pass them exactly as the verification will carry them (its `i`, `version` and
+`platform` tags). A flag left out leaves its field `null` and prints a
+warning: the dependency checker won't use such a file, and the form will
+refuse it.
+
+The commit comes from `--commit <sha>` when given, or else from the HEAD of
+`--src`. A script that clones the source inside the container has no checkout
+on the host, so it passes the commit it built (BitBanana's writes it to
+`commit.txt`: `--commit "$(cat commit.txt)"`). It must be the full 40-hex
+commit: a tag name or a short sha warns and leaves `commit` null. If it
+differs from the HEAD of `--src`, the script warns and keeps `--commit`. The
+commit is optional; the checker doesn't need it. An old `build-lock.json`
+in `--out` is removed before anything else, so a run that fails can't leave
+the previous build's file behind.
+
+**Uploading it.** At the end of the run the script prints the file to upload
+(it lands in the recording too):
+
+```
+=== Upload this file with the verification ===
+  file:     /home/me/wsTest/build-lock/build-lock.json
+  sha256:   <64 hex: the file's sha256>
+  app:      app.michaelwuensch.bitbanana
+  version:  1.1.1
+  platform: android
+  commit:   <40 hex: --commit, or git rev-parse HEAD of --src>
+Keep the name build-lock.json when uploading it.
+```
+
+1. Take that exact file: the path printed, not an older copy from a download folder.
+2. In the verification form, drop it in the box that starts "For larger files,
+   drag & drop them here", together with the asciicast. Not in the scripts box.
+3. The form knows the file by its content and saves it as `build-lock.json`,
+   whatever it is called on your disk; the sha256 in the published event must
+   be the one printed.
+
+The form checks the file before it publishes and refuses it with one of these
+messages:
+
+- "This build-lock.json belongs to another build: it says <field> <value in
+  the file>, this verification says <value in the form>." (the app, version
+  or platform differs)
+- "This build-lock.json doesn't say which build it belongs to. Run
+  ws-buildlock.sh 0.3.0 or later with --app-id, --version and --platform, and
+  upload the new file." (schema 1, or a field is `null`)
+- "Only one build-lock.json can go with a verification. Remove the other
+  one." (a second file)
+- "The script of this verification runs ws-buildlock.sh, but no
+  build-lock.json is attached. Drop the build-lock.json it printed in the box
+  that starts "For larger files"." (an uploaded or reused script calls
+  ws-buildlock.sh; not asked when the status is Failed to Build from Source,
+  or for a draft)
+
+
+Like ws-depcheck, it never changes the verdict and exits 0. With `--yaml` it
+appends a `build_lock:` block (status `ok` or `empty`, the artifact count, the
+lockfiles, and the sha256 of `build-lock.json`). The ABS doesn't publish the
+file yet. Not covered: CocoaPods and SwiftPM builds, and anything a build
+downloads outside Gradle, npm, pub or cargo.
+
+### The file: `build-lock.json`, schema 2
+
+One JSON object. The first eight fields say what wrote the file and which
+build it belongs to; `lockfiles` and `artifacts` are the list itself.
+
+```json
+{
+  "schema": 2,
+  "tool": "ws-buildlock",
+  "version": "0.3.0",
+  "appId": "com.example.wallet",
+  "appVersion": "1.2.3",
+  "platform": "android",
+  "commit": "0123456789abcdef0123456789abcdef01234567",
+  "generatedAt": "2026-11-10T06:00:00Z",
+  "lockfiles": ["app/node_modules/.package-lock.json"],
+  "artifacts": [
+    {"ecosystem": "gradle", "name": "androidx.core:core", "version": "1.13.1", "file": "core-1.13.1.aar", "sha1": "<40 hex>", "sha256": "<64 hex>"},
+    {"ecosystem": "committed", "name": "gradle/wrapper/gradle-wrapper.jar", "sha256": "<64 hex>"}
+  ]
+}
+```
+
+| Field | Value |
+|---|---|
+| `schema` | `2`. Schema 1 files have no `appId`, `appVersion`, `platform` or `commit`. |
+| `tool` | always `ws-buildlock`; how a file is recognised whatever its name |
+| `version` | the version of `ws-buildlock.sh` that wrote the file, not the app's |
+| `appId` | the app ID, as in the verification event's `i` tag |
+| `appVersion` | the version, as in the event's `version` tag, exactly as written there |
+| `platform` | as in the event's `platform` tag (`android`) |
+| `commit` | the full commit hash of the checkout that was built (`git rev-parse HEAD`), or `null` when `--src` is not a git checkout |
+| `generatedAt` | when the file was written, UTC |
+| `lockfiles` | paths, relative to the checkout, of the lockfiles copied under `lockfiles/` next to the file. Only their names are in the file. |
+| `artifacts` | one entry per file: every file the Gradle cache holds (`ecosystem` `gradle`: `name` is `group:artifact`, then `version`, `file`, Gradle's `sha1` and the file's `sha256`), then every compiled file committed in the checkout (`ecosystem` `committed`: its path as `name`, and `sha256`) |
+
+`appId`, `appVersion` and `platform` are `null` when the script did not pass
+them; `ws-buildlock.sh` warns then, and the file cannot be tied to a build,
+so the checker does not use it.
+
+**Publishing.** The file is uploaded with the verification as an ordinary
+output file, named exactly `build-lock.json`, and the signed event carries
+`["output-file", "build-lock.json", <sha256>]`. The file lives on
+files.nostr.info under its sha256.
+
+**What the dependency checker does with it** (`external/source_analysis/plugins/build-lock.mjs`):
+
+- Only files from the verifiers listed in `BUILD_LOCK_VERIFIERS`
+  (`external/source_analysis/config.mjs`) are used, because any key can
+  publish a "reproducible" verification. A file from another key is reported
+  as "from a verifier not on the list", is not downloaded, and its entries are
+  not used. To add a verifier, add the hex pubkey they sign verifications with
+  to that list, with a comment naming them.
+- It fetches the file by the sha256 in the tag and reads nothing whose hash
+  does not match. A copy that matched is kept next to its database. A file
+  the server does not have, refuses, or that is over 64 MB is reported, and
+  the rest of the check goes on. A network error or a server error fails the
+  release's check, which runs again on the next pass.
+- It compares `appId`, `appVersion` and `platform` with the event's `i`,
+  `version` and `platform` tags. A mismatch is reported as "belongs to
+  another build", and its entries are not used.
+- A schema 1 file, or one with any of the three fields `null`, is reported as
+  "not tied to a build", and its entries are not used either.
+- An output file named like `build-lock*.json` but not exactly
+  `build-lock.json` (for example `build-lock (1).json`) is reported as
+  "misnamed" and not downloaded.
+- The `gradle` entries become ordinary dependency rows for the
+  known-vulnerability check, and the checker shows both differences with
+  Gradle's own resolution: modules the build downloaded that the resolution
+  does not list, and resolved modules the build never downloaded. `commit` is
+  shown, not matched: the event has no commit.
+- Each platform is checked on its own. The rows' lockfile names the
+  verification's platform (`build-lock.json (android)`), so they count on that
+  platform's page only, never on another product built from the same
+  repository. The differences compare with the resolved rows that page counts,
+  and each page shows only its own platform's files and notices.
+- A module counts only when the build downloaded a file with code: a
+  `.jar`, `.aar`, `.klib`, or a program such as protoc's `.exe`. A module
+  the build downloaded only `.pom` or `.module` files of (parent POMs, BOMs,
+  versions Gradle read but did not pick) becomes no row; the page says how
+  many such descriptions were not counted, and names a few.
+- A module only the build downloaded is marked "build tool" when Gradle's
+  resolution found the app's own modules: it is then not in the app, and
+  build tools still count. Without that, its scope stays unknown.

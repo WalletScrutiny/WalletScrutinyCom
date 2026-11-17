@@ -1,6 +1,6 @@
 ---
 title: Free Crypto Coin & Airdrops
-date: 2023-04-15
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -12,7 +12,6 @@ android:
   updated: 2020-09-22
   version: 1.0.8
   reviews: 2
-  icon: free.crypto.coin.webp
   meta: removed
   verdict: wip
 

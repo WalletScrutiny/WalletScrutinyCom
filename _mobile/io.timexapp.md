@@ -1,7 +1,6 @@
 ---
-wsId: timexApp
 title: TimeX
-date: 2024-11-29
+date: 2026-10-30
 authors:
 - danny
 website: http://timex.io
@@ -20,7 +19,6 @@ android:
   released: 2023-01-27
   updated: 2023-09-25
   version: 1.4.3
-  icon: io.timexapp.webp
   meta: removed
   verdict: custodial
   developerName: Chrono.Tech
@@ -32,12 +30,13 @@ iphone:
   updated: 2024-01-11
   version: 1.4.3
   reviews: 0
-  icon: io.timexapp.webp
   meta: removed
   verdict: custodial
   developerName: Chrono.tech
 
 ---
+
+**Update 2026-10-30:** The TimeX exchange appears to be offline. Since at least June 2026 its website shows only the notice ["TimeX is currently unavailable"](https://web.archive.org/web/20260607174433/https://timex.io/unavailable.html), and both apps are gone from the stores.
 
 ## Android
 
@@ -57,4 +56,4 @@ The app description explicitly states that trading bitcoin is allowed and that c
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

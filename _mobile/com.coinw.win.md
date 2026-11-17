@@ -1,7 +1,6 @@
 ---
-wsId: coinWBuyCrypto
 title: CoinW · Buy BTC, ETH & Crypto
-date: 2023-07-07
+date: 2026-10-30
 authors:
 - danny
 website: https://www.coinw.com
@@ -11,7 +10,6 @@ social:
 - https://www.linkedin.com/company/coinw-exchange
 - https://medium.com/@coinwglobal23
 - https://www.instagram.com/coinw_exchange
-- https://www.coinw.com
 redirect_from:
 - /android/com.coinw.win/
 - /iphone/com.coinwapp.legend/
@@ -22,7 +20,6 @@ android:
   updated: 2026-03-20
   version: 10.0.96
   reviews: 62
-  icon: com.coinw.win.webp
   meta: removed
   verdict: custodial
   developerName: CoinW.SGP
@@ -33,8 +30,7 @@ iphone:
   released: 2020-01-14
   updated: 2026-09-20
   version: 10.1.33
-  reviews: 125
-  icon: com.coinwapp.legend.webp
+  reviews: 126
   meta: ok
   verdict: custodial
   developerName: COINW SP Z O O
@@ -66,4 +62,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

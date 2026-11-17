@@ -1,7 +1,6 @@
 ---
-wsId: eMoneyGe
 title: Emoney
-date: 2025-05-23
+date: 2026-10-30
 authors:
 - danny
 website: https://www.emoney.ge/
@@ -16,10 +15,9 @@ android:
   users: 100000
   appCountry: us
   released: 2015-08-22
-  updated: 2026-09-14
-  version: 11.6.2
+  updated: 2026-10-06
+  version: 11.7.0
   reviews: 33
-  icon: ge.mobility.emoney.webp
   meta: ok
   verdict: custodial
   developerName: eMoney Georgia
@@ -28,10 +26,9 @@ iphone:
   idd: '1084288470'
   appCountry: ge
   released: 2020-04-19
-  updated: 2026-09-21
-  version: 11.6.2
+  updated: 2026-10-12
+  version: 11.7.0
   reviews: 10
-  icon: ge.smatex.eMoney.webp
   meta: ok
   verdict: custodial
   developerName: eMoney
@@ -68,4 +65,4 @@ eMoney functions as a **custodial** Bitcoin wallet because it allows external tr
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

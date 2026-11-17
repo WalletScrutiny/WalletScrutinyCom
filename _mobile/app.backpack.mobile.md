@@ -1,6 +1,6 @@
 ---
 title: 'Backpack: Trade, Invest & Earn'
-date: 2026-07-21
+date: 2026-10-30
 authors:
 - danny
 website: https://backpack.app
@@ -12,10 +12,9 @@ android:
   users: 500000
   appCountry: us
   released: 2023-11-02
-  updated: 2026-09-17
-  version: 2.87.0
-  reviews: 72
-  icon: app.backpack.mobile.webp
+  updated: 2026-10-12
+  version: 2.89.2
+  reviews: 74
   meta: ok
   verdict: custodial
   developerName: Backpack App
@@ -24,10 +23,9 @@ iphone:
   idd: '6445964121'
   appCountry: us
   released: 2023-10-26
-  updated: 2026-09-29
-  version: 2.88.0
-  reviews: 233
-  icon: app.backpack.mobile.webp
+  updated: 2026-10-13
+  version: 2.89.2
+  reviews: 236
   meta: ok
   verdict: custodial
   developerName: Backpack Technologies Ltd.

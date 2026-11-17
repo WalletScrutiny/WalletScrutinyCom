@@ -1,7 +1,6 @@
 ---
-wsId: xverse
 title: 'Xverse Wallet: Buy Bitcoin'
-date: 2022-01-13
+date: 2026-10-30
 authors:
 - danny
 website: https://www.xverse.app/
@@ -22,10 +21,9 @@ android:
   users: 100000
   appCountry: cn
   released: 2021-10-12
-  updated: 2026-09-29
-  version: 2.10.0
-  reviews: 1125
-  icon: com.secretkeylabs.xverse.webp
+  updated: 2026-10-12
+  version: 2.11.1
+  reviews: 1129
   meta: ok
   verdict: nosource
   developerName: Secret Key Labs
@@ -34,10 +32,9 @@ iphone:
   idd: 1552272513
   appCountry: gt
   released: 2021-10-15
-  updated: 2026-09-30
-  version: v2.10.0
+  updated: 2026-10-13
+  version: v2.11.1
   reviews: 1
-  icon: com.secretkeylabs.xverse.webp
   meta: ok
   verdict: nosource
   developerName: Secret Key Labs
@@ -68,7 +65,7 @@ We could **not find any information indicating whether the project is open sourc
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="segwit" quote="Compra, Guarda y Haz Trading, Simplemente: Rastrea, haz trading y genera ganancias sin esfuerzo con Bitcoin (BTC)" source="Store" comment="Insufficient — store description does not explicitly mention SegWit or bech32 addresses." %}
 

@@ -1,7 +1,6 @@
 ---
-wsId: TokenPocket
 title: 'TokenPocket: Crypto & Bitcoin'
-date: 2026-07-23
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -21,8 +20,7 @@ android:
   released: 2018-06-29
   updated: 2026-09-24
   version: 2.29.0
-  reviews: 633
-  icon: vip.mytokenpocket.webp
+  reviews: 634
   meta: ok
   verdict: obfuscated
   developerName: TP Global Ltd
@@ -34,8 +32,7 @@ iphone:
   released: 2023-01-04
   updated: 2026-09-25
   version: 2.30.0
-  reviews: 736
-  icon: com.global.wallet.ios.webp
+  reviews: 740
   meta: ok
   verdict: obfuscated
   developerName: TP Global Ltd
@@ -94,6 +91,6 @@ An issue has been opened at [https://github.com/TP-Lab/tp-android/issues/15](htt
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 An issue has been opened at [https://github.com/TP-Lab/tp-ios/issues/1](https://github.com/TP-Lab/tp-ios/issues/1)

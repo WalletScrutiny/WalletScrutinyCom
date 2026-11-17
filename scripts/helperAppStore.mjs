@@ -11,6 +11,7 @@ import {
   metaUpdateContext,
   resolveIphoneFilenames,
   findMobileFileByIphoneAppId,
+  applyStoreWebsite,
 } from './mobileWalletStore.mjs';
 
 process.env.TZ = 'UTC'; // fix timezone issues
@@ -23,9 +24,9 @@ const stats = {
 };
 
 const category = 'iphone';
-const headers = ('wsId title altTitle authors appId bitcoinOrgId appCountry idd released ' +
+const headers = ('title altTitle authors appId bitcoinOrgId appCountry idd released ' +
                 'updated version reviews website repository ' +
-                'icon bugbounty meta verdict signer ' +
+                'bugbounty meta verdict signer ' +
                 'twitter social features developerName').split(' ');
 
 async function refreshAll (ids, markRemoved) {
@@ -73,10 +74,7 @@ function refreshFile (fileName, content, markRemoved) {
         }
         const iconKey = appId || slug;
         const iconPath = `images/wIcons/iphone/${iconKey}`;
-        helper.downloadImageFile(`${appData.icon}`, iconPath, iconExtension => {
-          if (iconExtension && appId) {
-            iphone.icon = `${appId}.${iconExtension}`;
-          }
+        helper.downloadImageFile(`${appData.icon}`, iconPath, () => {
           stats.updated++;
           writeMobileFile(filePath, mobile, body);
           stats.remaining--;
@@ -124,9 +122,7 @@ function updateFromApp (iphone, app, mobile, storeCountry) {
     : new Date(app.updated);
   iphone.released = iphone.released || app.released || null;
   iphone.reviews = app.reviews;
-  if (app.developerWebsite && !mobile.android?.appId) {
-    mobile.website = app.developerWebsite;
-  }
+  applyStoreWebsite(mobile, 'iphone', app.developerWebsite);
   const metaCtx = metaUpdateContext(mobile, 'iphone');
   metaCtx.date = metaCtx.date || new Date();
   iphone.developerName = app.developer || iphone.developerName || 'Unknown Developer(s)';

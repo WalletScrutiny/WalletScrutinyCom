@@ -1,7 +1,6 @@
 ---
-wsId: Koshelek
 title: Koshelek. Crypto wallet & p2p
-date: 2023-10-14
+date: 2026-10-30
 authors:
 - danny
 website: https://koshelek.ru/
@@ -17,10 +16,9 @@ android:
   users: 10000
   appCountry: ru
   released: 2020-07-28
-  updated: 2026-06-22
-  version: 2.3.8
+  updated: 2026-10-05
+  version: 2.4.2
   reviews: 152
-  icon: ru.koshelek.webp
   meta: ok
   verdict: custodial
   developerName: Кошелёк.ру
@@ -32,8 +30,7 @@ iphone:
   updated: 2026-06-23
   version: 2.3.8
   reviews: 122
-  icon: dev.spedn.ru.webp
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: Кошелёк.ру
 
@@ -110,4 +107,4 @@ Judging this app was difficult as it has many features. At its most basic, **it 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

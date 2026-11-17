@@ -1,7 +1,7 @@
 ---
 title: Easy Exchange Pro
-date: 2023-05-10
-website: https://easyexchangepro.com/
+date: 2026-10-30
+website: https://easyexchangepro.com/#deadLink
 redirect_from:
 - /android/com.application.easyexchangrpro/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2022-03-29
   updated: 2022-06-22
   version: 2.4.6
-  icon: com.application.easyexchangrpro.webp
   meta: removed
   verdict: wip
   developerName: EasyExchangePro

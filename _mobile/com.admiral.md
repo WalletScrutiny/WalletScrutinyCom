@@ -1,6 +1,6 @@
 ---
 title: Admiral Option
-date: 2023-02-03
+date: 2026-10-30
 authors:
 - danny
 website: https://admiraloption.com#deadLink
@@ -13,7 +13,6 @@ android:
   updated: 2021-03-10
   version: 1.9.3
   reviews: 121
-  icon: com.admiral.webp
   meta: removed
   verdict: wip
   developerName: Admiral Option Limited

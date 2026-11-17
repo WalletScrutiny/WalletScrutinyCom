@@ -1,6 +1,6 @@
 ---
 title: 'MB | Mercado Bitcoin: criptos'
-date: 2021-08-21
+date: 2026-10-30
 authors:
 - danny
 website: http://www.mercadobitcoin.com.br
@@ -15,10 +15,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-07-25
-  updated: 2026-09-25
-  version: 2.130.0
+  updated: 2026-10-09
+  version: 2.132.0
   reviews: 73
-  icon: br.com.mercadobitcoin.android.webp
   meta: ok
   verdict: custodial
   developerName: MERCADO BITCOIN SERVICOS DIGITAIS LTDA

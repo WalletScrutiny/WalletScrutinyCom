@@ -1,7 +1,6 @@
 ---
-wsId: Swapoo
 title: Swapoo
-date: 2021-11-15
+date: 2026-10-30
 authors:
 - danny
 appCountry: ph
@@ -15,7 +14,6 @@ android:
   updated: 2021-11-02
   version: 1.28.125
   reviews: 25
-  icon: com.swapoolabs.swapoo.webp
   meta: removed
   verdict: wip
 iphone:
@@ -25,7 +23,6 @@ iphone:
   updated: 2021-10-27
   version: 1.45.30
   reviews: 1
-  icon: com.swapoolabs.swapoowallet.webp
   meta: removed
   verdict: wip
 
@@ -59,4 +56,4 @@ We will try to send them an email via their Google Play page contact information
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

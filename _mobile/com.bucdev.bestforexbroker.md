@@ -1,9 +1,9 @@
 ---
 title: Forex Broker
-date: 2025-02-13
+date: 2026-10-30
 authors:
 - danny
-website: https://www.knightgames.co
+website: https://www.knightgames.co#deadLink
 redirect_from:
 - /android/com.bucdev.bestforexbroker/
 android:
@@ -12,7 +12,6 @@ android:
   released: 2018-04-17
   updated: 2020-10-09
   version: 1.1.3
-  icon: com.bucdev.bestforexbroker.webp
   meta: removed
   verdict: wip
   developerName: FinDev

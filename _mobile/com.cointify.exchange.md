@@ -1,6 +1,6 @@
 ---
 title: Cointify Exchange
-date: 2023-05-30
+date: 2026-10-30
 website: https://ex.cointify.com#deadLink
 redirect_from:
 - /android/com.cointify.exchange/
@@ -10,7 +10,6 @@ android:
   released: 2019-04-29
   updated: 2019-06-24
   version: 1.0.2
-  icon: com.cointify.exchange.webp
   meta: removed
   verdict: wip
   developerName: Cointify Team

@@ -1,6 +1,6 @@
 ---
 title: Crypto Wallets
-date: 2023-01-02
+date: 2026-10-30
 website: https://thecryptoyo.com#deadLink
 redirect_from:
 - /android/cryptowallets.n101/
@@ -10,7 +10,6 @@ android:
   released: 2021-12-24
   updated: 2021-12-24
   version: '1.01'
-  icon: cryptowallets.n101.webp
   meta: removed
   verdict: wip
 

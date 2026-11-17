@@ -1,6 +1,6 @@
 ---
 title: Sunshine Wallet Bitcoin
-date: 2023-01-02
+date: 2026-10-30
 website: http://www.sunshine-wallet.com#deadLink
 redirect_from:
 - /android/com.bitpay.sunshine/
@@ -10,7 +10,6 @@ android:
   released: 2017-08-12
   updated: 2017-08-18
   version: 3.7.3
-  icon: com.bitpay.sunshine.webp
   meta: removed
   verdict: wip
 

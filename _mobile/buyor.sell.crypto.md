@@ -1,6 +1,6 @@
 ---
 title: Buy Or Sell Crypto
-date: 2021-10-01
+date: 2026-10-30
 redirect_from:
 - /android/buyor.sell.crypto/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-06-16
   updated: 2021-06-17
   version: '1.0'
-  icon: buyor.sell.crypto.jpg
   meta: removed
   verdict: wip
 

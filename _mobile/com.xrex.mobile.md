@@ -1,7 +1,6 @@
 ---
-wsId: XRex
 title: XREX:Buy Crypto,Bitcoin & USDT
-date: 2021-11-15
+date: 2026-10-30
 authors:
 - danny
 website: https://xrex.io/
@@ -17,21 +16,19 @@ android:
   users: 10000
   appCountry: au
   released: 2020-02-20
-  updated: 2026-09-20
-  version: 2.1.1176
-  icon: com.xrex.mobile.webp
+  updated: 2026-10-02
+  version: 2.1.1200
   meta: ok
   verdict: custodial
   developerName: XREX, Inc.
 iphone:
   appId: com.xrex.mobile
   idd: 1482096895
-  appCountry: in
+  appCountry: tw
   released: 2020-02-19
   updated: 2025-07-31
   version: 2.1.668
   reviews: 9
-  icon: com.xrex.mobile.webp
   meta: removed
   verdict: custodial
   developerName: XREX
@@ -57,4 +54,4 @@ Cryptocurrency exchanges that have banking partners that let users buy cryptocur
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

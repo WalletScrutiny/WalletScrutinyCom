@@ -1,7 +1,6 @@
 ---
-wsId: gorilaInvest
 title: 'Gorila: investimentos com IA'
-date: 2022-06-24
+date: 2026-10-30
 authors:
 - danny
 website: https://gorila.com.br
@@ -19,10 +18,9 @@ android:
   users: 100000
   appCountry: us
   released: 2019-05-13
-  updated: 2026-09-02
-  version: 8.11.0
+  updated: 2026-10-07
+  version: 8.12.0
   reviews: 25
-  icon: br.com.gorilainvest.mobileapp.webp
   meta: ok
   verdict: nosendreceive
   developerName: Gorila - gestão de carteira de investimentos
@@ -31,10 +29,9 @@ iphone:
   idd: '1447950043'
   appCountry: us
   released: 2019-01-27
-  updated: 2026-09-03
-  version: 8.11.0
+  updated: 2026-10-09
+  version: 8.12.0
   reviews: 234
-  icon: br.com.gorilainvest.mobileapp.webp
   meta: ok
   verdict: nosendreceive
   developerName: GORILA DESENVOLVIMENTO CUSTOMIZACAO SOFTWARES INVESTIMENTO LTDA
@@ -57,4 +54,4 @@ Furthermore, there are no mentions of a bitcoin wallet or seed phrases. If crypt
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: NitroEXexchangeapp
 title: NitroEx Exchange
-date: 2026-01-08
+date: 2026-10-30
 authors:
 - danny
 website: https://www.nitroex.io/
@@ -21,7 +20,6 @@ android:
   updated: 2025-01-02
   version: 3.2.5
   reviews: 159
-  icon: com.nitroex.nitroexchangeapp.webp
   meta: stale
   verdict: custodial
   developerName: Nitro Software Technologies LTD
@@ -33,7 +31,6 @@ iphone:
   updated: 2024-01-23
   version: 3.0.6
   reviews: 1
-  icon: com.nitroex.nitroexexchangeapp.webp
   meta: obsolete
   verdict: custodial
   developerName: Nitro Software Technologies LTD
@@ -64,4 +61,4 @@ This service is **custodial** and the app **cannot be verified.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

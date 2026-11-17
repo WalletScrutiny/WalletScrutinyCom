@@ -1,6 +1,6 @@
 ---
 title: Vivid Business and Personal
-date: 2026-07-24
+date: 2026-10-30
 authors:
 - danny
 website: https://vivid.money/
@@ -17,10 +17,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2020-10-09
-  updated: 2026-09-29
-  version: 4.47.0
+  updated: 2026-10-13
+  version: 4.49.0
   reviews: 8
-  icon: vivid.money.webp
   meta: ok
   verdict: nosendreceive
   developerName: Vivid Money GmbH
@@ -29,10 +28,9 @@ iphone:
   idd: 1504417378
   appCountry: jp
   released: 2020-10-09
-  updated: 2026-09-24
-  version: 4.46.0
+  updated: 2026-10-14
+  version: 4.49.0
   reviews: 17
-  icon: com.vivid.money.webp
   meta: ok
   verdict: nosendreceive
   developerName: Vivid Money GmbH

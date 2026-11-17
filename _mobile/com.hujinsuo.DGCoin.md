@@ -1,6 +1,6 @@
 ---
 title: DGCoin - Buy Bitcoin & Crypto
-date: 2023-01-02
+date: 2026-10-30
 redirect_from:
 - /android/com.hujinsuo.DGCoin/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-05-13
   updated: 2022-05-13
   version: 1.4.1
-  icon: com.hujinsuo.DGCoin.webp
   meta: removed
   verdict: wip
 

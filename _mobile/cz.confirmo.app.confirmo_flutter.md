@@ -1,7 +1,6 @@
 ---
-wsId: confirmoLightning
 title: Bitcoin Lightning POS
-date: 2024-04-26
+date: 2026-10-30
 authors:
 - danny
 website: http://confirmo.net
@@ -18,7 +17,6 @@ android:
   released: 2022-08-12
   updated: 2023-08-01
   version: 1.0.8
-  icon: cz.confirmo.app.confirmo_flutter.webp
   meta: removed
   verdict: custodial
   developerName: CONFIRMO
@@ -30,7 +28,6 @@ iphone:
   updated: 2023-08-18
   version: 1.0.8
   reviews: 0
-  icon: confirmo.app.pos.webp
   meta: removed
   verdict: custodial
   developerName: Confirmo s.r.o.
@@ -81,4 +78,4 @@ Like most lightning based Point-of-Sale systems, the user is a provided an accou
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

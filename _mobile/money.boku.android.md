@@ -1,7 +1,6 @@
 ---
-wsId: neverlessBuyBitcoin
 title: 'Neverless: Stocks & Crypto'
-date: 2026-01-02
+date: 2026-10-30
 authors:
 - danny
 website: https://neverless.com
@@ -18,10 +17,9 @@ android:
   users: 50000
   appCountry: us
   released: 2023-10-17
-  updated: 2026-09-21
-  version: 1.6.12
-  reviews: 24
-  icon: money.boku.android.webp
+  updated: 2026-10-13
+  version: 1.6.26
+  reviews: 25
   meta: ok
   verdict: nosendreceive
   developerName: neverless
@@ -30,10 +28,9 @@ iphone:
   idd: '1659648196'
   appCountry: us
   released: 2025-04-03
-  updated: 2026-09-26
-  version: 1.11.48
-  reviews: 208
-  icon: money.boku.ios.webp
+  updated: 2026-10-13
+  version: 1.11.50
+  reviews: 216
   meta: ok
   verdict: nosendreceive
   developerName: Boku Labs Ltd
@@ -66,4 +63,4 @@ The absence of Bitcoin in the deposit or withdraw options, give us a clue that w
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

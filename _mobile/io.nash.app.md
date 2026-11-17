@@ -1,7 +1,6 @@
 ---
-wsId: nash
 title: 'Nash: Trade & Invest in Crypto'
-date: 2024-07-15
+date: 2026-10-30
 authors:
 - kiwilamb
 - danny
@@ -17,10 +16,9 @@ android:
   users: 10000
   appCountry: us
   released: 2019-08-31
-  updated: 2025-10-29
-  version: 17.0.24
+  updated: 2026-10-01
+  version: 18.0.1
   reviews: 25
-  icon: io.nash.app.webp
   meta: ok
   verdict: nosource
   developerName: nash.io
@@ -29,10 +27,9 @@ iphone:
   idd: 1475759236
   appCountry: de
   released: 2019-09-06
-  updated: 2025-11-03
-  version: 17.0.24
+  updated: 2026-10-06
+  version: 18.0.1
   reviews: 106
-  icon: io.nash.app.webp
   meta: ok
   verdict: nosource
   developerName: Neon Exchange AG
@@ -53,6 +50,8 @@ Our verdict: As there is no source code to be found anywhere, this wallet is at 
 ---
 
 ## iPhone
+
+**Update 2026-10-30:** The app is back in the App Store, as "Nash: Spend, save & invest", in Germany and France, though not in the US store. The 2022 note below is out of date.
 
 **Update 2022-10-21**: This app is not available anymore.
 

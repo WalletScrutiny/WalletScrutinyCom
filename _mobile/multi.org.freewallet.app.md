@@ -1,7 +1,6 @@
 ---
-wsId: mwfreewallet
 title: Freewallet MultiWallet Classic
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
@@ -20,7 +19,6 @@ android:
   updated: 2018-10-29
   version: 1.0.69
   reviews: 148
-  icon: multi.org.freewallet.app.webp
   meta: removed
   verdict: custodial
 iphone:
@@ -30,7 +28,6 @@ iphone:
   updated: 2023-10-10
   version: 1.18.6
   reviews: 1304
-  icon: mw.org.freewallet.app.webp
   meta: removed
   verdict: custodial
   developerName: Freewallet
@@ -51,4 +48,4 @@ Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

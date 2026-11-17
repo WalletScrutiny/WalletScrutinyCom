@@ -1,7 +1,6 @@
 ---
-wsId: BinanceTR
 title: 'Binance TR: Crypto Trading'
-date: 2021-10-21
+date: 2026-10-30
 authors:
 - danny
 website: https://www.binance.tr/
@@ -19,8 +18,7 @@ android:
   released: 2021-07-16
   updated: 2026-09-04
   version: 4.6.0
-  reviews: 21819
-  icon: com.cloud.tr.webp
+  reviews: 21856
   meta: ok
   verdict: custodial
   developerName: Binance TR
@@ -31,8 +29,7 @@ iphone:
   released: 2021-02-18
   updated: 2026-09-05
   version: 4.6.0
-  reviews: 181740
-  icon: com.binanceCloudTR.binance.webp
+  reviews: 182578
   meta: ok
   verdict: custodial
   developerName: BINANCE TURKEY KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI
@@ -40,6 +37,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** On 2026-10-30 Binance TR [temporarily stopped crypto withdrawals](https://www.diken.com.tr/binance-turkiyede-kripto-cekimlerini-durdurdu/) as a precaution after a [hack of Binance](https://www.engadget.com/2301941/binance-hacked-for-estimated-6-3-billion-in-record-crypto-theft/), while trading and Turkish lira deposits and withdrawals kept working.
 
 ## App Description
 
@@ -57,7 +56,7 @@ Additionally, here is what it states about its own security:
 
 ### User Agreement
 
-From [3.8.3, Rights and Obligations of the User:](https://www.trbinance.com/en/agreement)
+From [3.8.3, Rights and Obligations of the User:](https://www.binance.tr/en/agreement)
 
 > In the event we are obliged by law or governmental orders to make a payment or assume other liabilities arising from or related to such activities, you shall compensate us for all our losses and damages in a way satisfactory for us and **you hereby agree that we are entitled to take all reasonable measures at our sole discretion to relieve us of the foregoing liabilities, including but not limited to freezing or compulsorily transfer your assets.**
 
@@ -69,4 +68,4 @@ Like its counterpart {% include walletLink.html wallet='android/com.binance.dev'
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

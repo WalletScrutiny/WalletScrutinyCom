@@ -1,7 +1,6 @@
 ---
-wsId: ourbitBitcoin
 title: 'Ourbit: Buy Bitcoin & Crypto'
-date: 2025-11-26
+date: 2026-10-30
 authors:
 - danny
 website: https://www.ourbit.com
@@ -21,7 +20,6 @@ android:
   updated: 2026-06-22
   version: 1.21.3
   reviews: 64
-  icon: com.ourbit.client.webp
   meta: removed
   verdict: custodial
   developerName: Ourbit
@@ -30,10 +28,9 @@ iphone:
   idd: '6483944320'
   appCountry: us
   released: 2024-07-28
-  updated: 2026-09-26
-  version: 1.25.5
-  reviews: 226
-  icon: com.ourbit.www.webp
+  updated: 2026-10-12
+  version: 1.26.1
+  reviews: 238
   meta: ok
   verdict: custodial
   developerName: Ourbit Holdings Ltd
@@ -54,4 +51,4 @@ Cold wallet custody implementation indicates the exchange maintains control over
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

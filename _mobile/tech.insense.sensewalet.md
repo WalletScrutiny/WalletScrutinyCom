@@ -1,7 +1,6 @@
 ---
-wsId: iwallet
 title: iWallet - blockchain wallet for Bitcoin, Ethereum
-date: 2021-11-16
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -18,7 +17,6 @@ android:
   updated: 2019-06-21
   version: 0.0068beta
   reviews: 15
-  icon: tech.insense.sensewalet.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -28,11 +26,12 @@ iphone:
   updated: 2021-09-09
   version: '2.35'
   reviews: 46
-  icon: com.iwallet.iwallet.webp
   meta: removed
   verdict: nosource
 
 ---
+
+**Update 2026-10-30:** iWallet is defunct. The app is gone from both stores and the provider's website no longer works.
 
 ## Android
 
@@ -67,4 +66,4 @@ verify it, we remain with the verdict: **not verifiable**.
 
 
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

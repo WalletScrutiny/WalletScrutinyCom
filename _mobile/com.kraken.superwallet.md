@@ -1,7 +1,6 @@
 ---
-wsId: krakenSuperWallet
 title: 'Kraken Wallet: Crypto & NFT'
-date: 2025-02-04
+date: 2026-10-30
 authors:
 - danny
 website: https://kraken.com/wallet
@@ -13,7 +12,6 @@ social:
 features:
 - multiAccount
 - fingerprint
-- foss
 - hd
 redirect_from:
 - /android/com.kraken.superwallet/
@@ -23,29 +21,29 @@ android:
   users: 100000
   appCountry: us
   released: 2024-04-11
-  updated: 2026-09-23
-  version: 2.5.0 (7)
-  reviews: 136
-  icon: com.kraken.superwallet.webp
+  updated: 2026-10-06
+  version: 2.6.0 (36)
+  reviews: 137
   meta: ok
-  verdict: sourceavailable
+  verdict: nosource
   developerName: Payward, Inc.
-  repository: https://github.com/krakenfx/wallet
+  repository: https://github.com/krakenfx/wallet#deadLink
 iphone:
   appId: com.kraken.superwallet.app
   idd: '1626327149'
   appCountry: us
   released: 2024-04-17
-  updated: 2026-09-29
-  version: 2.5.0
-  reviews: 1283
-  icon: com.kraken.superwallet.app.webp
+  updated: 2026-10-07
+  version: 2.6.0
+  reviews: 1282
   meta: ok
-  verdict: sourceavailable
+  verdict: nosource
   developerName: Kraken
-  repository: https://github.com/krakenfx/wallet
+  repository: https://github.com/krakenfx/wallet#deadLink
 
 ---
+
+**Update 2026-10-30:** Kraken removed the wallet's source code from GitHub. The [repository](https://web.archive.org/web/20260818153247/https://github.com/krakenfx/wallet) was still online in August 2026 and is gone now. Its last published code was version 1.29.0 from May 2026 (kept in [third-party copies](https://github.com/sftwrstef/wallet)), while the apps are at version 2.6.0, so the apps are now {% include verdictBadge.html verdict="nosource" type='short' %}.
 
 ## Android
 
@@ -65,8 +63,6 @@ Kraken Superwallet is a self-custodial cryptocurrency wallet designed for secure
 
 The wallet is **source-available** and should be verified using Nostr verifications.
 
-{% include featureEvidence.html feature="foss" quote="Kraken Wallet's source code is released under the terms of the MIT license." source="GitHub README" %}
-
 {% include featureEvidence.html feature="hd" quote="Import Wallets (BIP39 standard)" source="GitHub README" %}
 
 {% include featureEvidence.html feature="fingerprint" quote="Data encryption using password and/or biometrics" source="GitHub README" %}
@@ -77,11 +73,9 @@ An issue has been opened at [https://github.com/krakenfx/wallet/discussions/59](
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="hd" quote="Import Wallets (BIP39 standard)" source="GitHub README" %}
-
-{% include featureEvidence.html feature="foss" quote="Kraken Wallet's source code is released under the terms of the MIT license." source="GitHub README" %}
 
 {% include featureEvidence.html feature="fingerprint" quote="Data encryption using password and/or biometrics" source="GitHub README" %}
 

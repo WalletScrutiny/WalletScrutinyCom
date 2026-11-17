@@ -3,8 +3,24 @@ import { getFirstTagValue, getStatusText } from "./verifications_common.mjs";
 import { formatDate } from "./format-utils.mjs";
 import { updateTableVisibility } from "./assets-table-filters.mjs";
 import { el, sanitizeHttpUrl } from "./html-utils.mjs";
+import { wsIcon } from "./icon.mjs";
 
 export { getStatusText };
+
+/**
+ * window.wallets starts as the short fewWallets list; allWallets.js replaces it
+ * once loaded. Resolves when the full list is there (or after 15 s).
+ */
+export function whenAllWalletsLoaded() {
+  if (window.allWalletsLoaded) return Promise.resolve();
+  return new Promise((resolve) => {
+    const timer = setTimeout(resolve, 15000);
+    window.addEventListener('allWalletsLoaded', () => {
+      clearTimeout(timer);
+      resolve();
+    }, { once: true });
+  });
+}
 
 export function formatZapAmount(amount) {
   if (amount >= 1000000) {
@@ -46,12 +62,12 @@ export function formatCommentDate(timestamp) {
   }
   
   // For comments within a month, show weeks
-  if (diffInWeeks < 4) {
+  if (diffInMonths < 1) {
     return `${diffInWeeks} week${diffInWeeks > 1 ? 's' : ''} ago`;
   }
   
   // For comments within a year, show months
-  if (diffInMonths < 12) {
+  if (diffInYears < 1) {
     return `${diffInMonths} month${diffInMonths > 1 ? 's' : ''} ago`;
   }
   
@@ -81,6 +97,22 @@ export function getAttachmentInfo(attachment) {
     name,
     sizeInKb
   };
+}
+
+const STATUS_PILL_ICONS = {
+  reproducible: 'check',
+  negative: 'xmark',
+  warning: 'triangle-exclamation',
+  neutral: 'minus',
+};
+
+/* The mark at the start of a verification status pill: the same check / cross as the modal's verdict. */
+export function createStatusPillMark(modifier) {
+  return el('span', {
+    className: 'verification-status-pill__mark',
+    'aria-hidden': 'true',
+    html: wsIcon(STATUS_PILL_ICONS[modifier] ?? STATUS_PILL_ICONS.neutral),
+  });
 }
 
 export function getStatusIcon(status) {

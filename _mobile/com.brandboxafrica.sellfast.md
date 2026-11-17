@@ -1,6 +1,6 @@
 ---
 title: SellfastPayfast
-date: 2024-07-05
+date: 2026-10-30
 website: https://sellfastpayfast.com
 redirect_from:
 - /android/com.brandboxafrica.sellfast/
@@ -11,7 +11,6 @@ android:
   updated: 2021-03-15
   version: 1.0.0
   reviews: 1
-  icon: com.brandboxafrica.sellfast.webp
   meta: removed
   verdict: wip
   developerName: BRANDBOX AFRICA

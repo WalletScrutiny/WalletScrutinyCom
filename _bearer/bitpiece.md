@@ -17,11 +17,10 @@ shop:
 country: US
 price: 
 repository: https://github.com/jondale/serpcoin
-icon: bitpiece.webp
 bugbounty: 
 meta: obsolete
 verdict: prefilled
-date: 2022-05-19
+date: 2026-10-30
 signer: 
 twitter: 
 social:

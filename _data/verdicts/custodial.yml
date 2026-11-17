@@ -27,6 +27,17 @@ details: >
   whole to avoid misguiding users that follow our assessment.**
   
   
+  **Balances on operator-dependent layers (Spark, Ark and similar)** are
+  judged by one question: "Can a user, with only what the app gives them and
+  expecting help from nobody, actually force their money onto the Bitcoin
+  blockchain?" Such a balance counts as self-custodial only for the part that
+  the app itself shows the user could recover this way, calculated without
+  network access at a fee rate the user chooses, and only once a recovery
+  from that app has been demonstrated, because the app decides how the
+  balance is split and therefore how much of it can come back. The rest of
+  the balance is considered custodial.
+  
+  
   We have to acknowledge that a huge majority of Bitcoiners are currently using
   custodial Bitcoin banks. If you do, please:
 

@@ -1,6 +1,6 @@
 ---
 title: EX5 Crypto Exchange | BTC
-date: 2025-11-10
+date: 2026-10-30
 website: https://ex5.com
 redirect_from:
 - /android/com.ex5.exchange/
@@ -10,7 +10,6 @@ android:
   appCountry: us
   updated: 2025-10-31
   version: 1.0.4
-  icon: com.ex5.exchange.webp
   meta: fewusers
   verdict: wip
   developerName: EX5

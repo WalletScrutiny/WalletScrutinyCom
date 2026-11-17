@@ -1,7 +1,6 @@
 ---
-wsId: kryptogo
 title: KryptoGO - Web3 Social Payment
-date: 2023-04-28
+date: 2026-10-30
 authors:
 - danny
 website: https://kryptogo.com
@@ -20,10 +19,9 @@ android:
   users: 10000
   appCountry: us
   released: 2021-12-28
-  updated: 2026-09-24
-  version: 3.101.0
+  updated: 2026-10-14
+  version: 3.103.0
   reviews: 3
-  icon: com.kryptogo.walletapp.webp
   meta: ok
   verdict: nosource
   developerName: KryptoGO
@@ -35,7 +33,6 @@ iphone:
   updated: 2026-09-24
   version: 3.101.0
   reviews: 3
-  icon: com.kryptogo.walletapp.webp
   meta: ok
   verdict: nosource
   developerName: KryptoGO
@@ -46,9 +43,9 @@ iphone:
 
 ## Update 2024-07-20
 
-A search for the app ID "com.kryptogo.walletapp" turns up some potential android repository - but nothing conclusive. One such hit is for the repository called ["kg_sdk_example"](https://github.com/kryptogo/kg_sdk_example). This comes with an *android_example* folder and a build.gradle.kts file but no build instructions, no tags, branches or documentation that would match up with the Google Play version. 
+A search for the app ID "com.kryptogo.walletapp" turns up some potential android repository - but nothing conclusive. One such hit is for the repository called ["kg_sdk_example"](https://github.com/kryptogo/kg-mobile-wallet-sdk) (since renamed to kg-mobile-wallet-sdk). This comes with an *android_example* folder and a build.gradle.kts file but no build instructions, no tags, branches or documentation that would match up with the Google Play version. 
 
-We filed an issue on [GitHub](https://github.com/kryptogo/kg_sdk_example/issues/1) and posted on [X.](https://x.com/dannybuntu/status/1814586277431550449)
+We filed an issue on [GitHub](https://github.com/kryptogo/kg-mobile-wallet-sdk/issues/1) and posted on [X.](https://x.com/dannybuntu/status/1814586277431550449)
 
 ## Review 2023-04-28
 
@@ -76,4 +73,4 @@ We messaged them on twitter but for the meanwhile, we'll tag this as having **no
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: redotpayCrypto
 title: 'RedotPay: Crypto Card & Pay'
-date: 2026-01-23
+date: 2026-10-30
 authors:
 - danny
 website: https://www.redotpay.com
@@ -19,10 +18,9 @@ android:
   users: 5000000
   appCountry: us
   released: 2023-06-09
-  updated: 2026-09-25
-  version: 3.14.2
-  reviews: 1319
-  icon: com.redotpay.webp
+  updated: 2026-10-05
+  version: 3.14.3
+  reviews: 1340
   meta: ok
   verdict: custodial
   developerName: Red Dot Technology Limited
@@ -33,8 +31,7 @@ iphone:
   released: 2023-06-13
   updated: 2026-09-28
   version: 3.14.3
-  reviews: 4134
-  icon: com.redotpay.webp
+  reviews: 4257
   meta: ok
   verdict: custodial
   developerName: Red Dot Technology Limited.
@@ -68,4 +65,4 @@ However, this self-custody wallet cannot readily be accessible without having to
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

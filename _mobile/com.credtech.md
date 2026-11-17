@@ -1,6 +1,6 @@
 ---
 title: 'Credtech Wallet- Buy Bitcoin, '
-date: 2023-04-16
+date: 2026-10-30
 redirect_from:
 - /android/com.credtech/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-02-07
   updated: 2021-02-11
   version: '1.1'
-  icon: com.credtech.webp
   meta: removed
   verdict: wip
   developerName: Block Cloud

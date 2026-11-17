@@ -1,7 +1,6 @@
 ---
-wsId: AMarkets
 title: 'AMarkets: Finance & Trading'
-date: 2021-10-13
+date: 2026-10-30
 authors:
 - danny
 website: https://www.amarkets.com
@@ -17,28 +16,29 @@ android:
   users: 5000000
   appCountry: us
   released: 2019-05-31
-  updated: 2026-09-30
-  version: 2.1.148
-  reviews: 229
-  icon: com.amarkets.webp
+  updated: 2026-10-06
+  version: 2.1.150
+  reviews: 232
   meta: ok
   verdict: nosendreceive
   developerName: AMarkets LLC
 iphone:
   appId: amarkets.app
   idd: '1495820700'
+  appCountry: us
   released: 2020-02-12
   updated: 2026-05-25
   version: 1.4.174
   reviews: 3042
-  icon: amarkets.app.webp
-  meta: defunct
+  meta: ok
   verdict: nosendreceive
   developerName: AMarkets Ltd.
 
 ---
 
 ## Android
+
+**Update 2026-10-30:** The iPhone app was marked defunct, but it is listed on the US App Store with an October 2026 update, so that mark is removed.
 
 ## App Description
 
@@ -71,4 +71,4 @@ This app is a brokerage service and not for managing actual bitcoin. You can't r
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

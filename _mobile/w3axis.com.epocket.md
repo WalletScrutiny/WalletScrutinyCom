@@ -1,14 +1,13 @@
 ---
-wsId: ePocketExchange
 title: e-Pocket
-date: 2023-09-06
+date: 2026-10-30
 authors:
 - danny
-website: https://www.e-pocketexchange.com/
+website: https://e-pocket.com.au
 twitter: e_Pocket
 social:
 - https://www.instagram.com/epocketau
-- https://www.e-pocketexchange.com
+- https://web.archive.org/web/20240921221614/https://www.e-pocketexchange.com/
 redirect_from:
 - /android/w3axis.com.epocket/
 - /iphone/com.live.epocket/
@@ -17,10 +16,9 @@ android:
   users: 10000
   appCountry: us
   released: 2018-06-23
-  updated: 2026-09-28
-  version: '3.61'
+  updated: 2026-10-01
+  version: '3.62'
   reviews: 2
-  icon: w3axis.com.epocket.webp
   meta: ok
   verdict: custodial
   developerName: e-Pocket Pty Ltd
@@ -29,15 +27,16 @@ iphone:
   idd: '1445852225'
   appCountry: au
   released: 2018-12-19
-  updated: 2026-09-25
-  version: 3.4.10
-  reviews: 38
-  icon: com.live.epocket.webp
+  updated: 2026-10-13
+  version: 3.4.12
+  reviews: 40
   meta: ok
   verdict: custodial
   developerName: e-Pocket Pty Ltd
 
 ---
+
+**Update 2026-10-30:** Both apps no longer describe a crypto exchange. Their current Google Play and App Store descriptions talk only about international money transfers, and the old exchange site ([archived](https://web.archive.org/web/20240921221614/https://www.e-pocketexchange.com/)) has forwarded to the money-transfer site [e-pocket.com](https://e-pocket.com/au-en/) since February 2025, which does not mention crypto. We did not test whether the app still holds bitcoin, so the verdict below stays until we do.
 
 ## Android
 
@@ -60,4 +59,4 @@ This is a *custodial* platform with a **non-verifiable** app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

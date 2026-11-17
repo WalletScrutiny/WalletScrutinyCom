@@ -1,7 +1,6 @@
 ---
-wsId: cTrader
 title: 'cTrader: CFD Trading & Charts'
-date: 2023-07-01
+date: 2026-10-30
 authors:
 - danny
 website: https://ctrader.com/forum
@@ -18,10 +17,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2014-02-10
-  updated: 2026-09-25
-  version: 5.10.220
-  reviews: 397
-  icon: com.spotware.ct.webp
+  updated: 2026-10-13
+  version: 5.11.110
+  reviews: 398
   meta: ok
   verdict: nosendreceive
   developerName: Spotware
@@ -30,10 +28,9 @@ iphone:
   idd: '767428811'
   appCountry: my
   released: 2013-12-05
-  updated: 2026-09-28
-  version: 5.11.100
-  reviews: 831
-  icon: com.spotware.ct.webp
+  updated: 2026-10-06
+  version: 5.11.110
+  reviews: 835
   meta: ok
   verdict: nosendreceive
   developerName: Spotware
@@ -64,4 +61,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

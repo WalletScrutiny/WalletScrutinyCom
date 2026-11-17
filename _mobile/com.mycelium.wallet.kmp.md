@@ -1,7 +1,6 @@
 ---
-wsId: mycelium
 title: 'Mycelium Wallet: Bitcoin&USDT'
-date: 2026-05-27
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -28,9 +27,8 @@ android:
   users: 500
   appCountry: us
   released: 2026-02-06
-  updated: 2026-09-22
-  version: 1.1.36
-  icon: com.mycelium.wallet.kmp.webp
+  updated: 2026-10-09
+  version: 1.1.40
   signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
   meta: fewusers
   verdict: wip
@@ -44,8 +42,7 @@ iphone:
   released: 2014-12-17
   updated: 2026-09-25
   version: '2.12'
-  reviews: 21
-  icon: com.mycelium.wallet-ios.webp
+  reviews: 25
   meta: ok
   verdict: sourceavailable
   developerName: MRD X-Change GmbH

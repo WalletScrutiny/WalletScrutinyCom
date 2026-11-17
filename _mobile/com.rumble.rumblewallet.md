@@ -1,7 +1,6 @@
 ---
-wsId: rumbleWallet
 title: 'Rumble Wallet: Buy Crypto, BTC'
-date: 2026-01-12
+date: 2026-10-30
 authors:
 - danny
 website: https://wallet.rumble.com
@@ -22,8 +21,7 @@ android:
   released: 2026-01-19
   updated: 2026-09-14
   version: 2.8.0
-  reviews: 41
-  icon: com.rumble.rumblewallet.webp
+  reviews: 47
   meta: ok
   verdict: nosource
   developerName: Rumble Inc
@@ -34,8 +32,7 @@ iphone:
   released: 2025-12-15
   updated: 2026-09-15
   version: 2.7.0
-  reviews: 197
-  icon: com.rumble.wallet.webp
+  reviews: 225
   meta: ok
   verdict: nosource
   developerName: Rumble Inc.
@@ -68,7 +65,7 @@ This app is **not source available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="hd" quote="Restore access to your crypto wallet and cryptocurrency assets with a 12-word seed phrase. You control your account, no middlemen." source="Store" %}
 

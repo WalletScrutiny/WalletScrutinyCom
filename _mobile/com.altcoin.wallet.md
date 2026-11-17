@@ -1,7 +1,7 @@
 ---
 title: Altcoin Wallet. Your coins pro
-date: 2024-07-05
-website: https://altcoin-wallet.online/
+date: 2026-10-30
+website: https://altcoin-wallet.online/#deadLink
 redirect_from:
 - /android/com.altcoin.wallet/
 android:
@@ -11,7 +11,6 @@ android:
   updated: 2020-01-21
   version: v1.6
   reviews: 11
-  icon: com.altcoin.wallet.webp
   meta: removed
   verdict: wip
   developerName: Altcoin Wallet

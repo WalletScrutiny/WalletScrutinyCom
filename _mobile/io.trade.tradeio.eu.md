@@ -1,6 +1,6 @@
 ---
 title: trade.io - Smarter crypto trad
-date: 2023-05-05
+date: 2026-10-30
 authors:
 - danny
 website: http://trade.io#deadLink
@@ -13,7 +13,6 @@ android:
   updated: 2019-09-20
   version: 1.0.0
   reviews: 6
-  icon: io.trade.tradeio.eu.webp
   meta: removed
   verdict: wip
   developerName: Trade.io

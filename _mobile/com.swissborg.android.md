@@ -1,7 +1,6 @@
 ---
-wsId: swissborg
 title: 'SwissBorg: Buy Bitcoin, crypto'
-date: 2021-08-27
+date: 2026-10-30
 authors:
 - danny
 website: https://swissborg.com
@@ -18,10 +17,9 @@ android:
   users: 500000
   appCountry: gb
   released: 2020-06-16
-  updated: 2026-09-25
-  version: 1.146.0
+  updated: 2026-10-12
+  version: 1.147.0
   reviews: 988
-  icon: com.swissborg.android.webp
   meta: ok
   verdict: custodial
   developerName: SwissBorg
@@ -30,10 +28,9 @@ iphone:
   idd: 1442483481
   appCountry: gb
   released: 2020-03-31
-  updated: 2026-09-28
-  version: 1.146.0
-  reviews: 2725
-  icon: com.swissborg.ios.webp
+  updated: 2026-10-13
+  version: 1.147.0
+  reviews: 2747
   meta: ok
   verdict: custodial
   developerName: SBorg SA
@@ -69,4 +66,4 @@ Verdict: Swissborg is **custodial** and **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,6 +1,6 @@
 ---
 title: Excusd
-date: 2022-01-31
+date: 2026-10-30
 redirect_from:
 - /android/excusd.com/
 android:
@@ -10,7 +10,6 @@ android:
   updated: 2021-04-06
   version: '1.0'
   reviews: 4
-  icon: excusd.com.webp
   meta: removed
   verdict: wip
 

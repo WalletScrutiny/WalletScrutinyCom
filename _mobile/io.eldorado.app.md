@@ -1,7 +1,6 @@
 ---
-wsId: elDoradoWalletExchange
 title: 'El Dorado: Enviar Dinero y QR'
-date: 2023-07-18
+date: 2026-10-30
 authors:
 - danny
 website: https://eldorado.io
@@ -18,10 +17,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2022-04-19
-  updated: 2026-09-17
-  version: 1.3.2230
-  reviews: 491
-  icon: io.eldorado.app.webp
+  updated: 2026-10-06
+  version: 1.3.2253
+  reviews: 492
   meta: ok
   verdict: custodial
   developerName: eldorado.io
@@ -33,7 +31,6 @@ iphone:
   updated: 2025-05-16
   version: 1.3.1492
   reviews: 6036
-  icon: io.eldorado.app.v1.webp
   meta: removed
   verdict: custodial
   developerName: eldorado.io
@@ -59,4 +56,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

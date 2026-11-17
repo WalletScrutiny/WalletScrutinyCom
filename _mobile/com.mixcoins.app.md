@@ -1,6 +1,6 @@
 ---
 title: Mixcoins
-date: 2024-02-05
+date: 2026-10-30
 redirect_from:
 - /android/com.mixcoins.app/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2019-07-03
   updated: 2019-07-03
   version: 1.1.2
-  icon: com.mixcoins.app.webp
   meta: removed
   verdict: wip
   developerName: Beijing Bi Bei Technology Co., Ltd.

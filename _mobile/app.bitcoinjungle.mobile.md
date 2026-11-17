@@ -1,7 +1,6 @@
 ---
-wsId: bitcoinjungle
 title: Bitcoin Jungle
-date: 2023-10-20
+date: 2026-10-30
 authors:
 - danny
 website: https://bitcoinjungle.app
@@ -24,7 +23,6 @@ android:
   updated: 2026-05-24
   version: 1.4.8
   reviews: 2
-  icon: app.bitcoinjungle.mobile.webp
   alternativeStores:
   - zapstore
   meta: ok
@@ -39,7 +37,6 @@ iphone:
   updated: 2026-05-28
   version: 1.4.8
   reviews: 18
-  icon: app.bitcoinjungle.ios.webp
   meta: ok
   verdict: custodial
   developerName: Bitcoin Jungle LLC
@@ -72,6 +69,6 @@ It's not explicitly specified whether Bitcoin Jungle is a custodial wallet. Howe
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="foss" quote="MIT License Copyright (c) 2021 Galoy Inc Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software" source="GitHub README" %}

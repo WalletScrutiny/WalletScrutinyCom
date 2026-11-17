@@ -1,7 +1,6 @@
 ---
-wsId: criptanWallet
 title: Criptan - Complement your bank
-date: 2023-12-14
+date: 2026-10-30
 authors:
 - danny
 website: https://criptan.com
@@ -17,9 +16,8 @@ android:
   users: 50000
   appCountry: us
   released: 2020-08-23
-  updated: 2026-09-07
-  version: 3.6.36
-  icon: com.criptan.app.webp
+  updated: 2026-09-30
+  version: 3.7.5
   meta: ok
   verdict: custodial
   developerName: CRIPTAN
@@ -28,10 +26,9 @@ iphone:
   idd: '1497960991'
   appCountry: es
   released: 2020-06-18
-  updated: 2026-09-09
-  version: 3.6.36
-  reviews: 501
-  icon: com.criptan.app.webp
+  updated: 2026-09-30
+  version: 3.7.5
+  reviews: 502
   meta: ok
   verdict: custodial
   developerName: Criptan Trade SL
@@ -58,7 +55,7 @@ This is a **custodial** service with a non-verifiable app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="fingerprint" quote="nuestra app incluye sistemas de autenticación de dos factores (2FA) y seguridad biométrica" source="Store" %}
 

@@ -1,6 +1,6 @@
 ---
 title: CryptoMerchant POS
-date: 2024-12-23
+date: 2026-10-30
 website: https://www.cryptomerchant.eu
 redirect_from:
 - /android/eu.cryptomerchant.pos/
@@ -10,7 +10,6 @@ android:
   released: 2019-03-04
   updated: 2023-10-19
   version: '1.6'
-  icon: eu.cryptomerchant.pos.webp
   meta: removed
   verdict: wip
   developerName: Wayne Service Ltd

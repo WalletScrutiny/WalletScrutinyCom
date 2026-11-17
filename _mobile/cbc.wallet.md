@@ -1,6 +1,6 @@
 ---
 title: CBC WALLET
-date: 2023-11-02
+date: 2026-10-30
 website: https://web.archive.org/web/20240524125438/https://cryptoboxcoin.com/
 redirect_from:
 - /android/cbc.wallet/
@@ -10,7 +10,6 @@ android:
   released: 2022-03-27
   updated: 2022-03-27
   version: '9.8'
-  icon: cbc.wallet.webp
   meta: removed
   verdict: wip
   developerName: CryptoBoxCoin

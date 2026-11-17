@@ -1,7 +1,6 @@
 ---
-wsId: bitazza
 title: 'Bitazza TH: Buy & Trade Crypto'
-date: 2021-09-03
+date: 2026-10-30
 authors:
 - danny
 website: http://bitazza.com/
@@ -18,10 +17,9 @@ android:
   users: 500000
   appCountry: th
   released: 2020-09-29
-  updated: 2026-09-25
-  version: 4.12.3
-  reviews: 2528
-  icon: com.bitazza.android.webp
+  updated: 2026-10-05
+  version: 4.12.4
+  reviews: 2529
   meta: ok
   verdict: custodial
   developerName: Bitazza Company Limited
@@ -30,10 +28,9 @@ iphone:
   idd: '1476944844'
   appCountry: th
   released: 2020-05-25
-  updated: 2026-09-29
-  version: 5.2.1
-  reviews: 2630
-  icon: com.bitazza.ios.webp
+  updated: 2026-10-14
+  version: 5.2.4
+  reviews: 2655
   meta: ok
   verdict: custodial
   developerName: Bitazza Company Limited
@@ -62,4 +59,4 @@ Verdict is **custodial**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: smartWallet
 title: Smart Wallet
-date: 2025-12-08
+date: 2026-10-30
 authors:
 - danny
 website: https://smartwallet.com
@@ -18,7 +17,6 @@ android:
   updated: 2026-08-05
   version: 2.7.1
   reviews: 36
-  icon: com.smartblockchain.wallet.webp
   meta: ok
   verdict: nosource
   developerName: YamaD LLC
@@ -30,7 +28,6 @@ iphone:
   updated: 2026-08-11
   version: 2.7.1
   reviews: 20
-  icon: com.smartblockchain.wallet.webp
   meta: ok
   verdict: nosource
   developerName: Yamad LLC
@@ -53,6 +50,6 @@ A [search on GitHub](https://github.com/search?q=%22com.smartblockchain.wallet%2
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="multiAccount" quote="You can create an unlimited number of wallets with just a few clicks, switch between different cryptocurrencies and manage them from a single app." source="Store" %}

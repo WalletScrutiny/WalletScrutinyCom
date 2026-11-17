@@ -1,6 +1,6 @@
 ---
 title: Hubkoin
-date: 2023-08-04
+date: 2026-10-30
 redirect_from:
 - /android/com.hashcash.hubkoin/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-04-11
   updated: 2023-02-16
   version: 1.0.4
-  icon: com.hashcash.hubkoin.webp
   meta: removed
   verdict: wip
   developerName: Hubkoin

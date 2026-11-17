@@ -1,7 +1,6 @@
 ---
-wsId: altcoinTrader
 title: 'AltCoinTrader: Bitcoin, Crypto'
-date: 2023-02-03
+date: 2026-10-30
 authors:
 - danny
 website: https://www.altcointrader.co.za/
@@ -17,7 +16,6 @@ android:
   updated: 2025-05-13
   version: 1.3.0
   reviews: 10
-  icon: co.za.altcointrader.webp
   meta: stale
   verdict: custodial
   developerName: AltCoinTrader
@@ -28,8 +26,7 @@ iphone:
   released: 2020-02-21
   updated: 2020-02-22
   version: '1.0'
-  reviews: 84
-  icon: za.co.altcointrader.ios.webp
+  reviews: 85
   meta: obsolete
   verdict: custodial
   developerName: AltCoinTrader
@@ -59,4 +56,4 @@ This service has the indications that it is a **custodial service**. This is evi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

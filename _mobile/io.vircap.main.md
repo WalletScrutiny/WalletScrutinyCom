@@ -1,7 +1,6 @@
 ---
-wsId: vircapExchange
 title: Vircap
-date: 2024-11-04
+date: 2026-10-30
 authors:
 - danny
 website: https://vircap.io#deadLink
@@ -17,7 +16,6 @@ android:
   users: 1000
   updated: 2024-06-03
   version: VARY
-  icon: io.vircap.main.webp
   meta: removed
   verdict: custodial
   developerName: Vircap LLC
@@ -29,12 +27,13 @@ iphone:
   updated: 2024-06-05
   version: 1.0.47
   reviews: 9
-  icon: io.vircap.main.webp
   meta: removed
   verdict: custodial
   developerName: Vircap LLC
 
 ---
+
+**Update 2026-10-30:** The Vircap website now forwards to an unrelated Vietnamese football results site, and both apps are gone from the stores.
 
 ## Android
 
@@ -62,4 +61,4 @@ Platforms that store the private keys for their users are **custodial**, and the
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

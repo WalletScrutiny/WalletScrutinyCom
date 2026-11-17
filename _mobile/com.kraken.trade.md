@@ -1,7 +1,6 @@
 ---
-wsId: krakent
-title: 'Kraken Pro: Crypto & Stocks'
-date: 2020-05-29
+title: 'Kraken Pro: Advanced Trading'
+date: 2026-10-30
 authors:
 - leo
 website: https://www.kraken.com
@@ -23,10 +22,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2019-10-24
-  updated: 2026-09-25
-  version: 5.74.0
-  reviews: 4804
-  icon: com.kraken.trade.webp
+  updated: 2026-10-09
+  version: 6.1.1
+  reviews: 4818
   meta: ok
   verdict: custodial
   developerName: Payward, Inc.
@@ -35,10 +33,9 @@ iphone:
   idd: 1473024338
   appCountry: us
   released: 2019-11-12
-  updated: 2026-09-28
-  version: 5.74.0
-  reviews: 25669
-  icon: com.kraken.trade.app.webp
+  updated: 2026-10-12
+  version: 6.1.1
+  reviews: 25678
   meta: ok
   verdict: custodial
   developerName: Kraken

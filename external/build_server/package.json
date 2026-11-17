@@ -6,7 +6,7 @@
   "main": "index.mjs",
   "scripts": {
     "start": "node index.mjs",
-    "test": "BUILD_SERVER_TEST=1 BUILD_SERVER_DB_PATH=:memory: node --test --test-reporter=spec \"test/**/*.test.mjs\""
+    "test": "BUILD_SERVER_TEST=1 BUILD_SERVER_DB_PATH=:memory: node --test --test-reporter=../../test/summary-reporter.mjs \"test/**/*.test.mjs\""
   },
   "dependencies": {
     "app-info-parser": "^1.1.6",
@@ -14,7 +14,7 @@
     "isomorphic-dompurify": "^3.23.0",
     "js-yaml": "^4.3.2",
     "nostr-tools": "2.23.8",
-    "p-queue": "^9.3.3",
+    "p-queue": "^9.3.5",
     "winston": "^3.19.0",
     "winston-daily-rotate-file": "^5.0.0",
     "yauzl": "^3.4.0"

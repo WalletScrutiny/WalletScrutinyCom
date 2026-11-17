@@ -1,6 +1,6 @@
 ---
 title: ديباي - DeBay
-date: 2023-08-04
+date: 2026-10-30
 website: http://ar.debay.io#deadLink
 redirect_from:
 - /android/com.debayarab.platform/
@@ -10,7 +10,6 @@ android:
   released: 2019-12-16
   updated: 2020-02-28
   version: 1.2.3
-  icon: com.debayarab.platform.webp
   meta: removed
   verdict: wip
   developerName: Debay

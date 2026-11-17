@@ -1,7 +1,6 @@
 ---
-wsId: CoinutExchange
 title: COINUT Digital Assets Wallet
-date: 2025-05-26
+date: 2026-10-30
 authors:
 - danny
 website: https://coinut.com
@@ -20,7 +19,6 @@ android:
   updated: 2026-09-18
   version: 0.8.9
   reviews: 15
-  icon: com.coinut.app.webp
   meta: ok
   verdict: custodial
   developerName: COINUT PTE LTD
@@ -32,7 +30,6 @@ iphone:
   updated: 2023-05-31
   version: 3.0.0
   reviews: 5
-  icon: com.coinut.app.webp
   meta: removed
   verdict: custodial
   developerName: Coinut Pte. Ltd.
@@ -60,4 +57,4 @@ As it is unknown who controls the private keys, Coinut is more than likely to be
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

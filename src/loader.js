@@ -8,8 +8,12 @@ const {
   verificationsDataSrc,
   verificationsUiSrc,
   shareUiSrc,
+  opinionsUiSrc,
+  opinionsModerationSrc,
   loadVerificationsUi,
   loadShareUi,
+  loadOpinionsUi,
+  loadOpinionsModeration,
   deferSiteWideLoad,
 } = window.wsLoader;
 
@@ -47,6 +51,11 @@ const startVerificationsData = () => {
 
   (async function() {
     const ndkConnectPromise = nostrConnect();
+    void loadSiteAdminMenu();
+
+    if (loadOpinionsModeration) {
+      appendScript(opinionsModerationSrc);
+    }
 
     if (deferSiteWideLoad) {
       // Wallet pages paint their own table first. The site-wide load below
@@ -81,6 +90,16 @@ const startVerificationsData = () => {
 
   const onUiLoaded = () => {
     window.dispatchEvent(new CustomEvent("verificationsUILoaded"));
+    if (loadOpinionsUi) {
+      // The opinions widget sits at the bottom of review pages: wait until
+      // every page asset has loaded so it does not compete with the initial
+      // render, then fetch its bundle (which depends on verifications_ui).
+      if (document.readyState === 'complete') {
+        appendScript(opinionsUiSrc);
+      } else {
+        window.addEventListener('load', () => appendScript(opinionsUiSrc), { once: true });
+      }
+    }
   };
 
   if (loadVerificationsUi) {

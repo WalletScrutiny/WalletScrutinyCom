@@ -1,6 +1,6 @@
 ---
 title: Peer Trans
-date: 2024-02-05
+date: 2026-10-30
 website: https://peertrans.com#deadLink
 redirect_from:
 - /android/com.peertrans.com.peer_trans/
@@ -10,7 +10,6 @@ android:
   released: 2023-02-10
   updated: 2023-02-11
   version: 1.0.0
-  icon: com.peertrans.com.peer_trans.webp
   meta: removed
   verdict: wip
   developerName: Brain Bee Business Pvt Ltd

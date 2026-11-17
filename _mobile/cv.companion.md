@@ -1,6 +1,6 @@
 ---
 title: QR Watch-Only Wallet
-date: 2024-05-18
+date: 2026-10-30
 website: https://keyst.one/
 redirect_from:
 - /android/cv.companion/
@@ -10,7 +10,6 @@ android:
   released: 2021-09-01
   updated: 2021-09-24
   version: 1.0.0
-  icon: cv.companion.webp
   meta: removed
   verdict: wip
   developerName: Yanssie HK Limited

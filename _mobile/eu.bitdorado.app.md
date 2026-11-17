@@ -1,6 +1,6 @@
 ---
 title: Bitdorado App
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/eu.bitdorado.app/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-05-01
   updated: 2022-05-02
   version: 1.0.15
-  icon: eu.bitdorado.app.webp
   meta: removed
   verdict: wip
   developerName: Halal Solutions yazilim ve ticaret Anonim Sirketi

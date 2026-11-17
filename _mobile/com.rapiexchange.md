@@ -1,7 +1,6 @@
 ---
-wsId: rapixchange
 title: RapiXchangE
-date: 2023-04-29
+date: 2026-10-30
 authors:
 - danny
 website: https://www.rapixchange.com/
@@ -13,10 +12,9 @@ android:
   users: 10000
   appCountry: us
   released: 2022-04-19
-  updated: 2026-09-29
-  version: '3.47'
+  updated: 2026-10-05
+  version: '3.48'
   reviews: 4
-  icon: com.rapiexchange.webp
   meta: ok
   verdict: custodial
   developerName: Rapixchange
@@ -28,7 +26,6 @@ iphone:
   updated: 2023-03-21
   version: '2.4'
   reviews: 2
-  icon: com.rapixchangeapp.webp
   meta: removed
   verdict: custodial
   developerName: Money&Crypto Exchange Corporation
@@ -63,4 +60,4 @@ This is a **custodial** provider.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

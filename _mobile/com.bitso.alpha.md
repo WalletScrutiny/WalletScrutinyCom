@@ -1,6 +1,6 @@
 ---
 title: Bitso Alpha Pro
-date: 2023-02-08
+date: 2026-10-30
 authors:
 - danny
 website: https://bitso.com/alpha/landing
@@ -16,9 +16,8 @@ android:
   appCountry: GI
   released: 2021-09-28
   updated: 2026-09-25
-  version: 1.53.2
-  reviews: 608
-  icon: com.bitso.alpha.webp
+  version: 1.55.0
+  reviews: 609
   meta: ok
   verdict: custodial
   developerName: Bitso

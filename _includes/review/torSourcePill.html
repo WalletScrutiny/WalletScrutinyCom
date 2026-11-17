@@ -1,0 +1,29 @@
+{%- comment -%}
+  "Tor (onion)" pill for a source repository hosted on a Tor onion service.
+  Normal browsers cannot open .onion addresses, so the pill opens a native
+  <dialog> with the address to copy and a link for Tor Browser users.
+  Parameters:
+    url - the .onion repository URL
+{%- endcomment -%}
+<button type="button" class="app-facts-badge app-facts-badge--tor" aria-haspopup="dialog" onclick="this.nextElementSibling.showModal()">
+  {% include icon.html name="onion" %} Tor (onion)
+</button>
+<dialog class="app-facts-dialog" aria-label="Source code on Tor" onclick="if (event.target === this) this.close()">
+  <div class="app-facts-dialog__content">
+    <form method="dialog">
+      <button type="submit" class="app-facts-dialog__close" aria-label="Close" autofocus>{% include icon.html name="xmark" %}</button>
+    </form>
+    <h3>Source code on Tor</h3>
+    <p>
+      This project hosts its code on a Tor onion service. It opens only in
+      <a href="https://www.torproject.org/download/" target="_blank" rel="noopener noreferrer">Tor Browser</a>.
+    </p>
+    <code class="app-facts-dialog__address">{{ include.url }}</code>
+    <div class="app-facts-dialog__actions">
+      <button type="button" class="app-facts-badge app-facts-badge--tor" onclick="navigator.clipboard.writeText(this.closest('.app-facts-dialog__content').querySelector('code').textContent).then(() => { this.textContent = 'Copied' })">
+        {% include icon.html name="copy" %} Copy address
+      </button>
+      <a href="{{ include.url }}" target="_blank" rel="noopener noreferrer">Open in Tor Browser</a>
+    </div>
+  </div>
+</dialog>

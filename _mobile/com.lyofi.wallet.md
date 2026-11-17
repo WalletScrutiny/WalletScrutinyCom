@@ -1,7 +1,6 @@
 ---
-wsId: lyowallet
 title: 'LYO WALLET: NFTs & Crypto'
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - danny
 website: https://wallet.lyofi.com#deadLink
@@ -20,7 +19,6 @@ android:
   released: 2022-05-20
   updated: 2023-12-27
   version: 1.5.1
-  icon: com.lyofi.wallet.webp
   meta: removed
   verdict: nosource
   developerName: DIGILYO APP LTD
@@ -32,12 +30,13 @@ iphone:
   updated: 2023-12-28
   version: 1.5.1
   reviews: 1
-  icon: com.lyo.wallet.webp
   meta: removed
   verdict: nosource
   developerName: DIGILYO APP LTD
 
 ---
+
+**⚠️ Warning:** LYOPAY, the company behind this wallet, has officially ceased operations, according to a notice on [its website](https://lyopay.com).
 
 ## Android
 
@@ -55,4 +54,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

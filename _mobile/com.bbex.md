@@ -1,7 +1,7 @@
 ---
 title: Bluebelt Instant Crypto Bank
-date: 2023-01-02
-website: https://www.bluebelt.asia/
+date: 2026-10-30
+website: https://www.bluebelt.asia/#deadLink
 redirect_from:
 - /android/com.bbex/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2019-07-12
   updated: 2019-11-06
   version: 1.0.5
-  icon: com.bbex.webp
   meta: removed
   verdict: wip
 

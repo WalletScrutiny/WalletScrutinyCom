@@ -1,7 +1,6 @@
 ---
-wsId: PolisPay
 title: PolisPay - Cryptocurrency wallet
-date: 2022-02-10
+date: 2026-10-30
 authors:
 - leo
 website: https://www.polispay.com#deadLink
@@ -17,7 +16,6 @@ android:
   updated: 2021-10-22
   version: 8.9.3
   reviews: 78
-  icon: com.polispay.copay.webp
   meta: removed
   verdict: nosource
 iphone:
@@ -27,11 +25,12 @@ iphone:
   updated: 2021-10-22
   version: 8.9.3
   reviews: 7
-  icon: com.polispay.polispay.webp
   meta: removed
   verdict: nosource
 
 ---
+
+**Update 2026-10-30:** www.polispay.com now redirects to a [GoDaddy page offering the domain for sale](https://www.polispay.com), and the [PolisPay X account](https://x.com/PolisPay) no longer exists.
 
 ## Android
 
@@ -57,4 +56,4 @@ This app is **not verifiable**.
 
 **Update 2022-05-06**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

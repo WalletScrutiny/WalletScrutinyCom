@@ -1,7 +1,6 @@
 ---
-wsId: bitrefill
 title: 'Bitrefill: Gift Card & Games'
-date: 2021-09-12
+date: 2026-10-30
 authors:
 - leo
 website: https://www.bitrefill.com
@@ -19,27 +18,27 @@ android:
   users: 500000
   appCountry: us
   released: 2018-04-10
-  updated: 2026-08-04
-  version: 7.9.0
-  reviews: 291
-  icon: com.bitrefill.app.webp
+  updated: 2026-10-03
+  version: 8.1.0
+  reviews: 292
   meta: ok
-  verdict: custodial
+  verdict: nowallet
   developerName: Bitrefill
 iphone:
   appId: com.bitrefill.bitrefill
   idd: 1378102623
   appCountry: us
   released: 2018-06-05
-  updated: 2026-08-12
-  version: 7.9.0
-  reviews: 485
-  icon: com.bitrefill.bitrefill.webp
+  updated: 2026-10-09
+  version: 8.1.0
+  reviews: 492
   meta: ok
-  verdict: custodial
+  verdict: nowallet
   developerName: Bitrefill
 
 ---
+
+**Update 2026-10-30:** In July 2025 Bitrefill [renamed "Bitrefill Balance" to "Store Credit"](https://www.bitrefill.com/blog/updated-bitrefill-balance-to-store-credit/) and wrote: "Store Credit is non-withdrawable". You can [top it up with BTC](https://help.bitrefill.com/hc/en-us/articles/4402564626450-How-to-add-store-credit-by-paying-with-tokens-from-my-wallet) but only spend it on Bitrefill purchases. A balance you can top up but never get out again is not a wallet, so both apps change from {% include verdictBadge.html verdict="custodial" type='short' %} to {% include verdictBadge.html verdict="nowallet" type='short' %}.
 
 ## Android
 

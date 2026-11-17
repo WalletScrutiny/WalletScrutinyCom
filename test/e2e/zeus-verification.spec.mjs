@@ -1,12 +1,13 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './relay-fixture.mjs';
 
 import {
   attachConsoleGuards,
   waitForVerificationsUi,
   waitForLoadingSpinnerHidden,
   waitForVerificationModalReady,
-  waitForAsciinemaPlayerContent,
+  waitForBuildLogLines,
   waitForNostrDisplayName,
+  injectNip07Signer,
 } from './helpers.mjs';
 
 const ZEUS_VERIFICATION_PATH =
@@ -19,6 +20,8 @@ test.describe('ZEUS verification detail page', () => {
     test.setTimeout(process.env.CI ? 300_000 : 180_000);
 
     const assertNoConsoleErrors = attachConsoleGuards(testInfo, page);
+    // "Share on Nostr" only shows with a NIP-07 extension.
+    await injectNip07Signer(page);
 
     await page.goto(ZEUS_VERIFICATION_PATH);
     await waitForVerificationsUi(page);
@@ -68,79 +71,114 @@ test.describe('ZEUS verification detail page', () => {
 
       expect(createdAtIso).toMatch(/^2026-05-08T16:59:/);
 
+      // Under the title, the description (when there is one), the platform and date line, then the verdict. The hash sits in Attested files:
+      // its first 7 characters after the file, then a copy icon that copies the whole hash, then the download.
+      await expect.soft(content).not.toContainText('Hash of the binary reproduced');
+      const header = modal.locator('#verificationModalHeading');
+      await expect.soft(header.locator('.verification-modal-title ~ .verification-modal-subtitle + .verification-modal-badges')).toHaveCount(1);
+      await expect.soft(header.locator('.verification-modal-hash')).toHaveCount(0);
+      const attested = content.locator('#verification-attested-files .verification-modal-file');
+      await expect.soft(attested.locator('.verification-modal-hash')).toHaveText('709e379');
+      const copyHash = attested.locator('.verification-modal-hash + .js-copy-hash');
+      await expect.soft(copyHash).toHaveAttribute('title', 'Copy entire hash');
+      await expect.soft(copyHash).toHaveAttribute('data-hash', '709e379506f7d86cfb146493441fc72b7f20cb90578a9b26b9ca9da374782caf');
+      await expect.soft(attested.locator('.js-copy-hash + .js-download-blossom-file')).toHaveCount(1);
+      // The header carries the verdict, the app and version, the platform and the date.
+      const heading = modal.locator('#verificationModalHeading');
+      await expect.soft(heading.locator('.verification-modal-title')).toHaveText('Build Verification for ZEUS Wallet 13.0.1');
+      await expect.soft(heading.locator('.verification-modal-subtitle')).toHaveText(`Android · ${expectedCreatedAt}`);
+      await expect.soft(heading.locator('.verification-modal-status')).toHaveText('Reproducible when tested');
+      await expect.soft(heading.locator('.verification-modal-status')).toHaveClass(/verification-modal-status--good/);
+      // The verdict pill has the wallet page pills' frame, and those pills have the verdict's check mark.
+      await expect.soft(heading.locator('.verification-modal-status')).toHaveCSS('border-top-width', '1px');
+      await expect.soft(page.locator('.verification-card .verification-status-pill--reproducible .ws-icon-check').first()).toBeAttached();
+      // The pill's label is in the pill's own colour, not the link colour.
+      const pillColours = await page.locator('.verification-card .verification-status-pill').first().evaluate((pill) => [
+        getComputedStyle(pill).color,
+        getComputedStyle(pill.querySelector('.attestation-status')).color,
+      ]);
+      expect.soft(pillColours[1]).toBe(pillColours[0]);
+      // The old one-paragraph build-server report, shown in today's layout.
       await expect.soft(content).toContainText(
-        'Hash of the binary reproduced: 709e379506f7d86cfb146493441fc72b7f20cb90578a9b26b9ca9da374782caf',
+        'Reproducible. We built version 13.0.1 from its public source code and got the same app users download.',
       );
-      await expect.soft(content).toContainText('Application: ZEUS Wallet');
-      await expect.soft(content).toContainText('Version: 13.0.1');
-      await expect.soft(content).toContainText(`Created At: ${expectedCreatedAt}`);
-      await expect.soft(content).toContainText('Build status:');
-      await expect.soft(content).toContainText('Reproducible when tested');
-      await expect.soft(content).toContainText(
-        'Automatic verification by WalletScrutiny Build Server for wallet version 13.0.1',
-      );
+      await expect.soft(content).toContainText('Script version: v0.2.13');
+      await expect.soft(content).toContainText('Build script taken from verification 0cd139d8 by dannybuntu');
     });
 
     await test.step('Profile and based_on loading', async () => {
       const attemptBy = content.locator('#attempt-by');
       const basedOnAttemptBy = content.locator('#based-on-attempt-by');
 
-      await expect.soft(content).toContainText('Attempt by:');
+      await expect.soft(content).toContainText('Attempt by');
       await waitForNostrDisplayName(page, attemptBy, 'walletscrutiny_bot', nostrDisplayNameOptions);
       await expect.soft(attemptBy).toContainText('walletscrutiny_bot');
 
-      await expect.soft(content).toContainText('Based on an attempt by:');
+      await expect.soft(content).toContainText('Based on an attempt by');
       await waitForNostrDisplayName(page, basedOnAttemptBy, 'dannybuntu', nostrDisplayNameOptions);
       await expect.soft(basedOnAttemptBy).toContainText('dannybuntu');
+      // Verifier names sit one weight step above body text.
+      await expect.soft(basedOnAttemptBy.locator('.profile-info > div').first()).toHaveCSS('font-weight', '500');
     });
 
     await test.step('Scripts loading', async () => {
       const attachmentsList = content.locator('#verification-attachments-list');
 
-      await expect.soft(content).toContainText('Scripts used to reproduce:');
+      await expect.soft(content).toContainText('Scripts used to reproduce');
       await expect.soft(attachmentsList).toContainText('zeus_build.sh');
       await expect.soft(attachmentsList).toContainText('33 kB');
       await expect.soft(attachmentsList.locator('[title="Download zeus_build.sh"]')).toBeVisible();
       await expect.soft(attachmentsList.locator('[title="Preview zeus_build.sh"]')).toBeVisible();
+      // Script names are supporting detail, not bold.
+      await expect.soft(attachmentsList.locator('.verification-modal-file__name').first()).toHaveCSS('font-weight', '400');
+      // The script buttons are the same dark pill as the output file download button.
+      const outputDownload = content.locator('.js-download-blossom-file').first();
+      for (const title of ['Download zeus_build.sh', 'Preview zeus_build.sh']) {
+        const button = attachmentsList.locator(`[title="${title}"]`);
+        for (const property of ['background-color', 'border-radius', 'height']) {
+          const expected = await outputDownload.evaluate((node, p) => getComputedStyle(node).getPropertyValue(p), property);
+          await expect.soft(button).toHaveCSS(property, expected);
+        }
+      }
     });
 
     await test.step('Script preview works fine', async () => {
+      // Scripts open in the build log viewer, as plain text.
       const previewButton = content.locator('[title="Preview zeus_build.sh"]');
-      const previewModal = page.locator('#attachmentPreviewModal');
+      const viewer = page.locator('#buildLogViewer');
 
       await previewButton.click();
-      await expect.soft(previewModal).toBeVisible({ timeout: 30_000 });
-      await expect.soft(page.locator('#previewFileName')).toHaveText('zeus_build.sh');
-      await expect.soft(page.locator('#previewContent')).toContainText('SCRIPT_VERSION="v0.2.13"');
+      await expect.soft(viewer).toBeVisible({ timeout: 30_000 });
+      await expect.soft(viewer.locator('.build-log-title')).toHaveText('zeus_build.sh');
+      await expect.soft(viewer.locator('.build-log-lines')).toContainText('SCRIPT_VERSION="v0.2.13"');
+      await expect.soft(viewer.locator('.build-log-copy')).toBeVisible();
 
-      const previewScrollState = await page.evaluate(() => {
-        const overlay = document.getElementById('attachmentPreviewModal');
-        const panel = overlay?.firstElementChild;
-        const preview = document.getElementById('previewContent');
+      // Desktop: a panel over the dimmed page, not full screen, and only the lines scroll.
+      const layout = await page.evaluate(() => {
+        const root = document.getElementById('buildLogViewer');
+        const panel = root.querySelector('.build-log-panel');
+        const body = root.querySelector('.build-log-body');
+        const rect = panel.getBoundingClientRect();
         return {
-          overlayOverflowY: overlay ? getComputedStyle(overlay).overflowY : null,
-          panelOverflowY: panel ? getComputedStyle(panel).overflowY : null,
-          previewOverflowY: preview ? getComputedStyle(preview).overflowY : null,
-          overlayScrollable: overlay ? overlay.scrollHeight > overlay.clientHeight + 1 : null,
-          panelScrollable: panel ? panel.scrollHeight > panel.clientHeight + 1 : null,
+          panelWidth: rect.width,
+          panelHeight: rect.height,
+          bodyOverflowY: getComputedStyle(body).overflowY,
+          panelScrollable: panel.scrollHeight > panel.clientHeight + 1,
         };
       });
-      expect.soft(previewScrollState.overlayOverflowY).toBe('hidden');
-      expect.soft(previewScrollState.panelOverflowY).toBe('hidden');
-      expect.soft(previewScrollState.previewOverflowY).toBe('auto');
-      expect.soft(previewScrollState.overlayScrollable).toBe(false);
-      expect.soft(previewScrollState.panelScrollable).toBe(false);
+      const viewport = page.viewportSize();
+      expect.soft(layout.panelWidth).toBeLessThan(viewport.width);
+      expect.soft(layout.panelHeight).toBeLessThan(viewport.height);
+      expect.soft(layout.bodyOverflowY).toBe('auto');
+      expect.soft(layout.panelScrollable).toBe(false);
 
-      await page.evaluate(() => {
-        const preview = document.getElementById('attachmentPreviewModal');
-        if (preview) {
-          preview.style.display = 'none';
-        }
-      });
-      await expect.soft(previewModal).toBeHidden();
+      // A click beside the panel closes the viewer and leaves the verification open.
+      await page.mouse.click(5, 5);
+      await expect.soft(viewer).toBeHidden();
+      await expect(modal).toBeVisible();
     });
 
-    await test.step('Comments', async () => {
+    await test.step('The report comes last', async () => {
       const commentsSection = content.locator('.comments-section');
       const commentAuthor = commentsSection.locator('.comment-author-name');
 
@@ -148,16 +186,47 @@ test.describe('ZEUS verification detail page', () => {
       await waitForNostrDisplayName(page, commentAuthor, 'btc_remnant', nostrDisplayNameOptions);
       await expect.soft(commentAuthor).toContainText('btc_remnant');
       await expect.soft(commentsSection.locator('.comment-body')).toContainText('Test comment! 1234');
+
+      // Section order: facts, attested file, scripts, output files, comments, then the (possibly very long)
+      // report at the end.
+      const sectionCaptions = await content.locator('.verification-modal-section:visible').evaluateAll(
+        nodes => nodes.map(node => node.querySelector('.verification-modal-caption, .comments-section > p')?.textContent?.trim() ?? ''),
+      );
+      expect.soft(sectionCaptions.slice(1)).toEqual(['Attested file', 'Scripts used to reproduce', 'Output files', 'Comments', 'Report']);
     });
 
-    await test.step('Information asciinema player', async () => {
-      const player = content.locator('#ascii_cast_player');
+    await test.step('Build log viewer', async () => {
+      const button = content.locator('.js-open-build-log');
+      const viewer = page.locator('#buildLogViewer');
 
-      await expect.soft(content).toContainText('Information:');
-      await expect.soft(player).toBeVisible();
+      // In the output files, and nowhere else. A recording's row
+      // drops the name and shows the build log button, then the recording's download.
+      await expect(button).toHaveCount(1);
+      const recording = content.locator('.verification-modal-file', { has: page.locator('.js-open-build-log') });
+      await expect.soft(recording.locator('.verification-modal-file__name')).toHaveCount(0);
+      await expect.soft(recording.locator('button')).toHaveCount(2);
+      await expect.soft(recording.locator('button').first()).toHaveClass(/js-open-build-log/);
+      await expect.soft(recording.locator('button').last()).toHaveAttribute('data-file-name', /\.cast$/);
+      await expect(button).toBeVisible();
+      await expect.soft(button).toContainText('View build log');
 
-      await waitForAsciinemaPlayerContent(page, 120_000);
-      await expect.soft(player).not.toBeEmpty();
+      await button.click();
+      await expect(viewer).toBeVisible();
+      await expect.soft(viewer.locator('.build-log-subtitle')).toContainText('ZEUS Wallet 13.0.1');
+
+      await waitForBuildLogLines(page, 120_000);
+      await expect.soft(viewer.locator('.build-log-state')).toBeHidden();
+      await expect.soft(viewer.locator('.build-log-line').first()).not.toBeEmpty();
+      await expect.soft(viewer.locator('.build-log-meta')).toContainText(/\d+ lines/);
+
+      const jump = viewer.locator('.build-log-jump');
+      await expect.soft(jump).toBeVisible();
+      await jump.click();
+      await expect.soft(jump).toBeHidden();
+
+      await viewer.locator('.build-log-close').click();
+      await expect(viewer).toBeHidden();
+      await expect(modal).toBeVisible();
     });
 
     await test.step('Test endorsement modal', async () => {
@@ -186,11 +255,18 @@ test.describe('ZEUS verification detail page', () => {
 
       const shareOnNostr = shareContainer.locator('.js-share-nostr-open');
       await expect.soft(shareOnNostr).toBeVisible();
+      // Every network shows the same size of icon, the Nostr tile included.
+      const iconSizes = await shareContainer.locator('.share-dropdown-menu a').evaluateAll(links =>
+        links.map(link => {
+          const box = link.querySelector('img, svg').getBoundingClientRect();
+          return `${Math.round(box.width)}x${Math.round(box.height)}`;
+        }));
+      expect.soft(iconSizes).toEqual(Array(5).fill('25x25'));
       await shareOnNostr.click();
 
       const shareNostrModal = page.locator('.share-nostr-modal').filter({ visible: true });
       await expect.soft(shareNostrModal).toBeVisible({ timeout: 10_000 });
-      await expect.soft(shareNostrModal.locator('h2')).toHaveText('Share on Nostr');
+      await expect.soft(shareNostrModal.locator('.share-nostr-title')).toHaveText('Share on Nostr');
       await expect.soft(shareNostrModal.locator('.share-nostr-textarea')).toHaveValue(
         /Check out this ZEUS Wallet v13\.0\.1 \(android\) verification!/,
       );

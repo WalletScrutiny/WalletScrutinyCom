@@ -1,7 +1,6 @@
 ---
-wsId: finanzenZero
 title: finanzen.net zero Aktien & ETF
-date: 2023-03-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.finanzen.net/zero
@@ -17,10 +16,9 @@ android:
   users: 500000
   appCountry: us
   released: 2021-06-02
-  updated: 2026-09-18
-  version: 5.20.0
+  updated: 2026-10-09
+  version: 5.21.2
   reviews: 8
-  icon: de.gratisbroker.android.mobileapp.webp
   meta: ok
   verdict: nosendreceive
   developerName: finanzen.net zero GmbH
@@ -29,10 +27,9 @@ iphone:
   idd: '1556711130'
   appCountry: de
   released: 2021-06-07
-  updated: 2026-09-21
-  version: 5.21.0
-  reviews: 26972
-  icon: de.gratisbroker.ios.mobileapp.webp
+  updated: 2026-10-13
+  version: 5.21.2
+  reviews: 27208
   meta: ok
   verdict: nosendreceive
   developerName: finanzen.net zero GmbH
@@ -79,4 +76,4 @@ First, there is a wallet provided by the service. Second, there is a custodial p
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

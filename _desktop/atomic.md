@@ -12,11 +12,10 @@ provider:
 providerWebsite: 
 website: https://atomicwallet.io/
 repository: 
-icon: atomic.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2025-04-23
+date: 2026-10-30
 twitter: atomicwallet
 social:
 - https://www.facebook.com/AtomicWallet/

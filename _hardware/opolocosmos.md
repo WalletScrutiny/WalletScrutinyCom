@@ -17,15 +17,14 @@ weight: 2.79
 provider: OPOLO Limited
 providerWebsite: https://www.opolo.io
 website: https://www.opolo.io/
-shop: https://shop.opolo.io/
+shop: https://www.opolo.io/shop/
 country: LU
 price: 198EUR
 repository: 
-icon: opolocosmos.webp
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-11-09
+date: 2026-10-30
 signer: 
 twitter: OpoloWallet
 social:

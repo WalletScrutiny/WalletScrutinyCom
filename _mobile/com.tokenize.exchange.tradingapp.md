@@ -1,7 +1,6 @@
 ---
-wsId: Tokenize
 title: Tokenize Xchange
-date: 2025-11-05
+date: 2026-10-30
 authors:
 - danny
 website: https://tokenize.exchange/
@@ -19,7 +18,6 @@ android:
   updated: 2025-03-26
   version: 2.0.21
   reviews: 17
-  icon: com.tokenize.exchange.tradingapp.webp
   meta: removed
   verdict: custodial
   developerName: Tokenize Xchange
@@ -31,12 +29,15 @@ iphone:
   updated: 2025-04-02
   version: 2.0.21
   reviews: 2
-  icon: com.tokenize.exchange.trading.webp
   meta: removed
   verdict: custodial
   developerName: Tokenize Xchange Pte Ltd
 
 ---
+
+**⚠️ Warning:** Tokenize Xchange is gone. It [closed its Singapore exchange in July 2025](https://www.blockhead.co/2025/07/21/tokenize-xchange-shuts-down-singapore-operations-after-license-rejection/) after the Monetary Authority of Singapore refused its licence, and tokenize.exchange no longer loads.
+
+**Update 2026-10-30:** Trading and withdrawals were stopped, the operator AmazingTech was placed under interim judicial management, and its founder was [charged with fraudulent trading](https://fintechnews.sg/116488/crypto/tokenize-xchange-shutdown-singapore-investors/). Users' coins held by the exchange are frozen.
 
 ## Android
 
@@ -77,4 +78,4 @@ This app is clearly **custodial** and as a result, is **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

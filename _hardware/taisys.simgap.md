@@ -17,11 +17,10 @@ shop:
 country: TW
 price: 
 repository: 
-icon: taisys.simgap.webp
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2024-10-23
+date: 2026-10-30
 signer: 
 twitter: 
 social: 

@@ -1,7 +1,6 @@
 ---
-wsId: lemonCash
 title: Lemon - Billetera Virtual
-date: 2025-11-12
+date: 2026-10-30
 authors:
 - danny
 website: https://lemon.me
@@ -13,10 +12,9 @@ android:
   appId: com.applemoncash
   users: 5000000
   appCountry: us
-  updated: 2026-09-24
-  version: 3.0.17
+  updated: 2026-10-09
+  version: 3.0.20
   reviews: 13
-  icon: com.applemoncash.webp
   meta: ok
   verdict: custodial
   developerName: Lemon Cash Inc
@@ -25,10 +23,9 @@ iphone:
   idd: '1499421511'
   appCountry: ar
   released: 2020-03-24
-  updated: 2026-09-25
-  version: 3.0.17
-  reviews: 4128
-  icon: org.reactjs.native.lemon.appLemonCash.webp
+  updated: 2026-10-13
+  version: 3.0.20
+  reviews: 4133
   meta: ok
   verdict: custodial
   developerName: Lemon Cash Inc
@@ -53,4 +50,4 @@ This is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

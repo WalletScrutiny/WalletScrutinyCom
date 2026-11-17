@@ -1,7 +1,6 @@
 ---
-wsId: ankerPay
 title: 'AnkerPay: Blockchain Crypto Wa'
-date: 2025-06-09
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -22,7 +21,6 @@ android:
   released: 2019-09-17
   updated: 2024-06-11
   version: v1.0.14.12
-  icon: com.ankerpay.wallet.webp
   meta: obsolete
   verdict: nosource
   developerName: AnkerPay
@@ -34,7 +32,6 @@ iphone:
   updated: 2023-11-26
   version: '1.30'
   reviews: 3
-  icon: com.ankerpay.ioswallet.webp
   meta: removed
   verdict: nosource
   developerName: AnkerPay
@@ -63,4 +60,4 @@ link to source code which leads to our verdict **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

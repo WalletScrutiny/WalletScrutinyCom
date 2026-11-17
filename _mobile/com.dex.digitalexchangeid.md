@@ -1,7 +1,6 @@
 ---
-wsId: digitalexchangeid
 title: digitalexchange.id Crypto Aset
-date: 2021-09-17
+date: 2026-10-30
 authors:
 - danny
 website: http://digitalexchange.id
@@ -17,20 +16,19 @@ android:
   users: 100000
   appCountry: us
   released: 2024-09-04
-  updated: 2026-09-25
-  version: 1.3.46
-  icon: com.dex.digitalexchangeid.webp
+  updated: 2026-10-01
+  version: 1.3.47
   meta: ok
   verdict: custodial
   developerName: PT Indonesia Digital Exchange
 iphone:
   appId: com.dex.digitalexchangeid
   idd: 1498360108
+  appCountry: id
   released: 2020-04-01
   updated: 2022-10-25
   version: 1.0.92
   reviews: 1
-  icon: com.dex.digitalexchangeid.webp
   meta: removed
   verdict: custodial
 
@@ -56,4 +54,6 @@ This app is **custodial** and therefore **not verifiable**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+**Update 2026-10-30:** The iPhone app is not gone. It is still in the Indonesian App Store as "digitalexchangeid" by INDONESIA DIGITAL EXCHANGE, PT, with an update in October 2026; we only looked for it in the US store before.
+
+The Android analysis above applies to the iPhone app too.

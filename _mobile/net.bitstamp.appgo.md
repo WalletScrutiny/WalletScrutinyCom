@@ -1,7 +1,6 @@
 ---
-wsId: bitstampCrypto
 title: 'Bitstamp: Buy Crypto & Bitcoin'
-date: 2024-08-31
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitstamp.net
@@ -20,7 +19,6 @@ android:
   updated: 2024-05-22
   version: '1.10'
   reviews: 26
-  icon: net.bitstamp.appgo.webp
   meta: removed
   verdict: custodial
   developerName: Bitstamp
@@ -32,12 +30,13 @@ iphone:
   updated: 2024-06-26
   version: '1.9'
   reviews: 262
-  icon: net.bitstamp.simple.webp
   meta: removed
   verdict: custodial
   developerName: Bitstamp Ltd.
 
 ---
+
+**Update 2026-10-30:** Bitstamp [merged this app into its main app](https://blog.bitstamp.net/post/introducing-the-new-bitstamp-app-one-unified-platform-for-all-your-crypto-needs/) in August 2024, which now offers a Basic and a Pro mode and is listed here as {% include walletLink.html wallet='android/net.bitstamp.app' verdict='true' %} and {% include walletLink.html wallet='iphone/net.bitstamp' verdict='true' %}. Both stores no longer list this app. Robinhood [completed its acquisition of Bitstamp](https://www.coindesk.com/business/2025/06/03/robinhood-completes-200m-acquisition-of-crypto-exchange-bitstamp) in June 2025.
 
 ## Android
 
@@ -76,4 +75,4 @@ The description explicitly states that this app is **custodial** and therefore *
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

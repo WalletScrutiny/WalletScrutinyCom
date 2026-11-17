@@ -1,7 +1,6 @@
 ---
-wsId: bitrue
 title: Bitrue - Buy XRP, BTC & Crypto
-date: 2020-11-17
+date: 2026-10-30
 authors:
 - leo
 website: https://www.bitrue.com/
@@ -18,9 +17,8 @@ android:
   appCountry: us
   released: 2018-07-18
   updated: 2026-09-25
-  version: 6.1.37
+  version: 6.1.38
   reviews: 720
-  icon: com.bitrue.currency.exchange.webp
   meta: ok
   verdict: custodial
   developerName: Bitrue Support
@@ -32,7 +30,6 @@ iphone:
   updated: 2026-09-28
   version: 6.1.38
   reviews: 1124
-  icon: com.cmcm.currency.exchange.webp
   meta: ok
   verdict: custodial
   developerName: StraLink Innovations Technologies Limitada

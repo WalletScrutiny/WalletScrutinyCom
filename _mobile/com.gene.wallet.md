@@ -1,9 +1,9 @@
 ---
 title: GENE Wallet (Bitcoin, Ether, G
-date: 2024-04-03
+date: 2026-10-30
 authors:
 - danny
-website: https://parkgene.io
+website: https://parkgene.io#deadLink
 twitter: PARKGENE1
 redirect_from:
 - /android/com.gene.wallet/
@@ -13,7 +13,6 @@ android:
   released: 2018-03-06
   updated: 2019-02-08
   version: 1.4.1
-  icon: com.gene.wallet.webp
   meta: removed
   verdict: custodial
   developerName: PARKGENE

@@ -1,6 +1,6 @@
 ---
 title: AIS-X Exchange
-date: 2024-02-05
+date: 2026-10-30
 website: https://ais-ex.com#deadLink
 redirect_from:
 - /android/com.aisx/
@@ -10,7 +10,6 @@ android:
   released: 2020-02-11
   updated: 2020-07-29
   version: 1.0.6
-  icon: com.aisx.webp
   meta: removed
   verdict: wip
   developerName: Vnext

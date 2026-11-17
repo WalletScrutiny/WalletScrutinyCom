@@ -1,7 +1,7 @@
 ---
 title: Unix finance
-date: 2024-04-19
-website: https://unix.finance
+date: 2026-10-30
+website: https://unix.finance#deadLink
 redirect_from:
 - /android/com.unix.unix_finance/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-06-22
   updated: 2021-07-10
   version: 1.0.7
-  icon: com.unix.unix_finance.webp
   meta: removed
   verdict: wip
   developerName: Unix finance

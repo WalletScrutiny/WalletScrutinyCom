@@ -1,6 +1,6 @@
 ---
 title: Inigma BTC/ETH Smart Wallet
-date: 2024-04-19
+date: 2026-10-30
 website: https://www.inigmasys.com#deadLink
 redirect_from:
 - /android/com.inigma.wallet/
@@ -10,7 +10,6 @@ android:
   released: 2020-03-29
   updated: 2020-12-22
   version: 0.0.18
-  icon: com.inigma.wallet.webp
   meta: removed
   verdict: wip
   developerName: Inigma Co., Ltd.

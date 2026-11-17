@@ -1,7 +1,6 @@
 ---
-wsId: changeinvest
 title: 'Change: Invest & Trade'
-date: 2020-05-29
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -21,10 +20,9 @@ android:
   users: 100000
   appCountry: nl
   released: 2018-06-07
-  updated: 2026-09-10
-  version: 30.67.7
+  updated: 2026-10-05
+  version: 30.68.2
   reviews: 23
-  icon: com.getchange.wallet.cordova.webp
   meta: ok
   verdict: custodial
   developerName: Change Finance
@@ -35,7 +33,6 @@ iphone:
   updated: 2025-11-12
   version: 30.62.2
   reviews: 38
-  icon: com.getchange.dev.webp
   meta: removed
   verdict: custodial
   developerName: xChange AS
@@ -68,4 +65,6 @@ which means it is a custodial service and thus **not verifiable**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+**Update 2026-10-30:** The app is back in the Dutch App Store, with version 30.68.3 from 2026-10-29.
+
+The Android analysis above applies to the iPhone app too.

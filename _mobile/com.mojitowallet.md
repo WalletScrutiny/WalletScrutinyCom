@@ -1,7 +1,6 @@
 ---
-wsId: mojitoWallet
 title: Mojito wallet
-date: 2025-12-15
+date: 2026-10-30
 authors:
 - danny
 - keraliss
@@ -25,7 +24,6 @@ android:
   appCountry: us
   updated: 2024-12-15
   version: 0.4.1
-  icon: com.mojitowallet.webp
   meta: stale
   verdict: sourceavailable
   developerName: RBB SRL
@@ -38,7 +36,6 @@ iphone:
   updated: 2024-12-24
   version: 0.4.2
   reviews: 10
-  icon: com.mojitowallet.webp
   meta: stale
   verdict: sourceavailable
   developerName: RBB SRL
@@ -123,4 +120,4 @@ An issue has been opened at [https://github.com/mintlayer/mojito_mobile_wallet/i
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

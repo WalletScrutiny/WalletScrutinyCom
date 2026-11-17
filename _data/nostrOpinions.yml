@@ -1,0 +1,10 @@
+# Community opinions (src/opinions/): Nostr accounts whose opinions are shown
+# under "Approved" and counted in _includes/allOpinions.json.
+#
+# Read by _includes/review/nostrOpinion.html (the widget on review pages) and
+# by scripts/compileAllOpinions.mjs (the per-product sentiment counts), so an
+# author only has to be added here.
+trustedAuthors:
+  - npub1gm7tuvr9atc6u7q3gevjfeyfyvmrlul4y67k7u7hcxztz67ceexs078rf6 # Leo
+  - npub1r709glp0xx2zvgac45wswufjst5xgr7cear5a8me7x9vazhjzmksp2sf7d # Danny
+  - npub1mtd7s63xd85ykv09p7y8wvg754jpsfpplxknh5xr0pu938zf86fqygqxas # The Bitcoin Hole

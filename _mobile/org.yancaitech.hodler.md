@@ -1,6 +1,6 @@
 ---
 title: Hodler
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
 website: https://github.com/yancaitech
@@ -12,7 +12,6 @@ android:
   released: 2020-06-01
   updated: 2020-06-08
   version: V0.2.0
-  icon: org.yancaitech.hodler.webp
   meta: removed
   verdict: wip
   repository: https://github.com/yancaitech/hodler-wallet

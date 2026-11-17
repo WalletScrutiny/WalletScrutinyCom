@@ -1,7 +1,6 @@
 ---
-wsId: iqoption
 title: IQ Option – Trading Platform
-date: 2024-09-02
+date: 2026-10-30
 authors:
 - danny
 website: https://km.iqoption.com/en
@@ -16,10 +15,9 @@ android:
   appId: com.iqoption
   users: 100000000
   appCountry: us
-  updated: 2026-09-28
-  version: 8.67.4
-  reviews: 556
-  icon: com.iqoption.webp
+  updated: 2026-10-01
+  version: 8.68.3
+  reviews: 557
   meta: ok
   verdict: nosendreceive
   developerName: IQ Option
@@ -28,10 +26,9 @@ iphone:
   idd: '871125783'
   appCountry: gb
   released: 2014-05-15
-  updated: 2026-09-29
-  version: '4.107'
-  reviews: 1282
-  icon: com.trading.iqoption.webp
+  updated: 2026-10-07
+  version: '4.108'
+  reviews: 1283
   meta: ok
   verdict: nosendreceive
   developerName: IQOPTION EUROPE LTD
@@ -60,4 +57,4 @@ This app **cannot send or receive Bitcoin**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

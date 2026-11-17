@@ -1,6 +1,6 @@
 ---
 title: BinO Trading
-date: 2024-04-19
+date: 2026-10-30
 website: http://adastimes.com#deadLink
 redirect_from:
 - /android/com.bino.bino/
@@ -10,7 +10,6 @@ android:
   released: 2021-08-21
   updated: 2021-08-21
   version: '1.0'
-  icon: com.bino.bino.webp
   meta: removed
   verdict: wip
   developerName: BinoAI

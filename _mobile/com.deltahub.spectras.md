@@ -1,6 +1,6 @@
 ---
 title: COZY Wallet
-date: 2026-07-23
+date: 2026-10-30
 appCountry: us
 redirect_from:
 - /iphone/com.deltahub.spectras/
@@ -11,8 +11,7 @@ iphone:
   released: 2024-08-18
   updated: 2026-09-17
   version: 3.4.9
-  reviews: 2550
-  icon: com.deltahub.spectras.webp
+  reviews: 2562
   meta: ok
   verdict: custodial
   developerName: Delta Hub Ltd.

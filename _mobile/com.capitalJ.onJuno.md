@@ -1,7 +1,6 @@
 ---
-wsId: junoFinance
 title: Juno - Buy Bitcoin & Litecoin
-date: 2024-12-23
+date: 2026-10-30
 authors:
 - danny
 website: https://juno.finance
@@ -18,7 +17,6 @@ android:
   updated: 2024-11-11
   version: 4.0.45
   reviews: 465
-  icon: com.capitalJ.onJuno.webp
   meta: removed
   verdict: custodial
   developerName: OnJuno Mobile Banking
@@ -30,12 +28,13 @@ iphone:
   updated: 2024-11-12
   version: 4.3.0
   reviews: 1010
-  icon: com.capitalJ.onJuno.webp
   meta: removed
   verdict: custodial
   developerName: CapitalJ Inc
 
 ---
+
+**⚠️ Warning:** Juno is shutting down. Its [website](https://juno.finance) now carries a farewell notice that blames the 2024 Synapse and Evolve Bank collapse, which froze user funds, and says there is no viable path forward. Juno still answers requests for account statements by email. Both apps are gone from the stores.
 
 ## Android
 
@@ -72,4 +71,4 @@ A reference to crypto is available in its iOS app page.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

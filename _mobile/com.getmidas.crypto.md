@@ -1,7 +1,6 @@
 ---
-wsId: midasKripto
 title: 'Midas Kripto: Bitcoin Al Sat'
-date: 2025-11-18
+date: 2026-10-30
 authors:
 - danny
 website: https://www.midaskripto.com/
@@ -14,10 +13,9 @@ android:
   users: 500000
   appCountry: us
   released: 2024-12-01
-  updated: 2026-09-23
-  version: 3.16.0
+  updated: 2026-10-13
+  version: 3.18.1
   reviews: 3
-  icon: com.getmidas.crypto.webp
   meta: ok
   verdict: custodial
   developerName: Midas Finansal Teknolojiler
@@ -26,10 +24,9 @@ iphone:
   idd: '6505027440'
   appCountry: tr
   released: 2024-08-13
-  updated: 2026-09-23
-  version: 3.16.0
-  reviews: 2978
-  icon: com.midas.crypto.webp
+  updated: 2026-10-08
+  version: 3.18.0
+  reviews: 2980
   meta: ok
   verdict: custodial
   developerName: MIDAS FINANSAL TEKNOLOJILER AS
@@ -52,4 +49,4 @@ As the platform controls the private keys to the wallets holding user funds, use
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

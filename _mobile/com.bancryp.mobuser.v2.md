@@ -1,7 +1,6 @@
 ---
-wsId: bancrypV2
 title: Bancryp
-date: 2025-02-26
+date: 2026-10-30
 authors:
 - danny
 website: http://bancryp.com
@@ -14,7 +13,6 @@ android:
   released: 2020-05-18
   updated: 2023-04-14
   version: 1.6.0
-  icon: com.bancryp.mobuser.v2.webp
   meta: removed
   verdict: custodial
   developerName: Bancryp International
@@ -26,7 +24,6 @@ iphone:
   updated: 2023-04-14
   version: 1.6.0
   reviews: 2
-  icon: com.bancryp.bancrypApp.webp
   meta: removed
   verdict: custodial
   developerName: Bancryp
@@ -67,4 +64,4 @@ We'll update the information here as soon as we have the necessary information. 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: vynxPay
 title: VynkPay | Crypto Payments App
-date: 2024-05-07
+date: 2026-10-30
 authors:
 - danny
 website: https://vynkpay.app#deadLink
@@ -11,7 +10,6 @@ social:
 - https://discord.com/invite/RBCRGZVsQx
 - https://www.linkedin.com/in/vynkchain-community-59b283208
 - https://t.me/VYNKCHAIN
-- https://vynkpay.app#deadLink
 redirect_from:
 - /android/com.vynkpay/
 - /iphone/com.pixels.vynkpay/
@@ -21,7 +19,6 @@ android:
   released: 2020-06-30
   updated: 2024-02-08
   version: '4.4'
-  icon: com.vynkpay.webp
   meta: removed
   verdict: custodial
   developerName: VYNK GROUP AE
@@ -33,7 +30,6 @@ iphone:
   updated: 2024-02-12
   version: '1.5'
   reviews: 0
-  icon: com.pixels.vynkpay.webp
   meta: removed
   verdict: custodial
   developerName: VYNK BLOCK TECHNOLOGIES PRIVATE LIMITED
@@ -57,4 +53,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

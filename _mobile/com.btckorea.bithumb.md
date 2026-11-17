@@ -1,7 +1,6 @@
 ---
-wsId: bithumbko
 title: Bithumb
-date: 2021-02-19
+date: 2026-10-30
 authors:
 - leo
 website: http://www.bithumb.com/
@@ -13,13 +12,12 @@ redirect_from:
 - /iphone/com.btckorea.bithumb/
 android:
   appId: com.btckorea.bithumb
-  users: 5000000
+  users: 10000000
   appCountry: us
   released: 2017-09-26
-  updated: 2026-09-18
-  version: 3.9.1
+  updated: 2026-10-06
+  version: 3.9.3
   reviews: 73
-  icon: com.btckorea.bithumb.webp
   meta: ok
   verdict: custodial
   developerName: Bithumb
@@ -28,10 +26,9 @@ iphone:
   idd: 1299421592
   appCountry: kr
   released: 2017-12-05
-  updated: 2026-09-21
-  version: 3.2.7
-  reviews: 5083
-  icon: com.btckorea.bithumb.webp
+  updated: 2026-10-01
+  version: 3.2.8
+  reviews: 5090
   meta: ok
   verdict: custodial
   developerName: Bithumb Co., Ltd.

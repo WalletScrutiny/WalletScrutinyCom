@@ -1,6 +1,6 @@
 ---
 title: Ammer Pay
-date: 2023-06-03
+date: 2026-10-30
 website: https://ammer.cards
 redirect_from:
 - /android/ammer.pay/
@@ -11,7 +11,6 @@ android:
   released: 2022-08-22
   updated: 2025-12-03
   version: 2.0.5
-  icon: ammer.pay.webp
   meta: fewusers
   verdict: wip
   developerName: Ammer Technologies AG

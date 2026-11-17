@@ -1,6 +1,6 @@
 ---
 title: Maya – savings, loans, cards​
-date: 2024-09-02
+date: 2026-10-30
 authors:
 - danny
 website: https://www.maya.ph/
@@ -18,10 +18,9 @@ android:
   users: 50000000
   appCountry: us
   released: 2016-06-05
-  updated: 2026-09-23
-  version: 2.172.0
-  reviews: 1254
-  icon: com.paymaya.webp
+  updated: 2026-10-09
+  version: 2.173.1
+  reviews: 1259
   meta: ok
   verdict: custodial
   developerName: Maya Philippines, Inc.

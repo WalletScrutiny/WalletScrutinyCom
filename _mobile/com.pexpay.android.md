@@ -1,7 +1,6 @@
 ---
-wsId: pexpaypeaceful
 title: 'Pexpay: 0 Fee Buy and Sell BTC'
-date: 2023-09-15
+date: 2026-10-30
 authors:
 - danny
 website: https://www.pexpay.com#deadLink
@@ -21,7 +20,6 @@ android:
   updated: 2023-06-15
   version: 1.19.0
   reviews: 8
-  icon: com.pexpay.android.webp
   meta: removed
   verdict: custodial
   developerName: Pexpay
@@ -33,12 +31,13 @@ iphone:
   updated: 2023-06-16
   version: 1.19.0
   reviews: 16
-  icon: com.peaceful.pexpay.app.ios.webp
   meta: removed
   verdict: custodial
   developerName: PEACEFUL INTERNATIONAL LIMITED
 
 ---
+
+**⚠️ Warning:** Pexpay has shut down. It [announced the suspension of all services](https://t.me/pexpayofficial/283) on July 17, 2023, and its [final notice](https://t.me/pexpayofficial/286) said withdrawals stayed open only until September 30, 2023, after which the website and apps stopped working.
 
 ## Android
 
@@ -59,4 +58,4 @@ As the service provider has indicated, this is a **hosted digital currency walle
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

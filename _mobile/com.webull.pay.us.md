@@ -1,7 +1,6 @@
 ---
-wsId: webullPay
 title: 'Webull Pay: Crypto Buy & Sell'
-date: 2025-12-26
+date: 2026-10-30
 authors:
 - danny
 website: http://www.webullpay.com
@@ -18,9 +17,8 @@ android:
   appCountry: us
   released: 2023-05-26
   updated: 2026-09-10
-  version: 2.2.6.008
-  reviews: 1181
-  icon: com.webull.pay.us.webp
+  version: 2.2.8.10
+  reviews: 1184
   meta: ok
   verdict: custodial
   developerName: Webull Pay Holdings Inc
@@ -31,8 +29,7 @@ iphone:
   released: 2023-06-27
   updated: 2026-09-13
   version: 2.2.8
-  reviews: 26285
-  icon: com.webull.pay.us.webp
+  reviews: 26335
   meta: ok
   verdict: custodial
   developerName: WEBULL PAY PTE. LTD.
@@ -67,4 +64,4 @@ This is a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

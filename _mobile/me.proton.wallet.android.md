@@ -1,7 +1,6 @@
 ---
-wsId: protonWallet
 title: 'Proton Wallet: Secure Bitcoin'
-date: 2025-05-20
+date: 2026-10-30
 authors:
 - danny
 website: https://proton.me
@@ -24,10 +23,9 @@ android:
   users: 100000
   appCountry: us
   released: 2025-02-04
-  updated: 2026-08-26
+  updated: 2026-10-07
   version: 1.3.3
   reviews: 33
-  icon: me.proton.wallet.android.webp
   signer: dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853
   alternativeStores:
   - zapstore
@@ -42,14 +40,15 @@ iphone:
   released: 2025-02-10
   updated: 2026-08-27
   version: 1.3.3
-  reviews: 258
-  icon: me.proton.wallet.ios.webp
+  reviews: 265
   meta: ok
   verdict: nosource
   developerName: Proton AG
   repository: https://github.com/ProtonWallet/flutter-app
 
 ---
+
+**Update 2026-10-30:** Proton has since published the app code for versions 1.3.2 to 1.3.5 (tags up to `v1.3.5+126`) on [GitHub](https://github.com/ProtonWallet/flutter-app/tags). The andromeda library is still missing: these releases point to andromeda versions on Proton's private server that are not in the [public copy](https://github.com/ProtonWallet/andromeda), so the app still cannot be built from public code.
 
 ## Android
 
@@ -93,7 +92,7 @@ An issue has been opened at [https://github.com/ProtonWallet/flutter-app/issues/
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="hd" quote="Proton Wallet creates your wallet using a BIP39 standard seed phrase, ensuring seamless recovery and interoperability with other self-custodial wallets, including hardware wallets. This also means you can easily import existing wallets or recover your Proton wallets on other services." source="Store description" %}
 

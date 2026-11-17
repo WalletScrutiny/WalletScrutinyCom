@@ -1,7 +1,6 @@
 ---
-wsId: coinme
 title: 'Coinme: Buy Bitcoin & Crypto'
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.coinme.com
@@ -20,10 +19,9 @@ android:
   users: 100000
   appCountry: us
   released: 2021-05-06
-  updated: 2026-09-09
-  version: 3.4.3
-  reviews: 1165
-  icon: com.coinme.webp
+  updated: 2026-10-02
+  version: 3.4.5
+  reviews: 1169
   meta: ok
   verdict: custodial
   developerName: Coinme
@@ -32,10 +30,9 @@ iphone:
   idd: 1545440300
   appCountry: us
   released: 2021-05-11
-  updated: 2026-09-29
-  version: 3.4.4
-  reviews: 6611
-  icon: com.coinme.CoinMe.webp
+  updated: 2026-10-06
+  version: 3.4.5
+  reviews: 6633
   meta: ok
   verdict: custodial
   developerName: Coinme Inc.
@@ -57,7 +54,7 @@ In Coinme's [How to Page](https://coinme.com/how-to/):
 >**What is Coinme?**<br>
 Coinme is a _licensed_ and _regulated_ digital currency exchange and wallet provider. That means we help everyday people get access to bitcoin and cryptocurrency. Coinme powers a large network of physical locations where users can buy and sell bitcoin with cash.
 
-Coinme's [Legal Terms indicate that they hold the private keys](https://coinme.com/legal/)
+Coinme's [Legal Terms indicate that they hold the private keys](https://coinme.com/legal/) (that page now only links to the [current terms](https://help.coinme.com/en/articles/9039676-terms-of-service))
 
 > **7.1 Private Keys; Storage of Tokens.** Coinme will retain the private keys for any Tokens in the Hosted Wallet, for which private keys are necessary in order to transfer any Tokens out of the Hosted Wallet. Coinme will use the private keys in order to affect the transfers initiated using your Coinme Account. Tokens shown as being held in your Hosted Wallet may be in the Hosted Wallet based on internal ledgers and records maintained by Coinme, but customer Tokens may be held in pooled accounts controlled by Coinme on the public distributed ledger for the applicable Token (“Blockchain”).
 
@@ -69,7 +66,7 @@ Section 7.1 of Coinme's [Terms and Conditions](https://coinme.com/legal/) strong
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Easily buy and sell crypto with popular assets like Bitcoin (BTC), Solana (SOL), Dogecoin (DOGE), Ethereum (ETH), and more." source="Store description" %}
 

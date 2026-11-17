@@ -1,7 +1,6 @@
 ---
-wsId: balanceWalletApp
 title: BalanceWallet
-date: 2024-10-31
+date: 2026-10-30
 authors:
 - danny
 website: https://balancenetwork.io#deadLink
@@ -24,7 +23,6 @@ android:
   updated: 2024-05-03
   version: 1.0.23
   reviews: 8
-  icon: io.balancenetwork.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Balance Network Ltd
@@ -36,7 +34,6 @@ iphone:
   updated: 2024-05-03
   version: 1.1.2
   reviews: 10
-  icon: com.reacnative.js.balancenetwork.wallet.webp
   meta: removed
   verdict: nosource
   developerName: BALANCE NETWORK SP ZOO
@@ -70,4 +67,4 @@ A search for the [app ID on GitHub](https://github.com/search?q=io.balancenetwor
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

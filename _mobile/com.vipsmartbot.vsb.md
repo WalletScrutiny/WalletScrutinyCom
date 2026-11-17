@@ -1,6 +1,6 @@
 ---
 title: Smart Bot
-date: 2023-06-10
+date: 2026-10-30
 authors:
 - danny
 website: https://www.vipsmartbot.com#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2020-11-17
   updated: 2020-11-18
   version: 0.0.1
-  icon: com.vipsmartbot.vsb.webp
   meta: removed
   verdict: wip
   developerName: Smart Crypto Studio

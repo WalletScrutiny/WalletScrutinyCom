@@ -1,10 +1,9 @@
 ---
-wsId: shinobiWalletWeb3
 title: Shinobi Wallet · DeFi & Web3
-date: 2026-02-20
+date: 2026-10-30
 authors:
 - danny
-website: https://mirai.finance/
+website: https://mirai.finance/#deadLink
 twitter: shinobi_wallet
 social:
 - https://discord.com/invite/fg5fFwYYgt
@@ -20,7 +19,6 @@ android:
   released: 2021-06-02
   updated: 2024-03-02
   version: 1.8.9
-  icon: io.fgraph.shinobiwallet.webp
   meta: obsolete
   verdict: nosource
   developerName: Mirai Finance
@@ -32,12 +30,13 @@ iphone:
   updated: 2024-03-13
   version: 1.8.9
   reviews: 0
-  icon: io.fgraph.wallet.webp
   meta: obsolete
   verdict: nosource
   developerName: RISE LLC.
 
 ---
+
+**Update 2026-10-30:** The provider's website mirai.finance no longer loads ([last archived copy, January 2026](https://web.archive.org/web/20260124142748/http://mirai.finance/)). Both apps are still in the stores but have not been updated since March 2024.
 
 ## Android
 
@@ -71,4 +70,4 @@ Our review has found no proof that the source code for this app is accessible to
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

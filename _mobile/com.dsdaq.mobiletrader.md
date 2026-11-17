@@ -1,7 +1,6 @@
 ---
-wsId: Dsdaq
 title: Dsdaq - Trade stock, gold, oil
-date: 2023-08-25
+date: 2026-10-30
 authors:
 - danny
 website: https://dsdaq.com#deadLink
@@ -19,7 +18,6 @@ android:
   updated: 2022-01-20
   version: 3.0.4
   reviews: 11
-  icon: com.dsdaq.mobiletrader.webp
   meta: removed
   verdict: custodial
   developerName: Dsdaq Market Ltd.
@@ -30,7 +28,6 @@ iphone:
   updated: 2022-01-30
   version: 3.2.0
   reviews: 2
-  icon: com.dsdaq.ios.new.webp
   meta: removed
   verdict: custodial
   developerName: Dsdaq Market Ltd.
@@ -64,4 +61,4 @@ Thus we can assume that this trading app is **custodial** and therefore **not ve
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

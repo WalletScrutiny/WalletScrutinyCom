@@ -1,7 +1,6 @@
 ---
-wsId: etomato
 title: Tomato Wallet(구 통통지갑)
-date: 2023-04-12
+date: 2026-10-30
 authors:
 - danny
 website: https://tongtongwallet.com/
@@ -17,9 +16,8 @@ android:
   users: 10000
   appCountry: us
   released: 2022-04-21
-  updated: 2026-09-28
-  version: 2.3.0
-  icon: com.tongtong.wallet.webp
+  updated: 2026-10-01
+  version: 2.3.1
   meta: ok
   verdict: nosource
   developerName: Tomato Group
@@ -28,10 +26,9 @@ iphone:
   idd: '1618695778'
   appCountry: kr
   released: 2022-04-24
-  updated: 2026-08-26
-  version: 2.1.1
+  updated: 2026-09-30
+  version: 2.1.2
   reviews: 26
-  icon: com.etomato.wallet.webp
   meta: ok
   verdict: nosource
   developerName: eTomato
@@ -78,4 +75,4 @@ However, the app does not make any claims that its source is publicly available.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

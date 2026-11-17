@@ -14,11 +14,10 @@ provider: Bitcoin Core Developers
 providerWebsite: 
 website: https://bitcoincore.org
 repository: https://github.com/bitcoin/bitcoin
-icon: bitcoincore.webp
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-09-05
+date: 2026-10-30
 twitter: bitcoincoreorg
 social: 
 builds:

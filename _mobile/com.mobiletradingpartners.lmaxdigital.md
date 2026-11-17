@@ -1,7 +1,6 @@
 ---
-wsId: LMAXDigital
 title: LMAX Digital Trading
-date: 2023-04-04
+date: 2026-10-30
 authors:
 - danny
 website: http://www.lmax.com/mobile
@@ -19,7 +18,6 @@ android:
   updated: 2026-05-05
   version: 5.1.80
   reviews: 2
-  icon: com.mobiletradingpartners.lmaxdigital.webp
   meta: ok
   verdict: custodial
   developerName: LMAX Digital Broker Limited
@@ -31,7 +29,6 @@ iphone:
   updated: 2026-08-13
   version: 5.1.96
   reviews: 0
-  icon: com.mobiletradingpartners.lmaxdigital.webp
   meta: ok
   verdict: custodial
   developerName: LMAX DIGITAL EXCHANGE LIMITED
@@ -118,4 +115,4 @@ Financial trading platforms that support crypto CFDs usually **do not allow depo
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

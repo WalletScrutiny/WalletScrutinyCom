@@ -1,7 +1,6 @@
 ---
-wsId: FMCPay
 title: 'FMCPAY: Buy Bitcoin & Crypto'
-date: 2024-04-10
+date: 2026-10-30
 authors:
 - danny
 website: https://fmcpay.com/
@@ -18,7 +17,6 @@ android:
   updated: 2025-07-11
   version: 1.22.4
   reviews: 69
-  icon: com.bitcoinexc.webp
   meta: removed
   verdict: custodial
   developerName: FUINRE INC
@@ -31,7 +29,6 @@ iphone:
   updated: 2022-04-20
   version: '5.8'
   reviews: 24
-  icon: com.fimarketbt.webp
   meta: removed
   verdict: custodial
   developerName: FUINRE, INC
@@ -59,4 +56,4 @@ This app advertises a cold wallet and claims that the providers protect your key
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

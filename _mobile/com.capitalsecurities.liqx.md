@@ -1,7 +1,6 @@
 ---
-wsId: liquidityX
 title: 'LiquidityX: CFD Online Trading'
-date: 2024-07-22
+date: 2026-10-30
 authors:
 - danny
 website: https://www.liquidityx.com/eu/
@@ -13,7 +12,6 @@ android:
   users: 10000
   updated: 2024-07-02
   version: 2.7.1
-  icon: com.capitalsecurities.liqx.webp
   meta: removed
   verdict: nosendreceive
   developerName: Capital Securities S.A.
@@ -25,12 +23,13 @@ iphone:
   updated: 2024-04-04
   version: 2.6.8
   reviews: 0
-  icon: com.capitalsecurities.liqx.webp
   meta: removed
   verdict: nosendreceive
   developerName: Capital Securities S.A.
 
 ---
+
+**⚠️ Warning:** LiquidityX is closed. The Greek regulator revoked the licence of its operator Capital Securities S.A., and in a [December 2024 notice](http://www.hcmc.gr/aweb/files/warnings/files/13.12.2024_Warning.pdf) warned former LiquidityX customers about fake fund-recovery firms.
 
 ## Android
 
@@ -48,4 +47,4 @@ This is a cryptocurrency CFD trading app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

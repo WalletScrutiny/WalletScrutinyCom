@@ -20,18 +20,24 @@ shop: https://foundation.xyz/buy-passport-prime/
 country: US
 price: 349USD
 repository: https://github.com/Foundation-Devices/KeyOS
-icon: passportprime.webp
 bugbounty: https://foundation.xyz/security/
 meta: ok
 verdict: sourceavailable
-date: 2026-08-11
+date: 2026-10-30
 signer: 
 twitter: FOUNDATIONdvcs
 social:
 - https://www.linkedin.com/company/foundationdevices
 - https://t.me/foundationdevices
 - https://www.reddit.com/r/FoundationDevices/
-builds: 
+builds:
+- arch: armv7a
+  # passportprime_build.sh accepts only --arch armv7a --type firmware; either release bundle can be
+  # its --binary (the other is downloaded). The OTA Update.tar is out of scope.
+  types:
+    firmware:
+    - KeyOS-v*-Recovery.bin
+    - KeyOS-v*-CoreSystemRecovery.bin
 features:
 - hd
 - camera

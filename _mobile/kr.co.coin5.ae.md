@@ -1,6 +1,6 @@
 ---
 title: BISPEX재테크-소액투자 비트코인
-date: 2024-04-03
+date: 2026-10-30
 redirect_from:
 - /android/kr.co.coin5.ae/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2020-06-09
   updated: 2020-06-09
   version: '1.0'
-  icon: kr.co.coin5.ae.webp
   meta: removed
   verdict: wip
   developerName: BISPEX

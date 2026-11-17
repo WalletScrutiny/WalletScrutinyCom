@@ -1,7 +1,6 @@
 ---
-wsId: coinTraderMobile
 title: Shift Platform
-date: 2023-12-19
+date: 2026-10-30
 authors:
 - danny
 website: https://www.shiftmarkets.com/
@@ -19,7 +18,6 @@ android:
   released: 2019-01-28
   updated: 2025-01-24
   version: 4.14.0
-  icon: com.shiftmarkets.cointrader.webp
   meta: removed
   verdict: custodial
   developerName: Shift Markets Ltd
@@ -31,7 +29,6 @@ iphone:
   updated: 2023-02-13
   version: 4.1.0
   reviews: 0
-  icon: com.shiftmarkets.cointrader.webp
   meta: removed
   verdict: custodial
   developerName: Shift Markets
@@ -67,4 +64,4 @@ Although there was some initial confusion about the addresses and the lack of a 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

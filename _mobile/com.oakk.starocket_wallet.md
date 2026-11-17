@@ -1,7 +1,6 @@
 ---
-wsId: trubit
 title: 'TruBit: Crypto Wallet'
-date: 2023-04-29
+date: 2026-10-30
 authors:
 - danny
 website: https://trubit.com/
@@ -26,7 +25,6 @@ android:
   updated: 2026-02-05
   version: 3.1.7
   reviews: 9
-  icon: com.oakk.starocket_wallet.webp
   meta: ok
   verdict: custodial
   developerName: TruBit Ltd.
@@ -38,7 +36,6 @@ iphone:
   updated: 2026-01-24
   version: 3.1.6
   reviews: 8
-  icon: com.oakk.starocket-wallet.webp
   meta: ok
   verdict: custodial
   developerName: TruBit Ltd.
@@ -67,7 +64,7 @@ As a buy/sell exchange service, {{ page.title }}'s ability to freeze and close t
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="buyWithCC" quote="Buy Bitcoin, Ethereum and more cryptos easily, safely and instantly, with bank transfer, your credit or debit cards." source="Store" %}
 

@@ -1,10 +1,9 @@
 ---
 title: Huione Crypto
-date: 2024-08-13
+date: 2026-10-30
 authors:
 - danny
-social:
-- https://huionepay.com.kh#deadLink
+website: https://huionepay.com.kh#deadLink
 redirect_from:
 - /android/com.huione.crypto/
 android:
@@ -13,12 +12,13 @@ android:
   released: 2022-05-30
   updated: 2024-05-16
   version: 2.3.0
-  icon: com.huione.crypto.webp
   meta: removed
   verdict: custodial
   developerName: Huione Group
 
 ---
+
+**⚠️ Warning:** Huione Pay froze withdrawals after a run on deposits in December 2025, and Cambodia's central bank then revoked its licence and liquidated it [(ICIJ)](https://www.icij.org/investigations/coin-laundry/cambodian-payment-processor-freezes-customer-funds-before-regulators-shut-it-down/), [(CoinDesk)](https://www.coindesk.com/policy/2025/12/02/sanctioned-cambodian-bank-huione-halts-business-after-mass-run-on-accounts-report). This app served Huione Pay account holders.
 
 ## App Description from Google Play
 

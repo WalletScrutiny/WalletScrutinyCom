@@ -1,7 +1,6 @@
 ---
-wsId: VelasWallet
 title: Velas Wallet
-date: 2025-06-09
+date: 2026-10-30
 authors:
 - danny
 - emanuel
@@ -23,7 +22,6 @@ android:
   updated: 2024-01-31
   version: 2.3.19
   reviews: 22
-  icon: com.velas.mobile_wallet.webp
   meta: obsolete
   verdict: nosource
   developerName: VELAS Network AG
@@ -35,7 +33,6 @@ iphone:
   updated: 2024-06-12
   version: 2.3.18
   reviews: 10
-  icon: com.velas.walletmobile.webp
   meta: obsolete
   verdict: nosource
   developerName: Velas
@@ -96,4 +93,4 @@ This app is self-custodial. We are trying to find out if it is reproducible [her
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

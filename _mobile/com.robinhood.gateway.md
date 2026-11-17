@@ -1,7 +1,6 @@
 ---
-wsId: robinhoodWalletSwapCrypto
 title: 'Robinhood Wallet: Swap Crypto'
-date: 2025-12-08
+date: 2026-10-30
 authors:
 - danny
 website: https://robinhood.com/web3-wallet/
@@ -19,13 +18,12 @@ redirect_from:
 - /iphone/com.robinhood.release.Gateway/
 android:
   appId: com.robinhood.gateway
-  users: 100000
+  users: 500000
   appCountry: us
   released: 2024-03-12
-  updated: 2026-09-21
-  version: 2026.39.0
-  reviews: 261
-  icon: com.robinhood.gateway.webp
+  updated: 2026-10-06
+  version: 2026.41.2
+  reviews: 262
   meta: ok
   verdict: nosource
   developerName: Robinhood
@@ -34,10 +32,9 @@ iphone:
   idd: '1634080733'
   appCountry: us
   released: 2023-01-18
-  updated: 2026-09-28
-  version: 2026.40.0
-  reviews: 6862
-  icon: com.robinhood.release.Gateway.webp
+  updated: 2026-10-05
+  version: 2026.41.0
+  reviews: 6960
   meta: ok
   verdict: nosource
   developerName: Robinhood Markets, Inc.
@@ -64,7 +61,7 @@ Robinhood [**does not publish the source code**](https://github.com/search?q=com
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Swap Your Favorite Cryptocurrencies Manage and trade tens of thousands of popular cryptocurrencies like Ethereum (ETH), Solana (SOL), USDC, and more." source="Store description" %}
 

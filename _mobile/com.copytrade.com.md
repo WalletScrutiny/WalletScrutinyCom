@@ -1,6 +1,6 @@
 ---
 title: GS TRADER-Online Investing And Social Trading
-date: 2023-01-02
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2021-09-14
   updated: 2021-08-24
   version: 1.5.2
-  icon: com.copytrade.com.webp
   meta: removed
   verdict: wip
 

@@ -4,6 +4,46 @@ import { dirname, join } from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
+// Source-analysis plugins: one file each in plugins/, run on every checked-out
+// repository in this order; true runs it, false skips it. Move a line to
+// change the order. Every file in plugins/ must be listed here, and a plugin
+// must come after the ones it requires (both checked at startup). Container
+// steps all run before host steps (see plugins.mjs). The test numbers are
+// the README's.
+export const PLUGINS = {
+  'install-dependencies': false,  // npm/yarn or pip install; tests 1-4 need it, keep it first
+  'dependency-tree': false,       // test 1
+  'direct-dependencies': false,   // test 2
+  'unfixed-versions': false,      // test 3
+  'npm-audit': false,             // the old test 10 (npm/yarn audit), replaced by osv
+  'outdated-dependencies': false, // test 4
+  'jsxray': false,                // test 5
+  'obfuscation': false,           // test 6
+  'pinning': true,                // test 7, stores the resolved dependencies
+  'gradle-resolution': true,      // test 7b, completes pinning's gradle rows
+  'oob-downloads': true,          // test 8, read by lock-coverage
+  'committed-binaries': true,     // test 9, read by lock-coverage
+  'lock-coverage': true,          // test 7c, manifests without a lockfile, inputs outside any lockfile
+  'build-lock': true,             // test 7d, host: the build's own download list (build-lock.json), adds rows for osv
+  'osv': true,                    // test 10, host: known vulnerabilities of pinning's rows
+  'submodules': true,             // host: git submodules as three claims (submoduleIdentity.mjs)
+  'semgrep': false,               // test 11, host: its own container on the checkout
+};
+
+// Test 7d (plugins/build-lock.mjs): the verifiers whose build-lock.json is
+// used. A verification from any other key keeps its file reported as "from a
+// verifier not on the list" and unused, since any key can publish a
+// "reproducible" verification. To add a verifier, add their hex pubkey (the
+// key they sign verifications with) and a comment naming them.
+export const BUILD_LOCK_VERIFIERS = new Set([
+  '168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f47373fdcce2b9cd335', // WS bot (the ABS's signing key)
+  '1f9e547c2f31942623b8ad1d07713282e8640fd8cf474e9f79f18ace8af216ed', // Danny
+  '46fcbe3065eaf1ae7811465924e48923363ff3f526bd6f73d7c184b16bd8ce4d', // Leo
+  '03b5036dc3db82604307c1964d2b926417a91c3b11ef75ba6ca55019e9b7a62a', // Luis
+  '54790a499115f63e32536aadab43f62c0cf3922cd1653b3a74846fe2f6573f5d', // Carol (BitForBit)
+  '8287106aa4810b7205926259441735707fcc0d8de85c07b74e8245efe6468ad0', // Bob (SameBytes)
+]);
+
 // API Configuration
 export const GITHUB_API_BASE = 'https://api.github.com';
 export const DOCKER_HUB_API_BASE = 'https://hub.docker.com/v2';
@@ -12,14 +52,26 @@ export const DOCKER_HUB_API_BASE = 'https://hub.docker.com/v2';
 // Dev runs keep everything inside this folder; the systemd unit points the
 // service at its StateDirectory / CacheDirectory through these variables
 // (config/walletscrutiny-source-analysis.service).
+// The version key the default branch's latest analysis stores its dependency
+// and advisory rows under, next to the releases' tags: one set per app, each
+// analysis replacing the last. A git ref cannot contain ':', so no tag clashes.
+// Readers of those tables that mean releases leave it out.
+export const DEFAULT_BRANCH_REF = ':default-branch';
 export const DB_PATH = process.env.SOURCE_ANALYSIS_DB_PATH || join(__dirname, 'assets.db');
 export const BACKUP_DIR = join(dirname(DB_PATH), 'backup');
+// Dependency ladder per pass (index.mjs): new package versions looked up for
+// their source repository and tag; Reproducible Central's sparse checkout
+// (rebuildClaims.mjs, about 170 MB) next to the database.
+export const IDENTITY_PER_PASS = Math.max(0, Math.floor(Number(process.env.SOURCE_ANALYSIS_IDENTITY_PER_PASS ?? 3000)) || 0);
+export const RC_DIR = process.env.SOURCE_ANALYSIS_RC_DIR || join(dirname(DB_PATH), 'reproducible-central');
 export const BACKUPS_TO_KEEP = 14; // one copy per run, older ones are deleted
+// Static JSON export written at the end of each pass (export.mjs); unset = no export
+export const EXPORT_DIR = process.env.SOURCE_ANALYSIS_EXPORT_DIR || null;
 
 // App list: which wallets exist and where their source lives, rendered by the
-// site from the wallet records (assets/js/json/appRepositories.json).
+// site from the wallet records (api/appRepositories.json).
 // index.mjs fetches it on every run and keeps the last good copy in the database.
-export const APP_LIST_URL = 'https://walletscrutiny.com/assets/js/json/appRepositories.json';
+export const APP_LIST_URL = 'https://walletscrutiny.com/api/appRepositories.json';
 
 // Extra apps not covered by the site list, e.g. Docker images.
 // Add your apps here with appId, GitHub repository URL, and optionally Docker image name
@@ -37,11 +89,50 @@ export const APPS = [
 export const DEFAULT_TEMP_DIR = process.env.SOURCE_ANALYSIS_TEMP_DIR || join(__dirname, 'temp_repos');
 // Fully qualified so it resolves the same under docker and podman
 export const SEMGREP_IMAGE = 'docker.io/semgrep/semgrep';
+
+// Container the per-repository work runs in (containerRunner.mjs). Pinned by
+// digest: a third-party image that runs untrusted code in isolation, bumped
+// deliberately. mingc/android-build-box ships Android SDK platforms 28-35 +
+// NDK, JDK 8/11/17/21, Node 22, Python 3 and Flutter, which covers every
+// ecosystem the checks know (gradle, npm/yarn, pip; maven is not in it and no
+// tracked wallet uses it).
+export const ANALYSIS_IMAGE = process.env.SOURCE_ANALYSIS_IMAGE ||
+  'docker.io/mingc/android-build-box:1.29.0@sha256:f7d2376b3fe17c7cff946f4da41d2254dc40c4f7bacbe0dca7a3910b06bc2d21';
+export const CONTAINER_CLI = process.env.SOURCE_ANALYSIS_CONTAINER_CLI || 'docker'; // docker or podman
+export const CONTAINER_MEMORY = process.env.SOURCE_ANALYSIS_CONTAINER_MEMORY || '6g';
+export const CONTAINER_CPUS = Number(process.env.SOURCE_ANALYSIS_CONTAINER_CPUS || 2);
+export const CONTAINER_PIDS = Number(process.env.SOURCE_ANALYSIS_CONTAINER_PIDS || 2048); // counts threads too
+export const CONTAINER_TIMEOUT_MS = Number(process.env.SOURCE_ANALYSIS_CONTAINER_TIMEOUT_MIN || 45) * 60 * 1000; // per repository
+// Repositories processed at the same time. Each one runs its own container
+// with the limits above (3 x 6 GB / 2 CPUs by default), next to the build server.
+export const CONCURRENCY = Math.max(1, Math.floor(Number(process.env.SOURCE_ANALYSIS_CONCURRENCY)) || 3);
+// Which wallets a pass analyses: 'reproducible' (default) only those with a
+// reproducible build verification of any version (reproducible.mjs), 'all'
+// every wallet with a repository.
+export const SCOPE = process.env.SOURCE_ANALYSIS_SCOPE === 'all' ? 'all' : 'reproducible';
+// A gone wallet (removed, defunct, discontinued, deprecated) stays in scope
+// while it was reproducible: its users still run it, and new advisories in
+// its dependencies matter to them. Once its default branch saw no commit for
+// this many years it is past its end of life and leaves the scope.
+export const GONE_EOL_YEARS = Number(process.env.SOURCE_ANALYSIS_GONE_EOL_YEARS || 2);
+// Verified versions not analysed yet, analysed per repository and pass,
+// newest verification first; the backlog drains over the next passes.
+export const VERIFIED_PER_PASS = Math.max(0, Math.floor(Number(process.env.SOURCE_ANALYSIS_VERIFIED_PER_PASS ?? 3)) || 0);
+// npm/yarn/gradle/pip caches, one directory per wallet under wallets/, each
+// mounted only into that wallet's container; past the cap the least recently
+// used ones are wiped (index.mjs calls pruneCache after each pass).
+export const CACHE_DIR = process.env.SOURCE_ANALYSIS_CACHE_DIR || join(__dirname, 'cache');
+export const CACHE_MAX_BYTES = Number(process.env.SOURCE_ANALYSIS_CACHE_MAX_GB || 20) * 1e9;
 export const YEARS_FOR_OUTDATED_CHECK = 5; // Report dependencies not updated in last X years
 export const MIN_DOWNLOADS_THRESHOLD = 10000; // Minimum downloads per month to avoid alert
 
 // Asset Size Change Detection Configuration
-export const SIZE_CHANGE_THRESHOLD_PERCENT = 30; // Alert if size difference exceeds this percentage
+export const SIZE_CHANGE_THRESHOLD_PERCENT = 40; // Alert if size difference exceeds this percentage
+
+// GitHub lists releases newest first. The asset ledger stops at the first
+// release older than this, so a repository with a long history (Brave) is not
+// walked into the API's result cap.
+export const RELEASE_MAX_AGE_YEARS = 3;
 
 export const SHOW_ONLY_FIRST_X_ALERTS = 100;
 

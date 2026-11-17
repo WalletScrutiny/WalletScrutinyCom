@@ -1,6 +1,6 @@
 ---
 title: QWallet
-date: 2023-12-19
+date: 2026-10-30
 redirect_from:
 - /android/com.quattro.wallet/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2021-07-12
   updated: 2021-07-12
   version: 0.21.0
-  icon: com.quattro.wallet.webp
   meta: removed
   verdict: wip
   developerName: Febitak

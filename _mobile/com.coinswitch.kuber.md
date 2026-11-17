@@ -1,7 +1,6 @@
 ---
-wsId: CoinSwitch
 title: Buy Bitcoin and Crypto app
-date: 2021-10-21
+date: 2026-10-30
 authors:
 - danny
 website: https://coinswitch.co
@@ -18,10 +17,9 @@ android:
   users: 10000000
   appCountry: in
   released: 2020-05-31
-  updated: 2026-09-18
-  version: 9.5.6
-  reviews: 149378
-  icon: com.coinswitch.kuber.webp
+  updated: 2026-10-09
+  version: 9.6.0
+  reviews: 149779
   meta: ok
   verdict: nosendreceive
   developerName: Bitkuber Investments Private Limited
@@ -32,8 +30,7 @@ iphone:
   released: 2020-12-01
   updated: 2026-09-26
   version: 9.5.8
-  reviews: 61370
-  icon: com.coinswitch.kuber.webp
+  reviews: 61472
   meta: ok
   verdict: nosendreceive
   developerName: BITKUBER INVESTMENTS PRIVATE LIMITED
@@ -41,6 +38,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** CoinSwitch PRO, a mode in the app, now accepts some crypto deposits, but its [deposit page](https://coinswitch.co/pro/crypto-deposit) says "We do not support crypto withdrawals at this time". The terms link below is dead; it now points to an archived copy.
 
 ## App Description
 
@@ -63,7 +62,7 @@ From [CoinSwitch's FAQ:](https://coinswitch.co/faq#desktopsecondInnerOne)
 
 > *What's the cryptocurrency wallet address?* CoinSwitch **doesn’t provide wallet addresses and never stores user deposits.** To exchange cryptocurrencies, you need to have a cryptocurrency wallet address.
 
-From Terms and Conditions, [Activities Prohibited on the Platform:](https://coinswitch.co/kuber-terms)
+From Terms and Conditions, [Activities Prohibited on the Platform:](https://web.archive.org/web/20211019091623/https://coinswitch.co/kuber-terms)
 
 >  In the event of any suspicious or large transactions being undertaken by You, CoinSwitch shall have the right but not the obligation to verify such activity by sharing Your IP address and other KYC details with the relevant authority, and if required, suspend the transactions or freeze your access.
 
@@ -88,4 +87,4 @@ You **cannot send or receive assets on this platform.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

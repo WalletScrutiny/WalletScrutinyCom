@@ -1,7 +1,6 @@
 ---
-wsId: amberAppWallet
 title: AmberApp
-date: 2023-07-17
+date: 2026-10-30
 authors:
 - danny
 website: http://amber.app
@@ -20,10 +19,9 @@ android:
   users: 10000
   appCountry: us
   released: 2021-06-21
-  updated: 2026-09-09
-  version: 8.4.2
+  updated: 2026-10-13
+  version: 8.5.1
   reviews: 26
-  icon: io.getamber.app.webp
   meta: ok
   verdict: custodial
   developerName: AmberLabs
@@ -34,8 +32,7 @@ iphone:
   released: 2021-06-21
   updated: 2026-09-10
   version: 8.4.2
-  reviews: 295
-  icon: io.getamber.app.webp
+  reviews: 297
   meta: ok
   verdict: custodial
   developerName: Amber Labs
@@ -56,13 +53,13 @@ iphone:
 
 ## Analysis
 
-- Amber uses [cold-storage](https://amber.app/faqs/) for storing bitcoin. They also have a "dispute window" or timeframe from the first purchase of bitcoin. The bitcoins can only be sent after this period of time.
+- Amber uses [cold-storage](https://web.archive.org/web/20230610171451/https://amber.app/faqs/) for storing bitcoin. They also have a "dispute window" or timeframe from the first purchase of bitcoin. The bitcoins can only be sent after this period of time.
 - The presence of cold-storage mechanisms is a strong indicator of a **custodial** service.
 
 ---
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="ln" quote="Then stack for life. Or send on the Lightning Network." source="Website" %}

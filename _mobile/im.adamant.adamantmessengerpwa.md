@@ -1,7 +1,6 @@
 ---
-wsId: adamanyMessenger
 title: ADAMANT Messenger
-date: 2024-09-18
+date: 2026-10-30
 authors:
 - danny
 website: https://adamant.im
@@ -23,7 +22,6 @@ android:
   updated: 2026-09-08
   version: 4.12.0
   reviews: 16
-  icon: im.adamant.adamantmessengerpwa.webp
   meta: ok
   verdict: sourceavailable
   developerName: ADAMANT Foundation
@@ -36,7 +34,6 @@ iphone:
   updated: 2025-09-13
   version: 3.10.1
   reviews: 18
-  icon: im.adamant.adamant-messenger.webp
   meta: stale
   verdict: sourceavailable
   developerName: ADAMANT TECH LABS LP
@@ -74,4 +71,4 @@ An issue has been opened at [https://github.com/Adamant-im/adamant-im/issues/666
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

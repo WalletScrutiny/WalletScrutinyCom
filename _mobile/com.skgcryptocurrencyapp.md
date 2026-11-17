@@ -1,6 +1,6 @@
 ---
 title: Crypto Wallet
-date: 2024-07-05
+date: 2026-10-30
 redirect_from:
 - /android/com.skgcryptocurrencyapp/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-07-20
   updated: 2022-07-20
   version: '1.0'
-  icon: com.skgcryptocurrencyapp.webp
   meta: removed
   verdict: wip
   developerName: Swatantra kumar goswami

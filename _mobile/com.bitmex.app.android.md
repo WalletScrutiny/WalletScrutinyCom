@@ -1,7 +1,6 @@
 ---
-wsId: bitMEXNew
 title: 'BitMEX: Buy Bitcoin & Crypto'
-date: 2023-03-29
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitmex.com/
@@ -18,8 +17,7 @@ android:
   appCountry: us
   updated: 2026-07-15
   version: 3.2.14
-  icon: com.bitmex.app.android.webp
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: BitMEX
 iphone:
@@ -30,8 +28,7 @@ iphone:
   updated: 2026-07-16
   version: 3.2.14
   reviews: 0
-  icon: com.bitmex.app.ios.webp
-  meta: ok
+  meta: removed
   verdict: custodial
   developerName: BitMEX
 
@@ -43,7 +40,7 @@ iphone:
 
 BitMEX is one of the better known exchanges. 
 
-It has a [Custody Statement](https://www.bitmex.com/custody-statement)
+It has a [Custody Statement](https://web.archive.org/web/20230531230536/https://www.bitmex.com/custody-statement)
 
 > As a digital asset trading platform, BitMEX receives digital asset deposits from clients to allow them to conduct trading activities on our platform. Given we have control over the digital asset private keys BitMEX is safeguarding digital assets on behalf of its clients. As such, we implement specific controls and security measures to protect client assets from fraud or misappropriation, and are committed to operating our business in compliance with all applicable laws, regulations, and regulatory guidance.
 >
@@ -53,4 +50,4 @@ It has a [Custody Statement](https://www.bitmex.com/custody-statement)
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

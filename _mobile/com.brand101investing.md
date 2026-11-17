@@ -1,7 +1,6 @@
 ---
-wsId: 101Investing
 title: 101Investing Online Trading | Forex and Stocks
-date: 2022-04-07
+date: 2026-10-30
 authors:
 - danny
 website: https://www.101investing.com/
@@ -20,7 +19,6 @@ android:
   updated: 2021-12-01
   version: 1.5.78-brand101investing
   reviews: 209
-  icon: com.brand101investing.webp
   meta: removed
   verdict: nosendreceive
 iphone:
@@ -29,11 +27,12 @@ iphone:
   released: 2020-11-10
   updated: 2021-08-25
   version: 1.68.10
-  icon: com.101investing.webp
   meta: removed
   verdict: nosendreceive
 
 ---
+
+**Update 2026-10-30:** The provider is gone, for both apps. The Cyprus regulator CySEC [withdrew the licence of FXBFI Broker Financial Invest Ltd](https://www.financemagnates.com/institutional-forex/cyprus-regulator-withdraws-license-of-fxbfi-broker-amid-compliance-issues/), the operator of 101Investing, in September 2023, after the firm renounced it, and www.101investing.com now shows a Turkish online casino page instead of the broker.
 
 ## Android
 
@@ -65,4 +64,4 @@ This service **does not allow the user to send or receive bitcoins**.
 
 **Update 2022-03-21**: This app is not available anymore.
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

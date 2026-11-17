@@ -1,10 +1,9 @@
 ---
-wsId: coinInnBTCandDoge
 title: CoinInn-Trade Altcoin
-date: 2025-07-18
+date: 2026-10-30
 authors:
 - danny
-website: https://www.coininn.com
+website: https://www.coininn.com#deadLink
 twitter: coin_inn
 social:
 - https://www.linkedin.com/company/coininnwealthuab
@@ -20,7 +19,6 @@ android:
   updated: 2025-04-02
   version: 5.0.25
   reviews: 42
-  icon: com.coininn.wenwen.webp
   meta: removed
   verdict: custodial
   developerName: CoinInn Limited
@@ -32,12 +30,13 @@ iphone:
   updated: 2025-04-07
   version: 5.0.25
   reviews: 46
-  icon: com.coininn.yykik.webp
   meta: removed
   verdict: custodial
   developerName: CoinInn Wealth UAB
 
 ---
+
+**⚠️ Warning:** CoinInn appears to be gone. Its website no longer loads, and its Lithuanian company CoinInn Wealth UAB went into liquidation in August 2025 and was [deregistered on 2026-09-09](https://www.lursoft.lv/en/companies/lt/company/coininn-wealth-uab/305910851).
 
 ## Android
 
@@ -56,4 +55,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

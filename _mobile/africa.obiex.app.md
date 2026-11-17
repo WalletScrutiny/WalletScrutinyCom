@@ -1,7 +1,6 @@
 ---
-wsId: ObiexExchange
 title: Obiex - Swap, Buy & Sell BTC
-date: 2022-08-01
+date: 2026-10-30
 authors:
 - danny
 website: https://obiex.finance/
@@ -20,10 +19,9 @@ android:
   users: 100000
   appCountry: us
   released: 2021-06-09
-  updated: 2026-09-05
-  version: 4.1.22
+  updated: 2026-10-11
+  version: 4.1.23
   reviews: 31
-  icon: africa.obiex.app.webp
   meta: ok
   verdict: custodial
   developerName: Obiex Africa Ltd.
@@ -32,10 +30,9 @@ iphone:
   idd: '1567887163'
   appCountry: ng
   released: 2021-06-18
-  updated: 2026-09-05
-  version: 4.1.20
-  reviews: 717
-  icon: africa.obiex.app.webp
+  updated: 2026-10-13
+  version: 4.1.23
+  reviews: 722
   meta: ok
   verdict: custodial
   developerName: Paylot technologies Ltd
@@ -64,7 +61,7 @@ This is a **custodial** offering.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Trade Bitcoin, USDT, Ethereum, and over 20+ cryptocurrencies and digital currencies with ease on our crypto exchange." source="Store" comment="Explicitly supports swapping/trading between multiple cryptocurrencies." %}
 

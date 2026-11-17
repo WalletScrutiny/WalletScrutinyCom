@@ -1,6 +1,6 @@
 ---
 title: HashPort Wallet
-date: 2026-09-04
+date: 2026-10-30
 website: https://wallet.hashport.com/
 appCountry: jp
 redirect_from:
@@ -10,10 +10,9 @@ android:
   users: 100000
   appCountry: jp
   released: 2023-10-13
-  updated: 2026-09-07
-  version: 3.20.1
+  updated: 2026-10-07
+  version: 3.23.1
   reviews: 227
-  icon: io.hashport.hashwallet.webp
   meta: ok
   verdict: nosource
   developerName: HashPort Inc.
@@ -22,10 +21,9 @@ iphone:
   idd: '6450660947'
   appCountry: jp
   released: 2023-10-22
-  updated: 2026-09-16
-  version: 3.20.1
-  reviews: 1389
-  icon: io.hashport.hashwallet.webp
+  updated: 2026-10-13
+  version: 3.23.1
+  reviews: 1397
   meta: ok
   verdict: nosource
   developerName: HashPort Inc

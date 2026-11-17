@@ -1,6 +1,6 @@
 ---
 title: CoinDebits
-date: 2024-04-19
+date: 2026-10-30
 redirect_from:
 - /android/com.coinsdebits.wallet/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2017-06-26
   updated: 2017-11-21
   version: 0.0.6
-  icon: com.coinsdebits.wallet.webp
   meta: removed
   verdict: wip
   developerName: coin debits

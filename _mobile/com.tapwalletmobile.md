@@ -1,7 +1,6 @@
 ---
-wsId: tapProtocolWallet
 title: TAP Protocol Wallet
-date: 2026-05-02
+date: 2026-10-30
 authors:
 - danny
 website: https://tap-protocol.com
@@ -16,7 +15,6 @@ android:
   released: 2025-07-24
   updated: 2026-08-18
   version: 1.0.32
-  icon: com.tapwalletmobile.webp
   meta: ok
   verdict: nosource
   developerName: Trac Systems
@@ -28,7 +26,6 @@ iphone:
   updated: 2026-08-20
   version: 1.0.10
   reviews: 8
-  icon: com.tap-protocol.tapwallet.webp
   meta: ok
   verdict: nosource
   developerName: Trac Systems UG (haftungsbeschrankt)
@@ -55,4 +52,4 @@ This app is **not source-available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

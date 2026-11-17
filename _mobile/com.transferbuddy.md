@@ -1,6 +1,6 @@
 ---
 title: TransferBuddy Money Transfer
-date: 2024-04-03
+date: 2026-10-30
 website: https://transferbuddy.org#deadLink
 redirect_from:
 - /android/com.transferbuddy/
@@ -10,7 +10,6 @@ android:
   released: 2021-01-28
   updated: 2021-02-17
   version: '1.2'
-  icon: com.transferbuddy.webp
   meta: removed
   verdict: wip
   developerName: TransferBuddy

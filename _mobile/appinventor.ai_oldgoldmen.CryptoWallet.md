@@ -1,6 +1,6 @@
 ---
 title: 'Multi Crypto Wallet: for Bitco'
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - leo
 redirect_from:
@@ -12,7 +12,6 @@ android:
   updated: 2021-02-23
   version: '3.0'
   reviews: 4
-  icon: appinventor.ai_oldgoldmen.CryptoWallet.webp
   meta: removed
   verdict: nosource
   developerName: FinSec

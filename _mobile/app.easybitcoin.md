@@ -1,7 +1,6 @@
 ---
-wsId: easyBitcoin
 title: easyBitcoin
-date: 2025-11-10
+date: 2026-10-30
 authors:
 - danny
 website: https://easybitcoin.app/
@@ -21,7 +20,6 @@ android:
   updated: 2026-04-10
   version: 1.2.2
   reviews: 28
-  icon: app.easybitcoin.webp
   meta: ok
   verdict: custodial
   developerName: Uphold HQ Inc.
@@ -30,15 +28,16 @@ iphone:
   idd: '6746941684'
   appCountry: us
   released: 2025-09-09
-  updated: 2026-04-11
-  version: 1.2.2
+  updated: 2026-10-07
+  version: 1.2.4
   reviews: 10
-  icon: app.easybitcoin.webp
   meta: ok
   verdict: custodial
   developerName: Uphold HQ Inc.
 
 ---
+
+**⚠️ Warning:** easyBitcoin is shutting down. A notice on its [website](https://easybitcoin.app/) says the service will be sunset on November 30, 2026; customers with a balance are told to follow the instructions sent by email, and accounts with a zero balance have already been closed.
 
 ## Android
 
@@ -58,4 +57,4 @@ This app offers a **custodial** service.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: squirrelWallet
 title: Squirrel Wallet
-date: 2025-09-24
+date: 2026-10-30
 authors:
 - danny
 website: https://squirrel-wallet.gitbook.io
@@ -18,7 +17,6 @@ android:
   released: 2025-06-26
   updated: 2026-07-01
   version: 1.0.8
-  icon: com.squirrelwallet.app.webp
   meta: ok
   verdict: nosource
   developerName: Squirrel Wallet
@@ -30,7 +28,6 @@ iphone:
   updated: 2026-07-02
   version: 1.0.8
   reviews: 2
-  icon: com.squirrelwallet.onekey.webp
   meta: ok
   verdict: nosource
   developerName: Squirrel Wallet Inc
@@ -53,4 +50,4 @@ However, its code is **not source-available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

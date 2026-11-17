@@ -1,7 +1,6 @@
 ---
-wsId: AdmiralMarkets
 title: Admirals・Stocks trading
-date: 2021-10-16
+date: 2026-10-30
 authors:
 - danny
 website: https://www.admiralmarkets.com
@@ -17,10 +16,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2020-10-07
-  updated: 2026-08-24
-  version: 1.14.0
+  updated: 2026-09-29
+  version: 1.14.1
   reviews: 4
-  icon: com.admiralmarkets.android.webp
   meta: ok
   verdict: nosendreceive
   developerName: Admiral Markets
@@ -29,10 +27,9 @@ iphone:
   idd: '1222861799'
   appCountry: in
   released: 2017-06-28
-  updated: 2026-08-26
-  version: 5.66.0
+  updated: 2026-10-06
+  version: 5.66.1
   reviews: 3
-  icon: com.admiralmarkets.tradersroom.webp
   meta: ok
   verdict: nosendreceive
   developerName: Admiral Markets AS
@@ -91,4 +88,4 @@ Since this app trades in CFDs, and only accepts traditional modes for deposit/wi
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,6 +1,6 @@
 ---
 title: IndocoDex - The Advanced Decen
-date: 2024-04-19
+date: 2026-10-30
 authors:
 - danny
 website: https://www.indocodex.com#deadLink
@@ -18,7 +18,6 @@ android:
   released: 2020-06-23
   updated: 2021-05-18
   version: 1.1.7
-  icon: app.indocodex.com.webp
   meta: removed
   verdict: wip
   developerName: Indocodex - Rajacoin

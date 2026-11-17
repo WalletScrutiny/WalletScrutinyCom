@@ -1,7 +1,6 @@
 ---
-wsId: ExodusCryptoBitcoinWallet
 title: 'Exodus: Crypto & Payments'
-date: 2021-01-23
+date: 2026-10-30
 authors:
 - leo
 - danny
@@ -18,10 +17,9 @@ android:
   users: 5000000
   appCountry: us
   released: 2019-06-06
-  updated: 2026-09-21
-  version: 26.9.25
-  reviews: 8719
-  icon: exodusmovement.exodus.webp
+  updated: 2026-10-09
+  version: 26.10.7
+  reviews: 8732
   meta: ok
   verdict: nosource
   developerName: Exodus Movement, Inc.
@@ -30,10 +28,9 @@ iphone:
   idd: 1414384820
   appCountry: us
   released: 2019-03-23
-  updated: 2026-09-24
-  version: 26.9.25
-  reviews: 37380
-  icon: exodus-movement.exodus.webp
+  updated: 2026-10-07
+  version: 26.10.7
+  reviews: 37568
   meta: ok
   verdict: nosource
   developerName: Exodus Movement, Inc.

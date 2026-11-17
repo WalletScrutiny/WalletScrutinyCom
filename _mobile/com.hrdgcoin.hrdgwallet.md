@@ -1,6 +1,6 @@
 ---
 title: HRDG Wallet
-date: 2025-06-03
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -11,7 +11,6 @@ android:
   released: 2021-07-09
   updated: 2025-01-16
   version: 1.0.8
-  icon: com.hrdgcoin.hrdgwallet.webp
   meta: removed
   verdict: nosource
   developerName: TabiPay

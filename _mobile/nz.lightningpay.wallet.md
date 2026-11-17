@@ -1,6 +1,6 @@
 ---
 title: 'Stacked: Bitcoin Wallet NZ'
-date: 2025-11-10
+date: 2026-10-30
 website: https://stackedbitcoin.com
 redirect_from:
 - /android/nz.lightningpay.wallet/
@@ -8,9 +8,8 @@ android:
   appId: nz.lightningpay.wallet
   users: 500
   appCountry: us
-  updated: 2026-09-25
-  version: 3.12.5
-  icon: nz.lightningpay.wallet.webp
+  updated: 2026-10-02
+  version: 3.12.8
   meta: fewusers
   verdict: wip
   developerName: Stacked Bitcoin

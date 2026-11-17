@@ -1,6 +1,6 @@
 ---
 title: Rebellion Pay
-date: 2023-12-15
+date: 2026-10-30
 authors:
 - danny
 website: https://rebellionpay.com#deadLink
@@ -14,7 +14,6 @@ iphone:
   updated: 2023-09-14
   version: 1.11.21
   reviews: 5869
-  icon: com.rebellionpay.app.webp
   meta: removed
   verdict: wip
   developerName: RBLDE Unconventional S.L.

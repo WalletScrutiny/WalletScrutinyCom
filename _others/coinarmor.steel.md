@@ -3,8 +3,7 @@ title: Coin Armor Steel Cryptocurrency Wallet
 appId: coinarmor.steel
 authors:
 - danny
-icon: coinarmor.steel.webp
-date: 2022-05-10
+date: 2026-10-30
 released: 2018-01-04
 website: https://www.kickstarter.com/projects/437309334/coin-armor-steel-cryptocurrency-wallet
 provider: Anna Landik

@@ -1,6 +1,6 @@
 ---
 title: ERC Wallet
-date: 2022-01-15
+date: 2026-10-30
 redirect_from:
 - /android/com.ethercredit.wallet/
 android:
@@ -10,7 +10,6 @@ android:
   updated: 2020-09-23
   version: '1.0'
   reviews: 3
-  icon: com.ethercredit.wallet.webp
   meta: removed
   verdict: wip
 

@@ -1,17 +1,16 @@
 ---
 title: ZenaPay Merchant
-date: 2026-05-21
+date: 2026-10-30
 website: http://www.zenapay.com
 redirect_from:
 - /android/com.zenapay.merchant/
 android:
   appId: com.zenapay.merchant
-  users: 50
+  users: 100
   appCountry: us
   released: 2018-01-02
   updated: 2024-06-12
   version: 1.3.0
-  icon: com.zenapay.merchant.webp
   meta: obsolete
   verdict: wip
   developerName: Epazz

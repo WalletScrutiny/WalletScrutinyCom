@@ -1,7 +1,6 @@
 ---
-wsId: ChaingeFinance
 title: Chainge Finance
-date: 2025-06-20
+date: 2026-10-30
 authors:
 - danny
 website: https://chainge.finance#deadLink
@@ -20,7 +19,6 @@ android:
   updated: 2024-10-17
   version: 0.8.1
   reviews: 63
-  icon: com.fusion.chainge.android.webp
   meta: removed
   verdict: nosource
   developerName: Chainge
@@ -32,8 +30,7 @@ iphone:
   updated: 2024-10-14
   version: 0.8.3
   reviews: 88
-  icon: com.chainge.finance.app.webp
-  meta: stale
+  meta: removed
   verdict: nosource
   developerName: Chainge Tech Limited
 
@@ -90,4 +87,4 @@ We contacted them via [twitter](https://twitter.com/BitcoinWalletz/status/145038
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

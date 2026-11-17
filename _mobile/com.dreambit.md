@@ -1,10 +1,9 @@
 ---
-wsId: Dreambit
 title: Dreambit
-date: 2023-09-04
+date: 2026-10-30
 authors:
 - danny
-website: http://www.dreambit.com
+website: http://www.dreambit.com#deadLink
 appCountry: lv
 redirect_from:
 - /android/com.dreambit/
@@ -16,7 +15,6 @@ android:
   updated: 2022-12-29
   version: 3.0.0-dreambit
   reviews: 9
-  icon: com.dreambit.webp
   meta: removed
   verdict: custodial
   developerName: Crypterium AS
@@ -27,7 +25,6 @@ iphone:
   updated: 2024-04-27
   version: 1.0.5
   reviews: 0
-  icon: io.crypterium.minebest.webp
   meta: removed
   verdict: custodial
   developerName: Crypterium AS
@@ -72,4 +69,4 @@ Without the private key or the ability to import or backup a wallet, it is safe 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

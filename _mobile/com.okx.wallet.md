@@ -1,7 +1,6 @@
 ---
-wsId: okxWeb3Wallet
 title: 'OKX Wallet: Portal to Web3'
-date: 2025-11-20
+date: 2026-10-30
 authors:
 - danny
 twitter: wallet
@@ -13,10 +12,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2025-03-21
-  updated: 2026-09-30
-  version: 6.190.0
-  reviews: 60
-  icon: com.okx.wallet.webp
+  updated: 2026-10-06
+  version: 6.192.0
+  reviews: 61
   meta: ok
   verdict: nosource
   developerName: OKX Technology Inc.
@@ -25,10 +23,9 @@ iphone:
   idd: '6743309484'
   appCountry: us
   released: 2025-04-15
-  updated: 2026-09-30
-  version: 6.191.0
-  reviews: 107
-  icon: com.okx.wallet.webp
+  updated: 2026-10-08
+  version: 6.192.0
+  reviews: 110
   meta: ok
   verdict: nosource
   developerName: OKX Technology Inc
@@ -51,4 +48,4 @@ The wallet offers two modes: traditional seed phrase (tested above) and an optio
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

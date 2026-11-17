@@ -1,7 +1,6 @@
 ---
-wsId: internetMoneyWallet
 title: 'Internet Money: Crypto Wallet'
-date: 2025-11-18
+date: 2026-10-30
 authors:
 - danny
 website: https://internetmoney.io/
@@ -21,7 +20,6 @@ android:
   updated: 2026-09-17
   version: '4.1'
   reviews: 89
-  icon: com.internetmoneywallet.app.webp
   meta: ok
   verdict: nosource
   developerName: Internet Money
@@ -32,8 +30,7 @@ iphone:
   released: 2023-04-17
   updated: 2026-09-17
   version: '4.1'
-  reviews: 194
-  icon: com.internetmoneywallet.app.webp
+  reviews: 193
   meta: ok
   verdict: nosource
   developerName: Decentralized Innovations, LLC
@@ -59,7 +56,7 @@ Our tests show that this app is **not source-available**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="segwit" quote="Support for various Bitcoin account types: Native Segwit, Taproot, Nested Segwit and Legacy accounts!" source="Store description" %}
 

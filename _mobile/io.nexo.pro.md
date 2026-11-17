@@ -1,7 +1,6 @@
 ---
-wsId: nexoProExchange
 title: 'Nexo Pro: Crypto Exchange'
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 website: https://pro.nexo.com/
@@ -10,7 +9,6 @@ social:
 - https://www.reddit.com/r/Nexo
 - https://t.me/nexofinance
 - https://www.facebook.com/nexofinance
-- https://pro.nexo.com
 redirect_from:
 - /android/io.nexo.pro/
 - /iphone/com.nexo.pro/
@@ -21,7 +19,6 @@ android:
   updated: 2023-08-31
   version: 1.4.3
   reviews: 1
-  icon: io.nexo.pro.webp
   meta: removed
   verdict: custodial
   developerName: Nexo Capital Incorporated
@@ -33,7 +30,6 @@ iphone:
   updated: 2023-09-12
   version: 1.2.0
   reviews: 0
-  icon: com.nexo.pro.webp
   meta: removed
   verdict: custodial
   developerName: Nexo Capital Inc.
@@ -78,4 +74,4 @@ This makes the service a **custodial** platform with a **non-verifiable** app.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

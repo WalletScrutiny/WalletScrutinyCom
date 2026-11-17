@@ -1,7 +1,6 @@
 ---
-wsId: bingbon
 title: 'BingX: Buy Crypto & Stocks'
-date: 2024-10-07
+date: 2026-10-30
 authors:
 - kiwilamb
 - leo
@@ -22,7 +21,6 @@ android:
   updated: 2026-05-19
   version: 4.84.0
   reviews: 1410
-  icon: pro.bingbon.app.webp
   meta: removed
   verdict: custodial
   developerName: BINGX GROUP LIMITED
@@ -31,10 +29,9 @@ iphone:
   idd: 1500217666
   appCountry: us
   released: 2020-02-25
-  updated: 2026-09-08
-  version: 5.2.0
-  reviews: 3102
-  icon: pro.bingbon.finance.webp
+  updated: 2026-10-14
+  version: 5.4.0
+  reviews: 3130
   meta: ok
   verdict: custodial
   developerName: BingX Group Limited

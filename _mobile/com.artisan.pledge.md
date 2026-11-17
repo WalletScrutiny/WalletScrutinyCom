@@ -1,6 +1,6 @@
 ---
-title: AIMint
-date: 2025-11-12
+title: DFunds
+date: 2026-10-30
 authors:
 - danny
 website: https://www.assure.pro
@@ -11,10 +11,9 @@ android:
   users: 10000
   appCountry: us
   released: 2023-04-03
-  updated: 2026-09-15
-  version: 2.0.4
+  updated: 2026-09-30
+  version: 2.1.0
   reviews: 7
-  icon: com.artisan.pledge.webp
   meta: ok
   verdict: nosource
   developerName: CRYPASSURE PTE. LTD.

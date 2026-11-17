@@ -1,7 +1,6 @@
 ---
-wsId: holloxWallet
 title: 'Hollox: Crypto, Naira & Loans'
-date: 2025-04-01
+date: 2026-10-30
 authors:
 - danny
 website: https://hollox.finance/
@@ -9,7 +8,6 @@ twitter: Holloxintl
 social:
 - https://www.facebook.com/holloxintl
 - https://www.instagram.com/holloxintl
-- https://hollox.finance/
 redirect_from:
 - /android/finance.hollox.app/
 - /iphone/finance.hollox/
@@ -21,7 +19,6 @@ android:
   updated: 2026-08-14
   version: 12.5.0
   reviews: 8
-  icon: finance.hollox.app.webp
   meta: ok
   verdict: custodial
   developerName: XOXO TECHNOLOGIES LIMITED
@@ -33,7 +30,6 @@ iphone:
   updated: 2026-08-25
   version: 12.5.0
   reviews: 31
-  icon: finance.hollox.webp
   meta: ok
   verdict: custodial
   developerName: XOXO TECHNOLOGIES LIMITED
@@ -62,4 +58,4 @@ Although we could not find explicit evidence in its terms or on the website that
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,6 +1,6 @@
 ---
 title: VCoin - Crypto Wallet
-date: 2025-07-03
+date: 2026-10-30
 website: https://vcoin.com
 redirect_from:
 - /android/com.vcoin.wallet/
@@ -10,7 +10,6 @@ android:
   released: 2022-09-19
   updated: 2022-09-25
   version: '1.3'
-  icon: com.vcoin.wallet.webp
   meta: removed
   verdict: wip
   developerName: LMCorp

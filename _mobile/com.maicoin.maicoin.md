@@ -1,7 +1,6 @@
 ---
-wsId: maicoin
 title: MaiCoin - Buy Bitcoin & Crypto
-date: 2021-10-01
+date: 2026-10-30
 authors:
 - danny
 website: https://maicoin.com
@@ -17,21 +16,20 @@ android:
   users: 100000
   appCountry: us
   released: 2018-12-19
-  updated: 2026-04-13
+  updated: 2026-09-11
   version: 15.0.0
   reviews: 10
-  icon: com.maicoin.maicoin.webp
   meta: ok
   verdict: custodial
   developerName: MaiCoin Eng
 iphone:
   appId: com.maicoin.maicoin
   idd: 1439583926
+  appCountry: tw
   released: 2018-12-20
   updated: 2022-04-12
   version: 4.0.0
   reviews: 10
-  icon: com.maicoin.maicoin.webp
   meta: removed
   verdict: custodial
 
@@ -59,4 +57,6 @@ As the keys are on the side of the providers that means this app is **custodial*
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+**Update 2026-10-30:** The iPhone app is missing from the US App Store but is still listed in Taiwan as "MaiCoin - 買賣比特幣", so we set the store country to Taiwan.
+
+The Android analysis above applies to the iPhone app too.

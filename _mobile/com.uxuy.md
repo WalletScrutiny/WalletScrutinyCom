@@ -1,7 +1,6 @@
 ---
-wsId: uxuy
 title: 'UXUY: Memecoin for Trading'
-date: 2025-06-18
+date: 2026-10-30
 authors:
 - danny
 website: https://uxuy.com
@@ -20,7 +19,6 @@ android:
   updated: 2025-02-08
   version: 1.3.13
   reviews: 26
-  icon: com.uxuy.webp
   meta: removed
   verdict: custodial
   developerName: UXUY Limited
@@ -32,12 +30,13 @@ iphone:
   updated: 2025-02-08
   version: 1.3.13
   reviews: 18
-  icon: com.uxuy.webp
   meta: removed
   verdict: custodial
   developerName: UXUY Limited
 
 ---
+
+**Update 2026-10-30:** Both apps are gone from the stores. UXUY replaced them with a new app, "UXUY Wallet: Gasless, On-chain", which its [download page](https://www.uxuy.com/download) now links to.
 
 ## Android
 
@@ -105,4 +104,4 @@ For this reason, we have to err on the side of caution and mark this as a **cust
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

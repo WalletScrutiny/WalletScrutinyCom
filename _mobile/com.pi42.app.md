@@ -1,6 +1,6 @@
 ---
 title: 'Pi42: Crypto Futures & Options'
-date: 2025-11-26
+date: 2026-10-30
 authors:
 - danny
 website: https://pi42.exchange/
@@ -12,7 +12,6 @@ android:
   appCountry: us
   updated: 2026-09-17
   version: 3.3.01
-  icon: com.pi42.app.webp
   meta: ok
   verdict: nosendreceive
   developerName: Lightningnodes Technologies Pvt Ltd

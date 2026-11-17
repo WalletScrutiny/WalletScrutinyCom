@@ -1,7 +1,6 @@
 ---
-wsId: RiseWallet
 title: Well Wallet
-date: 2023-04-16
+date: 2026-10-30
 authors:
 - danny
 website: https://wellwallet.ca/
@@ -17,7 +16,6 @@ android:
   updated: 2022-04-14
   version: 1.7.0
   reviews: 15
-  icon: com.risewallet.riseapp.webp
   meta: removed
   verdict: nosource
   developerName: Bitcoin Well
@@ -28,11 +26,12 @@ iphone:
   updated: 2023-02-24
   version: 1.8.3
   reviews: 31
-  icon: com.risewallet.riseapp.webp
   meta: removed
   verdict: nosource
 
 ---
+
+**Update 2026-10-30:** Bitcoin Well retired the Well Wallet in 2023 and asked users to move their recovery phrase to another wallet ([Bitcoin Well blog](https://bitcoinwell.com/blog/how-to-change-mobile-wallets)). The wellwallet.ca site now forwards to bitcoinwell.com, which no longer offers a wallet of its own.
 
 ## Android
 
@@ -60,4 +59,4 @@ There's no information if the source code is available and no Github account eit
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

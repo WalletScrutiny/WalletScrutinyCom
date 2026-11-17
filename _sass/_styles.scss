@@ -695,7 +695,7 @@ table tr td label {
   }
 
   .app-review .page {
-    margin-top: 40px;
+    margin-top: 27px;
   }
 
   .hero-banner {
@@ -969,9 +969,37 @@ table tr td label {
 }
 
 @media (max-width: 500px) {
+  .app-review .page {
+    margin-top: 8px;
+  }
+
   .app-summary-grid {
     display: flex !important;
     flex-direction: column;
+  }
+
+  .app-summary-grid>.app_logo_big {
+    float: none;
+    align-self: center;
+  }
+
+  .app-summary-grid .app-sum-head {
+    padding-top: 0;
+  }
+
+  .app-summary-grid .app-sum-head .page__title {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: calc(#{$font-hero} * 0.85);
+  }
+
+  .app-summary-grid .app-sum-head .distribution-store-links {
+    margin-top: 4px;
+  }
+
+  .app-summary-grid .app-sum-head > .distribution-store-links {
+    justify-content: center;
   }
 
   .app-summary-grid>.app-payload-flex {
@@ -1113,6 +1141,12 @@ table tr td label {
 
   #main.app-review {
     margin-top: 0;
+  }
+}
+
+@media (min-width: 921px) {
+  #main.app-review {
+    margin-top: 2.2em;
   }
 }
 

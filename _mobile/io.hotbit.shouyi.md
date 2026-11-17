@@ -1,7 +1,6 @@
 ---
-wsId: hotbit
 title: Hotbit
-date: 2023-04-16
+date: 2026-10-30
 authors:
 - danny
 website: https://www.hotbit.io#deadLink
@@ -19,7 +18,6 @@ android:
   updated: 2023-04-11
   version: 1.4.33
   reviews: 1606
-  icon: io.hotbit.shouyi.webp
   meta: removed
   verdict: custodial
   developerName: Hotbit Technology Limited
@@ -30,12 +28,13 @@ iphone:
   updated: 2022-10-12
   version: 1.4.13
   reviews: 718
-  icon: io.chainbase.global.webp
   meta: removed
   verdict: custodial
   developerName: Chainbase Co.,Ltd.
 
 ---
+
+**⚠️ Warning:** Hotbit shut down its exchange on 22 May 2023 and asked users to withdraw their funds by 21 June 2023 ([Cryptopotato](https://cryptopotato.com/hotbit-closes-operations-as-centralized-exchanges-becoming-increasingly-cumbersome/), [Forklog](https://forklog.com/en/hotbit-exchange-to-shut-down-after-five-years/)). Both apps are gone from the stores.
 
 ## Android
 
@@ -51,4 +50,4 @@ It laters mentions the use of hot and cold wallets, and both are usually traits 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

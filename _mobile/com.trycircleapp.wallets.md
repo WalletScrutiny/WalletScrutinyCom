@@ -1,7 +1,6 @@
 ---
-wsId: TheCircleWalletApp
 title: The Circle App Wallets
-date: 2023-12-13
+date: 2026-10-30
 authors:
 - danny
 website: https://trycircleapp.com
@@ -15,7 +14,6 @@ android:
   released: 2020-12-29
   updated: 2021-12-10
   version: '7.0'
-  icon: com.trycircleapp.wallets.webp
   meta: removed
   verdict: nosource
   developerName: Rioni Marketing Management LLC
@@ -27,7 +25,6 @@ iphone:
   updated: 2021-12-11
   version: '2.1'
   reviews: 0
-  icon: com.thecirclewalletapp.webp
   meta: obsolete
   verdict: nosource
   developerName: Rioni Marketing Management LLC
@@ -56,4 +53,4 @@ We couldn't find a link to their source code and also searched for appID `com.th
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

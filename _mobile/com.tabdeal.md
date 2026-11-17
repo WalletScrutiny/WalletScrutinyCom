@@ -1,6 +1,6 @@
 ---
 title: Tabdeal
-date: 2023-07-08
+date: 2026-10-30
 authors:
 - danny
 website: https://tabdeal.org
@@ -17,10 +17,9 @@ android:
   users: 500000
   appCountry: us
   released: 2021-08-14
-  updated: 2026-08-23
-  version: 7.3.5
-  reviews: 152
-  icon: com.tabdeal.webp
+  updated: 2026-10-04
+  version: 7.4.3
+  reviews: 155
   meta: ok
   verdict: custodial
   developerName: Tabdeal Platform

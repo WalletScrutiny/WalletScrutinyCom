@@ -1,6 +1,6 @@
 ---
 title: 'FBYT: Buy Bitcoin, ETH, Crypto'
-date: 2024-02-05
+date: 2026-10-30
 website: https://fbyt.io
 redirect_from:
 - /android/com.firstbyt.mobileclient/
@@ -10,7 +10,6 @@ android:
   released: 2022-11-02
   updated: 2022-11-02
   version: '1.0'
-  icon: com.firstbyt.mobileclient.webp
   meta: removed
   verdict: wip
   developerName: FBYT

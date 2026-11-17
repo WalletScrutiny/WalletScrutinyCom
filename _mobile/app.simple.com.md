@@ -1,7 +1,6 @@
 ---
-wsId: simpleCrypto
 title: 'Simple:  Сrypto BTC, USDC'
-date: 2023-06-13
+date: 2026-10-30
 authors:
 - danny
 website: https://simple.app/
@@ -18,10 +17,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2023-04-24
-  updated: 2026-09-25
-  version: 3.29.5
-  reviews: 1859
-  icon: app.simple.com.webp
+  updated: 2026-10-08
+  version: 3.29.9
+  reviews: 1860
   meta: ok
   verdict: custodial
   developerName: Simple Europe
@@ -33,7 +31,6 @@ iphone:
   updated: 2026-05-22
   version: 3.27.2
   reviews: 222
-  icon: app.simple.com.webp
   meta: removed
   verdict: custodial
   developerName: Simple Europe UAB
@@ -63,4 +60,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

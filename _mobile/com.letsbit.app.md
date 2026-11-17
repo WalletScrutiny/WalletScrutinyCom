@@ -1,7 +1,6 @@
 ---
-wsId: letsBit
 title: 'LB Finanzas: billetera virtual'
-date: 2023-04-07
+date: 2026-10-30
 authors:
 - danny
 website: https://lbfinanzas.com
@@ -21,7 +20,6 @@ android:
   updated: 2026-03-23
   version: 2.18.0
   reviews: 18
-  icon: com.letsbit.app.webp
   meta: removed
   verdict: custodial
   developerName: LB Finanzas
@@ -32,8 +30,7 @@ iphone:
   released: 2022-12-07
   updated: 2026-09-21
   version: 2.36.0
-  reviews: 449
-  icon: com.letsbit.app.webp
+  reviews: 459
   meta: ok
   verdict: custodial
   developerName: Let'sBit
@@ -77,4 +74,4 @@ This proves that the service is **custodial** in nature and thus **not verifiabl
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

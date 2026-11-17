@@ -1,7 +1,6 @@
 ---
-wsId: rhinoBitcoin
 title: 'Rhino Bitcoin: Buy BTC, 0 Fees'
-date: 2026-05-19
+date: 2026-10-30
 authors:
 - danny
 website: https://www.rhinobitcoin.com/
@@ -18,10 +17,9 @@ android:
   users: 10000
   appCountry: us
   released: 2024-08-30
-  updated: 2026-09-22
-  version: 2.13.2
+  updated: 2026-10-06
+  version: 2.13.3
   reviews: 61
-  icon: com.rhinoglobal.webp
   meta: ok
   verdict: custodial
   developerName: Rhino Bitcoin
@@ -30,10 +28,9 @@ iphone:
   idd: '1564149079'
   appCountry: us
   released: 2022-06-29
-  updated: 2026-09-23
-  version: 2.13.2
-  reviews: 51
-  icon: com.Rhino.Global.webp
+  updated: 2026-10-07
+  version: 2.13.3
+  reviews: 54
   meta: ok
   verdict: custodial
   developerName: Rhino Global Inc
@@ -70,4 +67,4 @@ As a result, Rhino Bitcoin is classified as **custodial**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

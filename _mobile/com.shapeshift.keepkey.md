@@ -1,6 +1,6 @@
 ---
 title: KeepKey by ShapeShift
-date: 2024-07-05
+date: 2026-10-30
 website: https://keepkey.com
 redirect_from:
 - /android/com.shapeshift.keepkey/
@@ -11,7 +11,6 @@ android:
   updated: 2020-12-10
   version: 1.1.0
   reviews: 1
-  icon: com.shapeshift.keepkey.webp
   meta: removed
   verdict: wip
   developerName: ShapeShift.com

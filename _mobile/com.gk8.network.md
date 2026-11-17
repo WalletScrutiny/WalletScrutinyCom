@@ -1,6 +1,6 @@
 ---
 title: GalaxyCustody
-date: 2022-07-31
+date: 2026-10-30
 website: https://www.gk8.io/contact-us/
 redirect_from:
 - /android/com.gk8.network/
@@ -9,9 +9,8 @@ android:
   users: 500
   appCountry: us
   released: 2021-09-01
-  updated: 2026-09-22
-  version: 20.0.0
-  icon: com.gk8.network.webp
+  updated: 2026-10-01
+  version: 20.0.1
   meta: fewusers
   verdict: wip
   developerName: GalaxyInfra

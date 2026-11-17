@@ -1,7 +1,6 @@
 ---
-wsId: swipestoxNaga
 title: 'NAGA: Social Trading Platform'
-date: 2021-10-10
+date: 2026-10-30
 authors:
 - danny
 website: http://www.naga.com
@@ -17,10 +16,9 @@ android:
   users: 500000
   appCountry: gb
   released: 2015-10-20
-  updated: 2026-09-18
-  version: 8.0.479
-  reviews: 202
-  icon: swipestox.mobile.webp
+  updated: 2026-10-05
+  version: 8.0.481
+  reviews: 201
   meta: ok
   verdict: nosendreceive
   developerName: NAGA Markets Ltd.
@@ -29,10 +27,9 @@ iphone:
   idd: 1182702365
   appCountry: in
   released: 2017-01-15
-  updated: 2026-09-21
-  version: 9.8.8
-  reviews: 84
-  icon: com.swipestox.app.webp
+  updated: 2026-10-09
+  version: 9.8.10
+  reviews: 87
   meta: ok
   verdict: nosendreceive
   developerName: NAGA Markets Ltd.
@@ -71,4 +68,4 @@ Due to the use of CFDs, users **cannot really send or receive** on this app as t
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

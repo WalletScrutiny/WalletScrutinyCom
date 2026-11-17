@@ -1,6 +1,6 @@
 ---
 title: DeFi Wallet
-date: 2024-02-05
+date: 2026-10-30
 authors:
 - danny
 website: https://metaegg.io
@@ -20,7 +20,6 @@ android:
   updated: 2022-09-11
   version: 0.1.2
   reviews: 1
-  icon: io.metaegg.wallet.webp
   meta: removed
   verdict: nosource
   developerName: Metaegg

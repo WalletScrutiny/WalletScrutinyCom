@@ -1,6 +1,6 @@
 ---
 title: Cokkies Wallet
-date: 2023-05-17
+date: 2026-10-30
 authors:
 - danny
 website: https://cokkieswallet.com#deadLink
@@ -12,7 +12,6 @@ android:
   released: 2021-12-21
   updated: 2022-02-26
   version: '1.5'
-  icon: com.cokkieswallet.mobileapp.webp
   meta: removed
   verdict: wip
   developerName: Cokkies Wallet

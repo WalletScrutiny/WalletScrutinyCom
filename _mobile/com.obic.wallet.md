@@ -1,6 +1,6 @@
 ---
 title: Obic Trade
-date: 2024-04-19
+date: 2026-10-30
 website: https://obictrade.com#deadLink
 redirect_from:
 - /android/com.obic.wallet/
@@ -10,7 +10,6 @@ android:
   released: 2021-07-14
   updated: 2023-05-18
   version: 3.5.3
-  icon: com.obic.wallet.webp
   meta: removed
   verdict: wip
   developerName: Obictrade

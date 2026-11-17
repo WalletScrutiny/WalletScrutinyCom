@@ -1,7 +1,6 @@
 ---
-wsId: rehivePay
 title: Rehive Pay
-date: 2026-05-20
+date: 2026-10-30
 authors:
 - danny
 website: https://www.rehive.com
@@ -13,9 +12,8 @@ android:
   users: 1000
   appCountry: us
   released: 2018-10-01
-  updated: 2026-08-28
-  version: 8.0.1
-  icon: com.rehivewallet.webp
+  updated: 2026-10-08
+  version: 8.0.2
   meta: ok
   verdict: custodial
   developerName: Rehive
@@ -24,10 +22,9 @@ iphone:
   idd: '1371128319'
   appCountry: us
   released: 2018-10-10
-  updated: 2026-08-28
-  version: 8.0.1
+  updated: 2026-10-08
+  version: 8.0.2
   reviews: 4
-  icon: com.rehive.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Rehive
@@ -101,4 +98,4 @@ Sources:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

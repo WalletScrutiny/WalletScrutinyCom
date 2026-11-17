@@ -1,7 +1,6 @@
 ---
-wsId: bitso
 title: 'Bitso: Save and invest easily'
-date: 2021-05-25
+date: 2026-10-30
 authors:
 - leo
 website: https://bitso.com/app
@@ -17,10 +16,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2018-02-19
-  updated: 2026-09-28
-  version: 4.25.2
+  updated: 2026-10-09
+  version: 4.25.4
   reviews: 310
-  icon: com.bitso.wallet.webp
   meta: ok
   verdict: custodial
   developerName: Bitso
@@ -29,10 +27,9 @@ iphone:
   idd: 1292836438
   appCountry: us
   released: 2018-02-19
-  updated: 2026-09-29
-  version: 4.25.3
-  reviews: 1037
-  icon: com.bitso.wallet.webp
+  updated: 2026-10-09
+  version: 4.26.2
+  reviews: 1039
   meta: ok
   verdict: custodial
   developerName: Bitso SAPI de CV

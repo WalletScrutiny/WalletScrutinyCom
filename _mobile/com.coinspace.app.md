@@ -1,7 +1,6 @@
 ---
-wsId: coinspace
 title: Coin Wallet - Bitcoin & Crypto
-date: 2023-04-22
+date: 2026-10-30
 authors:
 - leo
 website: https://coin.space
@@ -30,7 +29,6 @@ android:
   updated: 2026-09-29
   version: 6.30.0
   reviews: 112
-  icon: com.coinspace.app.webp
   meta: ok
   verdict: sourceavailable
   developerName: CoinSpace
@@ -43,8 +41,7 @@ iphone:
   released: 2015-12-14
   updated: 2026-09-30
   version: 6.30.0
-  reviews: 504
-  icon: com.coinspace.wallet.webp
+  reviews: 506
   meta: ok
   verdict: sourceavailable
   developerName: CoinSpace
@@ -199,7 +196,7 @@ An issue has been opened at [https://github.com/CoinSpace/CoinSpace/issues/30](h
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Buy, sell, send & receive crypto using Coin Wallet." source="Store" comment="Swap functionality is also explicitly listed on the website under Swap section for multiple cryptocurrencies." %}
 

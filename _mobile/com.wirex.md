@@ -1,7 +1,6 @@
 ---
-wsId: wirex
 title: 'Wirex: All-In-One Crypto App'
-date: 2021-08-21
+date: 2026-10-30
 authors:
 - danny
 website: https://wirexapp.com
@@ -19,8 +18,7 @@ android:
   released: 2016-03-31
   updated: 2026-06-08
   version: 4.12.80
-  reviews: 1113
-  icon: com.wirex.webp
+  reviews: 1112
   meta: ok
   verdict: custodial
   developerName: Wirex
@@ -31,13 +29,14 @@ iphone:
   released: 2016-03-22
   updated: 2026-01-23
   version: 4.11.75
-  reviews: 844
-  icon: com.wirex.webp
+  reviews: 847
   meta: ok
   verdict: custodial
   developerName: Wirex Limited
 
 ---
+
+**Update 2026-10-30:** Wirex has replaced both apps. Since [2026-09-30 the legacy Wirex app no longer supports transactions or other account services](https://help.wirexapp.com/article/wirex-one-upgrade-faq-1685); users are asked to move to the new Wirex One app, which Wirex describes as self-custodial, and to claim their balances there. Wirex One is {% include walletLink.html wallet='android/com.wirexapp.one' verdict='true' %}.
 
 ## Android
 
@@ -55,4 +54,4 @@ This makes the app custodial and also not verifiable.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

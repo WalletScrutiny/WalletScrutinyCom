@@ -1,7 +1,7 @@
 ---
 title: Stone-M Wallet
-date: 2024-04-19
-website: http://www.raistone.kr
+date: 2026-10-30
+website: http://www.raistone.kr#deadLink
 redirect_from:
 - /android/kr.raistone.stonewallet/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2019-01-10
   updated: 2019-10-01
   version: 1.1.6
-  icon: kr.raistone.stonewallet.webp
   meta: removed
   verdict: wip
   developerName: raistone co., ltd

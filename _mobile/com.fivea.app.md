@@ -1,6 +1,6 @@
 ---
 title: 5A Crypto Exchange
-date: 2023-05-17
+date: 2026-10-30
 redirect_from:
 - /android/com.fivea.app/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-02-15
   updated: 2023-02-17
   version: 1.1.0
-  icon: com.fivea.app.webp
   meta: removed
   verdict: wip
   developerName: 5A FINTECH

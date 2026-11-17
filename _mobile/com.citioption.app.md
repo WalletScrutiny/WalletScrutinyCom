@@ -1,7 +1,7 @@
 ---
 title: Citioption Alpha
-date: 2024-04-03
-website: https://citioption.com/
+date: 2026-10-30
+website: https://citioption.com/#deadLink
 redirect_from:
 - /android/com.citioption.app/
 android:
@@ -10,7 +10,6 @@ android:
   released: 2021-03-09
   updated: 2021-03-09
   version: '1.0'
-  icon: com.citioption.app.webp
   meta: removed
   verdict: wip
   developerName: GRUPO CT OPTION TRADING

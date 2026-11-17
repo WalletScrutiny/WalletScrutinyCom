@@ -1,6 +1,6 @@
 ---
 title: 'Kryto: Buy BTC, ETH & Crypto'
-date: 2025-11-10
+date: 2026-10-30
 website: https://vkode-dev.github.io/
 redirect_from:
 - /android/tech.vkode.kryto/
@@ -9,10 +9,9 @@ android:
   users: 50
   appCountry: us
   released: 2024-07-27
-  updated: 2025-07-30
-  version: 1.0.0
-  icon: tech.vkode.kryto.webp
-  meta: stale
+  updated: 2026-10-07
+  version: 2.0.0
+  meta: fewusers
   verdict: wip
   developerName: VKode
 

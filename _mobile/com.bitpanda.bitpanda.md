@@ -1,7 +1,6 @@
 ---
-wsId: bitpandaBitcoin
 title: 'Bitpanda: Buy Crypto & Stocks'
-date: 2023-07-29
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitpanda.com
@@ -24,10 +23,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2018-11-07
-  updated: 2026-09-23
-  version: 3.33.0
+  updated: 2026-10-07
+  version: 3.34.0
   reviews: 18
-  icon: com.bitpanda.bitpanda.webp
   meta: ok
   verdict: custodial
   developerName: Bitpanda GmbH
@@ -36,10 +34,9 @@ iphone:
   idd: '1449018960'
   appCountry: at
   released: 2019-11-29
-  updated: 2026-09-24
-  version: 3.33.0
-  reviews: 26216
-  icon: com.bitpanda.bitpanda.webp
+  updated: 2026-10-08
+  version: 3.34.0
+  reviews: 26288
   meta: ok
   verdict: custodial
   developerName: Bitpanda GmbH
@@ -66,7 +63,7 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Kaufe, verkaufe und tausche über 650 Kryptos – darunter Bitcoin, Ethereum, SOL, XRP, DOGE, ADA, SHIB und mehr." source="Store" %}
 

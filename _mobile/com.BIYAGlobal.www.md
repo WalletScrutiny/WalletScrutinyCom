@@ -1,7 +1,6 @@
 ---
-wsId: biyaGlobal
 title: BiyaPay-Remit, Trade, NoFreeze
-date: 2023-07-01
+date: 2026-10-30
 authors:
 - danny
 website: https://cn.biyapay.com/
@@ -15,10 +14,9 @@ android:
   users: 100000
   appCountry: us
   released: 2021-04-13
-  updated: 2026-09-23
-  version: 3.0.092
+  updated: 2026-10-12
+  version: 3.1.000
   reviews: 17
-  icon: com.BIYAGlobal.www.webp
   meta: ok
   verdict: custodial
   developerName: Biya Global
@@ -27,10 +25,9 @@ iphone:
   idd: '1546702297'
   appCountry: sn
   released: 2021-02-09
-  updated: 2026-09-22
-  version: 3.0.090
+  updated: 2026-10-13
+  version: 3.1.000
   reviews: 0
-  icon: com.BiyaGlobal.Biya.webp
   meta: ok
   verdict: custodial
   developerName: BIYA GLOBAL LLC
@@ -74,4 +71,4 @@ process takes place offline as well.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

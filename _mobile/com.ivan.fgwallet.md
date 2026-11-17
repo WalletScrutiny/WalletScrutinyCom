@@ -1,7 +1,6 @@
 ---
-wsId: ivanFGWallet
 title: FG Wallet
-date: 2022-06-30
+date: 2026-10-30
 authors:
 - danny
 website: http://www.srsfc.com
@@ -18,7 +17,6 @@ android:
   released: 2017-12-28
   updated: 2026-09-29
   version: 5.1.7
-  icon: com.ivan.fgwallet.webp
   meta: ok
   verdict: nosource
   developerName: BIB Holdings (M) Sdn Bhd
@@ -30,7 +28,6 @@ iphone:
   updated: 2026-09-26
   version: 4.2.7
   reviews: 2
-  icon: com.sfc.fgwallet.webp
   meta: ok
   verdict: nosource
   developerName: SRS FINTECH COMMERCE LTD
@@ -57,4 +54,4 @@ We were **not able to find links to a repository**.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

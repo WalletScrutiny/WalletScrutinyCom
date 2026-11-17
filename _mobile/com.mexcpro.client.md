@@ -1,7 +1,6 @@
 ---
-wsId: mexc
 title: 'MEXC: Buy Bitcoin & Crypto'
-date: 2026-09-04
+date: 2026-10-30
 authors:
 - danny
 website: https://www.mexc.com
@@ -20,10 +19,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2020-07-23
-  updated: 2026-09-30
-  version: 6.77.1
-  reviews: 3211
-  icon: com.mexcpro.client.webp
+  updated: 2026-10-12
+  version: 6.78.0
+  reviews: 3252
   meta: ok
   verdict: custodial
   developerName: MEXC Ltd
@@ -32,10 +30,9 @@ iphone:
   idd: '1605393003'
   appCountry: us
   released: 2022-02-09
-  updated: 2026-09-29
-  version: 6.77.0
-  reviews: 8407
-  icon: mobile.mexcglobal.www.webp
+  updated: 2026-10-13
+  version: 6.78.1
+  reviews: 8468
   meta: ok
   verdict: custodial
   developerName: Onechain Technology Ltd

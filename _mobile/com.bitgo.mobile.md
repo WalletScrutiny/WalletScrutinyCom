@@ -1,7 +1,6 @@
 ---
-wsId: bitGo
 title: BitGo
-date: 2025-04-14
+date: 2026-10-30
 authors:
 - danny
 website: https://bitgo.com
@@ -19,7 +18,6 @@ android:
   updated: 2023-01-19
   version: 1.7.0
   reviews: 6
-  icon: com.bitgo.mobile.webp
   meta: removed
   verdict: custodial
   developerName: BitGo, Inc
@@ -28,10 +26,9 @@ iphone:
   idd: '1608937235'
   appCountry: us
   released: 2022-05-09
-  updated: 2026-09-15
-  version: 2.3.1
+  updated: 2026-10-02
+  version: 2.3.4
   reviews: 16
-  icon: com.bitgo.mobile.webp
   meta: ok
   verdict: custodial
   developerName: BitGo
@@ -139,4 +136,4 @@ One may argue that there are options for the user to provide his own keys. That 
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

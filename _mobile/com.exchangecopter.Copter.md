@@ -1,7 +1,6 @@
 ---
-wsId: copterExchange
 title: Copter
-date: 2024-03-02
+date: 2026-10-30
 authors:
 - danny
 website: https://exchangecopter.com
@@ -18,7 +17,6 @@ android:
   released: 2021-12-09
   updated: 2022-09-16
   version: 1.5.7
-  icon: com.exchangecopter.Copter.webp
   meta: removed
   verdict: custodial
   developerName: Copter S.A
@@ -30,7 +28,6 @@ iphone:
   updated: 2022-09-19
   version: 1.5.7
   reviews: 1
-  icon: com.exchangecopter.Copter.webp
   meta: removed
   verdict: custodial
   developerName: Copter SA
@@ -64,4 +61,4 @@ iphone:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

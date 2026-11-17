@@ -23,28 +23,23 @@ import {
   fetchEvents,
   nip19,
 } from '../src/nostr-client.mjs';
-import { explicitRelayUrls, opinionKind, profileRelayUrl } from '../src/nostr-constants.mjs';
+import { opinionKind } from '../src/nostr-constants.mjs';
+import { opinionRelayUrls } from '../src/opinions/constants.mjs';
 
 const OUTPUT_FILE = '_includes/allOpinions.json';
 const BACKUP_DIR = path.join('backup', 'nostr-opinion-events', String(opinionKind));
 const RELAY_MAX_WAIT_MS = 15_000;
 
-/** Site relays plus the nostr-opinion-plugin defaults (purplepag.es excluded: profiles only). */
+/** The widget's relays plus two archives that still hold old opinions. */
 const OPINION_RELAY_URLS = [
-  ...explicitRelayUrls.filter((url) => url !== profileRelayUrl),
+  ...opinionRelayUrls,
   'wss://relay.nostr.band/',
-  'wss://offchain.pub/',
-  'wss://nostr-pub.wellorder.net/',
   'wss://nostr.wine/',
 ];
 
-// todo: shouldn't have to configure the trusted authors twice in this project
-// (also in _includes/review/nostrOpinion.html)
-const TRUSTED_AUTHORS = [
-  'npub1gm7tuvr9atc6u7q3gevjfeyfyvmrlul4y67k7u7hcxztz67ceexs078rf6', // Leo
-  'npub1r709glp0xx2zvgac45wswufjst5xgr7cear5a8me7x9vazhjzmksp2sf7d', // Danny
-  'npub1mtd7s63xd85ykv09p7y8wvg754jpsfpplxknh5xr0pu938zf86fqygqxas', // The Bitcoin Hole
-].map((npub) => nip19.decode(npub).data);
+/** Same list the widget uses (_data/nostrOpinions.yml). */
+const TRUSTED_AUTHORS = yaml.load(fs.readFileSync('_data/nostrOpinions.yml', 'utf8'))
+  .trustedAuthors.map((npub) => nip19.decode(npub).data);
 
 /**
  * Mobile pages use subject keys `mobile/{slug}`. Historical Nostr opinions still

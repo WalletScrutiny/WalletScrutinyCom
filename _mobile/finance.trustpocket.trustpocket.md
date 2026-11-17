@@ -1,6 +1,6 @@
 ---
 title: Trust Pocket
-date: 2024-04-19
+date: 2026-10-30
 website: https://trustpocket.finance#deadLink
 redirect_from:
 - /android/finance.trustpocket.trustpocket/
@@ -10,7 +10,6 @@ android:
   released: 2021-08-06
   updated: 2021-10-04
   version: 1.0.3
-  icon: finance.trustpocket.trustpocket.webp
   meta: removed
   verdict: wip
   developerName: Trust pocket

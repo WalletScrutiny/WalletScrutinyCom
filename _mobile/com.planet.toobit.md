@@ -1,7 +1,6 @@
 ---
-wsId: tooBitExchange
 title: 'Toobit: Buy BTC, ETH & Crypto'
-date: 2025-12-01
+date: 2026-10-30
 authors:
 - danny
 website: https://www.toobit.com
@@ -23,8 +22,7 @@ android:
   released: 2023-02-14
   updated: 2026-09-04
   version: 2.3.7
-  reviews: 323
-  icon: com.planet.toobit.webp
+  reviews: 326
   meta: ok
   verdict: custodial
   developerName: TooBit Inc.
@@ -35,8 +33,7 @@ iphone:
   released: 2023-02-13
   updated: 2026-09-05
   version: 2.3.7
-  reviews: 3823
-  icon: com.planet.toobit.webp
+  reviews: 3833
   meta: ok
   verdict: custodial
   developerName: Hopeful Technology Co., Ltd.
@@ -59,7 +56,7 @@ This is a **custodial** platform.
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Convert: Instantly swap your cryptoassets with zero fees." source="Store description" %}
 

@@ -1,7 +1,6 @@
 ---
-wsId: dtunesCrypto
 title: Swapto ( Formerly Dtunes)
-date: 2026-01-23
+date: 2026-10-30
 authors:
 - danny
 website: https://useswapto.com
@@ -18,7 +17,6 @@ android:
   updated: 2026-09-09
   version: 3.0.9
   reviews: 36
-  icon: ng.dtunes.app.webp
   meta: ok
   verdict: nosendreceive
   developerName: Swapto Inc
@@ -29,8 +27,7 @@ iphone:
   released: 2022-08-02
   updated: 2026-09-10
   version: 3.0.9
-  reviews: 488
-  icon: ng.dtunes.app.webp
+  reviews: 484
   meta: ok
   verdict: nosendreceive
   developerName: Crand Technologies LLC
@@ -57,4 +54,4 @@ We [tested](https://x.com/BitcoinWalletz/status/2014614160647299564) the app, an
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

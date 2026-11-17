@@ -1,6 +1,6 @@
 ---
 title: Coinsafe - Never Lose Your Cry
-date: 2024-04-19
+date: 2026-10-30
 website: https://getcoinsafe.app#deadLink
 redirect_from:
 - /android/app.getcoinsafe.android/
@@ -10,7 +10,6 @@ android:
   released: 2019-02-15
   updated: 2019-05-16
   version: 0.1.6
-  icon: app.getcoinsafe.android.webp
   meta: removed
   verdict: wip
   developerName: Vevsa

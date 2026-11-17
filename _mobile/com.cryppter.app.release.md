@@ -1,6 +1,6 @@
 ---
 title: Cryppter
-date: 2025-01-27
+date: 2026-10-30
 authors:
 - danny
 website: https://cryppter.com/
@@ -14,12 +14,13 @@ android:
   updated: 2023-02-06
   version: 0.0.145 (7755)
   reviews: 9
-  icon: com.cryppter.app.release.webp
   meta: obsolete
   verdict: nosource
   developerName: Enex, LLC
 
 ---
+
+**Update 2026-10-30:** The Cryppter website no longer loads. The last working copy in the [Internet Archive](https://web.archive.org/web/20250711074234/https://cryppter.com/) is from July 2025.
 
 This product has previously been marked as defunct, but as of May 17, 2023, seems to be available again. 
 

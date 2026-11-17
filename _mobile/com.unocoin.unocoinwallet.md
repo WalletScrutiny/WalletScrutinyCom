@@ -1,7 +1,6 @@
 ---
-wsId: Unocoin
 title: 'Unocoin: Buy Bitcoin & Crypto'
-date: 2020-05-29
+date: 2026-10-30
 authors:
 - leo
 website: https://www.unocoin.com
@@ -23,10 +22,9 @@ android:
   users: 1000000
   appCountry: us
   released: 2016-11-30
-  updated: 2026-09-22
-  version: 5.3.44
+  updated: 2026-10-10
+  version: 5.3.45
   reviews: 55
-  icon: com.unocoin.unocoinwallet.webp
   meta: ok
   verdict: custodial
   developerName: Unocoin Technologies
@@ -35,10 +33,9 @@ iphone:
   idd: 1030422972
   appCountry: in
   released: 2016-05-12
-  updated: 2026-09-29
-  version: 6.2.79
-  reviews: 1706
-  icon: com.unocoin.mainapp.production.webp
+  updated: 2026-10-09
+  version: 6.2.83
+  reviews: 1720
   meta: ok
   verdict: custodial
   developerName: Unocoin Technologies Private Limited

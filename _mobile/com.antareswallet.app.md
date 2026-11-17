@@ -1,7 +1,6 @@
 ---
-wsId: AntaresWallet
 title: Antares Wallet
-date: 2021-11-08
+date: 2026-10-30
 authors:
 - danny
 website: https://antareswallet.com#deadLink
@@ -15,9 +14,8 @@ android:
   released: 2021-03-18
   updated: 2021-03-22
   version: 0.9.5+205
-  icon: com.antareswallet.app.webp
   meta: removed
-  verdict: wip
+  verdict: custodial
   developerName: Online Invest
 iphone:
   appId: com.antareswallet.app
@@ -25,11 +23,12 @@ iphone:
   released: 2021-03-19
   updated: 2021-03-23
   version: '1.2'
-  icon: com.antareswallet.app.webp
   meta: removed
-  verdict: wip
+  verdict: custodial
 
 ---
+
+**Update 2026-10-30:** The provider is gone, and so is its website antareswallet.com. An [archived copy of its App Store page](https://web.archive.org/web/20210320013211/https://apps.apple.com/app/id1549506189) says "most of the assets are stored in offline blockchain storage", and the Google Play description quoted below says you can recover your account even if you forget your private keys, so both apps get the verdict {% include verdictBadge.html verdict="custodial" type='short' %}.
 
 ## Android
 
@@ -76,4 +75,4 @@ This app is **no longer working.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: gate.io
 title: 'Gate: Buy Bitcoin & Crypto'
-date: 2021-08-21
+date: 2026-10-30
 authors:
 - danny
 website: https://www.gate.com/
@@ -18,21 +17,20 @@ android:
   users: 10000000
   appCountry: id
   released: 2017-11-03
-  updated: 2026-09-24
-  version: 8.38.1
-  reviews: 7259
-  icon: com.gateio.gateio.webp
+  updated: 2026-09-30
+  version: 8.39.1
+  reviews: 7274
   meta: ok
   verdict: custodial
   developerName: Gate.com
 iphone:
   appId: com.gateio.app.gateio-app
   idd: 1294998195
+  appCountry: us
   released: 2017-11-03
   updated: 2026-04-30
   version: 8.18.5
   reviews: 1424
-  icon: com.gateio.app.gateio-app.webp
   meta: removed
   verdict: custodial
   developerName: GATE GLOBAL UAB
@@ -40,6 +38,8 @@ iphone:
 ---
 
 ## Android
+
+**Update 2026-10-30:** Gate.io moved to the [Gate.com domain on 2025-05-19](https://www.gate.com/blog/gate.io-vs-gate.com-official-domain-migration-explained) with a new logo; the exchange, accounts and services stayed the same.
 
 > Gate.io is a reliable and secure crypto exchange for trading and investing bitcoin(...)
 
@@ -55,4 +55,4 @@ We mark this wallet as **custodial** and therefore **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

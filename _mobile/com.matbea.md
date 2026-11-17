@@ -1,7 +1,6 @@
 ---
-wsId: matbeaExchange
 title: Matbea
-date: 2023-04-07
+date: 2026-10-30
 authors:
 - danny
 website: https://matbea.com
@@ -16,7 +15,6 @@ android:
   appCountry: us
   updated: 2026-06-23
   version: 1.8.0
-  icon: com.matbea.webp
   meta: ok
   verdict: custodial
   developerName: Matbea
@@ -28,7 +26,6 @@ iphone:
   updated: 2023-09-19
   version: 1.4.9
   reviews: 127
-  icon: org.Matbea.webp
   meta: removed
   verdict: custodial
   developerName: MATBEA LTD
@@ -130,4 +127,4 @@ The platform avoids the use of the word custody and as evidenced by the conversa
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

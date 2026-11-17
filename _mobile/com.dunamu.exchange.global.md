@@ -1,7 +1,6 @@
 ---
-wsId: UpbitGlobal
 title: Upbit (Global)
-date: 2021-10-10
+date: 2026-10-30
 authors:
 - danny
 website: https://www.dunamu.com
@@ -18,21 +17,20 @@ android:
   users: 500000
   appCountry: us
   released: 2018-11-06
-  updated: 2026-09-18
-  version: 1.23.0
+  updated: 2026-10-13
+  version: 1.23.1
   reviews: 34
-  icon: com.dunamu.exchange.global.webp
   meta: ok
   verdict: custodial
   developerName: Dunamu
 iphone:
   appId: com.dunamu.upbit.global
   idd: 1439527412
+  appCountry: sg
   released: 2018-11-06
   updated: 2022-11-16
   version: 1.7.20
   reviews: 24
-  icon: com.dunamu.upbit.global.webp
   meta: removed
   verdict: custodial
 
@@ -76,4 +74,6 @@ This is a **custodial** app, and therefore **not verifiable.**
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+**Update 2026-10-30:** The iPhone app ("Upbit Global") is not in the US App Store but is available in the Singapore App Store, so we set its store country to Singapore.
+
+The Android analysis above applies to the iPhone app too.

@@ -1,7 +1,6 @@
 ---
-wsId: Bitget
 title: Bitget - Buy & Sell Crypto
-date: 2021-09-17
+date: 2026-10-30
 authors:
 - danny
 website: https://www.bitget.com/
@@ -17,10 +16,9 @@ android:
   users: 10000000
   appCountry: us
   released: 2020-04-03
-  updated: 2026-09-29
-  version: 2.94.3
-  reviews: 1743
-  icon: com.bitget.exchange.webp
+  updated: 2026-10-05
+  version: 2.94.4
+  reviews: 1749
   meta: ok
   verdict: custodial
   developerName: BG LIMITED
@@ -29,10 +27,9 @@ iphone:
   idd: 1442778704
   appCountry: ua
   released: 2018-11-29
-  updated: 2026-09-12
-  version: 2.93.1
-  reviews: 2309
-  icon: com.bitget.exchange.global.webp
+  updated: 2026-10-09
+  version: 2.94.4
+  reviews: 2316
   meta: ok
   verdict: custodial
   developerName: BG LIMITED
@@ -60,4 +57,4 @@ This is *also* very usually an indicator that this product is **custodial** thus
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

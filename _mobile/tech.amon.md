@@ -1,7 +1,6 @@
 ---
-wsId: techAmon
 title: Amon
-date: 2024-08-17
+date: 2026-10-30
 authors:
 - danny
 website: https://web.archive.org/web/20231006065722/https://amon.tech/
@@ -17,7 +16,6 @@ android:
   released: 2019-05-20
   updated: 2023-07-04
   version: 3.7.31
-  icon: tech.amon.webp
   meta: removed
   verdict: custodial
   developerName: Amon OÜ
@@ -29,7 +27,6 @@ iphone:
   updated: 2023-07-05
   version: 3.7.31
   reviews: 8
-  icon: tech.amon.webp
   meta: removed
   verdict: custodial
   developerName: Amon OÜ
@@ -62,4 +59,4 @@ Otherwise, the other text shows:
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

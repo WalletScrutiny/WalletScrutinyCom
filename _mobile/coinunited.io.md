@@ -1,7 +1,6 @@
 ---
-wsId: CoinUnited
 title: 'CoinUnited: Trade BTC & Stocks'
-date: 2025-03-19
+date: 2026-10-30
 authors:
 - danny
 website: https://coinunited.io/
@@ -17,7 +16,6 @@ android:
   updated: 2025-08-27
   version: 5.1.0
   reviews: 237
-  icon: coinunited.io.webp
   meta: removed
   verdict: custodial
   developerName: CoinU
@@ -29,7 +27,6 @@ iphone:
   updated: 2024-11-15
   version: 4.0.2
   reviews: 282
-  icon: coinunited.io.webp
   meta: removed
   verdict: custodial
   developerName: CoinUnited Limited
@@ -77,4 +74,4 @@ We were not able to find any references to the private key when we searched on t
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

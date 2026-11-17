@@ -1,6 +1,6 @@
 ---
 title: WeiPay
-date: 2024-04-19
+date: 2026-10-30
 authors:
 - danny
 website: http://chainsafe.io
@@ -11,7 +11,6 @@ android:
   users: 50
   updated: 2019-02-18
   version: VARY
-  icon: com.chainsafe.weipay.webp
   meta: removed
   verdict: wip
   developerName: ChainSafe Systems

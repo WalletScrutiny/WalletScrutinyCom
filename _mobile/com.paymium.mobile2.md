@@ -1,7 +1,6 @@
 ---
-wsId: Paymium
 title: Paymium
-date: 2024-10-07
+date: 2026-10-30
 authors:
 - danny
 website: http://paymium.com
@@ -19,7 +18,6 @@ android:
   released: 2018-09-24
   updated: 2026-04-16
   version: 8.27.1
-  icon: com.paymium.mobile2.webp
   meta: removed
   verdict: custodial
   developerName: Paymium SAS
@@ -31,7 +29,6 @@ iphone:
   updated: 2026-07-22
   version: 19.0.0
   reviews: 38
-  icon: com.paymium.mobile.webp
   meta: ok
   verdict: custodial
   developerName: Paymium SAS
@@ -90,4 +87,4 @@ The service uses cold storage to manage their users' bitcoins. They require KYC,
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

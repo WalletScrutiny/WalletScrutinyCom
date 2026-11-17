@@ -1,7 +1,6 @@
 ---
-wsId: coinpassMobile
 title: 'coinpass.com: Buy BTC & more'
-date: 2023-12-14
+date: 2026-10-30
 authors:
 - danny
 website: https://www.coinpass.com/
@@ -20,9 +19,8 @@ android:
   appId: com.coinpassmobile
   users: 1000
   appCountry: us
-  updated: 2026-09-08
-  version: 3.18.0-coinpass
-  icon: com.coinpassmobile.webp
+  updated: 2026-10-01
+  version: 3.19.0-coinpass
   meta: ok
   verdict: custodial
   developerName: Oanda Coinpass Limited
@@ -31,10 +29,9 @@ iphone:
   idd: '1530358553'
   appCountry: gb
   released: 2020-11-20
-  updated: 2026-08-26
-  version: 3.17.0
+  updated: 2026-10-13
+  version: 3.18.0
   reviews: 18
-  icon: com.coinpasslimited.coinpassinstant.webp
   meta: ok
   verdict: custodial
   developerName: Oanda Coinpass Limited
@@ -49,7 +46,7 @@ iphone:
 
 ## Analysis 
 
-Coinpass has **custody** of the users' assets as stated in its [terms:](https://www.coinpass.com/en/legal/terms) 
+Coinpass has **custody** of the users' assets as stated in its [terms:](https://legal.oanda.com/?code=coinpass_terms_and_conditions) 
 
 > Coinpass securely stores Digital Assets private keys, which are the means by which the User can securely approve an E-Currency Transaction. Coinpass securely stores private keys under its control using a combination of online and offline storage. As a result, it may be necessary for Coinpass to retrieve certain information from offline storage in order to facilitate an E-Currency Transaction in accordance with the User’s instructions. The User, therefore acknowledges that this may delay the initiation or crediting of E-Currency Transactions.
 
@@ -59,4 +56,4 @@ Coinpass has **custody** of the users' assets as stated in its [terms:](https://
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.

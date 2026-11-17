@@ -1,6 +1,6 @@
 ---
 title: 'FunexPro: Secure Crypto Wallet'
-date: 2026-05-21
+date: 2026-10-30
 website: https://funexpro.com/
 redirect_from:
 - /android/com.funex.pro/
@@ -11,7 +11,6 @@ android:
   released: 2022-10-13
   updated: 2024-08-31
   version: 1.0.1
-  icon: com.funex.pro.webp
   meta: obsolete
   verdict: wip
   developerName: Funex Coin

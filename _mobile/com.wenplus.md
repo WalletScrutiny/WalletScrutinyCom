@@ -1,6 +1,6 @@
 ---
 title: WenPlus
-date: 2025-02-28
+date: 2026-10-30
 redirect_from:
 - /android/com.wenplus/
 android:
@@ -9,7 +9,6 @@ android:
   released: 2022-09-09
   updated: 2023-01-03
   version: 1.2.0
-  icon: com.wenplus.webp
   meta: removed
   verdict: wip
   developerName: TokenWorld

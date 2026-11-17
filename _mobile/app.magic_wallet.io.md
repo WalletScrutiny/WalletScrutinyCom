@@ -1,6 +1,6 @@
 ---
 title: Magic Wallet
-date: 2021-11-10
+date: 2026-10-30
 authors:
 - danny
 redirect_from:
@@ -12,7 +12,6 @@ android:
   updated: 2021-06-06
   version: 1.0.0
   reviews: 170
-  icon: app.magic_wallet.io.webp
   meta: removed
   verdict: wip
 

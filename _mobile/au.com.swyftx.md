@@ -1,7 +1,6 @@
 ---
-wsId: swyftx
 title: 'Swyftx: Buy Bitcoin, ETH & SOL'
-date: 2025-11-11
+date: 2026-10-30
 authors:
 - danny
 website: https://swyftx.com/
@@ -23,8 +22,7 @@ android:
   users: 100000
   appCountry: us
   updated: 2026-09-28
-  version: 2.11.1
-  icon: au.com.swyftx.webp
+  version: 2.11.2
   meta: ok
   verdict: custodial
   developerName: Swyftx Pty Ltd
@@ -35,8 +33,7 @@ iphone:
   released: 2020-07-01
   updated: 2026-09-29
   version: 2.11.2
-  reviews: 6040
-  icon: au.com.swyftx.ios.webp
+  reviews: 6039
   meta: ok
   verdict: custodial
   developerName: Swyftx Pty Ltd
@@ -69,7 +66,7 @@ Additionally, the same paragraph notes that "Customer crypto assets and fiat cur
 
 ## iPhone
 
-{% include copyFromAndroid.html %}
+The Android analysis above applies to the iPhone app too.
 
 {% include featureEvidence.html feature="tradeAlts" quote="Easily buy, sell and swap your favourite cryptocurrencies and manage your portfolio in one place." source="Store description" %}
 

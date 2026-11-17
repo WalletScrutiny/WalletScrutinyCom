@@ -1,7 +1,6 @@
 ---
-wsId: bitmart
 title: 'BitMart: Buy Crypto & Stocks'
-date: 2021-05-20
+date: 2026-10-30
 authors:
 - leo
 website: http://www.bitmart.com
@@ -25,8 +24,7 @@ android:
   released: 2018-05-09
   updated: 2026-07-17
   version: 4.9.0
-  reviews: 3793
-  icon: com.bitmart.bitmarket.webp
+  reviews: 3795
   meta: ok
   verdict: custodial
   developerName: GBM Foundation Company
@@ -37,13 +35,17 @@ iphone:
   released: 2018-08-02
   updated: 2026-07-14
   version: 4.8.1
-  reviews: 3508
-  icon: com.bitmart.exchange.webp
+  reviews: 3514
   meta: ok
   verdict: custodial
   developerName: GBM Foundation Company Ltd
 
 ---
+
+**⚠️ Warning:** BitMart is shutting down. It
+[stopped new registrations and deposits on 2026-07-26](https://www.financemagnates.com/cryptocurrency/exchange/bitmart-winds-down-trading-as-exchange-closures-pile-up/),
+ended all trading on 2026-08-26 and keeps withdrawals open only until
+2027-01-31. If you still hold coins there, withdraw them.
 
 ## Android
 
