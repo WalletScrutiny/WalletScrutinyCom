@@ -1071,6 +1071,54 @@ a.dp-signer {
   display: block;
 }
 
+// The info icon after "25 wallets" that lists them
+.dp-products-info {
+  margin-left: 4px;
+  padding: 4px;
+  border: 0;
+  background: none;
+  color: var(--neutral-3);
+  font-size: inherit;
+  line-height: 1;
+  vertical-align: middle;
+  cursor: pointer;
+
+  &:hover,
+  &[aria-expanded="true"] {
+    color: inherit;
+  }
+
+  &:focus-visible {
+    outline: 2px solid #52adc8;
+    outline-offset: 1px;
+  }
+}
+
+// The tip's wallet list: scrolls when a package ships in many wallets.
+.dp-tip__wallets {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-height: 14em;
+  overflow-y: auto;
+
+  li {
+    margin: 0 0 3px;
+  }
+
+  img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    border-radius: 3px;
+    vertical-align: -3px;
+  }
+}
+
+.dp-tip__same {
+  opacity: 0.75;
+}
+
 // "3 on 4.0.0", and "only this wallet"
 .dp-products-sub {
   font-size: $font-xxs;

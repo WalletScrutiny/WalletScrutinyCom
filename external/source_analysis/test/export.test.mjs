@@ -112,6 +112,8 @@ test('exportAll writes index, app files and dependency lists, atomically replaci
   assert.equal(deps.dependencies[0].scope, 'app');
   assert.deepEqual(deps.dependencies.map(d => [d.products, d.productsSameVersion]), [[2, 2], [1, 1]]);
   assert.ok(!fs.existsSync(path.join(dir, 'packages')));
+  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'used-by.json'), 'utf8')),
+    { schema: 1, packages: { 'npm:a': { 'app.android': ['1.0.0', '1.0.1'], 'app.other': ['1.0.1'] } } }, 'only packages with an advisory');
 });
 
 test('exportApp updates one app in place, leaving the rest of the export as it was', () => {

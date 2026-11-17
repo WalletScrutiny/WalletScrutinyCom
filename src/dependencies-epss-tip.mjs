@@ -86,6 +86,13 @@ function openTip(trigger, pinned) {
   place();
 }
 
+// Rebuilds the open tip's contents, for content that arrived after it opened.
+export function refreshTip(trigger) {
+  if (state?.trigger !== trigger) return;
+  state.tip.replaceChildren(...contents.get(trigger)());
+  place();
+}
+
 // Below the trigger, or above it when there is no room below; shifted
 // sideways to stay inside the viewport.
 function place() {
