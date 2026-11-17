@@ -166,7 +166,7 @@ test('onlyReproducible: only reproduced releases, each naming the listings it wa
   const result = exportAll(db, dir, { onlyReproducible: true });
   assert.deepEqual([result.apps, result.releases], [1, 1]);
   const app = JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.android.json'), 'utf8'));
-  assert.deepEqual(app.releases.map(r => [r.ref, r.reproducedFor]), [['v1.1.0', [{ appId: 'app.android', platform: 'android' }]]]);
+  assert.deepEqual(app.releases.map(r => [r.ref, r.reproducedFor]), [['v1.1.0', [{ appId: 'app.android', platform: 'android', version: '1.1.0' }]]]);
   assert.equal(app.releases[0].diffFrom, undefined, 'no diff to a release that is not shown');
   assert.ok(!fs.existsSync(path.join(dir, 'apps', 'app.android', 'v1.0.0')));
   assert.ok(!fs.existsSync(path.join(dir, 'apps', 'app.ios.json')), 'no stub for a listing nobody reproduced');
