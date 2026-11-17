@@ -29,6 +29,19 @@ export const ASSET_WATCH_WATCHDOG_MINUTES = 5;
 // Set to false to reproduce only Asset Registry assets.
 export const FEATURE_REFRESH_APPS = true;
 
+// Feature flag: when true, a newly published ftbfs or not_reproducible verdict
+// for a version newer than the reproducible one it was built from posts an
+// alert in the Buzz Reproducible-Builds channel, tagging Carol (see
+// regression-alert.mjs). Needs ALERT_NOSTR_NSEC_FILE.
+export const FEATURE_REGRESSION_ALERTS = false;
+export const REGRESSION_ALERT_RELAY_URL = 'https://buzz.walletscrutiny.com';
+export const REGRESSION_ALERT_CHANNEL_ID = '55ad8b5e-0356-4548-aafe-6ddd2c06bab0'; // Reproducible-Builds
+export const REGRESSION_ALERT_MENTION = {
+  name: 'Carol (agent, Opus 5.5, high)',
+  pubkey: 'fab90c1a5aa488fbabbac00cae04307429147f36af69930b72c1c6a53c4e9b26'
+};
+export const REGRESSION_ALERT_TIMEOUT_SECONDS = 10;
+
 // Queue configuration
 export const QUEUE_TIMEOUT_HOURS = 6;
 export const QUEUE_CONCURRENCY = 3;

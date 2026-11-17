@@ -187,6 +187,14 @@ sudo -u build-server node scripts/verifications-db.mjs delete 42                
 
 It uses the service's database (`/var/lib/walletscrutiny-build-server/verifications.db`) unless `--db <path>` or `BUILD_SERVER_DB_PATH` says otherwise. A newer build script (a new build script event) is tried without deleting anything, and a build that already has a published WS Bot verification is skipped whatever the database says.
 
+### Regression alerts to Buzz
+
+With `FEATURE_REGRESSION_ALERTS` on (config, off by default), a published `ftbfs` or `not_reproducible` verdict for a version newer than the reproducible verification whose script was used posts a message in the Buzz Reproducible-Builds channel on `buzz.walletscrutiny.com`, tagging Carol (`REGRESSION_ALERT_*` in config). Carol fixes the script and a person approves before anything is published.
+
+- One alert per app and version, recorded in the `regression_alerts` table of the service database. Each message lists every regression not delivered yet; a failed post stays pending and is retried at the start of the next cycle.
+- Signed with the WalletScrutiny Notification account, the same credential as the source analysis units (`source-analysis-alert-nsec`, loaded as `ALERT_NOSTR_NSEC_FILE`). That account must be a member of the channel.
+- A post times out after `REGRESSION_ALERT_TIMEOUT_SECONDS`; any error is logged and never blocks or changes a verdict.
+
 ## Technical notes
 
 - The application connects to the same relays as WalletScrutiny.com and publishes the results to Nostr as `WalletScrutiny Bot`
