@@ -5,7 +5,7 @@
 // small at the top and detailed below, so a reader fetches only what it shows:
 //
 //   index.json                          the exported app ids (exportApp keeps it current)
-//   apps/<appId>.json                   all analyses of one app, with advisories (each with how many products ship the package) and the diff to the previous release
+//   apps/<appId>.json                   all analyses of one app, with advisories (each with how many products ship the package, and which) and the diff to the previous release
 //   apps/<aliasId>.json                 stub {appId, alias: true} for the repository's other app ids (the iPhone record), only those some release was reproduced for
 //   apps/<appId>/<ref>/dependencies.json  the full resolved dependency list of one release, each row with how many products ship the package
 //   apps/<appId>/<ref>/submodules.json    the release's git submodules, when it has any
@@ -315,6 +315,7 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
       repo: sources.get(`${v.ecosystem}:${v.name}`)?.repo_url || undefined,
       products: counts.byName.get(`${v.ecosystem}:${v.name}`) || 1,
       productsSameVersion: counts.byVersion.get(`${v.ecosystem}:${v.name}@${v.dep_version}`) || 1,
+      otherProducts: otherProducts(counts, appId, aliases, v.ecosystem, v.name, v.dep_version),
       inDefaultBranch: inDefaultBranch?.(v),
     }));
     if (previous) {
@@ -411,7 +412,40 @@ export function productCounts(db) {
   `).all(DEFAULT_BRANCH_REF);
   for (const r of apps) byName.set(`${r.ecosystem}:${r.name}`, r.products);
   for (const r of rows) byVersion.set(`${r.ecosystem}:${r.name}@${r.version}`, r.products);
-  return { byName, byVersion };
+  // The products behind those counts, app id -> the versions it ships, for the
+  // panel's "Used by" list. Asked per package, only for packages with an advisory.
+  const shipping = db.prepare(`
+    SELECT d.app_id, p.version
+    FROM app_dependencies d JOIN packages p ON p.id = d.package_id
+    WHERE p.ecosystem = ? AND p.name = ? AND d.version != ?
+    GROUP BY d.app_id, p.version
+  `);
+  const appsByName = new Map();
+  const appsOf = (ecosystem, name) => {
+    const key = `${ecosystem}:${name}`;
+    if (!appsByName.has(key)) {
+      const out = new Map();
+      for (const r of shipping.all(ecosystem, name, DEFAULT_BRANCH_REF)) {
+        if (!out.has(r.app_id)) out.set(r.app_id, new Set());
+        out.get(r.app_id).add(r.version);
+      }
+      appsByName.set(key, out);
+    }
+    return appsByName.get(key);
+  };
+  return { byName, byVersion, appsOf };
+}
+
+// The other products that ship an advisory's package, those on its exact
+// version first: [{ appId, sameVersion }]. Undefined when there are none.
+export function otherProducts(counts, appId, aliases, ecosystem, name, version) {
+  if (!counts.appsOf) return undefined;
+  const self = new Set([appId, ...aliases.map(a => a.appId)]);
+  const out = [...counts.appsOf(ecosystem, name)]
+    .filter(([id]) => !self.has(id))
+    .map(([id, versions]) => ({ appId: id, sameVersion: versions.has(version) }))
+    .sort((a, b) => Number(b.sameVersion) - Number(a.sameVersion) || a.appId.localeCompare(b.appId));
+  return out.length ? out : undefined;
 }
 
 

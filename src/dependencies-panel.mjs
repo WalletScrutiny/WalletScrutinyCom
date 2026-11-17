@@ -6,6 +6,7 @@
 
 import * as nip19 from 'nostr-tools/nip19';
 import { el } from './html-utils.mjs';
+import { wsIcon } from './icon.mjs';
 import {
   panelModel, releaseForVersion, releaseNamesVersion, appForListing, whereOf, whereLabel, WHERE_UNKNOWN_TIP, safeName, csvOf, notInAppText, sortingLabel, SEVERITY_ORDER, SEVERITY_LABEL,
 } from './dependencies-panel-model.mjs';
@@ -699,8 +700,46 @@ export function usedBy(a) {
   if (a.products <= 1) return el('span', { className: 'dp-products-sub' }, 'only this wallet');
   const same = a.productsSameVersion;
   return el('span', {},
-    el('span', { className: 'dp-products-line' }, `${a.products} wallets`),
+    el('span', { className: 'dp-products-line' }, `${a.products} wallets`, otherProductsTrigger(a)),
     same != null ? el('span', { className: 'dp-products-line dp-products-sub' }, a.version ? `${same} on ${a.version}` : `${same} on this version`) : null);
+}
+
+// The site's listing for an export app id: its own id, or a mobile listing's
+// store ids (the same lookup as the /news/ page's wallet chips).
+function walletOf(appId) {
+  const wallets = globalThis.window?.wallets || [];
+  return wallets.find(w => w.appId === appId && !w.archived) ||
+    wallets.find(w => w.androidAppId === appId || w.iphoneAppId === appId) ||
+    wallets.find(w => w.appId === appId) || null;
+}
+
+// An info icon after "25 wallets" that lists them: the other wallets, linked
+// to their pages, those on this exact version marked. Built when it opens, so
+// it names the wallets allWallets.js brought in meanwhile.
+function otherProductsTrigger(a) {
+  if (!a.otherProducts?.length) return null;
+  const trigger = tipTrigger(el('span', { html: wsIcon('circle-info') }), () => {
+    const byWallet = new Map();
+    for (const p of a.otherProducts) {
+      const wallet = walletOf(p.appId);
+      const key = wallet?.url || p.appId;
+      const seen = byWallet.get(key);
+      if (seen) seen.sameVersion ||= p.sameVersion;
+      else byWallet.set(key, { wallet, appId: p.appId, sameVersion: p.sameVersion });
+    }
+    const items = [...byWallet.values()].map(({ wallet, appId, sameVersion }) => {
+      const icon = wallet?.icon
+        ? el('img', { src: `/images/wIcons/${wallet.iconFolder || wallet.folder}/small/${wallet.icon}`, alt: '', loading: 'lazy' })
+        : null;
+      const name = wallet?.title || appId;
+      return el('li', {},
+        wallet?.url ? el('a', { href: wallet.url }, icon, name) : el('span', {}, icon, name),
+        sameVersion && a.version ? el('span', { className: 'dp-tip__same' }, ` on ${a.version}`) : null);
+    });
+    return [el('p', {}, `Other wallets that ship ${a.package}:`), el('ul', { className: 'dp-tip__wallets' }, items)];
+  }, { className: 'dp-products-info' });
+  trigger.setAttribute('aria-label', `Which wallets ship ${a.package}`);
+  return trigger;
 }
 
 // What each column means, opened from its header. Where? bolds its own labels.
