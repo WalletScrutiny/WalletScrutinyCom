@@ -603,6 +603,7 @@ export function saveDependencies(db, appId, version, analyses) {
 // with OSV.dev's answer alone would drop every NVD-only advisory until the
 // next successful lookup. A finding of this run replaces its stored row, but
 // keeps the row's stored `listed_by`: NVD did not say this time whether it lists it.
+// A new finding of such a package stores NULL (no line) for the same reason.
 export function saveVulnerabilities(db, appId, version, { findings, nvdUnavailable = [] }) {
   const columns = 'app_id, version, ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants, affected, listed_by';
   const values = columns.split(', ').map(() => '?').join(', ');
@@ -613,13 +614,16 @@ export function saveVulnerabilities(db, appId, version, { findings, nvdUnavailab
   return db.transaction(() => {
     const kept = nvdUnavailable.flatMap(p => stored.all(appId, version, p.ecosystem, p.name, p.version));
     const keptListedBy = new Map(kept.map(r => [key(r.ecosystem, r.name, r.dep_version, r.vuln_id), r.listed_by]));
+    const unanswered = new Set(nvdUnavailable.map(p => key(p.ecosystem, p.name, p.version, '')));
     db.prepare('DELETE FROM app_vulnerabilities WHERE app_id = ? AND version = ?').run(appId, version);
     for (const f of findings) {
       const k = key(f.ecosystem, f.name, f.version, f.id);
       insert.run(appId, version, f.ecosystem, f.name, f.version, f.id, f.severity,
         f.aliases.join(' '), f.fixed.join(' '), f.summary, boolOrNull(f.direct), boolOrNull(f.dev), scopeOrNull(f.scope), dependantsOrNull(f.dependants),
         Array.isArray(f.affected) && f.affected.length ? JSON.stringify(f.affected) : null,
-        keptListedBy.has(k) ? keptListedBy.get(k) : (f.listedBy?.length ? f.listedBy.join(' ') : null));
+        keptListedBy.has(k) ? keptListedBy.get(k)
+          : unanswered.has(key(f.ecosystem, f.name, f.version, '')) ? null
+          : (f.listedBy?.length ? f.listedBy.join(' ') : null));
     }
     let carried = 0;
     for (const r of kept) carried += keep.run(...columns.split(', ').map(c => r[c])).changes;

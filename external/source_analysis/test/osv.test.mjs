@@ -382,7 +382,7 @@ test('saveVulnerabilities stores who listed a finding; an NVD outage keeps the s
     findings: [finding('CVE-A', ['osv']), finding('CVE-OLD', ['osv']), finding('CVE-NEW', ['osv'])],
     nvdUnavailable: [{ ecosystem: 'native', name: 'python3', version: '3.11.5' }],
   });
-  assert.deepEqual(listed(), { 'CVE-A': 'osv nvd', 'CVE-B': 'nvd', 'CVE-OLD': null, 'CVE-NEW': 'osv' }, 'stored values stay while NVD is down');
+  assert.deepEqual(listed(), { 'CVE-A': 'osv nvd', 'CVE-B': 'nvd', 'CVE-OLD': null, 'CVE-NEW': null }, 'stored values stay while NVD is down; a new finding gets no line');
   saveVulnerabilities(db, 'app', '1.0', { findings: [finding('CVE-A', ['osv']), finding('CVE-OLD', ['osv', 'nvd'])] });
   assert.deepEqual(listed(), { 'CVE-A': 'osv', 'CVE-OLD': 'osv nvd' }, 'an answered lookup replaces them');
 });
