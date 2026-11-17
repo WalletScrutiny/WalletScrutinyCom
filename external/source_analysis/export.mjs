@@ -512,8 +512,14 @@ export function exportApp(db, outDir, appId, { onlyReproducible = false, counts 
   if (!app) return { exported: false };
   index.apps = [...index.apps.filter(a => a.appId !== appId), indexEntry(app)].sort((a, b) => a.appId.localeCompare(b.appId));
   writeAtomic(indexFile, JSON.stringify(index));
+  // Same aliases writeAppFiles just wrote a stub for. A sibling listing with
+  // no reproduced release gets no file (onlyReproducible); listing it here
+  // makes rsync fail the whole upload (code 23, link_stat).
+  const reproducedIds = onlyReproducible
+    ? new Set(app.releases.flatMap(r => (r.reproducedFor || []).map(l => l.appId)))
+    : null;
   const files = ['index.json', `apps/${safeName(appId)}.json`, `apps/${safeName(appId)}/`,
-    ...app.aliases.filter(a => a.appId !== appId && !exported.has(a.appId)).map(a => `apps/${safeName(a.appId)}.json`)];
+    ...app.aliases.filter(a => a.appId !== appId && !exported.has(a.appId) && (!reproducedIds || reproducedIds.has(a.appId))).map(a => `apps/${safeName(a.appId)}.json`)];
   return { exported: true, releases: app.releases.length, files };
 }
 

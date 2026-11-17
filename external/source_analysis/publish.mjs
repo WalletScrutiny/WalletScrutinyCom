@@ -73,13 +73,17 @@ export function publishExport(exportDir, { target = process.env.SOURCE_ANALYSIS_
 export function publishFiles(exportDir, files, { target = process.env.SOURCE_ANALYSIS_PUBLISH_TARGET, ssh = process.env.SOURCE_ANALYSIS_PUBLISH_SSH, run = spawnSync } = {}) {
   if (!target || !files.length) return { published: false };
   // A directory entry carries its .br files along; a file needs its own.
+  // A path that is not on disk is left out. rsync --files-from exits 23 for
+  // the whole transfer when one link_stat fails.
   const withBrotli = [];
   for (const f of files) {
     const full = path.join(exportDir, f);
-    if (f.endsWith('/')) { if (fs.existsSync(full)) compressTree(full); withBrotli.push(f); }
-    else if (f.endsWith('.json') && fs.existsSync(full)) { compressFile(full); withBrotli.push(f, `${f}.br`); }
+    if (!fs.existsSync(full)) continue;
+    if (f.endsWith('/')) { compressTree(full); withBrotli.push(f); }
+    else if (f.endsWith('.json')) { compressFile(full); withBrotli.push(f, `${f}.br`); }
     else withBrotli.push(f);
   }
+  if (!withBrotli.length) return { published: false };
   const args = ['-rlt', '--compress', '--delay-updates', '--chmod=D755,F644', '--files-from=-',
     ...(ssh ? ['-e', ssh] : []),
     `${path.resolve(exportDir)}/`,
