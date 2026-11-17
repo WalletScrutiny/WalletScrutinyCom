@@ -241,6 +241,8 @@
   position: relative;
   min-height: 600px;
   display: grid;
+  // an auto column would grow to the one-line terminal title on narrow phones
+  grid-template-columns: minmax(0, 1fr);
   place-items: center;
 
   @media (max-width: 960px) {
@@ -334,6 +336,10 @@
 
   &__window-title {
     margin-left: 6px;
+    min-width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     font-family: ui-monospace, "Cascadia Code", "Source Code Pro", monospace;
     font-size: $font-xxs;
     color: #8b949e;
@@ -346,6 +352,7 @@
     color: var(--accent-text);
     text-transform: uppercase;
     letter-spacing: 0.06em;
+    white-space: nowrap;
 
     &::before {
       content: "";

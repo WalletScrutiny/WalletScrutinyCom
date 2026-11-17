@@ -457,6 +457,19 @@ body.dark .bv-panel {
   }
 }
 
+// Two 22px icons 2px apart are easy to mis-tap with a finger
+@media (pointer: coarse) {
+  .bv-file__hash .hash-copy-btn,
+  .bv-file__download {
+    width: 32px;
+    height: 32px;
+  }
+
+  .bv-file__download {
+    margin-left: 4px;
+  }
+}
+
 .bv-build__description {
   margin: 0 0 4px;
   padding-left: 6px;

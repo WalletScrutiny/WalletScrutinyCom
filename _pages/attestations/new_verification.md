@@ -246,6 +246,27 @@ permalink: /new_verification/
         display: block;
         color: black;
     }
+    .drop-zone-input {
+        display: none;
+    }
+    /* Phones cannot drop files: the drop zone becomes plain text and the file picker shows */
+    @media screen and (max-width: 768px) {
+        .drop-zone {
+            background: none;
+            border: none;
+            padding: 0;
+            text-align: left;
+            cursor: default;
+            pointer-events: none;
+        }
+        .drop-zone-text {
+            color: inherit;
+        }
+        .drop-zone-input {
+            display: block;
+            max-width: 100%;
+        }
+    }
     .file-list {
         margin-top: 10px;
         display: flex;
@@ -504,7 +525,7 @@ permalink: /new_verification/
             <label for="fileInput" id="dropZone" class="drop-zone">
                 <span class="drop-zone-text">If you've used <b>scripts</b> or <b>docker files</b> to build the asset, <b>drag & drop</b> them here to attach them (max {{ maxFileAttachmentContentLength | divided_by: 1024 }} KB each). Each file will be linked to this verification and could be used by other users to reproduce the asset.</span>
             </label>
-            <input type="file" id="fileInput" multiple hidden>
+            <input type="file" id="fileInput" class="drop-zone-input" multiple>
             <div id="fileList" class="file-list"></div>
         </div>
         <!-- End File Dropzone Area -->
@@ -519,7 +540,7 @@ permalink: /new_verification/
                   <p>- You can also upload other log files, like build logs showing successful or failed builds.</p>
                 </span>
             </label>
-            <input type="file" id="blossomFileInput" multiple hidden>
+            <input type="file" id="blossomFileInput" class="drop-zone-input" multiple>
             <div id="blossomFileList" class="file-list"></div>
         </div>
         <div class="blossom-upload-status"></div>
