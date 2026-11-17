@@ -1,3 +1,4 @@
+import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { isDebugEnv } from './argv.mjs';
@@ -7,6 +8,23 @@ export const APPROVED_VERIFIERS_PUBKEY_HEX = [
   '1f9e547c2f31942623b8ad1d07713282e8640fd8cf474e9f79f18ace8af216ed', // danny
   '6274e238b289e1b2e98e4e6ce600dcc0cb2e2c03db9b850260ff8bdd6bbf2a45', // keraliss
 ];
+
+// Approved verifiers who left the team: ABS keeps reusing the scripts of the
+// verifications they published while on it, and ignores anything else signed
+// by their key (a new or replaced event, or one with a back-dated created_at).
+// pubkey -> ids of the verification events ABS may use.
+export const PINNED_VERIFIER_EVENT_IDS = {
+  // keraliss: his 436 verifications as of 2026-11-17, the newest from 2026-09-07
+  '6274e238b289e1b2e98e4e6ce600dcc0cb2e2c03db9b850260ff8bdd6bbf2a45': new Set(
+    JSON.parse(fs.readFileSync(new URL('./keraliss-verification-ids.json', import.meta.url), 'utf8'))
+  ),
+};
+
+/** False for events by a pinned verifier that are not on their list. */
+export function isTrustedVerifierEvent(event, pinned = PINNED_VERIFIER_EVENT_IDS) {
+  const ids = pinned[event?.pubkey];
+  return !ids || ids.has(event.id);
+}
 
 export const WS_BOT_NOSTR_PUBKEY_HEX = '168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f47373fdcce2b9cd335';
 
