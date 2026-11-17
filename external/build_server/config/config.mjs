@@ -33,7 +33,7 @@ export const FEATURE_REFRESH_APPS = true;
 // for a version newer than the reproducible one it was built from posts an
 // alert in the Buzz Reproducible-Builds channel, tagging Carol (see
 // regression-alert.mjs). Needs ALERT_NOSTR_NSEC_FILE.
-export const FEATURE_REGRESSION_ALERTS = false;
+export const FEATURE_REGRESSION_ALERTS = true;
 export const REGRESSION_ALERT_RELAY_URL = 'https://buzz.walletscrutiny.com';
 export const REGRESSION_ALERT_CHANNEL_ID = '55ad8b5e-0356-4548-aafe-6ddd2c06bab0'; // Reproducible-Builds
 export const REGRESSION_ALERT_MENTION = {

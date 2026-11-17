@@ -7,7 +7,7 @@
 // one Buzz message lists every regression not delivered yet and tags Carol, so
 // a failed delivery is picked up by the next one.
 //
-// Off unless FEATURE_REGRESSION_ALERTS is true. The message is signed with the
+// Only while FEATURE_REGRESSION_ALERTS is true. The message is signed with the
 // WalletScrutiny Notification account, loaded like source_analysis/alerts.mjs:
 // ALERT_NOSTR_NSEC_FILE (LoadCredentialEncrypted=source-analysis-alert-nsec).
 // Nothing here changes a verdict, and any error is logged and swallowed.
