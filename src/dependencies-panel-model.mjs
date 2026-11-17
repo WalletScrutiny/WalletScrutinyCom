@@ -395,6 +395,7 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
     bySeverity,
     vulnerablePackages: current.vulnerabilities?.packages ?? 0,
     vulnerabilitiesByScope: vulnerabilityCounts?.byScope || null,
+    appIds, // the listing's own ids, left out of the "Used by" list
     advisories,
     allAdvisories,
     worst: advisories.slice(0, WORST_ROWS),

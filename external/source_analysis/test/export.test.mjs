@@ -45,7 +45,6 @@ test('buildApp: releases newest first with summary, advisories and diff, nothing
   assert.deepEqual(latest.vulnerabilities.bySeverity, { malicious: 0, critical: 0, high: 1, moderate: 0, low: 0, unknown: 0 });
   assert.equal(latest.advisories[0].id, 'GHSA-aaaa');
   assert.deepEqual([latest.advisories[0].products, latest.advisories[0].productsSameVersion], [2, 2], 'a@1.0.1 is shipped by app.android and app.other');
-  assert.deepEqual(latest.advisories[0].otherProducts, [{ appId: 'app.other', sameVersion: true }], 'which other products, without this one');
   assert.deepEqual(latest.diffFrom, { ref: 'v1.0.0', added: 1, removed: 1, changed: 1, integrityChangedAtSameVersion: [] });
   assert.equal(previous.diffFrom, undefined);
   assert.deepEqual(app.aliases, [{ appId: 'app.android' }, { appId: 'app.ios' }]);
@@ -55,7 +54,7 @@ test('buildApp: releases newest first with summary, advisories and diff, nothing
   assert.deepEqual(Object.keys(written), ['ref', 'commit', 'analysedAt', 'status', 'lockfiles', 'osv', 'dependencies', 'vulnerabilities', 'advisories', 'diffFrom']);
   assert.deepEqual(Object.keys(written.dependencies), ['total', 'direct', 'byScope', 'byEcosystem', 'lockfiles', 'sorting']);
   assert.deepEqual(Object.keys(written.vulnerabilities), ['bySeverity', 'byScope']);
-  assert.deepEqual(Object.keys(written.advisories[0]), ['id', 'severity', 'aliases', 'summary', 'ecosystem', 'package', 'version', 'fixed', 'listedBy', 'direct', 'scope', 'dependants', 'products', 'productsSameVersion', 'otherProducts']);
+  assert.deepEqual(Object.keys(written.advisories[0]), ['id', 'severity', 'aliases', 'summary', 'ecosystem', 'package', 'version', 'fixed', 'listedBy', 'direct', 'scope', 'dependants', 'products', 'productsSameVersion']);
   assert.deepEqual(written.advisories[0].listedBy, ['osv']);
 });
 
@@ -113,6 +112,8 @@ test('exportAll writes index, app files and dependency lists, atomically replaci
   assert.equal(deps.dependencies[0].scope, 'app');
   assert.deepEqual(deps.dependencies.map(d => [d.products, d.productsSameVersion]), [[2, 2], [1, 1]]);
   assert.ok(!fs.existsSync(path.join(dir, 'packages')));
+  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'used-by.json'), 'utf8')),
+    { schema: 1, packages: { 'npm:a': { 'app.android': ['1.0.0', '1.0.1'], 'app.other': ['1.0.1'] } } }, 'only packages with an advisory');
 });
 
 test('exportApp updates one app in place, leaving the rest of the export as it was', () => {

@@ -16,7 +16,7 @@ import { fetchEvents } from './nostr-client.mjs';
 import { openTriageDialog } from './dependencies-triage-form.mjs';
 import { treeElement } from './dependencies-tree.mjs';
 import { rebuildTile, rebuildsElement, rebuildIndex } from './dependencies-rebuilds.mjs';
-import { epssTrigger, tipTrigger } from './dependencies-epss-tip.mjs';
+import { epssTrigger, tipTrigger, refreshTip } from './dependencies-epss-tip.mjs';
 import { showAnalysedReleases } from './build-verifications.mjs';
 
 // Where the export is served from: the analyser copies it to the web server
@@ -408,7 +408,7 @@ export function severityTally(model, rows = model.advisories || [], { explain = 
 
 // The ecosystem only appears when the release mixes several (npm next to
 // gradle next to pip); a wallet with one ecosystem would repeat it on every row.
-function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = null, defaultBranch = null, showWhere = true } = {}) {
+function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = null, defaultBranch = null, showWhere = true, usedByOptions = {} } = {}) {
   const where = whereOf(a);
   const fresh = Boolean(freshId) && statementsOf(a).some(s => s.id === freshId);
   return el('tr', { className: fresh ? 'dp-row--fresh' : null, dataset: { advisory: a.id, package: a.package } },
@@ -417,7 +417,7 @@ function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = nul
     el('td', { className: 'dp-td-advisory', dataset: { label: 'Advisory' } }, el('a', { href: `${OSV_URL}${encodeURIComponent(a.id)}`, target: '_blank', rel: 'noopener noreferrer', title: a.summary || '' }, a.id), listedByLine(a)),
     el('td', { className: 'dp-td-severity', dataset: { label: 'Severity' } }, severityCell(a)),
     showWhere ? el('td', { className: 'dp-td-where', dataset: { label: 'Where?' } }, el('span', { className: `dp-where dp-where--${where}`, title: where === 'unknown' ? WHERE_UNKNOWN_TIP : null }, whereLabel(a)), inApkLine(a)) : null,
-    el('td', { className: 'dp-td-products', dataset: { label: 'Used by' } }, usedBy(a)),
+    el('td', { className: 'dp-td-products', dataset: { label: 'Used by' } }, usedBy(a, usedByOptions)),
     el('td', { className: 'dp-td-decision', dataset: { label: 'Decision' } }, decisionCell(a, { onJudge, freshId })),
   );
 }
@@ -695,13 +695,28 @@ function triageLine(model) {
 // Two lines, "25 wallets" over "3 on 4.0.0": how many of the checked
 // wallets ship the package at all, and how many this exact version. A
 // package only this wallet ships says so instead of "1".
-export function usedBy(a) {
+export function usedBy(a, { base = EXPORT_BASE, fetchImpl = globalThis.fetch, appIds = [] } = {}) {
   if (a.products == null) return '–';
   if (a.products <= 1) return el('span', { className: 'dp-products-sub' }, 'only this wallet');
   const same = a.productsSameVersion;
   return el('span', {},
-    el('span', { className: 'dp-products-line' }, `${a.products} wallets`, otherProductsTrigger(a)),
+    el('span', { className: 'dp-products-line' }, `${a.products} wallets`, otherProductsTrigger(a, { base, fetchImpl, appIds })),
     same != null ? el('span', { className: 'dp-products-line dp-products-sub' }, a.version ? `${same} on ${a.version}` : `${same} on this version`) : null);
+}
+
+// used-by.json (external/source_analysis/export.mjs): which apps ship each
+// package with an advisory, at which versions. Fetched once per base, when
+// the first list opens; null when the export has none yet or is unreachable.
+const usedByFiles = new Map();
+function loadUsedBy(base, fetchImpl) {
+  if (!usedByFiles.has(base)) {
+    const entry = { doc: undefined };
+    entry.ready = fetchJson(`${base}/used-by.json`, fetchImpl)
+      .catch((error) => { console.warn('Dependencies panel: used-by.json not reachable', error); return null; })
+      .then((doc) => { entry.doc = doc; });
+    usedByFiles.set(base, entry);
+  }
+  return usedByFiles.get(base);
 }
 
 // The site's listing for an export app id: its own id, or a mobile listing's
@@ -713,27 +728,41 @@ function walletOf(appId) {
     wallets.find(w => w.appId === appId) || null;
 }
 
-// An info icon after "25 wallets" that lists them: the other wallets, linked
-// to their pages, those on this exact version marked. Built when it opens, so
-// it names the wallets allWallets.js brought in meanwhile.
-function otherProductsTrigger(a) {
-  if (!a.otherProducts?.length) return null;
+// The other wallets shipping the advisory's package, linked to their pages,
+// those on its exact version first and marked; one entry per listing.
+function otherWallets(a, shipping, appIds) {
+  const byWallet = new Map();
+  for (const [appId, versions] of Object.entries(shipping)) {
+    if (appIds.includes(appId)) continue;
+    const wallet = walletOf(appId);
+    const key = wallet?.url || appId;
+    const sameVersion = versions.includes(a.version);
+    const seen = byWallet.get(key);
+    if (seen) seen.sameVersion ||= sameVersion;
+    else byWallet.set(key, { wallet, appId, sameVersion });
+  }
+  const name = (w) => w.wallet?.title || w.appId;
+  return [...byWallet.values()].sort((x, y) => Number(y.sameVersion) - Number(x.sameVersion) || name(x).localeCompare(name(y)));
+}
+
+// An info icon after "25 wallets" that lists them in the shared tip. Built
+// when it opens, so it names the wallets allWallets.js brought in meanwhile.
+function otherProductsTrigger(a, { base, fetchImpl, appIds }) {
   const trigger = tipTrigger(el('span', { html: wsIcon('circle-info') }), () => {
-    const byWallet = new Map();
-    for (const p of a.otherProducts) {
-      const wallet = walletOf(p.appId);
-      const key = wallet?.url || p.appId;
-      const seen = byWallet.get(key);
-      if (seen) seen.sameVersion ||= p.sameVersion;
-      else byWallet.set(key, { wallet, appId: p.appId, sameVersion: p.sameVersion });
+    const file = loadUsedBy(base, fetchImpl);
+    if (file.doc === undefined) {
+      file.ready.then(() => refreshTip(trigger));
+      return [el('p', {}, 'Loading the wallets…')];
     }
-    const items = [...byWallet.values()].map(({ wallet, appId, sameVersion }) => {
+    const shipping = file.doc?.packages?.[`${a.ecosystem}:${a.package}`];
+    if (!shipping) return [el('p', {}, 'The list of wallets is not available yet.')];
+    const items = otherWallets(a, shipping, appIds).map(({ wallet, appId, sameVersion }) => {
       const icon = wallet?.icon
         ? el('img', { src: `/images/wIcons/${wallet.iconFolder || wallet.folder}/small/${wallet.icon}`, alt: '', loading: 'lazy' })
         : null;
-      const name = wallet?.title || appId;
+      const label = wallet?.title || appId;
       return el('li', {},
-        wallet?.url ? el('a', { href: wallet.url }, icon, name) : el('span', {}, icon, name),
+        wallet?.url ? el('a', { href: wallet.url }, icon, label) : el('span', {}, icon, label),
         sameVersion && a.version ? el('span', { className: 'dp-tip__same' }, ` on ${a.version}`) : null);
     });
     return [el('p', {}, `Other wallets that ship ${a.package}:`), el('ul', { className: 'dp-tip__wallets' }, items)];
@@ -757,12 +786,12 @@ const HEADER_TIPS = {
 // The worst rows, or every row with `showAll` (after a publish, so the judged
 // row stays in sight wherever it re-sorts to). "Where?" is left out when no
 // row has an answer for it (a Python wallet's requirements.txt says nothing).
-function advisoryTable(model, { onJudge = null, freshId = null, showAll = false } = {}) {
+function advisoryTable(model, { onJudge = null, freshId = null, showAll = false, usedByOptions = {} } = {}) {
   if (!model.advisories.length) return null;
   const shown = showAll ? model.advisories : model.worst;
   const rest = model.advisories.slice(shown.length);
   const showWhere = !allWhereUnknown(model);
-  const rowOptions = { mixedEcosystems: model.ecosystems.length > 1, onJudge, freshId, defaultBranch: model.defaultBranch, showWhere };
+  const rowOptions = { mixedEcosystems: model.ecosystems.length > 1, onJudge, freshId, defaultBranch: model.defaultBranch, showWhere, usedByOptions };
   const body = el('tbody', {}, shown.map(a => advisoryRow(a, rowOptions)));
   const table = el('table', { className: 'dp-table dp-adv-table' },
     el('thead', {}, el('tr', {},
@@ -1048,7 +1077,7 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
       : malwareFreeTile(model.malware),
   );
   const rest = [
-    treeTabs(model, advisoryTable(model, { onJudge, freshId, showAll }), { appId, base, fetchImpl, label: `${wallet} ${model.ref}` }),
+    treeTabs(model, advisoryTable(model, { onJudge, freshId, showAll, usedByOptions: { base, fetchImpl, appIds: [...(model.appIds || []), appId] } }), { appId, base, fetchImpl, label: `${wallet} ${model.ref}` }),
     model.advisories.length ? trustedLine(trusted) : null,
     submodulesSection(model, { appId, base, fetchImpl }),
     howToRead(model),

@@ -5,11 +5,12 @@
 // small at the top and detailed below, so a reader fetches only what it shows:
 //
 //   index.json                          the exported app ids (exportApp keeps it current)
-//   apps/<appId>.json                   all analyses of one app, with advisories (each with how many products ship the package, and which) and the diff to the previous release
+//   apps/<appId>.json                   all analyses of one app, with advisories (each with how many products ship the package) and the diff to the previous release
 //   apps/<aliasId>.json                 stub {appId, alias: true} for the repository's other app ids (the iPhone record), only those some release was reproduced for
 //   apps/<appId>/<ref>/dependencies.json  the full resolved dependency list of one release, each row with how many products ship the package
 //   apps/<appId>/<ref>/submodules.json    the release's git submodules, when it has any
 //   apps/<appId>/<ref>/rebuilds.json      who rebuilt which of the release's dependencies from source (ours and imported claims), when anyone did
+//   used-by.json                        for each package with an advisory, which apps ship it at which versions (exportAll only)
 //
 // Each file carries only what a reader uses (the wallet page's Dependencies
 // panel, signals.mjs, apk-contents-cli.mjs --deps); the database keeps the rest.
@@ -315,7 +316,6 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
       repo: sources.get(`${v.ecosystem}:${v.name}`)?.repo_url || undefined,
       products: counts.byName.get(`${v.ecosystem}:${v.name}`) || 1,
       productsSameVersion: counts.byVersion.get(`${v.ecosystem}:${v.name}@${v.dep_version}`) || 1,
-      otherProducts: otherProducts(counts, appId, aliases, v.ecosystem, v.name, v.dep_version),
       inDefaultBranch: inDefaultBranch?.(v),
     }));
     if (previous) {
@@ -412,40 +412,33 @@ export function productCounts(db) {
   `).all(DEFAULT_BRANCH_REF);
   for (const r of apps) byName.set(`${r.ecosystem}:${r.name}`, r.products);
   for (const r of rows) byVersion.set(`${r.ecosystem}:${r.name}@${r.version}`, r.products);
-  // The products behind those counts, app id -> the versions it ships, for the
-  // panel's "Used by" list. Asked per package, only for packages with an advisory.
+  return { byName, byVersion };
+}
+
+// The products behind those counts, for the panel's "Used by" list: for each
+// package with an advisory in the export, the app ids that ship it and their
+// versions, { schema, packages: { 'npm:lib': { appId: ['1.0.0'] } } }. One
+// shared file, fetched when a reader opens the list, rather than a list on
+// every advisory of every release.
+export function usedByPackages(db, apps) {
+  const keys = new Map();
+  for (const app of apps) for (const r of app.releases) for (const a of r.advisories || []) {
+    keys.set(`${a.ecosystem}:${a.package}`, [a.ecosystem, a.package]);
+  }
   const shipping = db.prepare(`
     SELECT d.app_id, p.version
     FROM app_dependencies d JOIN packages p ON p.id = d.package_id
     WHERE p.ecosystem = ? AND p.name = ? AND d.version != ?
     GROUP BY d.app_id, p.version
+    ORDER BY d.app_id, p.version
   `);
-  const appsByName = new Map();
-  const appsOf = (ecosystem, name) => {
-    const key = `${ecosystem}:${name}`;
-    if (!appsByName.has(key)) {
-      const out = new Map();
-      for (const r of shipping.all(ecosystem, name, DEFAULT_BRANCH_REF)) {
-        if (!out.has(r.app_id)) out.set(r.app_id, new Set());
-        out.get(r.app_id).add(r.version);
-      }
-      appsByName.set(key, out);
-    }
-    return appsByName.get(key);
-  };
-  return { byName, byVersion, appsOf };
-}
-
-// The other products that ship an advisory's package, those on its exact
-// version first: [{ appId, sameVersion }]. Undefined when there are none.
-export function otherProducts(counts, appId, aliases, ecosystem, name, version) {
-  if (!counts.appsOf) return undefined;
-  const self = new Set([appId, ...aliases.map(a => a.appId)]);
-  const out = [...counts.appsOf(ecosystem, name)]
-    .filter(([id]) => !self.has(id))
-    .map(([id, versions]) => ({ appId: id, sameVersion: versions.has(version) }))
-    .sort((a, b) => Number(b.sameVersion) - Number(a.sameVersion) || a.appId.localeCompare(b.appId));
-  return out.length ? out : undefined;
+  const packages = {};
+  for (const [key, [ecosystem, name]] of [...keys].sort(([a], [b]) => a.localeCompare(b))) {
+    const byApp = {};
+    for (const r of shipping.all(ecosystem, name, DEFAULT_BRANCH_REF)) (byApp[r.app_id] ||= []).push(r.version);
+    packages[key] = byApp;
+  }
+  return { schema: SCHEMA, packages };
 }
 
 
@@ -492,9 +485,11 @@ export function exportAll(db, outDir, { onlyReproducible = false } = {}) {
   // Alias stubs wait for the loop: an alias in scope may still write nothing
   // of its own (its reproduced refs sit under the other id, Passport Batch 2).
   const stubs = new Map();
+  const apps = [];
   for (const appId of [...appIds].sort()) {
     const app = writeAppFiles(db, tmp, appId, aliases.get(appId) || [], counts, sources, null, { rebuilds, onlyReproducible, stubs });
     if (!app) continue;
+    apps.push(app);
     releases += app.releases.length;
     index.apps.push(indexEntry(app));
     const files = unlistedFiles(app.releases.flatMap(r => r.dependencies?.lockfiles || []), appId);
@@ -504,6 +499,7 @@ export function exportAll(db, outDir, { onlyReproducible = false } = {}) {
   for (const [alias, appId] of stubs) {
     if (!written.has(alias)) fs.writeFileSync(path.join(tmp, 'apps', `${safeName(alias)}.json`), JSON.stringify({ schema: SCHEMA, appId, alias: true }));
   }
+  fs.writeFileSync(path.join(tmp, 'used-by.json'), JSON.stringify(usedByPackages(db, apps)));
   writeUpstreamHints(db, tmp);
   // The APK checks (apk-contents-cli.mjs --export) are written next to the
   // export from outside the database; a new export keeps them.
