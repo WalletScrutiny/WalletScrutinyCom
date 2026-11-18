@@ -155,7 +155,7 @@ export function rebuildsElement(data, dependencies = []) {
       : key === 'all' ? tried.length
         : key === 'failed' ? tried.filter(p => rebuildState(p.row) === 'failed').length
           : tried.filter(p => p.row.claims.some(c => c.by === key)).length;
-    const b = el('button', { type: 'button', className: 'dp-rb-filter', 'aria-pressed': String(key === filter) },
+    const b = el('button', { type: 'button', className: 'dp-history__tab dp-rb-filter', 'aria-pressed': String(key === filter) },
       label, el('span', { className: 'dp-rb-filter-count' }, n.toLocaleString('en-US')));
     b.addEventListener('click', () => { filter = key; expanded = false; buttons.forEach(x => x.setAttribute('aria-pressed', String(x === b))); paint(); });
     return b;
@@ -164,10 +164,10 @@ export function rebuildsElement(data, dependencies = []) {
   return el('div', { className: 'dp-rb-pane' },
     el('p', { className: 'dpt-intro' },
       'Who has rebuilt each dependency from source and got the same file the registry serves. These are other projects\' claims, not our checks, and not part of any verdict.'),
-    el('div', { className: 'dpt-controls dp-rb-filters' }, buttons),
+    el('div', { className: 'dpt-controls' }, el('span', { className: 'dp-history__tabs dp-rb-filters', role: 'group', 'aria-label': 'Show' }, buttons)),
     status,
     el('table', { className: 'dp-table dp-rb-table' },
-      el('thead', {}, el('tr', {}, ['Package', 'Version', 'Same version in', 'Rebuilt by'].map(h => el('th', {}, h)))),
+      el('thead', {}, el('tr', {}, ['Package', 'Version', 'Same version in', 'Rebuilt by'].map((h, i) => el('th', { className: i === 1 || i === 2 ? 'dp-rb-center' : null }, h)))),
       body),
     more);
 }
