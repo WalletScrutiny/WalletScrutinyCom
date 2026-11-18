@@ -4,7 +4,7 @@ layout: default
 
 <div id="main" role="main">
   <div class="archive">
-    <h1 class="page__title">{{ page.title }}</h1>
+    <h1 class="page__title">{{ page.title }}{% if page.title_badge %} <span class="page__title-badge"{% if page.title_badge_tooltip %} title="{{ page.title_badge_tooltip | escape }}"{% endif %}>{{ page.title_badge }}</span>{% endif %}</h1>
     {{ content }}
   </div>
 </div>
