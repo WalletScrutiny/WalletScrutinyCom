@@ -66,6 +66,23 @@
   }
 }
 
+// Small pill after a page title, set with `title_badge` (and an optional
+// `title_badge_tooltip`) in the page's front matter (_layouts/archive.html).
+.page__title-badge {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0.25em 0.7em;
+  border-radius: 999px;
+  border: 1px solid var(--orange);
+  background: color-mix(in srgb, var(--orange) 8%, transparent);
+  color: var(--orange);
+  font-size: $font-xs;
+  font-weight: $title-font-weight;
+  line-height: 1.35;
+  letter-spacing: 0.02em;
+  cursor: help;
+}
+
 .page__lead {
   font-family: $global-font-family;
   font-size: $font-lg;
