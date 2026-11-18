@@ -12,7 +12,7 @@ android:
   updated: 2026-11-12
   version: 2.1.12
   meta: fewusers
-  verdict: nosource
+  verdict: wip
   developerName: SAMZAL LLC
 
 ---
