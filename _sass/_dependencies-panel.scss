@@ -1576,10 +1576,6 @@ body.dark .dp-rb--failed { color: #f5b041; border-color: #f5b041; }
   color: var(--neutral-2);
   font-size: 0.9em;
 }
-.dp-rb-filter[aria-pressed="true"] .dp-rb-filter-count {
-  background: rgba(255, 255, 255, .25);
-  color: #fff;
-}
 // Five options do not fit one row on a phone: separate bordered options that wrap
 @media (max-width: 640px) {
   .dp-rb-filters {
