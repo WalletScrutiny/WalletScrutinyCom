@@ -151,7 +151,7 @@ export function buildQueries(analyses) {
   return { queries: [...queries.values()], skipped };
 }
 
-async function request(fetchImpl, url, body = null, headers = {}) {
+export async function request(fetchImpl, url, body = null, headers = {}) {
   let lastError;
   for (let attempt = 0; attempt <= RETRIES; attempt++) {
     try {
@@ -214,10 +214,11 @@ const detailCache = new Map(); // id -> Promise<advisory>
 export function clearAdvisoryCache() {
   detailCache.clear();
   nvdCache.clear();
+  nvdSeverityCache.clear();
   nvdNextAt = 0;
 }
 
-async function fetchDetails(ids, fetchImpl) {
+export async function fetchDetails(ids, fetchImpl) {
   const unique = [...new Set(ids)];
   const out = new Map();
   let index = 0;
@@ -315,6 +316,32 @@ async function nvdLookup(q, fetchImpl, intervalMs) {
     if (!(data.vulnerabilities || []).length) break;
   }
   return out;
+}
+
+// The severity NVD gives one CVE, from its own score: OSV.dev's copy of a
+// CVE scored only in CVSS 4.0 has a vector this module cannot rate (the 4.0
+// score is a table lookup, not a formula). Lower case like severityOf's
+// labels ('moderate' for NVD's MEDIUM), null when NVD rates it in no version.
+// Paced and cached like the product lookups.
+const nvdSeverityCache = new Map(); // id -> { at, pending }
+export async function nvdSeverity(id, { fetchImpl = globalThis.fetch, intervalMs = NVD_INTERVAL_MS } = {}) {
+  if (!(Date.now() - nvdSeverityCache.get(id)?.at < NVD_CACHE_MS)) {
+    const pending = (async () => {
+      const wait = nvdNextAt - Date.now();
+      if (wait > 0) await new Promise(resolve => setTimeout(resolve, wait));
+      nvdNextAt = Date.now() + intervalMs;
+      const data = await request(fetchImpl, `${NVD_API}?cveId=${encodeURIComponent(id)}`, null, process.env.NVD_API_KEY ? { apiKey: process.env.NVD_API_KEY } : {});
+      const metrics = data.vulnerabilities?.[0]?.cve?.metrics || {};
+      const label = ['cvssMetricV40', 'cvssMetricV31', 'cvssMetricV30', 'cvssMetricV2']
+        .map(k => (metrics[k] || [])[0]).filter(Boolean).map(m => m.cvssData?.baseSeverity ?? m.baseSeverity)[0];
+      if (!label) return null;
+      const lower = String(label).toLowerCase();
+      return lower === 'medium' ? 'moderate' : lower;
+    })();
+    pending.catch(() => nvdSeverityCache.delete(id));
+    nvdSeverityCache.set(id, { at: Date.now(), pending });
+  }
+  return nvdSeverityCache.get(id).pending;
 }
 
 /**

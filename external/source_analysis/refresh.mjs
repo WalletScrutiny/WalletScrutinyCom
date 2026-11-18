@@ -23,6 +23,7 @@
 import fs from 'fs';
 import path from 'path';
 import { recheckStoredReleases } from './recheck.mjs';
+import { refreshOwnAdvisories } from './ownAdvisories.mjs';
 import { exportApp, productCounts } from './export.mjs';
 import { packageSources } from './ddbbUtils.mjs';
 import { publishFiles, markerPathFor, readMarker, writeMarker, exportFiles, newestExportFile } from './publish.mjs';
@@ -36,6 +37,8 @@ import { buildNews } from './news.mjs';
  * exportDir, or no index.json yet: the first pass writes it) only the
  * database is updated. A failing upload throws, and the marker stays.
  * A refresh that stopped early also has stopped: { reason, skipped, next }.
+ * With `own` (refreshOwnAdvisories) the wallets' own advisories are looked
+ * up too; ownFailed counts the repositories OSV.dev did not answer for.
  */
 export const MAX_FAILURES_IN_A_ROW = 3;
 export const TIME_LIMIT_MS = 45 * 60 * 1000;
@@ -50,7 +53,7 @@ function readResume(file) {
   }
 }
 
-export async function refreshAdvisories(db, { exportDir = null, onlyReproducible = true, check, deliver, publish = publishFiles, signals = buildSignals, log = console, markerPath = exportDir && markerPathFor(exportDir), maxFailuresInARow = MAX_FAILURES_IN_A_ROW, timeLimitMs = TIME_LIMIT_MS, now = Date.now, resumePath = exportDir && resumePathFor(exportDir) } = {}) {
+export async function refreshAdvisories(db, { exportDir = null, onlyReproducible = true, check, deliver, own = null, publish = publishFiles, signals = buildSignals, log = console, markerPath = exportDir && markerPathFor(exportDir), maxFailuresInARow = MAX_FAILURES_IN_A_ROW, timeLimitMs = TIME_LIMIT_MS, now = Date.now, resumePath = exportDir && resumePathFor(exportDir) } = {}) {
   const apps = db.prepare('SELECT DISTINCT app_id FROM app_dependencies ORDER BY app_id').all().map(r => r.app_id);
   const recheck = await recheckStoredReleases(db, apps, { ...(check && { check }), ...(deliver && { deliver }), maxFailuresInARow, deadline: now() + timeLimitMs, now, startAt: resumePath && readResume(resumePath) });
   if (recheck.stopped) {
@@ -59,6 +62,14 @@ export async function refreshAdvisories(db, { exportDir = null, onlyReproducible
     if (resumePath) fs.writeFileSync(resumePath, `${JSON.stringify(next)}\n`);
   } else if (resumePath) {
     fs.rmSync(resumePath, { force: true });
+  }
+  // The wallets' own advisories (issue 1022): one OSV.dev query per
+  // repository; `own` is refreshOwnAdvisories, or null to leave them alone.
+  if (own) {
+    const mine = await own(db, apps);
+    if (mine.failed) log.log(`Own advisories: ${mine.failed} of ${mine.failed + mine.checked} repositories not answered, keeping their stored advisories`);
+    recheck.changed = [...new Set([...recheck.changed, ...mine.changed])];
+    recheck.ownFailed = mine.failed;
   }
   const result = { ...recheck, exported: [], published: false, retried: 0 };
   if (!exportDir || !fs.existsSync(path.join(exportDir, 'index.json'))) return result;
