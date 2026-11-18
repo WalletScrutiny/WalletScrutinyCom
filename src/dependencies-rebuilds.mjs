@@ -99,14 +99,15 @@ function claimLine(c) {
 }
 
 const FILTERS = [
+  ['none', 'Nobody tried yet'],
   ['all', 'Rebuilt or tried'],
   ['ws', 'By us'],
   ['oss-rebuild', 'By OSS Rebuild'],
   ['reproducible-central', 'By Reproducible Central'],
   ['failed', 'Failed'],
-  ['none', 'Nobody tried yet'],
 ];
 const MAX_ROWS = 200;
+const FIRST_ROWS = 8;
 
 /** The "Rebuilds" tab for one release: `data` is rebuilds.json, `dependencies` dependencies.json rows. */
 export function rebuildsElement(data, dependencies = []) {
@@ -122,8 +123,11 @@ export function rebuildsElement(data, dependencies = []) {
   const tried = packages.filter(p => p.row);
   const untried = packages.length - tried.length;
   let filter = 'all';
+  let expanded = false;
   const body = el('tbody');
   const status = el('p', { className: 'dpt-status', role: 'status' });
+  const more = el('button', { type: 'button', className: 'dp-note-more dp-rb-more' });
+  more.addEventListener('click', () => { expanded = true; paint(); });
 
   const shared = (d) => (d.productsSameVersion ? `${d.productsSameVersion} ${d.productsSameVersion === 1 ? 'wallet' : 'wallets'}` : '');
   function paint() {
@@ -134,10 +138,14 @@ export function rebuildsElement(data, dependencies = []) {
     else list = tried.filter(p => p.row.claims.some(c => c.by === filter));
     list = [...list].sort((a, b) => (b.d.productsSameVersion || 0) - (a.d.productsSameVersion || 0) || a.d.name.localeCompare(b.d.name));
     status.textContent = `${list.length.toLocaleString('en-US')} ${list.length === 1 ? 'package' : 'packages'}${list.length > MAX_ROWS ? `, showing the ${MAX_ROWS} used by most wallets` : ''}.`;
-    body.replaceChildren(...list.slice(0, MAX_ROWS).map(({ d, row }) => el('tr', {},
-      el('td', {}, el('b', {}, d.name), d.ecosystem ? el('div', { className: 'dp-via' }, d.ecosystem) : null),
-      el('td', {}, el('code', {}, d.version)),
-      el('td', {}, shared(d)),
+    const shown = Math.min(list.length, MAX_ROWS);
+    const rows = expanded ? shown : Math.min(shown, FIRST_ROWS);
+    more.hidden = rows === shown;
+    more.textContent = `Show ${(shown - rows).toLocaleString('en-US')} more`;
+    body.replaceChildren(...list.slice(0, rows).map(({ d, row }) => el('tr', {},
+      el('td', {}, el('b', {}, d.name), d.ecosystem ? el('span', { className: 'dp-rb-eco' }, d.ecosystem) : null),
+      el('td', { className: 'dp-rb-center' }, el('code', {}, d.version)),
+      el('td', { className: 'dp-rb-center' }, shared(d)),
       el('td', {}, row ? ORDER.flatMap(by => row.claims.filter(c => c.by === by)).map(claimLine) : el('span', { className: 'dpt-note' }, 'Nobody has tried yet')),
     )));
   }
@@ -147,18 +155,19 @@ export function rebuildsElement(data, dependencies = []) {
       : key === 'all' ? tried.length
         : key === 'failed' ? tried.filter(p => rebuildState(p.row) === 'failed').length
           : tried.filter(p => p.row.claims.some(c => c.by === key)).length;
-    const b = el('button', { type: 'button', className: 'btn-small dp-rb-filter', 'aria-pressed': String(key === filter) }, `${label} (${n.toLocaleString('en-US')})`);
-    b.addEventListener('click', () => { filter = key; buttons.forEach(x => x.setAttribute('aria-pressed', String(x === b))); paint(); });
+    const b = el('button', { type: 'button', className: 'dp-rb-filter', 'aria-pressed': String(key === filter) },
+      label, el('span', { className: 'dp-rb-filter-count' }, n.toLocaleString('en-US')));
+    b.addEventListener('click', () => { filter = key; expanded = false; buttons.forEach(x => x.setAttribute('aria-pressed', String(x === b))); paint(); });
     return b;
   });
   paint();
   return el('div', { className: 'dp-rb-pane' },
     el('p', { className: 'dpt-intro' },
-      'Who has rebuilt each dependency from its source and got the same file the registry serves. Results from other projects are imported and shown under their name: they are their claims, not our checks. ',
-      'Where nobody else has, we rebuild the versions most wallets share, starting with npm. A failed rebuild does not mean the package is bad, only that nobody has shown it matches its source. Not part of any verdict.'),
+      'Who has rebuilt each dependency from source and got the same file the registry serves. These are other projects\' claims, not our checks, and not part of any verdict.'),
     el('div', { className: 'dpt-controls dp-rb-filters' }, buttons),
     status,
     el('table', { className: 'dp-table dp-rb-table' },
       el('thead', {}, el('tr', {}, ['Package', 'Version', 'Same version in', 'Rebuilt by'].map(h => el('th', {}, h)))),
-      body));
+      body),
+    more);
 }
