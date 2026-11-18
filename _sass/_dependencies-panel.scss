@@ -1559,8 +1559,53 @@ body.dark .dp-note-more {
 .dp-rb--failed { border-color: #b9770e; color: #b9770e; border-style: dashed; }
 body.dark .dp-rb--reproduced { color: #58d68d; border-color: #58d68d; }
 body.dark .dp-rb--failed { color: #f5b041; border-color: #f5b041; }
-.dp-rb-filters { flex-wrap: wrap; gap: 6px; }
-.dp-rb-filter[aria-pressed="true"] { font-weight: 700; outline: 2px solid var(--neutral-3); }
+// The filters reuse the All / Direct segmented switch (.dp-history__tabs) above
+.dp-rb-filters { flex-wrap: wrap; }
+.dp-rb-filter {
+  padding: 4px 10px;
+  &[aria-pressed="true"] {
+    background: var(--accent);
+    color: #fff;
+  }
+}
+.dp-rb-filter-count {
+  margin-left: 0.4em;
+  padding: 0 0.5em;
+  border-radius: 999px;
+  background: var(--neutral-6);
+  color: var(--neutral-2);
+  font-size: 0.9em;
+}
+// Five options do not fit one row on a phone: separate bordered options that wrap
+@media (max-width: 640px) {
+  .dp-rb-filters {
+    border: 0;
+    border-radius: 0;
+    overflow: visible;
+    gap: 4px;
+  }
+  .dp-rb-filter,
+  .dp-rb-filter + .dp-rb-filter {
+    border: 1px solid var(--neutral-5);
+    border-radius: 6px;
+  }
+}
+// the ecosystem as a badge after the name, not a line of its own
+.dp-rb-eco {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 6px;
+  border: 1px solid var(--neutral-5);
+  border-radius: 999px;
+  font-family: system-ui, sans-serif;
+  font-size: $font-xxs;
+  color: var(--neutral-3);
+  text-transform: lowercase;
+  vertical-align: middle;
+}
+@media (min-width: 641px) {
+  .dp-rb-table .dp-rb-center { text-align: center; }
+}
 .dp-rb-claim { margin: 2px 0 6px; }
 .dp-rb-theirs { font-size: $font-xs; color: var(--neutral-3); }
 .dp-rb-event summary { cursor: pointer; font-size: $font-xs; color: var(--neutral-2); }
