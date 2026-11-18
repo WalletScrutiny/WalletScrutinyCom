@@ -398,6 +398,8 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
     appIds, // the listing's own ids, left out of the "Used by" list
     advisories,
     allAdvisories,
+    // advisories left out because the shipped tag has the fix, with the commit and tag (export.mjs, issue 1016)
+    backported: (current.backported || []).filter(inApp),
     worst: advisories.slice(0, WORST_ROWS),
     triage: triageSummary,
     apk: apkSummary(apkOfRelease),

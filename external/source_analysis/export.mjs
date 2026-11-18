@@ -28,7 +28,7 @@ import { groupByRepository } from './appList.mjs';
 import { hintsByApp } from './upstreamTriage.mjs';
 import { coverageForReaders, coverageByPlatform } from './plugins/lock-coverage.mjs';
 import { buildLockForReaders } from './plugins/build-lock.mjs';
-import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getVerifiedRefs, getEndOfLife, getSubmodules, getRebuildClaims, getDefaultBranch, DEFAULT_BRANCH_REF } from './ddbbUtils.mjs';
+import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, getBackportedAdvisories, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getVerifiedRefs, getEndOfLife, getSubmodules, getRebuildClaims, getDefaultBranch, DEFAULT_BRANCH_REF } from './ddbbUtils.mjs';
 import { COUNTED_TARGETS, partOfFile, productPartOf, sortingOf, targetOfLockfile, targetsOfLockfiles, unlistedFiles, useRepositories } from './products.mjs';
 
 export const SCHEMA = 1;
@@ -306,6 +306,8 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
       affected: v.affected ? JSON.parse(v.affected) : undefined,
       fixed: v.fixed ? v.fixed.split(' ') : undefined,
       listedBy: v.listed_by ? v.listed_by.split(' ') : undefined,
+      // fix versions read from the upstream repository's tags, with the commit and tag (issue 1016)
+      fixedFromGit: v.fixed_git ? JSON.parse(v.fixed_git) : undefined,
       direct: v.direct === null ? null : v.direct === 1,
       scope: scopeOfRow(v) === 'unknown' ? null : scopeOfRow(v),
       part: partOfLockfiles(rowsOfAdvisory(v).map(d => d.lockfile), appId) || undefined,
@@ -318,6 +320,16 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
       productsSameVersion: counts.byVersion.get(`${v.ecosystem}:${v.name}@${v.dep_version}`) || 1,
       inDefaultBranch: inDefaultBranch?.(v),
     }));
+    // Advisories left out because the shipped tag has the fixing commit, each
+    // with the commit and tag that show it: the record of what is not in the table.
+    const backported = getBackportedAdvisories(db, appId, r.ref).map(v => ({
+      id: v.vuln_id, severity: v.severity, aliases: v.aliases ? v.aliases.split(' ') : [],
+      summary: v.summary, ecosystem: v.ecosystem, package: v.name, version: v.dep_version,
+      listedBy: v.listed_by ? v.listed_by.split(' ') : undefined,
+      repo: v.repo, commit: v.commit_sha, tag: v.tag,
+      targets: targetsOfLockfiles(rowsOfAdvisory(v).map(d => d.lockfile), appId),
+    }));
+    if (backported.length) r.backported = backported;
     if (previous) {
       const d = diffDependencies(db, appId, previous.ref, r.ref);
       r.diffFrom = { ref: previous.ref, added: d.added.length, removed: d.removed.length, changed: d.changed.length,

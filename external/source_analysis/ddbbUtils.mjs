@@ -148,6 +148,33 @@ export function initDatabase(dbPath = DB_PATH) {
   // "osv", "nvd" or "osv nvd" (plugins/osv.mjs findingsFor); NULL on rows stored
   // before the column, until the next recheck.
   ensureColumn(db, 'app_vulnerabilities', 'listed_by', 'TEXT');
+  // `fixed_git` is the JSON list of fix versions the upstream repository's
+  // release tags gave ({ version, tag, commit, repo }, plugins/osv.mjs
+  // applyUpstreamFixes), also in `fixed`; NULL when git added none (issue 1016).
+  ensureColumn(db, 'app_vulnerabilities', 'fixed_git', 'TEXT');
+  // Advisories NVD or OSV.dev list for a native release whose shipped tag
+  // already has the fixing commit (issue 1016): kept out of
+  // app_vulnerabilities, but stored and exported with the commit and tag
+  // that show it, so the record of what was left out is complete.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS app_backported_advisories (
+      app_id TEXT NOT NULL,
+      version TEXT NOT NULL,
+      ecosystem TEXT NOT NULL,
+      name TEXT NOT NULL,
+      dep_version TEXT NOT NULL,
+      vuln_id TEXT NOT NULL,
+      aliases TEXT NOT NULL DEFAULT '',
+      severity TEXT NOT NULL,
+      summary TEXT NOT NULL DEFAULT '',
+      listed_by TEXT,
+      repo TEXT NOT NULL,
+      commit_sha TEXT NOT NULL,
+      tag TEXT NOT NULL,
+      checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (app_id, version, ecosystem, name, dep_version, vuln_id)
+    );
+  `);
 
   // Where a package's source lives, per (ecosystem, name): resolved from the
   // registry metadata (sourceRepos.mjs) and cached, since it does not
@@ -604,8 +631,10 @@ export function saveDependencies(db, appId, version, analyses) {
 // next successful lookup. A finding of this run replaces its stored row, but
 // keeps the row's stored `listed_by`: NVD did not say this time whether it lists it.
 // A new finding of such a package stores NULL (no line) for the same reason.
-export function saveVulnerabilities(db, appId, version, { findings, nvdUnavailable = [] }) {
-  const columns = 'app_id, version, ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants, affected, listed_by';
+// `backported` (plugins/osv.mjs applyUpstreamFixes) replaces the release's
+// stored backported advisories the same way, those of an NVD-less package kept.
+export function saveVulnerabilities(db, appId, version, { findings, nvdUnavailable = [], backported = [] }) {
+  const columns = 'app_id, version, ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants, affected, listed_by, fixed_git';
   const values = columns.split(', ').map(() => '?').join(', ');
   const insert = db.prepare(`INSERT OR REPLACE INTO app_vulnerabilities (${columns}) VALUES (${values})`);
   const keep = db.prepare(`INSERT OR IGNORE INTO app_vulnerabilities (${columns}) VALUES (${values})`);
@@ -623,17 +652,44 @@ export function saveVulnerabilities(db, appId, version, { findings, nvdUnavailab
         Array.isArray(f.affected) && f.affected.length ? JSON.stringify(f.affected) : null,
         keptListedBy.has(k) ? keptListedBy.get(k)
           : unanswered.has(key(f.ecosystem, f.name, f.version, '')) ? null
-          : (f.listedBy?.length ? f.listedBy.join(' ') : null));
+          : (f.listedBy?.length ? f.listedBy.join(' ') : null),
+        f.fixedFromGit?.length ? JSON.stringify(f.fixedFromGit) : null);
     }
     let carried = 0;
     for (const r of kept) carried += keep.run(...columns.split(', ').map(c => r[c])).changes;
+    saveBackported(db, appId, version, backported, nvdUnavailable);
     return findings.length + carried;
   })();
 }
 
+const BACKPORTED_COLUMNS = 'app_id, version, ecosystem, name, dep_version, vuln_id, aliases, severity, summary, listed_by, repo, commit_sha, tag';
+
+function saveBackported(db, appId, version, backported, nvdUnavailable) {
+  const values = BACKPORTED_COLUMNS.split(', ').map(() => '?').join(', ');
+  const stored = db.prepare(`SELECT ${BACKPORTED_COLUMNS} FROM app_backported_advisories WHERE app_id = ? AND version = ? AND ecosystem = ? AND name = ? AND dep_version = ?`);
+  const kept = nvdUnavailable.flatMap(p => stored.all(appId, version, p.ecosystem, p.name, p.version));
+  db.prepare('DELETE FROM app_backported_advisories WHERE app_id = ? AND version = ?').run(appId, version);
+  const insert = db.prepare(`INSERT OR REPLACE INTO app_backported_advisories (${BACKPORTED_COLUMNS}) VALUES (${values})`);
+  for (const b of backported) {
+    insert.run(appId, version, b.ecosystem, b.name, b.version, b.id, (b.aliases || []).join(' '), b.severity, b.summary || '',
+      b.listedBy?.length ? b.listedBy.join(' ') : null, b.repo, b.commit, b.tag);
+  }
+  const keep = db.prepare(`INSERT OR IGNORE INTO app_backported_advisories (${BACKPORTED_COLUMNS}) VALUES (${values})`);
+  for (const r of kept) keep.run(...BACKPORTED_COLUMNS.split(', ').map(c => r[c]));
+}
+
+/** The advisories left out of (appId, version) because its shipped tag has the fix (saveVulnerabilities). */
+export function getBackportedAdvisories(db, appId, version) {
+  return db.prepare(`
+    SELECT ecosystem, name, dep_version, vuln_id, aliases, severity, summary, listed_by, repo, commit_sha, tag
+    FROM app_backported_advisories WHERE app_id = ? AND version = ?
+    ORDER BY ecosystem, name, dep_version, vuln_id
+  `).all(appId, version);
+}
+
 export function getVulnerabilities(db, appId, version) {
   return db.prepare(`
-    SELECT ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants, affected, listed_by
+    SELECT ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants, affected, listed_by, fixed_git
     FROM app_vulnerabilities WHERE app_id = ? AND version = ?
     ORDER BY CASE severity WHEN 'malicious' THEN 0 WHEN 'critical' THEN 1 WHEN 'high' THEN 2
       WHEN 'moderate' THEN 3 WHEN 'low' THEN 4 ELSE 5 END, ecosystem, name, vuln_id

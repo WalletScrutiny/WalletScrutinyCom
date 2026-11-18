@@ -4,9 +4,10 @@
 // inside an analysis, so a wallet that stops releasing kept the advisories of
 // the day it was analysed. Every pass looks the stored dependencies of each
 // release up again (Leo, 2026-10-26: a product without code changes still
-// gets new vulnerabilities in its dependencies). Nothing is cloned and
-// nothing runs: one batched OSV.dev query per release.
-import { getDependencies, getVulnerabilities, saveVulnerabilities, dependantsOfRow } from './ddbbUtils.mjs';
+// gets new vulnerabilities in its dependencies). Nothing of the wallet is
+// cloned and nothing runs: one batched OSV.dev query per release, and for
+// native libraries NVD and the upstream repository's tags (upstreamGit.mjs).
+import { getDependencies, getVulnerabilities, getBackportedAdvisories, saveVulnerabilities, dependantsOfRow } from './ddbbUtils.mjs';
 import { checkVulnerabilities } from './plugins/osv.mjs';
 import { recordMalwareAlerts, deliverAlerts } from './alerts.mjs';
 
@@ -72,6 +73,9 @@ export async function recheckStoredReleases(db, appIds, { since = null, check = 
     }
     failedInARow = 0;
     const stored = getVulnerabilities(db, appId, version);
+    // the advisories left out for a backported fix are on the page too
+    const snapshot = () => JSON.stringify([getVulnerabilities(db, appId, version), getBackportedAdvisories(db, appId, version)]);
+    const storedSnapshot = snapshot();
     const before = new Set(stored.map(v => `${v.ecosystem}\u0000${v.name}\u0000${v.dep_version}\u0000${v.vuln_id}`));
     const fresh = result.findings.filter(f => !before.has(`${f.ecosystem}\u0000${f.name}\u0000${f.version}\u0000${f.id}`));
     saveVulnerabilities(db, appId, version, result);
@@ -80,7 +84,7 @@ export async function recheckStoredReleases(db, appIds, { since = null, check = 
     if (result.skipped?.['nvd-unavailable']) skipped['nvd-unavailable'] = result.skipped['nvd-unavailable'];
     else delete skipped['nvd-unavailable'];
     updateCount.run(getVulnerabilities(db, appId, version).length, result.checked, JSON.stringify(skipped), appId, version);
-    if (JSON.stringify(getVulnerabilities(db, appId, version)) !== JSON.stringify(stored)) changed.add(appId);
+    if (snapshot() !== storedSnapshot) changed.add(appId);
     recordMalwareAlerts(db, appId, version, result.findings);
     if (fresh.length) console.log(`  ${appId} ${version}: ${fresh.length} new advisories (${fresh.map(f => f.id).join(', ')})`);
     releases++;

@@ -192,6 +192,57 @@ export function listedByLine(a) {
   return el('div', { className: 'dp-listed-by', title: LISTED_BY_TIP }, 'Listed by ', ...parts);
 }
 
+// A commit's and a tag's page in an upstream repository (plugins/osv.mjs
+// NATIVE_UPSTREAM), or null for a host with no page we know the shape of.
+export function upstreamUrl(repo, { commit = null, tag = null } = {}) {
+  const r = String(repo || '').replace(/\.git$/, '').replace(/\/+$/, '');
+  if (/^https:\/\/github\.com\/[^/]+\/[^/]+$/.test(r)) return commit ? `${r}/commit/${commit}` : `${r}/releases/tag/${encodeURIComponent(tag)}`;
+  const savannah = r.match(/^https:\/\/git\.savannah\.gnu\.org\/git\/([^/]+)$/);
+  if (savannah) return `https://git.savannah.gnu.org/cgit/${savannah[1]}.git/${commit ? `commit/?id=${commit}` : `tag/?h=${encodeURIComponent(tag)}`}`;
+  return null;
+}
+
+const outLink = (label, url, className = null) => (url ? el('a', { href: url, target: '_blank', rel: 'noopener noreferrer', ...(className ? { className } : {}) }, label) : label);
+const commitLink = (repo, commit) => outLink(String(commit).slice(0, 10), upstreamUrl(repo, { commit }), 'dp-commit');
+const tagLink = (repo, tag, label = tag) => outLink(label, upstreamUrl(repo, { tag }));
+
+// "Fixed in 3.11.17", "git a1b2c3d4e5" under the version: the first release on
+// the shipped line whose upstream tag has the fixing commit, which NVD's
+// "< 3.13.13" does not say (issue 1016). Nothing when git added no version.
+export function gitFixLine(a) {
+  const g = Array.isArray(a.fixedFromGit) ? a.fixedFromGit[0] : null;
+  if (!g?.version) return null;
+  const others = (a.fixed || []).filter(v => v !== g.version);
+  const title = `Read from the upstream git repository: the fixing commit ${g.commit} is in its tag ${g.tag}, the first release on this line with the fix.` +
+    (others.length ? ` The databases name ${others.join(', ')}.` : '');
+  // two lines, so the version column stays as narrow as "Already fixed in master"
+  return el('div', { className: 'dp-git-fix', title }, el('div', {}, 'Fixed in ', tagLink(g.repo, g.tag, g.version)), el('div', {}, 'git ', commitLink(g.repo, g.commit)));
+}
+
+// Under the advisories: each advisory left out because the release's own
+// upstream tag already has the fixing commit, with that commit and tag, so
+// the page says what was removed and why instead of only fewer rows (issue 1016).
+export function backportedNote(model) {
+  const rows = model.backported || [];
+  if (!rows.length) return null;
+  const items = rows.map(b => {
+    const cve = [b.id, ...(b.aliases || [])].find(id => /^CVE-/.test(id));
+    const osv = `${OSV_URL}${encodeURIComponent(b.id)}`;
+    const nvd = cve ? `${NVD_URL}${encodeURIComponent(cve)}` : null;
+    const listedBy = (b.listedBy || []).map(l => (l === 'nvd' ? outLink('NVD', nvd) : outLink('OSV.dev', osv)));
+    return el('li', {},
+      el('b', {}, `${b.package} ${b.version}`), ': ', outLink(b.id, osv),
+      cve && cve !== b.id ? [' (', outLink(cve, nvd), ')'] : null,
+      listedBy.length ? [', listed by ', listedBy.flatMap((x, i) => (i ? [' and ', x] : [x]))] : (cve === b.id ? [' (', outLink('NVD', nvd), ')'] : null),
+      '; fix ', commitLink(b.repo, b.commit), ' is in ', tagLink(b.repo, b.tag));
+  });
+  return el('div', { className: 'dp-backported' },
+    el('p', {}, el('b', {}, `${rows.length === 1 ? '1 advisory' : `${rows.length} advisories`} left out: the fix is already in this release. `),
+      'A database lists ', rows.length === 1 ? 'it' : 'them', ' for this version, but the commit that fixes ', rows.length === 1 ? 'it' : 'each',
+      ' is in the release\'s own tag of the upstream repository, a fix backported to this release line.'),
+    el('ul', {}, items));
+}
+
 // "github.com/o/r" under the package name: where the source lives, or nothing
 // when the registry names no repository (never a guess).
 export function repoLine(a) {
@@ -413,7 +464,7 @@ function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = nul
   const fresh = Boolean(freshId) && statementsOf(a).some(s => s.id === freshId);
   return el('tr', { className: fresh ? 'dp-row--fresh' : null, dataset: { advisory: a.id, package: a.package } },
     el('td', { className: 'dp-td-package', dataset: { label: 'Package' } }, ...breakableName(a.package), mixedEcosystems && a.ecosystem ? el('span', { className: 'dp-eco' }, a.ecosystem) : null, repoLine(a), viaLine(a)),
-    el('td', { className: 'dp-td-version', dataset: { label: 'Version' } }, a.version, fixedInMasterLine(a, defaultBranch)),
+    el('td', { className: 'dp-td-version', dataset: { label: 'Version' } }, a.version, gitFixLine(a), fixedInMasterLine(a, defaultBranch)),
     el('td', { className: 'dp-td-advisory', dataset: { label: 'Advisory' } }, el('a', { href: `${OSV_URL}${encodeURIComponent(a.id)}`, target: '_blank', rel: 'noopener noreferrer', title: a.summary || '' }, a.id), listedByLine(a)),
     el('td', { className: 'dp-td-severity', dataset: { label: 'Severity' } }, severityCell(a)),
     showWhere ? el('td', { className: 'dp-td-where', dataset: { label: 'Where?' } }, el('span', { className: `dp-where dp-where--${where}`, title: where === 'unknown' ? WHERE_UNKNOWN_TIP : null }, whereLabel(a)), inApkLine(a)) : null,
@@ -812,6 +863,14 @@ function advisoryTable(model, { onJudge = null, freshId = null, showAll = false,
   return wrap;
 }
 
+// The table, and under it the advisories left out for a backported fix.
+function advisoriesBlock(model, options) {
+  const table = advisoryTable(model, options);
+  const note = backportedNote(model);
+  if (!note) return table;
+  return el('div', {}, table || el('p', { className: 'dpt-intro' }, 'No published advisories found for this release.'), note);
+}
+
 // No advisory row says where its package ends up. The released-APK line
 // also lives in that column, so a row with one keeps the column.
 function allWhereUnknown(model) {
@@ -1077,7 +1136,7 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
       : malwareFreeTile(model.malware),
   );
   const rest = [
-    treeTabs(model, advisoryTable(model, { onJudge, freshId, showAll, usedByOptions: { base, fetchImpl, appIds: [...(model.appIds || []), appId] } }), { appId, base, fetchImpl, label: `${wallet} ${model.ref}` }),
+    treeTabs(model, advisoriesBlock(model, { onJudge, freshId, showAll, usedByOptions: { base, fetchImpl, appIds: [...(model.appIds || []), appId] } }), { appId, base, fetchImpl, label: `${wallet} ${model.ref}` }),
     model.advisories.length ? trustedLine(trusted) : null,
     submodulesSection(model, { appId, base, fetchImpl }),
     howToRead(model),
