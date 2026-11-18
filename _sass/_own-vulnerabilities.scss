@@ -119,3 +119,33 @@ body.dark .ov-box {
   font-size: $font-xs;
   color: var(--neutral-3);
 }
+
+// The "This wallet" box in the Dependencies panel (ownAdvisoriesBox)
+.ov-panel-box {
+  border: 1px solid var(--danger, #c0392b);
+  border-radius: 10px;
+  padding: 10px 14px;
+  min-width: 0;
+  overflow-x: auto;
+}
+
+.ov-panel-box__head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px 12px;
+  margin-bottom: 8px;
+}
+
+.ov-panel-box__tag {
+  font-size: $font-xxs;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 999px;
+  padding: 2px 10px;
+  white-space: nowrap;
+}
