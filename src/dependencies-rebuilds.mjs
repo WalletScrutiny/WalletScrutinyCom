@@ -163,7 +163,7 @@ export function rebuildsElement(data, dependencies = []) {
   paint();
   return el('div', { className: 'dp-rb-pane' },
     el('p', { className: 'dpt-intro' },
-      'Who has rebuilt each dependency from source and got the same file the registry serves. These are other projects\' claims, not our checks, and not part of any verdict.'),
+      'Who has rebuilt each dependency from source and got the same file the registry serves. Some of these results are other projects\' claims rather than our own checks, and none of them affect any verdict.'),
     el('div', { className: 'dpt-controls' }, el('span', { className: 'dp-history__tabs dp-rb-filters', role: 'group', 'aria-label': 'Show' }, buttons)),
     status,
     el('table', { className: 'dp-table dp-rb-table' },
