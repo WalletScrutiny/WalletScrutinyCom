@@ -10,6 +10,7 @@
 //   apps/<appId>/<ref>/dependencies.json  the full resolved dependency list of one release, each row with how many products ship the package
 //   apps/<appId>/<ref>/submodules.json    the release's git submodules, when it has any
 //   apps/<appId>/<ref>/rebuilds.json      who rebuilt which of the release's dependencies from source (ours and imported claims), when anyone did
+//   used-by.json                        for each package with an advisory, which apps ship it at which versions (exportAll only)
 //
 // Each file carries only what a reader uses (the wallet page's Dependencies
 // panel, signals.mjs, apk-contents-cli.mjs --deps); the database keeps the rest.
@@ -426,6 +427,32 @@ export function productCounts(db) {
   return { byName, byVersion };
 }
 
+// The products behind those counts, for the panel's "Used by" list: for each
+// package with an advisory in the export, the app ids that ship it and their
+// versions, { schema, packages: { 'npm:lib': { appId: ['1.0.0'] } } }. One
+// shared file, fetched when a reader opens the list, rather than a list on
+// every advisory of every release.
+export function usedByPackages(db, apps) {
+  const keys = new Map();
+  for (const app of apps) for (const r of app.releases) for (const a of r.advisories || []) {
+    keys.set(`${a.ecosystem}:${a.package}`, [a.ecosystem, a.package]);
+  }
+  const shipping = db.prepare(`
+    SELECT d.app_id, p.version
+    FROM app_dependencies d JOIN packages p ON p.id = d.package_id
+    WHERE p.ecosystem = ? AND p.name = ? AND d.version != ?
+    GROUP BY d.app_id, p.version
+    ORDER BY d.app_id, p.version
+  `);
+  const packages = {};
+  for (const [key, [ecosystem, name]] of [...keys].sort(([a], [b]) => a.localeCompare(b))) {
+    const byApp = {};
+    for (const r of shipping.all(ecosystem, name, DEFAULT_BRANCH_REF)) (byApp[r.app_id] ||= []).push(r.version);
+    packages[key] = byApp;
+  }
+  return { schema: SCHEMA, packages };
+}
+
 
 // The upstream triage hints (upstreamTriage.mjs, hintsByApp): one file per
 // wallet, upstream/<appId>.json, `{ schema, appId, advisories: { id: [entry] } }`.
@@ -470,9 +497,11 @@ export function exportAll(db, outDir, { onlyReproducible = false } = {}) {
   // Alias stubs wait for the loop: an alias in scope may still write nothing
   // of its own (its reproduced refs sit under the other id, Passport Batch 2).
   const stubs = new Map();
+  const apps = [];
   for (const appId of [...appIds].sort()) {
     const app = writeAppFiles(db, tmp, appId, aliases.get(appId) || [], counts, sources, null, { rebuilds, onlyReproducible, stubs });
     if (!app) continue;
+    apps.push(app);
     releases += app.releases.length;
     index.apps.push(indexEntry(app));
     const files = unlistedFiles(app.releases.flatMap(r => r.dependencies?.lockfiles || []), appId);
@@ -482,6 +511,7 @@ export function exportAll(db, outDir, { onlyReproducible = false } = {}) {
   for (const [alias, appId] of stubs) {
     if (!written.has(alias)) fs.writeFileSync(path.join(tmp, 'apps', `${safeName(alias)}.json`), JSON.stringify({ schema: SCHEMA, appId, alias: true }));
   }
+  fs.writeFileSync(path.join(tmp, 'used-by.json'), JSON.stringify(usedByPackages(db, apps)));
   writeUpstreamHints(db, tmp);
   // The APK checks (apk-contents-cli.mjs --export) are written next to the
   // export from outside the database; a new export keeps them.
@@ -524,8 +554,14 @@ export function exportApp(db, outDir, appId, { onlyReproducible = false, counts 
   if (!app) return { exported: false };
   index.apps = [...index.apps.filter(a => a.appId !== appId), indexEntry(app)].sort((a, b) => a.appId.localeCompare(b.appId));
   writeAtomic(indexFile, JSON.stringify(index));
+  // Same aliases writeAppFiles just wrote a stub for. A sibling listing with
+  // no reproduced release gets no file (onlyReproducible); listing it here
+  // makes rsync fail the whole upload (code 23, link_stat).
+  const reproducedIds = onlyReproducible
+    ? new Set(app.releases.flatMap(r => (r.reproducedFor || []).map(l => l.appId)))
+    : null;
   const files = ['index.json', `apps/${safeName(appId)}.json`, `apps/${safeName(appId)}/`,
-    ...app.aliases.filter(a => a.appId !== appId && !exported.has(a.appId)).map(a => `apps/${safeName(a.appId)}.json`)];
+    ...app.aliases.filter(a => a.appId !== appId && !exported.has(a.appId) && (!reproducedIds || reproducedIds.has(a.appId))).map(a => `apps/${safeName(a.appId)}.json`)];
   return { exported: true, releases: app.releases.length, files };
 }
 

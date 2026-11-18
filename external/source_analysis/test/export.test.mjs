@@ -130,6 +130,8 @@ test('exportAll writes index, app files and dependency lists, atomically replaci
   assert.equal(deps.dependencies[0].scope, 'app');
   assert.deepEqual(deps.dependencies.map(d => [d.products, d.productsSameVersion]), [[2, 2], [1, 1]]);
   assert.ok(!fs.existsSync(path.join(dir, 'packages')));
+  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'used-by.json'), 'utf8')),
+    { schema: 1, packages: { 'npm:a': { 'app.android': ['1.0.0', '1.0.1'], 'app.other': ['1.0.1'] } } }, 'only packages with an advisory');
 });
 
 test('exportApp updates one app in place, leaving the rest of the export as it was', () => {
@@ -191,6 +193,22 @@ test('onlyReproducible: only reproduced releases, each naming the listings it wa
   assert.ok(!fs.existsSync(path.join(dir, 'apps', 'app.ios.json')), 'no stub for a listing nobody reproduced');
   // without the option every release, as before
   assert.equal(buildApp(db, 'app.android', [{ appId: 'app.android' }, { appId: 'app.ios' }]).releases.length, 2);
+});
+
+test('exportApp onlyReproducible does not publish a stub for a listing nobody reproduced', () => {
+  const db = seeded();
+  saveAppList(db, [
+    { appId: 'app.android', platform: 'android', repository: 'https://github.com/org/app' },
+    { appId: 'app.ios', platform: 'iphone', repository: 'https://github.com/org/app' },
+    { appId: 'app.hw', platform: 'hardware', repository: 'https://github.com/org/app' },
+  ]);
+  saveReproducibleVersions(db, new Map([['app.android', [{ version: '1.1.0', verifiedAt: 2, platform: 'Android (arm64-v8a)' }]]]));
+  saveVerifiedRef(db, 'app.android', 'v1.1.0', '1.1.0');
+  const dir = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'sa-export-')), 'export');
+  const result = exportApp(db, dir, 'app.android', { onlyReproducible: true });
+  assert.deepEqual(result.files, ['index.json', 'apps/app.android.json', 'apps/app.android/']);
+  assert.ok(!fs.existsSync(path.join(dir, 'apps', 'app.hw.json')));
+  assert.ok(!fs.existsSync(path.join(dir, 'apps', 'app.ios.json')));
 });
 
 test('onlyReproducible: an alias in scope with no release of its own gets the stub (Passport Batch 2)', () => {

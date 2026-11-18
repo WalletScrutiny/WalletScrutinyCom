@@ -13,9 +13,13 @@ StateDirectory=walletscrutiny-build-server
 
 LoadCredentialEncrypted=build-server-ws-bot-pk:/etc/credstore.encrypted/build-server-ws-bot-pk
 LoadCredentialEncrypted=build-server-gh-token:/etc/credstore.encrypted/build-server-gh-token
+# Regression alerts to Buzz (FEATURE_REGRESSION_ALERTS): the WalletScrutiny
+# Notification account, the same credential the source analysis units load.
+LoadCredentialEncrypted=source-analysis-alert-nsec:/etc/credstore.encrypted/source-analysis-alert-nsec
 
 Environment=WS_BOT_PK_FILE=%d/build-server-ws-bot-pk
 Environment=GITHUB_TOKEN_FILE=%d/build-server-gh-token
+Environment=ALERT_NOSTR_NSEC_FILE=%d/source-analysis-alert-nsec
 Environment=BUILD_SERVER_DB_PATH=/var/lib/walletscrutiny-build-server/verifications.db
 
 ExecStart=/usr/bin/node index.mjs

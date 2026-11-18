@@ -1,6 +1,8 @@
 ---
 layout: archive
 title: "Vulnerability news"
+title_badge: Beta
+title_badge_tooltip: "This page is new and may still have gaps"
 permalink: /news/
 author_profile: true
 ---

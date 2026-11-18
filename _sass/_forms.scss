@@ -88,6 +88,11 @@ select {
   &:hover {
     border-color: mix(#fff, $primary-color, 50%);
   }
+
+  // display above beats the UA rule for the hidden attribute
+  &[hidden] {
+    display: none;
+  }
 }
 
 .input-mini {

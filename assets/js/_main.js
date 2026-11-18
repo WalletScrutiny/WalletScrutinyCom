@@ -3,7 +3,6 @@
    ========================================================================== */
 
 import { fitVids } from './fit-vids.js';
-import { initGreedyNavigation } from './greedy-navigation.js';
 import { wsIcon } from '../../src/icon.mjs';
 
 // Icon helper for scripts that are not bundled (searchWallets.js, landingPageWalletGrid.js, ...)
@@ -15,5 +14,4 @@ document.addEventListener('DOMContentLoaded', () => {
   if (main) {
     fitVids(main);
   }
-  initGreedyNavigation();
 });
