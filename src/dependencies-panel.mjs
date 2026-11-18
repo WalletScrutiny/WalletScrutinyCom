@@ -723,7 +723,7 @@ function vulnerabilityTile(model) {
     rows.length ? el('div', { className: 'dp-tile__caveat' }, model.apk
       ? 'A match means a package version is listed as affected, not that the affected part is used.'
       : 'A match means a package version is listed as affected, not that the affected part is used. The released app itself was not checked for these packages.') : null,
-    incomplete ? el('div', { className: 'dp-tile__caveat' }, 'At least this many: part of the build was not checked (see the note above).') : null,
+    incomplete ? el('div', { className: 'dp-tile__caveat' }, 'At least this many: part of the build was not checked (see the note below).') : null,
     triageLine(model),
   ] });
 }
@@ -1013,9 +1013,6 @@ function notices(model, { triageFailed = false } = {}) {
   const coverage = coverageNotice(model);
   if (coverage) items.push(coverage);
   items.push(...buildLockNotices(model));
-  if (model.sameRepositoryAs.length) {
-    items.push(`Built from the same source repository as ${model.sameRepositoryAs.join(', ')}, which shares this analysis.`);
-  }
   if (model.unlisted?.length) {
     const names = model.unlisted.slice(0, 3).join(', ') + (model.unlisted.length > 3 ? ` and ${model.unlisted.length - 3} more` : '');
     items.push(el('span', {}, el('b', {}, 'Unchecked guess: '), `${names} may belong to another product, judging by the name. Nobody has checked, so it is still counted here.`));
@@ -1132,7 +1129,7 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
     // rebuilds before malware: the malware count is almost always 0
     rebuildTile(model.rebuilds, model.repoPackages ?? model.packages, tile),
     model.malware
-      ? tile(model.malware, 'possible malware', { tone: 'bad', sub: 'being checked by a person; see the note above' })
+      ? tile(model.malware, 'possible malware', { tone: 'bad', sub: 'being checked by a person; see the note below' })
       : malwareFreeTile(model.malware),
   );
   const rest = [
@@ -1147,9 +1144,9 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
       headline(model),
       el('span', { className: 'dp-badge' }, 'Measurement only · not part of the verdict'),
     ),
-    notices(model, { triageFailed }),
     flash ? el('p', { className: 'dp-flash', role: 'status' }, flash) : null,
     tiles,
+    notices(model, { triageFailed }),
     sortingElement(model.sorting),
     model.notInApp ? el('p', { className: 'dp-not-in-app' }, `${notInAppText(model.notInApp)} Sorted by file path from the wallet's build files; not a check of the released app.`) : null,
     // without the tiles there is nothing to fold under

@@ -418,8 +418,6 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
     newerFailed: newerFailed.map(r => ({ ref: r.ref, status: r.status, error: r.error || null })),
     releases: releases.map(r => ({ ref: r.ref, analysedAt: r.analysedAt || null, status: r.status || 'ok' })),
     history: dependencyHistory(releases, current.ref, platform),
-    // the other apps of the repository: an alias's page (com.zeusln.zeus) names the analysed one, not itself
-    sameRepositoryAs: app.aliases?.length > 1 ? app.aliases.map(a => a.appId).filter(id => id !== (appId || app.appId)) : [],
   };
 }
 

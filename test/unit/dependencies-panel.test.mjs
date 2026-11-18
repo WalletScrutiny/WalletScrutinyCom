@@ -128,8 +128,7 @@ describe('dependencies panel', () => {
     assert.equal(host.querySelector('.dp-badge').textContent, 'Measurement only · not part of the verdict');
     assert.match(host.querySelector('.dp-note').textContent, /A listed advisory is not a defect in the wallet/);
     assert.match(host.querySelector('.dp-note').textContent, /We do not rank wallets by this number/);
-    const notices = [...host.querySelectorAll('.dp-notices li')].map(e => e.textContent);
-    assert.match(notices[0], /same source repository as app\.ios, which shares this analysis/);
+    assert.doesNotMatch(host.textContent, /same source repository/, 'the shared-repository line is gone');
     assert.doesNotMatch(host.textContent, /store version/i, 'the store version is not shown');
     assert.match(host.querySelector('.dp-note').textContent, /Since v1\.3\.0: 12 packages added, 3 removed, 40 updated, and 1 changed content at the same version \(npm:left-pad\)/);
     assert.match(host.querySelector('.dp-headline').textContent, /Checked release v1\.4\.0 \(source tag, commit a1b2c3d\) · Checked on 2026-10-01/);
@@ -647,7 +646,9 @@ describe('folded details', () => {
     const node = panelElement(panelModel(APP), { ...opts, onToggle: (open) => { heard = open; } });
     const link = node.querySelector('.dp-details-link');
     const body = node.querySelector('.dp-details');
-    assert.equal(link.previousElementSibling.className, 'dp-tiles');
+    // the notes sit between the tiles and the link
+    assert.equal(link.previousElementSibling.className, 'dp-notices');
+    assert.equal(link.previousElementSibling.previousElementSibling.className, 'dp-tiles');
     assert.equal(link.textContent, 'See 13 Advisories and Dependency Tree');
     assert.equal(body.hidden, true);
     assert.ok(body.querySelector('.dp-tabs'));
