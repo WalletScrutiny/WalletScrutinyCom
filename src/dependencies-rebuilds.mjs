@@ -143,7 +143,7 @@ export function rebuildsElement(data, dependencies = []) {
     more.hidden = rows === shown;
     more.textContent = `Show ${(shown - rows).toLocaleString('en-US')} more`;
     body.replaceChildren(...list.slice(0, rows).map(({ d, row }) => el('tr', {},
-      el('td', {}, el('b', {}, d.name), d.ecosystem ? el('span', { className: 'dp-rb-eco' }, d.ecosystem) : null),
+      el('td', {}, d.name, d.ecosystem ? el('span', { className: 'dp-rb-eco' }, d.ecosystem) : null),
       el('td', { className: 'dp-rb-center' }, d.version),
       el('td', { className: 'dp-rb-center' }, shared(d)),
       el('td', {}, row ? ORDER.flatMap(by => row.claims.filter(c => c.by === by)).map(claimLine) : el('span', { className: 'dpt-note' }, 'Nobody has tried yet')),
