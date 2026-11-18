@@ -369,6 +369,8 @@ back too, and one a server lost is uploaded again.
   (space-separated). Default: `https://files.nostr.info`.
 - The key comes from `WS_BOT_NSEC_FILE` or `WS_BOT_NSEC`, never from the command
   line. Signing uses the repo's `nostr-tools`, so run `npm ci` first.
-- `--dry-run` reports what is missing, without a key and without uploading.
+- `--dry-run` reports what is missing, without a key, without uploading and
+  without touching `SHA256SUMS`.
 - Exit codes: 0 every version is on every server, 1 an upload or read-back
-  failed, 2 invalid input (no key, a sealed version changed).
+  failed (or, in a dry run, a version is missing), 2 invalid input (no key, a
+  sealed version changed).

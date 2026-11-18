@@ -18,14 +18,15 @@
 #   --server URL  Blossom server; repeat for mirrors. Default: $BLOSSOM_SERVERS
 #                 (space-separated), else https://files.nostr.info
 #   --lib-dir DIR library directory (default: scripts/rb/lib beside this script)
-#   --dry-run     check and report only: no upload, no key needed, SHA256SUMS untouched
+#   --dry-run     check and report only: no upload, no key needed, SHA256SUMS untouched;
+#                 exits 1 when a version is missing anywhere
 #
 # Key: WS_BOT_NSEC_FILE (a file holding the nsec or 64-char hex key), or
 # WS_BOT_NSEC. There is no command-line option for it, so it never shows in ps
 # or in shell history. Signing needs node and the repo's nostr-tools (npm ci).
 #
 # Exit codes: 0 every version is on every server; 1 an upload or a read-back
-# failed; 2 invalid input (bad option, no key, a sealed version changed).
+# failed, or (dry run) a version is missing; 2 invalid input (bad option, no key, a sealed version changed).
 set -euo pipefail
 
 here="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -151,7 +152,7 @@ for f in "${files[@]}"; do
     fi
     if [[ $dry_run -eq 1 ]]; then
       echo "${name} ${hash} on ${server}: missing, would upload (dry run)"
-      on_all=0
+      on_all=0; failed=1
       continue
     fi
     if ! auth="$(auth_header "$hash" "$size" "$server")"; then
@@ -173,6 +174,10 @@ for f in "${files[@]}"; do
   done
   # Seal a new version once every server has it.
   if [[ $on_all -eq 1 && -z "$(sealed_hash "$name")" ]]; then
+    if [[ $dry_run -eq 1 ]]; then
+      echo "${name}: on every server, would seal in $(basename "$sums_file") (dry run)"
+      continue
+    fi
     echo "${hash}  ${name}" >> "$sums_file"
     echo "${name}: sealed in $(basename "$sums_file"), commit that line"
   fi

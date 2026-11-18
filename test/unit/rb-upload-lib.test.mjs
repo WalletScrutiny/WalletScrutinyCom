@@ -205,16 +205,32 @@ test('no key is invalid input, and the key cannot be given on the command line',
   }
 });
 
-test('a dry run needs no key, uploads nothing and seals nothing', async () => {
+test('a dry run needs no key, uploads nothing, seals nothing, and fails on a missing version', async () => {
   const lib = 'echo core 1.0.0\n';
   const dir = libDir({ 'ws-rb-core-1.0.0.sh': lib, 'notes.txt': 'not a version' });
   const srv = await fakeBlossom();
   try {
     const r = await run(['--lib-dir', dir, '--server', srv.url, '--dry-run']);
-    assert.equal(r.status, 0, r.stderr);
+    assert.equal(r.status, 1, r.stderr);
     assert.deepEqual(srv.requests.map((q) => q.method), ['HEAD']);
     assert.match(r.stdout, /missing, would upload \(dry run\)/);
     assert.equal(sums(dir), '');
+  } finally {
+    await srv.close();
+  }
+});
+
+test('a dry run leaves SHA256SUMS alone when every server already has the version', async () => {
+  const lib = 'echo core 1.0.0\n';
+  const hash = sha256(lib);
+  const dir = libDir({ 'ws-rb-core-1.0.0.sh': lib });
+  const srv = await fakeBlossom({ blobs: { [hash]: Buffer.from(lib) } });
+  try {
+    const r = await run(['--lib-dir', dir, '--server', srv.url, '--dry-run']);
+    assert.equal(r.status, 0, r.stderr);
+    assert.deepEqual(srv.requests.map((q) => q.method), ['HEAD', 'GET']);
+    assert.match(r.stdout, /would seal in SHA256SUMS \(dry run\)/);
+    assert.equal(fs.existsSync(path.join(dir, 'SHA256SUMS')), false);
   } finally {
     await srv.close();
   }
