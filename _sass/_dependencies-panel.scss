@@ -1201,14 +1201,19 @@ a.dp-signer {
   }
 }
 
-// ecosystem tag next to the package name, only when the release mixes ecosystems
+// ecosystem badge next to the package name, only when the release mixes
+// ecosystems; same look as .dp-rb-eco on the Rebuilds tab
 .dp-eco {
   display: inline-block;
   margin-left: 6px;
+  padding: 0 6px;
+  border: 1px solid var(--neutral-5);
+  border-radius: 999px;
   font-family: system-ui, sans-serif;
   font-size: $font-xxs;
   color: var(--neutral-3);
   text-transform: lowercase;
+  vertical-align: middle;
 }
 
 .dp-note {
