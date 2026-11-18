@@ -345,32 +345,17 @@ files.nostr.info under its sha256.
   resolution found the app's own modules: it is then not in the app, and
   build tools still count. Without that, its scope stays unknown.
 
-## upload-lib: the shared library on Blossom
+## lib: the shared library
 
 The library build scripts share lives in `lib/`, one file per version:
-`ws-rb-<name>-X.Y.Z.sh`. A build script pins a version's sha256, which is also
-its address on Blossom. `upload-lib.sh` makes sure every version is there:
+`ws-rb-<name>-X.Y.Z.sh`. A build script pins the version, the commit it was
+merged in and its sha256, using the loader in `lib/ws-rb-loader.snippet.sh`.
+The loader fetches that file from GitLab by commit and rejects it unless the
+hash matches. There is no other source, and nothing to publish: a version
+can be used once it is merged.
 
-```bash
-WS_BOT_NSEC_FILE=/path/to/ws-bot-key scripts/rb/upload-lib.sh
-```
-
-For each version and each server it asks whether the server has the file
-(`HEAD /<sha256>`), uploads it when not (`PUT /upload`, signed by the WS Bot
-key), and reads it back to check the hash. A file a server already has is read
-back too, and one a server lost is uploaded again.
-
-- A published version never changes. `lib/SHA256SUMS` holds the hash of every
-  version on all servers; a file that no longer matches its line is refused,
-  and nothing is uploaded. Put the change in a new version.
-- A new version is added to `SHA256SUMS` once every server has it. Commit that
-  line together with the file.
-- Servers: `--server URL` (repeat it for a mirror) or `BLOSSOM_SERVERS`
-  (space-separated). Default: `https://files.nostr.info`.
-- The key comes from `WS_BOT_NSEC_FILE` or `WS_BOT_NSEC`, never from the command
-  line. Signing uses the repo's `nostr-tools`, so run `npm ci` first.
-- `--dry-run` reports what is missing, without a key, without uploading and
-  without touching `SHA256SUMS`.
-- Exit codes: 0 every version is on every server, 1 an upload or read-back
-  failed (or, in a dry run, a version is missing), 2 invalid input (no key, a
-  sealed version changed).
+- A merged version never changes. Put a change in a new version.
+- `WS_LIB_FILE=/path` runs offline from a local copy; the hash check still
+  applies.
+- No matching file, or a different version inside it: the run stops with no
+  verdict and no YAML, exit 2.

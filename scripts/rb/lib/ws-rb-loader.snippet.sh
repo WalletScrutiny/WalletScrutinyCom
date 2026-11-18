@@ -1,7 +1,7 @@
 # ---- WalletScrutiny library (GitLab #1023), pinned by sha256 ------------------
 # Goes in each build script right after its self-hash line, before anything else.
-# Sources, in order: WS_LIB_FILE (offline, must match), cache, GitLab by commit,
-# Blossom by hash. A wrong hash is rejected whichever source sent it.
+# Source: WS_LIB_FILE (offline, must match), else the cache, else GitLab by
+# commit. Nothing else. A wrong hash is rejected whichever source sent it.
 # No matching copy, or a different version inside: no verdict, no YAML, exit 2.
 # First, before anything can fail: no earlier verdict may survive this run. A run
 # that holds this folder's lock is still writing its own; that one stays, and the
@@ -30,11 +30,9 @@ ws_lib_load() {
     else t="$(mktemp -d 2>/dev/null)" || { echo "[FAIL] no folder to fetch $WS_LIB into: no verdict" >&2; exit 2; }; c="$t"; fi
     f="$c/$WS_LIB_SHA256.sh"
     if ! ws_lib_ok "$f"; then
-      for u in "https://gitlab.com/walletscrutiny/walletScrutinyCom/-/raw/$WS_LIB_REV/scripts/rb/lib/$WS_LIB-$WS_LIB_VERSION.sh" \
-               "https://files.nostr.info/$WS_LIB_SHA256"; do
-        curl -fsSL --max-time 60 -o "$f.$$" "$u" 2>/dev/null && ws_lib_ok "$f.$$" && mv -f "$f.$$" "$f" && break
-        rm -f "$f.$$"
-      done
+      u="https://gitlab.com/walletscrutiny/walletScrutinyCom/-/raw/$WS_LIB_REV/scripts/rb/lib/$WS_LIB-$WS_LIB_VERSION.sh"
+      curl -fsSL --max-time 60 -o "$f.$$" "$u" 2>/dev/null && ws_lib_ok "$f.$$" && mv -f "$f.$$" "$f"
+      rm -f "$f.$$"
     fi
   fi
   ws_lib_ok "$f" || { [ -z "$t" ] || rm -rf -- "$t"; echo "[FAIL] $WS_LIB $WS_LIB_VERSION ($WS_LIB_SHA256) unavailable or altered: no verdict" >&2; exit 2; }
