@@ -14,7 +14,7 @@ else
   case "$WS_LIB_P" in ''|*[!0-9]*) WS_LIB_P="";; esac
   { [ -n "$WS_LIB_P" ] && kill -0 "$WS_LIB_P" 2>/dev/null; } || rm -f -- "$WS_LIB_DIR0/COMPARISON_RESULTS.yaml"
 fi
-WS_LIB=ws-rb-core WS_LIB_VERSION=1.0.0
+WS_LIB=ws-rb-core WS_LIB_VERSION=1.1.0
 WS_LIB_REV=__COMMIT__ WS_LIB_SHA256=__SHA256__
 ws_lib_load() {
   local c f u t=""
@@ -36,8 +36,11 @@ ws_lib_load() {
     fi
   fi
   ws_lib_ok "$f" || { [ -z "$t" ] || rm -rf -- "$t"; echo "[FAIL] $WS_LIB $WS_LIB_VERSION ($WS_LIB_SHA256) unavailable or altered: no verdict" >&2; exit 2; }
+  # 1.1.0 and later mount this file into the build container (WS_LIB_PATH)
+  # and remove a temporary folder on exit; for 1.0.0 it goes now.
+  WS_LIB_PATH="$f" WS_LIB_TMP="$t"
   . "$f"
-  [ -z "$t" ] || rm -rf -- "$t"
+  [ -z "$t" ] || [ -n "${WS_LIB_MOUNT:-}" ] || rm -rf -- "$t"
   [ "${WS_LIB_LOADED_VERSION:-}" = "$WS_LIB_VERSION" ] || { echo "[FAIL] $f holds ${WS_LIB_LOADED_VERSION:-no version}, not $WS_LIB_VERSION: no verdict" >&2; exit 2; }
   echo "Library: $WS_LIB $WS_LIB_VERSION sha256: $WS_LIB_SHA256"
 }

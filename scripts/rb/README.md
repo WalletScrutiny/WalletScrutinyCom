@@ -359,3 +359,38 @@ can be used once it is merged.
   applies.
 - No matching file, or a different version inside it: the run stops with no
   verdict and no YAML, exit 2.
+
+### 1.1.0: Gradle in the build container
+
+1.1.0 is 1.0.0 plus three functions for Gradle builds. Sourcing the library
+has no side effects (no traps, engine check, files, output or network), so a
+build container sources it too, from a read-only mount:
+
+```bash
+run_args=(); ws_lib_mount run_args   # -v <library>:/ws-rb/ws-rb-core.sh:ro -e WS_LIB_SHA256=...
+cmd='set -euo pipefail
+echo "$WS_LIB_SHA256  /ws-rb/ws-rb-core.sh" | sha256sum -c --quiet - || exit 91
+. /ws-rb/ws-rb-core.sh
+ws_run_gradle /out/gradle.log clean assembleRelease'
+ws_ctr run "${run_args[@]}" ... "$IMAGE" bash -c "$cmd" || rc=$?
+```
+
+The container needs bash. The hash is checked again inside, because the
+host's cache folder is writable. On the host, after a failure:
+
+| Container exit | Meaning | Verdict |
+| --- | --- | --- |
+| 91 | the mounted library failed its hash check | no verdict |
+| 90 | `tee` could not write the Gradle log | no verdict |
+| Gradle's code | `ws_gradle_failure_kind /path/gradle.log` decides | see below |
+
+`ws_gradle_failure_kind` prints `infra: <line>` (network, disk, memory,
+SDK install; checked first), `source` (a compiler or resource diagnostic:
+Kotlin `e:`, javac `error:`, AAPT, resource linking, script compilation) or
+`unknown`. Only `source` is ftbfs; the other two are no verdict. A bare
+"Execution failed for task" is `unknown`. `ws_run_gradle` creates
+`<log>.ok` when Gradle succeeds, so "Gradle passed but no APK" is still
+the script's own check.
+
+The loader keeps the verified file for the mount: it sets `WS_LIB_PATH`,
+and a temporary copy (no cache folder) is removed on exit.
