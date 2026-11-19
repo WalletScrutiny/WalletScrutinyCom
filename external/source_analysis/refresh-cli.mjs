@@ -9,6 +9,7 @@
 import { initDatabase } from './ddbbUtils.mjs';
 import { DB_PATH, EXPORT_DIR, SCOPE } from './config.mjs';
 import { refreshAdvisories } from './refresh.mjs';
+import { refreshOwnAdvisories } from './ownAdvisories.mjs';
 import { lockPathFor, tryLock } from './runLock.mjs';
 
 const { release, holder } = tryLock(lockPathFor(DB_PATH));
@@ -18,7 +19,7 @@ if (!release) {
 }
 const db = initDatabase(DB_PATH);
 try {
-  const r = await refreshAdvisories(db, { exportDir: EXPORT_DIR, onlyReproducible: SCOPE !== 'all' });
+  const r = await refreshAdvisories(db, { exportDir: EXPORT_DIR, onlyReproducible: SCOPE !== 'all', own: refreshOwnAdvisories });
   console.log(`${r.releases} releases looked up again, ${r.failed} failed, ${r.added} new advisories; changed: ${r.changed.join(', ') || 'none'}`);
   if (r.exported.length) console.log(`Exported ${r.exported.length} apps${r.published ? ' and published them' : ''}`);
   process.exitCode = r.failed ? 1 : 0;

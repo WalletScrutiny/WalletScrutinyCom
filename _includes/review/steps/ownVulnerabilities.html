@@ -1,0 +1,29 @@
+{%- comment -%}
+  "Known vulnerabilities": advisories filed against the wallet's own code (not
+  its dependencies, see dependencies.html), for the version reviewed and for
+  other versions, from the source analysis export (issue 1022). Painted by
+  renderOwnVulnerabilities (src/own-vulnerabilities.mjs) once the
+  verifications UI bundle is loaded; hidden until the export has looked the
+  wallet up. Separate from the verdict and the score. Parameters: appId,
+  version.
+{%- endcomment -%}
+{% assign own_vulns_app_id = include.appId | default: page.appId %}
+{% if own_vulns_app_id and own_vulns_app_id != '' %}
+<div class="step own-vulnerabilities-step" hidden>
+    <i class="circle disabled">{% include icon.html name="triangle-exclamation" %}</i>
+    <div class="title">
+        <h3>Known vulnerabilities</h3>
+        <div id="own-vulnerabilities" class="own-vulnerabilities" hidden></div>
+        <script>
+          window.addEventListener('verificationsUILoaded', () => {
+            if (typeof window.renderOwnVulnerabilities !== 'function') return;
+            window.renderOwnVulnerabilities({
+              host: document.getElementById('own-vulnerabilities'),
+              appId: {{ own_vulns_app_id | jsonify }},
+              version: {{ include.version | default: page.version | jsonify }},
+            });
+          });
+        </script>
+    </div>
+</div>
+{% endif %}

@@ -28,7 +28,7 @@ import { groupByRepository } from './appList.mjs';
 import { hintsByApp } from './upstreamTriage.mjs';
 import { coverageForReaders, coverageByPlatform } from './plugins/lock-coverage.mjs';
 import { buildLockForReaders } from './plugins/build-lock.mjs';
-import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, getBackportedAdvisories, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getVerifiedRefs, getEndOfLife, getSubmodules, getRebuildClaims, getDefaultBranch, DEFAULT_BRANCH_REF } from './ddbbUtils.mjs';
+import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, getBackportedAdvisories, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getVerifiedRefs, getEndOfLife, getSubmodules, getRebuildClaims, getDefaultBranch, getOwnAdvisories, DEFAULT_BRANCH_REF } from './ddbbUtils.mjs';
 import { COUNTED_TARGETS, partOfFile, productPartOf, sortingOf, targetOfLockfile, targetsOfLockfiles, unlistedFiles, useRepositories } from './products.mjs';
 
 export const SCHEMA = 1;
@@ -337,7 +337,12 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
     }
   }
   const defaultBranch = inDefaultBranch ? getDefaultBranch(db, appId) : null;
-  return { schema: SCHEMA, appId, aliases, ...(defaultBranch ? { defaultBranch } : {}), releases };
+  // Advisories filed against the wallet itself, for every version of it
+  // (ownAdvisories.mjs, issue 1022); absent when never looked up, so the page
+  // does not read "none known" for a wallet nobody asked about.
+  const own = getOwnAdvisories(db, appId);
+  return { schema: SCHEMA, appId, aliases, ...(defaultBranch ? { defaultBranch } : {}), releases,
+    ...(own ? { ownAdvisories: { repository: own.repository, checkedAt: own.checkedAt, advisories: own.advisories } } : {}) };
 }
 
 // Whether a release's advisory is gone on the default branch's latest

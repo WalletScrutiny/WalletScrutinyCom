@@ -14,6 +14,7 @@ A Node.js application that watches GitHub releases and Docker images of the trac
 - Clones the source of each new release and analyses it in a throwaway container (for now only known vulnerabilities and the resolved dependencies run, see [Source analysis](#source-analysis)): dependency counts and pinning, known vulnerabilities, stale or little-used packages, Semgrep and js-x-ray findings, obfuscated JavaScript, out-of-band downloads and committed binaries (see [Source analysis](#source-analysis))
 - Stores the full resolved dependency set of each analysed release, so a new advisory can be matched against every release that ships the package
 - Looks up the known vulnerabilities of those dependencies on OSV.dev (npm, PyPI, Maven/gradle, crates.io) and stores them per release
+- Looks up the advisories filed against each wallet's own repository on OSV.dev, hourly with the advisory refresh (`ownAdvisories.mjs`), and exports them with the app as `ownAdvisories`
 
 ## Installation (development)
 

@@ -393,6 +393,18 @@ export function initDatabase(dbPath = DB_PATH) {
     FROM app_dependencies d WHERE d.version != '${DEFAULT_BRANCH_REF}' GROUP BY d.app_id, d.version;
   `);
 
+  // Advisories filed against the wallet's own repository (ownAdvisories.mjs,
+  // issue 1022), as the JSON list the export carries; one row per app, replaced
+  // by every lookup that answers. No row: never looked up.
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS app_own_advisories (
+      app_id TEXT PRIMARY KEY,
+      repository TEXT NOT NULL,
+      advisories TEXT NOT NULL,
+      checked_at DATETIME DEFAULT CURRENT_TIMESTAMP
+    );
+  `);
+
   // Wallets marked for a rerun (reanalyse-cli.mjs): the next pass analyses
   // each one as --reanalyse would, then removes its mark.
   db.exec(`
@@ -692,6 +704,18 @@ export function getBackportedAdvisories(db, appId, version) {
     FROM app_backported_advisories WHERE app_id = ? AND version = ?
     ORDER BY ecosystem, name, dep_version, vuln_id
   `).all(appId, version);
+}
+
+/** Store the own advisories of an app (ownAdvisories.mjs), replacing the earlier lookup's. */
+export function saveOwnAdvisories(db, appId, repository, advisories) {
+  db.prepare('INSERT OR REPLACE INTO app_own_advisories (app_id, repository, advisories, checked_at) VALUES (?, ?, ?, CURRENT_TIMESTAMP)')
+    .run(appId, repository, JSON.stringify(advisories));
+}
+
+/** { repository, advisories, checkedAt } of the app's last own-advisory lookup, or null when there was none. */
+export function getOwnAdvisories(db, appId) {
+  const row = db.prepare('SELECT repository, advisories, checked_at FROM app_own_advisories WHERE app_id = ?').get(appId);
+  return row ? { repository: row.repository, advisories: JSON.parse(row.advisories), checkedAt: row.checked_at } : null;
 }
 
 export function getVulnerabilities(db, appId, version) {
