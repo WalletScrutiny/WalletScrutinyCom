@@ -6,7 +6,7 @@ import fs from 'fs';
 import os from 'os';
 import path from 'path';
 import { reproducibleVersions, pageRelay, loadReproducible, verifiedVersionsOf, inScope, tagOfVersion, analyseVerifiedVersions } from '../reproducible.mjs';
-import { initDatabase, recordAnalysis, getAnalyses, saveAppList, saveReproducibleVersions, saveVerifiedRef, getVerifiedRefs, releasesToReanalyse } from '../ddbbUtils.mjs';
+import { initDatabase, recordAnalysis, getAnalyses, saveAppList, saveReproducibleVersions, getReproducibleVersions, saveVerifiedRef, getVerifiedRefs, releasesToReanalyse } from '../ddbbUtils.mjs';
 import { exportAll } from '../export.mjs';
 
 const tmpDb = () => initDatabase(path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'repro-')), 'assets.db'));
@@ -155,6 +155,61 @@ test('analyseVerifiedVersions: newest first, capped per pass, finished ones skip
 
   // unreadable tags: nothing analysed, nothing thrown
   assert.deepEqual(await analyseVerifiedVersions(db, { appId: 'w', repoUrl: 'x', verified, perPass: 2, analyse, listTags: async () => { throw new Error('gone'); } }), []);
+});
+
+test('analyseVerifiedVersions: a build-lock.json published after the analysis runs the release again, once', async () => {
+  const db = tmpDb();
+  const tags = new Map([['v2.0', 'a'], ['v1.0', 'b']]);
+  const verified = [{ version: '2.0', verifiedAt: 20, platform: 'android' }, { version: '1.0', verifiedAt: 10, platform: 'android' }];
+  const lock = (sha, eventId) => ({ sha256: sha.repeat(64), eventId, pubkey: 'p', appId: 'w', version: '2.0', platform: 'android' });
+  const publish = (buildLocks, misnamedLocks) => saveReproducibleVersions(db, new Map([['w', [
+    { version: '2.0', verifiedAt: 20, platform: 'android', ...(buildLocks ? { buildLocks } : {}), ...(misnamedLocks ? { misnamedLocks } : {}) },
+    { version: '1.0', verifiedAt: 10, platform: 'android' },
+  ]]]));
+  // what checkBuildLocks would store: one file per (sha256, event), the misnamed ones as given
+  const analyse = async (tag) => {
+    const v = getReproducibleVersions(db).get('w').find(x => `v${x.version}` === tag);
+    const buildLock = v.buildLocks || v.misnamedLocks
+      ? { files: (v.buildLocks || []).map(l => ({ sha256: l.sha256, eventId: l.eventId, verifier: 'listed' })), misnamed: v.misnamedLocks || [], platforms: {} }
+      : null;
+    recordAnalysis(db, { appId: 'w', kind: 'release', ref: tag, status: 'ok', analyser: 't', buildLock });
+  };
+  const run = () => analyseVerifiedVersions(db, { appId: 'w', repoUrl: 'x', verified, perPass: 5, analyse, listTags: async () => tags, analyser: 't' });
+
+  publish();
+  assert.deepEqual(await run(), ['v2.0', 'v1.0']);
+  assert.deepEqual(await run(), [], 'no build-lock.json then or now: done');
+
+  publish([lock('a', 'e1')]);
+  assert.deepEqual(await run(), ['v2.0'], 'the new file is read: only its release runs again');
+  assert.equal(getAnalyses(db, 'w').find(a => a.ref === 'v2.0').build_lock.files[0].eventId, 'e1');
+  assert.deepEqual(await run(), [], 'the analysis read it: not again');
+
+  publish([lock('a', 'e1'), lock('a', 'e1')]);
+  assert.deepEqual(await run(), [], 'the same file twice is the same file');
+  publish([lock('b', 'e2')]);
+  assert.deepEqual(await run(), ['v2.0'], 'a replaced file runs it again');
+  publish([lock('b', 'e2')], [{ name: 'build-lock (1).json', sha256: null, eventId: 'e3', pubkey: 'p', platform: 'android' }]);
+  assert.deepEqual(await run(), ['v2.0'], 'so does a new misnamed one, to report it');
+  assert.deepEqual(await run(), []);
+  publish();
+  assert.deepEqual(await run(), ['v2.0'], 'a deleted file runs it again, so its rows go');
+  assert.deepEqual(await run(), []);
+});
+
+test('analyseVerifiedVersions: a rerun for a build-lock.json counts against the per-pass cap', async () => {
+  const db = tmpDb();
+  const tags = new Map([['v2.0', 'a'], ['v1.0', 'b']]);
+  const verified = [{ version: '2.0', verifiedAt: 20 }, { version: '1.0', verifiedAt: 10 }];
+  recordAnalysis(db, { appId: 'w', kind: 'release', ref: 'v2.0', status: 'ok', analyser: 't' });
+  saveReproducibleVersions(db, new Map([['w', [
+    { version: '2.0', verifiedAt: 20, buildLocks: [{ sha256: 'a'.repeat(64), eventId: 'e1', pubkey: 'p' }] },
+    { version: '1.0', verifiedAt: 10 },
+  ]]]));
+  const analysed = [];
+  const run = () => analyseVerifiedVersions(db, { appId: 'w', repoUrl: 'x', verified, perPass: 1, analyse: async (tag) => { analysed.push(tag); }, listTags: async () => tags, analyser: 't' });
+  assert.deepEqual(await run(), ['v2.0']);
+  assert.deepEqual(analysed, ['v2.0'], 'v1.0, never analysed, waits for the next pass');
 });
 
 test('--reanalyse: verified versions run again without a cap, except tags already redone this pass', async () => {

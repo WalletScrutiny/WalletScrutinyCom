@@ -1,6 +1,6 @@
 // New advisories for releases that do not change.
 //
-// A release is analysed once (hasReleaseAnalysis), and OSV.dev is only asked
+// A release is analysed once (reproducible.mjs releaseDue), and OSV.dev is only asked
 // inside an analysis, so a wallet that stops releasing kept the advisories of
 // the day it was analysed. Every pass looks the stored dependencies of each
 // release up again (Leo, 2026-10-26: a product without code changes still

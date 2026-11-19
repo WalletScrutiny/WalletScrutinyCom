@@ -539,6 +539,13 @@ export function hasReleaseAnalysis(db, appId, ref) {
   return Boolean(db.prepare("SELECT 1 FROM analyses WHERE app_id = ? AND kind = 'release' AND ref = ? AND status != 'failed'").get(appId, ref));
 }
 
+// The finished (ok or unsupported) release analysis of this ref, decoded like
+// getAnalyses, or null when there is none or only a failed one.
+export function getReleaseAnalysis(db, appId, ref) {
+  const row = db.prepare("SELECT * FROM analyses WHERE app_id = ? AND kind = 'release' AND ref = ? AND status != 'failed'").get(appId, ref);
+  return row ? decodeAnalysis(row) : null;
+}
+
 // The release tags --reanalyse runs again for an app: the newest GitHub
 // release stored for it, then every release with a recorded analysis.
 export function releasesToReanalyse(db, appId) {

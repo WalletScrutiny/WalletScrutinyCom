@@ -10,8 +10,10 @@
 // src/nostr-constants.mjs): tags i (appId), version, status. Each pass reads
 // them fresh and keeps the last good set in SQLite, like the app list, so a
 // pass survives the relays being unreachable.
-import { getReproducibleVersions, saveReproducibleVersions, hasReleaseAnalysis, saveVerifiedRef, recordAnalysis } from './ddbbUtils.mjs';
+import { getReproducibleVersions, saveReproducibleVersions, getReleaseAnalysis, saveVerifiedRef, getVerifiedRefs, recordAnalysis } from './ddbbUtils.mjs';
 import { matchTag, lsRemoteTags } from './sourceIdentity.mjs';
+import { PLUGINS } from './config.mjs';
+import { buildLockRefsForTag, buildLocksChanged } from './plugins/build-lock.mjs';
 
 export const VERIFICATION_KIND = 30301;
 // src/nostr-constants.mjs eventRelayUrls; the main relay holds every verification.
@@ -227,9 +229,22 @@ export function tagOfVersion(tags, appId, version, platform = null) {
   return null;
 }
 
+// Why a verified release's tag is analysed this pass: 'new' when it has no
+// finished analysis, 'build-lock' when its verifications carry other
+// build-lock.json files than the analysis read (one published after it, as
+// most verifications with the file are), null when it is done.
+function releaseDue(db, appId, tag) {
+  const analysis = getReleaseAnalysis(db, appId, tag);
+  if (!analysis) return 'new';
+  if (!PLUGINS['build-lock']) return null;
+  const refs = buildLockRefsForTag(db, appId, tag, { getVerifiedRefs, getReproducibleVersions });
+  return buildLocksChanged(analysis.build_lock, refs) ? 'build-lock' : null;
+}
+
 /**
  * Analyse the verified versions of a wallet that have no finished analysis
- * yet, at most `perPass`, each at the tag that names it. These are the
+ * yet, or whose build-lock.json files changed since it (releaseDue), at most
+ * `perPass`, each at the tag that names it. These are the
  * versions users run, so they count more than the newest release; any host
  * works, the tags come from git. `analyse(tag)` runs one release analysis.
  * With `redo` (--reanalyse: the tags already run again this pass) finished
@@ -257,12 +272,15 @@ export async function analyseVerifiedVersions(db, { appId, repoUrl, verified, pe
     // Saved past the cap too: the export shows only releases a verified version names.
     saveVerifiedRef(db, appId, tag, v.version);
     if (done.includes(tag)) continue;
-    if (redo ? redo.includes(tag) : hasReleaseAnalysis(db, appId, tag)) continue;
+    const due = redo ? (redo.includes(tag) ? null : 'new') : releaseDue(db, appId, tag);
+    if (!due) continue;
     if (!redo && done.length >= perPass) {
       left++;
       continue;
     }
-    console.log(`  Verified version ${v.version} (reproducible): analysing tag ${tag}...`);
+    console.log(due === 'build-lock'
+      ? `  Verified version ${v.version} (reproducible): its build-lock.json changed since the analysis, analysing tag ${tag} again...`
+      : `  Verified version ${v.version} (reproducible): analysing tag ${tag}...`);
     await analyse(tag);
     done.push(tag);
   }
