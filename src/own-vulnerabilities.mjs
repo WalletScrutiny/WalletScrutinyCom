@@ -2,29 +2,26 @@
 // filed against the wallet itself, not its dependencies, for the version the
 // review covers and, below, the ones that affect other versions. Painted from
 // the source analysis export (own-vulnerabilities-model.mjs); the step stays
-// hidden while the export has no lookup for the wallet. Not part of the verdict.
+// hidden unless an advisory affects the reviewed version, so a clean wallet
+// adds nothing to the page. Not part of the verdict.
 import { el } from './html-utils.mjs';
 import { wsIcon } from './icon.mjs';
 import { loadApp, EXPORT_BASE } from './dependencies-panel.mjs';
 import { ownVulnerabilitiesModel } from './own-vulnerabilities-model.mjs';
 import { advisoryTable } from './own-vulnerabilities-view.mjs';
 
-// The step's content for a model; exported for tests.
+// The step's content for a model with hits; exported for tests.
 export function ownVulnerabilitiesElement(model) {
   const { version, hits, others } = model;
-  const head = hits.length
-    ? el('p', { className: 'ov-lead ov-lead--bad' }, el('span', { html: wsIcon('triangle-exclamation') }),
-      ` ${hits.length} published ${hits.length === 1 ? 'vulnerability affects' : 'vulnerabilities affect'} ${version}, the version reviewed here.`)
-    : el('p', { className: 'ov-lead ov-lead--ok' }, el('span', { html: wsIcon('circle-check') }),
-      version ? ` None known for ${version}, the version reviewed here.` : ' No version to check.');
   const other = others.length
-    ? el('details', { className: 'ov-others', open: !hits.length || undefined },
+    ? el('details', { className: 'ov-others' },
       el('summary', {}, `${others.length} more in other versions of the wallet`),
       advisoryTable(others))
     : null;
-  return el('div', { className: 'ov-box' + (hits.length ? ' ov-box--bad' : '') },
-    head,
-    hits.length ? advisoryTable(hits) : null,
+  return el('div', { className: 'ov-box ov-box--bad' },
+    el('p', { className: 'ov-lead ov-lead--bad' }, el('span', { html: wsIcon('triangle-exclamation') }),
+      ` ${hits.length} published ${hits.length === 1 ? 'vulnerability affects' : 'vulnerabilities affect'} ${version}, the version reviewed here.`),
+    advisoryTable(hits),
     other,
     el('p', { className: 'ov-source' },
       'Advisories filed against the wallet\'s own code, from OSV.dev by its repository. ',
@@ -41,7 +38,7 @@ export async function renderOwnVulnerabilities({ host, appId, version = null, ba
     console.warn('Known vulnerabilities: export not reachable', error);
     return null;
   }
-  if (!model) return null;
+  if (!model?.hits.length) return null;
   host.replaceChildren(ownVulnerabilitiesElement(model));
   host.hidden = false;
   const step = host.closest('.own-vulnerabilities-step');

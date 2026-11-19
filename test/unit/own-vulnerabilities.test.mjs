@@ -25,19 +25,15 @@ test('the step: hits of the reviewed version on top, the rest folded', () => {
   assert.equal(node.querySelector('details').hasAttribute('open'), false, 'folded while the reviewed version is hit');
 });
 
-test('the step: a clean version says so and opens the others', () => {
-  const node = ownVulnerabilitiesElement(ownVulnerabilitiesModel(app, '4.8.3'));
-  assert.match(node.querySelector('.ov-lead').textContent, /None known for 4\.8\.3/);
-  assert.equal(node.querySelector('details').hasAttribute('open'), true);
-});
-
-test('renderOwnVulnerabilities: the step stays hidden without a lookup in the export', async () => {
+test('renderOwnVulnerabilities: the step stays hidden without a lookup, or when the reviewed version is clean', async () => {
   document.body.innerHTML = '<div class="step own-vulnerabilities-step" hidden><div id="h" hidden></div></div>';
   const host = document.getElementById('h');
   const fetchImpl = async () => ({ ok: true, status: 200, json: async () => ({ appId: 'x', releases: [] }) });
   assert.equal(await renderOwnVulnerabilities({ host, appId: 'x', version: '1.0', base: '/x', fetchImpl }), null);
   assert.equal(document.querySelector('.own-vulnerabilities-step').hidden, true);
   const withOwn = async () => ({ ok: true, status: 200, json: async () => app });
+  assert.equal(await renderOwnVulnerabilities({ host, appId: 'x', version: '4.8.3', base: '/x', fetchImpl: withOwn }), null);
+  assert.equal(document.querySelector('.own-vulnerabilities-step').hidden, true, 'hidden although other versions are hit');
   await renderOwnVulnerabilities({ host, appId: 'x', version: '4.8.2', base: '/x', fetchImpl: withOwn });
   assert.equal(document.querySelector('.own-vulnerabilities-step').hidden, false);
 });
