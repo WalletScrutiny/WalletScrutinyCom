@@ -834,6 +834,23 @@ export function readComparisonResults(buildDirForThisVerification, architecture,
   }
 }
 
+// Scripts that write a build-lock.json leave it in the build dir. Most don't
+// yet, so a missing file is not an error, and a failed upload only costs the
+// lock, not the verification.
+export async function uploadBuildLock(buildDirForThisVerification, upload = uploadBlobToBlossomServer) {
+  const buildLockPath = findFileRecursively(buildDirForThisVerification, 'build-lock.json');
+  if (!buildLockPath) {
+    return null;
+  }
+  try {
+    const file = new File([fs.readFileSync(buildLockPath)], 'build-lock.json', { type: 'application/json' });
+    return { name: 'build-lock.json', hash: await upload(file) };
+  } catch (error) {
+    appLog.error(`Error uploading ${buildLockPath} to Blossom: ${error}`);
+    return null;
+  }
+}
+
 export async function startCompilationJob(buildDirForThisVerification, script, newWalletVersion, architecture, type, binaryFilePath = null, platform, appId = null, githubToken = null) {
   const jobInfo = `appId=${appId ?? 'n/a'} version=${newWalletVersion} platform=${platform} arch=${architecture ?? 'n/a'} type=${type ?? 'n/a'}`;
 
@@ -1036,6 +1053,8 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
     return;
   }
 
+  const buildLockFile = await uploadBuildLock(buildDirForThisVerification);
+
   let description = 'Automatic verification by WalletScrutiny Build Server';
   if (architecture) {
     description += ` ${architecture}`;
@@ -1071,7 +1090,7 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
     hashes: Array.isArray(hashes) && hashes.length > 0 ? hashes : [],
     description: description,
     content: content,
-    outputFiles: [{name: path.basename(castFileName), hash: castFileHash}],
+    outputFiles: [{name: path.basename(castFileName), hash: castFileHash}, ...(buildLockFile ? [buildLockFile] : [])],
     reusedFileIds: fileEventIdsForSHFiles,
     isDraft: false,
     // Original verification values

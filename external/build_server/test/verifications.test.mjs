@@ -6,7 +6,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { Readable } from 'node:stream';
 
-import { readComparisonResults, readCastAppHashes, processNewReleaseVerification, buildVerificationContent, downloadFileFromBlossom, downloadAssetFilesToDir, addJobToQueue, queue, startCompilationJob } from '../verifications.mjs';
+import { readComparisonResults, readCastAppHashes, processNewReleaseVerification, buildVerificationContent, downloadFileFromBlossom, downloadAssetFilesToDir, addJobToQueue, queue, startCompilationJob, uploadBuildLock } from '../verifications.mjs';
 import { initDb, closeDb, insert, findQueuedOrErroredSimilarAttempt, findErroredAttemptForBuildScript } from '../ddbbUtils.mjs';
 import { DEBUG_APP_IDS } from '../config/config.mjs';
 import { assetBundleRegistrationKind, assetRegistrationKind } from '../nostr-constants.mjs';
@@ -540,5 +540,43 @@ describe('processNewReleaseVerification', () => {
       content: '{}',
     };
     await processNewReleaseVerification(verification, '2.5.6', {}, [], null);
+  });
+});
+
+describe('uploadBuildLock', () => {
+  function writeBuildLock(buildDir) {
+    const lockDir = path.join(buildDir, 'app_verification_1.0_run1', 'build-lock');
+    fs.mkdirSync(lockDir, { recursive: true });
+    fs.writeFileSync(path.join(lockDir, 'build-lock.json'), '{"lock":1}');
+  }
+
+  test('uploads build-lock.json from the run folder and names it for outputFiles', async () => {
+    const buildDir = makeTempDir('build-lock-found');
+    writeBuildLock(buildDir);
+    let uploaded;
+    const result = await uploadBuildLock(buildDir, async (file) => {
+      uploaded = file;
+      return 'abc123';
+    });
+    assert.deepEqual(result, { name: 'build-lock.json', hash: 'abc123' });
+    assert.equal(uploaded.name, 'build-lock.json');
+    assert.equal(await uploaded.text(), '{"lock":1}');
+  });
+
+  test('returns null without uploading when the script wrote no build-lock.json', async () => {
+    const buildDir = makeTempDir('build-lock-missing');
+    const result = await uploadBuildLock(buildDir, async () => {
+      throw new Error('should not upload');
+    });
+    assert.equal(result, null);
+  });
+
+  test('returns null when the upload fails, so the verification still publishes', async () => {
+    const buildDir = makeTempDir('build-lock-upload-fails');
+    writeBuildLock(buildDir);
+    const result = await uploadBuildLock(buildDir, async () => {
+      throw new Error('blossom down');
+    });
+    assert.equal(result, null);
   });
 });
