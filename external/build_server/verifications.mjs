@@ -834,11 +834,13 @@ export function readComparisonResults(buildDirForThisVerification, architecture,
   }
 }
 
-// Scripts that write a build-lock.json leave it in the build dir. Most don't
-// yet, so a missing file is not an error, and a failed upload only costs the
-// lock, not the verification.
+// Scripts that run ws-buildlock.sh leave build-lock/build-lock.json in the build
+// dir (scripts/rb/README.md). Only that path counts: the cloned source tree can
+// hold its own file of that name. Most scripts don't write one yet, so a missing
+// file is not an error, and a failed upload only costs the lock, not the
+// verification.
 export async function uploadBuildLock(buildDirForThisVerification, upload = uploadBlobToBlossomServer) {
-  const buildLockPath = findFileRecursively(buildDirForThisVerification, 'build-lock.json');
+  const buildLockPath = findFileRecursively(buildDirForThisVerification, 'build-lock.json', 'build-lock');
   if (!buildLockPath) {
     return null;
   }

@@ -146,7 +146,7 @@ export async function uploadBlobToBlossomServer(file) {
   requireNostrPool();
 
   const hash = await calculateFileHash(file);
-  appLog.info(`Uploading cast file to Blossom: ${hash}`);
+  appLog.info(`Uploading ${file.name} to Blossom: ${hash}`);
 
   const tags = [
     ['name', file.name],
