@@ -18,8 +18,6 @@ import { treeElement } from './dependencies-tree.mjs';
 import { rebuildTile, rebuildsElement, rebuildIndex } from './dependencies-rebuilds.mjs';
 import { epssTrigger, tipTrigger, refreshTip } from './dependencies-epss-tip.mjs';
 import { showAnalysedReleases } from './build-verifications.mjs';
-import { ownAdvisoriesBox } from './own-vulnerabilities-view.mjs';
-import { ownVulnerabilitiesModel } from './own-vulnerabilities-model.mjs';
 
 // Where the export is served from: the analyser copies it to the web server
 // after each pass (external/source_analysis/publish.mjs), no site build involved.
@@ -1122,10 +1120,8 @@ function actions(model, { appId, base, fetchImpl }) {
 // is shown so the judged one stays in sight wherever it re-sorts to.
 // Below the tiles everything starts folded behind one link; `expanded` opens
 // it, `onToggle(open)` hears the reader open or close it. `triageFailed`:
-// statements.json did not load, said in the notices. `own`
-// (ownVulnerabilitiesModel for the release shown) puts the advisories filed
-// against the wallet itself above the tiles (issue 1022).
-export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE, fetchImpl = globalThis.fetch, onJudge = null, flash = null, freshId = null, showAll = false, trusted = [], expanded = false, onToggle = null, triageFailed = false, own = null } = {}) {
+// statements.json did not load, said in the notices.
+export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE, fetchImpl = globalThis.fetch, onJudge = null, flash = null, freshId = null, showAll = false, trusted = [], expanded = false, onToggle = null, triageFailed = false } = {}) {
   // No lockfile was read (a C/C++ release with only submodules, or a Flutter one): zeros here would read as clean.
   const tiles = !model.packages && (model.submodules || model.status === 'unsupported' || model.notInApp) ? null : el('div', { className: 'dp-tiles' },
     tile(model.packages, 'dependencies', { sub: `${model.direct} direct · ${model.transitive} transitive`, extra: historyChart(model.history) }),
@@ -1149,7 +1145,6 @@ export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE,
       el('span', { className: 'dp-badge' }, 'Measurement only · not part of the verdict'),
     ),
     flash ? el('p', { className: 'dp-flash', role: 'status' }, flash) : null,
-    ownAdvisoriesBox(own, wallet),
     tiles,
     notices(model, { triageFailed }),
     sortingElement(model.sorting),
@@ -1450,8 +1445,7 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
     }
     model = panelModel(app, { release: release?.ref || null, selectedVersion: release ? selected : null, triage, signals, upstream, apk, platform, appId });
     if (!model) return null;
-    const own = ownVulnerabilitiesModel(app, model.selectedVersion || model.ref);
-    host.replaceChildren(panelElement(model, { appId: analysisId, wallet: title || analysisId, base, fetchImpl, onJudge, trusted: lists.trusted, triageFailed: Boolean(published?.failed), expanded, onToggle: (open) => { expanded = open; }, own, ...extra }));
+    host.replaceChildren(panelElement(model, { appId: analysisId, wallet: title || analysisId, base, fetchImpl, onJudge, trusted: lists.trusted, triageFailed: Boolean(published?.failed), expanded, onToggle: (open) => { expanded = open; }, ...extra }));
     nameSigners(host, profiles === undefined ? defaultProfiles : profiles);
     return model;
   };
