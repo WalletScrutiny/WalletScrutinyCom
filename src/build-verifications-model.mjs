@@ -179,16 +179,35 @@ function plural(count, singular, pluralWord = `${singular}s`) {
   return `${count} ${count === 1 ? singular : pluralWord}`;
 }
 
+/**
+ * "2 verifiers", or "1 verifier ... in 5 verifications" when somebody verified more than once:
+ * the tally counts verifications, and one verifier re-running the build is not five people.
+ */
+function verifiersOf(version, groups) {
+  const matching = version.verifications.filter(v => groups.includes(statusGroup(getFirstTagValue(v, 'status'))));
+  const verifiers = new Set(matching.map(v => v.pubkey)).size;
+  return {
+    who: plural(verifiers, 'verifier'),
+    times: verifiers === matching.length ? '' : ` in ${plural(matching.length, 'verification')}`,
+  };
+}
+
 /** The big line above the rows: what the verifications of a version add up to. */
 export function headlineFor(version) {
   const t = version.tally;
   switch (version.glass) {
-    case 'crystal':
-      return `${plural(t.reproducible, 'verifier')} found it reproducible`;
-    case 'cracked':
-      return t.notReproducible > 0
-        ? `${plural(t.cracks, 'verifier')} could not reproduce it`
-        : `The build failed for ${plural(t.failedToBuild, 'verifier')}`;
+    case 'crystal': {
+      const { who, times } = verifiersOf(version, ['reproducible']);
+      return `${who} found it reproducible${times}`;
+    }
+    case 'cracked': {
+      if (t.notReproducible > 0) {
+        const { who, times } = verifiersOf(version, ['notReproducible', 'failedToBuild']);
+        return `${who} could not reproduce it${times}`;
+      }
+      const { who, times } = verifiersOf(version, ['failedToBuild']);
+      return `The build failed for ${who}${times}`;
+    }
     case 'split':
       return `${t.reproducible} reproducible, ${t.cracks} not reproducible`;
     default:
