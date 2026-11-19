@@ -426,7 +426,9 @@ ws_lib_mount() {
   [[ -n "$WS_LIB_PATH" && -f "$WS_LIB_PATH" ]] \
     || ws_no_verdict "the library file is gone (WS_LIB_PATH='${WS_LIB_PATH}'); cannot mount it into the build container"
   [[ "$WS_LIB_SHA256" =~ ^[0-9a-f]{64}$ ]] || ws_no_verdict "WS_LIB_SHA256 is not a sha256: '${WS_LIB_SHA256}'"
-  ws_lib_args+=(-v "${WS_LIB_PATH}:${WS_LIB_MOUNT}:ro" -e "WS_LIB_SHA256=${WS_LIB_SHA256}")
+  local p
+  p="$(readlink -f "$WS_LIB_PATH")"  # WS_LIB_FILE may be relative; -v needs an absolute path
+  ws_lib_args+=(-v "${p}:${WS_LIB_MOUNT}:ro" -e "WS_LIB_SHA256=${WS_LIB_SHA256}")
 }
 
 # ws_run_gradle LOG ARGS...: inside the build container. Runs gradle ARGS

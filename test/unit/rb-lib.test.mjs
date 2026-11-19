@@ -57,6 +57,10 @@ test('ws_lib_mount appends a read-only mount and the hash; a missing file is no 
   assert.deepEqual(r.stdout.trim().split('\n'),
     ['--rm', '-v', `${lib}:/ws-rb/ws-rb-core.sh:ro`, '-e', `WS_LIB_SHA256=${libSha}`]);
 
+  const rel = bash(`. "$1"; WS_LIB_PATH=./${path.basename(lib)} WS_LIB_SHA256=${libSha}
+    a=(); ws_lib_mount a; printf '%s\\n' "\${a[1]}"`, { cwd: libDir });
+  assert.equal(rel.stdout.trim(), `${lib}:/ws-rb/ws-rb-core.sh:ro`, rel.stderr);
+
   const gone = bash(`. "$1"; WS_LIB_PATH=/nonexistent WS_LIB_SHA256=${libSha}; a=(); ws_lib_mount a; echo reached`);
   assert.equal(gone.status, 1);
   assert.doesNotMatch(gone.stdout, /reached/);
