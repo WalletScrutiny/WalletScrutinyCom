@@ -256,9 +256,10 @@ messages:
 
 Like ws-depcheck, it never changes the verdict and exits 0. With `--yaml` it
 appends a `build_lock:` block (status `ok` or `empty`, the artifact count, the
-lockfiles, and the sha256 of `build-lock.json`). The ABS doesn't publish the
-file yet. Not covered: CocoaPods and SwiftPM builds, and anything a build
-downloads outside Gradle, npm, pub or cargo.
+lockfiles, and the sha256 of `build-lock.json`). The ABS publishes the file
+with its verification when the script writes it to `build-lock/build-lock.json`
+under the workspace, as above. Not covered: CocoaPods and SwiftPM builds, and
+anything a build downloads outside Gradle, npm, pub or cargo.
 
 ### The file: `build-lock.json`, schema 2
 

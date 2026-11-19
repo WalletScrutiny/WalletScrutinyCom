@@ -563,6 +563,35 @@ describe('uploadBuildLock', () => {
     assert.equal(await uploaded.text(), '{"lock":1}');
   });
 
+  test('skips a build-lock.json outside a build-lock folder, such as one in the cloned source', async () => {
+    const buildDir = makeTempDir('build-lock-in-source');
+    const srcDir = path.join(buildDir, 'app_verification_1.0_run1', 'src');
+    fs.mkdirSync(srcDir, { recursive: true });
+    fs.writeFileSync(path.join(srcDir, 'build-lock.json'), '{"source":1}');
+    writeBuildLock(buildDir);
+    let uploaded;
+    const result = await uploadBuildLock(buildDir, async (file) => {
+      uploaded = file;
+      return 'abc123';
+    });
+    assert.deepEqual(result, { name: 'build-lock.json', hash: 'abc123' });
+    assert.equal(await uploaded.text(), '{"lock":1}');
+  });
+
+  test('returns null when the only build-lock.json is outside a build-lock folder', async () => {
+    const buildDir = makeTempDir('build-lock-only-in-source');
+    const srcDir = path.join(buildDir, 'app_verification_1.0_run1', 'src');
+    fs.mkdirSync(srcDir, { recursive: true });
+    fs.writeFileSync(path.join(srcDir, 'build-lock.json'), '{"source":1}');
+    let uploads = 0;
+    const result = await uploadBuildLock(buildDir, async () => {
+      uploads += 1;
+      return 'abc123';
+    });
+    assert.equal(result, null);
+    assert.equal(uploads, 0);
+  });
+
   test('returns null without uploading when the script wrote no build-lock.json', async () => {
     const buildDir = makeTempDir('build-lock-missing');
     const result = await uploadBuildLock(buildDir, async () => {

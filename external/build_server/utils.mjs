@@ -202,13 +202,15 @@ export function groupVerificationsByAppIdAndSortByVersion(verifications) {
  * Find the first file named `fileName` anywhere under `dir`, traversing
  * subdirectories depth-first. Returns the absolute or relative path to the
  * match (depending on how `dir` was passed) or `null` if no match is found.
+ * With `parentDirName`, only a file directly inside a directory of that name
+ * matches.
  *
  * Implemented with `fs.readdirSync` instead of shelling out to `find` to avoid
  * shell-injection risk from interpolated paths and to drop a child-process per
  * call. Unreadable subdirectories are skipped, mirroring `find`'s behavior of
  * continuing past per-entry errors. Symlinks are not followed.
  */
-export function findFileRecursively(dir, fileName) {
+export function findFileRecursively(dir, fileName, parentDirName = null) {
   if (!fs.existsSync(dir)) return null;
 
   const stack = [dir];
@@ -223,7 +225,8 @@ export function findFileRecursively(dir, fileName) {
 
     for (const entry of entries) {
       const entryPath = path.join(current, entry.name);
-      if (entry.isFile() && entry.name === fileName) {
+      if (entry.isFile() && entry.name === fileName
+          && (parentDirName === null || path.basename(current) === parentDirName)) {
         return entryPath;
       }
       if (entry.isDirectory()) {
