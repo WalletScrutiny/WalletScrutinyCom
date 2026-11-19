@@ -44,12 +44,12 @@ export const buildLockDir = (db) => process.env.SOURCE_ANALYSIS_BUILD_LOCK_DIR |
  * The file with this sha256: the kept copy, else files.nostr.info. Returns
  * { text } when the bytes match, { mismatch: actual } when the server sent
  * something else (nothing of it is read or kept), { problem } when asking
- * again will not help and the release must not stay unchecked for it: the
- * server does not have it ('not-found'), refuses it (another 4xx,
- * 'unavailable'), or it is larger than MAX_BYTES ('too-large', not read
- * past the limit). Throws on a network error, 429 or 5xx: the analysis fails
- * and runs again next pass, rather than storing a result without the build's
- * rows.
+ * again this pass will not help and the release must not stay unchecked for
+ * it: the server does not have it ('not-found'), refuses it (another 4xx,
+ * 'unavailable'; both asked for again a day later, buildLockRetryDue), or it
+ * is larger than MAX_BYTES ('too-large', not read past the limit). Throws
+ * on a network error, 429 or 5xx: the analysis fails and runs again next
+ * pass, rather than storing a result without the build's rows.
  */
 export async function loadBuildLock(sha256, { dir, fetchImpl = globalThis.fetch, server = BLOSSOM_SERVER } = {}) {
   const kept = path.join(dir, `${sha256}.json`);
@@ -352,6 +352,28 @@ export function buildLocksChanged(stored, { locks = [], misnamed = [] }) {
   const misnamedKey = (r) => `${r.name} ${r.sha256} ${r.eventId}`;
   return keys(stored?.files || [], lockKey) !== keys(locks, lockKey)
     || keys(stored?.misnamed || [], misnamedKey) !== keys(misnamed, misnamedKey);
+}
+
+// Problems loadBuildLock may not hit again: the server lost or refused the
+// file that day (files.nostr.info down, a blob uploaded late).
+const RETRIED_PROBLEMS = new Set(['not-found', 'unavailable']);
+// how long a release waits before such a file is asked for again
+export const BUILD_LOCK_RETRY_MS = 24 * 60 * 60 * 1000;
+
+/**
+ * Why a release whose build-lock.json files did not change (buildLocksChanged)
+ * is due again anyway: 'newly-listed' when a file was skipped as from an
+ * unlisted verifier that is now in BUILD_LOCK_VERIFIERS, 'retry' when a file
+ * could not be downloaded ('not-found', 'unavailable') and the analysis
+ * (`analysedAt`, the analyses row's UTC DATETIME) is a day old, so a dead
+ * blob costs one run a day, not one per pass. Null otherwise.
+ */
+export function buildLockRetryDue(stored, analysedAt, { now = Date.now(), listed = BUILD_LOCK_VERIFIERS } = {}) {
+  const files = stored?.files || [];
+  if (files.some(f => f.verifier === 'unlisted' && listed.has(f.pubkey))) return 'newly-listed';
+  if (!files.some(f => f.verifier !== 'unlisted' && RETRIED_PROBLEMS.has(f.problem))) return null;
+  const at = Date.parse(`${String(analysedAt).replace(' ', 'T')}Z`);
+  return Number.isNaN(at) || now - at >= BUILD_LOCK_RETRY_MS ? 'retry' : null;
 }
 
 // Test 7d: reads the build-lock.json of a verified release and adds the

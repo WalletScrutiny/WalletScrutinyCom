@@ -212,6 +212,55 @@ test('analyseVerifiedVersions: a rerun for a build-lock.json counts against the 
   assert.deepEqual(analysed, ['v2.0'], 'v1.0, never analysed, waits for the next pass');
 });
 
+// One verified release whose build-lock.json the analysis stored as `entry`
+// (checkBuildLocks's files[0]); analyse() stores it the same way again.
+function storedBuildLockCase(entry) {
+  const db = tmpDb();
+  const tags = new Map([['v2.0', 'a']]);
+  const verified = [{ version: '2.0', verifiedAt: 20, platform: 'android' }];
+  const lock = { sha256: 'a'.repeat(64), eventId: 'e1', pubkey: entry.pubkey, appId: 'w', version: '2.0', platform: 'android' };
+  saveReproducibleVersions(db, new Map([['w', [{ version: '2.0', verifiedAt: 20, platform: 'android', buildLocks: [lock] }]]]));
+  const store = (e) => recordAnalysis(db, { appId: 'w', kind: 'release', ref: 'v2.0', status: 'ok', analyser: 't',
+    buildLock: { files: [{ sha256: lock.sha256, eventId: 'e1', ...e }], misnamed: [], platforms: {} } });
+  store(entry);
+  return { db, store, run: (analyse, now) => analyseVerifiedVersions(db, { appId: 'w', repoUrl: 'x', verified, perPass: 5, analyse, listTags: async () => tags, analyser: 't', now }) };
+}
+
+const DAY = 24 * 60 * 60 * 1000;
+
+test('analyseVerifiedVersions: a build-lock.json that could not be downloaded is asked for again, once a day', async () => {
+  for (const problem of ['not-found', 'unavailable']) {
+    const listed = '168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f47373fdcce2b9cd335';
+    const { db, store, run } = storedBuildLockCase({ pubkey: listed, verifier: 'listed', problem });
+    const stillMissing = async () => store({ pubkey: listed, verifier: 'listed', problem });
+    // the row is stamped with the real clock, so a day passes by moving it back
+    const dayPasses = () => db.prepare("UPDATE analyses SET analysed_at = datetime(analysed_at, '-25 hours'), failed_attempt_at = datetime(failed_attempt_at, '-25 hours')").run();
+    assert.deepEqual(await run(stillMissing), [], `${problem}: not again the same day`);
+    dayPasses();
+    assert.deepEqual(await run(stillMissing), ['v2.0'], `${problem}: a day later it is asked for again`);
+    assert.deepEqual(await run(stillMissing), [], `${problem}: still missing, so the next day again, not the next pass`);
+    // a failed rerun keeps the ok row; its attempt still counts as the day's try
+    dayPasses();
+    const failed = async () => recordAnalysis(db, { appId: 'w', kind: 'release', ref: 'v2.0', status: 'failed', error: 'HTTP 503', analyser: 't' });
+    assert.deepEqual(await run(failed), ['v2.0']);
+    assert.deepEqual(await run(failed), [], `${problem}: a failed retry waits a day too`);
+  }
+  // a file that was read, or one that can never be read, is done
+  for (const entry of [{ verifier: 'listed', match: 'ok', modules: 3 }, { verifier: 'listed', problem: 'too-large' }, { verifier: 'listed', problem: 'not-a-build-lock' }]) {
+    const { run } = storedBuildLockCase({ pubkey: 'p', ...entry });
+    assert.deepEqual(await run(async () => {}, Date.now() + DAY + 60_000), [], JSON.stringify(entry));
+  }
+});
+
+test('analyseVerifiedVersions: a build-lock.json skipped as unlisted runs again once its verifier is on the list', async () => {
+  const nowListed = '54790a499115f63e32536aadab43f62c0cf3922cd1653b3a74846fe2f6573f5d';
+  const { store, run } = storedBuildLockCase({ pubkey: nowListed, verifier: 'unlisted' });
+  assert.deepEqual(await run(async () => store({ pubkey: nowListed, verifier: 'listed', match: 'ok', modules: 3 })), ['v2.0']);
+  assert.deepEqual(await run(async () => {}), [], 'read now: done');
+  const stillUnlisted = storedBuildLockCase({ pubkey: 'p', verifier: 'unlisted' });
+  assert.deepEqual(await stillUnlisted.run(async () => {}, Date.now() + DAY + 60_000), [], 'an unlisted verifier stays skipped');
+});
+
 test('--reanalyse: verified versions run again without a cap, except tags already redone this pass', async () => {
   const db = tmpDb();
   const tags = new Map([['v3.0', 'a'], ['v2.0', 'b'], ['v1.0', 'c']]);

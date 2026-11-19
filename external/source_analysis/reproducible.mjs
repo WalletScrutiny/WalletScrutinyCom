@@ -13,7 +13,7 @@
 import { getReproducibleVersions, saveReproducibleVersions, getReleaseAnalysis, saveVerifiedRef, getVerifiedRefs, recordAnalysis } from './ddbbUtils.mjs';
 import { matchTag, lsRemoteTags } from './sourceIdentity.mjs';
 import { PLUGINS } from './config.mjs';
-import { buildLockRefsForTag, buildLocksChanged } from './plugins/build-lock.mjs';
+import { buildLockRefsForTag, buildLocksChanged, buildLockRetryDue } from './plugins/build-lock.mjs';
 
 export const VERIFICATION_KIND = 30301;
 // src/nostr-constants.mjs eventRelayUrls; the main relay holds every verification.
@@ -232,25 +232,38 @@ export function tagOfVersion(tags, appId, version, platform = null) {
 // Why a verified release's tag is analysed this pass: 'new' when it has no
 // finished analysis, 'build-lock' when its verifications carry other
 // build-lock.json files than the analysis read (one published after it, as
-// most verifications with the file are), null when it is done.
-function releaseDue(db, appId, tag) {
+// most verifications with the file are), 'retry' or 'newly-listed' when a
+// file it could not use may be usable now (buildLockRetryDue), null when it
+// is done.
+function releaseDue(db, appId, tag, now) {
   const analysis = getReleaseAnalysis(db, appId, tag);
   if (!analysis) return 'new';
   if (!PLUGINS['build-lock']) return null;
   const refs = buildLockRefsForTag(db, appId, tag, { getVerifiedRefs, getReproducibleVersions });
-  return buildLocksChanged(analysis.build_lock, refs) ? 'build-lock' : null;
+  if (buildLocksChanged(analysis.build_lock, refs)) return 'build-lock';
+  // a failed rerun (files.nostr.info answering 5xx) keeps the ok row, so its
+  // attempt counts too, or an outage would rerun the release every pass
+  const lastTry = [analysis.analysed_at, analysis.failed_attempt_at].filter(Boolean).sort().pop();
+  return buildLockRetryDue(analysis.build_lock, lastTry, { now });
 }
+
+const DUE_REASONS = {
+  'build-lock': 'its build-lock.json changed since the analysis',
+  retry: 'a build-lock.json it could not download a day ago is asked for again',
+  'newly-listed': 'a build-lock.json skipped as from an unlisted verifier is now on the list',
+};
 
 /**
  * Analyse the verified versions of a wallet that have no finished analysis
- * yet, or whose build-lock.json files changed since it (releaseDue), at most
+ * yet, or whose build-lock.json files changed since it or may be readable
+ * now (releaseDue), at most
  * `perPass`, each at the tag that names it. These are the
  * versions users run, so they count more than the newest release; any host
  * works, the tags come from git. `analyse(tag)` runs one release analysis.
  * With `redo` (--reanalyse: the tags already run again this pass) finished
  * analyses run again too and there is no cap. Returns the tags analysed.
  */
-export async function analyseVerifiedVersions(db, { appId, repoUrl, verified, perPass, analyse, listTags = lsRemoteTags, analyser = null, redo = null }) {
+export async function analyseVerifiedVersions(db, { appId, repoUrl, verified, perPass, analyse, listTags = lsRemoteTags, analyser = null, redo = null, now = Date.now() }) {
   if (!verified.length || (!perPass && !redo)) return [];
   let tags;
   try {
@@ -272,14 +285,14 @@ export async function analyseVerifiedVersions(db, { appId, repoUrl, verified, pe
     // Saved past the cap too: the export shows only releases a verified version names.
     saveVerifiedRef(db, appId, tag, v.version);
     if (done.includes(tag)) continue;
-    const due = redo ? (redo.includes(tag) ? null : 'new') : releaseDue(db, appId, tag);
+    const due = redo ? (redo.includes(tag) ? null : 'new') : releaseDue(db, appId, tag, now);
     if (!due) continue;
     if (!redo && done.length >= perPass) {
       left++;
       continue;
     }
-    console.log(due === 'build-lock'
-      ? `  Verified version ${v.version} (reproducible): its build-lock.json changed since the analysis, analysing tag ${tag} again...`
+    console.log(DUE_REASONS[due]
+      ? `  Verified version ${v.version} (reproducible): ${DUE_REASONS[due]}, analysing tag ${tag} again...`
       : `  Verified version ${v.version} (reproducible): analysing tag ${tag}...`);
     await analyse(tag);
     done.push(tag);
