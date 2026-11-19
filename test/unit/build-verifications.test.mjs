@@ -140,6 +140,11 @@ describe('words', () => {
     assert.equal(headlineFor(version([verification(), verification({ pubkey: BOB, id: 'b' })])), '2 verifiers found it reproducible');
     assert.equal(headlineFor(version([verification({ status: 'not_reproducible' })])), '1 verifier could not reproduce it');
     assert.equal(headlineFor(version([verification({ status: 'ftbfs' })])), 'The build failed for 1 verifier');
+    const again = (status, n, pubkey = ALICE) => Array.from({ length: n }, (_, i) => verification({ id: `${pubkey[0]}${status}${i}`, pubkey, status }));
+    assert.equal(headlineFor(version(again('reproducible', 5))), '1 verifier found it reproducible in 5 verifications');
+    assert.equal(headlineFor(version([...again('reproducible', 2), ...again('reproducible', 1, BOB)])), '2 verifiers found it reproducible in 3 verifications');
+    assert.equal(headlineFor(version([...again('not_reproducible', 2), ...again('ftbfs', 1)])), '1 verifier could not reproduce it in 3 verifications');
+    assert.equal(headlineFor(version(again('ftbfs', 2))), 'The build failed for 1 verifier in 2 verifications');
     assert.equal(headlineFor(version([verification(), verification({ pubkey: BOB, id: 'b', status: 'ftbfs' })])), '1 reproducible, 1 not reproducible');
     assert.equal(headlineFor(version([])), 'Nobody has tested this build yet');
     assert.equal(headlineFor(version([verification({ status: 'nosource' })])), 'Source not found');
