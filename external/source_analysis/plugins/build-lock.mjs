@@ -340,6 +340,20 @@ export function buildLockRefsForTag(db, appId, tag, { getVerifiedRefs, getReprod
   return out;
 }
 
+/**
+ * Whether the build-lock.json files a release's verifications carry now
+ * (buildLockRefsForTag) differ from the ones its analysis read (`stored`,
+ * the analyses row's build_lock, null when it read none): a verification
+ * with the file was published, replaced or deleted after the analysis.
+ */
+export function buildLocksChanged(stored, { locks = [], misnamed = [] }) {
+  const keys = (list, key) => [...new Set(list.map(key))].sort().join('\n');
+  const lockKey = (r) => `${r.sha256} ${r.eventId}`;
+  const misnamedKey = (r) => `${r.name} ${r.sha256} ${r.eventId}`;
+  return keys(stored?.files || [], lockKey) !== keys(locks, lockKey)
+    || keys(stored?.misnamed || [], misnamedKey) !== keys(misnamed, misnamedKey);
+}
+
 // Test 7d: reads the build-lock.json of a verified release and adds the
 // modules only the build downloaded to pinning's rows, before test 10 looks
 // them up. Nothing for the default branch, or a release without the file.
