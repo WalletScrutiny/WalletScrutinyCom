@@ -55,11 +55,15 @@ No nginx location may point at it.
 # On the web host
 sudo adduser --disabled-password --gecos '' db-backup
 sudo mkdir -p /srv/db-backup && sudo chmod 700 /srv/db-backup && sudo chown db-backup: /srv/db-backup
-sudo -u db-backup mkdir -p -m 700 ~db-backup/.ssh
+# sshd reads authorized_keys from the home in /etc/passwd, which is not always
+# /home/db-backup (and `~db-backup` only matches it if the account exists)
+HOME_DB=$(getent passwd db-backup | cut -d: -f6); echo "home: $HOME_DB"
+sudo -u db-backup mkdir -p -m 700 "$HOME_DB/.ssh"
 # the public key of the existing source-analysis publish key (on the build server:
 # cat /etc/walletscrutiny-source-analysis/publish_ed25519.pub)
 echo 'command="rrsync /srv/db-backup",restrict ssh-ed25519 AAAA... source-analysis-publish' \
-  | sudo -u db-backup tee ~db-backup/.ssh/authorized_keys
+  | sudo -u db-backup tee "$HOME_DB/.ssh/authorized_keys"
+sudo chmod 600 "$HOME_DB/.ssh/authorized_keys"
 ```
 
 The same key now has two restricted accounts: `source-analysis` (its public
@@ -71,7 +75,7 @@ Then on the build server, `/etc/walletscrutiny-db-backup/env`:
 
 ```bash
 WS_BACKUP_PUSH_TARGET=db-backup@walletscrutiny.com:/
-WS_BACKUP_PUSH_SSH="ssh -i /etc/walletscrutiny-source-analysis/publish_ed25519 -o UserKnownHostsFile=/etc/walletscrutiny-source-analysis/known_hosts -o StrictHostKeyChecking=yes"
+WS_BACKUP_PUSH_SSH="ssh -i /etc/walletscrutiny-source-analysis/publish_ed25519 -o UserKnownHostsFile=/etc/walletscrutiny-source-analysis/known_hosts -o StrictHostKeyChecking=yes -o BatchMode=yes"
 ```
 
 The service reads `/etc/walletscrutiny-source-analysis/` with `ReadOnlyPaths`,
@@ -82,6 +86,11 @@ Check before the first run, like the source analysis does:
 ```bash
 sudo -u build-server rsync -e "$(. /etc/walletscrutiny-db-backup/env; echo "$WS_BACKUP_PUSH_SSH")" --list-only db-backup@walletscrutiny.com:/
 ```
+
+A line ending in ` .` means it works. `Permission denied (publickey)` means the web
+host does not accept the key for `db-backup`: no `authorized_keys` yet, the
+`AAAA...` placeholder still in it, or the key line broken across two lines. Without
+`BatchMode=yes` ssh would fall back to asking for a password instead.
 
 **3. Start and check.**
 
@@ -104,7 +113,7 @@ checks every new file with `zstd -t`. It never deletes locally, so your copy kee
 history beyond the server's retention. Needs `rsync` and `zstd`.
 
 A key only for this, read-only, on the `db-backup` account of the web host
-(`~db-backup/.ssh/authorized_keys`, one more line next to the build server's;
+(`authorized_keys` in the home of `db-backup`, one more line next to the build server's;
 `rrsync -ro` limits it to reading `/srv/db-backup`). This keeps your machine off
 the build server.
 
