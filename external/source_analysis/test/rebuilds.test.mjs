@@ -262,7 +262,10 @@ describe('candidates and export', () => {
     const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'rbc-'));
     const db = initDatabase(path.join(dir, 'a.db'));
     const pkg = db.prepare(`INSERT INTO packages (ecosystem, name, version) VALUES ('npm', ?, ?)`);
-    const dep = db.prepare(`INSERT INTO app_dependencies (app_id, version, package_id, lockfile, tier, scope) VALUES (?, 'v1', ?, 'package-lock.json', 'lock', ?)`);
+    const lockfile = db.prepare(`INSERT INTO app_lockfiles (app_id, version, lockfile) VALUES (?, 'v1', 'package-lock.json')`);
+    const lockfileIds = Object.fromEntries(['w1', 'w2', 'w3'].map(app => [app, lockfile.run(app).lastInsertRowid]));
+    const insert = db.prepare(`INSERT INTO lockfile_dependencies (lockfile_id, package_id, tier, scope) VALUES (?, ?, 'lock', ?)`);
+    const dep = { run: (app, packageId, scope) => insert.run(lockfileIds[app], packageId, scope) };
     const ids = {};
     for (const [n, v] of [['a', '1.0.0'], ['b', '1.0.0'], ['c', '1.0.0'], ['d', '^1.0.0'], ['e', '1.0.0']]) ids[n] = pkg.run(n, v).lastInsertRowid;
     for (const app of ['w1', 'w2', 'w3']) { dep.run(app, ids.a, 'app'); dep.run(app, ids.b, 'app'); dep.run(app, ids.d, 'app'); dep.run(app, ids.e, 'build'); }

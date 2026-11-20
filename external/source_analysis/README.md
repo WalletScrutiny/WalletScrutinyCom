@@ -44,7 +44,7 @@ a timer every 6 hours:
 | units | `config/walletscrutiny-source-analysis.service`, `config/walletscrutiny-source-analysis.timer`; the hourly advisory refresh `config/walletscrutiny-advisory-refresh.service`, `config/walletscrutiny-advisory-refresh.timer` ([Static export](#static-export)) |
 | working directory | `/opt/source_analysis` |
 | user | `build-server` |
-| database | `/var/lib/walletscrutiny-source-analysis/assets.db` (`SOURCE_ANALYSIS_DB_PATH`), a copy per run next to it in `backup/`, newest 2 kept (older states: [`db_backup`](../db_backup/README.md)); the first start after the schema size cleanup rebuilds `app_dependencies` (`WITHOUT ROWID`), drops four unused `assets` indexes and runs a `VACUUM` (needs free disk the size of the database, the other source-analysis units should not start meanwhile) |
+| database | `/var/lib/walletscrutiny-source-analysis/assets.db` (`SOURCE_ANALYSIS_DB_PATH`), a copy per run next to it in `backup/`, newest 2 kept (older states: [`db_backup`](../db_backup/README.md)); the first start after a schema size cleanup (four unused `assets` indexes dropped; the `app_dependencies` rows moved to `app_lockfiles` and `lockfile_dependencies`) runs a `VACUUM`, which needs free disk the size of the database |
 | build-lock copies | the verifiers' `build-lock.json` files (`plugins/build-lock.mjs`, issue 1000), fetched from files.nostr.info by the sha256 in the verification and kept, hash-checked, in `build-locks/` next to the database (`SOURCE_ANALYSIS_BUILD_LOCK_DIR`) |
 | per-repository scratch | `/var/cache/walletscrutiny-source-analysis/repos` (`SOURCE_ANALYSIS_TEMP_DIR`), deleted after each repository |
 | scope | wallets with a reproducible build verification of any version (kind 30301 on the project relays, `reproducible.mjs`), each verified version analysed at its tag, 3 per wallet and pass (`SOURCE_ANALYSIS_VERIFIED_PER_PASS`); `SOURCE_ANALYSIS_SCOPE=all` analyses every wallet with a repository. Needs Node 22 (WebSocket) |
@@ -853,7 +853,7 @@ CREATE TABLE assets (
 );
 ```
 
-Resolved dependencies per release, filled by `pinning-cli.mjs --app-id … --version …` and by the watcher after a new release (`runSourceCodeAnalysis` with a `db`). `packages` holds one row per distinct package (consecutive releases share almost all of theirs), `app_dependencies` links a release to them:
+Resolved dependencies per release, filled by `pinning-cli.mjs --app-id … --version …` and by the watcher after a new release (`runSourceCodeAnalysis` with a `db`). `packages` holds one row per distinct package (consecutive releases share almost all of theirs), `app_lockfiles` one row per lockfile of a release, and `lockfile_dependencies` links the two by id, so a dependency row carries no app, version or lockfile text. Queries read the view `app_dependencies`, one row per (app, release, package, lockfile):
 
 ```sql
 CREATE TABLE packages (
@@ -866,19 +866,32 @@ CREATE TABLE packages (
   UNIQUE(ecosystem, name, version, resolved, integrity)
 );
 
-CREATE TABLE app_dependencies (
+CREATE TABLE app_lockfiles (
+  id INTEGER PRIMARY KEY,
   app_id TEXT NOT NULL,
   version TEXT NOT NULL,            -- the app release
+  lockfile TEXT NOT NULL,           -- file the rows came from, relative to the repo root
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE (app_id, version, lockfile)
+);
+
+CREATE TABLE lockfile_dependencies (
+  lockfile_id INTEGER NOT NULL REFERENCES app_lockfiles(id),
   package_id INTEGER NOT NULL REFERENCES packages(id),
-  lockfile TEXT NOT NULL,           -- file the row came from, relative to the repo root
   direct INTEGER,                   -- 1 declared by the project, 0 pulled in by a dependency, NULL unknown
   dev INTEGER,                      -- 1 build-time only (devDependencies), 0 shipped, NULL unknown
-  scope TEXT,                       -- where it ends up: 'app', 'build', 'tests', NULL when the files do not say
   tier TEXT NOT NULL,               -- hash-pinned | version-pinned | source-ref-pinned | build-service-tag | unversioned | floating
-  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-  PRIMARY KEY (app_id, version, package_id, lockfile)
-);
+  scope TEXT,                       -- where it ends up: 'app', 'build', 'tests', NULL when the files do not say
+  dependants TEXT,                  -- JSON list of the package names that require this one, NULL when the lockfile has no graph
+  PRIMARY KEY (lockfile_id, package_id)
+) WITHOUT ROWID;
+
+CREATE VIEW app_dependencies AS
+  SELECT l.app_id, l.version, d.package_id, l.lockfile, d.direct, d.dev, d.tier, l.created_at, d.scope, d.dependants
+  FROM lockfile_dependencies d JOIN app_lockfiles l ON l.id = d.lockfile_id;
 ```
+
+Write through `saveDependencies` (a view takes no `INSERT`); a database that still has `app_dependencies` as a table is converted at its first start.
 
 What each ecosystem can say: npm and cargo lockfiles give the full resolved set with `direct` known; yarn.lock knows `direct` (by requested range) but not `dev` for transitive rows; gradle has the full set where `verification-metadata.xml` exists or test 7b could run gradle (`lockfile` = `<build dir> (gradle resolution)`), otherwise the declared coordinates; pip has what `requirements*.txt` lists; python-for-android has what a spec's `requirements` reach through recipes' `depends`, with PyPI libraries as `pip` and native ones as `native`, looked up by upstream git repository and tag in OSV and by product in NVD (`NATIVE_UPSTREAM` in `plugins/osv.mjs`). Each native finding is then checked against the upstream repository's release tags (`upstreamGit.mjs`, issue 1016): when a fixing commit OSV.dev records is already in the shipped tag, the finding is left out and stored in `app_backported_advisories` with that commit and tag (exported as the release's `backported` list, shown under the advisories); otherwise the first release on the shipped line with the fix is added to `fixed` (`fixedFromGit`). Git only adds fix versions, never removes NVD's. The repositories are treeless bare clones under `UPSTREAM_GIT_DIR` (default `upstream-git/` next to the database; cpython about 94 MB, openssl 27 MB, sqlite 14 MB), fetched at most every 6 hours; without a clone a finding stays as the databases gave it. Helpers in `ddbbUtils.mjs`: `saveDependencies`, `getDependencies`, `diffDependencies`, `findAppsShipping`.
 
