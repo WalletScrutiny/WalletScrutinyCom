@@ -8,6 +8,7 @@ import { collectCandidates } from '../candidates.mjs';
 import { sandboxArgs } from '../sandbox.mjs';
 import { serveLoop } from '../worker.mjs';
 import { usedBytes } from '../sandbox.mjs';
+import { feedRows, writeFeed, publishFeed } from '../site-export.mjs';
 import zlib from 'zlib';
 import { tgzFiles } from '../../source_analysis/rebuildNpm.mjs';
 
@@ -142,4 +143,45 @@ test('disk limit counts the output directory and the log, not only the work dire
 test('a gzip bomb in a rebuilt tarball is refused, not unpacked into memory', () => {
   const bomb = zlib.gzipSync(Buffer.alloc(1100 * 2 ** 20)); // ~1 MB compressed, 1.1 GB unpacked
   assert.throws(() => tgzFiles(bomb), /larger than|ERR_BUFFER_TOO_LARGE|Cannot create a Buffer/);
+});
+
+test('the website feed has outcomes and one-line reasons, no logs or paths, and skips what was not decided', () => {
+  const db = openDb(':memory:');
+  saveRebuild(db, { ecosystem: 'npm', name: 'a', version: '1.0.0', result: 'reproduced', note: 'Byte-identical tarball', repoUrl: 'https://github.com/x/a', commit: 'c'.repeat(40), toolchain: 'node:20 npm 10', log: '/var/lib/x/a.log', sandbox: 's' });
+  saveRebuild(db, { ecosystem: 'npm', name: 'b', version: '2.0.0', result: 'failed', note: 'differs' });
+  saveRebuild(db, { ecosystem: 'npm', name: 'c', version: '3.0.0', result: 'skipped', note: 'later' });
+  const rows = feedRows(db);
+  assert.deepEqual(rows.map(r => `${r.name}@${r.version} ${r.result}`), ['a@1.0.0 reproduced', 'b@2.0.0 failed']);
+  assert.match(rows[0].date, /^\d{4}-\d\d-\d\d$/);
+  assert.ok(!JSON.stringify(rows).includes('/var/lib'), 'no local paths leave the machine');
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'depreb-site-'));
+  assert.equal(writeFeed(db, dir), 2);
+  const feed = JSON.parse(fs.readFileSync(path.join(dir, 'rebuilds.json'), 'utf8'));
+  assert.deepEqual([feed.schema, feed.claimant, feed.rows.length], [1, 'ws', 2]);
+});
+
+test('publishing copies the feed with brotli through rsync, and does nothing without a target', () => {
+  const db = openDb(':memory:');
+  saveRebuild(db, { ecosystem: 'npm', name: 'a', version: '1.0.0', result: 'reproduced', note: 'ok' });
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'depreb-pub-'));
+  assert.deepEqual(publishFeed(db, dir, { target: undefined }), { rows: 1, published: false });
+  const calls = [];
+  const r = publishFeed(db, dir, { target: 'u@h:/', ssh: 'ssh -i k', run: (cmd, args) => { calls.push([cmd, args]); return { status: 0 }; } });
+  assert.equal(r.published, true);
+  assert.equal(calls[0][0], 'rsync');
+  assert.ok(calls[0][1].includes('u@h:/') && calls[0][1].includes('ssh -i k'));
+  assert.ok(fs.existsSync(path.join(dir, 'rebuilds.json.br')));
+});
+
+test('serve: publishes what was built, after the interval and when idle, and a failed copy does not stop the loop', async () => {
+  const f = serveFixture();
+  let published = 0, failOnce = true;
+  f.opts.publish = async () => { if (failOnce) { failOnce = false; throw new Error('rsync down'); } published++; return { rows: 2 }; };
+  let sleeps = 0;
+  const sleep = f.opts.sleep;
+  f.opts.sleep = async (ms) => { await sleep(ms); if (++sleeps === 3) f.stop(); };
+  await serveLoop(f.opts);
+  assert.ok(f.events.some(e => e.startsWith('publish failed')));
+  assert.ok(published >= 1, 'retried and succeeded');
+  assert.equal(f.events.filter(e => e.startsWith('build')).length, 2);
 });

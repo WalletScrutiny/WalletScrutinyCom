@@ -237,8 +237,40 @@ export function syncReproducibleCentral(dir, { run = (args) => execFileSync('git
  * rcDir, when given. Claims are replaced per (package version, claimant), so a
  * claim withdrawn upstream disappears at the next lookup.
  */
-export async function importRebuildClaims(db, { fetchImpl = fetch, rcDir = null, all = false, log = () => {} } = {}) {
-  const stats = { ossNames: 0, ossClaims: 0, ossDetails: 0, rcClaims: 0, failed: 0 };
+/**
+ * Our own dependency rebuilder (external/dep_rebuilder) publishes its results as
+ * one file, rebuilds.json, on the website server. Each row that is a package
+ * version some analysed release ships becomes a `ws` claim, replacing the one
+ * we had. Rows for other versions are left out; a feed that cannot be read or is
+ * not the expected shape changes nothing. Returns the number of claims written.
+ */
+export async function importWsFeed(db, url, { fetchImpl = fetch, log = () => {} } = {}) {
+  let feed;
+  try {
+    const r = await fetchImpl(url, { signal: AbortSignal.timeout(60000) });
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    feed = await r.json();
+  } catch (e) { log(`rebuild feed ${url}: ${e.message}`); return { claims: 0, failed: true }; }
+  if (feed?.schema !== 1 || feed.claimant !== 'ws' || !Array.isArray(feed.rows)) { log(`rebuild feed ${url}: unexpected shape`); return { claims: 0, failed: true }; }
+  const ours = db.prepare(`SELECT 1 FROM packages WHERE ecosystem = ? AND name = ? AND version = ? LIMIT 1`);
+  const save = db.prepare(`INSERT OR REPLACE INTO package_rebuilds (ecosystem, name, version, claimant, result, commit_sha, note, checked_at)
+    VALUES (?, ?, ?, 'ws', ?, ?, ?, ?)`);
+  let claims = 0;
+  db.transaction(() => {
+    for (const r of feed.rows) {
+      if (!['npm', 'pip', 'cargo'].includes(r?.ecosystem) || typeof r.name !== 'string' || typeof r.version !== 'string') continue;
+      if (r.result !== 'reproduced' && r.result !== 'failed') continue;
+      if (!ours.get(r.ecosystem, r.name, r.version)) continue;
+      const day = /^\d{4}-\d\d-\d\d$/.test(r.date || '') ? `${r.date} 00:00:00` : new Date().toISOString().slice(0, 19).replace('T', ' ');
+      save.run(r.ecosystem, r.name, r.version, r.result, /^[0-9a-f]{40}$/.test(r.commit || '') ? r.commit : null, typeof r.note === 'string' ? r.note.slice(0, 300) : null, day);
+      claims++;
+    }
+  })();
+  return { claims, failed: false };
+}
+
+export async function importRebuildClaims(db, { fetchImpl = fetch, rcDir = null, wsFeedUrl = null, all = false, log = () => {} } = {}) {
+  const stats = { ossNames: 0, ossClaims: 0, ossDetails: 0, rcClaims: 0, wsClaims: 0, failed: 0 };
   const save = db.prepare(`INSERT OR REPLACE INTO package_rebuilds (ecosystem, name, version, claimant, result, artifact, url, note, checked_at)
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)`);
   const dropFor = db.prepare(`DELETE FROM package_rebuilds WHERE ecosystem = ? AND name = ? AND claimant = ?`);
@@ -285,6 +317,11 @@ export async function importRebuildClaims(db, { fetchImpl = fetch, rcDir = null,
         stats.rcClaims++;
       }
     })();
+  }
+  if (wsFeedUrl) {
+    const ws = await importWsFeed(db, wsFeedUrl, { fetchImpl, log });
+    stats.wsClaims = ws.claims;
+    if (ws.failed) stats.failed++;
   }
   return stats;
 }
