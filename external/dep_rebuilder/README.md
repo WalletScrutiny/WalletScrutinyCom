@@ -143,6 +143,7 @@ One throwaway container per phase (`npm-sandbox.sh`, `sandbox.mjs`):
 | clone | yes | `git clone` and checkout; no repository code |
 | install | yes | the lockfile's dependencies with `--ignore-scripts`: no package's lifecycle script runs while the network is open |
 | build | **none** | the package's own `prepare` / `prepublishOnly` / build scripts, then `npm pack --offline` |
+| after-build | **none** | only when that is not the published package and no publish hook calls `build`: `npm run build`, then `npm pack --offline` again |
 
 `--ignore-scripts` alone does not keep a repository's code from running during
 install. These ways are closed (`npm-sandbox.sh`, "no_repo_code"), each found by
@@ -184,8 +185,12 @@ All phases: unprivileged user, all capabilities dropped, `no-new-privileges`,
 read-only root file system, only the work and output directories mounted,
 memory, process, CPU, disk (polled) and time limits; the container is removed
 by name on timeout. Source: the git tag the identity check matches, else the
-commit the registry names. Toolchain: the publisher's Node major and npm
-version.
+commit the registry names. The package's directory in the repository is the one
+the registry names; that field is optional, so when the package of that name is
+not there (in a monorepo the root is another package) the clone step looks it
+up by name among the repository's `package.json` files, and the version fails
+when there is none or more than one. Toolchain: the publisher's Node major and
+npm version.
 
 What this does not give: a build that needs its dependencies' install scripts
 (native add-ons compiled at install, binaries downloaded by a postinstall) or a
@@ -199,6 +204,14 @@ utility inside a VM.
 rebuilt one (tar metadata and gzip ignored, as OSS Rebuild does); otherwise
 `failed` with the reason (differing files, and whether they differ in line
 endings, docs or dev-only package.json fields only; or the step that failed).
+
+A `build` script is no lifecycle script: npm never runs it by itself, and many
+publishers run it by hand or in CI before `npm publish` (`@noble/hashes`:
+`tsc`). When no publish hook (`prepare`, `prepack`, `prepublish`,
+`prepublishOnly`) calls it and the package as packed is not the published one,
+a further step runs `npm run build` and packs again. That package is judged
+then, and the note says "after `npm run build`". A step that fails changes
+nothing.
 
 `unsupported` when the package is a member of a workspace (a directory below a
 root with `workspaces`, `pnpm-workspace.yaml` or `lerna.json`) and what its own

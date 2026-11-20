@@ -3,6 +3,12 @@
 // Node image (4) and without single quotes, which the shell quoting needs.
 //
 //   scripts <package dir>            prints 1 when the package has build scripts, else 0
+//   unhooked-build <package dir>     prints 1 when the package has a "build" script that
+//                                    none of the scripts npm runs on publish calls, else 0
+//   locate <repository> <package> <name>
+//                                    prints nothing when the package directory holds the
+//                                    package of that name; else the one directory of the
+//                                    repository that does, or ? when there is none or several
 //   sources <repository> <package>   prints the first dependency that does not come
 //                                    from a registry or from the repository
 //   workspace <repository> <package> prints 1 when the package is a member of a
@@ -114,14 +120,42 @@ function sources(repo, pkg) {
   return hit;
 }
 
+var PUBLISH_HOOKS = ["prepare", "prepack", "prepublish", "prepublishOnly"];
+
+function scriptsOf(dir) {
+  try { return readJson(path.join(dir, "package.json")).scripts || {}; } catch (e) { return {}; /* no manifest: nothing to run */ }
+}
+
+// "build" is no lifecycle script: npm never runs it by itself. A hook that calls it
+// names it ("npm run build", "yarn build") or is the same command.
+function unhookedBuild(s) {
+  if (typeof s.build !== "string" || !s.build.trim()) return false;
+  return !PUBLISH_HOOKS.some(function (k) { return typeof s[k] === "string" && (/\bbuild\b/.test(s[k]) || s[k].trim() === s.build.trim()); });
+}
+
+function nameAt(dir) {
+  try { return readJson(path.join(dir, "package.json")).name; } catch (e) { return undefined; }
+}
+
+// repository.directory in the registry is optional and can be out of date. Without it the
+// root is packed, which in a monorepo is another package.
+function locate(repo, pkg, name) {
+  if (nameAt(pkg) === name) return "";
+  var dirs = manifestsUnder(repo, 0, []).map(function (file) { return path.dirname(file); }).filter(function (dir) { return nameAt(dir) === name; });
+  return dirs.length === 1 ? (path.relative(repo, dirs[0]) || ".") : "?";
+}
+
 var mode = process.argv[1];
 if (mode === "scripts") {
-  var s = {};
-  try { s = readJson(path.join(process.argv[2], "package.json")).scripts || {}; } catch (e) { /* no manifest: nothing to run */ }
-  console.log(["prepare", "prepack", "prepublish", "prepublishOnly", "build"].some(function (k) { return s[k]; }) ? "1" : "0");   // a string: console.log colours a number when FORCE_COLOR is set
+  var s = scriptsOf(process.argv[2]);
+  console.log(PUBLISH_HOOKS.concat("build").some(function (k) { return s[k]; }) ? "1" : "0");   // a string: console.log colours a number when FORCE_COLOR is set
+} else if (mode === "unhooked-build") {
+  console.log(unhookedBuild(scriptsOf(process.argv[2])) ? "1" : "0");
 } else if (mode === "sources") {
   var problem = sources(process.argv[2], process.argv[3]);
   if (problem) console.log(problem.replace(/\s+/g, " ").slice(0, 200));
+} else if (mode === "locate") {
+  console.log(locate(process.argv[2], process.argv[3], process.argv[4]));
 } else if (mode === "workspace") {
   console.log(workspaceMember(process.argv[2], process.argv[3]) ? "1" : "0");
 }

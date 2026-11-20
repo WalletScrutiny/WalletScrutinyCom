@@ -13,6 +13,7 @@ import { sandboxArgs, runPhase, removeTree, CONTAINER_CLI, LIMITS } from './sand
 
 const LOG_LIMIT = 200000;
 const MAX_TARBALL_BYTES = 256 * 2 ** 20; // the host reads the rebuilt tarball into memory to compare it
+const AFTER_BUILD = 'after-build.tgz'; // npm-sandbox.sh: the package packed again after a "build" script no publish hook calls
 const sha256 = (buf) => createHash('sha256').update(buf).digest('hex');
 const isCommit = (c) => typeof c === 'string' && /^[0-9a-f]{40}$/.test(c);
 // The registry's _npmVersion is whatever the publisher's client sent. It ends up in
@@ -114,22 +115,31 @@ async function rebuildIn(dir, { name, version, source, facts, slug, fetchImpl, c
       : done('failed', 'No git tag or commit for this version');
   }
   fs.writeFileSync(logFile, `== ${name}@${version} registry sha256 ${x}\n== image ${image}\n`);
-  const env = { REPO: source.repoUrl, REF: source.ref, DIR: facts.directory || '', NPMV: npmVersion };
+  const env = { REPO: source.repoUrl, REF: source.ref, NAME: name, DIR: facts.directory || '', NPMV: npmVersion };
   const cname = `dr-${process.pid}-${slug.replace(/[^a-zA-Z0-9.-]/g, '_')}`.slice(0, 100);
   const phases = [
     { phase: 'clone', image: CLONE_IMAGE, network: 'default' },
     { phase: 'install', image, network: 'default' },
     { phase: 'build', image, network: 'none', out: true },
   ];
-  let run = { code: 0 }, failedPhase = null;
-  for (const p of phases) {
+  const runIn = (p) => {
     fs.appendFileSync(logFile, `\n=== phase ${p.phase} (${p.network === 'none' ? 'no network' : 'network, no package scripts'})\n`);
     const name2 = `${cname}-${p.phase}`;
-    run = await runPhase({
+    return runPhase({
       cli, name: name2, logFile, workDir, outDir: p.out ? outDir : null, limits,
       args: sandboxArgs({ image: p.image, name: name2, workDir, outDir: p.out ? outDir : null, env: { ...env, PHASE: p.phase }, network: p.network, cli, limits }),
     });
+  };
+  let run = { code: 0 }, failedPhase = null;
+  for (const p of phases) {
+    run = await runIn(p);
     if (run.code !== 0 || run.timedOut || run.tooBig) { failedPhase = p.phase; break; }
+    if (p.phase === 'clone') {
+      // where the clone step found the package, when that is not where the registry says (npm-sandbox.sh)
+      const at = /^== package directory: (.*)$/m.exec(boundedLog(logFile))?.[1];
+      if (at != null && !plainPath(at)) return done('failed', 'The source repository does not have exactly one package of this name at this version');
+      if (at) env.DIR = at;
+    }
   }
   const logText = boundedLog(logFile);
   // from the clone step only, where no code of the repository has run: a build cannot say this about itself
@@ -145,19 +155,36 @@ async function rebuildIn(dir, { name, version, source, facts, slug, fetchImpl, c
   // Whatever is in the output directory was put there by the package's own code: only a
   // regular file is read (a link would be followed out of the directory, a pipe or device
   // never ends), and only up to the size limit.
-  const packed = fs.readdirSync(outDir).filter(f => f.endsWith('.tgz'));
+  const tarballs = fs.readdirSync(outDir).filter(f => f.endsWith('.tgz'));
+  const packed = tarballs.filter(f => f !== AFTER_BUILD);
   if (run.code !== 0 || packed.length !== 1) {
     const why = `${failedPhase || 'build'} failed: ${failureLine(logText).slice(0, 160)}`;
     return workspaceMember && (failedPhase || 'build') === 'build' ? notBuilt(why) : done('failed', why, failedPhase || 'build');
   }
+  const unreadable = (file) => {
+    const stat = fs.lstatSync(file);
+    if (!stat.isFile()) return 'The build left something other than a file as its tarball';
+    if (stat.size > MAX_TARBALL_BYTES) return `The rebuilt tarball is larger than ${MAX_TARBALL_BYTES / 2 ** 20} MB`;
+    return null;
+  };
   const packedFile = path.join(outDir, packed[0]);
-  const stat = fs.lstatSync(packedFile);
-  if (!stat.isFile()) return done('failed', 'The build left something other than a file as its tarball', 'build');
-  if (stat.size > MAX_TARBALL_BYTES) return done('failed', `The rebuilt tarball is larger than ${MAX_TARBALL_BYTES / 2 ** 20} MB`, 'build');
-  let cmp;
+  if (unreadable(packedFile)) return done('failed', unreadable(packedFile), 'build');
+  let cmp, how = '';
   try { cmp = compareTarballs(registryBuf, fs.readFileSync(packedFile)); } catch (e) { return done('failed', `The tarballs could not be compared: ${String(e.message).slice(0, 120)}`, 'compare'); }
-  fs.appendFileSync(logFile, `== comparison ${JSON.stringify({ ...cmp, missing: cmp.missing.slice(0, 50), extra: cmp.extra.slice(0, 50), changed: cmp.changed.slice(0, 50) })}\n`);
-  if (cmp.match) return done('reproduced', cmp.identical ? 'Byte-identical tarball' : `All ${cmp.files} files identical; tarball metadata differs`);
+  // Not the published package: a "build" script that no publish hook calls gets a step of its
+  // own (npm-sandbox.sh), and what is packed after it is judged instead. A step that fails, runs
+  // out of time or leaves nothing readable changes nothing: the first comparison stands.
+  if (!cmp.match) {
+    removeTree(path.join(outDir, AFTER_BUILD)); // whatever the build step left under that name
+    const again = await runIn({ phase: 'after-build', image, network: 'none', out: true });
+    const builtFile = path.join(outDir, AFTER_BUILD);
+    if (again.code === 0 && !again.timedOut && !again.tooBig && fs.readdirSync(outDir).includes(AFTER_BUILD) && !unreadable(builtFile)) {
+      try { cmp = compareTarballs(registryBuf, fs.readFileSync(builtFile)); how = ' after `npm run build`'; } catch (e) { /* the first comparison stands */ }
+    }
+    boundedLog(logFile);
+  }
+  fs.appendFileSync(logFile, `== comparison${how} ${JSON.stringify({ ...cmp, missing: cmp.missing.slice(0, 50), extra: cmp.extra.slice(0, 50), changed: cmp.changed.slice(0, 50) })}\n`);
+  if (cmp.match) return done('reproduced', `${cmp.identical ? 'Byte-identical tarball' : `All ${cmp.files} files identical; tarball metadata differs`}${how}`);
   if (workspaceMember) return notBuilt(diffNote(cmp));
-  return done('failed', `Rebuilt tarball differs: ${diffNote(cmp)}`, 'compare');
+  return done('failed', `Rebuilt tarball differs${how}: ${diffNote(cmp)}`, 'compare');
 }
