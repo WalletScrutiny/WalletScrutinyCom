@@ -19,12 +19,17 @@ trap 'rm -f "$new"' EXIT
 
 # The key on the remote account is limited to a read-only rrsync of the backup
 # directory, so the source is its root. Snapshot files never change once written.
-rsync -a --partial --exclude '/.tmp/' --out-format='%n' -e "${ssh_cmd[*]}" "$remote:/" "$dest/" \
-  | grep -E '\.db\.zst$' > "$new" || true
-
 bad=0
+if ! rsync -a --partial --exclude '/.tmp/' --out-format='%n' -e "${ssh_cmd[*]}" "$remote:/" "$dest/" > "$new"; then
+  echo "ERROR: rsync from $remote failed" >&2; bad=1
+fi
+
+# what did arrive is still checked
+count=0
 while IFS= read -r f; do
+  [[ "$f" == *.db.zst ]] || continue
+  count=$((count + 1))
   if zstd -tq "$dest/$f"; then echo "ok   $f"; else echo "BAD  $f" >&2; bad=1; fi
 done < "$new"
-[ -s "$new" ] || echo "no new snapshots"
+[ "$count" -gt 0 ] || echo "no new snapshots"
 exit "$bad"

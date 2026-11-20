@@ -23,8 +23,11 @@ How it works (`backup.sh`, run by `walletscrutiny-db-backup.timer` at 03:30 UTC)
 4. Retention: snapshots older than 21 days are deleted (`WS_BACKUP_KEEP_DAYS`).
    The newest snapshot of each database is always kept, even if it is older.
 5. `rsync` of the directory to `WS_BACKUP_PUSH_TARGET`, if set. The remote copy
-   mirrors the server (`--delete`), so it also holds only the last 3 weeks.
-   `WS_BACKUP_PUSH_DELETE=no` makes it keep everything instead.
+   holds the same 3 weeks: when a database prunes a snapshot here, that database's
+   directory there is brought in line. It is not a mirror: nothing is deleted there
+   for a database that pruned nothing in that run, so losing this directory (new
+   server) does not empty the remote copy. `WS_BACKUP_PUSH_DELETE=no` makes it keep
+   everything.
 
 The rebuilder's database belongs to its own user `dep-rebuilder` (build code runs as
 that user, so it does not run as `build-server`). The backup reads it as `build-server`
@@ -32,8 +35,9 @@ with the supplementary group `dep-rebuilder`, which `deploy:db-backup` adds thro
 drop-in once that group exists; `db.mjs` of the rebuilder makes the data directory 770
 and the database 660 on its next start (a WAL database is also written when read).
 Before the rebuilder is deployed the database is skipped, not an error; deploy the
-backup again after `deploy:dep-rebuilder`. The same key and web-host account serve all
-four databases: `dep-rebuilder` cannot read that key.
+backup again after `deploy:dep-rebuilder` (until then the unit fails with "no
+permission to read"). The same key and web-host account serve all four databases:
+`dep-rebuilder` cannot read that key.
 
 One database failing (missing file, failed check) does not stop the others; the
 unit then ends with exit status 1, so `systemctl --failed` and the journal show it.
@@ -88,8 +92,8 @@ WS_BACKUP_PUSH_TARGET=db-backup@walletscrutiny.com:/
 WS_BACKUP_PUSH_SSH="ssh -i /etc/walletscrutiny-source-analysis/publish_ed25519 -o UserKnownHostsFile=/etc/walletscrutiny-source-analysis/known_hosts -o StrictHostKeyChecking=yes -o BatchMode=yes"
 ```
 
-The service reads `/etc/walletscrutiny-source-analysis/` with `ReadOnlyPaths`,
-so the key stays readable by `build-server` only.
+The key file stays readable by `build-server` only; the unit can read it but not
+change it (`ProtectSystem=strict`).
 
 Check before the first run, like the source analysis does:
 
@@ -108,19 +112,23 @@ The deploy has already enabled the timer. After step 2 (the `env` file), run it
 once by hand and look at the result:
 
 ```bash
-sudo systemctl start walletscrutiny-db-backup.service      # or RUN_NOW=1 npm run deploy:db-backup
-journalctl -u walletscrutiny-db-backup.service -n 20
+sudo systemctl start --no-block walletscrutiny-db-backup.service      # or RUN_NOW=1 npm run deploy:db-backup
+journalctl -fu walletscrutiny-db-backup.service
 systemctl list-timers walletscrutiny-db-backup.timer
 ```
+
+Without `--no-block` the command waits until the copy to the web host is done. The
+run ends with `pushed to the remote copy`, or with an `ERROR:` line and exit status 1.
 
 A restore loses at most the last day of writes. A snapshot taken during a long
 write is still consistent (the last committed state).
 
 ## Pulling to your machine
 
-`pull.sh` copies the snapshots from the build server to a local directory and
+`pull.sh` copies the snapshots from the web host to a local directory and
 checks every new file with `zstd -t`. It never deletes locally, so your copy keeps
-history beyond the server's retention. Needs `rsync` and `zstd`.
+history beyond the server's retention. It exits with status 1 if the copy or a
+check failed. Needs `rsync` and `zstd`.
 
 A key only for this, read-only, on the `db-backup` account of the web host
 (`authorized_keys` in the home of `db-backup`, one more line next to the build server's;
@@ -145,8 +153,13 @@ sqlite3 verifications.db 'PRAGMA integrity_check;'
 ```
 
 Stop the service, move the file to its path, make `build-server` (`dep-rebuilder`
-for that database, mode 660) the owner, start the service. A restored `notifications.db` is at most a night old; the bot then
-repeats at most that night's notifications.
+for that database, mode 660) the owner, start the service. A restored
+`notifications.db` is at most a night old; the bot then repeats at most that
+night's notifications.
+
+On a new server, restore the databases before the services first run. The backup
+can be deployed at any point: the snapshots on the web host stay until the new
+server has pruned for the first time, 3 weeks later.
 
 ## Notes
 
@@ -154,5 +167,5 @@ repeats at most that night's notifications.
   the start of each run (plain file copy, same disk). It protects against a bad
   run, not a lost server; this backup does not replace or touch it.
 - The unit runs as `build-server`, the owner of the databases, with
-  `ProtectSystem=strict` and write access only to the three data directories and
-  its own state directory.
+  `ProtectSystem=strict` and write access only to the data directories of the
+  databases and its own state directory.

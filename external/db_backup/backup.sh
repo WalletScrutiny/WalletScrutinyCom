@@ -6,7 +6,7 @@
 #   sqlite3 .backup (a consistent snapshot while the service keeps writing)
 #   -> PRAGMA integrity_check -> zstd -> $WS_BACKUP_DIR/<name>/<name>-<UTC time>.db.zst
 # then snapshots older than WS_BACKUP_KEEP_DAYS (21) are deleted and, if
-# WS_BACKUP_PUSH_TARGET is set, the directory is mirrored with rsync.
+# WS_BACKUP_PUSH_TARGET is set, the directory is copied there with rsync.
 # One failing database does not stop the others; the exit status is 1 if anything failed.
 set -uo pipefail
 umask 077
@@ -17,9 +17,10 @@ KEEP_DAYS="${WS_BACKUP_KEEP_DAYS:-21}"      # snapshots older than this are dele
 PUSH_TARGET="${WS_BACKUP_PUSH_TARGET:-}"     # e.g. backup@host:/  (an rrsync-restricted key)
 PUSH_SSH="${WS_BACKUP_PUSH_SSH:-ssh}"
 PUSH_TIMEOUT="${WS_BACKUP_PUSH_TIMEOUT:-1h}"   # the copy is aborted (and reported as failed) after this long
-PUSH_DELETE="${WS_BACKUP_PUSH_DELETE:-yes}"  # "yes": the remote copy mirrors this directory, so it keeps the same window; "no": it keeps everything
+PUSH_DELETE="${WS_BACKUP_PUSH_DELETE:-yes}"  # "yes": the remote copy keeps the same window; "no": it keeps everything
 
 failed=0
+pruned=()   # databases that deleted an old snapshot in this run
 log() { printf '%s\n' "$*"; }
 err() { printf 'ERROR: %s\n' "$*" >&2; failed=1; }
 
@@ -31,8 +32,10 @@ snapshot() { # name path
   local name="$1" src="$2" stamp raw out
   if [ ! -f "$src" ]; then
     # A database whose service has not run yet (the dependency rebuilder before its
-    # first deploy) is skipped; one that has been backed up before and is gone is an error.
+    # first deploy) is skipped. One that was backed up before and is gone is an error,
+    # and so is one this user may not look at: that is not "not there yet".
     if ls "$BACKUP_DIR/$name/$name"-*.db.zst >/dev/null 2>&1; then err "$name: $src does not exist"
+    elif [[ "$(LC_ALL=C stat -- "$src" 2>&1)" == *"Permission denied"* ]]; then err "$name: no permission to read $src"
     else log "$name: $src does not exist yet, skipped"; fi
     return
   fi
@@ -60,7 +63,7 @@ prune() { # name: delete snapshots older than KEEP_DAYS, but never the newest on
     base="$(basename "$f")"
     stamp="${base#"$name"-}"; stamp="${stamp%.db.zst}"
     [[ "$stamp" =~ ^[0-9]{8}T[0-9]{6}Z$ ]] || continue
-    [[ "$stamp" < "$cutoff" ]] && { rm -f "$f" && log "$name: pruned $(basename "$f")"; }
+    [[ "$stamp" < "$cutoff" ]] && rm -f "$f" && { log "$name: pruned $base"; pruned+=("$name"); }
   done < <(ls -1 "$BACKUP_DIR/$name"/"$name"-*.db.zst 2>/dev/null | sort -r)
 }
 
@@ -72,8 +75,15 @@ done
 
 if [ -n "$PUSH_TARGET" ]; then
   # ssh uses the first value it sees for an option, so these only fill in what the env file left out
-  args=(-a --partial --exclude '/.tmp/' -e "$PUSH_SSH -o ConnectTimeout=30 -o ServerAliveInterval=30 -o ServerAliveCountMax=4")
-  [ "$PUSH_DELETE" != "no" ] && args+=(--delete --delete-excluded)
+  args=(-a --partial "--chmod=D700,F600" --exclude '/.tmp/' -e "$PUSH_SSH -o ConnectTimeout=30 -o ServerAliveInterval=30 -o ServerAliveCountMax=4")
+  if [ "$PUSH_DELETE" != "no" ]; then
+    # Not a mirror: the remote copy deletes only in the directory of a database that pruned
+    # a snapshot here in this run. What is missing here is then older than the pruned one,
+    # so past the window. A mirror would empty the remote copy the night after this
+    # directory was lost (new server), which is the case the copy is for.
+    for name in "${pruned[@]}"; do args+=(--filter "risk /$name/*"); done
+    args+=(--filter 'protect *' --delete)
+  fi
   log "pushing to $PUSH_TARGET (gives up after $PUSH_TIMEOUT)"
   if timeout "$PUSH_TIMEOUT" rsync "${args[@]}" "$BACKUP_DIR/" "$PUSH_TARGET"; then
     log "pushed to the remote copy"
