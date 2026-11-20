@@ -30,6 +30,7 @@
 
 body.dark .bv-panel {
   background: rgba(255, 255, 255, 0.03);
+  border-color: var(--neutral-4); // neutral-5 is barely off the dark page
 }
 
 .bv-caption {
