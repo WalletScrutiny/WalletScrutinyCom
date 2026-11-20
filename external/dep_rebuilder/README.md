@@ -21,6 +21,7 @@ node index.mjs run --top 50    # rebuild the next 50; Ctrl-C stops after the cur
 node index.mjs serve           # unattended: the same, forever (what the service runs)
 node index.mjs status
 node index.mjs export --out claims.json
+node index.mjs site --publish   # write rebuilds.json for the website and copy it (the service does this by itself)
 ```
 
 `run` options: `--scope app|any` (default `app`: only versions that end up in a wallet's app, not build
@@ -74,6 +75,53 @@ sudo -u dep-rebuilder env DEP_REBUILDER_DATA=/var/lib/dep-rebuilder/data node /o
 Tuning: edit the `Environment=` lines of the unit (limits, export URL). The
 unit has no `NoNewPrivileges`: rootless podman needs the setuid
 `newuidmap`/`newgidmap`.
+
+### Publishing the results
+
+The results reach the website as one file, `rebuilds.json` (outcome, one-line
+reason, date, source commit and toolchain per package version; no logs and no
+paths), the way the source analysis publishes its export. With
+`DEP_REBUILDER_PUBLISH_TARGET` set, `serve` copies it (`site-export.mjs`, the
+rsync and brotli code of `source_analysis/publish.mjs`) at most every 30
+minutes while there are new results, again when it runs out of work, and once at
+start. A failed copy is logged and retried; it never stops the rebuilding.
+
+The **source analysis** fetches that file from
+`https://walletscrutiny.com/api/dep-rebuilder/rebuilds.json`
+(`SOURCE_ANALYSIS_REBUILD_FEED`) in its regular pass and turns each row for a
+package version that some analysed release ships into a "by us" claim; the
+Dependencies panel and its export need no change. So a result is on the wallet
+pages after the next pass of the source analysis (every 6 hours), not at once.
+
+| variable | value |
+|---|---|
+| `DEP_REBUILDER_PUBLISH_TARGET` | rsync destination, `dep-rebuilder@walletscrutiny.com:/` |
+| `DEP_REBUILDER_PUBLISH_SSH` | the ssh command rsync uses, for the key and `known_hosts` |
+
+Setting it up, once (the same recipe as the source analysis, own user, key and
+directory):
+
+```bash
+# On the build server: the key (the service user runs untrusted package builds,
+# in containers that cannot see this file, so the key is restricted on the web host)
+sudo mkdir -p /etc/walletscrutiny-dep-rebuilder
+sudo ssh-keygen -t ed25519 -N '' -C dep-rebuilder-publish -f /etc/walletscrutiny-dep-rebuilder/publish_ed25519
+sudo chown dep-rebuilder: /etc/walletscrutiny-dep-rebuilder/publish_ed25519
+sudo cat /etc/walletscrutiny-dep-rebuilder/publish_ed25519.pub     # goes into authorized_keys below
+sudo -u dep-rebuilder sh -c 'ssh-keyscan -t ed25519 walletscrutiny.com > /etc/walletscrutiny-dep-rebuilder/known_hosts'   # then check the fingerprint
+
+# On the web host: a user that can write one directory and nothing else
+sudo adduser --disabled-password --gecos '' dep-rebuilder
+sudo mkdir -p /srv/dep-rebuilder && sudo chown dep-rebuilder: /srv/dep-rebuilder
+sudo -u dep-rebuilder mkdir -p -m 700 ~dep-rebuilder/.ssh
+echo 'command="rrsync /srv/dep-rebuilder",restrict ssh-ed25519 AAAA... dep-rebuilder-publish' \
+  | sudo -u dep-rebuilder tee ~dep-rebuilder/.ssh/authorized_keys
+```
+
+nginx serves `/srv/dep-rebuilder/` under `/api/dep-rebuilder/` (the `prod`,
+`beta` and `old` files in `external/configs/webserver_nginx/` have the section;
+reload nginx after installing them). The directory must not be inside the
+site's webroot, which `deploy:prod` empties.
 
 ## The sandbox
 

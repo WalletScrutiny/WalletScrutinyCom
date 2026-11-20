@@ -22,6 +22,10 @@ Environment=DEP_REBUILDER_DATA=/var/lib/dep-rebuilder/data
 #Environment=DEP_REBUILDER_CPUS=2
 #Environment=DEP_REBUILDER_DISK_GB=8
 #Environment=DEP_REBUILDER_PHASE_MIN=20
+# Copy of the results to the web host (README, "Publishing the results"); the key and
+# known_hosts are set up there. Unset = nothing is published.
+Environment=DEP_REBUILDER_PUBLISH_TARGET=dep-rebuilder@walletscrutiny.com:/
+Environment="DEP_REBUILDER_PUBLISH_SSH=ssh -i /etc/walletscrutiny-dep-rebuilder/publish_ed25519 -o UserKnownHostsFile=/etc/walletscrutiny-dep-rebuilder/known_hosts -o StrictHostKeyChecking=yes"
 # No NoNewPrivileges: rootless podman needs the setuid newuidmap/newgidmap.
 
 ExecStart=/usr/bin/node index.mjs serve

@@ -15,6 +15,13 @@ server {
         add_header Cache-Control "no-cache";
     }
 
+    # dependency rebuilder results (external/dep_rebuilder), rsynced here by the build server;
+    # the source analysis reads rebuilds.json from here
+    location /api/dep-rebuilder/ {
+        alias /srv/dep-rebuilder/;
+        add_header Cache-Control "no-cache";
+    }
+
     error_page 404 /404.html;
     location = /404.html {
         internal;

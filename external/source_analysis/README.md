@@ -471,6 +471,15 @@ directory, so the target is then `user@host:/`. The commands for both
 machines are in [Setting up from scratch](#setting-up-from-scratch); the
 variables are set in `config/walletscrutiny-source-analysis.service`.
 
+#### Rebuilds by our own rebuilder
+
+`SOURCE_ANALYSIS_REBUILD_FEED` (set in the unit) is the URL of the
+`rebuilds.json` that `external/dep_rebuilder` publishes on the web host. The
+dependency ladder step of each pass reads it (`importWsFeed`) and stores every
+row for a package version a release ships as a `ws` claim, replacing the
+earlier one; the Dependencies panel and the export show it as "by us". An
+unreachable or malformed file changes nothing. Unset, nothing is imported.
+
 Query the service database with the CLI in this folder:
 
 ```bash

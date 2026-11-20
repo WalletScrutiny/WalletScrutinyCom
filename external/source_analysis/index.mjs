@@ -367,8 +367,8 @@ try {
       const ids = await checkIdentities(db, { limit: IDENTITY_PER_PASS });
       let rcDir = null;
       try { rcDir = syncReproducibleCentral(RC_DIR); } catch (error) { console.warn(`Reproducible Central: ${error.message.split('\n')[0]}`); }
-      const claims = await importRebuildClaims(db, { rcDir });
-      console.log(`Dependency ladder: ${repos.resolved} new source repositories, ${ids.versions} versions checked for a tag (${ids.byStatus['tag-found'] || 0} found), rebuild claims for ${claims.ossNames} packages asked (${claims.ossClaims} from OSS Rebuild, ${claims.ossDetails} attestations read, ${claims.rcClaims} from Reproducible Central)${claims.failed ? `, ${claims.failed} lookups failed` : ''}`);
+      const claims = await importRebuildClaims(db, { rcDir, wsFeedUrl: process.env.SOURCE_ANALYSIS_REBUILD_FEED || null });
+      console.log(`Dependency ladder: ${repos.resolved} new source repositories, ${ids.versions} versions checked for a tag (${ids.byStatus['tag-found'] || 0} found), rebuild claims for ${claims.ossNames} packages asked (${claims.ossClaims} from OSS Rebuild, ${claims.ossDetails} attestations read, ${claims.rcClaims} from Reproducible Central, ${claims.wsClaims} from our own rebuilder)${claims.failed ? `, ${claims.failed} lookups failed` : ''}`);
     } catch (error) {
       console.warn('Dependency ladder:', error.message);
     }

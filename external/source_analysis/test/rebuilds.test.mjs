@@ -162,7 +162,7 @@ describe('importing claims into the database', () => {
     fs.writeFileSync(path.join(rc, 'content/okio/okio-3.9.0.buildspec'), 'groupId=com.squareup.okio\n');
     fs.writeFileSync(path.join(rc, 'content/okio/okio-3.9.0.buildcompare'), 'version=3.9.0\nokFiles=""\nkoFiles="okio-3.9.0.jar"\n');
     const s = await importRebuildClaims(db, { fetchImpl, rcDir: rc });
-    assert.deepEqual(s, { ossNames: 1, ossClaims: 1, ossDetails: 1, rcClaims: 1, failed: 0 });
+    assert.deepEqual(s, { ossNames: 1, ossClaims: 1, ossDetails: 1, rcClaims: 1, wsClaims: 0, failed: 0 });
     await importRebuildClaims(db, { fetchImpl });
     await importRebuildClaims(db, { fetchImpl, all: true });
     assert.equal(asked, 2);
