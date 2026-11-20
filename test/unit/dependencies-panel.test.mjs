@@ -109,8 +109,8 @@ describe('dependencies panel', () => {
     assert.match(tip.textContent, /nobody has checked them yet/);
     cleared.dispatchEvent(new window.Event('click', { bubbles: true }));
     assert.equal(host.querySelectorAll('tbody tr').length, 10);
-    assert.equal(host.querySelector('tbody tr td a').textContent, 'GHSA-crit');
-    assert.equal(host.querySelector('tbody tr td a').getAttribute('href'), 'https://osv.dev/vulnerability/GHSA-crit');
+    assert.equal(host.querySelector('tbody tr .dp-td-advisory a').textContent, 'GHSA-crit');
+    assert.equal(host.querySelector('tbody tr .dp-td-advisory a').getAttribute('href'), 'https://osv.dev/vulnerability/GHSA-crit');
     assert.equal(host.querySelector('.dp-more').textContent, 'Show all 13 advisories');
     assert.deepEqual([...host.querySelectorAll('thead th')].map(e => e.textContent), ['Package', 'Version', 'Advisory', 'Severity', 'Where?', 'Used by', 'Decision']);
     const headerTips = [...host.querySelectorAll('thead th button')];
@@ -190,7 +190,7 @@ describe('dependencies panel', () => {
     assert.equal(host.querySelector('.dp-tile__caveat').textContent, 'A match means a package version is listed as affected, not that the affected part is used.', 'with an APK check, no "not checked" sentence');
     assert.equal(host.querySelector('.dp-tile .dp-triage-line').textContent, '2 decided · 1 affected · 1 not affected · 11 still to look at (1 partly)');
     const rows = [...host.querySelectorAll('tbody tr')];
-    assert.deepEqual(rows.slice(0, 3).map(r => r.querySelector('td a').textContent), ['GHSA-crit', 'GHSA-high', 'GHSA-test'], 'by severity alone: a decision does not move a row');
+    assert.deepEqual(rows.slice(0, 3).map(r => r.querySelector('.dp-td-advisory a').textContent), ['GHSA-crit', 'GHSA-high', 'GHSA-test'], 'by severity alone: a decision does not move a row');
     const affected = rows[2];
     const partlyRow = rows[1];
     const first = rows[0].querySelector('.dp-td-decision');
@@ -214,7 +214,7 @@ describe('dependencies panel', () => {
     const partly = partlyRow.querySelector('.dp-td-decision');
     assert.equal(partly.querySelector('.dp-decision').textContent, 'Not assessed');
     assert.equal(partly.querySelector('.dp-decision__why').textContent, '1 of 2 direct users assessed');
-    const community = rows.find(r => r.querySelector('td a').textContent === 'GHSA-mod-0');
+    const community = rows.find(r => r.querySelector('.dp-td-advisory a').textContent === 'GHSA-mod-0');
     assert.equal(community.querySelector('.dp-decision').textContent, 'Not assessed', 'an author outside the trusted list settles nothing');
     const folded = community.querySelector('details.dp-decision__others');
     assert.equal(folded.querySelector('summary').textContent, 'What others say (2)', 'one community statement, one ignore-file entry');
@@ -253,7 +253,7 @@ describe('dependencies panel', () => {
     const model = await renderDependenciesPanel({ host, appId: 'app.android', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl });
     assert.deepEqual(model.signals, { date: '2026-10-16', exploited: 1, withEpss: 2 });
     const rows = [...host.querySelectorAll('tbody tr')];
-    assert.deepEqual(rows.slice(0, 3).map(r => r.querySelector('td a').textContent), ['GHSA-crit', 'GHSA-test', 'GHSA-high'], 'the exploited high row before the other high row');
+    assert.deepEqual(rows.slice(0, 3).map(r => r.querySelector('.dp-td-advisory a').textContent), ['GHSA-crit', 'GHSA-test', 'GHSA-high'], 'the exploited high row before the other high row');
     assert.equal(rows[1].querySelector('.dp-kev').textContent, 'exploited in the wild');
     assert.equal(rows[1].querySelector('.dp-published').textContent, 'public since 2022-04-25');
     assert.equal(rows[2].querySelector('.dp-published'), null, 'no date known, none shown');
@@ -383,11 +383,11 @@ describe('dependencies panel', () => {
     const model = await renderDependenciesPanel({ host, appId: 'app.android', platform: 'android', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl });
     assert.equal(model.ref, 'v1.3.0', 'the version already picked when the export arrives');
     assert.match(host.querySelector('.dp-headline').textContent, /Checked release v1\.3\.0/);
-    assert.equal(host.querySelector('tbody tr td a').textContent, 'GHSA-old');
+    assert.equal(host.querySelector('tbody tr .dp-td-advisory a').textContent, 'GHSA-old');
 
     pick('1.4.0');
     assert.match(host.querySelector('.dp-headline').textContent, /Checked release v1\.4\.0/);
-    assert.equal(host.querySelector('tbody tr td a').textContent, 'GHSA-crit');
+    assert.equal(host.querySelector('tbody tr .dp-td-advisory a').textContent, 'GHSA-crit');
 
     pick('1.1.0');
     assert.equal(host.querySelector('tbody'), null);

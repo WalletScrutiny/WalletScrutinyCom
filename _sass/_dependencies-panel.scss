@@ -564,6 +564,69 @@ body.dark .dp-history__dot--current {
     &.dp-adv-table .dp-sev-cell {
       align-items: flex-start;
     }
+
+    // Severity, Where? and Used by share one row; the package and the
+    // decision get a row each
+    &.dp-adv-table tr {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    // Rebuilds: name and version, the wallets count at the right; the claims under them
+    &.dp-rb-table tr {
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 4px 12px;
+    }
+
+    .dp-rb-version {
+      display: none;
+    }
+
+    .dp-rb-shared {
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .dp-rb-claims {
+      grid-column: 1 / -1;
+    }
+
+    .dp-rb-claim {
+      margin: 0;
+    }
+
+    // what a phone card leaves out: a version or advisory cell with nothing
+    // under it (both moved onto the name's line), and a decision nobody made
+    .dp-m-hide,
+    .dp-d-only,
+    .dp-decision--undecided {
+      display: none;
+    }
+
+    .dp-m-nolabel::before {
+      display: none;
+    }
+  }
+}
+
+// The version and the advisory link on the name's line, on phones only
+.dp-m-only {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .dp-m-only {
+    display: inline;
+  }
+
+  .dp-m-version {
+    margin-left: 6px;
+    color: var(--neutral-2);
+    font-family: monospace;
+  }
+
+  .dp-adv-icon {
+    margin-left: 8px;
+    font-size: 0.9em;
   }
 }
 

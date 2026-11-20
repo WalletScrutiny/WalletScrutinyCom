@@ -459,18 +459,33 @@ export function severityTally(model, rows = model.advisories || [], { explain = 
 
 // The ecosystem only appears when the release mixes several (npm next to
 // gradle next to pip); a wallet with one ecosystem would repeat it on every row.
+// On phones the version and an icon linking the advisory sit on the name's
+// line, and a cell left with nothing else in it is hidden (dp-m-hide).
 function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = null, defaultBranch = null, showWhere = true, usedByOptions = {} } = {}) {
   const where = whereOf(a);
   const fresh = Boolean(freshId) && statementsOf(a).some(s => s.id === freshId);
+  const osvUrl = `${OSV_URL}${encodeURIComponent(a.id)}`;
+  const versionLines = [gitFixLine(a), fixedInMasterLine(a, defaultBranch)].filter(Boolean);
+  const listedBy = listedByLine(a);
   return el('tr', { className: fresh ? 'dp-row--fresh' : null, dataset: { advisory: a.id, package: a.package } },
-    el('td', { className: 'dp-td-package', dataset: { label: 'Package' } }, ...breakableName(a.package), mixedEcosystems && a.ecosystem ? el('span', { className: 'dp-eco' }, a.ecosystem) : null, repoLine(a), viaLine(a)),
-    el('td', { className: 'dp-td-version', dataset: { label: 'Version' } }, a.version, gitFixLine(a), fixedInMasterLine(a, defaultBranch)),
-    el('td', { className: 'dp-td-advisory', dataset: { label: 'Advisory' } }, el('a', { href: `${OSV_URL}${encodeURIComponent(a.id)}`, target: '_blank', rel: 'noopener noreferrer', title: a.summary || '' }, a.id), listedByLine(a)),
+    el('td', { className: 'dp-td-package', dataset: { label: 'Package' } }, ...breakableName(a.package),
+      el('span', { className: 'dp-m-only dp-m-version' }, a.version),
+      mixedEcosystems && a.ecosystem ? el('span', { className: 'dp-eco' }, a.ecosystem) : null,
+      el('a', { className: 'dp-m-only dp-adv-icon', href: osvUrl, target: '_blank', rel: 'noopener noreferrer', title: a.summary ? `${a.id}: ${a.summary}` : a.id, 'aria-label': `${a.id} on OSV.dev`, html: wsIcon('up-right-from-square') }),
+      repoLine(a), viaLine(a)),
+    el('td', { className: `dp-td-version${versionLines.length ? '' : ' dp-m-hide'}`, dataset: { label: 'Version' } }, el('span', { className: 'dp-d-only' }, a.version), ...versionLines),
+    el('td', { className: `dp-td-advisory${listedBy ? '' : ' dp-m-hide'}`, dataset: { label: 'Advisory' } }, el('a', { className: 'dp-d-only', href: osvUrl, target: '_blank', rel: 'noopener noreferrer', title: a.summary || '' }, a.id), listedBy),
     el('td', { className: 'dp-td-severity', dataset: { label: 'Severity' } }, severityCell(a)),
     showWhere ? el('td', { className: 'dp-td-where', dataset: { label: 'Where?' } }, el('span', { className: `dp-where dp-where--${where}`, title: where === 'unknown' ? WHERE_UNKNOWN_TIP : null }, whereLabel(a)), inApkLine(a)) : null,
     el('td', { className: 'dp-td-products', dataset: { label: 'Used by' } }, usedBy(a, usedByOptions)),
-    el('td', { className: 'dp-td-decision', dataset: { label: 'Decision' } }, decisionCell(a, { onJudge, freshId })),
+    el('td', { className: `dp-td-decision${undecidedOnly(a) ? (onJudge ? ' dp-m-nolabel' : ' dp-m-hide') : ''}`, dataset: { label: 'Decision' } }, decisionCell(a, { onJudge, freshId })),
   );
+}
+
+// A row nobody has said anything about: its decision cell would only say "Not assessed".
+function undecidedOnly(a) {
+  const t = a.triage || {};
+  return !a.decision && !t.covered?.length && !t.partial?.length && !t.stale?.length && !t.others?.length && !a.upstream?.length;
 }
 
 // Under the version: the advisory no longer matches the default branch's
