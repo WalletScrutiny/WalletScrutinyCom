@@ -1385,6 +1385,12 @@ body.dark .dp-note-more {
   color: var(--neutral-2);
   cursor: pointer;
 
+  // neutral-5 is barely off the dark panel, like the controls at the end of
+  // this file; hover and the selected tab still win
+  :where(body.dark) & {
+    border-color: var(--neutral-4);
+  }
+
   &:hover {
     color: var(--neutral-0);
     border-color: var(--accent);
