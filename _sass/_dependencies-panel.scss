@@ -1726,9 +1726,9 @@ body.dark .dp-rb--failed { color: #f5b041; border-color: #f5b041; }
 }
 .dp-rb-table td { vertical-align: top; }
 
-// Dark theme: neutral-5 is barely off the panel, so the outlines of controls
-// and pills get neutral-4. Table lines, tiles and the tree's guide lines keep
-// neutral-5: their fills set them apart. Last in the file and at class
+// Dark theme: neutral-5 is barely off the panel, so the outlines of controls,
+// pills and the phone cards get neutral-4. Table lines, tiles and the tree's
+// guide lines keep neutral-5: their fills set them apart. Last in the file and at class
 // specificity, so hover colours and the fixed-colour pills still win.
 :where(body.dark) {
   .dp-badge,
@@ -1741,7 +1741,8 @@ body.dark .dp-rb--failed { color: #f5b041; border-color: #f5b041; }
   .dp-rb-filter + .dp-rb-filter, // phones give each filter its own border
   .dpt-search,
   .dpt-scope,
-  .dpt-toggle {
+  .dpt-toggle,
+  .dp-table tr { // the Advisories and Rebuilds cards on phones
     border-color: var(--neutral-4);
   }
 
