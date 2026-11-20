@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
-# Deploy the database backup (external/db_backup) to build.walletscrutiny.com.
+# Deploy the database backup (external/db_backup) to build.walletscrutiny.com, or
+# with DB_BACKUP_PROFILE=dep-rebuilder to the machine that runs the dependency
+# rebuilder (npm run deploy:db-backup:dep-rebuilder; its database is not on the
+# build server). The second one is the same script and timer with a systemd
+# drop-in (config/dep-rebuilder.conf) for the user and the database.
 #
 # Only that folder is deployed, to /opt/db-backup, root-owned (the service runs as
 # build-server and must not be able to change its own script). Same host and SSH
@@ -15,15 +19,27 @@
 #
 # Usage:
 #   npm run deploy:db-backup
+#   DEP_REBUILDER_HOST=<ssh host> npm run deploy:db-backup:dep-rebuilder
 #
 # Environment:
 #   BUILD_SERVER_HOST   default: build.walletscrutiny.com
+#   DEP_REBUILDER_HOST  required with DB_BACKUP_PROFILE=dep-rebuilder (same value as deploy:dep-rebuilder)
 #   RUN_NOW=1           take snapshots right after the deploy (default: wait for the timer)
 
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-HOST="${BUILD_SERVER_HOST:-build.walletscrutiny.com}"
+PROFILE="${DB_BACKUP_PROFILE:-build-server}"
+case "$PROFILE" in
+  build-server) HOST="${BUILD_SERVER_HOST:-build.walletscrutiny.com}" ;;
+  dep-rebuilder)
+    HOST="${DEP_REBUILDER_HOST:-}"
+    if [ -z "$HOST" ]; then
+      echo "Set DEP_REBUILDER_HOST to the machine that runs the rebuilder (as for deploy:dep-rebuilder)." >&2
+      exit 1
+    fi ;;
+  *) echo "Unknown DB_BACKUP_PROFILE '${PROFILE}' (build-server or dep-rebuilder)" >&2; exit 1 ;;
+esac
 SOURCE_DIR="${ROOT}/external/db_backup"
 TARGET_DIR="/opt/db-backup"
 SERVICE_NAME="walletscrutiny-db-backup.service"
@@ -48,12 +64,13 @@ rsync -az --delete --chown=root:root --info=stats1 \
 
 log "Installing the units and verifying on ${HOST}"
 ssh -o BatchMode=yes "${HOST}" bash -s -- \
-  "$TARGET_DIR" "$SERVICE_NAME" "$TIMER_NAME" "${RUN_NOW:-0}" <<'REMOTE'
+  "$TARGET_DIR" "$SERVICE_NAME" "$TIMER_NAME" "${RUN_NOW:-0}" "$PROFILE" <<'REMOTE'
 set -euo pipefail
 TARGET_DIR="$1"
 SERVICE_NAME="$2"
 TIMER_NAME="$3"
 RUN_NOW="$4"
+PROFILE="$5"
 UNIT_DIR="${TARGET_DIR}/config"
 
 for tool in sqlite3 zstd rsync; do
@@ -75,6 +92,17 @@ fi
 echo "Refreshing systemd units from ${UNIT_DIR}..."
 cp "${UNIT_DIR}/${SERVICE_NAME}" /etc/systemd/system/
 cp "${UNIT_DIR}/${TIMER_NAME}" /etc/systemd/system/
+DROPIN_DIR="/etc/systemd/system/${SERVICE_NAME}.d"
+if [ "$PROFILE" = "dep-rebuilder" ]; then
+  if ! id dep-rebuilder >/dev/null 2>&1; then
+    echo "No user dep-rebuilder on this host: run deploy:dep-rebuilder first" >&2
+    exit 1
+  fi
+  mkdir -p "$DROPIN_DIR"
+  cp "${UNIT_DIR}/dep-rebuilder.conf" "${DROPIN_DIR}/dep-rebuilder.conf"
+else
+  rm -f "${DROPIN_DIR}/dep-rebuilder.conf"
+fi
 # See scripts/deploy-build-server.sh: daemon-reload can take minutes on this host.
 export SYSTEMD_BUS_TIMEOUT=900
 if ! systemctl daemon-reload; then

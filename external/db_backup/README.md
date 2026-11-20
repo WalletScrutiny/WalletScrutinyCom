@@ -9,6 +9,7 @@ machine.
 | `verifications` | build server | `/var/lib/walletscrutiny-build-server/verifications.db` |
 | `assets` | source analysis | `/var/lib/walletscrutiny-source-analysis/assets.db` |
 | `notifications` | WS notifications | `/var/lib/walletscrutiny-ws-notifications/notifications.db` |
+| `dep-rebuilder` | dependency rebuilder, **on its own machine** | `/var/lib/dep-rebuilder/data/dep-rebuilder.db` ([below](#the-dependency-rebuilder-database)) |
 
 Not included: the Blossom server (its index and blobs need their own backup) and
 Uptime Kuma. `WS_BACKUP_DATABASES` takes more `name=path` pairs.
@@ -106,6 +107,42 @@ systemctl list-timers walletscrutiny-db-backup.timer
 A restore loses at most the last day of writes. A snapshot taken during a long
 write is still consistent (the last committed state).
 
+## The dependency rebuilder database
+
+The rebuilder runs on a machine of its own, not on the build server (it builds
+untrusted packages), so the build server's backup cannot read its database. The same
+script and timer run there too, with a drop-in (`config/dep-rebuilder.conf`) that
+sets the user `dep-rebuilder` and the database path:
+
+```bash
+DEP_REBUILDER_HOST=<same host as deploy:dep-rebuilder> npm run deploy:db-backup:dep-rebuilder
+```
+
+Needs `sqlite3 zstd rsync` on that machine (the deploy says so if one is missing) and
+the user `dep-rebuilder` from `deploy:dep-rebuilder`. The copy goes to **its own
+account and key**, not the build server's: build code runs as `dep-rebuilder` on that
+machine, so whoever escapes the sandbox gets this key, and with it must only reach
+this one directory. Steps 2 and the `env` file above, with other names:
+
+```bash
+# On the web host: account db-backup-rebuilder, directory /srv/db-backup-rebuilder,
+# authorized_keys line: command="rrsync /srv/db-backup-rebuilder",restrict ssh-ed25519 <key> dep-rebuilder-backup
+# On the rebuilder machine:
+sudo install -d -m 755 /etc/walletscrutiny-db-backup
+sudo -u dep-rebuilder ssh-keygen -t ed25519 -N '' -f /var/lib/dep-rebuilder/db-backup_ed25519 -C dep-rebuilder-backup
+sudo -u dep-rebuilder ssh-keyscan walletscrutiny.com | sudo -u dep-rebuilder tee /var/lib/dep-rebuilder/db-backup_known_hosts
+# /etc/walletscrutiny-db-backup/env
+WS_BACKUP_PUSH_TARGET=db-backup-rebuilder@walletscrutiny.com:/
+WS_BACKUP_PUSH_SSH="ssh -i /var/lib/dep-rebuilder/db-backup_ed25519 -o UserKnownHostsFile=/var/lib/dep-rebuilder/db-backup_known_hosts -o StrictHostKeyChecking=yes -o BatchMode=yes"
+```
+
+The key and `known_hosts` are in `/var/lib/dep-rebuilder` because the unit's
+`ProtectHome=yes` hides `/home` but not `/var/lib`; the unit can read them as that user.
+Check the key with the `--list-only` command from step 2 (as `dep-rebuilder`), then
+`sudo systemctl start --no-block walletscrutiny-db-backup.service`. Pull it like the others,
+with the other account: `./pull.sh db-backup-rebuilder@walletscrutiny.com <dir> <key>`.
+The snapshot is named `dep-rebuilder-<time>.db.zst`.
+
 ## Pulling to your machine
 
 `pull.sh` copies the snapshots from the build server to a local directory and
@@ -134,8 +171,8 @@ zstd -d verifications-20261120T033012Z.db.zst -o verifications.db
 sqlite3 verifications.db 'PRAGMA integrity_check;'
 ```
 
-Stop the service, move the file to its path, make `build-server` the owner, start
-the service. A restored `notifications.db` is at most a night old; the bot then
+Stop the service, move the file to its path, make `build-server` (`dep-rebuilder` for
+that database) the owner, start the service. A restored `notifications.db` is at most a night old; the bot then
 repeats at most that night's notifications.
 
 ## Notes
