@@ -161,7 +161,7 @@ const FILTERS = [
   ['failed', 'Failed'],
 ];
 const MAX_ROWS = 200;
-const FIRST_ROWS = 8;
+const FIRST_ROWS = 6;
 
 /**
  * The "Rebuilds" tab for one release: `data` is rebuilds.json, `dependencies` dependencies.json rows.

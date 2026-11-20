@@ -110,10 +110,10 @@ describe('dependencies panel', () => {
     assert.match(tip.textContent, /signed that it does not affect this app/);
     assert.match(tip.textContent, /nobody has checked them yet/);
     cleared.dispatchEvent(new window.Event('click', { bubbles: true }));
-    assert.equal(host.querySelectorAll('tbody tr').length, 10);
+    assert.equal(host.querySelectorAll('tbody tr').length, 6);
     assert.equal(host.querySelector('tbody tr .dp-td-advisory a').textContent, 'GHSA-crit');
     assert.equal(host.querySelector('tbody tr .dp-td-advisory a').getAttribute('href'), 'https://osv.dev/vulnerability/GHSA-crit');
-    assert.equal(host.querySelector('.dp-more').textContent, 'Show all 13 advisories');
+    assert.equal(host.querySelector('.dp-more').textContent, 'Show 7 more');
     assert.deepEqual([...host.querySelectorAll('thead th')].map(e => e.textContent), ['Package', 'Version', 'Advisory', 'Severity', 'Where?', 'Used by', 'Decision']);
     const headerTips = [...host.querySelectorAll('thead th button')];
     assert.deepEqual(headerTips.map(e => e.textContent), ['Advisory', 'Severity', 'Where?', 'Decision'], 'Used by has no tip');
@@ -123,7 +123,7 @@ describe('dependencies panel', () => {
     headerTips[2].dispatchEvent(new window.Event('click', { bubbles: true }));
     assert.equal(host.querySelector('.dp-exposure'), null, 'the severities are counted once, in the tile');
     assert.equal(host.querySelector('.dp-tile .dp-triage-line').textContent, '0 decided · 13 still to look at');
-    assert.equal(host.querySelectorAll('.dp-decision--undecided').length, 10);
+    assert.equal(host.querySelectorAll('.dp-decision--undecided').length, 6);
     assert.match(host.querySelector('.dp-note').textContent, /Nobody has made those statements for this wallet's advisories yet/);
     assert.equal(host.querySelector('.dp-eco'), null, 'one ecosystem: no tag on the package');
     assert.match(host.querySelector('.dp-note').textContent, /300 in the app, 90 in the build tooling, 10 only in tests, and 12 the files do not say/);

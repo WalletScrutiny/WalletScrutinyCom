@@ -29,7 +29,7 @@ export const SKIP_REASON_LABEL = {
   'nvd-unavailable': 'native library checked against OSV.dev only, NVD did not answer',
 };
 
-export const WORST_ROWS = 10;
+export const WORST_ROWS = 6;
 
 // The files each page counts (issue 994): its own app's and the shared ones.
 // The same map as external/source_analysis/products.mjs. Other platforms, and
