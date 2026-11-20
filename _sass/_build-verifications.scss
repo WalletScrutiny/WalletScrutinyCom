@@ -236,6 +236,10 @@ body.dark .bv-panel {
   border-radius: 0 0 10px 10px;
 }
 
+body.dark .bv-row + .bv-row {
+  border-top-color: var(--neutral-4);
+}
+
 .bv-row__layout {
   display: flex;
   align-items: center;
@@ -314,6 +318,10 @@ body.dark .bv-panel {
   margin-top: 12px;
   padding-top: 8px;
   border-top: 1px solid var(--neutral-5);
+}
+
+body.dark .bv-build + .bv-build {
+  border-top-color: var(--neutral-4);
 }
 
 /* Inside a build the description heads the files; the verifier rows are indented under
