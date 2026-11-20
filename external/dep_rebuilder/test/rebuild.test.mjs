@@ -239,17 +239,17 @@ test('a database from before the phase column gets it, read from the note', () =
   assert.deepEqual(pending(db).map(r => r.name), ['a', 'b'], 'the old failures of the build itself are not built again');
 });
 
-test('failures for missing files from before workspace members were told apart are built again, once', () => {
+test('the failures of the first version are built again, once', () => {
   const file = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'depreb-rejudge-')), 'old.db');
   const old = openDb(file);
   const rows = { member: 'Rebuilt tarball differs: 1 of 5 files differ (package.json); 3 missing (LICENSE, lib/index.js, lib/index.js.map)', changed: 'Rebuilt tarball differs: 1 of 3 files differ (index.js)', good: 'Byte-identical tarball' };
   for (const [name, note] of Object.entries(rows)) saveRebuild(old, { ecosystem: 'npm', name, version: '1', result: name === 'good' ? 'reproduced' : 'failed', note, phase: name === 'good' ? null : 'compare' });
   saveCandidates(old, Object.keys(rows).map(name => ({ ecosystem: 'npm', name, version: '1', wallets: 1, wallets_any: 1 })));
-  old.exec(`DELETE FROM meta WHERE key = 'rejudged_missing_files'`); // as a database written by the earlier version
+  old.exec(`DELETE FROM meta WHERE key = 'rejudged_failures'`); // as a database written by the earlier version
   old.close();
   const db = openDb(file);
-  assert.deepEqual(pending(db).map(r => r.name), ['member']);
-  saveRebuild(db, { ecosystem: 'npm', name: 'member', version: '1', result: 'failed', note: rows.member, phase: 'compare' });
+  assert.deepEqual(pending(db).map(r => r.name), ['changed', 'member'], 'what was reproduced stays');
+  for (const name of ['changed', 'member']) saveRebuild(db, { ecosystem: 'npm', name, version: '1', result: 'failed', note: rows[name], phase: 'compare' });
   db.close();
   assert.deepEqual(pending(openDb(file)).map(r => r.name), [], 'a failure recorded since then stands');
 });
