@@ -608,7 +608,15 @@ body.dark .dp-history__dot--current {
   }
 }
 
-// The version, the repository and the advisory links on the name's line, on phones only
+// The name links the source repository; on desktop it reads as plain text
+// next to the repository line
+@media (min-width: 641px) {
+  .dp-pkg-link {
+    color: inherit;
+  }
+}
+
+// The version and the advisory link on the name's line, on phones only
 .dp-m-only {
   display: none;
 }
