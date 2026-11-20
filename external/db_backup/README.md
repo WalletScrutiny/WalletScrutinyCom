@@ -23,7 +23,7 @@ How it works (`backup.sh`, run by `walletscrutiny-db-backup.timer` at 03:30 UTC)
    of each of the last 8 weeks (`WS_BACKUP_KEEP_NEWEST`, `WS_BACKUP_KEEP_WEEKS`).
 5. `rsync` of the whole directory to `WS_BACKUP_PUSH_TARGET`, if set. Without
    `WS_BACKUP_PUSH_DELETE=yes` the remote copy keeps everything the server has
-   already pruned, so prune it there yourself.
+   already pruned, so prune it there yourself (the web host needs the disk).
 
 One database failing (missing file, failed check) does not stop the others; the
 unit then ends with exit status 1, so `systemctl --failed` and the journal show it.
@@ -40,30 +40,43 @@ sudo chmod +x /opt/db-backup/backup.sh
 sudo cp config/walletscrutiny-db-backup.service config/walletscrutiny-db-backup.timer /etc/systemd/system/
 ```
 
-**2. Another server: a user that can write one directory and nothing else**
-(suggested names; same pattern as the source analysis export).
+**2. Web host (walletscrutiny.com): a directory and a user for the copy.** The
+build server already has a key and a pinned `known_hosts` for this host (source
+analysis export), so this reuses both. The directory must **not** be
+`/srv/source-analysis`: nginx serves that one publicly under `/api/source-analysis/`.
+It must not be inside `/var/www/walletscrutiny.com` either (`deploy:prod` empties it).
+No nginx location may point at it.
 
 ```bash
-# On the build server: the key the backup copies with
-sudo ssh-keygen -t ed25519 -N '' -C db-backup-push -f /etc/walletscrutiny-db-backup/push_ed25519
-sudo chown build-server: /etc/walletscrutiny-db-backup/push_ed25519
-sudo cat /etc/walletscrutiny-db-backup/push_ed25519.pub     # goes into authorized_keys below
-ssh-keyscan -t ed25519 BACKUP_HOST | sudo tee /etc/walletscrutiny-db-backup/known_hosts
-# compare with `ssh-keygen -lf /etc/ssh/ssh_host_ed25519_key.pub` on BACKUP_HOST
-
-# On BACKUP_HOST
+# On the web host
 sudo adduser --disabled-password --gecos '' db-backup
-sudo mkdir -p /srv/db-backup && sudo chown db-backup: /srv/db-backup
+sudo mkdir -p /srv/db-backup && sudo chmod 700 /srv/db-backup && sudo chown db-backup: /srv/db-backup
 sudo -u db-backup mkdir -p -m 700 ~db-backup/.ssh
-echo 'command="rrsync /srv/db-backup",restrict ssh-ed25519 AAAA... db-backup-push' \
+# the public key of the existing source-analysis publish key (on the build server:
+# cat /etc/walletscrutiny-source-analysis/publish_ed25519.pub)
+echo 'command="rrsync /srv/db-backup",restrict ssh-ed25519 AAAA... source-analysis-publish' \
   | sudo -u db-backup tee ~db-backup/.ssh/authorized_keys
 ```
+
+The same key now has two restricted accounts: `source-analysis` (its public
+export directory) and `db-backup` (this one). Another host works the same way
+with its own key (`ssh-keygen`, `ssh-keyscan`, `rrsync`, as in the source
+analysis README, "Setting up from scratch", step 2).
 
 Then on the build server, `/etc/walletscrutiny-db-backup/env`:
 
 ```bash
-WS_BACKUP_PUSH_TARGET=db-backup@BACKUP_HOST:/
-WS_BACKUP_PUSH_SSH="ssh -i /etc/walletscrutiny-db-backup/push_ed25519 -o UserKnownHostsFile=/etc/walletscrutiny-db-backup/known_hosts -o StrictHostKeyChecking=yes"
+WS_BACKUP_PUSH_TARGET=db-backup@walletscrutiny.com:/
+WS_BACKUP_PUSH_SSH="ssh -i /etc/walletscrutiny-source-analysis/publish_ed25519 -o UserKnownHostsFile=/etc/walletscrutiny-source-analysis/known_hosts -o StrictHostKeyChecking=yes"
+```
+
+The service reads `/etc/walletscrutiny-source-analysis/` with `ReadOnlyPaths`,
+so the key stays readable by `build-server` only.
+
+Check before the first run, like the source analysis does:
+
+```bash
+sudo -u build-server rsync -e "$(. /etc/walletscrutiny-db-backup/env; echo "$WS_BACKUP_PUSH_SSH")" --list-only db-backup@walletscrutiny.com:/
 ```
 
 **3. Start and check.**
@@ -85,23 +98,20 @@ write is still consistent (the last committed state).
 checks every new file with `zstd -t`. It never deletes locally, so your copy keeps
 history beyond the server's retention. Needs `rsync` and `zstd`.
 
-A key only for this, read-only, on the build server's `build-server` account
-(`~build-server/.ssh/authorized_keys`; `rrsync -ro` limits it to reading the
-backup directory):
+A key only for this, read-only, on the `db-backup` account of the web host
+(`~db-backup/.ssh/authorized_keys`, one more line next to the build server's;
+`rrsync -ro` limits it to reading `/srv/db-backup`). This keeps your machine off
+the build server.
 
 ```
-command="rrsync -ro /var/lib/walletscrutiny-db-backup",restrict ssh-ed25519 AAAA... db-backup-pull
+command="rrsync -ro /srv/db-backup",restrict ssh-ed25519 AAAA... db-backup-pull
 ```
 
 Then on your machine, by hand or from a cron job/systemd user timer:
 
 ```bash
-./pull.sh build-server@BUILD_SERVER ~/walletscrutiny-db-backups ~/.ssh/db-backup-pull
+./pull.sh db-backup@walletscrutiny.com ~/walletscrutiny-db-backups ~/.ssh/db-backup-pull
 ```
-
-The pull can also use the remote copy instead (a second read-only `rrsync -ro
-/srv/db-backup` key on `db-backup`), which keeps your machine off the build
-server.
 
 ## Restoring
 

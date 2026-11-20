@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Run on your own machine: bring the server's database snapshots here.
-#   ./pull.sh user@build-server [local-dir [ssh-key]]
+# Run on your own machine: bring the database snapshots from the web host here.
+#   ./pull.sh db-backup@walletscrutiny.com [local-dir [ssh-key]]
 # local-dir defaults to ~/walletscrutiny-db-backups. Nothing is ever deleted here
 # (snapshots the server has already pruned stay), so this is your long-term copy.
 # Needs rsync and zstd. See README.md, "Pulling to your machine".
@@ -17,8 +17,8 @@ mkdir -p "$dest"
 new="$(mktemp)"
 trap 'rm -f "$new"' EXIT
 
-# The key on the server is limited to a read-only rrsync of the backup directory,
-# so the source is its root. Snapshot files never change once written.
+# The key on the remote account is limited to a read-only rrsync of the backup
+# directory, so the source is its root. Snapshot files never change once written.
 rsync -a --partial --exclude '/.tmp/' --out-format='%n' -e "${ssh_cmd[*]}" "$remote:/" "$dest/" \
   | grep -E '\.db\.zst$' > "$new" || true
 
