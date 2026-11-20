@@ -100,6 +100,11 @@ body.dark .dp-panel {
   padding: 10px 12px;
   background: var(--neutral-7, transparent);
   min-width: 0;
+
+  // neutral-5 is barely off the dark panel
+  :where(body.dark) & {
+    border-color: var(--neutral-4);
+  }
 }
 
 .dp-tile__value {
