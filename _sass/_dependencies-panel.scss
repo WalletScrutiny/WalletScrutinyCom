@@ -1288,7 +1288,11 @@ a.dp-signer {
   font-size: $font-xxs;
   color: var(--neutral-3);
   text-transform: lowercase;
+  line-height: 1.2;
+  // middle centres on the x-height; lift it to the digits' and capitals' middle
   vertical-align: middle;
+  position: relative;
+  top: -0.2em;
 }
 
 .dp-note {
@@ -1681,7 +1685,11 @@ body.dark .dp-rb--failed { color: #f5b041; border-color: #f5b041; }
   font-size: $font-xxs;
   color: var(--neutral-3);
   text-transform: lowercase;
+  line-height: 1.2;
+  // middle centres on the x-height; lift it to the digits' and capitals' middle
   vertical-align: middle;
+  position: relative;
+  top: -0.2em;
 }
 @media (min-width: 641px) {
   .dp-rb-table .dp-rb-center { text-align: center; }
