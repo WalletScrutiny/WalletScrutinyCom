@@ -6,14 +6,13 @@ Wants=network-online.target
 
 [Service]
 Type=simple
-# Never the build server: the packages are untrusted code (README, "Where it runs").
-# An unprivileged user with rootless podman and lingering (deploy script).
-User=dep-rebuilder
-Group=dep-rebuilder
+# The build server's unprivileged user (rootless podman, lingering). The packages
+# are untrusted code: every build runs in a sandbox container (README, "The sandbox").
+User=build-server
+Group=build-server
 WorkingDirectory=/opt/dep-rebuilder/external/dep_rebuilder
-StateDirectory=dep-rebuilder
-Environment=HOME=/var/lib/dep-rebuilder
-Environment=DEP_REBUILDER_DATA=/var/lib/dep-rebuilder/data
+StateDirectory=walletscrutiny-dep-rebuilder
+Environment=DEP_REBUILDER_DATA=/var/lib/walletscrutiny-dep-rebuilder/data
 # Where the dependency lists come from (default: the live export)
 #Environment=DEP_REBUILDER_EXPORT=https://walletscrutiny.com/api/source-analysis
 # Limits per sandbox phase (sandbox.mjs): memory, CPUs, processes, disk GB, minutes

@@ -9,8 +9,7 @@ Today: **npm**. Cargo, PyPI and Maven need their own build recipes.
 
 ## Run it
 
-Start it as an **unprivileged user with rootless podman**, on a machine that is
-not the build server. It refuses to run as root (`DEP_REBUILDER_ALLOW_ROOT=1`
+Start it as an **unprivileged user with rootless podman**. It refuses to run as root (`DEP_REBUILDER_ALLOW_ROOT=1`
 overrides, for tests).
 
 ```
@@ -49,26 +48,25 @@ earlier run are removed at start.
 
 ### Where it runs
 
-**Not on the build server**: the packages are untrusted code. Use a machine of
-its own (ideally a VM) with `podman`, `nodejs`, `npm` and `uidmap`, SSH as root.
+On the build server, as the `build-server` user (rootless podman, set up for the
+Automated Build Server), with a database and scratch space of its own.
 
 ### Deploy
 
 ```
-DEP_REBUILDER_HOST=<ssh host> npm run deploy:dep-rebuilder      # from the repository root
+npm run deploy:dep-rebuilder      # from the repository root; BUILD_SERVER_HOST overrides the host
 ```
 
 The script runs the tests, copies `external/dep_rebuilder` and
 `external/source_analysis` (whose comparison code is reused) to
-`/opt/dep-rebuilder`, creates the unprivileged user `dep-rebuilder` (home
-`/var/lib/dep-rebuilder`: database, logs, container storage; subuid/subgid
-ranges; lingering, which rootless podman needs), runs `npm ci`, installs and
-enables `walletscrutiny-dep-rebuilder.service` (`Restart=always`, starts on
-boot) and restarts it. `RESTART=0` leaves a running service alone.
+`/opt/dep-rebuilder`, runs `npm ci` as `build-server`, installs and enables
+`walletscrutiny-dep-rebuilder.service` (`Restart=always`, starts on boot) and
+restarts it. Database, logs and scratch are in
+`/var/lib/walletscrutiny-dep-rebuilder`. `RESTART=0` leaves a running service alone.
 
 ```
 journalctl -u walletscrutiny-dep-rebuilder -f
-sudo -u dep-rebuilder env DEP_REBUILDER_DATA=/var/lib/dep-rebuilder/data node /opt/dep-rebuilder/external/dep_rebuilder/index.mjs status
+sudo -u build-server env DEP_REBUILDER_DATA=/var/lib/walletscrutiny-dep-rebuilder/data node /opt/dep-rebuilder/external/dep_rebuilder/index.mjs status
 ```
 
 Tuning: edit the `Environment=` lines of the unit (limits, export URL). The
