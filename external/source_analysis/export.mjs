@@ -10,6 +10,7 @@
 //   apps/<appId>/<ref>/dependencies.json  the full resolved dependency list of one release, each row with how many products ship the package
 //   apps/<appId>/<ref>/submodules.json    the release's git submodules, when it has any
 //   apps/<appId>/<ref>/rebuilds.json      who rebuilt which of the release's dependencies from source (ours and imported claims), when anyone did
+//   apps/<appId>/<ref>/rebuild-details.json  what each OSS Rebuild attestation of those claims says, by URL; the panel loads it on tap
 //   used-by.json                        for each package with an advisory, which apps ship it at which versions (exportAll only)
 //
 // Each file carries only what a reader uses (the wallet page's Dependencies
@@ -28,7 +29,7 @@ import { groupByRepository } from './appList.mjs';
 import { hintsByApp } from './upstreamTriage.mjs';
 import { coverageForReaders, coverageByPlatform } from './plugins/lock-coverage.mjs';
 import { buildLockForReaders } from './plugins/build-lock.mjs';
-import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, getBackportedAdvisories, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getVerifiedRefs, getEndOfLife, getSubmodules, getRebuildClaims, getDefaultBranch, getOwnAdvisories, DEFAULT_BRANCH_REF } from './ddbbUtils.mjs';
+import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, getBackportedAdvisories, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getVerifiedRefs, getEndOfLife, getSubmodules, getRebuildClaims, getOssRebuildDetails, getDefaultBranch, getOwnAdvisories, DEFAULT_BRANCH_REF } from './ddbbUtils.mjs';
 import { COUNTED_TARGETS, partOfFile, productPartOf, sortingOf, targetOfLockfile, targetsOfLockfiles, unlistedFiles, useRepositories } from './products.mjs';
 
 export const SCHEMA = 1;
@@ -497,6 +498,7 @@ export function exportAll(db, outDir, { onlyReproducible = false } = {}) {
   const counts = productCounts(db);
   const sources = packageSources(db);
   const rebuilds = getRebuildClaims(db);
+  const ossDetails = getOssRebuildDetails(db);
   let releases = 0;
   const unlisted = {};
   // Alias stubs wait for the loop: an alias in scope may still write nothing
@@ -504,7 +506,7 @@ export function exportAll(db, outDir, { onlyReproducible = false } = {}) {
   const stubs = new Map();
   const apps = [];
   for (const appId of [...appIds].sort()) {
-    const app = writeAppFiles(db, tmp, appId, aliases.get(appId) || [], counts, sources, null, { rebuilds, onlyReproducible, stubs });
+    const app = writeAppFiles(db, tmp, appId, aliases.get(appId) || [], counts, sources, null, { rebuilds, ossDetails, onlyReproducible, stubs });
     if (!app) continue;
     apps.push(app);
     releases += app.releases.length;
@@ -607,11 +609,20 @@ export function releaseRebuilds(deps, claims) {
   return rows.length ? { rows, summary } : null;
 }
 
+/** The stored attestation summaries of a release's OSS Rebuild claims, by URL; null when none is stored. */
+export function releaseRebuildDetails(rows, ossDetails) {
+  const out = {};
+  for (const r of rows) {
+    for (const c of r.claims) if (c.by === 'oss-rebuild' && ossDetails.has(c.url)) out[c.url] = ossDetails.get(c.url);
+  }
+  return Object.keys(out).length ? out : null;
+}
+
 // One app's files under dir: apps/<appId>.json, a dependencies.json per
 // release, and a stub for each alias that is not exported in its own right.
 // With `stubs` (a Map) the stubs are collected there instead, alias id to app id.
 // Writes nothing and returns null when `onlyReproducible` leaves no release.
-function writeAppFiles(db, dir, appId, aliases, counts, sources, isExported, { atomic = false, rebuilds = getRebuildClaims(db), onlyReproducible = false, stubs = null } = {}) {
+function writeAppFiles(db, dir, appId, aliases, counts, sources, isExported, { atomic = false, rebuilds = getRebuildClaims(db), ossDetails = getOssRebuildDetails(db), onlyReproducible = false, stubs = null } = {}) {
   const write = atomic ? writeAtomic : (file, content) => fs.writeFileSync(file, content);
   const reproduced = onlyReproducible ? reproducedListings(db, appId, aliases) : null;
   const app = buildApp(db, appId, aliases, counts, sources, { reproduced });
@@ -626,6 +637,8 @@ function writeAppFiles(db, dir, appId, aliases, counts, sources, isExported, { a
     const rb = releaseRebuilds(deps, rebuilds);
     if (rb) {
       write(path.join(refDir, 'rebuilds.json'), JSON.stringify({ schema: SCHEMA, rows: rb.rows }));
+      const details = releaseRebuildDetails(rb.rows, ossDetails);
+      if (details) write(path.join(refDir, 'rebuild-details.json'), JSON.stringify({ schema: SCHEMA, details }));
       r.rebuilds = rb.summary;
     }
     write(path.join(refDir, 'dependencies.json'), JSON.stringify({

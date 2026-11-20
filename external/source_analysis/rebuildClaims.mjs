@@ -27,6 +27,9 @@ export const RC_REPO = 'https://github.com/jvm-repo-rebuild/reproducible-central
 const OSS_ECOSYSTEMS = { npm: 'npm', pip: 'pypi', cargo: 'cratesio' };
 const LOOKUP_TTL_DAYS = 7;
 const CONCURRENCY = 16;
+// Attestations are downloaded once each (they never change), gently: a
+// refusal stops the downloads for this pass, the rest wait for the next.
+const DETAILS_CONCURRENCY = 4;
 
 /** PyPI names compare case- and separator-insensitively (PEP 503). */
 export const pypiName = (n) => n.toLowerCase().replace(/[-_.]+/g, '-');
@@ -66,6 +69,79 @@ export async function listOssRebuild(ecosystem, name, fetchImpl = fetch) {
     pageToken = doc.nextPageToken || '';
   } while (pageToken);
   return parseOssListing(names, prefix);
+}
+
+/**
+ * What a person wants from one OSS Rebuild attestation (rebuild.intoto.jsonl:
+ * one DSSE envelope per line, each a base64 in-toto statement). The Rebuild
+ * statement says what was built; ArtifactEquivalence whether the rebuilt file
+ * equals the registry's byte for byte or only after Google's normalization
+ * ("stabilized"). Null when the file holds no Rebuild statement.
+ */
+export function parseOssAttestation(text) {
+  const statements = [];
+  for (const line of text.split('\n')) {
+    if (!line.trim()) continue;
+    try { statements.push(JSON.parse(Buffer.from(JSON.parse(line).payload, 'base64').toString('utf8'))); } catch { /* not an envelope */ }
+  }
+  const typeOf = (s) => s?.predicate?.buildDefinition?.buildType || '';
+  const rebuild = statements.find(s => /\/Rebuild@/.test(typeOf(s)));
+  if (!rebuild) return null;
+  const { buildDefinition: def = {}, runDetails: run = {} } = rebuild.predicate;
+  const out = {};
+  const recipe = (run.byproducts || []).find(b => b.name === 'build.json');
+  let build = null;
+  if (recipe?.content) {
+    try {
+      const [kind, params] = Object.entries(JSON.parse(Buffer.from(recipe.content, 'base64').toString('utf8')))[0] || [];
+      if (kind) build = { kind, params: params || {} };
+    } catch { /* no recipe */ }
+  }
+  const git = (def.resolvedDependencies || []).find(d => d.name?.startsWith('git+'));
+  const repo = build?.params.repo || git?.name.slice(4);
+  const commit = build?.params.ref || (git && Object.values(git.digest || {})[0]);
+  if (repo) out.repo = repo;
+  if (commit) out.commit = commit;
+  if (build) {
+    out.recipe = build.kind;
+    const tools = Object.entries(build.params).filter(([k, v]) => k.endsWith('_version') && v).map(([k, v]) => `${k.slice(0, -'_version'.length)} ${v}`);
+    if (tools.length) out.tools = tools.join(', ');
+    if (build.params.dir && build.params.dir !== '.') out.dir = build.params.dir;
+  }
+  const built = run.metadata?.finishedOn || run.metadata?.startedOn;
+  if (built) out.built = String(built).slice(0, 10);
+  const eq = statements.find(s => /\/ArtifactEquivalence@/.test(typeOf(s)));
+  const digests = (eq?.predicate?.buildDefinition?.resolvedDependencies || []).map(d => d.digest?.sha256).filter(Boolean);
+  if (digests.length === 2) out.exact = digests[0] === digests[1];
+  return out;
+}
+
+/**
+ * Downloads and decodes the attestations behind OSS Rebuild claims that have
+ * no stored summary yet (oss_rebuild_details, keyed by URL). A 404 is skipped;
+ * any other failure stops the downloads until the next pass.
+ */
+export async function importOssDetails(db, { fetchImpl = fetch, log = () => {} } = {}) {
+  const stats = { downloaded: 0, stopped: false };
+  const urls = db.prepare(`SELECT DISTINCT r.url FROM package_rebuilds r
+    WHERE r.claimant = 'oss-rebuild' AND r.url IS NOT NULL
+    AND NOT EXISTS (SELECT 1 FROM oss_rebuild_details d WHERE d.url = r.url)`).all().map(r => r.url);
+  const save = db.prepare(`INSERT OR REPLACE INTO oss_rebuild_details (url, details, checked_at) VALUES (?, ?, CURRENT_TIMESTAMP)`);
+  const worker = async () => {
+    while (urls.length && !stats.stopped) {
+      const url = urls.shift();
+      let r;
+      try { r = await fetchImpl(url, { signal: AbortSignal.timeout(30000) }); } catch (e) { stats.stopped = true; log(`OSS Rebuild attestation ${url}: ${e.message}`); break; }
+      if (r.status === 404) continue;
+      if (!r.ok) { stats.stopped = true; log(`OSS Rebuild attestation ${url}: HTTP ${r.status}, the rest next pass`); break; }
+      const details = parseOssAttestation(await r.text());
+      if (!details) continue;
+      save.run(url, JSON.stringify(details));
+      stats.downloaded++;
+    }
+  };
+  await Promise.all(Array.from({ length: DETAILS_CONCURRENCY }, worker));
+  return stats;
 }
 
 /** key=value lines of a .buildcompare or .buildspec; quotes stripped. */
@@ -156,12 +232,13 @@ export function syncReproducibleCentral(dir, { run = (args) => execFileSync('git
 /**
  * Import outside claims for every package version the database holds.
  * OSS Rebuild: one bucket listing per package name, repeated after
- * LOOKUP_TTL_DAYS (rebuild_lookups). Reproducible Central: the whole clone at
+ * LOOKUP_TTL_DAYS (rebuild_lookups), then each new claim's attestation once
+ * (importOssDetails). Reproducible Central: the whole clone at
  * rcDir, when given. Claims are replaced per (package version, claimant), so a
  * claim withdrawn upstream disappears at the next lookup.
  */
 export async function importRebuildClaims(db, { fetchImpl = fetch, rcDir = null, all = false, log = () => {} } = {}) {
-  const stats = { ossNames: 0, ossClaims: 0, rcClaims: 0, failed: 0 };
+  const stats = { ossNames: 0, ossClaims: 0, ossDetails: 0, rcClaims: 0, failed: 0 };
   const save = db.prepare(`INSERT OR REPLACE INTO package_rebuilds (ecosystem, name, version, claimant, result, artifact, url, note, checked_at)
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)`);
   const dropFor = db.prepare(`DELETE FROM package_rebuilds WHERE ecosystem = ? AND name = ? AND claimant = ?`);
@@ -194,6 +271,7 @@ export async function importRebuildClaims(db, { fetchImpl = fetch, rcDir = null,
     }
   };
   await Promise.all(Array.from({ length: CONCURRENCY }, worker));
+  stats.ossDetails = (await importOssDetails(db, { fetchImpl, log })).downloaded;
 
   if (rcDir) {
     const rc = readReproducibleCentral(rcDir);

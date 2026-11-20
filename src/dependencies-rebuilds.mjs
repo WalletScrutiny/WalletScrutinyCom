@@ -6,6 +6,8 @@
 // wallet's verdict.
 
 import { el } from './html-utils.mjs';
+import { wsIcon } from './icon.mjs';
+import { tipTrigger, refreshTip } from './dependencies-epss-tip.mjs';
 
 export const CLAIMANTS = {
   ws: { label: 'WalletScrutiny', short: 'us', url: 'https://walletscrutiny.com' },
@@ -85,13 +87,65 @@ function eventPreview(c) {
     el('p', { className: 'dpt-intro' }, 'Not signed or published until its kind number is picked. Replaceable by its d tag, so a newer rebuild of the same version replaces this one.'));
 }
 
-function claimLine(c) {
+const RECIPES = {
+  npm_pack_build: 'npm pack',
+  npm_custom_build: 'the package\'s own npm build script',
+  pypi_pure_wheel_build: 'a Python wheel build',
+  cratesio_cargo_package: 'cargo package',
+};
+const OSS_STORAGE_DOCS = 'https://docs.oss-rebuild.dev/storage.html';
+
+function commitLink(repo, commit) {
+  const base = repo.replace(/\.git$/, '').replace(/\/$/, '');
+  return /^https:\/\/(github\.com|gitlab\.com|codeberg\.org)\//.test(base) ? `${base}/commit/${commit}` : null;
+}
+
+const link = (href, text) => el('a', { href, target: '_blank', rel: 'noopener noreferrer' }, text);
+
+/** The tip of one OSS Rebuild claim: `details` from rebuild-details.json, undefined while loading, null when missing. */
+export function ossDetailLines(c, details) {
+  const proof = el('p', {}, link(c.url, 'The signed attestation'), ' (JSON) · ', link(OSS_STORAGE_DOCS, 'what it is'));
+  if (details === undefined) return [el('p', {}, 'Loading what Google\'s rebuild says…')];
+  if (!details) return [el('p', {}, 'No summary of this rebuild yet.'), proof];
+  const lines = [];
+  if (details.repo) {
+    const href = details.commit && commitLink(details.repo, details.commit);
+    lines.push(el('p', {}, 'Built from ', link(details.repo, details.repo.replace(/^https:\/\//, '')),
+      details.commit ? [' at ', href ? link(href, details.commit.slice(0, 12)) : details.commit.slice(0, 12)] : null,
+      details.dir ? ` (folder ${details.dir})` : null, '.'));
+  }
+  if (details.exact != null) {
+    lines.push(el('p', {}, details.exact
+      ? 'The rebuilt file is byte for byte the one the registry serves.'
+      : 'The rebuilt file matches the registry\'s after Google set aside details that differ between builds, such as timestamps and file order.'));
+  }
+  if (details.recipe) lines.push(el('p', {}, `Built with ${RECIPES[details.recipe] || details.recipe}${details.tools ? ` (${details.tools})` : ''}${details.built ? `, ${details.built}` : ''}.`));
+  else if (details.built) lines.push(el('p', {}, `Rebuilt ${details.built}.`));
+  return [...lines, proof];
+}
+
+// The info icon after "Google OSS Rebuild": the release's rebuild-details.json is fetched on first open.
+function ossInfo(c, name, loadDetails) {
+  const trigger = tipTrigger(el('span', { html: wsIcon('circle-info') }), () => {
+    const file = loadDetails();
+    if (file.doc === undefined) {
+      file.ready.then(() => refreshTip(trigger));
+      return ossDetailLines(c, undefined);
+    }
+    return ossDetailLines(c, file.doc?.details?.[c.url] || null);
+  }, { className: 'dp-products-info' });
+  trigger.setAttribute('aria-label', `What Google's rebuild of ${name} says`);
+  return trigger;
+}
+
+function claimLine(c, name, loadDetails) {
   const who = CLAIMANTS[c.by] || { label: c.by };
   return el('div', { className: `dp-rb-claim dp-rb-claim--${c.result}` },
     el('span', { className: `dp-rb dp-rb--${c.result}` }, c.result === 'reproduced' ? 'reproduced' : 'failed'),
     ' ',
     // their claim links to its source (attestation, buildspec); ours to the repository we built from, after the name
     who.url ? el('a', { href: (c.by !== 'ws' && c.url) || who.url, target: '_blank', rel: 'noopener noreferrer' }, who.label) : who.label,
+    c.by === 'oss-rebuild' && c.url && loadDetails ? ossInfo(c, name, loadDetails) : null,
     c.by === 'ws' ? null : el('span', { className: 'dp-rb-theirs' }, ' (their claim)'),
     c.date ? el('span', { className: 'dpt-note' }, ` · ${c.date}`) : null,
     c.note ? el('div', { className: 'dp-via' }, c.note) : null,
@@ -109,8 +163,11 @@ const FILTERS = [
 const MAX_ROWS = 200;
 const FIRST_ROWS = 8;
 
-/** The "Rebuilds" tab for one release: `data` is rebuilds.json, `dependencies` dependencies.json rows. */
-export function rebuildsElement(data, dependencies = []) {
+/**
+ * The "Rebuilds" tab for one release: `data` is rebuilds.json, `dependencies` dependencies.json rows.
+ * `loadDetails()` returns { doc, ready } for the release's rebuild-details.json, doc undefined until ready.
+ */
+export function rebuildsElement(data, dependencies = [], { loadDetails = null } = {}) {
   const index = rebuildIndex(data);
   const seen = new Set();
   const packages = [];
@@ -146,7 +203,7 @@ export function rebuildsElement(data, dependencies = []) {
       el('td', {}, d.name, d.ecosystem ? el('span', { className: 'dp-rb-eco' }, d.ecosystem) : null),
       el('td', { className: 'dp-rb-center' }, d.version),
       el('td', { className: 'dp-rb-center' }, shared(d)),
-      el('td', {}, row ? ORDER.flatMap(by => row.claims.filter(c => c.by === by)).map(claimLine) : el('span', { className: 'dpt-note' }, 'Nobody has tried yet')),
+      el('td', {}, row ? ORDER.flatMap(by => row.claims.filter(c => c.by === by)).map(c => claimLine(c, d.name, loadDetails)) : el('span', { className: 'dpt-note' }, 'Nobody has tried yet')),
     )));
   }
 

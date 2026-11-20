@@ -213,6 +213,8 @@ export function initDatabase(dbPath = DB_PATH) {
   // reproduced | failed; sha256 is the registry file's, commit_sha the source
   // built, event our unsigned Nostr event (ws only).
   // rebuild_lookups records every (claimant, package) asked, with or without claims.
+  // oss_rebuild_details caches what an OSS Rebuild attestation says, by its URL
+  // (rebuildClaims.mjs parseOssAttestation); attestations never change.
   db.exec(`
     CREATE TABLE IF NOT EXISTS package_rebuilds (
       ecosystem TEXT NOT NULL,
@@ -235,6 +237,11 @@ export function initDatabase(dbPath = DB_PATH) {
       name TEXT NOT NULL,
       checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
       PRIMARY KEY (claimant, ecosystem, name)
+    );
+    CREATE TABLE IF NOT EXISTS oss_rebuild_details (
+      url TEXT PRIMARY KEY,
+      details TEXT NOT NULL,
+      checked_at DATETIME DEFAULT CURRENT_TIMESTAMP
     );
   `);
 
@@ -753,6 +760,11 @@ export function getRebuildClaims(db) {
     out.get(key).push(c);
   }
   return out;
+}
+
+/** OSS Rebuild attestation summaries (oss_rebuild_details) as Map url → details. */
+export function getOssRebuildDetails(db) {
+  return new Map(db.prepare('SELECT url, details FROM oss_rebuild_details').all().map(r => [r.url, JSON.parse(r.details)]));
 }
 
 export function getSubmodules(db, appId, ref) {
