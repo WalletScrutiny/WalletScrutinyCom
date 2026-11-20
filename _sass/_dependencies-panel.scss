@@ -495,6 +495,33 @@ body.dark .dp-history__dot--current {
   }
 }
 
+// Desktop: the Advisories and Rebuilds tables get the rounded outline of the
+// filter buttons above them (.dp-history__tabs)
+@media (min-width: 641px) {
+  .dp-adv-table,
+  .dp-rb-table {
+    border-collapse: separate; // collapsed borders ignore border-radius
+    border-spacing: 0;
+    border: 1px solid var(--neutral-5);
+    border-radius: 6px;
+
+    th:last-child,
+    td:last-child {
+      border-right: 0; // the outline is the last column's line
+    }
+
+    tr:last-child td {
+      border-bottom: 0; // the outline closes the table
+    }
+
+    // the header and row fills stay inside the round corners
+    thead tr:first-child th:first-child { border-top-left-radius: 5px; }
+    thead tr:first-child th:last-child { border-top-right-radius: 5px; }
+    tbody tr:last-child td:first-child { border-bottom-left-radius: 5px; }
+    tbody tr:last-child td:last-child { border-bottom-right-radius: 5px; }
+  }
+}
+
 // Phones: each advisory is a card instead of a row of a table wider than
 // the screen; the column names move into the cells (data-label).
 @media (max-width: 640px) {
@@ -1748,6 +1775,8 @@ body.dark .dp-rb--failed { color: #f5b041; border-color: #f5b041; }
   .dp-where:not(.dp-where--app),
   .dp-judge,
   .dp-history__tabs,
+  .dp-adv-table,
+  .dp-rb-table,
   .dp-rb-filter,
   .dp-rb-filter + .dp-rb-filter, // phones give each filter its own border
   .dpt-search,
