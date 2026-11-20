@@ -27,6 +27,8 @@ const APP = {
 };
 
 const noLive = async () => [];
+// a Nostr extension on the page: rows offer to write and edit statements
+const withExtension = { waitExtension: async () => true };
 
 function fakeFetch(files) {
   const calls = [];
@@ -181,7 +183,7 @@ describe('dependencies panel', () => {
       packages: { 'npm:pkg@1.0.0': 'absent' }, nativeFiles: [{ path: 'lib/arm64-v8a/libmystery.so', verdict: 'undeclared', providers: [] }], undeclared: [{ package: 'com.vendored', classes: 7 }] };
     const { fetchImpl, calls } = fakeFetch({ '/x/apps/app.ios.json': { schema: 1, appId: 'app.android', alias: true }, '/x/apps/app.android.json': app, '/xt3/statements.json': triage, '/x/upstream/app.android.json': upstream, '/x/apk/app.android.json': apk });
     const host = document.createElement('div');
-    const model = await renderDependenciesPanel({ host, appId: 'app.ios', base: '/x', triageBase: '/xt3', liveEvents: noLive, fetchImpl, profiles: async () => new Map([[me, { name: 'Alice', picture: 'https://example.org/alice.png' }]]) });
+    const model = await renderDependenciesPanel({ host, appId: 'app.ios', base: '/x', triageBase: '/xt3', liveEvents: noLive, fetchImpl, nostr: withExtension, profiles: async () => new Map([[me, { name: 'Alice', picture: 'https://example.org/alice.png' }]]) });
     await new Promise(r => setTimeout(r, 0)); // signer names arrive after the paint
     assert.deepEqual(calls.slice(2), ['/xt3/statements.json', '/x/signals.json', '/x/upstream/app.android.json', '/x/apk/app.android.json'], 'the site build\'s statements (cached per base, so this test has its own), then the signals, the harvested ignore files and the APK check');
     assert.deepEqual(model.triage, { total: 13, decided: 2, undecided: 11, affected: 1, not_affected: 1, fixed: 0, under_investigation: 0, partial: 1, others: 2 });
@@ -234,7 +236,7 @@ describe('dependencies panel', () => {
       a.id === 'GHSA-crit' ? { ...a, direct: false, dependants: ['alib'], dependantVersions: { alib: ['2.0.0'] } } : a)) }] };
     const { fetchImpl } = fakeFetch({ '/x/apps/app.android.json': app, '/xt995/statements.json': { schema: 1, trusted: [me], statements: [judged] } });
     const host = document.createElement('div');
-    const model = await renderDependenciesPanel({ host, appId: 'app.android', base: '/x', triageBase: '/xt995', liveEvents: noLive, fetchImpl, profiles: async () => new Map([[me, { name: 'Alice' }]]) });
+    const model = await renderDependenciesPanel({ host, appId: 'app.android', base: '/x', triageBase: '/xt995', liveEvents: noLive, fetchImpl, nostr: withExtension, profiles: async () => new Map([[me, { name: 'Alice' }]]) });
     await new Promise(r => setTimeout(r, 0));
     assert.equal(model.triage.decided, 0);
     assert.equal(model.triage.stale, 1);
@@ -242,6 +244,29 @@ describe('dependencies panel', () => {
     const cell = host.querySelector('tbody tr .dp-td-decision');
     assert.equal(cell.querySelector('.dp-decision').textContent, 'Not assessed');
     assert.equal(cell.querySelector('.dp-decision__why').textContent, 'previously not affected in v1.3.0 (pkg 0.9.0, now 1.0.0): vulnerable code never executed (not affected, Alice) Edit');
+  });
+
+  test('without a Nostr extension no row offers to write or edit a statement; one found late adds them', async () => {
+    const me = 'a'.repeat(64);
+    const judged = { id: 'j1', pubkey: me, created_at: 1, d: 'GHSA-crit|via:npm:alib|app:app.android', vulns: ['GHSA-crit'], package: 'npm:pkg', via: 'npm:alib', app: 'app.android', status: 'not_affected', justification: 'vulnerable_code_not_in_execute_path', versions: null, content: '' };
+    const app = { ...APP, releases: [{ ...APP.releases[0], advisories: APP.releases[0].advisories.map(a => (
+      a.id === 'GHSA-crit' ? { ...a, direct: false, dependants: ['alib'] } : a)) }] };
+    const { fetchImpl } = fakeFetch({ '/x/apps/app.android.json': app, '/xtnoext/statements.json': { schema: 1, trusted: [me], statements: [judged] } });
+    const none = document.createElement('div');
+    await renderDependenciesPanel({ host: none, appId: 'app.android', base: '/x', triageBase: '/xtnoext', liveEvents: noLive, fetchImpl, nostr: { waitExtension: async () => false } });
+    assert.ok(none.querySelector('.dp-decision'), 'the decisions are still shown');
+    assert.equal(none.querySelector('.dp-judge'), null, 'no "Add statement"');
+    assert.equal(none.querySelector('.dp-decision__why button'), null, 'no Edit');
+    assert.ok(none.querySelector('.dp-td-decision.dp-m-hide'), 'a lone "Not assessed" is hidden on phones again');
+
+    let inject;
+    const late = document.createElement('div');
+    await renderDependenciesPanel({ host: late, appId: 'app.android', base: '/x', triageBase: '/xtnoext', liveEvents: noLive, fetchImpl, nostr: { waitExtension: () => new Promise(r => { inject = r; }) } });
+    assert.equal(late.querySelector('.dp-judge'), null, 'not before the extension shows up');
+    inject(true);
+    await new Promise(r => setTimeout(r, 0));
+    assert.equal(late.querySelector('.dp-judge').textContent, 'Add statement');
+    assert.equal(late.querySelector('.dp-decision__why button').textContent, 'Edit');
   });
 
   test('signals paint "exploited in the wild" and EPSS under the severity and reorder within a severity', async () => {
