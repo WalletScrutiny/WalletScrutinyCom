@@ -1,11 +1,19 @@
 {% assign platform = include.platform %}
+{%- comment -%}Icon (a symbol id in assets/icons.svg) for the platform.{%- endcomment -%}
+{%- case platform -%}
+{%- when "android", "fdroid" -%}{%- assign iconName = "android" -%}
+{%- when "iphone" -%}{%- assign iconName = "apple" -%}
+{%- when "hardware", "bearer" -%}{%- assign iconName = "microchip" -%}
+{%- when "windows" -%}{%- assign iconName = "windows" -%}
+{%- when "desktop" -%}{%- assign iconName = "desktop" -%}
+{%- when "others" -%}{%- assign iconName = "calculator" -%}
+{%- endcase -%}
 
 {%- comment -%}
 On phones (up to 500px) the hardware wallet notes show their first two lines
 and a "more" link that reveals the rest. Wider screens ignore data-collapsed.
 {%- endcomment -%}
 <div class="step operating-system{% if platform == 'hardware' %} platform-notes-collapsible{% endif %}"{% if platform == 'hardware' %} data-collapsed="true"{% endif %}>
-  {% include iconClass.html platform=platform %}
   <i class="circle">{% include icon.html name=iconName %}</i>
   <div class="title">
     <h3>Platform notes</h3>

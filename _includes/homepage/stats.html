@@ -6,7 +6,71 @@
       <p>Learn more about <a href="/methodology">our methodology</a>.</p>
     </div>
     <div class="home-breakdown-wrap">
-      {% include homepage/wallets_per_category.html %}
+{%- assign denomValue = site.data.precomputed.totalReviewedProducts -%}
+
+<div class="home-breakdown" id="homeBreakdown">
+  <div class="home-breakdown__bar" role="img" aria-label="Wallet verdict breakdown by category">
+    {%- for verdict_group in site.data.verdictGroups -%}
+      {%- assign total = site.data.precomputed.verdictGroupCounts[verdict_group.key] -%}
+      {%- if total > 0 -%}
+      <div
+        class="home-breakdown__segment home-breakdown__segment--{{ verdict_group.key }}"
+        data-key="{{ verdict_group.key }}"
+        style="flex-grow: {{ total }}"
+        title="{{ verdict_group.title | replace_regex: '\.$', '' }}: {{ total | thousands_separated }} of {{ denomValue | thousands_separated }}">
+      </div>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+
+  <ul class="home-breakdown__legend">
+    {%- for verdict_group in site.data.verdictGroups -%}
+      {%- assign total = site.data.precomputed.verdictGroupCounts[verdict_group.key] -%}
+      <li
+        class="home-breakdown__legend-item"
+        data-key="{{ verdict_group.key }}">
+        <div class="home-breakdown__legend-heading">
+          <span class="home-breakdown__swatch home-breakdown__swatch--{{ verdict_group.key }}" aria-hidden="true"></span>
+          <span class="home-breakdown__legend-title">{{ verdict_group.title | replace_regex: '\.$', '' }}</span>
+          <span class="home-breakdown__legend-count">{{ total | thousands_separated }}</span>
+        </div>
+        <span class="home-breakdown__legend-detail">{{ verdict_group.comment | markdownify }}</span>
+      </li>
+    {%- endfor -%}
+  </ul>
+</div>
+
+<script>
+(function () {
+  const breakdown = document.getElementById('homeBreakdown');
+  if (!breakdown) return;
+
+  const segments = breakdown.querySelectorAll('.home-breakdown__segment');
+  const legendItems = breakdown.querySelectorAll('.home-breakdown__legend-item');
+
+  function setHighlight(key) {
+    breakdown.classList.toggle('is-dimmed', Boolean(key));
+    segments.forEach((el) => {
+      el.classList.toggle('is-highlighted', el.dataset.key === key);
+    });
+    legendItems.forEach((el) => {
+      el.classList.toggle('is-highlighted', el.dataset.key === key);
+    });
+  }
+
+  function bindHover(elements) {
+    elements.forEach((el) => {
+      el.addEventListener('mouseenter', () => setHighlight(el.dataset.key));
+      el.addEventListener('mouseleave', () => setHighlight(null));
+      el.addEventListener('focusin', () => setHighlight(el.dataset.key));
+      el.addEventListener('focusout', () => setHighlight(null));
+    });
+  }
+
+  bindHover(segments);
+  bindHover(legendItems);
+})();
+</script>
     </div>
   </div>
 </section>
