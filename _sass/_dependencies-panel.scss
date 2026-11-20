@@ -100,6 +100,11 @@ body.dark .dp-panel {
   padding: 10px 12px;
   background: var(--neutral-7, transparent);
   min-width: 0;
+
+  // neutral-5 is barely off the dark panel
+  :where(body.dark) & {
+    border-color: var(--neutral-4);
+  }
 }
 
 .dp-tile__value {
@@ -1384,6 +1389,12 @@ body.dark .dp-note-more {
   font-weight: 600;
   color: var(--neutral-2);
   cursor: pointer;
+
+  // neutral-5 is barely off the dark panel, like the controls at the end of
+  // this file; hover and the selected tab still win
+  :where(body.dark) & {
+    border-color: var(--neutral-4);
+  }
 
   &:hover {
     color: var(--neutral-0);
