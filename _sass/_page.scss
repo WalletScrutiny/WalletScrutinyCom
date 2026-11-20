@@ -209,36 +209,6 @@
 
 
 /*
-   Page taxonomy
-   ========================================================================== */
-
-.page__taxonomy {
-  .sep {
-    display: none;
-  }
-
-  strong {
-    margin-right: 10px;
-  }
-}
-
-.page__taxonomy-item {
-  display: inline-block;
-  margin-right: 5px;
-  margin-bottom: 8px;
-  padding: 5px 10px;
-  text-decoration: none;
-  border: 1px solid $light-gray;
-  border-radius: $border-radius;
-
-  &:hover {
-    text-decoration: none;
-    color: $link-color-hover;
-  }
-}
-
-
-/*
    Comments
    ========================================================================== */
 
