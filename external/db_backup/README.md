@@ -71,7 +71,7 @@ Then on the build server, `/etc/walletscrutiny-db-backup/env`:
 
 ```bash
 WS_BACKUP_PUSH_TARGET=db-backup@walletscrutiny.com:/
-WS_BACKUP_PUSH_SSH="ssh -i /etc/walletscrutiny-source-analysis/publish_ed25519 -o UserKnownHostsFile=/etc/walletscrutiny-source-analysis/known_hosts -o StrictHostKeyChecking=yes"
+WS_BACKUP_PUSH_SSH="ssh -i /etc/walletscrutiny-source-analysis/publish_ed25519 -o UserKnownHostsFile=/etc/walletscrutiny-source-analysis/known_hosts -o StrictHostKeyChecking=yes -o BatchMode=yes"
 ```
 
 The service reads `/etc/walletscrutiny-source-analysis/` with `ReadOnlyPaths`,
@@ -82,6 +82,11 @@ Check before the first run, like the source analysis does:
 ```bash
 sudo -u build-server rsync -e "$(. /etc/walletscrutiny-db-backup/env; echo "$WS_BACKUP_PUSH_SSH")" --list-only db-backup@walletscrutiny.com:/
 ```
+
+A line ending in ` .` means it works. `Permission denied (publickey)` means the web
+host does not accept the key for `db-backup`: no `authorized_keys` yet, the
+`AAAA...` placeholder still in it, or the key line broken across two lines. Without
+`BatchMode=yes` ssh would fall back to asking for a password instead.
 
 **3. Start and check.**
 
