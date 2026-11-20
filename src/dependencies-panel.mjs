@@ -251,6 +251,12 @@ export function repoLine(a) {
   return el('div', { className: 'dp-repo' }, el('a', { href: a.repo, rel: 'noopener', target: '_blank', title: `Source repository of ${a.package}` }, label));
 }
 
+// On phones the source repository is an icon on the name's line instead of a line of its own.
+function repoIcon(a) {
+  if (typeof a.repo !== 'string' || !/^https:\/\//.test(a.repo)) return null;
+  return el('a', { className: 'dp-m-only dp-adv-icon', href: a.repo, rel: 'noopener', target: '_blank', title: `Source repository of ${a.package}`, 'aria-label': `Source repository of ${a.package}`, html: wsIcon('up-right-from-square') });
+}
+
 // A package name with break opportunities after ':' and '/' (gradle
 // group:artifact, npm @scope/name), so a long coordinate wraps at its joints.
 function breakableName(name) {
@@ -459,8 +465,9 @@ export function severityTally(model, rows = model.advisories || [], { explain = 
 
 // The ecosystem only appears when the release mixes several (npm next to
 // gradle next to pip); a wallet with one ecosystem would repeat it on every row.
-// On phones the version and an icon linking the advisory sit on the name's
-// line, and a cell left with nothing else in it is hidden (dp-m-hide).
+// On phones the version, an icon linking the source repository and one
+// linking the advisory sit on the name's line, and a cell left with nothing
+// else in it is hidden (dp-m-hide).
 function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = null, defaultBranch = null, showWhere = true, usedByOptions = {} } = {}) {
   const where = whereOf(a);
   const fresh = Boolean(freshId) && statementsOf(a).some(s => s.id === freshId);
@@ -471,7 +478,8 @@ function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = nul
     el('td', { className: 'dp-td-package', dataset: { label: 'Package' } }, ...breakableName(a.package),
       el('span', { className: 'dp-m-only dp-m-version' }, a.version),
       mixedEcosystems && a.ecosystem ? el('span', { className: 'dp-eco' }, a.ecosystem) : null,
-      el('a', { className: 'dp-m-only dp-adv-icon', href: osvUrl, target: '_blank', rel: 'noopener noreferrer', title: a.summary ? `${a.id}: ${a.summary}` : a.id, 'aria-label': `${a.id} on OSV.dev`, html: wsIcon('up-right-from-square') }),
+      repoIcon(a),
+      el('a', { className: 'dp-m-only dp-adv-icon', href: osvUrl, target: '_blank', rel: 'noopener noreferrer', title: a.summary ? `${a.id}: ${a.summary}` : a.id, 'aria-label': `${a.id} on OSV.dev`, html: wsIcon('bug-external') }),
       repoLine(a), viaLine(a)),
     el('td', { className: `dp-td-version${versionLines.length ? '' : ' dp-m-hide'}`, dataset: { label: 'Version' } }, el('span', { className: 'dp-d-only' }, a.version), ...versionLines),
     el('td', { className: `dp-td-advisory${listedBy ? '' : ' dp-m-hide'}`, dataset: { label: 'Advisory' } }, el('a', { className: 'dp-d-only', href: osvUrl, target: '_blank', rel: 'noopener noreferrer', title: a.summary || '' }, a.id), listedBy),

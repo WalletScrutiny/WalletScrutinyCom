@@ -608,7 +608,7 @@ body.dark .dp-history__dot--current {
   }
 }
 
-// The version and the advisory link on the name's line, on phones only
+// The version, the repository and the advisory links on the name's line, on phones only
 .dp-m-only {
   display: none;
 }
@@ -627,6 +627,10 @@ body.dark .dp-history__dot--current {
   .dp-adv-icon {
     margin-left: 8px;
     font-size: 0.9em;
+  }
+
+  .dp-td-package .dp-repo {
+    display: none;
   }
 }
 
