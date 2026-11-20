@@ -7,6 +7,9 @@ import { openDb, saveCandidates, pending, saveRebuild, tally } from '../db.mjs';
 import { collectCandidates } from '../candidates.mjs';
 import { sandboxArgs } from '../sandbox.mjs';
 import { serveLoop } from '../worker.mjs';
+import { usedBytes } from '../sandbox.mjs';
+import zlib from 'zlib';
+import { tgzFiles } from '../../source_analysis/rebuildNpm.mjs';
 
 function exportDir(apps) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'depreb-'));
@@ -124,4 +127,19 @@ test('serve: a failed sync is retried later and does not stop the loop', async (
   await serveLoop(f.opts);
   assert.equal(tries, 2);
   assert.ok(f.events.includes('build b'));
+});
+
+test('disk limit counts the output directory and the log, not only the work directory', () => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'depreb-du-'));
+  const work = path.join(root, 'work'), out = path.join(root, 'out'), log = path.join(root, 'build.log');
+  fs.mkdirSync(work); fs.mkdirSync(out);
+  fs.writeFileSync(path.join(out, 'big.bin'), Buffer.alloc(300000));
+  fs.writeFileSync(log, Buffer.alloc(200000));
+  assert.ok(usedBytes([work, out, log]) >= 500000);
+  assert.equal(usedBytes([path.join(root, 'missing')]), 0);
+});
+
+test('a gzip bomb in a rebuilt tarball is refused, not unpacked into memory', () => {
+  const bomb = zlib.gzipSync(Buffer.alloc(1100 * 2 ** 20)); // ~1 MB compressed, 1.1 GB unpacked
+  assert.throws(() => tgzFiles(bomb), /larger than|ERR_BUFFER_TOO_LARGE|Cannot create a Buffer/);
 });

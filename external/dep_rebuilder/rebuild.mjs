@@ -12,6 +12,7 @@ import { lsRemoteTags, identityOf, npmProvenance } from '../source_analysis/sour
 import { sandboxArgs, runPhase, CONTAINER_CLI, LIMITS } from './sandbox.mjs';
 
 const LOG_LIMIT = 200000;
+const MAX_TARBALL_BYTES = 256 * 2 ** 20; // the host reads the rebuilt tarball into memory to compare it
 const sha256 = (buf) => createHash('sha256').update(buf).digest('hex');
 
 /** Repository and tag/commit to build from, asked of the registry and the remote; repository cached in db.sources. */
@@ -71,7 +72,7 @@ export async function rebuildNpm({ name, version, source, workRoot, fetchImpl = 
     fs.appendFileSync(logFile, `\n=== phase ${p.phase} (${p.network === 'none' ? 'no network' : 'network, no package scripts'})\n`);
     const name2 = `${cname}-${p.phase}`;
     run = await runPhase({
-      cli, name: name2, logFile, workDir, limits,
+      cli, name: name2, logFile, workDir, outDir: p.out ? outDir : null, limits,
       args: sandboxArgs({ image: p.image, name: name2, workDir, outDir: p.out ? outDir : null, env: { ...env, PHASE: p.phase }, network: p.network, cli, limits }),
     });
     if (run.code !== 0 || run.timedOut || run.tooBig) { failedPhase = p.phase; break; }
@@ -86,7 +87,9 @@ export async function rebuildNpm({ name, version, source, workRoot, fetchImpl = 
   if (run.tooBig) return done('failed', `The ${failedPhase} step used more than ${Math.round(limits.diskBytes / 2 ** 30)} GB of disk`);
   const packed = fs.readdirSync(outDir).filter(f => f.endsWith('.tgz'));
   if (run.code !== 0 || packed.length !== 1) return done('failed', `${failedPhase || 'build'} failed: ${failureLine(logText).slice(0, 160)}`);
-  const cmp = compareTarballs(registryBuf, fs.readFileSync(path.join(outDir, packed[0])));
+  const packedFile = path.join(outDir, packed[0]);
+  if (fs.statSync(packedFile).size > MAX_TARBALL_BYTES) return done('failed', `The rebuilt tarball is larger than ${MAX_TARBALL_BYTES / 2 ** 20} MB`);
+  const cmp = compareTarballs(registryBuf, fs.readFileSync(packedFile));
   fs.appendFileSync(logFile, `== comparison ${JSON.stringify({ ...cmp, missing: cmp.missing.slice(0, 50), extra: cmp.extra.slice(0, 50), changed: cmp.changed.slice(0, 50) })}\n`);
   if (cmp.match) return done('reproduced', cmp.identical ? 'Byte-identical tarball' : `All ${cmp.files} files identical; tarball metadata differs`);
   return done('failed', `Rebuilt tarball differs: ${diffNote(cmp)}`);

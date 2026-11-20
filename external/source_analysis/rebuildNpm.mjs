@@ -32,6 +32,7 @@ import { CONTAINER_CLI } from './config.mjs';
 export const REBUILD_TIMEOUT_MS = Number(process.env.SOURCE_ANALYSIS_REBUILD_TIMEOUT_MIN || 20) * 60 * 1000;
 export const DEFAULT_NODE_MAJOR = 20;
 // The clone runs in a current image: an old Node image's git and CA list can fail on today's hosts.
+const MAX_UNPACKED_BYTES = 1024 * 2 ** 20;
 export const CLONE_IMAGE = `docker.io/library/node:22-bookworm`;
 const LOG_LIMIT = 200000;
 
@@ -74,7 +75,8 @@ export function nodeImage(nodeVersion) {
  * tarball touches the host's file system.
  */
 export function tgzFiles(buf, { bodies = false } = {}) {
-  const tar = zlib.gunzipSync(buf);
+  // A tarball built by untrusted code can be a gzip bomb: cap the unpacked size.
+  const tar = zlib.gunzipSync(buf, { maxOutputLength: MAX_UNPACKED_BYTES });
   const files = new Map();
   let longName = null, pax = {};
   for (let off = 0; off + 512 <= tar.length;) {
