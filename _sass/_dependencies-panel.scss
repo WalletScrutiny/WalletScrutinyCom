@@ -709,6 +709,11 @@ body.dark .dp-history__dot--current {
   }
 }
 
+// neutral-5 is barely off the dark card; a button needs a visible edge
+body.dark .dp-judge:not(:hover) {
+  border-color: var(--neutral-4);
+}
+
 // "Edit" at the end of a statement line
 .dp-edit {
   font: inherit;
@@ -1690,6 +1695,9 @@ body.dark .dp-rb--failed { color: #f5b041; border-color: #f5b041; }
   .dp-rb-filter + .dp-rb-filter {
     border: 1px solid var(--neutral-5);
     border-radius: 6px;
+  }
+  body.dark .dp-rb-filter {
+    border-color: var(--neutral-4);
   }
 }
 // the ecosystem as a badge after the name, not a line of its own
