@@ -877,7 +877,7 @@ function advisoryTable(model, { onJudge = null, freshId = null, showAll = false,
   );
   const wrap = el('div', { className: 'dp-table-wrap' }, table);
   if (rest.length) {
-    const more = el('button', { type: 'button', className: 'btn-small dp-more' }, `Show all ${model.advisories.length} advisories`);
+    const more = el('button', { type: 'button', className: 'dp-note-more dp-more' }, `Show ${rest.length.toLocaleString('en-US')} more`);
     more.addEventListener('click', () => {
       for (const a of rest) body.appendChild(advisoryRow(a, rowOptions));
       more.remove();
