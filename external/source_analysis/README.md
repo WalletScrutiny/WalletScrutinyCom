@@ -44,7 +44,7 @@ a timer every 6 hours:
 | units | `config/walletscrutiny-source-analysis.service`, `config/walletscrutiny-source-analysis.timer`; the hourly advisory refresh `config/walletscrutiny-advisory-refresh.service`, `config/walletscrutiny-advisory-refresh.timer` ([Static export](#static-export)) |
 | working directory | `/opt/source_analysis` |
 | user | `build-server` |
-| database | `/var/lib/walletscrutiny-source-analysis/assets.db` (`SOURCE_ANALYSIS_DB_PATH`), backups next to it in `backup/`, newest 14 kept |
+| database | `/var/lib/walletscrutiny-source-analysis/assets.db` (`SOURCE_ANALYSIS_DB_PATH`), backups next to it in `backup/`, newest 14 kept; the first start after the schema size cleanup rebuilds `app_dependencies` (`WITHOUT ROWID`), drops four unused `assets` indexes and runs a `VACUUM` (needs free disk the size of the database, the other source-analysis units should not start meanwhile) |
 | build-lock copies | the verifiers' `build-lock.json` files (`plugins/build-lock.mjs`, issue 1000), fetched from files.nostr.info by the sha256 in the verification and kept, hash-checked, in `build-locks/` next to the database (`SOURCE_ANALYSIS_BUILD_LOCK_DIR`) |
 | per-repository scratch | `/var/cache/walletscrutiny-source-analysis/repos` (`SOURCE_ANALYSIS_TEMP_DIR`), deleted after each repository |
 | scope | wallets with a reproducible build verification of any version (kind 30301 on the project relays, `reproducible.mjs`), each verified version analysed at its tag, 3 per wallet and pass (`SOURCE_ANALYSIS_VERIFIED_PER_PASS`); `SOURCE_ANALYSIS_SCOPE=all` analyses every wallet with a repository. Needs Node 22 (WebSocket) |
