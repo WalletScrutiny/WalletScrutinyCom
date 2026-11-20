@@ -43,7 +43,7 @@ export function openDb(file = DB_PATH) {
       ecosystem TEXT NOT NULL, name TEXT NOT NULL, checked_at TEXT DEFAULT CURRENT_TIMESTAMP,
       PRIMARY KEY (ecosystem, name)
     );
-    -- the latest outcome per package version: reproduced | failed | skipped
+    -- the latest outcome per package version: reproduced | failed | unsupported | skipped
     CREATE TABLE IF NOT EXISTS rebuilds (
       ecosystem TEXT NOT NULL, name TEXT NOT NULL, version TEXT NOT NULL,
       result TEXT NOT NULL, note TEXT, artifact TEXT, sha256 TEXT, repo_url TEXT, ref TEXT, commit_sha TEXT,

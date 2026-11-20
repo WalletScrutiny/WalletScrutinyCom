@@ -259,6 +259,9 @@ export async function importWsFeed(db, url, { fetchImpl = fetch, log = () => {} 
   } catch (e) { log(`rebuild feed ${url}: ${e.message}`); return { claims: 0, failed: true }; }
   if (feed?.schema !== 1 || feed.claimant !== 'ws' || !Array.isArray(feed.rows)) { log(`rebuild feed ${url}: unexpected shape`); return { claims: 0, failed: true }; }
   const ours = db.prepare(`SELECT 1 FROM packages WHERE ecosystem = ? AND name = ? AND version = ? LIMIT 1`);
+  // a reproduced rebuild of rebuild-npm-cli.mjs says more (hash, event): the feed's row does not replace it
+  const byHand = db.prepare(`SELECT 1 FROM package_rebuilds WHERE ecosystem = ? AND name = ? AND version = ? AND claimant = 'ws'
+    AND result = 'reproduced' AND (sha256 IS NOT NULL OR event IS NOT NULL)`);
   const save = db.prepare(`INSERT OR REPLACE INTO package_rebuilds (ecosystem, name, version, claimant, result, commit_sha, note, checked_at)
     VALUES (?, ?, ?, 'ws', ?, ?, ?, ?)`);
   let claims = 0;
@@ -268,6 +271,7 @@ export async function importWsFeed(db, url, { fetchImpl = fetch, log = () => {} 
       if (!['npm', 'pip', 'cargo'].includes(r?.ecosystem) || typeof r.name !== 'string' || typeof r.version !== 'string') continue;
       if (r.result !== 'reproduced') continue; // a rebuild of ours that did not match says nothing about the package
       if (!ours.get(r.ecosystem, r.name, r.version)) continue;
+      if (byHand.get(r.ecosystem, r.name, r.version)) continue;
       const day = /^\d{4}-\d\d-\d\d$/.test(r.date || '') ? `${r.date} 00:00:00` : new Date().toISOString().slice(0, 19).replace('T', ' ');
       save.run(r.ecosystem, r.name, r.version, r.result, /^[0-9a-f]{40}$/.test(r.commit || '') ? r.commit : null, typeof r.note === 'string' ? r.note.slice(0, 300) : null, day);
       claims++;

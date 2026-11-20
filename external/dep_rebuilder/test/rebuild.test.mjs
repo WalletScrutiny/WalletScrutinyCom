@@ -71,13 +71,19 @@ test('a package of its own that lacks published files is failed; a build cannot 
   assert.equal((await build('no-tarball')).r.result, 'failed');
   const forged = await build('source-only', { workspace: 'build' });
   assert.equal(forged.r.result, 'failed', 'only the clone step, where no repository code runs, is believed');
+  assert.equal((await build('source-only', { workspace: 'install' })).r.result, 'failed');
+  // a clone that fills the log, so that the start of the later steps is cut from what is kept
+  const long = await build('long-clone', { workspace: 'build' });
+  assert.equal(long.r.result, 'failed', 'read after the clone step, not from the whole log');
+  assert.equal(long.r.commit, 'c'.repeat(40), 'nor can a build name the commit it was built from');
+  assert.equal((await build('source-only', { directory: 'a\u2028== workspace member: x' })).r.result, 'failed', 'a line is what ends in a line feed');
 });
 
 test('a build script no publish hook calls: the package packed after it is judged, unless the first is the published one', async () => {
   const built = await build('after-build');
   assert.equal(built.r.result, 'reproduced');
   assert.equal(built.r.note, 'Byte-identical tarball after `npm run build`');
-  assert.deepEqual(built.calls.map(c => c.PHASE), ['clone', 'install', 'build', 'after-build']);
+  assert.deepEqual(built.calls.map(c => `${c.PHASE} ${c.network}`), ['clone default', 'install default', 'build none', 'after-build none'], 'the repository\'s code never runs with a network');
   const first = await build('after-build:first-is-published');
   assert.equal(first.r.result, 'reproduced');
   assert.equal(first.r.note, 'Byte-identical tarball');
@@ -317,6 +323,8 @@ test('a build script is unhooked when nothing npm runs on publish calls it', () 
   assert.equal(unhooked({ build: 'tsc', prepublishOnly: 'npm run build && npm test' }), '0');
   assert.equal(unhooked({ build: 'rollup -c', prepack: 'yarn build' }), '0');
   assert.equal(unhooked({ build: 'tsc', prepare: 'tsc' }), '0', 'the same command');
+  assert.equal(unhooked({ build: 'tsc', prepare: 'npm run build:types' }), '1', 'another script');
+  assert.equal(unhooked({ build: 'rollup -c', prepublishOnly: 'tsc --build && node scripts/check-build-env.js' }), '1', 'the word in an option or a file name');
   assert.equal(unhooked({ prepare: 'tsc' }), '0', 'no build script');
   assert.equal(unhooked({ build: ['tsc'] }), '0', 'a script is a string');
   assert.equal(check('unhooked-build', {}), '0', 'no manifest');
@@ -332,6 +340,8 @@ test('a package is looked up by name when it is not where the registry says', ()
   assert.equal(checkNamed('locate', repo, '.', '@s/none'), '?');
   assert.equal(checkNamed('locate', { ...repo, 'test/fixtures/a/package.json': { name: '@s/a' } }, '.', '@s/a'), '?', 'two packages of the name');
   assert.equal(checkNamed('locate', { 'package.json': '{ not json' }, '.', 'x'), '?');
+  assert.equal(checkNamed('locate', { 'a\n== workspace member: x/package.json': { name: '@s/a' } }, '.', '@s/a'), '?', 'a directory name is not printed as lines of the clone step');
+  assert.equal(checkNamed('locate', { 'a b/package.json': { name: '@s/a' } }, '.', '@s/a'), '?');
 });
 
 test('lockfiles: registry tarballs and workspace members pass; git and other sources are named', () => {

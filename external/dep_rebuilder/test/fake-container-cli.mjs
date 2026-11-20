@@ -10,19 +10,24 @@ if (args[0] !== 'run') process.exit(0); // rm -f of a container
 const env = Object.fromEntries(args.flatMap((a, i) => (args[i - 1] === '-e' ? [a.split(/=(.*)/s).slice(0, 2)] : [])));
 const mount = (inside) => args.find((a, i) => args[i - 1] === '-v' && a.endsWith(`:${inside}:rw`))?.slice(0, -`:${inside}:rw`.length);
 const mode = process.env.FAKE_BUILD || 'ok';
-fs.appendFileSync(process.env.FAKE_CALLS, `${JSON.stringify(env)}\n`);
+const network = args.includes('--network') ? args[args.indexOf('--network') + 1] : 'default';
+fs.appendFileSync(process.env.FAKE_CALLS, `${JSON.stringify({ ...env, network })}\n`);
 
 if (env.PHASE === 'clone') {
   if (mode === 'clone-fails') { console.log('fatal: unable to access the repository'); process.exit(128); }
+  if (mode === 'long-clone') { const line = `${'x'.repeat(1023)}\n`; for (let i = 0; i < 300; i++) fs.writeSync(1, line); } // as from a git server that talks a lot
   console.log(`commit ${'c'.repeat(40)} 2026-01-01T00:00:00+00:00`);
   if (process.env.FAKE_DIRECTORY) console.log(`== package directory: ${process.env.FAKE_DIRECTORY}`);
   if (process.env.FAKE_WORKSPACE === 'clone') console.log('== workspace member: the repository\'s root build is not run');
 } else if (env.PHASE === 'install') {
   console.log('== node v20.0.0 npm 10.0.0');
+  if (process.env.FAKE_WORKSPACE === 'install') console.log('== workspace member: says a dependency');
 } else if (env.PHASE === 'build') {
   const out = path.join(mount('/out'), 'x-1.0.0.tgz');
+  // with the long clone before it: enough output that the start of this step is cut from the kept log
+  if (mode === 'long-clone') { const line = `${'y'.repeat(1023)}\n`; for (let i = 0; i < 150; i++) fs.writeSync(1, line); console.log(`commit ${'d'.repeat(40)} says the build`); }
   if (process.env.FAKE_WORKSPACE === 'build') console.log('== workspace member: says the build about itself');
-  if (mode === 'source-only') fs.copyFileSync(process.env.FAKE_SOURCE_TGZ, out); // what git has, without the built files
+  if (mode === 'source-only' || mode === 'long-clone') fs.copyFileSync(process.env.FAKE_SOURCE_TGZ, out); // what git has, without the built files
   if (mode.startsWith('after-build')) fs.copyFileSync(mode === 'after-build:first-is-published' ? process.env.FAKE_TGZ : process.env.FAKE_SOURCE_TGZ, out);
   if (mode === 'no-tarball') { console.log('npm error Missing script: "build"'); process.exit(1); }
   if (mode === 'ok') fs.copyFileSync(process.env.FAKE_TGZ, out);

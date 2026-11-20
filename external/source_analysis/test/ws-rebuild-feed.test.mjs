@@ -56,8 +56,9 @@ describe('our rebuilder\'s feed', () => {
     const { db, dir } = freshDb();
     const row = (name, version, result) => ({ ecosystem: 'npm', name, version, result, date: '2026-11-20' });
     db.prepare(`INSERT INTO package_rebuilds (ecosystem, name, version, claimant, result, sha256, event) VALUES ('npm', 'color-name', '1.1.4', 'ws', 'reproduced', ?, '{}')`).run('f'.repeat(64));
-    await importWsFeed(db, 'u', { fetchImpl: serve(feed([row('gopd', '1.2.0', 'reproduced')])) });
+    await importWsFeed(db, 'u', { fetchImpl: serve(feed([row('gopd', '1.2.0', 'reproduced'), row('color-name', '1.1.4', 'reproduced')])) });
     assert.equal(getRebuildClaims(db).get('npm\u0000gopd\u00001.2.0')[0].result, 'reproduced');
+    assert.equal(db.prepare(`SELECT sha256 FROM package_rebuilds WHERE name = 'color-name'`).get().sha256, 'f'.repeat(64), 'the feed does not take over the rebuild by hand, which would go with the next feed');
     // what the feed carried until 2026-11-20: taken then, gone with the next import whatever the feed says
     db.prepare(`INSERT OR REPLACE INTO package_rebuilds (ecosystem, name, version, claimant, result, note) VALUES ('npm', 'gopd', '1.2.0', 'ws', 'failed', 'differs')`).run();
     assert.equal(getRebuildClaims(db).has('npm\u0000gopd\u00001.2.0'), false, 'not shown even before that import');

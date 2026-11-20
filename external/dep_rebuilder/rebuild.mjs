@@ -130,23 +130,26 @@ async function rebuildIn(dir, { name, version, source, facts, slug, fetchImpl, c
       args: sandboxArgs({ image: p.image, name: name2, workDir, outDir: p.out ? outDir : null, env: { ...env, PHASE: p.phase }, network: p.network, cli, limits }),
     });
   };
-  let run = { code: 0 }, failedPhase = null;
+  let run = { code: 0 }, failedPhase = null, workspaceMember = false;
   for (const p of phases) {
     run = await runIn(p);
     if (run.code !== 0 || run.timedOut || run.tooBig) { failedPhase = p.phase; break; }
     if (p.phase === 'clone') {
-      // where the clone step found the package, when that is not where the registry says (npm-sandbox.sh)
-      const at = /^== package directory: (.*)$/m.exec(boundedLog(logFile))?.[1];
-      if (at != null && !plainPath(at)) return done('failed', 'The source repository does not have exactly one package of this name at this version');
+      // What the clone step says (npm-sandbox.sh) is read here, before any code of the repository
+      // has run and written to the log: a build cannot say these about itself. Whole lines, split
+      // at \n only, and the last of each: the script prints them after git's own output.
+      const said = (what) => boundedLog(logFile).split('\n').filter(l => l.startsWith(what)).pop()?.slice(what.length);
+      workspaceMember = said('== workspace member: ') != null;
+      const cloned = /^[0-9a-f]{40}(?= |$)/.exec(said('commit ') || '')?.[0]; // the commit that was checked out
+      if (cloned) row.commit = cloned;
+      // where the package is, when that is not where the registry says
+      const at = said('== package directory: ');
+      if (at != null && !plainPath(at)) return done('failed', 'The source repository does not have exactly one package of this name');
       if (at) env.DIR = at;
     }
   }
   const logText = boundedLog(logFile);
-  // from the clone step only, where no code of the repository has run: a build cannot say this about itself
-  const workspaceMember = /^== workspace member: /m.test(logText.split('\n=== phase install')[0]);
   const notBuilt = (what) => done('unsupported', `Member of a workspace, whose root build is not run here: ${what}`, 'build');
-  const commit = /^commit ([0-9a-f]{40})/m.exec(logText)?.[1];
-  if (commit) row.commit = commit;
   // the build can print these lines too: only something that looks like a version is taken
   const npmUsed = /^== npm \S+ packed nothing, packing with the image's npm (\d[\w.-]{0,30})$/m.exec(logText)?.[1] || /^== node \S+ npm (\d[\w.-]{0,30})$/m.exec(logText)?.[1];
   if (npmUsed) row.toolchain = `${image.split('/').pop()} npm ${npmUsed}`;

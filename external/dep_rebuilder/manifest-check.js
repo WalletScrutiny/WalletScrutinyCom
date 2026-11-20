@@ -127,10 +127,11 @@ function scriptsOf(dir) {
 }
 
 // "build" is no lifecycle script: npm never runs it by itself. A hook that calls it
-// names it ("npm run build", "yarn build") or is the same command.
+// names it as a word of its own ("npm run build", "yarn build"; not "build:types",
+// "tsc --build") or is the same command.
 function unhookedBuild(s) {
   if (typeof s.build !== "string" || !s.build.trim()) return false;
-  return !PUBLISH_HOOKS.some(function (k) { return typeof s[k] === "string" && (/\bbuild\b/.test(s[k]) || s[k].trim() === s.build.trim()); });
+  return !PUBLISH_HOOKS.some(function (k) { return typeof s[k] === "string" && (/(^|\s)build($|\s)/.test(s[k]) || s[k].trim() === s.build.trim()); });
 }
 
 function nameAt(dir) {
@@ -142,7 +143,9 @@ function nameAt(dir) {
 function locate(repo, pkg, name) {
   if (nameAt(pkg) === name) return "";
   var dirs = manifestsUnder(repo, 0, []).map(function (file) { return path.dirname(file); }).filter(function (dir) { return nameAt(dir) === name; });
-  return dirs.length === 1 ? (path.relative(repo, dirs[0]) || ".") : "?";
+  if (dirs.length !== 1) return "?";
+  var rel = path.relative(repo, dirs[0]) || ".";
+  return /^[\w.@\/-]+$/.test(rel) ? rel : "?";   // a name with a line break would be read as a line of this step
 }
 
 var mode = process.argv[1];
