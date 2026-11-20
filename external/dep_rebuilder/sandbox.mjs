@@ -43,19 +43,25 @@ function dirBytes(dir) {
   return r.status === 0 ? Number(r.stdout.split('\t')[0]) : 0;
 }
 
+/** Everything the container can fill on the host: its work and output directories and the log of its output. */
+export function usedBytes(paths) {
+  return paths.reduce((sum, p) => sum + (fs.existsSync(p) ? dirBytes(p) : 0), 0);
+}
+
 /**
  * Run a phase, output appended to logFile. Killed (container removed by name,
  * since a container's PID 1 ignores SIGTERM) on timeout or when the work
  * directory outgrows the disk limit. Returns { code, timedOut, tooBig }.
  */
-export function runPhase({ cli = CONTAINER_CLI, args, name, logFile, workDir, limits = LIMITS }) {
+export function runPhase({ cli = CONTAINER_CLI, args, name, logFile, workDir, outDir = null, limits = LIMITS }) {
   return new Promise((resolve) => {
     const log = fs.openSync(logFile, 'a');
     const child = spawn(cli, args, { stdio: ['ignore', log, log] });
     let timedOut = false, tooBig = false;
     const stop = () => { spawnSync(cli, ['rm', '-f', '-t', '0', name], { stdio: 'ignore' }); child.kill('SIGKILL'); };
     const timer = setTimeout(() => { timedOut = true; stop(); }, limits.phaseMs);
-    const disk = setInterval(() => { if (dirBytes(workDir) > limits.diskBytes) { tooBig = true; stop(); } }, 5000);
+    const watched = [workDir, logFile, ...(outDir ? [outDir] : [])];
+    const disk = setInterval(() => { if (usedBytes(watched) > limits.diskBytes) { tooBig = true; stop(); } }, 1000);
     child.on('close', (code) => { clearTimeout(timer); clearInterval(disk); fs.closeSync(log); spawnSync(cli, ['rm', '-f', '-t', '0', name], { stdio: 'ignore' }); resolve({ code, timedOut, tooBig }); });
   });
 }
