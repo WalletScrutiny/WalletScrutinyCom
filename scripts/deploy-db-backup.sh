@@ -95,9 +95,8 @@ echo "Enabling ${TIMER_NAME}..."
 systemctl enable --now "${TIMER_NAME}"
 
 if [ "${RUN_NOW}" = "1" ]; then
-  echo "Running ${SERVICE_NAME} now..."
-  systemctl start "${SERVICE_NAME}"
-  journalctl --no-pager -u "${SERVICE_NAME}" -n 15
+  echo "Starting ${SERVICE_NAME} now (runs in the background, follow it with journalctl -u ${SERVICE_NAME} -f)..."
+  systemctl start --no-block "${SERVICE_NAME}"
 fi
 
 systemctl --no-pager list-timers "${TIMER_NAME}"
