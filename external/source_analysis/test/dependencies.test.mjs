@@ -157,7 +157,7 @@ test('yarn berry dependencies blocks and workspaces are walked too', () => {
 test('scope is stored, read back, and the column is added to a database that predates it', () => {
   const file = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'pinning-db-')), 'assets.db');
   const legacy = initDatabase(file);
-  legacy.exec('ALTER TABLE app_dependencies DROP COLUMN scope; ALTER TABLE app_vulnerabilities DROP COLUMN scope; ALTER TABLE app_dependencies DROP COLUMN dependants; ALTER TABLE app_vulnerabilities DROP COLUMN dependants');
+  legacy.exec('ALTER TABLE app_vulnerabilities DROP COLUMN scope; ALTER TABLE app_vulnerabilities DROP COLUMN dependants');
   legacy.close();
   const db = initDatabase(file);
   for (const column of ['scope', 'dependants']) {

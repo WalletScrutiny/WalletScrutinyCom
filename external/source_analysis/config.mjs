@@ -68,7 +68,10 @@ export const RC_DIR = process.env.SOURCE_ANALYSIS_RC_DIR || join(dirname(DB_PATH
 // (upstreamGit.mjs), next to the database: the hourly refresh, which has no
 // cache directory, asks them too.
 export const UPSTREAM_GIT_DIR = process.env.SOURCE_ANALYSIS_UPSTREAM_GIT_DIR || join(dirname(DB_PATH), 'upstream-git');
-export const BACKUPS_TO_KEEP = 14; // one copy per run, older ones are deleted
+// One plain copy of the database per run, to go back to when a run damages it;
+// older ones are deleted. Two, since history is db_backup's job (nightly
+// snapshots, 3 weeks, compressed and off the server).
+export const BACKUPS_TO_KEEP = 2;
 // Static JSON export written at the end of each pass (export.mjs); unset = no export
 export const EXPORT_DIR = process.env.SOURCE_ANALYSIS_EXPORT_DIR || null;
 

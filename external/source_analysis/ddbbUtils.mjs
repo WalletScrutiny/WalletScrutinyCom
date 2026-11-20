@@ -83,7 +83,7 @@ export function initDatabase(dbPath = DB_PATH) {
   let reclaimable = false;
   for (const index of ['idx_app_version', 'idx_app_asset', 'idx_architecture', 'idx_os']) {
     if (db.prepare("SELECT 1 FROM sqlite_master WHERE type = 'index' AND name = ?").get(index)) {
-      db.exec(`DROP INDEX ${index}`);
+      db.exec(`DROP INDEX IF EXISTS ${index}`); // another process may have dropped it meanwhile
       reclaimable = true;
     }
   }
@@ -92,6 +92,10 @@ export function initDatabase(dbPath = DB_PATH) {
   // `packages` holds one row per unique (ecosystem, name, version, resolved,
   // integrity) so consecutive releases, which share almost all of their
   // packages, add join rows rather than package rows.
+  // `app_lockfiles` holds one row per lockfile of a release, and
+  // `lockfile_dependencies` one per package in it, keyed by the two ids.
+  // Read them through the view `app_dependencies`, which has the columns the
+  // table of that name had (one row per app_id, version, package_id, lockfile).
   db.exec(`
     CREATE TABLE IF NOT EXISTS packages (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -103,20 +107,9 @@ export function initDatabase(dbPath = DB_PATH) {
     );
     CREATE UNIQUE INDEX IF NOT EXISTS idx_unique_package ON packages(ecosystem, name, version, resolved, integrity);
     CREATE INDEX IF NOT EXISTS idx_package_name ON packages(ecosystem, name);
-
-    CREATE TABLE IF NOT EXISTS app_dependencies (
-      app_id TEXT NOT NULL,
-      version TEXT NOT NULL,
-      package_id INTEGER NOT NULL REFERENCES packages(id),
-      lockfile TEXT NOT NULL,
-      direct INTEGER,
-      dev INTEGER,
-      tier TEXT NOT NULL,
-      created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-      PRIMARY KEY (app_id, version, package_id, lockfile)
-    ) WITHOUT ROWID;
-    CREATE INDEX IF NOT EXISTS idx_app_dependencies_package ON app_dependencies(package_id);
   `);
+  if (moveDependenciesToLockfileIds(db)) reclaimable = true;
+  db.exec(`${DEPENDENCY_TABLES} ${DEPENDENCY_VIEW}`);
 
   // Known vulnerabilities of a release's dependencies as OSV.dev reported them
   // when the release was analysed (plugins/osv.mjs), one row per advisory and
@@ -144,11 +137,10 @@ export function initDatabase(dbPath = DB_PATH) {
   // Columns added after the tables existed on the server; CREATE TABLE IF NOT
   // EXISTS leaves an existing table alone, so add them one by one when missing.
   // `scope` is where a package ends up: app, build, tests, or NULL (not said).
-  for (const table of ['app_dependencies', 'app_vulnerabilities']) ensureColumn(db, table, 'scope', 'TEXT');
+  ensureColumn(db, 'app_vulnerabilities', 'scope', 'TEXT');
   // `dependants` is the JSON list of package names that require this one, one
   // hop up (plugins/pinning.mjs makeEntry); NULL when the lockfile has no graph.
-  for (const table of ['app_dependencies', 'app_vulnerabilities']) ensureColumn(db, table, 'dependants', 'TEXT');
-  if (rebuildDependenciesWithoutRowid(db)) reclaimable = true;
+  ensureColumn(db, 'app_vulnerabilities', 'dependants', 'TEXT');
   // `affected` is the JSON list of the advisory's affected ranges for this
   // package ("< 1.2.3"); NULL on rows stored before the column, until the next recheck.
   ensureColumn(db, 'app_vulnerabilities', 'affected', 'TEXT');
@@ -429,7 +421,7 @@ export function initDatabase(dbPath = DB_PATH) {
     );
   `);
 
-  // Pages freed by the two steps above stay in the file until a VACUUM. One
+  // Pages freed by the two cleanups above stay in the file until a VACUUM. One
   // attempt per start; if another connection holds the database the pages are
   // reused by later writes and the next start does not try again.
   if (reclaimable && dbPath !== ':memory:') {
@@ -439,51 +431,75 @@ export function initDatabase(dbPath = DB_PATH) {
   return db;
 }
 
-// app_dependencies used to be a rowid table: its four-column text primary key
-// was stored a second time as sqlite_autoindex_app_dependencies_1 (31 MB of
-// 260 MB on the server). As a WITHOUT ROWID table the rows live in the key's
-// own b-tree. Rebuilt once, inside a transaction, from the columns the table
-// has; returns whether it did anything.
-function rebuildDependenciesWithoutRowid(db) {
-  const table = db.prepare("SELECT sql FROM sqlite_master WHERE type = 'table' AND name = 'app_dependencies'").get();
-  if (!table || /WITHOUT\s+ROWID/i.test(table.sql)) return false;
-  const columns = db.prepare('PRAGMA table_info(app_dependencies)').all().map(c => c.name);
-  const list = columns.join(', ');
+const DEPENDENCY_TABLES = `
+  CREATE TABLE IF NOT EXISTS app_lockfiles (
+    id INTEGER PRIMARY KEY,
+    app_id TEXT NOT NULL,
+    version TEXT NOT NULL,
+    lockfile TEXT NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    UNIQUE (app_id, version, lockfile)
+  );
+  CREATE TABLE IF NOT EXISTS lockfile_dependencies (
+    lockfile_id INTEGER NOT NULL REFERENCES app_lockfiles(id),
+    package_id INTEGER NOT NULL REFERENCES packages(id),
+    direct INTEGER,
+    dev INTEGER,
+    tier TEXT NOT NULL,
+    scope TEXT,
+    dependants TEXT,
+    PRIMARY KEY (lockfile_id, package_id)
+  ) WITHOUT ROWID;
+  CREATE INDEX IF NOT EXISTS idx_lockfile_dependencies_package ON lockfile_dependencies(package_id);
+`;
+const DEPENDENCY_VIEW = `
+  CREATE VIEW IF NOT EXISTS app_dependencies AS
+    SELECT l.app_id, l.version, d.package_id, l.lockfile, d.direct, d.dev, d.tier, l.created_at, d.scope, d.dependants
+    FROM lockfile_dependencies d JOIN app_lockfiles l ON l.id = d.lockfile_id;
+`;
+const LEGACY_DEPENDENCY_COLUMNS = ['app_id', 'version', 'package_id', 'lockfile', 'direct', 'dev', 'tier', 'created_at', 'scope', 'dependants'];
+
+// app_dependencies used to be a table with the app id, version and lockfile
+// path as text in every row and again in the package index, plus a created_at
+// that is the same for all rows of a release: more than half of its size
+// (19.8 -> 8.5 MB for 103,000 rows). Now a lockfile of a release is one row of
+// app_lockfiles, with the created_at, and the dependency rows carry its id.
+// Moves the rows of such a table (rowid or WITHOUT ROWID) once, inside a
+// transaction, and puts the view in its place; returns whether it did anything.
+function moveDependenciesToLockfileIds(db) {
+  const isTable = () => Boolean(db.prepare("SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'app_dependencies'").get());
+  if (!isTable()) return false;
   // Foreign keys off for the copy (the pragma is a no-op inside a transaction):
   // the rows are copied as they are, and a stray one must not stop the service.
   db.pragma('foreign_keys = OFF');
   db.exec('BEGIN IMMEDIATE');
   try {
+    // Another process may have done it while this one waited for the lock.
+    if (!isTable()) {
+      db.exec('COMMIT');
+      return false;
+    }
+    ensureColumn(db, 'app_dependencies', 'scope', 'TEXT');
+    ensureColumn(db, 'app_dependencies', 'dependants', 'TEXT');
+    const unknown = db.prepare('PRAGMA table_info(app_dependencies)').all().map(c => c.name).filter(c => !LEGACY_DEPENDENCY_COLUMNS.includes(c));
+    if (unknown.length) throw new Error(`no place for the column ${unknown.join(', ')}`);
     db.exec(`
-      ALTER TABLE app_dependencies RENAME TO app_dependencies_rowid;
-      DROP INDEX IF EXISTS idx_app_dependencies_package;
-      CREATE TABLE app_dependencies (
-        app_id TEXT NOT NULL,
-        version TEXT NOT NULL,
-        package_id INTEGER NOT NULL REFERENCES packages(id),
-        lockfile TEXT NOT NULL,
-        direct INTEGER,
-        dev INTEGER,
-        tier TEXT NOT NULL,
-        created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-        scope TEXT,
-        dependants TEXT,
-        PRIMARY KEY (app_id, version, package_id, lockfile)
-      ) WITHOUT ROWID;
-      INSERT INTO app_dependencies (${list}) SELECT ${list} FROM app_dependencies_rowid;
+      ${DEPENDENCY_TABLES}
+      INSERT INTO app_lockfiles (app_id, version, lockfile, created_at)
+        SELECT app_id, version, lockfile, MIN(created_at) FROM app_dependencies GROUP BY app_id, version, lockfile;
+      INSERT INTO lockfile_dependencies (lockfile_id, package_id, direct, dev, tier, scope, dependants)
+        SELECT l.id, d.package_id, d.direct, d.dev, d.tier, d.scope, d.dependants
+        FROM app_dependencies d JOIN app_lockfiles l ON l.app_id = d.app_id AND l.version = d.version AND l.lockfile = d.lockfile;
     `);
-    const before = db.prepare('SELECT COUNT(*) n FROM app_dependencies_rowid').get().n;
-    const after = db.prepare('SELECT COUNT(*) n FROM app_dependencies').get().n;
+    const before = db.prepare('SELECT COUNT(*) n FROM app_dependencies').get().n;
+    const after = db.prepare('SELECT COUNT(*) n FROM lockfile_dependencies').get().n;
     if (before !== after) throw new Error(`copied ${after} of ${before} rows`);
-    db.exec(`
-      DROP TABLE app_dependencies_rowid;
-      CREATE INDEX idx_app_dependencies_package ON app_dependencies(package_id);
-    `);
+    db.exec(`DROP TABLE app_dependencies; ${DEPENDENCY_VIEW}`);
     db.exec('COMMIT');
     return true;
   } catch (error) {
     db.exec('ROLLBACK');
-    throw new Error(`app_dependencies rebuild failed, database left as it was: ${error.message}`);
+    throw new Error(`app_dependencies move failed, database left as it was: ${error.message}`);
   } finally {
     db.pragma('foreign_keys = ON');
   }
@@ -692,20 +708,25 @@ export function saveDependencies(db, appId, version, analyses) {
   const selectPackage = db.prepare(`
     SELECT id FROM packages WHERE ecosystem = ? AND name = ? AND version = ? AND resolved = ? AND integrity = ?
   `);
+  const insertLockfile = db.prepare('INSERT INTO app_lockfiles (app_id, version, lockfile) VALUES (?, ?, ?)');
   const insertDependency = db.prepare(`
-    INSERT OR REPLACE INTO app_dependencies (app_id, version, package_id, lockfile, direct, dev, scope, dependants, tier)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+    INSERT OR REPLACE INTO lockfile_dependencies (lockfile_id, package_id, direct, dev, scope, dependants, tier)
+    VALUES (?, ?, ?, ?, ?, ?, ?)
   `);
-  const clear = db.prepare('DELETE FROM app_dependencies WHERE app_id = ? AND version = ?');
+  const clearDependencies = db.prepare('DELETE FROM lockfile_dependencies WHERE lockfile_id IN (SELECT id FROM app_lockfiles WHERE app_id = ? AND version = ?)');
+  const clearLockfiles = db.prepare('DELETE FROM app_lockfiles WHERE app_id = ? AND version = ?');
 
   const run = db.transaction(() => {
-    clear.run(appId, version);
+    clearDependencies.run(appId, version);
+    clearLockfiles.run(appId, version);
+    const lockfileIds = new Map();
     let count = 0;
     for (const analysis of analyses) {
       for (const e of analysis.entries || []) {
         insertPackage.run(e.ecosystem, e.name, e.version, e.resolved, e.integrity);
         const { id } = selectPackage.get(e.ecosystem, e.name, e.version, e.resolved, e.integrity);
-        insertDependency.run(appId, version, id, e.lockfile, boolOrNull(e.direct), boolOrNull(e.dev), scopeOrNull(e.scope), dependantsOrNull(e.dependants), e.tier);
+        if (!lockfileIds.has(e.lockfile)) lockfileIds.set(e.lockfile, insertLockfile.run(appId, version, e.lockfile).lastInsertRowid);
+        insertDependency.run(lockfileIds.get(e.lockfile), id, boolOrNull(e.direct), boolOrNull(e.dev), scopeOrNull(e.scope), dependantsOrNull(e.dependants), e.tier);
         count++;
       }
     }

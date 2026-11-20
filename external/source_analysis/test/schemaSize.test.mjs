@@ -10,83 +10,115 @@ const tmp = () => path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'schema-size-'
 const sqlOf = (db, name) => db.prepare('SELECT sql FROM sqlite_master WHERE name = ?').get(name)?.sql;
 const entry = (name, extra = {}) => ({ ecosystem: 'npm', lockfile: 'yarn.lock', name, version: '1.0.0', resolved: `https://r/${name}`, integrity: `sha512-${name}`, direct: true, dev: false, scope: 'app', dependants: null, tier: 'hash-pinned', ...extra });
 
-// The shape a server database has from before: a rowid app_dependencies table
-// and the four unused indexes on assets.
-function legacyDatabase(file) {
+// The shapes a server database has from before: app_dependencies as a table
+// with the app, version and lockfile text in every row. First a rowid table
+// next to four unused indexes on assets, then WITHOUT ROWID and no such indexes.
+function legacyDatabase(file, { withoutRowid = false, columns = 'scope TEXT, dependants TEXT,' } = {}) {
   const db = initDatabase(file);
   db.exec(`
-    DROP TABLE app_dependencies;
+    DROP VIEW app_dependencies;
+    DROP TABLE lockfile_dependencies;
+    DROP TABLE app_lockfiles;
     CREATE TABLE app_dependencies (
       app_id TEXT NOT NULL, version TEXT NOT NULL, package_id INTEGER NOT NULL REFERENCES packages(id),
       lockfile TEXT NOT NULL, direct INTEGER, dev INTEGER, tier TEXT NOT NULL,
-      created_at DATETIME DEFAULT CURRENT_TIMESTAMP, scope TEXT, dependants TEXT,
+      created_at DATETIME DEFAULT CURRENT_TIMESTAMP, ${columns}
       PRIMARY KEY (app_id, version, package_id, lockfile)
-    );
+    ) ${withoutRowid ? 'WITHOUT ROWID' : ''};
     CREATE INDEX idx_app_dependencies_package ON app_dependencies(package_id);
-    CREATE INDEX idx_app_version ON assets(app_id, version);
-    CREATE INDEX idx_app_asset ON assets(app_id, asset_name);
-    CREATE INDEX idx_architecture ON assets(architecture);
-    CREATE INDEX idx_os ON assets(os);
   `);
+  if (!withoutRowid) {
+    db.exec(`
+      CREATE INDEX idx_app_version ON assets(app_id, version);
+      CREATE INDEX idx_app_asset ON assets(app_id, asset_name);
+      CREATE INDEX idx_architecture ON assets(architecture);
+      CREATE INDEX idx_os ON assets(os);
+    `);
+  }
   return db;
 }
+const typeOf = (db, name) => db.prepare('SELECT type FROM sqlite_master WHERE name = ?').get(name)?.type;
+const allRows = (db) => db.prepare('SELECT * FROM app_dependencies ORDER BY app_id, version, lockfile, package_id').all();
 
-test('a new database has no unused assets indexes and a WITHOUT ROWID app_dependencies', () => {
+test('a new database has no unused assets indexes and keeps dependencies by lockfile id', () => {
   const db = initDatabase(tmp());
   for (const index of ['idx_app_version', 'idx_app_asset', 'idx_architecture', 'idx_os']) assert.equal(sqlOf(db, index), undefined, index);
   assert.ok(sqlOf(db, 'idx_unique_asset'));
-  assert.match(sqlOf(db, 'app_dependencies'), /WITHOUT ROWID/);
-  assert.equal(sqlOf(db, 'sqlite_autoindex_app_dependencies_1'), undefined, 'no second copy of the key');
+  assert.equal(typeOf(db, 'app_dependencies'), 'view');
+  assert.match(sqlOf(db, 'lockfile_dependencies'), /WITHOUT ROWID/);
+  assert.deepEqual(db.prepare('PRAGMA table_info(lockfile_dependencies)').all().filter(c => c.type === 'TEXT').map(c => c.name), ['tier', 'scope', 'dependants'],
+    'no app, version or lockfile text per dependency row');
   db.close();
 });
 
-test('an existing database loses the unused indexes, keeps every dependency row, and shrinks', () => {
-  const file = tmp();
-  const legacy = legacyDatabase(file);
-  legacy.prepare("INSERT INTO assets (app_id, version, asset_name, sha256, source) VALUES ('a', '1', 'a.apk', 'x', 'github')").run();
-  const insertPackage = legacy.prepare("INSERT INTO packages (ecosystem, name, version, resolved, integrity) VALUES ('npm', ?, '1.0.0', ?, ?)");
-  const insertDep = legacy.prepare("INSERT INTO app_dependencies (app_id, version, package_id, lockfile, direct, dev, tier, scope, dependants) VALUES (?, ?, ?, 'yarn.lock', 1, 0, 'hash-pinned', 'app', ?)");
-  for (let i = 0; i < 3000; i++) {
-    const id = insertPackage.run(`pkg${i}`, `https://registry/pkg${i}`, `sha512-${i}`.padEnd(90, 'x')).lastInsertRowid;
-    for (const version of ['v1', 'v2']) insertDep.run('some.app.id', version, id, i % 7 ? null : '["pkg0"]');
-  }
-  const before = legacy.prepare('SELECT * FROM app_dependencies ORDER BY app_id, version, package_id').all();
-  legacy.close();
-  const sizeBefore = fs.statSync(file).size;
+for (const withoutRowid of [false, true]) {
+  test(`an existing database (${withoutRowid ? 'WITHOUT ROWID table' : 'rowid table, unused indexes'}) keeps every dependency row and shrinks`, () => {
+    const file = tmp();
+    const legacy = legacyDatabase(file, { withoutRowid });
+    legacy.prepare("INSERT INTO assets (app_id, version, asset_name, sha256, source) VALUES ('a', '1', 'a.apk', 'x', 'github')").run();
+    const insertPackage = legacy.prepare("INSERT INTO packages (ecosystem, name, version, resolved, integrity) VALUES ('npm', ?, '1.0.0', ?, ?)");
+    const insertDep = legacy.prepare("INSERT INTO app_dependencies (app_id, version, package_id, lockfile, direct, dev, tier, scope, dependants, created_at) VALUES (?, ?, ?, ?, 1, 0, 'hash-pinned', 'app', ?, ?)");
+    for (let i = 0; i < 3000; i++) {
+      const id = insertPackage.run(`pkg${i}`, `https://registry/pkg${i}`, `sha512-${i}`.padEnd(90, 'x')).lastInsertRowid;
+      for (const version of ['v1', 'v2']) insertDep.run('some.app.id', version, id, i % 3 ? 'yarn.lock' : 'ios/Podfile.lock', i % 7 ? null : '["pkg0"]', `2026-01-0${version[1]} 10:00:00`);
+    }
+    insertDep.run('other.app', 'v1', 1, 'yarn.lock', null, '2026-02-01 10:00:00');
+    const before = allRows(legacy);
+    legacy.close();
+    const sizeBefore = fs.statSync(file).size;
 
-  const db = initDatabase(file);
-  const after = db.prepare('SELECT * FROM app_dependencies ORDER BY app_id, version, package_id').all();
-  assert.deepEqual(after, before, 'every row and column is carried over');
-  assert.match(sqlOf(db, 'app_dependencies'), /WITHOUT ROWID/);
-  assert.equal(sqlOf(db, 'app_dependencies_rowid'), undefined, 'the old table is gone');
-  assert.ok(sqlOf(db, 'idx_app_dependencies_package'), 'the package index is back');
-  for (const index of ['idx_app_version', 'idx_app_asset', 'idx_architecture', 'idx_os']) assert.equal(sqlOf(db, index), undefined, index);
-  assert.equal(db.prepare('PRAGMA integrity_check').get().integrity_check, 'ok');
-  assert.equal(db.pragma('foreign_keys', { simple: true }), 1, 'foreign keys are back on');
-  assert.equal(db.prepare('PRAGMA freelist_count').get().freelist_count, 0, 'VACUUM gave the pages back');
-  assert.ok(fs.statSync(file).size < sizeBefore, `file shrank (${sizeBefore} -> ${fs.statSync(file).size})`);
-  // The code that uses the table still works on the rebuilt one.
-  saveDependencies(db, 'new.app', 'v1', [{ ecosystem: 'npm', entries: [entry('a'), entry('b', { dev: true })] }]);
-  assert.deepEqual(getDependencies(db, 'new.app', 'v1').map(r => r.name), ['a', 'b']);
-  db.close();
+    const db = initDatabase(file);
+    assert.deepEqual(allRows(db), before, 'every row and column reads as before');
+    assert.equal(typeOf(db, 'app_dependencies'), 'view');
+    assert.equal(sqlOf(db, 'idx_app_dependencies_package'), undefined, 'the old index went with the table');
+    assert.equal(db.prepare('SELECT COUNT(*) n FROM app_lockfiles').get().n, 5, 'one row per lockfile of a release');
+    for (const index of ['idx_app_version', 'idx_app_asset', 'idx_architecture', 'idx_os']) assert.equal(sqlOf(db, index), undefined, index);
+    assert.equal(db.prepare('PRAGMA integrity_check').get().integrity_check, 'ok');
+    assert.deepEqual(db.prepare('PRAGMA foreign_key_check').all(), []);
+    assert.equal(db.pragma('foreign_keys', { simple: true }), 1, 'foreign keys are back on');
+    assert.equal(db.prepare('PRAGMA freelist_count').get().freelist_count, 0, 'VACUUM gave the pages back');
+    assert.ok(fs.statSync(file).size < sizeBefore, `file shrank (${sizeBefore} -> ${fs.statSync(file).size})`);
+    // The code that uses the table still works on the moved rows.
+    assert.equal(getDependencies(db, 'some.app.id', 'v2').length, 3000);
+    saveDependencies(db, 'new.app', 'v1', [{ ecosystem: 'npm', entries: [entry('a'), entry('b', { dev: true })] }]);
+    assert.deepEqual(getDependencies(db, 'new.app', 'v1').map(r => r.name), ['a', 'b']);
+    db.close();
 
-  const again = initDatabase(file);
-  assert.equal(again.prepare('SELECT COUNT(*) n FROM app_dependencies').get().n, before.length + 2, 'the second start does not rebuild again');
-  again.close();
-});
+    const again = initDatabase(file);
+    assert.equal(again.prepare('SELECT COUNT(*) n FROM app_dependencies').get().n, before.length + 2, 'the second start does not move anything');
+    again.close();
+  });
+}
 
-test('a failed rebuild leaves the table as it was', () => {
+test('a failed move leaves the table as it was', () => {
   const file = tmp();
   const legacy = legacyDatabase(file);
   legacy.exec(`ALTER TABLE app_dependencies ADD COLUMN extra TEXT;
     INSERT INTO packages (ecosystem, name) VALUES ('npm', 'p');
     INSERT INTO app_dependencies (app_id, version, package_id, lockfile, tier, extra) VALUES ('a', 'v', 1, 'l', 't', 'kept');`);
   legacy.close();
-  assert.throws(() => initDatabase(file), /app_dependencies rebuild failed, database left as it was/);
+  assert.throws(() => initDatabase(file), /app_dependencies move failed, database left as it was: no place for the column extra/);
   const raw = new Database(file);
-  assert.doesNotMatch(sqlOf(raw, 'app_dependencies'), /WITHOUT ROWID/);
+  assert.equal(typeOf(raw, 'app_dependencies'), 'table');
   assert.equal(raw.prepare('SELECT extra FROM app_dependencies').get().extra, 'kept');
-  assert.equal(sqlOf(raw, 'app_dependencies_rowid'), undefined);
+  assert.equal(typeOf(raw, 'app_lockfiles'), undefined);
+  assert.equal(typeOf(raw, 'lockfile_dependencies'), undefined);
+  raw.close();
+});
+
+test('a move that fails halfway is rolled back', () => {
+  const file = tmp();
+  const legacy = legacyDatabase(file);
+  // The lockfile rows go in, the dependency rows cannot.
+  legacy.exec(`CREATE TABLE lockfile_dependencies (unrelated TEXT);
+    INSERT INTO packages (ecosystem, name) VALUES ('npm', 'p');
+    INSERT INTO app_dependencies (app_id, version, package_id, lockfile, tier) VALUES ('a', 'v', 1, 'l', 't');`);
+  legacy.close();
+  assert.throws(() => initDatabase(file), /app_dependencies move failed, database left as it was/);
+  const raw = new Database(file);
+  assert.equal(typeOf(raw, 'app_dependencies'), 'table');
+  assert.equal(raw.prepare('SELECT COUNT(*) n FROM app_dependencies').get().n, 1);
+  assert.equal(typeOf(raw, 'app_lockfiles'), undefined, 'the lockfile rows written before the failure are gone');
   raw.close();
 });
 
@@ -99,5 +131,49 @@ test('a dependency row whose package is gone is carried over, not a reason to st
   const db = initDatabase(file);
   assert.equal(db.prepare('SELECT COUNT(*) n FROM app_dependencies').get().n, 1);
   assert.equal(db.pragma('foreign_keys', { simple: true }), 1);
+  db.close();
+});
+
+test('a table from before the scope and dependants columns is moved too', () => {
+  const file = tmp();
+  const legacy = legacyDatabase(file, { columns: '' });
+  legacy.exec(`INSERT INTO packages (ecosystem, name) VALUES ('npm', 'p');
+    INSERT INTO app_dependencies (app_id, version, package_id, lockfile, direct, tier) VALUES ('a', 'v', 1, 'l', 1, 't');`);
+  legacy.close();
+  const db = initDatabase(file);
+  const [row] = allRows(db);
+  assert.deepEqual({ ...row, created_at: null }, { app_id: 'a', version: 'v', package_id: 1, lockfile: 'l', direct: 1, dev: null, tier: 't', created_at: null, scope: null, dependants: null });
+  db.close();
+});
+
+test('created_at of a moved lockfile is the earliest of its rows', () => {
+  const file = tmp();
+  const legacy = legacyDatabase(file);
+  legacy.exec(`INSERT INTO packages (ecosystem, name) VALUES ('npm', 'p'), ('npm', 'q');
+    INSERT INTO app_dependencies (app_id, version, package_id, lockfile, tier, created_at) VALUES
+      ('a', 'v', 1, 'l', 't', '2026-03-01 10:00:02'), ('a', 'v', 2, 'l', 't', '2026-03-01 10:00:01');`);
+  legacy.close();
+  const db = initDatabase(file);
+  assert.deepEqual(allRows(db).map(r => r.created_at), ['2026-03-01 10:00:01', '2026-03-01 10:00:01']);
+  db.close();
+});
+
+test('saving a release again replaces its lockfile rows and leaves other releases alone', () => {
+  const db = initDatabase(tmp());
+  saveDependencies(db, 'app', 'v1', [{ entries: [entry('a'), entry('b', { lockfile: 'ios/Podfile.lock' })] }]);
+  saveDependencies(db, 'app', 'v2', [{ entries: [entry('a')] }]);
+  saveDependencies(db, 'app', 'v1', [{ entries: [entry('a', { lockfile: 'package-lock.json' }), entry('c', { lockfile: 'package-lock.json' })] }]);
+  assert.deepEqual(db.prepare('SELECT version, lockfile FROM app_lockfiles ORDER BY version, lockfile').all(),
+    [{ version: 'v1', lockfile: 'package-lock.json' }, { version: 'v2', lockfile: 'yarn.lock' }]);
+  assert.deepEqual(getDependencies(db, 'app', 'v1').map(r => `${r.lockfile}:${r.name}`), ['package-lock.json:a', 'package-lock.json:c']);
+  assert.deepEqual(getDependencies(db, 'app', 'v2').map(r => `${r.lockfile}:${r.name}`), ['yarn.lock:a']);
+  assert.equal(db.prepare('SELECT COUNT(*) n FROM lockfile_dependencies').get().n, 3, 'no rows left behind');
+  for (const r of db.prepare('SELECT created_at FROM app_dependencies').all()) assert.match(r.created_at, /^\d{4}-\d\d-\d\d \d\d:\d\d:\d\d$/);
+  // One lockfile named by two analyses of a release is still one lockfile.
+  saveDependencies(db, 'app', 'v3', [{ entries: [entry('a')] }, { entries: [entry('b')] }]);
+  assert.deepEqual(getDependencies(db, 'app', 'v3').map(r => `${r.lockfile}:${r.name}`), ['yarn.lock:a', 'yarn.lock:b']);
+  assert.equal(db.prepare("SELECT COUNT(*) n FROM app_lockfiles WHERE version = 'v3'").get().n, 1);
+  saveDependencies(db, 'app', 'v1', []);
+  assert.equal(db.prepare("SELECT COUNT(*) n FROM app_lockfiles WHERE version = 'v1'").get().n, 0, 'a release saved without dependencies has no lockfile rows');
   db.close();
 });
