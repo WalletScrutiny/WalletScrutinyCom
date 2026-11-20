@@ -13,5 +13,16 @@ author_profile: true
 
 {% for f in site.data.features %}
   {% assign feature = f[0] %}
-  {% include featureExplained.html %}
+  {% assign g = site.data.features[feature] %}
+  <h3><a href="/features/#{{ feature }}" id="{{ feature }}">{{ g.short }}</a></h3>
+
+  {{ g.long | markdownify }}
+
+  {% if g.benefit %}<div class="praiseBox"><div>
+    {{ g.benefit | markdownify }}
+  </div></div>{% endif %}
+
+  {% if g.drawback %}<div class="alertBox"><div>
+    {{ g.drawback | markdownify }}
+  </div></div>{% endif %}
 {% endfor %}
