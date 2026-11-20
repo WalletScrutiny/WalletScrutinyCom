@@ -30,14 +30,18 @@ unit then ends with exit status 1, so `systemctl --failed` and the journal show 
 
 ## Setting up
 
-**1. Build server: packages and files.**
+**1. Build server: packages and files.** Install the packages once:
 
 ```bash
 sudo apt install sqlite3 zstd rsync
-sudo mkdir -p /opt/db-backup /etc/walletscrutiny-db-backup
-sudo cp backup.sh README.md /opt/db-backup/        # from external/db_backup
-sudo chmod +x /opt/db-backup/backup.sh
-sudo cp config/walletscrutiny-db-backup.service config/walletscrutiny-db-backup.timer /etc/systemd/system/
+```
+
+The script and units are deployed from your machine, here and for every later
+change (`/opt/db-backup`, root-owned, plus the systemd units; the timer is
+enabled; the snapshots and `/etc/walletscrutiny-db-backup/env` are not touched):
+
+```bash
+npm run deploy:db-backup          # RUN_NOW=1 takes snapshots right after the deploy
 ```
 
 **2. Web host (walletscrutiny.com): a directory and a user for the copy.** The
@@ -81,11 +85,12 @@ sudo -u build-server rsync -e "$(. /etc/walletscrutiny-db-backup/env; echo "$WS_
 
 **3. Start and check.**
 
+The deploy has already enabled the timer. After step 2 (the `env` file), run it
+once by hand and look at the result:
+
 ```bash
-sudo systemctl daemon-reload
-sudo systemctl start walletscrutiny-db-backup.service      # first run now
+sudo systemctl start walletscrutiny-db-backup.service      # or RUN_NOW=1 npm run deploy:db-backup
 journalctl -u walletscrutiny-db-backup.service -n 20
-sudo systemctl enable --now walletscrutiny-db-backup.timer
 systemctl list-timers walletscrutiny-db-backup.timer
 ```
 
