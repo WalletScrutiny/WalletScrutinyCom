@@ -1,0 +1,34 @@
+[Unit]
+Description=WalletScrutiny dependency rebuilder: sandboxed rebuilds of the packages wallets ship, most shared first
+Documentation=file:/opt/dep-rebuilder/external/dep_rebuilder/README.md
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+# Never the build server: the packages are untrusted code (README, "Where it runs").
+# An unprivileged user with rootless podman and lingering (deploy script).
+User=dep-rebuilder
+Group=dep-rebuilder
+WorkingDirectory=/opt/dep-rebuilder/external/dep_rebuilder
+StateDirectory=dep-rebuilder
+Environment=HOME=/var/lib/dep-rebuilder
+Environment=DEP_REBUILDER_DATA=/var/lib/dep-rebuilder/data
+# Where the dependency lists come from (default: the live export)
+#Environment=DEP_REBUILDER_EXPORT=https://walletscrutiny.com/api/source-analysis
+# Limits per sandbox phase (sandbox.mjs): memory, CPUs, processes, disk GB, minutes
+#Environment=DEP_REBUILDER_MEMORY=4g
+#Environment=DEP_REBUILDER_CPUS=2
+#Environment=DEP_REBUILDER_DISK_GB=8
+#Environment=DEP_REBUILDER_PHASE_MIN=20
+# No NoNewPrivileges: rootless podman needs the setuid newuidmap/newgidmap.
+
+ExecStart=/usr/bin/node index.mjs serve
+Restart=always
+RestartSec=30
+# A stop waits for the build in progress; past this it is killed and redone after the next start
+TimeoutStopSec=300
+KillMode=mixed
+
+[Install]
+WantedBy=multi-user.target
