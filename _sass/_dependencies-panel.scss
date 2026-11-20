@@ -564,6 +564,99 @@ body.dark .dp-history__dot--current {
     &.dp-adv-table .dp-sev-cell {
       align-items: flex-start;
     }
+
+    // a block, like the severity pill in its flex column: inline it sat in a
+    // full line of text and dropped 2px further from its label
+    &.dp-adv-table .dp-where {
+      display: block;
+      width: fit-content;
+    }
+
+    // "8 wallets" in the small grey of the rest of the card; the info
+    // button's padding no longer pushes the line down from its label
+    &.dp-adv-table .dp-td-products {
+      font-size: $font-xs;
+      color: var(--neutral-2);
+    }
+
+    &.dp-adv-table .dp-products-info {
+      padding: 0 4px;
+    }
+
+    // Severity, Where? and Used by share one row; the package and the
+    // decision get a row each
+    &.dp-adv-table tr {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    // Rebuilds: name and version, the wallets count at the right; the claims under them
+    &.dp-rb-table tr {
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 4px 12px;
+    }
+
+    .dp-rb-version {
+      display: none;
+    }
+
+    .dp-rb-shared {
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .dp-rb-claims {
+      grid-column: 1 / -1;
+    }
+
+    .dp-rb-claim {
+      margin: 0;
+    }
+
+    // what a phone card leaves out: a version or advisory cell with nothing
+    // under it (both moved onto the name's line), and a decision nobody made
+    .dp-m-hide,
+    .dp-d-only,
+    .dp-decision--undecided {
+      display: none;
+    }
+
+    .dp-m-nolabel::before {
+      display: none;
+    }
+  }
+}
+
+// The name links the source repository; on desktop it reads as plain text
+// next to the repository line
+@media (min-width: 641px) {
+  .dp-pkg-link {
+    color: inherit;
+  }
+}
+
+// The version and the advisory link on the name's line, on phones only
+.dp-m-only {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .dp-m-only {
+    display: inline;
+  }
+
+  .dp-m-version {
+    margin-left: 6px;
+    color: var(--neutral-2);
+    font-family: monospace;
+  }
+
+  .dp-adv-icon {
+    margin-left: 8px;
+    font-size: 0.9em;
+  }
+
+  .dp-td-package .dp-repo {
+    display: none;
   }
 }
 
@@ -614,6 +707,11 @@ body.dark .dp-history__dot--current {
   &:hover {
     border-color: var(--accent);
   }
+}
+
+// neutral-5 is barely off the dark card; a button needs a visible edge
+body.dark .dp-judge:not(:hover) {
+  border-color: var(--neutral-4);
 }
 
 // "Edit" at the end of a statement line
@@ -1213,7 +1311,11 @@ a.dp-signer {
   font-size: $font-xxs;
   color: var(--neutral-3);
   text-transform: lowercase;
+  line-height: 1.2;
+  // middle centres on the x-height; lift it to the digits' and capitals' middle
   vertical-align: middle;
+  position: relative;
+  top: -0.2em;
 }
 
 .dp-note {
@@ -1594,6 +1696,9 @@ body.dark .dp-rb--failed { color: #f5b041; border-color: #f5b041; }
     border: 1px solid var(--neutral-5);
     border-radius: 6px;
   }
+  body.dark .dp-rb-filter {
+    border-color: var(--neutral-4);
+  }
 }
 // the ecosystem as a badge after the name, not a line of its own
 .dp-rb-eco {
@@ -1606,7 +1711,11 @@ body.dark .dp-rb--failed { color: #f5b041; border-color: #f5b041; }
   font-size: $font-xxs;
   color: var(--neutral-3);
   text-transform: lowercase;
+  line-height: 1.2;
+  // middle centres on the x-height; lift it to the digits' and capitals' middle
   vertical-align: middle;
+  position: relative;
+  top: -0.2em;
 }
 @media (min-width: 641px) {
   .dp-rb-table .dp-rb-center { text-align: center; }

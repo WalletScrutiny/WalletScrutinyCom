@@ -199,11 +199,12 @@ export function rebuildsElement(data, dependencies = [], { loadDetails = null } 
     const rows = expanded ? shown : Math.min(shown, FIRST_ROWS);
     more.hidden = rows === shown;
     more.textContent = `Show ${(shown - rows).toLocaleString('en-US')} more`;
+    // on phones the version sits after the name and the wallets count beside it
     body.replaceChildren(...list.slice(0, rows).map(({ d, row }) => el('tr', {},
-      el('td', {}, d.name, d.ecosystem ? el('span', { className: 'dp-rb-eco' }, d.ecosystem) : null),
-      el('td', { className: 'dp-rb-center' }, d.version),
-      el('td', { className: 'dp-rb-center' }, shared(d)),
-      el('td', {}, row ? ORDER.flatMap(by => row.claims.filter(c => c.by === by)).map(c => claimLine(c, d.name, loadDetails)) : el('span', { className: 'dpt-note' }, 'Nobody has tried yet')),
+      el('td', { className: 'dp-rb-name' }, d.name, el('span', { className: 'dp-m-only dp-m-version' }, d.version), d.ecosystem ? el('span', { className: 'dp-rb-eco' }, d.ecosystem) : null),
+      el('td', { className: 'dp-rb-center dp-rb-version' }, d.version),
+      el('td', { className: 'dp-rb-center dp-rb-shared' }, shared(d)),
+      el('td', { className: 'dp-rb-claims' }, row ? ORDER.flatMap(by => row.claims.filter(c => c.by === by)).map(c => claimLine(c, d.name, loadDetails)) : el('span', { className: 'dpt-note' }, 'Nobody has tried yet')),
     )));
   }
 
