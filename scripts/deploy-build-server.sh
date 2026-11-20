@@ -53,6 +53,8 @@ log() {
 cd "$ROOT"
 
 if [ "${SKIP_TESTS:-}" != "1" ]; then
+  log "Installing the dependencies the tests need on this machine..."
+  npm ci --no-audit --no-fund --prefix external/build_server
   log "Running ABS tests..."
   npm test --prefix external/build_server
 fi

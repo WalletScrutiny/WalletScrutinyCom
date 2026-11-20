@@ -32,6 +32,8 @@ SERVICE_USER="dep-rebuilder"
 EXCLUDES=(node_modules/ data/ .local/ .DS_Store "*.log" backup/ temp_repos/ cache/ "*.db" "*.db-*")
 
 cd "$ROOT"
+echo "Installing the dependencies the tests need on this machine..."
+npm ci --no-audit --no-fund --prefix external/dep_rebuilder
 echo "Running dep_rebuilder tests (a failure aborts the deploy)..."
 DEP_REBUILDER_ALLOW_ROOT=1 npm test --prefix external/dep_rebuilder
 git rev-parse HEAD > external/dep_rebuilder/REVISION

@@ -53,6 +53,8 @@ log() {
 
 cd "$ROOT"
 
+log "Installing the dependencies the tests need on this machine..."
+npm ci --no-audit --no-fund --prefix "$SOURCE_DIR"
 log "Running source analysis tests (a failure aborts the deploy)..."
 npm test --prefix "$SOURCE_DIR"
 
