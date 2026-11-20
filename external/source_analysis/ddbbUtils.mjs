@@ -74,12 +74,19 @@ export function initDatabase(dbPath = DB_PATH) {
     CREATE UNIQUE INDEX IF NOT EXISTS idx_unique_asset ON assets(
       app_id, version, asset_name, source, architecture, os
     );
-    
-    CREATE INDEX IF NOT EXISTS idx_app_version ON assets(app_id, version);
-    CREATE INDEX IF NOT EXISTS idx_app_asset ON assets(app_id, asset_name);
-    CREATE INDEX IF NOT EXISTS idx_architecture ON assets(architecture);
-    CREATE INDEX IF NOT EXISTS idx_os ON assets(os);
   `);
+  // Indexes earlier versions created that nothing uses: (app_id, version) is a
+  // prefix of idx_unique_asset, every assets query is filtered by app_id (which
+  // that index also serves), and architecture / os have a handful of values.
+  // About 26 MB of a 260 MB database. A database that has them keeps the space
+  // until the VACUUM that follows the first start without them.
+  let reclaimable = false;
+  for (const index of ['idx_app_version', 'idx_app_asset', 'idx_architecture', 'idx_os']) {
+    if (db.prepare("SELECT 1 FROM sqlite_master WHERE type = 'index' AND name = ?").get(index)) {
+      db.exec(`DROP INDEX ${index}`);
+      reclaimable = true;
+    }
+  }
 
   // Resolved dependencies per (app_id, version), from lockfiles only.
   // `packages` holds one row per unique (ecosystem, name, version, resolved,
@@ -107,7 +114,7 @@ export function initDatabase(dbPath = DB_PATH) {
       tier TEXT NOT NULL,
       created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
       PRIMARY KEY (app_id, version, package_id, lockfile)
-    );
+    ) WITHOUT ROWID;
     CREATE INDEX IF NOT EXISTS idx_app_dependencies_package ON app_dependencies(package_id);
   `);
 
@@ -141,6 +148,7 @@ export function initDatabase(dbPath = DB_PATH) {
   // `dependants` is the JSON list of package names that require this one, one
   // hop up (plugins/pinning.mjs makeEntry); NULL when the lockfile has no graph.
   for (const table of ['app_dependencies', 'app_vulnerabilities']) ensureColumn(db, table, 'dependants', 'TEXT');
+  if (rebuildDependenciesWithoutRowid(db)) reclaimable = true;
   // `affected` is the JSON list of the advisory's affected ranges for this
   // package ("< 1.2.3"); NULL on rows stored before the column, until the next recheck.
   ensureColumn(db, 'app_vulnerabilities', 'affected', 'TEXT');
@@ -421,7 +429,64 @@ export function initDatabase(dbPath = DB_PATH) {
     );
   `);
 
+  // Pages freed by the two steps above stay in the file until a VACUUM. One
+  // attempt per start; if another connection holds the database the pages are
+  // reused by later writes and the next start does not try again.
+  if (reclaimable && dbPath !== ':memory:') {
+    try { db.exec('VACUUM'); } catch (error) { console.warn(`VACUUM after the schema cleanup skipped: ${error.message}`); }
+  }
+
   return db;
+}
+
+// app_dependencies used to be a rowid table: its four-column text primary key
+// was stored a second time as sqlite_autoindex_app_dependencies_1 (31 MB of
+// 260 MB on the server). As a WITHOUT ROWID table the rows live in the key's
+// own b-tree. Rebuilt once, inside a transaction, from the columns the table
+// has; returns whether it did anything.
+function rebuildDependenciesWithoutRowid(db) {
+  const table = db.prepare("SELECT sql FROM sqlite_master WHERE type = 'table' AND name = 'app_dependencies'").get();
+  if (!table || /WITHOUT\s+ROWID/i.test(table.sql)) return false;
+  const columns = db.prepare('PRAGMA table_info(app_dependencies)').all().map(c => c.name);
+  const list = columns.join(', ');
+  // Foreign keys off for the copy (the pragma is a no-op inside a transaction):
+  // the rows are copied as they are, and a stray one must not stop the service.
+  db.pragma('foreign_keys = OFF');
+  db.exec('BEGIN IMMEDIATE');
+  try {
+    db.exec(`
+      ALTER TABLE app_dependencies RENAME TO app_dependencies_rowid;
+      DROP INDEX IF EXISTS idx_app_dependencies_package;
+      CREATE TABLE app_dependencies (
+        app_id TEXT NOT NULL,
+        version TEXT NOT NULL,
+        package_id INTEGER NOT NULL REFERENCES packages(id),
+        lockfile TEXT NOT NULL,
+        direct INTEGER,
+        dev INTEGER,
+        tier TEXT NOT NULL,
+        created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+        scope TEXT,
+        dependants TEXT,
+        PRIMARY KEY (app_id, version, package_id, lockfile)
+      ) WITHOUT ROWID;
+      INSERT INTO app_dependencies (${list}) SELECT ${list} FROM app_dependencies_rowid;
+    `);
+    const before = db.prepare('SELECT COUNT(*) n FROM app_dependencies_rowid').get().n;
+    const after = db.prepare('SELECT COUNT(*) n FROM app_dependencies').get().n;
+    if (before !== after) throw new Error(`copied ${after} of ${before} rows`);
+    db.exec(`
+      DROP TABLE app_dependencies_rowid;
+      CREATE INDEX idx_app_dependencies_package ON app_dependencies(package_id);
+    `);
+    db.exec('COMMIT');
+    return true;
+  } catch (error) {
+    db.exec('ROLLBACK');
+    throw new Error(`app_dependencies rebuild failed, database left as it was: ${error.message}`);
+  } finally {
+    db.pragma('foreign_keys = ON');
+  }
 }
 
 // Store the outcome of one analysis (see appAnalysis.runSourceCodeAnalysis);
