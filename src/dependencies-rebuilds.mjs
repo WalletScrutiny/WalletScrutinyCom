@@ -93,7 +93,7 @@ const RECIPES = {
   pypi_pure_wheel_build: 'a Python wheel build',
   cratesio_cargo_package: 'cargo package',
 };
-const OSS_STORAGE_DOCS = 'https://docs.oss-rebuild.dev/storage.html';
+const OSS_STORAGE_DOCS = 'https://docs.oss-rebuild.dev/storage';
 
 function commitLink(repo, commit) {
   const base = repo.replace(/\.git$/, '').replace(/\/$/, '');
