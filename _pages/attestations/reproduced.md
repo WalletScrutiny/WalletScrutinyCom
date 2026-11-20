@@ -32,10 +32,11 @@ permalink: /reproduced/
 </div>
 
 <style>
-  .reproduced__tabs { display: flex; gap: .5em; border-bottom: 2px solid var(--neutral-5); margin-bottom: 1.2em; }
-  .reproduced__tab { flex: 1; max-width: 16em; padding: .7em 1.2em; font-size: 1.2em; font-weight: 600; background: none; border: 0; border-bottom: 4px solid transparent; margin-bottom: -2px; color: inherit; opacity: .65; cursor: pointer; }
-  .reproduced__tab:hover { opacity: 1; }
-  .reproduced__tab[aria-selected="true"] { opacity: 1; border-bottom-color: var(--accent); }
+  /* Wallets / Dependencies: a switch with the shown category filled, the look of the dependencies panel's All / Direct switch */
+  .reproduced__tabs { display: flex; width: fit-content; max-width: 100%; margin: 0 auto 1.8em; padding: 4px; gap: 4px; border: 1px solid var(--neutral-5); border-radius: 999px; background: var(--neutral-6); }
+  .reproduced__tab { appearance: none; padding: .45em 1.5em; font: inherit; font-weight: 600; line-height: 1.3; background: none; border: 0; border-radius: 999px; color: var(--neutral-3); cursor: pointer; }
+  .reproduced__tab:hover { color: inherit; }
+  .reproduced__tab[aria-selected="true"] { background: var(--accent); color: #fff; cursor: default; }
   .reproduced__tab:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .reproduced__lead { font-weight: 600; }
   .reproduced__month { margin: 1.6em 0 .4em; font-size: 1.15em; }
