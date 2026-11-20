@@ -31,6 +31,9 @@ Environment=SOURCE_ANALYSIS_EXPORT_DIR=/var/lib/walletscrutiny-source-analysis/e
 # known_hosts from README, "Setting up from scratch", step 2
 Environment=SOURCE_ANALYSIS_PUBLISH_TARGET=source-analysis@walletscrutiny.com:/
 Environment="SOURCE_ANALYSIS_PUBLISH_SSH=ssh -i /etc/walletscrutiny-source-analysis/publish_ed25519 -o UserKnownHostsFile=/etc/walletscrutiny-source-analysis/known_hosts -o StrictHostKeyChecking=yes"
+# Results of the dependency rebuilder (external/dep_rebuilder), published on the web host;
+# each becomes a "by us" rebuild claim in the Dependencies panel. Unset = none imported.
+Environment=SOURCE_ANALYSIS_REBUILD_FEED=https://walletscrutiny.com/api/dep-rebuilder/rebuilds.json
 # The analysed repositories are untrusted: clone, install and checks run in a
 # throwaway container (containerRunner.mjs: no token, no database, no docker
 # socket, capabilities dropped, read-only root, memory/cpu/pid limits, timeout;

@@ -1,0 +1,67 @@
+import { describe, test } from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
+import { importWsFeed, importRebuildClaims } from '../rebuildClaims.mjs';
+import { initDatabase, getRebuildClaims } from '../ddbbUtils.mjs';
+
+const feed = (rows, extra = {}) => ({ schema: 1, claimant: 'ws', generated: 'x', rows, ...extra });
+const serve = (body, status = 200) => async () => ({ ok: status === 200, status, json: async () => body });
+
+function freshDb() {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'wsfeed-'));
+  const db = initDatabase(path.join(dir, 'a.db'));
+  const pkg = db.prepare(`INSERT INTO packages (ecosystem, name, version) VALUES (?, ?, ?)`);
+  pkg.run('npm', 'gopd', '1.2.0'); pkg.run('npm', 'color-name', '1.1.4');
+  return { db, dir };
+}
+
+describe('our rebuilder\'s feed', () => {
+  test('rows for versions we hold become ws claims with their date and reason; others are left out', async () => {
+    const { db, dir } = freshDb();
+    const r = await importWsFeed(db, 'https://x/rebuilds.json', { fetchImpl: serve(feed([
+      { ecosystem: 'npm', name: 'gopd', version: '1.2.0', result: 'reproduced', note: 'Byte-identical tarball', date: '2026-11-20', commit: 'a'.repeat(40) },
+      { ecosystem: 'npm', name: 'color-name', version: '1.1.4', result: 'failed', note: 'line endings only', date: '2026-11-20' },
+      { ecosystem: 'npm', name: 'nobody-ships-this', version: '1.0.0', result: 'reproduced' },
+      { ecosystem: 'npm', name: 'gopd', version: '1.2.0', result: 'weird' },
+      { ecosystem: 'rubygems', name: 'x', version: '1', result: 'reproduced' },
+    ])) });
+    assert.deepEqual(r, { claims: 2, failed: false });
+    const claims = getRebuildClaims(db);
+    assert.deepEqual(claims.get('npm\u0000gopd\u00001.2.0').map(c => [c.by, c.result, c.note, c.date]), [['ws', 'reproduced', 'Byte-identical tarball', '2026-11-20']]);
+    assert.equal(claims.get('npm\u0000color-name\u00001.1.4')[0].result, 'failed');
+    assert.equal(claims.has('npm\u0000nobody-ships-this\u00001.0.0'), false);
+    fs.rmSync(dir, { recursive: true, force: true });
+  });
+
+  test('a newer feed replaces the claim; an unreachable or malformed feed changes nothing', async () => {
+    const { db, dir } = freshDb();
+    const row = (result) => ({ ecosystem: 'npm', name: 'gopd', version: '1.2.0', result, date: '2026-11-20' });
+    await importWsFeed(db, 'u', { fetchImpl: serve(feed([row('failed')])) });
+    await importWsFeed(db, 'u', { fetchImpl: serve(feed([row('reproduced')])) });
+    assert.equal(getRebuildClaims(db).get('npm\u0000gopd\u00001.2.0')[0].result, 'reproduced');
+    const logs = [];
+    for (const f of [serve({}, 503), serve({ schema: 2, rows: [] }), serve({ schema: 1, claimant: 'oss-rebuild', rows: [] }), async () => { throw new Error('offline'); }]) {
+      const r = await importWsFeed(db, 'u', { fetchImpl: f, log: m => logs.push(m) });
+      assert.deepEqual(r, { claims: 0, failed: true });
+    }
+    assert.equal(logs.length, 4);
+    assert.equal(getRebuildClaims(db).get('npm\u0000gopd\u00001.2.0')[0].result, 'reproduced');
+    fs.rmSync(dir, { recursive: true, force: true });
+  });
+
+  test('importRebuildClaims reads the feed only when a URL is given', async () => {
+    const { db, dir } = freshDb();
+    let asked = 0;
+    const fetchImpl = async (url) => {
+      if (String(url).includes('rebuilds.json')) { asked++; return { ok: true, json: async () => feed([{ ecosystem: 'npm', name: 'gopd', version: '1.2.0', result: 'reproduced', date: '2026-11-20' }]) }; }
+      return { ok: true, json: async () => ({ items: [] }) };
+    };
+    assert.equal((await importRebuildClaims(db, { fetchImpl })).wsClaims, 0);
+    assert.equal(asked, 0);
+    assert.equal((await importRebuildClaims(db, { fetchImpl, wsFeedUrl: 'https://x/rebuilds.json' })).wsClaims, 1);
+    assert.equal(asked, 1);
+    fs.rmSync(dir, { recursive: true, force: true });
+  });
+});

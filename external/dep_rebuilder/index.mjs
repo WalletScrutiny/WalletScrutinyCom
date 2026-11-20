@@ -8,6 +8,7 @@
 //   node index.mjs list   [--top N] [--scope app|any]                  what would be built next
 //   node index.mjs run    [--top N] [--retry] [--scope app|any] [--min-wallets N] [--package name@version]...
 //   node index.mjs serve  [--scope app|any] [--min-wallets N]         unattended: sync daily, rebuild one version at a time, forever (the systemd service)
+//   node index.mjs site   [--out DIR] [--publish]                      write rebuilds.json for the website; --publish also copies it (DEP_REBUILDER_PUBLISH_TARGET)
 //   node index.mjs status                                               tally of results
 //   node index.mjs export [--out FILE]                                  our claims as JSON
 import fs from 'fs';
@@ -16,6 +17,8 @@ import minimist from 'minimist';
 import { openDb, saveCandidates, pending, saveRebuild, tally, WORK_DIR, DB_PATH } from './db.mjs';
 import { serveLoop } from './worker.mjs';
 import { removeStaleContainers } from './sandbox.mjs';
+import { writeFeed, publishFeed } from './site-export.mjs';
+import { DATA_DIR } from './db.mjs';
 import { collectCandidates, EXPORT_BASE } from './candidates.mjs';
 import { syncGoogle } from './google.mjs';
 import { rebuildNpm, sourceOf } from './rebuild.mjs';
@@ -77,10 +80,14 @@ if (cmd === 'sync') {
   if (removed) console.error(`removed ${removed} container(s) left by an earlier run`);
   await serveLoop({
     db, sync: syncAll, step: rebuildAndSave, log: (m) => console.error(m),
+    publish: process.env.DEP_REBUILDER_PUBLISH_TARGET ? async () => publishFeed(db, path.join(DATA_DIR, 'site')) : null,
     scope: argv.scope, minWallets: Number(argv['min-wallets'] || 1),
     shouldStop: () => stop,
     sleep: (ms) => new Promise(res => { const t = setTimeout(res, ms); wake = () => { clearTimeout(t); res(); }; }),
   });
+} else if (cmd === 'site') {
+  const dir = argv.out || path.join(DATA_DIR, 'site');
+  console.log(JSON.stringify(argv.publish ? publishFeed(db, dir) : { rows: writeFeed(db, dir), dir }));
 } else if (cmd === 'status') {
   console.log(JSON.stringify(tally(db), null, 2));
 } else if (cmd === 'export') {

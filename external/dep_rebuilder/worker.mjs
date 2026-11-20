@@ -12,10 +12,17 @@ const HOUR = 3600 * 1000;
  *   step(candidate) rebuild one version and save the result; may throw
  *   sleep(ms)       resolves early when the loop is asked to stop
  */
-export async function serveLoop({ db, sync, step, sleep, shouldStop, log = () => {}, now = Date.now,
-  scope = 'app', minWallets = 1, syncEveryMs = 24 * HOUR, idleMs = HOUR, retrySyncMs = HOUR / 2, errorMs = 5 * 60 * 1000 }) {
+export async function serveLoop({ db, sync, step, sleep, shouldStop, publish = null, log = () => {}, now = Date.now,
+  publishEveryMs = HOUR / 2, scope = 'app', minWallets = 1, syncEveryMs = 24 * HOUR, idleMs = HOUR, retrySyncMs = HOUR / 2, errorMs = 5 * 60 * 1000 }) {
+  let dirty = false, lastPublish = 0; // results since the last copy to the website
+  const publishNow = async () => {
+    if (!publish || !dirty) return;
+    try { const r = await publish(); dirty = false; log(`publish: ${JSON.stringify(r)}`); } catch (e) { log(`publish failed: ${e.message}`); }
+    lastPublish = now();
+  };
   const deferred = new Set(); // versions that threw (registry or network trouble) in this process: tried again after the next restart
   let nextSyncAt = Number(getMeta(db, 'last_sync_ms') || 0) + syncEveryMs;
+  dirty = Boolean(publish); // a start republishes what an earlier run left unsent
   while (!shouldStop()) {
     if (now() >= nextSyncAt) {
       try {
@@ -31,9 +38,11 @@ export async function serveLoop({ db, sync, step, sleep, shouldStop, log = () =>
       continue;
     }
     const next = pending(db, { limit: 50, scope, minWallets }).find(c => !deferred.has(`${c.name}@${c.version}`));
+    if (dirty && (now() - lastPublish >= publishEveryMs || !next)) await publishNow();
     if (!next) { await sleep(Math.min(idleMs, Math.max(nextSyncAt - now(), 1000))); continue; }
     try {
       await step(next);
+      dirty = true;
     } catch (e) {
       deferred.add(`${next.name}@${next.version}`);
       log(`! ${next.name}@${next.version}: ${e.message}`);

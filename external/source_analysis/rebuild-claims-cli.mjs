@@ -14,6 +14,6 @@ import { RC_DIR } from './config.mjs';
 const argv = minimist(process.argv.slice(2), { boolean: ['all', 'rc'], default: { rc: true } });
 const db = initDatabase();
 const rcDir = argv.rc ? syncReproducibleCentral(RC_DIR) : null;
-const stats = await importRebuildClaims(db, { all: argv.all, rcDir, log: console.error });
+const stats = await importRebuildClaims(db, { all: argv.all, rcDir, wsFeedUrl: process.env.SOURCE_ANALYSIS_REBUILD_FEED || null, log: console.error });
 console.log(JSON.stringify(stats, null, 2));
 process.exit(stats.failed ? 2 : 0);
