@@ -5,11 +5,11 @@ import os from 'node:os';
 import path from 'node:path';
 import zlib from 'node:zlib';
 import Database from 'better-sqlite3';
-import { ossRebuildPrefix, parseOssListing, listOssRebuild, rcClaims, readReproducibleCentral, importRebuildClaims, pypiName } from '../rebuildClaims.mjs';
+import { ossRebuildPrefix, parseOssListing, listOssRebuild, rcClaims, readReproducibleCentral, importRebuildClaims, importOssDetails, parseOssAttestation, pypiName } from '../rebuildClaims.mjs';
 import { tgzFiles, compareTarballs, explainDiff, diffNote, failureLine, nodeImage, npmVersionFacts, rebuildEvent, rebuildRunArgs } from '../rebuildNpm.mjs';
 import { rebuildCandidates } from '../rebuild-npm-cli.mjs';
-import { initDatabase, getRebuildClaims } from '../ddbbUtils.mjs';
-import { releaseRebuilds } from '../export.mjs';
+import { initDatabase, getRebuildClaims, getOssRebuildDetails } from '../ddbbUtils.mjs';
+import { releaseRebuilds, releaseRebuildDetails } from '../export.mjs';
 
 // A minimal ustar archive: one 512-byte header per file, body padded to 512.
 function tgz(files, { prefix = 'package/', mtime = 0 } = {}) {
@@ -89,22 +89,85 @@ describe('outside claims: Reproducible Central', () => {
   });
 });
 
+const attestation = fs.readFileSync(new URL('./fixtures/oss-rebuild-buffer-6.0.3.intoto.jsonl', import.meta.url), 'utf8');
+
+describe('OSS Rebuild attestations', () => {
+  test('a real attestation: source, recipe, toolchain, date, and a match only after normalization', () => {
+    assert.deepEqual(parseOssAttestation(attestation), {
+      repo: 'https://github.com/feross/buffer',
+      commit: 'f52dffd9df0445b93c0c9065c2f8f0f46b2c729a',
+      recipe: 'npm_pack_build',
+      tools: 'npm 6.14.8',
+      built: '2025-12-13',
+      exact: false,
+    });
+  });
+
+  test('no Rebuild statement, or not an envelope at all: null', () => {
+    assert.equal(parseOssAttestation(attestation.split('\n')[0]), null);
+    assert.equal(parseOssAttestation('<html>Not found</html>'), null);
+  });
+
+  test('downloads stop at the first refusal and resume next pass; a 404 is skipped', async () => {
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'rbdet-'));
+    const db = initDatabase(path.join(dir, 'a.db'));
+    const claim = db.prepare(`INSERT INTO package_rebuilds (ecosystem, name, version, claimant, result, url) VALUES ('npm', ?, '1', 'oss-rebuild', 'reproduced', ?)`);
+    for (let i = 0; i < 10; i++) claim.run(`p${i}`, `https://x/p${i}/rebuild.intoto.jsonl`);
+    claim.run('gone', 'https://x/gone/rebuild.intoto.jsonl');
+    let refuse = true, calls = 0;
+    const fetchImpl = async (url) => {
+      calls++;
+      if (url.includes('/gone/')) return { ok: false, status: 404 };
+      if (refuse && url.includes('/p5/')) return { ok: false, status: 429 };
+      return { ok: true, status: 200, text: async () => attestation };
+    };
+    const first = await importOssDetails(db, { fetchImpl });
+    assert.equal(first.stopped, true);
+    assert.ok(first.downloaded < 10 && calls < 11, `stopped early: ${first.downloaded} downloaded, ${calls} asked`);
+    refuse = false;
+    const second = await importOssDetails(db, { fetchImpl });
+    assert.equal(second.stopped, false);
+    assert.equal(getOssRebuildDetails(db).size, 10);
+    calls = 0;
+    await importOssDetails(db, { fetchImpl });
+    assert.equal(calls, 1, 'only the 404 is asked again');
+    fs.rmSync(dir, { recursive: true, force: true });
+  });
+
+  test('release details: only the release\'s OSS Rebuild claims with a stored summary', () => {
+    const details = new Map([['u1', { commit: 'a' }], ['u3', { commit: 'c' }]]);
+    const rows = [
+      { claims: [{ by: 'oss-rebuild', url: 'u1' }, { by: 'reproducible-central', url: 'u3' }] },
+      { claims: [{ by: 'oss-rebuild', url: 'u2' }] },
+    ];
+    assert.deepEqual(releaseRebuildDetails(rows, details), { u1: { commit: 'a' } });
+    assert.equal(releaseRebuildDetails([rows[1]], details), null);
+  });
+});
+
 describe('importing claims into the database', () => {
   test('OSS claims only for versions we hold; each name looked up once per week; RC by version', async () => {
     const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'rbdb-'));
     const db = initDatabase(path.join(dir, 'a.db'));
     const pkg = db.prepare(`INSERT INTO packages (ecosystem, name, version) VALUES (?, ?, ?)`);
     pkg.run('npm', 'buffer', '6.0.3'); pkg.run('gradle', 'com.squareup.okio:okio', '3.9.0');
-    let asked = 0;
-    const fetchImpl = async () => { asked++; return { ok: true, json: async () => ({ items: [{ name: 'npm/buffer/6.0.3/buffer-6.0.3.tgz/rebuild.intoto.jsonl' }, { name: 'npm/buffer/9.9.9/buffer-9.9.9.tgz/rebuild.intoto.jsonl' }] }) }; };
+    let asked = 0, read = 0;
+    const fetchImpl = async (url) => {
+      if (url.endsWith('rebuild.intoto.jsonl')) { read++; return { ok: true, status: 200, text: async () => attestation }; }
+      asked++;
+      return { ok: true, json: async () => ({ items: [{ name: 'npm/buffer/6.0.3/buffer-6.0.3.tgz/rebuild.intoto.jsonl' }, { name: 'npm/buffer/9.9.9/buffer-9.9.9.tgz/rebuild.intoto.jsonl' }] }) };
+    };
     const rc = path.join(dir, 'rc');
     fs.mkdirSync(path.join(rc, 'content/okio'), { recursive: true });
     fs.writeFileSync(path.join(rc, 'content/okio/okio-3.9.0.buildspec'), 'groupId=com.squareup.okio\n');
     fs.writeFileSync(path.join(rc, 'content/okio/okio-3.9.0.buildcompare'), 'version=3.9.0\nokFiles=""\nkoFiles="okio-3.9.0.jar"\n');
     const s = await importRebuildClaims(db, { fetchImpl, rcDir: rc });
-    assert.deepEqual(s, { ossNames: 1, ossClaims: 1, rcClaims: 1, failed: 0 });
+    assert.deepEqual(s, { ossNames: 1, ossClaims: 1, ossDetails: 1, rcClaims: 1, failed: 0 });
     await importRebuildClaims(db, { fetchImpl });
-    assert.equal(asked, 1);
+    await importRebuildClaims(db, { fetchImpl, all: true });
+    assert.equal(asked, 2);
+    assert.equal(read, 1, 'an attestation is downloaded once, even after its claim is replaced');
+    assert.equal(getOssRebuildDetails(db).get('https://storage.googleapis.com/google-rebuild-attestations/npm/buffer/6.0.3/buffer-6.0.3.tgz/rebuild.intoto.jsonl').commit, 'f52dffd9df0445b93c0c9065c2f8f0f46b2c729a');
     const claims = getRebuildClaims(db);
     assert.deepEqual(claims.get('npm\u0000buffer\u00006.0.3').map(c => [c.by, c.result]), [['oss-rebuild', 'reproduced']]);
     assert.deepEqual(claims.get('gradle\u0000com.squareup.okio:okio\u00003.9.0').map(c => [c.by, c.result, c.note]), [['reproducible-central', 'failed', 'okio-3.9.0.jar differs']]);

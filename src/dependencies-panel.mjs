@@ -1291,6 +1291,18 @@ function submodulesSection(model, { appId, base, fetchImpl }) {
   return details;
 }
 
+// The release's rebuild-details.json, fetched on the first info icon opened; null when it has none.
+function rebuildDetailsLoader(url, fetchImpl) {
+  let entry = null;
+  return () => {
+    if (!entry) {
+      entry = { doc: undefined };
+      entry.ready = fetchJson(url, fetchImpl).catch(() => null).then((doc) => { entry.doc = doc; });
+    }
+    return entry;
+  };
+}
+
 // "Advisories" (the table) and "Dependency tree" tabs. The tree's file (the
 // release's full dependency list) is fetched when its tab is first opened.
 function treeTabs(model, table, { appId, base, fetchImpl, label }) {
@@ -1313,7 +1325,7 @@ function treeTabs(model, table, { appId, base, fetchImpl, label }) {
         if (!data?.dependencies?.length) throw new Error('empty');
         // a row's product from the export's file sorting (issue 994); none says "this app"
         treePane.replaceChildren(treeElement({ dependencies: data.dependencies, advisories: model.allAdvisories || model.advisories, wallet: label, rebuilds: rebuildIndex(rebuilds), productOf: row => row.target ?? null, counted: model.counted }));
-        rebuildPane.replaceChildren(rebuilds ? rebuildsElement(rebuilds, data.dependencies) : el('p', { className: 'dpt-intro' }, 'No rebuild results for this release.'));
+        rebuildPane.replaceChildren(rebuilds ? rebuildsElement(rebuilds, data.dependencies, { loadDetails: rebuildDetailsLoader(`${dir}/rebuild-details.json`, fetchImpl) }) : el('p', { className: 'dpt-intro' }, 'No rebuild results for this release.'));
       }).catch((error) => {
         console.warn('Dependency tree not available', error);
         loaded = false;
