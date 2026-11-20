@@ -183,7 +183,8 @@ function check(mode, files, pkg = '.') {
     fs.writeFileSync(path.join(repo, name), typeof body === 'string' ? body : JSON.stringify(body));
   }
   const args = mode === 'scripts' ? [path.join(repo, pkg)] : [repo, path.join(repo, pkg)];
-  return execFileSync('node', ['-e', CHECK, mode, ...args], { encoding: 'utf8' }).trim();
+  // FORCE_COLOR as `node --test` sets it in a terminal: the shell compares this output as plain text
+  return execFileSync('node', ['-e', CHECK, mode, ...args], { encoding: 'utf8', env: { ...process.env, FORCE_COLOR: '1' } }).trim();
 }
 
 test('dependencies from a registry or the repository pass; a git repository, in any of npm\'s spellings, is named', () => {
