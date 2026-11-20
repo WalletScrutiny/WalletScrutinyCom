@@ -113,7 +113,8 @@ directory):
 # in containers that cannot see this file, so the key is restricted on the web host)
 sudo mkdir -p /etc/walletscrutiny-dep-rebuilder
 sudo ssh-keygen -t ed25519 -N '' -C dep-rebuilder-publish -f /etc/walletscrutiny-dep-rebuilder/publish_ed25519
-sudo chown dep-rebuilder: /etc/walletscrutiny-dep-rebuilder/publish_ed25519
+# the directory too: the service user writes known_hosts into it below
+sudo chown dep-rebuilder: /etc/walletscrutiny-dep-rebuilder /etc/walletscrutiny-dep-rebuilder/publish_ed25519
 sudo cat /etc/walletscrutiny-dep-rebuilder/publish_ed25519.pub     # goes into authorized_keys below
 sudo -u dep-rebuilder sh -c 'ssh-keyscan -t ed25519 walletscrutiny.com > /etc/walletscrutiny-dep-rebuilder/known_hosts'   # then check the fingerprint
 
@@ -123,6 +124,9 @@ sudo mkdir -p /srv/dep-rebuilder && sudo chown dep-rebuilder: /srv/dep-rebuilder
 sudo -u dep-rebuilder mkdir -p -m 700 ~dep-rebuilder/.ssh
 echo 'command="rrsync /srv/dep-rebuilder",restrict ssh-ed25519 AAAA... dep-rebuilder-publish' \
   | sudo -u dep-rebuilder tee ~dep-rebuilder/.ssh/authorized_keys
+
+# Back on the build server, the test: lists the (empty) directory without asking anything
+sudo -u dep-rebuilder rsync --list-only -e 'ssh -i /etc/walletscrutiny-dep-rebuilder/publish_ed25519 -o UserKnownHostsFile=/etc/walletscrutiny-dep-rebuilder/known_hosts -o StrictHostKeyChecking=yes' dep-rebuilder@walletscrutiny.com:/
 ```
 
 nginx serves `/srv/dep-rebuilder/` under `/api/dep-rebuilder/` (the `prod`,
