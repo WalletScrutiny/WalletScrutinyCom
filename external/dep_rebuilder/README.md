@@ -79,7 +79,8 @@ unit has no `NoNewPrivileges`: rootless podman needs the setuid
 ### Publishing the results
 
 The results reach the website as one file, `rebuilds.json` (outcome, one-line
-reason, date, source commit and toolchain per package version; no logs and no
+reason, date, source commit, toolchain and the number of wallets that ship it
+per package version; no logs and no
 paths), the way the source analysis publishes its export. With
 `DEP_REBUILDER_PUBLISH_TARGET` set, `serve` copies it (`site-export.mjs`, the
 rsync and brotli code of `source_analysis/publish.mjs`) at most every 30

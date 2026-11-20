@@ -150,8 +150,11 @@ test('the website feed has outcomes and one-line reasons, no logs or paths, and 
   saveRebuild(db, { ecosystem: 'npm', name: 'a', version: '1.0.0', result: 'reproduced', note: 'Byte-identical tarball', repoUrl: 'https://github.com/x/a', commit: 'c'.repeat(40), toolchain: 'node:20 npm 10', log: '/var/lib/x/a.log', sandbox: 's' });
   saveRebuild(db, { ecosystem: 'npm', name: 'b', version: '2.0.0', result: 'failed', note: 'differs' });
   saveRebuild(db, { ecosystem: 'npm', name: 'c', version: '3.0.0', result: 'skipped', note: 'later' });
+  saveCandidates(db, [{ ecosystem: 'npm', name: 'a', version: '1.0.0', wallets: 8, wallets_any: 9 }]);
   const rows = feedRows(db);
   assert.deepEqual(rows.map(r => `${r.name}@${r.version} ${r.result}`), ['a@1.0.0 reproduced', 'b@2.0.0 failed']);
+  assert.equal(rows[0].wallets, 8, 'how many wallets ship it');
+  assert.ok(!('wallets' in rows[1]), 'no count for a version that is not a candidate');
   assert.match(rows[0].date, /^\d{4}-\d\d-\d\d$/);
   assert.ok(!JSON.stringify(rows).includes('/var/lib'), 'no local paths leave the machine');
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'depreb-site-'));

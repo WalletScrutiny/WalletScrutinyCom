@@ -11,9 +11,11 @@ export const FEED_SCHEMA = 1;
 
 /** Every finished rebuild, ordered by package, as the rows of rebuilds.json. */
 export function feedRows(db) {
-  return db.prepare(`SELECT ecosystem, name, version, result, note, substr(finished_at, 1, 10) AS date,
-      repo_url AS repo, commit_sha AS "commit", toolchain
-    FROM rebuilds WHERE result IN ('reproduced', 'failed') ORDER BY ecosystem, name, version`).all()
+  // wallets: how many wallets ship the version in their app (the candidate list's count)
+  return db.prepare(`SELECT r.ecosystem, r.name, r.version, r.result, r.note, substr(r.finished_at, 1, 10) AS date,
+      r.repo_url AS repo, r.commit_sha AS "commit", r.toolchain, c.wallets AS wallets
+    FROM rebuilds r LEFT JOIN candidates c ON c.ecosystem = r.ecosystem AND c.name = r.name AND c.version = r.version
+    WHERE r.result IN ('reproduced', 'failed') ORDER BY r.ecosystem, r.name, r.version`).all()
     .map(r => Object.fromEntries(Object.entries(r).filter(([, v]) => v != null && v !== '')));
 }
 
