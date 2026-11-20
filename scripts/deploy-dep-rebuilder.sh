@@ -1,33 +1,31 @@
 #!/usr/bin/env bash
-# Deploy the dependency rebuilder (external/dep_rebuilder) as a systemd service.
+# Deploy the dependency rebuilder (external/dep_rebuilder) to the build server as a systemd service.
 #
-# The rebuilder runs untrusted package code (in rootless podman containers), so
-# it goes to a host of its own, NOT the build server: there is no default, name
-# it with DEP_REBUILDER_HOST (an SSH alias or user@host that can become root).
-# It reuses source_analysis's comparison code, so both folders are copied, to
-# /opt/dep-rebuilder/external/. The service runs as the unprivileged user
-# dep-rebuilder (home /var/lib/dep-rebuilder: database, logs, container storage).
+# Same host and conventions as scripts/deploy-source-analysis.sh. The rebuilder
+# runs untrusted package code (in rootless podman containers), so it does not run
+# as build-server (which holds the bot keys and tokens) but as its own
+# unprivileged user dep-rebuilder (home /var/lib/dep-rebuilder: database, logs,
+# container storage), created here. It reuses source_analysis's comparison code,
+# so both folders are copied, to /opt/dep-rebuilder/external/. Backups of its
+# database: external/db_backup.
 #
 # Installed: walletscrutiny-dep-rebuilder.service (node index.mjs serve,
 # Restart=always), enabled on each deploy so it comes back after a reboot.
 #
-# The tests run first and a failure aborts the deploy.
+# SSH config for that host uses User root. The tests run first and a failure
+# aborts the deploy.
 #
 # Usage:
-#   DEP_REBUILDER_HOST=rebuilder.example npm run deploy:dep-rebuilder
+#   npm run deploy:dep-rebuilder
 #
 # Environment:
-#   DEP_REBUILDER_HOST  required
+#   BUILD_SERVER_HOST   default: build.walletscrutiny.com
 #   RESTART=0           install without restarting a running service (default: restart, which waits for the build in progress)
 
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-HOST="${DEP_REBUILDER_HOST:-}"
-if [ -z "$HOST" ]; then
-  echo "Set DEP_REBUILDER_HOST to the machine that runs the rebuilder (not the build server)." >&2
-  exit 1
-fi
+HOST="${BUILD_SERVER_HOST:-build.walletscrutiny.com}"
 TARGET_DIR="/opt/dep-rebuilder"
 SERVICE_NAME="walletscrutiny-dep-rebuilder.service"
 SERVICE_USER="dep-rebuilder"
