@@ -43,6 +43,7 @@ export function openDb(file = DB_PATH) {
       toolchain TEXT, sandbox TEXT, log TEXT, seconds INTEGER, event TEXT, finished_at TEXT DEFAULT CURRENT_TIMESTAMP,
       PRIMARY KEY (ecosystem, name, version)
     );
+    CREATE TABLE IF NOT EXISTS meta (key TEXT PRIMARY KEY, value TEXT);
     -- every attempt, kept
     CREATE TABLE IF NOT EXISTS attempts (
       id INTEGER PRIMARY KEY, ecosystem TEXT, name TEXT, version TEXT, result TEXT, note TEXT, seconds INTEGER, finished_at TEXT DEFAULT CURRENT_TIMESTAMP
@@ -87,3 +88,6 @@ export function tally(db) {
     AND NOT EXISTS (SELECT 1 FROM google g WHERE g.ecosystem = c.ecosystem AND g.name = c.name AND g.version = c.version)`).get().n;
   return { candidates: c.n, sharedByTwoOrMore: c.shared || 0, results, notYetTried: todo };
 }
+
+export const getMeta = (db, key) => db.prepare(`SELECT value FROM meta WHERE key = ?`).get(key)?.value ?? null;
+export const setMeta = (db, key, value) => db.prepare(`INSERT OR REPLACE INTO meta (key, value) VALUES (?, ?)`).run(key, String(value));

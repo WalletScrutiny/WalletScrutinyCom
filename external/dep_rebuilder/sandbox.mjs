@@ -59,3 +59,11 @@ export function runPhase({ cli = CONTAINER_CLI, args, name, logFile, workDir, li
     child.on('close', (code) => { clearTimeout(timer); clearInterval(disk); fs.closeSync(log); spawnSync(cli, ['rm', '-f', '-t', '0', name], { stdio: 'ignore' }); resolve({ code, timedOut, tooBig }); });
   });
 }
+
+/** Containers a killed or crashed earlier run left behind (ours are all named dr-*). */
+export function removeStaleContainers(cli = CONTAINER_CLI) {
+  const ls = spawnSync(cli, ['ps', '-a', '--filter', 'name=^dr-', '--format', '{{.Names}}'], { encoding: 'utf8' });
+  const names = ls.status === 0 ? ls.stdout.split('\n').filter(Boolean) : [];
+  for (const n of names) spawnSync(cli, ['rm', '-f', '-t', '0', n], { stdio: 'ignore' });
+  return names.length;
+}

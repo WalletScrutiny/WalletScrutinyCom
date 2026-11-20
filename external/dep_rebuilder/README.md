@@ -18,6 +18,7 @@ npm install
 node index.mjs sync            # read the published dependency export, count wallets per package version, ask Google
 node index.mjs list --top 20   # what comes next
 node index.mjs run --top 50    # rebuild the next 50; Ctrl-C stops after the current package
+node index.mjs serve           # unattended: the same, forever (what the service runs)
 node index.mjs status
 node index.mjs export --out claims.json
 ```
@@ -33,6 +34,46 @@ Environment: `DEP_REBUILDER_EXPORT` (export URL or directory, default the live
 `api/source-analysis`), `DEP_REBUILDER_DATA` (database, logs, scratch; default
 `./data`), `DEP_REBUILDER_MEMORY`, `_CPUS`, `_PIDS`, `_DISK_GB` (default 8),
 `_PHASE_MIN` (default 20), `DEP_REBUILDER_CLI` (`podman`).
+
+## Run it as a service
+
+`node index.mjs serve` is the unattended mode: it syncs the dependency lists
+and Google's coverage when the last sync is more than 24 hours old (a failed
+sync is retried after 30 minutes), rebuilds the next version, most shared
+first, one at a time, and sleeps an hour when nothing is left. Each result is
+saved as soon as it exists, so a restart loses only the build in progress. A
+version whose build could not be attempted (registry or network down) is set
+aside until the next sync or restart instead of being retried in a loop.
+`SIGTERM` finishes the current package first; containers left by a killed
+earlier run are removed at start.
+
+### Where it runs
+
+**Not on the build server**: the packages are untrusted code. Use a machine of
+its own (ideally a VM) with `podman`, `nodejs`, `npm` and `uidmap`, SSH as root.
+
+### Deploy
+
+```
+DEP_REBUILDER_HOST=<ssh host> npm run deploy:dep-rebuilder      # from the repository root
+```
+
+The script runs the tests, copies `external/dep_rebuilder` and
+`external/source_analysis` (whose comparison code is reused) to
+`/opt/dep-rebuilder`, creates the unprivileged user `dep-rebuilder` (home
+`/var/lib/dep-rebuilder`: database, logs, container storage; subuid/subgid
+ranges; lingering, which rootless podman needs), runs `npm ci`, installs and
+enables `walletscrutiny-dep-rebuilder.service` (`Restart=always`, starts on
+boot) and restarts it. `RESTART=0` leaves a running service alone.
+
+```
+journalctl -u walletscrutiny-dep-rebuilder -f
+sudo -u dep-rebuilder env DEP_REBUILDER_DATA=/var/lib/dep-rebuilder/data node /opt/dep-rebuilder/external/dep_rebuilder/index.mjs status
+```
+
+Tuning: edit the `Environment=` lines of the unit (limits, export URL). The
+unit has no `NoNewPrivileges`: rootless podman needs the setuid
+`newuidmap`/`newgidmap`.
 
 ## The sandbox
 

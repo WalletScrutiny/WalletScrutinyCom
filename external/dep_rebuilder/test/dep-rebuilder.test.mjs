@@ -6,6 +6,7 @@ import path from 'path';
 import { openDb, saveCandidates, pending, saveRebuild, tally } from '../db.mjs';
 import { collectCandidates } from '../candidates.mjs';
 import { sandboxArgs } from '../sandbox.mjs';
+import { serveLoop } from '../worker.mjs';
 
 function exportDir(apps) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'depreb-'));
@@ -71,4 +72,56 @@ test('the phase that runs package scripts has no network and no privileges', () 
   assert.ok(!install.some(a => a.endsWith(':/out:rw')), 'only the build phase gets /out');
   // nothing of the host beyond the work and output directories is mounted
   assert.equal(build.filter(a => a === '-v').length, 2);
+});
+
+function serveFixture() {
+  const db = openDb(':memory:');
+  let t = 1_000_000_000_000;
+  const events = [];
+  let stop = false;
+  const opts = {
+    db, now: () => t, log: (m) => events.push(m), shouldStop: () => stop,
+    sync: async () => { events.push('sync'); saveCandidates(db, [
+      { ecosystem: 'npm', name: 'a', version: '1.0.0', wallets: 3, wallets_any: 3 },
+      { ecosystem: 'npm', name: 'b', version: '1.0.0', wallets: 9, wallets_any: 9 },
+    ]); return {}; },
+    step: async (c) => { events.push(`build ${c.name}`); saveRebuild(db, { ecosystem: 'npm', name: c.name, version: c.version, result: 'reproduced', note: 'ok' }); },
+    sleep: async (ms) => { events.push(`sleep ${ms}`); t += ms; },
+  };
+  return { db, opts, events, stop: () => { stop = true; }, advance: (ms) => { t += ms; } };
+}
+
+test('serve: syncs first, builds the most shared version first, sleeps when nothing is left, syncs again after a day', async () => {
+  const f = serveFixture();
+  let sleeps = 0;
+  const sleep = f.opts.sleep;
+  f.opts.sleep = async (ms) => { await sleep(ms); if (++sleeps === 25) f.stop(); };
+  await serveLoop(f.opts);
+  const log = f.events.filter(e => !e.startsWith('sync:'));
+  assert.deepEqual(log.slice(0, 4), ['sync', 'build b', 'build a', `sleep ${3600 * 1000}`]);
+  assert.equal(log.filter(e => e === 'sync').length, 2, 'the second sync comes after 24 hourly sleeps, not before');
+  assert.equal(log.slice(1, log.lastIndexOf('sync')).filter(e => e.startsWith('sleep')).length, 24);
+});
+
+test('serve: a version that throws is deferred, not retried in a loop, and the next one is built', async () => {
+  const f = serveFixture();
+  f.opts.step = async (c) => { f.events.push(`build ${c.name}`); if (c.name === 'b') throw new Error('registry down'); saveRebuild(f.db, { ecosystem: 'npm', name: c.name, version: c.version, result: 'failed', note: 'x' }); };
+  let sleeps = 0;
+  const sleep = f.opts.sleep;
+  f.opts.sleep = async (ms) => { await sleep(ms); if (++sleeps === 2) f.stop(); };
+  await serveLoop(f.opts);
+  assert.deepEqual(f.events.filter(e => e.startsWith('build')), ['build b', 'build a']);
+});
+
+test('serve: a failed sync is retried later and does not stop the loop', async () => {
+  const f = serveFixture();
+  let tries = 0;
+  const ok = f.opts.sync;
+  f.opts.sync = async () => { if (++tries === 1) throw new Error('offline'); return ok(); };
+  let sleeps = 0;
+  const sleep = f.opts.sleep;
+  f.opts.sleep = async (ms) => { await sleep(ms); if (++sleeps === 3) f.stop(); };
+  await serveLoop(f.opts);
+  assert.equal(tries, 2);
+  assert.ok(f.events.includes('build b'));
 });
