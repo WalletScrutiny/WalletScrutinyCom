@@ -6,8 +6,9 @@ Wants=network-online.target
 
 [Service]
 Type=simple
-# Never the build server: the packages are untrusted code (README, "Where it runs").
-# An unprivileged user with rootless podman and lingering (deploy script).
+# Its own unprivileged user, not build-server (which holds the bot keys and tokens):
+# the packages are untrusted code (README, "Where it runs"). Rootless podman and
+# lingering are set up by the deploy script.
 User=dep-rebuilder
 Group=dep-rebuilder
 WorkingDirectory=/opt/dep-rebuilder/external/dep_rebuilder

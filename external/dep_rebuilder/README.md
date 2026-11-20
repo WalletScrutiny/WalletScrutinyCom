@@ -9,8 +9,8 @@ Today: **npm**. Cargo, PyPI and Maven need their own build recipes.
 
 ## Run it
 
-Start it as an **unprivileged user with rootless podman**, on a machine that is
-not the build server. It refuses to run as root (`DEP_REBUILDER_ALLOW_ROOT=1`
+Start it as an **unprivileged user with rootless podman** (on the build server:
+its own user, not `build-server`). It refuses to run as root (`DEP_REBUILDER_ALLOW_ROOT=1`
 overrides, for tests).
 
 ```
@@ -49,13 +49,13 @@ earlier run are removed at start.
 
 ### Where it runs
 
-**Not on the build server**: the packages are untrusted code. Use a machine of
-its own (ideally a VM) with `podman`, `nodejs`, `npm` and `uidmap`, SSH as root.
+On the build server, as its own unprivileged user `dep-rebuilder` (not
+`build-server`, which holds the bot keys and tokens), with rootless podman.
 
 ### Deploy
 
 ```
-DEP_REBUILDER_HOST=<ssh host> npm run deploy:dep-rebuilder      # from the repository root
+npm run deploy:dep-rebuilder      # from the repository root; BUILD_SERVER_HOST overrides the host
 ```
 
 The script runs the tests, copies `external/dep_rebuilder` and
