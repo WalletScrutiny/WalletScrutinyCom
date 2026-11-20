@@ -5,6 +5,8 @@
 //   scripts <package dir>            prints 1 when the package has build scripts, else 0
 //   sources <repository> <package>   prints the first dependency that does not come
 //                                    from a registry or from the repository
+//   workspace <repository> <package> prints 1 when the package is a member of a
+//                                    workspace (a directory below a root that declares one), else 0
 //
 // Why "sources": npm clones a git dependency and runs its prepare script whatever
 // --ignore-scripts says, and the install step has the network. So a dependency is
@@ -81,6 +83,17 @@ function manifestsUnder(dir, depth, out) {
   return out;
 }
 
+// what makes a repository root a workspace, besides "workspaces" in its package.json
+var WORKSPACE_FILES = ["pnpm-workspace.yaml", "lerna.json"];
+
+// A member of a workspace is built by the root (one install, often one build for all
+// members), not in its own directory.
+function workspaceMember(repo, pkg) {
+  if (path.resolve(pkg) === path.resolve(repo)) return false;
+  if (WORKSPACE_FILES.some(function (f) { return fs.existsSync(path.join(repo, f)); })) return true;
+  try { return Boolean(readJson(path.join(repo, "package.json")).workspaces); } catch (e) { return false; }
+}
+
 function sources(repo, pkg) {
   var own = [path.join(repo, "package.json")], hit = null, workspace = false;
   if (path.resolve(pkg) !== path.resolve(repo)) own.push(path.join(pkg, "package.json"));
@@ -91,7 +104,7 @@ function sources(repo, pkg) {
       if (!(i === 0 && own.length > 1 && e.code === "ENOENT")) hit = path.relative(repo, file) + " cannot be read";
     }
   });
-  ["pnpm-workspace.yaml", "lerna.json"].forEach(function (f) { if (fs.existsSync(path.join(repo, f))) workspace = true; });
+  WORKSPACE_FILES.forEach(function (f) { if (fs.existsSync(path.join(repo, f))) workspace = true; });
   // a workspace installs for all its members
   if (!hit && workspace) manifestsUnder(repo, 0, []).forEach(function (file) {
     if (hit) return;
@@ -109,4 +122,6 @@ if (mode === "scripts") {
 } else if (mode === "sources") {
   var problem = sources(process.argv[2], process.argv[3]);
   if (problem) console.log(problem.replace(/\s+/g, " ").slice(0, 200));
+} else if (mode === "workspace") {
+  console.log(workspaceMember(process.argv[2], process.argv[3]) ? "1" : "0");
 }

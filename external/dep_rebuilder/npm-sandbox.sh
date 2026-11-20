@@ -41,6 +41,8 @@ clone)
   git clone --quiet --filter=blob:none --no-checkout "$REPO" /work/src
   cd /work/src && git -c advice.detachedHead=false checkout --quiet "$REF"
   git log -1 --format='commit %H %cI'
+  # Said here, before any code of the repository has run: rebuild.mjs takes it from this step only.
+  if [ "$(manifest workspace /work/src "$PKG")" = 1 ]; then echo "== workspace member: the repository's root build is not run"; fi
   ;;
 install)
   cd /work

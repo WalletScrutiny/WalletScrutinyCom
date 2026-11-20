@@ -15,10 +15,14 @@ fs.appendFileSync(process.env.FAKE_CALLS, `${JSON.stringify(env)}\n`);
 if (env.PHASE === 'clone') {
   if (mode === 'clone-fails') { console.log('fatal: unable to access the repository'); process.exit(128); }
   console.log(`commit ${'c'.repeat(40)} 2026-01-01T00:00:00+00:00`);
+  if (process.env.FAKE_WORKSPACE === 'clone') console.log('== workspace member: the repository\'s root build is not run');
 } else if (env.PHASE === 'install') {
   console.log('== node v20.0.0 npm 10.0.0');
 } else if (env.PHASE === 'build') {
   const out = path.join(mount('/out'), 'x-1.0.0.tgz');
+  if (process.env.FAKE_WORKSPACE === 'build') console.log('== workspace member: says the build about itself');
+  if (mode === 'source-only') fs.copyFileSync(process.env.FAKE_SOURCE_TGZ, out); // what git has, without the built files
+  if (mode === 'no-tarball') { console.log('npm error Missing script: "build"'); process.exit(1); }
   if (mode === 'ok') fs.copyFileSync(process.env.FAKE_TGZ, out);
   if (mode === 'pipe') execFileSync('mkfifo', [out]);
   if (mode === 'link') fs.symlinkSync(process.env.FAKE_TGZ, out);

@@ -63,6 +63,13 @@ export function openDb(file = DB_PATH) {
       UPDATE rebuilds SET phase = 'clone' WHERE result = 'failed' AND (note LIKE 'clone failed:%' OR note LIKE 'The clone step %');
       UPDATE rebuilds SET phase = 'install' WHERE result = 'failed' AND (note LIKE 'install failed:%' OR note LIKE 'The install step %');`);
   }
+  if (!db.prepare(`SELECT 1 FROM meta WHERE key = 'rejudged_missing_files'`).get()) {
+    // Before workspace members were told apart (rebuild.mjs, "unsupported"), one that its
+    // repository's root builds was recorded as failed for the files it lacked. Failures of
+    // that kind are dropped once, so these versions are built and judged again.
+    db.exec(`DELETE FROM rebuilds WHERE result = 'failed' AND note LIKE 'Rebuilt tarball differs:%missing%';
+      INSERT INTO meta (key, value) VALUES ('rejudged_missing_files', datetime('now'));`);
+  }
   return db;
 }
 

@@ -199,6 +199,16 @@ utility inside a VM.
 rebuilt one (tar metadata and gzip ignored, as OSS Rebuild does); otherwise
 `failed` with the reason (differing files, and whether they differ in line
 endings, docs or dev-only package.json fields only; or the step that failed).
+
+`unsupported` when the package is a member of a workspace (a directory below a
+root with `workspaces`, `pnpm-workspace.yaml` or `lerna.json`) and what its own
+directory gives is not the published package. Such packages are built by the
+repository's root: Babel's `make prepublish-build` builds 150 packages at once,
+writes each `LICENSE` and rewrites each `package.json`. That build is not run
+here, so the comparison would be between the published package and bare source,
+and says nothing about the package. These rows stay in the database (the log
+line starts with `–`), are not built again and are left out of `rebuilds.json`.
+A member that needs no build still comes out `reproduced`.
 The comparison and wording are `source_analysis/rebuildNpm.mjs`'s, which this
 reuses. The results leave the machine only as `rebuilds.json` (above).
 

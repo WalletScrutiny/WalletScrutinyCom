@@ -12,6 +12,7 @@ export const FEED_SCHEMA = 1;
 /** Every finished rebuild, ordered by package, as the rows of rebuilds.json. */
 export function feedRows(db) {
   // wallets: how many wallets ship the version in their app (the candidate list's count)
+  // Only what was decided: "unsupported" (a build this utility cannot run yet) is no claim about the package.
   return db.prepare(`SELECT r.ecosystem, r.name, r.version, r.result, r.note, substr(r.finished_at, 1, 10) AS date,
       r.repo_url AS repo, r.commit_sha AS "commit", r.toolchain, c.wallets AS wallets
     FROM rebuilds r LEFT JOIN candidates c ON c.ecosystem = r.ecosystem AND c.name = r.name AND c.version = r.version
