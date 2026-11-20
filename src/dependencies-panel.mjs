@@ -840,7 +840,7 @@ function otherProductsTrigger(a, { base, fetchImpl, appIds }) {
         wallet?.url ? el('a', { href: wallet.url }, icon, label) : el('span', {}, icon, label),
         sameVersion && a.version ? el('span', { className: 'dp-tip__same' }, ` on ${a.version}`) : null);
     });
-    return [el('p', {}, `Other wallets that ship ${a.package}:`), el('ul', { className: 'dp-tip__wallets' }, items)];
+    return [el('p', {}, 'Other wallets that ship ', el('strong', {}, a.package), ':'), el('ul', { className: 'dp-tip__wallets' }, items)];
   }, { className: 'dp-products-info' });
   trigger.setAttribute('aria-label', `Which wallets ship ${a.package}`);
   return trigger;
