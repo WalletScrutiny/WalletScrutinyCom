@@ -20,6 +20,12 @@ permalink: /verifications/
     <p class="contribute-card__desc">Browse wallet binaries registered on the network.</p>
     <span class="contribute-card__cta">Open registry {% include icon.html name="arrow-right" %}</span>
   </a>
+  <a class="contribute-card" href="/reproduced/">
+    <span class="contribute-card__icon" aria-hidden="true">{% include icon.html name="clipboard-check" %}</span>
+    <h2 class="contribute-card__title">Reproduced Wallets</h2>
+    <p class="contribute-card__desc">See which wallet versions were reproduced, and when.</p>
+    <span class="contribute-card__cta">View list {% include icon.html name="arrow-right" %}</span>
+  </a>
   <a class="contribute-card" href="/verifiers/">
     <span class="contribute-card__icon" aria-hidden="true">{% include icon.html name="handshake-angle" %}</span>
     <h2 class="contribute-card__title">Top Build Verifiers</h2>

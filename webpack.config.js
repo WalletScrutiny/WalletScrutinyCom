@@ -54,6 +54,7 @@ module.exports = (env, argv) => {
           './src/assets-table-modal.mjs',
           './src/assets-table-hash.mjs',
           './src/build-verifications.mjs',
+          './src/reproduced-wallets.mjs',
           './src/dependencies-panel.mjs',
           './src/own-vulnerabilities.mjs',
           './src/assets-table.js',
