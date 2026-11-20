@@ -16,6 +16,7 @@ DATABASES="${WS_BACKUP_DATABASES:-verifications=/var/lib/walletscrutiny-build-se
 KEEP_DAYS="${WS_BACKUP_KEEP_DAYS:-21}"      # snapshots older than this are deleted (the newest is always kept)
 PUSH_TARGET="${WS_BACKUP_PUSH_TARGET:-}"     # e.g. backup@host:/  (an rrsync-restricted key)
 PUSH_SSH="${WS_BACKUP_PUSH_SSH:-ssh}"
+PUSH_TIMEOUT="${WS_BACKUP_PUSH_TIMEOUT:-1h}"   # the copy is aborted (and reported as failed) after this long
 PUSH_DELETE="${WS_BACKUP_PUSH_DELETE:-yes}"  # "yes": the remote copy mirrors this directory, so it keeps the same window; "no": it keeps everything
 
 failed=0
@@ -64,9 +65,11 @@ for entry in $DATABASES; do
 done
 
 if [ -n "$PUSH_TARGET" ]; then
-  args=(-a --partial --exclude '/.tmp/' -e "$PUSH_SSH")
+  # ssh uses the first value it sees for an option, so these only fill in what the env file left out
+  args=(-a --partial --exclude '/.tmp/' -e "$PUSH_SSH -o ConnectTimeout=30 -o ServerAliveInterval=30 -o ServerAliveCountMax=4")
   [ "$PUSH_DELETE" != "no" ] && args+=(--delete --delete-excluded)
-  if rsync "${args[@]}" "$BACKUP_DIR/" "$PUSH_TARGET"; then
+  log "pushing to $PUSH_TARGET (gives up after $PUSH_TIMEOUT)"
+  if timeout "$PUSH_TIMEOUT" rsync "${args[@]}" "$BACKUP_DIR/" "$PUSH_TARGET"; then
     log "pushed to the remote copy"
   else
     err "rsync to the remote copy failed"
