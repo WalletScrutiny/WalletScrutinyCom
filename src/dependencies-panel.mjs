@@ -13,7 +13,7 @@ import {
 import { TRIAGE_LABEL, JUSTIFICATION_LABEL, DELETION_KIND, triageStateOf, withStatement, mergeLiveTriage, triageForApp, evidenceUrl } from './dependency-triage.mjs';
 import { dependencyTriageKind, mainRelayUrl, eventRelayUrls } from './nostr-constants.mjs';
 import { fetchEvents } from './nostr-client.mjs';
-import { openTriageDialog } from './dependencies-triage-form.mjs';
+import { openTriageDialog, browserNostr } from './dependencies-triage-form.mjs';
 import { treeElement } from './dependencies-tree.mjs';
 import { rebuildTile, rebuildsElement, rebuildIndex } from './dependencies-rebuilds.mjs';
 import { epssTrigger, tipTrigger, refreshTip } from './dependencies-epss-tip.mjs';
@@ -1431,6 +1431,14 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
   if (!host || !appId) return null;
   let selected = selectedVersion === undefined ? pickedVersion(platform) : selectedVersion;
   let ready = false;
+  // Statements are signed with a Nostr extension: without one, no row offers
+  // to write or edit one. Extensions inject late, so this repaints once found.
+  let canSign = false;
+  (nostr || browserNostr()).waitExtension().then((found) => {
+    if (!found) return;
+    canSign = true;
+    if (ready && model && !model.notAnalysed) paint();
+  }, () => {});
   if (selectedVersion === undefined && typeof document !== 'undefined') {
     // Listening before the export loads: a pick made meanwhile is not lost.
     document.addEventListener('buildVersionSelected', (event) => {
@@ -1481,7 +1489,7 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
     }
     model = panelModel(app, { release: release?.ref || null, selectedVersion: release ? selected : null, triage, signals, upstream, apk, platform, appId });
     if (!model) return null;
-    host.replaceChildren(panelElement(model, { appId: analysisId, wallet: title || analysisId, base, fetchImpl, onJudge, trusted: lists.trusted, triageFailed: Boolean(published?.failed), expanded, onToggle: (open) => { expanded = open; }, ...extra }));
+    host.replaceChildren(panelElement(model, { appId: analysisId, wallet: title || analysisId, base, fetchImpl, onJudge: canSign ? onJudge : null, trusted: lists.trusted, triageFailed: Boolean(published?.failed), expanded, onToggle: (open) => { expanded = open; }, ...extra }));
     nameSigners(host, profiles === undefined ? defaultProfiles : profiles);
     return model;
   };
