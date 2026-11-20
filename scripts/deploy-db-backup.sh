@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
-# Deploy the database backup (external/db_backup) to build.walletscrutiny.com, or
-# with DB_BACKUP_PROFILE=dep-rebuilder to the machine that runs the dependency
-# rebuilder (npm run deploy:db-backup:dep-rebuilder; its database is not on the
-# build server). The second one is the same script and timer with a systemd
-# drop-in (config/dep-rebuilder.conf) for the user and the database.
+# Deploy the database backup (external/db_backup) to build.walletscrutiny.com.
 #
 # Only that folder is deployed, to /opt/db-backup, root-owned (the service runs as
 # build-server and must not be able to change its own script). Same host and SSH
@@ -11,39 +7,34 @@
 # User root). The units installed here:
 #   walletscrutiny-db-backup.service (oneshot, /opt/db-backup/backup.sh)
 #   walletscrutiny-db-backup.timer   (nightly)
+#   walletscrutiny-db-backup-dep-rebuilder.service/.timer: the same script for the
+#     dependency rebuilder's database, run as its user dep-rebuilder with its own
+#     env file and copy target (README, "The dependency rebuilder database");
+#     enabled when that user exists, i.e. after deploy:dep-rebuilder
 # The timer is enabled on each deploy (not only started) so it comes back after reboot.
 #
-# Not touched by the deploy: /etc/walletscrutiny-db-backup/env (the remote copy
-# target; created once by hand, see external/db_backup/README.md, "Setting up")
+# Not touched by the deploy: /etc/walletscrutiny-db-backup/env and dep-rebuilder.env
+# (the remote copy targets; created once by hand, see external/db_backup/README.md,
+# "Setting up")
 # and the snapshots in /var/lib/walletscrutiny-db-backup.
 #
 # Usage:
 #   npm run deploy:db-backup
-#   DEP_REBUILDER_HOST=<ssh host> npm run deploy:db-backup:dep-rebuilder
 #
 # Environment:
 #   BUILD_SERVER_HOST   default: build.walletscrutiny.com
-#   DEP_REBUILDER_HOST  required with DB_BACKUP_PROFILE=dep-rebuilder (same value as deploy:dep-rebuilder)
 #   RUN_NOW=1           take snapshots right after the deploy (default: wait for the timer)
 
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-PROFILE="${DB_BACKUP_PROFILE:-build-server}"
-case "$PROFILE" in
-  build-server) HOST="${BUILD_SERVER_HOST:-build.walletscrutiny.com}" ;;
-  dep-rebuilder)
-    HOST="${DEP_REBUILDER_HOST:-}"
-    if [ -z "$HOST" ]; then
-      echo "Set DEP_REBUILDER_HOST to the machine that runs the rebuilder (as for deploy:dep-rebuilder)." >&2
-      exit 1
-    fi ;;
-  *) echo "Unknown DB_BACKUP_PROFILE '${PROFILE}' (build-server or dep-rebuilder)" >&2; exit 1 ;;
-esac
+HOST="${BUILD_SERVER_HOST:-build.walletscrutiny.com}"
 SOURCE_DIR="${ROOT}/external/db_backup"
 TARGET_DIR="/opt/db-backup"
 SERVICE_NAME="walletscrutiny-db-backup.service"
 TIMER_NAME="walletscrutiny-db-backup.timer"
+DEP_SERVICE_NAME="walletscrutiny-db-backup-dep-rebuilder.service"
+DEP_TIMER_NAME="walletscrutiny-db-backup-dep-rebuilder.timer"
 
 log() {
   printf '%s\n' "$*"
@@ -64,13 +55,14 @@ rsync -az --delete --chown=root:root --info=stats1 \
 
 log "Installing the units and verifying on ${HOST}"
 ssh -o BatchMode=yes "${HOST}" bash -s -- \
-  "$TARGET_DIR" "$SERVICE_NAME" "$TIMER_NAME" "${RUN_NOW:-0}" "$PROFILE" <<'REMOTE'
+  "$TARGET_DIR" "$SERVICE_NAME" "$TIMER_NAME" "${RUN_NOW:-0}" "$DEP_SERVICE_NAME" "$DEP_TIMER_NAME" <<'REMOTE'
 set -euo pipefail
 TARGET_DIR="$1"
 SERVICE_NAME="$2"
 TIMER_NAME="$3"
 RUN_NOW="$4"
-PROFILE="$5"
+DEP_SERVICE_NAME="$5"
+DEP_TIMER_NAME="$6"
 UNIT_DIR="${TARGET_DIR}/config"
 
 for tool in sqlite3 zstd rsync; do
@@ -92,17 +84,7 @@ fi
 echo "Refreshing systemd units from ${UNIT_DIR}..."
 cp "${UNIT_DIR}/${SERVICE_NAME}" /etc/systemd/system/
 cp "${UNIT_DIR}/${TIMER_NAME}" /etc/systemd/system/
-DROPIN_DIR="/etc/systemd/system/${SERVICE_NAME}.d"
-if [ "$PROFILE" = "dep-rebuilder" ]; then
-  if ! id dep-rebuilder >/dev/null 2>&1; then
-    echo "No user dep-rebuilder on this host: run deploy:dep-rebuilder first" >&2
-    exit 1
-  fi
-  mkdir -p "$DROPIN_DIR"
-  cp "${UNIT_DIR}/dep-rebuilder.conf" "${DROPIN_DIR}/dep-rebuilder.conf"
-else
-  rm -f "${DROPIN_DIR}/dep-rebuilder.conf"
-fi
+cp "${UNIT_DIR}/${DEP_SERVICE_NAME}" "${UNIT_DIR}/${DEP_TIMER_NAME}" /etc/systemd/system/
 # See scripts/deploy-build-server.sh: daemon-reload can take minutes on this host.
 export SYSTEMD_BUS_TIMEOUT=900
 if ! systemctl daemon-reload; then
@@ -110,11 +92,27 @@ if ! systemctl daemon-reload; then
 fi
 echo "Enabling ${TIMER_NAME}..."
 systemctl enable --now "${TIMER_NAME}"
+DEP_ENABLED=0
+if id dep-rebuilder >/dev/null 2>&1; then
+  echo "Enabling ${DEP_TIMER_NAME}..."
+  systemctl enable --now "${DEP_TIMER_NAME}"
+  DEP_ENABLED=1
+  if [ ! -f /etc/walletscrutiny-db-backup/dep-rebuilder.env ] || ! grep -q '^WS_BACKUP_PUSH_TARGET=' /etc/walletscrutiny-db-backup/dep-rebuilder.env; then
+    echo "Warning: WS_BACKUP_PUSH_TARGET is not set in /etc/walletscrutiny-db-backup/dep-rebuilder.env, so its snapshots stay on this host." >&2
+  fi
+else
+  echo "No user dep-rebuilder yet: ${DEP_TIMER_NAME} not enabled (run deploy:dep-rebuilder, then this deploy again)." >&2
+fi
 
 if [ "${RUN_NOW}" = "1" ]; then
   echo "Running ${SERVICE_NAME} now..."
   systemctl start "${SERVICE_NAME}"
   journalctl --no-pager -u "${SERVICE_NAME}" -n 15
+  if [ "$DEP_ENABLED" = 1 ]; then
+    echo "Running ${DEP_SERVICE_NAME} now..."
+    systemctl start "${DEP_SERVICE_NAME}"
+    journalctl --no-pager -u "${DEP_SERVICE_NAME}" -n 15
+  fi
 fi
 
 systemctl --no-pager list-timers "${TIMER_NAME}"

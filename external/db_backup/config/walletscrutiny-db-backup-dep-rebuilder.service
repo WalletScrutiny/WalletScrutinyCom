@@ -1,0 +1,34 @@
+[Unit]
+Description=WalletScrutiny dependency rebuilder database backup: snapshot of dep-rebuilder.db, copied to another server (oneshot)
+Documentation=file:/opt/db-backup/README.md
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+# The rebuilder's own user: it owns the database, and build code runs as that user,
+# so this unit has its own copy target and key (README, "The dependency rebuilder database").
+User=dep-rebuilder
+Group=dep-rebuilder
+WorkingDirectory=/opt/db-backup
+StateDirectory=walletscrutiny-db-backup-dep-rebuilder
+Environment=WS_BACKUP_DIR=/var/lib/walletscrutiny-db-backup-dep-rebuilder
+Environment=WS_BACKUP_DATABASES=dep-rebuilder=/var/lib/dep-rebuilder/data/dep-rebuilder.db
+
+# Where the snapshots go and the remote copy (README, "Setting up"); the file may
+# set WS_BACKUP_PUSH_TARGET, WS_BACKUP_PUSH_SSH, WS_BACKUP_PUSH_DELETE, WS_BACKUP_DATABASES, ...
+EnvironmentFile=-/etc/walletscrutiny-db-backup/dep-rebuilder.env
+
+# sqlite3 .backup opens the live database, so its directory must be writable
+# (WAL/shm files); everything else is read-only.
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=yes
+ReadWritePaths=-/var/lib/dep-rebuilder/data
+ReadOnlyPaths=/etc/walletscrutiny-db-backup
+
+ExecStart=/opt/db-backup/backup.sh
+
+[Install]
+WantedBy=multi-user.target
