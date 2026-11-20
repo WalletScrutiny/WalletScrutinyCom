@@ -145,22 +145,25 @@ test('a gzip bomb in a rebuilt tarball is refused, not unpacked into memory', ()
   assert.throws(() => tgzFiles(bomb), /larger than|ERR_BUFFER_TOO_LARGE|Cannot create a Buffer/);
 });
 
-test('the website feed has outcomes and one-line reasons, no logs or paths, and skips what was not decided', () => {
+test('the website feed has the reproduced versions with a one-line note, no logs or paths, and nothing that was not reproduced', () => {
   const db = openDb(':memory:');
   saveRebuild(db, { ecosystem: 'npm', name: 'a', version: '1.0.0', result: 'reproduced', note: 'Byte-identical tarball', repoUrl: 'https://github.com/x/a', commit: 'c'.repeat(40), toolchain: 'node:20 npm 10', log: '/var/lib/x/a.log', sandbox: 's' });
   saveRebuild(db, { ecosystem: 'npm', name: 'b', version: '2.0.0', result: 'failed', note: 'differs' });
   saveRebuild(db, { ecosystem: 'npm', name: 'c', version: '3.0.0', result: 'skipped', note: 'later' });
+  saveRebuild(db, { ecosystem: 'npm', name: 'd', version: '4.0.0', result: 'unsupported', note: 'Member of a workspace, whose root build is not run here' });
   saveCandidates(db, [{ ecosystem: 'npm', name: 'a', version: '1.0.0', wallets: 8, wallets_any: 9 }]);
   const rows = feedRows(db);
-  assert.deepEqual(rows.map(r => `${r.name}@${r.version} ${r.result}`), ['a@1.0.0 reproduced', 'b@2.0.0 failed']);
+  assert.deepEqual(rows.map(r => `${r.name}@${r.version} ${r.result}`), ['a@1.0.0 reproduced'], 'a failure of our build is no claim about the package');
   assert.equal(rows[0].wallets, 8, 'how many wallets ship it');
-  assert.ok(!('wallets' in rows[1]), 'no count for a version that is not a candidate');
+  saveRebuild(db, { ecosystem: 'npm', name: 'e', version: '5.0.0', result: 'reproduced', note: 'Byte-identical tarball' });
+  assert.ok(!('wallets' in feedRows(db)[1]), 'no count for a version that is not a candidate');
   assert.match(rows[0].date, /^\d{4}-\d\d-\d\d$/);
   assert.ok(!JSON.stringify(rows).includes('/var/lib'), 'no local paths leave the machine');
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'depreb-site-'));
   assert.equal(writeFeed(db, dir), 2);
   const feed = JSON.parse(fs.readFileSync(path.join(dir, 'rebuilds.json'), 'utf8'));
   assert.deepEqual([feed.schema, feed.claimant, feed.rows.length], [1, 'ws', 2]);
+  assert.deepEqual(feed.rows.map(r => r.result), ['reproduced', 'reproduced']);
 });
 
 test('publishing copies the feed with brotli through rsync, and does nothing without a target', () => {

@@ -829,11 +829,15 @@ export function saveSubmodules(db, appId, ref, commit, rows) {
 /**
  * Every rebuild claim (package_rebuilds) as Map `ecosystem\0name\0version` →
  * claims, ours first. Only what the panel shows: our unsigned event rides along.
+ * A rebuild of ours that did not match is not shown: it says that our build did
+ * not give the published file, not that the package cannot be reproduced. The row
+ * stays, so rebuild-npm-cli.mjs does not try the version again.
  */
 export function getRebuildClaims(db) {
   const out = new Map();
   const rows = db.prepare(`SELECT * FROM package_rebuilds ORDER BY claimant = 'ws' DESC, claimant`).all();
   for (const r of rows) {
+    if (r.claimant === 'ws' && r.result !== 'reproduced') continue;
     const key = `${r.ecosystem}\0${r.name}\0${r.version}`;
     if (!out.has(key)) out.set(key, []);
     const c = { by: r.claimant, result: r.result };

@@ -49,7 +49,7 @@ async function rebuildAndSave(c, { interrupted = () => false } = {}) {
   removeTree(scratch); // the log is kept, the tarball and checkout are not
   if (r.result !== 'reproduced' && interrupted()) throw new Error('stopped while it was building, so this result is not kept');
   saveRebuild(db, r);
-  console.log(`${r.result === 'reproduced' ? '✓' : '✗'} ${label}${c.wallets ? ` (${c.wallets} wallets)` : ''} ${r.seconds}s: ${r.note}`);
+  console.log(`${{ reproduced: '✓', unsupported: '–' }[r.result] || '✗'} ${label}${c.wallets ? ` (${c.wallets} wallets)` : ''} ${r.seconds}s: ${r.note}`);
   return r;
 }
 

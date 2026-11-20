@@ -9,7 +9,7 @@ const feed = (rows) => ({ schema: 1, claimant: 'ws', rows });
 const row = (name, version, result, date = '2026-11-20', extra = {}) => ({ ecosystem: 'npm', name, version, result, date, ...extra });
 
 describe('dependencyRows', () => {
-  test('reproduced versions newest first, more wallets first on a day; failures only counted', () => {
+  test('reproduced versions newest first, more wallets first on a day; nothing else is listed or counted', () => {
     const r = dependencyRows(feed([
       row('a', '1.0.0', 'reproduced', '2026-11-18', { wallets: 9 }),
       row('b', '1.0.0', 'reproduced', '2026-11-20', { wallets: 2 }),
@@ -18,7 +18,7 @@ describe('dependencyRows', () => {
       row('e', '1.0.0', 'skipped'),
     ]), NOW);
     assert.deepEqual(r.rows.map(x => x.name), ['c', 'b', 'a']);
-    assert.deepEqual(r.summary, { reproduced: 3, packages: 3, failed: 1, recent: 3 });
+    assert.deepEqual(r.summary, { reproduced: 3, packages: 3, recent: 3 });
   });
 
   test('versions of one package count once as a package; old rows are not "recent"', () => {
@@ -64,7 +64,7 @@ describe('the Dependencies tab', () => {
     assert.equal(root.querySelectorAll('li').length, 2);
     assert.equal(root.querySelector('img'), null, 'a package name is text, never markup');
     assert.match(root.textContent, /2 versions of 2 packages rebuilt from source/);
-    assert.match(root.textContent, /1 other version did not rebuild identically and is not listed/);
+    assert.doesNotMatch(root.textContent, /did not rebuild|failed|bad/, 'a version our build did not reproduce is not mentioned');
     assert.match(root.textContent, /used by 8 wallets/);
     assert.match(root.textContent, /used by 1 wallet\b/);
     assert.equal(root.querySelectorAll('h2').length, 2);

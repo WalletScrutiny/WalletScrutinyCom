@@ -1,6 +1,6 @@
 #!/bin/bash
 # Runs inside the sandbox containers (rebuild.mjs) as an unprivileged user.
-# Three phases, each its own container:
+# Three phases, each its own container, and a fourth when the result is not the published package:
 #   clone    network; git only, no repository code runs. Source into /work/src.
 #   install  network; dependencies from the repository's lockfile with
 #            --ignore-scripts, so no package's lifecycle script runs while the
@@ -10,7 +10,9 @@
 #   build    NO network. The package's own scripts (prepare, prepublishOnly,
 #            build) run here, then npm pack into /out. Whatever a library does
 #            at this point, it cannot reach out or fetch a second stage.
-# Inputs: REPO, REF, DIR (package directory in the repo), NPMV (publisher's npm).
+#   after-build  NO network. `npm run build` when no publish hook calls it, then
+#            npm pack again.
+# Inputs: REPO, REF, NAME (the package), DIR (its directory in the repo), NPMV (publisher's npm).
 set -eu
 export HOME=/work/home GIT_TERMINAL_PROMPT=0 npm_config_cache=/work/npm-cache npm_config_prefix=/work/npm-global
 export npm_config_fund=false npm_config_update_notifier=false npm_config_audit=false CI=true
@@ -35,12 +37,35 @@ PKG="/work/src/${DIR:-.}"
 manifest() { node -e '__MANIFEST_CHECK__' "$@"; }
 has_build_scripts() { manifest scripts "$PKG"; }
 
+# npm before 7 has no --pack-destination: pack here, then move the newest
+# tarball. A publisher's npm too old for this Node packs nothing; then the
+# image's own npm packs, and the log says so.
+pack_to() {
+  touch /work/pack-start
+  npm pack --offline 2>&1 | tail -n 5
+  tgz=$(find . -maxdepth 1 -name '*.tgz' -newer /work/pack-start | head -n 1)
+  if [ -z "$tgz" ] && [ -d /work/npm-global/bin ]; then
+    export PATH="${PATH#/work/npm-global/bin:}"
+    echo "== npm $NPMV packed nothing, packing with the image's npm $(npm -v)"
+    npm pack --offline 2>&1 | tail -n 5
+    tgz=$(find . -maxdepth 1 -name '*.tgz' -newer /work/pack-start | head -n 1)
+  fi
+  echo "== packed $tgz"
+  mv "$tgz" "$1"
+}
+
 case "${PHASE:?}" in
 clone)
   echo "== source $REPO $REF ${DIR:-.}"
   git clone --quiet --filter=blob:none --no-checkout "$REPO" /work/src
   cd /work/src && git -c advice.detachedHead=false checkout --quiet "$REF"
   git log -1 --format='commit %H %cI'
+  # Said here, before any code of the repository has run: rebuild.mjs takes these from this step only.
+  # The package is looked up by name when it is not where the registry says: the registry's
+  # directory is optional, and without it the root of a monorepo, another package, would be packed.
+  at=$(manifest locate /work/src "$PKG" "$NAME")
+  if [ -n "$at" ]; then echo "== package directory: $at"; [ "$at" = "?" ] || PKG="/work/src/$at"; fi
+  if [ "$(manifest workspace /work/src "$PKG")" = 1 ]; then echo "== workspace member: the repository's root build is not run"; fi
   ;;
 install)
   cd /work
@@ -69,20 +94,17 @@ build)
   else
     echo "== no build scripts: packing the source as it is"
   fi
-  # npm before 7 has no --pack-destination: pack here, then move the newest
-  # tarball. A publisher's npm too old for this Node packs nothing; then the
-  # image's own npm packs, and the log says so.
-  touch /work/pack-start
-  npm pack --offline 2>&1 | tail -n 5
-  tgz=$(find . -maxdepth 1 -name '*.tgz' -newer /work/pack-start | head -n 1)
-  if [ -z "$tgz" ] && [ -d /work/npm-global/bin ]; then
-    export PATH="${PATH#/work/npm-global/bin:}"
-    echo "== npm $NPMV packed nothing, packing with the image's npm $(npm -v)"
-    npm pack --offline 2>&1 | tail -n 5
-    tgz=$(find . -maxdepth 1 -name '*.tgz' -newer /work/pack-start | head -n 1)
-  fi
-  echo "== packed $tgz"
-  mv "$tgz" /out/
+  pack_to /out/
+  ;;
+after-build)
+  # Only when what the build step packed is not the published package (rebuild.mjs).
+  # A "build" script that no publish hook calls: npm never runs it by itself, the
+  # publisher does, by hand or in CI before `npm publish`.
+  cd "$PKG"
+  if [ "$(manifest unhooked-build "$PKG")" != 1 ]; then echo "== no build script that the publish hooks leave out"; exit 0; fi
+  echo "== npm run build (no publish hook calls it)"
+  npm run build
+  pack_to /out/after-build.tgz
   ;;
 *) echo "unknown phase $PHASE"; exit 2;;
 esac

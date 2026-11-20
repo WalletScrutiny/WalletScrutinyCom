@@ -28,11 +28,13 @@ function tgz(files) {
   return zlib.gzipSync(Buffer.concat(blocks));
 }
 
-async function build(mode, { doc = {}, source = { repoUrl: 'https://github.com/x/x', ref: 'v1.0.0', commit: null } } = {}) {
+async function build(mode, { doc = {}, source = { repoUrl: 'https://github.com/x/x', ref: 'v1.0.0', commit: null }, workspace = '', directory = '' } = {}) {
   const root = fs.mkdtempSync(path.join(os.tmpdir(), 'depreb-build-'));
   const registry = tgz({ 'index.js': 'module.exports = 1;\n', 'package.json': '{"name":"x","version":"1.0.0"}' });
   fs.writeFileSync(path.join(root, 'registry.tgz'), registry);
-  Object.assign(process.env, { FAKE_BUILD: mode, FAKE_TGZ: path.join(root, 'registry.tgz'), FAKE_CALLS: path.join(root, 'calls') });
+  fs.writeFileSync(path.join(root, 'source.tgz'), tgz({ 'package.json': '{"name":"x","version":"1.0.0"}' }));
+  fs.writeFileSync(path.join(root, 'other.tgz'), tgz({ 'index.js': 'module.exports = 2;\n', 'package.json': '{"name":"x","version":"1.0.0"}' }));
+  Object.assign(process.env, { FAKE_BUILD: mode, FAKE_TGZ: path.join(root, 'registry.tgz'), FAKE_SOURCE_TGZ: path.join(root, 'source.tgz'), FAKE_OTHER_TGZ: path.join(root, 'other.tgz'), FAKE_CALLS: path.join(root, 'calls'), FAKE_WORKSPACE: workspace, FAKE_DIRECTORY: directory });
   const fetchImpl = async (url) => (String(url).endsWith('.tgz')
     ? { ok: true, arrayBuffer: async () => registry }
     : { ok: true, json: async () => ({ dist: { tarball: 'https://registry.npmjs.org/x/-/x-1.0.0.tgz' }, _nodeVersion: '20.1.0', _npmVersion: '10.0.0', ...doc }) });
@@ -47,6 +49,69 @@ test('a build that leaves the registry\'s tarball is reproduced, with the commit
   assert.equal(r.commit, 'c'.repeat(40));
   assert.equal(r.phase, null);
   assert.deepEqual(calls.map(c => c.PHASE), ['clone', 'install', 'build']);
+});
+
+test('a workspace member that its own directory does not build is unsupported, not failed', async () => {
+  const member = await build('source-only', { workspace: 'clone' });
+  assert.equal(member.r.result, 'unsupported');
+  assert.match(member.r.note, /^Member of a workspace, whose root build is not run here: .*1 missing \(index\.js\)/);
+  assert.equal(member.r.phase, 'build');
+  const scriptFails = await build('no-tarball', { workspace: 'clone' });
+  assert.equal(scriptFails.r.result, 'unsupported', 'its own script needs what the root build makes');
+  assert.match(scriptFails.r.note, /build failed: /);
+  assert.equal((await build('ok', { workspace: 'clone' })).r.result, 'reproduced', 'a member that needs no build');
+  assert.equal((await build('clone-fails', { workspace: 'clone' })).r.phase, 'clone', 'a failed step before the build keeps its name');
+});
+
+test('a package of its own that lacks published files is failed; a build cannot call itself a workspace member', async () => {
+  const own = await build('source-only');
+  assert.equal(own.r.result, 'failed');
+  assert.match(own.r.note, /^Rebuilt tarball differs: 1 missing \(index\.js\)/);
+  assert.equal(own.r.phase, 'compare');
+  assert.equal((await build('no-tarball')).r.result, 'failed');
+  const forged = await build('source-only', { workspace: 'build' });
+  assert.equal(forged.r.result, 'failed', 'only the clone step, where no repository code runs, is believed');
+  assert.equal((await build('source-only', { workspace: 'install' })).r.result, 'failed');
+  // a clone that fills the log, so that the start of the later steps is cut from what is kept
+  const long = await build('long-clone', { workspace: 'build' });
+  assert.equal(long.r.result, 'failed', 'read after the clone step, not from the whole log');
+  assert.equal(long.r.commit, 'c'.repeat(40), 'nor can a build name the commit it was built from');
+  assert.equal((await build('source-only', { directory: 'a\u2028== workspace member: x' })).r.result, 'failed', 'a line is what ends in a line feed');
+});
+
+test('a build script no publish hook calls: the package packed after it is judged, unless the first is the published one', async () => {
+  const built = await build('after-build');
+  assert.equal(built.r.result, 'reproduced');
+  assert.equal(built.r.note, 'Byte-identical tarball after `npm run build`');
+  assert.deepEqual(built.calls.map(c => `${c.PHASE} ${c.network}`), ['clone default', 'install default', 'build none', 'after-build none'], 'the repository\'s code never runs with a network');
+  const first = await build('after-build:first-is-published');
+  assert.equal(first.r.result, 'reproduced');
+  assert.equal(first.r.note, 'Byte-identical tarball');
+  assert.deepEqual(first.calls.map(c => c.PHASE), ['clone', 'install', 'build'], 'the publisher did not run it either: it is not run');
+  const differs = await build('after-build:differs');
+  assert.equal(differs.r.result, 'failed');
+  assert.match(differs.r.note, /^Rebuilt tarball differs after `npm run build`: 1 of 2 files differ \(index\.js\)/);
+  assert.match(fs.readFileSync(differs.r.log, 'utf8'), /^== comparison after `npm run build` \{/m);
+  for (const mode of ['after-build:link', 'after-build:garbage', 'after-build:fails', 'source-only']) {
+    const { r } = await build(mode);
+    assert.equal(r.result, 'failed', mode);
+    assert.match(r.note, /^Rebuilt tarball differs: 1 missing \(index\.js\)/, `${mode}: a second step that fails or leaves nothing readable changes nothing`);
+  }
+});
+
+test('a package that is not where the registry says is built where the clone step found it, or not at all', async () => {
+  const found = await build('ok', { directory: 'packages/fs/x' });
+  assert.equal(found.r.result, 'reproduced');
+  assert.deepEqual(found.calls.map(c => `${c.PHASE} ${c.NAME} ${c.DIR}`), ['clone x ', 'install x packages/fs/x', 'build x packages/fs/x']);
+  const moved = await build('ok', { directory: 'packages/x', doc: { repository: { url: 'u', directory: 'old/x' } } });
+  assert.deepEqual(moved.calls.map(c => c.DIR), ['old/x', 'packages/x', 'packages/x']);
+  for (const directory of ['?', '../../etc', 'a b']) {
+    const { r, calls } = await build('ok', { directory });
+    assert.equal(r.result, 'failed', directory);
+    assert.match(r.note, /does not have exactly one package of this name/, directory);
+    assert.equal(r.phase, null, 'not a step that is tried again');
+    assert.equal(calls.length, 1, 'nothing is installed or built');
+  }
 });
 
 test('only a regular file is read as the tarball: not a pipe, which never ends, nor a link out of the directory', async () => {
@@ -165,7 +230,7 @@ test('a database from before the phase column gets it, read from the note', () =
   const old = openDb(file);
   old.exec(`ALTER TABLE rebuilds DROP COLUMN phase`);
   const ins = old.prepare(`INSERT INTO rebuilds (ecosystem, name, version, result, note) VALUES ('npm', ?, '1', 'failed', ?)`);
-  ins.run('a', 'clone failed: fatal: x'); ins.run('b', 'The install step did not finish in 20 minutes'); ins.run('c', 'Rebuilt tarball differs: 1 missing');
+  ins.run('a', 'clone failed: fatal: x'); ins.run('b', 'The install step did not finish in 20 minutes'); ins.run('c', 'Rebuilt tarball differs: 1 of 3 files differ (index.js)');
   old.exec(`UPDATE rebuilds SET finished_at = datetime('now', '-3 days')`);
   old.close();
   const db = openDb(file);
@@ -174,18 +239,44 @@ test('a database from before the phase column gets it, read from the note', () =
   assert.deepEqual(pending(db).map(r => r.name), ['a', 'b'], 'the old failures of the build itself are not built again');
 });
 
+test('the failures of the first version are built again, once', () => {
+  const file = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'depreb-rejudge-')), 'old.db');
+  const old = openDb(file);
+  const rows = { member: 'Rebuilt tarball differs: 1 of 5 files differ (package.json); 3 missing (LICENSE, lib/index.js, lib/index.js.map)', changed: 'Rebuilt tarball differs: 1 of 3 files differ (index.js)', good: 'Byte-identical tarball' };
+  for (const [name, note] of Object.entries(rows)) saveRebuild(old, { ecosystem: 'npm', name, version: '1', result: name === 'good' ? 'reproduced' : 'failed', note, phase: name === 'good' ? null : 'compare' });
+  saveCandidates(old, Object.keys(rows).map(name => ({ ecosystem: 'npm', name, version: '1', wallets: 1, wallets_any: 1 })));
+  old.exec(`DELETE FROM meta WHERE key = 'rejudged_failures'`); // as a database written by the earlier version
+  old.close();
+  const db = openDb(file);
+  assert.deepEqual(pending(db).map(r => r.name), ['changed', 'member'], 'what was reproduced stays');
+  for (const name of ['changed', 'member']) saveRebuild(db, { ecosystem: 'npm', name, version: '1', result: 'failed', note: rows[name], phase: 'compare' });
+  db.close();
+  assert.deepEqual(pending(openDb(file)).map(r => r.name), [], 'a failure recorded since then stands');
+});
+
+test('unsupported versions are not built again, and are built with --retry', () => {
+  const db = openDb(':memory:');
+  saveCandidates(db, [{ ecosystem: 'npm', name: 'member', version: '1', wallets: 1, wallets_any: 1 }]);
+  saveRebuild(db, { ecosystem: 'npm', name: 'member', version: '1', result: 'unsupported', note: 'Member of a workspace', phase: 'build' });
+  db.exec(`UPDATE rebuilds SET finished_at = datetime('now', '-3 days')`);
+  assert.deepEqual(pending(db), []);
+  assert.deepEqual(pending(db, { retry: true }).map(r => r.name), ['member']);
+});
+
 // manifest-check.js as the sandbox runs it: the text between the quotes of `node -e`
 const CHECK = /node -e '([^']*)'/.exec(SCRIPT)[1];
-function check(mode, files, pkg = '.') {
+function check(mode, files, pkg = '.', more = []) {
   const repo = fs.mkdtempSync(path.join(os.tmpdir(), 'depreb-manifest-'));
   for (const [name, body] of Object.entries(files)) {
     fs.mkdirSync(path.dirname(path.join(repo, name)), { recursive: true });
     fs.writeFileSync(path.join(repo, name), typeof body === 'string' ? body : JSON.stringify(body));
   }
-  const args = mode === 'scripts' ? [path.join(repo, pkg)] : [repo, path.join(repo, pkg)];
+  const args = ['scripts', 'unhooked-build'].includes(mode) ? [path.join(repo, pkg)] : [repo, path.join(repo, pkg), ...more];
   // FORCE_COLOR as `node --test` sets it in a terminal: the shell compares this output as plain text
   return execFileSync('node', ['-e', CHECK, mode, ...args], { encoding: 'utf8', env: { ...process.env, FORCE_COLOR: '1' } }).trim();
 }
+
+const checkNamed = (mode, files, pkg, name) => check(mode, files, pkg, [name]);
 
 test('dependencies from a registry or the repository pass; a git repository, in any of npm\'s spellings, is named', () => {
   const deps = (dependencies, extra = {}) => ({ 'package.json': { name: 'x', dependencies, ...extra } });
@@ -213,6 +304,44 @@ test('every member of a workspace is read, since the install is for all of them'
   assert.equal(check('sources', { 'package.json': { workspaces: ['packages/*'] }, ...member }, 'packages/a'), 'packages/b/package.json: dep@u/r');
   assert.equal(check('sources', { 'package.json': {}, 'lerna.json': {}, ...member }, 'packages/a'), 'packages/b/package.json: dep@u/r');
   assert.equal(check('sources', { 'package.json': {}, ...member }, 'packages/a'), '', 'without a workspace, a manifest elsewhere in the repository (a test fixture) is not installed');
+});
+
+test('a workspace member is a package below a root that declares a workspace', () => {
+  const pkg = { name: 'p', version: '1.0.0' };
+  assert.equal(check('workspace', { 'package.json': { workspaces: ['packages/*'] }, 'packages/p/package.json': pkg }, 'packages/p'), '1');
+  assert.equal(check('workspace', { 'pnpm-workspace.yaml': 'packages:\n  - packages/*\n', 'packages/p/package.json': pkg }, 'packages/p'), '1');
+  assert.equal(check('workspace', { 'lerna.json': {}, 'package.json': {}, 'packages/p/package.json': pkg }, 'packages/p'), '1');
+  assert.equal(check('workspace', { 'package.json': { workspaces: ['packages/*'] } }, '.'), '0', 'the root itself');
+  assert.equal(check('workspace', { 'package.json': {}, 'sub/package.json': pkg }, 'sub'), '0', 'a package in a directory of a repository that is no workspace');
+  assert.equal(check('workspace', { 'package.json': '{ not json', 'sub/package.json': pkg }, 'sub'), '0');
+});
+
+test('a build script is unhooked when nothing npm runs on publish calls it', () => {
+  const unhooked = (scripts) => check('unhooked-build', { 'package.json': { name: 'p', scripts } });
+  assert.equal(unhooked({ build: 'tsc && tsc -p tsconfig.cjs.json', test: 'node test' }), '1');
+  assert.equal(unhooked({ build: 'tsc', prepare: 'husky install' }), '1', 'a hook that does something else');
+  assert.equal(unhooked({ build: 'tsc', prepublishOnly: 'npm run build && npm test' }), '0');
+  assert.equal(unhooked({ build: 'rollup -c', prepack: 'yarn build' }), '0');
+  assert.equal(unhooked({ build: 'tsc', prepare: 'tsc' }), '0', 'the same command');
+  assert.equal(unhooked({ build: 'tsc', prepare: 'npm run build:types' }), '1', 'another script');
+  assert.equal(unhooked({ build: 'rollup -c', prepublishOnly: 'tsc --build && node scripts/check-build-env.js' }), '1', 'the word in an option or a file name');
+  assert.equal(unhooked({ prepare: 'tsc' }), '0', 'no build script');
+  assert.equal(unhooked({ build: ['tsc'] }), '0', 'a script is a string');
+  assert.equal(check('unhooked-build', {}), '0', 'no manifest');
+});
+
+test('a package is looked up by name when it is not where the registry says', () => {
+  const repo = { 'package.json': { name: 'root', workspaces: ['packages/*'] }, 'packages/a/package.json': { name: '@s/a' }, 'packages/b/package.json': { name: '@s/b' }, 'node_modules/@s/a/package.json': { name: '@s/a' } };
+  assert.equal(checkNamed('locate', repo, 'packages/a', '@s/a'), '', 'where the registry says');
+  assert.equal(checkNamed('locate', repo, '.', '@s/a'), 'packages/a', 'the registry names no directory');
+  assert.equal(checkNamed('locate', repo, 'old/a', '@s/a'), 'packages/a', 'the directory is gone');
+  assert.equal(checkNamed('locate', repo, 'packages/b', '@s/a'), 'packages/a', 'the directory is another package');
+  assert.equal(checkNamed('locate', repo, 'packages/a', 'root'), '.');
+  assert.equal(checkNamed('locate', repo, '.', '@s/none'), '?');
+  assert.equal(checkNamed('locate', { ...repo, 'test/fixtures/a/package.json': { name: '@s/a' } }, '.', '@s/a'), '?', 'two packages of the name');
+  assert.equal(checkNamed('locate', { 'package.json': '{ not json' }, '.', 'x'), '?');
+  assert.equal(checkNamed('locate', { 'a\n== workspace member: x/package.json': { name: '@s/a' } }, '.', '@s/a'), '?', 'a directory name is not printed as lines of the clone step');
+  assert.equal(checkNamed('locate', { 'a b/package.json': { name: '@s/a' } }, '.', '@s/a'), '?');
 });
 
 test('lockfiles: registry tarballs and workspace members pass; git and other sources are named', () => {

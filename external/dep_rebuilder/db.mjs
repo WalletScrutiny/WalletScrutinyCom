@@ -43,7 +43,7 @@ export function openDb(file = DB_PATH) {
       ecosystem TEXT NOT NULL, name TEXT NOT NULL, checked_at TEXT DEFAULT CURRENT_TIMESTAMP,
       PRIMARY KEY (ecosystem, name)
     );
-    -- the latest outcome per package version: reproduced | failed | skipped
+    -- the latest outcome per package version: reproduced | failed | unsupported | skipped
     CREATE TABLE IF NOT EXISTS rebuilds (
       ecosystem TEXT NOT NULL, name TEXT NOT NULL, version TEXT NOT NULL,
       result TEXT NOT NULL, note TEXT, artifact TEXT, sha256 TEXT, repo_url TEXT, ref TEXT, commit_sha TEXT,
@@ -62,6 +62,14 @@ export function openDb(file = DB_PATH) {
     db.exec(`ALTER TABLE rebuilds ADD COLUMN phase TEXT;
       UPDATE rebuilds SET phase = 'clone' WHERE result = 'failed' AND (note LIKE 'clone failed:%' OR note LIKE 'The clone step %');
       UPDATE rebuilds SET phase = 'install' WHERE result = 'failed' AND (note LIKE 'install failed:%' OR note LIKE 'The install step %');`);
+  }
+  if (!db.prepare(`SELECT 1 FROM meta WHERE key = 'rejudged_failures'`).get()) {
+    // The failures of the first version say little: a workspace member was compared with bare
+    // source, a "build" script no publish hook calls was not run, a package the registry names
+    // no directory for was looked for at the root (rebuild.mjs). They are dropped once, so
+    // these versions are built and judged again; what fails from here on stands.
+    db.exec(`DELETE FROM rebuilds WHERE result = 'failed';
+      INSERT INTO meta (key, value) VALUES ('rejudged_failures', datetime('now'));`);
   }
   return db;
 }

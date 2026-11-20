@@ -84,10 +84,11 @@ unit has no `NoNewPrivileges`: rootless podman needs the setuid
 
 ### Publishing the results
 
-The results reach the website as one file, `rebuilds.json` (outcome, one-line
-reason, date, source commit, toolchain and the number of wallets that ship it
-per package version; no logs and no
-paths), the way the source analysis publishes its export. With
+The results reach the website as one file, `rebuilds.json`: the versions that
+were reproduced, each with a one-line note, date, source commit, toolchain and
+the number of wallets that ship it; no logs and no paths. A version that was
+not reproduced is not in it (see [Result](#result)). It is copied the way the
+source analysis publishes its export. With
 `DEP_REBUILDER_PUBLISH_TARGET` set, `serve` copies it (`site-export.mjs`, the
 rsync and brotli code of `source_analysis/publish.mjs`) at most every 30
 minutes while there are new results, again when it runs out of work, and once at
@@ -143,6 +144,7 @@ One throwaway container per phase (`npm-sandbox.sh`, `sandbox.mjs`):
 | clone | yes | `git clone` and checkout; no repository code |
 | install | yes | the lockfile's dependencies with `--ignore-scripts`: no package's lifecycle script runs while the network is open |
 | build | **none** | the package's own `prepare` / `prepublishOnly` / build scripts, then `npm pack --offline` |
+| after-build | **none** | only when that is not the published package and no publish hook calls `build`: `npm run build`, then `npm pack --offline` again |
 
 `--ignore-scripts` alone does not keep a repository's code from running during
 install. These ways are closed (`npm-sandbox.sh`, "no_repo_code"), each found by
@@ -184,8 +186,12 @@ All phases: unprivileged user, all capabilities dropped, `no-new-privileges`,
 read-only root file system, only the work and output directories mounted,
 memory, process, CPU, disk (polled) and time limits; the container is removed
 by name on timeout. Source: the git tag the identity check matches, else the
-commit the registry names. Toolchain: the publisher's Node major and npm
-version.
+commit the registry names. The package's directory in the repository is the one
+the registry names; that field is optional, so when the package of that name is
+not there (in a monorepo the root is another package) the clone step looks it
+up by name among the repository's `package.json` files, and the version fails
+when there is none or more than one. Toolchain: the publisher's Node major and
+npm version.
 
 What this does not give: a build that needs its dependencies' install scripts
 (native add-ons compiled at install, binaries downloaded by a postinstall) or a
@@ -199,6 +205,31 @@ utility inside a VM.
 rebuilt one (tar metadata and gzip ignored, as OSS Rebuild does); otherwise
 `failed` with the reason (differing files, and whether they differ in line
 endings, docs or dev-only package.json fields only; or the step that failed).
+
+Only `reproduced` is published. `failed` says that the build this utility ran
+did not give the published file, not that the package cannot be reproduced:
+the publisher may have used another command, tool version or a build of the
+whole repository. So failures stay in the database with their reason, as the
+list of what needs a recipe, and show nowhere on the website; the source
+analysis takes no other row from the feed and shows no failed rebuild of ours.
+
+A `build` script is no lifecycle script: npm never runs it by itself, and many
+publishers run it by hand or in CI before `npm publish` (`@noble/hashes`:
+`tsc`). When no publish hook (`prepare`, `prepack`, `prepublish`,
+`prepublishOnly`) calls it and the package as packed is not the published one,
+a further step runs `npm run build` and packs again. That package is judged
+then, and the note says "after `npm run build`". A step that fails changes
+nothing.
+
+`unsupported` when the package is a member of a workspace (a directory below a
+root with `workspaces`, `pnpm-workspace.yaml` or `lerna.json`) and what its own
+directory gives is not the published package. Such packages are built by the
+repository's root: Babel's `make prepublish-build` builds 150 packages at once,
+writes each `LICENSE` and rewrites each `package.json`. That build is not run
+here, so the comparison would be between the published package and bare source,
+and says nothing about the package. These rows stay in the database (the log
+line starts with `–`) and are not built again.
+A member that needs no build still comes out `reproduced`.
 The comparison and wording are `source_analysis/rebuildNpm.mjs`'s, which this
 reuses. The results leave the machine only as `rebuilds.json` (above).
 

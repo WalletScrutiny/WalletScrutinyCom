@@ -115,8 +115,7 @@ export function renderDependencies(root, result) {
     rows,
     empty: 'No dependency has been rebuilt yet.',
     lead: `${plural(summary.reproduced, 'version', 'versions')} of ${plural(summary.packages, 'package', 'packages')} rebuilt from source and identical to the registry's file. `
-      + `In the last 30 days: ${plural(summary.recent, 'version', 'versions')}.`
-      + (summary.failed ? ` ${plural(summary.failed, 'other version', 'other versions')} did not rebuild identically and ${summary.failed === 1 ? 'is' : 'are'} not listed.` : ''),
+      + `In the last 30 days: ${plural(summary.recent, 'version', 'versions')}.`,
     toRow: row => ({
       date: row.date, title: row.name, url: row.url, external: true, version: row.version, tag: row.ecosystem,
       note: row.wallets ? `used by ${plural(row.wallets, 'wallet', 'wallets')}` : '',
