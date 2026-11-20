@@ -243,6 +243,11 @@ export function syncReproducibleCentral(dir, { run = (args) => execFileSync('git
  * version some analysed release ships becomes a `ws` claim, replacing the one
  * we had. Rows for other versions are left out; a feed that cannot be read or is
  * not the expected shape changes nothing. Returns the number of claims written.
+ *
+ * The feed is everything the rebuilder stands by: a claim taken from an earlier
+ * feed that is no longer in it is withdrawn (the rebuilder judged the version
+ * again, e.g. "failed" became "not buildable here", which it does not publish).
+ * Claims of rebuild-npm-cli.mjs, which carry the file's hash and an event, stay.
  */
 export async function importWsFeed(db, url, { fetchImpl = fetch, log = () => {} } = {}) {
   let feed;
@@ -257,6 +262,7 @@ export async function importWsFeed(db, url, { fetchImpl = fetch, log = () => {} 
     VALUES (?, ?, ?, 'ws', ?, ?, ?, ?)`);
   let claims = 0;
   db.transaction(() => {
+    db.prepare(`DELETE FROM package_rebuilds WHERE claimant = 'ws' AND sha256 IS NULL AND event IS NULL`).run();
     for (const r of feed.rows) {
       if (!['npm', 'pip', 'cargo'].includes(r?.ecosystem) || typeof r.name !== 'string' || typeof r.version !== 'string') continue;
       if (r.result !== 'reproduced' && r.result !== 'failed') continue;

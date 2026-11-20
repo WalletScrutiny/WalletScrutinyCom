@@ -51,6 +51,20 @@ describe('our rebuilder\'s feed', () => {
     fs.rmSync(dir, { recursive: true, force: true });
   });
 
+  test('a claim that left the feed is withdrawn; a rebuild of our own with its hash and event stays', async () => {
+    const { db, dir } = freshDb();
+    const row = (name, version, result) => ({ ecosystem: 'npm', name, version, result, date: '2026-11-20' });
+    db.prepare(`INSERT INTO package_rebuilds (ecosystem, name, version, claimant, result, sha256, event) VALUES ('npm', 'color-name', '1.1.4', 'ws', 'reproduced', ?, '{}')`).run('f'.repeat(64));
+    await importWsFeed(db, 'u', { fetchImpl: serve(feed([row('gopd', '1.2.0', 'failed')])) });
+    assert.equal(getRebuildClaims(db).get('npm\u0000gopd\u00001.2.0')[0].result, 'failed');
+    const r = await importWsFeed(db, 'u', { fetchImpl: serve(feed([])) });
+    assert.deepEqual(r, { claims: 0, failed: false });
+    const claims = getRebuildClaims(db);
+    assert.equal(claims.has('npm\u0000gopd\u00001.2.0'), false, 'judged again by the rebuilder and no longer published');
+    assert.equal(claims.get('npm\u0000color-name\u00001.1.4')[0].result, 'reproduced');
+    fs.rmSync(dir, { recursive: true, force: true });
+  });
+
   test('importRebuildClaims reads the feed only when a URL is given', async () => {
     const { db, dir } = freshDb();
     let asked = 0;
