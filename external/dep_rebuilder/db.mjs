@@ -48,6 +48,7 @@ export function openDb(file = DB_PATH) {
       ecosystem TEXT NOT NULL, name TEXT NOT NULL, version TEXT NOT NULL,
       result TEXT NOT NULL, note TEXT, artifact TEXT, sha256 TEXT, repo_url TEXT, ref TEXT, commit_sha TEXT,
       toolchain TEXT, sandbox TEXT, log TEXT, seconds INTEGER, event TEXT, finished_at TEXT DEFAULT CURRENT_TIMESTAMP,
+      phase TEXT,                      -- where a failure happened: source | clone | install | build | compare
       PRIMARY KEY (ecosystem, name, version)
     );
     CREATE TABLE IF NOT EXISTS meta (key TEXT PRIMARY KEY, value TEXT);
@@ -56,6 +57,12 @@ export function openDb(file = DB_PATH) {
       id INTEGER PRIMARY KEY, ecosystem TEXT, name TEXT, version TEXT, result TEXT, note TEXT, seconds INTEGER, finished_at TEXT DEFAULT CURRENT_TIMESTAMP
     );
   `);
+  if (!db.prepare(`SELECT 1 FROM pragma_table_info('rebuilds') WHERE name = 'phase'`).get()) {
+    // a database from before the column: the note names the step
+    db.exec(`ALTER TABLE rebuilds ADD COLUMN phase TEXT;
+      UPDATE rebuilds SET phase = 'clone' WHERE result = 'failed' AND (note LIKE 'clone failed:%' OR note LIKE 'The clone step %');
+      UPDATE rebuilds SET phase = 'install' WHERE result = 'failed' AND (note LIKE 'install failed:%' OR note LIKE 'The install step %');`);
+  }
   return db;
 }
 
@@ -66,6 +73,13 @@ export function saveCandidates(db, rows) {
   db.transaction(() => { for (const r of rows) ins.run(r); })();
 }
 
+// A failure in a step that needs the network (listing the repository, clone, install) may be
+// the network's or the host's, not the package's: it gets one more try, a day later at the
+// earliest. A second failure stands.
+// (IFNULL: a failure without a phase must compare as "no", not as SQL's unknown, which NOT leaves unknown.)
+const SECOND_TRY = `r.result = 'failed' AND IFNULL(r.phase, '') IN ('source', 'clone', 'install') AND r.finished_at < datetime('now', '-1 day')
+  AND (SELECT COUNT(*) FROM attempts a WHERE a.ecosystem = r.ecosystem AND a.name = r.name AND a.version = r.version) < 2`;
+
 /** Versions still to build: most wallets first, then name and version. Google's and earlier results are skipped unless retry. */
 export function pending(db, { ecosystem = 'npm', limit = 10, retry = false, scope = 'app', minWallets = 1 } = {}) {
   const col = scope === 'any' ? 'wallets_any' : 'wallets';
@@ -74,15 +88,15 @@ export function pending(db, { ecosystem = 'npm', limit = 10, retry = false, scop
     WHERE c.ecosystem = ? AND c.${col} >= ?
       AND NOT EXISTS (SELECT 1 FROM google g WHERE g.ecosystem = c.ecosystem AND g.name = c.name AND g.version = c.version)
       AND NOT EXISTS (SELECT 1 FROM rebuilds r WHERE r.ecosystem = c.ecosystem AND r.name = c.name AND r.version = c.version
-        ${retry ? `AND r.result = 'reproduced'` : ''})
+        AND ${retry ? `r.result = 'reproduced'` : `NOT (${SECOND_TRY})`})
     ORDER BY c.${col} DESC, c.name, c.version LIMIT ?`).all(ecosystem, minWallets, limit);
 }
 
 export function saveRebuild(db, r) {
   db.transaction(() => {
-    db.prepare(`INSERT OR REPLACE INTO rebuilds (ecosystem, name, version, result, note, artifact, sha256, repo_url, ref, commit_sha, toolchain, sandbox, log, seconds, event, finished_at)
-      VALUES (@ecosystem, @name, @version, @result, @note, @artifact, @sha256, @repoUrl, @ref, @commit, @toolchain, @sandbox, @log, @seconds, @event, CURRENT_TIMESTAMP)`)
-      .run({ artifact: null, sha256: null, repoUrl: null, ref: null, commit: null, toolchain: null, sandbox: null, log: null, seconds: null, event: null, ...r, event: r.event ? JSON.stringify(r.event) : null });
+    db.prepare(`INSERT OR REPLACE INTO rebuilds (ecosystem, name, version, result, note, artifact, sha256, repo_url, ref, commit_sha, toolchain, sandbox, log, seconds, phase, finished_at)
+      VALUES (@ecosystem, @name, @version, @result, @note, @artifact, @sha256, @repoUrl, @ref, @commit, @toolchain, @sandbox, @log, @seconds, @phase, CURRENT_TIMESTAMP)`)
+      .run({ artifact: null, sha256: null, repoUrl: null, ref: null, commit: null, toolchain: null, sandbox: null, log: null, seconds: null, phase: null, ...r });
     db.prepare(`INSERT INTO attempts (ecosystem, name, version, result, note, seconds) VALUES (?, ?, ?, ?, ?, ?)`)
       .run(r.ecosystem, r.name, r.version, r.result, r.note ?? null, r.seconds ?? null);
   })();

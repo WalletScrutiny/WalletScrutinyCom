@@ -23,31 +23,27 @@ function plural(n, one, many) {
   return `${n} ${n === 1 ? one : many}`;
 }
 
-function rowNode(row) {
-  const name = row.url
-    ? el('a', { href: row.url }, row.title)
-    : el('span', {}, row.title);
-  const note = [];
-  note.push(plural(row.verifiers, 'verifier', 'verifiers'));
-  if (row.against) {
-    note.push(`${plural(row.against, 'verifier', 'verifiers')} could not reproduce it`);
-  }
+/** One line of either list: date, name (a link when there is a page), version, a small tag, a note at the right. */
+function rowNode({ date, title, url, external = false, version, tag, note }) {
+  const name = url
+    ? el('a', external ? { href: url, target: '_blank', rel: 'noopener noreferrer' } : { href: url }, title)
+    : el('span', {}, title);
   return el('li', { className: 'reproduced__row' },
-    el('time', { className: 'reproduced__date', datetime: new Date(row.date * 1000).toISOString() }, dayLabel(row.date)),
-    el('span', { className: 'reproduced__wallet' }, name, ' ', el('span', { className: 'reproduced__version' }, row.version),
-      row.platform ? el('span', { className: 'reproduced__platform' }, ` ${row.platform}`) : null),
-    el('span', { className: 'reproduced__who' }, note.join(' · ')));
+    el('time', { className: 'reproduced__date', datetime: new Date(date * 1000).toISOString() }, dayLabel(date)),
+    el('span', { className: 'reproduced__wallet' }, name, ' ', el('span', { className: 'reproduced__version' }, version),
+      tag ? el('span', { className: 'reproduced__platform' }, ` ${tag}`) : null),
+    el('span', { className: 'reproduced__who' }, note));
 }
 
-export function renderReproduced(root, { rows, summary }, shown = PAGE_ROWS) {
+/** A list by month under its lead line, [PAGE_ROWS] rows at a time; [empty] when there are no rows. */
+function renderList(root, list, shown = PAGE_ROWS) {
+  const { rows, lead, empty, toRow } = list;
   root.replaceChildren();
   if (!rows.length) {
-    root.append(el('p', { className: 'reproduced__status' }, 'No reproduced wallets found yet.'));
+    root.append(el('p', { className: 'reproduced__status' }, empty));
     return;
   }
-  root.append(el('p', { className: 'reproduced__lead' },
-    `${plural(summary.wallets, 'wallet', 'wallets')} with ${plural(summary.versions, 'version', 'versions')} reproduced from source. `,
-    `In the last 30 days: ${plural(summary.recentVersions, 'version', 'versions')} of ${plural(summary.recentWallets, 'wallet', 'wallets')}.`));
+  root.append(el('p', { className: 'reproduced__lead' }, lead));
   let left = shown;
   for (const group of groupByMonth(rows)) {
     if (left <= 0) {
@@ -56,13 +52,27 @@ export function renderReproduced(root, { rows, summary }, shown = PAGE_ROWS) {
     const slice = group.rows.slice(0, left);
     left -= slice.length;
     root.append(el('h2', { className: 'reproduced__month' }, monthLabel(group.key)),
-      el('ul', { className: 'reproduced__list' }, ...slice.map(rowNode)));
+      el('ul', { className: 'reproduced__list' }, ...slice.map(row => rowNode(toRow(row)))));
   }
   if (rows.length > shown) {
     const more = el('button', { type: 'button', className: 'btn btn--primary reproduced__more' }, `Show more (${rows.length - shown} left)`);
-    more.addEventListener('click', () => renderReproduced(root, { rows, summary }, shown + PAGE_ROWS));
+    more.addEventListener('click', () => renderList(root, list, shown + PAGE_ROWS));
     root.append(more);
   }
+}
+
+export function renderReproduced(root, { rows, summary }) {
+  renderList(root, {
+    rows,
+    empty: 'No reproduced wallets found yet.',
+    lead: `${plural(summary.wallets, 'wallet', 'wallets')} with ${plural(summary.versions, 'version', 'versions')} reproduced from source. `
+      + `In the last 30 days: ${plural(summary.recentVersions, 'version', 'versions')} of ${plural(summary.recentWallets, 'wallet', 'wallets')}.`,
+    toRow: row => ({
+      date: row.date, title: row.title, url: row.url, version: row.version, tag: row.platform,
+      note: [plural(row.verifiers, 'verifier', 'verifiers'),
+        row.against ? `${plural(row.against, 'verifier', 'verifiers')} could not reproduce it` : ''].filter(Boolean).join(' · '),
+    }),
+  });
 }
 
 async function paint() {
@@ -95,48 +105,23 @@ if (typeof window !== 'undefined' && typeof document !== 'undefined') {
 
 const FEED_URL = `${(typeof window !== 'undefined' && window.WS_DEP_REBUILDER_BASE) || '/api/dep-rebuilder'}/rebuilds.json`;
 
-function dependencyNode(row) {
-  const name = row.url
-    ? el('a', { href: row.url, target: '_blank', rel: 'noopener noreferrer' }, `${row.name}`)
-    : el('span', {}, row.name);
-  const used = row.wallets ? `used by ${plural(row.wallets, 'wallet', 'wallets')}` : '';
-  return el('li', { className: 'reproduced__row' },
-    el('time', { className: 'reproduced__date', datetime: new Date(row.date * 1000).toISOString() }, dayLabel(row.date)),
-    el('span', { className: 'reproduced__wallet' }, name, ' ', el('span', { className: 'reproduced__version' }, row.version),
-      el('span', { className: 'reproduced__platform' }, ` ${row.ecosystem}`)),
-    el('span', { className: 'reproduced__who' }, used));
-}
-
-export function renderDependencies(root, result, shown = PAGE_ROWS) {
-  root.replaceChildren();
+export function renderDependencies(root, result) {
   if (!result) {
-    root.append(el('p', { className: 'reproduced__status' }, 'The rebuild results could not be read.'));
+    root.replaceChildren(el('p', { className: 'reproduced__status' }, 'The rebuild results could not be read.'));
     return;
   }
   const { rows, summary } = result;
-  if (!rows.length) {
-    root.append(el('p', { className: 'reproduced__status' }, 'No dependency has been rebuilt yet.'));
-    return;
-  }
-  root.append(el('p', { className: 'reproduced__lead' },
-    `${plural(summary.reproduced, 'version', 'versions')} of ${plural(summary.packages, 'package', 'packages')} rebuilt from source and identical to the registry's file. `,
-    `In the last 30 days: ${summary.recent}.`,
-    summary.failed ? ` ${plural(summary.failed, 'other version', 'other versions')} did not rebuild identically and ${summary.failed === 1 ? 'is' : 'are'} not listed.` : ''));
-  let left = shown;
-  for (const group of groupByMonth(rows)) {
-    if (left <= 0) {
-      break;
-    }
-    const slice = group.rows.slice(0, left);
-    left -= slice.length;
-    root.append(el('h2', { className: 'reproduced__month' }, monthLabel(group.key)),
-      el('ul', { className: 'reproduced__list' }, ...slice.map(dependencyNode)));
-  }
-  if (rows.length > shown) {
-    const more = el('button', { type: 'button', className: 'btn btn--primary reproduced__more' }, `Show more (${rows.length - shown} left)`);
-    more.addEventListener('click', () => renderDependencies(root, result, shown + PAGE_ROWS));
-    root.append(more);
-  }
+  renderList(root, {
+    rows,
+    empty: 'No dependency has been rebuilt yet.',
+    lead: `${plural(summary.reproduced, 'version', 'versions')} of ${plural(summary.packages, 'package', 'packages')} rebuilt from source and identical to the registry's file. `
+      + `In the last 30 days: ${plural(summary.recent, 'version', 'versions')}.`
+      + (summary.failed ? ` ${plural(summary.failed, 'other version', 'other versions')} did not rebuild identically and ${summary.failed === 1 ? 'is' : 'are'} not listed.` : ''),
+    toRow: row => ({
+      date: row.date, title: row.name, url: row.url, external: true, version: row.version, tag: row.ecosystem,
+      note: row.wallets ? `used by ${plural(row.wallets, 'wallet', 'wallets')}` : '',
+    }),
+  });
 }
 
 let dependenciesLoaded = false;

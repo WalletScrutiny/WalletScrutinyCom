@@ -4,7 +4,9 @@
 #   clone    network; git only, no repository code runs. Source into /work/src.
 #   install  network; dependencies from the repository's lockfile with
 #            --ignore-scripts, so no package's lifecycle script runs while the
-#            network is open.
+#            network is open. The repository's own configuration files can
+#            also name code for the package manager to run (see "no_repo_code"
+#            below); the known ways are switched off.
 #   build    NO network. The package's own scripts (prepare, prepublishOnly,
 #            build) run here, then npm pack into /out. Whatever a library does
 #            at this point, it cannot reach out or fetch a second stage.
@@ -13,11 +15,25 @@ set -eu
 export HOME=/work/home GIT_TERMINAL_PROMPT=0 npm_config_cache=/work/npm-cache npm_config_prefix=/work/npm-global
 export npm_config_fund=false npm_config_update_notifier=false npm_config_audit=false CI=true
 export PATH="/work/npm-global/bin:$PATH"
+# no_repo_code: files a repository can commit that make the package manager run
+# the repository's code, which must not happen while the network is open.
+#   .yarnrc / .yarnrc.yml  yarn-path: yarn hands over to that script   -> YARN_IGNORE_PATH
+#   .npmrc git=            the program npm calls for git dependencies -> npm_config_git
+#   .npmrc onload-script=  a module npm 6 and older load at start     -> npm_config_onload_script
+#   .pnpmfile.cjs          hooks pnpm loads on install                 -> --ignore-pnpmfile
+#   a git dependency       npm clones it and runs its prepare script,
+#                          whatever --ignore-scripts says                -> not installed (manifest-check.js)
+# The environment outranks the repository's .npmrc. npm itself is asked for its
+# version and updated from /work, where there is no .npmrc of the repository.
+export YARN_IGNORE_PATH=1 npm_config_git=git
+npm_version() { (cd /work && npm -v); }
+# npm 6 or older: the publisher's, or the image's up to Node 14 (newer ones warn about the unknown setting)
+case "${NPMV:-}:$(node -p 'process.versions.node')" in [0-6].*|*:[0-9].*|*:1[0-4].*) export npm_config_onload_script=false;; esac
 mkdir -p "$HOME"
 PKG="/work/src/${DIR:-.}"
-has_build_scripts() {
-  node -e 'const s=require(process.argv[1]+"/package.json").scripts||{};console.log(["prepare","prepack","prepublish","prepublishOnly","build"].some(k=>s[k])?1:0)' "$PKG"
-}
+# The repository's manifests are read by manifest-check.js (sandbox.mjs puts its text here).
+manifest() { node -e '__MANIFEST_CHECK__' "$@"; }
+has_build_scripts() { manifest scripts "$PKG"; }
 
 case "${PHASE:?}" in
 clone)
@@ -27,12 +43,15 @@ clone)
   git log -1 --format='commit %H %cI'
   ;;
 install)
+  cd /work
+  if [ -n "$NPMV" ] && [ "$NPMV" != "$(npm_version)" ]; then echo "== npm $NPMV"; npm install -g --ignore-scripts "npm@$NPMV" 2>&1 | tail -n 3 || echo "could not install npm $NPMV, staying on $(npm_version)"; fi
+  echo "== node $(node -v) npm $(npm_version)"
   cd /work/src
-  if [ -n "$NPMV" ] && [ "$NPMV" != "$(npm -v)" ]; then echo "== npm $NPMV"; npm install -g --ignore-scripts "npm@$NPMV" 2>&1 | tail -n 3 || echo "could not install npm $NPMV, staying on $(npm -v)"; fi
-  echo "== node $(node -v) npm $(npm -v)"
   if [ "$(has_build_scripts)" = 1 ]; then
-    if [ -f pnpm-lock.yaml ]; then echo "== pnpm install --ignore-scripts"; npm install -g --ignore-scripts pnpm@8 >/dev/null 2>&1; pnpm install --frozen-lockfile --ignore-scripts
-    elif [ -f yarn.lock ]; then echo "== yarn install --ignore-scripts"; npm install -g --ignore-scripts yarn@1 >/dev/null 2>&1; yarn install --frozen-lockfile --ignore-scripts
+    other=$(manifest sources /work/src "$PKG")
+    if [ -n "$other" ]; then echo "Error: a dependency that is not from a registry, which npm may build with the network open ($other)"; exit 3; fi
+    if [ -f pnpm-lock.yaml ]; then echo "== pnpm install --ignore-scripts"; (cd /work && npm install -g --ignore-scripts pnpm@8 >/dev/null 2>&1); pnpm install --frozen-lockfile --ignore-scripts --ignore-pnpmfile
+    elif [ -f yarn.lock ]; then echo "== yarn install --ignore-scripts"; (cd /work && npm install -g --ignore-scripts yarn@1 >/dev/null 2>&1); yarn install --frozen-lockfile --ignore-scripts
     elif [ -f package-lock.json ] || [ -f npm-shrinkwrap.json ]; then echo "== npm ci --ignore-scripts"; npm ci --ignore-scripts || npm install --ignore-scripts
     else echo "== npm install --ignore-scripts (no lockfile)"; npm install --ignore-scripts; fi
     cd "$PKG"

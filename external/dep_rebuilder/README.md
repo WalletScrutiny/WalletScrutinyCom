@@ -20,7 +20,6 @@ node index.mjs list --top 20   # what comes next
 node index.mjs run --top 50    # rebuild the next 50; Ctrl-C stops after the current package
 node index.mjs serve           # unattended: the same, forever (what the service runs)
 node index.mjs status
-node index.mjs export --out claims.json
 node index.mjs site --publish   # write rebuilds.json for the website and copy it (the service does this by itself)
 ```
 
@@ -46,7 +45,14 @@ saved as soon as it exists, so a restart loses only the build in progress. A
 version whose build could not be attempted (registry or network down) is set
 aside until the next sync or restart instead of being retried in a loop.
 `SIGTERM` finishes the current package first; containers left by a killed
-earlier run are removed at start.
+earlier run are removed at start. A build that did not reproduce while the
+service was being stopped is not recorded (a shutdown kills the container, which
+is not the package failing); it is built again after the start.
+
+A failure in a step that needs the network (the repository could not be listed,
+clone, install) may be the network's and not the package's, so it gets one more
+try, a day later at the earliest. A second failure stands, and so does any
+failure of the build or the comparison; `run --retry` rebuilds those by hand.
 
 ### Where it runs
 
@@ -134,6 +140,42 @@ One throwaway container per phase (`npm-sandbox.sh`, `sandbox.mjs`):
 | install | yes | the lockfile's dependencies with `--ignore-scripts`: no package's lifecycle script runs while the network is open |
 | build | **none** | the package's own `prepare` / `prepublishOnly` / build scripts, then `npm pack --offline` |
 
+`--ignore-scripts` alone does not keep a repository's code from running during
+install. These ways are closed (`npm-sandbox.sh`, "no_repo_code"), each found by
+running it against the sandbox:
+
+| What the repository commits | What it made the package manager do | Closed by |
+|---|---|---|
+| `.yarnrc` / `.yarnrc.yml` with `yarn-path` | yarn hands over to that script | `YARN_IGNORE_PATH=1` |
+| `.pnpmfile.cjs` | pnpm loads its hooks | `--ignore-pnpmfile` |
+| `.npmrc` with `git=` | npm calls that program for git dependencies | `npm_config_git` in the environment, which outranks `.npmrc` |
+| `.npmrc` with `onload-script=` | npm 6 and older load that module at start | `npm_config_onload_script=false` |
+| a dependency on a git repository | npm clones it and runs its `prepare` script, with or without `--ignore-scripts` (npm 6 and 10 both) | the package is not installed and fails (`manifest-check.js`) |
+| a directory named `package.json` | Node loads its `index.js` when the manifest is `require`d | the manifest is read as data |
+
+What the registry says is the publisher's word and is checked before it is used:
+the npm version must be a plain version (it goes into `npm install -g npm@…`),
+the package directory a plain path, a commit a full commit id.
+
+`manifest-check.js` reads the manifests (the package's, the repository's, every
+member's in a workspace: dependencies, peer and optional ones, overrides and
+resolutions) and the lockfiles before the install. A dependency passes only in a
+form known to be a registry version or a path in the repository; a git URL in
+any spelling, `user/repo`, a remote tarball or a form the check does not know is
+named in the log and the package fails.
+
+This list is what was found, not a proof that there is no other way. One gap is
+known: without a lockfile, a registry package that itself depends on a git
+repository is only discovered by npm during the install. So the rule for the
+host stays the container's: nothing in it is worth stealing, and it cannot write
+outside its work directory.
+
+On the host, what a build leaves behind is treated as hostile too: only a regular
+file is read as the tarball (not a link, pipe or device), up to 256 MB and 1 GB
+unpacked, and of the log only the first and last 100 kB are ever read or kept.
+Files a build made unreadable are still counted against the disk limit and
+removed.
+
 All phases: unprivileged user, all capabilities dropped, `no-new-privileges`,
 read-only root file system, only the work and output directories mounted,
 memory, process, CPU, disk (polled) and time limits; the container is removed
@@ -142,8 +184,8 @@ commit the registry names. Toolchain: the publisher's Node major and npm
 version.
 
 What this does not give: a build that needs its dependencies' install scripts
-(native add-ons compiled at install, binaries downloaded by a postinstall)
-fails, and is recorded as failed, not retried with a network. The
+(native add-ons compiled at install, binaries downloaded by a postinstall) or a
+git dependency fails, and is recorded as failed, not retried with a network. The
 container boundary is rootless podman's; for a hard boundary run the whole
 utility inside a VM.
 
@@ -154,8 +196,7 @@ rebuilt one (tar metadata and gzip ignored, as OSS Rebuild does); otherwise
 `failed` with the reason (differing files, and whether they differ in line
 endings, docs or dev-only package.json fields only; or the step that failed).
 The comparison and wording are `source_analysis/rebuildNpm.mjs`'s, which this
-reuses. Nothing is published; `export` writes the claims and the unsigned
-event for each.
+reuses. The results leave the machine only as `rebuilds.json` (above).
 
 ## Tests
 
