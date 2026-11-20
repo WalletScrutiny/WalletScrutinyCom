@@ -10,15 +10,13 @@
 //   node index.mjs serve  [--scope app|any] [--min-wallets N]         unattended: sync daily, rebuild one version at a time, forever (the systemd service)
 //   node index.mjs site   [--out DIR] [--publish]                      write rebuilds.json for the website; --publish also copies it (DEP_REBUILDER_PUBLISH_TARGET)
 //   node index.mjs status                                               tally of results
-//   node index.mjs export [--out FILE]                                  our claims as JSON
 import fs from 'fs';
 import path from 'path';
 import minimist from 'minimist';
-import { openDb, saveCandidates, pending, saveRebuild, tally, WORK_DIR, DB_PATH } from './db.mjs';
+import { openDb, saveCandidates, pending, saveRebuild, tally, WORK_DIR, DB_PATH, DATA_DIR } from './db.mjs';
 import { serveLoop } from './worker.mjs';
 import { removeStaleContainers } from './sandbox.mjs';
 import { writeFeed, publishFeed } from './site-export.mjs';
-import { DATA_DIR } from './db.mjs';
 import { collectCandidates, EXPORT_BASE } from './candidates.mjs';
 import { syncGoogle } from './google.mjs';
 import { rebuildNpm, sourceOf } from './rebuild.mjs';
@@ -34,8 +32,13 @@ const argv = minimist(process.argv.slice(2), { boolean: ['retry'], string: ['pac
 const cmd = argv._[0];
 const db = openDb();
 
-/** Rebuild one candidate in the sandbox, keep its log, save the result. Throws only when the registry or network cannot be reached. */
-async function rebuildAndSave(c) {
+/**
+ * Rebuild one candidate in the sandbox, keep its log, save the result. Throws when the registry
+ * or network cannot be reached, and when the run was told to stop while a build that did not
+ * reproduce was going on: a shutdown takes the container down with it, and that is not the
+ * package failing.
+ */
+async function rebuildAndSave(c, { interrupted = () => false } = {}) {
   const label = `${c.name}@${c.version}`;
   fs.mkdirSync(path.join(WORK_DIR, 'logs'), { recursive: true });
   const source = await sourceOf(db, c.name, c.version);
@@ -44,6 +47,7 @@ async function rebuildAndSave(c) {
   const scratch = path.dirname(r.log);
   if (fs.existsSync(r.log)) { fs.copyFileSync(r.log, kept); r.log = kept; }
   fs.rmSync(scratch, { recursive: true, force: true }); // the log is kept, the tarball and checkout are not
+  if (r.result !== 'reproduced' && interrupted()) throw new Error('stopped while it was building, so this result is not kept');
   saveRebuild(db, r);
   console.log(`${r.result === 'reproduced' ? '✓' : '✗'} ${label}${c.wallets ? ` (${c.wallets} wallets)` : ''} ${r.seconds}s: ${r.note}`);
   return r;
@@ -69,7 +73,7 @@ if (cmd === 'sync') {
   const count = {};
   for (const c of todo) {
     if (stop) break;
-    try { const r = await rebuildAndSave(c); count[r.result] = (count[r.result] || 0) + 1; }
+    try { const r = await rebuildAndSave(c, { interrupted: () => stop }); count[r.result] = (count[r.result] || 0) + 1; }
     catch (e) { count.error = (count.error || 0) + 1; console.error(`! ${c.name}@${c.version}: ${e.message}`); }
   }
   console.log(JSON.stringify(count));
@@ -79,22 +83,18 @@ if (cmd === 'sync') {
   const removed = removeStaleContainers();
   if (removed) console.error(`removed ${removed} container(s) left by an earlier run`);
   await serveLoop({
-    db, sync: syncAll, step: rebuildAndSave, log: (m) => console.error(m),
+    db, sync: syncAll, step: (c) => rebuildAndSave(c, { interrupted: () => stop }), log: (m) => console.error(m),
     publish: process.env.DEP_REBUILDER_PUBLISH_TARGET ? async () => publishFeed(db, path.join(DATA_DIR, 'site')) : null,
     scope: argv.scope, minWallets: Number(argv['min-wallets'] || 1),
     shouldStop: () => stop,
-    sleep: (ms) => new Promise(res => { const t = setTimeout(res, ms); wake = () => { clearTimeout(t); res(); }; }),
+    sleep: (ms) => new Promise(res => { if (stop) return res(); const t = setTimeout(res, ms); wake = () => { clearTimeout(t); res(); }; }),
   });
 } else if (cmd === 'site') {
   const dir = argv.out || path.join(DATA_DIR, 'site');
   console.log(JSON.stringify(argv.publish ? publishFeed(db, dir) : { rows: writeFeed(db, dir), dir }));
 } else if (cmd === 'status') {
   console.log(JSON.stringify(tally(db), null, 2));
-} else if (cmd === 'export') {
-  const rows = db.prepare(`SELECT ecosystem, name, version, result, note, artifact, sha256, repo_url, ref, commit_sha, toolchain, finished_at FROM rebuilds ORDER BY ecosystem, name, version`).all();
-  const out = JSON.stringify({ schema: 1, claimant: 'ws', rebuilds: rows }, null, 1);
-  if (argv.out) fs.writeFileSync(argv.out, out); else console.log(out);
 } else {
-  console.error(fs.readFileSync(new URL(import.meta.url), 'utf8').split('\n').slice(1, 13).join('\n'));
+  console.error(fs.readFileSync(new URL(import.meta.url), 'utf8').split('\n').slice(1, 12).join('\n'));
   process.exit(1);
 }

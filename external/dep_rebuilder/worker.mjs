@@ -37,7 +37,7 @@ export async function serveLoop({ db, sync, step, sleep, shouldStop, publish = n
       }
       continue;
     }
-    const next = pending(db, { limit: 50, scope, minWallets }).find(c => !deferred.has(`${c.name}@${c.version}`));
+    const next = pending(db, { limit: deferred.size + 1, scope, minWallets }).find(c => !deferred.has(`${c.name}@${c.version}`));
     if (dirty && (now() - lastPublish >= publishEveryMs || !next)) await publishNow();
     if (!next) { await sleep(Math.min(idleMs, Math.max(nextSyncAt - now(), 1000))); continue; }
     try {
