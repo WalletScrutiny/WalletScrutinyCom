@@ -1,0 +1,30 @@
+[Unit]
+Description=WalletScrutiny database backup: snapshots of the SQLite databases, copied to another server (oneshot)
+Documentation=file:/opt/db-backup/README.md
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=build-server
+Group=build-server
+WorkingDirectory=/opt/db-backup
+StateDirectory=walletscrutiny-db-backup
+
+# Where the snapshots go and the remote copy (README, "Setting up"); the file may
+# set WS_BACKUP_PUSH_TARGET, WS_BACKUP_PUSH_SSH, WS_BACKUP_PUSH_DELETE, WS_BACKUP_DATABASES, ...
+EnvironmentFile=-/etc/walletscrutiny-db-backup/env
+
+# sqlite3 .backup opens the live database, so its directory must be writable
+# (WAL/shm files); everything else is read-only.
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=yes
+ReadWritePaths=-/var/lib/walletscrutiny-build-server -/var/lib/walletscrutiny-source-analysis -/var/lib/walletscrutiny-ws-notifications
+ReadOnlyPaths=/etc/walletscrutiny-db-backup
+
+ExecStart=/opt/db-backup/backup.sh
+
+[Install]
+WantedBy=multi-user.target
