@@ -19,11 +19,11 @@ How it works (`backup.sh`, run by `walletscrutiny-db-backup.timer` at 03:30 UTC)
 2. `PRAGMA integrity_check` on the snapshot. A snapshot that fails is not stored
    and the unit fails.
 3. `zstd` into `/var/lib/walletscrutiny-db-backup/<name>/<name>-<UTC time>.db.zst`.
-4. Retention: the newest 14 snapshots of each database, plus the newest snapshot
-   of each of the last 8 weeks (`WS_BACKUP_KEEP_NEWEST`, `WS_BACKUP_KEEP_WEEKS`).
-5. `rsync` of the whole directory to `WS_BACKUP_PUSH_TARGET`, if set. Without
-   `WS_BACKUP_PUSH_DELETE=yes` the remote copy keeps everything the server has
-   already pruned, so prune it there yourself (the web host needs the disk).
+4. Retention: snapshots older than 21 days are deleted (`WS_BACKUP_KEEP_DAYS`).
+   The newest snapshot of each database is always kept, even if it is older.
+5. `rsync` of the directory to `WS_BACKUP_PUSH_TARGET`, if set. The remote copy
+   mirrors the server (`--delete`), so it also holds only the last 3 weeks.
+   `WS_BACKUP_PUSH_DELETE=no` makes it keep everything instead.
 
 One database failing (missing file, failed check) does not stop the others; the
 unit then ends with exit status 1, so `systemctl --failed` and the journal show it.

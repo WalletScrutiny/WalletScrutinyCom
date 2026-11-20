@@ -5,19 +5,18 @@
 # For every "name=path" in WS_BACKUP_DATABASES:
 #   sqlite3 .backup (a consistent snapshot while the service keeps writing)
 #   -> PRAGMA integrity_check -> zstd -> $WS_BACKUP_DIR/<name>/<name>-<UTC time>.db.zst
-# then the newest snapshots are kept (see WS_BACKUP_KEEP_*) and, if
-# WS_BACKUP_PUSH_TARGET is set, the whole directory is copied with rsync.
+# then snapshots older than WS_BACKUP_KEEP_DAYS (21) are deleted and, if
+# WS_BACKUP_PUSH_TARGET is set, the directory is mirrored with rsync.
 # One failing database does not stop the others; the exit status is 1 if anything failed.
 set -uo pipefail
 umask 077
 
 BACKUP_DIR="${WS_BACKUP_DIR:-/var/lib/walletscrutiny-db-backup}"
 DATABASES="${WS_BACKUP_DATABASES:-verifications=/var/lib/walletscrutiny-build-server/verifications.db assets=/var/lib/walletscrutiny-source-analysis/assets.db notifications=/var/lib/walletscrutiny-ws-notifications/notifications.db}"
-KEEP_NEWEST="${WS_BACKUP_KEEP_NEWEST:-14}"   # newest snapshots per database
-KEEP_WEEKS="${WS_BACKUP_KEEP_WEEKS:-8}"      # plus the newest snapshot of each of this many weeks
+KEEP_DAYS="${WS_BACKUP_KEEP_DAYS:-21}"      # snapshots older than this are deleted (the newest is always kept)
 PUSH_TARGET="${WS_BACKUP_PUSH_TARGET:-}"     # e.g. backup@host:/  (an rrsync-restricted key)
 PUSH_SSH="${WS_BACKUP_PUSH_SSH:-ssh}"
-PUSH_DELETE="${WS_BACKUP_PUSH_DELETE:-}"     # "yes": the copy mirrors this directory's retention
+PUSH_DELETE="${WS_BACKUP_PUSH_DELETE:-yes}"  # "yes": the remote copy mirrors this directory, so it keeps the same window; "no": it keeps everything
 
 failed=0
 log() { printf '%s\n' "$*"; }
@@ -46,25 +45,16 @@ snapshot() { # name path
   log "$name: $(basename "$out") $(stat -c %s "$out") bytes"
 }
 
-prune() { # name: keep the newest KEEP_NEWEST, plus the newest snapshot of each of the last KEEP_WEEKS weeks
-  local name="$1" f base stamp week n=0
-  local -a files=()
-  local -A seen_week=() keep=()
-  mapfile -t files < <(ls -1 "$BACKUP_DIR/$name"/"$name"-*.db.zst 2>/dev/null | sort -r)
-  for f in "${files[@]}"; do      # newest first
-    n=$((n + 1))
-    [ "$n" -le "$KEEP_NEWEST" ] && keep[$f]=1
+prune() { # name: delete snapshots older than KEEP_DAYS, but never the newest one
+  local name="$1" f base stamp cutoff first=1
+  cutoff="$(date -u -d "$KEEP_DAYS days ago" +%Y%m%dT%H%M%SZ)" || { err "$name: cannot compute the retention cutoff"; return; }
+  while IFS= read -r f; do        # newest first
+    if [ "$first" = 1 ]; then first=0; continue; fi
     base="$(basename "$f")"
-    stamp="${base#"$name"-}"
-    week="$(date -u -d "${stamp:0:4}-${stamp:4:2}-${stamp:6:2}" +%G-%V 2>/dev/null)" || continue
-    if [ -z "${seen_week[$week]:-}" ] && [ "${#seen_week[@]}" -lt "$KEEP_WEEKS" ]; then
-      seen_week[$week]=1
-      keep[$f]=1
-    fi
-  done
-  for f in "${files[@]}"; do
-    [ -n "${keep[$f]:-}" ] || { rm -f "$f" && log "$name: pruned $(basename "$f")"; }
-  done
+    stamp="${base#"$name"-}"; stamp="${stamp%.db.zst}"
+    [[ "$stamp" =~ ^[0-9]{8}T[0-9]{6}Z$ ]] || continue
+    [[ "$stamp" < "$cutoff" ]] && { rm -f "$f" && log "$name: pruned $(basename "$f")"; }
+  done < <(ls -1 "$BACKUP_DIR/$name"/"$name"-*.db.zst 2>/dev/null | sort -r)
 }
 
 for entry in $DATABASES; do
@@ -75,7 +65,7 @@ done
 
 if [ -n "$PUSH_TARGET" ]; then
   args=(-a --partial --exclude '/.tmp/' -e "$PUSH_SSH")
-  [ "$PUSH_DELETE" = "yes" ] && args+=(--delete --delete-excluded)
+  [ "$PUSH_DELETE" != "no" ] && args+=(--delete --delete-excluded)
   if rsync "${args[@]}" "$BACKUP_DIR/" "$PUSH_TARGET"; then
     log "pushed to the remote copy"
   else
