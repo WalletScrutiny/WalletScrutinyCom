@@ -448,6 +448,10 @@ Rebuilds tab, a pill in the tree). Nothing here changes a verdict.
   in package.json fields that never run (scripts, devDependencies), or a
   `.npmignore` that old npm packed are named in the result but still count
   as failed.
+- **Only "reproduced" is shown as ours.** A rebuild of ours that did not
+  match says that our build did not give the published file, not that the
+  package cannot be reproduced (another command, tool version or a build of
+  the whole repository may). It is kept in the database and not shown.
 - **Publishing**: each of our results carries the Nostr event we will sign
   (d tag `npm:<name>@<version>`, the file's sha256, status, source commit,
   toolchain). Unsigned and unpublished until its kind number is picked.

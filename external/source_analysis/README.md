@@ -476,8 +476,10 @@ variables are set in `config/walletscrutiny-source-analysis.service`.
 `SOURCE_ANALYSIS_REBUILD_FEED` (set in the unit) is the URL of the
 `rebuilds.json` that `external/dep_rebuilder` publishes on the web host. The
 dependency ladder step of each pass reads it (`importWsFeed`) and stores every
-row for a package version a release ships as a `ws` claim, replacing the
-earlier one; the Dependencies panel and the export show it as "by us". An
+reproduced row for a package version a release ships as a `ws` claim, replacing
+the earlier ones; the Dependencies panel and the export show it as "by us". A
+rebuild of ours that did not match is never shown: it says that our build did
+not give the published file, not that the package cannot be reproduced. An
 unreachable or malformed file changes nothing. Unset, nothing is imported.
 
 Query the service database with the CLI in this folder:

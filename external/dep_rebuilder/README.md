@@ -84,10 +84,11 @@ unit has no `NoNewPrivileges`: rootless podman needs the setuid
 
 ### Publishing the results
 
-The results reach the website as one file, `rebuilds.json` (outcome, one-line
-reason, date, source commit, toolchain and the number of wallets that ship it
-per package version; no logs and no
-paths), the way the source analysis publishes its export. With
+The results reach the website as one file, `rebuilds.json`: the versions that
+were reproduced, each with a one-line note, date, source commit, toolchain and
+the number of wallets that ship it; no logs and no paths. A version that was
+not reproduced is not in it (see [Result](#result)). It is copied the way the
+source analysis publishes its export. With
 `DEP_REBUILDER_PUBLISH_TARGET` set, `serve` copies it (`site-export.mjs`, the
 rsync and brotli code of `source_analysis/publish.mjs`) at most every 30
 minutes while there are new results, again when it runs out of work, and once at
@@ -205,6 +206,13 @@ rebuilt one (tar metadata and gzip ignored, as OSS Rebuild does); otherwise
 `failed` with the reason (differing files, and whether they differ in line
 endings, docs or dev-only package.json fields only; or the step that failed).
 
+Only `reproduced` is published. `failed` says that the build this utility ran
+did not give the published file, not that the package cannot be reproduced:
+the publisher may have used another command, tool version or a build of the
+whole repository. So failures stay in the database with their reason, as the
+list of what needs a recipe, and show nowhere on the website; the source
+analysis takes no other row from the feed and shows no failed rebuild of ours.
+
 A `build` script is no lifecycle script: npm never runs it by itself, and many
 publishers run it by hand or in CI before `npm publish` (`@noble/hashes`:
 `tsc`). When no publish hook (`prepare`, `prepack`, `prepublish`,
@@ -220,7 +228,7 @@ repository's root: Babel's `make prepublish-build` builds 150 packages at once,
 writes each `LICENSE` and rewrites each `package.json`. That build is not run
 here, so the comparison would be between the published package and bare source,
 and says nothing about the package. These rows stay in the database (the log
-line starts with `–`), are not built again and are left out of `rebuilds.json`.
+line starts with `–`) and are not built again.
 A member that needs no build still comes out `reproduced`.
 The comparison and wording are `source_analysis/rebuildNpm.mjs`'s, which this
 reuses. The results leave the machine only as `rebuilds.json` (above).

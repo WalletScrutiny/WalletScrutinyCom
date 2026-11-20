@@ -26,14 +26,11 @@ export function dependencyRows(feed, now = Math.floor(Date.now() / 1000)) {
     return null;
   }
   const rows = [];
-  let failed = 0;
   for (const row of feed.rows) {
     if (typeof row?.name !== 'string' || typeof row.version !== 'string') {
       continue;
     }
-    if (row.result === 'failed') {
-      failed += 1;
-    } else if (row.result === 'reproduced') {
+    if (row.result === 'reproduced') {
       rows.push({
         ecosystem: row.ecosystem || 'npm',
         name: row.name,
@@ -51,7 +48,6 @@ export function dependencyRows(feed, now = Math.floor(Date.now() / 1000)) {
     summary: {
       reproduced: rows.length,
       packages: new Set(rows.map(row => `${row.ecosystem}\n${row.name}`)).size,
-      failed,
       recent: rows.filter(row => row.date >= now - 30 * DAY).length,
     },
   };

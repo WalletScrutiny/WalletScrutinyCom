@@ -245,8 +245,9 @@ export function syncReproducibleCentral(dir, { run = (args) => execFileSync('git
  * not the expected shape changes nothing. Returns the number of claims written.
  *
  * The feed is everything the rebuilder stands by: a claim taken from an earlier
- * feed that is no longer in it is withdrawn (the rebuilder judged the version
- * again, e.g. "failed" became "not buildable here", which it does not publish).
+ * feed that is no longer in it is withdrawn. Only "reproduced" rows are taken:
+ * that our build did not give the published file is no claim about the package
+ * (the feed carried such rows as "failed" until 2026-11-20).
  * Claims of rebuild-npm-cli.mjs, which carry the file's hash and an event, stay.
  */
 export async function importWsFeed(db, url, { fetchImpl = fetch, log = () => {} } = {}) {
@@ -265,7 +266,7 @@ export async function importWsFeed(db, url, { fetchImpl = fetch, log = () => {} 
     db.prepare(`DELETE FROM package_rebuilds WHERE claimant = 'ws' AND sha256 IS NULL AND event IS NULL`).run();
     for (const r of feed.rows) {
       if (!['npm', 'pip', 'cargo'].includes(r?.ecosystem) || typeof r.name !== 'string' || typeof r.version !== 'string') continue;
-      if (r.result !== 'reproduced' && r.result !== 'failed') continue;
+      if (r.result !== 'reproduced') continue; // a rebuild of ours that did not match says nothing about the package
       if (!ours.get(r.ecosystem, r.name, r.version)) continue;
       const day = /^\d{4}-\d\d-\d\d$/.test(r.date || '') ? `${r.date} 00:00:00` : new Date().toISOString().slice(0, 19).replace('T', ' ');
       save.run(r.ecosystem, r.name, r.version, r.result, /^[0-9a-f]{40}$/.test(r.commit || '') ? r.commit : null, typeof r.note === 'string' ? r.note.slice(0, 300) : null, day);
