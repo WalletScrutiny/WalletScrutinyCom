@@ -21,7 +21,7 @@ NoNewPrivileges=yes
 PrivateTmp=yes
 ProtectSystem=strict
 ProtectHome=yes
-ReadWritePaths=-/var/lib/walletscrutiny-build-server -/var/lib/walletscrutiny-source-analysis -/var/lib/walletscrutiny-ws-notifications
+ReadWritePaths=-/var/lib/walletscrutiny-build-server -/var/lib/walletscrutiny-source-analysis -/var/lib/walletscrutiny-ws-notifications -/var/lib/dep-rebuilder/data
 ReadOnlyPaths=/etc/walletscrutiny-db-backup
 
 ExecStart=/opt/db-backup/backup.sh

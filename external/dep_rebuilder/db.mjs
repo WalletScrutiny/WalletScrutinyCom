@@ -13,6 +13,13 @@ export function openDb(file = DB_PATH) {
   if (file !== ':memory:') fs.mkdirSync(path.dirname(file), { recursive: true });
   const db = new Database(file);
   db.pragma('journal_mode = WAL');
+  if (file !== ':memory:' && path.dirname(file) === DATA_DIR) {
+    // The backup (external/db_backup) runs as another user in this group. Reading
+    // a WAL database also writes its -shm file, and the -wal/-shm files take the
+    // mode of the database file.
+    fs.chmodSync(DATA_DIR, 0o770);
+    fs.chmodSync(file, 0o660);
+  }
   db.exec(`
     -- every exact package version some wallet ships, and how many wallets
     CREATE TABLE IF NOT EXISTS candidates (

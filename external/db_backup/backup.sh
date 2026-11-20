@@ -12,7 +12,7 @@ set -uo pipefail
 umask 077
 
 BACKUP_DIR="${WS_BACKUP_DIR:-/var/lib/walletscrutiny-db-backup}"
-DATABASES="${WS_BACKUP_DATABASES:-verifications=/var/lib/walletscrutiny-build-server/verifications.db assets=/var/lib/walletscrutiny-source-analysis/assets.db notifications=/var/lib/walletscrutiny-ws-notifications/notifications.db}"
+DATABASES="${WS_BACKUP_DATABASES:-verifications=/var/lib/walletscrutiny-build-server/verifications.db assets=/var/lib/walletscrutiny-source-analysis/assets.db notifications=/var/lib/walletscrutiny-ws-notifications/notifications.db dep-rebuilder=/var/lib/dep-rebuilder/data/dep-rebuilder.db}"
 KEEP_DAYS="${WS_BACKUP_KEEP_DAYS:-21}"      # snapshots older than this are deleted (the newest is always kept)
 PUSH_TARGET="${WS_BACKUP_PUSH_TARGET:-}"     # e.g. backup@host:/  (an rrsync-restricted key)
 PUSH_SSH="${WS_BACKUP_PUSH_SSH:-ssh}"
@@ -29,7 +29,13 @@ trap 'rm -f "$tmp_dir"/*.db "$tmp_dir"/*.part' EXIT
 
 snapshot() { # name path
   local name="$1" src="$2" stamp raw out
-  if [ ! -f "$src" ]; then err "$name: $src does not exist"; return; fi
+  if [ ! -f "$src" ]; then
+    # A database whose service has not run yet (the dependency rebuilder before its
+    # first deploy) is skipped; one that has been backed up before and is gone is an error.
+    if ls "$BACKUP_DIR/$name/$name"-*.db.zst >/dev/null 2>&1; then err "$name: $src does not exist"
+    else log "$name: $src does not exist yet, skipped"; fi
+    return
+  fi
   stamp="$(date -u +%Y%m%dT%H%M%SZ)"
   raw="$tmp_dir/$name.db"
   out="$BACKUP_DIR/$name/$name-$stamp.db.zst"

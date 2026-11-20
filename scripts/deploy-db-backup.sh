@@ -7,6 +7,8 @@
 # User root). The units installed here:
 #   walletscrutiny-db-backup.service (oneshot, /opt/db-backup/backup.sh)
 #   walletscrutiny-db-backup.timer   (nightly)
+# and, when the group dep-rebuilder exists, a drop-in that lets the service read the
+# dependency rebuilder's database (that service writes it as dep-rebuilder, mode 660).
 # The timer is enabled on each deploy (not only started) so it comes back after reboot.
 #
 # Not touched by the deploy: /etc/walletscrutiny-db-backup/env (the remote copy
@@ -75,6 +77,15 @@ fi
 echo "Refreshing systemd units from ${UNIT_DIR}..."
 cp "${UNIT_DIR}/${SERVICE_NAME}" /etc/systemd/system/
 cp "${UNIT_DIR}/${TIMER_NAME}" /etc/systemd/system/
+# The dependency rebuilder's database is group dep-rebuilder (its db.mjs sets 660 / 770).
+DROPIN_DIR="/etc/systemd/system/${SERVICE_NAME}.d"
+if getent group dep-rebuilder >/dev/null; then
+  mkdir -p "$DROPIN_DIR"
+  cp "${UNIT_DIR}/dep-rebuilder-group.conf" "${DROPIN_DIR}/dep-rebuilder-group.conf"
+else
+  rm -f "${DROPIN_DIR}/dep-rebuilder-group.conf"
+  echo "No group dep-rebuilder yet: its database is skipped until deploy:dep-rebuilder has run; deploy this again after." >&2
+fi
 # See scripts/deploy-build-server.sh: daemon-reload can take minutes on this host.
 export SYSTEMD_BUS_TIMEOUT=900
 if ! systemctl daemon-reload; then

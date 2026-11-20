@@ -9,6 +9,7 @@ machine.
 | `verifications` | build server | `/var/lib/walletscrutiny-build-server/verifications.db` |
 | `assets` | source analysis | `/var/lib/walletscrutiny-source-analysis/assets.db` |
 | `notifications` | WS notifications | `/var/lib/walletscrutiny-ws-notifications/notifications.db` |
+| `dep-rebuilder` | dependency rebuilder | `/var/lib/dep-rebuilder/data/dep-rebuilder.db` |
 
 Not included: the Blossom server (its index and blobs need their own backup) and
 Uptime Kuma. `WS_BACKUP_DATABASES` takes more `name=path` pairs.
@@ -24,6 +25,15 @@ How it works (`backup.sh`, run by `walletscrutiny-db-backup.timer` at 03:30 UTC)
 5. `rsync` of the directory to `WS_BACKUP_PUSH_TARGET`, if set. The remote copy
    mirrors the server (`--delete`), so it also holds only the last 3 weeks.
    `WS_BACKUP_PUSH_DELETE=no` makes it keep everything instead.
+
+The rebuilder's database belongs to its own user `dep-rebuilder` (build code runs as
+that user, so it does not run as `build-server`). The backup reads it as `build-server`
+with the supplementary group `dep-rebuilder`, which `deploy:db-backup` adds through a
+drop-in once that group exists; `db.mjs` of the rebuilder makes the data directory 770
+and the database 660 on its next start (a WAL database is also written when read).
+Before the rebuilder is deployed the database is skipped, not an error; deploy the
+backup again after `deploy:dep-rebuilder`. The same key and web-host account serve all
+four databases: `dep-rebuilder` cannot read that key.
 
 One database failing (missing file, failed check) does not stop the others; the
 unit then ends with exit status 1, so `systemctl --failed` and the journal show it.
@@ -134,8 +144,8 @@ zstd -d verifications-20261120T033012Z.db.zst -o verifications.db
 sqlite3 verifications.db 'PRAGMA integrity_check;'
 ```
 
-Stop the service, move the file to its path, make `build-server` the owner, start
-the service. A restored `notifications.db` is at most a night old; the bot then
+Stop the service, move the file to its path, make `build-server` (`dep-rebuilder`
+for that database, mode 660) the owner, start the service. A restored `notifications.db` is at most a night old; the bot then
 repeats at most that night's notifications.
 
 ## Notes
