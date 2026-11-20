@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Reproduced wallets"
+title: "Reproduced"
 permalink: /reproduced/
 ---
 
