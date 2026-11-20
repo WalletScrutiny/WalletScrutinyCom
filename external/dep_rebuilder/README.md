@@ -150,21 +150,31 @@ running it against the sandbox:
 | `.pnpmfile.cjs` | pnpm loads its hooks | `--ignore-pnpmfile` |
 | `.npmrc` with `git=` | npm calls that program for git dependencies | `npm_config_git` in the environment, which outranks `.npmrc` |
 | `.npmrc` with `onload-script=` | npm 6 and older load that module at start | `npm_config_onload_script=false` |
-| a dependency on a git repository | npm clones it and runs its `prepare` script, with or without `--ignore-scripts` (npm 6 and 10 both) | the package is not installed and fails |
+| a dependency on a git repository | npm clones it and runs its `prepare` script, with or without `--ignore-scripts` (npm 6 and 10 both) | the package is not installed and fails (`manifest-check.js`) |
+| a directory named `package.json` | Node loads its `index.js` when the manifest is `require`d | the manifest is read as data |
 
 What the registry says is the publisher's word and is checked before it is used:
 the npm version must be a plain version (it goes into `npm install -g npm@…`),
 the package directory a plain path, a commit a full commit id.
 
-This list is what was found, not a proof that there is no other way: a package
-manager has many settings, and a git dependency that only an unlocked dependency
-of a dependency brings in is not seen. So the rule for the host stays the
-container's: nothing in it is worth stealing, and it cannot write outside its
-work directory.
+`manifest-check.js` reads the manifests (the package's, the repository's, every
+member's in a workspace: dependencies, peer and optional ones, overrides and
+resolutions) and the lockfiles before the install. A dependency passes only in a
+form known to be a registry version or a path in the repository; a git URL in
+any spelling, `user/repo`, a remote tarball or a form the check does not know is
+named in the log and the package fails.
+
+This list is what was found, not a proof that there is no other way. One gap is
+known: without a lockfile, a registry package that itself depends on a git
+repository is only discovered by npm during the install. So the rule for the
+host stays the container's: nothing in it is worth stealing, and it cannot write
+outside its work directory.
 
 On the host, what a build leaves behind is treated as hostile too: only a regular
 file is read as the tarball (not a link, pipe or device), up to 256 MB and 1 GB
 unpacked, and of the log only the first and last 100 kB are ever read or kept.
+Files a build made unreadable are still counted against the disk limit and
+removed.
 
 All phases: unprivileged user, all capabilities dropped, `no-new-privileges`,
 read-only root file system, only the work and output directories mounted,

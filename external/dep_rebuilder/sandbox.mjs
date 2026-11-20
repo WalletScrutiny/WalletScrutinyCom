@@ -14,7 +14,9 @@ export const LIMITS = {
   diskBytes: Number(process.env.DEP_REBUILDER_DISK_GB || 8) * 2 ** 30,
   phaseMs: Number(process.env.DEP_REBUILDER_PHASE_MIN || 20) * 60 * 1000,
 };
-export const SCRIPT = fs.readFileSync(new URL('./npm-sandbox.sh', import.meta.url), 'utf8');
+const MANIFEST_CHECK = fs.readFileSync(new URL('./manifest-check.js', import.meta.url), 'utf8');
+if (MANIFEST_CHECK.includes("'")) throw new Error('manifest-check.js must not contain a single quote: it is passed to node -e in single quotes');
+export const SCRIPT = fs.readFileSync(new URL('./npm-sandbox.sh', import.meta.url), 'utf8').replace('__MANIFEST_CHECK__', () => MANIFEST_CHECK);
 
 /** podman/docker arguments for one phase. network 'none' = offline. */
 export function sandboxArgs({ image, name, workDir, outDir = null, env, network = 'default', cli = CONTAINER_CLI, uid = process.getuid(), gid = process.getgid(), limits = LIMITS }) {
@@ -38,9 +40,21 @@ export function sandboxArgs({ image, name, workDir, outDir = null, env, network 
   return args;
 }
 
+/** Make a tree the container wrote readable and removable again: a build can chmod its own files to nothing. */
+export function reclaim(dir) {
+  spawnSync('chmod', ['-R', 'u+rwX', dir], { stdio: 'ignore' });
+}
+
+/** Removes a tree the container wrote, whatever modes it left on it. */
+export function removeTree(dir) {
+  try { fs.rmSync(dir, { recursive: true, force: true }); } catch { reclaim(dir); fs.rmSync(dir, { recursive: true, force: true }); }
+}
+
 function dirBytes(dir) {
-  const r = spawnSync('du', ['-sb', dir], { encoding: 'utf8' });
-  return r.status === 0 ? Number(r.stdout.split('\t')[0]) : 0;
+  let r = spawnSync('du', ['-sb', dir], { encoding: 'utf8' });
+  // du fails on a directory it may not enter, and then counts nothing below it
+  if (r.status !== 0) { reclaim(dir); r = spawnSync('du', ['-sb', dir], { encoding: 'utf8' }); }
+  return Number(String(r.stdout).split('\t')[0]) || 0; // a file vanishing mid-count also fails du: its total still stands
 }
 
 /** Everything the container can fill on the host: its work and output directories and the log of its output. */

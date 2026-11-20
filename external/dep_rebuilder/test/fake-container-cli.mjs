@@ -23,5 +23,6 @@ if (env.PHASE === 'clone') {
   if (mode === 'pipe') execFileSync('mkfifo', [out]);
   if (mode === 'link') fs.symlinkSync(process.env.FAKE_TGZ, out);
   if (mode === 'garbage') fs.writeFileSync(out, 'not a tarball');
+  if (mode === 'locked') { const d = path.join(mount('/work'), 'a'); fs.mkdirSync(path.join(d, 'b'), { recursive: true }); fs.writeFileSync(path.join(d, 'b', 'f'), 'x'.repeat(5000)); fs.chmodSync(d, 0o000); process.exit(1); }
   if (mode === 'flood') { const line = `${'x'.repeat(1023)}\n`; for (let i = 0; i < 3000; i++) fs.writeSync(1, line); fs.copyFileSync(process.env.FAKE_TGZ, out); }
 }

@@ -9,18 +9,18 @@ import { createHash } from 'crypto';
 import { fetchNpmVersion, nodeImage, compareTarballs, diffNote, failureLine, CLONE_IMAGE } from '../source_analysis/rebuildNpm.mjs';
 import { resolveRepo } from '../source_analysis/sourceRepos.mjs';
 import { lsRemoteTags, identityOf, npmProvenance } from '../source_analysis/sourceIdentity.mjs';
-import { sandboxArgs, runPhase, CONTAINER_CLI, LIMITS } from './sandbox.mjs';
+import { sandboxArgs, runPhase, removeTree, CONTAINER_CLI, LIMITS } from './sandbox.mjs';
 
 const LOG_LIMIT = 200000;
 const MAX_TARBALL_BYTES = 256 * 2 ** 20; // the host reads the rebuilt tarball into memory to compare it
 const sha256 = (buf) => createHash('sha256').update(buf).digest('hex');
-const COMMIT = /^[0-9a-f]{40}$/;
+const isCommit = (c) => typeof c === 'string' && /^[0-9a-f]{40}$/.test(c);
 // The registry's _npmVersion is whatever the publisher's client sent. It ends up in
 // `npm install -g npm@<it>`, where anything but a plain version (a URL, github:x/y) would
 // make the sandbox run a stranger's npm with the network open.
-const NPM_VERSION = /^\d+\.\d+\.\d+(-[0-9A-Za-z.]+)?$/;
+const isNpmVersion = (v) => typeof v === 'string' && /^\d+\.\d+\.\d+(-[0-9A-Za-z.]+)?$/.test(v);
 // repository.directory is the publisher's word too, and the clone step prints it
-const plainPath = (d) => /^[\w.@/-]+$/.test(d) && !d.split('/').includes('..');
+const plainPath = (d) => typeof d === 'string' && /^[\w.@/-]+$/.test(d) && !d.split('/').includes('..');
 
 /**
  * A build's log is written by untrusted code and can be as large as the disk limit:
@@ -55,10 +55,10 @@ export async function sourceOf(db, name, version, { resolve = resolveRepo, lsRem
   if (!src.repo_url) return null;
   let unlisted = null;
   const tags = await lsRemote(src.repo_url).catch((e) => { unlisted = e.message || 'git ls-remote failed'; return null; });
-  const npm = await provenance(name, version).catch(() => null);
+  const npm = await provenance(name, version); // throws when the registry cannot be reached, as the build would a moment later
   const id = identityOf({ ecosystem: 'npm', name, version }, tags, npm);
   // the registry's gitHead is the publisher's word: only a full commit id is a ref we check out
-  const commit = [id.commit, npm?.gitHead].find(c => COMMIT.test(c || '')) || null;
+  const commit = [id.commit, npm?.gitHead].find(isCommit) || null;
   return { repoUrl: src.repo_url, ref: id.tag || commit, commit, unlisted };
 }
 
@@ -71,11 +71,11 @@ export async function rebuildNpm({ name, version, source, workRoot, fetchImpl = 
   const facts = await fetchNpmVersion(name, version, fetchImpl);
   const slug = `${name.replace(/[^a-zA-Z0-9.-]/g, '_')}@${version}`;
   const dir = path.join(workRoot, slug);
-  fs.rmSync(dir, { recursive: true, force: true });
+  removeTree(dir);
   try {
     return await rebuildIn(dir, { name, version, source, facts, slug, fetchImpl, cli, limits });
   } catch (e) {
-    fs.rmSync(dir, { recursive: true, force: true }); // nothing of a build that could not be judged stays on disk
+    removeTree(dir); // nothing of a build that could not be judged stays on disk
     throw e;
   }
 }
@@ -93,10 +93,10 @@ async function rebuildIn(dir, { name, version, source, facts, slug, fetchImpl, c
   if (facts.integrity?.startsWith('sha512-') && facts.integrity !== integrity) throw new Error(`${name}@${version}: the downloaded tarball does not match the registry's integrity`);
   const x = sha256(registryBuf);
   const image = nodeImage(facts.nodeVersion);
-  const npmVersion = NPM_VERSION.test(facts.npmVersion || '') ? facts.npmVersion : '';
+  const npmVersion = isNpmVersion(facts.npmVersion) ? facts.npmVersion : '';
   const row = { ecosystem: 'npm', name, version, sha256: x, artifact: path.basename(new URL(facts.tarball).pathname), commit: source?.commit || null, ref: source?.ref || null, repoUrl: source?.repoUrl || null, toolchain: `${image.split('/').pop()} npm ${npmVersion || 'default'}`, sandbox: 'clone+install: network, no scripts; build: no network', log: logFile };
   const done = (result, note, phase = null) => {
-    fs.rmSync(workDir, { recursive: true, force: true });
+    removeTree(workDir);
     return { ...row, result, note, phase, seconds: Math.round((Date.now() - t0) / 1000) };
   };
 
@@ -128,7 +128,8 @@ async function rebuildIn(dir, { name, version, source, facts, slug, fetchImpl, c
   const logText = boundedLog(logFile);
   const commit = /^commit ([0-9a-f]{40})/m.exec(logText)?.[1];
   if (commit) row.commit = commit;
-  const npmUsed = /^== npm \S+ packed nothing, packing with the image's npm (\S+)/m.exec(logText)?.[1] || /^== node \S+ npm (\S+)/m.exec(logText)?.[1];
+  // the build can print these lines too: only something that looks like a version is taken
+  const npmUsed = /^== npm \S+ packed nothing, packing with the image's npm (\d[\w.-]{0,30})$/m.exec(logText)?.[1] || /^== node \S+ npm (\d[\w.-]{0,30})$/m.exec(logText)?.[1];
   if (npmUsed) row.toolchain = `${image.split('/').pop()} npm ${npmUsed}`;
   if (run.timedOut) return done('failed', `The ${failedPhase} step did not finish in ${limits.phaseMs / 60000} minutes`, failedPhase);
   if (run.tooBig) return done('failed', `The ${failedPhase} step used more than ${Math.round(limits.diskBytes / 2 ** 30)} GB of disk`, failedPhase);

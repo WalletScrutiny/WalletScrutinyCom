@@ -15,7 +15,7 @@ import path from 'path';
 import minimist from 'minimist';
 import { openDb, saveCandidates, pending, saveRebuild, tally, WORK_DIR, DB_PATH, DATA_DIR } from './db.mjs';
 import { serveLoop } from './worker.mjs';
-import { removeStaleContainers } from './sandbox.mjs';
+import { removeStaleContainers, removeTree } from './sandbox.mjs';
 import { writeFeed, publishFeed } from './site-export.mjs';
 import { collectCandidates, EXPORT_BASE } from './candidates.mjs';
 import { syncGoogle } from './google.mjs';
@@ -46,7 +46,7 @@ async function rebuildAndSave(c, { interrupted = () => false } = {}) {
   const kept = path.join(WORK_DIR, 'logs', `${label.replace(/[^a-zA-Z0-9.@-]/g, '_')}.log`);
   const scratch = path.dirname(r.log);
   if (fs.existsSync(r.log)) { fs.copyFileSync(r.log, kept); r.log = kept; }
-  fs.rmSync(scratch, { recursive: true, force: true }); // the log is kept, the tarball and checkout are not
+  removeTree(scratch); // the log is kept, the tarball and checkout are not
   if (r.result !== 'reproduced' && interrupted()) throw new Error('stopped while it was building, so this result is not kept');
   saveRebuild(db, r);
   console.log(`${r.result === 'reproduced' ? '✓' : '✗'} ${label}${c.wallets ? ` (${c.wallets} wallets)` : ''} ${r.seconds}s: ${r.note}`);

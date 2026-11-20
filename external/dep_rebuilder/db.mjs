@@ -76,7 +76,8 @@ export function saveCandidates(db, rows) {
 // A failure in a step that needs the network (listing the repository, clone, install) may be
 // the network's or the host's, not the package's: it gets one more try, a day later at the
 // earliest. A second failure stands.
-const SECOND_TRY = `r.result = 'failed' AND r.phase IN ('source', 'clone', 'install') AND r.finished_at < datetime('now', '-1 day')
+// (IFNULL: a failure without a phase must compare as "no", not as SQL's unknown, which NOT leaves unknown.)
+const SECOND_TRY = `r.result = 'failed' AND IFNULL(r.phase, '') IN ('source', 'clone', 'install') AND r.finished_at < datetime('now', '-1 day')
   AND (SELECT COUNT(*) FROM attempts a WHERE a.ecosystem = r.ecosystem AND a.name = r.name AND a.version = r.version) < 2`;
 
 /** Versions still to build: most wallets first, then name and version. Google's and earlier results are skipped unless retry. */
