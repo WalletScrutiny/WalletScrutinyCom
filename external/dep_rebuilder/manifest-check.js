@@ -105,7 +105,7 @@ var mode = process.argv[1];
 if (mode === "scripts") {
   var s = {};
   try { s = readJson(path.join(process.argv[2], "package.json")).scripts || {}; } catch (e) { /* no manifest: nothing to run */ }
-  console.log(["prepare", "prepack", "prepublish", "prepublishOnly", "build"].some(function (k) { return s[k]; }) ? 1 : 0);
+  console.log(["prepare", "prepack", "prepublish", "prepublishOnly", "build"].some(function (k) { return s[k]; }) ? "1" : "0");   // a string: console.log colours a number when FORCE_COLOR is set
 } else if (mode === "sources") {
   var problem = sources(process.argv[2], process.argv[3]);
   if (problem) console.log(problem.replace(/\s+/g, " ").slice(0, 200));
