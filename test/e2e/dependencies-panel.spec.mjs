@@ -1,6 +1,6 @@
 import { test, expect } from './relay-fixture.mjs';
 
-import { waitForVerificationsUi } from './helpers.mjs';
+import { injectNip07Signer, waitForVerificationsUi } from './helpers.mjs';
 
 // The source analysis export is not part of the e2e build: these routes stand
 // in for /api/source-analysis/. Every other file under it is a 404.
@@ -19,7 +19,7 @@ const APP = {
   defaultBranch: null,
 };
 
-async function serveExport(page, index) {
+async function serveExport(page, index, app = APP) {
   const asked = [];
   page.on('request', (request) => {
     const path = new URL(request.url()).pathname;
@@ -28,7 +28,7 @@ async function serveExport(page, index) {
   await page.route('**/api/source-analysis/**', (route) => {
     const path = new URL(route.request().url()).pathname;
     if (path.endsWith('/index.json')) return route.fulfill({ json: index });
-    if (path.endsWith('/apps/app.zeusln.zeus.json')) return route.fulfill({ json: APP });
+    if (path.endsWith('/apps/app.zeusln.zeus.json')) return route.fulfill({ json: app });
     return route.fulfill({ status: 404, body: 'not found' });
   });
   return asked;
@@ -65,5 +65,34 @@ test.describe('Dependencies panel', () => {
     expect(painted).toBeNull();
     await expect(page.locator('.dependencies-step').first()).toBeHidden();
     expect(asked).toEqual([]);
+  });
+
+  test('the statement dialog offers "every wallet" only for a library in this wallet', async ({ page }) => {
+    await injectNip07Signer(page);
+    const release = APP.releases[0];
+    const advisory = { ...release.advisories[0], dependants: ['lib'] };
+    await serveExport(page, { schema: 1, complete: true, apps: [{ appId: 'app.zeusln.zeus', aliases: [] }] }, { ...APP, releases: [{ ...release, advisories: [advisory] }] });
+    await page.goto('/mobile/app.zeusln.zeus/');
+
+    const panel = page.locator('#dependencies-android');
+    await expect(panel).toBeVisible({ timeout: 60_000 });
+    await panel.locator('.dp-pick-version').click();
+    const judge = panel.locator('.dp-judge');
+    await expect(judge).toBeAttached();
+    if (!(await judge.isVisible())) await panel.locator('.dp-details-link').click();
+    await judge.click();
+
+    const dialog = page.locator('.dp-dialog');
+    const everywhere = dialog.locator('.dp-form__everywhere');
+    // opens on the wallet's own use of the package: the form hides the box,
+    // and the dialog's label styles must not bring it back
+    await expect(dialog.locator('input[name="subject"][value="app:app.zeusln.zeus"]')).toBeChecked();
+    await expect(everywhere).toBeHidden();
+    await dialog.locator('input[name="subject"][value="via:npm:lib"]').check();
+    await expect(everywhere).toBeVisible();
+    await expect(everywhere).toContainText('I maintain lib');
+    await dialog.locator('input[name="subject"][value="package"]').check();
+    await expect(everywhere).toBeHidden();
+    await expect(dialog.locator('.dp-form [hidden]:visible')).toHaveCount(0);
   });
 });

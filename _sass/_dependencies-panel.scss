@@ -812,6 +812,11 @@ body.dark .dp-history__dot--current {
     color: inherit;
   }
 
+  // `display` on a label, field or button above would show what the form hid
+  [hidden] {
+    display: none;
+  }
+
   legend {
     border: 0;
     width: auto;
@@ -869,10 +874,6 @@ body.dark .dp-history__dot--current {
 
 .dp-dialog .dp-form__field {
   gap: 2px;
-
-  &[hidden] {
-    display: none;
-  }
 }
 
 .dp-dialog .dp-form__choice {
@@ -906,10 +907,6 @@ body.dark .dp-history__dot--current {
   margin: 0;
   font-size: $font-xs;
   color: #c0392b;
-
-  &[hidden] {
-    display: none;
-  }
 }
 
 .dp-form__actions {
