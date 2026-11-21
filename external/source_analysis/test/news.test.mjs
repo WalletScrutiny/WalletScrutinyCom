@@ -6,7 +6,8 @@ import assert from 'node:assert/strict';
 import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import { buildNews, newsOf } from '../news.mjs';
+import { buildNews, newsOf, affectedRanges } from '../news.mjs';
+import { initDatabase, saveVulnerabilities } from '../ddbbUtils.mjs';
 
 const now = new Date('2026-10-29T12:00:00Z');
 const adv = (id, extra = {}) => ({ id, aliases: [], severity: 'high', summary: `${id} summary`, ecosystem: 'npm', package: 'lib', version: '1.0.0', scope: 'app', direct: false, ...extra });
@@ -74,6 +75,47 @@ test('newsOf carries the affected ranges and fixed versions, from any release th
   };
   const news = newsOf({ index: { apps: [{ appId: 'a.wallet' }] }, appDoc: id => docs[id], signals, now });
   assert.deepEqual([news.advisories[0].affected, news.advisories[0].fixed], [['< 1.2.0'], ['1.2.0']]);
+});
+
+// The app files leave the ranges out (export.mjs): the database has them.
+test('newsOf takes the affected ranges from the database when the app file has none', () => {
+  const db = initDatabase(':memory:');
+  saveVulnerabilities(db, 'b.wallet', 'v9', { findings: [
+    { ecosystem: 'npm', name: 'lib', version: '1.0.0', id: 'GHSA-new', aliases: [], severity: 'high', summary: '', fixed: ['1.2.0'], affected: ['< 1.2.0'], direct: true, dev: false },
+    { ecosystem: 'npm', name: 'other', version: '1.0.0', id: 'GHSA-old', aliases: [], severity: 'high', summary: '', fixed: [], direct: true, dev: false },
+  ] });
+  saveVulnerabilities(db, 'b.wallet', 'v8', { findings: [
+    { ecosystem: 'npm', name: 'lib', version: '0.9.0', id: 'GHSA-new', aliases: [], severity: 'high', summary: '', fixed: ['1.2.0'], affected: ['< 1.0.0'], direct: true, dev: false },
+  ] });
+  const affectedOf = affectedRanges(db);
+  const row = { id: 'GHSA-new', ecosystem: 'npm', package: 'lib', version: '1.0.0' };
+  assert.deepEqual(affectedOf(row, { appId: 'b.wallet', ref: 'v9' }), ['< 1.2.0']);
+  assert.deepEqual(affectedOf({ ...row, version: '0.9.0' }, { appId: 'b.wallet', ref: 'v8' }), ['< 1.0.0'], 'the ranges stored with that release\'s row, not another version\'s');
+  assert.equal(affectedOf(row, { appId: 'a.wallet', ref: 'v9' }), undefined, 'not another wallet\'s row');
+  assert.equal(affectedOf({ id: 'GHSA-old', ecosystem: 'npm', package: 'other', version: '1.0.0' }, { appId: 'b.wallet', ref: 'v9' }), undefined, 'a row stored without ranges');
+  // as the app file has them now: no ranges; the older release's row has none either, the newer one's does
+  const docs = { 'b.wallet': { releases: [
+    { ref: 'v10', status: 'ok', releasedAt: '2026-10-20', advisories: [adv('GHSA-new', { fixed: ['1.2.0'] })] },
+    { ref: 'v9', status: 'ok', releasedAt: '2026-10-01', advisories: [adv('GHSA-new', { fixed: ['1.2.0'] })] },
+  ] } };
+  const news = newsOf({ index: { apps: [{ appId: 'b.wallet' }] }, appDoc: id => docs[id], signals, affectedOf, now });
+  assert.deepEqual([news.advisories[0].affected, news.advisories[0].fixed], [['< 1.2.0'], ['1.2.0']], 'from any release that has them, as before');
+
+  // buildNews hands the database on
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'news-db-'));
+  try {
+    fs.mkdirSync(path.join(dir, 'apps'));
+    fs.writeFileSync(path.join(dir, 'index.json'), JSON.stringify({ apps: [{ appId: 'b.wallet' }] }));
+    fs.writeFileSync(path.join(dir, 'apps', 'b.wallet.json'), JSON.stringify(docs['b.wallet']));
+    fs.writeFileSync(path.join(dir, 'signals.json'), JSON.stringify(signals));
+    buildNews({ exportDir: dir, db, now });
+    assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'news.json'), 'utf8')).advisories[0].affected, ['< 1.2.0']);
+    buildNews({ exportDir: dir, now });
+    assert.equal(JSON.parse(fs.readFileSync(path.join(dir, 'news.json'), 'utf8')).advisories[0].affected, undefined, 'without the database there is nowhere to read them');
+  } finally {
+    fs.rmSync(dir, { recursive: true, force: true });
+  }
+  db.close();
 });
 
 test('a wallet is listed only when the advisory is in one of its apps', () => {

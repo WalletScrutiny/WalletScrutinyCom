@@ -333,13 +333,20 @@ renamed into place so a reader never sees a half-written tree:
 | `index.json` | the exported app ids, each with the alias ids that have a stub (`aliases`), which `exportApp` keeps current. `complete: true` when a full export wrote it: it then names every id with a file under `apps/`, and the wallet page asks for no app file it does not name |
 | `apps/<aliasId>.json` | `{appId, alias: true}` for the repository's other app ids (the iPhone record of an Android app), one hop to the file above |
 | `apps/<appId>.json` | all releases of one app, newest version first: ref, commit, date, status, lockfiles, the OSV skip counts, the dependency and advisory counts (including `byScope`: app / build / tests / unknown), the submodule counts, the lock coverage (`locked`, `unlocked`, `unknown` or `none`, with up to five files a wallet team can fix: manifests without a lockfile, lockfiles nothing reads, downloads without a hash check, committed binaries), the advisories (id, severity, aliases, summary, package, scope, who pulls it in, how many products ship it) and the diff to the previous release. Also what the wallet page would otherwise fetch apart: `signals`, the part of `signals.json` about this app's advisories (left out while the export has no `signals.json`: the page then asks for that file), and `extra`, the ids with a file under `upstream/` and `apk/` (`{ upstream: [id], apk: [id] }`, a kind left out when there is none), so the page asks only for files that exist. `exportApp` writes `extra` only into an export a full export wrote (`complete` in `index.json`): one it had to start has neither directory |
-| `apps/<appId>/<ref>/dependencies.json` | the full resolved dependency list of one release (ecosystem, name, version, lockfile, pinning tier, direct, scope, dependants), each row with how many products ship the package and that exact version |
-| `apps/<appId>/<ref>/submodules.json` | the release's git submodules, one row per library with its three claims (`submoduleIdentity.mjs`), when it has any |
+| `apps/<appId>/<ref>/dependencies.json` | the full resolved dependency list of one release (ecosystem, name, version, lockfile, direct, scope, dependants), each row with how many products ship that exact version |
+| `apps/<appId>/<ref>/submodules.json` | the release's git submodules, one row per library with its three claims (`submoduleIdentity.mjs`), when it has any. A modified copy says how many files it changed (`identity.filesChanged`), not which |
+| `apps/<appId>/<ref>/rebuilds.json` | who rebuilt which of the release's dependencies from source, when anyone did. An OSS Rebuild claim has the `artifact` name instead of the attestation's URL, which the reader builds from the row's package (`ossRebuildUrl` in `rebuildClaims.mjs`, mirrored in `src/dependencies-rebuilds.mjs`); a URL of another shape is kept as `url` |
+| `apps/<appId>/rebuild-details.json` | what each OSS Rebuild attestation behind those claims says, by URL, once for all the app's releases; the panel fetches it when an info icon is first opened |
 
 The files carry only what a reader uses: the wallet page's Dependencies panel,
 `signals.mjs` (advisory ids) and `apk-contents-cli.mjs --deps`. The rest
-(integrity hashes, resolved URLs, analyser version, plugins, the full lock
-coverage lists, the default branch, cross-wallet package counts) stays in `assets.db`.
+(integrity hashes, resolved URLs, pinning tiers, analyser version, plugins, the full lock
+coverage lists, the default branch, cross-wallet package counts, an advisory's
+affected ranges, the files a modified submodule changed) stays in `assets.db`.
+A 2026-11-21 audit replayed the panel over every listing with each field
+removed in turn; what no page state showed went out, and the rebuild details
+moved from one file per release to one per app: 113 MB to 90 MB on disk,
+6.5 MB to 4.8 MB as served.
 
 Each wallet does not wait for the end of the pass: as soon as an analysis of
 it is stored, `exportApp` rewrites its `apps/` files and its `index.json`
@@ -426,7 +433,9 @@ advisories published in the last 14 days, each with the wallets whose newest
 working release, or a release published in the last 6 months, uses an
 affected version, for the site's `/news/` page and its release filter. Each
 advisory carries its affected ranges and fixed versions from OSV (`affected`,
-`fixed`); rows stored before `affected` existed get it at the next recheck. A
+`fixed`); the ranges come from the database (`affectedRanges`), since the app
+files leave them out, and rows stored before `affected` existed get it at the
+next recheck. A
 release's day (`releasedAt` in the app file) is the earliest `published_at` of
 its GitHub release files, else the date of the commit its tag points at:
 before the export, `releaseDates.mjs` asks GitHub or GitLab once per release

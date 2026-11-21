@@ -16,6 +16,29 @@ export const CLAIMANTS = {
 };
 const ORDER = ['ws', 'oss-rebuild', 'reproducible-central'];
 
+// Where OSS Rebuild keeps the attestation of one rebuilt artifact; the same
+// as external/source_analysis/rebuildClaims.mjs (ossRebuildUrl). PyPI names
+// compare case- and separator-insensitively (PEP 503).
+const OSS_ECOSYSTEMS = { npm: 'npm', pip: 'pypi', cargo: 'cratesio' };
+export function ossRebuildUrl(ecosystem, name, version, artifact) {
+  const eco = OSS_ECOSYSTEMS[ecosystem];
+  if (!eco) return null;
+  const pkg = ecosystem === 'pip' ? name.toLowerCase().replace(/[-_.]+/g, '-') : name;
+  return `https://storage.googleapis.com/google-rebuild-attestations/${eco}/${pkg}/${version}/${artifact}/rebuild.intoto.jsonl`;
+}
+
+// rebuilds.json with every OSS Rebuild claim's `url`: the export stores only
+// the artifact's name, the rest of the URL being the row's package
+// (export.mjs, rebuildRowForReaders). A claim that has its URL keeps it.
+export function withClaimUrls(data) {
+  if (!Array.isArray(data?.rows)) return data;
+  return { ...data, rows: data.rows.map(r => ({ ...r, claims: (r.claims || []).map((c) => {
+    if (c.url || c.by !== 'oss-rebuild' || !c.artifact) return c;
+    const url = ossRebuildUrl(r.ecosystem, r.name, r.version, c.artifact);
+    return url ? { ...c, url } : c;
+  }) })) };
+}
+
 export const rebuildKey = (ecosystem, name, version) => `${ecosystem}\u0000${name}\u0000${version}`;
 
 export function rebuildIndex(data) {

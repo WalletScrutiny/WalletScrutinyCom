@@ -102,7 +102,7 @@ export async function refreshAdvisories(db, { exportDir = null, onlyReproducible
         log.warn(`advisory signals: ${error.message}`);
       }
       try {
-        if (buildNews({ exportDir }).written) files.add('news.json');
+        if (buildNews({ exportDir, db }).written) files.add('news.json');
       } catch (error) {
         log.warn(`news: ${error.message}`);
       }

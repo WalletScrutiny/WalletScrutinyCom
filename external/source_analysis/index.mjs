@@ -401,7 +401,7 @@ try {
       }
       // The /news/ page: advisories of the last 14 days and the wallets they hit
       const { buildNews } = await import('./news.mjs');
-      const n = buildNews({ exportDir: EXPORT_DIR });
+      const n = buildNews({ exportDir: EXPORT_DIR, db });
       console.log(n.written ? `News: ${n.advisories} advisories of the last 14 days in ${n.wallets} wallets` : 'News: no publication dates, nothing written');
     } catch (error) {
       console.error(`\n✗  Export to ${EXPORT_DIR} failed:`, error.message);

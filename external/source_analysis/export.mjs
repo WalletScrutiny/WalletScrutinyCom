@@ -8,10 +8,10 @@
 //   apps/<appId>.json                   all analyses of one app, with advisories (each with how many products ship the package) and the diff to the previous release;
 //                                       `signals`: its advisories' part of signals.json; `extra`: the ids it has a file for under upstream/ and apk/
 //   apps/<aliasId>.json                 stub {appId, alias: true} for the repository's other app ids (the iPhone record), only those some release was reproduced for
-//   apps/<appId>/<ref>/dependencies.json  the full resolved dependency list of one release, each row with how many products ship the package
+//   apps/<appId>/<ref>/dependencies.json  the full resolved dependency list of one release, each row with how many products ship that version of the package
 //   apps/<appId>/<ref>/submodules.json    the release's git submodules, when it has any
 //   apps/<appId>/<ref>/rebuilds.json      who rebuilt which of the release's dependencies from source (ours and imported claims), when anyone did
-//   apps/<appId>/<ref>/rebuild-details.json  what each OSS Rebuild attestation of those claims says, by URL; the panel loads it on tap
+//   apps/<appId>/rebuild-details.json     what each OSS Rebuild attestation of those claims says, by URL, once for all the app's releases; the panel loads it on tap
 //   used-by.json                        for each package with an advisory, which apps ship it at which versions (exportAll only)
 //
 // Each file carries only what a reader uses (the wallet page's Dependencies
@@ -33,6 +33,7 @@ import { buildLockForReaders } from './plugins/build-lock.mjs';
 import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, getBackportedAdvisories, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getVerifiedRefs, getEndOfLife, getSubmodules, getRebuildClaims, getOssRebuildDetails, getDefaultBranch, getOwnAdvisories, DEFAULT_BRANCH_REF } from './ddbbUtils.mjs';
 import { COUNTED_TARGETS, partOfFile, productPartOf, sortingOf, targetOfLockfile, targetsOfLockfiles, unlistedFiles, useRepositories } from './products.mjs';
 import { readSignals, signalsOf } from './signals.mjs';
+import { ossRebuildUrl } from './rebuildClaims.mjs';
 
 export const SCHEMA = 1;
 const SEVERITIES = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown'];
@@ -95,11 +96,17 @@ export function summarizeSubmodules(stored) {
 }
 
 // A stored submodule row as the panel reads it: the walk depth, the scope's
-// parent and the base commit stay in the database.
-function submoduleRow({ depth, ...r }) {
+// parent, the base commit and the walk's own notes (which build files name
+// the submodule, why its submodules could not be listed) stay in the
+// database. So do the names of the files a modified copy changed: the panel
+// says how many (`filesChanged`), and the list was half of these files.
+function submoduleRow({ depth, buildRefs, childrenError, ...r }) {
   const out = { ...r };
   if (r.scope) { const { via, ...scope } = r.scope; out.scope = scope; }
-  if (r.identity) { const { baseCommit, ...identity } = r.identity; out.identity = identity; }
+  if (r.identity) {
+    const { baseCommit, files, ...identity } = r.identity;
+    out.identity = files ? { ...identity, filesChanged: files.length } : identity;
+  }
   return out;
 }
 
@@ -632,6 +639,36 @@ export function releaseRebuildDetails(rows, ossDetails) {
   return Object.keys(out).length ? out : null;
 }
 
+// A rebuilds.json row as written. An OSS Rebuild claim's URL is the package's
+// place in their bucket and the artifact's name; the row names the package,
+// so the claim keeps only `artifact` and the reader puts the URL together
+// (ossRebuildUrl, mirrored in src/dependencies-rebuilds.mjs): a fifth of
+// these files. A URL of any other shape is kept whole.
+export function rebuildRowForReaders(row) {
+  return { ...row, claims: row.claims.map((c) => {
+    if (c.by !== 'oss-rebuild' || !c.url) return c;
+    const artifact = c.url.split('/').at(-2);
+    if (!artifact || ossRebuildUrl(row.ecosystem, row.name, row.version, artifact) !== c.url) return c;
+    const { url, ...rest } = c;
+    return { ...rest, artifact };
+  }) };
+}
+
+// A release as the app file has it. `dependencies.lockfiles` (the files the
+// stored rows come from) is left out when the analysis names its lockfiles,
+// which is what the panel lists; a release stored before analyses were
+// recorded has only the former. An advisory's affected ranges stay in the
+// database: only news.mjs reads them, there.
+function releaseForReaders(release) {
+  const out = { ...release };
+  if (release.lockfiles?.length && release.dependencies) {
+    const { lockfiles, ...dependencies } = release.dependencies;
+    out.dependencies = dependencies;
+  }
+  if (release.advisories) out.advisories = release.advisories.map(({ affected, ...a }) => a);
+  return out;
+}
+
 // The other files the export has for an app, by the ids they are stored
 // under: `{ upstream: [id], apk: [id] }` for upstream/<id>.json (the upstream
 // hints) and apk/<id>.json (the APK check), a kind left out when no id has
@@ -666,35 +703,42 @@ function writeAppFiles(db, dir, appId, aliases, counts, sources, isExported, { a
   const reproducedIds = reproduced && new Set(app.releases.flatMap(r => r.reproducedFor.map(l => l.appId)));
   const appDir = path.join(dir, 'apps', safeName(appId));
   fs.mkdirSync(appDir, { recursive: true });
+  // What OSS Rebuild's attestations say, once per app: releases share most of
+  // their packages, so a file per release repeated nearly all of it.
+  const details = {};
   for (const r of app.releases) {
     const refDir = path.join(appDir, safeName(r.ref));
     fs.mkdirSync(refDir, { recursive: true });
     const deps = getDependencies(db, appId, r.ref);
     const rb = releaseRebuilds(deps, rebuilds);
+    // a tree written when each release had its own details file (exportApp writes into what is there)
+    fs.rmSync(path.join(refDir, 'rebuild-details.json'), { force: true });
     if (rb) {
-      write(path.join(refDir, 'rebuilds.json'), JSON.stringify({ schema: SCHEMA, rows: rb.rows }));
-      const details = releaseRebuildDetails(rb.rows, ossDetails);
-      if (details) write(path.join(refDir, 'rebuild-details.json'), JSON.stringify({ schema: SCHEMA, details }));
+      write(path.join(refDir, 'rebuilds.json'), JSON.stringify({ schema: SCHEMA, rows: rb.rows.map(rebuildRowForReaders) }));
+      Object.assign(details, releaseRebuildDetails(rb.rows, ossDetails));
       r.rebuilds = rb.summary;
     }
+    // The pinning tier and the count of products shipping any version stay in
+    // the database: nothing on the page shows them, and they were an eighth of these files.
     write(path.join(refDir, 'dependencies.json'), JSON.stringify({
       schema: SCHEMA, dependencies: deps.map(d => ({
-        ecosystem: d.ecosystem, name: d.name, version: d.dep_version, lockfile: d.lockfile, tier: d.tier,
+        ecosystem: d.ecosystem, name: d.name, version: d.dep_version, lockfile: d.lockfile,
         direct: d.direct === null ? null : d.direct === 1,
         scope: scopeOfRow(d) === 'unknown' ? null : scopeOfRow(d),
         part: partOfFile(d.lockfile, appId) || undefined,
         // the product the row's file builds, as the release's byTarget counts it (the tree's "In this app", issue 996)
         target: r.dependencies?.byTarget ? targetOfLockfile(d.lockfile, appId) : undefined,
         dependants: dependantsOfRow(d.dependants),
-        products: counts.byName.get(`${d.ecosystem}:${d.name}`) || 1,
         productsSameVersion: counts.byVersion.get(`${d.ecosystem}:${d.name}@${d.dep_version}`) || 1,
       })),
     }));
     const subs = getSubmodules(db, appId, r.ref);
     if (subs) write(path.join(refDir, 'submodules.json'), JSON.stringify({ schema: SCHEMA, rows: subs.rows.map(submoduleRow) }));
   }
+  if (Object.keys(details).length) write(path.join(appDir, 'rebuild-details.json'), JSON.stringify({ schema: SCHEMA, details }));
+  else fs.rmSync(path.join(appDir, 'rebuild-details.json'), { force: true });
   // The app file last: a reader that sees a release in it finds its dependency list.
-  write(path.join(dir, 'apps', `${safeName(appId)}.json`), JSON.stringify(app));
+  write(path.join(dir, 'apps', `${safeName(appId)}.json`), JSON.stringify({ ...app, releases: app.releases.map(releaseForReaders) }));
   // The repository's other app ids (the iPhone page, a desktop record) get a
   // stub pointing at the file above, so a reader needs no index lookup.
   for (const alias of app.aliases) {

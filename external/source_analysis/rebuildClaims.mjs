@@ -44,6 +44,12 @@ export function ossRebuildPrefix(ecosystem, name) {
   return `${eco}/${ecosystem === 'pip' ? pypiName(name) : name}/`;
 }
 
+/** The attestation of one rebuilt artifact (as parseOssListing reads the bucket), or null for an ecosystem OSS Rebuild does not cover. */
+export function ossRebuildUrl(ecosystem, name, version, artifact) {
+  const prefix = ossRebuildPrefix(ecosystem, name);
+  return prefix ? `https://storage.googleapis.com/${OSS_REBUILD_BUCKET}/${prefix}${version}/${artifact}/rebuild.intoto.jsonl` : null;
+}
+
 /** Object names under a prefix → Map version → [{ artifact, url }]. */
 export function parseOssListing(names, prefix) {
   const out = new Map();
