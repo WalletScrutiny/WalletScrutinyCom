@@ -1,0 +1,9 @@
+---
+---
+
+// The wallet page's "Dependencies" and "Known vulnerabilities" steps. Linked by
+// src/source-analysis-export.mjs on the listings the source analysis covers,
+// so the other pages do not download it. Not named after a partial: Sass
+// would resolve the @use to this file.
+@use "dependencies-panel";
+@use "own-vulnerabilities";

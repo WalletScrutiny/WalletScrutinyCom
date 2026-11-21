@@ -23,7 +23,7 @@ async function serveExport(page, index) {
   const asked = [];
   page.on('request', (request) => {
     const path = new URL(request.url()).pathname;
-    if (/\/dist\/dependencies-panel\.|\/api\/source-analysis\/apps\//.test(path)) asked.push(path);
+    if (/\/dist\/dependencies-panel\.|\/assets\/css\/dependencies-steps\.css|\/api\/source-analysis\/apps\//.test(path)) asked.push(path);
   });
   await page.route('**/api/source-analysis/**', (route) => {
     const path = new URL(route.request().url()).pathname;
@@ -35,7 +35,7 @@ async function serveExport(page, index) {
 }
 
 test.describe('Dependencies panel', () => {
-  test('a listing the export names fetches the panel and paints it', async ({ page }) => {
+  test('a listing the export names fetches the panel and its styles and paints it', async ({ page }) => {
     const asked = await serveExport(page, { schema: 1, complete: true, apps: [{ appId: 'app.zeusln.zeus', aliases: [] }] });
     await page.goto('/mobile/app.zeusln.zeus/');
 
@@ -48,10 +48,13 @@ test.describe('Dependencies panel', () => {
     await expect(panel).toContainText('Checked release v0.0.1-e2e');
     await expect(page.locator('#dependencies-iphone')).toBeHidden();
     expect(asked.filter(path => path.includes('/dist/dependencies-panel.'))).toHaveLength(1);
+    // styled by the stylesheet linked with the chunk
+    expect(asked.filter(path => path.endsWith('/dependencies-steps.css'))).toHaveLength(1);
+    await expect(panel.locator('.dp-panel')).toHaveCSS('border-radius', '14px');
     expect(asked).not.toContain('/api/source-analysis/apps/com.zeusln.zeus.json');
   });
 
-  test('a listing the export does not name fetches neither the panel nor an app file', async ({ page }) => {
+  test('a listing the export does not name fetches no panel, styles or app file', async ({ page }) => {
     const asked = await serveExport(page, { schema: 1, complete: true, apps: [] });
     await page.goto('/mobile/app.zeusln.zeus/');
     await waitForVerificationsUi(page);

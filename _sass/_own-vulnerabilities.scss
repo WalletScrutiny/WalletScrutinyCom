@@ -2,12 +2,8 @@
 
 /* Wallet page "Known vulnerabilities": advisories filed against the wallet
    itself (src/own-vulnerabilities.mjs). Same box language as the
-   Dependencies panel. */
-
-.own-vulnerabilities-step[hidden],
-.own-vulnerabilities[hidden] {
-  display: none;
-}
+   Dependencies panel, and part of its stylesheet
+   (assets/css/dependencies-steps.scss). */
 
 .own-vulnerabilities {
   margin-top: 8px;
