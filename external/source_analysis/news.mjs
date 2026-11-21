@@ -9,6 +9,9 @@
  *   apps/<id>.json each release's advisories and publication day
  *                  (releasedAt), newest release first
  *
+ * and, from the database, each advisory's affected ranges (affectedRanges):
+ * the app files leave them out, since only this page shows them.
+ *
  * Per wallet it lists the releases carrying the advisory: the newest working
  * one, and any published in the last NEWS_RELEASE_MONTHS months. The page
  * filters on them (newest release only, or released in the last 1/3/6 months).
@@ -51,17 +54,28 @@ function countedTargetsOf(doc) {
   return new Set(platforms.flatMap(p => COUNTED_TARGETS[p]));
 }
 
+// `affectedOf` for newsOf, from the database: the affected ranges OSV lists
+// for the advisory's package, from any stored row that has them.
+export function affectedRanges(db) {
+  const row = db.prepare('SELECT affected FROM app_vulnerabilities WHERE vuln_id = ? AND ecosystem = ? AND name = ? AND affected IS NOT NULL LIMIT 1');
+  return (a) => {
+    const found = row.get(a.id, a.ecosystem, a.package);
+    return found ? JSON.parse(found.affected) : undefined;
+  };
+}
+
 /**
  * Returns { schema, date, days, since, releasesSince, advisories } where
  * advisories holds, newest first, each advisory published on or after `since`
  * with the wallets that carry it in their newest working release or in a
  * release published on or after `releasesSince`; or null without publication dates.
- * Each advisory also carries the package's affected ranges and fixed versions when known.
+ * Each advisory also carries the package's affected ranges (`affectedOf(advisory)`, or the app file's from an
+ * export that still has them) and fixed versions when known.
  * Each wallet: { appId, releases: [{ ref, releasedAt, newest, version, scope, direct }] }, newest first.
  * A wallet is listed only when the advisory is in one of its apps: a match in
  * the server or website of the same repository is not news about the wallet.
  */
-export function newsOf({ index, appDoc, signals, now = new Date(), days = NEWS_DAYS, releaseMonths = NEWS_RELEASE_MONTHS }) {
+export function newsOf({ index, appDoc, signals, affectedOf = null, now = new Date(), days = NEWS_DAYS, releaseMonths = NEWS_RELEASE_MONTHS }) {
   const published = signals?.published;
   if (!published || !Object.keys(published).length) return null;
   const since = new Date(now.getTime() - (days - 1) * 86_400_000).toISOString().slice(0, 10);
@@ -83,7 +97,7 @@ export function newsOf({ index, appDoc, signals, now = new Date(), days = NEWS_D
         let entry = byId.get(a.id);
         if (!entry) {
           entry = { id: a.id, aliases: a.aliases || [], published: day, severity: a.severity, summary: a.summary, ecosystem: a.ecosystem, package: a.package,
-            affected: a.affected, fixed: a.fixed, wallets: [] };
+            affected: a.affected ?? affectedOf?.(a), fixed: a.fixed, wallets: [] };
           byId.set(a.id, entry);
         }
         // Rows stored before the ranges were kept have none; any release that has them will do.
@@ -109,11 +123,13 @@ export function newsOf({ index, appDoc, signals, now = new Date(), days = NEWS_D
 }
 
 // Writes news.json into exportDir; returns { written, advisories, wallets }.
-export function buildNews({ exportDir, now = new Date(), days = NEWS_DAYS } = {}) {
+// `db`: the analysis database, for the affected ranges.
+export function buildNews({ exportDir, db = null, now = new Date(), days = NEWS_DAYS } = {}) {
   const news = newsOf({
     index: readJson(join(exportDir, 'index.json')),
     appDoc: appId => readJson(join(exportDir, 'apps', `${safeName(appId)}.json`)),
     signals: existsSync(join(exportDir, 'signals.json')) ? readJson(join(exportDir, 'signals.json')) : null,
+    affectedOf: db && affectedRanges(db),
     now,
     days,
   });

@@ -126,12 +126,12 @@ test('exportAll writes index, app files and dependency lists, atomically replaci
   assert.deepEqual(app.extra, {}, 'no upstream hints, no APK check: the page asks for neither');
   assert.equal('signals' in app, false, 'no signals.json yet: the page asks for it, as it did before');
   const deps = JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.android', 'v1.1.0', 'dependencies.json'), 'utf8'));
-  assert.deepEqual(deps.dependencies.map(d => `${d.name}@${d.version}:${d.tier}`), ['a@1.0.1:hash-pinned', 'c@3.0.0:floating']);
+  assert.deepEqual(deps.dependencies.map(d => `${d.name}@${d.version}`), ['a@1.0.1', 'c@3.0.0']);
   assert.deepEqual(Object.keys(deps), ['schema', 'dependencies']);
-  assert.deepEqual(Object.keys(deps.dependencies[0]), ['ecosystem', 'name', 'version', 'lockfile', 'tier', 'direct', 'scope', 'dependants', 'products', 'productsSameVersion']);
+  assert.deepEqual(Object.keys(deps.dependencies[0]), ['ecosystem', 'name', 'version', 'lockfile', 'direct', 'scope', 'dependants', 'productsSameVersion'], 'no pinning tier, no count over all versions: nothing shows them');
   assert.equal(deps.dependencies[1].scope, null);
   assert.equal(deps.dependencies[0].scope, 'app');
-  assert.deepEqual(deps.dependencies.map(d => [d.products, d.productsSameVersion]), [[2, 2], [1, 1]]);
+  assert.deepEqual(deps.dependencies.map(d => d.productsSameVersion), [2, 1]);
   assert.ok(!fs.existsSync(path.join(dir, 'packages')));
   assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'used-by.json'), 'utf8')),
     { schema: 1, packages: { 'npm:a': { 'app.android': ['1.0.0', '1.0.1'], 'app.other': ['1.0.1'] } } }, 'only packages with an advisory');
@@ -176,6 +176,52 @@ test('the app file carries its signals and names its upstream and apk files, fro
   exportApp(db, fresh, 'app.android');
   const started = JSON.parse(fs.readFileSync(path.join(fresh, 'apps', 'app.android.json'), 'utf8'));
   assert.deepEqual(['extra' in started, 'signals' in started], [false, false]);
+});
+
+// What only the database's own readers use is not written: the affected
+// ranges (news.mjs asks the database), the second list of lockfiles, and
+// OSS Rebuild's attestation summaries once per release.
+test('the app file leaves out affected ranges and the repeated lockfiles; rebuild details are one file per app', () => {
+  const db = seeded();
+  saveVulnerabilities(db, 'app.android', 'v1.1.0', { findings: [
+    { ecosystem: 'npm', name: 'a', version: '1.0.1', id: 'GHSA-aaaa', aliases: ['CVE-2026-1'], severity: 'high', summary: 'bad', fixed: ['1.0.2'], affected: ['< 1.0.2'], direct: true, dev: false },
+  ] });
+  db.prepare("DELETE FROM analyses WHERE app_id = 'app.android' AND ref = 'v1.0.0'").run();
+  const url = (name, version) => `https://storage.googleapis.com/google-rebuild-attestations/npm/${name}/${version}/${name}-${version}.tgz/rebuild.intoto.jsonl`;
+  const claim = db.prepare("INSERT INTO package_rebuilds (ecosystem, name, version, claimant, result, url) VALUES ('npm', ?, ?, ?, 'reproduced', ?)");
+  claim.run('a', '1.0.0', 'oss-rebuild', url('a', '1.0.0'));
+  claim.run('a', '1.0.1', 'oss-rebuild', url('a', '1.0.1'));
+  claim.run('b', '2.0.0', 'oss-rebuild', 'https://elsewhere.example/b/rebuild.intoto.jsonl');
+  claim.run('c', '3.0.0', 'reproducible-central', 'https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/c/c-3.0.0.buildspec');
+  const detail = db.prepare('INSERT INTO oss_rebuild_details (url, details) VALUES (?, ?)');
+  for (const v of ['1.0.0', '1.0.1']) detail.run(url('a', v), JSON.stringify({ commit: v }));
+  assert.deepEqual(buildApp(db, 'app.android').releases[0].advisories[0].affected, ['< 1.0.2'], 'still there for whoever reads the database');
+
+  const dir = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'sa-export-')), 'export');
+  const check = () => {
+    const read = rel => JSON.parse(fs.readFileSync(path.join(dir, 'apps', rel), 'utf8'));
+    const [latest, old] = read('app.android.json').releases;
+    assert.equal('affected' in latest.advisories[0], false);
+    assert.deepEqual(latest.advisories[0].fixed, ['1.0.2']);
+    assert.deepEqual([latest.lockfiles, latest.dependencies.lockfiles], [['package-lock.json'], undefined], 'the analysis names its lockfiles: not said twice');
+    assert.deepEqual([old.lockfiles, old.dependencies.lockfiles], [undefined, ['package-lock.json']], 'stored before analyses were recorded: the rows\' files are all there is');
+    assert.deepEqual(read('app.android/v1.1.0/rebuilds.json').rows, [
+      { ecosystem: 'npm', name: 'a', version: '1.0.1', claims: [{ by: 'oss-rebuild', result: 'reproduced', artifact: 'a-1.0.1.tgz' }] },
+      { ecosystem: 'npm', name: 'c', version: '3.0.0', claims: [{ by: 'reproducible-central', result: 'reproduced', url: 'https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/c/c-3.0.0.buildspec' }] },
+    ], 'OSS Rebuild\'s URL as the artifact name the reader builds it from; another project\'s whole');
+    assert.deepEqual(read('app.android/v1.0.0/rebuilds.json').rows.map(r => r.claims[0]), [
+      { by: 'oss-rebuild', result: 'reproduced', artifact: 'a-1.0.0.tgz' },
+      { by: 'oss-rebuild', result: 'reproduced', url: 'https://elsewhere.example/b/rebuild.intoto.jsonl' },
+    ], 'a URL that is not the bucket\'s place for the package is kept whole');
+    assert.deepEqual(read('app.android/rebuild-details.json'), { schema: 1, details: { [url('a', '1.0.1')]: { commit: '1.0.1' }, [url('a', '1.0.0')]: { commit: '1.0.0' } } }, 'every release\'s, once');
+    for (const ref of ['v1.0.0', 'v1.1.0']) assert.ok(!fs.existsSync(path.join(dir, 'apps', 'app.android', ref, 'rebuild-details.json')));
+    assert.deepEqual(Object.keys(read('app.other/rebuild-details.json').details), [url('a', '1.0.1')], 'another app: its own packages\' only');
+  };
+  exportAll(db, dir, {});
+  check();
+  fs.rmSync(path.join(dir, 'apps', 'app.android'), { recursive: true });
+  exportApp(db, dir, 'app.android');
+  check();
 });
 
 test('exportApp updates one app in place, leaving the rest of the export as it was', () => {
@@ -348,9 +394,9 @@ test('submodules: counted in the release summary, advisories only where the code
   recordAnalysis(db, { appId: 'cpp.wallet', kind: 'release', ref: 'v2', commit: 'a'.repeat(40), status: 'unsupported', analyser: 't', appType: 'unknown' });
   const rows = [
     { path: 'contrib/own', firstParty: true, scope: { status: 'assumed' }, identity: { status: 'upstream-commit' }, advisories: { status: 'none-listed', applies: [] } },
-    { path: 'contrib/openssl', scope: { status: 'assumed' }, identity: { status: 'upstream-tag', tag: 'openssl-3.0.13' }, advisories: { status: 'affected', applies: ['CVE-1', 'CVE-2'] } },
+    { path: 'contrib/openssl', scope: { status: 'assumed' }, identity: { status: 'upstream-tag', tag: 'openssl-3.0.13' }, advisories: { status: 'affected', applies: ['CVE-1', 'CVE-2'] }, buildRefs: { referenced: true, whole: false, parts: ['crypto'] }, childrenError: 'cannot list' },
     { path: 'contrib/openssl/krb5', depth: 2, scope: { status: 'test-only', why: 'x', via: 'contrib/openssl' }, identity: { status: 'upstream-commit' }, advisories: { status: 'affected', applies: ['CVE-3'] } },
-    { path: 'contrib/fork', scope: { status: 'assumed' }, identity: { status: 'derived', base: 'v1', baseCommit: 'b'.repeat(40) }, advisories: { status: 'unknown', base: 'v1', unknown: [{ id: 'CVE-4', hint: 'cant-tell' }] } },
+    { path: 'contrib/fork', scope: { status: 'assumed' }, identity: { status: 'derived', base: 'v1', baseCommit: 'b'.repeat(40), ahead: 2, files: ['src/a.c', 'src/b.c', 'README'] }, advisories: { status: 'unknown', base: 'v1', unknown: [{ id: 'CVE-4', hint: 'cant-tell' }] } },
     { path: 'contrib/gone', error: 'cannot reach' },
   ];
   saveSubmodules(db, 'cpp.wallet', 'v2', 'a'.repeat(40), rows);
@@ -364,7 +410,8 @@ test('submodules: counted in the release summary, advisories only where the code
     const file = JSON.parse(fs.readFileSync(path.join(out, 'export', 'apps', 'cpp.wallet', 'v2', 'submodules.json'), 'utf8'));
     assert.deepEqual(Object.keys(file), ['schema', 'rows']);
     assert.deepEqual(file.rows[2], { path: 'contrib/openssl/krb5', scope: { status: 'test-only', why: 'x' }, identity: { status: 'upstream-commit' }, advisories: { status: 'affected', applies: ['CVE-3'] } });
-    assert.deepEqual(file.rows[3].identity, { status: 'derived', base: 'v1' });
+    assert.deepEqual(file.rows[3].identity, { status: 'derived', base: 'v1', ahead: 2, filesChanged: 3 }, 'how many files a modified copy changed, not their names');
+    assert.deepEqual(file.rows[1], { path: 'contrib/openssl', scope: { status: 'assumed' }, identity: { status: 'upstream-tag', tag: 'openssl-3.0.13' }, advisories: { status: 'affected', applies: ['CVE-1', 'CVE-2'] } }, 'the walk\'s own notes stay in the database');
     assert.deepEqual(file.rows[0], rows[0]);
   } finally {
     fs.rmSync(out, { recursive: true, force: true });
