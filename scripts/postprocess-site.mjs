@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 /**
  * Post-process _site/ after Jekyll in a single pass over the tree:
- *   - minify every .html in place (whitespace, comments, inline script/style),
+ *   - minify every .html in place (whitespace and comments; inline scripts,
+ *     handlers and styles are left as written, see HTML_OPTIONS),
  *   - minify .js (terser) and .css (cssnano) in place, skipping *.min.*,
  *   - write a pre-compressed .br next to every html/js/css/json/font/svg/cast
  *     file for nginx's brotli_static (quality 6 for the thousands of nested
@@ -31,12 +32,17 @@ import cssnano from 'cssnano';
 const SITE_DIR = '_site';
 const BROTLI_EXTENSIONS = new Set(['.html', '.js', '.css', '.json', '.ttf', '.svg', '.eot', '.cast']);
 
+// minifyJS/minifyCSS stay off: they run terser or clean-css once per inline
+// <script>, on*="" handler, <style> and style="" attribute, about 30 calls on
+// a wallet page, and that was more than half of this script's run time
+// (10-13 s -> 6.5 s on 20 cores, 19.5 s -> 8.3 s on 8). The same few snippets
+// repeat on every page, so brotli absorbs them: the .br files grow by 1.3 %.
 const HTML_OPTIONS = {
   collapseWhitespace: true,
   conservativeCollapse: true,
   removeComments: true,
-  minifyJS: true,
-  minifyCSS: true,
+  minifyJS: false,
+  minifyCSS: false,
 };
 
 const brotli = promisify(brotliCompress);
