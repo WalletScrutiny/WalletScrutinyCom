@@ -49,6 +49,13 @@ export const TARGET_LABELS = {
 // A row without `targets` comes from shared files only.
 const inThisApp = (row, counted) => !row.targets || row.targets.some(t => counted.includes(t));
 
+// The counts a page shows: the export's, each package once over the files the
+// page counts (export.mjs countsByPlatform, issue 1027). An export written
+// before those existed only has per-target counts, added up as they were.
+function countsOnPage(dependencies, platform, counted) {
+  return dependencies.byPlatform?.[platform] || countsOfTargets(dependencies.byTarget, counted);
+}
+
 // The release's dependency counts added up over the targets a page counts.
 function countsOfTargets(byTarget, counted) {
   const out = { total: 0, direct: 0, byScope: {}, byEcosystem: {} };
@@ -341,7 +348,7 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
   // Only this page's app (issue 994). The tree and the CSV still get every row.
   const counted = current.dependencies?.byTarget ? COUNTED_TARGETS[platform] || null : null;
   const inApp = a => !counted || inThisApp(a, counted);
-  const dependencies = counted ? countsOfTargets(current.dependencies.byTarget, counted) : current.dependencies;
+  const dependencies = counted ? countsOnPage(current.dependencies, platform, counted) : current.dependencies;
   const vulnerabilityCounts = counted ? countsOfAdvisories((current.advisories || []).filter(inApp).map(a => scopeOnPage(a, counted))) : current.vulnerabilities;
 
   const bySeverity = { ...Object.fromEntries(SEVERITY_ORDER.map(s => [s, 0])), ...(vulnerabilityCounts?.bySeverity || {}) };
@@ -380,8 +387,10 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
     // files whose names suggest another product, a guess nobody has checked: they still count here
     unlisted: current.dependencies?.unlisted || [],
     direct: dependencies?.direct ?? 0,
+    // packages whose files do not say whether the wallet imports them (pip freeze files, build locks)
+    directUnknown: dependencies?.directUnknown ?? 0,
     // Everything the wallet does not import itself; its direct users are named per row.
-    transitive: Math.max(0, (dependencies?.total ?? 0) - (dependencies?.direct ?? 0)),
+    transitive: Math.max(0, (dependencies?.total ?? 0) - (dependencies?.direct ?? 0) - (dependencies?.directUnknown ?? 0)),
     devUnknown: current.dependencies?.devUnknown ?? 0,
     byScope: dependencies?.byScope || null,
     whereUnknown: dependencies?.byScope?.unknown ?? current.dependencies?.devUnknown ?? 0,
@@ -430,7 +439,7 @@ export function dependencyHistory(releases = [], currentRef = null, platform = n
   return releases
     .filter(r => Number.isFinite(r.dependencies?.total) && ((r.status || 'ok') === 'ok' || r.dependencies.total > 0))
     .map((r) => {
-      const c = counted && r.dependencies.byTarget ? countsOfTargets(r.dependencies.byTarget, counted) : r.dependencies;
+      const c = counted && r.dependencies.byTarget ? countsOnPage(r.dependencies, platform, counted) : r.dependencies;
       return { ref: r.ref, total: c.total, direct: c.direct ?? null, current: r.ref === currentRef, empty: c !== r.dependencies && !c.total };
     })
     // A release with only other products' files says nothing about this app: no cliff to zero.

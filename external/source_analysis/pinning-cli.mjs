@@ -28,6 +28,9 @@ import { analyzeCommittedBinaries, analyzeDependencyBinaries } from './plugins/c
 import { DEFAULT_TEMP_DIR } from './config.mjs';
 import { backupDatabase, initDatabase, saveDependencies, diffDependencies, findAppsShipping } from './ddbbUtils.mjs';
 
+// A stored row's direct flag: null when its files do not say (issue 1027).
+const directLabel = (direct) => (direct === null || direct === undefined ? 'unknown' : direct ? 'direct' : 'transitive');
+
 const argv = minimist(process.argv.slice(2), { string: ['app-id', 'version', 'diff', 'ships', 'ref'] });
 
 if (argv.ships) {
@@ -40,7 +43,7 @@ if (argv.ships) {
   const rows = findAppsShipping(db, m[1], m[2], m[3] ?? null);
   db.close();
   for (const r of rows) {
-    console.log(`${r.app_id} ${r.version}: ${m[2]}@${r.dep_version} (${r.direct ? 'direct' : 'transitive'}${r.dev ? ', dev' : ''}, ${r.lockfile})`);
+    console.log(`${r.app_id} ${r.version}: ${m[2]}@${r.dep_version} (${directLabel(r.direct)}${r.dev ? ', dev' : ''}, ${r.lockfile})`);
   }
   if (!rows.length) console.log('no stored version ships that package');
   process.exit(0);
@@ -71,7 +74,7 @@ if (argv['app-id'] && argv.version) {
     const delta = diffDependencies(db, argv['app-id'], argv.diff, argv.version);
     console.log(`\n--- Dependency delta ${argv.diff} -> ${argv.version}: ` +
       `${delta.added.length} added, ${delta.removed.length} removed, ${delta.changed.length} changed ---`);
-    const tag = (r) => `${r.direct ? 'direct' : 'transitive'}${r.dev ? ', dev' : ''}` +
+    const tag = (r) => `${directLabel(r.direct)}${r.dev ? ', dev' : ''}` +
       (r.lockfile.includes('/') ? `, ${r.lockfile}` : '');
     for (const r of delta.added) console.log(`  + ${r.ecosystem} ${r.name}@${r.versions.join(',')} (${tag(r)})`);
     for (const r of delta.removed) console.log(`  - ${r.ecosystem} ${r.name}@${r.versions.join(',')} (${tag(r)})`);

@@ -290,3 +290,36 @@ describe('dependencies panel model', () => {
     });
   });
 });
+
+describe('each package once per page, unknown apart from transitive (issue 1027)', () => {
+  const counts = (total, direct, directUnknown = 0) => ({ total, direct, directUnknown, byScope: { app: total, build: 0, tests: 0, unknown: 0 }, byEcosystem: { pip: total } });
+  // the export's per-page counts are distinct; adding up the targets would count shared+android twice
+  const release = (ref, byPlatform) => ({
+    ref, status: 'ok',
+    dependencies: { ...counts(160, 10, 100), byTarget: { android: counts(70, 5, 50), shared: counts(40, 5, 20), desktop: counts(100, 8, 60) }, byPlatform },
+  });
+  const app = { appId: 'e', releases: [
+    release('v2', { android: counts(72, 6, 40), desktop: counts(72, 6, 40), iphone: counts(40, 5, 20), hardware: counts(40, 5, 20) }),
+    release('v1', { android: counts(60, 5, 30), desktop: counts(70, 6, 30), iphone: counts(40, 5, 20), hardware: counts(40, 5, 20) }),
+  ] };
+
+  test('the page reads the export\'s distinct counts, not the sum of its targets', () => {
+    const m = panelModel(app, { platform: 'android' });
+    assert.deepEqual([m.packages, m.direct, m.directUnknown, m.transitive], [72, 6, 40, 26]);
+    assert.equal(m.repoPackages, 160);
+  });
+
+  test('the history chart uses the same counts', () => {
+    assert.deepEqual(panelModel(app, { platform: 'desktop' }).history.map(h => [h.ref, h.total, h.direct]), [['v1', 70, 6], ['v2', 72, 6]]);
+  });
+
+  test('a page without a list uses the whole release, unknown still apart', () => {
+    const m = panelModel(app);
+    assert.deepEqual([m.packages, m.direct, m.directUnknown, m.transitive], [160, 10, 100, 50]);
+  });
+
+  test('an export without the unknown count reads as before', () => {
+    const m = panelModel({ appId: 'o', releases: [{ ref: 'v1', status: 'ok', dependencies: { total: 9, direct: 1 } }] });
+    assert.deepEqual([m.directUnknown, m.transitive], [0, 8]);
+  });
+});

@@ -1067,6 +1067,7 @@ function notices(model, { triageFailed = false } = {}) {
 function howToRead(model) {
   const parts = [el('b', {}, 'How to read this. ')];
   parts.push('"Direct" dependencies are the packages the wallet imports itself; "transitive" ones arrive through them, and the line under a package name says through which. ');
+  if (model.directUnknown) parts.push(`For ${model.directUnknown} packages the files do not say whether the wallet imports them or they arrive through another package, so they are counted as "unknown", not as transitive. `);
   if (model.unchecked) parts.push('A package "could not be checked" when it has no exact registry version to look up (a version range, a git reference, no version recorded). ');
   parts.push('Results are a snapshot from the check date; new advisories may appear later. ');
   parts.push('A listed advisory is not a defect in the wallet: it says that a version with a published advisory is present, nothing more. Leaving such a version in place can be the right call, when the vulnerable code is never reached or the flaw needs a position an attacker does not have here; that is a decision per advisory. ');
@@ -1148,7 +1149,7 @@ function actions(model, { appId, base, fetchImpl }) {
 export function panelElement(model, { appId, wallet = appId, base = EXPORT_BASE, fetchImpl = globalThis.fetch, onJudge = null, flash = null, freshId = null, showAll = false, trusted = [], expanded = false, onToggle = null, triageFailed = false } = {}) {
   // No lockfile was read (a C/C++ release with only submodules, or a Flutter one): zeros here would read as clean.
   const tiles = !model.packages && (model.submodules || model.status === 'unsupported' || model.notInApp) ? null : el('div', { className: 'dp-tiles' },
-    tile(model.packages, 'dependencies', { sub: `${model.direct} direct · ${model.transitive} transitive`, extra: historyChart(model.history) }),
+    tile(model.packages, 'dependencies', { sub: `${model.direct} direct · ${model.transitive} transitive${model.directUnknown ? ` · ${model.directUnknown} unknown` : ''}`, extra: historyChart(model.history) }),
     vulnerabilityTile(model),
     // rebuilds before malware: the malware count is almost always 0
     rebuildTile(model.rebuilds, model.repoPackages ?? model.packages, tile),
