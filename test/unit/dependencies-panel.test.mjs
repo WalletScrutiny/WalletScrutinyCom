@@ -3,7 +3,8 @@ import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
 import { loadApp, renderDependenciesPanel, liveTriageEvents, triageAuthors, panelElement, usedBy, severityTally, coverageTipLines, historyScale } from '../../src/dependencies-panel.mjs';
-import { panelModel, releaseForVersion, appForListing } from '../../src/dependencies-panel-model.mjs';
+import { panelModel, appForListing } from '../../src/dependencies-panel-model.mjs';
+import { releaseForVersion } from '../../src/build-verifications-model.mjs';
 import { nip19 } from 'nostr-tools';
 import { viaLine, listedByLine, gitFixLine, upstreamUrl } from '../../src/dependencies-panel.mjs';
 

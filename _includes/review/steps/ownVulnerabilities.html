@@ -2,9 +2,9 @@
   "Known vulnerabilities": advisories filed against the wallet's own code (not
   its dependencies, see dependencies.html), for the version reviewed and for
   other versions, from the source analysis export (issue 1022). Painted by
-  renderOwnVulnerabilities (src/own-vulnerabilities.mjs) once the
-  verifications UI bundle is loaded; hidden until the export has looked the
-  wallet up. Separate from the verdict and the score. Parameters: appId,
+  renderOwnVulnerabilities (src/own-vulnerabilities.mjs, in the dependencies
+  panel's chunk) once the verifications UI bundle is loaded; hidden until the
+  export has looked the wallet up. Separate from the verdict and the score. Parameters: appId,
   version.
 {%- endcomment -%}
 {% assign own_vulns_app_id = include.appId | default: page.appId %}

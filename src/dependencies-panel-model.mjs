@@ -160,12 +160,6 @@ export function whereLabel(row) {
 // The tooltip on an "unknown" Where? label.
 export const WHERE_UNKNOWN_TIP = 'The dependency files do not record whether this package ends up in the app, the build tooling or the tests.';
 
-// The digits of a version: "android-v2.8.4" -> "2.8.4", "v1.4.0-beta1" -> "1.4.0-beta1".
-export function versionCore(s) {
-  const m = String(s || '').match(/\d+(?:\.\d+)*(?:[-+.][0-9A-Za-z.]+)?/);
-  return m ? m[0] : '';
-}
-
 // The app file as one listing's page shows it: only the releases reproduced
 // for that app id and platform (a release's `reproducedFor`, export.mjs), or
 // null when there is none. The iPhone page of a wallet reproduced on Android
@@ -176,29 +170,6 @@ export function appForListing(app, appId, platform) {
   if (!releases.some(r => Array.isArray(r.reproducedFor))) return app;
   const mine = releases.filter(r => r.reproducedFor?.some(l => l.appId === appId && l.platform === platform));
   return mine.length ? { ...app, releases: mine } : null;
-}
-
-// True when the export says this release is the one a listing's verified
-// version resolved to (`reproducedFor[].version`, export.mjs).
-export function releaseNamesVersion(release, version) {
-  return Boolean(version) && Array.isArray(release?.reproducedFor) && release.reproducedFor.some(l => l.version === version);
-}
-
-// The analysed release for a version picked in "Every version"
-// (src/build-verifications.mjs), or null when none was analysed. The release
-// the export names for that version wins ("3.21.0-BTC only" -> v3.21.0-btc).
-// Otherwise the version digits must agree; only a plain version ("1.4.0") also
-// takes a tag with a suffix (v1.4.0-android), so a picked beta never shows the
-// final release.
-export function releaseForVersion(app, version) {
-  const releases = Array.isArray(app?.releases) ? app.releases : [];
-  const named = releases.find(r => releaseNamesVersion(r, version));
-  if (named) return named;
-  const core = versionCore(version);
-  if (!core) return null;
-  return releases.find(r => versionCore(r.ref) === core)
-    || (/[-+]/.test(core) ? null : releases.find(r => versionCore(r.ref).split(/[-+]/)[0] === core))
-    || null;
 }
 
 // Public per-CVE signals (scripts/build-advisory-signals.mjs, signals.json):
@@ -437,11 +408,6 @@ export function dependencyHistory(releases = [], currentRef = null, platform = n
     .filter(h => !h.empty)
     .map(({ empty, ...h }) => h)
     .reverse();
-}
-
-// File name the export uses for an app id or release tag (export.mjs safeName).
-export function safeName(s) {
-  return String(s).replace(/[^A-Za-z0-9._+-]/g, '_').replace(/^\.+/, '_') || '_';
 }
 
 // "via npm:@babel/core: vulnerable code never executed" per basis of a decision, for the CSV.

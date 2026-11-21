@@ -2,7 +2,7 @@
 /**
  * Put the source-analysis export (external/source_analysis/export.mjs output:
  * index.json, apps/, packages/) under _site/api/source-analysis/, where the
- * wallet page's Dependencies panel fetches it from (src/dependencies-panel.mjs,
+ * wallet page's Dependencies panel fetches it from (src/source-analysis-export.mjs,
  * EXPORT_BASE). Runs after Jekyll and before the post-processing so the JSON
  * gets its pre-compressed .br copies like everything else.
  *
