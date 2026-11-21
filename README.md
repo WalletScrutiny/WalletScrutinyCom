@@ -65,7 +65,8 @@ npm run build
 
 This runs the pre-Jekyll steps (wallet data, webpack, redirect map) in
 parallel, then Jekyll, then `scripts/postprocess-site.mjs`, which minifies
-html, js and css and writes a `.br` next to every compressible file in one
+html, js and css files (inline scripts and styles inside the pages are left as
+written) and writes a `.br` next to every compressible file in one
 pass over `_site/`. The result can be found in the `_site/` folder, and you
 can upload the content of this folder to your web server. `npm run deploy:prod`
 builds once and runs the unit and E2E tests against that build
