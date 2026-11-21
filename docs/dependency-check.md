@@ -9,7 +9,7 @@ them together and the text behind the panel's "What is this?" link.
 |---|---|---|
 | dependency check step for the reproducible-build scripts | `scripts/rb/ws-depcheck.sh` | `scripts/rb/README.md` |
 | source analysis service: resolves every lockfile of every release, matches OSV.dev, records each analysis, exports static JSON | `external/source_analysis/` | `external/source_analysis/README.md` ("Static export", "Database Schema") |
-| wallet-page panel, painted from the export | `src/dependencies-panel.mjs`, `src/dependencies-panel-model.mjs`, `_includes/review/steps/dependencies.html` | this page; `test/unit/dependencies-panel*.test.mjs` are the executable spec |
+| wallet-page panel, painted from the export | `src/dependencies-panel.mjs`, `src/dependencies-panel-model.mjs`, `_includes/review/steps/dependencies.html`; `src/source-analysis-export.mjs` fetches the panel's chunk for the listings in the export's `index.json` | this page; `test/unit/dependencies-panel*.test.mjs` are the executable spec |
 
 ## What the panel shows
 

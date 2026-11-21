@@ -3,8 +3,9 @@ import assert from 'node:assert/strict';
 
 import {
   upstreamFor,
-  panelModel, versionCore, whereLabel, whereOf, sortAdvisories, uncheckedCount, csvOf, csvCell, notInAppText, sortingLabel, WORST_ROWS,
+  panelModel, whereLabel, whereOf, sortAdvisories, uncheckedCount, csvOf, csvCell, notInAppText, sortingLabel, WORST_ROWS,
 } from '../../src/dependencies-panel-model.mjs';
+import { versionCore } from '../../src/build-verifications-model.mjs';
 import { COUNTED_TARGETS as EXPORT_COUNTED_TARGETS } from '../../external/source_analysis/products.mjs';
 import { COUNTED_TARGETS } from '../../src/dependencies-panel-model.mjs';
 

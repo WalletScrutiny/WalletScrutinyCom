@@ -10,7 +10,35 @@
 
 import { verificationDraftKind } from './nostr-constants.mjs';
 import { getFirstTagValue, getStatusText } from './verifications_common.mjs';
-import { releaseForVersion, versionCore } from './dependencies-panel-model.mjs';
+
+// The digits of a version: "android-v2.8.4" -> "2.8.4", "v1.4.0-beta1" -> "1.4.0-beta1".
+export function versionCore(s) {
+  const m = String(s || '').match(/\d+(?:\.\d+)*(?:[-+.][0-9A-Za-z.]+)?/);
+  return m ? m[0] : '';
+}
+
+// True when the export says this release is the one a listing's verified
+// version resolved to (`reproducedFor[].version`, external/source_analysis/export.mjs).
+export function releaseNamesVersion(release, version) {
+  return Boolean(version) && Array.isArray(release?.reproducedFor) && release.reproducedFor.some(l => l.version === version);
+}
+
+// The analysed release (of an app file of the source analysis export) for a
+// version picked in "Every version", or null when none was analysed. The release
+// the export names for that version wins ("3.21.0-BTC only" -> v3.21.0-btc).
+// Otherwise the version digits must agree; only a plain version ("1.4.0") also
+// takes a tag with a suffix (v1.4.0-android), so a picked beta never shows the
+// final release.
+export function releaseForVersion(app, version) {
+  const releases = Array.isArray(app?.releases) ? app.releases : [];
+  const named = releases.find(r => releaseNamesVersion(r, version));
+  if (named) return named;
+  const core = versionCore(version);
+  if (!core) return null;
+  return releases.find(r => versionCore(r.ref) === core)
+    || (/[-+]/.test(core) ? null : releases.find(r => versionCore(r.ref).split(/[-+]/)[0] === core))
+    || null;
+}
 
 /** A verifier's verdict, the way the app counts it: reproduced, not reproduced, could not build, or something else. */
 export function statusGroup(status) {

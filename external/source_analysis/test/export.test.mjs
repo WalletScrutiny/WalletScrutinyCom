@@ -117,7 +117,7 @@ test('exportAll writes index, app files and dependency lists, atomically replaci
   assert.deepEqual(fs.readdirSync(path.dirname(dir)).filter(n => n.startsWith('.export-')), []);
 
   const index = JSON.parse(fs.readFileSync(path.join(dir, 'index.json'), 'utf8'));
-  assert.deepEqual(index, { schema: 1, apps: [{ appId: 'app.android' }, { appId: 'app.failed' }, { appId: 'app.other' }] });
+  assert.deepEqual(index, { schema: 1, complete: true, apps: [{ appId: 'app.android', aliases: ['app.ios'] }, { appId: 'app.failed', aliases: [] }, { appId: 'app.other', aliases: [] }] });
 
   assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.ios.json'), 'utf8')), { schema: 1, appId: 'app.android', alias: true });
   const app = JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.android.json'), 'utf8'));
@@ -154,6 +154,7 @@ test('exportApp updates one app in place, leaving the rest of the export as it w
   assert.equal(fs.readFileSync(path.join(dir, 'apps', 'app.other.json'), 'utf8'), otherBefore, 'another app waits for the end of the pass');
   const index = JSON.parse(fs.readFileSync(path.join(dir, 'index.json'), 'utf8'));
   assert.deepEqual(index.apps.map(a => a.appId), ['app.android', 'app.failed', 'app.other']);
+  assert.equal(index.complete, true, 'still the full export\'s index');
   assert.equal(JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.other.json'), 'utf8')).releases[0].ref, 'v9');
   assert.deepEqual(fs.readdirSync(path.join(dir, 'apps')).filter(n => n.endsWith('.tmp')), []);
 });
@@ -164,7 +165,7 @@ test('exportApp starts an export when there is none, with the alias stub', () =>
   const result = exportApp(db, dir, 'app.android');
   assert.deepEqual(result.files, ['index.json', 'apps/app.android.json', 'apps/app.android/', 'apps/app.ios.json']);
   assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.ios.json'), 'utf8')), { schema: 1, appId: 'app.android', alias: true });
-  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'index.json'), 'utf8')).apps.map(a => a.appId), ['app.android']);
+  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'index.json'), 'utf8')), { schema: 1, apps: [{ appId: 'app.android', aliases: ['app.ios'] }] }, 'not complete: only a full export knows every file');
 });
 
 test('exportApp leaves an app out of scope alone, and exports one verified under an alias', () => {
@@ -209,6 +210,7 @@ test('exportApp onlyReproducible does not publish a stub for a listing nobody re
   assert.deepEqual(result.files, ['index.json', 'apps/app.android.json', 'apps/app.android/']);
   assert.ok(!fs.existsSync(path.join(dir, 'apps', 'app.hw.json')));
   assert.ok(!fs.existsSync(path.join(dir, 'apps', 'app.ios.json')));
+  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'index.json'), 'utf8')).apps, [{ appId: 'app.android', aliases: [] }], 'the index names no alias without a stub');
 });
 
 test('onlyReproducible: an alias in scope with no release of its own gets the stub (Passport Batch 2)', () => {
@@ -221,7 +223,7 @@ test('onlyReproducible: an alias in scope with no release of its own gets the st
   const result = exportAll(db, dir, { onlyReproducible: true });
   assert.equal(result.apps, 1);
   assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.ios.json'), 'utf8')), { schema: 1, appId: 'app.android', alias: true });
-  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'index.json'), 'utf8')).apps.map(a => a.appId), ['app.android']);
+  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'index.json'), 'utf8')).apps, [{ appId: 'app.android', aliases: ['app.ios'] }]);
 });
 
 test('pagePlatform: verifiers\' platform tags as the wallet page names its platforms', () => {

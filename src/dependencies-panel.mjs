@@ -3,12 +3,14 @@
 // per-app file of its static export. Loaded on demand, one small file per
 // wallet; the full dependency list is only fetched for the CSV download.
 // Measurement only, not part of the verdict, and labelled so.
+// A chunk of its own, fetched by source-analysis-export.mjs for a listing the
+// export covers: nothing here may be imported by a module of the page bundle.
 
 import * as nip19 from 'nostr-tools/nip19';
 import { el } from './html-utils.mjs';
 import { wsIcon } from './icon.mjs';
 import {
-  panelModel, releaseForVersion, releaseNamesVersion, appForListing, whereOf, whereLabel, WHERE_UNKNOWN_TIP, safeName, csvOf, notInAppText, sortingLabel, SEVERITY_ORDER, SEVERITY_LABEL,
+  panelModel, appForListing, whereOf, whereLabel, WHERE_UNKNOWN_TIP, csvOf, notInAppText, sortingLabel, SEVERITY_ORDER, SEVERITY_LABEL,
 } from './dependencies-panel-model.mjs';
 import { TRIAGE_LABEL, JUSTIFICATION_LABEL, DELETION_KIND, triageStateOf, withStatement, mergeLiveTriage, triageForApp, evidenceUrl } from './dependency-triage.mjs';
 import { dependencyTriageKind, mainRelayUrl, eventRelayUrls } from './nostr-constants.mjs';
@@ -18,10 +20,9 @@ import { treeElement } from './dependencies-tree.mjs';
 import { rebuildTile, rebuildsElement, rebuildIndex } from './dependencies-rebuilds.mjs';
 import { epssTrigger, tipTrigger, refreshTip } from './dependencies-epss-tip.mjs';
 import { showAnalysedReleases } from './build-verifications.mjs';
+import { releaseForVersion, releaseNamesVersion } from './build-verifications-model.mjs';
+import { EXPORT_BASE, safeName } from './source-analysis-export.mjs';
 
-// Where the export is served from: the analyser copies it to the web server
-// after each pass (external/source_analysis/publish.mjs), no site build involved.
-export const EXPORT_BASE = (typeof window !== 'undefined' && window.WS_SOURCE_ANALYSIS_BASE) || '/api/source-analysis';
 // The triage statements the site build saw and the trusted list
 // (scripts/build-dependency-triage.mjs); the relay adds the trusted authors' newer ones.
 export const TRIAGE_BASE = (typeof window !== 'undefined' && window.WS_DEPENDENCY_TRIAGE_BASE) || '/api/dependency-triage';
@@ -1539,8 +1540,4 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
     }
   }
   return model;
-}
-
-if (typeof window !== 'undefined') {
-  window.renderDependenciesPanel = renderDependenciesPanel;
 }

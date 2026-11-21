@@ -4,9 +4,11 @@
 // the source analysis export (own-vulnerabilities-model.mjs); the step stays
 // hidden unless an advisory affects the reviewed version, so a clean wallet
 // adds nothing to the page. Not part of the verdict.
+// Shares the dependencies panel's chunk (source-analysis-export.mjs).
 import { el } from './html-utils.mjs';
 import { wsIcon } from './icon.mjs';
-import { loadApp, EXPORT_BASE } from './dependencies-panel.mjs';
+import { loadApp } from './dependencies-panel.mjs';
+import { EXPORT_BASE } from './source-analysis-export.mjs';
 import { SEVERITY_LABEL } from './dependencies-panel-model.mjs';
 import { ownVulnerabilitiesModel, fixedText, cveOf } from './own-vulnerabilities-model.mjs';
 
@@ -60,8 +62,4 @@ export async function renderOwnVulnerabilities({ host, appId, version = null, ba
   const step = host.closest('.own-vulnerabilities-step');
   if (step) step.hidden = false;
   return model;
-}
-
-if (typeof window !== 'undefined') {
-  window.renderOwnVulnerabilities = renderOwnVulnerabilities;
 }
