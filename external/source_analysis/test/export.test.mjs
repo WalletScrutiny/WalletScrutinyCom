@@ -53,7 +53,7 @@ test('buildApp: releases newest first with summary, advisories and diff, nothing
   const written = JSON.parse(JSON.stringify(latest));
   assert.deepEqual(Object.keys(app), ['schema', 'appId', 'aliases', 'releases']);
   assert.deepEqual(Object.keys(written), ['ref', 'commit', 'analysedAt', 'status', 'lockfiles', 'osv', 'dependencies', 'vulnerabilities', 'advisories', 'diffFrom']);
-  assert.deepEqual(Object.keys(written.dependencies), ['total', 'direct', 'byScope', 'byEcosystem', 'lockfiles', 'sorting']);
+  assert.deepEqual(Object.keys(written.dependencies), ['total', 'direct', 'directUnknown', 'byScope', 'byEcosystem', 'lockfiles', 'sorting']);
   assert.deepEqual(Object.keys(written.vulnerabilities), ['bySeverity', 'byScope']);
   assert.deepEqual(Object.keys(written.advisories[0]), ['id', 'severity', 'aliases', 'summary', 'ecosystem', 'package', 'version', 'fixed', 'listedBy', 'direct', 'scope', 'dependants', 'products', 'productsSameVersion']);
   assert.deepEqual(written.advisories[0].listedBy, ['osv']);
@@ -529,7 +529,11 @@ test('buildApp: counts per target and advisory targets, only for a wallet on the
   assert.equal(release.dependencies.byTarget.shared.total, 2);
   assert.equal(release.dependencies.byTarget.shared.direct, 1);
   assert.deepEqual(release.dependencies.byTarget.desktop.byEcosystem, { npm: 2 });
-  assert.equal(release.dependencies.total, 5, 'the whole repository still adds up');
+  assert.equal(release.dependencies.total, 4, 'c is in two files and counts once');
+  assert.deepEqual(Object.keys(release.dependencies.byPlatform), ['android', 'iphone', 'desktop', 'hardware']);
+  assert.deepEqual([release.dependencies.byPlatform.android.total, release.dependencies.byPlatform.android.direct], [3, 1], 'shared a and c, android d');
+  assert.deepEqual(release.dependencies.byPlatform.android.byScope, { app: 2, build: 1, tests: 0, unknown: 0 }, 'c is only a build tool in the shared file');
+  assert.deepEqual(release.dependencies.byPlatform.desktop.byScope, { app: 3, build: 0, tests: 0, unknown: 0 }, 'c ships in the desktop app');
   assert.deepEqual(release.advisories.map(a => [a.package, a.targets]), [['a', undefined], ['b', ['desktop']], ['c', ['desktop', 'shared']]]);
   assert.deepEqual(release.dependencies.onlyOutside, { android: 1, iphone: 2, desktop: 1, hardware: 2 }, 'c is in a shared file, so it is in the app');
   assert.deepEqual(release.advisories.find(a => a.package === 'c').scopes, { desktop: 'app', shared: 'build' });
@@ -581,4 +585,41 @@ test('Where?: a rule that contradicts the folder guess takes the label off rows 
   const deps = JSON.parse(fs.readFileSync(path.join(dir, 'apps', id, 'v1', 'dependencies.json'), 'utf8')).dependencies;
   assert.deepEqual(deps.map(d => [d.name, d.part]).sort(), [['a', undefined], ['b', 'desktop']]);
   fs.rmSync(dir, { recursive: true, force: true });
+});
+
+test('buildApp: each package counts once, direct before unknown before transitive (issue 1027)', () => {
+  const db = initDatabase(':memory:');
+  const row = (ecosystem, name, version, lockfile, extra = {}) => ({ ecosystem, lockfile, name, version, resolved: '', integrity: '', direct: false, dev: false, tier: 'hash-pinned', ...extra });
+  saveDependencies(db, 'app.pip', 'v1', [
+    { ecosystem: 'pip', entries: [
+      // one package under three spellings: PEP 503 folds case, `_`, `.` and extras
+      row('pip', 'pyproject_hooks', '1.2.0', 'a.txt', { direct: null }),
+      row('pip', 'Pyproject.Hooks', '1.2.0', 'b.txt', { direct: true }),
+      row('pip', 'pyproject-hooks[cli]', '1.2.0', 'c.txt'),
+      // transitive in one file, unknown in another: unknown
+      row('pip', 'tomli', '2.0.2', 'a.txt', { direct: null }),
+      row('pip', 'tomli', '2.0.2', 'b.txt'),
+      // versions are not folded: two packages
+      row('pip', 'six', '1.0', 'a.txt'),
+      row('pip', 'six', '1.0.0', 'b.txt'),
+      // a build row and an unknown-scope row: unknown; tests and build: build
+      row('pip', 'wheel', '0.45.1', 'a.txt', { scope: 'build' }),
+      row('pip', 'wheel', '0.45.1', 'b.txt', { dev: null }),
+      row('pip', 'pytest', '8.0.0', 'a.txt', { scope: 'tests' }),
+      row('pip', 'pytest', '8.0.0', 'b.txt', { scope: 'build' }),
+    ] },
+    // other ecosystems keep their names as stored
+    { ecosystem: 'gradle', entries: [
+      row('gradle', 'org.Foo:bar', '1.0', 'build.gradle'),
+      row('gradle', 'org.foo:bar', '1.0', 'build.gradle'),
+    ] },
+  ]);
+  recordAnalysis(db, { appId: 'app.pip', kind: 'release', ref: 'v1', status: 'ok', analyser: 't' });
+  const [release] = buildApp(db, 'app.pip').releases;
+  const c = release.dependencies;
+  assert.equal(c.total, 8, 'pyproject-hooks, tomli, six twice, wheel, pytest, two gradle names');
+  assert.equal(c.direct, 1, 'pyproject-hooks: one direct row wins');
+  assert.equal(c.directUnknown, 1, 'tomli');
+  assert.deepEqual(c.byScope, { app: 6, build: 1, tests: 0, unknown: 1 });
+  assert.deepEqual(c.byEcosystem, { gradle: 2, pip: 6 });
 });

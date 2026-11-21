@@ -23,6 +23,9 @@ export const GROUPS = [
 ];
 
 export const UNREACHABLE_LABEL = 'Not reachable from a direct dependency';
+// Rows whose files do not say direct or transitive (issue 1027), and what only they reach.
+export const UNDECIDED = 'undecided';
+export const UNDECIDED_LABEL = 'Direct or transitive not known';
 export const THIS_APP = 'this';
 export const THIS_APP_LABEL = 'In this app';
 export const OTHER_PRODUCTS_LABEL = 'Other products';
@@ -55,7 +58,7 @@ export function buildTree(dependencies = [], advisories = [], { productOf = null
     if (!d || !d.name) continue;
     const key = nodeKey(d);
     if (nodes.has(key)) continue; // identical coordinates twice: one node
-    const node = { key, row: d, name: d.name, version: d.version || '', ecosystem: d.ecosystem, lockfile: d.lockfile, scope: scopeOf(d), product: productIn(d), direct: d.direct === true, advisories: [], repo: null, children: [], parents: [] };
+    const node = { key, row: d, name: d.name, version: d.version || '', ecosystem: d.ecosystem, lockfile: d.lockfile, scope: scopeOf(d), product: productIn(d), direct: d.direct === true, directUnknown: d.direct === null, advisories: [], repo: null, children: [], parents: [] };
     nodes.set(key, node);
     const nk = `${d.ecosystem}\u0000${d.lockfile}\u0000${d.name}`;
     if (!versionsOf.has(nk)) versionsOf.set(nk, []);
@@ -90,15 +93,33 @@ export function buildTree(dependencies = [], advisories = [], { productOf = null
 
   const roots = [...nodes.values()].filter(n => n.direct).sort(byName);
 
-  // Whatever no direct dependency reaches (parents unnamed or missing): said, not hidden.
+  // Walks down from `start`, marking every node it reaches.
   const reached = new Set();
-  const stack = [...roots];
-  while (stack.length) {
-    const n = stack.pop();
+  const walk = (start) => {
+    const stack = [...start];
+    while (stack.length) {
+      const n = stack.pop();
+      if (reached.has(n.key)) continue;
+      reached.add(n.key);
+      for (const c of n.children) stack.push(c.node);
+    }
+  };
+  walk(roots);
+  // A row whose files do not say whether it is direct heads its own group, with
+  // what it pulls in; a direct dependency that reaches it places it first.
+  // Those without parents go first, so one that another such row pulls in is
+  // listed under it, not twice.
+  const undecided = [];
+  const heads = [...nodes.values()].filter(n => n.directUnknown && !reached.has(n.key))
+    .sort((a, b) => (a.parents.length > 0) - (b.parents.length > 0) || byName(a, b));
+  for (const n of heads) {
     if (reached.has(n.key)) continue;
-    reached.add(n.key);
-    for (const c of n.children) stack.push(c.node);
+    n.undecidedRoot = true;
+    undecided.push(n);
+    walk([n]);
   }
+  undecided.sort(byName);
+  // Whatever neither reaches (parents unnamed or missing): said, not hidden.
   const unreachable = [...nodes.values()].filter(n => !reached.has(n.key)).sort(byName);
 
   // A parent is in the child's lockfile, so a product's packages reach only its own:
@@ -111,10 +132,11 @@ export function buildTree(dependencies = [], advisories = [], { productOf = null
     label: id === THIS_APP ? THIS_APP_LABEL : TARGET_LABELS[id] || id,
     total: sizes.get(id),
     groups: GROUPS.map(g => ({ ...g, roots: roots.filter(n => n.product === id && n.scope === g.scope) })).filter(g => g.roots.length),
+    undecided: undecided.filter(n => n.product === id),
     unreachable: unreachable.filter(n => n.product === id),
   }));
 
-  return { nodes, products, unreachable, missingParents, total: nodes.size };
+  return { nodes, products, undecided, unreachable, missingParents, total: nodes.size };
 }
 
 // A node's children given the keys on the way down to it; a child already on
@@ -124,10 +146,13 @@ export function childrenOf(node, path = []) {
 }
 
 // Where the view opens a package: its product, the group of the direct
-// dependency at the top of one shortest path (or "unreachable"), and that path.
+// dependency at the top of one shortest path, else the undecided group of the
+// row at the top of one (or "unreachable"), and that path.
 export function placeOf(node) {
   const chain = pathTo(node);
-  return { product: node.product, group: chain ? chain[0].scope : 'unreachable', chain };
+  if (chain) return { product: node.product, group: chain[0].scope, chain };
+  const undecided = pathTo(node, n => n.undecidedRoot);
+  return { product: node.product, group: undecided ? UNDECIDED : 'unreachable', chain: undecided };
 }
 
 // Packages whose name or advisory id contains `query` (case-insensitive), in the
@@ -156,10 +181,10 @@ export function searchNodes(tree, query, visible = () => true) {
   };
 }
 
-// One shortest chain of nodes from a direct dependency down to `node`
-// (breadth-first up the parents), or null when no direct dependency reaches it.
-export function pathTo(node) {
-  if (node.direct) return [node];
+// One shortest chain of nodes from a direct dependency (or what `isTop` names)
+// down to `node`, breadth-first up the parents; null when none reaches it.
+export function pathTo(node, isTop = n => n.direct) {
+  if (isTop(node)) return [node];
   const seen = new Set([node.key]);
   let frontier = [[node]];
   while (frontier.length) {
@@ -169,7 +194,7 @@ export function pathTo(node) {
         if (seen.has(parent.key)) continue;
         seen.add(parent.key);
         const up = [parent, ...chain];
-        if (parent.direct) return up;
+        if (isTop(parent)) return up;
         next.push(up);
       }
     }

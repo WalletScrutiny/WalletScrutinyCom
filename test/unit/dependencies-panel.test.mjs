@@ -350,6 +350,13 @@ describe('dependencies panel', () => {
     assert.equal(node.querySelector('tbody tr .dp-eco').textContent, 'npm');
   });
 
+  test('packages whose files do not say direct or transitive are counted apart (issue 1027)', () => {
+    const unknown = { ...APP, releases: [{ ...APP.releases[0], dependencies: { ...APP.releases[0].dependencies, directUnknown: 72 } }] };
+    const node = panelElement(panelModel(unknown), { appId: 'app.android', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl: async () => null });
+    assert.equal(node.querySelector('.dp-tile .dp-tile__sub').textContent, '40 direct · 300 transitive · 72 unknown');
+    assert.match(node.textContent, /For 72 packages the files do not say whether the wallet imports them/);
+  });
+
   test('panelElement without advisories has no table and green tiles', () => {
     const clean = { ...APP, releases: [{ ...APP.releases[0], advisories: [], vulnerabilities: { bySeverity: {} }, diffFrom: null }] };
     const node = panelElement(panelModel(clean), { appId: 'app.android', base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl: async () => null });

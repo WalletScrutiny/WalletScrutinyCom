@@ -31,6 +31,7 @@ import { hintsByApp } from './upstreamTriage.mjs';
 import { coverageForReaders, coverageByPlatform } from './plugins/lock-coverage.mjs';
 import { buildLockForReaders } from './plugins/build-lock.mjs';
 import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, getBackportedAdvisories, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getVerifiedRefs, getEndOfLife, getSubmodules, getRebuildClaims, getOssRebuildDetails, getDefaultBranch, getOwnAdvisories, DEFAULT_BRANCH_REF } from './ddbbUtils.mjs';
+import { packageKey } from './packageKey.mjs';
 import { COUNTED_TARGETS, partOfFile, productPartOf, sortingOf, targetOfLockfile, targetsOfLockfiles, unlistedFiles, useRepositories } from './products.mjs';
 import { readSignals, signalsOf } from './signals.mjs';
 import { ossRebuildUrl } from './rebuildClaims.mjs';
@@ -110,19 +111,44 @@ function submoduleRow({ depth, buildRefs, childrenError, ...r }) {
   return out;
 }
 
-// The counts the wallet page shows for a set of dependency rows.
+// Which of a package's rows wins when its files disagree (issue 1027). Any
+// direct row makes it direct; otherwise one row whose files do not say keeps it
+// unknown, so a package is transitive only when every row says so.
+const DIRECT_RANK = ['direct', 'unknown', 'transitive'];
+const directOfRow = d => (d.direct === 1 ? 'direct' : d.direct === 0 ? 'transitive' : 'unknown');
+// The same for where it ends up: in the app if any row is, unknown before a
+// build or test row, and build before tests only when every row is known.
+const COUNT_SCOPE_RANK = ['app', 'unknown', 'build', 'tests'];
+
+const better = (rank, x, y) => (y === undefined || rank.indexOf(x) < rank.indexOf(y) ? x : y);
+
+// The counts the wallet page shows for a set of dependency rows: each package
+// once (packageKey.mjs), however many files list it. The database keeps one
+// row per file; only the counts are distinct.
 function dependencyCounts(deps) {
+  const packages = new Map();
+  for (const d of deps) {
+    const key = packageKey(d.ecosystem, d.name, d.dep_version);
+    const p = packages.get(key) || { ecosystem: d.ecosystem };
+    p.direct = better(DIRECT_RANK, directOfRow(d), p.direct);
+    p.scope = better(COUNT_SCOPE_RANK, scopeOfRow(d), p.scope);
+    packages.set(key, p);
+  }
+  const all = [...packages.values()];
+  const count = test => all.filter(test).length;
   return {
-    total: deps.length,
-    direct: deps.filter(d => d.direct === 1).length,
+    total: all.length,
+    direct: count(p => p.direct === 'direct'),
+    // neither direct nor transitive: the files do not say (pip freeze files, build locks)
+    directUnknown: count(p => p.direct === 'unknown'),
     // where the packages end up, from the lockfile graph: app / build / tests / unknown
-    byScope: Object.fromEntries(['app', 'build', 'tests', 'unknown'].map(s => [s, deps.filter(d => scopeOfRow(d) === s).length])),
-    byEcosystem: Object.fromEntries([...new Set(deps.map(d => d.ecosystem))].sort().map(e => [e, deps.filter(d => d.ecosystem === e).length])),
+    byScope: Object.fromEntries(['app', 'build', 'tests', 'unknown'].map(s => [s, count(p => p.scope === s)])),
+    byEcosystem: Object.fromEntries([...new Set(all.map(p => p.ecosystem))].sort().map(e => [e, count(p => p.ecosystem === e)])),
   };
 }
 
-// The same counts per target (products.mjs), for a page that counts only its
-// own app's files; undefined when the repository has only shared files.
+// The same counts per target (products.mjs), for the files left out of a
+// page; undefined when the repository has only shared files.
 function countsByTarget(deps, appId) {
   const rows = new Map();
   for (const d of deps) {
@@ -134,11 +160,21 @@ function countsByTarget(deps, appId) {
   return Object.fromEntries([...rows].sort(([x], [y]) => x.localeCompare(y)).map(([t, r]) => [t, dependencyCounts(r)]));
 }
 
+// The counts each page shows, over the targets it counts as its own app
+// (COUNTED_TARGETS): a package in the shared and the android files is one
+// package on the Android page, so these are not the sum of byTarget.
+function countsByPlatform(deps, appId) {
+  const targets = deps.map(d => targetOfLockfile(d.lockfile, appId));
+  return Object.fromEntries(Object.entries(COUNTED_TARGETS).map(([platform, counted]) => (
+    [platform, dependencyCounts(deps.filter((_, i) => counted.includes(targets[i])))]
+  )));
+}
+
 // Per page, the libraries found only in files it does not count: the same
 // library in the app's own files and the desktop app's is in the app.
 function librariesOnlyOutside(deps, appId) {
   const targets = deps.map(d => targetOfLockfile(d.lockfile, appId));
-  const key = d => `${d.ecosystem}:${d.name}@${d.dep_version}`;
+  const key = d => packageKey(d.ecosystem, d.name, d.dep_version);
   return Object.fromEntries(Object.entries(COUNTED_TARGETS).map(([platform, counted]) => {
     const inside = new Set(deps.filter((_, i) => counted.includes(targets[i])).map(key));
     return [platform, new Set(deps.filter((d, i) => !counted.includes(targets[i]) && !inside.has(key(d))).map(key)).size];
@@ -170,6 +206,7 @@ export function summarizeRelease(db, appId, ref) {
       ...dependencyCounts(deps),
       lockfiles: [...new Set(deps.map(d => d.lockfile))].sort(),
       byTarget,
+      byPlatform: byTarget ? countsByPlatform(deps, appId) : undefined,
       onlyOutside: byTarget ? librariesOnlyOutside(deps, appId) : undefined,
       // files that look like another product's but nobody has checked; still counted
       unlisted: unlisted.length ? unlisted : undefined,

@@ -9,7 +9,7 @@
 import { el } from './html-utils.mjs';
 import { whereLabel, WHERE_UNKNOWN_TIP, SEVERITY_ORDER, SEVERITY_LABEL } from './dependencies-panel-model.mjs';
 import { rebuildBadge, rebuildKey } from './dependencies-rebuilds.mjs';
-import { buildTree, childrenOf, searchNodes, GROUPS, UNREACHABLE_LABEL, MAX_MATCHES, THIS_APP, THIS_APP_LABEL, OTHER_PRODUCTS_LABEL } from './dependencies-tree-model.mjs';
+import { buildTree, childrenOf, searchNodes, GROUPS, UNREACHABLE_LABEL, UNDECIDED, UNDECIDED_LABEL, MAX_MATCHES, THIS_APP, THIS_APP_LABEL, OTHER_PRODUCTS_LABEL } from './dependencies-tree-model.mjs';
 
 const OSV_URL = 'https://osv.dev/vulnerability/';
 
@@ -169,13 +169,14 @@ export function treeElement({ dependencies, advisories = [], wallet, rebuilds = 
 
   function groupsShown(product) {
     const shown = product.groups.filter(g => visible(product.id, g.scope)).map(g => ({ id: groupId(product.id, g.scope), label: g.label, roots: g.roots }));
+    if (product.undecided.length && visible(product.id, UNDECIDED)) shown.push({ id: groupId(product.id, UNDECIDED), label: UNDECIDED_LABEL, roots: product.undecided });
     if (product.unreachable.length && visible(product.id, 'unreachable')) shown.push({ id: groupId(product.id, 'unreachable'), label: UNREACHABLE_LABEL, roots: product.unreachable });
     return shown;
   }
 
   const groupsOf = (product, level) => groupsShown(product).map(g => groupItem(g.id, g.label, g.roots, level));
 
-  const shows = product => visible(product.id, 'unreachable') || product.groups.some(g => visible(product.id, g.scope));
+  const shows = product => visible(product.id, 'unreachable') || visible(product.id, UNDECIDED) || product.groups.some(g => visible(product.id, g.scope));
 
   function paint() {
     const focused = document.activeElement?.closest?.('[data-id]')?.dataset?.id;
@@ -202,6 +203,7 @@ export function treeElement({ dependencies, advisories = [], wallet, rebuilds = 
   // The menu names every group this app has; another product is one entry with all its groups.
   const groupOptions = (p, prefix) => [
     ...GROUPS.filter(g => p.groups.some(x => x.scope === g.scope)).map(g => el('option', { value: groupId(p.id, g.scope) }, `${prefix}${g.label}`)),
+    p.undecided.length ? el('option', { value: groupId(p.id, UNDECIDED) }, `${prefix}${UNDECIDED_LABEL}`) : null,
     p.unreachable.length ? el('option', { value: groupId(p.id, 'unreachable') }, `${prefix}${UNREACHABLE_LABEL}`) : null,
   ];
   const scopeOptions = !split ? tree.products.flatMap(p => groupOptions(p, '')) : [
@@ -273,6 +275,7 @@ export function treeElement({ dependencies, advisories = [], wallet, rebuilds = 
   });
 
   const limits = [];
+  if (tree.undecided.length) limits.push(`${tree.undecided.length} packages are listed under "${UNDECIDED_LABEL}": their files do not say whether the wallet imports them, so they are neither under a direct dependency nor counted as transitive.`);
   if (tree.unreachable.length) limits.push(`${tree.unreachable.length} packages are listed under "${UNREACHABLE_LABEL}": the files name no parent for them, or the parent they name is not in the lockfile${tree.missingParents ? ` (${tree.missingParents} such references)` : ''}.`);
 
   // A tree with a single group opens it: there is nothing to choose between.
