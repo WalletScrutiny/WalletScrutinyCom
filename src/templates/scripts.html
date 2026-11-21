@@ -38,6 +38,7 @@ const bundlePath = (prefix) => {
     shareUiSrc: '{{ site.baseurl }}/dist/<%= bundlePath('share_ui') %>',
     opinionsUiSrc: '{{ site.baseurl }}/dist/<%= bundlePath('opinions_ui') %>',
     opinionsModerationSrc: '{{ site.baseurl }}/dist/<%= bundlePath('opinions_moderation') %>',
+    dependenciesCssSrc: '{{ site.baseurl }}/assets/css/dependencies-steps.css?v={{ 'assets/css/dependencies-steps.scss' | sass_digest }}',
     loadVerificationsUi: {% if load_verifications_ui %}true{% else %}false{% endif %},
     loadOpinionsUi: {% if page.layout contains "review" %}true{% else %}false{% endif %},
     loadOpinionsModeration: {% if page.opinions_moderation %}true{% else %}false{% endif %},

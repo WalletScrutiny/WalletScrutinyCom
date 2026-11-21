@@ -6,11 +6,19 @@
 @use "notifications";
 @use "verifications";
 @use "build-verifications";
-@use "dependencies-panel";
-@use "own-vulnerabilities";
 @use "vuln-news";
 @use "build-log";
 @use "user-profile";
+
+// The "Dependencies" and "Known vulnerabilities" steps of a wallet page stay
+// hidden until their script paints them. The rest of their styles is
+// assets/css/dependencies-steps.scss, linked only where they are painted.
+.dependencies-step[hidden],
+.dependencies-panel[hidden],
+.own-vulnerabilities-step[hidden],
+.own-vulnerabilities[hidden] {
+  display: none;
+}
 
 // START Verdicts
 {% for verdict in site.data.verdicts %}

@@ -1,9 +1,9 @@
 // The wallet page's two steps painted from the source analysis export
 // (external/source_analysis/export.mjs): "Dependencies" and "Known
 // vulnerabilities". Some fifty listings have an export, so the code of both
-// steps is a chunk of its own, fetched once the export's index.json names the
-// listing. Every other listing downloads neither the chunk nor asks for an
-// app file that is not there.
+// steps is a chunk of its own, and so are their styles, both fetched once the
+// export's index.json names the listing. Every other listing downloads
+// neither nor asks for an app file that is not there.
 
 // Where the export is served from: the analyser copies it to the web server
 // after each pass (external/source_analysis/publish.mjs), no site build involved.
@@ -63,19 +63,40 @@ function loadSteps(load) {
   });
 }
 
+// The steps' stylesheet (assets/css/dependencies-steps.scss), linked once.
+// Resolves to whether it is there: a step is not painted unstyled. Its URL
+// comes with the page (src/templates/scripts.html).
+let stylesLinked = null;
+function linkStyles() {
+  const href = typeof window !== 'undefined' && window.wsLoader?.dependenciesCssSrc;
+  if (!href) return Promise.resolve(true);
+  stylesLinked ??= new Promise((resolve) => {
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = href;
+    link.onload = () => resolve(true);
+    link.onerror = () => {
+      console.warn('Source analysis steps: stylesheet not reachable');
+      resolve(false);
+    };
+    document.head.appendChild(link);
+  });
+  return stylesLinked;
+}
+
 // What the step includes call (_includes/review/steps/dependencies.html and
 // ownVulnerabilities.html). Both resolve to null without painting when the
 // listing has no export.
 export async function renderDependenciesPanel(options = {}) {
   if (!options.host || !options.appId || !(await hasExport(options.appId, options))) return null;
-  const panel = await loadSteps(() => import(/* webpackChunkName: "dependencies-panel" */ './dependencies-panel.mjs'));
-  return panel ? panel.renderDependenciesPanel(options) : null;
+  const [panel, styled] = await Promise.all([loadSteps(() => import(/* webpackChunkName: "dependencies-panel" */ './dependencies-panel.mjs')), linkStyles()]);
+  return panel && styled ? panel.renderDependenciesPanel(options) : null;
 }
 
 export async function renderOwnVulnerabilities(options = {}) {
   if (!options.host || !options.appId || !(await hasExport(options.appId, options))) return null;
-  const step = await loadSteps(() => import(/* webpackChunkName: "dependencies-panel" */ './own-vulnerabilities.mjs'));
-  return step ? step.renderOwnVulnerabilities(options) : null;
+  const [step, styled] = await Promise.all([loadSteps(() => import(/* webpackChunkName: "dependencies-panel" */ './own-vulnerabilities.mjs')), linkStyles()]);
+  return step && styled ? step.renderOwnVulnerabilities(options) : null;
 }
 
 if (typeof window !== 'undefined') {

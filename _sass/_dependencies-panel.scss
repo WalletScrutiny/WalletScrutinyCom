@@ -1,19 +1,14 @@
 @use "type-scale" as *;
 
 /* Wallet page "Dependencies": what the source analysis found in the release's lockfiles.
-   Same box language as the Build Verifications panel next to it. */
-
-.dependencies-step[hidden] {
-  display: none;
-}
+   Same box language as the Build Verifications panel next to it.
+   Not in site-styles.css: a stylesheet of its own (assets/css/dependencies-steps.scss)
+   that src/source-analysis-export.mjs links on the listings the export covers. What
+   keeps the step hidden until then is in assets/css/site-styles.scss. */
 
 .dependencies-panel {
   margin-top: 8px;
   min-width: 0;
-
-  &[hidden] {
-    display: none;
-  }
 }
 
 .dp-panel {
@@ -1280,32 +1275,7 @@ a.dp-signer {
   margin-top: 8px;
 }
 
-.dp-sev {
-  display: inline-block;
-  font-size: $font-xxs;
-  font-weight: 700;
-  border-radius: 999px;
-  padding: 1px 8px;
-  color: #fff;
-  background: var(--neutral-3);
-
-  &--malicious,
-  &--critical {
-    background: #7b1e1e;
-  }
-
-  &--high {
-    background: #c0392b;
-  }
-
-  &--moderate {
-    background: #d68910;
-  }
-
-  &--low {
-    background: #5d6d7e;
-  }
-}
+// .dp-sev, the severity pill, is in _vuln-news.scss: /news/ draws it too.
 
 .dp-where {
   display: inline-block;

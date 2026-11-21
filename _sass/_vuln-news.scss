@@ -1,8 +1,37 @@
 @use "type-scale" as *;
 
 /* /news/: advisories of the last 14 days and the wallets they hit
-   (assets/js/vulnerabilityNews.js). Severity pills are .dp-sev from the
-   dependencies panel. */
+   (assets/js/vulnerabilityNews.js). */
+
+// The severity pill of this page and of the dependencies panel. Here, in the
+// stylesheet every page has, because the panel's own one
+// (_dependencies-panel.scss) is only linked on wallet pages with an analysis.
+.dp-sev {
+  display: inline-block;
+  font-size: $font-xxs;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 1px 8px;
+  color: #fff;
+  background: var(--neutral-3);
+
+  &--malicious,
+  &--critical {
+    background: #7b1e1e;
+  }
+
+  &--high {
+    background: #c0392b;
+  }
+
+  &--moderate {
+    background: #d68910;
+  }
+
+  &--low {
+    background: #5d6d7e;
+  }
+}
 
 // Phones: the title sits as high, and about as big, as on the homepage.
 @media (max-width: 640px) {
