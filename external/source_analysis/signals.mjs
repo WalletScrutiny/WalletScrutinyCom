@@ -21,10 +21,17 @@
  * fail the pass: the file is then written without that part, or not at all
  * (the export keeps the previous pass's file), and the panel shows no signal
  * for what is missing. SOURCE_ANALYSIS_SIGNALS=off skips the step.
+ *
+ * A wallet page needs only its own wallet's part, so each app file carries
+ * it as `signals` (signalsOf): export.mjs writes it from the signals.json at
+ * hand, and embedSignals rewrites the app files a new signals.json changes
+ * it for. signals.json stays the whole list: news.mjs joins it with the app
+ * files, and a page whose app file has no `signals` yet still asks for it.
  */
 
-import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync, renameSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
+import { isDeepStrictEqual } from 'node:util';
 import { DB_PATH } from './config.mjs';
 
 export const EPSS_URL = 'https://api.first.org/data/v1/epss';
@@ -142,6 +149,53 @@ export async function fetchKev(cves, { fetchImpl = globalThis.fetch, url = KEV_U
   return { kev, catalogVersion: body?.catalogVersion || null, catalogSize: body?.count ?? null };
 }
 
+// signals.json of an export, or null when it has none or it cannot be read.
+export function readSignals(exportDir) {
+  try {
+    const doc = JSON.parse(readFileSync(join(exportDir, 'signals.json'), 'utf8'));
+    return doc && typeof doc === 'object' ? doc : null;
+  } catch {
+    return null;
+  }
+}
+
+// What `signals` (signals.json) says about the advisories in `releases`, ids
+// and aliases: the same shape, without the other wallets' entries. A part a
+// failing feed left out stays out. null without signals: the page then knows
+// there are none and does not ask for signals.json.
+export function signalsOf(signals, releases) {
+  if (!signals) return null;
+  const ids = advisoryIdsOf(releases);
+  const mine = part => (part ? Object.fromEntries(Object.entries(part).filter(([id]) => ids.has(id))) : undefined);
+  return { date: signals.date, epss: mine(signals.epss), kev: mine(signals.kev), published: mine(signals.published) };
+}
+
+// Writes each app's part of `signals` into its app file, for the files where
+// it changed (a new advisory's EPSS, a new day's values). Returns their
+// paths relative to exportDir, for whoever publishes single files.
+export function embedSignals(exportDir, signals = readSignals(exportDir)) {
+  const appsDir = join(exportDir, 'apps');
+  const changed = [];
+  if (!signals || !existsSync(appsDir)) return changed;
+  for (const name of readdirSync(appsDir).filter(f => f.endsWith('.json')).sort()) {
+    const file = join(appsDir, name);
+    let doc;
+    try {
+      doc = JSON.parse(readFileSync(file, 'utf8'));
+    } catch {
+      continue;
+    }
+    if (!doc || doc.alias || !Array.isArray(doc.releases)) continue;
+    const mine = JSON.parse(JSON.stringify(signalsOf(signals, doc.releases)));
+    if (isDeepStrictEqual(doc.signals, mine)) continue;
+    const tmp = `${file}.${process.pid}.tmp`;
+    writeFileSync(tmp, JSON.stringify({ ...doc, signals: mine }));
+    renameSync(tmp, file);
+    changed.push(`apps/${name}`);
+  }
+  return changed;
+}
+
 function readCache(file) {
   if (!file || !existsSync(file)) return {};
   try {
@@ -155,7 +209,8 @@ function readCache(file) {
 export async function buildSignals({ exportDir, fetchImpl = globalThis.fetch, now = new Date(), log = console, publishedCache = PUBLISHED_CACHE } = {}) {
   const cves = collectCves(join(exportDir, 'apps'));
   const ids = collectAdvisoryIds(join(exportDir, 'apps'));
-  const result = { cves: cves.size, epss: 0, kev: 0, published: 0, written: false, failed: [] };
+  // embedded: the app files whose `signals` the new signals.json changed
+  const result = { cves: cves.size, epss: 0, kev: 0, published: 0, written: false, embedded: [], failed: [] };
   if (!ids.size) return result;
   const out = { schema: 1, date: now.toISOString().slice(0, 10) };
   const cache = readCache(publishedCache);
@@ -188,6 +243,7 @@ export async function buildSignals({ exportDir, fetchImpl = globalThis.fetch, no
   if (out.epss || out.kev || out.published) {
     writeFileSync(join(exportDir, 'signals.json'), JSON.stringify(out));
     result.written = true;
+    result.embedded = embedSignals(exportDir, out);
   }
   return result;
 }

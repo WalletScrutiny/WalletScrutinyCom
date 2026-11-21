@@ -92,9 +92,12 @@ export async function refreshAdvisories(db, { exportDir = null, onlyReproducible
     }
     if (files.size) {
       // EPSS, CISA's exploited list and publication dates for the new advisories;
-      // a failing feed keeps the previous signals.json.
+      // a failing feed keeps the previous signals.json. The app files carry
+      // their part of it, so the ones it changed go along.
       try {
-        if ((await signals({ exportDir, log })).written) files.add('signals.json');
+        const s = await signals({ exportDir, log });
+        if (s.written) files.add('signals.json');
+        for (const f of s.embedded || []) files.add(f);
       } catch (error) {
         log.warn(`advisory signals: ${error.message}`);
       }

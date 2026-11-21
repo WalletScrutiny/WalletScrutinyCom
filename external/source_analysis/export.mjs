@@ -5,7 +5,8 @@
 // small at the top and detailed below, so a reader fetches only what it shows:
 //
 //   index.json                          the exported app ids, each with the alias ids that have a stub (exportApp keeps it current); `complete` when exportAll wrote it
-//   apps/<appId>.json                   all analyses of one app, with advisories (each with how many products ship the package) and the diff to the previous release
+//   apps/<appId>.json                   all analyses of one app, with advisories (each with how many products ship the package) and the diff to the previous release;
+//                                       `signals`: its advisories' part of signals.json; `extra`: the ids it has a file for under upstream/ and apk/
 //   apps/<aliasId>.json                 stub {appId, alias: true} for the repository's other app ids (the iPhone record), only those some release was reproduced for
 //   apps/<appId>/<ref>/dependencies.json  the full resolved dependency list of one release, each row with how many products ship the package
 //   apps/<appId>/<ref>/submodules.json    the release's git submodules, when it has any
@@ -31,6 +32,7 @@ import { coverageForReaders, coverageByPlatform } from './plugins/lock-coverage.
 import { buildLockForReaders } from './plugins/build-lock.mjs';
 import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, getBackportedAdvisories, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getVerifiedRefs, getEndOfLife, getSubmodules, getRebuildClaims, getOssRebuildDetails, getDefaultBranch, getOwnAdvisories, DEFAULT_BRANCH_REF } from './ddbbUtils.mjs';
 import { COUNTED_TARGETS, partOfFile, productPartOf, sortingOf, targetOfLockfile, targetsOfLockfiles, unlistedFiles, useRepositories } from './products.mjs';
+import { readSignals, signalsOf } from './signals.mjs';
 
 export const SCHEMA = 1;
 const SEVERITIES = ['malicious', 'critical', 'high', 'moderate', 'low', 'unknown'];
@@ -510,8 +512,16 @@ export function exportAll(db, outDir, { onlyReproducible = false } = {}) {
   // of its own (its reproduced refs sit under the other id, Passport Batch 2).
   const stubs = new Map();
   const apps = [];
+  // Before the app files, which name the ones they have (extraFiles).
+  writeUpstreamHints(db, tmp);
+  // The APK checks (apk-contents-cli.mjs --export) are written next to the
+  // export from outside the database; a new export keeps them.
+  const apkDir = path.join(outDir, 'apk');
+  if (fs.existsSync(apkDir)) fs.cpSync(apkDir, path.join(tmp, 'apk'), { recursive: true });
+  // The signals of the export this one replaces, until signals.mjs has new ones.
+  const signals = readSignals(outDir);
   for (const appId of [...appIds].sort()) {
-    const app = writeAppFiles(db, tmp, appId, aliases.get(appId) || [], counts, sources, null, { rebuilds, ossDetails, onlyReproducible, stubs });
+    const app = writeAppFiles(db, tmp, appId, aliases.get(appId) || [], counts, sources, null, { rebuilds, ossDetails, onlyReproducible, stubs, signals });
     if (!app) continue;
     apps.push(app);
     releases += app.releases.length;
@@ -526,15 +536,10 @@ export function exportAll(db, outDir, { onlyReproducible = false } = {}) {
     entries.get(appId).aliases.push(alias);
   }
   fs.writeFileSync(path.join(tmp, 'used-by.json'), JSON.stringify(usedByPackages(db, apps)));
-  writeUpstreamHints(db, tmp);
-  // The APK checks (apk-contents-cli.mjs --export) are written next to the
-  // export from outside the database; a new export keeps them.
-  const apkDir = path.join(outDir, 'apk');
-  if (fs.existsSync(apkDir)) fs.cpSync(apkDir, path.join(tmp, 'apk'), { recursive: true });
   // signals.json (signals.mjs) and news.json (news.mjs) are rewritten after the
   // export; until then, and when every feed is down, the previous ones stay.
-  const signals = path.join(outDir, 'signals.json');
-  if (fs.existsSync(signals)) fs.copyFileSync(signals, path.join(tmp, 'signals.json'));
+  const signalsFile = path.join(outDir, 'signals.json');
+  if (fs.existsSync(signalsFile)) fs.copyFileSync(signalsFile, path.join(tmp, 'signals.json'));
   const news = path.join(outDir, 'news.json');
   if (fs.existsSync(news)) fs.copyFileSync(news, path.join(tmp, 'news.json'));
   fs.writeFileSync(path.join(tmp, 'index.json'), JSON.stringify(index));
@@ -551,7 +556,8 @@ export function exportAll(db, outDir, { onlyReproducible = false } = {}) {
  * page does not wait for the rest of the pass: its app file, dependency lists,
  * alias stubs and index entry. Everything else (shared packages, upstream
  * hints, signals, releases removed since, product counts of the other apps)
- * stays as the last exportAll left it until the pass ends with a new one.
+ * stays as the last exportAll left it until the pass ends with a new one;
+ * the app file takes its `signals` and `extra` from what is there.
  * Each file is written to a temporary name and renamed into place.
  * Returns { exported: false } for an app out of scope or with no reproduced release, else
  * { exported: true, releases, files } with the paths (relative to outDir) to publish.
@@ -625,15 +631,34 @@ export function releaseRebuildDetails(rows, ossDetails) {
   return Object.keys(out).length ? out : null;
 }
 
+// The other files the export has for an app, by the ids they are stored
+// under: `{ upstream: [id], apk: [id] }` for upstream/<id>.json (the upstream
+// hints) and apk/<id>.json (the APK check), a kind left out when no id has
+// one. A wallet page asks only for the files named here, so it gets no "not
+// found" for the many wallets without them. Both are written apart from the
+// app (writeUpstreamHints, apk-contents-cli.mjs --export): one written since
+// is named when the app is exported again.
+function extraFiles(dir, ids) {
+  const out = {};
+  for (const kind of ['upstream', 'apk']) {
+    const have = ids.filter(id => fs.existsSync(path.join(dir, kind, `${safeName(id)}.json`)));
+    if (have.length) out[kind] = have;
+  }
+  return out;
+}
+
 // One app's files under dir: apps/<appId>.json, a dependencies.json per
 // release, and a stub for each alias that is not exported in its own right.
 // With `stubs` (a Map) the stubs are collected there instead, alias id to app id.
 // Writes nothing and returns null when `onlyReproducible` leaves no release.
-function writeAppFiles(db, dir, appId, aliases, counts, sources, isExported, { atomic = false, rebuilds = getRebuildClaims(db), ossDetails = getOssRebuildDetails(db), onlyReproducible = false, stubs = null } = {}) {
+// `signals`: signals.json, for the app file's part of it (signals.mjs).
+function writeAppFiles(db, dir, appId, aliases, counts, sources, isExported, { atomic = false, rebuilds = getRebuildClaims(db), ossDetails = getOssRebuildDetails(db), onlyReproducible = false, stubs = null, signals = readSignals(dir) } = {}) {
   const write = atomic ? writeAtomic : (file, content) => fs.writeFileSync(file, content);
   const reproduced = onlyReproducible ? reproducedListings(db, appId, aliases) : null;
   const app = buildApp(db, appId, aliases, counts, sources, { reproduced });
   if (reproduced && !app.releases.length) return null;
+  app.extra = extraFiles(dir, [...new Set([appId, ...aliases.map(a => a.appId)])]);
+  app.signals = signalsOf(signals, app.releases);
   const reproducedIds = reproduced && new Set(app.releases.flatMap(r => r.reproducedFor.map(l => l.appId)));
   const appDir = path.join(dir, 'apps', safeName(appId));
   fs.mkdirSync(appDir, { recursive: true });
