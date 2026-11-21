@@ -5,7 +5,7 @@ import os from 'node:os';
 import path from 'node:path';
 import zlib from 'node:zlib';
 import Database from 'better-sqlite3';
-import { ossRebuildPrefix, parseOssListing, listOssRebuild, rcClaims, readReproducibleCentral, importRebuildClaims, importOssDetails, parseOssAttestation, pypiName } from '../rebuildClaims.mjs';
+import { ossRebuildPrefix, parseOssListing, listOssRebuild, rcClaims, rcCompareName, readReproducibleCentral, importRebuildClaims, importOssDetails, parseOssAttestation, pypiName } from '../rebuildClaims.mjs';
 import { tgzFiles, compareTarballs, explainDiff, diffNote, failureLine, nodeImage, npmVersionFacts, rebuildEvent, rebuildRunArgs } from '../rebuildNpm.mjs';
 import { rebuildCandidates } from '../rebuild-npm-cli.mjs';
 import { initDatabase, getRebuildClaims, getOssRebuildDetails } from '../ddbbUtils.mjs';
@@ -87,6 +87,44 @@ describe('outside claims: Reproducible Central', () => {
     assert.equal(m.get('com.squareup.okio:okio\u00003.9.0').url, 'https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/squareup/okio/okio-3.9.0.buildspec');
     fs.rmSync(dir, { recursive: true, force: true });
   });
+
+  // the lines that matter of content/com/google/guava/guava-33.4.1-jre.buildspec upstream
+  const guava = 'groupId=com.google.guava\nartifactId=guava\nversion=33.4.1-jre\n\ndisplay=${groupId}:${artifactId}\n'
+    + 'command="mvn clean verify -DskipTests"\nbuildinfo=target/${artifactId}-parent-${version}.buildinfo\n';
+  test('the buildcompare is named after the buildinfo the buildspec names', () => {
+    assert.equal(rcCompareName(guava), 'guava-parent-33.4.1-jre.buildcompare');
+    assert.equal(rcCompareName(spec + 'buildinfo=target/${artifactId}-${version}.buildinfo\n'), 'okio-3.9.0.buildcompare');
+    assert.equal(rcCompareName(spec + 'buildinfo=okio/target/okio-root-${version}.buildinfo # renamed by hand\n'), 'okio-root-3.9.0.buildcompare');
+    assert.equal(rcCompareName(spec), null, 'no buildinfo line');
+    assert.equal(rcCompareName(spec + 'buildinfo=target/$artifactId-$version.buildinfo\n'), null, 'shell variables are not resolved');
+    assert.equal(rcCompareName(spec + 'buildinfo=target/${artifactId}-${other}.buildinfo\n'), null, 'a value the buildspec does not have');
+    assert.equal(rcCompareName(spec + 'buildinfo="CANNOT BUILD"\n'), null);
+  });
+
+  test('reads a checkout: a release compared under another name than its buildspec', () => {
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'rc-'));
+    const d = path.join(dir, 'content/com/google/guava');
+    fs.mkdirSync(d, { recursive: true });
+    fs.writeFileSync(path.join(d, 'guava-33.4.1-jre.buildspec'), guava);
+    fs.writeFileSync(path.join(d, 'guava-parent-33.4.1-jre.buildcompare'), 'version=33.4.1-jre\nokFiles="guava-parent-33.4.1-jre.pom guava-33.4.1-jre.jar"\nkoFiles="guava-testlib-33.4.1-jre.jar"\n');
+    // another release in the same directory: each buildspec gets its own comparison
+    fs.writeFileSync(path.join(d, 'guava-33.4.0-jre.buildspec'), guava.replace('33.4.1', '33.4.0'));
+    fs.writeFileSync(path.join(d, 'guava-parent-33.4.0-jre.buildcompare'), 'version=33.4.0-jre\nokFiles=""\nkoFiles="guava-33.4.0-jre.jar"\n');
+    // a buildspec whose named comparison is not there falls back to its own name; one without any is skipped
+    fs.writeFileSync(path.join(d, 'guava-33.3.0-jre.buildspec'), guava.replace('33.4.1', '33.3.0'));
+    fs.writeFileSync(path.join(d, 'guava-33.3.0-jre.buildcompare'), 'version=33.3.0-jre\nokFiles="guava-33.3.0-jre.jar"\nkoFiles=""\n');
+    fs.writeFileSync(path.join(d, 'guava-33.2.0-jre.buildspec'), guava.replace('33.4.1', '33.2.0'));
+    const m = readReproducibleCentral(dir);
+    assert.deepEqual([...m].map(([k, c]) => [k.replace('\u0000', ' '), c.result]).sort(), [
+      ['com.google.guava:guava 33.3.0-jre', 'reproduced'],
+      ['com.google.guava:guava 33.4.0-jre', 'failed'],
+      ['com.google.guava:guava 33.4.1-jre', 'reproduced'],
+      ['com.google.guava:guava-parent 33.4.1-jre', 'reproduced'],
+      ['com.google.guava:guava-testlib 33.4.1-jre', 'failed'],
+    ]);
+    assert.equal(m.get('com.google.guava:guava\u000033.4.1-jre').url, 'https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/google/guava/guava-33.4.1-jre.buildspec');
+    fs.rmSync(dir, { recursive: true, force: true });
+  });
 });
 
 const attestation = fs.readFileSync(new URL('./fixtures/oss-rebuild-buffer-6.0.3.intoto.jsonl', import.meta.url), 'utf8');
@@ -146,7 +184,7 @@ describe('OSS Rebuild attestations', () => {
 });
 
 describe('importing claims into the database', () => {
-  test('OSS claims only for versions we hold; each name looked up once per week; RC by version', async () => {
+  test('OSS claims only for versions we hold; each name looked up once per day; RC by version', async () => {
     const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'rbdb-'));
     const db = initDatabase(path.join(dir, 'a.db'));
     const pkg = db.prepare(`INSERT INTO packages (ecosystem, name, version) VALUES (?, ?, ?)`);
@@ -166,6 +204,13 @@ describe('importing claims into the database', () => {
     await importRebuildClaims(db, { fetchImpl });
     await importRebuildClaims(db, { fetchImpl, all: true });
     assert.equal(asked, 2);
+    const lookedAt = db.prepare(`UPDATE rebuild_lookups SET checked_at = datetime('now', ?)`);
+    lookedAt.run('-20 hours');
+    await importRebuildClaims(db, { fetchImpl });
+    assert.equal(asked, 2, 'asked 20 hours ago: not again');
+    lookedAt.run('-25 hours');
+    await importRebuildClaims(db, { fetchImpl });
+    assert.equal(asked, 3, 'asked more than a day ago: again');
     assert.equal(read, 1, 'an attestation is downloaded once, even after its claim is replaced');
     assert.equal(getOssRebuildDetails(db).get('https://storage.googleapis.com/google-rebuild-attestations/npm/buffer/6.0.3/buffer-6.0.3.tgz/rebuild.intoto.jsonl').commit, 'f52dffd9df0445b93c0c9065c2f8f0f46b2c729a');
     const claims = getRebuildClaims(db);

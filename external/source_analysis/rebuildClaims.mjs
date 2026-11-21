@@ -25,7 +25,10 @@ import { execFileSync } from 'child_process';
 export const OSS_REBUILD_BUCKET = 'google-rebuild-attestations';
 export const RC_REPO = 'https://github.com/jvm-repo-rebuild/reproducible-central';
 const OSS_ECOSYSTEMS = { npm: 'npm', pip: 'pypi', cargo: 'cratesio' };
-const LOOKUP_TTL_DAYS = 7;
+// OSS Rebuild publishes in bursts (most of the versions it has of ours came in
+// one week), so each package name is asked once a day: one bucket listing per
+// name, about 6,700 names, under three minutes for all of them.
+const LOOKUP_TTL_DAYS = 1;
 const CONCURRENCY = 16;
 // Attestations are downloaded once each (they never change), gently: a
 // refusal stops the downloads for this pass, the rest wait for the next.
@@ -191,18 +194,37 @@ export function rcClaims(buildspec, buildcompare, url) {
   return claims;
 }
 
+/**
+ * The name of the .buildcompare a .buildspec belongs to. Reproducible Central
+ * names it after the build's .buildinfo, which the buildspec gives in
+ * `buildinfo=` and which is often not the buildspec's own name: the build of
+ * guava-33.2.1-jre.buildspec is compared in guava-parent-33.2.1-jre.buildcompare.
+ * Null when the line is missing or uses something other than the buildspec's
+ * own values.
+ */
+export function rcCompareName(buildspec) {
+  const spec = parseProperties(buildspec);
+  let name = /([^\s\/"]+)\.buildinfo/.exec(spec.buildinfo || '')?.[1];
+  for (let i = 0; i < 3 && name?.includes('${'); i++) name = name.replace(/\$\{(\w+)\}/g, (all, key) => spec[key] ?? all);
+  return name && !name.includes('$') ? `${name}.buildcompare` : null;
+}
+
 /** Every claim in a checkout of reproducible-central, as a Map `name\0version` → claim. */
 export function readReproducibleCentral(dir) {
   const out = new Map();
   const walk = (d) => {
-    for (const e of fs.readdirSync(d, { withFileTypes: true })) {
+    const entries = fs.readdirSync(d, { withFileTypes: true });
+    const files = new Set(entries.filter(e => !e.isDirectory()).map(e => e.name));
+    for (const e of entries) {
       const p = path.join(d, e.name);
       if (e.isDirectory()) { walk(p); continue; }
-      if (!e.name.endsWith('.buildcompare')) continue;
-      const spec = p.replace(/\.buildcompare$/, '.buildspec');
-      if (!fs.existsSync(spec)) continue;
-      const url = `${RC_REPO}/blob/master/${path.relative(dir, spec)}`;
-      for (const c of rcClaims(fs.readFileSync(spec, 'utf8'), fs.readFileSync(p, 'utf8'), url)) {
+      if (!e.name.endsWith('.buildspec')) continue;
+      const spec = fs.readFileSync(p, 'utf8');
+      // else under the buildspec's own name, as before: a few buildspecs have no buildinfo line that can be read
+      const cmp = [rcCompareName(spec), e.name.replace(/\.buildspec$/, '.buildcompare')].find(n => n && files.has(n));
+      if (!cmp) continue;
+      const url = `${RC_REPO}/blob/master/${path.relative(dir, p)}`;
+      for (const c of rcClaims(spec, fs.readFileSync(path.join(d, cmp), 'utf8'), url)) {
         const key = `${c.name}\0${c.version}`;
         if (!out.has(key)) out.set(key, c);
       }
