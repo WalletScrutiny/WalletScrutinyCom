@@ -304,16 +304,29 @@ describe('dependencies panel', () => {
     assert.deepEqual(calls, ['/x/apps/app.android.json', '/xt5/statements.json']);
     assert.deepEqual(model.signals, { date: '2026-10-16', exploited: 0, withEpss: 1 }, 'the app file\'s signals, not signals.json');
 
-    ({ fetchImpl, calls } = fakeFetch({ ...others, ...stub, '/x/apps/app.android.json': { ...APP, releases, extra: { upstream: ['app.android'], apk: ['app.ios'] }, signals: null } }));
+    ({ fetchImpl, calls } = fakeFetch({ ...others, ...stub, '/x/apps/app.android.json': { ...APP, releases, extra: { upstream: ['app.android'], apk: ['app.ios'] }, signals: mine } }));
     model = await renderDependenciesPanel({ host: document.createElement('div'), appId: 'app.ios', base: '/x', triageBase: '/xt5', liveEvents: noLive, fetchImpl });
     assert.deepEqual(calls, ['/x/apps/app.ios.json', '/x/apps/app.android.json', '/x/upstream/app.android.json', '/x/apk/app.ios.json'], 'only the files the app file names, under the ids it names; statements.json is cached');
-    assert.equal(model.signals, null, 'an export without signals says so, and signals.json is not asked for');
     assert.equal(model.apk.name, 'ios.apk');
 
     ({ fetchImpl, calls } = fakeFetch({ ...others, '/x/apps/app.android.json': { ...APP, releases } }));
     model = await renderDependenciesPanel({ host: document.createElement('div'), appId: 'app.android', base: '/x', triageBase: '/xt5', liveEvents: noLive, fetchImpl });
     assert.deepEqual(calls, ['/x/apps/app.android.json', '/x/signals.json', '/x/upstream/app.android.json', '/x/apk/app.android.json'], 'an app file from an older export: asked for as before');
     assert.deepEqual(model.signals, { date: '2026-10-17', exploited: 0, withEpss: 0 });
+  });
+
+  test('an app file that could not be fetched is asked for again by the other step', async () => {
+    let fail = true;
+    const calls = [];
+    const fetchImpl = async (url) => {
+      calls.push(url);
+      if (url === '/x/apps/app.android.json' && fail) { fail = false; throw new Error('offline'); }
+      return url === '/x/apps/app.android.json' ? { ok: true, status: 200, json: async () => APP } : { ok: false, status: 404, json: async () => null };
+    };
+    await assert.rejects(loadApp('app.android', { base: '/x', fetchImpl }), /offline/);
+    assert.equal((await loadApp('app.android', { base: '/x', fetchImpl })).appId, 'app.android');
+    await loadApp('app.android', { base: '/x', fetchImpl });
+    assert.deepEqual(calls, ['/x/apps/app.android.json', '/x/apps/app.android.json'], 'again after the failure, then the copy');
   });
 
   test('an unreachable export leaves the host untouched', async () => {

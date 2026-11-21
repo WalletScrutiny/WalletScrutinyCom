@@ -122,8 +122,9 @@ test('exportAll writes index, app files and dependency lists, atomically replaci
   assert.deepEqual(JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.ios.json'), 'utf8')), { schema: 1, appId: 'app.android', alias: true });
   const app = JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.android.json'), 'utf8'));
   assert.equal(app.releases[0].advisories.length, 1);
-  assert.deepEqual(Object.keys(app), ['schema', 'appId', 'aliases', 'releases', 'extra', 'signals']);
-  assert.deepEqual([app.extra, app.signals], [{}, null], 'no upstream hints, no APK check, no signals.json: the page asks for none of them');
+  assert.deepEqual(Object.keys(app), ['schema', 'appId', 'aliases', 'releases', 'extra']);
+  assert.deepEqual(app.extra, {}, 'no upstream hints, no APK check: the page asks for neither');
+  assert.equal('signals' in app, false, 'no signals.json yet: the page asks for it, as it did before');
   const deps = JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'app.android', 'v1.1.0', 'dependencies.json'), 'utf8'));
   assert.deepEqual(deps.dependencies.map(d => `${d.name}@${d.version}:${d.tier}`), ['a@1.0.1:hash-pinned', 'c@3.0.0:floating']);
   assert.deepEqual(Object.keys(deps), ['schema', 'dependencies']);
@@ -147,9 +148,16 @@ test('the app file carries its signals and names its upstream and apk files, fro
   fs.writeFileSync(path.join(dir, 'signals.json'), JSON.stringify({ schema: 1, date: '2026-11-20', epss: { 'CVE-2026-1': [0.5, 0.9], 'CVE-1999-1': [0.1, 0.2] }, published: { 'GHSA-aaaa': '2026-11-01', 'GHSA-zzzz': '2020-01-01' } }));
   const read = id => JSON.parse(fs.readFileSync(path.join(dir, 'apps', `${id}.json`), 'utf8'));
   const mine = { date: '2026-11-20', epss: { 'CVE-2026-1': [0.5, 0.9] }, published: { 'GHSA-aaaa': '2026-11-01' } };
+  // the wallet's own ignore file speaks to its advisory: exportAll writes upstream/app.android.json
+  const hint = db.prepare("INSERT INTO upstream_triage (repo_url, ref, file, tool, line, vuln_id, reason) VALUES ('https://github.com/org/app', 'v1.1.0', '.trivyignore', 'trivy', 1, 'GHSA-aaaa', 'not reachable')");
+  hint.run();
 
   exportAll(db, dir, {});
-  assert.deepEqual(read('app.android').extra, { apk: ['app.ios'] }, 'under the alias id; no upstream hints');
+  assert.ok(fs.existsSync(path.join(dir, 'upstream', 'app.android.json')));
+  assert.deepEqual(read('app.android').extra, { upstream: ['app.android'], apk: ['app.ios'] }, 'the hints this export wrote, and the APK check under the alias id');
+  db.prepare('DELETE FROM upstream_triage').run();
+  exportAll(db, dir, {});
+  assert.deepEqual(read('app.android').extra, { apk: ['app.ios'] }, 'no upstream hints any more');
   assert.deepEqual(read('app.android').signals, mine, 'by id and alias, no other wallet\'s; no kev part, as in signals.json');
   assert.deepEqual(read('app.other').extra, { apk: ['app.other'] });
   assert.deepEqual(read('app.other').signals, { date: '2026-11-20', epss: {}, published: {} });
@@ -161,6 +169,13 @@ test('the app file carries its signals and names its upstream and apk files, fro
   exportApp(db, dir, 'app.android');
   assert.deepEqual(read('app.android').extra, { upstream: ['app.android'] }, 'what the export has when the app is written');
   assert.deepEqual(read('app.android').signals, mine);
+
+  // An export exportApp has to start (the directory was lost): the web server may still have
+  // signals.json and both directories, so the app file claims nothing about them.
+  const fresh = path.join(path.dirname(dir), 'fresh');
+  exportApp(db, fresh, 'app.android');
+  const started = JSON.parse(fs.readFileSync(path.join(fresh, 'apps', 'app.android.json'), 'utf8'));
+  assert.deepEqual(['extra' in started, 'signals' in started], [false, false]);
 });
 
 test('exportApp updates one app in place, leaving the rest of the export as it was', () => {

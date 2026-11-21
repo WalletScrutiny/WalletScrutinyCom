@@ -44,13 +44,18 @@ async function fetchJson(url, fetchImpl) {
 }
 
 // An app file, fetched once per page: the panel and the "Known
-// vulnerabilities" step (own-vulnerabilities.mjs) read the same one.
+// vulnerabilities" step (own-vulnerabilities.mjs) read the same one. A
+// fetch that failed is not kept: the other step asks again.
 const appFiles = new WeakMap(); // fetchImpl -> Map(url -> Promise)
 function appFile(url, fetchImpl) {
   if (typeof fetchImpl !== 'function') return fetchJson(url, fetchImpl);
   if (!appFiles.has(fetchImpl)) appFiles.set(fetchImpl, new Map());
   const byUrl = appFiles.get(fetchImpl);
-  if (!byUrl.has(url)) byUrl.set(url, fetchJson(url, fetchImpl));
+  if (!byUrl.has(url)) {
+    const file = fetchJson(url, fetchImpl);
+    byUrl.set(url, file);
+    file.catch(() => byUrl.delete(url));
+  }
   return byUrl.get(url);
 }
 
@@ -154,7 +159,8 @@ export async function loadUpstream(appIds, { base = EXPORT_BASE, fetchImpl = glo
 }
 
 // Public per-CVE signals of every wallet (signals.json, external/source_analysis/signals.mjs),
-// or null when the export has none. Only for an app file without `signals`.
+// or null when the export has none. Only for an app file without `signals`:
+// from an older export, or from one written while there was no signals.json.
 export async function loadSignals({ base = EXPORT_BASE, fetchImpl = globalThis.fetch } = {}) {
   try {
     return await fetchJson(`${base}/signals.json`, fetchImpl);

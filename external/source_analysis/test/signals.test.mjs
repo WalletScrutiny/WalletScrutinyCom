@@ -106,7 +106,7 @@ describe('advisory signals', () => {
       const signals = { schema: 1, date: '2026-10-16', epss: { 'CVE-2023-45133': [0.005, 0.4], 'CVE-2020-9': [0.9, 0.99] }, kev: { 'CVE-2020-9': { added: '2020-01-01' } }, published: { 'GHSA-1': '2023-10-12', 'GHSA-9': '2020-01-01' } };
       const a = JSON.parse(readFileSync(join(exportDir, 'apps', 'a.json'), 'utf8'));
       assert.deepEqual(signalsOf(signals, a.releases), { date: '2026-10-16', epss: { 'CVE-2023-45133': [0.005, 0.4] }, kev: {}, published: { 'GHSA-1': '2023-10-12' } });
-      assert.equal(signalsOf(null, a.releases), null, 'no signals.json: the app file says so');
+      assert.equal(signalsOf(null, a.releases), undefined, 'no signals.json: the app file has no signals, and the page asks for the file');
       assert.deepEqual(embedSignals(exportDir, signals), ['apps/a.json', 'apps/b.json']);
       assert.deepEqual(JSON.parse(readFileSync(join(exportDir, 'apps', 'b.json'), 'utf8')).signals, { date: '2026-10-16', epss: { 'CVE-2020-9': [0.9, 0.99] }, kev: { 'CVE-2020-9': { added: '2020-01-01' } }, published: { 'GHSA-9': '2020-01-01' } });
       assert.deepEqual(embedSignals(exportDir, signals), [], 'nothing changed, nothing written');

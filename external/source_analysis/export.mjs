@@ -557,7 +557,8 @@ export function exportAll(db, outDir, { onlyReproducible = false } = {}) {
  * alias stubs and index entry. Everything else (shared packages, upstream
  * hints, signals, releases removed since, product counts of the other apps)
  * stays as the last exportAll left it until the pass ends with a new one;
- * the app file takes its `signals` and `extra` from what is there.
+ * the app file takes its `signals` and `extra` from what is there, and has
+ * no `extra` in an export this had to start.
  * Each file is written to a temporary name and renamed into place.
  * Returns { exported: false } for an app out of scope or with no reproduced release, else
  * { exported: true, releases, files } with the paths (relative to outDir) to publish.
@@ -570,7 +571,7 @@ export function exportApp(db, outDir, appId, { onlyReproducible = false, counts 
   try { index = JSON.parse(fs.readFileSync(indexFile, 'utf8')); } catch { /* first export: start an index */ }
   if (!index || index.schema !== SCHEMA || !Array.isArray(index.apps)) index = { schema: SCHEMA, apps: [] };
   const exported = new Set(index.apps.map(a => a.appId));
-  const app = writeAppFiles(db, outDir, appId, aliases.get(appId) || [], counts, sources, (id) => id === appId || exported.has(id), { atomic: true, onlyReproducible });
+  const app = writeAppFiles(db, outDir, appId, aliases.get(appId) || [], counts, sources, (id) => id === appId || exported.has(id), { atomic: true, onlyReproducible, named: index.complete === true });
   if (!app) return { exported: false };
   // Same aliases writeAppFiles just wrote a stub for. A sibling listing with
   // no reproduced release gets no file (onlyReproducible); listing it here
@@ -637,7 +638,9 @@ export function releaseRebuildDetails(rows, ossDetails) {
 // one. A wallet page asks only for the files named here, so it gets no "not
 // found" for the many wallets without them. Both are written apart from the
 // app (writeUpstreamHints, apk-contents-cli.mjs --export): one written since
-// is named when the app is exported again.
+// is named when the app is exported again. Only said of a directory a full
+// export wrote (writeAppFiles, `named`): an export that exportApp had to
+// start has neither directory, while the web server may still serve both.
 function extraFiles(dir, ids) {
   const out = {};
   for (const kind of ['upstream', 'apk']) {
@@ -652,12 +655,13 @@ function extraFiles(dir, ids) {
 // With `stubs` (a Map) the stubs are collected there instead, alias id to app id.
 // Writes nothing and returns null when `onlyReproducible` leaves no release.
 // `signals`: signals.json, for the app file's part of it (signals.mjs).
-function writeAppFiles(db, dir, appId, aliases, counts, sources, isExported, { atomic = false, rebuilds = getRebuildClaims(db), ossDetails = getOssRebuildDetails(db), onlyReproducible = false, stubs = null, signals = readSignals(dir) } = {}) {
+// `named`: whether dir holds every upstream/ and apk/ file there is, so the app file can name its own.
+function writeAppFiles(db, dir, appId, aliases, counts, sources, isExported, { atomic = false, rebuilds = getRebuildClaims(db), ossDetails = getOssRebuildDetails(db), onlyReproducible = false, stubs = null, signals = readSignals(dir), named = true } = {}) {
   const write = atomic ? writeAtomic : (file, content) => fs.writeFileSync(file, content);
   const reproduced = onlyReproducible ? reproducedListings(db, appId, aliases) : null;
   const app = buildApp(db, appId, aliases, counts, sources, { reproduced });
   if (reproduced && !app.releases.length) return null;
-  app.extra = extraFiles(dir, [...new Set([appId, ...aliases.map(a => a.appId)])]);
+  if (named) app.extra = extraFiles(dir, [...new Set([appId, ...aliases.map(a => a.appId)])]);
   app.signals = signalsOf(signals, app.releases);
   const reproducedIds = reproduced && new Set(app.releases.flatMap(r => r.reproducedFor.map(l => l.appId)));
   const appDir = path.join(dir, 'apps', safeName(appId));

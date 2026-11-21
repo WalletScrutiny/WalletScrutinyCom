@@ -161,10 +161,11 @@ export function readSignals(exportDir) {
 
 // What `signals` (signals.json) says about the advisories in `releases`, ids
 // and aliases: the same shape, without the other wallets' entries. A part a
-// failing feed left out stays out. null without signals: the page then knows
-// there are none and does not ask for signals.json.
+// failing feed left out stays out. undefined without signals: the app file
+// then has no `signals`, and the page asks for signals.json, which the web
+// server may still have when this export was started anew.
 export function signalsOf(signals, releases) {
-  if (!signals) return null;
+  if (!signals) return undefined;
   const ids = advisoryIdsOf(releases);
   const mine = part => (part ? Object.fromEntries(Object.entries(part).filter(([id]) => ids.has(id))) : undefined);
   return { date: signals.date, epss: mine(signals.epss), kev: mine(signals.kev), published: mine(signals.published) };
