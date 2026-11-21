@@ -54,13 +54,14 @@ function countedTargetsOf(doc) {
   return new Set(platforms.flatMap(p => COUNTED_TARGETS[p]));
 }
 
-// `affectedOf` for newsOf, from the database: the affected ranges OSV lists
-// for the advisory's package, from any stored row that has them.
+// `affectedOf` for newsOf, from the database: the affected ranges stored with
+// the advisory row of that release (they are kept per package version), which
+// is what the app file carried before it left them out.
 export function affectedRanges(db) {
-  const row = db.prepare('SELECT affected FROM app_vulnerabilities WHERE vuln_id = ? AND ecosystem = ? AND name = ? AND affected IS NOT NULL LIMIT 1');
-  return (a) => {
-    const found = row.get(a.id, a.ecosystem, a.package);
-    return found ? JSON.parse(found.affected) : undefined;
+  const row = db.prepare('SELECT affected FROM app_vulnerabilities WHERE app_id = ? AND version = ? AND vuln_id = ? AND ecosystem = ? AND name = ? AND dep_version = ?');
+  return (a, { appId, ref }) => {
+    const found = row.get(appId, ref, a.id, a.ecosystem, a.package, a.version);
+    return found?.affected ? JSON.parse(found.affected) : undefined;
   };
 }
 
@@ -69,8 +70,8 @@ export function affectedRanges(db) {
  * advisories holds, newest first, each advisory published on or after `since`
  * with the wallets that carry it in their newest working release or in a
  * release published on or after `releasesSince`; or null without publication dates.
- * Each advisory also carries the package's affected ranges (`affectedOf(advisory)`, or the app file's from an
- * export that still has them) and fixed versions when known.
+ * Each advisory also carries the package's affected ranges (`affectedOf(advisory, { appId, ref })`, or the app
+ * file's from an export that still has them) and fixed versions when known.
  * Each wallet: { appId, releases: [{ ref, releasedAt, newest, version, scope, direct }] }, newest first.
  * A wallet is listed only when the advisory is in one of its apps: a match in
  * the server or website of the same repository is not news about the wallet.
@@ -90,6 +91,7 @@ export function newsOf({ index, appDoc, signals, affectedOf = null, now = new Da
     const releases = working.filter((r, i) => i === 0 || (r.releasedAt && r.releasedAt >= releasesSince));
     const counted = countedTargetsOf(doc);
     for (const release of releases) {
+      const rangesOf = a => a.affected ?? affectedOf?.(a, { appId, ref: release.ref });
       for (const a of release.advisories || []) {
         const day = publishedDay(a, published);
         if (!day || day < since) continue;
@@ -97,11 +99,11 @@ export function newsOf({ index, appDoc, signals, affectedOf = null, now = new Da
         let entry = byId.get(a.id);
         if (!entry) {
           entry = { id: a.id, aliases: a.aliases || [], published: day, severity: a.severity, summary: a.summary, ecosystem: a.ecosystem, package: a.package,
-            affected: a.affected ?? affectedOf?.(a), fixed: a.fixed, wallets: [] };
+            affected: rangesOf(a), fixed: a.fixed, wallets: [] };
           byId.set(a.id, entry);
         }
         // Rows stored before the ranges were kept have none; any release that has them will do.
-        entry.affected ??= a.affected;
+        entry.affected ??= rangesOf(a);
         entry.fixed ??= a.fixed;
         let wallet = entry.wallets.find(w => w.appId === appId);
         if (!wallet) {

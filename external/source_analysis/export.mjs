@@ -711,6 +711,8 @@ function writeAppFiles(db, dir, appId, aliases, counts, sources, isExported, { a
     fs.mkdirSync(refDir, { recursive: true });
     const deps = getDependencies(db, appId, r.ref);
     const rb = releaseRebuilds(deps, rebuilds);
+    // a tree written when each release had its own details file (exportApp writes into what is there)
+    fs.rmSync(path.join(refDir, 'rebuild-details.json'), { force: true });
     if (rb) {
       write(path.join(refDir, 'rebuilds.json'), JSON.stringify({ schema: SCHEMA, rows: rb.rows.map(rebuildRowForReaders) }));
       Object.assign(details, releaseRebuildDetails(rb.rows, ossDetails));
@@ -734,6 +736,7 @@ function writeAppFiles(db, dir, appId, aliases, counts, sources, isExported, { a
     if (subs) write(path.join(refDir, 'submodules.json'), JSON.stringify({ schema: SCHEMA, rows: subs.rows.map(submoduleRow) }));
   }
   if (Object.keys(details).length) write(path.join(appDir, 'rebuild-details.json'), JSON.stringify({ schema: SCHEMA, details }));
+  else fs.rmSync(path.join(appDir, 'rebuild-details.json'), { force: true });
   // The app file last: a reader that sees a release in it finds its dependency list.
   write(path.join(dir, 'apps', `${safeName(appId)}.json`), JSON.stringify({ ...app, releases: app.releases.map(releaseForReaders) }));
   // The repository's other app ids (the iPhone page, a desktop record) get a

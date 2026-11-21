@@ -6,7 +6,8 @@ import fs from 'fs';
 import os from 'os';
 import path from 'path';
 import { initDatabase, saveDependencies, saveVulnerabilities, recordAnalysis, saveAppList, saveReproducibleVersions, saveVerifiedRef, saveSubmodules } from '../ddbbUtils.mjs';
-import { exportAll, exportApp, buildApp, loadRepositories, safeName, productPartOf, pagePlatform } from '../export.mjs';
+import { exportAll, exportApp, buildApp, loadRepositories, safeName, productPartOf, pagePlatform, rebuildRowForReaders } from '../export.mjs';
+import { parseOssListing, ossRebuildPrefix, ossRebuildUrl } from '../rebuildClaims.mjs';
 
 const entry = (name, version, extra = {}) => ({ ecosystem: 'npm', lockfile: 'package-lock.json', name, version, resolved: `https://registry.npmjs.org/${name}/-/${name}-${version}.tgz`, integrity: `sha512-${name}${version}`, direct: true, dev: false, tier: 'hash-pinned', ...extra });
 
@@ -219,9 +220,32 @@ test('the app file leaves out affected ranges and the repeated lockfiles; rebuil
   };
   exportAll(db, dir, {});
   check();
-  fs.rmSync(path.join(dir, 'apps', 'app.android'), { recursive: true });
+  // exportApp writes into the tree that is there: one from before, with a details file per release
+  fs.writeFileSync(path.join(dir, 'apps', 'app.android', 'v1.1.0', 'rebuild-details.json'), '{"schema":1,"details":{}}');
+  fs.rmSync(path.join(dir, 'apps', 'app.android', 'rebuild-details.json'));
   exportApp(db, dir, 'app.android');
   check();
+  db.prepare('DELETE FROM oss_rebuild_details').run();
+  exportApp(db, dir, 'app.android');
+  assert.ok(!fs.existsSync(path.join(dir, 'apps', 'app.android', 'rebuild-details.json')), 'no summary left: no file left');
+});
+
+// The claim's URL goes out as the artifact name only when the reader's rule gives the same URL back.
+test('rebuildRowForReaders: every URL as the bucket lists it comes back from the artifact name; another shape stays whole', () => {
+  const packages = [['npm', 'buffer', '6.0.3', 'buffer-6.0.3.tgz'], ['npm', '@noble/hashes', '1.8.0', 'noble-hashes-1.8.0.tgz'], ['npm', 'JSONStream', '1.3.5+b1', 'JSONStream-1.3.5.tgz'],
+    ['pip', 'Flask_Login.ext', '0.6.3', 'flask_login-0.6.3-py3-none-any.whl'], ['cargo', 'serde', '1.0.200', 'serde-1.0.200.crate']];
+  for (const [ecosystem, name, version, artifact] of packages) {
+    const prefix = ossRebuildPrefix(ecosystem, name);
+    const [{ url }] = parseOssListing([`${prefix}${version}/${artifact}/rebuild.intoto.jsonl`], prefix).get(version);
+    const [claim] = rebuildRowForReaders({ ecosystem, name, version, claims: [{ by: 'oss-rebuild', result: 'reproduced', url }] }).claims;
+    assert.deepEqual(claim, { by: 'oss-rebuild', result: 'reproduced', artifact }, `${ecosystem} ${name}`);
+    assert.equal(ossRebuildUrl(ecosystem, name, version, claim.artifact), url);
+  }
+  const base = 'https://storage.googleapis.com/google-rebuild-attestations/npm/buffer/6.0.3';
+  for (const url of [`${base}/extra/buffer-6.0.3.tgz/rebuild.intoto.jsonl`, `${base}/buffer-6.0.3.tgz/other.jsonl`, 'https://elsewhere.example/npm/buffer/6.0.3/buffer-6.0.3.tgz/rebuild.intoto.jsonl']) {
+    const row = { ecosystem: 'npm', name: 'buffer', version: '6.0.3', claims: [{ by: 'oss-rebuild', result: 'reproduced', url }, { by: 'ws', result: 'reproduced' }] };
+    assert.deepEqual(rebuildRowForReaders(row), row, url);
+  }
 });
 
 test('exportApp updates one app in place, leaving the rest of the export as it was', () => {
