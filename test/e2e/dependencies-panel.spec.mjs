@@ -17,13 +17,16 @@ const APP = {
     advisories: [{ id: 'GHSA-e2e', severity: 'high', aliases: [], fixed: [], summary: '', ecosystem: 'npm', package: 'pkg', version: '1.0.0', direct: true, dev: false }],
   }],
   defaultBranch: null,
+  // as the exporter writes it: no upstream hints or APK check to ask for, and the advisories' signals
+  extra: {},
+  signals: { date: '2026-10-16', epss: {}, kev: {}, published: { 'GHSA-e2e': '2026-10-01' } },
 };
 
 async function serveExport(page, index, app = APP) {
   const asked = [];
   page.on('request', (request) => {
     const path = new URL(request.url()).pathname;
-    if (/\/dist\/dependencies-panel\.|\/assets\/css\/dependencies-steps\.css|\/api\/source-analysis\/apps\//.test(path)) asked.push(path);
+    if (/\/dist\/dependencies-panel\.|\/assets\/css\/dependencies-steps\.css|\/api\/source-analysis\//.test(path)) asked.push(path);
   });
   await page.route('**/api/source-analysis/**', (route) => {
     const path = new URL(route.request().url()).pathname;
@@ -51,7 +54,9 @@ test.describe('Dependencies panel', () => {
     // styled by the stylesheet linked with the chunk
     expect(asked.filter(path => path.endsWith('/dependencies-steps.css'))).toHaveLength(1);
     await expect(panel.locator('.dp-panel')).toHaveCSS('border-radius', '14px');
-    expect(asked).not.toContain('/api/source-analysis/apps/com.zeusln.zeus.json');
+    // both steps read one copy of the app file, which brings its signals and names no other file
+    await expect(panel.locator('.dp-published')).toHaveText('public since 2026-10-01');
+    expect(asked.filter(path => path.startsWith('/api/source-analysis/'))).toEqual(['/api/source-analysis/index.json', '/api/source-analysis/apps/app.zeusln.zeus.json']);
   });
 
   test('a listing the export does not name fetches no panel, styles or app file', async ({ page }) => {
@@ -64,7 +69,7 @@ test.describe('Dependencies panel', () => {
     }));
     expect(painted).toBeNull();
     await expect(page.locator('.dependencies-step').first()).toBeHidden();
-    expect(asked).toEqual([]);
+    expect(asked).toEqual(['/api/source-analysis/index.json']);
   });
 
   test('the statement dialog offers "every wallet" only for a library in this wallet', async ({ page }) => {
