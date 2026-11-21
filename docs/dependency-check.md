@@ -431,7 +431,8 @@ The panel will show the level per dependency and the share per wallet.
 
 Who rebuilt which package version lives in `package_rebuilds`, one row per
 claimant, and reaches the panel as `rebuilds.json` per release (a tile, a
-Rebuilds tab, a pill in the tree). Nothing here changes a verdict.
+Rebuilds tab, a pill in the tree), with what OSS Rebuild's attestations say
+in one `rebuild-details.json` per app. Nothing here changes a verdict.
 
 - **Imported claims** (`rebuildClaims.mjs`, every pass and
   `rebuild-claims-cli.mjs`): Google's OSS Rebuild publishes a signed
