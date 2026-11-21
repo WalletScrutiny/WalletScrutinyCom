@@ -4,7 +4,7 @@
 // anyone else later. Plain JSON files, written atomically into one directory,
 // small at the top and detailed below, so a reader fetches only what it shows:
 //
-//   index.json                          the exported app ids (exportApp keeps it current)
+//   index.json                          the exported app ids, each with the alias ids that have a stub (exportApp keeps it current); `complete` when exportAll wrote it
 //   apps/<appId>.json                   all analyses of one app, with advisories (each with how many products ship the package) and the diff to the previous release
 //   apps/<aliasId>.json                 stub {appId, alias: true} for the repository's other app ids (the iPhone record), only those some release was reproduced for
 //   apps/<appId>/<ref>/dependencies.json  the full resolved dependency list of one release, each row with how many products ship the package
@@ -393,8 +393,13 @@ export function dependantVersionsOf(v, rows, lockedAt) {
   return Object.keys(out).length ? out : undefined;
 }
 
-function indexEntry(app) {
-  return { appId: app.appId };
+// `aliases`: the listings whose stub points at the app. With them an index
+// that exportAll wrote (`complete`) names every id that has a file under
+// apps/, so a wallet page reads it before it asks for one
+// (src/source-analysis-export.mjs). An index that exportApp had to start is
+// not complete: the web server may still hold app files it does not name.
+function indexEntry(app, aliases = []) {
+  return { appId: app.appId, aliases };
 }
 
 // Connects each app id to its repository for the file-sorting rules, and returns
@@ -494,7 +499,7 @@ export function exportAll(db, outDir, { onlyReproducible = false } = {}) {
     const inScope = scopeFilter(db, aliases);
     appIds = new Set([...appIds].filter(inScope));
   }
-  const index = { schema: SCHEMA, apps: [] };
+  const index = { schema: SCHEMA, complete: true, apps: [] };
   const counts = productCounts(db);
   const sources = packageSources(db);
   const rebuilds = getRebuildClaims(db);
@@ -514,9 +519,11 @@ export function exportAll(db, outDir, { onlyReproducible = false } = {}) {
     const files = unlistedFiles(app.releases.flatMap(r => r.dependencies?.lockfiles || []), appId);
     if (files.length) unlisted[appId] = files;
   }
-  const written = new Set(index.apps.map(a => a.appId));
+  const entries = new Map(index.apps.map(a => [a.appId, a]));
   for (const [alias, appId] of stubs) {
-    if (!written.has(alias)) fs.writeFileSync(path.join(tmp, 'apps', `${safeName(alias)}.json`), JSON.stringify({ schema: SCHEMA, appId, alias: true }));
+    if (entries.has(alias)) continue;
+    fs.writeFileSync(path.join(tmp, 'apps', `${safeName(alias)}.json`), JSON.stringify({ schema: SCHEMA, appId, alias: true }));
+    entries.get(appId).aliases.push(alias);
   }
   fs.writeFileSync(path.join(tmp, 'used-by.json'), JSON.stringify(usedByPackages(db, apps)));
   writeUpstreamHints(db, tmp);
@@ -559,16 +566,16 @@ export function exportApp(db, outDir, appId, { onlyReproducible = false, counts 
   const exported = new Set(index.apps.map(a => a.appId));
   const app = writeAppFiles(db, outDir, appId, aliases.get(appId) || [], counts, sources, (id) => id === appId || exported.has(id), { atomic: true, onlyReproducible });
   if (!app) return { exported: false };
-  index.apps = [...index.apps.filter(a => a.appId !== appId), indexEntry(app)].sort((a, b) => a.appId.localeCompare(b.appId));
-  writeAtomic(indexFile, JSON.stringify(index));
   // Same aliases writeAppFiles just wrote a stub for. A sibling listing with
   // no reproduced release gets no file (onlyReproducible); listing it here
   // makes rsync fail the whole upload (code 23, link_stat).
   const reproducedIds = onlyReproducible
     ? new Set(app.releases.flatMap(r => (r.reproducedFor || []).map(l => l.appId)))
     : null;
-  const files = ['index.json', `apps/${safeName(appId)}.json`, `apps/${safeName(appId)}/`,
-    ...app.aliases.filter(a => a.appId !== appId && !exported.has(a.appId) && (!reproducedIds || reproducedIds.has(a.appId))).map(a => `apps/${safeName(a.appId)}.json`)];
+  const stubIds = app.aliases.filter(a => a.appId !== appId && !exported.has(a.appId) && (!reproducedIds || reproducedIds.has(a.appId))).map(a => a.appId);
+  index.apps = [...index.apps.filter(a => a.appId !== appId), indexEntry(app, stubIds)].sort((a, b) => a.appId.localeCompare(b.appId));
+  writeAtomic(indexFile, JSON.stringify(index));
+  const files = ['index.json', `apps/${safeName(appId)}.json`, `apps/${safeName(appId)}/`, ...stubIds.map(id => `apps/${safeName(id)}.json`)];
   return { exported: true, releases: app.releases.length, files };
 }
 

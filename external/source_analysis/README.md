@@ -330,7 +330,7 @@ renamed into place so a reader never sees a half-written tree:
 
 | file | content |
 |---|---|
-| `index.json` | the exported app ids, which `exportApp` keeps current |
+| `index.json` | the exported app ids, each with the alias ids that have a stub (`aliases`), which `exportApp` keeps current. `complete: true` when a full export wrote it: it then names every id with a file under `apps/`, and the wallet page asks for no app file it does not name |
 | `apps/<aliasId>.json` | `{appId, alias: true}` for the repository's other app ids (the iPhone record of an Android app), one hop to the file above |
 | `apps/<appId>.json` | all releases of one app, newest version first: ref, commit, date, status, lockfiles, the OSV skip counts, the dependency and advisory counts (including `byScope`: app / build / tests / unknown), the submodule counts, the lock coverage (`locked`, `unlocked`, `unknown` or `none`, with up to five files a wallet team can fix: manifests without a lockfile, lockfiles nothing reads, downloads without a hash check, committed binaries), the advisories (id, severity, aliases, summary, package, scope, who pulls it in, how many products ship it) and the diff to the previous release |
 | `apps/<appId>/<ref>/dependencies.json` | the full resolved dependency list of one release (ecosystem, name, version, lockfile, pinning tier, direct, scope, dependants), each row with how many products ship the package and that exact version |
