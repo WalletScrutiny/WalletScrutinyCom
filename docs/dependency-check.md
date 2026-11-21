@@ -224,8 +224,10 @@ refs in 2,368 repositories, 153 with such a file (almost all Rust's
 `deny.toml` and `.cargo/audit.toml`), 66 naming advisories; 6 of the 59
 wallets keep one; together they speak to 82 of 7,219 advisory rows.
 
-Two public signals ride along, per advisory, pulled at build time by
-`scripts/build-advisory-signals.mjs` into `api/source-analysis/signals.json`:
+Two public signals ride along, per advisory, pulled after each pass by
+`external/source_analysis/signals.mjs` into `api/source-analysis/signals.json`,
+and each wallet's part of it into its app file (`signals`), which is where the
+page reads it:
 EPSS (FIRST's published probability that a CVE is exploited in the wild
 within 30 days) and CISA's Known Exploited Vulnerabilities list. They sort
 the queue and put a "critical" label in perspective (944 of the 1,053

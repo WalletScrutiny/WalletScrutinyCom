@@ -20,6 +20,8 @@ server {
     # source analysis export (external/source_analysis), rsynced here by the build server
     location /api/source-analysis/ {
         alias /srv/source-analysis/;
+        # a client that does not accept br gets gzip, not the plain file (3 MB for the largest app file)
+        gzip_types application/json;
         add_header Cache-Control "no-cache";
     }
 

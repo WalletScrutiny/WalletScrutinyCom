@@ -37,12 +37,12 @@ test('refreshAdvisories: a changed advisory re-exports and publishes that wallet
   const published = [];
   const r = await refreshAdvisories(db, { exportDir: dir, onlyReproducible: false, check, deliver: async () => {},
     publish: (d, files) => { published.push(...files); return { published: true }; },
-    signals: async () => ({ written: true }) });
+    signals: async () => ({ written: true, embedded: ['apps/a.wallet.json', 'apps/b.wallet.json'] }) });
   assert.deepEqual(r.changed, ['a.wallet'], 'a raised severity is new information too');
   assert.equal(r.added, 0);
   assert.deepEqual(r.exported, ['a.wallet']);
   assert.ok(r.published);
-  assert.deepEqual(published.sort(), ['apps/a.wallet.json', 'apps/a.wallet/', 'index.json', 'signals.json']);
+  assert.deepEqual(published.sort(), ['apps/a.wallet.json', 'apps/a.wallet/', 'apps/b.wallet.json', 'index.json', 'signals.json'], 'with the app file of the other wallet, whose signals the new signals.json changed');
   const app = JSON.parse(fs.readFileSync(path.join(dir, 'apps', 'a.wallet.json'), 'utf8'));
   assert.equal(app.releases[0].advisories[0].severity, 'critical', 'the app file carries the new severity');
   db.close();

@@ -7,7 +7,9 @@
 //   --own    the app's own code (e.g. app.michaelwuensch.bitbanana), left out of "undeclared"
 //   --cache  where downloaded artifact class lists are kept (default .cache/apk-contents)
 //   --export <dir> --app-id <id> --ref <tag>   also write <dir>/apk/<appId>.json for the
-//            wallet page (what is in the APK per declared package; apkExport below)
+//            wallet page (what is in the APK per declared package; apkExport below).
+//            The page asks for it once the app file names it (`extra`, export.mjs):
+//            after the app's next export.
 import fs from 'node:fs';
 import path from 'node:path';
 import minimist from 'minimist';

@@ -63,5 +63,5 @@ test('the steps of a listed app are loaded and read its app file', async () => {
   const nostr = { waitExtension: async () => false };
   assert.equal(await renderDependenciesPanel({ host, appId: 'app.ios', base: '/f', triageBase: '/ft', liveEvents: async () => [], fetchImpl, nostr }), null);
   assert.equal(await renderOwnVulnerabilities({ host, appId: 'app.ios', base: '/f', fetchImpl }), null);
-  assert.deepEqual(asked, ['/f/index.json', '/f/apps/app.ios.json', '/f/apps/app.ios.json']);
+  assert.deepEqual(asked, ['/f/index.json', '/f/apps/app.ios.json'], 'one copy of the app file for both steps');
 });

@@ -332,7 +332,7 @@ renamed into place so a reader never sees a half-written tree:
 |---|---|
 | `index.json` | the exported app ids, each with the alias ids that have a stub (`aliases`), which `exportApp` keeps current. `complete: true` when a full export wrote it: it then names every id with a file under `apps/`, and the wallet page asks for no app file it does not name |
 | `apps/<aliasId>.json` | `{appId, alias: true}` for the repository's other app ids (the iPhone record of an Android app), one hop to the file above |
-| `apps/<appId>.json` | all releases of one app, newest version first: ref, commit, date, status, lockfiles, the OSV skip counts, the dependency and advisory counts (including `byScope`: app / build / tests / unknown), the submodule counts, the lock coverage (`locked`, `unlocked`, `unknown` or `none`, with up to five files a wallet team can fix: manifests without a lockfile, lockfiles nothing reads, downloads without a hash check, committed binaries), the advisories (id, severity, aliases, summary, package, scope, who pulls it in, how many products ship it) and the diff to the previous release |
+| `apps/<appId>.json` | all releases of one app, newest version first: ref, commit, date, status, lockfiles, the OSV skip counts, the dependency and advisory counts (including `byScope`: app / build / tests / unknown), the submodule counts, the lock coverage (`locked`, `unlocked`, `unknown` or `none`, with up to five files a wallet team can fix: manifests without a lockfile, lockfiles nothing reads, downloads without a hash check, committed binaries), the advisories (id, severity, aliases, summary, package, scope, who pulls it in, how many products ship it) and the diff to the previous release. Also what the wallet page would otherwise fetch apart: `signals`, the part of `signals.json` about this app's advisories (left out while the export has no `signals.json`: the page then asks for that file), and `extra`, the ids with a file under `upstream/` and `apk/` (`{ upstream: [id], apk: [id] }`, a kind left out when there is none), so the page asks only for files that exist. `exportApp` writes `extra` only into an export a full export wrote (`complete` in `index.json`): one it had to start has neither directory |
 | `apps/<appId>/<ref>/dependencies.json` | the full resolved dependency list of one release (ecosystem, name, version, lockfile, pinning tier, direct, scope, dependants), each row with how many products ship the package and that exact version |
 | `apps/<appId>/<ref>/submodules.json` | the release's git submodules, one row per library with its three claims (`submoduleIdentity.mjs`), when it has any |
 
@@ -345,7 +345,8 @@ Each wallet does not wait for the end of the pass: as soon as an analysis of
 it is stored, `exportApp` rewrites its `apps/` files and its `index.json`
 entry in the existing export (each file renamed into place), and, with a
 publish target, rsyncs just those files (no `--delete`). The rest (upstream hints, signals, other wallets' product counts, releases
-removed since) waits for the full export that ends the pass. A failure there
+removed since) waits for the full export that ends the pass; the app file's
+`signals` and `extra` are taken from the export as it stands. A failure there
 is only logged; the full export writes the wallet again.
 
 New advisories do not wait for a pass either. A second timer,
@@ -353,8 +354,8 @@ New advisories do not wait for a pass either. A second timer,
 it asks OSV.dev again about the stored dependencies of every release (no
 clone, one batched query per release, `recheck.mjs`), and for each wallet
 whose stored advisories changed (new, withdrawn, or edited, such as a raised
-severity) rewrites its files with `exportApp`, rebuilds `signals.json` and
-rsyncs those files. Nothing changed, nothing is written. It needs an export
+severity) rewrites its files with `exportApp`, rebuilds `signals.json`, with
+it the `signals` of every app file it changes, and rsyncs those files. Nothing changed, nothing is written. It needs an export
 to exist, and it is skipped while a pass runs, since the pass rechecks and
 exports everything when it ends. So a new advisory reaches the page within
 about an hour, or at the end of a pass that is running then.
@@ -417,7 +418,10 @@ database).
 After the export, the pass writes `signals.json` into it (`signals.mjs`: EPSS,
 CISA's exploited list, publication dates per advisory; a feed that fails only
 leaves its part out, and the previous file stays when all fail;
-`SOURCE_ANALYSIS_SIGNALS=off` skips it). Then `news.json` (`news.mjs`): the
+`SOURCE_ANALYSIS_SIGNALS=off` skips it). Each app file carries its own
+advisories' part as `signals` (`embedSignals` rewrites the app files a new
+`signals.json` changes), so a wallet page does not download every wallet's
+values: `signals.json` was half of what a page fetched before any click. Then `news.json` (`news.mjs`): the
 advisories published in the last 14 days, each with the wallets whose newest
 working release, or a release published in the last 6 months, uses an
 affected version, for the site's `/news/` page and its release filter. Each
@@ -446,7 +450,8 @@ Before copying, every `.json` gets a brotli copy next to it (`x.json.br`,
 quality 11, redone only when the `.json` is newer). The nginx sites have
 `brotli_static on`, so a browser that accepts br gets the copy: the
 dependency lists shrink to about a sixth (42 MB of export to 6.6 MB). Others
-get the plain file.
+get gzip from nginx (`gzip_types application/json` in the location,
+`external/configs/webserver_nginx/`).
 
 | variable | value |
 |---|---|
@@ -949,7 +954,8 @@ The `notifySha256Changed()` function is called when a SHA256 change is detected.
 and VEX documents of every analysed wallet and of its direct users at the
 shipped version into `upstream_triage` / `upstream_triage_checked`, prints what
 they speak to, and with `--export <dir>` writes the per-wallet hints the panel
-shows (`exportAll` writes them too). `GITHUB_TOKEN` switches GitHub reads to
+shows (`exportAll` writes them too). The page asks for a wallet's hints once
+its app file names them (`extra`), that is after the app's next export. `GITHUB_TOKEN` switches GitHub reads to
 the GraphQL API (five refs per query); without it raw.githubusercontent.com
 answers 429 after a few thousand files. Resumable: refs already read are
 skipped unless `--all`. See docs/dependency-check.md, "Triage".
