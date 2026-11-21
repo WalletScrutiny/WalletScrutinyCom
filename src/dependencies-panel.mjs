@@ -17,7 +17,7 @@ import { dependencyTriageKind, mainRelayUrl, eventRelayUrls } from './nostr-cons
 import { fetchEvents } from './nostr-client.mjs';
 import { openTriageDialog, browserNostr } from './dependencies-triage-form.mjs';
 import { treeElement } from './dependencies-tree.mjs';
-import { rebuildTile, rebuildsElement, rebuildIndex } from './dependencies-rebuilds.mjs';
+import { rebuildTile, rebuildsElement, rebuildIndex, withClaimUrls } from './dependencies-rebuilds.mjs';
 import { epssTrigger, tipTrigger, refreshTip } from './dependencies-epss-tip.mjs';
 import { showAnalysedReleases } from './build-verifications.mjs';
 import { releaseForVersion, releaseNamesVersion } from './build-verifications-model.mjs';
@@ -43,14 +43,15 @@ async function fetchJson(url, fetchImpl) {
   return response.json();
 }
 
-// An app file, fetched once per page: the panel and the "Known
-// vulnerabilities" step (own-vulnerabilities.mjs) read the same one. A
-// fetch that failed is not kept: the other step asks again.
-const appFiles = new WeakMap(); // fetchImpl -> Map(url -> Promise)
-function appFile(url, fetchImpl) {
+// A file fetched once per page. The app file: the panel and the "Known
+// vulnerabilities" step (own-vulnerabilities.mjs) read the same one. The
+// app's rebuild details: one file for all its releases. A fetch that failed
+// is not kept: whoever asks next asks again.
+const fetched = new WeakMap(); // fetchImpl -> Map(url -> Promise)
+function fetchOnce(url, fetchImpl) {
   if (typeof fetchImpl !== 'function') return fetchJson(url, fetchImpl);
-  if (!appFiles.has(fetchImpl)) appFiles.set(fetchImpl, new Map());
-  const byUrl = appFiles.get(fetchImpl);
+  if (!fetched.has(fetchImpl)) fetched.set(fetchImpl, new Map());
+  const byUrl = fetched.get(fetchImpl);
   if (!byUrl.has(url)) {
     const file = fetchJson(url, fetchImpl);
     byUrl.set(url, file);
@@ -62,10 +63,10 @@ function appFile(url, fetchImpl) {
 // The app's export file, following one alias hop (results are stored under
 // the first app id of a repository; the other ids get a stub pointing at it).
 export async function loadApp(appId, { base = EXPORT_BASE, fetchImpl = globalThis.fetch } = {}) {
-  const first = await appFile(`${base}/apps/${safeName(appId)}.json`, fetchImpl);
+  const first = await fetchOnce(`${base}/apps/${safeName(appId)}.json`, fetchImpl);
   if (!first) return null;
   if (first.alias && first.appId && first.appId !== appId) {
-    return appFile(`${base}/apps/${safeName(first.appId)}.json`, fetchImpl);
+    return fetchOnce(`${base}/apps/${safeName(first.appId)}.json`, fetchImpl);
   }
   return first;
 }
@@ -1243,12 +1244,14 @@ function sortingElement(sorting) {
 // Submodule rows (external/source_analysis/submoduleIdentity.mjs), as words.
 export function submoduleIdentityText(r) {
   const id = r.identity || {};
+  // how many files the copy changed; an older export lists them
+  const changed = id.filesChanged ?? id.files?.length;
   if (r.error) return `Could not be checked: ${r.error}`;
   if (r.firstParty) return "The wallet's own code";
   switch (id.status) {
     case 'upstream-tag': return `Upstream release ${id.tag}, unmodified${id.viaTree ? ' (same files, other history)' : ''}`;
     case 'upstream-commit': return id.base ? `Upstream code, ${plural(id.ahead, 'commit')} after ${id.base}, unmodified` : 'Upstream code, unmodified';
-    case 'derived': return `Modified: ${id.base} plus ${plural(id.ahead, 'commit')} upstream does not have${id.files ? ` (${plural(id.files.length, 'file')} changed)` : ''}`;
+    case 'derived': return `Modified: ${id.base} plus ${plural(id.ahead, 'commit')} upstream does not have${changed != null ? ` (${plural(changed, 'file')} changed)` : ''}`;
     case 'unknown-origin': return 'No upstream release in its history';
     default: return 'Unknown';
   }
@@ -1342,13 +1345,18 @@ function submodulesSection(model, { appId, base, fetchImpl }) {
   return details;
 }
 
-// The release's rebuild-details.json, fetched on the first info icon opened; null when it has none.
-function rebuildDetailsLoader(url, fetchImpl) {
+// What OSS Rebuild's attestations say, fetched on the first info icon opened:
+// the app's rebuild-details.json, one file for all its releases, or the
+// release's own from an export that still writes one per release; null when
+// there is neither.
+export function rebuildDetailsLoader(appDir, ref, fetchImpl) {
   let entry = null;
   return () => {
     if (!entry) {
       entry = { doc: undefined };
-      entry.ready = fetchJson(url, fetchImpl).catch(() => null).then((doc) => { entry.doc = doc; });
+      entry.ready = fetchOnce(`${appDir}/rebuild-details.json`, fetchImpl)
+        .then(doc => doc || fetchJson(`${appDir}/${ref}/rebuild-details.json`, fetchImpl))
+        .catch(() => null).then((doc) => { entry.doc = doc; });
     }
     return entry;
   };
@@ -1361,7 +1369,8 @@ function treeTabs(model, table, { appId, base, fetchImpl, label }) {
   const tabs = [];
   const panes = [];
   let loaded = false;
-  const dir = `${base}/apps/${safeName(appId)}/${safeName(model.ref)}`;
+  const appDir = `${base}/apps/${safeName(appId)}`;
+  const dir = `${appDir}/${safeName(model.ref)}`;
   const treePane = el('div', { className: 'dp-tabpanel', role: 'tabpanel', hidden: true }, el('p', { className: 'dpt-intro' }, 'Loading the dependency list…'));
   const rebuildPane = el('div', { className: 'dp-tabpanel', role: 'tabpanel', hidden: true }, el('p', { className: 'dpt-intro' }, 'Loading the rebuild results…'));
   const tablePane = el('div', { className: 'dp-tabpanel', role: 'tabpanel' }, table || el('p', { className: 'dpt-intro' }, 'No published advisories found for this release.'));
@@ -1371,12 +1380,12 @@ function treeTabs(model, table, { appId, base, fetchImpl, label }) {
       loaded = true;
       Promise.all([
         fetchJson(`${dir}/dependencies.json`, fetchImpl),
-        model.rebuilds ? fetchJson(`${dir}/rebuilds.json`, fetchImpl).catch(() => null) : null,
+        model.rebuilds ? fetchJson(`${dir}/rebuilds.json`, fetchImpl).then(withClaimUrls).catch(() => null) : null,
       ]).then(([data, rebuilds]) => {
         if (!data?.dependencies?.length) throw new Error('empty');
         // a row's product from the export's file sorting (issue 994); none says "this app"
         treePane.replaceChildren(treeElement({ dependencies: data.dependencies, advisories: model.allAdvisories || model.advisories, wallet: label, rebuilds: rebuildIndex(rebuilds), productOf: row => row.target ?? null, counted: model.counted }));
-        rebuildPane.replaceChildren(rebuilds ? rebuildsElement(rebuilds, data.dependencies, { loadDetails: rebuildDetailsLoader(`${dir}/rebuild-details.json`, fetchImpl) }) : el('p', { className: 'dpt-intro' }, 'No rebuild results for this release.'));
+        rebuildPane.replaceChildren(rebuilds ? rebuildsElement(rebuilds, data.dependencies, { loadDetails: rebuildDetailsLoader(appDir, safeName(model.ref), fetchImpl) }) : el('p', { className: 'dpt-intro' }, 'No rebuild results for this release.'));
       }).catch((error) => {
         console.warn('Dependency tree not available', error);
         loaded = false;

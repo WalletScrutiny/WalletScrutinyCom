@@ -19,7 +19,7 @@ describe('advisory signals', () => {
     assert.equal(epssLabel(0.0004), '<0.1 %');
     assert.equal(epssLabel(0.236), '24 %');
     assert.equal(epssLabel(null), null);
-    const csv = csvOf([{ ecosystem: 'npm', name: 'b', version: '1', lockfile: 'l', direct: true, tier: 't' }], applySignals([{ ...b, ecosystem: 'npm', version: '1' }], signals));
+    const csv = csvOf([{ ecosystem: 'npm', name: 'b', version: '1', lockfile: 'l', direct: true }], applySignals([{ ...b, ecosystem: 'npm', version: '1' }], signals));
     assert.match(csv.split('\n')[0], /,epss,exploited$/);
     assert.match(csv.split('\n')[1], /,0\.2,yes$/);
   });

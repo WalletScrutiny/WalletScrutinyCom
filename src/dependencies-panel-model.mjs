@@ -432,7 +432,7 @@ export function csvOf(dependencies = [], advisories = []) {
     if (!byPackage.has(key)) byPackage.set(key, []);
     byPackage.get(key).push(a);
   }
-  const header = ['ecosystem', 'package', 'version', 'lockfile', 'direct', 'where', 'pinning', 'advisories', 'worst_severity', 'products', 'products_same_version', 'decision', 'justification', 'epss', 'exploited'];
+  const header = ['ecosystem', 'package', 'version', 'lockfile', 'direct', 'where', 'advisories', 'worst_severity', 'products_same_version', 'decision', 'justification', 'epss', 'exploited'];
   const lines = [header.join(',')];
   for (const d of dependencies) {
     const hits = byPackage.get(`${d.ecosystem}:${d.name}@${d.version}`) || [];
@@ -441,10 +441,8 @@ export function csvOf(dependencies = [], advisories = []) {
       d.ecosystem, d.name, d.version, d.lockfile,
       d.direct === null ? '' : (d.direct ? 'yes' : 'no'),
       whereOf(d),
-      d.tier,
       hits.map(h => h.id).join(' '),
       worst ? worst.severity : '',
-      d.products ?? '',
       d.productsSameVersion ?? '',
       // The worst advisory's decision; a row with several advisories lists each decision in the advisories' order.
       hits.map(h => TRIAGE_LABEL[h.decision?.status] || 'undecided').join(' '),

@@ -2,7 +2,7 @@ import './setup.mjs';
 import { describe, test } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { loadApp, renderDependenciesPanel, liveTriageEvents, triageAuthors, panelElement, usedBy, severityTally, coverageTipLines, historyScale } from '../../src/dependencies-panel.mjs';
+import { loadApp, renderDependenciesPanel, liveTriageEvents, triageAuthors, panelElement, usedBy, severityTally, coverageTipLines, historyScale, rebuildDetailsLoader, submoduleIdentityText } from '../../src/dependencies-panel.mjs';
 import { renderOwnVulnerabilities } from '../../src/own-vulnerabilities.mjs';
 import { panelModel, appForListing } from '../../src/dependencies-panel-model.mjs';
 import { releaseForVersion } from '../../src/build-verifications-model.mjs';
@@ -490,6 +490,39 @@ describe('dependencies panel: git submodules', () => {
   ];
   // A C/C++ wallet: no lockfile the check reads, so the analysis is "unsupported", but its submodules were checked.
   const CPP = { schema: 1, appId: 'cpp.wallet', aliases: [], defaultBranch: null, releases: [{ kind: 'release', ref: '2.9.1', commit: 'f'.repeat(40), status: 'unsupported', advisories: [], submodules: SUBS }] };
+
+  test('a modified copy says how many files it changed, from the count or from an older export\'s list', () => {
+    const derived = identity => submoduleIdentityText({ identity: { status: 'derived', base: 'v1.0', ahead: 3, ...identity } });
+    assert.equal(derived({ filesChanged: 2 }), 'Modified: v1.0 plus 3 commits upstream does not have (2 files changed)');
+    assert.equal(derived({ files: ['a.c'] }), 'Modified: v1.0 plus 3 commits upstream does not have (1 file changed)');
+    assert.equal(derived({}), 'Modified: v1.0 plus 3 commits upstream does not have');
+  });
+
+  // rebuild-details.json: one file per app (export.mjs), fetched once however many releases are looked at.
+  test('rebuild details come from the app\'s file, once; from the release\'s own with an older export', async () => {
+    const perApp = { schema: 1, details: { u1: { commit: 'a' } } };
+    let { fetchImpl, calls } = fakeFetch({ '/x/apps/w/rebuild-details.json': perApp });
+    const first = rebuildDetailsLoader('/x/apps/w', 'v1', fetchImpl)();
+    assert.equal(first.doc, undefined, 'not there yet');
+    await first.ready;
+    const second = rebuildDetailsLoader('/x/apps/w', 'v2', fetchImpl)();
+    await second.ready;
+    assert.deepEqual([first.doc, second.doc], [perApp, perApp]);
+    assert.deepEqual(calls, ['/x/apps/w/rebuild-details.json'], 'another release of the app reads the same copy');
+
+    const perRelease = { schema: 1, details: { u2: { commit: 'b' } } };
+    ({ fetchImpl, calls } = fakeFetch({ '/x/apps/w/v1/rebuild-details.json': perRelease }));
+    const old = rebuildDetailsLoader('/x/apps/w', 'v1', fetchImpl)();
+    await old.ready;
+    assert.equal(old.doc, perRelease);
+    assert.deepEqual(calls, ['/x/apps/w/rebuild-details.json', '/x/apps/w/v1/rebuild-details.json']);
+    const none = rebuildDetailsLoader('/x/apps/w', 'v2', fetchImpl)();
+    await none.ready;
+    assert.equal(none.doc, null, 'neither file: no summary');
+    const offline = rebuildDetailsLoader('/x/apps/w', 'v1', async () => { throw new Error('offline'); })();
+    await offline.ready;
+    assert.equal(offline.doc, null);
+  });
 
   test('a release with packages never says that no lockfile was found', () => {
     // Bitkey: its app type is unknown, so "unsupported", but its lockfiles were read.
