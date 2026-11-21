@@ -43,15 +43,34 @@ async function fetchJson(url, fetchImpl) {
   return response.json();
 }
 
+// An app file, fetched once per page: the panel and the "Known
+// vulnerabilities" step (own-vulnerabilities.mjs) read the same one.
+const appFiles = new WeakMap(); // fetchImpl -> Map(url -> Promise)
+function appFile(url, fetchImpl) {
+  if (typeof fetchImpl !== 'function') return fetchJson(url, fetchImpl);
+  if (!appFiles.has(fetchImpl)) appFiles.set(fetchImpl, new Map());
+  const byUrl = appFiles.get(fetchImpl);
+  if (!byUrl.has(url)) byUrl.set(url, fetchJson(url, fetchImpl));
+  return byUrl.get(url);
+}
+
 // The app's export file, following one alias hop (results are stored under
 // the first app id of a repository; the other ids get a stub pointing at it).
 export async function loadApp(appId, { base = EXPORT_BASE, fetchImpl = globalThis.fetch } = {}) {
-  const first = await fetchJson(`${base}/apps/${safeName(appId)}.json`, fetchImpl);
+  const first = await appFile(`${base}/apps/${safeName(appId)}.json`, fetchImpl);
   if (!first) return null;
   if (first.alias && first.appId && first.appId !== appId) {
-    return fetchJson(`${base}/apps/${safeName(first.appId)}.json`, fetchImpl);
+    return appFile(`${base}/apps/${safeName(first.appId)}.json`, fetchImpl);
   }
   return first;
+}
+
+// Of `ids`, the ones the app file names a file of `kind` for ('upstream',
+// 'apk': its `extra`, export.mjs), so the page asks for no file that is not
+// there. Every id when the app file comes from an export that did not name
+// them yet.
+function idsWith(app, kind, ids) {
+  return app.extra ? ids.filter(id => app.extra[kind]?.includes(id)) : ids;
 }
 
 // statements.json (scripts/build-dependency-triage.mjs): every statement the
@@ -134,7 +153,8 @@ export async function loadUpstream(appIds, { base = EXPORT_BASE, fetchImpl = glo
   return null;
 }
 
-// Public per-CVE signals (scripts/build-advisory-signals.mjs), or null when the build had none.
+// Public per-CVE signals of every wallet (signals.json, external/source_analysis/signals.mjs),
+// or null when the export has none. Only for an app file without `signals`.
 export async function loadSignals({ base = EXPORT_BASE, fetchImpl = globalThis.fetch } = {}) {
   try {
     return await fetchJson(`${base}/signals.json`, fetchImpl);
@@ -1457,11 +1477,16 @@ export async function renderDependenciesPanel({ host, appId, platform = 'app', s
   try {
     app = appForListing(await loadApp(appId, { base, fetchImpl }), appId, platform);
     if (app) {
-      published = await loadTriage({ triageBase, fetchImpl });
+      // The app file carries its advisories' signals and names the other
+      // files it has; an older export's does neither, and the page asks.
+      const ids = [app.appId, appId];
+      [published, signals, upstream, apk] = await Promise.all([
+        loadTriage({ triageBase, fetchImpl }),
+        app.signals !== undefined ? app.signals : loadSignals({ base, fetchImpl }),
+        loadUpstream(idsWith(app, 'upstream', ids), { base, fetchImpl }),
+        loadApk(idsWith(app, 'apk', ids), { base, fetchImpl }),
+      ]);
       triage = triageForApp(app, published);
-      signals = await loadSignals({ base, fetchImpl });
-      upstream = await loadUpstream([app.appId, appId], { base, fetchImpl });
-      apk = await loadApk([app.appId, appId], { base, fetchImpl });
     }
   } catch (error) {
     console.warn('Dependencies panel: export not reachable', error);
