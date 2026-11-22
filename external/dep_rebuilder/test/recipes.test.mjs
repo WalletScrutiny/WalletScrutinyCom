@@ -101,7 +101,9 @@ function tgz(files) {
     const h = Buffer.alloc(512), b = Buffer.from(body);
     h.write(`package/${name}`, 0, 100, 'utf8');
     h.write(b.length.toString(8).padStart(11, '0') + '\0', 124);
-    h.write('0', 156); h.write('ustar\0' + '00', 257);
+    h.write('        ', 148); h.write('0', 156); h.write('ustar\0' + '00', 257);
+    let sum = 0; for (const x of h) sum += x;
+    h.write(sum.toString(8).padStart(6, '0') + '\0 ', 148); // the reader takes no header with a wrong checksum
     blocks.push(h, b, Buffer.alloc((512 - (b.length % 512)) % 512));
   }
   blocks.push(Buffer.alloc(1024));
@@ -111,7 +113,7 @@ function tgz(files) {
 // the same with GNU long names: a file name as long as the build likes
 function tgzLongNames(names) {
   const blocks = [];
-  const header = (name, size, type) => { const h = Buffer.alloc(512); h.write(name, 0, 100, 'utf8'); h.write(size.toString(8).padStart(11, '0') + '\0', 124); h.write(type, 156); h.write('ustar\0' + '00', 257); return h; };
+  const header = (name, size, type) => { const h = Buffer.alloc(512); h.write(name, 0, 100, 'utf8'); h.write(size.toString(8).padStart(11, '0') + '\0', 124); h.write('        ', 148); h.write(type, 156); h.write('ustar\0' + '00', 257); let sum = 0; for (const x of h) sum += x; h.write(sum.toString(8).padStart(6, '0') + '\0 ', 148); return h; };
   const padded = (b) => [b, Buffer.alloc((512 - (b.length % 512)) % 512)];
   for (const name of names) blocks.push(header('././@LongLink', name.length + 9, 'L'), ...padded(Buffer.from(`package/${name}\0`)), header('package/x', 1, '0'), ...padded(Buffer.from('x')));
   blocks.push(Buffer.alloc(1024));
