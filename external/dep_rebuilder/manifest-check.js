@@ -13,6 +13,10 @@
 //                                    from a registry or from the repository
 //   workspace <repository> <package> prints 1 when the package is a member of a
 //                                    workspace (a directory below a root that declares one), else 0
+//   locate-all <repository>          for a recipe, which builds many packages of one repository:
+//                                    reads lines "<n> <name>" from WANTED and prints, per line,
+//                                    "== package <n> <directory>", with ? for the directory when
+//                                    none or several hold a package of that name
 //
 // Why "sources": npm clones a git dependency and runs its prepare script whatever
 // --ignore-scripts says, and the install step has the network. So a dependency is
@@ -75,15 +79,15 @@ function lockProblem(dir) {
   return hit;
 }
 
-function manifestsUnder(dir, depth, out) {
-  if (depth > 8 || out.length > 5000) return out;
+function manifestsUnder(dir, depth, out, most) {
+  if (depth > 8 || out.length > (most || 5000)) return out;
   var names;
   try { names = fs.readdirSync(dir); } catch (e) { return out; }
   names.forEach(function (name) {
     if (name === "node_modules" || name === ".git") return;
     var file = path.join(dir, name), stat;
     try { stat = fs.lstatSync(file); } catch (e) { return; }
-    if (stat.isDirectory()) manifestsUnder(file, depth + 1, out);
+    if (stat.isDirectory()) manifestsUnder(file, depth + 1, out, most);
     else if (name === "package.json" && stat.isFile()) out.push(file);
   });
   return out;
@@ -148,6 +152,23 @@ function locate(repo, pkg, name) {
   return /^[\w.@\/-]+$/.test(rel) ? rel : "?";   // a name with a line break would be read as a line of this step
 }
 
+// One walk for every package a recipe wants. Private packages are left out: a fixture or an
+// example can carry the name of a published package, and is never the one that is published.
+function locateAll(repo, wanted) {
+  var byName = {};
+  manifestsUnder(repo, 0, [], 100000).forEach(function (file) {
+    var p;
+    try { p = readJson(file); } catch (e) { return; }
+    if (!p || typeof p.name !== "string" || p.private === true) return;
+    (byName[" " + p.name] = byName[" " + p.name] || []).push(path.dirname(file));
+  });
+  return wanted.map(function (w) {
+    var dirs = byName[" " + w.name] || [];
+    var rel = dirs.length === 1 ? (path.relative(repo, dirs[0]) || ".") : "?";
+    return { n: w.n, dir: /^[\w.@\/-]+$/.test(rel) ? rel : "?" };
+  });
+}
+
 var mode = process.argv[1];
 if (mode === "scripts") {
   var s = scriptsOf(process.argv[2]);
@@ -159,6 +180,12 @@ if (mode === "scripts") {
   if (problem) console.log(problem.replace(/\s+/g, " ").slice(0, 200));
 } else if (mode === "locate") {
   console.log(locate(process.argv[2], process.argv[3], process.argv[4]));
+} else if (mode === "locate-all") {
+  var wanted = String(process.env.WANTED || "").split("\n").map(function (line) {
+    var m = /^(\d+) (\S+)$/.exec(line);
+    return m && { n: m[1], name: m[2] };
+  }).filter(Boolean);
+  locateAll(process.argv[2], wanted).forEach(function (r) { console.log("== package " + r.n + " " + r.dir); });
 } else if (mode === "workspace") {
   console.log(workspaceMember(process.argv[2], process.argv[3]) ? "1" : "0");
 }

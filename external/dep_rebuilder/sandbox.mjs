@@ -17,9 +17,11 @@ export const LIMITS = {
 const MANIFEST_CHECK = fs.readFileSync(new URL('./manifest-check.js', import.meta.url), 'utf8');
 if (MANIFEST_CHECK.includes("'")) throw new Error('manifest-check.js must not contain a single quote: it is passed to node -e in single quotes');
 export const SCRIPT = fs.readFileSync(new URL('./npm-sandbox.sh', import.meta.url), 'utf8').replace('__MANIFEST_CHECK__', () => MANIFEST_CHECK);
+// what the containers of a recipe run (rebuild-recipe.mjs)
+export const RECIPE_SCRIPT = fs.readFileSync(new URL('./recipe-sandbox.sh', import.meta.url), 'utf8').replace('__MANIFEST_CHECK__', () => MANIFEST_CHECK);
 
 /** podman/docker arguments for one phase. network 'none' = offline. */
-export function sandboxArgs({ image, name, workDir, outDir = null, env, network = 'default', cli = CONTAINER_CLI, uid = process.getuid(), gid = process.getgid(), limits = LIMITS }) {
+export function sandboxArgs({ image, name, workDir, outDir = null, env, network = 'default', cli = CONTAINER_CLI, uid = process.getuid(), gid = process.getgid(), limits = LIMITS, script = SCRIPT }) {
   const args = [
     'run', '--rm', '--name', name,
     '--user', `${uid}:${gid}`,
@@ -36,7 +38,7 @@ export function sandboxArgs({ image, name, workDir, outDir = null, env, network 
   if (network === 'none') args.push('--network', 'none');
   if (cli === 'podman' && uid !== 0) args.splice(1, 0, '--userns=keep-id');
   for (const [k, v] of Object.entries(env)) args.push('-e', `${k}=${v}`);
-  args.push(image, 'bash', '-c', SCRIPT);
+  args.push(image, 'bash', '-c', script);
   return args;
 }
 

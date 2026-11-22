@@ -11,8 +11,12 @@ const HOUR = 3600 * 1000;
  *   sync()          refresh candidates and Google's list
  *   step(candidate) rebuild one version and save the result; may throw
  *   sleep(ms)       resolves early when the loop is asked to stop
+ *   recipes         { next(deferred), run(job), keys() }: the next build of a recipe (one commit of a
+ *                   repository, many packages; `key` names it) and running it. These come before
+ *                   single versions: one such build settles what the generic build cannot.
+ *                   `keys()` are the recipes in use: the failure of any other is the generic build's again.
  */
-export async function serveLoop({ db, sync, step, sleep, shouldStop, publish = null, log = () => {}, now = Date.now,
+export async function serveLoop({ db, sync, step, sleep, shouldStop, publish = null, recipes = null, log = () => {}, now = Date.now,
   publishEveryMs = HOUR / 2, scope = 'app', minWallets = 1, syncEveryMs = 24 * HOUR, idleMs = HOUR, retrySyncMs = HOUR / 2, errorMs = 5 * 60 * 1000 }) {
   let dirty = false, lastPublish = 0; // results since the last copy to the website
   const publishNow = async () => {
@@ -37,7 +41,24 @@ export async function serveLoop({ db, sync, step, sleep, shouldStop, publish = n
       }
       continue;
     }
-    const next = pending(db, { limit: deferred.size + 1, scope, minWallets }).find(c => !deferred.has(`${c.name}@${c.version}`));
+    let job = null;
+    if (recipes) {
+      try { job = await recipes.next(deferred); } catch (e) { log(`recipes: ${e.message}`); }
+    }
+    if (job) {
+      if (shouldStop()) break; // looking for it took a while (relays, the repository's tags): asked to stop since
+      if (dirty && now() - lastPublish >= publishEveryMs) await publishNow();
+      try {
+        await recipes.run(job);
+        dirty = true;
+      } catch (e) {
+        deferred.add(job.key);
+        log(`! ${job.key}: ${e.message}`);
+        await sleep(errorMs);
+      }
+      continue;
+    }
+    const next = pending(db, { limit: deferred.size + 1, scope, minWallets, recipeKeys: recipes?.keys?.() ?? null }).find(c => !deferred.has(`${c.name}@${c.version}`));
     if (dirty && (now() - lastPublish >= publishEveryMs || !next)) await publishNow();
     if (!next) { await sleep(Math.min(idleMs, Math.max(nextSyncAt - now(), 1000))); continue; }
     try {

@@ -13,7 +13,41 @@ const mode = process.env.FAKE_BUILD || 'ok';
 const network = args.includes('--network') ? args[args.indexOf('--network') + 1] : 'default';
 fs.appendFileSync(process.env.FAKE_CALLS, `${JSON.stringify({ ...env, network })}\n`);
 
-if (env.PHASE === 'clone') {
+if (env.PACK !== undefined) {
+  // A recipe's containers (recipe-sandbox.sh). FAKE_RECIPE is JSON:
+  //   dirs    { n: directory } the clone step says, default packages/<n>
+  //   clone   'fails'; 'brings' = leaves the first published tarball in the work directory
+  //   fetch   'brings' the same; 'hides' = the same, in a directory nobody may enter; 'fails'; 'flood-fails' = 3 MB of output first;
+  //           'flood-hangs' = 3 MB of output, then it never ends
+  //   build   'fails'; 'claims' = prints package lines of its own
+  //   out     { n: 'ok' | 'other' | 'long-names' | 'none' | 'link' } what is packed for package n, default ok
+  const f = JSON.parse(process.env.FAKE_RECIPE || '{}');
+  const lines = (v) => String(v || '').split('\n').filter(Boolean).map(l => l.split(' '));
+  const bring = () => { fs.mkdirSync(path.join(mount('/work'), 'cache'), { recursive: true }); fs.copyFileSync(path.join(process.env.FAKE_REGISTRY, '0.tgz'), path.join(mount('/work'), 'cache', 'x.tgz')); };
+  if (env.PHASE === 'clone') {
+    if (f.clone === 'fails') { console.log('fatal: unable to access the repository'); process.exit(128); }
+    if (f.clone === 'brings') bring();
+    console.log(`commit ${'c'.repeat(40)} 2026-01-01T00:00:00+00:00`);
+    for (const [n] of lines(env.WANTED)) console.log(`== package ${n} ${f.dirs?.[n] ?? `packages/${n}`}`);
+  } else if (env.PHASE === 'fetch') {
+    if (f.fetch === 'flood-fails') { const line = `${'x'.repeat(1023)}\n`; for (let i = 0; i < 3000; i++) fs.writeSync(1, line); process.exit(1); }
+    if (f.fetch === 'fails') { console.log('Error: the lockfile would have been modified'); process.exit(1); }
+    if (f.fetch === 'flood-hangs') { const line = `${'x'.repeat(1023)}\n`; for (let i = 0; i < 3000; i++) fs.writeSync(1, line); Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0); }
+    if (f.fetch === 'brings' || f.fetch === 'hides') bring();
+    if (f.fetch === 'hides') fs.chmodSync(path.join(mount('/work'), 'cache'), 0o000);
+    if (f.build === 'claims') console.log('== package 0 elsewhere');
+  } else if (env.PHASE === 'build') {
+    console.log('== node v20.1.0 npm 10.0.0 (offline)');
+    if (f.build === 'fails') { console.log('Error: make: *** [build] Error 1'); process.exit(2); }
+    for (const [n] of lines(env.DIRS)) {
+      const how = f.out?.[n] ?? 'ok', out = path.join(mount('/out'), `${n}.tgz`);
+      if (how === 'ok') fs.copyFileSync(path.join(process.env.FAKE_REGISTRY, `${n}.tgz`), out);
+      if (how === 'other') fs.copyFileSync(process.env.FAKE_OTHER_TGZ, out);
+      if (how === 'long-names') fs.copyFileSync(process.env.FAKE_LONG_TGZ, out);
+      if (how === 'link') fs.symlinkSync(path.join(process.env.FAKE_REGISTRY, `${n}.tgz`), out);
+    }
+  }
+} else if (env.PHASE === 'clone') {
   if (mode === 'clone-fails') { console.log('fatal: unable to access the repository'); process.exit(128); }
   if (mode === 'long-clone') { const line = `${'x'.repeat(1023)}\n`; for (let i = 0; i < 300; i++) fs.writeSync(1, line); } // as from a git server that talks a lot
   console.log(`commit ${'c'.repeat(40)} 2026-01-01T00:00:00+00:00`);

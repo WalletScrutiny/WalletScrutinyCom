@@ -5,7 +5,9 @@ first**, and stores whether the rebuilt package matches the one the registry
 serves. Every build runs in a sandbox. It has a database of its own and does
 not touch `source_analysis`'s.
 
-Today: **npm**. Cargo, PyPI and Maven need their own build recipes.
+Today: **npm**, with a generic build for packages that build in their own
+directory and [recipes](#recipes) for repositories that build many packages at
+once. Cargo, PyPI and Maven are not built yet.
 
 ## Run it
 
@@ -23,6 +25,10 @@ node index.mjs status
 node index.mjs site --publish   # write rebuilds.json for the website and copy it (the service does this by itself)
 ```
 
+`run --recipe babel` builds the next commits that recipe covers (`--top N`
+commits, `--retry` also what failed with the recipe as it is). `try` is for
+writing a recipe, see [Recipes](#recipes).
+
 `run` options: `--scope app|any` (default `app`: only versions that end up in a wallet's app, not build
 tooling), `--min-wallets N`, `--retry` (rebuild failures again), `--package name@version` (explicit, repeatable).
 
@@ -33,7 +39,9 @@ Google's bucket per package). A version already tried is skipped unless `--retry
 Environment: `DEP_REBUILDER_EXPORT` (export URL or directory, default the live
 `api/source-analysis`), `DEP_REBUILDER_DATA` (database, logs, scratch; default
 `./data`), `DEP_REBUILDER_MEMORY`, `_CPUS`, `_PIDS`, `_DISK_GB` (default 8),
-`_PHASE_MIN` (default 20), `DEP_REBUILDER_CLI` (`podman`).
+`_PHASE_MIN` (default 20), `DEP_REBUILDER_CLI` (`podman`),
+`DEP_REBUILDER_RECIPE_RELAYS` and `DEP_REBUILDER_RECIPE_AUTHORS` (the list's
+file), see [Recipes over Nostr](#recipes-over-nostr).
 
 ## Run it as a service
 
@@ -198,6 +206,131 @@ What this does not give: a build that needs its dependencies' install scripts
 git dependency fails, and is recorded as failed, not retried with a network. The
 container boundary is rootless podman's; for a hard boundary run the whole
 utility inside a VM.
+
+## Recipes
+
+The generic build packs one package in its own directory. Many of the most
+shared packages are not built that way: Babel builds 150 packages with one
+`make` at the repository's root. A **recipe** writes down, once per source
+repository, what its release build runs. One build of one commit then gives
+every package the repository publishes from it, and each is compared with the
+registry's file on its own.
+
+A recipe is one JSON document in `recipes/` (`recipes/babel.json` is the first; `recipes/babel-node25.json` is the same build for the releases made on a newer Node):
+
+| field | |
+|---|---|
+| `schema` | `1` |
+| `id` | a short name; results are filed under it |
+| `ecosystem` | `npm` |
+| `repo` | the repository, a plain `https` URL |
+| `packages` | the names it builds, `*` (at most two in a name) for any part of a name: `["@babel/*"]` |
+| `versions` | optional `min` and `below` (`{"min": "7.22.5", "below": "7.28.5"}`): the releases this build is right for. Another range of the same repository is another recipe. |
+| `ref` | optional: the tag of a version, `{version}` and `{name}` filled in (`v{version}`). Without it, the tag the identity check finds. |
+| `image` | optional: an official Node image (`node:20-bookworm`). Without it, the major of the Node the publisher used. |
+| `fetch` | commands that get the dependencies, run at the repository's root **with the network** |
+| `build` | commands that build, run at the root **without a network** |
+| `pack` | the command that packs one package, run in its directory without a network; writes the tarball to `$OUT`. Without it, `npm pack`. |
+| `notes` | for readers: where the release process runs these commands, what does not reproduce and why |
+
+A field that is not in this list is an error. The first recipe (by file name)
+that covers a package version takes it.
+
+What a recipe cannot do: say where a package is (the clone step finds it by
+name, before any code of the repository runs), say what the result is (the
+comparison is the host's, with the rules under [Result](#result)), or reach
+the network while it builds or packs.
+
+| Phase | Network | What runs |
+|---|---|---|
+| clone | yes | `git clone` and checkout of the commit the tag points at; no repository code |
+| fetch | yes | the recipe's `fetch` commands |
+| build | **none** | the recipe's `build` commands, then `pack` once per package |
+
+The fetch step is where a recipe is trusted with more than the generic build:
+the repository's own package manager, its plugins and its configuration run
+with the network open (Babel's `yarn install` runs the Yarn release the
+repository commits). That is the recipe author's statement that this repository
+needs it, so who may add a recipe decides what runs there. The container is the
+same as for every other phase.
+
+A fetch step could also download the very package the build is supposed to
+make. After the steps with a network, the host looks for the published
+tarballs in the work directory and fails the build when one is there, or when
+something there cannot be read. That finds the plain case only. The other half of the answer is that recipes are public: the feed names
+the recipe of every result (`recipe`, the id and a hash of what it runs), and
+anyone can read what it fetched.
+
+Versions the recipe covers are grouped by the commit their tag points at, and
+the build that settles the most wallets runs first. In `serve`, recipe builds
+come before single versions. A version stays with its result until someone
+reproduces it or the recipe changes: a changed recipe is filed under another
+hash, so what failed with the old one is built again. A failed clone or fetch
+gets one more try a day later, as in the generic build. Results of the generic
+build (`failed`, `unsupported`) never keep a recipe from trying. The other way
+round, a recipe's failure keeps the generic build away only while that recipe is
+in use: once it is changed, removed or its author off the list, a version no
+recipe takes again goes back to the generic build.
+
+A recipe covers versions by name, and some of those it cannot build: its
+repository has no tag for the version, or no package of that name at the tag
+(`@babel/*` also matches packages that live in other repositories). Those get
+no result from the recipe. They are remembered (table `recipe_skips`), so they
+are not planned again, and stay with the generic build.
+
+### Recipes over Nostr
+
+A recipe does not have to be a file here. Whoever is in
+`config/recipe-authors.json` (a name and a public key in hex each) can publish
+one as a signed event, and the rebuilder runs it without a merge request:
+
+```
+DEP_RECIPE_NSEC=nsec1... node index.mjs publish my-recipe.json
+node index.mjs recipes          # what is in use, and where each came from
+```
+
+The event is a code snippet (kind 1337, NIP-C0) with the tags `t=ws-dep-recipe`
+and `c=walletscrutiny`; its content is the recipe. The rebuilder asks the relays
+(`DEP_REBUILDER_RECIPE_RELAYS`, default `wss://relay.nostr.info/`) for such
+events of the listed keys at start and then hourly, and takes one when its
+signature verifies, its author is listed and its content is a valid recipe. The
+relay is not trusted: it cannot make an event, and withholding one changes
+nothing once it was seen. The newest event per recipe is kept in the database
+(table `recipe_events`), so a relay that is down, has lost the event or serves
+an older one leaves the recipe as it is. This needs Node 22 or later (its
+`WebSocket`); on an older Node only the files of `recipes/` are used.
+
+- The newest event per recipe `id` is the recipe. To change one, publish it
+  again under the same `id`. A recipe cannot be deleted, only replaced: a
+  deleted one is one a relay could bring back. One dated more than ten minutes
+  ahead is not taken.
+- A file in `recipes/` wins over an event with the same `id`, and files come
+  first when two recipes cover a package.
+- The feed names the event of every result (`recipeEvent`), so a reader can
+  fetch exactly what was run and by whose key.
+
+**What the list grants.** A listed key can make the build server run commands
+of its choosing in the sandbox, in the fetch step with the network open. That
+is the same as merging a recipe file, without the review. So the list is short,
+it is changed only by a merge request, and removing a key stops its recipes at
+the next start (results already recorded stay; `DELETE FROM rebuilds WHERE
+recipe_event = ...` takes them back). The events seen from a key are kept, so
+if it returns to the list, nothing older than those is taken from it. A key that leaks is a key to remove. An
+empty or missing list runs no signed recipe.
+
+### Writing a recipe
+
+```
+node index.mjs sync                                        # once: which versions wallets ship
+node index.mjs try my-recipe.json --version 7.27.1         # every package the recipe covers that wallets ship at this version
+node index.mjs try my-recipe.json --package @babel/core@7.27.1 --package @babel/parser@7.27.1
+```
+
+`try` saves nothing. It prints every package's result, the log, and the
+directory with the rebuilt tarballs (`<n>.tgz`, numbered as the log's
+`== pack <n> <directory>` lines), to compare with the registry's by hand; the
+checkout is not kept. The
+skill `.agents/skills/dependency-recipe` is the procedure for an agent.
 
 ## Result
 

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "babel",
+  "ecosystem": "npm",
+  "repo": "https://github.com/babel/babel",
+  "packages": [
+    "@babel/*"
+  ],
+  "versions": {
+    "min": "7.22.5",
+    "below": "7.28.5"
+  },
+  "ref": "v{version}",
+  "image": "node:20-bookworm",
+  "fetch": [
+    "yarn install --immutable"
+  ],
+  "build": [
+    "node scripts/set-module-type.js commonjs",
+    "IS_PUBLISH=true make prepublish-build",
+    "node scripts/set-module-type.js clean"
+  ],
+  "pack": "yarn pack --out \"$OUT\"",
+  "notes": "The release workflow (.github/workflows/release.yml, \"Build and Test\") runs `make prepublish`, which is Makefile.source.mjs's prepublish target: set-module-type commonjs, the build of all packages with IS_PUBLISH, the tests, set-module-type clean. These are its commands without the tests. It publishes with Yarn (release-tool), so Yarn packs here too; Yarn is the release the repository commits (.yarn/releases, named by yarnPath). Node: up to 7.28.4 the workflow sets no Node version and takes the one of the GitHub runner; Node 20 gives the published files. Tried on 7.22.5, 7.24.1, 7.25.9, 7.26.0, 7.27.1, 7.28.0 and 7.28.4: every package identical. 7.8.3 does not build this way (no scripts/set-module-type.js, other layout); nothing between 7.8.3 and 7.22.5 was tried, hence min. From 7.28.5 see babel-node25."
+}
