@@ -4,7 +4,8 @@ import { mkdtempSync, mkdirSync, writeFileSync, readFileSync, existsSync, rmSync
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
-import { collectCves, fetchEpss, buildSignals, publishedOf, signalsOf, embedSignals, EPSS_URL, KEV_URL, OSV_VULN_URL } from '../signals.mjs';
+import { collectCves, fetchEpss, fetchPublished, buildSignals, publishedOf, signalsOf, embedSignals, EPSS_URL, KEV_URL, OSV_VULN_URL } from '../signals.mjs';
+import { CVE_API } from '../vendorCves.mjs';
 
 function exportWith(tmp) {
   const exportDir = join(tmp, 'export');
@@ -27,6 +28,18 @@ const fakeFetch = (handlers) => async (url) => {
 };
 
 describe('advisory signals', () => {
+  test('a CVE OSV.dev has no record of gets its date from the CVE record', async () => {
+    const asked = [];
+    const fetchImpl = fakeFetch({
+      [`${OSV_VULN_URL}GHSA-1`]: { published: '2023-10-16T00:00:40Z' },
+      [`${CVE_API}/`]: (url) => { asked.push(url.slice(CVE_API.length + 1)); return url.endsWith('CVE-2026-82292') ? { cveMetadata: { datePublished: '2026-11-12T08:15:00.000Z' } } : {}; },
+    });
+    // Qt's own CVE, one neither has a date for, and an id that is no CVE
+    const r = await fetchPublished(['GHSA-1', 'CVE-2026-82292', 'CVE-2026-1', 'PSF-2026-1'], { fetchImpl });
+    assert.deepEqual(r, { published: { 'GHSA-1': '2023-10-16', 'CVE-2026-82292': '2026-11-12' }, looked: 4, failed: 1 });
+    assert.deepEqual(asked.sort(), ['CVE-2026-1', 'CVE-2026-82292'], 'the CVE Program is asked only for CVEs OSV.dev does not have');
+  });
+
   test('collectCves takes ids and aliases from every analysed app, skipping stubs', () => {
     const tmp = mkdtempSync(join(tmpdir(), 'signals-'));
     try {

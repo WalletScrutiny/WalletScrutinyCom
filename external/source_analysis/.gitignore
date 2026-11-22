@@ -6,3 +6,4 @@ backup/*.db
 cache/
 REVISION
 export/
+cve-records/

@@ -33,6 +33,7 @@ import { existsSync, readdirSync, readFileSync, renameSync, writeFileSync } from
 import { dirname, join } from 'node:path';
 import { isDeepStrictEqual } from 'node:util';
 import { DB_PATH } from './config.mjs';
+import { CVE_API } from './vendorCves.mjs';
 
 export const EPSS_URL = 'https://api.first.org/data/v1/epss';
 export const KEV_URL = 'https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json';
@@ -106,7 +107,7 @@ export async function fetchPublished(ids, { fetchImpl = globalThis.fetch, url = 
     while (queue.length) {
       const id = queue.shift();
       try {
-        const date = publishedOf(await getJson(`${url}${encodeURIComponent(id)}`, fetchImpl));
+        const date = await publishedDate(id, url, fetchImpl);
         if (date) out[id] = date;
       } catch {
         failed++;
@@ -117,9 +118,21 @@ export async function fetchPublished(ids, { fetchImpl = globalThis.fetch, url = 
   return { published: out, looked: missing.length, failed };
 }
 
+// OSV.dev has no record for a CVE that only its vendor lists (most of Qt's,
+// plugins/osv.mjs VENDORS): the CVE record has the date then.
+async function publishedDate(id, url, fetchImpl) {
+  try {
+    return publishedOf(await getJson(`${url}${encodeURIComponent(id)}`, fetchImpl));
+  } catch (error) {
+    if (error.status !== 404 || !/^CVE-\d/.test(id)) throw error;
+    const record = await getJson(`${CVE_API}/${encodeURIComponent(id)}`, fetchImpl);
+    return publishedOf({ published: record?.cveMetadata?.datePublished });
+  }
+}
+
 async function getJson(url, fetchImpl) {
   const response = await fetchImpl(url, { headers: { Accept: 'application/json' }, signal: AbortSignal.timeout(TIMEOUT_MS) });
-  if (!response.ok) throw new Error(`${url}: HTTP ${response.status}`);
+  if (!response.ok) throw Object.assign(new Error(`${url}: HTTP ${response.status}`), { status: response.status });
   return response.json();
 }
 
