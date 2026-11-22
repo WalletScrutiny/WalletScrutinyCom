@@ -248,6 +248,8 @@ test('native libraries are named by their upstream source', () => {
   assert.equal(nativeSource(entry('native', 'libffi', 'v3.4.8')).version, '3.4.8');
   assert.deepEqual(nativeSource(entry('native', 'libzbar', 'BB05EC54EEC57F8397CB13FB9161372A281A1219')),
     { repo: 'https://github.com/mchehab/zbar', commit: 'bb05ec54eec57f8397cb13fb9161372a281a1219' });
+  assert.deepEqual(nativeSource(entry('native', 'ffmpeg_qt', '7.1.5')),
+    { repo: 'https://github.com/ffmpeg/ffmpeg', tag: 'n7.1.5', cpe: 'ffmpeg:ffmpeg', version: '7.1.5' }, 'Qt\'s FFmpeg is FFmpeg');
   assert.equal(nativeSource(entry('pip', 'openssl', '3.0.7')), null);
   assert.equal(uncheckableReason(entry('native', 'openssl', '3.0.7')), null);
   assert.equal(uncheckableReason(entry('p4a', 'openssl', '3.0.7')), null, 'rows stored before the rename are checked too');

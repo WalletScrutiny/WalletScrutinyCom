@@ -46,7 +46,11 @@ const NATIVE_ECOSYSTEMS = new Set(['native', 'p4a']);
 // as, the tag of a release, and the NVD vendor:product. A name not listed here
 // is not checked (no-upstream) rather than guessed at.
 const cpython = { repo: 'https://github.com/python/cpython', tag: v => `v${v}`, cpe: 'python:python' };
+// OSV.dev knows the repository in lower case only
+const ffmpeg = { repo: 'https://github.com/ffmpeg/ffmpeg', tag: v => `n${v}`, cpe: 'ffmpeg:ffmpeg' };
 export const NATIVE_UPSTREAM = {
+  ffmpeg,
+  ffmpeg_qt: ffmpeg, // the FFmpeg build Qt Multimedia links
   hostpython3: cpython,
   libffi: { repo: 'https://github.com/libffi/libffi', tag: v => `v${v}`, cpe: 'libffi_project:libffi' },
   libiconv: { repo: 'https://git.savannah.gnu.org/git/libiconv.git', tag: v => `v${v}`, cpe: 'gnu:libiconv' },
