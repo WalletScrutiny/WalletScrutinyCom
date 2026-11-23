@@ -69,20 +69,27 @@ export function parseRulesFile(json, repoKey) {
   if (Boolean(data.reviewed_by) !== reviewed.length > 0) fail('"reviewed_by" and "reviewed_files" come together');
   if (!Array.isArray(data.rules) || !data.rules.length) fail('needs "rules"');
   const repoUrl = `https://${repoKey}/`.toLowerCase();
-  const rules = data.rules.map((rule, i) => {
-    const where = `rule ${i + 1}`;
-    const files = [rule.files].flat();
-    if (!files.length || files.some(f => typeof f !== 'string' || !f)) fail(`${where} needs "files"`);
-    if (!Object.hasOwn(BELONGS_TO, rule.belongs_to ?? '')) fail(`${where}: "belongs_to" must be one of ${Object.keys(BELONGS_TO).join(', ')}`);
-    if (typeof rule.why !== 'string' || !rule.why) fail(`${where} needs "why"`);
-    if (!Array.isArray(rule.proof) || !rule.proof.length) fail(`${where} needs "proof"`);
-    for (const link of rule.proof) {
+  const checkProof = (entry, where) => {
+    if (typeof entry.why !== 'string' || !entry.why) fail(`${where} needs "why"`);
+    if (!Array.isArray(entry.proof) || !entry.proof.length) fail(`${where} needs "proof"`);
+    for (const link of entry.proof) {
       // A commit, not a tag: a tag can be moved after the review.
       if (typeof link !== 'string' || !link.toLowerCase().startsWith(repoUrl) || !/\/blob\/[0-9a-f]{40}\//.test(link)) {
         fail(`${where}: proof must link this repository at a full commit hash: ${link}`);
       }
     }
-    return { patterns: files.map(globToRegExp), target: BELONGS_TO[rule.belongs_to] };
+  };
+  const rules = data.rules.map((rule, i) => {
+    const where = `rule ${i + 1}`;
+    const files = [rule.files].flat();
+    if (!files.length || files.some(f => typeof f !== 'string' || !f)) fail(`${where} needs "files"`);
+    if (!Object.hasOwn(BELONGS_TO, rule.belongs_to ?? '')) fail(`${where}: "belongs_to" must be one of ${Object.keys(BELONGS_TO).join(', ')}`);
+    checkProof(rule, where);
+    // A few words the wallet page shows on an advisory found only in these files (issue 1027).
+    if (rule.label !== undefined && (typeof rule.label !== 'string' || !rule.label.trim() || rule.label.length > 60)) {
+      fail(`${where}: "label" must be a short text, at most 60 characters`);
+    }
+    return { patterns: files.map(globToRegExp), target: BELONGS_TO[rule.belongs_to], label: rule.label || null };
   });
   // A narrow rule below a wide one never applies. A rule that matches no reviewed
   // file is allowed: it can be there for another release's files.
@@ -93,7 +100,49 @@ export function parseRulesFile(json, repoKey) {
       fail(`rule ${i + 1} is hidden: earlier rules catch every reviewed file it matches`);
     }
   });
-  return { reviewedBy: data.reviewed_by || null, reviewedOn: data.reviewed_on || null, release: data.release, reviewedFiles: new Set(reviewed), rules };
+  return {
+    reviewedBy: data.reviewed_by || null, reviewedOn: data.reviewed_on || null, release: data.release, reviewedFiles: new Set(reviewed), rules,
+    directFiles: parseDirectFiles(data.direct_files, fail, checkProof),
+    pinnedPairs: parsePinnedPairs(data.pinned_pairs, fail, checkProof),
+  };
+}
+
+// pip files a person read and found to list only what the app asks for, typed
+// by hand (issue 1027): every pip row in them is direct. Without such an entry
+// or a "# via" line, a pip row is unknown.
+function parseDirectFiles(list, fail, checkProof) {
+  if (list === undefined) return [];
+  if (!Array.isArray(list) || !list.length) fail('"direct_files" must be a list of entries');
+  return list.map((entry, i) => {
+    const where = `direct_files ${i + 1}`;
+    const files = [entry.files].flat();
+    if (!files.length || files.some(f => typeof f !== 'string' || !f)) fail(`${where} needs "files"`);
+    checkProof(entry, where);
+    return { patterns: files.map(globToRegExp) };
+  });
+}
+
+// A folder of hand-written pip files and the folder a script writes their
+// pinned versions to, file by file under the same name (Electrum's
+// contrib/requirements and contrib/deterministic-build, issue 1027). A pinned
+// package the source file names is direct, one it does not name is transitive.
+// The script's sha256 is the one a person reviewed: another script, and the
+// pairing is not trusted, so the rows stay unknown.
+function parsePinnedPairs(list, fail, checkProof) {
+  if (list === undefined) return [];
+  if (!Array.isArray(list) || !list.length) fail('"pinned_pairs" must be a list of entries');
+  const folder = f => typeof f === 'string' && /^[^*?]+\/$/.test(f);
+  return list.map((entry, i) => {
+    const where = `pinned_pairs ${i + 1}`;
+    if (!folder(entry.source) || !folder(entry.pinned) || entry.source === entry.pinned) fail(`${where} needs "source" and "pinned", two different folders ending in /`);
+    if (typeof entry.script !== 'string' || !entry.script) fail(`${where} needs "script", the file that writes the pinned files`);
+    const hashes = [entry.script_sha256].flat();
+    if (!hashes.length || hashes.some(h => typeof h !== 'string' || !/^[0-9a-f]{64}$/.test(h))) fail(`${where}: "script_sha256" must be the script's sha256, or a list of them`);
+    const always = entry.always_direct ?? [];
+    if (!Array.isArray(always) || always.some(n => typeof n !== 'string' || !n)) fail(`${where}: "always_direct" must be a list of package names`);
+    checkProof(entry, where);
+    return { source: entry.source, pinned: entry.pinned, script: entry.script, scriptSha256: new Set(hashes), alwaysDirect: always };
+  });
 }
 
 // Every rules file under a folder, by repository: github.com/owner/repo, lower case.
@@ -199,6 +248,25 @@ export function targetOfLockfileInRepository(lockfile, repoUrl) {
   const lock = BUILD_LOCK_ROW.exec(String(lockfile || ''));
   if (lock) return BUILD_LOCK_TARGETS[lock[1]] || 'shared';
   return RULE_FILES.get(repositoryKey(repoUrl))?.rules.find(rule => matches(rule, String(lockfile || '')))?.target || 'shared';
+}
+
+// The pip rules of a repository (direct_files, pinned_pairs), by its URL, for
+// the analysis (pipRules.mjs); null when its rules file has none.
+export function pipRulesOfRepository(repoUrl) {
+  const rules = RULE_FILES.get(repositoryKey(repoUrl));
+  return rules && (rules.directFiles.length || rules.pinnedPairs.length) ? rules : null;
+}
+
+// The words a rule puts on a file ("macOS Intel build only"), or null.
+export const labelOfLockfile = (lockfile, appId = null) => ruleFor(String(lockfile || ''), appId)?.label || null;
+
+// An advisory's labels: only when every file its package version comes from
+// has one, since a single file without a label ships it everywhere. Files with
+// different labels show them all.
+export function labelsOfLockfiles(lockfiles, appId = null) {
+  if (!lockfiles.length) return undefined;
+  const labels = lockfiles.map(l => labelOfLockfile(l, appId));
+  return labels.every(Boolean) ? [...new Set(labels)].sort() : undefined;
 }
 
 // The files that look like another product's but have no rule:

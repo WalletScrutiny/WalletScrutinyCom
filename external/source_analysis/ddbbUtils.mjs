@@ -698,6 +698,29 @@ export const dependantsOfRow = (v) => {
   }
 };
 
+// One file can list a package version twice (pip lines with different
+// environment markers). The table keeps one row per file and package, so the
+// lines are merged rather than the last one replacing the others (issue 1027):
+// direct if any line is, unknown before transitive; in the app if any line is;
+// the dependants of all of them; the stronger pin.
+const MERGE_DIRECT = [true, null, false];
+const MERGE_SCOPE = ['app', null, 'build', 'tests'];
+const MERGE_TIER = ['hash-pinned', 'source-ref-pinned', 'version-pinned', 'build-service-tag', 'unversioned', 'floating'];
+const firstOf = (order, x, y) => {
+  const [ix, iy] = [order.indexOf(x), order.indexOf(y)];
+  return ix < 0 ? y : iy < 0 ? x : (ix <= iy ? x : y);
+};
+export function mergeEntries(x, y) {
+  return {
+    ...x,
+    direct: firstOf(MERGE_DIRECT, x.direct ?? null, y.direct ?? null),
+    dev: x.dev === false || y.dev === false ? false : (x.dev ?? y.dev),
+    scope: firstOf(MERGE_SCOPE, scopeOrNull(x.scope), scopeOrNull(y.scope)),
+    dependants: x.dependants || y.dependants ? [...new Set([...(x.dependants || []), ...(y.dependants || [])])].sort() : null,
+    tier: firstOf(MERGE_TIER, x.tier, y.tier),
+  };
+}
+
 // Replace the stored dependency set of (appId, version) with the entries of
 // the given pinning analyses (see plugins/pinning.mjs makeEntry).
 // Returns the number of rows stored.
@@ -720,17 +743,20 @@ export function saveDependencies(db, appId, version, analyses) {
     clearDependencies.run(appId, version);
     clearLockfiles.run(appId, version);
     const lockfileIds = new Map();
-    let count = 0;
+    const merged = new Map();
     for (const analysis of analyses) {
       for (const e of analysis.entries || []) {
-        insertPackage.run(e.ecosystem, e.name, e.version, e.resolved, e.integrity);
-        const { id } = selectPackage.get(e.ecosystem, e.name, e.version, e.resolved, e.integrity);
-        if (!lockfileIds.has(e.lockfile)) lockfileIds.set(e.lockfile, insertLockfile.run(appId, version, e.lockfile).lastInsertRowid);
-        insertDependency.run(lockfileIds.get(e.lockfile), id, boolOrNull(e.direct), boolOrNull(e.dev), scopeOrNull(e.scope), dependantsOrNull(e.dependants), e.tier);
-        count++;
+        const key = JSON.stringify([e.lockfile, e.ecosystem, e.name, e.version, e.resolved, e.integrity]);
+        merged.set(key, merged.has(key) ? mergeEntries(merged.get(key), e) : e);
       }
     }
-    return count;
+    for (const e of merged.values()) {
+      insertPackage.run(e.ecosystem, e.name, e.version, e.resolved, e.integrity);
+      const { id } = selectPackage.get(e.ecosystem, e.name, e.version, e.resolved, e.integrity);
+      if (!lockfileIds.has(e.lockfile)) lockfileIds.set(e.lockfile, insertLockfile.run(appId, version, e.lockfile).lastInsertRowid);
+      insertDependency.run(lockfileIds.get(e.lockfile), id, boolOrNull(e.direct), boolOrNull(e.dev), scopeOrNull(e.scope), dependantsOrNull(e.dependants), e.tier);
+    }
+    return merged.size;
   });
   return run();
 }

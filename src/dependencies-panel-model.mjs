@@ -357,6 +357,7 @@ export function panelModel(app, { release = null, selectedVersion = null, triage
     sorting: sortingOnPage(current.dependencies?.sorting, platform),
     // files whose names suggest another product, a guess nobody has checked: they still count here
     unlisted: current.dependencies?.unlisted || [],
+    unprovenPip: current.dependencies?.unprovenPip || [],
     direct: dependencies?.direct ?? 0,
     // packages whose files do not say whether the wallet imports them (pip freeze files, build locks)
     directUnknown: dependencies?.directUnknown ?? 0,

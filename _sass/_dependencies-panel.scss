@@ -993,6 +993,15 @@ details.dp-decision__others {
   margin-top: 2px;
 }
 
+// "macOS Intel build only": the advisory's package comes only from files with that label
+.dp-label {
+  font-family: system-ui, sans-serif;
+  font-size: $font-xxs;
+  font-weight: 600;
+  color: var(--neutral-2);
+  margin-top: 2px;
+}
+
 .dp-repo {
   font-family: system-ui, sans-serif;
   font-size: $font-xxs;

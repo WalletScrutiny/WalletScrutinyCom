@@ -33,7 +33,7 @@ import { buildLockForReaders } from './plugins/build-lock.mjs';
 import { uncheckableReason } from './plugins/osv.mjs';
 import { getAppList, getAnalyses, listAnalysedApps, getDependencies, getVulnerabilities, getBackportedAdvisories, diffDependencies, dependantsOfRow, packageSources, getReproducibleVersions, getVerifiedRefs, getEndOfLife, getSubmodules, getRebuildClaims, getOssRebuildDetails, getDefaultBranch, getOwnAdvisories, DEFAULT_BRANCH_REF } from './ddbbUtils.mjs';
 import { packageKey } from './packageKey.mjs';
-import { COUNTED_TARGETS, partOfFile, productPartOf, sortingOf, targetOfLockfile, targetsOfLockfiles, unlistedFiles, useRepositories } from './products.mjs';
+import { COUNTED_TARGETS, labelsOfLockfiles, partOfFile, productPartOf, sortingOf, targetOfLockfile, targetsOfLockfiles, unlistedFiles, useRepositories } from './products.mjs';
 import { readSignals, signalsOf } from './signals.mjs';
 import { ossRebuildUrl } from './rebuildClaims.mjs';
 
@@ -195,11 +195,18 @@ function scopesOfRows(rows, appId, scope) {
   return Object.values(best).some(s => s !== scope) ? best : undefined;
 }
 
+// The pip files whose rows neither a "# via" line nor the rules file says are
+// direct or transitive (issue 1027): what a person would review to settle them.
+export function unprovenPipFiles(deps) {
+  return [...new Set(deps.filter(d => d.ecosystem === 'pip' && d.direct === null).map(d => d.lockfile))].sort();
+}
+
 export function summarizeRelease(db, appId, ref, deps = getDependencies(db, appId, ref)) {
   const vulns = getVulnerabilities(db, appId, ref);
   const submodules = summarizeSubmodules(getSubmodules(db, appId, ref));
   const byTarget = countsByTarget(deps, appId);
   const unlisted = unlistedFiles(deps.map(d => d.lockfile), appId);
+  const unprovenPip = unprovenPipFiles(deps);
   return {
     ...(submodules ? { submodules } : {}),
     dependencies: {
@@ -210,6 +217,8 @@ export function summarizeRelease(db, appId, ref, deps = getDependencies(db, appI
       onlyOutside: byTarget ? librariesOnlyOutside(deps, appId) : undefined,
       // files that look like another product's but nobody has checked; still counted
       unlisted: unlisted.length ? unlisted : undefined,
+      // pip files whose rows are neither direct nor transitive until someone proves which
+      unprovenPip: unprovenPip.length ? unprovenPip : undefined,
       // whether a person reviewed how this release's files were sorted (products.mjs)
       sorting: sortingOf(deps.map(d => d.lockfile), appId),
     },
@@ -379,6 +388,8 @@ export function buildApp(db, appId, aliases = [], counts = productCounts(db), so
       scope: scopeOfRow(v) === 'unknown' ? null : scopeOfRow(v),
       part: partOfLockfiles(rowsOfAdvisory(v).map(d => d.lockfile), appId) || undefined,
       targets: targetsOfLockfiles(rowsOfAdvisory(v).map(d => d.lockfile), appId),
+      // "macOS Intel build only": every file this version comes from has a label (products.mjs)
+      labels: labelsOfLockfiles(rowsOfAdvisory(v).map(d => d.lockfile), appId),
       scopes: targetsOfLockfiles(rowsOfAdvisory(v).map(d => d.lockfile), appId) ? scopesOfRows(rowsOfAdvisory(v), appId, scopeOfRow(v)) : undefined,
       dependants: dependantsOfRow(v.dependants),
       dependantVersions: dependantVersionsOf(v, rowsOfAdvisory(v), lockedAt),

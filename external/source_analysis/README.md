@@ -589,6 +589,7 @@ editing its file in a merge request; the next export uses it.
 | `belongs_to` | One of `all apps`, `both phones`, `android`, `iphone`, `desktop`, `firmware`, `server`, `docs`, `tests`, `no app`. `server`, `docs`, `tests` and `no app` count on no wallet page |
 | `why` | The reason, in plain words |
 | `proof` | Links to the evidence in this repository, at a full commit hash because a tag can be moved |
+| `label` | Optional, at most 60 characters, e.g. `macOS Intel build only`. An advisory shows it when every file its package version comes from has a label |
 
 - **The first matching rule wins**, so a narrow rule goes above a wide one. In a reviewed file, the tests reject a rule that earlier rules hide completely.
 - **A file with no rule counts on every page.** A rule can take libraries off a page, so a mistake here can hide them.
@@ -605,6 +606,45 @@ Each release of a wallet page says where its sorting stands:
 | Not sorted | The repository has no rules file |
 
 "Human-reviewed" covers the sorting only. It isn't a security audit, and it doesn't prove the numbers.
+
+### Direct or transitive, for pip
+
+A pip file says which packages the app asks for only in pip-compile's `# via`
+lines: `-r <file>` and the project's own `pyproject.toml`, `setup.py` or
+`setup.cfg` mean direct, a package name means transitive, and `-c <file>` is
+only a constraint. Every other pip row is unknown, so a freeze file and a list
+kept by hand look the same. Two optional keys of the rules file settle the rest,
+each with `why` and `proof` like a rule. The analysis applies them, so a change
+takes effect when the wallet is analysed again (`reanalyse-cli.mjs`).
+
+```json
+{
+  "direct_files": [
+    { "files": "requirements.txt", "why": "Typed by hand: only what the app imports.", "proof": ["…"] }
+  ],
+  "pinned_pairs": [
+    {
+      "source": "contrib/requirements/",
+      "pinned": "contrib/deterministic-build/",
+      "script": "contrib/freeze_packages.sh",
+      "script_sha256": ["fc60851d…"],
+      "always_direct": ["pip", "setuptools", "wheel"],
+      "why": "…", "proof": ["…"]
+    }
+  ]
+}
+```
+
+| Field | Meaning |
+|---|---|
+| `direct_files` | Files a person read and found to list only what the app asks for: every pip row in them is direct |
+| `pinned_pairs` | A folder of hand-written files and the folder a script writes their pinned versions to, under the same file name. In a pinned file, a package its source file names is direct, any other is transitive. The source file's own rows are not counted apart: they are the pinned rows |
+| `script`, `script_sha256` | The script that writes the pinned files, and the sha256 of each version a person reviewed. Any other version leaves the rows unknown |
+| `always_direct` | Packages the script installs itself, for every file |
+
+If a pinned file does not pin a package of its source file inside its range,
+both files stay unknown, and the analysis notes it. The export lists the pip
+files left unknown as `dependencies.unprovenPip`, and the wallet page names them.
 
 ## Configuration
 

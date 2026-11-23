@@ -7,7 +7,7 @@ import { renderOwnVulnerabilities } from '../../src/own-vulnerabilities.mjs';
 import { panelModel, appForListing } from '../../src/dependencies-panel-model.mjs';
 import { releaseForVersion } from '../../src/build-verifications-model.mjs';
 import { nip19 } from 'nostr-tools';
-import { viaLine, listedByLine, gitFixLine, upstreamUrl } from '../../src/dependencies-panel.mjs';
+import { viaLine, labelLine, listedByLine, gitFixLine, upstreamUrl } from '../../src/dependencies-panel.mjs';
 
 const shortNpub = (pk) => { const n = nip19.npubEncode(pk); return `${n.slice(0, 10)}…${n.slice(-4)}`; };
 
@@ -846,6 +846,14 @@ describe('dependencies panel: which app a file belongs to (issue 994)', () => {
     assert.equal(node.querySelector('.dp-not-in-app'), null);
   });
 
+  test('pip files nobody has settled are named, and their rows stay counted as unknown (issue 1027)', () => {
+    const one = panel({ unprovenPip: ['requirements.txt'] }, 'desktop');
+    assert.match(one.querySelector('.dp-notices').textContent, /Direct or transitive not known: requirements\.txt does not say which packages the app asks for and which came with them, so they are counted as unknown until someone checks\./);
+    const many = panel({ unprovenPip: ['a.txt', 'b.txt', 'c.txt', 'd.txt'] }, 'desktop');
+    assert.match(many.querySelector('.dp-notices').textContent, /a\.txt, b\.txt, c\.txt and 1 more do not say/);
+    assert.doesNotMatch(panel({}, 'desktop').querySelector('.dp-notices')?.textContent || '', /Direct or transitive not known/);
+  });
+
   test('the advisory tile does not state a folder-name guess as fact', () => {
     const row = { id: 'GHSA-1', severity: 'high', aliases: [], fixed: [], summary: '', ecosystem: 'npm', package: 'a', version: '1', part: 'web', scope: 'app', products: 1, productsSameVersion: 1 };
     const node = panelElement(panelModel({ appId: 'w', releases: [{ ...release({ unlisted: ['webapp/package-lock.json'] }), advisories: [row] }] }, { platform: 'hardware' }), { appId: 'w', base: '/x', fetchImpl: async () => null });
@@ -942,6 +950,14 @@ describe('the via line', () => {
     const host = advisory('CVE-1', 'high', { ecosystem: 'native', package: 'hostpython3', dev: true, scope: 'build', dependants: ['PyQt6', 'python3'] });
     assert.equal(viaLine(host).textContent, 'build tool of the wallet · via PyQt6, python3');
     assert.equal(viaLine(advisory('CVE-1', 'high', { dev: null, scope: 'tests' })).textContent, 'imported by the wallet', 'only build rows change');
+  });
+});
+
+describe('the label line (issue 1027)', () => {
+  test('an advisory found only in labelled files says so under its package', () => {
+    assert.equal(labelLine(advisory('CVE-1', 'high', { labels: ['macOS Intel build only'] })).textContent, 'macOS Intel build only');
+    assert.equal(labelLine(advisory('CVE-1', 'high', { labels: ['a', 'b'] })).textContent, 'a · b', 'files with different labels show them all');
+    assert.equal(labelLine(advisory('CVE-1', 'high')), null);
   });
 });
 
