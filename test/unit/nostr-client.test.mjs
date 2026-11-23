@@ -11,6 +11,7 @@ import {
   signEvent,
   summarizePublishResults,
   assertRequiredRelaysAccepted,
+  assertAnyRelayAccepted,
 } from '../../src/nostr-client.mjs';
 import { makeEvent } from './fixtures.mjs';
 
@@ -126,6 +127,29 @@ describe('assertRequiredRelaysAccepted', () => {
     const summary = { successful: 0, rejectedRequired: [{ url: projectRelay, error: 'publish timed out' }] };
     assert.throws(() => assertRequiredRelaysAccepted(summary, 'comment'), (error) => {
       assert.doesNotMatch(error.message, /other relay/);
+      return true;
+    });
+  });
+});
+
+describe('assertAnyRelayAccepted', () => {
+  const urls = ['wss://project.example/', 'wss://public-a.example/'];
+  const ok = { status: 'fulfilled', value: 'ok' };
+  const rejected = (message) => ({ status: 'rejected', reason: new Error(message) });
+
+  test('returns when the project relay refused the event but another relay accepted it', () => {
+    // A shared note (kind 1): the project relay does not store it, the public relays do.
+    const summary = summarizePublishResults(urls, [rejected('blocked: not accepted by this relay'), ok]);
+    assert.doesNotThrow(() => assertRequiredRelaysAccepted(summary, 'note'));
+    assert.doesNotThrow(() => assertAnyRelayAccepted(summary, 'note'));
+  });
+
+  test('throws with every relay reason when no relay accepted', () => {
+    const summary = summarizePublishResults(urls, [rejected('blocked: not accepted by this relay'), rejected('rate-limited: slow down')]);
+    assert.throws(() => assertAnyRelayAccepted(summary, 'note'), (error) => {
+      assert.match(error.message, /Failed to publish note: no relay accepted it/);
+      assert.match(error.message, /wss:\/\/project\.example\/ \(blocked: not accepted by this relay\)/);
+      assert.match(error.message, /wss:\/\/public-a\.example\/ \(rate-limited: slow down\)/);
       return true;
     });
   });

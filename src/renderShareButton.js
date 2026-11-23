@@ -505,13 +505,16 @@ import { waitNostr } from 'nip07-awaiter';
         setShareBusy(true);
         try {
           const noteId = await createNostrNote(message);
-          showToast(
-            'Note shared successfully!<br>See at <a style="color: black;" target="_blank" href="https://njump.me/' +
-              noteId +
-              '">Njump.me</a>.',
-            "success",
-            7000
-          );
+          const noteLink = document.createElement("a");
+          noteLink.href = "https://njump.me/" + noteId;
+          noteLink.target = "_blank";
+          noteLink.rel = "noopener";
+          noteLink.style.color = "black";
+          noteLink.style.textDecoration = "underline";
+          noteLink.textContent = "Njump.me";
+          const sharedMessage = document.createDocumentFragment();
+          sharedMessage.append("Note shared successfully!", document.createElement("br"), "See at ", noteLink, ".");
+          showToast(sharedMessage, "success", 7000);
           closeShareNostrModal();
         } catch (error) {
           // Keep the dialog (and the user's text) open so they can retry.

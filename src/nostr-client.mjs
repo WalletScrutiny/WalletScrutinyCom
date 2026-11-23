@@ -444,6 +444,19 @@ export function assertRequiredRelaysAccepted(summary, eventType = 'event') {
 }
 
 /**
+ * Throws when no relay at all accepted the event, quoting each relay's reason.
+ * For events that are not read back from the project relay, where any relay's
+ * OK is a successful publish.
+ */
+export function assertAnyRelayAccepted(summary, eventType = 'event') {
+  if (summary.successful > 0) {
+    return;
+  }
+  const reasons = summary.failures.map(({ url, error }) => `${url} (${error})`).join(', ');
+  throw new Error(`Failed to publish ${eventType}: no relay accepted it. ${reasons}`);
+}
+
+/**
  * Publishes to `urlsOverride` (default: every configured relay). With
  * `requiredRelayUrls`, the returned summary flags relays whose OK is mandatory;
  * pass the summary to assertRequiredRelaysAccepted to turn that into an error.

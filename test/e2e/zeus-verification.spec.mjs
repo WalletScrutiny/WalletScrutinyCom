@@ -271,6 +271,15 @@ test.describe('ZEUS verification detail page', () => {
         /Check out this ZEUS Wallet v13\.0\.1 \(android\) verification!/,
       );
       await expect.soft(shareNostrModal.getByRole('button', { name: 'Share' })).toBeVisible();
+
+      // The note is kind 1, which the project relay refuses (relay-fixture.mjs mirrors
+      // that): the share still succeeds on the public relays and closes the dialog.
+      await shareNostrModal.getByRole('button', { name: 'Share' }).click();
+      const sharedToast = page.locator('.toast');
+      await expect.soft(sharedToast).toBeVisible({ timeout: 15_000 });
+      await expect.soft(sharedToast).toHaveText('Note shared successfully!See at Njump.me.');
+      await expect.soft(sharedToast.getByRole('link', { name: 'Njump.me' })).toHaveAttribute('href', /^https:\/\/njump\.me\/[0-9a-f]{64}$/);
+      await expect.soft(shareNostrModal).toBeHidden();
     });
 
     assertNoConsoleErrors();
