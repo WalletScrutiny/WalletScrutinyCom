@@ -16,7 +16,13 @@ WalletScrutiny traffic:
   here, and other apps' deletions of their own kind-30301 records would
   otherwise pass the kind check;
 * opinions (kind 30023) are published by the nostr-opinion plugin without
-  a client tag; they are identified by the ["t", ...] tags the plugin sets.
+  a client tag; they are identified by the ["t", ...] tags the plugin sets;
+* plain notes (kind 1) are stored only when one of our own keys signed
+  them (OWN_NOTE_PUBKEYS): the "new verification" announcements of
+  external/ws_notifications.  Everybody else's notes are refused whatever
+  their tags, the ones the site's "Share on Nostr" publishes included: a
+  tag can be copied, a signature cannot (strfry verifies it before this
+  plugin sees the event).
 
 Events arriving through `strfry import` (sourceType "Import") are accepted
 as they are: that is the operator restoring a backup from the host, see
@@ -51,7 +57,14 @@ WS_TAGGED_KINDS = {
 DELETION_KIND = 5       # event deletion (NIP-09); required for clients to delete events we store
 OPINION_KIND = 30023    # opinion (NIP-23 long-form), published by the nostr-opinion plugin
 
-ALLOWED_KINDS = WS_TAGGED_KINDS | {DELETION_KIND, OPINION_KIND}
+NOTE_KIND = 1           # plain note (NIP-01); only from OWN_NOTE_PUBKEYS
+
+ALLOWED_KINDS = WS_TAGGED_KINDS | {DELETION_KIND, OPINION_KIND, NOTE_KIND}
+
+# Keys whose plain notes are stored.
+OWN_NOTE_PUBKEYS = {
+    "168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f47373fdcce2b9cd335",   # wsBotPublicKey in src/nostr-constants.mjs
+}
 
 # ["client", "WalletScrutiny.com", ...] or ["c", "walletscrutiny"]
 WS_CLIENT_TAGS = {("client", "WalletScrutiny.com"), ("c", "walletscrutiny")}
@@ -138,7 +151,8 @@ def is_allowed(event, has_stored_events=author_has_stored_events):
       and has_stored_events(pubkey) must be true for its author (the live
       database lookup by default; cleanup-rejected.py passes its own check
       built from the dump it is reading);
-    * kind 30023 needs a ["t", ...] tag from OPINION_T_TAGS.
+    * kind 30023 needs a ["t", ...] tag from OPINION_T_TAGS;
+    * kind 1 needs an author from OWN_NOTE_PUBKEYS.
     """
     kind = event.get("kind")
     if kind not in ALLOWED_KINDS:
@@ -154,6 +168,9 @@ def is_allowed(event, has_stored_events=author_has_stored_events):
 
     if kind == OPINION_KIND:
         return any(name == "t" and value in OPINION_T_TAGS for name, value in pairs)
+
+    if kind == NOTE_KIND:
+        return event.get("pubkey") in OWN_NOTE_PUBKEYS
 
     return False
 

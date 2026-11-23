@@ -5,7 +5,8 @@
  * Reads go to opinionRelayUrls (site relays + the public relays the
  * nostr-opinion plugin used). Writes go to the relay set the webapp is
  * connected to; an opinion must be accepted by the project relay, replies and
- * reactions cannot be (kind-policy.py stores neither kind 1 nor 7).
+ * reactions cannot be (kind-policy.py stores no reactions, and notes only from
+ * the site's own key).
  */
 import {
   fetchEvents,
