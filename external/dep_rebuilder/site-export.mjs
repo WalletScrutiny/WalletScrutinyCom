@@ -17,7 +17,7 @@ export function feedRows(db) {
   // give the published file (another recipe may), "unsupported" that it has no build for it yet:
   // both stay in the database, as the list of what to work on.
   return db.prepare(`SELECT r.ecosystem, r.name, r.version, r.result, r.note, substr(r.finished_at, 1, 10) AS date,
-      r.repo_url AS repo, r.commit_sha AS "commit", r.toolchain, c.wallets AS wallets
+      r.repo_url AS repo, r.commit_sha AS "commit", r.toolchain, r.recipe, r.recipe_event AS "recipeEvent", c.wallets AS wallets
     FROM rebuilds r LEFT JOIN candidates c ON c.ecosystem = r.ecosystem AND c.name = r.name AND c.version = r.version
     WHERE r.result = 'reproduced' ORDER BY r.ecosystem, r.name, r.version`).all()
     .map(r => Object.fromEntries(Object.entries(r).filter(([, v]) => v != null && v !== '')));

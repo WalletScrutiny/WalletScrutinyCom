@@ -149,7 +149,8 @@ async function rebuildIn(dir, { name, version, source, facts, slug, fetchImpl, c
     }
   }
   const logText = boundedLog(logFile);
-  const notBuilt = (what) => done('unsupported', `Member of a workspace, whose root build is not run here: ${what}`, 'build');
+  // (cut: `what` can carry file names of the rebuilt tarball, which are as long as the build likes)
+  const notBuilt = (what) => done('unsupported', `Member of a workspace, whose root build is not run here: ${what}`.slice(0, 400), 'build');
   // the build can print these lines too: only something that looks like a version is taken
   const npmUsed = /^== npm \S+ packed nothing, packing with the image's npm (\d[\w.-]{0,30})$/m.exec(logText)?.[1] || /^== node \S+ npm (\d[\w.-]{0,30})$/m.exec(logText)?.[1];
   if (npmUsed) row.toolchain = `${image.split('/').pop()} npm ${npmUsed}`;
@@ -186,8 +187,9 @@ async function rebuildIn(dir, { name, version, source, facts, slug, fetchImpl, c
     }
     boundedLog(logFile);
   }
-  fs.appendFileSync(logFile, `== comparison${how} ${JSON.stringify({ ...cmp, missing: cmp.missing.slice(0, 50), extra: cmp.extra.slice(0, 50), changed: cmp.changed.slice(0, 50) })}\n`);
+  // (cut: file names are the build's, and as long as it likes)
+  fs.appendFileSync(logFile, `== comparison${how} ${JSON.stringify({ ...cmp, missing: cmp.missing.slice(0, 50), extra: cmp.extra.slice(0, 50), changed: cmp.changed.slice(0, 50) }).slice(0, 20000)}\n`);
   if (cmp.match) return done('reproduced', `${cmp.identical ? 'Byte-identical tarball' : `All ${cmp.files} files identical; tarball metadata differs`}${how}`);
   if (workspaceMember) return notBuilt(diffNote(cmp));
-  return done('failed', `Rebuilt tarball differs${how}: ${diffNote(cmp)}`, 'compare');
+  return done('failed', `Rebuilt tarball differs${how}: ${diffNote(cmp)}`.slice(0, 400), 'compare');
 }
