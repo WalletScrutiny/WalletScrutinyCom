@@ -33,6 +33,7 @@ const SHOW_CSV = typeof window !== 'undefined' && window.WS_DEPENDENCY_CSV === t
 
 const OSV_URL = 'https://osv.dev/vulnerability/';
 const NVD_URL = 'https://nvd.nist.gov/vuln/detail/';
+const CVE_URL = 'https://www.cve.org/CVERecord?id=';
 
 const dateOf = (s) => (s ? String(s).slice(0, 10) : null);
 
@@ -205,18 +206,25 @@ export function viaLine(a) {
   return el('div', { className: 'dp-via', ...(title ? { title } : {}) }, parts.join(' · '));
 }
 
-// "Listed by NVD only" or "Listed by OSV.dev · NVD" under the advisory id: which databases listed
-// it. Only native libraries are asked of NVD, so other rows show it only when
-// NVD is among them; rows stored before the field show nothing.
-const LISTED_BY_TIP = 'The databases that list this advisory. OSV.dev copies many C library entries from NVD, so two names are not two independent checks.';
+// "Listed by NVD only" or "Listed by OSV.dev · NVD · vendor" under the advisory
+// id: which sources listed it, "vendor" being the CVE record of the library's
+// own maintainers. Only native libraries are asked of NVD and the vendor, so
+// other rows show it only when one of those is among them; rows stored before
+// the field show nothing.
+const LISTED_BY_TIP = 'The sources that list this advisory. OSV.dev copies many C library entries from NVD, so those two names are not two independent checks. "vendor" is the CVE record the library\'s own maintainers published.';
+const LISTERS = ['osv', 'nvd', 'vendor'];
 export function listedByLine(a) {
   const by = Array.isArray(a.listedBy) ? a.listedBy : [];
-  if (!by.includes('nvd') && !(by.includes('osv') && ['native', 'p4a'].includes(a.ecosystem))) return null;
+  if (!by.includes('nvd') && !by.includes('vendor') && !(by.includes('osv') && ['native', 'p4a'].includes(a.ecosystem))) return null;
   const cve = [a.id, ...(a.aliases || [])].find(id => /^CVE-/.test(id));
   const link = (label, url) => (url ? el('a', { href: url, target: '_blank', rel: 'noopener noreferrer' }, label) : label);
-  const osv = link('OSV.dev', `${OSV_URL}${encodeURIComponent(a.id)}`);
-  const nvd = link('NVD', cve ? `${NVD_URL}${encodeURIComponent(cve)}` : null);
-  const parts = by.includes('osv') && by.includes('nvd') ? [osv, ' · ', nvd] : by.includes('nvd') ? [nvd, ' only'] : [osv, ' only'];
+  const links = {
+    osv: link('OSV.dev', `${OSV_URL}${encodeURIComponent(a.id)}`),
+    nvd: link('NVD', cve ? `${NVD_URL}${encodeURIComponent(cve)}` : null),
+    vendor: link('vendor', cve ? `${CVE_URL}${encodeURIComponent(cve)}` : null),
+  };
+  const shown = LISTERS.filter(l => by.includes(l)).map(l => links[l]);
+  const parts = shown.length === 1 ? [shown[0], ' only'] : shown.flatMap((x, i) => (i ? [' · ', x] : [x]));
   return el('div', { className: 'dp-listed-by', title: LISTED_BY_TIP }, 'Listed by ', ...parts);
 }
 
@@ -228,6 +236,16 @@ export function upstreamUrl(repo, { commit = null, tag = null } = {}) {
   const savannah = r.match(/^https:\/\/git\.savannah\.gnu\.org\/git\/([^/]+)$/);
   if (savannah) return `https://git.savannah.gnu.org/cgit/${savannah[1]}.git/${commit ? `commit/?id=${commit}` : `tag/?h=${encodeURIComponent(tag)}`}`;
   return null;
+}
+
+// An advisory's page: OSV.dev's, or the CVE record for one that only the
+// library's vendor lists, since OSV.dev has no page for most of those.
+function advisoryPage(a) {
+  const by = Array.isArray(a.listedBy) ? a.listedBy : [];
+  const cve = [a.id, ...(a.aliases || [])].find(id => /^CVE-/.test(id));
+  return cve && by.length === 1 && by[0] === 'vendor'
+    ? { url: `${CVE_URL}${encodeURIComponent(cve)}`, site: 'cve.org' }
+    : { url: `${OSV_URL}${encodeURIComponent(a.id)}`, site: 'OSV.dev' };
 }
 
 const outLink = (label, url, className = null) => (url ? el('a', { href: url, target: '_blank', rel: 'noopener noreferrer', ...(className ? { className } : {}) }, label) : label);
@@ -257,9 +275,10 @@ export function backportedNote(model) {
     const cve = [b.id, ...(b.aliases || [])].find(id => /^CVE-/.test(id));
     const osv = `${OSV_URL}${encodeURIComponent(b.id)}`;
     const nvd = cve ? `${NVD_URL}${encodeURIComponent(cve)}` : null;
-    const listedBy = (b.listedBy || []).map(l => (l === 'nvd' ? outLink('NVD', nvd) : outLink('OSV.dev', osv)));
+    const listedBy = (b.listedBy || []).map(l => (l === 'nvd' ? outLink('NVD', nvd)
+      : l === 'vendor' ? outLink('the vendor', cve ? `${CVE_URL}${encodeURIComponent(cve)}` : null) : outLink('OSV.dev', osv)));
     return el('li', {},
-      el('b', {}, `${b.package} ${b.version}`), ': ', outLink(b.id, osv),
+      el('b', {}, `${b.package} ${b.version}`), ': ', outLink(b.id, advisoryPage(b).url),
       cve && cve !== b.id ? [' (', outLink(cve, nvd), ')'] : null,
       listedBy.length ? [', listed by ', listedBy.flatMap((x, i) => (i ? [' and ', x] : [x]))] : (cve === b.id ? [' (', outLink('NVD', nvd), ')'] : null),
       '; fix ', commitLink(b.repo, b.commit), ' is in ', tagLink(b.repo, b.tag));
@@ -501,14 +520,14 @@ export function severityTally(model, rows = model.advisories || [], { explain = 
 function advisoryRow(a, { mixedEcosystems = false, onJudge = null, freshId = null, defaultBranch = null, showWhere = true, usedByOptions = {} } = {}) {
   const where = whereOf(a);
   const fresh = Boolean(freshId) && statementsOf(a).some(s => s.id === freshId);
-  const osvUrl = `${OSV_URL}${encodeURIComponent(a.id)}`;
+  const { url: osvUrl, site } = advisoryPage(a);
   const versionLines = [gitFixLine(a), fixedInMasterLine(a, defaultBranch)].filter(Boolean);
   const listedBy = listedByLine(a);
   return el('tr', { className: fresh ? 'dp-row--fresh' : null, dataset: { advisory: a.id, package: a.package } },
     el('td', { className: 'dp-td-package', dataset: { label: 'Package' } }, ...packageName(a),
       el('span', { className: 'dp-m-only dp-m-version' }, a.version),
       mixedEcosystems && a.ecosystem ? el('span', { className: 'dp-eco' }, a.ecosystem) : null,
-      el('a', { className: 'dp-m-only dp-adv-icon', href: osvUrl, target: '_blank', rel: 'noopener noreferrer', title: a.summary ? `${a.id}: ${a.summary}` : a.id, 'aria-label': `${a.id} on OSV.dev`, html: wsIcon('bug-external') }),
+      el('a', { className: 'dp-m-only dp-adv-icon', href: osvUrl, target: '_blank', rel: 'noopener noreferrer', title: a.summary ? `${a.id}: ${a.summary}` : a.id, 'aria-label': `${a.id} on ${site}`, html: wsIcon('bug-external') }),
       repoLine(a), viaLine(a)),
     el('td', { className: `dp-td-version${versionLines.length ? '' : ' dp-m-hide'}`, dataset: { label: 'Version' } }, el('span', { className: 'dp-d-only' }, a.version), ...versionLines),
     el('td', { className: `dp-td-advisory${listedBy ? '' : ' dp-m-hide'}`, dataset: { label: 'Advisory' } }, el('a', { className: 'dp-d-only', href: osvUrl, target: '_blank', rel: 'noopener noreferrer', title: a.summary || '' }, a.id), listedBy),

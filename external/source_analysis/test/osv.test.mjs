@@ -22,9 +22,11 @@ const entry = (ecosystem, name, version, extra = {}) => ({
 
 /**
  * fetch stub: `vulnsByQuery` maps "<OSV ecosystem>/<name>@<version>" to advisory
- * ids, `advisories` maps an id to its record. Records every request.
+ * ids, `advisories` maps an id to its record, `nvd` a CPE match string to
+ * NVD's CVEs, `vendorCves` an NVD source to the CVEs it published and
+ * `cveRecords` an id to its CVE Program record. Records every request.
  */
-function stubFetch({ vulnsByQuery = {}, advisories = {}, nvd = {}, pageSize = Infinity, failBatch = false } = {}) {
+function stubFetch({ vulnsByQuery = {}, advisories = {}, nvd = {}, vendorCves = {}, cveRecords = {}, pageSize = Infinity, failBatch = false } = {}) {
   const calls = [];
   const json = (body, status = 200) => ({ ok: status < 400, status, json: async () => body });
   const fetchImpl = async (url, options) => {
@@ -45,8 +47,15 @@ function stubFetch({ vulnsByQuery = {}, advisories = {}, nvd = {}, pageSize = In
       });
     }
     if (url.startsWith('https://services.nvd.nist.gov/')) {
-      const cves = nvd[new URL(url).searchParams.get('virtualMatchString')] || [];
+      const params = new URL(url).searchParams;
+      // a vendor no test names has published CVEs, none of them an advisory: NVD answers an unknown source with nothing
+      const cves = (params.has('sourceIdentifier') ? vendorCves[params.get('sourceIdentifier')] ?? [{ id: 'CVE-2000-0001', vulnStatus: 'Rejected' }]
+        : nvd[params.get('virtualMatchString')]) || [];
       return json({ totalResults: cves.length, vulnerabilities: cves.map(cve => ({ cve })) });
+    }
+    if (url.startsWith('https://cveawg.mitre.org/')) {
+      const record = cveRecords[decodeURIComponent(url.split('/cve/')[1])];
+      return record ? json(record) : json({}, 404);
     }
     const id = decodeURIComponent(url.split('/vulns/')[1]);
     return advisories[id] ? json(advisories[id]) : json({}, 404);
@@ -307,7 +316,9 @@ test('native libraries: OSV.dev by repository and tag or commit, NVD by product,
     'GIT https://github.com/qt/qtbase v6.4.0',
     'bb05ec54eec57f8397cb13fb9161372a281a1219',
   ]);
-  assert.equal(calls.filter(c => c.url.includes('nvd.nist.gov')).length, 2, 'a commit has no NVD version');
+  assert.equal(calls.filter(c => c.url.includes('virtualMatchString')).length, 2, 'a commit has no NVD version');
+  assert.deepEqual(calls.filter(c => c.url.includes('sourceIdentifier')).map(c => new URL(c.url).searchParams.get('sourceIdentifier')),
+    ['openssl-security@openssl.org', 'a59d8014-47c4-4630-ab43-e1b13cbe58e3'], 'the vendors of OpenSSL and Qt are asked for their CVEs');
   const ids = result.findings.map(f => `${f.name} ${f.id}`).sort();
   assert.deepEqual(ids, ['libzbar CVE-2026-121942', 'openssl CVE-2023-0286', 'openssl CVE-2023-0464', 'qt6 CVE-2023-24607']);
   const qt = result.findings.find(f => f.name === 'qt6');
@@ -342,6 +353,108 @@ test('an unreachable NVD keeps the OSV.dev findings and marks the native rows', 
   assert.deepEqual(result.skipped, { 'nvd-unavailable': 2 });
   assert.deepEqual(result.nvdUnavailable.map(p => p.name), ['openssl', 'hostpython3']);
   assert.equal(result.checked, 3);
+});
+
+/* ---------------------------- vendor CVE records ---------------------------- */
+
+const QT_SOURCE = 'a59d8014-47c4-4630-ab43-e1b13cbe58e3';
+const PSF_SOURCE = 'cna@python.org';
+const listedCve = (id, vulnStatus = 'Awaiting Analysis') => ({ id, vulnStatus, lastModified: '2026-11-12T10:00:00.000' });
+const cveRecord = (product, versions, extra = {}) => ({ containers: { cna: {
+  title: `${extra.id || 'a'} title`, descriptions: [{ lang: 'en', value: 'a description' }],
+  affected: [{ product, defaultStatus: 'unaffected', versions, ...(extra.modules ? { modules: extra.modules } : {}) }],
+  metrics: extra.metrics || [{ cvssV4_0: { baseSeverity: 'HIGH' } }],
+} } });
+const affectedRange = (version, lessThan) => ({ version, lessThan, status: 'affected' });
+// a directory of its own per test: a record read once is not asked for again
+const stores = [];
+const newStore = () => stores[stores.push(fs.mkdtempSync(path.join(os.tmpdir(), 'osv-cve-records-'))) - 1];
+process.on('exit', () => stores.forEach(dir => fs.rmSync(dir, { recursive: true, force: true })));
+
+test('a vendor\'s CVE records add the advisories NVD has not analysed, and fold into the ones it has', async () => {
+  const pythonRange = { criteria: 'cpe:2.3:a:python:python:*:*:*:*:*:*:*:*', vulnerable: true, versionEndExcluding: '3.13.13' };
+  const { fetchImpl, calls } = stubFetch({
+    vulnsByQuery: { 'GIT/https://github.com/python/cpython@v3.11.15': ['PSF-2026-1'] },
+    advisories: { 'PSF-2026-1': { id: 'PSF-2026-1', aliases: ['CVE-2026-10'], summary: 'tarfile', affected: [] } },
+    nvd: { 'cpe:2.3:a:python:python:3.11.15': [nvdCve('CVE-2026-10', [pythonRange])] },
+    vendorCves: {
+      [QT_SOURCE]: [listedCve('CVE-2026-20'), listedCve('CVE-2026-21'), listedCve('CVE-2026-22', 'Rejected'), listedCve('CVE-2026-23'), listedCve('CVE-2026-24')],
+      [PSF_SOURCE]: [listedCve('CVE-2026-10', 'Analyzed'), listedCve('CVE-2026-11')],
+    },
+    cveRecords: {
+      'CVE-2026-20': cveRecord('Qt', [affectedRange('6.9.0', '6.11.3')], { id: 'CVE-2026-20', modules: ['qtbase'] }),
+      'CVE-2026-21': cveRecord('Qt', [affectedRange('6.9.0', '6.10.1')], { id: 'CVE-2026-21' }), // fixed before the shipped version
+      'CVE-2026-23': cveRecord('Qt for MCUs', [affectedRange('0', '9.0')], { id: 'CVE-2026-23' }),
+      // CVE-2026-24: NVD lists it, the CVE Program has no record
+      'CVE-2026-10': cveRecord('CPython', [affectedRange('0', '3.10.21'), affectedRange('3.11.0', '3.11.16')], { id: 'CVE-2026-10' }),
+      'CVE-2026-11': cveRecord('CPython', [affectedRange('0', '3.13.15')], { id: 'CVE-2026-11', metrics: [] }),
+    },
+  });
+  const entries = [entry('native', 'qt6', '6.10.2'), entry('native', 'python3', '3.11.15'), entry('native', 'hostpython3', '3.11.15'), entry('native', 'sqlite3', '3.50.0')];
+  const result = await quiet(() => checkVulnerabilities([{ entries }], { fetchImpl, nvdIntervalMs: 0, git: null, cveRecordsDir: newStore() }));
+  assert.deepEqual(result.nvdUnavailable, []);
+  const of = name => result.findings.filter(f => f.name === name).map(f => f.id).sort();
+  assert.deepEqual(of('qt6'), ['CVE-2026-20'], 'only the record that names 6.10.2 of Qt itself');
+  assert.deepEqual(of('python3'), ['CVE-2026-10', 'CVE-2026-11']);
+  assert.deepEqual(of('hostpython3'), ['CVE-2026-10', 'CVE-2026-11'], 'the same records under the other row name');
+  const qt = result.findings.find(f => f.name === 'qt6');
+  assert.deepEqual([qt.listedBy, qt.severity, qt.fixed, qt.affected, qt.summary], [['vendor'], 'high', ['6.11.3'], ['>= 6.9.0, < 6.11.3'], 'qtbase: CVE-2026-20 title']);
+  const folded = result.findings.find(f => f.name === 'python3' && f.id === 'CVE-2026-10');
+  assert.deepEqual(folded.listedBy, ['osv', 'nvd', 'vendor'], 'one finding for the three records of the CVE');
+  assert.deepEqual(folded.aliases, ['PSF-2026-1'], 'kept under NVD\'s more severe record, still known by OSV.dev\'s id');
+  assert.deepEqual(folded.fixed, ['3.13.13', '3.11.16'], 'the vendor names the fix on the shipped line');
+  assert.deepEqual(result.findings.find(f => f.name === 'python3' && f.id === 'CVE-2026-11').listedBy, ['vendor']);
+  const records = calls.filter(c => c.url.includes('cveawg.mitre.org')).map(c => c.url.split('/cve/')[1]).sort();
+  assert.deepEqual(records, ['CVE-2026-10', 'CVE-2026-11', 'CVE-2026-20', 'CVE-2026-21', 'CVE-2026-23', 'CVE-2026-24'], 'each record once, a rejected CVE never');
+  assert.equal(calls.filter(c => c.url.includes('sourceIdentifier')).length, 2, 'one list per vendor, none for SQLite: it publishes no CVE records');
+});
+
+test('a vendor\'s records that cannot be read mark the row like an unreachable NVD; a row NVD failed for is not asked', async () => {
+  const stub = stubFetch({
+    vulnsByQuery: { 'GIT/https://github.com/qt/qtbase@v6.10.2': ['CVE-2026-30'] },
+    advisories: { 'CVE-2026-30': { id: 'CVE-2026-30', database_specific: { severity: 'HIGH' }, affected: [] } },
+    vendorCves: { [QT_SOURCE]: [listedCve('CVE-2026-20')], [PSF_SOURCE]: [listedCve('CVE-2026-11')] },
+    cveRecords: { 'CVE-2026-11': cveRecord('CPython', [affectedRange('0', '3.13.15')], { id: 'CVE-2026-11' }) },
+  });
+  // the CVE Program refuses Qt's record, and NVD the lookup of OpenSSL by product
+  const fetchImpl = async (url, options) => (url.endsWith('/cve/CVE-2026-20') || url.includes('openssl%3Aopenssl')
+    ? { ok: false, status: 403, json: async () => ({}) } : stub.fetchImpl(url, options));
+  const entries = [entry('native', 'qt6', '6.10.2'), entry('native', 'python3', '3.11.15'), entry('native', 'openssl', '3.0.22')];
+  const result = await quiet(() => checkVulnerabilities([{ entries }], { fetchImpl, nvdIntervalMs: 0, git: null, cveRecordsDir: newStore() }));
+  assert.deepEqual(result.findings.map(f => `${f.name} ${f.id}`).sort(), ['python3 CVE-2026-11', 'qt6 CVE-2026-30'], 'what the others found stays');
+  assert.deepEqual(result.nvdUnavailable.map(p => p.name), ['qt6', 'openssl']);
+  assert.deepEqual(result.skipped, { 'nvd-unavailable': 2 });
+  assert.ok(!stub.calls.some(c => c.url.includes('openssl-security')), 'NVD just failed for OpenSSL: its list of the vendor\'s CVEs is not asked for');
+});
+
+test('a vendor NVD lists nothing for was not read: its rows are marked, not cleared', async () => {
+  // NVD answers a source identifier it does not know with an empty list
+  const { fetchImpl } = stubFetch({ vendorCves: { [QT_SOURCE]: [] } });
+  const result = await quiet(() => checkVulnerabilities([{ entries: [entry('native', 'qt6', '6.10.2')] }], { fetchImpl, nvdIntervalMs: 0, git: null, cveRecordsDir: newStore() }));
+  assert.deepEqual(result.nvdUnavailable, [{ ecosystem: 'native', name: 'qt6', version: '6.10.2' }]);
+
+  // so the advisories the vendor's records gave an hour ago stay stored, and under one id each
+  const db = initDatabase(':memory:');
+  const row = (id, aliases, listedBy) => ({ ecosystem: 'native', name: 'python3', version: '3.11.15', id, aliases, severity: 'high', summary: '', fixed: [], listedBy });
+  saveVulnerabilities(db, 'app', '1.0', { findings: [row('CVE-2026-3479', ['PSF-2026-13'], ['osv', 'vendor']), row('CVE-2026-9', [], ['vendor'])],
+    backported: [{ ...row('CVE-2026-7', ['PSF-2026-7'], ['osv', 'vendor']), repo: CPYTHON, commit: 'b15', tag: 'v3.11.15' }] });
+  // the next lookup has OSV.dev alone, which knows the first as PSF-2026-13
+  const stored = saveVulnerabilities(db, 'app', '1.0', { findings: [row('PSF-2026-13', ['CVE-2026-3479'], ['osv']), row('PSF-2026-50', [], ['osv'])],
+    backported: [{ ...row('PSF-2026-7', ['CVE-2026-7'], ['osv']), repo: CPYTHON, commit: 'b15', tag: 'v3.11.15' }],
+    nvdUnavailable: [{ ecosystem: 'native', name: 'python3', version: '3.11.15' }] });
+  assert.deepEqual(getVulnerabilities(db, 'app', '1.0').map(v => [v.vuln_id, v.listed_by]), [['CVE-2026-3479', 'osv vendor'], ['CVE-2026-9', 'vendor'], ['PSF-2026-50', null]],
+    'not CVE-2026-3479 a second time as PSF-2026-13');
+  assert.equal(stored, 3);
+  assert.deepEqual(getBackportedAdvisories(db, 'app', '1.0').map(v => v.vuln_id), ['CVE-2026-7']);
+});
+
+test('a CVE OSV.dev has no record of is asked for once, not with every release', async () => {
+  const pythonRange = { criteria: 'cpe:2.3:a:python:python:*:*:*:*:*:*:*:*', vulnerable: true, versionEndExcluding: '3.13.13' };
+  const { fetchImpl, calls } = stubFetch({ nvd: { 'cpe:2.3:a:python:python:3.11.16': [nvdCve('CVE-2026-40', [pythonRange])] } });
+  const check = () => quiet(() => checkVulnerabilities([{ entries: [entry('native', 'python3', '3.11.16')] }], { fetchImpl, nvdIntervalMs: 0, git: fakeGit({}), cveRecordsDir: newStore() }));
+  assert.deepEqual((await check()).findings.map(f => f.id), ['CVE-2026-40']);
+  assert.deepEqual((await check()).findings.map(f => f.id), ['CVE-2026-40']);
+  assert.equal(calls.filter(c => c.url.endsWith('/vulns/CVE-2026-40')).length, 1);
 });
 
 test('a CVE both sources list shows the fix and the range from whichever record has them', async () => {

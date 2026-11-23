@@ -12,9 +12,10 @@ WorkingDirectory=/opt/source_analysis
 StateDirectory=walletscrutiny-source-analysis
 
 # Same database, export, web host and alert key as walletscrutiny-source-analysis.service;
-# no GitHub token and no containers: no wallet is cloned, only OSV.dev and NVD are
-# asked, and the native libraries' upstream tags are read from the treeless clones
-# in /var/lib/walletscrutiny-source-analysis/upstream-git (upstreamGit.mjs)
+# no GitHub token and no containers: no wallet is cloned, only OSV.dev, NVD and the
+# CVE Program are asked, and the native libraries' upstream tags are read from the
+# treeless clones in /var/lib/walletscrutiny-source-analysis/upstream-git
+# (upstreamGit.mjs); their vendors' CVE records are kept in cve-records/ beside it
 LoadCredentialEncrypted=source-analysis-alert-nsec:/etc/credstore.encrypted/source-analysis-alert-nsec
 Environment=ALERT_NOSTR_NSEC_FILE=%d/source-analysis-alert-nsec
 Environment=SOURCE_ANALYSIS_DB_PATH=/var/lib/walletscrutiny-source-analysis/assets.db

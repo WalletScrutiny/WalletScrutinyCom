@@ -144,8 +144,8 @@ export function initDatabase(dbPath = DB_PATH) {
   // `affected` is the JSON list of the advisory's affected ranges for this
   // package ("< 1.2.3"); NULL on rows stored before the column, until the next recheck.
   ensureColumn(db, 'app_vulnerabilities', 'affected', 'TEXT');
-  // `listed_by` is the databases that listed the advisory, space separated:
-  // "osv", "nvd" or "osv nvd" (plugins/osv.mjs findingsFor); NULL on rows stored
+  // `listed_by` is the sources that listed the advisory, space separated, of
+  // "osv", "nvd" and "vendor" (plugins/osv.mjs findingsFor); NULL on rows stored
   // before the column, until the next recheck.
   ensureColumn(db, 'app_vulnerabilities', 'listed_by', 'TEXT');
   // `fixed_git` is the JSON list of fix versions the upstream repository's
@@ -745,6 +745,12 @@ export function saveDependencies(db, appId, version, analyses) {
 // A new finding of such a package stores NULL (no line) for the same reason.
 // `backported` (plugins/osv.mjs applyUpstreamFixes) replaces the release's
 // stored backported advisories the same way, those of an NVD-less package kept.
+// The same advisory can come back under another id in such a run: the full
+// lookup stored it under NVD's or the vendor's CVE id, OSV.dev alone has it as
+// PSF-2026-13 with that CVE as an alias. The stored row is the fuller one and
+// stays; a second row would count the advisory twice.
+const namesOfRow = r => [r.vuln_id, ...String(r.aliases || '').split(' ').filter(Boolean)];
+
 export function saveVulnerabilities(db, appId, version, { findings, nvdUnavailable = [], backported = [] }) {
   const columns = 'app_id, version, ecosystem, name, dep_version, vuln_id, severity, aliases, fixed, summary, direct, dev, scope, dependants, affected, listed_by, fixed_git';
   const values = columns.split(', ').map(() => '?').join(', ');
@@ -755,10 +761,14 @@ export function saveVulnerabilities(db, appId, version, { findings, nvdUnavailab
   return db.transaction(() => {
     const kept = nvdUnavailable.flatMap(p => stored.all(appId, version, p.ecosystem, p.name, p.version));
     const keptListedBy = new Map(kept.map(r => [key(r.ecosystem, r.name, r.dep_version, r.vuln_id), r.listed_by]));
+    const keptNames = new Set(kept.flatMap(r => namesOfRow(r).map(n => key(r.ecosystem, r.name, r.dep_version, n))));
+    let inserted = 0;
     const unanswered = new Set(nvdUnavailable.map(p => key(p.ecosystem, p.name, p.version, '')));
     db.prepare('DELETE FROM app_vulnerabilities WHERE app_id = ? AND version = ?').run(appId, version);
     for (const f of findings) {
       const k = key(f.ecosystem, f.name, f.version, f.id);
+      if (!keptListedBy.has(k) && [f.id, ...f.aliases].some(n => keptNames.has(key(f.ecosystem, f.name, f.version, n)))) continue;
+      inserted++;
       insert.run(appId, version, f.ecosystem, f.name, f.version, f.id, f.severity,
         f.aliases.join(' '), f.fixed.join(' '), f.summary, boolOrNull(f.direct), boolOrNull(f.dev), scopeOrNull(f.scope), dependantsOrNull(f.dependants),
         Array.isArray(f.affected) && f.affected.length ? JSON.stringify(f.affected) : null,
@@ -770,7 +780,7 @@ export function saveVulnerabilities(db, appId, version, { findings, nvdUnavailab
     let carried = 0;
     for (const r of kept) carried += keep.run(...columns.split(', ').map(c => r[c])).changes;
     saveBackported(db, appId, version, backported, nvdUnavailable);
-    return findings.length + carried;
+    return inserted + carried;
   })();
 }
 
@@ -782,7 +792,11 @@ function saveBackported(db, appId, version, backported, nvdUnavailable) {
   const kept = nvdUnavailable.flatMap(p => stored.all(appId, version, p.ecosystem, p.name, p.version));
   db.prepare('DELETE FROM app_backported_advisories WHERE app_id = ? AND version = ?').run(appId, version);
   const insert = db.prepare(`INSERT OR REPLACE INTO app_backported_advisories (${BACKPORTED_COLUMNS}) VALUES (${values})`);
+  const keptIds = new Set(kept.map(r => [r.ecosystem, r.name, r.dep_version, r.vuln_id].join('\0')));
+  const keptNames = new Set(kept.flatMap(r => namesOfRow(r).map(n => [r.ecosystem, r.name, r.dep_version, n].join('\0'))));
   for (const b of backported) {
+    const k = n => [b.ecosystem, b.name, b.version, n].join('\0');
+    if (!keptIds.has(k(b.id)) && [b.id, ...(b.aliases || [])].some(n => keptNames.has(k(n)))) continue; // as in saveVulnerabilities
     insert.run(appId, version, b.ecosystem, b.name, b.version, b.id, (b.aliases || []).join(' '), b.severity, b.summary || '',
       b.listedBy?.length ? b.listedBy.join(' ') : null, b.repo, b.commit, b.tag);
   }

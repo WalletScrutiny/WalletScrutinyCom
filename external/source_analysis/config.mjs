@@ -68,6 +68,10 @@ export const RC_DIR = process.env.SOURCE_ANALYSIS_RC_DIR || join(dirname(DB_PATH
 // (upstreamGit.mjs), next to the database: the hourly refresh, which has no
 // cache directory, asks them too.
 export const UPSTREAM_GIT_DIR = process.env.SOURCE_ANALYSIS_UPSTREAM_GIT_DIR || join(dirname(DB_PATH), 'upstream-git');
+// The CVE records of the native libraries' vendors (vendorCves.mjs), next to
+// the database for the same reason: a few hundred small records, re-read only
+// when one changes.
+export const CVE_RECORDS_DIR = process.env.SOURCE_ANALYSIS_CVE_RECORDS_DIR || join(dirname(DB_PATH), 'cve-records');
 // One plain copy of the database per run, to go back to when a run damages it;
 // older ones are deleted. Two, since history is db_backup's job (nightly
 // snapshots, 3 weeks, compressed and off the server).

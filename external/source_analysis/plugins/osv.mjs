@@ -16,13 +16,16 @@
  * Native libraries (OpenSSL, SQLite, Qt) come from no registry. They are
  * looked up by where their source lives (NATIVE_UPSTREAM): OSV.dev by git
  * repository and release tag, or by commit, and NVD by product (CPE), since
- * each lists advisories the other misses (OSV.dev has none for Qt). Neither
- * sees a fix backported to an older release line, so each such finding is
- * checked against the release tags of the upstream repository too
- * (applyUpstreamFixes, issue 1016).
+ * each lists advisories the other misses (OSV.dev has none for Qt). NVD names
+ * the product of a CVE only once it has analysed it, so where the library's
+ * vendor publishes its own CVE records, those are read too (VENDORS,
+ * vendorCves.mjs). None of them sees a fix backported to an older release
+ * line, so each such finding is checked against the release tags of the
+ * upstream repository too (applyUpstreamFixes, issue 1016).
  */
-import { SHOW_ONLY_FIRST_X_ALERTS } from '../config.mjs';
+import { SHOW_ONLY_FIRST_X_ALERTS, CVE_RECORDS_DIR } from '../config.mjs';
 import { defaultUpstreamGit, sameRepo } from '../upstreamGit.mjs';
+import { CVE_API, vendorMatch, vendorAdvisory, vendorRecords } from '../vendorCves.mjs';
 
 export const OSV_API = 'https://api.osv.dev/v1';
 const BATCH_SIZE = 1000; // querybatch limit
@@ -44,8 +47,16 @@ const NATIVE_ECOSYSTEMS = new Set(['native', 'p4a']);
 
 // Native libraries by row name: the git repository OSV.dev knows the source
 // as, the tag of a release, and the NVD vendor:product. A name not listed here
-// is not checked (no-upstream) rather than guessed at.
-const cpython = { repo: 'https://github.com/python/cpython', tag: v => `v${v}`, cpe: 'python:python' };
+// is not checked (no-upstream) rather than guessed at. `vendor` is set where
+// the library's maintainers publish their own CVE records: NVD's name for
+// them as the source of a CVE, and the product such a record must name (the
+// same vendors also publish for pip, Qt Creator, Qt for MCUs).
+const VENDORS = {
+  openssl: { source: 'openssl-security@openssl.org', product: /^openssl$/i },
+  psf: { source: 'cna@python.org', product: /^cpython$/i },
+  qt: { source: 'a59d8014-47c4-4630-ab43-e1b13cbe58e3', product: /^qt(?: framework)?$/i },
+};
+const cpython = { repo: 'https://github.com/python/cpython', tag: v => `v${v}`, cpe: 'python:python', vendor: VENDORS.psf };
 // OSV.dev knows the repository in lower case only
 const ffmpeg = { repo: 'https://github.com/ffmpeg/ffmpeg', tag: v => `n${v}`, cpe: 'ffmpeg:ffmpeg' };
 export const NATIVE_UPSTREAM = {
@@ -56,9 +67,9 @@ export const NATIVE_UPSTREAM = {
   libiconv: { repo: 'https://git.savannah.gnu.org/git/libiconv.git', tag: v => `v${v}`, cpe: 'gnu:libiconv' },
   libsecp256k1: { repo: 'https://github.com/bitcoin-core/secp256k1', tag: v => `v${v}`, cpe: null },
   libzbar: { repo: 'https://github.com/mchehab/zbar', tag: v => v, cpe: 'zbar_project:zbar' },
-  openssl: { repo: 'https://github.com/openssl/openssl', tag: v => `openssl-${v}`, cpe: 'openssl:openssl' },
+  openssl: { repo: 'https://github.com/openssl/openssl', tag: v => `openssl-${v}`, cpe: 'openssl:openssl', vendor: VENDORS.openssl },
   python3: cpython,
-  qt6: { repo: 'https://github.com/qt/qtbase', tag: v => `v${v}`, cpe: 'qt:qt' },
+  qt6: { repo: 'https://github.com/qt/qtbase', tag: v => `v${v}`, cpe: 'qt:qt', vendor: VENDORS.qt },
   sqlite3: { repo: 'https://github.com/sqlite/sqlite', tag: v => `version-${v}`, cpe: 'sqlite:sqlite' },
 };
 
@@ -166,7 +177,7 @@ export async function request(fetchImpl, url, body = null, headers = {}) {
         signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
       });
       if (response.ok) return await response.json();
-      lastError = new Error(`${url}: HTTP ${response.status}`);
+      lastError = Object.assign(new Error(`${url}: HTTP ${response.status}`), { status: response.status });
       if (response.status < 500 && response.status !== 429) break; // a client error will not go away
     } catch (error) {
       lastError = error;
@@ -219,6 +230,7 @@ export function clearAdvisoryCache() {
   detailCache.clear();
   nvdCache.clear();
   nvdSeverityCache.clear();
+  vendorCache.clear();
   nvdNextAt = 0;
 }
 
@@ -300,16 +312,20 @@ function nvdAdvisory(cve, q, events) {
   };
 }
 
+// One paced request to NVD: every lookup of the process shares the interval.
+async function nvdRequest(query, fetchImpl, intervalMs) {
+  const wait = nvdNextAt - Date.now();
+  if (wait > 0) await new Promise(resolve => setTimeout(resolve, wait));
+  nvdNextAt = Date.now() + intervalMs;
+  return request(fetchImpl, `${NVD_API}?${query}`, null, process.env.NVD_API_KEY ? { apiKey: process.env.NVD_API_KEY } : {});
+}
+
 async function nvdLookup(q, fetchImpl, intervalMs) {
   const { cpe, version } = q.native;
   const out = [];
   for (let start = 0, total = 1; start < total; start += NVD_PAGE_SIZE) {
-    const wait = nvdNextAt - Date.now();
-    if (wait > 0) await new Promise(resolve => setTimeout(resolve, wait));
-    nvdNextAt = Date.now() + intervalMs;
-    const url = `${NVD_API}?virtualMatchString=${encodeURIComponent(`cpe:2.3:a:${cpe}:${version}`)}` +
-      `&resultsPerPage=${NVD_PAGE_SIZE}&startIndex=${start}`;
-    const data = await request(fetchImpl, url, null, process.env.NVD_API_KEY ? { apiKey: process.env.NVD_API_KEY } : {});
+    const data = await nvdRequest(`virtualMatchString=${encodeURIComponent(`cpe:2.3:a:${cpe}:${version}`)}` +
+      `&resultsPerPage=${NVD_PAGE_SIZE}&startIndex=${start}`, fetchImpl, intervalMs);
     total = data.totalResults || 0;
     for (const { cve } of data.vulnerabilities || []) {
       if (cve.vulnStatus === 'Rejected') continue;
@@ -331,10 +347,7 @@ const nvdSeverityCache = new Map(); // id -> { at, pending }
 export async function nvdSeverity(id, { fetchImpl = globalThis.fetch, intervalMs = NVD_INTERVAL_MS } = {}) {
   if (!(Date.now() - nvdSeverityCache.get(id)?.at < NVD_CACHE_MS)) {
     const pending = (async () => {
-      const wait = nvdNextAt - Date.now();
-      if (wait > 0) await new Promise(resolve => setTimeout(resolve, wait));
-      nvdNextAt = Date.now() + intervalMs;
-      const data = await request(fetchImpl, `${NVD_API}?cveId=${encodeURIComponent(id)}`, null, process.env.NVD_API_KEY ? { apiKey: process.env.NVD_API_KEY } : {});
+      const data = await nvdRequest(`cveId=${encodeURIComponent(id)}`, fetchImpl, intervalMs);
       const metrics = data.vulnerabilities?.[0]?.cve?.metrics || {};
       const label = ['cvssMetricV40', 'cvssMetricV31', 'cvssMetricV30', 'cvssMetricV2']
         .map(k => (metrics[k] || [])[0]).filter(Boolean).map(m => m.cvssData?.baseSeverity ?? m.baseSeverity)[0];
@@ -372,6 +385,66 @@ async function nvdAdvisories(queries, fetchImpl, intervalMs) {
       })));
     } catch (error) {
       console.log(`NVD lookup for ${q.name} ${q.version} failed: ${error.message}`);
+      records.push([]);
+      failed.push(i);
+    }
+  }
+  return { records, failed };
+}
+
+/* ----------------------------- vendor CVE records --------------------------- */
+
+const vendorCache = new Map(); // source -> { at, pending: Promise<Map id -> record> }
+
+// Every CVE a vendor published, with its record (vendorCves.mjs). NVD lists
+// them whether or not it has analysed them; a rejected one is no advisory.
+async function vendorLookup(source, { fetchImpl, intervalMs, dir }) {
+  const listed = [];
+  for (let start = 0, total = 1; start < total; start += NVD_PAGE_SIZE) {
+    const data = await nvdRequest(`sourceIdentifier=${encodeURIComponent(source)}&resultsPerPage=${NVD_PAGE_SIZE}&startIndex=${start}`, fetchImpl, intervalMs);
+    total = data.totalResults || 0;
+    // NVD answers a source it does not know with an empty list, not an error.
+    // A vendor in VENDORS has published CVEs: none listed is a lookup that failed.
+    if (!total) throw new Error(`NVD lists no CVE for the source ${source}`);
+    for (const { cve } of data.vulnerabilities || []) {
+      if (cve.vulnStatus !== 'Rejected') listed.push({ id: cve.id, lastModified: cve.lastModified || '' });
+    }
+    if (!(data.vulnerabilities || []).length) break;
+  }
+  const fetchRecord = id => request(fetchImpl, `${CVE_API}/${encodeURIComponent(id)}`).catch((error) => {
+    if (error.status === 404) return null; // listed by NVD, not (yet) public as a record
+    throw error;
+  });
+  return vendorRecords(source, listed, { dir, fetchRecord });
+}
+
+/**
+ * The vendor's records that name the shipped version, per query, same order
+ * as `queries`; only native releases of a library in VENDORS are asked.
+ * `skip` is the queries NVD already failed for (the list of a vendor's CVEs
+ * comes from NVD too). A query whose vendor's records could not be read has
+ * none and is listed in `failed`, like one NVD did not answer for.
+ */
+async function vendorAdvisories(queries, skip, { fetchImpl, intervalMs, dir }) {
+  const records = [];
+  const failed = [];
+  for (const [i, q] of queries.entries()) {
+    const vendor = q.native?.version ? NATIVE_UPSTREAM[String(q.name).toLowerCase()]?.vendor : null;
+    if (!vendor || skip.includes(i)) { records.push([]); continue; }
+    if (!(Date.now() - vendorCache.get(vendor.source)?.at < NVD_CACHE_MS)) {
+      const pending = vendorLookup(vendor.source, { fetchImpl, intervalMs, dir });
+      pending.catch(() => vendorCache.delete(vendor.source));
+      vendorCache.set(vendor.source, { at: Date.now(), pending });
+    }
+    try {
+      const out = [];
+      for (const [id, record] of await vendorCache.get(vendor.source).pending) {
+        const match = vendorMatch(record, vendor.product, q.native.version, compareVersions);
+        if (match) out.push(vendorAdvisory(id, record, match, q));
+      }
+      records.push(out);
+    } catch (error) {
+      console.log(`Vendor CVE records for ${q.name} ${q.version} could not be read: ${error.message}`);
       records.push([]);
       failed.push(i);
     }
@@ -486,17 +559,18 @@ export function affectedRanges(advisory, q) {
  * issue twice (a GHSA and the RUSTSEC or PYSEC record it aliases); those are
  * folded into one finding, keeping the record that carries a severity and the
  * fixed versions and affected ranges of all of them. `listedBy` is the
- * databases whose records were folded in: 'osv' for OSV.dev, 'nvd' for the
- * NVD records in `extra`.
+ * sources whose records were folded in, in LISTERS' order: 'osv' for OSV.dev,
+ * 'nvd' for the NVD records, 'vendor' for the vendor's own CVE records.
  */
+const LISTERS = ['osv', 'nvd', 'vendor'];
 // Every advisory id and alias folded into a finding, so the upstream check
 // finds the fixing commits of a record that lost the fold to a more severe one.
 const foldedNames = new WeakMap(); // finding -> Set of ids
 
-function findingsFor(q, ids, details, extra = []) {
-  const advisories = [...ids.map(id => details.get(id)).filter(Boolean), ...extra];
-  const nvdRecords = new Set(extra);
-  const listerOf = (advisory) => (nvdRecords.has(advisory) ? 'nvd' : 'osv');
+function findingsFor(q, ids, details, nvd = [], vendor = []) {
+  const advisories = [...ids.map(id => details.get(id)).filter(Boolean), ...nvd, ...vendor];
+  const [nvdRecords, vendorRecordsOf] = [new Set(nvd), new Set(vendor)];
+  const listerOf = (advisory) => (nvdRecords.has(advisory) ? 'nvd' : vendorRecordsOf.has(advisory) ? 'vendor' : 'osv');
   // most severe first; on a tie the record with GitHub's reviewed label, so the
   // kept id does not depend on the order OSV listed them in
   const labelled = (a) => (a.database_specific?.severity ? 0 : 1);
@@ -515,7 +589,10 @@ function findingsFor(q, ids, details, extra = []) {
       // versions nor ranges, the NVD record of the same CVE lists both.
       kept.fixed = [...new Set([...kept.fixed, ...fixed])];
       kept.affected = kept.affected || affected ? [...new Set([...(kept.affected || []), ...(affected || [])])] : null;
-      if (!kept.listedBy.includes(listerOf(advisory))) kept.listedBy = ['osv', 'nvd'];
+      kept.listedBy = LISTERS.filter(l => l === listerOf(advisory) || kept.listedBy.includes(l));
+      // A native finding may be kept under NVD's or the vendor's record, which
+      // names no alias: OSV.dev's id (PSF-2026-13) stays known with it.
+      if (q.native) kept.aliases = [...new Set([...kept.aliases, ...names])].filter(n => n !== kept.id);
       for (const n of names) byName.set(n, kept);
       for (const n of names) foldedNames.get(kept).add(n);
       continue;
@@ -552,7 +629,8 @@ function findingsFor(q, ids, details, extra = []) {
  * OSV.dev could not be reached: a
  * failed lookup is not a clean result. NVD failing leaves the OSV.dev
  * findings in place and lists the native rows it did not answer for in
- * `nvdUnavailable` (and counts them under skipped['nvd-unavailable']).
+ * `nvdUnavailable` (and counts them under skipped['nvd-unavailable']), as
+ * does a vendor's CVE records not being readable.
  */
 // The widest scope among the rows of one package version: 'app' if any row
 // ships, else 'build' if any row is build tooling, else 'tests', else null.
@@ -598,7 +676,12 @@ export function laterOnLine(candidate, version) {
 function advisoryRecord(id, details, fetchImpl) {
   if (details.has(id)) return Promise.resolve(details.get(id));
   if (!detailCache.has(id)) {
-    const pending = request(fetchImpl, `${OSV_API}/vulns/${encodeURIComponent(id)}`);
+    // OSV.dev has no record for many CVEs that only NVD or the vendor lists:
+    // that answer is kept too, and not asked for again with every release.
+    const pending = request(fetchImpl, `${OSV_API}/vulns/${encodeURIComponent(id)}`).catch((error) => {
+      if (error.status === 404) return null;
+      throw error;
+    });
     pending.catch(() => detailCache.delete(id));
     detailCache.set(id, pending);
   }
@@ -710,7 +793,7 @@ export async function applyUpstreamFixes(queries, perQuery, details, { fetchImpl
   return backported;
 }
 
-export async function checkVulnerabilities(analyses, { fetchImpl = globalThis.fetch, nvdIntervalMs = NVD_INTERVAL_MS, git = defaultUpstreamGit() } = {}) {
+export async function checkVulnerabilities(analyses, { fetchImpl = globalThis.fetch, nvdIntervalMs = NVD_INTERVAL_MS, git = defaultUpstreamGit(), cveRecordsDir = CVE_RECORDS_DIR } = {}) {
   console.log('\n--- Test 10: Known vulnerabilities (OSV.dev, from the resolved dependencies) ---');
   const { queries, skipped } = buildQueries(analyses);
   const skippedTotal = Object.values(skipped).reduce((a, b) => a + b, 0);
@@ -726,10 +809,11 @@ export async function checkVulnerabilities(analyses, { fetchImpl = globalThis.fe
     const ids = await queryIds(queries, fetchImpl);
     const details = await fetchDetails(ids.flat(), fetchImpl);
     const nvd = await nvdAdvisories(queries, fetchImpl, nvdIntervalMs);
-    const perQuery = queries.map((q, i) => findingsFor(q, ids[i], details, nvd.records[i]));
+    const vendor = await vendorAdvisories(queries, nvd.failed, { fetchImpl, intervalMs: nvdIntervalMs, dir: cveRecordsDir });
+    const perQuery = queries.map((q, i) => findingsFor(q, ids[i], details, nvd.records[i], vendor.records[i]));
     backported = await applyUpstreamFixes(queries, perQuery, details, { fetchImpl, git });
     findings = perQuery.flat();
-    nvdUnavailable = nvd.failed.map(i => queries[i]);
+    nvdUnavailable = [...nvd.failed, ...vendor.failed].sort((a, b) => a - b).map(i => queries[i]);
   } catch (error) {
     console.log(`Vulnerability lookup failed: ${error.message}. No vulnerability result for this run.`);
     return null;

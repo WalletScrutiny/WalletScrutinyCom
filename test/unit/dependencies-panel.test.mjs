@@ -940,6 +940,12 @@ describe('listedByLine', () => {
     assert.deepEqual([...both.querySelectorAll('a')].map(x => x.href), ['https://osv.dev/vulnerability/CVE-2025-4517', 'https://nvd.nist.gov/vuln/detail/CVE-2025-4517']);
     assert.match(both.title, /not two independent checks/);
     assert.equal(listedByLine(native(['osv'])).textContent, 'Listed by OSV.dev only');
+    const vendorOnly = listedByLine(native(['vendor']));
+    assert.equal(vendorOnly.textContent, 'Listed by vendor only');
+    assert.deepEqual([...vendorOnly.querySelectorAll('a')].map(x => x.href), ['https://www.cve.org/CVERecord?id=CVE-2025-4517'], 'the vendor\'s own CVE record');
+    assert.equal(listedByLine(native(['osv', 'nvd', 'vendor'])).textContent, 'Listed by OSV.dev · NVD · vendor');
+    assert.equal(listedByLine(native(['nvd', 'vendor'])).textContent, 'Listed by NVD · vendor');
+    assert.match(vendorOnly.title, /own maintainers/);
     const aliased = listedByLine(native(['osv', 'nvd'], { id: 'PYSEC-1', aliases: ['CVE-2026-9'] }));
     assert.equal(aliased.querySelectorAll('a')[1].href, 'https://nvd.nist.gov/vuln/detail/CVE-2026-9', 'NVD by the CVE alias');
   });
@@ -954,12 +960,17 @@ describe('listedByLine', () => {
     app.releases[0].advisories = [
       advisory('CVE-2026-1', 'high', { ecosystem: 'native', package: 'openssl', listedBy: ['nvd'] }),
       advisory('CVE-2026-2', 'high', { ecosystem: 'native', package: 'python3', listedBy: ['osv', 'nvd'] }),
+      advisory('CVE-2026-3', 'high', { ecosystem: 'native', package: 'qt6', listedBy: ['vendor'] }),
     ];
     const { fetchImpl } = fakeFetch({ '/x/apps/app.android.json': app, '/xt/statements.json': { schema: 1, trusted: [], maintainers: {}, statements: [] } });
     const host = document.createElement('div');
     await renderDependenciesPanel({ host, appId: 'app.android', selectedVersion: null, base: '/x', triageBase: '/xt', liveEvents: noLive, fetchImpl });
     const cells = [...host.querySelectorAll('.dp-td-advisory')].map(td => td.textContent);
-    assert.deepEqual(cells, ['CVE-2026-1Listed by NVD only', 'CVE-2026-2Listed by OSV.dev · NVD']);
+    assert.deepEqual(cells, ['CVE-2026-1Listed by NVD only', 'CVE-2026-2Listed by OSV.dev · NVD', 'CVE-2026-3Listed by vendor only']);
+    // OSV.dev has no page for a CVE only the vendor lists: its id opens the CVE record
+    assert.deepEqual([...host.querySelectorAll('.dp-td-advisory > a')].map(a => a.href), [
+      'https://osv.dev/vulnerability/CVE-2026-1', 'https://osv.dev/vulnerability/CVE-2026-2', 'https://www.cve.org/CVERecord?id=CVE-2026-3']);
+    assert.deepEqual([...host.querySelectorAll('.dp-adv-icon')].map(a => a.getAttribute('aria-label')), ['CVE-2026-1 on OSV.dev', 'CVE-2026-2 on OSV.dev', 'CVE-2026-3 on cve.org']);
   });
 });
 
@@ -987,7 +998,7 @@ describe('upstream git fixes', () => {
     app.releases[0].advisories = [advisory('CVE-2026-3', 'high', { ecosystem: 'native', package: 'python3', version: '3.11.16', listedBy: ['osv', 'nvd'],
       fixed: ['3.13.13', '3.11.17'], fixedFromGit: [{ version: '3.11.17', tag: 'v3.11.17', commit: 'bbbbbbbbbbbb', repo: CPYTHON }] })];
     app.releases[0].backported = [
-      { id: 'CVE-2026-1', aliases: [], severity: 'high', ecosystem: 'native', package: 'python3', version: '3.11.16', listedBy: ['nvd'], repo: CPYTHON, commit: 'aaaaaaaaaaaa', tag: 'v3.11.16' },
+      { id: 'CVE-2026-1', aliases: [], severity: 'high', ecosystem: 'native', package: 'python3', version: '3.11.16', listedBy: ['nvd', 'vendor'], repo: CPYTHON, commit: 'aaaaaaaaaaaa', tag: 'v3.11.16' },
       { id: 'PSF-2026-2', aliases: ['CVE-2026-2'], severity: 'low', ecosystem: 'native', package: 'hostpython3', version: '3.11.16', repo: CPYTHON, commit: 'cccccccccccc', tag: 'v3.11.16' },
     ];
     const { fetchImpl } = fakeFetch({ '/x/apps/app.android.json': app, '/xt/statements.json': { schema: 1, trusted: [], maintainers: {}, statements: [] } });
@@ -999,7 +1010,7 @@ describe('upstream git fixes', () => {
     assert.match(note.querySelector('p').textContent, /^2 advisories left out: the fix is already in this release\./);
     const items = [...note.querySelectorAll('li')];
     assert.deepEqual(items.map(li => li.textContent), [
-      'python3 3.11.16: CVE-2026-1, listed by NVD; fix aaaaaaaaaa is in v3.11.16',
+      'python3 3.11.16: CVE-2026-1, listed by NVD and the vendor; fix aaaaaaaaaa is in v3.11.16',
       'hostpython3 3.11.16: PSF-2026-2 (CVE-2026-2); fix cccccccccc is in v3.11.16',
     ]);
     assert.deepEqual([...items[1].querySelectorAll('a')].map(a => a.href), [
